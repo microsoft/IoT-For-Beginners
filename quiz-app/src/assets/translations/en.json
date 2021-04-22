@@ -1,0 +1,515 @@
+[
+	{
+		"title": "IoT Development for Beginners: Quizzes",
+		"complete": "Congratulations, you completed the quiz!",
+		"error": "Sorry, try again",
+		"quizzes": [
+			{
+				"id": 1,
+				"title": "Lesson 1 - Introduction to IoT: Pre-Lecture Quiz",
+				"quiz": [
+					{
+						"questionText": "The I in IoT stands for:",
+						"answerOptions": [
+							{
+								"answerText": "Internet",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "Iridium",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "Ironing",
+								"isCorrect": "false"
+							}
+						]
+					},
+					{
+						"questionText": "What's the estimated number of IoT devices in use by the end of 2020?",
+						"answerOptions": [
+							{
+								"answerText": "30",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "30 million",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "30 billion",
+								"isCorrect": "true"
+							}
+						]
+					},
+					{
+						"questionText": "Smartphones are IoT devices",
+						"answerOptions": [
+							{
+								"answerText": "True",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "False",
+								"isCorrect": "false"
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": 2,
+				"title": "Lesson 1 - Introduction to IoT: Post-Lecture Quiz",
+				"quiz": [
+					{
+						"questionText": "IoT devices need to be connected to the Internet at all time",
+						"answerOptions": [
+							{
+								"answerText": "True",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "False",
+								"isCorrect": "true"
+							}
+						]
+					},
+					{
+						"questionText": "IoT devices are always secure",
+						"answerOptions": [
+							{
+								"answerText": "True",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "False",
+								"isCorrect": "true"
+							}
+						]
+					},
+					{
+						"questionText": "AI can be run on low powered IoT devices",
+						"answerOptions": [
+							{
+								"answerText": "True",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "False",
+								"isCorrect": "false"
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": 3,
+				"title": "Lesson 2 - Introduction to IoT devices: Pre-Lecture Quiz",
+				"quiz": [
+					{
+						"questionText": "The T in IoT stands for:",
+						"answerOptions": [
+							{
+								"answerText": "Transistors",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "Things",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "Turkeys",
+								"isCorrect": "false"
+							}
+						]
+					},
+					{
+						"questionText": "IoT devices gather information from the world around them using:",
+						"answerOptions": [
+							{
+								"answerText": "Sensors",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "Actuators",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "Carrier pigeons",
+								"isCorrect": "false"
+							}
+						]
+					},
+					{
+						"questionText": "IoT devices draw more power than the average desktop or laptop computer",
+						"answerOptions": [
+							{
+								"answerText": "True",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "False",
+								"isCorrect": "true"
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": 4,
+				"title": "Lesson 2 - Introduction to IoT devices: Post-Lecture Quiz",
+				"quiz": [
+					{
+						"questionText": "The three steps in a CPU instruction cycle are:",
+						"answerOptions": [
+							{
+								"answerText": "Decode, Execute, Fetch",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "Fetch, Decode, Execute",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "Stop, Collaborate, Listen",
+								"isCorrect": "false"
+							}
+						]
+					},
+					{
+						"questionText": "What operating system do Raspberry Pis run?",
+						"answerOptions": [
+							{
+								"answerText": "They don't run an OS",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "Windows 95",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "Raspberry Pi OS",
+								"isCorrect": "true"
+							}
+						]
+					},
+					{
+						"questionText": "IoT devices typically run faster and have more memory than the average desktop or laptop computer",
+						"answerOptions": [
+							{
+								"answerText": "True",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "False",
+								"isCorrect": "true"
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": 5,
+				"title": "Lesson 3 - Interact with the physical world with sensors and actuators: Pre-Lecture Quiz",
+				"quiz": [
+					{
+						"questionText": "An LED is a sensor:",
+						"answerOptions": [
+							{
+								"answerText": "True",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "False",
+								"isCorrect": "true"
+							}
+						]
+					},
+					{
+						"questionText": "Sensors are used to:",
+						"answerOptions": [
+							{
+								"answerText": "Gather data from the physical world.",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "Control the physical world.",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "Only monitor temperature.",
+								"isCorrect": "false"
+							}
+						]
+					},
+					{
+						"questionText": "Actuators are use to:",
+						"answerOptions": [
+							{
+								"answerText": "Gather data from the physical world.",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "Control the physical world.",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "To calculate insurance risks.",
+								"isCorrect": "false"
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": 6,
+				"title": "Lesson 3 - Interact with the physical world with sensors and actuators: Post-Lecture Quiz",
+				"quiz": [
+					{
+						"questionText": "Digital sensors send data as:",
+						"answerOptions": [
+							{
+								"answerText": "Voltage ranges",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "High and low voltages only",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "Emails",
+								"isCorrect": "false"
+							}
+						]
+					},
+					{
+						"questionText": "What digital signal is sent when a button is pressed?",
+						"answerOptions": [
+							{
+								"answerText": "0",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "1",
+								"isCorrect": "true"
+							}
+						]
+					},
+					{
+						"questionText": "You can control analog actuators from a digital device using pulse-width modulation",
+						"answerOptions": [
+							{
+								"answerText": "True",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "False",
+								"isCorrect": "false"
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": 7,
+				"title": "Lesson 4 - Connect your device to the Internet: Pre-Lecture Quiz",
+				"quiz": [
+					{
+						"questionText": "IoT devices always need to be connected to the Internet to work:",
+						"answerOptions": [
+							{
+								"answerText": "True",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "False",
+								"isCorrect": "true"
+							}
+						]
+					},
+					{
+						"questionText": "IoT devices always communicate over HTTP, the same as web apps and other web APIs:",
+						"answerOptions": [
+							{
+								"answerText": "False",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "True",
+								"isCorrect": "false"
+							}
+						]
+					},
+					{
+						"questionText": "IoT devices rely on the cloud for all their decision making:",
+						"answerOptions": [
+							{
+								"answerText": "False",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "True",
+								"isCorrect": "false"
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": 8,
+				"title": "Lesson 4 - Connect your device to the Internet: Post-Lecture Quiz",
+				"quiz": [
+					{
+						"questionText": "Data gathered from sensors and sent to the cloud is called:",
+						"answerOptions": [
+							{
+								"answerText": "Telemetry",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "Commands",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "Measurements",
+								"isCorrect": "false"
+							}
+						]
+					},
+					{
+						"questionText": "What should happen to a command if the IoT device is offline:",
+						"answerOptions": [
+							{
+								"answerText": "It should always be resent when the device is back online",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "It should never be resent when the device is back online",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "It depends on the command, the device a the requirements of the IoT app",
+								"isCorrect": "true"
+							}
+						]
+					},
+					{
+						"questionText": "MQTT, or Message Queueing Telemetry Transport, has message queues:",
+						"answerOptions": [
+							{
+								"answerText": "True",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "False",
+								"isCorrect": "true"
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": 9,
+				"title": "Lesson 5 - Predict plant growth: Pre-Lecture Quiz",
+				"quiz": [
+					{
+						"questionText": "Iot devices can be used to support agriculture",
+						"answerOptions": [
+							{
+								"answerText": "True",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "False",
+								"isCorrect": "false"
+							}
+						]
+					},
+					{
+						"questionText": "Plant needs include: (pick the best answer)",
+						"answerOptions": [
+							{
+								"answerText": "Carbon dioxide, water, nutrients",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "Carbon dioxide, water, nutrients, light",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "Carbon dioxide, water, nutrients, light, warmth",
+								"isCorrect": "true"
+							}
+						]
+					},
+					{
+						"questionText": "Sensors are too expensive for farmers in developed nations to use:",
+						"answerOptions": [
+							{
+								"answerText": "False",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "True",
+								"isCorrect": "false"
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": 10,
+				"title": "Lesson 5 - Predict plant growth: Post-Lecture Quiz",
+				"quiz": [
+					{
+						"questionText": "Plant growth is dependant on temperature",
+						"answerOptions": [
+							{
+								"answerText": "True",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "False",
+								"isCorrect": "false"
+							}
+						]
+					},
+					{
+						"questionText": "The temperatures to consider for plant growth are:",
+						"answerOptions": [
+							{
+								"answerText": "Minimum, maximum",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "Base, optimal, maximum",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "Maximum only",
+								"isCorrect": "false"
+							}
+						]
+					},
+					{
+						"questionText": "Growing Degree Days are calculated using which formula:",
+						"answerOptions": [
+							{
+								"answerText": "(day max + day min) - plant base",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "((day max + day min) / 2) - plant base",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "((day min + plant base) / 2)",
+								"isCorrect": "false"
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+]
