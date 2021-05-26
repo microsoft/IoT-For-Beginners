@@ -84,7 +84,7 @@ The Raspberry Pi is one of the most popular single-board computers.
 
 Like a microcontroller, single-board computers have a CPU, memory and input/output pins, but they have additional features such as a graphics chip to allow you to connect monitors, audio outputs, and USB ports to connect keyboards mice and other standard USB devices like webcams or external storage. Programs are stored on SD cards or hard drives along with an operating system, instead of a memory chip built into the board.
 
-> 🎓 You can think of a single-board computer as a smaller, cheaper version of the PC or Mac you are reading this on, with the addition of GPIO pins to interact with sensors and actuators.
+> 🎓 You can think of a single-board computer as a smaller, cheaper version of the PC or Mac you are reading this on, with the addition of  GPIO (general-purpose input/output) pins to interact with sensors and actuators.
 
 SIngle-board computers are fully-featured computers, so can be programmed in any language. IoT devices are typically programmed in Python.
 
@@ -92,7 +92,7 @@ SIngle-board computers are fully-featured computers, so can be programmed in any
 
 All the subsequent lessons include assignments using an IoT device to interact with the physical world, and communicate with the cloud. Each lesson supports 3 device choices - Arduino (using a Seeed Studios Wio Terminal), or a single-board computer, either a physical device (a Raspberry Pi 4), or a virtual single-board computer running on your PC or Mac.
 
-You can read about the hardware needed to complete all the assignments in the [hardware guide](../../hardware.md).
+You can read about the hardware needed to complete all the assignments in the [hardware guide](../../../hardware.md).
 
 > 💁 You don't need to purchase any IoT hardware to complete the assignments, you can do everything using a virtual single-board computer.
 
@@ -164,7 +164,7 @@ Commercial IoT covers the use of IoT in the workplace. In an office setting ther
 
 Industrial IoT, or IIoT, is the use of IoT devices to control and manage machinery on a large scale. This covers a wide range of use cases, from factories to digital agriculture.
 
-Factories use IoT devices in many different ways. Machinery can be monitored with multiple sensors to track things like temperature, vibration and rotation speed. This data can then be monitored to allow the machine to be stopped if it goes outside of certain tolerances - it runs to hot and gets shut down for example. This data can also be gathered and analyzed over time to do predictive maintenance, where AI models will look at the data leading up to a failure, and use that to predict other failures before they happen.
+Factories use IoT devices in many different ways. Machinery can be monitored with multiple sensors to track things like temperature, vibration and rotation speed. This data can then be monitored to allow the machine to be stopped if it goes outside of certain tolerances - it runs too hot and gets shut down for example. This data can also be gathered and analyzed over time to do predictive maintenance, where AI models will look at the data leading up to a failure, and use that to predict other failures before they happen.
 
 Digital agriculture is important if the planet is to feed the growing population, especially for the 2 billion people in 500 million households that survive on [subsistence farming](https://wikipedia.org/wiki/Subsistence_agriculture). Digital agriculture can range from a few single digit dollar sensors, to massive commercial setups. A farmer can start by monitoring temperatures and using [growing degree days](https://wikipedia.org/wiki/Growing_degree-day) to predict when a crop will be ready for harvest. They can connect soil moisture monitoring to automated watering systems to give their plants as much water as is needed, but no more to ensure their crops don't dry out without wasting water. Farmers are even taking it further and using drones, satellite data and AI to monitor crop growth, disease and soil quality over huge areas of farmland.
 
@@ -195,7 +195,7 @@ You'd be amazed by just how many IoT devices you have around you. I'm writing th
 * Lights
 * Fitness and health trackers
 
-All these types of devices have sensors and/or actuators and talk to the Internet. I can tell from my phone if my garage door is open, and ask my smart speaker to close it for me. I can even set it to a timer so if it's still open at night, it will close automatically. When my doorbell rings, I can see from my phone who is there wherever I am in the world, and talk to them via a speaker and microphone built into the doorbell. I can monitor my blood glucose, heart rate and sleep patterns, looking for patterns in the data to improve my health. And I can control my lights via the cloud, and sit in the dark when my Internet connection goes down.
+All these types of devices have sensors and/or actuators and talk to the Internet. I can tell from my phone if my garage door is open, and ask my smart speaker to close it for me. I can even set it to a timer so if it's still open at night, it will close automatically. When my doorbell rings, I can see from my phone who is there wherever I am in the world, and talk to them via a speaker and microphone built into the doorbell. I can monitor my blood glucose, heart rate and sleep patterns, looking for patterns in the data to improve my health. I can control my lights via the cloud, and sit in the dark when my Internet connection goes down.
 
 ---
 
