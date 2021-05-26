@@ -1,14 +1,14 @@
 # Transport from farm to factory - using IoT to track food deliveries
 
-Many farmers grow food to sell - either they are commercial growers who sell everything they grow, or they are subsistence farmers who sell their excess produce to buy necessities. Somehow the food has to get from the farm to the consumer, and this is usually relies on bulk transport from farms, to hubs or processing plants, then on to stores. For example, a tomato farmer will harvest tomatoes, pack them into boxes, load the boxes into a truck then deliver to a processing plant. The tomatoes will then be sorted, and from there delivered to the customers in the form of retail, food processing, or restaurants.
+Many farmers grow food to sell - either they are commercial growers who sell everything they grow, or they are subsistence farmers who sell their excess produce to buy necessities. Somehow the food has to get from the farm to the consumer, and this usually relies on bulk transport from farms, to hubs or processing plants, then on to stores. For example, a tomato farmer will harvest tomatoes, pack them into boxes, load the boxes into a truck then deliver to a processing plant. The tomatoes will then be sorted, and from there delivered to the consumers in the form of retail, food processing, or restaurants.
 
-IoT can help with this supply chain by tracking the food in transit - ensuring drivers are going where they should, monitoring vehicle locations, and getting alerts when vehicles arrive so that food can be unloaded ready for processing as soon as possible.
+IoT can help with this supply chain by tracking the food in transit - ensuring drivers are going where they should, monitoring vehicle locations, and getting alerts when vehicles arrive so that food can be unloaded, ready for processing as soon as possible.
 
 > 🎓 A *supply chain* is the sequence of activities to make and deliver something. For example, in tomato farming it covers seed, soil, fertilizer and water supply, growing tomatoes, delivering tomatoes to a central hub, transporting them to a supermarkets local hub, transporting to the individual supermarket, being put out on display, then sold to a consumer and taken home to eat. Each step is like the links in a chain.
 
 > 🎓 The transportation part of the supply chain is know as *logistics*.
 
-In these 4 lessons you'll learn how to apply the Internet of Things to improve the supply chain by monitoring food as it is loaded onto a (virtual) truck which is tracked as it moves to it's destination. You will learn about GPS tracking, how to store and visualize GPS data, and how to be alerted when a truck arrives at its destination.
+In these 4 lessons, you'll learn how to apply the Internet of Things to improve the supply chain by monitoring food as it is loaded onto a (virtual) truck, which is tracked as it moves to it's destination. You will learn about GPS tracking, how to store and visualize GPS data, and how to be alerted when a truck arrives at its destination.
 
 > 💁 These lessons will use some cloud resources. If you don't complete all the lessons in this project, make sure you follow the [Clean up your project](lessons/4-keep-your-plant-secure/README.md#clean-up-your-project) step in [lesson 4](lessons/6-keep-your-plant-secure/README.md).
 
