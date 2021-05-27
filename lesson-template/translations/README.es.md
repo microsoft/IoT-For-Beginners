@@ -1,6 +1,6 @@
 # [Tema de la lección]
 
-![Embeber un video aquí](video-url)
+![Embeba un video aquí](video-url)
 
 ## [Quiz pre-sesión](quiz-url)
 
@@ -8,7 +8,7 @@
 
 ### Introducción
 
-Describa que cubriremos
+Describa qué cubriremos
 
 > Notas
 
@@ -22,25 +22,25 @@ Pasos preliminares para empezar esta lección
 
 ---
 
-[Step through content in blocks]
+[Organice su contenido en bloques]
 
 ## [Tema 1]
 
 ### Tarea:
 
-Trabaja en equipo para perfeccionar progresivamente tu base de código para construir el proyecto con código compartido:
+Trabaje en equipo para perfeccionar progresivamente su base de código para construir el proyecto con código compartido:
 
 ```html
 bloques de código
 ```
 
-✅ Prueba de conocimiento - usa este momento para desafiar el conocimiento de tus estudiantes con preguntas abiertas
+✅ Prueba de conocimiento - use este momento para desafiar el conocimiento de sus estudiantes con preguntas abiertas
 
 ## [Tema 2]
 
 ## [Tema 3]
 
-🚀 Reto: Propón un reto para que los estudianres trabajen colaborativamente en clase para perfeccionar el proyecto
+🚀 Reto: Proponga un reto para que los estudiantes trabajen colaborativamente en clase para perfeccionar el proyecto
 
 Opcional: Si se requiere, agregue una captura de pantalla del UI de la lección completa
 
