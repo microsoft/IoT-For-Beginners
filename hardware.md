@@ -1,8 +1,8 @@
 # Hardware
 
-The **T** in IoT is **Things** and refers to devices that interact with the world around us. Each project is based around real-world hardware available to students and hobbyists. We have two choices of IoT hardware to use depending on personal preference, programming language knowledge or preferences, learning goals and availability. We have also provided a 'virtual hardware' version for those who don't have access to hardware, or want to learn more before committing to a purchase.
+The **T** in IoT is **Things** and refers to devices that interact with the world around us. Each project is based on real-world hardware available to students and hobbyists. We have two choices of IoT hardware to use depending on personal preference, programming language knowledge or preferences, learning goals and availability. We have also provided a 'virtual hardware' version for those who don't have access to hardware, or want to learn more before committing to a purchase.
 
-> 💁 You don't need to purchase any IoT hardware to complete the assignments, you can do everything using virtual IoT hardware.
+> 💁 You don't need to purchase any IoT hardware to complete the assignments. You can do everything using virtual IoT hardware.
 
 The physical hardware choices are Arduino, or Raspberry Pi. Each platform has it's own upsides and downsides, and these are all covered in one of the initial lessons. Review that lesson to decide which hardware platform you are most interested in learning.
 
@@ -33,9 +33,9 @@ All the device code for Raspberry Pi is in Python. To complete all the assignmen
 ### Raspberry Pi hardware
 
 * [Raspberry Pi](https://www.raspberrypi.org/products/raspberry-pi-4-model-b/)
-  > 💁 Versions from the Pi 2B and up should work with the assignments in these lessons.
+  > 💁 Versions from the Pi 2B and above should work with the assignments in these lessons.
 * SD Card (You can get Raspberry Pi kits that come with an SD Card)
-* USB power supply (You can get Raspberry Pi 4 kits that come with a power supply). If you are using a Raspberry Pi 4 you need a USB-C power supply, earlier device need a micro-USB power supply
+* USB power supply (You can get Raspberry Pi 4 kits that come with a power supply). If you are using a Raspberry Pi 4 you need a USB-C power supply, earlier devices need a micro-USB power supply
 
 ### Raspberry Pi specific sensors and actuators
 
@@ -52,7 +52,7 @@ These are specific to using the Raspberry Pi, and are not relevant to using the 
 
 ## Sensors and actuators
 
-Most of the sensors and actuators needed are used by both the Arduino and Raspberry Pi paths:
+Most of the sensors and actuators needed are used by both the Arduino and Raspberry Pi learning paths:
 
 * [Grove LED](https://www.seeedstudio.com/Grove-LED-Pack-p-4364.html) x 2
 * [Grove humidity and temperature sensor](https://www.seeedstudio.com/Grove-Temperature-Humidity-Sensor-DHT11.html)
