@@ -38,3 +38,4 @@ while True:
     print('Light level:', light)
 
     mqtt_client.publish(client_telemetry_topic, json.dumps({'light' : light}))
+    time.sleep(5)
