@@ -108,7 +108,7 @@ Let's look back at the example of the smart thermostat from Lesson 1.
 
 ***An Internet connected thermostat using multiple room sensors. Temperature by Vectors Market / Microcontroller by Template / dial by Jamie Dickinson / heater by Pascal Heß / mobile phone and Calendar by Alice-vector / Cloud by Debi Alpa Nugraha / smart sensor by Andrei Yushchenko / weather by Adrien Coquet - all from the [Noun Project](https://thenounproject.com)***
 
-The thermostat has temperature sensors to gather telemetry. It would most likely have one temperature sensor built in, and it might connect to multiple external temperature sensors over a wireless protocol such as BLE (Bletooth Low Energy).
+The thermostat has temperature sensors to gather telemetry. It would most likely have one temperature sensor built in, and it might connect to multiple external temperature sensors over a wireless protocol such as [BLE](https://en.wikipedia.org/wiki/Bluetooth_Low_Energy) (Bluetooth Low Energy).
 
 An example of the telemetry data it would send could be:
 
@@ -139,7 +139,7 @@ Follow the relevant step below to send telemetry from your device to the MQTT br
 
 ### Receive telemetry from the MQTT broker
 
-There's no point in sending telemetry if there's nothing on the other end to listen for it. The light level telemetry needs something listening to it to process the data. This 'server' code is the kind of code you will deploy to a cloud service as part of a larger IoT application, but here you are going to run this code locally on your computer (turn on your Pi if you are coding directly on there). The server code consists of a Python app that listens to telemetry messages over MQTT with light levels. Later in this lesson you will make it reply with a command message with instructions to turn the LED on or off.
+There's no point in sending telemetry if there's nothing on the other end to listen for it. The light level telemetry needs something listening to it to process the data. This 'server' code is the kind of code you will deploy to a cloud service as part of a larger IoT application, but here you are going to run this code locally on your computer (or on your Pi if you are coding directly on there). The server code consists of a Python app that listens to telemetry messages over MQTT with light levels. Later in this lesson you will make it reply with a command message with instructions to turn the LED on or off.
 
 ✅ Do some research: What happens to MQTT messages if there is no listener?
 
