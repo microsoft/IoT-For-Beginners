@@ -392,6 +392,8 @@ The next step for our Internet controlled nightlight is for the server code to s
 
 > 💁 The telemetry and commands are being sent on a single topic each. This means telemetry from multiple devices will appear on the same telemetry topic, and commands to multiple devices will appear on the same commands topic. If you wanted to send a command to a specific device, you could use multiple topics, named with a unique device id, such as `/commands/device1`, `/commands/device2`. That way a device can listen on messages just meant for that one device.
 
+> 💁 You can find this code in the [code-commands/server](code-commands/server) folder.
+
 ### Handle commands on the IoT device
 
 Now that commands are being sent from the server, you cna now add code to the IoT device to handle them and control the LED.
