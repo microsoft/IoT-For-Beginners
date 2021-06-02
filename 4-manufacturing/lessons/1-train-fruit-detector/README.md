@@ -69,7 +69,7 @@ The ML model used to detect images like this is called an *image classifier* - i
 
 ## Train an image classifier
 
-To successfully train an image classifier you need millions of images. As it turns out, once you have an image classifier trained on millions or billions of assorted images, you can re-use it and re-train it for just a small set of images and get great results, using a process called transfer learning.
+To successfully train an image classifier you need millions of images. As it turns out, once you have an image classifier trained on millions or billions of assorted images, you can re-use it and re-train it using a small set of images and get great results, using a process called transfer learning.
 
 Once an image classifier has been trained for a wide variety of images, it's internals are great at recognizing shapes, colors and patterns. Transfer learning allows the model to take what it has already learned in recognizing image parts, and use that to recognize new images.
 
@@ -81,11 +81,67 @@ There are a wide range of tools that can help you do this, including cloud-based
 
 > 💁 Training these models takes a lot of computer power, usually via Graphics Processing Units, or GPUs. The same specialized hardware that makes graphics on your Xbox look amazing can also be used to train machine learning models. By using the cloud you have access to the power you need, just for the time you need it.
 
+## Custom Vision
+
+Custom Vision is a cloud based tool for training image classifiers. It allows you to train a classifier using only a small number of images. You can upload images through a web portal, web API or an SDK, giving each image a *tag* that has the classification of that image. You then train the model, and test it out to see how well it performs. Once you are happy with the model, you can publish versions of it that can be accessed through a web API or an SDK.
+
+Custom Vision is part of a range of AI tools from Microsoft called Cognitive Services. These are AI tools that can be used either without any training, or with a small amount of training. They include speech recognition and translation, language understanding and image analysis. These are available with a free tier as services in Azure.
+
+> 💁 The free tier is more than enough to create a model, train it, then use it for development work. You can read about the limits of the free tier on the [Custom Vision Limits and quotas page on Microsoft docs](https://docs.microsoft.com/azure/cognitive-services/custom-vision-service/limits-and-quotas?WT.mc_id=academic-17441-jabenn).
+
 ### Task - create a cognitive services resource
+
+To use Custom Vision, you first need to create two cognitive services resources in Azure using the Azure CLI, one for Custom Vision training and one for Custom Vision prediction.
+
+1. Create a Resource Group for this project called `fruit-quality-detector`
+
+1. Use the following command to create a free Custom Vision training resource:
+
+    ```sh
+    az cognitiveservices account create --name fruit-quality-detector-training \
+                                        --resource-group fruit-quality-detector \
+                                        --kind CustomVision.Training \
+                                        --sku F0 \
+                                        --yes \
+                                        --location <location>
+    ```
+
+    Replace `<location>` with the location you used when creating the Resource Group.
+
+    This will create a Custom Vision training resource in your Resource Group. It will be called `fruit-quality-detector-training` and use the `F0` sku, which is the free tier. The `--yes` option means you agree to the terms and conditions of the cognitive services.
+
+1. Use the following command to create a free Custom Vision prediction resource:
+
+    ```sh
+    az cognitiveservices account create --name fruit-quality-detector-prediction \
+                                        --resource-group fruit-quality-detector \
+                                        --kind CustomVision.Prediction \
+                                        --sku F0 \
+                                        --yes \
+                                        --location <location>
+    ```
+
+    Replace `<location>` with the location you used when creating the Resource Group.
+
+    This will create a Custom Vision training resource in your Resource Group. It will be called `fruit-quality-detector-prediction` and use the `F0` sku, which is the free tier. The `--yes` option means you agree to the terms and conditions of the cognitive services.
 
 ### Task - create an image classifier project
 
+1. Follow the [Create a new Project section of the Build a classifier quickstart on the Microsoft docs](https://docs.microsoft.com/azure/cognitive-services/custom-vision-service/getting-started-build-a-classifier?WT.mc_id=academic-17441-jabenn#create-a-new-project) to create a new Custom Vision project. The UI may change and these docs are always the most up to date reference.
+
+    Call your project `food-quality-detector`.
+
+    When you create your project, make sure to use the `fruit-quality-detector-training` resource you created earlier. Use a *Classification* project type, a *Multiclass* classification type, and the *Food* domain.
+
 ### Task - train your image classifier project
+
+To train an image classifier, you will need multiple pictures of fruit, both good and bad quality to tag as good and bad, such as an ripe and an overripe banana.
+
+> 💁 These classifiers can classify images of anything, so if you don't have fruit to hand of differing quality, you can use two different types of fruit, or cats and dogs!
+
+Ideally each picture should be just the fruit, with either a consistent background, or a wide variety of backgrounds. Ensure there's nothing in the background that is specific to ripe vs unripe fruit.
+
+> 💁 It's important not to have specific backgrounds for each tag, otherwise the classifier may just classify based on the background. There was an example of a classifier for skin cancer that was trained on moles both normal and cancerous, and the cancerous ones all had rulers against them to measure the size. It turned out the classifier was 100% accurate at identifying rulers in pictures.
 
 ## Test your image classifier
 
