@@ -318,7 +318,8 @@ Write the server code.
     Message received: {'light': 0}
     Message received: {'light': 400}
     ```
-> The app.py file in the nightlight virtual environment has to be running for the app.py file in the nightlight-server virtual environment to recieve the messages being sent.
+    
+    The app.py file in the nightlight virtual environment has to be running for the app.py file in the nightlight-server virtual environment to recieve the messages being sent.
 
 > 💁 You can find this code in the [code-server/server](code-server/server) folder.
 
