@@ -28,7 +28,7 @@ The term 'Internet of Things' was coined by [Kevin Ashton](https://wikipedia.org
 >
 > **Actuators** convert electrical signals into real-world interactions such as levers, turning on lights, making sounds, or sending control signals to other hardware such as to turn on a power socket
 
-IoT as a technology area is more than just devices - it includes cloud based services that can process the sensor data, or send requests to actuators connected to IoT devices. It also includes devices that don't have connectivity, often referred to as edge devices, that can process and respond to sensor data themselves, usually using AI models trained in the cloud.
+IoT as a technology area is more than just devices - it includes cloud based services that can process the sensor data, or send requests to actuators connected to IoT devices. It also includes devices that don't have or don't need Internet connectivity, often referred to as edge devices. These are devices that can process and respond to sensor data themselves, usually using AI models trained in the cloud.
 
 IoT is a fast growing technology field. It is estimated that by the end of 2020, 30 billion IoT devices were deployed and connected to the Internet. Looking to the future, it is estimated that by 2025, IoT devices will be gathering almost 80 zettabytes of data, or 80 trillion gigabytes. That's a lot of data!
 
