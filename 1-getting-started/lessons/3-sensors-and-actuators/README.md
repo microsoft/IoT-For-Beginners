@@ -54,7 +54,7 @@ Sensors are either analog or digital.
 
 Some of the most basic sensors are analog sensors. These sensors receive a voltage from the IoT device, the sensor components adjust this voltage, and the voltage that is returned from the sensor is measured to give the sensor value.
 
-> 🎓 Voltage is a measure of how mush push there is to move electricity from one place to another, such as from a positive terminal of a battery to the negative terminal. For example, a standard AA battery is 1.5V (V is the symbol for volts), and can push electricity with the force of 1.5V from it's positive terminal to its negative terminal. Different electrical hardware requires different voltages to work, for example an LED can light with between 2-3V, but a 100W filament lightbulb would need 240V. You can read more about voltage on the [Voltage page on Wikipedia](https://wikipedia.org/wiki/Voltage).
+> 🎓 Voltage is a measure of how much push there is to move electricity from one place to another, such as from a positive terminal of a battery to the negative terminal. For example, a standard AA battery is 1.5V (V is the symbol for volts), and can push electricity with the force of 1.5V from it's positive terminal to its negative terminal. Different electrical hardware requires different voltages to work, for example an LED can light with between 2-3V, but a 100W filament lightbulb would need 240V. You can read more about voltage on the [Voltage page on Wikipedia](https://wikipedia.org/wiki/Voltage).
 
 One example of this is a potentiometer. This is a dial that you can rotate between two positions and the sensor measures the rotation.
 
@@ -62,7 +62,7 @@ One example of this is a potentiometer. This is a dial that you can rotate betwe
 
 ***A potentiometer. Microcontroller by Template / dial by Jamie Dickinson - all from the [Noun Project](https://thenounproject.com)***
 
-The IoT device will send an electrical signal to the potentiometer at a voltage, such as 5 volts (5V). As the potentiometer is adjusted it changes the voltage that comes out the other side. Imagine you have a potentiometer labelled as a dial that goes from 0 to [11](https://wikipedia.org/wiki/Up_to_eleven), such as a volume knob on an amplifier. When the potentiometer is in the full off position (0) then 0v (0 volts) will come out. When it is in the full on position (11), 5V (5 volts) will come out.
+The IoT device will send an electrical signal to the potentiometer at a voltage, such as 5 volts (5V). As the potentiometer is adjusted it changes the voltage that comes out of the other side. Imagine you have a potentiometer labelled as a dial that goes from 0 to [11](https://wikipedia.org/wiki/Up_to_eleven), such as a volume knob on an amplifier. When the potentiometer is in the full off position (0) then 0v (0 volts) will come out. When it is in the full on position (11), 5V (5 volts) will come out.
 
 > 🎓 This is an oversimplification, and you can read more on potentiometers and variable resistors on the [potentiometer Wikipedia page](https://wikipedia.org/wiki/Potentiometer).
 
@@ -72,7 +72,7 @@ The voltage that comes out the sensor is then read by the IoT device, and the de
 
 #### Analog to digital conversion
 
-IoT devices are digital - they can't work with analog values, they only work with 0s and 1s. This means that analog sensor values need to be converted to a digital signal before they can be processed. Many IoT devices have analog-to-digital converters (ADCs) to convert analog inputs to digital representations of their value. Sensors can also work with ADCs via a connector board. For example, in the Seeed Grove ecosystem with a Raspberry Pi, analog sensors connect to specific ports on a 'hat' that sits on the Pi connected to the Pis GPIO pins, and this hat has an ADC to convert the voltage into a digital signal that can be sent of the Pi's GPIO pins.
+IoT devices are digital - they can't work with analog values, they only work with 0s and 1s. This means that analog sensor values need to be converted to a digital signal before they can be processed. Many IoT devices have analog-to-digital converters (ADCs) to convert analog inputs to digital representations of their value. Sensors can also work with ADCs via a connector board. For example, in the Seeed Grove ecosystem with a Raspberry Pi, analog sensors connect to specific ports on a 'hat' that sits on the Pi connected to the Pi's GPIO pins, and this hat has an ADC to convert the voltage into a digital signal that can be sent off the Pi's GPIO pins.
 
 Imagine you have an analog light sensor connected to an IoT device that uses 3.3V, and is returning a value of 1v. This 1v doesn't mean anything in the digital world, so needs to be converted. The voltage will be converted to an analog value using a scale depending on the device and sensor. One example is the Seeed Grove light sensor which outputs values from 0 to 1,023. For this sensor running at 3.3V, a 1v output would be a value of 300. An IoT device can't handle 300 as an analog value, so the value would be converted to `0000000100101100`, the binary representation of 300 by the Grove hat. This would then be processed by the IoT device.
 
