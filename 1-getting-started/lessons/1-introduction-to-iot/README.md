@@ -28,7 +28,7 @@ The term 'Internet of Things' was coined by [Kevin Ashton](https://wikipedia.org
 >
 > **Actuators** convert electrical signals into real-world interactions such as levers, turning on lights, making sounds, or sending control signals to other hardware such as to turn on a power socket
 
-IoT as a technology area is more than just devices - it includes cloud based services that can process the sensor data, or send requests to actuators connected to IoT devices. It also includes devices that don't have connectivity, often referred to as edge devices, that can process and respond to sensor data themselves, usually using AI models trained in the cloud.
+IoT as a technology area is more than just devices - it includes cloud based services that can process the sensor data, or send requests to actuators connected to IoT devices. It also includes devices that don't have or don't need Internet connectivity, often referred to as edge devices. These are devices that can process and respond to sensor data themselves, usually using AI models trained in the cloud.
 
 IoT is a fast growing technology field. It is estimated that by the end of 2020, 30 billion IoT devices were deployed and connected to the Internet. Looking to the future, it is estimated that by 2025, IoT devices will be gathering almost 80 zettabytes of data, or 80 trillion gigabytes. That's a lot of data!
 
@@ -64,7 +64,7 @@ Microcontrollers are typically low cost computing devices, with average prices f
 
 ![A Wio Terminal](../../../images/wio-terminal.png)
 
-> 💁 When searching the Internet for microcontrollers be wary of searching for the term **MCU** as this will bring back a lot of results for the Marvel Cinematic Universe, not microcontrollers.
+> 💁 When searching the Internet for microcontrollers be observant of searching for the term **MCU** as this will bring back a lot of results for the Marvel Cinematic Universe, not microcontrollers.
 
 Microcontrollers are designed to be programmed to do a limited number of very specific tasks, rather than being general-purpose computers like PCs or Macs. Except for very specific scenarios, you can't connect a monitor, keyboard and mouse and use them for general purpose tasks.
 
@@ -74,7 +74,7 @@ Microcontroller developer kits usually come with additional sensors and actuator
 
 ### Single-board computers
 
-A single-board computer is a small computing devices that has all the elements of a complete computer contained on a single small board. These are devices that have specifications close to a desktop or laptop PC or Mac, run a full operating system, but are small, use lower power, and are substantially cheaper.
+A single-board computer is a small computing device that has all the elements of a complete computer contained on a single small board. These are devices that have specifications close to a desktop or laptop PC or Mac, run a full operating system, but are small, use less power, and are substantially cheaper.
 
 ![A Raspberry Pi 4](../../../images/raspberry-pi-4.jpg)
 
@@ -86,7 +86,7 @@ Like a microcontroller, single-board computers have a CPU, memory and input/outp
 
 > 🎓 You can think of a single-board computer as a smaller, cheaper version of the PC or Mac you are reading this on, with the addition of  GPIO (general-purpose input/output) pins to interact with sensors and actuators.
 
-SIngle-board computers are fully-featured computers, so can be programmed in any language. IoT devices are typically programmed in Python.
+Single-board computers are fully-featured computers, so can be programmed in any language. IoT devices are typically programmed in Python.
 
 ### Hardware choices for the rest of the lessons
 
