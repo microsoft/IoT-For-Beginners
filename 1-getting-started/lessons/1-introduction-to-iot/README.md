@@ -64,7 +64,7 @@ Microcontrollers are typically low cost computing devices, with average prices f
 
 ![A Wio Terminal](../../../images/wio-terminal.png)
 
-> 💁 When searching the Internet for microcontrollers be wary of searching for the term **MCU** as this will bring back a lot of results for the Marvel Cinematic Universe, not microcontrollers.
+> 💁 When searching the Internet for microcontrollers be observant of searching for the term **MCU** as this will bring back a lot of results for the Marvel Cinematic Universe, not microcontrollers.
 
 Microcontrollers are designed to be programmed to do a limited number of very specific tasks, rather than being general-purpose computers like PCs or Macs. Except for very specific scenarios, you can't connect a monitor, keyboard and mouse and use them for general purpose tasks.
 
@@ -74,7 +74,7 @@ Microcontroller developer kits usually come with additional sensors and actuator
 
 ### Single-board computers
 
-A single-board computer is a small computing devices that has all the elements of a complete computer contained on a single small board. These are devices that have specifications close to a desktop or laptop PC or Mac, run a full operating system, but are small, use lower power, and are substantially cheaper.
+A single-board computer is a small computing device that has all the elements of a complete computer contained on a single small board. These are devices that have specifications close to a desktop or laptop PC or Mac, run a full operating system, but are small, use less power, and are substantially cheaper.
 
 ![A Raspberry Pi 4](../../../images/raspberry-pi-4.jpg)
 
@@ -86,7 +86,7 @@ Like a microcontroller, single-board computers have a CPU, memory and input/outp
 
 > 🎓 You can think of a single-board computer as a smaller, cheaper version of the PC or Mac you are reading this on, with the addition of  GPIO (general-purpose input/output) pins to interact with sensors and actuators.
 
-SIngle-board computers are fully-featured computers, so can be programmed in any language. IoT devices are typically programmed in Python.
+Single-board computers are fully-featured computers, so can be programmed in any language. IoT devices are typically programmed in Python.
 
 ### Hardware choices for the rest of the lessons
 
