@@ -108,7 +108,7 @@ Let's look back at the example of the smart thermostat from Lesson 1.
 
 ***An Internet connected thermostat using multiple room sensors. Temperature by Vectors Market / Microcontroller by Template / dial by Jamie Dickinson / heater by Pascal Heß / mobile phone and Calendar by Alice-vector / Cloud by Debi Alpa Nugraha / smart sensor by Andrei Yushchenko / weather by Adrien Coquet - all from the [Noun Project](https://thenounproject.com)***
 
-The thermostat has temperature sensors to gather telemetry. It would most likely have one temperature sensor built in, and it might connect to multiple external temperature sensors over a wireless protocol such as [BLE](https://en.wikipedia.org/wiki/Bluetooth_Low_Energy) (Bluetooth Low Energy).
+The thermostat has temperature sensors to gather telemetry. It would most likely have one temperature sensor built in, and it might connect to multiple external temperature sensors over a wireless protocol such as [Bluetooth Low Energy](https://wikipedia.org/wiki/Bluetooth_Low_Energy) (BLE).
 
 An example of the telemetry data it would send could be:
 

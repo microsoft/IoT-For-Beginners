@@ -5,7 +5,7 @@ import paho.mqtt.client as mqtt
 
 id = '<ID>'
 
-lient_telemetry_topic = id + '/telemetry'
+client_telemetry_topic = id + '/telemetry'
 client_name = id + 'nightlight_server'
 server_command_topic = id + '/commands'
 
