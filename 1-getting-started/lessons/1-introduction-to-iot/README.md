@@ -16,13 +16,13 @@ In this lesson we'll cover:
 
 * [What is the 'Internet of Things'?](#what-is-the-internet-of-things)
 * [IoT devices](#iot-devices)
-* [Setting up your device](#setting-up-your-device)
+* [Set up your device](#set-up-your-device)
 * [Applications of IoT](#applications-of-iot)
 * [Examples of IoT devices you may have around you](#examples-of-iot-devices-you-may-have-around-you)
 
 ## What is the 'Internet of Things'?
 
-The term 'Internet of Things' was coined by [Kevin Ashton](https://wikipedia.org/wiki/Kevin_Ashton) in 1999, to refer to connecting the Internet to the physical world via sensors. Since then, the term has been used to describe any device that interacts with the physical world around it, either by gathering data from sensors, or providing real-world interactions via actuators, and that is generally connected to other devices or the Internet.
+The term 'Internet of Things' was coined by [Kevin Ashton](https://wikipedia.org/wiki/Kevin_Ashton) in 1999, to refer to connecting the Internet to the physical world via sensors. Since then, the term has been used to describe any device that interacts with the physical world around it, either by gathering data from sensors, or providing real-world interactions via actuators (devices that do something like turn on a switch or light an LED), generally connected to other devices or the Internet.
 
 > **Sensors** gather information from the world, such as measuring speed, temperature or location.
 >
@@ -56,7 +56,7 @@ A microcontroller (also referred to as an MCU, short for microcontroller unit) i
 
 🧠 One or more central processing units (CPUs) - the 'brain' of the microcontroller that runs your program
 
-💾 Memory (RAM and program memory) - where your program and data are stored
+💾 Memory (RAM and program memory) - where your program, data and variables are stored
 
 🔌 Programmable input/output (I/O) connections - to talk to external peripherals (connected devices) such as sensors and actuators
 
@@ -121,7 +121,7 @@ If you are using a Raspberry Pi, you can either run your Pi using the full deskt
 
 If you use the virtual device option, you will code directly on your computer. Instead of accessing sensors and actuators, you will use a tool to simulate this hardware providing sensor values that you can define, and showing the results of actuators on screen.
 
-## Setting up your device
+## Set up your device
 
 Before you can get started with programming your IoT device, you will need to do a small amount of setup. Follow the relevant instructions below depending on which device you will be using.
 
