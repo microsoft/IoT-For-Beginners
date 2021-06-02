@@ -74,6 +74,6 @@ Write the device code.
     Light level: 0
     ```
 
-> 💁 You can find this code in the [code-mqtt/virtual-device](code/virtual-device) folder or the [code-mqtt/pi](code/pi) folder.
+> 💁 You can find this code in the [code-mqtt/virtual-device](code-mqtt/virtual-device) folder or the [code-mqtt/pi](code-mqtt/pi) folder.
 
 😀 You have successfully connected your device to an MQTT broker.

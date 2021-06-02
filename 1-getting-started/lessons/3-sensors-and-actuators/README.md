@@ -112,7 +112,7 @@ Actuators are the opposite of sensors - they convert an electrical signal from y
 Some common actuators include:
 
 * LED - these emit light when turned on
-* Speaker - these emil sound based on the signal sent to them, from a basic buzzer to an audio speaker that can play music
+* Speaker - these emit sound based on the signal sent to them, from a basic buzzer to an audio speaker that can play music
 * Stepper motor - these convert a signal into a defined amount of rotation, such as turning a dial 90°
 * Relay - these are switches that can be turned on or off by an electrical signal. They allow a small voltage from an IoT device to turn on larger voltages.
 * Screens - these are more complex actuators and show information on a multi-segment display. Screens vary from simple LED displays to high-resolution video monitors.
