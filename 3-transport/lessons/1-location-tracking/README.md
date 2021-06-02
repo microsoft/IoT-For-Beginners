@@ -10,7 +10,7 @@ Add a sketchnote if possible/appropriate
 
 ## Introduction
 
-The main process for getting food from a farmer to a consumer involves loading boxes of produce on to trucks, ships, airplanes or other commercial transport vehicles, and delivering the food somewhere - either direct to a customer, or to a central hub or warehouse for processing. The whole end-to-end process from farm to consumer is part of a process called the *supply chain*. The video below from Arizona State University's W. P. Carey School of Business talks about the idea of the supply chain and how it is managed in more detail.
+The main process for getting food from a farmer to a consumer involves loading boxes of produce on to trucks, ships, airplanes, or other commercial transport vehicles, and delivering the food somewhere - either direct to a customer, or to a central hub or warehouse for processing. The whole end-to-end process from farm to consumer is part of a process called the *supply chain*. The video below from Arizona State University's W. P. Carey School of Business talks about the idea of the supply chain and how it is managed in more detail.
 
 [![What is Supply Chain Management? A video from Arizona State University's W. P. Carey School of Business](https://img.youtube.com/vi/Mi1QBxVjZAw/0.jpg)](https://www.youtube.com/watch?v=Mi1QBxVjZAw)
 
@@ -45,7 +45,7 @@ IoT is transforming the way goods are transported by creating fleets of *connect
 
 * Driver hours compliance - ensuring drivers only drive for their legally allowed hours based on the times they turn the engine on and off.
 
-These benefits can be combined - for example, combining driver hours compliance with location tracking to re-route drivers if they cannot reach their destination within their allowed driving hours. These can also be combined with other vehicle-specific telemetry, such as temperature data from temperature controlled trucks, allow vehicles to be re-routed if their current route would mean goods cannot be kept at temperature.
+These benefits can be combined - for example, combining driver hours compliance with location tracking to re-route drivers if they cannot reach their destination within their allowed driving hours. These can also be combined with other vehicle-specific telemetry, such as temperature data from temperature-controlled trucks, allow vehicles to be re-routed if their current route would mean goods cannot be kept at temperature.
 
 > 🎓 Logistics is the process of transporting goods from one place to another, such as from a farm to a supermarket via one or more warehouses. A farmer packs boxes of tomatoes that are loaded onto a truck, delivered to a central warehouse, and put onto a second truck that may contain a mixture of different types of produce which are then delivered to a supermarket.
 
@@ -81,7 +81,7 @@ To measure the longitude of a point, you measure the number of degrees round the
 
 Traditionally, measurements of degrees of latitude and longitude were done using sexagesimal numbering, or base-60, a numbering system used by the Ancient Babylonians who did the first measurements and recordings of time and distance. You use sexagesimal every day probably without even realising it - dividing hours into 60 minutes and minutes into 60 seconds.
 
-Longitude and latitude is measured in degrees, minutes and seconds, with one minute being 1/60 of a degree, and 1 second being 1/60 minute.
+Longitude and latitude are measured in degrees, minutes and seconds, with one minute being 1/60 of a degree, and 1 second being 1/60 minute.
 
 For example, at the equator:
 
@@ -89,11 +89,11 @@ For example, at the equator:
 * 1 minute of latitude is 111.3/60 = **1.855 kilometers**
 * 1 second of latitude is 1.855/60 = **0.031 kilometers**
 
-The symbol for a minute is a single quote, for a second it is a double quote. 2 degrees, 17 minutes and 43 seconds for example, would be written as 2°17'43". Parts of seconds are given as decimals, for example half a second is 0°0'0.5".
+The symbol for a minute is a single quote, for a second it is a double quote. 2 degrees, 17 minutes, and 43 seconds for example, would be written as 2°17'43". Parts of seconds are given as decimals, for example half a second is 0°0'0.5".
 
 Computers don't work in base-60, so these coordinates are given as decimal degrees when using GPS data in most computer systems. For example, 2°17'43" is 2.295277. The degree symbol is usually omitted.
 
-Coordinates for a point are always given as `latitude,longitude`, so the example earlier of the Microsoft Campus at 47.6423109,-122.117198 has:
+Coordinates for a point are always given as `latitude, longitude`, so the example earlier of the Microsoft Campus at 47.6423109,-122.117198 has:
 
 * A latitude of 47.6423109 (47.6423109 degrees north of the equator)
 * A longitude of -122.1390293 (122.1390293 degrees west of the Prime Meridian).
@@ -152,7 +152,7 @@ GPS sensors output data using NMEA messages, using the NMEA 0183 standard. NMEA 
 
 These messages are text-based. Each message consists of a *sentence* that starts with a `$` character, followed by 2 characters to indicate the source of the message (e.g GP for the US GPS system, GN for GLONASS, the Russian GPS system), and 3 characters to indicate the type of message. The rest of the message is fields separated by commas, ending in a new line character.
 
-Some of the types of message that can be received are:
+Some of the types of messages that can be received are:
 
 | Type | Description |
 | ---- | ----------- |
@@ -164,7 +164,7 @@ Some of the types of message that can be received are:
 
 The GGA message includes the current location using the `(dd)dmm.mmmm` format, along with a single character to indicate direction. The `d` in the format is degrees, the `m` is minutes, with seconds as decimals of minutes. For example, 2°17'43" would be 217.716666667 - 2 degrees, 17.716666667 minutes.
 
-The direction character can be `N` or `S` for latitude to indicate north or south,  and `E` or `W` for longitude to indicate east or west. For example, a latitude of 2°17'43" would have a direction character of `N`, -2°17'43" would have a direction character of `S`.
+The direction character can be `N` or `S` for latitude to indicate north or south, and `E` or `W` for longitude to indicate east or west. For example, a latitude of 2°17'43" would have a direction character of `N`, -2°17'43" would have a direction character of `S`.
 
 For example - the NMEA sentence `$GNGGA,020604.001,4738.538654,N,12208.341758,W,1,3,,164.7,M,-17.1,M,,*67`
 
