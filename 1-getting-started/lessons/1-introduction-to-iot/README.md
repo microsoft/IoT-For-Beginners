@@ -26,7 +26,7 @@ The term 'Internet of Things' was coined by [Kevin Ashton](https://wikipedia.org
 
 > **Sensors** gather information from the world, such as measuring speed, temperature or location.
 >
-> **Actuators** convert electrical signals into real-world interactions such as turning levers, switching on lights, making sounds, or sending control signals to other hardware, for example to turn on a power socket.
+> **Actuators** convert electrical signals into real-world interactions such as triggering a switch, turning on lights, making sounds, or sending control signals to other hardware, for example to turn on a power socket.
 
 IoT as a technology area is more than just devices - it includes cloud based services that can process the sensor data, or send requests to actuators connected to IoT devices. It also includes devices that don't have connectivity, often referred to as edge devices, that can process and respond to sensor data themselves, usually using AI models trained in the cloud.
 
