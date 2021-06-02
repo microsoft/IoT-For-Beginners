@@ -86,7 +86,7 @@ Messages can be sent with a quality of service (QoS), which determines the guara
 
 ✅ What situations might require an assured delivery message over a fire and forget message?
 
-Although the name is Message Queueing, it doesn't actually support message queues. This means that if a client is disconnected, then reconnects it won't receive messages sent during the disconnect except for those messages that it had already started to process using the QoS process. Messages can have a retained flag set on them. If this is set, the MQTT broker will store the last message sent on a topic with this flag, and send this to any clients who later subscribe to the topic. This way the clients will always get the latest message.
+Although the name is Message Queueing, it doesn't actually support message queues. This means that if a client disconnects, then reconnects it won't receive messages sent during the disconnection except for those messages that it had already started to process using the QoS process. Messages can have a retained flag set on them. If this is set, the MQTT broker will store the last message sent on a topic with this flag, and send this to any clients who later subscribe to the topic. This way the clients will always get the latest message.
 
 MQTT also supports a keep alive function that checks to see if the connection is still alive during long gaps between messages.
 
@@ -102,19 +102,19 @@ The word telemetry is derived from Greek roots meaning to measure remotely. Tele
 
 > 💁 One of the earliest telemetry devices was invented in France in 1874 and sent real-time weather and snow depths from Mont Blanc to Paris. It used physical wires as wireless technologies were not available at the time.
 
-Lets look back at the example of the smart thermostat from Lesson 1.
+Let's look back at the example of the smart thermostat from Lesson 1.
 
 ![An Internet connected thermostat using multiple room sensors](../../../images/telemetry.png)
 
 ***An Internet connected thermostat using multiple room sensors. Temperature by Vectors Market / Microcontroller by Template / dial by Jamie Dickinson / heater by Pascal Heß / mobile phone and Calendar by Alice-vector / Cloud by Debi Alpa Nugraha / smart sensor by Andrei Yushchenko / weather by Adrien Coquet - all from the [Noun Project](https://thenounproject.com)***
 
-The thermostat has temperature sensors to gather telemetry. It would most likely have one temperature sensor built in, and it might connect to multiple external temperature sensors over a wireless protocol such as BLE.
+The thermostat has temperature sensors to gather telemetry. It would most likely have one temperature sensor built in, and it might connect to multiple external temperature sensors over a wireless protocol such as [Bluetooth Low Energy](https://wikipedia.org/wiki/Bluetooth_Low_Energy) (BLE).
 
 An example of the telemetry data it would send could be:
 
 | Name | Value | Description |
 | ---- | ----- | ----------- |
-| `thermostat_temperature` | 18°C | The temperature measured by the thermostat's built in temperature sensor |
+| `thermostat_temperature` | 18°C | The temperature measured by the thermostat's built-in temperature sensor |
 | `livingroom_temperature` | 19°C | The temperature measured by a remote temperature sensor that has been named `livingroom` to identify the room it is in |
 | `bedroom_temperature` | 21°C | The temperature measured by a remote temperature sensor that has been named `bedroom` to identify the room it is in |
 
@@ -139,7 +139,7 @@ Follow the relevant step below to send telemetry from your device to the MQTT br
 
 ### Receive telemetry from the MQTT broker
 
-There's no point in sending telemetry if there's nothing on the other end to listen for it. The light level telemetry needs something listening to it to process the data. This 'server' code is the kind of code you wold deploy to a cloud service as part of a larger IoT application, but here you are going to run this code locally on your computer (on on you Pi if you are coding directly on there). The server code consists of a Python app that listens to telemetry messages over MQTT with light levels. Later in this less you will make it reply with a command message with instructions to turn the LED on or off.
+There's no point in sending telemetry if there's nothing on the other end to listen for it. The light level telemetry needs something listening to it to process the data. This 'server' code is the kind of code you will deploy to a cloud service as part of a larger IoT application, but here you are going to run this code locally on your computer (or on your Pi if you are coding directly on there). The server code consists of a Python app that listens to telemetry messages over MQTT with light levels. Later in this lesson you will make it reply with a command message with instructions to turn the LED on or off.
 
 ✅ Do some research: What happens to MQTT messages if there is no listener?
 
@@ -318,6 +318,8 @@ Write the server code.
     Message received: {'light': 0}
     Message received: {'light': 400}
     ```
+    
+    The app.py file in the nightlight virtual environment has to be running for the app.py file in the nightlight-server virtual environment to recieve the messages being sent.
 
 > 💁 You can find this code in the [code-server/server](code-server/server) folder.
 
@@ -357,7 +359,7 @@ A thermostat could receive a command from the cloud to turn the heating on. Base
 
 ### Send commands to the MQTT broker
 
-The next step for our Internet controlled nightlight is for the server code to send a command back to the IoT device to control the light based off the light levels it senses.
+The next step for our Internet controlled nightlight is for the server code to send a command back to the IoT device to control the light based on the light levels it senses.
 
 1. Open the server code in VS Code
 
@@ -396,7 +398,7 @@ The next step for our Internet controlled nightlight is for the server code to s
 
 ### Handle commands on the IoT device
 
-Now that commands are being sent from the server, you cna now add code to the IoT device to handle them and control the LED.
+Now that commands are being sent from the server, you can now add code to the IoT device to handle them and control the LED.
 
 Follow the relevant step below to listen to commands from the MQTT broker:
 
