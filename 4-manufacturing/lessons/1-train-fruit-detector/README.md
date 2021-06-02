@@ -31,13 +31,13 @@ Not all crops ripen evenly. Tomatoes, for example, can still have some green fru
 
 ✅ Have a look at different fruits or vegetables, either growing near you in farms or in your garden, or in shops, Are they all the same ripeness, or do you see variation?
 
-Sorting produce moved from the harvest to the factory, with food travelling on long conveyer belts with teams of people picking over the produce removing anything that wasn't up to the required quality standard. Harvesting was cheaper thanks to machinery, but there was still a cost to manually sort food.
+The rise of automated harvesting moved the sorting of produce from the harvest to the factory. Food would travel on long conveyer belts with teams of people picking over the produce removing anything that wasn't up to the required quality standard. Harvesting was cheaper thanks to machinery, but there was still a cost to manually sort food.
 
 ![If a red tomato is detected it continues its journey uninterrupted. If a green tomato is detected it is flicked into a waste bin by a lever](../../../images/optical-tomato-sorting.png)
 
 ***If a red tomato is detected it continues its journey uninterrupted. If a green tomato is detected it is flicked into a waste bin by a lever. tomato by parkjisun from the Noun Project - from the [Noun Project](https://thenounproject.com)***
 
-The next evolution was to use machines to sort, either built into the harvester, or in the processing plants. The first generation of these machines used optical sensors to detect colors, controlling actuators to push green tomatoes into a waste bin using levers of puffs of air, leaving red tomatoes to continue on a network of conveyor belts.
+The next evolution was to use machines to sort, either built into the harvester, or in the processing plants. The first generation of these machines used optical sensors to detect colors, controlling actuators to push green tomatoes into a waste bin using levers or puffs of air, leaving red tomatoes to continue on a network of conveyor belts.
 
 The video below shows one of these machines in action.
 
@@ -83,7 +83,7 @@ You can think of this as a bit like children's shape books, where once you can r
 
 There are a wide range of tools that can help you do this, including cloud-based services that can help you train your model, then use it via web APIs.
 
-> 💁 Training these models takes a lot of computer power, usually via Graphics Processing Units, or GPUs. The same specialized hardware that makes graphics on your Xbox look amazing can also be used to train machine learning models. By using the cloud you can rent time on powerful computers with GPUSs to train these models, getting access to the computing power you need, just for the time you need it.
+> 💁 Training these models takes a lot of computer power, usually via Graphics Processing Units, or GPUs. The same specialized hardware that makes games on your Xbox look amazing can also be used to train machine learning models. By using the cloud you can rent time on powerful computers with GPUs to train these models, getting access to the computing power you need, just for the time you need it.
 
 ## Custom Vision
 
@@ -129,7 +129,7 @@ To use Custom Vision, you first need to create two cognitive services resources 
 
     Replace `<location>` with the location you used when creating the Resource Group.
 
-    This will create a Custom Vision training resource in your Resource Group. It will be called `fruit-quality-detector-prediction` and use the `F0` sku, which is the free tier. The `--yes` option means you agree to the terms and conditions of the cognitive services.
+    This will create a Custom Vision prediction resource in your Resource Group. It will be called `fruit-quality-detector-prediction` and use the `F0` sku, which is the free tier. The `--yes` option means you agree to the terms and conditions of the cognitive services.
 
 ### Task - create an image classifier project
 
@@ -149,7 +149,7 @@ To train an image classifier, you will need multiple pictures of fruit, both goo
 
 Ideally each picture should be just the fruit, with either a consistent background, or a wide variety of backgrounds. Ensure there's nothing in the background that is specific to ripe vs unripe fruit.
 
-> 💁 It's important not to have specific backgrounds, or specific items that are not related to the thing being classified for each tag, otherwise the classifier may just classify based on the background. There was an example of a classifier for skin cancer that was trained on moles both normal and cancerous, and the cancerous ones all had rulers against them to measure the size. It turned out the classifier was 100% accurate at identifying rulers in pictures.
+> 💁 It's important not to have specific backgrounds, or specific items that are not related to the thing being classified for each tag, otherwise the classifier may just classify based on the background. There was a classifier for skin cancer that was trained on moles both normal and cancerous, and the cancerous ones all had rulers against them to measure the size. It turned out the classifier was almost 100% accurate at identifying rulers in pictures, not cancerous moles.
 
 1. Gather pictures for your classifier. You will need at least 5 pictures for each label to train the classifier, but the more the better. You will also need a few additional images to test the classifier. These images should all be different images of the same thing. For example:
 
@@ -195,7 +195,7 @@ Image classifiers use machine learning to make predictions about what is in an i
 
 What do you think would happen if you used a picture of a strawberry with a model trained on bananas, or a picture of an inflatable banana, or a person in a banana suit, or even a yellow cartoon character like someone from the Simpsons?
 
-Try it out and see what the predictions are.
+Try it out and see what the predictions are. You can find images to try with using [Bing Image search](https://www.bing.com/images/trending).
 
 ## Post-lecture quiz
 
