@@ -208,4 +208,4 @@ Try it out and see what the predictions are.
 
 ## Assignment
 
-[](assignment.md)
+[Train your classifier for multiple fruits and vegetables](assignment.md)
