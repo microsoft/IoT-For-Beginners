@@ -10,7 +10,7 @@
 
 ![Under development animated GIF](https://media.giphy.com/media/3o7qE1YN7aBOFPRw8E/giphy.gif)
 
-**This repo is heavily under development. Check back soon for more updates.**
+**This repo is under heavy development. Check back soon for more updates.**
 
 # IoT for Beginners - A Curriculum
 
