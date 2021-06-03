@@ -75,7 +75,7 @@ Program the device.
         print('Light level:', light)
     ```
 
-    This will read the current light level on a scale of 0-1,023 using the `ReadVisible` property of the `grove_si114x` class. This value is then printed to the console.
+    This will read the current sunlight level on a scale of 0-1,023 using the `ReadVisible` property of the `grove_si114x` class. This value is then printed to the console.
 
 1. Add a small sleep of one second at the end of the `loop` as the light levels don't need to be checked continuously. A sleep reduces the power consumption of the device.
 

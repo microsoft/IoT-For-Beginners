@@ -12,7 +12,7 @@ The nightlight logic in pseudo-code is:
 
 ```output
 Check the light level.
-If the light is less than 200
+If the light is less than 300
     Turn the LED on
 Otherwise
     Turn the LED off
@@ -75,13 +75,13 @@ Program the nightlight.
 1. Add a check inside the `while` loop, and before the `time.sleep` to check the light levels and turn the LED on or off:
 
     ```python
-    if light < 200:
+    if light < 300:
         led.on()
     else:
         led.off()
     ```
 
-    This code checks the `light` value. If this is less than 200 it calls the `on` method of the `GroveLed` class which sends a digital value of 1 to the LED, turning it on. If the light value is greater than or equal to 200 it calls the `off` method, sending a digital value of 0 to the LED, turning it off.
+    This code checks the `light` value. If this is less than 300 it calls the `on` method of the `GroveLed` class which sends a digital value of 1 to the LED, turning it on. If the light value is greater than or equal to 300 it calls the `off` method, sending a digital value of 0 to the LED, turning it off.
 
     > 💁 This code should be indented to the same level as the `print('Light level:', light)` line to be inside the while loop!
 
@@ -105,7 +105,7 @@ Program the nightlight.
     Light level: 290
     ```
 
-1. Cover and uncover the sunlight sensor. Notice how the LED will light up if the light level is 200 or less, and turn off when the light level is greater than 200.
+1. Cover and uncover the sunlight sensor. Notice how the LED will light up if the light level is 300 or less, and turn off when the light level is greater than 300.
 
     > 💁 If the LED doesn't turn on, make sure it is connected the right way round, and the spin button is set to full on.
 

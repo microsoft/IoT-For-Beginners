@@ -9,7 +9,7 @@ while True:
     light = light_sensor.ReadVisible
     print('Light level:', light)
 
-    if light < 200:
+    if light < 300:
         led.on()
     else:
         led.off()
