@@ -19,7 +19,7 @@ void loop()
     Serial.print("Light value: ");
     Serial.println(light);
 
-    if (light < 200)
+    if (light < 300)
     {
         digitalWrite(D0, HIGH);
     }

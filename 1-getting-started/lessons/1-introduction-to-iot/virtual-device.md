@@ -120,7 +120,7 @@ Create a Python application to print `"Hello World"` to the console.
     code .
     ```
 
-    > 💁 If your terminal returns `command not found` on macOS it means VS Code has not been added to PATH, you can add VS Code to PATH by following the instructions in the [Launching from the command line section of the VS Code documentation](https://code.visualstudio.com/docs/setup/mac?WT.mc_id=academic-17441-jabenn#_launching-from-the-command-line) and run the command afterwards. VS Code is installed to PATH by default on Windows and Linux.
+    > 💁 If your terminal returns `command not found` on macOS it means VS Code has not been added to your PATH. You can add VS Code to yout PATH by following the instructions in the [Launching from the command line section of the VS Code documentation](https://code.visualstudio.com/docs/setup/mac?WT.mc_id=academic-17441-jabenn#_launching-from-the-command-line) and run the command afterwards. VS Code is installed to your PATH by default on Windows and Linux.
 
 1. When VS Code launches, it will activate the Python virtual environment. You will see this in the bottom status bar:
 
