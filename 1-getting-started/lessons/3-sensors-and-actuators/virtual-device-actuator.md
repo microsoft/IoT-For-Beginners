@@ -12,17 +12,17 @@ The nightlight logic in pseudo-code is:
 
 ```output
 Check the light level.
-If the light is less than 200
+If the light is less than 300
     Turn the LED on
 Otherwise
     Turn the LED off
 ```
 
-### Add the sensors to CounterFit
+### Add the actuator to CounterFit
 
 To use a virtual LED, you need to add it to the CounterFit app
 
-#### Task
+#### Task - add the actuator to CounterFit
 
 Add the LED to the CounterFit app.
 
@@ -48,7 +48,7 @@ Add the LED to the CounterFit app.
 
 The nightlight can now be programmed using the CounterFit light sensor and LED.
 
-#### Task
+#### Task - program the nightlight
 
 Program the nightlight.
 
@@ -75,13 +75,13 @@ Program the nightlight.
 1. Add a check inside the `while` loop, and before the `time.sleep` to check the light levels and turn the LED on or off:
 
     ```python
-    if light < 200:
+    if light < 300:
         led.on()
     else:
         led.off()
     ```
 
-    This code checks the `light` value. If this is less than 200 it calls the `on` method of the `GroveLed` class which sends a digital value of 1 to the LED, turning it on. If the light value is greater than or equal to 200 it calls the `off` method, sending a digital value of 0 to the LED, turning it off.
+    This code checks the `light` value. If this is less than 300 it calls the `on` method of the `GroveLed` class which sends a digital value of 1 to the LED, turning it on. If the light value is greater than or equal to 300 it calls the `off` method, sending a digital value of 0 to the LED, turning it off.
 
     > 💁 This code should be indented to the same level as the `print('Light level:', light)` line to be inside the while loop!
 
@@ -101,7 +101,7 @@ Program the nightlight.
     Light level: 253
     ```
 
-1. Change the *Value* or the *Random* settings to vary the light level above and below 200. You will see the LED turn on and off.
+1. Change the *Value* or the *Random* settings to vary the light level above and below 300. You will see the LED turn on and off.
 
 ![The LED in the CounterFit app turning on and off as the light level changes](../../../images/virtual-device-running-assignment-1-1.gif)
 

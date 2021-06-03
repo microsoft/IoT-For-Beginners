@@ -12,7 +12,7 @@ The nightlight logic in pseudo-code is:
 
 ```output
 Check the light level.
-If the light is less than 200
+If the light is less than 300
     Turn the LED on
 Otherwise
     Turn the LED off
@@ -22,7 +22,7 @@ Otherwise
 
 The Grove LED comes as a module with a selection of LEDs, allowing you to chose the color.
 
-#### Task
+#### Task - connect the LED
 
 Connect the LED.
 
@@ -44,9 +44,9 @@ Connect the LED.
 
 ## Program the nightlight
 
-The nightlight can now be programmed using the Grove light sensor and the Grove LED.
+The nightlight can now be programmed using the Grove sunlight sensor and the Grove LED.
 
-### Task
+### Task - program the nightlight
 
 Program the nightlight.
 
@@ -70,16 +70,18 @@ Program the nightlight.
 
     The line `led = GroveLed(5)` creates an instance of the `GroveLed` class connecting to pin **D5** - the digital Grove pin that the LED is connected to.
 
+    > 💁 All the sockets have unique pin numbers. Pins 0, 2, 4, and 6 are analog pins, pins 5, 16, 18, 22, 24, and 26 are digital pins.
+
 1. Add a check inside the `while` loop, and before the `time.sleep` to check the light levels and turn the LED on or off:
 
     ```python
-    if light < 200:
+    if light < 300:
         led.on()
     else:
         led.off()
     ```
 
-    This code checks the `light` value. If this is less than 200 it calls the `on` method of the `GroveLed` class which sends a digital value of 1 to the LED, turning it on. If the light value is greater than or equal to 200 it calls the `off` method, sending a digital value of 0 to the LED, turning it off.
+    This code checks the `light` value. If this is less than 300 it calls the `on` method of the `GroveLed` class which sends a digital value of 1 to the LED, turning it on. If the light value is greater than or equal to 300 it calls the `off` method, sending a digital value of 0 to the LED, turning it off.
 
     > 💁 This code should be indented to the same level as the `print('Light level:', light)` line to be inside the while loop!
 
@@ -103,7 +105,7 @@ Program the nightlight.
     Light level: 290
     ```
 
-1. Cover and uncover the light sensor. Notice how the LED will light up if the light level is 200 or less, and turn off when the light level is greater than 200.
+1. Cover and uncover the sunlight sensor. Notice how the LED will light up if the light level is 300 or less, and turn off when the light level is greater than 300.
 
     > 💁 If the LED doesn't turn on, make sure it is connected the right way round, and the spin button is set to full on.
 

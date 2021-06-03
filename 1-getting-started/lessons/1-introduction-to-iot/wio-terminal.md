@@ -8,7 +8,7 @@ The [Wio Terminal from Seeed Studios](https://www.seeedstudio.com/Wio-Terminal-p
 
 To use your Wio Terminal, you will need to install some free software on your computer. You will also need to update the Wio Terminal firmware before you can connect it to WiFi.
 
-### Task
+### Task - setup
 
 Install the required software and update the firmware.
 
@@ -32,7 +32,7 @@ The Hello World app for the Wio Terminal will ensure that you have Visual Studio
 
 The first step is to create a new project using PlatformIO configured for the Wio Terminal.
 
-#### Task
+#### Task - create a PlatformIO project
 
 Create the PlatformIO project.
 
@@ -122,7 +122,7 @@ The VS Code explorer will show a number of files and folders created by the Plat
 
 You're now ready to write the Hello World app.
 
-#### Task
+#### Task - write the Hello World app
 
 Write the Hello World app.
 
