@@ -79,6 +79,10 @@ We have two choices of IoT hardware to use for the projects depending on persona
 | 12 | [Transport](./3-transport) | Store location data | Learn how to store IoT data to be visualized or analysed later | [Store location data](./3-transport/lessons/2-store-location-data/README.md) |
 | 13 | [Transport](./3-transport) | Visualize location data | Learn about visualizing location data on a map, and how maps represent the real 3d world in 2 dimensions | [Visualize location data](./3-transport/lessons/3-visualize-location-data/README.md) |
 | 14 | [Transport](./3-transport) | Geofences | Learn about geofences, and how they can be used to alert when vehicles in the supply chain are close to their destination | [Geofences](./3-transport/lessons/4-geofences/README.md) |
+| 15 | [Manufacturing](./4-manufacturing) | Train a fruit quality detector | Learn about training an image classifier in the cloud to detect fruit quality | [Train a fruit quality detector](./4-manufacturing/lessons/1-train-fruit-detector/README.md) |
+| 16 | [Manufacturing](./4-manufacturing) | Check fruit quality from an IoT device | Learn about using your fruit quality detector from an IoT device | [Check fruit quality from an IoT device](./4-manufacturing/lessons/2-check-fruit-from-device/README.md) |
+| 17 | [Manufacturing](./4-manufacturing) | Run your fruit detector on the edge | Learn about running your fruit detector on an IoT device on the edge | [Run your fruit detector on the edge](./4-manufacturing/lessons/3-run-fruit-detector-edge/README.md) |
+| 18 | [Manufacturing](./4-manufacturing) | Trigger fruit quality detection from a sensor | Learn about triggering fruit quality detection from a sensor | [Trigger fruit quality detection from a sensor](./4-manufacturing/lessons/4-trigger-fruit-detector/README.md) |
 
 ## Offline access
 
