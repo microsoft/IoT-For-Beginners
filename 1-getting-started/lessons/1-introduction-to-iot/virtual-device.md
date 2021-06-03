@@ -34,7 +34,7 @@ One of the powerful features of Python is the ability to install [pip packages](
 
 By default when you install a package it is available everywhere on your computer, and this can lead to problems with package versions - such as one application depending on one version of a package that breaks when you install a new version for a different application. To work around this problem, you can use a [Python virtual environment](https://docs.python.org/3/library/venv.html), essentially a copy of Python in a dedicated folder, and when you install pip packages they get installed just to that folder.
 
-#### Task
+#### Task - configure a Python virtual environment
 
 Configure a Python virtual environment and install the pip packages for CounterFit.
 
@@ -96,7 +96,7 @@ Configure a Python virtual environment and install the pip packages for CounterF
 
 Once the Python virtual environment is ready, you can write the code for the 'Hello World' application
 
-#### Task
+#### Task - write the code
 
 Create a Python application to print `"Hello World"` to the console.
 
@@ -119,7 +119,8 @@ Create a Python application to print `"Hello World"` to the console.
     ```sh
     code .
     ```
-    > 💁 If your terminal returns `command not found` on macOS it means VS Code has not been added to PATH, you can [add VS Code to PATH](https://code.visualstudio.com/docs/setup/mac#_launching-from-the-command-line) and run the command afterwards. VS Code is installed to PATH by default on Windows and Linux.
+
+    > 💁 If your terminal returns `command not found` on macOS it means VS Code has not been added to PATH, you can add VS Code to PATH by following the instructions in the [Launching from the command line section of the VS Code documentation](https://code.visualstudio.com/docs/setup/mac?WT.mc_id=academic-17441-jabenn#_launching-from-the-command-line) and run the command afterwards. VS Code is installed to PATH by default on Windows and Linux.
 
 1. When VS Code launches, it will activate the Python virtual environment. You will see this in the bottom status bar:
 
@@ -171,7 +172,7 @@ Create a Python application to print `"Hello World"` to the console.
 
 As a second 'Hello World' step, you will run the CounterFit app and connect your code to it. This is the virtual equivalent of plugging in some IoT hardware to a dev kit.
 
-#### Task
+#### Task - connect the 'hardware'
 
 1. From the VS Code terminal, launch the CounterFit app with the following command:
 
