@@ -10,7 +10,7 @@ IoT can help with this supply chain by tracking the food in transit - ensuring d
 
 In these 4 lessons, you'll learn how to apply the Internet of Things to improve the supply chain by monitoring food as it is loaded onto a (virtual) truck, which is tracked as it moves to it's destination. You will learn about GPS tracking, how to store and visualize GPS data, and how to be alerted when a truck arrives at its destination.
 
-> 💁 These lessons will use some cloud resources. If you don't complete all the lessons in this project, make sure you follow the [Clean up your project](lessons/4-keep-your-plant-secure/README.md#clean-up-your-project) step in [lesson 4](lessons/6-keep-your-plant-secure/README.md).
+> 💁 These lessons will use some cloud resources. If you don't complete all the lessons in this project, make sure you [Clean up your project](../clean-up.md).
 
 ## Topics
 

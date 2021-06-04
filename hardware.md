@@ -23,7 +23,7 @@ All the device code for Arduino is in C++. To complete all the assignments you w
 
 These are specific to using the Wio terminal Arduino device, and are not relevant to using the Raspberry Pi.
 
-* [Grove camera kit](https://www.seeedstudio.com/Grove-Serial-Camera-Kit.html)
+* [ArduCam Mini 2MP Plus - OV2640](https://www.arducam.com/product/arducam-2mp-spi-camera-b0067-arduino/)
 * [Grove speaker plus](https://www.seeedstudio.com/Grove-Speaker-Plus-p-4592.html)
 
 ## Raspberry Pi
@@ -48,7 +48,7 @@ These are specific to using the Raspberry Pi, and are not relevant to using the 
   * Any USB speaker, or speaker with a 3.5mm cable
   or
   * [USB Speakerphone](https://www.amazon.com/USB-Speakerphone-Conference-Business-Microphones/dp/B07Q3D7F8S/ref=sr_1_1?dchild=1&keywords=m0&qid=1614647389&sr=8-1)
-* [Grove Light sensor](https://www.seeedstudio.com/Grove-Light-Sensor-v1-2-LS06-S-phototransistor.html)
+* [Grove Sunlight sensor](https://www.seeedstudio.com/Grove-Sunlight-Sensor.html)
 
 ## Sensors and actuators
 
@@ -58,8 +58,6 @@ Most of the sensors and actuators needed are used by both the Arduino and Raspbe
 * [Grove humidity and temperature sensor](https://www.seeedstudio.com/Grove-Temperature-Humidity-Sensor-DHT11.html)
 * [Grove capacitive soil moisture sensor](https://www.seeedstudio.com/Grove-Capacitive-Moisture-Sensor-Corrosion-Resistant.html)
 * [Grove relay](https://www.seeedstudio.com/Grove-Relay.html)
-* [Grove 125KHz RFID reader](https://www.seeedstudio.com/Grove-125KHz-RFID-Reader.html)
-* [RFID tags (125KHz)](https://www.seeedstudio.com/RFID-tag-combo-125khz-5-pcs-p-700.html)
 * [Grove GPS (Air530)](https://www.seeedstudio.com/Grove-GPS-Air530-p-4584.html)
 * [Grove - Ultrasonic Distance Sensor](https://www.seeedstudio.com/Grove-Ultrasonic-Distance-Sensor.html)
 
