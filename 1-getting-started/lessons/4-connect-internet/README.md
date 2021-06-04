@@ -27,7 +27,7 @@ In this lesson we'll cover:
 
 ## Communication protocols
 
-There are a number of popular communication protocols used by IoT devices to communicate with the Internet. The most popular are based around publish/subscribe messaging via some kind of broker. The IoT devices connect to the broker and publish telemetry and subscribe to commands, the cloud services also connect to the broker and subscribe to all the telemetry messages and publishes commands either to specific devices, or to groups of devices.
+There are a number of popular communication protocols used by IoT devices to communicate with the Internet. The most popular are based around publish/subscribe messaging via some kind of broker. The IoT devices connect to the broker and publish telemetry and subscribe to commands, the cloud services also connect to the broker and subscribe to all the telemetry messages and publish commands either to specific devices, or to groups of devices.
 
 ![IoT devices connect to a broker and publish telemetry and subscribe to commands. Cloud services connect to the broker and subscribe to all telemetry and send commands to specific devices.](../../../images/pub-sub.png)
 
@@ -39,7 +39,7 @@ MQTT is the most popular, and is covered in this lesson. Others include AMQP and
 
 [MQTT](http://mqtt.org) is a lightweight, open standard messaging protocol that can send messages between devices. It was designed in 1999 to monitor oil pipelines, before being released as an open standard 15 years later by IBM.
 
-MQTT has a single broker and multiple clients. All clients connect to the broker, and the broker routes messages to the relevant clients. Messages are routed using named topics, rather than being sent direct to an individual client. A client can publish to a topic, and any clients that subscribe to that topic will receive the message.
+MQTT has a single broker and multiple clients. All clients connect to the broker, and the broker routes messages to the relevant clients. Messages are routed using named topics, rather than being sent directly to an individual client. A client can publish to a topic, and any clients that subscribe to that topic will receive the message.
 
 ![IoT device publishing telemetry on the /telemetry topic, and the cloud service subscribing to that topic](../../../images/mqtt.png)
 
@@ -49,19 +49,19 @@ MQTT has a single broker and multiple clients. All clients connect to the broker
 
 ### Connect your IoT device to MQTT
 
-The first part in adding Internet control to your nightlight is connecting it to an MQTT broker.
+The first part of adding Internet control to your nightlight is connecting it to an MQTT broker.
 
 #### Task
 
 Connect your device to an MQTT broker.
 
-In this part of the lesson, you will connect your IoT nightlight to the Internet to allow it to be remotely controlled. Later in this lesson your IoT device will send a telemetry message over MQTT to a public MQTT broker with the light level, where it will be picked up by some server code that you will write. This code will check the light level and send a command message back to the device telling it to turn the LED on or off.
+In this part of the lesson, you will connect your IoT nightlight to the Internet to allow it to be remotely controlled. Later in this lesson, your IoT device will send a telemetry message over MQTT to a public MQTT broker with the light level, where it will be picked up by some server code that you will write. This code will check the light level and send a command message back to the device telling it to turn the LED on or off.
 
-The real-world use case for such a setup could be to gather data from multiple light sensors before deciding to turn on lights, in a location that has a lot of lights, such as a stadium. This could stop the lights being turned on if only one sensor was covered by cloud or a bird, but the other sensors detected enough light.
+The real-world use case for such a setup could be to gather data from multiple light sensors before deciding to turn on lights, in a location that has a lot of lights, such as a stadium. This could stop the lights from being turned on if only one sensor was covered by cloud or a bird, but the other sensors detected enough light.
 
 ✅ What other situations would require data from multiple sensors to be evaluated before sending commands?
 
-Rather than dealing with the complexities of setting up an MQTT broker as part of this assignment, you can use a public test server that runs [Eclipse Mosquitto](https://www.mosquitto.org), an open-source MQTT broker. This test broker is publicly available at [test.mosquitto.org](https://test.mosquitto.org), and doesn't require an accounts to be set up, making it a great tool for testing MQTT clients and servers.
+Rather than dealing with the complexities of setting up an MQTT broker as part of this assignment, you can use a public test server that runs [Eclipse Mosquitto](https://www.mosquitto.org), an open-source MQTT broker. This test broker is publicly available at [test.mosquitto.org](https://test.mosquitto.org), and doesn't require an account to be set up, making it a great tool for testing MQTT clients and servers.
 
 > 💁 This test broker is public and not secure. Anyone could be listening to what you publish, so should not be used with any data that needs to be kept private
 
@@ -76,7 +76,7 @@ Follow the relevant step below to connect your device to the MQTT broker:
 
 ### A deeper dive into MQTT
 
-Topics can have a hierarchy, and clients can subscribe to different levels of the hierarchy using wildcards. For example you can send temperature telemetry messages to `/telemetry/temperature` and humidity messages to `/telemetry/humidity`, then in your cloud app subscribe to `/telemetry/*` to receive both the temperature and humidity telemetry messages.
+Topics can have a hierarchy, and clients can subscribe to different levels of the hierarchy using wildcards. For example, you can send temperature telemetry messages to `/telemetry/temperature` and humidity messages to `/telemetry/humidity`, then in your cloud app subscribe to `/telemetry/*` to receive both the temperature and humidity telemetry messages.
 
 Messages can be sent with a quality of service (QoS), which determines the guarantees of the message being received.
 
@@ -327,9 +327,9 @@ Write the server code.
 
 One important consideration with telemetry is how often to measure and send the data? The answer is - it depends. If you measure often you can respond faster to changes in measurements, but you use more power, more bandwidth, generate more data and need more cloud resources to process. You need to measure often enough, but not too often.
 
-For a thermostat, measuring every few minutes is probably more than enough as temperatures don't change that often. If you only measure once a day then you could end up heating your house for nighttime temperatures in the middle of a sunny day, whereas if you measure every second you will have thousands of unnecessary duplicated temperature measurements that will eat into the users Internet speed and bandwidth (a problem for people with limited bandwidth plans), use more power which can be a problem for battery powered devices like remote sensors, and increase the cost of the providers cloud computing resources processing and storing them.
+For a thermostat, measuring every few minutes is probably more than enough as temperatures don't change that often. If you only measure once a day then you could end up heating your house for nighttime temperatures in the middle of a sunny day, whereas if you measure every second you will have thousands of unnecessarily duplicated temperature measurements that will eat into the users' Internet speed and bandwidth (a problem for people with limited bandwidth plans), use more power which can be a problem for battery powered devices like remote sensors, and increase the cost of the providers cloud computing resources processing and storing them.
 
-If you are monitoring a data around a piece of machinery in a factory that if it fails could cause catastrophic damage and millions of dollars in lost revenue, thn measuring multiple times a second might be necessary. It's better to waste bandwidth than miss telemetry that indicates that a machine needs to be stopped and fixed before it breaks.
+If you are monitoring data around a piece of machinery in a factory that if it fails could cause catastrophic damage and millions of dollars in lost revenue, then measuring multiple times a second might be necessary. It's better to waste bandwidth than miss telemetry that indicates that a machine needs to be stopped and fixed before it breaks.
 
 > 💁 In this situation, you might consider having an edge device to process the telemetry first to reduce reliance on the Internet.
 
@@ -339,7 +339,7 @@ Internet connections can be unreliable, with outages common. What should an IoT 
 
 For a thermostat the data can probably be lost as soon as a new temperature measurement has been taken. The heating system doesn't care that 20 minutes ago it was 20.5°C if the temperature is now 19°C, it's the temperature now that determines if the heating should be on or off.
 
-For machinery you might want to keep the data, especially if it is used to look for trends. There are machine learning models that can detect anomalies in streams of data by looking over data from defined period of time (such as the last hour) and spotting anomalous data. This is often used for predictive maintenance, looking for indications that something might break soon so you can repair or replace before it happens. You might want every bit of telemetry for a machine sent so it can be processed for anomaly detection, so once the IoT device can reconnect it will send all the telemetry generated during the Internet outage.
+For machinery you might want to keep the data, especially if it is used to look for trends. There are machine learning models that can detect anomalies in streams of data by looking over data from defined period of time (such as the last hour) and spotting anomalous data. This is often used for predictive maintenance, looking for indications that something might break soon so you can repair or replace it before that happens. You might want every bit of telemetry for a machine sent so it can be processed for anomaly detection, so once the IoT device can reconnect it will send all the telemetry generated during the Internet outage.
 
 IoT device designers should also consider if the IoT device can be used during an Internet outage or loss of signal caused by location. A smart thermostat should be able to make some limited decisions to control heating if it can't send telemetry to the cloud due to an outage.
 
@@ -421,7 +421,7 @@ If the commands need to be processed in sequence, such as move a robot arm up, t
 
 ## 🚀 Challenge
 
-The challenge in the last three lessons was to list as many IoT devices as you can that are in your home, school or workplace and decide if they are built around microcontrollers or single-board computers, or even a mixture of both, and thing about what sensors and actuators they are using.
+The challenge in the last three lessons was to list as many IoT devices as you can that are in your home, school or workplace and decide if they are built around microcontrollers or single-board computers, or even a mixture of both, and think about what sensors and actuators they are using.
 
 For these devices, think about what messages they might be sending or receiving. What telemetry do they send? What messages or commands might they receive? Do you think they are secure?
 
