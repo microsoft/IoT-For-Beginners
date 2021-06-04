@@ -10,11 +10,11 @@ The sensor you'll use is a [Grove GPS Air530 sensor](https://www.seeedstudio.com
 
 This is a UART sensor, so sends GPS data over UART.
 
-### Connect the GPS sensor
+## Connect the GPS sensor
 
 The Grove GPS sensor can be connected to the Raspberry Pi.
 
-#### Task - connect the GPS sensor
+### Task - connect the GPS sensor
 
 Connect the GPS sensor.
 
@@ -98,14 +98,14 @@ Program the device.
 
     1. Reboot your Pi, then reconnect in VS Code once the Pi has rebooted.
 
-1. From the terminal, create a new folder in the `pi` users home directory called `gps-sensor`. Create a file in this folder called `app.py`:
+1. From the terminal, create a new folder in the `pi` users home directory called `gps-sensor`. Create a file in this folder called `app.py`.
 
 1. Open this folder in VS Code
 
 1. The GPS module sends UART data over a serial port. Install the `pyserial` Pip package to communicate with the serial port from your Python code:
 
     ```sh
-    pip3 install pip install pyserial
+    pip3 install pyserial
     ```
 
 1. Add the following code to your `app.py` file:
