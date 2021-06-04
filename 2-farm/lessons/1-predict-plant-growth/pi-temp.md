@@ -73,7 +73,7 @@ Program the device.
 
     > ✅ Remember, all the sockets have unique pin numbers. Pins 0, 2, 4, and 6 are analog pins, pins 5, 16, 18, 22, 24, and 26 are digital pins.
 
-1. Add an infinite loop after the code above to pull the temperature sensor value and print it to the console:
+1. Add an infinite loop after the code above to poll the temperature sensor value and print it to the console:
 
     ```python
     while True:
