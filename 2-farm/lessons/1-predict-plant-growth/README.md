@@ -149,7 +149,7 @@ Work through the relevant guide to publish temperature data over MQTT using your
 
 ### Task - capture and store the temperature information
 
-Once the IoT device is publishing telemetry, the server code can be written to subscribe to this data and store it. Rather than save it to a database, the server code will save it to a Comma Separated Values (CSV) file. CSV files store data as rows of values with each value separated by a comma, and each record on a new line. They are a convenient, human-readable and well supported way to save data as a file.
+Once the IoT device is publishing telemetry, the server code can be written to subscribe to this data and store it. Rather than save it to a database, the server code will save it to a Comma Separated Values (CSV) file. CSV files store data as rows of values as text with each value separated by a comma, and each record on a new line. They are a convenient, human-readable and well supported way to save data as a file.
 
 The CSV file will have two columns - *date* and *temperature*. The *date* column is set as the current date and time that the message was received by the server, the *temperature* comes from the telemetry message.
 
