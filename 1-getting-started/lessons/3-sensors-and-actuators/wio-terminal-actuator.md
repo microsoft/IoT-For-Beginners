@@ -12,7 +12,7 @@ The nightlight logic in pseudo-code is:
 
 ```output
 Check the light level.
-If the light is less than 200
+If the light is less than 300
     Turn the LED on
 Otherwise
     Turn the LED off
@@ -22,7 +22,7 @@ Otherwise
 
 The Grove LED comes as a module with a selection of LEDs, allowing you to chose the color.
 
-#### Task
+#### Task - connect the LED
 
 Connect the LED.
 
@@ -48,7 +48,7 @@ Connect the LED.
 
 The nightlight can now be programmed using the built in light sensor and the Grove LED.
 
-### Task
+### Task - program the nightlight
 
 Program the nightlight.
 
@@ -67,7 +67,7 @@ Program the nightlight.
 1. Add the following code immediately before the `delay` in the loop function:
 
     ```cpp
-    if (light < 200)
+    if (light < 300)
     {
         digitalWrite(D0, HIGH);
     }
@@ -77,7 +77,7 @@ Program the nightlight.
     }
     ```
 
-    This code checks the `light` value. If this is less than 200 it sends a `HIGH` value to the `D0` digital pin. This `HIGH` is a value of 1, turning on the LED. If the light is greater than or equal to 200, a `LOW` value of 0 is sent to the pin, turning the LED off.
+    This code checks the `light` value. If this is less than 300 it sends a `HIGH` value to the `D0` digital pin. This `HIGH` is a value of 1, turning on the LED. If the light is greater than or equal to 300, a `LOW` value of 0 is sent to the pin, turning the LED off.
 
     > 💁 When sending digital values to actuators, a LOW value is 0v, and a HIGH value is the max voltage for the device. For the Wio Terminal, the HIGH voltage is 3.3V.
 
@@ -101,7 +101,7 @@ Program the nightlight.
     Light value: 344
     ```
 
-1. Cover and uncover the light sensor. Notice how the LED will light up if the light level is 200 or less, and turn off when the light level is greater than 200.
+1. Cover and uncover the light sensor. Notice how the LED will light up if the light level is 300 or less, and turn off when the light level is greater than 300.
 
 ![The LED connected to the WIO turning on and off as the light level changes](../../../images/wio-running-assignment-1-1.gif)
 
