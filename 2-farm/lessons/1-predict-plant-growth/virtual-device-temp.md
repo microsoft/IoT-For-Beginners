@@ -98,7 +98,7 @@ Program the temperature sensor app.
 
     > 💁 CounterFit simulates this combined humidity and temperature sensor by connecting to 2 sensors, a humidity sensor on the pin given when the `DHT` class is created, and a temperature sensor that runs on the next pin. If the humidity sensor is on pin 5, the shim expects the temperatures sensor to be on pin 6.
 
-1. Add an infinite loop after the code above to pull the temperature sensor value and print it to the console:
+1. Add an infinite loop after the code above to poll the temperature sensor value and print it to the console:
 
     ```python
     while True:
