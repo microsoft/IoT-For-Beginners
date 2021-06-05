@@ -32,7 +32,7 @@ def handle_telemetry(client, userdata, message):
 
     with open(temperature_file_name, mode='a') as temperature_file:        
         temperature_writer = csv.DictWriter(temperature_file, fieldnames=fieldnames)
-        temperature_writer.writerow({'date' : datetime.date.today(), 'temperature' : payload['temperature']})
+        temperature_writer.writerow({'date' : datetime.now().astimezone().replace(microsecond=0).isoformat(), 'temperature' : payload['temperature']})
 
 mqtt_client.subscribe(client_telemetry_topic)
 mqtt_client.on_message = handle_telemetry

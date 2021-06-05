@@ -149,7 +149,7 @@ Work through the relevant guide to publish temperature data over MQTT using your
 
 ### Task - capture and store the temperature information
 
-Once the IoT device is publishing telemetry, the server code can be written to subscribe to this data and store it. Rather than save it to a database, the server code will save it to a Comma Separated Values (CSV) file. CSV files store data as rows of values as text with each value separated by a comma, and each record on a new line. They are a convenient, human-readable and well supported way to save data as a file.
+Once the IoT device is publishing telemetry, the server code can be written to subscribe to this data and store it. Rather than save it to a database, the server code will save it to a Comma Separated Values (CSV) file. CSV files store data as rows of values as text, with each value separated by a comma, and each record on a new line. They are a convenient, human-readable and well supported way to save data as a file.
 
 The CSV file will have two columns - *date* and *temperature*. The *date* column is set as the current date and time that the message was received by the server, the *temperature* comes from the telemetry message.
 
@@ -220,8 +220,13 @@ The CSV file will have two columns - *date* and *temperature*. The *date* column
 
 1. Run this code for a while to capture data. Ideally you should run this for an entire day to gather enough data for GDD calculations.
 
-    > 💁 If you want to run this for an entire day, then you need to make sure the computer your server code is running on won't go to sleep, either by changing your power settings, or running something like [this keep system active Python script](https://github.com/jaqsparow/keep-system-active).
+    > 💁 If you are using Virtual IoT Device: 
+    * Set your temperature value to zero, 
+    * ![click on the random checkbox and select a range](../../../images/click-on-the-random-checkbox-and-select-a-range.png) 
+    to avoid getting the same temperature everytime the temperature value is returned.
 
+    > 💁 If you want to run this for an entire day, then you need to make sure the computer your server code is running on won't go to sleep, either by changing your power settings, or running something like [this keep system active Python script](https://github.com/jaqsparow/keep-system-active).
+    
 > 💁 You can find this code in the [code-server/temperature-sensor-server](code-server/temperature-sensor-server) folder.
 
 ### Task - calculate GDD using the stored data
