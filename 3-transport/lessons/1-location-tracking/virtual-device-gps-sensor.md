@@ -14,7 +14,7 @@ A physical GPS sensor will have an antenna to pick up radio waves from GPS satel
 
 To use a virtual GPS sensor, you need to add one to the CounterFit app
 
-#### Task
+#### Task - add the sensor to CounterFit
 
 Add the GPS sensor to the CounterFit app.
 
@@ -36,7 +36,7 @@ Add the GPS sensor to the CounterFit app.
 
     1. Leave the *Port* set to */dev/ttyAMA0*
 
-    1. Select the **Add** button to create the humidity sensor on port `/dev/ttyAMA0`
+    1. Select the **Add** button to create the GPS sensor on port `/dev/ttyAMA0`
 
     ![The GPS sensor settings](../../../images/counterfit-create-gps-sensor.png)
 
