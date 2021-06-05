@@ -12,7 +12,7 @@ If you are using a Raspberry Pi as your IoT hardware, you have two choices - you
 
 Before you begin, you also need to connect the Grove Base Hat to your Pi.
 
-### Task
+### Task - setup
 
 Install the Grove base hat on your Pi and configure the Pi
 
@@ -29,7 +29,7 @@ Install the Grove base hat on your Pi and configure the Pi
 
 If you want to work directly on your Pi, you can use the desktop version of Raspberry Pi OS and install all the tools you need.
 
-#### Task
+#### Task - work directly on your Pi
 
 Set up your Pi for development.
 
@@ -79,7 +79,7 @@ Rather than coding directly on the Pi, it can run 'headless', that is not connec
 
 To code remotely, the Pi OS needs to be installed on an SD Card.
 
-##### Task
+##### Task - set up the Pi OS
 
 Set up the headless Pi OS.
 
@@ -115,7 +115,7 @@ The OS will be written to the SD card, and once compete the card will be ejected
 
 The next step is to remotely access the Pi. You can do this using `ssh`, which is available on macOS, Linux and recent versions of Windows.
 
-##### Task
+##### Task - connect to the Pi
 
 Remotely access the Pi.
 
@@ -147,7 +147,7 @@ Remotely access the Pi.
 
 Once you are connected to the Pi, you need to ensure the OS is up to date, and install various libraries and tools that interact with the Grove hardware.
 
-##### Task
+##### Task - configure software on the Pi
 
 Configure the installed Pi software and install the Grove libraries.
 
@@ -179,7 +179,7 @@ Configure the installed Pi software and install the Grove libraries.
 
 Once the Pi is configured, you can connect to it using Visual Studio Code (VS Code) from your computer - this is a free developer text editor you will be using to write your device code in Python.
 
-##### Task
+##### Task - configure VS Code for remote access
 
 Install the required software and connect remotely to your Pi.
 
@@ -199,7 +199,7 @@ The Hello World app for the Pi will ensure that you have Python and Visual Studi
 
 This app will be in a folder called `nightlight`, and it will be re-used with different code in later parts of this assignment to build the nightlight application.
 
-### Task
+### Task - hello world
 
 Create the Hello World app.
 
