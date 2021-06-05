@@ -222,8 +222,8 @@ The CSV file will have two columns - *date* and *temperature*. The *date* column
 
     > 💁 If you are using Virtual IoT Device: 
     * Set your temperature value to zero, 
-    * ![click on the random checkbox and select a range](../../../images/click-on-the-random-checkbox-and-select-a-range.png) 
-    to avoid getting the same temperature everytime the temperature value is returned.
+    * Select the random checkbox and set a range to avoid getting the same temperature everytime the temperature value is returned.
+    ![Select the random checkbox and set a range](../../../images/select-the-random-checkbox-and-set-a-range.png) 
 
     > 💁 If you want to run this for an entire day, then you need to make sure the computer your server code is running on won't go to sleep, either by changing your power settings, or running something like [this keep system active Python script](https://github.com/jaqsparow/keep-system-active).
     
