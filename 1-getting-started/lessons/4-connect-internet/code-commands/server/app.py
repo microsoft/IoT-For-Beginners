@@ -18,7 +18,7 @@ def handle_telemetry(client, userdata, message):
     payload = json.loads(message.payload.decode())
     print("Message received:", payload)
 
-    command = { 'led_on' : payload['light'] < 200 }
+    command = { 'led_on' : payload['light'] < 300 }
     print("Sending message:", command)
 
     client.publish(server_command_topic, json.dumps(command))

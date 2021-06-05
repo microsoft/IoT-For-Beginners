@@ -12,7 +12,7 @@ The sensor is a **light sensor**. In a physical IoT device, it would be a [photo
 
 To use a virtual light sensor, you need to add it to the CounterFit app
 
-#### Task
+#### Task - add the sensors to CounterFit
 
 Add the light sensor to the CounterFit app.
 
@@ -38,10 +38,9 @@ Add the light sensor to the CounterFit app.
 
 The device can now be programmed to use the built in light sensor.
 
-### Task
+### Task - program the light sensor
 
 Program the device.
-
 
 1. Open the nightlight project in VS Code that you created in the previous part of this assignment. Kill and re-create the terminal to ensure it is running using the virtual environment if necessary.
 
