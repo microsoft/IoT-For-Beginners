@@ -455,4 +455,4 @@ The Wio Terminal only supports microSD cards of up to 16GB in size. If you have 
 
     ![A picture of a banana captured using the ArduCam](../../../images/banana-arducam.jpg)
 
-    > 💁 It may take a few images for the white balance of the camera to adjust itself. You will notice this based on the color of the images captured, the first few may look off color.
+    > 💁 It may take a few images for the white balance of the camera to adjust itself. You will notice this based on the color of the images captured, the first few may look off color. You can always work around this by changing the code to capture a few images that are ignored during the setup.
