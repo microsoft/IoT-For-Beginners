@@ -14,7 +14,7 @@ Libraries can be installed globally and compiled in if needed, or into a specifi
 
 ✅ You can learn more about library management and how to find and install libraries in the [PlatformIO library documentation](https://docs.platformio.org/en/latest/librarymanager/index.html).
 
-### Task
+### Task - install the WiFi and MQTT Arduino libraries
 
 Install the Arduino libraries.
 
@@ -49,7 +49,7 @@ Install the Arduino libraries.
 
 The Wio Terminal can now be connected to WiFi.
 
-### Task
+### Task - connect to WiFi
 
 Connect the Wio Terminal to WiFi.
 
@@ -85,7 +85,7 @@ Connect the Wio Terminal to WiFi.
     #include "config.h"
     ```
 
-    This includes header files for the libraries you added earlier, as well as the config header file.
+    This includes header files for the libraries you added earlier, as well as the config header file. These header files are needed to tell PlatformIO to bring in the code from the libraries. Without explicitly including these header files, some code won't be compiled in and you will get compiler errors.
 
 1. Add the following code above the `setup` function:
 
@@ -128,7 +128,7 @@ Connect the Wio Terminal to WiFi.
 
 Once the Wio Terminal is connected to WiFi, it can connect to the MQTT broker.
 
-### Task
+### Task - connect to MQTT
 
 Connect to the MQTT broker.
 
