@@ -16,7 +16,7 @@ The **I** in IoT stands for **Internet** - the cloud connectivity and services t
 
 IoT devices can receive messages from the cloud. Often the messages contain commands - that is instructions to perform an action either internally (such as reboot or update firmware), or using an actuator (such as turning on a light).
 
-This lesson introduces some of the communication protocols IoT devices can use to connect to the cloud, and the types of data they might send or receive. You will also get hands on with them both, adding Internet control to your nightlight, moving the LED control logic to 'server' code running locally.
+This lesson introduces some of the communication protocols IoT devices can use to connect to the cloud, and the types of data they might send or receive. You will also get hands-on with them both, adding internet control to your nightlight, moving the LED control logic to 'server' code running locally.
 
 In this lesson we'll cover:
 
@@ -27,13 +27,13 @@ In this lesson we'll cover:
 
 ## Communication protocols
 
-There are a number of popular communication protocols used by IoT devices to communicate with the Internet. The most popular are based around publish/subscribe messaging via some kind of broker. The IoT devices connect to the broker and publish telemetry and subscribe to commands, the cloud services also connect to the broker and subscribe to all the telemetry messages and publish commands either to specific devices, or to groups of devices.
+There are a number of popular communication protocols used by IoT devices to communicate with the Internet. The most popular are based around publish/subscribe messaging via some kind of broker. The IoT devices connect to the broker and publish telemetry and subscribe to commands. The cloud services also connect to the broker and subscribe to all the telemetry messages and publish commands either to specific devices, or to groups of devices.
 
 ![IoT devices connect to a broker and publish telemetry and subscribe to commands. Cloud services connect to the broker and subscribe to all telemetry and send commands to specific devices.](../../../images/pub-sub.png)
 
-***IoT devices connect to a broker and publish telemetry and subscribe to commands. Cloud services connect to the broker and subscribe to all telemetry and send commands to specific devices. broadcast by RomStu / Microcontroller by Template / Cloud by Debi Alpa Nugraha - all from the [Noun Project](https://thenounproject.com)***
+***IoT devices connect to a broker and publish telemetry and subscribe to commands. Cloud services connect to the broker and subscribe to all telemetry and send commands to specific devices. Broadcast by RomStu / Microcontroller by Template / Cloud by Debi Alpa Nugraha - all from the [Noun Project](https://thenounproject.com)***
 
-MQTT is the most popular, and is covered in this lesson. Others include AMQP and HTTP/HTTPS.
+MQTT is the most popular communication protocol for IoT devices and is covered in this lesson. Others protocols include AMQP and HTTP/HTTPS.
 
 ## Message Queueing Telemetry Transport (MQTT)
 
@@ -55,15 +55,15 @@ The first part of adding Internet control to your nightlight is connecting it to
 
 Connect your device to an MQTT broker.
 
-In this part of the lesson, you will connect your IoT nightlight to the Internet to allow it to be remotely controlled. Later in this lesson, your IoT device will send a telemetry message over MQTT to a public MQTT broker with the light level, where it will be picked up by some server code that you will write. This code will check the light level and send a command message back to the device telling it to turn the LED on or off.
+In this part of the lesson, you will connect your IoT nightlight to the internet to allow it to be remotely controlled. Later in this lesson, your IoT device will send a telemetry message over MQTT to a public MQTT broker with the light level, where it will be picked up by some server code that you will write. This code will check the light level and send a command message back to the device telling it to turn the LED on or off.
 
-The real-world use case for such a setup could be to gather data from multiple light sensors before deciding to turn on lights, in a location that has a lot of lights, such as a stadium. This could stop the lights from being turned on if only one sensor was covered by cloud or a bird, but the other sensors detected enough light.
+The real-world use case for such a setup could be to gather data from multiple light sensors before deciding to turn on lights, in a location that has a lot of lights, such as a stadium. This could stop the lights from being turned on if only one sensor was covered by clouds or a bird, but the other sensors detected enough light.
 
 ✅ What other situations would require data from multiple sensors to be evaluated before sending commands?
 
 Rather than dealing with the complexities of setting up an MQTT broker as part of this assignment, you can use a public test server that runs [Eclipse Mosquitto](https://www.mosquitto.org), an open-source MQTT broker. This test broker is publicly available at [test.mosquitto.org](https://test.mosquitto.org), and doesn't require an account to be set up, making it a great tool for testing MQTT clients and servers.
 
-> 💁 This test broker is public and not secure. Anyone could be listening to what you publish, so should not be used with any data that needs to be kept private
+> 💁 This test broker is public and not secure. Anyone could be listening to what you publish, so it should not be used with any data that needs to be kept private
 
 ![A flow chart of the assignment showing light levels being read and checked, and the LED begin controlled](../../../images/assignment-1-internet-flow.png)
 
