@@ -22,7 +22,7 @@ The projects cover the journey of food from farm to table. This includes farming
 
 **Hearty thanks to our authors [Jen Looper](https://github.com/jlooper), [Jim Bennett](https://github.com/jimbobbennett), and sketchnote artist [Nitya Narasimhan](https://github.com/nitya)**
 
-> **Teachers**, we have [included some suggestions](for-teachers.md) on how to use this curriculum. If you would like to create your own lessons, we have also included a [lesson template](lesson-template/README.md)
+> **Teachers**, we have [included some suggestions](for-teachers.md) on how to use this curriculum. If you would like to create your own lessons, we have also included a [lesson template](lesson-template/README.md).
 
 > **Students**, to use this curriculum on your own, fork the entire repo and complete the exercises on your own, starting with a pre-lecture quiz, then reading the lecture and completing the rest of the activities. Try to create the projects by comprehending the lessons rather than copying the solution code; however that code is available in the /solutions folders in each project-oriented lesson. Another idea would be to form a study group with friends and go through the content together. For further study, we recommend [Microsoft Learn](create a Learn collection and post it here) and by watching the videos mentioned below.
 
