@@ -220,9 +220,7 @@ The CSV file will have two columns - *date* and *temperature*. The *date* column
 
 1. Run this code for a while to capture data. Ideally you should run this for an entire day to gather enough data for GDD calculations.
 
-    If you are using Virtual IoT Device: 
-    * Set your temperature value to zero, 
-    * Select the random checkbox and set a range to avoid getting the same temperature everytime the temperature value is returned.
+    > 💁 If you are using Virtual IoT Device, select the random checkbox and set a range to avoid getting the same temperature everytime the temperature value is returned.
     ![Select the random checkbox and set a range](../../../images/select-the-random-checkbox-and-set-a-range.png) 
 
     > 💁 If you want to run this for an entire day, then you need to make sure the computer your server code is running on won't go to sleep, either by changing your power settings, or running something like [this keep system active Python script](https://github.com/jaqsparow/keep-system-active).
