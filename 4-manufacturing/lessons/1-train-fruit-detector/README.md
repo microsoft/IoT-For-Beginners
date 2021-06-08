@@ -90,6 +90,8 @@ There are a wide range of tools that can help you do this, including cloud-based
 
 Custom Vision is a cloud based tool for training image classifiers. It allows you to train a classifier using only a small number of images. You can upload images through a web portal, web API or an SDK, giving each image a *tag* that has the classification of that image. You then train the model, and test it out to see how well it performs. Once you are happy with the model, you can publish versions of it that can be accessed through a web API or an SDK.
 
+![The Azure Custom Vision logo](../../../images/custom-vision-logo.png)
+
 > 💁 You can train a custom vision model with as little as 5 images per classification, but more is better. You can get better results with at least 30 images.
 
 Custom Vision is part of a range of AI tools from Microsoft called Cognitive Services. These are AI tools that can be used either without any training, or with a small amount of training. They include speech recognition and translation, language understanding and image analysis. These are available with a free tier as services in Azure.
