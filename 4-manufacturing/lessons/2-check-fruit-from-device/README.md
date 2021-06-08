@@ -137,12 +137,22 @@ To improve the model, you can retrain it using the images captured from the IoT 
 
 ## 🚀 Challenge
 
+How much does image resolution or lighting affect the prediction?
+
+Try changing the resolution of the images in your device code and see if it makes a difference to the quality of the images. Also try changing lighting.
+
+If you were to create a production device to sell to farms or factories, how would you ensure it gives consistent results all the time?
+
 ## Post-lecture quiz
 
 [Post-lecture quiz](https://brave-island-0b7c7f50f.azurestaticapps.net/quiz/32)
 
 ## Review & Self Study
 
+You trained your custom vision model using the portal. This relies on having images available - and in the real world you may not be able to get training data that matches what the camera on your device captures. You can work round this by training directly from your device using the training API, to train a model using images captured from your IoT device.
+
+* Read up on the training API in the [Using the Custom Vision SDK quickstart](https://docs.microsoft.com/azure/cognitive-services/custom-vision-service/quickstarts/image-classification?tabs=visual-studio&pivots=programming-language-python&WT.mc_id=academic-17441-jabenn)
+
 ## Assignment
 
-[](assignment.md)
+[Respond to classification results](assignment.md)
