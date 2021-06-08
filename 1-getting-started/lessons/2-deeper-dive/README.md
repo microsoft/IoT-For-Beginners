@@ -126,7 +126,7 @@ RAM is the memory used by the program to run, containing variables allocated by 
 
 > 🎓 RAM is used to run your program, and is reset when there is no power
 
-Like with the CPU, the memory on a microcontroller is in orders of magnitude smaller than a PC or Mac. A typical PC might have 8 Gigabytes (GB) of RAM, or 8,000,0000,000 bytes, with each byte enough space to store a single letter or a number from 0-255. A microcontroller would have only Kilobytes (KB) of RAM, with a kilobyte being 1,000 bytes. The Wio terminal mentioned above has 192KB of RAM, or 192,000 bytes - more than 40,000 times less than an average PC!
+Like with the CPU, the memory on a microcontroller is orders of magnitude smaller than a PC or Mac. A typical PC might have 8 Gigabytes (GB) of RAM, or 8,000,0000,000 bytes, with each byte enough space to store a single letter or a number from 0-255. A microcontroller would have only Kilobytes (KB) of RAM, with a kilobyte being 1,000 bytes. The Wio terminal mentioned above has 192KB of RAM, or 192,000 bytes - more than 40,000 times less than an average PC!
 
 The diagram below shows the relative size difference between 192KB and 8GB - the small dot in the center represents 192KB.
 
@@ -180,7 +180,7 @@ You can program microcontrollers using an OS - often referred to as a real-time 
 
 ![The Arduino logo](../../../images/arduino-logo.svg)
 
-[Arduino](https://www.arduino.cc) is probably the most popular microcontroller framework, especially among students, hobbyists and makers. Arduino is an open source electronics platform combining software and hardware. You can buy any Arduino compatible boards from Arduino themselves, or from other manufacturers, then code using the Arduino framework.
+[Arduino](https://www.arduino.cc) is probably the most popular microcontroller framework, especially among students, hobbyists and makers. Arduino is an open source electronics platform combining software and hardware. You can buy Arduino compatible boards from Arduino themselves, or from other manufacturers, then code using the Arduino framework.
 
 Arduino boards are coded in C or C++. Using C/C++ allows your code to be compiled very small and run fast, something needed on a constrained device such as a microcontroller. The core of an Arduino application is referred to as a sketch, and is C/C++ code with 2 functions - `setup` and `loop`. When the board starts up, the Arduino framework code will run the `setup` function once, then it will run the `loop` function again and again, running it continuously until the power is powered off.
 
