@@ -120,7 +120,7 @@ Microcontrollers usually have two types of memory - program memory and random-ac
 
 Program memory is non-volatile, which means whatever is written to it stays when there is no power to the device. This is the memory that stores your program code.
 
-RAM is the memory used by the program to run, containing variables allocated by your program and data gathered from peripherals. RAM is volatile, when the power goes out the content is lost, effectively resetting your program.
+RAM is the memory used by the program to run, containing variables allocated by your program and data gathered from peripherals. RAM is volatile, when the power goes out the contents are lost, effectively resetting your program.
 
 > 🎓 Program memory stores your code and stays when there is no power.
 
