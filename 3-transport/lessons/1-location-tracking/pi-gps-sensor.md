@@ -10,11 +10,11 @@ The sensor you'll use is a [Grove GPS Air530 sensor](https://www.seeedstudio.com
 
 This is a UART sensor, so sends GPS data over UART.
 
-### Connect the GPS sensor
+## Connect the GPS sensor
 
 The Grove GPS sensor can be connected to the Raspberry Pi.
 
-#### Task - connect the GPS sensor
+### Task - connect the GPS sensor
 
 Connect the GPS sensor.
 
@@ -98,14 +98,14 @@ Program the device.
 
     1. Reboot your Pi, then reconnect in VS Code once the Pi has rebooted.
 
-1. From the terminal, create a new folder in the `pi` users home directory called `gps-sensor`. Create a file in this folder called `app.py`:
+1. From the terminal, create a new folder in the `pi` users home directory called `gps-sensor`. Create a file in this folder called `app.py`.
 
 1. Open this folder in VS Code
 
 1. The GPS module sends UART data over a serial port. Install the `pyserial` Pip package to communicate with the serial port from your Python code:
 
     ```sh
-    pip3 install pip install pyserial
+    pip3 install pyserial
     ```
 
 1. Add the following code to your `app.py` file:
@@ -118,14 +118,14 @@ Program the device.
     serial.reset_input_buffer()
     serial.flush()
     
-    def print_gps_data(line):
+    def printGPSData(line):
         print(line.rstrip())
     
     while True:
         line = serial.readline().decode('utf-8')
     
         while len(line) > 0:
-            print_gps_data(line)
+            printGPSData(line)
             line = serial.readline().decode('utf-8')
     
         time.sleep(1)
@@ -133,9 +133,9 @@ Program the device.
 
     This code imports the `serial` module from the `pyserial` Pip package. It then connects to the `/dev/ttyAMA0` serial port - this is the address of the serial port that the Grove Pi Base Hat uses for its UART port. It then clears any existing data from this serial connection.
 
-    Next a function called `print_gps_data` is defined that prints out the line passed to it to the console.
+    Next a function called `printGPSData` is defined that prints out the line passed to it to the console.
 
-    Next the code loops forever, reading as many lines of text as it can from the serial port in each loop. It calls the `print_gps_data` function for each line.
+    Next the code loops forever, reading as many lines of text as it can from the serial port in each loop. It calls the `printGPSData` function for each line.
 
     After all the data has been read, the loop sleeps for 1 second, then tries again.
 

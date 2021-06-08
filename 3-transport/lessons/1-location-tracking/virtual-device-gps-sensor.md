@@ -14,7 +14,7 @@ A physical GPS sensor will have an antenna to pick up radio waves from GPS satel
 
 To use a virtual GPS sensor, you need to add one to the CounterFit app
 
-#### Task
+#### Task - add the sensor to CounterFit
 
 Add the GPS sensor to the CounterFit app.
 
@@ -36,7 +36,7 @@ Add the GPS sensor to the CounterFit app.
 
     1. Leave the *Port* set to */dev/ttyAMA0*
 
-    1. Select the **Add** button to create the humidity sensor on port `/dev/ttyAMA0`
+    1. Select the **Add** button to create the GPS sensor on port `/dev/ttyAMA0`
 
     ![The GPS sensor settings](../../../images/counterfit-create-gps-sensor.png)
 
@@ -77,22 +77,22 @@ Program the GPS sensor app.
 1. Add the following code below this to read from the serial port and print the values to the console:
 
     ```python
-    def print_gps_data(line):
+    def printGPSData(line):
         print(line.rstrip())
     
     while True:
         line = serial.readline().decode('utf-8')
     
         while len(line) > 0:
-            print_gps_data(line)
+            printGPSData(line)
             line = serial.readline().decode('utf-8')
     
         time.sleep(1)
     ```
 
-    A function called `print_gps_data` is defined that prints out the line passed to it to the console.
+    A function called `printGPSData` is defined that prints out the line passed to it to the console.
 
-    Next the code loops forever, reading as many lines of text as it can from the serial port in each loop. It calls the `print_gps_data` function for each line.
+    Next the code loops forever, reading as many lines of text as it can from the serial port in each loop. It calls the `printGPSData` function for each line.
 
     After all the data has been read, the loop sleeps for 1 second, then tries again.
 
