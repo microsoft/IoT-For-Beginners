@@ -22,6 +22,7 @@ In this lesson we'll cover:
 * [Image classification via Machine Learning](#image-classification-via-machine-learning)
 * [Train an image classifier](#train-an-image-classifier)
 * [Test your image classifier](#test-your-image-classifier)
+* [Retrain your image classifier](#retrain-your-image-classifier)
 
 ## Using AI and ML to sort food
 
@@ -133,6 +134,8 @@ To use Custom Vision, you first need to create two cognitive services resources 
 
 ### Task - create an image classifier project
 
+1. Launch the Custom Vision portal at [CustomVision.ai](https://customvision.ai), and sign in with the Microsoft account you used for your Azure account.
+
 1. Follow the [Create a new Project section of the Build a classifier quickstart on the Microsoft docs](https://docs.microsoft.com/azure/cognitive-services/custom-vision-service/getting-started-build-a-classifier?WT.mc_id=academic-17441-jabenn#create-a-new-project) to create a new Custom Vision project. The UI may change and these docs are always the most up to date reference.
 
     Call your project `fruit-quality-detector`.
@@ -150,6 +153,8 @@ To train an image classifier, you will need multiple pictures of fruit, both goo
 Ideally each picture should be just the fruit, with either a consistent background, or a wide variety of backgrounds. Ensure there's nothing in the background that is specific to ripe vs unripe fruit.
 
 > 💁 It's important not to have specific backgrounds, or specific items that are not related to the thing being classified for each tag, otherwise the classifier may just classify based on the background. There was a classifier for skin cancer that was trained on moles both normal and cancerous, and the cancerous ones all had rulers against them to measure the size. It turned out the classifier was almost 100% accurate at identifying rulers in pictures, not cancerous moles.
+
+Image classifiers run at very low resolution. For example Custom Vision can take training and prediction images up to 10240x10240, but trains and runs the model on images at 227x227. Larger images are shrunk to this size, so ensure the thing you are classifying takes up a large part of the image otherwise it may be too small in the smaller image used by the classifier.
 
 1. Gather pictures for your classifier. You will need at least 5 pictures for each label to train the classifier, but the more the better. You will also need a few additional images to test the classifier. These images should all be different images of the same thing. For example:
 
@@ -181,17 +186,27 @@ Once your classifier is trained, you can test it by giving it a new image to cla
 
 ### Task - test your image classifier
 
-1. Follow the [Test and retrain a model with Custom Vision Service documentation on the Microsoft docs](https://docs.microsoft.com/azure/cognitive-services/custom-vision-service/test-your-model?WT.mc_id=academic-17441-jabenn#test-your-model) to test your image classifier. Use the testing images you created earlier, not any of the images you used for training.
+1. Follow the [Test your model documentation on the Microsoft docs](https://docs.microsoft.com/azure/cognitive-services/custom-vision-service/test-your-model?WT.mc_id=academic-17441-jabenn#test-your-model) to test your image classifier. Use the testing images you created earlier, not any of the images you used for training.
 
     ![A unripe banana predicted as unripe with a 98.9% probability, ripe with a 1.1% probability](../../../images/banana-unripe-quick-test-prediction.png)
 
 1. Try all the testing images you have access to and observe the probabilities.
 
+## Retrain your image classifier
+
+When you test you classifier, it may not give the results you expect. Image classifiers use machine learning to make predictions about what is in an image, based of probabilities that particular features of an image mean that it matches a particular label. It doesn't understand what is in the image - it doesn't know what a banana is or understand what makes a banana a banana instead of a boat. You can improve your classifier by retraining it with images it gets wrong.
+
+Every time you make a prediction using the quick test option, the image and results are stored. You can use these images to retrain your model.
+
+### Task - retrain your image classifier
+
+1. Follow the [Use the predicted image for training documentation on the Microsoft docs](https://docs.microsoft.com/azure/cognitive-services/custom-vision-service/test-your-model?WT.mc_id=academic-17441-jabenn#use-the-predicted-image-for-training) to retrain your model, using the correct tag for each image.
+
+1. Once you model has been retrained, test on new images.
+
 ---
 
 ## 🚀 Challenge
-
-Image classifiers use machine learning to make predictions about what is in an image, based of probabilities that particular features of an image mean that it matches a particular label. It doesn't understand what is in the image - it doesn't know what a banana is or understand what makes a banana a banana instead of a boat.
 
 What do you think would happen if you used a picture of a strawberry with a model trained on bananas, or a picture of an inflatable banana, or a person in a banana suit, or even a yellow cartoon character like someone from the Simpsons?
 

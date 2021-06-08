@@ -31,7 +31,7 @@ Program the device to decode the GPS data.
     TinyGPSPlus gps;
     ```
 
-1. Change the contents of the `print_gps_data` function to be the following:
+1. Change the contents of the `printGPSData` function to be the following:
 
     ```cpp
     if (gps.encode(Serial3.read()))
