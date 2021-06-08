@@ -42,7 +42,7 @@ There are a huge range of different things that can act as IoT devices, from ded
 
 ### The Internet
 
-The **Internet** side of an IoT application consists of applications that the IoT device can connect to to send and receive data, as well as other applications that can process the data from the IoT device and help make decisions on what requests to send to the IoT devices actuators.
+The **Internet** side of an IoT application consists of applications that the IoT device can connect to send and receive data, as well as other applications that can process the data from the IoT device and help make decisions on what requests to send to the IoT devices actuators.
 
 One typical setup would be having some kind of cloud service that the IoT device connects to, and this cloud service handles things like security, as well as receiving messages from the IoT device, and sending messages back to the device. This cloud service would then connect to other applications that can process or store sensor data, or use the sensor data with data from other systems to make decisions.
 
@@ -102,7 +102,7 @@ Microcontrollers have much lower clock speeds than desktop or laptop computers, 
 
 ✅ An average PC or Mac has a CPU with multiple cores running at multiple GigaHertz, meaning the clock ticks billions of times a second. Research the clock speed of your computer and see how many times faster it is than the Wio terminal.
 
-Each clock cycle draws power and generates heat. The faster the ticks, the more power consumed and more heat created. PC's have heat sinks and fans to remove heat, without which they would overheat and shut down within seconds. Microcontrollers often have neither as they run much cooler and therefore much slower. PC's run off mains power or large batteries for a few hours, microcontrollers can run for days, months, or even years off small batteries. Microcontrollers can also have cores that run at different speeds, switching to slower lower power cores when the demand on the CPU is low to reduce power consumption.
+Each clock cycle draws power and generates heat. The faster the ticks, the more power consumed and more heat generated. PC's have heat sinks and fans to remove heat, without which they would overheat and shut down within seconds. Microcontrollers often have neither as they run much cooler and therefore much slower. PC's run off mains power or large batteries for a few hours, microcontrollers can run for days, months, or even years off small batteries. Microcontrollers can also have cores that run at different speeds, switching to slower low power cores when the demand on the CPU is low to reduce power consumption.
 
 > 💁 Some PCs and Macs are adopting the same mix of fast high power cores and slower low power cores, switching to save battery. For example the M1 chip in the latest Apple laptops can switch between 4 performance cores and 4 efficiency cores to optimize battery life or speed depending on the task being run.
 
@@ -120,7 +120,7 @@ Microcontrollers usually have two types of memory - program memory and random-ac
 
 Program memory is non-volatile, which means whatever is written to it stays when there is no power to the device. This is the memory that stores your program code.
 
-RAM is the memory used by the program to run, containing variables allocated by your program and data gathered from peripherals. RAM is volatile, when the power goes out the contents is lost, effectively resetting your program.
+RAM is the memory used by the program to run, containing variables allocated by your program and data gathered from peripherals. RAM is volatile, when the power goes out the content is lost, effectively resetting your program.
 
 > 🎓 Program memory stores your code and stays when there is no power.
 
@@ -180,7 +180,7 @@ You can program microcontrollers using an OS - often referred to as a real-time 
 
 ![The Arduino logo](../../../images/arduino-logo.svg)
 
-[Arduino](https://www.arduino.cc) is probably the most popular microcontroller framework, especially among students, hobbyists and makers. Arduino is an open source electronics platform combining software and hardware. You can buy and Arduino compatible boards from Arduino themselves, or from other manufacturers, then code using the Arduino framework.
+[Arduino](https://www.arduino.cc) is probably the most popular microcontroller framework, especially among students, hobbyists and makers. Arduino is an open source electronics platform combining software and hardware. You can buy Arduino compatible boards from Arduino themselves, or from other manufacturers, then code using the Arduino framework.
 
 Arduino boards are coded in C or C++. Using C/C++ allows your code to be compiled very small and run fast, something needed on a constrained device such as a microcontroller. The core of an Arduino application is referred to as a sketch, and is C/C++ code with 2 functions - `setup` and `loop`. When the board starts up, the Arduino framework code will run the `setup` function once, then it will run the `loop` function again and again, running it continuously until the power is powered off.
 
