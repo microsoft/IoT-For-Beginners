@@ -88,6 +88,8 @@ Iterations are published from the Custom Vision portal.
 
     Also take a copy of the *Prediction-Key* value. This is a secure key that you have to pass when you call the model. Only applications that pass this key are allowed to use the model, any other applications are rejected.
 
+    ![The prediction API dialog showing the URL and key](../../../images/custom-vision-prediction-key-endpoint.png)
+
 ✅ When a new iteration is published, it will have a different name. How do you think you would change the iteration an IoT device is using?
 
 ## Classify images from your IoT device
