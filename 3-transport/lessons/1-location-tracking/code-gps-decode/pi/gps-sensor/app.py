@@ -16,7 +16,7 @@ print("Connecting")
 device_client.connect()
 print("Connected")
 
-def print_gps_data(line):
+def printGPSData(line):
     msg = pynmea2.parse(line)
     if msg.sentence_type == 'GGA':
         lat = pynmea2.dm_to_sd(msg.lat)
@@ -37,7 +37,7 @@ while True:
     line = serial.readline().decode('utf-8')
 
     while len(line) > 0:
-        print_gps_data(line)
+        printGPSData(line)
         line = serial.readline().decode('utf-8')
 
     time.sleep(1)
