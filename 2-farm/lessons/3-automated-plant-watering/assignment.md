@@ -6,7 +6,7 @@ This lesson covered how to control a relay via sensor data, and that relay could
 
 For this assignment you will calculate how long the pump should run for a particular rise in soil moisture.
 
-> ⚠️ If you are using virtual IoT hardware, you can work through this process, but simulate the results by increasing the soil moisture reading manually by a fixed amount per second the relay us on.
+> ⚠️ If you are using virtual IoT hardware, you can work through this process, but simulate the results by increasing the soil moisture reading manually by a fixed amount per second the relay is on.
 
 1. Start with dry soil. Measure the soil moisture.
 
@@ -37,4 +37,4 @@ For this assignment you will calculate how long the pump should run for a partic
 | Criteria | Exemplary | Adequate | Needs Improvement |
 | -------- | --------- | -------- | ----------------- |
 | Capture soil moisture date | Is able to capture multiple readings after adding fixed quantities of water | Is able to capture some readings with fixed quantities of water | Can only capture one or two readings, or is unable to use fixed quantities of water |
-| Calibrate the server code | Is able to calculate an average decrease in soil moisture reading and update the serve code to use this | Is able to calculate an average decrease, but cannot update the server code, or is unable to correctly calculate an average, but uses this value to correctly update the server code | Is unable to calculate an average, or update the server code |
+| Calibrate the server code | Is able to calculate an average decrease in soil moisture reading and update the server code to use this | Is able to calculate an average decrease, but cannot update the server code, or is unable to correctly calculate an average, but uses this value to correctly update the server code | Is unable to calculate an average, or update the server code |

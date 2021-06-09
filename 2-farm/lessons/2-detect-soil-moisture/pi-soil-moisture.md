@@ -42,9 +42,9 @@ Program the device.
 
 1. Launch VS Code, either directly on the Pi, or connect via the Remote SSH extension.
 
-    > ⚠️ You can refer to [the instructions for setting up and launch VS Code in lesson 1 if needed](../../../1-getting-started/lessons/1-introduction-to-iot/pi.md).
+    > ⚠️ You can refer to [the instructions for setting up and launch VS Code in nightlight - lesson 1 if needed](../../../1-getting-started/lessons/1-introduction-to-iot/pi.md).
 
-1. From the terminal, create a new folder in the `pi` users home directory called `soil-moisture-sensor`. Create a file in this folder called `app.py`:
+1. From the terminal, create a new folder in the `pi` users home directory called `soil-moisture-sensor`. Create a file in this folder called `app.py`.
 
 1. Open this folder in VS Code
 

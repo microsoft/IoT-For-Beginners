@@ -32,7 +32,7 @@ The solution to this is to have a pump connected to an external power supply, an
 
 ***A light switch turns power on to a light. switch by Chattapat / lightbulb by Maxim Kulikov - all from the [Noun Project](https://thenounproject.com)***
 
-> 🎓 [Mains electricity](https://wikipedia.org/wiki/Mains_electricity) refers to the electricity delivered to homes an businesses through national infrastructure in may parts of the world.
+> 🎓 [Mains electricity](https://wikipedia.org/wiki/Mains_electricity) refers to the electricity delivered to homes and businesses through national infrastructure in many parts of the world.
 
 ✅ IoT devices can usually provide 3.3V or 5V, at less than 1 amp (1A) of current. Compare this to mains electricity which is most often at 230V (120V in North America and 100V in Japan), and can provide power for devices that draw 30A.
 
@@ -102,27 +102,27 @@ So far your relay is controlled by the IoT device directly based off a single so
 
 1. Add the relevant MQTT libraries/pip packages and code to your `soil-moisture-sensor` project to connect to MQTT. Name the client ID as `soilmoisturesensor_client` prefixed by your ID.
 
-    > ⚠️ You can refer to [the instructions for for connecting to MQTT in project 1, lesson 4 if needed](../../../1-getting-started/lessons/4-connect-internet/README.md#connect-your-iot-device-to-mqtt).
+    > ⚠️ You can refer to [the instructions for connecting to MQTT in project 1, lesson 4 if needed](../../../1-getting-started/lessons/4-connect-internet/README.md#connect-your-iot-device-to-mqtt).
 
 1. Add the relevant device code to send telemetry with the soil moisture settings. For the telemetry message, name the property `soil_moisture`.
 
-    > ⚠️ You can refer to [the instructions for for sending telemetry to MQTT in project 1, lesson 4 if needed](../../../1-getting-started/lessons/4-connect-internet/README.md#send-telemetry-from-your-iot-device).
+    > ⚠️ You can refer to [the instructions for sending telemetry to MQTT in project 1, lesson 4 if needed](../../../1-getting-started/lessons/4-connect-internet/README.md#send-telemetry-from-your-iot-device).
 
 1. Create some local server code to subscribe to telemetry and send a command to control the relay in a folder called `soil-moisture-sensor-server`. Name the property in the command message `relay_on`, and set the client ID as `soilmoisturesensor_server` prefixed by your ID. Keep the same structure as the server code you wrote for project 1, lesson 4 as you will be adding to this code later in this lesson.
 
-    > ⚠️ You can refer to [the instructions for for sending telemetry to MQTT](../../../1-getting-started/lessons/4-connect-internet/README.md#write-the-server-code) and [sending commands over MQTT](../../../1-getting-started/lessons/4-connect-internet/README.md#send-commands-to-the-mqtt-broker) in project 1, lesson 4 if needed.
+    > ⚠️ You can refer to [the instructions for sending telemetry to MQTT](../../../1-getting-started/lessons/4-connect-internet/README.md#write-the-server-code) and [sending commands over MQTT](../../../1-getting-started/lessons/4-connect-internet/README.md#send-commands-to-the-mqtt-broker) in project 1, lesson 4 if needed.
 
 1. Add the relevant device code to control the relay from received commands, using the `relay_on` property from the message. Send true for `relay_on` if the `soil_moisture` is greater than 450, otherwise send false, the same as the logic you added for the IoT device earlier.
 
-    > ⚠️ You can refer to [the instructions for for responding to commands from MQTT in project 1, lesson 4 if needed](../../../1-getting-started/lessons/4-connect-internet/README.md#handle-commands-on-the-iot-device).
+    > ⚠️ You can refer to [the instructions for responding to commands from MQTT in project 1, lesson 4 if needed](../../../1-getting-started/lessons/4-connect-internet/README.md#handle-commands-on-the-iot-device).
 
-> 💁 You can find this code in the [`code-mqtt`](./code-mqtt) folder.
+> 💁 You can find this code in the [code-mqtt](./code-mqtt) folder.
 
 Make sure the code is running on your device and local server, and test it out by changing soil moisture levels, either by changing the values sent by the virtual sensor, or by changing the moisture levels of the soil by adding water or removing the sensor from the soil.
 
 ## Sensor and actuator timing
 
-Back in lesson 3 you built a nightlight - an LED that turned on as soon as a low level of light was detected by a light sensor. The light sensor detected a change in light levels instantly, and the device was able to respond quickly, only limited by the length of the delay in the `loop` function or `while True:` loop. As an IoT developer, you can't always rely on such a fast feedback loop.
+Back in lesson 3 you built a nightlight - an LED that turns on as soon as a low level of light was detected by a light sensor. The light sensor detected a change in light levels instantly, and the device was able to respond quickly, only limited by the length of the delay in the `loop` function or `while True:` loop. As an IoT developer, you can't always rely on such a fast feedback loop.
 
 ### Timing for soil moisture
 
@@ -146,7 +146,7 @@ Imagine you have been tasked with building an irrigation system for a farm. Base
 
 You could program the device in the same way as the nightlight - all the time the sensor reads above 450, turn on a relay to turn on a pump. The problem is that water takes a while to get from the pump, through the soil to the sensor. The sensor will stop the water when it detects a level of 450, but the water level will continue dropping as the pumped water keeps soaking through the soil. The end result is wasted water, and the risk of root damage.
 
-✅ Remember - too mch water can be as bad for plants as too little, and wastes a precious resource.
+✅ Remember - too much water can be as bad for plants as too little, and wastes a precious resource.
 
 The better solution is to understand that there is a delay between the actuator turning on and the property that the sensor reads changing. This means not only should the sensor wait for a while before measuring the value again, but the actuator needs to turn off for a while before the next sensor measurement is taken.
 
@@ -156,7 +156,7 @@ How long should the relay be on each time? It's better to err on the side of cau
 
 ![A strawberry plant connected to water via a pump, with the pump connected to a relay. The relay and a soil moisture sensor in the plant are both connected to a Raspberry Pi](../../../images/strawberry-with-pump.png)
 
-For example, I have a strawberry plant with a soil moisture sensor and a pump controlled by a relay.I've observed that when I add water it takes about 20 seconds for the soil moisture reading to stabilize. This means I need to turn the relay off and wait 20 seconds before checking the moisture levels. I'd rather have too little water than too much - I can always turn the pump on again, but I can't take water out of the plant.
+For example, I have a strawberry plant with a soil moisture sensor and a pump controlled by a relay. I've observed that when I add water it takes about 20 seconds for the soil moisture reading to stabilize. This means I need to turn the relay off and wait 20 seconds before checking the moisture levels. I'd rather have too little water than too much - I can always turn the pump on again, but I can't take water out of the plant.
 
 ![Step 1, take measurement. Step 2, add water. Step 3, wait for water to soak through the soil. Step 4, retake measurement](../../../images/soil-moisture-delay.png)
 
@@ -181,7 +181,7 @@ The server code can be modified to add control around the timing of the watering
 
 1. Telemetry message received
 1. Check the soil moisture level
-1. if it's ok, do nothing. If the reading is too high (meaning the soil moisture is too low) then:
+1. If it's ok, do nothing. If the reading is too high (meaning the soil moisture is too low) then:
     1. Send a command to turn the relay on
     1. Wait for 5 seconds
     1. Send a command to turn the relay off
@@ -205,6 +205,13 @@ Update your server code to run the relay for 5 seconds, then wait 20 seconds.
 1. Open the `soil-moisture-sensor-server` folder in VS Code if it isn't already open. Make sure the virtual environment is activated.
 
 1. Open the `app.py` file
+
+1. Add the following code to the `app.py` file below the existing imports:
+    ```python
+    import threading
+    ```
+    
+    This statement imports `threading` from Python libraries, threading allows python to execute other code while waiting.
 
 1. Add the following code before the `handle_telemetry` function that handles telemetry messages received by the server code:
 
@@ -271,6 +278,8 @@ Update your server code to run the relay for 5 seconds, then wait 20 seconds.
     ```
 
     A good way to test this in a simulated irrigation system is to use dry soil, then pour water in manually whilst the relay is on, stopping pouring when the relay turns off.
+    
+> 💁 You can find this code in the [code-timing](./code-timing) folder.
 
 > 💁 If you want to use a pump to build a real irrigation system, then you can use a [6V water pump](https://www.seeedstudio.com/6V-Mini-Water-Pump-p-1945.html) with a [USB terminal power supply](https://www.adafruit.com/product/3628). Make sure the power to or from the pump is connected via the relay.
 
