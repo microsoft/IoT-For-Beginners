@@ -108,6 +108,18 @@ Work through the relevant guide to use a proximity sensor to detect an object us
 
 ## Store fruit quality data
 
+## Design a fruit quality control system
+
+![A reference iot architecture for fruit quality checking](../../../images/iot-reference-architecture-fruit-quality.png)
+
+***A reference iot architecture for fruit quality checking. LED by abderraouf omara / Microcontroller by Template - all from the [Noun Project](https://thenounproject.com)***
+
+## Trigger fruit quality checking from a sensor
+
+### Task - trigger fruit quality detection from a distance sensor
+
+## Store fruit quality data
+
 ## Control feedback via an actuator
 
 ---
