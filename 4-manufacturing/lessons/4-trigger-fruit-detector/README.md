@@ -21,6 +21,7 @@ In this lesson we'll cover:
 * [Trigger fruit quality checking from a sensor](#trigger-fruit-quality-checking-from-a-sensor)
 * [Store fruit quality data](#store-fruit-quality-data)
 * [Control feedback via an actuator](#control-feedback-via-an-actuator)
+* [Moving to production](#moving-to-production)
 
 ## Architect complex IoT applications
 
@@ -78,14 +79,6 @@ The diagram above shows a reference architecture for this prototype application.
 
 For the prototype, you will implement all of this on a single device. If you are using a microcontroller then you will use a separate edge device to run the image classifier. You have already learned most of the things you will need to be able to build this.
 
-### Moving to production
-
-The prototype will form the basis of your final production system. The differences when you move to production would be:
-
-* Ruggedized components - using hardware designed to withstand the noise, heat, vibration and stress of a factory.
-* Using internal communications - some of the components would communicate directly avoiding the hop to the cloud, only sending data to the cloud to be stored. How this is done depends on the factory setup.
-* Automated fruit removal - instead of an LED to alert that fruit is unripe, automated devices would remove it.
-
 ## Trigger fruit quality checking from a sensor
 
 The IoT device needs some kind of trigger to indicate when fruit is ready to be classified. One trigger for this would be to measure when the fruit is at the right location on the conveyor belt my measuring the distance to a sensor.
@@ -108,19 +101,15 @@ Work through the relevant guide to use a proximity sensor to detect an object us
 
 ## Store fruit quality data
 
-## Design a fruit quality control system
-
-![A reference iot architecture for fruit quality checking](../../../images/iot-reference-architecture-fruit-quality.png)
-
-***A reference iot architecture for fruit quality checking. LED by abderraouf omara / Microcontroller by Template - all from the [Noun Project](https://thenounproject.com)***
-
-## Trigger fruit quality checking from a sensor
-
-### Task - trigger fruit quality detection from a distance sensor
-
-## Store fruit quality data
-
 ## Control feedback via an actuator
+
+## Moving to production
+
+The prototype will form the basis of your final production system. The differences when you move to production would be:
+
+* Ruggedized components - using hardware designed to withstand the noise, heat, vibration and stress of a factory.
+* Using internal communications - some of the components would communicate directly avoiding the hop to the cloud, only sending data to the cloud to be stored. How this is done depends on the factory setup.
+* Automated fruit removal - instead of an LED to alert that fruit is unripe, automated devices would remove it.
 
 ---
 

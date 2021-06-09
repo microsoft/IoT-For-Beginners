@@ -68,7 +68,7 @@ Program the device.
 
     ```python
     while True:
-        st = distance_sensor.wait_ready()
+        distance_sensor.wait_ready()
         print(f'Distance = {distance_sensor.get_distance()} mm')
         time.sleep(1)
     ```
