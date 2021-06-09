@@ -24,7 +24,7 @@ void setup()
 	pinPeripheral(PIN_WIRE_SCL, PIO_SERCOM_ALT);
 }
 
-void print_gps_data()
+void printGPSData()
 {
 	if (gps.encode(Serial3.read()))
 	{
@@ -44,7 +44,7 @@ void loop()
 {
 	while (Serial3.available() > 0)
 	{
-		print_gps_data();
+		printGPSData();
 	}
 
 	delay(1000);

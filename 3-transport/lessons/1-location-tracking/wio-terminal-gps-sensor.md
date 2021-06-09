@@ -98,7 +98,7 @@ Program the device.
 1. Add the following function before the `loop` function to send the GPS data to the serial monitor:
 
     ```cpp
-    void print_gps_data()
+    void printGPSData()
     {
         Serial.println(Serial3.readStringUntil('\n'));
     }
@@ -109,13 +109,13 @@ Program the device.
     ```cpp
     while (Serial3.available() > 0)
     {
-        print_gps_data();
+        printGPSData();
     }
     
     delay(1000);
     ```
 
-    This code reads from the UART serial port. The `readStringUntil` function reads up until a terminator character, in this case a new line. This will read a whole NMEA sentence (NMEA sentences are terminated with a new line character). All the while data can be read from the UART serial port, it is read and sent to the serial monitor via the `print_gps_data` function. Once no more data can be read, the `loop` delays for 1 second (1,000ms).
+    This code reads from the UART serial port. The `readStringUntil` function reads up until a terminator character, in this case a new line. This will read a whole NMEA sentence (NMEA sentences are terminated with a new line character). All the while data can be read from the UART serial port, it is read and sent to the serial monitor via the `printGPSData` function. Once no more data can be read, the `loop` delays for 1 second (1,000ms).
 
 1. Build and upload the code to the Wio Terminal.
 
