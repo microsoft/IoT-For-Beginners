@@ -32,7 +32,7 @@ The solution to this is to have a pump connected to an external power supply, an
 
 ***A light switch turns power on to a light. switch by Chattapat / lightbulb by Maxim Kulikov - all from the [Noun Project](https://thenounproject.com)***
 
-> 🎓 [Mains electricity](https://wikipedia.org/wiki/Mains_electricity) refers to the electricity delivered to homes an businesses through national infrastructure in may parts of the world.
+> 🎓 [Mains electricity](https://wikipedia.org/wiki/Mains_electricity) refers to the electricity delivered to homes and businesses through national infrastructure in many parts of the world.
 
 ✅ IoT devices can usually provide 3.3V or 5V, at less than 1 amp (1A) of current. Compare this to mains electricity which is most often at 230V (120V in North America and 100V in Japan), and can provide power for devices that draw 30A.
 
@@ -116,7 +116,7 @@ So far your relay is controlled by the IoT device directly based off a single so
 
     > ⚠️ You can refer to [the instructions for responding to commands from MQTT in project 1, lesson 4 if needed](../../../1-getting-started/lessons/4-connect-internet/README.md#handle-commands-on-the-iot-device).
 
-> 💁 You can find this code in the [`code-mqtt`](./code-mqtt) folder.
+> 💁 You can find this code in the [code-mqtt](./code-mqtt) folder.
 
 Make sure the code is running on your device and local server, and test it out by changing soil moisture levels, either by changing the values sent by the virtual sensor, or by changing the moisture levels of the soil by adding water or removing the sensor from the soil.
 
@@ -279,7 +279,7 @@ Update your server code to run the relay for 5 seconds, then wait 20 seconds.
 
     A good way to test this in a simulated irrigation system is to use dry soil, then pour water in manually whilst the relay is on, stopping pouring when the relay turns off.
     
-> 💁 You can find this code in the [`code-timing`](./code-timing) folder.
+> 💁 You can find this code in the [code-timing](./code-timing) folder.
 
 > 💁 If you want to use a pump to build a real irrigation system, then you can use a [6V water pump](https://www.seeedstudio.com/6V-Mini-Water-Pump-p-1945.html) with a [USB terminal power supply](https://www.adafruit.com/product/3628). Make sure the power to or from the pump is connected via the relay.
 
