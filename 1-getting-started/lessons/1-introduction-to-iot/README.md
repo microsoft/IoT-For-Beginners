@@ -2,7 +2,7 @@
 
 ![A sketchnote overview of this lesson](../../../sketchnotes/lesson-1.png)
 
-> Sketchnote by [Nitya Narasimhan](https://github.com/nitya). Click for a larger version.
+> Sketchnote by [Nitya Narasimhan](https://github.com/nitya). Click the image for a larger version.
 
 ## Pre-lecture quiz
 
