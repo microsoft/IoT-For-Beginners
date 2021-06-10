@@ -6,7 +6,7 @@ In this lesson you gathered GDD data using an IoT sensor. To get good GDD data, 
 
 Start by gathering data for a few days. You will need to ensure your server code is running all the time your IoT device is running, either by adjusting your power management settings or running something like [this keep system active Python script](https://github.com/jaqsparow/keep-system-active).
 
-Once you have temperature data, you can use a Jupyter Notebook in this repo to visualize it and calculate GDD. Jupyter notebooks mix code and instructions in blocks called *cells*, often code in Python. You can read the instructions, then run each block of code block by block. You can also edit the code. In this notebook for example, you can edit the base temperature used to calculate the GDD for your plant.
+Once you have temperature data, you can use the Jupyter Notebook in this repo to visualize it and calculate GDD. Jupyter notebooks mix code and instructions in blocks called *cells*, often code in Python. You can read the instructions, then run each block of code, block by block. You can also edit the code. In this notebook for example, you can edit the base temperature used to calculate the GDD for your plant.
 
 1. Create a folder called `gdd-calculation`
 

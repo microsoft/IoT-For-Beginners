@@ -27,7 +27,7 @@ In this lesson we'll cover:
 
 Plants require water to grow. They absorb water throughout the entire plant, with the majority being absorbed by the root system. Water is used by the plant for three things:
 
-* [Photosynthesis](https://wikipedia.org/wiki/Photosynthesis) - plants react water with carbon dioxide and light to produce carbohydrates and oxygen
+* [Photosynthesis](https://wikipedia.org/wiki/Photosynthesis) - plants creates a chemical reaction with water, carbon dioxide and light to produce carbohydrates and oxygen.
 * [Transpiration](https://wikipedia.org/wiki/Transpiration) - plants use water for diffusion of carbon dioxide from the air into the plant via pores in the leaves. This process also carries nutrients around the plant, and cools the plant, similar to how humans sweat.
 * Structure - plants also need water to maintain their structure - they are 90% water (as opposed to humans at only 60%), and this water keeps the cells rigid. If a plant doesn't have enough water it will wilt and eventually die.
 
@@ -55,7 +55,7 @@ There are a range of different types of sensor you can use to measure soil moist
 
     ![A capacitive soil moisture sensor](../../../images/grove-capacitive-soil-moisture-sensor.png)
 
-These are both analog sensors, returning a voltage to indicate soil moisture. So how does this voltage get to your code? Before going any further with these sensors, lets look at how sensors and actuators communicate with IoT devices.
+These are both analog sensors, returning a voltage to indicate soil moisture. So how does this voltage get to your code? Before going any further with these sensors, let's look at how sensors and actuators communicate with IoT devices.
 
 ## How sensors communicate with IoT devices
 
@@ -64,8 +64,8 @@ So far in these lessons you've learned about a number of sensors and actuators, 
 To communicate with most sensors and actuators you need some hardware, and a communication protocol - that is a well defined way for data to be sent and received. Take for example a capacitive soil moisture sensor:
 
 * How is this sensor connected to the IoT device?
-* If it measures a voltage that is an analog signal, it will need an ADC to create a digital representation of the value, and this value is sent as an alternating a voltage to send 0s and 1s - but how long is each bit sent for?
-* If the sensor returns a digital value, that will be a stream of 0s and 1, again how long is each bit sent for?
+* If it measures a voltage that is an analog signal, it will need an ADC to create a digital representation of the value, and this value is sent as an alternating voltage to send 0s and 1s - but how long is each bit sent for?
+* If the sensor returns a digital value, that will be a stream of 0s and 1s, again how long is each bit sent for?
 * If the voltage is high for 0.1s is that a single 1 bit, or 2 consecutive 1 bits, or 10?
 * At what point does the number start? Is `00001101` 25, or are the first 5 bits the end of the previous value?
 
@@ -107,7 +107,7 @@ For example, on a 3.3V board, if the sensor returns 3.3V, the value returned wou
 
 ***A soil moisture sensor sent 3.3V and returning 1.65v, or a reading of 511. probe by Adnen Kadri / Microcontroller by Template - all from the [Noun Project](https://thenounproject.com)***
 
-> 💁 Back in lesson 3, the light sensor returned a value from 0-1,023. If you are using a Wio Terminal, the sensor was connected to an analog pin. If you are using a Raspberry Pi, then the sensor was connected to an analog pin on the base hat that has an integrated ADC to communicate over the GPIO pins. The virtual device was set to send a value from 0-1,023 to simulate an analog pin.
+> 💁 Back in nightlight - lesson 3, the light sensor returned a value from 0-1,023. If you are using a Wio Terminal, the sensor was connected to an analog pin. If you are using a Raspberry Pi, then the sensor was connected to an analog pin on the base hat that has an integrated ADC to communicate over the GPIO pins. The virtual device was set to send a value from 0-1,023 to simulate an analog pin.
 
 Soil moisture sensors rely on voltages, so will use analog pins and give values from 0-1,023.
 
@@ -153,7 +153,7 @@ UART involves physical circuitry that allows two devices to communicate. Each de
 
 UART devices have a [baud rate](https://wikipedia.org/wiki/Symbol_rate) (also known as Symbol rate), which is the speed that data will be sent and received in bits per second. A common baud rate is 9,600, meaning 9,600 bits (0s and 1s) of data are sent each second.
 
-UART uses start and stop bits - that is is sends a start bit to indicate that it's about to send a byte (8 bits) of data, then a stop bit after it's sent the 8 bits.
+UART uses start and stop bits - that is it sends a start bit to indicate that it's about to send a byte (8 bits) of data, then a stop bit after it sends the 8 bits.
 
 UART speed is dependent on hardware, but even the fastest implementations don't exceed 6.5 Mbps (megabits per second, or millions of bits, 0 or 1, sent per second).
 
@@ -180,7 +180,7 @@ SPI controllers use 3 wires, along with 1 extra wire per peripheral. Peripherals
 
 ***SPI with on controller and two peripherals. chip by Astatine Lab - all from the [Noun Project](https://thenounproject.com)***
 
-The CS wire is used to activate one peripheral at a time, communicating over the COPI and CIPO wires. When the controller needs to change peripheral, it deactivates the CS wire connected to currently active peripheral, then activates the wire connected to the peripheral it wants to communicate with next.
+The CS wire is used to activate one peripheral at a time, communicating over the COPI and CIPO wires. When the controller needs to change peripheral, it deactivates the CS wire connected to the currently active peripheral, then activates the wire connected to the peripheral it wants to communicate with next.
 
 SPI is *full-duplex*, meaning the controller can send and receive data at the same time from the same peripheral using the COPI and CIPO wires. SPI uses a clock signal on the SCLK wire to keep the devices in sync, so unlike sending directly over UART it doesn't need start and stop bits.
 
@@ -218,13 +218,13 @@ Work through the relevant guide to measure soil moisture using your IoT device:
 
 Sensors rely on measuring electrical properties such as resistance or capacitance.
 
-> 🎓 Resistance, measured in ohms (Ω) is how much opposition there is to the electric current travelling through something. When a voltage is applied to a material, the amount of current that passes through it is dependant on the resistance of the material. You can read more on the [electrical resistance page on Wikipedia](https://wikipedia.org/wiki/Electrical_resistance_and_conductance).
+> 🎓 Resistance, measured in ohms (Ω) is how much opposition there is to the electric current travelling through something. When a voltage is applied to a material, the amount of current that passes through it is dependant on the resistance of the material. You can read more on the [electrical resistance page on Wikipedia](https://wikipedia.org/wiki/Electrical_resistance_and_conductance).
 
 > 🎓 Capacitance, measured in farads (F), is the ability of a component or circuit to collect and store electrical energy. You can read more on capacitance on the [capacitance page on Wikipedia](https://wikipedia.org/wiki/Capacitance).
 
-These measurements are not always useful - imagine a temperature sensor that gave you a measurement of 22.5KΩ! Instead the value measured needs to be converted into a useful unit by being calibrated - that is matching the values measured to the quantity measured to allow new measurements to be converted to the right unit.
+These measurements are not always useful - imagine a temperature sensor that gave you a measurement of 22.5KΩ! Instead the value measured needs to be converted into a useful unit by being calibrated - that is matching the values measured to the quantity measured to allow new measurements to be converted to the right unit.
 
-Some sensors come pre-calibrated. For example the temperature sensor you used in the last lesson was already calibrated so that it can return a temperature measurement in °C. In the factory the first sensor created would be exposed to a range of known temperatures and the resistance measured. This would then be used to build a calculation that can convert from the value measured in Ω (the unit of resistance) to °C.
+Some sensors come pre-calibrated. For example the temperature sensor you used in the last lesson was already calibrated so that it can return a temperature measurement in °C. In the factory the first sensor created would be exposed to a range of known temperatures and the resistance measured. This would then be used to build a calculation that can convert from the value measured in Ω (the unit of resistance) to °C.
 
 > 💁 The formula to calculate resistance from temperature is called the [Steinhart–Hart equation](https://wikipedia.org/wiki/Steinhart–Hart_equation).
 
@@ -241,7 +241,7 @@ Soil moisture sensors measure electrical resistance or capacitance - this not on
 
 ![A graph of voltage vs soil moisture content](../../../images/soil-moisture-to-voltage.png)
 
-The graph above shows how to calibrate a sensor . The voltage is captured for a soil sample that is then measured in a lab by comparing the moist weight to the dry weight (by measuring the weight wet, then drying in an over and measuring dry). Once a few readings have been taken, this can be plotted on a graph and a line fitted to the points. This line can then be used to convert soil moisture sensor readings taken by an IoT device into actual soil moisture measurements.
+The graph above shows how to calibrate a sensor . The voltage is captured for a soil sample that is then measured in a lab by comparing the moist weight to the dry weight (by measuring the weight wet, then drying in an oven and measuring dry). Once a few readings have been taken, this can be plotted on a graph and a line fitted to the points. This line can then be used to convert soil moisture sensor readings taken by an IoT device into actual soil moisture measurements.
 
 💁 For resistive soil moisture sensors, the voltage increases as soil moisture increases. For capacitive soil moisture sensors, the voltage decreases as soil moisture increases, so the graphs for these would slope downwards, not upwards.
 

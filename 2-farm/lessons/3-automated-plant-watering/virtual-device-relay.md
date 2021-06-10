@@ -1,6 +1,6 @@
 # Control a relay - Virtual IoT Hardware
 
-In this part of the lesson, you will add a relay to your Raspberry Pi in addition to the soil moisture sensor, and control it based off the soil moisture level.
+In this part of the lesson, you will add a relay to your virtual IoT device in addition to the soil moisture sensor, and control it based off the soil moisture level.
 
 ## Virtual Hardware
 
@@ -93,9 +93,9 @@ Control the relay.
         relay.off()
     ```
 
-    This code checks the soil moisture level from the soil moisture sensor. if it is above 450, it turns on the relay, turning it off if it goes below 450.
+    This code checks the soil moisture level from the soil moisture sensor. If it is above 450, it turns on the relay, turning it off if it goes below 450.
 
-    > 💁 Remember the capacitive soil moisture sensor reads lower the more moisture there is in the soil.
+    > 💁 Remember the capacitive soil moisture sensor reads the lower the soil moisture level, the more moisture there is in the soil and vice versa.
 
 1. Run the Python app. You will see the relay turn on or off depending on the soil moisture levels. Change the *Value* or the *Random* settings for the soil moisture sensor to see the value change.
 
