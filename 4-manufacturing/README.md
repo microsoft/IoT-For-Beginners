@@ -14,10 +14,10 @@ In these 4 lessons you'll learn how to train image-based AI models to detect fru
 
 ## Topics
 
-1. [Train a fruit quality detector](./4-manufacturing/lessons/1-train-fruit-detector/README.md)
-1. [Check fruit quality from an IoT device](./4-manufacturing/lessons/2-check-fruit-from-device/README.md)
-1. [Run your fruit detector on the edge](./4-manufacturing/lessons/3-run-fruit-detector-edge/README.md)
-1. [Trigger fruit quality detection from a sensor](./4-manufacturing/lessons/4-trigger-fruit-detector/README.md)
+1. [Train a fruit quality detector](./lessons/1-train-fruit-detector/README.md)
+1. [Check fruit quality from an IoT device](./lessons/2-check-fruit-from-device/README.md)
+1. [Run your fruit detector on the edge](./lessons/3-run-fruit-detector-edge/README.md)
+1. [Trigger fruit quality detection from a sensor](./lessons/4-trigger-fruit-detector/README.md)
 
 ## Credits
 
