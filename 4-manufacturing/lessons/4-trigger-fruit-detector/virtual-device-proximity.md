@@ -32,7 +32,7 @@ Add the distance sensor to the CounterFit app.
 
     1. Leave the *Units* as `Millimeter`
 
-    1. This sensor is an I<sup>2<sup>C sensor, so set the address to `0x29`. If you used a physical VL53L0X sensor it would be hardcoded to this address.
+    1. This sensor is an I<sup>2</sup>C sensor, so set the address to `0x29`. If you used a physical VL53L0X sensor it would be hardcoded to this address.
 
     1. Select the **Add** button to create the distance sensor
 

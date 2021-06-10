@@ -36,4 +36,5 @@ The Wio Terminal can now be programmed to use the attached time of flight sensor
 
 ### Task - program the time of flight sensor
 
-1. Open the `fruit-quality-detector` application in VS Code
+1. Create a brand new Wio Terminal project using PlatformIO. Call this project `distance-sensor`. Add code in the `setup` function to configure the serial port.
+

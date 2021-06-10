@@ -88,4 +88,4 @@ The Custom Vision service has a Python SDK you can use to classify images.
 
 > 💁 You can find this code in the [code-classify/pi](code-classify/pi) or [code-classify/virtual-device](code-classify/virtual-device) folder.
 
-😀 Your camera program was a success!
+😀 Your fruit quality classifier program was a success!
