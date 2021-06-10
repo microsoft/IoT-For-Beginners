@@ -286,7 +286,9 @@ The Wio Terminal can now be programmed to capture an image when a button is pres
 
 ### Task - capture an image
 
-1. Microcontrollers run your code continuously, so it's not easy to trigger something like taking a photo without reacting to a sensor. The Wio Terminal has buttons, so the camera can be set up to be triggered by one of the buttons. Add the following code to the end of the `setup` function to configure the C button (one of the three buttons on the top, the one closest to the power switch):
+1. Microcontrollers run your code continuously, so it's not easy to trigger something like taking a photo without reacting to a sensor. The Wio Terminal has buttons, so the camera can be set up to be triggered by one of the buttons. Add the following code to the end of the `setup` function to configure the C button (one of the three buttons on the top, the one closest to the power switch).
+
+    ![The C button on the top closest to the power switch](../../../images/wio-terminal-c-button.png)
 
     ```cpp
     pinMode(WIO_KEY_C, INPUT_PULLUP);
@@ -339,6 +341,7 @@ The Wio Terminal can now be programmed to capture an image when a button is pres
     {
         Serial.print("Image read to buffer with length ");
         Serial.println(length);
+
         delete(buffer);
     }
     ```
@@ -455,4 +458,4 @@ The Wio Terminal only supports microSD cards of up to 16GB in size. If you have 
 
     ![A picture of a banana captured using the ArduCam](../../../images/banana-arducam.jpg)
 
-    > 💁 It may take a few images for the white balance of the camera to adjust itself. You will notice this based on the color of the images captured, the first few may look off color. You can always work around this by changing the code to capture a few images that are ignored during the setup.
+    > 💁 It may take a few images for the white balance of the camera to adjust itself. You will notice this based on the color of the images captured, the first few may look off color. You can always work around this by changing the code to capture a few images that are ignored in the `setup` function.

@@ -24,7 +24,7 @@ Install the Arduino JSON library.
 
 The next step is to create a JSON document with telemetry and send it to the MQTT broker.
 
-### Task
+### Task - publish telemetry
 
 Publish telemetry to the MQTT broker.
 
