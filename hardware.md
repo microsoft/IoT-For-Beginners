@@ -50,6 +50,7 @@ These are specific to using the Raspberry Pi, and are not relevant to using the 
   or
   * [USB Speakerphone](https://www.amazon.com/USB-Speakerphone-Conference-Business-Microphones/dp/B07Q3D7F8S/ref=sr_1_1?dchild=1&keywords=m0&qid=1614647389&sr=8-1)
 * [Grove Sunlight sensor](https://www.seeedstudio.com/Grove-Sunlight-Sensor.html)
+* [Grove button](https://www.seeedstudio.com/Grove-Button.html)
 
 ## Sensors and actuators
 
@@ -60,7 +61,7 @@ Most of the sensors and actuators needed are used by both the Arduino and Raspbe
 * [Grove capacitive soil moisture sensor](https://www.seeedstudio.com/Grove-Capacitive-Moisture-Sensor-Corrosion-Resistant.html)
 * [Grove relay](https://www.seeedstudio.com/Grove-Relay.html)
 * [Grove GPS (Air530)](https://www.seeedstudio.com/Grove-GPS-Air530-p-4584.html)
-* [Grove - Time of flight Distance Sensor](https://www.seeedstudio.com/Grove-Time-of-Flight-Distance-Sensor-VL53L0X.html)
+* [Grove Time of flight Distance Sensor](https://www.seeedstudio.com/Grove-Time-of-Flight-Distance-Sensor-VL53L0X.html)
 
 ## Optional hardware
 
