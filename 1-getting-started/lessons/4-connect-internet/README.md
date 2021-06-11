@@ -76,9 +76,9 @@ Follow the relevant step below to connect your device to the MQTT broker:
 
 ### A deeper dive into MQTT
 
-Topics can have a hierarchy, and clients can subscribe to different levels of the hierarchy using wildcards. For example, you can send temperature telemetry messages to `/telemetry/temperature` and humidity messages to `/telemetry/humidity`, then in your cloud app subscribe to `/telemetry/*` to receive both the temperature and humidity telemetry messages.
+Topics can have a hierarchy, and clients can subscribe to different levels of the hierarchy using wildcards. For example, you can send temperature telemetry messages to the `/telemetry/temperature` topic and humidity messages to the `/telemetry/humidity` topic, then in your cloud app subscribe to the `/telemetry/*` topic to receive both the temperature and humidity telemetry messages.
 
-Messages can be sent with a quality of service (QoS), which determines the guarantees of the message being received.
+Messages can be sent with a quality of service (QoS), which determines the guarantee of the message being received.
 
 * At most once - the message is sent only once and the client and broker take no additional steps to acknowledge delivery (fire and forget).
 * At least once - the message is re-tried by the sender multiple times until acknowledgement is received (acknowledged delivery).
@@ -86,11 +86,11 @@ Messages can be sent with a quality of service (QoS), which determines the guara
 
 ✅ What situations might require an assured delivery message over a fire and forget message?
 
-Although the name is Message Queueing, it doesn't actually support message queues. This means that if a client disconnects, then reconnects it won't receive messages sent during the disconnection except for those messages that it had already started to process using the QoS process. Messages can have a retained flag set on them. If this is set, the MQTT broker will store the last message sent on a topic with this flag, and send this to any clients who later subscribe to the topic. This way the clients will always get the latest message.
+Although the name is Message Queueing (initials in MQTT), it doesn't actually support message queues. This means that if a client disconnects, then reconnects it won't receive messages sent during the disconnection, except for those messages that it had already started to process using the QoS process. Messages can have a retained flag set on them. If this is set, the MQTT broker will store the last message sent on a topic with this flag, and send this to any clients who later subscribe to the topic. This way, the clients will always get the latest message.
 
 MQTT also supports a keep alive function that checks to see if the connection is still alive during long gaps between messages.
 
-> 🦟 [Mosquitto from the Eclipse Foundation](https://mosquitto.org) has a free MQTT broker you can run yourself to experiment with MQTT, along with a public MQTT broker you can use to test your code hosted at [test.mosquitto.org](https://test.mosquitto.org).
+> 🦟 [Mosquitto from the Eclipse Foundation](https://mosquitto.org) has a free MQTT broker you can run yourself to experiment with MQTT, along with a public MQTT broker you can use to test your code, hosted at [test.mosquitto.org](https://test.mosquitto.org).
 
 MQTT connections can be public and open, or encrypted and secured using usernames and passwords, or certificates.
 
