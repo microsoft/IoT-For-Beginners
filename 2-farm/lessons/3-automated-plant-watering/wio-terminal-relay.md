@@ -70,7 +70,7 @@ Now that the relay is working, it can be controlled in response to soil moisture
 
 Control the relay.
 
-1. Delete the 3 lines of code that you added to test the relay. Replace them with the following code in its place:
+1. Delete the 3 lines of code that you added to test the relay. Replace them with the following code:
 
     ```cpp
     if (soil_moisture > 450)
@@ -85,13 +85,13 @@ Control the relay.
     }
     ```
 
-    This code checks the soil moisture level from the soil moisture sensor. if it is above 450, it turns on the relay, turning it off if it goes below 450.
+    This code checks the soil moisture level from the soil moisture sensor. If it is above 450, it turns on the relay, and turns it off when it goes below 450.
 
-    > 💁 Remember the capacitive soil moisture sensor reads lower the more moisture there is in the soil.
+    > 💁 Remember the capacitive soil moisture sensor reads the lower the soil moisture level, the more moisture there is in the soil and vice versa.
 
 1. Build and upload the code to the Wio Terminal.
 
-1. Monitor the device via the serial monitor. You will see the relay turn on or off depending on the soil moisture levels. Try in dry soil, then add water.
+1. Monitor the device via the serial monitor. You will see the relay turn on or off depending on the soil moisture level. Try in dry soil, then add water.
 
     ```output
     Soil Moisture: 638

@@ -17,7 +17,7 @@ All the device code for Arduino is in C++. To complete all the assignments you w
 ### Arduino hardware
 
 * [Wio Terminal](https://www.seeedstudio.com/Wio-Terminal-p-4509.html)
-* Optional - USB-C cable or USB-A to USB-C adapter. The Wio terminal has a USB-C port and comes with a USB-C to USB-A cable. If your PC or Mac only has USB-C ports you will need a USB-C cable, or a USB-A to USB-C adapter.
+* *Optional* - USB-C cable or USB-A to USB-C adapter. The Wio terminal has a USB-C port and comes with a USB-C to USB-A cable. If your PC or Mac only has USB-C ports you will need a USB-C cable, or a USB-A to USB-C adapter.
 
 ### Arduino specific sensors and actuators
 
@@ -25,6 +25,7 @@ These are specific to using the Wio terminal Arduino device, and are not relevan
 
 * [ArduCam Mini 2MP Plus - OV2640](https://www.arducam.com/product/arducam-2mp-spi-camera-b0067-arduino/)
 * [Grove speaker plus](https://www.seeedstudio.com/Grove-Speaker-Plus-p-4592.html)
+* *Optional* - microSD Card 16GB or less for testing image capture, along with a connector to use the SD card with your computer if you don't have one built-in. **NOTE** - the Wio Terminal only supports SD cards up to 16GB, it does not support higher capacities.
 
 ## Raspberry Pi
 
@@ -34,8 +35,8 @@ All the device code for Raspberry Pi is in Python. To complete all the assignmen
 
 * [Raspberry Pi](https://www.raspberrypi.org/products/raspberry-pi-4-model-b/)
   > 💁 Versions from the Pi 2B and above should work with the assignments in these lessons.
-* SD Card (You can get Raspberry Pi kits that come with an SD Card)
-* USB power supply (You can get Raspberry Pi 4 kits that come with a power supply). If you are using a Raspberry Pi 4 you need a USB-C power supply, earlier devices need a micro-USB power supply
+* microSD Card (You can get Raspberry Pi kits that come with a microSD Card), along with a connector to use the SD card with your computer if you don't have one built-in.
+* USB power supply (You can get Raspberry Pi 4 kits that come with a power supply). If you are using a Raspberry Pi 4 you need a USB-C power supply, earlier devices need a micro-USB power supply.
 
 ### Raspberry Pi specific sensors and actuators
 
@@ -45,7 +46,7 @@ These are specific to using the Raspberry Pi, and are not relevant to using the 
 * [Raspberry Pi Camera module](https://www.raspberrypi.org/products/camera-module-v2/)
 * Microphone and speaker:
   * Any USB Microphone
-  * Any USB speaker, or speaker with a 3.5mm cable
+  * Any USB speaker, or speaker with a 3.5mm cable, or using HDMI audio if your Raspberry Pi is connected to a monitor with speakers
   or
   * [USB Speakerphone](https://www.amazon.com/USB-Speakerphone-Conference-Business-Microphones/dp/B07Q3D7F8S/ref=sr_1_1?dchild=1&keywords=m0&qid=1614647389&sr=8-1)
 * [Grove Sunlight sensor](https://www.seeedstudio.com/Grove-Sunlight-Sensor.html)
@@ -59,7 +60,7 @@ Most of the sensors and actuators needed are used by both the Arduino and Raspbe
 * [Grove capacitive soil moisture sensor](https://www.seeedstudio.com/Grove-Capacitive-Moisture-Sensor-Corrosion-Resistant.html)
 * [Grove relay](https://www.seeedstudio.com/Grove-Relay.html)
 * [Grove GPS (Air530)](https://www.seeedstudio.com/Grove-GPS-Air530-p-4584.html)
-* [Grove - Ultrasonic Distance Sensor](https://www.seeedstudio.com/Grove-Ultrasonic-Distance-Sensor.html)
+* [Grove - Time of flight Distance Sensor](https://www.seeedstudio.com/Grove-Time-of-Flight-Distance-Sensor-VL53L0X.html)
 
 ## Optional hardware
 

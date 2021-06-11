@@ -47,7 +47,7 @@ When learning about plants, most students are taught about the necessity of wate
 Plants have a base or minimum temperature, optimal temperature, and maximum temperature, all based on daily average temperatures.
 
 * Base temperature - this is the minimum daily average temperature needed for a plant to grow.
-* Optimum temperature - this is the best daily average temperature to get the most growth
+* Optimum temperature - this is the best daily average temperature to get the most growth.
 * Maximum temperature - The is the maximum temperature a plant can withstand. Above this the plant will shut down it's growth in an attempt to conserve water and stay alive.
 
 > 💁 These are average temperatures, averaged over the daily and nightly temperatures. Plants also need different temperatures day and night to help them photosynthesize more efficiently and save energy at night.
@@ -149,7 +149,7 @@ Work through the relevant guide to publish temperature data over MQTT using your
 
 ### Task - capture and store the temperature information
 
-Once the IoT device is publishing telemetry, the server code can be written to subscribe to this data and store it. Rather than save it to a database, the server code will save it to a Comma Separated Values (CSV) file. CSV files store data as rows of values as text with each value separated by a comma, and each record on a new line. They are a convenient, human-readable and well supported way to save data as a file.
+Once the IoT device is publishing telemetry, the server code can be written to subscribe to this data and store it. Rather than save it to a database, the server code will save it to a Comma Separated Values (CSV) file. CSV files store data as rows of values as text, with each value separated by a comma, and each record on a new line. They are a convenient, human-readable and well supported way to save data as a file.
 
 The CSV file will have two columns - *date* and *temperature*. The *date* column is set as the current date and time that the message was received by the server, the *temperature* comes from the telemetry message.
 
@@ -218,11 +218,14 @@ The CSV file will have two columns - *date* and *temperature*. The *date* column
     2021-04-19T17:41:36-07:00,25
     ```
 
-1. Run this code for a while to capture data. Ideally you should run this for a an entire day to gather enough data for GDD calculations.
+1. Run this code for a while to capture data. Ideally you should run this for an entire day to gather enough data for GDD calculations.
+
+    > 💁 If you are using Virtual IoT Device, select the random checkbox and set a range to avoid getting the same temperature everytime the temperature value is returned.
+    ![Select the random checkbox and set a range](../../../images/select-the-random-checkbox-and-set-a-range.png) 
 
     > 💁 If you want to run this for an entire day, then you need to make sure the computer your server code is running on won't go to sleep, either by changing your power settings, or running something like [this keep system active Python script](https://github.com/jaqsparow/keep-system-active).
-
-> 💁 You can find this code in the [code-server/server](code-server/server) folder.
+    
+> 💁 You can find this code in the [code-server/temperature-sensor-server](code-server/temperature-sensor-server) folder.
 
 ### Task - calculate GDD using the stored data
 
