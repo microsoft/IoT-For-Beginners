@@ -117,7 +117,7 @@ In the image above, the banana picture on the left was taken using a Raspberry P
 
 To improve the model, you can retrain it using the images captured from the IoT device.
 
-### Task -improve the model
+### Task - improve the model
 
 1. Classify multiple images of both ripe and unripe fruit using your IoT device.
 

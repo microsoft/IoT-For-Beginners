@@ -20,7 +20,7 @@ The projects cover the journey of food from farm to table. This includes farming
 
 ![A road map for the course showing 24 lessons covering intro, farming, transport, processing, retail and cooking](sketchnotes/Roadmap.png)
 
-**Hearty thanks to our authors [Jen Looper](https://github.com/jlooper), [Jim Bennett](https://github.com/jimbobbennett), and sketchnote artist [Nitya Narasimhan](https://github.com/nitya)**
+**Hearty thanks to our authors [Jen Fox](https://github.com/jenfoxbot), [Jen Looper](https://github.com/jlooper), [Jim Bennett](https://github.com/jimbobbennett), and sketchnote artist [Nitya Narasimhan](https://github.com/nitya)**
 
 > **Teachers**, we have [included some suggestions](for-teachers.md) on how to use this curriculum. If you would like to create your own lessons, we have also included a [lesson template](lesson-template/README.md).
 
