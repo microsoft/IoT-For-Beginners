@@ -13,4 +13,4 @@
 
 ## श्रेय
 
-सभी पाठ [जिम बेनेट](https://GitHub.com/JimBobBennett) द्वारा ♥️ के साथ लिखे गए हैं
+सभी पाठ [जिम बेनेट](https://GitHub.com/JimBobBennett) द्वारा ♥️ से लिखे गए हैं
