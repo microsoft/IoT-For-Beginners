@@ -25,14 +25,14 @@ In this lesson we'll cover:
 
 ## What is the cloud?
 
-Before the cloud, when a company wants to provide services to their employees (such as databases or file storage), or to the public (such as websites), they would build and run a data center. This ranged from a room with a small number of computers, to a building with many computers. The company would manage everything, including:
+Before the cloud, when a company wanted to provide services to their employees (such as databases or file storage), or to the public (such as websites), they would build and run a data center. This ranged from a room with a small number of computers, to a building with many computers. The company would manage everything, including:
 
 * Buying computers
 * Hardware maintenance
 * Power and cooling
 * Networking
 * Security, including securing the building and securing the software on the computers
-* Software installation and updates.
+* Software installation and updates
 
 This could be very expensive, require a wide range of skilled employees, and be very slow to change when needed. For example, if an online store needed to plan for a busy holiday season, they would need to plan months in advance to buy more hardware, configure it, install it and install the software to run their sales process. After the holiday season was over and sales dropped back down, they would be left with computers they've paid for sitting idle till the next busy season.
 
@@ -51,7 +51,7 @@ These data centers can be multiple square kilometers in size. The images above w
 
 ✅ Do some research: Read up on the major clouds such as [Azure from Microsoft](https://azure.microsoft.com/?WT.mc_id=academic-17441-jabenn) or [GCP from Google](https://cloud.google.com). How many data centers do they have, and where are they in the world?
 
-Using the cloud keeps costs down for companies, and allows them to focus on what they do best, leaving the cloud computing expertise in the hands of the provider. Companies no longer need to rent or buy data center space or pay different providers for connectivity, power and expert employees. Instead, they can pay one monthly bill to the cloud provider to have everything taken care off.
+Using the cloud keeps costs down for companies, and allows them to focus on what they do best, leaving the cloud computing expertise in the hands of the provider. Companies no longer need to rent or buy data center space, pay different providers for connectivity and power, or employ experts. Instead, they can pay one monthly bill to the cloud provider to have everything taken care off.
 
 The cloud provider can then use economies of scale to drive costs down, buying computers in bulk at lower costs, investing in tooling to reduce their workload for maintenance, even designing and building their own hardware to improve their cloud offering.
 
