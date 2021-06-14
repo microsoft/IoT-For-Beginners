@@ -20,7 +20,7 @@ Otherwise
 
 ### Connect the LED
 
-The Grove LED comes as a module with a selection of LEDs, allowing you to chose the color.
+The Grove LED comes as a module with a selection of LEDs, allowing you to choose the color.
 
 #### Task - connect the LED
 
@@ -32,7 +32,7 @@ Connect the LED.
 
     LEDs are light-emitting diodes, and diodes are electronic devices that can only carry current one way. This means the LED needs to be connected the right way round, otherwise it won't work.
 
-    One of the legs of the LED is the positive pin, the other is the negative pin. The LED is not perfectly round, and is slightly flatter on one side. The side that is slightly flatter is the negative pin. When you connect the LED to the module, make sure the pin by the rounded side is connected to the socket marked **+** on the outside of the module, and the flatter side is connected to the socket closer to the middle of the module.
+    One of the legs of the LED is the positive pin, the other is the negative pin. The LED is not perfectly round, and is slightly flatter on one side. The slightly flatter side is the negative pin. When you connect the LED to the module, make sure the pin by the rounded side is connected to the socket marked **+** on the outside of the module, and the flatter side is connected to the socket closer to the middle of the module.
 
 1. The LED module has a spin button that allows you to control the brightness. Turn this all the way up to start with by rotating it anti-clockwise as far as it will go using a small Phillips head screwdriver.
 
