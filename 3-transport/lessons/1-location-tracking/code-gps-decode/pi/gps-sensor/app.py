@@ -4,7 +4,7 @@ import pynmea2
 import json
 from azure.iot.device import IoTHubDeviceClient, Message
 
-connection_string = "<connection_string>"
+connection_string = '<connection_string>'
 
 serial = serial.Serial('/dev/ttyAMA0', 9600, timeout=1)
 serial.reset_input_buffer()
@@ -12,9 +12,9 @@ serial.flush()
 
 device_client = IoTHubDeviceClient.create_from_connection_string(connection_string)
 
-print("Connecting")
+print('Connecting')
 device_client.connect()
-print("Connected")
+print('Connected')
 
 def printGPSData(line):
     msg = pynmea2.parse(line)

@@ -24,7 +24,11 @@ All the device code for Arduino is in C++. To complete all the assignments you w
 These are specific to using the Wio terminal Arduino device, and are not relevant to using the Raspberry Pi.
 
 * [ArduCam Mini 2MP Plus - OV2640](https://www.arducam.com/product/arducam-2mp-spi-camera-b0067-arduino/)
-* [Grove speaker plus](https://www.seeedstudio.com/Grove-Speaker-Plus-p-4592.html)
+* [ReSpeaker 2-Mics Pi HAT](https://www.seeedstudio.com/ReSpeaker-2-Mics-Pi-HAT.html)
+* [Breadboard Jumper Wires](https://www.seeedstudio.com/Breadboard-Jumper-Wire-Pack-241mm-200mm-160mm-117m-p-234.html)
+* Headphones or other speaker with a 3.5mm jack, or a JST speaker such as:
+  * [Mono Enclosed Speaker - 2W 6 Ohm](https://www.seeedstudio.com/Mono-Enclosed-Speaker-2W-6-Ohm-p-2832.html)
+  * [Grove speaker plus](https://www.seeedstudio.com/Grove-Speaker-Plus-p-4592.html)
 * *Optional* - microSD Card 16GB or less for testing image capture, along with a connector to use the SD card with your computer if you don't have one built-in. **NOTE** - the Wio Terminal only supports SD cards up to 16GB, it does not support higher capacities.
 
 ## Raspberry Pi
@@ -45,11 +49,16 @@ These are specific to using the Raspberry Pi, and are not relevant to using the 
 * [Grove Pi base hat](https://wiki.seeedstudio.com/Grove_Base_Hat_for_Raspberry_Pi)
 * [Raspberry Pi Camera module](https://www.raspberrypi.org/products/camera-module-v2/)
 * Microphone and speaker:
-  * Any USB Microphone
-  * Any USB speaker, or speaker with a 3.5mm cable, or using HDMI audio if your Raspberry Pi is connected to a monitor with speakers
-  or
+
+  Use one of the following (or equivalent):
+  * Any USB Microphone with any USB speaker, or speaker with a 3.5mm jack cable, or using HDMI audio output if your Raspberry Pi is connected to a monitor or TV with speakers
+  * Any USB headset with a built in microphone
+  * [ReSpeaker 2-Mics Pi HAT](https://www.seeedstudio.com/ReSpeaker-2-Mics-Pi-HAT.html) with
+    * Headphones or other speaker with a 3.5mm jack, or a JST speaker such as:
+    * [Mono Enclosed Speaker - 2W 6 Ohm](https://www.seeedstudio.com/Mono-Enclosed-Speaker-2W-6-Ohm-p-2832.html)
   * [USB Speakerphone](https://www.amazon.com/USB-Speakerphone-Conference-Business-Microphones/dp/B07Q3D7F8S/ref=sr_1_1?dchild=1&keywords=m0&qid=1614647389&sr=8-1)
 * [Grove Sunlight sensor](https://www.seeedstudio.com/Grove-Sunlight-Sensor.html)
+* [Grove button](https://www.seeedstudio.com/Grove-Button.html)
 
 ## Sensors and actuators
 
@@ -60,7 +69,7 @@ Most of the sensors and actuators needed are used by both the Arduino and Raspbe
 * [Grove capacitive soil moisture sensor](https://www.seeedstudio.com/Grove-Capacitive-Moisture-Sensor-Corrosion-Resistant.html)
 * [Grove relay](https://www.seeedstudio.com/Grove-Relay.html)
 * [Grove GPS (Air530)](https://www.seeedstudio.com/Grove-GPS-Air530-p-4584.html)
-* [Grove - Time of flight Distance Sensor](https://www.seeedstudio.com/Grove-Time-of-Flight-Distance-Sensor-VL53L0X.html)
+* [Grove Time of flight Distance Sensor](https://www.seeedstudio.com/Grove-Time-of-Flight-Distance-Sensor-VL53L0X.html)
 
 ## Optional hardware
 
@@ -74,6 +83,8 @@ The lessons on automated watering work using a relay. As an option, you can conn
 
 ## Virtual hardware
 
-The virtual hardware route will provide simulators for the sensors and actuators, implemented in Python. Depending on your hardware availability, you can run this on your normal development device, such as a Mac, PC, or run it on a Raspberry Pi and simulate only the hardware you don't have. For example, if you have the camera but not the Grove sensors, you will be able to run the virtual device code on your Pi and simulate the Grove sensors, but use a physical camera.
+The virtual hardware route will provide simulators for the sensors and actuators, implemented in Python. Depending on your hardware availability, you can run this on your normal development device, such as a Mac, PC, or run it on a Raspberry Pi and simulate only the hardware you don't have. For example, if you have the Raspberry Pi camera but not the Grove sensors, you will be able to run the virtual device code on your Pi and simulate the Grove sensors, but use a physical camera.
 
 The virtual hardware will use the [CounterFit project](https://github.com/CounterFit-IoT/CounterFit).
+
+To complete these lessons you will need to have a web cam, microphone and audio output such as speakers or headphones. These can be built in or external, and need to be configured to work with your operating system and available for use from all applications.
