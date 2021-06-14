@@ -178,7 +178,7 @@ To use the Azure CLI, first it must be installed on your PC or Mac.
     az account set --subscription <SubscriptionId>
     ```
 
-    Replace `<SubscriptionId>` with the Id of hte subscription you want to use. After running this command, re-run the command to list your accounts. You will see the `IsDefault` column will be marked as `True` for the subscription you have just set.
+    Replace `<SubscriptionId>` with the Id of the subscription you want to use. After running this command, re-run the command to list your accounts. You will see the `IsDefault` column will be marked as `True` for the subscription you have just set.
 
 ### Task - create a resource group
 
