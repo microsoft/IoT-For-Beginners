@@ -6,7 +6,7 @@ import time
 import wave
 
 from grove.factory import Factory
-button = Factory.getButton('GPIO-LOW', 17)
+button = Factory.getButton('GPIO-HIGH', 5)
 
 audio = pyaudio.PyAudio()
 microphone_card_number = 1

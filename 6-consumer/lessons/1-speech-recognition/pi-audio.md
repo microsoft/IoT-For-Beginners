@@ -200,6 +200,14 @@ You can capture audio from the microphone using Python code.
     ALSA lib pcm.c:2565:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.side
     ```
 
+    If you see the following error:
+
+    ```output
+    OSError: [Errno -9997] Invalid sample rate
+    ```
+
+    then change the `rate` to either 44100 or 16000.
+
 > 💁 You can find this code in the [code-record/pi](code-record/pi) folder.
 
 😀 Your audio recording program was a success!
