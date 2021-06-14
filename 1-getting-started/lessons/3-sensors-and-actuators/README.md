@@ -27,12 +27,12 @@ Sensors are hardware devices that sense the physical world - that is they measur
 
 Some common sensors include:
 
-* Temperature sensors - these sense the air temperature, or the temperature of what they are immersed in. For hobbyists and developer, these are often combined with air pressure and humidity in a single sensor.
+* Temperature sensors - these sense the air temperature or the temperature of what they are immersed in. For hobbyists and developer, these are often combined with air pressure and humidity in a single sensor.
 * Buttons - they sense when they have been pressed.
-* Light sensors - these detect light levels, and can be for specific colors, UV light, IR light, or general visible light.
+* Light sensors - these detect light levels and can be for specific colors, UV light, IR light, or general visible light.
 * Cameras - these sense a visual representation of the world by taking a photograph or streaming video.
 * Accelerometers - these sense movement in multiple directions.
-* Microphones - these sense sound, either general sound levels, or directional sound.
+* Microphones - these sense sound, either general sound levels or directional sound.
 
 ✅ Do some research. What sensors does your phone have?
 
@@ -54,7 +54,7 @@ Sensors are either analog or digital.
 
 Some of the most basic sensors are analog sensors. These sensors receive a voltage from the IoT device, the sensor components adjust this voltage, and the voltage that is returned from the sensor is measured to give the sensor value.
 
-> 🎓 Voltage is a measure of how much push there is to move electricity from one place to another, such as from a positive terminal of a battery to the negative terminal. For example, a standard AA battery is 1.5V (V is the symbol for volts), and can push electricity with the force of 1.5V from it's positive terminal to its negative terminal. Different electrical hardware requires different voltages to work, for example an LED can light with between 2-3V, but a 100W filament lightbulb would need 240V. You can read more about voltage on the [Voltage page on Wikipedia](https://wikipedia.org/wiki/Voltage).
+> 🎓 Voltage is a measure of how much push there is to move electricity from one place to another, such as from a positive terminal of a battery to the negative terminal. For example, a standard AA battery is 1.5V (V is the symbol for volts) and can push electricity with the force of 1.5V from it's positive terminal to its negative terminal. Different electrical hardware requires different voltages to work, for example, an LED can light with between 2-3V, but a 100W filament lightbulb would need 240V. You can read more about voltage on the [Voltage page on Wikipedia](https://wikipedia.org/wiki/Voltage).
 
 One example of this is a potentiometer. This is a dial that you can rotate between two positions and the sensor measures the rotation.
 
@@ -66,7 +66,7 @@ The IoT device will send an electrical signal to the potentiometer at a voltage,
 
 > 🎓 This is an oversimplification, and you can read more on potentiometers and variable resistors on the [potentiometer Wikipedia page](https://wikipedia.org/wiki/Potentiometer).
 
-The voltage that comes out the sensor is then read by the IoT device, and the device can respond to it. Depending on the sensor, this voltage can be an arbitrary value, or can map to a standard unit. For example an analog temperature sensor based on a [thermistor](https://wikipedia.org/wiki/Thermistor) changes it's resistance depending on the temperature. The output voltage can then be converted to a temperature in Kelvin, and correspondingly into °C or °F, by calculations in code.
+The voltage that comes out of the sensor is then read by the IoT device, and the device can respond to it. Depending on the sensor, this voltage can be an arbitrary value or can map to a standard unit. For example, an analog temperature sensor based on a [thermistor](https://wikipedia.org/wiki/Thermistor) changes it's resistance depending on the temperature. The output voltage can then be converted to a temperature in Kelvin, and correspondingly into °C or °F, by calculations in code.
 
 ✅ What do you think happens if the sensor returns a higher voltage than was sent (for example coming from an external power supply)? ⛔️ DO NOT test this out.
 
@@ -74,7 +74,7 @@ The voltage that comes out the sensor is then read by the IoT device, and the de
 
 IoT devices are digital - they can't work with analog values, they only work with 0s and 1s. This means that analog sensor values need to be converted to a digital signal before they can be processed. Many IoT devices have analog-to-digital converters (ADCs) to convert analog inputs to digital representations of their value. Sensors can also work with ADCs via a connector board. For example, in the Seeed Grove ecosystem with a Raspberry Pi, analog sensors connect to specific ports on a 'hat' that sits on the Pi connected to the Pi's GPIO pins, and this hat has an ADC to convert the voltage into a digital signal that can be sent off the Pi's GPIO pins.
 
-Imagine you have an analog light sensor connected to an IoT device that uses 3.3V, and is returning a value of 1V. This 1V doesn't mean anything in the digital world, so needs to be converted. The voltage will be converted to an analog value using a scale depending on the device and sensor. One example is the Seeed Grove light sensor which outputs values from 0 to 1,023. For this sensor running at 3.3V, a 1V output would be a value of 300. An IoT device can't handle 300 as an analog value, so the value would be converted to `0000000100101100`, the binary representation of 300 by the Grove hat. This would then be processed by the IoT device.
+Imagine you have an analog light sensor connected to an IoT device that uses 3.3V and is returning a value of 1V. This 1V doesn't mean anything in the digital world, so needs to be converted. The voltage will be converted to an analog value using a scale depending on the device and sensor. One example is the Seeed Grove light sensor which outputs values from 0 to 1,023. For this sensor running at 3.3V, a 1V output would be a value of 300. An IoT device can't handle 300 as an analog value, so the value would be converted to `0000000100101100`, the binary representation of 300 by the Grove hat. This would then be processed by the IoT device.
 
 ✅ If you don't know binary, then do a small amount of research to learn how numbers are represented by 0s and 1s. The [BBC Bitesize introduction to binary lesson](https://www.bbc.co.uk/bitesize/guides/zwsbwmn/revision/1) is a great place to start.
 
@@ -82,7 +82,7 @@ From a coding perspective, all this is usually handled by libraries that come wi
 
 ### Digital sensors
 
-Digital sensors, like analog sensors, detect the world around them using changes in electrical voltage. The difference is they output a digital signal, either by only measuring two states, or by using a built-in ADC. Digital sensors are becoming more and more common to avoid the need to use an ADC either in a connector board or on the IoT device itself.
+Digital sensors, like analog sensors, detect the world around them using changes in electrical voltage. The difference is they output a digital signal, either by only measuring two states or by using a built-in ADC. Digital sensors are becoming more and more common to avoid the need to use an ADC either in a connector board or on the IoT device itself.
 
 The simplest digital sensor is a button or switch. This is a sensor with two states, on or off.
 
@@ -92,18 +92,18 @@ The simplest digital sensor is a button or switch. This is a sensor with two sta
 
 Pins on IoT devices such as GPIO pins can measure this signal directly as a 0 or 1. If the voltage sent is the same as the voltage returned, the value read is 1, otherwise the value read is 0. There is no need to convert the signal, it can only be 1 or 0.
 
-> 💁 Voltages are never exact especially as the components in a sensor will have some resistance, so there is usually a tolerance. For example the GPIO pins on a Raspberry Pi work on 3.3V, and read a return signal above 1.8V as a 1, below 1.8V as 0.
+> 💁 Voltages are never exact especially as the components in a sensor will have some resistance, so there is usually a tolerance. For example, the GPIO pins on a Raspberry Pi work on 3.3V, and read a return signal above 1.8V as a 1, below 1.8V as 0.
 
 * 3.3V goes into the button. The button is off so 0V comes out, giving a value of 0
 * 3.3V goes into the button. The button is on so 3.3V comes out, giving a value of 1
 
-More advanced digital sensors read analog values, then convert them using on-board ADCs to digital signals. For example a digital temperature sensor will still use a thermocouple in the same way as an analog sensor, and will still measure the change in voltage caused by the resistance of the thermocouple at the current temperature. Instead of returning an analog value and relying on the device or connector board to convert to a digital signal, an ADC built into the sensor will convert the value and send it as a series of 0s and 1s to the IoT device. These 0s and 1s are sent in the same way as the digital signal for a button with 1 being full voltage and 0 being 0v.
+More advanced digital sensors read analog values, then convert them using on-board ADCs to digital signals. For example, a digital temperature sensor will still use a thermocouple in the same way as an analog sensor, and will still measure the change in voltage caused by the resistance of the thermocouple at the current temperature. Instead of returning an analog value and relying on the device or connector board to convert to a digital signal, an ADC built into the sensor will convert the value and send it as a series of 0s and 1s to the IoT device. These 0s and 1s are sent in the same way as the digital signal for a button with 1 being full voltage and 0 being 0v.
 
 ![A digital temperature sensor converting an analog reading to binary data with 0 as 0 volts and 1 as 5 volts before sending it to an IoT device](../../../images/temperature-as-digital.png)
 
 ***A digital temperature sensor. Temperature by Vectors Market / Microcontroller by Template - all from the [Noun Project](https://thenounproject.com)***
 
-Sending digital data allows sensors to become more complex and send more detailed data, even encrypted data for secure sensors. One example is a camera. This is a sensor that captures an image and sends it as digital data containing that image, usually in a compressed format such as JPEG, to be read by the IoT device. It can even stream video by capturing images and sending either the complete image frame by frame, or a compressed video stream.
+Sending digital data allows sensors to become more complex and send more detailed data, even encrypted data for secure sensors. One example is a camera. This is a sensor that captures an image and sends it as digital data containing that image, usually in a compressed format such as JPEG, to be read by the IoT device. It can even stream video by capturing images and sending either the complete image frame by frame or a compressed video stream.
 
 ## What are actuators?
 
@@ -143,7 +143,7 @@ One example is a dimmable light, such as the ones you might have in your house. 
 
 ![A light dimmed at a low voltage and brighter at a higher voltage](../../../images/dimmable-light.png)
 
-***A light controlled by the voltage output by an IoT device. Idea by Pause08 / Microcontroller by Template - all from the [Noun Project](https://thenounproject.com)***
+***A light controlled by the voltage output of an IoT device. Idea by Pause08 / Microcontroller by Template - all from the [Noun Project](https://thenounproject.com)***
 
 Like with sensors, the actual IoT device works on digital signals, not analog. This means to send an analog signal, the IoT device needs a digital to analog converter (DAC), either on the IoT device directly, or on a connector board. This will convert the 0s and 1s from the IoT device to an analog voltage that the actuator can use.
 
@@ -174,14 +174,14 @@ This means in one second you have 25 5V pulses of 0.02s that rotate the motor, e
 
 ***PWM rotation of a motor at 75RPM. motor by Bakunetsu Kaito / Microcontroller by Template - all from the [Noun Project](https://thenounproject.com)***
 
-You can change the motor speed by changing the size of the pulses. For example, with the same motor you can keep the same cycle time of 0.04s, with the on pulse halved to 0.01s, and the off pulse increasing to 0.03s. You have the same number of pulses per second (25), but each on pulse is half the length. A half length pulse only turns the motor one twentieth of a rotation, and at 25 pulses a second will complete 1.25 rotations per second, or 75rpm. By changing the pulse speed of a digital signal you've halved the speed of an analog motor.
+You can change the motor speed by changing the size of the pulses. For example, with the same motor you can keep the same cycle time of 0.04s, with the on pulse halved to 0.01s, and the off pulse increasing to 0.03s. You have the same number of pulses per second (25), but each on pulse is half the length. A half length pulse only turns the motor one twentieth of a rotation, and at 25 pulses a second will complete 1.25 rotations per second or 75rpm. By changing the pulse speed of a digital signal you've halved the speed of an analog motor.
 
 ```output
 25 pulses per second x 0.05 rotations per pulse = 1.25 rotations per second
 1.25 rotations per second x 60 seconds in a minute = 75rpm
 ```
 
-✅ How would you keep the motor rotation smooth, especially at low speeds? Would you use a small number long pulses with long pauses, or lots of very short pulses with very short pauses?
+✅ How would you keep the motor rotation smooth, especially at low speeds? Would you use a small number of long pulses with long pauses or lots of very short pulses with very short pauses?
 
 > 💁 Some sensors also use PWM to convert analog signals to digital signals.
 
@@ -189,7 +189,7 @@ You can change the motor speed by changing the size of the pulses. For example, 
 
 ### Digital actuators
 
-Digital actuators, like digital sensors, either have two states controlled by a high or low voltage, or have a DAC built in so can convert a digital signal to an analog one.
+Digital actuators, like digital sensors, either have two states controlled by a high or low voltage or have a DAC built in so can convert a digital signal to an analog one.
 
 One simple digital actuator is an LED. When a device sends a digital signal of 1, a high voltage is sent that lights the LED. When a digital signal of 0 is sent, the voltage drops to 0V and the LED turns off.
 
@@ -207,7 +207,7 @@ More advanced digital actuators, such as screens require the digital data to be 
 
 The challenge in the last two lessons was to list as many IoT devices as you can that are in your home, school or workplace and decide if they are built around microcontrollers or single-board computers, or even a mixture of both.
 
-For every device you listed, what sensors and actuators are they connected to? What is the purpose of each sensor and actuator connected to these devices.
+For every device you listed, what sensors and actuators are they connected to? What is the purpose of each sensor and actuator connected to these devices?
 
 ## Post-lecture quiz
 

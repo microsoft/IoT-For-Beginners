@@ -20,7 +20,7 @@ Install the Grove base hat on your Pi and configure the Pi
 
     ![Fitting the grove hat](../../../images/pi-grove-hat-fitting.gif)
 
-1. Decide how you want to program you Pi, and head to the relevant section below:
+1. Decide how you want to program your Pi, and head to the relevant section below:
 
     * [Work directly on your Pi](#work-directly-on-your-pi)
     * [Remote access to code the Pi](#remote-access-to-code-the-pi)
@@ -53,7 +53,7 @@ To program the Pi using the Grove sensors and actuators, you will need to instal
 
     One of the powerful features of Python is the ability to install [pip packages](https://pypi.org) - these are packages of code written by other people and published to the Internet. You can install a pip package onto your computer with one command, then use that package in your code. This Grove install script will install the pip packages you will use to work with the Grove hardware from Python.
 
-1. Reboot the Pi either using the menu, or running the following command in the Terminal:
+1. Reboot the Pi either using the menu or running the following command in the Terminal:
 
     ```sh
     sudo reboot
@@ -93,7 +93,7 @@ Set up the headless Pi OS.
 
     ![The Raspberry Pi Imager with Raspberry Pi OS Lite selected](../../../images/raspberry-pi-imager.png)
 
-    > 💁 Raspberry Pi OS Lite is a version of Raspberry Pi OS that doesn't have the desktop UI, or UI based tools. These aren't needed for a headless Pi, and makes the install smaller and boot up time faster.
+    > 💁 Raspberry Pi OS Lite is a version of Raspberry Pi OS that doesn't have the desktop UI or UI based tools. These aren't needed for a headless Pi and makes the install smaller and boot up time faster.
 
 1. Select the **CHOOSE STORAGE** button, then select your SD card
 
@@ -109,7 +109,7 @@ Set up the headless Pi OS.
 
 1. Select the **WRITE** button to write the OS to the SD card. If you are using macOS, you will be asked to enter your password as the underlying tool that writes disk images needs privileged access.
 
-The OS will be written to the SD card, and once compete the card will be ejected by the OS, and you will be notified. Remove the SD card from your computer, insert it into the Pi and power up the Pi.
+The OS will be written to the SD card, and once complete the card will be ejected by the OS, and you will be notified. Remove the SD card from your computer, insert it into the Pi and power up the Pi.
 
 #### Connect to the Pi
 
@@ -139,7 +139,7 @@ Remotely access the Pi.
 
     1. If you are using Windows, the easiest way to enable ZeroConf is to install [Bonjour Print Services for Windows](http://support.apple.com/kb/DL999). You can also install [iTunes for Windows](https://www.apple.com/itunes/download/) to get a newer version of the utility (which is not available standalone).
 
-    > 💁 If you cannot connect using `raspberrypi.local`, then you can use the IP address of your Pi. Refer to the [Raspberry Pi IP address documentation](https://www.raspberrypi.org/documentation/remote-access/ip-address.md) for instructions of a number of ways to get the IP address.
+    > 💁 If you cannot connect using `raspberrypi.local`, then you can use the IP address of your Pi. Refer to the [Raspberry Pi IP address documentation](https://www.raspberrypi.org/documentation/remote-access/ip-address.md) for instructions on a number of ways to get the IP address.
 
 1. Enter the password you set in the Raspberry Pi Imager Advanced Options
 
@@ -157,7 +157,7 @@ Configure the installed Pi software and install the Grove libraries.
     sudo apt update && sudo apt full-upgrade --yes && sudo reboot
     ```
 
-    The Pi will be updated and rebooted. The `ssh` session will end when the Pi is rebooted, so leave it about 30 seconds then reconnect.
+    The Pi will be updated and rebooted. The `ssh` session will end when the Pi is rebooted, so leave it for about 30 seconds then reconnect.
 
 1. From the reconnected `ssh` session, run the following command to install all the needed libraries for the Grove hardware:
 

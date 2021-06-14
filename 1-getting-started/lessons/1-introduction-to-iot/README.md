@@ -26,11 +26,11 @@ The term 'Internet of Things' was coined by [Kevin Ashton](https://wikipedia.org
 
 > **Sensors** gather information from the world, such as measuring speed, temperature or location.
 >
-> **Actuators** convert electrical signals into real-world interactions such as triggering a switch, turning on lights, making sounds, or sending control signals to other hardware, for example to turn on a power socket.
+> **Actuators** convert electrical signals into real-world interactions such as triggering a switch, turning on lights, making sounds, or sending control signals to other hardware, for example, to turn on a power socket.
 
-IoT as a technology area is more than just devices - it includes cloud based services that can process the sensor data, or send requests to actuators connected to IoT devices. It also includes devices that don't have or don't need Internet connectivity, often referred to as edge devices. These are devices that can process and respond to sensor data themselves, usually using AI models trained in the cloud.
+IoT as a technology area is more than just devices - it includes cloud-based services that can process the sensor data, or send requests to actuators connected to IoT devices. It also includes devices that don't have or don't need Internet connectivity, often referred to as edge devices. These are devices that can process and respond to sensor data themselves, usually using AI models trained in the cloud.
 
-IoT is a fast growing technology field. It is estimated that by the end of 2020, 30 billion IoT devices were deployed and connected to the Internet. Looking to the future, it is estimated that by 2025, IoT devices will be gathering almost 80 zettabytes of data, or 80 trillion gigabytes. That's a lot of data!
+IoT is a fast growing technology field. It is estimated that by the end of 2020, 30 billion IoT devices were deployed and connected to the Internet. Looking to the future, it is estimated that by 2025, IoT devices will be gathering almost 80 zettabytes of data or 80 trillion gigabytes. That's a lot of data!
 
 ![A graph showing active IoT devices over time, with an upward trend from under 5 billion in 2015 to over 30 billion in 2025](../../../images/connected-iot-devices.svg)
 
@@ -40,7 +40,7 @@ This data is the key to IoT's success. To be a successful IoT developer, you nee
 
 ## IoT devices
 
-The **T** in IoT stands for **Things** - devices that interact with the physical world around them either by gathering data from sensors, or providing real-world interactions via actuators.
+The **T** in IoT stands for **Things** - devices that interact with the physical world around them either by gathering data from sensors or providing real-world interactions via actuators.
 
 Devices for production or commercial use, such as consumer fitness trackers, or industrial machine controllers, are usually custom-made. They use custom circuit boards, maybe even custom processors, designed to meet the needs of a particular task, whether that's being small enough to fit on a wrist, or rugged enough to work in a high temperature, high stress or high vibration factory environment.
 
@@ -48,7 +48,7 @@ As a developer either learning about IoT or creating a device prototype, you'll 
 
 These developer kits usually fall into two categories - microcontrollers and single-board computers. These will be introduced here, and we'll go into more detail in the next lesson.
 
-> 💁 Your phone can also be considered to be a general-purpose IoT device, with sensors and actuators built in, with different apps using the sensors and actuators in different ways with different cloud services. You can even find some IoT tutorials that use a phone app as an IoT device.
+> 💁 Your phone can also be considered to be a general-purpose IoT device, with sensors and actuators built-in, with different apps using the sensors and actuators in different ways with different cloud services. You can even find some IoT tutorials that use a phone app as an IoT device.
 
 ### Microcontrollers
 
@@ -68,7 +68,7 @@ Microcontrollers are typically low cost computing devices, with average prices f
 
 Microcontrollers are designed to be programmed to do a limited number of very specific tasks, rather than being general-purpose computers like PCs or Macs. Except for very specific scenarios, you can't connect a monitor, keyboard and mouse and use them for general purpose tasks.
 
-Microcontroller developer kits usually come with additional sensors and actuators on board. Most boards will have one or more LEDs you can program, along with other devices such as standard plugs for adding more sensors or actuators using various manufacturers' ecosystems, or built in sensors (usually the most popular ones such as temperature sensors). Some microcontrollers have built in wireless connectivity such as Bluetooth or WiFi, or have additional microcontrollers on the board to add this connectivity.
+Microcontroller developer kits usually come with additional sensors and actuators on board. Most boards will have one or more LEDs you can program, along with other devices such as standard plugs for adding more sensors or actuators using various manufacturers' ecosystems or built-in sensors (usually the most popular ones such as temperature sensors). Some microcontrollers have built-in wireless connectivity such as Bluetooth or WiFi or have additional microcontrollers on the board to add this connectivity.
 
 > 💁 Microcontrollers are usually programmed in C/C++.
 
@@ -90,7 +90,7 @@ Single-board computers are fully-featured computers, so can be programmed in any
 
 ### Hardware choices for the rest of the lessons
 
-All the subsequent lessons include assignments using an IoT device to interact with the physical world, and communicate with the cloud. Each lesson supports 3 device choices - Arduino (using a Seeed Studios Wio Terminal), or a single-board computer, either a physical device (a Raspberry Pi 4), or a virtual single-board computer running on your PC or Mac.
+All the subsequent lessons include assignments using an IoT device to interact with the physical world and communicate with the cloud. Each lesson supports 3 device choices - Arduino (using a Seeed Studios Wio Terminal), or a single-board computer, either a physical device (a Raspberry Pi 4) or a virtual single-board computer running on your PC or Mac.
 
 You can read about the hardware needed to complete all the assignments in the [hardware guide](../../../hardware.md).
 
@@ -148,15 +148,15 @@ IoT covers a huge range of use cases, across a few broad groups:
 
 ### Consumer IoT
 
-Consumer IoT refers to IoT devices that consumers will buy and use around the home. Some of these devices are incredibly useful, such as smart speakers, smart heating systems and robotic vacuum cleaners. Others are questionable in their usefulness, such as voice controlled taps that then mean you cannot turn them off as the voice control cannot hear you over the sound of running water.
+Consumer IoT refers to IoT devices that consumers will buy and use around the home. Some of these devices are incredibly useful, such as smart speakers, smart heating systems and robotic vacuum cleaners. Others are questionable in their usefulness, such as voice-controlled taps that then mean you cannot turn them off as the voice control cannot hear you over the sound of running water.
 
-Consumer IoT devices are empowering people to achieve more in their surroundings, especially the 1 billion who have a disability. Robotic vacuum cleaners can provide clean floors to people with mobility issues who cannot vacuum themselves, voice controlled ovens allow people with limited vision or motor control to heat their ovens with only their voice, health monitors can allow patients to monitor chronic conditions themselves with more regular and more detailed updates on their conditions. These devices are becoming so ubiquitous that even young children are using them as part of their daily lives, for example students doing virtual schooling during the COVID pandemic setting timers on smart home devices to track their schoolwork or alarms to remind them of upcoming class meetings.
+Consumer IoT devices are empowering people to achieve more in their surroundings, especially the 1 billion who have a disability. Robotic vacuum cleaners can provide clean floors to people with mobility issues who cannot vacuum themselves, voice-controlled ovens allow people with limited vision or motor control to heat their ovens with only their voice, health monitors can allow patients to monitor chronic conditions themselves with more regular and more detailed updates on their conditions. These devices are becoming so ubiquitous that even young children are using them as part of their daily lives, for example, students doing virtual schooling during the COVID pandemic setting timers on smart home devices to track their schoolwork or alarms to remind them of upcoming class meetings.
 
 ✅ What consumer IoT devices do you have on your person or in your home?
 
 ### Commercial IoT
 
-Commercial IoT covers the use of IoT in the workplace. In an office setting there may be occupancy sensors and motion detectors to manage lighting and heating to only keep the lights and heat off when not needed, reducing cost and carbon emissions. In a factory, IoT devices can monitor for safety hazards such as workers not wearing hard hats or noise that has reached dangerous levels. In retail, IoT devices can measure the temperature of cold storage, alerting the shop owner if a fridge or freezer is outside the required temperature range, or they can monitor items on shelves to direct employees to refill produce that has been sold. The transport industry is relying more and more on IoT to monitor vehicle locations, track on-road mileage for road user charging, track driver hours and break compliance, or notify staff when a vehicle is approaching a depot to prepare for loading or unloading.
+Commercial IoT covers the use of IoT in the workplace. In an office setting, there may be occupancy sensors and motion detectors to manage lighting and heating to only keep the lights and heat off when not needed, reducing cost and carbon emissions. In a factory, IoT devices can monitor for safety hazards such as workers not wearing hard hats or noise that has reached dangerous levels. In retail, IoT devices can measure the temperature of cold storage, alerting the shop owner if a fridge or freezer is outside the required temperature range, or they can monitor items on shelves to direct employees to refill produce that has been sold. The transport industry is relying more and more on IoT to monitor vehicle locations, track on-road mileage for road user charging, track driver hours and break compliance, or notify staff when a vehicle is approaching a depot to prepare for loading or unloading.
 
 ✅ What commercial IoT devices do you have in your school or workplace?
 
@@ -166,7 +166,7 @@ Industrial IoT, or IIoT, is the use of IoT devices to control and manage machine
 
 Factories use IoT devices in many different ways. Machinery can be monitored with multiple sensors to track things like temperature, vibration and rotation speed. This data can then be monitored to allow the machine to be stopped if it goes outside of certain tolerances - it runs too hot and gets shut down for example. This data can also be gathered and analyzed over time to do predictive maintenance, where AI models will look at the data leading up to a failure, and use that to predict other failures before they happen.
 
-Digital agriculture is important if the planet is to feed the growing population, especially for the 2 billion people in 500 million households that survive on [subsistence farming](https://wikipedia.org/wiki/Subsistence_agriculture). Digital agriculture can range from a few single digit dollar sensors, to massive commercial setups. A farmer can start by monitoring temperatures and using [growing degree days](https://wikipedia.org/wiki/Growing_degree-day) to predict when a crop will be ready for harvest. They can connect soil moisture monitoring to automated watering systems to give their plants as much water as is needed, but no more to ensure their crops don't dry out without wasting water. Farmers are even taking it further and using drones, satellite data and AI to monitor crop growth, disease and soil quality over huge areas of farmland.
+Digital agriculture is important if the planet is to feed the growing population, especially for the 2 billion people in 500 million households that survive on [subsistence farming](https://wikipedia.org/wiki/Subsistence_agriculture). Digital agriculture can range from a few single digit dollar sensors to massive commercial setups. A farmer can start by monitoring temperatures and using [growing degree days](https://wikipedia.org/wiki/Growing_degree-day) to predict when a crop will be ready for harvest. They can connect soil moisture monitoring to automated watering systems to give their plants as much water as is needed, but no more to ensure their crops don't dry out without wasting water. Farmers are even taking it further and using drones, satellite data and AI to monitor crop growth, disease and soil quality over huge areas of farmland.
 
 ✅ What other IoT devices could help farmers?
 
@@ -191,7 +191,7 @@ You'd be amazed by just how many IoT devices you have around you. I'm writing th
 * Video doorbell and security cameras
 * Smart thermostat with multiple smart room sensors
 * Garage door opener
-* Home entertainment systems and voice controlled TVs
+* Home entertainment systems and voice-controlled TVs
 * Lights
 * Fitness and health trackers
 

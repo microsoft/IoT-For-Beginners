@@ -1,6 +1,6 @@
 # Wio Terminal
 
-The [Wio Terminal from Seeed Studios](https://www.seeedstudio.com/Wio-Terminal-p-4509.html) is an Arduino-compatible microcontroller, with WiFi and some sensors and actuators built in, as well as ports to add more sensors and actuators, using a hardware ecosystem called [Grove](https://www.seeedstudio.com/category/Grove-c-1003.html).
+The [Wio Terminal from Seeed Studios](https://www.seeedstudio.com/Wio-Terminal-p-4509.html) is an Arduino-compatible microcontroller, with WiFi and some sensors and actuators built-in, as well as ports to add more sensors and actuators, using a hardware ecosystem called [Grove](https://www.seeedstudio.com/category/Grove-c-1003.html).
 
 ![A Seeed studios Wio Terminal](../../../images/wio-terminal.png)
 
@@ -18,7 +18,7 @@ Install the required software and update the firmware.
 
 1. Install the VS Code PlatformIO extension. This is an extension for VS Code that supports programming microcontrollers in C/C++. Refer to the [PlatformIO extension documentation](https://marketplace.visualstudio.com/items?itemName=platformio.platformio-ide&WT.mc_id=academic-17441-jabenn) for instructions on installing this extension in VS Code. This extension depends on the Microsoft C/C++ extension to work with C and C++ code, and the C/C++ extension is installed automatically when you install PlatformIO.
 
-1. Connect your Wio Terminal to your computer. The Wio Terminal has a USB-C port on the bottom, and this needs to be connected to a USB port on your computer. The Wio Terminal comes with a USB-C to USB-A cable, but if your computer only has USB-C ports then you will either need a USB-C cable, or a USB-A to USB-C adapter.
+1. Connect your Wio Terminal to your computer. The Wio Terminal has a USB-C port on the bottom, and this needs to be connected to a USB port on your computer. The Wio Terminal comes with a USB-C to USB-A cable, but if your computer only has USB-C ports then you will either need a USB-C cable or a USB-A to USB-C adapter.
 
 1. Follow the instructions in the [Wio Terminal Wiki WiFi Overview documentation](https://wiki.seeedstudio.com/Wio-Terminal-Network-Overview/) to set up your Wio Terminal and update the firmware.
 
@@ -75,10 +75,10 @@ The VS Code explorer will show a number of files and folders created by the Plat
 #### Folders
 
 * `.pio` - this folder contains temporary data needed by PlatformIO such as libraries or compiled code. It is recreated automatically if deleted, and you don't need to add this to source code control if you are sharing your project on sites such as GitHub.
-* `.vscode` - this folder contains configuration used by PlatformIO and VS Code. It is recreated automatically if deleted, and you don't need to add this to source code control if you are sharing your project on sites such as GitHub.
+* `.vscode` - this folder contains the configuration used by PlatformIO and VS Code. It is recreated automatically if deleted, and you don't need to add this to source code control if you are sharing your project on sites such as GitHub.
 * `include` - this folder is for external header files needed when adding additional libraries to your code. You won't be using this folder in any of these lessons.
 * `lib` - this folder is for external libraries that you want to call from your code. You won't be using this folder in any of these lessons.
-* `src` - this folder contains the main source code for your application. Initially it will contain a single file - `main.cpp`.
+* `src` - this folder contains the main source code for your application. Initially, it will contain a single file - `main.cpp`.
 * `test` - this folder is where you would put any unit tests for your code
 
 #### Files
@@ -99,7 +99,7 @@ The VS Code explorer will show a number of files and folders created by the Plat
 
     When the device starts up, the Arduino framework will run the `setup` function once, then run the `loop` function repeatedly until the device is turned off.
 
-* `.gitignore` - this file lists the files an directories to be ignored when adding your code to git source code control, such as uploading to a repository on GitHub.
+* `.gitignore` - this file lists the files and directories to be ignored when adding your code to git source code control, such as uploading to a repository on GitHub.
 
 * `platformio.ini` - this file contains configuration for your device and app. If you open this file, you will see the following:
 
@@ -150,9 +150,9 @@ Write the Hello World app.
     }
     ```
 
-    The `setup` function initializes a connection to the serial port - in this case the USB port that is used to connect the Wio Terminal to your computer. The parameter `9600` is the [baud rate](https://wikipedia.org/wiki/Symbol_rate) (also known as Symbol rate), or speed that data will be sent over the serial port in bits per second. This setting means 9,600 bits (0s and 1s) of data are sent each second. It then waits for the serial port to be ready.
+    The `setup` function initializes a connection to the serial port - in this case, the USB port that is used to connect the Wio Terminal to your computer. The parameter `9600` is the [baud rate](https://wikipedia.org/wiki/Symbol_rate) (also known as Symbol rate), or speed that data will be sent over the serial port in bits per second. This setting means 9,600 bits (0s and 1s) of data are sent each second. It then waits for the serial port to be ready.
 
-    The `loop` function sends the line `Hello World!` to the serial port, so the characters of `Hello World!` along with a new line character. It then sleeps for 5,000 milliseconds, or 5 seconds. After the `loop` ends, it is run again, and again, and so on all the time the microcontroller is powered on.
+    The `loop` function sends the line `Hello World!` to the serial port, so the characters of `Hello World!` along with a new line character. It then sleeps for 5,000 milliseconds or 5 seconds. After the `loop` ends, it is run again, and again, and so on all the time the microcontroller is powered on.
 
 1. Build and upload the code to the Wio Terminal
 
@@ -164,7 +164,7 @@ Write the Hello World app.
 
         PlatformIO will automatically build the code if needed before uploading.
 
-    1. The code will be compiled, and uploaded to the Wio Terminal
+    1. The code will be compiled and uploaded to the Wio Terminal
 
         > 💁 If you are using macOS you will see a notification about a *DISK NOT EJECTED PROPERLY*. This is because the Wio Terminal gets mounted as a drive as part of the flashing process, and it is disconnected when the compiled code is written to the device. You can ignore this notification.
 
