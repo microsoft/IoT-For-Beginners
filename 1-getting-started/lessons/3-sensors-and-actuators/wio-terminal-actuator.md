@@ -28,7 +28,7 @@ Connect the LED.
 
 ![A grove LED](../../../images/grove-led.png)
 
-1. Pick your favourite LED and insert the legs into the two holes on the LED module.
+1. Pick your favorite LED and insert the legs into the two holes on the LED module.
 
     LEDs are light-emitting diodes, and diodes are electronic devices that can only carry current one way. This means the LED needs to be connected the right way round, otherwise it won't work.
 
