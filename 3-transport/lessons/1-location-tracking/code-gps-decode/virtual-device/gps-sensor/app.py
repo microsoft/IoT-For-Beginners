@@ -7,15 +7,15 @@ import pynmea2
 import json
 from azure.iot.device import IoTHubDeviceClient, Message
 
-connection_string = "<connection_string>"
+connection_string = '<connection_string>'
 
 serial = counterfit_shims_serial.Serial('/dev/ttyAMA0')
 
 device_client = IoTHubDeviceClient.create_from_connection_string(connection_string)
 
-print("Connecting")
+print('Connecting')
 device_client.connect()
-print("Connected")
+print('Connected')
 
 def send_gps_data(line):
     msg = pynmea2.parse(line)

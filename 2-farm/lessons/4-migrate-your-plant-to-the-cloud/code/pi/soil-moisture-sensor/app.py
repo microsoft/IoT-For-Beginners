@@ -4,16 +4,16 @@ from grove.grove_relay import GroveRelay
 import json
 from azure.iot.device import IoTHubDeviceClient, Message, MethodResponse
 
-connection_string = "<connection_string>"
+connection_string = '<connection_string>'
 
 adc = ADC()
 relay = GroveRelay(5)
 
 device_client = IoTHubDeviceClient.create_from_connection_string(connection_string)
 
-print("Connecting")
+print('Connecting')
 device_client.connect()
-print("Connected")
+print('Connected')
 
 def handle_method_request(request):
     print("Direct method received - ", request.name)
@@ -32,7 +32,7 @@ while True:
     soil_moisture = adc.read(0)
     print("Soil moisture:", soil_moisture)
 
-    message = Message(json.dumps({ "soil_moisture": soil_moisture }))
+    message = Message(json.dumps({ 'soil_moisture': soil_moisture }))
     device_client.send_message(message)
 
     time.sleep(10)

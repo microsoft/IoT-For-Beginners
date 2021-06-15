@@ -23,6 +23,10 @@ In this lesson we'll cover:
 * [Using developer devices to simulate multiple IoT devices](#using-developer-devices-to-simulate-multiple-iot-devices)
 * [Moving to production](#moving-to-production)
 
+> 🗑 This is the last lesson in this project, so after completing this lesson and the assignment, don't forget to clean up your cloud services. You will need the services to complete the assignment, so make sure to complete that first.
+>
+> Refer to [the clean up your project guide](../../../clean-up.md) if necessary for instructions on how to do this.
+
 ## Architect complex IoT applications
 
 IoT applications are made up of many components. This includes a variety of things, and a variety of internet services.
