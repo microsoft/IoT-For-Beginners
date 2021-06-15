@@ -4,7 +4,7 @@ In this part of the lesson, you will subscribe to commands sent from an MQTT bro
 
 ## Subscribe to commands
 
-The next step is to subscribe to the commands sent from the MQTT broker, and respond to them.
+The next step is to subscribe to the commands sent from the MQTT broker and respond to them.
 
 ### Task
 
@@ -20,7 +20,7 @@ Subscribe to commands.
     server_command_topic = id + '/commands'
     ```
 
-    The `server_command_topic` is the MQTT topic the device will subscribe to to receive LED commands.
+    The `server_command_topic` is the MQTT topic the device will subscribe to receive LED commands.
 
 1. Add the following code just above the main loop, after the `mqtt_client.loop_start()` line:
 
@@ -40,13 +40,13 @@ Subscribe to commands.
 
     This code defines a function, `handle_command`, that reads a message as a JSON document and looks for the value of the `led_on` property. If it is set to `True` the LED is turned on, otherwise it is turned off.
 
-    The MQTT client subscribes on the topic that the server will send messages on, and sets the `handle_command` function to be called when a message is received.
+    The MQTT client subscribes on the topic that the server will send messages on and sets the `handle_command` function to be called when a message is received.
 
     > 💁 The `on_message` handler is called for all topics subscribed to. If you later write code that listens to multiple topics, you can get the topic that the message was sent to from the `message` object passed to the handler function.
 
 1. Run the code in the same way as you ran the code from the previous part of the assignment. If you are using a virtual IoT device, then make sure the CounterFit app is running and the light sensor and LED have been created on the correct pins.
 
-1. Adjust the light levels detected by your physical or virtual device. You will see messages being received and commands being sent in the terminal. You will also see the LED being turned on and off depending on the light level.
+1. Adjust the light levels detected by your physical or virtual device. You will see messages being received and commands being sent in the terminal. You will also see the LED is being turned on and off depending on the light level.
 
 > 💁 You can find this code in the [code-commands/virtual-device](code-commands/virtual-device) folder or the [code-commands/pi](code-commands/pi) folder.
 

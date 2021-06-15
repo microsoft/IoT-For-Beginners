@@ -43,9 +43,9 @@ The next step is to connect your device to IoT Hub.
     ```python
     device_client = IoTHubDeviceClient.create_from_connection_string(connection_string)
 
-    print("Connecting")
+    print('Connecting')
     device_client.connect()
-    print("Connected")
+    print('Connected')
     ```
 
 1. Run this code. You will see your device connect.
@@ -66,7 +66,7 @@ Now that your device is connected, you can send telemetry to the IoT Hub instead
 1. Add the following code inside the `while True` loop, just before the sleep:
 
     ```python
-    message = Message(json.dumps({ "soil_moisture": soil_moisture }))
+    message = Message(json.dumps({ 'soil_moisture': soil_moisture }))
     device_client.send_message(message)
     ```
 
