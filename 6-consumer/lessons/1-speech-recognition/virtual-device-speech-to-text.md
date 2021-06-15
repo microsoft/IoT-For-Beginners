@@ -16,7 +16,7 @@ On Windows, Linux, and macOS, the speech services Python SDK can be used to list
     pip install azure-cognitiveservices-speech
     ```
 
-    > ⚠️ If you see the following error:
+    > ⚠️ If you get the following error:
     >
     > ```output
     > ERROR: Could not find a version that satisfies the requirement azure-cognitiveservices-speech (from versions: none)
@@ -80,7 +80,7 @@ On Windows, Linux, and macOS, the speech services Python SDK can be used to list
         time.sleep(1)
     ```
 
-1. Run this app. Speak into your microphone and you will see the audio converted to text in the console.
+1. Run this app. Speak into your microphone and the audio converted to text will be output to the console.
 
     ```output
     (.venv) ➜  smart-timer python3 app.py

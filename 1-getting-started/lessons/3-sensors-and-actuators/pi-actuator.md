@@ -93,7 +93,7 @@ Program the nightlight.
     python3 app.py
     ```
 
-    You should see light values being output to the console.
+    Light values will be output to the console.
 
     ```output
     pi@raspberrypi:~/nightlight $ python3 app.py 

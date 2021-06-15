@@ -89,7 +89,7 @@ Program the device.
     python3 app.py
     ```
 
-    You should see sunlight values being output to the console. Cover and uncover the sunlight sensor to see the values change:
+    Sunlight values will be output to the console. Cover and uncover the sunlight sensor, and the values will change:
 
     ```output
     pi@raspberrypi:~/nightlight $ python3 app.py 

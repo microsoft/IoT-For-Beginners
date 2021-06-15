@@ -113,7 +113,7 @@ Speech to text, or speech recognition, involves using AI to convert words in an 
 
 ### Speech recognition models
 
-To convert speech to text, samples from the audio signal are grouped together and fed into a machine learning model based around a Recurrent Neural network (RNN). This is a type of machine learning model that can use previous data to make a decision about incoming data. For example, the RNN could detect one block of audio samples as the sound 'Hel', and when it receives another that it thinks is the sound 'lo', it can combine this with the previous sound, see that 'Hello' is a valid word and select that as the outcome.
+To convert speech to text, samples from the audio signal are grouped together and fed into a machine learning model based around a Recurrent Neural network (RNN). This is a type of machine learning model that can use previous data to make a decision about incoming data. For example, the RNN could detect one block of audio samples as the sound 'Hel', and when it receives another that it thinks is the sound 'lo', it can combine this with the previous sound, find that 'Hello' is a valid word and select that as the outcome.
 
 ML models always accept data of the same size every time. The image classifier you built in an earlier lesson resizes images to a fixed size and processes them. The same with speech models, they have to process fixed sized audio chunks. The speech models need to be able to combine the outputs of multiple predictions to get the answer, to allow it to distinguish between 'Hi' and 'Highway', or 'flock' and 'floccinaucinihilipilification'.
 
@@ -204,7 +204,7 @@ To use the results of the speech to text conversion, you need to send it to the 
 
 ## 🚀 Challenge
 
-Speech recognition has been around for a long time, and is continuously improving. Research the current capabilities and see how these have evolved over time, including how accurate machine transcriptions are compared to human.
+Speech recognition has been around for a long time, and is continuously improving. Research the current capabilities and compare how these have evolved over time, including how accurate machine transcriptions are compared to human.
 
 What do you think the future holds for speech recognition?
 
