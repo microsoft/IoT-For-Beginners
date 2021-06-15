@@ -904,7 +904,7 @@
 							},
 							{
 								"answerText": "A Functions App, a Storage Account, and Application Settings",
-								"isCorrect": "frue"
+								"isCorrect": "true"
 							}
 						]
 					}
