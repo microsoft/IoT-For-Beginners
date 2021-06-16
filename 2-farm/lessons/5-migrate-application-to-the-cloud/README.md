@@ -213,12 +213,21 @@ The Azure Functions CLI can be used to create a new Functions app.
 
 1. Make sure the Python virtual environment is running in the VS Code terminal. Terminate it and restart it if necessary.
 
-1. There may be warnings in the output 
+1. There may be warnings in the output: 
 
     ```output
+    (.venv) ➜  soil-moisture-trigger func start
+    Found Python version 3.9.1 (python3).
+    
+    Azure Functions Core Tools
+    Core Tools Version:       3.0.3442 Commit hash: 6bfab24b2743f8421475d996402c398d2fe4a9e0  (64-bit)
+    Function Runtime Version: 3.0.15417.0
+    
     [2021-06-16T08:18:28.315Z] Cannot create directory for shared memory usage: /dev/shm/AzureFunctions
     [2021-06-16T08:18:28.316Z] System.IO.FileSystem: Access to the path '/dev/shm/AzureFunctions' is denied. Operation not permitted.
+    [2021-06-16T08:18:30.361Z] No job functions found.
     ```
+    
     but don't worry about them as long as the Functions app starts correctly and lists the running functions. As mentioned in this question on the [Docs Q&A](https://docs.microsoft.com/answers/questions/396617/azure-functions-core-tools-error-osx-devshmazurefu.html?WT.mc_id=academic-17441-jabenn) it can be ignored.
 
 ## Create an IoT Hub event trigger
