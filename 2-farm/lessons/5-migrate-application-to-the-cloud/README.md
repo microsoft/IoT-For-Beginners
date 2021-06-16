@@ -213,7 +213,7 @@ The Azure Functions CLI can be used to create a new Functions app.
 
 1. Make sure the Python virtual environment is running in the VS Code terminal. Terminate it and restart it if necessary.
 
-> 💁 There may be warnings in the output 
+1. There may be warnings in the output 
 
     ```output
     [2021-06-16T08:18:28.315Z] Cannot create directory for shared memory usage: /dev/shm/AzureFunctions
