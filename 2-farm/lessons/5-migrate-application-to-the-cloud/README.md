@@ -219,7 +219,7 @@ The Azure Functions CLI can be used to create a new Functions app.
     [2021-06-16T08:18:28.315Z] Cannot create directory for shared memory usage: /dev/shm/AzureFunctions
     [2021-06-16T08:18:28.316Z] System.IO.FileSystem: Access to the path '/dev/shm/AzureFunctions' is denied. Operation not permitted.
     ```
-but don't worry about them as long as the Functions app starts correctly and lists the running functions. As mentioned in this question on the [Docs Q&A](https://docs.microsoft.com/answers/questions/396617/azure-functions-core-tools-error-osx-devshmazurefu.html?WT.mc_id=academic-17441-jabenn) it can be ignored.
+    but don't worry about them as long as the Functions app starts correctly and lists the running functions. As mentioned in this question on the [Docs Q&A](https://docs.microsoft.com/answers/questions/396617/azure-functions-core-tools-error-osx-devshmazurefu.html?WT.mc_id=academic-17441-jabenn) it can be ignored.
 
 ## Create an IoT Hub event trigger
 
