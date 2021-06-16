@@ -220,13 +220,172 @@ To use this model from code, you need to publish it. When publishing from LUIS, 
     }
     ```
 
-    The JSON above came from querying with `set a timer for 45 minutes and 12 seconds`, The `set timer` was the top intent with a probability of 97%. Two *number* entities were detected, 45 and 12. Two *time-unit* entities were detected, `minute` and `second`.
+    The JSON above came from querying with `set a timer for 45 minutes and 12 seconds`:
+
+    * The `set timer` was the top intent with a probability of 97%.
+    * Two *number* entities were detected, `45` and `12`.
+    * Two *time-unit* entities were detected, `minute` and `second`.
 
 ## Use the language understanding model
 
+Once published, the LUIS model can be called from code. In the last lesson you sent the recognized speech to an IoT Hub, and you can use serverless code to respond to this and understand what was sent.
+
 ### Task - create a serverless functions app
 
+1. Create an Azure Functions app called `smart-timer-trigger`.
+
+1. Add an IoT Hub event trigger to this app called `speech-trigger`.
+
+1. Set the Event Hub compatible endpoint connection string for your IoT Hub in the `local.settings.json` file, and use the key for that entry in the `function.json` file.
+
+1. Use the Azurite app as a local storage emulator.
+
+1. Run your functions app and your IoT device to ensure speech is arriving at the IoT Hub.
+
+    ```output
+    Python EventHub trigger processed an event: {"speech": "Set a 3 minute timer."}
+    ```
+
 ### Task - use the language understanding model
+
+1. The SDK for LUIS is available via a Pip package. Add the following line to the `requirements.txt` file to add the dependency on this package:
+
+    ```sh
+    azure-cognitiveservices-language-luis
+    ```
+
+1. Make sure the VS Code terminal has the virtual environment activated, and run the following command to install the Pip packages:
+
+    ```sh
+    pip install -r requirements.txt
+    ```
+
+1. Add new entries to the `local.settings.json` file for your LUIS API Key, Endpoint URL, and App ID from the **MANAGE** tab of the LUIS portal:
+
+    ```JSON
+    "LUIS_KEY": "<primary key>",
+    "LUIS_ENDPOINT_URL": "<endpoint url>",
+    "LUIS_APP_ID": "<app id>"
+    ```
+
+    Replace `<endpoint url>` with the Endpoint URL from the *Azure Resources* section of the **MANAGE** tab. This will be `https://<location>.api.cognitive.microsoft.com/`.
+
+    Replace `<app id>` with the App ID from the *Settings* section of the **MANAGE** tab.
+
+    Replace `<primary key>` with the Primary Key from the *Azure Resources* section of the **MANAGE** tab.
+
+1. Add the following imports to the `__init__.py` file:
+
+    ```python
+    import json
+    import os
+    from azure.cognitiveservices.language.luis.runtime import LUISRuntimeClient
+    from msrest.authentication import CognitiveServicesCredentials
+    ```
+
+    This imports some system libraries, as well as the libraries to interact with LUIS.
+
+1. In the `main` method, before it loops through all the events, add the following code:
+
+    ```python
+    luis_key = os.environ['LUIS_KEY']
+    endpoint_url = os.environ['LUIS_ENDPOINT_URL']
+    app_id = os.environ['LUIS_APP_ID']
+    
+    credentials = CognitiveServicesCredentials(luis_key)
+    client = LUISRuntimeClient(endpoint=endpoint_url, credentials=credentials)
+    ```
+
+    This loads the values you added to the `local.settings.json` file for your LUIS app, creates a credentials object with your API key, then creates a LUIS client object to interact with your LUIS app.
+
+1. Predictions are requested from LUIS by sending a prediction request - a JSON document containing the text to predict. Create this with the following code inside the `for event in events` loop:
+
+    ```python
+    event_body = json.loads(event.get_body().decode('utf-8'))
+    prediction_request = { 'query' : event_body['speech'] }
+    ```
+
+    This code extracts the speech that was sent to the IoT Hub and uses it to build the prediction request.
+
+1. This request can then be sent to LUIS, using the staging slot that your app was published to:
+
+    ```python
+    prediction_response = client.prediction.get_slot_prediction(app_id, 'Staging', prediction_request)
+    ```
+
+1. The prediction response contains the top intent - the intent with the highest prediction score, along with the entities. If the top intent is `set timer`, then the entities can be read to get the time needed for the timer:
+
+    ```python
+    if prediction_response.prediction.top_intent == 'set timer':
+        numbers = prediction_response.prediction.entities['number']
+        time_units = prediction_response.prediction.entities['time unit']
+        total_time = 0
+    ```
+
+    The `number` entities wil be an array of numbers. For example, if you said *"Set a four minute 17 second timer."*, then the `number` array will contain 2 integers - 4 and 17.
+
+    The `time unit` entities will be an array of arrays of strings, with each time unit as an array of strings inside the array. For example, if you said *"Set a four minute 17 second timer."*, then the `time unit` array will contain 2 arrays with single values each - `['minute']` and `['second']`.
+
+    The JSON version of these entities for *"Set a four minute 17 second timer."* is:
+
+    ```json
+    {
+        "number": [4, 17],
+        "time unit": [
+            ["minute"],
+            ["second"]
+        ]
+    }
+    ```
+
+    This code also defines a count for the total time for the timer in seconds. This will be populated by the values from the entities.
+
+1. The entities aren't linked, but we can make some assumptions about them. They will be in the order spoken, so the position in the array can be used to determine which number matches to which time unit. For example:
+
+    * *"Set a 30 second timer"* - this will have one number, `30`, and one time unit, `second` so the single number will match the single time unit.
+    * *"Set a 2 minute and 30 second timer"* - this will have two numbers, `2` and `30`, and two time units, `minute` and `second` so the first number will be for the first time unit (2 minutes), and the second number for the second time unit (30 seconds).
+
+    The following code gets the count of items in the number entities, and uses that to extract the first item from each array, then the second and so on:
+
+    ```python
+    for i in range(0, len(numbers)):
+        number = numbers[i]
+        time_unit = time_units[i][0]
+    ```
+
+    For *"Set a four minute 17 second timer."*, this will loop twice, giving the following values:
+
+    | loop count | `number` | `time_unit` |
+    | ---------: | -------: | ----------- |
+    | 0          | 4        | minute      |
+    | 1          | 17       | second      |
+
+1. Inside this loop, use the number and time unit to calculate the total time for the timer, adding 60 seconds for each minute, and the number of seconds for any seconds.
+
+    ```python
+    if time_unit == 'minute':
+        total_time += number * 60
+    else:
+        total_time += number
+    ```
+
+1. Finally, outside this loop through the entities, log the total time for the timer:
+
+    ```python
+    logging.info(f'Timer required for {total_time} seconds')
+    ```
+
+1. Run the function app and speak into your IoT device. You will see the total time for the timer in the function app output:
+
+    ```output
+    [2021-06-16T01:38:33.316Z] Executing 'Functions.speech-trigger' (Reason='(null)', Id=39720c37-b9f1-47a9-b213-3650b4d0b034)
+    [2021-06-16T01:38:33.329Z] Trigger Details: PartionId: 0, Offset: 3144-3144, EnqueueTimeUtc: 2021-06-16T01:38:32.7970000Z-2021-06-16T01:38:32.7970000Z, SequenceNumber: 8-8, Count: 1
+    [2021-06-16T01:38:33.605Z] Python EventHub trigger processed an event: {"speech": "Set a four minute 17 second timer."}
+    [2021-06-16T01:38:35.076Z] Timer required for 257 seconds
+    [2021-06-16T01:38:35.128Z] Executed 'Functions.speech-trigger' (Succeeded, Id=39720c37-b9f1-47a9-b213-3650b4d0b034, Duration=1894ms)
+    ```
+
+> 💁 You can find this code in the [code/functions](code/functions) folder.
 
 ---
 

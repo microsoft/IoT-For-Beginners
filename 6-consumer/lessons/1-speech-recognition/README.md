@@ -194,7 +194,7 @@ To use the results of the speech to text conversion, you need to send it to the 
     }
     ```
 
-    Where `<converted speech>` is the output from the speech to text call.
+    Where `<converted speech>` is the output from the speech to text call. You only need to send speech that has content, if the call returns an empty string it can be ignored.
 
 1. Verify that messages are being sent by monitoring the Event Hub compatible endpoint using the `az iot hub monitor-events` command.
 

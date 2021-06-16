@@ -1,4 +1,4 @@
-# Provide spoken feedback
+# Set a timer and provide spoken feedback
 
 Add a sketchnote if possible/appropriate
 
