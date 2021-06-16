@@ -224,7 +224,8 @@ The Azure Functions CLI can be used to create a new Functions app.
     Function Runtime Version: 3.0.15417.0
     
     [2021-06-16T08:18:28.315Z] Cannot create directory for shared memory usage: /dev/shm/AzureFunctions
-    [2021-06-16T08:18:28.316Z] System.IO.FileSystem: Access to the path '/dev/shm/AzureFunctions' is denied. Operation not permitted.
+    [2021-06-16T08:18:28.316Z] System.IO.FileSystem: Access to the path '/dev/shm/AzureFunctions' is
+    denied. Operation not permitted.
     [2021-06-16T08:18:30.361Z] No job functions found.
     ```
     
