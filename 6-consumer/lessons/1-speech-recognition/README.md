@@ -2,7 +2,9 @@
 
 Add a sketchnote if possible/appropriate
 
-![Embed a video here if available](video-url)
+This video gives an overview of the Azure speech service, a topic that will be covered in this lesson:
+
+[![How to get started using your Cognitive Services Speech resource from the Microsoft Azure YouTube channel](https://img.youtube.com/vi/iW0Fw0l3mrA/0.jpg)](https://www.youtube.com/watch?v=iW0Fw0l3mrA)
 
 ## Pre-lecture quiz
 

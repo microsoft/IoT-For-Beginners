@@ -25,6 +25,25 @@ In this lesson we'll cover:
 
 ## Language understanding
 
+Humans have used language to communicate for hundreds of thousands of years. We communicate with words, sounds, or actions and understand what is said, both the meaning of the words, sounds or actions, but also their context. We understand sincerity and sarcasm, allowing the same words to mean different things depending on the tone of our voice.
+
+✅ Think about some of the conversations you have had recently. How much of the conversation would be hard for a computer to understand because it needs context?
+
+Computers, despite all their advances, still have along way to go. When we refer to language understanding with computers, we don't mean anything anywhere near as advanced as human communication, instead we mean taking some words and extracting key details.
+
+Language understanding, also called natural-language understanding is part of a field of artificial intelligence called natural-language processing (or NLP), and deals with reading comprehension, trying to understand the details of words or sentences. If you use a voice assistant such as Alexa or Siri, you have used language understanding services. These are the behind-the-scenes AI services that convert "Alexa, play the latest album by Taylor Swift" into my daughter dancing around the living room to her favorite tunes.
+
+As humans, we understand language without really thinking about it. If I asked another human to "play the latest album by Taylor Swift" then they would instinctively know what I meant. For a computer, this is harder. It would have to take the words, converted from speech to text, and work out the following pieces of information:
+
+* Music needs to be played
+* The music is by the artist Taylor Swift
+* The specific music is a whole album of multiple tracks in order
+* Taylor Swift has many albums, so they need to be sorted by chronological order and the most recently published is the one required
+
+✅ Think of some other sentences you have spoken when making requests, such as ordering coffee or asking a family member to pass you something. Try to break then down into the pieces of information a computer would need to extract to understand the sentence.
+
+Language understanding models are AI models that are trained to extract certain details from language, and then are trained for specific tasks using transfer learning, in the same way you trained a Custom Vision model using a small set of images. You can take a model, then train it using the text you want it to understand.
+
 ## Create a language understanding model
 
 ![The LUIS logo](../../../images/luis-logo.png)
@@ -72,13 +91,18 @@ To use LUIS, you need to create an authoring resource.
 
 ## Intents and entities
 
-Language understanding is based around *intents* and *entities*. Intents are what the intent of the words are, for example setting a timer or ordering food. Entities are what the intent is referring to, such as the length of the timer, or the type of food. Each sentence that the model interprets should have at least one intent, and optionally one or more entities.
+Language understanding is based around *intents* and *entities*. Intents are what the intent of the words are, for example playing music, setting a timer, or ordering food. Entities are what the intent is referring to, such as the album, the length of the timer, or the type of food. Each sentence that the model interprets should have at least one intent, and optionally one or more entities.
 
-For example:
+Some examples:
 
-* "Set a 3 minute timer" - the intent is to *set a timer*, the entity is *3 minutes*.
-* "Cancel my timer" - the intent is to *cancel a timer*, and there are no entities.
-* "Order 3 large pineapple pizzas and a caesar salad" - the intent is to *order food*, the entities are *3 large pineapple pizzas* and *caesar salad*.
+| Sentence                                            | Intent           | Entities                                   |
+| --------------------------------------------------- | ---------------- | ------------------------------------------ |
+| "Play the latest album by Taylor Swift"             | *play music*     | *the latest album by Taylor Swift*         |
+| "Set a 3 minute timer"                              | *set a timer*    | *3 minutes*                                |
+| "Cancel my timer"                                   | *cancel a timer* | None                                       |
+| "Order 3 large pineapple pizzas and a caesar salad" | *order food*     | *3 large pineapple pizzas*, *caesar salad* |
+
+✅ With the sentences you though about earlier, what would be the intent and any entities in that sentence?
 
 To train LUIS, first you set the entities. These can be a fixed list of terms, or learned from the text. For example, you could provide a fixed list of food available from your menu, with variations (or synonyms) of each word, such as *egg plant* and *aubergine* as variations of *aubergine*. LUIS also has pre-built entities that can be used, such as numbers and locations.
 
@@ -391,6 +415,8 @@ Once published, the LUIS model can be called from code. In the last lesson you s
 
 ## 🚀 Challenge
 
+There are many ways to request the same thing, such as setting a timer. Think of different ways to do this, and use them as examples in your LUIS app. Test these out, to see how well your model can cope with multiple ways to request a timer.
+
 ## Post-lecture quiz
 
 [Post-lecture quiz](https://brave-island-0b7c7f50f.azurestaticapps.net/quiz/34)
@@ -398,7 +424,8 @@ Once published, the LUIS model can be called from code. In the last lesson you s
 ## Review & Self Study
 
 * Read more about LUIS and it's capabilities on the [Language Understanding (LUIS) documentation page on Microsoft docs](https://docs.microsoft.com/azure/cognitive-services/luis/?WT.mc_id=academic-17441-jabenn)
+* Read more about language understanding on the [Natural-language understanding page on Wikipedia](https://wikipedia.org/wiki/Natural-language_understanding)
 
 ## Assignment
 
-[](assignment.md)
+[Cancel the timer](assignment.md)
