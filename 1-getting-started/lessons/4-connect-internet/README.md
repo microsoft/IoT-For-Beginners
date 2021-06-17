@@ -88,7 +88,7 @@ Messages can be sent with a quality of service (QoS), which determines the guara
 
 Although the name is Message Queueing (initials in MQTT), it doesn't actually support message queues. This means that if a client disconnects, then reconnects it won't receive messages sent during the disconnection, except for those messages that it had already started to process using the QoS process. Messages can have a retained flag set on them. If this is set, the MQTT broker will store the last message sent on a topic with this flag, and send this to any clients who later subscribe to the topic. This way, the clients will always get the latest message.
 
-MQTT also supports a keep alive function that checks to see if the connection is still alive during long gaps between messages.
+MQTT also supports a keep alive function that checks if the connection is still alive during long gaps between messages.
 
 > 🦟 [Mosquitto from the Eclipse Foundation](https://mosquitto.org) has a free MQTT broker you can run yourself to experiment with MQTT, along with a public MQTT broker you can use to test your code, hosted at [test.mosquitto.org](https://test.mosquitto.org).
 
@@ -198,13 +198,13 @@ Configure a Python virtual environment and install the MQTT pip packages.
         source ./.venv/bin/activate
         ```
 
-1. Once the virtual environment has been activated, the default `python` command will run the version of Python that was used to create the virtual environment. Run the following to see this:
+1. Once the virtual environment has been activated, the default `python` command will run the version of Python that was used to create the virtual environment. Run the following to get this version:
 
     ```sh
     python --version
     ```
 
-    You should see the following:
+    The output will be similar to the following:
 
     ```output
     (.venv) ➜  nightlight-server python --version
@@ -249,7 +249,7 @@ Write the server code.
     code .
     ```
 
-1. When VS Code launches, it will activate the Python virtual environment. You will see this in the bottom status bar:
+1. When VS Code launches, it will activate the Python virtual environment. This will be reported in the bottom status bar:
 
     ![VS Code showing the selected virtual environment](../../../images/vscode-virtual-env.png)
 
@@ -257,7 +257,7 @@ Write the server code.
 
     ![VS Code Kill the active terminal instance button](../../../images/vscode-kill-terminal.png)
 
-1. Launch a new VS Code Terminal by selecting *Terminal -> New Terminal, or pressing `` CTRL+` ``. The new terminal will load the virtual environment, and you will see the call to activate this in the terminal, as well as having the name of the virtual environment (`.venv`) in the prompt:
+1. Launch a new VS Code Terminal by selecting *Terminal -> New Terminal, or pressing `` CTRL+` ``. The new terminal will load the virtual environment, with the call to activate this appearing in the terminal. The name of the virtual environment (`.venv`) will also be in the prompt:
 
     ```output
     ➜  nightlight source .venv/bin/activate
@@ -311,15 +311,15 @@ Write the server code.
 
     The app will start listening to messages from the IoT device.
 
-1. Make sure your device is running and sending telemetry messages. Adjust the light levels detected by your physical or virtual device. You will see messages being received in the terminal.
+1. Make sure your device is running and sending telemetry messages. Adjust the light levels detected by your physical or virtual device. Messages being received will be printed to the terminal.
 
     ```output
     (.venv) ➜  nightlight-server python app.py
     Message received: {'light': 0}
     Message received: {'light': 400}
     ```
-    
-    The app.py file in the nightlight virtual environment has to be running for the app.py file in the nightlight-server virtual environment to recieve the messages being sent.
+
+    The app.py file in the nightlight virtual environment has to be running for the app.py file in the nightlight-server virtual environment to receive the messages being sent.
 
 > 💁 You can find this code in the [code-server/server](code-server/server) folder.
 
@@ -382,7 +382,7 @@ The next step for our Internet controlled nightlight is for the server code to s
 
 1. Run the code as before
 
-1. Adjust the light levels detected by your physical or virtual device. You will see messages being received and commands being sent in the terminal:
+1. Adjust the light levels detected by your physical or virtual device. Messages being received and commands being sent will be written to the terminal:
 
     ```output
     (.venv) ➜  nightlight-server python app.py

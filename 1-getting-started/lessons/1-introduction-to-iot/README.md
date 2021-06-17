@@ -44,7 +44,7 @@ The **T** in IoT stands for **Things** - devices that interact with the physical
 
 Devices for production or commercial use, such as consumer fitness trackers, or industrial machine controllers, are usually custom-made. They use custom circuit boards, maybe even custom processors, designed to meet the needs of a particular task, whether that's being small enough to fit on a wrist, or rugged enough to work in a high temperature, high stress or high vibration factory environment.
 
-As a developer either learning about IoT or creating a device prototype, you'll need to start with a developer kit. These are general-purpose IoT devices designed for developers to use, often with features that you wouldn't see on a production device, such as a set of external pins to connect sensors or actuators to, hardware to support debugging, or additional resources that would add unnecessary cost when doing a large manufacturing run.
+As a developer either learning about IoT or creating a device prototype, you'll need to start with a developer kit. These are general-purpose IoT devices designed for developers to use, often with features that you wouldn't have on a production device, such as a set of external pins to connect sensors or actuators to, hardware to support debugging, or additional resources that would add unnecessary cost when doing a large manufacturing run.
 
 These developer kits usually fall into two categories - microcontrollers and single-board computers. These will be introduced here, and we'll go into more detail in the next lesson.
 
