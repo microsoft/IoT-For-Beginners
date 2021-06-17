@@ -37,7 +37,7 @@
 								"isCorrect": "false"
 							},
 							{
-								"answerText": "30 अरब",
+								"answerText": "30 बिलियन",
 								"isCorrect": "true"
 							}
 						]
@@ -46,11 +46,11 @@
 						"questionText": "स्मार्टफोन IoT डिवाइस हैं",
 						"answerOptions": [
 							{
-								"answerText": "सही",
+								"answerText": "True",
 								"isCorrect": "true"
 							},
 							{
-								"answerText": "गलत",
+								"answerText": "False",
 								"isCorrect": "false"
 							}
 						]
@@ -65,11 +65,11 @@
 						"questionText": "IoT उपकरणों को हर समय इंटरनेट से कनेक्ट करने की आवश्यकता है",
 						"answerOptions": [
 							{
-								"answerText": "सही",
+								"answerText": "True",
 								"isCorrect": "false"
 							},
 							{
-								"answerText": "गलत",
+								"answerText": "False",
 								"isCorrect": "true"
 							}
 						]
@@ -78,24 +78,24 @@
 						"questionText": "IoT डिवाइस हमेशा सुरक्षित होते हैं",
 						"answerOptions": [
 							{
-								"answerText": "सही",
+								"answerText": "True",
 								"isCorrect": "false"
 							},
 							{
-								"answerText": "गलत",
+								"answerText": "False",
 								"isCorrect": "true"
 							}
 						]
 					},
 					{
-						"questionText": "एआई को कम संचालित IoT उपकरणों पर चलाया जा सकता है",
+						"questionText": "AI को कम संचालित IoT उपकरणों पर चलाया जा सकता है",
 						"answerOptions": [
 							{
-								"answerText": "सही",
+								"answerText": "True",
 								"isCorrect": "true"
 							},
 							{
-								"answerText": "गलत",
+								"answerText": "False",
 								"isCorrect": "false"
 							}
 						]
@@ -104,7 +104,7 @@
 			},
 			{
 				"id": 3,
-				"title": "पाठ 2 - IoT उपकरणों के लिए परिचय: प्री व्याख्यान प्रश्नोत्तरी",
+				"title": "पाठ 2 - IoT उपकरणों के लिए परिचय: प्री लेक्चर प्रश्नोत्तरी",
 				"quiz": [
 					{
 						"questionText": "IoT में 'T' का अर्थ है:",
@@ -118,13 +118,13 @@
 								"isCorrect": "true"
 							},
 							{
-								"answerText": "तुर्कियों",
+								"answerText": "टर्कीस",
 								"isCorrect": "false"
 							}
 						]
 					},
 					{
-						"questionText": "IoT डिवाइस उनके आसपास की दुनिया से जानकारी इकट्ठा करते हैं:",
+						"questionText": "IoT डिवाइस किन् का उपयोग करके अपने आसपास की दुनिया से जानकारी इकट्ठा करते हैं :",
 						"answerOptions": [
 							{
 								"answerText": "सेंसर",
@@ -141,14 +141,14 @@
 						]
 					},
 					{
-						"questionText": "IoT डिवाइस औसत डेस्कटॉप या लैपटॉप कंप्यूटर की तुलना में अधिक शक्ति आकर्षित करते हैं",
+						"questionText": "IoT डिवाइस औसत डेस्कटॉप या लैपटॉप कंप्यूटर की तुलना में अधिक शक्ति खींचते हैं:",
 						"answerOptions": [
 							{
-								"answerText": "सही",
+								"answerText": "True",
 								"isCorrect": "false"
 							},
 							{
-								"answerText": "गलत",
+								"answerText": "False",
 								"isCorrect": "true"
 							}
 						]
@@ -157,7 +157,7 @@
 			},
 			{
 				"id": 4,
-				"title": "पाठ 2 - IoT उपकरणों के लिए परिचय: पोस्ट-व्याख्यान प्रश्नोत्तरी",
+				"title": "पाठ 2 - IoT उपकरणों के लिए परिचय: पोस्ट-लेक्चर प्रश्नोत्तरी",
 				"quiz": [
 					{
 						"questionText": "एक सीपीयू अनुदेश चक्र में तीन कदम हैं:",
@@ -177,10 +177,10 @@
 						]
 					},
 					{
-						"questionText": "क्या ऑपरेटिंग सिस्टम Raspberry pi चलाते है?",
+						"questionText": "रास्पबेरी पाई किस ऑपरेटिंग सिस्टम पर चलती है?",
 						"answerOptions": [
 							{
-								"answerText": "वे एक ओएस नहीं चलाते हैं",
+								"answerText": "वे ओएस पर नहीं चलते हैं",
 								"isCorrect": "false"
 							},
 							{
@@ -188,20 +188,20 @@
 								"isCorrect": "false"
 							},
 							{
-								"answerText": "रसभरी पीआई ओएस",
+								"answerText": "रास्पबेरी पाई ओएस",
 								"isCorrect": "true"
 							}
 						]
 					},
 					{
-						"questionText": "IoT डिवाइस आमतौर पर तेजी से चलते हैं और औसत डेस्कटॉप या लैपटॉप कंप्यूटर की तुलना में अधिक मेमोरी है",
+						"questionText": "IoT डिवाइस आमतौर पर तेजी से चलते हैं और इनमें औसत डेस्कटॉप या लैपटॉप कंप्यूटर की तुलना में अधिक मेमोरी होती है",
 						"answerOptions": [
 							{
-								"answerText": "सही",
+								"answerText": "True",
 								"isCorrect": "false"
 							},
 							{
-								"answerText": "गलत",
+								"answerText": "False",
 								"isCorrect": "true"
 							}
 						]
@@ -210,23 +210,23 @@
 			},
 			{
 				"id": 5,
-				"title": "सबक 3 - सेंसर और एक्ट्यूएटर के साथ भौतिक दुनिया के साथ बातचीत: प्री व्याख्यान प्रश्नोत्तरी",
+				"title": "पाठ 3 - सेंसर और एक्चुएटर्स के साथ भौतिक दुनिया के साथ बातचीत करें: प्री-लेक्चर क्विज़",
 				"quiz": [
 					{
 						"questionText": "एक एलईडी एक सेंसर है:",
 						"answerOptions": [
 							{
-								"answerText": "सही",
+								"answerText": "True",
 								"isCorrect": "false"
 							},
 							{
-								"answerText": "गलत",
+								"answerText": "False",
 								"isCorrect": "true"
 							}
 						]
 					},
 					{
-						"questionText": "सेंसर के लिए उपयोग किया जाता है:",
+						"questionText": "सेंसर का उपयोग किया जाता है:",
 						"answerOptions": [
 							{
 								"answerText": "भौतिक दुनिया से डेटा इकट्ठा करें|",
@@ -243,7 +243,7 @@
 						]
 					},
 					{
-						"questionText": "एक्ट्यूएटर का उपयोग करने के लिए किया जाता है:",
+						"questionText": "एक्चुएटर्स का उपयोग किया जाता है:",
 						"answerOptions": [
 							{
 								"answerText": "भौतिक दुनिया से डेटा इकट्ठा करें।",
@@ -263,13 +263,13 @@
 			},
 			{
 				"id": 6,
-				"title": "पाठ 3 - सेंसर और एक्ट्यूएटर के साथ भौतिक दुनिया के साथ बातचीत: पोस्ट-लेक्चर क्विज",
+				"title": "पाठ 3 - सेंसर और एक्चुएटर्स के साथ भौतिक दुनिया के साथ बातचीत करें: पोस्ट-लेक्चर क्विज",
 				"quiz": [
 					{
-						"questionText": "डिजिटल सेंसर डेटा के रूप में भेजें:",
+						"questionText": "डिजिटल सेंसर इस रूप में डेटा भेजते हैं:",
 						"answerOptions": [
 							{
-								"answerText": "वोल्टेज पर्वतमाला",
+								"answerText": "वोल्टेज रेंजस",
 								"isCorrect": "false"
 							},
 							{
@@ -283,7 +283,7 @@
 						]
 					},
 					{
-						"questionText": "जब एक बटन दबाया जाता है तो क्या डिजिटल सिग्नल भेजा जाता है?",
+						"questionText": "बटन दबाने पर कौन सा डिजिटल सिग्नल भेजा जाता है?",
 						"answerOptions": [
 							{
 								"answerText": "0",
@@ -299,11 +299,11 @@
 						"questionText": "आप पल्स-विड्त मॉड्यूलेशन का उपयोग करके डिजिटल डिवाइस से एनालॉग एक्ट्यूएटर को नियंत्रित कर सकते हैं",
 						"answerOptions": [
 							{
-								"answerText": "सही",
+								"answerText": "True",
 								"isCorrect": "true"
 							},
 							{
-								"answerText": "गलत",
+								"answerText": "False",
 								"isCorrect": "false"
 							}
 						]
@@ -312,43 +312,43 @@
 			},
 			{
 				"id": 7,
-				"title": "सबक 4 - इंटरनेट से अपने डिवाइस कनेक्ट: प्री व्याख्यान प्रश्नोत्तरी",
+				"title": "पाठ 4 - अपने डिवाइस को इंटरनेट से कनेक्ट करें: प्री लेक्चर प्रश्नोत्तरी",
 				"quiz": [
 					{
 						"questionText": "IoT उपकरणों को हमेशा काम करने के लिए इंटरनेट से कनेक्ट होने की आवश्यकता होती है:",
 						"answerOptions": [
 							{
-								"answerText": "सही",
+								"answerText": "True",
 								"isCorrect": "false"
 							},
 							{
-								"answerText": "गलत",
+								"answerText": "False",
 								"isCorrect": "true"
 							}
 						]
 					},
 					{
-						"questionText": "IoT डिवाइस हमेशा HTTP पर संवाद करते हैं, वही वेब ऐप्स और अन्य वेब एपीआई:",
+						"questionText": "IoT डिवाइस हमेशा HTTP पर संचार करते हैं, वेब ऐप्स और अन्य वेब API के समान:",
 						"answerOptions": [
 							{
-								"answerText": "गलत",
+								"answerText": "False",
 								"isCorrect": "true"
 							},
 							{
-								"answerText": "सही",
+								"answerText": "True",
 								"isCorrect": "false"
 							}
 						]
 					},
 					{
-						"questionText": "IoT डिवाइस अपने सभी निर्णय लेने के लिए बादल पर भरोसा करते हैं:",
+						"questionText": "IoT डिवाइस अपने सभी निर्णय लेने के लिए क्लाउड पर निर्भर करते हैं:",
 						"answerOptions": [
 							{
-								"answerText": "गलत",
+								"answerText": "False",
 								"isCorrect": "true"
 							},
 							{
-								"answerText": "सही",
+								"answerText": "True",
 								"isCorrect": "false"
 							}
 						]
@@ -357,7 +357,7 @@
 			},
 			{
 				"id": 8,
-				"title": "सबक 4 - इंटरनेट से अपने डिवाइस कनेक्ट: पोस्ट-लेक्चर प्रश्नोत्तरी",
+				"title": "पाठ 4 - अपने डिवाइस को इंटरनेट से कनेक्ट करें: पोस्ट-लेक्चर प्रश्नोत्तरी",
 				"quiz": [
 					{
 						"questionText": "सेंसर से एकत्र किए गए डेटा और क्लाउड पर भेजे गए डेटा को कहा जाता है:",
@@ -371,13 +371,13 @@
 								"isCorrect": "false"
 							},
 							{
-								"answerText": "माप",
+								"answerText": "मेजर्मेन्ट्स",
 								"isCorrect": "false"
 							}
 						]
 					},
 					{
-						"questionText": "यदि IoT डिवाइस ऑफ़लाइन है तो कमांड का क्या होना चाहिए:",
+						"questionText": "IoT डिवाइस के ऑफ़लाइन होने पर कमांड का क्या होता है",
 						"answerOptions": [
 							{
 								"answerText": "यह हमेशा बुरा मानना चाहिए जब डिवाइस वापस ऑनलाइन है",
@@ -388,20 +388,20 @@
 								"isCorrect": "false"
 							},
 							{
-								"answerText": "यह आदेश पर निर्भर करता है, डिवाइस IoT ऐप की आवश्यकताओं को एक",
+								"answerText": "यह IoT ऐप की कमांड, डिवाइस और आवश्यकताओं पर निर्भर करता है",
 								"isCorrect": "true"
 							}
 						]
 					},
 					{
-						"questionText": "एमक्यूटीटी, या मेसेजि क्यु टेलीमेट्री ट्रांसपोर्ट में संदेश कतारें हैं:",
+						"questionText": "एम.क्यू.टी.टी,(संदेश कतारबद्ध टेलीमेट्री ट्रांसपोर्ट )में संदेश कतारें है:",
 						"answerOptions": [
 							{
-								"answerText": "सही",
+								"answerText": "True",
 								"isCorrect": "false"
 							},
 							{
-								"answerText": "गलत",
+								"answerText": "False",
 								"isCorrect": "true"
 							}
 						]
@@ -410,23 +410,23 @@
 			},
 			{
 				"id": 9,
-				"title": "पाठ 5-संयंत्र विकास की भविष्यवाणी: प्री व्याख्यान प्रश्नोत्तरी",
+				"title": "पाठ 5-पौधा विकास की भविष्यवाणी: प्री लेक्चर प्रश्नोत्तरी",
 				"quiz": [
 					{
-						"questionText": "Iot उपकरणों कृषि का समर्थन करने के लिए इस्तेमाल किया जा सकता है",
+						"questionText": "IOT उपकरणों का उपयोग कृषि को समर्थन देने के लिए किया जा सकता है",
 						"answerOptions": [
 							{
-								"answerText": "सही",
+								"answerText": "True",
 								"isCorrect": "true"
 							},
 							{
-								"answerText": "गलत",
+								"answerText": "False",
 								"isCorrect": "false"
 							}
 						]
 					},
 					{
-						"questionText": "संयंत्र की जरूरत में शामिल हैं: (सबसे अच्छा जवाब उठाओ)",
+						"questionText": "पौधों की जरूरतों में शामिल हैं: (सबसे अच्छा जवाब उठाओ)",
 						"answerOptions": [
 							{
 								"answerText": "कार्बन डाइऑक्साइड, पानी, पोषक तत्व",
@@ -443,14 +443,14 @@
 						]
 					},
 					{
-						"questionText": "सेंसर विकसित देशों में किसानों के लिए उपयोग करने के लिए बहुत महंगे हैं:",
+						"questionText": "विकसित देशों में किसानों के उपयोग के लिए सेंसर बहुत महंगे हैं:",
 						"answerOptions": [
 							{
-								"answerText": "गलत",
+								"answerText": "False",
 								"isCorrect": "true"
 							},
 							{
-								"answerText": "सही",
+								"answerText": "True",
 								"isCorrect": "false"
 							}
 						]
@@ -459,30 +459,30 @@
 			},
 			{
 				"id": 10,
-				"title": "पाठ 5-संयंत्र विकास की भविष्यवाणी: पोस्ट व्याख्यान प्रश्नोत्तरी",
+				"title": "पाठ 5-पौधा विकास की भविष्यवाणी: पोस्ट लेक्चर प्रश्नोत्तरी",
 				"quiz": [
 					{
 						"questionText": "पौधों की वृद्धि तापमान पर निर्भर है",
 						"answerOptions": [
 							{
-								"answerText": "सही",
+								"answerText": "True",
 								"isCorrect": "true"
 							},
 							{
-								"answerText": "गलत",
+								"answerText": "False",
 								"isCorrect": "false"
 							}
 						]
 					},
 					{
-						"questionText": "तापमान संयंत्र के विकास के लिए विचार करने के लिए कर रहे हैं:",
+						"questionText": "पौधे की वृद्धि के लिए विचार करने के लिए तापमान हैं:",
 						"answerOptions": [
 							{
-								"answerText": "न्यूनतम, अधिकतम",
+								"answerText": "अल्पतम, अधिकतम",
 								"isCorrect": "false"
 							},
 							{
-								"answerText": "आधार, इष्टतम, अधिकतम",
+								"answerText": "आधार, युक्ततम, अधिकतम",
 								"isCorrect": "true"
 							},
 							{
@@ -518,11 +518,11 @@
 						"questionText": "IoT उपकरणों का उपयोग मिट्टी की नमी जैसे परिवेशी गुणों का पता लगाने के लिए किया जा सकता है|",
 						"answerOptions": [
 							{
-								"answerText": "सही",
+								"answerText": "True",
 								"isCorrect": "true"
 							},
 							{
-								"answerText": "गलत",
+								"answerText": "False",
 								"isCorrect": "false"
 							}
 						]
@@ -548,11 +548,11 @@
 						"questionText": "सभी सेंसर मानक इकाइयों के लिए प्री-अंशांकित प्रदान किए जाते हैं:",
 						"answerOptions": [
 							{
-								"answerText": "सही",
+								"answerText": "True",
 								"isCorrect": "false"
 							},
 							{
-								"answerText": "गलत",
+								"answerText": "False",
 								"isCorrect": "true"
 							}
 						]
@@ -561,7 +561,7 @@
 			},
 			{
 				"id": 12,
-				"title": "पाठ 6-मिट्टी नमी का पता लगाने: पोस्ट व्याख्यान प्रश्नोत्तरी",
+				"title": "पाठ 6-मिट्टी नमी का पता लगाने: पोस्ट लेक्चर प्रश्नोत्तरी",
 				"quiz": [
 					{
 						"questionText": "मिट्टी की नमी को मापते समय, प्रतिरोधी और कैपेसिटिव नमी सेंसर के बीच एक अंतर है:",
@@ -618,17 +618,17 @@
 			},
 			{
 				"id": 13,
-				"title": "सबक 7- स्वचालित पौधे पानी: प्री-लेक्चर क्विज",
+				"title": "पाठ 7- स्वचालित पौधे पानी: प्री-लेक्चर क्विज",
 				"quiz": [
 					{
 						"questionText": "Iot उपकरणों पानी पंपों को नियंत्रित करने के लिए काफी शक्तिशाली हैं",
 						"answerOptions": [
 							{
-								"answerText": "सही",
+								"answerText": "True",
 								"isCorrect": "false"
 							},
 							{
-								"answerText": "गलत",
+								"answerText": "False",
 								"isCorrect": "true"
 							}
 						]
@@ -637,11 +637,11 @@
 						"questionText": "एक्ट्यूएटर का उपयोग अतिरिक्त उपकरणों के लिए शक्ति को नियंत्रित करने के लिए किया जा सकता है",
 						"answerOptions": [
 							{
-								"answerText": "सही",
+								"answerText": "True",
 								"isCorrect": "true"
 							},
 							{
-								"answerText": "गलत",
+								"answerText": "False",
 								"isCorrect": "false"
 							}
 						]
@@ -650,11 +650,11 @@
 						"questionText": "सेंसर तुरंत एक्ट्यूएटर से परिवर्तन का पता लगाते हैं",
 						"answerOptions": [
 							{
-								"answerText": "सही",
+								"answerText": "True",
 								"isCorrect": "false"
 							},
 							{
-								"answerText": "गलत",
+								"answerText": "False",
 								"isCorrect": "true"
 							}
 						]
@@ -663,21 +663,21 @@
 			},
 			{
 				"id": 14,
-				"title": "सबक 7-स्वचालित संयंत्र पानी: पोस्ट व्याख्यान प्रश्नोत्तरी",
+				"title": "पाठ 7-स्वचालित पौधा पानी: पोस्ट लेक्चर प्रश्नोत्तरी",
 				"quiz": [
 					{
 						"questionText": "एक रिले किस प्रकार का स्विच है:",
 						"answerOptions": [
 							{
-								"answerText": "वैद्युत",
+								"answerText": "येलक्ट्रिकल",
 								"isCorrect": "false"
 							},
 							{
-								"answerText": "विद्युत",
+								"answerText": "येलक्ट्रो मेकानिकल",
 								"isCorrect": "true"
 							},
 							{
-								"answerText": "यांत्रिक",
+								"answerText": "मेकानिकल",
 								"isCorrect": "false"
 							}
 						]
@@ -703,11 +703,11 @@
 						"questionText": "एक्ट्यूएटर को हमेशा सेंसर रीडिंग का तुरंत जवाब देना चाहिए:",
 						"answerOptions": [
 							{
-								"answerText": "सही",
+								"answerText": "True",
 								"isCorrect": "false"
 							},
 							{
-								"answerText": "गलत",
+								"answerText": "False",
 								"isCorrect": "true"
 							}
 						]
@@ -716,17 +716,17 @@
 			},
 			{
 				"id": 15,
-				"title": "पाठ 8 - बादल के लिए अपने संयंत्र माइग्रेट: प्री व्याख्यान प्रश्नोत्तरी",
+				"title": "पाठ 8 - अपने पौधे को क्लाउड पर माइग्रेट करें: प्री-लेक्चर क्विज़",
 				"quiz": [
 					{
-						"questionText": "एक सार्वजनिक MQTT ब्रोकर एक वाणिज्यिक IoT परियोजना के लिए उपयोग करने के लिए ठीक है",
+						"questionText": "एक सार्वजनिक MQTT ब्रोकर व्यावसायिक IoT प्रोजेक्ट के लिए उपयोग करने के लिए ठीक है",
 						"answerOptions": [
 							{
-								"answerText": "सही",
+								"answerText": "True",
 								"isCorrect": "false"
 							},
 							{
-								"answerText": "गलत",
+								"answerText": "False",
 								"isCorrect": "true"
 							}
 						]
@@ -752,11 +752,11 @@
 						"questionText": "6 महाद्वीपों में कई अलग-अलग देशों में डेटा केंद्रों के साथ कई क्लाउड विक्रेता हैं",
 						"answerOptions": [
 							{
-								"answerText": "सही",
+								"answerText": "True",
 								"isCorrect": "true"
 							},
 							{
-								"answerText": "गलत",
+								"answerText": "False",
 								"isCorrect": "false"
 							}
 						]
@@ -765,7 +765,7 @@
 			},
 			{
 				"id": 16,
-				"title": "पाठ 8 - बादल के लिए अपने संयंत्र माइग्रेट: पोस्ट-व्याख्यान प्रश्नोत्तरी",
+				"title": "पाठ 8 - बादल के लिए अपने पौधा माइग्रेट: पोस्ट-लेक्चर प्रश्नोत्तरी",
 				"quiz": [
 					{
 						"questionText": "एक एक्ट्यूएटर के नियंत्रण का अनुरोध करने और IoT डिवाइस से प्रतिक्रिया प्राप्त करने के लिए, ऐप कोड का उपयोग कर सकते हैं:",
@@ -788,24 +788,24 @@
 						"questionText": "IoT हब किसी भी डिवाइस को बिना किसी सुरक्षा के कनेक्ट करने देता है:",
 						"answerOptions": [
 							{
-								"answerText": "गलत",
+								"answerText": "False",
 								"isCorrect": "true"
 							},
 							{
-								"answerText": "सही",
+								"answerText": "True",
 								"isCorrect": "false"
 							}
 						]
 					},
 					{
-						"questionText": "IoT हब नाम अद्वितीय होना चाहिए:",
+						"questionText": "IoT हब के नाम अद्वितीय होने चाहिए:",
 						"answerOptions": [
 							{
-								"answerText": "सही",
+								"answerText": "True",
 								"isCorrect": "true"
 							},
 							{
-								"answerText": "गलत",
+								"answerText": "False",
 								"isCorrect": "false"
 							}
 						]
@@ -814,17 +814,17 @@
 			},
 			{
 				"id": 17,
-				"title": "पाठ 9 - बादल के लिए अपने आवेदन तर्क माइग्रेट: प्री व्याख्यान प्रश्नोत्तरी",
+				"title": "पाठ 9 - बादल के लिए अपने आवेदन तर्क माइग्रेट: प्री लेक्चर प्रश्नोत्तरी",
 				"quiz": [
 					{
 						"questionText": "आप IoT घटनाओं का जवाब देने के लिए सर्वरलेस कोड का उपयोग कर सकते हैं",
 						"answerOptions": [
 							{
-								"answerText": "सही",
+								"answerText": "True",
 								"isCorrect": "true"
 							},
 							{
-								"answerText": "गलत",
+								"answerText": "False",
 								"isCorrect": "false"
 							}
 						]
@@ -850,11 +850,11 @@
 						"questionText": "IoT हब से घटनाओं को पढ़ते समय, आप केवल क्लाउड में चलने वाले कोड का उपयोग करके ऐसा कर सकते हैं",
 						"answerOptions": [
 							{
-								"answerText": "सही",
+								"answerText": "True",
 								"isCorrect": "false"
 							},
 							{
-								"answerText": "गलत",
+								"answerText": "False",
 								"isCorrect": "true"
 							}
 						]
@@ -863,30 +863,30 @@
 			},
 			{
 				"id": 18,
-				"title": "पाठ 9 - बादल के लिए अपने आवेदन तर्क माइग्रेट: पोस्ट-व्याख्यान प्रश्नोत्तरी",
+				"title": "पाठ 9 - बादल के लिए अपने आवेदन तर्क माइग्रेट: पोस्ट-लेक्चर प्रश्नोत्तरी",
 				"quiz": [
 					{
 						"questionText": "Azure फ़ंक्शंस को स्थानीय रूप से चलाया और डिबग किया जा सकता है:",
 						"answerOptions": [
 							{
-								"answerText": "सही",
+								"answerText": "True",
 								"isCorrect": "true"
 							},
 							{
-								"answerText": "गलत",
+								"answerText": "False",
 								"isCorrect": "false"
 							}
 						]
 					},
 					{
-						"questionText": "सर्वरलेस कोड केवल जावास्क्रिप्ट और कोबोल में लिखा जा सकता है:",
+						"questionText": "सर्वरलेस कोड केवल जावास्क्रिप्ट और COBOL में लिखा जा सकता है:",
 						"answerOptions": [
 							{
-								"answerText": "गलत",
+								"answerText": "False",
 								"isCorrect": "true"
 							},
 							{
-								"answerText": "सही",
+								"answerText": "True",
 								"isCorrect": "false"
 							}
 						]
@@ -912,17 +912,17 @@
 			},
 			{
 				"id": 19,
-				"title": "सबक 10 - अपने संयंत्र को सुरक्षित रखें: प्री-लेक्चर क्विज",
+				"title": "पाठ 10 - अपने पौधा को सुरक्षित रखें: प्री-लेक्चर क्विज",
 				"quiz": [
 					{
 						"questionText": "IoT डिवाइस हमेशा सुरक्षित होते हैं",
 						"answerOptions": [
 							{
-								"answerText": "सही",
+								"answerText": "True",
 								"isCorrect": "false"
 							},
 							{
-								"answerText": "गलत",
+								"answerText": "False",
 								"isCorrect": "true"
 							}
 						]
@@ -931,11 +931,11 @@
 						"questionText": "नेटवर्क को हैक करने के लिए IoT डिवाइस का उपयोग करके हैकर्स के कोई प्रलेखित मामले नहीं हैं:",
 						"answerOptions": [
 							{
-								"answerText": "सही",
+								"answerText": "True",
 								"isCorrect": "false"
 							},
 							{
-								"answerText": "गलत",
+								"answerText": "False",
 								"isCorrect": "true"
 							}
 						]
@@ -944,11 +944,11 @@
 						"questionText": "आप किसी के साथ अपने IoT डिवाइस कनेक्शन स्ट्रिंग साझा कर सकते हैं",
 						"answerOptions": [
 							{
-								"answerText": "सही",
+								"answerText": "True",
 								"isCorrect": "false"
 							},
 							{
-								"answerText": "गलत",
+								"answerText": "False",
 								"isCorrect": "true"
 							}
 						]
@@ -957,38 +957,38 @@
 			},
 			{
 				"id": 20,
-				"title": "सबक 10-अपने संयंत्र सुरक्षित रखें: पोस्ट-व्याख्यान प्रश्नोत्तरी",
+				"title": "पाठ 10-अपने पौधा सुरक्षित रखें: पोस्ट-लेक्चर प्रश्नोत्तरी",
 				"quiz": [
 					{
-						"questionText": "सममित कुंजी एन्क्रिप्शन असममित की एन्क्रिप्शन की तुलना में होती है जिसमें तरीके:",
+						"questionText": "सिम्मेट्रिक की एन्क्रिप्शन की तुलना असिम्मेट्रिक की एन्क्रिप्शन से किन् तरीको में की जाती है:",
 						"answerOptions": [
 							{
-								"answerText": "सममित कुंजी एन्क्रिप्शन असममित की तुलना में धीमा है",
+								"answerText": "सिम्मेट्रिक की एन्क्रिप्शन असिम्मेट्रिक की तुलना में धीमा है",
 								"isCorrect": "false"
 							},
 							{
-								"answerText": "सममित कुंजी एन्क्रिप्शन असममित की तुलना में अधिक सुरक्षित है",
+								"answerText": "सिम्मेट्रिक की एन्क्रिप्शन असिम्मेट्रिक की तुलना में अधिक सुरक्षित है",
 								"isCorrect": "false"
 							},
 							{
-								"answerText": "सममित कुंजी एन्क्रिप्शन असममित की तुलना में तेज है, लेकिन कम सुरक्षित है",
+								"answerText": "सिम्मेट्रिक की एन्क्रिप्शन असिम्मेट्रिक की तुलना में तेज है, लेकिन कम सुरक्षित है",
 								"isCorrect": "true"
 							},
 							{
-								"answerText": "सममित कुंजी एन्क्रिप्शन असममित की तुलना में धीमी है, लेकिन अधिक सुरक्षित है",
+								"answerText": "सिम्मेट्रिक की एन्क्रिप्शन असिम्मेट्रिक की तुलना में धीमी है, लेकिन अधिक सुरक्षित है",
 								"isCorrect": "false"
 							}
 						]
 					},
 					{
-						"questionText": "स्व-हस्ताक्षरित X.509 प्रमाण पत्र उत्पादन वातावरण के लिए आदर्श हैं",
+						"questionText": "सेल्फ-सैन्ड X.509 सट्रिफिकेट्स प्रोडक्षन वातावरण के लिए आदर्श हैं",
 						"answerOptions": [
 							{
-								"answerText": "सही",
+								"answerText": "True",
 								"isCorrect": "false"
 							},
 							{
-								"answerText": "गलत",
+								"answerText": "False",
 								"isCorrect": "true"
 							}
 						]
