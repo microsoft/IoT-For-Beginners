@@ -57,7 +57,7 @@ These are specific to using the Raspberry Pi, and are not relevant to using the 
     * Headphones or other speaker with a 3.5mm jack, or a JST speaker such as:
     * [Mono Enclosed Speaker - 2W 6 Ohm](https://www.seeedstudio.com/Mono-Enclosed-Speaker-2W-6-Ohm-p-2832.html)
   * [USB Speakerphone](https://www.amazon.com/USB-Speakerphone-Conference-Business-Microphones/dp/B07Q3D7F8S/ref=sr_1_1?dchild=1&keywords=m0&qid=1614647389&sr=8-1)
-* [Grove Sunlight sensor](https://www.seeedstudio.com/Grove-Sunlight-Sensor.html)
+* [Grove Light sensor](https://www.seeedstudio.com/Grove-Light-Sensor-v1-2-LS06-S-phototransistor.html)
 * [Grove button](https://www.seeedstudio.com/Grove-Button.html)
 
 ## Sensors and actuators
