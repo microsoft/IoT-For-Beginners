@@ -39,7 +39,7 @@ If your IoT application is not secure, there are a number of risks:
 
 These are real world scenarios, and happen all the time. Some examples were given in earlier lessons, but here are some more:
 
-* In 2018 hackers used an open WiFi access point on a fish tank thermostat to gain access to a casino's network to steal data. [The Hacker News - Casino Gets Hacked Through Its Internet-Connected Fish Tank Thermometer](https://thehackernews.com/2018/04/iot-hacking-thermometer.html)
+* In 2018, hackers used an open WiFi access point on a fish tank thermostat to gain access to a casino's network to steal data. [The Hacker News - Casino Gets Hacked Through Its Internet-Connected Fish Tank Thermometer](https://thehackernews.com/2018/04/iot-hacking-thermometer.html)
 * In 2016, the Mirai Botnet launched a denial of service attack against Dyn, an Internet service provider, taking down large portions of the Internet. This botnet used malware to connect to IoT devices such as DVRs and cameras that used default usernames and passwords, and from there launched the attack. [The Guardian - DDoS attack that disrupted internet was largest of its kind in history, experts say](https://www.theguardian.com/technology/2016/oct/26/ddos-attack-dyn-mirai-botnet)
 * Spiral Toys had a database of users of their CloudPets connected toys publicly available over the Internet. [Troy Hunt - Data from connected CloudPets teddy bears leaked and ransomed, exposing kids' voice messages](https://www.troyhunt.com/data-from-connected-cloudpets-teddy-bears-leaked-and-ransomed-exposing-kids-voice-messages/).
 * Strava tagged runners that you ran past and showed their routes, allowing strangers to effectively see where you live. [Kim Komndo - Fitness app could lead a stranger right to your home — change this setting](https://www.komando.com/security-privacy/strava-fitness-app-privacy/755349/).
@@ -90,7 +90,7 @@ Unfortunately, not everything is secure. Some devices have no security, others a
 
 Encryption comes in two types - symmetric and asymmetric.
 
-**Symmetric** encryption uses the same key to encrypt and decrypt the data. Both the sender and receive need to know the same key. This is the least secure type, as the key needs to be shared somehow. For a sender to send an encrypted message to a recipient, the sender first might have to send the recipient the key.
+**Symmetric** encryption uses the same key to encrypt and decrypt the data. Both the sender and receiver need to know the same key. This is the least secure type, as the key needs to be shared somehow. For a sender to send an encrypted message to a recipient, the sender first might have to send the recipient the key.
 
 ![Symmetric key encryption uses the same key to encrypt and decrypt a message](../../../images/send-message-symmetric-key.png)
 
@@ -148,7 +148,7 @@ After the connection, all data sent to the IoT Hub from the device, or to the de
 
 ### X.509 certificates
 
-When you are using a asymmetric encryption with a public/private key pair, you need to provide your public key to anyone who wants to send you data. The problem is, how can the recipient of your key be sure it's actually your public key, not someone else pretending to be you? Instead of providing a key, you can instead provide your public key inside a certificate that has been verified by a trusted third party, called an X.509 certificate.
+When you are using an asymmetric encryption with a public/private key pair, you need to provide your public key to anyone who wants to send you data. The problem is, how can the recipient of your key be sure it's actually your public key, not someone else pretending to be you? Instead of providing a key, you can instead provide your public key inside a certificate that has been verified by a trusted third party, called an X.509 certificate.
 
 X.509 certificates are digital documents that contain the public key part of the public/private key pair. They are usually issued by one of a number of trusted organizations called [Certification authorities](https://wikipedia.org/wiki/Certificate_authority) (CAs), and digitally signed by the CA to indicate the key is valid and comes from you. You trust the certificate and that the public key is from who the certificate says it is from, because you trust the CA, similar to how you would trust a passport or driving license because you trust the country issuing it. Certificates cost money, so you can also 'self-sign', that is create a certificate yourself that is signed by you, for testing purposes.
 
@@ -162,7 +162,7 @@ When using X.509 certificates, both the sender and the recipient will have their
 
 ![Instead of sharing a public key, you can share a certificate. The user of the certificate can verify that it comes from you by checking with the certificate authority who signed it.](../../../images/send-message-certificate.png)
 
-***nstead of sharing a public key, you can share a certificate. The user of the certificate can verify that it comes from you by checking with the certificate authority who signed it. Certificate by alimasykurm from the [Noun Project](https://thenounproject.com)***
+***Instead of sharing a public key, you can share a certificate. The user of the certificate can verify that it comes from you by checking with the certificate authority who signed it. Certificate by alimasykurm from the [Noun Project](https://thenounproject.com)***
 
 One big advantage of using X.509 certificates is that they can be shared between devices. You can create one certificate, upload it to IoT Hub, and use this for all your devices. Each device then just needs to know the private key to decrypt the messages it receives from IoT Hub.
 
@@ -176,7 +176,7 @@ The certificate used by your device to encrypt messages it sends to the IoT Hub 
 
 The steps to generate an X.509 certificate are:
 
-1. Create a public/private key pair. One of the most widely used algorithm to generate a public/private key pair is called [RSA](https://wikipedia.org/wiki/RSA_(cryptosystem)).
+1. Create a public/private key pair. One of the most widely used algorithm to generate a public/private key pair is called [Rivest–Shamir–Adleman](https://wikipedia.org/wiki/RSA_(cryptosystem))(RSA).
 
 1. Submit the public key with associated data for signing, either by a CA, or by self-signing
 
