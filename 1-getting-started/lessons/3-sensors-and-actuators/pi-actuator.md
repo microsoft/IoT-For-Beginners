@@ -44,7 +44,7 @@ Connect the LED.
 
 ## Program the nightlight
 
-The nightlight can now be programmed using the Grove sunlight sensor and the Grove LED.
+The nightlight can now be programmed using the Grove light sensor and the Grove LED.
 
 ### Task - program the nightlight
 
@@ -105,7 +105,7 @@ Program the nightlight.
     Light level: 290
     ```
 
-1. Cover and uncover the sunlight sensor. Notice how the LED will light up if the light level is 300 or less, and turn off when the light level is greater than 300.
+1. Cover and uncover the light sensor. Notice how the LED will light up if the light level is 300 or less, and turn off when the light level is greater than 300.
 
     > 💁 If the LED doesn't turn on, make sure it is connected the right way round, and the spin button is set to full on.
 

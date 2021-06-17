@@ -1,9 +1,10 @@
 import time
-import seeed_si114x
+from grove.grove_light_sensor_v1_2 import GroveLightSensor
 
-light_sensor = seeed_si114x.grove_si114x()
+light_sensor = GroveLightSensor(0)
 
 while True:
-    light = light_sensor.ReadVisible
+    light = light_sensor.light
     print('Light level:', light)
+    
     time.sleep(1)
