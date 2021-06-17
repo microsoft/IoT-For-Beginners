@@ -25,7 +25,7 @@ In this lesson we'll cover:
 
 ## What is the cloud?
 
-Before the cloud, when a company wanted to provide services to their employees (such as databases or file storage), or to the public (such as web sites), they would build and run a data center. This ranged from a room with a small number of computers in it, to a building with many computers. The company would manage everything, including:
+Before the cloud, when a company wanted to provide services to their employees (such as databases or file storage), or to the public (such as websites), they would build and run a data center. This ranged from a room with a small number of computers, to a building with many computers. The company would manage everything, including:
 
 * Buying computers
 * Hardware maintenance
@@ -38,20 +38,20 @@ This could be very expensive, require a wide range of skilled employees, and be 
 
 ✅ Do you think this would allow companies to move quickly? If an online clothing retailer suddenly got popular due to a celebrity being seen in their clothes, would they be able to increase their computing power quickly enough to support the sudden influx of orders?
 
-### Somebody else's computer
+### Someone else's computer
 
-The cloud is often jokingly referred to as 'somebody else's computer'. The initial idea was simple - instead of buying computers, you rent somebody else's computer. Someone else, a cloud computing provider, would manage huge data centers. They would be responsible for buying and installing the hardware, managing power and cooling, networking, building security, hardware and software updates, everything. As a customer, you would rent the computers you need, renting more as demand spikes, then reducing the number you rent if demand drops. These cloud data centers are all around the world.
+The cloud is often jokingly referred to as 'someone else's computer'. The initial idea was simple - instead of buying computers, you rent someone else's computer. Someone else, a cloud computing provider, would manage huge data centers. They would be responsible for buying and installing the hardware, managing power and cooling, networking, building security, hardware and software updates, everything. As a customer, you would rent the computers you need, renting more as demand spikes, then reducing the number you rent if demand drops. These cloud data centers are all around the world.
 
 ![A Microsoft cloud data center](../../../images/azure-region-existing.png)
 ![A Microsoft cloud data center planned expansion](../../../images/azure-region-planned-expansion.png)
 
 These data centers can be multiple square kilometers in size. The images above were taken a few years ago at a Microsoft cloud data center, and show the initial size, along with a planned expansion. The area cleared for the expansion is over 5 square kilometers.
 
-> 💁 These data centers require such large amounts of power that some have their own power stations. Because of their size and the level of investment from the cloud providers, they are usually very environmentally friendly. They are more efficient than huge numbers of small data centers, they run mostly on renewable energy, and cloud providers work hard to reduce waste, cut water usage, and replant forests to make up for those cut down to provide space to build data centers. You can read mode about how one cloud provider is working on sustainability on the [Azure sustainability site](https://azure.microsoft.com/global-infrastructure/sustainability/?WT.mc_id=academic-17441-jabenn).
+> 💁 These data centers require such large amounts of power that some have their own power stations. Because of their size and the level of investment from the cloud providers, they are usually very environmentally friendly. They are more efficient than huge numbers of small data centers, they run mostly on renewable energy, and cloud providers work hard to reduce waste, cut water usage, and replant forests to make up for those cut down to provide space to build data centers. You can read more about how one cloud provider is working on sustainability on the [Azure sustainability site](https://azure.microsoft.com/global-infrastructure/sustainability/?WT.mc_id=academic-17441-jabenn).
 
 ✅ Do some research: Read up on the major clouds such as [Azure from Microsoft](https://azure.microsoft.com/?WT.mc_id=academic-17441-jabenn) or [GCP from Google](https://cloud.google.com). How many data centers do they have, and where are they in the world?
 
-Using the cloud keeps costs down for companies, and allows them to focus on what they do best, leaving the cloud computing expertise in the hands of the provider. Companies no longer need to rent or buy data center space or pay different providers for connectivity and power and employee experts. Instead they can pay one monthly bill to the cloud provider to have everything taken care off.
+Using the cloud keeps costs down for companies, and allows them to focus on what they do best, leaving the cloud computing expertise in the hands of the provider. Companies no longer need to rent or buy data center space, pay different providers for connectivity and power, or employ experts. Instead, they can pay one monthly bill to the cloud provider to have everything taken care off.
 
 The cloud provider can then use economies of scale to drive costs down, buying computers in bulk at lower costs, investing in tooling to reduce their workload for maintenance, even designing and building their own hardware to improve their cloud offering.
 
@@ -246,11 +246,11 @@ The IoT Hub will be created. It make take a minute or so for this to complete.
 
 ## Communicate with IoT Hub
 
-In the previous lesson, you used MQTT and sent messages back and forward on different topics, with the different topics having different purposes. Rather than send messages over different topics, IoT Hub has a number of defined ways for the device to communicate with the Hub, or the Hub to communicate with the device.
+In the previous lesson, you used MQTT and sent messages back and forward on different topics, with the different topics having different purposes. Rather than send messages over different topics, IoT Hub has a number of defined ways for the device to communicate with the Hub, or for the Hub to communicate with the device.
 
 > 💁 Under the hood this communication between IoT Hub and your device can use MQTT, HTTPS or AMQP.
 
-* Device to cloud (D2C) messages - these are messages sent from a device to IoT Hub, such as telemetry. They can then ber read off the IoT Hub by your application code
+* Device to cloud (D2C) messages - these are messages sent from a device to IoT Hub, such as telemetry. They can then be read off the IoT Hub by your application code.
 
     > 🎓 Under the hood, IoT Hub uses an Azure service called [Event Hubs](https://docs.microsoft.com/azure/event-hubs/?WT.mc_id=academic-17441-jabenn). When you write code to read messages sent to the hub, these are often called events.
 
@@ -262,7 +262,7 @@ In the previous lesson, you used MQTT and sent messages back and forward on diff
 
 IoT Hub can store messages and direct method requests for a configurable period of time (defaulting to one day), so if a device or application code loses connection, it can still retrieve messages sent whilst it was offline after it reconnects. Device twins are kept permanently in the IoT Hub, so at any time a device can reconnect and get the latest device twin.
 
-✅ Do some research: Read more on these message types on the [Device-to-cloud communications guidance](https://docs.microsoft.com/azure/iot-hub/iot-hub-devguide-d2c-guidance?WT.mc_id=academic-17441-jabenn), an the [Cloud-to-device communications guidance](https://docs.microsoft.com/azure/iot-hub/iot-hub-devguide-c2d-guidance?WT.mc_id=academic-17441-jabenn) in the IoT Hub documentation.
+✅ Do some research: Read more on these message types on the [Device-to-cloud communications guidance](https://docs.microsoft.com/azure/iot-hub/iot-hub-devguide-d2c-guidance?WT.mc_id=academic-17441-jabenn), and the [Cloud-to-device communications guidance](https://docs.microsoft.com/azure/iot-hub/iot-hub-devguide-c2d-guidance?WT.mc_id=academic-17441-jabenn) in the IoT Hub documentation.
 
 ## Connect your device to the IoT service
 

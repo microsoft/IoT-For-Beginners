@@ -100,7 +100,7 @@ The faster the clock cycle, the more instructions that can be processed each sec
 
 Microcontrollers have much lower clock speeds than desktop or laptop computers, or even most smartphones. The Wio Terminal for example has a CPU that runs at 120MHz or 120,000,000 cycles per second.
 
-✅ An average PC or Mac has a CPU with multiple cores running at multiple GigaHertz, meaning the clock ticks billions of times a second. Research the clock speed of your computer and see how many times faster it is than the Wio terminal.
+✅ An average PC or Mac has a CPU with multiple cores running at multiple GigaHertz, meaning the clock ticks billions of times a second. Research the clock speed of your computer and compare how many times faster it is than the Wio terminal.
 
 Each clock cycle draws power and generates heat. The faster the ticks, the more power consumed and more heat generated. PC's have heat sinks and fans to remove heat, without which they would overheat and shut down within seconds. Microcontrollers often have neither as they run much cooler and therefore much slower. PC's run off mains power or large batteries for a few hours, microcontrollers can run for days, months, or even years off small batteries. Microcontrollers can also have cores that run at different speeds, switching to slower low power cores when the demand on the CPU is low to reduce power consumption.
 
@@ -112,7 +112,7 @@ Each clock cycle draws power and generates heat. The faster the ticks, the more 
 
 Investigate the Wio Terminal.
 
-If you are using a Wio Terminal for these lessons, see if you can find the CPU. Find the *Hardware Overview* section of the [Wio Terminal product page](https://www.seeedstudio.com/Wio-Terminal-p-4509.html) for a picture of the internals, and see if you can see the CPU through the clear plastic window on the back.
+If you are using a Wio Terminal for these lessons, try to find the CPU. Find the *Hardware Overview* section of the [Wio Terminal product page](https://www.seeedstudio.com/Wio-Terminal-p-4509.html) for a picture of the internals, and try to find the CPU through the clear plastic window on the back.
 
 ### Memory
 
@@ -150,7 +150,7 @@ Microcontrollers need input and output (I/O) connections to read data from senso
 
 Investigate the Wio Terminal.
 
-If you are using a Wio Terminal for these lessons, find the GPIO pins. Find the *Pinout diagram* section of the [Wio Terminal product page](https://www.seeedstudio.com/Wio-Terminal-p-4509.html) to see which pins are which. The Wio Terminal comes with a sticker you can mount on the back with pin numbers, so add this now if you haven't already.
+If you are using a Wio Terminal for these lessons, find the GPIO pins. Find the *Pinout diagram* section of the [Wio Terminal product page](https://www.seeedstudio.com/Wio-Terminal-p-4509.html) to learn which pins are which. The Wio Terminal comes with a sticker you can mount on the back with pin numbers, so add this now if you haven't already.
 
 ### Physical size
 
@@ -198,7 +198,7 @@ There is a large ecosystem of third-party Arduino libraries that allow you to ad
 
 Investigate the Wio Terminal.
 
-If you are using a Wio Terminal for these lessons, re-read the code you wrote in the last lesson. Find the `setup` and `loop` function. Monitor the serial output to see the loop function being called repeatedly. Try adding code to the `setup` function to write to the serial port and see this code is only called once each time you reboot. Try rebooting your device with the power switch on the side to see this called each time the device reboots.
+If you are using a Wio Terminal for these lessons, re-read the code you wrote in the last lesson. Find the `setup` and `loop` function. Monitor the serial output for the loop function being called repeatedly. Try adding code to the `setup` function to write to the serial port and observe that this code is only called once each time you reboot. Try rebooting your device with the power switch on the side to show this is called each time the device reboots.
 
 ## Deeper dive into single-board computers
 

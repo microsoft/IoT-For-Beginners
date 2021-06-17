@@ -158,11 +158,11 @@ Once data is flowing into your IoT Hub, you can write some serverless code to li
 
 1. Use the Azurite app as a local storage emulator
 
-Run your functions app to ensure it is receiving events from your GPS device. Make sure your IoT device is also running and sending GPS data.
+1. Run your functions app to ensure it is receiving events from your GPS device. Make sure your IoT device is also running and sending GPS data.
 
-```output
-Python EventHub trigger processed an event: {"gps": {"lat": 47.73481, "lon": -122.25701}}
-```
+    ```output
+    Python EventHub trigger processed an event: {"gps": {"lat": 47.73481, "lon": -122.25701}}
+    ```
 
 ## Azure Storage Accounts
 
@@ -258,7 +258,7 @@ The data will be saved as a JSON blob with the following format:
     > pip install --upgrade pip
     > ```
 
-1. In the `__init__.py` file for the `iot_hub_trigger`, add the following import statements:
+1. In the `__init__.py` file for the `iot-hub-trigger`, add the following import statements:
 
     ```python
     import json

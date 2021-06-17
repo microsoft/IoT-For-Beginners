@@ -110,7 +110,7 @@ The next step is to connect your device to IoT Hub.
     initTime();
     ```
 
-1. Add the following variable declaration to the top of the file, just below the include directived:
+1. Add the following variable declaration to the top of the file, just below the include directives:
 
     ```cpp
     IOTHUB_DEVICE_CLIENT_LL_HANDLE _device_ll_handle;

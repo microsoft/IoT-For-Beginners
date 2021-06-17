@@ -83,6 +83,12 @@ We have two choices of IoT hardware to use for the projects depending on persona
 | 16 | [Manufacturing](./4-manufacturing) | Check fruit quality from an IoT device | Learn about using your fruit quality detector from an IoT device | [Check fruit quality from an IoT device](./4-manufacturing/lessons/2-check-fruit-from-device/README.md) |
 | 17 | [Manufacturing](./4-manufacturing) | Run your fruit detector on the edge | Learn about running your fruit detector on an IoT device on the edge | [Run your fruit detector on the edge](./4-manufacturing/lessons/3-run-fruit-detector-edge/README.md) |
 | 18 | [Manufacturing](./4-manufacturing) | Trigger fruit quality detection from a sensor | Learn about triggering fruit quality detection from a sensor | [Trigger fruit quality detection from a sensor](./4-manufacturing/lessons/4-trigger-fruit-detector/README.md) |
+| 19 | [Retail](./5-retail) | | |
+| 20 | [Retail](./5-retail) | | |
+| 21 | [Consumer](./6-consumer) | Recognize speech with an IoT device | Learn how to recognize speech from an IoT device to build a smart timer | [Recognize speech with an IoT device](./6-consumer/lessons/1-speech-recognition/README.md) |
+| 22 | [Consumer](./6-consumer) | Understand language | Learn how to understand sentences spoken to an IoT device | [Understand language](./6-consumer/lessons/2-language-understanding/README.md) |
+| 23 | [Consumer](./6-consumer) | Set a timer and provide spoken feedback | Learn how to set a timer on an IoT device and give spoken feedback on when the timer is set and when it finishes | [Set a timer and provide spoken feedback](./6-consumer/lessons/3-spoken-feedback/README.md) |
+| 24 | [Consumer](./6-consumer) | Support multiple languages | Learn how to support multiple languages, both being spoken to and the responses from your smart timer | [Support multiple languages](./6-consumer/lessons/4-multiple-language-support/README.md) |
 
 ## Offline access
 
