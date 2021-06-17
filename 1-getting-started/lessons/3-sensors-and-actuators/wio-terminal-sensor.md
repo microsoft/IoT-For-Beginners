@@ -40,7 +40,7 @@ Program the device.
     Serial.println(light);
     ```
 
-    This code reads an analog value from the `WIO_LIGHT` pin. This reads a value from 0-1,023 from the on-board light sensor. This value is then sent to the serial port so you can see it in the Serial Monitor when this code is running. `Serial.print` writes the text without a new line on the end, so each line will start with `Light value:` and end with the actual light value.
+    This code reads an analog value from the `WIO_LIGHT` pin. This reads a value from 0-1,023 from the on-board light sensor. This value is then sent to the serial port so you can read it in the Serial Monitor when this code is running. `Serial.print` writes the text without a new line on the end, so each line will start with `Light value:` and end with the actual light value.
 
 1. Add a small delay of one second (1,000ms) at the end of the `loop` as the light levels don't need to be checked continuously. A delay reduces the power consumption of the device.
 
@@ -50,7 +50,7 @@ Program the device.
 
 1. Reconnect the Wio Terminal to your computer, and upload the new code as you did before.
 
-1. Connect the Serial Monitor. You should see light values being output to the terminal. Cover and uncover the light sensor on the back of the Wio Terminal to see the values change.
+1. Connect the Serial Monitor.Light values will be output to the terminal. Cover and uncover the light sensor on the back of the Wio Terminal, and the values will change.
 
     ```output
     > Executing task: platformio device monitor <

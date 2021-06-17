@@ -87,7 +87,7 @@ Program the device.
     python3 app.py
     ```
 
-    You should see light values being output to the console. Initially this value will be 0.
+    Light values will be output to the console. Initially this value will be 0.
 
 1. From the CounterFit app, change the value of the light sensor that will be read by the app. You can do this in one of two ways:
 
@@ -95,7 +95,7 @@ Program the device.
 
     * Check the *Random* checkbox, and enter a *Min* and *Max* value, then select the **Set** button. Every time the sensor reads a value, it will read a random number between *Min* and *Max*.
 
-    You should see the values you set appearing in the console. Change the *Value* or the *Random* settings to see the value change.
+    The values you set will be output to in the console. Change the *Value* or the *Random* settings to make the value change.
 
     ```output
     (.venv) ➜  GroveTest python3 app.py 

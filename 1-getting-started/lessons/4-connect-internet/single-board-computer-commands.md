@@ -46,7 +46,7 @@ Subscribe to commands.
 
 1. Run the code in the same way as you ran the code from the previous part of the assignment. If you are using a virtual IoT device, then make sure the CounterFit app is running and the light sensor and LED have been created on the correct pins.
 
-1. Adjust the light levels detected by your physical or virtual device. You will see messages being received and commands being sent in the terminal. You will also see the LED is being turned on and off depending on the light level.
+1. Adjust the light levels detected by your physical or virtual device. Messages being received and commands being sent will be written to the terminal. The LED will also be turned on and off depending on the light level.
 
 > 💁 You can find this code in the [code-commands/virtual-device](code-commands/virtual-device) folder or the [code-commands/pi](code-commands/pi) folder.
 
