@@ -38,3 +38,62 @@ The Wio Terminal can now be programmed to use the attached time of flight sensor
 
 1. Create a brand new Wio Terminal project using PlatformIO. Call this project `distance-sensor`. Add code in the `setup` function to configure the serial port.
 
+1. Add a library dependency for the Seeed Grove time of flight distance sensor library to the projects `platformio.ini` file:
+
+    ```ini
+    lib_deps =
+        seeed-studio/Grove Ranging sensor - VL53L0X @ ^1.1.1
+    ```
+
+1. In `main.cpp`, add the following below the existing include directives to declare an instance of the `Seeed_vl53l0x` class to interact with the time of flight sensor:
+
+    ```cpp
+    #include "Seeed_vl53l0x.h"
+    
+    Seeed_vl53l0x VL53L0X;
+    ```
+
+1. Add the following to the bottom of the `setup` function to initialize the sensor:
+
+    ```cpp
+    VL53L0X.VL53L0X_common_init();
+    VL53L0X.VL53L0X_high_accuracy_ranging_init();
+    ```
+
+1. In the `loop` function, read a value from the sensor:
+
+    ```cpp
+    VL53L0X_RangingMeasurementData_t RangingMeasurementData;
+    memset(&RangingMeasurementData, 0, sizeof(VL53L0X_RangingMeasurementData_t));
+
+    VL53L0X.PerformSingleRangingMeasurement(&RangingMeasurementData);
+    ```
+
+    This code initializes a data structure to read data into, then passes it into the `PerformSingleRangingMeasurement` method where it will be populated with the distance measurement.
+
+1. Below this, write out the distance measurement, then delay for 1 second:
+
+    ```cpp
+    Serial.print("Distance = ");
+    Serial.print(RangingMeasurementData.RangeMilliMeter);
+    Serial.println(" mm");
+
+    delay(1000);
+    ```
+
+1. Build, upload and run this code. You will be able to see distance measurements with the serial monitor. Position objects near the sensor and you will see the distance measurement:
+
+    ```output
+    Distance = 29 mm
+    Distance = 28 mm
+    Distance = 30 mm
+    Distance = 151 mm
+    ```
+
+    The rangefinder is on the back of the sensor, so make sure you use the correct side when measuring distance.
+
+    ![The rangefinder on the back of the time of flight sensor pointing at a banana](../../../images/time-of-flight-banana.png)
+
+> 💁 You can find this code in the [code-proximity/wio-terminal](code-proximity/wio-terminal) folder.
+
+😀 Your proximity sensor program was a success!

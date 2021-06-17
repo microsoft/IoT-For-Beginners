@@ -19,7 +19,7 @@ Once you have temperature data, you can use the Jupyter Notebook in this repo to
 1. Install some pip packages for Jupyter notebooks, along with libraries needed to manage and plot the data:
 
     ```sh
-    pip install -U pip
+    pip install --upgrade pip
     pip install pandas
     pip install matplotlib
     pip install jupyter

@@ -89,7 +89,7 @@ Program the device.
     Distance = 151 mm
     ```
 
-    The rangefinder is on the back of the sensor, so make sure you use hte correct side when measuring distance.
+    The rangefinder is on the back of the sensor, so make sure you use the correct side when measuring distance.
 
     ![The rangefinder on the back of the time of flight sensor pointing at a banana](../../../images/time-of-flight-banana.png)
 
