@@ -91,7 +91,7 @@ Program the nightlight.
     python3 app.py
     ```
 
-    You should see light values being output to the console.
+    Light values will be output to the console.
 
     ```output
     (.venv) ➜  GroveTest python3 app.py 
@@ -101,7 +101,7 @@ Program the nightlight.
     Light level: 253
     ```
 
-1. Change the *Value* or the *Random* settings to vary the light level above and below 300. You will see the LED turn on and off.
+1. Change the *Value* or the *Random* settings to vary the light level above and below 300. The LED will turn on and off.
 
 ![The LED in the CounterFit app turning on and off as the light level changes](../../../images/virtual-device-running-assignment-1-1.gif)
 
