@@ -27,7 +27,7 @@ Connect the light sensor
 ## Program the light sensor
 
 The device can now be programmed using the Grove light sensor.
-light
+
 ### Task - program the light sensor
 
 Program the device.
