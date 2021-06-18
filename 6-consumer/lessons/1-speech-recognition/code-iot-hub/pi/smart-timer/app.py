@@ -10,14 +10,6 @@ from azure.iot.device import IoTHubDeviceClient, Message
 from grove.factory import Factory
 button = Factory.getButton('GPIO-HIGH', 5)
 
-connection_string = '<connection_string>'
-
-device_client = IoTHubDeviceClient.create_from_connection_string(connection_string)
-
-print('Connecting')
-device_client.connect()
-print('Connected')
-
 audio = pyaudio.PyAudio()
 microphone_card_number = 1
 speaker_card_number = 1
@@ -52,6 +44,13 @@ def capture_audio():
 api_key = '<key>'
 location = '<location>'
 language = '<language>'
+connection_string = '<connection_string>'
+
+device_client = IoTHubDeviceClient.create_from_connection_string(connection_string)
+
+print('Connecting')
+device_client.connect()
+print('Connected')
 
 def get_access_token():
     headers = {

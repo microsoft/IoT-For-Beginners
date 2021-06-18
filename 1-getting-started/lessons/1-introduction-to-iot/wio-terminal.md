@@ -40,7 +40,7 @@ Create the PlatformIO project.
 
 1. Launch VS Code
 
-1. You should see the PlatformIO icon on the side menu bar:
+1. The PlatformIO icon will be on the side menu bar:
 
     ![The Platform IO menu option](../../../images/vscode-platformio-menu.png)
 
@@ -83,7 +83,7 @@ The VS Code explorer will show a number of files and folders created by the Plat
 
 #### Files
 
-* `main.cpp` - this file in the `src` folder contains the entry point for your application. If you open the file, you will see the following:
+* `main.cpp` - this file in the `src` folder contains the entry point for your application. Open this file, and it will contain the following code:
 
     ```cpp
     #include <Arduino.h>
@@ -101,7 +101,7 @@ The VS Code explorer will show a number of files and folders created by the Plat
 
 * `.gitignore` - this file lists the files and directories to be ignored when adding your code to git source code control, such as uploading to a repository on GitHub.
 
-* `platformio.ini` - this file contains configuration for your device and app. If you open this file, you will see the following:
+* `platformio.ini` - this file contains configuration for your device and app. Open this file, and it will contain the following code:
 
     ```ini
     [env:seeed_wio_terminal]
@@ -166,7 +166,7 @@ Write the Hello World app.
 
     1. The code will be compiled and uploaded to the Wio Terminal
 
-        > 💁 If you are using macOS you will see a notification about a *DISK NOT EJECTED PROPERLY*. This is because the Wio Terminal gets mounted as a drive as part of the flashing process, and it is disconnected when the compiled code is written to the device. You can ignore this notification.
+        > 💁 If you are using macOS, a notification about a *DISK NOT EJECTED PROPERLY* will appear. This is because the Wio Terminal gets mounted as a drive as part of the flashing process, and it is disconnected when the compiled code is written to the device. You can ignore this notification.
 
     ⚠️ If you get errors about the upload port being unavailable, first make sure you have the Wio Terminal connected to your computer, and switched on using the switch on the left hand side of the screen. The green light on the bottom should be on. If you still get the error, pull the on/off switch down twice in quick succession to force the Wio Terminal into bootloader mode and try the upload again.
 
@@ -191,7 +191,7 @@ PlatformIO has a Serial Monitor that can monitor data sent over the USB cable fr
     Hello World
     ```
 
-    You will see `Hello World` appear every 5 seconds.
+    `Hello World` will print to the serial monitor every 5 seconds.
 
 > 💁 You can find this code in the [code/wio-terminal](code/wio-terminal) folder.
 
