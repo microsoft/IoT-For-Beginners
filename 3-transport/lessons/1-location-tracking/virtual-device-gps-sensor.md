@@ -98,7 +98,7 @@ Program the GPS sensor app.
 
 1. Run this code, ensuring you are using a different terminal to the one that the CounterFit app is running it, so that the CounterFit app remains running.
 
-1. From the CounterFit app, change the value of the gps sensor. You can do this in one of thess ways:
+1. From the CounterFit app, change the value of the gps sensor. You can do this in one of these ways:
 
     * Set the **Source** to `Lat/Lon`, and set an explicit latitude, longitude and number of satellites used to get the GPS fix. This value will be sent only once, so check the **Repeat** box to have the data repeat every second.
 

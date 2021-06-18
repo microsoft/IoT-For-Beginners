@@ -32,7 +32,7 @@ Before the cloud, when a company wanted to provide services to their employees (
 * Power and cooling
 * Networking
 * Security, including securing the building and securing the software on the computers
-* Software installation and updates.
+* Software installation and updates
 
 This could be very expensive, require a wide range of skilled employees, and be very slow to change when needed. For example, if an online store needed to plan for a busy holiday season, they would need to plan months in advance to buy more hardware, configure it, install it and install the software to run their sales process. After the holiday season was over and sales dropped back down, they would be left with computers they've paid for sitting idle till the next busy season.
 
