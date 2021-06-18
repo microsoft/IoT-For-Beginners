@@ -8,7 +8,7 @@ This video gives an overview of the Azure speech service, a topic that will be c
 
 ## Pre-lecture quiz
 
-[Pre-lecture quiz](https://brave-island-0b7c7f50f.azurestaticapps.net/quiz/33)
+[Pre-lecture quiz](https://brave-island-0b7c7f50f.azurestaticapps.net/quiz/41)
 
 ## Introduction
 
@@ -212,7 +212,7 @@ What do you think the future holds for speech recognition?
 
 ## Post-lecture quiz
 
-[Post-lecture quiz](https://brave-island-0b7c7f50f.azurestaticapps.net/quiz/34)
+[Post-lecture quiz](https://brave-island-0b7c7f50f.azurestaticapps.net/quiz/42)
 
 ## Review & Self Study
 

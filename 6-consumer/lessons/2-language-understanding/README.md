@@ -6,7 +6,7 @@ Add a sketchnote if possible/appropriate
 
 ## Pre-lecture quiz
 
-[Pre-lecture quiz](https://brave-island-0b7c7f50f.azurestaticapps.net/quiz/33)
+[Pre-lecture quiz](https://brave-island-0b7c7f50f.azurestaticapps.net/quiz/43)
 
 ## Introduction
 
@@ -155,13 +155,17 @@ You can find instructions for using the LUIS portal in the [Quickstart: Build yo
 
     * `set a 1 second timer`
     * `set a 4 minute timer`
+    * `set a four minute six second timer`
     * `set a 9 minute 30 second timer`
     * `set a timer for 1 minute and 12 seconds`
     * `set a timer for 3 minutes`
     * `set a timer for 3 minutes and 1 second`
-    * `set a timer for 1 minute1 and 1 second`
+    * `set a timer for three minutes and one second`
+    * `set a timer for 1 minute and 1 second`
     * `set a timer for 30 seconds`
     * `set a timer for 1 second`
+
+    Mix up numbers as words and numerics so the model learns to handle both.
 
 1. As you enter each example, LUIS will start detecting entities, and will underline and label any it finds.
 
@@ -419,7 +423,7 @@ There are many ways to request the same thing, such as setting a timer. Think of
 
 ## Post-lecture quiz
 
-[Post-lecture quiz](https://brave-island-0b7c7f50f.azurestaticapps.net/quiz/34)
+[Post-lecture quiz](https://brave-island-0b7c7f50f.azurestaticapps.net/quiz/44)
 
 ## Review & Self Study
 
