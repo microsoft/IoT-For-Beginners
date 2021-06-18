@@ -43,11 +43,27 @@ Each language supports a range of different voices, and you can get the list of 
     > speech_config.speech_synthesis_voice_name = 'hi-IN-SwaraNeural'
     > ```
 
-1. Finally update the contents of the `say` function to use the speech synthesizer to speak the response:
+1. Update the contents of the `say` function to generate SSML for the response:
 
     ```python
-    speech_synthesizer.speak_text(text)
+    ssml =  f'<speak version=\'1.0\' xml:lang=\'{language}\'>'
+    ssml += f'<voice xml:lang=\'{language}\' name=\'{first_voice.short_name}\'>'
+    ssml += text
+    ssml += '</voice>'
+    ssml += '</speak>'
     ```
+
+1. Below this, stop the speech recognition, speak the SSML, then start the recognition again:
+
+    ```python
+    recognizer.stop_continuous_recognition()
+    speech_synthesizer.speak_ssml(ssml)
+    recognizer.start_continuous_recognition()
+    ```
+
+    The recognition is stopped whilst the text is spoken to avoid the announcement of the timer starting being detected, sent to LUIS and possibly interpreted as a request to set a new timer.
+
+    > 💁 You can test this out by commenting out the lines to stop and restart the recognition. Set one timer, and you may find the announcement sets a new timer, which causes a new announcement, leading to a new timer, and so on for ever!
 
 1. Run the app, and ensure the function app is also running. Set some timers, and you will hear a spoken response saying that your timer has been set, then another spoken response when the timer is complete.
 

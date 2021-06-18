@@ -40,7 +40,15 @@ first_voice = next(x for x in voices if x.locale.lower() == language.lower())
 speech_config.speech_synthesis_voice_name = first_voice.short_name
 
 def say(text):
-    speech_synthesizer.speak_text(text)
+    ssml =  f'<speak version=\'1.0\' xml:lang=\'{language}\'>'
+    ssml += f'<voice xml:lang=\'{language}\' name=\'{first_voice.short_name}\'>'
+    ssml += text
+    ssml += '</voice>'
+    ssml += '</speak>'
+
+    recognizer.stop_continuous_recognition()
+    speech_synthesizer.speak_ssml(ssml)
+    recognizer.start_continuous_recognition()
 
 def announce_timer(minutes, seconds):
     announcement = 'Times up on your '
