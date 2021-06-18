@@ -1,7 +1,7 @@
 import json
 import threading
 import time
-from azure.cognitiveservices.speech import SpeechConfig, SpeechRecognizer
+from azure.cognitiveservices.speech import SpeechConfig, SpeechRecognizer, SpeechSynthesizer
 from azure.iot.device import IoTHubDeviceClient, Message, MethodResponse
 
 api_key = '<key>'
@@ -30,8 +30,17 @@ recognizer.recognized.connect(recognized)
 
 recognizer.start_continuous_recognition()
 
+speech_config = SpeechConfig(subscription=api_key,
+                             region=location)
+speech_config.speech_synthesis_language = language
+speech_synthesizer = SpeechSynthesizer(speech_config=speech_config)
+
+voices = speech_synthesizer.get_voices_async().get().voices
+first_voice = next(x for x in voices if x.locale.lower() == language.lower())
+speech_config.speech_synthesis_voice_name = first_voice.short_name
+
 def say(text):
-    print(text)
+    speech_synthesizer.speak_text(text)
 
 def announce_timer(minutes, seconds):
     announcement = 'Times up on your '

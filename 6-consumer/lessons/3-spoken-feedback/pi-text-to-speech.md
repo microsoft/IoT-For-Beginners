@@ -34,7 +34,11 @@ Each language supports a range of different voices, and you can make a REST requ
 
     This function is then called to store the first voice, and the voice name is printed to the console. This voice can be requested once and the value used for every call to convert text to speech.
 
-    > 💁 You can get the full list of supported voices from the [Language and voice support documentation on Microsoft Docs](https://docs.microsoft.com/azure/cognitive-services/speech-service/language-support?WT.mc_id=academic-17441-jabenn#text-to-speech). If you want to use a specific voice, then you can remove this function and hard code the voice to the voice name from this documentation.
+    > 💁 You can get the full list of supported voices from the [Language and voice support documentation on Microsoft Docs](https://docs.microsoft.com/azure/cognitive-services/speech-service/language-support?WT.mc_id=academic-17441-jabenn#text-to-speech). If you want to use a specific voice, then you can remove this function and hard code the voice to the voice name from this documentation. For example:
+    >
+    > ```python
+    > voice = 'hi-IN-SwaraNeural'
+    > ```
 
 ### Task - convert text to speech
 
@@ -131,6 +135,6 @@ Each language supports a range of different voices, and you can make a REST requ
 
     If you get `Invalid sample rate` errors, change the `playback_format` as described above.
 
-> 💁 You can find this code in the [code-spoken-response/pi](code-timer/spoken-response) folder.
+> 💁 You can find this code in the [code-spoken-response/pi](code-spoken-response/pi) folder.
 
 😀 Your timer program was a success!
