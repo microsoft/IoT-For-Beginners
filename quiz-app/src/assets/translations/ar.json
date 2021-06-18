@@ -1,0 +1,1017 @@
+[
+	{
+		"title": "تطوير إنترنت الأشياء للمبتدئين: مسابقات",
+		"complete": "تهانينا ، لقد أكملت الاختبار!",
+		"error": "عذرا حاول مرة أخرى",
+		"quizzes": [
+			{
+				"id": 1,
+				"title": "الدرس الأول - مقدمة لإنترنت الأشياء: اختبار ما قبل المحاضرة",
+				"quiz": [
+					{
+						"questionText": "The I in IoT stands for:",
+						"answerOptions": [
+							{
+								"answerText": "Internet",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "Iridium",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "Ironing",
+								"isCorrect": "false"
+							}
+						]
+					},
+					{
+						"questionText": "ما هو العدد التقديري لأجهزة إنترنت الأشياء المستخدمة بنهاية عام 2020؟",
+						"answerOptions": [
+							{
+								"answerText": "30",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "30 million",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "30 billion",
+								"isCorrect": "true"
+							}
+						]
+					},
+					{
+						"questionText": "الهواتف الذكية هي أجهزة إنترنت الأشياء",
+						"answerOptions": [
+							{
+								"answerText": "True",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "False",
+								"isCorrect": "false"
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": 2,
+				"title": "الدرس الأول - مقدمة لإنترنت الأشياء: اختبار ما بعد المحاضرة",
+				"quiz": [
+					{
+						"questionText": "تحتاج أجهزة إنترنت الأشياء إلى الاتصال بالإنترنت في جميع الأوقات",
+						"answerOptions": [
+							{
+								"answerText": "True",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "False",
+								"isCorrect": "true"
+							}
+						]
+					},
+					{
+						"questionText": "أجهزة إنترنت الأشياء آمنة دائمًا",
+						"answerOptions": [
+							{
+								"answerText": "True",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "False",
+								"isCorrect": "true"
+							}
+						]
+					},
+					{
+						"questionText": "يمكن تشغيل الذكاء الاصطناعي على أجهزة إنترنت الأشياء منخفضة الطاقة",
+						"answerOptions": [
+							{
+								"answerText": "True",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "False",
+								"isCorrect": "false"
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": 3,
+				"title": "الدرس 2 - مقدمة لأجهزة إنترنت الأشياء: اختبار ما قبل المحاضرة",
+				"quiz": [
+					{
+						"questionText": "The T in IoT stands for:",
+						"answerOptions": [
+							{
+								"answerText": "Transistors",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "Things",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "Turkeys",
+								"isCorrect": "false"
+							}
+						]
+					},
+					{
+						"questionText": "تجمع أجهزة إنترنت الأشياء المعلومات من العالم من حولها باستخدام:",
+						"answerOptions": [
+							{
+								"answerText": "المستشعرات",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "المحركات",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "الحمام الزاجل",
+								"isCorrect": "false"
+							}
+						]
+					},
+					{
+						"questionText": "تستهلك أجهزة إنترنت الأشياء طاقة أكبر من أجهزة الكمبيوتر المكتبية أو المحمولة العادية",
+						"answerOptions": [
+							{
+								"answerText": "True",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "False",
+								"isCorrect": "true"
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": 4,
+				"title": "الدرس 2 - مقدمة لأجهزة إنترنت الأشياء: اختبار ما بعد المحاضرة",
+				"quiz": [
+					{
+						"questionText": "الخطوات الثلاث في دورة تعليمات وحدة المعالجة المركزية هي:",
+						"answerOptions": [
+							{
+								"answerText": "فك وتنفيذ وجلب",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "الجلب ، فك التشفير ، التنفيذ",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "توقف ، تعاون ، استمع",
+								"isCorrect": "false"
+							}
+						]
+					},
+					{
+						"questionText": "ما هو نظام التشغيل الذي يعمل به Raspberry Pis؟",
+						"answerOptions": [
+							{
+								"answerText": "They don't run an OS",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "Windows 95",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "Raspberry Pi OS",
+								"isCorrect": "true"
+							}
+						]
+					},
+					{
+						"questionText": "عادةً ما تعمل أجهزة إنترنت الأشياء بشكل أسرع ولديها ذاكرة أكبر من أجهزة الكمبيوتر المكتبية أو المحمولة العادية",
+						"answerOptions": [
+							{
+								"answerText": "True",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "False",
+								"isCorrect": "true"
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": 5,
+				"title": "الدرس 3 - التفاعل مع العالم المادي باستخدام المستشعرات والمحركات: اختبار ما قبل المحاضرة",
+				"quiz": [
+					{
+						"questionText": "An LED is a sensor:",
+						"answerOptions": [
+							{
+								"answerText": "True",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "False",
+								"isCorrect": "true"
+							}
+						]
+					},
+					{
+						"questionText": "تستخدم المستشعرات من أجل:",
+						"answerOptions": [
+							{
+								"answerText": "اجمع البيانات من العالم المادي.",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "السيطرة على العالم المادي.",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "مراقبة درجة الحرارة فقط.",
+								"isCorrect": "false"
+							}
+						]
+					},
+					{
+						"questionText": "تستخدم المحركات من أجل:",
+						"answerOptions": [
+							{
+								"answerText": "اجمع البيانات من العالم المادي.",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "السيطرة على العالم المادي.",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "لحساب مخاطر التأمين.",
+								"isCorrect": "false"
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": 6,
+				"title": "الدرس 3 - التفاعل مع العالم المادي باستخدام المستشعرات والمحركات: اختبار ما بعد المحاضرة",
+				"quiz": [
+					{
+						"questionText": "ترسل المستشعرات الرقمية البيانات على النحو التالي:",
+						"answerOptions": [
+							{
+								"answerText": "نطاقات الجهد",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "الفولتية العالية والمنخفضة فقط",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "رسائل البريد الإلكتروني",
+								"isCorrect": "false"
+							}
+						]
+					},
+					{
+						"questionText": "ما هي الإشارة الرقمية التي يتم إرسالها عند الضغط على الزر؟",
+						"answerOptions": [
+							{
+								"answerText": "0",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "1",
+								"isCorrect": "true"
+							}
+						]
+					},
+					{
+						"questionText": "يمكنك التحكم في المشغلات التناظرية من جهاز رقمي باستخدام تعديل عرض النبضة",
+						"answerOptions": [
+							{
+								"answerText": "True",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "False",
+								"isCorrect": "false"
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": 7,
+				"title": "الدرس 4 - توصيل جهازك بالإنترنت: اختبار ما قبل المحاضرة",
+				"quiz": [
+					{
+						"questionText": "تحتاج أجهزة إنترنت الأشياء دائمًا إلى الاتصال بالإنترنت للعمل:",
+						"answerOptions": [
+							{
+								"answerText": "True",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "False",
+								"isCorrect": "true"
+							}
+						]
+					},
+					{
+						"questionText": "تتواصل أجهزة إنترنت الأشياء دائمًا عبر HTTP ، تمامًا مثل تطبيقات الويب وواجهات برمجة تطبيقات الويب الأخرى:",
+						"answerOptions": [
+							{
+								"answerText": "False",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "True",
+								"isCorrect": "false"
+							}
+						]
+					},
+					{
+						"questionText": "تعتمد أجهزة إنترنت الأشياء على السحابة في جميع قراراتها:",
+						"answerOptions": [
+							{
+								"answerText": "False",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "True",
+								"isCorrect": "false"
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": 8,
+				"title": "الدرس 4 - توصيل جهازك بالإنترنت: اختبار ما بعد المحاضرة",
+				"quiz": [
+					{
+						"questionText": "تسمى البيانات التي يتم جمعها من أجهزة الاستشعار وإرسالها إلى السحابة:",
+						"answerOptions": [
+							{
+								"answerText": "القياس عن بعد",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "أوامر",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "قياسات",
+								"isCorrect": "false"
+							}
+						]
+					},
+					{
+						"questionText": "ما الذي يجب أن يحدث للأمر إذا كان جهاز إنترنت الأشياء غير متصل بالإنترنت:",
+						"answerOptions": [
+							{
+								"answerText": "يجب أن يكون دائمًا مستاءًا عند إعادة اتصال الجهاز بالإنترنت",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "لا ينبغي أبدًا الاستياء عند عودة الجهاز إلى الاتصال بالإنترنت",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "يعتمد ذلك على الأمر والجهاز ومتطلبات تطبيق إنترنت الأشياء",
+								"isCorrect": "true"
+							}
+						]
+					},
+					{
+						"questionText": "يحتوي MQTT ، أو نقل القياس عن بُعد لخدمة وضع الرسائل في قائمة انتظار ، على قوائم انتظار للرسائل:",
+						"answerOptions": [
+							{
+								"answerText": "True",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "False",
+								"isCorrect": "true"
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": 9,
+				"title": "الدرس الخامس - توقع نمو النبات: اختبار ما قبل المحاضرة",
+				"quiz": [
+					{
+						"questionText": "يمكن استخدام أجهزة إنترنت الأشياء لدعم الزراعة",
+						"answerOptions": [
+							{
+								"answerText": "True",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "False",
+								"isCorrect": "false"
+							}
+						]
+					},
+					{
+						"questionText": "تشمل احتياجات النبات: (اختر أفضل إجابة)",
+						"answerOptions": [
+							{
+								"answerText": "ثاني أكسيد الكربون والماء والمغذيات",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "ثاني أكسيد الكربون ، الماء ، العناصر الغذائية ، الضوء",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "ثاني أكسيد الكربون ، الماء ، العناصر الغذائية ، الضوء ، الدفء",
+								"isCorrect": "true"
+							}
+						]
+					},
+					{
+						"questionText": "أجهزة الاستشعار باهظة الثمن بالنسبة للمزارعين في الدول المتقدمة لاستخدامها:",
+						"answerOptions": [
+							{
+								"answerText": "False",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "True",
+								"isCorrect": "false"
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": 10,
+				"title": "الدرس الخامس - توقع نمو النبات: اختبار ما بعد المحاضرة",
+				"quiz": [
+					{
+						"questionText": "نمو النبات يعتمد على درجة الحرارة",
+						"answerOptions": [
+							{
+								"answerText": "True",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "False",
+								"isCorrect": "false"
+							}
+						]
+					},
+					{
+						"questionText": "درجات الحرارة التي يجب مراعاتها لنمو النبات هي:",
+						"answerOptions": [
+							{
+								"answerText": "الحد الأدنى الحد الأقصى",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "القاعدة ، الأمثل ، الحد الأقصى",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "الحد الأقصى فقط",
+								"isCorrect": "false"
+							}
+						]
+					},
+					{
+						"questionText": "يتم حساب أيام الدرجة المتزايدة باستخدام الصيغة:",
+						"answerOptions": [
+							{
+								"answerText": "(الحد الأقصى لليوم + الحد الأدنى لليوم) - قاعدة النبات",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "((الحد الأقصى لليوم + الحد الأدنى لليوم) / 2) - قاعدة النبات",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "((الحد الأدنى لليوم + قاعدة النبات) / 2)",
+								"isCorrect": "false"
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": 11,
+				"title": "الدرس 6 - الكشف عن رطوبة التربة: اختبار ما قبل المحاضرة",
+				"quiz": [
+					{
+						"questionText": "يمكن استخدام أجهزة إنترنت الأشياء لاكتشاف الخصائص المحيطة مثل رطوبة التربة",
+						"answerOptions": [
+							{
+								"answerText": "True",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "False",
+								"isCorrect": "false"
+							}
+						]
+					},
+					{
+						"questionText": "أي مما يلي يمكن أن يسبب مشاكل لنمو النبات (اختر واحدة)؟",
+						"answerOptions": [
+							{
+								"answerText": "القليل من الماء",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "الكثير من الماء",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "القليل جدا أو الكثير من الماء",
+								"isCorrect": "true"
+							}
+						]
+					},
+					{
+						"questionText": "يتم توفير جميع المستشعرات التي تمت معايرتها مسبقًا للوحدات القياسية:",
+						"answerOptions": [
+							{
+								"answerText": "True",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "False",
+								"isCorrect": "true"
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": 12,
+				"title": "الدرس 6 - الكشف عن رطوبة التربة: اختبار ما بعد المحاضرة",
+				"quiz": [
+					{
+						"questionText": "عند قياس رطوبة التربة ، فإن أحد الاختلافات بين مستشعرات الرطوبة المقاومة والسعة هو:",
+						"answerOptions": [
+							{
+								"answerText": "مع ارتفاع مستويات الرطوبة ، يرتفع الجهد بالنسبة لأجهزة الاستشعار المقاومة وينخفض ​​بالنسبة لأجهزة الاستشعار السعوية",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "مع ارتفاع مستويات الرطوبة ، ينخفض ​​الجهد بالنسبة لأجهزة الاستشعار المقاومة ويزيد بالنسبة لأجهزة الاستشعار السعوية",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "مع ارتفاع مستويات الرطوبة ، يرتفع الجهد لكل من أجهزة الاستشعار المقاومة والسعة",
+								"isCorrect": "false"
+							}
+						]
+					},
+					{
+						"questionText": "يدعم بروتوكول SPI:",
+						"answerOptions": [
+							{
+								"answerText": "وحدة تحكم واحدة وطرفية واحدة فقط",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "وحدة تحكم واحدة فقط وأجهزة طرفية متعددة",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "وحدات تحكم متعددة وأجهزة طرفية متعددة",
+								"isCorrect": "false"
+							}
+						]
+					},
+					{
+						"questionText": "يدعم بروتوكول I2C:",
+						"answerOptions": [
+							{
+								"answerText": "وحدة تحكم واحدة وطرفية واحدة فقط",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "وحدة تحكم واحدة فقط وأجهزة طرفية متعددة",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "وحدات تحكم متعددة وأجهزة طرفية متعددة",
+								"isCorrect": "true"
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": 13,
+				"title": "الدرس 7 - سقي النبات الآلي: اختبار ما قبل المحاضرة",
+				"quiz": [
+					{
+						"questionText": "أجهزة إنترنت الأشياء قوية بما يكفي للتحكم في مضخات المياه",
+						"answerOptions": [
+							{
+								"answerText": "True",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "False",
+								"isCorrect": "true"
+							}
+						]
+					},
+					{
+						"questionText": "يمكن استخدام المحركات للتحكم في الطاقة للأجهزة الإضافية",
+						"answerOptions": [
+							{
+								"answerText": "True",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "False",
+								"isCorrect": "false"
+							}
+						]
+					},
+					{
+						"questionText": "تكتشف المستشعرات التغييرات من المشغلات على الفور",
+						"answerOptions": [
+							{
+								"answerText": "True",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "False",
+								"isCorrect": "true"
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": 14,
+				"title": "الدرس 7 - سقي النبات الآلي: اختبار ما بعد المحاضرة",
+				"quiz": [
+					{
+						"questionText": "التتابع هو نوع التبديل:",
+						"answerOptions": [
+							{
+								"answerText": "الكهربائي",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "الكهروميكانيكية",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "الميكانيكي",
+								"isCorrect": "false"
+							}
+						]
+					},
+					{
+						"questionText": "يسمح التتابع بما يلي:",
+						"answerOptions": [
+							{
+								"answerText": "جهاز منخفض الطاقة للتحكم بجهاز طاقة أعلى",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "جهاز عالي الطاقة للتحكم في جهاز منخفض الطاقة",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "العدائين لتشغيل سباق يمررون عصا بينهم",
+								"isCorrect": "false"
+							}
+						]
+					},
+					{
+						"questionText": "يجب أن تستجيب المشغلات دائمًا على الفور لقراءات المستشعر:",
+						"answerOptions": [
+							{
+								"answerText": "True",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "False",
+								"isCorrect": "true"
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": 15,
+				"title": "الدرس الثامن - قم بترحيل نباتك إلى السحابة: اختبار ما قبل المحاضرة",
+				"quiz": [
+					{
+						"questionText": "من الجيد استخدام وسيط MQTT العام في مشروع تجاري لإنترنت الأشياء",
+						"answerOptions": [
+							{
+								"answerText": "True",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "False",
+								"isCorrect": "true"
+							}
+						]
+					},
+					{
+						"questionText": "تتيح لك الحوسبة السحابية:",
+						"answerOptions": [
+							{
+								"answerText": "فقط تأجير أجهزة الكمبيوتر",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "استئجار أجهزة الكمبيوتر ومنصات التطبيقات فقط",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "استئجار أجهزة الكمبيوتر ومنصات التطبيقات والبرامج والمنصات التي لا تحتاج إلى خادم وغيرها من الخدمات",
+								"isCorrect": "true"
+							}
+						]
+					},
+					{
+						"questionText": "هناك العديد من بائعي السحابة الذين لديهم مراكز بيانات في العديد من البلدان المختلفة عبر 6 قارات",
+						"answerOptions": [
+							{
+								"answerText": "True",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "False",
+								"isCorrect": "false"
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": 16,
+				"title": "الدرس الثامن - قم بترحيل نباتك إلى السحابة: اختبار ما بعد المحاضرة",
+				"quiz": [
+					{
+						"questionText": "لطلب التحكم في مشغل والحصول على استجابة من جهاز إنترنت الأشياء ، يمكن أن يستخدم رمز التطبيق:",
+						"answerOptions": [
+							{
+								"answerText": "جهاز للرسائل السحابية",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "جهاز توأم",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "طلب الطريقة المباشرة",
+								"isCorrect": "true"
+							}
+						]
+					},
+					{
+						"questionText": "يتيح IoT Hub لأي جهاز الاتصال دون أي أمان:",
+						"answerOptions": [
+							{
+								"answerText": "False",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "True",
+								"isCorrect": "false"
+							}
+						]
+					},
+					{
+						"questionText": "يجب أن تكون أسماء IoT Hub فريدة:",
+						"answerOptions": [
+							{
+								"answerText": "True",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "False",
+								"isCorrect": "false"
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": 17,
+				"title": "الدرس 9 - ترحيل منطق التطبيق الخاص بك إلى السحابة: اختبار ما قبل المحاضرة",
+				"quiz": [
+					{
+						"questionText": "يمكنك استخدام رمز Serverless للرد على أحداث إنترنت الأشياء",
+						"answerOptions": [
+							{
+								"answerText": "True",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "False",
+								"isCorrect": "false"
+							}
+						]
+					},
+					{
+						"questionText": "عند إرسال أحداث IoT إلى IoT Hub:",
+						"answerOptions": [
+							{
+								"answerText": "يمكن لخدمة واحدة فقط قراءة الأحداث خارج IoT Hub",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "يمكن لأي عدد من الخدمات قراءة الأحداث خارج IoT Hub",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "لا يمكن للخدمات قراءة الأحداث من IoT Hub ، وعليهم الاتصال بالجهاز مباشرة",
+								"isCorrect": "false"
+							}
+						]
+					},
+					{
+						"questionText": "عند قراءة الأحداث خارج مركز إنترنت الأشياء ، يمكنك القيام بذلك فقط باستخدام التعليمات البرمجية التي يتم تشغيلها في السحابة",
+						"answerOptions": [
+							{
+								"answerText": "True",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "False",
+								"isCorrect": "true"
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": 18,
+				"title": "الدرس 9 - قم بترحيل منطق التطبيق الخاص بك إلى السحابة: اختبار ما بعد المحاضرة",
+				"quiz": [
+					{
+						"questionText": "يمكن تشغيل وظائف Azure وتصحيحها محليًا:",
+						"answerOptions": [
+							{
+								"answerText": "True",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "False",
+								"isCorrect": "false"
+							}
+						]
+					},
+					{
+						"questionText": "يمكن كتابة التعليمات البرمجية بدون خادم فقط بلغة JavaScript و COBOL:",
+						"answerOptions": [
+							{
+								"answerText": "False",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "True",
+								"isCorrect": "false"
+							}
+						]
+					},
+					{
+						"questionText": "عند نشر تطبيق Functions على السحابة ، تحتاج إلى إنشاء ونشر:",
+						"answerOptions": [
+							{
+								"answerText": "تطبيق وظائف فقط",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "تطبيق وظائف وحساب تخزين فقط",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "تطبيق الوظائف وحساب التخزين وإعدادات التطبيق",
+								"isCorrect": "frue"
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": 19,
+				"title": "الدرس 10 - حافظ على مصنعك آمنًا: اختبار ما قبل المحاضرة",
+				"quiz": [
+					{
+						"questionText": "أجهزة إنترنت الأشياء آمنة دائمًا",
+						"answerOptions": [
+							{
+								"answerText": "True",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "False",
+								"isCorrect": "true"
+							}
+						]
+					},
+					{
+						"questionText": "لا توجد حالات موثقة للمتسللين الذين يستخدمون جهاز إنترنت الأشياء لاختراق الشبكة:",
+						"answerOptions": [
+							{
+								"answerText": "True",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "False",
+								"isCorrect": "true"
+							}
+						]
+					},
+					{
+						"questionText": "يمكنك مشاركة سلسلة اتصال جهاز إنترنت الأشياء الخاص بك مع أي شخص",
+						"answerOptions": [
+							{
+								"answerText": "True",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "False",
+								"isCorrect": "true"
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": 20,
+				"title": "الدرس 10 - حافظ على مصنعك آمنًا: اختبار ما بعد المحاضرة",
+				"quiz": [
+					{
+						"questionText": "يقارن تشفير المفتاح المتماثل بتشفير ky غير المتماثل بالطرق التالية:",
+						"answerOptions": [
+							{
+								"answerText": "تشفير المفتاح المتماثل أبطأ من غير المتماثل",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "يعد تشفير المفتاح المتماثل أكثر أمانًا من التشفير غير المتماثل",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "تشفير المفتاح المتماثل أسرع من التشفير غير المتماثل ، ولكنه أقل أمانًا",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "يعد تشفير المفتاح المتماثل أبطأ من التشفير غير المتماثل ، ولكنه أكثر أمانًا",
+								"isCorrect": "false"
+							}
+						]
+					},
+					{
+						"questionText": "تعتبر شهادات X.509 الموقعة ذاتيًا مثالية لبيئة الإنتاج",
+						"answerOptions": [
+							{
+								"answerText": "True",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "False",
+								"isCorrect": "true"
+							}
+						]
+					},
+					{
+						"questionText": "شهادات X.509:",
+						"answerOptions": [
+							{
+								"answerText": "لا ينبغي أبدًا مشاركتها بين أجهزة إنترنت الأشياء",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "يمكن مشاركتها بين الأجهزة",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "يجب أن تظل آمنة ولا تستخدم من قبل أي أجهزة",
+								"isCorrect": "false"
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+]
