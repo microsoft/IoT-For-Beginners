@@ -2,7 +2,7 @@
 
 Many farmers grow food to sell - either they are commercial farmers who sell everything they grow, or they are subsistence farmers who sell their excess produce to buy necessities. Somehow the food has to get from the farm to the consumer, and this usually relies on bulk transport from farms, to hubs or processing plants, then to stores. For example, a tomato farmer will harvest tomatoes, pack them into boxes, load the boxes into a truck then deliver to a processing plant. The tomatoes will then be sorted, and from there delivered to the consumers in the form of processed food, retail sales, or consumed at restaurants.
 
-IoT can help with this supply chain by tracking the food in transit - ensuring drivers are going where they should, monitoring vehicle locations, and getting alerts when vehicles arrive so that food can be unloaded, and ready for processing as soon as possible.
+IoT can help with this supply chain by tracking the food in transit - ensuring drivers are going where they should, monitoring vehicle locations, and getting alerts when vehicles arrive so that food can be unloaded, and be ready for processing as soon as possible.
 
 > 🎓 A *supply chain* is the sequence of activities to make and deliver something. For example, in tomato farming it covers seed, soil, fertilizer and water supply, growing tomatoes, delivering tomatoes to a central hub, transporting them to a supermarket's local hub, transporting to the individual supermarket, being put out on display, then sold to a consumer and taken home to eat. Each step is like the links in a chain.
 
