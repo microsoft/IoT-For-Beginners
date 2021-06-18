@@ -198,7 +198,7 @@ Configure a Python virtual environment and install the MQTT pip packages.
         source ./.venv/bin/activate
         ```
 
-1. Once the virtual environment has been activated, the default `python` command will run the version of Python that was used to create the virtual environment. Run the following to get this version:
+1. Once the virtual environment has been activated, the default `python` command will run the version of Python that was used to create the virtual environment. Run the following to get the version:
 
     ```sh
     python --version

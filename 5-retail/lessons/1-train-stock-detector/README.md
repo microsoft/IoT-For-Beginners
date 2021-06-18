@@ -1,4 +1,4 @@
-# Support multiple languages
+# Train a stock detector
 
 Add a sketchnote if possible/appropriate
 
@@ -6,7 +6,7 @@ Add a sketchnote if possible/appropriate
 
 ## Pre-lecture quiz
 
-[Pre-lecture quiz](https://brave-island-0b7c7f50f.azurestaticapps.net/quiz/47)
+[Pre-lecture quiz](https://brave-island-0b7c7f50f.azurestaticapps.net/quiz/37)
 
 ## Introduction
 
@@ -24,7 +24,7 @@ In this lesson we'll cover:
 
 ## Post-lecture quiz
 
-[Post-lecture quiz](https://brave-island-0b7c7f50f.azurestaticapps.net/quiz/48)
+[Post-lecture quiz](https://brave-island-0b7c7f50f.azurestaticapps.net/quiz/38)
 
 ## Review & Self Study
 
