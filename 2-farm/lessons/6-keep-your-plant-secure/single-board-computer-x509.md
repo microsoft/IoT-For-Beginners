@@ -47,8 +47,10 @@ The next step is to connect your device to IoT Hub using the X.509 certificates.
     ```
 
     This will connect using the X.509 certificate instead of a connection string.
+    
+1. Delete the line with `connection_string` variable.
 
-1, RUn your code. Monitor the messages sent to IoT Hub, and send direct method requests as before. You will see the device connecting and sending soil moisture readings, as well as receiving direct method requests.
+1. Run your code. Monitor the messages sent to IoT Hub, and send direct method requests as before. You will see the device connecting and sending soil moisture readings, as well as receiving direct method requests.
 
 > 💁 You can find this code in the [code/pi](code/pi) or [code/virtual-device](code/virtual-device) folder.
 
