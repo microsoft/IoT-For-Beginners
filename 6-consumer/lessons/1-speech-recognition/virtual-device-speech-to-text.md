@@ -45,9 +45,9 @@ On Windows, Linux, and macOS, the speech services Python SDK can be used to list
     location = '<location>'
     language = '<language>'
 
-    speech_config = SpeechConfig(subscription=api_key,
-                                 region=location,
-                                 speech_recognition_language=language)
+    recognizer_config = SpeechConfig(subscription=api_key,
+                                     region=location,
+                                     speech_recognition_language=language)
     ```
 
     Replace `<key>` with the API key for your speech service. Replace `<location>` with the location you used when you created the speech service resource.
@@ -59,7 +59,7 @@ On Windows, Linux, and macOS, the speech services Python SDK can be used to list
 1. Add the following code to create a speech recognizer:
 
     ```python
-    recognizer = SpeechRecognizer(speech_config=speech_config)
+    recognizer = SpeechRecognizer(speech_config=recognizer_config)
     ```
 
 1. The speech recognizer runs on a background thread, listening for audio and converting any speech in it to text. You can get the text using a callback function - a function you define and pass to the recognizer. Every time speech is detected, the callback is called. Add the following code to define a callback that prints the text to the console, and pass this callback to the recognizer:

@@ -28,16 +28,16 @@ def main(events: List[func.EventHubEvent]):
         if prediction_response.prediction.top_intent == 'set timer':
             numbers = prediction_response.prediction.entities['number']
             time_units = prediction_response.prediction.entities['time unit']
-            total_time = 0
+            total_seconds = 0
 
             for i in range(0, len(numbers)):
                 number = numbers[i]
                 time_unit = time_units[i][0]
 
                 if time_unit == 'minute':
-                    total_time += number * 60
+                    total_seconds += number * 60
                 else:
-                    total_time += number
+                    total_seconds += number
 
-            logging.info(f'Timer required for {total_time} seconds')
+            logging.info(f'Timer required for {total_seconds} seconds')
 
