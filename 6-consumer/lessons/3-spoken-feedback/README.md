@@ -26,6 +26,18 @@ In this lesson we'll cover:
 
 ## Text to speech
 
+
+
+
+
+
+
+
+
+
+
+
+
 ## Set the timer
 
 The timer can be set by sending a command from the serverless code, instructing the IoT device to set the timer. This command will contain the time in seconds till the timer needs to go off.
@@ -38,11 +50,11 @@ The timer can be set by sending a command from the serverless code, instructing 
 
     You will need to set up the connection string for the IoT Hub with the service policy (*NOT* the device) in your `local.settings.json` file and add the `azure-iot-hub` pip package to your `requirements.txt` file. The device ID can be extracted from the event.
 
-1. The direct method you send needs to be called `set-timer`, and will need to send the length of the timer as a JSON property called `time`. Use the following code to build the `CloudToDeviceMethod` using the `total_time` calculated from the data extracted by LUIS:
+1. The direct method you send needs to be called `set-timer`, and will need to send the length of the timer as a JSON property called `seconds`. Use the following code to build the `CloudToDeviceMethod` using the `total_seconds` calculated from the data extracted by LUIS:
 
     ```python
     payload = {
-        'time': total_time
+        'seconds': total_seconds
     }
     direct_method = CloudToDeviceMethod(method_name='set-timer', payload=json.dumps(payload))
     ```
@@ -60,11 +72,16 @@ The timer can be set by sending a command from the serverless code, instructing 
 * [Arduino - Wio Terminal](wio-terminal-set-timer.md)
 * [Single-board computer - Raspberry Pi/Virtual IoT device](single-board-computer-set-timer.md)
 
-> 💁 You can find this code in the [code-command/wio-terminal](code-command/wio-terminal), [code-command/virtual-device](code-command/virtual-device), or [code-command/pi](code-command/pi) folder.
-
 ## Convert text to speech
 
-The same speech service you used to convert speech to text can be used to convert text back into speech, and this can be played through a microphone on your IoT device.
+The same speech service you used to convert speech to text can be used to convert text back into speech, and this can be played through a speaker on your IoT device.
+
+Voices, neural, others
+
+SSML
+
+
+
 
 ### Task - convert text to speech
 

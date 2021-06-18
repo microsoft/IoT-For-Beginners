@@ -347,7 +347,7 @@ Once published, the LUIS model can be called from code. In the last lesson you s
     if prediction_response.prediction.top_intent == 'set timer':
         numbers = prediction_response.prediction.entities['number']
         time_units = prediction_response.prediction.entities['time unit']
-        total_time = 0
+        total_seconds = 0
     ```
 
     The `number` entities wil be an array of numbers. For example, if you said *"Set a four minute 17 second timer."*, then the `number` array will contain 2 integers - 4 and 17.
@@ -392,15 +392,15 @@ Once published, the LUIS model can be called from code. In the last lesson you s
 
     ```python
     if time_unit == 'minute':
-        total_time += number * 60
+        total_seconds += number * 60
     else:
-        total_time += number
+        total_seconds += number
     ```
 
 1. Finally, outside this loop through the entities, log the total time for the timer:
 
     ```python
-    logging.info(f'Timer required for {total_time} seconds')
+    logging.info(f'Timer required for {total_seconds} seconds')
     ```
 
 1. Run the function app and speak into your IoT device. You will see the total time for the timer in the function app output:
