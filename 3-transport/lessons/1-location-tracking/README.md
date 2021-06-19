@@ -10,13 +10,13 @@ Add a sketchnote if possible/appropriate
 
 ## Introduction
 
-The main process for getting food from a farmer to a consumer involves loading boxes of produce on to trucks, ships, airplanes, or other commercial transport vehicles, and delivering the food somewhere - either direct to a customer, or to a central hub or warehouse for processing. The whole end-to-end process from farm to consumer is part of a process called the *supply chain*. The video below from Arizona State University's W. P. Carey School of Business talks about the idea of the supply chain and how it is managed in more detail.
+The main process for getting food from a farmer to a consumer involves loading boxes of produce on to trucks, ships, airplanes, or other commercial transport vehicles, and delivering the food somewhere - either directly to a customer, or to a central hub or warehouse for processing. The whole end-to-end process from farm to consumer is part of a process called the *supply chain*. The video below from Arizona State University's W. P. Carey School of Business talks about the idea of the supply chain and how it is managed in more detail.
 
 [![What is Supply Chain Management? A video from Arizona State University's W. P. Carey School of Business](https://img.youtube.com/vi/Mi1QBxVjZAw/0.jpg)](https://www.youtube.com/watch?v=Mi1QBxVjZAw)
 
 Adding IoT devices can drastically improve your supply chain, allowing you to manage where items are, plan transport and goods handling better, and respond quicker to problems.
 
-When managing a fleet of vehicles such as trucks, it is helpful to know where each vehicle is at a given time. Vehicles can be fitted with GPS sensors that send their location to IoT systems, allowing the owners to pinpoint their location, see the route they have taken, and know when they will arrive at their destination. Most vehicles operate outside of WiFi coverage, so they use cellular networks to send this kind of data. Sometimes the GPS sensor is built into more complex IoT devices such as electronic log books. These devices track how long a truck has been driven for to ensure drivers are in compliance with local laws on working hours.
+When managing a fleet of vehicles such as trucks, it is helpful to know where each vehicle is at a given time. Vehicles can be fitted with GPS sensors that send their location to IoT systems, allowing the owners to pinpoint their location, see the route they have taken, and know when they will arrive at their destination. Most vehicles operate outside of WiFi coverage, so they use cellular networks to send this kind of data. Sometimes the GPS sensor is built into more complex IoT devices such as electronic log books. These devices track how long a truck has been in transit to ensure drivers are in compliance with local laws on working hours.
 
 In this lesson you will learn how to track a vehicles location using a Global Positioning System (GPS) sensor.
 
@@ -53,11 +53,11 @@ The core component of vehicle tracking is GPS - sensors that can pinpoint their 
 
 ## Geospatial coordinates
 
-Geospatial coordinates are used to define points on the Earth's surface, similar to how coordinates can be used to draw to a pixel on a computer screen or position stitches in cross stitch. For a single point, you have a pair of coordinates. For example, the Microsoft Campus in Redmond, Washington, USA is located at 47.6423109,-122.1390293.
+Geospatial coordinates are used to define points on the Earth's surface, similar to how coordinates can be used to draw to a pixel on a computer screen or position stitches in cross stitch. For a single point, you have a pair of coordinates. For example, the Microsoft Campus in Redmond, Washington, USA is located at 47.6423109, -122.1390293.
 
 ### Latitude and longitude
 
-The Earth is a sphere - a three-dimensional circle. Because of this, points are defined is by dividing it into 360 degrees, the same as the geometry of circles. Latitude measures the number of degrees north to south, longitude measures the number of degrees east to west.
+The Earth is a sphere - a three-dimensional circle. Because of this, points are defined by dividing it into 360 degrees, the same as the geometry of circles. Latitude measures the number of degrees north to south, longitude measures the number of degrees east to west.
 
 > 💁 No-one really knows the original reason why circles are divided into 360 degrees. The [degree (angle) page on Wikipedia](https://wikipedia.org/wiki/Degree_(angle)) covers some of the possible reasons.
 
@@ -178,7 +178,7 @@ Rather than use the raw NMEA data, it is better to decode it into a more useful 
 
 ### Task - decode GPS sensor data
 
-Work through the relevant guide to measure soil moisture using your IoT device:
+Work through the relevant guide to decode GPS sensor data using your IoT device:
 
 * [Arduino - Wio Terminal](wio-terminal-gps-decode.md)
 * [Single-board computer - Raspberry Pi/Virtual IoT device](single-board-computer-gps-decode.md)

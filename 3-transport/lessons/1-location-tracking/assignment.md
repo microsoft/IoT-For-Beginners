@@ -6,7 +6,7 @@ The NMEA sentences that come from your GPS sensor have other data in addition to
 
 For example - can you get the current date and time? If you are using a microcontroller, can you set the clock using GPS data in the same way you set is using NTP signals in the previous project? Can you get elevation (your height above sea level), or your current speed?
 
-If you are using a virtual IoT device, then you can get some of this data by sending MENA sentences generated using tools [nmeagen.org](https://www.nmeagen.org).
+If you are using a virtual IoT device, then you can get some of this data by sending NMEA sentences generated using tools [nmeagen.org](https://www.nmeagen.org).
 
 ## Rubric
 
