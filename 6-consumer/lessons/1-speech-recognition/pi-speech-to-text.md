@@ -91,7 +91,7 @@ The audio can be sent to the speech service using the REST API. To use the speec
     print(text)
     ```
 
-1. Run the code. Press the button and speak into the microphone. Release the button when you are done, and you will see the audio converted to text in the output.
+1. Run the code. Press the button and speak into the microphone. Release the button when you are done, and the audio will be converted to text and printed to the console.
 
     ```output
     pi@raspberrypi:~/smart-timer $ python3 app.py 

@@ -83,7 +83,7 @@ Program the nightlight.
 
 1. Reconnect the Wio Terminal to your computer, and upload the new code as you did before.
 
-1. Connect the Serial Monitor. You should see light values being output to the terminal.
+1. Connect the Serial Monitor. Light values will be output to the terminal.
 
     ```output
     > Executing task: platformio device monitor <
