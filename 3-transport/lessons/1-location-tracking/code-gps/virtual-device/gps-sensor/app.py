@@ -6,14 +6,14 @@ import counterfit_shims_serial
 
 serial = counterfit_shims_serial.Serial('/dev/ttyAMA0')
 
-def printGPSData(line):
+def print_gps_data(line):
     print(line.rstrip())
 
 while True:
     line = serial.readline().decode('utf-8')
 
     while len(line) > 0:
-        printGPSData(line)
+        print_gps_data(line)
         line = serial.readline().decode('utf-8')
 
     time.sleep(1)

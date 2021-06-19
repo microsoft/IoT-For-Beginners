@@ -2,15 +2,14 @@ from counterfit_connection import CounterFitConnection
 CounterFitConnection.init('127.0.0.1', 5000)
 
 import time
-from counterfit_shims_grove.adc import ADC
-from counterfit_shims_grove.grove_relay import GroveRelay
+import counterfit_shims_serial
+import pynmea2
 import json
-from azure.iot.device import IoTHubDeviceClient, Message, MethodResponse
+from azure.iot.device import IoTHubDeviceClient, Message
 
 connection_string = '<connection_string>'
 
-adc = ADC()
-relay = GroveRelay(5)
+serial = counterfit_shims_serial.Serial('/dev/ttyAMA0')
 
 device_client = IoTHubDeviceClient.create_from_connection_string(connection_string)
 
@@ -18,24 +17,28 @@ print('Connecting')
 device_client.connect()
 print('Connected')
 
-def handle_method_request(request):
-    print("Direct method received - ", request.name)
-    
-    if request.name == "relay_on":
-        relay.on()
-    elif request.name == "relay_off":
-        relay.off()
+def send_gps_data(line):
+    msg = pynmea2.parse(line)
+    if msg.sentence_type == 'GGA':
+        lat = pynmea2.dm_to_sd(msg.lat)
+        lon = pynmea2.dm_to_sd(msg.lon)
 
-    method_response = MethodResponse.create_from_method_request(request, 200)
-    device_client.send_method_response(method_response)
+        if msg.lat_dir == 'S':
+            lat = lat * -1
 
-device_client.on_method_request_received = handle_method_request
+        if msg.lon_dir == 'W':
+            lon = lon * -1
+
+        message_json = { "gps" : { "lat":lat, "lon":lon } }
+        print("Sending telemetry", message_json)
+        message = Message(json.dumps(message_json))
+        device_client.send_message(message)
 
 while True:
-    soil_moisture = adc.read(0)
-    print("Soil moisture:", soil_moisture)
+    line = serial.readline().decode('utf-8')
 
-    message = Message(json.dumps({ 'soil_moisture': soil_moisture }))
-    device_client.send_message(message)
+    while len(line) > 0:
+        send_gps_data(line)
+        line = serial.readline().decode('utf-8')
 
-    time.sleep(10)
+    time.sleep(60)
