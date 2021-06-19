@@ -5,11 +5,11 @@ api_key = '<key>'
 location = '<location>'
 language = '<language>'
 
-speech_config = SpeechConfig(subscription=api_key,
-                             region=location,
-                             speech_recognition_language=language)
+recognizer_config = SpeechConfig(subscription=api_key,
+                                 region=location,
+                                 speech_recognition_language=language)
 
-recognizer = SpeechRecognizer(speech_config=speech_config)
+recognizer = SpeechRecognizer(speech_config=recognizer_config)
 
 def recognized(args):
     print(args.result.text)

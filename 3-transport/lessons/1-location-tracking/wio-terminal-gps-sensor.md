@@ -22,15 +22,15 @@ Connect the GPS sensor.
 
 1. Insert one end of a Grove cable into the socket on the GPS sensor. It will only go in one way round.
 
-1. With the Wio Terminal disconnected from your computer or other power supply, connect the other end of the Grove cable to the left-hand side Grove socket on the Wio Terminal as you look at the screen. This is the socket closest to from the power button.
+1. With the Wio Terminal disconnected from your computer or other power supply, connect the other end of the Grove cable to the left-hand side Grove socket on the Wio Terminal as you look at the screen. This is the socket closest to the power button.
 
-![The grove GPS sensor connected to the left hand socket](../../../images/wio-gps-sensor.png)
+    ![The grove GPS sensor connected to the left hand socket](../../../images/wio-gps-sensor.png)
 
 1. Position the GPS sensor so that the attached antenna has visibility to the sky - ideally next to an open window or outside. It's easier to get a clearer signal with nothing in the way of the antenna.
 
 1. You can now connect the Wio Terminal to your computer.
 
-1. The GPS sensor has 2 LEDs - a blue LED that flashes when data is transmitted, and a green LED that flashes every second when receiving data from satellites. Ensure the blue LED is flashing when you power up the Pi. After a few minutes the green LED will flash - if not, you may need to reposition the antenna.
+1. The GPS sensor has 2 LEDs - a blue LED that flashes when data is transmitted, and a green LED that flashes every second when receiving data from satellites. Ensure the blue LED is flashing when you power up the Wio Terminal. After a few minutes the green LED will flash - if not, you may need to reposition the antenna.
 
 ## Program the GPS sensor
 

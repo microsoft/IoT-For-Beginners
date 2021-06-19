@@ -5,17 +5,10 @@ import time
 import counterfit_shims_serial
 import pynmea2
 import json
-from azure.iot.device import IoTHubDeviceClient, Message
 
 connection_string = '<connection_string>'
 
 serial = counterfit_shims_serial.Serial('/dev/ttyAMA0')
-
-device_client = IoTHubDeviceClient.create_from_connection_string(connection_string)
-
-print('Connecting')
-device_client.connect()
-print('Connected')
 
 def send_gps_data(line):
     msg = pynmea2.parse(line)
@@ -29,10 +22,7 @@ def send_gps_data(line):
         if msg.lon_dir == 'W':
             lon = lon * -1
 
-        message_json = { "gps" : { "lat":lat, "lon":lon } }
-        print("Sending telemetry", message_json)
-        message = Message(json.dumps(message_json))
-        device_client.send_message(message)
+        print(f'{lat},{lon} - from {msg.num_sats} satellites')
 
 while True:
     line = serial.readline().decode('utf-8')
@@ -41,4 +31,4 @@ while True:
         send_gps_data(line)
         line = serial.readline().decode('utf-8')
 
-    time.sleep(60)
+    time.sleep(1)

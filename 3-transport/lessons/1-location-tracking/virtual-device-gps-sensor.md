@@ -77,28 +77,28 @@ Program the GPS sensor app.
 1. Add the following code below this to read from the serial port and print the values to the console:
 
     ```python
-    def printGPSData(line):
+    def print_gps_data(line):
         print(line.rstrip())
     
     while True:
         line = serial.readline().decode('utf-8')
     
         while len(line) > 0:
-            printGPSData(line)
+            print_gps_data(line)
             line = serial.readline().decode('utf-8')
     
         time.sleep(1)
     ```
 
-    A function called `printGPSData` is defined that prints out the line passed to it to the console.
+    A function called `print_gps_data` is defined that prints out the line passed to it to the console.
 
-    Next the code loops forever, reading as many lines of text as it can from the serial port in each loop. It calls the `printGPSData` function for each line.
+    Next the code loops forever, reading as many lines of text as it can from the serial port in each loop. It calls the `print_gps_data` function for each line.
 
     After all the data has been read, the loop sleeps for 1 second, then tries again.
 
 1. Run this code, ensuring you are using a different terminal to the one that the CounterFit app is running it, so that the CounterFit app remains running.
 
-1. From the CounterFit app, change the value of the gps sensor. You can do this in one of thess ways:
+1. From the CounterFit app, change the value of the gps sensor. You can do this in one of these ways:
 
     * Set the **Source** to `Lat/Lon`, and set an explicit latitude, longitude and number of satellites used to get the GPS fix. This value will be sent only once, so check the **Repeat** box to have the data repeat every second.
 
