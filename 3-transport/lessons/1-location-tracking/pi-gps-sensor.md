@@ -24,7 +24,7 @@ Connect the GPS sensor.
 
 1. With the Raspberry Pi powered off, connect the other end of the Grove cable to the UART socket marked **UART** on the Grove Base hat attached to the Pi. This socket is on the middle row, on the side nearest the SD Card slot, the other end from the USB ports and ethernet socket.
 
-![The grove GPS sensor connected to the UART socket](../../../images/pi-gps-sensor.png)
+    ![The grove GPS sensor connected to the UART socket](../../../images/pi-gps-sensor.png)
 
 1. Position the GPS sensor so that the attached antenna has visibility to the sky - ideally next to an open window or outside. It's easier to get a clearer signal with nothing in the way of the antenna.
 
@@ -42,7 +42,7 @@ Program the device.
 
 1. Launch VS Code, either directly on the Pi, or connect via the Remote SSH extension.
 
-    > ⚠️ You can refer to [the instructions for setting up and launch VS Code in lesson 1 if needed](../../../1-getting-started/lessons/1-introduction-to-iot/pi.md).
+    > ⚠️ You can refer to [the instructions for setting up and launching VS Code in lesson 1 if needed](../../../1-getting-started/lessons/1-introduction-to-iot/pi.md).
 
 1. With newer versions of the Raspberry Pi that support Bluetooth, there is a conflict between the serial port used for Bluetooth, and the one used by the Grove UART port. To fix this, do the following:
 
