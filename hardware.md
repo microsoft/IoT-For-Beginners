@@ -46,7 +46,7 @@ All the device code for Raspberry Pi is in Python. To complete all the assignmen
 
 These are specific to using the Raspberry Pi, and are not relevant to using the Arduino device.
 
-* [Grove Pi base hat](https://wiki.seeedstudio.com/Grove_Base_Hat_for_Raspberry_Pi)
+* [Grove Pi base hat](https://www.seeedstudio.com/Grove-Base-Hat-for-Raspberry-Pi.html)
 * [Raspberry Pi Camera module](https://www.raspberrypi.org/products/camera-module-v2/)
 * Microphone and speaker:
 
