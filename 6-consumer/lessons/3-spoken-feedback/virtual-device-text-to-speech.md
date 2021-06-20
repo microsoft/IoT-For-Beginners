@@ -10,6 +10,8 @@ Each language supports a range of different voices, and you can get the list of 
 
 ### Task - convert text to speech
 
+1. Open the `smart-timer` project in VS Code, and ensure the virtual environment is loaded in the terminal.
+
 1. Import the `SpeechSynthesizer` from the `azure.cognitiveservices.speech` package by adding it to the existing imports:
 
     ```python
@@ -19,7 +21,7 @@ Each language supports a range of different voices, and you can get the list of 
 1. Above the `say` function, create a speech configuration to use with the speech synthesizer:
 
     ```python
-    speech_config = SpeechConfig(subscription=api_key,
+    speech_config = SpeechConfig(subscription=speech_api_key,
                                  region=location)
     speech_config.speech_synthesis_language = language
     speech_synthesizer = SpeechSynthesizer(speech_config=speech_config)
