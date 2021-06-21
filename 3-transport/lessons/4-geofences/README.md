@@ -6,6 +6,8 @@ This video gives an overview of geofences and how to use them in Azure Maps, top
 
 [![Geofencing with Azure Maps from the Microsoft Developer IoT show](https://img.youtube.com/vi/nsrgYhaYNVY/0.jpg)](https://www.youtube.com/watch?v=nsrgYhaYNVY)
 
+> 🎥 Click the image above to watch a video
+
 ## Pre-lecture quiz
 
 [Pre-lecture quiz](https://brave-island-0b7c7f50f.azurestaticapps.net/quiz/27)

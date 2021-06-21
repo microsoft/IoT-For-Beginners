@@ -6,6 +6,8 @@ This video gives an overview of running image classifiers on IoT devices, the to
 
 [![Custom Vison AI on Azure IoT Edge](https://img.youtube.com/vi/_K5fqGLO8us/0.jpg)](https://www.youtube.com/watch?v=_K5fqGLO8us)
 
+> 🎥 Click the image above to watch a video
+
 ## Pre-lecture quiz
 
 [Pre-lecture quiz](https://brave-island-0b7c7f50f.azurestaticapps.net/quiz/33)
