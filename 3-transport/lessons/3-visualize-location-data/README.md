@@ -43,7 +43,7 @@ Your first step is to create an Azure Maps account. The easiest way to do this i
 1. On the Create Azure Maps Account page, enter:
 
    - Your subscription in the dropdown box.
-   - A Resource group to use (create a new one if needed)
+   - A Resource group to use (use 'gps-sensor' as you have done throughout these lessons)
    - Add a name for your account
    - Choose a Pricing tier. The Pricing tier for this account. S0 will work for this small project.
 
@@ -117,7 +117,7 @@ If you open your index.html page in a web browser, you should see a map loaded, 
 
 Now that you have your web app in place with the map displaying, you need to extract GPS data from your storage and display it in a layer of markers on top of the map. Before we do that, let's look at the [GeoJSON](https://wikipedia.org/wiki/GeoJSON) format that is required by Azure Maps. 
 
-[GeoJSON](https://geojson.org/) is an open standard JSON specification with special formatting designed to hande geographic-specific data. You can learn about it by testing sample data using [geojson.io](geojson.io), which is also a useful tool to debug GeoJSON files. 
+[GeoJSON](https://geojson.org/) is an open standard JSON specification with special formatting designed to handle geographic-specific data. You can learn about it by testing sample data using [geojson.io](geojson.io), which is also a useful tool to debug GeoJSON files. 
 
 Sample GeoJSON data looks like this:
 
@@ -146,11 +146,22 @@ Of particular interest is the way the data is nested as a 'FeatureCollection'. W
 
 Now you are ready to consume data from the storage that you built in the previous lesson. As a reminder, it is stored as a number of files in blob storage so you will need to retrieve the files and parse them so that Azure Maps can use the data. 
 
+If you make a call to your storage to fetch the data you might be surprised to see errors occurring in your browser's console. That's because you need to set permissions for [CORS](https://developer.mozilla.org/docs/Web/HTTP/CORS) on this storage to allow external web apps to read its data. CORS stands for "Cross-Origin Resource Sharing" and usually needs to be set explicitly in Azure for security reasons. Do this using the Azure CLI, adding the name of your storage container and its key. We only need to 'GET' data from this container:
+
+```dotnetcli
+az storage cors add --methods GET \
+                    --origins "*" \
+                    --services b \
+                    --account-name <storage_name> \
+                    --account-key <key1>
+```
+
+TODO - fetch call explanation
 ---
 
 ## 🚀 Challenge
 
-It's nice to be able to display static data on a map as markers. Can you enhance this web app to add animation and show the path of the markers over time, using the timestamped json files?
+It's nice to be able to display static data on a map as markers. Can you enhance this web app to add animation and show the path of the markers over time, using the timestamped json files? Here are some samples of using animation 
 
 ## Post-lecture quiz
 
