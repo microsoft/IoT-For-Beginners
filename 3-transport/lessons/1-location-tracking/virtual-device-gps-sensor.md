@@ -77,22 +77,22 @@ Program the GPS sensor app.
 1. Add the following code below this to read from the serial port and print the values to the console:
 
     ```python
-    def printGPSData(line):
+    def print_gps_data(line):
         print(line.rstrip())
     
     while True:
         line = serial.readline().decode('utf-8')
     
         while len(line) > 0:
-            printGPSData(line)
+            print_gps_data(line)
             line = serial.readline().decode('utf-8')
     
         time.sleep(1)
     ```
 
-    A function called `printGPSData` is defined that prints out the line passed to it to the console.
+    A function called `print_gps_data` is defined that prints out the line passed to it to the console.
 
-    Next the code loops forever, reading as many lines of text as it can from the serial port in each loop. It calls the `printGPSData` function for each line.
+    Next the code loops forever, reading as many lines of text as it can from the serial port in each loop. It calls the `print_gps_data` function for each line.
 
     After all the data has been read, the loop sleeps for 1 second, then tries again.
 

@@ -24,7 +24,7 @@ Program the device to decode the GPS data.
     import pynmea2
     ```
 
-1. Replace the contents of the `printGPSData` function with the following:
+1. Replace the contents of the `print_gps_data` function with the following:
 
     ```python
     msg = pynmea2.parse(line)
