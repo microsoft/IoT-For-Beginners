@@ -294,7 +294,7 @@ The data will be saved as a JSON blob with the following format:
     blob_name = f'{device_id}/{str(uuid.uuid1())}.json'
     ```
 
-    This code gets the device ID from the event metadata, then uses it to create a blob name. Blobs can be stored in folders, and device ID will be used for the folder name, so each device will have all it's GPS events in one folder. The blob name is this folder, followed by a document name, separated with forward slashes, similar to Linux and macOS paths (similar to Windows as well, but Windows uses back slashes). The document name is a unique ID generated using the Python `uuid` module, with the file type of `json`.
+    This code gets the device ID from the event metadata, then uses it to create a blob name. Blobs can be stored in folders, and device ID will be used for the folder name, so each device will have all its GPS events in one folder. The blob name is this folder, followed by a document name, separated with forward slashes, similar to Linux and macOS paths (similar to Windows as well, but Windows uses back slashes). The document name is a unique ID generated using the Python `uuid` module, with the file type of `json`.
 
     For example, for the `gps-sensor` device ID, the blob name might be `gps-sensor/a9487ac2-b9cf-11eb-b5cd-1e00621e3648.json`.
 
