@@ -86,31 +86,6 @@ The speech service can take speech and not only convert to text in the same lang
 
 The speech service doesn't support translation pf text back to speech, instead you can use the Translator service to translate the text. This service has a REST API you can use to translate the text.
 
-### Task - create a translator resource
-
-1. From your terminal, run the following command to create a translator resource in your `smart-timer` resource group.
-
-    ```sh
-    az cognitiveservices account create --name smart-timer-translator \
-                                        --resource-group smart-timer \
-                                        --kind TextTranslation \
-                                        --sku F0 \
-                                        --yes \
-                                        --location <location>
-    ```
-
-    Replace `<location>` with the location you used when creating the Resource Group.
-
-1. Get the key for the translator service:
-
-    ```sh
-    az cognitiveservices account keys list --name smart-timer-translator \
-                                           --resource-group smart-timer \
-                                           --output table
-    ```
-
-    Take a copy of one of the keys.
-
 ### Task - use the translator resource to translate text
 
 1. Add the translator API key below the `speech_api_key`:
