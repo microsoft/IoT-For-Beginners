@@ -42,7 +42,7 @@ def capture_audio():
 
     return wav_buffer
 
-api_key = '<key>'
+speech_api_key = '<key>'
 location = '<location>'
 language = '<language>'
 connection_string = '<connection_string>'
@@ -55,7 +55,7 @@ print('Connected')
 
 def get_access_token():
     headers = {
-        'Ocp-Apim-Subscription-Key': api_key
+        'Ocp-Apim-Subscription-Key': speech_api_key
     }
 
     token_endpoint = f'https://{location}.api.cognitive.microsoft.com/sts/v1.0/issuetoken'
@@ -97,7 +97,7 @@ def get_voice():
     return first_voice['ShortName']
 
 voice = get_voice()
-print(f"Using voice {voice}")
+print(f'Using voice {voice}')
 
 playback_format = 'riff-48khz-16bit-mono-pcm'
 
@@ -143,10 +143,10 @@ def say(text):
 def announce_timer(minutes, seconds):
     announcement = 'Times up on your '
     if minutes > 0:
-        announcement += f'{minutes} minute'
+        announcement += f'{minutes} minute '
     if seconds > 0:
-        announcement += f'{seconds} second'
-    announcement += ' timer.'
+        announcement += f'{seconds} second '
+    announcement += 'timer.'
     say(announcement)
 
 def create_timer(total_seconds):
@@ -154,10 +154,10 @@ def create_timer(total_seconds):
     threading.Timer(total_seconds, announce_timer, args=[minutes, seconds]).start()
     announcement = ''
     if minutes > 0:
-        announcement += f'{minutes} minute'
+        announcement += f'{minutes} minute '
     if seconds > 0:
-        announcement += f'{seconds} second'    
-    announcement += ' timer started.'
+        announcement += f'{seconds} second '
+    announcement += 'timer started.'
     say(announcement)
 
 def handle_method_request(request):    

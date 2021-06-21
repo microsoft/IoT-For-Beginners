@@ -41,7 +41,7 @@ def capture_audio():
 
     return wav_buffer
 
-api_key = '<key>'
+speech_api_key = '<key>'
 location = '<location>'
 language = '<language>'
 connection_string = '<connection_string>'
@@ -54,7 +54,7 @@ print('Connected')
 
 def get_access_token():
     headers = {
-        'Ocp-Apim-Subscription-Key': api_key
+        'Ocp-Apim-Subscription-Key': speech_api_key
     }
 
     token_endpoint = f'https://{location}.api.cognitive.microsoft.com/sts/v1.0/issuetoken'

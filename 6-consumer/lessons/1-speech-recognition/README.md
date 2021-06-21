@@ -147,7 +147,9 @@ To avoid the complexity of training and using a wake word model, the smart timer
 
 ## Convert speech to text
 
-Just like with image classification in the last project, there are pre-built AI services that can take speech as an audio file and convert it to text. Once such service is the Speech Service, part of the Cognitive Services, pre-built AI services you can use in your apps.
+![Speech services logo](../../../images/azure-speech-logo.png)
+
+Just like with image classification in an earlier project, there are pre-built AI services that can take speech as an audio file and convert it to text. Once such service is the Speech Service, part of the Cognitive Services, pre-built AI services you can use in your apps.
 
 ### Task - configure a speech AI resource
 
