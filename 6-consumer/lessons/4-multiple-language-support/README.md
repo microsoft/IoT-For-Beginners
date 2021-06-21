@@ -6,7 +6,7 @@ This video gives an overview of the Azure speech services, covering speech to te
 
 [![Recognizing speech with a few lines of Python from Microsoft Build 2020](https://img.youtube.com/vi/h6xbpMPSGEA/0.jpg)](https://www.youtube.com/watch?v=h6xbpMPSGEA)
 
-> 🎥 Click the image above to watch a video
+> 🎥 Click the image above to watch the video
 
 ## Pre-lecture quiz
 
@@ -129,7 +129,7 @@ One example is the [Microsoft Translator](https://www.microsoft.com/translator/a
 
 [![Microsoft Translator live feature in action](https://img.youtube.com/vi/16yAGeP2FuM/0.jpg)](https://www.youtube.com/watch?v=16yAGeP2FuM)
 
-> 🎥 Click the image above to watch a video
+> 🎥 Click the image above to watch the video
 
 Imagine having such a device available to you, especially when travelling or interacting with folks whose language you don't know. Having automatic translation devices in airports or hospitals would provide much needed accessibility improvements.
 
