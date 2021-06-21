@@ -6,6 +6,8 @@ This video gives an overview of the Azure speech services, covering speech to te
 
 [![Recognizing speech with a few lines of Python from Microsoft Build 2020](https://img.youtube.com/vi/h6xbpMPSGEA/0.jpg)](https://www.youtube.com/watch?v=h6xbpMPSGEA)
 
+> 🎥 Click the image above to watch a video
+
 ## Pre-lecture quiz
 
 [Pre-lecture quiz](https://brave-island-0b7c7f50f.azurestaticapps.net/quiz/47)
