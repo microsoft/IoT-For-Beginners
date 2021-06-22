@@ -172,7 +172,7 @@ Azure Storage Accounts is a general purpose storage service that can store data 
 
 ### Blob storage
 
-The word *Blob* means binary large objects, but has become the term for any unstructured data. You can store any data in blob storage, from JSON documents containing IoT data, to image and movie files. Blob storage has the concept of *containers* named buckets, you can store data in them because they are similar to tables in a relational database. These containers can have one or more folders to store blobs, and each folder can contain other folders, similar to how files are stored on your computer hard disk.
+The word *Blob* means binary large objects, but has become the term for any unstructured data. You can store any data in blob storage, from JSON documents containing IoT data, to image and movie files. Blob storage has the concept of *containers*, named buckets that you can store data in, similar to tables in a relational database. These containers can have one or more folders to store blobs, and each folder can contain other folders, similar to how files are stored on your computer hard disk.
 
 You will use blob storage in this lesson to store IoT data.
 
