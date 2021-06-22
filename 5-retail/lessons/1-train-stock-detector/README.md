@@ -38,17 +38,17 @@ Image classification is about classifying an image as a whole - what are the pro
 
 In the example above, two images are classified using a model trained to classify tubs of cashew nuts or cans of tomato paste. The first image is a tub of cashew nuts, and has two results from the image classifier:
 
-| Tag             | Probability |
-| --------------- | ----------: |
-| `cashew nuts` | 98.4%       |
-| `tomato paste`  | 1.6%        |
+| Tag            | Probability |
+| -------------- | ----------: |
+| `cashew nuts`  | 98.4%       |
+| `tomato paste` | 1.6%        |
 
 The second image is of a can of tomato paste, and the results are:
 
-| Tag             | Probability |
-| --------------- | ----------: |
-| `cashew nuts` | 0.7%        |
-| `tomato paste`  | 99.3%       |
+| Tag            | Probability |
+| -------------- | ----------: |
+| `cashew nuts`  | 0.7%        |
+| `tomato paste` | 99.3%       |
 
 You could use these value with a threshold percentage to predict what was in the image. But what if an image contained multiple cans of tomato paste, or both cashew nuts and tomato paste? The results would probably not give you what you want. This is where object detection comes in.
 
@@ -113,6 +113,8 @@ You can train an object detector using Custom Vision, in a similar way to how yo
 
     > 💁 The products on shelves domain is specifically targeted for detecting stock on store shelves.
 
+✅ Take some time to explore the Custom Vision UI for your object detector.
+
 ### Task - train your object detector
 
 To train your model you will need a set of images containing the objects you want to detect.
@@ -171,11 +173,18 @@ Every time you make a prediction using the quick test option, the image and resu
 
 ## 🚀 Challenge
 
+What would happen if you used the object detector with similar looking items, such as same brand cans of tomato paste and chopped tomatoes?
+
+If you have any similar looking items, test it out by adding images of them to your object detector.
+
 ## Post-lecture quiz
 
 [Post-lecture quiz](https://brave-island-0b7c7f50f.azurestaticapps.net/quiz/38)
 
 ## Review & Self Study
+
+* When you trained your object detector, you would have seen values for *Precision*, *Recall*, and *mAP* that rate the model that was created. Read up on what these values are using [the Evaluate the detector section of the Build an object detector quickstart on the Microsoft docs](https://docs.microsoft.com/azure/cognitive-services/custom-vision-service/get-started-build-detector?WT.mc_id=academic-17441-jabenn#evaluate-the-detector)
+* Read more about object detection on the [Object detection page on Wikipedia](https://wikipedia.org/wiki/Object_detection)
 
 ## Assignment
 

@@ -150,6 +150,8 @@ To use Custom Vision, you first need to create two cognitive services resources 
 
     ![The settings for the custom vision project with the name set to fruit-quality-detector, no description, the resource set to fruit-quality-detector-training, the project type set to classification, the classification types set to multi class and the domains set to food](../../../images/custom-vision-create-project.png)
 
+✅ Take some time to explore the Custom Vision UI for your image classifier.
+
 ### Task - train your image classifier project
 
 To train an image classifier, you will need multiple pictures of fruit, both good and bad quality to tag as good and bad, such as an ripe and an overripe banana.
