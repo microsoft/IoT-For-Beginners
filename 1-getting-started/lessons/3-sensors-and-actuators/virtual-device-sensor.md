@@ -95,7 +95,7 @@ Program the device.
 
     * Check the *Random* checkbox, and enter a *Min* and *Max* value, then select the **Set** button. Every time the sensor reads a value, it will read a random number between *Min* and *Max*.
 
-    The values you set will be output to in the console. Change the *Value* or the *Random* settings to make the value change.
+    The values you set will be output to the console. Change the *Value* or the *Random* settings to make the value change.
 
     ```output
     (.venv) ➜  GroveTest python3 app.py 

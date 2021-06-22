@@ -1,0 +1,46 @@
+<html>
+<head>
+    
+    <link rel="stylesheet" href="https://atlas.microsoft.com/sdk/javascript/mapcontrol/2/atlas.min.css" type="text/css" />
+    <script src="https://atlas.microsoft.com/sdk/javascript/mapcontrol/2/atlas.min.js"></script>
+
+    <script type='text/javascript'>
+
+        function init() {
+            fetch("https://gpssensorjimb.blob.core.windows.net/gps-data/?restype=container&comp=list")
+                .then(response => response.text())
+                .then(str => new window.DOMParser().parseFromString(str, "text/xml"))
+                .then(xml => {
+                    let blobList = Array.from(xml.querySelectorAll("Url")); //.getAttribute("Url");
+                    blobList.forEach(async blobUrl => {
+                        console.log(blobUrl);
+                    });
+        })
+        .then( response => {
+            var map = new atlas.Map('myMap', {
+                center: [-122.33, 47.6],
+                zoom: 12,
+                authOptions: {
+                    authType: "subscriptionKey",
+                    subscriptionKey: "<your-key>",
+
+                }
+            });
+        })
+    }
+    </script>
+    <style>
+        #myMap {
+            width:100%;
+            height:100%;
+        }
+    </style>
+</head>
+
+<body onload="init()">
+    <div id="myMap"></div>
+</body>
+
+
+
+</html>

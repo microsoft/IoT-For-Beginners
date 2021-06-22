@@ -22,12 +22,12 @@ The audio can be sent to the speech service using the REST API. To use the speec
 1. Add the following code above the `while True` loop to declare some settings for the speech service:
 
     ```python
-    api_key = '<key>'
+    speech_api_key = '<key>'
     location = '<location>'
     language = '<language>'
     ```
 
-    Replace `<key>` with the API key for your speech service. Replace `<location>` with the location you used when you created the speech service resource.
+    Replace `<key>` with the API key for your speech service resource. Replace `<location>` with the location you used when you created the speech service resource.
 
     Replace `<language>` with the locale name for language you will be speaking in, for example `en-GB` for English, or `zn-HK` for Cantonese. You can find a list of the supported languages and their locale names in the [Language and voice support documentation on Microsoft docs](https://docs.microsoft.com/azure/cognitive-services/speech-service/language-support?WT.mc_id=academic-17441-jabenn#speech-to-text).
 
@@ -36,7 +36,7 @@ The audio can be sent to the speech service using the REST API. To use the speec
     ```python
     def get_access_token():
         headers = {
-            'Ocp-Apim-Subscription-Key': api_key
+            'Ocp-Apim-Subscription-Key': speech_api_key
         }
     
         token_endpoint = f'https://{location}.api.cognitive.microsoft.com/sts/v1.0/issuetoken'

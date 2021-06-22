@@ -6,6 +6,8 @@ This video gives an overview of the Azure Custom Vision service, a service that 
 
 [![Custom Vision – Machine Learning Made Easy | The Xamarin Show](https://img.youtube.com/vi/TETcDLJlWR4/0.jpg)](https://www.youtube.com/watch?v=TETcDLJlWR4)
 
+> 🎥 Click the image above to watch a video
+
 ## Pre-lecture quiz
 
 [Pre-lecture quiz](https://brave-island-0b7c7f50f.azurestaticapps.net/quiz/29)
@@ -43,6 +45,8 @@ The next evolution was to use machines to sort, either built into the harvester,
 The video below shows one of these machines in action.
 
 [![Automatic sorting of tomatoes via color](https://img.youtube.com/vi/AcRL91DouAU/0.jpg)](https://www.youtube.com/watch?v=AcRL91DouAU)
+
+> 🎥 Click the image above to watch a video
 
 In this video, as tomatoes fall from one conveyer belt to another, green tomatoes are detected and flicked into a bin using levers.
 

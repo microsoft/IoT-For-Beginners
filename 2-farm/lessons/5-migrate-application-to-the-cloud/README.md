@@ -46,7 +46,7 @@ Despite the name, serverless does actually use servers. The naming is because yo
 
 As an IoT developer, the serverless model is ideal. You can write a function that is called in response to messages sent from any IoT device that is connected to your cloud-hosted IoT service. Your code will handle all messages sent, but only be running when needed.
 
-✅ Look back at the code you wrote as server code listening to messages over MQTT. As is, how might this run in the cloud using serverless? How do you think the code might be changed to support serverless computing?
+✅ Look back at the code you wrote as server code listening to messages over MQTT. How might this run in the cloud using serverless? How do you think the code might be changed to support serverless computing?
 
 > 💁 The serverless model is moving to other cloud services in addition to running code. For example, serverless databases are available in the cloud using a serverless pricing model where you pay per request made against the database, such as a query or insert, usually using pricing based on how much work is done to service the request. For example a single select of one row against a primary key will cost less than a complicated operation joining many tables and returning thousands of rows.
 
@@ -59,6 +59,8 @@ The serverless computing service from Microsoft is called Azure Functions.
 The short video below has an overview of Azure Functions
 
 [![Azure Functions overview video](https://img.youtube.com/vi/8-jz5f_JyEQ/0.jpg)](https://www.youtube.com/watch?v=8-jz5f_JyEQ)
+
+> 🎥 Click the image above to watch a video
 
 ✅ Take a moment to do some research and read the overview of Azure Functions in the [Microsoft Azure Functions documentation](https://docs.microsoft.com/azure/azure-functions/functions-overview?WT.mc_id=academic-17441-jabenn).
 
@@ -191,6 +193,23 @@ The Azure Functions CLI can be used to create a new Functions app.
     ```
 
     > ⚠️ If you get a firewall notification, grant access as the `func` application needs to be able to read and write to your network.
+
+    > ⚠️ If you are using macOS, there may be warnings in the output:
+    >
+    > ```output
+    > (.venv) ➜  soil-moisture-trigger func start
+    > Found Python version 3.9.1 (python3).
+    >
+    > Azure Functions Core Tools
+    > Core Tools Version:       3.0.3442 Commit hash: 6bfab24b2743f8421475d996402c398d2fe4a9e0  (64-bit)
+    > Function Runtime Version: 3.0.15417.0
+    >
+    > [2021-06-16T08:18:28.315Z] Cannot create directory for shared memory usage: /dev/shm/AzureFunctions
+    > [2021-06-16T08:18:28.316Z] System.IO.FileSystem: Access to the path '/dev/shm/AzureFunctions' is denied. Operation not permitted.
+    > [2021-06-16T08:18:30.361Z] No job functions found.
+    > ```
+    >
+    > You can ignore these as long as the Functions app starts correctly and lists the running functions. As mentioned in [this question on the Microsoft Docs Q&A](https://docs.microsoft.com/answers/questions/396617/azure-functions-core-tools-error-osx-devshmazurefu.html?WT.mc_id=academic-17441-jabenn) it can be ignored.
 
 1. Stop the Functions app by pressing `ctrl+c`.
 
@@ -370,7 +389,7 @@ To connect to the Registry Manager, you need a connection string.
 
     Replace `<hub_name>` with the name you used for your IoT Hub.
 
-    The connection string is requested for the *ServiceConnect* policy using the `--policy-name service` parameter. When you request a connection string, you can specify what permissions that connection string will allow. The ServiceConnect policy allows yor code to connect and send messages to IoT devices.
+    The connection string is requested for the *ServiceConnect* policy using the `--policy-name service` parameter. When you request a connection string, you can specify what permissions that connection string will allow. The ServiceConnect policy allows your code to connect and send messages to IoT devices.
 
     ✅ Do some research: Read up on the different policies in the [IoT Hub permissions documentation](https://docs.microsoft.com/azure/iot-hub/iot-hub-devguide-security#iot-hub-permissions?WT.mc_id=academic-17441-jabenn)
 

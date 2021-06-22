@@ -264,7 +264,7 @@ The data will be saved as a JSON blob with the following format:
     import json
     import os
     import uuid
-    from azure.storage.blob import BlobServiceClient
+    from azure.storage.blob import BlobServiceClient, PublicAccess
     ```
 
     The `json` system module will be used to read and write JSON, the `os` system module will be used to read the connection string, the `uuid` system module will be used to generate a unique ID for the GPS reading.
@@ -282,10 +282,12 @@ The data will be saved as a JSON blob with the following format:
             if container.name == name:
                 return blob_service_client.get_container_client(container.name)
         
-        return blob_service_client.create_container(name)
+        return blob_service_client.create_container(name, public_access=PublicAccess.Container)
     ```
 
     The Python blob SDK doesn't have a helper method to create a container if it doesn't exist. This code will load the connection string from the `local.settings.json` file (or the Application Settings once deployed to the cloud), then create a `BlobServiceClient` class from this to interact with the blob storage account. It then loops through all the containers for the blob storage account, looking for one with the provided name - if it finds one it will return a `ContainerClient` class that can interact with the container to create blobs. If it doesn't find one, then the container is created and the client for the new container is returned.
+
+    When the new container is created, public access is granted to query the blobs in the container. This will be used in the next lesson to visualize the GPS data on a map.
 
 1. Unlike with soil moisture, with this code we want to store every event, so add the following code inside the `for event in events:` loop in the `main` function, below the `logging` statement:
 
@@ -294,7 +296,7 @@ The data will be saved as a JSON blob with the following format:
     blob_name = f'{device_id}/{str(uuid.uuid1())}.json'
     ```
 
-    This code gets the device ID from the event metadata, then uses it to create a blob name. Blobs can be stored in folders, and device ID will be used for the folder name, so each device will have all it's GPS events in one folder. The blob name is this folder, followed by a document name, separated with forward slashes, similar to Linux and macOS paths (similar to Windows as well, but Windows uses back slashes). The document name is a unique ID generated using the Python `uuid` module, with the file type of `json`.
+    This code gets the device ID from the event metadata, then uses it to create a blob name. Blobs can be stored in folders, and device ID will be used for the folder name, so each device will have all its GPS events in one folder. The blob name is this folder, followed by a document name, separated with forward slashes, similar to Linux and macOS paths (similar to Windows as well, but Windows uses back slashes). The document name is a unique ID generated using the Python `uuid` module, with the file type of `json`.
 
     For example, for the `gps-sensor` device ID, the blob name might be `gps-sensor/a9487ac2-b9cf-11eb-b5cd-1e00621e3648.json`.
 

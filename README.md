@@ -20,7 +20,9 @@ The projects cover the journey of food from farm to table. This includes farming
 
 ![A road map for the course showing 24 lessons covering intro, farming, transport, processing, retail and cooking](sketchnotes/Roadmap.png)
 
-**Hearty thanks to our authors [Jen Fox](https://github.com/jenfoxbot), [Jen Looper](https://github.com/jlooper), [Jim Bennett](https://github.com/jimbobbennett), and sketchnote artist [Nitya Narasimhan](https://github.com/nitya)**
+**Hearty thanks to our authors [Jen Fox](https://github.com/jenfoxbot), [Jen Looper](https://github.com/jlooper), [Jim Bennett](https://github.com/jimbobbennett), and our sketchnote artist [Nitya Narasimhan](https://github.com/nitya).**
+
+**Thanks as well to our team of [Microsoft Learn Student Ambassadors](https://studentambassadors.microsoft.com?WT.mc_id=academic-17441-jabenn) who have been reviewing and translating this curriculum - [Aditya Garg](https://github.com/AdityaGarg00), [Aryan Jain](https://www.linkedin.com/in/aryan-jain-47a4a1145/), [Bhavesh Suneja](https://github.com/EliteWarrior315), [Lateefah Bello](https://www.linkedin.com/in/lateefah-bello/), [Manvi Jha](https://github.com/Severus-Matthew), [Mireille Tan](https://www.linkedin.com/in/mireille-tan-a4834819a/), [Mohammad Iftekher (Iftu) Ebne Jalal](https://github.com/Iftu119), [Priyanshu Srivastav](https://www.linkedin.com/in/priyanshu-srivastav-b067241ba), [Thanmai Gowducheruvu](https://github.com/innovation-platform), and [Zina Kamel](https://www.linkedin.com/in/zina-kamel/).**
 
 > **Teachers**, we have [included some suggestions](for-teachers.md) on how to use this curriculum. If you would like to create your own lessons, we have also included a [lesson template](lesson-template/README.md).
 
@@ -83,8 +85,8 @@ We have two choices of IoT hardware to use for the projects depending on persona
 | 16 | [Manufacturing](./4-manufacturing) | Check fruit quality from an IoT device | Learn about using your fruit quality detector from an IoT device | [Check fruit quality from an IoT device](./4-manufacturing/lessons/2-check-fruit-from-device/README.md) |
 | 17 | [Manufacturing](./4-manufacturing) | Run your fruit detector on the edge | Learn about running your fruit detector on an IoT device on the edge | [Run your fruit detector on the edge](./4-manufacturing/lessons/3-run-fruit-detector-edge/README.md) |
 | 18 | [Manufacturing](./4-manufacturing) | Trigger fruit quality detection from a sensor | Learn about triggering fruit quality detection from a sensor | [Trigger fruit quality detection from a sensor](./4-manufacturing/lessons/4-trigger-fruit-detector/README.md) |
-| 19 | [Retail](./5-retail) | | |
-| 20 | [Retail](./5-retail) | | |
+| 19 | [Retail](./5-retail) | Train a stock detector | Learn how to use object detection to train a stock detector to count stock in a shop | [Train a stock detector](./5-retail/lessons/1-train-stock-detector/README.md) |
+| 20 | [Retail](./5-retail) | Check stock from an IoT device | Learn how to check stock from an IoT device using an object detection model | [Check stock from an IoT device](./5-retail/lessons/2-check-stock-device/README.md)  |
 | 21 | [Consumer](./6-consumer) | Recognize speech with an IoT device | Learn how to recognize speech from an IoT device to build a smart timer | [Recognize speech with an IoT device](./6-consumer/lessons/1-speech-recognition/README.md) |
 | 22 | [Consumer](./6-consumer) | Understand language | Learn how to understand sentences spoken to an IoT device | [Understand language](./6-consumer/lessons/2-language-understanding/README.md) |
 | 23 | [Consumer](./6-consumer) | Set a timer and provide spoken feedback | Learn how to set a timer on an IoT device and give spoken feedback on when the timer is set and when it finishes | [Set a timer and provide spoken feedback](./6-consumer/lessons/3-spoken-feedback/README.md) |
