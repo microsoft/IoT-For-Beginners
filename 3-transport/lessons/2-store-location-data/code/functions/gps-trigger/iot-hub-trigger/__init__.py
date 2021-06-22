@@ -5,7 +5,7 @@ import azure.functions as func
 import json
 import os
 import uuid
-from azure.storage.blob import BlobServiceClient
+from azure.storage.blob import BlobServiceClient, PublicAccess
 
 def get_or_create_container(name):
     connection_str = os.environ['STORAGE_CONNECTION_STRING']
@@ -15,7 +15,7 @@ def get_or_create_container(name):
         if container.name == name:
             return blob_service_client.get_container_client(container.name)
     
-    return blob_service_client.create_container(name)
+    return blob_service_client.create_container(name, public_access=PublicAccess.Container)
 
 def main(events: List[func.EventHubEvent]):
     for event in events:

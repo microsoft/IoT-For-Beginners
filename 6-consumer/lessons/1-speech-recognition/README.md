@@ -6,6 +6,8 @@ This video gives an overview of the Azure speech service, a topic that will be c
 
 [![How to get started using your Cognitive Services Speech resource from the Microsoft Azure YouTube channel](https://img.youtube.com/vi/iW0Fw0l3mrA/0.jpg)](https://www.youtube.com/watch?v=iW0Fw0l3mrA)
 
+> 🎥 Click the image above to watch a video
+
 ## Pre-lecture quiz
 
 [Pre-lecture quiz](https://brave-island-0b7c7f50f.azurestaticapps.net/quiz/41)
@@ -145,7 +147,9 @@ To avoid the complexity of training and using a wake word model, the smart timer
 
 ## Convert speech to text
 
-Just like with image classification in the last project, there are pre-built AI services that can take speech as an audio file and convert it to text. Once such service is the Speech Service, part of the Cognitive Services, pre-built AI services you can use in your apps.
+![Speech services logo](../../../images/azure-speech-logo.png)
+
+Just like with image classification in an earlier project, there are pre-built AI services that can take speech as an audio file and convert it to text. Once such service is the Speech Service, part of the Cognitive Services, pre-built AI services you can use in your apps.
 
 ### Task - configure a speech AI resource
 
