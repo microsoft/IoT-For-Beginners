@@ -41,11 +41,11 @@ On Windows, Linux, and macOS, the speech services Python SDK can be used to list
 1. Add the following code to declare some configuration:
 
     ```python
-    api_key = '<key>'
+    speech_api_key = '<key>'
     location = '<location>'
     language = '<language>'
 
-    recognizer_config = SpeechConfig(subscription=api_key,
+    recognizer_config = SpeechConfig(subscription=speech_api_key,
                                      region=location,
                                      speech_recognition_language=language)
     ```

@@ -4,7 +4,7 @@ import time
 from azure.cognitiveservices.speech import SpeechConfig, SpeechRecognizer, SpeechSynthesizer
 from azure.iot.device import IoTHubDeviceClient, Message, MethodResponse
 
-api_key = '<key>'
+speech_api_key = '<key>'
 location = '<location>'
 language = '<language>'
 connection_string = '<connection_string>'
@@ -15,7 +15,7 @@ print('Connecting')
 device_client.connect()
 print('Connected')
 
-recognizer_config = SpeechConfig(subscription=api_key,
+recognizer_config = SpeechConfig(subscription=speech_api_key,
                                  region=location,
                                  speech_recognition_language=language)
 
@@ -30,7 +30,7 @@ recognizer.recognized.connect(recognized)
 
 recognizer.start_continuous_recognition()
 
-speech_config = SpeechConfig(subscription=api_key,
+speech_config = SpeechConfig(subscription=speech_api_key,
                              region=location)
 speech_config.speech_synthesis_language = language
 speech_synthesizer = SpeechSynthesizer(speech_config=speech_config)
@@ -53,10 +53,10 @@ def say(text):
 def announce_timer(minutes, seconds):
     announcement = 'Times up on your '
     if minutes > 0:
-        announcement += f'{minutes} minute'
+        announcement += f'{minutes} minute '
     if seconds > 0:
-        announcement += f'{seconds} second'
-    announcement += ' timer.'
+        announcement += f'{seconds} second '
+    announcement += 'timer.'
     say(announcement)
 
 def create_timer(total_seconds):
@@ -64,10 +64,10 @@ def create_timer(total_seconds):
     threading.Timer(total_seconds, announce_timer, args=[minutes, seconds]).start()
     announcement = ''
     if minutes > 0:
-        announcement += f'{minutes} minute'
+        announcement += f'{minutes} minute '
     if seconds > 0:
-        announcement += f'{seconds} second'    
-    announcement += ' timer started.'
+        announcement += f'{seconds} second '    
+    announcement += 'timer started.'
     say(announcement)
 
 def handle_method_request(request):    

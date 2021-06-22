@@ -3,7 +3,7 @@ import time
 from azure.cognitiveservices.speech import SpeechConfig, SpeechRecognizer
 from azure.iot.device import IoTHubDeviceClient, Message
 
-api_key = '<key>'
+speech_api_key = '<key>'
 location = '<location>'
 language = '<language>'
 connection_string = '<connection_string>'
@@ -14,7 +14,7 @@ print('Connecting')
 device_client.connect()
 print('Connected')
 
-recognizer_config = SpeechConfig(subscription=api_key,
+recognizer_config = SpeechConfig(subscription=speech_api_key,
                                  region=location,
                                  speech_recognition_language=language)
 

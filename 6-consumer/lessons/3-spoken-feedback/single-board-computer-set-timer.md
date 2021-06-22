@@ -31,10 +31,10 @@ Timers can be set using the Python `threading.Timer` class. This class takes a d
     def announce_timer(minutes, seconds):
         announcement = 'Times up on your '
         if minutes > 0:
-            announcement += f'{minutes} minute'
+            announcement += f'{minutes} minute '
         if seconds > 0:
-            announcement += f'{seconds} second'
-        announcement += ' timer.'
+            announcement += f'{seconds} second '
+        announcement += 'timer.'
         say(announcement)
     ```
 
@@ -55,10 +55,10 @@ Timers can be set using the Python `threading.Timer` class. This class takes a d
     ```python
     announcement = ''
     if minutes > 0:
-        announcement += f'{minutes} minute'
+        announcement += f'{minutes} minute '
     if seconds > 0:
-        announcement += f'{seconds} second'    
-    announcement += ' timer started.'
+        announcement += f'{seconds} second '    
+    announcement += 'timer started.'
     say(announcement)
     ```
 
@@ -88,8 +88,8 @@ Timers can be set using the Python `threading.Timer` class. This class takes a d
     Connecting
     Connected
     Set a one minute 4 second timer.
-    1 minute, 4 second timer started
-    Times up on your 1 minute, 4 second timer
+    1 minute 4 second timer started.
+    Times up on your 1 minute 4 second timer.
     ```
 
 > 💁 You can find this code in the [code-timer/pi](code-timer/pi) or [code-timer/virtual-iot-device](code-timer/virtual-iot-device) folder.

@@ -132,6 +132,8 @@ The video below gives a short overview of Azure IoT Hub:
 
 [![Overview of Azure IoT Hub video](https://img.youtube.com/vi/smuZaZZXKsU/0.jpg)](https://www.youtube.com/watch?v=smuZaZZXKsU)
 
+> 🎥 Click the image above to watch a video
+
 ✅ Take a moment to do some research and read the overview of IoT hub in the [Microsoft IoT Hub documentation](https://docs.microsoft.com/azure/iot-hub/about-iot-hub?WT.mc_id=academic-17441-jabenn).
 
 The cloud services available in Azure can be configured through a web-based portal, or via a command-line interface (CLI). For this task, you will use the CLI.
