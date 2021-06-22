@@ -16,7 +16,7 @@
 
 1. [फल गुणवत्ता संसूचक को प्रशिक्षित करें](./lessons/1-train-fruit-detector/README.md)
 1. [IoT डिवाइस से फलों की गुणवत्ता जांचें](./lessons/2-check-fruit-from-device/README.md)
-1. [अपना फ्रूट डिटेक्टर किनारे पर चलाएं](./lessons/3-run-fruit-detector-edge/README.md)
+1. [अपना फ्रूट डिटेक्टर एज चलाएं](./lessons/3-run-fruit-detector-edge/README.md)
 1. [एक सेंसर से फलों की गुणवत्ता का पता लगाना](./lessons/4-trigger-fruit-detector/README.md)
 
 ## क्रेडिट
