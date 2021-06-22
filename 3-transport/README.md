@@ -21,4 +21,4 @@ In these 4 lessons, you'll learn how to apply the Internet of Things to improve 
 
 ## Credits
 
-All the lessons were written with ♥️ by [Jim Bennett](https://GitHub.com/JimBobBennett)
+All the lessons were written with ♥️ by [Jen Looper](https://github.com/jlooper) and [Jim Bennett](https://GitHub.com/JimBobBennett)
