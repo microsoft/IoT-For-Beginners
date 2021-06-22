@@ -7,3 +7,4 @@
 .vscode/launch.json
 .vscode/ipch
 .ipynb_checkpoints
+/node_modules

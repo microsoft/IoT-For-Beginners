@@ -7,6 +7,8 @@
     <script type='text/javascript'>
 
         function init() {
+            
+            
             fetch("https://gpssensorjimb.blob.core.windows.net/gps-data/?restype=container&comp=list")
                 .then(response => response.text())
                 .then(str => new window.DOMParser().parseFromString(str, "text/xml"))

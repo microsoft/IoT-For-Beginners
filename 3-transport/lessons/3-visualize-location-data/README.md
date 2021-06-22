@@ -51,7 +51,7 @@ Your first step is to create an Azure Maps account. The easiest way to do this i
    
 1. The service will deploy and you can visit it by clicking 'Go to resource' in the next screen.
 
-2. Navigate to your new Azure Maps Account Authentication screen. Here, you discover that you have two ways to authenticate your maps in a web app: using Active Directory (AD) or 'Shared Key Authentication', also known as Subscription Key. We'll use the latter, for simplicity. Copy the Primary Key value and make a note of it!
+1. Navigate to your new Azure Maps Account Authentication screen. Here, you discover that you have two ways to authenticate your maps in a web app: using Active Directory (AD) or 'Shared Key Authentication', also known as Subscription Key. We'll use the latter, for simplicity. Copy the Primary Key value and make a note of it!
 
 ✅ You will be able to rotate and swap keys at will using the Shared Keys; switch your app to use the Secondary Key while rotating the Primary Key if needed.
 
