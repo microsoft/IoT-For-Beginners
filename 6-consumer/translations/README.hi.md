@@ -13,7 +13,7 @@
 1. [एक IoT डिवाइस के साथ भाषण को पहचानें](./lessons/1-speech-recognition/README.md)
 1. [भाषा समझें](./lessons/2-language-understanding/README.md)
 1. [बोलकर प्रतिक्रिया दें](./lessons/3-spoken-feedback/README.md)
-1. [एकाधिक भाषाओं का समर्थन करें](./lessons/4-multiple-language-support/README.md)
+1. [एकाधिक भाषाओं का समर्थन जोड़े](./lessons/4-multiple-language-support/README.md)
 
 ## क्रेडिट
 
