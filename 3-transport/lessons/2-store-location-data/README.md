@@ -186,7 +186,7 @@ Table storage allows you to store semi-structured data. Table storage is actuall
 
 ### Queue storage
 
-Queue storage allows you to store messages of up to 64KB in size in a queue. You can add messages to the back of the queue, and read them off the front. Queues store messages indefinitely as long as there is still storage space, so it allows messages to be stored for long term. then read off when needed. For example, if you wanted to run a monthly job to process GPS data you could add it to a queue every day for a month, then at the end of the month process all the messages off the queue.
+Queue storage allows you to store messages of up to 64KB in size in a queue. You can add messages to the back of the queue, and read them off the front. Queues store messages indefinitely as long as there is still storage space, so it allows messages to be stored long term. then read off when needed. For example, if you wanted to run a monthly job to process GPS data you could add it to a queue every day for a month, then at the end of the month process all the messages off the queue.
 
 ✅ Do some research: Read up on [Azure Queue Storage](https://docs.microsoft.com/azure/storage/queues/storage-queues-introduction?WT.mc_id=academic-17441-jabenn)
 
