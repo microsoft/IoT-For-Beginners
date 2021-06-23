@@ -6,7 +6,7 @@ This video gives an overview of the Azure Custom Vision service, a service that 
 
 [![Custom Vision – Machine Learning Made Easy | The Xamarin Show](https://img.youtube.com/vi/TETcDLJlWR4/0.jpg)](https://www.youtube.com/watch?v=TETcDLJlWR4)
 
-> 🎥 Click the image above to watch a video
+> 🎥 Click the image above to watch the video
 
 ## Pre-lecture quiz
 
@@ -150,6 +150,8 @@ To use Custom Vision, you first need to create two cognitive services resources 
 
     ![The settings for the custom vision project with the name set to fruit-quality-detector, no description, the resource set to fruit-quality-detector-training, the project type set to classification, the classification types set to multi class and the domains set to food](../../../images/custom-vision-create-project.png)
 
+✅ Take some time to explore the Custom Vision UI for your image classifier.
+
 ### Task - train your image classifier project
 
 To train an image classifier, you will need multiple pictures of fruit, both good and bad quality to tag as good and bad, such as an ripe and an overripe banana.
@@ -170,7 +172,7 @@ Image classifiers run at very low resolution. For example Custom Vision can take
 
     * Repeat the same process using 2 unripe bananas
 
-    You should have at least 10 training images, with at least 5 ripe and 5 unripe, and 4 testing images, 2 ripe, 2 unripe. You're images should be png or jpegs, small than 6MB. If you create them with an iPhone for example they may be high-resolution HEIC images, so will need to be converted and possibly shrunk. The more images the better, and you should have a similar number of ripe and unripe.
+    You should have at least 10 training images, with at least 5 ripe and 5 unripe, and 4 testing images, 2 ripe, 2 unripe. Your images should be png or jpegs, small than 6MB. If you create them with an iPhone for example they may be high-resolution HEIC images, so will need to be converted and possibly shrunk. The more images the better, and you should have a similar number of ripe and unripe.
 
     If you don't have both ripe and unripe fruit, you can use different fruits, or any two objects you have available. You can also find some example images in the [images](./images) folder of ripe and unripe bananas that you can use.
 
@@ -200,7 +202,7 @@ Once your classifier is trained, you can test it by giving it a new image to cla
 
 ## Retrain your image classifier
 
-When you test you classifier, it may not give the results you expect. Image classifiers use machine learning to make predictions about what is in an image, based of probabilities that particular features of an image mean that it matches a particular label. It doesn't understand what is in the image - it doesn't know what a banana is or understand what makes a banana a banana instead of a boat. You can improve your classifier by retraining it with images it gets wrong.
+When you test your classifier, it may not give the results you expect. Image classifiers use machine learning to make predictions about what is in an image, based of probabilities that particular features of an image mean that it matches a particular label. It doesn't understand what is in the image - it doesn't know what a banana is or understand what makes a banana a banana instead of a boat. You can improve your classifier by retraining it with images it gets wrong.
 
 Every time you make a prediction using the quick test option, the image and results are stored. You can use these images to retrain your model.
 
