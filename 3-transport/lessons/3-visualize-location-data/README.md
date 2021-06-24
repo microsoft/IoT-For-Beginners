@@ -76,7 +76,7 @@ Charts are not the only tool to visualize data. IoT devices that track weather c
 
 The best visualizations allow humans to humans to make decisions quickly. For example, having a wall of gauges showing all manner of readings from industrial machinery is hard to process, but a flashing red light when something goes wrong allows a human to make a decision. Sometimes the best visualization is a flashing light!
 
-When working with GPS data, the clearest visualization can be to plot the data on a map. A map showing delivery trucks for exampel, can help workers at a processing plant see when trucks will arrive. If this map shows more that just pictures of trucks at their current locations, but gives an idea of the contents of a truck, then the workers at the plant can plan accordingly - if they see a refrigerated truck close by they know to prepare space in a fridge.
+When working with GPS data, the clearest visualization can be to plot the data on a map. A map showing delivery trucks for example, can help workers at a processing plant see when trucks will arrive. If this map shows more that just pictures of trucks at their current locations, but gives an idea of the contents of a truck, then the workers at the plant can plan accordingly - if they see a refrigerated truck close by they know to prepare space in a fridge.
 
 ## Map services
 
@@ -337,7 +337,7 @@ It's nice to be able to display static data on a map as markers. Can you enhance
 Azure Maps is particularly useful for working with IoT devices.
 
 * Research some of the uses in the [Azure Maps documentation on Microsoft docs](https://docs.microsoft.com/azure/azure-maps/tutorial-iot-hub-maps?WT.mc_id=academic-17441-jabenn).
-* Deepen your knowledge of mapmaking and waypoints with [create your first route finding app with Azure Maps](https://docs.microsoft.com/learn/modules/create-your-first-app-with-azure-maps/?WT.mc_id=academic-17441-jabenn) self-guided learning module on Microsoft Learn.
+* Deepen your knowledge of map making and waypoints with the [create your first route finding app with Azure Maps self-guided learning module on Microsoft Learn](https://docs.microsoft.com/learn/modules/create-your-first-app-with-azure-maps/?WT.mc_id=academic-17441-jabenn).
 
 ## Assignment
 
