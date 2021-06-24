@@ -10,7 +10,7 @@ Add a sketchnote if possible/appropriate
 
 ## Introduction
 
-In the last lesson, you learned how to use a GPS sensor to capture location data. To use this data to visualize the both the location of a truck laden with food, but also it's journey, it needs to be sent to an IoT service in the cloud, and then stored somewhere.
+In the last lesson, you learned how to use a GPS sensor to capture location data. To use this data to visualize the location of a truck laden with food, and it's journey, it needs to be sent to an IoT service in the cloud, and then stored somewhere.
 
 In this lesson you will learn about the different ways to store IoT data, and learn how to store data from your IoT service using serverless code.
 
@@ -64,7 +64,7 @@ SQL databases are ideal for storing structured data, and for when you want to en
 
 #### NoSQL database
 
-NoSQL databases are so called because they don't have the same rigid structure of SQL databases. There are also known as document databases as they can store unstructured data such as documents.
+NoSQL databases are called NoSQL because they don't have the same rigid structure of SQL databases. They are also known as document databases as they can store unstructured data such as documents.
 
 > 💁 Despite their name, some NoSQL databases allow you to use SQL to query the data.
 
@@ -88,7 +88,7 @@ In the last lesson you captured GPS data from a GPS sensor connected to your IoT
 
 1. Create a new IoT Hub using the free tier.
 
-    > ⚠️ You can refer to [the instructions for creating an IoT Hub from project 2, lesson 4 if needed](../../../2-farm/lessons/4-migrate-your-plant-to-the-cloud/README.md#create-an-iot-service-in-the-cloud).
+    > ⚠️ You can refer to the [instructions for creating an IoT Hub from project 2, lesson 4](../../../2-farm/lessons/4-migrate-your-plant-to-the-cloud/README.md#create-an-iot-service-in-the-cloud) if needed.
 
     Remember to create a new Resource Group. Name the new Resource Group `gps-sensor`, and the new IoT Hub a unique name based on `gps-sensor`, such as `gps-sensor-<your name>`.
 
@@ -98,7 +98,7 @@ In the last lesson you captured GPS data from a GPS sensor connected to your IoT
 
 1. Update your device code to send the GPS data to the new IoT Hub using the device connection string from the previous step.
 
-    > ⚠️ You can refer to [the instructions for connecting your device to an IoT from project 2, lesson 4 if needed](../../../2-farm/lessons/4-migrate-your-plant-to-the-cloud/README.md#connect-your-device-to-the-iot-service).
+    > ⚠️ You can refer to the [instructions for connecting your device to an IoT from project 2, lesson 4](../../../2-farm/lessons/4-migrate-your-plant-to-the-cloud/README.md#connect-your-device-to-the-iot-service) if needed.
 
 1. When you send the GPS data, do it as JSON in the following format:
 
@@ -148,11 +148,11 @@ Once data is flowing into your IoT Hub, you can write some serverless code to li
 
 1. Create an Azure Functions app using the Azure Functions CLI. Use the Python runtime, and create it in a folder called `gps-trigger`, and use the same name for the Functions App project name. Make sure you create a virtual environment to use for this.
 
-    > ⚠️ You can refer to [the instructions for creating an Azure Functions Project from project 2, lesson 5 if needed](../../../2-farm/lessons/5-migrate-application-to-the-cloud/README.md#create-a-serverless-application).
+    > ⚠️ You can refer to the [instructions for creating an Azure Functions Project from project 2, lesson 5](../../../2-farm/lessons/5-migrate-application-to-the-cloud/README.md#create-a-serverless-application) if needed.
 
 1. Add an IoT Hub event trigger that uses the IoT Hub's Event Hub compatible endpoint.
 
-    > ⚠️ You can refer to [the instructions for creating an IoT Hub event trigger from project 2, lesson 5 if needed](../../../2-farm/lessons/5-migrate-application-to-the-cloud/README.md#create-an-iot-hub-event-trigger).
+    > ⚠️ You can refer to the [instructions for creating an IoT Hub event trigger from project 2, lesson 5](../../../2-farm/lessons/5-migrate-application-to-the-cloud/README.md#create-an-iot-hub-event-trigger) if needed.
 
 1. Set the Event Hub compatible endpoint connection string in the `local.settings.json` file, and use the key for that entry in the `function.json` file.
 
@@ -180,13 +180,13 @@ You will use blob storage in this lesson to store IoT data.
 
 ### Table storage
 
-Table storage allows you to store semi-structured data. Table storage is actually a NoSQL database, so doesn't require a defined set of tables up front, but is designed to store data in one or more tables, with unique keys to define each row.
+Table storage allows you to store semi-structured data. Table storage is actually a NoSQL database, so doesn't require a defined set of tables up front, but it is designed to store data in one or more tables, with unique keys to define each row.
 
 ✅ Do some research: Read up on [Azure Table Storage](https://docs.microsoft.com/azure/storage/tables/table-storage-overview?WT.mc_id=academic-17441-jabenn)
 
 ### Queue storage
 
-Queue storage allows you to store messages of up to 64KB in size in a queue. You can add messages to the back of the queue, and read them off the front. Queues store messages indefinitely as long as there is still storage space, so allows messages to be stored long term. then read off when needed. For example, if you wanted to run a monthly job to process GPS data you could add it to a queue every day for a month, then at the end of the month process all the messages off the queue.
+Queue storage allows you to store messages of up to 64KB in size in a queue. You can add messages to the back of the queue, and read them off the front. Queues store messages indefinitely as long as there is still storage space, so it allows messages to be stored long term. then read off when needed. For example, if you wanted to run a monthly job to process GPS data you could add it to a queue every day for a month, then at the end of the month process all the messages off the queue.
 
 ✅ Do some research: Read up on [Azure Queue Storage](https://docs.microsoft.com/azure/storage/queues/storage-queues-introduction?WT.mc_id=academic-17441-jabenn)
 
@@ -227,7 +227,7 @@ The data will be saved as a JSON blob with the following format:
 
 1. Create an Azure Storage account. Name it something like `gps<your name>`.
 
-    > ⚠️ You can refer to [the instructions for creating a storage account from project 2, lesson 5 if needed](../../../2-farm/lessons/5-migrate-application-to-the-cloud/README.md#task---create-the-cloud-resources).
+    > ⚠️ You can refer to the [instructions for creating a storage account from project 2, lesson 5](../../../2-farm/lessons/5-migrate-application-to-the-cloud/README.md#task---create-the-cloud-resources)  if needed.
 
     If you still have a storage account from the previous project, you can re-use this.
 
@@ -406,15 +406,15 @@ Now that your Function app is working, you can deploy it to the cloud.
 
 1. Create a new Azure Functions app, using the storage account you created earlier. Name this something like `gps-sensor-` and add a unique identifier on the end, like some random words or your name.
 
-    > ⚠️ You can refer to [the instructions for creating a Functions app from project 2, lesson 5 if needed](../../../2-farm/lessons/5-migrate-application-to-the-cloud/README.md#task---create-the-cloud-resources).
+    > ⚠️ You can refer to the [instructions for creating a Functions app from project 2, lesson 5](../../../2-farm/lessons/5-migrate-application-to-the-cloud/README.md#task---create-the-cloud-resources) if needed.
 
 1. Upload the `IOT_HUB_CONNECTION_STRING` and `STORAGE_CONNECTION_STRING` values to the Application Settings
 
-    > ⚠️ You can refer to [the instructions for uploading Application Settings from project 2, lesson 5 if needed](../../../2-farm/lessons/5-migrate-application-to-the-cloud/README.md#task---upload-your-application-settings).
+    > ⚠️ You can refer to the [instructions for uploading Application Settings from project 2, lesson 5](../../../2-farm/lessons/5-migrate-application-to-the-cloud/README.md#task---upload-your-application-settings) if needed.
 
 1. Deploy your local Functions app to the cloud.
 
-    > ⚠️ You can refer to [the instructions for deploying your Functions app from project 2, lesson 5 if needed](../../../2-farm/lessons/5-migrate-application-to-the-cloud/README.md#task---deploy-your-functions-app-to-the-cloud).
+    > ⚠️ You can refer to the [instructions for deploying your Functions app from project 2, lesson 5](../../../2-farm/lessons/5-migrate-application-to-the-cloud/README.md#task---deploy-your-functions-app-to-the-cloud) if needed.
 
 ---
 

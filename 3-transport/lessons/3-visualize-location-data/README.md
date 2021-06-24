@@ -157,7 +157,7 @@ Sample GeoJSON data looks like this:
 
 Of particular interest is the way the data is nested as a 'Feature' within a 'FeatureCollection'. Within that object can be found 'geometry' with the 'coordinates' indicating latitude and longitude. 
 
-✅ When building your geoJSON, pay attention to the order of 'latitude' and 'longitude' in the object, or your points will not appear where they should!
+✅ When building your geoJSON, pay attention to the order of 'latitude' and 'longitude' in the object, or your points will not appear where they should! GeoJSON expects data in the order 'lon,lat' for points, not 'lat,lon'.
 
 `Geometry` can have different 'types' designated to that a polygon could be drawn to a map; in this case, a point is drawn with two coordinates designated.
 
