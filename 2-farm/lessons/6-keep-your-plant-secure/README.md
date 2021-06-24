@@ -146,6 +146,8 @@ After the connection, all data sent to the IoT Hub from the device, or to the de
 >
 > When learning IoT it is often easier to put the key in code, as you did in an earlier lesson, but you must ensure this key is not checked into public source code control.
 
+Devices have 2 keys, and 2 corresponding connection strings. This allows you to rotate the keys - that is switch from one key to another if the first gets compromised, and re-generate the first key.
+
 ### X.509 certificates
 
 When you are using asymmetric encryption with a public/private key pair, you need to provide your public key to anyone who wants to send you data. The problem is, how can the recipient of your key be sure it's actually your public key, not someone else pretending to be you? Instead of providing a key, you can instead provide your public key inside a certificate that has been verified by a trusted third party, called an X.509 certificate.

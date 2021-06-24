@@ -138,7 +138,7 @@ You can use a GPS sensor on your IoT device to get GPS data.
 
 ### Task - connect a GPS sensor and read GPS data
 
-Work through the relevant guide to measure soil moisture using your IoT device:
+Work through the relevant guide to read GPS data using your IoT device:
 
 * [Arduino - Wio Terminal](wio-terminal-gps-sensor.md)
 * [Single-board computer - Raspberry Pi](pi-gps-sensor.md)
