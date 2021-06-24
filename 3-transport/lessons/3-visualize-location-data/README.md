@@ -193,7 +193,7 @@ Now you can take the next step which is to display your map on a web page. We wi
 
 Now that you have your web app in place with the map displaying, you need to extract GPS data from your storage account and display it in a layer of markers on top of the map. Before we do that, let's look at the [GeoJSON](https://wikipedia.org/wiki/GeoJSON) format that is required by Azure Maps.
 
-[GeoJSON](https://geojson.org/) is an open standard JSON specification with special formatting designed to handle geographic-specific data. You can learn about it by testing sample data using [geojson.io](geojson.io), which is also a useful tool to debug GeoJSON files.
+[GeoJSON](https://geojson.org/) is an open standard JSON specification with special formatting designed to handle geographic-specific data. You can learn about it by testing sample data using [geojson.io](https://geojson.io), which is also a useful tool to debug GeoJSON files.
 
 Sample GeoJSON data looks like this:
 
@@ -337,7 +337,7 @@ It's nice to be able to display static data on a map as markers. Can you enhance
 Azure Maps is particularly useful for working with IoT devices.
 
 * Research some of the uses in the [Azure Maps documentation on Microsoft docs](https://docs.microsoft.com/azure/azure-maps/tutorial-iot-hub-maps?WT.mc_id=academic-17441-jabenn).
-* Deepen your knowledge of mapmaking and waypoints [with this self-guided learning module on Microsoft Learn](https://docs.microsoft.com/learn/modules/create-your-first-app-with-azure-maps/?WT.mc_id=academic-17441-jabenn).
+* Deepen your knowledge of mapmaking and waypoints with [create your first route finding app with Azure Maps](https://docs.microsoft.com/learn/modules/create-your-first-app-with-azure-maps/?WT.mc_id=academic-17441-jabenn) self-guided learning module on Microsoft Learn.
 
 ## Assignment
 
