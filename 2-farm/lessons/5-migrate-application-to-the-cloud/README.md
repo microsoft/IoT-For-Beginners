@@ -311,7 +311,7 @@ This will create a folder inside the `soil-moisture-trigger` folder called `iot-
 
   * `"type": "eventHubTrigger"` - this tells the function it needs to listen to events from an Event Hub
   * `"name": "events"` - this is the parameter name to use for the Event Hub events. This matches the parameter name in the `main` function in the Python code.
-  * `"direction": "in",` - this is an input binding, the data from the event hub comes into the function
+  * `"direction": "in"` - this is an input binding, the data from the event hub comes into the function
   * `"connection": ""` - this defines the name of the setting to read the connection string from. When running locally, this will read this setting from the `local.settings.json` file.
 
     > 💁 The connection string cannot be stored in the `function.json` file, it has to be read from the settings. This is to stop you accidentally exposing your connection string.
@@ -325,6 +325,10 @@ This will create a folder inside the `soil-moisture-trigger` folder called `iot-
     > 💁 Remember - this needs to point to the setting, not contain the actual connection string.
 
 ### Task - run the event trigger
+
+1. Make sure you are not running the IoT Hub event monitor. If this is running at the same time as the functions app, the functions app will not be able to connect and consume events.
+
+    > 💁 Multiple apps can connect to the IoT Hub endpoints using different *consumer groups*. These are covered in a later lesson.
 
 1. To run the Functions app, run the following command from the VS Code terminal
 
