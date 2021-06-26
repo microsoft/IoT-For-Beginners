@@ -91,6 +91,18 @@ These samples are taken many thousands of times per second, using well-defined s
 
 ✅ Do some research: If you use a streaming music service, what sample rate and size does it use? If you use CDs, what is the sample rate and size of CD audio?
 
+### Audio data size
+
+Audio data is relatively large. For example, capturing uncompressed 16-bit audio at 16KHz (a good enough rate for use with speech to text model), takes 32KB of data for each second of audio:
+
+* 16-bit means 2 bytes per sample (1 byte is 8 bits).
+* 16KHz is 16,000 samples per second.
+* 16,000 x 2 bytes = 32,000 bytes per second.
+
+This sounds like a small amount of data, but if you are using a microcontroller with limited memory, this can be a lot. For example, the Wio Terminal has 192KB of memory, and that needs to store program code and variables. Even if your program code was tiny, you couldn't capture more than 5 seconds of audio.
+
+Microcontrollers can access additional storage, such as SD cards or flash memory. When building an IoT device that captures audio you will need to ensure not only you have additional storage, but your code writes the audio captured from your microphone directly to that storage, and when sending it to the cloud, you stream from storage to the web request. That way you can avoid running out of memory by trying to hold the entire block of audio data in memory at once.
+
 ## Capture audio from your IoT device
 
 Your IoT device can be connected to a microphone to capture audio, ready for conversion to text. It can also be connected to speakers to output audio. In later lessons this will be used to give audio feedback, but it is useful to set up speakers now to test the microphone.
