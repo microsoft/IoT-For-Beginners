@@ -111,7 +111,7 @@ You can train an object detector using Custom Vision, in a similar way to how yo
 
     ![The settings for the custom vision project with the name set to fruit-quality-detector, no description, the resource set to fruit-quality-detector-training, the project type set to classification, the classification types set to multi class and the domains set to food](../../../images/custom-vision-create-object-detector-project.png)
 
-    > 💁 The products on shelves domain is specifically targeted for detecting stock on store shelves.
+    ✅ The products on shelves domain is specifically targeted for detecting stock on store shelves. Read more on the different domains in the [Select a domian documentation on Microsoft Docs](https://docs.microsoft.com/azure/cognitive-services/custom-vision-service/select-domain?WT.mc_id=academic-17441-jabenn#object-detection)
 
 ✅ Take some time to explore the Custom Vision UI for your object detector.
 
@@ -119,7 +119,7 @@ You can train an object detector using Custom Vision, in a similar way to how yo
 
 To train your model you will need a set of images containing the objects you want to detect.
 
-1. Gather images that contain the object to detect. You will need at least 15 images containing each object to detect from a variety of different angles and in different lighting conditions, but the more the better. You will also need a few images to test the model. If you are detecting more than one object, you will want some testing images that contain all the objects.
+1. Gather images that contain the object to detect. You will need at least 15 images containing each object to detect from a variety of different angles and in different lighting conditions, but the more the better. This object detector uses the *Products on shelves* domain, so try to set up the objects as if they were on a store shelf. You will also need a few images to test the model. If you are detecting more than one object, you will want some testing images that contain all the objects.
 
     > 💁 Images with multiple different objects count towards the 15 image minimum for all the objects in the image.
 
@@ -188,4 +188,4 @@ If you have any similar looking items, test it out by adding images of them to y
 
 ## Assignment
 
-[](assignment.md)
+[Compare domains](assignment.md)
