@@ -341,6 +341,9 @@ The data will be saved as a JSON blob with the following format:
     [2021-05-21T01:31:14.351Z] Writing blob to gps-sensor/4b6089fe-ba8d-11eb-bc7b-1e00621e3648.json - {'device_id': 'gps-sensor', 'timestamp': '2021-05-21T00:57:53.878Z', 'gps': {'lat': 47.73092, 'lon': -122.26206}}
     ```
 
+    > 💁 Make sure you are not running the IoT Hub event monitor at the same time.
+
+
 > 💁 You can find this code in the [code/functions](code/functions) folder.
 
 ### Task - verify the uploaded blobs

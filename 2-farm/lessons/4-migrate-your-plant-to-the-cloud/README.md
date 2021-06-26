@@ -384,6 +384,8 @@ For now, you won't be updating your server code. Instead you can use the Azure C
 
     The time values in the annotations are in [UNIX time](https://wikipedia.org/wiki/Unix_time), representing the number of seconds since midnight on 1<sup>st</sup> January 1970.
 
+    Exit the event monitor when you are done.
+
 ### Task - control your IoT device
 
 You can also use the Azure CLI to call direct methods on your IoT device.

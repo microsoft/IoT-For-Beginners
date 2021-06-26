@@ -324,6 +324,8 @@ When you create an IoT Hub, you get the `$Default` consumer group created by def
     geofence  gps-sensor
     ```
 
+> 💁 When you ran the IoT Hub event monitor in an earlier lesson, it connected to the `$Default` consumer group. This was why you can't run the event monitor and an event trigger. If you want to run both, then you can use other consumer groups for all your function apps, and keep `$Default` for the event monitor.
+
 ### Task - create a new IoT Hub trigger
 
 1. Add a new IoT Hub event trigger to your `gps-trigger` function app that you created in an earlier lesson. Call this function `geofence-trigger`.

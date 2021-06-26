@@ -19,7 +19,7 @@ Connect the light sensor
 ![A grove light sensor](../../../images/grove-light-sensor.png)
 
 1. Insert one end of a Grove cable into the socket on the light sensor module. It will only go in one way round.
-1. 
+
 1. With the Raspberry Pi powered off, connect the other end of the Grove cable to the analog socket marked **A0** on the Grove Base hat attached to the Pi. This socket is the second from the right, on the row of sockets next to the GPIO pins.
 
 ![The grove light sensor connected to socket A0](../../../images/pi-light-sensor.png)
