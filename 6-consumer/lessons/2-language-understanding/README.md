@@ -260,7 +260,7 @@ Once published, the LUIS model can be called from code. In previous lessons, you
 
 For a smart timer, we want a response straight away, so we can tell the user that a timer is set, or alert them that the cloud services are unavailable. To do this, our IoT device will call a web endpoint directly, instead of relying on an IoT Hub.
 
-Rather than calling LUIS from the IoT device, you can use serverless code with a different type of trigger - an HTTP trigger. This allows your function app to listen for REST requests, and respond to them.
+Rather than calling LUIS from the IoT device, you can use serverless code with a different type of trigger - an HTTP trigger. This allows your function app to listen for REST requests, and respond to them. This function will be a REST endpoint your device can call.
 
 > 💁 Although you can call LUIS directly from your IoT device, it's better to use something like serverless code. This way when of you want to change the LUIS app that you call, for example when you train a better model or train a model in a different language, you only have to update your cloud code, not re-deploy code to potentially thousands or millions of IoT device.
 
@@ -466,6 +466,25 @@ Rather than calling LUIS from the IoT device, you can use serverless code with a
     ```
 
 > 💁 You can find this code in the [code/functions](code/functions) folder.
+
+### Task - make your function available to your IoT device
+
+1. For your IoT device to call your REST endpoint, it will need to know the URL. When you accessed it earlier, you used `localhost`, which is a shortcut to access REST endpoints on your local machine. To allow you IoT device to get access, you need to either:
+
+    * Publish the Functions app - follow the instructions in earlier lessons to publish your functions app to the cloud. Once published, the URL will be `http://<APP_NAME>.azurewebsites.net/api/text-to-timer`, where `<APP_NAME>` will be the name of your functions app.
+    * Run the functions app locally, and access using the IP address - you can get the IP address of your computer on your local network, and use that to build the URL.
+
+      Find your IP address:
+
+      * On Windows 10, follow the [Find your IP address guide](https://support.microsoft.com/windows/find-your-ip-address-f21a9bbc-c582-55cd-35e0-73431160a1b9?WT.mc_id=academic-17441-jabenn)
+      * On macOS, follow the [How to find you IP address on a Mac guide](https://www.hellotech.com/guide/for/how-to-find-ip-address-on-mac)
+      * On linux, follow the section on finding your private IP address in the [How to find your IP address in Linux guide](https://opensource.com/article/18/5/how-find-ip-address-linux)
+
+        Once you have your IP address, you will able to access the function at `http://<IP_ADDRESS>:7071/api/text-to-timer`, where `<IP_ADDRESS>` will be your IP address, for example `http://192.168.1.10:7071/api/text-to-timer`.
+
+        > 💁 This will only work if your IoT device is on the same network as your computer.
+
+1. Test the endpoint by accessing it using your browser.
 
 ---
 
