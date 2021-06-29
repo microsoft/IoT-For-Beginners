@@ -1,12 +1,9 @@
 import io
-import json
 import pyaudio
 import requests
+import threading
 import time
 import wave
-import threading
-
-from azure.iot.device import IoTHubDeviceClient, Message, MethodResponse
 
 from grove.factory import Factory
 button = Factory.getButton('GPIO-HIGH', 5)
@@ -45,13 +42,6 @@ def capture_audio():
 speech_api_key = '<key>'
 location = '<location>'
 language = '<language>'
-connection_string = '<connection_string>'
-
-device_client = IoTHubDeviceClient.create_from_connection_string(connection_string)
-
-print('Connecting')
-device_client.connect()
-print('Connected')
 
 def get_access_token():
     headers = {
@@ -76,12 +66,27 @@ def convert_speech_to_text(buffer):
     }
 
     response = requests.post(url, headers=headers, params=params, data=buffer)
-    response_json = json.loads(response.text)
+    response_json = response.json()
 
     if response_json['RecognitionStatus'] == 'Success':
         return response_json['DisplayText']
     else:
         return ''
+
+def get_timer_time(text):
+    url = '<URL>'
+
+    params = {
+        'text': text
+    }
+
+    response = requests.post(url, params=params)
+
+    if response.status_code != 200:
+        return 0
+    
+    payload = response.json()
+    return payload['seconds']
 
 def say(text):
     print(text)
@@ -98,6 +103,7 @@ def announce_timer(minutes, seconds):
 def create_timer(total_seconds):
     minutes, seconds = divmod(total_seconds, 60)
     threading.Timer(total_seconds, announce_timer, args=[minutes, seconds]).start()
+
     announcement = ''
     if minutes > 0:
         announcement += f'{minutes} minute '
@@ -106,17 +112,12 @@ def create_timer(total_seconds):
     announcement += 'timer started.'
     say(announcement)
 
-def handle_method_request(request):    
-    if request.name == 'set-timer':
-        payload = json.loads(request.payload)
-        seconds = payload['seconds']
-        if seconds > 0:
-            create_timer(payload['seconds'])
-
-    method_response = MethodResponse.create_from_method_request(request, 200)
-    device_client.send_method_response(method_response)
-
-device_client.on_method_request_received = handle_method_request
+def process_text(text):
+    print(text)
+    
+    seconds = get_timer_time(text)
+    if seconds > 0:
+        create_timer(seconds)
 
 while True:
     while not button.is_pressed():
@@ -124,7 +125,4 @@ while True:
 
     buffer = capture_audio()
     text = convert_speech_to_text(buffer)
-    if len(text) > 0:
-        print(text)
-        message = Message(json.dumps({ 'speech': text }))
-        device_client.send_message(message)
+    process_text(text)

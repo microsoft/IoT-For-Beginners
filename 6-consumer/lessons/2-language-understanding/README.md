@@ -256,22 +256,38 @@ To use this model from code, you need to publish it. When publishing from LUIS, 
 
 ## Use the language understanding model
 
-Once published, the LUIS model can be called from code. In the last lesson you sent the recognized speech to an IoT Hub, and you can use serverless code to respond to this and understand what was sent.
+Once published, the LUIS model can be called from code. In previous lessons, you have used an IoT Hub to handle communication with cloud services, sending telemetry and listening for commands. This is very asynchronous - once telemetry is sent your code doesn't wait for a response, and if the cloud service is down, you wouldn't know.
+
+For a smart timer, we want a response straight away, so we can tell the user that a timer is set, or alert them that the cloud services are unavailable. To do this, our IoT device will call a web endpoint directly, instead of relying on an IoT Hub.
+
+Rather than calling LUIS from the IoT device, you can use serverless code with a different type of trigger - an HTTP trigger. This allows your function app to listen for REST requests, and respond to them. This function will be a REST endpoint your device can call.
+
+> 💁 Although you can call LUIS directly from your IoT device, it's better to use something like serverless code. This way when of you want to change the LUIS app that you call, for example when you train a better model or train a model in a different language, you only have to update your cloud code, not re-deploy code to potentially thousands or millions of IoT device.
 
 ### Task - create a serverless functions app
 
-1. Create an Azure Functions app called `smart-timer-trigger`.
+1. Create an Azure Functions app called `smart-timer-trigger`, and open this in VS Code
 
-1. Add an IoT Hub event trigger to this app called `speech-trigger`.
+1. Add an HTTP trigger to this app called `speech-trigger` using the following command from inside the VS Code terminal:
 
-1. Set the Event Hub compatible endpoint connection string for your IoT Hub in the `local.settings.json` file, and use the key for that entry in the `function.json` file.
+    ```sh
+    func new --name text-to-timer --template "HTTP trigger"
+    ```
 
-1. Use the Azurite app as a local storage emulator.
+    This will crate an HTTP trigger called `text-to-timer`.
 
-1. Run your functions app and your IoT device to ensure speech is arriving at the IoT Hub.
+1. Test the HTTP trigger by running the functions app. When it runs you will see the endpoint listed in the output:
 
     ```output
-    Python EventHub trigger processed an event: {"speech": "Set a 3 minute timer."}
+    Functions:
+    
+            text-to-timer: [GET,POST] http://localhost:7071/api/text-to-timer
+    ```
+
+    Test this by loading the [http://localhost:7071/api/text-to-timer](http://localhost:7071/api/text-to-timer) URL in your browser.
+
+    ```output
+    This HTTP triggered function executed successfully. Pass a name in the query string or in the request body for a personalized response.
     ```
 
 ### Task - use the language understanding model
@@ -287,6 +303,12 @@ Once published, the LUIS model can be called from code. In the last lesson you s
     ```sh
     pip install -r requirements.txt
     ```
+
+    > 💁 If you get errors, you may need to upgrade pip with the following command:
+    >
+    > ```sh
+    > pip install --upgrade pip
+    > ```
 
 1. Add new entries to the `local.settings.json` file for your LUIS API Key, Endpoint URL, and App ID from the **MANAGE** tab of the LUIS portal:
 
@@ -313,7 +335,7 @@ Once published, the LUIS model can be called from code. In the last lesson you s
 
     This imports some system libraries, as well as the libraries to interact with LUIS.
 
-1. In the `main` method, before it loops through all the events, add the following code:
+1. Delete the contents of the `main` method, and add the following code:
 
     ```python
     luis_key = os.environ['LUIS_KEY']
@@ -326,14 +348,18 @@ Once published, the LUIS model can be called from code. In the last lesson you s
 
     This loads the values you added to the `local.settings.json` file for your LUIS app, creates a credentials object with your API key, then creates a LUIS client object to interact with your LUIS app.
 
-1. Predictions are requested from LUIS by sending a prediction request - a JSON document containing the text to predict. Create this with the following code inside the `for event in events` loop:
+1. This HTTP trigger will be called passing the text to understand as an HTTP parameter. These are key/value pairs sent as part of the URL. For this app, the key will be `text` and the value will be the text to understand. The following code extracts the value from the HTTP request, and logs it to the console. Add this code to the `main` function:
 
     ```python
-    event_body = json.loads(event.get_body().decode('utf-8'))
-    prediction_request = { 'query' : event_body['speech'] }
+    text = req.params.get('text')
+    logging.info(f'Request - {text}')
     ```
 
-    This code extracts the speech that was sent to the IoT Hub and uses it to build the prediction request.
+1. Predictions are requested from LUIS by sending a prediction request - a JSON document containing the text to predict. Create this with the following code:
+
+    ```python
+    prediction_request = { 'query' : text }
+    ```
 
 1. This request can then be sent to LUIS, using the staging slot that your app was published to:
 
@@ -373,7 +399,7 @@ Once published, the LUIS model can be called from code. In the last lesson you s
     * *"Set a 30 second timer"* - this will have one number, `30`, and one time unit, `second` so the single number will match the single time unit.
     * *"Set a 2 minute and 30 second timer"* - this will have two numbers, `2` and `30`, and two time units, `minute` and `second` so the first number will be for the first time unit (2 minutes), and the second number for the second time unit (30 seconds).
 
-    The following code gets the count of items in the number entities, and uses that to extract the first item from each array, then the second and so on:
+    The following code gets the count of items in the number entities, and uses that to extract the first item from each array, then the second and so on. Add this inside the `if` block.
 
     ```python
     for i in range(0, len(numbers)):
@@ -397,23 +423,68 @@ Once published, the LUIS model can be called from code. In the last lesson you s
         total_seconds += number
     ```
 
-1. Finally, outside this loop through the entities, log the total time for the timer:
+1. Outside this loop through the entities, log the total time for the timer:
 
     ```python
     logging.info(f'Timer required for {total_seconds} seconds')
     ```
 
-1. Run the function app and speak into your IoT device. You will see the total time for the timer in the function app output:
+1. The number of seconds needs to be returned from the function as an HTTP response. At the end of the `if` block, add the following:
+
+    ```python
+    payload = {
+        'seconds': total_seconds
+    }
+    return func.HttpResponse(json.dumps(payload), status_code=200)
+    ```
+
+    This code creates a payload containing the total number of seconds for the timer, converts it to a JSON string and returns it as an HTTP result with a status code of 200, which means the call was successful.
+
+1. Finally, outside the `if` block, handle if the intent was not recognized by returning an error code:
+
+    ```python
+    return func.HttpResponse(status_code=404)
+    ```
+
+    404 is the status code for *not found*.
+
+1. Run the function app and test it out by passing text to the URL. URLs cannot contain spaces, so you will need to encode spaces in a way that URLs can use. The encoding for a space is `%20`, so replace all the spaces in the text with `%20`. For example, to test "Set a 2 minutes 27 second timer", use the following URL:
+
+    [http://localhost:7071/api/text-to-timer?text=Set%20a%202%20minutes%2027%20second%20timer](http://localhost:7071/api/text-to-timer?text=Set%20a%202%20minutes%2027%20second%20timer)
 
     ```output
-    [2021-06-16T01:38:33.316Z] Executing 'Functions.speech-trigger' (Reason='(null)', Id=39720c37-b9f1-47a9-b213-3650b4d0b034)
-    [2021-06-16T01:38:33.329Z] Trigger Details: PartionId: 0, Offset: 3144-3144, EnqueueTimeUtc: 2021-06-16T01:38:32.7970000Z-2021-06-16T01:38:32.7970000Z, SequenceNumber: 8-8, Count: 1
-    [2021-06-16T01:38:33.605Z] Python EventHub trigger processed an event: {"speech": "Set a four minute 17 second timer."}
-    [2021-06-16T01:38:35.076Z] Timer required for 257 seconds
-    [2021-06-16T01:38:35.128Z] Executed 'Functions.speech-trigger' (Succeeded, Id=39720c37-b9f1-47a9-b213-3650b4d0b034, Duration=1894ms)
+    Functions:
+
+            text-to-timer: [GET,POST] http://localhost:7071/api/text-to-timer
+    
+    For detailed output, run func with --verbose flag.
+    [2021-06-26T19:45:14.502Z] Worker process started and initialized.
+    [2021-06-26T19:45:19.338Z] Host lock lease acquired by instance ID '000000000000000000000000951CAE4E'.
+    [2021-06-26T19:45:52.059Z] Executing 'Functions.text-to-timer' (Reason='This function was programmatically called via the host APIs.', Id=f68bfb90-30e4-47a5-99da-126b66218e81)
+    [2021-06-26T19:45:53.577Z] Timer required for 147 seconds
+    [2021-06-26T19:45:53.746Z] Executed 'Functions.text-to-timer' (Succeeded, Id=f68bfb90-30e4-47a5-99da-126b66218e81, Duration=1750ms)
     ```
 
 > 💁 You can find this code in the [code/functions](code/functions) folder.
+
+### Task - make your function available to your IoT device
+
+1. For your IoT device to call your REST endpoint, it will need to know the URL. When you accessed it earlier, you used `localhost`, which is a shortcut to access REST endpoints on your local machine. To allow you IoT device to get access, you need to either:
+
+    * Publish the Functions app - follow the instructions in earlier lessons to publish your functions app to the cloud. Once published, the URL will be `http://<APP_NAME>.azurewebsites.net/api/text-to-timer`, where `<APP_NAME>` will be the name of your functions app.
+    * Run the functions app locally, and access using the IP address - you can get the IP address of your computer on your local network, and use that to build the URL.
+
+      Find your IP address:
+
+      * On Windows 10, follow the [Find your IP address guide](https://support.microsoft.com/windows/find-your-ip-address-f21a9bbc-c582-55cd-35e0-73431160a1b9?WT.mc_id=academic-17441-jabenn)
+      * On macOS, follow the [How to find you IP address on a Mac guide](https://www.hellotech.com/guide/for/how-to-find-ip-address-on-mac)
+      * On linux, follow the section on finding your private IP address in the [How to find your IP address in Linux guide](https://opensource.com/article/18/5/how-find-ip-address-linux)
+
+        Once you have your IP address, you will able to access the function at `http://<IP_ADDRESS>:7071/api/text-to-timer`, where `<IP_ADDRESS>` will be your IP address, for example `http://192.168.1.10:7071/api/text-to-timer`.
+
+        > 💁 This will only work if your IoT device is on the same network as your computer.
+
+1. Test the endpoint by accessing it using your browser.
 
 ---
 
@@ -429,6 +500,7 @@ There are many ways to request the same thing, such as setting a timer. Think of
 
 * Read more about LUIS and it's capabilities on the [Language Understanding (LUIS) documentation page on Microsoft docs](https://docs.microsoft.com/azure/cognitive-services/luis/?WT.mc_id=academic-17441-jabenn)
 * Read more about language understanding on the [Natural-language understanding page on Wikipedia](https://wikipedia.org/wiki/Natural-language_understanding)
+* Read more on HTTP triggers in the [Azure Functions HTTP trigger documentation on Microsoft docs](https://docs.microsoft.com/azure/azure-functions/functions-bindings-http-webhook-trigger?tabs=python&WT.mc_id=academic-17441-jabenn)
 
 ## Assignment
 

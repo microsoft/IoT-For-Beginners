@@ -11,8 +11,11 @@ recognizer_config = SpeechConfig(subscription=speech_api_key,
 
 recognizer = SpeechRecognizer(speech_config=recognizer_config)
 
+def process_text(text):
+    print(text)
+
 def recognized(args):
-    print(args.result.text)
+    process_text(args.result.text)
 
 recognizer.recognized.connect(recognized)
 

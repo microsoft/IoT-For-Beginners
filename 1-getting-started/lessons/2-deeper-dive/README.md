@@ -261,6 +261,7 @@ The challenge in the last lesson was to list as many IoT devices as you can that
 
 * Read the [Arduino getting started guide](https://www.arduino.cc/en/Guide/Introduction) to understand more about the Arduino platform.
 * Read the [introduction to the Raspberry Pi 4](https://www.raspberrypi.org/products/raspberry-pi-4-model-b/) to learn more about Raspberry Pis.
+* Learn more on some of the concepts and acronyms in the [What the FAQ are CPUs, MPUs, MCUs, and GPUs article in the Electrical Engineering Journal](https://www.eejournal.com/article/what-the-faq-are-cpus-mpus-mcus-and-gpus/).
 
 ✅ Use these guides, along with the costs shown by following the links in the [hardware guide](../../../hardware.md) to decide on what hardware platform you want to use, or if you would rather use a virtual device.
 
