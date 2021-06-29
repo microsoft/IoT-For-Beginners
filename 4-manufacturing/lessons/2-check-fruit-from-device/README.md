@@ -66,7 +66,7 @@ When you are happy with an iteration, you can publish it to make it available to
 
 Iterations are published from the Custom Vision portal.
 
-1. Launch the Custom Vision portal at [CustomVision.ai](https://customvision.ai) and sign in if you don't have it open already. Then open your `fruit-detector` project.
+1. Launch the Custom Vision portal at [CustomVision.ai](https://customvision.ai) and sign in if you don't have it open already. Then open your `fruit-quality-detector` project.
 
 1. Select the **Performance** tab from the options at the top
 

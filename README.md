@@ -8,10 +8,6 @@
 [![GitHub forks](https://img.shields.io/github/forks/microsoft/IoT-For-Beginners.svg?style=social&label=Fork&maxAge=2592000)](https://GitHub.com/microsoft/IoT-For-Beginners/network/)
 [![GitHub stars](https://img.shields.io/github/stars/microsoft/IoT-For-Beginners.svg?style=social&label=Star&maxAge=2592000)](https://GitHub.com/microsoft/IoT-For-Beginners/stargazers/)
 
-![Under development animated GIF](https://media.giphy.com/media/3o7qE1YN7aBOFPRw8E/giphy.gif)
-
-**This repo is under heavy development. Check back soon for more updates.**
-
 # IoT for Beginners - A Curriculum
 
 Azure Cloud Advocates at Microsoft are pleased to offer a 12-week, 24-lesson curriculum all about IoT basics. Each lesson includes pre- and post-lesson quizzes, written instructions to complete the lesson, a solution, an assignment and more. Our project-based pedagogy allows you to learn while building, a proven way for new skills to 'stick'.
