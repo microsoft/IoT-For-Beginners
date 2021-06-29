@@ -1,43 +1,17 @@
-import json
+import requests
 import threading
 import time
 from azure.cognitiveservices.speech import SpeechConfig, SpeechRecognizer, SpeechSynthesizer
-from azure.iot.device import IoTHubDeviceClient, Message, MethodResponse
 
 speech_api_key = '<key>'
 location = '<location>'
 language = '<language>'
-connection_string = '<connection_string>'
-
-device_client = IoTHubDeviceClient.create_from_connection_string(connection_string)
-
-print('Connecting')
-device_client.connect()
-print('Connected')
 
 recognizer_config = SpeechConfig(subscription=speech_api_key,
                                  region=location,
                                  speech_recognition_language=language)
 
 recognizer = SpeechRecognizer(speech_config=recognizer_config)
-
-def recognized(args):
-    if len(args.result.text) > 0:
-        message = Message(json.dumps({ 'speech': args.result.text }))
-        device_client.send_message(message)
-
-recognizer.recognized.connect(recognized)
-
-recognizer.start_continuous_recognition()
-
-speech_config = SpeechConfig(subscription=speech_api_key,
-                             region=location)
-speech_config.speech_synthesis_language = language
-speech_synthesizer = SpeechSynthesizer(speech_config=speech_config)
-
-voices = speech_synthesizer.get_voices_async().get().voices
-first_voice = next(x for x in voices if x.locale.lower() == language.lower())
-speech_config.speech_synthesis_voice_name = first_voice.short_name
 
 def say(text):
     ssml =  f'<speak version=\'1.0\' xml:lang=\'{language}\'>'
@@ -70,17 +44,43 @@ def create_timer(total_seconds):
     announcement += 'timer started.'
     say(announcement)
 
-def handle_method_request(request):    
-    if request.name == 'set-timer':
-        payload = json.loads(request.payload)
-        seconds = payload['seconds']
-        if seconds > 0:
-            create_timer(payload['seconds'])
+def get_timer_time(text):
+    url = '<URL>'
 
-    method_response = MethodResponse.create_from_method_request(request, 200)
-    device_client.send_method_response(method_response)
+    body = {
+        'text': text
+    }
 
-device_client.on_method_request_received = handle_method_request
+    response = requests.post(url, json=body)
+
+    if response.status_code != 200:
+        return 0
+    
+    payload = response.json()
+    return payload['seconds']
+
+def process_text(text):
+    print(text)
+    
+    seconds = get_timer_time(text)
+    if seconds > 0:
+        create_timer(seconds)
+
+def recognized(args):
+    process_text(args.result.text)
+
+recognizer.recognized.connect(recognized)
+
+recognizer.start_continuous_recognition()
+
+speech_config = SpeechConfig(subscription=speech_api_key,
+                             region=location)
+speech_config.speech_synthesis_language = language
+speech_synthesizer = SpeechSynthesizer(speech_config=speech_config)
+
+voices = speech_synthesizer.get_voices_async().get().voices
+first_voice = next(x for x in voices if x.locale.lower() == language.lower())
+speech_config.speech_synthesis_voice_name = first_voice.short_name
 
 while True:
     time.sleep(1)

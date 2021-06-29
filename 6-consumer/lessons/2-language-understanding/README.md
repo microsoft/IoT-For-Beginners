@@ -348,10 +348,11 @@ Rather than calling LUIS from the IoT device, you can use serverless code with a
 
     This loads the values you added to the `local.settings.json` file for your LUIS app, creates a credentials object with your API key, then creates a LUIS client object to interact with your LUIS app.
 
-1. This HTTP trigger will be called passing the text to understand as an HTTP parameter. These are key/value pairs sent as part of the URL. For this app, the key will be `text` and the value will be the text to understand. The following code extracts the value from the HTTP request, and logs it to the console. Add this code to the `main` function:
+1. This HTTP trigger will be called passing the text to understand as JSON, with the text in a property called `text`. The following code extracts the value from the body of the HTTP request, and logs it to the console. Add this code to the `main` function:
 
     ```python
-    text = req.params.get('text')
+    req_body = req.get_json()
+    text = req_body['text']
     logging.info(f'Request - {text}')
     ```
 
@@ -448,9 +449,18 @@ Rather than calling LUIS from the IoT device, you can use serverless code with a
 
     404 is the status code for *not found*.
 
-1. Run the function app and test it out by passing text to the URL. URLs cannot contain spaces, so you will need to encode spaces in a way that URLs can use. The encoding for a space is `%20`, so replace all the spaces in the text with `%20`. For example, to test "Set a 2 minutes 27 second timer", use the following URL:
+1. Run the function app and test it out using curl.
 
-    [http://localhost:7071/api/text-to-timer?text=Set%20a%202%20minutes%2027%20second%20timer](http://localhost:7071/api/text-to-timer?text=Set%20a%202%20minutes%2027%20second%20timer)
+    ```sh
+    curl --request POST 'http://localhost:7071/api/text-to-timer' \
+         --header 'Content-Type: application/json' \
+         --include \
+         --data '{"text":"<text>"}'
+    ```
+
+    Replace `<text>` with the text of your request, for example `set a 2 minutes 27 second timer`.
+
+    You will see the following output from the functions app:
 
     ```output
     Functions:
@@ -464,6 +474,20 @@ Rather than calling LUIS from the IoT device, you can use serverless code with a
     [2021-06-26T19:45:53.577Z] Timer required for 147 seconds
     [2021-06-26T19:45:53.746Z] Executed 'Functions.text-to-timer' (Succeeded, Id=f68bfb90-30e4-47a5-99da-126b66218e81, Duration=1750ms)
     ```
+
+    The call to curl will return the following:
+
+    ```output
+    HTTP/1.1 200 OK
+    Date: Tue, 29 Jun 2021 01:14:11 GMT
+    Content-Type: text/plain; charset=utf-8
+    Server: Kestrel
+    Transfer-Encoding: chunked
+    
+    {"seconds": 147}
+    ```
+
+    The number of seconds for the timer is in the `"seconds"` value.
 
 > 💁 You can find this code in the [code/functions](code/functions) folder.
 
