@@ -26,14 +26,14 @@ Timers can be set using the Python `threading.Timer` class. This class takes a d
 
     Replace `<URL>` with the URL of your rest endpoint that you built in the last lesson, either on your computer or in the cloud.
 
-1. Add the following code to set the text as a parameter on the URL and make the API call:
+1. Add the following code to set the text as a property passed as JSON to the call:
 
     ```python
-    params = {
+    body = {
         'text': text
     }
     
-    response = requests.post(url, params=params)
+    response = requests.post(url, json=body)
     ```
 
 1. Below this, retrieve the `seconds` from the response payload, returning 0 if the call failed:

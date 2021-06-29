@@ -15,7 +15,9 @@ def main(req: func.HttpRequest) -> func.HttpResponse:
     credentials = CognitiveServicesCredentials(luis_key)
     client = LUISRuntimeClient(endpoint=endpoint_url, credentials=credentials)
 
-    text = req.params.get('text')
+    req_body = req.get_json()
+    text = req_body['text']
+    logging.info(f'Request - {text}')
     prediction_request = { 'query' : text }
 
     prediction_response = client.prediction.get_slot_prediction(app_id, 'Staging', prediction_request)

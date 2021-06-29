@@ -76,11 +76,11 @@ def convert_speech_to_text(buffer):
 def get_timer_time(text):
     url = '<URL>'
 
-    params = {
+    body = {
         'text': text
     }
 
-    response = requests.post(url, params=params)
+    response = requests.post(url, json=body)
 
     if response.status_code != 200:
         return 0

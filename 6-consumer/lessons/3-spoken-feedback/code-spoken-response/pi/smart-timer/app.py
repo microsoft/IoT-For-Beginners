@@ -6,8 +6,6 @@ import time
 import wave
 import threading
 
-from azure.iot.device import IoTHubDeviceClient, Message, MethodResponse
-
 from grove.factory import Factory
 button = Factory.getButton('GPIO-HIGH', 5)
 
@@ -45,13 +43,6 @@ def capture_audio():
 speech_api_key = '<key>'
 location = '<location>'
 language = '<language>'
-connection_string = '<connection_string>'
-
-device_client = IoTHubDeviceClient.create_from_connection_string(connection_string)
-
-print('Connecting')
-device_client.connect()
-print('Connected')
 
 def get_access_token():
     headers = {
@@ -82,6 +73,28 @@ def convert_speech_to_text(buffer):
         return response_json['DisplayText']
     else:
         return ''
+
+def get_timer_time(text):
+    url = '<URL>'
+
+    body = {
+        'text': text
+    }
+
+    response = requests.post(url, json=body)
+
+    if response.status_code != 200:
+        return 0
+    
+    payload = response.json()
+    return payload['seconds']
+
+def process_text(text):
+    print(text)
+    
+    seconds = get_timer_time(text)
+    if seconds > 0:
+        create_timer(seconds)
 
 def get_voice():
     url = f'https://{location}.tts.speech.microsoft.com/cognitiveservices/voices/list'
@@ -167,18 +180,10 @@ def handle_method_request(request):
         if seconds > 0:
             create_timer(payload['seconds'])
 
-    method_response = MethodResponse.create_from_method_request(request, 200)
-    device_client.send_method_response(method_response)
-
-device_client.on_method_request_received = handle_method_request
-
 while True:
     while not button.is_pressed():
         time.sleep(.1)
 
     buffer = capture_audio()
     text = convert_speech_to_text(buffer)
-    if len(text) > 0:
-        print(text)
-        message = Message(json.dumps({ 'speech': text }))
-        device_client.send_message(message)
+    process_text(text)
