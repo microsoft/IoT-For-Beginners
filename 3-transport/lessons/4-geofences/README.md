@@ -14,7 +14,7 @@ This video gives an overview of geofences and how to use them in Azure Maps, top
 
 ## Introduction
 
-In the last 3 lessons, you have used IoT to locate the trucks carrying your produce from your farm to a processing hub. You've captured GPS data, sent it to the cloud to store, and visualized it on a map. The next step in increasing the efficiency of your supply chain is to get an alert when a truck is about to arrive at the processing hub, so that the crew needed to unload can be ready with forklifts and other equipment as soon as the vehicle arrives. This way they can unload quickly, and you are not paying for a truck and driver to wait.
+In the last 3 lessons, you have used IoT to locate the trucks carrying your produce from your farm to a processing hub. You've captured GPS data, sent it to a cloud storage, and visualized it on a map. The next step in increasing the efficiency of your supply chain is to get an alert when a truck is about to arrive at the processing hub, so that the crew needed to unload can be ready with forklifts and other equipment as soon as the vehicle arrives. This way they can unload quickly, and you are not paying for a truck and driver to wait.
 
 In this lesson you will learn about geofences - defined geospatial regions such as an area within a 2km minute drive of a processing hub, and how to test if GPS coordinates are inside or outside a geofence, so you can see if your GPS sensor has arrived or left an area.
 
@@ -41,7 +41,7 @@ There are many reasons why you would want to know that a vehicle is inside or ou
 
 * Preparation for unloading - getting a notification that a vehicle has arrived on-site allows a crew to be prepared to unload the vehicle, reducing vehicle waiting time. This can allow a driver to make more deliveries in a day with less waiting time.
 * Tax compliance - some countries, such as New Zealand, charge road taxes for diesel vehicles based on the vehicle weight when driving on public roads only. Using geofences allows you to track the mileage driven on public roads as opposed to private roads on sites such as farms or logging areas.
-* Monitoring theft - if a vehicle should only remain in a certain area such as on a farm, and it leaves the geofence, it might be being stolen.
+* Monitoring theft - if a vehicle should only remain in a certain area such as on a farm, and it leaves the geofence, it might have been stolen.
 * Location compliance - some parts of a work site, farm or factory may be off-limits to certain vehicles, such as keeping vehicles that carry artificial fertilizers and pesticides away from fields growing organic produce. If a geofence is entered, then a vehicle is outside of compliance and the driver can be notified.
 
 ✅ Can you think of other uses for geofences?
@@ -212,7 +212,7 @@ For example, imagine GPS readings showing a vehicle was driving along a road tha
 
 ![A GPS trail showing a vehicle passing the Microsoft campus on the 520, with GPS readings along the road except for one on the campus, inside a geofence](../../../images/geofence-crossing-inaccurate-gps.png)
 
-In the above image, there is a geofence over part of the Microsoft campus. The red line shows a truck driving along the 520, with circles to show the GPS readings. Most of these are accurate and along the 520, with one inaccurate reading inside the geofence. The is no way that reading can be correct - there are no roads for the truck to suddenly divert from the 520 onto campus, then back onto the 520. The code that checks this geofence will need to take the previous readings into consideration before acting on the results of the geofence test.
+In the above image, there is a geofence over part of the Microsoft campus. The red line shows a truck driving along the 520, with circles to show the GPS readings. Most of these are accurate and along the 520, with one inaccurate reading inside the geofence. There is no way that reading can be correct - there are no roads for the truck to suddenly divert from the 520 onto campus, then back onto the 520. The code that checks this geofence will need to take the previous readings into consideration before acting on the results of the geofence test.
 
 ✅ What additional data would you need to check to see if a GPS reading could be considered correct?
 
@@ -237,7 +237,7 @@ In the above image, there is a geofence over part of the Microsoft campus. The r
 1. Use curl to make a GET request to this URL:
 
     ```sh
-    curl --request GET <URL>
+    curl --request GET '<URL>'
     ```
 
     > 💁 If you get a response code of `BadRequest`, with an error of:
@@ -255,7 +255,7 @@ In the above image, there is a geofence over part of the Microsoft campus. The r
         "geometries": [
             {
                 "deviceId": "gps-sensor",
-                "udId": "1ffb2047-6757-8c29-2c3d-da44cec55ff9",
+                "udId": "7c3776eb-da87-4c52-ae83-caadf980323a",
                 "geometryId": "1",
                 "distance": 999.0,
                 "nearestLat": 47.645875,
