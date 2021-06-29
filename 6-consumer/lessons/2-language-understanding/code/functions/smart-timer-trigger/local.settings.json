@@ -2,8 +2,7 @@
   "IsEncrypted": false,
   "Values": {
     "FUNCTIONS_WORKER_RUNTIME": "python",
-    "AzureWebJobsStorage": "UseDevelopmentStorage=true",
-    "IOT_HUB_CONNECTION_STRING": "<connection string>",
+    "AzureWebJobsStorage": "",
     "LUIS_KEY": "<primary key>",
     "LUIS_ENDPOINT_URL": "<endpoint url>",
     "LUIS_APP_ID": "<app id>"
