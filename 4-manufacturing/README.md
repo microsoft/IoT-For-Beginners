@@ -10,7 +10,7 @@ As advances happen in Artificial Intelligence (AI) and Machine Learning (ML), th
 
 In these 4 lessons you'll learn how to train image-based AI models to detect fruit quality, how to use these from an IoT device, and how to run these on the edge - that is on an IoT device rather than in the cloud.
 
-> 💁 These lessons will use some cloud resources. If you don't complete all the lessons in this project, make sure you [Clean up your project](../clean-up.md).
+> 💁 These lessons will use some cloud resources. If you don't complete all the lessons in this project, make sure you [clean up your project](../clean-up.md).
 
 ## Topics
 
