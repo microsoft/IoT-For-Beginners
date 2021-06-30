@@ -12,22 +12,21 @@ The audio can be sent to the speech service using the REST API. To use the speec
 
 1. Remove the `play_audio` function. This is no longer needed as you don't want a smart timer to repeat back to you what you said.
 
-1. Add the following imports to the top of the `app.py` file:
+1. Add the following import to the top of the `app.py` file:
 
     ```python
     import requests
-    import json
     ```
 
 1. Add the following code above the `while True` loop to declare some settings for the speech service:
 
     ```python
-    api_key = '<key>'
+    speech_api_key = '<key>'
     location = '<location>'
     language = '<language>'
     ```
 
-    Replace `<key>` with the API key for your speech service. Replace `<location>` with the location you used when you created the speech service resource.
+    Replace `<key>` with the API key for your speech service resource. Replace `<location>` with the location you used when you created the speech service resource.
 
     Replace `<language>` with the locale name for language you will be speaking in, for example `en-GB` for English, or `zn-HK` for Cantonese. You can find a list of the supported languages and their locale names in the [Language and voice support documentation on Microsoft docs](https://docs.microsoft.com/azure/cognitive-services/speech-service/language-support?WT.mc_id=academic-17441-jabenn#speech-to-text).
 
@@ -36,7 +35,7 @@ The audio can be sent to the speech service using the REST API. To use the speec
     ```python
     def get_access_token():
         headers = {
-            'Ocp-Apim-Subscription-Key': api_key
+            'Ocp-Apim-Subscription-Key': speech_api_key
         }
     
         token_endpoint = f'https://{location}.api.cognitive.microsoft.com/sts/v1.0/issuetoken'
@@ -74,7 +73,7 @@ The audio can be sent to the speech service using the REST API. To use the speec
 
     ```python
     response = requests.post(url, headers=headers, params=params, data=buffer)
-    response_json = json.loads(response.text)
+    response_json = response.json()
 
     if response_json['RecognitionStatus'] == 'Success':
         return response_json['DisplayText']
@@ -84,11 +83,18 @@ The audio can be sent to the speech service using the REST API. To use the speec
 
     This calls the URL and decodes the JSON value that comes in the response. The `RecognitionStatus` value in the response indicates if the call was able to extract speech into text successfully, and if this is `Success` then the text is returned from the function, otherwise an empty string is returned.
 
-1. Finally replace the call to `play_audio` in the `while True` loop with a call to the `convert_speech_to_text` function, as well as printing the text to the console:
+1. Above the `while True:` loop, define a function to process the text returned from the speech to text service. This function will just print the text to the console for now.
+
+    ```python
+    def process_text(text):
+        print(text)
+    ```
+
+1. Finally replace the call to `play_audio` in the `while True` loop with a call to the `convert_speech_to_text` function, passing the text to the `process_text` function:
 
     ```python
     text = convert_speech_to_text(buffer)
-    print(text)
+    process_text(text)
     ```
 
 1. Run the code. Press the button and speak into the microphone. Release the button when you are done, and the audio will be converted to text and printed to the console.

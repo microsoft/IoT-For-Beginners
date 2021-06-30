@@ -1,34 +1,32 @@
-import json
+import requests
 import threading
 import time
 from azure.cognitiveservices.speech import SpeechConfig, SpeechRecognizer
-from azure.iot.device import IoTHubDeviceClient, Message, MethodResponse
 
-api_key = '<key>'
+speech_api_key = '<key>'
 location = '<location>'
 language = '<language>'
-connection_string = '<connection_string>'
 
-device_client = IoTHubDeviceClient.create_from_connection_string(connection_string)
-
-print('Connecting')
-device_client.connect()
-print('Connected')
-
-recognizer_config = SpeechConfig(subscription=api_key,
+recognizer_config = SpeechConfig(subscription=speech_api_key,
                                  region=location,
                                  speech_recognition_language=language)
 
 recognizer = SpeechRecognizer(speech_config=recognizer_config)
 
-def recognized(args):
-    if len(args.result.text) > 0:
-        message = Message(json.dumps({ 'speech': args.result.text }))
-        device_client.send_message(message)
+def get_timer_time(text):
+    url = '<URL>'
 
-recognizer.recognized.connect(recognized)
+    body = {
+        'text': text
+    }
 
-recognizer.start_continuous_recognition()
+    response = requests.post(url, json=body)
+
+    if response.status_code != 200:
+        return 0
+    
+    payload = response.json()
+    return payload['seconds']
 
 def say(text):
     print(text)
@@ -36,34 +34,37 @@ def say(text):
 def announce_timer(minutes, seconds):
     announcement = 'Times up on your '
     if minutes > 0:
-        announcement += f'{minutes} minute'
+        announcement += f'{minutes} minute '
     if seconds > 0:
-        announcement += f'{seconds} second'
-    announcement += ' timer.'
+        announcement += f'{seconds} second '
+    announcement += 'timer.'
     say(announcement)
 
 def create_timer(total_seconds):
     minutes, seconds = divmod(total_seconds, 60)
     threading.Timer(total_seconds, announce_timer, args=[minutes, seconds]).start()
+
     announcement = ''
     if minutes > 0:
-        announcement += f'{minutes} minute'
+        announcement += f'{minutes} minute '
     if seconds > 0:
-        announcement += f'{seconds} second'    
-    announcement += ' timer started.'
+        announcement += f'{seconds} second '    
+    announcement += 'timer started.'
     say(announcement)
 
-def handle_method_request(request):    
-    if request.name == 'set-timer':
-        payload = json.loads(request.payload)
-        seconds = payload['seconds']
-        if seconds > 0:
-            create_timer(payload['seconds'])
+def process_text(text):
+    print(text)
 
-    method_response = MethodResponse.create_from_method_request(request, 200)
-    device_client.send_method_response(method_response)
+    seconds = get_timer_time(text)
+    if seconds > 0:
+        create_timer(seconds)
 
-device_client.on_method_request_received = handle_method_request
+def recognized(args):
+    process_text(args.result.text)
+
+recognizer.recognized.connect(recognized)
+
+recognizer.start_continuous_recognition()
 
 while True:
     time.sleep(1)

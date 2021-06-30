@@ -6,8 +6,6 @@ import time
 import wave
 import threading
 
-from azure.iot.device import IoTHubDeviceClient, Message, MethodResponse
-
 from grove.factory import Factory
 button = Factory.getButton('GPIO-HIGH', 5)
 
@@ -42,20 +40,13 @@ def capture_audio():
 
     return wav_buffer
 
-api_key = '<key>'
+speech_api_key = '<key>'
 location = '<location>'
 language = '<language>'
-connection_string = '<connection_string>'
-
-device_client = IoTHubDeviceClient.create_from_connection_string(connection_string)
-
-print('Connecting')
-device_client.connect()
-print('Connected')
 
 def get_access_token():
     headers = {
-        'Ocp-Apim-Subscription-Key': api_key
+        'Ocp-Apim-Subscription-Key': speech_api_key
     }
 
     token_endpoint = f'https://{location}.api.cognitive.microsoft.com/sts/v1.0/issuetoken'
@@ -83,6 +74,28 @@ def convert_speech_to_text(buffer):
     else:
         return ''
 
+def get_timer_time(text):
+    url = '<URL>'
+
+    body = {
+        'text': text
+    }
+
+    response = requests.post(url, json=body)
+
+    if response.status_code != 200:
+        return 0
+    
+    payload = response.json()
+    return payload['seconds']
+
+def process_text(text):
+    print(text)
+    
+    seconds = get_timer_time(text)
+    if seconds > 0:
+        create_timer(seconds)
+
 def get_voice():
     url = f'https://{location}.tts.speech.microsoft.com/cognitiveservices/voices/list'
 
@@ -97,7 +110,7 @@ def get_voice():
     return first_voice['ShortName']
 
 voice = get_voice()
-print(f"Using voice {voice}")
+print(f'Using voice {voice}')
 
 playback_format = 'riff-48khz-16bit-mono-pcm'
 
@@ -143,10 +156,10 @@ def say(text):
 def announce_timer(minutes, seconds):
     announcement = 'Times up on your '
     if minutes > 0:
-        announcement += f'{minutes} minute'
+        announcement += f'{minutes} minute '
     if seconds > 0:
-        announcement += f'{seconds} second'
-    announcement += ' timer.'
+        announcement += f'{seconds} second '
+    announcement += 'timer.'
     say(announcement)
 
 def create_timer(total_seconds):
@@ -154,10 +167,10 @@ def create_timer(total_seconds):
     threading.Timer(total_seconds, announce_timer, args=[minutes, seconds]).start()
     announcement = ''
     if minutes > 0:
-        announcement += f'{minutes} minute'
+        announcement += f'{minutes} minute '
     if seconds > 0:
-        announcement += f'{seconds} second'    
-    announcement += ' timer started.'
+        announcement += f'{seconds} second '
+    announcement += 'timer started.'
     say(announcement)
 
 def handle_method_request(request):    
@@ -167,18 +180,10 @@ def handle_method_request(request):
         if seconds > 0:
             create_timer(payload['seconds'])
 
-    method_response = MethodResponse.create_from_method_request(request, 200)
-    device_client.send_method_response(method_response)
-
-device_client.on_method_request_received = handle_method_request
-
 while True:
     while not button.is_pressed():
         time.sleep(.1)
 
     buffer = capture_audio()
     text = convert_speech_to_text(buffer)
-    if len(text) > 0:
-        print(text)
-        message = Message(json.dumps({ 'speech': text }))
-        device_client.send_message(message)
+    process_text(text)

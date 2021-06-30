@@ -10,6 +10,8 @@ Each language supports a range of different voices, and you can make a REST requ
 
 ### Task - get a voice
 
+1. Open the `smart-timer` project in VS Code.
+
 1. Add the following code above the `say` function to request the list of voices for a language:
 
     ```python
@@ -27,7 +29,7 @@ Each language supports a range of different voices, and you can make a REST requ
         return first_voice['ShortName']
     
     voice = get_voice()
-    print(f"Using voice {voice}")
+    print(f'Using voice {voice}')
     ```
 
     This code defines a function called `get_voice` that uses the speech service to get a list of voices. It then finds the first voice that matches the language that is being used.

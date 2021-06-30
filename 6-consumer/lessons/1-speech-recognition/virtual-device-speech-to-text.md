@@ -32,6 +32,7 @@ On Windows, Linux, and macOS, the speech services Python SDK can be used to list
 1. Add the following imports to the `app,py` file:
 
     ```python
+    import requests
     import time
     from azure.cognitiveservices.speech import SpeechConfig, SpeechRecognizer
     ```
@@ -41,11 +42,11 @@ On Windows, Linux, and macOS, the speech services Python SDK can be used to list
 1. Add the following code to declare some configuration:
 
     ```python
-    api_key = '<key>'
+    speech_api_key = '<key>'
     location = '<location>'
     language = '<language>'
 
-    recognizer_config = SpeechConfig(subscription=api_key,
+    recognizer_config = SpeechConfig(subscription=speech_api_key,
                                      region=location,
                                      speech_recognition_language=language)
     ```
@@ -62,11 +63,14 @@ On Windows, Linux, and macOS, the speech services Python SDK can be used to list
     recognizer = SpeechRecognizer(speech_config=recognizer_config)
     ```
 
-1. The speech recognizer runs on a background thread, listening for audio and converting any speech in it to text. You can get the text using a callback function - a function you define and pass to the recognizer. Every time speech is detected, the callback is called. Add the following code to define a callback that prints the text to the console, and pass this callback to the recognizer:
+1. The speech recognizer runs on a background thread, listening for audio and converting any speech in it to text. You can get the text using a callback function - a function you define and pass to the recognizer. Every time speech is detected, the callback is called. Add the following code to define a callback, and pass this callback to the recognizer, as well as defining a function to process the text, writing it to the consoled:
 
     ```python
+    def process_text(text):
+        print(text)
+
     def recognized(args):
-        print(args.result.text)
+        process_text(args.result.text)
     
     recognizer.recognized.connect(recognized)
     ```
