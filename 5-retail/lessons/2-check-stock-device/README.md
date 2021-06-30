@@ -17,6 +17,7 @@ In this lesson we'll cover:
 * [Stock counting](#stock-counting)
 * [Call your object detector from your IoT device](#call-your-object-detector-from-your-iot-device)
 * [Bounding boxes](#bounding-boxes)
+* [Retrain the model](#retrain-the-model)
 * [Count stock](#count-stock)
 
 ## Stock counting
@@ -84,7 +85,64 @@ Follow the relevant guide below to use the object detector from your IoT device:
 
 ## Bounding boxes
 
+When you use the object detector, you not only get back the detected objects with their tags and probabilities, but you also get the bounding boxes of the objects. These define where the object detector detected the object with the given probability.
+
+> 💁 A bounding box is a box that defines the area that contains the object detected, a box that defines the boundary for the object.
+
+The results of a prediction in the **Predictions** tab in Custom Vision have the bounding boxes drawn on the image that was sent for prediction.
+
+![4 cans of tomato paste on a shelf with predictions for the 4 detections of 35.8%, 33.5%, 25.7% and 16.6%](../../../images/custom-vision-stock-prediction.png)
+
+In the image above, 4 cans of tomato paste were detected. In the results a red square is overlaid for each object that was detected in the image, indicating the bounding box for the image.
+
+✅ Open the predictions in Custom Vision and check out the bounding boxes.
+
+Bounding boxes are defined with 4 values - top, left, height and width. These values are on a scale of 0-1, representing the positions as a percentage of the size of the image.
+
+![A bounding box around a can of tomato paste](../../../images/bounding-box.png)
+
+The above image is 600 pixels wide and 800 pixels tall. The bounding box starts at 320 pixels down, giving a top coordinate of 0.4 (800 x 0.4 = 320). From the left, the bounding box starts at 240 pixels across, giving a left coordinate of 0.4 (600 x 0.4 = 240). The height of the bounding box is 240 pixels, giving a height value of 0.3 (800 x 0.3 = 240). The width of the bounding box is 120 pixels, giving a width value of 0.2 (600 x 0.2 = 120).
+
+| Coordinate | Value |
+| ---------- | ----: |
+| Top        | 0.4   |
+| Left       | 0.4   |
+| Height     | 0.3   |
+| Width      | 0.2   |
+
+Using percentage values from 0-1 means no matter what size the image is scaled to, the bounding box starts 0.4 of the way along and down, and is a 0.3 of the height and 0.2 of the width.
+
+You can use bounding boxes combined with probabilities to evaluate how accurate a detection is. For example, an object detector can detect multiple objects that overlap, for example detecting one can inside another. Your code could look at the bounding boxes, understand that this is impossible, and ignore any objects that have a significant overlap with other objects.
+
+![Two bonding boxes overlapping a can of tomato paste](../../../images/overlap-object-detection.png)
+
+In the example above, one bounding box indicated a predicted can of tomato paste at 78.3%. A second bounding box is slightly smaller, and is inside the first bounding box with a probability of 64.3%. You code can check the bounding boxes, see they overlap completely, and ignore the lower probability as there is no way one can can be inside another.
+
+✅ Can you think of a situation where is it valid to detect one object inside another?
+
+## Retrain the model
+
+Just like with the image classifier, you can retrain your model using data captured by your IoT device. Using this real-world data will ensure your model works well when used from your IoT device.
+
+Unlike with the image classifier, you can't just tag an image. Instead you need to review every bounding box detected by the model. If the box is around the wrong thing then it needs to be deleted, if it is in the wrong location it needs to be adjusted.
+
+### Task - retrain the model
+
+1. Make sure you have captured a range of images using your IoT device.
+
+1. From the **Predictions** tab, select an image. You will see red boxes indicating the bounding boxes of the detected objects.
+
+1. Work through each bounding box. Select it first and you will see a pop-up showing the tag. Use the handles on the corners of the bounding box to adjust the size if necessary. If the tag is wrong, remove it with the **X** button and add the correct tag. If the bounding box doesn't contain an object, delete it with the trashcan button.
+
+1. Close the editor when done and the image will move from the **Predictions** tab to the **Training Images** tab. Repeat the process for all the predictions.
+
+1. Use the **Train** button to re-train your model. Once it has trained, publish the iteration and update your IoT device to use the URL of the new iteration.
+
+1. Re-deploy your code and test your IoT device.
+
 ## Count stock
+
+Using a combination of the number of objects detected and the bounding boxes, you can count the stock on a shelf.
 
 ### Task - count stock
 

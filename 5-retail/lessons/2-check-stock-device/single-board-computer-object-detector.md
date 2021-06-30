@@ -19,6 +19,10 @@ The majority of your stock detector is the same as the image classifier you crea
 
 1. Replicate the steps from [lesson 2 of the manufacturing project](../../../4-manufacturing/lessons/2-check-fruit-from-device/README.md#task---classify-images-from-your-iot-device) to call the image classifier. The majority of this code will be re-used to detect objects.
 
+## Change the code from a classifier to an image detector
+
+The code you used to classify images is very similar to the code to detect objects. The main difference is the method called on the Custom Vision SDK, and the results of the call.
+
 ### Task - change the code from a classifier to an image detector
 
 1. Delete the three lines of code that classifies the image and processes the predictions:
