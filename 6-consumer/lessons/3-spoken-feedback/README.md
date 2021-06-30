@@ -72,34 +72,11 @@ These large ML models are being trained to combine all three steps into end-to-e
 
 ## Set the timer
 
-The timer can be set by sending a command from the serverless code, instructing the IoT device to set the timer. This command will contain the time in seconds till the timer needs to go off.
+To set the timer, your IoT device needs to call the REST endpoint you created using serverless code, then use the resulting number of seconds to set a timer.
 
-### Task - set the timer using a command
+### Task - call the serverless function to get the timer time
 
-1. In your serverless code, add code to send a direct method request to your IoT device
-
-    > ⚠️ You can refer to [the instructions for sending direct method requests in lesson 5 of the farm project if needed](../../../2-farm/lessons/5-migrate-application-to-the-cloud/README.md#send-direct-method-requests-from-serverless-code).
-
-    You will need to set up the connection string for the IoT Hub with the service policy (*NOT* the device) in your `local.settings.json` file and add the `azure-iot-hub` pip package to your `requirements.txt` file. The device ID can be extracted from the event.
-
-1. The direct method you send needs to be called `set-timer`, and will need to send the length of the timer as a JSON property called `seconds`. Use the following code to build the `CloudToDeviceMethod` using the `total_seconds` calculated from the data extracted by LUIS:
-
-    ```python
-    payload = {
-        'seconds': total_seconds
-    }
-    direct_method = CloudToDeviceMethod(method_name='set-timer', payload=json.dumps(payload))
-    ```
-
-> 💁 You can find this code in the [code-command/functions](code-command/functions) folder.
-
-### Task - respond to the command on the IoT device
-
-1. On your IoT device, respond to the command.
-
-    > ⚠️ You can refer to [the instructions for handling direct method requests from IoT devices in lesson 4 of the farm project if needed](../../../2-farm/lessons/4-migrate-your-plant-to-the-cloud#task---connect-your-iot-device-to-the-cloud).
-
-1. Work through the relevant guide to set a timer for the required time:
+Follow the relevant guide to call the REST endpoint from your IoT device and set a timer for the required time:
 
 * [Arduino - Wio Terminal](wio-terminal-set-timer.md)
 * [Single-board computer - Raspberry Pi/Virtual IoT device](single-board-computer-set-timer.md)

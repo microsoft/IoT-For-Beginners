@@ -1,5 +1,4 @@
 import io
-import json
 import pyaudio
 import requests
 import time
@@ -66,12 +65,15 @@ def convert_speech_to_text(buffer):
     }
 
     response = requests.post(url, headers=headers, params=params, data=buffer)
-    response_json = json.loads(response.text)
+    response_json = response.json()
 
     if response_json['RecognitionStatus'] == 'Success':
         return response_json['DisplayText']
     else:
         return ''
+
+def process_text(text):
+    print(text)
 
 while True:
     while not button.is_pressed():
@@ -79,4 +81,4 @@ while True:
 
     buffer = capture_audio()
     text = convert_speech_to_text(buffer)
-    print(text)
+    process_text(text)
