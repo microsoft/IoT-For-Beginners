@@ -104,7 +104,7 @@
 			},
 			{
 				"id": 3,
-				"title": "Lesson 2 - Introduction to IoT devices: Pre-Lecture Quiz",
+				"title": "Lesson 2 - A deeper dive into IoT: Pre-Lecture Quiz",
 				"quiz": [
 					{
 						"questionText": "The T in IoT stands for:",
@@ -157,7 +157,7 @@
 			},
 			{
 				"id": 4,
-				"title": "Lesson 2 - Introduction to IoT devices: Post-Lecture Quiz",
+				"title": "Lesson 2 - A deeper dive into IoT: Post-Lecture Quiz",
 				"quiz": [
 					{
 						"questionText": "The three steps in a CPU instruction cycle are:",
