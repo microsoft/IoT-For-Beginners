@@ -328,27 +328,27 @@
 						]
 					},
 					{
-						"questionText": "IoT devices always communicate over HTTP, the same as web apps and other web APIs:",
+						"questionText": "ওয়েব অ্যাপ্লিকেশন বা অন্যান্য ওয়েব APIগুলির মত আইওটি ডিভাইসগুলি সর্বদা HTTP এর মাধ্যমে যোগাযোগ করে",
 						"answerOptions": [
 							{
-								"answerText": "False",
+								"answerText": "মিথ্যা",
 								"isCorrect": "true"
 							},
 							{
-								"answerText": "True",
+								"answerText": "সত্য",
 								"isCorrect": "false"
 							}
 						]
 					},
 					{
-						"questionText": "IoT devices rely on the cloud for all their decision making:",
+						"questionText": "আইওটি ডিভাইসগুলি তাদের সকল সিদ্ধান্ত নেওয়ার জন্য ক্লাউডের উপর নির্ভর করে:",
 						"answerOptions": [
 							{
-								"answerText": "False",
+								"answerText": "মিথ্যা",
 								"isCorrect": "true"
 							},
 							{
-								"answerText": "True",
+								"answerText": "সত্য",
 								"isCorrect": "false"
 							}
 						]
@@ -357,51 +357,51 @@
 			},
 			{
 				"id": 8,
-				"title": "Lesson 4 - Connect your device to the Internet: Post-Lecture Quiz",
+				"title": "লেসন ৪ - ডিভাইসকে ইন্টারনেটের সাথে যুক্ত করা: লেকচার পরবর্তী কুইজ",
 				"quiz": [
 					{
-						"questionText": "Data gathered from sensors and sent to the cloud is called:",
+						"questionText": "সেন্সর থেকে সংগ্রহ করা এবং ক্লাউডে প্রেরণ করা ডেটাকে বলা হয়:",
 						"answerOptions": [
 							{
-								"answerText": "Telemetry",
+								"answerText": "টেলিমেট্রি",
 								"isCorrect": "true"
 							},
 							{
-								"answerText": "Commands",
+								"answerText": "কমান্ড",
 								"isCorrect": "false"
 							},
 							{
-								"answerText": "Measurements",
+								"answerText": "পরিমাপ",
 								"isCorrect": "false"
 							}
 						]
 					},
 					{
-						"questionText": "What should happen to a command if the IoT device is offline:",
+						"questionText": "আইওটি ডিভাইস অফলাইনে থাকলে কোন কমান্ডের কী হবে:",
 						"answerOptions": [
 							{
-								"answerText": "It should always be resent when the device is back online",
+								"answerText": "ডিভাইসটি অনলাইনে পুনরায় যুক্ত হলে, কমান্ড আবারো পাঠাতে হবে",
 								"isCorrect": "false"
 							},
 							{
-								"answerText": "It should never be resent when the device is back online",
+								"answerText": "ডিভাইসটি অনলাইনে পুনরায় যুক্ত হলওে, কমান্ড আবারো পাঠানো উচিত হবেনা",
 								"isCorrect": "false"
 							},
 							{
-								"answerText": "It depends on the command, the device a the requirements of the IoT app",
+								"answerText": "এটি কমান্ড, ডিভাইসটি এবং আইওটি অ্যাপ্লিকেশনটির প্রয়োজনীয়তার উপর নির্ভর করে",
 								"isCorrect": "true"
 							}
 						]
 					},
 					{
-						"questionText": "MQTT, or Message Queueing Telemetry Transport, has message queues:",
+						"questionText": "MQTT অর্থাৎ Message Queueing Telemetry Transport এ ম্যাসেজের সারি থাকে:",
 						"answerOptions": [
 							{
-								"answerText": "True",
+								"answerText": "সত্য",
 								"isCorrect": "false"
 							},
 							{
-								"answerText": "False",
+								"answerText": "মিথ্যা",
 								"isCorrect": "true"
 							}
 						]
@@ -410,47 +410,47 @@
 			},
 			{
 				"id": 9,
-				"title": "Lesson 5 - Predict plant growth: Pre-Lecture Quiz",
+				"title": "লেসন ৫ - গাছের বৃদ্ধি অনুমান করা: লেকচার পূর্ববর্তী কুইজ",
 				"quiz": [
 					{
-						"questionText": "Iot devices can be used to support agriculture",
+						"questionText": "আইট ডিভাইসগুলি কৃষিক্ষেত্রে সহায়তা করতে ব্যবহার করা যেতে পারে",
 						"answerOptions": [
 							{
-								"answerText": "True",
+								"answerText": "সত্য",
 								"isCorrect": "true"
 							},
 							{
-								"answerText": "False",
+								"answerText": "মিথ্যা",
 								"isCorrect": "false"
 							}
 						]
 					},
 					{
-						"questionText": "Plant needs include: (pick the best answer)",
+						"questionText": "উদ্ভিদের প্রয়োজনীয়তার মধ্যে রয়েছে: (সেরা উত্তরটি বেছে নিতে হবে)",
 						"answerOptions": [
 							{
-								"answerText": "Carbon dioxide, water, nutrients",
+								"answerText": "কার্বন ডাইঅক্সাইড, পানি, পুষ্টি উপাদান",
 								"isCorrect": "false"
 							},
 							{
-								"answerText": "Carbon dioxide, water, nutrients, light",
+								"answerText": "কার্বন ডাইঅক্সাইড, পানি, পুষ্টি উপাদান, আলো",
 								"isCorrect": "false"
 							},
 							{
-								"answerText": "Carbon dioxide, water, nutrients, light, warmth",
+								"answerText": "কার্বন ডাইঅক্সাইড, পানি, পুষ্টি উপাদান, আলো, উষ্ণতা",
 								"isCorrect": "true"
 							}
 						]
 					},
 					{
-						"questionText": "Sensors are too expensive for farmers in developed nations to use:",
+						"questionText": "উন্নত দেশগুলির কৃষকদের ব্যবহারের জন্য সেন্সরগুলি অত্যন্ত ব্যয়বহুল:",
 						"answerOptions": [
 							{
-								"answerText": "False",
+								"answerText": "মিথ্যা",
 								"isCorrect": "true"
 							},
 							{
-								"answerText": "True",
+								"answerText": "সত্য",
 								"isCorrect": "false"
 							}
 						]
@@ -459,40 +459,40 @@
 			},
 			{
 				"id": 10,
-				"title": "Lesson 5 - Predict plant growth: Post-Lecture Quiz",
+				"title": "লেসন ৫ - গাছের বৃদ্ধি অনুমান করা: লেকচার পরবর্তী কুইজ",
 				"quiz": [
 					{
-						"questionText": "Plant growth is dependant on temperature",
+						"questionText": "উদ্ভিদের বৃদ্ধি তাপমাত্রার উপর নির্ভরশীল",
 						"answerOptions": [
 							{
-								"answerText": "True",
+								"answerText": "সত্য",
 								"isCorrect": "true"
 							},
 							{
-								"answerText": "False",
+								"answerText": "মিথ্যা",
 								"isCorrect": "false"
 							}
 						]
 					},
 					{
-						"questionText": "The temperatures to consider for plant growth are:",
+						"questionText": "উদ্ভিদ বৃদ্ধির জন্য কোন তাপমাত্রাগুলো বিবেচনা করতে হবে",
 						"answerOptions": [
 							{
-								"answerText": "Minimum, maximum",
+								"answerText": "সর্বনিম্ন, সর্বোচ্চ",
 								"isCorrect": "false"
 							},
 							{
-								"answerText": "Base, optimal, maximum",
+								"answerText": "নিম্নমান, পরিমিত, সর্বোচ্চ",
 								"isCorrect": "true"
 							},
 							{
-								"answerText": "Maximum only",
+								"answerText": "শুধুমাত্র সর্বোচ্চ",
 								"isCorrect": "false"
 							}
 						]
 					},
 					{
-						"questionText": "Growing Degree Days are calculated using which formula:",
+						"questionText": "ক্রমবর্ধমান বৃদ্ধির ডিগ্রি (Growing Degree Days) দিনগুলি কোন সূত্রটি ব্যবহার করে গণনা করা হয়:",
 						"answerOptions": [
 							{
 								"answerText": "(day max + day min) - plant base",
@@ -512,47 +512,47 @@
 			},
 			{
 				"id": 11,
-				"title": "Lesson 6 - Detect soil moisture: Pre-Lecture Quiz",
+				"title": "লেসন ৬ - মাটির আর্দ্রতা পরিমাপ: লেকচার পূর্ববর্তী কুইজ",
 				"quiz": [
 					{
-						"questionText": "Iot devices can be used to detect ambient properties like soil moisture",
+						"questionText": "আইওটি ডিভাইসগুলি মাটির আর্দ্রতার মতো চারিপার্শ্বিক বৈশিষ্ট্যগুলি সনাক্ত করতে ব্যবহার করা যেতে পারে",
 						"answerOptions": [
 							{
-								"answerText": "True",
+								"answerText": "সত্য",
 								"isCorrect": "true"
 							},
 							{
-								"answerText": "False",
+								"answerText": "মিথ্যা",
 								"isCorrect": "false"
 							}
 						]
 					},
 					{
-						"questionText": "Which of these can cause problems for plant growth (pick one)?",
+						"questionText": "এর মধ্যে কোনটি গাছের বৃদ্ধির জন্য সমস্যা সৃষ্টি করতে পারে (একটি বাছাই করতে হবে)?",
 						"answerOptions": [
 							{
-								"answerText": "Too little water",
+								"answerText": "খুব অল্প পানি",
 								"isCorrect": "false"
 							},
 							{
-								"answerText": "Too much water",
+								"answerText": "খুব বেশি পানি",
 								"isCorrect": "false"
 							},
 							{
-								"answerText": "Too little or too much water",
+								"answerText": "খুব অল্প বা খুব বেশি পান",
 								"isCorrect": "true"
 							}
 						]
 					},
 					{
-						"questionText": "All sensors are provided pre-calibrated for standard units:",
+						"questionText": "সমস্ত সেন্সরে স্ট্যান্ডার্ড ইউনিটগুলির জন্য আগে থেকেই ক্যালিব্রেটেড থাকে",
 						"answerOptions": [
 							{
-								"answerText": "True",
+								"answerText": "সত্য",
 								"isCorrect": "false"
 							},
 							{
-								"answerText": "False",
+								"answerText": "মিথ্যা",
 								"isCorrect": "true"
 							}
 						]
@@ -561,55 +561,55 @@
 			},
 			{
 				"id": 12,
-				"title": "Lesson 6 - Detect soil moisture: Post-Lecture Quiz",
+				"title": "লেসন ৬ - মাটির আর্দ্রতা পরিমাপ: লেকচার পরবর্তী কুইজ",
 				"quiz": [
 					{
-						"questionText": "When measuring soil moisture, one difference between resistive and capacitive moisture sensors is:",
+						"questionText": "মাটির আর্দ্রতা পরিমাপ করার সময়, রোধক (resistive) এবং ক্যাপাসিটিভ আর্দ্রতা সেন্সরের মধ্যে একটি পার্থক্য:",
 						"answerOptions": [
 							{
-								"answerText": "As moisture levels go up the voltage goes up for resistive sensors and down for capacitive sensors",
+								"answerText": "আর্দ্রতা স্তর বাড়ার সাথে সাথে রোধক সেন্সরগুলির ভোল্টেজ মান বাড়ে এবং ক্যাপাসিটিভ সেন্সরগুলির জন্য নিচে নেমে যায়",
 								"isCorrect": "true"
 							},
 							{
-								"answerText": "As moisture levels go up the voltage goes down for resistive sensors and up for capacitive sensors",
+								"answerText": "আর্দ্রতা স্তর বাড়ার সাথে সাথে ভোল্টেজ রোধক সেন্সরগুলির ভোল্টেজ মান কমে এবং ক্যাপাসিটিভ সেন্সরগুলির জন্য বেড়ে যায়",
 								"isCorrect": "false"
 							},
 							{
-								"answerText": "As moisture levels go up the voltage goes up for both resistive and capacitive sensors",
+								"answerText": "আর্দ্রতা স্তর বাড়ার সাথে সাথে রোধক সেন্সর এবং ক্যাপাসিটিভ সেন্সর উভয়ের ভোল্টেজ বেড়ে যায়",
 								"isCorrect": "false"
 							}
 						]
 					},
 					{
-						"questionText": "The SPI protocol supports:",
+						"questionText": "SPI প্রটোকল সাপোর্ট করে:",
 						"answerOptions": [
 							{
-								"answerText": "Only one controller and only one peripheral",
+								"answerText": "শুধু ১টি কন্ট্রোলার এবং ১টি পেরিফেরাল",
 								"isCorrect": "false"
 							},
 							{
-								"answerText": "Only one controller and multiple peripherals",
+								"answerText": "শুধু ১টি কন্ট্রোলার এবং একাধিক পেরিফেরাল",
 								"isCorrect": "true"
 							},
 							{
-								"answerText": "Multiple controllers and multiple peripherals",
+								"answerText": "একাধিক কন্ট্রোলার এবং একাধিক পেরিফেরাল",
 								"isCorrect": "false"
 							}
 						]
 					},
 					{
-						"questionText": "The I2C protocol supports:",
+						"questionText": "I2C প্রটোকল সাপোর্ট করে:",
 						"answerOptions": [
 							{
-								"answerText": "Only one controller and only one peripheral",
+								"answerText": "শুধু ১টি কন্ট্রোলার এবং ১টি পেরিফেরাল",
 								"isCorrect": "false"
 							},
 							{
-								"answerText": "Only one controller and multiple peripherals",
+								"answerText": "শুধু ১টি কন্ট্রোলার এবং একাধিক পেরিফেরাল",
 								"isCorrect": "false"
 							},
 							{
-								"answerText": "Multiple controllers and multiple peripherals",
+								"answerText": "একাধিক কন্ট্রোলার এবং একাধিক পেরিফেরাল",
 								"isCorrect": "true"
 							}
 						]
@@ -618,43 +618,43 @@
 			},
 			{
 				"id": 13,
-				"title": "Lesson 7 - Automated plant watering: Pre-Lecture Quiz",
+				"title": "লেসন ৭ - অটোমেটিক গাছে পানি দেয়া: লেকচার পূর্ববর্তী কুইজ",
 				"quiz": [
 					{
-						"questionText": "Iot devices are powerful enough to control water pumps",
+						"questionText": "আইওটি ডিভাইসগুলি পানির পাম্পগুলি নিয়ন্ত্রণ করতে যথেষ্ট শক্তিশালী",
 						"answerOptions": [
 							{
-								"answerText": "True",
+								"answerText": "সত্য",
 								"isCorrect": "false"
 							},
 							{
-								"answerText": "False",
+								"answerText": "মিথ্যা",
 								"isCorrect": "true"
 							}
 						]
 					},
 					{
-						"questionText": "Actuators can be used to control power to additional devices",
+						"questionText": "অতিরিক্ত ডিভাইসে পাওয়ার নিয়ন্ত্রণ করতে একচুয়েটর ব্যবহার করা যেতে পারে",
 						"answerOptions": [
 							{
-								"answerText": "True",
+								"answerText": "সত্য",
 								"isCorrect": "true"
 							},
 							{
-								"answerText": "False",
+								"answerText": "মিথ্যা",
 								"isCorrect": "false"
 							}
 						]
 					},
 					{
-						"questionText": "Sensors detect changes from actuators immediately",
+						"questionText": "সেন্সরগুলি তাত্ক্ষণিকভাবে একচুয়েটরগুলির পরিবর্তনগুলি সনাক্ত করে",
 						"answerOptions": [
 							{
-								"answerText": "True",
+								"answerText": "সত্য",
 								"isCorrect": "false"
 							},
 							{
-								"answerText": "False",
+								"answerText": "মিথ্যা",
 								"isCorrect": "true"
 							}
 						]
@@ -663,51 +663,51 @@
 			},
 			{
 				"id": 14,
-				"title": "Lesson 7 - Automated plant watering: Post-Lecture Quiz",
+				"title": "লেসন ৭ - অটোমেটিক গাছে পানি দেয়া: লেকচার পরবর্তী কুইজ",
 				"quiz": [
 					{
-						"questionText": "A relay is what type of switch:",
+						"questionText": "রিলে কোন ধরণের সুইচ?",
 						"answerOptions": [
 							{
-								"answerText": "Electrical",
+								"answerText": "ইলেক্ট্রিকাল",
 								"isCorrect": "false"
 							},
 							{
-								"answerText": "Electromechanical",
+								"answerText": "ইলেক্ট্রোমেকানিক্যাল",
 								"isCorrect": "true"
 							},
 							{
-								"answerText": "Mechanical",
+								"answerText": "মেকানিক্যাল",
 								"isCorrect": "false"
 							}
 						]
 					},
 					{
-						"questionText": "A relay allows:",
+						"questionText": "রিলে এর মাধ্যম যা করা যায়-",
 						"answerOptions": [
 							{
-								"answerText": "A low power device to control a higher power device",
+								"answerText": "কম পাওয়ারের ডিভাইস দিয়ে হাই-পাওয়ার ডিভাইস নিয়ন্ত্রণ",
 								"isCorrect": "true"
 							},
 							{
-								"answerText": "A high power device to control a low power device",
+								"answerText": "হাই-পাওয়ার ডিভাইস দিয়ে কম পাওয়ারের ডিভাইস নিয়ন্ত্রণ",
 								"isCorrect": "false"
 							},
 							{
-								"answerText": "Runners to run a race passing a baton between them",
+								"answerText": "দৌড়বিদদের মধ্যে ব্যাটন পরিবর্তন",
 								"isCorrect": "false"
 							}
 						]
 					},
 					{
-						"questionText": "Actuators should always respond instantly to sensor readings:",
+						"questionText": "অ্যাকচুয়েটরকে সর্বদা সেন্সর রিডিংয়ের সাথে তাত্ক্ষণিকভাবে প্রতিক্রিয়া জানানো উচিত:",
 						"answerOptions": [
 							{
-								"answerText": "True",
+								"answerText": "সত্য",
 								"isCorrect": "false"
 							},
 							{
-								"answerText": "False",
+								"answerText": "মিথ্যা",
 								"isCorrect": "true"
 							}
 						]
@@ -716,34 +716,34 @@
 			},
 			{
 				"id": 15,
-				"title": "Lesson 8 - Migrate your plant to the cloud: Pre-Lecture Quiz",
+				"title": "লেসন ৮ - গাছকে ক্লাউড থেকে নিয়ন্ত্রণ: লেকচার পূর্ববর্তী কুইজ",
 				"quiz": [
 					{
-						"questionText": "A public MQTT broker is fine to use for a commercial IoT project",
+						"questionText": " একটি পাবলিক MQTT broker দিয়ে কমার্শিয়াল আইওটি প্রজেক্ট করা যায়",
 						"answerOptions": [
 							{
-								"answerText": "True",
+								"answerText": "সত্য",
 								"isCorrect": "false"
 							},
 							{
-								"answerText": "False",
+								"answerText": "মিথ্যা",
 								"isCorrect": "true"
 							}
 						]
 					},
 					{
-						"questionText": "Cloud computing allow you to:",
+						"questionText": "ক্লাউড কম্পিউটিং দ্বারা যা করতে পারি -",
 						"answerOptions": [
 							{
-								"answerText": "Only rent computers",
+								"answerText": "কেবল কম্পিউটার ভাড়া নেয়া",
 								"isCorrect": "false"
 							},
 							{
-								"answerText": "Rent computers and application platforms only",
+								"answerText": "কম্পিউটার এবং এপ্লিকেশন প্লাটফর্ম ভাড়া নেয়া",
 								"isCorrect": "false"
 							},
 							{
-								"answerText": "Rent computers, application platforms, software, serverless platforms and other services",
+								"answerText": "কম্পিউটার, অ্যাপ্লিকেশন প্ল্যাটফর্ম, সফ্টওয়্যার, সার্ভারলেস প্ল্যাটফর্ম এবং অন্যান্য পরিষেবাগুলি ভাড়া করা",
 								"isCorrect": "true"
 							}
 						]
@@ -752,11 +752,11 @@
 						"questionText": "There are multiple cloud vendors with data centers in many different countries across 6 continents",
 						"answerOptions": [
 							{
-								"answerText": "True",
+								"answerText": "সত্য",
 								"isCorrect": "true"
 							},
 							{
-								"answerText": "False",
+								"answerText": "মিথ্যা",
 								"isCorrect": "false"
 							}
 						]
@@ -765,7 +765,7 @@
 			},
 			{
 				"id": 16,
-				"title": "Lesson 8 - Migrate your plant to the cloud: Post-Lecture Quiz",
+				"title": "লেসন ৮ - গাছকে ক্লাউড থেকে নিয়ন্ত্রণ: লেকচার পরবর্তী কুইজ",
 				"quiz": [
 					{
 						"questionText": "To request control of an actuator and get a response from an IoT device, app code can use a:",
@@ -788,11 +788,11 @@
 						"questionText": "IoT Hub lets any device connect without any security:",
 						"answerOptions": [
 							{
-								"answerText": "False",
+								"answerText": "মিথ্যা"",
 								"isCorrect": "true"
 							},
 							{
-								"answerText": "True",
+								"answerText": "সত্য",
 								"isCorrect": "false"
 							}
 						]
@@ -801,11 +801,11 @@
 						"questionText": "IoT Hub names must be unique:",
 						"answerOptions": [
 							{
-								"answerText": "True",
+								"answerText": "সত্য",
 								"isCorrect": "true"
 							},
 							{
-								"answerText": "False",
+								"answerText": "মিথ্যা",
 								"isCorrect": "false"
 							}
 						]
@@ -820,11 +820,11 @@
 						"questionText": "You can use Serverless code to respond to IoT events",
 						"answerOptions": [
 							{
-								"answerText": "True",
+								"answerText": "সত্য",
 								"isCorrect": "true"
 							},
 							{
-								"answerText": "False",
+								"answerText": "মিথ্যা",
 								"isCorrect": "false"
 							}
 						]
@@ -850,11 +850,11 @@
 						"questionText": "When reading events off IoT hub, you can only do so using code that runs in the cloud",
 						"answerOptions": [
 							{
-								"answerText": "True",
+								"answerText": "সত্য",
 								"isCorrect": "false"
 							},
 							{
-								"answerText": "False",
+								"answerText": "মিথ্যা",
 								"isCorrect": "true"
 							}
 						]
@@ -869,11 +869,11 @@
 						"questionText": "Azure Functions can be run and debugged locally:",
 						"answerOptions": [
 							{
-								"answerText": "True",
+								"answerText": "সত্য",
 								"isCorrect": "true"
 							},
 							{
-								"answerText": "False",
+								"answerText": "মিথ্যা",
 								"isCorrect": "false"
 							}
 						]
@@ -882,11 +882,11 @@
 						"questionText": "Serverless code can only be written in JavaScript and COBOL:",
 						"answerOptions": [
 							{
-								"answerText": "False",
+								"answerText": "মিথ্যা",
 								"isCorrect": "true"
 							},
 							{
-								"answerText": "True",
+								"answerText": "সত্য",
 								"isCorrect": "false"
 							}
 						]
@@ -918,11 +918,11 @@
 						"questionText": "IoT devices are always secure",
 						"answerOptions": [
 							{
-								"answerText": "True",
+								"answerText": "সত্য",
 								"isCorrect": "false"
 							},
 							{
-								"answerText": "False",
+								"answerText": "মিথ্যা",
 								"isCorrect": "true"
 							}
 						]
@@ -931,11 +931,11 @@
 						"questionText": "There are no documented cases of hackers using an IoT device to hack into a network:",
 						"answerOptions": [
 							{
-								"answerText": "True",
+								"answerText": "সত্য",
 								"isCorrect": "false"
 							},
 							{
-								"answerText": "False",
+								"answerText": "মিথ্যা",
 								"isCorrect": "true"
 							}
 						]
@@ -944,11 +944,11 @@
 						"questionText": "You can share your IoT device connection string with anyone",
 						"answerOptions": [
 							{
-								"answerText": "True",
+								"answerText": "সত্য",
 								"isCorrect": "false"
 							},
 							{
-								"answerText": "False",
+								"answerText": "মিথ্যা",
 								"isCorrect": "true"
 							}
 						]
@@ -984,11 +984,11 @@
 						"questionText": "Self-signed X.509 certificates are ideal for a production environment",
 						"answerOptions": [
 							{
-								"answerText": "True",
+								"answerText": "সত্য",
 								"isCorrect": "false"
 							},
 							{
-								"answerText": "False",
+								"answerText": "মিথ্যা",
 								"isCorrect": "true"
 							}
 						]
