@@ -15,7 +15,7 @@
 1. [स्वचालित पौधों को पानी देना](lessons/3-automated-plant-watering/README.md)
 1. [अपने पौधे को क्लाउड में माइग्रेट करें](lessons/4-migrate-your-plant-to-the-cloud/README.md)
 1. [अपने एप्लिकेशन लॉजिक को क्लाउड पर माइग्रेट करें](lessons/5-migrate-application-to-the-cloud/README.md)
-1. [अपने संयंत्र को सुरक्षित रखें](lessons/6-keep-your-plant-secure/README.md)
+1. [अपने पौधों को सुरक्षित रखें](lessons/6-keep-your-plant-secure/README.md)
 
 ## क्रेडिट
 
