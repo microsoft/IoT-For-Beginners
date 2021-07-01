@@ -1,0 +1,1017 @@
+[
+	{
+		"title": "বিগিনারদের জন্য আইওটি: কুইয",
+		"complete": "কংগ্র্যাচুলেশন্স, কুইজ সম্পূর্ণ হয়েছে !",
+		"error": "দুঃখিত, আবার চেষ্টা করুন",
+		"quizzes": [
+			{
+				"id": 1,
+				"title": "লেসন:১ - আইওটি পরিচিতি: লেকচার পূর্ববর্তী কুইজ",
+				"quiz": [
+					{
+						"questionText": "IoT শব্দে I দ্বারা বোঝানো হয় :",
+						"answerOptions": [
+							{
+								"answerText": "Internet(ইন্টারনেট)",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "Iridium(ইরিডিয়াম)",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "Ironing(আয়রনিং)",
+								"isCorrect": "false"
+							}
+						]
+					},
+					{
+						"questionText": "২০২০ এর শেষে আইওটি ডিভাইসের ব্যবহারের আনুমানিক সংখ্যা কত?",
+						"answerOptions": [
+							{
+								"answerText": "৩০",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "৩০ মিলিয়ন",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "৩০ বিলিয়ন",
+								"isCorrect": "true"
+							}
+						]
+					},
+					{
+						"questionText": "স্মার্টফোন হলো আইওটি ডিভাইস",
+						"answerOptions": [
+							{
+								"answerText": "সত্য",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "মিথ্যা",
+								"isCorrect": "false"
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": 2,
+				"title": "লেসন:১ - আইওটি পরিচিতি : লেকচার পরবর্তী কুইজ",
+				"quiz": [
+					{
+						"questionText": "আইওটি ডিভাইসগুলিকে সর্বদা ইন্টারনেটে সংযুক্ত থাকা দরকার",
+						"answerOptions": [
+							{
+								"answerText": "সত্য",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "মিথ্যা",
+								"isCorrect": "true"
+							}
+						]
+					},
+					{
+						"questionText": "আইওটি ডিভাইস সর্বাবস্থায় সুরক্ষিত",
+						"answerOptions": [
+							{
+								"answerText": "সত্য",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "মিথ্যা",
+								"isCorrect": "true"
+							}
+						]
+					},
+					{
+						"questionText": "কম পাওয়ারে চালিত আইওটি ডিভাইসে আর্টিফিশিয়াল ইন্টেলিজেন্স চালানো যেতে পারে",
+						"answerOptions": [
+							{
+								"answerText": "সত্য",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "মিথ্যা",
+								"isCorrect": "false"
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": 3,
+				"title": "লেসন:২ - Introduction to IoT devices: লেকচার পূর্ববর্তী কুইজ",
+				"quiz": [
+					{
+						"questionText": "IoT শব্দে T বলতে বোঝানো হয়:",
+						"answerOptions": [
+							{
+								"answerText": "Transistors(ট্রানজিস্টর)",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "Things(থিংস)",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "Turkeys(টার্কিস)",
+								"isCorrect": "false"
+							}
+						]
+					},
+					{
+						"questionText": "আইওটি ডিভাইসগুলি তাদের চারপাশের বিশ্ব থেকে তথ্য সংগ্রহ করতে ব্যবহার করে :",
+						"answerOptions": [
+							{
+								"answerText": "সেন্সর",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "অ্যাকচুয়েটর",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "বার্তাবাহী কবুতর",
+								"isCorrect": "false"
+							}
+						]
+					},
+					{
+						"questionText": "আইওটি ডিভাইসগুলি গড়পড়তা ডেস্কটপ বা ল্যাপটপ কম্পিউটারের চেয়ে বেশি পাওয়ার ব্যবহার করে",
+						"answerOptions": [
+							{
+								"answerText": "সত্য",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "মিথ্যা",
+								"isCorrect": "true"
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": 4,
+				"title": "লেসনঃ২ - Introduction to IoT devices: Post-Lecture Quiz",
+				"quiz": [
+					{
+						"questionText": "The three steps in a CPU instruction cycle are:",
+						"answerOptions": [
+							{
+								"answerText": "Decode, Execute, Fetch",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "Fetch, Decode, Execute",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "Stop, Collaborate, Listen",
+								"isCorrect": "false"
+							}
+						]
+					},
+					{
+						"questionText": "What operating system do Raspberry Pis run?",
+						"answerOptions": [
+							{
+								"answerText": "They don't run an OS",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "Windows 95",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "Raspberry Pi OS",
+								"isCorrect": "true"
+							}
+						]
+					},
+					{
+						"questionText": "IoT devices typically run faster and have more memory than the average desktop or laptop computer",
+						"answerOptions": [
+							{
+								"answerText": "True",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "False",
+								"isCorrect": "true"
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": 5,
+				"title": "Lesson 3 - Interact with the physical world with sensors and actuators: Pre-Lecture Quiz",
+				"quiz": [
+					{
+						"questionText": "An LED is a sensor:",
+						"answerOptions": [
+							{
+								"answerText": "True",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "False",
+								"isCorrect": "true"
+							}
+						]
+					},
+					{
+						"questionText": "Sensors are used to:",
+						"answerOptions": [
+							{
+								"answerText": "Gather data from the physical world.",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "Control the physical world.",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "Only monitor temperature.",
+								"isCorrect": "false"
+							}
+						]
+					},
+					{
+						"questionText": "Actuators are use to:",
+						"answerOptions": [
+							{
+								"answerText": "Gather data from the physical world.",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "Control the physical world.",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "To calculate insurance risks.",
+								"isCorrect": "false"
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": 6,
+				"title": "Lesson 3 - Interact with the physical world with sensors and actuators: Post-Lecture Quiz",
+				"quiz": [
+					{
+						"questionText": "Digital sensors send data as:",
+						"answerOptions": [
+							{
+								"answerText": "Voltage ranges",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "High and low voltages only",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "Emails",
+								"isCorrect": "false"
+							}
+						]
+					},
+					{
+						"questionText": "What digital signal is sent when a button is pressed?",
+						"answerOptions": [
+							{
+								"answerText": "0",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "1",
+								"isCorrect": "true"
+							}
+						]
+					},
+					{
+						"questionText": "You can control analog actuators from a digital device using pulse-width modulation",
+						"answerOptions": [
+							{
+								"answerText": "True",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "False",
+								"isCorrect": "false"
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": 7,
+				"title": "Lesson 4 - Connect your device to the Internet: Pre-Lecture Quiz",
+				"quiz": [
+					{
+						"questionText": "IoT devices always need to be connected to the Internet to work:",
+						"answerOptions": [
+							{
+								"answerText": "True",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "False",
+								"isCorrect": "true"
+							}
+						]
+					},
+					{
+						"questionText": "IoT devices always communicate over HTTP, the same as web apps and other web APIs:",
+						"answerOptions": [
+							{
+								"answerText": "False",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "True",
+								"isCorrect": "false"
+							}
+						]
+					},
+					{
+						"questionText": "IoT devices rely on the cloud for all their decision making:",
+						"answerOptions": [
+							{
+								"answerText": "False",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "True",
+								"isCorrect": "false"
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": 8,
+				"title": "Lesson 4 - Connect your device to the Internet: Post-Lecture Quiz",
+				"quiz": [
+					{
+						"questionText": "Data gathered from sensors and sent to the cloud is called:",
+						"answerOptions": [
+							{
+								"answerText": "Telemetry",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "Commands",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "Measurements",
+								"isCorrect": "false"
+							}
+						]
+					},
+					{
+						"questionText": "What should happen to a command if the IoT device is offline:",
+						"answerOptions": [
+							{
+								"answerText": "It should always be resent when the device is back online",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "It should never be resent when the device is back online",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "It depends on the command, the device a the requirements of the IoT app",
+								"isCorrect": "true"
+							}
+						]
+					},
+					{
+						"questionText": "MQTT, or Message Queueing Telemetry Transport, has message queues:",
+						"answerOptions": [
+							{
+								"answerText": "True",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "False",
+								"isCorrect": "true"
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": 9,
+				"title": "Lesson 5 - Predict plant growth: Pre-Lecture Quiz",
+				"quiz": [
+					{
+						"questionText": "Iot devices can be used to support agriculture",
+						"answerOptions": [
+							{
+								"answerText": "True",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "False",
+								"isCorrect": "false"
+							}
+						]
+					},
+					{
+						"questionText": "Plant needs include: (pick the best answer)",
+						"answerOptions": [
+							{
+								"answerText": "Carbon dioxide, water, nutrients",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "Carbon dioxide, water, nutrients, light",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "Carbon dioxide, water, nutrients, light, warmth",
+								"isCorrect": "true"
+							}
+						]
+					},
+					{
+						"questionText": "Sensors are too expensive for farmers in developed nations to use:",
+						"answerOptions": [
+							{
+								"answerText": "False",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "True",
+								"isCorrect": "false"
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": 10,
+				"title": "Lesson 5 - Predict plant growth: Post-Lecture Quiz",
+				"quiz": [
+					{
+						"questionText": "Plant growth is dependant on temperature",
+						"answerOptions": [
+							{
+								"answerText": "True",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "False",
+								"isCorrect": "false"
+							}
+						]
+					},
+					{
+						"questionText": "The temperatures to consider for plant growth are:",
+						"answerOptions": [
+							{
+								"answerText": "Minimum, maximum",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "Base, optimal, maximum",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "Maximum only",
+								"isCorrect": "false"
+							}
+						]
+					},
+					{
+						"questionText": "Growing Degree Days are calculated using which formula:",
+						"answerOptions": [
+							{
+								"answerText": "(day max + day min) - plant base",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "((day max + day min) / 2) - plant base",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "((day min + plant base) / 2)",
+								"isCorrect": "false"
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": 11,
+				"title": "Lesson 6 - Detect soil moisture: Pre-Lecture Quiz",
+				"quiz": [
+					{
+						"questionText": "Iot devices can be used to detect ambient properties like soil moisture",
+						"answerOptions": [
+							{
+								"answerText": "True",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "False",
+								"isCorrect": "false"
+							}
+						]
+					},
+					{
+						"questionText": "Which of these can cause problems for plant growth (pick one)?",
+						"answerOptions": [
+							{
+								"answerText": "Too little water",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "Too much water",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "Too little or too much water",
+								"isCorrect": "true"
+							}
+						]
+					},
+					{
+						"questionText": "All sensors are provided pre-calibrated for standard units:",
+						"answerOptions": [
+							{
+								"answerText": "True",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "False",
+								"isCorrect": "true"
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": 12,
+				"title": "Lesson 6 - Detect soil moisture: Post-Lecture Quiz",
+				"quiz": [
+					{
+						"questionText": "When measuring soil moisture, one difference between resistive and capacitive moisture sensors is:",
+						"answerOptions": [
+							{
+								"answerText": "As moisture levels go up the voltage goes up for resistive sensors and down for capacitive sensors",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "As moisture levels go up the voltage goes down for resistive sensors and up for capacitive sensors",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "As moisture levels go up the voltage goes up for both resistive and capacitive sensors",
+								"isCorrect": "false"
+							}
+						]
+					},
+					{
+						"questionText": "The SPI protocol supports:",
+						"answerOptions": [
+							{
+								"answerText": "Only one controller and only one peripheral",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "Only one controller and multiple peripherals",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "Multiple controllers and multiple peripherals",
+								"isCorrect": "false"
+							}
+						]
+					},
+					{
+						"questionText": "The I2C protocol supports:",
+						"answerOptions": [
+							{
+								"answerText": "Only one controller and only one peripheral",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "Only one controller and multiple peripherals",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "Multiple controllers and multiple peripherals",
+								"isCorrect": "true"
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": 13,
+				"title": "Lesson 7 - Automated plant watering: Pre-Lecture Quiz",
+				"quiz": [
+					{
+						"questionText": "Iot devices are powerful enough to control water pumps",
+						"answerOptions": [
+							{
+								"answerText": "True",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "False",
+								"isCorrect": "true"
+							}
+						]
+					},
+					{
+						"questionText": "Actuators can be used to control power to additional devices",
+						"answerOptions": [
+							{
+								"answerText": "True",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "False",
+								"isCorrect": "false"
+							}
+						]
+					},
+					{
+						"questionText": "Sensors detect changes from actuators immediately",
+						"answerOptions": [
+							{
+								"answerText": "True",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "False",
+								"isCorrect": "true"
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": 14,
+				"title": "Lesson 7 - Automated plant watering: Post-Lecture Quiz",
+				"quiz": [
+					{
+						"questionText": "A relay is what type of switch:",
+						"answerOptions": [
+							{
+								"answerText": "Electrical",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "Electromechanical",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "Mechanical",
+								"isCorrect": "false"
+							}
+						]
+					},
+					{
+						"questionText": "A relay allows:",
+						"answerOptions": [
+							{
+								"answerText": "A low power device to control a higher power device",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "A high power device to control a low power device",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "Runners to run a race passing a baton between them",
+								"isCorrect": "false"
+							}
+						]
+					},
+					{
+						"questionText": "Actuators should always respond instantly to sensor readings:",
+						"answerOptions": [
+							{
+								"answerText": "True",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "False",
+								"isCorrect": "true"
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": 15,
+				"title": "Lesson 8 - Migrate your plant to the cloud: Pre-Lecture Quiz",
+				"quiz": [
+					{
+						"questionText": "A public MQTT broker is fine to use for a commercial IoT project",
+						"answerOptions": [
+							{
+								"answerText": "True",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "False",
+								"isCorrect": "true"
+							}
+						]
+					},
+					{
+						"questionText": "Cloud computing allow you to:",
+						"answerOptions": [
+							{
+								"answerText": "Only rent computers",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "Rent computers and application platforms only",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "Rent computers, application platforms, software, serverless platforms and other services",
+								"isCorrect": "true"
+							}
+						]
+					},
+					{
+						"questionText": "There are multiple cloud vendors with data centers in many different countries across 6 continents",
+						"answerOptions": [
+							{
+								"answerText": "True",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "False",
+								"isCorrect": "false"
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": 16,
+				"title": "Lesson 8 - Migrate your plant to the cloud: Post-Lecture Quiz",
+				"quiz": [
+					{
+						"questionText": "To request control of an actuator and get a response from an IoT device, app code can use a:",
+						"answerOptions": [
+							{
+								"answerText": "Device to cloud message",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "Device twin",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "Direct method request",
+								"isCorrect": "true"
+							}
+						]
+					},
+					{
+						"questionText": "IoT Hub lets any device connect without any security:",
+						"answerOptions": [
+							{
+								"answerText": "False",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "True",
+								"isCorrect": "false"
+							}
+						]
+					},
+					{
+						"questionText": "IoT Hub names must be unique:",
+						"answerOptions": [
+							{
+								"answerText": "True",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "False",
+								"isCorrect": "false"
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": 17,
+				"title": "Lesson 9 - Migrate your application logic to the cloud: Pre-Lecture Quiz",
+				"quiz": [
+					{
+						"questionText": "You can use Serverless code to respond to IoT events",
+						"answerOptions": [
+							{
+								"answerText": "True",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "False",
+								"isCorrect": "false"
+							}
+						]
+					},
+					{
+						"questionText": "When you send IoT events to IoT Hub:",
+						"answerOptions": [
+							{
+								"answerText": "Only one service can read events off the IoT Hub",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "Any number of services can read events off the IoT Hub",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "Services cannot read events from IoT Hub, they have to connect to the device directly",
+								"isCorrect": "false"
+							}
+						]
+					},
+					{
+						"questionText": "When reading events off IoT hub, you can only do so using code that runs in the cloud",
+						"answerOptions": [
+							{
+								"answerText": "True",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "False",
+								"isCorrect": "true"
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": 18,
+				"title": "Lesson 9 - Migrate your application logic to the cloud: Post-Lecture Quiz",
+				"quiz": [
+					{
+						"questionText": "Azure Functions can be run and debugged locally:",
+						"answerOptions": [
+							{
+								"answerText": "True",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "False",
+								"isCorrect": "false"
+							}
+						]
+					},
+					{
+						"questionText": "Serverless code can only be written in JavaScript and COBOL:",
+						"answerOptions": [
+							{
+								"answerText": "False",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "True",
+								"isCorrect": "false"
+							}
+						]
+					},
+					{
+						"questionText": "When deploying a Functions App to the cloud, you need to create and deploy:",
+						"answerOptions": [
+							{
+								"answerText": "A Functions App only",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "A Functions App and a Storage Account only",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "A Functions App, a Storage Account, and Application Settings",
+								"isCorrect": "true"
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": 19,
+				"title": "Lesson 10 - Keep your plant secure: Pre-Lecture Quiz",
+				"quiz": [
+					{
+						"questionText": "IoT devices are always secure",
+						"answerOptions": [
+							{
+								"answerText": "True",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "False",
+								"isCorrect": "true"
+							}
+						]
+					},
+					{
+						"questionText": "There are no documented cases of hackers using an IoT device to hack into a network:",
+						"answerOptions": [
+							{
+								"answerText": "True",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "False",
+								"isCorrect": "true"
+							}
+						]
+					},
+					{
+						"questionText": "You can share your IoT device connection string with anyone",
+						"answerOptions": [
+							{
+								"answerText": "True",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "False",
+								"isCorrect": "true"
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": 20,
+				"title": "Lesson 10 - Keep your plant secure: Post-Lecture Quiz",
+				"quiz": [
+					{
+						"questionText": "Symmetric key encryption compares to asymmetric ky encryption in which ways:",
+						"answerOptions": [
+							{
+								"answerText": "Symmetric key encryption is slower than asymmetric",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "Symmetric key encryption is more secure than asymmetric",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "Symmetric key encryption is faster than asymmetric, but less secure",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "Symmetric key encryption is slower than asymmetric, but more secure",
+								"isCorrect": "false"
+							}
+						]
+					},
+					{
+						"questionText": "Self-signed X.509 certificates are ideal for a production environment",
+						"answerOptions": [
+							{
+								"answerText": "True",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "False",
+								"isCorrect": "true"
+							}
+						]
+					},
+					{
+						"questionText": "X.509 certificates:",
+						"answerOptions": [
+							{
+								"answerText": "Should never be shared between IoT devices",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "Can be shared between devices",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "Should be kept secure and never used by any devices",
+								"isCorrect": "false"
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+]
