@@ -388,7 +388,7 @@
 								"isCorrect": "false"
 							},
 							{
-								"answerText": "It depends on the command, the device a the requirements of the IoT app",
+								"answerText": "It depends on the command, the device and the requirements of the IoT app",
 								"isCorrect": "true"
 							}
 						]
@@ -960,7 +960,7 @@
 				"title": "Lesson 10 - Keep your plant secure: Post-Lecture Quiz",
 				"quiz": [
 					{
-						"questionText": "Symmetric key encryption compares to asymmetric ky encryption in which ways:",
+						"questionText": "Symmetric key encryption compares to asymmetric key encryption in which ways:",
 						"answerOptions": [
 							{
 								"answerText": "Symmetric key encryption is slower than asymmetric",
