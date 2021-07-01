@@ -1,10 +1,12 @@
 #include <Arduino.h>
 #include <ArduinoJson.h>
 #include <HTTPClient.h>
+#include <list>
 #include <rpcWiFi.h>
 #include "SD/Seeed_SD.h"
 #include <Seeed_FS.h>
 #include <SPI.h>
+#include <vector>
 #include <WiFiClientSecure.h>
 
 #include "config.h"
@@ -59,6 +61,19 @@ void setup()
 
 const float threshold = 0.3f;
 
+void processPredictions(std::vector<JsonVariant> &predictions)
+{
+    for(JsonVariant prediction : predictions)
+    {
+        String tag = prediction["tagName"].as<String>();
+        float probability = prediction["probability"].as<float>();
+
+        char buff[32];
+        sprintf(buff, "%s:\t%.2f%%", tag.c_str(), probability * 100.0);
+        Serial.println(buff);
+    }
+}
+
 void detectStock(byte *buffer, uint32_t length)
 {
     HTTPClient httpClient;
@@ -78,17 +93,18 @@ void detectStock(byte *buffer, uint32_t length)
         JsonObject obj = doc.as<JsonObject>();
         JsonArray predictions = obj["predictions"].as<JsonArray>();
 
+        std::vector<JsonVariant> passed_predictions;
+
         for(JsonVariant prediction : predictions) 
         {
             float probability = prediction["probability"].as<float>();
             if (probability > threshold)
             {
-                String tag = prediction["tagName"].as<String>();
-                char buff[32];
-                sprintf(buff, "%s:\t%.2f%%", tag.c_str(), probability * 100.0);
-                Serial.println(buff);
+                passed_predictions.push_back(prediction);
             }
         }
+
+        processPredictions(passed_predictions);
     }
 
     httpClient.end();

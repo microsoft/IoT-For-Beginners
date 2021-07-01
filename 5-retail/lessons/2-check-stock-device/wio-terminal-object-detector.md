@@ -24,6 +24,12 @@ The code you used to classify images is very similar to the code to detect objec
 
 ### Task - change the code from a classifier to an image detector
 
+1. Add the following include directive to the top of the `main.cpp` file:
+
+    ```cpp
+    #include <vector>
+    ```
+
 1. Rename the `classifyImage` function to `detectStock`, both the name of the function and the call in the `buttonPressed` function.
 
 1. Above the `detectStock` function, declare a threshold to filter out any detections that have a low probability:
@@ -34,15 +40,16 @@ The code you used to classify images is very similar to the code to detect objec
 
     Unlike an image classifier that only returns one result per tag, the object detector will return multiple results, so any with a low probability need to be filtered out.
 
-1. In the `detectStock` function, replace the contents of the `for` loop that loops through the predictions with the following:
+1. Above the `detectStock` function, declare a function to process the predictions:
 
     ```cpp
-    for(JsonVariant prediction : predictions)
+    void processPredictions(std::vector<JsonVariant> &predictions)
     {
-        float probability = prediction["probability"].as<float>();
-        if (probability > threshold)
+        for(JsonVariant prediction : predictions)
         {
             String tag = prediction["tagName"].as<String>();
+            float probability = prediction["probability"].as<float>();
+    
             char buff[32];
             sprintf(buff, "%s:\t%.2f%%", tag.c_str(), probability * 100.0);
             Serial.println(buff);
@@ -50,7 +57,26 @@ The code you used to classify images is very similar to the code to detect objec
     }
     ```
 
-    > 💁 Apart from the threshold, this code is the same as for the image classifier. One difference is the prediction URL that was called. Another difference is the results will return the location of the object, and this will be covered later in this lesson.
+    This takes a list of predictions and prints them to the serial monitor.
+
+1. In the `detectStock` function, replace the contents of the `for` loop that loops through the predictions with the following:
+
+    ```cpp
+    std::vector<JsonVariant> passed_predictions;
+
+    for(JsonVariant prediction : predictions) 
+    {
+        float probability = prediction["probability"].as<float>();
+        if (probability > threshold)
+        {
+            passed_predictions.push_back(prediction);
+        }
+    }
+
+    processPredictions(passed_predictions);
+    ```
+
+    This loops through the predictions, comparing the probability to the threshold. All predictions that have a probability higher than the threshold are added to a `list` and passed to the `processPredictions` function.
 
 1. Upload and run your code. Point the camera at objects on a shelf and press the C button. You will see the output in the serial monitor:
 

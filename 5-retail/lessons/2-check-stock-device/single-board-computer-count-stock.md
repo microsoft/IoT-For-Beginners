@@ -154,8 +154,10 @@ In the image shown above, the bounding boxes have a small overlap. If this overl
 
     Finally the stock count is printed to the console. This could then be sent to an IoT service to alert if the stock levels are low. All of this code is before the bounding boxes are drawn, so you will see the stock predictions without overlaps on the generated images.
 
+    > 💁 This is very simplistic way to remove overlaps, just removing the first one in an overlapping pair. For production code, you would want to put more logic in here, such as considering the overlaps between multiple objects, or if one bounding box is contained by another.
+
 1. Run the app with the camera pointing at some stock on a shelf. The output will indicate the number of bounding boxes without overlaps that exceed the threshold. Try adjusting the `overlap_threshold` value to see predictions being ignored.
 
-> 💁 You can find this code in the [code-count/pi](code-detect/pi) or [code-count/virtual-device](code-detect/virtual-device) folder.
+> 💁 You can find this code in the [code-count/pi](code-count/pi) or [code-count/virtual-device](code-count/virtual-device) folder.
 
 😀 Your stock counter program was a success!

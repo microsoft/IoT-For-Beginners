@@ -5,6 +5,7 @@
 #include "SD/Seeed_SD.h"
 #include <Seeed_FS.h>
 #include <SPI.h>
+#include <vector>
 #include <WiFiClientSecure.h>
 
 #include "config.h"
@@ -57,7 +58,99 @@ void setup()
     pinMode(WIO_KEY_C, INPUT_PULLUP);
 }
 
-const float threshold = 0.3f;
+const float threshold = 0.0f;
+const float overlap_threshold = 0.20f;
+
+struct Point {
+    float x, y;
+};
+
+struct Rect {
+    Point topLeft, bottomRight;
+};
+
+float area(Rect rect)
+{
+    return abs(rect.bottomRight.x - rect.topLeft.x) * abs(rect.bottomRight.y - rect.topLeft.y);
+}
+    
+float overlappingArea(Rect rect1, Rect rect2)
+{
+    float left = max(rect1.topLeft.x, rect2.topLeft.x);
+    float right = min(rect1.bottomRight.x, rect2.bottomRight.x);
+    float top = max(rect1.topLeft.y, rect2.topLeft.y);
+    float bottom = min(rect1.bottomRight.y, rect2.bottomRight.y);
+
+
+    if ( right > left && bottom > top )
+    {
+        return (right-left)*(bottom-top);
+    }
+    
+    return 0.0f;
+}
+
+Rect rectFromBoundingBox(JsonVariant prediction)
+{
+    JsonObject bounding_box = prediction["boundingBox"].as<JsonObject>();
+
+    float left = bounding_box["left"].as<float>();
+    float top = bounding_box["top"].as<float>();
+    float width = bounding_box["width"].as<float>();
+    float height = bounding_box["height"].as<float>();
+
+    Point topLeft = {left, top};
+    Point bottomRight = {left + width, top + height};
+
+    return {topLeft, bottomRight};
+}
+
+void processPredictions(std::vector<JsonVariant> &predictions)
+{
+    std::vector<JsonVariant> passed_predictions;
+
+    for (int i = 0; i < predictions.size(); ++i)
+    {
+        Rect prediction_1_rect = rectFromBoundingBox(predictions[i]);
+        float prediction_1_area = area(prediction_1_rect);
+        bool passed = true;
+
+        for (int j = i + 1; j < predictions.size(); ++j)
+        {
+            Rect prediction_2_rect = rectFromBoundingBox(predictions[j]);
+            float prediction_2_area = area(prediction_2_rect);
+
+            float overlap = overlappingArea(prediction_1_rect, prediction_2_rect);
+            float smallest_area = min(prediction_1_area, prediction_2_area);
+
+            if (overlap > (overlap_threshold * smallest_area))
+            {
+                passed = false;
+                break;
+            }
+        }
+
+        if (passed)
+        {
+            passed_predictions.push_back(predictions[i]);
+        }
+    }
+
+    for(JsonVariant prediction : passed_predictions)
+    {
+        String boundingBox = prediction["boundingBox"].as<String>();
+        String tag = prediction["tagName"].as<String>();
+        float probability = prediction["probability"].as<float>();
+
+        char buff[32];
+        sprintf(buff, "%s:\t%.2f%%\t%s", tag.c_str(), probability * 100.0, boundingBox.c_str());
+        Serial.println(buff);
+    }
+
+    Serial.print("Counted ");
+    Serial.print(passed_predictions.size());
+    Serial.println(" stock items.");
+}
 
 void detectStock(byte *buffer, uint32_t length)
 {
@@ -78,17 +171,18 @@ void detectStock(byte *buffer, uint32_t length)
         JsonObject obj = doc.as<JsonObject>();
         JsonArray predictions = obj["predictions"].as<JsonArray>();
 
+        std::vector<JsonVariant> passed_predictions;
+
         for(JsonVariant prediction : predictions) 
         {
             float probability = prediction["probability"].as<float>();
             if (probability > threshold)
             {
-                String tag = prediction["tagName"].as<String>();
-                char buff[32];
-                sprintf(buff, "%s:\t%.2f%%", tag.c_str(), probability * 100.0);
-                Serial.println(buff);
+                passed_predictions.push_back(prediction);
             }
         }
+
+        processPredictions(passed_predictions);
     }
 
     httpClient.end();

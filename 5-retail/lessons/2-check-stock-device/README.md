@@ -97,7 +97,7 @@ In the image above, 4 cans of tomato paste were detected. In the results a red s
 
 ✅ Open the predictions in Custom Vision and check out the bounding boxes.
 
-Bounding boxes are defined with 4 values - top, left, height and width. These values are on a scale of 0-1, representing the positions as a percentage of the size of the image.
+Bounding boxes are defined with 4 values - top, left, height and width. These values are on a scale of 0-1, representing the positions as a percentage of the size of the image. The origin (the 0,0 position) is the top left of the image, so the top value is the distance from the top, and the bottom of the bounding box is the top plus the height.
 
 ![A bounding box around a can of tomato paste](../../../images/bounding-box.png)
 
