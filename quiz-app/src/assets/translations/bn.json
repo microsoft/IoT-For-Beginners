@@ -1,7 +1,7 @@
 [
 	{
-		"title": "বিগিনারদের জন্য আইওটি: কুইয",
-		"complete": "কংগ্র্যাচুলেশন্স, কুইজ সম্পূর্ণ হয়েছে !",
+		"title": "বিগিনারদের জন্য আইওটি: কুইজ",
+		"complete": "কংগ্র্যাচুলেশন্স, কুইজ সফলভাবে সম্পূর্ণ হয়েছে !",
 		"error": "দুঃখিত, আবার চেষ্টা করুন",
 		"quizzes": [
 			{
@@ -160,48 +160,48 @@
 				"title": "লেসনঃ২ - Introduction to IoT devices: Post-Lecture Quiz",
 				"quiz": [
 					{
-						"questionText": "The three steps in a CPU instruction cycle are:",
+						"questionText": "সিপিইউ নির্দেশচক্রের (instruction cycle) তিনটি ধাপ হল:",
 						"answerOptions": [
 							{
-								"answerText": "Decode, Execute, Fetch",
+								"answerText": "ডিকোড, এক্সিকিউট, ফেচ",
 								"isCorrect": "false"
 							},
 							{
-								"answerText": "Fetch, Decode, Execute",
+								"answerText": " ফেচ, ডিকোড, এক্সিকিউট",
 								"isCorrect": "true"
 							},
 							{
-								"answerText": "Stop, Collaborate, Listen",
+								"answerText": "থামা, কোলাবোরেট করা, শোনা",
 								"isCorrect": "false"
 							}
 						]
 					},
 					{
-						"questionText": "What operating system do Raspberry Pis run?",
+						"questionText": "রাস্পবেরি পাই কোন অপারেটিং সিস্টেম রান করে?",
 						"answerOptions": [
 							{
-								"answerText": "They don't run an OS",
+								"answerText": "কোন অপারেটিং সিস্টেম রান করেনা ",
 								"isCorrect": "false"
 							},
 							{
-								"answerText": "Windows 95",
+								"answerText": "উইন্ডোজ ৯৫",
 								"isCorrect": "false"
 							},
 							{
-								"answerText": "Raspberry Pi OS",
+								"answerText": "রাস্পবেরি পাই ওএস",
 								"isCorrect": "true"
 							}
 						]
 					},
 					{
-						"questionText": "IoT devices typically run faster and have more memory than the average desktop or laptop computer",
+						"questionText": "আইওটি ডিভাইসগুলি সাধারণত দ্রুত চলে এবং সাধারণ ডেস্কটপ বা ল্যাপটপ কম্পিউটারের চেয়ে বেশি মেমোরি থাকে",
 						"answerOptions": [
 							{
-								"answerText": "True",
+								"answerText": "সত্য",
 								"isCorrect": "false"
 							},
 							{
-								"answerText": "False",
+								"answerText": "মিথ্যা",
 								"isCorrect": "true"
 							}
 						]
@@ -210,51 +210,51 @@
 			},
 			{
 				"id": 5,
-				"title": "Lesson 3 - Interact with the physical world with sensors and actuators: Pre-Lecture Quiz",
+				"title": "লেসন ৩ - সেন্সর এবং অ্যাকচুয়েটরের সাহায্যে বাহ্যিক জগতের সাথে যোগাযোগ: লেকচার পূর্ববর্তী কুইজ",
 				"quiz": [
 					{
-						"questionText": "An LED is a sensor:",
+						"questionText": "এলইডি একধরণের সেন্সর:",
 						"answerOptions": [
 							{
-								"answerText": "True",
+								"answerText": "সত্য",
 								"isCorrect": "false"
 							},
 							{
-								"answerText": "False",
+								"answerText": "মিথ্যা",
 								"isCorrect": "true"
 							}
 						]
 					},
 					{
-						"questionText": "Sensors are used to:",
+						"questionText": "সেন্সর ব্যবহৃত হয়:",
 						"answerOptions": [
 							{
-								"answerText": "Gather data from the physical world.",
+								"answerText": "বাহ্যিক জগতের ডেটা সংগ্রহ করতে ",
 								"isCorrect": "true"
 							},
 							{
-								"answerText": "Control the physical world.",
+								"answerText": "বাহ্যিক জগতকে নিয়ন্ত্রণ করতে",
 								"isCorrect": "false"
 							},
 							{
-								"answerText": "Only monitor temperature.",
+								"answerText": "শুধু তাপমাত্রা মাপতে",
 								"isCorrect": "false"
 							}
 						]
 					},
 					{
-						"questionText": "Actuators are use to:",
+						"questionText": "অ্যাকচুয়েটর ব্যবহৃত হয়:",
 						"answerOptions": [
 							{
-								"answerText": "Gather data from the physical world.",
+								"answerText": "বাহ্যিক জগতের ডেটা সংগ্রহ করতে ",
 								"isCorrect": "false"
 							},
 							{
-								"answerText": "Control the physical world.",
+								"answerText": "বাহ্যিক জগতকে নিয়ন্ত্রণ করতে",
 								"isCorrect": "true"
 							},
 							{
-								"answerText": "To calculate insurance risks.",
+								"answerText": "ইনপ্স্যুরেন্স রিস্ক হিসাব করতে",
 								"isCorrect": "false"
 							}
 						]
@@ -263,27 +263,27 @@
 			},
 			{
 				"id": 6,
-				"title": "Lesson 3 - Interact with the physical world with sensors and actuators: Post-Lecture Quiz",
+				"title": "লেসন ৩ - সেন্সর এবং অ্যাকচুয়েটরের সাহায্যে বাহ্যিক জগতের সাথে যোগাযোগ: লেকচার পরবর্তী কুইজ",
 				"quiz": [
 					{
-						"questionText": "Digital sensors send data as:",
+						"questionText": "ডিজিটাল সেন্সরগুলি ডেটা প্রেরণ করে:",
 						"answerOptions": [
 							{
-								"answerText": "Voltage ranges",
+								"answerText": "ভোল্টেজ রেন্জ অনুসারে",
 								"isCorrect": "false"
 							},
 							{
-								"answerText": "High and low voltages only",
+								"answerText": "হাই(High) এবং লো(low) ভোল্টেজ হিসেবে",
 								"isCorrect": "true"
 							},
 							{
-								"answerText": "Emails",
+								"answerText": "ইমেইলে",
 								"isCorrect": "false"
 							}
 						]
 					},
 					{
-						"questionText": "What digital signal is sent when a button is pressed?",
+						"questionText": "একটি বাটনে প্রেস করলে কোন ডিজিটাল সিগন্যাল প্রেরণ করা হয়?",
 						"answerOptions": [
 							{
 								"answerText": "0",
@@ -296,14 +296,14 @@
 						]
 					},
 					{
-						"questionText": "You can control analog actuators from a digital device using pulse-width modulation",
+						"questionText": "পালস-উইথ মডুলেশন ব্যবহার করে ডিজিটাল ডিভাইস থেকে অ্যানালগ অ্যাকিউটরেটরগুলি নিয়ন্ত্রণ করা যাবে",
 						"answerOptions": [
 							{
-								"answerText": "True",
+								"answerText": "সত্য",
 								"isCorrect": "true"
 							},
 							{
-								"answerText": "False",
+								"answerText": "মিথ্যা",
 								"isCorrect": "false"
 							}
 						]
@@ -312,17 +312,17 @@
 			},
 			{
 				"id": 7,
-				"title": "Lesson 4 - Connect your device to the Internet: Pre-Lecture Quiz",
+				"title": "লেসন ৪ - ডিভাইসকে ইন্টারনেটের সাথে যুক্ত করা: লেকচার পূর্ববর্তী কুইজ",
 				"quiz": [
 					{
-						"questionText": "IoT devices always need to be connected to the Internet to work:",
+						"questionText": "আইওটি ডিভাইসগুলি সর্বদা কাজ করার জন্য ইন্টারনেটে সংযুক্ত থাকা প্রয়োজন",
 						"answerOptions": [
 							{
-								"answerText": "True",
+								"answerText": "সত্য",
 								"isCorrect": "false"
 							},
 							{
-								"answerText": "False",
+								"answerText": "মিথ্যা",
 								"isCorrect": "true"
 							}
 						]
