@@ -74,6 +74,8 @@ ML models don't give a binary answer, instead they give probabilities. For examp
 
 The ML model used to detect images like this is called an *image classifier* - it is given labelled images, and then classifies new images based off these labels.
 
+> 💁 This is an over-simplification, and there are many other ways to train models that don't always need labelled outputs, such as unsupervised learning. If you want to learn more about ML, check out [ML for beginners, a 24 lesson curriculum on Machine Learning](https://aka.ms/ML-beginners).
+
 ## Train an image classifier
 
 To successfully train an image classifier you need millions of images. As it turns out, once you have an image classifier trained on millions or billions of assorted images, you can re-use it and re-train it using a small set of images and get great results, using a process called *transfer learning*.
