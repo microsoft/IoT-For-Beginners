@@ -104,7 +104,7 @@
 			},
 			{
 				"id": 3,
-				"title": "লেসন:২ - Introduction to IoT devices: লেকচার পূর্ববর্তী কুইজ",
+				"title": "লেসন ২ - IoT এর আরো গভীরে : লেকচার পূর্ববর্তী কুইজ",
 				"quiz": [
 					{
 						"questionText": "IoT শব্দে T বলতে বোঝানো হয়:",
@@ -157,7 +157,7 @@
 			},
 			{
 				"id": 4,
-				"title": "লেসনঃ২ - Introduction to IoT devices: Post-Lecture Quiz",
+				"title": "লেসন ২ - IoT এর আরো গভীরে : লেকচার পরবর্তী কুইজ",
 				"quiz": [
 					{
 						"questionText": "সিপিইউ নির্দেশচক্রের (instruction cycle) তিনটি ধাপ হল:",
@@ -749,7 +749,7 @@
 						]
 					},
 					{
-						"questionText": "There are multiple cloud vendors with data centers in many different countries across 6 continents",
+						"questionText": "6 টি মহাদেশে বিভিন্ন দেশে ডেটা সেন্টার সহ একাধিক ক্লাউড সেবাদানকার ীরয়েছে",
 						"answerOptions": [
 							{
 								"answerText": "সত্য",
@@ -768,24 +768,24 @@
 				"title": "লেসন ৮ - গাছকে ক্লাউড থেকে নিয়ন্ত্রণ: লেকচার পরবর্তী কুইজ",
 				"quiz": [
 					{
-						"questionText": "To request control of an actuator and get a response from an IoT device, app code can use a:",
+						"questionText": "একটি Actuator নিয়ন্ত্রণ করতে এবং IOT ডিভাইস থেকে একটি প্রতিক্রিয়া পেতে, অ্যাপ্লিকেশন কোড ব্যবহার করে:",
 						"answerOptions": [
 							{
-								"answerText": "Device to cloud message",
+								"answerText": "ডিভাইস থেকে ক্লাউডে ম্যাসেজ",
 								"isCorrect": "false"
 							},
 							{
-								"answerText": "Device twin",
+								"answerText": "ডিভাইস টুইন",
 								"isCorrect": "false"
 							},
 							{
-								"answerText": "Direct method request",
+								"answerText": "সরাসরি রিকুয়েস্ট",
 								"isCorrect": "true"
 							}
 						]
 					},
 					{
-						"questionText": "IoT Hub lets any device connect without any security:",
+						"questionText": "IoT Hub সিক্যুরিটি ছাড়াই যেকোন ডিভাইস কানেক্ট করতে দেয়",
 						"answerOptions": [
 							{
 								"answerText": "মিথ্যা"",
@@ -798,7 +798,7 @@
 						]
 					},
 					{
-						"questionText": "IoT Hub names must be unique:",
+						"questionText": "IoT Hub এর নাম ইউনিক হতে হবে:",
 						"answerOptions": [
 							{
 								"answerText": "সত্য",
@@ -814,10 +814,10 @@
 			},
 			{
 				"id": 17,
-				"title": "Lesson 9 - Migrate your application logic to the cloud: Pre-Lecture Quiz",
+				"title": "লেসন ৯ - ক্লাউড থেকে এপ্লিকেশন লজিক নিয়ন্ত্রণ: লেকচার পূর্ববর্তী কুইজ",
 				"quiz": [
 					{
-						"questionText": "You can use Serverless code to respond to IoT events",
+						"questionText": "আইওটি ইভেন্টের প্রতিক্রিয়া জানাতে আপনি সার্ভারলেস কোড ব্যবহার করতে পারা যাবে",
 						"answerOptions": [
 							{
 								"answerText": "সত্য",
@@ -830,24 +830,24 @@
 						]
 					},
 					{
-						"questionText": "When you send IoT events to IoT Hub:",
+						"questionText": "IoT Hub এ আইওটি ইভেন্ট পাঠানো হলে:",
 						"answerOptions": [
 							{
-								"answerText": "Only one service can read events off the IoT Hub",
+								"answerText": "শুধুমাত্র একটি সার্ভিস IoT Hub এর ইভেন্টগুলি পড়তে পারে",
 								"isCorrect": "false"
 							},
 							{
-								"answerText": "Any number of services can read events off the IoT Hub",
+								"answerText": "নির্দিষ্ট সংখ্যক সার্ভিস IoT Hub এর ইভেন্টগুলি পড়তে পারে",
 								"isCorrect": "true"
 							},
 							{
-								"answerText": "Services cannot read events from IoT Hub, they have to connect to the device directly",
+								"answerText": "কোন সার্ভিসই IoT Hub এর ইভেন্টগুলি পড়তে পারেনা, এজন্য সার্ভিসকে ডিভাইসে কানেক্ট থাকতে হবে",
 								"isCorrect": "false"
 							}
 						]
 					},
 					{
-						"questionText": "When reading events off IoT hub, you can only do so using code that runs in the cloud",
+						"questionText": "আইওটি হাবে ইভেন্টগুলি পড়ার সময়, কেবল ক্লাউডে চালিত কোডটি ব্যবহার করতে পারা যাবে",
 						"answerOptions": [
 							{
 								"answerText": "সত্য",
@@ -863,10 +863,10 @@
 			},
 			{
 				"id": 18,
-				"title": "Lesson 9 - Migrate your application logic to the cloud: Post-Lecture Quiz",
+				"title": "লেসন ৯ - ক্লাউড থেকে এপ্লিকেশন লজিক নিয়ন্ত্রণ: লেকচার পরবর্তী কুইজ",
 				"quiz": [
 					{
-						"questionText": "Azure Functions can be run and debugged locally:",
+						"questionText": "Azure ফাংশন লোকালি চালানো এবং ডিবাগ করা যাবে",
 						"answerOptions": [
 							{
 								"answerText": "সত্য",
@@ -879,7 +879,7 @@
 						]
 					},
 					{
-						"questionText": "Serverless code can only be written in JavaScript and COBOL:",
+						"questionText": "সার্ভারলেস কোড কেবল জাভাস্ক্রিপ্ট এবং COBOL-এ লেখা যেতে পারে:",
 						"answerOptions": [
 							{
 								"answerText": "মিথ্যা",
@@ -892,18 +892,18 @@
 						]
 					},
 					{
-						"questionText": "When deploying a Functions App to the cloud, you need to create and deploy:",
+						"questionText": "ক্লাউডে কোন ফাংশন অ্যাপ ব্যবহারের সময়, ইউজারকে তৈরি এবং ডেপলয় করতে হবে:",
 						"answerOptions": [
 							{
-								"answerText": "A Functions App only",
+								"answerText": "শুধু ১টি ফাংশন অ্যাপ",
 								"isCorrect": "false"
 							},
 							{
-								"answerText": "A Functions App and a Storage Account only",
+								"answerText": "১টি ফাংশন অ্যাপ এবং একটি স্টোরেজ একাউন্ট",
 								"isCorrect": "false"
 							},
 							{
-								"answerText": "A Functions App, a Storage Account, and Application Settings",
+								"answerText": "১টি ফাংশন অ্যাপ এবং একটি স্টোরেজ একাউন্ট এবং এপ্লিকেশন সেটিং",
 								"isCorrect": "true"
 							}
 						]
@@ -912,10 +912,10 @@
 			},
 			{
 				"id": 19,
-				"title": "Lesson 10 - Keep your plant secure: Pre-Lecture Quiz",
+				"title": "লেসন ১০ - গাছগুলোর নিরাপত্তা নিশ্চিতকরণ: লেকচার পূর্ববর্তী কুইজ",
 				"quiz": [
 					{
-						"questionText": "IoT devices are always secure",
+						"questionText": "আইওটি ডিভাইস সর্বদা সুরক্ষিত থাকে",
 						"answerOptions": [
 							{
 								"answerText": "সত্য",
@@ -928,7 +928,7 @@
 						]
 					},
 					{
-						"questionText": "There are no documented cases of hackers using an IoT device to hack into a network:",
+						"questionText": "কোনও আইওটি ডিভাইস দিয়ে হ্যাক করার মতো নজির নেই:",
 						"answerOptions": [
 							{
 								"answerText": "সত্য",
@@ -941,7 +941,7 @@
 						]
 					},
 					{
-						"questionText": "You can share your IoT device connection string with anyone",
+						"questionText": "আইওটি ডিভাইস সংযোগের স্ট্রিং যে কারও সাথে ভাগ করতে পারা যাবে",
 						"answerOptions": [
 							{
 								"answerText": "সত্য",
@@ -957,31 +957,31 @@
 			},
 			{
 				"id": 20,
-				"title": "Lesson 10 - Keep your plant secure: Post-Lecture Quiz",
+				"title": "লেসন ১০ - গাছগুলোর নিরাপত্তা নিশ্চিতকরণ: লেকচার পরবর্তী কুইজ",
 				"quiz": [
 					{
-						"questionText": "Symmetric key encryption compares to asymmetric ky encryption in which ways:",
+						"questionText": "Symmetric key encryption এবং asymmetric key encryption এর পার্থক্য:",
 						"answerOptions": [
 							{
-								"answerText": "Symmetric key encryption is slower than asymmetric",
+								"answerText": "Symmetric key encryption এর স্পীড asymmetric এর চেয়ে কম",
 								"isCorrect": "false"
 							},
 							{
-								"answerText": "Symmetric key encryption is more secure than asymmetric",
+								"answerText": "Symmetric key encryption এখানে asymmetric এর তুলনায় বেশি নিরাপদ",
 								"isCorrect": "false"
 							},
 							{
-								"answerText": "Symmetric key encryption is faster than asymmetric, but less secure",
+								"answerText": "Symmetric key encryption টি asymmetric এর তুলনায় বেশি দ্রুত কাজ করলেও, নিরাপত্তা কম",
 								"isCorrect": "true"
 							},
 							{
-								"answerText": "Symmetric key encryption is slower than asymmetric, but more secure",
+								"answerText": "Symmetric key encryption টি asymmetric এর তুলনায় ধীরে কাজ করলেও, নিরাপত্তা বেশি",
 								"isCorrect": "false"
 							}
 						]
 					},
 					{
-						"questionText": "Self-signed X.509 certificates are ideal for a production environment",
+						"questionText": "Self-signed X.509 সার্টিফিকেটগুলো Production Environment এর জন্য আদর্শ",
 						"answerOptions": [
 							{
 								"answerText": "সত্য",
@@ -997,15 +997,15 @@
 						"questionText": "X.509 certificates:",
 						"answerOptions": [
 							{
-								"answerText": "Should never be shared between IoT devices",
+								"answerText": "আইওটি ডিভাইসগুলোর মাঝে শেয়ার করা উচিত নয়",
 								"isCorrect": "false"
 							},
 							{
-								"answerText": "Can be shared between devices",
+								"answerText": "আইওটি ডিভাইসগুলোর মাঝে শেয়ার করা যাবে",
 								"isCorrect": "true"
 							},
 							{
-								"answerText": "Should be kept secure and never used by any devices",
+								"answerText": "গোপন রাখা উচিত এবং কোন ডিভাইসের সাথে শেয়ার করা আবেনা",
 								"isCorrect": "false"
 							}
 						]
