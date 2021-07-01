@@ -43,7 +43,7 @@ The code you used to classify images is very similar to the code to detect objec
 
     threshold = 0.3
     
-    predictions = (prediction for prediction in results.predictions if prediction.probability > threshold)
+    predictions = list(prediction for prediction in results.predictions if prediction.probability > threshold)
     
     for prediction in predictions:
         print(f'{prediction.tag_name}:\t{prediction.probability * 100:.2f}%')

@@ -34,7 +34,7 @@ results = predictor.detect_image(project_id, iteration_name, image)
 
 threshold = 0.3
 
-predictions = (prediction for prediction in results.predictions if prediction.probability > threshold)
+predictions = list(prediction for prediction in results.predictions if prediction.probability > threshold)
 
 for prediction in predictions:
     print(f'{prediction.tag_name}:\t{prediction.probability * 100:.2f}%')

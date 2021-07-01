@@ -122,7 +122,7 @@ In the example above, one bounding box indicated a predicted can of tomato paste
 
 ## Retrain the model
 
-Just like with the image classifier, you can retrain your model using data captured by your IoT device. Using this real-world data will ensure your model works well when used from your IoT device.
+Like with the image classifier, you can retrain your model using data captured by your IoT device. Using this real-world data will ensure your model works well when used from your IoT device.
 
 Unlike with the image classifier, you can't just tag an image. Instead you need to review every bounding box detected by the model. If the box is around the wrong thing then it needs to be deleted, if it is in the wrong location it needs to be adjusted.
 
@@ -146,15 +146,27 @@ Using a combination of the number of objects detected and the bounding boxes, yo
 
 ### Task - count stock
 
+Follow the relevant guide below to count stock using the results from the object detector from your IoT device:
+
+* [Arduino - Wio Terminal](wio-terminal-count-stock.md)
+* [Single-board computer - Raspberry Pi/Virtual device](single-board-computer-count-stock.md)
+
 ---
 
 ## 🚀 Challenge
+
+Can you detect incorrect stock? Train your model on multiple objects, then update your app to alert you if the wrong stock is detected.
+
+Maybe even take this further and detect stock side by side on the same shelf, and see if something has been put in the wrong place bu defining limits on the bounding boxes.
 
 ## Post-lecture quiz
 
 [Post-lecture quiz](https://brave-island-0b7c7f50f.azurestaticapps.net/quiz/40)
 
 ## Review & Self Study
+
+* Learn more about how to architect an end-to-end stock detection system from the [Out of stock detection at the edge pattern guide on Microsoft Docs](https://docs.microsoft.com/hybrid/app-solutions/pattern-out-of-stock-at-edge?WT.mc_id=academic-17441-jabenn)
+* Learn other ways to build end-to-end retail solutions combining a range of IoT and cloud services by watching this [Behind the scenes of a retail solution - Hands On! video on YouTube](https://www.youtube.com/watch?v=m3Pc300x2Mw).
 
 ## Assignment
 
