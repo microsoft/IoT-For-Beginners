@@ -56,7 +56,7 @@ Object detection involves training a model to recognize objects. Instead of givi
 
 When you then use it to predict images, instead of getting back a list of tags and percentages, you get back a list of detected objects, with their bounding box and the probability that the object matches the assigned tag.
 
-> 🎓 *Bounding boxes* are the boxes around an object. They are given using coordinates relative to the image as a whole on a scale of 0-1. For example, if the image is 800 pixels wide, by 600 tall and the object it detected between 400 and 600 pixels along, and 150 and 300 pixels down, the bounding box would have a top/left coordinate of 0.5,0.25, with a width of 0.25 and a height of 0.25. That way no matter what size the image is scaled to, the bounding box starts half way along, and a quarter of the way down, and is a quarter of the width and the height.
+> 🎓 *Bounding boxes* are the boxes around an object.
 
 ![Object detection of cashew nuts and tomato paste](../../../images/object-detector-cashews-tomato.png)
 
