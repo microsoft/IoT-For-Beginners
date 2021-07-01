@@ -60,11 +60,11 @@ Traditional programming is where you take data, apply an algorithm to the data, 
 
 ![Traditional development takes input and an algorithm and gives output. Machine learning uses input and output data to train a model, and this model can take new input data to generate new output](../../../images/traditional-vs-ml.png)
 
-Machine learning turns this around - you start with data and known outputs, and the machine learning tools work out the algorithm. You can then take that algorithm, called a *machine learning model*, and input new data and get new output.
+Machine learning turns this around - you start with data and known outputs, and the machine learning algorithm learns from the data. You can then take that trained algorithm, called a *machine learning model* or *model*, and input new data and get new output.
 
-> 🎓 The process of a machine learning tool generating a model is called *training*. The inputs and known outputs are called *training data*.
+> 🎓 The process of a machine learning algorithm learning from the data is called *training*. The inputs and known outputs are called *training data*.
 
-For example, you could give a model millions of pictures of unripe bananas as input training data, with the training output set as `unripe`, and millions of ripe banana pictures as training data with the output set as `ripe`. The ML tools will then generate a model. You then give this model a new picture of a banana and it will predict if the new picture is a ripe or an unripe banana.
+For example, you could give a model millions of pictures of unripe bananas as input training data, with the training output set as `unripe`, and millions of ripe banana pictures as training data with the output set as `ripe`. The ML algorithm will then create a model based off this data. You then give this model a new picture of a banana and it will predict if the new picture is a ripe or an unripe banana.
 
 > 🎓 The results of ML models are called *predictions*
 
@@ -122,6 +122,8 @@ To use Custom Vision, you first need to create two cognitive services resources 
     Replace `<location>` with the location you used when creating the Resource Group.
 
     This will create a Custom Vision training resource in your Resource Group. It will be called `fruit-quality-detector-training` and use the `F0` sku, which is the free tier. The `--yes` option means you agree to the terms and conditions of the cognitive services.
+    
+> 💁 Use `S0` sku if you already have a free account using any of the Cognitive Services.
 
 1. Use the following command to create a free Custom Vision prediction resource:
 
