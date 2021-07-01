@@ -91,6 +91,22 @@ These samples are taken many thousands of times per second, using well-defined s
 
 ✅ Do some research: If you use a streaming music service, what sample rate and size does it use? If you use CDs, what is the sample rate and size of CD audio?
 
+There are a number of different formats for audio data. You've probably heard of mp3 files - audio data that is compressed to make it smaller without losing any quality. Uncompressed audio is often stored as a WAV file - this is a file with 44 bytes of header information, followed by raw audio data. The header contains information such as the sample rate (for example 16000 for 16KHz) and sample size (16 for 16-bit), and the number of channels. After the header, the WAV file contains the raw audio data.
+
+> 🎓 Channels refers to how many different audio streams make up the audio. For example, for stereo audio with left and right, there would be 2 channels. For 7.1 surround sound for a home theater system this would be 8.
+
+### Audio data size
+
+Audio data is relatively large. For example, capturing uncompressed 16-bit audio at 16KHz (a good enough rate for use with speech to text model), takes 32KB of data for each second of audio:
+
+* 16-bit means 2 bytes per sample (1 byte is 8 bits).
+* 16KHz is 16,000 samples per second.
+* 16,000 x 2 bytes = 32,000 bytes per second.
+
+This sounds like a small amount of data, but if you are using a microcontroller with limited memory, this can be a lot. For example, the Wio Terminal has 192KB of memory, and that needs to store program code and variables. Even if your program code was tiny, you couldn't capture more than 5 seconds of audio.
+
+Microcontrollers can access additional storage, such as SD cards or flash memory. When building an IoT device that captures audio you will need to ensure not only you have additional storage, but your code writes the audio captured from your microphone directly to that storage, and when sending it to the cloud, you stream from storage to the web request. That way you can avoid running out of memory by trying to hold the entire block of audio data in memory at once.
+
 ## Capture audio from your IoT device
 
 Your IoT device can be connected to a microphone to capture audio, ready for conversion to text. It can also be connected to speakers to output audio. In later lessons this will be used to give audio feedback, but it is useful to set up speakers now to test the microphone.
@@ -185,26 +201,6 @@ Work through the relevant guide to convert speech to text on your IoT device:
 * [Arduino - Wio Terminal](wio-terminal-speech-to-text.md)
 * [Single-board computer - Raspberry Pi](pi-speech-to-text.md)
 * [Single-board computer - Virtual device](virtual-device-speech-to-text.md)
-
-### Task - send converted speech to an IoT services
-
-To use the results of the speech to text conversion, you need to send it to the cloud. There it will be interpreted and responses sent back to the IoT device as commands.
-
-1. Create a new IoT Hub in the `smart-timer` resource group, and register a new device called `smart-timer`.
-
-1. Connect your IoT device to this IoT Hub using what you have learned in previous lessons, and send the speech as telemetry. Use a JSON document in this format:
-
-    ```json
-    {
-        "speech" : "<converted speech>"
-    }
-    ```
-
-    Where `<converted speech>` is the output from the speech to text call. You only need to send speech that has content, if the call returns an empty string it can be ignored.
-
-1. Verify that messages are being sent by monitoring the Event Hub compatible endpoint using the `az iot hub monitor-events` command.
-
-> 💁 You can find this code in the [code-iot-hub/virtual-iot-device](code-iot-hub/virtual-iot-device), [code-iot-hub/pi](code-iot-hub/pi), or [code-iot-hub/wio-terminal](code-iot-hub/wio-terminal) folder.
 
 ---
 
