@@ -1,9 +1,5 @@
 # Migrate your application logic to the cloud
 
-Add a sketchnote if possible/appropriate
-
-![Embed a video here if available](video-url)
-
 ## Pre-lecture quiz
 
 [Pre-lecture quiz](https://brave-island-0b7c7f50f.azurestaticapps.net/quiz/17)
@@ -46,7 +42,7 @@ Despite the name, serverless does actually use servers. The naming is because yo
 
 As an IoT developer, the serverless model is ideal. You can write a function that is called in response to messages sent from any IoT device that is connected to your cloud-hosted IoT service. Your code will handle all messages sent, but only be running when needed.
 
-✅ Look back at the code you wrote as server code listening to messages over MQTT. As is, how might this run in the cloud using serverless? How do you think the code might be changed to support serverless computing?
+✅ Look back at the code you wrote as server code listening to messages over MQTT. How might this run in the cloud using serverless? How do you think the code might be changed to support serverless computing?
 
 > 💁 The serverless model is moving to other cloud services in addition to running code. For example, serverless databases are available in the cloud using a serverless pricing model where you pay per request made against the database, such as a query or insert, usually using pricing based on how much work is done to service the request. For example a single select of one row against a primary key will cost less than a complicated operation joining many tables and returning thousands of rows.
 
@@ -59,6 +55,8 @@ The serverless computing service from Microsoft is called Azure Functions.
 The short video below has an overview of Azure Functions
 
 [![Azure Functions overview video](https://img.youtube.com/vi/8-jz5f_JyEQ/0.jpg)](https://www.youtube.com/watch?v=8-jz5f_JyEQ)
+
+> 🎥 Click the image above to watch a video
 
 ✅ Take a moment to do some research and read the overview of Azure Functions in the [Microsoft Azure Functions documentation](https://docs.microsoft.com/azure/azure-functions/functions-overview?WT.mc_id=academic-17441-jabenn).
 
@@ -192,6 +190,23 @@ The Azure Functions CLI can be used to create a new Functions app.
 
     > ⚠️ If you get a firewall notification, grant access as the `func` application needs to be able to read and write to your network.
 
+    > ⚠️ If you are using macOS, there may be warnings in the output:
+    >
+    > ```output
+    > (.venv) ➜  soil-moisture-trigger func start
+    > Found Python version 3.9.1 (python3).
+    >
+    > Azure Functions Core Tools
+    > Core Tools Version:       3.0.3442 Commit hash: 6bfab24b2743f8421475d996402c398d2fe4a9e0  (64-bit)
+    > Function Runtime Version: 3.0.15417.0
+    >
+    > [2021-06-16T08:18:28.315Z] Cannot create directory for shared memory usage: /dev/shm/AzureFunctions
+    > [2021-06-16T08:18:28.316Z] System.IO.FileSystem: Access to the path '/dev/shm/AzureFunctions' is denied. Operation not permitted.
+    > [2021-06-16T08:18:30.361Z] No job functions found.
+    > ```
+    >
+    > You can ignore these as long as the Functions app starts correctly and lists the running functions. As mentioned in [this question on the Microsoft Docs Q&A](https://docs.microsoft.com/answers/questions/396617/azure-functions-core-tools-error-osx-devshmazurefu.html?WT.mc_id=academic-17441-jabenn) it can be ignored.
+
 1. Stop the Functions app by pressing `ctrl+c`.
 
 1. Open the current folder in VS Code, either by opening VS Code, then opening this folder, or by running the following:
@@ -254,12 +269,12 @@ You are now ready to create the event trigger.
 1. From the VS Code terminal run the following command from inside the `soil-moisture-trigger` folder:
 
     ```sh
-    func new --name iot_hub_trigger --template "Azure Event Hub trigger"
+    func new --name iot-hub-trigger --template "Azure Event Hub trigger"
     ```
 
-    This creates a new Function called `iot_hub_trigger`. The trigger will connect to the Event Hub compatible endpoint on the IoT Hub, so you can use an event hub trigger. There is no specific IoT Hub trigger.
+    This creates a new Function called `iot-hub-trigger`. The trigger will connect to the Event Hub compatible endpoint on the IoT Hub, so you can use an event hub trigger. There is no specific IoT Hub trigger.
 
-This will create a folder inside the `soil-moisture-trigger` folder called `iot_hub_trigger` that contains this function. This folder will have the following files inside it:
+This will create a folder inside the `soil-moisture-trigger` folder called `iot-hub-trigger` that contains this function. This folder will have the following files inside it:
 
 * `__init__.py` - this is the Python code file that contains the trigger, using the standard Python file name convention to turn this folder into a Python module.
 
@@ -292,7 +307,7 @@ This will create a folder inside the `soil-moisture-trigger` folder called `iot_
 
   * `"type": "eventHubTrigger"` - this tells the function it needs to listen to events from an Event Hub
   * `"name": "events"` - this is the parameter name to use for the Event Hub events. This matches the parameter name in the `main` function in the Python code.
-  * `"direction": "in",` - this is an input binding, the data from the event hub comes into the function
+  * `"direction": "in"` - this is an input binding, the data from the event hub comes into the function
   * `"connection": ""` - this defines the name of the setting to read the connection string from. When running locally, this will read this setting from the `local.settings.json` file.
 
     > 💁 The connection string cannot be stored in the `function.json` file, it has to be read from the settings. This is to stop you accidentally exposing your connection string.
@@ -307,13 +322,17 @@ This will create a folder inside the `soil-moisture-trigger` folder called `iot_
 
 ### Task - run the event trigger
 
+1. Make sure you are not running the IoT Hub event monitor. If this is running at the same time as the functions app, the functions app will not be able to connect and consume events.
+
+    > 💁 Multiple apps can connect to the IoT Hub endpoints using different *consumer groups*. These are covered in a later lesson.
+
 1. To run the Functions app, run the following command from the VS Code terminal
 
     ```sh
     func start
     ```
 
-    The Functions app will start up, and will discover the `iot_hub_trigger` function. It will then process any events that have already been sent to the IoT Hub in the past day.
+    The Functions app will start up, and will discover the `iot-hub-trigger` function. It will then process any events that have already been sent to the IoT Hub in the past day.
 
     ```output
     (.venv) ➜  soil-moisture-trigger func start
@@ -325,23 +344,23 @@ This will create a folder inside the `soil-moisture-trigger` folder called `iot_
     
     Functions:
     
-            iot_hub_trigger: eventHubTrigger
+            iot-hub-trigger: eventHubTrigger
     
     For detailed output, run func with --verbose flag.
     [2021-05-05T02:44:07.517Z] Worker process started and initialized.
-    [2021-05-05T02:44:09.202Z] Executing 'Functions.iot_hub_trigger' (Reason='(null)', Id=802803a5-eae9-4401-a1f4-176631456ce4)
+    [2021-05-05T02:44:09.202Z] Executing 'Functions.iot-hub-trigger' (Reason='(null)', Id=802803a5-eae9-4401-a1f4-176631456ce4)
     [2021-05-05T02:44:09.205Z] Trigger Details: PartionId: 0, Offset: 1011240-1011632, EnqueueTimeUtc: 2021-05-04T19:04:04.2030000Z-2021-05-04T19:04:04.3900000Z, SequenceNumber: 2546-2547, Count: 2
     [2021-05-05T02:44:09.352Z] Python EventHub trigger processed an event: {"soil_moisture":628}
     [2021-05-05T02:44:09.354Z] Python EventHub trigger processed an event: {"soil_moisture":624}
-    [2021-05-05T02:44:09.395Z] Executed 'Functions.iot_hub_trigger' (Succeeded, Id=802803a5-eae9-4401-a1f4-176631456ce4, Duration=245ms)
+    [2021-05-05T02:44:09.395Z] Executed 'Functions.iot-hub-trigger' (Succeeded, Id=802803a5-eae9-4401-a1f4-176631456ce4, Duration=245ms)
     ```
 
-    Each call to the function will be surrounded by a `Executing 'Functions.iot_hub_trigger'`/`Executed 'Functions.iot_hub_trigger'` block in the output, so you can how many messages were processed in each function call.
+    Each call to the function will be surrounded by a `Executing 'Functions.iot-hub-trigger'`/`Executed 'Functions.iot-hub-trigger'` block in the output, so you can how many messages were processed in each function call.
 
     > If you get the following error:
 
       ```output
-      The listener for function 'Functions.iot_hub_trigger' was unable to start. Microsoft.WindowsAzure.Storage: Connection refused. System.Net.Http: Connection refused. System.Private.CoreLib: Connection refused.
+      The listener for function 'Functions.iot-hub-trigger' was unable to start. Microsoft.WindowsAzure.Storage: Connection refused. System.Net.Http: Connection refused. System.Private.CoreLib: Connection refused.
       ```
 
       Then check Azurite is running and you have set the `AzureWebJobsStorage` in the `local.settings.json` file to `UseDevelopmentStorage=true`.
@@ -370,7 +389,7 @@ To connect to the Registry Manager, you need a connection string.
 
     Replace `<hub_name>` with the name you used for your IoT Hub.
 
-    The connection string is requested for the *ServiceConnect* policy using the `--policy-name service` parameter. When you request a connection string, you can specify what permissions that connection string will allow. The ServiceConnect policy allows yor code to connect and send messages to IoT devices.
+    The connection string is requested for the *ServiceConnect* policy using the `--policy-name service` parameter. When you request a connection string, you can specify what permissions that connection string will allow. The ServiceConnect policy allows your code to connect and send messages to IoT devices.
 
     ✅ Do some research: Read up on the different policies in the [IoT Hub permissions documentation](https://docs.microsoft.com/azure/iot-hub/iot-hub-devguide-security#iot-hub-permissions?WT.mc_id=academic-17441-jabenn)
 
@@ -561,7 +580,7 @@ Deployment successful.
 Remote build succeeded!
 Syncing triggers...
 Functions in soil-moisture-sensor:
-    iot_hub_trigger - [eventHubTrigger]
+    iot-hub-trigger - [eventHubTrigger]
 ```
 
 Make sure your IoT device is running. Change the moisture levels by adjusting the soil moisture, or moving the sensor in and out of the soil. You will see the relay turn on and off as the soil moisture changes.

@@ -16,7 +16,7 @@ On Windows, Linux, and macOS, the speech services Python SDK can be used to list
     pip install azure-cognitiveservices-speech
     ```
 
-    > ⚠️ If you see the following error:
+    > ⚠️ If you get the following error:
     >
     > ```output
     > ERROR: Could not find a version that satisfies the requirement azure-cognitiveservices-speech (from versions: none)
@@ -32,6 +32,7 @@ On Windows, Linux, and macOS, the speech services Python SDK can be used to list
 1. Add the following imports to the `app,py` file:
 
     ```python
+    import requests
     import time
     from azure.cognitiveservices.speech import SpeechConfig, SpeechRecognizer
     ```
@@ -41,13 +42,13 @@ On Windows, Linux, and macOS, the speech services Python SDK can be used to list
 1. Add the following code to declare some configuration:
 
     ```python
-    api_key = '<key>'
+    speech_api_key = '<key>'
     location = '<location>'
     language = '<language>'
 
-    speech_config = SpeechConfig(subscription=api_key,
-                                 region=location,
-                                 speech_recognition_language=language)
+    recognizer_config = SpeechConfig(subscription=speech_api_key,
+                                     region=location,
+                                     speech_recognition_language=language)
     ```
 
     Replace `<key>` with the API key for your speech service. Replace `<location>` with the location you used when you created the speech service resource.
@@ -59,14 +60,17 @@ On Windows, Linux, and macOS, the speech services Python SDK can be used to list
 1. Add the following code to create a speech recognizer:
 
     ```python
-    recognizer = SpeechRecognizer(speech_config=speech_config)
+    recognizer = SpeechRecognizer(speech_config=recognizer_config)
     ```
 
-1. The speech recognizer runs on a background thread, listening for audio and converting any speech in it to text. You can get the text using a callback function - a function you define and pass to the recognizer. Every time speech is detected, the callback is called. Add the following code to define a callback that prints the text to the console, and pass this callback to the recognizer:
+1. The speech recognizer runs on a background thread, listening for audio and converting any speech in it to text. You can get the text using a callback function - a function you define and pass to the recognizer. Every time speech is detected, the callback is called. Add the following code to define a callback, and pass this callback to the recognizer, as well as defining a function to process the text, writing it to the consoled:
 
     ```python
+    def process_text(text):
+        print(text)
+
     def recognized(args):
-        print(args.result.text)
+        process_text(args.result.text)
     
     recognizer.recognized.connect(recognized)
     ```
@@ -80,7 +84,7 @@ On Windows, Linux, and macOS, the speech services Python SDK can be used to list
         time.sleep(1)
     ```
 
-1. Run this app. Speak into your microphone and you will see the audio converted to text in the console.
+1. Run this app. Speak into your microphone and the audio converted to text will be output to the console.
 
     ```output
     (.venv) ➜  smart-timer python3 app.py

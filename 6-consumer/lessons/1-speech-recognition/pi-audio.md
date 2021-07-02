@@ -190,7 +190,7 @@ You can capture audio from the microphone using Python code.
 
 1. Run the code. Press the button and speak into the microphone. Release the button when you are done, and you will hear the recording.
 
-    You may see some ALSA errors when the PyAudio instance is created. This is due to configuration on the Pi for audio devices you don't have. You can ignore these errors.
+    You may get some ALSA errors when the PyAudio instance is created. This is due to configuration on the Pi for audio devices you don't have. You can ignore these errors.
 
     ```output
     pi@raspberrypi:~/smart-timer $ python3 app.py 
@@ -200,7 +200,7 @@ You can capture audio from the microphone using Python code.
     ALSA lib pcm.c:2565:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.side
     ```
 
-    If you see the following error:
+    If you get the following error:
 
     ```output
     OSError: [Errno -9997] Invalid sample rate

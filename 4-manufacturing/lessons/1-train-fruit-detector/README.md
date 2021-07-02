@@ -1,10 +1,10 @@
 # Train a fruit quality detector
 
-Add a sketchnote if possible/appropriate
-
 This video gives an overview of the Azure Custom Vision service, a service that will be covered in this lesson.
 
 [![Custom Vision – Machine Learning Made Easy | The Xamarin Show](https://img.youtube.com/vi/TETcDLJlWR4/0.jpg)](https://www.youtube.com/watch?v=TETcDLJlWR4)
+
+> 🎥 Click the image above to watch the video
 
 ## Pre-lecture quiz
 
@@ -44,6 +44,8 @@ The video below shows one of these machines in action.
 
 [![Automatic sorting of tomatoes via color](https://img.youtube.com/vi/AcRL91DouAU/0.jpg)](https://www.youtube.com/watch?v=AcRL91DouAU)
 
+> 🎥 Click the image above to watch a video
+
 In this video, as tomatoes fall from one conveyer belt to another, green tomatoes are detected and flicked into a bin using levers.
 
 ✅ What conditions would you need in a factory or in a field for these optical sensors to work correctly?
@@ -56,11 +58,11 @@ Traditional programming is where you take data, apply an algorithm to the data, 
 
 ![Traditional development takes input and an algorithm and gives output. Machine learning uses input and output data to train a model, and this model can take new input data to generate new output](../../../images/traditional-vs-ml.png)
 
-Machine learning turns this around - you start with data and known outputs, and the machine learning tools work out the algorithm. You can then take that algorithm, called a *machine learning model*, and input new data and get new output.
+Machine learning turns this around - you start with data and known outputs, and the machine learning algorithm learns from the data. You can then take that trained algorithm, called a *machine learning model* or *model*, and input new data and get new output.
 
-> 🎓 The process of a machine learning tool generating a model is called *training*. The inputs and known outputs are called *training data*.
+> 🎓 The process of a machine learning algorithm learning from the data is called *training*. The inputs and known outputs are called *training data*.
 
-For example, you could give a model millions of pictures of unripe bananas as input training data, with the training output set as `unripe`, and millions of ripe banana pictures as training data with the output set as `ripe`. The ML tools will then generate a model. You then give this model a new picture of a banana and it will predict if the new picture is a ripe or an unripe banana.
+For example, you could give a model millions of pictures of unripe bananas as input training data, with the training output set as `unripe`, and millions of ripe banana pictures as training data with the output set as `ripe`. The ML algorithm will then create a model based off this data. You then give this model a new picture of a banana and it will predict if the new picture is a ripe or an unripe banana.
 
 > 🎓 The results of ML models are called *predictions*
 
@@ -69,6 +71,8 @@ For example, you could give a model millions of pictures of unripe bananas as in
 ML models don't give a binary answer, instead they give probabilities. For example, a model may be given a picture of a banana and predict `ripe` at 99.7% and `unripe` at 0.3%. Your code would then pick the best prediction and decide the banana is ripe.
 
 The ML model used to detect images like this is called an *image classifier* - it is given labelled images, and then classifies new images based off these labels.
+
+> 💁 This is an over-simplification, and there are many other ways to train models that don't always need labelled outputs, such as unsupervised learning. If you want to learn more about ML, check out [ML for beginners, a 24 lesson curriculum on Machine Learning](https://aka.ms/ML-beginners).
 
 ## Train an image classifier
 
@@ -118,6 +122,8 @@ To use Custom Vision, you first need to create two cognitive services resources 
     Replace `<location>` with the location you used when creating the Resource Group.
 
     This will create a Custom Vision training resource in your Resource Group. It will be called `fruit-quality-detector-training` and use the `F0` sku, which is the free tier. The `--yes` option means you agree to the terms and conditions of the cognitive services.
+    
+> 💁 Use `S0` sku if you already have a free account using any of the Cognitive Services.
 
 1. Use the following command to create a free Custom Vision prediction resource:
 
@@ -146,6 +152,8 @@ To use Custom Vision, you first need to create two cognitive services resources 
 
     ![The settings for the custom vision project with the name set to fruit-quality-detector, no description, the resource set to fruit-quality-detector-training, the project type set to classification, the classification types set to multi class and the domains set to food](../../../images/custom-vision-create-project.png)
 
+✅ Take some time to explore the Custom Vision UI for your image classifier.
+
 ### Task - train your image classifier project
 
 To train an image classifier, you will need multiple pictures of fruit, both good and bad quality to tag as good and bad, such as an ripe and an overripe banana.
@@ -166,7 +174,7 @@ Image classifiers run at very low resolution. For example Custom Vision can take
 
     * Repeat the same process using 2 unripe bananas
 
-    You should have at least 10 training images, with at least 5 ripe and 5 unripe, and 4 testing images, 2 ripe, 2 unripe. You're images should be png or jpegs, small than 6MB. If you create them with an iPhone for example they may be high-resolution HEIC images, so will need to be converted and possibly shrunk. The more images the better, and you should have a similar number of ripe and unripe.
+    You should have at least 10 training images, with at least 5 ripe and 5 unripe, and 4 testing images, 2 ripe, 2 unripe. Your images should be png or jpegs, small than 6MB. If you create them with an iPhone for example they may be high-resolution HEIC images, so will need to be converted and possibly shrunk. The more images the better, and you should have a similar number of ripe and unripe.
 
     If you don't have both ripe and unripe fruit, you can use different fruits, or any two objects you have available. You can also find some example images in the [images](./images) folder of ripe and unripe bananas that you can use.
 
@@ -196,7 +204,7 @@ Once your classifier is trained, you can test it by giving it a new image to cla
 
 ## Retrain your image classifier
 
-When you test you classifier, it may not give the results you expect. Image classifiers use machine learning to make predictions about what is in an image, based of probabilities that particular features of an image mean that it matches a particular label. It doesn't understand what is in the image - it doesn't know what a banana is or understand what makes a banana a banana instead of a boat. You can improve your classifier by retraining it with images it gets wrong.
+When you test your classifier, it may not give the results you expect. Image classifiers use machine learning to make predictions about what is in an image, based of probabilities that particular features of an image mean that it matches a particular label. It doesn't understand what is in the image - it doesn't know what a banana is or understand what makes a banana a banana instead of a boat. You can improve your classifier by retraining it with images it gets wrong.
 
 Every time you make a prediction using the quick test option, the image and results are stored. You can use these images to retrain your model.
 

@@ -1,0 +1,68 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://atlas.microsoft.com/sdk/javascript/mapcontrol/2/atlas.min.css"
+        type="text/css" />
+    <script src="https://atlas.microsoft.com/sdk/javascript/mapcontrol/2/atlas.min.js"></script>
+    <script type='text/javascript'>
+        function init() {
+            fetch("https://<storage_name>.blob.core.windows.net/gps-data/?restype=container&comp=list")
+                .then(response => response.text())
+                .then(str => new window.DOMParser().parseFromString(str, "text/xml"))
+                .then(xml => {
+                    let blobList = Array.from(xml.querySelectorAll("Url"));
+                    blobList.forEach(async blobUrl => {
+                        loadJSON(blobUrl.innerHTML)
+                    });
+                })
+                .then(response => {
+                    map = new atlas.Map('myMap', {
+                        center: [-122.26473, 47.73444],
+                        zoom: 14,
+                        authOptions: {
+                            authType: "subscriptionKey",
+                            subscriptionKey: "<subscription_key>",
+
+                        }
+                    });
+                    map.events.add('ready', function () {
+                        var source = new atlas.source.DataSource();
+                        map.sources.add(source);
+                        map.layers.add(new atlas.layer.BubbleLayer(source));
+                        source.add(features);
+                    })
+                })
+        }
+
+        var map, features;
+
+        function loadJSON(file) {
+            var xhr = new XMLHttpRequest();
+            features = [];
+            xhr.onreadystatechange = function () {
+                if (xhr.readyState === XMLHttpRequest.DONE) {
+                    if (xhr.status === 200) {
+                        gps = JSON.parse(xhr.responseText)
+                        features.push(
+                            new atlas.data.Feature(new atlas.data.Point([parseFloat(gps.gps.lon), parseFloat(gps.gps.lat)]))
+                        )
+                    }
+                }
+            };
+            xhr.open("GET", file, true);
+            xhr.send();
+        }
+    </script>
+    <style>
+        #myMap {
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+</head>
+
+<body onload="init()">
+    <div id="myMap"></div>
+</body>
+
+</html>

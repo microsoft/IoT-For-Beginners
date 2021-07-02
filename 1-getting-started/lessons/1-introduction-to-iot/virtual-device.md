@@ -67,13 +67,13 @@ Configure a Python virtual environment and install the pip packages for CounterF
         source ./.venv/bin/activate
         ```
 
-1. Once the virtual environment has been activated, the default `python` command will run the version of Python that was used to create the virtual environment. Run the following to see this:
+1. Once the virtual environment has been activated, the default `python` command will run the version of Python that was used to create the virtual environment. Run the following to get the version:
 
     ```sh
     python --version
     ```
 
-    You should see the following:
+    The output should contain the following:
 
     ```output
     (.venv) ➜  nightlight python --version
@@ -122,7 +122,7 @@ Create a Python application to print `"Hello World"` to the console.
 
     > 💁 If your terminal returns `command not found` on macOS it means VS Code has not been added to your PATH. You can add VS Code to your PATH by following the instructions in the [Launching from the command line section of the VS Code documentation](https://code.visualstudio.com/docs/setup/mac?WT.mc_id=academic-17441-jabenn#_launching-from-the-command-line) and run the command afterwards. VS Code is installed to your PATH by default on Windows and Linux.
 
-1. When VS Code launches, it will activate the Python virtual environment. You will see this in the bottom status bar:
+1. When VS Code launches, it will activate the Python virtual environment. The selected virtual environment will appear in the bottom status bar:
 
     ![VS Code showing the selected virtual environment](../../../images/vscode-virtual-env.png)
 
@@ -136,9 +136,9 @@ Create a Python application to print `"Hello World"` to the console.
     (.venv) ➜  nightlight
     ```
 
-    If you don't see `.venv` as a prefix on the prompt, the virtual environment is not active in the terminal.
+    If you don't have `.venv` as a prefix on the prompt, the virtual environment is not active in the terminal.
 
-1. Launch a new VS Code Terminal by selecting *Terminal -> New Terminal, or pressing `` CTRL+` ``. The new terminal will load the virtual environment, and you will see the call to activate this in the terminal, as well as having the name of the virtual environment (`.venv`) in the prompt:
+1. Launch a new VS Code Terminal by selecting *Terminal -> New Terminal, or pressing `` CTRL+` ``. The new terminal will load the virtual environment, and the the call to activate this will appear in the terminal. The prompt will also have the name of the virtual environment (`.venv`):
 
     ```output
     ➜  nightlight source .venv/bin/activate
@@ -159,7 +159,7 @@ Create a Python application to print `"Hello World"` to the console.
     python app.py
     ```
 
-    You should see the following output:
+    The following will be in the output:
 
     ```output
     (.venv) ➜  nightlight python app.py 
@@ -184,7 +184,7 @@ As a second 'Hello World' step, you will run the CounterFit app and connect your
 
     ![The Counter Fit app running in a browser](../../../images/counterfit-first-run.png)
 
-    You will see it marked as *Disconnected*, with the LED in the top-right corner turned off.
+    It will be marked as *Disconnected*, with the LED in the top-right corner turned off.
 
 1. Add the following code to the top of `app.py`:
 
@@ -201,7 +201,7 @@ As a second 'Hello World' step, you will run the CounterFit app and connect your
 
     ![VS Code Create a new integrated terminal button](../../../images/vscode-new-terminal.png)
 
-1. In this new terminal, run the `app.py` file as before. You will see the status of CounterFit change to **Connected** and the LED light up.
+1. In this new terminal, run the `app.py` file as before. The status of CounterFit will change to **Connected** and the LED will light up.
 
     ![Counter Fit showing as connected](../../../images/counterfit-connected.png)
 

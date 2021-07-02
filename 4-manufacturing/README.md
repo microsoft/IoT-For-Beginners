@@ -1,6 +1,6 @@
 # Manufacturing and processing - using IoT to improve the processing of food
 
-Once food reaches a central hub or processing plant, it isn't always just shipped out to supermarkets. A lot of the time the food goes through a number of processing steps, such as sorting by quality. This is a process that used to be manual - it would start in the field when pickers would only pick ripe fruit, then at the factory the fruit would be ride a conveyer belt and employees would manually remove any bruised or rotten fruit. Having picked and sorted strawberries myself as a summer job during school, I can testify that this isn't a fun job.
+Once food reaches a central hub or processing plant, it isn't always just shipped out to supermarkets. A lot of the time the food goes through a number of processing steps, such as sorting by quality. This is a process that used to be manual - it would start in the field when pickers would only pick ripe fruit, then at the factory the fruit would ride a conveyer belt and employees would manually remove any bruised or rotten fruit. Having picked and sorted strawberries myself as a summer job during school, I can testify that this isn't a fun job.
 
 More modern setups rely on IoT for sorting. Some of the earliest devices like the sorters from [Weco](https://wecotek.com) use optical sensors to detect the quality of produce, rejecting green tomatoes for example. These can be deployed in harvesters on the farm itself, or in processing plants.
 
@@ -10,7 +10,7 @@ As advances happen in Artificial Intelligence (AI) and Machine Learning (ML), th
 
 In these 4 lessons you'll learn how to train image-based AI models to detect fruit quality, how to use these from an IoT device, and how to run these on the edge - that is on an IoT device rather than in the cloud.
 
-> 💁 These lessons will use some cloud resources. If you don't complete all the lessons in this project, make sure you [Clean up your project](../clean-up.md).
+> 💁 These lessons will use some cloud resources. If you don't complete all the lessons in this project, make sure you [clean up your project](../clean-up.md).
 
 ## Topics
 

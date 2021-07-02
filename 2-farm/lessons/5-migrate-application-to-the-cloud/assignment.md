@@ -35,7 +35,7 @@ Some hints:
 
         relay_on: [GET,POST] http://localhost:7071/api/relay_on
 
-        iot_hub_trigger: eventHubTrigger
+        iot-hub-trigger: eventHubTrigger
     ```
 
     Paste the URL into your browser and hit `return`, or `Ctrl+click` (`Cmd+click` on macOS) the link in the terminal window in VS Code to open it in your default browser. This will run the trigger.

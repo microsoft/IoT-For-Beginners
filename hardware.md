@@ -10,6 +10,15 @@ The specific hardware was chosen to reduce the complexity of the lessons and ass
 
 You will also need a few non-technical items, such as soil or a pot plant, and fruit or vegetables.
 
+## Buy the kits
+
+![The Seeed studios logo](./images/seeed-logo.png)
+
+Seeed Studios have very kindly made all the hardware available as easy to purchase kits:
+
+* [IoT for beginners with Seeed and Microsoft - Wio Terminal Starter Kit]()
+* [IoT for beginners with Seeed and Microsoft - Raspberry Pi 4 Starter Kit](https://www.seeedstudio.com/IoT-for-beginners-with-Seeed-and-Microsoft-Raspberry-Pi-Starter-Kit.html)
+
 ## Arduino
 
 All the device code for Arduino is in C++. To complete all the assignments you will need the following:
@@ -46,7 +55,7 @@ All the device code for Raspberry Pi is in Python. To complete all the assignmen
 
 These are specific to using the Raspberry Pi, and are not relevant to using the Arduino device.
 
-* [Grove Pi base hat](https://wiki.seeedstudio.com/Grove_Base_Hat_for_Raspberry_Pi)
+* [Grove Pi base hat](https://www.seeedstudio.com/Grove-Base-Hat-for-Raspberry-Pi.html)
 * [Raspberry Pi Camera module](https://www.raspberrypi.org/products/camera-module-v2/)
 * Microphone and speaker:
 
@@ -57,7 +66,7 @@ These are specific to using the Raspberry Pi, and are not relevant to using the 
     * Headphones or other speaker with a 3.5mm jack, or a JST speaker such as:
     * [Mono Enclosed Speaker - 2W 6 Ohm](https://www.seeedstudio.com/Mono-Enclosed-Speaker-2W-6-Ohm-p-2832.html)
   * [USB Speakerphone](https://www.amazon.com/USB-Speakerphone-Conference-Business-Microphones/dp/B07Q3D7F8S/ref=sr_1_1?dchild=1&keywords=m0&qid=1614647389&sr=8-1)
-* [Grove Sunlight sensor](https://www.seeedstudio.com/Grove-Sunlight-Sensor.html)
+* [Grove Light sensor](https://www.seeedstudio.com/Grove-Light-Sensor-v1-2-LS06-S-phototransistor.html)
 * [Grove button](https://www.seeedstudio.com/Grove-Button.html)
 
 ## Sensors and actuators

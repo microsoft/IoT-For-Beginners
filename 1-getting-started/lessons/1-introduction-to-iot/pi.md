@@ -235,7 +235,7 @@ Create the Hello World app.
 
     > 💁 You need to explicitly call `python3` to run this code just in case you have Python 2 installed in addition to Python 3 (the latest version). If you have Python2 installed then calling `python` will use Python 2 instead of Python 3
 
-    You should see the following output:
+    The following output will appear in the terminal:
 
     ```output
     pi@raspberrypi:~/nightlight $ python3 app.py

@@ -1,12 +1,14 @@
 # Recognize speech with an IoT device
 
-Add a sketchnote if possible/appropriate
+This video gives an overview of the Azure speech service, a topic that will be covered in this lesson:
 
-![Embed a video here if available](video-url)
+[![How to get started using your Cognitive Services Speech resource from the Microsoft Azure YouTube channel](https://img.youtube.com/vi/iW0Fw0l3mrA/0.jpg)](https://www.youtube.com/watch?v=iW0Fw0l3mrA)
+
+> 🎥 Click the image above to watch a video
 
 ## Pre-lecture quiz
 
-[Pre-lecture quiz](https://brave-island-0b7c7f50f.azurestaticapps.net/quiz/33)
+[Pre-lecture quiz](https://brave-island-0b7c7f50f.azurestaticapps.net/quiz/41)
 
 ## Introduction
 
@@ -87,6 +89,22 @@ These samples are taken many thousands of times per second, using well-defined s
 
 ✅ Do some research: If you use a streaming music service, what sample rate and size does it use? If you use CDs, what is the sample rate and size of CD audio?
 
+There are a number of different formats for audio data. You've probably heard of mp3 files - audio data that is compressed to make it smaller without losing any quality. Uncompressed audio is often stored as a WAV file - this is a file with 44 bytes of header information, followed by raw audio data. The header contains information such as the sample rate (for example 16000 for 16KHz) and sample size (16 for 16-bit), and the number of channels. After the header, the WAV file contains the raw audio data.
+
+> 🎓 Channels refers to how many different audio streams make up the audio. For example, for stereo audio with left and right, there would be 2 channels. For 7.1 surround sound for a home theater system this would be 8.
+
+### Audio data size
+
+Audio data is relatively large. For example, capturing uncompressed 16-bit audio at 16KHz (a good enough rate for use with speech to text model), takes 32KB of data for each second of audio:
+
+* 16-bit means 2 bytes per sample (1 byte is 8 bits).
+* 16KHz is 16,000 samples per second.
+* 16,000 x 2 bytes = 32,000 bytes per second.
+
+This sounds like a small amount of data, but if you are using a microcontroller with limited memory, this can be a lot. For example, the Wio Terminal has 192KB of memory, and that needs to store program code and variables. Even if your program code was tiny, you couldn't capture more than 5 seconds of audio.
+
+Microcontrollers can access additional storage, such as SD cards or flash memory. When building an IoT device that captures audio you will need to ensure not only you have additional storage, but your code writes the audio captured from your microphone directly to that storage, and when sending it to the cloud, you stream from storage to the web request. That way you can avoid running out of memory by trying to hold the entire block of audio data in memory at once.
+
 ## Capture audio from your IoT device
 
 Your IoT device can be connected to a microphone to capture audio, ready for conversion to text. It can also be connected to speakers to output audio. In later lessons this will be used to give audio feedback, but it is useful to set up speakers now to test the microphone.
@@ -113,7 +131,7 @@ Speech to text, or speech recognition, involves using AI to convert words in an 
 
 ### Speech recognition models
 
-To convert speech to text, samples from the audio signal are grouped together and fed into a machine learning model based around a Recurrent Neural network (RNN). This is a type of machine learning model that can use previous data to make a decision about incoming data. For example, the RNN could detect one block of audio samples as the sound 'Hel', and when it receives another that it thinks is the sound 'lo', it can combine this with the previous sound, see that 'Hello' is a valid word and select that as the outcome.
+To convert speech to text, samples from the audio signal are grouped together and fed into a machine learning model based around a Recurrent Neural network (RNN). This is a type of machine learning model that can use previous data to make a decision about incoming data. For example, the RNN could detect one block of audio samples as the sound 'Hel', and when it receives another that it thinks is the sound 'lo', it can combine this with the previous sound, find that 'Hello' is a valid word and select that as the outcome.
 
 ML models always accept data of the same size every time. The image classifier you built in an earlier lesson resizes images to a fixed size and processes them. The same with speech models, they have to process fixed sized audio chunks. The speech models need to be able to combine the outputs of multiple predictions to get the answer, to allow it to distinguish between 'Hi' and 'Highway', or 'flock' and 'floccinaucinihilipilification'.
 
@@ -143,7 +161,9 @@ To avoid the complexity of training and using a wake word model, the smart timer
 
 ## Convert speech to text
 
-Just like with image classification in the last project, there are pre-built AI services that can take speech as an audio file and convert it to text. Once such service is the Speech Service, part of the Cognitive Services, pre-built AI services you can use in your apps.
+![Speech services logo](../../../images/azure-speech-logo.png)
+
+Just like with image classification in an earlier project, there are pre-built AI services that can take speech as an audio file and convert it to text. Once such service is the Speech Service, part of the Cognitive Services, pre-built AI services you can use in your apps.
 
 ### Task - configure a speech AI resource
 
@@ -180,37 +200,17 @@ Work through the relevant guide to convert speech to text on your IoT device:
 * [Single-board computer - Raspberry Pi](pi-speech-to-text.md)
 * [Single-board computer - Virtual device](virtual-device-speech-to-text.md)
 
-### Task - send converted speech to an IoT services
-
-To use the results of the speech to text conversion, you need to send it to the cloud. There it will be interpreted and responses sent back to the IoT device as commands.
-
-1. Create a new IoT Hub in the `smart-timer` resource group, and register a new device called `smart-timer`.
-
-1. Connect your IoT device to this IoT Hub using what you have learned in previous lessons, and send the speech as telemetry. Use a JSON document in this format:
-
-    ```json
-    {
-        "speech" : "<converted speech>"
-    }
-    ```
-
-    Where `<converted speech>` is the output from the speech to text call.
-
-1. Verify that messages are being sent by monitoring the Event Hub compatible endpoint using the `az iot hub monitor-events` command.
-
-> 💁 You can find this code in the [code-iot-hub/virtual-iot-device](code-iot-hub/virtual-iot-device), [code-iot-hub/pi](code-iot-hub/pi), or [code-iot-hub/wio-terminal](code-iot-hub/wio-terminal) folder.
-
 ---
 
 ## 🚀 Challenge
 
-Speech recognition has been around for a long time, and is continuously improving. Research the current capabilities and see how these have evolved over time, including how accurate machine transcriptions are compared to human.
+Speech recognition has been around for a long time, and is continuously improving. Research the current capabilities and compare how these have evolved over time, including how accurate machine transcriptions are compared to human.
 
 What do you think the future holds for speech recognition?
 
 ## Post-lecture quiz
 
-[Post-lecture quiz](https://brave-island-0b7c7f50f.azurestaticapps.net/quiz/34)
+[Post-lecture quiz](https://brave-island-0b7c7f50f.azurestaticapps.net/quiz/42)
 
 ## Review & Self Study
 

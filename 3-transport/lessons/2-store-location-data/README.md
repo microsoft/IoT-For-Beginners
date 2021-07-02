@@ -1,16 +1,12 @@
 # Store location data
 
-Add a sketchnote if possible/appropriate
-
-![Embed a video here if available](video-url)
-
 ## Pre-lecture quiz
 
 [Pre-lecture quiz](https://brave-island-0b7c7f50f.azurestaticapps.net/quiz/23)
 
 ## Introduction
 
-In the last lesson, you learned how to use a GPS sensor to capture location data. To use this data to visualize the both the location of a truck laden with food, but also it's journey, it needs to be sent to an IoT service in the cloud, and then stored somewhere.
+In the last lesson, you learned how to use a GPS sensor to capture location data. To use this data to visualize the location of a truck laden with food, and it's journey, it needs to be sent to an IoT service in the cloud, and then stored somewhere.
 
 In this lesson you will learn about the different ways to store IoT data, and learn how to store data from your IoT service using serverless code.
 
@@ -18,6 +14,7 @@ In this lesson we'll cover:
 
 * [Structured and unstructured data](#structured-and-unstructured-data)
 * [Send GPS data to an IoT Hub](#send-gps-data-to-an-iot-hub)
+* [Hot, warm, and cold paths](#hot-warm-and-cold-paths)
 * [Handle GPS events using serverless code](#handle-gps-events-using-serverless-code)
 * [Azure Storage Accounts](#azure-storage-accounts)
 * [Connect your serverless code to storage](#connect-your-serverless-code-to-storage)
@@ -44,6 +41,8 @@ Imagine you were adding IoT devices to a fleet of vehicles for a large commercia
 
 This data can change constantly. For example, if the IoT device is in a truck cab, then the data it sends may change as the trailer changes, for example only sending temperature data when a refrigerated trailer is used.
 
+✅ What other IoT data might be captured? Think about the kinds of loads trucks can carry, as well as maintenance data.
+
 This data varies from vehicle to vehicle, but it all gets sent to the same IoT service for processing. The IoT service needs to be able to process this unstructured data, storing it in a way that allows it to be searched or analyzed, but works with different structures to this data.
 
 ### SQL vs NoSQL storage
@@ -58,13 +57,17 @@ The first databases were Relational Database Management Systems (RDBMS), or rela
 
 For example, if you stored a users personal details in a table, you would have some kind of internal unique ID per user that is used in a row in a table that contains the users name and address. If you then wanted to store other details about that user, such as their purchases, in another table, you would have one column in the new table for that users ID. When you look up a user, you can use their ID to get their personal details from one table, and their purchases from another.
 
-SQL databases are ideal for storing structured data, and for when you want to ensure the data matches your schema. Some well known SQL databases are Microsoft SQL Server, MySQL, and PostgreSQL.
+SQL databases are ideal for storing structured data, and for when you want to ensure the data matches your schema.
 
 ✅ If you haven't used SQL before, take a moment to read up on it on the [SQL page on Wikipedia](https://wikipedia.org/wiki/SQL).
 
+Some well known SQL databases are Microsoft SQL Server, MySQL, and PostgreSQL.
+
+✅ Do some research: Read up on some of these SQL databases and their capabilities.
+
 #### NoSQL database
 
-NoSQL databases are so called because they don't have the same rigid structure of SQL databases. There are also known as document databases as they can store unstructured data such as documents.
+NoSQL databases are called NoSQL because they don't have the same rigid structure of SQL databases. They are also known as document databases as they can store unstructured data such as documents.
 
 > 💁 Despite their name, some NoSQL databases allow you to use SQL to query the data.
 
@@ -73,6 +76,8 @@ NoSQL databases are so called because they don't have the same rigid structure o
 NoSQL database do not have a pre-defined schema that limits how data is stored, instead you can insert any unstructured data, usually using JSON documents. These documents can be organized into folders, similar to files on your computer. Each document can have different fields from other documents - for example if you were storing IoT data from your farm vehicles, some may have fields for accelerometer and speed data, others may have fields for the temperature in the trailer. If you were to add a new truck type, such as one with built in scales to track the weight of produce carried, then your IoT device could add this new field and it could be stored without any changes to the database.
 
 Some well known NoSQL databases include Azure CosmosDB, MongoDB, and CouchDB.
+
+✅ Do some research: Read up on some of these NoSQL databases and their capabilities.
 
 In this lesson, you will be using NoSQL storage to store IoT data.
 
@@ -88,7 +93,7 @@ In the last lesson you captured GPS data from a GPS sensor connected to your IoT
 
 1. Create a new IoT Hub using the free tier.
 
-    > ⚠️ You can refer to [the instructions for creating an IoT Hub from project 2, lesson 4 if needed](../../../2-farm/lessons/4-migrate-your-plant-to-the-cloud/README.md#create-an-iot-service-in-the-cloud).
+    > ⚠️ You can refer to the [instructions for creating an IoT Hub from project 2, lesson 4](../../../2-farm/lessons/4-migrate-your-plant-to-the-cloud/README.md#create-an-iot-service-in-the-cloud) if needed.
 
     Remember to create a new Resource Group. Name the new Resource Group `gps-sensor`, and the new IoT Hub a unique name based on `gps-sensor`, such as `gps-sensor-<your name>`.
 
@@ -98,7 +103,7 @@ In the last lesson you captured GPS data from a GPS sensor connected to your IoT
 
 1. Update your device code to send the GPS data to the new IoT Hub using the device connection string from the previous step.
 
-    > ⚠️ You can refer to [the instructions for connecting your device to an IoT from project 2, lesson 4 if needed](../../../2-farm/lessons/4-migrate-your-plant-to-the-cloud/README.md#connect-your-device-to-the-iot-service).
+    > ⚠️ You can refer to the [instructions for connecting your device to an IoT from project 2, lesson 4](../../../2-farm/lessons/4-migrate-your-plant-to-the-cloud/README.md#connect-your-device-to-the-iot-service) if needed.
 
 1. When you send the GPS data, do it as JSON in the following format:
 
@@ -136,9 +141,33 @@ message = Message(json.dumps(message_json))
 
 Run your device code and ensure messages are flowing into IoT Hub using the `az iot hub monitor-events` CLI command.
 
+## Hot, warm, and cold paths
+
+Data that flows from an IoT device to the cloud is not always processed in real time. Some data needs real time processing, other data can be processed a short time later, and other data can be processed much later. The flow of data to different services that process the data at different times is referred to hot, warm and cold paths.
+
+### Hot path
+
+The hot path refers to data that needs to be processed in real time or near real time. You would use hot path data for alerts, such as getting alerts that a vehicle is approaching a depot, or that the temperature in a refrigerated truck is too high.
+
+To use hot path data, your code would respond to events as soon as they are received by your cloud services.
+
+### Warm path
+
+The warm path refers to data that can be processed a short while after being received, for example for reporting or short term analytics. You would use warm path data for daily reports on vehicle mileage, using data gathered the previous day.
+
+Warm path data is stored once it is received by the cloud service inside some kind of storage that can be quickly accessed.
+
+### Cold path
+
+THe cold path refers to historic data, storing data for the long term to be processed whenever needed. For example, you could use the cold path to get annual mileage reports for vehicles, or run analytics on routes to find the most optimal route to reduce fuel costs.
+
+Cold path data is stored in data warehouses - databases designed for storing large amounts of data that will never change and can be queried quickly and easily. You would normally have a regular job in your cloud application that would run at a regular time each day, week, or month to move data from warm path storage into the data warehouse.
+
+✅ Think about the data you have captured so far in these lessons. Is it hot, warm or cold path data?
+
 ## Handle GPS events using serverless code
 
-Once data is flowing into your IoT Hub, you can write some serverless code to listen for events published to the Event-Hub compatible endpoint.
+Once data is flowing into your IoT Hub, you can write some serverless code to listen for events published to the Event-Hub compatible endpoint. This is the warm path - this data will be stored and used in the next lesson for reporting on the journey.
 
 ![Sending GPS telemetry from an IoT device to IoT Hub, then to Azure Functions via an event hub trigger](../../../images/gps-telemetry-iot-hub-functions.png)
 
@@ -148,21 +177,21 @@ Once data is flowing into your IoT Hub, you can write some serverless code to li
 
 1. Create an Azure Functions app using the Azure Functions CLI. Use the Python runtime, and create it in a folder called `gps-trigger`, and use the same name for the Functions App project name. Make sure you create a virtual environment to use for this.
 
-    > ⚠️ You can refer to [the instructions for creating an Azure Functions Project from project 2, lesson 5 if needed](../../../2-farm/lessons/5-migrate-application-to-the-cloud/README.md#create-a-serverless-application).
+    > ⚠️ You can refer to the [instructions for creating an Azure Functions Project from project 2, lesson 5](../../../2-farm/lessons/5-migrate-application-to-the-cloud/README.md#create-a-serverless-application) if needed.
 
 1. Add an IoT Hub event trigger that uses the IoT Hub's Event Hub compatible endpoint.
 
-    > ⚠️ You can refer to [the instructions for creating an IoT Hub event trigger from project 2, lesson 5 if needed](../../../2-farm/lessons/5-migrate-application-to-the-cloud/README.md#create-an-iot-hub-event-trigger).
+    > ⚠️ You can refer to the [instructions for creating an IoT Hub event trigger from project 2, lesson 5](../../../2-farm/lessons/5-migrate-application-to-the-cloud/README.md#create-an-iot-hub-event-trigger) if needed.
 
 1. Set the Event Hub compatible endpoint connection string in the `local.settings.json` file, and use the key for that entry in the `function.json` file.
 
 1. Use the Azurite app as a local storage emulator
 
-Run your functions app to ensure it is receiving events from your GPS device. Make sure your IoT device is also running and sending GPS data.
+1. Run your functions app to ensure it is receiving events from your GPS device. Make sure your IoT device is also running and sending GPS data.
 
-```output
-Python EventHub trigger processed an event: {"gps": {"lat": 47.73481, "lon": -122.25701}}
-```
+    ```output
+    Python EventHub trigger processed an event: {"gps": {"lat": 47.73481, "lon": -122.25701}}
+    ```
 
 ## Azure Storage Accounts
 
@@ -180,13 +209,13 @@ You will use blob storage in this lesson to store IoT data.
 
 ### Table storage
 
-Table storage allows you to store semi-structured data. Table storage is actually a NoSQL database, so doesn't require a defined set of tables up front, but is designed to store data in one or more tables, with unique keys to define each row.
+Table storage allows you to store semi-structured data. Table storage is actually a NoSQL database, so doesn't require a defined set of tables up front, but it is designed to store data in one or more tables, with unique keys to define each row.
 
 ✅ Do some research: Read up on [Azure Table Storage](https://docs.microsoft.com/azure/storage/tables/table-storage-overview?WT.mc_id=academic-17441-jabenn)
 
 ### Queue storage
 
-Queue storage allows you to store messages of up to 64KB in size in a queue. You can add messages to the back of the queue, and read them off the front. Queues store messages indefinitely as long as there is still storage space, so allows messages to be stored long term. then read off when needed. For example, if you wanted to run a monthly job to process GPS data you could add it to a queue every day for a month, then at the end of the month process all the messages off the queue.
+Queue storage allows you to store messages of up to 64KB in size in a queue. You can add messages to the back of the queue, and read them off the front. Queues store messages indefinitely as long as there is still storage space, so it allows messages to be stored long term. then read off when needed. For example, if you wanted to run a monthly job to process GPS data you could add it to a queue every day for a month, then at the end of the month process all the messages off the queue.
 
 ✅ Do some research: Read up on [Azure Queue Storage](https://docs.microsoft.com/azure/storage/queues/storage-queues-introduction?WT.mc_id=academic-17441-jabenn)
 
@@ -227,7 +256,7 @@ The data will be saved as a JSON blob with the following format:
 
 1. Create an Azure Storage account. Name it something like `gps<your name>`.
 
-    > ⚠️ You can refer to [the instructions for creating a storage account from project 2, lesson 5 if needed](../../../2-farm/lessons/5-migrate-application-to-the-cloud/README.md#task---create-the-cloud-resources).
+    > ⚠️ You can refer to the [instructions for creating a storage account from project 2, lesson 5](../../../2-farm/lessons/5-migrate-application-to-the-cloud/README.md#task---create-the-cloud-resources)  if needed.
 
     If you still have a storage account from the previous project, you can re-use this.
 
@@ -258,13 +287,13 @@ The data will be saved as a JSON blob with the following format:
     > pip install --upgrade pip
     > ```
 
-1. In the `__init__.py` file for the `iot_hub_trigger`, add the following import statements:
+1. In the `__init__.py` file for the `iot-hub-trigger`, add the following import statements:
 
     ```python
     import json
     import os
     import uuid
-    from azure.storage.blob import BlobServiceClient
+    from azure.storage.blob import BlobServiceClient, PublicAccess
     ```
 
     The `json` system module will be used to read and write JSON, the `os` system module will be used to read the connection string, the `uuid` system module will be used to generate a unique ID for the GPS reading.
@@ -282,10 +311,12 @@ The data will be saved as a JSON blob with the following format:
             if container.name == name:
                 return blob_service_client.get_container_client(container.name)
         
-        return blob_service_client.create_container(name)
+        return blob_service_client.create_container(name, public_access=PublicAccess.Container)
     ```
 
     The Python blob SDK doesn't have a helper method to create a container if it doesn't exist. This code will load the connection string from the `local.settings.json` file (or the Application Settings once deployed to the cloud), then create a `BlobServiceClient` class from this to interact with the blob storage account. It then loops through all the containers for the blob storage account, looking for one with the provided name - if it finds one it will return a `ContainerClient` class that can interact with the container to create blobs. If it doesn't find one, then the container is created and the client for the new container is returned.
+
+    When the new container is created, public access is granted to query the blobs in the container. This will be used in the next lesson to visualize the GPS data on a map.
 
 1. Unlike with soil moisture, with this code we want to store every event, so add the following code inside the `for event in events:` loop in the `main` function, below the `logging` statement:
 
@@ -294,7 +325,7 @@ The data will be saved as a JSON blob with the following format:
     blob_name = f'{device_id}/{str(uuid.uuid1())}.json'
     ```
 
-    This code gets the device ID from the event metadata, then uses it to create a blob name. Blobs can be stored in folders, and device ID will be used for the folder name, so each device will have all it's GPS events in one folder. The blob name is this folder, followed by a document name, separated with forward slashes, similar to Linux and macOS paths (similar to Windows as well, but Windows uses back slashes). The document name is a unique ID generated using the Python `uuid` module, with the file type of `json`.
+    This code gets the device ID from the event metadata, then uses it to create a blob name. Blobs can be stored in folders, and device ID will be used for the folder name, so each device will have all its GPS events in one folder. The blob name is this folder, followed by a document name, separated with forward slashes, similar to Linux and macOS paths (similar to Windows as well, but Windows uses back slashes). The document name is a unique ID generated using the Python `uuid` module, with the file type of `json`.
 
     For example, for the `gps-sensor` device ID, the blob name might be `gps-sensor/a9487ac2-b9cf-11eb-b5cd-1e00621e3648.json`.
 
@@ -338,6 +369,9 @@ The data will be saved as a JSON blob with the following format:
     ...
     [2021-05-21T01:31:14.351Z] Writing blob to gps-sensor/4b6089fe-ba8d-11eb-bc7b-1e00621e3648.json - {'device_id': 'gps-sensor', 'timestamp': '2021-05-21T00:57:53.878Z', 'gps': {'lat': 47.73092, 'lon': -122.26206}}
     ```
+
+    > 💁 Make sure you are not running the IoT Hub event monitor at the same time.
+
 
 > 💁 You can find this code in the [code/functions](code/functions) folder.
 
@@ -404,15 +438,15 @@ Now that your Function app is working, you can deploy it to the cloud.
 
 1. Create a new Azure Functions app, using the storage account you created earlier. Name this something like `gps-sensor-` and add a unique identifier on the end, like some random words or your name.
 
-    > ⚠️ You can refer to [the instructions for creating a Functions app from project 2, lesson 5 if needed](../../../2-farm/lessons/5-migrate-application-to-the-cloud/README.md#task---create-the-cloud-resources).
+    > ⚠️ You can refer to the [instructions for creating a Functions app from project 2, lesson 5](../../../2-farm/lessons/5-migrate-application-to-the-cloud/README.md#task---create-the-cloud-resources) if needed.
 
 1. Upload the `IOT_HUB_CONNECTION_STRING` and `STORAGE_CONNECTION_STRING` values to the Application Settings
 
-    > ⚠️ You can refer to [the instructions for uploading Application Settings from project 2, lesson 5 if needed](../../../2-farm/lessons/5-migrate-application-to-the-cloud/README.md#task---upload-your-application-settings).
+    > ⚠️ You can refer to the [instructions for uploading Application Settings from project 2, lesson 5](../../../2-farm/lessons/5-migrate-application-to-the-cloud/README.md#task---upload-your-application-settings) if needed.
 
 1. Deploy your local Functions app to the cloud.
 
-    > ⚠️ You can refer to [the instructions for deploying your Functions app from project 2, lesson 5 if needed](../../../2-farm/lessons/5-migrate-application-to-the-cloud/README.md#task---deploy-your-functions-app-to-the-cloud).
+    > ⚠️ You can refer to the [instructions for deploying your Functions app from project 2, lesson 5](../../../2-farm/lessons/5-migrate-application-to-the-cloud/README.md#task---deploy-your-functions-app-to-the-cloud) if needed.
 
 ---
 
