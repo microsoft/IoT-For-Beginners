@@ -1,8 +1,8 @@
 # Connect your device to the Internet
 
-Add a sketchnote if possible/appropriate
+![A sketchnote overview of this lesson](../../../sketchnotes/lesson-4.png)
 
-![Embed a video here if available](video-url)
+> Sketchnote by [Nitya Narasimhan](https://github.com/nitya). Click the image for a larger version.
 
 ## Pre-lecture quiz
 

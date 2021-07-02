@@ -8,10 +8,6 @@
 [![GitHub forks](https://img.shields.io/github/forks/microsoft/IoT-For-Beginners.svg?style=social&label=Fork&maxAge=2592000)](https://GitHub.com/microsoft/IoT-For-Beginners/network/)
 [![GitHub stars](https://img.shields.io/github/stars/microsoft/IoT-For-Beginners.svg?style=social&label=Star&maxAge=2592000)](https://GitHub.com/microsoft/IoT-For-Beginners/stargazers/)
 
-![Under development animated GIF](https://media.giphy.com/media/3o7qE1YN7aBOFPRw8E/giphy.gif)
-
-**This repo is under heavy development. Check back soon for more updates.**
-
 # IoT for Beginners - A Curriculum
 
 Azure Cloud Advocates at Microsoft are pleased to offer a 12-week, 24-lesson curriculum all about IoT basics. Each lesson includes pre- and post-lesson quizzes, written instructions to complete the lesson, a solution, an assignment and more. Our project-based pedagogy allows you to learn while building, a proven way for new skills to 'stick'.
@@ -26,13 +22,13 @@ The projects cover the journey of food from farm to table. This includes farming
 
 > **Teachers**, we have [included some suggestions](for-teachers.md) on how to use this curriculum. If you would like to create your own lessons, we have also included a [lesson template](lesson-template/README.md).
 
-> **Students**, to use this curriculum on your own, fork the entire repo and complete the exercises on your own, starting with a pre-lecture quiz, then reading the lecture and completing the rest of the activities. Try to create the projects by comprehending the lessons rather than copying the solution code; however that code is available in the /solutions folders in each project-oriented lesson. Another idea would be to form a study group with friends and go through the content together. For further study, we recommend [Microsoft Learn](create a Learn collection and post it here) and by watching the videos mentioned below.
+> **Students**, to use this curriculum on your own, fork the entire repo and complete the exercises on your own, starting with a pre-lecture quiz, then reading the lecture and completing the rest of the activities. Try to create the projects by comprehending the lessons rather than copying the solution code; however that code is available in the /solutions folders in each project-oriented lesson. Another idea would be to form a study group with friends and go through the content together. For further study, we recommend [Microsoft Learn](https://docs.microsoft.com/users/jimbobbennett/collections/ke2ehd351jopwr?WT.mc_id=academic-17441-jabenn).
 
 > Your promo video here
 
 [![Promo video](./images/iot-for-beginners.png)](https://youtube.com/watch?v=R1wrdtmBSII "Promo video")
 
-> 💁 Click the image above for a video about the project and the folks who created it!
+> 💁 Click the image above for a video about the project!
 
 ## Pedagogy
 
@@ -68,7 +64,7 @@ We have two choices of IoT hardware to use for the projects depending on persona
 |     | Project Name | Concepts Taught | Learning Objectives | Linked Lesson |
 | :-: | :----------: | :-------------: | ------------------- | :-----------: |
 | 01 | [Getting started](./1-getting-started) | Introduction to IoT | Learn the basic principles of IoT and the basic building blocks of IoT solutions such as sensors and cloud services whilst you are setting up your first IoT device | [Introduction to IoT](./1-getting-started/lessons/1-introduction-to-iot/README.md) |
-| 02 | [Getting started](./1-getting-started) | A deeper dive into IoT| Learn more about the components of an IoT system, as well as microcontrollers and single-board computers | [A deeper dive into IoT](./1-getting-started/lessons/2-deeper-dive/README.md) |
+| 02 | [Getting started](./1-getting-started) | A deeper dive into IoT | Learn more about the components of an IoT system, as well as microcontrollers and single-board computers | [A deeper dive into IoT](./1-getting-started/lessons/2-deeper-dive/README.md) |
 | 03 | [Getting started](./1-getting-started) | Interact with the physical world with sensors and actuators | Learn about sensors to gather data from the physical world, and actuators to send feedback, whilst you build a nightlight | [Interact with the physical world with sensors and actuators](./1-getting-started/lessons/3-sensors-and-actuators/README.md) |
 | 04 | [Getting started](./1-getting-started) | Connect your device to the Internet | Learn about how to connect an IoT device to the Internet to send and receive messages by connecting your nightlight to an MQTT broker | [Connect your device to the Internet](./1-getting-started/lessons/4-connect-internet/README.md) |
 | 05 | [Farm](./2-farm) | Predict plant growth | Learn how to predict plant growth using temperature data captured by an IoT device | [Predict plant growth](./2-farm/lessons/1-predict-plant-growth/README.md) |
