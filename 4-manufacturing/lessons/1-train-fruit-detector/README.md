@@ -1,7 +1,5 @@
 # Train a fruit quality detector
 
-Add a sketchnote if possible/appropriate
-
 This video gives an overview of the Azure Custom Vision service, a service that will be covered in this lesson.
 
 [![Custom Vision – Machine Learning Made Easy | The Xamarin Show](https://img.youtube.com/vi/TETcDLJlWR4/0.jpg)](https://www.youtube.com/watch?v=TETcDLJlWR4)

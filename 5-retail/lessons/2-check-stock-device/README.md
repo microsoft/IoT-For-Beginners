@@ -1,9 +1,5 @@
 # Check stock from an IoT device
 
-Add a sketchnote if possible/appropriate
-
-![Embed a video here if available](video-url)
-
 ## Pre-lecture quiz
 
 [Pre-lecture quiz](https://brave-island-0b7c7f50f.azurestaticapps.net/quiz/39)
