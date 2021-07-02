@@ -57,7 +57,7 @@ Program the device.
     sudo reboot
     ```
 
-    This will toggle a setting to enable the camera, then reboot the Pi to make that setting take effect. Wait for the Pi to reboot, then re-launch VS Code.
+    This will toggle a setting to enable the camera, then reboot the Pi to make sure that setting take effect. Wait for the Pi to reboot, then re-launch VS Code.
 
 1. From the terminal, create a new folder in the `pi` users home directory called `fruit-quality-detector`. Create a file in this folder called `app.py`.
 
