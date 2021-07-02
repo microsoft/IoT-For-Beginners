@@ -10,6 +10,15 @@ The specific hardware was chosen to reduce the complexity of the lessons and ass
 
 You will also need a few non-technical items, such as soil or a pot plant, and fruit or vegetables.
 
+## Buy the kits
+
+![The Seeed studios logo](./images/seeed-logo.png)
+
+Seeed Studios have very kindly made all the hardware available as easy to purchase kits:
+
+* [IoT for beginners with Seeed and Microsoft - Wio Terminal Starter Kit]()
+* [IoT for beginners with Seeed and Microsoft - Raspberry Pi 4 Starter Kit](https://www.seeedstudio.com/IoT-for-beginners-with-Seeed-and-Microsoft-Raspberry-Pi-Starter-Kit.html)
+
 ## Arduino
 
 All the device code for Arduino is in C++. To complete all the assignments you will need the following:

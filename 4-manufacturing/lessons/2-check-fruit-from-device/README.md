@@ -1,7 +1,5 @@
 # Check fruit quality from an IoT device
 
-Add a sketchnote if possible/appropriate
-
 ![Embed a video here if available](video-url)
 
 ## Pre-lecture quiz
