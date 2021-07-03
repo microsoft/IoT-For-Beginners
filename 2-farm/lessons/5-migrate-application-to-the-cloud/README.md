@@ -22,13 +22,9 @@ Serverless, or serverless computing, involves creating small blocks of code that
 
 ![Events being sent from an IoT service to a serverless service, all being processed at the same time by multiple functions being run](../../../images/iot-messages-to-serverless.png)
 
-***Events being sent from an IoT service to a serverless service, all being processed at the same time by multiple functions being run. IoT by Adrien Coquet from the [Noun Project](https://thenounproject.com)***
-
 > 💁 If you've used database triggers before, you can think of this as the same thing, code being triggered by an event such as inserting a row.
 
 ![When many events are sent at the same time, the serverless service scales up to run them all at the same time](../../../images/serverless-scaling.png)
-
-***When many events are sent at the same time, the serverless service scales up to run them all at the same time. IoT by Adrien Coquet from the [Noun Project](https://thenounproject.com)***
 
 Your code is only run when the event happens, there is nothing keeping your code alive at other times. The event happens, your code is loaded and run. This makes serverless very scalable - if many events happen at the same time, the cloud provider can run your function as many times as you need at the same time across whatever servers they have available. The downside to this is if you need to share information between events, you need to save it somewhere like a database rather than storing it in memory.
 

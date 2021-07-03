@@ -110,8 +110,6 @@ GPS systems work by having a number of satellites that send a signal with each s
 
 ![By knowing the distance from the sensor to multiple satellites, the location be calculated](../../../images/gps-satellites.png)
 
-***By knowing the distance from the sensor to multiple satellites, the location be calculated. Satellite by Noura Mbarki from the [Noun Project](https://thenounproject.com)***
-
 GPS satellites are circling the Earth, not at a fixed point above the sensor, so location data includes altitude above sea level as well as latitude and longitude.
 
 GPS used to have limitations on accuracy enforced by the US military, limiting accuracy to around 5 meters. This limitation was removed in 2000, allowing an accuracy of 30 centimeters. Getting this accuracy is not always possible due to interference with the signals.
