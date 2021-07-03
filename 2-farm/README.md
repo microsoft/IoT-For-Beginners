@@ -6,8 +6,6 @@ In these 6 lessons you'll learn how to apply the Internet of Things to improve a
 
 > 💁 These lessons will use some cloud resources. If you don't complete all the lessons in this project, make sure you [Clean up your project](../clean-up.md).
 
-**Add video of automated plant**
-
 ## Topics
 
 1. [Predict plant growth with IoT](lessons/1-predict-plant-growth/README.md)
