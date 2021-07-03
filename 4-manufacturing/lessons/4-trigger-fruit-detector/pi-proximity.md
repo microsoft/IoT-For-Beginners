@@ -43,7 +43,7 @@ Program the device.
 1. Install the rpi-vl53l0x Pip package, a Python package that interacts with a VL53L0X time-of-flight distance sensor. Install it using this pip command
 
     ```sh
-        pip install rpi-vl53l0x
+    pip install rpi-vl53l0x
     ```
 
 1. Create a new file in this project called `distance-sensor.py`.
