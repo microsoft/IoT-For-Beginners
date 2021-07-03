@@ -1,10 +1,10 @@
 # Classify an image - Wio Terminal
 
-In this part of the lesson, you will add send the image captured by the camera to the Custom Vision service to classify it.
+In this part of the lesson, you will send the image captured by the camera to the Custom Vision service to classify it.
 
 ## Classify an image
 
-The Custom Vision service has a REST API you can call from the Wio Terminal use to classify images. THis REST API is accessed over an HTTPS connection - a secure HTTP connection.
+The Custom Vision service has a REST API you can call from the Wio Terminal use to classify images. This REST API is accessed over an HTTPS connection - a secure HTTP connection.
 
 When interacting with HTTPS endpoints, the client code needs to request the public key certificate from the server being accessed, and use that to encrypt the traffic it sends. Your web browser does this automatically, but microcontrollers do not. You will need to request this certificate manually and use it to create a secure connection to the REST API. These certificates don't change, so once you have a certificate, it can be hard coded in your application.
 

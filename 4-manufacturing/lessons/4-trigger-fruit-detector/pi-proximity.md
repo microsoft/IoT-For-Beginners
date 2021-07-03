@@ -40,6 +40,12 @@ Program the device.
 
 1. Open the `fruit-quality-detector` code in VS Code, either directly on the Pi, or connect via the Remote SSH extension.
 
+1. Install the rpi-vl53l0x Pip package, a Python package that interacts with a VL53L0X time-of-flight distance sensor. Install it using this pip command
+
+    ```sh
+        pip install rpi-vl53l0x
+    ```
+
 1. Create a new file in this project called `distance-sensor.py`.
 
     > 💁 An easy way to simulate multiple IoT devices is to do each in a different Python file, then run them at the same time.
