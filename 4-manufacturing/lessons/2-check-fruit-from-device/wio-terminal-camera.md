@@ -10,7 +10,7 @@ The camera you'll use is an [ArduCam Mini 2MP Plus](https://www.arducam.com/prod
 
 ## Connect the camera
 
-The ArduCam doesn't have a Grove socket, instead it connects to both the SPI and I<sup>2</sup>C busses via the GPIO pins on the Wio Terminal.
+The ArduCam doesn't have a Grove socket, instead it connects to both the SPI and I<sup>2</sup>C buses via the GPIO pins on the Wio Terminal.
 
 ### Task - connect the camera
 

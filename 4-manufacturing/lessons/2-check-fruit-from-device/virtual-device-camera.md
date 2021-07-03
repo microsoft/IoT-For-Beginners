@@ -101,7 +101,7 @@ Program the device.
 
     > 💁 You can capture the image directly to a file instead of a `BytesIO` object by passing the file name to the `camera.capture` call. The reason for using the `BytesIO` object is so that later in this lesson you can send the image to your image classifier.
 
-1. Configure the image that the camera in CounterFit will capture. You can either set the *Source* to *File*, then upload an image file, or set the *Source* to *WebCam*, and images will be captures from your web cam. Make sure you select the **Set** button after selecting a picture or selecting your webcam.
+1. Configure the image that the camera in CounterFit will capture. You can either set the *Source* to *File*, then upload an image file, or set the *Source* to *WebCam*, and images will be captured from your web cam. Make sure you select the **Set** button after selecting a picture or selecting your webcam.
 
     ![CounterFit with a file set as the image source, and a web cam set showing a person holding a banana in a preview of the webcam](../../../images/counterfit-camera-options.png)
 

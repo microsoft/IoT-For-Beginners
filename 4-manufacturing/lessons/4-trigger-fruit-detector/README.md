@@ -74,7 +74,7 @@ As you define the architecture of your system, you need to constantly consider d
 
 ## Design a fruit quality control system
 
-Lets now take this idea of things, insights, and actions and apply it to our fruit quality detector to design a larger end-to-end application.
+Let's now take this idea of things, insights, and actions and apply it to our fruit quality detector to design a larger end-to-end application.
 
 Imagine you have been given the task of building a fruit quality detector to be used in a processing plant. Fruit travels on a conveyer belt system where currently employees spend time checking the fruit by hand and removing any unripe fruit as it arrives. To reduce costs, the plant owner wants an automated system.
 
@@ -205,7 +205,7 @@ The prototype will form the basis of a final production system. Some of the diff
 
 ## 🚀 Challenge
 
-In this lesson you have learned some of the concepts you need to know to architect an IoT system. Think back to the previous projects. How would do they fit into the reference architecture shown above?
+In this lesson you have learned some of the concepts you need to know on how to architect an IoT system. Think back to the previous projects. How would do they fit into the reference architecture shown above?
 
 Pick one of the projects so far and think of the design of a more complicated solution bringing together multiple capabilities beyond what was covered in the projects. Draw the architecture and think of all the devices and services you would need.
 
@@ -218,7 +218,7 @@ For example - a vehicle tracking device that combines GPS with sensors to monito
 ## Review & Self Study
 
 * Read more about IoT architecture on the [Azure IoT reference architecture documentation on Microsoft docs](https://docs.microsoft.com/azure/architecture/reference-architectures/iot?WT.mc_id=academic-17441-jabenn)
-* Read more about device twins in the [Understand and use device twins in IoT Hub documentation on Microsoft docs](https://docs.microsoft.com/azure/iot-hub/iot-hub-devguide-device-twins?WT.mc_id=academic-17441-jabenn)
+* Read more about device twins in the [understand and use device twins in IoT Hub documentation on Microsoft docs](https://docs.microsoft.com/azure/iot-hub/iot-hub-devguide-device-twins?WT.mc_id=academic-17441-jabenn)
 * Read about OPC-UA, a machine to machine communication protocol used in industrial automation on the [OPC-UA page on Wikipedia](https://wikipedia.org/wiki/OPC_Unified_Architecture)
 
 ## Assignment
