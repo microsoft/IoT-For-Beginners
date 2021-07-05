@@ -588,6 +588,10 @@ This is the expected behavior - images are not sent to the cloud for classificat
 
 ## 🚀 Challenge
 
+Running AI models on edge devices can be faster that in the cloud - the network hop is shorter. THey can also be slower as the hardware than runs the model may not be as powerful as the cloud.
+
+Do some timings and compare if the call to your edge device is faster or slower than the call to the cloud? Think about reasons to explain the difference, or lack of difference. Research ways to run AI models faster on the edge using specialized hardware.
+
 ## Post-lecture quiz
 
 [Post-lecture quiz](https://brave-island-0b7c7f50f.azurestaticapps.net/quiz/34)
@@ -595,7 +599,9 @@ This is the expected behavior - images are not sent to the cloud for classificat
 ## Review & Self Study
 
 * Read more about containers on the [OS-level virtualization page on Wikipedia](https://wikipedia.org/wiki/OS-level_virtualization)
+* Read more on edge computing, with an emphasis on how 5G can help expand edge computing in the [What is edge computing and why does it matter? article on NetworkWorld](https://www.networkworld.com/article/3224893/what-is-edge-computing-and-how-it-s-changing-the-network.html)
+* Learn more about running AI services in IoT Edge by watching the [Learn How to Use Azure IoT Edge on a Pre-Built AI Service on the Edge to do Language Detection episode of Learn Live on Microsoft Channel9](https://channel9.msdn.com/Shows/Learn-Live/Sharpen-Your-AI-Edge-Skills-Episode-4-Learn-How-to-Use-Azure-IoT-Edge-on-a-Pre-Built-AI-Service-on-t?WT.mc_id=academic-17441-jabenn)
 
 ## Assignment
 
-[](assignment.md)
+[Run other services on the edge](assignment.md)
