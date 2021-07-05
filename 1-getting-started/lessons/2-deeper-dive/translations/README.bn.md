@@ -1,7 +1,5 @@
 # IoT এর আরো গভীরে
 
-![Embed a video here if available](video-url)
-
 ## লেকচার পূর্ববর্তী কুইজ
 
 [লেকচার পূর্ববর্তী কুইজ](https://brave-island-0b7c7f50f.azurestaticapps.net/quiz/3)

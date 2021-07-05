@@ -91,3 +91,7 @@ We have two choices of IoT hardware to use for the projects depending on persona
 ## Offline access
 
 You can run this documentation offline by using [Docsify](https://docsify.js.org/#/). Fork this repo, [install Docsify](https://docsify.js.org/#/quickstart) on your local machine, and then in the root folder of this repo, type `docsify serve`. The website will be served on port 3000 on your localhost: `localhost:3000`.
+
+## Image attributions
+
+You can find all the attributions for the images used in this curriculum where required in the [Attributions](./attributions.md).
