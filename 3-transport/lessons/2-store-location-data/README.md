@@ -87,8 +87,6 @@ In the last lesson you captured GPS data from a GPS sensor connected to your IoT
 
 ![Sending GPS telemetry from an IoT device to IoT Hub](../../../images/gps-telemetry-iot-hub.png)
 
-***Sending GPS telemetry from an IoT device to IoT Hub. GPS by mim studio / Microcontroller by Template - all from the [Noun Project](https://thenounproject.com)***
-
 ### Task - send GPS data to an IoT Hub
 
 1. Create a new IoT Hub using the free tier.
@@ -171,8 +169,6 @@ Once data is flowing into your IoT Hub, you can write some serverless code to li
 
 ![Sending GPS telemetry from an IoT device to IoT Hub, then to Azure Functions via an event hub trigger](../../../images/gps-telemetry-iot-hub-functions.png)
 
-***Sending GPS telemetry from an IoT device to IoT Hub, then to Azure Functions via an event hub trigger. GPS by mim studio / Microcontroller by Template - all from the [Noun Project](https://thenounproject.com)***
-
 ### Task - handle GPS events using serverless code
 
 1. Create an Azure Functions app using the Azure Functions CLI. Use the Python runtime, and create it in a folder called `gps-trigger`, and use the same name for the Functions App project name. Make sure you create a virtual environment to use for this.
@@ -235,8 +231,6 @@ Your function app now needs to connect to blob storage to store the messages fro
 In this lesson, you will use the Python SDK to see how to interact with blob storage.
 
 ![Sending GPS telemetry from an IoT device to IoT Hub, then to Azure Functions via an event hub trigger, then saving it to blob storage](../../../images/save-telemetry-to-storage-from-functions.png)
-
-***Sending GPS telemetry from an IoT device to IoT Hub, then to Azure Functions via an event hub trigger, then saving it to blob storage. GPS by mim studio / Microcontroller by Template - all from the [Noun Project](https://thenounproject.com)***
 
 The data will be saved as a JSON blob with the following format:
 
@@ -371,7 +365,6 @@ The data will be saved as a JSON blob with the following format:
     ```
 
     > 💁 Make sure you are not running the IoT Hub event monitor at the same time.
-
 
 > 💁 You can find this code in the [code/functions](code/functions) folder.
 

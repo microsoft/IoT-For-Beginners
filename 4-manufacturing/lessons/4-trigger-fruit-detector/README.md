@@ -37,8 +37,6 @@ IoT applications can be described as *things* (devices) sending data that genera
 
 ![A reference iot architecture](../../../images/iot-reference-architecture.png)
 
-***A reference iot architecture. Microcontroller by Template / IoT by Adrien Coquet / Brain by Icon Market - all from the [Noun Project](https://thenounproject.com)***
-
 The diagram above shows a reference IoT architecture.
 
 > 🎓 A *reference architecture* is an example architecture you can use as a reference when designing new systems. In this case, if you were building a new IoT system you can follow the reference architecture, substituting your own devices and services where appropriate.
@@ -48,8 +46,6 @@ The diagram above shows a reference IoT architecture.
 * **Actions** can be commands sent to devices, or visualization of data allowing humans to make decisions.
 
 ![A reference iot architecture](../../../images/iot-reference-architecture-azure.png)
-
-***A reference iot architecture. Microcontroller by Template - all from the [Noun Project](https://thenounproject.com)***
 
 The diagram above shows some of the components and services covered so far in these lessons and how the link together in a reference IoT architecture.
 
@@ -92,8 +88,6 @@ You need to build a system where fruit is detected as it arrives on the conveyer
 
 ![A reference iot architecture for fruit quality checking](../../../images/iot-reference-architecture-fruit-quality.png)
 
-***A reference iot architecture for fruit quality checking. LED by abderraouf omara / Microcontroller by Template - all from the [Noun Project](https://thenounproject.com)***
-
 The diagram above shows a reference architecture for this prototype application.
 
 * An IoT device with a proximity sensor detects the arrival of fruit. This sends a message to the cloud to say fruit has been detected.
@@ -110,8 +104,6 @@ For the prototype, you will implement all of this on a single device. If you are
 The IoT device needs some kind of trigger to indicate when fruit is ready to be classified. One trigger for this would be to measure when the fruit is at the right location on the conveyor belt my measuring the distance to a sensor.
 
 ![Proximity sensors send laser beams to objects like bananas and time how long till the beam is bounced back](../../../images/proximity-sensor.png)
-
-***Proximity sensors send laser beams to objects like bananas and time how long till the beam is bounced back. Bananas by abderraouf omara / Microcontroller by Template - all from the [Noun Project](https://thenounproject.com)***
 
 Proximity sensors can be used to measure the distance from the sensor to an object. They usually transmit a beam of electromagnetic radiation such as a laser beam or infra-red light, then detect the radiation bouncing off an object. The time between the laser beam being sent and the signal bouncing back can be used to calculate the distance to the sensor.
 

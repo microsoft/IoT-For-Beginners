@@ -21,6 +21,7 @@
         "mosquitto",
         "photodiode",
         "photodiodes",
+        "quickstart",
         "sketchnote"
     ]
 }

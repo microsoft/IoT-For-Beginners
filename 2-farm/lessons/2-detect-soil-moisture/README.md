@@ -29,8 +29,6 @@ Plants require water to grow. They absorb water throughout the entire plant, wit
 
 ![Water is absorbed through plant roots then carried around the plant, being used for photosynthesis and plant structure](../../../images/transpiration.png)
 
-***Water is absorbed through plant roots then carried around the plant, being used for photosynthesis and plant structure. Plant by Alex Muravev / Plant Cell by Léa Lortal - all from the [Noun Project](https://thenounproject.com)***
-
 ✅ Do some research: how much water is lost through transpiration?
 
 The root system provides water from moisture in the soil where the plant grows. Too little water in the soil and the plant cannot absorb enough to grow, too much water and roots cannot absorb enough oxygen needed to function. This leads to roots dying and the plant unable to get enough nutrients to survive.
@@ -79,13 +77,9 @@ You can use GPIO pins directly with some digital sensors and actuators when you 
 
     ![A button is sent 5 volts. When not pressed it returns 0 volts, or 0, when pressed it returns 5 volts, or 1](../../../images/button-with-digital.png)
 
-    ***A button is sent 5 volts. When not pressed it returns 0 volts, or 0, when pressed it returns 5 volts, or 1. Microcontroller by Template / Button by Dan Hetteix - all from the [Noun Project](https://thenounproject.com)***
-
 * LED. You can connect an LED between an output pin and a ground pin (using a resistor otherwise you'll burn out the LED). From code you can set the output pin to high and it will send 3.3V, making a circuit from the 3.3V pin, through the LED, to the ground pin. This will light the LED.
 
     ![An LED is sent a signal of 0 (3.3V), which lights the LED. If it is sent 0 (0v), the LED is not lit.](../../../images/led-digital-control.png)
-
-    ***An LED is sent a signal of 0 (3.3V), which lights the LED. If it is sent 0 (0v), the LED is not lit. LED by abderraouf omara / Microcontroller by Template - all from the [Noun Project](https://thenounproject.com)***
 
 For more advanced sensors, you can use GPIO pins to send and receive digital data directly with digital sensors and actuators, or via controller boards with ADCs and DACs to talk to analog sensors and actuators.
 
@@ -100,8 +94,6 @@ Some devices, such as Arduino devices, provide analog pins. These are the same a
 For example, on a 3.3V board, if the sensor returns 3.3V, the value returned would be 1,023. If the voltage returned was 1.65v, the value returned will be 511.
 
 ![A soil moisture sensor sent 3.3V and returning 1.65v, or a reading of 511](../../../images/analog-sensor-voltage.png)
-
-***A soil moisture sensor sent 3.3V and returning 1.65v, or a reading of 511. probe by Adnen Kadri / Microcontroller by Template - all from the [Noun Project](https://thenounproject.com)***
 
 > 💁 Back in nightlight - lesson 3, the light sensor returned a value from 0-1,023. If you are using a Wio Terminal, the sensor was connected to an analog pin. If you are using a Raspberry Pi, then the sensor was connected to an analog pin on the base hat that has an integrated ADC to communicate over the GPIO pins. The virtual device was set to send a value from 0-1,023 to simulate an analog pin.
 
@@ -126,8 +118,6 @@ I<sup>2</sup>C has a bus made of 2 main wires, along with 2 power wires:
 
 ![I2C bus with 3 devices connected to the SDA and SCL wires, sharing a common ground wire](../../../images/i2c.png)
 
-***I<sup>2</sup>C bus with 3 devices connected to the SDA and SCL wires, sharing a common ground wire. Microcontroller by Template / LED by abderraouf omara / ldr by Eucalyp - all from the [Noun Project](https://thenounproject.com)***
-
 To send data, one device will issue a start condition to show it is ready to send data. It will then become the controller. The controller then sends the address of the device that it wants to communicate with, along with if it wants to read or write data. After the data has been transmitted, the controller sends a stop condition to indicate that it has finished. After this another device can become the controller and send or receive data.
 
 I<sup>2</sup>C has speed limits, with 3 different modes running at fixed speeds. The fastest is High Speed mode with a maximum speed of 3.4Mbps (megabits per second), though very few devices support that speed. The Raspberry Pi for example, is limited to fast mode at 400Kbps (kilobits per second). Standard mode runs at 100Kbps.
@@ -142,8 +132,6 @@ UART involves physical circuitry that allows two devices to communicate. Each de
 * Device 1 receives data on its Rx pin that is transmitted by device 2 from its Tx pin
 
 ![UART with the Tx pin on one chip connected to the Rx pin on another, and vice versa](../../../images/uart.png)
-
-***UART with the Tx pin on one chip connected to the Rx pin on another, and vice versa. chip by Astatine Lab - all from the [Noun Project](https://thenounproject.com)***
 
 > 🎓 The data is sent one bit at a time, and this is known as *serial* communication. Most operating systems and microcontrollers have *serial ports*, that is connections that can send and receive serial data that are available to your code.
 
@@ -173,8 +161,6 @@ SPI controllers use 3 wires, along with 1 extra wire per peripheral. Peripherals
 | CS   | Chip Select | The controller has multiple wires, one per peripheral, and each wire connects to the CS wire on the corresponding peripheral. |
 
 ![SPI with on controller and two peripherals](../../../images/spi.png)
-
-***SPI with on controller and two peripherals. chip by Astatine Lab - all from the [Noun Project](https://thenounproject.com)***
 
 The CS wire is used to activate one peripheral at a time, communicating over the COPI and CIPO wires. When the controller needs to change peripheral, it deactivates the CS wire connected to the currently active peripheral, then activates the wire connected to the peripheral it wants to communicate with next.
 

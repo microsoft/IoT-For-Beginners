@@ -130,8 +130,6 @@ By gathering temperature data using an IoT device, a farmer can automatically be
 
 ![Telemetry data is sent to a server and then saved to a database](../../../images/save-telemetry-database.png)
 
-***Telemetry data is sent to a server and then saved to a database. database by Icons Bazaar - from the [Noun Project](https://thenounproject.com)***
-
 The server code can also augment the data by adding extra information. For example, the IoT device can publish an identifier to indicate which device it is, and the sever code can use this to look up the location of the device, and what crops it is monitoring. It can also add basic data like the current time as some IoT devices don't have the necessary hardware to keep track of an accurate time, or require additional code to read the current time over the Internet.
 
 ✅ Why do you think different fields might have different temperatures?

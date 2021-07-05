@@ -115,8 +115,6 @@ In an ideal world, your whole application should understand as many different la
 
 ![A smart timer architecture translating Japanese to English, processing in English then translating back to Japanese](../../../images/translated-smart-timer.png)
 
-***A smart timer architecture translating Japanese to English, processing in English then translating back to Japanese. Microcontroller by Template / recording by Aybige Speaker / Speaker by Gregor Cresnar - all from the [Noun Project](https://thenounproject.com)***
-
 Imagine you are building a smart timer that uses English end-to-end, understanding spoken English and converting that to text, running the language understanding in English, building up responses in English and replying with English speech. If you wanted to add support for Japanese, you could start with translating spoken Japanese to English text, then keep the core of the application the same, then translate the response text to Japanese before speaking the response. This would allow you to quickly add Japanese support, and you can expand to providing full end-to-end Japanese support later.
 
 > 💁 The downside to relying on machine translation is that different languages and cultures have different ways of saying the same things, so the translation may not match the expression you are expecting.
