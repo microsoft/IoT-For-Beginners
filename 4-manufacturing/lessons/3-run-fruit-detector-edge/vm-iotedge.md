@@ -31,29 +31,19 @@ In Azure, you can create a virtual machine - a computer in the cloud that you ca
 
     Once the VM has been created, the IoT Edge runtime will be installed automatically, and configured you connect to your IoT Hub as your `fruit-quality-detector-edge` device.
 
+1. You will need either the IP address or the DNS name of the VM to call the image classifier from it. Run the following command to get this:
+
+    ```sh
+    az vm list --resource-group fruit-quality-detector \
+               --output table \
+               --show-details
+    ```
+
+    Take a copy of either the `PublicIps` field, or the `Fqdns` field.
+
 1. VMs cost money. At the time of writing, a DS1 VM costs about $0.06 per hour. To keep costs down, you should shut down the VM when you are not using it, and delete it when you are finished with this project.
 
-    To shut down the VM, use the following command:
-
-    ```sh
-    az vm deallocate --resource-group fruit-quality-detector \
-                     --name <vm_name>
-    ```
-
-    Replace `<vm_name>` with the name of your virtual machine.
-
-    > 💁 There is an `az vm stop` command which will stop the VM, but it keeps the computer allocated to you, so you still pay as if it was still running.
-
-    To restart the VM, use the following command:
-
-    ```sh
-    az vm start --resource-group fruit-quality-detector \
-               --name <vm_name>
-    ```
-
-    Replace `<vm_name>` with the name of your virtual machine.
-
-    You can also configure your VM to automatically shut down at a certain time each day. This means if you forget to shut it down, you won't be billed for more than the time till the automatic shutdown. Use the following command to set this:
+    You can configure your VM to automatically shut down at a certain time each day. This means if you forget to shut it down, you won't be billed for more than the time till the automatic shutdown. Use the following command to set this:
 
     ```sh
     az vm auto-shutdown --resource-group fruit-quality-detector \
@@ -64,3 +54,48 @@ In Azure, you can create a virtual machine - a computer in the cloud that you ca
     Replace `<vm_name>` with the name of your virtual machine.
 
     Replace `<shutdown_time_utc>` with the UTC time that you want the VM to shut down using 4 digits as HHMM. For example, if you want to shutdown at midnight UTC, you would set this to `0000`. For 7:30PM on the west coast of the USA, you would use 0230 (7:30PM on the US west coast is 2:30AM UTC).
+
+1. Your image classifier will be running on this edge device, listening on port 80 (the standard HTTP port). By default, virtual machines have inbound ports blocked, so you will need to enable port 80. Ports are enabled on network security groups, so first you need to know the name of the network security group for your VM, which you can find with the following command:
+
+    ```sh
+    az network nsg list --resource-group fruit-quality-detector \
+                        --output table
+    ```
+
+    Copy the value of the `Name` field.
+
+1. Run the following command to add a rule to open port 80 to the network security group:
+
+    ```sh
+    az network nsg rule create \
+                        --resource-group fruit-quality-detector \
+                        --name Port_80 \
+                        --protocol tcp \
+                        --priority 1010 \
+                        --destination-port-range 80 \
+                        --nsg-name <nsg name>
+    ```
+
+    Replace `<nsg name>` with the network security group name from the previous step.
+
+### Task - manage your VM to reduce costs
+
+1. When you are not using your VM, you should shut it down. To shut down the VM, use the following command:
+
+    ```sh
+    az vm deallocate --resource-group fruit-quality-detector \
+                     --name <vm_name>
+    ```
+
+    Replace `<vm_name>` with the name of your virtual machine.
+
+    > 💁 There is an `az vm stop` command which will stop the VM, but it keeps the computer allocated to you, so you still pay as if it was still running.
+
+1. To restart the VM, use the following command:
+
+    ```sh
+    az vm start --resource-group fruit-quality-detector \
+                --name <vm_name>
+    ```
+
+    Replace `<vm_name>` with the name of your virtual machine.

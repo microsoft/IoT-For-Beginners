@@ -1,0 +1,66 @@
+{
+    "content": {
+        "modulesContent": {
+            "$edgeAgent": {
+                "properties.desired": {
+                    "schemaVersion": "1.1",
+                    "runtime": {
+                        "type": "docker",
+                        "settings": {
+                            "minDockerVersion": "v1.25",
+                            "loggingOptions": "",
+                            "registryCredentials": {
+                                "ClassifierRegistry": {
+                                    "username": "<Container registry name>",
+                                    "password": "<Container Password>",
+                                    "address": "<Container registry name>.azurecr.io"
+                                  }
+                            }
+                        }
+                    },
+                    "systemModules": {
+                        "edgeAgent": {
+                            "type": "docker",
+                            "settings": {
+                                "image": "mcr.microsoft.com/azureiotedge-agent:1.1",
+                                "createOptions": "{}"
+                            }
+                        },
+                        "edgeHub": {
+                            "type": "docker",
+                            "status": "running",
+                            "restartPolicy": "always",
+                            "settings": {
+                                "image": "mcr.microsoft.com/azureiotedge-hub:1.1",
+                                "createOptions": "{\"HostConfig\":{\"PortBindings\":{\"5671/tcp\":[{\"HostPort\":\"5671\"}],\"8883/tcp\":[{\"HostPort\":\"8883\"}],\"443/tcp\":[{\"HostPort\":\"443\"}]}}}"
+                            }
+                        }
+                    },
+                    "modules": {
+                        "ImageClassifier": {
+                            "version": "1.0",
+                            "type": "docker",
+                            "status": "running",
+                            "restartPolicy": "always",
+                            "settings": {
+                                "image": "<Container registry name>.azurecr.io/classifier:v1",
+                                "createOptions": "{\"ExposedPorts\": {\"80/tcp\": {}},\"HostConfig\": {\"PortBindings\": {\"80/tcp\": [{\"HostPort\": \"80\"}]}}}"
+                            }
+                        }
+                    }
+                }
+            },
+            "$edgeHub": {
+                "properties.desired": {
+                    "schemaVersion": "1.1",
+                    "routes": {
+                        "upstream": "FROM /messages/* INTO $upstream"
+                    },
+                    "storeAndForwardConfiguration": {
+                        "timeToLiveSecs": 7200
+                    }
+                }
+            }
+        }
+    }
+}
