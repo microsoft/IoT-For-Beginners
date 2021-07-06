@@ -1321,6 +1321,108 @@
 						]
 					}
 				]
+			},
+			{
+				"id": 27,
+				"title": "Lesson 14 - Geofences: Pre-Lecture Quiz",
+				"quiz": [
+					{
+						"questionText": "GPS coordinates can be used to check if something is in a defined area",
+						"answerOptions": [
+							{
+								"answerText": "True",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "False",
+								"isCorrect": "false"
+							}
+						]
+					},
+					{
+						"questionText": "GPS is incredibly accurate so can indicate with precision of less than 1M when a device enters a given area",
+						"answerOptions": [
+							{
+								"answerText": "True",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "False",
+								"isCorrect": "true"
+							}
+						]
+					},
+					{
+						"questionText": "Geofences are useful when tracking vehicles to:",
+						"answerOptions": [
+							{
+								"answerText": "Determine when a vehicle enters a given area only",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "Determine when a vehicle leaves a given area only",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "Determine when a vehicle enters or leaves a given area",
+								"isCorrect": "true"
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": 28,
+				"title": "Lesson 14 - Geofences: Post-Lecture Quiz",
+				"quiz": [
+					{
+						"questionText": "To have multiple services pull data from an IoT Hub, you need to create multiple:",
+						"answerOptions": [
+							{
+								"answerText": "Consumer groups",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "Pipes",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "IoT Hubs",
+								"isCorrect": "false"
+							}
+						]
+					},
+					{
+						"questionText": "The default search buffer for a geofence call is:",
+						"answerOptions": [
+							{
+								"answerText": "5m",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "50m",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "500m",
+								"isCorrect": "false"
+							}
+						]
+					},
+					{
+						"questionText": "Points inside the geofence have a distance:",
+						"answerOptions": [
+							{
+								"answerText": "Less than 0 (a negative value)",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "Greater than 0 (a positive value)",
+								"isCorrect": "false"
+							}
+						]
+					}
+				]
 			}
 		]
 	}
