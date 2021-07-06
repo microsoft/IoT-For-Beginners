@@ -1,5 +1,9 @@
 # Visualize location data
 
+![A sketchnote overview of this lesson](../../../sketchnotes/lesson-13.png)
+
+> Sketchnote by [Nitya Narasimhan](https://github.com/nitya). Click the image for a larger version.
+
 This video gives an overview of Azure Maps with IoT, a service that will be covered in this lesson.
 
 [![Azure Maps - The Microsoft Azure Enterprise Location Platform](https://img.youtube.com/vi/P5i2GFTtb2s/0.jpg)](https://www.youtube.com/watch?v=P5i2GFTtb2s)
