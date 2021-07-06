@@ -1123,7 +1123,7 @@
 				]
 			},
 			{
-				"id": 21,
+				"id": 23,
 				"title": "Lesson 12 - Store location data: Pre-Lecture Quiz",
 				"quiz": [
 					{
@@ -1172,7 +1172,7 @@
 				]
 			},
 			{
-				"id": 22,
+				"id": 24,
 				"title": "Lesson 12 - Store location data: Post-Lecture Quiz",
 				"quiz": [
 					{
@@ -1211,6 +1211,104 @@
 					},
 					{
 						"questionText": "Azure Functions can be bound to database to write return values to the database",
+						"answerOptions": [
+							{
+								"answerText": "True",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "False",
+								"isCorrect": "false"
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": 25,
+				"title": "Lesson 13 - Visualize location data: Pre-Lecture Quiz",
+				"quiz": [
+					{
+						"questionText": "Very large tables of data are an easy way to quickly look up data",
+						"answerOptions": [
+							{
+								"answerText": "True",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "False",
+								"isCorrect": "true"
+							}
+						]
+					},
+					{
+						"questionText": "GPS data can be visualized on maps",
+						"answerOptions": [
+							{
+								"answerText": "True",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "False",
+								"isCorrect": "false"
+							}
+						]
+					},
+					{
+						"questionText": "On maps of large areas, the same distance drawn on the map represents the same distance on the real world no matter where on the map the measurement is taken",
+						"answerOptions": [
+							{
+								"answerText": "True",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "False",
+								"isCorrect": "true"
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": 26,
+				"title": "Lesson 13 - Visualize location data: Post-Lecture Quiz",
+				"quiz": [
+					{
+						"questionText": "The service to draw maps on a web page is called:",
+						"answerOptions": [
+							{
+								"answerText": "Azure Maps",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "Azure Atlas",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "Azure World VIsualizer",
+								"isCorrect": "false"
+							}
+						]
+					},
+					{
+						"questionText": "Azure maps plots data using:",
+						"answerOptions": [
+							{
+								"answerText": "GeoJSON",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "Lists of latitude and longitude",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "Lists of addresses",
+								"isCorrect": "false"
+							}
+						]
+					},
+					{
+						"questionText": "Blobs can be retrieved via a URL",
 						"answerOptions": [
 							{
 								"answerText": "True",
