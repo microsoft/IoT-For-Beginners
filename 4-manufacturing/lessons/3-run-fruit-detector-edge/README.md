@@ -436,7 +436,7 @@ Your container can now be deployed to your IoT Edge device. To deploy you need t
     }
     ```
 
-    > 💁 You can find this file in the [code/deployment](code/deployment) folder.
+    > 💁 You can find this file in the [code-deployment/deployment](code-deployment/deployment) folder.
 
     Replace the three instances of`<Container registry name>` with the name you used for your container registry. One is in the `ImageClassifier` module section, the other two are in the `registryCredentials` section.
 
