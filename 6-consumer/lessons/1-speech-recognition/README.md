@@ -16,7 +16,7 @@ This video gives an overview of the Azure speech service, a topic that will be c
 
 'Alexa, timer status'
 
-'Alexa set a 8 minute timer called steam broccoli'
+'Alexa, set a 8 minute timer called steam broccoli'
 
 Smart devices are becoming more and more pervasive. Not just as smart speakers like HomePods, Echos and Google Homes, but embedded in our phones, watches, and even light fittings and thermostats. 
 
