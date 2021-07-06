@@ -1665,7 +1665,8 @@
 					}
 				]
 			},
-			{"id": 34,
+			{
+				"id": 34,
 				"title": "Lesson 17 - Run  your fruit detector on the edge: Post-Lecture Quiz",
 				"quiz": [
 					{
@@ -1717,7 +1718,7 @@
 								"isCorrect": "false"
 							}
 						]
-					}
+					},
 					{
 						"questionText": "How do you do Custom Vision model retraining for ML models deployed on edge devices?",
 						"answerOptions": [
