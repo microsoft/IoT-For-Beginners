@@ -1011,6 +1011,116 @@
 						]
 					}
 				]
+			},
+			{
+				"id": 21,
+				"title": "Lesson 11 - Location tracking: Pre-Lecture Quiz",
+				"quiz": [
+					{
+						"questionText": "Your location can be defined using",
+						"answerOptions": [
+							{
+								"answerText": "Latitude only",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "Longitude only",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "Latitude and Longitude",
+								"isCorrect": "true"
+							}
+						]
+					},
+					{
+						"questionText": "The types of sensors that can track your location are called:",
+						"answerOptions": [
+							{
+								"answerText": "GPS",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "PGP",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "GIF",
+								"isCorrect": "false"
+							}
+						]
+					},
+					{
+						"questionText": "There is no value in tracking vehicle locations",
+						"answerOptions": [
+							{
+								"answerText": "True",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "False",
+								"isCorrect": "true"
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": 22,
+				"title": "Lesson 12 - Location tracking: Post-Lecture Quiz",
+				"quiz": [
+					{
+						"questionText": "GPS data is sent from sensors using:",
+						"answerOptions": [
+							{
+								"answerText": "Latitude and Longitude coordinates",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "Addresses",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "NMEA sentences",
+								"isCorrect": "true"
+							}
+						]
+					},
+					{
+						"questionText": "To get a good GPS fix you need to receive signals from at least how many satellites",
+						"answerOptions": [
+							{
+								"answerText": "1",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "2",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "3",
+								"isCorrect": "true"
+							}
+						]
+					},
+					{
+						"questionText": "GPS sensors send data over:",
+						"answerOptions": [
+							{
+								"answerText": "SPI",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "UART",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "Email",
+								"isCorrect": "false"
+							}
+						]
+					}
+				]
 			}
 		]
 	}
