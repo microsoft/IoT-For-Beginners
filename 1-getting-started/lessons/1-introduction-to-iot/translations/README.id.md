@@ -78,8 +78,6 @@ Komputer papan tunggal adalah perangkat komputasi kecil yang memiliki semua elem
 
 ![Raspberry Pi 4](../../../images/raspberry-pi-4.jpg)
 
-***Raspberry Pi 4. Michael Henzler / [Wikimedia Commons](https://commons.wikimedia.org/wiki/Main_Page) / [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)***
-
 Raspberry Pi adalah salah satu komputer papan tunggal yang paling populer.
 
 Seperti mikrokontroler, komputer papan tunggal memiliki CPU, memori dan pin input/output, tetapi mereka memiliki fitur tambahan seperti chip grafis untuk memungkinkan Anda menghubungkan monitor, output audio, dan port USB untuk menghubungkan mouse keyboard dan USB standar lainnya. perangkat seperti webcam atau penyimpanan eksternal. Program disimpan di kartu SD atau hard drive bersama dengan sistem operasi, bukan chip memori yang terpasang di papan.

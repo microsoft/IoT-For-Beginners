@@ -24,6 +24,10 @@ In this lesson we'll cover:
 * [Support multiple languages in applications with translations](#support-multiple-languages-in-applications-with-translations)
 * [Translate text using an AI service](#translate-text-using-an-ai-service)
 
+> 🗑 This is the last lesson in this project, so after completing this lesson and the assignment, don't forget to clean up your cloud services. You will need the services to complete the assignment, so make sure to complete that first.
+>
+> Refer to [the clean up your project guide](../../../clean-up.md) if necessary for instructions on how to do this.
+
 ## Translate text
 
 Text translation has been a computer science problem that has been researched for over 70 years, and only now thanks to advances in AI and computer power is close to being solved to a point where it is almost as good as human translators.
@@ -114,8 +118,6 @@ For this lesson you will need a Translator resource. You will use the REST API t
 In an ideal world, your whole application should understand as many different languages as possible, from listening for speech, to language understanding, to responding with speech. This is a lot of work, so translation services can speed up the time to delivery of your application.
 
 ![A smart timer architecture translating Japanese to English, processing in English then translating back to Japanese](../../../images/translated-smart-timer.png)
-
-***A smart timer architecture translating Japanese to English, processing in English then translating back to Japanese. Microcontroller by Template / recording by Aybige Speaker / Speaker by Gregor Cresnar - all from the [Noun Project](https://thenounproject.com)***
 
 Imagine you are building a smart timer that uses English end-to-end, understanding spoken English and converting that to text, running the language understanding in English, building up responses in English and replying with English speech. If you wanted to add support for Japanese, you could start with translating spoken Japanese to English text, then keep the core of the application the same, then translate the response text to Japanese before speaking the response. This would allow you to quickly add Japanese support, and you can expand to providing full end-to-end Japanese support later.
 

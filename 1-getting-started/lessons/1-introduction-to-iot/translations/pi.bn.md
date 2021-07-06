@@ -4,8 +4,6 @@
 
 ![A Raspberry Pi 4](../../../images/raspberry-pi-4.jpg)
 
-***রাস্পবেরি পাই - ৪   Michael Henzler / [Wikimedia Commons](https://commons.wikimedia.org/wiki/Main_Page) / [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)***
-
 ## সেটাপ
 
 যদি আমরা আমাদের আইওটি হার্ডওয়্যার হিসাবে রাস্পবেরি পাই ব্যবহার করি, তবে দুটি অপশন আছে - সবগুলো লেসন পড়ে সরাসরি রাসপবেরি পাই তে কোডের মাধ্যমে কাজ করা  অথবা কম্পিউটার থেকে 'হেডলেস' পাই এবং কোডের সাথে দূরবর্তীভাবে সংযোগ করতে পারেন।

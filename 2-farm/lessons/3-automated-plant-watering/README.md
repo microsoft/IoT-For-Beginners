@@ -26,8 +26,6 @@ The solution to this is to have a pump connected to an external power supply, an
 
 ![A light switch turns power on to a light](../../../images/light-switch.png)
 
-***A light switch turns power on to a light. switch by Chattapat / lightbulb by Maxim Kulikov - all from the [Noun Project](https://thenounproject.com)***
-
 > 🎓 [Mains electricity](https://wikipedia.org/wiki/Mains_electricity) refers to the electricity delivered to homes and businesses through national infrastructure in many parts of the world.
 
 ✅ IoT devices can usually provide 3.3V or 5V, at less than 1 amp (1A) of current. Compare this to mains electricity which is most often at 230V (120V in North America and 100V in Japan), and can provide power for devices that draw 30A.
@@ -42,13 +40,9 @@ A relay is an electromechanical switch that converts an electrical signal into a
 
 ![When on, the electromagnet creates a magnetic field, turning on the switch for the output circuit](../../../images/relay-on.png)
 
-***When on, the electromagnet creates a magnetic field, turning on the switch for the output circuit. lightbulb by Maxim Kulikov - from the [Noun Project](https://thenounproject.com)***
-
 In a relay, a control circuit powers the electromagnet. When the electromagnet is on, it pulls a lever that moves a switch, closing a pair of contacts and completing an output circuit.
 
 ![When off, the electromagnet doesn't create a magnetic field, turning off the switch for the output circuit](../../../images/relay-off.png)
-
-***When off, the electromagnet doesn't create a magnetic field, turning off the switch for the output circuit. lightbulb by Maxim Kulikov - from the [Noun Project](https://thenounproject.com)***
 
 When the control circuit is off, the electromagnet turns off, releasing the lever and opening the contacts, turning off the output circuit. Relays are digital actuators - a high signal to the relay turns it on, a low signal turns it off.
 
@@ -128,8 +122,6 @@ If you did the last lesson on soil moisture using a physical sensor, you would h
 
 ![A soil moisture measurement of 658 doesn't change during watering, it only drops to 320 after watering when water has soaked through the soil](../../../images/soil-moisture-travel.png)
 
-***A soil moisture measurement of 658 doesn't change during watering, it only drops to 320 after watering when water has soaked through the soil. Plant by Alex Muravev / Watering Can by Daria Moskvina - all from the [Noun Project](https://thenounproject.com)***
-
 In the diagram above, a soil moisture reading shows 658. The plant is watered, but this reading doesn't change immediately, as the water has yet to reach the sensor. Watering can even finish before the water reaches the sensor and the value drops to reflect the new moisture level.
 
 If you were writing code to control an irrigation system via a relay based off soil moisture levels, you would need to take this delay into consideration and build smarter timing into your IoT device.
@@ -155,8 +147,6 @@ How long should the relay be on each time? It's better to err on the side of cau
 For example, I have a strawberry plant with a soil moisture sensor and a pump controlled by a relay. I've observed that when I add water it takes about 20 seconds for the soil moisture reading to stabilize. This means I need to turn the relay off and wait 20 seconds before checking the moisture levels. I'd rather have too little water than too much - I can always turn the pump on again, but I can't take water out of the plant.
 
 ![Step 1, take measurement. Step 2, add water. Step 3, wait for water to soak through the soil. Step 4, retake measurement](../../../images/soil-moisture-delay.png)
-
-***Measure, add water, wait, remeasure. Plant by Alex Muravev / Watering Can by Daria Moskvina - all from the [Noun Project](https://thenounproject.com)***
 
 This means the best process would be a watering cycle that is something like:
 
@@ -203,10 +193,11 @@ Update your server code to run the relay for 5 seconds, then wait 20 seconds.
 1. Open the `app.py` file
 
 1. Add the following code to the `app.py` file below the existing imports:
+
     ```python
     import threading
     ```
-    
+
     This statement imports `threading` from Python libraries, threading allows python to execute other code while waiting.
 
 1. Add the following code before the `handle_telemetry` function that handles telemetry messages received by the server code:
@@ -274,7 +265,7 @@ Update your server code to run the relay for 5 seconds, then wait 20 seconds.
     ```
 
     A good way to test this in a simulated irrigation system is to use dry soil, then pour water in manually whilst the relay is on, stopping pouring when the relay turns off.
-    
+
 > 💁 You can find this code in the [code-timing](./code-timing) folder.
 
 > 💁 If you want to use a pump to build a real irrigation system, then you can use a [6V water pump](https://www.seeedstudio.com/6V-Mini-Water-Pump-p-1945.html) with a [USB terminal power supply](https://www.adafruit.com/product/3628). Make sure the power to or from the pump is connected via the relay.
