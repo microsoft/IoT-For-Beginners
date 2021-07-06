@@ -105,7 +105,7 @@ You can train an object detector using Custom Vision, in a similar way to how yo
 
     Call your project `stock-detector`.
 
-    When you create your project, make sure to use the `stock-detector-training` resource you created earlier. Use *Object Detection* project type, and the *Products on Shelves* domain.
+    When you create your project, make sure to use the `stock-detector-training` resource you created earlier. Use the *Object Detection* project type, and the *Products on Shelves* domain.
 
     ![The settings for the custom vision project with the name set to fruit-quality-detector, no description, the resource set to fruit-quality-detector-training, the project type set to classification, the classification types set to multi class and the domains set to food](../../../images/custom-vision-create-object-detector-project.png)
 
@@ -135,7 +135,7 @@ To train your model you will need a set of images containing the objects you wan
 
     ![Tagging some tomato paste](../../../images/object-detector-tag-tomato-paste.png)
 
-    > 💁 If you have more than 15 images for each object, you can train after 15 then use the **Suggested tags** feature. This will use the trained model to detect the objecs in the untagged image. You can then confirm the detected objects, or reject and re-draw the bounding boxes. This can save a *lot* of time.
+    > 💁 If you have more than 15 images for each object, you can train after 15 then use the **Suggested tags** feature. This will use the trained model to detect the objects in the untagged image. You can then confirm the detected objects, or reject and re-draw the bounding boxes. This can save a *lot* of time.
 
 1. Follow the [Train the detector section of the Build an object detector quickstart on the Microsoft docs](https://docs.microsoft.com/azure/cognitive-services/custom-vision-service/get-started-build-detector?WT.mc_id=academic-17441-jabenn#train-the-detector) to train the object detector on your tagged images.
 
