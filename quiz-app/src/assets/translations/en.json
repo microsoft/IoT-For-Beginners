@@ -1067,7 +1067,7 @@
 			},
 			{
 				"id": 22,
-				"title": "Lesson 12 - Location tracking: Post-Lecture Quiz",
+				"title": "Lesson 11 - Location tracking: Post-Lecture Quiz",
 				"quiz": [
 					{
 						"questionText": "GPS data is sent from sensors using:",
@@ -1116,6 +1116,206 @@
 							},
 							{
 								"answerText": "Email",
+								"isCorrect": "false"
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": 23,
+				"title": "Lesson 12 - Store location data: Pre-Lecture Quiz",
+				"quiz": [
+					{
+						"questionText": "IoT data is stored by IoT Hub",
+						"answerOptions": [
+							{
+								"answerText": "True",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "False",
+								"isCorrect": "true"
+							}
+						]
+					},
+					{
+						"questionText": "Data can be divided into the following two types",
+						"answerOptions": [
+							{
+								"answerText": "Blob and table",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "Structured and unstructured",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "Red and blue",
+								"isCorrect": "false"
+							}
+						]
+					},
+					{
+						"questionText": "Serverless code can be used to write IoT data to a database",
+						"answerOptions": [
+							{
+								"answerText": "True",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "False",
+								"isCorrect": "false"
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": 24,
+				"title": "Lesson 12 - Store location data: Post-Lecture Quiz",
+				"quiz": [
+					{
+						"questionText": "IoT data that needs to be processed immediately is on which path:",
+						"answerOptions": [
+							{
+								"answerText": "Hot",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "Warm",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "Cold",
+								"isCorrect": "false"
+							}
+						]
+					},
+					{
+						"questionText": "Azure storage has the following storage types:",
+						"answerOptions": [
+							{
+								"answerText": "Boxes, tubs, bins",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "Blob, table, queue and file",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "Hot, warm, cold",
+								"isCorrect": "false"
+							}
+						]
+					},
+					{
+						"questionText": "Azure Functions can be bound to database to write return values to the database",
+						"answerOptions": [
+							{
+								"answerText": "True",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "False",
+								"isCorrect": "false"
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": 25,
+				"title": "Lesson 13 - Visualize location data: Pre-Lecture Quiz",
+				"quiz": [
+					{
+						"questionText": "Very large tables of data are an easy way to quickly look up data",
+						"answerOptions": [
+							{
+								"answerText": "True",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "False",
+								"isCorrect": "true"
+							}
+						]
+					},
+					{
+						"questionText": "GPS data can be visualized on maps",
+						"answerOptions": [
+							{
+								"answerText": "True",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "False",
+								"isCorrect": "false"
+							}
+						]
+					},
+					{
+						"questionText": "On maps of large areas, the same distance drawn on the map represents the same distance on the real world no matter where on the map the measurement is taken",
+						"answerOptions": [
+							{
+								"answerText": "True",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "False",
+								"isCorrect": "true"
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": 26,
+				"title": "Lesson 13 - Visualize location data: Post-Lecture Quiz",
+				"quiz": [
+					{
+						"questionText": "The service to draw maps on a web page is called:",
+						"answerOptions": [
+							{
+								"answerText": "Azure Maps",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "Azure Atlas",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "Azure World VIsualizer",
+								"isCorrect": "false"
+							}
+						]
+					},
+					{
+						"questionText": "Azure maps plots data using:",
+						"answerOptions": [
+							{
+								"answerText": "GeoJSON",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "Lists of latitude and longitude",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "Lists of addresses",
+								"isCorrect": "false"
+							}
+						]
+					},
+					{
+						"questionText": "Blobs can be retrieved via a URL",
+						"answerOptions": [
+							{
+								"answerText": "True",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "False",
 								"isCorrect": "false"
 							}
 						]
