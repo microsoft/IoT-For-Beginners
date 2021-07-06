@@ -105,7 +105,7 @@ You can train an object detector using Custom Vision, in a similar way to how yo
 
     Call your project `stock-detector`.
 
-    When you create your project, make sure to use the `stock-detector-training` resource you created earlier. Use a n*Object Detection* project type, and the *Products on Shelves* domain.
+    When you create your project, make sure to use the `stock-detector-training` resource you created earlier. Use *Object Detection* project type, and the *Products on Shelves* domain.
 
     ![The settings for the custom vision project with the name set to fruit-quality-detector, no description, the resource set to fruit-quality-detector-training, the project type set to classification, the classification types set to multi class and the domains set to food](../../../images/custom-vision-create-object-detector-project.png)
 
