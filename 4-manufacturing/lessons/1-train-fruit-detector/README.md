@@ -1,5 +1,9 @@
 # Train a fruit quality detector
 
+![A sketchnote overview of this lesson](../../../sketchnotes/lesson-15.png)
+
+> Sketchnote by [Nitya Narasimhan](https://github.com/nitya). Click the image for a larger version.
+
 This video gives an overview of the Azure Custom Vision service, a service that will be covered in this lesson.
 
 [![Custom Vision – Machine Learning Made Easy | The Xamarin Show](https://img.youtube.com/vi/TETcDLJlWR4/0.jpg)](https://www.youtube.com/watch?v=TETcDLJlWR4)
