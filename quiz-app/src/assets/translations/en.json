@@ -1622,7 +1622,7 @@
 			},
 			{
 				"id": 33,
-				"title": "Lesson 17 - Run  your fruit detector on the edge: Pre-Lecture Quiz",
+				"title": "Lesson 17 - Run your fruit detector on the edge: Pre-Lecture Quiz",
 				"quiz": [
 					{
 						"questionText": "Edge computing can be more secure than cloud computing.",
@@ -1667,7 +1667,7 @@
 			},
 			{
 				"id": 34,
-				"title": "Lesson 17 - Run  your fruit detector on the edge: Post-Lecture Quiz",
+				"title": "Lesson 17 - Run your fruit detector on the edge: Post-Lecture Quiz",
 				"quiz": [
 					{
 						"questionText": "What kind of format or domain do we need for Custom Vision ML models to properly run on an edge device?",
@@ -1732,6 +1732,112 @@
 							},
 							{
 								"answerText": "Take images on the edge device and check the prediction output.",
+								"isCorrect": "false"
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": 35,
+				"title": "Lesson 18 - Trigger fruit quality detection from a sensor: Pre-Lecture Quiz",
+				"quiz": [
+					{
+						"questionText": "Which part of your IoT application gathers data?",
+						"answerOptions": [
+							{
+								"answerText": "Things",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "Cloud services",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "Edge devices",
+								"isCorrect": "false"
+							}
+						]
+					},
+					{
+						"questionText": "The only outputs of an IoT application are actuators.",
+						"answerOptions": [
+							{
+								"answerText": "True",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "False",
+								"isCorrect": "true"
+							}
+						]
+					},
+					{
+						"questionText": "Things don't need to connect directly to IoT Hub, they can use edge devices as gateways.",
+						"answerOptions": [
+							{
+								"answerText": "True",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "False",
+								"isCorrect": "false"
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": 36,
+				"title": "Lesson 18 - Trigger fruit quality detection from a sensor: Post-Lecture Quiz",
+				"quiz": [
+					{
+						"questionText": "The three components of architecting an IoT application are",
+						"answerOptions": [
+							{
+								"answerText": "Things, Insights, Actions",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "Things, Internet, Databases",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "AI, Blockchain, FizzBuzzers",
+								"isCorrect": "false"
+							}
+						]
+					},
+					{
+						"questionText": "The component that communicates between the things and the components that create insights is:",
+						"answerOptions": [
+							{
+								"answerText": "Azure Functions",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "IoT Hub",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "Azure Maps",
+								"isCorrect": "false"
+							}
+						]
+					},
+					{
+						"questionText": "How do time of flight proximity sensors work?",
+						"answerOptions": [
+							{
+								"answerText": "They send laser beams and time how long till they bounce off an object",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "They use sound and measure how long till the sound bounces off an object",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "They use very large rulers",
 								"isCorrect": "false"
 							}
 						]
