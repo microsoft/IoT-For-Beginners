@@ -1619,6 +1619,123 @@
 						]
 					}
 				]
+			},
+			{
+				"id": 33,
+				"title": "Lesson 17 - Run  your fruit detector on the edge: Pre-Lecture Quiz",
+				"quiz": [
+					{
+						"questionText": "Edge computing can be more secure than cloud computing.",
+						"answerOptions": [
+							{
+								"answerText": "True",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "False",
+								"isCorrect": "false"
+							}
+						]
+					},
+					{
+						"questionText": "Running an ML model on an edge device is less accurate than running an ML model in the cloud.",
+						"answerOptions": [
+							{
+								"answerText": "True",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "False",
+								"isCorrect": "true"
+							}
+						]
+					},
+					{
+						"questionText": "Edge devices always need an Internet connection.",
+						"answerOptions": [
+							{
+								"answerText": "True",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "False",
+								"isCorrect": "true"
+							}
+						]
+					}
+				]
+			},
+			{"id": 34,
+				"title": "Lesson 17 - Run  your fruit detector on the edge: Post-Lecture Quiz",
+				"quiz": [
+					{
+						"questionText": "What kind of format or domain do we need for Custom Vision ML models to properly run on an edge device?",
+						"answerOptions": [
+							{
+								"answerText": "General",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "Quick Training",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "Standard",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "Compact",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "Food",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "Remote Deployment",
+								"isCorrect": "false"
+							}
+						]
+					},
+					{
+						"questionText": "What is a container?",
+						"answerOptions": [
+							{
+								"answerText": "Self-contained applications that hold ML models.",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "Self-contained applications that run in isolation from other programs.",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "Self-contained applications that run programs only on edge devices.",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "self-contained applications that handle communication between the cloud and edge devices.",
+								"isCorrect": "false"
+							}
+						]
+					}
+					{
+						"questionText": "How do you do Custom Vision model retraining for ML models deployed on edge devices?",
+						"answerOptions": [
+							{
+								"answerText": "Take images on the edge device, save to the edge device, and point the ML model to the new image folder.",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "Upload images from the edge device to the cloud, retrain the model in Custom Vision, then re-deploy onto the edge device.",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "Take images on the edge device and check the prediction output.",
+								"isCorrect": "false"
+							}
+						]
+					}
+				]
 			}
 		]
 	}
