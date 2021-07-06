@@ -69,6 +69,6 @@ The code you used to classify images is very similar to the code to detect objec
 
     ![4 cans of tomato paste on a shelf with predictions for the 4 detections of 35.8%, 33.5%, 25.7% and 16.6%](../../../images/custom-vision-stock-prediction.png)
 
-> 💁 You can find this code in the [code-detect/pi](code-detect/pi) or [code-detect/virtual-device](code-detect/virtual-device) folder.
+> 💁 You can find this code in the [code-detect/pi](code-detect/pi) or [code-detect/virtual-iot-device](code-detect/virtual-iot-device) folder.
 
 😀 Your stock counter program was a success!
