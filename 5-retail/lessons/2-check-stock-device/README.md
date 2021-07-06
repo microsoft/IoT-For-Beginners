@@ -16,6 +16,10 @@ In this lesson we'll cover:
 * [Retrain the model](#retrain-the-model)
 * [Count stock](#count-stock)
 
+> 🗑 This is the last lesson in this project, so after completing this lesson and the assignment, don't forget to clean up your cloud services. You will need the services to complete the assignment, so make sure to complete that first.
+>
+> Refer to [the clean up your project guide](../../../clean-up.md) if necessary for instructions on how to do this.
+
 ## Stock counting
 
 Object detectors can be used for stock checking, either counting stock or ensuring stock is where it should be. IoT devices with cameras can be deployed all around the store to monitor stock, starting with hot spots where having items restocked is important, such as areas where small numbers of high value items are stocked.
