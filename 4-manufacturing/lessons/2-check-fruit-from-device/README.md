@@ -1,7 +1,5 @@
 # Check fruit quality from an IoT device
 
-![Embed a video here if available](video-url)
-
 ## Pre-lecture quiz
 
 [Pre-lecture quiz](https://brave-island-0b7c7f50f.azurestaticapps.net/quiz/31)

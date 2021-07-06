@@ -9,6 +9,7 @@
 * Certificate by alimasykurm from the [Noun Project](https://thenounproject.com)
 * chip by Astatine Lab from the [Noun Project](https://thenounproject.com)
 * Cloud by Debi Alpa Nugraha from the [Noun Project](https://thenounproject.com)
+* container by ProSymbols from the [Noun Project](https://thenounproject.com)
 * CPU by Icon Lauk from the [Noun Project](https://thenounproject.com)
 * database by Icons Bazaar from the [Noun Project](https://thenounproject.com)
 * dial by Jamie Dickinson from the [Noun Project](https://thenounproject.com)
@@ -18,7 +19,7 @@
 * IoT by Adrien Coquet from the [Noun Project](https://thenounproject.com)
 * LED by abderraouf omara from the [Noun Project](https://thenounproject.com)
 * ldr by Eucalyp from the [Noun Project](https://thenounproject.com)
-* lightbulb by Maxim Kulikov from the [Noun Project](https://thenounproject.com)*
+* lightbulb by Maxim Kulikov from the [Noun Project](https://thenounproject.com)
 * Microcontroller by Template from the [Noun Project](https://thenounproject.com)
 * mobile phone by Alice-vector from the [Noun Project](https://thenounproject.com)
 * motor by Bakunetsu Kaito from the [Noun Project](https://thenounproject.com)

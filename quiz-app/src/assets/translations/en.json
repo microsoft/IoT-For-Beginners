@@ -1011,6 +1011,614 @@
 						]
 					}
 				]
+			},
+			{
+				"id": 21,
+				"title": "Lesson 11 - Location tracking: Pre-Lecture Quiz",
+				"quiz": [
+					{
+						"questionText": "Your location can be defined using",
+						"answerOptions": [
+							{
+								"answerText": "Latitude only",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "Longitude only",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "Latitude and Longitude",
+								"isCorrect": "true"
+							}
+						]
+					},
+					{
+						"questionText": "The types of sensors that can track your location are called:",
+						"answerOptions": [
+							{
+								"answerText": "GPS",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "PGP",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "GIF",
+								"isCorrect": "false"
+							}
+						]
+					},
+					{
+						"questionText": "There is no value in tracking vehicle locations",
+						"answerOptions": [
+							{
+								"answerText": "True",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "False",
+								"isCorrect": "true"
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": 22,
+				"title": "Lesson 11 - Location tracking: Post-Lecture Quiz",
+				"quiz": [
+					{
+						"questionText": "GPS data is sent from sensors using:",
+						"answerOptions": [
+							{
+								"answerText": "Latitude and Longitude coordinates",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "Addresses",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "NMEA sentences",
+								"isCorrect": "true"
+							}
+						]
+					},
+					{
+						"questionText": "To get a good GPS fix you need to receive signals from at least how many satellites",
+						"answerOptions": [
+							{
+								"answerText": "1",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "2",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "3",
+								"isCorrect": "true"
+							}
+						]
+					},
+					{
+						"questionText": "GPS sensors send data over:",
+						"answerOptions": [
+							{
+								"answerText": "SPI",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "UART",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "Email",
+								"isCorrect": "false"
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": 23,
+				"title": "Lesson 12 - Store location data: Pre-Lecture Quiz",
+				"quiz": [
+					{
+						"questionText": "IoT data is stored by IoT Hub",
+						"answerOptions": [
+							{
+								"answerText": "True",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "False",
+								"isCorrect": "true"
+							}
+						]
+					},
+					{
+						"questionText": "Data can be divided into the following two types",
+						"answerOptions": [
+							{
+								"answerText": "Blob and table",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "Structured and unstructured",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "Red and blue",
+								"isCorrect": "false"
+							}
+						]
+					},
+					{
+						"questionText": "Serverless code can be used to write IoT data to a database",
+						"answerOptions": [
+							{
+								"answerText": "True",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "False",
+								"isCorrect": "false"
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": 24,
+				"title": "Lesson 12 - Store location data: Post-Lecture Quiz",
+				"quiz": [
+					{
+						"questionText": "IoT data that needs to be processed immediately is on which path:",
+						"answerOptions": [
+							{
+								"answerText": "Hot",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "Warm",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "Cold",
+								"isCorrect": "false"
+							}
+						]
+					},
+					{
+						"questionText": "Azure storage has the following storage types:",
+						"answerOptions": [
+							{
+								"answerText": "Boxes, tubs, bins",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "Blob, table, queue and file",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "Hot, warm, cold",
+								"isCorrect": "false"
+							}
+						]
+					},
+					{
+						"questionText": "Azure Functions can be bound to database to write return values to the database",
+						"answerOptions": [
+							{
+								"answerText": "True",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "False",
+								"isCorrect": "false"
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": 25,
+				"title": "Lesson 13 - Visualize location data: Pre-Lecture Quiz",
+				"quiz": [
+					{
+						"questionText": "Very large tables of data are an easy way to quickly look up data",
+						"answerOptions": [
+							{
+								"answerText": "True",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "False",
+								"isCorrect": "true"
+							}
+						]
+					},
+					{
+						"questionText": "GPS data can be visualized on maps",
+						"answerOptions": [
+							{
+								"answerText": "True",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "False",
+								"isCorrect": "false"
+							}
+						]
+					},
+					{
+						"questionText": "On maps of large areas, the same distance drawn on the map represents the same distance on the real world no matter where on the map the measurement is taken",
+						"answerOptions": [
+							{
+								"answerText": "True",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "False",
+								"isCorrect": "true"
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": 26,
+				"title": "Lesson 13 - Visualize location data: Post-Lecture Quiz",
+				"quiz": [
+					{
+						"questionText": "The service to draw maps on a web page is called:",
+						"answerOptions": [
+							{
+								"answerText": "Azure Maps",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "Azure Atlas",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "Azure World VIsualizer",
+								"isCorrect": "false"
+							}
+						]
+					},
+					{
+						"questionText": "Azure maps plots data using:",
+						"answerOptions": [
+							{
+								"answerText": "GeoJSON",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "Lists of latitude and longitude",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "Lists of addresses",
+								"isCorrect": "false"
+							}
+						]
+					},
+					{
+						"questionText": "Blobs can be retrieved via a URL",
+						"answerOptions": [
+							{
+								"answerText": "True",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "False",
+								"isCorrect": "false"
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": 27,
+				"title": "Lesson 14 - Geofences: Pre-Lecture Quiz",
+				"quiz": [
+					{
+						"questionText": "GPS coordinates can be used to check if something is in a defined area",
+						"answerOptions": [
+							{
+								"answerText": "True",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "False",
+								"isCorrect": "false"
+							}
+						]
+					},
+					{
+						"questionText": "GPS is incredibly accurate so can indicate with precision of less than 1M when a device enters a given area",
+						"answerOptions": [
+							{
+								"answerText": "True",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "False",
+								"isCorrect": "true"
+							}
+						]
+					},
+					{
+						"questionText": "Geofences are useful when tracking vehicles to:",
+						"answerOptions": [
+							{
+								"answerText": "Determine when a vehicle enters a given area only",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "Determine when a vehicle leaves a given area only",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "Determine when a vehicle enters or leaves a given area",
+								"isCorrect": "true"
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": 28,
+				"title": "Lesson 14 - Geofences: Post-Lecture Quiz",
+				"quiz": [
+					{
+						"questionText": "To have multiple services pull data from an IoT Hub, you need to create multiple:",
+						"answerOptions": [
+							{
+								"answerText": "Consumer groups",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "Pipes",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "IoT Hubs",
+								"isCorrect": "false"
+							}
+						]
+					},
+					{
+						"questionText": "The default search buffer for a geofence call is:",
+						"answerOptions": [
+							{
+								"answerText": "5m",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "50m",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "500m",
+								"isCorrect": "false"
+							}
+						]
+					},
+					{
+						"questionText": "Points inside the geofence have a distance:",
+						"answerOptions": [
+							{
+								"answerText": "Less than 0 (a negative value)",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "Greater than 0 (a positive value)",
+								"isCorrect": "false"
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": 29,
+				"title": "Lesson 15 - Train a fruit quality detector: Pre-Lecture Quiz",
+				"quiz": [
+					{
+						"questionText": "Cameras can be used as IoT sensors",
+						"answerOptions": [
+							{
+								"answerText": "True",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "False",
+								"isCorrect": "false"
+							}
+						]
+					},
+					{
+						"questionText": "Fruit can be sorted using cameras",
+						"answerOptions": [
+							{
+								"answerText": "True",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "False",
+								"isCorrect": "false"
+							}
+						]
+					},
+					{
+						"questionText": "Images-based AI models are incredibly complex and time consuming to train, requiring hundreds of thousands of images:",
+						"answerOptions": [
+							{
+								"answerText": "True",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "False",
+								"isCorrect": "true"
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": 30,
+				"title": "Lesson 15 - Train a fruit quality detector: Post-Lecture Quiz",
+				"quiz": [
+					{
+						"questionText": "The technique custom vision uses to train a model with only a few images is called:",
+						"answerOptions": [
+							{
+								"answerText": "Transformational learning",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "Transaction learning",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "Transfer learning",
+								"isCorrect": "true"
+							}
+						]
+					},
+					{
+						"questionText": "Image classifiers can be trained using:",
+						"answerOptions": [
+							{
+								"answerText": "Only 1 image per tag",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "At least 5 images per tag",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "At least 50 images per tag",
+								"isCorrect": "false"
+							}
+						]
+					},
+					{
+						"questionText": "The hardware that allows ML models to be trained quickly, as well as making the graphics on out Xbox look amazing are called:",
+						"answerOptions": [
+							{
+								"answerText": "PGU",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "GPU",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "PUG",
+								"isCorrect": "false"
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": 31,
+				"title": "Lesson 16 - Check fruit quality from an IoT device: Pre-Lecture Quiz",
+				"quiz": [
+					{
+						"questionText": "IoT devices are not powerful enough to use cameras:",
+						"answerOptions": [
+							{
+								"answerText": "True",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "False",
+								"isCorrect": "true"
+							}
+						]
+					},
+					{
+						"questionText": "Camera sensors use film to capture images",
+						"answerOptions": [
+							{
+								"answerText": "True",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "False",
+								"isCorrect": "true"
+							}
+						]
+					},
+					{
+						"questionText": "Camera sensors send which type of data",
+						"answerOptions": [
+							{
+								"answerText": "Digital",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "Analog",
+								"isCorrect": "false"
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": 32,
+				"title": "Lesson 16 - Check fruit quality from an IoT device: Post-Lecture Quiz",
+				"quiz": [
+					{
+						"questionText": "A published version of a custom vision model is called an:",
+						"answerOptions": [
+							{
+								"answerText": "Iteration",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "Instance",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "Iguana",
+								"isCorrect": "false"
+							}
+						]
+					},
+					{
+						"questionText": "When images are sent for classification, they then become available to retrain the model:",
+						"answerOptions": [
+							{
+								"answerText": "True",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "False",
+								"isCorrect": "false"
+							}
+						]
+					},
+					{
+						"questionText": "You don't need to use images captured from an IoT device to train the model as the cameras are as good quality as phone cameras:",
+						"answerOptions": [
+							{
+								"answerText": "True",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "False",
+								"isCorrect": "true"
+							}
+						]
+					}
+				]
 			}
 		]
 	}

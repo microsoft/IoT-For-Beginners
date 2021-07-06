@@ -24,6 +24,10 @@ In this lesson we'll cover:
 * [Support multiple languages in applications with translations](#support-multiple-languages-in-applications-with-translations)
 * [Translate text using an AI service](#translate-text-using-an-ai-service)
 
+> 🗑 This is the last lesson in this project, so after completing this lesson and the assignment, don't forget to clean up your cloud services. You will need the services to complete the assignment, so make sure to complete that first.
+>
+> Refer to [the clean up your project guide](../../../clean-up.md) if necessary for instructions on how to do this.
+
 ## Translate text
 
 Text translation has been a computer science problem that has been researched for over 70 years, and only now thanks to advances in AI and computer power is close to being solved to a point where it is almost as good as human translators.
