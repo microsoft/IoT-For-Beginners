@@ -60,8 +60,6 @@ One example of this is a potentiometer. This is a dial that you can rotate betwe
 
 ![A potentiometer set to a mid point being sent 5 volts returning 3.8 volts](../../../images/potentiometer.png)
 
-***A potentiometer. Microcontroller by Template / dial by Jamie Dickinson - all from the [Noun Project](https://thenounproject.com)***
-
 The IoT device will send an electrical signal to the potentiometer at a voltage, such as 5 volts (5V). As the potentiometer is adjusted it changes the voltage that comes out of the other side. Imagine you have a potentiometer labelled as a dial that goes from 0 to [11](https://wikipedia.org/wiki/Up_to_eleven), such as a volume knob on an amplifier. When the potentiometer is in the full off position (0) then 0V (0 volts) will come out. When it is in the full on position (11), 5V (5 volts) will come out.
 
 > 🎓 This is an oversimplification, and you can read more on potentiometers and variable resistors on the [potentiometer Wikipedia page](https://wikipedia.org/wiki/Potentiometer).
@@ -88,8 +86,6 @@ The simplest digital sensor is a button or switch. This is a sensor with two sta
 
 ![A button is sent 5 volts. When not pressed it returns 0 volts, when pressed it returns 5 volts](../../../images/button.png)
 
-***A button. Microcontroller by Template / Button by Dan Hetteix - all from the [Noun Project](https://thenounproject.com)***
-
 Pins on IoT devices such as GPIO pins can measure this signal directly as a 0 or 1. If the voltage sent is the same as the voltage returned, the value read is 1, otherwise the value read is 0. There is no need to convert the signal, it can only be 1 or 0.
 
 > 💁 Voltages are never exact especially as the components in a sensor will have some resistance, so there is usually a tolerance. For example, the GPIO pins on a Raspberry Pi work on 3.3V, and read a return signal above 1.8V as a 1, below 1.8V as 0.
@@ -100,8 +96,6 @@ Pins on IoT devices such as GPIO pins can measure this signal directly as a 0 or
 More advanced digital sensors read analog values, then convert them using on-board ADCs to digital signals. For example, a digital temperature sensor will still use a thermocouple in the same way as an analog sensor, and will still measure the change in voltage caused by the resistance of the thermocouple at the current temperature. Instead of returning an analog value and relying on the device or connector board to convert to a digital signal, an ADC built into the sensor will convert the value and send it as a series of 0s and 1s to the IoT device. These 0s and 1s are sent in the same way as the digital signal for a button with 1 being full voltage and 0 being 0v.
 
 ![A digital temperature sensor converting an analog reading to binary data with 0 as 0 volts and 1 as 5 volts before sending it to an IoT device](../../../images/temperature-as-digital.png)
-
-***A digital temperature sensor. Temperature by Vectors Market / Microcontroller by Template - all from the [Noun Project](https://thenounproject.com)***
 
 Sending digital data allows sensors to become more complex and send more detailed data, even encrypted data for secure sensors. One example is a camera. This is a sensor that captures an image and sends it as digital data containing that image, usually in a compressed format such as JPEG, to be read by the IoT device. It can even stream video by capturing images and sending either the complete image frame by frame or a compressed video stream.
 
@@ -125,8 +119,6 @@ Follow the relevant guide below to add an actuator to your IoT device, controlle
 
 ![A flow chart of the assignment showing light levels being read and checked, and the LED begin controlled](../../../images/assignment-1-flow.png)
 
-***A flow chart of the assignment showing light levels being read and checked, and the LED begin controlled. ldr by Eucalyp / LED by abderraouf omara - all from the [Noun Project](https://thenounproject.com)***
-
 * [Arduino - Wio Terminal](wio-terminal-actuator.md)
 * [Single-board computer - Raspberry Pi](pi-actuator.md)
 * [Single-board computer - Virtual device](virtual-device-actuator.md)
@@ -143,8 +135,6 @@ One example is a dimmable light, such as the ones you might have in your house. 
 
 ![A light dimmed at a low voltage and brighter at a higher voltage](../../../images/dimmable-light.png)
 
-***A light controlled by the voltage output of an IoT device. Idea by Pause08 / Microcontroller by Template - all from the [Noun Project](https://thenounproject.com)***
-
 Like with sensors, the actual IoT device works on digital signals, not analog. This means to send an analog signal, the IoT device needs a digital to analog converter (DAC), either on the IoT device directly, or on a connector board. This will convert the 0s and 1s from the IoT device to an analog voltage that the actuator can use.
 
 ✅ What do you think happens if the IoT device sends a higher voltage than the actuator can handle? ⛔️ DO NOT test this out.
@@ -159,8 +149,6 @@ Imagine you are controlling a motor with a 5V supply. You send a short pulse to 
 
 ![Pule width modulation rotation of a motor at 150 RPM](../../../images/pwm-motor-150rpm.png)
 
-***PWM rotation of a motor at 150RPM. motor by Bakunetsu Kaito / Microcontroller by Template - all from the [Noun Project](https://thenounproject.com)***
-
 This means in one second you have 25 5V pulses of 0.02s that rotate the motor, each followed by 0.02s pause of 0V not rotating the motor. Each pulse rotates the motor one tenth of a rotation, meaning the motor completes 2.5 rotations per second. You've used a digital signal to rotate the motor at 2.5 rotations per second, or 150 ([revolutions per minute](https://wikipedia.org/wiki/Revolutions_per_minute), a non-standard measure of rotational velocity).
 
 ```output
@@ -171,8 +159,6 @@ This means in one second you have 25 5V pulses of 0.02s that rotate the motor, e
 > 🎓 When a PWM signal is on for half the time, and off for half it is referred to as a [50% duty cycle](https://wikipedia.org/wiki/Duty_cycle). Duty cycles are measured as the percentage time the signal is in the on state compared to the off state.
 
 ![Pule width modulation rotation of a motor at 75 RPM](../../../images/pwm-motor-75rpm.png)
-
-***PWM rotation of a motor at 75RPM. motor by Bakunetsu Kaito / Microcontroller by Template - all from the [Noun Project](https://thenounproject.com)***
 
 You can change the motor speed by changing the size of the pulses. For example, with the same motor you can keep the same cycle time of 0.04s, with the on pulse halved to 0.01s, and the off pulse increasing to 0.03s. You have the same number of pulses per second (25), but each on pulse is half the length. A half length pulse only turns the motor one twentieth of a rotation, and at 25 pulses a second will complete 1.25 rotations per second or 75rpm. By changing the pulse speed of a digital signal you've halved the speed of an analog motor.
 
@@ -194,8 +180,6 @@ Digital actuators, like digital sensors, either have two states controlled by a 
 One simple digital actuator is an LED. When a device sends a digital signal of 1, a high voltage is sent that lights the LED. When a digital signal of 0 is sent, the voltage drops to 0V and the LED turns off.
 
 ![A LED is off at 0 volts and on at 5V](../../../images/led.png)
-
-***An LED turning on and off depending on voltage. LED by abderraouf omara / Microcontroller by Template - all from the [Noun Project](https://thenounproject.com)***
 
 ✅ What other simple 2-state actuators can you think of? One example is a solenoid, which is an electromagnet that can be activated to do things like move a door bolt locking/unlocking a door.
 

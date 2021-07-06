@@ -16,6 +16,10 @@ In this lesson we'll cover:
 * [Retrain the model](#retrain-the-model)
 * [Count stock](#count-stock)
 
+> 🗑 This is the last lesson in this project, so after completing this lesson and the assignment, don't forget to clean up your cloud services. You will need the services to complete the assignment, so make sure to complete that first.
+>
+> Refer to [the clean up your project guide](../../../clean-up.md) if necessary for instructions on how to do this.
+
 ## Stock counting
 
 Object detectors can be used for stock checking, either counting stock or ensuring stock is where it should be. IoT devices with cameras can be deployed all around the store to monitor stock, starting with hot spots where having items restocked is important, such as areas where small numbers of high value items are stocked.
@@ -112,7 +116,7 @@ You can use bounding boxes combined with probabilities to evaluate how accurate 
 
 ![Two bonding boxes overlapping a can of tomato paste](../../../images/overlap-object-detection.png)
 
-In the example above, one bounding box indicated a predicted can of tomato paste at 78.3%. A second bounding box is slightly smaller, and is inside the first bounding box with a probability of 64.3%. You code can check the bounding boxes, see they overlap completely, and ignore the lower probability as there is no way one can can be inside another.
+In the example above, one bounding box indicated a predicted can of tomato paste at 78.3%. A second bounding box is slightly smaller, and is inside the first bounding box with a probability of 64.3%. Your code can check the bounding boxes, see they overlap completely, and ignore the lower probability as there is no way one can can be inside another.
 
 ✅ Can you think of a situation where is it valid to detect one object inside another?
 
@@ -153,7 +157,7 @@ Follow the relevant guide below to count stock using the results from the object
 
 Can you detect incorrect stock? Train your model on multiple objects, then update your app to alert you if the wrong stock is detected.
 
-Maybe even take this further and detect stock side by side on the same shelf, and see if something has been put in the wrong place bu defining limits on the bounding boxes.
+Maybe even take this further and detect stock side by side on the same shelf, and see if something has been put in the wrong place by defining limits on the bounding boxes.
 
 ## Post-lecture quiz
 

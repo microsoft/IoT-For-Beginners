@@ -50,13 +50,9 @@ When a device connects to an IoT service, it uses an ID to identify itself. The 
 
 ![Both valid and malicious devices could use the same ID to send telemetry](../../../images/iot-device-and-hacked-device-connecting.png)
 
-***Both valid and malicious devices could use the same ID to send telemetry. Microcontroller by Template / IoT by Adrien Coquet - all from the [Noun Project](https://thenounproject.com)***
-
 The way round this is to convert the data being sent into a scrambled format, using some kind of value to scramble the data known to the device and the cloud only. This process is called *encryption*, and the value used to encrypt the data is called an *encryption key*.
 
 ![If encryption is used, then only encrypted messages will be accepted, others will be rejected](../../../images/iot-device-and-hacked-device-connecting-encryption.png)
-
-***If encryption is used, then only encrypted messages will be accepted, others will be rejected. Microcontroller by Template / IoT by Adrien Coquet - all from the [Noun Project](https://thenounproject.com)***
 
 The cloud service can then convert the data back to a readable format, using a process called *decryption*, using either the same encryption key, or a *decryption key*. If the encrypted message cannot be decrypted by the key, the device has been hacked and the message is rejected.
 
@@ -159,8 +155,6 @@ These certificates have a number of fields in them, including who the public key
 When using X.509 certificates, both the sender and the recipient will have their own public and private keys, as well as both having X.509 certificates that contain the public key. They then exchange X.509 certificates somehow, using each others public keys to encrypt the data they send, and their own private key to decrypt the data they receive.
 
 ![Instead of sharing a public key, you can share a certificate. The user of the certificate can verify that it comes from you by checking with the certificate authority who signed it.](../../../images/send-message-certificate.png)
-
-***Instead of sharing a public key, you can share a certificate. The user of the certificate can verify that it comes from you by checking with the certificate authority who signed it. Certificate by alimasykurm from the [Noun Project](https://thenounproject.com)***
 
 One big advantage of using X.509 certificates is that they can be shared between devices. You can create one certificate, upload it to IoT Hub, and use this for all your devices. Each device then just needs to know the private key to decrypt the messages it receives from IoT Hub.
 

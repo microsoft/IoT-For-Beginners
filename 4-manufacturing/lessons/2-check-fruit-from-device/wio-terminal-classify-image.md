@@ -12,7 +12,7 @@ These certificates contain public keys, and don't need to be kept secure. You ca
 
 ### Task - set up a SSL client
 
-1. Open the `fruit-quality-detector` app project if it's not already open
+1. Open the `fruit-quality-detector` app project if it's not already open.
 
 1. Open the `config.h` header file, and add the following:
 

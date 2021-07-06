@@ -36,8 +36,6 @@ The rise of automated harvesting moved the sorting of produce from the harvest t
 
 ![If a red tomato is detected it continues its journey uninterrupted. If a green tomato is detected it is flicked into a waste bin by a lever](../../../images/optical-tomato-sorting.png)
 
-***If a red tomato is detected it continues its journey uninterrupted. If a green tomato is detected it is flicked into a waste bin by a lever. tomato by parkjisun from the Noun Project - from the [Noun Project](https://thenounproject.com)***
-
 The next evolution was to use machines to sort, either built into the harvester, or in the processing plants. The first generation of these machines used optical sensors to detect colors, controlling actuators to push green tomatoes into a waste bin using levers or puffs of air, leaving red tomatoes to continue on a network of conveyor belts.
 
 The video below shows one of these machines in action.
@@ -122,7 +120,7 @@ To use Custom Vision, you first need to create two cognitive services resources 
     Replace `<location>` with the location you used when creating the Resource Group.
 
     This will create a Custom Vision training resource in your Resource Group. It will be called `fruit-quality-detector-training` and use the `F0` sku, which is the free tier. The `--yes` option means you agree to the terms and conditions of the cognitive services.
-    
+
 > 💁 Use `S0` sku if you already have a free account using any of the Cognitive Services.
 
 1. Use the following command to create a free Custom Vision prediction resource:

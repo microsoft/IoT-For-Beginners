@@ -4,8 +4,6 @@ The [Raspberry Pi](https://raspberrypi.org) is a single-board computer. You can 
 
 ![A Raspberry Pi 4](../../../images/raspberry-pi-4.jpg)
 
-***Raspberry Pi 4. Michael Henzler / [Wikimedia Commons](https://commons.wikimedia.org/wiki/Main_Page) / [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)***
-
 ## Setup
 
 If you are using a Raspberry Pi as your IoT hardware, you have two choices - you can work through all these lessons and code directly on the Pi, or you can connect remotely to a 'headless' Pi and code from your computer.

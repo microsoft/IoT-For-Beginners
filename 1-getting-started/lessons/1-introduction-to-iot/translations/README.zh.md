@@ -78,8 +78,6 @@ IoT 的 **T** 代表 **Things**（物）—— 可以跟物质世界交互的设
 
 ![一个 Raspberry Pi 4](../../../images/raspberry-pi-4.jpg)
 
-***Raspberry Pi 4. Michael Henzler / [Wikimedia Commons](https://commons.wikimedia.org/wiki/Main_Page) / [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)***
-
 Raspberry Pi 是其中最流行的单板机。
 
 就像一个微控制器，单板机有个中央处理器、内存和输入输出引脚，但它们也有额外的特点如一个让你链接显示器的图形芯片、音频输出与 USB 端口让你链接键盘、鼠标和其它普通 USB 设备如网络摄像头和外置储存。程序将在 SD 卡或硬盘以及一个操作系统被储存，而不是通过一个内置的存储芯片。

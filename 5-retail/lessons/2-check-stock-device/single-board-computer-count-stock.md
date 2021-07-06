@@ -80,7 +80,7 @@ In the image shown above, the bounding boxes have a small overlap. If this overl
 
 ### Task - count stock ignoring overlap
 
-1. The Pip package [Shapely](https://pypi.org/project/Shapely/) can be used to calculate the intersection. If you are using a Raspberry Pi, you will need to instal a library dependency first:
+1. The Pip package [Shapely](https://pypi.org/project/Shapely/) can be used to calculate the intersection. If you are using a Raspberry Pi, you will need to install a library dependency first:
 
     ```sh
     sudo apt install libgeos-dev
@@ -158,6 +158,6 @@ In the image shown above, the bounding boxes have a small overlap. If this overl
 
 1. Run the app with the camera pointing at some stock on a shelf. The output will indicate the number of bounding boxes without overlaps that exceed the threshold. Try adjusting the `overlap_threshold` value to see predictions being ignored.
 
-> 💁 You can find this code in the [code-count/pi](code-count/pi) or [code-count/virtual-device](code-count/virtual-device) folder.
+> 💁 You can find this code in the [code-count/pi](code-count/pi) or [code-count/virtual-iot-device](code-count/virtual-iot-device) folder.
 
 😀 Your stock counter program was a success!
