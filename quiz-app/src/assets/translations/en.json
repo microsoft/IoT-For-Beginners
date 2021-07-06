@@ -1423,6 +1423,202 @@
 						]
 					}
 				]
+			},
+			{
+				"id": 29,
+				"title": "Lesson 15 - Train a fruit quality detector: Pre-Lecture Quiz",
+				"quiz": [
+					{
+						"questionText": "Cameras can be used as IoT sensors",
+						"answerOptions": [
+							{
+								"answerText": "True",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "False",
+								"isCorrect": "false"
+							}
+						]
+					},
+					{
+						"questionText": "Fruit can be sorted using cameras",
+						"answerOptions": [
+							{
+								"answerText": "True",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "False",
+								"isCorrect": "false"
+							}
+						]
+					},
+					{
+						"questionText": "Images-based AI models are incredibly complex and time consuming to train, requiring hundreds of thousands of images:",
+						"answerOptions": [
+							{
+								"answerText": "True",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "False",
+								"isCorrect": "true"
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": 30,
+				"title": "Lesson 15 - Train a fruit quality detector: Post-Lecture Quiz",
+				"quiz": [
+					{
+						"questionText": "The technique custom vision uses to train a model with only a few images is called:",
+						"answerOptions": [
+							{
+								"answerText": "Transformational learning",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "Transaction learning",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "Transfer learning",
+								"isCorrect": "true"
+							}
+						]
+					},
+					{
+						"questionText": "Image classifiers can be trained using:",
+						"answerOptions": [
+							{
+								"answerText": "Only 1 image per tag",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "At least 5 images per tag",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "At least 50 images per tag",
+								"isCorrect": "false"
+							}
+						]
+					},
+					{
+						"questionText": "The hardware that allows ML models to be trained quickly, as well as making the graphics on out Xbox look amazing are called:",
+						"answerOptions": [
+							{
+								"answerText": "PGU",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "GPU",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "PUG",
+								"isCorrect": "false"
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": 31,
+				"title": "Lesson 16 - Check fruit quality from an IoT device: Pre-Lecture Quiz",
+				"quiz": [
+					{
+						"questionText": "IoT devices are not powerful enough to use cameras:",
+						"answerOptions": [
+							{
+								"answerText": "True",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "False",
+								"isCorrect": "true"
+							}
+						]
+					},
+					{
+						"questionText": "Camera sensors use film to capture images",
+						"answerOptions": [
+							{
+								"answerText": "True",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "False",
+								"isCorrect": "true"
+							}
+						]
+					},
+					{
+						"questionText": "Camera sensors send which type of data",
+						"answerOptions": [
+							{
+								"answerText": "Digital",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "Analog",
+								"isCorrect": "false"
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": 32,
+				"title": "Lesson 16 - Check fruit quality from an IoT device: Post-Lecture Quiz",
+				"quiz": [
+					{
+						"questionText": "A published version of a custom vision model is called an:",
+						"answerOptions": [
+							{
+								"answerText": "Iteration",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "Instance",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "Iguana",
+								"isCorrect": "false"
+							}
+						]
+					},
+					{
+						"questionText": "When images are sent for classification, they then become available to retrain the model:",
+						"answerOptions": [
+							{
+								"answerText": "True",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "False",
+								"isCorrect": "false"
+							}
+						]
+					},
+					{
+						"questionText": "You don't need to use images captured from an IoT device to train the model as the cameras are as good quality as phone cameras:",
+						"answerOptions": [
+							{
+								"answerText": "True",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "False",
+								"isCorrect": "true"
+							}
+						]
+					}
+				]
 			}
 		]
 	}
