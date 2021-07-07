@@ -1,6 +1,6 @@
 # Keep your plant secure
 
-![A sketchnote overview of this lesson](../../../sketchnotes/lesson-10.png)
+![A sketchnote overview of this lesson](../../../sketchnotes/lesson-10.jpg)
 
 > Sketchnote by [Nitya Narasimhan](https://github.com/nitya). Click the image for a larger version.
 

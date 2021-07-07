@@ -1,6 +1,6 @@
 # 物联网（IoT）简介
 
-![这个课程概述的涂鸦笔记（sketchnote）](../../../sketchnotes/lesson-1.png)
+![这个课程概述的涂鸦笔记（sketchnote）](../../../../sketchnotes/lesson-1.jpg)
 
 > Sketchnote by [Nitya Narasimhan](https://github.com/nitya). 如果你想看比较大的图片，请点击它。
 

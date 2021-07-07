@@ -1,6 +1,6 @@
 # Check fruit quality from an IoT device
 
-![A sketchnote overview of this lesson](../../../sketchnotes/lesson-16.png)
+![A sketchnote overview of this lesson](../../../sketchnotes/lesson-16.jpg)
 
 > Sketchnote by [Nitya Narasimhan](https://github.com/nitya). Click the image for a larger version.
 

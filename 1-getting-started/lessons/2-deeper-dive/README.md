@@ -1,6 +1,6 @@
 # A deeper dive into IoT
 
-![A sketchnote overview of this lesson](../../../sketchnotes/lesson-2.png)
+![A sketchnote overview of this lesson](../../../sketchnotes/lesson-2.jpg)
 
 > Sketchnote by [Nitya Narasimhan](https://github.com/nitya). Click the image for a larger version.
 

@@ -1,6 +1,6 @@
 # Check stock from an IoT device
 
-![A sketchnote overview of this lesson](../../../sketchnotes/lesson-20.png)
+![A sketchnote overview of this lesson](../../../sketchnotes/lesson-20.jpg)
 
 > Sketchnote by [Nitya Narasimhan](https://github.com/nitya). Click the image for a larger version.
 

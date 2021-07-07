@@ -1,6 +1,6 @@
 # Connect your device to the Internet
 
-![A sketchnote overview of this lesson](../../../sketchnotes/lesson-4.png)
+![A sketchnote overview of this lesson](../../../sketchnotes/lesson-4.jpg)
 
 > Sketchnote by [Nitya Narasimhan](https://github.com/nitya). Click the image for a larger version.
 

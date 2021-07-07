@@ -1,6 +1,6 @@
 # Geofences
 
-![A sketchnote overview of this lesson](../../../sketchnotes/lesson-14.png)
+![A sketchnote overview of this lesson](../../../sketchnotes/lesson-14.jpg)
 
 > Sketchnote by [Nitya Narasimhan](https://github.com/nitya). Click the image for a larger version.
 

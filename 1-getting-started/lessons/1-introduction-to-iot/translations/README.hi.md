@@ -1,6 +1,6 @@
 # इंटरनेट ऑफ थिंग्स (IoT )का परिचय
 
-![इस पाठ का एक संक्षिप्त विवरण](../../../../sketchnotes/lesson-1.png)
+![इस पाठ का एक संक्षिप्त विवरण](../../../../sketchnotes/lesson-1.jpg)
 
 > [Nitya Narasimhan](https://github.com/nitya) द्वारा स्केचनोट. Click the image for a larger version.
 

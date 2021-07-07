@@ -1,6 +1,6 @@
 # আইওটি দ্বারা উদ্ভিদ বৃদ্ধির পূর্বাভাস
 
-![A sketchnote overview of this lesson](../../../../sketchnotes/lesson-5.png)
+![A sketchnote overview of this lesson](../../../../sketchnotes/lesson-5.jpg)
 
 > স্কেচনোটটি তৈরী করেছেন [Nitya Narasimhan](https://github.com/nitya). বড় সংস্করণে দেখার জন্য ছবিটিতে ক্লিক করতে হবে।
 

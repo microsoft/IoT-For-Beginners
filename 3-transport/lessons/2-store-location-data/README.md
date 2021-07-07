@@ -1,6 +1,6 @@
 # Store location data
 
-![A sketchnote overview of this lesson](../../../sketchnotes/lesson-12.png)
+![A sketchnote overview of this lesson](../../../sketchnotes/lesson-12.jpg)
 
 > Sketchnote by [Nitya Narasimhan](https://github.com/nitya). Click the image for a larger version.
 

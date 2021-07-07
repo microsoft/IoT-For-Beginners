@@ -1,6 +1,6 @@
 # Support multiple languages
 
-![A sketchnote overview of this lesson](../../../sketchnotes/lesson-24.png)
+![A sketchnote overview of this lesson](../../../sketchnotes/lesson-24.jpg)
 
 > Sketchnote by [Nitya Narasimhan](https://github.com/nitya). Click the image for a larger version.
 
