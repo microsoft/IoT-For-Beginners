@@ -21,4 +21,4 @@ In these 4 lessons you'll learn how to train image-based AI models to detect fru
 
 ## Credits
 
-All the lessons were written with ♥️ by [Jim Bennett](https://GitHub.com/JimBobBennett)
+All the lessons were written with ♥️ by [Jen Fox](https://github.com/jenfoxbot) and [Jim Bennett](https://GitHub.com/JimBobBennett)

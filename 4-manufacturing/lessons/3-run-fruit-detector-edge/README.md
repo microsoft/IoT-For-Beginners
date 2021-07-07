@@ -1,5 +1,9 @@
 # Run your fruit detector on the edge
 
+![A sketchnote overview of this lesson](../../../sketchnotes/lesson-17.png)
+
+> Sketchnote by [Nitya Narasimhan](https://github.com/nitya). Click the image for a larger version.
+
 This video gives an overview of running image classifiers on IoT devices, the topic that is covered in this lesson.
 
 [![Custom Vision AI on Azure IoT Edge](https://img.youtube.com/vi/_K5fqGLO8us/0.jpg)](https://www.youtube.com/watch?v=_K5fqGLO8us)
