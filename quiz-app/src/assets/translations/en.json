@@ -1843,6 +1843,210 @@
 						]
 					}
 				]
+			},
+			{
+				"id": 37,
+				"title": "Lesson 19 - Train a stock detector: Pre-Lecture Quiz",
+				"quiz": [
+					{
+						"questionText": "AI models cannot be used to count objects?",
+						"answerOptions": [
+							{
+								"answerText": "True",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "False",
+								"isCorrect": "true"
+							}
+						]
+					},
+					{
+						"questionText": "IoT and AI can be used in retail for:",
+						"answerOptions": [
+							{
+								"answerText": "Stock checking only",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "A wide range of uses including stock checking, monitoring for mask where where required, tracking footfall, automated billing",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "IoT and AI cannot be used in retail",
+								"isCorrect": "false"
+							}
+						]
+					},
+					{
+						"questionText": "Object detection involves:",
+						"answerOptions": [
+							{
+								"answerText": "Detecting objects in an image and tracking their location and probability",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "Counting objects in an image only",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "Classifying images",
+								"isCorrect": "false"
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": 38,
+				"title": "Lesson 19 - Train a stock detector: Post-Lecture Quiz",
+				"quiz": [
+					{
+						"questionText": "Object detectors only return one result no matter how many objects are detected",
+						"answerOptions": [
+							{
+								"answerText": "True",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "False",
+								"isCorrect": "false"
+							}
+						]
+					},
+					{
+						"questionText": "What is the best domain to use in Custom Vision for stock counting",
+						"answerOptions": [
+							{
+								"answerText": "General",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "Food",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "Products on shelves",
+								"isCorrect": "true"
+							}
+						]
+					},
+					{
+						"questionText": "At least how many images do you need to train an object detector?",
+						"answerOptions": [
+							{
+								"answerText": "1",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "15",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "100",
+								"isCorrect": "false"
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": 39,
+				"title": "Lesson 20 - Check stock from an IoT device: Pre-Lecture Quiz",
+				"quiz": [
+					{
+						"questionText": "IoT devices are not powerful enough to use object detectors",
+						"answerOptions": [
+							{
+								"answerText": "True",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "False",
+								"isCorrect": "true"
+							}
+						]
+					},
+					{
+						"questionText": "Object detectors give you:",
+						"answerOptions": [
+							{
+								"answerText": "The count of objects detected",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "The count and location of objects detected",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "The count, location and probability of objects detected",
+								"isCorrect": "true"
+							}
+						]
+					},
+					{
+						"questionText": "Object detectors can be used to detect where missing stock should be to allow robots to automatically stock shelves",
+						"answerOptions": [
+							{
+								"answerText": "True",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "False",
+								"isCorrect": "false"
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": 40,
+				"title": "Lesson 20 - Check stock from an IoT device: Post-Lecture Quiz",
+				"quiz": [
+					{
+						"questionText": "To count stock you only need to consider the count of objects detected by the object detector",
+						"answerOptions": [
+							{
+								"answerText": "True",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "False",
+								"isCorrect": "true"
+							}
+						]
+					},
+					{
+						"questionText": "Bounding boxes use:",
+						"answerOptions": [
+							{
+								"answerText": "Percentage based coordinates",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "Pixel based coordinates",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "Centimeter based coordinates",
+								"isCorrect": "false"
+							}
+						]
+					},
+					{
+						"questionText": "Can detected objects overlap?",
+						"answerOptions": [
+							{
+								"answerText": "Yes",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "No",
+								"isCorrect": "false"
+							}
+						]
+					}
+				]
 			}
 		]
 	}
