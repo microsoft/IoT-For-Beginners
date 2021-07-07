@@ -1,6 +1,6 @@
 # 物联网（IoT）简介
 
-![这个课程概述的涂鸦笔记（sketchnote）](../../../sketchnotes/lesson-1.png)
+![这个课程概述的涂鸦笔记（sketchnote）](../../../../sketchnotes/lesson-1.jpg)
 
 > Sketchnote by [Nitya Narasimhan](https://github.com/nitya). 如果你想看比较大的图片，请点击它。
 
@@ -77,8 +77,6 @@ IoT 的 **T** 代表 **Things**（物）—— 可以跟物质世界交互的设
 单板机指的是一个小计算器；它把一个电脑的所有要素装在单单一个小板上。这些设备的规格跟台式电脑或笔记本电脑比较相似，它们也运行完整的操作系统，但它们较小，用比较少电力以及便宜多了。
 
 ![一个 Raspberry Pi 4](../../../images/raspberry-pi-4.jpg)
-
-***Raspberry Pi 4. Michael Henzler / [Wikimedia Commons](https://commons.wikimedia.org/wiki/Main_Page) / [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)***
 
 Raspberry Pi 是其中最流行的单板机。
 

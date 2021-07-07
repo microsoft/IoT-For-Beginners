@@ -1,6 +1,6 @@
 # Introduction to IoT
 
-![A sketchnote overview of this lesson](../../../sketchnotes/lesson-1.png)
+![A sketchnote overview of this lesson](../../../sketchnotes/lesson-1.jpg)
 
 > Sketchnote by [Nitya Narasimhan](https://github.com/nitya). Click the image for a larger version.
 
@@ -77,8 +77,6 @@ Microcontroller developer kits usually come with additional sensors and actuator
 A single-board computer is a small computing device that has all the elements of a complete computer contained on a single small board. These are devices that have specifications close to a desktop or laptop PC or Mac, run a full operating system, but are small, use less power, and are substantially cheaper.
 
 ![A Raspberry Pi 4](../../../images/raspberry-pi-4.jpg)
-
-***Raspberry Pi 4. Michael Henzler / [Wikimedia Commons](https://commons.wikimedia.org/wiki/Main_Page) / [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)***
 
 The Raspberry Pi is one of the most popular single-board computers.
 

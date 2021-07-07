@@ -6,11 +6,12 @@ In the lessons for each project, you may have created some of the following:
 
 * A Resource Group
 * An IoT Hub
-* Two IoT device registrations
+* IoT device registrations
 * A Storage Account
 * A Functions App
 * An Azure Maps account
 * A custom vision project
+* An Azure Container Registry
 * A cognitive services resource
 
 Most of these resources will have no cost - either they are completely free, or you are using a free tier. For services that require a paid tier, you would have been using them at a level that is included in the free allowance, or will only cost a few cents.
@@ -36,3 +37,5 @@ Are you sure you want to perform this operation? (y/n):
 Enter `y` to confirm and delete the Resource Group.
 
 It will take a while to delete all the services.
+
+> 💁 You can read more about deleting resource groups on the [Azure Resource Manager resource group and resource deletion documentation on Microsoft Docs](https://docs.microsoft.com/azure/azure-resource-manager/management/delete-resource-group?tabs=azure-cli&WT.mc_id=academic-17441-jabenn)

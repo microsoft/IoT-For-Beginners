@@ -1,8 +1,8 @@
 # Trigger fruit quality detection from a sensor
 
-Add a sketchnote if possible/appropriate
+![A sketchnote overview of this lesson](../../../sketchnotes/lesson-18.jpg)
 
-![Embed a video here if available](video-url)
+> Sketchnote by [Nitya Narasimhan](https://github.com/nitya). Click the image for a larger version.
 
 ## Pre-lecture quiz
 
@@ -41,8 +41,6 @@ IoT applications can be described as *things* (devices) sending data that genera
 
 ![A reference iot architecture](../../../images/iot-reference-architecture.png)
 
-***A reference iot architecture. Microcontroller by Template / IoT by Adrien Coquet / Brain by Icon Market - all from the [Noun Project](https://thenounproject.com)***
-
 The diagram above shows a reference IoT architecture.
 
 > 🎓 A *reference architecture* is an example architecture you can use as a reference when designing new systems. In this case, if you were building a new IoT system you can follow the reference architecture, substituting your own devices and services where appropriate.
@@ -52,8 +50,6 @@ The diagram above shows a reference IoT architecture.
 * **Actions** can be commands sent to devices, or visualization of data allowing humans to make decisions.
 
 ![A reference iot architecture](../../../images/iot-reference-architecture-azure.png)
-
-***A reference iot architecture. Microcontroller by Template - all from the [Noun Project](https://thenounproject.com)***
 
 The diagram above shows some of the components and services covered so far in these lessons and how the link together in a reference IoT architecture.
 
@@ -78,7 +74,7 @@ As you define the architecture of your system, you need to constantly consider d
 
 ## Design a fruit quality control system
 
-Lets now take this idea of things, insights, and actions and apply it to our fruit quality detector to design a larger end-to-end application.
+Let's now take this idea of things, insights, and actions and apply it to our fruit quality detector to design a larger end-to-end application.
 
 Imagine you have been given the task of building a fruit quality detector to be used in a processing plant. Fruit travels on a conveyer belt system where currently employees spend time checking the fruit by hand and removing any unripe fruit as it arrives. To reduce costs, the plant owner wants an automated system.
 
@@ -96,8 +92,6 @@ You need to build a system where fruit is detected as it arrives on the conveyer
 
 ![A reference iot architecture for fruit quality checking](../../../images/iot-reference-architecture-fruit-quality.png)
 
-***A reference iot architecture for fruit quality checking. LED by abderraouf omara / Microcontroller by Template - all from the [Noun Project](https://thenounproject.com)***
-
 The diagram above shows a reference architecture for this prototype application.
 
 * An IoT device with a proximity sensor detects the arrival of fruit. This sends a message to the cloud to say fruit has been detected.
@@ -114,8 +108,6 @@ For the prototype, you will implement all of this on a single device. If you are
 The IoT device needs some kind of trigger to indicate when fruit is ready to be classified. One trigger for this would be to measure when the fruit is at the right location on the conveyor belt my measuring the distance to a sensor.
 
 ![Proximity sensors send laser beams to objects like bananas and time how long till the beam is bounced back](../../../images/proximity-sensor.png)
-
-***Proximity sensors send laser beams to objects like bananas and time how long till the beam is bounced back. Bananas by abderraouf omara / Microcontroller by Template - all from the [Noun Project](https://thenounproject.com)***
 
 Proximity sensors can be used to measure the distance from the sensor to an object. They usually transmit a beam of electromagnetic radiation such as a laser beam or infra-red light, then detect the radiation bouncing off an object. The time between the laser beam being sent and the signal bouncing back can be used to calculate the distance to the sensor.
 
@@ -209,7 +201,7 @@ The prototype will form the basis of a final production system. Some of the diff
 
 ## 🚀 Challenge
 
-In this lesson you have learned some of the concepts you need to know to architect an IoT system. Think back to the previous projects. How would do they fit into the reference architecture shown above?
+In this lesson you have learned some of the concepts you need to know on how to architect an IoT system. Think back to the previous projects. How would do they fit into the reference architecture shown above?
 
 Pick one of the projects so far and think of the design of a more complicated solution bringing together multiple capabilities beyond what was covered in the projects. Draw the architecture and think of all the devices and services you would need.
 
@@ -222,7 +214,7 @@ For example - a vehicle tracking device that combines GPS with sensors to monito
 ## Review & Self Study
 
 * Read more about IoT architecture on the [Azure IoT reference architecture documentation on Microsoft docs](https://docs.microsoft.com/azure/architecture/reference-architectures/iot?WT.mc_id=academic-17441-jabenn)
-* Read more about device twins in the [Understand and use device twins in IoT Hub documentation on Microsoft docs](https://docs.microsoft.com/azure/iot-hub/iot-hub-devguide-device-twins?WT.mc_id=academic-17441-jabenn)
+* Read more about device twins in the [understand and use device twins in IoT Hub documentation on Microsoft docs](https://docs.microsoft.com/azure/iot-hub/iot-hub-devguide-device-twins?WT.mc_id=academic-17441-jabenn)
 * Read about OPC-UA, a machine to machine communication protocol used in industrial automation on the [OPC-UA page on Wikipedia](https://wikipedia.org/wiki/OPC_Unified_Architecture)
 
 ## Assignment

@@ -1,6 +1,6 @@
 #  <div dir="rtl"> مقدمة لإنترنت الأشياء </div>
 
-![A sketchnote overview of this lesson](../../../../sketchnotes/lesson-1.png)
+![A sketchnote overview of this lesson](../../../../sketchnotes/lesson-1.jpg)
 
 >  <div dir="rtl"> خريطة من <a href="https://github.com/nitya">Nitya Narasimhan</a>  </div>
 > <div dir="rtl"> اضغط على الصورة لتكبيرها </div>
@@ -93,10 +93,6 @@
 <div dir="rtl"> الكمبيوتر أحادي اللوحة هو جهاز حوسبة صغير يحتوي على جميع عناصر الكمبيوتر الكامل الموجودة على لوحة صغيرة واحدة. هذه هي الأجهزة التي لها مواصفات قريبة من سطح المكتب أو الكمبيوتر المحمول أو جهاز Mac ، وتعمل بنظام تشغيل كامل ، ولكنها صغيرة ، وتستخدم طاقة أقل ، وأرخص بكثير.</div>
 
 ![A Raspberry Pi 4](../../../../images/raspberry-pi-4.jpg)
-
-
-***Raspberry Pi 4. Michael Henzler / [Wikimedia Commons](https://commons.wikimedia.org/wiki/Main_Page) / [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)***
-
 
 <div dir="rtl">
 يعد Raspberry Pi أحد أشهر أجهزة الكمبيوتر أحادية اللوحة.

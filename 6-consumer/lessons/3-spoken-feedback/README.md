@@ -1,8 +1,8 @@
 # Set a timer and provide spoken feedback
 
-Add a sketchnote if possible/appropriate
+![A sketchnote overview of this lesson](../../../sketchnotes/lesson-23.jpg)
 
-![Embed a video here if available](video-url)
+> Sketchnote by [Nitya Narasimhan](https://github.com/nitya). Click the image for a larger version.
 
 ## Pre-lecture quiz
 
@@ -121,6 +121,7 @@ SSML has ways to change how words are spoken, such as adding emphasis to certain
 
 * Read more on speech synthesis on the [Speech synthesis page on Wikipedia](https://wikipedia.org/wiki/Speech_synthesis)
 * Read more on ways criminals are using speech synthesis to steal on the [Fake voices 'help cyber crooks steal cash' story on BBC news](https://www.bbc.com/news/technology-48908736)
+* Learn more about the risks to voice actors from synthesized versions of their voices in the [This TikTok Lawsuit Is Highlighting How AI Is Screwing Over Voice Actors article on Vice](https://www.vice.com/en/article/z3xqwj/this-tiktok-lawsuit-is-highlighting-how-ai-is-screwing-over-voice-actors)
 
 ## Assignment
 

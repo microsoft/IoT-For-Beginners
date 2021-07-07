@@ -1,6 +1,8 @@
 # Support multiple languages
 
-Add a sketchnote if possible/appropriate
+![A sketchnote overview of this lesson](../../../sketchnotes/lesson-24.jpg)
+
+> Sketchnote by [Nitya Narasimhan](https://github.com/nitya). Click the image for a larger version.
 
 This video gives an overview of the Azure speech services, covering speech to text and text to speech from earlier lessons, as well as translating speech, a topic covered in this lesson:
 
@@ -26,6 +28,10 @@ In this lesson we'll cover:
 * [Support multiple languages in applications with translations](#support-multiple-languages-in-applications-with-translations)
 * [Translate text using an AI service](#translate-text-using-an-ai-service)
 
+> 🗑 This is the last lesson in this project, so after completing this lesson and the assignment, don't forget to clean up your cloud services. You will need the services to complete the assignment, so make sure to complete that first.
+>
+> Refer to [the clean up your project guide](../../../clean-up.md) if necessary for instructions on how to do this.
+
 ## Translate text
 
 Text translation has been a computer science problem that has been researched for over 70 years, and only now thanks to advances in AI and computer power is close to being solved to a point where it is almost as good as human translators.
@@ -42,7 +48,7 @@ For example, translating "Hello world" from English into French can be performed
 
 Substitutions don't work when different languages use different ways of saying the same thing. For example, the English sentence "My name is Jim", translates into "Je m'appelle Jim" in French - literally "I call myself Jim". "Je" is French for "I", "moi" is me, but is concatenated with the verb as it starts with a vowel, so becomes "m'", "appelle" is to call, and "Jim" isn't translated as it's a name, and not a word that can be translated. Word ordering also becomes an issue - a simple substitution of "Je m'appelle Jim" becomes "I myself call Jim", with a different word order to English.
 
-> 💁 Some words are never translated - my name is Jim regardless of which language is used to introduce me.
+> 💁 Some words are never translated - my name is Jim regardless of which language is used to introduce me. When translating to languages that use different alphabets, or use different letters for different sounds, then words can be *transliterated*, that is selecting letters or characters that give the appropriate sound to sound the same as the given word.
 
 Idioms are also a problem for translation. These are phrases that have an understood meaning that is different from a direct interpretation of the words. For example, in English the idiom "I've got ants in my pants" does not literally refer to having ants in your clothing, but to being restless. If you translated this to German, you would end up confusing the listener, as the German version is "I have bumble bees in the bottom".
 
@@ -116,8 +122,6 @@ For this lesson you will need a Translator resource. You will use the REST API t
 In an ideal world, your whole application should understand as many different languages as possible, from listening for speech, to language understanding, to responding with speech. This is a lot of work, so translation services can speed up the time to delivery of your application.
 
 ![A smart timer architecture translating Japanese to English, processing in English then translating back to Japanese](../../../images/translated-smart-timer.png)
-
-***A smart timer architecture translating Japanese to English, processing in English then translating back to Japanese. Microcontroller by Template / recording by Aybige Speaker / Speaker by Gregor Cresnar - all from the [Noun Project](https://thenounproject.com)***
 
 Imagine you are building a smart timer that uses English end-to-end, understanding spoken English and converting that to text, running the language understanding in English, building up responses in English and replying with English speech. If you wanted to add support for Japanese, you could start with translating spoken Japanese to English text, then keep the core of the application the same, then translate the response text to Japanese before speaking the response. This would allow you to quickly add Japanese support, and you can expand to providing full end-to-end Japanese support later.
 
