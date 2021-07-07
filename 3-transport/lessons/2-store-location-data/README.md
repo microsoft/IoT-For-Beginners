@@ -1,8 +1,8 @@
 # Store location data
 
-Add a sketchnote if possible/appropriate
+![A sketchnote overview of this lesson](../../../sketchnotes/lesson-12.png)
 
-![Embed a video here if available](video-url)
+> Sketchnote by [Nitya Narasimhan](https://github.com/nitya). Click the image for a larger version.
 
 ## Pre-lecture quiz
 
@@ -18,6 +18,7 @@ In this lesson we'll cover:
 
 * [Structured and unstructured data](#structured-and-unstructured-data)
 * [Send GPS data to an IoT Hub](#send-gps-data-to-an-iot-hub)
+* [Hot, warm, and cold paths](#hot-warm-and-cold-paths)
 * [Handle GPS events using serverless code](#handle-gps-events-using-serverless-code)
 * [Azure Storage Accounts](#azure-storage-accounts)
 * [Connect your serverless code to storage](#connect-your-serverless-code-to-storage)
@@ -44,6 +45,8 @@ Imagine you were adding IoT devices to a fleet of vehicles for a large commercia
 
 This data can change constantly. For example, if the IoT device is in a truck cab, then the data it sends may change as the trailer changes, for example only sending temperature data when a refrigerated trailer is used.
 
+✅ What other IoT data might be captured? Think about the kinds of loads trucks can carry, as well as maintenance data.
+
 This data varies from vehicle to vehicle, but it all gets sent to the same IoT service for processing. The IoT service needs to be able to process this unstructured data, storing it in a way that allows it to be searched or analyzed, but works with different structures to this data.
 
 ### SQL vs NoSQL storage
@@ -58,9 +61,13 @@ The first databases were Relational Database Management Systems (RDBMS), or rela
 
 For example, if you stored a users personal details in a table, you would have some kind of internal unique ID per user that is used in a row in a table that contains the users name and address. If you then wanted to store other details about that user, such as their purchases, in another table, you would have one column in the new table for that users ID. When you look up a user, you can use their ID to get their personal details from one table, and their purchases from another.
 
-SQL databases are ideal for storing structured data, and for when you want to ensure the data matches your schema. Some well known SQL databases are Microsoft SQL Server, MySQL, and PostgreSQL.
+SQL databases are ideal for storing structured data, and for when you want to ensure the data matches your schema.
 
 ✅ If you haven't used SQL before, take a moment to read up on it on the [SQL page on Wikipedia](https://wikipedia.org/wiki/SQL).
+
+Some well known SQL databases are Microsoft SQL Server, MySQL, and PostgreSQL.
+
+✅ Do some research: Read up on some of these SQL databases and their capabilities.
 
 #### NoSQL database
 
@@ -74,6 +81,8 @@ NoSQL database do not have a pre-defined schema that limits how data is stored, 
 
 Some well known NoSQL databases include Azure CosmosDB, MongoDB, and CouchDB.
 
+✅ Do some research: Read up on some of these NoSQL databases and their capabilities.
+
 In this lesson, you will be using NoSQL storage to store IoT data.
 
 ## Send GPS data to an IoT Hub
@@ -81,8 +90,6 @@ In this lesson, you will be using NoSQL storage to store IoT data.
 In the last lesson you captured GPS data from a GPS sensor connected to your IoT device. To store this IoT data in the cloud, you need to send it to an IoT service. Once again, you will be using Azure IoT Hub, the same IoT cloud service you used in the previous project.
 
 ![Sending GPS telemetry from an IoT device to IoT Hub](../../../images/gps-telemetry-iot-hub.png)
-
-***Sending GPS telemetry from an IoT device to IoT Hub. GPS by mim studio / Microcontroller by Template - all from the [Noun Project](https://thenounproject.com)***
 
 ### Task - send GPS data to an IoT Hub
 
@@ -136,13 +143,35 @@ message = Message(json.dumps(message_json))
 
 Run your device code and ensure messages are flowing into IoT Hub using the `az iot hub monitor-events` CLI command.
 
+## Hot, warm, and cold paths
+
+Data that flows from an IoT device to the cloud is not always processed in real time. Some data needs real time processing, other data can be processed a short time later, and other data can be processed much later. The flow of data to different services that process the data at different times is referred to hot, warm and cold paths.
+
+### Hot path
+
+The hot path refers to data that needs to be processed in real time or near real time. You would use hot path data for alerts, such as getting alerts that a vehicle is approaching a depot, or that the temperature in a refrigerated truck is too high.
+
+To use hot path data, your code would respond to events as soon as they are received by your cloud services.
+
+### Warm path
+
+The warm path refers to data that can be processed a short while after being received, for example for reporting or short term analytics. You would use warm path data for daily reports on vehicle mileage, using data gathered the previous day.
+
+Warm path data is stored once it is received by the cloud service inside some kind of storage that can be quickly accessed.
+
+### Cold path
+
+THe cold path refers to historic data, storing data for the long term to be processed whenever needed. For example, you could use the cold path to get annual mileage reports for vehicles, or run analytics on routes to find the most optimal route to reduce fuel costs.
+
+Cold path data is stored in data warehouses - databases designed for storing large amounts of data that will never change and can be queried quickly and easily. You would normally have a regular job in your cloud application that would run at a regular time each day, week, or month to move data from warm path storage into the data warehouse.
+
+✅ Think about the data you have captured so far in these lessons. Is it hot, warm or cold path data?
+
 ## Handle GPS events using serverless code
 
-Once data is flowing into your IoT Hub, you can write some serverless code to listen for events published to the Event-Hub compatible endpoint.
+Once data is flowing into your IoT Hub, you can write some serverless code to listen for events published to the Event-Hub compatible endpoint. This is the warm path - this data will be stored and used in the next lesson for reporting on the journey.
 
 ![Sending GPS telemetry from an IoT device to IoT Hub, then to Azure Functions via an event hub trigger](../../../images/gps-telemetry-iot-hub-functions.png)
-
-***Sending GPS telemetry from an IoT device to IoT Hub, then to Azure Functions via an event hub trigger. GPS by mim studio / Microcontroller by Template - all from the [Noun Project](https://thenounproject.com)***
 
 ### Task - handle GPS events using serverless code
 
@@ -206,8 +235,6 @@ Your function app now needs to connect to blob storage to store the messages fro
 In this lesson, you will use the Python SDK to see how to interact with blob storage.
 
 ![Sending GPS telemetry from an IoT device to IoT Hub, then to Azure Functions via an event hub trigger, then saving it to blob storage](../../../images/save-telemetry-to-storage-from-functions.png)
-
-***Sending GPS telemetry from an IoT device to IoT Hub, then to Azure Functions via an event hub trigger, then saving it to blob storage. GPS by mim studio / Microcontroller by Template - all from the [Noun Project](https://thenounproject.com)***
 
 The data will be saved as a JSON blob with the following format:
 
@@ -342,7 +369,6 @@ The data will be saved as a JSON blob with the following format:
     ```
 
     > 💁 Make sure you are not running the IoT Hub event monitor at the same time.
-
 
 > 💁 You can find this code in the [code/functions](code/functions) folder.
 

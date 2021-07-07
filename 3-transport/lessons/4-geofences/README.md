@@ -1,6 +1,8 @@
 # Geofences
 
-Add a sketchnote if possible/appropriate
+![A sketchnote overview of this lesson](../../../sketchnotes/lesson-14.png)
+
+> Sketchnote by [Nitya Narasimhan](https://github.com/nitya). Click the image for a larger version.
 
 This video gives an overview of geofences and how to use them in Azure Maps, topics that will be covered in this lesson:
 

@@ -1,8 +1,8 @@
 # Migrate your plant to the cloud
 
-Add a sketchnote if possible/appropriate
+![A sketchnote overview of this lesson](../../../sketchnotes/lesson-8.png)
 
-![Embed a video here if available](video-url)
+> Sketchnote by [Nitya Narasimhan](https://github.com/nitya). Click the image for a larger version.
 
 ## Pre-lecture quiz
 
@@ -106,13 +106,9 @@ IoT devices connect to a cloud service either using a device SDK (a library that
 
 ![Devices connect to a service using a device SDK. Server code also connects to the service via an SDK](../../../images/iot-service-connectivity.png)
 
-***Devices connect to a service using a device SDK. Server code also connects to the service via an SDK. Microcontroller by Template / Cloud by Debi Alpa Nugraha / IoT by Adrien Coquet - all from the [Noun Project](https://thenounproject.com)***
-
 Your device then communicates with other parts of your application over this service - similar to how you sent telemetry and received commands over MQTT. This is usually using a service SDK or a similar library. Messages come from your device to the service where other components of your application can then read them, and messages can then be sent back to your device.
 
 ![Devices without a valid secret key cannot connect to the IoT service](../../../images/iot-service-allowed-denied-connection.png)
-
-***Devices without a valid secret key cannot connect to the IoT service. Microcontroller by Template / Cloud by Debi Alpa Nugraha / IoT by Adrien Coquet - all from the [Noun Project](https://thenounproject.com)***
 
 These services implement security by knowing about all the devices that can connect and send data, either by having the devices pre-registered with the service, or by giving the devices secret keys or certificates they can use to register themselves with the service the first time they connect. Unknown devices are unable to connect, if they try the service rejects the connection and ignores messages sent by them.
 

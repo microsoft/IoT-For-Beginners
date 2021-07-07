@@ -94,10 +94,6 @@
 
 ![A Raspberry Pi 4](../../../../images/raspberry-pi-4.jpg)
 
-
-***Raspberry Pi 4. Michael Henzler / [Wikimedia Commons](https://commons.wikimedia.org/wiki/Main_Page) / [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)***
-
-
 <div dir="rtl">
 يعد Raspberry Pi أحد أشهر أجهزة الكمبيوتر أحادية اللوحة.
 

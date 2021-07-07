@@ -31,8 +31,6 @@ There are a number of popular communication protocols used by IoT devices to com
 
 ![IoT devices connect to a broker and publish telemetry and subscribe to commands. Cloud services connect to the broker and subscribe to all telemetry and send commands to specific devices.](../../../images/pub-sub.png)
 
-***IoT devices connect to a broker and publish telemetry and subscribe to commands. Cloud services connect to the broker and subscribe to all telemetry and send commands to specific devices. Broadcast by RomStu / Microcontroller by Template / Cloud by Debi Alpa Nugraha - all from the [Noun Project](https://thenounproject.com)***
-
 MQTT is the most popular communication protocol for IoT devices and is covered in this lesson. Others protocols include AMQP and HTTP/HTTPS.
 
 ## Message Queueing Telemetry Transport (MQTT)
@@ -42,8 +40,6 @@ MQTT is the most popular communication protocol for IoT devices and is covered i
 MQTT has a single broker and multiple clients. All clients connect to the broker, and the broker routes messages to the relevant clients. Messages are routed using named topics, rather than being sent directly to an individual client. A client can publish to a topic, and any clients that subscribe to that topic will receive the message.
 
 ![IoT device publishing telemetry on the /telemetry topic, and the cloud service subscribing to that topic](../../../images/mqtt.png)
-
-***IoT device publishing telemetry on the /telemetry topic, and the cloud service subscribing to that topic. Microcontroller by Template / Cloud by Debi Alpa Nugraha - all from the [Noun Project](https://thenounproject.com)***
 
 ✅ Do some research. If you have a lot of IoT devices, how can you ensure your MQTT broker can handle all the messages?
 
@@ -66,8 +62,6 @@ Rather than dealing with the complexities of setting up an MQTT broker as part o
 > 💁 This test broker is public and not secure. Anyone could be listening to what you publish, so it should not be used with any data that needs to be kept private
 
 ![A flow chart of the assignment showing light levels being read and checked, and the LED begin controlled](../../../images/assignment-1-internet-flow.png)
-
-***A flow chart of the assignment showing light levels being read and checked, and the LED begin controlled. ldr by Eucalyp / LED by abderraouf omara - all from the [Noun Project](https://thenounproject.com)***
 
 Follow the relevant step below to connect your device to the MQTT broker:
 
@@ -105,8 +99,6 @@ The word telemetry is derived from Greek roots meaning to measure remotely. Tele
 Let's look back at the example of the smart thermostat from Lesson 1.
 
 ![An Internet connected thermostat using multiple room sensors](../../../images/telemetry.png)
-
-***An Internet connected thermostat using multiple room sensors. Temperature by Vectors Market / Microcontroller by Template / dial by Jamie Dickinson / heater by Pascal Heß / mobile phone and Calendar by Alice-vector / Cloud by Debi Alpa Nugraha / smart sensor by Andrei Yushchenko / weather by Adrien Coquet - all from the [Noun Project](https://thenounproject.com)***
 
 The thermostat has temperature sensors to gather telemetry. It would most likely have one temperature sensor built in, and it might connect to multiple external temperature sensors over a wireless protocol such as [Bluetooth Low Energy](https://wikipedia.org/wiki/Bluetooth_Low_Energy) (BLE).
 
@@ -352,8 +344,6 @@ For MQTT to handle a loss of connectivity, the device and server code will need 
 Commands are messages sent by the cloud to a device, instructing it to do something. Most of the time this involves giving some kind of output via an actuator, but it can be an instruction for the device itself, such as to reboot, or gather extra telemetry and return it as a response to the command.
 
 ![An Internet connected thermostat receiving a command to turn on the heating](../../../images/commands.png)
-
-***An Internet connected thermostat receiving a command to turn on the heating. Temperature by Vectors Market / Microcontroller by Template / dial by Jamie Dickinson / heater by Pascal Heß / mobile phone and Calendar by Alice-vector / Cloud by Debi Alpa Nugraha / smart sensor by Andrei Yushchenko / weather by Adrien Coquet - all from the [Noun Project](https://thenounproject.com)***
 
 A thermostat could receive a command from the cloud to turn the heating on. Based on the telemetry data from all the sensors, if the cloud service has decided that the heating should be on, so it sends the relevant command.
 

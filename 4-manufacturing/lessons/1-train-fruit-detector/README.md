@@ -1,6 +1,8 @@
 # Train a fruit quality detector
 
-Add a sketchnote if possible/appropriate
+![A sketchnote overview of this lesson](../../../sketchnotes/lesson-15.png)
+
+> Sketchnote by [Nitya Narasimhan](https://github.com/nitya). Click the image for a larger version.
 
 This video gives an overview of the Azure Custom Vision service, a service that will be covered in this lesson.
 
@@ -38,8 +40,6 @@ The rise of automated harvesting moved the sorting of produce from the harvest t
 
 ![If a red tomato is detected it continues its journey uninterrupted. If a green tomato is detected it is flicked into a waste bin by a lever](../../../images/optical-tomato-sorting.png)
 
-***If a red tomato is detected it continues its journey uninterrupted. If a green tomato is detected it is flicked into a waste bin by a lever. tomato by parkjisun from the Noun Project - from the [Noun Project](https://thenounproject.com)***
-
 The next evolution was to use machines to sort, either built into the harvester, or in the processing plants. The first generation of these machines used optical sensors to detect colors, controlling actuators to push green tomatoes into a waste bin using levers or puffs of air, leaving red tomatoes to continue on a network of conveyor belts.
 
 The video below shows one of these machines in action.
@@ -73,6 +73,8 @@ For example, you could give a model millions of pictures of unripe bananas as in
 ML models don't give a binary answer, instead they give probabilities. For example, a model may be given a picture of a banana and predict `ripe` at 99.7% and `unripe` at 0.3%. Your code would then pick the best prediction and decide the banana is ripe.
 
 The ML model used to detect images like this is called an *image classifier* - it is given labelled images, and then classifies new images based off these labels.
+
+> 💁 This is an over-simplification, and there are many other ways to train models that don't always need labelled outputs, such as unsupervised learning. If you want to learn more about ML, check out [ML for beginners, a 24 lesson curriculum on Machine Learning](https://aka.ms/ML-beginners).
 
 ## Train an image classifier
 
@@ -122,7 +124,7 @@ To use Custom Vision, you first need to create two cognitive services resources 
     Replace `<location>` with the location you used when creating the Resource Group.
 
     This will create a Custom Vision training resource in your Resource Group. It will be called `fruit-quality-detector-training` and use the `F0` sku, which is the free tier. The `--yes` option means you agree to the terms and conditions of the cognitive services.
-    
+
 > 💁 Use `S0` sku if you already have a free account using any of the Cognitive Services.
 
 1. Use the following command to create a free Custom Vision prediction resource:
@@ -144,7 +146,7 @@ To use Custom Vision, you first need to create two cognitive services resources 
 
 1. Launch the Custom Vision portal at [CustomVision.ai](https://customvision.ai), and sign in with the Microsoft account you used for your Azure account.
 
-1. Follow the [Create a new Project section of the Build a classifier quickstart on the Microsoft docs](https://docs.microsoft.com/azure/cognitive-services/custom-vision-service/getting-started-build-a-classifier?WT.mc_id=academic-17441-jabenn#create-a-new-project) to create a new Custom Vision project. The UI may change and these docs are always the most up to date reference.
+1. Follow the [create a new Project section of the build a classifier quickstart on the Microsoft docs](https://docs.microsoft.com/azure/cognitive-services/custom-vision-service/getting-started-build-a-classifier?WT.mc_id=academic-17441-jabenn#create-a-new-project) to create a new Custom Vision project. The UI may change and these docs are always the most up to date reference.
 
     Call your project `fruit-quality-detector`.
 
@@ -178,11 +180,11 @@ Image classifiers run at very low resolution. For example Custom Vision can take
 
     If you don't have both ripe and unripe fruit, you can use different fruits, or any two objects you have available. You can also find some example images in the [images](./images) folder of ripe and unripe bananas that you can use.
 
-1. Follow the [Upload and tag images section of the Build a classifier quickstart on the Microsoft docs](https://docs.microsoft.com/azure/cognitive-services/custom-vision-service/getting-started-build-a-classifier?WT.mc_id=academic-17441-jabenn#upload-and-tag-images) to upload your training images. Tag the ripe fruit as `ripe`, and the unripe fruit as `unripe`.
+1. Follow the [upload and tag images section of the build a classifier quickstart on the Microsoft docs](https://docs.microsoft.com/azure/cognitive-services/custom-vision-service/getting-started-build-a-classifier?WT.mc_id=academic-17441-jabenn#upload-and-tag-images) to upload your training images. Tag the ripe fruit as `ripe`, and the unripe fruit as `unripe`.
 
     ![The upload dialogs showing the upload of ripe and unripe banana pictures](../../../images/image-upload-bananas.png)
 
-1. Follow the [Train the classifier section of the Build a classifier quickstart on the Microsoft docs](https://docs.microsoft.com/azure/cognitive-services/custom-vision-service/getting-started-build-a-classifier?WT.mc_id=academic-17441-jabenn#train-the-classifier) to train the image classifier on your uploaded images.
+1. Follow the [train the classifier section of the build a classifier quickstart on the Microsoft docs](https://docs.microsoft.com/azure/cognitive-services/custom-vision-service/getting-started-build-a-classifier?WT.mc_id=academic-17441-jabenn#train-the-classifier) to train the image classifier on your uploaded images.
 
     You will be given a choice of training type. Select **Quick Training**.
 
@@ -196,7 +198,7 @@ Once your classifier is trained, you can test it by giving it a new image to cla
 
 ### Task - test your image classifier
 
-1. Follow the [Test your model documentation on the Microsoft docs](https://docs.microsoft.com/azure/cognitive-services/custom-vision-service/test-your-model?WT.mc_id=academic-17441-jabenn#test-your-model) to test your image classifier. Use the testing images you created earlier, not any of the images you used for training.
+1. Follow the [test your model documentation on the Microsoft docs](https://docs.microsoft.com/azure/cognitive-services/custom-vision-service/test-your-model?WT.mc_id=academic-17441-jabenn#test-your-model) to test your image classifier. Use the testing images you created earlier, not any of the images you used for training.
 
     ![A unripe banana predicted as unripe with a 98.9% probability, ripe with a 1.1% probability](../../../images/banana-unripe-quick-test-prediction.png)
 
@@ -210,7 +212,7 @@ Every time you make a prediction using the quick test option, the image and resu
 
 ### Task - retrain your image classifier
 
-1. Follow the [Use the predicted image for training documentation on the Microsoft docs](https://docs.microsoft.com/azure/cognitive-services/custom-vision-service/test-your-model?WT.mc_id=academic-17441-jabenn#use-the-predicted-image-for-training) to retrain your model, using the correct tag for each image.
+1. Follow the [use the predicted image for training documentation on the Microsoft docs](https://docs.microsoft.com/azure/cognitive-services/custom-vision-service/test-your-model?WT.mc_id=academic-17441-jabenn#use-the-predicted-image-for-training) to retrain your model, using the correct tag for each image.
 
 1. Once you model has been retrained, test on new images.
 
@@ -228,8 +230,8 @@ Try it out and see what the predictions are. You can find images to try with usi
 
 ## Review & Self Study
 
-* When you trained your classifier, you would have seen values for *Precision*, *Recall*, and *AP* that rate the model that was created. Read up on what these values are using [the Evaluate the classifier section of the Build a classifier quickstart on the Microsoft docs](https://docs.microsoft.com/azure/cognitive-services/custom-vision-service/getting-started-build-a-classifier?WT.mc_id=academic-17441-jabenn#evaluate-the-classifier)
-* Read up on how to improve your classifier from the [How to improve your Custom Vision model on the Microsoft docs](https://docs.microsoft.com/azure/cognitive-services/custom-vision-service/getting-started-improving-your-classifier?WT.mc_id=academic-17441-jabenn)
+* When you trained your classifier, you would have seen values for *Precision*, *Recall*, and *AP* that rate the model that was created. Read up on what these values are using [the evaluate the classifier section of the build a classifier quickstart on the Microsoft docs](https://docs.microsoft.com/azure/cognitive-services/custom-vision-service/getting-started-build-a-classifier?WT.mc_id=academic-17441-jabenn#evaluate-the-classifier)
+* Read up on how to improve your classifier from the [how to improve your Custom Vision model on the Microsoft docs](https://docs.microsoft.com/azure/cognitive-services/custom-vision-service/getting-started-improving-your-classifier?WT.mc_id=academic-17441-jabenn)
 
 ## Assignment
 

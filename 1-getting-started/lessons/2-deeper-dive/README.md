@@ -26,15 +26,11 @@ The two components of an IoT application are the *Internet* and the *thing*. Let
 
 ![A Raspberry Pi 4](../../../images/raspberry-pi-4.jpg)
 
-***Raspberry Pi 4. Michael Henzler / [Wikimedia Commons](https://commons.wikimedia.org/wiki/Main_Page) / [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)***
-
 The **Thing** part of IoT refers to a device that can interact with the physical world. These devices are usually small, low-priced computers, running at low speeds and using low power - for example, simple microcontrollers with kilobytes of RAM (as opposed to gigabytes in a PC) running at only a few hundred megahertz (as opposed to gigahertz in a PC), but consuming sometimes so little power they can run for weeks, months or even years on batteries.
 
 These devices interact with the physical world, either by using sensors to gather data from their surroundings or by controlling outputs or actuators to make physical changes. The typical example of this is a smart thermostat - a device that has a temperature sensor, a means to set a desired temperature such as a dial or touchscreen, and a connection to a heating or cooling system that can be turned on when the temperature detected is outside the desired range. The temperature sensor detects that the room is too cold and an actuator turns the heating on.
 
 ![A diagram showing temperature and a dial as inputs to an IoT device, and control of a heater as an output](../../../images/basic-thermostat.png)
-
-***A simple thermostat. Temperature by Vectors Market / Microcontroller by Template / dial by Jamie Dickinson / heater by Pascal Heß - all from the [Noun Project](https://thenounproject.com)***
 
 There are a huge range of different things that can act as IoT devices, from dedicated hardware that senses one thing, to general purpose devices, even your smartphone! A smartphone can use sensors to detect the world around it, and actuators to interact with the world - for example using a GPS sensor to detect your location and a speaker to give you navigation instructions to a destination.
 
@@ -52,13 +48,9 @@ With the example of a smart thermostat, the thermostat would connect using home 
 
 ![A diagram showing temperature and a dial as inputs to an IoT device, the IoT device with 2 way communication to the cloud, which in turn has 2 way communication to a phone, and control of a heater as an output from the IoT device](../../../images/mobile-controlled-thermostat.png)
 
-***An Internet connected thermostat with mobile app control. Temperature by Vectors Market / Microcontroller by Template / dial by Jamie Dickinson / heater by Pascal Heß / mobile phone by Alice-vector / Cloud by Debi Alpa Nugraha - all from the [Noun Project](https://thenounproject.com)***
-
 An even smarter version could use AI in the cloud with data from other sensors connected to other IoT devices such as occupancy sensors that detect what rooms are in use, as well as data such as weather and even your calendar, to make decisions on how to set the temperature in a smart fashion. For example, it could turn your heating off if it reads from your calendar you are on vacation, or turn off the heating on a room by room basis depending on what rooms you use, learning from the data to be more and more accurate over time.
 
 ![A diagram showing multiple temperature sensors and a dial as inputs to an IoT device, the IoT device with 2 way communication to the cloud, which in turn has 2 way communication to a phone, a calendar and a weather service, and control of a heater as an output from the IoT device](../../../images/smarter-thermostat.png)
-
-***An Internet connected thermostat using multiple room sensors, with mobile app control, as well as intelligence from weather and calendar data. Temperature by Vectors Market / Microcontroller by Template / dial by Jamie Dickinson / heater by Pascal Heß / mobile phone and Calendar by Alice-vector / Cloud by Debi Alpa Nugraha / smart sensor by Andrei Yushchenko / weather by Adrien Coquet - all from the [Noun Project](https://thenounproject.com)***
 
 ✅ What other data could help make an Internet connected thermostat smarter?
 
@@ -95,8 +87,6 @@ The faster the clock cycle, the more instructions that can be processed each sec
 > 💁 CPUs execute programs using the [fetch-decode-execute cycle](https://wikipedia.org/wiki/Instruction_cycle). For every clock tick, the CPU will fetch the next instruction from memory, decode it, then execute it such as using an arithmetic logic unit (ALU) to add 2 numbers. Some executions will take multiple ticks to run, so the next cycle will run at the next tick after the instruction has completed.
 
 ![The fetch decode execute cycles showing the fetch taking an instruction from the program stored in RAM, then decoding and executing it on a CPU](../../../images/fetch-decode-execute.png)
-
-***CPU by Icon Lauk / ram by Atif Arshad - all from the [Noun Project](https://thenounproject.com)***
 
 Microcontrollers have much lower clock speeds than desktop or laptop computers, or even most smartphones. The Wio Terminal for example has a CPU that runs at 120MHz or 120,000,000 cycles per second.
 
@@ -211,8 +201,6 @@ In the last lesson, we introduced single-board computers. Let's now look deeper 
 The [Raspberry Pi Foundation](https://www.raspberrypi.org) is a charity from the UK founded in 2009 to promote the study of computer science, especially at school level. As part of this mission, they developed a single-board computer, called the Raspberry Pi. Raspberry Pis are currently available in 3 variants - a full size version, the smaller Pi Zero, and a compute module that can be built into your final IoT device.
 
 ![A Raspberry Pi 4](../../../images/raspberry-pi-4.jpg)
-
-***Raspberry Pi 4. Michael Henzler / [Wikimedia Commons](https://commons.wikimedia.org/wiki/Main_Page) / [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)***
 
 The latest iteration of the full size Raspberry Pi is the Raspberry Pi 4B. This has a quad-core (4 core) CPU running at 1.5GHz, 2, 4, or 8GB of RAM, gigabit ethernet, WiFi, 2 HDMI ports supporting 4k screens, an audio and composite video output port, USB ports (2 USB 2.0, 2 USB 3.0), 40 GPIO pins, a camera connector for a Raspberry Pi camera module, and an SD card slot. All this on a board that is 88mm x 58mm x 19.5mm and is powered by a 3A USB-C power supply. These start at US$35, much cheaper than a PC or Mac.
 

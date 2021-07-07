@@ -78,8 +78,6 @@ A single-board computer is a small computing device that has all the elements of
 
 ![A Raspberry Pi 4](../../../images/raspberry-pi-4.jpg)
 
-***Raspberry Pi 4. Michael Henzler / [Wikimedia Commons](https://commons.wikimedia.org/wiki/Main_Page) / [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)***
-
 The Raspberry Pi is one of the most popular single-board computers.
 
 Like a microcontroller, single-board computers have a CPU, memory and input/output pins, but they have additional features such as a graphics chip to allow you to connect monitors, audio outputs, and USB ports to connect keyboards mice and other standard USB devices like webcams or external storage. Programs are stored on SD cards or hard drives along with an operating system, instead of a memory chip built into the board.

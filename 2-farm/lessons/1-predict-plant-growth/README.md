@@ -1,8 +1,8 @@
 # Predict plant growth with IoT
 
-Add a sketchnote if possible/appropriate
+![A sketchnote overview of this lesson](../../../sketchnotes/lesson-5.png)
 
-![Embed a video here if available](video-url)
+> Sketchnote by [Nitya Narasimhan](https://github.com/nitya). Click the image for a larger version.
 
 ## Pre-lecture quiz
 
@@ -133,8 +133,6 @@ This has a huge labour impact on a large farm, and risks the farmer missing crop
 By gathering temperature data using an IoT device, a farmer can automatically be notified when plants are close to maturity. A typical architecture for this is to have the IoT devices measure temperature, then publish this telemetry data over the Internet using something like MQTT. Server code then listens to this data and saves it somewhere, such as to a database. This means the data can then be analyzed later, such as a nightly job to calculate the GDD for the day, total up the GDD for each crop so far and alert if a plant is close to maturity.
 
 ![Telemetry data is sent to a server and then saved to a database](../../../images/save-telemetry-database.png)
-
-***Telemetry data is sent to a server and then saved to a database. database by Icons Bazaar - from the [Noun Project](https://thenounproject.com)***
 
 The server code can also augment the data by adding extra information. For example, the IoT device can publish an identifier to indicate which device it is, and the sever code can use this to look up the location of the device, and what crops it is monitoring. It can also add basic data like the current time as some IoT devices don't have the necessary hardware to keep track of an accurate time, or require additional code to read the current time over the Internet.
 
