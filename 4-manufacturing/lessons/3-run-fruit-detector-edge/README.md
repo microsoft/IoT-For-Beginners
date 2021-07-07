@@ -1,6 +1,6 @@
 # Run your fruit detector on the edge
 
-![A sketchnote overview of this lesson](../../../sketchnotes/lesson-17.png)
+![A sketchnote overview of this lesson](../../../sketchnotes/lesson-17.jpg)
 
 > Sketchnote by [Nitya Narasimhan](https://github.com/nitya). Click the image for a larger version.
 

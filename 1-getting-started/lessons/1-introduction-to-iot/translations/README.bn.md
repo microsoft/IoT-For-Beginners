@@ -1,6 +1,6 @@
 # IoT পরিচিতি 
 
-![A sketchnote overview of this lesson](../../../../sketchnotes/lesson-1.png)
+![A sketchnote overview of this lesson](../../../../sketchnotes/lesson-1.jpg)
 
 > Nitya Narasimhan  তৈরী করছেন এই স্কেচনোটটি । এটির বড় সংস্করণ দেখতে  চাইলে ছবিটির উপর ক্লিক করুন । 
 

@@ -1,6 +1,6 @@
 # Introduction to IoT
 
-![A sketchnote overview of this lesson](../../../sketchnotes/lesson-1.png)
+![A sketchnote overview of this lesson](../../../sketchnotes/lesson-1.jpg)
 
 > Sketchnote by [Nitya Narasimhan](https://github.com/nitya). Click the image for a larger version.
 

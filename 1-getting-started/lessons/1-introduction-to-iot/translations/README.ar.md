@@ -1,6 +1,6 @@
 #  <div dir="rtl"> مقدمة لإنترنت الأشياء </div>
 
-![A sketchnote overview of this lesson](../../../../sketchnotes/lesson-1.png)
+![A sketchnote overview of this lesson](../../../../sketchnotes/lesson-1.jpg)
 
 >  <div dir="rtl"> خريطة من <a href="https://github.com/nitya">Nitya Narasimhan</a>  </div>
 > <div dir="rtl"> اضغط على الصورة لتكبيرها </div>

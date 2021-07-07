@@ -1,6 +1,6 @@
 # Train a fruit quality detector
 
-![A sketchnote overview of this lesson](../../../sketchnotes/lesson-15.png)
+![A sketchnote overview of this lesson](../../../sketchnotes/lesson-15.jpg)
 
 > Sketchnote by [Nitya Narasimhan](https://github.com/nitya). Click the image for a larger version.
 
