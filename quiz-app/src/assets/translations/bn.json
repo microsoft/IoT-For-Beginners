@@ -1,0 +1,1017 @@
+[
+	{
+		"title": "বিগিনারদের জন্য আইওটি: কুইজ",
+		"complete": "অভিনন্দন, কুইজ সফলভাবে সম্পূর্ণ হয়েছে !",
+		"error": "দুঃখিত, আবার চেষ্টা করুন",
+		"quizzes": [
+			{
+				"id": 1,
+				"title": "লেসন:১ - আইওটি পরিচিতি: লেকচার পূর্ববর্তী কুইজ",
+				"quiz": [
+					{
+						"questionText": "IoT শব্দে I দ্বারা বোঝানো হয় :",
+						"answerOptions": [
+							{
+								"answerText": "Internet(ইন্টারনেট)",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "Iridium(ইরিডিয়াম)",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "Ironing(আয়রনিং)",
+								"isCorrect": "false"
+							}
+						]
+					},
+					{
+						"questionText": "২০২০ এর শেষে আইওটি ডিভাইসের ব্যবহারের আনুমানিক সংখ্যা কত?",
+						"answerOptions": [
+							{
+								"answerText": "৩০",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "৩০ মিলিয়ন",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "৩০ বিলিয়ন",
+								"isCorrect": "true"
+							}
+						]
+					},
+					{
+						"questionText": "স্মার্টফোন হলো আইওটি ডিভাইস",
+						"answerOptions": [
+							{
+								"answerText": "সত্য",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "মিথ্যা",
+								"isCorrect": "false"
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": 2,
+				"title": "লেসন:১ - আইওটি পরিচিতি : লেকচার পরবর্তী কুইজ",
+				"quiz": [
+					{
+						"questionText": "আইওটি ডিভাইসগুলিকে সর্বদা ইন্টারনেটে সংযুক্ত থাকা দরকার",
+						"answerOptions": [
+							{
+								"answerText": "সত্য",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "মিথ্যা",
+								"isCorrect": "true"
+							}
+						]
+					},
+					{
+						"questionText": "আইওটি ডিভাইস সর্বাবস্থায় সুরক্ষিত",
+						"answerOptions": [
+							{
+								"answerText": "সত্য",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "মিথ্যা",
+								"isCorrect": "true"
+							}
+						]
+					},
+					{
+						"questionText": "কম পাওয়ারে চালিত আইওটি ডিভাইসে আর্টিফিশিয়াল ইন্টেলিজেন্স চালানো যেতে পারে",
+						"answerOptions": [
+							{
+								"answerText": "সত্য",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "মিথ্যা",
+								"isCorrect": "false"
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": 3,
+				"title": "লেসন ২ - IoT এর আরো গভীরে : লেকচার পূর্ববর্তী কুইজ",
+				"quiz": [
+					{
+						"questionText": "IoT শব্দে T বলতে বোঝানো হয়:",
+						"answerOptions": [
+							{
+								"answerText": "Transistors(ট্রানজিস্টর)",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "Things(থিংস)",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "Turkeys(টার্কিস)",
+								"isCorrect": "false"
+							}
+						]
+					},
+					{
+						"questionText": "আইওটি ডিভাইসগুলি তাদের চারপাশের বিশ্ব থেকে তথ্য সংগ্রহ করতে ব্যবহার করে :",
+						"answerOptions": [
+							{
+								"answerText": "সেন্সর",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "অ্যাকচুয়েটর",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "বার্তাবাহী কবুতর",
+								"isCorrect": "false"
+							}
+						]
+					},
+					{
+						"questionText": "আইওটি ডিভাইসগুলি গড়পড়তা ডেস্কটপ বা ল্যাপটপ কম্পিউটারের চেয়ে বেশি পাওয়ার ব্যবহার করে",
+						"answerOptions": [
+							{
+								"answerText": "সত্য",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "মিথ্যা",
+								"isCorrect": "true"
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": 4,
+				"title": "লেসন ২ - IoT এর আরো গভীরে : লেকচার পরবর্তী কুইজ",
+				"quiz": [
+					{
+						"questionText": "সিপিইউ নির্দেশচক্রের (instruction cycle) তিনটি ধাপ হল:",
+						"answerOptions": [
+							{
+								"answerText": "ডিকোড, এক্সিকিউট, ফেচ",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": " ফেচ, ডিকোড, এক্সিকিউট",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "থামা, কোলাবোরেট করা, শোনা",
+								"isCorrect": "false"
+							}
+						]
+					},
+					{
+						"questionText": "রাস্পবেরি পাই কোন অপারেটিং সিস্টেম রান করে?",
+						"answerOptions": [
+							{
+								"answerText": "কোন অপারেটিং সিস্টেম রান করেনা ",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "উইন্ডোজ ৯৫",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "রাস্পবেরি পাই ওএস",
+								"isCorrect": "true"
+							}
+						]
+					},
+					{
+						"questionText": "আইওটি ডিভাইসগুলি সাধারণত দ্রুত চলে এবং সাধারণ ডেস্কটপ বা ল্যাপটপ কম্পিউটারের চেয়ে বেশি মেমোরি থাকে",
+						"answerOptions": [
+							{
+								"answerText": "সত্য",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "মিথ্যা",
+								"isCorrect": "true"
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": 5,
+				"title": "লেসন ৩ - সেন্সর এবং অ্যাকচুয়েটরের সাহায্যে বাহ্যিক জগতের সাথে যোগাযোগ: লেকচার পূর্ববর্তী কুইজ",
+				"quiz": [
+					{
+						"questionText": "এলইডি একধরণের সেন্সর:",
+						"answerOptions": [
+							{
+								"answerText": "সত্য",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "মিথ্যা",
+								"isCorrect": "true"
+							}
+						]
+					},
+					{
+						"questionText": "সেন্সর ব্যবহৃত হয়:",
+						"answerOptions": [
+							{
+								"answerText": "বাহ্যিক জগতের ডেটা সংগ্রহ করতে ",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "বাহ্যিক জগতকে নিয়ন্ত্রণ করতে",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "শুধু তাপমাত্রা মাপতে",
+								"isCorrect": "false"
+							}
+						]
+					},
+					{
+						"questionText": "অ্যাকচুয়েটর ব্যবহৃত হয়:",
+						"answerOptions": [
+							{
+								"answerText": "বাহ্যিক জগতের ডেটা সংগ্রহ করতে ",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "বাহ্যিক জগতকে নিয়ন্ত্রণ করতে",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "ইনপ্স্যুরেন্স রিস্ক হিসাব করতে",
+								"isCorrect": "false"
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": 6,
+				"title": "লেসন ৩ - সেন্সর এবং অ্যাকচুয়েটরের সাহায্যে বাহ্যিক জগতের সাথে যোগাযোগ: লেকচার পরবর্তী কুইজ",
+				"quiz": [
+					{
+						"questionText": "ডিজিটাল সেন্সরগুলি ডেটা প্রেরণ করে:",
+						"answerOptions": [
+							{
+								"answerText": "ভোল্টেজ রেন্জ অনুসারে",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "হাই(High) এবং লো(low) ভোল্টেজ হিসেবে",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "ইমেইলে",
+								"isCorrect": "false"
+							}
+						]
+					},
+					{
+						"questionText": "একটি বাটনে প্রেস করলে কোন ডিজিটাল সিগন্যাল প্রেরণ করা হয়?",
+						"answerOptions": [
+							{
+								"answerText": "0",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "1",
+								"isCorrect": "true"
+							}
+						]
+					},
+					{
+						"questionText": "পালস-উইথ মডুলেশন ব্যবহার করে ডিজিটাল ডিভাইস থেকে অ্যানালগ অ্যাকিউটরেটরগুলি নিয়ন্ত্রণ করা যাবে",
+						"answerOptions": [
+							{
+								"answerText": "সত্য",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "মিথ্যা",
+								"isCorrect": "false"
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": 7,
+				"title": "লেসন ৪ - ডিভাইসকে ইন্টারনেটের সাথে যুক্ত করা: লেকচার পূর্ববর্তী কুইজ",
+				"quiz": [
+					{
+						"questionText": "আইওটি ডিভাইসগুলি সর্বদা কাজ করার জন্য ইন্টারনেটে সংযুক্ত থাকা প্রয়োজন",
+						"answerOptions": [
+							{
+								"answerText": "সত্য",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "মিথ্যা",
+								"isCorrect": "true"
+							}
+						]
+					},
+					{
+						"questionText": "ওয়েব অ্যাপ্লিকেশন বা অন্যান্য ওয়েব APIগুলির মত আইওটি ডিভাইসগুলি সর্বদা HTTP এর মাধ্যমে যোগাযোগ করে",
+						"answerOptions": [
+							{
+								"answerText": "মিথ্যা",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "সত্য",
+								"isCorrect": "false"
+							}
+						]
+					},
+					{
+						"questionText": "আইওটি ডিভাইসগুলি তাদের সকল সিদ্ধান্ত নেওয়ার জন্য ক্লাউডের উপর নির্ভর করে:",
+						"answerOptions": [
+							{
+								"answerText": "মিথ্যা",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "সত্য",
+								"isCorrect": "false"
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": 8,
+				"title": "লেসন ৪ - ডিভাইসকে ইন্টারনেটের সাথে যুক্ত করা: লেকচার পরবর্তী কুইজ",
+				"quiz": [
+					{
+						"questionText": "সেন্সর থেকে সংগ্রহ করা এবং ক্লাউডে প্রেরণ করা ডেটাকে বলা হয়:",
+						"answerOptions": [
+							{
+								"answerText": "টেলিমেট্রি",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "কমান্ড",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "পরিমাপ",
+								"isCorrect": "false"
+							}
+						]
+					},
+					{
+						"questionText": "আইওটি ডিভাইস অফলাইনে থাকলে কোন কমান্ডের কী হবে:",
+						"answerOptions": [
+							{
+								"answerText": "ডিভাইসটি অনলাইনে পুনরায় যুক্ত হলে, কমান্ড আবারো পাঠাতে হবে",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "ডিভাইসটি অনলাইনে পুনরায় যুক্ত হলওে, কমান্ড আবারো পাঠানো উচিত হবেনা",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "এটি কমান্ড, ডিভাইসটি এবং আইওটি অ্যাপ্লিকেশনটির প্রয়োজনীয়তার উপর নির্ভর করে",
+								"isCorrect": "true"
+							}
+						]
+					},
+					{
+						"questionText": "MQTT অর্থাৎ Message Queueing Telemetry Transport এ ম্যাসেজের সারি থাকে:",
+						"answerOptions": [
+							{
+								"answerText": "সত্য",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "মিথ্যা",
+								"isCorrect": "true"
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": 9,
+				"title": "লেসন ৫ - গাছের বৃদ্ধি অনুমান করা: লেকচার পূর্ববর্তী কুইজ",
+				"quiz": [
+					{
+						"questionText": "আইট ডিভাইসগুলি কৃষিক্ষেত্রে সহায়তা করতে ব্যবহার করা যেতে পারে",
+						"answerOptions": [
+							{
+								"answerText": "সত্য",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "মিথ্যা",
+								"isCorrect": "false"
+							}
+						]
+					},
+					{
+						"questionText": "উদ্ভিদের প্রয়োজনীয়তার মধ্যে রয়েছে: (সেরা উত্তরটি বেছে নিতে হবে)",
+						"answerOptions": [
+							{
+								"answerText": "কার্বন ডাইঅক্সাইড, পানি, পুষ্টি উপাদান",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "কার্বন ডাইঅক্সাইড, পানি, পুষ্টি উপাদান, আলো",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "কার্বন ডাইঅক্সাইড, পানি, পুষ্টি উপাদান, আলো, উষ্ণতা",
+								"isCorrect": "true"
+							}
+						]
+					},
+					{
+						"questionText": "উন্নত দেশগুলির কৃষকদের ব্যবহারের জন্য সেন্সরগুলি অত্যন্ত ব্যয়বহুল:",
+						"answerOptions": [
+							{
+								"answerText": "মিথ্যা",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "সত্য",
+								"isCorrect": "false"
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": 10,
+				"title": "লেসন ৫ - গাছের বৃদ্ধি অনুমান করা: লেকচার পরবর্তী কুইজ",
+				"quiz": [
+					{
+						"questionText": "উদ্ভিদের বৃদ্ধি তাপমাত্রার উপর নির্ভরশীল",
+						"answerOptions": [
+							{
+								"answerText": "সত্য",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "মিথ্যা",
+								"isCorrect": "false"
+							}
+						]
+					},
+					{
+						"questionText": "উদ্ভিদ বৃদ্ধির জন্য কোন তাপমাত্রাগুলো বিবেচনা করতে হবে",
+						"answerOptions": [
+							{
+								"answerText": "সর্বনিম্ন, সর্বোচ্চ",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "নিম্নমান, পরিমিত, সর্বোচ্চ",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "শুধুমাত্র সর্বোচ্চ",
+								"isCorrect": "false"
+							}
+						]
+					},
+					{
+						"questionText": "ক্রমবর্ধমান বৃদ্ধির ডিগ্রি (Growing Degree Days) দিনগুলি কোন সূত্রটি ব্যবহার করে গণনা করা হয়:",
+						"answerOptions": [
+							{
+								"answerText": "(day max + day min) - plant base",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "((day max + day min) / 2) - plant base",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "((day min + plant base) / 2)",
+								"isCorrect": "false"
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": 11,
+				"title": "লেসন ৬ - মাটির আর্দ্রতা পরিমাপ: লেকচার পূর্ববর্তী কুইজ",
+				"quiz": [
+					{
+						"questionText": "আইওটি ডিভাইসগুলি মাটির আর্দ্রতার মতো চারিপার্শ্বিক বৈশিষ্ট্যগুলি সনাক্ত করতে ব্যবহার করা যেতে পারে",
+						"answerOptions": [
+							{
+								"answerText": "সত্য",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "মিথ্যা",
+								"isCorrect": "false"
+							}
+						]
+					},
+					{
+						"questionText": "এর মধ্যে কোনটি গাছের বৃদ্ধির জন্য সমস্যা সৃষ্টি করতে পারে (একটি বাছাই করতে হবে)?",
+						"answerOptions": [
+							{
+								"answerText": "খুব অল্প পানি",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "খুব বেশি পানি",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "খুব অল্প বা খুব বেশি পান",
+								"isCorrect": "true"
+							}
+						]
+					},
+					{
+						"questionText": "সমস্ত সেন্সরে স্ট্যান্ডার্ড ইউনিটগুলির জন্য আগে থেকেই ক্যালিব্রেটেড থাকে",
+						"answerOptions": [
+							{
+								"answerText": "সত্য",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "মিথ্যা",
+								"isCorrect": "true"
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": 12,
+				"title": "লেসন ৬ - মাটির আর্দ্রতা পরিমাপ: লেকচার পরবর্তী কুইজ",
+				"quiz": [
+					{
+						"questionText": "মাটির আর্দ্রতা পরিমাপ করার সময়, রোধক (resistive) এবং ক্যাপাসিটিভ আর্দ্রতা সেন্সরের মধ্যে একটি পার্থক্য:",
+						"answerOptions": [
+							{
+								"answerText": "আর্দ্রতা স্তর বাড়ার সাথে সাথে রোধক সেন্সরগুলির ভোল্টেজ মান বাড়ে এবং ক্যাপাসিটিভ সেন্সরগুলির জন্য নিচে নেমে যায়",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "আর্দ্রতা স্তর বাড়ার সাথে সাথে ভোল্টেজ রোধক সেন্সরগুলির ভোল্টেজ মান কমে এবং ক্যাপাসিটিভ সেন্সরগুলির জন্য বেড়ে যায়",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "আর্দ্রতা স্তর বাড়ার সাথে সাথে রোধক সেন্সর এবং ক্যাপাসিটিভ সেন্সর উভয়ের ভোল্টেজ বেড়ে যায়",
+								"isCorrect": "false"
+							}
+						]
+					},
+					{
+						"questionText": "SPI প্রটোকল সাপোর্ট করে:",
+						"answerOptions": [
+							{
+								"answerText": "শুধু ১টি কন্ট্রোলার এবং ১টি পেরিফেরাল",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "শুধু ১টি কন্ট্রোলার এবং একাধিক পেরিফেরাল",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "একাধিক কন্ট্রোলার এবং একাধিক পেরিফেরাল",
+								"isCorrect": "false"
+							}
+						]
+					},
+					{
+						"questionText": "I2C প্রটোকল সাপোর্ট করে:",
+						"answerOptions": [
+							{
+								"answerText": "শুধু ১টি কন্ট্রোলার এবং ১টি পেরিফেরাল",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "শুধু ১টি কন্ট্রোলার এবং একাধিক পেরিফেরাল",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "একাধিক কন্ট্রোলার এবং একাধিক পেরিফেরাল",
+								"isCorrect": "true"
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": 13,
+				"title": "লেসন ৭ - অটোমেটিক গাছে পানি দেয়া: লেকচার পূর্ববর্তী কুইজ",
+				"quiz": [
+					{
+						"questionText": "আইওটি ডিভাইসগুলি পানির পাম্পগুলি নিয়ন্ত্রণ করতে যথেষ্ট শক্তিশালী",
+						"answerOptions": [
+							{
+								"answerText": "সত্য",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "মিথ্যা",
+								"isCorrect": "true"
+							}
+						]
+					},
+					{
+						"questionText": "অতিরিক্ত ডিভাইসে পাওয়ার নিয়ন্ত্রণ করতে একচুয়েটর ব্যবহার করা যেতে পারে",
+						"answerOptions": [
+							{
+								"answerText": "সত্য",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "মিথ্যা",
+								"isCorrect": "false"
+							}
+						]
+					},
+					{
+						"questionText": "সেন্সরগুলি তাত্ক্ষণিকভাবে একচুয়েটরগুলির পরিবর্তনগুলি সনাক্ত করে",
+						"answerOptions": [
+							{
+								"answerText": "সত্য",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "মিথ্যা",
+								"isCorrect": "true"
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": 14,
+				"title": "লেসন ৭ - অটোমেটিক গাছে পানি দেয়া: লেকচার পরবর্তী কুইজ",
+				"quiz": [
+					{
+						"questionText": "রিলে কোন ধরণের সুইচ?",
+						"answerOptions": [
+							{
+								"answerText": "ইলেক্ট্রিকাল",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "ইলেক্ট্রোমেকানিক্যাল",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "মেকানিক্যাল",
+								"isCorrect": "false"
+							}
+						]
+					},
+					{
+						"questionText": "রিলে এর মাধ্যম যা করা যায়-",
+						"answerOptions": [
+							{
+								"answerText": "কম পাওয়ারের ডিভাইস দিয়ে হাই-পাওয়ার ডিভাইস নিয়ন্ত্রণ",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "হাই-পাওয়ার ডিভাইস দিয়ে কম পাওয়ারের ডিভাইস নিয়ন্ত্রণ",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "দৌড়বিদদের মধ্যে ব্যাটন পরিবর্তন",
+								"isCorrect": "false"
+							}
+						]
+					},
+					{
+						"questionText": "অ্যাকচুয়েটরকে সর্বদা সেন্সর রিডিংয়ের সাথে তাত্ক্ষণিকভাবে প্রতিক্রিয়া জানানো উচিত:",
+						"answerOptions": [
+							{
+								"answerText": "সত্য",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "মিথ্যা",
+								"isCorrect": "true"
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": 15,
+				"title": "লেসন ৮ - গাছকে ক্লাউড থেকে নিয়ন্ত্রণ: লেকচার পূর্ববর্তী কুইজ",
+				"quiz": [
+					{
+						"questionText": " একটি পাবলিক MQTT broker দিয়ে কমার্শিয়াল আইওটি প্রজেক্ট করা যায়",
+						"answerOptions": [
+							{
+								"answerText": "সত্য",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "মিথ্যা",
+								"isCorrect": "true"
+							}
+						]
+					},
+					{
+						"questionText": "ক্লাউড কম্পিউটিং দ্বারা যা করতে পারি -",
+						"answerOptions": [
+							{
+								"answerText": "কেবল কম্পিউটার ভাড়া নেয়া",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "কম্পিউটার এবং এপ্লিকেশন প্লাটফর্ম ভাড়া নেয়া",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "কম্পিউটার, অ্যাপ্লিকেশন প্ল্যাটফর্ম, সফ্টওয়্যার, সার্ভারলেস প্ল্যাটফর্ম এবং অন্যান্য পরিষেবাগুলি ভাড়া করা",
+								"isCorrect": "true"
+							}
+						]
+					},
+					{
+						"questionText": "6 টি মহাদেশে বিভিন্ন দেশে ডেটা সেন্টার সহ একাধিক ক্লাউড সেবাদানকার ীরয়েছে",
+						"answerOptions": [
+							{
+								"answerText": "সত্য",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "মিথ্যা",
+								"isCorrect": "false"
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": 16,
+				"title": "লেসন ৮ - গাছকে ক্লাউড থেকে নিয়ন্ত্রণ: লেকচার পরবর্তী কুইজ",
+				"quiz": [
+					{
+						"questionText": "একটি Actuator নিয়ন্ত্রণ করতে এবং IOT ডিভাইস থেকে একটি প্রতিক্রিয়া পেতে, অ্যাপ্লিকেশন কোড ব্যবহার করে:",
+						"answerOptions": [
+							{
+								"answerText": "ডিভাইস থেকে ক্লাউডে ম্যাসেজ",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "ডিভাইস টুইন",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "সরাসরি রিকুয়েস্ট",
+								"isCorrect": "true"
+							}
+						]
+					},
+					{
+						"questionText": "IoT Hub সিক্যুরিটি ছাড়াই যেকোন ডিভাইস কানেক্ট করতে দেয়",
+						"answerOptions": [
+							{
+								"answerText": "মিথ্যা"",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "সত্য",
+								"isCorrect": "false"
+							}
+						]
+					},
+					{
+						"questionText": "IoT Hub এর নাম ইউনিক হতে হবে:",
+						"answerOptions": [
+							{
+								"answerText": "সত্য",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "মিথ্যা",
+								"isCorrect": "false"
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": 17,
+				"title": "লেসন ৯ - ক্লাউড থেকে এপ্লিকেশন লজিক নিয়ন্ত্রণ: লেকচার পূর্ববর্তী কুইজ",
+				"quiz": [
+					{
+						"questionText": "আইওটি ইভেন্টের প্রতিক্রিয়া জানাতে আপনি সার্ভারলেস কোড ব্যবহার করতে পারা যাবে",
+						"answerOptions": [
+							{
+								"answerText": "সত্য",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "মিথ্যা",
+								"isCorrect": "false"
+							}
+						]
+					},
+					{
+						"questionText": "IoT Hub এ আইওটি ইভেন্ট পাঠানো হলে:",
+						"answerOptions": [
+							{
+								"answerText": "শুধুমাত্র একটি সার্ভিস IoT Hub এর ইভেন্টগুলি পড়তে পারে",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "নির্দিষ্ট সংখ্যক সার্ভিস IoT Hub এর ইভেন্টগুলি পড়তে পারে",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "কোন সার্ভিসই IoT Hub এর ইভেন্টগুলি পড়তে পারেনা, এজন্য সার্ভিসকে ডিভাইসে কানেক্ট থাকতে হবে",
+								"isCorrect": "false"
+							}
+						]
+					},
+					{
+						"questionText": "আইওটি হাবে ইভেন্টগুলি পড়ার সময়, কেবল ক্লাউডে চালিত কোডটি ব্যবহার করতে পারা যাবে",
+						"answerOptions": [
+							{
+								"answerText": "সত্য",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "মিথ্যা",
+								"isCorrect": "true"
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": 18,
+				"title": "লেসন ৯ - ক্লাউড থেকে এপ্লিকেশন লজিক নিয়ন্ত্রণ: লেকচার পরবর্তী কুইজ",
+				"quiz": [
+					{
+						"questionText": "Azure ফাংশন লোকালি চালানো এবং ডিবাগ করা যাবে",
+						"answerOptions": [
+							{
+								"answerText": "সত্য",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "মিথ্যা",
+								"isCorrect": "false"
+							}
+						]
+					},
+					{
+						"questionText": "সার্ভারলেস কোড কেবল জাভাস্ক্রিপ্ট এবং COBOL-এ লেখা যেতে পারে:",
+						"answerOptions": [
+							{
+								"answerText": "মিথ্যা",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "সত্য",
+								"isCorrect": "false"
+							}
+						]
+					},
+					{
+						"questionText": "ক্লাউডে কোন ফাংশন অ্যাপ ব্যবহারের সময়, ইউজারকে তৈরি এবং ডেপলয় করতে হবে:",
+						"answerOptions": [
+							{
+								"answerText": "শুধু ১টি ফাংশন অ্যাপ",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "১টি ফাংশন অ্যাপ এবং একটি স্টোরেজ একাউন্ট",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "১টি ফাংশন অ্যাপ এবং একটি স্টোরেজ একাউন্ট এবং এপ্লিকেশন সেটিং",
+								"isCorrect": "true"
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": 19,
+				"title": "লেসন ১০ - গাছগুলোর নিরাপত্তা নিশ্চিতকরণ: লেকচার পূর্ববর্তী কুইজ",
+				"quiz": [
+					{
+						"questionText": "আইওটি ডিভাইস সর্বদা সুরক্ষিত থাকে",
+						"answerOptions": [
+							{
+								"answerText": "সত্য",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "মিথ্যা",
+								"isCorrect": "true"
+							}
+						]
+					},
+					{
+						"questionText": "কোনও আইওটি ডিভাইস দিয়ে হ্যাক করার মতো নজির নেই:",
+						"answerOptions": [
+							{
+								"answerText": "সত্য",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "মিথ্যা",
+								"isCorrect": "true"
+							}
+						]
+					},
+					{
+						"questionText": "আইওটি ডিভাইস সংযোগের স্ট্রিং যে কারও সাথে ভাগ করতে পারা যাবে",
+						"answerOptions": [
+							{
+								"answerText": "সত্য",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "মিথ্যা",
+								"isCorrect": "true"
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": 20,
+				"title": "লেসন ১০ - গাছগুলোর নিরাপত্তা নিশ্চিতকরণ: লেকচার পরবর্তী কুইজ",
+				"quiz": [
+					{
+						"questionText": "Symmetric key encryption এবং asymmetric key encryption এর পার্থক্য:",
+						"answerOptions": [
+							{
+								"answerText": "Symmetric key encryption এর স্পীড asymmetric এর চেয়ে কম",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "Symmetric key encryption এখানে asymmetric এর তুলনায় বেশি নিরাপদ",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "Symmetric key encryption টি asymmetric এর তুলনায় বেশি দ্রুত কাজ করলেও, নিরাপত্তা কম",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "Symmetric key encryption টি asymmetric এর তুলনায় ধীরে কাজ করলেও, নিরাপত্তা বেশি",
+								"isCorrect": "false"
+							}
+						]
+					},
+					{
+						"questionText": "Self-signed X.509 সার্টিফিকেটগুলো Production Environment এর জন্য আদর্শ",
+						"answerOptions": [
+							{
+								"answerText": "সত্য",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "মিথ্যা",
+								"isCorrect": "true"
+							}
+						]
+					},
+					{
+						"questionText": "X.509 certificates:",
+						"answerOptions": [
+							{
+								"answerText": "আইওটি ডিভাইসগুলোর মাঝে শেয়ার করা উচিত নয়",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "আইওটি ডিভাইসগুলোর মাঝে শেয়ার করা যাবে",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "গোপন রাখা উচিত এবং কোন ডিভাইসের সাথে শেয়ার করা আবেনা",
+								"isCorrect": "false"
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+]

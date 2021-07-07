@@ -1,6 +1,6 @@
 # Classify an image - Virtual IoT Hardware and Raspberry Pi
 
-In this part of the lesson, you will add send the image captured by the camera to the Custom Vision service to classify it.
+In this part of the lesson, you will send the image captured by the camera to the Custom Vision service to classify it.
 
 ## Send images to Custom Vision
 
@@ -25,7 +25,7 @@ The Custom Vision service has a Python SDK you can use to classify images.
 
     This brings in some modules from the Custom Vision libraries, one to authenticate with the prediction key, and one to provide a prediction client class that can call Custom Vision.
 
-1. Add the following code to to the end of the file:
+1. Add the following code to the end of the file:
 
     ```python
     prediction_url = '<prediction_url>'
@@ -86,6 +86,6 @@ The Custom Vision service has a Python SDK you can use to classify images.
 
     ![A banana in custom vision predicted ripe at 56.8% and unripe at 43.1%](../../../images/custom-vision-banana-prediction.png)
 
-> 💁 You can find this code in the [code-classify/pi](code-classify/pi) or [code-classify/virtual-device](code-classify/virtual-device) folder.
+> 💁 You can find this code in the [code-classify/pi](code-classify/pi) or [code-classify/virtual-iot-device](code-classify/virtual-iot-device) folder.
 
 😀 Your fruit quality classifier program was a success!
