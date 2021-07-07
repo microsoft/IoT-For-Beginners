@@ -44,7 +44,7 @@ For example, translating "Hello world" from English into French can be performed
 
 Substitutions don't work when different languages use different ways of saying the same thing. For example, the English sentence "My name is Jim", translates into "Je m'appelle Jim" in French - literally "I call myself Jim". "Je" is French for "I", "moi" is me, but is concatenated with the verb as it starts with a vowel, so becomes "m'", "appelle" is to call, and "Jim" isn't translated as it's a name, and not a word that can be translated. Word ordering also becomes an issue - a simple substitution of "Je m'appelle Jim" becomes "I myself call Jim", with a different word order to English.
 
-> 💁 Some words are never translated - my name is Jim regardless of which language is used to introduce me.
+> 💁 Some words are never translated - my name is Jim regardless of which language is used to introduce me. When translating to languages that use different alphabets, or use different letters for different sounds, then words can be *transliterated*, that is selecting letters or characters that give the appropriate sound to sound the same as the given word.
 
 Idioms are also a problem for translation. These are phrases that have an understood meaning that is different from a direct interpretation of the words. For example, in English the idiom "I've got ants in my pants" does not literally refer to having ants in your clothing, but to being restless. If you translated this to German, you would end up confusing the listener, as the German version is "I have bumble bees in the bottom".
 

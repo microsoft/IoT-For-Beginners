@@ -2164,14 +2164,18 @@
 						]
 					},
 					{
-						"questionText": "Language understanding only understands English:",
+						"questionText": "Language understanding involves:",
 						"answerOptions": [
 							{
-								"answerText": "True",
+								"answerText": "Looking at the individual words in a sentence and trying to get the meaning",
 								"isCorrect": "false"
 							},
 							{
-								"answerText": "False",
+								"answerText": "Finding pre-defined sentences and using those to get the meaning",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "Looking at the whole sentence and trying to get the meaning using the context of the words",
 								"isCorrect": "true"
 							}
 						]
@@ -2290,7 +2294,7 @@
 								"isCorrect": "false"
 							},
 							{
-								"answerText": "It depends on the context",
+								"answerText": "It can be 'one two three four' or 'one thousand two hundred and thirty four' depending on the context",
 								"isCorrect": "true"
 							}
 						]
@@ -2345,6 +2349,108 @@
 							{
 								"answerText": "SpeechXML",
 								"isCorrect": "false"
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": 47,
+				"title": "Lesson 24 - Support multiple languages: Pre-Lecture Quiz",
+				"quiz": [
+					{
+						"questionText": "Language understanding only understands English:",
+						"answerOptions": [
+							{
+								"answerText": "True",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "False",
+								"isCorrect": "true"
+							}
+						]
+					},
+					{
+						"questionText": "AI speech to text models understand multiple languages:",
+						"answerOptions": [
+							{
+								"answerText": "True",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "False",
+								"isCorrect": "false"
+							}
+						]
+					},
+					{
+						"questionText": "AI translation involves swapping individual words for their translated version:",
+						"answerOptions": [
+							{
+								"answerText": "True",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "false",
+								"isCorrect": "true"
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": 48,
+				"title": "Lesson 24 - Support multiple languages: Post-Lecture Quiz",
+				"quiz": [
+					{
+						"questionText": "Machine translation has been researched for nearly:",
+						"answerOptions": [
+							{
+								"answerText": "70 years",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "17 years",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "7 years",
+								"isCorrect": "false"
+							}
+						]
+					},
+					{
+						"questionText": "AI language translators are called:",
+						"answerOptions": [
+							{
+								"answerText": "Noddy translators",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "Neural translators",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "Nothing - AI cannot be used for translation",
+								"isCorrect": "false"
+							}
+						]
+					},
+					{
+						"questionText": "What alien languages does the Microsoft translator support:",
+						"answerOptions": [
+							{
+								"answerText": "Na'vi",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "Alienese",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "Klingon",
+								"isCorrect": "true"
 							}
 						]
 					}
