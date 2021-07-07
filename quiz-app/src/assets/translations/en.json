@@ -2047,6 +2047,206 @@
 						]
 					}
 				]
+			},
+			{
+				"id": 41,
+				"title": "Lesson 21 - Recognize speech with an IoT device: Pre-Lecture Quiz",
+				"quiz": [
+					{
+						"questionText": "IoT devices can be used to recognize speech:",
+						"answerOptions": [
+							{
+								"answerText": "True",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "False",
+								"isCorrect": "false"
+							}
+						]
+					},
+					{
+						"questionText": "Voice assistants should send all the audio they hear to the cloud for processing:",
+						"answerOptions": [
+							{
+								"answerText": "True",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "False",
+								"isCorrect": "true"
+							}
+						]
+					},
+					{
+						"questionText": "To recognize speech, IoT devices need large microphones:",
+						"answerOptions": [
+							{
+								"answerText": "True",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "False",
+								"isCorrect": "true"
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": 42,
+				"title": "Lesson 21 - Recognize speech with an IoT device: Post-Lecture Quiz",
+				"quiz": [
+					{
+						"questionText": "Microphones are what type of sensor?",
+						"answerOptions": [
+							{
+								"answerText": "Digital",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "Analog",
+								"isCorrect": "true"
+							}
+						]
+					},
+					{
+						"questionText": "Sound waves are converted to digital signals using:",
+						"answerOptions": [
+							{
+								"answerText": "Pulse Code Modulation",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "Pure Code Multiplication",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "Pulse Width Maximization",
+								"isCorrect": "false"
+							}
+						]
+					},
+					{
+						"questionText": "1 second of 16-bit audio sampled at 16KHz is how large?",
+						"answerOptions": [
+							{
+								"answerText": "1KB",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "16KB",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "32KB",
+								"isCorrect": "true"
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": 43,
+				"title": "Lesson 22 - Understand language: Pre-Lecture Quiz",
+				"quiz": [
+					{
+						"questionText": "Language understanding involves looking for fixed words:",
+						"answerOptions": [
+							{
+								"answerText": "True",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "False",
+								"isCorrect": "true"
+							}
+						]
+					},
+					{
+						"questionText": "Language understanding only understands English:",
+						"answerOptions": [
+							{
+								"answerText": "True",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "False",
+								"isCorrect": "true"
+							}
+						]
+					},
+					{
+						"questionText": "Cloud providers have AI services that can understand language:",
+						"answerOptions": [
+							{
+								"answerText": "True",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "False",
+								"isCorrect": "false"
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": 44,
+				"title": "Lesson 22 - Understand language: Post-Lecture Quiz",
+				"quiz": [
+					{
+						"questionText": "Sentences are understood by being broken down into:",
+						"answerOptions": [
+							{
+								"answerText": "Ideas and explanations",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "Intents and entities",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "Imps and elves",
+								"isCorrect": "false"
+							}
+						]
+					},
+					{
+						"questionText": "The Microsoft service for language understanding is called:",
+						"answerOptions": [
+							{
+								"answerText": "LUIS",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "Luigi",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "Jarvis",
+								"isCorrect": "false"
+							}
+						]
+					},
+					{
+						"questionText": "In the sentence 'set a 3 minute timer' the:",
+						"answerOptions": [
+							{
+								"answerText": "The intent is 3 minutes and the entity is a timer",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "The intent is minutes, and the entity is 3 timers",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "The intent is set a timer and the entity is 3 minutes",
+								"isCorrect": "true"
+							}
+						]
+					}
+				]
 			}
 		]
 	}
