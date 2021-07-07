@@ -1622,7 +1622,7 @@
 			},
 			{
 				"id": 33,
-				"title": "Lesson 17 - Run  your fruit detector on the edge: Pre-Lecture Quiz",
+				"title": "Lesson 17 - Run your fruit detector on the edge: Pre-Lecture Quiz",
 				"quiz": [
 					{
 						"questionText": "Edge computing can be more secure than cloud computing.",
@@ -1667,7 +1667,7 @@
 			},
 			{
 				"id": 34,
-				"title": "Lesson 17 - Run  your fruit detector on the edge: Post-Lecture Quiz",
+				"title": "Lesson 17 - Run your fruit detector on the edge: Post-Lecture Quiz",
 				"quiz": [
 					{
 						"questionText": "What kind of format or domain do we need for Custom Vision ML models to properly run on an edge device?",
@@ -1733,6 +1733,724 @@
 							{
 								"answerText": "Take images on the edge device and check the prediction output.",
 								"isCorrect": "false"
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": 35,
+				"title": "Lesson 18 - Trigger fruit quality detection from a sensor: Pre-Lecture Quiz",
+				"quiz": [
+					{
+						"questionText": "Which part of your IoT application gathers data?",
+						"answerOptions": [
+							{
+								"answerText": "Things",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "Cloud services",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "Edge devices",
+								"isCorrect": "false"
+							}
+						]
+					},
+					{
+						"questionText": "The only outputs of an IoT application are actuators.",
+						"answerOptions": [
+							{
+								"answerText": "True",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "False",
+								"isCorrect": "true"
+							}
+						]
+					},
+					{
+						"questionText": "Things don't need to connect directly to IoT Hub, they can use edge devices as gateways.",
+						"answerOptions": [
+							{
+								"answerText": "True",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "False",
+								"isCorrect": "false"
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": 36,
+				"title": "Lesson 18 - Trigger fruit quality detection from a sensor: Post-Lecture Quiz",
+				"quiz": [
+					{
+						"questionText": "The three components of architecting an IoT application are",
+						"answerOptions": [
+							{
+								"answerText": "Things, Insights, Actions",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "Things, Internet, Databases",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "AI, Blockchain, FizzBuzzers",
+								"isCorrect": "false"
+							}
+						]
+					},
+					{
+						"questionText": "The component that communicates between the things and the components that create insights is:",
+						"answerOptions": [
+							{
+								"answerText": "Azure Functions",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "IoT Hub",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "Azure Maps",
+								"isCorrect": "false"
+							}
+						]
+					},
+					{
+						"questionText": "How do time of flight proximity sensors work?",
+						"answerOptions": [
+							{
+								"answerText": "They send laser beams and time how long till they bounce off an object",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "They use sound and measure how long till the sound bounces off an object",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "They use very large rulers",
+								"isCorrect": "false"
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": 37,
+				"title": "Lesson 19 - Train a stock detector: Pre-Lecture Quiz",
+				"quiz": [
+					{
+						"questionText": "AI models cannot be used to count objects?",
+						"answerOptions": [
+							{
+								"answerText": "True",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "False",
+								"isCorrect": "true"
+							}
+						]
+					},
+					{
+						"questionText": "IoT and AI can be used in retail for:",
+						"answerOptions": [
+							{
+								"answerText": "Stock checking only",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "A wide range of uses including stock checking, monitoring for mask where where required, tracking footfall, automated billing",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "IoT and AI cannot be used in retail",
+								"isCorrect": "false"
+							}
+						]
+					},
+					{
+						"questionText": "Object detection involves:",
+						"answerOptions": [
+							{
+								"answerText": "Detecting objects in an image and tracking their location and probability",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "Counting objects in an image only",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "Classifying images",
+								"isCorrect": "false"
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": 38,
+				"title": "Lesson 19 - Train a stock detector: Post-Lecture Quiz",
+				"quiz": [
+					{
+						"questionText": "Object detectors only return one result no matter how many objects are detected",
+						"answerOptions": [
+							{
+								"answerText": "True",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "False",
+								"isCorrect": "false"
+							}
+						]
+					},
+					{
+						"questionText": "What is the best domain to use in Custom Vision for stock counting",
+						"answerOptions": [
+							{
+								"answerText": "General",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "Food",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "Products on shelves",
+								"isCorrect": "true"
+							}
+						]
+					},
+					{
+						"questionText": "At least how many images do you need to train an object detector?",
+						"answerOptions": [
+							{
+								"answerText": "1",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "15",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "100",
+								"isCorrect": "false"
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": 39,
+				"title": "Lesson 20 - Check stock from an IoT device: Pre-Lecture Quiz",
+				"quiz": [
+					{
+						"questionText": "IoT devices are not powerful enough to use object detectors",
+						"answerOptions": [
+							{
+								"answerText": "True",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "False",
+								"isCorrect": "true"
+							}
+						]
+					},
+					{
+						"questionText": "Object detectors give you:",
+						"answerOptions": [
+							{
+								"answerText": "The count of objects detected",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "The count and location of objects detected",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "The count, location and probability of objects detected",
+								"isCorrect": "true"
+							}
+						]
+					},
+					{
+						"questionText": "Object detectors can be used to detect where missing stock should be to allow robots to automatically stock shelves",
+						"answerOptions": [
+							{
+								"answerText": "True",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "False",
+								"isCorrect": "false"
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": 40,
+				"title": "Lesson 20 - Check stock from an IoT device: Post-Lecture Quiz",
+				"quiz": [
+					{
+						"questionText": "To count stock you only need to consider the count of objects detected by the object detector",
+						"answerOptions": [
+							{
+								"answerText": "True",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "False",
+								"isCorrect": "true"
+							}
+						]
+					},
+					{
+						"questionText": "Bounding boxes use:",
+						"answerOptions": [
+							{
+								"answerText": "Percentage based coordinates",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "Pixel based coordinates",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "Centimeter based coordinates",
+								"isCorrect": "false"
+							}
+						]
+					},
+					{
+						"questionText": "Can detected objects overlap?",
+						"answerOptions": [
+							{
+								"answerText": "Yes",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "No",
+								"isCorrect": "false"
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": 41,
+				"title": "Lesson 21 - Recognize speech with an IoT device: Pre-Lecture Quiz",
+				"quiz": [
+					{
+						"questionText": "IoT devices can be used to recognize speech:",
+						"answerOptions": [
+							{
+								"answerText": "True",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "False",
+								"isCorrect": "false"
+							}
+						]
+					},
+					{
+						"questionText": "Voice assistants should send all the audio they hear to the cloud for processing:",
+						"answerOptions": [
+							{
+								"answerText": "True",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "False",
+								"isCorrect": "true"
+							}
+						]
+					},
+					{
+						"questionText": "To recognize speech, IoT devices need large microphones:",
+						"answerOptions": [
+							{
+								"answerText": "True",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "False",
+								"isCorrect": "true"
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": 42,
+				"title": "Lesson 21 - Recognize speech with an IoT device: Post-Lecture Quiz",
+				"quiz": [
+					{
+						"questionText": "Microphones are what type of sensor?",
+						"answerOptions": [
+							{
+								"answerText": "Digital",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "Analog",
+								"isCorrect": "true"
+							}
+						]
+					},
+					{
+						"questionText": "Sound waves are converted to digital signals using:",
+						"answerOptions": [
+							{
+								"answerText": "Pulse Code Modulation",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "Pure Code Multiplication",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "Pulse Width Maximization",
+								"isCorrect": "false"
+							}
+						]
+					},
+					{
+						"questionText": "1 second of 16-bit audio sampled at 16KHz is how large?",
+						"answerOptions": [
+							{
+								"answerText": "1KB",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "16KB",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "32KB",
+								"isCorrect": "true"
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": 43,
+				"title": "Lesson 22 - Understand language: Pre-Lecture Quiz",
+				"quiz": [
+					{
+						"questionText": "Language understanding involves looking for fixed words:",
+						"answerOptions": [
+							{
+								"answerText": "True",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "False",
+								"isCorrect": "true"
+							}
+						]
+					},
+					{
+						"questionText": "Language understanding involves:",
+						"answerOptions": [
+							{
+								"answerText": "Looking at the individual words in a sentence and trying to get the meaning",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "Finding pre-defined sentences and using those to get the meaning",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "Looking at the whole sentence and trying to get the meaning using the context of the words",
+								"isCorrect": "true"
+							}
+						]
+					},
+					{
+						"questionText": "Cloud providers have AI services that can understand language:",
+						"answerOptions": [
+							{
+								"answerText": "True",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "False",
+								"isCorrect": "false"
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": 44,
+				"title": "Lesson 22 - Understand language: Post-Lecture Quiz",
+				"quiz": [
+					{
+						"questionText": "Sentences are understood by being broken down into:",
+						"answerOptions": [
+							{
+								"answerText": "Ideas and explanations",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "Intents and entities",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "Imps and elves",
+								"isCorrect": "false"
+							}
+						]
+					},
+					{
+						"questionText": "The Microsoft service for language understanding is called:",
+						"answerOptions": [
+							{
+								"answerText": "LUIS",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "Luigi",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "Jarvis",
+								"isCorrect": "false"
+							}
+						]
+					},
+					{
+						"questionText": "In the sentence 'set a 3 minute timer' the:",
+						"answerOptions": [
+							{
+								"answerText": "The intent is 3 minutes and the entity is a timer",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "The intent is minutes, and the entity is 3 timers",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "The intent is set a timer and the entity is 3 minutes",
+								"isCorrect": "true"
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": 45,
+				"title": "Lesson 23 - Set a timer and provide spoken feedback: Pre-Lecture Quiz",
+				"quiz": [
+					{
+						"questionText": "Speech generated by AI models sounds monotonous and robotic",
+						"answerOptions": [
+							{
+								"answerText": "True",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "False",
+								"isCorrect": "true"
+							}
+						]
+					},
+					{
+						"questionText": "AI models can only create speech in American English:",
+						"answerOptions": [
+							{
+								"answerText": "True",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "False",
+								"isCorrect": "true"
+							}
+						]
+					},
+					{
+						"questionText": "AI models would convert 1234 into which spoken phrase:",
+						"answerOptions": [
+							{
+								"answerText": "One two three four",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "One thousand two hundred and thirty four",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "It can be 'one two three four' or 'one thousand two hundred and thirty four' depending on the context",
+								"isCorrect": "true"
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": 46,
+				"title": "Lesson 23 - Set a timer and provide spoken feedback: Post-Lecture Quiz",
+				"quiz": [
+					{
+						"questionText": "The three parts of speech generation are:",
+						"answerOptions": [
+							{
+								"answerText": "Text analysis, understanding analysis, sound generation",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "Text analysis, linguistic analysis, wave form generation",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "Word analysis, audio production",
+								"isCorrect": "false"
+							}
+						]
+					},
+					{
+						"questionText": "Can speech generation models be trained to sound like existing people:",
+						"answerOptions": [
+							{
+								"answerText": "True",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "False",
+								"isCorrect": "false"
+							}
+						]
+					},
+					{
+						"questionText": "The markup language used to encode speech is called:",
+						"answerOptions": [
+							{
+								"answerText": "SSML",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "MSSL",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "SpeechXML",
+								"isCorrect": "false"
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": 47,
+				"title": "Lesson 24 - Support multiple languages: Pre-Lecture Quiz",
+				"quiz": [
+					{
+						"questionText": "Language understanding only understands English:",
+						"answerOptions": [
+							{
+								"answerText": "True",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "False",
+								"isCorrect": "true"
+							}
+						]
+					},
+					{
+						"questionText": "AI speech to text models understand multiple languages:",
+						"answerOptions": [
+							{
+								"answerText": "True",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "False",
+								"isCorrect": "false"
+							}
+						]
+					},
+					{
+						"questionText": "AI translation involves swapping individual words for their translated version:",
+						"answerOptions": [
+							{
+								"answerText": "True",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "false",
+								"isCorrect": "true"
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": 48,
+				"title": "Lesson 24 - Support multiple languages: Post-Lecture Quiz",
+				"quiz": [
+					{
+						"questionText": "Machine translation has been researched for nearly:",
+						"answerOptions": [
+							{
+								"answerText": "70 years",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "17 years",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "7 years",
+								"isCorrect": "false"
+							}
+						]
+					},
+					{
+						"questionText": "AI language translators are called:",
+						"answerOptions": [
+							{
+								"answerText": "Noddy translators",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "Neural translators",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "Nothing - AI cannot be used for translation",
+								"isCorrect": "false"
+							}
+						]
+					},
+					{
+						"questionText": "What alien languages does the Microsoft translator support:",
+						"answerOptions": [
+							{
+								"answerText": "Na'vi",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "Alienese",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "Klingon",
+								"isCorrect": "true"
 							}
 						]
 					}
