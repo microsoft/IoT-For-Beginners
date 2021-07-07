@@ -26,11 +26,13 @@ The projects cover the journey of food from farm to table. This includes farming
 
 > **Students**, to use this curriculum on your own, fork the entire repo and complete the exercises on your own, starting with a pre-lecture quiz, then reading the lecture and completing the rest of the activities. Try to create the projects by comprehending the lessons rather than copying the solution code; however that code is available in the /solutions folders in each project-oriented lesson. Another idea would be to form a study group with friends and go through the content together. For further study, we recommend [Microsoft Learn](https://docs.microsoft.com/users/jimbobbennett/collections/ke2ehd351jopwr?WT.mc_id=academic-17441-jabenn).
 
+<!--
 > Your promo video here
 
 [![Promo video](./images/iot-for-beginners.png)](https://youtube.com/watch?v=R1wrdtmBSII "Promo video")
 
 > 💁 Click the image above for a video about the project!
+-->
 
 ## Pedagogy
 
@@ -42,13 +44,15 @@ In addition, a low-stakes quiz before a class sets the intention of the student 
 
 Each project is be based around real-world hardware available to students and hobbyists. Each project looks into the specific project domain, providing relevant background knowledge. To be a successful developer it helps to understand the domain in which you are solving problems, providing this background knowledge allows students to think about their IoT solutions and learnings in the context of the kind of real-world problem that they might be asked to solve as an IoT developer. Students learn the 'why' of the solutions they are building, and get an appreciation of the end user.
 
-We have two choices of IoT hardware to use for the projects depending on personal preference, programming language knowledge or preferences, learning goals and availability. We have also provided a 'virtual hardware' version for those who don't have access to hardware, or want to learn mode before committing to a purchase. You can read more and find a 'shopping list' on the [hardware page](./hardware.md).
+## Hardware
+
+We have two choices of IoT hardware to use for the projects depending on personal preference, programming language knowledge or preferences, learning goals and availability. We have also provided a 'virtual hardware' version for those who don't have access to hardware, or want to learn mode before committing to a purchase. You can read more and find a 'shopping list' on the [hardware page](./hardware.md), including links to buy complete kits from our friends at Seeed Studio.
 
 > 💁 Find our [Code of Conduct](CODE_OF_CONDUCT.md), [Contributing](CONTRIBUTING.md), and [Translation](TRANSLATIONS.md) guidelines. We welcome your constructive feedback!
 
 ## Each lesson includes:
 
-- optional sketchnote
+- sketchnote
 - optional supplemental video
 - pre-lesson warmup quiz
 - written lesson
@@ -93,6 +97,10 @@ We have two choices of IoT hardware to use for the projects depending on persona
 ## Offline access
 
 You can run this documentation offline by using [Docsify](https://docsify.js.org/#/). Fork this repo, [install Docsify](https://docsify.js.org/#/quickstart) on your local machine, and then in the root folder of this repo, type `docsify serve`. The website will be served on port 3000 on your localhost: `localhost:3000`.
+
+## PDF
+
+A PDF of all of the lessons can be found [here](pdf/readme.pdf)
 
 ## Image attributions
 
