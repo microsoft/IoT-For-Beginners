@@ -1,5 +1,9 @@
 # Recognize speech with an IoT device
 
+![A sketchnote overview of this lesson](../../../sketchnotes/lesson-21.png)
+
+> Sketchnote by [Nitya Narasimhan](https://github.com/nitya). Click the image for a larger version.
+
 This video gives an overview of the Azure speech service, a topic that will be covered in this lesson:
 
 [![How to get started using your Cognitive Services Speech resource from the Microsoft Azure YouTube channel](https://img.youtube.com/vi/iW0Fw0l3mrA/0.jpg)](https://www.youtube.com/watch?v=iW0Fw0l3mrA)

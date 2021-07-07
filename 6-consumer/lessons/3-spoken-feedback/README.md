@@ -1,5 +1,9 @@
 # Set a timer and provide spoken feedback
 
+![A sketchnote overview of this lesson](../../../sketchnotes/lesson-23.png)
+
+> Sketchnote by [Nitya Narasimhan](https://github.com/nitya). Click the image for a larger version.
+
 ## Pre-lecture quiz
 
 [Pre-lecture quiz](https://brave-island-0b7c7f50f.azurestaticapps.net/quiz/45)

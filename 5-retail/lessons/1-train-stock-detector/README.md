@@ -1,5 +1,9 @@
 # Train a stock detector
 
+![A sketchnote overview of this lesson](../../../sketchnotes/lesson-19.png)
+
+> Sketchnote by [Nitya Narasimhan](https://github.com/nitya). Click the image for a larger version.
+
 This video gives an overview of Object Detection the Azure Custom Vision service, a service that will be covered in this lesson.
 
 [![Custom Vision 2 - Object Detection Made Easy | The Xamarin Show](https://img.youtube.com/vi/wtTYSyBUpFc/0.jpg)](https://www.youtube.com/watch?v=wtTYSyBUpFc)
