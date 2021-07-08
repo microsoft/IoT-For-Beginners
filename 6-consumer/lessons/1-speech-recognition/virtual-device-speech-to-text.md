@@ -29,7 +29,7 @@ On Windows, Linux, and macOS, the speech services Python SDK can be used to list
     > pip install --upgrade pip
     > ```
 
-1. Add the following imports to the `app,py` file:
+1. Add the following imports to the `app.py` file:
 
     ```python
     import requests

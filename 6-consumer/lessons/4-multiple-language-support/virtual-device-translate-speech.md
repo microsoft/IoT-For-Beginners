@@ -84,7 +84,7 @@ The speech service can take speech and not only convert to text in the same lang
 
 ## Translate text using the translator service
 
-The speech service doesn't support translation pf text back to speech, instead you can use the Translator service to translate the text. This service has a REST API you can use to translate the text.
+The speech service doesn't support translation of text back to speech, instead you can use the Translator service to translate the text. This service has a REST API you can use to translate the text.
 
 ### Task - use the translator resource to translate text
 
