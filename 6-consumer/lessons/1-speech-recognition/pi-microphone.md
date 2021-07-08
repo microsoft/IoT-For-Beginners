@@ -138,6 +138,6 @@ The microphone and speakers need to be connected, and configured.
 
     You will hear the audio bing played back through the speakers. Adjust the output volume on your speaker as necessary.
 
-1. If you need to adjust the volume of the built-in microphone port, or adjust the gain of the microphone, you can use the `alsamixer` utility. You can read more on this utility on thw [Linux alsamixer man page](https://linux.die.net/man/1/alsamixer)
+1. If you need to adjust the volume of the built-in microphone port, or adjust the gain of the microphone, you can use the `alsamixer` utility. You can read more on this utility on the [Linux alsamixer man page](https://linux.die.net/man/1/alsamixer)
 
 1. If you get errors playing back the audio, check the card you set as the `defaults.pcm.card` in the `alsa.conf` file.

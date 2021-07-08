@@ -2,7 +2,7 @@
 
 In Azure, you can create a virtual machine - a computer in the cloud that you can configure any way you wish and run your own software on it.
 
-> 💁 You can read more about virtual machines on teh [Virtual Machine page on Wikipedia](https://wikipedia.org/wiki/Virtual_machine).
+> 💁 You can read more about virtual machines on the [Virtual Machine page on Wikipedia](https://wikipedia.org/wiki/Virtual_machine).
 
 ## Task - Set up an IoT Edge virtual machine
 
