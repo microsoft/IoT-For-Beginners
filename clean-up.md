@@ -37,3 +37,5 @@ Are you sure you want to perform this operation? (y/n):
 Enter `y` to confirm and delete the Resource Group.
 
 It will take a while to delete all the services.
+
+> 💁 You can read more about deleting resource groups on the [Azure Resource Manager resource group and resource deletion documentation on Microsoft Docs](https://docs.microsoft.com/azure/azure-resource-manager/management/delete-resource-group?tabs=azure-cli&WT.mc_id=academic-17441-jabenn)
