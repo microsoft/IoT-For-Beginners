@@ -98,7 +98,7 @@ Once each buffer has been captured, it can be written to the flash memory. Flash
     }
     ```
 
-    This configures the flash memory on teh Wio Terminal to write to, and sets up the buffers based off the grain size of the flash memory. This is in an `init` method, rather than a constructor as this needs to be called after the flash memory has been set up in the `setup` function.
+    This configures the flash memory on the Wio Terminal to write to, and sets up the buffers based off the grain size of the flash memory. This is in an `init` method, rather than a constructor as this needs to be called after the flash memory has been set up in the `setup` function.
 
 1. Add the following code to the `public` section:
 
@@ -157,7 +157,7 @@ Once each buffer has been captured, it can be written to the flash memory. Flash
 
     | Constant              | Value  | Description |
     | --------------------- | -----: | - |
-    | RATE                  | 16000  | The sample rate for the audio. !6,000 is 16KHz |
+    | RATE                  | 16000  | The sample rate for the audio. 16,000 is 16KHz |
     | SAMPLE_LENGTH_SECONDS | 4      | The length of audio to capture. This is set to 4 seconds. To record longer audio, increase this. |
     | SAMPLES               | 64000  | The total number of audio samples that will be captured. Set to the sample rate * the number of seconds |
     | BUFFER_SIZE           | 128044 | The size of the audio buffer to capture. Audio will be captured as a WAV file, which is 44 bytes of header, then 128,000 bytes of audio date (each sample is 2 bytes) |
@@ -517,7 +517,7 @@ Once each buffer has been captured, it can be written to the flash memory. Flash
     }
     ```
 
-    This code checks hte C button, and if this is pressed and recording hasn't started, then the `_isRecording` field of the `Mic` class is set to true. This will cause the `audioCallback` method of the `Mic` class to store audio until 4 seconds has been captured. Once 4 seconds of audio has been captured, the `_isRecording` field is set to false, and the `_isRecordingReady` field is set to true. This is then checked in the `loop` function, and when true the `processAudio` function is called, then the mic class is reset.
+    This code checks the C button, and if this is pressed and recording hasn't started, then the `_isRecording` field of the `Mic` class is set to true. This will cause the `audioCallback` method of the `Mic` class to store audio until 4 seconds has been captured. Once 4 seconds of audio has been captured, the `_isRecording` field is set to false, and the `_isRecordingReady` field is set to true. This is then checked in the `loop` function, and when true the `processAudio` function is called, then the mic class is reset.
 
 1. Build this code, upload it to your Wio Terminal and test it out through the serial monitor. Press the C button (the one on the left-hand side, closest to the power switch), and speak. 4 seconds of audio will be captured.
 

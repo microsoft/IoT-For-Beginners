@@ -157,7 +157,7 @@ Wake word detection usually uses a technique know an TinyML, that is converting 
 
 To avoid the complexity of training and using a wake word model, the smart timer you are building in this lesson will use a button to turn on the speech recognition.
 
-> 💁 If you want to try creating a wake word detection model to run on the Wio Terminal or Raspberry Pi, check out this [Responding to your voice tutorial by Edge Impulse](https://docs.edgeimpulse.com/docs/responding-to-your-voice). If you want to use your computer to do this, you can try the [Get started with Custom Keyword quickstart on the Microsoft docs](https://docs.microsoft.com/azure/cognitive-services/speech-service/keyword-recognition-overview?WT.mc_id=academic-17441-jabenn).
+> 💁 If you want to try creating a wake word detection model to run on the Wio Terminal or Raspberry Pi, check out this [responding to your voice tutorial by Edge Impulse](https://docs.edgeimpulse.com/docs/responding-to-your-voice). If you want to use your computer to do this, you can try the [get started with Custom Keyword quickstart on the Microsoft docs](https://docs.microsoft.com/azure/cognitive-services/speech-service/keyword-recognition-overview?WT.mc_id=academic-17441-jabenn).
 
 ## Convert speech to text
 
@@ -214,9 +214,9 @@ What do you think the future holds for speech recognition?
 
 ## Review & Self Study
 
-* Read about the different microphone types and how they work on the [What's the difference between dynamic and condenser microphones article on Musician's HQ](https://musicianshq.com/whats-the-difference-between-dynamic-and-condenser-microphones/).
-* Read more on the Cognitive Services speech service on the [Speech service documentation on Microsoft Docs](https://docs.microsoft.com/azure/cognitive-services/speech-service/?WT.mc_id=academic-17441-jabenn)
-* Read about keyword spotting on the [Keyword recognition documentation on Microsoft Docs](https://docs.microsoft.com/azure/cognitive-services/speech-service/keyword-recognition-overview?WT.mc_id=academic-17441-jabenn)
+* Read about the different microphone types and how they work on the [what's the difference between dynamic and condenser microphones article on Musician's HQ](https://musicianshq.com/whats-the-difference-between-dynamic-and-condenser-microphones/).
+* Read more on the Cognitive Services speech service on the [speech service documentation on Microsoft Docs](https://docs.microsoft.com/azure/cognitive-services/speech-service/?WT.mc_id=academic-17441-jabenn)
+* Read about keyword spotting on the [keyword recognition documentation on Microsoft Docs](https://docs.microsoft.com/azure/cognitive-services/speech-service/keyword-recognition-overview?WT.mc_id=academic-17441-jabenn)
 
 ## Assignment
 
