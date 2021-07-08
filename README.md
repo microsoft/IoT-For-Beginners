@@ -107,6 +107,17 @@ npm i
 npm run convert
 ```
 
+## Help Wanted!
+
+Would you like to contribute a translation? Please read our [translation guidelines](TRANSLATIONS.md) and add input [to one of the translations issues](https://github.com/microsoft/IoT-For-Beginners/issues). If you want to translate into a new language, please raise a new issue for tracking.
+
+## Other Curricula
+
+Our team produces other curricula! Check out:
+
+- [Web Dev for Beginners](https://aka.ms/webdev-beginners)
+- [ML for Beginners](https://aka.ms/ml-beginners)
+
 ## Image attributions
 
 You can find all the attributions for the images used in this curriculum where required in the [Attributions](./attributions.md).
