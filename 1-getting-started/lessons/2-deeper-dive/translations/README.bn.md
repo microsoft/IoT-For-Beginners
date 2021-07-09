@@ -1,5 +1,8 @@
 # IoT এর আরো গভীরে
 
+![A sketchnote overview of this lesson](../../../../sketchnotes/lesson-2.jpg)
+>স্কেচনোটটি তৈরী করেছেন [Nitya Narasimhan](https://github.com/nitya). বড় সংস্করণে দেখার জন্য ছবিটিতে ক্লিক করতে হবে।
+
 ## লেকচার পূর্ববর্তী কুইজ
 
 [লেকচার পূর্ববর্তী কুইজ](https://brave-island-0b7c7f50f.azurestaticapps.net/quiz/3)
