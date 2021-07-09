@@ -87,7 +87,7 @@ To use LUIS, you need to create an authoring resource.
 
     > 💁 There is a field for a prediction resource. You can create a second resource just for prediction, but the free authoring resource allows 1,000 predictions a month which should be enough for development, so you can leave this blank.
 
-1. Read through the guide that appears once you cerate the app to get an understanding of the steps you need to take to train the language understanding model. Close this guide when you are done.
+1. Read through the guide that appears once you create the app to get an understanding of the steps you need to take to train the language understanding model. Close this guide when you are done.
 
 ## Intents and entities
 
@@ -102,7 +102,7 @@ Some examples:
 | "Cancel my timer"                                   | *cancel a timer* | None                                       |
 | "Order 3 large pineapple pizzas and a caesar salad" | *order food*     | *3 large pineapple pizzas*, *caesar salad* |
 
-✅ With the sentences you though about earlier, what would be the intent and any entities in that sentence?
+✅ With the sentences you thought about earlier, what would be the intent and any entities in that sentence?
 
 To train LUIS, first you set the entities. These can be a fixed list of terms, or learned from the text. For example, you could provide a fixed list of food available from your menu, with variations (or synonyms) of each word, such as *egg plant* and *aubergine* as variations of *aubergine*. LUIS also has pre-built entities that can be used, such as numbers and locations.
 
@@ -262,7 +262,7 @@ For a smart timer, we want a response straight away, so we can tell the user tha
 
 Rather than calling LUIS from the IoT device, you can use serverless code with a different type of trigger - an HTTP trigger. This allows your function app to listen for REST requests, and respond to them. This function will be a REST endpoint your device can call.
 
-> 💁 Although you can call LUIS directly from your IoT device, it's better to use something like serverless code. This way when of you want to change the LUIS app that you call, for example when you train a better model or train a model in a different language, you only have to update your cloud code, not re-deploy code to potentially thousands or millions of IoT device.
+> 💁 Although you can call LUIS directly from your IoT device, it's better to use something like serverless code. This way when you want to change the LUIS app that you call, for example when you train a better model or train a model in a different language, you only have to update your cloud code, not re-deploy code to potentially thousands or millions of IoT device.
 
 ### Task - create a serverless functions app
 
@@ -500,9 +500,9 @@ Rather than calling LUIS from the IoT device, you can use serverless code with a
 
       Find your IP address:
 
-      * On Windows 10, follow the [Find your IP address guide](https://support.microsoft.com/windows/find-your-ip-address-f21a9bbc-c582-55cd-35e0-73431160a1b9?WT.mc_id=academic-17441-jabenn)
-      * On macOS, follow the [How to find you IP address on a Mac guide](https://www.hellotech.com/guide/for/how-to-find-ip-address-on-mac)
-      * On linux, follow the section on finding your private IP address in the [How to find your IP address in Linux guide](https://opensource.com/article/18/5/how-find-ip-address-linux)
+      * On Windows 10, follow the [find your IP address guide](https://support.microsoft.com/windows/find-your-ip-address-f21a9bbc-c582-55cd-35e0-73431160a1b9?WT.mc_id=academic-17441-jabenn)
+      * On macOS, follow the [how to find you IP address on a Mac guide](https://www.hellotech.com/guide/for/how-to-find-ip-address-on-mac)
+      * On linux, follow the section on finding your private IP address in the [how to find your IP address in Linux guide](https://opensource.com/article/18/5/how-find-ip-address-linux)
 
         Once you have your IP address, you will able to access the function at `http://<IP_ADDRESS>:7071/api/text-to-timer`, where `<IP_ADDRESS>` will be your IP address, for example `http://192.168.1.10:7071/api/text-to-timer`.
 
@@ -523,7 +523,7 @@ There are many ways to request the same thing, such as setting a timer. Think of
 ## Review & Self Study
 
 * Read more about LUIS and it's capabilities on the [Language Understanding (LUIS) documentation page on Microsoft docs](https://docs.microsoft.com/azure/cognitive-services/luis/?WT.mc_id=academic-17441-jabenn)
-* Read more about language understanding on the [Natural-language understanding page on Wikipedia](https://wikipedia.org/wiki/Natural-language_understanding)
+* Read more about language understanding on the [natural-language understanding page on Wikipedia](https://wikipedia.org/wiki/Natural-language_understanding)
 * Read more on HTTP triggers in the [Azure Functions HTTP trigger documentation on Microsoft docs](https://docs.microsoft.com/azure/azure-functions/functions-bindings-http-webhook-trigger?tabs=python&WT.mc_id=academic-17441-jabenn)
 
 ## Assignment

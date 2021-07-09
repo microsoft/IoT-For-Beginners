@@ -165,9 +165,9 @@ How can machine translations benefit other IoT applications beyond smart devices
 
 ## Review & Self Study
 
-* Read more on machine translation on the [Machine translation page on Wikipedia](https://wikipedia.org/wiki/Machine_translation)
-* Read more on neural machine translation on the [Neural machine translation page on Wikipedia](https://wikipedia.org/wiki/Neural_machine_translation)
-* Check out the list of supported languages for the Microsoft speech services in the [Language and voice support for the Speech service documentation on Microsoft Docs](https://docs.microsoft.com/azure/cognitive-services/speech-service/language-support?WT.mc_id=academic-17441-jabenn)
+* Read more on machine translation on the [machine translation page on Wikipedia](https://wikipedia.org/wiki/Machine_translation)
+* Read more on neural machine translation on the [neural machine translation page on Wikipedia](https://wikipedia.org/wiki/Neural_machine_translation)
+* Check out the list of supported languages for the Microsoft speech services in the [language and voice support for the Speech service documentation on Microsoft Docs](https://docs.microsoft.com/azure/cognitive-services/speech-service/language-support?WT.mc_id=academic-17441-jabenn)
 
 ## Assignment
 
