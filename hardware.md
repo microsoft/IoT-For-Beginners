@@ -4,7 +4,7 @@ The **T** in IoT is **Things** and refers to devices that interact with the worl
 
 > 💁 You don't need to purchase any IoT hardware to complete the assignments. You can do everything using virtual IoT hardware.
 
-The physical hardware choices are Arduino, or Raspberry Pi. Each platform has it's own upsides and downsides, and these are all covered in one of the initial lessons. Review that lesson to decide which hardware platform you are most interested in learning.
+The physical hardware choices are Arduino, or Raspberry Pi. Each platform has its own upsides and downsides, and these are all covered in one of the initial lessons. If you haven't already decided on a hardware platform, you can review [lesson two of the first project](./1-getting-started/lessons/2-deeper-dive/README.md) to decide which hardware platform you are most interested in learning.
 
 The specific hardware was chosen to reduce the complexity of the lessons and assignments. Although other hardware may work, we cannot guarantee all the assignments will be supported on your device without additional hardware. For example, a lot of Arduino devices do not have WiFi, which is needed to connect to the cloud - the Wio terminal was chosen because it has WiFi built in.
 
