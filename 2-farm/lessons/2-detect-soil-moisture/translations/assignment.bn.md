@@ -20,14 +20,14 @@
 
 গ্র্যাভিমেট্রিক পদ্ধতিতে মাটির আর্দ্রতা গণনা :
 
-![soil moisture % is weight wet minus weight dry, divided by weight dry, times 100](../../../images/gsm-calculation.png)
+![soil moisture % is weight wet minus weight dry, divided by weight dry, times 100](../../../../images/gsm-calculation.png)
 
 * W<sub>wet</sub> = ভেজা মাটির ভর
 * W<sub>dry</sub> = শুষ্ক মাটির ভর
 
 উদাহরণস্বরূপ, ধরি আমাদের কাছে একটি মাটির নমুনা রয়েছে যা ভেজা অবস্থায় ২১২ গ্রাম ও শুকনো অবস্থায় ১৯৭ গ্রাম।
 
-![The calculation filled in](../../../images/gsm-calculation-example.png)
+![The calculation filled in](../../../../images/gsm-calculation-example.png)
 
 * W<sub>wet</sub> = 212g
 * W<sub>dry</sub> = 197g
