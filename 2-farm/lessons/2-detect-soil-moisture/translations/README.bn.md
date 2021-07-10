@@ -1,6 +1,6 @@
 # মাটির আর্দ্রতা নির্ণয়
 
-![A sketchnote overview of this lesson](../../../../sketchnotes/lesson-6.png)
+![A sketchnote overview of this lesson](../../../../sketchnotes/lesson-6.jpg)
 
 > স্কেচনোটটি তৈরী করেছেন [Nitya Narasimhan](https://github.com/nitya). বড় সংস্করণে দেখার জন্য ছবিটিতে ক্লিক করতে হবে।
 > 
