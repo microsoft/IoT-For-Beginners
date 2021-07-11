@@ -145,15 +145,15 @@ Once you have created the edge device registration in your IoT Hub, you can set 
 
 **The IoT Edge runtime only runs Linux containers.** It can be run on Linux, or on Windows using Linux Virtual Machines.
 
-* If you are using a Raspberry Pi as your IoT device, then this runs a supported version of Linux and can host the IoT Edge runtime. Follow the [Install Azure IoT Edge for Linux guide on Microsoft docs](https://docs.microsoft.com/azure/iot-edge/how-to-install-iot-edge?WT.mc_id=academic-17441-jabenn) to install IoT Edge and set the connection string.
+* If you are using a Raspberry Pi as your IoT device, then this runs a supported version of Linux and can host the IoT Edge runtime. Follow the [install Azure IoT Edge for Linux guide on Microsoft docs](https://docs.microsoft.com/azure/iot-edge/how-to-install-iot-edge?WT.mc_id=academic-17441-jabenn) to install IoT Edge and set the connection string.
 
     > 💁 Remember, Raspberry Pi OS is a variant of Debian Linux.
 
-* If you are not using a Raspberry Pi, but have a Linux computer, you can run the IoT Edge runtime. Follow the [Install Azure IoT Edge for Linux guide on Microsoft docs](https://docs.microsoft.com/azure/iot-edge/how-to-install-iot-edge?WT.mc_id=academic-17441-jabenn) to install IoT Edge and set the connection string.
+* If you are not using a Raspberry Pi, but have a Linux computer, you can run the IoT Edge runtime. Follow the [install Azure IoT Edge for Linux guide on Microsoft docs](https://docs.microsoft.com/azure/iot-edge/how-to-install-iot-edge?WT.mc_id=academic-17441-jabenn) to install IoT Edge and set the connection string.
 
-* If you are using Windows, you can install the IoT Edge runtime in a Linux Virtual Machine by following the [Install and start the IoT Edge runtime section of the Deploy your first IoT Edge module to a Windows device quickstart on Microsoft docs](https://docs.microsoft.com/azure/iot-edge/quickstart?WT.mc_id=academic-17441-jabenn#install-and-start-the-iot-edge-runtime). You can stop when you reach the *Deploy a module* section.
+* If you are using Windows, you can install the IoT Edge runtime in a Linux Virtual Machine by following the [install and start the IoT Edge runtime section of the deploy your first IoT Edge module to a Windows device quickstart on Microsoft docs](https://docs.microsoft.com/azure/iot-edge/quickstart?WT.mc_id=academic-17441-jabenn#install-and-start-the-iot-edge-runtime). You can stop when you reach the *Deploy a module* section.
 
-* If you are using macOS, you can create a virtual machine (VM) in the cloud to use for your IoT Edge device. These are computers you can create in the cloud and access over the internet. You can create a Linux VM that has IoT Edge installed. Follow the [Create a virtual machine running IoT Edge guide](vm-iotedge.md) for instructions on how to do this.
+* If you are using macOS, you can create a virtual machine (VM) in the cloud to use for your IoT Edge device. These are computers you can create in the cloud and access over the internet. You can create a Linux VM that has IoT Edge installed. Follow the [create a virtual machine running IoT Edge guide](vm-iotedge.md) for instructions on how to do this.
 
 ## Export your model
 
@@ -463,7 +463,7 @@ Your container can now be deployed to your IoT Edge device. To deploy you need t
 1. Connect to the IoT edge device:
 
     * If you are using a Raspberry Pi to run IoT Edge, connect using ssh either from your terminal, or via a remote SSH session in VS Code
-    * If you are running IoT Edge in a Linux container on Windows, follow the steps in the [Verify successful configuration guide](https://docs.microsoft.com/azure/iot-edge/how-to-install-iot-edge-on-windows?view=iotedge-2018-06&tabs=powershell&WT.mc_id=academic-17441-jabenn#verify-successful-configuration) to connect to the IoT Edge device.
+    * If you are running IoT Edge in a Linux container on Windows, follow the steps in the [verify successful configuration guide](https://docs.microsoft.com/azure/iot-edge/how-to-install-iot-edge-on-windows?view=iotedge-2018-06&tabs=powershell&WT.mc_id=academic-17441-jabenn#verify-successful-configuration) to connect to the IoT Edge device.
     * If you are running IoT Edge on a virtual machine, you can SSH into the machine using the `adminUsername` and `password` you set when creating the VM, and using either the IP address or DNS name:
 
         ```sh
@@ -527,9 +527,9 @@ Your container can now be deployed to your IoT Edge device. To deploy you need t
     * If you are on the same machine that IoT Edge is running, you can use `localhost` as the host name.
     * If you are using a VM, you can use either the IP address or the DNS name of the VM
     * Otherwise you can obtain the IP address of the machine running IoT Edge:
-      * On Windows 10, follow the [Find your IP address guide](https://support.microsoft.com/windows/find-your-ip-address-f21a9bbc-c582-55cd-35e0-73431160a1b9?WT.mc_id=academic-17441-jabenn)
-      * On macOS, follow the [How to find you IP address on a Mac guide](https://www.hellotech.com/guide/for/how-to-find-ip-address-on-mac)
-      * On linux, follow the section on finding your private IP address in the [How to find your IP address in Linux guide](https://opensource.com/article/18/5/how-find-ip-address-linux)
+      * On Windows 10, follow the [find your IP address guide](https://support.microsoft.com/windows/find-your-ip-address-f21a9bbc-c582-55cd-35e0-73431160a1b9?WT.mc_id=academic-17441-jabenn)
+      * On macOS, follow the [how to find you IP address on a Mac guide](https://www.hellotech.com/guide/for/how-to-find-ip-address-on-mac)
+      * On linux, follow the section on finding your private IP address in the [how to find your IP address in Linux guide](https://opensource.com/article/18/5/how-find-ip-address-linux)
 
 1. You can test the container with a local file by running the following curl command:
 
@@ -603,8 +603,8 @@ Do some timings and compare if the call to your edge device is faster or slower 
 ## Review & Self Study
 
 * Read more about containers on the [OS-level virtualization page on Wikipedia](https://wikipedia.org/wiki/OS-level_virtualization)
-* Read more on edge computing, with an emphasis on how 5G can help expand edge computing in the [What is edge computing and why does it matter? article on NetworkWorld](https://www.networkworld.com/article/3224893/what-is-edge-computing-and-how-it-s-changing-the-network.html)
-* Learn more about running AI services in IoT Edge by watching the [Learn How to Use Azure IoT Edge on a Pre-Built AI Service on the Edge to do Language Detection episode of Learn Live on Microsoft Channel9](https://channel9.msdn.com/Shows/Learn-Live/Sharpen-Your-AI-Edge-Skills-Episode-4-Learn-How-to-Use-Azure-IoT-Edge-on-a-Pre-Built-AI-Service-on-t?WT.mc_id=academic-17441-jabenn)
+* Read more on edge computing, with an emphasis on how 5G can help expand edge computing in the [what is edge computing and why does it matter? article on NetworkWorld](https://www.networkworld.com/article/3224893/what-is-edge-computing-and-how-it-s-changing-the-network.html)
+* Learn more about running AI services in IoT Edge by watching the [learn how to use Azure IoT Edge on a pre-built AI service on the Edge to do language detection episode of Learn Live on Microsoft Channel9](https://channel9.msdn.com/Shows/Learn-Live/Sharpen-Your-AI-Edge-Skills-Episode-4-Learn-How-to-Use-Azure-IoT-Edge-on-a-Pre-Built-AI-Service-on-t?WT.mc_id=academic-17441-jabenn)
 
 ## Assignment
 

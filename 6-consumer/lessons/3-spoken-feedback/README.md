@@ -119,9 +119,9 @@ SSML has ways to change how words are spoken, such as adding emphasis to certain
 
 ## Review & Self Study
 
-* Read more on speech synthesis on the [Speech synthesis page on Wikipedia](https://wikipedia.org/wiki/Speech_synthesis)
-* Read more on ways criminals are using speech synthesis to steal on the [Fake voices 'help cyber crooks steal cash' story on BBC news](https://www.bbc.com/news/technology-48908736)
-* Learn more about the risks to voice actors from synthesized versions of their voices in the [This TikTok Lawsuit Is Highlighting How AI Is Screwing Over Voice Actors article on Vice](https://www.vice.com/en/article/z3xqwj/this-tiktok-lawsuit-is-highlighting-how-ai-is-screwing-over-voice-actors)
+* Read more on speech synthesis on the [speech synthesis page on Wikipedia](https://wikipedia.org/wiki/Speech_synthesis)
+* Read more on ways criminals are using speech synthesis to steal on the [fake voices 'help cyber crooks steal cash' story on BBC news](https://www.bbc.com/news/technology-48908736)
+* Learn more about the risks to voice actors from synthesized versions of their voices in the [this TikTok lawsuit is highlighting how AI is screwing over voice actors article on Vice](https://www.vice.com/en/article/z3xqwj/this-tiktok-lawsuit-is-highlighting-how-ai-is-screwing-over-voice-actors)
 
 ## Assignment
 
