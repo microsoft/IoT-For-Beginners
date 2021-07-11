@@ -3,7 +3,7 @@
 [সীড স্টুডিও](https://www.seeedstudio.com/Wio-Terminal-p-4509.html) এর  Wio Terminal  একটি আরডুইনো সাপোর্টেড মাইক্রোকন্ট্রোলার, যাতে  ওয়াইফাই সংযোগ এবং কিছু সেন্সর ও অ্যাকচুয়েটর বিল্ট-ইন রয়েছে। এছাড়াও এর সাথে রয়েছে কিছু পোর্ট, অতিরিক্ত সেন্সর ও অ্যাকচুয়েটর সংযোগ এবং এটি নির্মাণ করা হয়েছে একটি হার্ডওয়্যার ইকোসিস্টেম  ব্যবহার করে যার নাম
 [Grove](https://www.seeedstudio.com/category/Grove-c-1003.html).
 
-![A Seeed studios Wio Terminal](../../../images/wio-terminal.png)
+![A Seeed studios Wio Terminal](../../../../images/wio-terminal.png)
 
 ## সেটআপ
 
@@ -44,15 +44,15 @@ Wio Terminal ব্যবহার করার জন্য, আমাদের
 
 ৩. আমরা platformIO আইকনটি সাইড মেন্যু বারে দেখতে পাবো:
 
-    ![The Platform IO menu option](../../../images/vscode-platformio-menu.png)
+   ![The Platform IO menu option](../../../../images/vscode-platformio-menu.png)
 
-    এই মেন্যু আইটেমটি সিলেক্ট করে, সিলেক্ট করি *PIO Home -> Open*
+   এই মেন্যু আইটেমটি সিলেক্ট করে, সিলেক্ট করি *PIO Home -> Open*
 
-    ![The Platform IO open option](../../../images/vscode-platformio-home-open.png)
+   ![The Platform IO open option](../../../../images/vscode-platformio-home-open.png)
 
 ৪. Welcome স্ক্রীন থেকে **+ New Project** বাটনটিতে ক্লিক করি।
 
-    ![The new project button](../../../images/vscode-platformio-welcome-new-button.png)
+   ![The new project button](../../../../images/vscode-platformio-welcome-new-button.png)
 
 ৫. প্রজেক্টটিকে *Project Wizard* এ configure করি
 
@@ -66,7 +66,7 @@ Wio Terminal ব্যবহার করার জন্য, আমাদের
 
     1. **Finish** বাটনটিতে ক্লিক করি।
 
-    ![The completed project wizard](../../../images/vscode-platformio-nightlight-project-wizard.png)
+   ![The completed project wizard](../../../../images/vscode-platformio-nightlight-project-wizard.png)
 
     platformIO এখন wio terminal এর কোডগুলোকে compile করার জন্য প্রয়োজনীয় কম্পনেন্টস ডাউনলোড করে নেবে এবং আমাদের প্রজেক্টটি create করে নেবে। পুরো প্রক্রয়াটি সম্পন্ন হতে কয়েক মিনিট সময় লাগতে পারে।
 
@@ -163,7 +163,7 @@ Wio Terminal ব্যবহার করার জন্য, আমাদের
 
     1. 1. টাইপ করি `PlatformIO Upload` আপলোড অপশনটি খুঁজে পাওয়ার জন্য, এরপর  *PlatformIO: Upload* সিলেক্ট করি।
 
-        ![The PlatformIO upload option in the command palette](../../../images/vscode-platformio-upload-command-palette.png)
+        ![The PlatformIO upload option in the command palette](../../../../images/vscode-platformio-upload-command-palette.png)
 
         যদি দরকার হয়, platformIO এখন অটোমেটিক ভাবে কোডটিকে বিল্ড করবে, আপলোড করার পূর্বে।
 
@@ -179,7 +179,7 @@ wio terminal এর একটি serial monitor থাকে যা wio terminal
 
 1. `PlatformIO Serial` টাইপ করি serial monitor অপশনটি খুঁজে পাওয়া জন্য, সিলেক্ট *PlatformIO: Serial Monitor*
 
-    ![The PlatformIO Serial Monitor option in the command palette](../../../images/vscode-platformio-serial-monitor-command-palette.png)
+    ![The PlatformIO Serial Monitor option in the command palette](../../../../images/vscode-platformio-serial-monitor-command-palette.png)
 
     এখন একটি নতুন টার্মিনাল ওপেন হবে যেখানে সিরিয়াল পোর্টের মাধ্যমে যত ডাটা পাঠানো হয়েছে তা দেখা যাবে:
 
