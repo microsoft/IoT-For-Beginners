@@ -410,7 +410,7 @@
 			},
 			{
 				"id": 9,
-				"title": "লেসন ৫ - গাছের বৃদ্ধি অনুমান করা: লেকচার পূর্ববর্তী কুইজ",
+				"title": "লেসন ৫ - উদ্ভিদের বৃদ্ধির পূর্বাভাস: লেকচার পূর্ববর্তী কুইজ",
 				"quiz": [
 					{
 						"questionText": "আইট ডিভাইসগুলি কৃষিক্ষেত্রে সহায়তা করতে ব্যবহার করা যেতে পারে",
@@ -459,7 +459,7 @@
 			},
 			{
 				"id": 10,
-				"title": "লেসন ৫ - গাছের বৃদ্ধি অনুমান করা: লেকচার পরবর্তী কুইজ",
+				"title": "লেসন ৫ - উদ্ভিদের বৃদ্ধির পূর্বাভাস: লেকচার পরবর্তী কুইজ",
 				"quiz": [
 					{
 						"questionText": "উদ্ভিদের বৃদ্ধি তাপমাত্রার উপর নির্ভরশীল",
@@ -1011,7 +1011,129 @@
 						]
 					}
 				]
-			}
+			},
+			{
+				"id": 21,
+				"title": "লেসন ১১ - লোকেশন ট্র্যাকিং: লেকচার পূর্ববর্তী কুইজ",
+				"quiz": [
+					{
+						"questionText": "অবস্থান সুনির্দিষ্ট করতে প্রয়োজন -",
+						"answerOptions": [
+							{
+								"answerText": "কেবল অক্ষাংশ",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "কেবল দ্রাঘিমাংশ",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "অক্ষাংশ এবং দ্রাঘিমাংশ",
+								"isCorrect": "true"
+							}
+						]
+					},
+					{
+						"questionText": "যে ধরণের সেন্সর অবস্থান ট্র্যাক করতে পারে তাদের বলা হয় -",
+						"answerOptions": [
+							{
+								"answerText": "GPS",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "PGP",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "GIF",
+								"isCorrect": "false"
+							}
+						]
+					},
+					{
+						"questionText": "গাড়ির অবস্থান ট্র্যাক করা মূল্যহীন",
+						"answerOptions": [
+							{
+								"answerText": "সত্য",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "মিথ্যা",
+								"isCorrect": "true"
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": 22,
+				"title": "লেসন ১১ - লোকেশন ট্র্যাকিং: লেকচার পরবর্তী কুইজ"",
+				"quiz": [
+					{
+						"questionText": "সেন্সর ব্যবহার করে জিপিএস ডেটা প্রেরণে প্রয়োজন হয় ",
+						"answerOptions": [
+							{
+								"answerText": "অক্ষাংশ এবং দ্রাঘিমাংশ স্থানাঙ্ক",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "ঠিকানা",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "NMEA sentences",
+								"isCorrect": "true"
+							}
+						]
+					},
+					{
+						"questionText": "একটি ভাল জিপিএস ফিক্স পেতে আপনার কমপক্ষে কতটি স্যাটেলাইট থেকে সিগন্যাল গ্রহণ করা দরকার ? ",
+						"answerOptions": [
+							{
+								"answerText": "1",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "2",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "3",
+								"isCorrect": "true"
+							}
+						]
+					},
+					{
+						"questionText": "জিপিএস সেন্সরগুলি ডেটা প্রেরণ করে কোনটির মাধ্যমে",
+						"answerOptions": [
+							{
+								"answerText": "SPI",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "UART",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "ইমেইল",
+								"isCorrect": "false"
+							}
+						]
+					}
+				]
+			},
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
 		]
 	}
 ]
