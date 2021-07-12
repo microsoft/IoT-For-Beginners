@@ -788,7 +788,7 @@
 						"questionText": "IoT Hub সিক্যুরিটি ছাড়াই যেকোন ডিভাইস কানেক্ট করতে দেয়",
 						"answerOptions": [
 							{
-								"answerText": "মিথ্যা"",
+								"answerText": "মিথ্যা",
 								"isCorrect": "true"
 							},
 							{
