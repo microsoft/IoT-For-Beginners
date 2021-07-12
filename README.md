@@ -26,13 +26,11 @@ The projects cover the journey of food from farm to table. This includes farming
 
 > **Students**, to use this curriculum on your own, fork the entire repo and complete the exercises on your own, starting with a pre-lecture quiz, then reading the lecture and completing the rest of the activities. Try to create the projects by comprehending the lessons rather than copying the solution code; however that code is available in the /solutions folders in each project-oriented lesson. Another idea would be to form a study group with friends and go through the content together. For further study, we recommend [Microsoft Learn](https://docs.microsoft.com/users/jimbobbennett/collections/ke2ehd351jopwr?WT.mc_id=academic-17441-jabenn).
 
-<!--
-> Your promo video here
 
-[![Promo video](./images/iot-for-beginners.png)](https://youtube.com/watch?v=R1wrdtmBSII "Promo video")
+[![Promo video](./images/iot-for-beginners.png)](https://youtube.com/watch?v=bccEMm8gRuc "Promo video")
 
-> 💁 Click the image above for a video about the project!
--->
+> 🎥 Click the image above for a video about the project!
+
 
 ## Pedagogy
 
