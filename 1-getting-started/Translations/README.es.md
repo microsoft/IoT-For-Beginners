@@ -6,10 +6,10 @@ En esta sección del curso, serás introducido al Internet de las cosas y aprend
 
 ## Lecciones
 
-1. [Introducción al IoT](lessons/1-introduction-to-iot/README.md)
-1. [IoT a profundidad](lessons/2-deeper-dive/README.md)
-1. [Interactúa con el mundo físico con sensores y actuadores](lessons/3-sensors-and-actuators/README.md)
-1. [Conecta tu dispositivo al Internet](lessons/4-connect-internet/README.md)
+1. [Introducción al IoT](../lessons/1-introduction-to-iot/translations/README.es.md)
+1. [IoT a profundidad](../lessons/2-deeper-dive/README.md)
+1. [Interactúa con el mundo físico con sensores y actuadores](../lessons/3-sensors-and-actuators/README.md)
+1. [Conecta tu dispositivo al Internet](../lessons/4-connect-internet/README.md)
 
 ## Créditos
 
