@@ -6,10 +6,10 @@
 
 ## トピック
 
-1. [IoT入門](lessons/1-introduction-to-iot/README.md)
-1. [IoTをより深く知る](lessons/2-deeper-dive/README.md)
-2. [センサーとアクチュエーターを使って物理的世界と連動する](lessons/3-sensors-and-actuators/README.md)
-3. [デバイスをインターネットに接続する](lessons/4-connect-internet/README.md)
+1. [IoT入門](../lessons/1-introduction-to-iot/README.md)
+1. [IoTをより深く知る](../lessons/2-deeper-dive/README.md)
+2. [センサーとアクチュエーターを使って物理的世界と連動する](../lessons/3-sensors-and-actuators/README.md)
+3. [デバイスをインターネットに接続する](../lessons/4-connect-internet/README.md)
 
 ## クレジット
 
