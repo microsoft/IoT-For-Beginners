@@ -18,7 +18,7 @@
 
 > স্কেচনোটটি তৈরী করেছেন [Nitya Narasimhan](https://github.com/nitya) । বড় সংস্করণে দেখার জন্য ছবিটিতে ক্লিক করতে হবে।
 
-**হৃদয়ের অন্তঃস্থল থেকে কৃতজ্ঞতা জানাই এই কোর্সের রচয়িতা [Jen Fox](https://github.com/jenfoxbot), [Jen Looper](https://github.com/jlooper), [Jim Bennett](https://github.com/jimbobbennett) এবং স্কেচনোট শিল্পী [Nitya Narasimhan](https://github.com/nitya)কে । **
+**হৃদয়ের অন্তঃস্থল থেকে কৃতজ্ঞতা জানাই এই কোর্সের রচয়িতা [Jen Fox](https://github.com/jenfoxbot), [Jen Looper](https://github.com/jlooper), [Jim Bennett](https://github.com/jimbobbennett) এবং স্কেচনোট শিল্পী [Nitya Narasimhan](https://github.com/nitya)কে ।**
 
 **ধন্যবাদ জানাতে চাই আমাদের সেসকল [Microsoft Learn Student Ambassadors](https://studentambassadors.microsoft.com?WT.mc_id=academic-17441-jabenn)দের, যারা এই কারিক্যুলামটি রিভিউ এবং অনুবাদে কাজ করেছে - [Aditya Garg](https://github.com/AdityaGarg00),[Anurag Sharma](https://github.com/Anurag-0-1-A), [Arpita Das](https://github.com/Arpiiitaaa), [Aryan Jain](https://www.linkedin.com/in/aryan-jain-47a4a1145/), [Bhavesh Suneja](https://github.com/EliteWarrior315),[Faith Hunja](https://faithhunja.github.io/),  [Lateefah Bello](https://www.linkedin.com/in/lateefah-bello/), [Manvi Jha](https://github.com/Severus-Matthew), [Mireille Tan](https://www.linkedin.com/in/mireille-tan-a4834819a/), [Mohammad Iftekher (Iftu) Ebne Jalal](https://github.com/Iftu119), [Priyanshu Srivastav](https://www.linkedin.com/in/priyanshu-srivastav-b067241ba), [Thanmai Gowducheruvu](https://github.com/innovation-platform), এবং [Zina Kamel](https://www.linkedin.com/in/zina-kamel/).**
 
