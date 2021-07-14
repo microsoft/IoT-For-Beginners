@@ -1,4 +1,4 @@
-# ক্লাউড থেকে উদ্ভিদ নিয়ন্ত্রণ
+# উদ্ভিদকে ক্লাউডে সংযুক্ত করা
 
 ![A sketchnote overview of this lesson](../../../../sketchnotes/lesson-8.jpg)
 
