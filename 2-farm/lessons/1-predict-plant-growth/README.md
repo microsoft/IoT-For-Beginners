@@ -35,8 +35,11 @@ Some techniques enabled by digital agriculture are:
 * Pest control - farmers can use cameras on automated robots or drones to check for pests, then apply pesticides only where needed, reducing the amount of pesticides used and reducing pesticide run-off into local water supplies.
 
 ✅ Do some research. What other techniques are used to improve farming yields?
+<br>
 <a href="https://www.youtube.com/watch?v=KIEOuKD9KX8" target="_blank">Farming Technologies</a>
+<br>
 <a href="https://www.youtube.com/watch?v=AmVNwilQJvc" target="_blank">China's Farming</a>
+<br>
 > 🎓 The term 'Precision Agriculture' is used to define observing, measuring and responding to crops on a per-field basis, or even on parts of a field. This includes measuring water, nutrient and pest levels and responding accurately, such as watering only a small part of a field.
 
 ## Why is temperature important when farming?
