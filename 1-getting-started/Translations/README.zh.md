@@ -6,10 +6,10 @@
 
 ## 主题
 
-1. [物联网简介](../lessons/1-introduction-to-iot/README.md)
-1. [深入了解物联网](../lessons/2-deeper-dive/README.md)
-1. [通过传感器和执行器与物理世界互动](../lessons/3-sensors-and-actuators/README.md)
-1. [将您的设备连接到互联网](../lessons/4-connect-internet/README.md)
+1. [物联网简介](../lessons/1-introduction-to-iot/translations/README.zh.md)
+1. [深入了解物联网](../lessons/2-deeper-dive/translations/README.zh.md)
+1. [通过传感器和执行器与物理世界互动](../lessons/3-sensors-and-actuators/translations/README.zh.md)
+1. [将您的设备连接到互联网](../lessons/4-connect-internet/translations/README.zh.md)
 
 ## 作者
 
