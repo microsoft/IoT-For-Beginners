@@ -291,7 +291,7 @@ Can you think of any other IoT or other electrical devices that have a similar p
 
 ## Review & Self Study
 
-Read more on relays including their historical use in telephone exchanges on the [relay Wikipedia page](https://wikipedia.org/wiki/Relay).
+* Read more on relays including their historical use in telephone exchanges on the [relay Wikipedia page](https://wikipedia.org/wiki/Relay).
 
 ## Assignment
 
