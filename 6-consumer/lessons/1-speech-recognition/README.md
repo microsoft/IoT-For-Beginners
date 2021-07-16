@@ -22,7 +22,7 @@ This video gives an overview of the Azure speech service, a topic that will be c
 
 'Alexa, set a 8 minute timer called steam broccoli'
 
-Smart devices are becoming more and more pervasive. Not just as smart speakers like HomePods, Echos and Google Homes, but embedded in our phones, watches, and even light fittings and thermostats. 
+Smart devices are becoming more and more pervasive. Not just as smart speakers like HomePods, Echos and Google Homes, but embedded in our phones, watches, and even light fittings and thermostats.
 
 > 💁 I have at least 19 devices in my home that have voice assistants, and that's just the ones I know about!
 

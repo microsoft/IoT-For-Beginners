@@ -261,11 +261,10 @@ For these, find if there are sensors that can measure them. What about actuators
 
 ## Review & Self Study
 
-Read more on digital agriculture on the [Digital Agriculture Wikipedia page](https://wikipedia.org/wiki/Digital_agriculture). Also read more about precision agriculture the [Precision Agriculture Wikipedia page](https://wikipedia.org/wiki/Precision_agriculture).
+* Read more on digital agriculture on the [Digital Agriculture Wikipedia page](https://wikipedia.org/wiki/Digital_agriculture). Also read more about precision agriculture the [Precision Agriculture Wikipedia page](https://wikipedia.org/wiki/Precision_agriculture).
+* The full growing degree days calculation is more complicated than the simplified one given here. Read more about the more complicated equation and how to deal with temperatures below the baseline on the [Growing Degree Day Wikipedia page](https://wikipedia.org/wiki/Growing_degree-day).
+* Food may be scarce in future even we still use same methods for farming. Learn more about hi-tech farming techniques in this [Hi-Tech Farms of Future video on YouTube](https://www.youtube.com/watch?v=KIEOuKD9KX8).
 
-The full growing degree days calculation is more complicated than the simplified one given here. Read more about the more complicated equation and how to deal with temperatures below the baseline on the [Growing Degree Day Wikipedia page](https://wikipedia.org/wiki/Growing_degree-day).
-
-Food may be scarce in future even we still use same methods for farming. Here you can see hi-tech farming techniques. [Hi-Tech Farms of Future](https://www.youtube.com/watch?v=KIEOuKD9KX8)
 ## Assignment
 
 [Visualize GDD data using a Jupyter Notebook](assignment.md)
