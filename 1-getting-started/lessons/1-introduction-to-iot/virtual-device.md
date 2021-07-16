@@ -60,6 +60,10 @@ Configure a Python virtual environment and install the pip packages for CounterF
         ```cmd
         .venv\Scripts\activate.bat
         ```
+     OR    
+     ```cmd
+        .venv\bin\Activate
+        ```
 
     * On macOS or Linux, run:
 
