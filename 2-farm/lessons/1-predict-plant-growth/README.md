@@ -265,6 +265,7 @@ Read more on digital agriculture on the [Digital Agriculture Wikipedia page](htt
 
 The full growing degree days calculation is more complicated than the simplified one given here. Read more about the more complicated equation and how to deal with temperatures below the baseline on the [Growing Degree Day Wikipedia page](https://wikipedia.org/wiki/Growing_degree-day).
 
+Food may be scarce in future even we still use same methods for farming. Here you can see hi-tech farming techniques. [Hi-Tech Farms of Future](https://www.youtube.com/watch?v=KIEOuKD9KX8)
 ## Assignment
 
 [Visualize GDD data using a Jupyter Notebook](assignment.md)
