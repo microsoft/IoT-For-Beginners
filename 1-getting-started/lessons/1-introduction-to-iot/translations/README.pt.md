@@ -60,7 +60,7 @@ Um microcontrolador (também conhecido como MCU, abreviação de microcontroller
 
 🔌 Conexões de entrada/saída (I/O) programáveis ​​- para falar com periféricos externos (dispositivos conectados), como sensores e atuadores
 
-Microcontroladores são tipicamente dispositivos de computação de baixo custo, com preços médios para aqueles usados ​​em hardware customizado caindo para cerca de US$0,50, e alguns dispositivos tão baratos quanto US$0,03. Os kits de desenvolvedor podem começar em US$4, com custos aumentando à medida que você adiciona mais recursos. O [Wio Terminal](https://www.seeedstudio.com/Wio-Terminal-p-4509.html), um kit de desenvolvedor de microcontrolador da [Seeed studios](https://www.seeedstudio.com) que tem sensores, atuadores, Wi-Fi e uma tela custam cerca de US$30.
+Microcontroladores são tipicamente dispositivos de computação de baixo custo, com preços médios para aqueles usados ​​em hardware customizado caindo para cerca de US$0,50, e alguns dispositivos tão baratos quanto US$0,03. Os kits de desenvolvedor podem começar em US$4, com custos aumentando à medida que você adiciona mais recursos. O [Terminal Wio](https://www.seeedstudio.com/Wio-Terminal-p-4509.html), um kit de desenvolvedor de microcontrolador da [Seeed studios](https://www.seeedstudio.com) que tem sensores, atuadores, Wi-Fi e uma tela custam cerca de US$30.
 
 ![Um Terminal Wio](../../../../images/wio-terminal.png)
 
@@ -88,7 +88,7 @@ Os computadores de placa única são computadores completos, portanto, podem ser
 
 ### Opções de hardware para o resto das lições
 
-Todas as lições subsequentes incluem tarefas usando um dispositivo IoT para interagir com o mundo físico e se comunicar com a nuvem. Cada lição oferece suporte a 3 opções de dispositivo - Arduino (usando um Terminal Wio Seeed Studios) ou um computador de placa única, seja ele um dispositivo físico (um Raspberry Pi 4) ou um computador de placa única virtual rodando em seu PC ou Mac.
+Todas as lições subsequentes incluem tarefas usando um dispositivo IoT para interagir com o mundo físico e se comunicar com a nuvem. Cada lição oferece suporte a 3 opções de dispositivo - Arduino (usando um Terminal Wio da Seeed Studios) ou um computador de placa única, seja ele um dispositivo físico (um Raspberry Pi 4) ou um computador de placa única virtual rodando em seu PC ou Mac.
 
 Você pode ler sobre o hardware necessário para completar todas as tarefas no [guia do hardware](../../../../hardware.md).
 
@@ -96,7 +96,7 @@ Você pode ler sobre o hardware necessário para completar todas as tarefas no [
 
 A escolha do hardware depende de você - depende do que você tem disponível em casa ou na escola e de que linguagem de programação você conhece ou planeja aprender. Ambas as variantes de hardware usarão o mesmo ecossistema de sensores, portanto, se você começar por um caminho, poderá mudar para o outro sem ter que substituir a maior parte do kit. O computador de placa única virtual será o equivalente a aprender em um Raspberry Pi, com a maior parte do código transferível para o Pi se você eventualmente conseguir um dispositivo e sensores.
 
-### Kit de desenvolvedor de Arduino
+### Kit de desenvolvedor do Arduino
 
 Se você estiver interessado em aprender o desenvolvimento de microcontroladores, poderá concluir as tarefas usando um dispositivo Arduino. Você precisará de um conhecimento básico de programação C/C++, pois as lições ensinarão apenas códigos relevantes para a estrutura do Arduino, os sensores e atuadores em uso e as bibliotecas que interagem com a nuvem.
 
@@ -129,9 +129,9 @@ Essas instruções incluem links para sites de terceiros dos criadores do hardwa
 
 Trabalhe com o guia relevante para configurar seu dispositivo e concluir um projeto 'Hello World'. Esta será a primeira etapa na criação de uma luz noturna IoT nas 4 lições desta parte de introdução.
 
-* [Arduino - Terminal Wio](../translations/wio-terminal.pt.md)
-* [Computador de placa única - Raspberry Pi](../translations/pi.pt.md)
-* [Computador de placa única - Dispositivo virtual](../translations/virtual-device.pt.md)
+* [Arduino - Terminal Wio](wio-terminal.pt.md)
+* [Computador de placa única - Raspberry Pi](pi.pt.md)
+* [Computador de placa única - Dispositivo virtual](virtual-device.pt.md)
 
 ✅ Você usará o VS Code para o Arduino e para computadores de placa única. Se você nunca usou isso antes, leia mais sobre isso no [site do VS Code](https://code.visualstudio.com?WT.mc_id=academic-17441-jabenn)
 
@@ -219,4 +219,4 @@ Alguns exemplos:
 
 ## Tarefa
 
-[Investigar um projeto IoT](../translations/assignment.pt.md)
+[Investigar um projeto IoT](assignment.pt.md)
