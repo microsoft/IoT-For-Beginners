@@ -99,3 +99,30 @@ We have two choices of IoT hardware to use for the projects depending on persona
 | 22 | [Tüketici](./6-consumer) | Dili anlayın | IoT cihazınızın konuşulan cümleleri nasıl anladığını öğrenin | [Dili anlayın](./6-consumer/lessons/2-language-understanding/README.md) |
 | 23 | [Tüketici](./6-consumer) | Bir zamanlayıcı kurun ve konuşturun | IoT cihazları için nasıl zamanlayıcı oluşturmayı ve zamanlayıcı kurulup çalıştıktan sonra  IoT cihazlarına konuşarak geri bildirim verdirmeyi öğrenin.| [Bir zamanlayıcı kurun ve konuşturun](./6-consumer/lessons/3-spoken-feedback/README.md) |
 | 24 | [Tüketici](./6-consumer) | Çoklu dil desteği | Hem konuşulan hem de geri bildirim için zamanlayıcınıza nasıl çoklu dil desteği sunulduğunu öğrenin | [Çoklu dil desteği](./6-consumer/lessons/4-multiple-language-support/README.md) |
+
+## Çevirim dışı erişim
+  Bu belgeleri çevirim dışı olarak [Docsify](https://docsify.js.org/#/) kullanarak çalıştırabilirsiniz. Bu repo'yu forklayın [Docsify'ı kurun](https://docsify.js.org/#/quickstart) ve bu repo'nun ana klasöründe `docsify serve` yazın. Website sizin yerelinizde: `localhost:3000`.
+  
+### PDF
+
+Bu içeriklerin pdf'ini ihtiyaç halinde oluşturabilirsiniz. Bunun için [npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) 'in kurulu oldundan emin olun ve ilerideki komutları bu reponun ana klasöründe yazın.
+
+```sh
+npm i
+npm run convert
+```
+
+## Yardım İsteniyor!
+
+Bir çeviriyle katkıda bulunmak ister miydiniz? Lütfen [çeviri rehberimizi](TRANSLATIONS.md) okuyun ve [çeviri issue'lerinden birine](https://github.com/microsoft/IoT-For-Beginners/issues?q=is%3Aissue+is%3Aopen+label%3Atranslation) yazınız. Eğer yeni bir dile çevirmek istiyorsanız lütfen yeni bir issue oluşturun.
+
+## Diğer Dersler
+
+Takımımız başka derler de yapıyor:
+
+- [Yeni başlayanlar için web geliştiriciliği](https://aka.ms/webdev-beginners)
+- [Yeni başlayanlar için makine öğrenimi](https://aka.ms/ml-beginners)
+
+## Resim atıfları
+
+Bu derslerde kullanılan tüm atıfları ihtiyaç halinde [buradan bulabilirsiniz](./attributions.md).
