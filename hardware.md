@@ -46,7 +46,6 @@ These are specific to using the Wio terminal Arduino device, and are not relevan
 * [Breadboard Jumper Wires](https://www.seeedstudio.com/Breadboard-Jumper-Wire-Pack-241mm-200mm-160mm-117m-p-234.html)
 * Headphones or other speaker with a 3.5mm jack, or a JST speaker such as:
   * [Mono Enclosed Speaker - 2W 6 Ohm](https://www.seeedstudio.com/Mono-Enclosed-Speaker-2W-6-Ohm-p-2832.html)
-  * [Grove speaker plus](https://www.seeedstudio.com/Grove-Speaker-Plus-p-4592.html)
 * *Optional* - microSD Card 16GB or less for testing image capture, along with a connector to use the SD card with your computer if you don't have one built-in. **NOTE** - the Wio Terminal only supports SD cards up to 16GB, it does not support higher capacities.
 
 ## Raspberry Pi
