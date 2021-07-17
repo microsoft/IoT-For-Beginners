@@ -27,8 +27,8 @@ Sensors are hardware devices that sense the physical world - that is they measur
 
 Some common sensors include:
 
-* Temperature sensors - these sense the air temperature or the temperature of what they are immersed in. For hobbyists and developer, these are often combined with air pressure and humidity in a single sensor.
-* Buttons - they sense when they have been pressed.
+* Temperature sensors - these sense the air temperature or the temperature of what they are immersed in. For hobbyists and developers, these are often combined with air pressure and humidity in a single sensor.
+* Buttons - these sense when they have been pressed.
 * Light sensors - these detect light levels and can be for specific colors, UV light, IR light, or general visible light.
 * Cameras - these sense a visual representation of the world by taking a photograph or streaming video.
 * Accelerometers - these sense movement in multiple directions.
