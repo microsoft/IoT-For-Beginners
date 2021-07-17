@@ -112,7 +112,7 @@ npm i
 npm run convert
 ```
 
-## Yardım İsteniyor!
+## Yardım Aranıyor!
 
 Bir çeviriyle katkıda bulunmak ister miydiniz? Lütfen [çeviri rehberimizi](TRANSLATIONS.md) okuyun ve [çeviri issue'lerinden birine](https://github.com/microsoft/IoT-For-Beginners/issues?q=is%3Aissue+is%3Aopen+label%3Atranslation) yazınız. Eğer yeni bir dile çevirmek istiyorsanız lütfen yeni bir issue oluşturun.
 
