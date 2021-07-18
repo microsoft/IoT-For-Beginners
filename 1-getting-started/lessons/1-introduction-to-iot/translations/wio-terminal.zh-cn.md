@@ -1,6 +1,6 @@
 # Wio 终端
 
-[Seeed Studios 的 Wio 终端](https://www.seeedstudio.com/Wio-Terminal-p-4509.html) 是个Arduino兼容的微控制器；无线上网以及一些感应器和执行器已经被装上，还有端口让你用叫做 [Grove](https://www.seeedstudio.com/category/Grove-c-1003.html) 的硬件生态系统加更多感应器和执行器。
+[Seeed Studios 的 Wio 终端](https://www.seeedstudio.com/Wio-Terminal-p-4509.html) 是个Arduino兼容的微控制器；无线上网以及一些传感器和执行器已经被装上，还有端口让你用叫做 [Grove](https://www.seeedstudio.com/category/Grove-c-1003.html) 的硬件生态系统加更多传感器和执行器。
 
 ![一个 Seeed Studios Wio 终端](../../../images/wio-terminal.png)
 
