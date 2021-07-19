@@ -495,7 +495,31 @@ Rather than calling LUIS from the IoT device, you can use serverless code with a
 
 1. For your IoT device to call your REST endpoint, it will need to know the URL. When you accessed it earlier, you used `localhost`, which is a shortcut to access REST endpoints on your local machine. To allow you IoT device to get access, you need to either:
 
-    * Publish the Functions app - follow the instructions in earlier lessons to publish your functions app to the cloud. Once published, the URL will be `http://<APP_NAME>.azurewebsites.net/api/text-to-timer`, where `<APP_NAME>` will be the name of your functions app.
+    * Publish the Functions app - follow the instructions in earlier lessons to publish your functions app to the cloud. Once published, the URL will be `https://<APP_NAME>.azurewebsites.net/api/text-to-timer`, where `<APP_NAME>` will be the name of your functions app.
+
+      When working with HTTP triggers, they are secured by default with a function app key. To get this key, run the following command:
+
+      ```sh
+      az functionapp keys list --resource-group smart-timer \
+                               --name <APP_NAME>                               
+      ```
+
+      Copy the value of the `default` entry from the `functionKeys` section.
+
+      ```output
+      {
+        "functionKeys": {
+          "default": "sQO1LQaeK9N1qYD6SXeb/TctCmwQEkToLJU6Dw8TthNeUH8VA45hlA=="
+        },
+        "masterKey": "RSKOAIlyvvQEQt9dfpabJT018scaLpQu9p1poHIMCxx5LYrIQZyQ/g==",
+        "systemKeys": {}
+      }
+      ```
+
+      This key will need to be added as a query parameter to the URL, so the final URL will be `https://<APP_NAME>.azurewebsites.net/api/text-to-timer?code=<FUNCTION_KEY>`, where `<APP_NAME>` will be the name of your functions app, and  `<FUNCTION_KEY>` will be your default function key.
+
+      > 💁 You can change the type of authorization of the HTTP trigger using `authlevel` setting in the `function.json` file. You can read more about this in the [configuration section of the Azure Functions HTTP trigger documentation on Microsoft docs](https://docs.microsoft.com/azure/azure-functions/functions-bindings-http-webhook-trigger?tabs=python&WT.mc_id=academic-17441-jabenn#configuration).
+
     * Run the functions app locally, and access using the IP address - you can get the IP address of your computer on your local network, and use that to build the URL.
 
       Find your IP address:
@@ -504,11 +528,11 @@ Rather than calling LUIS from the IoT device, you can use serverless code with a
       * On macOS, follow the [how to find you IP address on a Mac guide](https://www.hellotech.com/guide/for/how-to-find-ip-address-on-mac)
       * On linux, follow the section on finding your private IP address in the [how to find your IP address in Linux guide](https://opensource.com/article/18/5/how-find-ip-address-linux)
 
-        Once you have your IP address, you will able to access the function at `http://<IP_ADDRESS>:7071/api/text-to-timer`, where `<IP_ADDRESS>` will be your IP address, for example `http://192.168.1.10:7071/api/text-to-timer`.
+      Once you have your IP address, you will able to access the function at `http://<IP_ADDRESS>:7071/api/text-to-timer`, where `<IP_ADDRESS>` will be your IP address, for example `http://192.168.1.10:7071/api/text-to-timer`.
 
-        > 💁 This will only work if your IoT device is on the same network as your computer.
+      > 💁 This will only work if your IoT device is on the same network as your computer.
 
-1. Test the endpoint by accessing it using your browser.
+1. Test the endpoint by accessing it using curl.
 
 ---
 
