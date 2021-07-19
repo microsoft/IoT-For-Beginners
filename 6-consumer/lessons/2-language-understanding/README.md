@@ -495,7 +495,7 @@ Rather than calling LUIS from the IoT device, you can use serverless code with a
 
 1. For your IoT device to call your REST endpoint, it will need to know the URL. When you accessed it earlier, you used `localhost`, which is a shortcut to access REST endpoints on your local machine. To allow you IoT device to get access, you need to either:
 
-    * Publish the Functions app - follow the instructions in earlier lessons to publish your functions app to the cloud. Once published, the URL will be `https://<APP_NAME>.azurewebsites.net/api/text-to-timer`, where `<APP_NAME>` will be the name of your functions app.
+    * Publish the Functions app - follow the instructions in earlier lessons to publish your functions app to the cloud. Once published, the URL will be `https://<APP_NAME>.azurewebsites.net/api/text-to-timer`, where `<APP_NAME>` will be the name of your functions app. Make sure to also publish your local settings.
 
       When working with HTTP triggers, they are secured by default with a function app key. To get this key, run the following command:
 
