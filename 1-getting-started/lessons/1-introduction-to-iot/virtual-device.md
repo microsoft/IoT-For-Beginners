@@ -208,3 +208,7 @@ As a second 'Hello World' step, you will run the CounterFit app and connect your
 > 💁 You can find this code in the [code/virtual-device](code/virtual-device) folder.
 
 😀 Your connection to the hardware was a success!
+
+### Help
+I am facing some errors while installing Counterfit.When i used to run command {ip install CounterFit} it says installing pakages after a while i got errors.
+So help me please how to do it install successfully ...
