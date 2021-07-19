@@ -107,7 +107,7 @@ Set up the headless Pi OS.
 
 1. Select the **WRITE** button to write the OS to the SD card. If you are using macOS, you will be asked to enter your password as the underlying tool that writes disk images needs privileged access.
 
-The OS will be written to the SD card, and once complete the card will be ejected by the OS, and you will be notified. Remove the SD card from your computer, insert it into the Pi and power up the Pi.
+The OS will be written to the SD card, and once complete the card will be ejected by the OS, and you will be notified. Remove the SD card from your computer, insert it into the Pi, power up the Pi and wait for about 2 mins for it to properly boot.
 
 #### Connect to the Pi
 
