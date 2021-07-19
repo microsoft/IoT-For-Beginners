@@ -68,9 +68,9 @@ Microsoft 的 Azure Cloud 大使很高兴提供关于 IoT 基础一个12个星�
 
 |     | 项目 | 题目 | 学习目标 | 链接 |
 | :-: | :----------: | :-------------: | ------------------- | :-----------: |
-| 01 | [入门](./1-getting-started) | 物联网（IoT）简介 | 学会 IoT 的基本原则（例如：感应器和云服务），同时设置你的第一个 IoT 设备| [物联网（IoT）简介](./1-getting-started/lessons/1-introduction-to-iot/README.md) |
+| 01 | [入门](./1-getting-started) | 物联网（IoT）简介 | 学会 IoT 的基本原则（例如：传感器和云服务），同时设置你的第一个 IoT 设备| [物联网（IoT）简介](./1-getting-started/lessons/1-introduction-to-iot/README.md) |
 | 02 | [入门](./1-getting-started) | 深入了解物联网（IoT） | 深入了解 IoT 系统的不同部分，以及微控制器和单板机 | [深入了解物联网（IoT）](./1-getting-started/lessons/2-deeper-dive/README.md) |
-| 03 | [入门](./1-getting-started) | 用感应器和执行器跟物质世界互相作用 | 学会感应器怎么从物质世界收集数据和执行器怎么发送反馈，同时创建一个夜灯 | [用感应器和执行器跟物质世界互相作用](./1-getting-started/lessons/3-sensors-and-actuators/README.md) |
+| 03 | [入门](./1-getting-started) | 用传感器和执行器跟物质世界互相作用 | 学会传感器怎么从物质世界收集数据和执行器怎么发送反馈，同时创建一个夜灯 | [用传感器和执行器跟物质世界互相作用](./1-getting-started/lessons/3-sensors-and-actuators/README.md) |
 | 04 | [入门](./1-getting-started) | 将你的设备连接到互联网 | 学会怎么把一个 IoT 设备连接到互联网，将夜灯连接到MQTT 中转站让它发送和收到消息 | [将你的设备连接到互联网](./1-getting-started/lessons/4-connect-internet/README.md) |
 | 05 | [农场](./2-farm) | 预测植物生长 | 学会怎么用 IoT 设备捕获的温度数据来预测植物生长 | [预测植物生长](./2-farm/lessons/1-predict-plant-growth/README.md) |
 | 06 | [农场](./2-farm) | 检测土壤水分 | 学会怎么检测土壤水分以及校准土壤湿度传感器 | [检测土壤水分](./2-farm/lessons/2-detect-soil-moisture/README.md) |
