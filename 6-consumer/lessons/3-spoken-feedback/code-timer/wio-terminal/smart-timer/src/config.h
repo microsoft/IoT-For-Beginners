@@ -15,6 +15,7 @@ const char *LANGUAGE = "<LANGUAGE>";
 
 const char *TOKEN_URL = "https://%s.api.cognitive.microsoft.com/sts/v1.0/issuetoken";
 const char *SPEECH_URL = "https://%s.stt.speech.microsoft.com/speech/recognition/conversation/cognitiveservices/v1?language=%s";
+
 const char *FUNCTION_URL = "<URL>";
 
 const char *TOKEN_CERTIFICATE =
