@@ -2,7 +2,7 @@
 
 [Seeed Studios 的 Wio 终端](https://www.seeedstudio.com/Wio-Terminal-p-4509.html) 是个Arduino兼容的微控制器；无线上网以及一些传感器和执行器已经被装上，还有端口让你用叫做 [Grove](https://www.seeedstudio.com/category/Grove-c-1003.html) 的硬件生态系统加更多传感器和执行器。
 
-![一个 Seeed Studios Wio 终端](../../../images/wio-terminal.png)
+![一个 Seeed Studios Wio 终端](../../../../images/wio-terminal.png)
 
 ## 设置
 
@@ -42,15 +42,15 @@ Wio 终端的 Hello World 应用将确保你安装好了 Visual Studio Code 与 
 
 1. PlatformIO 的图表应该在旁边的菜单栏上：
 
-    ![PlatformIO 菜单选项](../../../images/vscode-platformio-menu.png)
+    ![PlatformIO 菜单选项](../../../../images/vscode-platformio-menu.png)
 
     选择这个菜单项，再选择 *PIO Home -> Open*
 
-    ![PlatformIO 的打开选项](../../../images/vscode-platformio-home-open.png)
+    ![PlatformIO 的打开选项](../../../../images/vscode-platformio-home-open.png)
 
 1. 从欢迎屏幕，选择 **+ New Project** 的按钮。
 
-    ![新项目的按钮](../../../images/vscode-platformio-welcome-new-button.png)
+    ![新项目的按钮](../../../../images/vscode-platformio-welcome-new-button.png)
 
 1. 在 *Project Wizard* 配置项目：
 
@@ -64,7 +64,7 @@ Wio 终端的 Hello World 应用将确保你安装好了 Visual Studio Code 与 
 
     1. 选择 **Finish** 的按钮
 
-    ![被完成的项目向导](../../../images/vscode-platformio-nightlight-project-wizard.png)
+    ![被完成的项目向导](../../../../images/vscode-platformio-nightlight-project-wizard.png)
 
     PlatformIO 将下载它需要使用为 Wio 终端编译代码和创建项目的组件。它可能花几分钟。
 
@@ -159,7 +159,7 @@ VS Code explorer 将显示PlatformIO向导创建的几个文件与文件夹。
 
     1. 输入 `PlatformIO Upload` 来搜索上传选项，再选择 *PlatformIO: Upload*
 
-        ![ 命令面板中 PlatformIO 的上传选项](../../../images/vscode-platformio-upload-command-palette.png)
+        ![ 命令面板中 PlatformIO 的上传选项](../../../../images/vscode-platformio-upload-command-palette.png)
 
         如果有必要的话，PlatformIO上传代码前将自动构建代码。
 
@@ -175,7 +175,7 @@ PlatformIO 有一个串行监视器，可以监视从 Wio 终端通过 USB 电�
 
 1. 输入 `PlatformIO Serial` 来搜索串行监视器选项，再选择 *PlatformIO: Serial Monitor*
 
-    ![ 命令面板中 PlatformIO 的串行监视器选项](../../../images/vscode-platformio-serial-monitor-command-palette.png)
+    ![ 命令面板中 PlatformIO 的串行监视器选项](../../../../images/vscode-platformio-serial-monitor-command-palette.png)
 
     这将打开一个新终端，而通过串行端口发送的数据将流入这个终端：
 
