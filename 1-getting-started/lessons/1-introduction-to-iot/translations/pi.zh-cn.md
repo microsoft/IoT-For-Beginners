@@ -14,11 +14,11 @@
 
 安装Grove基础扩展板并配置好你的树莓派
 
-1. 安装Grove基础扩展板到你的树莓派. 扩展板上的插孔与Pi上的GPIO引脚一一对应，沿着引脚一路滑下去来压住底部，扩展板会在上面盖住树莓派。
+1. 安装Grove基础扩展板到你的树莓派，扩展板上的插孔与Pi上的GPIO引脚一一对应，沿着引脚一路滑下去来压住底部，扩展板会在上面盖住树莓派。
 
     ![安装grove扩展板](../../../../images/pi-grove-hat-fitting.gif)
 
-2. 决定你要如何来编码你的树莓派，并直接跳到下面相关的部门：
+2. 决定你要如何来编码你的树莓派，并直接跳到下面相关的部分：
 
     * [在树莓派上直接编码](#在树莓派上直接编码)
     * [远程连接来编码树莓派](#远程连接来编码树莓派)
@@ -31,9 +31,9 @@
 
 配置树莓派的开发环境。
 
-1. 跟着[树莓派配置指南]的步骤来配置你的树莓派，给它连上一个键盘/鼠标/显示器，把它接入你的Wi-Fi或者以太网络，然后更新软件。你要安装的是**Raspberry Pi OS (32 bit)**，用Raspberry Pi Imager来烧写SD卡的时候一般都会推荐这个操作系统。
+1. 跟着[树莓派配置指南](https://projects.raspberrypi.org/en/projects/raspberry-pi-setting-up)的步骤来配置你的树莓派，给它连上一个键盘/鼠标/显示器，把它接入你的Wi-Fi或者以太网络，然后更新软件，你要安装的是**Raspberry Pi OS (32 bit)**，用Raspberry Pi Imager来烧写SD卡的时候一般都会推荐这个操作系统。
 
-想要使用Grove传感器和执行器来给树莓派编程，你需要安装一个编辑器来编写设备代码和各种用来与Grove硬件交互的函数库、工具。
+想要使用Grove传感器和执行器来给树莓派编程的话，你需要安装一个编辑器来编写设备代码和各种用来与Grove硬件交互的函数库、工具。
 
 1. 当你的树莓派重启后，点击上方菜单栏的**Terminal** 图标或者选择*Menu -> Accessories -> Terminal*来启动终端。
 
@@ -49,7 +49,7 @@
     curl -sL https://github.com/Seeed-Studio/grove.py/raw/master/install.sh | sudo bash -s -
     ```
 
-    Python一个强大的特性是可以安装[pip包](https://pypi.org) - 这些都是其他人编写了发布到网上的软件包，用一个命令你就可以把一个pip包安装到你的计算机上，然后在代码里面使用这个软件包了。这个Grove安装脚本会安装你用Python来操控Grove硬件时将会用到的pip软件包。
+    Python一个强大的特性是可以安装[pip包](https://pypi.org) - 这些都是其他人编写了发布到网上的软件包，用一个命令你就可以把一个pip包安装到你的计算机上，然后在代码里面使用这个软件包了，这个Grove安装脚本会安装你用Python来操控Grove硬件时将会用到的pip软件包。
 
 1. 用菜单点击或者运行下面的命令来重启树莓派：
 
@@ -67,7 +67,7 @@
 
     > 💁 如果你有更喜欢的工具，你也可以自由使用任意的Python IDE或者编辑器来学习课程，但是课程中会基于VS Code来给出指示。
 
-1. 安装Pylance，这是给VS Code提供Python语言支持的扩展插件，可以参考这个[Pylance插件文档](https://marketplace.visualstudio.com/items?itemName=ms-python.vscode-pylance&WT.mc_id=academic-17441-jabenn)中的指示在VS Code中安装这个插件。
+1. 安装Pylance，这是给VS Code提供Python语言支持的扩展插件，可以参考这个[Pylance扩展文档](https://marketplace.visualstudio.com/items?itemName=ms-python.vscode-pylance&WT.mc_id=academic-17441-jabenn)中的指示在VS Code中安装这个插件。
 
 ### 远程连接来编码树莓派
 
@@ -105,7 +105,7 @@
 
     4. 点击 **SAVE** 按钮
 
-2. 选择**WRITE**按钮把OS烧写到SD卡上，如果你使用的是MacOS，你会被要求输入你的密码，因为底层的写磁盘镜像的工具需要访问权限。
+2. 点击**WRITE**按钮把OS烧写到SD卡上，如果你使用的是MacOS，你会被要求输入你的密码，因为底层的写磁盘镜像的工具需要访问权限。
 
 操作系统会被烧写到SD卡上，完成之后SD卡会被弹出，并且你会收到通知。从你的计算机拔出SD卡，再把它插到树莓派上并上电启动。
 
@@ -135,9 +135,9 @@
         sudo apt-get install avahi-daemon
         ```
 
-    2. 如果你在使用Winidws，启用ZeroConf最简单的方法是安装[Bonjour Print Services for Windows](http://support.apple.com/kb/DL999)，你也可以安装[iTunes for Windows](https://www.apple.com/itunes/download/)来获取更新版本的组件（无法独立下载安装）。
+    2. 如果你在使用Windows，启用ZeroConf最简单的方法是安装[Bonjour Print Services for Windows](http://support.apple.com/kb/DL999)，你也可以安装[iTunes for Windows](https://www.apple.com/itunes/download/)来获取更新版本的组件（无法独立下载安装）。
 
-    > 💁 如果你无法通过`raspberrypi.local`连接，那么你也可以使用你的树莓派的IP地址，参考[树莓派IP地址文档](https://www.raspberrypi.org/documentation/remote-access/ip-address.md)上大量的获取IP地址的指示。
+    > 💁 如果你无法通过`raspberrypi.local`连接，那么你也可以使用你的树莓派的IP地址，参考[树莓派IP地址文档](https://www.raspberrypi.org/documentation/remote-access/ip-address.md)上大量的获取IP地址的方法。
 
 3. 输入你在Raspberry Pi Imager高级选项中输入的密码
 
@@ -162,7 +162,7 @@
     ```sh
     curl -sL https://github.com/Seeed-Studio/grove.py/raw/master/install.sh | sudo bash -s -
     ```
-    Python一个强大的特性是可以安装[pip包](https://pypi.org) - 这些都是其他人编写了发布到网上的软件包，用一个命令你就可以把一个pip包安装到你的计算机上，然后在代码里面使用这个软件包了。这个Grove安装脚本会安装你用Python来操控Grove硬件时将会用到的pip软件包。
+    Python一个强大的特性是可以安装[pip包](https://pypi.org) - 这些都是其他人编写了发布到网上的软件包，用一个命令你就可以把一个pip包安装到你的计算机上，然后在代码里面使用这个软件包了，这个Grove安装脚本会安装你用Python来操控Grove硬件时将会用到的pip软件包。
 
 3. 用下面的命令来重启树莓派：
 
