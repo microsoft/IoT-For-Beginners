@@ -1,6 +1,6 @@
 # 虚拟单板机
 
-除了买一个 IoT 设备、感应器和执行器，你也可以用你的电脑来模拟 IoT 硬件。[CounterFit 项目](https://github.com/CounterFit-IoT/CounterFit) 让你在自己的电脑上运行模拟 IoT 硬件（如感应器和执行器）的应用，以及用本地 Python 代码（就像你能在物质 Raspberry Pi 上写的代码）访问感应器和执行器。
+除了买一个 IoT 设备、传感器和执行器，你也可以用你的电脑来模拟 IoT 硬件。[CounterFit 项目](https://github.com/CounterFit-IoT/CounterFit) 让你在自己的电脑上运行模拟 IoT 硬件（如传感器和执行器）的应用，以及用本地 Python 代码（就像你能在物质 Raspberry Pi 上写的代码）访问传感器和执行器。
 
 ## 设置
 
@@ -24,7 +24,7 @@
 
 第一次用新的编程语言或科技，通常以创建一个“Hello World”应用开始——一个输出像`"Hello World"`的字的小小应用，为了确保所有的工具被设置好。
 
-这个虚拟 IoT 硬件的“Hello World”应用将确保你有安装好 Python 与 Visual Studio Code。它也将把虚拟 IoT 感应器和执行器连接到 CounterFit。它不会用到任何硬件，他只会以连接来证明每个部分运作良好。
+这个虚拟 IoT 硬件的“Hello World”应用将确保你有安装好 Python 与 Visual Studio Code。它也将把虚拟 IoT 传感器和执行器连接到 CounterFit。它不会用到任何硬件，他只会以连接来证明每个部分运作良好。
 
 这个应用正在被称为`夜灯`的文件夹中，而且我们等一下会跟着不同的代码再次利用它，为了在作业当中创建夜灯应用。
 
@@ -82,7 +82,7 @@ Python 的其中一个强大功能是安装 [pip 软件包](https://pypi.org)的
 
     > 💁 你的 Python 版本有可能不一样，但只要版本是 3.6 或以上就没事。不然，请删除这个文件夹，并安装较新的 Python 版本，再试一试。
 
-5. 运行以下的命令来安装为 CounterFit 的 pip 软件包。这些软件包包括主要的 CounterFit 应用以及为 Grove 硬件的垫片。这些垫片让你就像用来自 Grove 生态系统的物质感应器和执行器一样写代码，但把它连接到虚拟 IoT 设备。
+5. 运行以下的命令来安装为 CounterFit 的 pip 软件包。这些软件包包括主要的 CounterFit 应用以及为 Grove 硬件的垫片。这些垫片让你就像用来自 Grove 生态系统的物质传感器和执行器一样写代码，但把它连接到虚拟 IoT 设备。
 
     ```sh
     pip install CounterFit
