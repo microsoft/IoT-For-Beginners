@@ -4,9 +4,17 @@
 [![GitHub pull-requests](https://img.shields.io/github/issues-pr/microsoft/IoT-For-Beginners.svg)](https://GitHub.com/microsoft/IoT-For-Beginners/pulls/)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 
-[![GitHub watchers](https://img.shields.io/github/watchers/microsoft/IoT-For-Beginners.svg?style=social&label=Watch)](https://GitHub.com/microsoft/IoT-For-Beginners/watchers/)
-[![GitHub forks](https://img.shields.io/github/forks/microsoft/IoT-For-Beginners.svg?style=social&label=Fork)](https://GitHub.com/microsoft/IoT-For-Beginners/network/)
-[![GitHub stars](https://img.shields.io/github/stars/microsoft/IoT-For-Beginners.svg?style=social&label=Star)](https://GitHub.com/microsoft/IoT-For-Beginners/stargazers/)
+<p align="center">
+    <a href="https://GitHub.com/microsoft/IoT-For-Beginners/watchers/">
+        <img alt="GitHub watchers" src="https://img.shields.io/github/watchers/microsoft/IoT-For-Beginners.svg?style=social&label=Watch" />
+    </a>
+    <a href="https://GitHub.com/microsoft/IoT-For-Beginners/network/">
+        <img alt="GitHub forks" src="https://img.shields.io/github/forks/microsoft/IoT-For-Beginners.svg?style=social&label=Fork" />
+    </a>
+    <a href="https://GitHub.com/microsoft/IoT-For-Beginners/stargazers/">
+        <img alt="GitHub stars" src="https://img.shields.io/github/stars/microsoft/IoT-For-Beginners.svg?style=social&label=Star" />
+    </a>
+</p>
 
 # IoT for Beginners - A Curriculum
 
