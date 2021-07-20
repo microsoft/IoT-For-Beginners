@@ -65,32 +65,34 @@ Microsoft 的 Azure Cloud 大使很高兴提供关于 IoT 基础一个12个星�
 
 ## 课程
 
-|      |            项目             |                题目                | 学习目标                                                     |                             链接                             |
-| :--: | :-------------------------: | :--------------------------------: | ------------------------------------------------------------ | :----------------------------------------------------------: |
-|  01  | [入门](./1-getting-started) |         物联网（IoT）简介          | 学会 IoT 的基本原则（例如：感应器和云服务），同时设置你的第一个 IoT 设备 | [物联网（IoT）简介](./1-getting-started/lessons/1-introduction-to-iot/README.md) |
-|  02  | [入门](./1-getting-started) |       深入了解物联网（IoT）        | 深入了解 IoT 系统的不同部分，以及微控制器和单板机            | [深入了解物联网（IoT）](./1-getting-started/lessons/2-deeper-dive/README.md) |
-|  03  | [入门](./1-getting-started) | 用感应器和执行器跟物质世界互相作用 | 学会感应器怎么从物质世界收集数据和执行器怎么发送反馈，同时创建一个夜灯 | [用感应器和执行器跟物质世界互相作用](./1-getting-started/lessons/3-sensors-and-actuators/README.md) |
-|  04  | [入门](./1-getting-started) |       将你的设备连接到互联网       | 学会怎么把一个 IoT 设备连接到互联网，将夜灯连接到MQTT 中转站让它发送和收到消息 | [将你的设备连接到互联网](./1-getting-started/lessons/4-connect-internet/README.md) |
-|  05  |      [农场](./2-farm)       |            预测植物生长            | 学会怎么用 IoT 设备捕获的温度数据来预测植物生长              | [预测植物生长](./2-farm/lessons/1-predict-plant-growth/README.md) |
-|  06  |      [农场](./2-farm)       |            检测土壤水分            | 学会怎么检测土壤水分以及校准土壤湿度传感器                   | [检测土壤水分](./2-farm/lessons/2-detect-soil-moisture/README.md) |
-|  07  |      [农场](./2-farm)       |            自动植物浇水            | 学会怎么用一个中继和 MQTT 为植物浇水使自动化和计时           | [自动植物浇水](./2-farm/lessons/3-automated-plant-watering/README.md) |
-|  08  |      [农场](./2-farm)       |        将你的植物迁移到云端        | 了解云端和云端 IoT 服务与学会怎么把你的植物连接到它，而不是一个公共 MQTT中转站 | [将你的植物迁移到云端](./2-farm/lessons/4-migrate-your-plant-to-the-cloud/README.md) |
-|  09  |      [农场](./2-farm)       |    将你的应用程序逻辑迁移到云端    | 学会怎么在云端写能够响应 IoT 消息的应用程序逻辑              | [将你的应用程序逻辑迁移到云端](./2-farm/lessons/5-migrate-application-to-the-cloud/README.md) |
-|  10  |      [农场](./2-farm)       |          确保你的植物安全          | 了解 IoT 安全以及学会怎么用密钥和证书来确保你的植物安全      | [确保你的植物安全](./2-farm/lessons/6-keep-your-plant-secure/README.md) |
-|  11  |    [交通](./3-transport)    |              位置追踪              | 了解  IoT 设备的 GPS位置追踪                                 | [位置追踪](./3-transport/lessons/1-location-tracking/README.md) |
-|  12  |    [交通](./3-transport)    |            存储位置数据            | 学会怎么存储 IoT 数据，让你未来能可视化或分析它              | [存储位置数据](./3-transport/lessons/2-store-location-data/README.md) |
-|  13  |    [交通](./3-transport)    |           可视化位置数据           | 学会在地图上可视化位置数据以及地图怎么用 2D 来代表 3D 的世界 | [可视化位置数据](./3-transport/lessons/3-visualize-location-data/README.md) |
-|  14  |    [交通](./3-transport)    |              地理围栏              | 学会地理围栏是什么以及怎么用它们来通知当供应链的车辆快到目的地时 |   [地理围栏](./3-transport/lessons/4-geofences/README.md)    |
-|  15  | [制造业](./4-manufacturing) |         训练水果质量检测器         | 学会怎么在云端上训练一个图片分类器来检测水果质量             | [训练水果质量检测器](./4-manufacturing/lessons/1-train-fruit-detector/README.md) |
-|  16  | [制造业](./4-manufacturing) |      从 IoT 设备检查水果质量       | 学会怎么从一个 IoT 设备使用你的水果质量检测器                | [从 IoT 设备检查水果质量](./4-manufacturing/lessons/2-check-fruit-from-device/README.md) |
-|  17  | [制造业](./4-manufacturing) |   在边缘上运行你的水果质量检测器   | 学会怎么在边缘上的 IoT 设备运行你的水果质量检测器            | [在边缘上运行你的水果质量检测器](./4-manufacturing/lessons/3-run-fruit-detector-edge/README.md) |
-|  18  | [制造业](./4-manufacturing) |      从传感器触发水果质量检测      | 学会怎么从传感器触发水果质量检测                             | [从传感器触发水果质量检测](./4-manufacturing/lessons/4-trigger-fruit-detector/README.md) |
-|  19  |     [零售](./5-retail)      |           训练存货检测器           | 学会用对象检测来训练存货检测器让你在店里数存货               | [训练存货检测器](./5-retail/lessons/1-train-stock-detector/README.md) |
-|  20  |     [零售](./5-retail)      |        从 IoT 设备检查存货         | 学会怎么用一个对象检测模型从 IoT 设备检查存货                | [从 IoT 设备检查存货](./5-retail/lessons/2-check-stock-device/README.md) |
-|  21  |   [消费者](./6-consumer)    |        用 IoT 设备识别语音         | 学会怎么用 IoT 设备识别语音来创建一个智能计时器              | [用 IoT 设备识别语音](./6-consumer/lessons/1-speech-recognition/README.md) |
-|  22  |   [消费者](./6-consumer)    |              理解语言              | 学会怎么理解向 IoT 设备说的语言                              | [理解语言](./6-consumer/lessons/2-language-understanding/README.md) |
-|  23  |   [消费者](./6-consumer)    |      设置计时器和提供口头反馈      | 学会怎么设置计时器和提供口头反馈当计时器被设置和当它完成的时候 | [设置计时器和提供口头反馈](./6-consumer/lessons/3-spoken-feedback/README.md) |
-|  24  |   [消费者](./6-consumer)    |            支持多种语言            | 学会怎么支持多种语言，包括向智能计时器说的还有计时器回应的   | [支持多种语言](./6-consumer/lessons/4-multiple-language-support/README.md) |
+
+|     | 项目 | 题目 | 学习目标 | 链接 |
+| :-: | :----------: | :-------------: | ------------------- | :-----------: |
+| 01 | [入门](./1-getting-started) | 物联网（IoT）简介 | 学会 IoT 的基本原则（例如：传感器和云服务），同时设置你的第一个 IoT 设备| [物联网（IoT）简介](./1-getting-started/lessons/1-introduction-to-iot/README.md) |
+| 02 | [入门](./1-getting-started) | 深入了解物联网（IoT） | 深入了解 IoT 系统的不同部分，以及微控制器和单板机 | [深入了解物联网（IoT）](./1-getting-started/lessons/2-deeper-dive/README.md) |
+| 03 | [入门](./1-getting-started) | 用传感器和执行器跟物质世界互相作用 | 学会传感器怎么从物质世界收集数据和执行器怎么发送反馈，同时创建一个夜灯 | [用传感器和执行器跟物质世界互相作用](./1-getting-started/lessons/3-sensors-and-actuators/README.md) |
+| 04 | [入门](./1-getting-started) | 将你的设备连接到互联网 | 学会怎么把一个 IoT 设备连接到互联网，将夜灯连接到MQTT 中转站让它发送和收到消息 | [将你的设备连接到互联网](./1-getting-started/lessons/4-connect-internet/README.md) |
+| 05 | [农场](./2-farm) | 预测植物生长 | 学会怎么用 IoT 设备捕获的温度数据来预测植物生长 | [预测植物生长](./2-farm/lessons/1-predict-plant-growth/README.md) |
+| 06 | [农场](./2-farm) | 检测土壤水分 | 学会怎么检测土壤水分以及校准土壤湿度传感器 | [检测土壤水分](./2-farm/lessons/2-detect-soil-moisture/README.md) |
+| 07 | [农场](./2-farm) | 自动植物浇水 | 学会怎么用一个中继和 MQTT 为植物浇水使自动化和计时 | [自动植物浇水](./2-farm/lessons/3-automated-plant-watering/README.md) |
+| 08 | [农场](./2-farm) | 将你的植物迁移到云端 | 了解云端和云端 IoT 服务与学会怎么把你的植物连接到它，而不是一个公共 MQTT中转站 | [将你的植物迁移到云端](./2-farm/lessons/4-migrate-your-plant-to-the-cloud/README.md) |
+| 09 | [农场](./2-farm) | 将你的应用程序逻辑迁移到云端 | 学会怎么在云端写能够响应 IoT 消息的应用程序逻辑 | [将你的应用程序逻辑迁移到云端](./2-farm/lessons/5-migrate-application-to-the-cloud/README.md) |
+| 10 | [农场](./2-farm) | 确保你的植物安全 | 了解 IoT 安全以及学会怎么用密钥和证书来确保你的植物安全 | [确保你的植物安全](./2-farm/lessons/6-keep-your-plant-secure/README.md) |
+| 11 | [交通](./3-transport) | 位置追踪 | 了解  IoT 设备的 GPS位置追踪 | [位置追踪](./3-transport/lessons/1-location-tracking/README.md) |
+| 12 | [交通](./3-transport) | 存储位置数据 | 学会怎么存储 IoT 数据，让你未来能可视化或分析它 | [存储位置数据](./3-transport/lessons/2-store-location-data/README.md) |
+| 13 | [交通](./3-transport) | 可视化位置数据 | 学会在地图上可视化位置数据以及地图怎么用 2D 来代表 3D 的世界 | [可视化位置数据](./3-transport/lessons/3-visualize-location-data/README.md) |
+| 14 | [交通](./3-transport) | 地理围栏 | 学会地理围栏是什么以及怎么用它们来通知当供应链的车辆快到目的地时 | [地理围栏](./3-transport/lessons/4-geofences/README.md) |
+| 15 | [制造业](./4-manufacturing) | 训练水果质量检测器 | 学会怎么在云端上训练一个图片分类器来检测水果质量 | [训练水果质量检测器](./4-manufacturing/lessons/1-train-fruit-detector/README.md) |
+| 16 | [制造业](./4-manufacturing) | 从 IoT 设备检查水果质量 | 学会怎么从一个 IoT 设备使用你的水果质量检测器 | [从 IoT 设备检查水果质量](./4-manufacturing/lessons/2-check-fruit-from-device/README.md) |
+| 17 | [制造业](./4-manufacturing) | 在边缘上运行你的水果质量检测器 | 学会怎么在边缘上的 IoT 设备运行你的水果质量检测器 | [在边缘上运行你的水果质量检测器](./4-manufacturing/lessons/3-run-fruit-detector-edge/README.md) |
+| 18 | [制造业](./4-manufacturing) | 从传感器触发水果质量检测 | 学会怎么从传感器触发水果质量检测 | [从传感器触发水果质量检测](./4-manufacturing/lessons/4-trigger-fruit-detector/README.md) |
+| 19 | [零售](./5-retail) | 训练存货检测器 | 学会用对象检测来训练存货检测器让你在店里数存货 | [训练存货检测器](./5-retail/lessons/1-train-stock-detector/README.md) |
+| 20 | [零售](./5-retail) | 从 IoT 设备检查存货 | 学会怎么用一个对象检测模型从 IoT 设备检查存货 | [从 IoT 设备检查存货](./5-retail/lessons/2-check-stock-device/README.md)  |
+| 21 | [消费者](./6-consumer) | 用 IoT 设备识别语音 | 学会怎么用 IoT 设备识别语音来创建一个智能计时器 | [用 IoT 设备识别语音](./6-consumer/lessons/1-speech-recognition/README.md) |
+| 22 | [消费者](./6-consumer) | 理解语言 | 学会怎么理解向 IoT 设备说的语言 | [理解语言](./6-consumer/lessons/2-language-understanding/README.md) |
+| 23 | [消费者](./6-consumer) | 设置计时器和提供口头反馈 | 学会怎么设置计时器和提供口头反馈当计时器被设置和当它完成的时候 | [设置计时器和提供口头反馈](./6-consumer/lessons/3-spoken-feedback/README.md) |
+| 24 | [消费者](./6-consumer) | 支持多种语言 | 学会怎么支持多种语言，包括向智能计时器说的还有计时器回应的 | [支持多种语言](./6-consumer/lessons/4-multiple-language-support/README.md) |
+
 
 ## 离线访问
 
