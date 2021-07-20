@@ -44,7 +44,11 @@ The projects cover the journey of food from farm to table. This includes farming
 
 Meet the team!
 
-[![Promo video](./images/iot-for-beginners.png)](https://youtu.be/-wippUJRi5k)
+<p align="center">
+    <a href="https://youtu.be/-wippUJRi5k">
+        <img alt="Promo video" src="./images/iot-for-beginners.png" />
+    </a>
+</p>
 
 > 🎥 Click the image above for a video about the project!
 
@@ -54,7 +58,11 @@ Meet the team!
 
 For a video overview of this course, check out this video:
 
-[![Promo video](https://img.youtube.com/vi/bccEMm8gRuc/0.jpg)](https://youtube.com/watch?v=bccEMm8gRuc "Promo video")
+<p align="center">
+    <a href="https://youtube.com/watch?v=bccEMm8gRuc">
+        <img alt="Promo video" src="https://img.youtube.com/vi/bccEMm8gRuc/0.jpg" />
+    </a>
+</p>
 
 > 🎥 Click the image above for a video about the project!
 
