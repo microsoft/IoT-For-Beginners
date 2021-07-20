@@ -1,8 +1,20 @@
-[![GitHub license](https://img.shields.io/github/license/microsoft/IoT-For-Beginners.svg)](https://github.com/microsoft/IoT-For-Beginners/blob/master/LICENSE)
-[![GitHub contributors](https://img.shields.io/github/contributors/microsoft/IoT-For-Beginners.svg)](https://GitHub.com/microsoft/IoT-For-Beginners/graphs/contributors/)
-[![GitHub issues](https://img.shields.io/github/issues/microsoft/IoT-For-Beginners.svg)](https://GitHub.com/microsoft/IoT-For-Beginners/issues/)
-[![GitHub pull-requests](https://img.shields.io/github/issues-pr/microsoft/IoT-For-Beginners.svg)](https://GitHub.com/microsoft/IoT-For-Beginners/pulls/)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
+<p align="center">
+    <a href="https://github.com/microsoft/IoT-For-Beginners/blob/master/LICENSE">
+        <img alt="GitHub license" src="https://img.shields.io/github/license/microsoft/IoT-For-Beginners.svg" />
+    </a>
+    <a href="https://GitHub.com/microsoft/IoT-For-Beginners/graphs/contributors/">
+        <img alt="GitHub contributors" src="https://img.shields.io/github/contributors/microsoft/IoT-For-Beginners.svg" />
+    </a>
+    <a href="https://GitHub.com/microsoft/IoT-For-Beginners/issues/">
+        <img alt="GitHub issues" src="https://img.shields.io/github/issues/microsoft/IoT-For-Beginners.svg" />
+    </a>
+    <a href="https://GitHub.com/microsoft/IoT-For-Beginners/pulls/">
+        <img alt="GitHub pull-requests" src="https://img.shields.io/github/issues-pr/microsoft/IoT-For-Beginners.svg" />
+    </a>
+    <a href="http://makeapullrequest.com">
+        <img alt="PRs Welcome" src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=square" />
+    </a>
+</p>
 
 <p align="center">
     <a href="https://GitHub.com/microsoft/IoT-For-Beginners/watchers/">
