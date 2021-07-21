@@ -4,13 +4,13 @@
 
 ![一个树莓派 4](../../../../images/raspberry-pi-4.jpg)
 
-## 安装
+## 设置
 
 如果你要使用树莓派来作为你的物联网硬件，那么你有两个选择来完成这些课程 - 直接在树莓派上编码，或者从你的计算机远程连接到无界面的树莓派上来编码。
 
 在你开始之前，你还需要把Grove基础扩展板连接到你的Pi上。
 
-### 任务 - 安装
+### 任务 - 设置
 
 安装Grove基础扩展板并配置好你的树莓派
 
@@ -27,11 +27,11 @@
 
 如果你想要直接在树莓派上编码，你可以使用Raspberry Pi OS的桌面版本并安装你需要的所有工具。
 
-#### Task - 在树莓派上直接编码
+#### 任务 - 在树莓派上直接编码
 
 配置树莓派的开发环境。
 
-1. 跟着[树莓派配置指南](https://projects.raspberrypi.org/en/projects/raspberry-pi-setting-up)的步骤来配置你的树莓派，给它连上一个键盘/鼠标/显示器，把它接入你的Wi-Fi或者以太网络，然后更新软件，你要安装的是**Raspberry Pi OS (32 bit)**，用Raspberry Pi Imager来烧写SD卡的时候一般都会推荐这个操作系统。
+1. 跟着[树莓派配置指南](https://projects.raspberrypi.org/en/projects/raspberry-pi-setting-up)的步骤来配置你的树莓派，给它连上一个键盘/鼠标/显示器，把它接入你的Wi-Fi或者以太网络，然后更新软件。你要安装的是**Raspberry Pi OS (32 bit)**，用Raspberry Pi Imager来烧写SD卡的时候一般都会推荐这个操作系统。
 
 想要使用Grove传感器和执行器来给树莓派编程的话，你需要安装一个编辑器来编写设备代码和各种用来与Grove硬件交互的函数库、工具。
 
