@@ -12,6 +12,14 @@ Translated lessons should follow this naming convention:
 
 where _[language]_ is a two letter language abbreviation following the ISO 639-1 standard (e.g. `README.es.md` for Spanish and `README.nl.md` for Dutch).
 
+When translatinng lessons, link the other translations to your translated lesson by using Shields as shown 
+
+
+```` 
+[![Bengali](https://img.shields.io/badge/-Bengali-orange)](https://github.com/microsoft/IoT-For-Beginners/blob/main/translations/README.bn.md)
+```` 
+
+
 ## Quizzes
 
 Add your translation to the quiz-app by adding a file here: https://github.com/microsoft/IoT-For-Beginners/tree/main/quiz-app/src/assets/translations. Please don't localize the words 'true' or 'false' however. thanks!
