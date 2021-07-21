@@ -24,7 +24,7 @@
 
 第一次用新的编程语言或技术，通常以创建一个“Hello World”应用开始——一个输出类似`"Hello World"`文本的小小应用，以确保所有的工具被设置好。
 
-这个虚拟 IoT 硬件的“Hello World”应用将确保你安装好 Python 与 Visual Studio Code。它也会连接到 CounterFit以获取虚拟 IoT 传感器和执行器。它不会用到任何硬件，他只会以正确连接来证明每个部分运作良好。
+这个虚拟 IoT 硬件的“Hello World”应用将确保你安装好 Python 与 Visual Studio Code。它也会连接到 CounterFit以获取虚拟 IoT 传感器和执行器。它不会用到任何硬件，它只会以正确连接来证明每个部分运作良好。
 
 这个应用放在名为`nightlight`的文件夹中，稍后将和其他代码结合，以构建夜灯应用。
 
