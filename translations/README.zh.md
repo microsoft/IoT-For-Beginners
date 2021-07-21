@@ -10,6 +10,7 @@
 
 [![Bengali](https://img.shields.io/badge/-Bengali-blue)](https://github.com/microsoft/IoT-For-Beginners/blob/main/translations/README.bn.md)
 [![English](https://img.shields.io/badge/-English-red)](https://github.com/microsoft/IoT-For-Beginners/blob/main/README.md)
+[![Turkish](https://img.shields.io/badge/-Turkish-darkgreen)](https://github.com/microsoft/IoT-For-Beginners/blob/main/translations/README.tr.md)
 
 # 物联网（IoT for Beginners） – 课程
 
