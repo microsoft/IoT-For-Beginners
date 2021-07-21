@@ -16,7 +16,7 @@ When translatinng lessons, link the other translations to your translated lesson
 
 
 ```` 
-[![Bengali](https://img.shields.io/badge/-Bengali-orange)](https://github.com/microsoft/IoT-For-Beginners/blob/main/translations/README.bn.md)
+[![Bengali](https://img.shields.io/badge/-Bengali-blue)](https://github.com/microsoft/IoT-For-Beginners/blob/main/translations/README.bn.md)
 ```` 
 
 
