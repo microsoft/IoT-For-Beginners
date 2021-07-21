@@ -10,6 +10,7 @@
 
 [![English](https://img.shields.io/badge/-English-red)](https://github.com/microsoft/IoT-For-Beginners/blob/main/README.md)
 [![Chinese](https://img.shields.io/badge/-Chinese-yellow)](https://github.com/microsoft/IoT-For-Beginners/blob/main/translations/README.zh-cn.md)
+[![Turkish](https://img.shields.io/badge/-Turkish-green)](https://github.com/microsoft/IoT-For-Beginners/blob/main/translations/README.tr.md)
 
 # বিগিনারদের জন্য আইওটি - একটি সুবিন্যস্ত পাঠ্যক্রম
 
