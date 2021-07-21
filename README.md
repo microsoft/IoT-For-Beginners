@@ -10,7 +10,7 @@
 
 [![Bengali](https://img.shields.io/badge/-Bengali-blue)](https://github.com/microsoft/IoT-For-Beginners/blob/main/translations/README.bn.md)
 [![Chinese](https://img.shields.io/badge/-Chinese-yellow)](https://github.com/microsoft/IoT-For-Beginners/blob/main/translations/README.zh-cn.md)
-[![Turkish](https://img.shields.io/badge/-Turkish-green)](https://github.com/microsoft/IoT-For-Beginners/blob/main/translations/README.tr.md)
+[![Turkish](https://img.shields.io/badge/-Turkish-darkgreen)](https://github.com/microsoft/IoT-For-Beginners/blob/main/translations/README.tr.md)
 
 # IoT for Beginners - A Curriculum
 
