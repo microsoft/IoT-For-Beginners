@@ -129,9 +129,9 @@ Raspberry Pi 是其中最流行的单板机。
 
 按照相关的指南来设置你的设备，并完成一个“Hello World”项目。我们将用4个课程创造一个物联网夜灯，而这是第一步。
 
-* [Arduino：Wio Terminal](wio-terminal.md)
-* [单板机：Raspberry Pi](pi.md)
-* [单板机：虚拟设备](virtual-device.md)
+* [Arduino：Wio Terminal](wio-terminal.zh-cn.md)
+* [单板机：Raspberry Pi](../pi.md)
+* [单板机：虚拟设备](virtual-device.zh-cn.md)
 
 您将使用 VS Code在Arduino 和单板机上编程。如果您以前从未使用过它，请在 [VS Code 站点](https://code.visualstudio.com/?WT.mc_id=academic-17441-jabenn)上阅读更多相关信息。
 
