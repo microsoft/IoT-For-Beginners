@@ -19,7 +19,6 @@ When translating the initial Readme file , link your translated Readme file to t
 [![Bengali](https://img.shields.io/badge/-Bengali-blue)](translations/README.bn.md)
 ``` 
 
-
 ## Quizzes
 
 Add your translation to the quiz-app by adding a file here: https://github.com/microsoft/IoT-For-Beginners/tree/main/quiz-app/src/assets/translations. Please don't localize the words 'true' or 'false' however. thanks!
