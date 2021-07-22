@@ -8,9 +8,9 @@
 [![GitHub forks](https://img.shields.io/github/forks/microsoft/IoT-For-Beginners.svg?style=social&label=Fork)](https://GitHub.com/microsoft/IoT-For-Beginners/network/)
 [![GitHub stars](https://img.shields.io/github/stars/microsoft/IoT-For-Beginners.svg?style=social&label=Sta)](https://GitHub.com/microsoft/IoT-For-Beginners/stargazers/)
 
-[![English](https://img.shields.io/badge/-English-red)](https://github.com/microsoft/IoT-For-Beginners/blob/main/README.md)
-[![Chinese](https://img.shields.io/badge/-Chinese-yellow)](https://github.com/microsoft/IoT-For-Beginners/blob/main/translations/README.zh-cn.md)
-[![Turkish](https://img.shields.io/badge/-Turkish-green)](https://github.com/microsoft/IoT-For-Beginners/blob/main/translations/README.tr.md)
+[![English](https://img.shields.io/badge/-English-red)](IoT-For-Beginners/blob/main/README.md)
+[![Chinese](https://img.shields.io/badge/-Chinese-yellow)](translations/README.zh-cn.md)
+[![Turkish](https://img.shields.io/badge/-Turkish-green)](translations/README.tr.md)
 
 # বিগিনারদের জন্য আইওটি - একটি সুবিন্যস্ত পাঠ্যক্রম
 
