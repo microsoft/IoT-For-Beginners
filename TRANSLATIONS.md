@@ -12,11 +12,11 @@ Translated lessons should follow this naming convention:
 
 where _[language]_ is a two letter language abbreviation following the ISO 639-1 standard (e.g. `README.es.md` for Spanish and `README.nl.md` for Dutch).
 
-When translating the initial Readme file , link the other translations to your translated readme by using Shields as shown 
+When translating the initial Readme file , link your translated Readme file to the English version by using a shield in the English Readme.
 
 [Code in Markdown]
 ```
-[![Bengali](https://img.shields.io/badge/-Bengali-blue)](https://github.com/microsoft/IoT-For-Beginners/blob/main/translations/README.bn.md)
+[![Bengali](https://img.shields.io/badge/-Bengali-blue)](translations/README.bn.md)
 ``` 
 
 
