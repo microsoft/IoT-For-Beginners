@@ -512,10 +512,10 @@
 			},
 			{
 				"id": 11,
-				"title": "第6课 - Detect soil moisture：课前测验",
+				"title": "第6课 - 检测土壤湿度：课前测验",
 				"quiz": [
 					{
-						"questionText": "IoT设备 can be used to detect ambient properties like soil moisture",
+						"questionText": "IoT设备可被用来检测如土壤湿度之类的环境属性",
 						"answerOptions": [
 							{
 								"answerText": "正确",
@@ -528,24 +528,24 @@
 						]
 					},
 					{
-						"questionText": "Which of these can cause problems for plant growth (pick one)?",
+						"questionText": "下面哪一项可能导致植物生长问题（选一项）?",
 						"answerOptions": [
 							{
-								"answerText": "Too little water",
+								"answerText": "浇水太少",
 								"isCorrect": "false"
 							},
 							{
-								"answerText": "Too much water",
+								"answerText": "浇水太多",
 								"isCorrect": "false"
 							},
 							{
-								"answerText": "Too little or too much water",
+								"answerText": "浇水太少或太多",
 								"isCorrect": "true"
 							}
 						]
 					},
 					{
-						"questionText": "All sensors are provided pre-calibrated for standard units:",
+						"questionText": "所有的传感器都根据标准单位预先标定好了：",
 						"answerOptions": [
 							{
 								"answerText": "正确",
@@ -561,55 +561,55 @@
 			},
 			{
 				"id": 12,
-				"title": "第6课 - Detect soil moisture：课后测验",
+				"title": "第6课 - 检测土壤湿度：课后测验",
 				"quiz": [
 					{
-						"questionText": "When measuring soil moisture, one difference between resistive and capacitive moisture sensors is:",
+						"questionText": "在测量土壤湿度的时候，电阻式和电容式湿度传感器的一个不同点是：",
 						"answerOptions": [
 							{
-								"answerText": "As moisture levels go up the voltage goes up for resistive sensors and down for capacitive sensors",
+								"answerText": "当湿度升高的时候，电阻式传感器的电压升高，电容式传感器的电压降低",
 								"isCorrect": "true"
 							},
 							{
-								"answerText": "As moisture levels go up the voltage goes down for resistive sensors and up for capacitive sensors",
+								"answerText": "当湿度升高的时候，电阻式传感器的电压降低，电容式传感器的电压升高",
 								"isCorrect": "false"
 							},
 							{
-								"answerText": "As moisture levels go up the voltage goes up for both resistive and capacitive sensors",
+								"answerText": "当湿度升高的时候，电阻式和电容式传感器的电压都升高",
 								"isCorrect": "false"
 							}
 						]
 					},
 					{
-						"questionText": "The SPI protocol supports:",
+						"questionText": "SPI协议支持：",
 						"answerOptions": [
 							{
-								"answerText": "Only one controller and only one peripheral",
+								"answerText": "仅一个控制器和一个外设",
 								"isCorrect": "false"
 							},
 							{
-								"answerText": "Only one controller and multiple peripherals",
+								"answerText": "仅一个控制器但可以有多个外设",
 								"isCorrect": "true"
 							},
 							{
-								"answerText": "Multiple controllers and multiple peripherals",
+								"answerText": "多个控制器和多个外设",
 								"isCorrect": "false"
 							}
 						]
 					},
 					{
-						"questionText": "The I2C protocol supports:",
+						"questionText": "I2C协议支持：",
 						"answerOptions": [
 							{
-								"answerText": "Only one controller and only one peripheral",
+								"answerText": "仅一个控制器和一个外设",
 								"isCorrect": "false"
 							},
 							{
-								"answerText": "Only one controller and multiple peripherals",
+								"answerText": "仅一个控制器但可以有多个外设",
 								"isCorrect": "false"
 							},
 							{
-								"answerText": "Multiple controllers and multiple peripherals",
+								"answerText": "多个控制器和多个外设",
 								"isCorrect": "true"
 							}
 						]
@@ -618,10 +618,10 @@
 			},
 			{
 				"id": 13,
-				"title": "第7课 - Automated plant watering：课前测验",
+				"title": "第7课 - 植物浇水自动化：课前测验",
 				"quiz": [
 					{
-						"questionText": "IoT设备 are powerful enough to control water pumps",
+						"questionText": "IoT设备的功率足以直接控制水泵",
 						"answerOptions": [
 							{
 								"answerText": "正确",
@@ -634,7 +634,7 @@
 						]
 					},
 					{
-						"questionText": "Actuators can be used to control power to additional devices",
+						"questionText": "执行机构可以控制其它设备的电源",
 						"answerOptions": [
 							{
 								"answerText": "正确",
@@ -647,7 +647,7 @@
 						]
 					},
 					{
-						"questionText": "Sensors detect changes from actuators immediately",
+						"questionText": "传感器可以立即检测到执行机构的变化",
 						"answerOptions": [
 							{
 								"answerText": "正确",
@@ -663,44 +663,44 @@
 			},
 			{
 				"id": 14,
-				"title": "第7课 - Automated plant watering：课后测验",
+				"title": "第7课 - 植物浇水自动化：课后测验",
 				"quiz": [
 					{
-						"questionText": "A relay is what type of switch:",
+						"questionText": "继电器是什么类型的开关：",
 						"answerOptions": [
 							{
-								"answerText": "Electrical",
+								"answerText": "电子开关（Electrical）",
 								"isCorrect": "false"
 							},
 							{
-								"answerText": "Electromechanical",
+								"answerText": "机电开关（Electromechanical）",
 								"isCorrect": "true"
 							},
 							{
-								"answerText": "Mechanical",
+								"answerText": "机械开关（Mechanical）",
 								"isCorrect": "false"
 							}
 						]
 					},
 					{
-						"questionText": "A relay allows:",
+						"questionText": "继电器允许：",
 						"answerOptions": [
 							{
-								"answerText": "A low power device to control a higher power device",
+								"answerText": "低功率的设备控制高功率的设备",
 								"isCorrect": "true"
 							},
 							{
-								"answerText": "A high power device to control a low power device",
+								"answerText": "高功率的设备控制低功率的设备",
 								"isCorrect": "false"
 							},
 							{
-								"answerText": "Runners to run a race passing a baton between them",
+								"answerText": "运动员跑一场接力赛",
 								"isCorrect": "false"
 							}
 						]
 					},
 					{
-						"questionText": "Actuators should always respond instantly to sensor readings:",
+						"questionText": "执行机构总是对传感器的读取立即做出反应：",
 						"answerOptions": [
 							{
 								"answerText": "正确",
@@ -716,10 +716,10 @@
 			},
 			{
 				"id": 15,
-				"title": "第8课 - Migrate your plant to the cloud：课前测验",
+				"title": "第8课 - 将你的植物移植到云端：课前测验",
 				"quiz": [
 					{
-						"questionText": "A public MQTT broker is fine to use for a commercial IoT project",
+						"questionText": "开放的MQTT消息代理适合用于商业IoT项目",
 						"answerOptions": [
 							{
 								"answerText": "正确",
@@ -732,24 +732,24 @@
 						]
 					},
 					{
-						"questionText": "Cloud computing allow you to:",
+						"questionText": "云计算允许你：",
 						"answerOptions": [
 							{
-								"answerText": "Only rent computers",
+								"answerText": "只能租赁计算机",
 								"isCorrect": "false"
 							},
 							{
-								"answerText": "Rent computers and application platforms only",
+								"answerText": "只能租赁计算机和应用平台",
 								"isCorrect": "false"
 							},
 							{
-								"answerText": "Rent computers, application platforms, software, serverless platforms and other services",
+								"answerText": "租赁计算机、应用平台、软件、无服务器计算平台以及其它服务",
 								"isCorrect": "true"
 							}
 						]
 					},
 					{
-						"questionText": "There are multiple cloud vendors with data centers in many different countries across 6 continents",
+						"questionText": "有多家云平台供应商拥有遍布六大洲许多国家的数据中心",
 						"answerOptions": [
 							{
 								"answerText": "正确",
@@ -765,27 +765,27 @@
 			},
 			{
 				"id": 16,
-				"title": "第8课 - Migrate your plant to the cloud：课后测验",
+				"title": "第8课 - 将你的植物移植到云端：课后测验",
 				"quiz": [
 					{
-						"questionText": "To request control of an actuator and get a response from an IoT设备, app code can use a:",
+						"questionText": "为了控制执行机构以及从IoT设备获取反馈，程序代码可以使用：",
 						"answerOptions": [
 							{
-								"answerText": "Device to cloud message",
+								"answerText": "从设备到云平台的消息",
 								"isCorrect": "false"
 							},
 							{
-								"answerText": "Device twin",
+								"answerText": "设备孪生（device twins）",
 								"isCorrect": "false"
 							},
 							{
-								"answerText": "Direct method request",
+								"answerText": "直接的请求",
 								"isCorrect": "true"
 							}
 						]
 					},
 					{
-						"questionText": "IoT Hub lets any device connect without any security:",
+						"questionText": "任何设备都可以以不安全的方式连接IoT中心",
 						"answerOptions": [
 							{
 								"answerText": "错误",
@@ -798,7 +798,7 @@
 						]
 					},
 					{
-						"questionText": "IoT Hub names must be unique:",
+						"questionText": "IoT中心的名字必须是唯一的：",
 						"answerOptions": [
 							{
 								"answerText": "正确",
@@ -814,10 +814,10 @@
 			},
 			{
 				"id": 17,
-				"title": "第9课 - Migrate your application logic to the cloud：课前测验",
+				"title": "第9课 - 将你的应用程序移植到云端：课前测验",
 				"quiz": [
 					{
-						"questionText": "You can use Serverless code to respond to IoT events",
+						"questionText": "无服务器计算代码可以用来回应IoT事件",
 						"answerOptions": [
 							{
 								"answerText": "正确",
@@ -830,24 +830,24 @@
 						]
 					},
 					{
-						"questionText": "When you send IoT events to IoT Hub:",
+						"questionText": "当IoT事件发送到IoT中心：",
 						"answerOptions": [
 							{
-								"answerText": "Only one service can read events off the IoT Hub",
+								"answerText": "只有一个服务可以从IoT中心读取事件",
 								"isCorrect": "false"
 							},
 							{
-								"answerText": "Any number of services can read events off the IoT Hub",
+								"answerText": "任意多的服务可以从IoT中心读取事件",
 								"isCorrect": "true"
 							},
 							{
-								"answerText": "Services cannot read events from IoT Hub, they have to connect to the device directly",
+								"answerText": "服务无法从IoT中心读取事件，它们只能和设备直连",
 								"isCorrect": "false"
 							}
 						]
 					},
 					{
-						"questionText": "When reading events off IoT hub, you can only do so using code that runs in the cloud",
+						"questionText": "只有运行在云端的代码才能从IoT中心读取事件",
 						"answerOptions": [
 							{
 								"answerText": "正确",
@@ -863,10 +863,10 @@
 			},
 			{
 				"id": 18,
-				"title": "第9课 - Migrate your application logic to the cloud：课后测验",
+				"title": "第9课 - 将你的应用程序移植到云端：课后测验",
 				"quiz": [
 					{
-						"questionText": "Azure Functions can be run and debugged locally:",
+						"questionText": "Azure Functions可以在本地运行和调试：",
 						"answerOptions": [
 							{
 								"answerText": "正确",
@@ -879,7 +879,7 @@
 						]
 					},
 					{
-						"questionText": "Serverless code can only be written in JavaScript and COBOL:",
+						"questionText": "无服务器计算代码只能使用JavaScript和COBOL编写：",
 						"answerOptions": [
 							{
 								"answerText": "错误",
@@ -892,18 +892,18 @@
 						]
 					},
 					{
-						"questionText": "When deploying a Functions App to the cloud, you need to create and deploy:",
+						"questionText": "为了部署Functions应用到云端，需要创建和部署：",
 						"answerOptions": [
 							{
-								"answerText": "A Functions App only",
+								"answerText": "仅Functions应用",
 								"isCorrect": "false"
 							},
 							{
-								"answerText": "A Functions App and a Storage Account only",
+								"answerText": "仅Functions应用和存储账户",
 								"isCorrect": "false"
 							},
 							{
-								"answerText": "A Functions App, a Storage Account, and Application Settings",
+								"answerText": "Functions应用、存储账户以及应用程序配置",
 								"isCorrect": "true"
 							}
 						]
@@ -912,10 +912,10 @@
 			},
 			{
 				"id": 19,
-				"title": "第10课 - Keep your plant secure：课前测验",
+				"title": "第10课 - 确保你的植物安全：课前测验",
 				"quiz": [
 					{
-						"questionText": "IoT设备 are always secure",
+						"questionText": "IoT设备总是安全的",
 						"answerOptions": [
 							{
 								"answerText": "正确",
@@ -928,7 +928,7 @@
 						]
 					},
 					{
-						"questionText": "There are no documented cases of hackers using an IoT设备 to hack into a network:",
+						"questionText": "尚无充分证据表明黑客已成功利用IoT设备黑入网络：",
 						"answerOptions": [
 							{
 								"answerText": "正确",
@@ -941,7 +941,7 @@
 						]
 					},
 					{
-						"questionText": "You can share your IoT设备 connection string with anyone",
+						"questionText": "可以将IoT设备的connection string分享给任何人",
 						"answerOptions": [
 							{
 								"answerText": "正确",
@@ -957,31 +957,31 @@
 			},
 			{
 				"id": 20,
-				"title": "第10课 - Keep your plant secure：课后测验",
+				"title": "第10课 - 确保你的植物安全：课后测验",
 				"quiz": [
 					{
-						"questionText": "Symmetric key encryption compares to asymmetric key encryption in which ways:",
+						"questionText": "对称密钥加密相比于非对称密钥加密：",
 						"answerOptions": [
 							{
-								"answerText": "Symmetric key encryption is slower than asymmetric",
+								"answerText": "对称密钥加密比非对称密钥加密慢",
 								"isCorrect": "false"
 							},
 							{
-								"answerText": "Symmetric key encryption is more secure than asymmetric",
+								"answerText": "对称密钥加密比非对称密钥加密安全",
 								"isCorrect": "false"
 							},
 							{
-								"answerText": "Symmetric key encryption is faster than asymmetric, but less secure",
+								"answerText": "对称密钥加密比非对称密钥加密快，但相对不安全",
 								"isCorrect": "true"
 							},
 							{
-								"answerText": "Symmetric key encryption is slower than asymmetric, but more secure",
+								"answerText": "对称密钥加密比非对称密钥加密慢，但相对安全",
 								"isCorrect": "false"
 							}
 						]
 					},
 					{
-						"questionText": "Self-signed X.509 certificates are ideal for a production environment",
+						"questionText": "自签名的X.509证书适合生产环境",
 						"answerOptions": [
 							{
 								"answerText": "正确",
@@ -994,18 +994,18 @@
 						]
 					},
 					{
-						"questionText": "X.509 certificates:",
+						"questionText": "X.509证书：",
 						"answerOptions": [
 							{
-								"answerText": "Should never be shared between IoT设备",
+								"answerText": "不应该在IoT设备之间共享",
 								"isCorrect": "false"
 							},
 							{
-								"answerText": "Can be shared between devices",
+								"answerText": "可以在设备之间共享",
 								"isCorrect": "true"
 							},
 							{
-								"answerText": "Should be kept secure and never used by any devices",
+								"answerText": "应当妥善保管，不能被任何设备使用",
 								"isCorrect": "false"
 							}
 						]
