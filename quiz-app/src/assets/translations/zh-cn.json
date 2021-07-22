@@ -1014,27 +1014,27 @@
 			},
 			{
 				"id": 21,
-				"title": "第11课 - Location tracking：课前测验",
+				"title": "第11课 - 追踪位置信息：课前测验",
 				"quiz": [
 					{
-						"questionText": "Your location can be defined using",
+						"questionText": "可以使用什么标记你的位置",
 						"answerOptions": [
 							{
-								"answerText": "Latitude only",
+								"answerText": "仅用纬度",
 								"isCorrect": "false"
 							},
 							{
-								"answerText": "Longitude only",
+								"answerText": "仅用经度",
 								"isCorrect": "false"
 							},
 							{
-								"answerText": "Latitude and Longitude",
+								"answerText": "经纬度",
 								"isCorrect": "true"
 							}
 						]
 					},
 					{
-						"questionText": "The types of sensors that can track your location are called:",
+						"questionText": "能够追踪位置信息的传感器叫做：",
 						"answerOptions": [
 							{
 								"answerText": "GPS",
@@ -1051,7 +1051,7 @@
 						]
 					},
 					{
-						"questionText": "There is no value in tracking vehicle locations",
+						"questionText": "追踪车辆的位置信息是没有意义的",
 						"answerOptions": [
 							{
 								"answerText": "正确",
@@ -1067,27 +1067,27 @@
 			},
 			{
 				"id": 22,
-				"title": "第11课 - Location tracking：课后测验",
+				"title": "第11课 - 追踪位置信息：课后测验",
 				"quiz": [
 					{
-						"questionText": "GPS data is sent from sensors using:",
+						"questionText": "传感器如何传输GPS数据：",
 						"answerOptions": [
 							{
-								"answerText": "Latitude and Longitude coordinates",
+								"answerText": "使用经纬度",
 								"isCorrect": "false"
 							},
 							{
-								"answerText": "Addresses",
+								"answerText": "使用地址",
 								"isCorrect": "false"
 							},
 							{
-								"answerText": "NMEA sentences",
+								"answerText": "NMEA语句",
 								"isCorrect": "true"
 							}
 						]
 					},
 					{
-						"questionText": "To get a good GPS fix you need to receive signals from at least how many satellites",
+						"questionText": "至少需要几颗卫星GPS才能很好地定位你",
 						"answerOptions": [
 							{
 								"answerText": "1",
@@ -1104,18 +1104,18 @@
 						]
 					},
 					{
-						"questionText": "GPS sensors send data over:",
+						"questionText": "GPS通过什么发生数据：",
 						"answerOptions": [
 							{
-								"answerText": "SPI",
+								"answerText": "SPI接口",
 								"isCorrect": "false"
 							},
 							{
-								"answerText": "UART",
+								"answerText": "串口（UART）",
 								"isCorrect": "true"
 							},
 							{
-								"answerText": "Email",
+								"answerText": "电子邮件",
 								"isCorrect": "false"
 							}
 						]
@@ -1124,10 +1124,10 @@
 			},
 			{
 				"id": 23,
-				"title": "第12课 - Store location data：课前测验",
+				"title": "第12课 - 存储位置数据：课前测验",
 				"quiz": [
 					{
-						"questionText": "IoT data is stored by IoT Hub",
+						"questionText": "IoT数据保存在IoT中心",
 						"answerOptions": [
 							{
 								"answerText": "正确",
@@ -1140,24 +1140,24 @@
 						]
 					},
 					{
-						"questionText": "Data can be divided into the following two types",
+						"questionText": "数据可被分为下面哪两类",
 						"answerOptions": [
 							{
-								"answerText": "Blob and table",
+								"answerText": "二进制大对象（Blob）和表数据（table）",
 								"isCorrect": "false"
 							},
 							{
-								"answerText": "Structured and unstructured",
+								"answerText": "结构化数据和非结构化数据",
 								"isCorrect": "true"
 							},
 							{
-								"answerText": "Red and blue",
+								"answerText": "红和蓝",
 								"isCorrect": "false"
 							}
 						]
 					},
 					{
-						"questionText": "Serverless code can be used to write IoT data to a database",
+						"questionText": "可以使用无服务器计算代码将IoT数据写入数据库中",
 						"answerOptions": [
 							{
 								"answerText": "正确",
@@ -1173,44 +1173,44 @@
 			},
 			{
 				"id": 24,
-				"title": "第12课 - Store location data：课后测验",
+				"title": "第12课 - 存储位置数据：课后测验",
 				"quiz": [
 					{
-						"questionText": "IoT data that needs to be processed immediately is on which path:",
+						"questionText": "需要被立即处理地IoT数据在哪个路径上：",
 						"answerOptions": [
 							{
-								"answerText": "Hot",
+								"answerText": "热路径（Hot）",
 								"isCorrect": "true"
 							},
 							{
-								"answerText": "Warm",
+								"answerText": "温路径（Warm）",
 								"isCorrect": "false"
 							},
 							{
-								"answerText": "Cold",
+								"answerText": "冷路径（Cold）",
 								"isCorrect": "false"
 							}
 						]
 					},
 					{
-						"questionText": "Azure storage has the following storage types:",
+						"questionText": "Azure存储有下列地哪些类型：",
 						"answerOptions": [
 							{
-								"answerText": "Boxes, tubs, bins",
+								"answerText": "盒子、桶、箱子",
 								"isCorrect": "false"
 							},
 							{
-								"answerText": "Blob, table, queue and file",
+								"answerText": "二进制大对象、表、队列和文件",
 								"isCorrect": "true"
 							},
 							{
-								"answerText": "Hot, warm, cold",
+								"answerText": "热数据、温数据和冷数据",
 								"isCorrect": "false"
 							}
 						]
 					},
 					{
-						"questionText": "Azure Functions can be bound to database to write return values to the database",
+						"questionText": "Azure Functions可以绑定到数据库以将返回值写入数据库",
 						"answerOptions": [
 							{
 								"answerText": "正确",
@@ -1226,10 +1226,10 @@
 			},
 			{
 				"id": 25,
-				"title": "第13课 - Visualize location data：课前测验",
+				"title": "第13课 - 可视化位置数据：课前测验",
 				"quiz": [
 					{
-						"questionText": "Very large tables of data are an easy way to quickly look up data",
+						"questionText": "超级大的数据表是一个快速查找数据的简单方法",
 						"answerOptions": [
 							{
 								"answerText": "正确",
@@ -1242,7 +1242,7 @@
 						]
 					},
 					{
-						"questionText": "GPS data can be visualized on maps",
+						"questionText": "GPS数据可以在地图上可视化",
 						"answerOptions": [
 							{
 								"answerText": "正确",
@@ -1255,7 +1255,7 @@
 						]
 					},
 					{
-						"questionText": "On maps of large areas, the same distance drawn on the map represents the same distance on the real world no matter where on the map the measurement is taken",
+						"questionText": "在一个大的区域的地图上，无论从何处测量，地图上相同的距离总是代表现实世界的相同的距离",
 						"answerOptions": [
 							{
 								"answerText": "正确",
@@ -1271,13 +1271,13 @@
 			},
 			{
 				"id": 26,
-				"title": "第13课 - Visualize location data：课后测验",
+				"title": "第13课 - 可视化位置数据：课后测验",
 				"quiz": [
 					{
-						"questionText": "The service to draw maps on a web page is called:",
+						"questionText": "在网页上绘制地图的服务叫做",
 						"answerOptions": [
 							{
-								"answerText": "Azure Maps",
+								"answerText": "Azure地图（Azure Maps）",
 								"isCorrect": "true"
 							},
 							{
@@ -1291,24 +1291,24 @@
 						]
 					},
 					{
-						"questionText": "Azure maps plots data using:",
+						"questionText": "Azure地图使用什么绘制数据：",
 						"answerOptions": [
 							{
 								"answerText": "GeoJSON",
 								"isCorrect": "true"
 							},
 							{
-								"answerText": "Lists of latitude and longitude",
+								"answerText": "经纬度列表",
 								"isCorrect": "false"
 							},
 							{
-								"answerText": "Lists of addresses",
+								"answerText": "地址列表",
 								"isCorrect": "false"
 							}
 						]
 					},
 					{
-						"questionText": "Blobs can be retrieved via a URL",
+						"questionText": "可以通过URL获取二进制大对象",
 						"answerOptions": [
 							{
 								"answerText": "正确",
@@ -1324,10 +1324,10 @@
 			},
 			{
 				"id": 27,
-				"title": "第14课 - Geofences：课前测验",
+				"title": "第14课 - 地理围栏：课前测验",
 				"quiz": [
 					{
-						"questionText": "GPS coordinates can be used to check if something is in a defined area",
+						"questionText": "可以使用GPS坐标检测物体是否在规定的区域里",
 						"answerOptions": [
 							{
 								"answerText": "正确",
@@ -1340,7 +1340,7 @@
 						]
 					},
 					{
-						"questionText": "GPS is incredibly accurate so can indicate with precision of less than 1M when a device enters a given area",
+						"questionText": "当设备进入一个给定的区域时，GPS已经精确到能够提供一米以内的精度",
 						"answerOptions": [
 							{
 								"answerText": "正确",
@@ -1353,18 +1353,18 @@
 						]
 					},
 					{
-						"questionText": "Geofences are useful when tracking vehicles to:",
+						"questionText": "在追踪车辆的时候地理围栏可以用作：",
 						"answerOptions": [
 							{
-								"answerText": "Determine when a vehicle enters a given area only",
+								"answerText": "仅能用作确定车辆何时进入了给定的区域",
 								"isCorrect": "false"
 							},
 							{
-								"answerText": "Determine when a vehicle leaves a given area only",
+								"answerText": "仅能用作确定车辆何时离开了给定的区域",
 								"isCorrect": "false"
 							},
 							{
-								"answerText": "Determine when a vehicle enters or leaves a given area",
+								"answerText": "确定车辆何时进入或离开了给定的区域",
 								"isCorrect": "true"
 							}
 						]
@@ -1373,27 +1373,27 @@
 			},
 			{
 				"id": 28,
-				"title": "第14课 - Geofences：课后测验",
+				"title": "第14课 - 地理围栏：课后测验",
 				"quiz": [
 					{
-						"questionText": "To have multiple services pull data from an IoT Hub, you need to create multiple:",
+						"questionText": "为了让多个服务从IoT中心获取数据，你需要创建多个：",
 						"answerOptions": [
 							{
-								"answerText": "Consumer groups",
+								"answerText": "消费者群组（Consumer groups）",
 								"isCorrect": "true"
 							},
 							{
-								"answerText": "Pipes",
+								"answerText": "管道（Pipes）",
 								"isCorrect": "false"
 							},
 							{
-								"answerText": "IoT Hubs",
+								"answerText": "IoT中心",
 								"isCorrect": "false"
 							}
 						]
 					},
 					{
-						"questionText": "The default search buffer for a geofence call is:",
+						"questionText": "一个地理围栏调用的默认搜索缓存是：",
 						"answerOptions": [
 							{
 								"answerText": "5m",
@@ -1410,14 +1410,14 @@
 						]
 					},
 					{
-						"questionText": "Points inside the geofence have a distance:",
+						"questionText": "地理围栏中点的距离：",
 						"answerOptions": [
 							{
-								"answerText": "Less than 0 (a negative value)",
+								"answerText": "小于0（一个负值）",
 								"isCorrect": "true"
 							},
 							{
-								"answerText": "Greater than 0 (a positive value)",
+								"answerText": "大于0（一个正值）",
 								"isCorrect": "false"
 							}
 						]
@@ -1426,10 +1426,10 @@
 			},
 			{
 				"id": 29,
-				"title": "第15课 - Train a fruit quality detector：课前测验",
+				"title": "第15课 - 训练一个水果品质检测器：课前测验",
 				"quiz": [
 					{
-						"questionText": "Cameras can be used as IoT sensors",
+						"questionText": "摄像头可以用作IoT的传感器",
 						"answerOptions": [
 							{
 								"answerText": "正确",
@@ -1442,7 +1442,7 @@
 						]
 					},
 					{
-						"questionText": "Fruit can be sorted using cameras",
+						"questionText": "可以用摄像头给水果分类",
 						"answerOptions": [
 							{
 								"answerText": "正确",
@@ -1455,7 +1455,7 @@
 						]
 					},
 					{
-						"questionText": "Images-based AI models are incredibly complex and time consuming to train, requiring hundreds of thousands of images:",
+						"questionText": "基于图像的人工智能（AI）模型十分的复杂，训练也十分费时，并且需要使用数以万计的图片数据：",
 						"answerOptions": [
 							{
 								"answerText": "正确",
@@ -1471,44 +1471,44 @@
 			},
 			{
 				"id": 30,
-				"title": "第15课 - Train a fruit quality detector：课后测验",
+				"title": "第15课 - 训练一个水果品质检测器：课后测验",
 				"quiz": [
 					{
-						"questionText": "The technique custom vision uses to train a model with only a few images is called:",
+						"questionText": "定制视觉使用的仅用少量图片训练模型的技术叫做：",
 						"answerOptions": [
 							{
-								"answerText": "Transformational learning",
+								"answerText": "转换学习",
 								"isCorrect": "false"
 							},
 							{
-								"answerText": "Transaction learning",
+								"answerText": "交易学习",
 								"isCorrect": "false"
 							},
 							{
-								"answerText": "Transfer learning",
+								"answerText": "迁移学习（Transfer learning）",
 								"isCorrect": "true"
 							}
 						]
 					},
 					{
-						"questionText": "Image classifiers can be trained using:",
+						"questionText": "图片分类的训练：",
 						"answerOptions": [
 							{
-								"answerText": "Only 1 image per tag",
+								"answerText": "每个标签可以只用1张图片",
 								"isCorrect": "false"
 							},
 							{
-								"answerText": "At least 5 images per tag",
+								"answerText": "每个标签至少5张图片",
 								"isCorrect": "true"
 							},
 							{
-								"answerText": "At least 50 images per tag",
+								"answerText": "每个标签至少50张图片",
 								"isCorrect": "false"
 							}
 						]
 					},
 					{
-						"questionText": "The hardware that allows ML models to be trained quickly, as well as making the graphics on out Xbox look amazing are called:",
+						"questionText": "能够快速训练机器学习（ML）模型，并能够让Xbox里的图像看上去非常华丽的硬件叫做",
 						"answerOptions": [
 							{
 								"answerText": "PGU",
@@ -1773,7 +1773,7 @@
 						]
 					},
 					{
-						"questionText": "Things don't need to connect directly to IoT Hub, they can use edge devices as gateways.",
+						"questionText": "Things don't need to connect directly to IoT中心, they can use edge devices as gateways.",
 						"answerOptions": [
 							{
 								"answerText": "正确",
@@ -1816,7 +1816,7 @@
 								"isCorrect": "false"
 							},
 							{
-								"answerText": "IoT Hub",
+								"answerText": "IoT中心",
 								"isCorrect": "true"
 							},
 							{
