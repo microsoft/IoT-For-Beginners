@@ -2,7 +2,7 @@
 
 ![A sketchnote overview of this lesson](../../../../sketchnotes/lesson-4.jpg)
 
-> [Nitya Narasimhan](https://github.com/nitya) তৈরী করছেন এই স্কেচনোটটি। এটির বড় সংস্করণ দেখতে  চাইলে ছবিটির উপর ক্লিক করতে হবে।
+> [Nitya Narasimhan](https://github.com/nitya) তৈরী করছেন এই স্কেচনোটটি। এটির বড় সংস্করণ দেখতে হলে ছবিটির উপর ক্লিক করতে হবে।
 
 ## লেকচার পূর্ববর্তী কুইজ
 
