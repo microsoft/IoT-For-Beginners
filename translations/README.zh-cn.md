@@ -8,9 +8,9 @@
 [![GitHub forks](https://img.shields.io/github/forks/microsoft/IoT-For-Beginners.svg?style=social&label=Fork)](https://GitHub.com/microsoft/IoT-For-Beginners/network/)
 [![GitHub stars](https://img.shields.io/github/stars/microsoft/IoT-For-Beginners.svg?style=social&label=Star)](https://GitHub.com/microsoft/IoT-For-Beginners/stargazers/)
 
-[![Bengali](https://img.shields.io/badge/-Bengali-blue)](translations/README.bn.md)
-[![English](https://img.shields.io/badge/-English-red)](README.md)
-[![Turkish](https://img.shields.io/badge/-Turkish-darkgreen)](translations/README.tr.md)
+[![Bengali](https://img.shields.io/badge/-Bengali-blue)](README.bn.md)
+[![English](https://img.shields.io/badge/-English-red)](../README.md)
+[![Turkish](https://img.shields.io/badge/-Turkish-darkgreen)](README.tr.md)
 
 # 物联网（IoT for Beginners） – 课程
 
