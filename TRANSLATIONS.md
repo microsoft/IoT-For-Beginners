@@ -8,12 +8,10 @@ There are [**translations**](https://github.com/microsoft/IoT-For-Beginners/tree
 
 Translated lessons should follow this naming convention:
 
-When translating the initial Readme , link the other translations to your translated readme and link yours to the main English Readme by using Shields as shown:
+When translating the initial Readme, link the other translations to your translated readme and link yours to the main English Readme by using Shields as shown:
 
-```
-
+```markdown
 [![Bengali](https://img.shields.io/badge/-Bengali-blue)](translations/README.bn.md)
-
 ```
 **README._[language]_.md**
 
