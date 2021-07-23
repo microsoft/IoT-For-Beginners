@@ -274,7 +274,7 @@ Rather than calling LUIS from the IoT device, you can use serverless code with a
     func new --name text-to-timer --template "HTTP trigger"
     ```
 
-    This will crate an HTTP trigger called `text-to-timer`.
+    This will create an HTTP trigger called `text-to-timer`.
 
 1. Test the HTTP trigger by running the functions app. When it runs you will see the endpoint listed in the output:
 
