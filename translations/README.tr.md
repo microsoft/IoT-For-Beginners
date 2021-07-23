@@ -9,7 +9,7 @@
 [![GitHub stars](https://img.shields.io/github/stars/microsoft/IoT-For-Beginners.svg?style=social&label=Sta)](https://GitHub.com/microsoft/IoT-For-Beginners/stargazers/)
 
 [![Bengali](https://img.shields.io/badge/-Bengali-blue)](translations/README.bn.md)
-[![English](https://img.shields.io/badge/-English-red)](translations/README.md)
+[![English](https://img.shields.io/badge/-English-red)](README.md)
 [![Chinese](https://img.shields.io/badge/-Chinese-yellow)](translations/README.zh-cn.md)
 
 # Yeni Başlayanlar için IOT
