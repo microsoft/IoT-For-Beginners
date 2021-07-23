@@ -8,6 +8,10 @@
 [![GitHub forks](https://img.shields.io/github/forks/microsoft/IoT-For-Beginners.svg?style=social&label=Fork)](https://GitHub.com/microsoft/IoT-For-Beginners/network/)
 [![GitHub stars](https://img.shields.io/github/stars/microsoft/IoT-For-Beginners.svg?style=social&label=Sta)](https://GitHub.com/microsoft/IoT-For-Beginners/stargazers/)
 
+[![Bengali](https://img.shields.io/badge/-Bengali-blue)](README.bn.md)
+[![English](https://img.shields.io/badge/-English-red)](../README.md)
+[![Chinese](https://img.shields.io/badge/-Chinese-yellow)](README.zh-cn.md)
+
 # Yeni Başlayanlar için IOT
 Microsoft'tan Azure Cloud Advocates size IOT temelleri hakkında 12 haftalık 24 dersten oluşan programı zevkle sunar. Her ders ön-quiz, dersi tamamlamanız için talimatlar, bir çözüm, bir ödev ve ders sonrası quiz içerir. Proje tabanlı pedogojimiz öğrenirken bir şeyler oluşturmanıza izin verecek. Bu, ispanlanmıştır ki yeni becerileri adeta size "yapıştıracak".
 
