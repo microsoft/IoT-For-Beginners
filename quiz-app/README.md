@@ -1,6 +1,6 @@
 # Quizzes
 
-These quizzes are the pre- and post-lecture quizzes for the web development for beginners curriculum at https://aka.ms/webdev-beginners
+These quizzes are the pre- and post-lecture quizzes for the IoT for Beginners curriculum at https://aka.ms/iot-beginners
 
 ## Project setup
 
