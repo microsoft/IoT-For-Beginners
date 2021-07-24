@@ -8,6 +8,10 @@
 [![GitHub forks](https://img.shields.io/github/forks/microsoft/IoT-For-Beginners.svg?style=social&label=Fork)](https://GitHub.com/microsoft/IoT-For-Beginners/network/)
 [![GitHub stars](https://img.shields.io/github/stars/microsoft/IoT-For-Beginners.svg?style=social&label=Star)](https://GitHub.com/microsoft/IoT-For-Beginners/stargazers/)
 
+[![English](https://img.shields.io/badge/-English-red)](../README.md)
+[![Chinese](https://img.shields.io/badge/-Chinese-yellow)](README.zh-cn.md)
+[![Turkish](https://img.shields.io/badge/-Turkish-darkgreen)](README.tr.md)
+
 # বিগিনারদের জন্য আইওটি - একটি সুবিন্যস্ত পাঠ্যক্রম
 
 মাইক্রোসফট এর Azure Cloud Advocate গণ আইওটি বেসিক সম্পর্কে 12-সপ্তাহ, 24-লেসনের এই কোর্সটি তৈরী করেছেন। প্রতিটি পাঠের মধ্যে লেকচার-পূর্ববর্তী এবং লেকচার-পরবর্তী কুইজ, পাঠ সম্পূর্ণ করার জন্য লিখিত নির্দেশাবলী, একটি সমাধান, একটি এসাইনমেন্ট এবং আরও অনেক কিছু রয়েছে। আমাদের প্রজেক্ট-ভিত্তিক পদ্ধতির মাধ্যমে নতুন বিষয় সম্পর্কে জানা এবং কাজ করে অভিজ্ঞতা অর্জন দুটোই হবে একসাথে - নতুন স্কিল শেখার জন্য যা নিঃসন্দেহে একটি কার্যকরী পন্থা।
