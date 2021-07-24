@@ -12,11 +12,15 @@ const char *PASSWORD = "<PASSWORD>";
 const char *SPEECH_API_KEY = "<API_KEY>";
 const char *SPEECH_LOCATION = "<LOCATION>";
 const char *LANGUAGE = "<LANGUAGE>";
+const char *SERVER_LANGUAGE = "<LANGUAGE>";
 
 const char *TOKEN_URL = "https://%s.api.cognitive.microsoft.com/sts/v1.0/issuetoken";
 const char *SPEECH_URL = "https://%s.stt.speech.microsoft.com/speech/recognition/conversation/cognitiveservices/v1?language=%s";
 
 const char *TEXT_TO_TIMER_FUNCTION_URL = "http://<IP_ADDRESS>:7071/api/text-to-timer";
+const char *GET_VOICES_FUNCTION_URL = "http://<IP_ADDRESS>:7071/api/get-voices";
+const char *TEXT_TO_SPEECH_FUNCTION_URL = "http://<IP_ADDRESS>:7071/api/text-to-speech";
+const char *TRANSLATE_FUNCTION_URL = "http://<IP_ADDRESS>:7071/api/translate-text";
 
 const char *TOKEN_CERTIFICATE =
     "-----BEGIN CERTIFICATE-----\r\n"

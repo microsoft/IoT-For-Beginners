@@ -49,13 +49,11 @@ Microcontrollers don't natively have support for multiple threads in Arduino, so
     LanguageUnderstanding languageUnderstanding;
     ```
 
-1. To call your functions app, you need to declare a WiFi client. 
+1. To call your functions app, you need to declare a WiFi client. Add the following to the `private` section of the class:
 
-    * If you are running the function app locally, add the following to the `private` section of the class:
-
-        ```cpp
-        WiFiClient _client;
-        ```
+    ```cpp
+    WiFiClient _client;
+    ```
 
 1. In the `public` section, declare a method called `GetTimerDuration` to call the functions app:
 

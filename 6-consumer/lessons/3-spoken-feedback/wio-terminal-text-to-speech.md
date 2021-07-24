@@ -98,7 +98,9 @@ Instead of downloading and decoding this entire list on your microcontroller, yo
 1. Run your function app locally. You can then call this using a tool like curl in the same way that you tested your `text-to-timer` HTTP trigger. Make sure to pass your language as a JSON body:
 
     ```json
-    {"language":"<language>"}
+    {
+        "language":"<language>"
+    }
     ```
 
     Replace `<language>` with your language, such as `en-GB`, or `zh-CN`.
@@ -148,28 +150,11 @@ Instead of downloading and decoding this entire list on your microcontroller, yo
     TextToSpeech textToSpeech;
     ```
 
-1. To call your functions app, you need to declare a WiFi client. The type you need depends on whether you are accessing the function app locally or deployed to the cloud.
+1. To call your functions app, you need to declare a WiFi client. Add the following to the `private` section of the class:
 
-    * If you are running the function app locally, add the following to the `private` section of the class:
-
-        ```cpp
-        WiFiClient _client;
-        ```
-
-    * If you are running the function app in the cloud, add the following to the `private` section of the class:
-
-        ```cpp
-        WiFiClientSecure _client;
-        ```
-
-      You will also need to set the certificate on this class, so add the following constructor to the `public` section:
-
-        ```cpp
-        TextToSpeech()
-        {
-            _client.setCACert(FUNCTIONS_CERTIFICATE);
-        }
-        ```
+    ```cpp
+    WiFiClient _client;
+    ```
 
 1. In the `private` section, add a field for the selected voice:
 
@@ -467,6 +452,12 @@ When needing to manipulate data like this, it is often better to use serverless 
 
     ```cpp
     httpClient.end();
+    ```
+
+1. The text to be spoken can now be converted to audio. In the `main.cpp` file, add the following line to the end of the `say` function to convert the text to say into audio:
+
+    ```cpp
+    textToSpeech.convertTextToSpeech(text);
     ```
 
 ### Task - play audio from your Wio Terminal
