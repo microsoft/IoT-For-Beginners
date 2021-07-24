@@ -2050,10 +2050,10 @@
 			},
 			{
 				"id": 41,
-				"title": "第21课 - Recognize speech with an IoT设备：课前测验",
+				"title": "第21课 - 使用IoT设备进行语音检测：课前测验",
 				"quiz": [
 					{
-						"questionText": "IoT设备 can be used to recognize speech:",
+						"questionText": "可以使用IoT设备进行语音检测：",
 						"answerOptions": [
 							{
 								"answerText": "正确",
@@ -2066,7 +2066,7 @@
 						]
 					},
 					{
-						"questionText": "Voice assistants should send all the audio they hear to the cloud for processing:",
+						"questionText": "语音助理需要将所有的音频发送到云端进行处理：",
 						"answerOptions": [
 							{
 								"answerText": "正确",
@@ -2079,7 +2079,7 @@
 						]
 					},
 					{
-						"questionText": "To recognize speech, IoT设备 need large microphones:",
+						"questionText": "为了识别语音，IoT设备需要一个大的麦克风：",
 						"answerOptions": [
 							{
 								"answerText": "正确",
@@ -2095,40 +2095,40 @@
 			},
 			{
 				"id": 42,
-				"title": "第21课 - Recognize speech with an IoT设备：课后测验",
+				"title": "第21课 - 使用IoT设备进行语音检测：课后测验",
 				"quiz": [
 					{
-						"questionText": "Microphones are what type of sensor?",
+						"questionText": "麦克风是什么类型的传感器？",
 						"answerOptions": [
 							{
-								"answerText": "Digital",
+								"answerText": "数字",
 								"isCorrect": "false"
 							},
 							{
-								"answerText": "Analog",
+								"answerText": "模拟",
 								"isCorrect": "true"
 							}
 						]
 					},
 					{
-						"questionText": "Sound waves are converted to digital signals using:",
+						"questionText": "将语音波形转换为数字信号使用了：",
 						"answerOptions": [
 							{
-								"answerText": "Pulse Code Modulation",
+								"answerText": "脉冲编码调制",
 								"isCorrect": "true"
 							},
 							{
-								"answerText": "Pure Code Multiplication",
+								"answerText": "纯代码乘法",
 								"isCorrect": "false"
 							},
 							{
-								"answerText": "Pulse Width Maximization",
+								"answerText": "脉冲宽度最大化",
 								"isCorrect": "false"
 							}
 						]
 					},
 					{
-						"questionText": "1 second of 16-bit audio sampled at 16KHz is how large?",
+						"questionText": "1秒钟采样频率为16KHz，量化位数为16位的音频有多大？",
 						"answerOptions": [
 							{
 								"answerText": "1KB",
@@ -2148,10 +2148,10 @@
 			},
 			{
 				"id": 43,
-				"title": "第22课 - Understand language：课前测验",
+				"title": "第22课 - 理解语言：课前测验",
 				"quiz": [
 					{
-						"questionText": "Language understanding involves looking for fixed words:",
+						"questionText": "语言的理解牵涉到寻找特定的词汇：",
 						"answerOptions": [
 							{
 								"answerText": "正确",
@@ -2164,24 +2164,24 @@
 						]
 					},
 					{
-						"questionText": "Language understanding involves:",
+						"questionText": "语言的理解牵涉到：",
 						"answerOptions": [
 							{
-								"answerText": "Looking at the individual words in a sentence and trying to get the meaning",
+								"answerText": "关注句子中一个个孤立的词汇并努力得到它们的含义",
 								"isCorrect": "false"
 							},
 							{
-								"answerText": "Finding pre-defined sentences and using those to get the meaning",
+								"answerText": "找到预先定义好的句子，并由此得到对应的含义",
 								"isCorrect": "false"
 							},
 							{
-								"answerText": "Looking at the whole sentence and trying to get the meaning using the context of the words",
+								"answerText": "关注整个句子，并努力从词汇的上下文获取含义",
 								"isCorrect": "true"
 							}
 						]
 					},
 					{
-						"questionText": "Cloud providers have AI services that can understand language:",
+						"questionText": "云服务供应商有能够理解语言的人工智能服务：",
 						"answerOptions": [
 							{
 								"answerText": "正确",
@@ -2197,27 +2197,27 @@
 			},
 			{
 				"id": 44,
-				"title": "第22课 - Understand language：课后测验",
+				"title": "第22课 - 理解语言：课后测验",
 				"quiz": [
 					{
-						"questionText": "Sentences are understood by being broken down into:",
+						"questionText": "为了被理解，句子需要被划分为：",
 						"answerOptions": [
 							{
-								"answerText": "Ideas and explanations",
+								"answerText": "想法和解释",
 								"isCorrect": "false"
 							},
 							{
-								"answerText": "Intents and entities",
+								"answerText": "意图（Intents）和实体（entities）",
 								"isCorrect": "true"
 							},
 							{
-								"answerText": "Imps and elves",
+								"answerText": "石头和沙子",
 								"isCorrect": "false"
 							}
 						]
 					},
 					{
-						"questionText": "The Microsoft service for language understanding is called:",
+						"questionText": "微软的语言理解服务叫做：",
 						"answerOptions": [
 							{
 								"answerText": "LUIS",
@@ -2234,18 +2234,18 @@
 						]
 					},
 					{
-						"questionText": "In the sentence 'set a 3 minute timer' the:",
+						"questionText": "在句子“设定一个3分钟的定时器”中：",
 						"answerOptions": [
 							{
-								"answerText": "The intent is 3 minutes and the entity is a timer",
+								"answerText": "意图是3分钟，实体是定时器",
 								"isCorrect": "false"
 							},
 							{
-								"answerText": "The intent is minutes, and the entity is 3 timers",
+								"answerText": "意图是分钟，实体是3个定时器",
 								"isCorrect": "false"
 							},
 							{
-								"answerText": "The intent is set a timer and the entity is 3 minutes",
+								"answerText": "意图是设定一个定时器，实体是3分钟",
 								"isCorrect": "true"
 							}
 						]
@@ -2254,10 +2254,10 @@
 			},
 			{
 				"id": 45,
-				"title": "第23课 - Set a timer and provide spoken feedback：课前测验",
+				"title": "第23课 - 设定一个定时器并给出语音反馈：课前测验",
 				"quiz": [
 					{
-						"questionText": "Speech generated by AI models sounds monotonous and robotic",
+						"questionText": "人工智能生成的语音单调且机械",
 						"answerOptions": [
 							{
 								"answerText": "正确",
@@ -2270,7 +2270,7 @@
 						]
 					},
 					{
-						"questionText": "AI models can only create speech in American English:",
+						"questionText": "人工智能模型只能生成美式英语的语音：",
 						"answerOptions": [
 							{
 								"answerText": "正确",
@@ -2283,18 +2283,18 @@
 						]
 					},
 					{
-						"questionText": "AI models would convert 1234 into which spoken phrase:",
+						"questionText": "人工智能模型可以将1234转换为哪种措辞的语音：",
 						"answerOptions": [
 							{
-								"answerText": "One two three four",
+								"answerText": "一二三四",
 								"isCorrect": "false"
 							},
 							{
-								"answerText": "One thousand two hundred and thirty four",
+								"answerText": "一千两百三十四",
 								"isCorrect": "false"
 							},
 							{
-								"answerText": "It can be 'one two three four' or 'one thousand two hundred and thirty four' depending on the context",
+								"answerText": "取决于上下文，可以是“一二三四”或者“一千两百三十四”",
 								"isCorrect": "true"
 							}
 						]
@@ -2303,27 +2303,27 @@
 			},
 			{
 				"id": 46,
-				"title": "第23课 - Set a timer and provide spoken feedback：课后测验",
+				"title": "第23课 - 设定一个定时器并给出语音反馈：课后测验",
 				"quiz": [
 					{
-						"questionText": "The three parts of speech generation are:",
+						"questionText": "生成语音的三个步骤是：",
 						"answerOptions": [
 							{
-								"answerText": "Text analysis, understanding analysis, sound generation",
+								"answerText": "文本分析、理解分析、语音生成",
 								"isCorrect": "false"
 							},
 							{
-								"answerText": "Text analysis, linguistic analysis, wave form generation",
+								"answerText": "文本分析、语言学分析、波形生成",
 								"isCorrect": "true"
 							},
 							{
-								"answerText": "Word analysis, audio production",
+								"answerText": "单词分析、音频制作",
 								"isCorrect": "false"
 							}
 						]
 					},
 					{
-						"questionText": "Can speech generation models be trained to sound like existing people:",
+						"questionText": "可以训练一个语音生成模型使其听起来像一个特定的人。",
 						"answerOptions": [
 							{
 								"answerText": "正确",
@@ -2336,7 +2336,7 @@
 						]
 					},
 					{
-						"questionText": "The markup language used to encode speech is called:",
+						"questionText": "编码语音的标记语言叫做：",
 						"answerOptions": [
 							{
 								"answerText": "SSML",
@@ -2356,10 +2356,10 @@
 			},
 			{
 				"id": 47,
-				"title": "第24课 - Support multiple languages：课前测验",
+				"title": "第24课 - 多语言支持：课前测验",
 				"quiz": [
 					{
-						"questionText": "Language understanding only understands English:",
+						"questionText": "语言理解只支持英语：",
 						"answerOptions": [
 							{
 								"answerText": "正确",
@@ -2372,7 +2372,7 @@
 						]
 					},
 					{
-						"questionText": "AI speech to text models understand multiple languages:",
+						"questionText": "人工智能语音转文本模型理解多种语言：",
 						"answerOptions": [
 							{
 								"answerText": "正确",
@@ -2385,7 +2385,7 @@
 						]
 					},
 					{
-						"questionText": "AI translation involves swapping individual words for their translated version:",
+						"questionText": "人工智能翻译牵涉到将一个个单词转换为对应的译文：",
 						"answerOptions": [
 							{
 								"answerText": "正确",
@@ -2401,55 +2401,55 @@
 			},
 			{
 				"id": 48,
-				"title": "第24课 - Support multiple languages：课后测验",
+				"title": "第24课 - 多语言支持：课后测验",
 				"quiz": [
 					{
-						"questionText": "Machine translation has been researched for nearly:",
+						"questionText": "机器翻译已经被研究了接近：",
 						"answerOptions": [
 							{
-								"answerText": "70 years",
+								"answerText": "70年",
 								"isCorrect": "true"
 							},
 							{
-								"answerText": "17 years",
+								"answerText": "17年",
 								"isCorrect": "false"
 							},
 							{
-								"answerText": "7 years",
+								"answerText": "7年",
 								"isCorrect": "false"
 							}
 						]
 					},
 					{
-						"questionText": "AI language translators are called:",
+						"questionText": "人工智能语言翻译器被叫做：",
 						"answerOptions": [
 							{
-								"answerText": "Noddy translators",
+								"answerText": "傻瓜翻译器",
 								"isCorrect": "false"
 							},
 							{
-								"answerText": "Neural translators",
+								"answerText": "神经翻译者（Neural translators）",
 								"isCorrect": "true"
 							},
 							{
-								"answerText": "Nothing - AI cannot be used for translation",
+								"answerText": "什么也叫 - 人工智能不能用作翻译",
 								"isCorrect": "false"
 							}
 						]
 					},
 					{
-						"questionText": "What alien languages does the Microsoft translator support:",
+						"questionText": "微软支持翻译哪种外星语言：",
 						"answerOptions": [
 							{
-								"answerText": "Na'vi",
+								"answerText": "温州话",
 								"isCorrect": "false"
 							},
 							{
-								"answerText": "Alienese",
+								"answerText": "外星语",
 								"isCorrect": "false"
 							},
 							{
-								"answerText": "Klingon",
+								"answerText": "克林贡语",
 								"isCorrect": "true"
 							}
 						]
