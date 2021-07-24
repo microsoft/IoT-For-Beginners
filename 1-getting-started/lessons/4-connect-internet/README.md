@@ -178,17 +178,26 @@ Configure a Python virtual environment and install the MQTT pip packages.
 
 1. Activate the virtual environment:
 
-    * On Windows run:
+    * On Windows:
+        * If you are using the Command Prompt, or the Command Prompt through Windows Terminal, run:
 
-        ```cmd
-        .venv\Scripts\activate.bat
-        ```
+            ```cmd
+            .venv\Scripts\activate.bat
+            ```
+
+        * If you are using PowerShell, run:
+
+            ```powershell
+            .\.venv\Scripts\Activate.ps1
+            ```
 
     * On macOS or Linux, run:
 
         ```cmd
         source ./.venv/bin/activate
         ```
+
+    > 💁 These commands should be run from the same location you ran the command to create the virtual environment. You will never need to navigate into the `.venv` folder, you should always run the activate command and any commands to install packages or run code from the folder you were in when you created the virtual environment.
 
 1. Once the virtual environment has been activated, the default `python` command will run the version of Python that was used to create the virtual environment. Run the following to get the version:
 
