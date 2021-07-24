@@ -7,6 +7,8 @@
     "LUIS_ENDPOINT_URL": "<endpoint url>",
     "LUIS_APP_ID": "<app id>",
     "SPEECH_KEY": "<key>",
-    "SPEECH_LOCATION": "<location>"
+    "SPEECH_LOCATION": "<location>",
+    "TRANSLATOR_KEY": "<key>",
+    "TRANSLATOR_LOCATION": "<location>"
   }
 }

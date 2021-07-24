@@ -72,8 +72,7 @@ Microcontrollers don't natively have support for multiple threads in Arduino, so
     doc["text"] = text;
 
     String body;
-    JsonObject obj = doc.as<JsonObject>();
-    serializeJson(obj, body);
+    serializeJson(doc, body);
     ```
 
     This coverts the text passed to the `GetTimerDuration` method into the following JSON:

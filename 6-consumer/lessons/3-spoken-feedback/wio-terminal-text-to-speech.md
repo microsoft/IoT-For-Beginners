@@ -44,7 +44,7 @@ Instead of downloading and decoding this entire list on your microcontroller, yo
 1. Open the `local.settings.json` file and add settings for the speech API key and location:
 
     ```json
-    "SPEECH_KEY": "<key>`",
+    "SPEECH_KEY": "<key>",
     "SPEECH_LOCATION": "<location>"
     ```
 
@@ -102,6 +102,8 @@ Instead of downloading and decoding this entire list on your microcontroller, yo
     ```
 
     Replace `<language>` with your language, such as `en-GB`, or `zh-CN`.
+
+> 💁 You can find this code in the [code-spoken-response/functions](code-spoken-response/functions) folder.
 
 ### Task - retrieve the voice from your Wio Terminal
 
@@ -190,8 +192,7 @@ Instead of downloading and decoding this entire list on your microcontroller, yo
     doc["language"] = LANGUAGE;
 
     String body;
-    JsonObject obj = doc.as<JsonObject>();
-    serializeJson(obj, body);
+    serializeJson(doc, body);
     ```
 
 1. Next create an `HTTPClient`, then use it to call the functions app to get the voices, posting the JSON document:
@@ -397,6 +398,8 @@ When needing to manipulate data like this, it is often better to use serverless 
 
     This will save the audio to `hello.wav` in the current directory.
 
+> 💁 You can find this code in the [code-spoken-response/functions](code-spoken-response/functions) folder.
+
 ### Task - retrieve the speech from your Wio Terminal
 
 1. Open the `smart-timer` project in VS Code if it is not already open.
@@ -426,8 +429,7 @@ When needing to manipulate data like this, it is often better to use serverless 
     doc["text"] = text;
 
     String body;
-    JsonObject obj = doc.as<JsonObject>();
-    serializeJson(obj, body);
+    serializeJson(doc, body);
     ```
 
     This writes the language, voice and text to the JSON document, then serializes it to a string.
@@ -469,44 +471,19 @@ When needing to manipulate data like this, it is often better to use serverless 
 
 ### Task - play audio from your Wio Terminal
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+**Coming soon**
 
 ## Deploying your functions app to the cloud
 
+The reason for running the functions app locally is because the `librosa` Pip package on linux has a dependency on a library that is not installed by default, and will need to be installed before the function app can run. Function apps are serverless - there are no servers you can manage yourself, so no way to install this library up front.
 
-    #include <WiFiClientSecure.h>
+The way to do this is instead to deploy your functions app using a Docker container. This container is deployed by the cloud whenever it needs to spin up a new instance of your function app (such as when the demand exceeds the available resources, or if the function app hasn't been used for a while and is closed down).
 
+You can find the instructions to set up a function app and deploy via Docker in the [create a function on Linux using a custom container documentation on Microsoft Docs](https://docs.microsoft.com/azure/azure-functions/functions-create-function-linux-custom-image?tabs=bash%2Cazurecli&pivots=programming-language-python&WT.mc_id=academic-17441-jabenn).
 
+Once this has been deployed, you can port your Wio Terminal code to access this function:
 
-    * If you are running the function app in the cloud, add the following to the `private` section of the class:
-
-        ```cpp
-        WiFiClientSecure _client;
-        ```
-
-      You will also need to set the certificate on this class, so add the following constructor to the `public` section:
-
-        ```cpp
-        LanguageUnderstanding()
-        {
-            _client.setCACert(FUNCTIONS_CERTIFICATE);
-        }
-        ```
-
-1. If you have deployed your functions app to the cloud, add the following certificate for `azurewebsites.net` to the `config.h` file.
+1. Add the Azure Functions certificate to `config.h`:
 
     ```cpp
     const char *FUNCTIONS_CERTIFICATE =
@@ -543,4 +520,12 @@ When needing to manipulate data like this, it is often better to use serverless 
         "-----END CERTIFICATE-----\r\n";
     ```
 
-    > 💁 If you are accessing your functions app locally, you don't need to do this.
+1. Change all includes of `<WiFiClient.h>` to `<WiFiClientSecure.h>`.
+
+1. Change all `WiFiClient` fields to `WiFiClientSecure`.
+
+1. In every class that has a `WiFiClientSecure` field, add a constructor and set the certificate in that constructor:
+
+    ```cpp
+    _client.setCACert(FUNCTIONS_CERTIFICATE);
+    ```

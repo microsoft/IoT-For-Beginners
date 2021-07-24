@@ -16,8 +16,7 @@ public:
         doc["text"] = text;
 
         String body;
-        JsonObject obj = doc.as<JsonObject>();
-        serializeJson(obj, body);
+        serializeJson(doc, body);
 
         HTTPClient httpClient;
         httpClient.begin(_client, TEXT_TO_TIMER_FUNCTION_URL);
