@@ -8,6 +8,10 @@
 [![GitHub forks](https://img.shields.io/github/forks/microsoft/IoT-For-Beginners.svg?style=social&label=Fork)](https://GitHub.com/microsoft/IoT-For-Beginners/network/)
 [![GitHub stars](https://img.shields.io/github/stars/microsoft/IoT-For-Beginners.svg?style=social&label=Star)](https://GitHub.com/microsoft/IoT-For-Beginners/stargazers/)
 
+[![Bengali](https://img.shields.io/badge/-Bengali-blue)](README.bn.md)
+[![English](https://img.shields.io/badge/-English-red)](../README.md)
+[![Turkish](https://img.shields.io/badge/-Turkish-darkgreen)](README.tr.md)
+
 # 物联网（IoT for Beginners） – 课程
 
 Microsoft 的 Azure Cloud 大使很高兴提供关于 IoT 基础一个12个星期、24课的课程。每一课包括课前测验和课后测验、为了完成课的指示、解答、作业等。我们通过项目式的教学让你一边创建，一边学习，这是一种有效率巩固新技能的方式。
