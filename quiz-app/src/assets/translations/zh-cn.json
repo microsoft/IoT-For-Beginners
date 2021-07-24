@@ -1528,10 +1528,10 @@
 			},
 			{
 				"id": 31,
-				"title": "第16课 - Check fruit quality from an IoT设备：课前测验",
+				"title": "第16课 - 通过IoT设备检测水果品质：课前测验",
 				"quiz": [
 					{
-						"questionText": "IoT设备 are not powerful enough to use cameras:",
+						"questionText": "IoT设备还没有强大到能够使用摄像头：",
 						"answerOptions": [
 							{
 								"answerText": "正确",
@@ -1544,7 +1544,7 @@
 						]
 					},
 					{
-						"questionText": "Camera sensors use film to capture images",
+						"questionText": "摄像头的传感器使用胶片来捕捉图像",
 						"answerOptions": [
 							{
 								"answerText": "正确",
@@ -1557,14 +1557,14 @@
 						]
 					},
 					{
-						"questionText": "Camera sensors send which type of data",
+						"questionText": "摄像头的传感器传递那种类型的数据",
 						"answerOptions": [
 							{
-								"answerText": "Digital",
+								"answerText": "数字数据",
 								"isCorrect": "true"
 							},
 							{
-								"answerText": "Analog",
+								"answerText": "模拟数据",
 								"isCorrect": "false"
 							}
 						]
@@ -1573,27 +1573,27 @@
 			},
 			{
 				"id": 32,
-				"title": "第16课 - Check fruit quality from an IoT设备：课后测验",
+				"title": "第16课 - 通过IoT设备检测水果品质：课后测验",
 				"quiz": [
 					{
-						"questionText": "A published version of a custom vision model is called an:",
+						"questionText": "自定义视觉的一个发布版本叫做：",
 						"answerOptions": [
 							{
-								"answerText": "Iteration",
+								"answerText": "迭代（Iteration）",
 								"isCorrect": "true"
 							},
 							{
-								"answerText": "Instance",
+								"answerText": "实例（Instance）",
 								"isCorrect": "false"
 							},
 							{
-								"answerText": "Iguana",
+								"answerText": "蜥蜴",
 								"isCorrect": "false"
 							}
 						]
 					},
 					{
-						"questionText": "When images are sent for classification, they then become available to retrain the model:",
+						"questionText": "在给图片做分类的时候，可以用它们重新训练模型：",
 						"answerOptions": [
 							{
 								"answerText": "正确",
@@ -1606,7 +1606,7 @@
 						]
 					},
 					{
-						"questionText": "You don't need to use images captured from an IoT设备 to train the model as the cameras are as good quality as phone cameras:",
+						"questionText": "不需要使用IoT设备采集的图像数据来训练模型，因为它的摄像头又和手机摄像头相同的质量：",
 						"answerOptions": [
 							{
 								"answerText": "正确",
@@ -1622,10 +1622,10 @@
 			},
 			{
 				"id": 33,
-				"title": "第17课 - Run your fruit detector on the edge：课前测验",
+				"title": "第17课 - 在边缘测运行水果检测程序：课前测验",
 				"quiz": [
 					{
-						"questionText": "Edge computing can be more secure than cloud computing.",
+						"questionText": "边缘计算可以比云计算更加安全。",
 						"answerOptions": [
 							{
 								"answerText": "正确",
@@ -1638,7 +1638,7 @@
 						]
 					},
 					{
-						"questionText": "Running an ML model on an edge device is less accurate than running an ML model in the cloud.",
+						"questionText": "在边缘节点运行的机器学习模型没有在云端运行的机器学习模型准确。",
 						"answerOptions": [
 							{
 								"answerText": "正确",
@@ -1651,7 +1651,7 @@
 						]
 					},
 					{
-						"questionText": "Edge devices always need an Internet connection.",
+						"questionText": "边缘节点需要一直连着互联网。",
 						"answerOptions": [
 							{
 								"answerText": "正确",
@@ -1667,71 +1667,71 @@
 			},
 			{
 				"id": 34,
-				"title": "第17课 - Run your fruit detector on the edge：课后测验",
+				"title": "第17课 - 在边缘测运行水果检测程序：课后测验",
 				"quiz": [
 					{
-						"questionText": "What kind of format or domain do we need for Custom Vision ML models to properly run on an edge device?",
+						"questionText": "为了让Custom Vision的机器学习模型高效地运行在边缘节点，我们需要什么格式（或者说什么类型的领域（domain））？",
 						"answerOptions": [
 							{
-								"answerText": "General",
+								"answerText": "通用类型",
 								"isCorrect": "false"
 							},
 							{
-								"answerText": "Quick Training",
+								"answerText": "快速训练类型",
 								"isCorrect": "false"
 							},
 							{
-								"answerText": "Standard",
+								"answerText": "标准（Standard）类型",
 								"isCorrect": "false"
 							},
 							{
-								"answerText": "Compact",
+								"answerText": "紧凑（Compact）类型",
 								"isCorrect": "true"
 							},
 							{
-								"answerText": "Food",
+								"answerText": "食物领域",
 								"isCorrect": "false"
 							},
 							{
-								"answerText": "Remote Deployment",
+								"answerText": "远端部署",
 								"isCorrect": "false"
 							}
 						]
 					},
 					{
-						"questionText": "What is a container?",
+						"questionText": "容器（container）是什么？?",
 						"answerOptions": [
 							{
-								"answerText": "Self-contained applications that hold ML models.",
+								"answerText": "包含机器学习模型的自包含的应用程序。",
 								"isCorrect": "false"
 							},
 							{
-								"answerText": "Self-contained applications that run in isolation from other programs.",
+								"answerText": "和其它程序隔离的自包含的应用程序",
 								"isCorrect": "true"
 							},
 							{
-								"answerText": "Self-contained applications that run programs only on edge devices.",
+								"answerText": "只在边缘节点运行的自包含的应用程序.",
 								"isCorrect": "false"
 							},
 							{
-								"answerText": "self-contained applications that handle communication between the cloud and edge devices.",
+								"answerText": "处理云端和边缘节点通信的自包含的应用程序",
 								"isCorrect": "false"
 							}
 						]
 					},
 					{
-						"questionText": "How do you do Custom Vision model retraining for ML models deployed on edge devices?",
+						"questionText": "如何重新训练部署在边缘节点的Custom Vision模型？",
 						"answerOptions": [
 							{
-								"answerText": "Take images on the edge device, save to the edge device, and point the ML model to the new image folder.",
+								"answerText": "在边缘节点拍摄一张图片，并将其保存在边缘节点上，再将机器学习模型指向这个新的图片文件夹。",
 								"isCorrect": "false"
 							},
 							{
-								"answerText": "Upload images from the edge device to the cloud, retrain the model in Custom Vision, then re-deploy onto the edge device.",
+								"answerText": "将图片从边缘节点上传到云端，在Custom Vision上重新训练模型，再将模型重新部署到边缘节点。",
 								"isCorrect": "true"
 							},
 							{
-								"answerText": "Take images on the edge device and check the prediction output.",
+								"answerText": "在边缘节点拍摄一张图片并检查模型的预测结果。",
 								"isCorrect": "false"
 							}
 						]
@@ -1740,27 +1740,27 @@
 			},
 			{
 				"id": 35,
-				"title": "第18课 - Trigger fruit quality detection from a sensor：课前测验",
+				"title": "第18课 - 从传感器触发水果品质检测：课前测验",
 				"quiz": [
 					{
-						"questionText": "Which part of your IoT应用lication gathers data?",
+						"questionText": "IoT应用的那个部分用来获取数据？",
 						"answerOptions": [
 							{
-								"answerText": "Things",
+								"answerText": "物（Things）",
 								"isCorrect": "true"
 							},
 							{
-								"answerText": "Cloud services",
+								"answerText": "云服务",
 								"isCorrect": "false"
 							},
 							{
-								"answerText": "Edge devices",
+								"answerText": "边缘节点",
 								"isCorrect": "false"
 							}
 						]
 					},
 					{
-						"questionText": "The only outputs of an IoT应用lication are actuators.",
+						"questionText": "IoT应用唯一的输出是执行机构。",
 						"answerOptions": [
 							{
 								"answerText": "正确",
@@ -1773,7 +1773,7 @@
 						]
 					},
 					{
-						"questionText": "Things don't need to connect directly to IoT中心, they can use edge devices as gateways.",
+						"questionText": "Things不需要直接连接到IoT中心，它们可以使用边缘节点充当网关。",
 						"answerOptions": [
 							{
 								"answerText": "正确",
@@ -1789,27 +1789,27 @@
 			},
 			{
 				"id": 36,
-				"title": "第18课 - Trigger fruit quality detection from a sensor：课后测验",
+				"title": "第18课 - 从传感器触发水果品质检测：课后测验",
 				"quiz": [
 					{
-						"questionText": "The three components of architecting an IoT应用lication are",
+						"questionText": "构建IoT应用的三个组件是",
 						"answerOptions": [
 							{
-								"answerText": "Things, Insights, Actions",
+								"answerText": "物（Things），思维（Insights），行动（Actions）",
 								"isCorrect": "true"
 							},
 							{
-								"answerText": "Things, Internet, Databases",
+								"answerText": "物（Things），互联网（Internet），数据库（Databases）",
 								"isCorrect": "false"
 							},
 							{
-								"answerText": "AI, Blockchain, FizzBuzzers",
+								"answerText": "人工智能（AI），区块链（Blockchain），叽叽喳喳（FizzBuzzers）",
 								"isCorrect": "false"
 							}
 						]
 					},
 					{
-						"questionText": "The component that communicates between the things and the components that create insights is:",
+						"questionText": "连接物（things）和可以创建思维（insights）的组件的组件叫做：",
 						"answerOptions": [
 							{
 								"answerText": "Azure Functions",
@@ -1820,24 +1820,24 @@
 								"isCorrect": "true"
 							},
 							{
-								"answerText": "Azure Maps",
+								"answerText": "Azure地图",
 								"isCorrect": "false"
 							}
 						]
 					},
 					{
-						"questionText": "How do time of flight proximity sensors work?",
+						"questionText": "基于飞时测距的接近传感器的工作原理是什么？",
 						"answerOptions": [
 							{
-								"answerText": "They send laser beams and time how long till they bounce off an object",
+								"answerText": "传感器发射激光束并测量从物体反射的时间",
 								"isCorrect": "true"
 							},
 							{
-								"answerText": "They use sound and measure how long till the sound bounces off an object",
+								"answerText": "传感器使用声音并测量从物体表面反射的时间",
 								"isCorrect": "false"
 							},
 							{
-								"answerText": "They use very large rulers",
+								"answerText": "传感器使用很长的尺子",
 								"isCorrect": "false"
 							}
 						]
@@ -1846,10 +1846,10 @@
 			},
 			{
 				"id": 37,
-				"title": "第19课 - Train a stock detector：课前测验",
+				"title": "第19课 - 训练库存检测器：课前测验",
 				"quiz": [
 					{
-						"questionText": "AI models cannot be used to count objects?",
+						"questionText": "人工只能不能用于给某个物体计数？",
 						"answerOptions": [
 							{
 								"answerText": "正确",
@@ -1862,35 +1862,35 @@
 						]
 					},
 					{
-						"questionText": "IoT and AI can be used in retail for:",
+						"questionText": "在零售领域，IoT和人工智能可以被用来：",
 						"answerOptions": [
 							{
-								"answerText": "Stock checking only",
+								"answerText": "只能用来检查库存",
 								"isCorrect": "false"
 							},
 							{
-								"answerText": "A wide range of uses including stock checking, monitoring for mask where where required, tracking footfall, automated billing",
+								"answerText": "可以应用在很广泛的地方，包括库存检测，在需要的地方检测口罩的佩戴情况，统计客流量以及自动结账",
 								"isCorrect": "true"
 							},
 							{
-								"answerText": "IoT and AI cannot be used in retail",
+								"answerText": "IoT和人工智能不能用于零售领域",
 								"isCorrect": "false"
 							}
 						]
 					},
 					{
-						"questionText": "Object detection involves:",
+						"questionText": "目标检测牵涉到：",
 						"answerOptions": [
 							{
-								"answerText": "Detecting objects in an image and tracking their location and probability",
+								"answerText": "检测图片中包含一个物体的概率并追踪其位置",
 								"isCorrect": "true"
 							},
 							{
-								"answerText": "Counting objects in an image only",
+								"answerText": "只要给图片中的物体计数",
 								"isCorrect": "false"
 							},
 							{
-								"answerText": "Classifying images",
+								"answerText": "图片分类",
 								"isCorrect": "false"
 							}
 						]
@@ -1899,10 +1899,10 @@
 			},
 			{
 				"id": 38,
-				"title": "第19课 - Train a stock detector：课后测验",
+				"title": "第19课 - 训练库存检测器：课后测验",
 				"quiz": [
 					{
-						"questionText": "Object detectors only return one result no matter how many objects are detected",
+						"questionText": "不管多少对象被检测到，目标检测程序只返回一个结果",
 						"answerOptions": [
 							{
 								"answerText": "正确",
@@ -1915,24 +1915,24 @@
 						]
 					},
 					{
-						"questionText": "What is the best domain to use in Custom Vision for stock counting",
+						"questionText": "为了盘点库存，Custom Vision中最适合的domain是什么",
 						"answerOptions": [
 							{
-								"answerText": "General",
+								"answerText": "通用（General）",
 								"isCorrect": "false"
 							},
 							{
-								"answerText": "Food",
+								"answerText": "食物（General）",
 								"isCorrect": "false"
 							},
 							{
-								"answerText": "Products on shelves",
+								"answerText": "货架上的商品（Products on shelves）",
 								"isCorrect": "true"
 							}
 						]
 					},
 					{
-						"questionText": "At least how many images do you need to train an object detector?",
+						"questionText": "训练一个目标检测器至少需要多少张图片？",
 						"answerOptions": [
 							{
 								"answerText": "1",
@@ -1952,10 +1952,10 @@
 			},
 			{
 				"id": 39,
-				"title": "第20课 - Check stock from an IoT设备：课前测验",
+				"title": "第20课 - 利用IoT设备盘点库存：课前测验",
 				"quiz": [
 					{
-						"questionText": "IoT设备 are not powerful enough to use object detectors",
+						"questionText": "IoT设备因不够强大而无法胜任目标检测的任务",
 						"answerOptions": [
 							{
 								"answerText": "正确",
@@ -1968,24 +1968,24 @@
 						]
 					},
 					{
-						"questionText": "Object detectors give you:",
+						"questionText": "目标检测程序返回：",
 						"answerOptions": [
 							{
-								"answerText": "The count of objects detected",
+								"answerText": "检测到的物体的数量",
 								"isCorrect": "false"
 							},
 							{
-								"answerText": "The count and location of objects detected",
+								"answerText": "检测到的物体的数量和位置",
 								"isCorrect": "false"
 							},
 							{
-								"answerText": "The count, location and probability of objects detected",
+								"answerText": "检测到的物体的数量、位置以及概率",
 								"isCorrect": "true"
 							}
 						]
 					},
 					{
-						"questionText": "Object detectors can be used to detect where missing stock should be to allow robots to automatically stock shelves",
+						"questionText": "目标检测程序可以用来检测哪里缺货了，并允许机器人自动补货",
 						"answerOptions": [
 							{
 								"answerText": "正确",
@@ -2001,10 +2001,10 @@
 			},
 			{
 				"id": 40,
-				"title": "第20课 - Check stock from an IoT设备：课后测验",
+				"title": "第20课 - 利用IoT设备盘点库存：课后测验",
 				"quiz": [
 					{
-						"questionText": "To count stock you only need to consider the count of objects detected by the object detector",
+						"questionText": "为了盘点库存，只需要考虑目标检测程序检测到的物体的数量",
 						"answerOptions": [
 							{
 								"answerText": "正确",
@@ -2017,31 +2017,31 @@
 						]
 					},
 					{
-						"questionText": "Bounding boxes use:",
+						"questionText": "边界框使用：",
 						"answerOptions": [
 							{
-								"answerText": "Percentage based coordinates",
+								"answerText": "百分比坐标",
 								"isCorrect": "true"
 							},
 							{
-								"answerText": "Pixel based coordinates",
+								"answerText": "像素坐标",
 								"isCorrect": "false"
 							},
 							{
-								"answerText": "Centimeter based coordinates",
+								"answerText": "厘米坐标",
 								"isCorrect": "false"
 							}
 						]
 					},
 					{
-						"questionText": "Can detected objects overlap?",
+						"questionText": "被检测的目标可以重合吗？",
 						"answerOptions": [
 							{
-								"answerText": "Yes",
+								"answerText": "可以",
 								"isCorrect": "true"
 							},
 							{
-								"answerText": "No",
+								"answerText": "不可以",
 								"isCorrect": "false"
 							}
 						]
