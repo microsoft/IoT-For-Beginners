@@ -4,18 +4,12 @@
 #include <ArduinoJson.h>
 #include <HTTPClient.h>
 #include <WiFiClient.h>
-#include <WiFiClientSecure.h>
 
 #include "config.h"
 
 class LanguageUnderstanding
 {
 public:
-    LanguageUnderstanding()
-    {
-        _client.setCACert(FUNCTIONS_CERTIFICATE);
-    }
-
     int GetTimerDuration(String text)
     {
         DynamicJsonDocument doc(1024);
@@ -26,9 +20,9 @@ public:
         serializeJson(obj, body);
 
         HTTPClient httpClient;
-        httpClient.begin(_client, FUNCTION_URL);
+        httpClient.begin(_client, TEXT_TO_TIMER_FUNCTION_URL);
 
-        int httpResponseCode = httpClient.sendRequest("POST", body);
+        int httpResponseCode = httpClient.POST(body);
 
         int seconds = 0;
         if (httpResponseCode == 200)
@@ -54,8 +48,7 @@ public:
     }
 
 private:
-    // WiFiClient _client;
-    WiFiClientSecure _client;
+    WiFiClient _client;
 };
 
 LanguageUnderstanding languageUnderstanding;

@@ -493,7 +493,9 @@ Rather than calling LUIS from the IoT device, you can use serverless code with a
 
 ### Task - make your function available to your IoT device
 
-1. For your IoT device to call your REST endpoint, it will need to know the URL. When you accessed it earlier, you used `localhost`, which is a shortcut to access REST endpoints on your local machine. To allow you IoT device to get access, you need to either:
+1. For your IoT device to call your REST endpoint, it will need to know the URL. When you accessed it earlier, you used `localhost`, which is a shortcut to access REST endpoints on your local machine. To allow you IoT device to get access, you need to either publish to the cloud, or get your IP address to access it locally.
+
+    > ⚠️ If you are using a Wio Terminal, it is easier to run the function app locally, as there will be a dependency on libraries that mean you cannot deploy the function app in the same way as you have done before. Run the function app locally and access it via your computers IP address. If you do want to deploy to the cloud, information will be provided in a later lesson on the way to do this.
 
     * Publish the Functions app - follow the instructions in earlier lessons to publish your functions app to the cloud. Once published, the URL will be `https://<APP_NAME>.azurewebsites.net/api/text-to-timer`, where `<APP_NAME>` will be the name of your functions app. Make sure to also publish your local settings.
 
@@ -529,6 +531,8 @@ Rather than calling LUIS from the IoT device, you can use serverless code with a
       * On linux, follow the section on finding your private IP address in the [how to find your IP address in Linux guide](https://opensource.com/article/18/5/how-find-ip-address-linux)
 
       Once you have your IP address, you will able to access the function at `http://<IP_ADDRESS>:7071/api/text-to-timer`, where `<IP_ADDRESS>` will be your IP address, for example `http://192.168.1.10:7071/api/text-to-timer`.
+
+      > 💁 Not that this uses port 7071, so after the IP address you will need to have `:7071`.
 
       > 💁 This will only work if your IoT device is on the same network as your computer.
 

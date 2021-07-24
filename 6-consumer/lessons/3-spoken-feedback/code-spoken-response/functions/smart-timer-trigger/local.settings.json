@@ -1,0 +1,10 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "FUNCTIONS_WORKER_RUNTIME": "python",
+    "AzureWebJobsStorage": "",
+    "LUIS_KEY": "<primary key>",
+    "LUIS_ENDPOINT_URL": "<endpoint url>",
+    "LUIS_APP_ID": "<app id>"
+  }
+}
