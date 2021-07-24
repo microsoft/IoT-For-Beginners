@@ -239,6 +239,6 @@
     Hello World!
     ```
 
-> 💁 你可以在[code/pi](code/pi) 文件夹里找到这个代码
+> 💁 你可以在[code/pi](../code/pi) 文件夹里找到这个代码
 
 😀 你的'Hello World'程序成功了!
