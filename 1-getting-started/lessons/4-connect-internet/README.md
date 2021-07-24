@@ -4,6 +4,14 @@
 
 > Sketchnote by [Nitya Narasimhan](https://github.com/nitya). Click the image for a larger version.
 
+This lesson was taught as part of the [Hello IoT series](https://youtube.com/playlist?list=PLmsFUfdnGr3xRts0TIwyaHyQuHaNQcb6-) from the [Microsoft Reactor](https://developer.microsoft.com/reactor/?WT.mc_id=academic-17441-jabenn). The lesson was taught as 2 videos - a 1 hour lesson, and a 1 hour office hour diving deeper into parts of the lesson and answering questions.
+
+[![Lesson 4: Connect your Device to the Internet](https://img.youtube.com/vi/O4dd172mZhs/0.jpg)](https://youtu.be/O4dd172mZhs)
+
+[![Lesson 4: Connect your Device to the Internet - Office hours](https://img.youtube.com/vi/j-cVCzRDE2Q/0.jpg)](https://youtu.be/j-cVCzRDE2Q)
+
+> 🎥 Click the images above to watch the videos
+
 ## Pre-lecture quiz
 
 [Pre-lecture quiz](https://brave-island-0b7c7f50f.azurestaticapps.net/quiz/7)
