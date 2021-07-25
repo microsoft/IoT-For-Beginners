@@ -43,7 +43,7 @@
 						]
 					},
 					{
-						"questionText": "只能手机是IoT设备",
+						"questionText": "智能手机是IoT设备",
 						"answerOptions": [
 							{
 								"answerText": "正确",
@@ -380,7 +380,7 @@
 						"questionText": "因IoT设备离线导致指令不可达时应该怎么办：",
 						"answerOptions": [
 							{
-								"answerText": "总是在设备恢复在线时被重传",
+								"answerText": "总是在设备恢复在线时重传",
 								"isCorrect": "false"
 							},
 							{
@@ -388,7 +388,7 @@
 								"isCorrect": "false"
 							},
 							{
-								"answerText": "取决于根据指令，设备及IoT应用的需求，不能一概而论",
+								"answerText": "取决于指令、设备及IoT应用的需求，不能一概而论",
 								"isCorrect": "true"
 							}
 						]
@@ -779,7 +779,7 @@
 								"isCorrect": "false"
 							},
 							{
-								"answerText": "直接的请求",
+								"answerText": "直接方法请求",
 								"isCorrect": "true"
 							}
 						]
@@ -1176,7 +1176,7 @@
 				"title": "第12课 - 存储位置数据：课后测验",
 				"quiz": [
 					{
-						"questionText": "需要被立即处理地IoT数据在哪个路径上：",
+						"questionText": "需要被立即处理的IoT数据在哪个路径上：",
 						"answerOptions": [
 							{
 								"answerText": "热路径（Hot）",
@@ -1193,7 +1193,7 @@
 						]
 					},
 					{
-						"questionText": "Azure存储有下列地哪些类型：",
+						"questionText": "Azure存储有下列的哪些类型：",
 						"answerOptions": [
 							{
 								"answerText": "盒子、桶、箱子",
@@ -1557,7 +1557,7 @@
 						]
 					},
 					{
-						"questionText": "摄像头的传感器传递那种类型的数据",
+						"questionText": "摄像头的传感器传递哪种类型的数据",
 						"answerOptions": [
 							{
 								"answerText": "数字数据",
@@ -1606,7 +1606,7 @@
 						]
 					},
 					{
-						"questionText": "不需要使用IoT设备采集的图像数据来训练模型，因为它的摄像头又和手机摄像头相同的质量：",
+						"questionText": "不需要使用IoT设备采集的图像数据来训练模型，因为它的摄像头有和手机摄像头相同的质量：",
 						"answerOptions": [
 							{
 								"answerText": "正确",
@@ -1743,7 +1743,7 @@
 				"title": "第18课 - 从传感器触发水果质量检测：课前测验",
 				"quiz": [
 					{
-						"questionText": "IoT应用的那个部分用来获取数据？",
+						"questionText": "IoT应用的哪个部分用来获取数据？",
 						"answerOptions": [
 							{
 								"answerText": "物（Things）",
@@ -1849,7 +1849,7 @@
 				"title": "第19课 - 训练存货检测器：课前测验",
 				"quiz": [
 					{
-						"questionText": "人工只能不能用于给某个物体计数？",
+						"questionText": "人工智能不能用于给某个物体计数？",
 						"answerOptions": [
 							{
 								"answerText": "正确",
@@ -2392,7 +2392,7 @@
 								"isCorrect": "false"
 							},
 							{
-								"answerText": "false",
+								"answerText": "错误",
 								"isCorrect": "true"
 							}
 						]
@@ -2432,7 +2432,7 @@
 								"isCorrect": "true"
 							},
 							{
-								"answerText": "什么也叫 - 人工智能不能用作翻译",
+								"answerText": "什么也不叫 - 人工智能不能用作翻译",
 								"isCorrect": "false"
 							}
 						]
