@@ -67,6 +67,11 @@ public:
         return text;
     }
 
+    String AccessToken()
+    {
+        return _access_token;
+    }
+
 private:
     String getAccessToken()
     {
