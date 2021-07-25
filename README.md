@@ -115,6 +115,10 @@ npm i
 npm run convert
 ```
 
+### Slides
+
+There are slide decks for some of the lessons in the [slides](./slides) folder.
+
 ## Help Wanted!
 
 Would you like to contribute a translation? Please read our [translation guidelines](TRANSLATIONS.md) and add input [to one of the translations issues](https://github.com/microsoft/IoT-For-Beginners/issues?q=is%3Aissue+is%3Aopen+label%3Atranslation). If you want to translate into a new language, please raise a new issue for tracking.

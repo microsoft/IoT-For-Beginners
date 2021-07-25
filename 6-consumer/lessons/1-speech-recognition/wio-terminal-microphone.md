@@ -18,6 +18,8 @@ To connect the ReSpeaker 2-Mics Pi Hat you will need 40 pin-to-pin (also referre
 
 > 💁 If you are comfortable soldering, then you can use the [40 Pin Raspberry Pi Hat Adapter Board For Wio Terminal](https://www.seeedstudio.com/40-Pin-Raspberry-Pi-Hat-Adapter-Board-For-Wio-Terminal-p-4730.html) to connect the ReSpeaker.
 
+You will also need an SD card to use to download and playback audio. The Wio Terminal only supports SD Cards up to 16GB in size, and these need to be formatted as FAT32 or exFAT.
+
 ### Task - connect the ReSpeaker Pi Hat
 
 1. With the Wio Terminal powered off, connect the ReSpeaker 2-Mics Pi Hat to the Wio Terminal using the jumper leads and the GPIO sockets on the back of the Wio Terminal:
@@ -59,3 +61,15 @@ To connect the ReSpeaker 2-Mics Pi Hat you will need 40 pin-to-pin (also referre
     * If you are using a speaker with a 3.5mm jack, or headphones, insert them into the 3.5mm jack socket.
 
       ![A speaker connected to the ReSpeaker via the 3.5mm jack socket](../../../images/respeaker-35mm-speaker.png)
+
+### Task - set up the SD card
+
+1. Connect the SD Card to your computer, using na external reader if you don't have an SD Card slot.
+
+1. Format the SD Card using the appropriate tool on your computer, making sure to use a FAT32 or exFAT file system
+
+1. Insert the SD card into the SD Card slot on the left-hand side of the Wio Terminal, just below the power button. Make sure the card is all the way in and clicks in - you may need a thin tool or another SD Card to help push it all the way in.
+
+    ![Inserting the SD card into the SD card slot below the power switch](../../../images/wio-sd-card.png)
+
+    > 💁 To eject the SD Card, you need to push it in slightly and it will eject. You will need a thin tool to do this such as a flat-head screwdriver or another SD Card.
