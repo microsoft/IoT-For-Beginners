@@ -1,6 +1,6 @@
 # উদ্ভিদের নিরাপত্তা নিশ্চিতকরণ
 
-![A sketchnote overview of this lesson](../../../../../sketchnotes/lesson-10.jpg)
+![A sketchnote overview of this lesson](../../../../sketchnotes/lesson-10.jpg)
 
 > স্কেচনোটটি তৈরী করেছেন [Nitya Narasimhan](https://github.com/nitya). বড় সংস্করণে দেখার জন্য ছবিটিতে ক্লিক করতে হবে।
 
