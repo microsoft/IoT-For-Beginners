@@ -24,8 +24,8 @@ Once each buffer has been captured, it can be written to the flash memory. Flash
 
     ```ini
     lib_deps =
-        seeed-studio/Seeed Arduino FS @ 2.0.3
-        seeed-studio/Seeed Arduino SFUD @ 2.0.1
+        seeed-studio/Seeed Arduino FS @ 2.1.1
+        seeed-studio/Seeed Arduino SFUD @ 2.0.2
     ```
 
 1. Open the `main.cpp` file and add the following include directive for the flash memory library to the top of the file:
