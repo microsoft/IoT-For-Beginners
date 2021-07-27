@@ -27,11 +27,11 @@ Microsoft 的 Azure Cloud 大使很高兴提供关于 IoT 基础一个12个星�
 
 **也感谢帮我们审查以及翻译这个课程的一组 [Microsoft Learn 学生大使](https://studentambassadors.microsoft.com?WT.mc_id=academic-17441-jabenn) ：[Aditya Garg](https://github.com/AdityaGarg00), [Anurag Sharma](https://github.com/Anurag-0-1-A), [Arpita Das](https://github.com/Arpiiitaaa), [Aryan Jain](https://www.linkedin.com/in/aryan-jain-47a4a1145/), [Bhavesh Suneja](https://github.com/EliteWarrior315), [Faith Hunja](https://faithhunja.github.io/), [Lateefah Bello](https://www.linkedin.com/in/lateefah-bello/), [Manvi Jha](https://github.com/Severus-Matthew), [Mireille Tan](https://www.linkedin.com/in/mireille-tan-a4834819a/), [Mohammad Iftekher (Iftu) Ebne Jalal](https://github.com/Iftu119), [Mohammad Zulfikar](https://github.com/mohzulfikar), [Priyanshu Srivastav](https://www.linkedin.com/in/priyanshu-srivastav-b067241ba), [Thanmai Gowducheruvu](https://github.com/innovation-platform), 和 [Zina Kamel](https://www.linkedin.com/in/zina-kamel/).**
 
-> **老师们**，我们为这个课程的用法 [提供了一些意见](../for-teachers.md)。如果你想自己创建课程，那我们也提供了一个[课程模板](lesson-template/README.md).
+> **老师们**，我们为这个课程的用法 [提供了一些意见](../for-teachers.md)。如果你想自己创建课程，那我们也提供了一个[课程模板](../lesson-template/README.md).
 
 > **学生们**， 为了自己学习这个课程，请复刻整个项目库，再自己完成练习，从课前知识测验开始，再阅读讲座，然后完成剩余的活动。尝试通过理解课程的内容来完成项目，而不要仅仅把代码答案抄下来；然而，在每个项目课程里，你都能从 /solutions 文件夹访问那些答案代码。另外一个办法是跟朋友成立学习小组，然后一起分析内容。想进一步研究，我们鼓励你查一查[Microsoft Learn](https://docs.microsoft.com/users/jimbobbennett/collections/ke2ehd351jopwr?WT.mc_id=academic-17441-jabenn)。
 
-[![宣传片](./images/iot-for-beginners.png)](https://youtube.com/watch?v=bccEMm8gRuc "Promo video")
+[![宣传片](../images/iot-for-beginners.png)](https://youtube.com/watch?v=bccEMm8gRuc "Promo video")
 
 > 🎥 点击以上的图片来看这个项目的宣传片！
 

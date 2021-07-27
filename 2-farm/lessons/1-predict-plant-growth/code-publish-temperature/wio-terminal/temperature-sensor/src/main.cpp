@@ -77,8 +77,7 @@ void loop()
     doc["temperature"] = temp_hum_val[1];
 
     string telemetry;
-    JsonObject obj = doc.as<JsonObject>();
-    serializeJson(obj, telemetry);
+    serializeJson(doc, telemetry);
 
     Serial.print("Sending telemetry ");
     Serial.println(telemetry.c_str());

@@ -180,6 +180,15 @@ The audio can be sent to the speech service using the REST API. To use the speec
 
     This code builds the URL for the token issuer API using the location of the speech resource. It then creates an `HTTPClient` to make the web request, setting it up to use the WiFi client configured with the token endpoints certificate. It sets the API key as a header for the call. It then makes a POST request to get the certificate, retrying if it gets any errors. Finally the access token is returned.
 
+1. To the `public` section, add a method to get the access token. This will be needed in later lessons to convert text to speech.
+
+    ```cpp
+    String AccessToken()
+    {
+        return _access_token;
+    }
+    ```
+
 1. To the `public` section, add an `init` method that sets up the token client:
 
     ```cpp
@@ -497,7 +506,7 @@ The audio can be sent to the speech service using the REST API. To use the speec
     Serial.println(text);
     ```
 
-1. Build this code, upload it to your Wio Terminal and test it out through the serial monitor. Press the C button (the one on the left-hand side, closest to the power switch), and speak. 4 seconds of audio will be captured, then converted to text.
+1. Build this code, upload it to your Wio Terminal and test it out through the serial monitor. Once you see `Ready` in the serial monitor, press the C button (the one on the left-hand side, closest to the power switch), and speak. 4 seconds of audio will be captured, then converted to text.
 
     ```output
     --- Available filters and text transformations: colorize, debug, default, direct, hexlify, log2file, nocontrol, printable, send_on_enter, time
