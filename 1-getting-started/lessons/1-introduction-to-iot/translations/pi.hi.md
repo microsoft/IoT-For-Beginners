@@ -191,7 +191,7 @@
 
 1. कनेक्ट होने के बाद, [पाइलेंस एक्सटेंशन](https://marketplace.visualstudio.com/items?itemName=ms-python.vscode-pylance&WT.mc_id=academic-17441-jabenn) इंस्टॉल करने के लिए [मैनेजिंग एक्सटेंशन](https://code.visualstudio.com/docs/remote/ssh#_managing-extensions?WT.mc_id=academic-17441-jabenn) निर्देशों का पालन करें।
 
-## हैलो वर्ल्डा
+## हैलो वर्ल्ड
 
 एक नई प्रोग्रामिंग भाषा या तकनीक के साथ शुरू करते समय यह पारंपरिक है कि हम एक छोटे से एप्लिकेशन का निर्माण करें जो हैलो वर्ल्ड प्रिंट करता हो - यह दिखाने के लिए कि सभी टूल्स सही तरीके से कॉन्फ़िगर किए गए हैं
 
