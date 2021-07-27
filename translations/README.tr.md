@@ -13,16 +13,14 @@
 [![Chinese](https://img.shields.io/badge/-Chinese-yellow)](README.zh-cn.md)
 
 # Yeni Başlayanlar için IOT
+
 Microsoft'tan Azure Cloud Advocates size IOT temelleri hakkında 12 haftalık 24 dersten oluşan programı zevkle sunar. Her ders ön-quiz, dersi tamamlamanız için talimatlar, bir çözüm, bir ödev ve ders sonrası quiz içerir. Proje tabanlı pedogojimiz öğrenirken bir şeyler oluşturmanıza izin verecek. Bu, ispanlanmıştır ki yeni becerileri adeta size "yapıştıracak".
 
 Projeler, yemeğimizin çiftlikten sofralara olan yolculuğuyla ilgili. Buna; tarım, taşımacılık, işleme, satış, müşteriler gibi IOT cihazları için tüm popüler endüstri alanları dahildir.
 
-
-![Girişi, çiftçiliği, taşımacılığı, işlemeyi, satışı ve pişirmeyi kapsayan 24 dersin yol haritası](sketchnotes/Roadmap.jpg)
-
+![Girişi, çiftçiliği, taşımacılığı, işlemeyi, satışı ve pişirmeyi kapsayan 24 dersin yol haritası](../sketchnotes/Roadmap.jpg)
 
 > [Nitya Narasimhan](https://github.com/nitya) 'dan taslak notu. Daha büyük hali için resme tıklayın
-
 
 **Yazarlarımıza en kalbi duygularla teşekkür ederiz [Jen Fox](https://github.com/jenfoxbot), [Jen Looper](https://github.com/jlooper), [Jim Bennett](https://github.com/jimbobbennett), ve taslak notu için [Nitya Narasimhan](https://github.com/nitya) 'a**
 
@@ -30,11 +28,11 @@ Projeler, yemeğimizin çiftlikten sofralara olan yolculuğuyla ilgili. Buna; ta
 
 Takımla tnışın!
 
-[![Tanıtım videosu](./images/iot-for-beginners.png)](https://youtu.be/-wippUJRi5k)
+[![Tanıtım videosu](../images/iot-for-beginners.png)](https://youtu.be/-wippUJRi5k)
 
 > 🎥  Proje hakkındaki video için yukarıdaki resme tıklayın!
 
-> **Öğretmenler**, için bu dersleri nasıl kullancaklarına dair [bazı öneriler](for-teachers.md). Eğer kendi derslerinizi oluşturmak istiyorsanız [ders taslağı](lesson-template/README.md) ekledik. 
+> **Öğretmenler**, için bu dersleri nasıl kullancaklarına dair [bazı öneriler](../for-teachers.md). Eğer kendi derslerinizi oluşturmak istiyorsanız [ders taslağı](../lesson-template/README.md) ekledik. 
 
 > **Öğrenciler**,bu dersleri kendiniz için kullanmak istiyorsanız tüm repo'yu fork'layın ve tüm egzersizleri bitirin. Ön-quizlerle başlayın, sonra bölümü okuyun ve kalan etkinlikleri bitirin. Çözüm için kodu kopyalamaktansa kendiniz projeler oluşturun ve anlayın, ama çözüm kodları her proje tabanlı ders içerisinde /sollutions klasörünün içindedir. Başka bir fikir de arkadaşlarınızla çalışma grupları oluşturmak ve beraber gitmektir. Daha fazla çalışma için [Microsoft Learn](https://docs.microsoft.com/users/jimbobbennett/collections/ke2ehd351jopwr?WT.mc_id=academic-17441-jabenn).
 
@@ -56,9 +54,9 @@ Her proje öğrencilerde ve hobicilerde bulunan gerçek donanımlara dayanır. H
 
 ## Hardware
 
-We have two choices of IoT hardware to use for the projects depending on personal preference, programming language knowledge or preferences, learning goals and availability. We have also provided a 'virtual hardware' version for those who don't have access to hardware, or want to learn more before committing to a purchase. You can read more and find a 'shopping list' on the [hardware page](./hardware.md), including links to buy complete kits from our friends at Seeed Studio.
+We have two choices of IoT hardware to use for the projects depending on personal preference, programming language knowledge or preferences, learning goals and availability. We have also provided a 'virtual hardware' version for those who don't have access to hardware, or want to learn more before committing to a purchase. You can read more and find a 'shopping list' on the [hardware page](../hardware.md), including links to buy complete kits from our friends at Seeed Studio.
 
-> 💁 Find our [Code of Conduct](CODE_OF_CONDUCT.md), [Contributing](CONTRIBUTING.md), and [Translation](TRANSLATIONS.md) guidelines. We welcome your constructive feedback!
+> 💁 Find our [Code of Conduct](../CODE_OF_CONDUCT.md), [Contributing](../CONTRIBUTING.md), and [Translation](../TRANSLATIONS.md) guidelines. We welcome your constructive feedback!
 
 ## Her ders şunları içerir:
 
@@ -79,33 +77,34 @@ We have two choices of IoT hardware to use for the projects depending on persona
 
 |     | Proje Adı | Öğretilen Kavramlar | Hedeflenen Konular | Bağlantılı Ders |
 | :-: | :----------: | :-------------: | ------------------- | :-----------: |
-| 01 | [Başlangıç](./1-getting-started) | Nesnelerin internetine giriş |İlk IoT cihazınızı yaparken, IoT'nin temel ilkelerini, sensörler ve bulut hizmetleri gibi IoT çözümlerinin temellerini öğrenin. | [Nesnelerin internetine giriş](./1-getting-started/lessons/1-introduction-to-iot/README.md) |
-| 02 | [Başlangıç](./1-getting-started) | IOT'ye daha derin bir dalış | IoT sistemlerinin bileşenleri hakkında daha fazlasını öğrenin hem de mikro işlemcileri ve tek-kart bilgisayarları | [IOT'ye daha derin bir dalış](./1-getting-started/lessons/2-deeper-dive/README.md) |
-| 03 | [Başlangıç](./1-getting-started) | Sensörler ve aktüatörler ile gerçek dünyayla etkileşin | Gece lambası inşa ederken sensörlerin fiziksel dünyadan veri toplamalarını ve aktüatörler in tepki vermelerini öğrenin L | [Sensörler ve aktüatörler ile gerçek dünyayla etkileşin](./1-getting-started/lessons/3-sensors-and-actuators/README.md) |
-| 04 | [Başlangıç](./1-getting-started) | Devrenizi internete bağlayın | Devrelerin internete nasıl bağlandığını ve internetten nasıl mesaj aldıklarını gece lambanızı MQTT'ye bağlayarak öğrenin. | [Devrenizi internete bağlayın](./1-getting-started/lessons/4-connect-internet/README.md) |
-| 05 | [Çiftlik](./2-farm) | Bitkinin büyümesini tahmin edin | IoT devresiyle toplanan sıcaklık verisinin bitki büyümesini tahmin etmede nasıl kullanıldığını öğrenin | [Bitkinin büyümesini tahmin edin](./2-farm/lessons/1-predict-plant-growth/README.md) |
-| 06 | [Çiftlik](./2-farm) | Toprak nemini algılayın | Toprak neminin nasıl tespit edildiğini ve toprak nem sensörünün nasıl kalibre edildiğini öğrenin. | [Toprak nemini algılayın](./2-farm/lessons/2-detect-soil-moisture/README.md) |
-| 07 | [Çiftlik](./2-farm) | Otomatik Bitki Sulama| Sulamanın nasıl otomatikleştirildiğini bir röle ve MQTT kullanarak öğrenin | [Otomatik Bitki Sulama](./2-farm/lessons/3-automated-plant-watering/README.md) |
-| 08 | [Çiftlik](./2-farm) | Bitkinizi buluta taşıyın | Bulut tabanlı IOT servislerini ve MQTT yerine bunları kullanmayı öğrenin | [Bitkinizi buluta taşıyın](./2-farm/lessons/4-migrate-your-plant-to-the-cloud/README.md) |
-| 09 | [Çiftlik](./2-farm) | Uygulama mantığını buluta taşıyın | IOT mesajlarını bulutta cevaplayan ugulama mantığı nasıl yazılır | [Uygulama mantığını buluta taşıyın](./2-farm/lessons/5-migrate-application-to-the-cloud/README.md) |
-| 10 | [Çiftlik](./2-farm) | Bitkinizi güvende tutun | IoT'nin güvenliğini ve bitkinizi anahtarlarla ve sertifikalarla güvende tutmayı öğrenin | [Bitkinizi güvende tutun](./2-farm/lessons/6-keep-your-plant-secure/README.md) |
-| 11 | [Nakliyat](./3-transport) | Konum takibi | GPS ile IoT cihazlarını takip etmeyi öğrenin. | [Konum takibi](./3-transport/lessons/1-location-tracking/README.md) |
-| 12 | [Nakliyat](./3-transport) | Konum bilgilerini depolayın | IoT verilerinin sonradan görselleştirilme ve analiz için nasıl saklandığını öğrenin | [Konum bilgilerini depolayın](./3-transport/lessons/2-store-location-data/README.md) |
-| 13 | [Nakliyat](./3-transport) | Konum verilerini görselleştirin | Konum verisini harita üzerinde görselleştirmeyi ve haritaların 3 boyutlu dünyamızı nasıl 2 boyutlu gösterdiğini öğrenin | [Konum verilerini görselleştirin](./3-transport/lessons/3-visualize-location-data/README.md) |
-| 14 | [Nakliyat](./3-transport) | Coğrafi Sınırlar | Coğrafi sınırları, tedarik zincirindeki araçları hedefe yaklaştıklarında uyarmak için coğrafi sınırları nasıl kullanacağınızı öğrenin. | [Coğrafi Sınırlar](./3-transport/lessons/4-geofences/README.md) |
-| 15 | [Üretim](./4-manufacturing) | Meyve kalite kontrolcüsünü eğitin | Meyvelerin kalitesini kontrol etmek için buluttaki bir resim sınıflandırma algoritmasını eğitmeyi öğrenin. | [Meyve kalite algılayıcısını eğitin](./4-manufacturing/lessons/1-train-fruit-detector/README.md) |
-| 16 | [Üretim](./4-manufacturing) | IoT devresinden meyvelerin kalitesini kontrol edin | Meyve kalitesini IoT cihazınızdan nasıl kontrol edeceğinizi öğrenin | [IoT devresinden meyvelerin kalitesini kontrol edin](./4-manufacturing/lessons/2-check-fruit-from-device/README.md) |
-| 17 | [Üretim](./4-manufacturing) |Meyve dedektörünüzü bir köşede çalıştırın| Meyve dedektörünüzü ve IoT devrelerini bir köşede nasıl çalıştıracağınızı öğrenin. | [Meyve dedektörünüzü bir köşede çalıştırın](./4-manufacturing/lessons/3-run-fruit-detector-edge/README.md) |
-| 18 | [Üretim](./4-manufacturing) | Bir sensörden meyve kalitesini algılamayı tetikleyin | Bir sensörden meyve kalitesinin algılanmasını nasıl tetikleyebileceğinizi öğrenin. | [Bir sensörden meyve kalitesini algılamayı tetikleyin](./4-manufacturing/lessons/4-trigger-fruit-detector/README.md) |
-| 19 | [Perakende](./5-retail) | Stok dedektörünü eğitin | Marketinizdeki stoğu sayması için nesne tanıyan dedektörün nasıl eğitildiğini öğrenin | [Stok dedektörünü eğitin](./5-retail/lessons/1-train-stock-detector/README.md) |
-| 20 | [Perakende](./5-retail) | Stokları IoT cihazınız ile kontrol edin | Stokları nesne tanıyan IoT cihazınız ile kontrol etmeyi öğrenin | [CStokları IoT cihazınız ile kontrol edin](./5-retail/lessons/2-check-stock-device/README.md)  |
-| 21 | [Tüketici](./6-consumer) | IoT cihazınız ile konuşma tanıyın | Akıllı bir zamanlayıcı oluşturmak için IoT cihazınızla konuşma tanıyacağınızı öğrenin. | [IoT cihazınız ile konuşma tanıyın ](./6-consumer/lessons/1-speech-recognition/README.md) |
-| 22 | [Tüketici](./6-consumer) | Dili anlayın | IoT cihazınızın konuşulan cümleleri nasıl anladığını öğrenin | [Dili anlayın](./6-consumer/lessons/2-language-understanding/README.md) |
-| 23 | [Tüketici](./6-consumer) | Bir zamanlayıcı kurun ve konuşturun | IoT cihazları için nasıl zamanlayıcı oluşturmayı ve zamanlayıcı kurulup çalıştıktan sonra  IoT cihazlarına konuşarak geri bildirim verdirmeyi öğrenin.| [Bir zamanlayıcı kurun ve konuşturun](./6-consumer/lessons/3-spoken-feedback/README.md) |
-| 24 | [Tüketici](./6-consumer) | Çoklu dil desteği | Hem konuşulan hem de geri bildirim için zamanlayıcınıza nasıl çoklu dil desteği sunulduğunu öğrenin | [Çoklu dil desteği](./6-consumer/lessons/4-multiple-language-support/README.md) |
+| 01 | [Başlangıç](../1-getting-started) | Nesnelerin internetine giriş |İlk IoT cihazınızı yaparken, IoT'nin temel ilkelerini, sensörler ve bulut hizmetleri gibi IoT çözümlerinin temellerini öğrenin. | [Nesnelerin internetine giriş](../1-getting-started/lessons/1-introduction-to-iot/README.md) |
+| 02 | [Başlangıç](../1-getting-started) | IOT'ye daha derin bir dalış | IoT sistemlerinin bileşenleri hakkında daha fazlasını öğrenin hem de mikro işlemcileri ve tek-kart bilgisayarları | [IOT'ye daha derin bir dalış](../1-getting-started/lessons/2-deeper-dive/README.md) |
+| 03 | [Başlangıç](../1-getting-started) | Sensörler ve aktüatörler ile gerçek dünyayla etkileşin | Gece lambası inşa ederken sensörlerin fiziksel dünyadan veri toplamalarını ve aktüatörler in tepki vermelerini öğrenin L | [Sensörler ve aktüatörler ile gerçek dünyayla etkileşin](../1-getting-started/lessons/3-sensors-and-actuators/README.md) |
+| 04 | [Başlangıç](../1-getting-started) | Devrenizi internete bağlayın | Devrelerin internete nasıl bağlandığını ve internetten nasıl mesaj aldıklarını gece lambanızı MQTT'ye bağlayarak öğrenin. | [Devrenizi internete bağlayın](../1-getting-started/lessons/4-connect-internet/README.md) |
+| 05 | [Çiftlik](../2-farm) | Bitkinin büyümesini tahmin edin | IoT devresiyle toplanan sıcaklık verisinin bitki büyümesini tahmin etmede nasıl kullanıldığını öğrenin | [Bitkinin büyümesini tahmin edin](../2-farm/lessons/1-predict-plant-growth/README.md) |
+| 06 | [Çiftlik](../2-farm) | Toprak nemini algılayın | Toprak neminin nasıl tespit edildiğini ve toprak nem sensörünün nasıl kalibre edildiğini öğrenin. | [Toprak nemini algılayın](../2-farm/lessons/2-detect-soil-moisture/README.md) |
+| 07 | [Çiftlik](../2-farm) | Otomatik Bitki Sulama| Sulamanın nasıl otomatikleştirildiğini bir röle ve MQTT kullanarak öğrenin | [Otomatik Bitki Sulama](../2-farm/lessons/3-automated-plant-watering/README.md) |
+| 08 | [Çiftlik](../2-farm) | Bitkinizi buluta taşıyın | Bulut tabanlı IOT servislerini ve MQTT yerine bunları kullanmayı öğrenin | [Bitkinizi buluta taşıyın](../2-farm/lessons/4-migrate-your-plant-to-the-cloud/README.md) |
+| 09 | [Çiftlik](../2-farm) | Uygulama mantığını buluta taşıyın | IOT mesajlarını bulutta cevaplayan ugulama mantığı nasıl yazılır | [Uygulama mantığını buluta taşıyın](../2-farm/lessons/5-migrate-application-to-the-cloud/README.md) |
+| 10 | [Çiftlik](../2-farm) | Bitkinizi güvende tutun | IoT'nin güvenliğini ve bitkinizi anahtarlarla ve sertifikalarla güvende tutmayı öğrenin | [Bitkinizi güvende tutun](../2-farm/lessons/6-keep-your-plant-secure/README.md) |
+| 11 | [Nakliyat](../3-transport) | Konum takibi | GPS ile IoT cihazlarını takip etmeyi öğrenin. | [Konum takibi](../3-transport/lessons/1-location-tracking/README.md) |
+| 12 | [Nakliyat](../3-transport) | Konum bilgilerini depolayın | IoT verilerinin sonradan görselleştirilme ve analiz için nasıl saklandığını öğrenin | [Konum bilgilerini depolayın](../3-transport/lessons/2-store-location-data/README.md) |
+| 13 | [Nakliyat](../3-transport) | Konum verilerini görselleştirin | Konum verisini harita üzerinde görselleştirmeyi ve haritaların 3 boyutlu dünyamızı nasıl 2 boyutlu gösterdiğini öğrenin | [Konum verilerini görselleştirin](../3-transport/lessons/3-visualize-location-data/README.md) |
+| 14 | [Nakliyat](../3-transport) | Coğrafi Sınırlar | Coğrafi sınırları, tedarik zincirindeki araçları hedefe yaklaştıklarında uyarmak için coğrafi sınırları nasıl kullanacağınızı öğrenin. | [Coğrafi Sınırlar](../3-transport/lessons/4-geofences/README.md) |
+| 15 | [Üretim](../4-manufacturing) | Meyve kalite kontrolcüsünü eğitin | Meyvelerin kalitesini kontrol etmek için buluttaki bir resim sınıflandırma algoritmasını eğitmeyi öğrenin. | [Meyve kalite algılayıcısını eğitin](../4-manufacturing/lessons/1-train-fruit-detector/README.md) |
+| 16 | [Üretim](../4-manufacturing) | IoT devresinden meyvelerin kalitesini kontrol edin | Meyve kalitesini IoT cihazınızdan nasıl kontrol edeceğinizi öğrenin | [IoT devresinden meyvelerin kalitesini kontrol edin](../4-manufacturing/lessons/2-check-fruit-from-device/README.md) |
+| 17 | [Üretim](../4-manufacturing) |Meyve dedektörünüzü bir köşede çalıştırın| Meyve dedektörünüzü ve IoT devrelerini bir köşede nasıl çalıştıracağınızı öğrenin. | [Meyve dedektörünüzü bir köşede çalıştırın](../4-manufacturing/lessons/3-run-fruit-detector-edge/README.md) |
+| 18 | [Üretim](../4-manufacturing) | Bir sensörden meyve kalitesini algılamayı tetikleyin | Bir sensörden meyve kalitesinin algılanmasını nasıl tetikleyebileceğinizi öğrenin. | [Bir sensörden meyve kalitesini algılamayı tetikleyin](../4-manufacturing/lessons/4-trigger-fruit-detector/README.md) |
+| 19 | [Perakende](../5-retail) | Stok dedektörünü eğitin | Marketinizdeki stoğu sayması için nesne tanıyan dedektörün nasıl eğitildiğini öğrenin | [Stok dedektörünü eğitin](../5-retail/lessons/1-train-stock-detector/README.md) |
+| 20 | [Perakende](../5-retail) | Stokları IoT cihazınız ile kontrol edin | Stokları nesne tanıyan IoT cihazınız ile kontrol etmeyi öğrenin | [CStokları IoT cihazınız ile kontrol edin](../5-retail/lessons/2-check-stock-device/README.md)  |
+| 21 | [Tüketici](../6-consumer) | IoT cihazınız ile konuşma tanıyın | Akıllı bir zamanlayıcı oluşturmak için IoT cihazınızla konuşma tanıyacağınızı öğrenin. | [IoT cihazınız ile konuşma tanıyın ](../6-consumer/lessons/1-speech-recognition/README.md) |
+| 22 | [Tüketici](../6-consumer) | Dili anlayın | IoT cihazınızın konuşulan cümleleri nasıl anladığını öğrenin | [Dili anlayın](../6-consumer/lessons/2-language-understanding/README.md) |
+| 23 | [Tüketici](../6-consumer) | Bir zamanlayıcı kurun ve konuşturun | IoT cihazları için nasıl zamanlayıcı oluşturmayı ve zamanlayıcı kurulup çalıştıktan sonra  IoT cihazlarına konuşarak geri bildirim verdirmeyi öğrenin.| [Bir zamanlayıcı kurun ve konuşturun](../6-consumer/lessons/3-spoken-feedback/README.md) |
+| 24 | [Tüketici](../6-consumer) | Çoklu dil desteği | Hem konuşulan hem de geri bildirim için zamanlayıcınıza nasıl çoklu dil desteği sunulduğunu öğrenin | [Çoklu dil desteği](../6-consumer/lessons/4-multiple-language-support/README.md) |
 
 ## Çevirim dışı erişim
-  Bu belgeleri çevirim dışı olarak [Docsify](https://docsify.js.org/#/) kullanarak çalıştırabilirsiniz. Bu repo'yu forklayın [Docsify'ı kurun](https://docsify.js.org/#/quickstart) ve bu repo'nun ana klasöründe `docsify serve` yazın. Website sizin yerelinizde: `localhost:3000`.
+
+Bu belgeleri çevirim dışı olarak [Docsify](https://docsify.js.org/#/) kullanarak çalıştırabilirsiniz. Bu repo'yu forklayın [Docsify'ı kurun](https://docsify.js.org/#/quickstart) ve bu repo'nun ana klasöründe `docsify serve` yazın. Website sizin yerelinizde: `localhost:3000`.
   
 ### PDF
 
@@ -118,7 +117,7 @@ npm run convert
 
 ## Yardım Aranıyor!
 
-Bir çeviriyle katkıda bulunmak ister miydiniz? Lütfen [çeviri rehberimizi](TRANSLATIONS.md) okuyun ve [çeviri issue'lerinden birine](https://github.com/microsoft/IoT-For-Beginners/issues?q=is%3Aissue+is%3Aopen+label%3Atranslation) yazınız. Eğer yeni bir dile çevirmek istiyorsanız lütfen yeni bir issue oluşturun.
+Bir çeviriyle katkıda bulunmak ister miydiniz? Lütfen [çeviri rehberimizi](../TRANSLATIONS.md) okuyun ve [çeviri issue'lerinden birine](https://github.com/microsoft/IoT-For-Beginners/issues?q=is%3Aissue+is%3Aopen+label%3Atranslation) yazınız. Eğer yeni bir dile çevirmek istiyorsanız lütfen yeni bir issue oluşturun.
 
 ## Diğer Dersler
 
@@ -129,4 +128,4 @@ Takımımız başka derler de yapıyor:
 
 ## Resim atıfları
 
-Bu derslerde kullanılan tüm atıfları ihtiyaç halinde [buradan bulabilirsiniz](./attributions.md).
+Bu derslerde kullanılan tüm atıfları ihtiyaç halinde [buradan bulabilirsiniz](../attributions.md).

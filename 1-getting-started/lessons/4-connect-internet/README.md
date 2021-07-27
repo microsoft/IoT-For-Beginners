@@ -4,6 +4,14 @@
 
 > Sketchnote by [Nitya Narasimhan](https://github.com/nitya). Click the image for a larger version.
 
+This lesson was taught as part of the [Hello IoT series](https://youtube.com/playlist?list=PLmsFUfdnGr3xRts0TIwyaHyQuHaNQcb6-) from the [Microsoft Reactor](https://developer.microsoft.com/reactor/?WT.mc_id=academic-17441-jabenn). The lesson was taught as 2 videos - a 1 hour lesson, and a 1 hour office hour diving deeper into parts of the lesson and answering questions.
+
+[![Lesson 4: Connect your Device to the Internet](https://img.youtube.com/vi/O4dd172mZhs/0.jpg)](https://youtu.be/O4dd172mZhs)
+
+[![Lesson 4: Connect your Device to the Internet - Office hours](https://img.youtube.com/vi/j-cVCzRDE2Q/0.jpg)](https://youtu.be/j-cVCzRDE2Q)
+
+> 🎥 Click the images above to watch the videos
+
 ## Pre-lecture quiz
 
 [Pre-lecture quiz](https://brave-island-0b7c7f50f.azurestaticapps.net/quiz/7)
@@ -178,17 +186,26 @@ Configure a Python virtual environment and install the MQTT pip packages.
 
 1. Activate the virtual environment:
 
-    * On Windows run:
+    * On Windows:
+        * If you are using the Command Prompt, or the Command Prompt through Windows Terminal, run:
 
-        ```cmd
-        .venv\Scripts\activate.bat
-        ```
+            ```cmd
+            .venv\Scripts\activate.bat
+            ```
+
+        * If you are using PowerShell, run:
+
+            ```powershell
+            .\.venv\Scripts\Activate.ps1
+            ```
 
     * On macOS or Linux, run:
 
         ```cmd
         source ./.venv/bin/activate
         ```
+
+    > 💁 These commands should be run from the same location you ran the command to create the virtual environment. You will never need to navigate into the `.venv` folder, you should always run the activate command and any commands to install packages or run code from the folder you were in when you created the virtual environment.
 
 1. Once the virtual environment has been activated, the default `python` command will run the version of Python that was used to create the virtual environment. Run the following to get the version:
 
