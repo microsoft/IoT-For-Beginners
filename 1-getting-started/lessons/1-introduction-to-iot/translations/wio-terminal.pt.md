@@ -1,12 +1,12 @@
-# Terminal Wio
+# Wio Terminal
 
-O [Terminal Wio da Seeed Studios] (https://www.seeedstudio.com/Wio-Terminal-p-4509.html) é um microcontrolador compatível com Arduino, com WiFi e alguns sensores e atuadores integrados, bem como portas para adicionar mais sensores e atuadores, usando um ecossistema de hardware chamado [Grove] (https://www.seeedstudio.com/category/Grove-c-1003.html).
+O [Wio Terminal da Seeed Studios] (https://www.seeedstudio.com/Wio-Terminal-p-4509.html) é um microcontrolador compatível com Arduino, com WiFi e alguns sensores e atuadores integrados, bem como portas para adicionar mais sensores e atuadores, usando um ecossistema de hardware chamado [Grove] (https://www.seeedstudio.com/category/Grove-c-1003.html).
 
-![Um Terminal Wio da Seeed studios](../../../../images/wio-terminal.png)
+![Um Wio Terminal da Seeed studios](../../../../images/wio-terminal.png)
 
 ## Configuração
 
-Para usar o Terminal Wio, você precisará instalar algum software gratuito no computador. Você também precisará atualizar o firmware do Terminal Wio antes de conectá-lo ao WiFi.
+Para usar o Wio Terminal, você precisará instalar algum software gratuito no computador. Você também precisará atualizar o firmware do Wio Terminal antes de conectá-lo ao WiFi.
 
 ### Tarefa - configuração
 
@@ -18,25 +18,25 @@ Instale o software necessário e atualize o firmware.
 
 1. Instale a extensão PlatformIO do VS Code. Esta é uma extensão do VS Code que oferece suporte à programação de microcontroladores em C/C++. Consulte a [documentação da extensão PlatformIO](https://marketplace.visualstudio.com/items?itemName=platformio.platformio-ide&WT.mc_id=academic-17441-jabenn) para obter instruções sobre como instalar esta extensão no VS Code. Esta extensão depende da extensão Microsoft C/C++ para funcionar com código C e C ++, e a extensão C/C++ é instalada automaticamente quando você instala a extensão PlatformIO.
 
-1. Conecte o Terminal Wio ao computador. O Terminal Wio possui uma porta USB-C na parte inferior e ela precisa ser conectada a uma porta USB no seu computador. O Terminal Wio vem com um cabo USB-C para USB-A, mas se o seu computador tiver apenas portas USB-C, você precisará de um cabo USB-C ou de um adaptador USB-A para USB-C.
+1. Conecte o Wio Terminal ao computador. O Wio Terminal possui uma porta USB-C na parte inferior e ela precisa ser conectada a uma porta USB no seu computador. O Wio Terminal vem com um cabo USB-C para USB-A, mas se o seu computador tiver apenas portas USB-C, você precisará de um cabo USB-C ou de um adaptador USB-A para USB-C.
 
-1. Siga as instruções na [documentação de visão geral de WiFi da Wiki do Terminal Wio](https://wiki.seeedstudio.com/Wio-Terminal-Network-Overview/) para configurar seu Terminal Wio e atualizar o firmware.
+1. Siga as instruções na [documentação de visão geral de WiFi da Wiki do Wio Terminal](https://wiki.seeedstudio.com/Wio-Terminal-Network-Overview/) para configurar seu Wio Terminal e atualizar o firmware.
 
 ## Hello World
 
 É tradicional, ao começar com uma nova linguagem de programação ou tecnologia, criar um aplicativo 'Hello World' - um pequeno aplicativo que produz algo como o texto `"Hello World"` para mostrar que todas as ferramentas estão configuradas corretamente.
 
-O aplicativo Hello World para o Terminal Wio garantirá que você tenha o Visual Studio Code instalado corretamente com PlatformIO e configurado para desenvolvimento de microcontrolador.
+O aplicativo Hello World para o Wio Terminal garantirá que você tenha o Visual Studio Code instalado corretamente com PlatformIO e configurado para desenvolvimento de microcontrolador.
 
 ### Crie um projeto PlatformIO
 
-A primeira etapa é criar um novo projeto usando PlatformIO configurado para o Terminal Wio.
+A primeira etapa é criar um novo projeto usando PlatformIO configurado para o Wio Terminal.
 
 #### Tarefa - criar um projeto PlatformIO
 
 Crie o projeto PlatformIO.
 
-1. Conecte o Terminal Wio ao seu computador
+1. Conecte o Wio Terminal ao seu computador
 
 1. Inicie o VS Code
 
@@ -66,7 +66,7 @@ Crie o projeto PlatformIO.
 
     ![O assistente de projeto concluído](../../../../images/vscode-platformio-nightlight-project-wizard.png)
 
-    PlatformIO baixará os componentes necessários para compilar o código para o Terminal Wio e criar seu projeto. Isso pode levar alguns minutos.
+    PlatformIO baixará os componentes necessários para compilar o código para o Wio Terminal e criar seu projeto. Isso pode levar alguns minutos.
 
 ### Investigue o projeto PlatformIO
 
@@ -110,12 +110,12 @@ O explorador do VS Code mostrará vários arquivos e pastas criados pelo assiste
     framework = arduino
     ```
 
-    A seção `[env:seeed_wio_terminal]` tem configuração para o Terminal Wio. Você pode ter várias seções `env` para que seu código possa ser compilado para várias placas.
+    A seção `[env:seeed_wio_terminal]` tem configuração para o Wio Terminal. Você pode ter várias seções `env` para que seu código possa ser compilado para várias placas.
 
     Os outros valores correspondem à configuração do assistente de projeto:
 
-  * `platform = atmelsam` define o hardware que o Terminal Wio usa (um microcontrolador baseado em ATSAMD51)
-  * `board = seeed_wio_terminal` define o tipo de placa do microcontrolador (o Terminal Wio)
+  * `platform = atmelsam` define o hardware que o Wio Terminal usa (um microcontrolador baseado em ATSAMD51)
+  * `board = seeed_wio_terminal` define o tipo de placa do microcontrolador (o Wio Terminal)
   * `framework = arduino` define que este projeto está usando o framework Arduino.
 
 ### Escreva o aplicativo Hello World
@@ -150,11 +150,11 @@ Escreva o aplicativo Hello World.
     }
     ```
 
-    A função `setup` inicializa uma conexão com a porta serial - neste caso, a porta USB que é usada para conectar o Terminal Wio ao seu computador. O parâmetro `9600` é a [taxa de transmissão](https://wikipedia.org/wiki/Symbol_rate) (também conhecida como taxa de símbolo), ou velocidade com que os dados serão enviados pela porta serial em bits por segundo. Essa configuração significa que 9.600 bits (0s e 1s) de dados são enviados a cada segundo. Em seguida, ele espera que a porta serial esteja pronta.
+    A função `setup` inicializa uma conexão com a porta serial - neste caso, a porta USB que é usada para conectar o Wio Terminal ao seu computador. O parâmetro `9600` é a [taxa de transmissão](https://wikipedia.org/wiki/Symbol_rate) (também conhecida como taxa de símbolo), ou velocidade com que os dados serão enviados pela porta serial em bits por segundo. Essa configuração significa que 9.600 bits (0s e 1s) de dados são enviados a cada segundo. Em seguida, ele espera que a porta serial esteja pronta.
 
     A função `loop` envia a linha `Hello World!` para a porta serial, então os caracteres de `Hello World!` junto com um caractere de nova linha. Em seguida, ele dorme por 5.000 milissegundos ou 5 segundos. Depois que o `loop` termina, ele é executado novamente, e novamente, e assim por diante, o tempo todo em que o microcontrolador permanece ligado.
 
-1. Construa e carregue o código para o Terminal Wio
+1. Construa e carregue o código para o Wio Terminal
 
     1. Abra a paleta de comando do VS Code
 
@@ -164,13 +164,13 @@ Escreva o aplicativo Hello World.
 
         PlatformIO construirá automaticamente o código, se necessário, antes de fazer o upload.
 
-    1. O código será compilado e enviado para o Terminal Wio
+    1. O código será compilado e enviado para o Wio Terminal
 
-        > 💁 Se você estiver usando o macOS, será exibida uma notificação sobre um *DISCO NÃO EJETADO CORRETAMENTE*. Isso ocorre porque o Terminal Wio é montado como uma unidade como parte do processo de flashing e é desconectado quando o código compilado é gravado no dispositivo. Você pode ignorar esta notificação.
+        > 💁 Se você estiver usando o macOS, será exibida uma notificação sobre um *DISCO NÃO EJETADO CORRETAMENTE*. Isso ocorre porque o Wio Terminal é montado como uma unidade como parte do processo de flashing e é desconectado quando o código compilado é gravado no dispositivo. Você pode ignorar esta notificação.
 
-    ⚠️ Se você receber erros sobre a porta de upload não estar disponível, primeiro certifique-se de ter o Terminal Wio conectado ao seu computador e ligado usando o botão no lado esquerdo da tela. A luz verde na parte inferior deve estar acesa. Se você ainda receber o erro, puxe o botão liga/desliga para baixo duas vezes em rápida sucessão para forçar o Terminal Wio no modo bootloader e tente fazer o upload novamente.
+    ⚠️ Se você receber erros sobre a porta de upload não estar disponível, primeiro certifique-se de ter o Wio Terminal conectado ao seu computador e ligado usando o botão no lado esquerdo da tela. A luz verde na parte inferior deve estar acesa. Se você ainda receber o erro, puxe o botão liga/desliga para baixo duas vezes em rápida sucessão para forçar o Wio Terminal no modo bootloader e tente fazer o upload novamente.
 
-PlatformIO tem um monitor serial que pode monitorar os dados enviados pelo cabo USB do terminal Wio. Isso permite que você monitore os dados enviados pelo comando `Serial.println("Hello World");`.
+PlatformIO tem um monitor serial que pode monitorar os dados enviados pelo cabo USB do Wio Terminal. Isso permite que você monitore os dados enviados pelo comando `Serial.println("Hello World");`.
 
 1. Abra a paleta de comando do VS Code
 

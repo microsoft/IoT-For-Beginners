@@ -60,9 +60,9 @@ Um microcontrolador (também conhecido como MCU, abreviação de microcontroller
 
 🔌 Conexões de entrada/saída (I/O) programáveis ​​- para falar com periféricos externos (dispositivos conectados), como sensores e atuadores
 
-Microcontroladores são tipicamente dispositivos de computação de baixo custo, com preços médios para aqueles usados ​​em hardware customizado caindo para cerca de US$0,50, e alguns dispositivos tão baratos quanto US$0,03. Os kits de desenvolvedor podem começar em US$4, com custos aumentando à medida que você adiciona mais recursos. O [Terminal Wio](https://www.seeedstudio.com/Wio-Terminal-p-4509.html), um kit de desenvolvedor de microcontrolador da [Seeed studios](https://www.seeedstudio.com) que tem sensores, atuadores, Wi-Fi e uma tela custam cerca de US$30.
+Microcontroladores são tipicamente dispositivos de computação de baixo custo, com preços médios para aqueles usados ​​em hardware customizado caindo para cerca de US$0,50, e alguns dispositivos tão baratos quanto US$0,03. Os kits de desenvolvedor podem começar em US$4, com custos aumentando à medida que você adiciona mais recursos. O [Wio Terminal](https://www.seeedstudio.com/Wio-Terminal-p-4509.html), um kit de desenvolvedor de microcontrolador da [Seeed studios](https://www.seeedstudio.com) que tem sensores, atuadores, Wi-Fi e uma tela custam cerca de US$30.
 
-![Um Terminal Wio](../../../../images/wio-terminal.png)
+![Um Wio Terminal](../../../../images/wio-terminal.png)
 
 > 💁 Ao pesquisar por microcontroladores na Internet, tenha cuidado ao pesquisar pelo termo **MCU**, pois isso trará muitos resultados para o Universo Cinematográfico Marvel (Marvel Cinematic Universe), não microcontroladores.
 
@@ -88,7 +88,7 @@ Os computadores de placa única são computadores completos, portanto, podem ser
 
 ### Opções de hardware para o resto das lições
 
-Todas as lições subsequentes incluem tarefas usando um dispositivo IoT para interagir com o mundo físico e se comunicar com a nuvem. Cada lição oferece suporte a 3 opções de dispositivo - Arduino (usando um Terminal Wio da Seeed Studios) ou um computador de placa única, seja ele um dispositivo físico (um Raspberry Pi 4) ou um computador de placa única virtual rodando em seu PC ou Mac.
+Todas as lições subsequentes incluem tarefas usando um dispositivo IoT para interagir com o mundo físico e se comunicar com a nuvem. Cada lição oferece suporte a 3 opções de dispositivo - Arduino (usando um Wio Terminal da Seeed Studios) ou um computador de placa única, seja ele um dispositivo físico (um Raspberry Pi 4) ou um computador de placa única virtual rodando em seu PC ou Mac.
 
 Você pode ler sobre o hardware necessário para completar todas as tarefas no [guia do hardware](../../../../hardware.md).
 
@@ -129,7 +129,7 @@ Essas instruções incluem links para sites de terceiros dos criadores do hardwa
 
 Trabalhe com o guia relevante para configurar seu dispositivo e concluir um projeto 'Hello World'. Esta será a primeira etapa na criação de uma luz noturna IoT nas 4 lições desta parte de introdução.
 
-* [Arduino - Terminal Wio](wio-terminal.pt.md)
+* [Arduino - Wio Terminal](wio-terminal.pt.md)
 * [Computador de placa única - Raspberry Pi](pi.pt.md)
 * [Computador de placa única - Dispositivo virtual](virtual-device.pt.md)
 
