@@ -100,8 +100,7 @@ void loop()
     doc["light"] = light;
 
     string telemetry;
-    JsonObject obj = doc.as<JsonObject>();
-    serializeJson(obj, telemetry);
+    serializeJson(doc, telemetry);
 
     Serial.print("Sending telemetry ");
     Serial.println(telemetry.c_str());

@@ -12,7 +12,7 @@ IoT শব্দে **T** এর পূর্ণরূপ হলো **Things** �
 
 ## ক্রয়তালিকা
 
-![The Seeed studios logo](./images/seeed-logo.png)
+![The Seeed studios logo](../images/seeed-logo.png)
 
 Seeed Studios থেকে সহজেই kit ক্রয় করা যাবে :
 
@@ -20,19 +20,19 @@ Seeed Studios থেকে সহজেই kit ক্রয় করা যা�
 
 **[IoT for beginners with Seeed and Microsoft - Wio Terminal Starter Kit](https://www.seeedstudio.com/IoT-for-beginners-with-Seeed-and-Microsoft-Wio-Terminal-Starter-Kit-p-5006.html)**
 
-[![The Wio Terminal hardware kit](./images/wio-hardware-kit.png)](https://www.seeedstudio.com/IoT-for-beginners-with-Seeed-and-Microsoft-Wio-Terminal-Starter-Kit-p-5006.html)
+[![The Wio Terminal hardware kit](../images/wio-hardware-kit.png)](https://www.seeedstudio.com/IoT-for-beginners-with-Seeed-and-Microsoft-Wio-Terminal-Starter-Kit-p-5006.html)
 
 ### রাস্পবেরি পাই
 
 **[IoT for beginners with Seeed and Microsoft - Raspberry Pi 4 Starter Kit](https://www.seeedstudio.com/IoT-for-beginners-with-Seeed-and-Microsoft-Raspberry-Pi-Starter-Kit.html)**
 
-[![The Raspberry Pi Terminal hardware kit](./images/pi-hardware-kit.png)](https://www.seeedstudio.com/IoT-for-beginners-with-Seeed-and-Microsoft-Raspberry-Pi-Starter-Kit.html)
+[![The Raspberry Pi Terminal hardware kit](../images/pi-hardware-kit.png)](https://www.seeedstudio.com/IoT-for-beginners-with-Seeed-and-Microsoft-Raspberry-Pi-Starter-Kit.html)
 
 ## আরডুইনো
 
  আরডুইনো এর সব কোড C++ ভাষায় করা হয়। অ্যাসাইনমেন্ট সম্পন্ন করতে  নিম্নলিখিত উপাদানগুলির প্রয়োজন হবে:
 
-### আরডুইনো হার্ডওয়্যার 
+### আরডুইনো হার্ডওয়্যার
 
 * [Wio Terminal](https://www.seeedstudio.com/Wio-Terminal-p-4509.html)
 * *ঐচ্ছিক* - USB-C ক্যাবল অথবা USB-A থেকে USB-C এডাপ্টার - উইও টার্মিনালে একটি ইউএসবি-সি পোর্ট রয়েছে এবং এটিতে ইউএসবি-সি থেকে ইউএসবি-এ ক্যাবল থাকে। যদি ব্যবহারকারীর পিসি বা ম্যাক এ কেবল ইউএসবি-সি পোর্ট থাকে তবে একটি ইউএসবি-সি বা ইউএসবি-এ থেকে ইউএসবি-সি অ্যাডাপ্টার প্রয়োজন হবে।

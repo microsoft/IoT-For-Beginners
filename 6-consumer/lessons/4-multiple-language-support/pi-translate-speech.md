@@ -8,7 +8,7 @@ The speech service REST API doesn't support direct translations, instead you can
 
 ### Task - use the translator resource to translate text
 
-1. Your smart timer will have 2 languages set - the language of the server that was used to train LUIS, and the language spoken by the user. Update the `language` variable to be the language that will be spoken by the used, and add a new variable called `server_language` for the language used to train LUIS:
+1. Your smart timer will have 2 languages set - the language of the server that was used to train LUIS (the same language is also used to build the messages to speak to the user), and the language spoken by the user. Update the `language` variable to be the language that will be spoken by the user, and add a new variable called `server_language` for the language used to train LUIS:
 
     ```python
     language = '<user language>'

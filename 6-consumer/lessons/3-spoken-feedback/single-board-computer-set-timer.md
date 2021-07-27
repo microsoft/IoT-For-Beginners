@@ -1,6 +1,6 @@
 # Set a timer - Virtual IoT Hardware and Raspberry Pi
 
-In this part of the lesson, you will set a timer on your virtual IoT device or Raspberry Pi based off a command from the IoT Hub.
+In this part of the lesson, you will call your serverless code to understand the speech, and set a timer n your virtual IoT device or Raspberry Pi based off the results.
 
 ## Set a timer
 
