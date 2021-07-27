@@ -20,7 +20,7 @@ The speech service can take speech and not only convert to text in the same lang
 
     This imports classes used to translate speech, and a `requests` library that will be used to make a call to the Translator service later in this lesson.
 
-1. Your smart timer will have 2 languages set - the language of the server that was used to train LUIS, and the language spoken by the user. Update the `language` variable to be the language that will be spoken by the used, and add a new variable called `server_language` for the language used to train LUIS:
+1. Your smart timer will have 2 languages set - the language of the server that was used to train LUIS (the same language is also used to build the messages to speak to the user), and the language spoken by the user. Update the `language` variable to be the language that will be spoken by the user, and add a new variable called `server_language` for the language used to train LUIS:
 
     ```python
     language = '<user language>'

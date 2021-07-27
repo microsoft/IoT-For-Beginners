@@ -3,10 +3,10 @@
     <nav>
       <router-link class="navlink" to="/">Home</router-link>
       <label for="locale">locale</label>
-      <select v-model="locale">
-        <option>ar</option>
-        <option>bn</option>
-        <option>en</option>
+      <select v-model="native_name">
+        <option v-for="lan in iso_639_1_map_keys" :key="lan">
+          {{ lan }}
+        </option>
       </select>
     </nav>
     <div id="app">
@@ -30,12 +30,26 @@ export default {
   },
   data() {
     return {
-      locale: "en",
+      native_name: "English",
+
+      // Native names are from
+      // https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes
+      iso_639_1_map: {
+        "العربية": "ar",
+        "বাংলা": "bn",
+        "English": "en",
+        "中文 - 大陆简体": "zh-cn",
+      },
     };
   },
+  computed: {
+    iso_639_1_map_keys() {
+      return Object.keys(this.iso_639_1_map);
+    }
+  },
   watch: {
-    locale(val) {
-      this.$root.$i18n.locale = val;
+    native_name(val) {
+      this.$root.$i18n.locale = this.iso_639_1_map[val];
     },
   },
   created() {
