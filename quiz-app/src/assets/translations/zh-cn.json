@@ -213,7 +213,7 @@
 				"title": "第3课 - 通过传感器及执行器和物质世界交互：课前测验",
 				"quiz": [
 					{
-						"questionText": "发光二极管（LED）是传感器：",
+						"questionText": "发光二极管（LED）是传感器",
 						"answerOptions": [
 							{
 								"answerText": "正确",
@@ -315,7 +315,7 @@
 				"title": "第4课 - 将你的设备连接到互联网：课前测验",
 				"quiz": [
 					{
-						"questionText": "IoT设备需要一直连着网络才能工作：",
+						"questionText": "IoT设备需要一直连着网络才能工作",
 						"answerOptions": [
 							{
 								"answerText": "正确",
@@ -328,7 +328,7 @@
 						]
 					},
 					{
-						"questionText": "IoT设备和网络应用及网络API一样，总是使用HTTP来通信：",
+						"questionText": "IoT设备和网络应用及网络API一样，总是使用HTTP来通信",
 						"answerOptions": [
 							{
 								"answerText": "错误",
@@ -341,7 +341,7 @@
 						]
 					},
 					{
-						"questionText": "IoT设备依赖云来做决策：",
+						"questionText": "IoT设备依赖云来做决策",
 						"answerOptions": [
 							{
 								"answerText": "错误",
@@ -394,7 +394,7 @@
 						]
 					},
 					{
-						"questionText": "消息队列遥测传输（MQTT）有消息队列：",
+						"questionText": "消息队列遥测传输（MQTT）有消息队列",
 						"answerOptions": [
 							{
 								"answerText": "正确",
@@ -443,7 +443,7 @@
 						]
 					},
 					{
-						"questionText": "传感器对于发达国家的农民来说过于昂贵：",
+						"questionText": "传感器对于发达国家的农民来说过于昂贵",
 						"answerOptions": [
 							{
 								"answerText": "错误",
@@ -462,7 +462,7 @@
 				"title": "第5课 - 预测植物生长：课后测验",
 				"quiz": [
 					{
-						"questionText": "植物的生长取决于温度：",
+						"questionText": "植物的生长取决于温度",
 						"answerOptions": [
 							{
 								"answerText": "正确",
@@ -545,7 +545,7 @@
 						]
 					},
 					{
-						"questionText": "所有的传感器都根据标准单位预先标定好了：",
+						"questionText": "所有的传感器都根据标准单位预先标定好了",
 						"answerOptions": [
 							{
 								"answerText": "正确",
@@ -700,7 +700,7 @@
 						]
 					},
 					{
-						"questionText": "执行器总是对传感器的读取立即做出反应：",
+						"questionText": "执行器总是对传感器的读取立即做出反应",
 						"answerOptions": [
 							{
 								"answerText": "正确",
@@ -798,7 +798,7 @@
 						]
 					},
 					{
-						"questionText": "IoT中心的名字必须是唯一的：",
+						"questionText": "IoT中心的名字必须是唯一的",
 						"answerOptions": [
 							{
 								"answerText": "正确",
@@ -866,7 +866,7 @@
 				"title": "第9课 - 将你的应用程序逻辑迁移到云端：课后测验",
 				"quiz": [
 					{
-						"questionText": "Azure Functions可以在本地运行和调试：",
+						"questionText": "Azure Functions可以在本地运行和调试",
 						"answerOptions": [
 							{
 								"answerText": "正确",
@@ -879,7 +879,7 @@
 						]
 					},
 					{
-						"questionText": "无服务器计算代码只能使用JavaScript和COBOL编写：",
+						"questionText": "无服务器计算代码只能使用JavaScript和COBOL编写",
 						"answerOptions": [
 							{
 								"answerText": "错误",
@@ -928,7 +928,7 @@
 						]
 					},
 					{
-						"questionText": "尚无充分证据表明黑客已成功利用IoT设备黑入网络：",
+						"questionText": "尚无充分证据表明黑客已成功利用IoT设备黑入网络",
 						"answerOptions": [
 							{
 								"answerText": "正确",
@@ -1455,7 +1455,7 @@
 						]
 					},
 					{
-						"questionText": "基于图像的人工智能（AI）模型十分的复杂，训练也十分费时，并且需要使用数以万计的图片数据：",
+						"questionText": "基于图像的人工智能（AI）模型十分的复杂，训练也十分费时，并且需要使用数以万计的图片数据",
 						"answerOptions": [
 							{
 								"answerText": "正确",
@@ -1531,7 +1531,7 @@
 				"title": "第16课 - 从 IoT 设备检查水果质量：课前测验",
 				"quiz": [
 					{
-						"questionText": "IoT设备还没有强大到能够使用摄像头：",
+						"questionText": "IoT设备还没有强大到能够使用摄像头",
 						"answerOptions": [
 							{
 								"answerText": "正确",
@@ -1593,7 +1593,7 @@
 						]
 					},
 					{
-						"questionText": "在给图片做分类的时候，可以用它们重新训练模型：",
+						"questionText": "在给图片做分类的时候，可以用它们重新训练模型",
 						"answerOptions": [
 							{
 								"answerText": "正确",
@@ -1606,7 +1606,7 @@
 						]
 					},
 					{
-						"questionText": "不需要使用IoT设备采集的图像数据来训练模型，因为它的摄像头有和手机摄像头相同的质量：",
+						"questionText": "不需要使用IoT设备采集的图像数据来训练模型，因为它的摄像头有和手机摄像头相同的质量",
 						"answerOptions": [
 							{
 								"answerText": "正确",
@@ -2066,7 +2066,7 @@
 						]
 					},
 					{
-						"questionText": "语音助理需要将所有的音频发送到云端进行处理：",
+						"questionText": "语音助理需要将所有的音频发送到云端进行处理",
 						"answerOptions": [
 							{
 								"answerText": "正确",
@@ -2079,7 +2079,7 @@
 						]
 					},
 					{
-						"questionText": "为了识别语音，IoT设备需要一个大的麦克风：",
+						"questionText": "为了识别语音，IoT设备需要一个大的麦克风",
 						"answerOptions": [
 							{
 								"answerText": "正确",
@@ -2151,7 +2151,7 @@
 				"title": "第22课 - 理解语言：课前测验",
 				"quiz": [
 					{
-						"questionText": "语言的理解牵涉到寻找特定的词汇：",
+						"questionText": "语言的理解牵涉到寻找特定的词汇",
 						"answerOptions": [
 							{
 								"answerText": "正确",
@@ -2181,7 +2181,7 @@
 						]
 					},
 					{
-						"questionText": "云服务供应商有能够理解语言的人工智能服务：",
+						"questionText": "云服务供应商有能够理解语言的人工智能服务",
 						"answerOptions": [
 							{
 								"answerText": "正确",
@@ -2270,7 +2270,7 @@
 						]
 					},
 					{
-						"questionText": "人工智能模型只能生成美式英语的语音：",
+						"questionText": "人工智能模型只能生成美式英语的语音",
 						"answerOptions": [
 							{
 								"answerText": "正确",
@@ -2359,7 +2359,7 @@
 				"title": "第24课 - 支持多种语言：课前测验",
 				"quiz": [
 					{
-						"questionText": "语言理解只支持英语：",
+						"questionText": "语言理解只支持英语",
 						"answerOptions": [
 							{
 								"answerText": "正确",
@@ -2372,7 +2372,7 @@
 						]
 					},
 					{
-						"questionText": "人工智能语音转文本模型理解多种语言：",
+						"questionText": "人工智能语音转文本模型理解多种语言",
 						"answerOptions": [
 							{
 								"answerText": "正确",
@@ -2385,7 +2385,7 @@
 						]
 					},
 					{
-						"questionText": "人工智能翻译牵涉到将一个个单词转换为对应的译文：",
+						"questionText": "人工智能翻译牵涉到将一个个单词转换为对应的译文",
 						"answerOptions": [
 							{
 								"answerText": "正确",
