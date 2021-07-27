@@ -177,7 +177,7 @@
 						]
 					},
 					{
-						"questionText": "树莓派（Raspberry Pis）运行什么操作系统？",
+						"questionText": "树莓派（Raspberry Pi）运行什么操作系统？",
 						"answerOptions": [
 							{
 								"answerText": "没有操作系统",
@@ -367,11 +367,11 @@
 								"isCorrect": "true"
 							},
 							{
-								"answerText": "指令（Commands）",
+								"answerText": "指令（Command）",
 								"isCorrect": "false"
 							},
 							{
-								"answerText": "测量",
+								"answerText": "测量（Measurement）",
 								"isCorrect": "false"
 							}
 						]
@@ -492,7 +492,7 @@
 						]
 					},
 					{
-						"questionText": "下面哪个公式可以计算有效积温：",
+						"questionText": "以下哪个公式可以计算有效积温：",
 						"answerOptions": [
 							{
 								"answerText": "(日内最高温 + 日内最低温) - 植物发育起点温度",
@@ -528,7 +528,7 @@
 						]
 					},
 					{
-						"questionText": "下面哪一项可能导致植物生长问题（选一项）?",
+						"questionText": "以下哪一项可能导致植物生长问题（选一项）?",
 						"answerOptions": [
 							{
 								"answerText": "浇水太少",
@@ -1140,14 +1140,14 @@
 						]
 					},
 					{
-						"questionText": "数据可被分为下面哪两类",
+						"questionText": "数据可被分为以下哪两类",
 						"answerOptions": [
 							{
 								"answerText": "二进制大对象（Blob）和表数据（table）",
 								"isCorrect": "false"
 							},
 							{
-								"answerText": "结构化数据和非结构化数据",
+								"answerText": "结构化数据（Structured data）和非结构化数据（Unstructured data）",
 								"isCorrect": "true"
 							},
 							{
@@ -1285,7 +1285,7 @@
 								"isCorrect": "false"
 							},
 							{
-								"answerText": "Azure World VIsualizer",
+								"answerText": "Azure World Visualizer",
 								"isCorrect": "false"
 							}
 						]
@@ -1379,15 +1379,15 @@
 						"questionText": "为了让多个服务从IoT中心获取数据，你需要创建多个：",
 						"answerOptions": [
 							{
-								"answerText": "消费者群组（Consumer groups）",
+								"answerText": "消费者群组（Consumer group）",
 								"isCorrect": "true"
 							},
 							{
-								"answerText": "管道（Pipes）",
+								"answerText": "管道（Pipe）",
 								"isCorrect": "false"
 							},
 							{
-								"answerText": "IoT中心",
+								"answerText": "IoT中心（Hub）",
 								"isCorrect": "false"
 							}
 						]
@@ -1477,11 +1477,11 @@
 						"questionText": "定制视觉使用的仅用少量图片训练模型的技术叫做：",
 						"answerOptions": [
 							{
-								"answerText": "转换学习",
+								"answerText": "转换学习（Transformational learning）",
 								"isCorrect": "false"
 							},
 							{
-								"answerText": "交易学习",
+								"answerText": "交易学习（Transaction learning）",
 								"isCorrect": "false"
 							},
 							{
@@ -1750,11 +1750,11 @@
 								"isCorrect": "true"
 							},
 							{
-								"answerText": "云服务",
+								"answerText": "云服务（Cloud services）",
 								"isCorrect": "false"
 							},
 							{
-								"answerText": "边缘节点",
+								"answerText": "边缘节点（Edge devices）",
 								"isCorrect": "false"
 							}
 						]
@@ -2203,7 +2203,7 @@
 						"questionText": "为了被理解，句子需要被划分为：",
 						"answerOptions": [
 							{
-								"answerText": "想法和解释",
+								"answerText": "想法（Ideas）和解释（explanations）",
 								"isCorrect": "false"
 							},
 							{
