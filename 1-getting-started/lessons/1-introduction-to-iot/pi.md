@@ -163,8 +163,6 @@ Configure the installed Pi software and install the Grove libraries.
     curl -sL https://github.com/Seeed-Studio/grove.py/raw/master/install.sh | sudo bash -s -
     ```
 
-    One of the powerful features of Python is the ability to install [pip packages](https://pypi.org) - these are packages of code written by other people and published to the Internet. You can install a pip package onto your computer with one command, then use that package in your code. This Grove install script will install the pip packages you will use to work with the Grove hardware from Python.
-
 1. Reboot the Pi by running the following command:
 
     ```sh
