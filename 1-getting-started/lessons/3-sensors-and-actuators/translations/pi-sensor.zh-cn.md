@@ -4,7 +4,7 @@
 
 ## 硬件
 
-这节课程的传感器是使用[光电二极管](https://wikipedia.org/wiki/Photodiode)来把光照转化为电子信号的光照传感器。这是一个发送从0到1,000整数值的模拟传感器，表示光照值的相对量而不对应任何比如[lux](https://wikipedia.org/wiki/Lux)的标准计量单位。
+这节课程的传感器是使用[光电二极管](https://wikipedia.org/wiki/Photodiode)来把光照转化为电子信号的光照传感器。这是一个发送从0到1,000整数值的模拟传感器，表示光照值的相对量而不对应任何比如[勒克斯（lux）](https://wikipedia.org/wiki/Lux)的标准计量单位。
 
 这个光照传感器是一个外部Grove传感器，需要被连接到树莓派上的Grove基础扩展板。
 
