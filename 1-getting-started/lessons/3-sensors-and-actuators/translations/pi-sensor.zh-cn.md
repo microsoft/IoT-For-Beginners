@@ -79,7 +79,7 @@
     python3 app.py
     ```
 
-    光照等级会在终端输出，遮挡或者揭开光照传感器，输出的值也会相应变化：
+    光照等级会在终端输出，遮挡和揭开光照传感器，输出的值也会相应变化：
 
     ```output
     pi@raspberrypi:~/nightlight $ python3 app.py 
