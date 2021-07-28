@@ -413,7 +413,7 @@
 				"title": "Lesson 5 - Predict plant growth: Pre-Lecture Quiz",
 				"quiz": [
 					{
-						"questionText": "Iot devices can be used to support agriculture",
+						"questionText": "IoT devices can be used to support agriculture",
 						"answerOptions": [
 							{
 								"answerText": "True",
@@ -515,7 +515,7 @@
 				"title": "Lesson 6 - Detect soil moisture: Pre-Lecture Quiz",
 				"quiz": [
 					{
-						"questionText": "Iot devices can be used to detect ambient properties like soil moisture",
+						"questionText": "IoT devices can be used to detect ambient properties like soil moisture",
 						"answerOptions": [
 							{
 								"answerText": "True",
@@ -621,7 +621,7 @@
 				"title": "Lesson 7 - Automated plant watering: Pre-Lecture Quiz",
 				"quiz": [
 					{
-						"questionText": "Iot devices are powerful enough to control water pumps",
+						"questionText": "IoT devices are powerful enough to control water pumps",
 						"answerOptions": [
 							{
 								"answerText": "True",
@@ -2392,7 +2392,7 @@
 								"isCorrect": "false"
 							},
 							{
-								"answerText": "false",
+								"answerText": "False",
 								"isCorrect": "true"
 							}
 						]

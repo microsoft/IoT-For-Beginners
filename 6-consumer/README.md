@@ -6,6 +6,8 @@ The latest iterations are now part of our smart devices. In kitchens in homes al
 
 In these 4 lessons you'll learn how to build a smart timer, using AI to recognize your voice, understand what you are asking for, and reply with information about your timer. You'll also add support for multiple languages.
 
+> ⚠️ Working with speech and microphone data uses a lot of memory, meaning it is easy to hit limits on microcontrollers. The project here works around these issues, but be aware the Wio Terminal labs are complex and may take more time that other labs in this curriculum.
+
 > 💁 These lessons will use some cloud resources. If you don't complete all the lessons in this project, make sure you [clean up your project](../clean-up.md).
 
 ## Topics
