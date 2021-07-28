@@ -1,0 +1,2461 @@
+[
+	{
+		"title": "面向初学者的物联网（IoT）开发：小测验",
+		"complete": "恭喜你，完成了这个测验！",
+		"error": "对不起，请重试",
+		"quizzes": [
+			{
+				"id": 1,
+				"title": "第1课 - 物联网（IoT）简介：课前测验",
+				"quiz": [
+					{
+						"questionText": "IoT中的I代表：",
+						"answerOptions": [
+							{
+								"answerText": "网络（Internet）",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "铱元素（Iridium）",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "熨烫（Ironing）",
+								"isCorrect": "false"
+							}
+						]
+					},
+					{
+						"questionText": "据估计2020年末大约有多少正在使用中的IoT设备？",
+						"answerOptions": [
+							{
+								"answerText": "30个",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "3000万",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "300亿",
+								"isCorrect": "true"
+							}
+						]
+					},
+					{
+						"questionText": "智能手机是IoT设备",
+						"answerOptions": [
+							{
+								"answerText": "正确",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "错误",
+								"isCorrect": "false"
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": 2,
+				"title": "第1课 - 物联网（IoT）简介：课后测验",
+				"quiz": [
+					{
+						"questionText": "IoT设备需要一直连接着网络",
+						"answerOptions": [
+							{
+								"answerText": "正确",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "错误",
+								"isCorrect": "true"
+							}
+						]
+					},
+					{
+						"questionText": "IoT设备总是安全的",
+						"answerOptions": [
+							{
+								"answerText": "正确",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "错误",
+								"isCorrect": "true"
+							}
+						]
+					},
+					{
+						"questionText": "人工智能（AI）可以在低功耗的IoT设备中运行",
+						"answerOptions": [
+							{
+								"answerText": "正确",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "错误",
+								"isCorrect": "false"
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": 3,
+				"title": "第2课 - 深入了解物联网（IoT）：课前测验",
+				"quiz": [
+					{
+						"questionText": "IoT中的T代表",
+						"answerOptions": [
+							{
+								"answerText": "晶体管（Transistors）",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "万物（Things）",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "火鸡（Turkeys）",
+								"isCorrect": "false"
+							}
+						]
+					},
+					{
+						"questionText": "IoT设备使用什么获取其周围世界的信息？",
+						"answerOptions": [
+							{
+								"answerText": "传感器",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "执行器",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "信鸽",
+								"isCorrect": "false"
+							}
+						]
+					},
+					{
+						"questionText": "IoT设备通常比台式电脑或笔记本电脑更耗电",
+						"answerOptions": [
+							{
+								"answerText": "正确",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "错误",
+								"isCorrect": "true"
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": 4,
+				"title": "第2课 - 深入了解物联网（IoT）：课后测验",
+				"quiz": [
+					{
+						"questionText": "一个CPU指令周期的三个步骤包括：",
+						"answerOptions": [
+							{
+								"answerText": "译码，执行，提取",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "提取，译码，执行",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "停止，合作，倾听",
+								"isCorrect": "false"
+							}
+						]
+					},
+					{
+						"questionText": "树莓派（Raspberry Pi）运行什么操作系统？",
+						"answerOptions": [
+							{
+								"answerText": "没有操作系统",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "Windows 95",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "Raspberry Pi OS",
+								"isCorrect": "true"
+							}
+						]
+					},
+					{
+						"questionText": "IoT设备通常比台式计算机和笔记本计算机运行得更快且需要更多的内存",
+						"answerOptions": [
+							{
+								"answerText": "正确",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "错误",
+								"isCorrect": "true"
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": 5,
+				"title": "第3课 - 通过传感器及执行器和物质世界交互：课前测验",
+				"quiz": [
+					{
+						"questionText": "发光二极管（LED）是传感器",
+						"answerOptions": [
+							{
+								"answerText": "正确",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "错误",
+								"isCorrect": "true"
+							}
+						]
+					},
+					{
+						"questionText": "传感器被用来：",
+						"answerOptions": [
+							{
+								"answerText": "收集来自物质世界的数据。",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "控制物质世界。",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "只用来监测温度。",
+								"isCorrect": "false"
+							}
+						]
+					},
+					{
+						"questionText": "执行器被用来：",
+						"answerOptions": [
+							{
+								"answerText": "收集来自物质世界的数据。",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "控制物质世界。",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "计算保险的风险。",
+								"isCorrect": "false"
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": 6,
+				"title": "第3课 - 通过传感器及执行器和物质世界交互：课后测验",
+				"quiz": [
+					{
+						"questionText": "数字传感器以什么方式传递数据？",
+						"answerOptions": [
+							{
+								"answerText": "连续电压范围",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "仅高低电平",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "电子邮件",
+								"isCorrect": "false"
+							}
+						]
+					},
+					{
+						"questionText": "当按键被按下时会发送什么数字信号？",
+						"answerOptions": [
+							{
+								"answerText": "0",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "1",
+								"isCorrect": "true"
+							}
+						]
+					},
+					{
+						"questionText": "你可以使用数字器件的脉冲宽度调制（PWM）功能控制模拟执行器",
+						"answerOptions": [
+							{
+								"answerText": "正确",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "错误",
+								"isCorrect": "false"
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": 7,
+				"title": "第4课 - 将你的设备连接到互联网：课前测验",
+				"quiz": [
+					{
+						"questionText": "IoT设备需要一直连着网络才能工作",
+						"answerOptions": [
+							{
+								"answerText": "正确",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "错误",
+								"isCorrect": "true"
+							}
+						]
+					},
+					{
+						"questionText": "IoT设备和网络应用及网络API一样，总是使用HTTP来通信",
+						"answerOptions": [
+							{
+								"answerText": "错误",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "正确",
+								"isCorrect": "false"
+							}
+						]
+					},
+					{
+						"questionText": "IoT设备依赖云来做决策",
+						"answerOptions": [
+							{
+								"answerText": "错误",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "正确",
+								"isCorrect": "false"
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": 8,
+				"title": "第4课 - 将你的设备连接到互联网：课后测验",
+				"quiz": [
+					{
+						"questionText": "从传感器采集数据并传到云端叫做：",
+						"answerOptions": [
+							{
+								"answerText": "遥测（Telemetry）",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "指令（Command）",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "测量（Measurement）",
+								"isCorrect": "false"
+							}
+						]
+					},
+					{
+						"questionText": "因IoT设备离线导致指令不可达时应该怎么办：",
+						"answerOptions": [
+							{
+								"answerText": "总是在设备恢复在线时重传",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "即使设备恢复在线，也不重传",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "取决于指令、设备及IoT应用的需求，不能一概而论",
+								"isCorrect": "true"
+							}
+						]
+					},
+					{
+						"questionText": "消息队列遥测传输（MQTT）有消息队列",
+						"answerOptions": [
+							{
+								"answerText": "正确",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "错误",
+								"isCorrect": "true"
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": 9,
+				"title": "第5课 - 预测植物生长：课前测验",
+				"quiz": [
+					{
+						"questionText": "IoT设备可以用来支援农业",
+						"answerOptions": [
+							{
+								"answerText": "正确",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "错误",
+								"isCorrect": "false"
+							}
+						]
+					},
+					{
+						"questionText": "植物需要的东西包括：（请选择最佳选项）",
+						"answerOptions": [
+							{
+								"answerText": "二氧化碳、水、养分",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "二氧化碳、水、养分、光",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "二氧化碳、水、养分、光、适宜的温度",
+								"isCorrect": "true"
+							}
+						]
+					},
+					{
+						"questionText": "传感器对于发达国家的农民来说过于昂贵",
+						"answerOptions": [
+							{
+								"answerText": "错误",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "正确",
+								"isCorrect": "false"
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": 10,
+				"title": "第5课 - 预测植物生长：课后测验",
+				"quiz": [
+					{
+						"questionText": "植物的生长取决于温度",
+						"answerOptions": [
+							{
+								"answerText": "正确",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "错误",
+								"isCorrect": "false"
+							}
+						]
+					},
+					{
+						"questionText": "植物生长需要考虑的温度包括：",
+						"answerOptions": [
+							{
+								"answerText": "最低温、最高温",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "植物发育起点温度、最适温度、最高温",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "仅最高温",
+								"isCorrect": "false"
+							}
+						]
+					},
+					{
+						"questionText": "以下哪个公式可以计算有效积温：",
+						"answerOptions": [
+							{
+								"answerText": "(日内最高温 + 日内最低温) - 植物发育起点温度",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "((日内最高温 + 日内最低温) / 2) - 植物发育起点温度",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "((日内最低温 + 植物发育起点温度) / 2)",
+								"isCorrect": "false"
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": 11,
+				"title": "第6课 - 检测土壤水分：课前测验",
+				"quiz": [
+					{
+						"questionText": "IoT设备可被用来检测如土壤水分之类的环境属性",
+						"answerOptions": [
+							{
+								"answerText": "正确",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "错误",
+								"isCorrect": "false"
+							}
+						]
+					},
+					{
+						"questionText": "以下哪一项可能导致植物生长问题（选一项）?",
+						"answerOptions": [
+							{
+								"answerText": "浇水太少",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "浇水太多",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "浇水太少或太多",
+								"isCorrect": "true"
+							}
+						]
+					},
+					{
+						"questionText": "所有的传感器都根据标准单位预先标定好了",
+						"answerOptions": [
+							{
+								"answerText": "正确",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "错误",
+								"isCorrect": "true"
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": 12,
+				"title": "第6课 - 检测土壤水分：课后测验",
+				"quiz": [
+					{
+						"questionText": "在测量土壤水分的时候，电阻式和电容式湿度传感器的一个不同点是：",
+						"answerOptions": [
+							{
+								"answerText": "当湿度升高的时候，电阻式传感器的电压升高，电容式传感器的电压降低",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "当湿度升高的时候，电阻式传感器的电压降低，电容式传感器的电压升高",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "当湿度升高的时候，电阻式和电容式传感器的电压都升高",
+								"isCorrect": "false"
+							}
+						]
+					},
+					{
+						"questionText": "SPI协议支持：",
+						"answerOptions": [
+							{
+								"answerText": "仅一个控制器和一个外设",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "仅一个控制器但可以有多个外设",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "多个控制器和多个外设",
+								"isCorrect": "false"
+							}
+						]
+					},
+					{
+						"questionText": "I2C协议支持：",
+						"answerOptions": [
+							{
+								"answerText": "仅一个控制器和一个外设",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "仅一个控制器但可以有多个外设",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "多个控制器和多个外设",
+								"isCorrect": "true"
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": 13,
+				"title": "第7课 - 自动植物浇水：课前测验",
+				"quiz": [
+					{
+						"questionText": "IoT设备的功率足以直接控制水泵",
+						"answerOptions": [
+							{
+								"answerText": "正确",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "错误",
+								"isCorrect": "true"
+							}
+						]
+					},
+					{
+						"questionText": "执行器可以控制其它设备的电源",
+						"answerOptions": [
+							{
+								"answerText": "正确",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "错误",
+								"isCorrect": "false"
+							}
+						]
+					},
+					{
+						"questionText": "传感器可以立即检测到执行器的变化",
+						"answerOptions": [
+							{
+								"answerText": "正确",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "错误",
+								"isCorrect": "true"
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": 14,
+				"title": "第7课 - 自动植物浇水：课后测验",
+				"quiz": [
+					{
+						"questionText": "继电器是什么类型的开关：",
+						"answerOptions": [
+							{
+								"answerText": "电子开关（Electrical）",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "机电开关（Electromechanical）",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "机械开关（Mechanical）",
+								"isCorrect": "false"
+							}
+						]
+					},
+					{
+						"questionText": "继电器允许：",
+						"answerOptions": [
+							{
+								"answerText": "低功率的设备控制高功率的设备",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "高功率的设备控制低功率的设备",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "运动员跑一场接力赛",
+								"isCorrect": "false"
+							}
+						]
+					},
+					{
+						"questionText": "执行器总是对传感器的读取立即做出反应",
+						"answerOptions": [
+							{
+								"answerText": "正确",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "错误",
+								"isCorrect": "true"
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": 15,
+				"title": "第8课 - 将你的植物迁移到云端：课前测验",
+				"quiz": [
+					{
+						"questionText": "开放的MQTT消息代理适合用于商业IoT项目",
+						"answerOptions": [
+							{
+								"answerText": "正确",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "错误",
+								"isCorrect": "true"
+							}
+						]
+					},
+					{
+						"questionText": "云计算允许你：",
+						"answerOptions": [
+							{
+								"answerText": "只能租赁计算机",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "只能租赁计算机和应用平台",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "租赁计算机、应用平台、软件、无服务器计算平台以及其它服务",
+								"isCorrect": "true"
+							}
+						]
+					},
+					{
+						"questionText": "有多家云平台供应商拥有遍布六大洲许多国家的数据中心",
+						"answerOptions": [
+							{
+								"answerText": "正确",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "错误",
+								"isCorrect": "false"
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": 16,
+				"title": "第8课 - 将你的植物迁移到云端：课后测验",
+				"quiz": [
+					{
+						"questionText": "为了控制执行器以及从IoT设备获取反馈，程序代码可以使用：",
+						"answerOptions": [
+							{
+								"answerText": "从设备到云平台的消息",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "设备孪生（device twins）",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "直接方法请求",
+								"isCorrect": "true"
+							}
+						]
+					},
+					{
+						"questionText": "任何设备都可以以不安全的方式连接IoT中心",
+						"answerOptions": [
+							{
+								"answerText": "错误",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "正确",
+								"isCorrect": "false"
+							}
+						]
+					},
+					{
+						"questionText": "IoT中心的名字必须是唯一的",
+						"answerOptions": [
+							{
+								"answerText": "正确",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "错误",
+								"isCorrect": "false"
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": 17,
+				"title": "第9课 - 将你的应用程序逻辑迁移到云端：课前测验",
+				"quiz": [
+					{
+						"questionText": "无服务器计算代码可以用来回应IoT事件",
+						"answerOptions": [
+							{
+								"answerText": "正确",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "错误",
+								"isCorrect": "false"
+							}
+						]
+					},
+					{
+						"questionText": "当IoT事件发送到IoT中心：",
+						"answerOptions": [
+							{
+								"answerText": "只有一个服务可以从IoT中心读取事件",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "任意多的服务可以从IoT中心读取事件",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "服务无法从IoT中心读取事件，它们只能和设备直连",
+								"isCorrect": "false"
+							}
+						]
+					},
+					{
+						"questionText": "只有运行在云端的代码才能从IoT中心读取事件",
+						"answerOptions": [
+							{
+								"answerText": "正确",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "错误",
+								"isCorrect": "true"
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": 18,
+				"title": "第9课 - 将你的应用程序逻辑迁移到云端：课后测验",
+				"quiz": [
+					{
+						"questionText": "Azure Functions可以在本地运行和调试",
+						"answerOptions": [
+							{
+								"answerText": "正确",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "错误",
+								"isCorrect": "false"
+							}
+						]
+					},
+					{
+						"questionText": "无服务器计算代码只能使用JavaScript和COBOL编写",
+						"answerOptions": [
+							{
+								"answerText": "错误",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "正确",
+								"isCorrect": "false"
+							}
+						]
+					},
+					{
+						"questionText": "为了部署Functions应用到云端，需要创建和部署：",
+						"answerOptions": [
+							{
+								"answerText": "仅Functions应用",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "仅Functions应用和存储账户",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "Functions应用、存储账户以及应用程序配置",
+								"isCorrect": "true"
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": 19,
+				"title": "第10课 - 确保你的植物安全：课前测验",
+				"quiz": [
+					{
+						"questionText": "IoT设备总是安全的",
+						"answerOptions": [
+							{
+								"answerText": "正确",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "错误",
+								"isCorrect": "true"
+							}
+						]
+					},
+					{
+						"questionText": "尚无充分证据表明黑客已成功利用IoT设备黑入网络",
+						"answerOptions": [
+							{
+								"answerText": "正确",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "错误",
+								"isCorrect": "true"
+							}
+						]
+					},
+					{
+						"questionText": "可以将IoT设备的connection string分享给任何人",
+						"answerOptions": [
+							{
+								"answerText": "正确",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "错误",
+								"isCorrect": "true"
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": 20,
+				"title": "第10课 - 确保你的植物安全：课后测验",
+				"quiz": [
+					{
+						"questionText": "对称密钥加密相比于非对称密钥加密：",
+						"answerOptions": [
+							{
+								"answerText": "对称密钥加密比非对称密钥加密慢",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "对称密钥加密比非对称密钥加密安全",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "对称密钥加密比非对称密钥加密快，但相对不安全",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "对称密钥加密比非对称密钥加密慢，但相对安全",
+								"isCorrect": "false"
+							}
+						]
+					},
+					{
+						"questionText": "自签名的X.509证书适合生产环境",
+						"answerOptions": [
+							{
+								"answerText": "正确",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "错误",
+								"isCorrect": "true"
+							}
+						]
+					},
+					{
+						"questionText": "X.509证书：",
+						"answerOptions": [
+							{
+								"answerText": "不应该在IoT设备之间共享",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "可以在设备之间共享",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "应当妥善保管，不能被任何设备使用",
+								"isCorrect": "false"
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": 21,
+				"title": "第11课 - 位置追踪：课前测验",
+				"quiz": [
+					{
+						"questionText": "可以使用什么标记你的位置",
+						"answerOptions": [
+							{
+								"answerText": "仅用纬度",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "仅用经度",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "经纬度",
+								"isCorrect": "true"
+							}
+						]
+					},
+					{
+						"questionText": "能够追踪位置信息的传感器叫做：",
+						"answerOptions": [
+							{
+								"answerText": "GPS",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "PGP",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "GIF",
+								"isCorrect": "false"
+							}
+						]
+					},
+					{
+						"questionText": "追踪车辆的位置信息是没有意义的",
+						"answerOptions": [
+							{
+								"answerText": "正确",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "错误",
+								"isCorrect": "true"
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": 22,
+				"title": "第11课 - 位置追踪：课后测验",
+				"quiz": [
+					{
+						"questionText": "传感器如何传输GPS数据：",
+						"answerOptions": [
+							{
+								"answerText": "使用经纬度",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "使用地址",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "NMEA语句",
+								"isCorrect": "true"
+							}
+						]
+					},
+					{
+						"questionText": "至少需要几颗卫星GPS才能很好地定位你",
+						"answerOptions": [
+							{
+								"answerText": "1",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "2",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "3",
+								"isCorrect": "true"
+							}
+						]
+					},
+					{
+						"questionText": "GPS通过什么发生数据：",
+						"answerOptions": [
+							{
+								"answerText": "SPI接口",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "串口（UART）",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "电子邮件",
+								"isCorrect": "false"
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": 23,
+				"title": "第12课 - 存储位置数据：课前测验",
+				"quiz": [
+					{
+						"questionText": "IoT数据保存在IoT中心",
+						"answerOptions": [
+							{
+								"answerText": "正确",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "错误",
+								"isCorrect": "true"
+							}
+						]
+					},
+					{
+						"questionText": "数据可被分为以下哪两类",
+						"answerOptions": [
+							{
+								"answerText": "二进制大对象（Blob）和表数据（table）",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "结构化数据（Structured data）和非结构化数据（Unstructured data）",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "红和蓝",
+								"isCorrect": "false"
+							}
+						]
+					},
+					{
+						"questionText": "可以使用无服务器计算代码将IoT数据写入数据库中",
+						"answerOptions": [
+							{
+								"answerText": "正确",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "错误",
+								"isCorrect": "false"
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": 24,
+				"title": "第12课 - 存储位置数据：课后测验",
+				"quiz": [
+					{
+						"questionText": "需要被立即处理的IoT数据在哪个路径上：",
+						"answerOptions": [
+							{
+								"answerText": "热路径（Hot）",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "温路径（Warm）",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "冷路径（Cold）",
+								"isCorrect": "false"
+							}
+						]
+					},
+					{
+						"questionText": "Azure存储有下列的哪些类型：",
+						"answerOptions": [
+							{
+								"answerText": "盒子、桶、箱子",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "二进制大对象、表、队列和文件",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "热数据、温数据和冷数据",
+								"isCorrect": "false"
+							}
+						]
+					},
+					{
+						"questionText": "Azure Functions可以绑定到数据库以将返回值写入数据库",
+						"answerOptions": [
+							{
+								"answerText": "正确",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "错误",
+								"isCorrect": "false"
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": 25,
+				"title": "第13课 - 可视化位置数据：课前测验",
+				"quiz": [
+					{
+						"questionText": "超级大的数据表是一个快速查找数据的简单方法",
+						"answerOptions": [
+							{
+								"answerText": "正确",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "错误",
+								"isCorrect": "true"
+							}
+						]
+					},
+					{
+						"questionText": "GPS数据可以在地图上可视化",
+						"answerOptions": [
+							{
+								"answerText": "正确",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "错误",
+								"isCorrect": "false"
+							}
+						]
+					},
+					{
+						"questionText": "在一个大的区域的地图上，无论从何处测量，地图上相同的距离总是代表现实世界的相同的距离",
+						"answerOptions": [
+							{
+								"answerText": "正确",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "错误",
+								"isCorrect": "true"
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": 26,
+				"title": "第13课 - 可视化位置数据：课后测验",
+				"quiz": [
+					{
+						"questionText": "在网页上绘制地图的服务叫做",
+						"answerOptions": [
+							{
+								"answerText": "Azure地图（Azure Maps）",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "Azure Atlas",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "Azure World Visualizer",
+								"isCorrect": "false"
+							}
+						]
+					},
+					{
+						"questionText": "Azure地图使用什么绘制数据：",
+						"answerOptions": [
+							{
+								"answerText": "GeoJSON",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "经纬度列表",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "地址列表",
+								"isCorrect": "false"
+							}
+						]
+					},
+					{
+						"questionText": "可以通过URL获取二进制大对象",
+						"answerOptions": [
+							{
+								"answerText": "正确",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "错误",
+								"isCorrect": "false"
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": 27,
+				"title": "第14课 - 地理围栏：课前测验",
+				"quiz": [
+					{
+						"questionText": "可以使用GPS坐标检测物体是否在规定的区域里",
+						"answerOptions": [
+							{
+								"answerText": "正确",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "错误",
+								"isCorrect": "false"
+							}
+						]
+					},
+					{
+						"questionText": "当设备进入一个给定的区域时，GPS已经精确到能够提供一米以内的精度",
+						"answerOptions": [
+							{
+								"answerText": "正确",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "错误",
+								"isCorrect": "true"
+							}
+						]
+					},
+					{
+						"questionText": "在追踪车辆的时候地理围栏可以用作：",
+						"answerOptions": [
+							{
+								"answerText": "仅能用作确定车辆何时进入了给定的区域",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "仅能用作确定车辆何时离开了给定的区域",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "确定车辆何时进入或离开了给定的区域",
+								"isCorrect": "true"
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": 28,
+				"title": "第14课 - 地理围栏：课后测验",
+				"quiz": [
+					{
+						"questionText": "为了让多个服务从IoT中心获取数据，你需要创建多个：",
+						"answerOptions": [
+							{
+								"answerText": "消费者群组（Consumer group）",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "管道（Pipe）",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "IoT中心（Hub）",
+								"isCorrect": "false"
+							}
+						]
+					},
+					{
+						"questionText": "一个地理围栏调用的默认搜索缓存是：",
+						"answerOptions": [
+							{
+								"answerText": "5m",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "50m",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "500m",
+								"isCorrect": "false"
+							}
+						]
+					},
+					{
+						"questionText": "地理围栏中点的距离：",
+						"answerOptions": [
+							{
+								"answerText": "小于0（一个负值）",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "大于0（一个正值）",
+								"isCorrect": "false"
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": 29,
+				"title": "第15课 - 训练水果质量检测器：课前测验",
+				"quiz": [
+					{
+						"questionText": "摄像头可以用作IoT的传感器",
+						"answerOptions": [
+							{
+								"answerText": "正确",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "错误",
+								"isCorrect": "false"
+							}
+						]
+					},
+					{
+						"questionText": "可以用摄像头给水果分类",
+						"answerOptions": [
+							{
+								"answerText": "正确",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "错误",
+								"isCorrect": "false"
+							}
+						]
+					},
+					{
+						"questionText": "基于图像的人工智能（AI）模型十分的复杂，训练也十分费时，并且需要使用数以万计的图片数据",
+						"answerOptions": [
+							{
+								"answerText": "正确",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "错误",
+								"isCorrect": "true"
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": 30,
+				"title": "第15课 - 训练水果质量检测器：课后测验",
+				"quiz": [
+					{
+						"questionText": "定制视觉使用的仅用少量图片训练模型的技术叫做：",
+						"answerOptions": [
+							{
+								"answerText": "转换学习（Transformational learning）",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "交易学习（Transaction learning）",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "迁移学习（Transfer learning）",
+								"isCorrect": "true"
+							}
+						]
+					},
+					{
+						"questionText": "图片分类的训练：",
+						"answerOptions": [
+							{
+								"answerText": "每个标签可以只用1张图片",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "每个标签至少5张图片",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "每个标签至少50张图片",
+								"isCorrect": "false"
+							}
+						]
+					},
+					{
+						"questionText": "能够快速训练机器学习（ML）模型，并能够让Xbox里的图像看上去非常华丽的硬件叫做",
+						"answerOptions": [
+							{
+								"answerText": "PGU",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "GPU",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "PUG",
+								"isCorrect": "false"
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": 31,
+				"title": "第16课 - 从 IoT 设备检查水果质量：课前测验",
+				"quiz": [
+					{
+						"questionText": "IoT设备还没有强大到能够使用摄像头",
+						"answerOptions": [
+							{
+								"answerText": "正确",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "错误",
+								"isCorrect": "true"
+							}
+						]
+					},
+					{
+						"questionText": "摄像头的传感器使用胶片来捕捉图像",
+						"answerOptions": [
+							{
+								"answerText": "正确",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "错误",
+								"isCorrect": "true"
+							}
+						]
+					},
+					{
+						"questionText": "摄像头的传感器传递哪种类型的数据",
+						"answerOptions": [
+							{
+								"answerText": "数字数据",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "模拟数据",
+								"isCorrect": "false"
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": 32,
+				"title": "第16课 - 从 IoT 设备检查水果质量：课后测验",
+				"quiz": [
+					{
+						"questionText": "自定义视觉的一个发布版本叫做：",
+						"answerOptions": [
+							{
+								"answerText": "迭代（Iteration）",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "实例（Instance）",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "蜥蜴",
+								"isCorrect": "false"
+							}
+						]
+					},
+					{
+						"questionText": "在给图片做分类的时候，可以用它们重新训练模型",
+						"answerOptions": [
+							{
+								"answerText": "正确",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "错误",
+								"isCorrect": "false"
+							}
+						]
+					},
+					{
+						"questionText": "不需要使用IoT设备采集的图像数据来训练模型，因为它的摄像头有和手机摄像头相同的质量",
+						"answerOptions": [
+							{
+								"answerText": "正确",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "错误",
+								"isCorrect": "true"
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": 33,
+				"title": "第17课 - 在边缘上运行你的水果质量检测器：课前测验",
+				"quiz": [
+					{
+						"questionText": "边缘计算可以比云计算更加安全。",
+						"answerOptions": [
+							{
+								"answerText": "正确",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "错误",
+								"isCorrect": "false"
+							}
+						]
+					},
+					{
+						"questionText": "在边缘节点运行的机器学习模型没有在云端运行的机器学习模型准确。",
+						"answerOptions": [
+							{
+								"answerText": "正确",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "错误",
+								"isCorrect": "true"
+							}
+						]
+					},
+					{
+						"questionText": "边缘节点需要一直连着互联网。",
+						"answerOptions": [
+							{
+								"answerText": "正确",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "错误",
+								"isCorrect": "true"
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": 34,
+				"title": "第17课 - 在边缘上运行你的水果质量检测器：课后测验",
+				"quiz": [
+					{
+						"questionText": "为了让Custom Vision的机器学习模型高效地运行在边缘节点，我们需要什么格式（或者说什么类型的领域（domain））？",
+						"answerOptions": [
+							{
+								"answerText": "通用类型",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "快速训练类型",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "标准（Standard）类型",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "紧凑（Compact）类型",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "食物领域",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "远端部署",
+								"isCorrect": "false"
+							}
+						]
+					},
+					{
+						"questionText": "容器（container）是什么？?",
+						"answerOptions": [
+							{
+								"answerText": "包含机器学习模型的自包含的应用程序。",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "和其它程序隔离的自包含的应用程序",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "只在边缘节点运行的自包含的应用程序.",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "处理云端和边缘节点通信的自包含的应用程序",
+								"isCorrect": "false"
+							}
+						]
+					},
+					{
+						"questionText": "如何重新训练部署在边缘节点的Custom Vision模型？",
+						"answerOptions": [
+							{
+								"answerText": "在边缘节点拍摄一张图片，并将其保存在边缘节点上，再将机器学习模型指向这个新的图片文件夹。",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "将图片从边缘节点上传到云端，在Custom Vision上重新训练模型，再将模型重新部署到边缘节点。",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "在边缘节点拍摄一张图片并检查模型的预测结果。",
+								"isCorrect": "false"
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": 35,
+				"title": "第18课 - 从传感器触发水果质量检测：课前测验",
+				"quiz": [
+					{
+						"questionText": "IoT应用的哪个部分用来获取数据？",
+						"answerOptions": [
+							{
+								"answerText": "物（Things）",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "云服务（Cloud services）",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "边缘节点（Edge devices）",
+								"isCorrect": "false"
+							}
+						]
+					},
+					{
+						"questionText": "IoT应用唯一的输出是执行器。",
+						"answerOptions": [
+							{
+								"answerText": "正确",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "错误",
+								"isCorrect": "true"
+							}
+						]
+					},
+					{
+						"questionText": "Things不需要直接连接到IoT中心，它们可以使用边缘节点充当网关。",
+						"answerOptions": [
+							{
+								"answerText": "正确",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "错误",
+								"isCorrect": "false"
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": 36,
+				"title": "第18课 - 从传感器触发水果质量检测：课后测验",
+				"quiz": [
+					{
+						"questionText": "构建IoT应用的三个组件是",
+						"answerOptions": [
+							{
+								"answerText": "物（Things），思维（Insights），行动（Actions）",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "物（Things），互联网（Internet），数据库（Databases）",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "人工智能（AI），区块链（Blockchain），叽叽喳喳（FizzBuzzers）",
+								"isCorrect": "false"
+							}
+						]
+					},
+					{
+						"questionText": "连接物（things）和可以创建思维（insights）的组件的组件叫做：",
+						"answerOptions": [
+							{
+								"answerText": "Azure Functions",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "IoT中心",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "Azure地图",
+								"isCorrect": "false"
+							}
+						]
+					},
+					{
+						"questionText": "基于飞时测距的接近传感器的工作原理是什么？",
+						"answerOptions": [
+							{
+								"answerText": "传感器发射激光束并测量从物体反射的时间",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "传感器使用声音并测量从物体表面反射的时间",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "传感器使用很长的尺子",
+								"isCorrect": "false"
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": 37,
+				"title": "第19课 - 训练存货检测器：课前测验",
+				"quiz": [
+					{
+						"questionText": "人工智能不能用于给某个物体计数？",
+						"answerOptions": [
+							{
+								"answerText": "正确",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "错误",
+								"isCorrect": "true"
+							}
+						]
+					},
+					{
+						"questionText": "在零售领域，IoT和人工智能可以被用来：",
+						"answerOptions": [
+							{
+								"answerText": "只能用来检查库存",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "可以应用在很广泛的地方，包括库存检测，在需要的地方检测口罩的佩戴情况，统计客流量以及自动结账",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "IoT和人工智能不能用于零售领域",
+								"isCorrect": "false"
+							}
+						]
+					},
+					{
+						"questionText": "目标检测牵涉到：",
+						"answerOptions": [
+							{
+								"answerText": "检测图片中包含一个物体的概率并追踪其位置",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "只要给图片中的物体计数",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "图片分类",
+								"isCorrect": "false"
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": 38,
+				"title": "第19课 - 训练存货检测器：课后测验",
+				"quiz": [
+					{
+						"questionText": "不管多少对象被检测到，目标检测程序只返回一个结果",
+						"answerOptions": [
+							{
+								"answerText": "正确",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "错误",
+								"isCorrect": "true"
+							}
+						]
+					},
+					{
+						"questionText": "为了盘点库存，Custom Vision中最适合的domain是什么",
+						"answerOptions": [
+							{
+								"answerText": "通用（General）",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "食物（Food）",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "货架上的商品（Products on shelves）",
+								"isCorrect": "true"
+							}
+						]
+					},
+					{
+						"questionText": "训练一个目标检测器至少需要多少张图片？",
+						"answerOptions": [
+							{
+								"answerText": "1",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "15",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "100",
+								"isCorrect": "false"
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": 39,
+				"title": "第20课 - 从 IoT 设备检查存货：课前测验",
+				"quiz": [
+					{
+						"questionText": "IoT设备因不够强大而无法胜任目标检测的任务",
+						"answerOptions": [
+							{
+								"answerText": "正确",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "错误",
+								"isCorrect": "true"
+							}
+						]
+					},
+					{
+						"questionText": "目标检测程序返回：",
+						"answerOptions": [
+							{
+								"answerText": "检测到的物体的数量",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "检测到的物体的数量和位置",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "检测到的物体的数量、位置以及概率",
+								"isCorrect": "true"
+							}
+						]
+					},
+					{
+						"questionText": "目标检测程序可以用来检测哪里缺货了，并允许机器人自动补货",
+						"answerOptions": [
+							{
+								"answerText": "正确",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "错误",
+								"isCorrect": "false"
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": 40,
+				"title": "第20课 - 从 IoT 设备检查存货：课后测验",
+				"quiz": [
+					{
+						"questionText": "为了盘点库存，只需要考虑目标检测程序检测到的物体的数量",
+						"answerOptions": [
+							{
+								"answerText": "正确",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "错误",
+								"isCorrect": "true"
+							}
+						]
+					},
+					{
+						"questionText": "边界框使用：",
+						"answerOptions": [
+							{
+								"answerText": "百分比坐标",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "像素坐标",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "厘米坐标",
+								"isCorrect": "false"
+							}
+						]
+					},
+					{
+						"questionText": "被检测的目标可以重合吗？",
+						"answerOptions": [
+							{
+								"answerText": "可以",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "不可以",
+								"isCorrect": "false"
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": 41,
+				"title": "第21课 - 用 IoT 设备识别语音：课前测验",
+				"quiz": [
+					{
+						"questionText": "可以用 IoT 设备识别语音：",
+						"answerOptions": [
+							{
+								"answerText": "正确",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "错误",
+								"isCorrect": "false"
+							}
+						]
+					},
+					{
+						"questionText": "语音助理需要将所有的音频发送到云端进行处理",
+						"answerOptions": [
+							{
+								"answerText": "正确",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "错误",
+								"isCorrect": "true"
+							}
+						]
+					},
+					{
+						"questionText": "为了识别语音，IoT设备需要一个大的麦克风",
+						"answerOptions": [
+							{
+								"answerText": "正确",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "错误",
+								"isCorrect": "true"
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": 42,
+				"title": "第21课 - 用 IoT 设备识别语音：课后测验",
+				"quiz": [
+					{
+						"questionText": "麦克风是什么类型的传感器？",
+						"answerOptions": [
+							{
+								"answerText": "数字",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "模拟",
+								"isCorrect": "true"
+							}
+						]
+					},
+					{
+						"questionText": "将语音波形转换为数字信号使用了：",
+						"answerOptions": [
+							{
+								"answerText": "脉冲编码调制",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "纯代码乘法",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "脉冲宽度最大化",
+								"isCorrect": "false"
+							}
+						]
+					},
+					{
+						"questionText": "1秒钟采样频率为16KHz，量化位数为16位的音频有多大？",
+						"answerOptions": [
+							{
+								"answerText": "1KB",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "16KB",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "32KB",
+								"isCorrect": "true"
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": 43,
+				"title": "第22课 - 理解语言：课前测验",
+				"quiz": [
+					{
+						"questionText": "语言的理解牵涉到寻找特定的词汇",
+						"answerOptions": [
+							{
+								"answerText": "正确",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "错误",
+								"isCorrect": "true"
+							}
+						]
+					},
+					{
+						"questionText": "语言的理解牵涉到：",
+						"answerOptions": [
+							{
+								"answerText": "关注句子中一个个孤立的词汇并努力得到它们的含义",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "找到预先定义好的句子，并由此得到对应的含义",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "关注整个句子，并努力从词汇的上下文获取含义",
+								"isCorrect": "true"
+							}
+						]
+					},
+					{
+						"questionText": "云服务供应商有能够理解语言的人工智能服务",
+						"answerOptions": [
+							{
+								"answerText": "正确",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "错误",
+								"isCorrect": "false"
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": 44,
+				"title": "第22课 - 理解语言：课后测验",
+				"quiz": [
+					{
+						"questionText": "为了被理解，句子需要被划分为：",
+						"answerOptions": [
+							{
+								"answerText": "想法（Ideas）和解释（explanations）",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "意图（Intents）和实体（entities）",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "石头和沙子",
+								"isCorrect": "false"
+							}
+						]
+					},
+					{
+						"questionText": "微软的语言理解服务叫做：",
+						"answerOptions": [
+							{
+								"answerText": "LUIS",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "Luigi",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "Jarvis",
+								"isCorrect": "false"
+							}
+						]
+					},
+					{
+						"questionText": "在句子“设定一个3分钟的定时器”中：",
+						"answerOptions": [
+							{
+								"answerText": "意图是3分钟，实体是定时器",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "意图是分钟，实体是3个定时器",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "意图是设定一个定时器，实体是3分钟",
+								"isCorrect": "true"
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": 45,
+				"title": "第23课 - 设置计时器和提供口头反馈：课前测验",
+				"quiz": [
+					{
+						"questionText": "人工智能生成的语音单调且机械",
+						"answerOptions": [
+							{
+								"answerText": "正确",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "错误",
+								"isCorrect": "true"
+							}
+						]
+					},
+					{
+						"questionText": "人工智能模型只能生成美式英语的语音",
+						"answerOptions": [
+							{
+								"answerText": "正确",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "错误",
+								"isCorrect": "true"
+							}
+						]
+					},
+					{
+						"questionText": "人工智能模型可以将1234转换为哪种措辞的语音：",
+						"answerOptions": [
+							{
+								"answerText": "一二三四",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "一千两百三十四",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "取决于上下文，可以是“一二三四”或者“一千两百三十四”",
+								"isCorrect": "true"
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": 46,
+				"title": "第23课 - 设置计时器和提供口头反馈：课后测验",
+				"quiz": [
+					{
+						"questionText": "生成语音的三个步骤是：",
+						"answerOptions": [
+							{
+								"answerText": "文本分析、理解分析、语音生成",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "文本分析、语言学分析、波形生成",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "单词分析、音频制作",
+								"isCorrect": "false"
+							}
+						]
+					},
+					{
+						"questionText": "可以训练一个语音生成模型使其听起来像一个特定的人。",
+						"answerOptions": [
+							{
+								"answerText": "正确",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "错误",
+								"isCorrect": "false"
+							}
+						]
+					},
+					{
+						"questionText": "编码语音的标记语言叫做：",
+						"answerOptions": [
+							{
+								"answerText": "SSML",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "MSSL",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "SpeechXML",
+								"isCorrect": "false"
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": 47,
+				"title": "第24课 - 支持多种语言：课前测验",
+				"quiz": [
+					{
+						"questionText": "语言理解只支持英语",
+						"answerOptions": [
+							{
+								"answerText": "正确",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "错误",
+								"isCorrect": "true"
+							}
+						]
+					},
+					{
+						"questionText": "人工智能语音转文本模型理解多种语言",
+						"answerOptions": [
+							{
+								"answerText": "正确",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "错误",
+								"isCorrect": "false"
+							}
+						]
+					},
+					{
+						"questionText": "人工智能翻译牵涉到将一个个单词转换为对应的译文",
+						"answerOptions": [
+							{
+								"answerText": "正确",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "错误",
+								"isCorrect": "true"
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": 48,
+				"title": "第24课 - 支持多种语言：课后测验",
+				"quiz": [
+					{
+						"questionText": "机器翻译已经被研究了接近：",
+						"answerOptions": [
+							{
+								"answerText": "70年",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "17年",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "7年",
+								"isCorrect": "false"
+							}
+						]
+					},
+					{
+						"questionText": "人工智能语言翻译器被叫做：",
+						"answerOptions": [
+							{
+								"answerText": "傻瓜翻译器",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "神经翻译者（Neural translators）",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "什么也不叫 - 人工智能不能用作翻译",
+								"isCorrect": "false"
+							}
+						]
+					},
+					{
+						"questionText": "微软支持翻译哪种外星语言：",
+						"answerOptions": [
+							{
+								"answerText": "温州话",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "外星语",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "克林贡语",
+								"isCorrect": "true"
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+]
