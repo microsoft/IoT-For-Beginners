@@ -6,8 +6,6 @@
 
 উদাহরণস্বরূপ - আমরা কী বর্তমান তারিখ এবং সময় পেতে পারি? আমরা যদি কোন মাইক্রোকন্ট্রোলার ব্যবহার করি, তবে  যেভাবে পূর্বের প্রজেক্টে এনটিপি সিগন্যাল ব্যবহার করেছি সেটাকে ব্যবহার করে জিপিএস ডেটা দ্বারা ঘড়ি সেট করা যাবে? আমরা কি উচ্চতা (সমুদ্রতল থেকে আমাদের উচ্চতা) বা বর্তমান গতি পেতে পারি?
 
-If you are using a virtual IoT device, then you can get some of this data by sending NMEA sentences generated using tools [nmeagen.org](https://www.nmeagen.org).
-
 আমরা যদি ভার্চুয়াল আইওটি ডিভাইস ব্যবহার করে থাকি, তবে NMEA sentences এর ডেটা [nmeagen.org](https://www.nmeagen.org) থেকে পেতে পারি।
 
 ## এসাইনমেন্ট মূল্যায়ন মানদন্ড
