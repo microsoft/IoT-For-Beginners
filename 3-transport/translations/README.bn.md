@@ -14,11 +14,11 @@
 
 ## পাঠসমূহ
 
-1. [লোকেশন ট্র্যাকিং](lessons/1-location-tracking/translations/README.bn.md)
-1. [লোকেশন ডেটা সংরক্ষণ](lessons/2-store-location-data/translations/README.bn.md)
-1. [লোকেশন ডেটা প্রদর্শন](lessons/3-visualize-location-data/translations/README.bn.md)
-1. [জিওফেন্স](lessons/4-geofences/translations/README.bn.md)
+1. [লোকেশন ট্র্যাকিং](../lessons/1-location-tracking/translations/README.bn.md)
+1. [লোকেশন ডেটা সংরক্ষণ](../lessons/2-store-location-data/translations/README.bn.md)
+1. [লোকেশন ডেটা প্রদর্শন](../lessons/3-visualize-location-data/translations/README.bn.md)
+1. [জিওফেন্স](../lessons/4-geofences/translations/README.bn.md)
 
 ## ক্রেডিট
 
-♥️ ভালোবাসার সাথে প্রতিটি অধ্যায় লিখেছেন  [Jen Looper](https://github.com/jlooper)চ এবং [Jim Bennett](https://GitHub.com/JimBobBennett)
+♥️ ভালোবাসার সাথে প্রতিটি অধ্যায় লিখেছেন  [Jen Looper](https://github.com/jlooper) এবং [Jim Bennett](https://GitHub.com/JimBobBennett) ।
