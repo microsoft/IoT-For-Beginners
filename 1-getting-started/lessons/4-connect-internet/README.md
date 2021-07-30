@@ -124,7 +124,7 @@ The cloud service can then use this telemetry data to make decisions around what
 
 The next part in adding Internet control to your nightlight is sending the light level telemetry to the MQTT broker on a telemetry topic.
 
-#### Task
+#### Task - send telemetry from your IoT device
 
 Send light level telemetry to the MQTT broker.
 
@@ -145,9 +145,9 @@ There's no point in sending telemetry if there's nothing on the other end to lis
 
 #### Install Python and VS Code
 
-If you don't have Python and VS Code installed locally, you will need to install them both to code the server. If you are using a virtual device, or are working on your Raspberry Pi you can skip this step.
+If you don't have Python and VS Code installed locally, you will need to install them both to code the server. If you are using a virtual IoT device, or are working on your Raspberry Pi you can skip this step as you should already have this installed and configured.
 
-##### Task
+##### Task - install Python and VS Code
 
 Install Python and VS Code.
 
@@ -165,7 +165,7 @@ One of the powerful features of Python is the ability to install [pip packages](
 
 By default when you install a package it is available everywhere on your computer, and this can lead to problems with package versions - such as one application depending on one version of a package that breaks when you install a new version for a different application. To work around this problem, you can use a [Python virtual environment](https://docs.python.org/3/library/venv.html), essentially a copy of Python in a dedicated folder, and when you install pip packages they get installed just to that folder.
 
-##### Task
+##### Task - configure a Python virtual environment
 
 Configure a Python virtual environment and install the MQTT pip packages.
 
@@ -234,7 +234,7 @@ Configure a Python virtual environment and install the MQTT pip packages.
 
 The server code can now be written in Python.
 
-##### Task
+##### Task - write the server code
 
 Write the server code.
 
