@@ -30,13 +30,15 @@ This app will be in a folder called `nightlight`, and it will be re-used with di
 
 ### Configure a Python virtual environment
 
-One of the powerful features of Python is the ability to install [pip packages](https://pypi.org) - these are packages of code written by other people and published to the Internet. You can install a pip package onto your computer with one command, then use that package in your code. You'll be using pip to install a package to talk to CounterFit.
+One of the powerful features of Python is the ability to install [Pip packages](https://pypi.org) - these are packages of code written by other people and published to the Internet. You can install a Pip package onto your computer with one command, then use that package in your code. You'll be using Pip to install a package to talk to CounterFit.
 
-By default when you install a package it is available everywhere on your computer, and this can lead to problems with package versions - such as one application depending on one version of a package that breaks when you install a new version for a different application. To work around this problem, you can use a [Python virtual environment](https://docs.python.org/3/library/venv.html), essentially a copy of Python in a dedicated folder, and when you install pip packages they get installed just to that folder.
+By default when you install a package it is available everywhere on your computer, and this can lead to problems with package versions - such as one application depending on one version of a package that breaks when you install a new version for a different application. To work around this problem, you can use a [Python virtual environment](https://docs.python.org/3/library/venv.html), essentially a copy of Python in a dedicated folder, and when you install Pip packages they get installed just to that folder.
+
+> 💁 If you are using a Raspberry Pi then you didn't set up a virtual environment on that device to manage Pip packages, instead you are using global packages, as the Grove packages are installed globally by the installer script.
 
 #### Task - configure a Python virtual environment
 
-Configure a Python virtual environment and install the pip packages for CounterFit.
+Configure a Python virtual environment and install the Pip packages for CounterFit.
 
 1. From your terminal or command line, run the following at a location of your choice to create and navigate to a new directory:
 
@@ -91,7 +93,7 @@ Configure a Python virtual environment and install the pip packages for CounterF
 
     > 💁 Your Python version may be different - as long as it's version 3.6 or higher you are good. If not, delete this folder, install a newer version of Python and try again.
 
-1. Run the following commands to install the pip packages for CounterFit. These packages include the main CounterFit app as well as shims for Grove hardware. These shims allow you to write code as if you were programming using physical sensors and actuators from the Grove ecosystem but connected to virtual IoT devices.
+1. Run the following commands to install the Pip packages for CounterFit. These packages include the main CounterFit app as well as shims for Grove hardware. These shims allow you to write code as if you were programming using physical sensors and actuators from the Grove ecosystem but connected to virtual IoT devices.
 
     ```sh
     pip install CounterFit
