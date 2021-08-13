@@ -73,7 +73,7 @@ We have two choices of IoT hardware to use for the projects depending on persona
 
 > **Quiz'ler hakkında bir not**: Tüm quizler [bu uygulamada](https://brave-island-0b7c7f50f.azurestaticapps.net), toplam 48 quiz için her birine 3 soru. Quizlerin ilgili derslerde linkleri vardır. Ayrıca quiz uygulaması kendi cihanızdan da çalışabilir. Bunun için `quiz-app` kalsöründeki talimatlara uyun. 
 
-## Lessons
+## Dersler
 
 |     | Proje Adı | Öğretilen Kavramlar | Hedeflenen Konular | Bağlantılı Ders |
 | :-: | :----------: | :-------------: | ------------------- | :-----------: |
