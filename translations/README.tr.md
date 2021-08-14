@@ -52,11 +52,11 @@ Ayrıca; dersten önce ufak bir quiz öğrencinin konu hakkında bir fikri olmas
 
 Her proje öğrencilerde ve hobicilerde bulunan gerçek donanımlara dayanır. Her proje; özel proje alanlarına, ve ilgili temel bilgilere bakar. Başarılı bir geliştirici olmak için, sorunları çözdüğünüz alanı anlamaya yardımcı olur; bu temel bilgiyi sağlamak, öğrencilerin, çözmeleri istenebilecek sorunu kendi IoT çözümleri ve öğrendikleri hakkında düşünmelerini sağlar. Öğrenciler çözüm için neyi niçin ürettiklerini öğrenir ve kullanıcı onları takdir eder.
 
-## Hardware
+## Donanım
+Kişisel tercih, programlama dili bilgisi ve tercihi, öğrenme amaçları ve erişilebilirlik için iki IoT donanımı seçeneğimiz var. Ayrıca donanıma erişimi olmayanlara ve o donanımları henüz öğrenmeden satın alamayacaklara 'sanal donanım' şeklini sunduk. Daha fazlasını ve alışveriş listesini [donanım sayfasından](../hardware.md) okuyabilirsiniz. Orada Seed Studio'dan arkadaşlarımızdan satın alabileceğiniz linkler mevcut.
 
-We have two choices of IoT hardware to use for the projects depending on personal preference, programming language knowledge or preferences, learning goals and availability. We have also provided a 'virtual hardware' version for those who don't have access to hardware, or want to learn more before committing to a purchase. You can read more and find a 'shopping list' on the [hardware page](../hardware.md), including links to buy complete kits from our friends at Seeed Studio.
 
-> 💁 Find our [Code of Conduct](../CODE_OF_CONDUCT.md), [Contributing](../CONTRIBUTING.md), and [Translation](../TRANSLATIONS.md) guidelines. We welcome your constructive feedback!
+> 💁 [Davranış kurallarımız](../CODE_OF_CONDUCT.md) , [Katkılandırma](../CONTRIBUTING.md), ve [Çeviri](../TRANSLATIONS.md) rehberlerimiz. Yapıcı geri bildiriminizi memnuniyetle karşılıyoruz
 
 ## Her ders şunları içerir:
 
