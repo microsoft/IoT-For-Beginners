@@ -12,7 +12,7 @@ Subscribe to commands.
 
 1. Open the nightlight project in VS Code.
 
-1. If you are using a virtual IoT device, ensure the terminal is running the virtual environment
+1. If you are using a virtual IoT device, ensure the terminal is running the virtual environment. If you are using a Raspberry Pi you won't be using a virtual environment.
 
 1. Add the following code after the definitions of the `client_telemetry_topic`:
 
