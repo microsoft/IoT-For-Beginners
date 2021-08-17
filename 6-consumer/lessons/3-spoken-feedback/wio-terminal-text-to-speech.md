@@ -470,7 +470,7 @@ The reason for running the functions app locally is because the `librosa` Pip pa
 
 The way to do this is instead to deploy your functions app using a Docker container. This container is deployed by the cloud whenever it needs to spin up a new instance of your function app (such as when the demand exceeds the available resources, or if the function app hasn't been used for a while and is closed down).
 
-You can find the instructions to set up a function app and deploy via Docker in the [create a function on Linux using a custom container documentation on Microsoft Docs](https://docs.microsoft.com/azure/azure-functions/functions-create-function-linux-custom-image?tabs=bash%2Cazurecli&pivots=programming-language-python&WT.mc_id=academic-17441-jabenn).
+You can find the instructions to set up a function app and deploy via Docker in the [create a function on Linux using a custom container documentation on Microsoft Docs](https://docs.microsoft.com/azure/azure-functions/functions-create-function-linux-custom-image?WT.mc_id=academic-17441-jabenn&tabs=bash%2Cazurecli&pivots=programming-language-python).
 
 Once this has been deployed, you can port your Wio Terminal code to access this function:
 

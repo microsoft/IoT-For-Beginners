@@ -74,7 +74,7 @@ The Azure Functions tooling is available as a CLI, known as the Azure Functions 
 
 1. Install the Azure Functions core tools by following the instructions on the [Azure Functions Core Tools documentation](https://docs.microsoft.com/azure/azure-functions/functions-run-local?WT.mc_id=academic-17441-jabenn)
 
-1. Install the Azure Functions extension for VS Code. This extension provides support for creating, debugging and deploying Azure functions.  Refer to the [Azure Functions extension documentation](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-azurefunctions&WT.mc_id=academic-17441-jabenn) for instructions on installing this extension in VS Code.
+1. Install the Azure Functions extension for VS Code. This extension provides support for creating, debugging and deploying Azure functions.  Refer to the [Azure Functions extension documentation](https://marketplace.visualstudio.com/items?WT.mc_id=academic-17441-jabenn&itemName=ms-azuretools.vscode-azurefunctions) for instructions on installing this extension in VS Code.
 
 When you deploy your Azure Functions app to the cloud, it needs to use a small amount of cloud storage to store things like the application files and log files. When you run your Functions app locally, you still need to connect to cloud storage, but instead of using actual cloud storage, you can use a storage emulator called [Azurite](https://github.com/Azure/Azurite). This runs locally but acts like cloud storage.
 
@@ -310,7 +310,7 @@ This will create a folder inside the `soil-moisture-trigger` folder called `iot-
 
     > 💁 You can also have output bindings so that the output of a function is sent to another service. For example you could add an output binding to a database and return the IoT Hub event from the function, and it will automatically be inserted into the database.
 
-    ✅ Do some research: Read up on bindings in the [Azure Functions triggers and bindings concepts documentation](https://docs.microsoft.com/azure/azure-functions/functions-triggers-bindings?tabs=python&WT.mc_id=academic-17441-jabenn).
+    ✅ Do some research: Read up on bindings in the [Azure Functions triggers and bindings concepts documentation](https://docs.microsoft.com/azure/azure-functions/functions-triggers-bindings?WT.mc_id=academic-17441-jabenn&tabs=python).
 
     The `bindings` section includes configuration for the binding. The values of interest are:
 

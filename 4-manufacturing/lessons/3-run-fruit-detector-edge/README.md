@@ -463,7 +463,7 @@ Your container can now be deployed to your IoT Edge device. To deploy you need t
 1. Connect to the IoT edge device:
 
     * If you are using a Raspberry Pi to run IoT Edge, connect using ssh either from your terminal, or via a remote SSH session in VS Code
-    * If you are running IoT Edge in a Linux container on Windows, follow the steps in the [verify successful configuration guide](https://docs.microsoft.com/azure/iot-edge/how-to-install-iot-edge-on-windows?view=iotedge-2018-06&tabs=powershell&WT.mc_id=academic-17441-jabenn#verify-successful-configuration) to connect to the IoT Edge device.
+    * If you are running IoT Edge in a Linux container on Windows, follow the steps in the [verify successful configuration guide](https://docs.microsoft.com/azure/iot-edge/how-to-install-iot-edge-on-windows?WT.mc_id=academic-17441-jabenn&view=iotedge-2018-06&tabs=powershell#verify-successful-configuration) to connect to the IoT Edge device.
     * If you are running IoT Edge on a virtual machine, you can SSH into the machine using the `adminUsername` and `password` you set when creating the VM, and using either the IP address or DNS name:
 
         ```sh

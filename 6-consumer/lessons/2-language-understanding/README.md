@@ -520,7 +520,7 @@ Rather than calling LUIS from the IoT device, you can use serverless code with a
 
       This key will need to be added as a query parameter to the URL, so the final URL will be `https://<APP_NAME>.azurewebsites.net/api/text-to-timer?code=<FUNCTION_KEY>`, where `<APP_NAME>` will be the name of your functions app, and  `<FUNCTION_KEY>` will be your default function key.
 
-      > 💁 You can change the type of authorization of the HTTP trigger using `authlevel` setting in the `function.json` file. You can read more about this in the [configuration section of the Azure Functions HTTP trigger documentation on Microsoft docs](https://docs.microsoft.com/azure/azure-functions/functions-bindings-http-webhook-trigger?tabs=python&WT.mc_id=academic-17441-jabenn#configuration).
+      > 💁 You can change the type of authorization of the HTTP trigger using `authlevel` setting in the `function.json` file. You can read more about this in the [configuration section of the Azure Functions HTTP trigger documentation on Microsoft docs](https://docs.microsoft.com/azure/azure-functions/functions-bindings-http-webhook-trigger?WT.mc_id=academic-17441-jabenn&tabs=python#configuration).
 
     * Run the functions app locally, and access using the IP address - you can get the IP address of your computer on your local network, and use that to build the URL.
 
@@ -552,7 +552,7 @@ There are many ways to request the same thing, such as setting a timer. Think of
 
 * Read more about LUIS and it's capabilities on the [Language Understanding (LUIS) documentation page on Microsoft docs](https://docs.microsoft.com/azure/cognitive-services/luis/?WT.mc_id=academic-17441-jabenn)
 * Read more about language understanding on the [natural-language understanding page on Wikipedia](https://wikipedia.org/wiki/Natural-language_understanding)
-* Read more on HTTP triggers in the [Azure Functions HTTP trigger documentation on Microsoft docs](https://docs.microsoft.com/azure/azure-functions/functions-bindings-http-webhook-trigger?tabs=python&WT.mc_id=academic-17441-jabenn)
+* Read more on HTTP triggers in the [Azure Functions HTTP trigger documentation on Microsoft docs](https://docs.microsoft.com/azure/azure-functions/functions-bindings-http-webhook-trigger?WT.mc_id=academic-17441-jabenn&tabs=python)
 
 ## Assignment
 

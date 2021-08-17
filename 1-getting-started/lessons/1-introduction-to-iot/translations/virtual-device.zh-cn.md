@@ -16,7 +16,7 @@
 
     > 💁 如果你对其它平台比较熟悉，你当然可以用你较喜欢的 Python IDE 或 代码编辑器，但注意这个课程将根据VS Code提供说明。
 
-1. 安装 VS Code 的 Pylance 扩展。 这个 VS Code 扩展提供 Python 语言支持。在 [Pylance 扩展文档](https://marketplace.visualstudio.com/items?itemName=ms-python.vscode-pylance&WT.mc_id=academic-17441-jabenn) 找安装扩展的指示。
+1. 安装 VS Code 的 Pylance 扩展。 这个 VS Code 扩展提供 Python 语言支持。在 [Pylance 扩展文档](https://marketplace.visualstudio.com/items?WT.mc_id=academic-17441-jabenn&itemName=ms-python.vscode-pylance) 找安装扩展的指示。
 
 我们将在日后的作业中提供安装及设置 CounterFit 的说明，因为我们需要在每个项目中安装它。
 
