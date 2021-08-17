@@ -67,7 +67,7 @@ Para programar o Pi usando os sensores e atuadores Grove, você precisará insta
 
     > 💁 Você está livre para usar qualquer IDE de Python ou editor para essas lições se tiver uma ferramenta preferida, mas as lições darão instruções baseadas no uso do VS Code.
 
-1. Instale o Pylance. Esta é uma extensão para VS Code que fornece suporte à linguagem Python. Consulte a [documentação da extensão Pylance](https://marketplace.visualstudio.com/items?itemName=ms-python.vscode-pylance&WT.mc_id=academic-17441-jabenn) para obter instruções sobre como instalar esta extensão no VS Code.
+1. Instale o Pylance. Esta é uma extensão para VS Code que fornece suporte à linguagem Python. Consulte a [documentação da extensão Pylance](https://marketplace.visualstudio.com/items?WT.mc_id=academic-17441-jabenn&itemName=ms-python.vscode-pylance) para obter instruções sobre como instalar esta extensão no VS Code.
 
 ### Acesso remoto para codificar o Pi
 
@@ -187,7 +187,7 @@ Instale o software necessário e conecte-se remotamente ao seu Pi.
 
 1. Seguindo as mesmas instruções, conecte o VS Code ao Pi
 
-1. Depois de conectado, siga as instruções em [gerenciando extensões](https://code.visualstudio.com/docs/remote/ssh#_managing-extensions?WT.mc_id=academic-17441-jabenn) para instalar a [extensão Pylance](https://marketplace.visualstudio.com/items?itemName=ms-python.vscode-pylance&WT.mc_id=academic-17441-jabenn) remotamente no Pi
+1. Depois de conectado, siga as instruções em [gerenciando extensões](https://code.visualstudio.com/docs/remote/ssh#_managing-extensions?WT.mc_id=academic-17441-jabenn) para instalar a [extensão Pylance](https://marketplace.visualstudio.com/items?WT.mc_id=academic-17441-jabenn&itemName=ms-python.vscode-pylance) remotamente no Pi
 
 ## Hello World
 

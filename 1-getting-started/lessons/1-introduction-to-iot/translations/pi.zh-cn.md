@@ -67,7 +67,7 @@
 
     > 💁 如果你有更喜欢的工具，你也可以自由使用任意的Python IDE或者编辑器来学习课程，但是课程中会基于VS Code来给出指示。
 
-1. 安装Pylance，这是给VS Code提供Python语言支持的扩展插件，可以参考这个[Pylance扩展文档](https://marketplace.visualstudio.com/items?itemName=ms-python.vscode-pylance&WT.mc_id=academic-17441-jabenn)中的指示在VS Code中安装这个插件。
+1. 安装Pylance，这是给VS Code提供Python语言支持的扩展插件，可以参考这个[Pylance扩展文档](https://marketplace.visualstudio.com/items?WT.mc_id=academic-17441-jabenn&itemName=ms-python.vscode-pylance)中的指示在VS Code中安装这个插件。
 
 ### 远程连接来编码树莓派
 
@@ -186,7 +186,7 @@
 
 3. 根据相同的指示，连接VS Code到树莓派
 
-4. 连接上之后，根据[管理扩展程序](https://code.visualstudio.com/docs/remote/ssh#_managing-extensions?WT.mc_id=academic-17441-jabenn)的指示来远程安装[Pylance扩展程序](https://marketplace.visualstudio.com/items?itemName=ms-python.vscode-pylance&WT.mc_id=academic-17441-jabenn)到树莓派上
+4. 连接上之后，根据[管理扩展程序](https://code.visualstudio.com/docs/remote/ssh#_managing-extensions?WT.mc_id=academic-17441-jabenn)的指示来远程安装[Pylance扩展程序](https://marketplace.visualstudio.com/items?WT.mc_id=academic-17441-jabenn&itemName=ms-python.vscode-pylance)到树莓派上
 
 ## Hello world
 

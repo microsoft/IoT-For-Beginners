@@ -8,9 +8,9 @@ When working with Azure or other Microsoft technologies, the best source of info
 
 Some pages to look at to get started are:
 
-* [Azure Functions triggers and bindings concepts](https://docs.microsoft.com/azure/azure-functions/functions-triggers-bindings?tabs=python&WT.mc_id=academic-17441-jabenn)
+* [Azure Functions triggers and bindings concepts](https://docs.microsoft.com/azure/azure-functions/functions-triggers-bindings?WT.mc_id=academic-17441-jabenn&tabs=python)
 * [Azure Blob storage bindings for Azure Functions overview](https://docs.microsoft.com/azure/azure-functions/functions-bindings-storage-blob?WT.mc_id=academic-17441-jabenn)
-* [Azure Blob storage output binding for Azure Functions](https://docs.microsoft.com/azure/azure-functions/functions-bindings-storage-blob-output?tabs=python&WT.mc_id=academic-17441-jabenn)
+* [Azure Blob storage output binding for Azure Functions](https://docs.microsoft.com/azure/azure-functions/functions-bindings-storage-blob-output?WT.mc_id=academic-17441-jabenn&tabs=python)
 
 ## Rubric
 
