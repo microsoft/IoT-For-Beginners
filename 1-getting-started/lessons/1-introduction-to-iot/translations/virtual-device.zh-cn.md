@@ -193,7 +193,7 @@ Python 的强大功能之一是能够安装 [pip 软件包](https://pypi.org)；
     CounterFitConnection.init('127.0.0.1', 5000)
     ```
 
-这个代码从 `counterfit_connection` 模块进口`CounterFitConnection` 类；这个模块来自你刚才安装的 `counterfit-connection` pip 软件包。然后，它初始化跟 CounterFit 应用的连接。应用在 `127.0.0.1` 运行着；它是一个 IP 地址，而你一直可以用它在端口 5000 访问你的本地电脑（通常被叫为 *localhost*）。
+这个代码从 `counterfit_connection` 模块进口 `CounterFitConnection` 类；这个模块来自你刚才安装的 `counterfit-connection` pip 软件包。然后，它初始化跟 CounterFit 应用的连接。应用在 `127.0.0.1` 运行着；它是一个 IP 地址，而你一直可以用它在端口 5000 访问你的本地电脑（通常被叫为 *localhost*）。
 
    > 💁 如果你有其它应用正在端口 5000 运行着，你可以在代码更新端口，再用 `CounterFit --port <port_number>` 运行 CounterFit，在`<port_number>` 填着你想用的端口。
 
