@@ -82,7 +82,7 @@ Microsoft 的 Azure Cloud 大使很高兴提供关于 IoT 基础的一个 12 个
 | 08 | [农场](../2-farm) | 将你的植物迁移到云端 | 了解云端和云端 IoT 服务与学会怎么把你的植物连接到它，而不是一个公共 MQTT 中转站 | [将你的植物迁移到云端](../2-farm/lessons/4-migrate-your-plant-to-the-cloud/README.md) |
 | 09 | [农场](../2-farm) | 将你的应用程序逻辑迁移到云端 | 学会怎么在云端写能够响应 IoT 消息的应用程序逻辑 | [将你的应用程序逻辑迁移到云端](../2-farm/lessons/5-migrate-application-to-the-cloud/README.md) |
 | 10 | [农场](../2-farm) | 确保你的植物安全 | 了解 IoT 安全以及学会怎么用密钥和证书来确保你的植物安全 | [确保你的植物安全](../2-farm/lessons/6-keep-your-plant-secure/README.md) |
-| 11 | [交通](../3-transport) | 位置追踪 | 了解  IoT 设备的 GPS位置追踪 | [位置追踪](../3-transport/lessons/1-location-tracking/README.md) |
+| 11 | [交通](../3-transport) | 位置追踪 | 了解  IoT 设备的 GPS 位置追踪 | [位置追踪](../3-transport/lessons/1-location-tracking/README.md) |
 | 12 | [交通](../3-transport) | 存储位置数据 | 学会怎么存储 IoT 数据，让你未来能可视化或分析它 | [存储位置数据](../3-transport/lessons/2-store-location-data/README.md) |
 | 13 | [交通](../3-transport) | 可视化位置数据 | 学会在地图上可视化位置数据以及地图怎么用 2D 来代表 3D 的世界 | [可视化位置数据](../3-transport/lessons/3-visualize-location-data/README.md) |
 | 14 | [交通](../3-transport) | 地理围栏 | 学会地理围栏是什么以及怎么用它们来通知当供应链的车辆快到目的地时 | [地理围栏](../3-transport/lessons/4-geofences/README.md) |
