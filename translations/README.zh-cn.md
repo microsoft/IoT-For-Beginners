@@ -100,7 +100,7 @@ Microsoft 的 Azure Cloud 大使很高兴提供关于 IoT 基础的一个 12 个
 
 ## 离线访问
 
-你可以用 [Docsify](https://docsify.js.org/#/) 离线运行这个文档。Fork 这个存储库，在本地电脑[安装 Docsify](https://docsify.js.org/#/quickstart)，然后在这个存储库的根文件夹中输入 `docsify serve`。网站将在你的本地主机（localhost）上的端口 3000 提供服务：`localhost:3000`。
+你可以用 [Docsify](https://docsify.js.org/#/) 离线运行这个文档。分叉这个存储库，在本地电脑[安装 Docsify](https://docsify.js.org/#/quickstart)，然后在这个存储库的根文件夹中输入 `docsify serve`。网站将在你的本地主机（localhost）上的端口 3000 提供服务：`localhost:3000`。
 
 ### PDF
 
