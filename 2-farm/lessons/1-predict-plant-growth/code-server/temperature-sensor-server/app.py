@@ -5,7 +5,7 @@ import paho.mqtt.client as mqtt
 
 from os import path
 import csv
-import datetime
+from datetime import datetime
 
 id = '<ID>'
 
