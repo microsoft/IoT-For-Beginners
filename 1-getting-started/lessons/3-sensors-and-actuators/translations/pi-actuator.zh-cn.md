@@ -110,6 +110,6 @@ Grove LED 作为一个模块出现，以及一系列可供你选择颜色的 LED
 
 ![连接到树莓派的LED随着光照等级改变点亮和关闭](../../../../images/pi-running-assignment-1-1.gif)
 
-> 💁 你可以在[code-actuator/pi](../code-actuator/pi)文件夹里找到这份代码。
+> 💁 你可以在 [code-actuator/pi](../code-actuator/pi) 文件夹里找到这份代码。
 
 😀 你的夜灯程序就成功了！
