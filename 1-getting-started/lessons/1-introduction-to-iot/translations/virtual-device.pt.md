@@ -16,7 +16,7 @@ Instale o software necessário.
 
     > 💁 Você está livre para usar qualquer IDE ou editor de código Python para essas lições se tiver uma ferramenta preferida, mas as lições darão instruções baseadas no uso do VS Code.
 
-1. Instale a extensão Pylance do VS Code. Esta é uma extensão para VS Code que fornece suporte à linguagem Python. Consulte a [documentação da extensão Pylance](https://marketplace.visualstudio.com/items?itemName=ms-python.vscode-pylance&WT.mc_id=academic-17441-jabenn) para obter instruções sobre como instalar esta extensão no VS Code.
+1. Instale a extensão Pylance do VS Code. Esta é uma extensão para VS Code que fornece suporte à linguagem Python. Consulte a [documentação da extensão Pylance](https://marketplace.visualstudio.com/items?WT.mc_id=academic-17441-jabenn&itemName=ms-python.vscode-pylance) para obter instruções sobre como instalar esta extensão no VS Code.
 
 As instruções para instalar e configurar o aplicativo CounterFit serão fornecidas no momento relevante nas instruções de atribuição, uma vez que é instalado por projeto.
 

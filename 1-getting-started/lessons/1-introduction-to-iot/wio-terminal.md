@@ -16,7 +16,7 @@ Install the required software and update the firmware.
 
     > 💁 Another popular IDE for Arduino development is the [Arduino IDE](https://www.arduino.cc/en/software). If you are already familiar with this tool, then you can use it instead of VS Code and PlatformIO, but the lessons will give instructions based off using VS Code.
 
-1. Install the VS Code PlatformIO extension. This is an extension for VS Code that supports programming microcontrollers in C/C++. Refer to the [PlatformIO extension documentation](https://marketplace.visualstudio.com/items?itemName=platformio.platformio-ide&WT.mc_id=academic-17441-jabenn) for instructions on installing this extension in VS Code. This extension depends on the Microsoft C/C++ extension to work with C and C++ code, and the C/C++ extension is installed automatically when you install PlatformIO.
+1. Install the VS Code PlatformIO extension. This is an extension for VS Code that supports programming microcontrollers in C/C++. Refer to the [PlatformIO extension documentation](https://marketplace.visualstudio.com/items?WT.mc_id=academic-17441-jabenn&itemName=platformio.platformio-ide) for instructions on installing this extension in VS Code. This extension depends on the Microsoft C/C++ extension to work with C and C++ code, and the C/C++ extension is installed automatically when you install PlatformIO.
 
 1. Connect your Wio Terminal to your computer. The Wio Terminal has a USB-C port on the bottom, and this needs to be connected to a USB port on your computer. The Wio Terminal comes with a USB-C to USB-A cable, but if your computer only has USB-C ports then you will either need a USB-C cable or a USB-A to USB-C adapter.
 
