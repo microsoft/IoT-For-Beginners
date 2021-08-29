@@ -1,6 +1,6 @@
 # Introduction au IoT
 
-![Voici un aperçu de cette leçon sous forme d'illustré](../../../sketchnotes/lesson-1.jpg)
+![Voici un aperçu de cette leçon sous forme d'illustré](../../../../sketchnotes/lesson-1.jpg)
 
 > Illustré par [Nitya Narasimhan](https://github.com/nitya). Cliquer sur l'image pour l'agrandir.
 
@@ -40,7 +40,7 @@ Les IoT en tant que domaine technologique ne se limite pas seulement aux apparei
 
 Le domaine des IoT est en pleine expansion. On estime qu'à la fin de 2020, 30 milliards de dispositifs IoT ont été déployés et connectés à Internet. Dans l'avenir, on estime que les appareils IoT collecteront près de 80 zettaoctets de données, soit 80 trillions de gigaoctets. C'est beaucoup de données!
 
-![Voici un graphique montrant les objets connecté dans le temps, avec une tendance à la hausse passant de moins de 5 millairds en 2015 à plus de 30 milliards en 2025](../../../images/connected-iot-devices.svg)
+![Voici un graphique montrant les objets connecté dans le temps, avec une tendance à la hausse passant de moins de 5 millairds en 2015 à plus de 30 milliards en 2025](../../../../images/connected-iot-devices.svg)
 
 ✅ Faites une petite recherche: Quel proportion des données générés par les objets connectés sont utilisé et quel proportion est gaspillé? Pourquoi y a-t-il autant de données ignorés?
 
@@ -71,7 +71,7 @@ Un microcontrôleur (également appelé MCU, abréviation de "microcontroller un
 
 Les microcontrôleurs sont généralement des dispositifs informatiques peu coûteux, le prix moyen des microcontrôleurs utilisés dans le matériel personnalisé se situant autour de $0,50 USD, et certains dispositifs ne coûtant que $0,03 USD. Les kits de développement peuvent commencer à partir de $4 USD, les coûts augmentant au fur et à mesure que l'on ajoute des fonctionnalités. Le [Wio Terminal](https://www.seeedstudio.com/Wio-Terminal-p-4509.html), un ensemble de développement de microcontrôleur de [Seeed studios](https://www.seeedstudio.com) qui comprend des capteurs, des actionneurs, le WiFi et un écran, coûte environ $30 USD.
 
-![Voici un Terminal Wio](../../../images/wio-terminal.png)
+![Voici un Terminal Wio](../../../../images/wio-terminal.png)
 
 > 💁 Lorsque vous recherchez des microcontrôleurs sur Internet, méfiez-vous de la recherche contenant le terme **MCU**, car vous obtiendrez de nombreux résultats concernant le Marvel Cinematic Universe, et non les microcontrôleurs.
 
@@ -86,7 +86,7 @@ Les ensemble de développement de microcontrôleurs sont généralement livrés 
 <!--A single-board computer is a small computing device that has all the elements of a complete computer contained on a single small board. These are devices that have specifications close to a desktop or laptop PC or Mac, run a full operating system, but are small, use less power, and are substantially cheaper.-->
 Un ordinateur monocarte est un petit ordinateur qui possède tous les éléments d'un ordinateur complet contenue dans un ordinateur de la grosseur d'une carte de crédit. Ces appareils, qui ont des spécifications similaires à celles d'un ordinateur de bureau ou d'un ordinateur portable Pc ou Mac, mais sont plus petit et utilisent moins de puissance en plus d'être substantiellement moins dispendieux.
 
-![Voici un Raspberry Pi 4](../../../images/raspberry-pi-4.jpg)
+![Voici un Raspberry Pi 4](../../../../images/raspberry-pi-4.jpg)
 
 <!--The Raspberry Pi is one of the most popular single-board computers.-->
 Le Raspberry Pi est un des ordinateurs monocarte les plus populaires.
@@ -102,7 +102,7 @@ Les ordinateurs monocartes sont des ordinateurs complets, qui peuvent donc être
 
 Toutes les leçons suivantes comprennent des tâches utilisant un dispositif IoT pour interagir avec le monde physique et communiquer avec le cloud. Chaque leçon prend en charge 3 choix de dispositifs - Arduino (à l'aide d'un terminal Wio de Seeed Studios), ou un ordinateur monocarte, soit un dispositif physique (un Raspberry Pi 4), soit un ordinateur monocarte virtuel fonctionnant sur votre PC ou Mac.
 
-Vous pouvez vous renseigner sur le matériel nécessaire à la réalisation de toutes les missions dans le [guide matériel](../../../hardware.md).
+Vous pouvez vous renseigner sur le matériel nécessaire à la réalisation de toutes les missions dans le [guide matériel](../../../../hardware.md).
 
 > 💁 Vous n'avez pas besoin d'acheter aucun matériel IoT pour compléter les tâches, vous pouvez utiliser un ordinateur monocarte virtuel.
 
@@ -136,7 +136,7 @@ If you use the virtual device option, you will code directly on your computer. I
 
 Avant de pouvoir commencer à programmer votre appareil IoT, vous devez effectuer une petite configuration. Suivez les instructions ci-dessous en fonction de l'appareil que vous utiliserez.
 
-> 💁 Si vous n'avez pas encore d'appareil, référez-vous au [guide matériel](../../../hardware.md) pour vous aider à choisir le dispositif que vous allez utiliser et du matériel supplémentaire que vous devez acheter. Vous n'avez pas besoin d'acheter du matériel, car tous les projets peuvent être exécutés sur du matériel virtuel.
+> 💁 Si vous n'avez pas encore d'appareil, référez-vous au [guide matériel](../../../../hardware.md) pour vous aider à choisir le dispositif que vous allez utiliser et du matériel supplémentaire que vous devez acheter. Vous n'avez pas besoin d'acheter du matériel, car tous les projets peuvent être exécutés sur du matériel virtuel.
 
 Ces instructions comprennent des liens vers des sites Web tierce partie créés par les créateurs du matériel ou des outils que vous utiliserez. Cela permet de s'assurer que vous utilisez toujours les instructions les plus récentes pour les différents outils et matériels.
 
