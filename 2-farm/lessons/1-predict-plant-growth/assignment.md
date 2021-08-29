@@ -1,3 +1,4 @@
+[![French](https://img.shields.io/badge/-French-purple)](translations/assignment.fr.md)
 # Visualize GDD data using a Jupyter Notebook
 
 ## Instructions

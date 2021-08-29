@@ -1,3 +1,4 @@
+[![French](https://img.shields.io/badge/-French-purple)](translations/virtual-device-temp.fr.md)
 # Measure temperature - Virtual IoT Hardware
 
 In this part of the lesson, you will add a temperature sensor to your virtual IoT device.

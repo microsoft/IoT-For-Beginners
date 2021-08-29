@@ -1,3 +1,4 @@
+[![French](https://img.shields.io/badge/-French-purple)](translation/wio-terminal-temp-publish.fr.md)
 # Publish temperature - Wio Terminal
 
 In this part of the lesson, you will publish the temperature values detected by the Wio Terminal over MQTT so they can be used later to calculate GDD.

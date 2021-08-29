@@ -1,3 +1,4 @@
+[![French](https://img.shields.io/badge/-French-purple)](translations/wio-terminal-temp.fr.md)
 # Measure temperature - Wio Terminal
 
 In this part of the lesson, you will add a temperature sensor to your Wio Terminal, and read temperature values from it.

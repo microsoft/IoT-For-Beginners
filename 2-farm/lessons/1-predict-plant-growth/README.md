@@ -1,3 +1,4 @@
+[![French](https://img.shields.io/badge/-French-purple)](translations/README.fr.md)
 # Predict plant growth with IoT
 
 ![A sketchnote overview of this lesson](../../../sketchnotes/lesson-5.jpg)
