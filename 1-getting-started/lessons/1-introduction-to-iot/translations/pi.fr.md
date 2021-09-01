@@ -2,132 +2,132 @@
 
 Le [Raspberry Pi](https://raspberrypi.org) est un ordinateur monocarte. Vous pouvez ajouter des capteurs et des actionneurs en utilisant un large éventail de dispositifs et d'écosystèmes, et pour ces leçons, en utilisant un écosystème matériel appelé [Grove](https://www.seeedstudio.com/category/Grove-c-1003.html). Vous allez coder votre Pi et accéder aux capteurs Grove en utilisant Python.
 
-![A Raspberry Pi 4](../../../../images/raspberry-pi-4.jpg)
+![Raspberry Pi 4](../../../../images/raspberry-pi-4.jpg)
 
-## Setup
+## Configuration
 
-If you are using a Raspberry Pi as your IoT hardware, you have two choices - you can work through all these lessons and code directly on the Pi, or you can connect remotely to a 'headless' Pi and code from your computer.
+Si vous utilisez un Raspberry Pi comme matériel IoT, vous avez deux possibilités : vous pouvez suivre toutes ces leçons et coder directement sur le Pi, ou vous pouvez vous connecter à distance à un Pi "sans tête" et coder depuis votre ordinateur.
 
-Before you begin, you also need to connect the Grove Base Hat to your Pi.
+Avant de commencer, vous devez également connecter le module Grove de base à votre Pi.
 
-### Task - setup
+### Tâche - configuration
 
-Install the Grove base hat on your Pi and configure the Pi
+Installez le module de base Grove sur votre Pi et configurez le Pi.
 
-1. Connect the Grove base hat to your Pi. The socket on the hat fits over all of the GPIO pins on the Pi, sliding all the way down the pins to sit firmly on the base. It sits over the Pi, covering it.
+1. Connectez le module de base Grove à votre Pi. La prise du module s'adapte à toutes les broches GPIO du Pi, en glissant tout le long des broches pour s'asseoir fermement sur la base. Il se place sur le Pi, le recouvrant.
 
-    ![Fitting the grove hat](../../../images/pi-grove-hat-fitting.gif)
+    ![Ajustement du module Grove](../../../../images/pi-grove-hat-fitting.gif)
 
-1. Decide how you want to program your Pi, and head to the relevant section below:
+1. Décidez de la façon dont vous voulez programmer votre Pi, puis passez à la section correspondante ci-dessous:
 
-    * [Work directly on your Pi](#work-directly-on-your-pi)
-    * [Remote access to code the Pi](#remote-access-to-code-the-pi)
+    * [Travaillez directement sur votre Pi](#work-directly-on-your-pi)
+    * [Accès à distance pour coder le Pi](#remote-access-to-code-the-pi)
 
-### Work directly on your Pi
+### Travaillez directement sur votre Pi
 
-If you want to work directly on your Pi, you can use the desktop version of Raspberry Pi OS and install all the tools you need.
+Si vous souhaitez travailler directement sur votre Pi, vous pouvez utiliser la version de bureau du Raspberry Pi OS et installer tous les outils dont vous avez besoin.
 
-#### Task - work directly on your Pi
+#### Tâche - travaillez directement sur votre Pi
 
-Set up your Pi for development.
+Configurez votre Pi pour le développement.
 
-1. Follow the instructions in the [Raspberry Pi setup guide](https://projects.raspberrypi.org/en/projects/raspberry-pi-setting-up) to set up your Pi, connect it to a keyboard/mouse/monitor, connect it to your WiFi or ethernet network, and update the software. The OS you want to install is **Raspberry Pi OS (32 bit)**, it is marked as the recommended OS when using the Raspberry Pi Imager to image your SD card.
+1. Suivez les instructions du [Guide de configuration Raspberry Pi](https://projects.raspberrypi.org/en/projects/raspberry-pi-setting-up) pour configurer votre Pi, le connecter à un clavier/souris/moniteur, le connecter à votre réseau WiFi ou ethernet, et mettre à jour le logiciel. Le système d'exploitation que vous souhaitez installer est **Raspberry Pi OS (32 bit)**, il est affiché comme le système d'exploitation recommandé lorsque vous utilisez l'imageur Raspberry Pi pour créer une image de votre carte SD.
 
-To program the Pi using the Grove sensors and actuators, you will need to install an editor to allow you to write the device code, and various libraries and tools that interact with the Grove hardware.
+Pour programmer le Pi à l'aide des capteurs et actionneurs Grove, vous devrez installer un éditeur qui vous permettra d'écrire le code du périphérique, ainsi que diverses bibliothèques et outils qui interagissent avec le matériel Grove.
 
-1. Once your Pi has rebooted, launch the Terminal by clicking the **Terminal** icon on the top menu bar, or choose *Menu -> Accessories -> Terminal*
+1. Une fois que votre Pi a redémarré, lancez le terminal en cliquant sur le bouton **Terminal** dans la barre du menu supérieur, ou choisissez *Menu -> Accessoires -> Terminal*.
 
-1. Run the following command to ensure the OS and installed software is up to date:
+1. Exécutez la commande suivante pour vous assurer que le système d'exploitation et les logiciels installés sont à jour :
 
     ```sh
     sudo apt update && sudo apt full-upgrade --yes
     ```
 
-1. Run the following command to install all the needed libraries for the Grove hardware:
+1. Exécutez la commande suivante pour installer toutes les bibliothèques nécessaires au matériel Grove :
 
     ```sh
     curl -sL https://github.com/Seeed-Studio/grove.py/raw/master/install.sh | sudo bash -s -
     ```
 
-    One of the powerful features of Python is the ability to install [Pip packages](https://pypi.org) - these are packages of code written by other people and published to the Internet. You can install a Pip package onto your computer with one command, then use that package in your code. This Grove install script will install the Pip packages you will use to work with the Grove hardware from Python.
+    L'une des fonctionnalités puissantes de Python est la possibilité d'installer [Paquet pip](https://pypi.org) - Il s'agit de paquets de code écrits par d'autres personnes et publiés sur Internet. Vous pouvez installer un paquet Pip sur votre ordinateur à l'aide d'une commande, puis utiliser ce paquet dans votre code. Ce script d'installation Grove installera les paquets Pip que vous utiliserez pour travailler avec le matériel Grove à partir de Python.
 
-    > 💁 By default when you install a package it is available everywhere on your computer, and this can lead to problems with package versions - such as one application depending on one version of a package that breaks when you install a new version for a different application. To work around this problem, you can use a [Python virtual environment](https://docs.python.org/3/library/venv.html), essentially a copy of Python in a dedicated folder, and when you install Pip packages they get installed just to that folder. You won't be using virtual environments when using your Pi. The Grove install script installs the Grove Python packages globally, so to use a virtual environment you would need to set up a virtual environment then manually re-install the Grove packages inside that environment. It's easier to just use global packages, especially as a lot of Pi developers will re-flash a clean SD card for each project.
+    > 💁 Par défaut, lorsque vous installez un paquet, il est disponible partout sur votre ordinateur, ce qui peut entraîner des problèmes avec les versions des paquets - par exemple, une application dépendant d'une version d'un paquet qui se casse lorsque vous installez une nouvelle version pour une autre application. Pour contourner ce problème, vous pouvez utiliser un paquetage [Environnement virtuel Python](https://docs.python.org/3/library/venv.html), essentiellement une copie de Python dans un dossier dédié, et lorsque vous installez les paquets Pip, ils sont installés uniquement dans ce dossier. Vous n'utiliserez pas d'environnements virtuels lorsque vous utiliserez votre Pi. Le script d'installation de Grove installe les paquets Python Grove de manière globale. Pour utiliser un environnement virtuel, vous devrez donc configurer un environnement virtuel, puis réinstaller manuellement les paquets Grove dans cet environnement. Il est plus facile d'utiliser les paquets globaux, d'autant plus que de nombreux développeurs de Pi re-flashent une carte SD propre pour chaque projet.
 
-1. Reboot the Pi either using the menu or running the following command in the Terminal:
+1. Redémarrez le Pi en utilisant le menu ou en exécutant la commande suivante dans le Terminal :
 
     ```sh
     sudo reboot
     ```
 
-1. Once the Pi has rebooted, relaunch the Terminal and run the following command to install [Visual Studio Code (VS Code)](https://code.visualstudio.com?WT.mc_id=academic-17441-jabenn) - this is the editor you will be using to write your device code in Python.
+1. Une fois que le Pi a redémarré, relancez le terminal et exécutez la commande suivante pour l'installer [Visual Studio Code (VS Code)](https://code.visualstudio.com?WT.mc_id=academic-17441-jabenn) - il s'agit de l'éditeur que vous utiliserez pour écrire le code de votre dispositif en Python.
 
     ```sh
     sudo apt install code
     ```
 
-    Once this is installed, VS Code will be available from the top menu.
+    Une fois installé, VS Code sera disponible dans le menu supérieur.
 
-    > 💁 You are free to use any Python IDE or editor for these lessons if you have a preferred tool, but the lessons will give instructions based off using VS Code.
+    > 💁 Vous êtes libre d'utiliser n'importe quel IDE ou éditeur Python pour ces leçons si vous avez un outil préféré, mais les leçons donneront des instructions basées sur l'utilisation de VS Code.
 
-1. Install Pylance. This is an extension for VS Code that provides Python language support. Refer to the [Pylance extension documentation](https://marketplace.visualstudio.com/items?WT.mc_id=academic-17441-jabenn&itemName=ms-python.vscode-pylance) for instructions on installing this extension in VS Code.
+1. Installez Pylance. Il s'agit d'une extension pour VS Code qui fournit le support du langage Python. Référez-vous à la [documentation d'extension Pylance](https://marketplace.visualstudio.com/items?WT.mc_id=academic-17441-jabenn&itemName=ms-python.vscode-pylance) pour obtenir des instructions sur l'installation de cette extension dans VS Code.
 
-### Remote access to code the Pi
+### Accès à distance pour coder le Pi
 
-Rather than coding directly on the Pi, it can run 'headless', that is not connected to a keyboard/mouse/monitor, and configure and code on it from your computer, using Visual Studio Code.
+Plutôt que de coder directement sur le Pi, il peut fonctionner "sans tête", c'est-à-dire sans être connecté à un clavier/souris/moniteur, et configurer et coder sur lui depuis votre ordinateur, en utilisant Visual Studio Code.
 
-#### Set up the Pi OS
+#### Configurer le système d'exploitation du Pi
 
-To code remotely, the Pi OS needs to be installed on an SD Card.
+Pour coder à distance, le système d'exploitation du Pi doit être installé sur une carte SD.
 
-##### Task - set up the Pi OS
+##### Tâche - configurer le système d'exploitation du Pi
 
 Set up the headless Pi OS.
 
-1. Download the **Raspberry Pi Imager** from the [Raspberry Pi OS software page](https://www.raspberrypi.org/software/) and install it
+1. Télécharger le **Créateur d'image Raspberry Pi** à partir de [Page du logiciel Raspberry Pi OS](https://www.raspberrypi.org/software/) et installer le.
 
-1. Insert an SD card into your computer, using an adapter if necessary
+1. Insérez une carte SD dans votre ordinateur, en utilisant un adaptateur si nécessaire.
 
-1. Launch the Raspberry Pi Imager
+1. Lancer le créateur d'image Raspberry Pi
 
-1. From the Raspberry Pi Imager, select the **CHOOSE OS** button, then select *Raspberry Pi OS (Other)*, followed by *Raspberry Pi OS Lite (32-bit)*
+1. Dans le créateur d'image Raspberry Pi, appuyer sur le bouton **CHOOSE OS** , puis sélectionnez *Raspberry Pi OS (Other)*, suivi de *Raspberry Pi OS Lite (32-bit)*.
 
-    ![The Raspberry Pi Imager with Raspberry Pi OS Lite selected](../../../images/raspberry-pi-imager.png)
+    ![Le créateur d'image Raspberry Pi avec Raspberry Pi OS Lite sélectionné](../../../../images/raspberry-pi-imager.png)
 
-    > 💁 Raspberry Pi OS Lite is a version of Raspberry Pi OS that doesn't have the desktop UI or UI based tools. These aren't needed for a headless Pi and makes the install smaller and boot up time faster.
+    > 💁 Raspberry Pi OS Lite est une version de Raspberry Pi OS qui n'a pas d'interface utilisateur de bureau ou d'outils basés sur l'interface utilisateur. Ceux-ci ne sont pas nécessaires pour un Pi sans tête et rendent l'installation plus petite et le temps de démarrage plus rapide.
 
-1. Select the **CHOOSE STORAGE** button, then select your SD card
+1. Sélectionner le bouton **CHOOSE STORAGE**, puis sélectionnez votre carte SD
 
-1. Launch the **Advanced Options** by pressing `Ctrl+Shift+X`. These options allow some pre-configuration of the Raspberry Pi OS before it is imaged to the SD card.
+1. Lancer le **Advanced Options** en appuyant sur `Ctrl+Shift+X`. Ces options permettent une certaine pré-configuration du système d'exploitation du Raspberry Pi avant qu'il ne soit imagé sur la carte SD.
 
-    1. Check the **Enable SSH** check box, and set a password for the `pi` user. This is the password you will use to log in to the Pi later.
+    1. Cochez la case **Enable SSH**, et définissez un mot de passe pour l'utilisateur `pi`. Il s'agit du mot de passe que vous utiliserez plus tard pour vous connecter au Pi.
 
-    1. If you are planning to connect to the Pi over WiFi, check the **Configure WiFi** check box, and enter your WiFi SSID and password, as well as selecting your WiFi country. You do not need to do this if you will use an ethernet cable. Make sure the network you connect to is the same one your computer is on.
+    1. Si vous prévoyez de vous connecter au Pi via le WiFi, cochez la case **Configurer le WiFi** et saisissez votre SSID et votre mot de passe WiFi, ainsi que la sélection de votre pays WiFi. Vous n'avez pas besoin de faire cela si vous utilisez un câble Ethernet. Assurez-vous que le réseau auquel vous vous connectez est le même que celui de votre ordinateur.
 
-    1. Check the **Set locale settings** check box, and set your country and timezone
+    1. Cochez la case **Set locale settings**, puis définissez votre pays et votre fuseau horaire.
 
-    1. Select the **SAVE** button
+    1. Sélectionnez le bouton **SAVE**.
 
-1. Select the **WRITE** button to write the OS to the SD card. If you are using macOS, you will be asked to enter your password as the underlying tool that writes disk images needs privileged access.
+1. Sélectionnez le bouton **WRITE** pour mettre le système d'exploitation sur la carte SD. Si vous utilisez macOS, il vous sera demandé de saisir votre mot de passe, car l'outil sous-jacent qui écrit les images disque nécessite un accès privilégié.
 
-The OS will be written to the SD card, and once complete the card will be ejected by the OS, and you will be notified. Remove the SD card from your computer, insert it into the Pi, power up the Pi and wait for about 2 mins for it to properly boot.
+Le système d'exploitation sera écrit sur la carte SD, et une fois terminé, la carte sera éjectée par le système d'exploitation, et vous en serez informé. Retirez la carte SD de votre ordinateur, insérez-la dans le Pi, allumez le Pi et attendez environ 2 minutes pour qu'il démarre correctement.
 
-#### Connect to the Pi
+#### Connectez-vous au Pi
 
-The next step is to remotely access the Pi. You can do this using `ssh`, which is available on macOS, Linux and recent versions of Windows.
+L'étape suivante consiste à accéder à distance au Pi. Vous pouvez le faire en utilisant `ssh`, qui est disponible sur macOS, Linux et les versions récentes de Windows.
 
-##### Task - connect to the Pi
+##### Tâche - se connecter au Pi
 
-Remotely access the Pi.
+Accéder à distance au Pi.
 
-1. Launch a Terminal or Command Prompt, and enter the following command to connect to the Pi:
+1. Lancez un terminal ou une invite de commande, et entrez la commande suivante pour vous connecter au Pi:
 
     ```sh
     ssh pi@raspberrypi.local
     ```
 
-    If you are on Windows using an older version that doesn't have `ssh` installed, you can use OpenSSH. You can find the installation instructions in the [OpenSSH installation documentation](https://docs.microsoft.com//windows-server/administration/openssh/openssh_install_firstuse?WT.mc_id=academic-17441-jabenn).
+    Si vous êtes sous Windows et que vous utilisez une ancienne version qui n'a pas installé `ssh`, vous pouvez utiliser OpenSSH. Vous pouvez trouver les instructions d'installation dans la [documentation d'installation d'OpenSSH](https://docs.microsoft.com//windows-server/administration/openssh/openssh_install_firstuse?WT.mc_id=academic-17441-jabenn).
 
-1. This should connect to your Pi and ask for the password.
+1. Cela devrait se connecter à votre Pi et vous demander le mot de passe.
 
     Being able to find computers on your network by using `<hostname>.local` is a fairly recent addition to Linux and Windows. If you are using Linux or Windows and you get any errors about the Hostname not being found, you will need to install additional software to enable ZeroConf networking (also referred to by Apple as Bonjour):
 

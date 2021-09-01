@@ -1,3 +1,5 @@
+[![French](https://img.shields.io/badge/-French-purple)](translations/README.fr.md)
+
 # Getting Started with IoT
 
 In this section of the curriculum, you will be introduced to the Internet of Things, and learn the basic concepts including building your first 'Hello World' IoT project connecting to the cloud. This project is a nightlight that lights up as light levels measured by a sensor drop.

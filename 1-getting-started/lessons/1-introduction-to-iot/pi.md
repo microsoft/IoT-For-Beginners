@@ -1,3 +1,5 @@
+[![French](https://img.shields.io/badge/-French-purple)](translations/pi.fr.md)
+
 # Raspberry Pi
 
 The [Raspberry Pi](https://raspberrypi.org) is a single-board computer. You can add sensors and actuators using a wide range of devices and ecosystems, and for these lessons using a hardware ecosystem called [Grove](https://www.seeedstudio.com/category/Grove-c-1003.html). You will code your Pi and access the Grove sensors using Python.
