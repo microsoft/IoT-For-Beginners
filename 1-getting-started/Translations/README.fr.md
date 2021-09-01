@@ -5,10 +5,10 @@ Dans cette section du tutoriel, vous serez initié à l'Internet des objets et a
 
 ## Sujets
 
-1. [Introduction au IoT](lessons/1-introduction-to-iot/translations/README.fr.md)
-1. [Approfondir les IoT](lessons/2-deeper-dive/translations/README.fr.md)
-1. [Intéragir avec le monde physique à l'aide de capteur et actionneur](lessons/3-sensors-and-actuators/translations/README.fr.md)
-1. [Connecter votre appareil à Internet](lessons/4-connect-internet/translations/README.fr.md)
+1. [Introduction au IoT](../lessons/1-introduction-to-iot/translations/README.fr.md)
+1. [Approfondir les IoT](../lessons/2-deeper-dive/translations/README.fr.md)
+1. [Intéragir avec le monde physique à l'aide de capteur et actionneur](../lessons/3-sensors-and-actuators/translations/README.fr.md)
+1. [Connecter votre appareil à Internet](../lessons/4-connect-internet/translations/README.fr.md)
 
 ## Crédits
 
