@@ -14,7 +14,6 @@
 <!-- Plants need certain things to grow - water, carbon dioxide, nutrients, light, and heat. In this lesson, you'll learn how to calculate the growth and maturity rates of plants by measuring the air temperature. -->
 Les plantes ont besoin de certaines choses pour pousser : de l'eau, du dioxyde de carbone, des nutriments, de la lumière et de la chaleur. Dans cette leçon, vous apprendrez à calculer les taux de croissance et de maturité des plantes en mesurant la température de l'air.
 
-
 Dans cette leçon, nous allons couvrir :
 
 * [Agriculture digitale](#Agriculture-digitale)
