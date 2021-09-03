@@ -1,4 +1,4 @@
-# লোকেশন ডেটা সংরক্ষণ
+# লোকেশন ডেটা প্রদর্শন
 
 ![A sketchnote overview of this lesson](../../../../sketchnotes/lesson-13.jpg)
 
