@@ -53,6 +53,6 @@ Programmez l'appareil pour qu'il publie les données de température.
     Sending telemetry  {"temperature": 25}
     ```
 
-> 💁 Vous pouvez trouver ce code dans le dossier [code-publish-temperature/virtual-device].(../code-publish-temperature/virtual-device) folder or thou encore [code-publish-temperature/pi](../code-publish-temperature/pi).
+> 💁 Vous pouvez trouver ce code dans le dossier [code-publish-temperature/virtual-device].(../code-publish-temperature/virtual-device) ou encore [code-publish-temperature/pi](../code-publish-temperature/pi).
 
 😀 Vous avez publié avec succès la température en tant que télémétrie de votre appareil.

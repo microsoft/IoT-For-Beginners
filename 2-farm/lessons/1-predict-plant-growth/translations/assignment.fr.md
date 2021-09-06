@@ -9,7 +9,7 @@ Commencez par recueillir des données pendant quelques jours. Vous devez vous as
 
 Une fois que vous avez les données de température, vous pouvez utiliser le Jupyter Notebook dans ce repo pour les visualiser et calculer le JDC. Les notebooks Jupyter mélangent du code et des instructions dans des blocs appelés *cellules*, souvent du code en Python. Vous pouvez lire les instructions, puis exécuter chaque bloc de code, bloc par bloc. Vous pouvez également modifier le code. Dans ce notebook par exemple, vous pouvez modifier la température de base utilisée pour calculer le JDC de votre installation.
 
-1. Créez un dossier `gdd-calcul`
+1. Créez un dossier `gdd-calcul` (GDD correspond à DJC en français)
 
 1. Téléchargez le fichier [gdd.ipynb](../code-notebook/gdd.ipynb) et copiez le dans le dossier`gdd-calcul`.
 
@@ -34,7 +34,7 @@ Une fois que vous avez les données de température, vous pouvez utiliser le Jup
 
     Jupyter démarre et ouvre le notebook dans votre navigateur. Suivez les instructions du carnet de notes pour visualiser les températures mesurées et calculer les degrés-jours de croissance.
 
-    ![Le jupyter notebook](../../../images/gdd-jupyter-notebook.png)
+    ![Le jupyter notebook](../../../../images/gdd-jupyter-notebook.png)
 
 ## Rubrique
 
