@@ -37,7 +37,7 @@ Rencontrez l'équipe!
 
 > **Étudiants**, afin d'utiliser cette série de cours, clônez le projet gitHub et complétez les exercices en commençant par les questionnaires de pré-lecture, suivi des lectures elles-mêmes puis du reste des activités proposées. Nous vous conseillons fortement de créer les projets en vous basant aux lessons associées au lieu de copier les solutionnaires;toutefois, ce code est disponible dans la section /solutions de chaque leçon. Une autre proposition serait de créer un groupe d'étude avec des amis afin de compléter le contenu ensembles. Pour des activités d'apprentissage avancées, nous vous invitons à consulter [Microsoft Learn](https://docs.microsoft.com/users/jimbobbennett/collections/ke2ehd351jopwr?WT.mc_id=academic-17441-jabenn).
 
-Pour un apperçu vidéo de cette série de cours, voici une vidéo intéressante:
+Pour un apperçu de cette série de cours, voici une vidéo intéressante:
 
 [![Video promo](https://img.youtube.com/vi/bccEMm8gRuc/0.jpg)](https://youtube.com/watch?v=bccEMm8gRuc "Video promo")
 
