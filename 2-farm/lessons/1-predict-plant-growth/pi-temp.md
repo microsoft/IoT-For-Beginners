@@ -1,4 +1,3 @@
-[![French](https://img.shields.io/badge/-French-purple)](translations/pi-temp.fr.md)
 # Measure temperature - Raspberry Pi
 
 In this part of the lesson, you will add a temperature sensor to your Raspberry Pi.

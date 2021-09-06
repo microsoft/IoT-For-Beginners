@@ -1,4 +1,3 @@
-[![French](https://img.shields.io/badge/-French-purple)](translations/single-board-computer-temp-publish.fr.md)
 # Publish temperature - Virtual IoT Hardware and Raspberry Pi
 
 In this part of the lesson, you will publish the temperature values detected by the Raspberry Pi or Virtual IoT Device over MQTT so they can be used later to calculate GDD.
