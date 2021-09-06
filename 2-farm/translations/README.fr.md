@@ -13,12 +13,12 @@ Les besoins en agriculture augmentent avec la croissance de la popualtion. La qu
 
 ## Thèmes
 
-1. [Anticiper la croissance de ses plantes](lessons/1-predict-plant-growth/README.fr.md)
-1. [Détectez l'humidité du sol](lessons/2-detect-soil-moisture/README.fr.md)
-1. [Automatiser l'arrosage des plantes](lessons/3-automated-plant-watering/README.fr.md)
-1. [Amenez vos plants dans l'infonuagique](lessons/4-migrate-your-plant-to-the-cloud/README.fr.md)
-1. [Migrez votre application dans l'infonuagique](lessons/5-migrate-application-to-the-cloud/README.fr.md)
-1. [Gardez vos plants sécurisés](lessons/6-keep-your-plant-secure/README.fr.md)
+1. [Anticiper la croissance de ses plantes](../lessons/1-predict-plant-growth/translations/README.fr.md)
+1. [Détectez l'humidité du sol](../lessons/2-detect-soil-moisture/translations/README.fr.md)
+1. [Automatiser l'arrosage des plantes](../lessons/3-automated-plant-watering/translations/README.fr.md)
+1. [Amenez vos plants dans l'infonuagique](../lessons/4-migrate-your-plant-to-the-cloud/translations/README.fr.md)
+1. [Migrez votre application dans l'infonuagique](../lessons/5-migrate-application-to-the-cloud/translations/README.fr.md)
+1. [Gardez vos plants sécurisés](../lessons/6-keep-your-plant-secure/translations/README.fr.md)
 
 ## Credits
 

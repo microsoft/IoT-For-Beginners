@@ -11,16 +11,15 @@
 
 ## Introduction
 
-<!-- Plants need certain things to grow - water, carbon dioxide, nutrients, light, and heat. In this lesson, you'll learn how to calculate the growth and maturity rates of plants by measuring the air temperature. -->
 Les plantes ont besoin de certaines choses pour pousser : de l'eau, du dioxyde de carbone, des nutriments, de la lumière et de la chaleur. Dans cette leçon, vous apprendrez à calculer les taux de croissance et de maturité des plantes en mesurant la température de l'air.
 
 Dans cette leçon, nous allons couvrir :
 
-* [Agriculture digitale](#Agriculture-digitale)
-* [L'importance de la température dans l'agriculture](#L'importance-de-la-température-dans-l'agriculture)
-* [La mesure de la température ambiante](#La-mesure-de-la-température-ambiante)
-* [Degrés jours de croissance (DJC)](#Degrés-jours-de-croissance)
-* [Calcul du GDD à l'aide de données de senseurs](#Calcul-du-GDD-à-l'aide-de-données-de-senseurs)
+* [Agriculture digitale](#agriculture-digitale)
+* [L'importance de la température dans l'agriculture](#l'importance-de-la-température-dans-l'agriculture)
+* [La mesure de la température ambiante](#la-mesure-de-la-température-ambiante)
+* [Degrés jours de croissance (DJC)](#degrés-jours-de-croissance)
+* [Calcul du DJC à l'aide de données de senseurs](#calcul-du-DJC-à-l'aide-de-données-de-senseurs)
 
 ## Agriculture digitale
 
@@ -74,7 +73,7 @@ Si un agriculteur a le contrôle de la température, par exemple dans une serre 
 
 Les capteurs de température peuvent être utilisés avec les appareils IoT pour mesurer la température ambiante.
 
-### Task - measure temperature
+### Tâche - Mesure de la température
 
 Suivez le guide correspondant pour surveiller les températures à l'aide de votre dispositif IoT :
 
@@ -90,7 +89,7 @@ Les degrés-jours de croissance, ou DJC, sont calculés par jour comme la tempé
 
 > 🇺🇸 Pour les Américains, les degrés-jours de croissance peuvent également être calculés en Fahrenheit. 5 DJC<sup>C</sup> (degrés-jours de croissance en Celsius) sont l'équivalent de 9 DJC<sup>F</sup> (degrés-jours de croissance en Fahrenheit).
 
-La formule complète du GDD est un peu compliquée, mais il existe une équation simplifiée qui est souvent utilisée comme une bonne approximation :
+La formule complète du DJC est un peu compliquée, mais il existe une équation simplifiée qui est souvent utilisée comme une bonne approximation :
 
 ![DJC = T max + T min divisé par 2, total - T base](../../../../images/gdd-calculation.png)
 
@@ -101,7 +100,7 @@ La formule complète du GDD est un peu compliquée, mais il existe une équation
 
 > 💁 Il existe certaines variations impliquant T<sub>max</sub> au delà de 30°C ou T<sub>min</sub> en deça T<sub>base</sub>, mais nous ignorerons ces cas dans le contexte de ce cours.
 
-### Example - Maïs 🌽
+### Exemple - Maïs 🌽
 
 Selon la variété, le maïs a besoin de 800 à 2 700 DJC pour arriver à maturité, avec une température de base de 10°C.
 
@@ -126,13 +125,13 @@ Le maïs a reçu 4 DJC ce jour-là. Dans l'hypothèse d'une variété de maïs q
 
 ✅ Faites des recherches. Pour toutes les plantes que vous avez dans votre jardin, à l'école ou dans un parc local, voyez si vous pouvez trouver le nombre de DJC requis pour atteindre la maturité ou produire des récoltes.
 
-## Calcul du GDD à l'aide de données de senseurs
+## Calcul du DJC à l'aide de données de senseurs
 
 Les plantes ne poussent pas à dates fixes - par exemple, vous ne pouvez pas planter une graine et savoir que la plante portera des fruits exactement 100 jours plus tard. Au lieu de cela, en tant qu'agriculteur, vous pouvez avoir une idée approximative du temps que prend une plante pour pousser, puis vous vérifiez quotidiennement quand les cultures sont prêtes.
 
 Cela a un impact considérable sur la main-d'œuvre d'une grande exploitation, et l'agriculteur risque de manquer des cultures qui sont prêtes plus tôt que prévu. En mesurant les températures, l'agriculteur peut calculer le DJC qu'une plante a reçu, ce qui lui permet de ne vérifier que les cultures proches de la maturité attendue.
 
-En recueillant des données de température à l'aide d'un dispositif IoT, un agriculteur peut être automatiquement informé lorsque les plantes sont proches de la maturité. Une architecture typique pour cela consiste à faire en sorte que les dispositifs IoT mesurent la température, puis publient ces données de télémétrie sur Internet en utilisant quelque chose comme MQTT. Le code du serveur écoute ensuite ces données et les enregistre quelque part, par exemple dans une base de données. Cela signifie que les données peuvent être analysées ultérieurement, par exemple une tâche nocturne pour calculer le GDD de la journée, totaliser le GDD de chaque culture jusqu'à présent et alerter si une plante est proche de la maturité.
+En recueillant des données de température à l'aide d'un dispositif IoT, un agriculteur peut être automatiquement informé lorsque les plantes sont proches de la maturité. Une architecture typique pour cela consiste à faire en sorte que les dispositifs IoT mesurent la température, puis publient ces données de télémétrie sur Internet en utilisant quelque chose comme MQTT. Le code du serveur écoute ensuite ces données et les enregistre quelque part, par exemple dans une base de données. Cela signifie que les données peuvent être analysées ultérieurement, par exemple une tâche nocturne pour calculer le DJC de la journée, totaliser le DJC de chaque culture jusqu'à présent et alerter si une plante est proche de la maturité.
 
 ![Les données télémétriques sont envoyées à un serveur, puis enregistrées dans une base de données.](../../../../images/save-telemetry-database.png)
 
@@ -183,7 +182,7 @@ Le fichier CSV aura deux colonnes - *date* et *température*. La colonne *date* 
 
     Ceci importe une bibliothèque pour lire les fichiers, une bibliothèque pour interagir avec les fichiers CSV, et une bibliothèque pour aider avec les dates et les heures.
 
-1.  Ajoutez le code suivant avant la fonction `handle_telemetry`:
+1. Ajoutez le code suivant avant la fonction `handle_telemetry`:
 
     ```python
     temperature_file_name = 'temperature.csv'
@@ -199,7 +198,7 @@ Le fichier CSV aura deux colonnes - *date* et *température*. La colonne *date* 
 
     Le code vérifie ensuite si le fichier CSV existe déjà. S'il n'existe pas, il est créé avec les en-têtes de colonne sur la première ligne.
 
-1.Ajoutez le code suivant à la fin de la fonction `handle_telemetry`:
+1. Ajoutez le code suivant à la fin de la fonction `handle_telemetry`:
 
     ```python
     with open(temperature_file_name, mode='a') as temperature_file:        
@@ -227,7 +226,7 @@ Le fichier CSV aura deux colonnes - *date* et *température*. La colonne *date* 
     
 > 💁 Vous pouvez trouver ce code dans le dossier [code-server/temperature-sensor-server](../code-server/temperature-sensor-server).
 
-### Tâche - calculer le GDD en utilisant les données stockées
+### Tâche - calculer le DJC en utilisant les données stockées
 
 Une fois que le serveur a saisi les données de température, le DJC d'une usine peut être calculé.
 
