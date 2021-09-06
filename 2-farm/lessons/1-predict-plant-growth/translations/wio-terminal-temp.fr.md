@@ -65,7 +65,7 @@ Programmez l'appareil.
 
     Ceci déclare une instance de la classe `DHT` qui gère le capteur **D**numérique **H** d'humidité et **T** de température. Celle-ci est connectée au port `D0`, le connecteur Grove de droite sur le terminal Wio. Le second paramètre indique au code que le capteur utilisé est le capteur *DHT11* - la bibliothèque que vous utilisez supporte d'autres variantes de ce capteur.
 
-1.Dans la fonction `setup`, ajoutez du code pour configurer la connexion série :
+1. Dans la fonction `setup`, ajoutez du code pour configurer la connexion série :
 
     ```cpp
     void setup()
@@ -100,7 +100,7 @@ Programmez l'appareil.
     }
     ```
 
-    Ce code déclare un tableau vide de 2 flottants, et le passe à l'appel à `readTempAndHumidity` sur l'instance `DHT`. Cet appel remplit le tableau avec 2 valeurs - l'humidité va dans le 0ème élément du tableau (rappelez-vous qu'en C++ les tableaux sont basés sur 0, donc le 0ème élément est le 'premier' élément du tableau), et la température va dans le 1er élément.
+    Ce code déclare un tableau vide de 2 flottants, et le passe à l'appel à `readTempAndHumidity` sur l'instance `DHT`. Cet appel remplit le tableau avec 2 valeurs - l'humidité va dans l'élément 0 du tableau (rappelez-vous qu'en C++ les tableaux sont basés sur 0, donc le 0ème élément est le 'premier' élément du tableau), et la température va dans le 1er élément.
 
     La température est lue à partir du premier élément du tableau, et imprimée sur le port série.
 
