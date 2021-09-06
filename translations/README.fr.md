@@ -33,7 +33,7 @@ Rencontrez l'équipe!
 
 > 🎥 Cliquez sur l'image ci-haut afin de consulter la vidéo du projet  
 
-> **Enseignants**, nous avons [inclus quelques suggestions](../for-teachers.md) sur la manière d'utiliser cette série de cours. Si vous souhaitez ajouter vos propres leçons, nous avons créé ce [gabarit de cours](../lesson-template/README.md) pour votre convenance.
+> **Enseignants**, nous avons [inclus quelques suggestions](./for-teachers.fr.md) sur la manière d'utiliser cette série de cours. Si vous souhaitez ajouter vos propres leçons, nous avons créé ce [gabarit de cours](../lesson-template/README.md) pour votre convenance.
 
 > **Étudiants**, afin d'utiliser cette série de cours, clônez le projet gitHub et complétez les exercices en commençant par les questionnaires de pré-lecture, suivi des lectures elles-mêmes puis du reste des activités proposées. Nous vous conseillons fortement de créer les projets en vous basant aux lessons associées au lieu de copier les solutionnaires;toutefois, ce code est disponible dans la section /solutions de chaque leçon. Une autre proposition serait de créer un groupe d'étude avec des amis afin de compléter le contenu ensembles. Pour des activités d'apprentissage avancées, nous vous invitons à consulter [Microsoft Learn](https://docs.microsoft.com/users/jimbobbennett/collections/ke2ehd351jopwr?WT.mc_id=academic-17441-jabenn).
 
@@ -55,7 +55,7 @@ Il est aussi à noter que chaque projet est construit à partir de matériel dis
 
 ## Matériel
 
-Nous proposons deux possibilités de matériel "IoT" afin de réaliser nos projets afin de permettre plus de flexibilité vis à vis vos preférences, language de programmation favoris, objectifs d'apprentissage ou encore disponibilité. Nous avons aussi fournis une version virtuelle du matériel en vue d'accomoder ceux n'ayant pas accès au matériel ou ne souhaitant pas débourser. Alors, libre à vous d'en lire d'avantage sur la [page de matériel](./hardware.md) incluant plusieurs liens permettant d'acheter des ensembles chez nos amis à Seeed Studio.
+Nous proposons deux possibilités de matériel "IoT" afin de réaliser nos projets afin de permettre plus de flexibilité vis à vis vos preférences, language de programmation favoris, objectifs d'apprentissage ou encore disponibilité. Nous avons aussi fournis une version virtuelle du matériel en vue d'accomoder ceux n'ayant pas accès au matériel ou ne souhaitant pas débourser. Alors, libre à vous d'en lire d'avantage sur la [page de matériel](./hardware.fr.md) incluant plusieurs liens permettant d'acheter des ensembles chez nos amis à Seeed Studio.
 
 > 💁 Découvrez nos guides sur le [Code de conduite](CODE_OF_CONDUCT.md), la [Contribution](CONTRIBUTING.md), ainsi que la [Traduction](TRANSLATIONS.md). Nous vous invitons à nous partager vos impressions!
 
