@@ -57,7 +57,7 @@ Il est aussi à noter que chaque projet est construit à partir de matériel dis
 
 Nous proposons deux possibilités de matériel "IoT" afin de réaliser nos projets afin de permettre plus de flexibilité vis à vis vos preférences, language de programmation favoris, objectifs d'apprentissage ou encore disponibilité. Nous avons aussi fournis une version virtuelle du matériel en vue d'accomoder ceux n'ayant pas accès au matériel ou ne souhaitant pas débourser. Alors, libre à vous d'en lire d'avantage sur la [page de matériel](./hardware.fr.md) incluant plusieurs liens permettant d'acheter des ensembles chez nos amis à Seeed Studio.
 
-> 💁 Découvrez nos guides sur le [Code de conduite](CODE_OF_CONDUCT.md), la [Contribution](CONTRIBUTING.md), ainsi que la [Traduction](TRANSLATIONS.md). Nous vous invitons à nous partager vos impressions!
+> 💁 Découvrez nos guides sur le [Code de conduite](CODE_OF_CONDUCT.fr.md), la [Contribution](CONTRIBUTING.fr.md), ainsi que la [Traduction](TRANSLATIONS.fr.md). Nous vous invitons à nous partager vos impressions!
 
 ## Chaque leçon inclus:
 
@@ -118,11 +118,11 @@ npm run convert
 
 ### Acétates
 
-Les acétates de plusieures leçons sont contenues dans le dossier ["slides"](./slides).
+Les acétates de plusieures leçons sont contenues dans le dossier ["slides"](../slides).
 
 ## Supportez la traduction!
 
-Vous souhaitez contribuer à la traduction? Nous vous prions de lire le [guide de traduction](TRANSLATIONS.md), faites un "fork" de ce projet sur votre compte github puis ajoutez vos changements [à l'une de nos issues de traduction](https://github.com/microsoft/IoT-For-Beginners/issues?q=is%3Aissue+is%3Aopen+label%3Atranslation). Si vous souhaitez traduire en un nouveau language, vous devez alors lever une nouvelle issue afin de pouvoir la suivre.
+Vous souhaitez contribuer à la traduction? Nous vous prions de lire le [guide de traduction](TRANSLATIONS.fr.md), faites un "fork" de ce projet sur votre compte github puis ajoutez vos changements [à l'une de nos issues de traduction](https://github.com/microsoft/IoT-For-Beginners/issues?q=is%3Aissue+is%3Aopen+label%3Atranslation). Si vous souhaitez traduire en un nouveau language, vous devez alors lever une nouvelle issue afin de pouvoir la suivre.
 
 ## D'autres formations
 
@@ -133,4 +133,4 @@ Notre équipe a aussi produit d'autres cursus de formation! Nous vous invitons �
 
 ## Droits des images
 
-Les [droits](./attributions.md) des images utilisées dans ce projet sont le fichier attributions.md
+Les [droits](../attributions.md) des images utilisées dans ce projet sont le fichier attributions.md

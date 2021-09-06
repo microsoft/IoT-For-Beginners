@@ -35,7 +35,7 @@ Si vous faites un rapport pour une prime de bogue, des rapports plus complets pe
 
 Nous préférons que toutes les communications soient en anglais.
 
-## Policy
+## Politique
 
 Microsoft suit le principe de la [divulgation coordonnée des vulnérabilités](https://www.microsoft.com/en-us/msrc/cvd).
 
