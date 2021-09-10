@@ -1,4 +1,4 @@
-# Introduction au IoT
+# Introduction aux IoT
 
 ![Voici un aperçu de cette leçon sous forme d'illustré](../../../../sketchnotes/lesson-1.jpg)
 

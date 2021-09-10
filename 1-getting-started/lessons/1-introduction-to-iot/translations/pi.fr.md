@@ -27,11 +27,11 @@ Installez le module de base Grove sur votre Pi et configurez le Pi.
 
 Si vous souhaitez travailler directement sur votre Pi, vous pouvez utiliser la version de bureau du Raspberry Pi OS et installer tous les outils dont vous avez besoin.
 
-#### Tâche - travaillez directement sur votre Pi
+#### Tâche - Travaillez directement sur votre Pi
 
 Configurez votre Pi pour le développement.
 
-1. Suivez les instructions du [Guide de configuration Raspberry Pi](https://projects.raspberrypi.org/en/projects/raspberry-pi-setting-up) pour configurer votre Pi, le connecter à un clavier/souris/moniteur, le connecter à votre réseau WiFi ou ethernet, et mettre à jour le logiciel. Le système d'exploitation que vous souhaitez installer est **Raspberry Pi OS (32 bit)**, il est affiché comme le système d'exploitation recommandé lorsque vous utilisez l'imageur Raspberry Pi pour créer une image de votre carte SD.
+1. Suivez les instructions du [Guide de configuration Raspberry Pi](https://projects.raspberrypi.org/en/projects/raspberry-pi-setting-up) pour configurer votre Pi, le connecter à un clavier/souris/moniteur, le connecter à votre réseau WiFi ou ethernet, et mettre à jour le logiciel. Le système d'exploitation que vous souhaitez installer est **Raspberry Pi OS (32 bit)**, il est affiché comme le système d'exploitation recommandé lorsque vous utilisez le créateur d'image Raspberry Pi pour créer une image de votre carte SD.
 
 Pour programmer le Pi à l'aide des capteurs et actionneurs Grove, vous devrez installer un éditeur qui vous permettra d'écrire le code du périphérique, ainsi que diverses bibliothèques et outils qui interagissent avec le matériel Grove.
 
@@ -79,9 +79,9 @@ Plutôt que de coder directement sur le Pi, il peut fonctionner "sans tête", c'
 
 Pour coder à distance, le système d'exploitation du Pi doit être installé sur une carte SD.
 
-##### Tâche - configurer le système d'exploitation du Pi
+##### Tâche - Configurer le système d'exploitation du Pi
 
-Set up the headless Pi OS.
+Configurer l'OS Pi sans tête.
 
 1. Télécharger le **Créateur d'image Raspberry Pi** à partir de [Page du logiciel Raspberry Pi OS](https://www.raspberrypi.org/software/) et installer le.
 
@@ -129,87 +129,89 @@ Accéder à distance au Pi.
 
 1. Cela devrait se connecter à votre Pi et vous demander le mot de passe.
 
-    Being able to find computers on your network by using `<hostname>.local` is a fairly recent addition to Linux and Windows. If you are using Linux or Windows and you get any errors about the Hostname not being found, you will need to install additional software to enable ZeroConf networking (also referred to by Apple as Bonjour):
+    Pouvoir trouver des ordinateurs sur votre réseau en utilisant `<hostname>.local` est un ajout assez récent à Linux et Windows. Si vous utilisez Linux ou Windows et que vous obtenez des erreurs concernant le nom d'hôte introuvable, vous devrez installer un logiciel supplémentaire pour activer le réseau ZeroConf (également appelé Bonjour par Apple) :
 
-    1. If you are using Linux, install Avahi using the following command:
+    1. Si vous utilisez Linux, installez Avahi en utilisant la commande suivante :
 
         ```sh
         sudo apt-get install avahi-daemon
         ```
 
-    1. If you are using Windows, the easiest way to enable ZeroConf is to install [Bonjour Print Services for Windows](http://support.apple.com/kb/DL999). You can also install [iTunes for Windows](https://www.apple.com/itunes/download/) to get a newer version of the utility (which is not available standalone).
+    1. Si vous utilisez Windows, le moyen le plus simple d'activer ZeroConf est d'installer [Bonjour Print Services for Windows](http://support.apple.com/kb/DL999). Vous pouvez également installer [iTunes pour Windows](https://www.apple.com/itunes/download/) pour obtenir une version plus récente de l'utilitaire (qui n'est pas disponible en version autonome).
 
-    > 💁 If you cannot connect using `raspberrypi.local`, then you can use the IP address of your Pi. Refer to the [Raspberry Pi IP address documentation](https://www.raspberrypi.org/documentation/remote-access/ip-address.md) for instructions on a number of ways to get the IP address.
+    > 💁 Si vous ne pouvez pas vous connecter en utilisant `raspberrypi.local`, alors vous pouvez utiliser l'adresse IP de votre Pi. Reportez-vous à la [documentation sur l'adresse IP de Raspberry Pi](https://www.raspberrypi.org/documentation/remote-access/ip-address.md) pour obtenir des instructions sur les différentes manières d'obtenir l'adresse IP.
 
-1. Enter the password you set in the Raspberry Pi Imager Advanced Options
+1. Saisissez le mot de passe que vous avez défini dans les options avancées du créateur d'image Raspberry Pi
 
-#### Configure software on the Pi
+#### Configurer le logiciel sur le Pi
 
-Once you are connected to the Pi, you need to ensure the OS is up to date, and install various libraries and tools that interact with the Grove hardware.
+Une fois que vous êtes connecté au Pi, vous devez vous assurer que le système d'exploitation est à jour et installer diverses bibliothèques et outils qui interagissent avec le matériel Grove.
 
-##### Task - configure software on the Pi
+##### Tâche - configurer le logiciel sur le Pi
 
-Configure the installed Pi software and install the Grove libraries.
+Configurez les logiciels installés sur le Pi et installez les bibliothèques Grove.
 
-1. From your `ssh` session, run the following command to update then reboot the Pi:
+1. Depuis votre session `ssh`, exécutez la commande suivante pour mettre à jour puis redémarrer le Pi :
 
     ```sh
     sudo apt update && sudo apt full-upgrade --yes && sudo reboot
     ```
 
-    The Pi will be updated and rebooted. The `ssh` session will end when the Pi is rebooted, so leave it for about 30 seconds then reconnect.
+    Le Pi sera mis à jour et redémarré. La session `ssh` se terminera lorsque le Pi sera redémarré, alors laissez-la pendant environ 30 secondes puis reconnectez-vous.
 
-1. From the reconnected `ssh` session, run the following command to install all the needed libraries for the Grove hardware:
+1. Depuis la session `ssh` reconnectée, exécutez la commande suivante pour installer toutes les bibliothèques nécessaires au matériel Grove :
 
     ```sh
     curl -sL https://github.com/Seeed-Studio/grove.py/raw/master/install.sh | sudo bash -s -
     ```
 
-    One of the powerful features of Python is the ability to install [Pip packages](https://pypi.org) - these are packages of code written by other people and published to the Internet. You can install a Pip package onto your computer with one command, then use that package in your code. This Grove install script will install the Pip packages you will use to work with the Grove hardware from Python.
+    L'une des puissantes fonctionnalités de Python est la possibilité d'installer des [Paquets Pip](https://pypi.org). Il s'agit de paquets de code écrits par d'autres personnes et publiés sur Internet. Vous pouvez installer un paquet Pip sur votre ordinateur à l'aide d'une commande, puis utiliser ce paquet dans votre code. Ce script d'installation Grove installera les paquets Pip que vous utiliserez pour travailler avec le matériel Grove à partir de Python.
 
-    > 💁 By default when you install a package it is available everywhere on your computer, and this can lead to problems with package versions - such as one application depending on one version of a package that breaks when you install a new version for a different application. To work around this problem, you can use a [Python virtual environment](https://docs.python.org/3/library/venv.html), essentially a copy of Python in a dedicated folder, and when you install Pip packages they get installed just to that folder. You won't be using virtual environments when using your Pi. The Grove install script installs the Grove Python packages globally, so to use a virtual environment you would need to set up a virtual environment then manually re-install the Grove packages inside that environment. It's easier to just use global packages, especially as a lot of Pi developers will re-flash a clean SD card for each project.
 
-1. Reboot the Pi by running the following command:
+    > 💁 Par défaut, lorsque vous installez un paquet, il est disponible partout sur votre ordinateur, ce qui peut entraîner des problèmes avec les versions des paquets - par exemple, une application dépendant d'une version d'un paquet qui se casse lorsque vous installez une nouvelle version pour une autre application. Pour contourner ce problème, vous pouvez utiliser un [environnement virtuel Python](https://docs.python.org/3/library/venv.html), essentiellement une copie de Python dans un dossier dédié, et lorsque vous installez les paquets Pip, ils sont installés uniquement dans ce dossier. Vous n'utiliserez pas d'environnement virtuel lorsque vous utiliserez votre Pi. Le script d'installation de Grove installe les paquets Python de Grove de manière globale. Pour utiliser un environnement virtuel, vous devrez donc configurer un environnement virtuel, puis réinstaller manuellement les paquets Grove dans cet environnement. Il est plus facile d'utiliser les paquets globaux, d'autant plus que de nombreux développeurs de Pi re-flashent une carte SD propre pour chaque projet.
+
+
+1. Redémarrez le Pi en exécutant la commande suivante :
 
     ```sh
     sudo reboot
     ```
 
-    The `ssh` session will end when the Pi is rebooted. There is no need to reconnect.
+    La session `ssh` se terminera lorsque le Pi sera redémarré. Il n'est pas nécessaire de se reconnecter.
 
-#### Configure VS Code for remote access
+#### Configurer VS Code pour l'accès à distance
 
-Once the Pi is configured, you can connect to it using Visual Studio Code (VS Code) from your computer - this is a free developer text editor you will be using to write your device code in Python.
+Une fois le Pi configuré, vous pouvez vous y connecter à l'aide de Visual Studio Code (VS Code) depuis votre ordinateur. Il s'agit d'un éditeur de texte gratuit pour développeurs que vous utiliserez pour écrire le code de votre appareil en Python.
 
-##### Task - configure VS Code for remote access
+##### Tâche - Configurer VS Code pour l'accès à distance
 
-Install the required software and connect remotely to your Pi.
+Installez le logiciel requis et connectez-vous à distance à votre Pi
 
-1. Install VS Code on your computer by following the [VS Code documentation](https://code.visualstudio.com?WT.mc_id=academic-17441-jabenn)
+1. Installez VS Code sur votre ordinateur en suivant la [documentation VS Code](https://code.visualstudio.com?WT.mc_id=academic-17441-jabenn).
 
-1. Follow the instructions in the [VS Code Remote Development using SSH documentation](https://code.visualstudio.com/docs/remote/ssh?WT.mc_id=academic-17441-jabenn) to install the components needed
+1. Suivez les instructions de la [documentation VS Code Développement à distance par SSH](https://code.visualstudio.com/docs/remote/ssh?WT.mc_id=academic-17441-jabenn) pour installer les composants nécessaires.
 
-1. Following the same instructions, connect VS Code to the Pi
+1. En suivant les mêmes instructions, connectez VS Code au Pi
 
-1. Once connected, follow the [managing extensions](https://code.visualstudio.com/docs/remote/ssh#_managing-extensions?WT.mc_id=academic-17441-jabenn) instructions to install the [Pylance extension](https://marketplace.visualstudio.com/items?WT.mc_id=academic-17441-jabenn&itemName=ms-python.vscode-pylance) remotely onto the Pi
+1. Une fois connecté, suivez les instructions de [gestion des extensions](https://code.visualstudio.com/docs/remote/ssh#_managing-extensions?WT.mc_id=academic-17441-jabenn) pour installer l'[extension Pylance](https://marketplace.visualstudio.com/items?WT.mc_id=academic-17441-jabenn&itemName=ms-python.vscode-pylance) à distance sur le Pi
 
-## Hello world
+## Bonjour le monde
 
-It is traditional when starting out with a new programming language or technology to create a 'Hello World' application - a small application that outputs something like the text `"Hello World"` to show that all the tools are correctly configured.
+Il est traditionnel, lorsqu'on débute avec un nouveau langage de programmation ou une nouvelle technologie, de créer une application "Hello World" - une petite application qui produit quelque chose comme le texte "Hello World" pour montrer que tous les outils sont correctement configurés.
 
-The Hello World app for the Pi will ensure that you have Python and Visual Studio code installed correctly.
+L'application 'Hello World' pour le Pi vous permettra de vérifier que vous avez installé correctement le code Python et Visual Studio.
 
-This app will be in a folder called `nightlight`, and it will be re-used with different code in later parts of this assignment to build the nightlight application.
+Cette application sera dans un dossier appelé `nightlight`, et elle sera réutilisée avec un code différent dans les parties ultérieures de ce travail pour construire l'application de veilleuse.
 
-### Task - hello world
+### Tâche - Bonjour le monde
 
-Create the Hello World app.
+Créez l'application 'Hello World'.
 
-1. Launch VS Code, either directly on the Pi, or on your computer and connected to the Pi using the Remote SSH extension
+1. Lancez VS Code, soit directement sur le Pi, soit sur votre ordinateur et connecté au Pi en utilisant l'extension SSH à distance.
 
-1. Launch the VS Code Terminal by selecting *Terminal -> New Terminal, or pressing `` CTRL+` ``. It will open to the `pi` users home directory.
+1. Lancez le terminal VS Code en sélectionnant *Terminal -> Nouveau terminal, ou en appuyant sur `` CTRL+``. Il s'ouvrira sur le répertoire personnel de l'utilisateur du `pi`.
 
-1. Run the following commands to create a directory for your code, and create a Python file called `app.py` inside that directory:
+1. Exécutez les commandes suivantes pour créer un répertoire pour votre code, et créez un fichier Python appelé `app.py` dans ce répertoire :
 
     ```sh
     mkdir nightlight
@@ -217,33 +219,33 @@ Create the Hello World app.
     touch app.py
     ```
 
-1. Open this folder in VS Code by selecting *File -> Open...* and selecting the *nightlight* folder, then select **OK**
+1. Ouvrez ce dossier dans VS Code en sélectionnant *File -> Open...* et en sélectionnant le dossier *nightlight*, puis sélectionnez **OK**.
 
-    ![The VS Code open dialog showing the nightlight folder](../../../images/vscode-open-nightlight-remote.png)
+    ![Le dialogue d'ouverture de VS Code montrant le dossier nightlight](../../../../images/vscode-open-nightlight-remote.png)
 
-1. Open the `app.py` file from the VS Code explorer and add the following code:
+1. Ouvrez le fichier `app.py` depuis l'explorateur de code VS et ajoutez le code suivant :
 
     ```python
     print('Hello World!')
     ```
 
-    The `print` function prints whatever is passed to it to the console.
+    La fonction `print` affiche sur la console ce qui lui est passé.
 
-1. From the VS Code Terminal, run the following to run your Python app:
+1. Depuis le terminal VS Code, exécutez ce qui suit pour lancer votre application Python :
 
     ```sh
     python3 app.py
     ```
 
-    > 💁 You need to explicitly call `python3` to run this code just in case you have Python 2 installed in addition to Python 3 (the latest version). If you have Python2 installed then calling `python` will use Python 2 instead of Python 3
+    > 💁 Vous devez appeler explicitement `python3` pour exécuter ce code au cas où vous auriez installé Python 2 en plus de Python 3 (la dernière version). Si vous avez installé Python 2, l'appel à `python` utilisera Python 2 au lieu de Python 3.
 
-    The following output will appear in the terminal:
+    La sortie suivante apparaîtra dans le terminal:
 
-    ```output
+    ``sortie
     pi@raspberrypi:~/nightlight $ python3 app.py
-    Hello World!
+    Bonjour le monde !
     ```
 
-> 💁 You can find this code in the [code/pi](code/pi) folder.
+> 💁 Vous pouvez trouver ce code dans le dossier [code/pi](code/pi).
 
-😀 Your 'Hello World' program was a success!
+😀 Votre programme "Hello World" a été un succès !
