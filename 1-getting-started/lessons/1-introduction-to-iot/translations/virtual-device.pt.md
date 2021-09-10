@@ -177,7 +177,7 @@ Como uma segunda etapa 'Hello World', você executará o aplicativo CounterFit e
 1. A partir do terminal do VS Code, inicie o aplicativo CounterFit com o seguinte comando:
 
     ```sh
-    CounterFit
+    counterfit
     ```
 
     O aplicativo começará a funcionar e abrir no seu navegador da web:
@@ -193,7 +193,7 @@ Como uma segunda etapa 'Hello World', você executará o aplicativo CounterFit e
     CounterFitConnection.init('127.0.0.1', 5000)
     ```
 
-    Este código importa a classe `CounterFitConnection` do módulo` counterfit_connection`, que vem do pacote pip `counterfit-connection` que você instalou anteriormente. Em seguida, ele inicializa uma conexão com o aplicativo CounterFit em execução em `127.0.0.1`, que é um endereço IP que você sempre pode usar para acessar seu computador local (muitas vezes referido como *localhost*), na porta 5000.
+    Este código importa a classe `CounterFitConnection` do módulo `counterfit_connection`, que vem do pacote pip `counterfit-connection` que você instalou anteriormente. Em seguida, ele inicializa uma conexão com o aplicativo CounterFit em execução em `127.0.0.1`, que é um endereço IP que você sempre pode usar para acessar seu computador local (muitas vezes referido como *localhost*), na porta 5000.
 
     > 💁 Se você tiver outros aplicativos em execução na porta 5000, pode alterar isso atualizando a porta no código e executando o CounterFit usando `CounterFit --port <port_number>`, substituindo `<port_number>` pela porta que deseja usar.
 

@@ -188,7 +188,7 @@ As a second 'Hello World' step, you will run the CounterFit app and connect your
 1. From the VS Code terminal, launch the CounterFit app with the following command:
 
     ```sh
-    CounterFit
+    counterfit
     ```
 
     The app will start running and open in your web browser:
