@@ -177,7 +177,7 @@ Python 的强大功能之一是能够安装 [pip 软件包](https://pypi.org)；
 1. 从 VS Code 终端，用以下的命令启动 CounterFit 应用：
 
     ```sh
-    CounterFit
+    counterfit
     ```
 
     应用将开始运行以及在你的网页浏览器打开：
