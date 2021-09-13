@@ -1,4 +1,3 @@
-[![French](https://img.shields.io/badge/-French-purple)](SUPPORT.fr.md)
 # Support
 
 ## Comment déposer des problèmes et obtenir de l'aide  
