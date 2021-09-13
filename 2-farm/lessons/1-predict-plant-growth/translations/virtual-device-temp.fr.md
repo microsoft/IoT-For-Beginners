@@ -1,4 +1,3 @@
-[![French](https://img.shields.io/badge/-French-purple)](virtual-device-temp.fr.md)
 # Mesurer la température - Matériel virtuel IoT
 
 Dans cette partie de la leçon, vous allez ajouter un capteur de température à votre dispositif IoT virtuel.

@@ -1,4 +1,3 @@
-[![French](https://img.shields.io/badge/-French-purple)](pi-temp.fr.md)
 # Mesure de temperature - Raspberry Pi
 
 Dans cette partie de la leçon, vous allez ajouter un capteur de température à votre Raspberry Pi.

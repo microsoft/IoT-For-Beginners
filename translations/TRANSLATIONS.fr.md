@@ -1,4 +1,3 @@
-[![French](https://img.shields.io/badge/-French-purple)](TRANSLATIONS.fr.md)
 # Contribuez en traduisant des leçons
 
 Les traductions des leçons de ce programme sont les bienvenues !

@@ -1,4 +1,3 @@
-[![French](https://img.shields.io/badge/-French-purple)](translations/README.fr.md)
 # Anticiper la croissance de ses plantes avec l'IoT
 
 ![Un apperçu de cette leçon](../../../../sketchnotes/lesson-5.jpg)

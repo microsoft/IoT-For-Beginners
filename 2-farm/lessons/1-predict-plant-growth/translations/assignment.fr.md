@@ -1,4 +1,3 @@
-[![French](https://img.shields.io/badge/-French-purple)](assignment.fr.md)
 # Visualiser les données DJC à l'aide d'un Jupyter Notebook
 
 ## Instructions

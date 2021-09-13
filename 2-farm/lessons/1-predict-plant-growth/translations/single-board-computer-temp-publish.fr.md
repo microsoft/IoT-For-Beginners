@@ -1,4 +1,3 @@
-[![French](https://img.shields.io/badge/-French-purple)](single-board-computer-temp-publish.fr.md)
 # Publier la température - Matériel virtuel IoT et Raspberry Pi
 
 Dans cette partie de la leçon, vous allez publier les valeurs de température détectées par le Raspberry Pi ou le dispositif IoT virtuel sur MQTT afin qu'elles puissent être utilisées ultérieurement pour calculer le DJC.

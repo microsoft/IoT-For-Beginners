@@ -1,4 +1,3 @@
-[![French](https://img.shields.io/badge/-French-purple)](SECURITY.fr.md)
 <!-- BEGIN MICROSOFT SECURITY.MD V0.0.5 BLOCK -->
 
 ## Sécurité

@@ -15,7 +15,7 @@
 
 # IoT pour débutants - Le Curriculum
 
-Chez Microsoft, les partisans d'Azure infonuagique est fière de vous offrir ce cursus de formation en ligne sur les bases de l'Internet des Objets (IoT). Cette formation de 12 semaines sera ventillée en 24 leçons, comprendra des questionnaires avant et après chacune des leçons. Elle comprendra aussi des instructions écrites permettant de compléter les leçons, des solutions et bien plus encore. Notre pédagogie orientée sur la réalisation de projet vous permettra d'apprendre tout en développant des compétences durables.
+Chez Microsoft, les partisans d'Azure infonuagique sont fiers de vous offrir ce cursus de formation en ligne sur les bases de l'Internet des Objets (IoT). Cette formation de 12 semaines sera ventillée en 24 leçons, comprendra des questionnaires avant et après chacune des leçons. Elle comprendra aussi des instructions écrites permettant de compléter les leçons, des solutions et bien plus encore. Notre pédagogie orientée sur la réalisation de projet vous permettra d'apprendre tout en développant des compétences durables.
 
 L'ensemble des projets parlent du parcours que les aliments suivent, de la ferme jusqu'à l'assiette. On y aborde notemment la production à la ferme, la logistique, la fabrication, la ou encore de la vente au détail. Bref, un ensemble d'industries propices à l'utilisation d'objets connectés.
 

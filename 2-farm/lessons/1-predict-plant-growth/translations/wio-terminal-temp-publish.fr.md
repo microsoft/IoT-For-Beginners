@@ -1,4 +1,3 @@
-[![French](https://img.shields.io/badge/-French-purple)](wio-terminal-temp-publish.fr.md)
 # Publier la température - Terminal Wio
 
 Dans cette partie de la leçon, vous allez publier les valeurs de température détectées par le terminal Wio sur MQTT afin qu'elles puissent être utilisées ultérieurement pour calculer le DJC.
