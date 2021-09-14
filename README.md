@@ -11,6 +11,7 @@
 [![Bengali](https://img.shields.io/badge/-Bengali-blue)](translations/README.bn.md)
 [![Chinese](https://img.shields.io/badge/-Chinese-yellow)](translations/README.zh-cn.md)
 [![Turkish](https://img.shields.io/badge/-Turkish-darkgreen)](translations/README.tr.md)
+[![French](https://img.shields.io/badge/-French-purple)](translations/README.fr.md)
 
 # IoT for Beginners - A Curriculum
 
