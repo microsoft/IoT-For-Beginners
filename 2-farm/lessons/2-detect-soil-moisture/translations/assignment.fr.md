@@ -1,47 +1,47 @@
-# Calibrate your sensor
+# Calibrez votre capteur
 
 ## Instructions
 
-In this lesson you gathered soil moisture sensor readings, measured as values from 0-1023. To convert these into actual soil moisture readings, you need to calibrate your sensor. You can do this by taking readings from soil samples, then calculating the gravimetric soil moisture content from these samples.
+Dans cette leçon, vous avez recueilli les lectures de la sonde d'humidité du sol mesurées sous forme de valeurs comprises entre 0 et 1023. Pour les convertir en valeurs réelles d'humidité du sol, vous devez étalonner votre capteur. Pour ce faire, vous pouvez effectuer des relevés sur des échantillons de sol, puis calculer la teneur en eau gravimétrique du sol à partir de ces échantillons.
 
-You will need to repeat these steps multiple times to get the readings needed, with different wetness of soil each time.
+Vous devrez répéter ces étapes plusieurs fois pour obtenir les lectures nécessaires, avec une humidité différente du sol à chaque fois.
 
-1. Take a soil moisture reading using the soil moisture sensor. Write down this reading.
+1. Relevez l'humidité du sol à l'aide du capteur d'humidité du sol. Notez cette mesure.
 
-1. Take a sample of the soil, and weigh it. Write down this weight.
+1. Prenez un échantillon du sol et pesez-le. Notez ce poids.
 
-1. Dry the soil - a warm oven at 110°C (230°F) for a few hours is the best way, you can do this in sunlight, or place it in a warm, dry place until the soil is completely dry. It should be powdery and loose.
+1. Séchez la terre - un four chaud à 110°C (230°F) pendant quelques heures est le meilleur moyen, vous pouvez le faire à la lumière du soleil, ou le placer dans un endroit chaud et sec jusqu'à ce que la terre soit complètement sèche. Elle doit être poudreuse et meuble.
 
-    > 💁 In a lab for the most accurate results you would dry in an oven for 48-72 hours. If you have drying ovens at your school, see if you can use these to dry for longer. The longer, the more dry the sample and the more accurate the results.
+    > 💁 Dans un laboratoire, pour obtenir les résultats les plus précis, vous devez sécher dans un four pendant 48 à 72 heures. Si vous avez des étuves à votre école, voyez si vous pouvez les utiliser pour sécher plus longtemps. Plus le temps est long, plus l'échantillon est sec et plus les résultats sont précis.
 
-1. Weigh the soil again.
+1. Pesez à nouveau la terre.
 
-    > 🔥 If you dried it in an oven make sure it has cooled down first!
+    > 🔥 Si vous l'avez séché dans un four, assurez-vous qu'il a d'abord refroidi !
 
-The gravimetric soil moisture is calculated as:
+L'humidité gravimétrique du sol est calculée comme suit :
 
-![soil moisture % is weight wet minus weight dry, divided by weight dry, times 100](../../../images/gsm-calculation.png)
+![Le pourcentage d'humidité du sol est le poids humide moins le poids sec, divisé par le poids sec, multiplié par 100](../../../../images/gsm-calculation.png)
 
-* W<sub>wet</sub> - the weight of the wet soil
-* W<sub>dry</sub> - the weight of the dry soil
+* W<sub>humide</sub> - le poids de la terre humide
+* W<sub>sec</sub> - le poids du sol sec
 
-For example, say you have a soil sample that weights 212g wet, and 197g dry.
+Par exemple, disons que vous avez un échantillon de sol qui pèse 212 g humide et 197 g sec.
 
-![The calculation filled in](../../../images/gsm-calculation-example.png)
+![Calcul rempli](../../../../images/gsm-calculation-example.png)
 
-* W<sub>wet</sub> = 212g
-* W<sub>dry</sub> = 197g
+* W<sub>humide</sub> = 212g
+* W<sub>sec</sub> = 197g
 * 212 - 197 = 15
 * 15 / 197 = 0.076
 * 0.076 * 100 = 7.6%
 
-In this example, the soil has a gravimetric soil moisture of 7.6%.
+Dans cet exemple, le sol a une humidité gravimétrique de 7,6 %.
 
-Once you have the readings for at least 3 samples, plot a graph of soil moisture % to soil moisture sensor reading and add line to best fit the points. You can then use this to calculate the gravimetric soil moisture content for a given sensor reading by reading the value from the line.
+Une fois que vous avez les lectures d'au moins 3 échantillons, tracez un graphique du pourcentage d'humidité du sol par rapport à la lecture du capteur d'humidité du sol et ajoutez la ligne qui correspond le mieux aux points. Vous pouvez ensuite utiliser ce graphique pour calculer la teneur en eau gravimétrique du sol pour une lecture de capteur donnée en lisant la valeur de la ligne.
 
-## Rubric
+## Grille d'évaluation
 
-| Criteria | Exemplary | Adequate | Needs Improvement |
+| Critère | Exemple | Adéquat | Nécessite amélioration |
 | -------- | --------- | -------- | ----------------- |
-| Gather calibration data | Capture at least 3 calibration samples | Capture at least 2 calibration samples |Capture at least 1 calibration sample |
-| Make a calibrated reading | Successfully plot the calibration graph and make a reading from the sensor, and convert it to gravimetric soil moisture content | Successfully plot the calibration graph | Not able to plot the graph |
+| Recueillir les données d'étalonnage | Capturez au moins 3 échantillons d'étalonnage | Capturez au moins 2 échantillons d'étalonnage | Capturez au moins un échantillon d'étalonnage |
+| Effectuer une lecture calibrée | Tracez avec succès le graphique d'étalonnage, effectuez une lecture du capteur et convertissez-la en teneur en eau gravimétrique du sol | Tracer avec succès le graphique d'étalonnage | Impossible de tracer le graphique |
