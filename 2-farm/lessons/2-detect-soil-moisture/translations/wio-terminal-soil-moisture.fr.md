@@ -1,81 +1,81 @@
-# Measure soil moisture - Wio Terminal
+# Mesurer l'humidité du sol - Terminal Wio
 
-In this part of the lesson, you will add a capacitive soil moisture sensor to your Wio Terminal, and read values from it.
+Dans cette partie de la leçon, vous allez ajouter un capteur capacitif d'humidité du sol à votre terminal Wio, et lire des valeurs à partir de celui-ci.
 
-## Hardware
+## Matériel
 
-The Wio Terminal needs a capacitive soil moisture sensor.
+Le terminal Wio a besoin d'un capteur capacitif d'humidité du sol.
 
-The sensor you'll use is a [Capacitive Soil Moisture Sensor](https://www.seeedstudio.com/Grove-Capacitive-Moisture-Sensor-Corrosion-Resistant.html), that measures soil moisture by detecting the capacitance of the soil, a property than changes as the soil moisture changes. As the soil moisture increases, the voltage decreases.
+Le capteur que vous utiliserez est un [Capteur d'humidité du sol capacitif](https://www.seeedstudio.com/Grove-Capacitive-Moisture-Sensor-Corrosion-Resistant.html), qui mesure l'humidité du sol en détectant la capacité du sol, une propriété qui change en fonction de l'humidité du sol. Plus l'humidité du sol augmente, plus la tension diminue.
 
-This is an analog sensor, so connects to analog pins on the Wio Terminal, using an onboard ADC to create a value from 0-1,023.
+Il s'agit d'un capteur analogique, qui se connecte donc aux broches analogiques de la borne Wio, en utilisant un ADC intégré pour créer une valeur de 0-1,023.
 
-### Connect the soil moisture sensor
+### Connecter le capteur d'humidité du sol
 
-The Grove soil moisture sensor can be connected to the Wio Terminals configurable analog/digital port.
+Le capteur d'humidité du sol Grove peut être connecté au port analogique/numérique configurable des terminaux Wio.
 
-#### Task - connect the soil moisture sensor
+#### Tâche - connecter le capteur d'humidité du sol
 
-Connect the soil moisture sensor.
+Connectez le capteur d'humidité du sol.
 
-![A grove soil moisture sensor](../../../images/grove-capacitive-soil-moisture-sensor.png)
+![Capteur d'humidité du sol de type Groove](../../../../images/grove-capacitive-soil-moisture-sensor.png)
 
-1. Insert one end of a Grove cable into the socket on the soil moisture sensor. It will only go in one way round.
+1. Insérez une extrémité d'un câble Grove dans la prise du capteur d'humidité du sol. Il ne peut être inséré que dans un seul sens.
 
-1. With the Wio Terminal disconnected from your computer or other power supply, connect the other end of the Grove cable to the right-hand side Grove socket on the Wio Terminal as you look at the screen. This is the socket farthest away from the power button.
+1. Le terminal Wio étant déconnecté de votre ordinateur ou de toute autre source d'alimentation, connectez l'autre extrémité du câble Grove à la prise Grove de droite du terminal Wio lorsque vous regardez l'écran. Il s'agit de la prise la plus éloignée du bouton d'alimentation.
 
-![The grove soil moisture sensor connected to the right hand socket](../../../images/wio-soil-moisture-sensor.png)
+![Le capteur d'humidité du sol du bosquet est connecté à la prise de droite](../../../../images/wio-soil-moisture-sensor.png)
 
-1. Insert the soil moisture sensor into soil. It has a 'highest position line' - a white line across the sensor. Insert the sensor up to but not past this line.
+1. Insérez le capteur d'humidité du sol dans le sol. Il est doté d'une " ligne de position la plus élevée ", une ligne blanche qui traverse le capteur. Insérez le capteur jusqu'à cette ligne mais sans la dépasser.
 
-![The grove soil moisture sensor in soil](../../../images/soil-moisture-sensor-in-soil.png)
+![Le capteur d'humidité du sol The Grove dans le sol](../../../../images/soil-moisture-sensor-in-soil.png)
 
-1. You can now connect the Wio Terminal to your computer.
+1. Vous pouvez maintenant connecter le terminal Wio à votre ordinateur.
 
-## Program the soil moisture sensor
+## Programmer le capteur d'humidité du sol
 
-The Wio Terminal can now be programmed to use the attached soil moisture sensor.
+Le terminal Wio peut maintenant être programmé pour utiliser la sonde d'humidité du sol jointe.
 
-### Task - program the soil moisture sensor
+### Tâche - programmer le capteur d'humidité du sol
 
-Program the device.
+Programmez l'appareil.
 
-1. Create a brand new Wio Terminal project using PlatformIO. Call this project `soil-moisture-sensor`. Add code in the `setup` function to configure the serial port.
+1. Créez un tout nouveau projet Wio Terminal en utilisant PlatformIO. Appelez ce projet `soil-moisture-sensor`. Ajoutez du code dans la fonction `setup` pour configurer le port série.
 
-    > ⚠️ You can refer to [the instructions for creating a PlatformIO project in project 1, lesson 1 if needed](../../../1-getting-started/lessons/1-introduction-to-iot/wio-terminal.md#create-a-platformio-project).
+    > ⚠️ Vous pouvez vous référer [aux instructions pour créer un projet PlatformIO dans le projet 1, leçon 1 si nécessaire](../../../../1-getting-started/lessons/1-introduction-to-iot/wio-terminal.fr.md).
 
-1. There isn't a library for this sensor, instead you can read from the analog pin using the built in Arduino [`analogRead`](https://www.arduino.cc/reference/en/language/functions/analog-io/analogread/) function. Start by configuring the analog pin for input so values can be read from it by adding the following to the `setup` function.
+1. Il n'y a pas de bibliothèque pour ce capteur, à la place vous pouvez lire la broche analogique en utilisant la fonction Arduino intégré [`analogRead`](https://www.arduino.cc/reference/en/language/functions/analog-io/analogread/). Commencez par configurer la broche analogique pour l'entrée afin que les valeurs puissent être lues en ajoutant ce qui suit à la fonction `setup`.
 
     ```cpp
     pinMode(A0, INPUT);
     ```
 
-    This sets the `A0` pin, the combined analog/digital pin, as an input pin that voltage can be read from.
+    Ceci définit la broche `A0`, la broche combinée analogique/numérique, comme une broche d'entrée sur laquelle la tension peut être lue.
 
-1. Add the following to the `loop` function to read the voltage from this pin:
+1. Ajoutez ce qui suit à la fonction `loop` pour lire la tension de cette broche :
 
     ```cpp
     int soil_moisture = analogRead(A0);
     ```
 
-1. Below this code, add the following code to print the value to the serial port:
+1. Sous ce code, ajoutez le code suivant pour imprimer la valeur sur le port série :
 
     ```cpp
     Serial.print("Soil Moisture: ");
     Serial.println(soil_moisture);
     ```
 
-1. Finally add a delay at the end of 10 seconds:
+1. Enfin, ajoutez un délai à la fin de 10 secondes :
 
     ```cpp
     delay(10000);
     ```
 
-1. Build and upload the code to the Wio Terminal.
+1. Construisez et téléchargez le code sur le terminal Wio.
 
-    > ⚠️ You can refer to [the instructions for creating a PlatformIO project in project 1, lesson 1 if needed](../../../1-getting-started/lessons/1-introduction-to-iot/wio-terminal.md#write-the-hello-world-app).
+    > ⚠️ Vous pouvez vous référer [aux instructions pour créer un projet PlatformIO dans le projet 1, leçon 1 si nécessaire](../../../../1-getting-started/lessons/1-introduction-to-iot/wio-terminal.fr.md).
 
-1. Once uploaded, you can monitor the soil moisture using the serial monitor. Add some water to the soil, or remove the sensor from the soil, and see the value change.
+1. Une fois téléchargé, vous pouvez surveiller l'humidité du sol à l'aide du moniteur série. Ajoutez un peu d'eau au sol, ou retirez le capteur du sol, et observez le changement de valeur.
 
     ```output
     > Executing task: platformio device monitor <
@@ -96,8 +96,8 @@ Program the device.
     Soil Moisture: 391
     ```
 
-    In the example output above, you can see the voltage drop as water is added.
+    Dans l'exemple de sortie ci-dessus, vous pouvez voir la chute de tension lorsque de l'eau est ajoutée.
 
-> 💁 You can find this code in the [code/wio-terminal](code/wio-terminal) folder.
+> 💁 Vous pouvez trouver ce code dans le fichier [code/wio-terminal](../code/wio-terminal).
 
-😀 Your soil moisture sensor program was a success!
+😀 Votre programme de capteurs d'humidité du sol a été un succès !
