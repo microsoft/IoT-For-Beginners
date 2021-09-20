@@ -1,82 +1,82 @@
-# Measure soil moisture - Virtual IoT Hardware
+# Mesurer l'humidité du sol - Matériel IoT Virtuel
 
-In this part of the lesson, you will add a capacitive soil moisture sensor to your virtual IoT device, and read values from it.
+Dans cette partie de la leçon, vous allez ajouter un capteur capacitif d'humidité du sol à votre dispositif IoT virtuel, et lire des valeurs à partir de celui-ci.
 
-## Virtual Hardware
+## Matériel virtuel
 
-The virtual IoT device will use a simulated Grove capacitive soil moisture sensor. This keeps this lab the same as using a Raspberry Pi with a physical Grove capacitive soil moisture sensor.
+Le dispositif IoT virtuel utilisera un capteur d'humidité du sol capacitif Grove simulé. Ainsi, ce laboratoire est identique à l'utilisation d'un Raspberry Pi avec un capteur d'humidité du sol capacitif Grove physique.
 
-In a physical IoT device, the soil moisture sensor would be a capacitive sensor that measures soil moisture by detecting the capacitance of the soil, a property than changes as the soil moisture changes. As the soil moisture increases, the voltage decreases.
+Dans un dispositif IoT physique, le capteur d'humidité du sol serait un capteur capacitif qui mesure l'humidité du sol en détectant la capacité du sol, une propriété qui change en fonction de l'humidité du sol. Lorsque l'humidité du sol augmente, la tension diminue.
 
-This is an analog sensor, so uses a simulated 10-bit ADC to report a value from 1-1,023.
+Il s'agit d'un capteur analogique, qui utilise donc un ADC 10 bits simulé pour rapporter une valeur de 1 à 1023.
 
-### Add the soil moisture sensor to CounterFit
+### Ajouter le capteur d'humidité du sol à CounterFit
 
-To use a virtual soil moisture sensor, you need to add it to the CounterFit app
+Pour utiliser un capteur d'humidité du sol virtuel, vous devez l'ajouter à l'application CounterFit.
 
-#### Task - dd the soil moisture sensor to CounterFit
+#### Tâche - Ajout du capteur d'humidité du sol à CounterFit
 
-Add the soil moisture sensor to the CounterFit app.
+Ajoutez le capteur d'humidité du sol à l'application CounterFit.
 
-1. Create a new Python app on your computer in a folder called `soil-moisture-sensor` with a single file called `app.py` and a Python virtual environment, and add the CounterFit pip packages.
+1. Créez une nouvelle application Python sur votre ordinateur dans un dossier appelé `soil-moisture-sensor` avec un seul fichier appelé `app.py` et un environnement virtuel Python, et ajoutez les paquets pip de CounterFit.
 
-    > ⚠️ You can refer to [the instructions for creating and setting up a CounterFit Python project in lesson 1 if needed](../../../1-getting-started/lessons/1-introduction-to-iot/virtual-device.md).
+    > ⚠️ Vous pouvez vous référer [aux instructions pour créer et configurer un projet Python CounterFit dans la leçon 1 si nécessaire](../../../../1-getting-started/lessons/1-introduction-to-iot/virtual-device.fr.md).
 
-1. Make sure the CounterFit web app is running
+1. Assurez-vous que l'application web CounterFit est en cours d'exécution.
 
-1. Create a soil moisture sensor:
+1. Créez un capteur d'humidité du sol :
 
-    1. In the *Create sensor* box in the *Sensors* pane, drop down the *Sensor type* box and select *Soil Moisture*.
+    1. Dans la case *Create sensor* du volet *Sensors*, déroulez la case *Sensor type* et sélectionnez *Soil Moisture*.
 
-    1. Leave the *Units* set to *NoUnits*
+    1. Laissez le paramètre *Units* sur *NoUnits*.
 
-    1. Ensure the *Pin* is set to *0*
+    1. Assurez-vous que le paramètre *Pin* est réglée sur *0*.
 
-    1. Select the **Add** button to create the humidity sensor on Pin 0
+    1. Sélectionnez le bouton **Add** pour créer le capteur d'humidité sur la broche 0.
 
-    ![The soil moisture sensor settings](../../../images/counterfit-create-soil-moisture-sensor.png)
+    ![The soil moisture sensor settings](../../../../images/counterfit-create-soil-moisture-sensor.png)
 
-    The soil moisture sensor will be created and appear in the sensors list.
+    Le capteur d'humidité du sol sera créé et apparaîtra dans la liste des capteurs.
 
-    ![The soil moisture sensor created](../../../images/counterfit-soil-moisture-sensor.png)
+    ![Le capteur d'humidité du sol a créé](../../../../images/counterfit-soil-moisture-sensor.png)
 
-## Program the soil moisture sensor app
+## Programmez l'application du capteur d'humidité du sol
 
-The soil moisture sensor app can now be programmed using the CounterFit sensors.
+L'application du capteur d'humidité du sol peut maintenant être programmée en utilisant les capteurs CounterFit.
 
-### Task - program the soil moisture sensor app
+### Tâche - programmer l'application du capteur d'humidité du sol
 
-Program the soil moisture sensor app.
+Programmez l'application du capteur d'humidité du sol.
 
-1. Make sure the `soil-moisture-sensor` app is open in VS Code
+1. Assurez-vous que l'application "Soil-Moisture-Sensor" est ouverte dans VS Code.
 
-1. Open the `app.py` file
+1. Ouvrez le fichier `app.py`.
 
-1. Add the following code to the top of `app.py` to connect the app to CounterFit:
+1. Ajoutez le code suivant au début de `app.py` pour connecter l'application à CounterFit :
 
     ```python
     from counterfit_connection import CounterFitConnection
     CounterFitConnection.init('127.0.0.1', 5000)
     ```
 
-1. Add the following code to the `app.py` file to import some required libraries:
+1. Ajoutez le code suivant au fichier `app.py` pour importer certaines bibliothèques requises :
 
     ```python
     import time
     from counterfit_shims_grove.adc import ADC
     ```
 
-    The `import time` statement imports the `time` module that will be used later in this assignment.
+    L'instruction `import time` importe le module `time` qui sera utilisé plus tard dans ce devoir.
 
-    The `from counterfit_shims_grove.adc import ADC` statement imports the `ADC` class to interact with a virtual analog to digital converter that can connect to a CounterFit sensor.
+    L'instruction `from counterfit_shims_grove.adc import ADC` importe la classe `ADC` pour interagir avec un convertisseur analogique-numérique virtuel qui peut se connecter à un capteur CounterFit.
 
-1. Add the following code below this to create an instance of the `ADC` class:
+1. Ajoutez le code suivant en dessous pour créer une instance de la classe `ADC` :
 
     ```python
     adc = ADC()
     ```
 
-1. Add an infinite loop that reads from this ADC on pin 0 and write the result to the console. This loop can then sleep for 10 seconds between reads.
+1. Ajoutez une boucle infinie qui lit à partir de cet ADC sur la broche 0 et écrit le résultat sur la console. Cette boucle peut ensuite dormir pendant 10 secondes entre les lectures.
 
     ```python
     while True:
@@ -86,13 +86,13 @@ Program the soil moisture sensor app.
         time.sleep(10)
     ```
 
-1. From the CounterFit app, change the value of the soil moisture sensor that will be read by the app. You can do this in one of two ways:
+1. Depuis l'application CounterFit, modifiez la valeur de la sonde d'humidité du sol qui sera lue par l'application. Vous pouvez le faire de deux façons :
 
-    * Enter a number in the *Value* box for the soil moisture sensor, then select the **Set** button. The number you enter will be the value returned by the sensor.
+    * Saisissez un nombre dans la case *Value* pour le capteur d'humidité du sol, puis sélectionnez le bouton **Set**. Le nombre que vous saisissez sera la valeur renvoyée par le capteur.
 
-    * Check the *Random* checkbox, and enter a *Min* and *Max* value, then select the **Set** button. Every time the sensor reads a value, it will read a random number between *Min* and *Max*.
+    * Cochez la case *Random* et saisissez une valeur *Min* et *Max*, puis sélectionnez le bouton **Set**. Chaque fois que le capteur lit une valeur, il lit un nombre aléatoire entre *Min* et *Max*.
 
-1. Run the Python app. You will see the soil moisture measurements written to the console. Change the *Value* or the *Random* settings to see the value change.
+1. Exécutez l'application Python. Vous verrez les mesures d'humidité du sol écrites dans la console. Changez les paramètres *Value* ou *Random* pour voir la valeur changer.
 
     ```output
     (.venv) ➜ soil-moisture-sensor $ python app.py 
@@ -104,6 +104,6 @@ Program the soil moisture sensor app.
     Soil Moisture: 388
     ```
 
-> 💁 You can find this code in the [code/virtual-device](code/virtual-device) folder.
+> 💁 Vous pouvez trouver ce code dans le [code/virtual-device](../code/virtual-device) folder.
 
-😀 Your soil moisture sensor program was a success!
+😀 Votre programme de capteurs d'humidité du sol a été un succès !
