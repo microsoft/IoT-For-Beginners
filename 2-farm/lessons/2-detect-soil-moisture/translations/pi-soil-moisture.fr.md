@@ -1,71 +1,71 @@
-# Measure soil moisture - Raspberry Pi
+# Mesurer l'humidité du sol - Raspberry Pi
 
-In this part of the lesson, you will add a capacitive soil moisture sensor to your Raspberry Pi, and read values from it.
+Dans cette partie de la leçon, vous allez ajouter un capteur capacitif d'humidité du sol à votre Raspberry Pi, et lire des valeurs à partir de celui-ci.
 
-## Hardware
+## Matériel
 
-The Raspberry Pi needs a capacitive soil moisture sensor.
+Le Raspberry Pi a besoin d'un capteur capacitif d'humidité du sol.
 
-The sensor you'll use is a [Capacitive Soil Moisture Sensor](https://www.seeedstudio.com/Grove-Capacitive-Moisture-Sensor-Corrosion-Resistant.html), that measures soil moisture by detecting the capacitance of the soil, a property than changes as the soil moisture changes. As the soil moisture increases, the voltage decreases.
+Le capteur que vous utiliserez est un [Capteur d'humidité du sol capacitif](https://www.seeedstudio.com/Grove-Capacitive-Moisture-Sensor-Corrosion-Resistant.html). Ce dernier mesure l'humidité du sol en détectant la capacité du sol, une propriété qui change en fonction de l'humidité du sol. Plus l'humidité du sol augmente, plus la tension diminue.
 
-This is an analog sensor, so uses an analog pin, and the 10-bit ADC in the Grove Base Hat on the Pi to convert the voltage to a digital signal from 1-1,023. This is then sent over I<sup>2</sup>C via the GPIO pins on the Pi.
+Il s'agit d'un capteur analogique, qui utilise donc une broche analogique et le ADC 10 bits du "Grove Base Hat" sur le Pi pour convertir la tension en un signal numérique de 1 à 1023. Celui-ci est ensuite envoyé sur I<sup>2</sup>C via les broches GPIO du Pi.
 
-### Connect the soil moisture sensor
+### Connecter le capteur d'humidité du sol
 
-The Grove soil moisture sensor can be connected to the Raspberry Pi.
+Le capteur d'humidité du sol Grove peut être connecté au Raspberry Pi.
 
-#### Task - connect the soil moisture sensor
+#### Tâche - connecter le capteur d'humidité du sol
 
-Connect the soil moisture sensor.
+Connectez le capteur d'humidité du sol.
 
-![A grove soil moisture sensor](../../../images/grove-capacitive-soil-moisture-sensor.png)
+![Capteur d'humidité du sol d'un bosquet](../../../../images/grove-capacitive-soil-moisture-sensor.png)
 
-1. Insert one end of a Grove cable into the socket on the soil moisture sensor. It will only go in one way round.
+1. Insérez une extrémité d'un câble Grove dans la prise du capteur d'humidité du sol. Il ne peut être inséré que dans un seul sens.
 
-1. With the Raspberry Pi powered off, connect the other end of the Grove cable to the analog socket marked **A0** on the Grove Base hat attached to the Pi. This socket is the second from the right, on the row of sockets next to the GPIO pins.
+1. Lorsque le Raspberry Pi est hors tension, connectez l'autre extrémité du câble Grove à la prise analogique marquée **A0** sur le "Grove Base Hat" fixé au Pi. Cette prise est la deuxième en partant de la droite, sur la rangée de prises à côté des broches GPIO.
 
-![The grove soil moisture sensor connected to the A0 socket](../../../images/pi-soil-moisture-sensor.png)
+![Le capteur d'humidité du sol du bosquet connecté à la prise A0](../../../../images/pi-soil-moisture-sensor.png)
 
-1. Insert the soil moisture sensor into soil. It has a 'highest position line' - a white line across the sensor. Insert the sensor up to but not past this line.
+1. Insérez le capteur d'humidité du sol dans le sol. Il est doté d'une " ligne de position la plus élevée ", une ligne blanche qui traverse le capteur. Insérez le capteur jusqu'à cette ligne mais sans la dépasser.
 
-![The grove soil moisture sensor in soil](../../../images/soil-moisture-sensor-in-soil.png)
+![Le capteur d'humidité du sol The Grove dans le sol](../../../../images/soil-moisture-sensor-in-soil.png)
 
-## Program the soil moisture sensor
+## Programmer le capteur d'humidité du sol
 
-The Raspberry Pi can now be programmed to use the attached soil moisture sensor.
+Le Raspberry Pi peut maintenant être programmé pour utiliser la sonde d'humidité du sol jointe.
 
-### Task - program the soil moisture sensor
+### Tâche - programmer le capteur d'humidité du sol
 
-Program the device.
+Programmez l'appareil.
 
-1. Power up the Pi and wait for it to boot
+1. Allumez le Pi et attendez qu'il démarre.
 
-1. Launch VS Code, either directly on the Pi, or connect via the Remote SSH extension.
+1. Lancez VS Code, soit directement sur le Pi, soit en vous connectant via l'extension SSH à distance.
 
-    > ⚠️ You can refer to [the instructions for setting up and launch VS Code in nightlight - lesson 1 if needed](../../../1-getting-started/lessons/1-introduction-to-iot/pi.md).
+    > ⚠️ Vous pouvez vous référer [aux instructions pour configurer et lancer VS Code dans la veilleuse - leçon 1 si nécessaire](../../../../1-getting-started/lessons/1-introduction-to-iot/pi.fr.md).
 
-1. From the terminal, create a new folder in the `pi` users home directory called `soil-moisture-sensor`. Create a file in this folder called `app.py`.
+1. Depuis le terminal, créez un nouveau dossier dans le répertoire personnel de l'utilisateur `pi` appelé `soil-moisture-sensor`. Créez un fichier dans ce dossier appelé `app.py`.
 
-1. Open this folder in VS Code
+1. Ouvrez ce dossier dans VS Code
 
-1. Add the following code to the `app.py` file to import some required libraries:
+1. Ajoutez le code suivant au fichier `app.py` pour importer certaines bibliothèques requises :
 
     ```python
     import time
     from grove.adc import ADC
     ```
 
-    The `import time` statement imports the `time` module that will be used later in this assignment.
+    L'instruction `import time` importe le module `time` qui sera utilisé plus tard dans ce devoir.
 
-    The `from grove.adc import ADC` statement imports the `ADC` from the Grove Python libraries. This library has code to interact with the analog to digital converter on the Pi base hat and read voltages from analog sensors.
+    L'instruction `from grove.adc import ADC` importe le `ADC` des bibliothèques Python de Grove. Cette bibliothèque contient du code pour interagir avec le convertisseur analogique-numérique du chapeau de base Pi et lire les tensions des capteurs analogiques.
 
-1. Add the following code below this to create an instance of the `ADC` class:
+1. Ajoutez le code suivant en dessous pour créer une instance de la classe `ADC` :
 
     ```python
     adc = ADC()
     ```
 
-1. Add an infinite loop that reads from this ADC on the A0 pin, and write the result to the console. This loop can then sleep for 10 seconds between reads.
+1. Ajoutez une boucle infinie qui lit depuis cet ADC sur la broche A0, et écrit le résultat sur la console. Cette boucle peut ensuite dormir pendant 10 secondes entre les lectures.
 
     ```python
     while True:
@@ -75,7 +75,7 @@ Program the device.
         time.sleep(10)
     ```
 
-1. Run the Python app. You will see the soil moisture measurements written to the console. Add some water to the soil, or remove the sensor from the soil, and see the value change.
+1. Exécutez l'application Python. Vous verrez les mesures d'humidité du sol écrites dans la console. Ajoutez de l'eau au sol ou retirez le capteur du sol et observez le changement de valeur.
 
     ```output
     pi@raspberrypi:~/soil-moisture-sensor $ python3 app.py 
@@ -87,8 +87,8 @@ Program the device.
     Soil Moisture: 388
     ```
 
-    In the example output above, you can see the voltage drop as water is added.
+    Dans l'exemple de sortie ci-dessus, vous pouvez voir la chute de tension lorsque de l'eau est ajoutée.
 
-> 💁 You can find this code in the [code/pi](code/pi) folder.
+> 💁 Vous pouvez trouver ce code dans le dossier [code/pi](../code/pi).
 
-😀 Your soil moisture sensor program was a success!
+😀 Votre programme de capteurs d'humidité du sol a été un succès !
