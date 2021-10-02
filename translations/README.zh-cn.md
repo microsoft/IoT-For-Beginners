@@ -119,7 +119,7 @@ npm run convert
 
 我们的团队制作了其它课程！查一下：
 
-- [Web 开发（Web Dev for Beginners）](https://aka.ms/webdev-beginners)
+- [网站开发（Web Dev for Beginners）](https://aka.ms/webdev-beginners)
 - [机器学习（ML for Beginners）](https://aka.ms/ml-beginners)
 - [数据科学（Data Science for Beginners）](https://aka.ms/datascience-beginners)
 
