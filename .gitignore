@@ -8,3 +8,4 @@
 .vscode/ipch
 .ipynb_checkpoints
 /node_modules
+quiz-app/dist

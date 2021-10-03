@@ -154,6 +154,16 @@ Write the Hello World app.
 
     The `loop` function sends the line `Hello World!` to the serial port, so the characters of `Hello World!` along with a new line character. It then sleeps for 5,000 milliseconds or 5 seconds. After the `loop` ends, it is run again, and again, and so on all the time the microcontroller is powered on.
 
+1. Put your Wio Terminal into upload mode. You will need to do this every time you upload new code to the device:
+
+    1. Pull down twice quickly on the power switch - it will spring back to the on position each time.
+
+    1. Check the blue status LED to the right hand side of the USB port. It should be pulsing.
+    
+    [![A video showing how to put the Wio Terminal into upload mode](https://img.youtube.com/vi/LeKU_7zLRrQ/0.jpg)](https://youtu.be/LeKU_7zLRrQ)
+    
+    Click the image above for a video showing how to do this.
+
 1. Build and upload the code to the Wio Terminal
 
     1. Open the VS Code command palette
@@ -168,7 +178,7 @@ Write the Hello World app.
 
         > 💁 If you are using macOS, a notification about a *DISK NOT EJECTED PROPERLY* will appear. This is because the Wio Terminal gets mounted as a drive as part of the flashing process, and it is disconnected when the compiled code is written to the device. You can ignore this notification.
 
-    ⚠️ If you get errors about the upload port being unavailable, first make sure you have the Wio Terminal connected to your computer, and switched on using the switch on the left hand side of the screen. The green light on the bottom should be on. If you still get the error, pull the on/off switch down twice in quick succession to force the Wio Terminal into bootloader mode and try the upload again.
+    ⚠️ If you get errors about the upload port being unavailable, first make sure you have the Wio Terminal connected to your computer, and switched on using the switch on the left hand side of the screen, and set into upload mode. The green light on the bottom should be on, and the blue light should be pulsing. If you still get the error, pull the on/off switch down twice in quick succession again to force the Wio Terminal into upload mode and try the upload again.
 
 PlatformIO has a Serial Monitor that can monitor data sent over the USB cable from the Wio Terminal. This allows you to monitor the data sent by the `Serial.println("Hello World");` command.
 
