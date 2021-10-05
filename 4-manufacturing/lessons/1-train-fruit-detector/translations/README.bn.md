@@ -38,7 +38,7 @@
 
 স্বয়ংক্রিয় পদ্ধতিতে ফসল তোলার ফলে, উৎপাদিত পণ্যের শ্রেণিবিন্যাস কার্যক্রম বর্তমানে কারখানায় হয়ে থাকে। খাদ্য লম্বা কনভেয়ার বেল্ট দিয়ে যাবে এবং শ্রমিকেরা নিম্নমানের পণ্য অপসারণ করবে। যন্ত্রপাতির কল্যাণে ফসল কাটা ও সংগ্রহ করার ক্ষেত্রে খরচ কম ছিল, কিন্তু ম্যানুয়ালি পণ্য বাছাই করা অতিরিক্ত খরচ ও শ্রমের কাজ।
 
-![If a red tomato is detected it continues its journey uninterrupted. If a green tomato is detected it is flicked into a waste bin by a lever](../../../../images/optical-tomato-sorting.png)
+![If a red tomato is detected it continues its journey uninterrupted. If a green tomato is detected it is flicked into a waste bin by a lever](../../../images/optical-tomato-sorting.png)
 
 এই যাত্রায় পরবর্তী বিবর্তন ছিল মেশিনগুলিকে বাছাই করার জন্য ব্যবহার করা, হয় হার্ভেস্টারে নির্মিত অথবা প্রক্রিয়াকরণ কারখানায়। এই মেশিনের প্রথম প্রজন্ম অপটিক্যাল সেন্সর ব্যবহার করে রং সনাক্ত করে, অ্যাকচুয়েটরগুলিকে নিয়ন্ত্রণ করে সবুজ টমেটোকে একটি পাত্রে ধাক্কা দিয়ে ফেলে দিতো, বাতাসের লিভার বা পফ ব্যবহার করে। আবার লাল টমেটো গুলোকে ছেড়ে দিতো যাতে তারা কনভেয়র বেল্টে এগিয়ে যেতে থাকে।
 
