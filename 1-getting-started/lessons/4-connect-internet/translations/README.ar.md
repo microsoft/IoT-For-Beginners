@@ -148,7 +148,7 @@ MQTT لديها وسيط واحد وعملاء متعددين. يتصل جميع
 
     > 💁 لك مطلق الحرية في استخدام أي محرر Python IDE أو محرر لهذه الدروس إذا كان لديك أداة مفضلة ، ولكن الدروس ستعطي إرشادات تستند إلى استخدام VS Code.
 
-1. قم بتثبيت امتداد VS Code Pylance. هذا امتداد لـ VS Code الذي يوفر دعم لغة Python. راجع <a href="https://marketplace.visualstudio.com/items?itemName=ms-python.vscode-pylance&WT.mc_id=academic-17441-jabenn">Pylance extension documentation</a> للحصول على إرشادات حول تثبيت هذا الامتداد في VS Code.
+1. قم بتثبيت امتداد VS Code Pylance. هذا امتداد لـ VS Code الذي يوفر دعم لغة Python. راجع <a href="https://marketplace.visualstudio.com/items?WT.mc_id=academic-17441-jabenn&itemName=ms-python.vscode-pylance">Pylance extension documentation</a> للحصول على إرشادات حول تثبيت هذا الامتداد في VS Code.
 
 #### تكوين بيئة Python الافتراضية
 

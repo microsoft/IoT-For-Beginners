@@ -85,7 +85,7 @@ Program the nightlight.
 
     > 💁 This code should be indented to the same level as the `print('Light level:', light)` line to be inside the while loop!
 
-    > 💁 When sending digital values to actuators, a 0 value is 0v, and a 1 value is the max voltage for the device. For the Raspberry Pi with Grove sensors and actuators, the 1 voltage is 3.3V.
+    > 💁 When sending digital values to actuators, a 0 value is 0V, and a 1 value is the max voltage for the device. For the Raspberry Pi with Grove sensors and actuators, the 1 voltage is 3.3V.
 
 1. From the VS Code Terminal, run the following to run your Python app:
 

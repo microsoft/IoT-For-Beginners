@@ -16,7 +16,7 @@
 
     > 💁 另外一个为 Arduino 开发的 IDE 是  [Arduino IDE](https://www.arduino.cc/en/software)。如果你已经对这个工具熟悉，那你可以把它用来代替 VS Code 和 PlatformIO，但这个课程的指示将基于 VS Code。
 
-1. 安装 VS Code 的 PlatformIO 扩展。这是支持用 C 或 C++ 来为微控制器写编码的 VS Code 扩展。在 [PlatformIO 扩展文档](https://marketplace.visualstudio.com/items?itemName=platformio.platformio-ide&WT.mc_id=academic-17441-jabenn) 找一下在 VS Code 安装扩展的指示。这个扩展依赖着Microsoft C/C++ 扩展来与 C 和 C++ 代码工作，而这个C/C++ 扩展在默认情况下会被安装当你安装 PlatformIO。
+1. 安装 VS Code 的 PlatformIO 扩展。这是支持用 C 或 C++ 来为微控制器写编码的 VS Code 扩展。在 [PlatformIO 扩展文档](https://marketplace.visualstudio.com/items?WT.mc_id=academic-17441-jabenn&itemName=platformio.platformio-ide) 找一下在 VS Code 安装扩展的指示。这个扩展依赖着Microsoft C/C++ 扩展来与 C 和 C++ 代码工作，而这个C/C++ 扩展在默认情况下会被安装当你安装 PlatformIO。
 
 1. 将你的 Wio 终端连接到你的电脑。Wio 终端底下有个 USB-C 端口，而它需要连接到你的电脑的一个 USB 端口。Wio 终端包括一个 USB-C 至 USB-A 电缆，但万一你的电脑只有 USB-C 端口，那你就需要一个 USB-C 电缆或者一个 USB-A 至USB-C 适配器。 
 

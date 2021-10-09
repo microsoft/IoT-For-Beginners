@@ -1,6 +1,6 @@
 # Memulai dengan IoT
 
-Pada bagian ini, Anda akan diperkenalkan dengan Internet of Things, dan mempelajari konsep dasar termasuk membangung proyek IoT 'Hello World' pertama Anda yang terhubung ke *cloud*. Proyek ini merupakan lampu malam yang akan menyala saat tingkat pencahayaan diukur dengan penurunan sensor. This project is a nightlight that lights up as light levels measured by a sensor drop.
+Pada bagian ini, Anda akan diperkenalkan dengan Internet of Things, dan mempelajari konsep dasar termasuk membangung proyek IoT 'Hello World' pertama Anda yang terhubung ke *cloud*. Proyek ini merupakan lampu malam yang akan menyala saat tingkat pencahayaan diukur dengan penurunan sensor.
 
 ![Lampu LED terhubung ke WIO menyala dan mati saat tingkat pencahayaan berubah](../../images/wio-running-assignment-1-1.gif)
 
