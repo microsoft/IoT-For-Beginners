@@ -18,7 +18,7 @@ In this lesson we'll cover:
 * [Control a relay](#control-a-relay)
 * [Control your plant over MQTT](#control-a-relay)
 * [Sensor and actuator timing](#sensor-and-actuator-timing)
-* [Add timing to your plant control](#add-timing-to-your-plant-control)
+* [Add timing to your plant control server](#add-timing-to-your-plant-control-server)
 
 ## Control high power devices from a low power IoT device
 

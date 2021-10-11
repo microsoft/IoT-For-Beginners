@@ -121,7 +121,7 @@ Bir çeviriyle katkıda bulunmak ister miydiniz? Lütfen [çeviri rehberimizi](.
 
 ## Diğer Dersler
 
-Takımımız başka derler de yapıyor:
+Takımımız başka dersler de yapıyor:
 
 - [Yeni başlayanlar için web geliştiriciliği](https://aka.ms/webdev-beginners)
 - [Yeni başlayanlar için makine öğrenimi](https://aka.ms/ml-beginners)
