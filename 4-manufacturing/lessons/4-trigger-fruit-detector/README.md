@@ -10,7 +10,7 @@
 
 ## Introduction
 
-An IoT application is not just a single device capturing data and sending it to the cloud, it is more often that not multiple devices all working together to capture data from the physical world using sensors, make decisions based off that data, and interacting back with the physical world via actuators or visualizations.
+An IoT application is not just a single device capturing data and sending it to the cloud, it is more often than not multiple devices all working together to capture data from the physical world using sensors, make decisions based off that data, and interacting back with the physical world via actuators or visualizations.
 
 In this lesson you will learn more about architecting complex IoT applications, incorporating multiple sensors, multiple cloud services to analyze and store data, and showing a response via an actuator. You will learn how to architect a fruit quality control system prototype, including about using proximity sensors to trigger the IoT application, and what the architecture of this prototype would be.
 
@@ -105,7 +105,7 @@ For the prototype, you will implement all of this on a single device. If you are
 
 ## Trigger fruit quality checking from a sensor
 
-The IoT device needs some kind of trigger to indicate when fruit is ready to be classified. One trigger for this would be to measure when the fruit is at the right location on the conveyor belt my measuring the distance to a sensor.
+The IoT device needs some kind of trigger to indicate when fruit is ready to be classified. One trigger for this would be to measure when the fruit is at the right location on the conveyor belt by measuring the distance to a sensor.
 
 ![Proximity sensors send laser beams to objects like bananas and time how long till the beam is bounced back](../../../images/proximity-sensor.png)
 
