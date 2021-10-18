@@ -130,8 +130,6 @@ Iteration হল কাস্টম ভিসন পোর্টাল ।
 
 ## IoT ডিভাইস থেকে ইমেজ ক্লাসিফাই করা
 
-You can now use these connection details to call the image classifier from your IoT device.
-
 আমরা এখন এই কানেকশন ডিটেইলস গুলো IoT ডিভাইস থেকে ইমেজ ক্লাসিফায়ার কল করার জন্য ব্যবহার করতে পারি।
 
 ### কাজ - আমাদের IoT ডিভাইস থেকে ইমেজ ক্লাসিফাই করা
