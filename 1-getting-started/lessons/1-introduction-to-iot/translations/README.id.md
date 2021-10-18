@@ -10,7 +10,7 @@
 
 ## Pengantar
 
-Pelajaran ini mencakup beberapa topok pengantar mengenai Internet of Things, dan membuat Anda dapat mempersiapkan dan mengatur perangkat keras Anda.
+Pelajaran ini mencakup beberapa topik pengantar mengenai Internet of Things, dan membuat Anda dapat mempersiapkan dan mengatur perangkat keras Anda.
 
 Dalam pelajaran ini kita akan membahas:
 
