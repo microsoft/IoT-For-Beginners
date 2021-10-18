@@ -71,7 +71,7 @@ There are downsides to edge computing, where the cloud may be a preferred option
 
 1. **Scale and flexibility** - cloud computing can adjust to network and data needs in real-time by adding or reducing servers and other resources. To add more edge computers requires manually adding more devices.
 
-1. **Reliability and resiliency** - cloud computing provides multiple servers often in multiple locations for redundancy and disaster recovery. To have the same level of redundancy on the edge requires large investments and a lor of configuration work.
+1. **Reliability and resiliency** - cloud computing provides multiple servers often in multiple locations for redundancy and disaster recovery. To have the same level of redundancy on the edge requires large investments and a lot of configuration work.
 
 1. **Maintenance** - cloud service providers provide system maintenance and updates.
 
