@@ -9,8 +9,10 @@
 [![GitHub stars](https://img.shields.io/github/stars/microsoft/IoT-For-Beginners.svg?style=social&label=Star)](https://GitHub.com/microsoft/IoT-For-Beginners/stargazers/)
 
 [![English](https://img.shields.io/badge/-English-red)](../README.md)
-[![Chinese](https://img.shields.io/badge/-Chinese-yellow)](README.zh-cn.md)
-[![Turkish](https://img.shields.io/badge/-Turkish-darkgreen)](README.tr.md)
+[![Chinese](https://img.shields.io/badge/-Chinese-yellow)](translations/README.zh-cn.md)
+[![Turkish](https://img.shields.io/badge/-Turkish-darkgreen)](translations/README.tr.md)
+[![French](https://img.shields.io/badge/-French-purple)](translations/README.fr.md)
+
 
 # বিগিনারদের জন্য আইওটি - একটি সুবিন্যস্ত পাঠ্যক্রম
 
@@ -24,7 +26,7 @@
 
 **হৃদয়ের অন্তঃস্থল থেকে কৃতজ্ঞতা জানাই এই কোর্সের রচয়িতা [Jen Fox](https://github.com/jenfoxbot), [Jen Looper](https://github.com/jlooper), [Jim Bennett](https://github.com/jimbobbennett) এবং স্কেচনোট শিল্পী [Nitya Narasimhan](https://github.com/nitya)কে ।**
 
-**ধন্যবাদ জানাতে চাই আমাদের সেসকল [Microsoft Learn Student Ambassadors](https://studentambassadors.microsoft.com?WT.mc_id=academic-17441-jabenn)দের, যারা এই কারিক্যুলামটি রিভিউ এবং অনুবাদে কাজ করেছে - [Aditya Garg](https://github.com/AdityaGarg00),[Anurag Sharma](https://github.com/Anurag-0-1-A), [Arpita Das](https://github.com/Arpiiitaaa), [Aryan Jain](https://www.linkedin.com/in/aryan-jain-47a4a1145/), [Bhavesh Suneja](https://github.com/EliteWarrior315),[Faith Hunja](https://faithhunja.github.io/),  [Lateefah Bello](https://www.linkedin.com/in/lateefah-bello/), [Manvi Jha](https://github.com/Severus-Matthew), [Mireille Tan](https://www.linkedin.com/in/mireille-tan-a4834819a/), [Mohammad Iftekher (Iftu) Ebne Jalal](https://github.com/Iftu119), [Priyanshu Srivastav](https://www.linkedin.com/in/priyanshu-srivastav-b067241ba), [Thanmai Gowducheruvu](https://github.com/innovation-platform), এবং [Zina Kamel](https://www.linkedin.com/in/zina-kamel/).**
+**ধন্যবাদ জানাতে চাই আমাদের সেসকল [Microsoft Learn Student Ambassadors](https://studentambassadors.microsoft.com?WT.mc_id=academic-17441-jabenn)দের, যারা এই কারিক্যুলামটি রিভিউ এবং অনুবাদে কাজ করেছে - [Aditya Garg](https://github.com/AdityaGarg00),[Anurag Sharma](https://github.com/Anurag-0-1-A), [Arpita Das](https://github.com/Arpiiitaaa), [Aryan Jain](https://www.linkedin.com/in/aryan-jain-47a4a1145/), [Bhavesh Suneja](https://github.com/EliteWarrior315),[Faith Hunja](https://faithhunja.github.io/),  [Lateefah Bello](https://www.linkedin.com/in/lateefah-bello/), [Manvi Jha](https://github.com/Severus-Matthew), [Mireille Tan](https://www.linkedin.com/in/mireille-tan-a4834819a/), [Mohammad Iftekher (Iftu) Ebne Jalal](https://github.com/Iftu119),[Mohammad Zulfikar](https://github.com/mohzulfikar), [Priyanshu Srivastav](https://www.linkedin.com/in/priyanshu-srivastav-b067241ba), [Thanmai Gowducheruvu](https://github.com/innovation-platform), এবং [Zina Kamel](https://www.linkedin.com/in/zina-kamel/).**
 
 পুরো টীমের সাথে পরিচিত হওয়া যাক !
 
@@ -89,9 +91,9 @@
 | 12 | [পরিবহন](../3-transport) | লোকেশন ডেটা সংরক্ষণ | পরবর্তী সময়ে বিশ্লেষণ বা চিত্রভিত্তিক ডেটা প্রদর্শন (Visualization) এর জন্য আইওটি ডেটা কীভাবে স্টোর করা যায় তা জানা | [লোকেশন ডেটা সংরক্ষণ](../3-transport/lessons/2-store-location-data/translations/README.bn.md) |
 | 13 | [পরিবহন](../3-transport) | লোকেশন ডেটা প্রদর্শন |মানচিত্রে অবস্থানের ডেটা প্রদর্শন করা এবং মানচিত্রগুলি কীভাবে ২টি মাত্রায় বাস্তব ত্রিমাত্রিক বিশ্বের উপস্থাপন করে সে সম্পর্কে জ্ঞান অর্জন | [লোকেশন ডেটা প্রদর্শন](../3-transport/lessons/3-visualize-location-data/translations/README.bn.md) |
 | 14 | [পরিবহন](../3-transport) | Geofences | Geofences সম্পর্কে জানা এবং কীভাবে এটি ব্যবহার করে সাপ্লাই চেইনের বিভিন্ন পর্যায়ের বাহনগুলো যখন গন্তব্যের কাছাকাছি পৌঁছায় তখন এলার্ট দেয়া যায় তা শেখা | [Geofences](../3-transport/lessons/4-geofences/README.md) |
-| 15 | [উৎপাদন](../4-manufacturing) | Train a fruit quality detector | ক্লাউডের ছবি শ্রেণিবদ্ধকরণ মডেলকে (Image Classifier) ফলের মান সনাক্ত করতে  কীভাবে প্রশিক্ষিত করতে হবে সে সম্পর্কে জানা | [Train a fruit quality detector](../4-manufacturing/lessons/1-train-fruit-detector/README.md) |
+| 15 | [উৎপাদন](../4-manufacturing) | খাদ্যপণ্যের গুণমান সনাক্তকারী মডেলকে ট্রেনিং প্রদান | ক্লাউডের ছবি শ্রেণিবদ্ধকরণ মডেলকে (Image Classifier) ফলের মান সনাক্ত করতে  কীভাবে প্রশিক্ষিত করতে হবে সে সম্পর্কে জানা | [খাদ্যপণ্যের গুণমান সনাক্তকারী মডেলকে ট্রেনিং প্রদান](../4-manufacturing/lessons/1-train-fruit-detector/translations/README.bn.md) |
 | 16 | [উৎপাদন](../4-manufacturing) | Check fruit quality from an IoT device | আইওটি ডিভাইসে ফলের গুণগত মান সনাক্তকারী ব্যবহার | [Check fruit quality from an IoT device](../4-manufacturing/lessons/2-check-fruit-from-device/README.md) |
-| 17 | [উৎপাদন](../4-manufacturing) | Run your fruit detector on the edge | ফলের গুণগত মান সনাক্তকারীকে Edge হিসেবে ব্যবহার | [Run your fruit detector on the edge](../4-manufacturing/lessons/3-run-fruit-detector-edge/README.md) |
+| 17 | [উৎপাদন](../4-manufacturing) | Edge এ Fruit Detector পরিচালনা করা | ফলের গুণগত মান সনাক্তকারীকে Edge হিসেবে ব্যবহার | [Edge এ Fruit Detector পরিচালনা করা](../4-manufacturing/lessons/3-run-fruit-detector-edge/translations/README.bn.md) |
 | 18 | [উৎপাদন](../4-manufacturing) | Trigger fruit quality detection from a sensor | সেন্সর থেকে ফলের গুণাগুণ সনাক্তকরণ নিয়ন্ত্রণ করা শেখা| [Trigger fruit quality detection from a sensor](../4-manufacturing/lessons/4-trigger-fruit-detector/README.md) |
 | 19 | [খুচরাপর্যায়](../5-retail) | Train a stock detector | কোনও দোকানে স্টক গণনা করতে স্টক ডিটেক্টরকে প্রশিক্ষণ দেওয়ার জন্য কীভাবে অবজেক্ট সনাক্তকরণ ব্যবহার করা যায় তা শেখা | [Train a stock detector](../5-retail/lessons/1-train-stock-detector/README.md) |
 | 20 | [খুচরাপর্যায়](../5-retail) | Check stock from an IoT device | কোন অবজেক্ট সনাক্তকরণ মডেল ব্যবহার করে আইওটি ডিভাইস থেকে স্টক পর্যবেক্ষণ করা শেখা  | [Check stock from an IoT device](../5-retail/lessons/2-check-stock-device/README.md)  |
@@ -112,10 +114,13 @@
 npm i
 npm run convert
 ```
+### স্লাইড
+
+কিছু কিছু লেসনের স্লাইড ডেক, এখানে [slides](./slides) ফোল্ডারে রয়েছে।
 
 ## সাহায্য প্রয়োজন!
 
-অনুবাদের কাজ করে এই কারিক্যুলামে অবদান করতে চান? তাহলে অনুগ্রহ করে আমাদের [অনুবাদ গাইডলাইন](translations/TRANSLATIONS.bn.md) পড়ে , যেকোন একটি  [Translation Issue](https://github.com/microsoft/IoT-For-Beginners/issues?q=is%3Aissue+is%3Aopen+label%3Atranslation) এ ইনপুট দেয়ার অনুরোধ করা হলো। যদি কোন নতুন ভাষায় অনুবাদ করতে কেউ আগ্রহী হয়, তবে ট্র্যাকিংয়ের জন্য দয়া করে একটি নতুন Issue সাবমিট করতে হবে।
+অনুবাদের কাজ করে এই কারিক্যুলামে অবদান করতে চান? তাহলে অনুগ্রহ করে আমাদের [অনুবাদ গাইডলাইন](TRANSLATIONS.md) পড়ে , যেকোন একটি  [Translation Issue](https://github.com/microsoft/IoT-For-Beginners/issues?q=is%3Aissue+is%3Aopen+label%3Atranslation) এ ইনপুট দেয়ার অনুরোধ করা হলো। যদি কোন নতুন ভাষায় অনুবাদ করতে কেউ আগ্রহী হয়, তবে ট্র্যাকিংয়ের জন্য দয়া করে একটি নতুন Issue সাবমিট করতে হবে।
 
 ## অন্য পাঠ্যক্রম সমূহ
 
@@ -123,6 +128,7 @@ npm run convert
 
 - [Web Dev for Beginners](https://aka.ms/webdev-beginners)
 - [ML for Beginners](https://aka.ms/ml-beginners)
+- [Data Science for Beginners](https://aka.ms/datascience-beginners)
 
 ## চিত্রের Attributions
 
