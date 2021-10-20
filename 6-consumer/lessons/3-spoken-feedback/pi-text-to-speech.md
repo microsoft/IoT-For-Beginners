@@ -103,21 +103,21 @@ Each language supports a range of different voices, and you can make a REST requ
 
     ```python
     def play_speech(speech):
-    with wave.open(speech, 'rb') as wave_file:
-        stream = audio.open(format=audio.get_format_from_width(wave_file.getsampwidth()),
-                            channels=wave_file.getnchannels(),
-                            rate=wave_file.getframerate(),
-                            output_device_index=speaker_card_number,
-                            output=True)
+        with wave.open(speech, 'rb') as wave_file:
+            stream = audio.open(format=audio.get_format_from_width(wave_file.getsampwidth()),
+                                channels=wave_file.getnchannels(),
+                                rate=wave_file.getframerate(),
+                                output_device_index=speaker_card_number,
+                                output=True)
 
-        data = wave_file.readframes(4096)
-
-        while len(data) > 0:
-            stream.write(data)
             data = wave_file.readframes(4096)
 
-        stream.stop_stream()
-        stream.close()
+            while len(data) > 0:
+                stream.write(data)
+                data = wave_file.readframes(4096)
+
+            stream.stop_stream()
+            stream.close()
     ```
 
     This code uses a PyAudio stream, the same as capturing audio. The difference here is the stream is set as an output stream, and data is read from the audio data and pushed to the stream.
