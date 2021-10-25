@@ -114,8 +114,8 @@ Iteration গুলো কাস্টম ভিসন পোর্টাল থ
 
 প্রাসঙ্গিক গাইড এর মাধ্যমে কাজ IoT ডিভাইস ব্যবহার করে ইমেজ ক্যাপচার করিঃ
 
-* [Arduino - Wio Terminal](wio-terminal-classify-image.md)
-* [Single-board computer - Raspberry Pi/Virtual IoT device](single-board-computer-classify-image.md)
+* [Arduino - Wio Terminal](../wio-terminal-classify-image.md)
+* [Single-board computer - Raspberry Pi/Virtual IoT device](../single-board-computer-classify-image.md)
 
 ## Model উন্নত করা
 
@@ -163,7 +163,7 @@ Iteration গুলো কাস্টম ভিসন পোর্টাল থ
 
 যদি আমরা এই প্রোডাকশন ডিভাইসটি কোন ফার্ম অথবা ফ্যাক্টরি তে বিক্রয়ের জন্য তৈরী করি, আমরা কিভাবে নিশ্চিত করতে পারি যে এটা সব সময় ধারাবাহিকভাবে ভালো ফলাফল দিবে?
 
-## ## লেকচার-পরবর্তী কুইজ
+## লেকচার-পরবর্তী কুইজ
 
 [লেকচার-পরবর্তী কুইজ](https://brave-island-0b7c7f50f.azurestaticapps.net/quiz/32)
 
@@ -171,7 +171,7 @@ Iteration গুলো কাস্টম ভিসন পোর্টাল থ
 
 আমরা আমাদের কাস্টম ভিসন মডেল পোর্টাল ব্যবহার করে ট্রেইন করেছি। এটা ইমেজ এর সহজলভ্যতার উপর নির্ভর করে - এবং বাস্তব জগতে আমরা আমাদের ক্যামেরা ডিভাইস এর সাথে মিলে এমন ট্রেইনিং ডাটা হয়ত পাবো না। আমরা এটার বদলে আমাদের ডিভাইস থেকে সরাসরি ট্রেইনিং করতে পারি করতে এপিআই ব্যবহার করে, IoT ডিভাইস থেকে ক্যাপচার করা ইমেজ দিয়ে মডেল ট্রেইন করার জন্য।
 
-* ট্রেইনিং এপিআই এর উপর সম্পর্কে আরো জানতে [using the Custom Vision SDK quick start](https://docs.microsoft.com/azure/cognitive-services/custom-vision-service/quickstarts/image-classification?WT.mc_id=academic-17441-jabenn&tabs=visual-studio&pivots=programming-language-python) দেখতে পারি।
+* ট্রেইনিং এপিআই সম্পর্কে আরো জানতে [using the Custom Vision SDK quick start](https://docs.microsoft.com/azure/cognitive-services/custom-vision-service/quickstarts/image-classification?WT.mc_id=academic-17441-jabenn&tabs=visual-studio&pivots=programming-language-python) দেখতে পারি।
 
 ## এসাইনমেন্ট
 
