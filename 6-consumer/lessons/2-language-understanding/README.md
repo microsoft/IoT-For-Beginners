@@ -19,7 +19,7 @@ In this lesson you will learn about language understanding models, how to create
 In this lesson we'll cover:
 
 * [Language understanding](#language-understanding)
-* [Create a language understanding model](create-a-language-understanding-model)
+* [Create a language understanding model](#create-a-language-understanding-model)
 * [Intents and entities](#intents-and-entities)
 * [Use the language understanding model](#use-the-language-understanding-model)
 
