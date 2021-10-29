@@ -29,7 +29,9 @@ The projects cover the journey of food from farm to table. This includes farming
 
 Meet the team!
 
-[![Promo video](./images/iot-for-beginners.png)](https://youtu.be/-wippUJRi5k)
+[![Promo video](./images/iot.gif)](https://youtu.be/-wippUJRi5k)
+
+**Gif by** [Mohit Jaisal](https://linkedin.com/in/mohitjaisal)
 
 > 🎥 Click the image above for a video about the project!
 
