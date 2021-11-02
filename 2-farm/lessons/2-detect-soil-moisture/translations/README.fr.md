@@ -20,7 +20,7 @@ Dans cette leçon, nous aborderons:
 
 * [Humidité du sol](#humidité-du-sol)
 * [Comment les senseurs communiquent avec les composants IoT](#comment-les-senseurs-communiquent-avec-les-composants-IoT)
-* [Mesurer les niveaux d'humidité dans le sol](#mesurer-les-niveaux-d'humidité-dans-le-sol)
+* [Mesurer les niveaux d'humidité dans le sol](#mesurer-les-niveaux-d-humidité-dans-le-sol)
 * [Étalonnage du capteur](#étalonnage-du-capteur)
 
 ## Humidité du sol
@@ -188,7 +188,7 @@ Zigbee est un moyen populaire de connecter les appareils commerciaux. Zigbee uti
 
 > 🐝 Le nom Zigbee fait référence à la danse de l'agitation des abeilles à miel après leur retour à la ruche.
 
-## Mesurer les niveaux d'humidité dans le sol
+## Mesurer les niveaux d humidité dans le sol
 
 Vous pouvez mesurer le niveau d'humidité du sol à l'aide d'un capteur d'humidité du sol, d'un dispositif IoT et d'une plante d'intérieur ou d'une parcelle de terre à proximité.
 
