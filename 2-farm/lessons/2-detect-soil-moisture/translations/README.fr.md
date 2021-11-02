@@ -1,262 +1,262 @@
-# Detect soil moisture
+# Détecter l'humidité du sol
 
-![A sketchnote overview of this lesson](../../../sketchnotes/lesson-6.jpg)
+![Un aperçu de cette leçon sous forme d'illustré](../../../../sketchnotes/lesson-6.jpg)
 
-> Sketchnote by [Nitya Narasimhan](https://github.com/nitya). Click the image for a larger version.
+> Illustré par [Nitya Narasimhan](https://github.com/nitya). Click the image for a larger version.
 
-## Pre-lecture quiz
+## Quiz Pré-lecture
 
-[Pre-lecture quiz](https://brave-island-0b7c7f50f.azurestaticapps.net/quiz/11)
+[Quiz Pré-lecture](https://brave-island-0b7c7f50f.azurestaticapps.net/quiz/11)
 
 ## Introduction
 
-In the last lesson we looked at measuring an ambient property and using it to predict plant growth. Temperature can be controlled, but it is expensive to do so, requiring controlled environments. The easiest ambient property to control for plants is water - something that is controlled everyday from large-scale irrigation systems to young kids with watering cans watering their gardens.
+Dans la dernière leçon, nous avons étudié la mesure d'une propriété ambiante ainsi que son utilisation afin de prédire la croissance des plantes. La température peut être contrôlée, mais cette opération est coûteuse et nécessite des environnements contrôlés. La propriété ambiante la plus facile à contrôler pour les plantes est l'eau - un élément qui est contrôlé tous les jours, depuis les systèmes d'irrigation à grande échelle jusqu'aux jeunes enfants qui arrosent leur jardin avec un arrosoir.
 
-![A child watering a garden](../../../images/child-watering-garden.jpg)
+![Un enfant arrosant un jardin](../../../../images/child-watering-garden.jpg)
 
-In this lesson you will learn about measuring soil moisture, and in the next lesson you will learn how to control an automated watering system. This lesson introduces a third sensor, you've already used a light sensor, a temperature sensor, so in this lesson you will also learn more about how sensors and actuators communicate with IoT devices to understand more about how a soil moisture sensor can send data to an IoT device.
+Dans cette leçon, vous apprendrez à mesurer l'humidité du sol, et dans la leçon suivante, vous apprendrez à contrôler un système d'arrosage automatisé. Cette leçon introduit un troisième capteur, vous avez déjà utilisé un capteur de lumière, un capteur de température, donc dans cette leçon vous allez également en apprendre plus sur la façon dont les capteurs et les actionneurs communiquent avec les dispositifs IoT pour comprendre davantage comment un capteur d'humidité du sol peut envoyer des données à un dispositif IoT.
 
-In this lesson we'll cover:
+Dans cette leçon, nous aborderons:
 
-* [Soil moisture](#soil-moisture)
-* [How sensors communicate with IoT devices](#how-sensors-communicate-with-iot-devices)
-* [Measure the moisture levels in soil](#measure-the-moisture-levels-in-soil)
-* [Sensor calibration](#sensor-calibration)
+* [Humidité du sol](#humidité-du-sol)
+* [Comment les senseurs communiquent avec les composants IoT](#comment-les-senseurs-communiquent-avec-les-composants-IoT)
+* [Mesurer les niveaux d'humidité dans le sol](#mesurer-les-niveaux-d'humidité-dans-le-sol)
+* [Étalonnage du capteur](#étalonnage-du-capteur)
 
-## Soil moisture
+## Humidité du sol
 
-Plants require water to grow. They absorb water throughout the entire plant, with the majority being absorbed by the root system. Water is used by the plant for three things:
+Les plantes ont besoin d'eau pour se développer. Elles absorbent l'eau dans toute la plante, la majorité étant absorbée par le système racinaire. L'eau est utilisée par la plante pour trois choses :
 
-* [Photosynthesis](https://wikipedia.org/wiki/Photosynthesis) - plants creates a chemical reaction with water, carbon dioxide and light to produce carbohydrates and oxygen.
-* [Transpiration](https://wikipedia.org/wiki/Transpiration) - plants use water for diffusion of carbon dioxide from the air into the plant via pores in the leaves. This process also carries nutrients around the plant, and cools the plant, similar to how humans sweat.
-* Structure - plants also need water to maintain their structure - they are 90% water (as opposed to humans at only 60%), and this water keeps the cells rigid. If a plant doesn't have enough water it will wilt and eventually die.
+* [Photosynthèse](https://wikipedia.org/wiki/Photosynthesis) - Les plantes créent une réaction chimique avec l'eau, le dioxyde de carbone et la lumière pour produire des hydrates de carbone et de l'oxygène.
+* [Transpiration](https://wikipedia.org/wiki/Transpiration) - Les plantes utilisent l'eau pour diffuser le dioxyde de carbone de l'air dans la plante via les pores des feuilles. Ce processus permet également de transporter les nutriments autour de la plante et de la refroidir, comme la transpiration humaine.
+* Structure - les plantes ont également besoin d'eau pour maintenir leur structure - elles sont composées à 90 % d'eau (contrairement aux humains qui n'en ont que 60 %), et cette eau maintient les cellules rigides. Si une plante n'a pas assez d'eau, elle se flétrit et finit par mourir.
 
-![Water is absorbed through plant roots then carried around the plant, being used for photosynthesis and plant structure](../../../images/transpiration.png)
+![L'eau est absorbée par les racines des plantes, puis transportée dans la plante, utilisée pour la photosynthèse et la structure de la plante.](../../../../images/transpiration.png)
 
-✅ Do some research: how much water is lost through transpiration?
+✅ Faites des recherches : quelle quantité d'eau est perdue par transpiration ?
 
-The root system provides water from moisture in the soil where the plant grows. Too little water in the soil and the plant cannot absorb enough to grow, too much water and roots cannot absorb enough oxygen needed to function. This leads to roots dying and the plant unable to get enough nutrients to survive.
+Le système racinaire fournit de l'eau à partir de l'humidité du sol où pousse la plante. Trop peu d'eau dans le sol et la plante ne peut pas en absorber suffisamment pour se développer, trop d'eau et les racines ne peuvent pas absorber suffisamment d'oxygène nécessaire à leur fonctionnement. Les racines meurent alors et la plante ne peut pas obtenir suffisamment de nutriments pour survivre.
 
-For a farmer to get the best plant growth, the soil needs to be not too wet and not too dry. IoT devices can help with this by measuring soil moisture, allowing a farmer to only water when needed.
+Pour qu'un agriculteur obtienne la meilleure croissance des plantes, le sol doit être ni trop humide ni trop sec. Les dispositifs IoT peuvent y contribuer en mesurant l'humidité du sol, ce qui permet à l'agriculteur de n'arroser que lorsque cela est nécessaire.
 
-### Ways to measure soil moisture
+### Comment les senseurs communiquent avec les composants IoT
 
-There are a range of different types of sensor you can use to measure soil moisture:
+Il existe différents types de capteurs que vous pouvez utiliser pour mesurer l'humidité du sol :
 
-* Resistive - a resistive sensor has 2 probes that go into the soil. An electric current is sent to one probe, and received by the other. The sensor then measures the resistance of the soil - measuring how much the current drops at the second probe. Water is a good conductor of electricity, so the higher the water content of the soil, the lower the resistance.
+* Résistif - un capteur résistif possède deux sondes qui pénètrent dans le sol. Un courant électrique est envoyé à une sonde et reçu par l'autre. Le capteur mesure alors la résistance du sol - en mesurant de combien le courant chute au niveau de la deuxième sonde. L'eau est un bon conducteur d'électricité, donc plus la teneur en eau du sol est élevée, plus la résistance est faible.
 
-    ![A resistive soil moisture sensor](../../../images/resistive-soil-moisture-sensor.png)
+    ![Un capteur d'humidité du sol résistif](../../../../images/resistive-soil-moisture-sensor.png)
 
-    > 💁 You can build a resistive soil moisture sensor using two pieces of metal, such as nails, separated by a couple of centimeters, and measuring the resistance between them using a multimeter.
+    > 💁 Vous pouvez construire un capteur d'humidité du sol résistif en utilisant deux morceaux de métal, comme des clous, séparés de quelques centimètres, et en mesurant la résistance entre eux à l'aide d'un multimètre.
 
-* Capacitive - a capacitive moisture sensor measures the amount of electric charge that can be stored across a positive and a negative electrical plate, or [capacitance](https://wikipedia.org/wiki/Capacitance). The capacitance of soil changes as the moisture level changes, and this can be converted to a voltage that can be measured by an IoT device. The wetter the soil, the lower the voltage that comes out.
+* Capacitif - un capteur d'humidité capacitif mesure la quantité de charge électrique qui peut être stockée entre une plaque électrique positive et une plaque négative, ou [capacitance](https://wikipedia.org/wiki/Capacitance). La capacitance du sol change en fonction du niveau d'humidité, et cela peut être converti en une tension qui peut être mesurée par un appareil IoT. Plus le sol est humide, plus la tension qui en ressort est faible.
 
-    ![A capacitive soil moisture sensor](../../../images/grove-capacitive-soil-moisture-sensor.png)
+    ![Un capteur capacitif d'humidité du sol](../../../../images/grove-capacitive-soil-moisture-sensor.png)
 
-These are both analog sensors, returning a voltage to indicate soil moisture. So how does this voltage get to your code? Before going any further with these sensors, let's look at how sensors and actuators communicate with IoT devices.
+Ce sont tous deux des capteurs analogiques, qui renvoient une tension pour indiquer l'humidité du sol. Comment cette tension arrive-t-elle dans votre code ? Avant d'aller plus loin avec ces capteurs, voyons comment les capteurs et les actionneurs communiquent avec les appareils IoT.
 
-## How sensors communicate with IoT devices
+## Comment les senseurs communiquent avec les composants IoT
 
-So far in these lessons you've learned about a number of sensors and actuators, and these have been communicating with your IoT dev kit if you've been doing the physical hardware labs. But how does this communication work? How does a resistance measurement from a soil moisture sensor become a number you can use from code?
+Jusqu'à présent, dans ces leçons, vous avez appris à connaître un certain nombre de capteurs et d'actionneurs, et ceux-ci ont communiqué avec votre kit de développement IoT si vous avez fait les laboratoires de matériel physique. Mais comment cette communication fonctionne-t-elle ? Comment une mesure de résistance d'un capteur d'humidité du sol devient-elle un nombre utilisable dans le code ?
 
-To communicate with most sensors and actuators you need some hardware, and a communication protocol - that is a well defined way for data to be sent and received. Take for example a capacitive soil moisture sensor:
+Pour communiquer avec la plupart des capteurs et des actionneurs, il faut du matériel et un protocole de communication, c'est-à-dire une méthode bien définie d'envoi et de réception des données. Prenons l'exemple d'un capteur capacitif d'humidité du sol :
 
-* How is this sensor connected to the IoT device?
-* If it measures a voltage that is an analog signal, it will need an ADC to create a digital representation of the value, and this value is sent as an alternating voltage to send 0s and 1s - but how long is each bit sent for?
-* If the sensor returns a digital value, that will be a stream of 0s and 1s, again how long is each bit sent for?
-* If the voltage is high for 0.1s is that a single 1 bit, or 2 consecutive 1 bits, or 10?
-* At what point does the number start? Is `00001101` 25, or are the first 5 bits the end of the previous value?
+* Comment ce capteur est-il connecté à l'appareil IoT ?
+* S'il mesure une tension qui est un signal analogique, il aura besoin d'un "ADC" pour créer une représentation numérique de la valeur, et cette valeur est envoyée sous forme de tension alternative pour envoyer des 0 et des 1 - mais pendant combien de temps chaque bit est-il envoyé ?
+* Si le capteur renvoie une valeur numérique, il s'agira d'un flux de 0 et de 1. Là encore, pendant combien de temps chaque bit est-il envoyé ?
+* Si la tension est élevée pendant 0,1 s, s'agit-il d'un seul bit, de deux bits consécutifs ou de dix bits ?
+* A quel moment le nombre commence-t-il ? Est-ce que `00001101` 25, ou est-ce que les 5 premiers bits sont la fin de la valeur précédente ?
 
-The hardware provides the physical connectivity over which the data is sent, the different communication protocols ensure that the data is sent or received in the correct way so it can be interpreted.
+Le matériel fournit la connectivité physique sur laquelle les données sont envoyées, les différents protocoles de communication garantissent que les données sont envoyées ou reçues de manière correcte pour pouvoir être interprétées.
 
-### General Purpose Input Output (GPIO) pins
+### Broches d'entrée-sortie à usage général (GPIO)
 
-GPIO is a set of pins you can use to connect hardware to your IoT device, and are often available on IoT developer kits such as the Raspberry Pi or Wio Terminal. You can use the various communication protocols covered in this section over the GPIO pins. Some GPIO pins provide a voltage, usually 3.3V or 5V, some pins are ground, and others can be programmatically set to either send a voltage (output), or receive a voltage (input).
+GPIO est un ensemble de broches que vous pouvez utiliser pour connecter du matériel à votre dispositif IoT, et qui sont souvent disponibles sur les kits de développement IoT tels que le Raspberry Pi ou le Terminal Wio. Vous pouvez utiliser les différents protocoles de communication abordés dans cette section sur les broches GPIO. Certaines broches GPIO fournissent une tension, généralement 3,3 V ou 5 V, certaines broches sont des masses, et d'autres peuvent être configurées par programmation pour envoyer une tension (sortie) ou recevoir une tension (entrée).
 
-> 💁 An electrical circuit needs to connect a voltage to ground via whatever circuitry you are using. You can think of voltage as the positive (+ve) terminal of a battery and ground as the negative (-ve) terminal.
+> 💁 Un circuit électrique doit relier une tension à la terre via le circuit que vous utilisez. Vous pouvez considérer la tension comme la borne positive (+ve) d'une batterie et la terre comme la borne négative (-ve).
 
-You can use GPIO pins directly with some digital sensors and actuators when you only care about on or off values - on referred to as high, off as low. Some examples are:
+Vous pouvez utiliser les broches GPIO directement avec certains capteurs et actionneurs numériques lorsque vous ne vous préoccupez que des valeurs de marche ou d'arrêt - marche étant désignée comme haute, arrêt comme basse. Voici quelques exemples :
 
-* Button. You can connect a button between a 5V pin and a pin set to input. When you press the button it completes a circuit between the 5V pin, through the button to the input pin. From code you can read the voltage at the input pin, and if it is high (5V) then the button is pressed, if it is low (0v) then the button is not pressed. Remember the actual voltage itself is not read, instead you get a digital signal of 1 or 0 depending on if the voltage is above a threshold or not.
+* Bouton. Vous pouvez connecter un bouton entre une broche 5V et une broche définie comme entrée. Lorsque vous appuyez sur le bouton, un circuit est créé entre la broche 5V, le bouton et la broche d'entrée. A partir du code, vous pouvez lire la tension sur la broche d'entrée, et si elle est élevée (5V), le bouton est enfoncé, si elle est basse (0V), le bouton n'est pas enfoncé. Rappelez-vous que la tension réelle elle-même n'est pas lue, mais que vous obtenez un signal numérique de 1 ou 0 selon que la tension est supérieure ou non à un seuil.
 
-    ![A button is sent 5 volts. When not pressed it returns 0 volts, or 0, when pressed it returns 5 volts, or 1](../../../images/button-with-digital.png)
+    ![On envoie 5 volts à un bouton. Lorsqu'il n'est pas enfoncé, il renvoie 0 volt, ou 0, lorsqu'il est enfoncé, il renvoie 5 volts, ou 1](../../../../images/button-with-digital.png)
 
-* LED. You can connect an LED between an output pin and a ground pin (using a resistor otherwise you'll burn out the LED). From code you can set the output pin to high and it will send 3.3V, making a circuit from the 3.3V pin, through the LED, to the ground pin. This will light the LED.
+* LED. Vous pouvez connecter une LED entre une broche de sortie et une broche de masse (en utilisant une résistance, sinon vous allez brûler la LED). À partir du code, vous pouvez mettre la broche de sortie à un niveau élevé et elle enverra 3,3 V, créant un circuit de la broche 3,3 V à la broche de terre en passant par la DEL. Ceci allumera la LED.
 
-    ![An LED is sent a signal of 0 (3.3V), which lights the LED. If it is sent 0 (0v), the LED is not lit.](../../../images/led-digital-control.png)
+    ![On envoie à une LED un signal de 0 (3,3V), qui allume la LED. Si on lui envoie 0 (0v), la LED ne s'allume pas.](../../../../images/led-digital-control.png)
 
-For more advanced sensors, you can use GPIO pins to send and receive digital data directly with digital sensors and actuators, or via controller boards with ADCs and DACs to talk to analog sensors and actuators.
+Pour les capteurs plus avancés, vous pouvez utiliser les broches GPIO pour envoyer et recevoir des données numériques directement avec des capteurs et des actionneurs numériques, ou via des cartes de contrôle avec des ADC et des DAC pour parler aux capteurs et actionneurs analogiques.
 
-> 💁 if you are using a Raspberry Pi for these labs, the Grove Base Hat has hardware to convert analog sensor signals to digital to send over GPIO.
+> 💁 Si vous utilisez un Raspberry Pi pour ces travaux pratiques, le Grove Base Hat dispose d'un matériel permettant de convertir les signaux analogiques des capteurs en signaux numériques à envoyer via GPIO.
 
-✅ If you have an IoT device with GPIO pins, locate these pins and find a diagram indicating which pins are voltage, ground or programmable.
+✅ Si vous avez un dispositif IoT avec des broches GPIO, localisez ces broches et trouvez un diagramme indiquant quelles broches sont sous tension, reliées à la masse (ground) ou programmables.
 
-### Analog pins
+### Broches analogiques
 
-Some devices, such as Arduino devices, provide analog pins. These are the same as GPIO pins, but instead of only supporting a digital signal, they have an ADC to convert voltage ranges to numerical values. Usually the ADC has a 10-bit resolution, meaning it converts voltages to a value of 0-1,023.
+Certains appareils, tels que les appareils Arduino, fournissent des broches analogiques. Elles sont identiques aux broches GPIO, mais au lieu de supporter uniquement un signal numérique, elles disposent d'un ADC pour convertir les plages de tension en valeurs numériques. En général, l'ADC a une résolution de 10 bits, ce qui signifie qu'il convertit les tensions en une valeur de 0-1,023.
 
-For example, on a 3.3V board, if the sensor returns 3.3V, the value returned would be 1,023. If the voltage returned was 1.65v, the value returned will be 511.
+Par exemple, sur une carte 3.3V, si le capteur renvoie 3.3V, la valeur renvoyée sera de 1,023. Si la tension renvoyée est de 1,65 V, la valeur renvoyée sera de 511.
 
-![A soil moisture sensor sent 3.3V and returning 1.65v, or a reading of 511](../../../images/analog-sensor-voltage.png)
+![Un capteur d'humidité du sol envoie 3.3V et retourne 1.65v, soit une lecture de 511](../../../../images/analog-sensor-voltage.png)
 
-> 💁 Back in nightlight - lesson 3, the light sensor returned a value from 0-1,023. If you are using a Wio Terminal, the sensor was connected to an analog pin. If you are using a Raspberry Pi, then the sensor was connected to an analog pin on the base hat that has an integrated ADC to communicate over the GPIO pins. The virtual device was set to send a value from 0-1,023 to simulate an analog pin.
+> 💁 Dans la leçon 3 de la veilleuse, le capteur de lumière renvoyait une valeur comprise entre 0 et 1,023. Si vous utilisez un terminal Wio, le capteur était connecté à une broche analogique. Si vous utilisez un Raspberry Pi, le capteur a été connecté à une broche analogique sur le chapeau de base qui a un ADC intégré pour communiquer sur les broches GPIO. Le dispositif virtuel a été configuré pour envoyer une valeur de 0-1,023 pour simuler une broche analogique.
 
-Soil moisture sensors rely on voltages, so will use analog pins and give values from 0-1,023.
+Les capteurs d'humidité du sol reposent sur des tensions, ils utilisent donc des broches analogiques et donnent des valeurs comprises entre 0 et 1 023.
 
-### Inter Integrated Circuit  (I<sup>2</sup>C)
+### Protocol "Inter Integrated Circuit"  (I<sup>2</sup>C)
 
-I<sup>2</sup>C, pronounced *I-squared-C*, is a multi-controller, multi-peripheral protocol, with any connected device able to act as a controller or peripheral communicating over the I<sup>2</sup>C bus (the name for a communication system that transfers data). Data is sent as addressed packets, with each packet containing the address of the connected device it is intended for.
+I<sup>2</sup>C, prononcé *I-squared-C*, est un protocole multi-contrôleur, multi-périphérique, avec tout dispositif connecté capable d'agir comme un contrôleur ou un périphérique communiquant sur le bus I<sup>2</sup>C (le nom d'un système de communication qui transfère des données). Les données sont envoyées sous forme de paquets adressés, chaque paquet contenant l'adresse du périphérique connecté auquel il est destiné.
 
-> 💁 This model used to be referred to as master/slave, but this terminology is being dropped due to its association with slavery. The [Open Source Hardware Association has adopted controller/peripheral](https://www.oshwa.org/a-resolution-to-redefine-spi-signal-names/), but you may still see references to the old terminology.
+> 💁 Ce modèle était autrefois appelé "maître/esclave", mais cette terminologie est abandonnée en raison de son association avec l'esclavage. L'association [Open Source Hardware Association a adopté un contrôleur/périphérique](https://www.oshwa.org/a-resolution-to-redefine-spi-signal-names/), mais vous pouvez encore voir des références à l'ancienne terminologie.
 
-Devices have an address that is used when they connect to the I<sup>2</sup>C bus, and is usually hard coded on the device. For example, each type of Grove sensor from Seeed has the same address, so all the light sensors have the same address, all the buttons have the same address that is different from the light sensor address. Some devices have ways to change the address, by changing jumper settings or soldering pins together.
+Les dispositifs ont une adresse qui est utilisée lorsqu'ils se connectent au bus I<sup>2</sup>C, et qui est généralement écrite mot pour mot (hardcoded) sur le dispositif. Par exemple, chaque type de capteur Grove de Seeed a la même adresse, donc tous les capteurs de lumière ont la même adresse, tous les boutons ont la même adresse qui est différente de celle du capteur de lumière. Certains appareils permettent de modifier l'adresse, en changeant le réglage des cavaliers ou en soudant les broches ensemble.
 
-I<sup>2</sup>C has a bus made of 2 main wires, along with 2 power wires:
+I<sup>2</sup>C a un bus composé de 2 fils principaux, ainsi que de 2 fils d'alimentation :
 
-| Wire | Name | Description |
+| Fil | Nom | Description |
 | ---- | --------- | ----------- |
-| SDA | Serial Data | This wire is for sending data between devices. |
-| SCL | Serial Clock | This wire sends a clock signal at a rate set by the controller. |
-| VCC | Voltage common collector | The power supply for the devices. This is connected to the SDA and SCL wires to provide their power via a pull-up resistor that switches the signal off when no device is the controller. |
-| GND | Ground | This provides a common ground for the electrical circuit. |
+| SDA | Serial Data | Ce fil sert à envoyer des données entre les appareils. |
+| SCL | Serial Clock | Ce fil envoie un signal d'horloge à un rythme défini par le contrôleur. |
+| VCC | Voltage common collector | L'alimentation des périphériques. Elle est connectée aux fils SDA et SCL pour fournir leur alimentation via une résistance pull-up qui coupe le signal lorsqu'aucun dispositif n'est le contrôleur. |
+| GND | Ground | Cela fournit une masse commune pour le circuit électrique. |
 
-![I2C bus with 3 devices connected to the SDA and SCL wires, sharing a common ground wire](../../../images/i2c.png)
+![Bus I2C avec 3 dispositifs connectés aux fils SDA et SCL, partageant un fil de terre commun.](../../../../images/i2c.png)
 
-To send data, one device will issue a start condition to show it is ready to send data. It will then become the controller. The controller then sends the address of the device that it wants to communicate with, along with if it wants to read or write data. After the data has been transmitted, the controller sends a stop condition to indicate that it has finished. After this another device can become the controller and send or receive data.
+Pour envoyer des données, un dispositif émet une condition de démarrage pour montrer qu'il est prêt à envoyer des données. Il devient alors le contrôleur. Le contrôleur envoie alors l'adresse du dispositif avec lequel il veut communiquer, et indique s'il veut lire ou écrire des données. Une fois que les données ont été transmises, le contrôleur envoie une condition d'arrêt pour indiquer qu'il a terminé. Après cela, un autre dispositif peut devenir le contrôleur et envoyer ou recevoir des données.
 
-I<sup>2</sup>C has speed limits, with 3 different modes running at fixed speeds. The fastest is High Speed mode with a maximum speed of 3.4Mbps (megabits per second), though very few devices support that speed. The Raspberry Pi for example, is limited to fast mode at 400Kbps (kilobits per second). Standard mode runs at 100Kbps.
+I<sup>2</sup>C a des limites de vitesse, avec 3 modes différents fonctionnant à des vitesses fixes. Le plus rapide est le mode High Speed avec une vitesse maximale de 3,4Mbps (mégabits par seconde), bien que très peu d'appareils supportent cette vitesse. Le Raspberry Pi, par exemple, est limité au mode rapide à 400Kbps (kilobits par seconde). Le mode standard fonctionne à 100Kbps.
 
-> 💁 If you are using a Raspberry Pi with a Grove Base hat as your IoT hardware, you will be able to see a number of I<sup>2</sup>C sockets on the board you can use to communicate with I<sup>2</sup>C sensors. Analog Grove sensors also use I<sup>2</sup>C with an ADC to send analog values as digital data, so the light sensor you used simulated an analog pin, with the value sent over I<sup>2</sup>C as the Raspberry Pi only supports digital pins.
+> 💁 Si vous utilisez un Raspberry Pi avec un chapeau Grove Base comme matériel IoT, vous pourrez voir un certain nombre de prises I<sup>2</sup>C sur la carte que vous pouvez utiliser pour communiquer avec des capteurs I<sup>2</sup>C. Les capteurs Analog Grove utilisent également l'I<sup>2</sup>C avec un ADC pour envoyer des valeurs analogiques sous forme de données numériques, de sorte que le capteur de lumière que vous avez utilisé a simulé une broche analogique, avec la valeur envoyée sur I<sup>2</sup>C car le Raspberry Pi ne prend en charge que les broches numériques.
 
-### Universal asynchronous receiver-transmitter (UART)
+### Récepteur-émetteur asynchrone universel (UART)
 
-UART involves physical circuitry that allows two devices to communicate. Each device has 2 communication pins - transmit (Tx) and receive (Rx), with the Tx pin of the first device connected to the Rx pin of the second, and with the Tx pin of the second device connected to the Rx pin of the first. This allows data to be sent in both directions.
+UART est un circuit physique qui permet à deux appareils de communiquer. Chaque périphérique dispose de 2 broches de communication - transmission (Tx) et réception (Rx), la broche Tx du premier périphérique étant connectée à la broche Rx du second, et la broche Tx du second périphérique étant connectée à la broche Rx du premier. Cela permet d'envoyer des données dans les deux sens.
 
-* Device 1 transmits data from its Tx pin, which is received by device 2 on it's Rx pin
-* Device 1 receives data on its Rx pin that is transmitted by device 2 from its Tx pin
+* Le dispositif 1 transmet des données depuis sa broche Tx, qui sont reçues par le dispositif 2 sur sa broche Rx.
+* Le dispositif 1 reçoit des données sur sa broche Rx qui sont transmises par le dispositif 2 depuis sa broche Tx.
 
-![UART with the Tx pin on one chip connected to the Rx pin on another, and vice versa](../../../images/uart.png)
+![UART avec la broche Tx d'une puce connectée à la broche Rx d'une autre, et vice versa.](../../../../images/uart.png)
 
-> 🎓 The data is sent one bit at a time, and this is known as *serial* communication. Most operating systems and microcontrollers have *serial ports*, that is connections that can send and receive serial data that are available to your code.
+> 🎓 Les données sont envoyées un bit à la fois, c'est ce qu'on appelle la communication *série*. La plupart des systèmes d'exploitation et des microcontrôleurs ont des *ports série*, c'est-à-dire des connexions permettant d'envoyer et de recevoir des données série qui sont à la disposition de votre code.
 
-UART devices have a [baud rate](https://wikipedia.org/wiki/Symbol_rate) (also known as Symbol rate), which is the speed that data will be sent and received in bits per second. A common baud rate is 9,600, meaning 9,600 bits (0s and 1s) of data are sent each second.
+Les dispositifs UART ont un [débit en bauds](https://wikipedia.org/wiki/Symbol_rate) (également connu sous le nom de taux de symbole), qui est la vitesse à laquelle les données sont envoyées et reçues en bits par seconde. Une vitesse de transmission courante est de 9 600 bauds, ce qui signifie que 9 600 bits (0 et 1) de données sont envoyés chaque seconde.
 
-UART uses start and stop bits - that is it sends a start bit to indicate that it's about to send a byte (8 bits) of data, then a stop bit after it sends the 8 bits.
+UART utilise des bits de départ et d'arrêt, c'est-à-dire qu'il envoie un bit de départ pour indiquer qu'il est sur le point d'envoyer un octet (8 bits) de données, puis un bit d'arrêt après avoir envoyé les 8 bits.
 
-UART speed is dependent on hardware, but even the fastest implementations don't exceed 6.5 Mbps (megabits per second, or millions of bits, 0 or 1, sent per second).
+La vitesse de l'UART dépend du matériel, mais même les implémentations les plus rapides ne dépassent pas 6,5 Mbps (mégabits par seconde, ou millions de bits, 0 ou 1, envoyés par seconde).
 
-You can use UART over GPIO pins - you can set one pin as Tx and another as Rx, then connect these to another device.
+Vous pouvez utiliser UART sur les broches GPIO - vous pouvez définir une broche comme Tx et une autre comme Rx, puis les connecter à un autre appareil.
 
-> 💁 If you are using a Raspberry Pi with a Grove Base hat as your IoT hardware, you will be able to see a UART socket on the board you can use to communicate with sensors that use the UART protocol.
+> 💁 Si vous utilisez un Raspberry Pi avec un "hat" de base Grove comme matériel IoT, vous pourrez voir une prise UART sur la carte que vous pouvez utiliser pour communiquer avec des capteurs qui utilisent le protocole UART.
 
 ### Serial Peripheral Interface (SPI)
 
-SPI is designed for communicating over short distances, such as on a microcontroller to talk to a storage device such as flash memory. It is based on a controller/peripheral model with a single controller (usually the processor of the IoT device) interacting with multiple peripherals. The controller controls everything by selecting a peripheral and sending or requesting data.
+SPI est conçu pour communiquer sur de courtes distances, comme sur un microcontrôleur pour parler à un périphérique de stockage tel que la mémoire flash. Il est basé sur un modèle contrôleur/périphérique avec un seul contrôleur (généralement le processeur du dispositif IoT) interagissant avec plusieurs périphériques. Le contrôleur contrôle tout en sélectionnant un périphérique et en envoyant ou en demandant des données.
 
-> 💁 Like I<sup>2</sup>C, the terms controller and peripheral are recent changes, so you may see the older terms still used.
+> 💁 Comme pour l'I<sup>2</sup>C, les termes contrôleur et périphérique sont des changements récents, vous verrez donc peut-être les anciens termes encore utilisés.
 
-SPI controllers use 3 wires, along with 1 extra wire per peripheral. Peripherals use 4 wires. These wires are:
+Les contrôleurs SPI utilisent 3 fils, ainsi qu'un fil supplémentaire par périphérique. Les périphériques utilisent 4 fils. Ces fils sont :
 
-| Wire | Name | Description |
+| Fil | Nom | Description |
 | ---- | --------- | ----------- |
-| COPI | Controller Output, Peripheral Input | This wire is for sending data from the controller to the peripheral. |
-| CIPO | Controller Input, peripheral Output | This wire is for sending data from the peripheral to the controller. |
-| SCLK | Serial Clock | This wire sends a clock signal at a rate set by the controller. |
-| CS   | Chip Select | The controller has multiple wires, one per peripheral, and each wire connects to the CS wire on the corresponding peripheral. |
+| COPI | Controller Output, Peripheral Input | Ce fil sert à envoyer des données du contrôleur au périphérique. |
+| CIPO | Controller Input, peripheral Output | Ce fil sert à envoyer des données du périphérique au contrôleur. |
+| SCLK | Serial Clock | Ce fil envoie un signal d'horloge à un rythme défini par le contrôleur. |
+| CS   | Chip Select | Le contrôleur comporte plusieurs fils, un par périphérique, et chaque fil se connecte au fil CS du périphérique correspondant. |
 
-![SPI with on controller and two peripherals](../../../images/spi.png)
+![SPI avec un contrôleur et deux périphériques](../../../../images/spi.png)
 
-The CS wire is used to activate one peripheral at a time, communicating over the COPI and CIPO wires. When the controller needs to change peripheral, it deactivates the CS wire connected to the currently active peripheral, then activates the wire connected to the peripheral it wants to communicate with next.
+Le fil CS est utilisé pour activer un périphérique à la fois, en communiquant par les fils COPI et CIPO. Lorsque le contrôleur doit changer de périphérique, il désactive le fil CS connecté au périphérique actuellement actif, puis active le fil connecté au périphérique suivant avec lequel il veut communiquer.
 
-SPI is *full-duplex*, meaning the controller can send and receive data at the same time from the same peripheral using the COPI and CIPO wires. SPI uses a clock signal on the SCLK wire to keep the devices in sync, so unlike sending directly over UART it doesn't need start and stop bits.
+SPI est *full-duplex*, ce qui signifie que le contrôleur peut envoyer et recevoir des données en même temps depuis le même périphérique en utilisant les fils COPI et CIPO. SPI utilise un signal d'horloge sur le fil SCLK pour garder les périphériques synchronisés, donc contrairement à l'envoi direct sur UART, il n'a pas besoin de bits de départ et d'arrêt.
 
-There are no defined speed limits for SPI, with implementations often able to transmit multiple megabytes of data per second.
+Il n'y a pas de limites de vitesse définies pour SPI, les implémentations étant souvent capables de transmettre plusieurs mégaoctets de données par seconde.
 
-IoT developer kits often support SPI over some of the GPIO pins. For example, on a Raspberry Pi you can use GPIO pins 19, 21, 23, 24 and 26 for SPI.
+Les kits de développement IoT prennent souvent en charge SPI sur certaines des broches GPIO. Par exemple, sur un Raspberry Pi, vous pouvez utiliser les broches GPIO 19, 21, 23, 24 et 26 pour SPI.
 
-### Wireless
+### Sans fil
 
-Some sensors can communicate over standard wireless protocols, such as Bluetooth (mainly Bluetooth Low Energy, or BLE), LoRaWAN (a **Lo**ng **Ra**nge low power networking protocol), or WiFi. These allow for remote sensors not physically connected to an IoT device.
+Certains capteurs peuvent communiquer via des protocoles sans fil standard, tels que Bluetooth (principalement Bluetooth Low Energy, ou BLE), LoRaWAN (un protocole de réseau **Lo**ng **Ra**nge à faible consommation) ou WiFi. Ceux-ci permettent d'utiliser des capteurs distants qui ne sont pas physiquement connectés à un dispositif IoT.
 
-One such example is in commercial soil moisture sensors. These will measure soil moisture in a field, then send the data over LoRaWan to a hub device, which will process the data or send it over the Internet. This allows the sensor to be away from the IoT device that manages the data, reducing power consumption and the need for large WiFi networks or long cables.
+Les capteurs commerciaux d'humidité du sol en sont un exemple. Ceux-ci vont mesurer l'humidité du sol dans un champ, puis envoyer les données sur LoRaWan à un dispositif hub, qui va traiter les données ou les envoyer sur Internet. Cela permet au capteur d'être éloigné du dispositif IoT qui gère les données, ce qui réduit la consommation d'énergie et la nécessité de grands réseaux WiFi ou de longs câbles.
 
-BLE is popular for advanced sensors such as fitness trackers work on the wrist. These combine multiple sensors and send the sensor data to an IoT device in the form of your phone via BLE.
+BLE est populaire pour les capteurs avancés tels que les trackers de fitness fonctionnent au poignet. Ceux-ci combinent plusieurs capteurs et envoient les données du capteur à un dispositif IoT sous la forme de votre téléphone via BLE.
 
-✅ Do you have any bluetooth sensors on your person, in your house or in your school? These might include temperature sensors, occupancy sensors, device trackers and fitness devices.
+✅ Avez-vous des capteurs Bluetooth sur vous, dans votre maison ou dans votre école ? Il peut s'agir de capteurs de température, de capteurs d'occupation, de traqueurs d'appareils et d'appareils de fitness.
 
-One popular way for commercial devices to connect is Zigbee. Zigbee uses WiFi to form mesh networks between devices, where each device connects to as many nearby devices as possible, forming a large number of connections like a spiders web. When one device wants to send a message to the Internet it can send it to the nearest devices, which then forward it on to other nearby devices and so on, until it reaches a coordinator and can be sent to the Internet.
+Zigbee est un moyen populaire de connecter les appareils commerciaux. Zigbee utilise le WiFi pour former des réseaux maillés entre les appareils, où chaque appareil se connecte à autant d'appareils proches que possible, formant un grand nombre de connexions comme une toile d'araignée. Lorsqu'un appareil veut envoyer un message à l'internet, il peut l'envoyer aux appareils les plus proches, qui le transmettent ensuite à d'autres appareils proches et ainsi de suite, jusqu'à ce qu'il atteigne un coordinateur et puisse être envoyé à l'internet.
 
-> 🐝 The name Zigbee refers to the waggle dance of honey bees after their return to the beehive.
+> 🐝 Le nom Zigbee fait référence à la danse de l'agitation des abeilles à miel après leur retour à la ruche.
 
-## Measure the moisture levels in soil
+## Mesurer les niveaux d'humidité dans le sol
 
-You can measure the moisture level in soil using a soil moisture sensor, an IoT device, and a house plant or nearby patch of soil.
+Vous pouvez mesurer le niveau d'humidité du sol à l'aide d'un capteur d'humidité du sol, d'un dispositif IoT et d'une plante d'intérieur ou d'une parcelle de terre à proximité.
 
-### Task - measure soil moisture
+### Tâche - mesurer l'humidité du sol
 
-Work through the relevant guide to measure soil moisture using your IoT device:
+Suivez le guide correspondant pour mesurer l'humidité du sol à l'aide de votre appareil IoT :
 
-* [Arduino - Wio Terminal](wio-terminal-soil-moisture.md)
-* [Single-board computer - Raspberry Pi](pi-soil-moisture.md)
-* [Single-board computer - Virtual device](virtual-device-soil-moisture.md)
+* [Arduino - Terminal Wio](wio-terminal-soil-moisture.fr.md)
+* [Ordinateur monocarte - Raspberry Pi](pi-soil-moisture.fr.md)
+* [Ordinateur monocarte - Virtuel](virtual-device-soil-moisture.fr.md)
 
-## Sensor calibration
+## Étalonnage du capteur
 
-Sensors rely on measuring electrical properties such as resistance or capacitance.
+Les capteurs reposent sur la mesure de propriétés électriques telles que la résistance ou la capacité.
 
-> 🎓 Resistance, measured in ohms (Ω) is how much opposition there is to the electric current travelling through something. When a voltage is applied to a material, the amount of current that passes through it is dependant on the resistance of the material. You can read more on the [electrical resistance page on Wikipedia](https://wikipedia.org/wiki/Electrical_resistance_and_conductance).
+> 🎓 La résistance, mesurée en ohms (Ω), est la quantité d'opposition au courant électrique qui traverse quelque chose. Lorsqu'une tension est appliquée à un matériau, la quantité de courant qui le traverse dépend de la résistance du matériau. Vous pouvez en savoir plus sur la page [résistance électrique sur Wikipédia](https://wikipedia.org/wiki/Electrical_resistance_and_conductance).
 
-> 🎓 Capacitance, measured in farads (F), is the ability of a component or circuit to collect and store electrical energy. You can read more on capacitance on the [capacitance page on Wikipedia](https://wikipedia.org/wiki/Capacitance).
+> 🎓 La capacité, mesurée en farads (F), est la capacité d'un composant ou d'un circuit à collecter et à stocker l'énergie électrique. Pour en savoir plus sur la capacité, consultez la [page sur la capacité dans Wikipédia](https://wikipedia.org/wiki/Capacitance).
 
-These measurements are not always useful - imagine a temperature sensor that gave you a measurement of 22.5KΩ! Instead the value measured needs to be converted into a useful unit by being calibrated - that is matching the values measured to the quantity measured to allow new measurements to be converted to the right unit.
+Ces mesures ne sont pas toujours utiles - imaginez un capteur de température qui vous donne une mesure de 22.5KΩ ! Au lieu de cela, la valeur mesurée doit être convertie en une unité utile en étant étalonnée - c'est-à-dire en faisant correspondre les valeurs mesurées à la quantité mesurée pour permettre aux nouvelles mesures d'être converties dans la bonne unité.
 
-Some sensors come pre-calibrated. For example the temperature sensor you used in the last lesson was already calibrated so that it can return a temperature measurement in °C. In the factory the first sensor created would be exposed to a range of known temperatures and the resistance measured. This would then be used to build a calculation that can convert from the value measured in Ω (the unit of resistance) to °C.
+Certains capteurs sont livrés pré-calibrés. Par exemple, le capteur de température que vous avez utilisé dans la dernière leçon a déjà été calibré de façon à pouvoir fournir une mesure de température en °C. En usine, le premier capteur créé est exposé à une gamme de températures connues et la résistance est mesurée. Cette mesure est ensuite utilisée pour élaborer un calcul permettant de convertir la valeur mesurée en Ω (l'unité de résistance) en °C.
 
-> 💁 The formula to calculate resistance from temperature is called the [Steinhart–Hart equation](https://wikipedia.org/wiki/Steinhart–Hart_equation).
+> 💁 La formule permettant de calculer la résistance à partir de la température est appelée [équation de Steinhart-Hart](https://wikipedia.org/wiki/Steinhart–Hart_equation).
 
-### Soil moisture sensor calibration
+### Étalonnage du capteur d'humidité du sol
 
-Soil moisture is measured using gravimetric or volumetric water content.
+L'humidité du sol est mesurée par la teneur en eau gravimétrique ou volumétrique.
 
-* Gravimetric is the weight of water in a unit weight of soil measured, as the number of kilograms of water per kilogram of dry soil
-* Volumetric is the volume of water in a unit volume of soil measured, as the number of cubic metres of water per cubic metres of dry soil
+* Gravimétrique : le poids de l'eau dans une unité de poids de sol mesurée, comme le nombre de kilogrammes d'eau par kilogramme de sol sec.
+* Volumétrique : le volume d'eau dans une unité de volume de sol mesuré en nombre de mètres cubes d'eau par mètre cube de sol sec.
 
-> 🇺🇸 For Americans, because of the consistency of the units, these can be measured in pounds instead of kilograms or cubic feet instead of cubic metres.
+> 🇺🇸 Pour les Américains, en raison de la cohérence des unités, on peut les mesurer en livres au lieu de kilogrammes ou en pieds cubes au lieu de mètres cubes.
 
-Soil moisture sensors measure electrical resistance or capacitance - this not only varies by soil moisture, but also soil type as the components in the soil can change its electrical characteristics. Ideally sensors should be calibrated - that is taking readings from the sensor and comparing them to measurements found using a more scientific approach. For example a lab can calculate the gravimetric soil moisture using samples of a specific field taken a few times a year, and these numbers used to calibrate the sensor, matching the sensor reading to the gravimetric soil moisture.
+Les capteurs d'humidité du sol mesurent la résistance électrique ou la capacité - celle-ci varie non seulement en fonction de l'humidité du sol, mais aussi du type de sol, car les composants du sol peuvent modifier ses caractéristiques électriques. Idéalement, les capteurs doivent être étalonnés, c'est-à-dire qu'il faut prendre les lectures du capteur et les comparer aux mesures obtenues par une approche plus scientifique. Par exemple, un laboratoire peut calculer l'humidité gravimétrique du sol en utilisant des échantillons d'un champ spécifique prélevés plusieurs fois par an, et ces chiffres sont utilisés pour calibrer le capteur, en faisant correspondre la lecture du capteur à l'humidité gravimétrique du sol.
 
-![A graph of voltage vs soil moisture content](../../../images/soil-moisture-to-voltage.png)
+![Un graphique de la tension en fonction de la teneur en humidité du sol](../../../../images/soil-moisture-to-voltage.png)
 
-The graph above shows how to calibrate a sensor . The voltage is captured for a soil sample that is then measured in a lab by comparing the moist weight to the dry weight (by measuring the weight wet, then drying in an oven and measuring dry). Once a few readings have been taken, this can be plotted on a graph and a line fitted to the points. This line can then be used to convert soil moisture sensor readings taken by an IoT device into actual soil moisture measurements.
+Le graphique ci-dessus montre comment calibrer un capteur. La tension est capturée pour un échantillon de sol qui est ensuite mesuré dans un laboratoire en comparant le poids humide au poids sec (en mesurant le poids humide, puis en le séchant dans un four et en le mesurant sec). Une fois que quelques mesures ont été effectuées, elles peuvent être reportées sur un graphique et une ligne peut être ajustée aux points. Cette ligne peut ensuite être utilisée pour convertir les lectures du capteur d'humidité du sol prises par un dispositif IoT en mesures réelles de l'humidité du sol.
 
-💁 For resistive soil moisture sensors, the voltage increases as soil moisture increases. For capacitive soil moisture sensors, the voltage decreases as soil moisture increases, so the graphs for these would slope downwards, not upwards.
+💁 Pour les capteurs d'humidité du sol résistifs, la tension augmente avec l'humidité du sol. Dans le cas des capteurs d'humidité du sol capacitifs, la tension diminue lorsque l'humidité du sol augmente, de sorte que les graphiques de ces capteurs sont orientés vers le bas et non vers le haut.
 
-![A soil moisture value interpolated from the graph](../../../images/soil-moisture-to-voltage-with-reading.png)
+![Une valeur d'humidité du sol interpolée à partir du graphique](../../../../images/soil-moisture-to-voltage-with-reading.png)
 
-The graph above shows a voltage reading from a soil moisture sensor, and by following that to the line on the graph, the actual soil moisture can be calculated.
+Le graphique ci-dessus montre une lecture de tension d'un capteur d'humidité du sol, et en suivant cette lecture jusqu'à la ligne du graphique, l'humidité réelle du sol peut être calculée.
 
-This approach means the farmer only needs to get a few lab measurements for a field, then they can use IoT devices to measure soil moisture - drastically speeding up the time to take measurements.
+Cette approche signifie que l'agriculteur n'a besoin que d'obtenir quelques mesures de laboratoire pour un champ, puis il peut utiliser des dispositifs IoT pour mesurer l'humidité du sol - ce qui accélère considérablement le temps de prise de mesures.
 
 ---
 
-## 🚀 Challenge
+## 🚀 Défi
 
-Resistive and capacitive soil moisture sensors have a number of differences. What are these differences, and which type (if any) is the best for a farmer to use? Does this answer change between developing and developed countries?
+Les capteurs d'humidité du sol résistifs et capacitifs présentent un certain nombre de différences. Quelles sont ces différences, et quel type (le cas échéant) est le meilleur pour un agriculteur ? Cette réponse change-t-elle entre les pays en développement et les pays développés ?
 
-## Post-lecture quiz
+## Quiz post-lecture
 
-[Post-lecture quiz](https://brave-island-0b7c7f50f.azurestaticapps.net/quiz/12)
+[Quiz post-lecture](https://brave-island-0b7c7f50f.azurestaticapps.net/quiz/12)
 
-## Review & Self Study
+## Révision et étude personnelle
 
-Read up on the hardware and protocols used by sensors and actuators:
+Renseignez-vous sur le matériel et les protocoles utilisés par les capteurs et les actionneurs :
 
-* [GPIO Wikipedia page](https://wikipedia.org/wiki/General-purpose_input/output)
-* [UART Wikipedia page](https://wikipedia.org/wiki/Universal_asynchronous_receiver-transmitter)
-* [SPI Wikipedia page](https://wikipedia.org/wiki/Serial_Peripheral_Interface)
-* [I<sup>2</sup>C Wikipedia page](https://wikipedia.org/wiki/I²C)
-* [Zigbee Wikipedia page](https://wikipedia.org/wiki/Zigbee)
+* [GPIO - Wikipedia](https://wikipedia.org/wiki/General-purpose_input/output)
+* [UART - Wikipedia](https://wikipedia.org/wiki/Universal_asynchronous_receiver-transmitter)
+* [SPI - Wikipedia](https://wikipedia.org/wiki/Serial_Peripheral_Interface)
+* [I<sup>2</sup>C - Wikipedia](https://wikipedia.org/wiki/I²C)
+* [Zigbee - Wikipedia](https://wikipedia.org/wiki/Zigbee)
 
-## Assignment
+## Devoir
 
-[Calibrate your sensor](assignment.md)
+[Calibrez votre capteur](assignment.fr.md)
