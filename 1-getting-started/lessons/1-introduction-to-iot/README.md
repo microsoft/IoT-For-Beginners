@@ -1,5 +1,3 @@
-[![French](https://img.shields.io/badge/-French-purple)](translations/README.fr.md)
-
 # Introduction to IoT
 
 ![A sketchnote overview of this lesson](../../../sketchnotes/lesson-1.jpg)

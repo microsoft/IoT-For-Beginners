@@ -1,5 +1,5 @@
 # Guide de démarage IoT
-Dans cette section du tutoriel, vous serez initié à l'Internet des objets et apprendrez les concepts de base, notamment la construction de votre premier projet IoT « Hello, World!» connecté à l'infrastrucutre info-nuagique. Ce projet est une veilleuse qui s'allume quand la lumière mesurée par un capteur diminue.
+Dans cette section du tutoriel, vous serez initié à l'Internet des objets et apprendrez les concepts de base, notamment la construction de votre premier projet IoT « Hello, World!» connecté à l'infrastrucutre infonuagique. Ce projet est une veilleuse qui s'allume quand la lumière mesurée par un capteur diminue.
 
 ![La DEL connecté au WIO s'allume et s'éteint en fonction de la luminosité](../../images/wio-running-assignment-1-1.gif)
 
