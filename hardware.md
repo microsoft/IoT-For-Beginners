@@ -55,7 +55,7 @@ All the device code for Raspberry Pi is in Python. To complete all the assignmen
 ### Raspberry Pi hardware
 
 * [Raspberry Pi](https://www.raspberrypi.org/products/raspberry-pi-4-model-b/)
-  > 💁 Versions from the Pi 2B and above should work with the assignments in these lessons.
+  > 💁 Versions from the Pi 2B and above should work with the assignments in these lessons. If you are planning on running VS Code directly on the Pi, then a Pi 4 with 2GB or more of RAM is needed. If you are going to access the Pi remotely then any Pi 2B and above will work.
 * microSD Card (You can get Raspberry Pi kits that come with a microSD Card), along with a connector to use the SD card with your computer if you don't have one built-in.
 * USB power supply (You can get Raspberry Pi 4 kits that come with a power supply). If you are using a Raspberry Pi 4 you need a USB-C power supply, earlier devices need a micro-USB power supply.
 
