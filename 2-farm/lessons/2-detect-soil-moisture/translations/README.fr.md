@@ -20,7 +20,7 @@ Dans cette leçon, nous aborderons:
 
 * [Humidité du sol](#humidité-du-sol)
 * [Comment les senseurs communiquent avec les composants IoT](#comment-les-senseurs-communiquent-avec-les-composants-IoT)
-* [Mesurer les niveaux d'humidité dans le sol](#mesurer-les-niveaux-d'humidité-dans-le-sol)
+* [Mesurer les niveaux d'humidité dans le sol](#mesurer-les-niveaux-d-humidité-dans-le-sol)
 * [Étalonnage du capteur](#étalonnage-du-capteur)
 
 ## Humidité du sol
