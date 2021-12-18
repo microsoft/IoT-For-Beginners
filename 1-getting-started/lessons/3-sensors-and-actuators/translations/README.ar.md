@@ -199,7 +199,7 @@
 
 ## مراجعة ودراسة ذاتية
 
-* اقرأ عن الكهرباء والدوائر على <a href="http://www.thinglearn.com/essentials/">ThingLearn</a>.
+* اقرأ عن الكهرباء والدوائر على <a href="http://thinglearn.jenlooper.com/curriculum/">ThingLearn</a>.
 * اقرأ عن الأنواع المختلفة من مستشعرات درجة الحرارة في <a href="https://www.seeedstudio.com/blog/2019/10/14/temperature-sensors-for-arduino-projects/">دليل مستشعرات درجة الحرارة في الاستوديوها</a> 
 * اقرأ عن مصابيح LED على <a href="https://wikipedia.org/wiki/Light-emitting_diode">صفحة Wikipedia LED</a> 
 

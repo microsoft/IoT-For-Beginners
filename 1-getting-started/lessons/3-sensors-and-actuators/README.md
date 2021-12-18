@@ -207,7 +207,7 @@ For every device you listed, what sensors and actuators are they connected to? W
 
 ## Review & Self Study
 
-* Read up on electricity and circuits on [ThingLearn](http://www.thinglearn.com/essentials/).
+* Read up on electricity and circuits on [ThingLearn](http://thinglearn.jenlooper.com/curriculum/).
 * Read about the different types of temperature sensors on the [Seeed Studios Temperature Sensors guide](https://www.seeedstudio.com/blog/2019/10/14/temperature-sensors-for-arduino-projects/)
 * Read about LEDs on the [Wikipedia LED page](https://wikipedia.org/wiki/Light-emitting_diode)
 
