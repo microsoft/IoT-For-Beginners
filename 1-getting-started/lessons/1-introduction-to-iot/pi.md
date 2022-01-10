@@ -31,7 +31,14 @@ If you want to work directly on your Pi, you can use the desktop version of Rasp
 
 Set up your Pi for development.
 
-1. Follow the instructions in the [Raspberry Pi setup guide](https://projects.raspberrypi.org/en/projects/raspberry-pi-setting-up) to set up your Pi, connect it to a keyboard/mouse/monitor, connect it to your WiFi or ethernet network, and update the software. The OS you want to install is **Raspberry Pi OS (32 bit)**, it is marked as the recommended OS when using the Raspberry Pi Imager to image your SD card.
+1. Follow the instructions in the [Raspberry Pi setup guide](https://projects.raspberrypi.org/en/projects/raspberry-pi-setting-up) to set up your Pi, connect it to a keyboard/mouse/monitor, connect it to your WiFi or ethernet network, and update the software.
+
+    > IMPORTANT
+    >
+    > Currently the latest Raspberry Pi OS no longer suports accessing the camera via PiCamera or any other Python library. You can read about this change in this [Raspberry Pi blog post](https://www.raspberrypi.com/news/bullseye-camera-system/).
+    > You will need to install an older OS by downloading the Buster image from the here:
+    >
+    > [https://downloads.raspberrypi.org/raspios_armhf/images/raspios_armhf-2021-05-28/](https://downloads.raspberrypi.org/raspios_armhf/images/raspios_armhf-2021-05-28/)
 
 To program the Pi using the Grove sensors and actuators, you will need to install an editor to allow you to write the device code, and various libraries and tools that interact with the Grove hardware.
 
