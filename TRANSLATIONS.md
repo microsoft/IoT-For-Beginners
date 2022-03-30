@@ -19,6 +19,10 @@ where _[language]_ is a two letter language abbreviation following the ISO 639-1
 
 > Important: when translating text in this repo, please ensure that you do not use machine translation. We will verify translations via the community, so please only volunteer for translations in languages where you are proficient.
 
+## Links
+
+When translating, please update links to the translated files. If a file hasn't been translated, keep the link to the English version. As each file is in a `translations` folder, you will also need to update the link depth for hyperlinks and images.
+
 ## Quizzes
 
 Add your translation to the quiz-app by adding a file here: https://github.com/microsoft/IoT-For-Beginners/tree/main/quiz-app/src/assets/translations. Please don't localize the words 'true' or 'false' however. thanks!
