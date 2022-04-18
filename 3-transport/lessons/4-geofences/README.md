@@ -416,10 +416,11 @@ Earlier in this lesson you used curl to query a geofence to see if a point was l
 
     The items in the `params` dictionary will match the key value pairs you used when calling the web API via curl.
 
-1. Add the following line of code to call the web API:
+1. Add the following lines of code to call the web API:
 
     ```python
     response = requests.get(url, params=params)
+    response_body = json.loads(response.text)
     ```
 
     This calls the URL with the parameters, and gets back a response object.

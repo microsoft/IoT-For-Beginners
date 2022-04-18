@@ -194,7 +194,7 @@
 
 ## রিভিউ এবং স্ব-অধ্যয়ন
 
-* [ThingLearn](http://www.thinglearn.com/essentials/) থেকে ইলেক্ট্রিসিটি ও সার্কিটের ব্যাপারে পড়া।
+* [ThingLearn](http://thinglearn.jenlooper.com/curriculum/) থেকে ইলেক্ট্রিসিটি ও সার্কিটের ব্যাপারে পড়া।
 * [Seeed Studios Temperature Sensors guide](https://www.seeedstudio.com/blog/2019/10/14/temperature-sensors-for-arduino-projects/) থেকে বিভিন্ন ধরণের তাপমাত্রা সেন্সরের ব্যাপারে জানা।
 * এলইডি সম্পর্কে [Wikipedia LED page](https://wikipedia.org/wiki/Light-emitting_diode) থেকে আরো বিস্তারিত ধারণা লাভ করা।
 

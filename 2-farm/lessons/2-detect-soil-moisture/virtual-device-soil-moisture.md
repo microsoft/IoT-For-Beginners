@@ -14,7 +14,7 @@ This is an analog sensor, so uses a simulated 10-bit ADC to report a value from 
 
 To use a virtual soil moisture sensor, you need to add it to the CounterFit app
 
-#### Task - dd the soil moisture sensor to CounterFit
+#### Task - Add the soil moisture sensor to CounterFit
 
 Add the soil moisture sensor to the CounterFit app.
 
@@ -32,7 +32,7 @@ Add the soil moisture sensor to the CounterFit app.
 
     1. Ensure the *Pin* is set to *0*
 
-    1. Select the **Add** button to create the humidity sensor on Pin 0
+    1. Select the **Add** button to create the *Soil Moisture* sensor on Pin 0
 
     ![The soil moisture sensor settings](../../../images/counterfit-create-soil-moisture-sensor.png)
 
