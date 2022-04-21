@@ -22,10 +22,14 @@ def print_gps_data(line):
         print(f'{lat},{lon} - from {msg.num_sats} satellites')
 
 while True:
-    line = serial.readline().decode('utf-8')
+    try:
+        line = serial.readline().decode('utf-8')
 
-    while len(line) > 0:
-        print_gps_data(line)
+        while len(line) > 0:
+            print_gps_data(line)
+            line = serial.readline().decode('utf-8')
+
+    except UnicodeDecodeError:
         line = serial.readline().decode('utf-8')
 
     time.sleep(1)
