@@ -149,12 +149,30 @@ Program the device.
     $BDGSV,1,1,00*68
     ```
 
-    > If you get one of the following errors when stopping and restarting your code, kill the VS Code terminal, then launch a new one and try again.
+    > If you get one of the following errors when stopping and restarting your code, add a `try - except` block to your while loop.
 
       ```output
       UnicodeDecodeError: 'utf-8' codec can't decode byte 0x93 in position 0: invalid start byte
       UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf1 in position 0: invalid continuation byte
       ```
+
+    ```python
+    while True:
+        try:
+            line = serial.readline().decode('utf-8')
+              
+            while len(line) > 0:
+                print_gps_data()
+                line = serial.readline().decode('utf-8')
+      
+        # There's a random chance the first byte being read is part way through a character.
+        # Read another full line and continue.
+
+        except UnicodeDecodeError:
+            line = serial.readline().decode('utf-8')
+
+    time.sleep(1)
+    ```
 
 > 💁 You can find this code in the [code-gps/pi](code-gps/pi) folder.
 
