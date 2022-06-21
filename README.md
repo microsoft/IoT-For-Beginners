@@ -134,6 +134,7 @@ Our team produces other curricula! Check out:
 - [Web Dev for Beginners](https://aka.ms/webdev-beginners)
 - [ML for Beginners](https://aka.ms/ml-beginners)
 - [Data Science for Beginners](https://aka.ms/datascience-beginners)
+- [AI for Beginners](https://aka.ms/ai-beginners)
 
 ## Image attributions
 
