@@ -73,7 +73,7 @@ Kişisel tercih, programlama dili bilgisi ve tercihi, öğrenme amaçları ve er
 - Ödev
 - Ders sonrası quiz
 
-> **Quiz'ler hakkında bir not**: Tüm quizler [bu uygulamada](https://brave-island-0b7c7f50f.azurestaticapps.net), toplam 48 quiz için her birine 3 soru. Quizlerin ilgili derslerde linkleri vardır. Ayrıca quiz uygulaması kendi cihanızdan da çalışabilir. Bunun için `quiz-app` kalsöründeki talimatlara uyun. 
+> **Quiz'ler hakkında bir not**: Tüm quizler [bu uygulamada](https://thankful-pond-0eba8f10f.1.azurestaticapps.net), toplam 48 quiz için her birine 3 soru. Quizlerin ilgili derslerde linkleri vardır. Ayrıca quiz uygulaması kendi cihanızdan da çalışabilir. Bunun için `quiz-app` kalsöründeki talimatlara uyun. 
 
 ## Dersler
 
