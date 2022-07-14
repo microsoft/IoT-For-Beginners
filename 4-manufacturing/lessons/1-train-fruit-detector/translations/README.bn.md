@@ -12,7 +12,7 @@
 
 ## লেকচার-পূর্ববর্তী কুইজ
 
-[লেকচার-পূর্ববর্তী কুইজ](https://brave-island-0b7c7f50f.azurestaticapps.net/quiz/29)
+[লেকচার-পূর্ববর্তী কুইজ](https://thankful-pond-0eba8f10f.1.azurestaticapps.net/quiz/29)
 
 ## সূচনা
 
@@ -224,7 +224,7 @@
 
 ## লেকচার-পরবর্তী কুইজ
 
-[লেকচার-পরবর্তী কুইজ](https://brave-island-0b7c7f50f.azurestaticapps.net/quiz/30)
+[লেকচার-পরবর্তী কুইজ](https://thankful-pond-0eba8f10f.1.azurestaticapps.net/quiz/30)
 
 ##  রিভিউ এবং স্ব-অধ্যয়ন
 

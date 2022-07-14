@@ -12,7 +12,7 @@ This video gives an overview of Azure Maps with IoT, a service that will be cove
 
 ## Pre-lecture quiz
 
-[Pre-lecture quiz](https://brave-island-0b7c7f50f.azurestaticapps.net/quiz/25)
+[Pre-lecture quiz](https://thankful-pond-0eba8f10f.1.azurestaticapps.net/quiz/25)
 
 ## Introduction
 
@@ -332,7 +332,7 @@ It's nice to be able to display static data on a map as markers. Can you enhance
 
 ## Post-lecture quiz
 
-[Post-lecture quiz](https://brave-island-0b7c7f50f.azurestaticapps.net/quiz/26)
+[Post-lecture quiz](https://thankful-pond-0eba8f10f.1.azurestaticapps.net/quiz/26)
 
 ## Review & Self Study
 

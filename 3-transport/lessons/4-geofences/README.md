@@ -12,7 +12,7 @@ This video gives an overview of geofences and how to use them in Azure Maps, top
 
 ## Pre-lecture quiz
 
-[Pre-lecture quiz](https://brave-island-0b7c7f50f.azurestaticapps.net/quiz/27)
+[Pre-lecture quiz](https://thankful-pond-0eba8f10f.1.azurestaticapps.net/quiz/27)
 
 ## Introduction
 
@@ -462,7 +462,7 @@ Try uploading a GeoJSON file with multiple polygons and adjust your code to find
 
 ## Post-lecture quiz
 
-[Post-lecture quiz](https://brave-island-0b7c7f50f.azurestaticapps.net/quiz/28)
+[Post-lecture quiz](https://thankful-pond-0eba8f10f.1.azurestaticapps.net/quiz/28)
 
 ## Review & Self Study
 

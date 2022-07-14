@@ -14,7 +14,7 @@
 
 ## 강의 전 퀴즈
 
-[강의 전 퀴즈](https://brave-island-0b7c7f50f.azurestaticapps.net/quiz/1)
+[강의 전 퀴즈](https://thankful-pond-0eba8f10f.1.azurestaticapps.net/quiz/1)
 
 ## 개요
 
@@ -213,7 +213,7 @@ IoT는 몇 가지 광범위한 그룹에 걸쳐 광범위한 사용 사례를 �
 
 ## 강의 후 퀴즈
 
-[강의 후 퀴즈](https://brave-island-0b7c7f50f.azurestaticapps.net/quiz/2)
+[강의 후 퀴즈](https://thankful-pond-0eba8f10f.1.azurestaticapps.net/quiz/2)
 
 ## 복습 & 자기주도 학습
 

@@ -6,7 +6,7 @@
 
 ## Questionnaire de prélecture
 
-[Questionnaire de prélecture](https://brave-island-0b7c7f50f.azurestaticapps.net/quiz/9)
+[Questionnaire de prélecture](https://thankful-pond-0eba8f10f.1.azurestaticapps.net/quiz/9)
 
 ## Introduction
 
@@ -257,7 +257,7 @@ Pour ceux-ci, cherchez s'il existe des capteurs qui peuvent les mesurer. Et des 
 
 ## Questionnaire Post-lecture
 
-[Questionnaire Post-lecture](https://brave-island-0b7c7f50f.azurestaticapps.net/quiz/10)
+[Questionnaire Post-lecture](https://thankful-pond-0eba8f10f.1.azurestaticapps.net/quiz/10)
 
 ## Révision et apprentissage autodidacte
 

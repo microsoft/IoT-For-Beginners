@@ -3,7 +3,7 @@
 ##  <div dir="rtl"> اختبار ما قبل المحاضرة </div>
 
 
-[<div dir="rtl"> اختبار ما قبل المحاضرة </div>](https://brave-island-0b7c7f50f.azurestaticapps.net/quiz/5)
+[<div dir="rtl"> اختبار ما قبل المحاضرة </div>](https://thankful-pond-0eba8f10f.1.azurestaticapps.net/quiz/5)
 
 ##  <div dir="rtl"> المقدمة </div>
 
@@ -195,7 +195,7 @@
 
 ## اختبار ما بعد المحاضرة
 
-<a href="https://brave-island-0b7c7f50f.azurestaticapps.net/quiz/6">اختبار ما بعد المحاضرة</a>
+<a href="https://thankful-pond-0eba8f10f.1.azurestaticapps.net/quiz/6">اختبار ما بعد المحاضرة</a>
 
 ## مراجعة ودراسة ذاتية
 
