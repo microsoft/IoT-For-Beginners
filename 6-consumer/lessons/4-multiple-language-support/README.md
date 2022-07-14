@@ -12,7 +12,7 @@ This video gives an overview of the Azure speech services, covering speech to te
 
 ## Pre-lecture quiz
 
-[Pre-lecture quiz](https://brave-island-0b7c7f50f.azurestaticapps.net/quiz/47)
+[Pre-lecture quiz](https://thankful-pond-0eba8f10f.1.azurestaticapps.net/quiz/47)
 
 ## Introduction
 
@@ -161,7 +161,7 @@ How can machine translations benefit other IoT applications beyond smart devices
 
 ## Post-lecture quiz
 
-[Post-lecture quiz](https://brave-island-0b7c7f50f.azurestaticapps.net/quiz/48)
+[Post-lecture quiz](https://thankful-pond-0eba8f10f.1.azurestaticapps.net/quiz/48)
 
 ## Review & Self Study
 

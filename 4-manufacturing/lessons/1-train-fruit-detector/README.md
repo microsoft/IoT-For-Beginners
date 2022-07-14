@@ -12,7 +12,7 @@ This video gives an overview of the Azure Custom Vision service, a service that 
 
 ## Pre-lecture quiz
 
-[Pre-lecture quiz](https://brave-island-0b7c7f50f.azurestaticapps.net/quiz/29)
+[Pre-lecture quiz](https://thankful-pond-0eba8f10f.1.azurestaticapps.net/quiz/29)
 
 ## Introduction
 
@@ -226,7 +226,7 @@ Try it out and see what the predictions are. You can find images to try with usi
 
 ## Post-lecture quiz
 
-[Post-lecture quiz](https://brave-island-0b7c7f50f.azurestaticapps.net/quiz/30)
+[Post-lecture quiz](https://thankful-pond-0eba8f10f.1.azurestaticapps.net/quiz/30)
 
 ## Review & Self Study
 

@@ -6,7 +6,7 @@
 
 ## Pre-lecture quiz
 
-[Pre-lecture quiz](https://brave-island-0b7c7f50f.azurestaticapps.net/quiz/31)
+[Pre-lecture quiz](https://thankful-pond-0eba8f10f.1.azurestaticapps.net/quiz/31)
 
 ## Introduction
 
@@ -145,7 +145,7 @@ If you were to create a production device to sell to farms or factories, how wou
 
 ## Post-lecture quiz
 
-[Post-lecture quiz](https://brave-island-0b7c7f50f.azurestaticapps.net/quiz/32)
+[Post-lecture quiz](https://thankful-pond-0eba8f10f.1.azurestaticapps.net/quiz/32)
 
 ## Review & Self Study
 

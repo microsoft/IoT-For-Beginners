@@ -72,7 +72,7 @@ Nous proposons deux possibilités de matériel "IoT" afin de réaliser nos proje
 - devoir
 - questionnaire de fin de cours
 
-> **Note à propos des questionnaires**: Tous les questionnaires se retrouvent dans [cette application](https://brave-island-0b7c7f50f.azurestaticapps.net), pour un total de 48 questionnaires de trois questions chaque. Des liens sont fournis à l'intérieur de chacune des leçons bien que l'application puisse être exécutée localement; suivez les instructions situées dans le dossier `quiz-app`. Ces dernières deviennent progressivement localisées.
+> **Note à propos des questionnaires**: Tous les questionnaires se retrouvent dans [cette application](https://thankful-pond-0eba8f10f.1.azurestaticapps.net), pour un total de 48 questionnaires de trois questions chaque. Des liens sont fournis à l'intérieur de chacune des leçons bien que l'application puisse être exécutée localement; suivez les instructions situées dans le dossier `quiz-app`. Ces dernières deviennent progressivement localisées.
 
 ## Leçons
 

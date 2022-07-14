@@ -6,7 +6,7 @@
 
 ## Quiz Pré-lecture
 
-[Quiz Pré-lecture](https://brave-island-0b7c7f50f.azurestaticapps.net/quiz/11)
+[Quiz Pré-lecture](https://thankful-pond-0eba8f10f.1.azurestaticapps.net/quiz/11)
 
 ## Introduction
 
@@ -245,7 +245,7 @@ Les capteurs d'humidité du sol résistifs et capacitifs présentent un certain 
 
 ## Quiz post-lecture
 
-[Quiz post-lecture](https://brave-island-0b7c7f50f.azurestaticapps.net/quiz/12)
+[Quiz post-lecture](https://thankful-pond-0eba8f10f.1.azurestaticapps.net/quiz/12)
 
 ## Révision et étude personnelle
 

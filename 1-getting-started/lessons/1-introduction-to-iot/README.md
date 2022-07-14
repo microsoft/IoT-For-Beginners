@@ -14,7 +14,7 @@ This lesson was taught as part of the [Hello IoT series](https://youtube.com/pla
 
 ## Pre-lecture quiz
 
-[Pre-lecture quiz](https://brave-island-0b7c7f50f.azurestaticapps.net/quiz/1)
+[Pre-lecture quiz](https://thankful-pond-0eba8f10f.1.azurestaticapps.net/quiz/1)
 
 ## Introduction
 
@@ -213,7 +213,7 @@ List as many IoT devices as you can that are in your home, school or workplace -
 
 ## Post-lecture quiz
 
-[Post-lecture quiz](https://brave-island-0b7c7f50f.azurestaticapps.net/quiz/2)
+[Post-lecture quiz](https://thankful-pond-0eba8f10f.1.azurestaticapps.net/quiz/2)
 
 ## Review & Self Study
 

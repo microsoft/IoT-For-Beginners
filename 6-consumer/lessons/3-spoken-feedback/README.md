@@ -6,7 +6,7 @@
 
 ## Pre-lecture quiz
 
-[Pre-lecture quiz](https://brave-island-0b7c7f50f.azurestaticapps.net/quiz/45)
+[Pre-lecture quiz](https://thankful-pond-0eba8f10f.1.azurestaticapps.net/quiz/45)
 
 ## Introduction
 
@@ -115,7 +115,7 @@ SSML has ways to change how words are spoken, such as adding emphasis to certain
 
 ## Post-lecture quiz
 
-[Post-lecture quiz](https://brave-island-0b7c7f50f.azurestaticapps.net/quiz/46)
+[Post-lecture quiz](https://thankful-pond-0eba8f10f.1.azurestaticapps.net/quiz/46)
 
 ## Review & Self Study
 

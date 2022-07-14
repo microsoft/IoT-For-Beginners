@@ -5,7 +5,7 @@
 
 ## লেকচার পূর্ববর্তী কুইজ
 
-[লেকচার পূর্ববর্তী কুইজ](https://brave-island-0b7c7f50f.azurestaticapps.net/quiz/3)
+[লেকচার পূর্ববর্তী কুইজ](https://thankful-pond-0eba8f10f.1.azurestaticapps.net/quiz/3)
 
 ## সূচনা
 
@@ -239,7 +239,7 @@ Wio Terminal পর্যালোচনা করি।
 
 ## লেকচার পরবর্তী কুইজ
 
-[লেকচার পরবর্তী কুইজ](https://brave-island-0b7c7f50f.azurestaticapps.net/quiz/4)
+[লেকচার পরবর্তী কুইজ](https://thankful-pond-0eba8f10f.1.azurestaticapps.net/quiz/4)
 
 ## রিভিউ এবং স্ব-অধ্যয়ন
 

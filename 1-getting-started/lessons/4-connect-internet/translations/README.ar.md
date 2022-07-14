@@ -4,7 +4,7 @@
 > Sketchnote by [Nitya Narasimhan](https://github.com/nitya). Click the image for a larger version.
 
 ## <div dir="rtl">اختبار ما قبل المحاضرة</div>
-[اختبار ما قبل المحاضرة](https://brave-island-0b7c7f50f.azurestaticapps.net/quiz/7)
+[اختبار ما قبل المحاضرة](https://thankful-pond-0eba8f10f.1.azurestaticapps.net/quiz/7)
 
 ## <div dir="rtl">المقدمة</div>
 
@@ -440,7 +440,7 @@ MQTT لديها وسيط واحد وعملاء متعددين. يتصل جميع
 
 ## مسابقة ما بعد المحاضرة
 
-[مسابقة ما بعد المحاضرة](https://brave-island-0b7c7f50f.azurestaticapps.net/quiz/8)
+[مسابقة ما بعد المحاضرة](https://thankful-pond-0eba8f10f.1.azurestaticapps.net/quiz/8)
 
 ## مراجعة ودراسة ذاتية
 

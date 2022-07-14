@@ -6,7 +6,7 @@
 
 ## 课前测验
 
-[课前测验](https://brave-island-0b7c7f50f.azurestaticapps.net/quiz/9)
+[课前测验](https://thankful-pond-0eba8f10f.1.azurestaticapps.net/quiz/9)
 
 ## 介绍
 
@@ -258,7 +258,7 @@ CSV 文件将有两列 - *时间 (date)*和*温度 (temperature)*。*时间*列�
 
 ## 课后测验
 
-[课后测验](https://brave-island-0b7c7f50f.azurestaticapps.net/quiz/10)
+[课后测验](https://thankful-pond-0eba8f10f.1.azurestaticapps.net/quiz/10)
 
 ## 复习 & 自学
 

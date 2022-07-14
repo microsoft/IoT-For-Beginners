@@ -6,7 +6,7 @@
 
 ## Pre-lecture quiz
 
-[Pre-lecture quiz](https://brave-island-0b7c7f50f.azurestaticapps.net/quiz/11)
+[Pre-lecture quiz](https://thankful-pond-0eba8f10f.1.azurestaticapps.net/quiz/11)
 
 ## Introduction
 
@@ -245,7 +245,7 @@ Resistive and capacitive soil moisture sensors have a number of differences. Wha
 
 ## Post-lecture quiz
 
-[Post-lecture quiz](https://brave-island-0b7c7f50f.azurestaticapps.net/quiz/12)
+[Post-lecture quiz](https://thankful-pond-0eba8f10f.1.azurestaticapps.net/quiz/12)
 
 ## Review & Self Study
 
