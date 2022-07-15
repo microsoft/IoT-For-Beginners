@@ -158,7 +158,7 @@ Imagine you are controlling a motor with a 5V supply. You send a short pulse to 
 
 ![Pule width modulation rotation of a motor at 150 RPM](../../../images/pwm-motor-150rpm.png)
 
-This means in one second you have 25 5V pulses of 0.02s that rotate the motor, each followed by 0.02s pause of 0V not rotating the motor. Each pulse rotates the motor one tenth of a rotation, meaning the motor completes 2.5 rotations per second. You've used a digital signal to rotate the motor at 2.5 rotations per second, or 150 ([revolutions per minute](https://wikipedia.org/wiki/Revolutions_per_minute), a non-standard measure of rotational velocity).
+This means in one second you have 25 5V pulses of 0.02s that rotate the motor, each followed by 0.02s pause of 0V not rotating the motor. Each pulse rotates the motor one tenth of a rotation, meaning the motor completes 2.5 rotations per second. You've used a digital signal to rotate the motor at 2.5 rotations per second, or 150 [revolutions per minute](https://wikipedia.org/wiki/Revolutions_per_minute) (a non-standard measure of rotational velocity).
 
 ```output
 25 pulses per second x 0.1 rotations per pulse = 2.5 rotations per second
