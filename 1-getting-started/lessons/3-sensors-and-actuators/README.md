@@ -145,7 +145,8 @@ One example is a dimmable light, such as the ones you might have in your house. 
 
 Like with sensors, the actual IoT device works on digital signals, not analog. This means to send an analog signal, the IoT device needs a digital to analog converter (DAC), either on the IoT device directly, or on a connector board. This will convert the 0s and 1s from the IoT device to an analog voltage that the actuator can use.
 
-✅ What do you think happens if the IoT device sends a higher voltage than the actuator can handle? ⛔️ DO NOT test this out.
+✅ What do you think happens if the IoT device sends a higher voltage than the actuator can handle?
+⛔️ DO NOT test this out.
 
 #### Pulse-Width Modulation
 
