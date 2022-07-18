@@ -6,7 +6,7 @@
 
 ## Pre-lecture quiz
 
-[Pre-lecture quiz](https://thankful-pond-0eba8f10f.1.azurestaticapps.net/quiz/17)
+[Pre-lecture quiz](https://black-meadow-040d15503.1.azurestaticapps.net/quiz/17)
 
 ## Introduction
 
@@ -604,7 +604,7 @@ Think about different ways you could handle this in your Functions App.
 
 ## Post-lecture quiz
 
-[Post-lecture quiz](https://thankful-pond-0eba8f10f.1.azurestaticapps.net/quiz/18)
+[Post-lecture quiz](https://black-meadow-040d15503.1.azurestaticapps.net/quiz/18)
 
 ## Review & Self Study
 

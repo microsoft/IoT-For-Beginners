@@ -6,7 +6,7 @@
 
 ## লেকচার-পূর্ববর্তী কুইজ
 
-[লেকচার-পূর্ববর্তী কুইজ](https://thankful-pond-0eba8f10f.1.azurestaticapps.net/quiz/25)
+[লেকচার-পূর্ববর্তী কুইজ](https://black-meadow-040d15503.1.azurestaticapps.net/quiz/25)
 
 ## সূচনা
 
@@ -326,7 +326,7 @@ GeoJSON ডেটার একটি নমুনা ফাইলঃ
 
 ## লেকচার-পরবর্তী কুইজ
 
-[লেকচার-পরবর্তী কুইজ](https://thankful-pond-0eba8f10f.1.azurestaticapps.net/quiz/26)
+[লেকচার-পরবর্তী কুইজ](https://black-meadow-040d15503.1.azurestaticapps.net/quiz/26)
 
 ##  রিভিউ এবং স্ব-অধ্যয়ন
 

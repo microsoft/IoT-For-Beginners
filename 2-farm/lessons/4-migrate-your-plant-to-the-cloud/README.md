@@ -6,7 +6,7 @@
 
 ## Pre-lecture quiz
 
-[Pre-lecture quiz](https://thankful-pond-0eba8f10f.1.azurestaticapps.net/quiz/15)
+[Pre-lecture quiz](https://black-meadow-040d15503.1.azurestaticapps.net/quiz/15)
 
 ## Introduction
 
@@ -417,7 +417,7 @@ Think about how often soil moisture measurements should be sent? How can you cha
 
 ## Post-lecture quiz
 
-[Post-lecture quiz](https://thankful-pond-0eba8f10f.1.azurestaticapps.net/quiz/16)
+[Post-lecture quiz](https://black-meadow-040d15503.1.azurestaticapps.net/quiz/16)
 
 ## Review & Self Study
 

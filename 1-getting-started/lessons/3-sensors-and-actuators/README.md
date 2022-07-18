@@ -14,7 +14,7 @@ This lesson was taught as part of the [Hello IoT series](https://youtube.com/pla
 
 ## Pre-lecture quiz
 
-[Pre-lecture quiz](https://thankful-pond-0eba8f10f.1.azurestaticapps.net/quiz/5)
+[Pre-lecture quiz](https://black-meadow-040d15503.1.azurestaticapps.net/quiz/5)
 
 ## Introduction
 
@@ -204,7 +204,7 @@ For every device you listed, what sensors and actuators are they connected to? W
 
 ## Post-lecture quiz
 
-[Post-lecture quiz](https://thankful-pond-0eba8f10f.1.azurestaticapps.net/quiz/6)
+[Post-lecture quiz](https://black-meadow-040d15503.1.azurestaticapps.net/quiz/6)
 
 ## Review & Self Study
 

@@ -6,7 +6,7 @@
 
 ## Pre-lecture quiz
 
-[Pre-lecture quiz](https://thankful-pond-0eba8f10f.1.azurestaticapps.net/quiz/35)
+[Pre-lecture quiz](https://black-meadow-040d15503.1.azurestaticapps.net/quiz/35)
 
 ## Introduction
 
@@ -209,7 +209,7 @@ For example - a vehicle tracking device that combines GPS with sensors to monito
 
 ## Post-lecture quiz
 
-[Post-lecture quiz](https://thankful-pond-0eba8f10f.1.azurestaticapps.net/quiz/36)
+[Post-lecture quiz](https://black-meadow-040d15503.1.azurestaticapps.net/quiz/36)
 
 ## Review & Self Study
 

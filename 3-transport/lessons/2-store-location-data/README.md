@@ -6,7 +6,7 @@
 
 ## Pre-lecture quiz
 
-[Pre-lecture quiz](https://thankful-pond-0eba8f10f.1.azurestaticapps.net/quiz/23)
+[Pre-lecture quiz](https://black-meadow-040d15503.1.azurestaticapps.net/quiz/23)
 
 ## Introduction
 
@@ -455,7 +455,7 @@ Think about how satellite navigation could overcome this? What data does your sa
 
 ## Post-lecture quiz
 
-[Post-lecture quiz](https://thankful-pond-0eba8f10f.1.azurestaticapps.net/quiz/24)
+[Post-lecture quiz](https://black-meadow-040d15503.1.azurestaticapps.net/quiz/24)
 
 ## Review & Self Study
 

@@ -6,7 +6,7 @@
 
 ## Kuis prakuliah
 
-[Kuis prakuliah](https://thankful-pond-0eba8f10f.1.azurestaticapps.net/quiz/1)
+[Kuis prakuliah](https://black-meadow-040d15503.1.azurestaticapps.net/quiz/1)
 
 ## Pengantar
 

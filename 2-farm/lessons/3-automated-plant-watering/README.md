@@ -6,7 +6,7 @@
 
 ## Pre-lecture quiz
 
-[Pre-lecture quiz](https://thankful-pond-0eba8f10f.1.azurestaticapps.net/quiz/13)
+[Pre-lecture quiz](https://black-meadow-040d15503.1.azurestaticapps.net/quiz/13)
 
 ## Introduction
 
@@ -287,7 +287,7 @@ Can you think of any other IoT or other electrical devices that have a similar p
 
 ## Post-lecture quiz
 
-[Post-lecture quiz](https://thankful-pond-0eba8f10f.1.azurestaticapps.net/quiz/14)
+[Post-lecture quiz](https://black-meadow-040d15503.1.azurestaticapps.net/quiz/14)
 
 ## Review & Self Study
 

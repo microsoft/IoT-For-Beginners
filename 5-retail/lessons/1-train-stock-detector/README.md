@@ -12,7 +12,7 @@ This video gives an overview of Object Detection the Azure Custom Vision service
 
 ## Pre-lecture quiz
 
-[Pre-lecture quiz](https://thankful-pond-0eba8f10f.1.azurestaticapps.net/quiz/37)
+[Pre-lecture quiz](https://black-meadow-040d15503.1.azurestaticapps.net/quiz/37)
 
 ## Introduction
 
@@ -181,7 +181,7 @@ If you have any similar looking items, test it out by adding images of them to y
 
 ## Post-lecture quiz
 
-[Post-lecture quiz](https://thankful-pond-0eba8f10f.1.azurestaticapps.net/quiz/38)
+[Post-lecture quiz](https://black-meadow-040d15503.1.azurestaticapps.net/quiz/38)
 
 ## Review & Self Study
 

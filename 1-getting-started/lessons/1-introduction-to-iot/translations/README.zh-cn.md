@@ -6,7 +6,7 @@
 
 ## 课前测验
 
-[课前测验](https://thankful-pond-0eba8f10f.1.azurestaticapps.net/quiz/1)
+[课前测验](https://black-meadow-040d15503.1.azurestaticapps.net/quiz/1)
 
 ## 简介
 
@@ -205,7 +205,7 @@ Raspberry Pi 是其中最流行的单板机。
 
 ## 课后测验
 
-[课后测验](https://thankful-pond-0eba8f10f.1.azurestaticapps.net/quiz/2)
+[课后测验](https://black-meadow-040d15503.1.azurestaticapps.net/quiz/2)
 
 ## 复习和自学
 
