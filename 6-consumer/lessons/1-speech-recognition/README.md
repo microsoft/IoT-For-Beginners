@@ -12,7 +12,7 @@ This video gives an overview of the Azure speech service, a topic that will be c
 
 ## Pre-lecture quiz
 
-[Pre-lecture quiz](https://thankful-pond-0eba8f10f.1.azurestaticapps.net/quiz/41)
+[Pre-lecture quiz](https://black-meadow-040d15503.1.azurestaticapps.net/quiz/41)
 
 ## Introduction
 
@@ -210,7 +210,7 @@ What do you think the future holds for speech recognition?
 
 ## Post-lecture quiz
 
-[Post-lecture quiz](https://thankful-pond-0eba8f10f.1.azurestaticapps.net/quiz/42)
+[Post-lecture quiz](https://black-meadow-040d15503.1.azurestaticapps.net/quiz/42)
 
 ## Review & Self Study
 

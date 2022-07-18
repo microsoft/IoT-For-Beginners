@@ -6,7 +6,7 @@
 
 ## Pre-lecture quiz
 
-[Pre-lecture quiz](https://thankful-pond-0eba8f10f.1.azurestaticapps.net/quiz/19)
+[Pre-lecture quiz](https://black-meadow-040d15503.1.azurestaticapps.net/quiz/19)
 
 ## Introduction
 
@@ -221,7 +221,7 @@ You can find plenty of documentation, tutorials and guides on the Azure Portal i
 
 ## Post-lecture quiz
 
-[Post-lecture quiz](https://thankful-pond-0eba8f10f.1.azurestaticapps.net/quiz/20)
+[Post-lecture quiz](https://black-meadow-040d15503.1.azurestaticapps.net/quiz/20)
 
 ## Review & Self Study
 

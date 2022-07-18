@@ -6,7 +6,7 @@
 
 ## Questionário pré-aula
 
-[Questionário pré-aula](https://thankful-pond-0eba8f10f.1.azurestaticapps.net/quiz/1)
+[Questionário pré-aula](https://black-meadow-040d15503.1.azurestaticapps.net/quiz/1)
 
 ## Introdução
 
@@ -205,7 +205,7 @@ Liste o máximo de dispositivos IoT que puder em sua casa, escola ou local de tr
 
 ## Questionário pós-aula
 
-[Questionário pós-aula](https://thankful-pond-0eba8f10f.1.azurestaticapps.net/quiz/2)
+[Questionário pós-aula](https://black-meadow-040d15503.1.azurestaticapps.net/quiz/2)
 
 ## Revisão e autoestudo
 

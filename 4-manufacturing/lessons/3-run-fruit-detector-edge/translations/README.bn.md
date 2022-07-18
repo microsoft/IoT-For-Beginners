@@ -12,7 +12,7 @@
 
 ## লেকচার-পূর্ববর্তী কুইজ
 
-[লেকচার-পূর্ববর্তী কুইজ](https://thankful-pond-0eba8f10f.1.azurestaticapps.net/quiz/33)
+[লেকচার-পূর্ববর্তী কুইজ](https://black-meadow-040d15503.1.azurestaticapps.net/quiz/33)
 
 ## সূচনা
 
@@ -602,7 +602,7 @@ Edge ডিভাইসে AI মডেল চালানো ক্লাউড
 
 ## লেকচার-পরবর্তী কুইজ
 
-[লেকচার-পরবর্তী কুইজ](https://thankful-pond-0eba8f10f.1.azurestaticapps.net/quiz/34)
+[লেকচার-পরবর্তী কুইজ](https://black-meadow-040d15503.1.azurestaticapps.net/quiz/34)
 
 ##  রিভিউ এবং স্ব-অধ্যয়ন
 

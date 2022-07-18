@@ -75,7 +75,7 @@ We have two choices of IoT hardware to use for the projects depending on persona
 - assignment
 - post-lesson quiz
 
-> **A note about quizzes**: All quizzes are contained [in this app](https://thankful-pond-0eba8f10f.1.azurestaticapps.net), for 48 total quizzes of three questions each. They are linked from within the lessons but the quiz app can be run locally; follow the instruction in the `quiz-app` folder. They are gradually being localized.
+> **A note about quizzes**: All quizzes are contained [in this app](https://black-meadow-040d15503.1.azurestaticapps.net), for 48 total quizzes of three questions each. They are linked from within the lessons but the quiz app can be run locally; follow the instruction in the `quiz-app` folder. They are gradually being localized.
 
 ## Lessons
 

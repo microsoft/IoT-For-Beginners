@@ -6,7 +6,7 @@
 
 ## লেকচার-পূর্ববর্তী কুইজ
 
-[লেকচার-পূর্ববর্তী কুইজ](https://thankful-pond-0eba8f10f.1.azurestaticapps.net/quiz/17)
+[লেকচার-পূর্ববর্তী কুইজ](https://black-meadow-040d15503.1.azurestaticapps.net/quiz/17)
 
 ## সূচনা
 
@@ -594,7 +594,7 @@ Functions in soil-moisture-sensor:
 
 ## লেকচার পরবর্তী কুইজ
 
-[লেকচার পরবর্তী কুইজ](https://thankful-pond-0eba8f10f.1.azurestaticapps.net/quiz/18)
+[লেকচার পরবর্তী কুইজ](https://black-meadow-040d15503.1.azurestaticapps.net/quiz/18)
 
 ## রিভিউ এবং স্ব-অধ্যয়ন
 

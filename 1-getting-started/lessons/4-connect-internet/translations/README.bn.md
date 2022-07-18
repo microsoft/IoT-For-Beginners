@@ -6,7 +6,7 @@
 
 ## লেকচার পূর্ববর্তী কুইজ
 
-[লেকচার পূর্ববর্তী কুইজ](https://thankful-pond-0eba8f10f.1.azurestaticapps.net/quiz/7)
+[লেকচার পূর্ববর্তী কুইজ](https://black-meadow-040d15503.1.azurestaticapps.net/quiz/7)
 
 ## সূচনা
 
@@ -418,7 +418,7 @@ MQTT ব্রোকার হতে কমান্ডসমূহ গ্রহ
 
 ## লেকচার পরবর্তী কুইজ
 
-[লেকচার পরবর্তী কুইজ](https://thankful-pond-0eba8f10f.1.azurestaticapps.net/quiz/8)
+[লেকচার পরবর্তী কুইজ](https://black-meadow-040d15503.1.azurestaticapps.net/quiz/8)
 
 ## রিভিউ এবং স্ব-অধ্যয়ন
 

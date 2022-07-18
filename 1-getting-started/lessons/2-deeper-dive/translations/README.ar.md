@@ -10,7 +10,7 @@
 ##  <div dir="rtl"> اختبار ما قبل المحاضرة </div>
 
 
-[<div dir="rtl"> اختبار ما قبل المحاضرة </div>](https://thankful-pond-0eba8f10f.1.azurestaticapps.net/quiz/3)
+[<div dir="rtl"> اختبار ما قبل المحاضرة </div>](https://black-meadow-040d15503.1.azurestaticapps.net/quiz/3)
 
 ##  <div dir="rtl"> المقدمة </div>
 
@@ -268,7 +268,7 @@ Pi Zero أصغر بكثير ، مع طاقة أقل. يحتوي على وحدة 
 
 ## مسابقة ما بعد المحاضرة
 
-[<div dir="rtl"> اختبار ما بعد المحاضرة </div>](https://thankful-pond-0eba8f10f.1.azurestaticapps.net/quiz/4)
+[<div dir="rtl"> اختبار ما بعد المحاضرة </div>](https://black-meadow-040d15503.1.azurestaticapps.net/quiz/4)
 
 ## مراجعة ودراسة ذاتية
 

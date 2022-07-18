@@ -10,7 +10,7 @@ This video gives an overview of running image classifiers on IoT devices, the to
 
 ## Pre-lecture quiz
 
-[Pre-lecture quiz](https://thankful-pond-0eba8f10f.1.azurestaticapps.net/quiz/33)
+[Pre-lecture quiz](https://black-meadow-040d15503.1.azurestaticapps.net/quiz/33)
 
 ## Introduction
 
@@ -598,7 +598,7 @@ Do some timings and compare if the call to your edge device is faster or slower 
 
 ## Post-lecture quiz
 
-[Post-lecture quiz](https://thankful-pond-0eba8f10f.1.azurestaticapps.net/quiz/34)
+[Post-lecture quiz](https://black-meadow-040d15503.1.azurestaticapps.net/quiz/34)
 
 ## Review & Self Study
 
