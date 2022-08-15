@@ -267,7 +267,7 @@ What you downloaded from Custom Vision was a DockerFile containing instructions 
     docker build --platform <platform> -t <Container registry name>.azurecr.io/classifier:v1 .
     ```
 
-    Replace `<platform>` with the platform that this container will run on. If you are running IoT Edge on a Raspberry Pi, set this to `linux/arm64`, otherwise set this to `linux/amd64`.
+    Replace `<platform>` with the platform that this container will run on. If you are running IoT Edge on a Raspberry Pi, set this to `linux/armhf`, otherwise set this to `linux/amd64`.
 
     > 💁 If you are running this command from the device you are running IoT Edge from, such as running this from your Raspberry Pi, you can omit the `--platform <platform>` part as it defaults to the current platform.
 
