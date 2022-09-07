@@ -68,6 +68,8 @@ Functions apps consist of one or more *triggers* - functions that respond to eve
 
 ### Task - install the Azure Functions tooling
 
+> At the time of writing, the Azure Functions code tools are not fully working on Apple Silicon with Python projects. You will need to use am Intel-based Mac, Windows PC, or Linux PC instead.
+
 One great feature of Azure Functions is that you can run them locally. The same runtime that is used in the cloud can be run on your computer, allowing you to write code that responds to IoT messages and run it locally. You can even debug your code as events are handled. Once you are happy with your code, it can be deployed to the cloud.
 
 The Azure Functions tooling is available as a CLI, known as the Azure Functions Core Tools.

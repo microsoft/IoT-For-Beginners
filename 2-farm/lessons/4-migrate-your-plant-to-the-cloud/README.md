@@ -344,6 +344,8 @@ For now, you won't be updating your server code. Instead you can use the Azure C
 
     The contents of the `payload` will match the message sent by your IoT device.
 
+    > At the time of writing, the `az iot` extension is not fully working on Apple Silicon. If you are using an Apple Silicon device, you will need to monitor the messages a different way, such as using the [Azure IoT Tools for Visual Studio Code](https://docs.microsoft.com/en-us/azure/iot-hub/iot-hub-vscode-iot-toolkit-cloud-device-messaging).
+
 1. These messages have a number of properties attached to them automatically, such as the timestamp they were sent. These are known as *annotations*. To view all the message annotations, use the following command:
 
     ```sh
