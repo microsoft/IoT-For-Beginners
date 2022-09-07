@@ -292,21 +292,19 @@ This will create a folder inside the `soil-moisture-trigger` folder called `iot-
     This file will contain the following code:
 
     ```python
-    from typing import List
     import logging
+
     import azure.functions as func
-    
-    def main(events: List[func.EventHubEvent]):
-        for event in events:
-            logging.info('Python EventHub trigger processed an event: %s',
-                            event.get_body().decode('utf-8'))
+
+
+    def main(event: func.EventHubEvent):
+        logging.info('Python EventHub trigger processed an event: %s',
+                    event.get_body().decode('utf-8'))
     ```
 
-    The core of the trigger is the `main` function. It is this function that is called with the events from the IoT Hub. This function has a parameter called `events` that contains a list of `EventHubEvent`. Each event in this list is a message sent to IoT Hub, along with properties that are the same as the annotations you saw in the last lesson.
+    The core of the trigger is the `main` function. It is this function that is called with the events from the IoT Hub. This function has a parameter called `event` that contains an `EventHubEvent`. Every time a message is sent to IoT Hub, this function is called passing that message as the `event`, along with properties that are the same as the annotations you saw in the last lesson.
 
-    This trigger processes a list of events, rather than individual events. When you first run the trigger it wil process any unprocessed events on the IoT Hub (remember that messages are stored for a while so they are not lost if your application code is offline). After this it will generally process a list containing only one event, unless a lot of events are sent to the Hub in a short space of time.
-
-    The core of this function loops through the list and logs the events.
+    The core of this function logs the event.
 
 * `function.json` - this contains configuration for the trigger. The main configuration is in a section called `bindings`. A binding is the term for a connection between Azure Functions and other Azure services. This function has an input binding to an event hub - it connects to an event hub and receives data.
 
@@ -323,6 +321,12 @@ This will create a folder inside the `soil-moisture-trigger` folder called `iot-
 
     > 💁 The connection string cannot be stored in the `function.json` file, it has to be read from the settings. This is to stop you accidentally exposing your connection string.
 
+1. Due to [a bug in the Azure Functions template](https://github.com/Azure/azure-functions-templates/issues/1250), the `function.json` has an incorrect value for the `cardinality` field. Update this field from `many` to `one`:
+
+    ```json
+    "cardinality": "one",
+    ```
+
 1. Update the value of `"connection"` in the `function.json` file to point to the new value you added to the `local.settings.json` file:
 
     ```json
@@ -330,6 +334,12 @@ This will create a folder inside the `soil-moisture-trigger` folder called `iot-
     ```
 
     > 💁 Remember - this needs to point to the setting, not contain the actual connection string.
+
+1. The connection string contains the `eventHubName` value, so the value for this in the `function.json` file needs to be cleared. Update this value to an empty string:
+
+    ```json
+    "eventHubName": "",
+    ```
 
 ### Task - run the event trigger
 
@@ -368,19 +378,37 @@ This will create a folder inside the `soil-moisture-trigger` folder called `iot-
 
     Each call to the function will be surrounded by a `Executing 'Functions.iot-hub-trigger'`/`Executed 'Functions.iot-hub-trigger'` block in the output, so you can how many messages were processed in each function call.
 
-    > If you get the following error:
-
-      ```output
-      The listener for function 'Functions.iot-hub-trigger' was unable to start. Microsoft.WindowsAzure.Storage: Connection refused. System.Net.Http: Connection refused. System.Private.CoreLib: Connection refused.
-      ```
-
-      Then check Azurite is running and you have set the `AzureWebJobsStorage` in the `local.settings.json` file to `UseDevelopmentStorage=true`.
-
 1. Make sure your IoT device is running, You will see new soil moisture messages appearing in the Functions app.
 
 1. Stop and restart the Functions app. You will see that it won't process messages previous messages again, it will only process new messages.
 
 > 💁 VS Code also supports debugging your Functions. You can set break points by clicking on the border by the start of each line of code, or putting the cursor on a line of code and selecting *Run -> Toggle breakpoint*, or pressing `F9`. You can launch the debugger by selecting *Run -> Start debugging*, pressing `F5`, or selecting the *Run and debug* pane and selecting the **Start debugging** button. By doing this you can see the details of the events being processed.
+
+#### Troubleshooting
+
+* If you get the following error:
+
+    ```output
+    The listener for function 'Functions.iot-hub-trigger' was unable to start. Microsoft.WindowsAzure.Storage: Connection refused. System.Net.Http: Connection refused. System.Private.CoreLib: Connection refused.
+    ```
+
+    Check Azurite is running and you have set the `AzureWebJobsStorage` in the `local.settings.json` file to `UseDevelopmentStorage=true`.
+
+* If you get the following error:
+
+    ```output
+    System.Private.CoreLib: Exception while executing function: Functions.iot-hub-trigger. System.Private.CoreLib: Result: Failure Exception: AttributeError: 'list' object has no attribute 'get_body'
+    ```
+
+    Check that you have set the `cardinality` in the `function.json` file to `one`.
+
+* If you get the following error:
+
+    ```output
+    Azure.Messaging.EventHubs: The path to an Event Hub may be specified as part of the connection string or as a separate value, but not both.  Please verify that your connection string does not have the `EntityPath` token if you are passing an explicit Event Hub name. (Parameter 'connectionString').
+    ```
+
+    Check that you have set the `eventHubName` in the `function.json` file to  an empty string.
 
 ## Send direct method requests from serverless code
 
@@ -439,13 +467,7 @@ To connect to the Registry Manager, you need a connection string.
 
 1. Remove the code from inside the `main` method, but keep the method itself.
 
-1. When multiple messages are received, it only makes sense to process the last one as this is the current soil moisture. It makes no sense to process messages from before. Add the following code to get the last message from the `events` parameter:
-
-    ```python
-    event = events[-1]
-    ```
-
-1. Below this, add the following code:
+1. In the `main` method, add the following code:
 
     ```python
     body = json.loads(event.get_body().decode('utf-8'))

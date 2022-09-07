@@ -1,4 +1,3 @@
-from typing import List
 import logging
 
 import azure.functions as func
@@ -8,9 +7,7 @@ import os
 from azure.iot.hub import IoTHubRegistryManager
 from azure.iot.hub.models import CloudToDeviceMethod
 
-def main(events: List[func.EventHubEvent]):
-    event = events[-1]
-    
+def main(event: func.EventHubEvent):    
     body = json.loads(event.get_body().decode('utf-8'))
     device_id = event.iothub_metadata['connection-device-id']
 
