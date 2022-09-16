@@ -14,7 +14,7 @@ This lesson was taught as part of the [Hello IoT series](https://youtube.com/pla
 
 ## Pre-lecture quiz
 
-[Pre-lecture quiz](https://brave-island-0b7c7f50f.azurestaticapps.net/quiz/5)
+[Pre-lecture quiz](https://black-meadow-040d15503.1.azurestaticapps.net/quiz/5)
 
 ## Introduction
 
@@ -145,7 +145,8 @@ One example is a dimmable light, such as the ones you might have in your house. 
 
 Like with sensors, the actual IoT device works on digital signals, not analog. This means to send an analog signal, the IoT device needs a digital to analog converter (DAC), either on the IoT device directly, or on a connector board. This will convert the 0s and 1s from the IoT device to an analog voltage that the actuator can use.
 
-✅ What do you think happens if the IoT device sends a higher voltage than the actuator can handle? ⛔️ DO NOT test this out.
+✅ What do you think happens if the IoT device sends a higher voltage than the actuator can handle?
+⛔️ DO NOT test this out.
 
 #### Pulse-Width Modulation
 
@@ -157,7 +158,7 @@ Imagine you are controlling a motor with a 5V supply. You send a short pulse to 
 
 ![Pule width modulation rotation of a motor at 150 RPM](../../../images/pwm-motor-150rpm.png)
 
-This means in one second you have 25 5V pulses of 0.02s that rotate the motor, each followed by 0.02s pause of 0V not rotating the motor. Each pulse rotates the motor one tenth of a rotation, meaning the motor completes 2.5 rotations per second. You've used a digital signal to rotate the motor at 2.5 rotations per second, or 150 ([revolutions per minute](https://wikipedia.org/wiki/Revolutions_per_minute), a non-standard measure of rotational velocity).
+This means in one second you have 25 5V pulses of 0.02s that rotate the motor, each followed by 0.02s pause of 0V not rotating the motor. Each pulse rotates the motor one tenth of a rotation, meaning the motor completes 2.5 rotations per second. You've used a digital signal to rotate the motor at 2.5 rotations per second, or 150 [revolutions per minute](https://wikipedia.org/wiki/Revolutions_per_minute) (a non-standard measure of rotational velocity).
 
 ```output
 25 pulses per second x 0.1 rotations per pulse = 2.5 rotations per second
@@ -203,7 +204,7 @@ For every device you listed, what sensors and actuators are they connected to? W
 
 ## Post-lecture quiz
 
-[Post-lecture quiz](https://brave-island-0b7c7f50f.azurestaticapps.net/quiz/6)
+[Post-lecture quiz](https://black-meadow-040d15503.1.azurestaticapps.net/quiz/6)
 
 ## Review & Self Study
 

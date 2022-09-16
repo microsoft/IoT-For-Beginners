@@ -6,7 +6,7 @@
 
 ## Kuis prakuliah
 
-[Kuis prakuliah](https://brave-island-0b7c7f50f.azurestaticapps.net/quiz/1)
+[Kuis prakuliah](https://black-meadow-040d15503.1.azurestaticapps.net/quiz/1)
 
 ## Pengantar
 
