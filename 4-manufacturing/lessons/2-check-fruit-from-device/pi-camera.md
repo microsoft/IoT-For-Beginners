@@ -42,22 +42,30 @@ The camera can be connected to the Raspberry Pi using a ribbon cable.
 
 The Raspberry Pi can now be programmed to use the camera using the [PiCamera](https://pypi.org/project/picamera/) Python library.
 
-### Task - program the camera
+### Task - enable legacy camera mode
 
-Program the device.
+Unfortunately with the release of Raspberry Pi OS Bullseye, the camera software that came with the OS changed, meaning by default PiCamera no longer works. There is a replacement in the works, called PiCamera2, but this is not ready to be used yet.
+
+For now, you can set your Pi into legacy camera mode to allow PiCamera to work. The camera socket is also disabled by default, but turning on the legacy camera software automatically enables the socket.
 
 1. Power up the Pi and wait for it to boot
 
 1. Launch VS Code, either directly on the Pi, or connect via the Remote SSH extension.
 
-1. By default the camera socket on the Pi is turned off. You can turn it on by running the following commands from your terminal:
+1. Run the following commands from your terminal:
 
     ```sh
-    sudo raspi-config nonint do_camera 0
+    sudo raspi-config nonint do_legacy 0
     sudo reboot
     ```
 
-    This will toggle a setting to enable the camera, then reboot the Pi to make that setting take effect. Wait for the Pi to reboot, then re-launch VS Code.
+    This will toggle a setting to enable the legacy camera software, then reboot the Pi to make that setting take effect.
+
+1. Wait for the Pi to reboot, then re-launch VS Code.
+
+### Task - program the camera
+
+Program the device.
 
 1. From the terminal, create a new folder in the `pi` users home directory called `fruit-quality-detector`. Create a file in this folder called `app.py`.
 

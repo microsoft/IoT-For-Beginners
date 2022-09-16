@@ -4,6 +4,10 @@
 
 > Sketchnote by [Nitya Narasimhan](https://github.com/nitya). Click the image for a larger version.
 
+This lesson was taught as part of the [IoT for Beginners Project 2 - Digital Agriculture series](https://youtube.com/playlist?list=PLmsFUfdnGr3yCutmcVg6eAUEfsGiFXgcx) from the [Microsoft Reactor](https://developer.microsoft.com/reactor/?WT.mc_id=academic-17441-jabenn).
+
+[![Soil moisture sensors and digital agriculture](https://img.youtube.com/vi/ZzpTu3x4c6M/0.jpg)](https://youtu.be/ZzpTu3x4c6M)
+
 ## Pre-lecture quiz
 
 [Pre-lecture quiz](https://black-meadow-040d15503.1.azurestaticapps.net/quiz/11)
