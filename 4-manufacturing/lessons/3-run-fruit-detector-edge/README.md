@@ -208,9 +208,11 @@ The container registry you will use for this lesson is Azure Container Registry.
 
 ### Task - install Docker
 
-To build and deploy the classifier classifier, you'll need to install [Docker](https://www.docker.com/).
+To build and deploy the classifier classifier, you may need to install [Docker](https://www.docker.com/).
 
-1. Follow the Docker installation instructions on the [Docker install page](https://www.docker.com/products/docker-desktop) to install Docker Desktop or the Docker engine. Ensure it is running after installation.
+You will only need to do this if you plan to build your container from a different device that the one you installed IoT Edge on - as part of installing IoT Edge, Docker is installed for you.
+
+1. If you building the docker container on a different device from your IoT Edge device, follow the Docker installation instructions on the [Docker install page](https://www.docker.com/products/docker-desktop) to install Docker Desktop or the Docker engine. Ensure it is running after installation.
 
 ### Task - create a container registry resource
 
@@ -273,7 +275,7 @@ What you downloaded from Custom Vision was a DockerFile containing instructions 
 
     Replace `<Container registry name>` with the name you used for your container registry.
 
-    > 💁 If you are running Linux you nay need to use `sudo` to run this command.
+    > 💁 If you are running on Linux or Raspberry Pi OS you nay need to use `sudo` to run this command.
 
     Docker will build the image, configuring all the software needed. The image will then be tagged as `classifier:v1`.
 
