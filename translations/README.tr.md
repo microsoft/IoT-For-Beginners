@@ -11,6 +11,8 @@
 [![Bengali](https://img.shields.io/badge/-Bengali-blue)](README.bn.md)
 [![English](https://img.shields.io/badge/-English-red)](../README.md)
 [![Chinese](https://img.shields.io/badge/-Chinese-yellow)](README.zh-cn.md)
+[![French](https://img.shields.io/badge/-French-purple)](../translations/README.fr.md)
+[![Japanese](https://img.shields.io/badge/-Japanese-red)](../translations/README.ja.md)
 
 # Yeni Başlayanlar için IOT
 
@@ -71,7 +73,7 @@ Kişisel tercih, programlama dili bilgisi ve tercihi, öğrenme amaçları ve er
 - Ödev
 - Ders sonrası quiz
 
-> **Quiz'ler hakkında bir not**: Tüm quizler [bu uygulamada](https://brave-island-0b7c7f50f.azurestaticapps.net), toplam 48 quiz için her birine 3 soru. Quizlerin ilgili derslerde linkleri vardır. Ayrıca quiz uygulaması kendi cihanızdan da çalışabilir. Bunun için `quiz-app` kalsöründeki talimatlara uyun. 
+> **Quiz'ler hakkında bir not**: Tüm quizler [bu uygulamada](https://black-meadow-040d15503.1.azurestaticapps.net), toplam 48 quiz için her birine 3 soru. Quizlerin ilgili derslerde linkleri vardır. Ayrıca quiz uygulaması kendi cihanızdan da çalışabilir. Bunun için `quiz-app` kalsöründeki talimatlara uyun. 
 
 ## Dersler
 

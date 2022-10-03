@@ -38,7 +38,7 @@ Meet the team!
 
 > **Teachers**, we have [included some suggestions](for-teachers.md) on how to use this curriculum. If you would like to create your own lessons, we have also included a [lesson template](lesson-template/README.md).
 
-> **Students**, to use this curriculum on your own, fork the entire repo and complete the exercises on your own, starting with a pre-lecture quiz, then reading the lecture and completing the rest of the activities. Try to create the projects by comprehending the lessons rather than copying the solution code; however that code is available in the /solutions folders in each project-oriented lesson. Another idea would be to form a study group with friends and go through the content together. For further study, we recommend [Microsoft Learn](https://docs.microsoft.com/users/jimbobbennett/collections/ke2ehd351jopwr?WT.mc_id=academic-17441-jabenn).
+> **[Students](https://aka.ms/student-page)**, to use this curriculum on your own, fork the entire repo and complete the exercises on your own, starting with a pre-lecture quiz, then reading the lecture and completing the rest of the activities. Try to create the projects by comprehending the lessons rather than copying the solution code; however that code is available in the /solutions folders in each project-oriented lesson. Another idea would be to form a study group with friends and go through the content together. For further study, we recommend [Microsoft Learn](https://docs.microsoft.com/users/jimbobbennett/collections/ke2ehd351jopwr?WT.mc_id=academic-17441-jabenn).
 
 For a video overview of this course, check out this video:
 
@@ -75,7 +75,7 @@ We have two choices of IoT hardware to use for the projects depending on persona
 - assignment
 - post-lesson quiz
 
-> **A note about quizzes**: All quizzes are contained [in this app](https://brave-island-0b7c7f50f.azurestaticapps.net), for 48 total quizzes of three questions each. They are linked from within the lessons but the quiz app can be run locally; follow the instruction in the `quiz-app` folder. They are gradually being localized.
+> **A note about quizzes**: All quizzes are contained [in this app](https://black-meadow-040d15503.1.azurestaticapps.net), for 48 total quizzes of three questions each. They are linked from within the lessons but the quiz app can be run locally; follow the instruction in the `quiz-app` folder. They are gradually being localized.
 
 ## Lessons
 
@@ -134,6 +134,7 @@ Our team produces other curricula! Check out:
 - [Web Dev for Beginners](https://aka.ms/webdev-beginners)
 - [ML for Beginners](https://aka.ms/ml-beginners)
 - [Data Science for Beginners](https://aka.ms/datascience-beginners)
+- [AI for Beginners](https://aka.ms/ai-beginners)
 
 ## Image attributions
 

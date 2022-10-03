@@ -4,9 +4,13 @@
 
 > Sketchnote by [Nitya Narasimhan](https://github.com/nitya). Click the image for a larger version.
 
+This lesson was taught as part of the [IoT for Beginners Project 2 - Digital Agriculture series](https://youtube.com/playlist?list=PLmsFUfdnGr3yCutmcVg6eAUEfsGiFXgcx) from the [Microsoft Reactor](https://developer.microsoft.com/reactor/?WT.mc_id=academic-17441-jabenn).
+
+[![Connect your device to the cloud with Azure IoT Hub](https://img.youtube.com/vi/bNxjopXkhvk/0.jpg)](https://youtu.be/bNxjopXkhvk)
+
 ## Pre-lecture quiz
 
-[Pre-lecture quiz](https://brave-island-0b7c7f50f.azurestaticapps.net/quiz/15)
+[Pre-lecture quiz](https://black-meadow-040d15503.1.azurestaticapps.net/quiz/15)
 
 ## Introduction
 
@@ -344,6 +348,8 @@ For now, you won't be updating your server code. Instead you can use the Azure C
 
     The contents of the `payload` will match the message sent by your IoT device.
 
+    > At the time of writing, the `az iot` extension is not fully working on Apple Silicon. If you are using an Apple Silicon device, you will need to monitor the messages a different way, such as using the [Azure IoT Tools for Visual Studio Code](https://docs.microsoft.com/en-us/azure/iot-hub/iot-hub-vscode-iot-toolkit-cloud-device-messaging).
+
 1. These messages have a number of properties attached to them automatically, such as the timestamp they were sent. These are known as *annotations*. To view all the message annotations, use the following command:
 
     ```sh
@@ -417,7 +423,7 @@ Think about how often soil moisture measurements should be sent? How can you cha
 
 ## Post-lecture quiz
 
-[Post-lecture quiz](https://brave-island-0b7c7f50f.azurestaticapps.net/quiz/16)
+[Post-lecture quiz](https://black-meadow-040d15503.1.azurestaticapps.net/quiz/16)
 
 ## Review & Self Study
 

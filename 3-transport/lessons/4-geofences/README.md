@@ -12,7 +12,7 @@ This video gives an overview of geofences and how to use them in Azure Maps, top
 
 ## Pre-lecture quiz
 
-[Pre-lecture quiz](https://brave-island-0b7c7f50f.azurestaticapps.net/quiz/27)
+[Pre-lecture quiz](https://black-meadow-040d15503.1.azurestaticapps.net/quiz/27)
 
 ## Introduction
 
@@ -416,10 +416,11 @@ Earlier in this lesson you used curl to query a geofence to see if a point was l
 
     The items in the `params` dictionary will match the key value pairs you used when calling the web API via curl.
 
-1. Add the following line of code to call the web API:
+1. Add the following lines of code to call the web API:
 
     ```python
     response = requests.get(url, params=params)
+    response_body = json.loads(response.text)
     ```
 
     This calls the URL with the parameters, and gets back a response object.
@@ -461,7 +462,7 @@ Try uploading a GeoJSON file with multiple polygons and adjust your code to find
 
 ## Post-lecture quiz
 
-[Post-lecture quiz](https://brave-island-0b7c7f50f.azurestaticapps.net/quiz/28)
+[Post-lecture quiz](https://black-meadow-040d15503.1.azurestaticapps.net/quiz/28)
 
 ## Review & Self Study
 

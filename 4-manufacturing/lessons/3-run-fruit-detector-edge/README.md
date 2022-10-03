@@ -10,7 +10,7 @@ This video gives an overview of running image classifiers on IoT devices, the to
 
 ## Pre-lecture quiz
 
-[Pre-lecture quiz](https://brave-island-0b7c7f50f.azurestaticapps.net/quiz/33)
+[Pre-lecture quiz](https://black-meadow-040d15503.1.azurestaticapps.net/quiz/33)
 
 ## Introduction
 
@@ -208,9 +208,11 @@ The container registry you will use for this lesson is Azure Container Registry.
 
 ### Task - install Docker
 
-To build and deploy the classifier classifier, you'll need to install [Docker](https://www.docker.com/).
+To build and deploy the classifier classifier, you may need to install [Docker](https://www.docker.com/).
 
-1. Follow the Docker installation instructions on the [Docker install page](https://www.docker.com/products/docker-desktop) to install Docker Desktop or the Docker engine. Ensure it is running after installation.
+You will only need to do this if you plan to build your container from a different device that the one you installed IoT Edge on - as part of installing IoT Edge, Docker is installed for you.
+
+1. If you building the docker container on a different device from your IoT Edge device, follow the Docker installation instructions on the [Docker install page](https://www.docker.com/products/docker-desktop) to install Docker Desktop or the Docker engine. Ensure it is running after installation.
 
 ### Task - create a container registry resource
 
@@ -267,13 +269,13 @@ What you downloaded from Custom Vision was a DockerFile containing instructions 
     docker build --platform <platform> -t <Container registry name>.azurecr.io/classifier:v1 .
     ```
 
-    Replace `<platform>` with the platform that this container will run on. If you are running IoT Edge on a Raspberry Pi, set this to `linux/arm64`, otherwise set this to `linux/amd64`.
+    Replace `<platform>` with the platform that this container will run on. If you are running IoT Edge on a Raspberry Pi, set this to `linux/armhf`, otherwise set this to `linux/amd64`.
 
     > 💁 If you are running this command from the device you are running IoT Edge from, such as running this from your Raspberry Pi, you can omit the `--platform <platform>` part as it defaults to the current platform.
 
     Replace `<Container registry name>` with the name you used for your container registry.
 
-    > 💁 If you are running Linux you nay need to use `sudo` to run this command.
+    > 💁 If you are running on Linux or Raspberry Pi OS you nay need to use `sudo` to run this command.
 
     Docker will build the image, configuring all the software needed. The image will then be tagged as `classifier:v1`.
 
@@ -598,7 +600,7 @@ Do some timings and compare if the call to your edge device is faster or slower 
 
 ## Post-lecture quiz
 
-[Post-lecture quiz](https://brave-island-0b7c7f50f.azurestaticapps.net/quiz/34)
+[Post-lecture quiz](https://black-meadow-040d15503.1.azurestaticapps.net/quiz/34)
 
 ## Review & Self Study
 

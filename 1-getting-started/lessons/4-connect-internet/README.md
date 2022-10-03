@@ -14,7 +14,7 @@ This lesson was taught as part of the [Hello IoT series](https://youtube.com/pla
 
 ## Pre-lecture quiz
 
-[Pre-lecture quiz](https://brave-island-0b7c7f50f.azurestaticapps.net/quiz/7)
+[Pre-lecture quiz](https://black-meadow-040d15503.1.azurestaticapps.net/quiz/7)
 
 ## Introduction
 
@@ -269,7 +269,7 @@ Write the server code.
 1. Launch a new VS Code Terminal by selecting *Terminal -> New Terminal, or pressing `` CTRL+` ``. The new terminal will load the virtual environment, with the call to activate this appearing in the terminal. The name of the virtual environment (`.venv`) will also be in the prompt:
 
     ```output
-    ➜  nightlight source .venv/bin/activate
+    ➜  nightlight-server source .venv/bin/activate
     (.venv) ➜  nightlight 
     ```
 
@@ -434,7 +434,7 @@ For these devices, think about what messages they might be sending or receiving.
 
 ## Post-lecture quiz
 
-[Post-lecture quiz](https://brave-island-0b7c7f50f.azurestaticapps.net/quiz/8)
+[Post-lecture quiz](https://black-meadow-040d15503.1.azurestaticapps.net/quiz/8)
 
 ## Review & Self Study
 

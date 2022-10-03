@@ -3,11 +3,11 @@
   "bindings": [
     {
       "type": "eventHubTrigger",
-      "name": "events",
+      "name": "event",
       "direction": "in",
-      "eventHubName": "samples-workitems",
+      "eventHubName": "",
       "connection": "IOT_HUB_CONNECTION_STRING",
-      "cardinality": "many",
+      "cardinality": "one",
       "consumerGroup": "$Default",
       "dataType": "binary"
     }
