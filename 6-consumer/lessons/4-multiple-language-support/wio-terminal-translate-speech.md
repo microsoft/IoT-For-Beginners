@@ -267,4 +267,4 @@ The speech service REST API doesn't support direct translations, instead you can
 
 > 💁 You can find this code in the [code/wio-terminal](code/wio-terminal) folder.
 
-😀 Your multi-lingual timer program was a success!
+😀 Your multilingual timer program was a success!
