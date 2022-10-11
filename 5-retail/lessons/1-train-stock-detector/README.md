@@ -113,7 +113,7 @@ You can train an object detector using Custom Vision, in a similar way to how yo
 
     ![The settings for the custom vision project with the name set to fruit-quality-detector, no description, the resource set to fruit-quality-detector-training, the project type set to classification, the classification types set to multi class and the domains set to food](../../../images/custom-vision-create-object-detector-project.png)
 
-    ✅ The products on shelves domain is specifically targeted for detecting stock on store shelves. Read more on the different domains in the [Select a domian documentation on Microsoft Docs](https://docs.microsoft.com/azure/cognitive-services/custom-vision-service/select-domain?WT.mc_id=academic-17441-jabenn#object-detection)
+    ✅ The products on shelves domain is specifically targeted for detecting stock on store shelves. Read more on the different domains in the [Select a domain documentation on Microsoft Docs](https://docs.microsoft.com/azure/cognitive-services/custom-vision-service/select-domain?WT.mc_id=academic-17441-jabenn#object-detection)
 
 ✅ Take some time to explore the Custom Vision UI for your object detector.
 
