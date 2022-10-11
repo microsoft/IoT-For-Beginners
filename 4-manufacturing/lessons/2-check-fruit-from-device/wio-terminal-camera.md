@@ -56,7 +56,7 @@ The Wio Terminal can now be programmed to use the attached ArduCAM camera.
 1. The ArduCam library isn't available as an Arduino library that can be installed from the `platformio.ini` file. Instead it will need to be installed from source from their GitHub page. You can get this by either:
 
     * Cloning the repo from [https://github.com/ArduCAM/Arduino.git](https://github.com/ArduCAM/Arduino.git)
-    * Heading to the repo on GitHub at [github.com/ArduCAM/Arduino](https://github.com/ArduCAM/Arduino) and downloading the code as a zip from from the **Code** button
+    * Heading to the repo on GitHub at [github.com/ArduCAM/Arduino](https://github.com/ArduCAM/Arduino) and downloading the code as a zip from the **Code** button
 
 1. You only need the `ArduCAM` folder from this code. Copy the entire folder into the `lib` folder in your project.
 
