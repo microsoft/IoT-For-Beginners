@@ -297,7 +297,7 @@ Once each buffer has been captured, it can be written to the flash memory. Flash
         DMAC->Channel[1].CHCTRLA.bit.ENABLE = 1;
 
         // Configure Timer/Counter 5
-        GCLK->PCHCTRL[TC5_GCLK_ID].reg = GCLK_PCHCTRL_CHEN |     // Enable perhipheral channel for TC5
+        GCLK->PCHCTRL[TC5_GCLK_ID].reg = GCLK_PCHCTRL_CHEN |     // Enable peripheral channel for TC5
                                             GCLK_PCHCTRL_GEN_GCLK1; // Connect generic clock 0 at 48MHz
 
         TC5->COUNT16.WAVE.reg = TC_WAVE_WAVEGEN_MFRQ; // Set TC5 to Match Frequency (MFRQ) mode
