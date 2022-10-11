@@ -120,7 +120,7 @@ You can use bounding boxes combined with probabilities to evaluate how accurate 
 
 ![Two bonding boxes overlapping a can of tomato paste](../../../images/overlap-object-detection.png)
 
-In the example above, one bounding box indicated a predicted can of tomato paste at 78.3%. A second bounding box is slightly smaller, and is inside the first bounding box with a probability of 64.3%. Your code can check the bounding boxes, see they overlap completely, and ignore the lower probability as there is no way one can can be inside another.
+In the example above, one bounding box indicated a predicted can of tomato paste at 78.3%. A second bounding box is slightly smaller, and is inside the first bounding box with a probability of 64.3%. Your code can check the bounding boxes, see they overlap completely, and ignore the lower probability as there is no way one can be inside another.
 
 ✅ Can you think of a situation where is it valid to detect one object inside another?
 
