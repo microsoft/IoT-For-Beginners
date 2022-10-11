@@ -38,7 +38,7 @@ Program the device.
 
 1. Open the `soil-moisture-sensor` project from the last lesson in VS Code if it's not already open. You will be adding to this project.
 
-1. There isn't a library for this actuator - it's a digital actuator controlled by a high or low signal. To turn it on, you send a high signal to the pin (3.3V), turn turn it off you send a low signal (0V). You can do this using the built-in Arduino [`digitalWrite`](https://www.arduino.cc/reference/en/language/functions/digital-io/digitalwrite/) function. Start by adding the following to the bottom of the `setup` function to setup the combined I<sub>2</sub>C/digital port as an output pin to send a voltage to the relay:
+2. There isn't a library for this actuator - it's a digital actuator controlled by a high or low signal. To turn it on, you send a high signal to the pin (3.3V), to turn it off you send a low signal (0V). You can do this using the built-in Arduino [`digitalWrite`](https://www.arduino.cc/reference/en/language/functions/digital-io/digitalwrite/) function. Start by adding the following to the bottom of the `setup` function to setup the combined I<sub>2</sub>C/digital port as an output pin to send a voltage to the relay:
 
     ```cpp
     pinMode(PIN_WIRE_SCL, OUTPUT);

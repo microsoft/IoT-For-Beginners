@@ -110,7 +110,7 @@ On the first day above the base temperature, the following temperatures were mea
 | Maximum     | 16      |
 | Minimum     | 12      |
 
-Plugging these numbers in to our calculation:
+Plugging these numbers into our calculation:
 
 * T<sub>max</sub> = 16
 * T<sub>min</sub> = 12

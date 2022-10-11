@@ -99,7 +99,7 @@ Program the device.
 
     This code creates a PiCamera object, sets the resolution to 640x480. Although higher resolutions are supported (up to 3280x2464), the image classifier works on much smaller images (227x227) so there is no need to capture and send larger images.
 
-    The `camera.rotation = 0` line sets the rotation of the image. The ribbon cable comes in to the bottom of the camera, but if your camera was rotated to allow it to point easier at the item you want to classify, then you can change this line to the number of degrees of rotation.
+    The `camera.rotation = 0` line sets the rotation of the image. The ribbon cable comes into the bottom of the camera, but if your camera was rotated to allow it to point easier at the item you want to classify, then you can change this line to the number of degrees of rotation.
 
     ![The camera hanging down over a drink can](../../../images/pi-camera-upside-down.png)
 

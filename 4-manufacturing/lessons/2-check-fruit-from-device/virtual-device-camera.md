@@ -1,6 +1,6 @@
 # Capture an image - Virtual IoT Hardware
 
-In this part of the lesson, you will add a camera sensor to your  yirtual IoT device, and read images from it.
+In this part of the lesson, you will add a camera sensor to your virtual IoT device, and read images from it.
 
 ## Hardware
 

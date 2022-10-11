@@ -375,7 +375,7 @@ This will create a folder inside the `soil-moisture-trigger` folder called `iot-
     For detailed output, run func with --verbose flag.
     [2021-05-05T02:44:07.517Z] Worker process started and initialized.
     [2021-05-05T02:44:09.202Z] Executing 'Functions.iot-hub-trigger' (Reason='(null)', Id=802803a5-eae9-4401-a1f4-176631456ce4)
-    [2021-05-05T02:44:09.205Z] Trigger Details: PartionId: 0, Offset: 1011240-1011632, EnqueueTimeUtc: 2021-05-04T19:04:04.2030000Z-2021-05-04T19:04:04.3900000Z, SequenceNumber: 2546-2547, Count: 2
+    [2021-05-05T02:44:09.205Z] Trigger Details: PartitionId: 0, Offset: 1011240-1011632, EnqueueTimeUtc: 2021-05-04T19:04:04.2030000Z-2021-05-04T19:04:04.3900000Z, SequenceNumber: 2546-2547, Count: 2
     [2021-05-05T02:44:09.352Z] Python EventHub trigger processed an event: {"soil_moisture":628}
     [2021-05-05T02:44:09.354Z] Python EventHub trigger processed an event: {"soil_moisture":624}
     [2021-05-05T02:44:09.395Z] Executed 'Functions.iot-hub-trigger' (Succeeded, Id=802803a5-eae9-4401-a1f4-176631456ce4, Duration=245ms)
