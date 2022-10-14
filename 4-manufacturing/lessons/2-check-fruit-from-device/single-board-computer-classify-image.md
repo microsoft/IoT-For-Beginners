@@ -34,7 +34,7 @@ The Custom Vision service has a Python SDK you can use to classify images.
 
     Replace `<prediction_url>` with the URL you copied from the *Prediction URL* dialog earlier in this lesson. Replace `<prediction key>` with the prediction key you copied from the same dialog.
 
-1. The prediciton URL that was provided by the *Prediction URL* dialog is designed to be used when calling the REST endpoint directly. The Python SDK uses parts of the URL in different places. Add the following code to break apart this URL into the parts needed:
+1. The prediction URL that was provided by the *Prediction URL* dialog is designed to be used when calling the REST endpoint directly. The Python SDK uses parts of the URL in different places. Add the following code to break apart this URL into the parts needed:
 
     ```python
     parts = prediction_url.split('/')

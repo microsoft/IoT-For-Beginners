@@ -62,7 +62,7 @@ When you then use it to predict images, instead of getting back a list of tags a
 
 ![Object detection of cashew nuts and tomato paste](../../../images/object-detector-cashews-tomato.png)
 
-The image above contains both a tub of cashew nuts and three cans of tomato paste. The object detector detected the cashew nuts, returning the bounding box that contains the cashew nuts with the percentage chance that that bounding box contains the object, in this case 97.6%. The object detector has also detected three cans of tomato paste, and provides three separate bounding boxes, one for each detected can, and each one has a percentage probability that the bounding box contains a can of tomato paste.
+The image above contains both a tub of cashew nuts and three cans of tomato paste. The object detector detected the cashew nuts, returning the bounding box that contains the cashew nuts with the percentage chance that the bounding box contains the object, in this case 97.6%. The object detector has also detected three cans of tomato paste, and provides three separate bounding boxes, one for each detected can, and each one has a percentage probability that the bounding box contains a can of tomato paste.
 
 ✅ Think of some different scenarios you might want to use image-based AI models for. Which ones would need classification, and which would need object detection?
 
@@ -113,7 +113,7 @@ You can train an object detector using Custom Vision, in a similar way to how yo
 
     ![The settings for the custom vision project with the name set to fruit-quality-detector, no description, the resource set to fruit-quality-detector-training, the project type set to classification, the classification types set to multi class and the domains set to food](../../../images/custom-vision-create-object-detector-project.png)
 
-    ✅ The products on shelves domain is specifically targeted for detecting stock on store shelves. Read more on the different domains in the [Select a domian documentation on Microsoft Docs](https://docs.microsoft.com/azure/cognitive-services/custom-vision-service/select-domain?WT.mc_id=academic-17441-jabenn#object-detection)
+    ✅ The products on shelves domain is specifically targeted for detecting stock on store shelves. Read more on the different domains in the [Select a domain documentation on Microsoft Docs](https://docs.microsoft.com/azure/cognitive-services/custom-vision-service/select-domain?WT.mc_id=academic-17441-jabenn#object-detection)
 
 ✅ Take some time to explore the Custom Vision UI for your object detector.
 
