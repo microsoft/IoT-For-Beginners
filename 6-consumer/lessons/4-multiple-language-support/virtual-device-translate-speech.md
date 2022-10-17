@@ -187,4 +187,4 @@ The speech service doesn't support translation of text back to speech, instead y
 
 > 💁 You can find this code in the [code/virtual-iot-device](code/virtual-iot-device) folder.
 
-😀 Your multi-lingual timer program was a success!
+😀 Your multilingual timer program was a success!

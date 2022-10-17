@@ -147,4 +147,4 @@ The speech service REST API doesn't support direct translations, instead you can
 
 > 💁 You can find this code in the [code/pi](code/pi) folder.
 
-😀 Your multi-lingual timer program was a success!
+😀 Your multilingual timer program was a success!
