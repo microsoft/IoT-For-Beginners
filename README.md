@@ -20,31 +20,39 @@ Azure Cloud Advocates at Microsoft are pleased to offer a 12-week, 24-lesson cur
 
 The projects cover the journey of food from farm to table. This includes farming, logistics, manufacturing, retail and consumer - all popular industry areas for IoT devices.
 
-![A road map for the course showing 24 lessons covering intro, farming, transport, processing, retail and cooking](sketchnotes/Roadmap.jpg)
-
-> Sketchnote by [Nitya Narasimhan](https://github.com/nitya). Click the image for a larger version.
+|![A road map for the course showing 24 lessons covering intro, farming, transport, processing, retail and cooking](sketchnotes/Roadmap.jpg)|
+|:---:|
+| _Sketchnote by [Nitya Narasimhan](https://github.com/nitya)_. Click the image for a larger version. |
 
 **Hearty thanks to our authors [Jen Fox](https://github.com/jenfoxbot), [Jen Looper](https://github.com/jlooper), [Jim Bennett](https://github.com/jimbobbennett), and our sketchnote artist [Nitya Narasimhan](https://github.com/nitya).**
 
 **Thanks as well to our team of [Microsoft Learn Student Ambassadors](https://studentambassadors.microsoft.com?WT.mc_id=academic-17441-jabenn) who have been reviewing and translating this curriculum - [Aditya Garg](https://github.com/AdityaGarg00), [Anurag Sharma](https://github.com/Anurag-0-1-A), [Arpita Das](https://github.com/Arpiiitaaa), [Aryan Jain](https://www.linkedin.com/in/aryan-jain-47a4a1145/), [Bhavesh Suneja](https://github.com/EliteWarrior315), [Faith Hunja](https://faithhunja.github.io/), [Lateefah Bello](https://www.linkedin.com/in/lateefah-bello/), [Manvi Jha](https://github.com/Severus-Matthew), [Mireille Tan](https://www.linkedin.com/in/mireille-tan-a4834819a/), [Mohammad Iftekher (Iftu) Ebne Jalal](https://github.com/Iftu119), [Mohammad Zulfikar](https://github.com/mohzulfikar), [Priyanshu Srivastav](https://www.linkedin.com/in/priyanshu-srivastav-b067241ba), [Thanmai Gowducheruvu](https://github.com/innovation-platform), and [Zina Kamel](https://www.linkedin.com/in/zina-kamel/).**
 
-Meet the team!
+## Meet the Team
 
-[![Promo video](./images/IOT.gif)](https://youtu.be/-wippUJRi5k)
+| [![Promo video](./images/IOT.gif)](https://youtu.be/-wippUJRi5k) |
+|:---:|
+| **Gif by** [Mohit Jaisal](https://linkedin.com/in/mohitjaisal) |
 
-**Gif by** [Mohit Jaisal](https://linkedin.com/in/mohitjaisal)
+> 🎥 Click the image above for a video about the project
 
-> 🎥 Click the image above for a video about the project!
+# Are you a student?
+
+Get started with the following resources:
+
+- [Student Hub page](https://docs.microsoft.com/en-gb/learn/student-hub?WT.mc_id=academic-77958-bethanycheum) In this page, you will find beginner resources, Student packs and even ways to get a free cert voucher. This is one page you want to bookmark and check from time to time as we switch out content at least monthly.
+- [Microsoft Learn Student Ambassadors](https://studentambassadors.microsoft.com?WT.mc_id=academic-77958-bethanycheum) Join a global community of student ambassadors, this could be your way into Microsoft
+
+# Getting Started
 
 > **Teachers**, we have [included some suggestions](for-teachers.md) on how to use this curriculum. If you would like to create your own lessons, we have also included a [lesson template](lesson-template/README.md).
 
 > **[Students](https://aka.ms/student-page)**, to use this curriculum on your own, fork the entire repo and complete the exercises on your own, starting with a pre-lecture quiz, then reading the lecture and completing the rest of the activities. Try to create the projects by comprehending the lessons rather than copying the solution code; however that code is available in the /solutions folders in each project-oriented lesson. Another idea would be to form a study group with friends and go through the content together. For further study, we recommend [Microsoft Learn](https://docs.microsoft.com/users/jimbobbennett/collections/ke2ehd351jopwr?WT.mc_id=academic-17441-jabenn).
 
-For a video overview of this course, check out this video:
-
-[![Promo video](https://img.youtube.com/vi/bccEMm8gRuc/0.jpg)](https://youtube.com/watch?v=bccEMm8gRuc "Promo video")
-
-> 🎥 Click the image above for a video about the project!
+For a video overview of this course, check out this video: 
+| [![Promo video](https://img.youtube.com/vi/bccEMm8gRuc/0.jpg)](https://youtube.com/watch?v=bccEMm8gRuc "Promo video") | 
+|:---:|
+| 🎥 Click the image above for a video about the project! | 
 
 ## Pedagogy
 
