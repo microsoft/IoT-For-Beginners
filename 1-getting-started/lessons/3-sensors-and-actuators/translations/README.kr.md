@@ -22,14 +22,15 @@
 
 이 수업에서는 다음을 다룹니다:
 
-* [센서란 무엇인가?](#what-are-sensors)
-* [센서를 사용해보자](#use-a-sensor)
-* [센서의 종류](#sensor-types)
-* [액추에이터란 무엇인가?](#what-are-actuators)
-* [액추에이터를 사용해보자](#use-an-actuator)
-* [액추에이터의 종류](#actuator-types)
+* [센서란 무엇인가](#센서란-무엇인가)
+* [센서를 사용해보자](#센서를-사용해보자)
+* [센서의 종류](#센서의-종류)
+* [액추에이터란 무엇인가](#액추에이터란-무엇인가)
+* [액추에이터를 사용해보자](#액추에이터를-사용해보자)
+* [액추에이터의 종류](#액추에이터의-종류)
 
-## 센서란 무엇인가?
+
+## 센서란 무엇인가
 
 센서는 물리적 세계를 감지하는 하드웨어 장치입니다. 즉, 센서는 주변의 하나 이상의 속성을 측정하고 정보를 IoT 장치로 보냅니다. 센서는 대기 온도와 같은 자연적 특성부터 움직임과 같은 물리적 상호 작용까지, 측정할 수 있는 것이 매우 많아 방대한 범위의 장치를 포괄합니다.
 
@@ -66,7 +67,8 @@
 
 이것의 한 예는 Potentiometer (포텐셔미터)입니다. 이것은 두 위치 사이에서 회전할 수 있고 센서가 회전을 측정하는 다이얼입니다.
 
-![중간 지점에 설정된 potentiometer가 5V를 전송하여 3.8V를 반환합니다.](../../../images/potentiometer.png)
+![중간 지점에 설정된 potentiometer가 5V를 전송하여 3.8V를 반환합니다.]
+(../../../images/potentiometer.png)
 
 IoT 장치는 포텐셔미터에 5V와 같은 전압으로 전기 신호를 보냅니다. 포텐셔미터가 조정되면 반대쪽에서 나오는 전압이 바뀝니다. 앰프의 볼륨 조정기와 같이 0에서 [11](https://wikipedia.org/wiki/Up_to_eleven)로 이동하는 다이얼로 표시된 포텐셔미터가 있다고 가정해 봅시다. 포텐셔미터가 완전히 꺼진 위치(0)에 있으면 0V(0V)가 나옵니다. 최대 ON 위치(11)에 있으면 5V(5V)가 나옵니다.
 
@@ -93,126 +95,128 @@ IoT 장치는 디지털입니다. 아날로그 값으로는 작동할 수 없고
 
 가장 간단한 디지털 센서는 버튼 또는 스위치입니다. 이것은 켜지거나 꺼지는 두 가지 상태의 센서입니다.
 
-![A button is sent 5 volts. When not pressed it returns 0 volts, when pressed it returns 5 volts](../../../images/button.png)
+![버튼은 5V로 전송됩니다. 이 스위치를 누르지 않으면 0V가 반환되고, 누르면 5V가 반환됩니다](../../../images/button.png)
 
-Pins on IoT devices such as GPIO pins can measure this signal directly as a 0 or 1. If the voltage sent is the same as the voltage returned, the value read is 1, otherwise the value read is 0. There is no need to convert the signal, it can only be 1 or 0.
+GPIO 핀과 같은 IoT 장치의 핀은 이 신호를 직접 0 또는 1로 측정할 수 있습니다. 전송된 전압이 반환된 전압과 같으면 판독값이 1이고, 그렇지 않으면 판독값이 0입니다. 신호를 변환할 필요가 없습니다. 1 또는 0만 가능합니다.
 
-> 💁 Voltages are never exact especially as the components in a sensor will have some resistance, so there is usually a tolerance. For example, the GPIO pins on a Raspberry Pi work on 3.3V, and read a return signal above 1.8V as a 1, below 1.8V as 0.
+> 💁 전압은 절대 정확하지 않습니다. 특히 센서의 구성 요소에는 약간의 저항이 있기 때문에 일반적으로 공차가 있습니다. 예를 들어, 라즈베리 파이 상의 GPIO 핀은 3.3V에서 작동하며 1.8V 이상은 1로, 1.8V는 0으로 읽습니다.
 
-* 3.3V goes into the button. The button is off so 0V comes out, giving a value of 0
-* 3.3V goes into the button. The button is on so 3.3V comes out, giving a value of 1
+* 3.3V가 버튼에 들어갑니다. 버튼이 꺼져 있으므로 0V가 나오고 값이 0입니다.
+* 3.3V가 버튼에 들어갑니다. 버튼은 3번으로 되어 있어요.3V가 나오고 값이 1입니다.
 
-More advanced digital sensors read analog values, then convert them using on-board ADCs to digital signals. For example, a digital temperature sensor will still use a thermocouple in the same way as an analog sensor, and will still measure the change in voltage caused by the resistance of the thermocouple at the current temperature. Instead of returning an analog value and relying on the device or connector board to convert to a digital signal, an ADC built into the sensor will convert the value and send it as a series of 0s and 1s to the IoT device. These 0s and 1s are sent in the same way as the digital signal for a button with 1 being full voltage and 0 being 0v.
+더 발전된 디지털 센서는 아날로그 값을 판독한 다음, 온보드 ADC를 사용하여 디지털 신호로 변환합니다. 예를 들어, 디지털 온도 센서는 아날로그 센서와 동일한 방식으로 열전대를 사용하며, 현재 온도에서 열전대의 저항으로 인한 전압 변화를 계속 측정합니다. 아날로그 값을 반환하고 장치나 커넥터 보드에 의존해 디지털 신호로 변환하는 대신 센서에 내장된 ADC가 값을 변환해 IoT 장치에 0과 1의 직렬로 전송합니다. 이러한 0과 1은 1이 최대 전압이고 0이 0v인 버튼에 대한 디지털 신호와 동일한 방식으로 전송됩니다.
 
-![A digital temperature sensor converting an analog reading to binary data with 0 as 0 volts and 1 as 5 volts before sending it to an IoT device](../../../images/temperature-as-digital.png)
+![IoT 장치로 전송하기 전에 아날로그 판독값을 0V, 1V를 5V로 하는 이진 데이터로 변환하는 디지털 온도 센서](../../../images/temperature-as-digital.png)
 
-Sending digital data allows sensors to become more complex and send more detailed data, even encrypted data for secure sensors. One example is a camera. This is a sensor that captures an image and sends it as digital data containing that image, usually in a compressed format such as JPEG, to be read by the IoT device. It can even stream video by capturing images and sending either the complete image frame by frame or a compressed video stream.
+디지털 데이터를 전송하면 센서가 더욱 복잡해지고 더 자세한 데이터, 심지어 보안 센서를 위해 암호화된 데이터까지 전송할 수 있습니다. 카메라를 생각해봅시다. 카메라는 이미지를 캡처하여 IoT 장치에서 읽을 수 있도록 보통 JPEG와 같은 압축 형식으로 해당 이미지를 전송합니다. 이미지를 캡처하고 전체 이미지 프레임을 프레임별로 전송하거나 압축된 비디오 스트림을 전송하여 비디오를 스트리밍할 수도 있습니다.
 
-## What are actuators?
+## 액추에이터란 무엇인가
 
-Actuators are the opposite of sensors - they convert an electrical signal from your IoT device into an interaction with the physical world such as emitting light or sound, or moving a motor.
+액추에이터는 센서의 반대입니다. IoT 장치에서 나오는 전기 신호를 빛이나 소리를 방출하거나 모터를 움직이는 것과 같은 물리적 세계와의 상호 작용으로 변환합니다.
 
-Some common actuators include:
+일반적인 액추에이터에는 다음이 포함됩니다 :
 
-* LED - these emit light when turned on
-* Speaker - these emit sound based on the signal sent to them, from a basic buzzer to an audio speaker that can play music
-* Stepper motor - these convert a signal into a defined amount of rotation, such as turning a dial 90°
-* Relay - these are switches that can be turned on or off by an electrical signal. They allow a small voltage from an IoT device to turn on larger voltages.
-* Screens - these are more complex actuators and show information on a multi-segment display. Screens vary from simple LED displays to high-resolution video monitors.
+* LED - 켜지면 빛이 방출됩니다.
+* 스피커 - 기본 부저에서 음악을 재생할 수 있는 오디오 스피커로 전송된 신호에 따라 소리를 냅니다.
+* 스테퍼 모터 - 신호를 다이얼 90° 회전과 같이 정의된 회전량으로 변환합니다.
+* 릴레이 - 전기 신호에 의해 켜지거나 끌 수 있는 스위치입니다. 그것들은 IoT 장치의 작은 전압이 큰 전압을 켜도록 합니다.
+* 화면 - 보다 복잡한 액추에이터로 멀티 세그먼트 디스플레이에 정보를 표시합니다. 화면은 단순한 LED 디스플레이부터 고해상도 비디오 모니터까지 다양합니다.
 
-✅ Do some research. What actuators does your phone have?
+✅ 생각해봅시다. 당신의 휴대전화에는 어떤 액추에이터가 있습니까?
 
-## Use an actuator
+## 액추에이터를 사용해보자
 
-Follow the relevant guide below to add an actuator to your IoT device, controlled by the sensor, to build an IoT nightlight. It will gather light levels from the light sensor, and use an actuator in the form of an LED to emit light when the detected light level is too low.
+아래의 관련 안내에 따라 센서에 의해 제어되는 IoT 장치에 작동기를 추가하여 IoT 야간 조명을 만드십시오. 광센서로부터 광도를 모으고, 검출된 광도가 너무 낮을 때 발광하기 위해 LED 형태의 액추에이터를 사용합니다.
 
-![A flow chart of the assignment showing light levels being read and checked, and the LED begin controlled](../../../images/assignment-1-flow.png)
+![조명 값을 읽어오고 확인 후 LED 제어 시작을 보여주는 할당 흐름도](../../../images/assignment-1-flow.png)
 
-* [Arduino - Wio Terminal](wio-terminal-actuator.md)
-* [Single-board computer - Raspberry Pi](pi-actuator.md)
-* [Single-board computer - Virtual device](virtual-device-actuator.md)
+* [아두이노 - 위오 터미널](wio-terminal-actuator.md)
+* [싱글 보드 컴퓨터 - 라즈베리 파이](pi-actuator.md)
+* [싱글 보드 컴퓨터 - 가상 ](virtual-device-actuator.md)
 
-## Actuator types
+## 액추에이터의 종류
 
-Like sensors, actuators are either analog or digital.
+센서와 마찬가지로 액추에이터도 아날로그 또는 디지털입니다.
 
-### Analog actuators
+### 아날로그 액추에이터(actuator)
 
-Analog actuators take an analog signal and convert it into some kind of interaction, where the interaction changes based off the voltage supplied.
+아날로그 액추에이터는 아날로그 신호를 받아 일종의 상호 작용으로 변환하며, 상호 작용은 공급되는 전압에 따라 변화합니다.
 
-One example is a dimmable light, such as the ones you might have in your house. The amount of voltage supplied to the light determines how bright it is.
+한 가지 예는 여러분이 집에 가지고 있을 수 있는 것과 같은 희미한 불빛입니다. 조명에 공급되는 전압의 양에 따라 조명의 밝기가 결정됩니다.
 
-![A light dimmed at a low voltage and brighter at a higher voltage](../../../images/dimmable-light.png)
+![낮은 전압에서는 희미해지고 높은 전압에서는 밝아지는 조명](../../../images/dimmable-light.png)
 
-Like with sensors, the actual IoT device works on digital signals, not analog. This means to send an analog signal, the IoT device needs a digital to analog converter (DAC), either on the IoT device directly, or on a connector board. This will convert the 0s and 1s from the IoT device to an analog voltage that the actuator can use.
+센서와 마찬가지로 실제 IoT 장치는 아날로그가 아닌 디지털 신호에서 작동합니다. 즉, 아날로그 신호를 보내려면 IoT 장치가 직접 IoT 장치 또는 커넥터 보드에 디지털-아날로그 변환기(DAC)가 필요합니다. 그러면 IoT 장치의 0과 1이 액추에이터가 사용할 수 있는 아날로그 전압으로 변환됩니다.
 
-✅ What do you think happens if the IoT device sends a higher voltage than the actuator can handle?
-⛔️ DO NOT test this out.
+✅ IoT 장치가 액추에이터가 처리할 수 있는 것보다 높은 전압을 전송하면 어떻게 된다고 생각하십니까?
+⛔️ 실험 해 보진 마십시오.
 
-#### Pulse-Width Modulation
+### 펄스 폭 변조 (Pulse-Width Modulation)
 
-Another option for converting digital signals from an IoT device to an analog signal is pulse-width modulation. This involves sending lots of short digital pulses that act as if it was an analog signal.
+IoT 장치에서 아날로그 신호로 디지털 신호를 변환하는 또 다른 옵션은 펄스 폭 변조입니다. 이것은 마치 아날로그 신호인 것처럼 작동하는 많은 짧은 디지털 펄스를 보내는 것을 포함합니다.
 
-For example, you can use PWM to control the speed of a motor.
+예를 들어 PWM을 사용하여 모터의 속도를 제어할 수 있습니다.
 
-Imagine you are controlling a motor with a 5V supply. You send a short pulse to your motor, switching the voltage to high (5V) for two hundredths of a second (0.02s). In that time your motor can rotate one tenth of a rotation, or 36°. The signal then pauses for two hundredths of a second (0.02s), sending a low signal (0V). Each cycle of on then off lasts 0.04s. The cycle then repeats.
+5V 전원으로 모터를 제어한다고 가정해 보십시오. 모터에 짧은 펄스를 전송하여 전압을 200분의 2초(0.02초) 동안 하이(5V)로 전환합니다. 그 시간 동안 당신의 모터는 10분의 1 또는 36° 회전할 수 있다. 그런 다음 신호가 200분의 2초(0.02초) 동안 일시 중지되어 낮은 신호(0V)를 전송합니다. 각 ON/OFF 사이클은 0.04초 동안 지속됩니다. 그런 다음 주기가 반복됩니다.
 
-![Pule width modulation rotation of a motor at 150 RPM](../../../images/pwm-motor-150rpm.png)
+![150rpm에서 모터의 PULE 폭 변조 회전](../../../images/pwm-motor-150rpm.png)
 
-This means in one second you have 25 5V pulses of 0.02s that rotate the motor, each followed by 0.02s pause of 0V not rotating the motor. Each pulse rotates the motor one tenth of a rotation, meaning the motor completes 2.5 rotations per second. You've used a digital signal to rotate the motor at 2.5 rotations per second, or 150 [revolutions per minute](https://wikipedia.org/wiki/Revolutions_per_minute) (a non-standard measure of rotational velocity).
-
-```output
-25 pulses per second x 0.1 rotations per pulse = 2.5 rotations per second
-2.5 rotations per second x 60 seconds in a minute = 150rpm
-```
-
-> 🎓 When a PWM signal is on for half the time, and off for half it is referred to as a [50% duty cycle](https://wikipedia.org/wiki/Duty_cycle). Duty cycles are measured as the percentage time the signal is in the on state compared to the off state.
-
-![Pule width modulation rotation of a motor at 75 RPM](../../../images/pwm-motor-75rpm.png)
-
-You can change the motor speed by changing the size of the pulses. For example, with the same motor you can keep the same cycle time of 0.04s, with the on pulse halved to 0.01s, and the off pulse increasing to 0.03s. You have the same number of pulses per second (25), but each on pulse is half the length. A half length pulse only turns the motor one twentieth of a rotation, and at 25 pulses a second will complete 1.25 rotations per second or 75rpm. By changing the pulse speed of a digital signal you've halved the speed of an analog motor.
+즉, 1초 동안 모터를 회전시키는 0.02초의 255V 펄스가 있고, 그 후 모터를 회전하지 않는 0.02초의 0.02초의 일시 중지 상태가 있음을 의미합니다. 각 펄스는 모터를 회전의 10분의 1로 회전시킵니다. 즉, 모터가 초당 2.5회전을 완료한다는 의미입니다. 디지털 신호를 사용하여 모터를 초당 2.5회전 또는 [분당 150회](https://wikipedia.org/wiki/Revolutions_per_minute) (비표준 회전 속도 측정)으로 회전했습니다.
 
 ```output
-25 pulses per second x 0.05 rotations per pulse = 1.25 rotations per second
-1.25 rotations per second x 60 seconds in a minute = 75rpm
+초당 25펄스 x 펄스당 0.1회전 = 초당 2.5회전
+초당 2.5회전 x 1분에 60초 = 150rpm
 ```
 
-✅ How would you keep the motor rotation smooth, especially at low speeds? Would you use a small number of long pulses with long pauses or lots of very short pulses with very short pauses?
+> 🎓 PWM 신호가 절반 동안 켜져 있고 절반 동안 꺼져 있는 경우를  [50% duty cycle](https://wikipedia.org/wiki/Duty_cycle) 이라고 합니다. 듀티 사이클은 신호가 꺼진 상태와 비교하여 켜진 상태에 있는 시간의 백분율로 측정됩니다.
 
-> 💁 Some sensors also use PWM to convert analog signals to digital signals.
 
-> 🎓 You can read more on pulse-width modulation on the [pulse-width modulation page on Wikipedia](https://wikipedia.org/wiki/Pulse-width_modulation).
+![75rpm에서 모터의 PULE 폭 변조 회전](../../../images/pwm-motor-75rpm.png)
 
-### Digital actuators
+펄스 크기를 변경하여 모터 속도를 변경할 수 있습니다. 예를 들어, 동일한 모터를 사용하여 0.04초의 동일한 사이클 시간을 유지할 수 있으며, 온 펄스는 0.01초로 절반으로, 오프 펄스는 0.03초로 증가할 수 있습니다. 초당 펄스 수(25)는 동일하지만 각 펄스의 길이는 절반입니다. 1/2 길이의 펄스는 모터를 20분의 1 회전만 돌리게 하며, 25펄스에서는 초당 1.25회전을 완료하거나 75rpm으로 회전합니다. 디지털 신호의 펄스 속도를 변경함으로써 아날로그 모터 속도를 절반으로 줄였습니다.
 
-Digital actuators, like digital sensors, either have two states controlled by a high or low voltage or have a DAC built in so can convert a digital signal to an analog one.
+```output
+초당 25펄스 x 펄스당 0.05회전 = 초당 1.25회전
+초당 1.25회 회전 x 1분 동안 60초 = 75rpm
+```
 
-One simple digital actuator is an LED. When a device sends a digital signal of 1, a high voltage is sent that lights the LED. When a digital signal of 0 is sent, the voltage drops to 0V and the LED turns off.
+✅ 특히 저속 주행 시 모터 회전을 원활하게 유지하려면 어떻게 해야 합니까? 긴 일시 중지를 사용하는 긴 펄스 수를 사용할 것입니까, 아니면 매우 짧은 일시 중지를 사용하는 짧은 펄스 수를 사용할 것입니까?
 
-![A LED is off at 0 volts and on at 5V](../../../images/led.png)
+> 💁 일부 센서는 PWM을 사용하여 아날로그 신호를 디지털 신호로 변환하기도 합니다.
 
-✅ What other simple 2-state actuators can you think of? One example is a solenoid, which is an electromagnet that can be activated to do things like move a door bolt locking/unlocking a door.
+> 🎓 [Wikipedia에서 펄스 폭 변조 검색](https://wikipedia.org/wiki/Pulse-width_modulation) 시 자세한 정보를 얻을 수 있습니다.
 
-More advanced digital actuators, such as screens require the digital data to be sent in certain formats. They usually come with libraries that make it easier to send the correct data to control them.
+### 디지털 액추에이터(actuator)
+
+디지털 센서와 같은 디지털 액추에이터는 고전압 또는 저전압에 의해 제어되는 두 가지 상태를 가지고 있거나 디지털 신호를 아날로그 신호로 변환할 수 있도록 DAC가 내장되어 있습니다.
+
+하나의 간단한 디지털 작동기는 LED이다. 장치가 1의 디지털 신호를 보내면 LED를 켜는 고전압이 전송됩니다. 0의 디지털 신호가 전송되면 전압이 0V로 떨어지고 LED가 꺼집니다.
+
+![LED는 0V에서 꺼지고 5V에서 켜집니다.](../../../images/led.png)
+
+✅ 다른 간단한 2-state 액추에이터는 무엇입니까? 한 예로 솔레노이드가 있는데, 이는 도어 볼트를 움직이기 위해 작동하거나 도어를 잠금/잠금 해제하는 등의 작업을 수행할 수 있는 전자석입니다.
+
+화면과 같은 더 발전된 디지털 작동기는 디지털 데이터가 특정 형식으로 전송되어야 합니다. 그들은 보통 그들을 제어하기 위해 정확한 데이터를 더 쉽게 보낼 수 있는 라이브러리와 함께 제공됩니다.
 
 ---
 
-## 🚀 Challenge
+## 🚀 도전
 
-The challenge in the last two lessons was to list as many IoT devices as you can that are in your home, school or workplace and decide if they are built around microcontrollers or single-board computers, or even a mixture of both.
+이전 두 강의의 과제는 가정, 학교 또는 직장에 있는 가능한 한 많은 IoT 장치를 나열하고 그것들이 마이크로컨트롤러 또는 단일 보드 컴퓨터 또는 심지어 둘의 혼합으로 구축되었는지 결정하는 것이었습니다.
 
-For every device you listed, what sensors and actuators are they connected to? What is the purpose of each sensor and actuator connected to these devices?
+생각해 낸 모든 장치들은 어떤 센서와 액추에이터에 연결되어 있습니까? 이러한 장치에 연결된 각 센서와 액추에이터의 용도는 무엇입니까?
 
-## Post-lecture quiz
 
-[Post-lecture quiz](https://black-meadow-040d15503.1.azurestaticapps.net/quiz/6)
+## 복습 퀴즈
 
-## Review & Self Study
+[복습 퀴즈](https://black-meadow-040d15503.1.azurestaticapps.net/quiz/6)
 
-* Read up on electricity and circuits on [ThingLearn](http://thinglearn.jenlooper.com/curriculum/).
-* Read about the different types of temperature sensors on the [Seeed Studios Temperature Sensors guide](https://www.seeedstudio.com/blog/2019/10/14/temperature-sensors-for-arduino-projects/)
-* Read about LEDs on the [Wikipedia LED page](https://wikipedia.org/wiki/Light-emitting_diode)
+## 리뷰 & 추가 개별학습
 
-## Assignment
+* 전기 및 회로에 대한 정보를 읽어보세요 [ThingLearn](http://thinglearn.jenlooper.com/curriculum/).
+* 다양한 유형의 온도 센서에 대한 자세한 내용은 [Seeed Studios Temperature Sensors guide](https://www.seeedstudio.com/blog/2019/10/14/temperature-sensors-for-arduino-projects/) 를 참조하세요
+* LED에 관한 내용은 [Wikipedia LED page](https://wikipedia.org/wiki/Light-emitting_diode) 에서 확인하세요
 
-[Research sensors and actuators](assignment.md)
+## 과제
+
+[센서와 액추에이터에 ](assignment.md)
