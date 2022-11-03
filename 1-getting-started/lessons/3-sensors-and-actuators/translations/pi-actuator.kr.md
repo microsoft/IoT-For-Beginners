@@ -26,7 +26,7 @@ Grove LED는 다양한 LED가 포함된 모듈로 제공되므로 색상을 선�
 
 LED에 연결 해 봅시다.
 
-![grove LED](../../../images/grove-led.png)
+![grove LED](../../../../images/grove-led.png)
 
 1. 좋아하는 LED를 선택하고 LED 모듈의 두 구멍에 다리를 삽입합니다.
 
@@ -40,7 +40,7 @@ LED에 연결 해 봅시다.
 
 1. Rasberry Pi 전원을 끈 상태에서 Grove 케이블의 다른 쪽 끝을 Pi에 부착된 Grove Base 모자에 D5로 표시된 디지털 소켓에 연결합니다. 이 소켓은 왼쪽에서 두 번째, GPIO 핀 옆에 있는 소켓 줄입니다.
 
-![소켓 D5에 연결된 Grove LED](../../../images/pi-led.png)
+![소켓 D5에 연결된 Grove LED](../../../../images/pi-led.png)
 
 ## 야간 조명을 프로그래밍 해봅시다
 
@@ -109,7 +109,7 @@ Grove 조명 센서와 Grove LED를 사용하여 야간 조명 프로그래밍�
 
     > 💁 LED가 동작하지 않는다면 제대로 연결 되어있는지 확인하고 스핀 버튼이 완전히 켜져 있는지 확인 해 보세요
     
-![Light Level 변화에 따라 Pi에 연결된 LED가 켜지고 꺼집니다.](../../../images/pi-running-assignment-1-1.gif)
+![Light Level 변화에 따라 Pi에 연결된 LED가 켜지고 꺼집니다.](../../../../images/pi-running-assignment-1-1.gif)
 
 > 💁  [code-actuator/pi](code-actuator/pi) 폴더 안에서 이 코드를 찾을 수 있습니다..
 
