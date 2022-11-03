@@ -16,13 +16,13 @@
 
 광센서와 연결해봅시다.
 
-![Grove 광센서](../../../images/grove-light-sensor.png)
+![Grove 광센서](../../../../images/grove-light-sensor.png)
 
 1. Grove 케이블의 한쪽 끝을 광센서 모듈의 소켓에 삽입합니다. 그것은 한 방향으로만 돌아갈 것입니다.
 
 1. Rasberry Pi 전원을 끈 상태에서 Grove 케이블의 다른 쪽 끝을 Pi에 부착된 Grove Base Hat의 **A0** 라고 표시된 아날로그 소켓에 연결합니다. 이 소켓은 오른쪽에서 두 번째, GPIO 핀 옆에 있는 소켓 열입니다.
 
-![소켓 A0에 연결된 그로브 라이트 센서](../../../images/pi-light-sensor.png)
+![소켓 A0에 연결된 그로브 라이트 센서](../../../../images/pi-light-sensor.png)
 
 ## 광센서를 프로그래밍 해 봅시다.
 
