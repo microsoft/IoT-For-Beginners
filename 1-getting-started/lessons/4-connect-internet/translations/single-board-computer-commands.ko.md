@@ -48,6 +48,6 @@
 
 6. 물리적 또는 가상 장치에서 감지한 조명 수준을 조정합니다. 수신 중인 메시지와 전송 중인 명령이 터미널에 기록됩니다. LED도 조명 수준에 따라 켜지고 꺼질 것입니다.
 
-> 💁 이 코드는 [code-commands/virtual-device](code-commands/virtual-device) 폴더 또는 [code-commands/pi](code-commands/pi) 폴더에서 찾을 수 있습니다.
+> 💁 이 코드는 [code-commands/virtual-device](../code-commands/virtual-device) 폴더 또는 [code-commands/pi](../code-commands/pi) 폴더에서 찾을 수 있습니다.
 
 😀 장치가 MQTT 브로커의 명령에 응답하도록 성공적으로 코딩했습니다.

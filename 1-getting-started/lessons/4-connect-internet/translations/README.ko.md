@@ -28,10 +28,10 @@ IoT 장치는 클라우드에서 메시지를 수신할 수 있습니다. 종종
 
 이 강의에서 다룰 내용은 다음과 같습니다:
 
-- [통신 프로토콜](notion://www.notion.so/chap-1_4-0ec7f5df23cf4754b02624ce55051dce#communication-protocols)
-- [메시지 큐 원격 분석 전송(MQTT)](notion://www.notion.so/chap-1_4-0ec7f5df23cf4754b02624ce55051dce#message-queueing-telemetry-transport-mqtt)
-- [텔레메트리(원격 측정)](notion://www.notion.so/chap-1_4-0ec7f5df23cf4754b02624ce55051dce#telemetry)
-- [명령](notion://www.notion.so/chap-1_4-0ec7f5df23cf4754b02624ce55051dce#commands)
+- [통신 프로토콜](#communication-protocols)
+- [메시지 큐 원격 분석 전송(MQTT)](##message-queueing-telemetry-transport-mqtt)
+- [텔레메트리(원격 측정)](#telemetry)
+- [명령](#commands)
 
 ## 통신 프로토콜
 
@@ -134,8 +134,8 @@ MQTT 브로커에게 가벼운 수준의 원격 분석을 보냅니다.
 
 장치에서 MQTT 브로커로 원격 분석을 보내려면 아래 단계를 따르십시오:
 
-- [아두이노 - Wio 터미널](notion://www.notion.so/wio-terminal-telemetry.md)
-- [싱글 보드 컴퓨터 - Raspberry Pi/가상 IoT 장치](notion://www.notion.so/single-board-computer-telemetry.md)
+- [아두이노 - Wio 터미널](wio-terminal-telemetry.md)
+- [싱글 보드 컴퓨터 - Raspberry Pi/가상 IoT 장치](single-board-computer-telemetry.md)
 
 ### MQTT 브로커로부터 텔레메트리 수신
 
@@ -469,4 +469,4 @@ MQTT 브로커의 명령을 수신하려면 아래 단계를 따르십시오:
 
 ## 과제
 
-[MQTT를 다른 통신 프로토콜과 비교 및 대조](notion://www.notion.so/assignment.md)
+[MQTT를 다른 통신 프로토콜과 비교 및 대조](assignment.ko.md)
