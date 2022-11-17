@@ -297,7 +297,7 @@ Once each buffer has been captured, it can be written to the flash memory. Flash
         DMAC->Channel[1].CHCTRLA.bit.ENABLE = 1;
 
         // Configure Timer/Counter 5
-        GCLK->PCHCTRL[TC5_GCLK_ID].reg = GCLK_PCHCTRL_CHEN |     // Enable perhipheral channel for TC5
+        GCLK->PCHCTRL[TC5_GCLK_ID].reg = GCLK_PCHCTRL_CHEN |     // Enable peripheral channel for TC5
                                             GCLK_PCHCTRL_GEN_GCLK1; // Connect generic clock 0 at 48MHz
 
         TC5->COUNT16.WAVE.reg = TC_WAVE_WAVEGEN_MFRQ; // Set TC5 to Match Frequency (MFRQ) mode
@@ -397,7 +397,7 @@ Once each buffer has been captured, it can be written to the flash memory. Flash
 
     The audio buffers are arrays of 16-bit integers containing the audio from the ADC. The ADC returns 12-bit unsigned values (0-1023), so these need to be converted to 16-bit signed values, and then converted into 2 bytes to be stored as raw binary data.
 
-    These bytes are written to the flash memory buffers. The write starts at index 44 - this is the offset from the 44 bytes written as the WAV file header. Once all the bytes needed for the required audio length have been captured, the remaing data is written to the flash memory.
+    These bytes are written to the flash memory buffers. The write starts at index 44 - this is the offset from the 44 bytes written as the WAV file header. Once all the bytes needed for the required audio length have been captured, the remaining data is written to the flash memory.
 
 1. In the `public` section of the `Mic` class, add the following code:
 

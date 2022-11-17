@@ -226,7 +226,7 @@ Update your server code to run the relay for 5 seconds, then wait 20 seconds.
         client.publish(server_command_topic, json.dumps(command))
     ```
 
-    This code defines a function called `send_relay_command` that sends a command over MQTT to control the relay. The telemetry is created as a dictionary, then converted to a JSON string. The value passed in to `state` determines if the relay should be on or off.
+    This code defines a function called `send_relay_command` that sends a command over MQTT to control the relay. The telemetry is created as a dictionary, then converted to a JSON string. The value passed into `state` determines if the relay should be on or off.
 
 1. After the `send_relay_code` function, add the following code:
 
