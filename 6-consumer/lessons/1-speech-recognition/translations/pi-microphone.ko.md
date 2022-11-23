@@ -1,140 +1,140 @@
-# 텍스트 음성 변환 - Raspberry Pi
+# 마이크 및 스피커 구성 - Raspberry Pi
 
-이 단원에서는 음성 서비스를 사용하여 텍스트를 음성으로 변환하는 코드를 작성합니다.
+이 단원에서는 Raspberry Pi에 마이크와 스피커를 추가합니다.
 
-## 음성 서비스를 사용하여 텍스트를 음성으로 변환 해봅시다.
+## 하드웨어
 
-텍스트는 REST API를 사용하여 음성 서비스로 전송되어 IoT 장치에서 재생할 수 있는 오디오 파일로 음성을 얻을 수 있습니다. 음성을 요청할 때 다양한 음성을 사용하여 변환된 음성을 생성할 수 있으므로 사용할 voice를 제공해야 합니다. 
+Raspberry Pi에 연결할 마이크가 필요합니다.
 
-각 언어는 다양한 voice를 지원하며, 음성 서비스에 대해 REST를 요청하여 각 언어에 대해 지원되는 voice 목록을 얻을 수 있습니다.
+Pi에는 내장 마이크가 없기 때문에 외부 마이크를 추가해야 합니다. 외부 마이크를 추가하는 방법에는 여러가지가 있습니다.
 
-### 작업 - voice를 얻어 봅시다.
+* USB 마이크
+* USB 헤드셋
+* USB 연결 스피커폰 
+* USB 연결 3.5mm 잭이 있는 오디오 어댑터 및 마이크
+* [ReSpeaker 2-Mics Pi HAT](https://www.seeedstudio.com/ReSpeaker-2-Mics-Pi-HAT.html)
 
-1. VS Code에서 `smart-timer` 프로젝트를 열어주세요.
+> 💁 Raspberry Pi에서는 블루투스 마이크가 일부 지원되지 않으므로 블루투스 마이크 또는 헤드셋이 있는 경우 오디오 페어링 또는 캡처에 문제가 있을 수 있습니다.
 
-1. 언어에 대한 voice 목록을 요청하려면 `say`함수 뒤에 아래 코드를 추가하십시오.
+Raspberry Pi 장치에는 3.5mm 헤드폰 잭이 있습니다. 헤드셋 또는 스피커를 연결하기 위해 이를 사용할 수 있으며 아래 방법을 통해서도 스피커를 추가할 수 있습니다.
 
-    ```python
-    def get_voice():
-        url = f'https://{location}.tts.speech.microsoft.com/cognitiveservices/voices/list'
+* 모니터 또는 TV를 통한 HDMI 오디오
+* USB 스피커
+* USB 헤드셋
+* USB 연결 가능 스피커폰
+* 3.5mm 잭 또는 JST 포트에 스피커가 부착된 [ReSpeaker 2-Mics Pi HAT](https://www.seeedstudio.com/ReSpeaker-2-Mics-Pi-HAT.html) 
+
+## 마이크와 스피커를 연결하고 구성합니다.
+
+마이크와 스피커를 연결하고 구성해야 합니다.
+
+### 작업 - 마이크를 연결하고 구성합시다.
+
+1. 적절한 방법으로 마이크를 연결합니다. 예를 들어 USB 포트 중 하나를 통해 연결합니다.
+
+1. ReSpeaker 2-Mics Pi HAT를 사용하는 경우 Grove base hat을 제거한 다음 ReSpeaker hat을 그 자리에 장착할 수 있습니다.
+    ![A raspberry pi with a ReSpeaker hat](../../../../images/pi-respeaker-hat.png)
+
+    이 과정의 후반부에 Grove 버튼이 필요하지만, 이 모자에는 Grove base hat이 내장되어 있으므로 Grove base hat이 필요하지 않습니다.
     
-        headers = {
-            'Authorization': 'Bearer ' + get_access_token()
-        }
-    
-        response = requests.get(url, headers=headers)
-        voices_json = json.loads(response.text)
-    
-        first_voice = next(x for x in voices_json if x['Locale'].lower() == language.lower() and x['VoiceType'] == 'Neural')
-        return first_voice['ShortName']
-    
-    voice = get_voice()
-    print(f'Using voice {voice}')
-    ```
+    hat이 장착되면 드라이버를 설치해야 합니다. 드라이버 설치 지침은 [Seeed getting started instructions](https://wiki.seeedstudio.com/ReSpeaker_2_Mics_Pi_HAT_Raspberry/#getting-started) 을 참고하세요.
 
-    이 코드는 음성 서비스를 사용하여 voice 리스트를 가져오는 `get_voice`라는 함수를 정의합니다. 이후 사용중인 언어와 일치하는 첫 번째 voice를 찾습니다.
-    
-    이후 이 기능을 호출하여 첫 번째 voice를 저장하면 음성 이름이 console에 출력됩니다. 이 voice는 한 번 요청할 수 있으며 텍스트를 음성으로 변환하기 위해 모든 호출에 사용되는 값입니다.
-    
-    > 💁 지원되는 voice의 전체 목록은 [Microsoft Docs 언어 및 음성 지원 설명서](https://docs.microsoft.com/azure/cognitive-services/speech-service/language-support?WT.mc_id=academic-17441-jabenn#text-to-speech)에서 확인할 수 있습니다. 특정 voice를 사용하려면 이 기능을 제거하고 설명서에서 voice를 해당 voice의 명칭으로 하드코딩 할 수 있습니다. 
-    > 예시 : 
-    > ```python
-    > voice = 'hi-IN-SwaraNeural'
+    > ⚠️ 명령어는 `git`를 사용하여 저장소를 복제합니다. Pi에 `git`이 설치되어 있지 않은 경우 다음 명령을 실행하여 설치할 수 있습니다.
+    >
+    > ```sh
+    > sudo apt install git --yes
     > ```
 
-### 작업 - 텍스트를 음성으로 변환
+1. 연결된 마이크에 대한 정보를 보려면 Pi에서 또는 VS Code 및 원격 SSH 세션을 사용하여 연결된 터미널에서 다음 명령을 실행합니다.
 
-1. 아래에서 음성 서비스에서 검색할 오디오 형식에 대한 상수를 정의합니다. 오디오를 요청할 때 다양한 형식으로 요청할 수 있습니다.
-
-    ```python
-    playback_format = 'riff-48khz-16bit-mono-pcm'
+    ```sh
+    arecord -l
     ```
 
-    하드웨어에 따라 사용할 수 있는 형식이 다릅니다. 오디오를 재생할 때 `Invalid sample rate`오류가 발생하면 이 값을 다른 값으로 변경하면 됩니다. 지원되는 목록은 [Microsoft Docs의 Text to speech REST API 설명서](https://docs.microsoft.com/azure/cognitive-services/speech-service/rest-text-to-speech?WT.mc_id=academic-17441-jabenn#audio-outputs) 에서 확인할 수 있습니다. `riff` 형식의 오디오를 사용해야 하며, 시도할 값은 `riff-16khz-16bit-mono-pcm`, `riff-24khz-16bit-mono-pcm` 그리고 `riff-48khz-16bit-mono-pcm`입니다.
+    아래와 같이 연결된 마이크 목록이 표시됩니다:
+
+    ```output
+    pi@raspberrypi:~ $ arecord -l
+    **** List of CAPTURE Hardware Devices ****
+    card 1: M0 [eMeet M0], device 0: USB Audio [USB Audio]
+      Subdevices: 1/1
+      Subdevice #0: subdevice #0
+    ```
+
+    연결된 마이크가 하나일 때 하나의 항목만 표시됩니다. 리눅스에서 마이크 구성이 까다로울 수 있으므로 한 개의 마이크만 사용하고 다른 마이크는 분리하는 것을 추천합니다.
     
-1.  아래 코드를 통해 음성 서비스 REST API를 사용하여 텍스트를 음성으로 변환하는 `get_speech`함수를 선언합니다.
-
-    ```python
-    def get_speech(text):
-    ```
-
-1. `get_speech` 함수에서 호출할 URL과 전달할 헤더를 정의합니다.
-
-    ```python
-        url = f'https://{location}.tts.speech.microsoft.com/cognitiveservices/v1'
+    카드 번호는 나중에 필요하므로 적어 두세요. 위의 출력에서 카드 번호는 1입니다.
     
-        headers = {
-            'Authorization': 'Bearer ' + get_access_token(),
-            'Content-Type': 'application/ssml+xml',
-            'X-Microsoft-OutputFormat': playback_format
-        }
+### 작업 - 스피커를 연결하고 구성합니다.
+
+1. 적절한 방법으로 스피커를 연결합니다.
+
+1. 연결된 스피커에 대한 정보를 보려면 Pi에서 또는 VS Code와 원격 SSH 세션을 사용하여 연결된 터미널에서 다음 명령을 실행합니다.
+    ```sh
+    aplay -l
     ```
 
-    생성된 액세스 토큰을 사용하도록 헤더를 설정하고 콘텐츠를 SSML로 설정하며 필요한 오디오 형식을 정의합니다.
+    아래와 같이 연결된 스피커 목록이 표시됩니다:
+
+    ```output
+    pi@raspberrypi:~ $ aplay -l
+    **** List of PLAYBACK Hardware Devices ****
+    card 0: Headphones [bcm2835 Headphones], device 0: bcm2835 Headphones [bcm2835 Headphones]
+      Subdevices: 8/8
+      Subdevice #0: subdevice #0
+      Subdevice #1: subdevice #1
+      Subdevice #2: subdevice #2
+      Subdevice #3: subdevice #3
+      Subdevice #4: subdevice #4
+      Subdevice #5: subdevice #5
+      Subdevice #6: subdevice #6
+      Subdevice #7: subdevice #7
+    card 1: M0 [eMeet M0], device 0: USB Audio [USB Audio]
+      Subdevices: 1/1
+      Subdevice #0: subdevice #0
+    ```
+
+    헤드폰 잭이 내장돼 있어 `card 0: Headphones`이 항상 확인되는 것을 볼 수 있습니다. USB 스피커와 같은 스피커를 추가한 경우에도 이 목록은 표시됩니다.
     
-1. 아래 코드를 통해 REST API로 보낼 SSML을 정의합니다.
-
-    ```python
-    ssml =  f'<speak version=\'1.0\' xml:lang=\'{language}\'>'
-    ssml += f'<voice xml:lang=\'{language}\' name=\'{voice}\'>'
-    ssml += text
-    ssml += '</voice>'
-    ssml += '</speak>'
+1. 내장 헤드폰 잭에 연결된 스피커나 헤드폰이 아닌 추가 스피커를 사용하는 경우 다음 명령어를 통해 기본값으로 구성해야 합니다. 
+    ```sh
+    sudo nano /usr/share/alsa/alsa.conf
     ```
 
-    이 SSML은 변환할 텍스트와 함께 사용할 언어와 voice를 설정합니다.
-
-1. 마지막으로 REST를 요청하고 이진 오디오 데이터를 반환하는 코드를 이 함수에 추가합니다.
-
-    ```python
-    response = requests.post(url, headers=headers, data=ssml.encode('utf-8'))
-    return io.BytesIO(response.content)
-    ```
-
-### 작업 - 오디오를 재생해봅시다
-
-1. `get_speech` 함수 아래에 REST API 호출에 의해 반환된 오디오를 재생하는 새 함수를 정의합니다.
-
-    ```python
-    def play_speech(speech):
-    ```
-
-1. 이 함수에 전달되는 `speech`는 REST API에서 반환되는 이진 오디오 데이터입니다. 다음 코드를 사용하여 이를 파형 파일로 열고 PyAudio로 전달하여 오디오를 재생합니다
-    ```python
-    def play_speech(speech):
-        with wave.open(speech, 'rb') as wave_file:
-            stream = audio.open(format=audio.get_format_from_width(wave_file.getsampwidth()),
-                                channels=wave_file.getnchannels(),
-                                rate=wave_file.getframerate(),
-                                output_device_index=speaker_card_number,
-                                output=True)
-
-            data = wave_file.readframes(4096)
-
-            while len(data) > 0:
-                stream.write(data)
-                data = wave_file.readframes(4096)
-
-            stream.stop_stream()
-            stream.close()
-    ```
-
-    이 코드는 오디오를 캡처하는 것과 동일한 PyAudio 스트림을 사용합니다. 여기서 차이점은 오디오 데이터에서 데이터가 읽혀지고 출력 스트림으로 설정 된 스트림으로 푸시된다는 것입니다.
+    이렇게 하면 단말기 기반 텍스트 편집기인 `nano`에서 구성 파일이 열립니다. 다음 줄을 찾을 때까지 키보드의 화살표 키를 사용하여 아래로 스크롤합니다.
     
-    샘플링 정도와 같은 스트림 세부 사항을 하드 코딩하는 대신 오디오 데이터로부터 읽힌다.
-
-1. `say` 함수의 내용을 다음과 같이 바꿉니다.
-
-    ```python
-    speech = get_speech(text)
-    play_speech(speech)
+    ```output
+    defaults.pcm.card 0
     ```
 
-    이 코드는 텍스트를 이진 오디오 데이터로 음성으로 변환하고 오디오를 재생합니다.
+    호출 후 돌아온 목록에서 사용할 카드의 카드 번호를 `0`에서 `aplay -l`로 변경합니다. 예를 들어, 위의 출력에는 `card 1: M0 [eMeet M0], 장치 0: USB Audio [USB Audio]`라는 두 번째 사운드 카드가 있습니다. 이를 사용하기 위해 다음과 같이 파일을 업데이트합니다.
+    
+    ```output
+    defaults.pcm.card 1
+    ```
 
-1. 앱을 실행하고 function 앱도 실행 중인지 확인합니다. 타이머를 설정하면 타이머가 설정되었다는 음성 응답이 들리고, 타이머의 시간이 완료되면 다른 음성 응답이 들립니다.
-    `Invalid sample rate` 오류가 발생하면 위에서 설명한 대로 `playback_format`을 변경하십시오.
+   이 값을 적절한 카드 번호로 설정합니다. 키보드의 화살표 키를 사용하여 숫자로 이동한 다음 텍스트 파일을 편집할 때 일반적으로 새 숫자를 삭제하고 입력할 수 있습니다.
+   
+1. `Ctrl+x`를 눌러 변경 내용을 저장하고 파일을 닫습니다. `y`를 눌러 파일을 저장한 다음 `return`을 눌러 파일 이름을 선택합니다.
 
-> 💁  [code-spoken-response/pi](code-spoken-response/pi) 폴더에서 코드를 확인할 수 있습니다.
+### 작업 - 마이크와 스피커를 테스트합니다
 
-😀 타이머를 만들었어요! 야호!
+1. 다음 명령을 실행하여 마이크를 통해 5초간의 오디오를 녹음합니다.:
+
+    ```sh
+    arecord --format=S16_LE --duration=5 --rate=16000 --file-type=wav out.wav
+    ```
+
+    이 명령이 실행되는 동안 말하기, 노래하기, 비트박스, 악기 연주 또는 하고싶은 것을 하며 마이크에 소리를 내십시오.
+    
+1. 5초 후에 녹화가 중지됩니다. 다음 명령을 실행하여 오디오를 재생합니다.
+
+    ```sh
+    aplay --format=S16_LE --rate=16000 out.wav
+    ```
+
+    스피커를 통해 audio bing이 재생되는 소리가 들립니다. 필요에 따라 스피커의 출력 볼륨을 조정합니다.
+    
+1. 내장된 마이크 포트의 볼륨을 조절하거나 마이크의 게인을 조절해야 할 경우 `alsamixer` 유틸리티를 사용할 수 있습니다. 이 유틸리티에 대한 자세한 내용은 [Linux alsamixer man page](https://linux.die.net/man/1/alsamixer) 에서 확인할 수 있습니다.
+
+1. 오디오를 재생할 때 오류가 발생하면 `alsa.conf` 파일에서 `defaults.pcm.card`로 설정한 카드를 확인합니다.
