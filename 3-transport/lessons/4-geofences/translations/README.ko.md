@@ -236,8 +236,7 @@ Geofence의 가장자리까지의 거리를 알고, 차량 위치를 기반으�
    >
    > 이렇게 하면 GeoJSON은 `geometryId`가 있는 `properties` 섹션이 누락됩니다. GeoJSON을 수정한 다음 위의 단계를 반복하여 다시 업로드하고 새 UDID를 받아야 합니다.
 
-1. The response will contain a list of `geometries`, one for each polygon defined in the GeoJSON used to create the geofence. Each geometry has 3 fields of interest, `distance`, `nearestLat` and `nearestLon`.
-응답에는 Geofence를 만드는데 사용되는 GeoJSON에 정의된 각 다각형에 대하여 `geometries`목록이 포함됩니다. 각 geometry는 `distance`, `nearestLat`, `nearestLon` 와 같은 3가지 분야가 있습니다.
+1. 응답에는 Geofence를 만드는데 사용되는 GeoJSON에 정의된 각 다각형에 대하여 `geometries`목록이 포함됩니다. 각 geometry는 `distance`, `nearestLat`, `nearestLon` 와 같은 3가지 분야가 있습니다.
 
    ```output
    {
