@@ -1,35 +1,36 @@
 # Geofences
 
-![A sketchnote overview of this lesson](../../../sketchnotes/lesson-14.jpg)
+![A sketchnote overview of this lesson](../../../../sketchnotes/lesson-14.jpg)
 
-> Sketchnote by [Nitya Narasimhan](https://github.com/nitya). Click the image for a larger version.
+> [Nitya Narasimhan](https://github.com/nitya)의 스케치 노트입니다. 사진을 클릭하여 크게 보세요
 
-This video gives an overview of geofences and how to use them in Azure Maps, topics that will be covered in this lesson:
+이 비디오는 Geofence에 대한 개요와 Azure Maps에서 Geofence를 사용하는 방법을 제공하며, 이 레슨에서 다룰 주제는 아래와 같습니다.
 
 [![Geofencing with Azure Maps from the Microsoft Developer IoT show](https://img.youtube.com/vi/nsrgYhaYNVY/0.jpg)](https://www.youtube.com/watch?v=nsrgYhaYNVY)
 
-> 🎥 Click the image above to watch a video
+> 🎥 영상을 시청하려면 이미지를 클릭하세요
 
-## Pre-lecture quiz
+## 강의 전 퀴즈
 
-[Pre-lecture quiz](https://black-meadow-040d15503.1.azurestaticapps.net/quiz/27)
+[강의 전 퀴즈](https://black-meadow-040d15503.1.azurestaticapps.net/quiz/27)
 
-## Introduction
+## 도입
 
-In the last 3 lessons, you have used IoT to locate the trucks carrying your produce from your farm to a processing hub. You've captured GPS data, sent it to the cloud to store, and visualized it on a map. The next step in increasing the efficiency of your supply chain is to get an alert when a truck is about to arrive at the processing hub, so that the crew needed to unload can be ready with forklifts and other equipment as soon as the vehicle arrives. This way they can unload quickly, and you are not paying for a truck and driver to wait.
+지난 3번의 수업에서, 여러분은 농장에서 물류 허브로 농산물을 운반하는 트럭을 찾기 위해 IoT를 사용했습니다. GPS의 데이터를 캡처하여 저장할 클라우드로 전송하고, 시각화하여 지도에 표현하였습니다. 공급망의 효율성을 높이기 위한 다음 단계는 트럭이 물류 허브에 도착하려고 할 때 알림을 받는 것 입니다. 사전 알람을 통해 직원들은 차량이 도착하자 마자 지게차 등의 장비들을 가지고 짐을 내릴 준비를 할 수 있습니다. 이렇게 하면 직원들은 기다림 없이 빠르게 짐을 내릴 수 있고, 여러분은 기다리는 트럭 운전사 혹은 다른 직원들에게 돈을 지불하지 않아도 됩니다.
 
-In this lesson you will learn about geofences - defined geospatial regions such as an area within a 2km minute drive of a processing hub, and how to test if GPS coordinates are inside or outside a geofence, so you can see if your GPS sensor has arrived or left an area.
+이번 강의에서는 Geofence 정의 지리 공간 영역에 대하여 배웁니다(예: 물류 허브 2Km 이내 주행구역). 그리고 GPS 좌표가 Geofence 내부 또는 외부에 있는지 테스트하여 GPS센서가 해당 범위 내에 도착했는지 여부를 확인하고자 합니다. 
 
-In this lesson we'll cover:
 
-- [What are geofences](#what-are-geofences)
-- [Define a geofence](#defining-a-geofence)
-- [Test points against a geofence](#testing-points-against-a-geofence)
-- [Use geofences from serverless code](#use-geofences-from-serverless-code)
+이번 강의에서는 다음을 다룹니다 :
 
-> 🗑 This is the last lesson in this project, so after completing this lesson and the assignment, don't forget to clean up your cloud services. You will need the services to complete the assignment, so make sure to complete that first.
+- [Geofence란](#Geofence란)
+- [지오펜스(Geofence) 정의](#지오펜스(Geofence)-정의)
+- [Geofence에 대한 테스트 포인트](#Geofence에-대한-테스트-포인트)
+- [서버리스 코드의 Geofence 사용](#서버리스-코드의-Geofence-사용)
+
+> 🗑 이 강의가 3강의 마지막 강의이므로 이 강의와 과제를 마친 후에는 클라우드 서비스를 정리하는 것을 잊지 마세요. 할당을 완료하려면 클라우드 서비스가 필요하기에 강의 이전에 클라우드 서비스 작업을 완료 해 주세요.
 >
-> Refer to [the clean up your project guide](../../../clean-up.md) if necessary for instructions on how to do this.
+> 필요한 경우 [프로젝트 가이드 정리](../../../../clean-up.md) 를 참고하세요
 
 ## What are Geofences
 
@@ -176,66 +177,67 @@ Azure Maps에서 지오펜스를 사용하려면, 먼저 Azure Maps 계정에 �
 
    이 UDID 의 사본을 보관하십시오. 지오펜스를 테스트하는데 필요한 것입니다.
 
-## Test points against a geofence
+## Geofence에 대한 테스트 포인트
 
-Once the polygon has been uploaded to Azure Maps, you can test a point to see if it is inside or outside the geofence. You do this by making a web API request, passing in the UDID of the geofence, and the latitude and longitude of the point to test.
+우선 다각형이 Azure Maps에 표시되면, 여러분은 점을 테스트하여 해당 점이 Geofence 내부에 있는지 외부에 있는지 확인할 수 있습니다. 웹 API 요청을 작성하고 Geofence의 UDID를 전달하며 테스트할 지점의 위도와 경도를 API에 전송합니다.
 
-When you make this request, you can also pass a value called the `searchBuffer`. This tells the Maps API how accurate to be when returning results. The reason for this is GPS is not perfectly accurate, and sometimes locations can be out by meters if not more. The default for the search buffer is 50m, but you can set values from 0m to 500m.
+해당 요청 시 `searchBuffer`라는 값을 전달 할 수도 있습니다. 이는 결과를 반환할 때 얼마나 정확해야하는지를 지도 API에 알려줍니다. 이러한 이유는 GPS가 완벽하게 정확하지 않고, 때떄로 위치가 미터단위 혹은 그 이하로 달라질 수 있기 때문입니다. 검색 버퍼의 기본값은 50m이지만 0m에서 500m 사이의 값을 설정할 수 있습니다.
 
-When results are returned from the API call, one of the parts of the result is a `distance` measured to the closest point on the edge of the geofence, with a positive value if the point is outside the geofence, negative if it is inside the geofence. If this distance is less than the search buffer, the actual distance is returned in meters, otherwise the value is 999 or -999. 999 means that the point is outside the geofence by more than the search buffer, -999 means it is inside the geofence by more than the search buffer.
+API 호출 결과 중 `거리`값이 반환됩니다. 이는 Geofence 가장자리에서 가장 가까운 지점까지 양수 값으로 측정된 것으로, 점이 Geofence 밖에 있으면 양수값이고 안에 있으면 음수 값 입니다. 이 거리가 버퍼보다 작으면 실제 거리가 미터 단위로 반환됩니다. 그렇지 않으면 값이 999또는 -999로 반환됩니다. 999는 양수이므로 검색 버퍼보다 Geofence 밖에 있음을 의미하고, -999는 음수이므로 검색 버퍼보다 지오펜스 안쪽에 있음을 의미합니다. 
 
-![A geofence with a 50m search buffer around in](../../../images/search-buffer-and-distance.png)
+![A geofence with a 50m search buffer around in](../../../../images/search-buffer-and-distance.png)
 
-In the image above, the geofence has a 50m search buffer.
+위 이미지에서 지오펜스에는 50m 검색 버퍼가 있습니다.
 
-- A point in the center of the geofence, well inside the search buffer has a distance of **-999**
-- A point well outside the search buffer has a distance of **999**
-- A point inside the geofence and inside the search buffer, 6m from the geofence, has a distance of **6m**
-- A point outside the geofence and inside the search buffer, 39m from the geofence, has a distance of **39m**
+- 지오펜스 중앙의 한 점, 검색 버퍼 내부의 한 점 사이의 거리는 **-999**입니다.
+- 검색 버퍼를 훨씬 벗어난 지점의 거리는 **999**입니다.
+- 지오펜스에서 6m 떨어진 지오펜스 내부 및 검색 버퍼 내부 지점의 거리는 **6m**입니다.
+- 지오펜스에서 39m 떨어진 지오펜스 바깥쪽 및 검색 버퍼 내부 지점의 거리는 **39m**입니다.
 
-It is important to know the distance to the edge of the geofence, and combine this with other information such as other GPS readings, speed and road data when making decisions based off a vehicle location.
+Geofence의 가장자리까지의 거리를 알고, 차량 위치를 기반으로 결정을 할 때 이를 GPS 판독값, 속도 및 도로 데이터와 같은 다른 정보와 결합하는 것이 중요합니다. 
 
-For example, imagine GPS readings showing a vehicle was driving along a road that ends up running next to a geofence. If a single GPS value is inaccurate and places the vehicle inside the geofence, despite there being no vehicular access, then it can be ignored.
+예를 들어, 차량이 Geofence 옆에 있는 도로를 따라 주행하고 있다고 가정하겠습니다. 만약 Geofence 내부로 어떠한 차량의 접근이 없었음에도 불구하고 하나라도 GPS값이 부정확하거나, 옆 도로로 주행하고 있는 차량을 Geofence 내부에 있다고 배치하는 경우 해당 값은 무시될 수 있습니다.
 
-![A GPS trail showing a vehicle passing the Microsoft campus on the 520, with GPS readings along the road except for one on the campus, inside a geofence](../../../images/geofence-crossing-inaccurate-gps.png)
+![A GPS trail showing a vehicle passing the Microsoft campus on the 520, with GPS readings along the road except for one on the campus, inside a geofence](../../../../images/geofence-crossing-inaccurate-gps.png)
 
-In the above image, there is a geofence over part of the Microsoft campus. The red line shows a truck driving along the 520, with circles to show the GPS readings. Most of these are accurate and along the 520, with one inaccurate reading inside the geofence. There is no way that reading can be correct - there are no roads for the truck to suddenly divert from the 520 onto campus, then back onto the 520. The code that checks this geofence will need to take the previous readings into consideration before acting on the results of the geofence test.
+위 이미지에서 마이크로소프트 캠퍼스 일부에 Geofence가 있습니다. 빨간 색 선은 트럭이 520번 도로를 주행하는 모습을 보여주며, GPS 판독값을 보여주는 원이 표시됩니다. 대부분의 값들은 정확하게 520번 도로를 따라 주행하지만 Geofence 내부에 하나 정도 작은 부정확한 정보가 있습니다. 판독값이 완벽하게 정확할 수 있는 방법은 없습니다. 트럭이 520번 도로에서 캡퍼스 방향으로 돌렸다가 다시 520번 도로로 돌아갈 수 있는 도로가 없습니다. 이 Geofence를 확인하는 코드는 Geofence 테스트 결과에 대해 작업하기 전에 이전 판독값을 고려해야 합니다.
 
-✅ What additional data would you need to check to see if a GPS reading could be considered correct?
+✅ GPS 판독값이 올바른 것으로 간주될 수 있는지 확인하기 위해 어떤 추가 데이터가 필요할까요?
 
-### Task - test points against a geofence
+### 작업 - Geofence에 대한 테스트 포인트
 
-1. Start by building the URL for the web API query. The format is:
+1. 웹 API 쿼리의 URL을 작성하는 것으로 시작합니다. 형식은 다음과 같습니다.
 
    ```output
    https://atlas.microsoft.com/spatial/geofence/json?api-version=1.0&deviceId=gps-sensor&subscription-key=<subscription-key>&udid=<UDID>&lat=<lat>&lon=<lon>
    ```
 
-   Replace `<subscription_key>` with the API key for your Azure Maps account.
+   `<subscription_key>`를 AzureMaps 계정의 API 키로 바꿉니다.
 
-   Replace `<UDID>` with the UDID of the geofence from the previous task.
+    이전 작업의 지오펜스의 UDID로 `<UDID>`를 바꿉니다.
 
-   Replace `<lat>` and `<lon>` with the latitude and longitude that you want to test.
+    `<lat>`와 `<lon>`을 테스트할 위도와 경도로 바꿉니다.
+    
+   이 URL은 `https://atlas.microsoft.com/spatial/geofence/json`API를 통해 GeoJSON을 사용하여 정의된 Geofence를 쿼리합니다. `1.0` 버전 이상의 API 버전을 대상으로 하며, `deviceId`의 매개변수는 필수이고, 위도와 경도가 나오는 장치의 이름이어야 합니다.
 
-   This URL uses the `https://atlas.microsoft.com/spatial/geofence/json` API to query a geofence defined using GeoJSON. It targets the `1.0` api version. The `deviceId` parameter is required and should be the name of the device the latitude and longitude comes from.
+   기본 검색 버퍼는 50m이며, `searchBuffer=<distance>`와 같은 추가 매개변수를 전달하여 이 값을 변경할 수 있습니다. `<distance>` 는 검색 버퍼 거리(0~500 사이값, m 단위)로 설정합니다.
 
-   The default search buffer is 50m, and you can change this by passing an additional parameter of `searchBuffer=<distance>`, setting `<distance>` to the search buffer distance in meters, form 0 to 500.
-
-1. Use curl to make a GET request to this URL:
+1. curl을 사용하여 다음 URL에 GET 요청을 작성합니다.
 
    ```sh
    curl --request GET '<URL>'
    ```
 
-   > 💁 If you get a response code of `BadRequest`, with an error of:
+   > 💁 `BadRequest` 응답 코드가 표시되면 다음과 같은 오류가 발생합니다.
    >
    > ```output
    > Invalid GeoJSON: All feature properties should contain a geometryId, which is used for identifying the geofence.
    > ```
    >
-   > then your GeoJSON is missing the `properties` section with the `geometryId`. You will need to fix up your GeoJSON, then repeat the steps above to re-upload and get a new UDID.
+   > 이렇게 하면 GeoJSON은 `geometryId`가 있는 `properties` 섹션이 누락됩니다. GeoJSON을 수정한 다음 위의 단계를 반복하여 다시 업로드하고 새 UDID를 받아야 합니다.
 
 1. The response will contain a list of `geometries`, one for each polygon defined in the GeoJSON used to create the geofence. Each geometry has 3 fields of interest, `distance`, `nearestLat` and `nearestLon`.
+응답에는 Geofence를 만드는데 사용되는 GeoJSON에 정의된 각 다각형에 대하여 `geometries`목록이 포함됩니다. 각 geometry는 `distance`, `nearestLat`, `nearestLon` 와 같은 3가지 분야가 있습니다.
 
    ```output
    {
@@ -254,13 +256,14 @@ In the above image, there is a geofence over part of the Microsoft campus. The r
    }
    ```
 
-   - `nearestLat` and `nearestLon` are the latitude and longitude of a point on the edge of the geofence that is closest to the location being tested.
+   - `nearestLat`와 `nearestLon` 는 Geofence의 가장자리에 있는 test 장소에서 가장 가까운 지점의 위도와 경도입니다.
 
    - `distance` is the distance from the location being tested to the closest point on the edge of the geofence. Negative numbers mean inside the geofence, positive outside. This value will be less than 50 (the default search buffer), or 999.
+   - `distance`는 test하는 위치에서 Geofence의 edge와 가장 가까이에 있는 지점까지의 거리입니다. 음수는 Geofence 안에 있음을 양수는 Geofence 밖에 있음을 의미합니다. 이 값으 기본 검색 버퍼 값인 50보다 작거나 999입니다.
 
-1. Repeat this multiple times with locations inside and outside the geofence.
+1. Geofence 내부 및 외부의 위치에서 위의 작업을 여러 번 반복합니다. 
 
-## Use geofences from serverless code
+## 서버리스 코드의 Geofence 사용
 
 You can now add a new trigger to your Functions app to test the IoT Hub GPS event data against the geofence.
 
