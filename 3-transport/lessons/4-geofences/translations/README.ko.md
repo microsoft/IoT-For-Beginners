@@ -23,7 +23,7 @@
 
 이번 강의에서는 다음을 다룹니다 :
 
-- [지오펜스(Geofence란](#지오펜스(Geofence란)
+- [지오펜스(Geofence)란](#지오펜스(Geofence)란)
 - [지오펜스(Geofence) 정의](#지오펜스(Geofence)-정의)
 - [Geofence에 대한 테스트 포인트](#Geofence에-대한-테스트-포인트)
 - [서버리스 코드의 Geofence 사용](#서버리스-코드의-Geofence-사용)
@@ -32,7 +32,7 @@
 >
 > 필요한 경우 [프로젝트 가이드 정리](../../../../clean-up.md) 를 참고하세요
 
-## 지오펜스(Geofence란
+## 지오펜스(Geofence)란
 
 A geofence is a virtual perimeter for a real-world geographic region. Geofences can be circles defined as a point and a radius (for example a circle 100m wide around a building), or a polygon covering an area such as a school zone, city limits, or university or office campus.
 
