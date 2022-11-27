@@ -10,195 +10,196 @@
 
 ## 도입
 
-The main process for getting food from a farmer to a consumer involves loading boxes of produce on to trucks, ships, airplanes, or other commercial transport vehicles, and delivering the food somewhere - either directly to a customer, or to a central hub or warehouse for processing. The whole end-to-end process from farm to consumer is part of a process called the *supply chain*. The video below from Arizona State University's W. P. Carey School of Business talks about the idea of the supply chain and how it is managed in more detail.
+농부로부터 소비자에게 음식을 전달하는 주요 과정은 트럭, 선박, 비행기 또는 기타 상업 운송 차량에 농산물 상자를 적재하고, 음식을 고객에게 직접 전달하거나 중앙 허브 또는 창고로 가공하는 것을 포함합니다. 농장에서 소비자에 이르는 전체 엔드 투 엔드 프로세스는 *supply-chain*이라는 프로세스의 일부입니다. 아래 영상은 애리조나 주립 대학의  W.P. Carey 경영대학원에서 공급망의 아이디어와 공급망이 어떻게 관리되는지에 대하여 더 자세히 설명하는 영상입니다.
 
 [![What is Supply Chain Management? A video from Arizona State University's W. P. Carey School of Business](https://img.youtube.com/vi/Mi1QBxVjZAw/0.jpg)](https://www.youtube.com/watch?v=Mi1QBxVjZAw)
 
-> 🎥 Click the image above to watch a video
+> 🎥 이미지를 클릭하여 영상을 시청하세요.
 
-Adding IoT devices can drastically improve your supply chain, allowing you to manage where items are, plan transport and goods handling better, and respond quicker to problems.
+IoT 장치를 추가하면 공급망을 획기적으로 개선하여 물품들이 있는 곳을 관리하고, 운송 및 물품 처리를 더 잘 계획하며 문제에 더 빨리 대응할 수 있습니다.
 
-When managing a fleet of vehicles such as trucks, it is helpful to know where each vehicle is at a given time. Vehicles can be fitted with GPS sensors that send their location to IoT systems, allowing the owners to pinpoint their location, see the route they have taken, and know when they will arrive at their destination. Most vehicles operate outside of WiFi coverage, so they use cellular networks to send this kind of data. Sometimes the GPS sensor is built into more complex IoT devices such as electronic log books. These devices track how long a truck has been in transit to ensure drivers are in compliance with local laws on working hours.
+트럭과 같은 일련의 차량을 관리할 때는 주어진 시간에 각 차량이 어디에 있는 지 아는 것이 도움이 됩니다. 차량에는 현재 차량의 위치를 IoT 시스템으로 전송하는 GPS 센서가 장착되어 있어 소유자가 위치를 정확히 파악하고, 선택한 경로를 확인하고, 목적지에 언제 도착할지 알 수 있습니다. 대부분의 차량은 WiFi 서비스 범위 밖에서 작동하므로 이러한 종류의 데이터를 전송하기 위해 셀룰러 네트워크를 사용합니다. 때때로 GPS 센서는 전자 로그 북과 같은 더 복잡한 IoT 장치에 내장됩니다. 이 장치들은 운전자들이 근무 시간에 관한 현지 법을 준수하기 위해 트럭이 운송된 기간 또한 추적합니다.
 
-In this lesson you will learn how to track a vehicles location using a Global Positioning System (GPS) sensor.
+이번 강의에서는 GPS(Global Positioning System)센서를 사용하여 차량 위치를 추적하는 방법을 배웁니다.
 
-In this lesson we'll cover:
+이번 강의에서 다룰 내용은 다음과 같습니다:
 
-* [Connected vehicles](#connected-vehicles)
-* [Geospatial coordinates](#geospatial-coordinates)
+* [차량과 연결](#차량과-연결)
+* [지리공간 좌표](#지리공간-좌표)
 * [Global Positioning Systems (GPS)](#global-positioning-systems-gps)
-* [Read GPS sensor data](#read-gps-sensor-data)
-* [NMEA GPS data](#nmea-gps-data)
-* [Decode GPS sensor data](#decode-gps-sensor-data)
+* [GPS 센서 데이터 읽기](#gps-센서-데이터-읽기)
+* [NMEA GPS 데이터](#nmea-gps-데이터)
+* [GPS 센서 데이터 디코딩](#gps-센서-데이터-디코딩)
 
-## Connected vehicles
+## 차량과 연결
 
-IoT is transforming the way goods are transported by creating fleets of *connected vehicles*. These vehicles are connected to central IT systems reporting information on their location, and other sensor data. Having a fleet of connected vehicles has a wide range of benefits:
+IoT는 *연결된 차량*의 함대를 만들어 상품 운송 방식을 변화시키고 있습니다. 이러한 차량은 중앙 IT 시스템에 연결되어 위치 정보 및 기타 센서 데이터를 보고합니다. 일련의 연결 차량을 보유하는 것은 다음과 같은 다양한 이점을 제공합니다.
 
-* Location tracking - you can pinpoint where a vehicle is at any time, allowing you to:
+* 위치 추적 - 언제든지 차량의 위치를 정확히 파악할 수 있으므로 다음과 같은 이점이 있습니다.
 
-  * Get alerts when a vehicle is about to arrive at a destination to prepare a crew for unloading
-  * Locate stolen vehicles
-  * Combine location and route data with traffic problems to allow you to re-route vehicles mid-journey
-  * Be compliant with tax. Some countries charge vehicles for the amount of mileage driven on public roads (such as [New Zealand's RUC](https://www.nzta.govt.nz/vehicles/licensing-rego/road-user-charges/)), so knowing when a vehicle is on public roads vs private roads makes it easier to calculate tax owed.
-  * Know where to send maintenance crews in the event of a breakdown
+  * 차량이 목적지에 도착하기 직전에 미리 알람을 받아 직원이 물픔을 내릴 준비를 할 수 있습니다.
+  * 도난 차량의 위치 파악이 가능합니다.
+  * 위치 및 경로 데이터를 교통 문제와 결합하여 운송 중간에 차량의 경로를 변경할 수 있습니다.
+  * 세금을 준수합니다. 일부 국가에서는 공공 도로에서 주행하는 차량에 주행 거리 만큼의 요금을 부과합니다. ([New Zealand's RUC](https://www.nzta.govt.nz/vehicles/licensing-rego/road-user-charges/)), 따라서 차량이 공공 도로에서 주행하는 시간과 개인 도로에서 주행하는 시간을 파악하면 세금을 더 쉽게 계산할 수 있습니다.
+  * 고장이 발생할 경우 유지보수 인력을 어디에 파견해야 하는지 파악할 수 있습니다.
 
-* Driver telemetry - being able to ensure drivers are adhering to speed limits, cornering at appropriate speeds, braking early and efficiently, and driving safely. Connected vehicles can also have cameras to record incidents. This can be linked to insurance, giving reduced rates for good drivers.
+* 운전자 원격 측정 - 운전자가 제한 속도를 준수하고 적절한 속도로 코너링하며 조기에 효율적으로 제동을 걸고 안전하게 주행할 수 있도록 보장합니다. 연결된 차향에는 사고를 기록하는 카메라가 있을 수도 있습니다. 이는 좋은 운전자들에게 할인된 요금을 주는 보험과 연결될 수 있습니다.
 
-* Driver hours compliance - ensuring drivers only drive for their legally allowed hours based on the times they turn the engine on and off.
+* 운전자 시간 준수 - 운전자가 엔진을 켜고 끄는 시간을 기준으로 확인하여 법적으로 허용된 시간 동안만 운전하도록 보장합니다.
 
-These benefits can be combined - for example, combining driver hours compliance with location tracking to re-route drivers if they cannot reach their destination within their allowed driving hours. These can also be combined with other vehicle-specific telemetry, such as temperature data from temperature-controlled trucks, allow vehicles to be re-routed if their current route would mean goods cannot be kept at temperature.
+이러한 이점들은 결합될 수 있습니다 - 예를 들어, 운전자가 허용된 운전 시간 내에 목적지에 도착할 수 없는 경우, 위치 추적과 결합하여 운전자를 재 경로화 할 수 있습니다. 이는 온도 제어 트럭의 온도 데이터는 현재 경로로 인해 차량이 온도 유지를 할 수 없는 경우 차량을 재 구매 할 수 있도록 합니다.
 
-> 🎓 Logistics is the process of transporting goods from one place to another, such as from a farm to a supermarket via one or more warehouses. A farmer packs boxes of tomatoes that are loaded onto a truck, delivered to a central warehouse, and put onto a second truck that may contain a mixture of different types of produce which are then delivered to a supermarket.
+> 🎓 물품 유통은 농장에서 슈퍼마켓으로 하나 이상의 창고를 통해 상품을 한 장소에서 다른 장소로 운송하는 과정입니다. 한 농부가 토마토 상자를 트럭에 싣고 중앙 창고로 배달한 다음, 슈퍼마켓으로 배달되는 트럭에는 농부의 토마토와 다른 종류의 농산물들이 혼합되어 있습니다..
 
-The core component of vehicle tracking is GPS - sensors that can pinpoint their location anywhere on Earth. In this lesson you will learn how to use a GPS sensor, starting with learning about how to define a location on Earth.
+차량 추적의 핵심 구성 요소는 GPS입니다. GPS는 지구상 어디에서나 위치를 정확히 파악할 수 있는 센서입니다. 이 강의에서는 GPS 센서를 사용하는 방법부터 시작하여 지구의 위치를 정의하는 방법에 대해 알아봅니다.
 
-## Geospatial coordinates
+## 지리공간 좌표
 
-Geospatial coordinates are used to define points on the Earth's surface, similar to how coordinates can be used to draw to a pixel on a computer screen or position stitches in cross stitch. For a single point, you have a pair of coordinates. For example, the Microsoft Campus in Redmond, Washington, USA is located at 47.6423109, -122.1390293.
+지리공간 좌표는 지구 표면의 점을 정의하는 데 사용되며, 컴퓨터 화면의 픽셀을 그리거나 십자 스티치로 꿰매는 데 좌표를 사용할 수 있는 방법과 유사합니다. 단일 점의 경우 좌표 쌍이 있습니다. 예를 들어, 미국 워싱턴주 레드몬드에 있는 마이크로소프트 캠퍼스는 47.6423109, -122.1390293에 위치해 있습니다.
 
-### Latitude and longitude
+### 위도와 경도
 
-The Earth is a sphere - a three-dimensional circle. Because of this, points are defined by dividing it into 360 degrees, the same as the geometry of circles. Latitude measures the number of degrees north to south, longitude measures the number of degrees east to west.
+지구는 3차원 원인 구입니다. 이 때문에 점은 원의 기하학적 구조와 마찬가지로 360도로 나누어 정의된다. 위도는 남북의 의치를 측정하고 경도는 동서의 위치를 측정한다.
 
-> 💁 No-one really knows the original reason why circles are divided into 360 degrees. The [degree (angle) page on Wikipedia](https://wikipedia.org/wiki/Degree_(angle)) covers some of the possible reasons.
+> 💁 아무도 원이 360도로 나뉘는 원래의 이유를 알지 못합니다. 위키피디아의 [degree (angle)](https://wikipedia.org/wiki/Degree_(angle))페이지에서 가능성 있는 몇가지 이유들을 다룹니다.
 
-![Lines of latitude from 90° at the North Pole, 45° halfway between the North Pole and the equator, 0° at the equator, -45° halfway between the equator and the South Pole, and -90° at the South Pole](../../../images/latitude-lines.png)
+![Lines of latitude from 90° at the North Pole, 45° halfway between the North Pole and the equator, 0° at the equator, -45° halfway between the equator and the South Pole, and -90° at the South Pole](../../../../images/latitude-lines.png)
 
-Latitude is measured using lines that circle the Earth and run parallel to the equator, dividing the Northern and Southern Hemispheres into 90° each. The equator is at 0°, the North Pole is 90°, also known as 90° North, and the South Pole is at -90°, or 90° South.
+위도는 북반구와 남반구를 각각 90°씩 나누며 지구를 돌고 적도와 평행하게 달리는 선을 이용해 측정합니다. 적도는 0도, 북극은 90도, 남극은 -90도, 남극은 -90도입니다.
 
-Longitude is measured as the number of degrees measured east and west. The 0° origin of longitude is called the *Prime Meridian*, and was defined in 1884 to be a line from the North to the South Pole that goes through the [British Royal Observatory in Greenwich, England](https://wikipedia.org/wiki/Royal_Observatory,_Greenwich).
+경도는 동서로 측정된 위치로 측정됩니다. 경도의 0°원점은 *원초 자오선*이라고 불리며, 1884년에 [영국 그리니치에 있는 영국 왕립 천문대](https://wikipedia.org/wiki/Royal_Observatory,_Greenwich))를 통과하는 북극에서 남극점까지의 선으로 정의되었습니다.
 
-![Lines of longitude that go from -180° to the west of the Prime Meridian, to 0° on the Prime Meridian, to 180° east of the Prime Meridian](../../../images/longitude-meridians.png)
+![Lines of longitude that go from -180° to the west of the Prime Meridian, to 0° on the Prime Meridian, to 180° east of the Prime Meridian](../../../../images/longitude-meridians.png)
 
-> 🎓 A meridian is an imaginary straight line that goes from the North Pole to the South Pole, forming a semicircle.
+> 🎓 자오선은 북극점에서 남극점까지 반원을 이루는 가상의 직선이다.
 
-To measure the longitude of a point, you measure the number of degrees round the equator from the Prime Meridian to a meridian that passes through that point. Longitude goes from -180°, or 180° West, through 0° at the Prime Meridian, to 180°, or 180° East. 180° and -180° refer to the same point, the antimeridian or 180th meridian. This is a meridian on the opposite side of the Earth from the Prime Meridian.
+점의 경도를 측정하려면 본초 자오선에서 해당 점을 통과하는 자오선까지의 적도 주위의 좌표를 측정합니다. 경도는 본초 자오선에서 서경 180도에서 동경 180도까지이다. 180°와 -180°는 같은 점, 즉 반경 또는 180도를 가리킵니다. 이것은 본초 자오선에서 지구 반대편에 있는 자오선이다.
 
-> 💁 The antimeridian is not to be confused with the International Date Line, which is in approximately the same position, but is not a straight line and varies to fit around geo-political boundaries.
+> 💁 반자오선은 국제일자선과 거의 같은 위치에 있는 것과 혼동해서는 안 됩니다. 그러나 국제일자선은 직선이 아니며 지정학적 경계에 맞게 다향합니다.
 
-✅ Do some research: Try to find the latitude and longitude of your current location.
+✅ 조사 해 봅시다 : 현재 위치의 위도와 경도를 찾으십시오.
 
-### Degrees, minutes and seconds vs decimal degrees
+### Degree, 분 및 초 VS 십진수 Degree
 
-Traditionally, measurements of degrees of latitude and longitude were done using sexagesimal numbering, or base-60, a numbering system used by the Ancient Babylonians who did the first measurements and recordings of time and distance. You use sexagesimal every day probably without even realising it - dividing hours into 60 minutes and minutes into 60 seconds.
+전통적으로 위도와 경도의 측정은 시간과 거리를 최초로 측정하고 기록한 고대 바빌로니아인들이 사용했던 숫자 체계인 Base-60을 사용하여 수행되었습니다. 여러분은 아마 시간을 60분으로, 분을 60초로 나누는 것을 깨닫지도 못한 채 매일 60진법을 사용할 것입니다.
 
-Longitude and latitude are measured in degrees, minutes and seconds, with one minute being 1/60 of a degree, and 1 second being 1/60 minute.
+경도와 위도는 Degree, 분, 초 단위로 측정되며 1분은 Degree의 1/60, 1초는 1/60분이다.
 
-For example, at the equator:
+예를 들어, 적도에서:
 
-* 1° of latitude is **111.3 kilometers**
-* 1 minute of latitude is 111.3/60 = **1.855 kilometers**
-* 1 second of latitude is 1.855/60 = **0.031 kilometers**
+* 위도 1°는 **111.3km**입니다.
+* 위도의 1분은 111.3/60 = **1.855km**
+* 위도의 1초는 1.855/60 = **0.031km**
 
-The symbol for a minute is a single quote, for a second it is a double quote. 2 degrees, 17 minutes, and 43 seconds for example, would be written as 2°17'43". Parts of seconds are given as decimals, for example half a second is 0°0'0.5".
+1분이라는 표현은 하나의 인용구이고, 1초라는 표현은 이중 인용구입니다. 예를 들어, 2도, 17분, 43초는 2°17'43"로 기록됩니다. 초의 일부는 소수로 주어지는데, 예를 들어 0.0초는 0°0'0.5"입니다.
 
-Computers don't work in base-60, so these coordinates are given as decimal degrees when using GPS data in most computer systems. For example, 2°17'43" is 2.295277. The degree symbol is usually omitted.
+컴퓨터는 Base-60에서 작동하지 않으므로 대부분의 컴퓨터 시스템에서 GPS 데이터를 사용할 때 이러한 좌표는 십진법으로 제공됩니다. 예를 들어, 2°17'43"은 2.295277입니다. Degree 기호는 일반적으로 생략됩니다.
 
-Coordinates for a point are always given as `latitude, longitude`, so the example earlier of the Microsoft Campus at 47.6423109,-122.117198 has:
+점에 대한 좌표는 항상 "위도, 경도"로 제공되므로 47.6423109,-122.117198의 이전 마이크로소프트 캠퍼스의 예는 다음과 같습니다.
 
-* A latitude of 47.6423109 (47.6423109 degrees north of the equator)
-* A longitude of -122.1390293 (122.1390293 degrees west of the Prime Meridian).
+* 위도 47.6423109(적도에서 북쪽으로 47.6423109도)
+* 경도 -122.1390293(원초 자오선에서 서쪽으로 122.1390293도)
 
-![The Microsoft Campus at 47.6423109,-122.117198](../../../images/microsoft-gps-location-world.png)
+![The Microsoft Campus at 47.6423109,-122.117198](../../../../images/microsoft-gps-location-world.png)
 
 ## Global Positioning Systems (GPS)
 
-GPS systems use multiple satellites orbiting the Earth to locate your position. You've probably used GPS systems without even knowing it - to find your location on a mapping app on your phone such as Apple Maps or Google Maps, or to see where your ride is in a ride hailing app such as Uber or Lyft, or when using satellite navigation (sat-nav) in your car.
+GPS 시스템은 사용자의 위치를 찾기 위해 지구 주위를 도는 여러 위성을 사용합니다. 여러분은 아마도 휴대폰의 지도 앱(예: Apple Maps 또는 Google Maps)에서 위치를 찾거나 Uber 또는 Lyft와 같은 놀이기구 호출 앱에서 또는 자동차에서 위성 내비게이션(sat-nav)을 사용할 때 위치를 확인하기 위해 GPS 시스템을 사용했을 것입니다.
 
-> 🎓 The satellites in 'satellite navigation' are GPS satellites!
+> 🎓 '위성항법'의 위성은 GPS 위성입니다!
 
-GPS systems work by having a number of satellites that send a signal with each satellites current position, and an accurate timestamp. These signals are sent over radio waves and are detected by an antenna in the GPS sensor. A GPS sensor will detect these signals, and using the current time measure how long it took for the signal to reach the sensor from the satellite. Because the speed of radio waves is constant, the GPS sensor can use the time stamp that was sent to work out how far away the sensor is from the satellite. By combining the data from at least 3 satellites with the positions sent, the GPS sensor is able to pinpoint its location on Earth.
+GPS 시스템은 각 위성의 현재 위치와 정확한 타임스탬프로 신호를 보내는 다수의 위성을 가지고 작동합니다. 이러한 신호는 전파를 통해 전송되며 GPS 센서의 안테나에 의해 감지됩니다. GPS 센서가 이러한 신호를 감지하고 현재 시간을 사용하여 신호가 위성에서 센서에 도달하는 데 걸린 시간을 측정합니다. 전파의 속도가 일정하기 때문에 GPS 센서는 전송된 타임스탬프를 사용하여 센서가 위성으로부터 얼마나 떨어져 있는지 알아낼 수 있습니다. 적어도 3개의 위성으로부터 온 데이터를 전송된 위치와 결합함으로써, GPS 센서는 지구상의 위치를 정확히 찾아낼 수 있다.
 
-> 💁 GPS sensors need antennas to detect radio waves. The antennas built into trucks and cars with on-board GPS are positioned to get a good signal, usually on the windshield or roof. If you are using a separate GPS system, such as a smartphone or an IoT device, then you need to ensure that the antenna built into the GPS system or phone has a clear view of the sky, such as being mounted on your windshield.
+> 💁 GPS 센서는 전파를 감지하기 위해 안테나가 필요합니다. 트럭과 자동차에 내장된 안테나는 일반적으로 앞유리나 지붕에 신호를 받을 수 있도록 배치되어 있습니다. 스마트폰이나 IoT 기기와 같은 별도의 GPS 시스템을 사용하는 경우, GPS 시스템이나 전화기에 내장된 안테나가 앞쪽에 장착되는 등 하늘을 바라 볼 수 있도록 해야 합니다.
 
-![By knowing the distance from the sensor to multiple satellites, the location be calculated](../../../images/gps-satellites.png)
+![By knowing the distance from the sensor to multiple satellites, the location be calculated](../../../../images/gps-satellites.png)
 
-GPS satellites are circling the Earth, not at a fixed point above the sensor, so location data includes altitude above sea level as well as latitude and longitude.
+GPS 위성은 센서 위 고정점이 아닌 지구를 돌고 있어 위치정보에는 위도와 경도 뿐만 아니라 해수면 이상 고도도 포함됩니다.
 
-GPS used to have limitations on accuracy enforced by the US military, limiting accuracy to around 5 meters. This limitation was removed in 2000, allowing an accuracy of 30 centimeters. Getting this accuracy is not always possible due to interference with the signals.
+과거 GPS는 미군이 시행하는 정확도에 한계가 있어, 정확도가 5m 안팎으로 제한되었습니다. 이 제한은 2000년에 사라지고 30cm의 정확도를 허용했습니다. 신호 간섭으로 인해 이 정확도를 얻는 것이 항상 가능한 것은 아닙니다.
 
-✅ If you have a smart phone, launch the mapping app and see how accurate your location is. It may take a short period of time for your phone to detect multiple satellites to get a more accurate location.
+✅ 스마트폰이 있으면 지도 앱을 실행하여 위치가 얼마나 정확한지 확인해보세요. 전화기가 더 정확한 위치를 얻기 위해 여러 위성을 감지하는 데 짧은 시간이 걸릴 수 있습니다.
 
-> 💁 The satellites contain atomic clocks that are incredibly accurate, but they drift by 38 microseconds (0.0000038 seconds) a day compared to atomic clocks on Earth, due to time slowing down as speed increases as predicted by Einstein's theories of special and general relativity - the satellites travel faster than the Earth's rotation. This drift has been used to prove the predictions of special and general relativity, and has to be adjusted for in the design of GPS systems. Literally time runs slower on a GPS satellite.
+> 💁 이 위성들은 믿을 수 없을 정도로 정확한 원자 시계를 포함하고 있지만, 그것들은 지구의 원자 시계에 비해 하루에 38마이크로초(0.0000038초)씩 표류하는데, 이는 아인슈타인의 특수 상대성 이론과 일반 상대성 이론에 의해 예측된 속도가 증가함에 따라 시간이 느려지기 때문입니다. - 위성들은 지구의 자전보다 더 빨리 이동합니다. 이 드리프트는 특수 상대성 이론과 일반 상대성 이론의 예측을 증명하는 데 사용되어 왔으며 GPS 시스템의 설계에서 조정되어야합니다. 문자 그대로 GPS 위성에서는 시간이 더 느리게 흐릅니다.
 
-GPS systems have been developed and deployed by a number of countries and political unions including the US, Russia, Japan, India, the EU, and China. Modern GPS sensor can connect to most of these systems to get faster and more accurate fixes.
+GPS 시스템은 미국, 러시아, 일본, 인도, 유럽연합, 중국을 포함한 많은 국가와 정치 연합에 의해 개발되고 배치되었습니다. 최신 GPS 센서는 이러한 시스템 대부분에 연결하여 더 빠르고 정확한 수정을 할 수 있습니다.
 
-> 🎓 The groups of satellites in each deployment are referred to as constellations.
+> 🎓 각 비군사적 사역에서의 위성그룹을 constellations라고 부릅니다.
+> 
+## GPS 센서 데이터 읽기
 
-## Read GPS sensor data
+대부분의 GPS 센서는 UART를 통해 GPS 데이터를 전송합니다.
 
-Most GPS sensors send GPS data over UART.
+> ⚠️ UART는[project 2, lesson 2](../../../../2-farm/lessons/2-detect-soil-moisture/README.md#universal-asynchronous-receiver-transmitter-uart)에서 다루었습니다. 필요한 경우 해당 강의를 참조하세요.
 
-> ⚠️ UART was covered in [project 2, lesson 2](../../../2-farm/lessons/2-detect-soil-moisture/README.md#universal-asynchronous-receiver-transmitter-uart). Refer back to that lesson if needed.
+IoT 장치의 GPS 센서를 사용하여 GPS 데이터를 가져올 수 있습니다.
 
-You can use a GPS sensor on your IoT device to get GPS data.
+### 작업 - GPS 센서를 연결하고 GPS 데이터를 읽어봅시다.
 
-### Task - connect a GPS sensor and read GPS data
+IoT 장치를 사용하여 GPS 데이터를 읽으려면 관련 가이드를 참조하십시오. :
 
-Work through the relevant guide to read GPS data using your IoT device:
+* [Arduino - Wio Terminal](../wio-terminal-gps-sensor.md)
+* [Single-board computer - Raspberry Pi](../pi-gps-sensor.md)
+* [Single-board computer - Virtual device](../virtual-device-gps-sensor.md)
 
-* [Arduino - Wio Terminal](wio-terminal-gps-sensor.md)
-* [Single-board computer - Raspberry Pi](pi-gps-sensor.md)
-* [Single-board computer - Virtual device](virtual-device-gps-sensor.md)
+## NMEA GPS 데이터
 
-## NMEA GPS data
+당신이 코드를 실행했을 때, 당신은 출력에서 횡설수설하는 것처럼 보일 수 있는 것을 보았을 것입니다. 이것은 사실 표준 GPS 데이터이고, 모두 의미가 있습니다.
 
-When you ran your code, you would have seen what might appear to be gibberish in the output. This is actually standard GPS data, and it all has meaning.
+GPS 센서는 NMEA 0183 표준을 사용하여 NMEA 메시지로 데이터를 출력합니다. NMEA는 해양 전자 간 통신 표준을 설정하는 미국의 무역 조직인 [National Marine Electronics Association](https://www.nmea.org)의 약자입니다.
 
-GPS sensors output data using NMEA messages, using the NMEA 0183 standard. NMEA is an acronym for the [National Marine Electronics Association](https://www.nmea.org), a US-based trade organization that sets standard for communication between marine electronics.
+> 💁 이 표준은 독점적이며 최소 미화 2,000 달러에 판매되지만, 이에 대한 충분한 정보는 대부분의 표준이 리버스 엔지니어링되었으며 오픈 소스 및 기타 비상업 코드에서 사용될 수 있습니다.
 
-> 💁 This standard is proprietary and sells for at least US$2,000, but enough information about it is in the public domain that most of the standard has been reverse engineered and can be used in open source and other non-commercial code.
+이 메시지는 텍스트 기반입니다. 각 메시지는 `$` 문자로 시작하는 *문장*으로 구성되며, 그 다음으로 메시지의 소스를 나타내는 2개의 문자(예: 미국 GPS 시스템의 경우 GP, 러시아 GPS 시스템의 경우 GN), 메시지 유형을 나타내는 3개의 문자로 구성됩니다. 메시지의 나머지 부분은 쉼표로 구분된 필드로, 새 줄 문자로 끝납니다.
 
-These messages are text-based. Each message consists of a *sentence* that starts with a `$` character, followed by 2 characters to indicate the source of the message (e.g GP for the US GPS system, GN for GLONASS, the Russian GPS system), and 3 characters to indicate the type of message. The rest of the message is fields separated by commas, ending in a new line character.
+수신할 수 있는 메시지 유형은 다음과 같습니다.:
 
-Some of the types of messages that can be received are:
-
-| Type | Description |
+| 유형 | 설명 |
 | ---- | ----------- |
-| GGA | GPS Fix Data, including the latitude, longitude, and altitude of the GPS sensor, along with the number of satellites in view to calculate this fix. |
-| ZDA | The current date and time, including the local time zone |
-| GSV | Details of the satellites in view - defined as the satellited that GPS sensor can detect signals from |
+| GGA | GPS 센서의 위도, 경도, 고도를 포함한 GPS 수정 데이터와 이 수정을 계산하기 위해 볼 수 있는 위성의 수. |
+| ZDA | 현지 시간대를 포함한 현재 날짜 및 시간 |
+| GSV | 보기에 있는 위성의 세부 정보 - GPS 센서가 신호를 감지할 수 있는 위성으로 정의됩니다. |
 
-> 💁 GPS data includes time stamps, so your IoT device can get the time if needed from a GPS sensor, rather than relying on an NTP server or internal real-time clock.
+> 💁 GPS 데이터에는 타임스탬프가 포함되어 있으므로 IoT 장치는 NTP 서버나 내부 실시간 시계에 의존하지 않고 GPS 센서에서 필요한 경우 시간을 얻을 수 있습니다.
 
-The GGA message includes the current location using the `(dd)dmm.mmmm` format, along with a single character to indicate direction. The `d` in the format is degrees, the `m` is minutes, with seconds as decimals of minutes. For example, 2°17'43" would be 217.716666667 - 2 degrees, 17.716666667 minutes.
+GGA 메시지는 방향을 나타내는 단일 문자와 함께 `(dd)dmm.mmm` 형식을 사용하는 현재 위치를 포함합니다. 형식의 `d`는 도, `m`은 분, 초는 분 단위입니다. 예를 들어, 2°17'43"은 217.7166667 - 2도, 17.7166667분입니다.
 
 The direction character can be `N` or `S` for latitude to indicate north or south, and `E` or `W` for longitude to indicate east or west. For example, a latitude of 2°17'43" would have a direction character of `N`, -2°17'43" would have a direction character of `S`.
+방향 문자는 북쪽이나 남쪽을 나타내는 위도의 경우 `N`이나 `S`, 동쪽이나 서쪽을 나타내는 경도의 경우 `E`나 `W`가 될 수 있습니다. 예를 들어, 2°17'43"의 위도는 `N`의 방향 문자를 가지며, -2°17'43"의 방향 문자는 `S`의 방향 문자를 갖는다.
 
-For example - the NMEA sentence `$GNGGA,020604.001,4738.538654,N,12208.341758,W,1,3,,164.7,M,-17.1,M,,*67`
+예시 NMEA 문장 `$GNGGA, 020604.001, 4738.538654, N, 12208.341758, W, 1,3,164.7, M, -17.1, M, *67`
 
-* The latitude part is `4738.538654,N`, which converts to 47.6423109 in decimal degrees. `4738.538654` is 47.6423109, and the direction is `N` (north), so it is a positive latitude.
+* 위도 부분은 `4738.538654,N`으로 소수점에서 47.6423109로 변환된다. `4738.538654`는 47.6423109, 방향은 `N`(북)이므로 양위도이다.
 
-* The longitude part is `12208.341758,W`, which converts to -122.1390293 in decimal degrees. `12208.341758` is 122.1390293°, and the direction is `W` (west), so it is a negative longitude.
+* 경도 부분은 -122.1390293(10진수)으로 환산한 `12208.341758,W`이다. `12208.341758`은 122.1390293°이고 방향은 `W`(서쪽)이므로 음경이다.
 
-## Decode GPS sensor data
+## GPS 센서 데이터 디코딩
 
-Rather than use the raw NMEA data, it is better to decode it into a more useful format. There are multiple open-source libraries you can use to help extract useful data from the raw NMEA messages.
+원시 NMEA 데이터를 사용하는 것보다 더 유용한 형식으로 디코딩하는 것이 좋습니다. 원시 NMEA 메시지에서 유용한 데이터를 추출하는 데 사용할 수 있는 여러 오픈 소스 라이브러리가 있습니다.
 
-### Task - decode GPS sensor data
+### 작업 - GPS 센서 데이터를 디코딩 해 봅시다
 
-Work through the relevant guide to decode GPS sensor data using your IoT device:
+IoT 장치를 사용하여 관련 가이드를 통해 GPS 센서 데이터를 디코딩합니다.:
 
-* [Arduino - Wio Terminal](wio-terminal-gps-decode.md)
-* [Single-board computer - Raspberry Pi/Virtual IoT device](single-board-computer-gps-decode.md)
+* [Arduino - Wio Terminal](../wio-terminal-gps-decode.md)
+* [Single-board computer - Raspberry Pi/Virtual IoT device](../single-board-computer-gps-decode.md)
 
 ---
 
-## 🚀 Challenge
+## 🚀 도전
 
-Write your own NMEA decoder! Rather than relying on third party libraries to decode NMEA sentences, can you write your own decoder to extract latitude and longitude from NMEA sentences?
+여러분만의 NMEA 디코더를 쓰세요! NMEA 문장을 해독하기 위해 타사 라이브러리에 의존하는 대신, 여러분은 NMEA 문장에서 위도와 경도를 추출하기 위해 여러분만의 디코더를 작성할 수 있을까요?
 
-## Post-lecture quiz
+## 가의 후 퀴즈
 
-[Post-lecture quiz](https://black-meadow-040d15503.1.azurestaticapps.net/quiz/22)
+[강의 후 퀴즈](https://black-meadow-040d15503.1.azurestaticapps.net/quiz/22)
 
-## Review & Self Study
+## 복습 및 독학
 
-* Read more on Geospatial Coordinates on the [Geographic coordinate system page on Wikipedia](https://wikipedia.org/wiki/Geographic_coordinate_system).
-* Read up on the Prime Meridians on other celestial bodies besides the Earth on the [Prime Meridian page on Wikipedia](https://wikipedia.org/wiki/Prime_meridian#Prime_meridian_on_other_planetary_bodies)
-* Research the various different GPS systems from various world governments and political unions such as the EU, Japan, Russia, India and the US.
+* 지리공간 좌표에 대한 자세한 내용은 [Wikipedia의 지리 좌표 시스템 페이지](https://wikipedia.org/wiki/Geographic_coordinate_system))를 참조하세요.
+* [위키피디아의 프라임 자오선 페이지](https://wikipedia.org/wiki/Prime_meridian#Prime_meridian_on_other_planetary_bodies)에서 지구 외 다른 천체의 프라임 자오선에 대해 자세히 읽어보세요.
+* EU, 일본, 러시아, 인도 및 미국과 같은 다양한 세계 정부 및 정치 연합의 다양한 GPS 시스템을 찾아보세요.
 
-## Assignment
+## 과제
 
-[Investigate other GPS data](assignment.md)
+[다른 GPS 데이터 조사](../assignment.md)
