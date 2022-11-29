@@ -4,11 +4,7 @@
 
 ## 하드웨어
 
-The Raspberry Pi needs a button to control the audio capture.
-
 Raspberry Pi는 오디오 캡처를 조절하는 버튼을 필요로 합니다.
-
-The button you will use is a Grove button. This is a digital sensor that turns a signal on or off. These buttons can be configured to send a high signal when the button is pressed, and low when it is not, or low when pressed and high when not.
 
 사용할 버튼은 Grove 버튼입니다. 이것은 신호를 켜고 끄는 디지털 센서입니다. 버튼이 눌리면 높은 값의 신호를 보내고 누르지 않으면 낮은 값의 신호를 보내도록 구성됩니다. 또는 눌렀을 때 낮은 값, 누르지 않았을 때 높은 값으로도 구성할 수 있습니다.
 
