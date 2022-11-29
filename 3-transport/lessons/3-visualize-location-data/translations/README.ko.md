@@ -8,7 +8,7 @@
 
 [![Azure Maps - The Microsoft Azure Enterprise Location Platform](https://img.youtube.com/vi/P5i2GFTtb2s/0.jpg)](https://www.youtube.com/watch?v=P5i2GFTtb2s)
 
-> 🎥 위 이미지를 클릭하시면 영상을 보실 수 있습니다.
+> 🎥 위 이미지를 클릭하면 영상을 볼 수 있습니다.
 
 ## 강의 전 퀴즈
 
@@ -94,7 +94,7 @@ Azure Maps는 "새로운 매핑 데이터를 사용하여 웹 및 모바일 애�
 
 [REST API](https://docs.microsoft.com/javascript/api/azure-maps-rest/?WT.mc_id=academic-17441-jabenn&view=azure-maps-typescript-latest), [Web SDK](https://docs.microsoft.com/azure/azure-maps/how-to-use-map-control?WT.mc_id=academic-17441-jabenn), 모바일 어플리케이션을 만드는 경우, [Android SDK](https://docs.microsoft.com/azure/azure-maps/how-to-use-android-map-control-library?WT.mc_id=academic-17441-jabenn&pivots=programming-language-java-android)를 활용하여 Azure Maps API에 접근할 수 있습니다.
 
-이 수업에서는 웹 SDK를 사용하여 지도를 그리고 센서의 GPS 위치 경로를 표시합니다.
+이 수업에서는 웹 SDK를 사용하여 지도와 센서의 GPS 위치 경로를 표시합니다.
 
 ## Azure Maps 리소스 만들기
 
@@ -123,7 +123,7 @@ Azure Maps는 "새로운 매핑 데이터를 사용하여 웹 및 모바일 애�
                              --output table
    ```
 
-   Take a copy of the `PrimaryKey` value.
+`PrimaryKey` 값을 복사해 놓으십시오.
 
 ## 웹 페이지에 지도 표시
 
