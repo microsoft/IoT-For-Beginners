@@ -34,22 +34,21 @@
 
 ## 지오펜스(Geofence)란
 
-A geofence is a virtual perimeter for a real-world geographic region. Geofences can be circles defined as a point and a radius (for example a circle 100m wide around a building), or a polygon covering an area such as a school zone, city limits, or university or office campus.
+지오펜스는 실제 지리적 가상 경계입니다. 지오펜스는 점과 반경으로 정의된 원(예를 들어 건물 주변 100m 너비의 원) 또는 스쿨 존, 도시 경계, 대학 또는 사무실 캠퍼스와 같은 영역을 덮는 다각형으로 정의될 수 있습니다
 
-![Some geofence examples showing a circular geofence around the Microsoft company store, and a polygon geofence around the Microsoft west campus](../../../images/geofence-examples.png)
+![Some geofence examples showing a circular geofence around the Microsoft company store, and a polygon geofence around the Microsoft west campus](../../../../images/geofence-examples.png)
 
-> 💁 You may have already used geofences without knowing. If you've set a reminder using the iOS reminders app or Google Keep based off a location, you have used a geofence. These apps will set up a geofence based off the location given and alert you when your phone enters the geofence.
+> 💁 여러분은 이미 모르는 사이에 지오펜스를 사용했을 수도 있습니다. iOS 알림 앱 또는 위치 기반 Google Keep을 사용하여 알림을 설정한 경우 지오펜스를 사용한 것입니다. 이 앱들은 주어진 위치를 기반으로 지오펜스를 설정하고 당신의 휴대전화가 지오펜스에 들어가면 당신에게 알려줍니다.
 
-There are many reasons why you would want to know that a vehicle is inside or outside a geofence:
+차량이 지오펜스 범위 내에 있는지 확인하려는 이유는 다음과 같습니다. :
+- 하역 준비 - 차량이 현장에 도착했다는 알림을 받으면 직원이 차량에서 물품을 내릴 준비를 할 수 있어 차량 대기 시간을 줄일 수 있습니다. 이를 통해 운전자가 더 적은 대기 시간으로 하루에 더 많은 배달을 할 수 있도록 합니다.
+- 세금 준수 - 뉴질랜드와 같은 일부 국가에서는 공공 도로에서만 주행할 때 차량 중량을 기준으로 디젤 차량에 대해 도로세를 부과합니다. 지오펜스를 사용하면 농장이나 벌목장과 같은 부지의 개인 도로와 달리 공공 도로에서 주행하는 주행 거리를 추적할 수 있습니다.
+- 도난 모니터링 - 차량이 농장과 같은 특정 지역에만 머물러야 하고 지오펜스를 벗어나면 도난의 가능성이 있습니다.
+- 위치 준수 - 작업 현장, 농장 또는 공장의 일부는 특정 차량에 출입이 금지될 수 있습니다. 예를 들어, 인공 비료 및 살충제를 운반하는 차량이 유기농 농산물을 재배하는 밭에서 멀리 떨어져 있도록 하는 것입니다. 지오펜스를 입력하면 차량이 규정을 준수하지 않는 상태일 경우 운전자에게 이 사실을 알릴 수 있습니다.
 
-- Preparation for unloading - getting a notification that a vehicle has arrived on-site allows a crew to be prepared to unload the vehicle, reducing vehicle waiting time. This can allow a driver to make more deliveries in a day with less waiting time.
-- Tax compliance - some countries, such as New Zealand, charge road taxes for diesel vehicles based on the vehicle weight when driving on public roads only. Using geofences allows you to track the mileage driven on public roads as opposed to private roads on sites such as farms or logging areas.
-- Monitoring theft - if a vehicle should only remain in a certain area such as on a farm, and it leaves the geofence, it might have been stolen.
-- Location compliance - some parts of a work site, farm or factory may be off-limits to certain vehicles, such as keeping vehicles that carry artificial fertilizers and pesticides away from fields growing organic produce. If a geofence is entered, then a vehicle is outside of compliance and the driver can be notified.
+✅ 지오펜스의 다른 용도를 생각할 수 있나요?
 
-✅ Can you think of other uses for geofences?
-
-Azure Maps, the service you used in the last lesson to visualize GPS data, allows you to define geofences, then test to see if a point is inside or outside of the geofence.
+지난 강의에서 GPS 데이터를 시각화하기 위해 사용한 Azure Maps를 사용하면 지오펜스를 정의한 후에 해당 사물의 위치를 나타내는 점이 지오펜스 내부에 있는지 또는 외부에 있는지 테스트할 수 있습니다.
 
 ## 지오펜스(Geofence) 정의
 
