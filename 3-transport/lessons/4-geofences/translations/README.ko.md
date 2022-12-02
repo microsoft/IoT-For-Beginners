@@ -263,47 +263,47 @@ Geofence의 가장자리까지의 거리를 알고, 차량 위치를 기반으�
 
 ## 서버리스 코드의 Geofence 사용
 
-You can now add a new trigger to your Functions app to test the IoT Hub GPS event data against the geofence.
+이제 기능 앱에 새 트리거를 추가하여 지오펜스에 대해 IoT 허브 GPS 이벤트 데이터를 테스트할 수 있습니다.
 
-### Consumer groups
+### 소비자 그룹
 
-As you will remember from previous lessons, the IoT Hub will allow you to replay events that have been received by the hub but not processed. But what would happen if multiple triggers connected? How will it know which one has processed which events.
+이전 강의에서 배운 것처럼 IoT 허브는 수신했지만 처리되지 않은 이벤트를 재생할 수 있게 합니다. 하지만 여러 트리거가 연결되면 어떤 일이 일어날까요? 어떤 동작이 어떤 이벤트를 처리했는지 어떻게 알 수 있을까요?
 
-The answer is it can't! Instead you can define multiple separate connections to read off events, and each one can manage the replay of unread messages. These are called _consumer groups_. When you connect to the endpoint, you can specify which consumer group you want to connect to. Each component of your application will connect to a different consumer group
+알 수 없습니다! 대신 여러 개의 개별 연결을 정의하여 이벤트를 읽을 수 있으며, 각 연결은 읽지 않은 메시지의 재생을 관리할 수 있습니다. 이들을 '소비자 그룹'이라고 합니다. end point에 연결할 때 연결할 소비자 그룹을 지정할 수 있습니다. 애플리케이션의 각 구성 요소가 다른 소비자 그룹에 연결됩니다.
 
-![One IoT Hub with 3 consumer groups distributing the same messages to 3 different functions apps](../../../images/consumer-groups.png)
+![One IoT Hub with 3 consumer groups distributing the same messages to 3 different functions apps](../../../../images/consumer-groups.png)
 
-In theory up to 5 applications can connect to each consumer group, and they will all receive messages when they arrive. It's best practice to have only one application access each consumer group to avoid duplicate message processing, and ensure when restarting all queued messages are processed correctly. For example, if you launched your Functions app locally as well as running it in the cloud, they would both process messages, leading to duplicate blobs stored in the storage account.
+이론적으로 각 소비자 그룹에 최대 5개의 애플리케이션을 연결할 수 있으며, 애플리케이션이 도착하면 모두 메시지를 수신합니다. 중복된 메시지 처리를 방지하고 대기 중인 모든 메시지를 다시 시작할 때 올바르게 처리하려면 각 소비자 그룹에 하나의 응용 프로그램만 액세스하는 것이 좋습니다. 예를 들어, Functions 앱을 로컬에서 실행하고 동시에 클라우드에서 실행하는 경우 두 앱 모두 메시지를 처리하여 스토리지 계정에 중복된 블롭이 저장됩니다.
 
-If you review the `function.json` file for the IoT Hub trigger you created in an earlier lesson, you will see the consumer group in the event hub trigger binding section:
+이전 레슨에서 만든 IoT 허브 트리거에 대한 `function.json` 파일을 검토하면 이벤트 허브 트리거 바인딩 섹션에 다음과 같은 소비자 그룹이 표시됩니다.
 
 ```json
 "consumerGroup": "$Default"
 ```
 
-When you create an IoT Hub, you get the `$Default` consumer group created by default. If you want to add an additional trigger, you can add this using a new consumer group.
+IoT 허브를 만들면 기본적으로 `$Default` 소비자 그룹이 생성됩니다. 트리거를 추가하려면 새 소비자 그룹을 사용하여 트리거를 추가할 수 있습니다.
 
-> 💁 In this lesson, you will use a different function to test the geofence to the one used to store the GPS data. This is to show how to use consumer groups and separate the code to make it easier to read and understand. In a production application there are many ways you might architect this - putting both on one function, using a trigger on the storage account to run a function to check the geofence, or using multiple functions. There is no 'right way', it depends on the rest of your application and your needs.
+> 💁 이 과정에서는 다른 기능을 사용하여 GPS 데이터를 저장하는 데 사용된 지오펜스를 테스트합니다. 이것은 소비자 그룹을 사용하는 방법을 보여주고 코드를 분리하여 읽고 이해하기 쉽게 하는 것을 목적으로합니다. 프로덕션 애플리케이션에서는 한 기능에 모두 적용하거나, 스토리지 계정에 트리거를 사용하여 지오펜스를 확인하는 기능을 실행하거나, 여러 기능을 사용하여 이러한 기능을 설계할 수 있습니다. 올바른 방법은 없습니다. 나머지 애플리케이션과 필요에 따라 다릅니다.
 
-### Task - create a new consumer group
+### 작업 - 새 소비자 그룹 만들기
 
-1. Run the following command to create a new consumer group called `geofence` for your IoT Hub:
+1. 다음 명령을 실행하여 IoT 허브에 사용할 `geofence`라는 새 소비자 그룹을 만듭니다.
 
    ```sh
    az iot hub consumer-group create --name geofence \
                                     --hub-name <hub_name>
    ```
 
-   Replace `<hub_name>` with the name you used for your IoT Hub.
+   `<hub_name>`을 IoT 허브에 사용한 이름으로 바꿉니다.
 
-1. If you want to see all the consumer groups for an IoT Hub, run the following command:
+1. IoT 허브의 모든 소비자 그룹을 보려면 다음 명령을 실행하십시오.
 
    ```sh
    az iot hub consumer-group list --output table \
                                   --hub-name <hub_name>
    ```
 
-   Replace `<hub_name>` with the name you used for your IoT Hub. This will list all the consumer groups.
+  `<hub_name>`을 IoT 허브에 사용한 이름으로 바꿉니다. 모든 소비자 그룹이 나열됩니다.
 
    ```output
    Name      ResourceGroup
@@ -312,53 +312,53 @@ When you create an IoT Hub, you get the `$Default` consumer group created by def
    geofence  gps-sensor
    ```
 
-> 💁 When you ran the IoT Hub event monitor in an earlier lesson, it connected to the `$Default` consumer group. This was why you can't run the event monitor and an event trigger. If you want to run both, then you can use other consumer groups for all your function apps, and keep `$Default` for the event monitor.
+> 💁 이전 강의에서 IoT Hub 이벤트 모니터를 실행하면 `$Default` 소비자 그룹에 연결되었습니다. 이 때문에 이벤트 모니터와 이벤트 트리거를 실행할 수 없었습니다. 두 가지를 모두 실행하려면 모든 기능 앱에 대해 개별적인 소비자 그룹을 사용하고, 이벤트 모니터에 대해 `$Default`를 유지해야합니다.
 
-### Task - create a new IoT Hub trigger
+### 작업 - 새 IoT 허브 트리거 생성
 
-1. Add a new IoT Hub event trigger to your `gps-trigger` function app that you created in an earlier lesson. Call this function `geofence-trigger`.
+1. 이전 강의에서 만든 `gps-trigger` 기능 앱에 새로운 IoT 허브 이벤트 트리거를 추가합니다. 이 함수를 지오펜스 트리거라고 합니다.
 
-   > ⚠️ You can refer to [the instructions for creating an IoT Hub event trigger from project 2, lesson 5 if needed](../../../2-farm/lessons/5-migrate-application-to-the-cloud/README.md#create-an-iot-hub-event-trigger).
+   > ⚠️ 필요한 경우 [project 2, lesson 5 IoT 허브 이벤트 트리거를 생성하기 위한 지침](../../../2-farm/lessons/5-migrate-application-to-the-cloud/README.md#create-an-iot-hub-event-trigger)에서 참고할 수 있습니다..
 
-1. Configure the IoT Hub connection string in the `function.json` file. The `local.settings.json` is shared between all triggers in the Function App.
+1. `function.json` 파일에서 IoT Hub 연결 문자열을 구성합니다. `local.settings.json`은 기능 앱의 모든 트리거에 공유됩니다.
 
-1. Update the value of the `consumerGroup` in the `function.json` file to reference the new `geofence` consumer group:
+1. `function.json` 파일의 `consumerGroup` 값을 업데이트하여 새로운 `geofence` 소비자 그룹을 참조하십시오.
 
    ```json
    "consumerGroup": "geofence"
    ```
 
-1. You will need to use the subscription key for your Azure Maps account in this trigger, so add a new entry to the `local.settings.json` file called `MAPS_KEY`.
+1. 이 트리거에서 AzureMaps 계정에 대한 구독 키를 사용해야 하므로 `local.settings.json` 파일에 `MAPS_KEY`인 파일을 추가하십시오.
 
-1. Run the Functions App to ensure it is connecting and processing messages. The `iot-hub-trigger` from the earlier lesson will also run and upload blobs to storage.
+1. Functions App을 실행하여 메시지를 연결하고 처리하는지 확인합니다. 또한 이전 수업의 `iot-hub-trigger`도 실행되어 blob을 스토리지에 업로드합니다.
 
-   > To avoid duplicate GPS readings in blob storage, you can stop the Functions App you have running in the cloud. To do this, use the following command:
+   > 다음 명령어를 통해 BLOB 저장소에서 GPS 판독값이 중복되지 않도록 클라우드에서 실행 중인 Functions App을 중지할 수 있습니다. :
    >
    > ```sh
    > az functionapp stop --resource-group gps-sensor \
    >                     --name <functions_app_name>
    > ```
    >
-   > Replace `<functions_app_name>` with the name you used for your Functions App.
+   > `<functions_app_name>`을 Functions App에 사용한 이름으로 바꿉니다.
    >
-   > You can restart it later with the following command:
+   > 나중에 다음 명령을 사용하여 재시작할 수 있습니다.
    >
    > ```sh
    > az functionapp start --resource-group gps-sensor \
    >                     --name <functions_app_name>
    > ```
    >
-   > Replace `<functions_app_name>` with the name you used for your Functions App.
+   > `<functions_app_name>`을 Functions App에 사용한 이름으로 바꿉니다.
 
-### Task - test the geofence from the trigger
+### 작업 - 트리거에서 지오펜스를 테스트합니다.
 
-Earlier in this lesson you used curl to query a geofence to see if a point was located inside or outside. You can make a similar web request from inside your trigger.
+이 강의 초반에 당신은 위치를 나타내는 점이 안에 있는지 밖에 있는지 확인하기 위한 지오펜스를 쿼리하기 위해 컬을 사용했습니다. 트리거 내부에서 유사한 웹 요청을 만들 수 있습니다.
 
-1. To query the geofence, you need its UDID. Add a new entry to the `local.settings.json` file called `GEOFENCE_UDID` with this value.
+1. 지오펜스를 쿼리하려면 지오펜스의 UDID가 필요합니다. `local.settings.json` 파일에 `GEOFENCE_UDID` 값을 추가합니다.
 
-1. Open the `__init__.py` file from the new `geofence-trigger` trigger.
+1. 새 `geofence-trigger` 트리거에서 `__init_.py` 파일을 엽니다.
 
-1. Add the following import to the top of the file:
+1. 파일 맨 위에 다음 가져오기를 추가합니다.
 
    ```python
    import json
@@ -366,16 +366,16 @@ Earlier in this lesson you used curl to query a geofence to see if a point was l
    import requests
    ```
 
-   The `requests` package allows you to make web API calls. Azure Maps doesn't have a Python SDK, you need to make web API calls to use it from Python code.
+   `request` 패키지를 사용하면 웹 API 호출을 할 수 있습니다. Azure Map에는 파이썬 SDK가 없으므로 파이썬 코드에서 사용하려면 웹 API 호출을 해야 합니다.
 
-1. Add the following 2 lines to the start of the `main` method to get the Maps subscription key:
+1. `main` 메서드의 시작 부분에 다음 두 줄을 추가하여 지도 구독 키를 가져옵니다.
 
    ```python
    maps_key = os.environ['MAPS_KEY']
    geofence_udid = os.environ['GEOFENCE_UDID']
    ```
 
-1. Inside the `for event in events` loop, add the following to get the latitude and longitude from each event:
+1. `for events in events` 루프 안에 다음을 추가하여 각 이벤트의 위도와 경도를 얻습니다.
 
    ```python
    event_body = json.loads(event.get_body().decode('utf-8'))
@@ -383,9 +383,9 @@ Earlier in this lesson you used curl to query a geofence to see if a point was l
    lon = event_body['gps']['lon']
    ```
 
-   This code converts the JSON from the event body to a dictionary, then extracts the `lat` and `lon` from the `gps` field.
+  이 코드는 JSON을 이벤트 본문에서 사전으로 변환한 다음 `gps` 필드에서 `lat`와 `lon`을 추출한다.
 
-1. When using `requests`, rather than building up a long URL as you did with curl, you can use just the URL part and pass the parameters as a dictionary. Add the following code to define the URL to call and configure the parameters:
+1. `request`를 사용할 때는 컬을 사용하는 것처럼 긴 URL을 작성하는 것이 아니라 URL 부분만 사용하여 파라미터를 사전으로 전달할 수 있습니다. 다음 코드를 추가하여 호출할 URL을 정의하고 매개 변수를 구성합니다.
 
    ```python
    url = 'https://atlas.microsoft.com/spatial/geofence/json'
@@ -400,18 +400,18 @@ Earlier in this lesson you used curl to query a geofence to see if a point was l
    }
    ```
 
-   The items in the `params` dictionary will match the key value pairs you used when calling the web API via curl.
+   `params` 사전의 항목은 컬을 통해 웹 API를 호출할 때 사용한 키 값 쌍과 일치합니다.
 
-1. Add the following lines of code to call the web API:
+1. 다음 코드 행을 추가하여 웹 API를 호출합니다.
 
    ```python
    response = requests.get(url, params=params)
    response_body = json.loads(response.text)
    ```
 
-   This calls the URL with the parameters, and gets back a response object.
+   매개 변수가 있는 URL을 호출하고 응답 개체를 반환합니다.
 
-1. Add the following code below this:
+1. 아래에 다음 코드를 추가합니다.
 
    ```python
    distance = response_body['geometries'][0]['distance']
@@ -426,36 +426,36 @@ Earlier in this lesson you used curl to query a geofence to see if a point was l
        logging.info(f'Point is just inside geofence by a distance of {distance}m')
    ```
 
-   This code assumes 1 geometry, and extracts the distance from that single geometry. It then logs different messages based off the distance.
+   이 코드는 1개의 지오메트리를 가정하고 해당 단일 지오메트리에서 거리를 추출합니다. 그런 다음 거리를 기준으로 다양한 메시지를 기록합니다.
 
-1. Run this code. You will see in the logging output if the GPS coordinates are inside or outside the geofence, with a distance if the point is within 50m. Try this code with different geofences based off the location of your GPS sensor, try moving the sensor (for example tethered to WiFi from a mobile phone, or with different coordinates on the virtual IoT device) to see this change.
+1. 이 코드를 실행하십시오. GPS 좌표가 지오펜스 범위 안에 있는지, 점이 50m 이내에 있는지에 대한 여부가 로깅 출력에 표시됩니다. GPS 센서의 위치를 기반으로 다른 지오펜스를 사용하여 이 코드를 시도하고, 휴대폰에서 WiFi에 연결되거나 가상 IoT 장치에서 다른 좌표를 사용하여 센서를 움직여 보세요.
 
-1. When you are ready, deploy this code to your Functions app in the cloud. Don't forget to deploy the new Application Settings.
+1. 준비가 되었으면 이 코드를 클라우드의 Functions 앱에 배포하십시오. 새 응용 프로그램 설정을 배포하는 것을 잊지 마십시오.
 
-   > ⚠️ You can refer to [the instructions for uploading Application Settings from project 2, lesson 5 if needed](../../../2-farm/lessons/5-migrate-application-to-the-cloud/README.md#task---upload-your-application-settings).
+   > ⚠️ 필요한 경우 [project 2, lesson 5 의 응용 프로그램 설정 업로드 지침](../../../2-farm/lessons/5-migrate-application-to-the-cloud/README.md#task---upload-your-application-settings)을 참고하십시오.
 
-   > ⚠️ You can refer to [the instructions for deploying your Functions app from project 2, lesson 5 if needed](../../../2-farm/lessons/5-migrate-application-to-the-cloud/README.md#task---deploy-your-functions-app-to-the-cloud).
+   > ⚠️ 필요한 경우 [project 2, lesson 5 Functions 앱을 배포하기 위한 지침](../../../2-farm/lessons/5-migrate-application-to-the-cloud/README.md#task---deploy-your-functions-app-to-the-cloud)을 참고하십시오.
 
-> 💁 You can find this code in the [code/functions](code/functions) folder.
+> 💁 [code/functions](code/functions)폴더에서 코드를 확인할 수 있습니다.
 
 ---
 
-## 🚀 Challenge
+## 🚀 도전
 
-In this lesson you added one geofence using a GeoJSON file with a single polygon. You can upload multiple polygons at the same time, as long as they have different `geometryId` values in the `properties` section.
+이 과정에서는 단일 polygon이 있는 GeoJSON 파일을 사용하여 지오펜스 하나를 추가했습니다. `properties` 섹션의 `geometryId` 값이 서로 다른 경우 여러 polygon을 동시에 업로드할 수 있습니다.
 
-Try uploading a GeoJSON file with multiple polygons and adjust your code to find which polygon the GPS coordinates are closest to or in.
+여러 polygon이 있는 GeoJSON 파일을 업로드하고 코드를 조정하여 GPS 좌표가 가장 가까운 폴리곤을 찾습니다.
 
-## Post-lecture quiz
+## 강의 후 퀴즈
 
-[Post-lecture quiz](https://black-meadow-040d15503.1.azurestaticapps.net/quiz/28)
+[강의 후 퀴즈](https://black-meadow-040d15503.1.azurestaticapps.net/quiz/28)
 
-## Review & Self Study
+## 복습 및 독학
 
-- Read more on geofences and some of their use cases on the [Geofencing page on Wikipedia](https://en.wikipedia.org/wiki/Geo-fence).
-- Read more on Azure Maps geofencing API on the [Microsoft Azure Maps Spatial - Get Geofence documentation](https://docs.microsoft.com/rest/api/maps/spatial/getgeofence?WT.mc_id=academic-17441-jabenn).
-- Read more on consumer groups in the [Features and terminology in Azure Event Hubs - Event consumers documentation on Microsoft docs](https://docs.microsoft.com/azure/event-hubs/event-hubs-features?WT.mc_id=academic-17441-jabenn#event-consumers)
+- [Geofencing page on Wikipedia](https://en.wikipedia.org/wiki/Geo-fence)에서 지오펜스와 그 사용 사례에 대한 자세한 내용을 읽어보십시오.
+- [Microsoft Azure Maps Spatial - Get Geofence documentation](https://docs.microsoft.com/rest/api/maps/spatial/getgeofence?WT.mc_id=academic-17441-jabenn)에서 Azure Maps 지오펜싱 API에 대한 자세한 내용을 참조하십시오.
+- [Features and terminology in Azure Event Hubs - Event consumers documentation on Microsoft docs](https://docs.microsoft.com/azure/event-hubs/event-hubs-features?WT.mc_id=academic-17441-jabenn#event-consumers)에서 소비자 그룹에 대한 자세한 내용을 참조하십시오.
 
-## Assignment
+## 과제
 
-[Send notifications using Twilio](assignment.md)
+[Twilio를 사용하여 알림 보내기](../assignment.md)
