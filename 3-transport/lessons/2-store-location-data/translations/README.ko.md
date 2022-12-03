@@ -382,7 +382,7 @@ Queue 스토리지를 사용하면 최대 64KB 크기의 메시지를 큐에 저
 
       `key1`의 값을 복사합니다.
 
-   1. 다음 명령어를 실행하여 컨테이너읭 Blob을 나열합니다.
+   1. 다음 명령어를 실행하여 컨테이너의 Blob을 나열합니다.
 
       ```sh
       az storage blob list --container-name gps-data \
@@ -414,10 +414,7 @@ Queue 스토리지를 사용하면 최대 64KB 크기의 메시지를 큐에 저
                                --file <file_name>
       ```
 
-      Replace `<storage_name>` with the name of the storage account, and `<key1>` with the value of `key1` you copied in the earlier step.
       `<storage_name>`를 스토리지 계정의 이름으로 바꿉니다. `<key1>` 값을 이전 단계에서 복사한 `<key1>` 값으로 바꿉니다.
-
-      Replace `<blob_name>` with the full name from the `Name` column of the output of the last step, including the folder name. Replace `<file_name>` with the name of a local file to save the blob to.
 
       폴더 이름을 포함하여 마지막 단계 출력의 `Name` 열에 있는 전체 이름으로 `<blob_name>`을 바꿉니다. `<file_name>`을 blob을 저장할 로컬 파일의 이름으로 바꿉니다.
 
