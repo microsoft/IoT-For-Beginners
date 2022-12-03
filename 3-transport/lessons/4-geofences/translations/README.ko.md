@@ -318,7 +318,7 @@ IoT 허브를 만들면 기본적으로 `$Default` 소비자 그룹이 생성됩
 
 1. 이전 강의에서 만든 `gps-trigger` 기능 앱에 새로운 IoT 허브 이벤트 트리거를 추가합니다. 이 함수를 지오펜스 트리거라고 합니다.
 
-   > ⚠️ 필요한 경우 [project 2, lesson 5 IoT 허브 이벤트 트리거를 생성하기 위한 지침](../../../2-farm/lessons/5-migrate-application-to-the-cloud/README.md#create-an-iot-hub-event-trigger)에서 참고할 수 있습니다..
+   > ⚠️ 필요한 경우 [project 2, lesson 5 IoT 허브 이벤트 트리거를 생성하기 위한 지침](../../../../2-farm/lessons/5-migrate-application-to-the-cloud/README.md#create-an-iot-hub-event-trigger)에서 참고할 수 있습니다.
 
 1. `function.json` 파일에서 IoT Hub 연결 문자열을 구성합니다. `local.settings.json`은 기능 앱의 모든 트리거에 공유됩니다.
 
@@ -383,7 +383,7 @@ IoT 허브를 만들면 기본적으로 `$Default` 소비자 그룹이 생성됩
    lon = event_body['gps']['lon']
    ```
 
-  이 코드는 JSON을 이벤트 본문에서 사전으로 변환한 다음 `gps` 필드에서 `lat`와 `lon`을 추출한다.
+  이 코드는 JSON을 이벤트 본문에서 사전으로 변환한 다음 `gps` 필드에서 `lat`와 `lon`을 추출합니다.
 
 1. `request`를 사용할 때는 컬을 사용하는 것처럼 긴 URL을 작성하는 것이 아니라 URL 부분만 사용하여 파라미터를 사전으로 전달할 수 있습니다. 다음 코드를 추가하여 호출할 URL을 정의하고 매개 변수를 구성합니다.
 
@@ -432,11 +432,11 @@ IoT 허브를 만들면 기본적으로 `$Default` 소비자 그룹이 생성됩
 
 1. 준비가 되었으면 이 코드를 클라우드의 Functions 앱에 배포하십시오. 새 응용 프로그램 설정을 배포하는 것을 잊지 마십시오.
 
-   > ⚠️ 필요한 경우 [project 2, lesson 5 의 응용 프로그램 설정 업로드 지침](../../../2-farm/lessons/5-migrate-application-to-the-cloud/README.md#task---upload-your-application-settings)을 참고하십시오.
+   > ⚠️ 필요한 경우 [project 2, lesson 5 의 응용 프로그램 설정 업로드 지침](../../../../2-farm/lessons/5-migrate-application-to-the-cloud/README.md#task---upload-your-application-settings)을 참고하십시오.
 
-   > ⚠️ 필요한 경우 [project 2, lesson 5 Functions 앱을 배포하기 위한 지침](../../../2-farm/lessons/5-migrate-application-to-the-cloud/README.md#task---deploy-your-functions-app-to-the-cloud)을 참고하십시오.
+   > ⚠️ 필요한 경우 [project 2, lesson 5 Functions 앱을 배포하기 위한 지침](../../../../2-farm/lessons/5-migrate-application-to-the-cloud/README.md#task---deploy-your-functions-app-to-the-cloud)을 참고하십시오.
 
-> 💁 [code/functions](code/functions)폴더에서 코드를 확인할 수 있습니다.
+> 💁 [code/functions](../code/functions)폴더에서 코드를 확인할 수 있습니다.
 
 ---
 
