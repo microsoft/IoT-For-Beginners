@@ -40,7 +40,7 @@
 
 > **선생님**, 본 교육과정의 사용법에 대해 [안내](../for-teachers.md) 드립니다. 귀하께서 직접 강의를 만들고 싶다면 [lesson template](../lesson-template/README.md)에 그에 대한 안내를 드립니다.
 
-> **[학생분들](https://aka.ms/student-page)**은 본 교육과정을 스스로 사용하기 위해 레포 전체를 분기하여 미리 준비된 퀴즈부터 시작하여 강의를 읽고 나머지 활동을 완료합니다. 솔루션 코드를 복사하는 대신 해당 과정을 이해하여 프로젝트를 만드십시오. 그러나 해당 코드는 각 프로젝트 지향 과정의 /solutions 폴더에서 사용할 수 있습니다. 또 다른 아이디어는 친구들과 스터디 그룹을 구성해서 그 내용을 함께 검토하는 것입니다. 자세한 내용은[Microsoft Learn](https://docs.microsoft.com/users/jimbobbennett/collections/ke2ehd351jopwr?WT.mc_id=academic-17441-jabenn)에서 확인할 수 있습니다.
+> [**학생분들**](https://aka.ms/student-page)은 본 교육과정을 스스로 사용하기 위해 레포 전체를 분기하여 미리 준비된 퀴즈부터 시작하여 강의를 읽고 나머지 활동을 완료합니다. 솔루션 코드를 복사하는 대신 해당 과정을 이해하여 프로젝트를 만드십시오. 그러나 해당 코드는 각 프로젝트 지향 과정의 /solutions 폴더에서 사용할 수 있습니다. 또 다른 아이디어는 친구들과 스터디 그룹을 구성해서 그 내용을 함께 검토하는 것입니다. 자세한 내용은[Microsoft Learn](https://docs.microsoft.com/users/jimbobbennett/collections/ke2ehd351jopwr?WT.mc_id=academic-17441-jabenn)에서 확인할 수 있습니다.
 
 본 코스의 영상 개요는 다음 비디오를 참고하십시오.
 
