@@ -31,6 +31,7 @@
 
 팀을 만나보세요!
 
+
 [![Promo video](./images/IOT.gif)](https://youtu.be/-wippUJRi5k)
 
 **Gif by** [Mohit Jaisal](https://linkedin.com/in/mohitjaisal)
@@ -46,6 +47,7 @@
 [![Promo video](https://img.youtube.com/vi/bccEMm8gRuc/0.jpg)](https://youtube.com/watch?v=bccEMm8gRuc "Promo video")
 
 > 🎥 프로젝트에 대한 비디오를 보려면 위의 이미지를 클릭하십시오!
+
 
 ## 교육학
 
@@ -115,6 +117,7 @@
 
 필요한 경우 오프라인 액세스를 위해 이 컨텐츠의 PDF를 생성할 수 있습니다. 이 작업을 위해서  [npm installed](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)이 수행되어 있는지 확인하고 이 레포지토리의 루트 폴더에서 아래 명령을 실행하십시오:
 
+
 ```sh
 npm i
 npm run convert
@@ -139,4 +142,5 @@ npm run convert
 
 ## 이미지 속성
 
-본 교육과정에 사용된 이미지의 모든 속성은 [Attributions](./attributions.md)에서 .
+본 교육과정에 사용된 이미지의 모든 속성은 [Attributions](./attributions.md)에서 확인할 수 있습니다.
+
