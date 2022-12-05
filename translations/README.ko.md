@@ -12,14 +12,14 @@
 [![Chinese](https://img.shields.io/badge/-Chinese-yellow)](translations/README.zh-cn.md)
 [![Turkish](https://img.shields.io/badge/-Turkish-darkgreen)](translations/README.tr.md)
 [![French](https://img.shields.io/badge/-French-purple)](translations/README.fr.md)
-[![Korean](https://img.shields.io/badge/-Korean-white)](translations/README.ko.md)
+[![English](https://img.shields.io/badge/-English-white)](translations/README.md)
 [![Japanese](https://img.shields.io/badge/-Japanese-red)](translations/README.ja.md)
 
 # IoT for Beginners - 커리큘럼
 
 마이크로소프트의 Azure 클라우드 담당자들이 IoT 기본에 대한 12주 24시간 교육 과정을 제공하게 되어 기쁩니다. 각 수업에는 수업 전/후 퀴즈, 수업 완료를 위한 강의, 해결책, 과제 등이 포함됩니다. NAT의 프로젝트 기반 교육학을 통해 새로운 기술을 구축하는 동안 `익힐 수 있는` 검증된 방법을 학습할 수 있습니다.
 
-그 프로젝트들은 농부의 농장에서 사용자의 식탁으로 까지의 음식의 여정을 다룬다. 여기에는 농업, 물류, 제조, 소매 및 소비자 등 모든 IoT 장치에서 인기 있는 산업 분야가 포함됩니다.
+그 프로젝트들은 농부의 농장에서 사용자의 식탁으로 까지의 음식의 여정을 다룹니다. 여기에는 농업, 물류, 제조, 소매 및 소비자 등 모든 IoT 장치에서 인기 있는 산업 분야가 포함됩니다.
 
 ![A road map for the course showing 24 lessons covering intro, farming, transport, processing, retail and cooking](../sketchnotes/Roadmap.jpg)
 
