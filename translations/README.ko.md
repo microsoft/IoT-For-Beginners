@@ -12,39 +12,42 @@
 [![Chinese](https://img.shields.io/badge/-Chinese-yellow)](translations/README.zh-cn.md)
 [![Turkish](https://img.shields.io/badge/-Turkish-darkgreen)](translations/README.tr.md)
 [![French](https://img.shields.io/badge/-French-purple)](translations/README.fr.md)
+[![Korean](https://img.shields.io/badge/-Korean-white)](translations/README.ko.md)
 [![Japanese](https://img.shields.io/badge/-Japanese-red)](translations/README.ja.md)
 
-# IoT for Beginners - A Curriculum
+# IoT for Beginners - 커리큘럼
 
-Azure Cloud Advocates at Microsoft are pleased to offer a 12-week, 24-lesson curriculum all about IoT basics. Each lesson includes pre- and post-lesson quizzes, written instructions to complete the lesson, a solution, an assignment and more. Our project-based pedagogy allows you to learn while building, a proven way for new skills to 'stick'.
+마이크로소프트의 Azure 클라우드 담당자들이 IoT 기본에 대한 12주 24시간 교육 과정을 제공하게 되어 기쁩니다. 각 수업에는 수업 전/후 퀴즈, 수업 완료를 위한 강의, 해결책, 과제 등이 포함됩니다. NAT의 프로젝트 기반 교육학을 통해 새로운 기술을 구축하는 동안 `익힐 수 있는` 검증된 방법을 학습할 수 있습니다.
 
-The projects cover the journey of food from farm to table. This includes farming, logistics, manufacturing, retail and consumer - all popular industry areas for IoT devices.
+그 프로젝트들은 농부의 농장에서 사용자의 식탁으로 까지의 음식의 여정을 다룬다. 여기에는 농업, 물류, 제조, 소매 및 소비자 등 모든 IoT 장치에서 인기 있는 산업 분야가 포함됩니다.
 
-![A road map for the course showing 24 lessons covering intro, farming, transport, processing, retail and cooking](sketchnotes/Roadmap.jpg)
+![A road map for the course showing 24 lessons covering intro, farming, transport, processing, retail and cooking](../sketchnotes/Roadmap.jpg)
 
-> Sketchnote by [Nitya Narasimhan](https://github.com/nitya). Click the image for a larger version.
+> [Nitya Narasimhan](https://github.com/nitya)의 스케치 노트입니다. 클릭하여 사진을 크게 보세요
 
-**Hearty thanks to our authors [Jen Fox](https://github.com/jenfoxbot), [Jen Looper](https://github.com/jlooper), [Jim Bennett](https://github.com/jimbobbennett), and our sketchnote artist [Nitya Narasimhan](https://github.com/nitya).**
+**저자 [Jen Fox](https://github.com/jenfoxbot), [Jen Looper](https://github.com/jlooper), [Jim Bennett](https://github.com/jimbobbennett)와 스케치노트를 그려 준 [Nitya Narasimhan](https://github.com/nitya)에게 감사를 보냅니다.**
 
-**Thanks as well to our team of [Microsoft Learn Student Ambassadors](https://studentambassadors.microsoft.com?WT.mc_id=academic-17441-jabenn) who have been reviewing and translating this curriculum - [Aditya Garg](https://github.com/AdityaGarg00), [Anurag Sharma](https://github.com/Anurag-0-1-A), [Arpita Das](https://github.com/Arpiiitaaa), [Aryan Jain](https://www.linkedin.com/in/aryan-jain-47a4a1145/), [Bhavesh Suneja](https://github.com/EliteWarrior315), [Faith Hunja](https://faithhunja.github.io/), [Lateefah Bello](https://www.linkedin.com/in/lateefah-bello/), [Manvi Jha](https://github.com/Severus-Matthew), [Mireille Tan](https://www.linkedin.com/in/mireille-tan-a4834819a/), [Mohammad Iftekher (Iftu) Ebne Jalal](https://github.com/Iftu119), [Mohammad Zulfikar](https://github.com/mohzulfikar), [Priyanshu Srivastav](https://www.linkedin.com/in/priyanshu-srivastav-b067241ba), [Thanmai Gowducheruvu](https://github.com/innovation-platform), and [Zina Kamel](https://www.linkedin.com/in/zina-kamel/).**
+**이 커리큘럼을 검토하고 번역해 주신 [Microsoft Learn Student Ambassadors](https://studentambassadors.microsoft.com?WT.mc_id=academic-17441-jabenn) 팀에게도 감사드립니다. - [Aditya Garg](https://github.com/AdityaGarg00), [Anurag Sharma](https://github.com/Anurag-0-1-A), [Arpita Das](https://github.com/Arpiiitaaa), [Aryan Jain](https://www.linkedin.com/in/aryan-jain-47a4a1145/), [Bhavesh Suneja](https://github.com/EliteWarrior315), [Faith Hunja](https://faithhunja.github.io/), [Lateefah Bello](https://www.linkedin.com/in/lateefah-bello/), [Manvi Jha](https://github.com/Severus-Matthew), [Mireille Tan](https://www.linkedin.com/in/mireille-tan-a4834819a/), [Mohammad Iftekher (Iftu) Ebne Jalal](https://github.com/Iftu119), [Mohammad Zulfikar](https://github.com/mohzulfikar), [Priyanshu Srivastav](https://www.linkedin.com/in/priyanshu-srivastav-b067241ba), [Thanmai Gowducheruvu](https://github.com/innovation-platform), [Zina Kamel](https://www.linkedin.com/in/zina-kamel/).**
 
-Meet the team!
+팀을 만나보세요!
+
 
 [![Promo video](./images/IOT.gif)](https://youtu.be/-wippUJRi5k)
 
 **Gif by** [Mohit Jaisal](https://linkedin.com/in/mohitjaisal)
 
-> 🎥 Click the image above for a video about the project!
+> 🎥 프로젝트에 대한 비디오를 보려면 위의 이미지를 클릭하세요!
 
-> **Teachers**, we have [included some suggestions](for-teachers.md) on how to use this curriculum. If you would like to create your own lessons, we have also included a [lesson template](lesson-template/README.md).
+> **선생님**, 본 교육과정의 사용법에 대해 [안내](../for-teachers.md) 드립니다. 귀하께서 직접 강의를 만들고 싶다면 [lesson template](../lesson-template/README.md)에 그에 대한 안내를 드립니다.
 
-> **[Students](https://aka.ms/student-page)**, to use this curriculum on your own, fork the entire repo and complete the exercises on your own, starting with a pre-lecture quiz, then reading the lecture and completing the rest of the activities. Try to create the projects by comprehending the lessons rather than copying the solution code; however that code is available in the /solutions folders in each project-oriented lesson. Another idea would be to form a study group with friends and go through the content together. For further study, we recommend [Microsoft Learn](https://docs.microsoft.com/users/jimbobbennett/collections/ke2ehd351jopwr?WT.mc_id=academic-17441-jabenn).
+> **[학생분들](https://aka.ms/student-page)**은 본 교육과정을 스스로 사용하기 위해 레포 전체를 분기하여 미리 준비된 퀴즈부터 시작하여 강의를 읽고 나머지 활동을 완료합니다. 솔루션 코드를 복사하는 대신 해당 과정을 이해하여 프로젝트를 만드십시오. 그러나 해당 코드는 각 프로젝트 지향 과정의 /solutions 폴더에서 사용할 수 있습니다. 또 다른 아이디어는 친구들과 스터디 그룹을 구성해서 그 내용을 함께 검토하는 것입니다. 자세한 내용은[Microsoft Learn](https://docs.microsoft.com/users/jimbobbennett/collections/ke2ehd351jopwr?WT.mc_id=academic-17441-jabenn)에서 확인할 수 있습니다.
 
-For a video overview of this course, check out this video:
+본 코스의 영상 개요는 다음 비디오를 참고하십시오.
 
 [![Promo video](https://img.youtube.com/vi/bccEMm8gRuc/0.jpg)](https://youtube.com/watch?v=bccEMm8gRuc "Promo video")
 
-> 🎥 Click the image above for a video about the project!
+> 🎥 프로젝트에 대한 비디오를 보려면 위의 이미지를 클릭하십시오!
+
 
 ## 교육학
 
@@ -108,11 +111,12 @@ For a video overview of this course, check out this video:
 
 ## Offline access
 
-You can run this documentation offline by using [Docsify](https://docsify.js.org/#/). Fork this repo, [install Docsify](https://docsify.js.org/#/quickstart) on your local machine, and then in the root folder of this repo, type `docsify serve`. The website will be served on port 3000 on your localhost: `localhost:3000`.
+[Docsify](https://docsify.js.org/#/)를 사용하여 이 문서를 오프라인으로 실행할 수 있습니다. 로컬 시스템에서 [install Docsify](https://docsify.js.org/#/quickstart) 레포를 포크하고, 이 레포의 루트 폴더에 `docsify serve`를 입력합니다. 이 웹 사이트는 로컬 호스트인 `localhost:3000`에서 제공됩니다.
 
 ### PDF
 
-You can generate a PDF of this content for offline access if needed. To do this, make sure you have [npm installed](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) and run the following commands in the root folder of this repo:
+필요한 경우 오프라인 액세스를 위해 이 컨텐츠의 PDF를 생성할 수 있습니다. 이 작업을 위해서  [npm installed](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)이 수행되어 있는지 확인하고 이 레포지토리의 루트 폴더에서 아래 명령을 실행하십시오:
+
 
 ```sh
 npm i
@@ -121,21 +125,22 @@ npm run convert
 
 ### Slides
 
-There are slide decks for some of the lessons in the [slides](./slides) folder.
+[slides](../slides)폴더에는 일부 레슨을 위한 슬라이드 데크가 있습니다.
 
-## Help Wanted!
+## 도움이 필요하신가요?
 
-Would you like to contribute a translation? Please read our [translation guidelines](TRANSLATIONS.md) and add input [to one of the translations issues](https://github.com/microsoft/IoT-For-Beginners/issues?q=is%3Aissue+is%3Aopen+label%3Atranslation). If you want to translate into a new language, please raise a new issue for tracking.
+번역에 기여하고 싶으시다면 [번역 지침](../TRANSLATIONS.md)를 읽고 [번역 issue 중 하나](https://github.com/microsoft/IoT-For-Beginners/issues?q=is%3Aissue+is%3Aopen+label%3Atranslation)에 추가하십시오. 만약 당신이 새로운 언어로 번역하고 싶다면, tracking을 위해 새로운 이슈를 제기해주세요.
 
-## Other Curricula
+## 기타 커리큘럼
 
-Our team produces other curricula! Check out:
+우리 팀은 다른 커리큘럼을 생산합니다! 확인 해 보세요:
 
-- [Web Dev for Beginners](https://aka.ms/webdev-beginners)
-- [ML for Beginners](https://aka.ms/ml-beginners)
-- [Data Science for Beginners](https://aka.ms/datascience-beginners)
-- [AI for Beginners](https://aka.ms/ai-beginners)
+- [초보자를 위한 웹 개발](https://aka.ms/webdev-beginners)
+- [초보자용 ML](https://aka.ms/ml-beginners)
+- [초보자용 데이터 과학](https://aka.ms/datascience-beginners)
+- [초보자용 AI](https://aka.ms/ai-beginners)
 
-## Image attributions
+## 이미지 속성
 
-You can find all the attributions for the images used in this curriculum where required in the [Attributions](./attributions.md).
+본 교육과정에 사용된 이미지의 모든 속성은 [Attributions](./attributions.md)에서 확인할 수 있습니다.
+
