@@ -46,36 +46,36 @@ For a video overview of this course, check out this video:
 
 > 🎥 Click the image above for a video about the project!
 
-## Pedagogy
+## 교육학
 
-We have chosen two pedagogical tenets while building this curriculum: ensuring that it is project-based and that it includes frequent quizzes. By the end of this series, students will have built a plant monitoring and watering system, a vehicle tracker, a smart factory setup to track and check food, and a voice-controlled cooking timer, and will have learned the basics of the Internet of Things including how to write device code, connect to the cloud, analyze telemetry and run AI on the edge.
+우리는 이 커리큘럼을 구축하면서 두 가지 교육학적 원칙을 선택했습니다. 첫 번째는 프로젝트를 기반으로 한다는 것이고 두 번째는 자주 퀴즈를 포함하도록 하는 것입니다. 이 시리즈가 끝나면 학생들은 식물 모니터링 및 관수 시스템, 차량 추적, 음식을 추적하고 확인하는 스마트 공장 설정, 음성으로 제어되는 요리 타이머를 구축하게 됩니다. 또한 장치 코드를 작성하고, 클라우드에 연결하고, 원격 측정을 분석하고, AI를 edge에서 실행하는 방법을 포함해 사물 인터넷의 기초에 대해 배우게 됩니다.
 
-By ensuring that the content aligns with projects, the process is made more engaging for students and retention of concepts will be augmented.
+내용과 프로젝트가 일치하도록 보장함으로써, 이 과정이 학생들에게 더 매력적으로 다가가며 개념을 더 잘 유지할 수 있을 것입니다.
 
-In addition, a low-stakes quiz before a class sets the intention of the student towards learning a topic, while a second quiz after class ensures further retention. This curriculum was designed to be flexible and fun and can be taken in whole or in part. The projects start small and become increasingly complex by the end of the 12 week cycle.
+또한 수업 전에 부담이 적은 퀴즈를 통해 학생이 주제를 학습하려는 의도를 설정하고 수업 후 두 번째 퀴즈를 통해 기억에 더 남도록 할 수 있습니다. 이 커리큘럼은 유연하고 재미있게 설계되었으며 전체 또는 부분적으로 수강할 수 있습니다. 프로젝트는 소규모로 시작하여 12주 주기가 끝날 때까지 점점 복잡해집니다.
 
-Each project is be based around real-world hardware available to students and hobbyists. Each project looks into the specific project domain, providing relevant background knowledge. To be a successful developer it helps to understand the domain in which you are solving problems, providing this background knowledge allows students to think about their IoT solutions and learnings in the context of the kind of real-world problem that they might be asked to solve as an IoT developer. Students learn the 'why' of the solutions they are building, and get an appreciation of the end user.
+각각의 프로젝트는 학생과 취미로 하는 사람들이 사용할 수 있는 실제 하드웨어롤 기반으로 합니다. 각 프로젝트는 특정 프로젝트 영역을 조사하여 관련된 배경 지식을 제공합니다. 성공적인 개발자가 되기 위해서는 해결해야 하는 문제의 도메인을 이해하는 것이 도움이 됩니다. 이러한 배경 지식을 제공하면 학생들이 IoT 개발자로서 해결하도록 요청받을 수 있는 실제 문제의 맥락에서 IoT 솔루션과 학습에 대해 생각할 수 있습니다. 학생들은 자신들이 구축하고 있는 솔루션의 '이유'에 대해 배우고 최종 사용자를 이해합니다.
 
-## Hardware
+## 하드웨어
 
-We have two choices of IoT hardware to use for the projects depending on personal preference, programming language knowledge or preferences, learning goals and availability. We have also provided a 'virtual hardware' version for those who don't have access to hardware, or want to learn more before committing to a purchase. You can read more and find a 'shopping list' on the [hardware page](./hardware.md), including links to buy complete kits from our friends at Seeed Studio.
+개인 선호도, 프로그래밍 언어 지식 또는 선호도, 학습 목표 및 가용성에 따라 프로젝트에 사용할 두 가지 IoT 하드웨어 중에서 선택할 수 있습니다. 또한 하드웨어에 액세스할 수 없거나 구매하기 전에 자세히 알아보고 싶은 사용자를 위해 '가상 하드웨어' 버전을 제공했습니다. Seeed Studio에서 전체 키트를 구입할 수 있는 링크를 포함하여 [하드웨어 페이지](../hardware.md)에서 자세한 내용을 읽고 '쇼핑 목록'을 찾을 수 있습니다.
 
-> 💁 Find our [Code of Conduct](CODE_OF_CONDUCT.md), [Contributing](CONTRIBUTING.md), and [Translation](TRANSLATIONS.md) guidelines. We welcome your constructive feedback!
+> 💁 우리의 [행동 강령](../CODE_OF_CONDUCT.md), [컨트리뷰팅](../CONTRIBUTING.md), and [번역](../TRANSLATIONS.md) 가이드 라인을 찾아보세요. 건설적인 피드백은 언제나 환영입니다!
 
-## Each lesson includes:
+## 각각의 레슨은 다음을 포함합니다:
 
-- sketchnote
-- optional supplemental video
-- pre-lesson warmup quiz
-- written lesson
-- for project-based lessons, step-by-step guides on how to build the project
-- knowledge checks
-- a challenge
-- supplemental reading
-- assignment
-- post-lesson quiz
+- 스케치 노트
+- 선택적인 보충 영상
+- 강의 전 워밍업 퀴즈
+- 필기 수업
+- 프로젝트 기반 강의의 경우 프로젝트 빌드 방법에 대한 단계별 가이드
+- 지식 확인
+- 도전
+- 보충 읽을거리
+- 과제
+- 강의 후 퀴즈
 
-> **A note about quizzes**: All quizzes are contained [in this app](https://black-meadow-040d15503.1.azurestaticapps.net), for 48 total quizzes of three questions each. They are linked from within the lessons but the quiz app can be run locally; follow the instruction in the `quiz-app` folder. They are gradually being localized.
+> **퀴즈에 대한 참고 사항**: 모든 퀴즈는 [이 앱](https://black-meadow-040d15503.1.azurestaticapps.net)에 포함되어 있으며 각 3개의 질문으로 구성된 총 48개의 퀴즈가 있습니다. 수업 내에서 연결되지만 퀴즈 앱은 로컬에서 실행할 수 있습니다. `quiz-app` 폴더의 지침을 따르세요. 점차 지역화하고 있습니다.
 
 ## 레슨
 
