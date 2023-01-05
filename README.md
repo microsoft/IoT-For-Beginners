@@ -136,6 +136,7 @@ Our team produces other curricula! Check out:
 - [ML for Beginners](https://aka.ms/ml-beginners)
 - [Data Science for Beginners](https://aka.ms/datascience-beginners)
 - [AI for Beginners](https://aka.ms/ai-beginners)
+- [XR Development for Beginners](https://github.com/microsoft/xr-development-for-beginners)
 
 ## Image attributions
 
