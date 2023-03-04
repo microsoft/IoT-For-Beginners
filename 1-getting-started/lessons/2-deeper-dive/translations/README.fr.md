@@ -69,3 +69,29 @@ Bien que le "I" dans IoT soit l'abréviation d'Internet, ces dispositifs n'ont p
 Il s'agit par exemple d'un appareil domestique intelligent tel que le HomePod d'Apple, l'Alexa d'Amazon ou le Google Home, qui écoutera votre voix à l'aide de modèles d'IA formés dans le nuage, mais exécutés localement sur l'appareil. Ces appareils 's'activent' lorsqu'un certain mot ou une certaine phrase est prononcé(e) et n'envoient qu'après celà votre voix sur Internet pour la traiter. L'appareil cessera d'envoyer la parole à un moment approprié, par exemple lorsqu'il détectera une pause dans votre discours. Tout ce que vous dites avant de réveiller l'appareil avec le mot de réveil, et tout ce que vous dites après que l'appareil a cessé d'écouter, ne sera pas envoyé via internet au fournisseur de l'appareil, et sera donc privé.
 
 ✅ Pensez à d'autres scénarios dans lesquels la confidentialité est importante, de sorte que le traitement des données serait mieux fait à la périphérie plutôt que dans le cloud. À titre d'indication - pensez aux appareils IoT dotés de caméras ou d'autres dispositifs d'imagerie.
+
+### La sécurité dans l'IoT
+
+Avec toute connexion Internet, la sécurité est une considération importante. Une vieille plaisanterie dit que 'le S de IoT signifie sécurité' - il n'y a pas de 'S' dans IoT, ce qui implique qu'il n'est pas sécurisé.
+
+Les appareils IoT se connectent à un service cloud et sont donc aussi sécuriés que ce dernier. Si votre service cloud permet à n'importe quel appareil de se connecter, des données malveillantes peuvent être envoyées ou des attaques virales peuvent avoir lieu. Cela peut avoir des conséquences très concrètes dans la mesure où les dispositifs IoT interagissent et contrôlent d'autres dispositifs. Par exemple, le [ver Stuxnet](https://wikipedia.org/wiki/Stuxnet) a manipulé les valves des centrifugeuses pour les endommager. Des pirates ont également profité d'une [sécurité insuffisante pour accéder à des moniteurs pour bébé](https://www.npr.org/sections/thetwo-way/2018/06/05/617196788/s-c-mom-says-baby-monitor-was-hacked-experts-say-many-devices-are-vulnerable) et à d'autres dispositifs de surveillance domestique.
+
+> 💁 Parfois, les appareils IoT et les périphériques fonctionnent sur un réseau complètement isolé d'Internet afin de préserver la confidentialité et la sécurité des données. C'est ce qu'on appelle l'[air-gapping](https://wikipedia.org/wiki/Air_gap_(networking)).
+
+## Approfondissement des microcontrôleurs
+
+Dans la dernière leçon, nous avons présenté les microcontrôleurs. Nous allons maintenant approfondir cette technologie.
+
+### Le processeur (CPU)
+
+Le processeur est le 'cerveau' du microcontrôleur. C'est le processeur qui exécute votre code et qui peut envoyer et recevoir des données de n'importe quel appareil connecté. Les CPU peuvent contenir un ou plusieurs noyaux - essentiellement un ou plusieurs CPU qui peuvent travailler ensemble pour exécuter votre code.
+
+Les processeurs s'appuient sur une horloge qui ticote plusieurs millions ou milliards de fois par seconde. Chaque tic, ou cycle, synchronise les actions que l'unité centrale peut entreprendre. À chaque tic, l'unité centrale peut exécuter une instruction d'un programme, par exemple pour récupérer des données d'un périphérique externe ou effectuer un calcul mathématique. Ce cycle régulier permet de terminer toutes les actions avant de traiter l'instruction suivante.
+
+Plus le cycle d'horloge est rapide, plus le nombre d'instructions pouvant être traitées chaque seconde est important, et donc plus le CPU est rapide. Les vitesses des processeurs sont mesurées en [Hertz (Hz)](https://wikipedia.org/wiki/Hertz), une unité standard où 1 Hz signifie un cycle ou un tic d'horloge par seconde.
+
+> 🎓 Les vitesses des processeurs sont souvent indiquées en MHz ou en GHz. 1MHz correspond à 1 million de Hz, 1GHz à 1 milliard de Hz.
+
+> 💁 Les CPU exécutent des programmes en utilisant le [cycle de récupération-décodage-exécution](https://wikipedia.org/wiki/Instruction_cycle). Pour chaque tic d'horloge, le CPU va chercher l'instruction suivante dans la mémoire, la décode, puis l'exécute, par exemple en utilisant une unité arithmétique et logique (UAL) pour additionner 2 nombres. Certaines exécutions prennent plusieurs ticks pour être exécutées, le cycle suivant sera donc exécuté au prochain tick après la fin de l'instruction.
+
+![Le décodeur de recherche execute des cycles montrant le fetch prenant une instruction du programme stocké en RAM, puis la décodant et l'exécutant sur un CPU.](../../../images/fetch-decode-execute.png)
