@@ -94,4 +94,44 @@ Plus le cycle d'horloge est rapide, plus le nombre d'instructions pouvant être 
 
 > 💁 Les CPU exécutent des programmes en utilisant le [cycle de récupération-décodage-exécution](https://wikipedia.org/wiki/Instruction_cycle). Pour chaque tic d'horloge, le CPU va chercher l'instruction suivante dans la mémoire, la décode, puis l'exécute, par exemple en utilisant une unité arithmétique et logique (UAL) pour additionner 2 nombres. Certaines exécutions prennent plusieurs ticks pour être exécutées, le cycle suivant sera donc exécuté au prochain tick après la fin de l'instruction.
 
-![Le décodeur de recherche execute des cycles montrant le fetch prenant une instruction du programme stocké en RAM, puis la décodant et l'exécutant sur un CPU.](../../../images/fetch-decode-execute.png)
+![Les cycles de recherche, de décodage et d'exécution montrant la recherche prenant une instruction du programme stocké en RAM, puis la décodant et l'exécutant sur un CPU.](../../../images/fetch-decode-execute.png)
+
+Les microcontrôleurs ont des vitesses d'horloge beaucoup plus faibles que les ordinateurs de bureau ou portables, ou même que la plupart des smartphones. Le terminal Wio, par exemple, possède un processeur qui fonctionne à 120 MHz, soit 120 000 000 de cycles par seconde.
+
+✅ Un PC ou un Mac moyen possède une unité centrale avec plusieurs cœurs fonctionnant à plusieurs GigaHertz, ce qui signifie que l'horloge tique des milliards de fois par seconde. Recherchez la vitesse d'horloge de votre ordinateur et comparez combien de fois il est plus rapide que le terminal Wio.
+
+Chaque cycle d'horloge consomme de l'énergie et génère de la chaleur. Plus les tic-tac sont rapides, plus la consommation d'énergie et la production de chaleur sont importantes. Les PC sont équipés de dissipateurs thermiques et de ventilateurs pour évacuer la chaleur, sans quoi ils surchaufferaient et s'arrêteraient en quelques secondes. Les microcontrôleurs n'ont souvent ni l'un ni l'autre, car ils sont beaucoup plus froids et donc beaucoup plus lents. Les PC fonctionnent sur le secteur ou sur de grosses batteries pendant quelques heures, alors que les microcontrôleurs peuvent fonctionner pendant des jours, des mois, voire des années sur de petites batteries. Les microcontrôleurs peuvent également avoir des cœurs qui fonctionnent à des vitesses différentes, passant à des cœurs plus lents et de faible puissance lorsque la demande de l'unité centrale est faible afin de réduire la consommation d'énergie.
+
+> 💁 Certains PC et Mac adoptent le même mélange de cœurs rapides à haute puissance et de cœurs plus lents à faible puissance, en basculant pour économiser la batterie. Par exemple, la puce M1 des derniers ordinateurs portables d'Apple peut basculer entre 4 cœurs de performance et 4 cœurs d'efficacité pour optimiser la durée de vie de la batterie ou la vitesse en fonction de la tâche exécutée.
+
+✅ Faites un peu de recherche : Renseignez-vous sur les processeurs sur le site [Wikipedia CPU article](https://wikipedia.org/wiki/Central_processing_unit)
+
+#### Tâche
+
+Examinez le terminal Wio.
+
+Si vous utilisez un terminal Wio pour ces leçons, essayez de trouver l'unité centrale. Consultez la section *Vue d'ensemble du matériel* de la [page produit du terminal Wio](https://www.seeedstudio.com/Wio-Terminal-p-4509.html) pour obtenir une image des composants internes, et essayez de trouver l'unité centrale à travers la fenêtre en plastique transparent située à l'arrière.
+
+### Mémoire
+
+Les microcontrôleurs disposent généralement de deux types de mémoire : la mémoire de programme et la mémoire vive (RAM).
+
+La mémoire de programme est non volatile, ce qui signifie que tout ce qui y est écrit est conservé lorsque l'appareil n'est pas alimenté. C'est la mémoire qui stocke votre code de programme.
+
+La RAM est la mémoire utilisée par le programme pour s'exécuter, contenant les variables allouées par votre programme et les données recueillies auprès des périphériques. La RAM est volatile, lorsque l'alimentation est coupée, son contenu est perdu, ce qui a pour effet de réinitialiser votre programme.
+
+> 🎓 La mémoire de programme stocke votre code et se conserve lorsqu'il n'y a pas d'alimentation.
+
+> 🎓 La mémoire vive est utilisée pour exécuter votre programme et est réinitialisée lorsqu'il n'y a pas d'alimentation.
+
+Comme pour l'unité centrale, la mémoire d'un microcontrôleur est plusieurs fois plus petite que celle d'un PC ou d'un Mac. Un PC typique peut avoir 8 gigaoctets (Go) de RAM, ou 8 000 000 000 d'octets, chaque octet étant suffisant pour stocker une seule lettre ou un nombre de 0 à 255. Un microcontrôleur n'aurait que des kilo-octets (Ko) de RAM, un kilo-octet étant égal à 1 000 octets. Le terminal Wio mentionné ci-dessus possède 192 Ko de RAM, soit 192 000 octets - plus de 40 000 fois moins qu'un PC moyen!
+
+Le diagramme ci-dessous montre la différence de taille relative entre 192KB et 8GB - le petit point au centre représente 192KB.
+
+! [Une comparaison entre 192KB et 8GB - plus de 40 000 fois plus grand](../../../images/ram-comparison.png)
+
+Le stockage des programmes est également plus petit que dans un PC. Un PC typique peut avoir un disque dur de 500 Go pour le stockage des programmes, alors qu'un microcontrôleur peut n'avoir que des kilo-octets ou peut-être quelques méga-octets (Mo) de stockage (1 Mo correspond à 1 000 Ko, ou 1 000 000 d'octets). Le terminal Wio dispose de 4 Mo de mémoire de programme.
+
+✅ Faites une petite recherche : De quelle quantité de mémoire vive et de stockage dispose l'ordinateur que vous utilisez pour lire ces lignes? Comment cela se compare-t-il à un microcontrôleur?
+
+### Les entrée / Les sortie (Input/Output)
