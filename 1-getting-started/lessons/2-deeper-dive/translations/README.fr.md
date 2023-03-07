@@ -135,3 +135,65 @@ Le stockage des programmes est également plus petit que dans un PC. Un PC typiq
 ✅ Faites une petite recherche : De quelle quantité de mémoire vive et de stockage dispose l'ordinateur que vous utilisez pour lire ces lignes? Comment cela se compare-t-il à un microcontrôleur?
 
 ### Les entrée / Les sortie (Input/Output)
+
+Les microcontrôleurs ont besoin de connexions d'entrée et de sortie (E/S) pour lire les données des capteurs et envoyer des signaux de commande aux actionneurs. Ils contiennent généralement un certain nombre de broches d'entrée/sortie à usage général ('general-purpose input/output' ou GPIO en anglais). Ces broches peuvent être configurées par logiciel pour être des entrées (c'est-à-dire qu'elles reçoivent un signal) ou des sorties (elles envoient un signal).
+
+🧠⬅️ Les broches d'entrée sont utilisées pour lire les valeurs des capteurs.
+
+🧠➡️ Les broches de sortie envoient des instructions aux actionneurs.
+
+Vous en apprendrez plus à ce sujet dans une prochaine leçon.
+
+#### Tâche
+
+Examinez le terminal Wio.
+
+Si vous utilisez un terminal Wio pour ces leçons, trouvez les broches GPIO. Trouvez la section *Pinout diagram* de la [page produit du terminal Wio](https://www.seeedstudio.com/Wio-Terminal-p-4509.html) pour savoir à quoi correspondent les broches. Le terminal Wio est livré avec un autocollant que vous pouvez apposer à l'arrière avec les numéros de broches, alors ajoutez-le maintenant si vous ne l'avez pas encore fait.
+
+### Taille physique
+
+Les microcontrôleurs sont généralement de petite taille, le plus petit étant un [Freescale Kinetis KL03 MCU est assez petit pour tenir dans la cavité d'une balle de golf](https://www.edn.com/tiny-arm-cortex-m0-based-mcu-shrinks-package/). L'unité centrale d'un PC peut mesurer 40 mm x 40 mm, sans compter les dissipateurs thermiques et les ventilateurs nécessaires pour que l'unité centrale puisse fonctionner pendant plus de quelques secondes sans surchauffe, ce qui est nettement plus grand qu'un microcontrôleur complet. Le kit de développement du terminal Wio, qui comprend un microcontrôleur, un boîtier, un écran et une série de connexions et de composants, n'est pas beaucoup plus grand qu'un processeur Intel i9 nu, et beaucoup plus petit qu'un processeur avec un dissipateur thermique et un ventilateur!
+
+| Appareil                        | Taille                |
+| ------------------------------- | --------------------- |
+| Freescale Kinetis KL03          | 1.6mm x 2mm x 1mm     |
+| Terminal Wio                    | 72mm x 57mm x 12mm    |
+| Processeur Intel i9, dissipateur de chaleur et ventilateur | 136mm x 145mm x 103mm |
+
+### Frameworks et systèmes d'exploitation
+
+En raison de leur faible vitesse et de la taille de leur mémoire, les microcontrôleurs n'utilisent pas de système d'exploitation (OS) au sens bureautique du terme. Le système d'exploitation qui fait fonctionner votre ordinateur (Windows, Linux ou macOS) a besoin de beaucoup de mémoire et de puissance de traitement pour exécuter des tâches qui sont totalement inutiles pour un microcontrôleur. N'oubliez pas que les microcontrôleurs sont généralement programmés pour exécuter une ou plusieurs tâches très spécifiques, contrairement à un ordinateur à usage général comme un PC ou un Mac qui doit prendre en charge une interface utilisateur, lire de la musique ou des films, fournir des outils pour écrire des documents ou du code, jouer à des jeux ou naviguer sur l'internet.
+
+Pour programmer un microcontrôleur sans système d'exploitation, vous avez besoin d'un outil qui vous permette de construire votre code de manière à ce que le microcontrôleur puisse fonctionner, en utilisant des API qui peuvent communiquer avec tous les périphériques. Chaque microcontrôleur étant différent, les fabricants prennent normalement en charge des frameworks standards qui vous permettent de suivre une 'recette' standard pour créer votre code et le faire fonctionner sur n'importe quel microcontrôleur qui prend en charge ce framework.
+
+Vous pouvez programmer les microcontrôleurs à l'aide d'un système d'exploitation - souvent appelé système d'exploitation en temps réel ('real-time operating system' ou RTOS en anglais), car il est conçu pour gérer l'envoi de données vers et depuis des périphériques en temps réel. Ces systèmes d'exploitation sont très légers et offrent des fonctionnalités telles que :
+
+* Le multithreading, qui permet à votre code d'exécuter plus d'un bloc de code en même temps, soit sur plusieurs cœurs, soit en se relayant sur un cœur.
+* la mise en réseau, qui permet de communiquer en toute sécurité sur l'internet
+* des composants d'interface utilisateur graphique (GUI) pour construire des interfaces utilisateur (UI) sur des appareils dotés d'écrans.
+
+✅ Renseignez-vous sur les différents RTOS : [Azure RTOS](https://azure.microsoft.com/services/rtos/?WT.mc_id=academic-17441-jabenn), [FreeRTOS](https://www.freertos.org), [Zephyr](https://www.zephyrproject.org)
+
+#### Arduino
+
+![Le logo Arduino](../../../../images/arduino-logo.svg)
+
+[Arduino](https://www.arduino.cc) est probablement le microcontrôleur le plus populaire, en particulier parmi les étudiants, les amateurs et les créateurs. Arduino est une plateforme électronique open source combinant logiciel et matériel. Vous pouvez acheter des cartes compatibles Arduino auprès d'Arduino ou d'autres fabricants, puis coder à l'aide de la structure Arduino.
+
+Les cartes Arduino sont codées en C ou en C++. L'utilisation de C/C++ permet de compiler un code très petit et de l'exécuter rapidement, ce qui est nécessaire sur un dispositif contraignant tel qu'un microcontrôleur. Le cœur d'une application Arduino est appelé sketch et est un code C/C++ avec 2 fonctions - `setup` et `loop`. Lorsque la carte démarre, le code du framework Arduino exécute la fonction `setup` une fois, puis il exécute la fonction `loop` encore et encore, l'exécutant continuellement jusqu'à ce que l'alimentation soit coupée.
+
+Vous écrirez votre code d'installation dans la fonction `setup`, comme la connexion aux services WiFi et cloud ou l'initialisation des broches pour l'entrée et la sortie. Votre code de boucle contiendrait alors le code de traitement, comme la lecture d'un capteur et l'envoi de la valeur au nuage. Vous devez normalement inclure un délai dans chaque boucle, par exemple, si vous voulez que les données du capteur soient envoyées toutes les 10 secondes, vous devez ajouter un délai de 10 secondes à la fin de la boucle pour que le microcontrôleur puisse dormir, économisant ainsi de l'énergie, puis exécuter la boucle à nouveau lorsque cela est nécessaire 10 secondes plus tard.
+
+![Un croquis d'arduino exécutant d'abord la fonction setup, puis exécutant la fonction loop à plusieurs reprises](../../../images/arduino-sketch.png)
+
+✅ Cette architecture de programme est connue sous le nom de *boucle d'événements* ou *boucle de messages*. De nombreuses applications l'utilisent en arrière plan et c'est la norme pour la plupart des applications de bureau qui fonctionnent sur des systèmes d'exploitation comme Windows, macOS ou Linux. La `boucle` ('loop') écoute les messages provenant des composants de l'interface utilisateur tels que les boutons, ou des périphériques tels que le clavier, et y répond. Pour en savoir plus, consultez cet [article sur la boucle d'événements](https://wikipedia.org/wiki/Event_loop).
+
+Arduino fournit des bibliothèques standard pour interagir avec les microcontrôleurs et les broches d'I/O (Entrée/Sorties), avec différentes implémentations en arrière plan pour fonctionner sur différents microcontrôleurs. Par exemple, la [fonction `delay`](https://www.arduino.cc/reference/en/language/functions/time/delay/) met le programme en pause pendant une période donnée, la [fonction `digitalRead`](https://www.arduino.cc/reference/en/language/functions/digital-io/digitalread/) lit une valeur `HIGH` ou `LOW` sur la broche donnée, quelle que soit la carte sur laquelle le code est exécuté. Ces bibliothèques standard signifient que le code Arduino écrit pour une carte peut être recompilé pour n'importe quelle autre carte Arduino et fonctionnera, en supposant que les broches sont les mêmes et que les cartes supportent les mêmes fonctionnalités.
+
+Il existe un vaste écosystème de bibliothèques Arduino tierces qui vous permettent d'ajouter des fonctionnalités supplémentaires à vos projets Arduino, telles que l'utilisation de capteurs et d'actionneurs ou la connexion à des services cloud IoT.
+
+##### Tâche
+
+Étudiez le terminal Wio.
+
+Si vous utilisez un terminal Wio pour ces leçons, relisez le code que vous avez écrit dans la dernière leçon. Trouvez les fonctions `setup` et `loop`. Surveillez la sortie série pour voir si la fonction loop est appelée de façon répétée. Essayez d'ajouter du code à la fonction `setup` pour écrire sur le port série et observez que ce code n'est appelé qu'une seule fois à chaque redémarrage. Essayez de redémarrer votre appareil avec l'interrupteur d'alimentation sur le côté pour montrer que ce code est appelé à chaque redémarrage de l'appareil.
