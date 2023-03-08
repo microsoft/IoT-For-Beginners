@@ -197,3 +197,70 @@ Il existe un vaste écosystème de bibliothèques Arduino tierces qui vous perme
 Étudiez le terminal Wio.
 
 Si vous utilisez un terminal Wio pour ces leçons, relisez le code que vous avez écrit dans la dernière leçon. Trouvez les fonctions `setup` et `loop`. Surveillez la sortie série pour voir si la fonction loop est appelée de façon répétée. Essayez d'ajouter du code à la fonction `setup` pour écrire sur le port série et observez que ce code n'est appelé qu'une seule fois à chaque redémarrage. Essayez de redémarrer votre appareil avec l'interrupteur d'alimentation sur le côté pour montrer que ce code est appelé à chaque redémarrage de l'appareil.
+
+## Immersion à propos des ordinateurs monocartes
+
+Dans la dernière leçon, nous avons présenté les ordinateurs monocartes. Nous allons maintenant les étudier plus en détail.
+
+### Raspberry Pi
+
+![Le logo Raspberry Pi](../../../images/raspberry-pi-logo.png)
+
+La [Raspberry Pi Foundation](https://www.raspberrypi.org) est une organisation caritative britannique fondée en 2009 pour promouvoir l'étude de l'informatique, en particulier dans les écoles. Dans le cadre de cette mission, elle a développé un ordinateur monocarte, appelé Raspberry Pi. Les Raspberry Pis sont actuellement disponibles en trois variantes : une version pleine grandeur, le Pi Zero, plus petit, et un module de calcul qui peut être intégré dans votre appareil IoT final.
+
+![Un Raspberry Pi 4](.../../../images/raspberry-pi-4.jpg)
+
+La dernière itération du Raspberry Pi grandeur nature est le Raspberry Pi 4B. Il dispose d'un processeur quadricœur (4 cœurs) cadencé à 1,5 GHz, de 2, 4 ou 8 Go de RAM, d'un réseau Ethernet gigabit, du WiFi, de 2 ports HDMI supportant les écrans 4k, d'un port de sortie audio et vidéo composite, de ports USB (2 USB 2.0, 2 USB 3.0), de 40 broches GPIO, d'un connecteur pour un module caméra Raspberry Pi, et d'un emplacement pour carte SD. Le tout sur une carte de 88 mm x 58 mm x 19,5 mm, alimentée par une alimentation USB-C de 3A. Ces cartes sont proposées à partir de 35 dollars, bien moins chères qu'un PC ou un Mac.
+
+> 💁 Il existe également un ordinateur tout-en-un Pi400 avec un Pi4 intégré dans un clavier.
+
+![Un Raspberry Pi Zero](.../../../images/raspberry-pi-zero.jpg)
+
+Le Pi Zero est beaucoup plus petit et moins puissant. Il dispose d'un processeur à cœur unique de 1 GHz, de 512 Mo de RAM, du WiFi (dans le modèle Zero W), d'un port HDMI unique, d'un port micro-USB, de 40 broches GPIO, d'un connecteur pour un module caméra Raspberry Pi et d'un emplacement pour carte SD. Il mesure 65 mm x 30 mm x 5 mm et consomme très peu d'énergie. Le Zero coûte 5 dollars, la version W avec WiFi 10 dollars.
+
+> 🎓 Les processeurs de ces deux appareils sont des processeurs ARM, par opposition aux processeurs Intel/AMD x86 ou x64 que l'on trouve dans la plupart des PC et des Mac. Ces processeurs sont similaires à ceux que l'on trouve dans certains microcontrôleurs, ainsi que dans presque tous les téléphones portables, la Surface X de Microsoft et les nouveaux Mac d'Apple basés sur le silicium.
+
+Toutes les variantes du Raspberry Pi utilisent une version de Debian Linux appelée Raspberry Pi OS. Cette version est disponible en version allégée sans bureau, ce qui est parfait pour les projets 'headless' où vous n'avez pas besoin d'écran, ou en version complète avec un environnement de bureau complet, avec un navigateur web, des applications de bureau, des outils de codage et des jeux. Le système d'exploitation étant une version de Debian Linux, vous pouvez installer n'importe quelle application ou outil fonctionnant sous Debian et conçu pour le processeur ARM du Pi.
+
+#### Tâche
+
+Étudiez le Raspberry Pi.
+
+Si vous utilisez un Raspberry Pi pour ces leçons, renseignez-vous sur les différents composants matériels de la carte.
+
+* Vous pouvez trouver des détails sur les processeurs utilisés sur la [page de documentation sur le matériel du Raspberry Pi](https://www.raspberrypi.org/documentation/hardware/raspberrypi/). Renseignez-vous sur le processeur utilisé dans le Pi que vous utilisez.
+* Localisez les broches GPIO. Pour en savoir plus, consultez la [documentation GPIO du Raspberry Pi](https://www.raspberrypi.org/documentation/hardware/raspberrypi/gpio/README.md). Utilisez le [Guide d'utilisation des broches GPIO](https://www.raspberrypi.org/documentation/usage/gpio/README.md) pour identifier les différentes broches de votre Pi.
+
+### Programmation d'ordinateurs monocartes
+
+Les ordinateurs monocartes sont des ordinateurs à part entière, dotés d'un système d'exploitation complet. Cela signifie qu'il existe un large éventail de langages de programmation, de cadres et d'outils que vous pouvez utiliser pour les coder, contrairement aux microcontrôleurs qui dépendent de la prise en charge de la carte dans des cadres tels qu'Arduino. La plupart des langages de programmation disposent de bibliothèques qui peuvent accéder aux broches GPIO pour envoyer et recevoir des données de capteurs et d'actionneurs.
+
+✅ Quels sont les langages de programmation qui vous sont familiers? Sont-ils pris en charge par Linux?
+
+Le langage de programmation le plus courant pour créer des applications IoT sur un Raspberry Pi est Python. Il existe un vaste écosystème de matériel conçu pour le Pi, et presque tous incluent le code nécessaire à leur utilisation sous forme de bibliothèques Python. Certains de ces écosystèmes sont basés sur des `chapeaux` (ou `hat` en anglais), ainsi appelés parce qu'ils se placent sur le Pi comme un chapeau et se connectent aux 40 broches GPIO à l'aide d'une grande prise. Ces chapeaux offrent des fonctionnalités supplémentaires, telles que des écrans, des capteurs, des voitures télécommandées ou des adaptateurs permettant de brancher des capteurs à l'aide de câbles standardisés.
+
+### Utilisation d'ordinateurs monocartes dans les déploiements professionnels de l'IoT
+
+Les ordinateurs monocartes sont utilisés pour les déploiements IoT professionnels, et pas seulement comme kits de développement. Ils peuvent constituer un moyen puissant de contrôler le matériel et d'exécuter des tâches complexes telles que l'exécution de modèles d'apprentissage automatique. Par exemple, il existe un [module de calcul Raspberry Pi 4 ](https://www.raspberrypi.org/blog/raspberry-pi-compute-module-4/) qui offre toute la puissance d'un Raspberry Pi 4, mais dans un format compact et moins cher, sans la plupart des ports, conçu pour être installé dans du matériel personnalisé.
+
+---
+
+## 🚀 Défi
+
+Le défi de la dernière leçon consistait à dresser une liste du plus grand nombre possible d'appareils IoT présents chez vous, à l'école ou sur votre lieu de travail. Pour chaque appareil de cette liste, pensez-vous qu'ils sont construits autour de microcontrôleurs ou d'ordinateurs monocartes, ou même d'un mélange des deux ?
+
+## Quiz de validation des connaissances
+
+[Quiz de validation des connaissances](https://black-meadow-040d15503.1.azurestaticapps.net/quiz/4)
+
+## Révision et auto-apprentissage
+
+* Lire le [Guide de démarrage Arduino](https://www.arduino.cc/en/Guide/Introduction) pour en savoir plus sur la plateforme Arduino.
+* Lire [l'introduction au Raspberry Pi 4](https://www.raspberrypi.org/products/raspberry-pi-4-model-b/) pour en savoir plus sur les Raspberry Pis.
+* Apprenez-en plus sur certains concepts et acronymes dans l'article [What the FAQ are CPUs, MPUs, MCUs, and GPUs article in the Electrical Engineering Journal](https://www.eejournal.com/article/what-the-faq-are-cpus-mpus-mcus-and-gpus/).
+
+✅ Utilisez ces guides, ainsi que les coûts indiqués en suivant les liens dans le [guide du matériel](../../../hardware.md) pour décider de la plate-forme matérielle que vous souhaitez utiliser, ou si vous préférez utiliser un dispositif virtuel.
+
+## Affectation
+
+[Comparez les microcontrôleurs et les ordinateurs monocartes](assignment.md)
