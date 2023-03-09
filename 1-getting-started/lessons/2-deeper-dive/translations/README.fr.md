@@ -1,10 +1,10 @@
-# Une meilleure immersion dans IoT
+# Une meilleure immersion dans l'IoT
 
-![Un aperçu de cette leçon sous forme de sketch](../../../sketchnotes/lesson-2.jpg)
+![Un aperçu de cette leçon sous forme de sketch](../../../../sketchnotes/lesson-2.jpg)
 
 > Sketchnote par [Nitya Narasimhan](https://github.com/nitya). Cliquez sur l'image pour l'agrandir.
 
-Cette leçon a été dispensée dans le cadre de la [série Hello IoT](https://youtube.com/playlist?list=PLmsFUfdnGr3xRts0TIwyaHyQuHaNQcb6-) de [Microsoft Reactor](https://developer.microsoft.com/reactor/?WT.mc_id=academic-17441-jabenn). La leçon a été enseignée sous la forme de deux vidéos - une leçon d'une heure et une heure de bureau pour approfondir certaines parties de la leçon et répondre aux questions.
+Cette leçon a été dispensée dans le cadre de la [série Hello IoT](https://youtube.com/playlist?list=PLmsFUfdnGr3xRts0TIwyaHyQuHaNQcb6-) de [Microsoft Reactor](https://developer.microsoft.com/reactor/?WT.mc_id=academic-17441-jabenn). La leçon a été dispensée sous forme de deux vidéos - une leçon d'une heure et une heure aux heures de bureau pour approfondir certaines parties de la leçon et répondre aux questions.
 
 [![Leçon 2 : Une meilleure immersion dans l'IoT](https://img.youtube.com/vi/t0SySWw3z9M/0.jpg)](https://youtu.be/t0SySWw3z9M)
 
@@ -22,9 +22,9 @@ Cette leçon approfondit certains des concepts abordés dans la dernière leçon
 
 Dans cette leçon, nous couvrirons :
 
-* [Les composants d'une application IoT](#components-of-an-iot-application)
-* [Approfondissement des microcontrôleurs](#deeper-dive-into-microcontrollers)
-* [Approfondissement des ordinateurs monocartes](#deeper-dive-into-single-board-computers)
+* [Les composants d'une application IoT](#les-composants-d'une-application-iot)
+* [Approfondissement des microcontrôleurs](#approfondissement-des-microcontrôleurs)
+* [Approfondissement des ordinateurs monocartes](#approfondissement-des-ordinateurs-monocartes)
 
 ## Les composants d'une application IoT
 
@@ -32,13 +32,13 @@ Les deux composants d'une application IoT sont l' *Internet* et l' *objet* (the 
 
 ### L'objet (The Thing)
 
-![Une Raspberry Pi 4](../../../images/raspberry-pi-4.jpg)
+![Une Raspberry Pi 4](../../../../images/raspberry-pi-4.jpg)
 
 La partie **Objet** (**Thing** en anglais) de l'IOT (Internet Of Thing) fait référence à un dispositif qui peut interagir avec le monde physique. Ces appareils sont généralement des ordinateurs de petite taille, peu coûteux, fonctionnant à faible vitesse et consommant peu d'énergie - par exemple, de simples microcontrôleurs dotés de kilooctets de RAM (par opposition aux gigaoctets d'un PC) et fonctionnant à seulement quelques centaines de mégahertz (par opposition aux gigahertz d'un PC), mais consommant parfois si peu d'énergie qu'ils peuvent fonctionner pendant des semaines, des mois, voire des années sur des piles.
 
 Ces dispositifs interagissent avec le monde physique, soit en utilisant des capteurs pour recueillir des données sur leur environnement, soit en contrôlant des sorties ou des actionneurs pour apporter des changements physiques. L'exemple type est celui du thermostat intelligent, un appareil doté d'un capteur de température, d'un moyen de régler la température souhaitée (cadran ou écran tactile) et d'une connexion à un système de chauffage ou de refroidissement qui peut être activé lorsque la température détectée est en dehors de la plage souhaitée. Le capteur de température détecte que la pièce est trop froide et un actionneur met le chauffage en marche.
 
-![Un diagramme montrant la température et un cadran comme entrées d'un dispositif IoT, et le contrôle d'un appareil de chauffage comme sortie.](../../../images/basic-thermostat.png)
+![Un diagramme montrant la température et un cadran comme entrées d'un dispositif IoT, et le contrôle d'un appareil de chauffage comme sortie.](../../../../images/basic-thermostat.png)
 
 Il existe un large éventail d'objets différents qui peuvent agir comme des dispositifs IoT, du matériel dédié qui détecte une seule chose, aux appareils à usage général, même votre smartphone ! Un smartphone peut utiliser des capteurs pour détecter le monde qui l'entoure et des actionneurs pour interagir avec ce monde, par exemple en utilisant un capteur GPS pour détecter votre position et un haut-parleur pour vous donner des instructions de navigation vers une destination.
 
@@ -54,11 +54,11 @@ Par ailleurs, les appareils ne se connectent pas toujours directement à l'inter
 
 Dans l'exemple d'un thermostat intelligent, le thermostat se connecterait via le WiFi domestique à un service en nuage s'éxecutant dans le cloud. Il enverrait les données de température à ce service en nuage, et de là, elles seraient écrites dans une sorte de base de données permettant au propriétaire de vérifier les températures actuelles et passées à l'aide d'une application téléphonique. Un autre service cloud saura quelle température le propriétaire souhaite et enverra des messages à l'appareil IoT via le service cloud pour demander au système de chauffage de s'allumer ou de s'éteindre.
 
-![Un diagramme montrant la température et un cadran comme entrées d'un dispositif IoT, le dispositif IoT avec une communication bidirectionnelle vers le cloud, qui à son tour a une communication bidirectionnelle vers un téléphone, et le contrôle d'un chauffage comme sortie du dispositif IoT.](../../../images/mobile-controlled-thermostat.png)
+![Un diagramme montrant la température et un cadran comme entrées d'un dispositif IoT, le dispositif IoT avec une communication bidirectionnelle vers le cloud, qui à son tour a une communication bidirectionnelle vers un téléphone, et le contrôle d'un chauffage comme sortie du dispositif IoT.](../../../../images/mobile-controlled-thermostat.png)
 
 Une version encore plus intelligente pourrait utiliser l'IA dans le cloud avec des données provenant d'autres capteurs connectés à d'autres appareils IoT, tels que des capteurs d'occupation qui détectent quelles pièces sont utilisées, ainsi que des données telles que la météo et même votre calendrier, pour prendre des décisions sur la façon de régler la température de manière intelligente. Par exemple, il pourrait éteindre votre chauffage s'il lit dans votre calendrier que vous êtes en vacances, ou éteindre le chauffage pièce par pièce en fonction des pièces que vous utilisez, apprenant des données pour être de plus en plus précis au fil du temps.
 
-![Un diagramme montrant plusieurs capteurs de température et un cadran comme entrées d'un dispositif IoT, un dispositif IoT avec une communication bidirectionnelle vers le cloud, qui à son tour a une communication bidirectionnelle vers un téléphone, un calendrier et un service météorologique, et la commande d'un chauffage comme sortie du dispositif IoT.](../../../images/smarter-thermostat.png)
+![Un diagramme montrant plusieurs capteurs de température et un cadran comme entrées d'un dispositif IoT, un dispositif IoT avec une communication bidirectionnelle vers le cloud, qui à son tour a une communication bidirectionnelle vers un téléphone, un calendrier et un service météorologique, et la commande d'un chauffage comme sortie du dispositif IoT.](../../../../images/smarter-thermostat.png)
 
 ✅ Quelles autres données pourraient contribuer à rendre un thermostat connecté à Internet plus intelligent ?
 
@@ -94,7 +94,7 @@ Plus le cycle d'horloge est rapide, plus le nombre d'instructions pouvant être 
 
 > 💁 Les CPU exécutent des programmes en utilisant le [cycle de récupération-décodage-exécution](https://wikipedia.org/wiki/Instruction_cycle). Pour chaque tic d'horloge, le CPU va chercher l'instruction suivante dans la mémoire, la décode, puis l'exécute, par exemple en utilisant une unité arithmétique et logique (UAL) pour additionner 2 nombres. Certaines exécutions prennent plusieurs ticks pour être exécutées, le cycle suivant sera donc exécuté au prochain tick après la fin de l'instruction.
 
-![Les cycles de recherche, de décodage et d'exécution montrant la recherche prenant une instruction du programme stocké en RAM, puis la décodant et l'exécutant sur un CPU.](../../../images/fetch-decode-execute.png)
+![Les cycles de recherche, de décodage et d'exécution montrant la recherche prenant une instruction du programme stocké en RAM, puis la décodant et l'exécutant sur un CPU.](../../../../images/fetch-decode-execute.png)
 
 Les microcontrôleurs ont des vitesses d'horloge beaucoup plus faibles que les ordinateurs de bureau ou portables, ou même que la plupart des smartphones. Le terminal Wio, par exemple, possède un processeur qui fonctionne à 120 MHz, soit 120 000 000 de cycles par seconde.
 
@@ -128,7 +128,7 @@ Comme pour l'unité centrale, la mémoire d'un microcontrôleur est plusieurs fo
 
 Le diagramme ci-dessous montre la différence de taille relative entre 192KB et 8GB - le petit point au centre représente 192KB.
 
-! [Une comparaison entre 192KB et 8GB - plus de 40 000 fois plus grand](../../../images/ram-comparison.png)
+! [Une comparaison entre 192KB et 8GB - plus de 40 000 fois plus grand](../../../../images/ram-comparison.png)
 
 Le stockage des programmes est également plus petit que dans un PC. Un PC typique peut avoir un disque dur de 500 Go pour le stockage des programmes, alors qu'un microcontrôleur peut n'avoir que des kilo-octets ou peut-être quelques méga-octets (Mo) de stockage (1 Mo correspond à 1 000 Ko, ou 1 000 000 d'octets). Le terminal Wio dispose de 4 Mo de mémoire de programme.
 
@@ -184,7 +184,7 @@ Les cartes Arduino sont codées en C ou en C++. L'utilisation de C/C++ permet de
 
 Vous écrirez votre code d'installation dans la fonction `setup`, comme la connexion aux services WiFi et cloud ou l'initialisation des broches pour l'entrée et la sortie. Votre code de boucle contiendrait alors le code de traitement, comme la lecture d'un capteur et l'envoi de la valeur au nuage. Vous devez normalement inclure un délai dans chaque boucle, par exemple, si vous voulez que les données du capteur soient envoyées toutes les 10 secondes, vous devez ajouter un délai de 10 secondes à la fin de la boucle pour que le microcontrôleur puisse dormir, économisant ainsi de l'énergie, puis exécuter la boucle à nouveau lorsque cela est nécessaire 10 secondes plus tard.
 
-![Un croquis d'arduino exécutant d'abord la fonction setup, puis exécutant la fonction loop à plusieurs reprises](../../../images/arduino-sketch.png)
+![Un croquis d'arduino exécutant d'abord la fonction setup, puis exécutant la fonction loop à plusieurs reprises](../../../../images/arduino-sketch.png)
 
 ✅ Cette architecture de programme est connue sous le nom de *boucle d'événements* ou *boucle de messages*. De nombreuses applications l'utilisent en arrière plan et c'est la norme pour la plupart des applications de bureau qui fonctionnent sur des systèmes d'exploitation comme Windows, macOS ou Linux. La `boucle` ('loop') écoute les messages provenant des composants de l'interface utilisateur tels que les boutons, ou des périphériques tels que le clavier, et y répond. Pour en savoir plus, consultez cet [article sur la boucle d'événements](https://wikipedia.org/wiki/Event_loop).
 
@@ -198,23 +198,23 @@ Il existe un vaste écosystème de bibliothèques Arduino tierces qui vous perme
 
 Si vous utilisez un terminal Wio pour ces leçons, relisez le code que vous avez écrit dans la dernière leçon. Trouvez les fonctions `setup` et `loop`. Surveillez la sortie série pour voir si la fonction loop est appelée de façon répétée. Essayez d'ajouter du code à la fonction `setup` pour écrire sur le port série et observez que ce code n'est appelé qu'une seule fois à chaque redémarrage. Essayez de redémarrer votre appareil avec l'interrupteur d'alimentation sur le côté pour montrer que ce code est appelé à chaque redémarrage de l'appareil.
 
-## Immersion à propos des ordinateurs monocartes
+## Approfondissement des ordinateurs monocartes
 
 Dans la dernière leçon, nous avons présenté les ordinateurs monocartes. Nous allons maintenant les étudier plus en détail.
 
 ### Raspberry Pi
 
-![Le logo Raspberry Pi](../../../images/raspberry-pi-logo.png)
+![Le logo Raspberry Pi](../../../../images/raspberry-pi-logo.png)
 
 La [Raspberry Pi Foundation](https://www.raspberrypi.org) est une organisation caritative britannique fondée en 2009 pour promouvoir l'étude de l'informatique, en particulier dans les écoles. Dans le cadre de cette mission, elle a développé un ordinateur monocarte, appelé Raspberry Pi. Les Raspberry Pis sont actuellement disponibles en trois variantes : une version pleine grandeur, le Pi Zero, plus petit, et un module de calcul qui peut être intégré dans votre appareil IoT final.
 
-![Un Raspberry Pi 4](.../../../images/raspberry-pi-4.jpg)
+![Un Raspberry Pi 4](../../../../images/raspberry-pi-4.jpg)
 
 La dernière itération du Raspberry Pi grandeur nature est le Raspberry Pi 4B. Il dispose d'un processeur quadricœur (4 cœurs) cadencé à 1,5 GHz, de 2, 4 ou 8 Go de RAM, d'un réseau Ethernet gigabit, du WiFi, de 2 ports HDMI supportant les écrans 4k, d'un port de sortie audio et vidéo composite, de ports USB (2 USB 2.0, 2 USB 3.0), de 40 broches GPIO, d'un connecteur pour un module caméra Raspberry Pi, et d'un emplacement pour carte SD. Le tout sur une carte de 88 mm x 58 mm x 19,5 mm, alimentée par une alimentation USB-C de 3A. Ces cartes sont proposées à partir de 35 dollars, bien moins chères qu'un PC ou un Mac.
 
 > 💁 Il existe également un ordinateur tout-en-un Pi400 avec un Pi4 intégré dans un clavier.
 
-![Un Raspberry Pi Zero](.../../../images/raspberry-pi-zero.jpg)
+![Un Raspberry Pi Zero](../../../../images/raspberry-pi-zero.jpg)
 
 Le Pi Zero est beaucoup plus petit et moins puissant. Il dispose d'un processeur à cœur unique de 1 GHz, de 512 Mo de RAM, du WiFi (dans le modèle Zero W), d'un port HDMI unique, d'un port micro-USB, de 40 broches GPIO, d'un connecteur pour un module caméra Raspberry Pi et d'un emplacement pour carte SD. Il mesure 65 mm x 30 mm x 5 mm et consomme très peu d'énergie. Le Zero coûte 5 dollars, la version W avec WiFi 10 dollars.
 
@@ -259,8 +259,8 @@ Le défi de la dernière leçon consistait à dresser une liste du plus grand no
 * Lire [l'introduction au Raspberry Pi 4](https://www.raspberrypi.org/products/raspberry-pi-4-model-b/) pour en savoir plus sur les Raspberry Pis.
 * Apprenez-en plus sur certains concepts et acronymes dans l'article [What the FAQ are CPUs, MPUs, MCUs, and GPUs article in the Electrical Engineering Journal](https://www.eejournal.com/article/what-the-faq-are-cpus-mpus-mcus-and-gpus/).
 
-✅ Utilisez ces guides, ainsi que les coûts indiqués en suivant les liens dans le [guide du matériel](../../../hardware.md) pour décider de la plate-forme matérielle que vous souhaitez utiliser, ou si vous préférez utiliser un dispositif virtuel.
+✅ Utilisez ces guides, ainsi que les coûts indiqués en suivant les liens dans le [guide du matériel](../../../../hardware.md) pour décider de la plate-forme matérielle que vous souhaitez utiliser, ou si vous préférez utiliser un dispositif virtuel.
 
 ## Affectation
 
-[Comparez les microcontrôleurs et les ordinateurs monocartes](assignment.md)
+[Comparez les microcontrôleurs et les ordinateurs monocartes](assignment.fr.md)
