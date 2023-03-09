@@ -42,12 +42,6 @@ The rise of automated harvesting moved the sorting of produce from the harvest t
 
 The next evolution was to use machines to sort, either built into the harvester, or in the processing plants. The first generation of these machines used optical sensors to detect colors, controlling actuators to push green tomatoes into a waste bin using levers or puffs of air, leaving red tomatoes to continue on a network of conveyor belts.
 
-The video below shows one of these machines in action.
-
-[![Automatic sorting of tomatoes via color](https://img.youtube.com/vi/AcRL91DouAU/0.jpg)](https://www.youtube.com/watch?v=AcRL91DouAU)
-
-> 🎥 Click the image above to watch a video
-
 In this video, as tomatoes fall from one conveyer belt to another, green tomatoes are detected and flicked into a bin using levers.
 
 ✅ What conditions would you need in a factory or in a field for these optical sensors to work correctly?
