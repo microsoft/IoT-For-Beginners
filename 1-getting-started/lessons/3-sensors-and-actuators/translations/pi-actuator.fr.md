@@ -111,6 +111,6 @@ Programmez la veilleuse.
 
 ![La LED connectée au Pi s'allume et s'éteint au fur et à mesure que le niveau de lumière change](../../../../images/pi-running-assignment-1-1.gif)
 
-> 💁 Vous trouverez ce code dans le dossier [code-actuator/pi](code-actuator/pi).
+> 💁 Vous trouverez ce code dans le dossier [code-actuator/pi](../code-actuator/pi).
 
 😀 Votre programme de veilleuse est un succès!
