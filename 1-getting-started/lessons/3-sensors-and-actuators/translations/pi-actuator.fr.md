@@ -40,7 +40,7 @@ Connectez la LED.
 
 1. Le Raspberry Pi étant hors tension, connectez l'autre extrémité du câble Grove à la prise numérique marquée **D5** sur le chapeau de base Grove attaché au Pi. Cette prise est la deuxième en partant de la gauche, sur la rangée de prises à côté des broches GPIO.
 
-![La LED grove connectée à la prise D5](.../../../images/pi-led.png)
+![La LED grove connectée à la prise D5](../../../../images/pi-led.png)
 
 ## Programmer la veilleuse
 
@@ -109,7 +109,7 @@ Programmez la veilleuse.
 
     > 💁 Si la LED ne s'allume pas, assurez-vous qu'elle est connectée dans le bon sens et que le bouton de rotation est réglé sur "full on".
 
-![La LED connectée au Pi s'allume et s'éteint au fur et à mesure que le niveau de lumière change](../../../images/pi-running-assignment-1-1.gif)
+![La LED connectée au Pi s'allume et s'éteint au fur et à mesure que le niveau de lumière change](../../../../images/pi-running-assignment-1-1.gif)
 
 > 💁 Vous trouverez ce code dans le dossier [code-actuator/pi](code-actuator/pi).
 
