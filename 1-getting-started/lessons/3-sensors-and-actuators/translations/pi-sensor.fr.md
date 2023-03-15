@@ -91,6 +91,6 @@ Les valeurs lumineuses sont transmises à la console. Couvrez et découvrez le c
     Light level: 290
     ```
 
-> 💁 Vous trouverez ce code dans le dossier [code-sensor/pi](code-sensor/pi).
+> 💁 Vous trouverez ce code dans le dossier [code-sensor/pi](../code-sensor/pi).
 
 😀 L'ajout d'un capteur à votre programme de veilleuse a été un succès!
