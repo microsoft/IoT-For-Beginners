@@ -105,6 +105,6 @@ Programmez la veilleuse.
 
 ![La LED dans l'application CounterFit s'allume et s'éteint lorsque le niveau de lumière change](../../../../images/virtual-device-running-assignment-1-1.gif)
 
-> 💁 Vous trouverez ce code dans le dossier [../code-actuator/virtual-device](code-actuator/virtual-device).
+> 💁 Vous trouverez ce code dans le dossier [code-actuator/virtual-device](../code-actuator/virtual-device).
 
 😀 Votre programme de veilleuse a été réalisé avec succès!
