@@ -22,12 +22,12 @@ Cette leçon présente deux concepts importants pour votre appareil IoT : les ca
 
 Dans cette leçon, nous aborderons les points suivants
 
-* [Qu'est-ce qu'un capteur?](#qu'est-ce-qu'un-capteur?)
+* [Qu'est-ce qu'un capteur?](#quest-ce-quun-capteur)
 * [Utiliser un capteur](#utiliser-un-capteur)
 * [Les types de capteurs](#les-types-de-capteurs)
-* [Qu'est-ce que les actionneurs?](#qu'est-ce-que-les-actionneurs?)
+* [Qu'est-ce que les actionneurs?](#quest-ce-que-les-actionneurs)
 * [Utiliser un actionneur](#utiliser-un-actionneur)
-* [Les types d'actionneurs](#les-types-d'actionneurs)
+* [Les types d'actionneurs](#les-types-dactionneurs)
 
 ## Qu'est-ce qu'un capteur?
 
