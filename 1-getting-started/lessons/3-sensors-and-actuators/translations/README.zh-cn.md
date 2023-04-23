@@ -1,6 +1,6 @@
 # 通过传感器和执行器与物理世界交互
 
-![课程概览](../../../sketchnotes/lesson-3.jpg)
+![课程概览](../../../../sketchnotes/lesson-3.jpg)
 
 > 由 [Nitya Narasimhan](https://github.com/nitya) 绘制。 单击图像可查看大图。
 
@@ -66,7 +66,7 @@
 
 比如电位计。是可以在两个位置间旋转的刻度盘，传感器会测量旋转角度。
 
-![A potentiometer set to a mid point being sent 5 volts returning 3.8 volts](../../../images/potentiometer.png)
+![A potentiometer set to a mid point being sent 5 volts returning 3.8 volts](../../../../images/potentiometer.png)
 
 物联网设备将以电压（例如 5V）向电位计发送电信号。当电位计调整时，它会改变从另一侧发出的电压。假设电位计标有从 0 到 [11](https://wikipedia.org/wiki/Up_to_eleven) 的刻度盘，如放大器上的音量旋钮。当电位计处于完全关闭位置 (0) 时，即输出 0V。当处于完全打开位置 (11) 时，即输出 5V。
 
@@ -93,7 +93,7 @@
 
 最简单的数字传感器是按钮或开关。一个具有两种状态（开或关）的传感器。
 
-![A button is sent 5 volts. When not pressed it returns 0 volts, when pressed it returns 5 volts](../../../images/button.png)
+![A button is sent 5 volts. When not pressed it returns 0 volts, when pressed it returns 5 volts](../../../../images/button.png)
 
 物联网设备上的引脚（如 GPIO）可直接将此信号测量为 0 或 1。如果发送的电压与返回的电压相同，则读取的值为 1，否则值为 0。其无需信号转换，只会是 1 或 0。
 
@@ -143,7 +143,7 @@
 例如家中可能有的调光灯。提供给灯的电压强度决定了它的亮度。
 
 
-![A light dimmed at a low voltage and brighter at a higher voltage](../../../images/dimmable-light.png)
+![A light dimmed at a low voltage and brighter at a higher voltage](../../../../images/dimmable-light.png)
 
 与传感器一样，物联网设备在数字信号上工作，而非模拟信号。这意味着要发送模拟信号，设备需要数模转换器（DAC），无论是自身具备或使用连接器板。这将来自物联网设备的 0 和 1 转换为执行器可以使用的模拟电压。
 
@@ -159,7 +159,7 @@
 
 假设你在使用一个 5V 的电机，你向电机发送短脉冲，将电压切换到高电平(5V)持续 0.02 秒。此时间内，电机可旋转十分之一，即 36°。接着信号暂停 0.02 秒后，发送低电平信号(0V)。每个开关周期持续 0.04 秒，并不断重复该循环。
 
-![Pule width modulation rotation of a motor at 150 RPM](../../../images/pwm-motor-150rpm.png)
+![Pule width modulation rotation of a motor at 150 RPM](../../../../images/pwm-motor-150rpm.png)
 
 这意味着在 1 秒钟内，有 25 次 5V 脉冲使电机每次旋转 0.02 秒，每个脉冲之后有 0.02 秒的 0V 暂停电机旋转。每次脉冲使电机旋转十分之一，电机每秒将完成 2.5 转。即使用数字信号以每秒 2.5 转或 [每分钟 150 转](https://wikipedia.org/wiki/Revolutions_per_minute) (旋转速度的非标准度量) 的速度旋转电机。
 
@@ -170,7 +170,7 @@
 
 > 🎓 当 PWM 信号导通一半时间，关断一半时间时，称为[50%占空比](https://wikipedia.org/wiki/Duty_cycle)。占空比以信号处于导通与关断状态的时间百分比来衡量。
 
-![Pule width modulation rotation of a motor at 75 RPM](../../../images/pwm-motor-75rpm.png)
+![Pule width modulation rotation of a motor at 75 RPM](../../../../images/pwm-motor-75rpm.png)
 
 可以通过更改脉冲的大小来更改电机速度。例如，使用相同的电机，可保持相同的 0.04 秒循环时间，导通脉冲减半至 0.01 秒，关断脉冲增加到 0.03 秒。每秒具有相同数量的脉冲 (25)，但每个脉冲的长度只有之前的一半。半长脉冲仅使电机旋转二十分之一，每秒 25 个脉冲将完成每秒 1.25 转或 75rpm。即通过改变数字信号的脉冲速度，可将电机的速度减半。
 
@@ -191,7 +191,7 @@
 
 例如 LED 就是简单的数字执行器。当设备发送数字信号 1 时，会发送高电压点亮 LED。当发送 0 时，电压降至 0V，LED 熄灭。
 
-![A LED is off at 0 volts and on at 5V](../../../images/led.png)
+![A LED is off at 0 volts and on at 5V](../../../../images/led.png)
 
 ✅ 你还能想到哪些简单的具备2种状态的执行器？例如螺线管，它是一种电磁铁，可通电激活磁性来执行某些操作，如移动门栓来锁定/解锁门。
 
