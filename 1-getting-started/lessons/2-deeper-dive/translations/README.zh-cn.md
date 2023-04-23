@@ -1,9 +1,9 @@
 # 深入了解物联网
 
-![本课程概述草图](../../../sketchnotes/lesson-2.jpg)
+![本课程概述草图](../../../../sketchnotes/lesson-2.jpg)
 
 > Sketchnote by [Nitya Narasimhan](https://github.com/nitya). 单击图像可查看大图。
-本课程是 [Hello IoT series](https://youtube.com/playlist?list=PLmsFUfdnGr3xRts0TIwyaHyQuHaNQcb6-) 是由 [Microsoft Reactor](https://developer.microsoft.com/reactor/?WT.mc_id=academic-17441-jabenn) 制作。 该课程以 2 个视频的形式授课 - 1小时的课程时间和1小时的答疑时间，使您能更深入地了解课程的各个部分并答疑解惑。
+本课程是 [Hello IoT series](https://youtube.com/playlist?list=PLmsFUfdnGr3xRts0TIwyaHyQuHaNQcb6-), 由 [Microsoft Reactor](https://developer.microsoft.com/reactor/?WT.mc_id=academic-17441-jabenn) 制作。 该课程以 2 个视频的形式授课 - 1小时的课程时间和1小时的答疑时间，使您能更深入地了解课程的各个部分并答疑解惑。
 
 [![课程 2: 深入了解物联网](https://img.youtube.com/vi/t0SySWw3z9M/0.jpg)](https://youtu.be/t0SySWw3z9M)
 
@@ -31,13 +31,13 @@
 
 ### 物
 
-![树莓派 4](../../../images/raspberry-pi-4.jpg)
+![树莓派 4](../../../../images/raspberry-pi-4.jpg)
 
 物联网的 **物** 部分是指可以与物理世界交互的设备。这些设备通常是小型，低价的计算机，它们使用低功耗并以低速运行 - 例如，只有千字节RAM（与PC中的千兆字节对比鲜明）的简单微控制器，仅以几百兆赫兹运行（与PC中的千兆赫对比鲜明），但其消耗的功率非常小，它们可以仅通过电池供电就运行数周，数月甚至数年。
 
 这些设备与物理世界进行交互，通过使用传感器从周围环境收集数据，或者通过反馈输出或控制执行器改变物理世界。典型的例子是智能恒温器 - 一种具有温度传感器的设备，可通过表盘或触摸屏设置所需温度，该设备与加热或冷却系统的连接，当检测到的温度超出所需范围时进行调节。当温度传感器检测到房间太冷，就会触发执行器打开暖气。
 
-![该图图显示了作为物联网设备输入的温度和刻度盘，以及作为输出的加热控制器](../../../images/basic-thermostat.png)
+![该图图显示了作为物联网设备输入的温度和刻度盘，以及作为输出的加热控制器](../../../../images/basic-thermostat.png)
 
 有各种各样的东西可以充当物联网设备，从感知状态的专用硬件到通用设备，甚至是您的智能手机！智能手机可以使用传感器来检测周围的世界，并使用执行器与世界进行交互 - 例如，使用GPS传感器来检测您的位置，并使用扬声器为您提供前往目的地的导航指令。
 
@@ -53,11 +53,11 @@
 
 以智能恒温器为例，恒温器将使用家庭 WiFi 连接到在云端服务器。它将温度数据发送到云服务并写入数据库，房主便可使用手机应用程序查询当前和历史温度。云服务还可获取房主预设的温度，并将其发送给物联网设备，以控制供暖系统的开关。
 
-![该图显示了温度和表盘作为物联网设备的输入，物联网设备与云有两条通路，云又与电话有两条通路，物联网设备的输出则是对加热器的控制](../../../images/mobile-controlled-thermostat.png)
+![该图显示了温度和表盘作为物联网设备的输入，物联网设备与云有两条通路，云又与电话有两条通路，物联网设备的输出则是对加热器的控制](../../../../images/mobile-controlled-thermostat.png)
 
 更智能的版本可以在云服务中使用 AI （人工智能），将连接到其他物联网设备的传感器数据，例如探测哪些房间正在使用的占用传感器，以及天气或日历信息等，以决定如何更智能地设置温度。例如它从你的日历中读取到你正在度假，它将关闭暖气，或者根据使用房间情况关闭特定房间的暖气，从数据中学习的准确性将随时间推移逐步提高。
 
-![该图表显示了多个温度传感器和一个表盘作为物联网设备的输入，物联网设备与云有两条通路，云又与电话、日历和天气服务有两条通路，并控制加热器作为物联网设备的输出](../../../images/smarter-thermostat.png)
+![该图表显示了多个温度传感器和一个表盘作为物联网设备的输入，物联网设备与云有两条通路，云又与电话、日历和天气服务有两条通路，并控制加热器作为物联网设备的输出](../../../../images/smarter-thermostat.png)
 
 ✅ 还有哪些数据可以帮助连接互联网的恒温器更智能？
 
@@ -128,7 +128,7 @@ RAM （随机存取存储器）是程序用于运行时的内存，包含程序�
 
 下图显示了 192KB 和 8GB 之间的相对大小差异 - 中间的点表示 192KB。
 
-![192KB和8GB之间的比较-差距超过40000倍](../../../images/ram-comparison.png)
+![192KB和8GB之间的比较-差距超过40000倍](../../../../images/ram-comparison.png)
 
 程序存储也比 PC 小。典型的 PC 可能具有用于程序存储的500GB硬盘驱动器，而微控制器可能只有千字节或几兆字节（MB）的存储空间（1MB是1，000KB或1，000，000字节）。Wio 终端有4MB的程序存储空间。
 
@@ -176,7 +176,7 @@ RAM （随机存取存储器）是程序用于运行时的内存，包含程序�
 
 #### Arduino
 
-![Arduino 的 logo](../../../images/arduino-logo.svg)
+![Arduino 的 logo](../../../../images/arduino-logo.svg)
 
 [Arduino](https://www.arduino.cc) 可能是最受欢迎的微控制器框架，尤其是在学生，业余爱好者和创客中。Arduino 是一个结合软件和硬件的开源电子平台。您可以从 Arduino 官方或其他制造商处购买 Arduino 兼容板，然后使用 Arduino 框架进行开发。
 
@@ -184,7 +184,7 @@ Arduino 开发板使用 C 或 C++ 编码。使用 C/C++ 可以编译教小的代
 
 你可以将启动代码写在 `setup` 函数中，例如连接到 WiFi 和云服务或初始化输入和输出引脚。然后，将处理代码写入 `loop` 循环，例如从传感器读取数据并发送到云。通常会在每次循环中包含一个延迟，例如，如果只希望传感器数据每 10 秒发送一次，则可以在环路结束时添加 10 秒的延迟，以便微控制器休眠节省功耗，10 秒后再次循环。
 
-![Arduino 开机首先执行 setup 函数, 然后循环执行 loop 函数](../../../images/arduino-sketch.png)
+![Arduino 开机首先执行 setup 函数, 然后循环执行 loop 函数](../../../../images/arduino-sketch.png)
 
 ✅ 此程序体系结构称为 *事件循环* 或 *消息循环*。许多应用程序在后台使用该结构，该结构也是 Windows，macOS 或 Linux 等操作系统上大多数桌面应用的标准。监听来自用户界面组件（如按钮）或设备（如键盘）的消息，并对其进行响应。可以在[这篇文章](https://wikipedia.org/wiki/Event_loop)中阅读有关事件循环的更多信息。
 
@@ -204,17 +204,17 @@ Arduino 提供了用于与微控制器和 I/O 引脚交互的标准库，在不�
 
 ### 树莓派
 
-![树莓派 logo](../../../images/raspberry-pi-logo.png)
+![树莓派 logo](../../../../images/raspberry-pi-logo.png)
 
 树莓派基金会是来自英国的慈善机构，成立于2009年，旨在促进计算机科学研究，特别是学校层面。作为这项任务的一部分，他们开发了一种单板计算机，称为Raspberry Pi (树莓派)。树莓派目前有 3 种版本 - 全尺寸版本、尺寸较小的树莓派 Zero 和可以内置到物联网终端设备中的计算模块。
 
-![树莓派 4](../../../images/raspberry-pi-4.jpg)
+![树莓派 4](../../../../images/raspberry-pi-4.jpg)
 
 截至目前全尺寸树莓派最新版本是树莓派 4B。它有一个四核（4 核）CPU，运行在 1.5GHz、2、4 或 8GB RAM、千兆以太网、WiFi、2 个支持 4k 屏幕的 HDMI 端口、一个音频和复合视频输出端口、USB 端口（2 个 USB 2.0、2 个 USB 3.0）、40 个 GPIO 引脚、一个用于树莓派相机模块的相机连接器和一个 SD 卡插槽。所有这些都在一块 88毫米 x 58毫米 x 19.5毫米 的开发板上，由 3A USB-C 电源供电。起价为35美元，比 PC 或 Mac 便宜得多。
 
 > 💁 还有一个 Pi 400 一体机，键盘内置 Pi 4。
 
-![树莓派 Zero](../../../images/raspberry-pi-zero.jpg)
+![树莓派 Zero](../../../../images/raspberry-pi-zero.jpg)
 
 树莓派 Zero要小得多，功耗更低。它具有单核1GHz CPU，512MB内存，WiFi（在Zero W型号中），单个HDMI端口，微型USB端口，40个GPIO引脚，树莓派相机模块的相机连接器和SD卡插槽。它的尺寸为 65毫米 x 30毫米 x 5毫米，功耗极低。Zero是5美元，WiFi版本是10美元。
 
@@ -259,7 +259,7 @@ Arduino 提供了用于与微控制器和 I/O 引脚交互的标准库，在不�
 * 阅读 [树莓派 4 介绍](https://www.raspberrypi.org/products/raspberry-pi-4-model-b/) 了解更多关于树莓派的信息。
 * 一些概念和首字母缩略词的信息可参阅《电气工程杂志》中[CPU、MPU、MCU 和 GPU 常见问题解答](https://www.eejournal.com/article/what-the-faq-are-cpus-mpus-mcus-and-gpus/)一文。
 
-✅ 使用本文和 [硬件指南](../../../hardware.md) 中的成本信息来决定你所需的硬件平台，或者使用虚拟设备。
+✅ 使用本文和 [硬件指南](../../../../hardware.md) 中的成本信息来决定你所需的硬件平台，或者使用虚拟设备。
 
 ## 作业
 
