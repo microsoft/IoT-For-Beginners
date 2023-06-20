@@ -124,11 +124,11 @@ Python 的强大功能之一是能够安装 [pip 软件包](https://pypi.org)；
 
 3. 当 VS Code 被启动，它会激活 Python 虚拟环境。被选择的虚拟环境将在底部状态栏出现：
 
-    ![ 被选择的虚拟环境将在 VS Code的底部状态栏出现](../../../images/vscode-virtual-env.png)
+    ![ 被选择的虚拟环境将在 VS Code的底部状态栏出现](../../../../images/vscode-virtual-env.png)
 
 4. 如果 VS Code 被启动时 VS Code 终端已经正在运行，虚拟环境不会被激活。这时，最容易做的是用 **Kill the active terminal instance** 的按钮：
 
-    ![VS Code Kill the active terminal instance 按钮](../../../images/vscode-kill-terminal.png)
+    ![VS Code Kill the active terminal instance 按钮](../../../../images/vscode-kill-terminal.png)
 
     虚拟环境的名字将是终端提示的字首，所以你可以把它用来确认虚拟环境已经被激活。例如，它可能是：
 
