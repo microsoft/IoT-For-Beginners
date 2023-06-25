@@ -1,6 +1,6 @@
 # 深入了解物联网
 
-![本课程概述草图](../../../sketchnotes/lesson-2.jpg)
+![本课程概述草图](../../../../sketchnotes/lesson-2.jpg)
 
 > Sketchnote by [Nitya Narasimhan](https://github.com/nitya). 单击图像可查看大图。
 本课程是 [Hello IoT series](https://youtube.com/playlist?list=PLmsFUfdnGr3xRts0TIwyaHyQuHaNQcb6-) 是由 [Microsoft Reactor](https://developer.microsoft.com/reactor/?WT.mc_id=academic-17441-jabenn) 制作。 该课程以 2 个视频的形式授课 - 1小时的课程时间和1小时的答疑时间，使您能更深入地了解课程的各个部分并答疑解惑。
@@ -31,7 +31,7 @@
 
 ### 物
 
-![树莓派 4](../../../images/raspberry-pi-4.jpg)
+![树莓派 4](../../../../images/raspberry-pi-4.jpg)
 
 物联网的 **物** 部分是指可以与物理世界交互的设备。这些设备通常是小型，低价的计算机，它们使用低功耗并以低速运行 - 例如，只有千字节RAM（与PC中的千兆字节对比鲜明）的简单微控制器，仅以几百兆赫兹运行（与PC中的千兆赫对比鲜明），但其消耗的功率非常小，它们可以仅通过电池供电就运行数周，数月甚至数年。
 
