@@ -382,7 +382,7 @@ The next step for our Internet controlled nightlight is for the server code to s
     command = { 'led_on' : payload['light'] < 300 }
     print("Sending message:", command)
     
-    client.publish(server_command_topic, json.dumps(command))
+    mqtt_client.publish(server_command_topic, json.dumps(command))
     ```
 
     This sends a JSON message to the command topic with the value of `led_on` set to true or false depending on if the light is less than 300 or not. If the light is less than 300, true is sent to instruct the device to turn the LED on.
