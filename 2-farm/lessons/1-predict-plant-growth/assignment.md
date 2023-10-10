@@ -10,7 +10,7 @@ Once you have temperature data, you can use the Jupyter Notebook in this repo to
 
 1. Create a folder called `gdd-calculation`
 
-1. Download the [gdd.ipynb](./code-notebook/gdd.ipynb) file and copy it into the `gdd-calculation` folder.
+1. Download the [gdd.ipynb](https://github.com/microsoft/IoT-For-Beginners/blob/main/2-farm/lessons/1-predict-plant-growth/code-notebook/gdd.ipynb) file and copy it into the `gdd-calculation` folder.
 
 1. Copy the `temperature.csv` file created by the MQTT server
 
