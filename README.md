@@ -132,10 +132,12 @@ Would you like to contribute a translation? Please read our [translation guideli
 
 Our team produces other curricula! Check out:
 
-- [Web Dev for Beginners](https://aka.ms/webdev-beginners)
-- [ML for Beginners](https://aka.ms/ml-beginners)
-- [Data Science for Beginners](https://aka.ms/datascience-beginners)
 - [AI for Beginners](https://aka.ms/ai-beginners)
+- [Data Science for Beginners](https://aka.ms/datascience-beginners)
+- [Generative AI for Beginners](https://aka.ms/genai-beginners)
+- [IoT for Beginners](https://aka.ms/iot-beginners)
+- [Machine Learning for Beginners](https://aka.ms/ml-beginners)
+- [XR Development for Beginners](https://aka.ms/xr-dev-for-beginners)
 - [XR Development for Beginners](https://github.com/microsoft/xr-development-for-beginners)
 
 ## Image attributions
