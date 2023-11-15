@@ -2,7 +2,7 @@
 
 Dans cette section du programme, vous serez initié à l'Internet des objets et apprendrez les concepts de base, y compris la réalisation de votre premier projet « Hello World » IoT connecté au cloud. Ce projet est une veilleuse qui s'allume lorsque les niveaux de lumière mesurés par un capteur diminuent.
 
-![La LED connectée au WIO qui s'allume et s'éteint lorsque le niveau de lumière change](../images/wio-running-assignment-1-1.gif)
+![La LED connectée au WIO qui s'allume et s'éteint lorsque le niveau de lumière change](../../images/wio-running-assignment-1-1.gif)
 
 ## Sujets
 
