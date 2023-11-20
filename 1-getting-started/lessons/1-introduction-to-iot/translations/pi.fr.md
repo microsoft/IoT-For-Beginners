@@ -268,6 +268,6 @@ Créez l'application Hello World.
      Hello world!
      ```
 
-> 💁 Vous pouvez trouver ce code dans le dépôt [code/pi] (code/pi).
+> 💁 Vous pouvez trouver ce code dans le dépôt [code/pi](code/pi).
 
 😀 Votre programme «Hello World» a été un succès!
