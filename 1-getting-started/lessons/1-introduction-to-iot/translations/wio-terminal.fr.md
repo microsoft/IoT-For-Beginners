@@ -2,7 +2,7 @@
 
 Le [Wio Terminal de Seeed Studios](https://www.seeedstudio.com/Wio-Terminal-p-4509.html) est un microcontrôleur compatible à l'Arduino, avec WiFi et certains capteurs et actionneurs intégrés, ainsi que des ports pour ajouter plus de capteurs et d'actionneurs, en utilisant un écosystème matériel appelé [Grove](https://www.seeedstudio.com/category/Grove-c-1003.html). 
 
-![Un Wio Terminal Seeed studios](../../../images/wio-terminal.png)
+![Un Wio Terminal Seeed studios](../../../../images/wio-terminal.png)
 
 ## Configuration
 
@@ -42,15 +42,15 @@ Créez le projet PlatformIO.
 
 1. L'icône PlatformIO sera sur la barre de menu latérale :
 
-    ![L'option de menu Platform IO](../../../images/vscode-platformio-menu.png)
+    ![L'option de menu Platform IO](../../../../images/vscode-platformio-menu.png)
 
     Sélectionnez cet élément de menu, puis sélectionnez *PIO Home -> Open*
 
-    ![L'option Open Platform IO](../../../images/vscode-platformio-home-open.png)
+    ![L'option Open Platform IO](../../../../images/vscode-platformio-home-open.png)
 
 1. À partir de l'écran d'accueil, sélectionnez le bouton **+ New Project**
 
-    ![Le bouton de nouveau projet](../../../images/vscode-platformio-welcome-new-button.png)
+    ![Le bouton de nouveau projet](../../../../images/vscode-platformio-welcome-new-button.png)
 
 1. Configurez le projet dans l'*Assistant de projet* :
 
@@ -64,7 +64,7 @@ Créez le projet PlatformIO.
 
     1. Sélectionnez le bouton **Finish**
 
-    ![L'assistant de projet terminé](../../../images/vscode-platformio-nightlight-project-wizard.png)
+    ![L'assistant de projet terminé](../../../../images/vscode-platformio-nightlight-project-wizard.png)
 
     PlatformIO téléchargera les composants dont il a besoin pour compiler le code pour le Wio Terminal et créera votre projet. Cela peut prendre quelques minutes.
 
@@ -170,7 +170,7 @@ Vous êtes maintenant prêt à écrire l'application Hello World.
 
     1. Tapez `PlatformIO Upload` pour rechercher l'option de téléversement et sélectionnez *PlatformIO : Upload*
 
-        ![L'option Téléverser PlatformIO dans la palette de commandes](../../../images/vscode-platformio-upload-command-palette.png)
+        ![L'option Téléverser PlatformIO dans la palette de commandes](../../../../images/vscode-platformio-upload-command-palette.png)
 
         PlatformIO génèrera automatiquement le code si nécessaire avant le téléversement.
 
@@ -186,7 +186,7 @@ PlatformIO dispose d'un moniteur série qui peut surveiller les données envoyé
 
 1. Tapez `PlatformIO Serial` pour rechercher l'option Serial Monitor et sélectionnez *PlatformIO : Serial Monitor*
 
-    ![L'option Moniteur série PlatformIO dans la palette de commandes](../../../images/vscode-platformio-serial-monitor-command-palette.png)
+    ![L'option Moniteur série PlatformIO dans la palette de commandes](../../../../images/vscode-platformio-serial-monitor-command-palette.png)
 
     Un nouveau terminal s'ouvrira et les données envoyées sur le port série seront diffusées dans ce terminal :
 
