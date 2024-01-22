@@ -135,9 +135,11 @@ Our team produces other curricula! Check out:
 - [AI for Beginners](https://aka.ms/ai-beginners)
 - [Data Science for Beginners](https://aka.ms/datascience-beginners)
 - [Generative AI for Beginners](https://aka.ms/genai-beginners)
+- [Web Dev for Beginners](https://aka.ms/webdev-beginners?WT.mc_id=academic-113596-abartolo)
 - [IoT for Beginners](https://aka.ms/iot-beginners)
 - [Machine Learning for Beginners](https://aka.ms/ml-beginners)
 - [XR Development for Beginners](https://aka.ms/xr-dev-for-beginners)
+- [Mastering GitHub Copilot for AI Paired Programming](https://aka.ms/GitHubCopilotAI)
 
 ## Image attributions
 
