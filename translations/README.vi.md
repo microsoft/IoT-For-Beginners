@@ -14,7 +14,7 @@
 [![French](https://img.shields.io/badge/-French-purple)](translations/README.fr.md)
 [![Korean](https://img.shields.io/badge/-Korean-white)](translations/README.ko.md)
 [![Japanese](https://img.shields.io/badge/-Japanese-red)](translations/README.ja.md)
-[![Vietnamese](https://img.shields.io/badge/-Vietnam-red)](translations/README.vi.md)
+[![English](https://img.shields.io/badge/-English-white)](../README.md)
 
 
 # IoT cho người mới bắt đầu - Giáo trình
