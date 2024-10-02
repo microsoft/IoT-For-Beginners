@@ -16,7 +16,7 @@
 [![Japanese](https://img.shields.io/badge/-Japanese-red)](translations/README.ja.md)
 [![Sinhalese](https://img.shields.io/badge/Sinhala-yellow)](translations/README.si.md)
 
-# IoT for Beginners - A Curriculum
+# ආධුනිකයින් සඳහා IoT - විෂය මාලාව
 
 Azure Cloud Advocates at Microsoft are pleased to offer a 12-week, 24-lesson curriculum all about IoT basics. Each lesson includes pre- and post-lesson quizzes, written instructions to complete the lesson, a solution, an assignment and more. Our project-based pedagogy allows you to learn while building, a proven way for new skills to 'stick'.
 
@@ -77,7 +77,7 @@ We have two choices of IoT hardware to use for the projects depending on persona
 - assignment
 - post-lesson quiz
 
-> **A note about quizzes**: All quizzes are contained in the quiz-app folder, for 48 total quizzes of three questions each. They are linked from within the lessons but the quiz app can be run locally or deployed to Azure; follow the instruction in the `quiz-app` folder. They are gradually being localized.
+> **A note about quizzes**: All quizzes are contained [in this app](https://black-meadow-040d15503.1.azurestaticapps.net), for 48 total quizzes of three questions each. They are linked from within the lessons but the quiz app can be run locally; follow the instruction in the `quiz-app` folder. They are gradually being localized.
 
 ## Lessons
 
@@ -133,15 +133,11 @@ Would you like to contribute a translation? Please read our [translation guideli
 
 Our team produces other curricula! Check out:
 
-- [AI for Beginners](https://aka.ms/ai-beginners)
+- [Web Dev for Beginners](https://aka.ms/webdev-beginners)
+- [ML for Beginners](https://aka.ms/ml-beginners)
 - [Data Science for Beginners](https://aka.ms/datascience-beginners)
-- [Generative AI for Beginners](https://aka.ms/genai-beginners)
-- [**NEW** Cybersecurity for Beginners](https://github.com/microsoft/Security-101??WT.mc_id=academic-96948-sayoung)
-- [Web Dev for Beginners](https://aka.ms/webdev-beginners?WT.mc_id=academic-113596-abartolo)
-- [IoT for Beginners](https://aka.ms/iot-beginners)
-- [Machine Learning for Beginners](https://aka.ms/ml-beginners)
-- [XR Development for Beginners](https://aka.ms/xr-dev-for-beginners)
-- [Mastering GitHub Copilot for AI Paired Programming](https://aka.ms/GitHubCopilotAI)
+- [AI for Beginners](https://aka.ms/ai-beginners)
+- [XR Development for Beginners](https://github.com/microsoft/xr-development-for-beginners)
 
 ## Image attributions
 
