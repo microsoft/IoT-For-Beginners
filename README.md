@@ -15,6 +15,8 @@
 [![Korean](https://img.shields.io/badge/-Korean-white)](translations/README.ko.md)
 [![Japanese](https://img.shields.io/badge/-Japanese-red)](translations/README.ja.md)
 
+[![](https://dcbadge.vercel.app/api/server/ByRwuEEgH4)](https://aka.ms/genai-discord?WT.mc_id=academic-000002-leestott)
+
 # IoT for Beginners - A Curriculum
 
 Azure Cloud Advocates at Microsoft are pleased to offer a 12-week, 24-lesson curriculum all about IoT basics. Each lesson includes pre- and post-lesson quizzes, written instructions to complete the lesson, a solution, an assignment and more. Our project-based pedagogy allows you to learn while building, a proven way for new skills to 'stick'.
