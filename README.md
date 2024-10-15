@@ -15,7 +15,7 @@
 [![Korean](https://img.shields.io/badge/-Korean-white)](translations/README.ko.md)
 [![Japanese](https://img.shields.io/badge/-Japanese-red)](translations/README.ja.md)
 
-[![](https://dcbadge.vercel.app/api/server/ByRwuEEgH4)](https://aka.ms/genai-discord?WT.mc_id=academic-000002-leestott)
+[![](https://dcbadge.vercel.app/api/server/ByRwuEEgH4)](https://discord.gg/zxKYvhSnVp?WT.mc_id=academic-000002-leestott)
 
 # IoT for Beginners - A Curriculum
 
