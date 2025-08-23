@@ -14,6 +14,7 @@
 [![French](https://img.shields.io/badge/-French-purple)](translations/README.fr.md)
 [![Korean](https://img.shields.io/badge/-Korean-white)](translations/README.ko.md)
 [![Japanese](https://img.shields.io/badge/-Japanese-red)](translations/README.ja.md)
+[![Vietnamese](https://img.shields.io/badge/-Vietnam-pink)](translations/README.vi.md)
 
 [![](https://dcbadge.vercel.app/api/server/ByRwuEEgH4)](https://discord.gg/zxKYvhSnVp?WT.mc_id=academic-000002-leestott)
 
