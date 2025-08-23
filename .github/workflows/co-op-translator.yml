@@ -56,7 +56,7 @@ jobs:
           # translate -l "all" -y  # <--- MODIFY THIS LINE with your desired languages
           # translate -l "zh tw fr ja ko" -y
           # translate -l " pt es de fa pl hi it" -y
-          # translate -l "my"
+            translate -l "my"
 
       - name: Authenticate GitHub App
         id: generate_token
