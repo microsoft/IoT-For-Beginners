@@ -53,11 +53,15 @@ jobs:
           # IMPORTANT: Set your target languages here (REQUIRED CONFIGURATION)
           # =====================================================================
           # Example: Translate to Spanish, French, German. Add -y to auto-confirm.
+          # batch based for starting of translation
           # translate -l "all" -y  # <--- MODIFY THIS LINE with your desired languages
-          # translate -l "zh tw fr ja ko" -y
-            translate -l " pt es de fa pl hi it" -y
-          # translate -l "my"
-
+          # translate -l "zh tw" -y
+          # translate -l "fr ja" -y
+          # translate -l "Ko pt" -y
+          # translate -l "es de" -y
+          # translate -l "fa pl" -y
+            translate -l "hi it" -y
+          
       - name: Authenticate GitHub App
         id: generate_token
         uses: tibdex/github-app-token@v1
