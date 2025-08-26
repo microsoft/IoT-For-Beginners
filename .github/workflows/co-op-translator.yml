@@ -53,11 +53,13 @@ jobs:
           # IMPORTANT: Set your target languages here (REQUIRED CONFIGURATION)
           # =====================================================================
           # Example: Translate to Spanish, French, German. Add -y to auto-confirm.
-          # batch based for starting of translation
           # translate -l "all" -y  # <--- MODIFY THIS LINE with your desired languages
-          # translate -l "zh tw fr ja" -y
-          # translate -l "Ko pt ed de fa" -y 
-            translate -l "pl hi it" -y
+          # Recommendation for large batches over 29 files run them in batches maximum github runner time is 6 hours
+            translate -l "zh tw hk fr ja ko pt es de fa pl hi" -y
+          # translate -l "ru ar ur mo ja bn mr ne pa br it tr" -y
+          # translate -l "el th sv da no fi nl he vi id ms tl" -y
+          # translate -l "sw hu cs sk ro bg sr hr sl uk my" -y
+
               
       - name: Authenticate GitHub App
         id: generate_token
