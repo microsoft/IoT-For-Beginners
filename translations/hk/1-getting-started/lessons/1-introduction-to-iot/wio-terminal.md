@@ -1,0 +1,222 @@
+<!--
+CO_OP_TRANSLATOR_METADATA:
+{
+  "original_hash": "a4f0c166010e31fd7b6ca20bc88dec6d",
+  "translation_date": "2025-08-26T15:14:25+00:00",
+  "source_file": "1-getting-started/lessons/1-introduction-to-iot/wio-terminal.md",
+  "language_code": "hk"
+}
+-->
+# Wio Terminal
+
+[Seeed Studios 的 Wio Terminal](https://www.seeedstudio.com/Wio-Terminal-p-4509.html) 是一款兼容 Arduino 的微控制器，內建 WiFi 以及一些感測器和執行器，並且可以透過名為 [Grove](https://www.seeedstudio.com/category/Grove-c-1003.html) 的硬體生態系統添加更多感測器和執行器。
+
+![Seeed Studios 的 Wio Terminal](../../../../../translated_images/wio-terminal.b8299ee16587db9aa9e05fabf9721bccd9eb8fb541b7c1a8267241282d81b603.hk.png)
+
+## 設置
+
+要使用 Wio Terminal，您需要在電腦上安裝一些免費軟件。此外，在連接 WiFi 之前，您需要更新 Wio Terminal 的韌體。
+
+### 任務 - 設置
+
+安裝所需的軟件並更新韌體。
+
+1. 安裝 Visual Studio Code (VS Code)。這是您將用來編寫 C/C++ 設備代碼的編輯器。請參考 [VS Code 文件](https://code.visualstudio.com?WT.mc_id=academic-17441-jabenn) 了解安裝 VS Code 的說明。
+
+    > 💁 另一個流行的 Arduino 開發 IDE 是 [Arduino IDE](https://www.arduino.cc/en/software)。如果您已熟悉此工具，則可以使用它代替 VS Code 和 PlatformIO，但課程將基於使用 VS Code 的指導。
+
+1. 安裝 VS Code 的 PlatformIO 擴展。這是 VS Code 的一個擴展，支持用 C/C++ 編程微控制器。請參考 [PlatformIO 擴展文件](https://marketplace.visualstudio.com/items?WT.mc_id=academic-17441-jabenn&itemName=platformio.platformio-ide) 了解如何在 VS Code 中安裝此擴展。此擴展依賴於 Microsoft C/C++ 擴展來處理 C 和 C++ 代碼，安裝 PlatformIO 時會自動安裝 C/C++ 擴展。
+
+1. 將 Wio Terminal 連接到您的電腦。Wio Terminal 底部有一個 USB-C 端口，需要連接到電腦上的 USB 端口。Wio Terminal 附帶 USB-C 至 USB-A 線纜，但如果您的電腦只有 USB-C 端口，則需要 USB-C 線纜或 USB-A 至 USB-C 轉接器。
+
+1. 按照 [Wio Terminal Wiki WiFi 概述文件](https://wiki.seeedstudio.com/Wio-Terminal-Network-Overview/) 中的說明設置 Wio Terminal 並更新韌體。
+
+## Hello World
+
+在開始學習新的編程語言或技術時，通常會創建一個 "Hello World" 應用程序——一個小型應用程序，輸出類似 `"Hello World"` 的文本，以確保所有工具已正確配置。
+
+Wio Terminal 的 Hello World 應用程序將確保您已正確安裝 Visual Studio Code 和 PlatformIO，並設置好微控制器開發環境。
+
+### 創建 PlatformIO 項目
+
+第一步是使用 PlatformIO 創建一個新項目，並配置為 Wio Terminal。
+
+#### 任務 - 創建 PlatformIO 項目
+
+創建 PlatformIO 項目。
+
+1. 將 Wio Terminal 連接到您的電腦
+
+1. 啟動 VS Code
+
+1. PlatformIO 圖標將顯示在側邊菜單欄：
+
+    ![Platform IO 菜單選項](../../../../../translated_images/vscode-platformio-menu.297be26b9733e5c4635d9d8e636e93fed2015809eafb7cc8fd409c37b3ef2ef5.hk.png)
+
+    選擇此菜單項，然後選擇 *PIO Home -> Open*
+
+    ![Platform IO 打開選項](../../../../../translated_images/vscode-platformio-home-open.3f9a41bfd3f4da1c866ec3e69f1675faa30b823b5b58ab58ac88e5df9a85da19.hk.png)
+
+1. 在歡迎屏幕中，選擇 **+ New Project** 按鈕
+
+    ![新項目按鈕](../../../../../translated_images/vscode-platformio-welcome-new-button.ba6fc8a4c7b78cc822e1ce47ba29c5db96668cce7c5f4adbfd2f1196422baa26.hk.png)
+
+1. 在 *Project Wizard* 中配置項目：
+
+    1. 將項目命名為 `nightlight`
+
+    1. 在 *Board* 下拉菜單中輸入 `WIO` 以篩選板子，並選擇 *Seeeduino Wio Terminal*
+
+    1. 保持 *Framework* 為 *Arduino*
+
+    1. 可以保持 *Use default location* 勾選，或者取消勾選並選擇項目位置
+
+    1. 選擇 **Finish** 按鈕
+
+    ![完成的項目向導](../../../../../translated_images/vscode-platformio-nightlight-project-wizard.5c64db4da6037420827c2597507897233457210ee23975711fa2285efdcd0dc7.hk.png)
+
+    PlatformIO 會下載所需的組件以編譯 Wio Terminal 的代碼並創建您的項目。這可能需要幾分鐘。
+
+### 探索 PlatformIO 項目
+
+VS Code 的資源管理器將顯示由 PlatformIO 向導創建的多個文件和文件夾。
+
+#### 文件夾
+
+* `.pio` - 此文件夾包含 PlatformIO 所需的臨時數據，例如庫或編譯代碼。如果刪除，它會自動重新創建，並且如果您在 GitHub 等網站上共享項目，則不需要將其添加到源代碼控制中。
+* `.vscode` - 此文件夾包含 PlatformIO 和 VS Code 使用的配置。如果刪除，它會自動重新創建，並且如果您在 GitHub 等網站上共享項目，則不需要將其添加到源代碼控制中。
+* `include` - 此文件夾用於添加額外庫時需要的外部頭文件。在這些課程中，您不會使用此文件夾。
+* `lib` - 此文件夾用於您希望從代碼中調用的外部庫。在這些課程中，您不會使用此文件夾。
+* `src` - 此文件夾包含應用程序的主要源代碼。最初，它只包含一個文件——`main.cpp`。
+* `test` - 此文件夾是您放置代碼單元測試的地方。
+
+#### 文件
+
+* `main.cpp` - `src` 文件夾中的此文件包含應用程序的入口點。打開此文件，您將看到以下代碼：
+
+    ```cpp
+    #include <Arduino.h>
+    
+    void setup() {
+      // put your setup code here, to run once:
+    }
+    
+    void loop() {
+      // put your main code here, to run repeatedly:
+    }
+    ```
+
+    當設備啟動時，Arduino 框架會運行一次 `setup` 函數，然後反覆運行 `loop` 函數，直到設備關閉。
+
+* `.gitignore` - 此文件列出了在將代碼添加到 git 源代碼控制時需要忽略的文件和目錄，例如上傳到 GitHub 的倉庫。
+
+* `platformio.ini` - 此文件包含設備和應用程序的配置。打開此文件，您將看到以下代碼：
+
+    ```ini
+    [env:seeed_wio_terminal]
+    platform = atmelsam
+    board = seeed_wio_terminal
+    framework = arduino
+    ```
+
+    `[env:seeed_wio_terminal]` 部分包含 Wio Terminal 的配置。您可以有多個 `env` 部分，以便代碼可以為多個板子編譯。
+
+    其他值與項目向導的配置相匹配：
+
+  * `platform = atmelsam` 定義了 Wio Terminal 使用的硬件（基於 ATSAMD51 的微控制器）
+  * `board = seeed_wio_terminal` 定義了微控制器板的類型（Wio Terminal）
+  * `framework = arduino` 定義此項目使用 Arduino 框架。
+
+### 編寫 Hello World 應用程序
+
+現在您可以開始編寫 Hello World 應用程序。
+
+#### 任務 - 編寫 Hello World 應用程序
+
+編寫 Hello World 應用程序。
+
+1. 在 VS Code 中打開 `main.cpp` 文件
+
+1. 將代碼更改為以下內容：
+
+    ```cpp
+    #include <Arduino.h>
+
+    void setup()
+    {
+        Serial.begin(9600);
+
+        while (!Serial)
+            ; // Wait for Serial to be ready
+    
+        delay(1000);
+    }
+    
+    void loop()
+    {
+        Serial.println("Hello World");
+        delay(5000);
+    }
+    ```
+
+    `setup` 函數初始化與串口的連接——在此情況下，是用於連接 Wio Terminal 和電腦的 USB 端口。參數 `9600` 是 [波特率](https://wikipedia.org/wiki/Symbol_rate)（也稱為符號率），即通過串口每秒傳輸的數據速度（以位為單位）。此設置表示每秒傳輸 9,600 位（0 和 1）的數據。然後它等待串口準備好。
+
+    `loop` 函數將行 `Hello World!` 發送到串口，因此會發送 `Hello World!` 的字符以及一個換行符。然後它休眠 5,000 毫秒或 5 秒。`loop` 結束後，會再次運行，並反覆運行，直到微控制器斷電。
+
+1. 將 Wio Terminal 設置為上傳模式。每次上傳新代碼到設備時，您都需要執行此操作：
+
+    1. 快速向下拉動電源開關兩次——每次都會彈回到開啟位置。
+
+    1. 檢查 USB 端口右側的藍色狀態 LED。它應該在閃爍。
+
+    [![如何將 Wio Terminal 設置為上傳模式的視頻](https://img.youtube.com/vi/LeKU_7zLRrQ/0.jpg)](https://youtu.be/LeKU_7zLRrQ)
+    
+    點擊上方圖片觀看操作視頻。
+
+1. 編譯並上傳代碼到 Wio Terminal
+
+    1. 打開 VS Code 的命令面板
+
+    1. 輸入 `PlatformIO Upload` 搜索上傳選項，並選擇 *PlatformIO: Upload*
+
+        ![命令面板中的 PlatformIO 上傳選項](../../../../../translated_images/vscode-platformio-upload-command-palette.9e0f49cf80d1f1c3eb5c6689b8705ad8b89f0374b21698e996fec11e4ed09347.hk.png)
+
+        如果需要，PlatformIO 會在上傳之前自動編譯代碼。
+
+    1. 代碼將被編譯並上傳到 Wio Terminal
+
+        > 💁 如果您使用 macOS，可能會出現 *DISK NOT EJECTED PROPERLY* 的通知。這是因為 Wio Terminal 在閃存過程中會被掛載為驅動器，並在編譯代碼寫入設備時斷開連接。您可以忽略此通知。
+
+    ⚠️ 如果出現上傳端口不可用的錯誤，首先確保 Wio Terminal 已連接到您的電腦，並通過屏幕左側的開關打開，並設置為上傳模式。底部的綠燈應該亮著，藍燈應該在閃爍。如果仍然出現錯誤，請再次快速向下拉動開關兩次，強制 Wio Terminal 進入上傳模式，然後重試上傳。
+
+PlatformIO 有一個串口監視器，可以監視通過 USB 線纜從 Wio Terminal 發送的數據。這使您可以監視 `Serial.println("Hello World");` 命令發送的數據。
+
+1. 打開 VS Code 的命令面板
+
+1. 輸入 `PlatformIO Serial` 搜索串口監視器選項，並選擇 *PlatformIO: Serial Monitor*
+
+    ![命令面板中的 PlatformIO 串口監視器選項](../../../../../translated_images/vscode-platformio-serial-monitor-command-palette.b348ec841b8a1c14af503d6fc0bf73c657c79c9acc12a6b6dd485ce3b5826f48.hk.png)
+
+    一個新終端將打開，通過串口發送的數據將流入此終端：
+
+    ```output
+    > Executing task: platformio device monitor <
+    
+    --- Available filters and text transformations: colorize, debug, default, direct, hexlify, log2file, nocontrol, printable, send_on_enter, time
+    --- More details at http://bit.ly/pio-monitor-filters
+    --- Miniterm on /dev/cu.usbmodem101  9600,8,N,1 ---
+    --- Quit: Ctrl+C | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H ---
+    Hello World
+    Hello World
+    ```
+
+    `Hello World` 每 5 秒會打印到串口監視器。
+
+> 💁 您可以在 [code/wio-terminal](../../../../../1-getting-started/lessons/1-introduction-to-iot/code/wio-terminal) 文件夾中找到此代碼。
+
+😀 您的 'Hello World' 程序成功了！
+
+---
+
+**免責聲明**：  
+此文件已使用人工智能翻譯服務 [Co-op Translator](https://github.com/Azure/co-op-translator) 翻譯。我們致力於提供準確的翻譯，但請注意，自動翻譯可能包含錯誤或不準確之處。應以原文文件作為權威來源。對於關鍵資訊，建議使用專業的人工作業翻譯。我們對因使用此翻譯而引起的任何誤解或錯誤解讀概不負責。
