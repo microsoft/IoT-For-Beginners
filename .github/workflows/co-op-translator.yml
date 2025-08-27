@@ -60,10 +60,12 @@ jobs:
           # translate -l "bn mr ne pa" -y
           # translate -l "br it tr" -y
           # translate -l "el th" -y 
-          translate -l "sv da no" -y 
-          # translate -l "fi nl he vi id ms tl" -y
-          # translate -l "sw hu cs sk ro" -y
-          # translate -l "bg sr hr sl uk my" -y
+          # translate -l "sv da no" -y 
+          translate -l "fi nl he" -y
+          # translate -l 'vi id ms tl" -y
+          # translate -l "sw hu cs" -y
+          # translate -l "sk ro bg" -y
+          # translate -l "sr hr sl uk my" -y
 
               
       - name: Authenticate GitHub App
