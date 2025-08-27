@@ -62,8 +62,8 @@ jobs:
           # translate -l "el th" -y 
           # translate -l "sv da no" -y 
           # translate -l "fi nl he" -y
-          translate -l 'vi id ms tl" -y
-          # translate -l "sw hu cs" -y
+          # translate -l 'vi id ms tl" -y
+          translate -l "sw hu cs" -y
           # translate -l "sk ro bg" -y
           # translate -l "sr hr sl uk my" -y
 
