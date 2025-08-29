@@ -1,8 +1,8 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "840d60a05e58cf590dedefe42e9f2a29",
-  "translation_date": "2025-08-28T15:38:41+00:00",
+  "original_hash": "76d321d7bcf532e985810ec9ea8d22b2",
+  "translation_date": "2025-08-29T15:58:37+00:00",
   "source_file": "README.md",
   "language_code": "my"
 }
@@ -17,128 +17,135 @@ CO_OP_TRANSLATOR_METADATA:
 [![GitHub forks](https://img.shields.io/github/forks/microsoft/IoT-For-Beginners.svg?style=social&label=Fork)](https://GitHub.com/microsoft/IoT-For-Beginners/network/)  
 [![GitHub stars](https://img.shields.io/github/stars/microsoft/IoT-For-Beginners.svg?style=social&label=Star)](https://GitHub.com/microsoft/IoT-For-Beginners/stargazers/)  
 
-[![Bengali](https://img.shields.io/badge/-Bengali-blue)](translations/README.bn.md)  
-[![Chinese](https://img.shields.io/badge/-Chinese-yellow)](translations/README.zh-cn.md)  
-[![Turkish](https://img.shields.io/badge/-Turkish-darkgreen)](translations/README.tr.md)  
-[![French](https://img.shields.io/badge/-French-purple)](translations/README.fr.md)  
-[![Korean](https://img.shields.io/badge/-Korean-white)](translations/README.ko.md)  
-[![Japanese](https://img.shields.io/badge/-Japanese-red)](translations/README.ja.md)  
+### Azure AI Foundry Community ကိုပါဝင်ပါ  
+[![Microsoft Azure AI Foundry Discord](https://dcbadge.limes.pink/api/server/ByRwuEEgH4)](https://discord.com/invite/ByRwuEEgH4)  
 
-[![](https://dcbadge.vercel.app/api/server/ByRwuEEgH4)](https://discord.gg/zxKYvhSnVp?WT.mc_id=academic-000002-leestott)  
+ဤအရင်းအမြစ်များကို အသုံးပြုရန်အဆင့်များကို လိုက်နာပါ-  
+1. **Repository ကို Fork လုပ်ပါ**: [![GitHub forks](https://img.shields.io/github/forks/microsoft/IoT-For-Beginners.svg?style=social&label=Fork)](https://GitHub.com/microsoft/IoT-For-Beginners/fork) ကိုနှိပ်ပါ  
+2. **Repository ကို Clone လုပ်ပါ**: `git clone https://github.com/microsoft/IoT-For-Beginners.git`  
+3. [**Azure AI Foundry Discord ကို Join လုပ်ပြီး ကျွမ်းကျင်သူများနှင့် Developer မိတ်ဆွေများနှင့် တွေ့ဆုံပါ**](https://discord.com/invite/ByRwuEEgH4)  
+
+### 🌐 ဘာသာစကားများအတွက် အထောက်အပံ့  
+
+#### GitHub Action မှတဆင့် အလိုအလျောက် (အမြဲ Update ဖြစ်နေသော)  
+
+[Arabic](../ar/README.md) | [Bengali](../bn/README.md) | [Bulgarian](../bg/README.md) | [Burmese (Myanmar)](./README.md) | [Chinese (Simplified)](../zh/README.md) | [Chinese (Traditional, Hong Kong)](../hk/README.md) | [Chinese (Traditional, Macau)](../mo/README.md) | [Chinese (Traditional, Taiwan)](../tw/README.md) | [Croatian](../hr/README.md) | [Czech](../cs/README.md) | [Danish](../da/README.md) | [Dutch](../nl/README.md) | [Finnish](../fi/README.md) | [French](../fr/README.md) | [German](../de/README.md) | [Greek](../el/README.md) | [Hebrew](../he/README.md) | [Hindi](../hi/README.md) | [Hungarian](../hu/README.md) | [Indonesian](../id/README.md) | [Italian](../it/README.md) | [Japanese](../ja/README.md) | [Korean](../ko/README.md) | [Malay](../ms/README.md) | [Marathi](../mr/README.md) | [Nepali](../ne/README.md) | [Norwegian](../no/README.md) | [Persian (Farsi)](../fa/README.md) | [Polish](../pl/README.md) | [Portuguese (Brazil)](../br/README.md) | [Portuguese (Portugal)](../pt/README.md) | [Punjabi (Gurmukhi)](../pa/README.md) | [Romanian](../ro/README.md) | [Russian](../ru/README.md) | [Serbian (Cyrillic)](../sr/README.md) | [Slovak](../sk/README.md) | [Slovenian](../sl/README.md) | [Spanish](../es/README.md) | [Swahili](../sw/README.md) | [Swedish](../sv/README.md) | [Tagalog (Filipino)](../tl/README.md) | [Thai](../th/README.md) | [Turkish](../tr/README.md) | [Ukrainian](../uk/README.md) | [Urdu](../ur/README.md) | [Vietnamese](../vi/README.md)  
 
 # IoT for Beginners - သင်ခန်းစာများ  
 
-Microsoft မှ Azure Cloud Advocates များသည် IoT အခြေခံများကို လေ့လာရန် ၁၂ ပတ်၊ ၂၄ သင်ခန်းစာများပါဝင်သော သင်ရိုးညွှန်းတမ်းကို ပေးဆောင်ရန် ဝမ်းမြောက်စွာ တင်ပြပါသည်။ သင်ခန်းစာတစ်ခုစီတွင် သင်ခန်းစာမတိုင်မီနှင့်ပြီးနောက် စမ်းမေးခွန်းများ၊ သင်ခန်းစာကို ပြီးမြောက်ရန် ရေးသားထားသော လမ်းညွှန်ချက်များ၊ ဖြေရှင်းချက်၊ လုပ်ငန်းတာဝန်များနှင့် အခြားအရာများ ပါဝင်သည်။ စီမံကိန်းအခြေခံ သင်ကြားမှုနည်းလမ်းသည် သင်တန်းသားများကို တည်ဆောက်နေစဉ်တွင် လေ့လာရန် ခွင့်ပြုသည်။ ဤနည်းလမ်းသည် ကျွမ်းကျင်မှုအသစ်များကို သင်ယူရန် အကောင်းဆုံးနည်းလမ်းတစ်ခုဖြစ်သည်။  
+Microsoft မှ Azure Cloud Advocates များသည် IoT အခြေခံများကို လေ့လာနိုင်ရန် 12 ပတ်၊ 24 သင်ခန်းစာများပါဝင်သော သင်ခန်းစာများကို ပေးဆောင်ရန် ဝမ်းမြောက်ဝမ်းသာဖြစ်နေပါသည်။ သင်ခန်းစာတစ်ခုစီတွင် သင်ခန်းစာမတိုင်မီနှင့် သင်ခန်းစာပြီးနောက် စစ်တမ်းများ၊ သင်ခန်းစာကို ပြီးမြောက်ရန် ရေးသားထားသော လမ်းညွှန်ချက်များ၊ ဖြေရှင်းချက်၊ လုပ်ငန်းတာဝန်များနှင့် အခြားအရာများ ပါဝင်သည်။ ပရောဂျက်အခြေခံ သင်ကြားမှုနည်းလမ်းများသည် သင်ခန်းစာများကို တည်ဆောက်ရင်း လေ့လာနိုင်ရန် ခွင့်ပြုသည်။ ဤနည်းလမ်းသည် ကျွမ်းကျင်မှုအသစ်များကို သင်ယူရန် အကောင်းဆုံးနည်းလမ်းဖြစ်သည်။  
 
-စီမံကိန်းများတွင် လယ်ယာမှစားပွဲထိ အစားအစာခရီးစဉ်ကို ဖုံးအုပ်ထားသည်။ ဤအရာတွင် လယ်ယာလုပ်ငန်း၊ သယ်ယူပို့ဆောင်ရေး၊ ထုတ်လုပ်မှု၊ လက်လီနှင့် စားသုံးသူတို့ ပါဝင်ပြီး IoT စက်ပစ္စည်းများအတွက် လူကြိုက်များသော စက်မှုလုပ်ငန်းများဖြစ်သည်။  
+ဤပရောဂျက်များသည် စိုက်ပျိုးရေးမှ စတင်၍ စားပွဲထိ အစားအစာ၏ ခရီးကို ဖော်ပြသည်။ ဤအရာတွင် စိုက်ပျိုးရေး၊ လိုက်လံစစ်ဆေးမှု၊ ထုတ်လုပ်မှု၊ လက်လီရောင်းချမှုနှင့် စားသုံးသူတို့ ပါဝင်သည်။ ဤအရာများသည် IoT စက်ပစ္စည်းများအတွက် လူကြိုက်များသော စက်မှုလုပ်ငန်းများဖြစ်သည်။  
 
-![သင်တန်း၏ လမ်းကြောင်းကို ဖော်ပြသော ၂၄ သင်ခန်းစာများ](../../translated_images/Roadmap.bb1dec285dda0eda691788b95ddfc96d31d76bb7649e3f04a135e4ad395f323e.my.jpg)  
+![သင်ခန်းစာ 24 ခုကို ဖော်ပြထားသော သင်ခန်းစာလမ်းကြောင်း](../../translated_images/Roadmap.bb1dec285dda0eda691788b95ddfc96d31d76bb7649e3f04a135e4ad395f323e.my.jpg)  
 
-> Sketchnote by [Nitya Narasimhan](https://github.com/nitya). ပုံကို click လုပ်ပြီး ပိုကြီးသော ဗားရှင်းကို ကြည့်ပါ။  
+> Sketchnote ကို [Nitya Narasimhan](https://github.com/nitya) မှ ဖန်တီးထားသည်။ ပုံကို နှိပ်ပါက ပိုကြီးသော ဗားရှင်းကို ကြည့်နိုင်ပါသည်။  
 
 **ကျွန်ုပ်တို့၏ စာရေးသူများ [Jen Fox](https://github.com/jenfoxbot), [Jen Looper](https://github.com/jlooper), [Jim Bennett](https://github.com/jimbobbennett), နှင့် Sketchnote အနုပညာရှင် [Nitya Narasimhan](https://github.com/nitya) တို့အား အထူးကျေးဇူးတင်ပါသည်။**  
 
-**Microsoft Learn Student Ambassadors [Aditya Garg](https://github.com/AdityaGarg00), [Anurag Sharma](https://github.com/Anurag-0-1-A), [Arpita Das](https://github.com/Arpiiitaaa), [Aryan Jain](https://www.linkedin.com/in/aryan-jain-47a4a1145/), [Bhavesh Suneja](https://github.com/EliteWarrior315), [Faith Hunja](https://faithhunja.github.io/), [Lateefah Bello](https://www.linkedin.com/in/lateefah-bello/), [Manvi Jha](https://github.com/Severus-Matthew), [Mireille Tan](https://www.linkedin.com/in/mireille-tan-a4834819a/), [Mohammad Iftekher (Iftu) Ebne Jalal](https://github.com/Iftu119), [Mohammad Zulfikar](https://github.com/mohzulfikar), [Priyanshu Srivastav](https://www.linkedin.com/in/priyanshu-srivastav-b067241ba), [Thanmai Gowducheruvu](https://github.com/innovation-platform), နှင့် [Zina Kamel](https://www.linkedin.com/in/zina-kamel/) တို့အား သင်ရိုးညွှန်းတမ်းကို ပြန်လည်သုံးသပ်ခြင်းနှင့် ဘာသာပြန်ခြင်းအတွက် ကျေးဇူးတင်ပါသည်။**  
+**Microsoft Learn Student Ambassadors [Aditya Garg](https://github.com/AdityaGarg00), [Anurag Sharma](https://github.com/Anurag-0-1-A), [Arpita Das](https://github.com/Arpiiitaaa), [Aryan Jain](https://www.linkedin.com/in/aryan-jain-47a4a1145/), [Bhavesh Suneja](https://github.com/EliteWarrior315), [Faith Hunja](https://faithhunja.github.io/), [Lateefah Bello](https://www.linkedin.com/in/lateefah-bello/), [Manvi Jha](https://github.com/Severus-Matthew), [Mireille Tan](https://www.linkedin.com/in/mireille-tan-a4834819a/), [Mohammad Iftekher (Iftu) Ebne Jalal](https://github.com/Iftu119), [Mohammad Zulfikar](https://github.com/mohzulfikar), [Priyanshu Srivastav](https://www.linkedin.com/in/priyanshu-srivastav-b067241ba), [Thanmai Gowducheruvu](https://github.com/innovation-platform), နှင့် [Zina Kamel](https://www.linkedin.com/in/zina-kamel/) တို့အားလည်း ကျေးဇူးတင်ပါသည်။**  
 
 အဖွဲ့ကို တွေ့ဆုံပါ!  
 
 [![Promo video](../../images/IOT.gif)](https://youtu.be/-wippUJRi5k)  
 
-**Gif by** [Mohit Jaisal](https://linkedin.com/in/mohitjaisal)  
+**Gif ကို** [Mohit Jaisal](https://linkedin.com/in/mohitjaisal) မှ ဖန်တီးထားသည်။  
 
-> 🎥 အထက်ပါပုံကို click လုပ်ပြီး စီမံကိန်းအကြောင်း ဗီဒီယိုကို ကြည့်ပါ။  
+> 🎥 အထက်ပါပုံကို နှိပ်ပါက ပရောဂျက်အကြောင်း ဗီဒီယိုကို ကြည့်နိုင်ပါသည်။  
 
-> **ဆရာများ**၊ ဤသင်ရိုးညွှန်းတမ်းကို ဘယ်လိုအသုံးပြုရမည်ဆိုသည်ကို [အကြံပြုချက်များ](for-teachers.md) ထည့်သွင်းထားပါသည်။ သင့်ကိုယ်ပိုင် သင်ခန်းစာများဖန်တီးလိုပါက [သင်ခန်းစာပုံစံ](lesson-template/README.md) ကိုလည်း ထည့်သွင်းထားပါသည်။  
+> **ဆရာများ**၊ ဤသင်ခန်းစာများကို ဘယ်လိုအသုံးပြုရမည်ဆိုသည်ကို [အကြံပြုချက်များ](for-teachers.md) ထည့်သွင်းထားပါသည်။ သင့်ကိုယ်ပိုင် သင်ခန်းစာများ ဖန်တီးလိုပါက [သင်ခန်းစာအခြေခံပုံစံ](lesson-template/README.md) ကိုလည်း ထည့်သွင်းထားပါသည်။  
 
-> **[ကျောင်းသားများ](https://aka.ms/student-page)**၊ ဤသင်ရိုးညွှန်းတမ်းကို ကိုယ်တိုင်အသုံးပြုရန် repo အားလုံးကို fork လုပ်ပြီး သင့်ကိုယ်တိုင် လေ့လာမှုများကို ပြီးမြောက်ပါ။ သင်ခန်းစာမတိုင်မီ စမ်းမေးခွန်းဖြေပြီး သင်ခန်းစာကိုဖတ်ပြီး အခြားလုပ်ငန်းများကို ပြီးမြောက်ပါ။ သင်ခန်းစာများကို နားလည်ခြင်းဖြင့် စီမံကိန်းများကို ဖန်တီးရန် ကြိုးစားပါ။ သို့သော် ဖြေရှင်းချက် code ကို /solutions folder တွင် ရရှိနိုင်ပါသည်။ အခြားတစ်ခုကတော့ သူငယ်ချင်းများနှင့် အတူလေ့လာမှုအဖွဲ့တစ်ခုဖွဲ့ပြီး အကြောင်းအရာကို အတူတူ လေ့လာပါ။ ထပ်မံလေ့လာရန်အတွက် [Microsoft Learn](https://docs.microsoft.com/users/jimbobbennett/collections/ke2ehd351jopwr?WT.mc_id=academic-17441-jabenn) ကို အကြံပြုပါသည်။  
+> **[ကျောင်းသားများ](https://aka.ms/student-page)**၊ ဤသင်ခန်းစာများကို ကိုယ်တိုင်အသုံးပြုရန် repo အား Fork လုပ်ပြီး သင်ခန်းစာများကို ကိုယ်တိုင် ပြီးမြောက်ပါ။ သင်ခန်းစာမတိုင်မီ စစ်တမ်းဖြေပြီး သင်ခန်းစာကို ဖတ်ရှုပါ။ သင်ခန်းစာများကို နားလည်ပြီး ပရောဂျက်များကို ဖန်တီးရန် ကြိုးစားပါ။ သို့သော် ဖြေရှင်းချက် code ကို /solutions folder တွင် ရှာနိုင်ပါသည်။ အခြားတစ်ခုကတော့ မိတ်ဆွေများနှင့် အတူ သင်ခန်းစာများကို လေ့လာရန် Study Group ဖွဲ့ပါ။ ထပ်မံလေ့လာရန် [Microsoft Learn](https://docs.microsoft.com/users/jimbobbennett/collections/ke2ehd351jopwr?WT.mc_id=academic-17441-jabenn) ကို အကြံပြုပါသည်။  
 
-ဤသင်တန်း၏ ဗီဒီယိုအကျဉ်းချုပ်ကို ကြည့်ရန် ဤဗီဒီယိုကို ကြည့်ပါ။  
+ဤသင်ခန်းစာအကြောင်း ဗီဒီယိုကို ကြည့်ရန် ဤဗီဒီယိုကို ကြည့်ပါ-  
 
 [![Promo video](https://img.youtube.com/vi/bccEMm8gRuc/0.jpg)](https://youtube.com/watch?v=bccEMm8gRuc "Promo video")  
 
-> 🎥 အထက်ပါပုံကို click လုပ်ပြီး စီမံကိန်းအကြောင်း ဗီဒီယိုကို ကြည့်ပါ။  
+> 🎥 အထက်ပါပုံကို နှိပ်ပါက ပရောဂျက်အကြောင်း ဗီဒီယိုကို ကြည့်နိုင်ပါသည်။  
 
 ## သင်ကြားမှုနည်းလမ်း  
 
-ဤသင်ရိုးညွှန်းတမ်းကို တည်ဆောက်စဉ်တွင် စီမံကိန်းအခြေခံနှင့် မကြာခဏ စမ်းမေးခွန်းများပါဝင်သည်ကို သေချာစေရန် သင်ကြားမှုနည်းလမ်းနှစ်ခုကို ရွေးချယ်ထားပါသည်။ ဤစီးရီး၏ အဆုံးတွင် သင်တန်းသားများသည် အပင်စောင့်ကြည့်ခြင်းနှင့် ရေချိုးစနစ်တစ်ခု၊ ယာဉ်စောင့်ကြည့်စနစ်၊ စက်ရုံစမတ်စနစ်၊ အသံထိန်းချိန်စနစ်ကို တည်ဆောက်ပြီး IoT အခြေခံများကို လေ့လာပြီးဖြစ်မည်။  
+ဤသင်ခန်းစာများကို ဖန်တီးစဉ်တွင် ပရောဂျက်အခြေခံနည်းလမ်းနှင့် မကြာခဏ စစ်တမ်းများပါဝင်ရန် သင်ကြားမှုနည်းလမ်းနှစ်ခုကို ရွေးချယ်ထားပါသည်။ သင်ခန်းစာများ၏ အဆုံးတွင် ကျောင်းသားများသည် အပင်စောင့်ကြည့်ခြင်းနှင့် ရေချိုးခြင်းစနစ်၊ ယာဉ်လိုက်လံစစ်ဆေးမှုစနစ်၊ စက်ရုံအဆင့်မြင့်စနစ်၊ အသံထိန်းချိန်စနစ်ကို တည်ဆောက်ပြီး IoT အခြေခံများကို လေ့လာပြီးဖြစ်မည်။  
 
-စီမံကိန်းများနှင့် အကြောင်းအရာကို ကိုက်ညီစေရန် သေချာစေခြင်းဖြင့် သင်တန်းသားများအတွက် စိတ်ဝင်စားမှုကို တိုးတက်စေပြီး အကြောင်းအရာများကို မှတ်မိစေမည်။  
+ပရောဂျက်များနှင့် ကိုက်ညီသော အကြောင်းအရာများဖြင့် သင်ခန်းစာများကို ပိုမိုစိတ်ဝင်စားစေပြီး သင်ခန်းစာများကို ပိုမိုမှတ်မိစေပါသည်။  
 
-အတန်းမတိုင်မီ စမ်းမေးခွန်းသည် သင်ခန်းစာအကြောင်းကို သင်တန်းသားများ၏ အာရုံစိုက်မှုကို သတ်မှတ်ပြီး အတန်းပြီးနောက် စမ်းမေးခွန်းသည် အကြောင်းအရာများကို ထပ်မံမှတ်မိစေမည်။ ဤသင်ရိုးညွှန်းတမ်းကို အပြည့်အစုံ သို့မဟုတ် အစိတ်အပိုင်းအလိုက် လေ့လာနိုင်သည်။ စီမံကိန်းများသည် သေးငယ်ပြီး ၁၂ ပတ်အတွင်း အဆင့်မြင့်လာမည်။  
+အတန်းမတိုင်မီ စစ်တမ်းသည် ကျောင်းသားများကို သင်ခန်းစာအကြောင်း စိတ်ဝင်စားစေပြီး အတန်းပြီးနောက် စစ်တမ်းသည် သင်ခန်းစာများကို ပိုမိုမှတ်မိစေပါသည်။ ဤသင်ခန်းစာများကို တစ်ခုလုံး သို့မဟုတ် အစိတ်အပိုင်းအလိုက် လေ့လာနိုင်သည်။ ပရောဂျက်များသည် သေးငယ်ပြီး 12 ပတ်အတွင်း ပိုမိုရှုပ်ထွေးလာမည်ဖြစ်သည်။  
 
 ## Hardware  
 
-စီမံကိန်းများအတွက် IoT hardware ကို သင့်ရဲ့ စိတ်ကြိုက်၊ programming language အသိပညာ၊ သင်ယူမှုရည်ရွယ်ချက်များနှင့် ရရှိနိုင်မှုအပေါ် မူတည်၍ ရွေးချယ်နိုင်သည်။ hardware မရှိသူများအတွက် သို့မဟုတ် ဝယ်ယူမှုမလုပ်မီ ပိုမိုလေ့လာလိုသူများအတွက် 'virtual hardware' version ကိုလည်း ပေးထားပါသည်။ [hardware page](./hardware.md) တွင် 'shopping list' ကို ဖတ်ရှုနိုင်ပြီး Seeed Studio မှ အပြည့်အစုံ kits ဝယ်ရန် link များပါဝင်သည်။  
+ပရောဂျက်များအတွက် IoT hardware ကို သင့်စိတ်ကြိုက်၊ programming language အတတ်ပညာ၊ သင်ယူမှုရည်ရွယ်ချက်များနှင့် ရရှိနိုင်မှုအပေါ် မူတည်၍ ရွေးချယ်နိုင်သည်။ Hardware မရှိသူများအတွက် 'virtual hardware' version ကိုလည်း ထည့်သွင်းထားပါသည်။ [hardware page](./hardware.md) တွင် 'shopping list' ကို ဖတ်ရှုနိုင်ပြီး Seeed Studio မှ အပြည့်အစုံ kits များကို ဝယ်ယူနိုင်ရန် link များပါဝင်သည်။  
 
-> 💁 [Code of Conduct](CODE_OF_CONDUCT.md), [Contributing](CONTRIBUTING.md), နှင့် [Translation](TRANSLATIONS.md) လမ်းညွှန်ချက်များကို ရှာပါ။ သင့်ရဲ့ အဆောက်အအုံဆန်းစစ်ချက်များကို ကြိုဆိုပါသည်!  
+> 💁 [Code of Conduct](CODE_OF_CONDUCT.md), [Contributing](CONTRIBUTING.md), နှင့် [Translation](TRANSLATIONS.md) လမ်းညွှန်ချက်များကို ရှာပါ။ သင့်၏ အဆောက်အအုံဆန်းစစ်ချက်များကို ကြိုဆိုပါသည်!  
 
-## သင်ခန်းစာတစ်ခုစီတွင် ပါဝင်သည် -  
+## သင်ခန်းစာတစ်ခုစီတွင် ပါဝင်သည်-  
 
 - sketchnote  
 - အပိုဗီဒီယို  
-- သင်ခန်းစာမတိုင်မီ စမ်းမေးခွန်း  
+- သင်ခန်းစာမတိုင်မီ စစ်တမ်း  
 - ရေးသားထားသော သင်ခန်းစာ  
-- စီမံကိန်းအခြေခံ သင်ခန်းစာများအတွက် စီမံကိန်းတည်ဆောက်ရန် လမ်းညွှန်ချက်များ  
-- အသိပညာစစ်ဆေးမှု  
+- ပရောဂျက်အခြေခံ သင်ခန်းစာများအတွက် ပရောဂျက်တည်ဆောက်ရန် လမ်းညွှန်ချက်များ  
+- knowledge checks  
 - စိန်ခေါ်မှု  
 - အပိုဖတ်ရှုရန်  
 - လုပ်ငန်းတာဝန်  
-- သင်ခန်းစာပြီးနောက် စမ်းမေးခွန်း  
+- [သင်ခန်းစာပြီးနောက် စစ်တမ်း](https://ff-quizzes.netlify.app/en/)  
+> **မေးခွန်းများအကြောင်းမှတ်ချက်**: မေးခွန်းများအားလုံးကို `quiz-app` ဖိုလ်ဒါအတွင်းတွင် ထည့်သွင်းထားပြီး၊ မေးခွန်း ၃ ခုပါဝင်သော စုစုပေါင်း ၄၈ ခုရှိသည်။ မေးခွန်းများကို သင်ခန်းစာများအတွင်းမှ ချိတ်ဆက်ထားပြီး၊ `quiz-app` ဖိုလ်ဒါအတွင်းရှိ လမ်းညွှန်ချက်များကို လိုက်နာကာ ဒေသတွင်းတွင် အလုပ်လည်စေခြင်း သို့မဟုတ် Azure တွင် တင်သွင်းနိုင်သည်။ မေးခွန်းများကို တဖြည်းဖြည်း ဒေသခံအဖြစ် ပြောင်းလဲနေပါသည်။
+## သင်ခန်းစာများ
 
-> **စမ်းမေးခွန်းများအကြောင်း မှတ်ချက်**: စမ်းမေးခွန်းအားလုံးသည် quiz-app folder တွင် ပါဝင်ပြီး စုစုပေါင်း ၄၈ စမ်းမေးခွန်းများ၊ သုံးမေးခွန်းစီပါဝင်သည်။ သင်ခန်းစာများမှ link လုပ်ထားပြီး quiz app ကို locally run လုပ်နိုင်သလို Azure တွင် deploy လုပ်နိုင်ပါသည်။ `quiz-app` folder တွင် လမ်းညွှန်ချက်များကို လိုက်နာပါ။  
+|       |              Project Name              |                       Concepts Taught                       | Learning Objectives                                                                                                                                                 |                                                        Linked Lesson                                                         |
+| :---: | :------------------------------------: | :---------------------------------------------------------: | ------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :--------------------------------------------------------------------------------------------------------------------------: |
+|  01   | [Getting started](./1-getting-started/README.md) |                     IoT အကြောင်းအကျဉ်းချုပ်                     | IoT ရဲ့ အခြေခံအယူအဆများနှင့် IoT ဖြေရှင်းချက်များအတွက် အခြေခံအဆောက်အအုံများဖြစ်သော အာရုံခံကိရိယာများနှင့် cloud services များကို သင်ယူပြီး သင်၏ ပထမဆုံး IoT စက်ကို စတင်တပ်ဆင်ပါ |                      [Introduction to IoT](./1-getting-started/lessons/1-introduction-to-iot/README.md)                      |
+|  02   | [Getting started](./1-getting-started/README.md) |                   IoT အကြောင်းပိုမိုနက်ရှိုင်းသောအမြင်                    | IoT စနစ်တစ်ခု၏ အစိတ်အပိုင်းများနှင့် microcontrollers နှင့် single-board computers အကြောင်းပိုမိုသိရှိရန် သင်ယူပါ                                                            |                        [A deeper dive into IoT](./1-getting-started/lessons/2-deeper-dive/README.md)                         |
+|  03   | [Getting started](./1-getting-started/README.md) | အာရုံခံကိရိယာများနှင့် actuator များဖြင့် ရုပ်ပိုင်းဆိုင်ရာကမ္ဘာနှင့် အပြန်အလှန်ဆက်သွယ်ခြင်း | ရုပ်ပိုင်းဆိုင်ရာကမ္ဘာမှ ဒေတာများကို စုဆောင်းရန်အတွက် အာရုံခံကိရိယာများနှင့် feedback ပေးရန် actuator များအကြောင်း သင်ယူပြီး ညဉ့်အလင်းတစ်ခုကို တည်ဆောက်ပါ                                           | [Interact with the physical world with sensors and actuators](./1-getting-started/lessons/3-sensors-and-actuators/README.md) |
+|  04   | [Getting started](./1-getting-started/README.md) |             သင့်စက်ကို အင်တာနက်နှင့် ချိတ်ဆက်ပါ             | IoT စက်တစ်ခုကို အင်တာနက်နှင့် ချိတ်ဆက်ပြီး သတင်းစကားများ ပို့ခြင်းနှင့် လက်ခံခြင်းအကြောင်းကို သင်ယူပြီး သင့်ညဉ့်အလင်းကို MQTT broker နှင့် ချိတ်ဆက်ပါ                               |               [Connect your device to the Internet](./1-getting-started/lessons/4-connect-internet/README.md)                |
+|  05   |            [Farm](./2-farm/README.md)            |                    အပင်ကြီးထွားမှုကို ခန့်မှန်းခြင်း                     | IoT စက်မှ စုဆောင်းထားသော အပူချိန်ဒေတာကို အသုံးပြု၍ အပင်ကြီးထွားမှုကို ခန့်မှန်းရန် သင်ယူပါ                                                                                  |                          [Predict plant growth](./2-farm/lessons/1-predict-plant-growth/README.md)                           |
+|  06   |            [Farm](./2-farm/README.md)            |                    မြေစိုထိုင်းမှုကို ရှာဖွေခြင်း                     | မြေစိုထိုင်းမှုကို ရှာဖွေခြင်းနှင့် မြေစိုထိုင်းမှုအာရုံခံကိရိယာကို ချိန်ညှိခြင်းအကြောင်း သင်ယူပါ                                                                                              |                          [Detect soil moisture](./2-farm/lessons/2-detect-soil-moisture/README.md)                           |
+|  07   |            [Farm](./2-farm/README.md)            |                  အပင်ရေဖြူခြင်းကို အလိုအလျောက်လုပ်ဆောင်ခြင်း                   | relay နှင့် MQTT ကို အသုံးပြု၍ အပင်ရေဖြူခြင်းကို အလိုအလျောက်လုပ်ဆောင်ခြင်းနှင့် အချိန်ညှိခြင်းအကြောင်း သင်ယူပါ                                                                                                      |                      [Automated plant watering](./2-farm/lessons/3-automated-plant-watering/README.md)                       |
+|  08   |            [Farm](./2-farm/README.md)            |               သင့်အပင်ကို cloud သို့ ပြောင်းရွှေ့ပါ               | cloud နှင့် cloud-hosted IoT services အကြောင်းနှင့် public MQTT broker များအစား သင့်အပင်ကို cloud-hosted IoT service တစ်ခုနှင့် ချိတ်ဆက်ခြင်းအကြောင်း သင်ယူပါ                                   |               [Migrate your plant to the cloud](./2-farm/lessons/4-migrate-your-plant-to-the-cloud/README.md)                |
+|  09   |            [Farm](./2-farm/README.md)            |         သင့် application logic ကို cloud သို့ ပြောင်းရွှေ့ပါ         | IoT messages များကို တုံ့ပြန်သော application logic ကို cloud တွင် ရေးသားနိုင်ခြင်းအကြောင်း သင်ယူပါ                                                                          |         [Migrate your application logic to the cloud](./2-farm/lessons/5-migrate-application-to-the-cloud/README.md)         |
+|  10   |            [Farm](./2-farm/README.md)            |                   သင့်အပင်ကို လုံခြုံစေပါ                    | IoT နှင့် လုံခြုံရေးအကြောင်းနှင့် key များနှင့် certificate များကို အသုံးပြု၍ သင့်အပင်ကို လုံခြုံစေခြင်းအကြောင်း သင်ယူပါ                                                                          |                        [Keep your plant secure](./2-farm/lessons/6-keep-your-plant-secure/README.md)                         |
+|  11   |       [Transport](./3-transport/README.md)       |                      တည်နေရာကို ခြေရာခံခြင်း                      | IoT စက်များအတွက် GPS တည်နေရာခြေရာခံခြင်းအကြောင်း သင်ယူပါ                                                                                                                   |                           [Location tracking](./3-transport/lessons/1-location-tracking/README.md)                           |
+|  12   |       [Transport](./3-transport/README.md)       |                     တည်နေရာဒေတာကို သိမ်းဆည်းခြင်း                     | IoT ဒေတာကို သိမ်းဆည်းပြီး နောက်ပိုင်းတွင် မြင်ကွင်းချင်းဆိုင်ရာ သို့မဟုတ် ခွဲခြမ်းစိတ်ဖြာရန်အတွက် အသုံးပြုနိုင်ခြင်းအကြောင်း သင်ယူပါ                                                                                                      |                         [Store location data](./3-transport/lessons/2-store-location-data/README.md)                         |
+|  13   |       [Transport](./3-transport/README.md)       |                   တည်နေရာဒေတာကို မြင်ကွင်းချင်းဆိုင်ရန်                   | မြေပုံပေါ်တွင် တည်နေရာဒေတာကို မြင်ကွင်းချင်းဆိုင်ရန်အကြောင်းနှင့် မြေပုံများသည် 3D ကမ္ဘာကို 2D အနေဖြင့် ကိုယ်စားပြုပုံအကြောင်း သင်ယူပါ                                                            |                     [Visualize location data](./3-transport/lessons/3-visualize-location-data/README.md)                     |
+|  14   |       [Transport](./3-transport/README.md)       |                          Geofences                          | Geofences အကြောင်းနှင့် supply chain တွင်ရှိသော ယာဉ်များသည် သတ်မှတ်ထားသော destination အနီးရောက်ရှိသောအခါ သတိပေးချက်ပေးနိုင်ခြင်းအကြောင်း သင်ယူပါ                                           |                                   [Geofences](./3-transport/lessons/4-geofences/README.md)                                   |
+|  15   |   [Manufacturing](./4-manufacturing/README.md)   |               သစ်သီးအရည်အသွေးကို စစ်ဆေးရန် detector တစ်ခုကို လေ့ကျင့်ပါ                | cloud တွင် image classifier တစ်ခုကို လေ့ကျင့်ပြီး သစ်သီးအရည်အသွေးကို စစ်ဆေးနိုင်ခြင်းအကြောင်း သင်ယူပါ                                                                                       |                 [Train a fruit quality detector](./4-manufacturing/lessons/1-train-fruit-detector/README.md)                 |
+|  16   |   [Manufacturing](./4-manufacturing/README.md)   |           IoT စက်မှ သစ်သီးအရည်အသွေးကို စစ်ဆေးပါ            | IoT စက်မှ သစ်သီးအရည်အသွေး detector ကို အသုံးပြုခြင်းအကြောင်း သင်ယူပါ                                                                                                    |           [Check fruit quality from an IoT device](./4-manufacturing/lessons/2-check-fruit-from-device/README.md)            |
+|  17   |   [Manufacturing](./4-manufacturing/README.md)   |             သင့်သစ်သီး detector ကို edge တွင် run လုပ်ပါ             | IoT စက်တွင် သင့်သစ်သီး detector ကို edge တွင် run လုပ်ခြင်းအကြောင်း သင်ယူပါ                                                                                                |             [Run your fruit detector on the edge](./4-manufacturing/lessons/3-run-fruit-detector-edge/README.md)             |
+|  18   |   [Manufacturing](./4-manufacturing/README.md)   |        အာရုံခံကိရိယာမှ သစ်သီးအရည်အသွေးစစ်ဆေးမှုကို trigger လုပ်ပါ        | အာရုံခံကိရိယာမှ သစ်သီးအရည်အသွေးစစ်ဆေးမှုကို trigger လုပ်ခြင်းအကြောင်း သင်ယူပါ                                                                                                        |        [Trigger fruit quality detection from a sensor](./4-manufacturing/lessons/4-trigger-fruit-detector/README.md)         |
+|  19   |          [Retail](./5-retail/README.md)          |                   စတော့ရှယ်ယာ detector ကို လေ့ကျင့်ပါ                    | object detection ကို အသုံးပြု၍ စတော့ရှယ်ယာ detector ကို လေ့ကျင့်ပြီး ဆိုင်တွင် စတော့ရှယ်ယာကို ရေတွက်နိုင်ခြင်းအကြောင်း သင်ယူပါ                                                                                |                        [Train a stock detector](./5-retail/lessons/1-train-stock-detector/README.md)                         |
+|  20   |          [Retail](./5-retail/README.md)          |               IoT စက်မှ စတော့ရှယ်ယာကို စစ်ဆေးပါ                | object detection model ကို အသုံးပြု၍ IoT စက်မှ စတော့ရှယ်ယာကို စစ်ဆေးခြင်းအကြောင်း သင်ယူပါ                                                                                         |                     [Check stock from an IoT device](./5-retail/lessons/2-check-stock-device/README.md)                      |
+|  21   |        [Consumer](./6-consumer/README.md)        |             IoT စက်မှ စကားသံကို အသိအမှတ်ပြုပါ             | IoT စက်မှ စကားသံကို အသိအမှတ်ပြု၍ smart timer တစ်ခုကို တည်ဆောက်ခြင်းအကြောင်း သင်ယူပါ                                                                                             |                  [Recognize speech with an IoT device](./6-consumer/lessons/1-speech-recognition/README.md)                  |
+|  22   |        [Consumer](./6-consumer/README.md)        |                     ဘာသာစကားကို နားလည်ပါ                     | IoT စက်ကို ပြောဆိုသော စာကြောင်းများကို နားလည်နိုင်ခြင်းအကြောင်း သင်ယူပါ                                                                                                           |                        [Understand language](./6-consumer/lessons/2-language-understanding/README.md)                        |
+|  23   |        [Consumer](./6-consumer/README.md)        |           timer တစ်ခုကို သတ်မှတ်ပြီး စကားသံ feedback ပေးပါ           | IoT စက်တွင် timer တစ်ခုကို သတ်မှတ်ပြီး timer သတ်မှတ်ချိန်နှင့် ပြီးဆုံးချိန်တွင် စကားသံ feedback ပေးနိုင်ခြင်းအကြောင်း သင်ယူပါ                                                    |                 [Set a timer and provide spoken feedback](./6-consumer/lessons/3-spoken-feedback/README.md)                  |
+|  24   |        [Consumer](./6-consumer/README.md)        |                 ဘာသာစကားများစွာကို ပံ့ပိုးပါ                  | သင့် smart timer သို့ ပြောဆိုသော ဘာသာစကားများနှင့် ပြန်လည်တုံ့ပြန်သော ဘာသာစကားများကို ပံ့ပိုးနိုင်ခြင်းအကြောင်း သင်ယူပါ                                                               |                   [Support multiple languages](./6-consumer/lessons/4-multiple-language-support/README.md)                   |
 
-## သင်ခန်းစာများ  
+## အွန်လိုင်းမရှိဘဲ အသုံးပြုနိုင်မှု
 
-|       |              စီမံကိန်းအမည်              |                       သင်ကြားမည့်အကြောင်းအရာများ                       | သင်ယူရမည့်ရည်ရွယ်ချက်များ                                                                                                                                                 |                                                        သင်ခန်းစာ link                                                         |  
-| :---: | :------------------------------------: | :---------------------------------------------------------: | ------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :--------------------------------------------------------------------------------------------------------------------------: |  
-|  01   | [စတင်ခြင်း](./1-getting-started/README.md) |                     IoT အကြောင်းအကျဉ်း                     | IoT အခြေခံအချက်များနှင့် IoT ဖြေရှင်းချက်များ၏ အခြေခံအဆောက်အအုံများကို သင်ယူပြီး သင့်ရဲ့ ပထမဆုံး IoT စက်ပစ္စည်းကို တည်ဆောက်ပါ |                      [IoT အကြောင်းအကျဉ်း](./1-getting-started/lessons/1-introduction-to-iot/README.md)                      |  
-|  02   | [စတင်ခြင်း](./1-getting-started/README.md) |                   IoT အကြောင်းပိုမိုနက်ရှိုင်းစွာလေ့လာခြင်း                    | IoT စနစ်၏ အစိတ်အပိုင်းများနှင့် microcontrollers နှင့် single-board computers အကြောင်းပိုမိုလေ့လာပါ                                                            |                        [IoT အကြောင်းပိုမိုနက်ရှိုင်းစွာလေ့လာခြင်း](./1-getting-started/lessons/2-deeper-dive/README.md)                         |  
-|  03   | [စတင်ခြင်း](./1-getting-started/README.md) | အာရုံခံကိရိယာများနှင့် actuator များဖြင့် ရုပ်ပိုင်းဆိုင်ရာကမ္ဘာနှင့် အပြန်အလှန်ဆက်သွယ်ခြင်း | ရုပ်ပိုင်းဆိုင်ရာကမ္ဘာမှ ဒေတာကို စုဆောင်းရန် sensor များနှင့် feedback ပေးရန် actuator များအကြောင်း သင်ယူပြီး ညဉ့်အလင်းကို တည်ဆောက်ပါ                                           | [အာရုံခံကိရိယာများနှင့် actuator များဖြင့် ရုပ်ပိုင်းဆိုင်ရာကမ္ဘာနှင့် အပြန်အလှန်ဆက်သွယ်ခြင်း](./1-getting-started/lessons/3-sensors-and-actuators/README.md) |  
-|  04   | [စတင်ခြင်း](./1-getting-started/README.md) |             သင့်စက်ပစ္စည်းကို အင်တာနက်နှင့် ချိတ်ဆက်ခြင်း             | IoT စက်ပစ္စည်းကို အင်တာနက်နှင့် ချိတ်ဆက်ပြီး သတင်းစကားများပို့ခြင်းနှင့် လက်ခံခြင်းအကြောင်း သင်ယူပြီး သင့်ညဉ့်အလင်းကို MQTT broker နှင့် ချိတ်ဆက်ပါ                               |               [သင့်စက်ပစ္စည်းကို အင်တာနက်နှင့် ချိတ်ဆက်ခြင်း](./1-getting-started/lessons/4-connect-internet/README.md)                |  
-|  05   |            [လယ်ယာ](./2-farm/README.md)            |                    အပင်ကြီးထွားမှုကို ခန့်မှန်းခြင်း                     | IoT စက်ပစ္စည်းမှ ရရှိသော အပူချိန်ဒေတာကို အသုံးပြု၍ အပင်ကြီးထွားမှုကို ခန့်မှန်းရန် သင်ယူပါ                                                                                  |                          [အပင်ကြီးထွားမှုကို ခန့်မှန်းခြင်း](./2-farm/lessons/1-predict-plant-growth/README.md)                           |  
-|  06   |            [လယ်ယာ](./2-farm/README.md)            |                    မြေစိုထိုင်းမှုကို ရှာဖွေခြင်း                     | မြေစိုထိုင်းမှုကို ရှာဖွေခြင်းနှင့် မြေစိုထိုင်းမှု sensor ကို စနစ်တကျ ချိန်ညှိခြင်းအကြောင်း သင်ယူပါ                                                                                              |                          [မြေစိုထိုင်းမှုကို ရှာဖွေခြင်း](./2-farm/lessons/2-detect-soil-moisture/README.md)                           |  
-|  07   |            [လယ်ယာ](./2-farm/README.md)            |                  အပင်ရေချိုးခြင်းကို အလိုအလျောက်လုပ်ဆောင်ခြင်း                   | relay နှင့် MQTT ကို အသုံးပြု၍ ရေချိုးခြင်းကို အလိုအလျောက်လုပ်ဆောင်ခြင်းနှင့် အချိန်ညှိခြင်းအကြောင်း သင်ယူပါ
-|  10   |            [Farm](./2-farm/README.md)            |                   သင့်အပင်ကို လုံခြုံစေပါ                   | IoT နှင့် လုံခြုံရေးအကြောင်းလေ့လာပြီး သင့်အပင်ကို key နှင့် certificate များဖြင့် ဘယ်လိုကာကွယ်ရမည်ကို သိရှိပါ။                                              |                        [သင့်အပင်ကို လုံခြုံစေပါ](./2-farm/lessons/6-keep-your-plant-secure/README.md)                         |
-|  11   |       [Transport](./3-transport/README.md)       |                      တည်နေရာခြေရာခံခြင်း                      | IoT စက်ပစ္စည်းများအတွက် GPS တည်နေရာခြေရာခံမှုအကြောင်းလေ့လာပါ                                                                                                   |                           [တည်နေရာခြေရာခံခြင်း](./3-transport/lessons/1-location-tracking/README.md)                           |
-|  12   |       [Transport](./3-transport/README.md)       |                     တည်နေရာဒေတာကို သိမ်းဆည်းပါ                     | IoT ဒေတာကို သိမ်းဆည်းပြီး နောက်ပိုင်းတွင် မြင်ကွင်းဖော်ခြင်း သို့မဟုတ် ခွဲခြမ်းစိတ်ဖြာမှုအတွက် အသုံးပြုနိုင်ရန် လေ့လာပါ။                                           |                         [တည်နေရာဒေတာကို သိမ်းဆည်းပါ](./3-transport/lessons/2-store-location-data/README.md)                         |
-|  13   |       [Transport](./3-transport/README.md)       |                   တည်နေရာဒေတာကို မြင်ကွင်းဖော်ပါ                   | မြေပုံပေါ်တွင် တည်နေရာဒေတာကို မြင်ကွင်းဖော်ခြင်းနှင့် မြေပုံများသည် 3D ကမ္ဘာကို 2D အဖြစ် ဘယ်လိုဖော်ပြထားသည်ကို လေ့လာပါ။                                         |                     [တည်နေရာဒေတာကို မြင်ကွင်းဖော်ပါ](./3-transport/lessons/3-visualize-location-data/README.md)                     |
-|  14   |       [Transport](./3-transport/README.md)       |                          Geofences                          | Geofences အကြောင်းနှင့် ထောက်ပံ့ရေးကွင်းဆက်ရှိ ယာဉ်များသည် သတ်မှတ်ထားသောနေရာအနီးရောက်ရှိသည့်အခါ သတိပေးရန် ဘယ်လိုအသုံးပြုနိုင်သည်ကို လေ့လာပါ။               |                                   [Geofences](./3-transport/lessons/4-geofences/README.md)                                   |
-|  15   |   [Manufacturing](./4-manufacturing/README.md)   |               အသီးအရည်အသွေးစစ်ဆေးသူကို လေ့ကျင့်ပါ                | အသီးအရည်အသွေးကို စစ်ဆေးနိုင်ရန် cloud တွင် image classifier တစ်ခုကို ဘယ်လိုလေ့ကျင့်ရမည်ကို လေ့လာပါ။                                                          |                 [အသီးအရည်အသွေးစစ်ဆေးသူကို လေ့ကျင့်ပါ](./4-manufacturing/lessons/1-train-fruit-detector/README.md)                 |
-|  16   |   [Manufacturing](./4-manufacturing/README.md)   |           IoT စက်ပစ္စည်းမှ အသီးအရည်အသွေးကို စစ်ဆေးပါ            | IoT စက်ပစ္စည်းမှ အသီးအရည်အသွေးစစ်ဆေးသူကို ဘယ်လိုအသုံးပြုရမည်ကို လေ့လာပါ။                                                                                     |           [IoT စက်ပစ္စည်းမှ အသီးအရည်အသွေးကို စစ်ဆေးပါ](./4-manufacturing/lessons/2-check-fruit-from-device/README.md)            |
-|  17   |   [Manufacturing](./4-manufacturing/README.md)   |             Edge ပေါ်တွင် အသီးစစ်ဆေးသူကို လည်ပတ်ပါ             | Edge ပေါ်တွင် IoT စက်ပစ္စည်းမှ အသီးစစ်ဆေးသူကို ဘယ်လိုလည်ပတ်ရမည်ကို လေ့လာပါ။                                                                                   |             [Edge ပေါ်တွင် အသီးစစ်ဆေးသူကို လည်ပတ်ပါ](./4-manufacturing/lessons/3-run-fruit-detector-edge/README.md)             |
-|  18   |   [Manufacturing](./4-manufacturing/README.md)   |        ဆင်ဆာမှ အသီးအရည်အသွေးစစ်ဆေးမှုကို စတင်ပါ        | ဆင်ဆာမှ အသီးအရည်အသွေးစစ်ဆေးမှုကို ဘယ်လိုစတင်ရမည်ကို လေ့လာပါ။                                                                                               |        [ဆင်ဆာမှ အသီးအရည်အသွေးစစ်ဆေးမှုကို စတင်ပါ](./4-manufacturing/lessons/4-trigger-fruit-detector/README.md)         |
-|  19   |          [Retail](./5-retail/README.md)          |                   စတော့ရှယ်ယာစစ်ဆေးသူကို လေ့ကျင့်ပါ                    | ဆိုင်တစ်ခုတွင် စတော့ရှယ်ယာကိုရေတွက်ရန် object detection ကို အသုံးပြု၍ စတော့ရှယ်ယာစစ်ဆေးသူကို ဘယ်လိုလေ့ကျင့်ရမည်ကို လေ့လာပါ။                                   |                        [စတော့ရှယ်ယာစစ်ဆေးသူကို လေ့ကျင့်ပါ](./5-retail/lessons/1-train-stock-detector/README.md)                         |
-|  20   |          [Retail](./5-retail/README.md)          |               IoT စက်ပစ္စည်းမှ စတော့ရှယ်ယာကို စစ်ဆေးပါ                | Object detection မော်ဒယ်ကို အသုံးပြု၍ IoT စက်ပစ္စည်းမှ စတော့ရှယ်ယာကို ဘယ်လိုစစ်ဆေးရမည်ကို လေ့လာပါ။                                                            |                     [IoT စက်ပစ္စည်းမှ စတော့ရှယ်ယာကို စစ်ဆေးပါ](./5-retail/lessons/2-check-stock-device/README.md)                      |
-|  21   |        [Consumer](./6-consumer/README.md)        |             IoT စက်ပစ္စည်းမှ စကားသံကို အသိအမှတ်ပြုပါ             | Smart timer တစ်ခုတည်ဆောက်ရန် IoT စက်ပစ္စည်းမှ စကားသံကို ဘယ်လိုအသိအမှတ်ပြုရမည်ကို လေ့လာပါ။                                                                    |                  [IoT စက်ပစ္စည်းမှ စကားသံကို အသိအမှတ်ပြုပါ](./6-consumer/lessons/1-speech-recognition/README.md)                  |
-|  22   |        [Consumer](./6-consumer/README.md)        |                     ဘာသာစကားကို နားလည်ပါ                     | IoT စက်ပစ္စည်းကို ပြောဆိုသည့် စာကြောင်းများကို ဘယ်လိုနားလည်ရမည်ကို လေ့လာပါ။                                                                                     |                        [ဘာသာစကားကို နားလည်ပါ](./6-consumer/lessons/2-language-understanding/README.md)                        |
-|  23   |        [Consumer](./6-consumer/README.md)        |           Timer တစ်ခုကို သတ်မှတ်ပြီး စကားပြောတုံ့ပြန်မှုပေးပါ           | IoT စက်ပစ္စည်းတွင် timer တစ်ခုကို သတ်မှတ်ပြီး timer သတ်မှတ်ချိန်နှင့် ပြီးဆုံးချိန်တွင် စကားပြောတုံ့ပြန်မှုကို ဘယ်လိုပေးရမည်ကို လေ့လာပါ။                          |                 [Timer တစ်ခုကို သတ်မှတ်ပြီး စကားပြောတုံ့ပြန်မှုပေးပါ](./6-consumer/lessons/3-spoken-feedback/README.md)                  |
-|  24   |        [Consumer](./6-consumer/README.md)        |                 ဘာသာစကားများစွာကို ထောက်ပံ့ပါ                  | သင့် smart timer အတွက် ပြောဆိုမှုနှင့် တုံ့ပြန်မှုများကို ဘာသာစကားအမျိုးမျိုးဖြင့် ဘယ်လိုထောက်ပံ့ရမည်ကို လေ့လာပါ။                                                 |                   [ဘာသာစကားများစွာကို ထောက်ပံ့ပါ](./6-consumer/lessons/4-multiple-language-support/README.md)                   |
+ဤစာရွက်စာတမ်းကို [Docsify](https://docsify.js.org/#/) ကို အသုံးပြု၍ အွန်လိုင်းမရှိဘဲ run လုပ်နိုင်ပါသည်။ ဤ repo ကို fork လုပ်ပြီး [Docsify ကို install လုပ်ပါ](https://docsify.js.org/#/quickstart) သင့် local machine တွင် ထည့်သွင်းပါ၊ ထို့နောက် repo ၏ root folder တွင် `docsify serve` ကို ရိုက်ထည့်ပါ။ website ကို သင့် localhost: `localhost:3000` တွင် port 3000 မှာ serve လုပ်ပါမည်။
 
-## အွန်လိုင်းမရှိသည့်အခြေအနေတွင် အသုံးပြုနိုင်မှု
+## Quiz
 
-ဤစာရွက်စာတမ်းကို [Docsify](https://docsify.js.org/#/) ကို အသုံးပြု၍ အွန်လိုင်းမရှိသည့်အခြေအနေတွင် လည်ပတ်နိုင်ပါသည်။ ဤ repo ကို fork လုပ်ပြီး [Docsify ကို သင့်ကွန်ပျူတာတွင် ထည့်သွင်းပါ](https://docsify.js.org/#/quickstart)။ ထို့နောက် repo ၏ root folder တွင် `docsify serve` ဟု ရိုက်ထည့်ပါ။ website ကို သင့် localhost ၏ port 3000 တွင် လည်ပတ်နိုင်ပါမည် - `localhost:3000`။
+ဤ chapter များအပေါ် သင့်အသိပညာကို စမ်းသပ်ရန် interactive quiz ကို community မှ host လုပ်ထားပါသည်။ [ဒီမှာ](https://ff-quizzes.netlify.app/en/) သင့်အသိပညာကို စမ်းသပ်ပါ 
 
 ### PDF
 
-လိုအပ်ပါက ဤအကြောင်းအရာ၏ PDF ကို အွန်လိုင်းမရှိသည့်အခြေအနေတွင် အသုံးပြုရန် ဖန်တီးနိုင်ပါသည်။ ဤအတွက် [npm ထည့်သွင်းထား](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) ရမည်ဖြစ်ပြီး repo ၏ root folder တွင် အောက်ပါ command များကို ရိုက်ထည့်ပါ။
+လိုအပ်ပါက ဤအကြောင်းအရာကို offline access အတွက် PDF အဖြစ် generate လုပ်နိုင်ပါသည်။ ဤအရာကိုလုပ်ရန် [npm install လုပ်ထား](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) ရမည်ဖြစ်ပြီး repo ၏ root folder တွင် အောက်ပါ command များကို run လုပ်ပါ:
 
 ```sh
 npm i
 npm run convert
 ```
 
-### စာတမ်းများ
+### Slides
 
-[slides](../../slides) folder တွင် သင်ခန်းစာအချို့အတွက် slide deck များပါရှိသည်။
+သင်ခန်းစာအချို့အတွက် slide deck များကို [slides](../../slides) folder တွင် ရှာနိုင်ပါသည်။
 
-## အကူအညီလိုအပ်ပါသည်!
+## အခြားသော သင်ကြားရေးအစီအစဉ်များ
 
-ဘာသာပြန်မှုတွင် ပါဝင်ဆောင်ရွက်လိုပါသလား? ကျွန်ုပ်တို့၏ [ဘာသာပြန်လမ်းညွှန်ချက်များ](TRANSLATIONS.md) ကို ဖတ်ရှုပြီး [ဘာသာပြန်ရေးဆွဲမှုဆိုင်ရာ issue များ](https://github.com/microsoft/IoT-For-Beginners/issues?q=is%3Aissue+is%3Aopen+label%3Atranslation) တွင် အကြံပြုချက်ထည့်သွင်းပါ။ အသစ်သောဘာသာစကားတစ်ခုအတွက် ဘာသာပြန်ရေးဆွဲလိုပါက, tracking အတွက် အသစ်သော issue တစ်ခုကို ဖွင့်ပါ။
+ကျွန်ုပ်တို့၏အဖွဲ့သည် အခြားသော သင်ကြားရေးအစီအစဉ်များကို ထုတ်လုပ်ပါသည်! စစ်ဆေးပါ:
 
-## အခြားသင်ရိုးများ
-
-ကျွန်ုပ်တို့၏အဖွဲ့သည် အခြားသင်ရိုးများကိုလည်း ထုတ်လုပ်ပါသည်! စစ်ဆေးကြည့်ပါ-
-
+- [AI Agents for Beginners](https://aka.ms/ai-agents-beginners)
+- [MCP for Beginners](https://aka.ms/mcp-for-beginners)
 - [Generative AI for Beginners](https://aka.ms/genai-beginners)
 - [Generative AI for Beginners .NET](https://github.com/microsoft/Generative-AI-for-beginners-dotnet)
 - [Generative AI with JavaScript](https://github.com/microsoft/generative-ai-with-javascript)
@@ -154,11 +161,11 @@ npm run convert
 - [Mastering GitHub Copilot for C#/.NET Developers](https://github.com/microsoft/mastering-github-copilot-for-dotnet-csharp-developers)
 - [Choose Your Own Copilot Adventure](https://github.com/microsoft/CopilotAdventures)
 
-## ပုံအသုံးပြုမှုအတွက် အားကျမှုများ
+## ပုံများ၏ Attribution
 
-ဤသင်ရိုးတွင် အသုံးပြုထားသည့် ပုံများအတွက် အားကျမှုများကို [Attributions](./attributions.md) တွင် ရှာဖွေနိုင်ပါသည်။
+ဤသင်ကြားရေးအစီအစဉ်တွင် အသုံးပြုထားသော ပုံများအတွက် attribution များကို [Attributions](./attributions.md) တွင် ရှာနိုင်ပါသည်။
 
 ---
 
 **အကြောင်းကြားချက်**:  
-ဤစာရွက်စာတမ်းကို AI ဘာသာပြန်ဝန်ဆောင်မှု [Co-op Translator](https://github.com/Azure/co-op-translator) ကို အသုံးပြု၍ ဘာသာပြန်ထားပါသည်။ ကျွန်ုပ်တို့သည် တိကျမှုအတွက် ကြိုးစားနေသော်လည်း၊ အလိုအလျောက် ဘာသာပြန်မှုများတွင် အမှားများ သို့မဟုတ် မမှန်ကန်မှုများ ပါဝင်နိုင်သည်ကို သတိပြုပါ။ မူရင်းဘာသာစကားဖြင့် ရေးသားထားသော စာရွက်စာတမ်းကို အာဏာရှိသော ရင်းမြစ်အဖြစ် သတ်မှတ်သင့်ပါသည်။ အရေးကြီးသော အချက်အလက်များအတွက် လူ့ဘာသာပြန်ပညာရှင်များမှ ပရော်ဖက်ရှင်နယ် ဘာသာပြန်မှုကို အကြံပြုပါသည်။ ဤဘာသာပြန်မှုကို အသုံးပြုခြင်းမှ ဖြစ်ပေါ်လာသော အလွဲအလွတ်များ သို့မဟုတ် အနားယူမှားမှုများအတွက် ကျွန်ုပ်တို့သည် တာဝန်မယူပါ။
+ဤစာရွက်စာတမ်းကို AI ဘာသာပြန်ဝန်ဆောင်မှု [Co-op Translator](https://github.com/Azure/co-op-translator) ကို အသုံးပြု၍ ဘာသာပြန်ထားပါသည်။ ကျွန်ုပ်တို့သည် တိကျမှုအတွက် ကြိုးစားနေသော်လည်း၊ အလိုအလျောက် ဘာသာပြန်မှုများတွင် အမှားများ သို့မဟုတ် မတိကျမှုများ ပါဝင်နိုင်သည်ကို သတိပြုပါ။ မူရင်းစာရွက်စာတမ်းကို ၎င်း၏ မူရင်းဘာသာစကားဖြင့် အာဏာတရားရှိသော အရင်းအမြစ်အဖြစ် ရှုလေ့လာသင့်ပါသည်။ အရေးကြီးသော အချက်အလက်များအတွက် လူ့ဘာသာပြန်ပညာရှင်များမှ ပရော်ဖက်ရှင်နယ် ဘာသာပြန်မှုကို အကြံပြုပါသည်။ ဤဘာသာပြန်မှုကို အသုံးပြုခြင်းမှ ဖြစ်ပေါ်လာသော အလွဲအလွတ်များ သို့မဟုတ် အနားလွဲမှုများအတွက် ကျွန်ုပ်တို့သည် တာဝန်မယူပါ။

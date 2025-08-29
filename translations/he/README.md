@@ -1,44 +1,49 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "840d60a05e58cf590dedefe42e9f2a29",
-  "translation_date": "2025-08-27T20:21:16+00:00",
+  "original_hash": "76d321d7bcf532e985810ec9ea8d22b2",
+  "translation_date": "2025-08-29T15:40:04+00:00",
   "source_file": "README.md",
   "language_code": "he"
 }
 -->
-[![GitHub license](https://img.shields.io/github/license/microsoft/IoT-For-Beginners.svg)](https://github.com/microsoft/IoT-For-Beginners/blob/master/LICENSE)  
-[![GitHub contributors](https://img.shields.io/github/contributors/microsoft/IoT-For-Beginners.svg)](https://GitHub.com/microsoft/IoT-For-Beginners/graphs/contributors/)  
-[![GitHub issues](https://img.shields.io/github/issues/microsoft/IoT-For-Beginners.svg)](https://GitHub.com/microsoft/IoT-For-Beginners/issues/)  
-[![GitHub pull-requests](https://img.shields.io/github/issues-pr/microsoft/IoT-For-Beginners.svg)](https://GitHub.com/microsoft/IoT-For-Beginners/pulls/)  
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)  
+[![רישיון GitHub](https://img.shields.io/github/license/microsoft/IoT-For-Beginners.svg)](https://github.com/microsoft/IoT-For-Beginners/blob/master/LICENSE)  
+[![תורמים ב-GitHub](https://img.shields.io/github/contributors/microsoft/IoT-For-Beginners.svg)](https://GitHub.com/microsoft/IoT-For-Beginners/graphs/contributors/)  
+[![בעיות ב-GitHub](https://img.shields.io/github/issues/microsoft/IoT-For-Beginners.svg)](https://GitHub.com/microsoft/IoT-For-Beginners/issues/)  
+[![בקשות משיכה ב-GitHub](https://img.shields.io/github/issues-pr/microsoft/IoT-For-Beginners.svg)](https://GitHub.com/microsoft/IoT-For-Beginners/pulls/)  
+[![בקשות משיכה מתקבלות](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)  
 
-[![GitHub watchers](https://img.shields.io/github/watchers/microsoft/IoT-For-Beginners.svg?style=social&label=Watch)](https://GitHub.com/microsoft/IoT-For-Beginners/watchers/)  
-[![GitHub forks](https://img.shields.io/github/forks/microsoft/IoT-For-Beginners.svg?style=social&label=Fork)](https://GitHub.com/microsoft/IoT-For-Beginners/network/)  
-[![GitHub stars](https://img.shields.io/github/stars/microsoft/IoT-For-Beginners.svg?style=social&label=Star)](https://GitHub.com/microsoft/IoT-For-Beginners/stargazers/)  
+[![עוקבים ב-GitHub](https://img.shields.io/github/watchers/microsoft/IoT-For-Beginners.svg?style=social&label=Watch)](https://GitHub.com/microsoft/IoT-For-Beginners/watchers/)  
+[![מזלגות ב-GitHub](https://img.shields.io/github/forks/microsoft/IoT-For-Beginners.svg?style=social&label=Fork)](https://GitHub.com/microsoft/IoT-For-Beginners/network/)  
+[![כוכבים ב-GitHub](https://img.shields.io/github/stars/microsoft/IoT-For-Beginners.svg?style=social&label=Star)](https://GitHub.com/microsoft/IoT-For-Beginners/stargazers/)  
 
-[![Bengali](https://img.shields.io/badge/-Bengali-blue)](translations/README.bn.md)  
-[![Chinese](https://img.shields.io/badge/-Chinese-yellow)](translations/README.zh-cn.md)  
-[![Turkish](https://img.shields.io/badge/-Turkish-darkgreen)](translations/README.tr.md)  
-[![French](https://img.shields.io/badge/-French-purple)](translations/README.fr.md)  
-[![Korean](https://img.shields.io/badge/-Korean-white)](translations/README.ko.md)  
-[![Japanese](https://img.shields.io/badge/-Japanese-red)](translations/README.ja.md)  
+### הצטרפו לקהילת Azure AI Foundry  
+[![Microsoft Azure AI Foundry Discord](https://dcbadge.limes.pink/api/server/ByRwuEEgH4)](https://discord.com/invite/ByRwuEEgH4)  
 
-[![](https://dcbadge.vercel.app/api/server/ByRwuEEgH4)](https://discord.gg/zxKYvhSnVp?WT.mc_id=academic-000002-leestott)  
+עקבו אחר השלבים הבאים כדי להתחיל להשתמש במשאבים אלו:  
+1. **צרו מזלג למאגר**: לחצו [![מזלגות ב-GitHub](https://img.shields.io/github/forks/microsoft/IoT-For-Beginners.svg?style=social&label=Fork)](https://GitHub.com/microsoft/IoT-For-Beginners/fork)  
+2. **שכפלו את המאגר**: `git clone https://github.com/microsoft/IoT-For-Beginners.git`  
+3. [**הצטרפו ל-Azure AI Foundry Discord ופגשו מומחים ומפתחים נוספים**](https://discord.com/invite/ByRwuEEgH4)  
+
+### 🌐 תמיכה רב-שפתית  
+
+#### נתמך באמצעות GitHub Action (אוטומטי ותמיד מעודכן)  
+
+ [Arabic](../ar/README.md) | [Bengali](../bn/README.md) | [Bulgarian](../bg/README.md) | [Burmese (Myanmar)](../my/README.md) | [Chinese (Simplified)](../zh/README.md) | [Chinese (Traditional, Hong Kong)](../hk/README.md) | [Chinese (Traditional, Macau)](../mo/README.md) | [Chinese (Traditional, Taiwan)](../tw/README.md) | [Croatian](../hr/README.md) | [Czech](../cs/README.md) | [Danish](../da/README.md) | [Dutch](../nl/README.md) | [Finnish](../fi/README.md) | [French](../fr/README.md) | [German](../de/README.md) | [Greek](../el/README.md) | [Hebrew](./README.md) | [Hindi](../hi/README.md) | [Hungarian](../hu/README.md) | [Indonesian](../id/README.md) | [Italian](../it/README.md) | [Japanese](../ja/README.md) | [Korean](../ko/README.md) | [Malay](../ms/README.md) | [Marathi](../mr/README.md) | [Nepali](../ne/README.md) | [Norwegian](../no/README.md) | [Persian (Farsi)](../fa/README.md) | [Polish](../pl/README.md) | [Portuguese (Brazil)](../br/README.md) | [Portuguese (Portugal)](../pt/README.md) | [Punjabi (Gurmukhi)](../pa/README.md) | [Romanian](../ro/README.md) | [Russian](../ru/README.md) | [Serbian (Cyrillic)](../sr/README.md) | [Slovak](../sk/README.md) | [Slovenian](../sl/README.md) | [Spanish](../es/README.md) | [Swahili](../sw/README.md) | [Swedish](../sv/README.md) | [Tagalog (Filipino)](../tl/README.md) | [Thai](../th/README.md) | [Turkish](../tr/README.md) | [Ukrainian](../uk/README.md) | [Urdu](../ur/README.md) | [Vietnamese](../vi/README.md)  
 
 # IoT למתחילים - תוכנית לימודים  
 
-צוות Azure Cloud Advocates במיקרוסופט שמח להציע תוכנית לימודים בת 12 שבועות ו-24 שיעורים בנושא יסודות האינטרנט של הדברים (IoT). כל שיעור כולל מבחני טרום ואחרי שיעור, הוראות כתובות להשלמת השיעור, פתרון, משימה ועוד. הגישה מבוססת הפרויקטים שלנו מאפשרת ללמוד תוך כדי בנייה, שיטה מוכחת להטמעת מיומנויות חדשות.  
+צוות Azure Cloud Advocates במיקרוסופט שמח להציע תוכנית לימודים בת 12 שבועות ו-24 שיעורים על יסודות IoT. כל שיעור כולל מבחני טרום ואחרי שיעור, הוראות כתובות להשלמת השיעור, פתרון, משימה ועוד. הגישה מבוססת הפרויקטים שלנו מאפשרת לכם ללמוד תוך כדי בנייה, שיטה מוכחת להטמעת מיומנויות חדשות.  
 
-הפרויקטים עוסקים במסע של מזון מהחווה ועד לצלחת. זה כולל חקלאות, לוגיסטיקה, ייצור, קמעונאות וצרכנות - תחומים פופולריים בתעשייה עבור מכשירי IoT.  
+הפרויקטים מכסים את המסע של מזון מהחווה ועד לשולחן. זה כולל חקלאות, לוגיסטיקה, ייצור, קמעונאות וצרכנות - כל אלו תחומים פופולריים עבור מכשירי IoT.  
 
 ![מפת דרכים לקורס המציגה 24 שיעורים המכסים מבוא, חקלאות, תחבורה, עיבוד, קמעונאות ובישול](../../translated_images/Roadmap.bb1dec285dda0eda691788b95ddfc96d31d76bb7649e3f04a135e4ad395f323e.he.jpg)  
 
-> איור מאת [ניטיה נאראסימן](https://github.com/nitya). לחצו על התמונה לגרסה גדולה יותר.  
+> סקיצה מאת [ניטיה נאראסימן](https://github.com/nitya). לחצו על התמונה לגרסה גדולה יותר.  
 
-**תודה רבה למחברים שלנו [ג'ן פוקס](https://github.com/jenfoxbot), [ג'ן לופר](https://github.com/jlooper), [ג'ים בנט](https://github.com/jimbobbennett), ולאמנית האיורים שלנו [ניטיה נאראסימן](https://github.com/nitya).**  
+**תודה רבה למחברים שלנו [ג'ן פוקס](https://github.com/jenfoxbot), [ג'ן לופר](https://github.com/jlooper), [ג'ים בנט](https://github.com/jimbobbennett), ולאמנית הסקיצות שלנו [ניטיה נאראסימן](https://github.com/nitya).**  
 
-**תודה גם לצוות [שגרירי הסטודנטים של Microsoft Learn](https://studentambassadors.microsoft.com?WT.mc_id=academic-17441-jabenn) שסקרו ותרגמו את תוכנית הלימודים הזו - [אדיטיה גרג](https://github.com/AdityaGarg00), [אנוראאג שארמה](https://github.com/Anurag-0-1-A), [ארפיטה דאס](https://github.com/Arpiiitaaa), [אריאן ג'יין](https://www.linkedin.com/in/aryan-jain-47a4a1145/), [בהאבש סונג'ה](https://github.com/EliteWarrior315), [פיית' הונג'ה](https://faithhunja.github.io/), [לטיפה בלו](https://www.linkedin.com/in/lateefah-bello/), [מנווי ג'ה](https://github.com/Severus-Matthew), [מירייל טאן](https://www.linkedin.com/in/mireille-tan-a4834819a/), [מוחמד איפטחר (איפטו) אבנה ג'לאל](https://github.com/Iftu119), [מוחמד זולפיקאר](https://github.com/mohzulfikar), [פריאנשו סריווסטב](https://www.linkedin.com/in/priyanshu-srivastav-b067241ba), [תנמאי גאודוצ'רו](https://github.com/innovation-platform), ו[זינה כמאל](https://www.linkedin.com/in/zina-kamel/).**  
+**תודה גם לצוות [שגרירי הסטודנטים של Microsoft Learn](https://studentambassadors.microsoft.com?WT.mc_id=academic-17441-jabenn) שסקרו ותרגמו את תוכנית הלימודים הזו - [אדיטיה גרג](https://github.com/AdityaGarg00), [אנוראאג שארמה](https://github.com/Anurag-0-1-A), [ארפיטה דאס](https://github.com/Arpiiitaaa), [אריאן ג'יין](https://www.linkedin.com/in/aryan-jain-47a4a1145/), [בהאבש סונג'ה](https://github.com/EliteWarrior315), [פיית' הונג'ה](https://faithhunja.github.io/), [לאטיפה בלו](https://www.linkedin.com/in/lateefah-bello/), [מנווי ג'ה](https://github.com/Severus-Matthew), [מיריי טאן](https://www.linkedin.com/in/mireille-tan-a4834819a/), [מוחמד איפטחר (איפטו) אבנה ג'לאל](https://github.com/Iftu119), [מוחמד זולפיקאר](https://github.com/mohzulfikar), [פריאנשו סריוואסטב](https://www.linkedin.com/in/priyanshu-srivastav-b067241ba), [תנמאי גאודוצ'רו](https://github.com/innovation-platform), ו[זינה כמאל](https://www.linkedin.com/in/zina-kamel/).**  
 
 הכירו את הצוות!  
 
@@ -50,7 +55,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 > **מורים**, כללנו [כמה הצעות](for-teachers.md) כיצד להשתמש בתוכנית הלימודים הזו. אם תרצו ליצור שיעורים משלכם, כללנו גם [תבנית שיעור](lesson-template/README.md).  
 
-> **[סטודנטים](https://aka.ms/student-page)**, כדי להשתמש בתוכנית הלימודים באופן עצמאי, בצעו fork למאגר כולו והשלימו את התרגילים בעצמכם, החל ממבחן טרום שיעור, קריאת השיעור והשלמת שאר הפעילויות. נסו ליצור את הפרויקטים על ידי הבנת השיעורים במקום להעתיק את קוד הפתרון; עם זאת, קוד זה זמין בתיקיות /solutions בכל שיעור מבוסס פרויקט. רעיון נוסף הוא ליצור קבוצת לימוד עם חברים ולעבור על התוכן יחד. ללימוד נוסף, אנו ממליצים על [Microsoft Learn](https://docs.microsoft.com/users/jimbobbennett/collections/ke2ehd351jopwr?WT.mc_id=academic-17441-jabenn).  
+> **[סטודנטים](https://aka.ms/student-page)**, כדי להשתמש בתוכנית הלימודים הזו באופן עצמאי, צרו מזלג למאגר כולו והשלימו את התרגילים בעצמכם, החל ממבחן טרום-שיעור, קריאת השיעור והשלמת שאר הפעילויות. נסו ליצור את הפרויקטים על ידי הבנת השיעורים במקום להעתיק את קוד הפתרון; עם זאת, קוד זה זמין בתיקיות /solutions בכל שיעור מבוסס פרויקט. רעיון נוסף הוא ליצור קבוצת לימוד עם חברים ולעבור על התוכן יחד. ללימוד נוסף, אנו ממליצים על [Microsoft Learn](https://docs.microsoft.com/users/jimbobbennett/collections/ke2ehd351jopwr?WT.mc_id=academic-17441-jabenn).  
 
 לסקירה וידאו של הקורס, צפו בסרטון הבא:  
 
@@ -60,23 +65,23 @@ CO_OP_TRANSLATOR_METADATA:
 
 ## פדגוגיה  
 
-בחרנו שני עקרונות פדגוגיים בעת בניית תוכנית הלימודים הזו: להבטיח שהיא מבוססת פרויקטים ושכוללת מבחנים תכופים. בסיום הסדרה, סטודנטים יבנו מערכת לניטור והשקיית צמחים, עוקב רכבים, מערכת מפעל חכם למעקב ובדיקת מזון, וטיימר בישול מבוסס קול, וילמדו את יסודות האינטרנט של הדברים כולל כתיבת קוד למכשירים, חיבור לענן, ניתוח טלמטריה והרצת AI בקצה.  
+בחרנו שני עקרונות פדגוגיים בעת בניית תוכנית הלימודים הזו: להבטיח שהיא מבוססת פרויקטים ושכוללת מבחנים תכופים. בסוף הסדרה, סטודנטים יבנו מערכת לניטור והשקיית צמחים, עוקב רכב, מערכת מפעל חכמה למעקב ובדיקת מזון, וטיימר בישול מבוסס קול, וילמדו את יסודות האינטרנט של הדברים כולל כתיבת קוד למכשירים, חיבור לענן, ניתוח טלמטריה והרצת AI בקצה.  
 
-על ידי התאמת התוכן לפרויקטים, התהליך הופך למרתק יותר עבור הסטודנטים וההבנה של מושגים תתחזק.  
+על ידי הבטחת התאמת התוכן לפרויקטים, התהליך הופך למרתק יותר עבור הסטודנטים והטמעת המושגים תוגבר.  
 
-בנוסף, מבחן קל לפני השיעור מכוון את הסטודנט ללמידת הנושא, בעוד מבחן שני לאחר השיעור מבטיח הבנה נוספת. תוכנית הלימודים הזו עוצבה להיות גמישה ומהנה וניתן ללמוד אותה בשלמותה או בחלקים. הפרויקטים מתחילים קטנים והופכים מורכבים יותר בסיום מחזור 12 השבועות.  
+בנוסף, מבחן קל לפני השיעור מכוון את הסטודנט ללמידת הנושא, בעוד מבחן שני לאחר השיעור מבטיח הטמעה נוספת. תוכנית הלימודים הזו תוכננה להיות גמישה ומהנה וניתן לקחת אותה בשלמותה או בחלקים. הפרויקטים מתחילים קטנים והופכים מורכבים יותר בסוף מחזור 12 השבועות.  
 
-כל פרויקט מבוסס על חומרה אמיתית הזמינה לסטודנטים ולחובבים. כל פרויקט מתמקד בתחום הפרויקט הספציפי, ומספק ידע רקע רלוונטי. כדי להיות מפתח מצליח, חשוב להבין את התחום שבו פותרים בעיות. מתן ידע רקע זה מאפשר לסטודנטים לחשוב על פתרונות IoT שלהם בהקשר של בעיות אמיתיות שהם עשויים להיתקל בהן כמפתחי IoT. הסטודנטים לומדים את ה'למה' של הפתרונות שהם בונים ומקבלים הערכה למשתמש הקצה.  
+כל פרויקט מבוסס על חומרה אמיתית הזמינה לסטודנטים ולחובבים. כל פרויקט מתמקד בתחום הפרויקט הספציפי, ומספק ידע רקע רלוונטי. כדי להיות מפתח מצליח, חשוב להבין את התחום שבו אתם פותרים בעיות. מתן ידע רקע זה מאפשר לסטודנטים לחשוב על פתרונות IoT שלהם ולמידותיהם בהקשר של סוג הבעיה האמיתית שהם עשויים להתבקש לפתור כמפתחי IoT. הסטודנטים לומדים את ה'למה' של הפתרונות שהם בונים ומקבלים הערכה למשתמש הקצה.  
 
 ## חומרה  
 
-יש לנו שתי אפשרויות של חומרת IoT לשימוש בפרויקטים בהתאם להעדפה אישית, ידע או העדפות שפת תכנות, מטרות לימוד וזמינות. בנוסף, סיפקנו גרסה של 'חומרה וירטואלית' עבור אלו שאין להם גישה לחומרה או שרוצים ללמוד יותר לפני רכישה. תוכלו לקרוא עוד ולמצוא 'רשימת קניות' בעמוד [החומרה](./hardware.md), כולל קישורים לרכישת ערכות מלאות מחברינו ב-Seeed Studio.  
+יש לנו שתי אפשרויות של חומרת IoT לשימוש בפרויקטים בהתאם להעדפה אישית, ידע או העדפות שפת תכנות, מטרות למידה וזמינות. סיפקנו גם גרסה של 'חומרה וירטואלית' עבור אלו שאין להם גישה לחומרה, או שרוצים ללמוד יותר לפני התחייבות לרכישה. תוכלו לקרוא עוד ולמצוא 'רשימת קניות' בעמוד [החומרה](./hardware.md), כולל קישורים לרכישת ערכות שלמות מחברינו ב-Seeed Studio.  
 
-> 💁 מצאו את [קוד ההתנהגות](CODE_OF_CONDUCT.md), [הנחיות לתרומה](CONTRIBUTING.md), ו[הנחיות לתרגום](TRANSLATIONS.md). נשמח לקבל את המשוב הבונה שלכם!  
+> 💁 מצאו את [קוד ההתנהגות](CODE_OF_CONDUCT.md), [תרומה](CONTRIBUTING.md), ו[הנחיות תרגום](TRANSLATIONS.md). נשמח לקבל את המשוב הבונה שלכם!  
 
 ## כל שיעור כולל:  
 
-- איור  
+- סקיצה  
 - סרטון משלים אופציונלי  
 - מבחן חימום לפני השיעור  
 - שיעור כתוב  
@@ -85,46 +90,48 @@ CO_OP_TRANSLATOR_METADATA:
 - אתגר  
 - קריאה משלימה  
 - משימה  
-- מבחן לאחר השיעור  
+- [מבחן לאחר השיעור](https://ff-quizzes.netlify.app/en/)  
+> **הערה לגבי חידונים**: כל החידונים נמצאים בתיקיית quiz-app, סך הכל 48 חידונים, כל אחד מכיל שלוש שאלות. הם מקושרים מתוך השיעורים, אך ניתן להפעיל את אפליקציית החידונים באופן מקומי או לפרוס אותה ב-Azure; עקבו אחר ההוראות בתיקיית `quiz-app`. הם מתורגמים בהדרגה.
+## שיעורים
 
-> **הערה לגבי מבחנים**: כל המבחנים נמצאים בתיקיית quiz-app, סה"כ 48 מבחנים של שלוש שאלות כל אחד. הם מקושרים מתוך השיעורים אך ניתן להריץ את אפליקציית המבחנים באופן מקומי או לפרוס אותה ב-Azure; עקבו אחר ההוראות בתיקיית `quiz-app`. הם מתורגמים בהדרגה.  
-
-## שיעורים  
-
-|       |              שם הפרויקט              |                       מושגים נלמדים                       | מטרות לימוד                                                                                                                                                 |                                                        שיעור מקושר                                                         |  
-| :---: | :------------------------------------: | :---------------------------------------------------------: | ------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :--------------------------------------------------------------------------------------------------------------------------: |  
-|  01   | [התחלה](./1-getting-started/README.md) |                     מבוא ל-IoT                     | למדו את העקרונות הבסיסיים של IoT ואת אבני הבניין הבסיסיות של פתרונות IoT כמו חיישנים ושירותי ענן תוך כדי הגדרת מכשיר IoT ראשון שלכם |                      [מבוא ל-IoT](./1-getting-started/lessons/1-introduction-to-iot/README.md)                      |  
-|  02   | [התחלה](./1-getting-started/README.md) |                   מבט מעמיק על IoT                    | למדו עוד על רכיבי מערכת IoT, כמו גם על מיקרו-בקרים ומחשבים חד-לוחיים                                                            |                        [מבט מעמיק על IoT](./1-getting-started/lessons/2-deeper-dive/README.md)                         |  
-|  03   | [התחלה](./1-getting-started/README.md) | אינטראקציה עם העולם הפיזי באמצעות חיישנים ומפעילים | למדו על חיישנים לאיסוף נתונים מהעולם הפיזי, ומפעילים לשליחת משוב, תוך כדי בניית מנורת לילה                                           | [אינטראקציה עם העולם הפיזי באמצעות חיישנים ומפעילים](./1-getting-started/lessons/3-sensors-and-actuators/README.md) |  
-|  04   | [התחלה](./1-getting-started/README.md) |             חיבור המכשיר שלכם לאינטרנט             | למדו כיצד לחבר מכשיר IoT לאינטרנט כדי לשלוח ולקבל הודעות על ידי חיבור מנורת הלילה שלכם ל-broker MQTT                               |               [חיבור המכשיר שלכם לאינטרנט](./1-getting-started/lessons/4-connect-internet/README.md)                |  
-|  05   |            [חווה](./2-farm/README.md)            |                    חיזוי צמיחת צמחים                     | למדו כיצד לחזות צמיחת צמחים באמצעות נתוני טמפרטורה שנאספו על ידי מכשיר IoT                                                                                  |                          [חיזוי צמיחת צמחים](./2-farm/lessons/1-predict-plant-growth/README.md)                           |  
-|  06   |            [חווה](./2-farm/README.md)            |                    זיהוי לחות קרקע                     | למדו כיצד לזהות לחות קרקע ולכוון חיישן לחות קרקע                                                                                              |                          [זיהוי לחות קרקע](./2-farm/lessons/2-detect-soil-moisture/README.md)                           |  
-|  07   |            [חווה](./2-farm/README.md)            |                  השקיית צמחים אוטומטית                   | למדו כיצד לאוטומט ולהגדיר זמן השקיה באמצעות ממסר ו-MQTT                                                                                                      |                      [השקיית צמחים אוטומטית](./2-farm/lessons/3-automated-plant-watering/README.md)                       |  
-|  08   |            [חווה](./2-farm/README.md)            |               העברת הצמח שלכם לענן               | למדו על הענן ושירותי IoT מבוססי ענן וכיצד לחבר את הצמח שלכם לאחד מהם במקום ל-broker MQTT ציבורי                                   |               [העברת הצמח שלכם לענן](./2-farm/lessons/4-migrate-your-plant-to-the-cloud/README.md)                |  
-|  09   |            [חווה](./2-farm/README.md)            |         העברת לוגיקת האפליקציה שלכם לענן         | למדו כיצד ניתן לכתוב לוגיקת אפליקציה בענן שמגיבה להודעות IoT                                                                          |         [העברת לוגיקת האפליקציה שלכם לענן](./2-farm/lessons/5-migrate-application-to-the-cloud/README.md)         |  
-|  10   |            [Farm](./2-farm/README.md)            |                   שמור על הצמח שלך בטוח                    | למד על אבטחה עם IoT וכיצד לשמור על הצמח שלך בטוח באמצעות מפתחות ותעודות                                                                          |                        [שמור על הצמח שלך בטוח](./2-farm/lessons/6-keep-your-plant-secure/README.md)                         |
-|  11   |       [Transport](./3-transport/README.md)       |                      מעקב מיקום                      | למד על מעקב מיקום GPS עבור מכשירי IoT                                                                                                                   |                           [מעקב מיקום](./3-transport/lessons/1-location-tracking/README.md)                           |
-|  12   |       [Transport](./3-transport/README.md)       |                     אחסן נתוני מיקום                     | למד כיצד לאחסן נתוני IoT לצורך הצגה או ניתוח מאוחר יותר                                                                                                      |                         [אחסן נתוני מיקום](./3-transport/lessons/2-store-location-data/README.md)                         |
-|  13   |       [Transport](./3-transport/README.md)       |                   הצג נתוני מיקום                   | למד על הצגת נתוני מיקום על מפה, וכיצד מפות מייצגות את העולם התלת-ממדי בממדיים                                                                                                                            |                     [הצג נתוני מיקום](./3-transport/lessons/3-visualize-location-data/README.md)                     |
-|  14   |       [Transport](./3-transport/README.md)       |                          גדרות גיאוגרפיות                          | למד על גדרות גיאוגרפיות וכיצד ניתן להשתמש בהן כדי להתריע כאשר כלי רכב בשרשרת האספקה קרובים ליעדם                                           |                                   [גדרות גיאוגרפיות](./3-transport/lessons/4-geofences/README.md)                                   |
-|  15   |   [Manufacturing](./4-manufacturing/README.md)   |               אימן גלאי איכות פירות                | למד על אימון מסווג תמונות בענן כדי לזהות איכות פירות                                                                                       |                 [אימן גלאי איכות פירות](./4-manufacturing/lessons/1-train-fruit-detector/README.md)                 |
-|  16   |   [Manufacturing](./4-manufacturing/README.md)   |           בדוק איכות פירות ממכשיר IoT            | למד כיצד להשתמש בגלאי איכות הפירות שלך ממכשיר IoT                                                                                                    |           [בדוק איכות פירות ממכשיר IoT](./4-manufacturing/lessons/2-check-fruit-from-device/README.md)            |
-|  17   |   [Manufacturing](./4-manufacturing/README.md)   |             הפעל את גלאי הפירות שלך בקצה             | למד כיצד להפעיל את גלאי הפירות שלך ממכשיר IoT בקצה                                                                                                |             [הפעל את גלאי הפירות שלך בקצה](./4-manufacturing/lessons/3-run-fruit-detector-edge/README.md)             |
-|  18   |   [Manufacturing](./4-manufacturing/README.md)   |        הפעל זיהוי איכות פירות מחיישן        | למד כיצד להפעיל זיהוי איכות פירות מחיישן                                                                                                        |        [הפעל זיהוי איכות פירות מחיישן](./4-manufacturing/lessons/4-trigger-fruit-detector/README.md)         |
-|  19   |          [Retail](./5-retail/README.md)          |                   אימן גלאי מלאי                    | למד כיצד להשתמש בזיהוי אובייקטים כדי לאמן גלאי מלאי לספירת מלאי בחנות                                                                                |                        [אימן גלאי מלאי](./5-retail/lessons/1-train-stock-detector/README.md)                         |
-|  20   |          [Retail](./5-retail/README.md)          |               בדוק מלאי ממכשיר IoT                | למד כיצד לבדוק מלאי ממכשיר IoT באמצעות מודל זיהוי אובייקטים                                                                                         |                     [בדוק מלאי ממכשיר IoT](./5-retail/lessons/2-check-stock-device/README.md)                      |
-|  21   |        [Consumer](./6-consumer/README.md)        |             זיהוי דיבור ממכשיר IoT             | למד כיצד לזהות דיבור ממכשיר IoT כדי לבנות טיימר חכם                                                                                             |                  [זיהוי דיבור ממכשיר IoT](./6-consumer/lessons/1-speech-recognition/README.md)                  |
-|  22   |        [Consumer](./6-consumer/README.md)        |                     הבנת שפה                     | למד כיצד להבין משפטים שנאמרים למכשיר IoT                                                                                                           |                        [הבנת שפה](./6-consumer/lessons/2-language-understanding/README.md)                        |
-|  23   |        [Consumer](./6-consumer/README.md)        |           הגדר טיימר וספק משוב קולי           | למד כיצד להגדיר טיימר במכשיר IoT ולתת משוב קולי על מתי הטיימר מוגדר ומתי הוא מסתיים                                                    |                 [הגדר טיימר וספק משוב קולי](./6-consumer/lessons/3-spoken-feedback/README.md)                  |
-|  24   |        [Consumer](./6-consumer/README.md)        |                 תמוך בשפות מרובות                  | למד כיצד לתמוך בשפות מרובות, הן בדיבור למכשיר והן בתגובות מהטיימר החכם                                                               |                   [תמוך בשפות מרובות](./6-consumer/lessons/4-multiple-language-support/README.md)                   |
+|       |              שם הפרויקט              |                       מושגים נלמדים                       | מטרות למידה                                                                                                                                                 |                                                        שיעור מקושר                                                         |
+| :---: | :----------------------------------: | :-------------------------------------------------------: | ----------------------------------------------------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------: |
+|  01   | [התחלה](./1-getting-started/README.md) |                     מבוא ל-IoT                     | למדו את העקרונות הבסיסיים של IoT ואת אבני הבניין של פתרונות IoT כמו חיישנים ושירותי ענן תוך כדי הגדרת המכשיר הראשון שלכם                                      |                      [מבוא ל-IoT](./1-getting-started/lessons/1-introduction-to-iot/README.md)                      |
+|  02   | [התחלה](./1-getting-started/README.md) |                   צלילה עמוקה יותר ל-IoT                    | למדו עוד על הרכיבים של מערכת IoT, כמו גם על מיקרו-בקרים ומחשבים חד-לוחיים                                                                                   |                        [צלילה עמוקה יותר ל-IoT](./1-getting-started/lessons/2-deeper-dive/README.md)                         |
+|  03   | [התחלה](./1-getting-started/README.md) | אינטראקציה עם העולם הפיזי באמצעות חיישנים ומפעילים | למדו על חיישנים לאיסוף נתונים מהעולם הפיזי ועל מפעילים לשליחת משוב, תוך כדי בניית מנורת לילה                                                               | [אינטראקציה עם העולם הפיזי באמצעות חיישנים ומפעילים](./1-getting-started/lessons/3-sensors-and-actuators/README.md) |
+|  04   | [התחלה](./1-getting-started/README.md) |             חיבור המכשיר שלכם לאינטרנט             | למדו כיצד לחבר מכשיר IoT לאינטרנט כדי לשלוח ולקבל הודעות על ידי חיבור מנורת הלילה שלכם לשרת MQTT                                                              |               [חיבור המכשיר שלכם לאינטרנט](./1-getting-started/lessons/4-connect-internet/README.md)                |
+|  05   |            [חקלאות](./2-farm/README.md)            |                    חיזוי צמיחת צמחים                     | למדו כיצד לחזות צמיחת צמחים באמצעות נתוני טמפרטורה שנאספו על ידי מכשיר IoT                                                                                   |                          [חיזוי צמיחת צמחים](./2-farm/lessons/1-predict-plant-growth/README.md)                           |
+|  06   |            [חקלאות](./2-farm/README.md)            |                    זיהוי לחות בקרקע                     | למדו כיצד לזהות לחות בקרקע ולכוונן חיישן לחות בקרקע                                                                                                           |                          [זיהוי לחות בקרקע](./2-farm/lessons/2-detect-soil-moisture/README.md)                           |
+|  07   |            [חקלאות](./2-farm/README.md)            |                  השקיית צמחים אוטומטית                   | למדו כיצד לאוטומט ולהגדיר זמני השקיה באמצעות ממסר ו-MQTT                                                                                                     |                      [השקיית צמחים אוטומטית](./2-farm/lessons/3-automated-plant-watering/README.md)                       |
+|  08   |            [חקלאות](./2-farm/README.md)            |               העברת הצמח שלכם לענן               | למדו על הענן ושירותי IoT מבוססי ענן וכיצד לחבר את הצמח שלכם לאחד מהם במקום לשרת MQTT ציבורי                                                                   |               [העברת הצמח שלכם לענן](./2-farm/lessons/4-migrate-your-plant-to-the-cloud/README.md)                |
+|  09   |            [חקלאות](./2-farm/README.md)            |         העברת לוגיקת האפליקציה שלכם לענן         | למדו כיצד ניתן לכתוב לוגיקת אפליקציה בענן שמגיבה להודעות IoT                                                                                                 |         [העברת לוגיקת האפליקציה שלכם לענן](./2-farm/lessons/5-migrate-application-to-the-cloud/README.md)         |
+|  10   |            [חקלאות](./2-farm/README.md)            |                   שמירה על אבטחת הצמח שלכם                    | למדו על אבטחה ב-IoT וכיצד לשמור על אבטחת הצמח שלכם באמצעות מפתחות ותעודות                                                                                   |                        [שמירה על אבטחת הצמח שלכם](./2-farm/lessons/6-keep-your-plant-secure/README.md)                         |
+|  11   |       [תחבורה](./3-transport/README.md)       |                      מעקב מיקום                      | למדו על מעקב מיקום GPS עבור מכשירי IoT                                                                                                                       |                           [מעקב מיקום](./3-transport/lessons/1-location-tracking/README.md)                           |
+|  12   |       [תחבורה](./3-transport/README.md)       |                     אחסון נתוני מיקום                     | למדו כיצד לאחסן נתוני IoT לצורך הצגה או ניתוח מאוחר יותר                                                                                                     |                         [אחסון נתוני מיקום](./3-transport/lessons/2-store-location-data/README.md)                         |
+|  13   |       [תחבורה](./3-transport/README.md)       |                   הצגת נתוני מיקום                   | למדו על הצגת נתוני מיקום על מפה, וכיצד מפות מייצגות את העולם התלת-ממדי האמיתי בשני ממדים                                                                      |                     [הצגת נתוני מיקום](./3-transport/lessons/3-visualize-location-data/README.md)                     |
+|  14   |       [תחבורה](./3-transport/README.md)       |                          גדרות גיאוגרפיות                          | למדו על גדרות גיאוגרפיות וכיצד ניתן להשתמש בהן כדי להתריע כאשר כלי רכב בשרשרת האספקה קרובים ליעדם                                                             |                                   [גדרות גיאוגרפיות](./3-transport/lessons/4-geofences/README.md)                                   |
+|  15   |   [ייצור](./4-manufacturing/README.md)   |               אימון גלאי איכות פירות                | למדו כיצד לאמן מסווג תמונות בענן כדי לזהות איכות פירות                                                                                                       |                 [אימון גלאי איכות פירות](./4-manufacturing/lessons/1-train-fruit-detector/README.md)                 |
+|  16   |   [ייצור](./4-manufacturing/README.md)   |           בדיקת איכות פירות ממכשיר IoT            | למדו כיצד להשתמש בגלאי איכות הפירות שלכם ממכשיר IoT                                                                                                         |           [בדיקת איכות פירות ממכשיר IoT](./4-manufacturing/lessons/2-check-fruit-from-device/README.md)            |
+|  17   |   [ייצור](./4-manufacturing/README.md)   |             הפעלת גלאי הפירות בקצה             | למדו כיצד להפעיל את גלאי הפירות שלכם ממכשיר IoT בקצה                                                                                                         |             [הפעלת גלאי הפירות בקצה](./4-manufacturing/lessons/3-run-fruit-detector-edge/README.md)             |
+|  18   |   [ייצור](./4-manufacturing/README.md)   |        הפעלת זיהוי איכות פירות מחיישן        | למדו כיצד להפעיל זיהוי איכות פירות מחיישן                                                                                                                  |        [הפעלת זיהוי איכות פירות מחיישן](./4-manufacturing/lessons/4-trigger-fruit-detector/README.md)         |
+|  19   |          [קמעונאות](./5-retail/README.md)          |                   אימון גלאי מלאי                    | למדו כיצד להשתמש בזיהוי אובייקטים כדי לאמן גלאי מלאי לספירת מלאי בחנות                                                                                      |                        [אימון גלאי מלאי](./5-retail/lessons/1-train-stock-detector/README.md)                         |
+|  20   |          [קמעונאות](./5-retail/README.md)          |               בדיקת מלאי ממכשיר IoT                | למדו כיצד לבדוק מלאי ממכשיר IoT באמצעות מודל זיהוי אובייקטים                                                                                                 |                     [בדיקת מלאי ממכשיר IoT](./5-retail/lessons/2-check-stock-device/README.md)                      |
+|  21   |        [צרכנות](./6-consumer/README.md)        |             זיהוי דיבור ממכשיר IoT             | למדו כיצד לזהות דיבור ממכשיר IoT כדי לבנות טיימר חכם                                                                                                       |                  [זיהוי דיבור ממכשיר IoT](./6-consumer/lessons/1-speech-recognition/README.md)                  |
+|  22   |        [צרכנות](./6-consumer/README.md)        |                     הבנת שפה                     | למדו כיצד להבין משפטים שנאמרים למכשיר IoT                                                                                                                  |                        [הבנת שפה](./6-consumer/lessons/2-language-understanding/README.md)                        |
+|  23   |        [צרכנות](./6-consumer/README.md)        |           הגדרת טיימר ומתן משוב קולי           | למדו כיצד להגדיר טיימר במכשיר IoT ולתת משוב קולי על מתי הטיימר מוגדר ומתי הוא מסתיים                                                                        |                 [הגדרת טיימר ומתן משוב קולי](./6-consumer/lessons/3-spoken-feedback/README.md)                  |
+|  24   |        [צרכנות](./6-consumer/README.md)        |                 תמיכה בשפות מרובות                  | למדו כיצד לתמוך בשפות מרובות, הן בשפה המדוברת והן בתגובות מהטיימר החכם שלכם                                                                                 |                   [תמיכה בשפות מרובות](./6-consumer/lessons/4-multiple-language-support/README.md)                   |
 
 ## גישה לא מקוונת
 
-ניתן להפעיל את התיעוד הזה במצב לא מקוון באמצעות [Docsify](https://docsify.js.org/#/). יש לבצע Fork למאגר זה, [להתקין את Docsify](https://docsify.js.org/#/quickstart) במחשב המקומי שלך, ואז בתיקיית השורש של מאגר זה, להקליד `docsify serve`. האתר יפעל על פורט 3000 ב-localhost שלך: `localhost:3000`.
+ניתן להפעיל את התיעוד הזה במצב לא מקוון באמצעות [Docsify](https://docsify.js.org/#/). יש לבצע Fork למאגר זה, [להתקין את Docsify](https://docsify.js.org/#/quickstart) במחשב המקומי שלכם, ואז בתיקיית השורש של מאגר זה, להקליד `docsify serve`. האתר יוגש על פורט 3000 ב-localhost שלכם: `localhost:3000`.
+
+## חידון
+
+תודה לקהילה על אירוח החידון האינטראקטיבי שבודק את הידע שלכם על כל אחד מהפרקים. ניתן לבדוק את הידע שלכם [כאן](https://ff-quizzes.netlify.app/en/) 
 
 ### PDF
 
-ניתן ליצור PDF של התוכן הזה לצורך גישה לא מקוונת אם יש צורך. לשם כך, יש לוודא ש-[npm מותקן](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) ולהפעיל את הפקודות הבאות בתיקיית השורש של מאגר זה:
+ניתן ליצור PDF של התוכן הזה לגישה לא מקוונת במידת הצורך. לשם כך, ודאו שיש לכם [npm מותקן](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) והריצו את הפקודות הבאות בתיקיית השורש של מאגר זה:
 
 ```sh
 npm i
@@ -135,34 +142,32 @@ npm run convert
 
 ישנם מצגות עבור חלק מהשיעורים בתיקיית [מצגות](../../slides).
 
-## דרושה עזרה!
+## תכניות לימודים נוספות
 
-האם תרצה לתרום תרגום? אנא קרא את [הנחיות התרגום שלנו](TRANSLATIONS.md) והוסף קלט [לאחת מבעיות התרגום](https://github.com/microsoft/IoT-For-Beginners/issues?q=is%3Aissue+is%3Aopen+label%3Atranslation). אם ברצונך לתרגם לשפה חדשה, אנא פתח בעיה חדשה למעקב.
+הצוות שלנו מייצר תכניות לימודים נוספות! בדקו:
 
-## תכניות לימוד אחרות
+- [סוכני AI למתחילים](https://aka.ms/ai-agents-beginners)
+- [MCP למתחילים](https://aka.ms/mcp-for-beginners)
+- [Generative AI למתחילים](https://aka.ms/genai-beginners)
+- [Generative AI למתחילים .NET](https://github.com/microsoft/Generative-AI-for-beginners-dotnet)
+- [Generative AI עם JavaScript](https://github.com/microsoft/generative-ai-with-javascript)
+- [Generative AI עם Java](https://github.com/microsoft/Generative-AI-for-beginners-java)
+- [AI למתחילים](https://aka.ms/ai-beginners)
+- [מדע נתונים למתחילים](https://aka.ms/datascience-beginners)
+- [ML למתחילים](https://aka.ms/ml-beginners)
+- [אבטחת סייבר למתחילים](https://github.com/microsoft/Security-101) 
+- [פיתוח אתרים למתחילים](https://aka.ms/webdev-beginners)
+- [IoT למתחילים](https://aka.ms/iot-beginners)
+- [פיתוח XR למתחילים](https://github.com/microsoft/xr-development-for-beginners)
+- [שליטה ב-GitHub Copilot לשימוש סוכני](https://github.com/microsoft/Mastering-GitHub-Copilot-for-Paired-Programming)
+- [שליטה ב-GitHub Copilot למפתחי C#/.NET](https://github.com/microsoft/mastering-github-copilot-for-dotnet-csharp-developers)
+- [בחרו את הרפתקת ה-Copilot שלכם](https://github.com/microsoft/CopilotAdventures)
 
-הצוות שלנו מייצר תכניות לימוד נוספות! בדוק:
+## ייחוסי תמונות
 
-- [Generative AI for Beginners](https://aka.ms/genai-beginners)
-- [Generative AI for Beginners .NET](https://github.com/microsoft/Generative-AI-for-beginners-dotnet)
-- [Generative AI with JavaScript](https://github.com/microsoft/generative-ai-with-javascript)
-- [Generative AI with Java](https://github.com/microsoft/Generative-AI-for-beginners-java)
-- [AI for Beginners](https://aka.ms/ai-beginners)
-- [Data Science for Beginners](https://aka.ms/datascience-beginners)
-- [ML for Beginners](https://aka.ms/ml-beginners)
-- [Cybersecurity for Beginners](https://github.com/microsoft/Security-101) 
-- [Web Dev for Beginners](https://aka.ms/webdev-beginners)
-- [IoT for Beginners](https://aka.ms/iot-beginners)
-- [XR Development for Beginners](https://github.com/microsoft/xr-development-for-beginners)
-- [Mastering GitHub Copilot for Agentic use](https://github.com/microsoft/Mastering-GitHub-Copilot-for-Paired-Programming)
-- [Mastering GitHub Copilot for C#/.NET Developers](https://github.com/microsoft/mastering-github-copilot-for-dotnet-csharp-developers)
-- [Choose Your Own Copilot Adventure](https://github.com/microsoft/CopilotAdventures)
-
-## ייחוס תמונות
-
-ניתן למצוא את כל הייחוסים עבור התמונות שבהן נעשה שימוש בתכנית לימודים זו, במידת הצורך, ב-[ייחוסים](./attributions.md).
+ניתן למצוא את כל הייחוסים לתמונות שבהן נעשה שימוש בתכנית הלימודים הזו, במידת הצורך, בתיקיית [ייחוסים](./attributions.md).
 
 ---
 
 **כתב ויתור**:  
-מסמך זה תורגם באמצעות שירות תרגום מבוסס בינה מלאכותית [Co-op Translator](https://github.com/Azure/co-op-translator). למרות שאנו שואפים לדיוק, יש לקחת בחשבון שתרגומים אוטומטיים עשויים להכיל שגיאות או אי דיוקים. המסמך המקורי בשפתו המקורית צריך להיחשב כמקור סמכותי. עבור מידע קריטי, מומלץ להשתמש בתרגום מקצועי על ידי אדם. איננו נושאים באחריות לאי הבנות או לפרשנויות שגויות הנובעות משימוש בתרגום זה.
+מסמך זה תורגם באמצעות שירות תרגום מבוסס בינה מלאכותית [Co-op Translator](https://github.com/Azure/co-op-translator). למרות שאנו שואפים לדיוק, יש לקחת בחשבון שתרגומים אוטומטיים עשויים להכיל שגיאות או אי דיוקים. המסמך המקורי בשפתו המקורית צריך להיחשב כמקור הסמכותי. עבור מידע קריטי, מומלץ להשתמש בתרגום מקצועי על ידי אדם. איננו נושאים באחריות לאי הבנות או לפרשנויות שגויות הנובעות משימוש בתרגום זה.
