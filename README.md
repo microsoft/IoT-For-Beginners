@@ -82,7 +82,7 @@ We have two choices of IoT hardware to use for the projects depending on persona
 - a challenge
 - supplemental reading
 - assignment
-- post-lesson quiz
+- [post-lesson quiz](https://ff-quizzes.netlify.app/en/)
 
 > **A note about quizzes**: All quizzes are contained in the quiz-app folder, for 48 total quizzes of three questions each. They are linked from within the lessons but the quiz app can be run locally or deployed to Azure; follow the instruction in the `quiz-app` folder. They are gradually being localized.
 
@@ -136,14 +136,13 @@ npm run convert
 
 There are slide decks for some of the lessons in the [slides](./slides) folder.
 
-## Help Wanted!
-
-Would you like to contribute a translation? Please read our [translation guidelines](TRANSLATIONS.md) and add input [to one of the translations issues](https://github.com/microsoft/IoT-For-Beginners/issues?q=is%3Aissue+is%3Aopen+label%3Atranslation). If you want to translate into a new language, please raise a new issue for tracking.
 
 ## Other Curricula
 
 Our team produces other curricula! Check out:
 
+- [AI Agents for Beginners](https://aka.ms/ai-agents-beginners)
+- [MCP for Beginners](https://aka.ms/mcp-for-beginners)
 - [Generative AI for Beginners](https://aka.ms/genai-beginners)
 - [Generative AI for Beginners .NET](https://github.com/microsoft/Generative-AI-for-beginners-dotnet)
 - [Generative AI with JavaScript](https://github.com/microsoft/generative-ai-with-javascript)
