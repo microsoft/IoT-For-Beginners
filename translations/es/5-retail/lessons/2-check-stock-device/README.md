@@ -39,7 +39,7 @@ Los detectores de objetos pueden ser utilizados para verificar inventario, ya se
 
 Por ejemplo, si una cámara apunta a un conjunto de estantes que pueden contener 8 latas de pasta de tomate, y un detector de objetos solo detecta 7 latas, entonces falta una y necesita ser reabastecida.
 
-![7 latas de pasta de tomate en un estante, 4 en la fila superior, 3 en la inferior](../../../../../translated_images/stock-7-cans-tomato-paste.f86059cc573d7becaa89a0eafb9d2cd7e2fe37405a530fe565990e2333d0e4a1.es.png)
+![7 latas de pasta de tomate en un estante, 4 en la fila superior, 3 en la inferior](../../../../../translated_images/stock-7-cans-tomato-paste.f86059cc573d7bec.es.png)
 
 En la imagen anterior, un detector de objetos ha detectado 7 latas de pasta de tomate en un estante que puede contener 8 latas. No solo puede el dispositivo IoT enviar una notificación de la necesidad de reabastecer, sino que incluso puede dar una indicación de la ubicación del artículo faltante, información importante si estás utilizando robots para reabastecer estantes.
 
@@ -51,7 +51,7 @@ A veces el inventario incorrecto puede estar en los estantes. Esto podría ser u
 
 La detección de objetos puede ser utilizada para detectar artículos inesperados, alertando nuevamente a un humano o robot para devolver el artículo tan pronto como sea detectado.
 
-![Una lata de maíz bebé fuera de lugar en el estante de pasta de tomate](../../../../../translated_images/stock-rogue-corn.be1f3ada8c4578544641af66671c1711a4c02297f14cc7f503354dae0d30a954.es.png)
+![Una lata de maíz bebé fuera de lugar en el estante de pasta de tomate](../../../../../translated_images/stock-rogue-corn.be1f3ada8c457854.es.png)
 
 En la imagen anterior, una lata de maíz bebé ha sido colocada en el estante junto a la pasta de tomate. El detector de objetos ha detectado esto, permitiendo que el dispositivo IoT notifique a un humano o robot para devolver la lata a su ubicación correcta.
 

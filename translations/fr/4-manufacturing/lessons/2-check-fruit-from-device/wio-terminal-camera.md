@@ -29,7 +29,7 @@ Connectez la caméra.
 
 1. Les broches à la base de l'ArduCam doivent être connectées aux broches GPIO du Wio Terminal. Pour faciliter l'identification des broches, attachez l'autocollant des broches GPIO fourni avec le Wio Terminal autour des broches :
 
-    ![Le Wio Terminal avec l'autocollant des broches GPIO](../../../../../translated_images/wio-terminal-pin-sticker.b90b1535937b84bd00d853f0004aea74fac2aec04b43f14b887796b2633f855e.fr.png)
+    ![Le Wio Terminal avec l'autocollant des broches GPIO](../../../../../translated_images/wio-terminal-pin-sticker.b90b1535937b84bd.fr.png)
 
 1. À l'aide de fils de connexion, effectuez les connexions suivantes :
 
@@ -297,7 +297,7 @@ Le Wio Terminal peut maintenant être programmé pour capturer une image lorsqu'
 
 1. Les microcontrôleurs exécutent votre code en continu, il n'est donc pas facile de déclencher une action comme prendre une photo sans réagir à un capteur. Le Wio Terminal dispose de boutons, la caméra peut donc être configurée pour être déclenchée par l'un de ces boutons. Ajoutez le code suivant à la fin de la fonction `setup` pour configurer le bouton C (l'un des trois boutons sur le dessus, celui le plus proche de l'interrupteur d'alimentation).
 
-    ![Le bouton C sur le dessus, le plus proche de l'interrupteur d'alimentation](../../../../../translated_images/wio-terminal-c-button.73df3cb1c1445ea07ee98316af0e7925fcb43135df0abed58d3d4822b2589c3b.fr.png)
+    ![Le bouton C sur le dessus, le plus proche de l'interrupteur d'alimentation](../../../../../translated_images/wio-terminal-c-button.73df3cb1c1445ea0.fr.png)
 
     ```cpp
     pinMode(WIO_KEY_C, INPUT_PULLUP);

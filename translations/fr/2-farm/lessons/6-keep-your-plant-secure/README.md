@@ -97,15 +97,15 @@ Le chiffrement existe en deux types : symétrique et asymétrique.
 
 **Symétrique** utilise la même clé pour chiffrer et déchiffrer les données. L'expéditeur et le destinataire doivent connaître la même clé. Ce type est le moins sécurisé, car la clé doit être partagée d'une manière ou d'une autre. Pour qu'un expéditeur envoie un message chiffré à un destinataire, l'expéditeur doit d'abord envoyer la clé au destinataire.
 
-![Le chiffrement symétrique utilise la même clé pour chiffrer et déchiffrer un message](../../../../../translated_images/send-message-symmetric-key.a2e8ad0d495896ffcdf15d25bb4491c695a5cb851457b359fb0f0c89d67707c9.fr.png)
+![Le chiffrement symétrique utilise la même clé pour chiffrer et déchiffrer un message](../../../../../translated_images/send-message-symmetric-key.a2e8ad0d495896ff.fr.png)
 
 Si la clé est volée en transit, ou si l'expéditeur ou le destinataire sont piratés et que la clé est découverte, le chiffrement peut être cassé.
 
-![Le chiffrement symétrique n'est sécurisé que si un hacker ne récupère pas la clé - sinon il peut intercepter et déchiffrer le message](../../../../../translated_images/send-message-symmetric-key-hacker.e7cb53db1707adfb1486a8144060cb76435fe8dbdede8cecc09e7d15b2d9a251.fr.png)
+![Le chiffrement symétrique n'est sécurisé que si un hacker ne récupère pas la clé - sinon il peut intercepter et déchiffrer le message](../../../../../translated_images/send-message-symmetric-key-hacker.e7cb53db1707adfb.fr.png)
 
 **Asymétrique** utilise deux clés : une clé de chiffrement et une clé de déchiffrement, appelées paire de clés publique/privée. La clé publique est utilisée pour chiffrer le message, mais ne peut pas être utilisée pour le déchiffrer, tandis que la clé privée est utilisée pour déchiffrer le message mais ne peut pas être utilisée pour le chiffrer.
 
-![Le chiffrement asymétrique utilise une clé différente pour chiffrer et déchiffrer. La clé de chiffrement est envoyée aux expéditeurs de messages pour qu'ils puissent chiffrer un message avant de l'envoyer au destinataire qui possède les clés](../../../../../translated_images/send-message-asymmetric.7abe327c62615b8c19805252af5d4b6c5e7aaeb8fbc455efeff866fe2d300b62.fr.png)
+![Le chiffrement asymétrique utilise une clé différente pour chiffrer et déchiffrer. La clé de chiffrement est envoyée aux expéditeurs de messages pour qu'ils puissent chiffrer un message avant de l'envoyer au destinataire qui possède les clés](../../../../../translated_images/send-message-asymmetric.7abe327c62615b8c.fr.png)
 
 Le destinataire partage sa clé publique, et l'expéditeur l'utilise pour chiffrer le message. Une fois le message envoyé, le destinataire le déchiffre avec sa clé privée. Le chiffrement asymétrique est plus sécurisé car la clé privée est conservée privée par le destinataire et n'est jamais partagée. Tout le monde peut avoir la clé publique car elle ne peut être utilisée que pour chiffrer des messages.
 
@@ -165,7 +165,7 @@ Ces certificats contiennent plusieurs champs, notamment l'identité de la clé p
 
 Lors de l'utilisation de certificats X.509, l'expéditeur et le destinataire disposent chacun de leurs propres clés publique et privée, ainsi que de certificats X.509 contenant leurs clés publiques. Ils échangent ensuite leurs certificats X.509, utilisent les clés publiques de l'autre pour chiffrer les données qu'ils envoient, et leurs propres clés privées pour déchiffrer les données qu'ils reçoivent.
 
-![Au lieu de partager une clé publique, vous pouvez partager un certificat. L'utilisateur du certificat peut vérifier qu'il provient bien de vous en consultant l'autorité de certification qui l'a signé.](../../../../../translated_images/send-message-certificate.9cc576ac1e46b76eb58ebc8eedaa522566fa0700076da46f5180aad78c2435db.fr.png)
+![Au lieu de partager une clé publique, vous pouvez partager un certificat. L'utilisateur du certificat peut vérifier qu'il provient bien de vous en consultant l'autorité de certification qui l'a signé.](../../../../../translated_images/send-message-certificate.9cc576ac1e46b76e.fr.png)
 
 Un grand avantage des certificats X.509 est qu'ils peuvent être partagés entre plusieurs appareils. Vous pouvez créer un certificat, le télécharger sur IoT Hub, et l'utiliser pour tous vos appareils. Chaque appareil n'a alors besoin que de connaître la clé privée pour déchiffrer les messages qu'il reçoit de l'IoT Hub.
 

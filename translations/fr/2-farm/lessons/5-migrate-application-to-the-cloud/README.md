@@ -41,7 +41,7 @@ Le sans serveur, ou informatique sans serveur, consiste à créer de petits bloc
 
 > 💁 Si vous avez déjà utilisé des déclencheurs de base de données, vous pouvez considérer cela comme similaire : du code déclenché par un événement tel que l'insertion d'une ligne.
 
-![Lorsque de nombreux événements sont envoyés en même temps, le service sans serveur s'adapte pour les traiter tous simultanément](../../../../../translated_images/serverless-scaling.f8c769adf0413fd17be1af4f07ff63016b347e2ff869be6c4abb211f9e93909d.fr.png)
+![Lorsque de nombreux événements sont envoyés en même temps, le service sans serveur s'adapte pour les traiter tous simultanément](../../../../../translated_images/serverless-scaling.f8c769adf0413fd1.fr.png)
 
 Votre code est exécuté uniquement lorsque l'événement se produit, il n'est pas actif à d'autres moments. L'événement se produit, votre code est chargé et exécuté. Cela rend le sans serveur très évolutif : si de nombreux événements se produisent en même temps, le fournisseur de cloud peut exécuter votre fonction autant de fois que nécessaire simultanément sur les serveurs disponibles. L'inconvénient est que si vous devez partager des informations entre les événements, vous devez les enregistrer quelque part, comme dans une base de données, plutôt que de les stocker en mémoire.
 
@@ -244,7 +244,7 @@ Le CLI Azure Functions peut être utilisé pour créer une nouvelle application 
     VS Code. Initialize for optimal use with VS Code?
     ```
 
-    ![La notification](../../../../../translated_images/vscode-azure-functions-init-notification.bd19b49229963edb5311fb3a79445ea469424759d2917ee2f2eb6f92d65d5086.fr.png)
+    ![La notification](../../../../../translated_images/vscode-azure-functions-init-notification.bd19b49229963edb.fr.png)
 
     Sélectionnez **Oui** dans cette notification.
 

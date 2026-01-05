@@ -51,7 +51,7 @@ Connectez la LED.
 
     > 💁 La prise Grove de droite peut être utilisée avec des capteurs et actionneurs analogiques ou numériques. La prise de gauche est réservée aux capteurs et actionneurs numériques uniquement. C
 
-![La LED Grove connectée à la prise de droite](../../../../../translated_images/wio-led.265a1897e72d7f21c753257516a4b677d8e30ce2b95fee98189458b3275ba0a6.fr.png)
+![La LED Grove connectée à la prise de droite](../../../../../translated_images/wio-led.265a1897e72d7f21.fr.png)
 
 ## Programmer la veilleuse
 

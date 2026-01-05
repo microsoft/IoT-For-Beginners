@@ -33,7 +33,7 @@ Connectez le relais.
 
 1. Avec le Wio Terminal déconnecté de votre ordinateur ou de toute autre source d'alimentation, connectez l'autre extrémité du câble Grove à la prise Grove située à gauche sur le Wio Terminal, en regardant l'écran. Laissez le capteur d'humidité du sol connecté à la prise de droite.
 
-![Le relais Grove connecté à la prise de gauche, et le capteur d'humidité du sol connecté à la prise de droite](../../../../../translated_images/wio-relay-and-soil-moisture-sensor.ed722202d42babe0be5f4518cf13e8c2c81e8df21d37839266cbdb60cf30172d.fr.png)
+![Le relais Grove connecté à la prise de gauche, et le capteur d'humidité du sol connecté à la prise de droite](../../../../../translated_images/wio-relay-and-soil-moisture-sensor.ed722202d42babe0.fr.png)
 
 1. Insérez le capteur d'humidité du sol dans la terre, s'il n'est pas déjà en place depuis la leçon précédente.
 

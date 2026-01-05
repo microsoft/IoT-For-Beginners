@@ -37,7 +37,7 @@ En esta lección cubriremos:
 
 Texto a voz, como su nombre lo indica, es el proceso de convertir texto en audio que contiene las palabras habladas. El principio básico es descomponer las palabras del texto en sus sonidos constituyentes (conocidos como fonemas) y unir el audio de esos sonidos, ya sea utilizando audio pregrabado o generado por modelos de inteligencia artificial.
 
-![Las tres etapas de los sistemas típicos de texto a voz](../../../../../translated_images/tts-overview.193843cf3f5ee09f8b3371a9fdaeb0f116698a07ca69daaa77158da4800e5453.es.png)
+![Las tres etapas de los sistemas típicos de texto a voz](../../../../../translated_images/tts-overview.193843cf3f5ee09f.es.png)
 
 Los sistemas de texto a voz generalmente tienen 3 etapas:
 

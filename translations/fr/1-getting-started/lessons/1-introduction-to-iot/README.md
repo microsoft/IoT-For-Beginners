@@ -79,7 +79,7 @@ Un microcontrôleur (souvent appelé MCU, pour microcontroller unit) est un peti
 
 Les microcontrôleurs sont généralement des dispositifs informatiques à faible coût, avec des prix moyens pour ceux utilisés dans le matériel personnalisé tombant à environ 0,50 USD, et certains appareils coûtant aussi peu que 0,03 USD. Les kits de développement peuvent commencer à partir de 4 USD, avec des coûts augmentant à mesure que vous ajoutez des fonctionnalités. Le [Wio Terminal](https://www.seeedstudio.com/Wio-Terminal-p-4509.html), un kit de développement de microcontrôleur de [Seeed studios](https://www.seeedstudio.com) doté de capteurs, d'actionneurs, du WiFi et d'un écran, coûte environ 30 USD.
 
-![Un Wio Terminal](../../../../../translated_images/wio-terminal.b8299ee16587db9aa9e05fabf9721bccd9eb8fb541b7c1a8267241282d81b603.fr.png)
+![Un Wio Terminal](../../../../../translated_images/wio-terminal.b8299ee16587db9a.fr.png)
 
 > 💁 Lorsque vous recherchez des microcontrôleurs sur Internet, méfiez-vous du terme **MCU**, car il renverra de nombreux résultats sur l'univers cinématographique Marvel (Marvel Cinematic Universe), et non sur les microcontrôleurs.
 
@@ -93,7 +93,7 @@ Les kits de développement de microcontrôleurs sont généralement équipés de
 
 Un ordinateur monocarte est un petit dispositif informatique qui contient tous les éléments d'un ordinateur complet sur une seule carte. Ces appareils ont des spécifications proches d'un PC ou d'un Mac, exécutent un système d'exploitation complet, mais sont plus petits, consomment moins d'énergie et sont beaucoup moins chers.
 
-![Un Raspberry Pi 4](../../../../../translated_images/raspberry-pi-4.fd4590d308c3d456db1327e86b395ddcd735513267aafd4879ea2785f7792eac.fr.jpg)
+![Un Raspberry Pi 4](../../../../../translated_images/raspberry-pi-4.fd4590d308c3d456.fr.jpg)
 
 Le Raspberry Pi est l'un des ordinateurs monocartes les plus populaires.
 

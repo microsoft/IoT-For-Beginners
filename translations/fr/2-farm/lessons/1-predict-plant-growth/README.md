@@ -65,7 +65,7 @@ Chaque espèce de plante a des valeurs différentes pour sa température de base
 
 ✅ Faites des recherches. Pour les plantes que vous avez dans votre jardin, école ou parc local, pouvez-vous trouver leur température de base ?
 
-![Un graphique montrant le taux de croissance augmentant avec la température, puis diminuant lorsque la température devient trop élevée](../../../../../translated_images/plant-growth-temp-graph.c6d69c9478e6ca832baa8dcb8d4adcbb67304074ce50e94ac8faae95975177f9.fr.png)
+![Un graphique montrant le taux de croissance augmentant avec la température, puis diminuant lorsque la température devient trop élevée](../../../../../translated_images/plant-growth-temp-graph.c6d69c9478e6ca83.fr.png)
 
 Le graphique ci-dessus montre un exemple de courbe de croissance en fonction de la température. Jusqu'à la température de base, il n'y a pas de croissance. Le taux de croissance augmente jusqu'à la température optimale, puis diminue après avoir atteint ce pic. À la température maximale, la croissance s'arrête.
 
@@ -91,7 +91,7 @@ Ce code ouvre le fichier CSV, puis ajoute une nouvelle ligne à la fin. La ligne
 
     
 > 💁 Si vous utilisez un appareil IoT virtuel, cochez la case aléatoire et définissez une plage pour éviter d'obtenir la même température à chaque fois que la valeur de température est renvoyée.
-    ![Cochez la case aléatoire et définissez une plage](../../../../../translated_images/select-the-random-checkbox-and-set-a-range.32cf4bc7c12e797f8c76616b10c7c23a6592321bb1a6310e0b481e72f97d23b3.fr.png) 
+    ![Cochez la case aléatoire et définissez une plage](../../../../../translated_images/select-the-random-checkbox-and-set-a-range.32cf4bc7c12e797f.fr.png) 
 
     > 💁 Si vous souhaitez exécuter cela pendant une journée entière, vous devez vous assurer que l'ordinateur sur lequel votre code serveur s'exécute ne se mettra pas en veille, soit en modifiant vos paramètres d'alimentation, soit en exécutant quelque chose comme [ce script Python pour garder le système actif](https://github.com/jaqsparow/keep-system-active).
     

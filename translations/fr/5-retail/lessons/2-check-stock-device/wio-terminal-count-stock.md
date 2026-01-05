@@ -13,7 +13,7 @@ Une combinaison des prédictions et de leurs boîtes englobantes peut être util
 
 ## Compter le stock
 
-![4 boîtes de concentré de tomate avec des boîtes englobantes autour de chaque boîte](../../../../../translated_images/rpi-stock-with-bounding-boxes.b5540e2ecb7cd49f1271828d3be412671d950e87625c5597ea97c90f11e01097.fr.jpg)
+![4 boîtes de concentré de tomate avec des boîtes englobantes autour de chaque boîte](../../../../../translated_images/rpi-stock-with-bounding-boxes.b5540e2ecb7cd49f.fr.jpg)
 
 Dans l'image ci-dessus, les boîtes englobantes ont un léger chevauchement. Si ce chevauchement était beaucoup plus important, les boîtes englobantes pourraient indiquer le même objet. Pour compter correctement les objets, vous devez ignorer les boîtes avec un chevauchement significatif.
 

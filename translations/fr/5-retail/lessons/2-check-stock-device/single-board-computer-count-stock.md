@@ -81,7 +81,7 @@ Comme étape utile de débogage, vous pouvez non seulement imprimer les boîtes 
 
 1. Exécutez l'application avec la caméra pointée vers du stock sur une étagère. Vous verrez le fichier `image.jpg` dans l'explorateur de VS Code, et vous pourrez le sélectionner pour voir les boîtes englobantes.
 
-    ![4 boîtes de concentré de tomate avec des boîtes englobantes autour de chaque boîte](../../../../../translated_images/rpi-stock-with-bounding-boxes.b5540e2ecb7cd49f1271828d3be412671d950e87625c5597ea97c90f11e01097.fr.jpg)
+    ![4 boîtes de concentré de tomate avec des boîtes englobantes autour de chaque boîte](../../../../../translated_images/rpi-stock-with-bounding-boxes.b5540e2ecb7cd49f.fr.jpg)
 
 ## Compter le stock
 

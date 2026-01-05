@@ -66,7 +66,7 @@ Las bases de datos son servicios que permiten almacenar y consultar datos. Las b
 
 Las primeras bases de datos fueron Sistemas de Gestión de Bases de Datos Relacionales (RDBMS), o bases de datos relacionales. También se conocen como bases de datos SQL debido al Lenguaje de Consulta Estructurado (SQL) utilizado para interactuar con ellas para agregar, eliminar, actualizar o consultar datos. Estas bases de datos consisten en un esquema: un conjunto bien definido de tablas de datos, similar a una hoja de cálculo. Cada tabla tiene múltiples columnas con nombres. Cuando insertas datos, agregas una fila a la tabla, colocando valores en cada una de las columnas. Esto mantiene los datos en una estructura muy rígida: aunque puedes dejar columnas vacías, si deseas agregar una nueva columna, debes hacerlo en la base de datos, rellenando valores para las filas existentes. Estas bases de datos son relacionales, en el sentido de que una tabla puede tener una relación con otra.
 
-![Una base de datos relacional con el ID de la tabla de usuarios relacionado con la columna de ID de usuario de la tabla de compras, y el ID de la tabla de productos relacionado con el ID de producto de la tabla de compras](../../../../../translated_images/sql-database.be160f12bfccefd3ca718a66468c2c4c89c53e5aad4c295324d576da87f9dfdd.es.png)
+![Una base de datos relacional con el ID de la tabla de usuarios relacionado con la columna de ID de usuario de la tabla de compras, y el ID de la tabla de productos relacionado con el ID de producto de la tabla de compras](../../../../../translated_images/sql-database.be160f12bfccefd3.es.png)
 
 Por ejemplo, si almacenas los detalles personales de un usuario en una tabla, tendrías algún tipo de ID único interno por usuario que se utiliza en una fila de una tabla que contiene el nombre y la dirección del usuario. Si luego quisieras almacenar otros detalles sobre ese usuario, como sus compras, en otra tabla, tendrías una columna en la nueva tabla para el ID de ese usuario. Cuando buscas un usuario, puedes usar su ID para obtener sus detalles personales de una tabla y sus compras de otra.
 
@@ -241,7 +241,7 @@ Tu aplicación de funciones ahora necesita conectarse al almacenamiento de blobs
 
 En esta lección, usarás el SDK de Python para ver cómo interactuar con el almacenamiento de blobs.
 
-![Enviando telemetría GPS desde un dispositivo IoT a IoT Hub, luego a Azure Functions a través de un desencadenador de Event Hub, y luego guardándolo en el almacenamiento de blobs](../../../../../translated_images/save-telemetry-to-storage-from-functions.ed3b1820980097f143d9f0570072da11304c2bc7906359dfa075b4d9b253c20f.es.png)
+![Enviando telemetría GPS desde un dispositivo IoT a IoT Hub, luego a Azure Functions a través de un desencadenador de Event Hub, y luego guardándolo en el almacenamiento de blobs](../../../../../translated_images/save-telemetry-to-storage-from-functions.ed3b1820980097f1.es.png)
 
 Los datos se guardarán como un blob JSON con el siguiente formato:
 

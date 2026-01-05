@@ -81,7 +81,7 @@ Como un paso útil de depuración, no solo puedes imprimir los cuadros delimitad
 
 1. Ejecuta la aplicación con la cámara apuntando a algún inventario en un estante. Verás el archivo `image.jpg` en el explorador de VS Code y podrás seleccionarlo para ver los cuadros delimitadores.
 
-    ![4 latas de pasta de tomate con cuadros delimitadores alrededor de cada lata](../../../../../translated_images/rpi-stock-with-bounding-boxes.b5540e2ecb7cd49f1271828d3be412671d950e87625c5597ea97c90f11e01097.es.jpg)
+    ![4 latas de pasta de tomate con cuadros delimitadores alrededor de cada lata](../../../../../translated_images/rpi-stock-with-bounding-boxes.b5540e2ecb7cd49f.es.jpg)
 
 ## Contar inventario
 

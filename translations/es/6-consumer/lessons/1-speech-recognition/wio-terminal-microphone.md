@@ -15,11 +15,11 @@ En esta parte de la lección, añadirás altavoces a tu Wio Terminal. El Wio Ter
 
 El Wio Terminal ya tiene un micrófono integrado, que puede usarse para capturar audio para el reconocimiento de voz.
 
-![El micrófono en el Wio Terminal](../../../../../translated_images/wio-mic.3f8c843dbe8ad917424037a93e3d25c62634add00a04dd8e091317b5a7a90088.es.png)
+![El micrófono en el Wio Terminal](../../../../../translated_images/wio-mic.3f8c843dbe8ad917.es.png)
 
 Para añadir un altavoz, puedes usar el [ReSpeaker 2-Mics Pi Hat](https://www.seeedstudio.com/ReSpeaker-2-Mics-Pi-HAT.html). Este es un módulo externo que contiene 2 micrófonos MEMS, además de un conector para altavoz y una entrada para auriculares.
 
-![El ReSpeaker 2-Mics Pi Hat](../../../../../translated_images/respeaker.f5d19d1c6b14ab1676d24ac2764e64fac5339046ae07be8b45ce07633d61b79b.es.png)
+![El ReSpeaker 2-Mics Pi Hat](../../../../../translated_images/respeaker.f5d19d1c6b14ab16.es.png)
 
 Necesitarás añadir auriculares, un altavoz con conector de 3.5mm o un altavoz con conexión JST como el [Mono Enclosed Speaker - 2W 6 Ohm](https://www.seeedstudio.com/Mono-Enclosed-Speaker-2W-6-Ohm-p-2832.html).
 
@@ -35,7 +35,7 @@ También necesitarás una tarjeta SD para descargar y reproducir audio. El Wio T
 
     Los pines deben conectarse de la siguiente manera:
 
-    ![Un diagrama de pines](../../../../../translated_images/wio-respeaker-wiring-0.767f80aa6508103880d256cdf99ee7219e190db257c7261e4aec219759dc67b9.es.png)
+    ![Un diagrama de pines](../../../../../translated_images/wio-respeaker-wiring-0.767f80aa65081038.es.png)
 
 1. Coloca el ReSpeaker y el Wio Terminal con los conectores GPIO hacia arriba y en el lado izquierdo.
 
@@ -43,33 +43,33 @@ También necesitarás una tarjeta SD para descargar y reproducir audio. El Wio T
 
 1. Repite este proceso hasta llegar al final de los conectores GPIO en el lado izquierdo. Asegúrate de que los pines estén bien ajustados.
 
-    ![Un ReSpeaker con los pines del lado izquierdo conectados a los pines del lado izquierdo del Wio Terminal](../../../../../translated_images/wio-respeaker-wiring-1.8d894727f2ba24004824ee5e06b83b6d10952550003a3efb603182121521b0ef.es.png)
+    ![Un ReSpeaker con los pines del lado izquierdo conectados a los pines del lado izquierdo del Wio Terminal](../../../../../translated_images/wio-respeaker-wiring-1.8d894727f2ba2400.es.png)
 
-    ![Un ReSpeaker con los pines del lado izquierdo conectados a los pines del lado izquierdo del Wio Terminal](../../../../../translated_images/wio-respeaker-wiring-2.329e1cbd306e754f8ffe56f9294794f4a8fa123860d76067a79e9ea385d1bf56.es.png)
+    ![Un ReSpeaker con los pines del lado izquierdo conectados a los pines del lado izquierdo del Wio Terminal](../../../../../translated_images/wio-respeaker-wiring-2.329e1cbd306e754f.es.png)
 
     > 💁 Si tus cables jumper están agrupados en cintas, mantenlos juntos; esto facilita asegurarte de que todos los cables estén conectados en orden.
 
 1. Repite el proceso usando los conectores GPIO del lado derecho en el ReSpeaker y el Wio Terminal. Estos cables deben pasar alrededor de los cables que ya están en su lugar.
 
-    ![Un ReSpeaker con los pines del lado derecho conectados a los pines del lado derecho del Wio Terminal](../../../../../translated_images/wio-respeaker-wiring-3.75b0be447e2fa9307a6a954f9ae8a71b77e39ada6a5ef1a059d341dc850fd90c.es.png)
+    ![Un ReSpeaker con los pines del lado derecho conectados a los pines del lado derecho del Wio Terminal](../../../../../translated_images/wio-respeaker-wiring-3.75b0be447e2fa930.es.png)
 
-    ![Un ReSpeaker con los pines del lado derecho conectados a los pines del lado derecho del Wio Terminal](../../../../../translated_images/wio-respeaker-wiring-4.aa9cd434d8779437de720cba2719d83992413caed1b620b6148f6c8924889afb.es.png)
+    ![Un ReSpeaker con los pines del lado derecho conectados a los pines del lado derecho del Wio Terminal](../../../../../translated_images/wio-respeaker-wiring-4.aa9cd434d8779437.es.png)
 
     > 💁 Si tus cables jumper están agrupados en cintas, sepáralos en dos cintas. Pasa una por cada lado de los cables existentes.
 
     > 💁 Puedes usar cinta adhesiva para mantener los pines en un bloque y evitar que se suelten mientras los conectas.
     >
-    > ![Los pines fijados con cinta adhesiva](../../../../../translated_images/wio-respeaker-wiring-5.af117c20acf622f3cd656ccd8f4053f8845d6aaa3af164d24cb7dbd54a4bb470.es.png)
+    > ![Los pines fijados con cinta adhesiva](../../../../../translated_images/wio-respeaker-wiring-5.af117c20acf622f3.es.png)
 
 1. Necesitarás añadir un altavoz.
 
     * Si estás usando un altavoz con cable JST, conéctalo al puerto JST en el ReSpeaker.
 
-      ![Un altavoz conectado al ReSpeaker con un cable JST](../../../../../translated_images/respeaker-jst-speaker.a441d177809df9458041a2012dd336dbb22c00a5c9642647109d2940a50d6fcc.es.png)
+      ![Un altavoz conectado al ReSpeaker con un cable JST](../../../../../translated_images/respeaker-jst-speaker.a441d177809df945.es.png)
 
     * Si estás usando un altavoz con conector de 3.5mm o auriculares, insértalos en la entrada de 3.5mm.
 
-      ![Un altavoz conectado al ReSpeaker a través del conector de 3.5mm](../../../../../translated_images/respeaker-35mm-speaker.ad79ef4f128c7751f0abf854869b6b779c90c12ae3e48909944a7e48aeee3c7e.es.png)
+      ![Un altavoz conectado al ReSpeaker a través del conector de 3.5mm](../../../../../translated_images/respeaker-35mm-speaker.ad79ef4f128c7751.es.png)
 
 ### Tarea - configurar la tarjeta SD
 
@@ -79,7 +79,7 @@ También necesitarás una tarjeta SD para descargar y reproducir audio. El Wio T
 
 1. Inserta la tarjeta SD en la ranura para tarjetas SD en el lado izquierdo del Wio Terminal, justo debajo del botón de encendido. Asegúrate de que la tarjeta esté completamente insertada y haga clic; es posible que necesites una herramienta delgada u otra tarjeta SD para ayudar a empujarla completamente.
 
-    ![Insertando la tarjeta SD en la ranura debajo del interruptor de encendido](../../../../../translated_images/wio-sd-card.acdcbe322fa4ee7f8f9c8cc015b3263964bb26ab5c7e25b41747988cc5280d64.es.png)
+    ![Insertando la tarjeta SD en la ranura debajo del interruptor de encendido](../../../../../translated_images/wio-sd-card.acdcbe322fa4ee7f.es.png)
 
     > 💁 Para expulsar la tarjeta SD, necesitas presionarla ligeramente y saldrá. Necesitarás una herramienta delgada para hacerlo, como un destornillador plano u otra tarjeta SD.
 

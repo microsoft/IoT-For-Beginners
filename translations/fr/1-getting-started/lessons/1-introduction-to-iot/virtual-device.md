@@ -154,11 +154,11 @@ Créez une application Python pour afficher `"Hello World"` dans la console.
 
 1. Lorsque VS Code se lance, il activera l'environnement virtuel Python. L'environnement virtuel sélectionné apparaîtra dans la barre d'état en bas :
 
-    ![VS Code montrant l'environnement virtuel sélectionné](../../../../../translated_images/vscode-virtual-env.8ba42e04c3d533cf677e16cbe5ed9a3b80f62c6964472dc84b6f940800f0909f.fr.png)
+    ![VS Code montrant l'environnement virtuel sélectionné](../../../../../translated_images/vscode-virtual-env.8ba42e04c3d533cf.fr.png)
 
 1. Si le terminal VS Code est déjà en cours d'exécution lorsque VS Code démarre, il n'aura pas l'environnement virtuel activé. La solution la plus simple est de fermer le terminal en utilisant le bouton **Kill the active terminal instance** :
 
-    ![Bouton VS Code Kill the active terminal instance](../../../../../translated_images/vscode-kill-terminal.1cc4de7c6f25ee08f423f0ead714e61d069fac1eb2089e97b8a7bbcb3d45fe5e.fr.png)
+    ![Bouton VS Code Kill the active terminal instance](../../../../../translated_images/vscode-kill-terminal.1cc4de7c6f25ee08.fr.png)
 
     Vous pouvez savoir si le terminal a l'environnement virtuel activé car le nom de l'environnement virtuel sera un préfixe sur l'invite du terminal. Par exemple, cela pourrait être :
 
@@ -229,7 +229,7 @@ Comme deuxième étape 'Hello World', vous allez exécuter l'application Counter
 
 1. Vous devrez lancer un nouveau terminal VS Code en sélectionnant le bouton **Create a new integrated terminal**. Cela est dû au fait que l'application CounterFit s'exécute dans le terminal actuel.
 
-    ![Bouton VS Code Create a new integrated terminal](../../../../../translated_images/vscode-new-terminal.77db8fc0f9cd31824b0e49a201beafe4ae4616d6c7339992cb2819e789b3eff9.fr.png)
+    ![Bouton VS Code Create a new integrated terminal](../../../../../translated_images/vscode-new-terminal.77db8fc0f9cd3182.fr.png)
 
 1. Dans ce nouveau terminal, exécutez le fichier `app.py` comme précédemment. Le statut de CounterFit passera à **Connected** et la LED s'allumera.
 

@@ -41,7 +41,7 @@ Les deux composants d'une application IoT sont l'*Internet* et l'*objet*. Examin
 
 ### L'objet
 
-![Un Raspberry Pi 4](../../../../../translated_images/raspberry-pi-4.fd4590d308c3d456db1327e86b395ddcd735513267aafd4879ea2785f7792eac.fr.jpg)
+![Un Raspberry Pi 4](../../../../../translated_images/raspberry-pi-4.fd4590d308c3d456.fr.jpg)
 
 La partie **objet** de l'IoT fait référence à un appareil capable d'interagir avec le monde physique. Ces appareils sont généralement de petits ordinateurs peu coûteux, fonctionnant à faible vitesse et consommant peu d'énergie - par exemple, des microcontrôleurs simples avec quelques kilooctets de RAM (par opposition aux gigaoctets d'un PC) fonctionnant à seulement quelques centaines de mégahertz (par opposition aux gigahertz d'un PC), mais consommant parfois si peu d'énergie qu'ils peuvent fonctionner pendant des semaines, des mois, voire des années sur des batteries.
 
@@ -67,7 +67,7 @@ Dans l'exemple d'un thermostat intelligent, le thermostat se connecterait via le
 
 Une version encore plus intelligente pourrait utiliser l'IA dans le cloud avec des données provenant d'autres capteurs connectés à d'autres appareils IoT, tels que des capteurs de présence détectant les pièces utilisées, ainsi que des données telles que la météo et même votre calendrier, pour prendre des décisions sur la manière de régler la température de manière intelligente. Par exemple, elle pourrait éteindre votre chauffage si elle lit dans votre calendrier que vous êtes en vacances, ou éteindre le chauffage pièce par pièce en fonction des pièces que vous utilisez, apprenant des données pour devenir de plus en plus précise au fil du temps.
 
-![Un diagramme montrant plusieurs capteurs de température et un cadran comme entrées d'un appareil IoT, l'appareil IoT avec une communication bidirectionnelle avec le cloud, qui à son tour a une communication bidirectionnelle avec un téléphone, un calendrier et un service météo, et le contrôle d'un chauffage comme sortie de l'appareil IoT](../../../../../translated_images/smarter-thermostat.a75855f15d2d9e63d5da9d7ba5847a987f6c9d98e96e770c203532275194e27d.fr.png)
+![Un diagramme montrant plusieurs capteurs de température et un cadran comme entrées d'un appareil IoT, l'appareil IoT avec une communication bidirectionnelle avec le cloud, qui à son tour a une communication bidirectionnelle avec un téléphone, un calendrier et un service météo, et le contrôle d'un chauffage comme sortie de l'appareil IoT](../../../../../translated_images/smarter-thermostat.a75855f15d2d9e63.fr.png)
 
 ✅ Quelles autres données pourraient aider à rendre un thermostat connecté à Internet plus intelligent ?
 
@@ -135,7 +135,7 @@ Comme pour le CPU, la mémoire d'un microcontrôleur est infiniment plus petite 
 
 Le schéma ci-dessous illustre la différence de taille relative entre 192 Ko et 8 Go - le petit point au centre représente 192 Ko.
 
-![Une comparaison entre 192 Ko et 8 Go - plus de 40 000 fois plus grand](../../../../../translated_images/ram-comparison.6beb73541b42ac6ffde64cdf79fc925a84b932ce7ebd4d41d5fd7afc1257a696.fr.png)
+![Une comparaison entre 192 Ko et 8 Go - plus de 40 000 fois plus grand](../../../../../translated_images/ram-comparison.6beb73541b42ac6f.fr.png)
 
 L'espace de stockage des programmes est également plus petit que celui d'un PC. Un PC typique peut avoir un disque dur de 500 Go pour le stockage des programmes, tandis qu'un microcontrôleur peut n'avoir que quelques kilooctets ou, au mieux, quelques mégaoctets (Mo) de stockage (1 Mo équivaut à 1 000 Ko, soit 1 000 000 octets). Le terminal Wio dispose de 4 Mo de stockage pour les programmes.
 
@@ -211,17 +211,17 @@ Dans la leçon précédente, nous avons introduit les ordinateurs monocartes. Re
 
 ### Raspberry Pi
 
-![Le logo Raspberry Pi](../../../../../translated_images/raspberry-pi-logo.4efaa16605cee05489d8fa53941e991b3757aa24c20a95abdcf8cfd761953596.fr.png)
+![Le logo Raspberry Pi](../../../../../translated_images/raspberry-pi-logo.4efaa16605cee054.fr.png)
 
 La [Raspberry Pi Foundation](https://www.raspberrypi.org) est une organisation caritative basée au Royaume-Uni, fondée en 2009 pour promouvoir l'étude de l'informatique, en particulier au niveau scolaire. Dans le cadre de cette mission, ils ont développé un ordinateur monocarte, appelé Raspberry Pi. Les Raspberry Pi sont actuellement disponibles en 3 variantes : une version pleine taille, le plus petit Pi Zero, et un module de calcul qui peut être intégré dans votre appareil IoT final.
 
-![Un Raspberry Pi 4](../../../../../translated_images/raspberry-pi-4.fd4590d308c3d456db1327e86b395ddcd735513267aafd4879ea2785f7792eac.fr.jpg)
+![Un Raspberry Pi 4](../../../../../translated_images/raspberry-pi-4.fd4590d308c3d456.fr.jpg)
 
 La dernière version du Raspberry Pi pleine taille est le Raspberry Pi 4B. Il dispose d'un processeur quad-core (4 cœurs) fonctionnant à 1,5 GHz, de 2, 4 ou 8 Go de RAM, d'un port Ethernet gigabit, du WiFi, de 2 ports HDMI prenant en charge des écrans 4K, d'une sortie audio et vidéo composite, de ports USB (2 USB 2.0, 2 USB 3.0), de 40 broches GPIO, d'un connecteur pour module caméra Raspberry Pi, et d'un emplacement pour carte SD. Tout cela sur une carte de 88 mm x 58 mm x 19,5 mm, alimentée par un adaptateur USB-C de 3A. Ces cartes commencent à 35 USD, bien moins cher qu'un PC ou un Mac.
 
 > 💁 Il existe également un Pi400, un ordinateur tout-en-un avec un Pi4 intégré dans un clavier.
 
-![Un Raspberry Pi Zero](../../../../../translated_images/raspberry-pi-zero.f7a4133e1e7d54bb3dbb32319b217a53c5b94871995a54647f2894b54206b8d8.fr.jpg)
+![Un Raspberry Pi Zero](../../../../../translated_images/raspberry-pi-zero.f7a4133e1e7d54bb.fr.jpg)
 
 Le Pi Zero est beaucoup plus petit et moins puissant. Il dispose d'un processeur monocœur de 1 GHz, de 512 Mo de RAM, du WiFi (dans le modèle Zero W), d'un seul port HDMI, d'un port micro-USB, de 40 broches GPIO, d'un connecteur pour module caméra Raspberry Pi, et d'un emplacement pour carte SD. Il mesure 65 mm x 30 mm x 5 mm et consomme très peu d'énergie. Le Zero coûte 5 USD, et la version W avec WiFi coûte 10 USD.
 

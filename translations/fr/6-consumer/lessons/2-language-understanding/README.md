@@ -126,7 +126,7 @@ Une fois les entités définies, vous créez des intentions. Celles-ci sont appr
 
 Vous indiquez ensuite à LUIS quelles parties de ces phrases correspondent aux entités :
 
-![La phrase régler un minuteur pour 1 minute et 12 secondes décomposée en entités](../../../../../translated_images/sentence-as-intent-entities.301401696f9922590a99343f5c5d211b710b906f212f0d4d034cee3ffb610272.fr.png)
+![La phrase régler un minuteur pour 1 minute et 12 secondes décomposée en entités](../../../../../translated_images/sentence-as-intent-entities.301401696f992259.fr.png)
 
 La phrase `régler un minuteur pour 1 minute et 12 secondes` a l'intention `régler un minuteur`. Elle contient également 2 entités avec 2 valeurs chacune :
 

@@ -66,7 +66,7 @@ Les bases de données sont des services qui permettent de stocker et de interrog
 
 Les premières bases de données étaient des systèmes de gestion de bases de données relationnelles (RDBMS), ou bases de données relationnelles. Elles sont également connues sous le nom de bases de données SQL en raison du langage de requête structuré (SQL) utilisé pour interagir avec elles afin d'ajouter, supprimer, mettre à jour ou interroger des données. Ces bases de données consistent en un schéma - un ensemble bien défini de tableaux de données, similaire à une feuille de calcul. Chaque tableau possède plusieurs colonnes nommées. Lorsque vous insérez des données, vous ajoutez une ligne au tableau, en mettant des valeurs dans chacune des colonnes. Cela maintient les données dans une structure très rigide - bien que vous puissiez laisser des colonnes vides, si vous souhaitez ajouter une nouvelle colonne, vous devez le faire sur la base de données, en remplissant les valeurs pour les lignes existantes. Ces bases de données sont relationnelles - c'est-à-dire qu'un tableau peut avoir une relation avec un autre.
 
-![Une base de données relationnelle où l'ID du tableau Utilisateur est lié à la colonne ID utilisateur du tableau Achats, et l'ID du tableau Produits est lié à l'ID produit du tableau Achats](../../../../../translated_images/sql-database.be160f12bfccefd3ca718a66468c2c4c89c53e5aad4c295324d576da87f9dfdd.fr.png)
+![Une base de données relationnelle où l'ID du tableau Utilisateur est lié à la colonne ID utilisateur du tableau Achats, et l'ID du tableau Produits est lié à l'ID produit du tableau Achats](../../../../../translated_images/sql-database.be160f12bfccefd3.fr.png)
 
 Par exemple, si vous stockiez les informations personnelles d'un utilisateur dans un tableau, vous auriez un ID unique interne par utilisateur utilisé dans une ligne d'un tableau contenant le nom et l'adresse de l'utilisateur. Si vous souhaitiez ensuite stocker d'autres détails sur cet utilisateur, comme ses achats, dans un autre tableau, vous auriez une colonne dans le nouveau tableau pour l'ID de cet utilisateur. Lorsque vous recherchez un utilisateur, vous pouvez utiliser son ID pour obtenir ses informations personnelles dans un tableau, et ses achats dans un autre.
 
@@ -241,7 +241,7 @@ Votre application de fonctions doit maintenant se connecter au stockage blob pou
 
 Dans cette leçon, vous utiliserez le SDK Python pour voir comment interagir avec le stockage blob.
 
-![Envoi de télémétrie GPS depuis un appareil IoT vers IoT Hub, puis vers Azure Functions via un déclencheur Event Hub, puis enregistrement dans le stockage blob](../../../../../translated_images/save-telemetry-to-storage-from-functions.ed3b1820980097f143d9f0570072da11304c2bc7906359dfa075b4d9b253c20f.fr.png)
+![Envoi de télémétrie GPS depuis un appareil IoT vers IoT Hub, puis vers Azure Functions via un déclencheur Event Hub, puis enregistrement dans le stockage blob](../../../../../translated_images/save-telemetry-to-storage-from-functions.ed3b1820980097f1.fr.png)
 
 Les données seront enregistrées sous forme de blob JSON avec le format suivant :
 

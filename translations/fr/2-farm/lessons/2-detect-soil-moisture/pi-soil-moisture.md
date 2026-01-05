@@ -37,7 +37,7 @@ Connectez le capteur d'humidité du sol.
 
 1. Insérez le capteur d'humidité du sol dans le sol. Il comporte une "ligne de position maximale" - une ligne blanche traversant le capteur. Insérez le capteur jusqu'à cette ligne, mais pas au-delà.
 
-![Le capteur d'humidité du sol Grove dans le sol](../../../../../translated_images/soil-moisture-sensor-in-soil.bfad91002bda5e960f8c51ee64b02ee59b32c8c717e3515a2c945f33e614e403.fr.png)
+![Le capteur d'humidité du sol Grove dans le sol](../../../../../translated_images/soil-moisture-sensor-in-soil.bfad91002bda5e96.fr.png)
 
 ## Programmer le capteur d'humidité du sol
 

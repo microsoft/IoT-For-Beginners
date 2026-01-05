@@ -115,7 +115,7 @@ Pour le prototype, vous implémenterez tout cela sur un seul appareil. Si vous u
 
 L'appareil IoT a besoin d'un déclencheur pour indiquer quand les fruits sont prêts à être classifiés. Un déclencheur pour cela serait de mesurer quand le fruit est à la bonne position sur le tapis roulant en mesurant la distance par rapport à un capteur.
 
-![Les capteurs de proximité envoient des faisceaux laser vers des objets comme des bananes et mesurent le temps avant que le faisceau ne soit réfléchi](../../../../../translated_images/proximity-sensor.f5cd752c77fb62fea000156233b32fd24fad3707ec69b8bdd8d312b7af85156d.fr.png)
+![Les capteurs de proximité envoient des faisceaux laser vers des objets comme des bananes et mesurent le temps avant que le faisceau ne soit réfléchi](../../../../../translated_images/proximity-sensor.f5cd752c77fb62fe.fr.png)
 
 Les capteurs de proximité peuvent être utilisés pour mesurer la distance entre le capteur et un objet. Ils transmettent généralement un faisceau de rayonnement électromagnétique, tel qu'un faisceau laser ou une lumière infrarouge, puis détectent le rayonnement réfléchi par un objet. Le temps écoulé entre l'envoi du faisceau laser et le signal réfléchi peut être utilisé pour calculer la distance par rapport au capteur.
 

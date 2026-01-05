@@ -130,7 +130,7 @@ Pour cette leçon, vous aurez besoin d'une ressource Translator. Vous utiliserez
 
 Dans un monde idéal, toute votre application devrait comprendre autant de langues différentes que possible, de l'écoute de la parole à la compréhension du langage, en passant par la réponse avec la parole. Cela représente beaucoup de travail, donc les services de traduction peuvent accélérer le temps de livraison de votre application.
 
-![Une architecture de minuteur intelligent traduisant le japonais en anglais, traitant en anglais puis traduisant en japonais](../../../../../translated_images/translated-smart-timer.08ac20057fdc5c3778ed41cb425dca5d7fbcd4584b6da7b73ca67115a5b8a883.fr.png)
+![Une architecture de minuteur intelligent traduisant le japonais en anglais, traitant en anglais puis traduisant en japonais](../../../../../translated_images/translated-smart-timer.08ac20057fdc5c37.fr.png)
 
 Imaginez que vous construisez un minuteur intelligent qui utilise l'anglais de bout en bout, comprenant l'anglais parlé et le convertissant en texte, exécutant la compréhension du langage en anglais, construisant des réponses en anglais et répondant avec une parole en anglais. Si vous vouliez ajouter la prise en charge du japonais, vous pourriez commencer par traduire le japonais parlé en texte anglais, puis garder le cœur de l'application identique, puis traduire le texte de réponse en japonais avant de prononcer la réponse. Cela vous permettrait d'ajouter rapidement la prise en charge du japonais, et vous pourriez étendre cela pour fournir une prise en charge complète du japonais de bout en bout plus tard.
 

@@ -115,7 +115,7 @@ Para el prototipo, implementarás todo esto en un único dispositivo. Si estás 
 
 El dispositivo IoT necesita algún tipo de activador para indicar cuándo la fruta está lista para ser clasificada. Un activador para esto sería medir cuándo la fruta está en la posición correcta en la cinta transportadora midiendo la distancia a un sensor.
 
-![Los sensores de proximidad envían haces de láser a objetos como plátanos y miden el tiempo hasta que el haz rebota](../../../../../translated_images/proximity-sensor.f5cd752c77fb62fea000156233b32fd24fad3707ec69b8bdd8d312b7af85156d.es.png)
+![Los sensores de proximidad envían haces de láser a objetos como plátanos y miden el tiempo hasta que el haz rebota](../../../../../translated_images/proximity-sensor.f5cd752c77fb62fe.es.png)
 
 Los sensores de proximidad pueden usarse para medir la distancia desde el sensor hasta un objeto. Generalmente transmiten un haz de radiación electromagnética, como un láser o luz infrarroja, y luego detectan la radiación que rebota en un objeto. El tiempo entre el envío del haz y el rebote de la señal puede usarse para calcular la distancia al sensor.
 

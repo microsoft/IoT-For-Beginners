@@ -39,7 +39,7 @@ Les détecteurs d'objets peuvent être utilisés pour vérifier le stock, soit e
 
 Par exemple, si une caméra pointe vers une étagère pouvant contenir 8 boîtes de concentré de tomate, et qu'un détecteur d'objets n'en détecte que 7, cela signifie qu'une boîte manque et doit être réapprovisionnée.
 
-![7 boîtes de concentré de tomate sur une étagère, 4 sur la rangée du haut, 3 en bas](../../../../../translated_images/stock-7-cans-tomato-paste.f86059cc573d7becaa89a0eafb9d2cd7e2fe37405a530fe565990e2333d0e4a1.fr.png)
+![7 boîtes de concentré de tomate sur une étagère, 4 sur la rangée du haut, 3 en bas](../../../../../translated_images/stock-7-cans-tomato-paste.f86059cc573d7bec.fr.png)
 
 Dans l'image ci-dessus, un détecteur d'objets a détecté 7 boîtes de concentré de tomate sur une étagère pouvant en contenir 8. Non seulement l'appareil IoT peut envoyer une notification pour signaler le besoin de réapprovisionnement, mais il peut également indiquer l'emplacement de l'article manquant, une donnée importante si vous utilisez des robots pour réapprovisionner les étagères.
 
@@ -51,7 +51,7 @@ Parfois, le mauvais stock peut se retrouver sur les étagères. Cela peut être 
 
 La détection d'objets peut être utilisée pour détecter des articles inattendus, alertant à nouveau un humain ou un robot pour remettre l'article à sa place dès qu'il est détecté.
 
-![Une boîte de maïs miniature mal placée sur l'étagère de concentré de tomate](../../../../../translated_images/stock-rogue-corn.be1f3ada8c4578544641af66671c1711a4c02297f14cc7f503354dae0d30a954.fr.png)
+![Une boîte de maïs miniature mal placée sur l'étagère de concentré de tomate](../../../../../translated_images/stock-rogue-corn.be1f3ada8c457854.fr.png)
 
 Dans l'image ci-dessus, une boîte de maïs miniature a été placée sur l'étagère à côté du concentré de tomate. Le détecteur d'objets a détecté cela, permettant à l'appareil IoT de notifier un humain ou un robot pour remettre la boîte à son emplacement correct.
 

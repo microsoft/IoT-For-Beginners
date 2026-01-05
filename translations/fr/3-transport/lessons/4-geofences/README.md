@@ -110,7 +110,7 @@ Chaque point du polygone est défini comme une paire longitude, latitude dans un
 
 Le tableau des coordonnées du polygone contient toujours une entrée de plus que le nombre de points du polygone, la dernière entrée étant identique à la première, fermant ainsi le polygone. Par exemple, pour un rectangle, il y aurait 5 points.
 
-![Un rectangle avec des coordonnées](../../../../../translated_images/polygon-points.302193da381cb415f46c2c7a98496ee4be05d6c73d21238a89721ad93e121233.fr.png)
+![Un rectangle avec des coordonnées](../../../../../translated_images/polygon-points.302193da381cb415.fr.png)
 
 Dans l'image ci-dessus, il y a un rectangle. Les coordonnées du polygone commencent en haut à gauche à 47,-122, puis se déplacent à droite à 47,-121, puis descendent à 46,-121, puis à gauche à 46,-122, puis remontent au point de départ à 47,-122. Cela donne au polygone 5 points - en haut à gauche, en haut à droite, en bas à droite, en bas à gauche, puis en haut à gauche pour le fermer.
 
@@ -208,7 +208,7 @@ Lorsque vous effectuez cette requête, vous pouvez également passer une valeur 
 
 Lorsque les résultats sont renvoyés par l'appel API, l'une des parties du résultat est une `distance` mesurée jusqu'au point le plus proche sur le bord de la clôture géographique, avec une valeur positive si le point est à l'extérieur de la clôture géographique, et une valeur négative s'il est à l'intérieur. Si cette distance est inférieure au `searchBuffer`, la distance réelle est renvoyée en mètres, sinon la valeur est 999 ou -999. 999 signifie que le point est à l'extérieur de la clôture géographique de plus que le `searchBuffer`, -999 signifie qu'il est à l'intérieur de la clôture géographique de plus que le `searchBuffer`.
 
-![Une clôture géographique avec un tampon de recherche de 50 m autour](../../../../../translated_images/search-buffer-and-distance.e6a79af3898183c7b2ef6fbf12271b8b34afd23969bb946962b1b18d3d2635e8.fr.png)
+![Une clôture géographique avec un tampon de recherche de 50 m autour](../../../../../translated_images/search-buffer-and-distance.e6a79af3898183c7.fr.png)
 
 Dans l'image ci-dessus, la clôture géographique a un tampon de recherche de 50 m.
 

@@ -61,7 +61,7 @@ Les dernières évolutions de ces machines de tri tirent parti de l'IA et du ML,
 
 La programmation traditionnelle consiste à prendre des données, appliquer un algorithme à ces données, et obtenir un résultat. Par exemple, dans le dernier projet, vous avez pris des coordonnées GPS et une géofence, appliqué un algorithme fourni par Azure Maps, et obtenu un résultat indiquant si le point était à l'intérieur ou à l'extérieur de la géofence. Vous entrez plus de données, vous obtenez plus de résultats.
 
-![Le développement traditionnel prend des données d'entrée et un algorithme pour donner un résultat. L'apprentissage automatique utilise des données d'entrée et de sortie pour entraîner un modèle, et ce modèle peut prendre de nouvelles données d'entrée pour générer de nouveaux résultats](../../../../../translated_images/traditional-vs-ml.5c20c169621fa539ca84a2cd9a49f6ff7410b3a6c6b46c97ff2af3f99db3c66b.fr.png)
+![Le développement traditionnel prend des données d'entrée et un algorithme pour donner un résultat. L'apprentissage automatique utilise des données d'entrée et de sortie pour entraîner un modèle, et ce modèle peut prendre de nouvelles données d'entrée pour générer de nouveaux résultats](../../../../../translated_images/traditional-vs-ml.5c20c169621fa539.fr.png)
 
 L'apprentissage automatique inverse ce processus - vous commencez avec des données et des résultats connus, et l'algorithme d'apprentissage automatique apprend à partir des données. Vous pouvez ensuite prendre cet algorithme entraîné, appelé *modèle d'apprentissage automatique* ou *modèle*, et entrer de nouvelles données pour obtenir de nouveaux résultats.
 
@@ -87,7 +87,7 @@ Pour entraîner avec succès un classificateur d'images, vous avez besoin de mil
 
 Une fois qu'un classificateur d'images a été entraîné pour une grande variété d'images, ses mécanismes internes sont excellents pour reconnaître les formes, les couleurs et les motifs. L'apprentissage par transfert permet au modèle d'utiliser ce qu'il a déjà appris pour reconnaître des parties d'images et l'appliquer à de nouvelles images.
 
-![Une fois que vous pouvez reconnaître des formes, elles peuvent être configurées différemment pour créer un bateau ou un chat](../../../../../translated_images/shapes-to-images.1a309f0ea88dd66fafa4da6d38e88806ce174cc6a88081efb32852230ed55de8.fr.png)
+![Une fois que vous pouvez reconnaître des formes, elles peuvent être configurées différemment pour créer un bateau ou un chat](../../../../../translated_images/shapes-to-images.1a309f0ea88dd66f.fr.png)
 
 Vous pouvez penser à cela comme à des livres de formes pour enfants, où une fois que vous pouvez reconnaître un demi-cercle, un rectangle et un triangle, vous pouvez reconnaître un voilier ou un chat selon la configuration de ces formes. Le classificateur d'images peut reconnaître les formes, et l'apprentissage par transfert lui apprend quelle combinaison représente un bateau ou un chat - ou une banane mûre.
 

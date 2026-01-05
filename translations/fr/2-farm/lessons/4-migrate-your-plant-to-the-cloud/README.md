@@ -72,7 +72,7 @@ Le fournisseur de cloud peut alors utiliser des économies d'échelle pour rédu
 
 Azure est le cloud pour développeurs de Microsoft, et c'est le cloud que vous utiliserez dans ces leçons. La vidéo ci-dessous donne un aperçu rapide d'Azure :
 
-[![Vidéo d'introduction à Azure](../../../../../translated_images/what-is-azure-video-thumbnail.20174db09e03bbb87d213f928d3cb27410305d2e567e952827de8478dbda959b.fr.png)](https://www.microsoft.com/videoplayer/embed/RE4Ibng?WT.mc_id=academic-17441-jabenn)
+[![Vidéo d'introduction à Azure](../../../../../translated_images/what-is-azure-video-thumbnail.20174db09e03bbb8.fr.png)](https://www.microsoft.com/videoplayer/embed/RE4Ibng?WT.mc_id=academic-17441-jabenn)
 
 ## Créer un abonnement cloud
 

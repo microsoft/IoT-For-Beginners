@@ -75,7 +75,7 @@ Certains des capteurs les plus simples sont analogiques. Ces capteurs reçoivent
 
 Un exemple est un potentiomètre. C'est un cadran que vous pouvez tourner entre deux positions, et le capteur mesure la rotation.
 
-![Un potentiomètre réglé à un point médian recevant 5 volts et retournant 3,8 volts](../../../../../translated_images/potentiometer.35a348b9ce22f6ec1199ad37d68692d04185456ccbc2541a454bb6698be9f19c.fr.png)
+![Un potentiomètre réglé à un point médian recevant 5 volts et retournant 3,8 volts](../../../../../translated_images/potentiometer.35a348b9ce22f6ec.fr.png)
 
 L'appareil IoT envoie un signal électrique au potentiomètre à une tension, par exemple 5 volts (5V). Lorsque le potentiomètre est ajusté, il modifie la tension qui sort de l'autre côté. Imaginez un potentiomètre étiqueté comme un cadran allant de 0 à [11](https://wikipedia.org/wiki/Up_to_eleven), comme un bouton de volume sur un amplificateur. Lorsque le potentiomètre est en position complètement éteinte (0), alors 0V (0 volts) sortent. Lorsqu'il est en position complètement allumée (11), 5V (5 volts) sortent.
 
@@ -112,7 +112,7 @@ Les broches des appareils IoT, comme les broches GPIO, peuvent mesurer ce signal
 
 Les capteurs numériques plus avancés lisent des valeurs analogiques, puis les convertissent en utilisant des ADC intégrés pour produire des signaux numériques. Par exemple, un capteur de température numérique utilisera toujours un thermocouple de la même manière qu'un capteur analogique, et mesurera toujours la variation de tension causée par la résistance du thermocouple à la température actuelle. Au lieu de retourner une valeur analogique et de compter sur l'appareil ou la carte connecteur pour la convertir en signal numérique, un ADC intégré au capteur convertira la valeur et l'enverra sous forme de série de 0 et de 1 à l'appareil IoT. Ces 0 et 1 sont envoyés de la même manière que le signal numérique d'un bouton, avec 1 correspondant à la tension maximale et 0 à 0V.
 
-![Un capteur de température numérique convertissant une lecture analogique en données binaires avec 0 comme 0 volts et 1 comme 5 volts avant de l'envoyer à un appareil IoT](../../../../../translated_images/temperature-as-digital.85004491b977bae1129707df107c0b19fe6fc6374210e9027e04acb34a640c78.fr.png)
+![Un capteur de température numérique convertissant une lecture analogique en données binaires avec 0 comme 0 volts et 1 comme 5 volts avant de l'envoyer à un appareil IoT](../../../../../translated_images/temperature-as-digital.85004491b977bae1.fr.png)
 
 L'envoi de données numériques permet aux capteurs de devenir plus complexes et d'envoyer des données plus détaillées, voire des données cryptées pour des capteurs sécurisés. Un exemple est une caméra. C'est un capteur qui capture une image et l'envoie sous forme de données numériques contenant cette image, généralement dans un format compressé comme JPEG, pour être lue par l'appareil IoT. Elle peut même diffuser des vidéos en capturant des images et en envoyant soit l'image complète image par image, soit un flux vidéo compressé.
 
@@ -164,7 +164,7 @@ Par exemple, vous pouvez utiliser la PWM pour contrôler la vitesse d'un moteur.
 
 Imaginez que vous contrôlez un moteur avec une alimentation de 5V. Vous envoyez une impulsion courte à votre moteur, passant la tension à haute (5V) pendant deux centièmes de seconde (0,02s). Pendant ce temps, votre moteur peut effectuer un dixième de rotation, soit 36°. Le signal s'interrompt ensuite pendant deux centièmes de seconde (0,02s), envoyant un signal bas (0V). Chaque cycle de marche puis d'arrêt dure 0,04s. Le cycle se répète ensuite.
 
-![Rotation d'un moteur à 150 RPM avec modulation de largeur d'impulsion](../../../../../translated_images/pwm-motor-150rpm.83347ac04ca38482bd120939b133803963c9c15ca9d8d484712a4bd92820f6a4.fr.png)
+![Rotation d'un moteur à 150 RPM avec modulation de largeur d'impulsion](../../../../../translated_images/pwm-motor-150rpm.83347ac04ca38482.fr.png)
 
 Cela signifie qu'en une seconde, vous avez 25 impulsions de 5V de 0,02s qui font tourner le moteur, chacune suivie d'une pause de 0,02s à 0V où le moteur ne tourne pas. Chaque impulsion fait tourner le moteur d'un dixième de rotation, ce qui signifie que le moteur effectue 2,5 rotations par seconde. Vous avez utilisé un signal numérique pour faire tourner le moteur à 2,5 rotations par seconde, soit 150 [tours par minute](https://wikipedia.org/wiki/Revolutions_per_minute) (une mesure non standard de la vitesse de rotation).
 
@@ -175,7 +175,7 @@ Cela signifie qu'en une seconde, vous avez 25 impulsions de 5V de 0,02s qui font
 
 > 🎓 Lorsque le signal PWM est activé pendant la moitié du temps et désactivé pendant l'autre moitié, on parle d'un [cycle de service de 50%](https://wikipedia.org/wiki/Duty_cycle). Les cycles de service sont mesurés en pourcentage du temps où le signal est en état activé par rapport à l'état désactivé.
 
-![Rotation d'un moteur à 75 RPM avec modulation de largeur d'impulsion](../../../../../translated_images/pwm-motor-75rpm.a5e4c939934b6e14fd9e98e4f2c9539d723da2b18f490eae0948dd044d18ff7e.fr.png)
+![Rotation d'un moteur à 75 RPM avec modulation de largeur d'impulsion](../../../../../translated_images/pwm-motor-75rpm.a5e4c939934b6e14.fr.png)
 
 Vous pouvez modifier la vitesse du moteur en changeant la taille des impulsions. Par exemple, avec le même moteur, vous pouvez conserver le même temps de cycle de 0,04s, avec l'impulsion activée réduite de moitié à 0,01s, et l'impulsion désactivée augmentée à 0,03s. Vous avez le même nombre d'impulsions par seconde (25), mais chaque impulsion activée est deux fois plus courte. Une impulsion réduite de moitié ne fait tourner le moteur que d'un vingtième de rotation, et à 25 impulsions par seconde, il effectuera 1,25 rotation par seconde, soit 75 RPM. En modifiant la vitesse des impulsions d'un signal numérique, vous avez réduit de moitié la vitesse d'un moteur analogique.
 

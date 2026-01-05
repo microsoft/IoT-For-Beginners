@@ -154,11 +154,11 @@ CO_OP_TRANSLATOR_METADATA:
 
 1. Когда VS Code запустится, он активирует виртуальное окружение Python. Выбранное виртуальное окружение будет отображаться в нижней строке состояния:
 
-    ![VS Code показывает выбранное виртуальное окружение](../../../../../translated_images/vscode-virtual-env.8ba42e04c3d533cf677e16cbe5ed9a3b80f62c6964472dc84b6f940800f0909f.ru.png)
+    ![VS Code показывает выбранное виртуальное окружение](../../../../../translated_images/vscode-virtual-env.8ba42e04c3d533cf.ru.png)
 
 1. Если терминал VS Code уже запущен при старте VS Code, виртуальное окружение в нем не будет активировано. Самый простой способ — закрыть терминал, используя кнопку **Kill the active terminal instance**:
 
-    ![Кнопка VS Code Kill the active terminal instance](../../../../../translated_images/vscode-kill-terminal.1cc4de7c6f25ee08f423f0ead714e61d069fac1eb2089e97b8a7bbcb3d45fe5e.ru.png)
+    ![Кнопка VS Code Kill the active terminal instance](../../../../../translated_images/vscode-kill-terminal.1cc4de7c6f25ee08.ru.png)
 
     Вы можете определить, активировано ли виртуальное окружение в терминале, по имени виртуального окружения, которое будет префиксом в приглашении терминала. Например, это может быть:
 
@@ -229,7 +229,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 1. Вам нужно запустить новый терминал VS Code, выбрав кнопку **Create a new integrated terminal**. Это связано с тем, что приложение CounterFit работает в текущем терминале.
 
-    ![Кнопка VS Code Create a new integrated terminal](../../../../../translated_images/vscode-new-terminal.77db8fc0f9cd31824b0e49a201beafe4ae4616d6c7339992cb2819e789b3eff9.ru.png)
+    ![Кнопка VS Code Create a new integrated terminal](../../../../../translated_images/vscode-new-terminal.77db8fc0f9cd3182.ru.png)
 
 1. В новом терминале выполните файл `app.py`, как и раньше. Статус CounterFit изменится на **Connected**, и светодиод загорится.
 

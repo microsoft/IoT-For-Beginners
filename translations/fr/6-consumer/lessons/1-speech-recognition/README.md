@@ -64,7 +64,7 @@ Les microphones existent en plusieurs types :
 
 * Ruban - Les microphones à ruban sont similaires aux microphones dynamiques, sauf qu'ils utilisent un ruban métallique au lieu d'une membrane. Ce ruban se déplace dans un champ magnétique, générant un courant électrique. Comme les microphones dynamiques, les microphones à ruban n'ont pas besoin d'alimentation pour fonctionner.
 
-    ![Edmund Lowe, acteur américain, debout devant un microphone radio (réseau NBC Blue), tenant un script, 1942](../../../../../translated_images/ribbon-mic.eacc8e092c7441caee6d7a81e2f40e1675bf36269848964c7c09c9a9acb05127.fr.jpg)
+    ![Edmund Lowe, acteur américain, debout devant un microphone radio (réseau NBC Blue), tenant un script, 1942](../../../../../translated_images/ribbon-mic.eacc8e092c7441ca.fr.jpg)
 
 * Condensateur - Les microphones à condensateur possèdent une fine membrane métallique et une plaque arrière métallique fixe. Un courant électrique est appliqué aux deux, et lorsque la membrane vibre, la charge statique entre les plaques change, générant un signal. Les microphones à condensateur nécessitent une alimentation pour fonctionner - appelée *alimentation fantôme*.
 
@@ -84,7 +84,7 @@ L'audio est un signal analogique contenant des informations très détaillées. 
 
 > 🎓 L'échantillonnage consiste à convertir le signal audio en une valeur numérique représentant le signal à un moment donné.
 
-![Un graphique montrant un signal, avec des points discrets à intervalles fixes](../../../../../translated_images/sampling.6f4fadb3f2d9dfe7618f9edfe75a350e6b3f74293ec84f02ab69c19d2afe3d73.fr.png)
+![Un graphique montrant un signal, avec des points discrets à intervalles fixes](../../../../../translated_images/sampling.6f4fadb3f2d9dfe7.fr.png)
 
 L'audio numérique est échantillonné en utilisant la modulation par impulsions codées, ou PCM. La PCM consiste à lire la tension du signal et à sélectionner la valeur discrète la plus proche correspondant à cette tension selon une taille définie.
 

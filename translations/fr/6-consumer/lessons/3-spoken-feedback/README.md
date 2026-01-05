@@ -37,7 +37,7 @@ Dans cette leçon, nous aborderons :
 
 La synthèse vocale, comme son nom l'indique, est le processus de conversion de texte en audio contenant les mots prononcés. Le principe de base consiste à décomposer les mots du texte en leurs sons constitutifs (appelés phonèmes) et à assembler des fichiers audio pour ces sons, soit en utilisant des enregistrements préexistants, soit en générant l'audio à l'aide de modèles d'IA.
 
-![Les trois étapes des systèmes typiques de synthèse vocale](../../../../../translated_images/tts-overview.193843cf3f5ee09f8b3371a9fdaeb0f116698a07ca69daaa77158da4800e5453.fr.png)
+![Les trois étapes des systèmes typiques de synthèse vocale](../../../../../translated_images/tts-overview.193843cf3f5ee09f.fr.png)
 
 Les systèmes de synthèse vocale comportent généralement 3 étapes :
 

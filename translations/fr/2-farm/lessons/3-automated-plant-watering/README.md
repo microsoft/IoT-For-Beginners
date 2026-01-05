@@ -55,11 +55,11 @@ Un relais est un interrupteur électromécanique qui convertit un signal électr
 
 > 🎓 [Les électroaimants](https://wikipedia.org/wiki/Electromagnet) sont des aimants créés en faisant passer de l'électricité dans une bobine de fil. Lorsque l'électricité est activée, la bobine devient magnétisée. Lorsque l'électricité est coupée, la bobine perd son magnétisme.
 
-![Lorsque le relais est activé, l'électroaimant crée un champ magnétique, activant l'interrupteur du circuit de sortie](../../../../../translated_images/relay-on.4db16a0fd6b669262fd6699aff3fbcd31b6057c06d90411b6bddc06326d1cf75.fr.png)
+![Lorsque le relais est activé, l'électroaimant crée un champ magnétique, activant l'interrupteur du circuit de sortie](../../../../../translated_images/relay-on.4db16a0fd6b66926.fr.png)
 
 Dans un relais, un circuit de commande alimente l'électroaimant. Lorsque l'électroaimant est activé, il tire un levier qui déplace un interrupteur, fermant une paire de contacts et complétant un circuit de sortie.
 
-![Lorsque le relais est désactivé, l'électroaimant ne crée pas de champ magnétique, désactivant l'interrupteur du circuit de sortie](../../../../../translated_images/relay-off.c34a178a2960fecdc3c6400d43e633ed11c6746cd653cfb4a768fa097c40394c.fr.png)
+![Lorsque le relais est désactivé, l'électroaimant ne crée pas de champ magnétique, désactivant l'interrupteur du circuit de sortie](../../../../../translated_images/relay-off.c34a178a2960fecd.fr.png)
 
 Lorsque le circuit de commande est désactivé, l'électroaimant s'éteint, libérant le levier et ouvrant les contacts, désactivant le circuit de sortie. Les relais sont des actionneurs numériques : un signal élevé active le relais, un signal faible le désactive.
 
@@ -85,7 +85,7 @@ L'électroaimant n'a pas besoin de beaucoup de puissance pour s'activer et tirer
 
 L'image ci-dessus montre un relais Grove. Le circuit de commande se connecte à un appareil IoT et active ou désactive le relais en utilisant 3,3V ou 5V. Le circuit de sortie a deux bornes, l'une pouvant être l'alimentation ou la masse. Le circuit de sortie peut gérer jusqu'à 250V à 10A, suffisant pour une gamme d'appareils alimentés par le secteur. Vous pouvez trouver des relais capables de gérer des niveaux de puissance encore plus élevés.
 
-![Une pompe câblée via un relais](../../../../../translated_images/pump-wired-to-relay.66c5cfc0d89189900cd601777f5caeb39ee35c6250f6c86bf38feaceedb21fe9.fr.png)
+![Une pompe câblée via un relais](../../../../../translated_images/pump-wired-to-relay.66c5cfc0d8918990.fr.png)
 
 Dans l'image ci-dessus, l'alimentation est fournie à une pompe via un relais. Un fil rouge connecte la borne +5V d'une alimentation USB à une borne du circuit de sortie du relais, et un autre fil rouge connecte l'autre borne du circuit de sortie à la pompe. Un fil noir connecte la pompe à la masse de l'alimentation USB. Lorsque le relais s'active, il complète le circuit, envoyant 5V à la pompe et la mettant en marche.
 
@@ -135,7 +135,7 @@ Dans la leçon 3, vous avez construit une veilleuse - une LED qui s'allume dès 
 
 Si vous avez suivi la dernière leçon sur l'humidité du sol en utilisant un capteur physique, vous avez peut-être remarqué qu'il fallait quelques secondes pour que la lecture de l'humidité du sol diminue après avoir arrosé votre plante. Cela n'est pas dû à la lenteur du capteur, mais au temps nécessaire pour que l'eau s'infiltre dans le sol.
 💁 Si vous avez arrosé trop près du capteur, vous avez peut-être remarqué que la lecture a chuté rapidement, puis est remontée - cela est dû à l'eau près du capteur qui se diffuse dans le reste du sol, réduisant ainsi l'humidité du sol autour du capteur.
-![Une mesure d'humidité du sol de 658 ne change pas pendant l'arrosage, elle ne descend qu'à 320 après l'arrosage lorsque l'eau a traversé le sol](../../../../../translated_images/soil-moisture-travel.a0e31af222cf14385de5380dfc32c7b8213960965228b8e4f7b7ab7f73b310a3.fr.png)
+![Une mesure d'humidité du sol de 658 ne change pas pendant l'arrosage, elle ne descend qu'à 320 après l'arrosage lorsque l'eau a traversé le sol](../../../../../translated_images/soil-moisture-travel.a0e31af222cf1438.fr.png)
 
 Dans le schéma ci-dessus, une lecture d'humidité du sol indique 658. La plante est arrosée, mais cette lecture ne change pas immédiatement, car l'eau n'a pas encore atteint le capteur. L'arrosage peut même se terminer avant que l'eau n'atteigne le capteur et que la valeur ne baisse pour refléter le nouveau niveau d'humidité.
 
@@ -157,11 +157,11 @@ Combien de temps le relais doit-il rester activé à chaque fois ? Il vaut mieux
 
 > 💁 Ce type de contrôle du timing est très spécifique à l'appareil IoT que vous construisez, à la propriété que vous mesurez et aux capteurs et actionneurs utilisés.
 
-![Un plant de fraise connecté à de l'eau via une pompe, avec la pompe connectée à un relais. Le relais et un capteur d'humidité du sol dans la plante sont tous deux connectés à un Raspberry Pi](../../../../../translated_images/strawberry-with-pump.b410fc72ac6aabad3e28de9775bf2393ead73dcfec6fd8c9bc01cf107ecd171a.fr.png)
+![Un plant de fraise connecté à de l'eau via une pompe, avec la pompe connectée à un relais. Le relais et un capteur d'humidité du sol dans la plante sont tous deux connectés à un Raspberry Pi](../../../../../translated_images/strawberry-with-pump.b410fc72ac6aabad.fr.png)
 
 Par exemple, j'ai un plant de fraise avec un capteur d'humidité du sol et une pompe contrôlée par un relais. J'ai observé que lorsque j'ajoute de l'eau, il faut environ 20 secondes pour que la lecture d'humidité du sol se stabilise. Cela signifie que je dois éteindre le relais et attendre 20 secondes avant de vérifier les niveaux d'humidité. Je préfère avoir trop peu d'eau que trop - je peux toujours rallumer la pompe, mais je ne peux pas retirer l'eau de la plante.
 
-![Étape 1, prendre une mesure. Étape 2, ajouter de l'eau. Étape 3, attendre que l'eau s'infiltre dans le sol. Étape 4, reprendre une mesure](../../../../../translated_images/soil-moisture-delay.865f3fae206db01d5f8f100f4f44040215d44a0412dd3450aef7ff7b93b6d273.fr.png)
+![Étape 1, prendre une mesure. Étape 2, ajouter de l'eau. Étape 3, attendre que l'eau s'infiltre dans le sol. Étape 4, reprendre une mesure](../../../../../translated_images/soil-moisture-delay.865f3fae206db01d.fr.png)
 
 Cela signifie que le meilleur processus serait un cycle d'arrosage ressemblant à ceci :
 

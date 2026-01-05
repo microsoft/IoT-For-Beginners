@@ -110,7 +110,7 @@ Cada punto en el polígono se define como un par de longitud y latitud en un arr
 
 El arreglo de coordenadas del polígono siempre tiene 1 entrada más que el número de puntos en el polígono, siendo la última entrada igual a la primera, cerrando el polígono. Por ejemplo, para un rectángulo habría 5 puntos.
 
-![Un rectángulo con coordenadas](../../../../../translated_images/polygon-points.302193da381cb415f46c2c7a98496ee4be05d6c73d21238a89721ad93e121233.es.png)
+![Un rectángulo con coordenadas](../../../../../translated_images/polygon-points.302193da381cb415.es.png)
 
 En la imagen de arriba, hay un rectángulo. Las coordenadas del polígono comienzan en la esquina superior izquierda en 47,-122, luego se mueven hacia la derecha a 47,-121, luego hacia abajo a 46,-121, luego hacia la izquierda a 46,-122, y finalmente de vuelta al punto inicial en 47,-122. Esto da al polígono 5 puntos: superior izquierda, superior derecha, inferior derecha, inferior izquierda y nuevamente superior izquierda para cerrarlo.
 
@@ -208,7 +208,7 @@ Cuando realizas esta solicitud, también puedes pasar un valor llamado `searchBu
 
 Cuando se devuelven los resultados de la llamada a la API, una de las partes del resultado es una `distance` medida al punto más cercano en el borde de la geocerca, con un valor positivo si el punto está fuera de la geocerca y negativo si está dentro de la geocerca. Si esta distancia es menor que el search buffer, se devuelve la distancia real en metros; de lo contrario, el valor es 999 o -999. 999 significa que el punto está fuera de la geocerca por más del search buffer, -999 significa que está dentro de la geocerca por más del search buffer.
 
-![Una geocerca con un search buffer de 50m alrededor](../../../../../translated_images/search-buffer-and-distance.e6a79af3898183c7b2ef6fbf12271b8b34afd23969bb946962b1b18d3d2635e8.es.png)
+![Una geocerca con un search buffer de 50m alrededor](../../../../../translated_images/search-buffer-and-distance.e6a79af3898183c7.es.png)
 
 En la imagen de arriba, la geocerca tiene un search buffer de 50m.
 

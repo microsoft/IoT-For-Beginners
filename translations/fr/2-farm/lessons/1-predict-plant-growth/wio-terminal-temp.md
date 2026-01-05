@@ -33,7 +33,7 @@ Connectez le capteur de température.
 
 1. Avec le Wio Terminal déconnecté de votre ordinateur ou de toute autre source d'alimentation, connectez l'autre extrémité du câble Grove à la prise Grove située à droite sur le Wio Terminal, lorsque vous regardez l'écran. C'est la prise la plus éloignée du bouton d'alimentation.
 
-![Le capteur de température Grove connecté à la prise de droite](../../../../../translated_images/wio-temperature-sensor.2934928f38c7f79a68d24879d2c8986c78244696f931e2e33c293f426ecdc0ad.fr.png)
+![Le capteur de température Grove connecté à la prise de droite](../../../../../translated_images/wio-temperature-sensor.2934928f38c7f79a.fr.png)
 
 ## Programmer le capteur de température
 

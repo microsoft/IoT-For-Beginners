@@ -72,7 +72,7 @@ IoT-устройство взаимодействовало с публичны�
 
 Azure — это облако для разработчиков от Microsoft, и именно его вы будете использовать в этих уроках. Видео ниже дает краткий обзор Azure:
 
-[![Видеообзор Azure](../../../../../translated_images/what-is-azure-video-thumbnail.20174db09e03bbb87d213f928d3cb27410305d2e567e952827de8478dbda959b.ru.png)](https://www.microsoft.com/videoplayer/embed/RE4Ibng?WT.mc_id=academic-17441-jabenn)
+[![Видеообзор Azure](../../../../../translated_images/what-is-azure-video-thumbnail.20174db09e03bbb8.ru.png)](https://www.microsoft.com/videoplayer/embed/RE4Ibng?WT.mc_id=academic-17441-jabenn)
 
 ## Создание облачной подписки
 

@@ -31,7 +31,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 1. При выключенном питании Raspberry Pi подключите другой конец кабеля Grove к цифровому разъему, обозначенному как **D5**, на Grove Base Hat, подключенном к Pi. Этот разъем находится вторым слева в ряду разъемов рядом с GPIO-пинами.
 
-![Датчик температуры Grove, подключенный к разъему A0](../../../../../translated_images/pi-temperature-sensor.3ff82fff672c8e565ef25a39d26d111de006b825a7e0867227ef4e7fbff8553c.ru.png)
+![Датчик температуры Grove, подключенный к разъему A0](../../../../../translated_images/pi-temperature-sensor.3ff82fff672c8e56.ru.png)
 
 ## Программирование датчика температуры
 

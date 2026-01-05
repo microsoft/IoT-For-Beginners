@@ -64,7 +64,7 @@ Los micrófonos vienen en una variedad de tipos:
 
 * De cinta - Los micrófonos de cinta son similares a los dinámicos, excepto que tienen una cinta metálica en lugar de un diafragma. Esta cinta se mueve en un campo magnético generando una corriente eléctrica. Al igual que los micrófonos dinámicos, los de cinta no necesitan energía para funcionar.
 
-    ![Edmund Lowe, actor estadounidense, de pie frente a un micrófono de radio (etiquetado para la Red Azul de NBC), sosteniendo un guion, 1942](../../../../../translated_images/ribbon-mic.eacc8e092c7441caee6d7a81e2f40e1675bf36269848964c7c09c9a9acb05127.es.jpg)
+    ![Edmund Lowe, actor estadounidense, de pie frente a un micrófono de radio (etiquetado para la Red Azul de NBC), sosteniendo un guion, 1942](../../../../../translated_images/ribbon-mic.eacc8e092c7441ca.es.jpg)
 
 * Condensador - Los micrófonos de condensador tienen un diafragma metálico delgado y una placa trasera metálica fija. Se aplica electricidad a ambos, y a medida que el diafragma vibra, la carga estática entre las placas cambia generando una señal. Los micrófonos de condensador necesitan energía para funcionar, llamada *Phantom power*.
 
@@ -84,7 +84,7 @@ El audio es una señal analógica que transporta información muy detallada. Par
 
 > 🎓 Muestrear significa convertir la señal de audio en un valor digital que representa la señal en ese momento.
 
-![Un gráfico de líneas que muestra una señal, con puntos discretos en intervalos fijos](../../../../../translated_images/sampling.6f4fadb3f2d9dfe7618f9edfe75a350e6b3f74293ec84f02ab69c19d2afe3d73.es.png)
+![Un gráfico de líneas que muestra una señal, con puntos discretos en intervalos fijos](../../../../../translated_images/sampling.6f4fadb3f2d9dfe7.es.png)
 
 El audio digital se muestrea utilizando Modulación por Código de Pulsos, o PCM. PCM implica leer el voltaje de la señal y seleccionar el valor discreto más cercano a ese voltaje utilizando un tamaño definido.
 

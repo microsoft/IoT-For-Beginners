@@ -61,7 +61,7 @@ Las últimas evoluciones de estas máquinas de clasificación aprovechan la IA y
 
 La programación tradicional consiste en tomar datos, aplicar un algoritmo a los datos y obtener un resultado. Por ejemplo, en el último proyecto tomaste coordenadas GPS y una geocerca, aplicaste un algoritmo proporcionado por Azure Maps y obtuviste un resultado sobre si el punto estaba dentro o fuera de la geocerca. Introduces más datos, obtienes más resultados.
 
-![El desarrollo tradicional toma datos de entrada y un algoritmo y da un resultado. El aprendizaje automático usa datos de entrada y salida para entrenar un modelo, y este modelo puede tomar nuevos datos de entrada para generar nuevos resultados](../../../../../translated_images/traditional-vs-ml.5c20c169621fa539ca84a2cd9a49f6ff7410b3a6c6b46c97ff2af3f99db3c66b.es.png)
+![El desarrollo tradicional toma datos de entrada y un algoritmo y da un resultado. El aprendizaje automático usa datos de entrada y salida para entrenar un modelo, y este modelo puede tomar nuevos datos de entrada para generar nuevos resultados](../../../../../translated_images/traditional-vs-ml.5c20c169621fa539.es.png)
 
 El aprendizaje automático cambia esto: comienzas con datos y resultados conocidos, y el algoritmo de aprendizaje automático aprende de los datos. Luego puedes tomar ese algoritmo entrenado, llamado *modelo de aprendizaje automático* o *modelo*, e introducir nuevos datos para obtener nuevos resultados.
 
@@ -87,7 +87,7 @@ Para entrenar con éxito un clasificador de imágenes necesitas millones de imá
 
 Una vez que un clasificador de imágenes ha sido entrenado para una amplia variedad de imágenes, sus componentes internos son excelentes para reconocer formas, colores y patrones. El aprendizaje por transferencia permite que el modelo tome lo que ya ha aprendido al reconocer partes de imágenes y lo use para reconocer nuevas imágenes.
 
-![Una vez que puedes reconocer formas, pueden colocarse en diferentes configuraciones para formar un barco o un gato](../../../../../translated_images/shapes-to-images.1a309f0ea88dd66fafa4da6d38e88806ce174cc6a88081efb32852230ed55de8.es.png)
+![Una vez que puedes reconocer formas, pueden colocarse en diferentes configuraciones para formar un barco o un gato](../../../../../translated_images/shapes-to-images.1a309f0ea88dd66f.es.png)
 
 Puedes pensar en esto como los libros de formas para niños, donde una vez que puedes reconocer un semicírculo, un rectángulo y un triángulo, puedes reconocer un velero o un gato dependiendo de la configuración de estas formas. El clasificador de imágenes puede reconocer las formas, y el aprendizaje por transferencia le enseña qué combinación forma un barco o un gato, o un plátano maduro.
 
