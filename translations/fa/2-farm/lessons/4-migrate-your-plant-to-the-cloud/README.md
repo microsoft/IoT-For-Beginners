@@ -72,7 +72,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Azure ابر توسعه‌دهندگان مایکروسافت است و این همان ابری است که در این درس‌ها از آن استفاده خواهید کرد. ویدئوی زیر یک نمای کلی کوتاه از Azure ارائه می‌دهد:
 
-[![ویدئوی نمای کلی Azure](../../../../../translated_images/what-is-azure-video-thumbnail.20174db09e03bbb87d213f928d3cb27410305d2e567e952827de8478dbda959b.fa.png)](https://www.microsoft.com/videoplayer/embed/RE4Ibng?WT.mc_id=academic-17441-jabenn)
+[![ویدئوی نمای کلی Azure](../../../../../translated_images/what-is-azure-video-thumbnail.20174db09e03bbb8.fa.png)](https://www.microsoft.com/videoplayer/embed/RE4Ibng?WT.mc_id=academic-17441-jabenn)
 
 ## ایجاد اشتراک فضای ابری
 

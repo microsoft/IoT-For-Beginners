@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 [ویو ترمینال از Seeed Studios](https://www.seeedstudio.com/Wio-Terminal-p-4509.html) یک میکروکنترلر سازگار با آردوینو است که دارای WiFi، تعدادی حسگر و عملگر داخلی و همچنین پورت‌هایی برای افزودن حسگرها و عملگرهای بیشتر با استفاده از یک اکوسیستم سخت‌افزاری به نام [Grove](https://www.seeedstudio.com/category/Grove-c-1003.html) می‌باشد.
 
-![یک ویو ترمینال از Seeed Studios](../../../../../translated_images/wio-terminal.b8299ee16587db9aa9e05fabf9721bccd9eb8fb541b7c1a8267241282d81b603.fa.png)
+![یک ویو ترمینال از Seeed Studios](../../../../../translated_images/wio-terminal.b8299ee16587db9a.fa.png)
 
 ## راه‌اندازی
 
@@ -51,15 +51,15 @@ CO_OP_TRANSLATOR_METADATA:
 
 1. آیکون PlatformIO در نوار منوی کناری قرار دارد:
 
-    ![گزینه منوی Platform IO](../../../../../translated_images/vscode-platformio-menu.297be26b9733e5c4635d9d8e636e93fed2015809eafb7cc8fd409c37b3ef2ef5.fa.png)
+    ![گزینه منوی Platform IO](../../../../../translated_images/vscode-platformio-menu.297be26b9733e5c4.fa.png)
 
     این گزینه را انتخاب کنید، سپس *PIO Home -> Open* را انتخاب کنید.
 
-    ![گزینه باز کردن Platform IO](../../../../../translated_images/vscode-platformio-home-open.3f9a41bfd3f4da1c866ec3e69f1675faa30b823b5b58ab58ac88e5df9a85da19.fa.png)
+    ![گزینه باز کردن Platform IO](../../../../../translated_images/vscode-platformio-home-open.3f9a41bfd3f4da1c.fa.png)
 
 1. از صفحه خوش‌آمدگویی، دکمه **+ New Project** را انتخاب کنید.
 
-    ![دکمه پروژه جدید](../../../../../translated_images/vscode-platformio-welcome-new-button.ba6fc8a4c7b78cc822e1ce47ba29c5db96668cce7c5f4adbfd2f1196422baa26.fa.png)
+    ![دکمه پروژه جدید](../../../../../translated_images/vscode-platformio-welcome-new-button.ba6fc8a4c7b78cc8.fa.png)
 
 1. پروژه را در *Project Wizard* پیکربندی کنید:
 
@@ -73,7 +73,7 @@ CO_OP_TRANSLATOR_METADATA:
 
     1. دکمه **Finish** را انتخاب کنید.
 
-    ![وارد کردن اطلاعات در Project Wizard](../../../../../translated_images/vscode-platformio-nightlight-project-wizard.5c64db4da6037420827c2597507897233457210ee23975711fa2285efdcd0dc7.fa.png)
+    ![وارد کردن اطلاعات در Project Wizard](../../../../../translated_images/vscode-platformio-nightlight-project-wizard.5c64db4da6037420.fa.png)
 
     PlatformIO اجزای موردنیاز برای کامپایل کد برای ویو ترمینال را دانلود کرده و پروژه شما را ایجاد می‌کند. این فرآیند ممکن است چند دقیقه طول بکشد.
 
@@ -179,7 +179,7 @@ CO_OP_TRANSLATOR_METADATA:
 
     1. عبارت `PlatformIO Upload` را تایپ کنید تا گزینه آپلود جستجو شود و *PlatformIO: Upload* را انتخاب کنید.
 
-        ![گزینه آپلود PlatformIO در پالت دستورات](../../../../../translated_images/vscode-platformio-upload-command-palette.9e0f49cf80d1f1c3eb5c6689b8705ad8b89f0374b21698e996fec11e4ed09347.fa.png)
+        ![گزینه آپلود PlatformIO در پالت دستورات](../../../../../translated_images/vscode-platformio-upload-command-palette.9e0f49cf80d1f1c3.fa.png)
 
         PlatformIO در صورت نیاز کد را به‌طور خودکار قبل از آپلود کامپایل می‌کند.
 
@@ -195,7 +195,7 @@ PlatformIO دارای یک مانیتور سریال است که می‌توان
 
 1. عبارت `PlatformIO Serial` را تایپ کنید تا گزینه مانیتور سریال جستجو شود و *PlatformIO: Serial Monitor* را انتخاب کنید.
 
-    ![گزینه مانیتور سریال PlatformIO در پالت دستورات](../../../../../translated_images/vscode-platformio-serial-monitor-command-palette.b348ec841b8a1c14af503d6fc0bf73c657c79c9acc12a6b6dd485ce3b5826f48.fa.png)
+    ![گزینه مانیتور سریال PlatformIO در پالت دستورات](../../../../../translated_images/vscode-platformio-serial-monitor-command-palette.b348ec841b8a1c14.fa.png)
 
     یک ترمینال جدید باز می‌شود و داده‌های ارسال‌شده از طریق پورت سریال به این ترمینال جریان می‌یابد:
 

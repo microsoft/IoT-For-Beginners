@@ -154,11 +154,11 @@ CO_OP_TRANSLATOR_METADATA:
 
 1. وقتی VS Code راه‌اندازی شد، محیط مجازی پایتون را فعال می‌کند. محیط مجازی انتخاب شده در نوار وضعیت پایین ظاهر خواهد شد:
 
-    ![VS Code showing the selected virtual environment](../../../../../translated_images/vscode-virtual-env.8ba42e04c3d533cf677e16cbe5ed9a3b80f62c6964472dc84b6f940800f0909f.fa.png)
+    ![VS Code showing the selected virtual environment](../../../../../translated_images/vscode-virtual-env.8ba42e04c3d533cf.fa.png)
 
 1. اگر ترمینال VS Code هنگام راه‌اندازی VS Code در حال اجرا باشد، محیط مجازی در آن فعال نخواهد بود. ساده‌ترین کار این است که ترمینال را با استفاده از دکمه **Kill the active terminal instance** ببندید:
 
-    ![VS Code Kill the active terminal instance button](../../../../../translated_images/vscode-kill-terminal.1cc4de7c6f25ee08f423f0ead714e61d069fac1eb2089e97b8a7bbcb3d45fe5e.fa.png)
+    ![VS Code Kill the active terminal instance button](../../../../../translated_images/vscode-kill-terminal.1cc4de7c6f25ee08.fa.png)
 
     می‌توانید تشخیص دهید که آیا ترمینال محیط مجازی را فعال کرده است یا نه، زیرا نام محیط مجازی به عنوان پیشوند روی اعلان ترمینال ظاهر می‌شود. برای مثال، ممکن است:
 
@@ -229,7 +229,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 1. باید یک ترمینال جدید در VS Code راه‌اندازی کنید با انتخاب دکمه **Create a new integrated terminal**. این به این دلیل است که اپلیکیشن CounterFit در ترمینال فعلی در حال اجرا است.
 
-    ![VS Code Create a new integrated terminal button](../../../../../translated_images/vscode-new-terminal.77db8fc0f9cd31824b0e49a201beafe4ae4616d6c7339992cb2819e789b3eff9.fa.png)
+    ![VS Code Create a new integrated terminal button](../../../../../translated_images/vscode-new-terminal.77db8fc0f9cd3182.fa.png)
 
 1. در این ترمینال جدید، فایل `app.py` را همانند قبل اجرا کنید. وضعیت CounterFit به **Connected** تغییر خواهد کرد و LED روشن خواهد شد.
 
