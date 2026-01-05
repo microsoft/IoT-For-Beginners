@@ -126,7 +126,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 然後告訴 LUIS 這些句子的哪些部分對應於實體：
 
-![句子「設置一個計時器，時間為1分12秒」分解為實體](../../../../../translated_images/sentence-as-intent-entities.301401696f9922590a99343f5c5d211b710b906f212f0d4d034cee3ffb610272.tw.png)
+![句子「設置一個計時器，時間為1分12秒」分解為實體](../../../../../translated_images/sentence-as-intent-entities.301401696f992259.tw.png)
 
 句子 `設置一個計時器，時間為1分12秒` 的意圖是 `設置計時器`。它還有兩個實體，每個實體有兩個值：
 

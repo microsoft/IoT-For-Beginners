@@ -46,7 +46,7 @@ IoT 设备可以接收来自云的消息。这些消息通常包含命令——�
 
 IoT 设备与互联网通信时有许多流行的通信协议。最流行的协议基于通过某种代理进行发布/订阅消息传递。IoT 设备连接到代理并发布遥测数据，同时订阅命令。云服务也连接到代理，订阅所有遥测消息，并发布命令给特定设备或设备组。
 
-![IoT 设备连接到代理并发布遥测数据，同时订阅命令。云服务连接到代理，订阅所有遥测数据，并向特定设备发送命令。](../../../../../translated_images/pub-sub.7c7ed43fe9fd15d4e1f81a3fd95440413c457acd9bcbe9a43341e30e88db5264.zh.png)
+![IoT 设备连接到代理并发布遥测数据，同时订阅命令。云服务连接到代理，订阅所有遥测数据，并向特定设备发送命令。](../../../../../translated_images/pub-sub.7c7ed43fe9fd15d4.zh.png)
 
 MQTT 是 IoT 设备最流行的通信协议之一，本课将重点介绍它。其他协议包括 AMQP 和 HTTP/HTTPS。
 
@@ -115,7 +115,7 @@ MQTT 连接可以是公开和开放的，也可以通过用户名和密码或证
 
 让我们回顾一下第 1 课中的智能恒温器示例。
 
-![一个使用多个房间传感器的互联网连接恒温器](../../../../../translated_images/telemetry.21e5d8b97649d2ebeb0f68d4b9691ab2d1f7bd629338e131465aff8a614e4d4a.zh.png)
+![一个使用多个房间传感器的互联网连接恒温器](../../../../../translated_images/telemetry.21e5d8b97649d2eb.zh.png)
 
 恒温器有温度传感器用于收集遥测数据。它可能内置一个温度传感器，并可能通过无线协议（如 [蓝牙低功耗](https://wikipedia.org/wiki/Bluetooth_Low_Energy)）连接到多个外部温度传感器。
 
@@ -267,11 +267,11 @@ Python 的一个强大功能是可以安装 [pip 包](https://pypi.org)——这
 
 1. 当 VS Code 启动时，它会激活 Python 虚拟环境。这将在底部状态栏中显示：
 
-    ![VS Code 显示选定的虚拟环境](../../../../../translated_images/vscode-virtual-env.8ba42e04c3d533cf677e16cbe5ed9a3b80f62c6964472dc84b6f940800f0909f.zh.png)
+    ![VS Code 显示选定的虚拟环境](../../../../../translated_images/vscode-virtual-env.8ba42e04c3d533cf.zh.png)
 
 1. 如果 VS Code 启动时终端已经运行，它不会在终端中激活虚拟环境。最简单的方法是使用 **终止活动终端实例** 按钮关闭终端：
 
-    ![VS Code 终止活动终端实例按钮](../../../../../translated_images/vscode-kill-terminal.1cc4de7c6f25ee08f423f0ead714e61d069fac1eb2089e97b8a7bbcb3d45fe5e.zh.png)
+    ![VS Code 终止活动终端实例按钮](../../../../../translated_images/vscode-kill-terminal.1cc4de7c6f25ee08.zh.png)
 
 1. 通过选择 *终端 -> 新终端* 或按 `` CTRL+` `` 启动一个新的 VS Code 终端。新终端将加载虚拟环境，激活命令会显示在终端中。虚拟环境的名称（`.venv`）也会显示在提示符中：
 

@@ -39,7 +39,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 例如，如果摄像头对准一个可以放置8罐番茄酱的货架，而对象检测器只检测到7罐，那么说明少了一罐，需要补货。
 
-![货架上有7罐番茄酱，顶部4罐，底部3罐](../../../../../translated_images/stock-7-cans-tomato-paste.f86059cc573d7becaa89a0eafb9d2cd7e2fe37405a530fe565990e2333d0e4a1.zh.png)
+![货架上有7罐番茄酱，顶部4罐，底部3罐](../../../../../translated_images/stock-7-cans-tomato-paste.f86059cc573d7bec.zh.png)
 
 在上图中，对象检测器检测到货架上有7罐番茄酱，而货架最多可以放置8罐。物联网设备不仅可以发送需要补货的通知，还可以提供缺失物品的位置，这对于使用机器人补货的场景尤为重要。
 
@@ -51,7 +51,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 对象检测可以用来检测意外的物品，并提醒人类或机器人尽快将其归位。
 
-![番茄酱货架上的一罐婴儿玉米](../../../../../translated_images/stock-rogue-corn.be1f3ada8c4578544641af66671c1711a4c02297f14cc7f503354dae0d30a954.zh.png)
+![番茄酱货架上的一罐婴儿玉米](../../../../../translated_images/stock-rogue-corn.be1f3ada8c457854.zh.png)
 
 在上图中，一罐婴儿玉米被放在了番茄酱货架上。对象检测器检测到了这一情况，使物联网设备能够通知人类或机器人将这罐玉米归还到正确的位置。
 

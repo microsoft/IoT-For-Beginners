@@ -37,7 +37,7 @@ Grove 土壤湿度传感器可以连接到树莓派。
 
 1. 将土壤湿度传感器插入土壤中。传感器上有一条“最高位置线”——一条横跨传感器的白线。将传感器插入到这条线以下，但不要超过这条线。
 
-![插入土壤中的 Grove 土壤湿度传感器](../../../../../translated_images/soil-moisture-sensor-in-soil.bfad91002bda5e960f8c51ee64b02ee59b32c8c717e3515a2c945f33e614e403.zh.png)
+![插入土壤中的 Grove 土壤湿度传感器](../../../../../translated_images/soil-moisture-sensor-in-soil.bfad91002bda5e96.zh.png)
 
 ## 编程土壤湿度传感器
 

@@ -33,7 +33,7 @@ Grove GPS 传感器可以连接到 Wio Terminal。
 
 1. 在 Wio Terminal 未连接到计算机或其他电源的情况下，将 Grove 电缆的另一端连接到 Wio Terminal 屏幕左侧的 Grove 插座。这是靠近电源按钮的插座。
 
-    ![Grove GPS 传感器连接到左侧插座](../../../../../translated_images/wio-gps-sensor.19fd52b81ce58095d5deb3d4e5a1fdd88818d76569b00b1f0d740c92dc986525.zh.png)
+    ![Grove GPS 传感器连接到左侧插座](../../../../../translated_images/wio-gps-sensor.19fd52b81ce58095.zh.png)
 
 1. 将 GPS 传感器放置在附带天线可以看到天空的位置——理想情况下靠近窗户或在室外。天线周围没有障碍物时，更容易获得清晰的信号。
 

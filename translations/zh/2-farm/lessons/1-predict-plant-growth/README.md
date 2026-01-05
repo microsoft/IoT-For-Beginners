@@ -65,7 +65,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 ✅ 做一些研究。对于您花园、学校或当地公园中的植物，看看是否能找到它们的基础温度。
 
-![一张显示植物生长率随温度升高而增加，然后在温度过高时下降的图表](../../../../../translated_images/plant-growth-temp-graph.c6d69c9478e6ca832baa8dcb8d4adcbb67304074ce50e94ac8faae95975177f9.zh.png)
+![一张显示植物生长率随温度升高而增加，然后在温度过高时下降的图表](../../../../../translated_images/plant-growth-temp-graph.c6d69c9478e6ca83.zh.png)
 
 上图显示了一个生长率与温度的示例图表。在基础温度以下没有生长。生长率在达到最佳温度之前逐渐增加，然后在达到峰值后下降。在最高温度时，生长停止。
 
@@ -141,7 +141,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 通过使用物联网设备收集温度数据，农民可以在植物接近成熟时自动收到通知。一个典型的架构是物联网设备测量温度，然后通过类似 MQTT 的方式将这些遥测数据发布到互联网。服务器代码监听这些数据并将其保存到某处，例如数据库。这意味着数据可以稍后进行分析，例如夜间作业计算当天的 GDD，总结每种作物到目前为止的 GDD，并在植物接近成熟时发出警报。
 
-![遥测数据发送到服务器并保存到数据库](../../../../../translated_images/save-telemetry-database.ddc9c6bea0c5ba39449966a463ca6748cd8e2d565dab44ff31c9f1d2f6c21d27.zh.png)
+![遥测数据发送到服务器并保存到数据库](../../../../../translated_images/save-telemetry-database.ddc9c6bea0c5ba39.zh.png)
 
 服务器代码还可以增强数据，例如添加额外信息。物联网设备可以发布一个标识符来指示设备的身份，服务器代码可以使用此标识符查找设备的位置以及它正在监测的作物。它还可以添加基本数据，例如当前时间，因为某些物联网设备没有必要的硬件来准确跟踪时间，或者需要额外的代码通过互联网读取当前时间。
 
@@ -228,7 +228,7 @@ CSV 文件将有两列——*日期* 和 *温度*。*日期* 列设置为服务�
 
     
 > 💁 如果您使用的是虚拟IoT设备，请勾选随机选项框并设置一个范围，以避免每次返回的温度值都相同。
-    ![勾选随机选项框并设置范围](../../../../../translated_images/select-the-random-checkbox-and-set-a-range.32cf4bc7c12e797f8c76616b10c7c23a6592321bb1a6310e0b481e72f97d23b3.zh.png) 
+    ![勾选随机选项框并设置范围](../../../../../translated_images/select-the-random-checkbox-and-set-a-range.32cf4bc7c12e797f.zh.png) 
 
     > 💁 如果您想运行一整天，那么您需要确保运行服务器代码的计算机不会进入睡眠状态，可以通过更改电源设置或运行类似[这个保持系统活跃的Python脚本](https://github.com/jaqsparow/keep-system-active)来实现。
     

@@ -154,11 +154,11 @@ Python ورچوئل ماحول کو کنفیگر کریں اور CounterFit کے
 
 1. جب VS Code لانچ ہوتا ہے، تو یہ Python ورچوئل ماحول کو ایکٹیویٹ کرے گا۔ منتخب ورچوئل ماحول نیچے اسٹیٹس بار میں ظاہر ہوگا:
 
-    ![VS Code منتخب ورچوئل ماحول دکھا رہا ہے](../../../../../translated_images/vscode-virtual-env.8ba42e04c3d533cf677e16cbe5ed9a3b80f62c6964472dc84b6f940800f0909f.ur.png)
+    ![VS Code منتخب ورچوئل ماحول دکھا رہا ہے](../../../../../translated_images/vscode-virtual-env.8ba42e04c3d533cf.ur.png)
 
 1. اگر VS Code ٹرمینل پہلے سے چل رہا ہے جب VS Code شروع ہوتا ہے، تو اس میں ورچوئل ماحول ایکٹیویٹ نہیں ہوگا۔ سب سے آسان کام یہ ہے کہ **Kill the active terminal instance** بٹن استعمال کرکے ٹرمینل کو ختم کریں:
 
-    ![VS Code Kill the active terminal instance بٹن](../../../../../translated_images/vscode-kill-terminal.1cc4de7c6f25ee08f423f0ead714e61d069fac1eb2089e97b8a7bbcb3d45fe5e.ur.png)
+    ![VS Code Kill the active terminal instance بٹن](../../../../../translated_images/vscode-kill-terminal.1cc4de7c6f25ee08.ur.png)
 
     آپ یہ بتا سکتے ہیں کہ آیا ٹرمینل میں ورچوئل ماحول ایکٹیویٹ ہے کیونکہ ٹرمینل پرامپٹ پر ورچوئل ماحول کا نام ایک پری فکس ہوگا۔ مثال کے طور پر، یہ ہو سکتا ہے:
 
@@ -229,7 +229,7 @@ Python ورچوئل ماحول کو کنفیگر کریں اور CounterFit کے
 
 1. آپ کو ایک نیا VS Code ٹرمینل لانچ کرنا ہوگا **Create a new integrated terminal** بٹن کو منتخب کرکے۔ اس کی وجہ یہ ہے کہ CounterFit ایپ موجودہ ٹرمینل میں چل رہی ہے۔
 
-    ![VS Code Create a new integrated terminal بٹن](../../../../../translated_images/vscode-new-terminal.77db8fc0f9cd31824b0e49a201beafe4ae4616d6c7339992cb2819e789b3eff9.ur.png)
+    ![VS Code Create a new integrated terminal بٹن](../../../../../translated_images/vscode-new-terminal.77db8fc0f9cd3182.ur.png)
 
 1. اس نئے ٹرمینل میں، پہلے کی طرح `app.py` فائل چلائیں۔ CounterFit کی اسٹیٹس **Connected** میں تبدیل ہو جائے گی اور ایل ای ڈی روشن ہو جائے گی۔
 

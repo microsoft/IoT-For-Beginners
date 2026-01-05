@@ -13,7 +13,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 ## 统计库存
 
-![4罐番茄酱，每罐周围都有边界框](../../../../../translated_images/rpi-stock-with-bounding-boxes.b5540e2ecb7cd49f1271828d3be412671d950e87625c5597ea97c90f11e01097.zh.jpg)
+![4罐番茄酱，每罐周围都有边界框](../../../../../translated_images/rpi-stock-with-bounding-boxes.b5540e2ecb7cd49f.zh.jpg)
 
 在上图中，边界框之间有一些小的重叠。如果这种重叠更大，那么边界框可能会指向同一个物体。为了正确统计物体数量，需要忽略那些有显著重叠的边界框。
 

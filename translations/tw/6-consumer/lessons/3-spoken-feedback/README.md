@@ -37,7 +37,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 顧名思義，文字轉語音是將文字轉換為包含語音的音頻的過程。其基本原理是將文字中的單詞分解為其組成的聲音（稱為音素），然後將這些聲音的音頻拼接在一起，這些音頻可以是預錄的，也可以是由人工智慧模型生成的。
 
-![典型文字轉語音系統的三個階段](../../../../../translated_images/tts-overview.193843cf3f5ee09f8b3371a9fdaeb0f116698a07ca69daaa77158da4800e5453.tw.png)
+![典型文字轉語音系統的三個階段](../../../../../translated_images/tts-overview.193843cf3f5ee09f.tw.png)
 
 文字轉語音系統通常有三個階段：
 

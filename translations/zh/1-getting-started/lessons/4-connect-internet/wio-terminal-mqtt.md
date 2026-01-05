@@ -64,7 +64,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 1. 在 `src` 文件夹中创建一个名为 `config.h` 的新文件。您可以通过选择 `src` 文件夹或其中的 `main.cpp` 文件，然后从资源管理器中选择 **新建文件** 按钮来完成此操作。此按钮仅在光标悬停在资源管理器上时显示。
 
-    ![新建文件按钮](../../../../../translated_images/vscode-new-file-button.182702340fe6723c8cbb4cfa1a9a9fb0d0a5227643b4e46b91ff67b07a39a92f.zh.png)
+    ![新建文件按钮](../../../../../translated_images/vscode-new-file-button.182702340fe6723c.zh.png)
 
 1. 在此文件中添加以下代码以定义 WiFi 凭据的常量：
 

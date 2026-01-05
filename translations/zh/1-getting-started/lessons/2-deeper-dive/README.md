@@ -41,7 +41,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 ### 设备
 
-![树莓派 4](../../../../../translated_images/raspberry-pi-4.fd4590d308c3d456db1327e86b395ddcd735513267aafd4879ea2785f7792eac.zh.jpg)
+![树莓派 4](../../../../../translated_images/raspberry-pi-4.fd4590d308c3d456.zh.jpg)
 
 物联网中的 **设备** 指的是能够与物理世界交互的设备。这些设备通常是小型、低成本的计算机，运行速度较低且功耗较低——例如，简单的微控制器，只有几千字节的内存（而不是 PC 的几千兆字节），运行速度只有几百兆赫兹（而不是 PC 的几千兆赫兹），但功耗极低，有时可以用电池运行数周、数月甚至数年。
 
@@ -67,7 +67,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 更智能的版本可以使用云中的 AI，结合其他物联网设备（如占用传感器）连接的其他传感器数据，以及天气和日历等数据，智能地设置温度。例如，它可以读取你的日历显示你正在度假时关闭加热，或者根据你使用的房间逐个关闭加热，并从数据中学习以变得越来越准确。
 
-![一个图示显示多个温度传感器和旋钮作为物联网设备的输入，物联网设备与云之间的双向通信，云与手机、日历和天气服务之间的双向通信，以及加热器作为物联网设备的输出](../../../../../translated_images/smarter-thermostat.a75855f15d2d9e63d5da9d7ba5847a987f6c9d98e96e770c203532275194e27d.zh.png)
+![一个图示显示多个温度传感器和旋钮作为物联网设备的输入，物联网设备与云之间的双向通信，云与手机、日历和天气服务之间的双向通信，以及加热器作为物联网设备的输出](../../../../../translated_images/smarter-thermostat.a75855f15d2d9e63.zh.png)
 
 ✅ 还有哪些数据可以帮助使联网恒温器变得更智能？
 
@@ -135,7 +135,7 @@ RAM 是程序运行时使用的内存，包含程序分配的变量和从外设�
 
 下图展示了192KB与8GB之间的相对大小差异——中心的小点代表192KB。
 
-![192KB与8GB的比较——8GB大约是192KB的40,000倍](../../../../../translated_images/ram-comparison.6beb73541b42ac6ffde64cdf79fc925a84b932ce7ebd4d41d5fd7afc1257a696.zh.png)
+![192KB与8GB的比较——8GB大约是192KB的40,000倍](../../../../../translated_images/ram-comparison.6beb73541b42ac6f.zh.png)
 
 程序存储空间也比PC小。一个典型的PC可能有500GB的硬盘用于存储程序，而微控制器可能只有几千字节或几兆字节（MB）的存储空间（1MB是1,000KB或1,000,000字节）。Wio Terminal有4MB的程序存储空间。
 
@@ -211,17 +211,17 @@ Arduino还有一个庞大的第三方库生态系统，允许你为Arduino项目
 
 ### 树莓派
 
-![树莓派标志](../../../../../translated_images/raspberry-pi-logo.4efaa16605cee05489d8fa53941e991b3757aa24c20a95abdcf8cfd761953596.zh.png)
+![树莓派标志](../../../../../translated_images/raspberry-pi-logo.4efaa16605cee054.zh.png)
 
 [树莓派基金会](https://www.raspberrypi.org)是一个来自英国的慈善机构，成立于2009年，旨在促进计算机科学的学习，特别是在学校层面。作为这一使命的一部分，他们开发了一种单板计算机，称为树莓派。目前树莓派有3种型号——全尺寸版本、更小的Pi Zero，以及可以嵌入最终IoT设备的计算模块。
 
-![树莓派4](../../../../../translated_images/raspberry-pi-4.fd4590d308c3d456db1327e86b395ddcd735513267aafd4879ea2785f7792eac.zh.jpg)
+![树莓派4](../../../../../translated_images/raspberry-pi-4.fd4590d308c3d456.zh.jpg)
 
 最新的全尺寸树莓派是树莓派4B。它拥有一个四核（4核）CPU，运行速度为1.5GHz，2GB、4GB或8GB的RAM，千兆以太网，WiFi，2个支持4K屏幕的HDMI端口，一个音频和复合视频输出端口，USB端口（2个USB 2.0，2个USB 3.0），40个GPIO引脚，一个用于树莓派摄像头模块的摄像头连接器，以及一个SD卡插槽。所有这些都集成在一个88mm x 58mm x 19.5mm的板上，并由一个3A的USB-C电源供电。起售价为35美元，比PC或Mac便宜得多。
 
 > 💁 还有一个Pi400一体机，带有内置键盘的Pi4。
 
-![树莓派Zero](../../../../../translated_images/raspberry-pi-zero.f7a4133e1e7d54bb3dbb32319b217a53c5b94871995a54647f2894b54206b8d8.zh.jpg)
+![树莓派Zero](../../../../../translated_images/raspberry-pi-zero.f7a4133e1e7d54bb.zh.jpg)
 
 Pi Zero更小，功耗更低。它拥有一个单核1GHz CPU，512MB的RAM，WiFi（在Zero W型号中），一个HDMI端口，一个micro-USB端口，40个GPIO引脚，一个用于树莓派摄像头模块的摄像头连接器，以及一个SD卡插槽。它的尺寸为65mm x 30mm x 5mm，功耗非常低。Zero售价为5美元，带WiFi的W版本售价为10美元。
 

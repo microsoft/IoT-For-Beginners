@@ -35,7 +35,7 @@ Grove 飛行時間感測器可以連接到 Wio Terminal。
 
 1. 在 Wio Terminal 未連接到電腦或其他電源的情況下，將 Grove 電纜的另一端連接到 Wio Terminal 左側的 Grove 插座（面向螢幕）。這是靠近電源按鈕的插座，該插座是數位和 I2C 的組合插座。
 
-![Grove 飛行時間感測器連接到左側插座](../../../../../translated_images/wio-time-of-flight-sensor.c4c182131d2ea73df67febd004dc0313d271013d016be9c47e7da4d77c6c20a8.tw.png)
+![Grove 飛行時間感測器連接到左側插座](../../../../../translated_images/wio-time-of-flight-sensor.c4c182131d2ea73d.tw.png)
 
 1. 現在可以將 Wio Terminal 連接到您的電腦。
 
@@ -101,7 +101,7 @@ Grove 飛行時間感測器可以連接到 Wio Terminal。
 
     測距儀位於感測器的背面，因此在測量距離時請確保使用正確的一側。
 
-    ![飛行時間感測器背面的測距儀指向一根香蕉](../../../../../translated_images/time-of-flight-banana.079921ad8b1496e4525dc26b4cdc71a076407aba3e72ba113ba2e38febae92c5.tw.png)
+    ![飛行時間感測器背面的測距儀指向一根香蕉](../../../../../translated_images/time-of-flight-banana.079921ad8b1496e4.tw.png)
 
 > 💁 您可以在 [code-proximity/wio-terminal](../../../../../4-manufacturing/lessons/4-trigger-fruit-detector/code-proximity/wio-terminal) 資料夾中找到此程式碼。
 

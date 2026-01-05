@@ -72,7 +72,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Azure مائیکروسافٹ کا ڈویلپر کلاؤڈ ہے، اور یہی کلاؤڈ آپ ان اسباق میں استعمال کریں گے۔ نیچے دی گئی ویڈیو Azure کا مختصر جائزہ پیش کرتی ہے:
 
-[![Azure ویڈیو کا جائزہ](../../../../../translated_images/what-is-azure-video-thumbnail.20174db09e03bbb87d213f928d3cb27410305d2e567e952827de8478dbda959b.ur.png)](https://www.microsoft.com/videoplayer/embed/RE4Ibng?WT.mc_id=academic-17441-jabenn)
+[![Azure ویڈیو کا جائزہ](../../../../../translated_images/what-is-azure-video-thumbnail.20174db09e03bbb8.ur.png)](https://www.microsoft.com/videoplayer/embed/RE4Ibng?WT.mc_id=academic-17441-jabenn)
 
 ## کلاؤڈ سبسکرپشن بنائیں
 

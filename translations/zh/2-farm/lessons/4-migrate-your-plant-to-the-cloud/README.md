@@ -72,7 +72,7 @@ IoT 设备通过公共 MQTT broker 进行通信，以演示原理，但这种方
 
 Azure 是微软的开发者云，也是你将在这些课程中使用的云服务。以下视频简要介绍了 Azure：
 
-[![Azure 概览视频](../../../../../translated_images/what-is-azure-video-thumbnail.20174db09e03bbb87d213f928d3cb27410305d2e567e952827de8478dbda959b.zh.png)](https://www.microsoft.com/videoplayer/embed/RE4Ibng?WT.mc_id=academic-17441-jabenn)
+[![Azure 概览视频](../../../../../translated_images/what-is-azure-video-thumbnail.20174db09e03bbb8.zh.png)](https://www.microsoft.com/videoplayer/embed/RE4Ibng?WT.mc_id=academic-17441-jabenn)
 
 ## 创建云订阅
 

@@ -41,7 +41,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 > 💁 如果您之前使用过数据库触发器，可以将其类比为代码因事件（如插入一行数据）而触发。
 
-![当许多事件同时发送时，无服务器服务会扩展以同时运行所有事件](../../../../../translated_images/serverless-scaling.f8c769adf0413fd17be1af4f07ff63016b347e2ff869be6c4abb211f9e93909d.zh.png)
+![当许多事件同时发送时，无服务器服务会扩展以同时运行所有事件](../../../../../translated_images/serverless-scaling.f8c769adf0413fd1.zh.png)
 
 您的代码仅在事件发生时运行，其他时间不会保持活动状态。事件发生时，代码会被加载并运行。这使得无服务器非常具有扩展性——如果许多事件同时发生，云提供商可以根据需要同时运行您的函数，利用其可用的服务器资源。缺点是，如果需要在事件之间共享信息，必须将其存储在数据库等地方，而不能存储在内存中。
 
@@ -244,7 +244,7 @@ Azure Functions CLI 可用于创建新的 Functions 应用程序。
     VS Code. Initialize for optimal use with VS Code?
     ```
 
-    ![通知](../../../../../translated_images/vscode-azure-functions-init-notification.bd19b49229963edb5311fb3a79445ea469424759d2917ee2f2eb6f92d65d5086.zh.png)
+    ![通知](../../../../../translated_images/vscode-azure-functions-init-notification.bd19b49229963edb.zh.png)
 
     在通知中选择 **Yes**。
 

@@ -154,11 +154,11 @@ Python 的一个强大功能是能够安装 [Pip 包](https://pypi.org)——这
 
 1. 当 VS Code 启动时，它将激活 Python 虚拟环境。选定的虚拟环境将显示在底部状态栏中：
 
-    ![VS Code 显示选定的虚拟环境](../../../../../translated_images/vscode-virtual-env.8ba42e04c3d533cf677e16cbe5ed9a3b80f62c6964472dc84b6f940800f0909f.zh.png)
+    ![VS Code 显示选定的虚拟环境](../../../../../translated_images/vscode-virtual-env.8ba42e04c3d533cf.zh.png)
 
 1. 如果 VS Code Terminal 在 VS Code 启动时已经运行，它将不会激活虚拟环境。最简单的方法是使用 **Kill the active terminal instance** 按钮关闭终端：
 
-    ![VS Code Kill the active terminal instance 按钮](../../../../../translated_images/vscode-kill-terminal.1cc4de7c6f25ee08f423f0ead714e61d069fac1eb2089e97b8a7bbcb3d45fe5e.zh.png)
+    ![VS Code Kill the active terminal instance 按钮](../../../../../translated_images/vscode-kill-terminal.1cc4de7c6f25ee08.zh.png)
 
     您可以通过终端提示的前缀来判断终端是否激活了虚拟环境。例如，它可能是：
 
@@ -229,7 +229,7 @@ Python 的一个强大功能是能够安装 [Pip 包](https://pypi.org)——这
 
 1. 您需要通过选择 **Create a new integrated terminal** 按钮启动一个新的 VS Code 终端。这是因为 CounterFit 应用程序正在当前终端中运行。
 
-    ![VS Code Create a new integrated terminal 按钮](../../../../../translated_images/vscode-new-terminal.77db8fc0f9cd31824b0e49a201beafe4ae4616d6c7339992cb2819e789b3eff9.zh.png)
+    ![VS Code Create a new integrated terminal 按钮](../../../../../translated_images/vscode-new-terminal.77db8fc0f9cd3182.zh.png)
 
 1. 在这个新终端中，像之前一样运行 `app.py` 文件。CounterFit 的状态将变为 **Connected**，LED 将亮起。
 

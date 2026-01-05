@@ -33,11 +33,11 @@ Grove soil moisture sensor کو Wio Terminal کے قابل ترتیب اینال
 
 1. Wio Terminal کو اپنے کمپیوٹر یا کسی اور پاور سپلائی سے منقطع کریں، اور Grove کیبل کے دوسرے سرے کو Wio Terminal کے دائیں جانب Grove ساکٹ سے جوڑیں جب آپ اسکرین کو دیکھ رہے ہوں۔ یہ پاور بٹن سے سب سے دور ساکٹ ہے۔
 
-![Grove soil moisture sensor دائیں ساکٹ سے جڑا ہوا](../../../../../translated_images/wio-soil-moisture-sensor.46919b61c3f6cb7497662251b29038ee0e57a4c8b9d071feb996c3b0d7f65aaf.ur.png)
+![Grove soil moisture sensor دائیں ساکٹ سے جڑا ہوا](../../../../../translated_images/wio-soil-moisture-sensor.46919b61c3f6cb74.ur.png)
 
 1. مٹی کی نمی کے سینسر کو مٹی میں ڈالیں۔ اس پر ایک 'سب سے اونچی پوزیشن لائن' ہے - سینسر کے پار ایک سفید لائن۔ سینسر کو اس لائن تک ڈالیں لیکن اس سے آگے نہ جائیں۔
 
-![Grove soil moisture sensor مٹی میں](../../../../../translated_images/soil-moisture-sensor-in-soil.bfad91002bda5e960f8c51ee64b02ee59b32c8c717e3515a2c945f33e614e403.ur.png)
+![Grove soil moisture sensor مٹی میں](../../../../../translated_images/soil-moisture-sensor-in-soil.bfad91002bda5e96.ur.png)
 
 1. اب آپ Wio Terminal کو اپنے کمپیوٹر سے جوڑ سکتے ہیں۔
 

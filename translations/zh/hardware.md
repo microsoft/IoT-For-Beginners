@@ -21,7 +21,7 @@ IoT中的**T**代表**Things**，指的是与周围环境交互的设备。每�
 
 ## 购买套件
 
-![Seeed Studios的标志](../../translated_images/seeed-logo.74732b6b482b6e8e8bdcc06f0541fc92b1dabf5e3e8f37afb91e04393a8cb977.zh.png)
+![Seeed Studios的标志](../../translated_images/seeed-logo.74732b6b482b6e8e.zh.png)
 
 Seeed Studios非常贴心地将所有硬件整理成易于购买的套件：
 
@@ -29,7 +29,7 @@ Seeed Studios非常贴心地将所有硬件整理成易于购买的套件：
 
 **[适用于初学者的IoT套件 - Seeed和Microsoft合作的Wio Terminal入门套件](https://www.seeedstudio.com/IoT-for-beginners-with-Seeed-and-Microsoft-Wio-Terminal-Starter-Kit-p-5006.html)**
 
-[![Wio Terminal硬件套件](../../translated_images/wio-hardware-kit.4c70c48b85e4283a1d73e248d87d49587c0cd077eeb69cb3eca803166f63c9a5.zh.png)](https://www.seeedstudio.com/IoT-for-beginners-with-Seeed-and-Microsoft-Wio-Terminal-Starter-Kit-p-5006.html)
+[![Wio Terminal硬件套件](../../translated_images/wio-hardware-kit.4c70c48b85e4283a.zh.png)](https://www.seeedstudio.com/IoT-for-beginners-with-Seeed-and-Microsoft-Wio-Terminal-Starter-Kit-p-5006.html)
 
 ### Raspberry Pi
 

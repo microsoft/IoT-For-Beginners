@@ -15,11 +15,11 @@ CO_OP_TRANSLATOR_METADATA:
 
 Wio Terminal میں پہلے سے ہی ایک مائیکروفون موجود ہے، جو تقریر کی شناخت کے لیے آڈیو ریکارڈ کرنے کے لیے استعمال کیا جا سکتا ہے۔
 
-![Wio Terminal پر موجود مائیکروفون](../../../../../translated_images/wio-mic.3f8c843dbe8ad917424037a93e3d25c62634add00a04dd8e091317b5a7a90088.ur.png)
+![Wio Terminal پر موجود مائیکروفون](../../../../../translated_images/wio-mic.3f8c843dbe8ad917.ur.png)
 
 اسپیکر شامل کرنے کے لیے، آپ [ReSpeaker 2-Mics Pi Hat](https://www.seeedstudio.com/ReSpeaker-2-Mics-Pi-HAT.html) استعمال کر سکتے ہیں۔ یہ ایک بیرونی بورڈ ہے جس میں 2 MEMS مائیکروفونز، اسپیکر کنیکٹر، اور ہیڈفون ساکٹ شامل ہیں۔
 
-![ReSpeaker 2-Mics Pi Hat](../../../../../translated_images/respeaker.f5d19d1c6b14ab1676d24ac2764e64fac5339046ae07be8b45ce07633d61b79b.ur.png)
+![ReSpeaker 2-Mics Pi Hat](../../../../../translated_images/respeaker.f5d19d1c6b14ab16.ur.png)
 
 آپ کو یا تو ہیڈفونز، 3.5mm جیک کے ساتھ اسپیکر، یا JST کنکشن کے ساتھ اسپیکر جیسے [Mono Enclosed Speaker - 2W 6 Ohm](https://www.seeedstudio.com/Mono-Enclosed-Speaker-2W-6-Ohm-p-2832.html) شامل کرنے کی ضرورت ہوگی۔
 
@@ -35,7 +35,7 @@ ReSpeaker 2-Mics Pi Hat کو جوڑنے کے لیے، آپ کو 40 پن-ٹو-پ�
 
     پنز کو اس طرح جوڑنا ہوگا:
 
-    ![پن ڈایاگرام](../../../../../translated_images/wio-respeaker-wiring-0.767f80aa6508103880d256cdf99ee7219e190db257c7261e4aec219759dc67b9.ur.png)
+    ![پن ڈایاگرام](../../../../../translated_images/wio-respeaker-wiring-0.767f80aa65081038.ur.png)
 
 1. ReSpeaker اور Wio Terminal کو GPIO ساکٹس کے ساتھ اوپر کی طرف اور بائیں جانب رکھیں۔
 
@@ -43,33 +43,33 @@ ReSpeaker 2-Mics Pi Hat کو جوڑنے کے لیے، آپ کو 40 پن-ٹو-پ�
 
 1. اس عمل کو بائیں جانب کے GPIO ساکٹس کے ساتھ نیچے تک دہرائیں۔ یقینی بنائیں کہ پنز مضبوطی سے جڑے ہوئے ہیں۔
 
-    ![ReSpeaker کے بائیں جانب کے پنز Wio Terminal کے بائیں جانب کے پنز کے ساتھ جڑے ہوئے](../../../../../translated_images/wio-respeaker-wiring-1.8d894727f2ba24004824ee5e06b83b6d10952550003a3efb603182121521b0ef.ur.png)
+    ![ReSpeaker کے بائیں جانب کے پنز Wio Terminal کے بائیں جانب کے پنز کے ساتھ جڑے ہوئے](../../../../../translated_images/wio-respeaker-wiring-1.8d894727f2ba2400.ur.png)
 
-    ![ReSpeaker کے بائیں جانب کے پنز Wio Terminal کے بائیں جانب کے پنز کے ساتھ جڑے ہوئے](../../../../../translated_images/wio-respeaker-wiring-2.329e1cbd306e754f8ffe56f9294794f4a8fa123860d76067a79e9ea385d1bf56.ur.png)
+    ![ReSpeaker کے بائیں جانب کے پنز Wio Terminal کے بائیں جانب کے پنز کے ساتھ جڑے ہوئے](../../../../../translated_images/wio-respeaker-wiring-2.329e1cbd306e754f.ur.png)
 
     > 💁 اگر آپ کے جمپر کیبلز ربنز میں جڑے ہوئے ہیں، تو انہیں ایک ساتھ رکھیں - اس سے یہ یقینی بنانا آسان ہو جاتا ہے کہ تمام کیبلز ترتیب میں جڑے ہوئے ہیں۔
 
 1. اس عمل کو ReSpeaker اور Wio Terminal کے دائیں جانب کے GPIO ساکٹس کے ساتھ دہرائیں۔ یہ کیبلز پہلے سے موجود کیبلز کے ارد گرد جائیں گی۔
 
-    ![ReSpeaker کے دائیں جانب کے پنز Wio Terminal کے دائیں جانب کے پنز کے ساتھ جڑے ہوئے](../../../../../translated_images/wio-respeaker-wiring-3.75b0be447e2fa9307a6a954f9ae8a71b77e39ada6a5ef1a059d341dc850fd90c.ur.png)
+    ![ReSpeaker کے دائیں جانب کے پنز Wio Terminal کے دائیں جانب کے پنز کے ساتھ جڑے ہوئے](../../../../../translated_images/wio-respeaker-wiring-3.75b0be447e2fa930.ur.png)
 
-    ![ReSpeaker کے دائیں جانب کے پنز Wio Terminal کے دائیں جانب کے پنز کے ساتھ جڑے ہوئے](../../../../../translated_images/wio-respeaker-wiring-4.aa9cd434d8779437de720cba2719d83992413caed1b620b6148f6c8924889afb.ur.png)
+    ![ReSpeaker کے دائیں جانب کے پنز Wio Terminal کے دائیں جانب کے پنز کے ساتھ جڑے ہوئے](../../../../../translated_images/wio-respeaker-wiring-4.aa9cd434d8779437.ur.png)
 
     > 💁 اگر آپ کے جمپر کیبلز ربنز میں جڑے ہوئے ہیں، تو انہیں دو ربنز میں تقسیم کریں۔ ایک کو موجودہ کیبلز کے ہر طرف سے گزاریں۔
 
     > 💁 آپ پنز کو بلاک میں رکھنے کے لیے چپکنے والی ٹیپ استعمال کر سکتے ہیں تاکہ انہیں جوڑتے وقت کوئی باہر نہ نکلے۔
     >
-    > ![پنز کو ٹیپ کے ذریعے بلاک میں فکس کیا گیا](../../../../../translated_images/wio-respeaker-wiring-5.af117c20acf622f3cd656ccd8f4053f8845d6aaa3af164d24cb7dbd54a4bb470.ur.png)
+    > ![پنز کو ٹیپ کے ذریعے بلاک میں فکس کیا گیا](../../../../../translated_images/wio-respeaker-wiring-5.af117c20acf622f3.ur.png)
 
 1. آپ کو اسپیکر شامل کرنے کی ضرورت ہوگی۔
 
     * اگر آپ JST کیبل کے ساتھ اسپیکر استعمال کر رہے ہیں، تو اسے ReSpeaker کے JST پورٹ سے جوڑیں۔
 
-      ![JST کیبل کے ذریعے ReSpeaker سے جڑا اسپیکر](../../../../../translated_images/respeaker-jst-speaker.a441d177809df9458041a2012dd336dbb22c00a5c9642647109d2940a50d6fcc.ur.png)
+      ![JST کیبل کے ذریعے ReSpeaker سے جڑا اسپیکر](../../../../../translated_images/respeaker-jst-speaker.a441d177809df945.ur.png)
 
     * اگر آپ 3.5mm جیک کے ساتھ اسپیکر یا ہیڈفونز استعمال کر رہے ہیں، تو انہیں 3.5mm جیک ساکٹ میں داخل کریں۔
 
-      ![3.5mm جیک ساکٹ کے ذریعے ReSpeaker سے جڑا اسپیکر](../../../../../translated_images/respeaker-35mm-speaker.ad79ef4f128c7751f0abf854869b6b779c90c12ae3e48909944a7e48aeee3c7e.ur.png)
+      ![3.5mm جیک ساکٹ کے ذریعے ReSpeaker سے جڑا اسپیکر](../../../../../translated_images/respeaker-35mm-speaker.ad79ef4f128c7751.ur.png)
 
 ### کام - SD کارڈ کو ترتیب دیں
 
@@ -79,7 +79,7 @@ ReSpeaker 2-Mics Pi Hat کو جوڑنے کے لیے، آپ کو 40 پن-ٹو-پ�
 
 1. SD کارڈ کو Wio Terminal کے بائیں جانب SD کارڈ سلاٹ میں داخل کریں، جو پاور بٹن کے نیچے ہے۔ یقینی بنائیں کہ کارڈ مکمل طور پر اندر ہے اور کلک کرتا ہے - آپ کو اسے مکمل طور پر اندر دھکیلنے کے لیے پتلے ٹول یا دوسرے SD کارڈ کی ضرورت ہو سکتی ہے۔
 
-    ![SD کارڈ کو پاور سوئچ کے نیچے SD کارڈ سلاٹ میں داخل کرنا](../../../../../translated_images/wio-sd-card.acdcbe322fa4ee7f8f9c8cc015b3263964bb26ab5c7e25b41747988cc5280d64.ur.png)
+    ![SD کارڈ کو پاور سوئچ کے نیچے SD کارڈ سلاٹ میں داخل کرنا](../../../../../translated_images/wio-sd-card.acdcbe322fa4ee7f.ur.png)
 
     > 💁 SD کارڈ کو نکالنے کے لیے، آپ کو اسے تھوڑا سا اندر دھکیلنا ہوگا اور یہ باہر نکل جائے گا۔ آپ کو ایسا کرنے کے لیے پتلے ٹول کی ضرورت ہوگی جیسے فلیٹ ہیڈ سکریو ڈرایور یا دوسرا SD کارڈ۔
 

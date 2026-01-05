@@ -66,7 +66,7 @@ IoT 数据通常被认为是非结构化数据。
 
 最早的数据库是关系型数据库管理系统（RDBMS），也称为关系型数据库。这些数据库也被称为 SQL 数据库，因为它们使用结构化查询语言（SQL）来添加、删除、更新或查询数据。这些数据库由一个模式组成——一组定义良好的数据表，类似于电子表格。每个表有多个命名列。当你插入数据时，你会向表中添加一行，将值放入每列中。这种方式使数据保持非常严格的结构——尽管你可以留空某些列，但如果你想添加新列，则必须在数据库中执行此操作，并为现有行填充值。这些数据库是关系型的——一个表可以与另一个表有关系。
 
-![一个关系型数据库，其中用户表的 ID 与购买表的用户 ID 列相关联，产品表的 ID 与购买表的产品 ID 相关联](../../../../../translated_images/sql-database.be160f12bfccefd3ca718a66468c2c4c89c53e5aad4c295324d576da87f9dfdd.zh.png)
+![一个关系型数据库，其中用户表的 ID 与购买表的用户 ID 列相关联，产品表的 ID 与购买表的产品 ID 相关联](../../../../../translated_images/sql-database.be160f12bfccefd3.zh.png)
 
 例如，如果你在一个表中存储用户的个人详细信息，你会为每个用户分配某种内部唯一 ID，该 ID 用于包含用户姓名和地址的表中的一行。如果你想在另一个表中存储该用户的其他详细信息，例如他们的购买记录，你会在新表中为该用户的 ID 添加一列。当你查找用户时，可以使用他们的 ID 从一个表中获取他们的个人详细信息，从另一个表中获取他们的购买记录。
 
@@ -241,7 +241,7 @@ Azure 存储账户是一种通用存储服务，可以以多种方式存储数�
 
 在本课中，你将使用 Python SDK 来了解如何与 Blob 存储交互。
 
-![将 GPS 遥测数据从 IoT 设备发送到 IoT Hub，再通过事件触发器发送到 Azure Functions，最后保存到 Blob 存储](../../../../../translated_images/save-telemetry-to-storage-from-functions.ed3b1820980097f143d9f0570072da11304c2bc7906359dfa075b4d9b253c20f.zh.png)
+![将 GPS 遥测数据从 IoT 设备发送到 IoT Hub，再通过事件触发器发送到 Azure Functions，最后保存到 Blob 存储](../../../../../translated_images/save-telemetry-to-storage-from-functions.ed3b1820980097f1.zh.png)
 
 数据将以以下格式保存为 JSON Blob：
 
