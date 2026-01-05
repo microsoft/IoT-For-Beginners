@@ -64,7 +64,7 @@ Microphones come in various types:
 
 * Ribbon - Ribbon microphones are similar to dynamic microphones but use a metal ribbon instead of a diaphragm. The ribbon moves within a magnetic field, generating an electrical current. Like dynamic microphones, ribbon microphones don't need external power.
 
-    ![Edmund Lowe, American actor, standing at radio microphone (labeled for (NBC) Blue Network), holding script, 1942](../../../../../translated_images/ribbon-mic.eacc8e092c7441caee6d7a81e2f40e1675bf36269848964c7c09c9a9acb05127.en.jpg)
+    ![Edmund Lowe, American actor, standing at radio microphone (labeled for (NBC) Blue Network), holding script, 1942](../../../../../translated_images/ribbon-mic.eacc8e092c7441ca.en.jpg)
 
 * Condenser - Condenser microphones feature a thin metal diaphragm and a fixed metal backplate. Electricity is applied to both components, and as the diaphragm vibrates, the static charge between the plates changes, creating a signal. Condenser microphones require external power, known as *Phantom power*.
 
@@ -84,7 +84,7 @@ Audio is an analog signal that carries highly detailed information. To convert t
 
 > 🎓 Sampling involves converting the audio signal into a digital value that represents the signal at a specific moment in time.
 
-![A line chart showing a signal, with discrete points at fixed intervals](../../../../../translated_images/sampling.6f4fadb3f2d9dfe7618f9edfe75a350e6b3f74293ec84f02ab69c19d2afe3d73.en.png)
+![A line chart showing a signal, with discrete points at fixed intervals](../../../../../translated_images/sampling.6f4fadb3f2d9dfe7.en.png)
 
 Digital audio is sampled using Pulse Code Modulation (PCM). PCM reads the voltage of the signal and selects the closest discrete value to that voltage based on a defined size.
 

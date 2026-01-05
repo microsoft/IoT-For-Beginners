@@ -41,7 +41,7 @@ Sin servidor, o computación sin servidor, implica crear pequeños bloques de c�
 
 > 💁 Si has usado disparadores de bases de datos antes, puedes pensar en esto como algo similar: código que se activa por un evento como insertar una fila.
 
-![Cuando se envían muchos eventos al mismo tiempo, el servicio sin servidor escala para ejecutarlos todos simultáneamente](../../../../../translated_images/serverless-scaling.f8c769adf0413fd17be1af4f07ff63016b347e2ff869be6c4abb211f9e93909d.es.png)
+![Cuando se envían muchos eventos al mismo tiempo, el servicio sin servidor escala para ejecutarlos todos simultáneamente](../../../../../translated_images/serverless-scaling.f8c769adf0413fd1.es.png)
 
 Tu código solo se ejecuta cuando ocurre el evento; no hay nada manteniendo tu código activo en otros momentos. El evento ocurre, tu código se carga y se ejecuta. Esto hace que el modelo sin servidor sea muy escalable: si muchos eventos ocurren al mismo tiempo, el proveedor de la nube puede ejecutar tu función tantas veces como sea necesario simultáneamente en los servidores disponibles. La desventaja de esto es que si necesitas compartir información entre eventos, debes guardarla en algún lugar como una base de datos en lugar de almacenarla en memoria.
 
@@ -244,7 +244,7 @@ La CLI de Azure Functions puede usarse para crear una nueva aplicación de funci
     VS Code. Initialize for optimal use with VS Code?
     ```
 
-    ![La notificación](../../../../../translated_images/vscode-azure-functions-init-notification.bd19b49229963edb5311fb3a79445ea469424759d2917ee2f2eb6f92d65d5086.es.png)
+    ![La notificación](../../../../../translated_images/vscode-azure-functions-init-notification.bd19b49229963edb.es.png)
 
     Selecciona **Sí** en esta notificación.
 

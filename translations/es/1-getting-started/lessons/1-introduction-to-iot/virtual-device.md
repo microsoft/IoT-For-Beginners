@@ -154,11 +154,11 @@ Crea una aplicación en Python para imprimir `"Hello World"` en la consola.
 
 1. Cuando VS Code se inicie, activará el entorno virtual de Python. El entorno virtual seleccionado aparecerá en la barra de estado inferior:
 
-    ![VS Code mostrando el entorno virtual seleccionado](../../../../../translated_images/vscode-virtual-env.8ba42e04c3d533cf677e16cbe5ed9a3b80f62c6964472dc84b6f940800f0909f.es.png)
+    ![VS Code mostrando el entorno virtual seleccionado](../../../../../translated_images/vscode-virtual-env.8ba42e04c3d533cf.es.png)
 
 1. Si el terminal de VS Code ya está ejecutándose cuando VS Code se inicia, no tendrá el entorno virtual activado. Lo más fácil es cerrar el terminal usando el botón **Kill the active terminal instance**:
 
-    ![Botón de VS Code para cerrar la instancia activa del terminal](../../../../../translated_images/vscode-kill-terminal.1cc4de7c6f25ee08f423f0ead714e61d069fac1eb2089e97b8a7bbcb3d45fe5e.es.png)
+    ![Botón de VS Code para cerrar la instancia activa del terminal](../../../../../translated_images/vscode-kill-terminal.1cc4de7c6f25ee08.es.png)
 
     Puedes saber si el terminal tiene el entorno virtual activado porque el nombre del entorno virtual será un prefijo en el prompt del terminal. Por ejemplo, podría ser:
 
@@ -229,7 +229,7 @@ Como un segundo paso de 'Hola Mundo', ejecutarás la aplicación CounterFit y co
 
 1. Necesitarás iniciar un nuevo terminal en VS Code seleccionando el botón **Create a new integrated terminal**. Esto se debe a que la aplicación CounterFit está ejecutándose en el terminal actual.
 
-    ![Botón de VS Code para crear un nuevo terminal integrado](../../../../../translated_images/vscode-new-terminal.77db8fc0f9cd31824b0e49a201beafe4ae4616d6c7339992cb2819e789b3eff9.es.png)
+    ![Botón de VS Code para crear un nuevo terminal integrado](../../../../../translated_images/vscode-new-terminal.77db8fc0f9cd3182.es.png)
 
 1. En este nuevo terminal, ejecuta el archivo `app.py` como antes. El estado de CounterFit cambiará a **Connected** y el LED se encenderá.
 

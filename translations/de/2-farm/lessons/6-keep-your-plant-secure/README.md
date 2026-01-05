@@ -97,15 +97,15 @@ Verschlüsselung gibt es in zwei Typen – symmetrisch und asymmetrisch.
 
 **Symmetrische** Verschlüsselung verwendet denselben Schlüssel, um die Daten zu verschlüsseln und zu entschlüsseln. Sowohl der Sender als auch der Empfänger müssen denselben Schlüssel kennen. Dies ist die am wenigsten sichere Art, da der Schlüssel irgendwie geteilt werden muss. Damit ein Sender eine verschlüsselte Nachricht an einen Empfänger senden kann, muss der Sender dem Empfänger zuerst den Schlüssel senden.
 
-![Symmetrische Schlüsselverschlüsselung verwendet denselben Schlüssel, um eine Nachricht zu verschlüsseln und zu entschlüsseln](../../../../../translated_images/send-message-symmetric-key.a2e8ad0d495896ffcdf15d25bb4491c695a5cb851457b359fb0f0c89d67707c9.de.png)
+![Symmetrische Schlüsselverschlüsselung verwendet denselben Schlüssel, um eine Nachricht zu verschlüsseln und zu entschlüsseln](../../../../../translated_images/send-message-symmetric-key.a2e8ad0d495896ff.de.png)
 
 Wenn der Schlüssel während der Übertragung gestohlen wird oder der Sender oder Empfänger gehackt wird und der Schlüssel gefunden wird, kann die Verschlüsselung geknackt werden.
 
-![Symmetrische Schlüsselverschlüsselung ist nur sicher, wenn ein Hacker den Schlüssel nicht erhält – wenn doch, kann er die Nachricht abfangen und entschlüsseln](../../../../../translated_images/send-message-symmetric-key-hacker.e7cb53db1707adfb1486a8144060cb76435fe8dbdede8cecc09e7d15b2d9a251.de.png)
+![Symmetrische Schlüsselverschlüsselung ist nur sicher, wenn ein Hacker den Schlüssel nicht erhält – wenn doch, kann er die Nachricht abfangen und entschlüsseln](../../../../../translated_images/send-message-symmetric-key-hacker.e7cb53db1707adfb.de.png)
 
 **Asymmetrische** Verschlüsselung verwendet 2 Schlüssel – einen Verschlüsselungsschlüssel und einen Entschlüsselungsschlüssel, die als öffentliches/privates Schlüsselpaar bezeichnet werden. Der öffentliche Schlüssel wird verwendet, um die Nachricht zu verschlüsseln, kann aber nicht verwendet werden, um sie zu entschlüsseln. Der private Schlüssel wird verwendet, um die Nachricht zu entschlüsseln, kann aber nicht verwendet werden, um sie zu verschlüsseln.
 
-![Asymmetrische Verschlüsselung verwendet unterschiedliche Schlüssel zum Verschlüsseln und Entschlüsseln. Der Verschlüsselungsschlüssel wird an alle Nachrichtensender gesendet, damit sie eine Nachricht verschlüsseln können, bevor sie sie an den Empfänger senden, der die Schlüssel besitzt](../../../../../translated_images/send-message-asymmetric.7abe327c62615b8c19805252af5d4b6c5e7aaeb8fbc455efeff866fe2d300b62.de.png)
+![Asymmetrische Verschlüsselung verwendet unterschiedliche Schlüssel zum Verschlüsseln und Entschlüsseln. Der Verschlüsselungsschlüssel wird an alle Nachrichtensender gesendet, damit sie eine Nachricht verschlüsseln können, bevor sie sie an den Empfänger senden, der die Schlüssel besitzt](../../../../../translated_images/send-message-asymmetric.7abe327c62615b8c.de.png)
 
 Der Empfänger teilt seinen öffentlichen Schlüssel, und der Sender verwendet diesen, um die Nachricht zu verschlüsseln. Sobald die Nachricht gesendet wird, entschlüsselt der Empfänger sie mit seinem privaten Schlüssel. Asymmetrische Verschlüsselung ist sicherer, da der private Schlüssel vom Empfänger privat gehalten und niemals geteilt wird. Jeder kann den öffentlichen Schlüssel haben, da er nur zum Verschlüsseln von Nachrichten verwendet werden kann.
 
@@ -165,7 +165,7 @@ Diese Zertifikate enthalten eine Reihe von Feldern, darunter Informationen darü
 
 Bei der Verwendung von X.509-Zertifikaten haben sowohl der Sender als auch der Empfänger ihre eigenen öffentlichen und privaten Schlüssel sowie X.509-Zertifikate, die den öffentlichen Schlüssel enthalten. Sie tauschen dann irgendwie X.509-Zertifikate aus, verwenden die öffentlichen Schlüssel des jeweils anderen, um die gesendeten Daten zu verschlüsseln, und ihren eigenen privaten Schlüssel, um die empfangenen Daten zu entschlüsseln.
 
-![Anstatt einen öffentlichen Schlüssel zu teilen, kannst du ein Zertifikat teilen. Der Nutzer des Zertifikats kann überprüfen, dass es von dir stammt, indem er bei der Zertifizierungsstelle nachfragt, die es signiert hat.](../../../../../translated_images/send-message-certificate.9cc576ac1e46b76eb58ebc8eedaa522566fa0700076da46f5180aad78c2435db.de.png)
+![Anstatt einen öffentlichen Schlüssel zu teilen, kannst du ein Zertifikat teilen. Der Nutzer des Zertifikats kann überprüfen, dass es von dir stammt, indem er bei der Zertifizierungsstelle nachfragt, die es signiert hat.](../../../../../translated_images/send-message-certificate.9cc576ac1e46b76e.de.png)
 
 Ein großer Vorteil der Verwendung von X.509-Zertifikaten ist, dass sie zwischen Geräten geteilt werden können. Du kannst ein Zertifikat erstellen, es in den IoT Hub hochladen und für alle deine Geräte verwenden. Jedes Gerät muss dann nur den privaten Schlüssel kennen, um die Nachrichten zu entschlüsseln, die es vom IoT Hub erhält.
 

@@ -81,7 +81,7 @@ Als hilfreicher Debugging-Schritt kannst du nicht nur die Begrenzungsrahmen ausg
 
 1. Führe die App aus, während die Kamera auf einige Lagerbestände in einem Regal zeigt. Du wirst die Datei `image.jpg` im VS Code Explorer sehen und kannst sie auswählen, um die Begrenzungsrahmen zu betrachten.
 
-    ![4 Dosen Tomatenmark mit Begrenzungsrahmen um jede Dose](../../../../../translated_images/rpi-stock-with-bounding-boxes.b5540e2ecb7cd49f1271828d3be412671d950e87625c5597ea97c90f11e01097.de.jpg)
+    ![4 Dosen Tomatenmark mit Begrenzungsrahmen um jede Dose](../../../../../translated_images/rpi-stock-with-bounding-boxes.b5540e2ecb7cd49f.de.jpg)
 
 ## Lagerbestände zählen
 

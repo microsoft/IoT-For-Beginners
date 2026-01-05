@@ -37,7 +37,7 @@ Schließen Sie den Bodenfeuchtigkeitssensor an.
 
 1. Stecken Sie den Bodenfeuchtigkeitssensor in die Erde. Der Sensor hat eine Markierung für die maximale Einstecktiefe – eine weiße Linie quer über den Sensor. Stecken Sie den Sensor bis zu dieser Linie, aber nicht darüber hinaus, in die Erde.
 
-![Der Grove-Bodenfeuchtigkeitssensor in der Erde](../../../../../translated_images/soil-moisture-sensor-in-soil.bfad91002bda5e960f8c51ee64b02ee59b32c8c717e3515a2c945f33e614e403.de.png)
+![Der Grove-Bodenfeuchtigkeitssensor in der Erde](../../../../../translated_images/soil-moisture-sensor-in-soil.bfad91002bda5e96.de.png)
 
 ## Den Bodenfeuchtigkeitssensor programmieren
 

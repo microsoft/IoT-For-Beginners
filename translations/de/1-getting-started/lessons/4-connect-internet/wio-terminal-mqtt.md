@@ -64,7 +64,7 @@ Verbinden Sie das Wio Terminal mit WiFi.
 
 1. Erstellen Sie eine neue Datei im Ordner `src` mit dem Namen `config.h`. Sie können dies tun, indem Sie den Ordner `src` oder die Datei `main.cpp` darin auswählen und die Schaltfläche **Neue Datei** im Explorer auswählen. Diese Schaltfläche erscheint nur, wenn sich der Cursor über dem Explorer befindet.
 
-    ![Die Schaltfläche Neue Datei](../../../../../translated_images/vscode-new-file-button.182702340fe6723c8cbb4cfa1a9a9fb0d0a5227643b4e46b91ff67b07a39a92f.de.png)
+    ![Die Schaltfläche Neue Datei](../../../../../translated_images/vscode-new-file-button.182702340fe6723c.de.png)
 
 1. Fügen Sie folgenden Code in diese Datei ein, um Konstanten für Ihre WiFi-Zugangsdaten zu definieren:
 

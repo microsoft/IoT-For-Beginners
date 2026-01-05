@@ -46,7 +46,7 @@ In this lesson, we'll cover:
 
 IoT devices use various communication protocols to connect to the Internet. The most popular ones are based on publish/subscribe messaging via a broker. IoT devices connect to the broker to publish telemetry and subscribe to commands. Cloud services also connect to the broker, subscribing to telemetry messages and publishing commands to specific devices or groups of devices.
 
-![IoT devices connect to a broker and publish telemetry and subscribe to commands. Cloud services connect to the broker and subscribe to all telemetry and send commands to specific devices.](../../../../../translated_images/pub-sub.7c7ed43fe9fd15d4e1f81a3fd95440413c457acd9bcbe9a43341e30e88db5264.en.png)
+![IoT devices connect to a broker and publish telemetry and subscribe to commands. Cloud services connect to the broker and subscribe to all telemetry and send commands to specific devices.](../../../../../translated_images/pub-sub.7c7ed43fe9fd15d4.en.png)
 
 MQTT is the most widely used communication protocol for IoT devices and is the focus of this lesson. Other protocols include AMQP and HTTP/HTTPS.
 
@@ -115,7 +115,7 @@ The term telemetry comes from Greek roots meaning "remote measurement." It refer
 
 Revisiting the smart thermostat example from Lesson 1:
 
-![An Internet connected thermostat using multiple room sensors](../../../../../translated_images/telemetry.21e5d8b97649d2ebeb0f68d4b9691ab2d1f7bd629338e131465aff8a614e4d4a.en.png)
+![An Internet connected thermostat using multiple room sensors](../../../../../translated_images/telemetry.21e5d8b97649d2eb.en.png)
 
 The thermostat collects temperature data using sensors. It likely has a built-in sensor and connects to external sensors via a wireless protocol like [Bluetooth Low Energy](https://wikipedia.org/wiki/Bluetooth_Low_Energy) (BLE).
 
@@ -267,11 +267,11 @@ Write the server code.
 
 1. When VS Code launches, it will activate the Python virtual environment. This will be indicated in the bottom status bar:
 
-    ![VS Code showing the selected virtual environment](../../../../../translated_images/vscode-virtual-env.8ba42e04c3d533cf677e16cbe5ed9a3b80f62c6964472dc84b6f940800f0909f.en.png)
+    ![VS Code showing the selected virtual environment](../../../../../translated_images/vscode-virtual-env.8ba42e04c3d533cf.en.png)
 
 1. If the VS Code Terminal is already open when VS Code starts, the virtual environment might not be activated in it. To fix this, kill the terminal using the **Kill the active terminal instance** button:
 
-    ![VS Code Kill the active terminal instance button](../../../../../translated_images/vscode-kill-terminal.1cc4de7c6f25ee08f423f0ead714e61d069fac1eb2089e97b8a7bbcb3d45fe5e.en.png)
+    ![VS Code Kill the active terminal instance button](../../../../../translated_images/vscode-kill-terminal.1cc4de7c6f25ee08.en.png)
 
 1. Open a new VS Code Terminal by selecting *Terminal -> New Terminal* or pressing `` CTRL+` ``. The new terminal will load the virtual environment, and the activation command will appear in the terminal. The virtual environment's name (`.venv`) will also be displayed in the prompt:
 

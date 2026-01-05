@@ -115,7 +115,7 @@ For the prototype, you will implement all of this on a single device. If you are
 
 The IoT device needs a trigger to indicate when fruit is ready to be classified. One option is to measure when the fruit is at the correct location on the conveyor belt using a proximity sensor.
 
-![Proximity sensors send laser beams to objects like bananas and time how long till the beam is bounced back](../../../../../translated_images/proximity-sensor.f5cd752c77fb62fea000156233b32fd24fad3707ec69b8bdd8d312b7af85156d.en.png)
+![Proximity sensors send laser beams to objects like bananas and time how long till the beam is bounced back](../../../../../translated_images/proximity-sensor.f5cd752c77fb62fe.en.png)
 
 Proximity sensors measure the distance between the sensor and an object. They emit a beam of electromagnetic radiation, such as a laser or infrared light, and detect the radiation bouncing off the object. The time between the beam being sent and the signal bouncing back is used to calculate the distance.
 

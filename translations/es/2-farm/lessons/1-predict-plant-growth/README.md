@@ -59,7 +59,7 @@ Cada especie de planta tiene valores diferentes para su temperatura base, óptim
 
 ✅ Investiga. Para las plantas que tengas en tu jardín, escuela o parque local, ¿puedes encontrar la temperatura base?
 
-![Un gráfico que muestra la tasa de crecimiento aumentando a medida que la temperatura sube, y luego disminuyendo cuando la temperatura es demasiado alta](../../../../../translated_images/plant-growth-temp-graph.c6d69c9478e6ca832baa8dcb8d4adcbb67304074ce50e94ac8faae95975177f9.es.png)
+![Un gráfico que muestra la tasa de crecimiento aumentando a medida que la temperatura sube, y luego disminuyendo cuando la temperatura es demasiado alta](../../../../../translated_images/plant-growth-temp-graph.c6d69c9478e6ca83.es.png)
 
 El gráfico anterior muestra un ejemplo de la relación entre la tasa de crecimiento y la temperatura. Hasta la temperatura base no hay crecimiento. La tasa de crecimiento aumenta hasta la temperatura óptima y luego disminuye después de alcanzar este pico. A la temperatura máxima, el crecimiento se detiene.
 
@@ -135,7 +135,7 @@ Esto tiene un gran impacto en la mano de obra en una granja y corre el riesgo de
 
 Al recopilar datos de temperatura usando un dispositivo IoT, un agricultor puede ser notificado automáticamente cuando las plantas están cerca de la madurez. Una arquitectura típica para esto es que los dispositivos IoT midan la temperatura y luego publiquen estos datos de telemetría a través de Internet usando algo como MQTT. El código del servidor escucha estos datos y los guarda en algún lugar, como en una base de datos. Esto significa que los datos pueden analizarse más tarde, como un trabajo nocturno para calcular los GDD del día, sumar los GDD totales para cada cultivo hasta ahora y alertar si una planta está cerca de la madurez.
 
-![Los datos de telemetría se envían a un servidor y luego se guardan en una base de datos](../../../../../translated_images/save-telemetry-database.ddc9c6bea0c5ba39449966a463ca6748cd8e2d565dab44ff31c9f1d2f6c21d27.es.png)
+![Los datos de telemetría se envían a un servidor y luego se guardan en una base de datos](../../../../../translated_images/save-telemetry-database.ddc9c6bea0c5ba39.es.png)
 
 El código del servidor también puede complementar los datos agregando información adicional. Por ejemplo, el dispositivo IoT puede publicar un identificador para indicar qué dispositivo es, y el código del servidor puede usar esto para buscar la ubicación del dispositivo y qué cultivos está monitoreando. También puede agregar datos básicos como la hora actual, ya que algunos dispositivos IoT no tienen el hardware necesario para llevar un registro preciso del tiempo o requieren código adicional para leer la hora actual a través de Internet.
 
@@ -222,7 +222,7 @@ Este código abre el archivo CSV y luego agrega una nueva fila al final. La fila
 
     
 > 💁 Si estás utilizando un dispositivo IoT virtual, selecciona la casilla de aleatoriedad y establece un rango para evitar obtener la misma temperatura cada vez que se devuelva el valor de temperatura.
-    ![Selecciona la casilla de aleatoriedad y establece un rango](../../../../../translated_images/select-the-random-checkbox-and-set-a-range.32cf4bc7c12e797f8c76616b10c7c23a6592321bb1a6310e0b481e72f97d23b3.es.png) 
+    ![Selecciona la casilla de aleatoriedad y establece un rango](../../../../../translated_images/select-the-random-checkbox-and-set-a-range.32cf4bc7c12e797f.es.png) 
 
     > 💁 Si deseas ejecutarlo durante todo un día, debes asegurarte de que la computadora donde se ejecuta tu código de servidor no entre en modo de suspensión, ya sea cambiando la configuración de energía o ejecutando algo como [este script de Python para mantener el sistema activo](https://github.com/jaqsparow/keep-system-active).
     

@@ -33,7 +33,7 @@ Connect the relay.
 
 1. With the Wio Terminal disconnected from your computer or other power supply, connect the other end of the Grove cable to the left-hand Grove socket on the Wio Terminal as you look at the screen. Leave the soil moisture sensor connected to the right-hand socket.
 
-![The grove relay connected to the left-hand socket, and the soil moisture sensor connected to the right-hand socket](../../../../../translated_images/wio-relay-and-soil-moisture-sensor.ed722202d42babe0be5f4518cf13e8c2c81e8df21d37839266cbdb60cf30172d.en.png)
+![The grove relay connected to the left-hand socket, and the soil moisture sensor connected to the right-hand socket](../../../../../translated_images/wio-relay-and-soil-moisture-sensor.ed722202d42babe0.en.png)
 
 1. Insert the soil moisture sensor into the soil if it isn't already from the previous lesson.
 

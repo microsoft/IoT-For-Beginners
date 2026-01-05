@@ -41,7 +41,7 @@ Serverless, or serverless computing, involves creating small blocks of code that
 
 > 💁 If you've used database triggers before, think of this as a similar concept—code being triggered by an event, such as inserting a row.
 
-![When many events are sent at the same time, the serverless service scales up to run them all at the same time](../../../../../translated_images/serverless-scaling.f8c769adf0413fd17be1af4f07ff63016b347e2ff869be6c4abb211f9e93909d.en.png)
+![When many events are sent at the same time, the serverless service scales up to run them all at the same time](../../../../../translated_images/serverless-scaling.f8c769adf0413fd1.en.png)
 
 Your code only runs when an event occurs; it doesn’t remain active at other times. When an event happens, your code is loaded and executed. This makes serverless highly scalable—if multiple events occur simultaneously, the cloud provider can execute your function as many times as needed, across available servers. However, if you need to share information between events, you’ll need to store it in a database or another persistent storage, as serverless functions don’t maintain in-memory state.
 
@@ -244,7 +244,7 @@ The Azure Functions CLI can be used to create a new Functions app.
     VS Code. Initialize for optimal use with VS Code?
     ```
 
-    ![The notification](../../../../../translated_images/vscode-azure-functions-init-notification.bd19b49229963edb5311fb3a79445ea469424759d2917ee2f2eb6f92d65d5086.en.png)
+    ![The notification](../../../../../translated_images/vscode-azure-functions-init-notification.bd19b49229963edb.en.png)
 
     Select **Yes** from this notification.
 

@@ -72,7 +72,7 @@ El proveedor de la nube puede entonces aprovechar las economías de escala para 
 
 Azure es la nube para desarrolladores de Microsoft, y es la nube que usarás en estas lecciones. El siguiente video ofrece una breve descripción de Azure:
 
-[![Video de introducción a Azure](../../../../../translated_images/what-is-azure-video-thumbnail.20174db09e03bbb87d213f928d3cb27410305d2e567e952827de8478dbda959b.es.png)](https://www.microsoft.com/videoplayer/embed/RE4Ibng?WT.mc_id=academic-17441-jabenn)
+[![Video de introducción a Azure](../../../../../translated_images/what-is-azure-video-thumbnail.20174db09e03bbb8.es.png)](https://www.microsoft.com/videoplayer/embed/RE4Ibng?WT.mc_id=academic-17441-jabenn)
 
 ## Crear una suscripción en la nube
 

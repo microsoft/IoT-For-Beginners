@@ -130,7 +130,7 @@ For this lesson, you'll need a Translator resource. You'll use the REST API to t
 
 Ideally, your application should support as many languages as possible, from speech recognition to language understanding to responding with speech. Translation services can significantly speed up development.
 
-![A smart timer architecture translating Japanese to English, processing in English then translating back to Japanese](../../../../../translated_images/translated-smart-timer.08ac20057fdc5c3778ed41cb425dca5d7fbcd4584b6da7b73ca67115a5b8a883.en.png)
+![A smart timer architecture translating Japanese to English, processing in English then translating back to Japanese](../../../../../translated_images/translated-smart-timer.08ac20057fdc5c37.en.png)
 
 Imagine building a smart timer that operates entirely in English—understanding spoken English, processing it, and responding in English. To add support for Japanese, you could translate spoken Japanese to English text, process it in English, and then translate the response back to Japanese before speaking it. This approach allows you to quickly add Japanese support while planning for full end-to-end support later.
 

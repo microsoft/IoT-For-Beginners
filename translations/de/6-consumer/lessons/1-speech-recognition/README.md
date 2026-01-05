@@ -64,7 +64,7 @@ Mikrofone gibt es in verschiedenen Typen:
 
 * Bändchen – Bändchenmikrofone ähneln dynamischen Mikrofonen, haben jedoch ein Metallbändchen anstelle einer Membran. Dieses Bändchen bewegt sich in einem Magnetfeld und erzeugt einen elektrischen Strom. Wie dynamische Mikrofone benötigen auch Bändchenmikrofone keine Stromversorgung.
 
-    ![Edmund Lowe, amerikanischer Schauspieler, steht 1942 an einem Radiomikrofon (gekennzeichnet für das (NBC) Blue Network) und hält ein Skript](../../../../../translated_images/ribbon-mic.eacc8e092c7441caee6d7a81e2f40e1675bf36269848964c7c09c9a9acb05127.de.jpg)
+    ![Edmund Lowe, amerikanischer Schauspieler, steht 1942 an einem Radiomikrofon (gekennzeichnet für das (NBC) Blue Network) und hält ein Skript](../../../../../translated_images/ribbon-mic.eacc8e092c7441ca.de.jpg)
 
 * Kondensator – Kondensatormikrofone haben eine dünne Metallmembran und eine feste Metallrückplatte. Elektrizität wird auf beide angewendet, und wenn die Membran vibriert, ändert sich die statische Ladung zwischen den Platten und erzeugt ein Signal. Kondensatormikrofone benötigen Strom, um zu funktionieren – genannt *Phantomspannung*.
 
@@ -84,7 +84,7 @@ Audio ist ein analoges Signal, das sehr feingranulare Informationen trägt. Um d
 
 > 🎓 Abtastung bedeutet, das Audiosignal in einen digitalen Wert umzuwandeln, der das Signal zu einem bestimmten Zeitpunkt repräsentiert.
 
-![Ein Liniendiagramm, das ein Signal mit diskreten Punkten in festen Intervallen zeigt](../../../../../translated_images/sampling.6f4fadb3f2d9dfe7618f9edfe75a350e6b3f74293ec84f02ab69c19d2afe3d73.de.png)
+![Ein Liniendiagramm, das ein Signal mit diskreten Punkten in festen Intervallen zeigt](../../../../../translated_images/sampling.6f4fadb3f2d9dfe7.de.png)
 
 Digitales Audio wird mit Puls-Code-Modulation (PCM) abgetastet. PCM liest die Spannung des Signals aus und wählt den nächstgelegenen diskreten Wert zu dieser Spannung basierend auf einer definierten Größe.
 

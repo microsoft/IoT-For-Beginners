@@ -37,7 +37,7 @@ Connect the soil moisture sensor.
 
 1. Insert the soil moisture sensor into the soil. The sensor has a 'highest position line'—a white line across the sensor. Insert the sensor up to, but not past, this line.
 
-![The grove soil moisture sensor in soil](../../../../../translated_images/soil-moisture-sensor-in-soil.bfad91002bda5e960f8c51ee64b02ee59b32c8c717e3515a2c945f33e614e403.en.png)
+![The grove soil moisture sensor in soil](../../../../../translated_images/soil-moisture-sensor-in-soil.bfad91002bda5e96.en.png)
 
 ## Program the soil moisture sensor
 

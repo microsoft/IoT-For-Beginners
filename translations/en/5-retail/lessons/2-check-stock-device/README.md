@@ -39,7 +39,7 @@ Object detectors can be used to check stock, either by counting items or ensurin
 
 For instance, if a camera monitors a shelf that holds 8 cans of tomato paste, and the object detector identifies only 7 cans, it indicates one is missing and needs to be restocked.
 
-![7 cans of tomato paste on a shelf, 4 on the top row, 3 on top](../../../../../translated_images/stock-7-cans-tomato-paste.f86059cc573d7becaa89a0eafb9d2cd7e2fe37405a530fe565990e2333d0e4a1.en.png)
+![7 cans of tomato paste on a shelf, 4 on the top row, 3 on top](../../../../../translated_images/stock-7-cans-tomato-paste.f86059cc573d7bec.en.png)
 
 In the image above, an object detector has identified 7 cans of tomato paste on a shelf designed to hold 8. The IoT device can notify staff about the need to restock and even provide the location of the missing item, which is especially useful if robots are used for restocking.
 
@@ -51,7 +51,7 @@ Sometimes, incorrect stock ends up on shelves. This could happen due to human er
 
 Object detection can identify misplaced items and alert a human or robot to return them to their correct location.
 
-![A rogue can of baby corn on the tomato paste shelf](../../../../../translated_images/stock-rogue-corn.be1f3ada8c4578544641af66671c1711a4c02297f14cc7f503354dae0d30a954.en.png)
+![A rogue can of baby corn on the tomato paste shelf](../../../../../translated_images/stock-rogue-corn.be1f3ada8c457854.en.png)
 
 In the image above, a can of baby corn has been placed on the tomato paste shelf. The object detector identifies this, enabling the IoT device to notify a human or robot to correct the mistake.
 

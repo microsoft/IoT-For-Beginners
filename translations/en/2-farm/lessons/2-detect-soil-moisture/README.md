@@ -39,7 +39,7 @@ UART is a physical communication protocol that allows two devices to exchange da
 * Device 1 sends data from its Tx pin, which is received by Device 2 on its Rx pin.
 * Device 1 receives data on its Rx pin, which is sent by Device 2 from its Tx pin.
 
-![UART with the Tx pin on one chip connected to the Rx pin on another, and vice versa](../../../../../translated_images/uart.d0dbd3fb9e3728c6ee1995c8206f3cdb13cdfd208f13745e8ef6854cab75e421.en.png)
+![UART with the Tx pin on one chip connected to the Rx pin on another, and vice versa](../../../../../translated_images/uart.d0dbd3fb9e3728c6.en.png)
 
 > 🎓 Data is transmitted one bit at a time, a method known as *serial* communication. Most operating systems and microcontrollers have *serial ports*, which are connections that can send and receive serial data and are accessible to your code.
 
@@ -68,7 +68,7 @@ SPI controllers use three shared wires and one additional wire per peripheral. P
 | SCLK | Serial Clock | Sends a clock signal at a rate determined by the controller. |
 | CS   | Chip Select | Each peripheral has its own CS wire, which the controller uses to activate the desired peripheral. |
 
-![SPI with one controller and two peripherals](../../../../../translated_images/spi.297431d6f98b386b4ff88aea44ce9c1e7acfb1ef69c7e4e388a7aa97b6948e24.en.png)
+![SPI with one controller and two peripherals](../../../../../translated_images/spi.297431d6f98b386b.en.png)
 
 The CS wire activates one peripheral at a time, enabling communication over the COPI and CIPO wires. To switch peripherals, the controller deactivates the current CS wire and activates the CS wire for the next peripheral.
 
@@ -129,13 +129,13 @@ Soil moisture is measured using either gravimetric or volumetric water content:
 
 Soil moisture sensors measure electrical resistance or capacitance, which varies with both soil moisture and soil type. Calibration involves comparing sensor readings to scientifically measured values. For example, lab-calculated gravimetric soil moisture values can be used to calibrate the sensor, aligning its readings with actual moisture levels.
 
-![A graph of voltage vs soil moisture content](../../../../../translated_images/soil-moisture-to-voltage.df86d80cda1587008f312431ed5f79eb6c50c58d4fbc25a6763c5e9127c3106b.en.png)
+![A graph of voltage vs soil moisture content](../../../../../translated_images/soil-moisture-to-voltage.df86d80cda158700.en.png)
 
 The graph above illustrates sensor calibration. Voltage readings are taken from a soil sample, which is then analyzed in a lab. The lab measures the soil's wet and dry weights to calculate moisture content. These data points are plotted, and a line is fitted to the graph. This line is then used to convert sensor readings into accurate soil moisture measurements.
 
 💁 For resistive soil moisture sensors, voltage increases as soil moisture rises. For capacitive sensors, voltage decreases with increasing soil moisture, resulting in a downward-sloping graph.
 
-![A soil moisture value interpolated from the graph](../../../../../translated_images/soil-moisture-to-voltage-with-reading.681cb3e1f8b68caf5547dbf1415851c82e201edfb78face16fc98da4051ed9b2.en.png)
+![A soil moisture value interpolated from the graph](../../../../../translated_images/soil-moisture-to-voltage-with-reading.681cb3e1f8b68caf.en.png)
 
 The graph above shows how a voltage reading from a soil moisture sensor can be used to determine the actual soil moisture level.
 

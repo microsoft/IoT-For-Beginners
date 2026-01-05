@@ -41,7 +41,7 @@ An IoT application consists of two main components: the *Internet* and the *thin
 
 ### The Thing
 
-![A Raspberry Pi 4](../../../../../translated_images/raspberry-pi-4.fd4590d308c3d456db1327e86b395ddcd735513267aafd4879ea2785f7792eac.en.jpg)
+![A Raspberry Pi 4](../../../../../translated_images/raspberry-pi-4.fd4590d308c3d456.en.jpg)
 
 The **Thing** in IoT refers to a device that interacts with the physical world. These devices are typically small, affordable computers that operate at low speeds and consume minimal power. For example, they might be simple microcontrollers with kilobytes of RAM (compared to gigabytes in a PC), running at a few hundred megahertz (compared to gigahertz in a PC), and consuming so little power that they can run on batteries for weeks, months, or even years.
 
@@ -67,7 +67,7 @@ For example, a smart thermostat might connect to a cloud service via home WiFi. 
 
 A more advanced version might use AI in the cloud, combining data from other IoT devices like occupancy sensors, as well as external data like weather forecasts and your calendar, to make smarter decisions about temperature settings. For instance, it could turn off the heating if your calendar shows you’re on vacation or adjust the temperature room by room based on usage patterns, learning over time to become more accurate.
 
-![A diagram showing multiple temperature sensors and a dial as inputs to an IoT device, the IoT device with 2-way communication to the cloud, which in turn has 2-way communication to a phone, a calendar, and a weather service, and control of a heater as an output from the IoT device](../../../../../translated_images/smarter-thermostat.a75855f15d2d9e63d5da9d7ba5847a987f6c9d98e96e770c203532275194e27d.en.png)
+![A diagram showing multiple temperature sensors and a dial as inputs to an IoT device, the IoT device with 2-way communication to the cloud, which in turn has 2-way communication to a phone, a calendar, and a weather service, and control of a heater as an output from the IoT device](../../../../../translated_images/smarter-thermostat.a75855f15d2d9e63.en.png)
 
 ✅ What other types of data could make an Internet-connected thermostat smarter?
 
@@ -133,7 +133,7 @@ Like the CPU, the memory in a microcontroller is significantly smaller than that
 
 The diagram below illustrates the size difference between 192KB and 8GB—the tiny dot in the center represents 192KB.
 
-![A comparison between 192KB and 8GB - more than 40,000 times larger](../../../../../translated_images/ram-comparison.6beb73541b42ac6ffde64cdf79fc925a84b932ce7ebd4d41d5fd7afc1257a696.en.png)
+![A comparison between 192KB and 8GB - more than 40,000 times larger](../../../../../translated_images/ram-comparison.6beb73541b42ac6f.en.png)
 
 Program storage is also much smaller than on a PC. While a typical PC might have a 500GB hard drive for program storage, a microcontroller might only have kilobytes or a few megabytes (MB) of storage (1MB equals 1,000KB, or 1,000,000 bytes). The Wio Terminal, for instance, has 4MB of program storage.
 
@@ -212,17 +212,17 @@ In the previous lesson, we introduced single-board computers. Let’s explore th
 
 ### Raspberry Pi
 
-![The Raspberry Pi logo](../../../../../translated_images/raspberry-pi-logo.4efaa16605cee05489d8fa53941e991b3757aa24c20a95abdcf8cfd761953596.en.png)
+![The Raspberry Pi logo](../../../../../translated_images/raspberry-pi-logo.4efaa16605cee054.en.png)
 
 The [Raspberry Pi Foundation](https://www.raspberrypi.org) is a UK-based charity founded in 2009 to promote computer science education, particularly in schools. As part of this mission, they developed the Raspberry Pi, a single-board computer. Raspberry Pis come in three variants: a full-size version, the smaller Pi Zero, and a compute module for embedding in IoT devices.
 
-![A Raspberry Pi 4](../../../../../translated_images/raspberry-pi-4.fd4590d308c3d456db1327e86b395ddcd735513267aafd4879ea2785f7792eac.en.jpg)
+![A Raspberry Pi 4](../../../../../translated_images/raspberry-pi-4.fd4590d308c3d456.en.jpg)
 
 The latest full-size model, the Raspberry Pi 4B, features a quad-core 1.5GHz CPU, 2, 4, or 8GB of RAM, gigabit Ethernet, WiFi, dual 4K HDMI ports, an audio/composite video output, USB ports (2 USB 2.0, 2 USB 3.0), 40 GPIO pins, a camera connector, and an SD card slot. It measures 88mm x 58mm x 19.5mm and is powered by a 3A USB-C supply. Prices start at $35, making it far cheaper than a PC or Mac.
 
 > 💁 There’s also the Pi400, an all-in-one computer with a Pi4 built into a keyboard.
 
-![A Raspberry Pi Zero](../../../../../translated_images/raspberry-pi-zero.f7a4133e1e7d54bb3dbb32319b217a53c5b94871995a54647f2894b54206b8d8.en.jpg)
+![A Raspberry Pi Zero](../../../../../translated_images/raspberry-pi-zero.f7a4133e1e7d54bb.en.jpg)
 
 The Pi Zero is smaller and less powerful, with a single-core 1GHz CPU, 512MB of RAM, WiFi (in the Zero W model), a single HDMI port, a micro-USB port, 40 GPIO pins, a camera connector, and an SD card slot. It measures 65mm x 30mm x 5mm and consumes very little power. The Zero costs $5, while the Zero W with WiFi costs $10.
 

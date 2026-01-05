@@ -77,7 +77,7 @@ This code opens the CSV file and appends a new row at the end. The row includes 
 
     
 > 💁 If you are using a Virtual IoT Device, check the random checkbox and set a range to avoid getting the same temperature every time the temperature value is returned.
-    ![Select the random checkbox and set a range](../../../../../translated_images/select-the-random-checkbox-and-set-a-range.32cf4bc7c12e797f8c76616b10c7c23a6592321bb1a6310e0b481e72f97d23b3.en.png) 
+    ![Select the random checkbox and set a range](../../../../../translated_images/select-the-random-checkbox-and-set-a-range.32cf4bc7c12e797f.en.png) 
 
     > 💁 If you want to run this for an entire day, make sure the computer running your server code doesn’t go to sleep. You can do this by adjusting your power settings or using something like [this keep system active Python script](https://github.com/jaqsparow/keep-system-active).
     

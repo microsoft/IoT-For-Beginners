@@ -35,7 +35,7 @@ Connect the time of flight sensor.
 
 1. With the Raspberry Pi powered off, connect the other end of the Grove cable to one of the I²C sockets marked **I²C** on the Grove Base hat attached to the Pi. These sockets are on the bottom row, opposite the GPIO pins and next to the camera cable slot.
 
-![The grove time of flight sensor connected to the I squared C socket](../../../../../translated_images/pi-time-of-flight-sensor.58c8dc04eb3bfb57a7c3019f031433ef4d798d4d7603d565afbf6f3802840dba.en.png)
+![The grove time of flight sensor connected to the I squared C socket](../../../../../translated_images/pi-time-of-flight-sensor.58c8dc04eb3bfb57.en.png)
 
 ## Program the time of flight sensor
 
@@ -106,7 +106,7 @@ Program the device.
 
     The rangefinder is on the back of the sensor, so ensure you use the correct side when measuring distance.
 
-    ![The rangefinder on the back of the time of flight sensor pointing at a banana](../../../../../translated_images/time-of-flight-banana.079921ad8b1496e4525dc26b4cdc71a076407aba3e72ba113ba2e38febae92c5.en.png)
+    ![The rangefinder on the back of the time of flight sensor pointing at a banana](../../../../../translated_images/time-of-flight-banana.079921ad8b1496e4.en.png)
 
 > 💁 You can find this code in the [code-proximity/pi](../../../../../4-manufacturing/lessons/4-trigger-fruit-detector/code-proximity/pi) folder.
 

@@ -75,7 +75,7 @@ Einige der grundlegendsten Sensoren sind analoge Sensoren. Diese Sensoren erhalt
 
 Ein Beispiel hierfür ist ein Potentiometer. Dies ist ein Drehregler, den Sie zwischen zwei Positionen drehen können, und der Sensor misst die Drehung.
 
-![Ein Potentiometer, das auf einen mittleren Punkt eingestellt ist, erhält 5 Volt und gibt 3,8 Volt zurück](../../../../../translated_images/potentiometer.35a348b9ce22f6ec1199ad37d68692d04185456ccbc2541a454bb6698be9f19c.de.png)
+![Ein Potentiometer, das auf einen mittleren Punkt eingestellt ist, erhält 5 Volt und gibt 3,8 Volt zurück](../../../../../translated_images/potentiometer.35a348b9ce22f6ec.de.png)
 
 Das IoT-Gerät sendet ein elektrisches Signal an das Potentiometer mit einer Spannung, z. B. 5 Volt (5V). Wenn das Potentiometer angepasst wird, ändert sich die Spannung, die auf der anderen Seite herauskommt. Stellen Sie sich vor, Sie haben ein Potentiometer, das als Drehregler von 0 bis [11](https://wikipedia.org/wiki/Up_to_eleven) beschriftet ist, wie ein Lautstärkeregler an einem Verstärker. Wenn das Potentiometer in der vollständig ausgeschalteten Position (0) ist, kommen 0V (0 Volt) heraus. Wenn es in der vollständig eingeschalteten Position (11) ist, kommen 5V (5 Volt) heraus.
 
@@ -112,7 +112,7 @@ Pins an IoT-Geräten wie GPIO-Pins können dieses Signal direkt als 0 oder 1 mes
 
 Fortschrittlichere digitale Sensoren lesen analoge Werte und wandeln sie dann mit eingebauten ADCs in digitale Signale um. Beispielsweise verwendet ein digitaler Temperatursensor immer noch ein Thermoelement wie ein analoger Sensor und misst immer noch die Änderung der Spannung, die durch den Widerstand des Thermoelements bei der aktuellen Temperatur verursacht wird. Anstatt einen analogen Wert zurückzugeben und sich auf das Gerät oder die Anschlussplatine zu verlassen, um ihn in ein digitales Signal umzuwandeln, wandelt ein im Sensor eingebauter ADC den Wert um und sendet ihn als Reihe von 0 und 1 an das IoT-Gerät. Diese 0 und 1 werden auf die gleiche Weise wie das digitale Signal für einen Knopf gesendet, wobei 1 die volle Spannung und 0 0V darstellt.
 
-![Ein digitaler Temperatursensor wandelt eine analoge Messung in Binärdaten um, wobei 0 0 Volt und 1 5 Volt entspricht, bevor er sie an ein IoT-Gerät sendet](../../../../../translated_images/temperature-as-digital.85004491b977bae1129707df107c0b19fe6fc6374210e9027e04acb34a640c78.de.png)
+![Ein digitaler Temperatursensor wandelt eine analoge Messung in Binärdaten um, wobei 0 0 Volt und 1 5 Volt entspricht, bevor er sie an ein IoT-Gerät sendet](../../../../../translated_images/temperature-as-digital.85004491b977bae1.de.png)
 
 Das Senden digitaler Daten ermöglicht es Sensoren, komplexer zu werden und detailliertere Daten zu senden, sogar verschlüsselte Daten für sichere Sensoren. Ein Beispiel ist eine Kamera. Dies ist ein Sensor, der ein Bild aufnimmt und es als digitale Daten, die dieses Bild enthalten, normalerweise in einem komprimierten Format wie JPEG, an das IoT-Gerät sendet. Sie kann sogar Videos streamen, indem sie Bilder aufnimmt und entweder das vollständige Bild Bild für Bild oder einen komprimierten Videostream sendet.
 
@@ -164,7 +164,7 @@ Zum Beispiel kannst du PWM verwenden, um die Geschwindigkeit eines Motors zu ste
 
 Stell dir vor, du steuerst einen Motor mit einer 5V-Stromversorgung. Du sendest einen kurzen Impuls an deinen Motor, indem du die Spannung für zwei Hundertstelsekunden (0,02s) auf hoch (5V) schaltest. In dieser Zeit kann sich der Motor um ein Zehntel einer Umdrehung oder 36° drehen. Das Signal pausiert dann für zwei Hundertstelsekunden (0,02s), indem ein niedriges Signal (0V) gesendet wird. Jeder Zyklus von "an" und "aus" dauert 0,04s. Der Zyklus wiederholt sich.
 
-![Pulsweitenmodulation: Drehung eines Motors mit 150 U/min](../../../../../translated_images/pwm-motor-150rpm.83347ac04ca38482bd120939b133803963c9c15ca9d8d484712a4bd92820f6a4.de.png)
+![Pulsweitenmodulation: Drehung eines Motors mit 150 U/min](../../../../../translated_images/pwm-motor-150rpm.83347ac04ca38482.de.png)
 
 Das bedeutet, dass in einer Sekunde 25 5V-Impulse von jeweils 0,02s gesendet werden, die den Motor drehen, gefolgt von jeweils 0,02s Pause mit 0V, in denen der Motor nicht dreht. Jeder Impuls dreht den Motor um ein Zehntel einer Umdrehung, was bedeutet, dass der Motor 2,5 Umdrehungen pro Sekunde vollendet. Du hast ein digitales Signal verwendet, um den Motor mit 2,5 Umdrehungen pro Sekunde oder 150 [Umdrehungen pro Minute](https://wikipedia.org/wiki/Revolutions_per_minute) (eine nicht standardisierte Maßeinheit für Rotationsgeschwindigkeit) zu drehen.
 
@@ -175,7 +175,7 @@ Das bedeutet, dass in einer Sekunde 25 5V-Impulse von jeweils 0,02s gesendet wer
 
 > 🎓 Wenn ein PWM-Signal die Hälfte der Zeit "an" und die andere Hälfte "aus" ist, spricht man von einem [50%-Duty-Cycle](https://wikipedia.org/wiki/Duty_cycle). Duty-Cycles werden als Prozentsatz der Zeit gemessen, in der das Signal im "an"-Zustand im Vergleich zum "aus"-Zustand ist.
 
-![Pulsweitenmodulation: Drehung eines Motors mit 75 U/min](../../../../../translated_images/pwm-motor-75rpm.a5e4c939934b6e14fd9e98e4f2c9539d723da2b18f490eae0948dd044d18ff7e.de.png)
+![Pulsweitenmodulation: Drehung eines Motors mit 75 U/min](../../../../../translated_images/pwm-motor-75rpm.a5e4c939934b6e14.de.png)
 
 Du kannst die Motorgeschwindigkeit ändern, indem du die Länge der Impulse veränderst. Zum Beispiel kannst du bei demselben Motor die Zykluszeit von 0,04s beibehalten, aber die "an"-Impulse auf 0,01s halbieren und die "aus"-Impulse auf 0,03s verlängern. Du hast dieselbe Anzahl von Impulsen pro Sekunde (25), aber jeder "an"-Impuls ist halb so lang. Ein halb so langer Impuls dreht den Motor nur um ein Zwanzigstel einer Umdrehung, und bei 25 Impulsen pro Sekunde vollendet der Motor 1,25 Umdrehungen pro Sekunde oder 75 U/min. Durch die Änderung der Impulslänge eines digitalen Signals hast du die Geschwindigkeit eines analogen Motors halbiert.
 

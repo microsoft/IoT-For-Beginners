@@ -37,7 +37,7 @@ In this lesson, we’ll cover:
 
 Text to speech, as the name suggests, is the process of turning text into audio that represents spoken words. The basic idea is to break the text into its individual sounds (called phonemes) and then create audio for those sounds, either using pre-recorded clips or AI-generated audio.
 
-![The three stages of typical text to speech systems](../../../../../translated_images/tts-overview.193843cf3f5ee09f8b3371a9fdaeb0f116698a07ca69daaa77158da4800e5453.en.png)
+![The three stages of typical text to speech systems](../../../../../translated_images/tts-overview.193843cf3f5ee09f.en.png)
 
 Text to speech systems generally have three stages:
 

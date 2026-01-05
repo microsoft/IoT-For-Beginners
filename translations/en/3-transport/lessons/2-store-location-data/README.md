@@ -66,7 +66,7 @@ Databases are services that store and query data. They come in two types: SQL an
 
 The first databases were Relational Database Management Systems (RDBMS), also known as relational databases or SQL databases. They use Structured Query Language (SQL) to add, remove, update, or query data. These databases consist of a schema—a predefined set of tables, similar to a spreadsheet. Each table has multiple named columns. When inserting data, you add a row to the table, filling in values for each column. This creates a rigid structure. While you can leave columns empty, adding a new column requires modifying the database and populating values for existing rows. These databases are relational, meaning one table can relate to another.
 
-![A relational database with the ID of the User table relating to the user ID column of the purchases table, and the ID of the products table relating to the product ID of the purchases table](../../../../../translated_images/sql-database.be160f12bfccefd3ca718a66468c2c4c89c53e5aad4c295324d576da87f9dfdd.en.png)
+![A relational database with the ID of the User table relating to the user ID column of the purchases table, and the ID of the products table relating to the product ID of the purchases table](../../../../../translated_images/sql-database.be160f12bfccefd3.en.png)
 
 For example, if you store a user's personal details in a table, you might assign a unique internal ID to each user. This ID can be used in another table to store details like their purchases. When looking up a user, you can use their ID to retrieve their personal details from one table and their purchases from another.
 
@@ -241,7 +241,7 @@ Your function app now needs to connect to blob storage to store messages from th
 
 In this lesson, you will use the Python SDK to learn how to interact with blob storage.
 
-![Sending GPS telemetry from an IoT device to IoT Hub, then to Azure Functions via an event hub trigger, then saving it to blob storage](../../../../../translated_images/save-telemetry-to-storage-from-functions.ed3b1820980097f143d9f0570072da11304c2bc7906359dfa075b4d9b253c20f.en.png)
+![Sending GPS telemetry from an IoT device to IoT Hub, then to Azure Functions via an event hub trigger, then saving it to blob storage](../../../../../translated_images/save-telemetry-to-storage-from-functions.ed3b1820980097f1.en.png)
 
 The data will be saved as a JSON blob with the following format:
 

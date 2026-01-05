@@ -61,7 +61,7 @@ The latest advancements in sorting machines leverage AI and ML. These systems us
 
 Traditional programming involves taking data, applying an algorithm, and producing an output. For example, in the previous project, you used GPS coordinates and a geofence, applied an algorithm provided by Azure Maps, and determined whether the point was inside or outside the geofence. More data input results in more output.
 
-![Traditional development takes input and an algorithm and gives output. Machine learning uses input and output data to train a model, and this model can take new input data to generate new output](../../../../../translated_images/traditional-vs-ml.5c20c169621fa539ca84a2cd9a49f6ff7410b3a6c6b46c97ff2af3f99db3c66b.en.png)
+![Traditional development takes input and an algorithm and gives output. Machine learning uses input and output data to train a model, and this model can take new input data to generate new output](../../../../../translated_images/traditional-vs-ml.5c20c169621fa539.en.png)
 
 Machine learning flips this process—you start with data and known outputs, and the machine learning algorithm learns from the data. The trained algorithm, called a *machine learning model* or simply *model*, can then process new data to generate new outputs.
 
@@ -87,7 +87,7 @@ Training an image classifier typically requires millions of images. However, onc
 
 A pre-trained image classifier is already adept at recognizing shapes, colors, and patterns. Transfer learning allows the model to apply this knowledge to identify new objects.
 
-![Once you can recognize shapes, they can be put into different configurations to make a boat or a cat](../../../../../translated_images/shapes-to-images.1a309f0ea88dd66fafa4da6d38e88806ce174cc6a88081efb32852230ed55de8.en.png)
+![Once you can recognize shapes, they can be put into different configurations to make a boat or a cat](../../../../../translated_images/shapes-to-images.1a309f0ea88dd66f.en.png)
 
 Think of it like children's shape books—once you can identify a semi-circle, rectangle, and triangle, you can recognize a sailboat or a cat based on how the shapes are arranged. Similarly, an image classifier recognizes shapes, and transfer learning teaches it how these shapes combine to form objects like a ripe banana.
 

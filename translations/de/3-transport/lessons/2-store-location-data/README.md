@@ -66,7 +66,7 @@ Datenbanken sind Dienste, die es ermöglichen, Daten zu speichern und abzufragen
 
 Die ersten Datenbanken waren relationale Datenbankmanagementsysteme (RDBMS) oder relationale Datenbanken. Diese werden auch als SQL-Datenbanken bezeichnet, da sie die Structured Query Language (SQL) verwenden, um Daten hinzuzufügen, zu entfernen, zu aktualisieren oder abzufragen. Diese Datenbanken bestehen aus einem Schema – einer klar definierten Menge von Datentabellen, ähnlich einer Tabellenkalkulation. Jede Tabelle hat mehrere benannte Spalten. Wenn Sie Daten einfügen, fügen Sie der Tabelle eine Zeile hinzu und geben Werte in jede der Spalten ein. Dies hält die Daten in einer sehr starren Struktur – obwohl Sie Spalten leer lassen können, müssen Sie, wenn Sie eine neue Spalte hinzufügen möchten, dies in der Datenbank tun und Werte für die vorhandenen Zeilen einfügen. Diese Datenbanken sind relational – eine Tabelle kann eine Beziehung zu einer anderen haben.
 
-![Eine relationale Datenbank, bei der die ID der Benutzertabelle mit der Benutzer-ID-Spalte der Kauf-Tabelle und die ID der Produkttabelle mit der Produkt-ID der Kauf-Tabelle verknüpft ist](../../../../../translated_images/sql-database.be160f12bfccefd3ca718a66468c2c4c89c53e5aad4c295324d576da87f9dfdd.de.png)
+![Eine relationale Datenbank, bei der die ID der Benutzertabelle mit der Benutzer-ID-Spalte der Kauf-Tabelle und die ID der Produkttabelle mit der Produkt-ID der Kauf-Tabelle verknüpft ist](../../../../../translated_images/sql-database.be160f12bfccefd3.de.png)
 
 Wenn Sie beispielsweise die persönlichen Daten eines Benutzers in einer Tabelle speichern, hätten Sie eine Art interne eindeutige ID pro Benutzer, die in einer Zeile einer Tabelle verwendet wird, die den Namen und die Adresse des Benutzers enthält. Wenn Sie dann andere Details zu diesem Benutzer speichern möchten, wie z. B. seine Einkäufe, in einer anderen Tabelle, hätten Sie eine Spalte in der neuen Tabelle für die Benutzer-ID. Wenn Sie einen Benutzer suchen, können Sie seine ID verwenden, um seine persönlichen Daten aus einer Tabelle und seine Einkäufe aus einer anderen zu erhalten.
 
@@ -241,7 +241,7 @@ Ihre Functions-App muss nun eine Verbindung zum Blob-Speicher herstellen, um die
 
 In dieser Lektion verwenden Sie das Python-SDK, um zu sehen, wie Sie mit dem Blob-Speicher interagieren können.
 
-![Senden von GPS-Telemetrie von einem IoT-Gerät an den IoT-Hub, dann an Azure Functions über einen Event-Hub-Auslöser und schließlich Speichern im Blob-Speicher](../../../../../translated_images/save-telemetry-to-storage-from-functions.ed3b1820980097f143d9f0570072da11304c2bc7906359dfa075b4d9b253c20f.de.png)
+![Senden von GPS-Telemetrie von einem IoT-Gerät an den IoT-Hub, dann an Azure Functions über einen Event-Hub-Auslöser und schließlich Speichern im Blob-Speicher](../../../../../translated_images/save-telemetry-to-storage-from-functions.ed3b1820980097f1.de.png)
 
 Die Daten werden als JSON-Blob im folgenden Format gespeichert:
 

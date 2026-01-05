@@ -115,7 +115,7 @@ Für den Prototyp werden Sie all dies auf einem einzigen Gerät implementieren. 
 
 Das IoT-Gerät benötigt eine Art Auslöser, um anzuzeigen, wann Obst bereit ist, klassifiziert zu werden. Ein möglicher Auslöser wäre, zu messen, wann das Obst an der richtigen Position auf dem Förderband ist, indem der Abstand zu einem Sensor gemessen wird.
 
-![Näherungssensoren senden Laserstrahlen zu Objekten wie Bananen und messen die Zeit, bis der Strahl zurückgeworfen wird](../../../../../translated_images/proximity-sensor.f5cd752c77fb62fea000156233b32fd24fad3707ec69b8bdd8d312b7af85156d.de.png)
+![Näherungssensoren senden Laserstrahlen zu Objekten wie Bananen und messen die Zeit, bis der Strahl zurückgeworfen wird](../../../../../translated_images/proximity-sensor.f5cd752c77fb62fe.de.png)
 
 Näherungssensoren können verwendet werden, um den Abstand vom Sensor zu einem Objekt zu messen. Sie senden normalerweise einen Strahl elektromagnetischer Strahlung wie einen Laserstrahl oder Infrarotlicht aus und erkennen dann die Strahlung, die von einem Objekt reflektiert wird. Die Zeit zwischen dem Senden des Laserstrahls und dem Zurückkommen des Signals kann verwendet werden, um den Abstand zum Sensor zu berechnen.
 

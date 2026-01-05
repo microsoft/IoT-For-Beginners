@@ -33,7 +33,7 @@ Connect the temperature sensor.
 
 1. With the Wio Terminal disconnected from your computer or other power source, connect the other end of the Grove cable to the right-hand Grove socket on the Wio Terminal as you face the screen. This is the socket farthest from the power button.
 
-![The grove temperature sensor connected to the right hand socket](../../../../../translated_images/wio-temperature-sensor.2934928f38c7f79a68d24879d2c8986c78244696f931e2e33c293f426ecdc0ad.en.png)
+![The grove temperature sensor connected to the right hand socket](../../../../../translated_images/wio-temperature-sensor.2934928f38c7f79a.en.png)
 
 ## Program the temperature sensor
 

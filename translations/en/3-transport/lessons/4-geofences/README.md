@@ -110,7 +110,7 @@ Each point in the polygon is represented as a longitude-latitude pair in an arra
 
 The polygon's coordinates array always includes one extra entry to close the shape, with the last point being the same as the first. For example, a rectangle would have five points.
 
-![A rectangle with coordinates](../../../../../translated_images/polygon-points.302193da381cb415f46c2c7a98496ee4be05d6c73d21238a89721ad93e121233.en.png)
+![A rectangle with coordinates](../../../../../translated_images/polygon-points.302193da381cb415.en.png)
 
 In the image above, the rectangle's polygon coordinates start at the top-left corner (47,-122), move to the top-right (47,-121), then to the bottom-right (46,-121), bottom-left (46,-122), and finally back to the top-left (47,-122) to close the shape. This results in five points.
 
@@ -208,7 +208,7 @@ You can also specify a `searchBuffer` value, which determines the accuracy of th
 
 The API response includes a `distance` value indicating the proximity to the geofence's edge. Positive values mean the point is outside the geofence, while negative values mean it's inside. If the distance is less than the search buffer, the actual distance (in meters) is returned. Otherwise, the value is 999 (outside) or -999 (inside).
 
-![A geofence with a 50m search buffer around it](../../../../../translated_images/search-buffer-and-distance.e6a79af3898183c7b2ef6fbf12271b8b34afd23969bb946962b1b18d3d2635e8.en.png)
+![A geofence with a 50m search buffer around it](../../../../../translated_images/search-buffer-and-distance.e6a79af3898183c7.en.png)
 
 In the image above, the geofence has a 50m search buffer:
 

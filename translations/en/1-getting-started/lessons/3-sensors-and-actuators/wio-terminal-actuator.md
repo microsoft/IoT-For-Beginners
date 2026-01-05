@@ -51,7 +51,7 @@ Connect the LED.
 
     > 💁 The right-hand Grove socket can be used with analog or digital sensors and actuators. The left-hand socket is for I2C and digital sensors and actuators only. I2C will be covered in a later lesson.
 
-![The grove LED connected to the right hand socket](../../../../../translated_images/wio-led.265a1897e72d7f21c753257516a4b677d8e30ce2b95fee98189458b3275ba0a6.en.png)
+![The grove LED connected to the right hand socket](../../../../../translated_images/wio-led.265a1897e72d7f21.en.png)
 
 ## Program the nightlight
 

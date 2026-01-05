@@ -154,11 +154,11 @@ Erstellen Sie eine Python-Anwendung, die `"Hello World"` in der Konsole ausgibt.
 
 1. Wenn VS Code startet, wird die Python-virtuelle Umgebung aktiviert. Die ausgewählte virtuelle Umgebung wird in der unteren Statusleiste angezeigt:
 
-    ![VS Code zeigt die ausgewählte virtuelle Umgebung an](../../../../../translated_images/vscode-virtual-env.8ba42e04c3d533cf677e16cbe5ed9a3b80f62c6964472dc84b6f940800f0909f.de.png)
+    ![VS Code zeigt die ausgewählte virtuelle Umgebung an](../../../../../translated_images/vscode-virtual-env.8ba42e04c3d533cf.de.png)
 
 1. Wenn das VS Code-Terminal bereits läuft, wenn VS Code startet, wird die virtuelle Umgebung darin nicht aktiviert. Am einfachsten ist es, das Terminal mit der Schaltfläche **Aktives Terminal beenden** zu schließen:
 
-    ![VS Code-Schaltfläche zum Beenden des aktiven Terminals](../../../../../translated_images/vscode-kill-terminal.1cc4de7c6f25ee08f423f0ead714e61d069fac1eb2089e97b8a7bbcb3d45fe5e.de.png)
+    ![VS Code-Schaltfläche zum Beenden des aktiven Terminals](../../../../../translated_images/vscode-kill-terminal.1cc4de7c6f25ee08.de.png)
 
     Sie können erkennen, ob das Terminal die virtuelle Umgebung aktiviert hat, da der Name der virtuellen Umgebung ein Präfix in der Terminal-Eingabeaufforderung ist. Zum Beispiel könnte es so aussehen:
 
@@ -229,7 +229,7 @@ Als zweiten "Hallo Welt"-Schritt starten Sie die CounterFit-App und verbinden Ih
 
 1. Sie müssen ein neues VS Code-Terminal starten, indem Sie die Schaltfläche **Neues integriertes Terminal erstellen** auswählen. Dies liegt daran, dass die CounterFit-App im aktuellen Terminal läuft.
 
-    ![VS Code-Schaltfläche zum Erstellen eines neuen integrierten Terminals](../../../../../translated_images/vscode-new-terminal.77db8fc0f9cd31824b0e49a201beafe4ae4616d6c7339992cb2819e789b3eff9.de.png)
+    ![VS Code-Schaltfläche zum Erstellen eines neuen integrierten Terminals](../../../../../translated_images/vscode-new-terminal.77db8fc0f9cd3182.de.png)
 
 1. Führen Sie in diesem neuen Terminal die Datei `app.py` wie zuvor aus. Der Status von CounterFit ändert sich zu **Connected**, und die LED leuchtet auf.
 

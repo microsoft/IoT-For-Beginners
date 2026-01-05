@@ -61,7 +61,7 @@ Die neuesten Entwicklungen dieser Sortiermaschinen nutzen KI und ML, indem sie M
 
 Traditionelle Programmierung bedeutet, dass Sie Daten nehmen, einen Algorithmus darauf anwenden und ein Ergebnis erhalten. Im letzten Projekt haben Sie beispielsweise GPS-Koordinaten und einen Geofence verwendet, einen von Azure Maps bereitgestellten Algorithmus angewendet und ein Ergebnis erhalten, ob der Punkt innerhalb oder außerhalb des Geofence liegt. Sie geben mehr Daten ein, und Sie erhalten mehr Ergebnisse.
 
-![Traditionelle Entwicklung nimmt Eingaben und einen Algorithmus und gibt Ergebnisse aus. Maschinelles Lernen verwendet Eingabe- und Ausgabedaten, um ein Modell zu trainieren, und dieses Modell kann neue Eingabedaten verwenden, um neue Ergebnisse zu generieren.](../../../../../translated_images/traditional-vs-ml.5c20c169621fa539ca84a2cd9a49f6ff7410b3a6c6b46c97ff2af3f99db3c66b.de.png)
+![Traditionelle Entwicklung nimmt Eingaben und einen Algorithmus und gibt Ergebnisse aus. Maschinelles Lernen verwendet Eingabe- und Ausgabedaten, um ein Modell zu trainieren, und dieses Modell kann neue Eingabedaten verwenden, um neue Ergebnisse zu generieren.](../../../../../translated_images/traditional-vs-ml.5c20c169621fa539.de.png)
 
 Maschinelles Lernen dreht diesen Prozess um – Sie beginnen mit Daten und bekannten Ergebnissen, und der maschinelle Lernalgorithmus lernt aus den Daten. Sie können dann diesen trainierten Algorithmus, ein sogenanntes *Maschinelles Lernmodell* oder *Modell*, verwenden, um neue Daten einzugeben und neue Ergebnisse zu erhalten.
 
@@ -87,7 +87,7 @@ Um einen Bildklassifikator erfolgreich zu trainieren, benötigen Sie Millionen v
 
 Sobald ein Bildklassifikator für eine Vielzahl von Bildern trainiert wurde, ist er intern hervorragend darin, Formen, Farben und Muster zu erkennen. Transferlernen ermöglicht es dem Modell, das, was es bereits über die Erkennung von Bildteilen gelernt hat, zu nutzen, um neue Bilder zu erkennen.
 
-![Sobald Sie Formen erkennen können, können sie in verschiedenen Konfigurationen zu einem Boot oder einer Katze zusammengesetzt werden.](../../../../../translated_images/shapes-to-images.1a309f0ea88dd66fafa4da6d38e88806ce174cc6a88081efb32852230ed55de8.de.png)
+![Sobald Sie Formen erkennen können, können sie in verschiedenen Konfigurationen zu einem Boot oder einer Katze zusammengesetzt werden.](../../../../../translated_images/shapes-to-images.1a309f0ea88dd66f.de.png)
 
 Das können Sie sich wie Kinderbücher über Formen vorstellen, bei denen Sie, sobald Sie einen Halbkreis, ein Rechteck und ein Dreieck erkennen können, ein Segelboot oder eine Katze je nach Konfiguration dieser Formen erkennen können. Der Bildklassifikator kann die Formen erkennen, und das Transferlernen lehrt ihn, welche Kombination ein Boot oder eine Katze – oder eine reife Banane – ergibt.
 

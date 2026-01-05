@@ -55,11 +55,11 @@ Ein Relais ist ein elektromechanischer Schalter, der ein elektrisches Signal in 
 
 > 🎓 [Elektromagnete](https://wikipedia.org/wiki/Electromagnet) sind Magnete, die durch das Leiten von Elektrizität durch eine Drahtspule erzeugt werden. Wenn der Strom eingeschaltet wird, wird die Spule magnetisiert. Wenn der Strom ausgeschaltet wird, verliert die Spule ihre Magnetisierung.
 
-![Wenn eingeschaltet, erzeugt der Elektromagnet ein Magnetfeld, das den Schalter für den Ausgangskreis einschaltet](../../../../../translated_images/relay-on.4db16a0fd6b669262fd6699aff3fbcd31b6057c06d90411b6bddc06326d1cf75.de.png)
+![Wenn eingeschaltet, erzeugt der Elektromagnet ein Magnetfeld, das den Schalter für den Ausgangskreis einschaltet](../../../../../translated_images/relay-on.4db16a0fd6b66926.de.png)
 
 In einem Relais versorgt ein Steuerkreis den Elektromagneten mit Strom. Wenn der Elektromagnet eingeschaltet ist, zieht er einen Hebel, der einen Schalter bewegt, ein Paar Kontakte schließt und einen Ausgangskreis vervollständigt.
 
-![Wenn ausgeschaltet, erzeugt der Elektromagnet kein Magnetfeld, das den Schalter für den Ausgangskreis ausschaltet](../../../../../translated_images/relay-off.c34a178a2960fecdc3c6400d43e633ed11c6746cd653cfb4a768fa097c40394c.de.png)
+![Wenn ausgeschaltet, erzeugt der Elektromagnet kein Magnetfeld, das den Schalter für den Ausgangskreis ausschaltet](../../../../../translated_images/relay-off.c34a178a2960fecd.de.png)
 
 Wenn der Steuerkreis ausgeschaltet ist, schaltet sich der Elektromagnet aus, gibt den Hebel frei und öffnet die Kontakte, wodurch der Ausgangskreis ausgeschaltet wird. Relais sind digitale Aktoren – ein hohes Signal schaltet das Relais ein, ein niedriges Signal schaltet es aus.
 
@@ -85,7 +85,7 @@ Der Elektromagnet benötigt nicht viel Strom, um aktiviert zu werden und den Heb
 
 Das obige Bild zeigt ein Grove-Relais. Der Steuerkreis wird an ein IoT-Gerät angeschlossen und schaltet das Relais mit 3,3V oder 5V ein oder aus. Der Ausgangskreis hat zwei Anschlüsse, von denen einer Strom oder Masse sein kann. Der Ausgangskreis kann bis zu 250V bei 10A handhaben, genug für eine Reihe von netzbetriebenen Geräten. Es gibt Relais, die noch höhere Leistungsstufen bewältigen können.
 
-![Eine Pumpe, die über ein Relais verdrahtet ist](../../../../../translated_images/pump-wired-to-relay.66c5cfc0d89189900cd601777f5caeb39ee35c6250f6c86bf38feaceedb21fe9.de.png)
+![Eine Pumpe, die über ein Relais verdrahtet ist](../../../../../translated_images/pump-wired-to-relay.66c5cfc0d8918990.de.png)
 
 Im obigen Bild wird eine Pumpe über ein Relais mit Strom versorgt. Ein rotes Kabel verbindet den +5V-Anschluss einer USB-Stromversorgung mit einem Anschluss des Ausgangskreises des Relais, und ein weiteres rotes Kabel verbindet den anderen Anschluss des Ausgangskreises mit der Pumpe. Ein schwarzes Kabel verbindet die Pumpe mit der Masse der USB-Stromversorgung. Wenn das Relais eingeschaltet wird, schließt es den Stromkreis, sendet 5V an die Pumpe und schaltet die Pumpe ein.
 
@@ -135,7 +135,7 @@ In Lektion 3 haben Sie ein Nachtlicht gebaut – eine LED, die sich einschaltet,
 
 Wenn Sie die letzte Lektion zur Bodenfeuchtigkeit mit einem physischen Sensor durchgeführt haben, haben Sie möglicherweise bemerkt, dass es einige Sekunden dauerte, bis der Bodenfeuchtigkeitswert nach dem Gießen Ihrer Pflanze sank. Dies liegt nicht daran, dass der Sensor langsam ist, sondern daran, dass es Zeit braucht, bis das Wasser in den Boden einsickert.
 💁 Wenn Sie zu nah am Sensor gegossen haben, haben Sie möglicherweise bemerkt, dass die Messwerte schnell gesunken und dann wieder gestiegen sind – dies wird dadurch verursacht, dass das Wasser in der Nähe des Sensors sich im restlichen Boden verteilt und die Bodenfeuchtigkeit am Sensor verringert.
-![Eine Bodenfeuchtigkeitsmessung von 658 ändert sich während des Bewässerns nicht, sie sinkt erst auf 320, nachdem das Wasser durch den Boden gesickert ist](../../../../../translated_images/soil-moisture-travel.a0e31af222cf14385de5380dfc32c7b8213960965228b8e4f7b7ab7f73b310a3.de.png)
+![Eine Bodenfeuchtigkeitsmessung von 658 ändert sich während des Bewässerns nicht, sie sinkt erst auf 320, nachdem das Wasser durch den Boden gesickert ist](../../../../../translated_images/soil-moisture-travel.a0e31af222cf1438.de.png)
 
 Im obigen Diagramm zeigt eine Bodenfeuchtigkeitsmessung 658 an. Die Pflanze wird bewässert, aber dieser Wert ändert sich nicht sofort, da das Wasser den Sensor noch nicht erreicht hat. Das Bewässern kann sogar abgeschlossen sein, bevor das Wasser den Sensor erreicht und der Wert sinkt, um den neuen Feuchtigkeitsstand widerzuspiegeln.
 
@@ -157,11 +157,11 @@ Wie lange sollte das Relais jedes Mal eingeschaltet sein? Es ist besser, vorsich
 
 > 💁 Diese Art der Zeitsteuerung ist sehr spezifisch für das IoT-Gerät, das Sie entwickeln, die Eigenschaft, die Sie messen, sowie die verwendeten Sensoren und Aktuatoren.
 
-![Eine Erdbeerpflanze, die über eine Pumpe mit Wasser verbunden ist, wobei die Pumpe mit einem Relais verbunden ist. Das Relais und ein Bodenfeuchtigkeitssensor in der Pflanze sind beide mit einem Raspberry Pi verbunden](../../../../../translated_images/strawberry-with-pump.b410fc72ac6aabad3e28de9775bf2393ead73dcfec6fd8c9bc01cf107ecd171a.de.png)
+![Eine Erdbeerpflanze, die über eine Pumpe mit Wasser verbunden ist, wobei die Pumpe mit einem Relais verbunden ist. Das Relais und ein Bodenfeuchtigkeitssensor in der Pflanze sind beide mit einem Raspberry Pi verbunden](../../../../../translated_images/strawberry-with-pump.b410fc72ac6aabad.de.png)
 
 Zum Beispiel habe ich eine Erdbeerpflanze mit einem Bodenfeuchtigkeitssensor und einer Pumpe, die von einem Relais gesteuert wird. Ich habe beobachtet, dass es etwa 20 Sekunden dauert, bis sich die Bodenfeuchtigkeitsmessung stabilisiert, wenn ich Wasser hinzufüge. Das bedeutet, dass ich das Relais ausschalten und 20 Sekunden warten muss, bevor ich die Feuchtigkeitswerte überprüfe. Ich habe lieber zu wenig Wasser als zu viel – ich kann die Pumpe jederzeit wieder einschalten, aber ich kann kein Wasser aus der Pflanze entfernen.
 
-![Schritt 1: Messung durchführen. Schritt 2: Wasser hinzufügen. Schritt 3: Warten, bis das Wasser durch den Boden gesickert ist. Schritt 4: Messung erneut durchführen](../../../../../translated_images/soil-moisture-delay.865f3fae206db01d5f8f100f4f44040215d44a0412dd3450aef7ff7b93b6d273.de.png)
+![Schritt 1: Messung durchführen. Schritt 2: Wasser hinzufügen. Schritt 3: Warten, bis das Wasser durch den Boden gesickert ist. Schritt 4: Messung erneut durchführen](../../../../../translated_images/soil-moisture-delay.865f3fae206db01d.de.png)
 
 Das bedeutet, dass der beste Prozess für einen Bewässerungszyklus etwa so aussieht:
 

@@ -35,7 +35,7 @@ Connect the time of flight sensor.
 
 2. With the Wio Terminal disconnected from your computer or other power source, connect the other end of the Grove cable to the left-hand Grove socket on the Wio Terminal as you face the screen. This socket is closest to the power button. It is a combined digital and I2C socket.
 
-![The grove time of flight sensor connected to the left-hand socket](../../../../../translated_images/wio-time-of-flight-sensor.c4c182131d2ea73df67febd004dc0313d271013d016be9c47e7da4d77c6c20a8.en.png)
+![The grove time of flight sensor connected to the left-hand socket](../../../../../translated_images/wio-time-of-flight-sensor.c4c182131d2ea73d.en.png)
 
 3. You can now connect the Wio Terminal to your computer.
 
@@ -101,7 +101,7 @@ The Wio Terminal can now be programmed to use the attached time of flight sensor
 
     The rangefinder is located on the back of the sensor, so ensure you use the correct side when measuring distance.
 
-    ![The rangefinder on the back of the time of flight sensor pointing at a banana](../../../../../translated_images/time-of-flight-banana.079921ad8b1496e4525dc26b4cdc71a076407aba3e72ba113ba2e38febae92c5.en.png)
+    ![The rangefinder on the back of the time of flight sensor pointing at a banana](../../../../../translated_images/time-of-flight-banana.079921ad8b1496e4.en.png)
 
 > 💁 You can find this code in the [code-proximity/wio-terminal](../../../../../4-manufacturing/lessons/4-trigger-fruit-detector/code-proximity/wio-terminal) folder.
 

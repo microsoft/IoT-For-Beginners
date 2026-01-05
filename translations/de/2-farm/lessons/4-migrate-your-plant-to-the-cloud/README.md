@@ -72,7 +72,7 @@ Der Cloud-Anbieter kann dann Skaleneffekte nutzen, um die Kosten zu senken, inde
 
 Azure ist die Entwickler-Cloud von Microsoft, und dies ist die Cloud, die Sie für diese Lektionen verwenden werden. Das folgende Video gibt einen kurzen Überblick über Azure:
 
-[![Übersicht über Azure Video](../../../../../translated_images/what-is-azure-video-thumbnail.20174db09e03bbb87d213f928d3cb27410305d2e567e952827de8478dbda959b.de.png)](https://www.microsoft.com/videoplayer/embed/RE4Ibng?WT.mc_id=academic-17441-jabenn)
+[![Übersicht über Azure Video](../../../../../translated_images/what-is-azure-video-thumbnail.20174db09e03bbb8.de.png)](https://www.microsoft.com/videoplayer/embed/RE4Ibng?WT.mc_id=academic-17441-jabenn)
 
 ## Erstellen Sie ein Cloud-Abonnement
 

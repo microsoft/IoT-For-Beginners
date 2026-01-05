@@ -77,7 +77,7 @@ A microcontroller (MCU) is a small computer that includes:
 
 Microcontrollers are cost-effective, with prices for custom hardware versions averaging around $0.50, and some as low as $0.03. Developer kits start at about $4, with prices increasing as features are added. The [Wio Terminal](https://www.seeedstudio.com/Wio-Terminal-p-4509.html), a microcontroller developer kit from [Seeed Studios](https://www.seeedstudio.com), costs around $30 and includes sensors, actuators, WiFi, and a screen.
 
-![A Wio Terminal](../../../../../translated_images/wio-terminal.b8299ee16587db9aa9e05fabf9721bccd9eb8fb541b7c1a8267241282d81b603.en.png)
+![A Wio Terminal](../../../../../translated_images/wio-terminal.b8299ee16587db9a.en.png)
 
 > 💁 When searching for microcontrollers online, be cautious with the term **MCU**, as it often brings up results for the Marvel Cinematic Universe instead of microcontrollers.
 
@@ -91,7 +91,7 @@ Developer kits often include built-in sensors and actuators, such as LEDs or tem
 
 A single-board computer is a compact device that functions as a complete computer on a single board. These devices are similar to desktop or laptop PCs but are smaller, consume less power, and are much cheaper.
 
-![A Raspberry Pi 4](../../../../../translated_images/raspberry-pi-4.fd4590d308c3d456db1327e86b395ddcd735513267aafd4879ea2785f7792eac.en.jpg)
+![A Raspberry Pi 4](../../../../../translated_images/raspberry-pi-4.fd4590d308c3d456.en.jpg)
 
 The Raspberry Pi is one of the most popular single-board computers.
 

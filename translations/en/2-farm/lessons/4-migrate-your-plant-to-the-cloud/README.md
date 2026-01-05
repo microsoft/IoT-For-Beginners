@@ -72,7 +72,7 @@ Cloud providers leverage economies of scale to lower costs, buying hardware in b
 
 Azure is Microsoft's developer-focused cloud platform, and it's the cloud you'll use in these lessons. The video below provides a brief overview of Azure:
 
-[![Overview of Azure video](../../../../../translated_images/what-is-azure-video-thumbnail.20174db09e03bbb87d213f928d3cb27410305d2e567e952827de8478dbda959b.en.png)](https://www.microsoft.com/videoplayer/embed/RE4Ibng?WT.mc_id=academic-17441-jabenn)
+[![Overview of Azure video](../../../../../translated_images/what-is-azure-video-thumbnail.20174db09e03bbb8.en.png)](https://www.microsoft.com/videoplayer/embed/RE4Ibng?WT.mc_id=academic-17441-jabenn)
 
 ## Create a cloud subscription
 

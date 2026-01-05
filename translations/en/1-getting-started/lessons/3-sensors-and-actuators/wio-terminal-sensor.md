@@ -17,7 +17,7 @@ The sensor for this lesson is a **light sensor** that uses a [photodiode](https:
 
 The light sensor is integrated into the Wio Terminal and can be seen through the transparent plastic window on the back.
 
-![The light sensor on the back of the Wio Terminal](../../../../../translated_images/wio-light-sensor.b1f529f3c95f51654f2e2c1d2d4b55fe547d189f588c974f5c2462c728133840.en.png)
+![The light sensor on the back of the Wio Terminal](../../../../../translated_images/wio-light-sensor.b1f529f3c95f5165.en.png)
 
 ## Program the light sensor
 

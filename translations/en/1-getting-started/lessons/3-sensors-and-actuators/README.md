@@ -75,7 +75,7 @@ Analog sensors are among the simplest types. They receive a voltage from the IoT
 
 A potentiometer is an example of an analog sensor. It’s a dial that can be rotated between two positions, and the sensor measures the rotation.
 
-![A potentiometer set to a mid point being sent 5 volts returning 3.8 volts](../../../../../translated_images/potentiometer.35a348b9ce22f6ec1199ad37d68692d04185456ccbc2541a454bb6698be9f19c.en.png)
+![A potentiometer set to a mid point being sent 5 volts returning 3.8 volts](../../../../../translated_images/potentiometer.35a348b9ce22f6ec.en.png)
 
 The IoT device sends an electrical signal to the potentiometer, such as 5 volts (5V). As the potentiometer is adjusted, it changes the voltage that comes out. For example, if the potentiometer is set to the "off" position, 0V will come out. If it’s set to the "on" position, 5V will come out.
 
@@ -112,7 +112,7 @@ IoT devices can directly measure this signal as 0 or 1. If the voltage sent matc
 
 More advanced digital sensors measure analog values and convert them to digital signals using built-in ADCs. For example, a digital temperature sensor uses a thermocouple to measure voltage changes caused by temperature. Instead of returning an analog value, it converts the reading to digital data and sends it to the IoT device.
 
-![A digital temperature sensor converting an analog reading to binary data with 0 as 0 volts and 1 as 5 volts before sending it to an IoT device](../../../../../translated_images/temperature-as-digital.85004491b977bae1129707df107c0b19fe6fc6374210e9027e04acb34a640c78.en.png)
+![A digital temperature sensor converting an analog reading to binary data with 0 as 0 volts and 1 as 5 volts before sending it to an IoT device](../../../../../translated_images/temperature-as-digital.85004491b977bae1.en.png)
 
 Digital sensors can send more detailed or even encrypted data. For example, a camera captures images and sends them as digital data, often in a compressed format like JPEG. It can also stream video by sending frames or compressed video streams.
 
@@ -164,7 +164,7 @@ For instance, PWM can be used to control the speed of a motor.
 
 Imagine controlling a motor powered by a 5V supply. You send a short pulse to the motor, switching the voltage to high (5V) for 0.02 seconds. During this time, the motor rotates one-tenth of a turn, or 36°. The signal then pauses for 0.02 seconds, sending a low signal (0V). Each on-off cycle lasts 0.04 seconds, and the cycle repeats.
 
-![Pulse width modulation rotation of a motor at 150 RPM](../../../../../translated_images/pwm-motor-150rpm.83347ac04ca38482bd120939b133803963c9c15ca9d8d484712a4bd92820f6a4.en.png)
+![Pulse width modulation rotation of a motor at 150 RPM](../../../../../translated_images/pwm-motor-150rpm.83347ac04ca38482.en.png)
 
 This means that in one second, you send 25 pulses of 5V, each lasting 0.02 seconds, causing the motor to rotate. Each pulse is followed by a 0.02-second pause at 0V, during which the motor does not rotate. Since each pulse rotates the motor by one-tenth of a turn, the motor completes 2.5 rotations per second. Using a digital signal, you've made the motor rotate at 2.5 rotations per second, or 150 [revolutions per minute](https://wikipedia.org/wiki/Revolutions_per_minute) (a common measure of rotational speed).
 
@@ -175,7 +175,7 @@ This means that in one second, you send 25 pulses of 5V, each lasting 0.02 secon
 
 > 🎓 When a PWM signal is on for half the time and off for the other half, it is called a [50% duty cycle](https://wikipedia.org/wiki/Duty_cycle). Duty cycles are expressed as the percentage of time the signal is in the "on" state compared to the "off" state.
 
-![Pulse width modulation rotation of a motor at 75 RPM](../../../../../translated_images/pwm-motor-75rpm.a5e4c939934b6e14fd9e98e4f2c9539d723da2b18f490eae0948dd044d18ff7e.en.png)
+![Pulse width modulation rotation of a motor at 75 RPM](../../../../../translated_images/pwm-motor-75rpm.a5e4c939934b6e14.en.png)
 
 You can adjust the motor speed by changing the duration of the pulses. For example, using the same motor, you can keep the cycle time at 0.04 seconds but reduce the "on" pulse to 0.01 seconds and increase the "off" pulse to 0.03 seconds. This results in the same number of pulses per second (25), but each "on" pulse is half as long. A shorter pulse rotates the motor by one-twentieth of a turn, and at 25 pulses per second, the motor completes 1.25 rotations per second, or 75 RPM. By modifying the pulse duration of a digital signal, you've halved the speed of an analog motor.
 

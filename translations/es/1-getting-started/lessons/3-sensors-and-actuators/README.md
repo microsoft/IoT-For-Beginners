@@ -75,7 +75,7 @@ Algunos de los sensores más básicos son analógicos. Estos sensores reciben un
 
 Un ejemplo de esto es un potenciómetro. Este es un dial que puedes girar entre dos posiciones y el sensor mide la rotación.
 
-![Un potenciómetro ajustado a un punto medio siendo enviado 5 voltios y devolviendo 3.8 voltios](../../../../../translated_images/potentiometer.35a348b9ce22f6ec1199ad37d68692d04185456ccbc2541a454bb6698be9f19c.es.png)
+![Un potenciómetro ajustado a un punto medio siendo enviado 5 voltios y devolviendo 3.8 voltios](../../../../../translated_images/potentiometer.35a348b9ce22f6ec.es.png)
 
 El dispositivo IoT enviará una señal eléctrica al potenciómetro a un voltaje, como 5 voltios (5V). A medida que se ajusta el potenciómetro, cambia el voltaje que sale del otro lado. Imagina que tienes un potenciómetro etiquetado como un dial que va de 0 a [11](https://wikipedia.org/wiki/Up_to_eleven), como un control de volumen en un amplificador. Cuando el potenciómetro está en la posición completamente apagada (0), entonces saldrán 0V (0 voltios). Cuando está en la posición completamente encendida (11), saldrán 5V (5 voltios).
 
@@ -112,7 +112,7 @@ Los pines en dispositivos IoT como los pines GPIO pueden medir esta señal direc
 
 Los sensores digitales más avanzados leen valores analógicos y luego los convierten utilizando ADCs integrados en señales digitales. Por ejemplo, un sensor de temperatura digital aún utilizará un termopar de la misma manera que un sensor analógico y aún medirá el cambio en el voltaje causado por la resistencia del termopar a la temperatura actual. En lugar de devolver un valor analógico y depender del dispositivo o placa conectora para convertirlo en una señal digital, un ADC incorporado en el sensor convertirá el valor y lo enviará como una serie de 0s y 1s al dispositivo IoT. Estos 0s y 1s se envían de la misma manera que la señal digital de un botón, con 1 siendo el voltaje completo y 0 siendo 0V.
 
-![Un sensor de temperatura digital convierte una lectura analógica en datos binarios con 0 como 0 voltios y 1 como 5 voltios antes de enviarlo a un dispositivo IoT](../../../../../translated_images/temperature-as-digital.85004491b977bae1129707df107c0b19fe6fc6374210e9027e04acb34a640c78.es.png)
+![Un sensor de temperatura digital convierte una lectura analógica en datos binarios con 0 como 0 voltios y 1 como 5 voltios antes de enviarlo a un dispositivo IoT](../../../../../translated_images/temperature-as-digital.85004491b977bae1.es.png)
 
 Enviar datos digitales permite que los sensores sean más complejos y envíen datos más detallados, incluso datos encriptados para sensores seguros. Un ejemplo es una cámara. Este es un sensor que captura una imagen y la envía como datos digitales que contienen esa imagen, generalmente en un formato comprimido como JPEG, para ser leído por el dispositivo IoT. Incluso puede transmitir video capturando imágenes y enviando ya sea el marco completo imagen por imagen o una transmisión de video comprimida.
 
@@ -164,7 +164,7 @@ Por ejemplo, puedes usar PWM para controlar la velocidad de un motor.
 
 Imagina que estás controlando un motor con un suministro de 5V. Envías un pulso corto a tu motor, cambiando el voltaje a alto (5V) durante dos centésimas de segundo (0.02s). En ese tiempo, tu motor puede girar una décima de vuelta, o 36°. Luego, la señal se detiene durante dos centésimas de segundo (0.02s), enviando una señal baja (0V). Cada ciclo de encendido y apagado dura 0.04s. El ciclo se repite.
 
-![Rotación de un motor con modulación por ancho de pulso a 150 RPM](../../../../../translated_images/pwm-motor-150rpm.83347ac04ca38482bd120939b133803963c9c15ca9d8d484712a4bd92820f6a4.es.png)
+![Rotación de un motor con modulación por ancho de pulso a 150 RPM](../../../../../translated_images/pwm-motor-150rpm.83347ac04ca38482.es.png)
 
 Esto significa que en un segundo tienes 25 pulsos de 5V de 0.02s que hacen girar el motor, seguidos de 0.02s de pausa de 0V en los que el motor no gira. Cada pulso hace que el motor gire una décima de vuelta, lo que significa que el motor completa 2.5 vueltas por segundo. Has usado una señal digital para hacer girar el motor a 2.5 vueltas por segundo, o 150 [revoluciones por minuto](https://wikipedia.org/wiki/Revolutions_per_minute) (una medida no estándar de velocidad de rotación).
 
@@ -175,7 +175,7 @@ Esto significa que en un segundo tienes 25 pulsos de 5V de 0.02s que hacen girar
 
 > 🎓 Cuando una señal PWM está activa la mitad del tiempo y desactivada la otra mitad, se le llama [ciclo de trabajo del 50%](https://wikipedia.org/wiki/Duty_cycle). Los ciclos de trabajo se miden como el porcentaje de tiempo que la señal está en estado activo en comparación con el estado inactivo.
 
-![Rotación de un motor con modulación por ancho de pulso a 75 RPM](../../../../../translated_images/pwm-motor-75rpm.a5e4c939934b6e14fd9e98e4f2c9539d723da2b18f490eae0948dd044d18ff7e.es.png)
+![Rotación de un motor con modulación por ancho de pulso a 75 RPM](../../../../../translated_images/pwm-motor-75rpm.a5e4c939934b6e14.es.png)
 
 Puedes cambiar la velocidad del motor ajustando el tamaño de los pulsos. Por ejemplo, con el mismo motor puedes mantener el mismo tiempo de ciclo de 0.04s, pero reducir el pulso activo a la mitad (0.01s) y aumentar el pulso inactivo a 0.03s. Tienes el mismo número de pulsos por segundo (25), pero cada pulso activo dura la mitad. Un pulso de la mitad de duración solo hace girar el motor una vigésima parte de una vuelta, y con 25 pulsos por segundo completará 1.25 vueltas por segundo o 75rpm. Al cambiar la duración de los pulsos de una señal digital, has reducido a la mitad la velocidad de un motor analógico.
 

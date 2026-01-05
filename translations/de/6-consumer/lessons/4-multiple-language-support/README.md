@@ -130,7 +130,7 @@ Für diese Lektion benötigen Sie eine Übersetzungsressource. Sie werden die RE
 
 In einer idealen Welt sollte Ihre gesamte Anwendung so viele verschiedene Sprachen wie möglich verstehen, von der Spracherkennung über das Sprachverständnis bis hin zur Antwort mit Sprache. Dies ist viel Arbeit, daher können Übersetzungsdienste die Zeit bis zur Bereitstellung Ihrer Anwendung verkürzen.
 
-![Eine Architektur eines intelligenten Timers, der Japanisch ins Englische übersetzt, die Verarbeitung auf Englisch durchführt und dann zurück ins Japanische übersetzt](../../../../../translated_images/translated-smart-timer.08ac20057fdc5c3778ed41cb425dca5d7fbcd4584b6da7b73ca67115a5b8a883.de.png)
+![Eine Architektur eines intelligenten Timers, der Japanisch ins Englische übersetzt, die Verarbeitung auf Englisch durchführt und dann zurück ins Japanische übersetzt](../../../../../translated_images/translated-smart-timer.08ac20057fdc5c37.de.png)
 
 Stellen Sie sich vor, Sie bauen einen intelligenten Timer, der durchgehend Englisch verwendet, gesprochenes Englisch versteht und in Text umwandelt, das Sprachverständnis auf Englisch durchführt, Antworten auf Englisch erstellt und mit englischer Sprache antwortet. Wenn Sie Unterstützung für Japanisch hinzufügen möchten, könnten Sie damit beginnen, gesprochenes Japanisch in englischen Text zu übersetzen, dann den Kern der Anwendung gleich lassen und die Antworttexte ins Japanische übersetzen, bevor Sie die Antwort sprechen. Dies würde es Ihnen ermöglichen, schnell Unterstützung für Japanisch hinzuzufügen, und Sie können später vollständige End-to-End-Unterstützung für Japanisch bereitstellen.
 

@@ -39,7 +39,7 @@ Objekterkenner können für die Lagerbestandsprüfung verwendet werden, entweder
 
 Beispielsweise, wenn eine Kamera auf ein Regal zeigt, das 8 Dosen Tomatenmark aufnehmen kann, und ein Objekterkenner nur 7 Dosen erkennt, fehlt eine und muss nachgefüllt werden.
 
-![7 Dosen Tomatenmark auf einem Regal, 4 in der oberen Reihe, 3 oben](../../../../../translated_images/stock-7-cans-tomato-paste.f86059cc573d7becaa89a0eafb9d2cd7e2fe37405a530fe565990e2333d0e4a1.de.png)
+![7 Dosen Tomatenmark auf einem Regal, 4 in der oberen Reihe, 3 oben](../../../../../translated_images/stock-7-cans-tomato-paste.f86059cc573d7bec.de.png)
 
 Im obigen Bild hat ein Objekterkenner 7 Dosen Tomatenmark auf einem Regal erkannt, das 8 Dosen aufnehmen kann. Das IoT-Gerät kann nicht nur eine Benachrichtigung über die Notwendigkeit des Nachfüllens senden, sondern auch einen Hinweis auf den Standort des fehlenden Artikels geben, wichtige Daten, wenn Sie Roboter zum Auffüllen von Regalen verwenden.
 
@@ -51,7 +51,7 @@ Manchmal kann das falsche Lager auf den Regalen sein. Dies könnte ein menschlic
 
 Die Objekterkennung kann verwendet werden, um unerwartete Artikel zu erkennen und erneut einen Menschen oder Roboter zu benachrichtigen, den Artikel so schnell wie möglich zurückzubringen.
 
-![Eine fremde Dose Babymais auf dem Tomatenmark-Regal](../../../../../translated_images/stock-rogue-corn.be1f3ada8c4578544641af66671c1711a4c02297f14cc7f503354dae0d30a954.de.png)
+![Eine fremde Dose Babymais auf dem Tomatenmark-Regal](../../../../../translated_images/stock-rogue-corn.be1f3ada8c457854.de.png)
 
 Im obigen Bild wurde eine Dose Babymais neben das Tomatenmark-Regal gestellt. Der Objekterkenner hat dies erkannt, sodass das IoT-Gerät einen Menschen oder Roboter benachrichtigen kann, die Dose an ihren richtigen Platz zurückzubringen.
 

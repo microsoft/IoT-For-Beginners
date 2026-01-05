@@ -51,7 +51,7 @@ Conecta el LED.
 
     > 💁 El enchufe Grove del lado derecho puede usarse con sensores y actuadores analógicos o digitales. El enchufe del lado izquierdo es solo para sensores y actuadores digitales. C se cubrirá en una lección posterior.
 
-![El Grove LED conectado al enchufe del lado derecho](../../../../../translated_images/wio-led.265a1897e72d7f21c753257516a4b677d8e30ce2b95fee98189458b3275ba0a6.es.png)
+![El Grove LED conectado al enchufe del lado derecho](../../../../../translated_images/wio-led.265a1897e72d7f21.es.png)
 
 ## Programa la luz nocturna
 

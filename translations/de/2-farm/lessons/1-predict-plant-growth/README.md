@@ -65,7 +65,7 @@ Jede Pflanzenart hat unterschiedliche Werte für ihre Basis-, optimale und maxim
 
 ✅ Machen Sie etwas Recherche. Für Pflanzen in Ihrem Garten, Ihrer Schule oder Ihrem lokalen Park – können Sie die Basistemperatur herausfinden?
 
-![Ein Diagramm, das zeigt, wie die Wachstumsrate mit steigender Temperatur zunimmt und dann abnimmt, wenn die Temperatur zu hoch wird](../../../../../translated_images/plant-growth-temp-graph.c6d69c9478e6ca832baa8dcb8d4adcbb67304074ce50e94ac8faae95975177f9.de.png)
+![Ein Diagramm, das zeigt, wie die Wachstumsrate mit steigender Temperatur zunimmt und dann abnimmt, wenn die Temperatur zu hoch wird](../../../../../translated_images/plant-growth-temp-graph.c6d69c9478e6ca83.de.png)
 
 Das obige Diagramm zeigt ein Beispiel für ein Wachstumsraten-Temperatur-Diagramm. Bis zur Basistemperatur gibt es kein Wachstum. Die Wachstumsrate steigt bis zur optimalen Temperatur und fällt dann nach Erreichen dieses Höhepunkts ab. Bei der maximalen Temperatur stoppt das Wachstum.
 
@@ -91,7 +91,7 @@ Dieser Code öffnet die CSV-Datei und fügt am Ende eine neue Zeile hinzu. Die Z
 
     
 > 💁 Wenn Sie ein virtuelles IoT-Gerät verwenden, aktivieren Sie das Kontrollkästchen "Zufällig" und legen Sie einen Bereich fest, um zu vermeiden, dass bei jeder Rückgabe des Temperaturwerts immer die gleiche Temperatur angezeigt wird.
-    ![Aktivieren Sie das Kontrollkästchen "Zufällig" und legen Sie einen Bereich fest](../../../../../translated_images/select-the-random-checkbox-and-set-a-range.32cf4bc7c12e797f8c76616b10c7c23a6592321bb1a6310e0b481e72f97d23b3.de.png) 
+    ![Aktivieren Sie das Kontrollkästchen "Zufällig" und legen Sie einen Bereich fest](../../../../../translated_images/select-the-random-checkbox-and-set-a-range.32cf4bc7c12e797f.de.png) 
 
     > 💁 Wenn Sie dies einen ganzen Tag lang ausführen möchten, müssen Sie sicherstellen, dass der Computer, auf dem Ihr Servercode läuft, nicht in den Energiesparmodus wechselt. Ändern Sie dazu entweder Ihre Energieeinstellungen oder führen Sie etwas wie [dieses Python-Skript zum Aktivhalten des Systems](https://github.com/jaqsparow/keep-system-active) aus.
     

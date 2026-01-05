@@ -46,7 +46,7 @@ En esta lección cubriremos:
 
 Existen varios protocolos de comunicación populares que los dispositivos IoT utilizan para comunicarse con Internet. Los más comunes se basan en la mensajería de publicación/suscripción a través de algún tipo de intermediario. Los dispositivos IoT se conectan al intermediario, publican telemetría y se suscriben a comandos. Los servicios en la nube también se conectan al intermediario, se suscriben a todos los mensajes de telemetría y publican comandos, ya sea para dispositivos específicos o para grupos de dispositivos.
 
-![Los dispositivos IoT se conectan a un intermediario, publican telemetría y se suscriben a comandos. Los servicios en la nube se conectan al intermediario, se suscriben a toda la telemetría y envían comandos a dispositivos específicos.](../../../../../translated_images/pub-sub.7c7ed43fe9fd15d4e1f81a3fd95440413c457acd9bcbe9a43341e30e88db5264.es.png)
+![Los dispositivos IoT se conectan a un intermediario, publican telemetría y se suscriben a comandos. Los servicios en la nube se conectan al intermediario, se suscriben a toda la telemetría y envían comandos a dispositivos específicos.](../../../../../translated_images/pub-sub.7c7ed43fe9fd15d4.es.png)
 
 MQTT es el protocolo de comunicación más popular para dispositivos IoT y se cubre en esta lección. Otros protocolos incluyen AMQP y HTTP/HTTPS.
 
@@ -115,7 +115,7 @@ La palabra telemetría proviene de raíces griegas que significan medir de forma
 
 Volvamos al ejemplo del termostato inteligente de la Lección 1.
 
-![Un termostato conectado a Internet utilizando múltiples sensores de habitación](../../../../../translated_images/telemetry.21e5d8b97649d2ebeb0f68d4b9691ab2d1f7bd629338e131465aff8a614e4d4a.es.png)
+![Un termostato conectado a Internet utilizando múltiples sensores de habitación](../../../../../translated_images/telemetry.21e5d8b97649d2eb.es.png)
 
 El termostato tiene sensores de temperatura para recopilar telemetría. Lo más probable es que tenga un sensor de temperatura incorporado, y podría conectarse a múltiples sensores de temperatura externos a través de un protocolo inalámbrico como [Bluetooth Low Energy](https://wikipedia.org/wiki/Bluetooth_Low_Energy) (BLE).
 
@@ -267,11 +267,11 @@ Escribe el código del servidor.
 
 1. Cuando VS Code se inicie, activará el entorno virtual de Python. Esto se mostrará en la barra de estado inferior:
 
-    ![VS Code mostrando el entorno virtual seleccionado](../../../../../translated_images/vscode-virtual-env.8ba42e04c3d533cf677e16cbe5ed9a3b80f62c6964472dc84b6f940800f0909f.es.png)
+    ![VS Code mostrando el entorno virtual seleccionado](../../../../../translated_images/vscode-virtual-env.8ba42e04c3d533cf.es.png)
 
 1. Si el terminal de VS Code ya está ejecutándose cuando VS Code se inicia, no tendrá el entorno virtual activado. Lo más fácil es cerrar el terminal usando el botón **Kill the active terminal instance**:
 
-    ![Botón de cerrar terminal activo en VS Code](../../../../../translated_images/vscode-kill-terminal.1cc4de7c6f25ee08f423f0ead714e61d069fac1eb2089e97b8a7bbcb3d45fe5e.es.png)
+    ![Botón de cerrar terminal activo en VS Code](../../../../../translated_images/vscode-kill-terminal.1cc4de7c6f25ee08.es.png)
 
 1. Lanza un nuevo terminal en VS Code seleccionando *Terminal -> New Terminal*, o presionando `` CTRL+` ``. El nuevo terminal cargará el entorno virtual, con la llamada para activarlo apareciendo en el terminal. El nombre del entorno virtual (`.venv`) también estará en el prompt:
 
