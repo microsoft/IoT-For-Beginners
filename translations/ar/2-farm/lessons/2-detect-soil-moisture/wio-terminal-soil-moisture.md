@@ -33,11 +33,11 @@ CO_OP_TRANSLATOR_METADATA:
 
 1. مع فصل Wio Terminal عن الكمبيوتر أو مصدر الطاقة الآخر، قم بتوصيل الطرف الآخر من كابل Grove بالمقبس الموجود على الجانب الأيمن من Wio Terminal كما يظهر على الشاشة. هذا هو المقبس الأبعد عن زر الطاقة.
 
-![مستشعر رطوبة التربة Grove متصل بالمقبس الأيمن](../../../../../translated_images/wio-soil-moisture-sensor.46919b61c3f6cb7497662251b29038ee0e57a4c8b9d071feb996c3b0d7f65aaf.ar.png)
+![مستشعر رطوبة التربة Grove متصل بالمقبس الأيمن](../../../../../translated_images/wio-soil-moisture-sensor.46919b61c3f6cb74.ar.png)
 
 1. أدخل مستشعر رطوبة التربة في التربة. يحتوي على "خط أعلى موضع" - خط أبيض عبر المستشعر. أدخل المستشعر حتى هذا الخط ولكن لا تتجاوزه.
 
-![مستشعر رطوبة التربة Grove في التربة](../../../../../translated_images/soil-moisture-sensor-in-soil.bfad91002bda5e960f8c51ee64b02ee59b32c8c717e3515a2c945f33e614e403.ar.png)
+![مستشعر رطوبة التربة Grove في التربة](../../../../../translated_images/soil-moisture-sensor-in-soil.bfad91002bda5e96.ar.png)
 
 1. يمكنك الآن توصيل Wio Terminal بجهاز الكمبيوتر الخاص بك.
 

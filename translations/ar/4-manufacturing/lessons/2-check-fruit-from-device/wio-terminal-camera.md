@@ -29,7 +29,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 1. يجب توصيل الدبابيس الموجودة في قاعدة ArduCam بدبابيس GPIO على Wio Terminal. لتسهيل العثور على الدبابيس الصحيحة، قم بتثبيت ملصق دبابيس GPIO الذي يأتي مع Wio Terminal حول الدبابيس:
 
-    ![Wio Terminal مع ملصق دبابيس GPIO](../../../../../translated_images/wio-terminal-pin-sticker.b90b1535937b84bd00d853f0004aea74fac2aec04b43f14b887796b2633f855e.ar.png)
+    ![Wio Terminal مع ملصق دبابيس GPIO](../../../../../translated_images/wio-terminal-pin-sticker.b90b1535937b84bd.ar.png)
 
 1. باستخدام أسلاك التوصيل، قم بإجراء الاتصالات التالية:
 
@@ -297,7 +297,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 1. تعمل المتحكمات الدقيقة على تشغيل الكود الخاص بك بشكل مستمر، لذا ليس من السهل تشغيل شيء مثل التقاط صورة دون الاستجابة لمستشعر. يحتوي Wio Terminal على أزرار، لذا يمكن إعداد الكاميرا لتشغيلها بواسطة أحد الأزرار. أضف الكود التالي إلى نهاية وظيفة `setup` لتكوين زر C (أحد الأزرار الثلاثة في الأعلى، الأقرب إلى مفتاح التشغيل).
 
-    ![زر C في الأعلى بالقرب من مفتاح التشغيل](../../../../../translated_images/wio-terminal-c-button.73df3cb1c1445ea07ee98316af0e7925fcb43135df0abed58d3d4822b2589c3b.ar.png)
+    ![زر C في الأعلى بالقرب من مفتاح التشغيل](../../../../../translated_images/wio-terminal-c-button.73df3cb1c1445ea0.ar.png)
 
     ```cpp
     pinMode(WIO_KEY_C, INPUT_PULLUP);

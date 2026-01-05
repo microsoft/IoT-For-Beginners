@@ -72,7 +72,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Azure هي السحابة المخصصة للمطورين من مايكروسوفت، وهي السحابة التي ستستخدمها في هذه الدروس. الفيديو أدناه يقدم نظرة عامة قصيرة عن Azure:
 
-[![فيديو نظرة عامة على Azure](../../../../../translated_images/what-is-azure-video-thumbnail.20174db09e03bbb87d213f928d3cb27410305d2e567e952827de8478dbda959b.ar.png)](https://www.microsoft.com/videoplayer/embed/RE4Ibng?WT.mc_id=academic-17441-jabenn)
+[![فيديو نظرة عامة على Azure](../../../../../translated_images/what-is-azure-video-thumbnail.20174db09e03bbb8.ar.png)](https://www.microsoft.com/videoplayer/embed/RE4Ibng?WT.mc_id=academic-17441-jabenn)
 
 ## إنشاء اشتراك سحابي
 

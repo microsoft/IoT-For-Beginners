@@ -17,7 +17,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 مستشعر الضوء مدمج في Wio Terminal ويمكن رؤيته من خلال النافذة البلاستيكية الشفافة الموجودة في الخلف.
 
-![مستشعر الضوء في الجزء الخلفي من Wio Terminal](../../../../../translated_images/wio-light-sensor.b1f529f3c95f51654f2e2c1d2d4b55fe547d189f588c974f5c2462c728133840.ar.png)
+![مستشعر الضوء في الجزء الخلفي من Wio Terminal](../../../../../translated_images/wio-light-sensor.b1f529f3c95f5165.ar.png)
 
 ## برمجة مستشعر الضوء
 
