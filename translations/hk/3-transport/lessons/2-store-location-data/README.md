@@ -66,7 +66,7 @@ IoT 數據通常被認為是非結構化數據。
 
 最早的數據庫是關係型數據庫管理系統 (RDBMS)，或稱為關係型數據庫。它們也被稱為 SQL 數據庫，因為它們使用結構化查詢語言 (SQL) 與數據庫交互以添加、刪除、更新或查詢數據。這些數據庫由一個模式組成——一組明確定義的數據表，類似於電子表格。每個表有多個命名列。插入數據時，你向表中添加一行，並將值放入每個列中。這使得數據保持非常固定的結構——儘管你可以留空列，但如果你想添加新列，必須在數據庫中進行操作，並為現有行填充值。這些數據庫是關係型的——即一個表可以與另一個表有關聯。
 
-![一個關係型數據庫，其中用戶表的 ID 與購買表的用戶 ID 列相關，產品表的 ID 與購買表的產品 ID 列相關](../../../../../translated_images/sql-database.be160f12bfccefd3ca718a66468c2c4c89c53e5aad4c295324d576da87f9dfdd.hk.png)
+![一個關係型數據庫，其中用戶表的 ID 與購買表的用戶 ID 列相關，產品表的 ID 與購買表的產品 ID 列相關](../../../../../translated_images/sql-database.be160f12bfccefd3.hk.png)
 
 例如，如果你在一個表中存儲用戶的個人詳細信息，你會為每個用戶設置某種內部唯一 ID，該 ID 用於存儲用戶的姓名和地址。如果你想在另一個表中存儲該用戶的其他詳細信息，例如購買記錄，你會在新表中設置一列來存儲該用戶的 ID。當你查詢用戶時，可以使用其 ID 從一個表中獲取個人詳細信息，並從另一個表中獲取購買記錄。
 
@@ -241,7 +241,7 @@ Azure 存儲帳戶是一種通用存儲服務，可以以多種方式存儲數�
 
 在本課中，你將使用 Python SDK 來了解如何與 Blob 存儲交互。
 
-![將 GPS 遙測數據從 IoT 設備發送到 IoT Hub，然後通過事件觸發器發送到 Azure Functions，最後保存到 Blob 存儲](../../../../../translated_images/save-telemetry-to-storage-from-functions.ed3b1820980097f143d9f0570072da11304c2bc7906359dfa075b4d9b253c20f.hk.png)
+![將 GPS 遙測數據從 IoT 設備發送到 IoT Hub，然後通過事件觸發器發送到 Azure Functions，最後保存到 Blob 存儲](../../../../../translated_images/save-telemetry-to-storage-from-functions.ed3b1820980097f1.hk.png)
 
 數據將保存為以下格式的 JSON Blob：
 

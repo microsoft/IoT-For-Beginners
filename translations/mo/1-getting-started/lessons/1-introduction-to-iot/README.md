@@ -79,7 +79,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 微控制器通常是低成本的計算設備，用於定制硬體的微控制器平均價格降至約 0.50 美元，有些設備甚至低至 0.03 美元。開發套件的起價約為 4 美元，隨著功能的增加，成本也會上升。[Wio Terminal](https://www.seeedstudio.com/Wio-Terminal-p-4509.html) 是 [Seeed studios](https://www.seeedstudio.com) 的一款微控制器開發套件，內置感測器、致動器、WiFi 和螢幕，價格約為 30 美元。
 
-![Wio Terminal](../../../../../translated_images/wio-terminal.b8299ee16587db9aa9e05fabf9721bccd9eb8fb541b7c1a8267241282d81b603.mo.png)
+![Wio Terminal](../../../../../translated_images/wio-terminal.b8299ee16587db9a.mo.png)
 
 > 💁 在網上搜索微控制器時，請注意搜索術語 **MCU**，因為這可能會返回大量與漫威電影宇宙（Marvel Cinematic Universe）相關的結果，而不是微控制器。
 
@@ -93,7 +93,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 單板電腦是一種小型計算設備，將完整計算機的所有元素包含在一塊小型電路板上。這些設備的規格接近桌面或筆記本電腦，運行完整的操作系統，但體積更小，功耗更低，價格也便宜得多。
 
-![Raspberry Pi 4](../../../../../translated_images/raspberry-pi-4.fd4590d308c3d456db1327e86b395ddcd735513267aafd4879ea2785f7792eac.mo.jpg)
+![Raspberry Pi 4](../../../../../translated_images/raspberry-pi-4.fd4590d308c3d456.mo.jpg)
 
 Raspberry Pi 是最受歡迎的單板電腦之一。
 

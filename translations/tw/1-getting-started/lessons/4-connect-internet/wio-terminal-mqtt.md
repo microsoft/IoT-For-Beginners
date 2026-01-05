@@ -64,7 +64,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 1. 在 `src` 資料夾中建立一個名為 `config.h` 的新文件。您可以通過選擇 `src` 資料夾或其中的 `main.cpp` 文件，然後在檔案瀏覽器中選擇 **新文件** 按鈕來完成。當您的游標位於檔案瀏覽器上時，該按鈕才會出現。
 
-    ![新文件按鈕](../../../../../translated_images/vscode-new-file-button.182702340fe6723c8cbb4cfa1a9a9fb0d0a5227643b4e46b91ff67b07a39a92f.tw.png)
+    ![新文件按鈕](../../../../../translated_images/vscode-new-file-button.182702340fe6723c.tw.png)
 
 1. 在此文件中添加以下代碼以定義 WiFi 憑證的常數：
 

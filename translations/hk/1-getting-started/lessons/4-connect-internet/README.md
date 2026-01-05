@@ -46,7 +46,7 @@ IoT 設備可以接收來自雲端的消息。這些消息通常包含命令—�
 
 IoT 設備用於與互聯網通信的流行通信協議有很多。其中最流行的是基於某種代理的發布/訂閱消息傳遞。IoT 設備連接到代理並發布遙測數據，同時訂閱命令。雲端服務也連接到代理，訂閱所有遙測消息並發布命令，這些命令可以針對特定設備或設備組。
 
-![IoT 設備連接到代理並發布遙測數據，同時訂閱命令。雲端服務連接到代理，訂閱所有遙測數據並向特定設備發送命令。](../../../../../translated_images/pub-sub.7c7ed43fe9fd15d4e1f81a3fd95440413c457acd9bcbe9a43341e30e88db5264.hk.png)
+![IoT 設備連接到代理並發布遙測數據，同時訂閱命令。雲端服務連接到代理，訂閱所有遙測數據並向特定設備發送命令。](../../../../../translated_images/pub-sub.7c7ed43fe9fd15d4.hk.png)
 
 MQTT 是 IoT 設備最流行的通信協議，本課程將介紹它。其他協議包括 AMQP 和 HTTP/HTTPS。
 
@@ -115,7 +115,7 @@ MQTT 連接可以是公開和開放的，也可以通過使用用戶名和密碼
 
 讓我們回顧一下課程1中的智能溫控器示例。
 
-![使用多個房間傳感器的互聯網連接溫控器](../../../../../translated_images/telemetry.21e5d8b97649d2ebeb0f68d4b9691ab2d1f7bd629338e131465aff8a614e4d4a.hk.png)
+![使用多個房間傳感器的互聯網連接溫控器](../../../../../translated_images/telemetry.21e5d8b97649d2eb.hk.png)
 
 溫控器具有溫度傳感器以收集遙測數據。它很可能內置一個溫度傳感器，並可能通過無線協議（例如 [藍牙低功耗](https://wikipedia.org/wiki/Bluetooth_Low_Energy) (BLE)）連接到多個外部溫度傳感器。
 
@@ -267,11 +267,11 @@ Python 的一個強大功能是能夠安裝 [pip 套件](https://pypi.org)——
 
 1. 當 VS Code 啟動時，它會激活 Python 虛擬環境。這會顯示在底部狀態欄中：
 
-    ![VS Code 顯示選擇的虛擬環境](../../../../../translated_images/vscode-virtual-env.8ba42e04c3d533cf677e16cbe5ed9a3b80f62c6964472dc84b6f940800f0909f.hk.png)
+    ![VS Code 顯示選擇的虛擬環境](../../../../../translated_images/vscode-virtual-env.8ba42e04c3d533cf.hk.png)
 
 1. 如果 VS Code 啟動時終端已在運行，則該終端不會激活虛擬環境。最簡單的方法是使用 **Kill the active terminal instance** 按鈕關閉終端：
 
-    ![VS Code Kill the active terminal instance 按鈕](../../../../../translated_images/vscode-kill-terminal.1cc4de7c6f25ee08f423f0ead714e61d069fac1eb2089e97b8a7bbcb3d45fe5e.hk.png)
+    ![VS Code Kill the active terminal instance 按鈕](../../../../../translated_images/vscode-kill-terminal.1cc4de7c6f25ee08.hk.png)
 
 1. 通過選擇 *Terminal -> New Terminal* 或按下 `` CTRL+` `` 啟動新的 VS Code 終端。新終端將加載虛擬環境，並在終端中顯示激活命令。虛擬環境的名稱（`.venv`）也會顯示在提示符中：
 

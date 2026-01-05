@@ -31,7 +31,7 @@ Grove 溫度感測器可以連接到 Raspberry Pi。
 
 1. 在 Raspberry Pi 關機的情況下，將 Grove 線纜的另一端連接到 Pi 上 Grove Base Hat 的數位插座 **D5**。這個插座位於 GPIO 引腳旁邊的一排插座中，從左數第二個。
 
-![Grove 溫度感測器連接到插座 A0](../../../../../translated_images/pi-temperature-sensor.3ff82fff672c8e565ef25a39d26d111de006b825a7e0867227ef4e7fbff8553c.mo.png)
+![Grove 溫度感測器連接到插座 A0](../../../../../translated_images/pi-temperature-sensor.3ff82fff672c8e56.mo.png)
 
 ## 編寫溫度感測器程式
 

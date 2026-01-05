@@ -41,7 +41,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 ### 物件
 
-![Raspberry Pi 4](../../../../../translated_images/raspberry-pi-4.fd4590d308c3d456db1327e86b395ddcd735513267aafd4879ea2785f7792eac.hk.jpg)
+![Raspberry Pi 4](../../../../../translated_images/raspberry-pi-4.fd4590d308c3d456.hk.jpg)
 
 物聯網中的 **物件** 指的是能與物理世界互動的設備。這些設備通常是小型、價格低廉的電腦，運行速度較慢且耗電量低——例如，僅有幾千字節 RAM 的簡單微控制器（相比之下，PC 的 RAM 是幾 GB），運行速度僅為幾百 MHz（而 PC 是 GHz 級別），但耗電量極低，有時甚至可以用電池運行數週、數月甚至數年。
 
@@ -67,7 +67,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 更智能的版本可以使用雲端的 AI，結合其他物聯網設備（如檢測房間使用情況的佔用感測器）的數據，以及天氣數據甚至你的日曆，來智能地設置溫度。例如，如果從日曆中讀取到你正在度假，它可以關閉加熱；或者根據你使用的房間逐一關閉加熱，並隨著數據的積累變得越來越準確。
 
-![一個圖示顯示多個溫度感測器和旋鈕作為物聯網設備的輸入，物聯網設備與雲端之間有雙向通信，雲端與手機、日曆和天氣服務之間也有雙向通信，並控制加熱器作為物聯網設備的輸出](../../../../../translated_images/smarter-thermostat.a75855f15d2d9e63d5da9d7ba5847a987f6c9d98e96e770c203532275194e27d.hk.png)
+![一個圖示顯示多個溫度感測器和旋鈕作為物聯網設備的輸入，物聯網設備與雲端之間有雙向通信，雲端與手機、日曆和天氣服務之間也有雙向通信，並控制加熱器作為物聯網設備的輸出](../../../../../translated_images/smarter-thermostat.a75855f15d2d9e63.hk.png)
 
 ✅ 還有哪些數據可以幫助讓一個連接網際網路的恆溫器變得更智能？
 
@@ -135,7 +135,7 @@ RAM 是程序運行時使用的記憶體，包含程序分配的變數和從外�
 
 下圖顯示了 192KB 和 8GB 之間的相對大小差異——中心的小點代表 192KB。
 
-![192KB 和 8GB 的比較 - 超過 40,000 倍的差距](../../../../../translated_images/ram-comparison.6beb73541b42ac6ffde64cdf79fc925a84b932ce7ebd4d41d5fd7afc1257a696.hk.png)
+![192KB 和 8GB 的比較 - 超過 40,000 倍的差距](../../../../../translated_images/ram-comparison.6beb73541b42ac6f.hk.png)
 
 程式存儲空間也比 PC 小。一台典型的 PC 可能有 500GB 的硬碟用於程式存儲，而微控制器可能只有幾千字節或幾百萬字節（MB）的存儲空間（1MB 等於 1,000KB 或 1,000,000 字節）。Wio Terminal 擁有 4MB 的程式存儲空間。
 
@@ -211,17 +211,17 @@ Arduino 還有一個龐大的第三方庫生態系統，這些庫可以為你的
 
 ### 樹莓派
 
-![樹莓派標誌](../../../../../translated_images/raspberry-pi-logo.4efaa16605cee05489d8fa53941e991b3757aa24c20a95abdcf8cfd761953596.hk.png)
+![樹莓派標誌](../../../../../translated_images/raspberry-pi-logo.4efaa16605cee054.hk.png)
 
 [樹莓派基金會](https://www.raspberrypi.org) 是一家來自英國的慈善機構，成立於 2009 年，旨在推廣計算機科學的學習，特別是在學校層面。作為這一使命的一部分，他們開發了一款單板電腦，稱為樹莓派。目前樹莓派有三種變體——全尺寸版本、較小的 Pi Zero，以及可以嵌入最終 IoT 設備中的計算模組。
 
-![樹莓派 4](../../../../../translated_images/raspberry-pi-4.fd4590d308c3d456db1327e86b395ddcd735513267aafd4879ea2785f7792eac.hk.jpg)
+![樹莓派 4](../../../../../translated_images/raspberry-pi-4.fd4590d308c3d456.hk.jpg)
 
 最新的全尺寸樹莓派是樹莓派 4B。它擁有一個四核心（4 核）1.5GHz 的 CPU，2GB、4GB 或 8GB 的 RAM，千兆以太網，WiFi，2 個支持 4K 螢幕的 HDMI 埠，一個音頻和複合視頻輸出埠，USB 埠（2 個 USB 2.0 和 2 個 USB 3.0），40 個 GPIO 引腳，一個樹莓派相機模組的相機連接埠，以及一個 SD 卡插槽。所有這些都集成在一塊 88mm x 58mm x 19.5mm 的電路板上，並由 3A 的 USB-C 電源供電。這些起價為 35 美元，比 PC 或 Mac 便宜得多。
 
 > 💁 還有一款 Pi400 一體機電腦，將 Pi4 集成到鍵盤中。
 
-![樹莓派 Zero](../../../../../translated_images/raspberry-pi-zero.f7a4133e1e7d54bb3dbb32319b217a53c5b94871995a54647f2894b54206b8d8.hk.jpg)
+![樹莓派 Zero](../../../../../translated_images/raspberry-pi-zero.f7a4133e1e7d54bb.hk.jpg)
 
 Pi Zero 更小，功耗更低。它擁有一個單核心 1GHz 的 CPU，512MB 的 RAM，WiFi（在 Zero W 型號中），一個 HDMI 埠，一個 micro-USB 埠，40 個 GPIO 引腳，一個樹莓派相機模組的相機連接埠，以及一個 SD 卡插槽。它的尺寸為 65mm x 30mm x 5mm，功耗非常低。Zero 售價 5 美元，帶 WiFi 的 W 版本售價 10 美元。
 

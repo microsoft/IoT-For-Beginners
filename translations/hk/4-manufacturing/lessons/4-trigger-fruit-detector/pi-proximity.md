@@ -35,7 +35,7 @@ Grove 飛行時間感應器可以連接到 Raspberry Pi。
 
 1. 在 Raspberry Pi 關閉電源的情況下，將 Grove 電纜的另一端連接到 Grove Base Hat 上標記為 **I²C** 的插座之一。這些插座位於底部排，靠近攝像頭電纜插槽，與 GPIO 引腳的另一端相對。
 
-![Grove 飛行時間感應器連接到 I²C 插座](../../../../../translated_images/pi-time-of-flight-sensor.58c8dc04eb3bfb57a7c3019f031433ef4d798d4d7603d565afbf6f3802840dba.hk.png)
+![Grove 飛行時間感應器連接到 I²C 插座](../../../../../translated_images/pi-time-of-flight-sensor.58c8dc04eb3bfb57.hk.png)
 
 ## 編程飛行時間感應器
 
@@ -106,7 +106,7 @@ Grove 飛行時間感應器可以連接到 Raspberry Pi。
 
     測距儀位於感應器的背面，因此在測量距離時請確保使用正確的一側。
 
-    ![飛行時間感應器背面的測距儀指向一根香蕉](../../../../../translated_images/time-of-flight-banana.079921ad8b1496e4525dc26b4cdc71a076407aba3e72ba113ba2e38febae92c5.hk.png)
+    ![飛行時間感應器背面的測距儀指向一根香蕉](../../../../../translated_images/time-of-flight-banana.079921ad8b1496e4.hk.png)
 
 > 💁 您可以在 [code-proximity/pi](../../../../../4-manufacturing/lessons/4-trigger-fruit-detector/code-proximity/pi) 文件夾中找到此代碼。
 

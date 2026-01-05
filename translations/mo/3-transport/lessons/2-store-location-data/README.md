@@ -66,7 +66,7 @@ IoT 數據通常被認為是非結構化數據。
 
 最早的資料庫是關聯式資料庫管理系統（RDBMS），也稱為關聯式資料庫。這些資料庫也被稱為 SQL 資料庫，因為它們使用結構化查詢語言（SQL）來添加、刪除、更新或查詢數據。這些資料庫由一個模式（schema）組成——一組明確定義的數據表，類似於試算表。每個表都有多個命名的欄位。當你插入數據時，你會向表中添加一行，並將值放入每個欄位中。這使得數據具有非常固定的結構——儘管你可以留空欄位，但如果你想添加一個新欄位，則必須在資料庫中執行此操作，並為現有行填充值。這些資料庫是關聯式的——即一個表可以與另一個表有關聯。
 
-![一個關聯式資料庫，其中用戶表的 ID 與購買表的用戶 ID 欄位相關聯，產品表的 ID 與購買表的產品 ID 欄位相關聯](../../../../../translated_images/sql-database.be160f12bfccefd3ca718a66468c2c4c89c53e5aad4c295324d576da87f9dfdd.mo.png)
+![一個關聯式資料庫，其中用戶表的 ID 與購買表的用戶 ID 欄位相關聯，產品表的 ID 與購買表的產品 ID 欄位相關聯](../../../../../translated_images/sql-database.be160f12bfccefd3.mo.png)
 
 例如，如果你將用戶的個人詳細資料儲存在一個表中，你會為每個用戶分配一個內部唯一 ID，該 ID 用於包含用戶姓名和地址的表中的一行。如果你想在另一個表中儲存該用戶的其他詳細資料，例如購買記錄，你會在新表中為該用戶的 ID 添加一個欄位。當你查詢用戶時，可以使用他們的 ID 從一個表中獲取個人詳細資料，並從另一個表中獲取購買記錄。
 
@@ -241,7 +241,7 @@ Azure 儲存帳戶是一種通用的儲存服務，可以以多種方式儲存�
 
 在本課程中，你將使用 Python SDK 來學習如何與 Blob 儲存互動。
 
-![從 IoT 裝置傳送 GPS 遙測數據到 IoT Hub，然後通過事件觸發器傳送到 Azure Functions，最後儲存到 Blob 儲存](../../../../../translated_images/save-telemetry-to-storage-from-functions.ed3b1820980097f143d9f0570072da11304c2bc7906359dfa075b4d9b253c20f.mo.png)
+![從 IoT 裝置傳送 GPS 遙測數據到 IoT Hub，然後通過事件觸發器傳送到 Azure Functions，最後儲存到 Blob 儲存](../../../../../translated_images/save-telemetry-to-storage-from-functions.ed3b1820980097f1.mo.png)
 
 資料將以以下格式儲存為 JSON Blob：
 

@@ -15,11 +15,11 @@ CO_OP_TRANSLATOR_METADATA:
 
 Wio Terminal 已內建麥克風，可用於捕捉音頻進行語音識別。
 
-![Wio Terminal 上的麥克風](../../../../../translated_images/wio-mic.3f8c843dbe8ad917424037a93e3d25c62634add00a04dd8e091317b5a7a90088.hk.png)
+![Wio Terminal 上的麥克風](../../../../../translated_images/wio-mic.3f8c843dbe8ad917.hk.png)
 
 若要添加揚聲器，你可以使用 [ReSpeaker 2-Mics Pi Hat](https://www.seeedstudio.com/ReSpeaker-2-Mics-Pi-HAT.html)。這是一塊外部擴展板，包含兩個 MEMS 麥克風，以及一個揚聲器連接器和耳機插孔。
 
-![ReSpeaker 2-Mics Pi Hat](../../../../../translated_images/respeaker.f5d19d1c6b14ab1676d24ac2764e64fac5339046ae07be8b45ce07633d61b79b.hk.png)
+![ReSpeaker 2-Mics Pi Hat](../../../../../translated_images/respeaker.f5d19d1c6b14ab16.hk.png)
 
 你需要添加耳機、一個帶 3.5mm 插頭的揚聲器，或者一個帶 JST 接口的揚聲器，例如 [Mono Enclosed Speaker - 2W 6 Ohm](https://www.seeedstudio.com/Mono-Enclosed-Speaker-2W-6-Ohm-p-2832.html)。
 
@@ -35,7 +35,7 @@ Wio Terminal 已內建麥克風，可用於捕捉音頻進行語音識別。
 
     需要按照以下方式連接引腳：
 
-    ![引腳示意圖](../../../../../translated_images/wio-respeaker-wiring-0.767f80aa6508103880d256cdf99ee7219e190db257c7261e4aec219759dc67b9.hk.png)
+    ![引腳示意圖](../../../../../translated_images/wio-respeaker-wiring-0.767f80aa65081038.hk.png)
 
 1. 將 ReSpeaker 和 Wio Terminal 擺放好，讓 GPIO 插座面向上，並位於左側。
 
@@ -43,33 +43,33 @@ Wio Terminal 已內建麥克風，可用於捕捉音頻進行語音識別。
 
 1. 按此方式依次連接左側 GPIO 插座的所有插孔。確保引腳牢固插入。
 
-    ![ReSpeaker 左側引腳連接到 Wio Terminal 左側引腳](../../../../../translated_images/wio-respeaker-wiring-1.8d894727f2ba24004824ee5e06b83b6d10952550003a3efb603182121521b0ef.hk.png)
+    ![ReSpeaker 左側引腳連接到 Wio Terminal 左側引腳](../../../../../translated_images/wio-respeaker-wiring-1.8d894727f2ba2400.hk.png)
 
-    ![ReSpeaker 左側引腳連接到 Wio Terminal 左側引腳](../../../../../translated_images/wio-respeaker-wiring-2.329e1cbd306e754f8ffe56f9294794f4a8fa123860d76067a79e9ea385d1bf56.hk.png)
+    ![ReSpeaker 左側引腳連接到 Wio Terminal 左側引腳](../../../../../translated_images/wio-respeaker-wiring-2.329e1cbd306e754f.hk.png)
 
     > 💁 如果你的跳線是連成一條排線，保持它們整齊排列——這樣可以更容易確保所有線都按順序連接。
 
 1. 使用 ReSpeaker 和 Wio Terminal 的右側 GPIO 插座重複上述過程。這些線需要繞過已連接的線。
 
-    ![ReSpeaker 右側引腳連接到 Wio Terminal 右側引腳](../../../../../translated_images/wio-respeaker-wiring-3.75b0be447e2fa9307a6a954f9ae8a71b77e39ada6a5ef1a059d341dc850fd90c.hk.png)
+    ![ReSpeaker 右側引腳連接到 Wio Terminal 右側引腳](../../../../../translated_images/wio-respeaker-wiring-3.75b0be447e2fa930.hk.png)
 
-    ![ReSpeaker 右側引腳連接到 Wio Terminal 右側引腳](../../../../../translated_images/wio-respeaker-wiring-4.aa9cd434d8779437de720cba2719d83992413caed1b620b6148f6c8924889afb.hk.png)
+    ![ReSpeaker 右側引腳連接到 Wio Terminal 右側引腳](../../../../../translated_images/wio-respeaker-wiring-4.aa9cd434d8779437.hk.png)
 
     > 💁 如果你的跳線是連成一條排線，將它們分成兩條排線。分別從已連接的線的兩側穿過。
 
     > 💁 你可以使用膠帶將引腳固定成一個塊，以防止在連接過程中有引腳脫落。
     >
-    > ![用膠帶固定的引腳](../../../../../translated_images/wio-respeaker-wiring-5.af117c20acf622f3cd656ccd8f4053f8845d6aaa3af164d24cb7dbd54a4bb470.hk.png)
+    > ![用膠帶固定的引腳](../../../../../translated_images/wio-respeaker-wiring-5.af117c20acf622f3.hk.png)
 
 1. 你需要添加一個揚聲器。
 
     * 如果你使用的是帶 JST 線的揚聲器，將其連接到 ReSpeaker 的 JST 接口。
 
-      ![使用 JST 線連接到 ReSpeaker 的揚聲器](../../../../../translated_images/respeaker-jst-speaker.a441d177809df9458041a2012dd336dbb22c00a5c9642647109d2940a50d6fcc.hk.png)
+      ![使用 JST 線連接到 ReSpeaker 的揚聲器](../../../../../translated_images/respeaker-jst-speaker.a441d177809df945.hk.png)
 
     * 如果你使用的是帶 3.5mm 插頭的揚聲器或耳機，將其插入 3.5mm 插孔。
 
-      ![使用 3.5mm 插孔連接到 ReSpeaker 的揚聲器](../../../../../translated_images/respeaker-35mm-speaker.ad79ef4f128c7751f0abf854869b6b779c90c12ae3e48909944a7e48aeee3c7e.hk.png)
+      ![使用 3.5mm 插孔連接到 ReSpeaker 的揚聲器](../../../../../translated_images/respeaker-35mm-speaker.ad79ef4f128c7751.hk.png)
 
 ### 任務 - 設置 SD 卡
 
@@ -79,7 +79,7 @@ Wio Terminal 已內建麥克風，可用於捕捉音頻進行語音識別。
 
 1. 將 SD 卡插入 Wio Terminal 左側的 SD 卡插槽，插槽位於電源按鈕下方。確保卡完全插入並卡住——你可能需要使用細小工具或另一張 SD 卡幫助將其完全推入。
 
-    ![將 SD 卡插入電源開關下方的 SD 卡插槽](../../../../../translated_images/wio-sd-card.acdcbe322fa4ee7f8f9c8cc015b3263964bb26ab5c7e25b41747988cc5280d64.hk.png)
+    ![將 SD 卡插入電源開關下方的 SD 卡插槽](../../../../../translated_images/wio-sd-card.acdcbe322fa4ee7f.hk.png)
 
     > 💁 若要取出 SD 卡，你需要稍微推入卡片，它會彈出。你需要使用細小工具，例如平頭螺絲刀或另一張 SD 卡來完成此操作。
 

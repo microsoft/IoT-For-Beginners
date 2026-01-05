@@ -41,7 +41,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 > 💁 如果您之前使用過數據庫觸發器，可以將其視為類似的概念，即代碼因事件（如插入一行）而觸發。
 
-![當許多事件同時發生時，無伺服器服務會擴展以同時處理所有事件](../../../../../translated_images/serverless-scaling.f8c769adf0413fd17be1af4f07ff63016b347e2ff869be6c4abb211f9e93909d.hk.png)
+![當許多事件同時發生時，無伺服器服務會擴展以同時處理所有事件](../../../../../translated_images/serverless-scaling.f8c769adf0413fd1.hk.png)
 
 您的代碼僅在事件發生時執行，其他時間並不會保持活躍。事件發生時，您的代碼會被加載並執行。這使得無伺服器具有很高的可擴展性——如果許多事件同時發生，雲端提供商可以根據需要同時運行多個函數，利用其可用的伺服器資源。這種模式的缺點是，如果需要在事件之間共享信息，則需要將其存儲在數據庫等地方，而不是存儲在記憶體中。
 
@@ -244,7 +244,7 @@ Azure Functions CLI 可用於創建新的 Functions 應用程式。
     VS Code. Initialize for optimal use with VS Code?
     ```
 
-    ![通知](../../../../../translated_images/vscode-azure-functions-init-notification.bd19b49229963edb5311fb3a79445ea469424759d2917ee2f2eb6f92d65d5086.hk.png)
+    ![通知](../../../../../translated_images/vscode-azure-functions-init-notification.bd19b49229963edb.hk.png)
 
     在通知中選擇 **Yes**。
 

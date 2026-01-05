@@ -39,7 +39,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 例如，如果一台攝像頭對準一組可以容納8罐番茄醬的貨架，而物件偵測器只偵測到7罐，那麼就缺少了一罐，需要補貨。
 
-![貨架上有7罐番茄醬，頂層4罐，下層3罐](../../../../../translated_images/stock-7-cans-tomato-paste.f86059cc573d7becaa89a0eafb9d2cd7e2fe37405a530fe565990e2333d0e4a1.hk.png)
+![貨架上有7罐番茄醬，頂層4罐，下層3罐](../../../../../translated_images/stock-7-cans-tomato-paste.f86059cc573d7bec.hk.png)
 
 在上圖中，物件偵測器偵測到貨架上有7罐番茄醬，而該貨架可以容納8罐。不僅物聯網設備可以發送補貨通知，它甚至可以提供缺失物品的位置資訊，這對於使用機器人補貨的情況尤為重要。
 
@@ -51,7 +51,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 物件偵測可以用來偵測意外的物品，並通知人員或機器人盡快將物品歸位。
 
-![番茄醬貨架上的一罐玉米罐頭](../../../../../translated_images/stock-rogue-corn.be1f3ada8c4578544641af66671c1711a4c02297f14cc7f503354dae0d30a954.hk.png)
+![番茄醬貨架上的一罐玉米罐頭](../../../../../translated_images/stock-rogue-corn.be1f3ada8c457854.hk.png)
 
 在上圖中，一罐玉米罐頭被放在了番茄醬貨架上。物件偵測器偵測到了這一情況，使物聯網設備能夠通知人員或機器人將罐頭放回正確的位置。
 

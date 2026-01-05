@@ -65,7 +65,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 ✅ 做一些研究。看看您花園、學校或當地公園中的植物，是否能找到它們的基礎溫度。
 
-![一個顯示植物生長率隨溫度升高而增加，然後在溫度過高時下降的圖表](../../../../../translated_images/plant-growth-temp-graph.c6d69c9478e6ca832baa8dcb8d4adcbb67304074ce50e94ac8faae95975177f9.hk.png)
+![一個顯示植物生長率隨溫度升高而增加，然後在溫度過高時下降的圖表](../../../../../translated_images/plant-growth-temp-graph.c6d69c9478e6ca83.hk.png)
 
 上圖顯示了一個生長率與溫度的示例圖表。在基礎溫度以下，植物不會生長。生長率在最佳溫度之前逐漸增加，然後在達到峰值後下降。在最高溫度時，生長停止。
 
@@ -141,7 +141,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 通過使用物聯網設備收集溫度數據，農民可以在植物接近成熟時自動收到通知。一個典型的架構是物聯網設備測量溫度，然後使用像 MQTT 這樣的技術通過互聯網發布這些遙測數據。服務器代碼會監聽這些數據並將其保存到某個地方，例如數據庫。這樣，數據可以稍後進行分析，例如每天晚上計算當天的 GDD，累計每種作物的 GDD，並在植物接近成熟時發出警報。
 
-![遙測數據被發送到服務器並保存到數據庫](../../../../../translated_images/save-telemetry-database.ddc9c6bea0c5ba39449966a463ca6748cd8e2d565dab44ff31c9f1d2f6c21d27.hk.png)
+![遙測數據被發送到服務器並保存到數據庫](../../../../../translated_images/save-telemetry-database.ddc9c6bea0c5ba39.hk.png)
 
 服務器代碼還可以增強數據，添加額外的信息。例如，物聯網設備可以發布一個標識符來指示是哪個設備，服務器代碼可以使用這個標識符查找設備的位置以及它正在監測的作物。它還可以添加基本數據，例如當前時間，因為某些物聯網設備沒有必要的硬件來準確跟蹤時間，或者需要額外的代碼通過互聯網讀取當前時間。
 
@@ -228,7 +228,7 @@ CSV 文件將有兩列——*日期* 和 *溫度*。*日期* 列設置為服務�
 
     
 > 💁 如果您使用的是虛擬 IoT 裝置，請勾選隨機選項並設定範圍，以避免每次返回的溫度值都相同。
-    ![勾選隨機選項並設定範圍](../../../../../translated_images/select-the-random-checkbox-and-set-a-range.32cf4bc7c12e797f8c76616b10c7c23a6592321bb1a6310e0b481e72f97d23b3.hk.png) 
+    ![勾選隨機選項並設定範圍](../../../../../translated_images/select-the-random-checkbox-and-set-a-range.32cf4bc7c12e797f.hk.png) 
 
     > 💁 如果您想執行一整天，請確保執行伺服器程式碼的電腦不會進入睡眠模式，可以透過更改電源設定，或執行類似 [這個保持系統活躍的 Python 腳本](https://github.com/jaqsparow/keep-system-active) 來實現。
     

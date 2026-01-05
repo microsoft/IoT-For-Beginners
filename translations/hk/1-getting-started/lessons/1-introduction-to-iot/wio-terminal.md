@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 [Seeed Studios 的 Wio Terminal](https://www.seeedstudio.com/Wio-Terminal-p-4509.html) 是一款兼容 Arduino 的微控制器，內建 WiFi 以及一些感測器和執行器，並且可以透過名為 [Grove](https://www.seeedstudio.com/category/Grove-c-1003.html) 的硬體生態系統添加更多感測器和執行器。
 
-![Seeed Studios 的 Wio Terminal](../../../../../translated_images/wio-terminal.b8299ee16587db9aa9e05fabf9721bccd9eb8fb541b7c1a8267241282d81b603.hk.png)
+![Seeed Studios 的 Wio Terminal](../../../../../translated_images/wio-terminal.b8299ee16587db9a.hk.png)
 
 ## 設置
 
@@ -51,15 +51,15 @@ Wio Terminal 的 Hello World 應用程序將確保您已正確安裝 Visual Stud
 
 1. PlatformIO 圖標將顯示在側邊菜單欄：
 
-    ![Platform IO 菜單選項](../../../../../translated_images/vscode-platformio-menu.297be26b9733e5c4635d9d8e636e93fed2015809eafb7cc8fd409c37b3ef2ef5.hk.png)
+    ![Platform IO 菜單選項](../../../../../translated_images/vscode-platformio-menu.297be26b9733e5c4.hk.png)
 
     選擇此菜單項，然後選擇 *PIO Home -> Open*
 
-    ![Platform IO 打開選項](../../../../../translated_images/vscode-platformio-home-open.3f9a41bfd3f4da1c866ec3e69f1675faa30b823b5b58ab58ac88e5df9a85da19.hk.png)
+    ![Platform IO 打開選項](../../../../../translated_images/vscode-platformio-home-open.3f9a41bfd3f4da1c.hk.png)
 
 1. 在歡迎屏幕中，選擇 **+ New Project** 按鈕
 
-    ![新項目按鈕](../../../../../translated_images/vscode-platformio-welcome-new-button.ba6fc8a4c7b78cc822e1ce47ba29c5db96668cce7c5f4adbfd2f1196422baa26.hk.png)
+    ![新項目按鈕](../../../../../translated_images/vscode-platformio-welcome-new-button.ba6fc8a4c7b78cc8.hk.png)
 
 1. 在 *Project Wizard* 中配置項目：
 
@@ -73,7 +73,7 @@ Wio Terminal 的 Hello World 應用程序將確保您已正確安裝 Visual Stud
 
     1. 選擇 **Finish** 按鈕
 
-    ![完成的項目向導](../../../../../translated_images/vscode-platformio-nightlight-project-wizard.5c64db4da6037420827c2597507897233457210ee23975711fa2285efdcd0dc7.hk.png)
+    ![完成的項目向導](../../../../../translated_images/vscode-platformio-nightlight-project-wizard.5c64db4da6037420.hk.png)
 
     PlatformIO 會下載所需的組件以編譯 Wio Terminal 的代碼並創建您的項目。這可能需要幾分鐘。
 
@@ -179,7 +179,7 @@ VS Code 的資源管理器將顯示由 PlatformIO 向導創建的多個文件和
 
     1. 輸入 `PlatformIO Upload` 搜索上傳選項，並選擇 *PlatformIO: Upload*
 
-        ![命令面板中的 PlatformIO 上傳選項](../../../../../translated_images/vscode-platformio-upload-command-palette.9e0f49cf80d1f1c3eb5c6689b8705ad8b89f0374b21698e996fec11e4ed09347.hk.png)
+        ![命令面板中的 PlatformIO 上傳選項](../../../../../translated_images/vscode-platformio-upload-command-palette.9e0f49cf80d1f1c3.hk.png)
 
         如果需要，PlatformIO 會在上傳之前自動編譯代碼。
 
@@ -195,7 +195,7 @@ PlatformIO 有一個串口監視器，可以監視通過 USB 線纜從 Wio Termi
 
 1. 輸入 `PlatformIO Serial` 搜索串口監視器選項，並選擇 *PlatformIO: Serial Monitor*
 
-    ![命令面板中的 PlatformIO 串口監視器選項](../../../../../translated_images/vscode-platformio-serial-monitor-command-palette.b348ec841b8a1c14af503d6fc0bf73c657c79c9acc12a6b6dd485ce3b5826f48.hk.png)
+    ![命令面板中的 PlatformIO 串口監視器選項](../../../../../translated_images/vscode-platformio-serial-monitor-command-palette.b348ec841b8a1c14.hk.png)
 
     一個新終端將打開，通過串口發送的數據將流入此終端：
 

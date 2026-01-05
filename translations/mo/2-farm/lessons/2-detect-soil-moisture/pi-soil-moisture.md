@@ -37,7 +37,7 @@ Grove 土壤濕度傳感器可以連接到 Raspberry Pi。
 
 1. 將土壤濕度傳感器插入土壤中。傳感器上有一條“最高位置線”——一條白線。將傳感器插入到該線以下但不要超過該線。
 
-![Grove 土壤濕度傳感器插入土壤中](../../../../../translated_images/soil-moisture-sensor-in-soil.bfad91002bda5e960f8c51ee64b02ee59b32c8c717e3515a2c945f33e614e403.mo.png)
+![Grove 土壤濕度傳感器插入土壤中](../../../../../translated_images/soil-moisture-sensor-in-soil.bfad91002bda5e96.mo.png)
 
 ## 編程土壤濕度傳感器
 
