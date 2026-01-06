@@ -130,7 +130,7 @@ Para sa araling ito, kakailanganin mo ng Translator resource. Gagamitin mo ang R
 
 Sa isang perpektong mundo, ang buong aplikasyon mo ay dapat makaunawa ng maraming iba't ibang wika hangga't maaari, mula sa pakikinig ng pananalita, sa pag-unawa sa wika, hanggang sa pagtugon gamit ang pananalita. Ito ay maraming trabaho, kaya ang mga serbisyo ng pagsasalin ay maaaring pabilisin ang oras ng pag-develop ng iyong aplikasyon.
 
-![Isang arkitektura ng smart timer na nagsasalin ng Japanese patungong English, pinoproseso sa English, pagkatapos ay isinasalin pabalik sa Japanese](../../../../../translated_images/translated-smart-timer.08ac20057fdc5c3778ed41cb425dca5d7fbcd4584b6da7b73ca67115a5b8a883.tl.png)
+![Isang arkitektura ng smart timer na nagsasalin ng Japanese patungong English, pinoproseso sa English, pagkatapos ay isinasalin pabalik sa Japanese](../../../../../translated_images/translated-smart-timer.08ac20057fdc5c37.tl.png)
 
 Isipin na gumagawa ka ng isang smart timer na gumagamit ng Ingles mula simula hanggang dulo, nauunawaan ang sinasalitang Ingles at kino-convert ito sa teksto, pinapatakbo ang pag-unawa sa wika sa Ingles, bumubuo ng mga tugon sa Ingles, at tumutugon gamit ang sinasalitang Ingles. Kung nais mong magdagdag ng suporta para sa Japanese, maaari kang magsimula sa pagsasalin ng sinasalitang Japanese patungong English text, pagkatapos ay panatilihin ang core ng aplikasyon na pareho, pagkatapos ay isalin ang response text sa Japanese bago ito bigkasin. Papayagan ka nitong mabilis na magdagdag ng suporta para sa Japanese, at maaari kang magpalawak upang magbigay ng buong end-to-end na suporta para sa Japanese sa hinaharap.
 

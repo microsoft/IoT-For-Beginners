@@ -15,11 +15,11 @@ Trong phần bài học này, bạn sẽ thêm loa vào Wio Terminal của mình
 
 Wio Terminal đã có sẵn micro tích hợp, và nó có thể được sử dụng để thu âm phục vụ nhận diện giọng nói.
 
-![Micro trên Wio Terminal](../../../../../translated_images/wio-mic.3f8c843dbe8ad917424037a93e3d25c62634add00a04dd8e091317b5a7a90088.vi.png)
+![Micro trên Wio Terminal](../../../../../translated_images/wio-mic.3f8c843dbe8ad917.vi.png)
 
 Để thêm loa, bạn có thể sử dụng [ReSpeaker 2-Mics Pi Hat](https://www.seeedstudio.com/ReSpeaker-2-Mics-Pi-HAT.html). Đây là một bảng mạch ngoài chứa 2 micro MEMS, cùng với cổng kết nối loa và giắc cắm tai nghe.
 
-![ReSpeaker 2-Mics Pi Hat](../../../../../translated_images/respeaker.f5d19d1c6b14ab1676d24ac2764e64fac5339046ae07be8b45ce07633d61b79b.vi.png)
+![ReSpeaker 2-Mics Pi Hat](../../../../../translated_images/respeaker.f5d19d1c6b14ab16.vi.png)
 
 Bạn sẽ cần thêm tai nghe, loa với giắc cắm 3.5mm, hoặc loa với kết nối JST như [Mono Enclosed Speaker - 2W 6 Ohm](https://www.seeedstudio.com/Mono-Enclosed-Speaker-2W-6-Ohm-p-2832.html).
 
@@ -35,7 +35,7 @@ Bạn cũng sẽ cần một thẻ SD để tải xuống và phát lại âm th
 
     Các chân cần được kết nối theo cách sau:
 
-    ![Sơ đồ chân](../../../../../translated_images/wio-respeaker-wiring-0.767f80aa6508103880d256cdf99ee7219e190db257c7261e4aec219759dc67b9.vi.png)
+    ![Sơ đồ chân](../../../../../translated_images/wio-respeaker-wiring-0.767f80aa65081038.vi.png)
 
 1. Đặt ReSpeaker và Wio Terminal với các ổ cắm GPIO hướng lên trên, và ở phía bên trái.
 
@@ -43,33 +43,33 @@ Bạn cũng sẽ cần một thẻ SD để tải xuống và phát lại âm th
 
 1. Lặp lại quá trình này xuống toàn bộ các ổ cắm GPIO ở phía bên trái. Đảm bảo các chân được cắm chắc chắn.
 
-    ![ReSpeaker với các chân bên trái được nối với các chân bên trái của Wio Terminal](../../../../../translated_images/wio-respeaker-wiring-1.8d894727f2ba24004824ee5e06b83b6d10952550003a3efb603182121521b0ef.vi.png)
+    ![ReSpeaker với các chân bên trái được nối với các chân bên trái của Wio Terminal](../../../../../translated_images/wio-respeaker-wiring-1.8d894727f2ba2400.vi.png)
 
-    ![ReSpeaker với các chân bên trái được nối với các chân bên trái của Wio Terminal](../../../../../translated_images/wio-respeaker-wiring-2.329e1cbd306e754f8ffe56f9294794f4a8fa123860d76067a79e9ea385d1bf56.vi.png)
+    ![ReSpeaker với các chân bên trái được nối với các chân bên trái của Wio Terminal](../../../../../translated_images/wio-respeaker-wiring-2.329e1cbd306e754f.vi.png)
 
     > 💁 Nếu dây jumper của bạn được kết nối thành dải, hãy giữ chúng lại với nhau - điều này giúp dễ dàng đảm bảo bạn đã kết nối tất cả các dây theo thứ tự.
 
 1. Lặp lại quá trình này với các ổ cắm GPIO ở phía bên phải của ReSpeaker và Wio Terminal. Các dây này cần đi vòng qua các dây đã được kết nối trước đó.
 
-    ![ReSpeaker với các chân bên phải được nối với các chân bên phải của Wio Terminal](../../../../../translated_images/wio-respeaker-wiring-3.75b0be447e2fa9307a6a954f9ae8a71b77e39ada6a5ef1a059d341dc850fd90c.vi.png)
+    ![ReSpeaker với các chân bên phải được nối với các chân bên phải của Wio Terminal](../../../../../translated_images/wio-respeaker-wiring-3.75b0be447e2fa930.vi.png)
 
-    ![ReSpeaker với các chân bên phải được nối với các chân bên phải của Wio Terminal](../../../../../translated_images/wio-respeaker-wiring-4.aa9cd434d8779437de720cba2719d83992413caed1b620b6148f6c8924889afb.vi.png)
+    ![ReSpeaker với các chân bên phải được nối với các chân bên phải của Wio Terminal](../../../../../translated_images/wio-respeaker-wiring-4.aa9cd434d8779437.vi.png)
 
     > 💁 Nếu dây jumper của bạn được kết nối thành dải, hãy chia chúng thành hai dải. Đưa mỗi dải qua một bên của các dây đã có.
 
     > 💁 Bạn có thể sử dụng băng dính để giữ các chân thành một khối nhằm tránh việc chúng bị tuột ra khi bạn đang kết nối.
     >
-    > ![Các chân được cố định bằng băng dính](../../../../../translated_images/wio-respeaker-wiring-5.af117c20acf622f3cd656ccd8f4053f8845d6aaa3af164d24cb7dbd54a4bb470.vi.png)
+    > ![Các chân được cố định bằng băng dính](../../../../../translated_images/wio-respeaker-wiring-5.af117c20acf622f3.vi.png)
 
 1. Bạn sẽ cần thêm một loa.
 
     * Nếu bạn sử dụng loa với cáp JST, hãy kết nối nó với cổng JST trên ReSpeaker.
 
-      ![Loa được kết nối với ReSpeaker bằng cáp JST](../../../../../translated_images/respeaker-jst-speaker.a441d177809df9458041a2012dd336dbb22c00a5c9642647109d2940a50d6fcc.vi.png)
+      ![Loa được kết nối với ReSpeaker bằng cáp JST](../../../../../translated_images/respeaker-jst-speaker.a441d177809df945.vi.png)
 
     * Nếu bạn sử dụng loa với giắc cắm 3.5mm hoặc tai nghe, hãy cắm chúng vào giắc cắm 3.5mm.
 
-      ![Loa được kết nối với ReSpeaker qua giắc cắm 3.5mm](../../../../../translated_images/respeaker-35mm-speaker.ad79ef4f128c7751f0abf854869b6b779c90c12ae3e48909944a7e48aeee3c7e.vi.png)
+      ![Loa được kết nối với ReSpeaker qua giắc cắm 3.5mm](../../../../../translated_images/respeaker-35mm-speaker.ad79ef4f128c7751.vi.png)
 
 ### Nhiệm vụ - thiết lập thẻ SD
 
@@ -79,7 +79,7 @@ Bạn cũng sẽ cần một thẻ SD để tải xuống và phát lại âm th
 
 1. Cắm thẻ SD vào khe cắm thẻ SD ở phía bên trái của Wio Terminal, ngay dưới nút nguồn. Đảm bảo thẻ được cắm hoàn toàn và kêu "click" - bạn có thể cần một công cụ mỏng hoặc một thẻ SD khác để giúp đẩy thẻ vào hoàn toàn.
 
-    ![Cắm thẻ SD vào khe cắm thẻ SD dưới công tắc nguồn](../../../../../translated_images/wio-sd-card.acdcbe322fa4ee7f8f9c8cc015b3263964bb26ab5c7e25b41747988cc5280d64.vi.png)
+    ![Cắm thẻ SD vào khe cắm thẻ SD dưới công tắc nguồn](../../../../../translated_images/wio-sd-card.acdcbe322fa4ee7f.vi.png)
 
     > 💁 Để lấy thẻ SD ra, bạn cần đẩy nó vào một chút và nó sẽ bật ra. Bạn sẽ cần một công cụ mỏng như tua vít đầu dẹt hoặc một thẻ SD khác để làm điều này.
 

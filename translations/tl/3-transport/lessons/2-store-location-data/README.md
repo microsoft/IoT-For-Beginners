@@ -66,7 +66,7 @@ Ang mga database ay mga serbisyo na nagbibigay-daan sa iyo upang mag-imbak at ma
 
 Ang mga unang database ay Relational Database Management Systems (RDBMS), o relational database. Kilala rin ang mga ito bilang SQL databases dahil sa Structured Query Language (SQL) na ginagamit upang makipag-ugnayan sa mga ito upang magdagdag, mag-alis, mag-update, o mag-query ng data. Ang mga database na ito ay binubuo ng isang schema - isang malinaw na tinukoy na hanay ng mga talahanayan ng data, katulad ng isang spreadsheet. Ang bawat talahanayan ay may maraming pinangalanang mga column. Kapag nagpasok ka ng data, nagdaragdag ka ng isang row sa talahanayan, inilalagay ang mga halaga sa bawat column. Pinapanatili nito ang data sa isang napakatibay na istruktura - bagaman maaari mong iwanang walang laman ang mga column, kung nais mong magdagdag ng bagong column, kailangan mong gawin ito sa database, pinupunan ang mga halaga para sa mga umiiral na row. Ang mga database na ito ay relational - kung saan ang isang talahanayan ay maaaring magkaroon ng relasyon sa isa pa.
 
-![Isang relational database kung saan ang ID ng User table ay nauugnay sa user ID column ng purchases table, at ang ID ng products table ay nauugnay sa product ID ng purchases table](../../../../../translated_images/sql-database.be160f12bfccefd3ca718a66468c2c4c89c53e5aad4c295324d576da87f9dfdd.tl.png)
+![Isang relational database kung saan ang ID ng User table ay nauugnay sa user ID column ng purchases table, at ang ID ng products table ay nauugnay sa product ID ng purchases table](../../../../../translated_images/sql-database.be160f12bfccefd3.tl.png)
 
 Halimbawa, kung iniimbak mo ang mga personal na detalye ng isang user sa isang talahanayan, magkakaroon ka ng isang uri ng internal unique ID bawat user na ginagamit sa isang row sa isang talahanayan na naglalaman ng pangalan at address ng user. Kung nais mong mag-imbak ng iba pang detalye tungkol sa user na iyon, tulad ng kanilang mga binili, sa isa pang talahanayan, magkakaroon ka ng isang column sa bagong talahanayan para sa ID ng user na iyon. Kapag hinanap mo ang isang user, maaari mong gamitin ang kanilang ID upang makuha ang kanilang personal na detalye mula sa isang talahanayan, at ang kanilang mga binili mula sa isa pa.
 
@@ -241,7 +241,7 @@ Ang iyong function app ay kailangang kumonekta sa blob storage upang mag-imbak n
 
 Sa araling ito, gagamitin mo ang Python SDK upang makita kung paano makipag-ugnayan sa blob storage.
 
-![Pagpapadala ng GPS telemetry mula sa isang IoT device papunta sa IoT Hub, pagkatapos sa Azure Functions sa pamamagitan ng isang event hub trigger, pagkatapos ay sine-save ito sa blob storage](../../../../../translated_images/save-telemetry-to-storage-from-functions.ed3b1820980097f143d9f0570072da11304c2bc7906359dfa075b4d9b253c20f.tl.png)
+![Pagpapadala ng GPS telemetry mula sa isang IoT device papunta sa IoT Hub, pagkatapos sa Azure Functions sa pamamagitan ng isang event hub trigger, pagkatapos ay sine-save ito sa blob storage](../../../../../translated_images/save-telemetry-to-storage-from-functions.ed3b1820980097f1.tl.png)
 
 Ang data ay mase-save bilang isang JSON blob na may sumusunod na format:
 

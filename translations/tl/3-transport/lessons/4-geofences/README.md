@@ -110,7 +110,7 @@ Ang bawat punto sa polygon ay tinutukoy bilang isang longitude, latitude pair sa
 
 Ang polygon coordinates array ay palaging may 1 higit pang entry kaysa sa bilang ng mga puntos sa polygon, na ang huling entry ay kapareho ng una, na nagsasara sa polygon. Halimbawa, para sa isang rectangle magkakaroon ng 5 puntos.
 
-![Isang rectangle na may coordinates](../../../../../translated_images/polygon-points.302193da381cb415f46c2c7a98496ee4be05d6c73d21238a89721ad93e121233.tl.png)
+![Isang rectangle na may coordinates](../../../../../translated_images/polygon-points.302193da381cb415.tl.png)
 
 Sa imahe sa itaas, mayroong isang rectangle. Ang polygon coordinates ay nagsisimula sa top-left sa 47,-122, pagkatapos ay gumagalaw pakanan sa 47,-121, pagkatapos pababa sa 46,-121, pagkatapos pakanan sa 46, -122, pagkatapos ay pabalik sa start point sa 47, -122. Ito ay nagbibigay sa polygon ng 5 puntos - top-left, top-right, bottom-right, bottom-left, pagkatapos top-left upang isara ito.
 
@@ -208,7 +208,7 @@ Kapag ginawa mo ang request na ito, maaari ka ring magpasa ng halaga na tinatawa
 
 Kapag bumalik ang mga resulta mula sa API call, isa sa mga bahagi ng resulta ay ang `distance` na sinusukat sa pinakamalapit na punto sa gilid ng geofence, na may positibong halaga kung ang punto ay nasa labas ng geofence, negatibo kung ito ay nasa loob ng geofence. Kung ang distansya na ito ay mas mababa sa search buffer, ang aktwal na distansya ay ibinabalik sa metro, kung hindi, ang halaga ay 999 o -999. Ang 999 ay nangangahulugang ang punto ay nasa labas ng geofence ng higit sa search buffer, -999 ay nangangahulugang ito ay nasa loob ng geofence ng higit sa search buffer.
 
-![Isang geofence na may 50m search buffer sa paligid nito](../../../../../translated_images/search-buffer-and-distance.e6a79af3898183c7b2ef6fbf12271b8b34afd23969bb946962b1b18d3d2635e8.tl.png)
+![Isang geofence na may 50m search buffer sa paligid nito](../../../../../translated_images/search-buffer-and-distance.e6a79af3898183c7.tl.png)
 
 Sa imahe sa itaas, ang geofence ay may 50m search buffer.
 

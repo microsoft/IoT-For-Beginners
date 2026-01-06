@@ -41,7 +41,7 @@ Serverless, hay điện toán không máy chủ, liên quan đến việc tạo 
 
 > 💁 Nếu bạn đã từng sử dụng trigger cơ sở dữ liệu trước đây, bạn có thể nghĩ điều này tương tự như vậy, mã được kích hoạt bởi một sự kiện như chèn một hàng.
 
-![Khi nhiều sự kiện được gửi cùng lúc, dịch vụ serverless sẽ mở rộng để chạy tất cả chúng đồng thời](../../../../../translated_images/serverless-scaling.f8c769adf0413fd17be1af4f07ff63016b347e2ff869be6c4abb211f9e93909d.vi.png)
+![Khi nhiều sự kiện được gửi cùng lúc, dịch vụ serverless sẽ mở rộng để chạy tất cả chúng đồng thời](../../../../../translated_images/serverless-scaling.f8c769adf0413fd1.vi.png)
 
 Mã của bạn chỉ được chạy khi sự kiện xảy ra, không có gì giữ mã của bạn hoạt động vào các thời điểm khác. Khi sự kiện xảy ra, mã của bạn được tải và chạy. Điều này làm cho serverless rất dễ mở rộng - nếu nhiều sự kiện xảy ra cùng lúc, nhà cung cấp đám mây có thể chạy hàm của bạn nhiều lần như bạn cần đồng thời trên các máy chủ mà họ có sẵn. Nhược điểm của điều này là nếu bạn cần chia sẻ thông tin giữa các sự kiện, bạn cần lưu trữ nó ở đâu đó như cơ sở dữ liệu thay vì lưu trữ trong bộ nhớ.
 
@@ -244,7 +244,7 @@ CLI Azure Functions có thể được sử dụng để tạo một ứng dụn
     VS Code. Initialize for optimal use with VS Code?
     ```
 
-    ![Thông báo](../../../../../translated_images/vscode-azure-functions-init-notification.bd19b49229963edb5311fb3a79445ea469424759d2917ee2f2eb6f92d65d5086.vi.png)
+    ![Thông báo](../../../../../translated_images/vscode-azure-functions-init-notification.bd19b49229963edb.vi.png)
 
     Chọn **Yes** từ thông báo này.
 

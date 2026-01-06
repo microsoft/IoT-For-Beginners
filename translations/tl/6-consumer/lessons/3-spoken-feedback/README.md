@@ -37,7 +37,7 @@ Sa araling ito, tatalakayin natin ang:
 
 Ang Teksto sa Boses, tulad ng ipinahihiwatig ng pangalan, ay ang proseso ng pag-convert ng teksto sa audio na naglalaman ng mga salitang binibigkas. Ang pangunahing prinsipyo ay hatiin ang mga salita sa teksto sa kanilang mga tunog (kilala bilang phonemes), at pagsamahin ang audio para sa mga tunog na iyon, gamit ang pre-recorded na audio o audio na ginawa ng mga AI model.
 
-![Ang tatlong yugto ng karaniwang mga sistema ng Teksto sa Boses](../../../../../translated_images/tts-overview.193843cf3f5ee09f8b3371a9fdaeb0f116698a07ca69daaa77158da4800e5453.tl.png)
+![Ang tatlong yugto ng karaniwang mga sistema ng Teksto sa Boses](../../../../../translated_images/tts-overview.193843cf3f5ee09f.tl.png)
 
 Karaniwang may 3 yugto ang mga sistema ng Teksto sa Boses:
 

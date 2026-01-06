@@ -66,7 +66,7 @@ Databases zijn diensten waarmee je gegevens kunt opslaan en opvragen. Databases 
 
 De eerste databases waren Relationele Database Management Systemen (RDBMS), of relationele databases. Deze worden ook wel SQL-databases genoemd vanwege de Structured Query Language (SQL) die wordt gebruikt om gegevens toe te voegen, te verwijderen, bij te werken of op te vragen. Deze databases bestaan uit een schema - een goed gedefinieerde set tabellen van gegevens, vergelijkbaar met een spreadsheet. Elke tabel heeft meerdere benoemde kolommen. Wanneer je gegevens invoegt, voeg je een rij toe aan de tabel en plaats je waarden in elk van de kolommen. Dit houdt de gegevens in een zeer rigide structuur - hoewel je kolommen leeg kunt laten, moet je, als je een nieuwe kolom wilt toevoegen, dit doen in de database en waarden invullen voor de bestaande rijen. Deze databases zijn relationeel - in die zin dat één tabel een relatie kan hebben met een andere.
 
-![Een relationele database met de ID van de gebruikers tabel die verwijst naar de gebruikers-ID kolom van de aankopen tabel, en de ID van de producten tabel die verwijst naar de product-ID van de aankopen tabel](../../../../../translated_images/sql-database.be160f12bfccefd3ca718a66468c2c4c89c53e5aad4c295324d576da87f9dfdd.nl.png)
+![Een relationele database met de ID van de gebruikers tabel die verwijst naar de gebruikers-ID kolom van de aankopen tabel, en de ID van de producten tabel die verwijst naar de product-ID van de aankopen tabel](../../../../../translated_images/sql-database.be160f12bfccefd3.nl.png)
 
 Bijvoorbeeld, als je persoonlijke gegevens van een gebruiker opslaat in een tabel, zou je een soort interne unieke ID per gebruiker hebben die wordt gebruikt in een rij in een tabel die de naam en het adres van de gebruiker bevat. Als je vervolgens andere gegevens over die gebruiker wilt opslaan, zoals hun aankopen, in een andere tabel, zou je één kolom in de nieuwe tabel hebben voor de ID van die gebruiker. Wanneer je een gebruiker opzoekt, kun je hun ID gebruiken om hun persoonlijke gegevens uit één tabel te halen en hun aankopen uit een andere.
 
@@ -241,7 +241,7 @@ Je Functions-app moet nu verbinding maken met blob-opslag om de berichten van de
 
 In deze les gebruik je de Python SDK om te leren hoe je met blob-opslag kunt werken.
 
-![Het verzenden van GPS-telemetrie van een IoT-apparaat naar IoT Hub, vervolgens naar Azure Functions via een Event Hub-trigger, en het opslaan in blob-opslag](../../../../../translated_images/save-telemetry-to-storage-from-functions.ed3b1820980097f143d9f0570072da11304c2bc7906359dfa075b4d9b253c20f.nl.png)
+![Het verzenden van GPS-telemetrie van een IoT-apparaat naar IoT Hub, vervolgens naar Azure Functions via een Event Hub-trigger, en het opslaan in blob-opslag](../../../../../translated_images/save-telemetry-to-storage-from-functions.ed3b1820980097f1.nl.png)
 
 De gegevens worden opgeslagen als een JSON-blob met het volgende formaat:
 

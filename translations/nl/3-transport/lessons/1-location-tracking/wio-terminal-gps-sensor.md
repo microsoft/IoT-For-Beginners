@@ -33,7 +33,7 @@ Verbind de GPS-sensor.
 
 1. Zorg ervoor dat de Wio Terminal niet is aangesloten op je computer of een andere stroombron. Verbind het andere uiteinde van de Grove-kabel met de linker Grove-aansluiting op de Wio Terminal (als je naar het scherm kijkt). Dit is de aansluiting die het dichtst bij de aan/uit-knop zit.
 
-    ![De Grove GPS-sensor aangesloten op de linker aansluiting](../../../../../translated_images/wio-gps-sensor.19fd52b81ce58095d5deb3d4e5a1fdd88818d76569b00b1f0d740c92dc986525.nl.png)
+    ![De Grove GPS-sensor aangesloten op de linker aansluiting](../../../../../translated_images/wio-gps-sensor.19fd52b81ce58095.nl.png)
 
 1. Plaats de GPS-sensor zo dat de aangesloten antenne zicht heeft op de lucht - bij voorkeur naast een open raam of buiten. Het is makkelijker om een duidelijk signaal te krijgen als er niets tussen de antenne en de lucht zit.
 

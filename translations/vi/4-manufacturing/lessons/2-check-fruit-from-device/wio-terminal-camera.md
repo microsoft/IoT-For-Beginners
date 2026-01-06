@@ -29,7 +29,7 @@ Kết nối camera.
 
 1. Các chân ở đáy của ArduCam cần được kết nối với các chân GPIO trên Wio Terminal. Để dễ dàng tìm đúng chân, hãy gắn nhãn dán chân GPIO đi kèm với Wio Terminal xung quanh các chân:
 
-    ![Wio Terminal với nhãn dán chân GPIO](../../../../../translated_images/wio-terminal-pin-sticker.b90b1535937b84bd00d853f0004aea74fac2aec04b43f14b887796b2633f855e.vi.png)
+    ![Wio Terminal với nhãn dán chân GPIO](../../../../../translated_images/wio-terminal-pin-sticker.b90b1535937b84bd.vi.png)
 
 1. Sử dụng dây nhảy, thực hiện các kết nối sau:
 
@@ -297,7 +297,7 @@ Wio Terminal bây giờ có thể được lập trình để chụp ảnh khi m
 
 1. Các vi điều khiển chạy mã của bạn liên tục, vì vậy không dễ dàng để kích hoạt một hành động như chụp ảnh mà không phản ứng với một cảm biến. Wio Terminal có các nút, vì vậy camera có thể được thiết lập để kích hoạt bởi một trong các nút. Thêm đoạn mã sau vào cuối hàm `setup` để cấu hình nút C (một trong ba nút ở trên cùng, nút gần công tắc nguồn nhất).
 
-    ![Nút C ở trên cùng gần công tắc nguồn](../../../../../translated_images/wio-terminal-c-button.73df3cb1c1445ea07ee98316af0e7925fcb43135df0abed58d3d4822b2589c3b.vi.png)
+    ![Nút C ở trên cùng gần công tắc nguồn](../../../../../translated_images/wio-terminal-c-button.73df3cb1c1445ea0.vi.png)
 
     ```cpp
     pinMode(WIO_KEY_C, INPUT_PULLUP);

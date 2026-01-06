@@ -55,11 +55,11 @@ Relay là một công tắc điện cơ chuyển đổi tín hiệu điện thà
 
 > 🎓 [Nam châm điện](https://wikipedia.org/wiki/Electromagnet) là nam châm được tạo ra bằng cách truyền điện qua một cuộn dây. Khi điện được bật, cuộn dây trở nên từ hóa. Khi điện bị tắt, cuộn dây mất từ tính.
 
-![Khi bật, nam châm điện tạo ra từ trường, bật công tắc cho mạch đầu ra](../../../../../translated_images/relay-on.4db16a0fd6b669262fd6699aff3fbcd31b6057c06d90411b6bddc06326d1cf75.vi.png)
+![Khi bật, nam châm điện tạo ra từ trường, bật công tắc cho mạch đầu ra](../../../../../translated_images/relay-on.4db16a0fd6b66926.vi.png)
 
 Trong relay, một mạch điều khiển cung cấp năng lượng cho nam châm điện. Khi nam châm điện được bật, nó kéo một đòn bẩy di chuyển công tắc, đóng một cặp tiếp điểm và hoàn thành mạch đầu ra.
 
-![Khi tắt, nam châm điện không tạo ra từ trường, tắt công tắc cho mạch đầu ra](../../../../../translated_images/relay-off.c34a178a2960fecdc3c6400d43e633ed11c6746cd653cfb4a768fa097c40394c.vi.png)
+![Khi tắt, nam châm điện không tạo ra từ trường, tắt công tắc cho mạch đầu ra](../../../../../translated_images/relay-off.c34a178a2960fecd.vi.png)
 
 Khi mạch điều khiển tắt, nam châm điện tắt, thả đòn bẩy và mở các tiếp điểm, tắt mạch đầu ra. Relay là bộ truyền động kỹ thuật số - tín hiệu cao đến relay sẽ bật nó lên, tín hiệu thấp sẽ tắt nó đi.
 
@@ -85,7 +85,7 @@ Nam châm điện không cần nhiều năng lượng để kích hoạt và ké
 
 Hình ảnh trên cho thấy một relay Grove. Mạch điều khiển kết nối với thiết bị IoT và bật hoặc tắt relay bằng 3.3V hoặc 5V. Mạch đầu ra có hai đầu nối, bất kỳ đầu nào cũng có thể là nguồn hoặc đất. Mạch đầu ra có thể xử lý lên đến 250V tại 10A, đủ cho một loạt các thiết bị chạy bằng điện lưới. Bạn có thể mua các relay có thể xử lý mức công suất cao hơn.
 
-![Máy bơm được nối qua relay](../../../../../translated_images/pump-wired-to-relay.66c5cfc0d89189900cd601777f5caeb39ee35c6250f6c86bf38feaceedb21fe9.vi.png)
+![Máy bơm được nối qua relay](../../../../../translated_images/pump-wired-to-relay.66c5cfc0d8918990.vi.png)
 
 Trong hình ảnh trên, nguồn điện được cung cấp cho máy bơm thông qua relay. Có một dây đỏ kết nối đầu nối +5V của nguồn điện USB với một đầu nối của mạch đầu ra của relay, và một dây đỏ khác kết nối đầu nối còn lại của mạch đầu ra với máy bơm. Một dây đen kết nối máy bơm với đất trên nguồn điện USB. Khi relay bật, nó hoàn thành mạch, gửi 5V đến máy bơm, bật máy bơm.
 
@@ -135,7 +135,7 @@ Quay lại bài học 3, bạn đã xây dựng một chiếc đèn ngủ - mộ
 
 Nếu bạn đã thực hiện bài học trước về độ ẩm đất bằng cảm biến vật lý, bạn sẽ nhận thấy rằng phải mất vài giây để mức độ ẩm đất giảm sau khi bạn tưới cây. Điều này không phải vì cảm biến chậm, mà vì nước cần thời gian để thấm qua đất.
 💁 Nếu bạn tưới nước quá gần cảm biến, bạn có thể đã thấy chỉ số giảm nhanh rồi tăng trở lại - điều này xảy ra do nước gần cảm biến lan ra khắp phần đất còn lại, làm giảm độ ẩm đất xung quanh cảm biến.
-![Một phép đo độ ẩm đất là 658 không thay đổi trong khi tưới nước, chỉ giảm xuống 320 sau khi nước đã thấm qua đất](../../../../../translated_images/soil-moisture-travel.a0e31af222cf14385de5380dfc32c7b8213960965228b8e4f7b7ab7f73b310a3.vi.png)
+![Một phép đo độ ẩm đất là 658 không thay đổi trong khi tưới nước, chỉ giảm xuống 320 sau khi nước đã thấm qua đất](../../../../../translated_images/soil-moisture-travel.a0e31af222cf1438.vi.png)
 
 Trong sơ đồ trên, một phép đo độ ẩm đất hiển thị giá trị 658. Cây được tưới nước, nhưng giá trị này không thay đổi ngay lập tức vì nước chưa đến cảm biến. Việc tưới nước thậm chí có thể kết thúc trước khi nước đến cảm biến và giá trị giảm xuống để phản ánh mức độ ẩm mới.
 
@@ -157,11 +157,11 @@ Máy bơm nên bật trong bao lâu mỗi lần? Tốt hơn là nên thận tr�
 
 > 💁 Loại điều khiển thời gian này rất cụ thể đối với thiết bị IoT mà bạn đang xây dựng, thuộc tính bạn đang đo lường và các cảm biến, bộ truyền động được sử dụng.
 
-![Một cây dâu tây được kết nối với nước qua một máy bơm, máy bơm được kết nối với một rơ-le. Rơ-le và cảm biến độ ẩm đất trong cây đều được kết nối với Raspberry Pi](../../../../../translated_images/strawberry-with-pump.b410fc72ac6aabad3e28de9775bf2393ead73dcfec6fd8c9bc01cf107ecd171a.vi.png)
+![Một cây dâu tây được kết nối với nước qua một máy bơm, máy bơm được kết nối với một rơ-le. Rơ-le và cảm biến độ ẩm đất trong cây đều được kết nối với Raspberry Pi](../../../../../translated_images/strawberry-with-pump.b410fc72ac6aabad.vi.png)
 
 Ví dụ, tôi có một cây dâu tây với một cảm biến độ ẩm đất và một máy bơm được điều khiển bởi một rơ-le. Tôi đã quan sát thấy rằng khi tôi thêm nước, phải mất khoảng 20 giây để giá trị độ ẩm đất ổn định. Điều này có nghĩa là tôi cần tắt rơ-le và chờ 20 giây trước khi kiểm tra mức độ ẩm. Tôi thà có ít nước hơn là quá nhiều - tôi luôn có thể bật máy bơm lại, nhưng tôi không thể lấy nước ra khỏi cây.
 
-![Bước 1, đo lường. Bước 2, thêm nước. Bước 3, chờ nước thấm qua đất. Bước 4, đo lại](../../../../../translated_images/soil-moisture-delay.865f3fae206db01d5f8f100f4f44040215d44a0412dd3450aef7ff7b93b6d273.vi.png)
+![Bước 1, đo lường. Bước 2, thêm nước. Bước 3, chờ nước thấm qua đất. Bước 4, đo lại](../../../../../translated_images/soil-moisture-delay.865f3fae206db01d.vi.png)
 
 Điều này có nghĩa là quy trình tốt nhất sẽ là một chu kỳ tưới nước như sau:
 

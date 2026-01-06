@@ -33,7 +33,7 @@ Kết nối rơ le.
 
 1. Khi Wio Terminal đã ngắt kết nối khỏi máy tính hoặc nguồn điện khác, cắm đầu còn lại của cáp Grove vào ổ cắm Grove bên trái trên Wio Terminal khi bạn nhìn vào màn hình. Giữ cảm biến độ ẩm đất kết nối với ổ cắm bên phải.
 
-![Rơ le Grove được kết nối với ổ cắm bên trái, và cảm biến độ ẩm đất được kết nối với ổ cắm bên phải](../../../../../translated_images/wio-relay-and-soil-moisture-sensor.ed722202d42babe0be5f4518cf13e8c2c81e8df21d37839266cbdb60cf30172d.vi.png)
+![Rơ le Grove được kết nối với ổ cắm bên trái, và cảm biến độ ẩm đất được kết nối với ổ cắm bên phải](../../../../../translated_images/wio-relay-and-soil-moisture-sensor.ed722202d42babe0.vi.png)
 
 1. Cắm cảm biến độ ẩm đất vào đất, nếu nó chưa được cắm từ bài học trước.
 

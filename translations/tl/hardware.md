@@ -21,7 +21,7 @@ Kakailanganin mo rin ng ilang hindi teknikal na bagay, tulad ng lupa o halaman s
 
 ## Bumili ng mga kit
 
-![Ang logo ng Seeed Studios](../../translated_images/seeed-logo.74732b6b482b6e8e8bdcc06f0541fc92b1dabf5e3e8f37afb91e04393a8cb977.tl.png)
+![Ang logo ng Seeed Studios](../../translated_images/seeed-logo.74732b6b482b6e8e.tl.png)
 
 Ang Seeed Studios ay napakabait na ginawang madali ang pagbili ng lahat ng hardware bilang mga kit:
 
@@ -29,7 +29,7 @@ Ang Seeed Studios ay napakabait na ginawang madali ang pagbili ng lahat ng hardw
 
 **[IoT para sa mga nagsisimula kasama ang Seeed at Microsoft - Wio Terminal Starter Kit](https://www.seeedstudio.com/IoT-for-beginners-with-Seeed-and-Microsoft-Wio-Terminal-Starter-Kit-p-5006.html)**
 
-[![Ang Wio Terminal hardware kit](../../translated_images/wio-hardware-kit.4c70c48b85e4283a1d73e248d87d49587c0cd077eeb69cb3eca803166f63c9a5.tl.png)](https://www.seeedstudio.com/IoT-for-beginners-with-Seeed-and-Microsoft-Wio-Terminal-Starter-Kit-p-5006.html)
+[![Ang Wio Terminal hardware kit](../../translated_images/wio-hardware-kit.4c70c48b85e4283a.tl.png)](https://www.seeedstudio.com/IoT-for-beginners-with-Seeed-and-Microsoft-Wio-Terminal-Starter-Kit-p-5006.html)
 
 ### Raspberry Pi
 

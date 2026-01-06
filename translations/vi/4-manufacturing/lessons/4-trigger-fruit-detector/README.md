@@ -115,7 +115,7 @@ Hình trên minh họa một kiến trúc tham khảo cho ứng dụng nguyên m
 
 Thiết bị IoT cần một loại kích hoạt nào đó để chỉ ra khi nào trái cây sẵn sàng được phân loại. Một kích hoạt cho việc này có thể là đo khoảng cách khi trái cây ở đúng vị trí trên băng chuyền bằng cách đo khoảng cách đến cảm biến.
 
-![Cảm biến khoảng cách gửi tia laser đến các vật thể như quả chuối và đo thời gian tia phản xạ trở lại](../../../../../translated_images/proximity-sensor.f5cd752c77fb62fea000156233b32fd24fad3707ec69b8bdd8d312b7af85156d.vi.png)
+![Cảm biến khoảng cách gửi tia laser đến các vật thể như quả chuối và đo thời gian tia phản xạ trở lại](../../../../../translated_images/proximity-sensor.f5cd752c77fb62fe.vi.png)
 
 Cảm biến khoảng cách có thể được sử dụng để đo khoảng cách từ cảm biến đến một vật thể. Chúng thường phát ra một tia bức xạ điện từ như tia laser hoặc ánh sáng hồng ngoại, sau đó phát hiện bức xạ phản xạ từ vật thể. Thời gian giữa tia laser được gửi đi và tín hiệu phản xạ trở lại có thể được sử dụng để tính toán khoảng cách đến cảm biến.
 

@@ -126,7 +126,7 @@ Zodra de entiteiten zijn gedefinieerd, maak je intenties. Deze worden geleerd do
 
 Je geeft vervolgens aan welke delen van deze zinnen overeenkomen met de entiteiten:
 
-![De zin "zet een timer voor 1 minuut en 12 seconden" opgesplitst in entiteiten](../../../../../translated_images/sentence-as-intent-entities.301401696f9922590a99343f5c5d211b710b906f212f0d4d034cee3ffb610272.nl.png)
+![De zin "zet een timer voor 1 minuut en 12 seconden" opgesplitst in entiteiten](../../../../../translated_images/sentence-as-intent-entities.301401696f992259.nl.png)
 
 De zin `zet een timer voor 1 minuut en 12 seconden` heeft de intentie `timer instellen`. Het heeft ook 2 entiteiten met elk 2 waarden:
 

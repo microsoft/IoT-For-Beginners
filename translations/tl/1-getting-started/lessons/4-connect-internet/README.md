@@ -46,7 +46,7 @@ Sa araling ito, tatalakayin natin ang:
 
 Mayroong iba't ibang sikat na communication protocol na ginagamit ng mga IoT device upang makipag-ugnayan sa Internet. Ang pinakasikat ay nakabatay sa publish/subscribe messaging sa pamamagitan ng isang uri ng broker. Ang mga IoT device ay kumokonekta sa broker at nagpa-publish ng telemetry at nag-subscribe sa mga utos. Ang mga cloud service ay kumokonekta rin sa broker at nag-subscribe sa lahat ng telemetry messages at nagpa-publish ng mga utos alinman sa mga partikular na device, o sa mga grupo ng device.
 
-![Ang mga IoT device ay kumokonekta sa isang broker at nagpa-publish ng telemetry at nag-subscribe sa mga utos. Ang mga cloud service ay kumokonekta sa broker at nag-subscribe sa lahat ng telemetry at nagpapadala ng mga utos sa mga partikular na device.](../../../../../translated_images/pub-sub.7c7ed43fe9fd15d4e1f81a3fd95440413c457acd9bcbe9a43341e30e88db5264.tl.png)
+![Ang mga IoT device ay kumokonekta sa isang broker at nagpa-publish ng telemetry at nag-subscribe sa mga utos. Ang mga cloud service ay kumokonekta sa broker at nag-subscribe sa lahat ng telemetry at nagpapadala ng mga utos sa mga partikular na device.](../../../../../translated_images/pub-sub.7c7ed43fe9fd15d4.tl.png)
 
 Ang MQTT ang pinakasikat na communication protocol para sa mga IoT device at tatalakayin ito sa araling ito. Ang iba pang mga protocol ay kinabibilangan ng AMQP at HTTP/HTTPS.
 
@@ -115,7 +115,7 @@ Ang salitang telemetry ay nagmula sa mga salitang Griyego na nangangahulugang su
 
 Balikan natin ang halimbawa ng smart thermostat mula sa Aralin 1.
 
-![Isang Internet connected thermostat na gumagamit ng maraming room sensor](../../../../../translated_images/telemetry.21e5d8b97649d2ebeb0f68d4b9691ab2d1f7bd629338e131465aff8a614e4d4a.tl.png)
+![Isang Internet connected thermostat na gumagamit ng maraming room sensor](../../../../../translated_images/telemetry.21e5d8b97649d2eb.tl.png)
 
 Ang thermostat ay may mga temperature sensor upang mangolekta ng telemetry. Malamang na mayroon itong isang built-in na temperature sensor, at maaaring kumonekta sa maraming external temperature sensor gamit ang isang wireless protocol tulad ng [Bluetooth Low Energy](https://wikipedia.org/wiki/Bluetooth_Low_Energy) (BLE).
 
@@ -267,11 +267,11 @@ Isulat ang server code.
 
 1. Kapag nag-launch ang VS Code, i-activate nito ang Python virtual environment. Ito ay makikita sa ibabang status bar:
 
-    ![VS Code na nagpapakita ng napiling virtual environment](../../../../../translated_images/vscode-virtual-env.8ba42e04c3d533cf677e16cbe5ed9a3b80f62c6964472dc84b6f940800f0909f.tl.png)
+    ![VS Code na nagpapakita ng napiling virtual environment](../../../../../translated_images/vscode-virtual-env.8ba42e04c3d533cf.tl.png)
 
 1. Kung ang VS Code Terminal ay tumatakbo na kapag nagbukas ang VS Code, hindi nito ma-activate ang virtual environment sa terminal. Ang pinakamadaling gawin ay patayin ang terminal gamit ang **Kill the active terminal instance** button:
 
-    ![VS Code Kill the active terminal instance button](../../../../../translated_images/vscode-kill-terminal.1cc4de7c6f25ee08f423f0ead714e61d069fac1eb2089e97b8a7bbcb3d45fe5e.tl.png)
+    ![VS Code Kill the active terminal instance button](../../../../../translated_images/vscode-kill-terminal.1cc4de7c6f25ee08.tl.png)
 
 1. Mag-launch ng bagong VS Code Terminal sa pamamagitan ng pagpili sa *Terminal -> New Terminal*, o sa pagpindot ng `` CTRL+` ``. Ang bagong terminal ay maglo-load ng virtual environment, kasama ang tawag upang i-activate ito na makikita sa terminal. Ang pangalan ng virtual environment (`.venv`) ay makikita rin sa prompt:
 

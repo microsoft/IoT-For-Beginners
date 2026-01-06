@@ -97,15 +97,15 @@ Ang encryption ay may dalawang uri - symmetric at asymmetric.
 
 **Symmetric** encryption ay gumagamit ng parehong key upang i-encrypt at i-decrypt ang data. Parehong kailangang malaman ng sender at receiver ang parehong key. Ito ang hindi gaanong secure na uri, dahil ang key ay kailangang maibahagi sa kung anumang paraan. Para sa sender na magpadala ng encrypted na mensahe sa recipient, maaaring kailangang ipadala muna ng sender ang key sa recipient.
 
-![Ang symmetric key encryption ay gumagamit ng parehong key upang i-encrypt at i-decrypt ang mensahe](../../../../../translated_images/send-message-symmetric-key.a2e8ad0d495896ffcdf15d25bb4491c695a5cb851457b359fb0f0c89d67707c9.tl.png)
+![Ang symmetric key encryption ay gumagamit ng parehong key upang i-encrypt at i-decrypt ang mensahe](../../../../../translated_images/send-message-symmetric-key.a2e8ad0d495896ff.tl.png)
 
 Kung ang key ay nanakaw habang nasa transit, o ang sender o recipient ay na-hack at nahanap ang key, maaaring ma-crack ang encryption.
 
-![Ang symmetric key encryption ay secure lamang kung hindi makuha ng hacker ang key - kung makuha nila, maaari nilang i-intercept at i-decrypt ang mensahe](../../../../../translated_images/send-message-symmetric-key-hacker.e7cb53db1707adfb1486a8144060cb76435fe8dbdede8cecc09e7d15b2d9a251.tl.png)
+![Ang symmetric key encryption ay secure lamang kung hindi makuha ng hacker ang key - kung makuha nila, maaari nilang i-intercept at i-decrypt ang mensahe](../../../../../translated_images/send-message-symmetric-key-hacker.e7cb53db1707adfb.tl.png)
 
 **Asymmetric** encryption ay gumagamit ng 2 keys - isang encryption key at isang decryption key, na tinutukoy bilang public/private key pair. Ang public key ay ginagamit upang i-encrypt ang mensahe, ngunit hindi maaaring gamitin upang i-decrypt ito, ang private key ay ginagamit upang i-decrypt ang mensahe ngunit hindi maaaring gamitin upang i-encrypt ito.
 
-![Ang asymmetric encryption ay gumagamit ng magkaibang key upang i-encrypt at i-decrypt. Ang encryption key ay ipinapadala sa mga sender ng mensahe upang ma-encrypt nila ang mensahe bago ito ipadala sa recipient na may-ari ng mga keys](../../../../../translated_images/send-message-asymmetric.7abe327c62615b8c19805252af5d4b6c5e7aaeb8fbc455efeff866fe2d300b62.tl.png)
+![Ang asymmetric encryption ay gumagamit ng magkaibang key upang i-encrypt at i-decrypt. Ang encryption key ay ipinapadala sa mga sender ng mensahe upang ma-encrypt nila ang mensahe bago ito ipadala sa recipient na may-ari ng mga keys](../../../../../translated_images/send-message-asymmetric.7abe327c62615b8c.tl.png)
 
 Ibinabahagi ng recipient ang kanilang public key, at ginagamit ito ng sender upang i-encrypt ang mensahe. Kapag naipadala na ang mensahe, i-decrypt ito ng recipient gamit ang kanilang private key. Ang asymmetric encryption ay mas secure dahil ang private key ay pinapanatiling pribado ng recipient at hindi kailanman ibinabahagi. Ang public key ay maaaring ibigay sa kahit sino dahil maaari lamang itong gamitin upang i-encrypt ang mga mensahe.
 
@@ -165,7 +165,7 @@ Ang mga certificate na ito ay may iba't ibang fields, kabilang ang kung sino ang
 
 Kapag gumagamit ng X.509 certificates, parehong ang sender at ang recipient ay magkakaroon ng kanilang sariling public at private keys, pati na rin ang X.509 certificates na naglalaman ng public key. Magpapalitan sila ng X.509 certificates sa anumang paraan, gamit ang public key ng isa't isa upang i-encrypt ang datos na kanilang ipinapadala, at ang kanilang sariling private key upang i-decrypt ang datos na kanilang natatanggap.
 
-![Sa halip na magbahagi ng public key, maaari kang magbahagi ng certificate. Maaaring i-verify ng user ng certificate na ito ay galing sa iyo sa pamamagitan ng pag-check sa certificate authority na nag-sign nito.](../../../../../translated_images/send-message-certificate.9cc576ac1e46b76eb58ebc8eedaa522566fa0700076da46f5180aad78c2435db.tl.png)
+![Sa halip na magbahagi ng public key, maaari kang magbahagi ng certificate. Maaaring i-verify ng user ng certificate na ito ay galing sa iyo sa pamamagitan ng pag-check sa certificate authority na nag-sign nito.](../../../../../translated_images/send-message-certificate.9cc576ac1e46b76e.tl.png)
 
 Isang malaking bentahe ng paggamit ng X.509 certificates ay maaari itong ibahagi sa pagitan ng mga device. Maaari kang gumawa ng isang certificate, i-upload ito sa IoT Hub, at gamitin ito para sa lahat ng iyong device. Ang bawat device ay kailangan lamang malaman ang private key upang i-decrypt ang mga mensaheng natatanggap nito mula sa IoT Hub.
 

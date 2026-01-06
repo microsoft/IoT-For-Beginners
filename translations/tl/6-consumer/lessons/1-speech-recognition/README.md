@@ -64,7 +64,7 @@ Ang mga mikropono ay may iba't ibang uri:
 
 * Ribbon - Ang ribbon microphones ay katulad ng dynamic microphones, maliban na mayroon silang metal ribbon sa halip na diaphragm. Ang ribbon na ito ay gumagalaw sa magnetic field na lumilikha ng electrical current. Tulad ng dynamic microphones, ang ribbon microphones ay hindi nangangailangan ng power upang gumana.
 
-    ![Si Edmund Lowe, Amerikanong aktor, nakatayo sa radio microphone (labeled para sa (NBC) Blue Network), hawak ang script, 1942](../../../../../translated_images/ribbon-mic.eacc8e092c7441caee6d7a81e2f40e1675bf36269848964c7c09c9a9acb05127.tl.jpg)
+    ![Si Edmund Lowe, Amerikanong aktor, nakatayo sa radio microphone (labeled para sa (NBC) Blue Network), hawak ang script, 1942](../../../../../translated_images/ribbon-mic.eacc8e092c7441ca.tl.jpg)
 
 * Condenser - Ang condenser microphones ay may manipis na metal diaphragm at fixed metal backplate. Ang kuryente ay inilalapat sa pareho ng mga ito at habang ang diaphragm ay nag-vibrate, ang static charge sa pagitan ng mga plates ay nagbabago na lumilikha ng signal. Ang condenser microphones ay nangangailangan ng power upang gumana - tinatawag na *Phantom power*.
 
@@ -84,7 +84,7 @@ Ang audio ay isang analog signal na nagdadala ng napaka-pinong impormasyon. Upan
 
 > 🎓 Ang sampling ay ang pag-convert ng audio signal sa digital na halaga na kumakatawan sa signal sa puntong iyon ng oras.
 
-![Isang line chart na nagpapakita ng signal, na may discrete points sa fixed intervals](../../../../../translated_images/sampling.6f4fadb3f2d9dfe7618f9edfe75a350e6b3f74293ec84f02ab69c19d2afe3d73.tl.png)
+![Isang line chart na nagpapakita ng signal, na may discrete points sa fixed intervals](../../../../../translated_images/sampling.6f4fadb3f2d9dfe7.tl.png)
 
 Ang digital na audio ay sinasample gamit ang Pulse Code Modulation, o PCM. Ang PCM ay kinabibilangan ng pagbabasa ng boltahe ng signal, at pagpili ng pinakamalapit na discrete value sa boltahe gamit ang isang tinukoy na laki.
 

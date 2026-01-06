@@ -13,7 +13,7 @@ Ang kombinasyon ng mga prediksyon at kanilang bounding boxes ay maaaring gamitin
 
 ## Bilangin ang stock
 
-![4 na lata ng tomato paste na may bounding boxes sa paligid ng bawat lata](../../../../../translated_images/rpi-stock-with-bounding-boxes.b5540e2ecb7cd49f1271828d3be412671d950e87625c5597ea97c90f11e01097.tl.jpg)
+![4 na lata ng tomato paste na may bounding boxes sa paligid ng bawat lata](../../../../../translated_images/rpi-stock-with-bounding-boxes.b5540e2ecb7cd49f.tl.jpg)
 
 Sa imahe na ipinakita sa itaas, ang mga bounding boxes ay may kaunting overlap. Kung mas malaki ang overlap, maaaring ipahiwatig ng mga bounding boxes na ito ay iisang bagay. Upang mabilang nang tama ang mga bagay, kailangan mong huwag pansinin ang mga kahon na may malaking overlap.
 

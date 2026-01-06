@@ -41,7 +41,7 @@ Ang dalawang pangunahing bahagi ng isang IoT application ay ang *Internet* at an
 
 ### Ang Bagay (The Thing)
 
-![Isang Raspberry Pi 4](../../../../../translated_images/raspberry-pi-4.fd4590d308c3d456db1327e86b395ddcd735513267aafd4879ea2785f7792eac.tl.jpg)
+![Isang Raspberry Pi 4](../../../../../translated_images/raspberry-pi-4.fd4590d308c3d456.tl.jpg)
 
 Ang **Bagay** sa IoT ay tumutukoy sa isang device na maaaring makipag-ugnayan sa pisikal na mundo. Ang mga device na ito ay karaniwang maliliit, murang mga computer na tumatakbo sa mababang bilis at gumagamit ng mababang enerhiya - halimbawa, simpleng microcontrollers na may kilobytes ng RAM (kumpara sa gigabytes sa isang PC) na tumatakbo sa ilang daang megahertz (kumpara sa gigahertz sa isang PC), ngunit minsan ay gumagamit ng napakaliit na enerhiya na maaari silang tumakbo nang ilang linggo, buwan, o kahit taon gamit lamang ang mga baterya.
 
@@ -67,7 +67,7 @@ Sa halimbawa ng isang smart thermostat, ang thermostat ay kokonekta gamit ang ho
 
 Ang mas matalinong bersyon nito ay maaaring gumamit ng AI sa ulap gamit ang data mula sa iba pang mga sensor na konektado sa iba pang IoT devices tulad ng occupancy sensors na natutukoy kung aling mga silid ang ginagamit, pati na rin ang data tulad ng panahon at kahit ang iyong kalendaryo, upang gumawa ng mga desisyon kung paano itatakda ang temperatura sa isang matalinong paraan. Halimbawa, maaari nitong patayin ang heating kung mababasa mula sa iyong kalendaryo na ikaw ay nasa bakasyon, o patayin ang heating sa bawat silid depende sa kung aling mga silid ang ginagamit mo, natututo mula sa data upang maging mas tumpak sa paglipas ng panahon.
 
-![Isang diagram na nagpapakita ng maraming temperature sensors at isang dial bilang mga input sa isang IoT device, ang IoT device na may 2-way na komunikasyon sa ulap, na may 2-way na komunikasyon din sa isang telepono, isang kalendaryo, at isang weather service, at kontrol ng isang heater bilang output mula sa IoT device](../../../../../translated_images/smarter-thermostat.a75855f15d2d9e63d5da9d7ba5847a987f6c9d98e96e770c203532275194e27d.tl.png)
+![Isang diagram na nagpapakita ng maraming temperature sensors at isang dial bilang mga input sa isang IoT device, ang IoT device na may 2-way na komunikasyon sa ulap, na may 2-way na komunikasyon din sa isang telepono, isang kalendaryo, at isang weather service, at kontrol ng isang heater bilang output mula sa IoT device](../../../../../translated_images/smarter-thermostat.a75855f15d2d9e63.tl.png)
 
 ✅ Anong iba pang data ang maaaring makatulong upang gawing mas matalino ang isang Internet-connected thermostat?
 
@@ -135,7 +135,7 @@ Tulad ng CPU, ang memorya sa isang microcontroller ay mas maliit nang maraming b
 
 Ang diagram sa ibaba ay nagpapakita ng pagkakaiba sa laki sa pagitan ng 192KB at 8GB - ang maliit na tuldok sa gitna ay kumakatawan sa 192KB.
 
-![Paghahambing sa pagitan ng 192KB at 8GB - higit sa 40,000 beses na mas malaki](../../../../../translated_images/ram-comparison.6beb73541b42ac6ffde64cdf79fc925a84b932ce7ebd4d41d5fd7afc1257a696.tl.png)
+![Paghahambing sa pagitan ng 192KB at 8GB - higit sa 40,000 beses na mas malaki](../../../../../translated_images/ram-comparison.6beb73541b42ac6f.tl.png)
 
 Ang imbakan ng programa ay mas maliit din kumpara sa isang PC. Ang karaniwang PC ay maaaring may 500GB na hard drive para sa imbakan ng programa, samantalang ang isang microcontroller ay maaaring may kilobytes o ilang megabytes (MB) lamang ng imbakan (1MB ay 1,000KB, o 1,000,000 bytes). Ang Wio terminal ay may 4MB ng imbakan ng programa.
 
@@ -211,17 +211,17 @@ Sa nakaraang aralin, ipinakilala ang single-board computers. Ngayon, tingnan nat
 
 ### Raspberry Pi
 
-![Ang Raspberry Pi logo](../../../../../translated_images/raspberry-pi-logo.4efaa16605cee05489d8fa53941e991b3757aa24c20a95abdcf8cfd761953596.tl.png)
+![Ang Raspberry Pi logo](../../../../../translated_images/raspberry-pi-logo.4efaa16605cee054.tl.png)
 
 Ang [Raspberry Pi Foundation](https://www.raspberrypi.org) ay isang charity mula sa UK na itinatag noong 2009 upang itaguyod ang pag-aaral ng computer science, lalo na sa antas ng paaralan. Bilang bahagi ng misyong ito, nag-develop sila ng isang single-board computer na tinatawag na Raspberry Pi. Ang mga Raspberry Pi ay kasalukuyang available sa 3 variant - isang full-size na bersyon, ang mas maliit na Pi Zero, at isang compute module na maaaring isama sa iyong panghuling IoT device.
 
-![Isang Raspberry Pi 4](../../../../../translated_images/raspberry-pi-4.fd4590d308c3d456db1327e86b395ddcd735513267aafd4879ea2785f7792eac.tl.jpg)
+![Isang Raspberry Pi 4](../../../../../translated_images/raspberry-pi-4.fd4590d308c3d456.tl.jpg)
 
 Ang pinakabagong bersyon ng full-size Raspberry Pi ay ang Raspberry Pi 4B. Mayroon itong quad-core (4 core) CPU na tumatakbo sa 1.5GHz, 2, 4, o 8GB ng RAM, gigabit ethernet, WiFi, 2 HDMI ports na sumusuporta sa 4k screens, isang audio at composite video output port, USB ports (2 USB 2.0, 2 USB 3.0), 40 GPIO pins, isang camera connector para sa Raspberry Pi camera module, at isang SD card slot. Ang lahat ng ito ay nasa isang board na 88mm x 58mm x 19.5mm at pinapagana ng 3A USB-C power supply. Ang mga ito ay nagsisimula sa US$35, mas mura kaysa sa isang PC o Mac.
 
 > 💁 Mayroon ding Pi400 all-in-one computer na may Pi4 na naka-built-in sa isang keyboard.
 
-![Isang Raspberry Pi Zero](../../../../../translated_images/raspberry-pi-zero.f7a4133e1e7d54bb3dbb32319b217a53c5b94871995a54647f2894b54206b8d8.tl.jpg)
+![Isang Raspberry Pi Zero](../../../../../translated_images/raspberry-pi-zero.f7a4133e1e7d54bb.tl.jpg)
 
 Ang Pi Zero ay mas maliit, na may mas mababang power. Mayroon itong single-core 1GHz CPU, 512MB ng RAM, WiFi (sa Zero W model), isang HDMI port, isang micro-USB port, 40 GPIO pins, isang camera connector para sa Raspberry Pi camera module, at isang SD card slot. Ito ay may sukat na 65mm x 30mm x 5mm, at napakaliit ng power consumption. Ang Zero ay US$5, habang ang W version na may WiFi ay US$10.
 

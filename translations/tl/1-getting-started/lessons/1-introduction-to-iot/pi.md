@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Ang [Raspberry Pi](https://raspberrypi.org) ay isang single-board computer. Maaari kang magdagdag ng mga sensor at actuator gamit ang iba't ibang mga device at ecosystem, at para sa mga araling ito gagamit tayo ng hardware ecosystem na tinatawag na [Grove](https://www.seeedstudio.com/category/Grove-c-1003.html). Gagamitin mo ang Python upang mag-code sa iyong Pi at ma-access ang mga Grove sensor.
 
-![Isang Raspberry Pi 4](../../../../../translated_images/raspberry-pi-4.fd4590d308c3d456db1327e86b395ddcd735513267aafd4879ea2785f7792eac.tl.jpg)
+![Isang Raspberry Pi 4](../../../../../translated_images/raspberry-pi-4.fd4590d308c3d456.tl.jpg)
 
 ## Setup
 
@@ -112,7 +112,7 @@ I-set up ang headless Pi OS.
 
 1. Mula sa Raspberry Pi Imager, piliin ang **CHOOSE OS** button, pagkatapos ay piliin ang *Raspberry Pi OS (Other)*, kasunod ng *Raspberry Pi OS Lite (32-bit)*.
 
-    ![Ang Raspberry Pi Imager na may Raspberry Pi OS Lite na napili](../../../../../translated_images/raspberry-pi-imager.24aedeab9e233d841a1504ed7cfeb871b1f8e1134cfcd8370e7f60a092056be2.tl.png)
+    ![Ang Raspberry Pi Imager na may Raspberry Pi OS Lite na napili](../../../../../translated_images/raspberry-pi-imager.24aedeab9e233d84.tl.png)
 
     > 💁 Ang Raspberry Pi OS Lite ay isang bersyon ng Raspberry Pi OS na walang desktop UI o UI-based tools. Hindi ito kailangan para sa isang headless Pi at ginagawang mas maliit ang install at mas mabilis ang boot up time.
 
@@ -251,7 +251,7 @@ Gumawa ng Hello World app.
 
 1. Buksan ang folder na ito sa VS Code sa pamamagitan ng pagpili sa *File -> Open...* at piliin ang *nightlight* na folder, pagkatapos ay piliin ang **OK**.
 
-    ![Ang VS Code open dialog na nagpapakita ng nightlight folder](../../../../../translated_images/vscode-open-nightlight-remote.d3d2a4011e30d535c4b70084f6e94bf6b5b1327fd8e77affe64465ac151ee766.tl.png)
+    ![Ang VS Code open dialog na nagpapakita ng nightlight folder](../../../../../translated_images/vscode-open-nightlight-remote.d3d2a4011e30d535.tl.png)
 
 1. Buksan ang file na `app.py` mula sa VS Code explorer at idagdag ang sumusunod na code:
 

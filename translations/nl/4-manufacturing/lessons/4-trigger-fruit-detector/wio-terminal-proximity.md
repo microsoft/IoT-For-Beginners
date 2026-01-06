@@ -35,7 +35,7 @@ Verbind de Time of Flight-sensor.
 
 1. Terwijl de Wio Terminal is losgekoppeld van je computer of andere stroombron, verbind je het andere uiteinde van de Grove-kabel met de linker Grove-aansluiting op de Wio Terminal, zoals je naar het scherm kijkt. Dit is de aansluiting die het dichtst bij de aan/uit-knop zit. Dit is een gecombineerde digitale en I²C-aansluiting.
 
-![De Grove Time of Flight-sensor verbonden met de linker aansluiting](../../../../../translated_images/wio-time-of-flight-sensor.c4c182131d2ea73df67febd004dc0313d271013d016be9c47e7da4d77c6c20a8.nl.png)
+![De Grove Time of Flight-sensor verbonden met de linker aansluiting](../../../../../translated_images/wio-time-of-flight-sensor.c4c182131d2ea73d.nl.png)
 
 1. Je kunt nu de Wio Terminal aansluiten op je computer.
 
@@ -101,7 +101,7 @@ De Wio Terminal kan nu worden geprogrammeerd om de aangesloten Time of Flight-se
 
     De afstandsmeter bevindt zich aan de achterkant van de sensor, dus zorg ervoor dat je de juiste kant gebruikt bij het meten van afstanden.
 
-    ![De afstandsmeter aan de achterkant van de Time of Flight-sensor gericht op een banaan](../../../../../translated_images/time-of-flight-banana.079921ad8b1496e4525dc26b4cdc71a076407aba3e72ba113ba2e38febae92c5.nl.png)
+    ![De afstandsmeter aan de achterkant van de Time of Flight-sensor gericht op een banaan](../../../../../translated_images/time-of-flight-banana.079921ad8b1496e4.nl.png)
 
 > 💁 Je kunt deze code vinden in de [code-proximity/wio-terminal](../../../../../4-manufacturing/lessons/4-trigger-fruit-detector/code-proximity/wio-terminal) map.
 

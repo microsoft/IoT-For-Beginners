@@ -51,7 +51,7 @@ Ikonekta ang LED.
 
     > 💁 Ang kanang Grove socket ay maaaring gamitin sa analog o digital sensors at actuators. Ang kaliwang socket ay para sa I2C at digital sensors at actuators lamang. Ang I2C ay tatalakayin sa susunod na aralin.
 
-![Ang Grove LED na nakakonekta sa kanang socket](../../../../../translated_images/wio-led.265a1897e72d7f21c753257516a4b677d8e30ce2b95fee98189458b3275ba0a6.tl.png)
+![Ang Grove LED na nakakonekta sa kanang socket](../../../../../translated_images/wio-led.265a1897e72d7f21.tl.png)
 
 ## I-program ang nightlight
 

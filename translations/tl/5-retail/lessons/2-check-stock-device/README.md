@@ -39,7 +39,7 @@ Ang mga object detector ay maaaring gamitin para sa pag-check ng stock, alinman 
 
 Halimbawa, kung ang isang camera ay nakatutok sa isang hanay ng mga istante na maaaring maglaman ng 8 lata ng tomato paste, at ang object detector ay nakakita lamang ng 7 lata, nangangahulugan ito na may nawawala at kailangang muling lagyan ng stock.
 
-![7 lata ng tomato paste sa isang istante, 4 sa itaas na hilera, 3 sa ibaba](../../../../../translated_images/stock-7-cans-tomato-paste.f86059cc573d7becaa89a0eafb9d2cd7e2fe37405a530fe565990e2333d0e4a1.tl.png)
+![7 lata ng tomato paste sa isang istante, 4 sa itaas na hilera, 3 sa ibaba](../../../../../translated_images/stock-7-cans-tomato-paste.f86059cc573d7bec.tl.png)
 
 Sa imahe sa itaas, ang object detector ay nakakita ng 7 lata ng tomato paste sa isang istante na maaaring maglaman ng 8 lata. Hindi lamang maaaring magpadala ang IoT device ng abiso tungkol sa pangangailangan ng muling paglalagay ng stock, ngunit maaari rin itong magbigay ng indikasyon ng lokasyon ng nawawalang item, mahalagang impormasyon kung gumagamit ka ng mga robot para sa muling paglalagay ng stock sa mga istante.
 
@@ -51,7 +51,7 @@ Minsan, maling stock ang maaaring mapunta sa mga istante. Maaaring ito ay dahil 
 
 Ang object detection ay maaaring gamitin upang matukoy ang mga hindi inaasahang item, at mag-abiso sa tao o robot upang ibalik ang item sa tamang lokasyon sa lalong madaling panahon.
 
-![Isang maling lata ng baby corn sa istante ng tomato paste](../../../../../translated_images/stock-rogue-corn.be1f3ada8c4578544641af66671c1711a4c02297f14cc7f503354dae0d30a954.tl.png)
+![Isang maling lata ng baby corn sa istante ng tomato paste](../../../../../translated_images/stock-rogue-corn.be1f3ada8c457854.tl.png)
 
 Sa imahe sa itaas, isang lata ng baby corn ang inilagay sa istante sa tabi ng tomato paste. Natukoy ito ng object detector, na nagpapahintulot sa IoT device na mag-abiso sa tao o robot upang ibalik ang lata sa tamang lokasyon nito.
 

@@ -51,7 +51,7 @@ Kết nối đèn LED.
 
     > 💁 Ổ cắm Grove bên phải có thể được sử dụng với các cảm biến và bộ truyền động tương tự hoặc kỹ thuật số. Ổ cắm bên trái chỉ dành cho các cảm biến và bộ truyền động kỹ thuật số.
 
-![Đèn LED Grove được kết nối với ổ cắm bên phải](../../../../../translated_images/wio-led.265a1897e72d7f21c753257516a4b677d8e30ce2b95fee98189458b3275ba0a6.vi.png)
+![Đèn LED Grove được kết nối với ổ cắm bên phải](../../../../../translated_images/wio-led.265a1897e72d7f21.vi.png)
 
 ## Lập trình đèn ngủ
 

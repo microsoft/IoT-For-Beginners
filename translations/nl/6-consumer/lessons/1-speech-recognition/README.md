@@ -64,7 +64,7 @@ Microfoons zijn er in verschillende soorten:
 
 * Ribbon - Ribbon-microfoons lijken op dynamische microfoons, behalve dat ze een metalen lint hebben in plaats van een membraan. Dit lint beweegt in een magnetisch veld en genereert een elektrische stroom. Net als dynamische microfoons hebben ribbon-microfoons geen stroom nodig om te werken.
 
-    ![Edmund Lowe, Amerikaanse acteur, staande bij een radiomicrofoon (gelabeld voor (NBC) Blue Network), met script in hand, 1942](../../../../../translated_images/ribbon-mic.eacc8e092c7441caee6d7a81e2f40e1675bf36269848964c7c09c9a9acb05127.nl.jpg)
+    ![Edmund Lowe, Amerikaanse acteur, staande bij een radiomicrofoon (gelabeld voor (NBC) Blue Network), met script in hand, 1942](../../../../../translated_images/ribbon-mic.eacc8e092c7441ca.nl.jpg)
 
 * Condensator - Condensatormicrofoons hebben een dun metalen membraan en een vaste metalen achterplaat. Elektriciteit wordt toegepast op beide en terwijl het membraan trilt, verandert de statische lading tussen de platen, wat een signaal genereert. Condensatormicrofoons hebben stroom nodig om te werken - dit wordt *Phantom power* genoemd.
 
@@ -84,7 +84,7 @@ Audio is een analoog signaal dat zeer gedetailleerde informatie bevat. Om dit si
 
 > 🎓 Bemonstering is het omzetten van het audiosignaal in een digitale waarde die het signaal op dat moment vertegenwoordigt.
 
-![Een lijngrafiek die een signaal toont, met discrete punten op vaste intervallen](../../../../../translated_images/sampling.6f4fadb3f2d9dfe7618f9edfe75a350e6b3f74293ec84f02ab69c19d2afe3d73.nl.png)
+![Een lijngrafiek die een signaal toont, met discrete punten op vaste intervallen](../../../../../translated_images/sampling.6f4fadb3f2d9dfe7.nl.png)
 
 Digitale audio wordt bemonsterd met behulp van Pulse Code Modulation, of PCM. PCM houdt in dat de spanning van het signaal wordt gelezen en de dichtstbijzijnde discrete waarde wordt geselecteerd die overeenkomt met die spanning, met behulp van een gedefinieerde grootte.
 

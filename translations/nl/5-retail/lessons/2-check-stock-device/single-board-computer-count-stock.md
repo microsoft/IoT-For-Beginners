@@ -81,7 +81,7 @@ Als een nuttige stap voor foutopsporing kun je niet alleen de begrenzingskaders 
 
 1. Voer de app uit met de camera gericht op wat voorraad op een plank. Je zult het bestand `image.jpg` zien in de VS Code-verkenner, en je kunt het selecteren om de begrenzingskaders te bekijken.
 
-    ![4 blikken tomatenpuree met begrenzingskaders rond elk blik](../../../../../translated_images/rpi-stock-with-bounding-boxes.b5540e2ecb7cd49f1271828d3be412671d950e87625c5597ea97c90f11e01097.nl.jpg)
+    ![4 blikken tomatenpuree met begrenzingskaders rond elk blik](../../../../../translated_images/rpi-stock-with-bounding-boxes.b5540e2ecb7cd49f.nl.jpg)
 
 ## Voorraad tellen
 

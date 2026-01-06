@@ -110,7 +110,7 @@ Elk punt op de veelhoek wordt gedefinieerd als een lengte- en breedtegraadpaar i
 
 De array met veelhoekcoördinaten heeft altijd 1 invoer meer dan het aantal punten op de veelhoek, waarbij de laatste invoer hetzelfde is als de eerste, zodat de veelhoek wordt gesloten. Voor een rechthoek zijn er bijvoorbeeld 5 punten.
 
-![Een rechthoek met coördinaten](../../../../../translated_images/polygon-points.302193da381cb415f46c2c7a98496ee4be05d6c73d21238a89721ad93e121233.nl.png)
+![Een rechthoek met coördinaten](../../../../../translated_images/polygon-points.302193da381cb415.nl.png)
 
 In de bovenstaande afbeelding is er een rechthoek. De veelhoekcoördinaten beginnen linksboven op 47,-122, gaan vervolgens naar rechts naar 47,-121, dan naar beneden naar 46,-121, dan naar links naar 46,-122, en vervolgens weer omhoog naar het startpunt op 47,-122. Dit geeft de veelhoek 5 punten - linksboven, rechtsboven, rechtsonder, linksonder en dan linksboven om het af te sluiten.
 
@@ -208,7 +208,7 @@ Bij het maken van dit verzoek kun je ook een waarde genaamd de `searchBuffer` do
 
 Wanneer resultaten worden geretourneerd door de API-oproep, is een van de onderdelen van het resultaat een `distance`, gemeten tot het dichtstbijzijnde punt op de rand van de geofence, met een positieve waarde als het punt buiten de geofence ligt en een negatieve waarde als het binnen de geofence ligt. Als deze afstand kleiner is dan de zoekbuffer, wordt de werkelijke afstand in meters geretourneerd. Anders is de waarde 999 of -999. 999 betekent dat het punt meer dan de zoekbuffer buiten de geofence ligt, -999 betekent dat het meer dan de zoekbuffer binnen de geofence ligt.
 
-![Een geofence met een zoekbuffer van 50 meter eromheen](../../../../../translated_images/search-buffer-and-distance.e6a79af3898183c7b2ef6fbf12271b8b34afd23969bb946962b1b18d3d2635e8.nl.png)
+![Een geofence met een zoekbuffer van 50 meter eromheen](../../../../../translated_images/search-buffer-and-distance.e6a79af3898183c7.nl.png)
 
 In de bovenstaande afbeelding heeft de geofence een zoekbuffer van 50 meter.
 

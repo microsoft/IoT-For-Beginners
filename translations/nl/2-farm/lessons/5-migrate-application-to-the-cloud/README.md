@@ -41,7 +41,7 @@ Serverloos, of serverloze computing, houdt in dat je kleine blokken code maakt d
 
 > 💁 Als je eerder database-triggers hebt gebruikt, kun je dit zien als iets vergelijkbaars: code die wordt geactiveerd door een gebeurtenis, zoals het invoegen van een rij.
 
-![Wanneer veel gebeurtenissen tegelijkertijd worden verzonden, schaalt de serverloze service op om ze allemaal tegelijkertijd te verwerken](../../../../../translated_images/serverless-scaling.f8c769adf0413fd17be1af4f07ff63016b347e2ff869be6c4abb211f9e93909d.nl.png)
+![Wanneer veel gebeurtenissen tegelijkertijd worden verzonden, schaalt de serverloze service op om ze allemaal tegelijkertijd te verwerken](../../../../../translated_images/serverless-scaling.f8c769adf0413fd1.nl.png)
 
 Je code wordt alleen uitgevoerd wanneer de gebeurtenis plaatsvindt; op andere momenten blijft je code inactief. De gebeurtenis vindt plaats, je code wordt geladen en uitgevoerd. Dit maakt serverloos zeer schaalbaar - als er veel gebeurtenissen tegelijkertijd plaatsvinden, kan de cloudprovider je functie zo vaak als nodig tegelijkertijd uitvoeren op de beschikbare servers. Het nadeel hiervan is dat als je informatie tussen gebeurtenissen wilt delen, je deze ergens moet opslaan, zoals in een database, in plaats van in het geheugen.
 
@@ -244,7 +244,7 @@ De Azure Functions CLI kan worden gebruikt om een nieuwe Functions-app te maken.
     VS Code. Initialize for optimal use with VS Code?
     ```
 
-    ![De melding](../../../../../translated_images/vscode-azure-functions-init-notification.bd19b49229963edb5311fb3a79445ea469424759d2917ee2f2eb6f92d65d5086.nl.png)
+    ![De melding](../../../../../translated_images/vscode-azure-functions-init-notification.bd19b49229963edb.nl.png)
 
     Selecteer **Ja** in deze melding.
 

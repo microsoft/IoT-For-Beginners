@@ -75,7 +75,7 @@ Ang ilan sa mga pinaka-basic na sensor ay analog sensor. Ang mga sensor na ito a
 
 Isang halimbawa nito ay ang potentiometer. Ito ay isang dial na maaari mong paikutin sa pagitan ng dalawang posisyon at sinusukat ng sensor ang pag-ikot.
 
-![Isang potentiometer na nakatakda sa mid point na pinapadalhan ng 5 volts na nagbabalik ng 3.8 volts](../../../../../translated_images/potentiometer.35a348b9ce22f6ec1199ad37d68692d04185456ccbc2541a454bb6698be9f19c.tl.png)
+![Isang potentiometer na nakatakda sa mid point na pinapadalhan ng 5 volts na nagbabalik ng 3.8 volts](../../../../../translated_images/potentiometer.35a348b9ce22f6ec.tl.png)
 
 Ang IoT device ay magpapadala ng electrical signal sa potentiometer sa isang boltahe, tulad ng 5 volts (5V). Habang ina-adjust ang potentiometer, binabago nito ang boltahe na lumalabas sa kabilang panig. Halimbawa, isipin mo na mayroon kang potentiometer na may label bilang isang dial na mula 0 hanggang [11](https://wikipedia.org/wiki/Up_to_eleven), tulad ng volume knob sa isang amplifier. Kapag ang potentiometer ay nasa full off position (0), 0V (0 volts) ang lalabas. Kapag ito ay nasa full on position (11), 5V (5 volts) ang lalabas.
 
@@ -112,7 +112,7 @@ Ang mga pin sa IoT device tulad ng GPIO pins ay maaaring direktang sukatin ang s
 
 Ang mas advanced na digital sensor ay nagbabasa ng analog na mga halaga, pagkatapos ay kino-convert ang mga ito gamit ang on-board ADCs sa digital signal. Halimbawa, ang isang digital temperature sensor ay gagamit pa rin ng thermocouple sa parehong paraan tulad ng analog sensor, at susukatin pa rin ang pagbabago sa boltahe na dulot ng resistance ng thermocouple sa kasalukuyang temperatura. Sa halip na magbalik ng analog na halaga at umasa sa device o connector board upang i-convert sa digital signal, ang ADC na built-in sa sensor ay iko-convert ang halaga at ipapadala ito bilang serye ng 0s at 1s sa IoT device. Ang mga 0s at 1s na ito ay ipinapadala sa parehong paraan tulad ng digital signal para sa button na may 1 bilang full voltage at 0 bilang 0v.
 
-![Isang digital temperature sensor na nagko-convert ng analog reading sa binary data na may 0 bilang 0 volts at 1 bilang 5 volts bago ipadala ito sa IoT device](../../../../../translated_images/temperature-as-digital.85004491b977bae1129707df107c0b19fe6fc6374210e9027e04acb34a640c78.tl.png)
+![Isang digital temperature sensor na nagko-convert ng analog reading sa binary data na may 0 bilang 0 volts at 1 bilang 5 volts bago ipadala ito sa IoT device](../../../../../translated_images/temperature-as-digital.85004491b977bae1.tl.png)
 
 Ang pagpapadala ng digital na data ay nagpapahintulot sa mga sensor na maging mas kumplikado at magpadala ng mas detalyadong data, kahit na encrypted na data para sa mga secure na sensor. Isang halimbawa ay ang camera. Ito ay isang sensor na kumukuha ng imahe at ipinapadala ito bilang digital na data na naglalaman ng imahe, kadalasan sa compressed format tulad ng JPEG, upang mabasa ng IoT device. Maaari rin itong mag-stream ng video sa pamamagitan ng pagkuha ng mga imahe at pagpapadala ng alinman sa kumpletong imahe frame by frame o isang compressed video stream.
 
@@ -164,7 +164,7 @@ Halimbawa, maaari mong gamitin ang PWM upang kontrolin ang bilis ng isang motor.
 
 Isipin mong kinokontrol mo ang isang motor na may 5V na supply. Magpapadala ka ng maikling pulso sa iyong motor, na nagbabago ng boltahe sa mataas (5V) sa loob ng dalawang daang bahagi ng isang segundo (0.02s). Sa panahong iyon, maaaring umikot ang iyong motor ng isang ikasampung bahagi ng isang ikot, o 36°. Pagkatapos ay titigil ang signal sa loob ng dalawang daang bahagi ng isang segundo (0.02s), nagpapadala ng mababang signal (0V). Ang bawat cycle ng on at off ay tumatagal ng 0.04s. Pagkatapos ay inuulit ang cycle.
 
-![Pulse width modulation rotation ng isang motor sa 150 RPM](../../../../../translated_images/pwm-motor-150rpm.83347ac04ca38482bd120939b133803963c9c15ca9d8d484712a4bd92820f6a4.tl.png)
+![Pulse width modulation rotation ng isang motor sa 150 RPM](../../../../../translated_images/pwm-motor-150rpm.83347ac04ca38482.tl.png)
 
 Ibig sabihin, sa isang segundo mayroon kang 25 5V pulses na may tagal na 0.02s na umiikot sa motor, bawat isa ay sinusundan ng 0.02s na pause na 0V na hindi umiikot ang motor. Ang bawat pulso ay umiikot sa motor ng isang ikasampung bahagi ng isang ikot, ibig sabihin ang motor ay nakakumpleto ng 2.5 ikot bawat segundo. Ginamit mo ang isang digital na signal upang paikutin ang motor sa 2.5 ikot bawat segundo, o 150 [revolutions per minute](https://wikipedia.org/wiki/Revolutions_per_minute) (isang hindi karaniwang sukat ng bilis ng pag-ikot).
 
@@ -175,7 +175,7 @@ Ibig sabihin, sa isang segundo mayroon kang 25 5V pulses na may tagal na 0.02s n
 
 > 🎓 Kapag ang isang PWM signal ay naka-on sa kalahati ng oras, at naka-off sa kalahati, ito ay tinatawag na [50% duty cycle](https://wikipedia.org/wiki/Duty_cycle). Ang mga duty cycle ay sinusukat bilang porsyento ng oras na ang signal ay nasa on state kumpara sa off state.
 
-![Pulse width modulation rotation ng isang motor sa 75 RPM](../../../../../translated_images/pwm-motor-75rpm.a5e4c939934b6e14fd9e98e4f2c9539d723da2b18f490eae0948dd044d18ff7e.tl.png)
+![Pulse width modulation rotation ng isang motor sa 75 RPM](../../../../../translated_images/pwm-motor-75rpm.a5e4c939934b6e14.tl.png)
 
 Maaari mong baguhin ang bilis ng motor sa pamamagitan ng pagbabago ng laki ng mga pulso. Halimbawa, gamit ang parehong motor, maaari mong panatilihin ang parehong cycle time na 0.04s, na may on pulse na kalahati (0.01s), at ang off pulse ay tataas sa 0.03s. Mayroon kang parehong bilang ng mga pulso bawat segundo (25), ngunit ang bawat on pulse ay kalahati ng haba. Ang kalahating haba ng pulso ay umiikot lamang sa motor ng isang ikadalawampung bahagi ng isang ikot, at sa 25 pulso bawat segundo ay makukumpleto ang 1.25 ikot bawat segundo o 75rpm. Sa pamamagitan ng pagbabago ng bilis ng pulso ng isang digital na signal, nabawasan mo ang bilis ng isang analog na motor sa kalahati.
 

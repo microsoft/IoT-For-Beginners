@@ -46,7 +46,7 @@ Trong bài học này, chúng ta sẽ tìm hiểu:
 
 Có một số giao thức truyền thông phổ biến được sử dụng bởi các thiết bị IoT để giao tiếp với Internet. Phổ biến nhất là dựa trên mô hình xuất bản/đăng ký thông qua một loại broker nào đó. Các thiết bị IoT kết nối với broker và xuất bản dữ liệu đo từ xa, đồng thời đăng ký nhận lệnh. Các dịch vụ đám mây cũng kết nối với broker, đăng ký nhận tất cả các tin nhắn đo từ xa và xuất bản lệnh đến các thiết bị cụ thể hoặc nhóm thiết bị.
 
-![Các thiết bị IoT kết nối với broker, xuất bản dữ liệu đo từ xa và đăng ký nhận lệnh. Các dịch vụ đám mây kết nối với broker, đăng ký nhận tất cả dữ liệu đo từ xa và gửi lệnh đến các thiết bị cụ thể.](../../../../../translated_images/pub-sub.7c7ed43fe9fd15d4e1f81a3fd95440413c457acd9bcbe9a43341e30e88db5264.vi.png)
+![Các thiết bị IoT kết nối với broker, xuất bản dữ liệu đo từ xa và đăng ký nhận lệnh. Các dịch vụ đám mây kết nối với broker, đăng ký nhận tất cả dữ liệu đo từ xa và gửi lệnh đến các thiết bị cụ thể.](../../../../../translated_images/pub-sub.7c7ed43fe9fd15d4.vi.png)
 
 MQTT là giao thức truyền thông phổ biến nhất cho các thiết bị IoT và được đề cập trong bài học này. Các giao thức khác bao gồm AMQP và HTTP/HTTPS.
 
@@ -115,7 +115,7 @@ Từ "telemetry" bắt nguồn từ gốc Hy Lạp có nghĩa là đo lường t
 
 Hãy nhìn lại ví dụ về bộ điều nhiệt thông minh từ Bài học 1.
 
-![Bộ điều nhiệt kết nối Internet sử dụng nhiều cảm biến trong phòng](../../../../../translated_images/telemetry.21e5d8b97649d2ebeb0f68d4b9691ab2d1f7bd629338e131465aff8a614e4d4a.vi.png)
+![Bộ điều nhiệt kết nối Internet sử dụng nhiều cảm biến trong phòng](../../../../../translated_images/telemetry.21e5d8b97649d2eb.vi.png)
 
 Bộ điều nhiệt có các cảm biến nhiệt độ để thu thập dữ liệu đo từ xa. Nó có thể có một cảm biến nhiệt độ tích hợp, và nó có thể kết nối với nhiều cảm biến nhiệt độ bên ngoài qua một giao thức không dây như [Bluetooth Low Energy](https://wikipedia.org/wiki/Bluetooth_Low_Energy) (BLE).
 
@@ -267,11 +267,11 @@ Viết mã máy chủ.
 
 1. Khi VS Code khởi chạy, nó sẽ kích hoạt môi trường ảo Python. Điều này sẽ được hiển thị ở thanh trạng thái dưới cùng:
 
-    ![VS Code hiển thị môi trường ảo đã chọn](../../../../../translated_images/vscode-virtual-env.8ba42e04c3d533cf677e16cbe5ed9a3b80f62c6964472dc84b6f940800f0909f.vi.png)
+    ![VS Code hiển thị môi trường ảo đã chọn](../../../../../translated_images/vscode-virtual-env.8ba42e04c3d533cf.vi.png)
 
 1. Nếu Terminal của VS Code đã chạy khi VS Code khởi động, nó sẽ không có môi trường ảo được kích hoạt trong đó. Cách dễ nhất là tắt terminal bằng nút **Kill the active terminal instance**:
 
-    ![Nút Kill the active terminal instance của VS Code](../../../../../translated_images/vscode-kill-terminal.1cc4de7c6f25ee08f423f0ead714e61d069fac1eb2089e97b8a7bbcb3d45fe5e.vi.png)
+    ![Nút Kill the active terminal instance của VS Code](../../../../../translated_images/vscode-kill-terminal.1cc4de7c6f25ee08.vi.png)
 
 1. Khởi chạy một Terminal mới của VS Code bằng cách chọn *Terminal -> New Terminal*, hoặc nhấn `` CTRL+` ``. Terminal mới sẽ tải môi trường ảo, với lệnh kích hoạt xuất hiện trong terminal. Tên của môi trường ảo (`.venv`) cũng sẽ xuất hiện trong prompt:
 

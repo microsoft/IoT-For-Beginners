@@ -55,11 +55,11 @@ Ang relay ay isang electromechanical switch na nagko-convert ng electrical signa
 
 > 🎓 [Electromagnets](https://wikipedia.org/wiki/Electromagnet) ay mga magnet na nilikha sa pamamagitan ng pagpapadaan ng kuryente sa isang coil ng wire. Kapag ang kuryente ay nakabukas, ang coil ay nagiging magnetized. Kapag ang kuryente ay naka-off, ang coil ay nawawala ang magnetismo nito.
 
-![Kapag naka-on, ang electromagnet ay lumilikha ng magnetic field, binubuksan ang switch para sa output circuit](../../../../../translated_images/relay-on.4db16a0fd6b669262fd6699aff3fbcd31b6057c06d90411b6bddc06326d1cf75.tl.png)
+![Kapag naka-on, ang electromagnet ay lumilikha ng magnetic field, binubuksan ang switch para sa output circuit](../../../../../translated_images/relay-on.4db16a0fd6b66926.tl.png)
 
 Sa isang relay, ang control circuit ay nagpapagana sa electromagnet. Kapag ang electromagnet ay naka-on, hinahatak nito ang isang lever na gumagalaw sa isang switch, isinasara ang isang pares ng mga contact at kinukumpleto ang output circuit.
 
-![Kapag naka-off, ang electromagnet ay hindi lumilikha ng magnetic field, binubuksan ang switch para sa output circuit](../../../../../translated_images/relay-off.c34a178a2960fecdc3c6400d43e633ed11c6746cd653cfb4a768fa097c40394c.tl.png)
+![Kapag naka-off, ang electromagnet ay hindi lumilikha ng magnetic field, binubuksan ang switch para sa output circuit](../../../../../translated_images/relay-off.c34a178a2960fecd.tl.png)
 
 Kapag ang control circuit ay naka-off, ang electromagnet ay naka-off, pinakakawalan ang lever at binubuksan ang mga contact, pinapatay ang output circuit. Ang mga relay ay digital actuators - ang mataas na signal sa relay ay binubuksan ito, ang mababang signal ay pinapatay ito.
 
@@ -85,7 +85,7 @@ Ang electromagnet ay hindi nangangailangan ng maraming kuryente upang ma-activat
 
 Ang imahe sa itaas ay nagpapakita ng isang Grove relay. Ang control circuit ay kumokonekta sa isang IoT device at binubuksan o pinapatay ang relay gamit ang 3.3V o 5V. Ang output circuit ay may dalawang terminal, alinman sa isa ay maaaring power o ground. Ang output circuit ay maaaring humawak ng hanggang 250V sa 10A, sapat para sa iba't ibang mains-powered na device. Maaari kang makakuha ng mga relay na maaaring humawak ng mas mataas pang antas ng kuryente.
 
-![Isang pump na naka-wire sa pamamagitan ng relay](../../../../../translated_images/pump-wired-to-relay.66c5cfc0d89189900cd601777f5caeb39ee35c6250f6c86bf38feaceedb21fe9.tl.png)
+![Isang pump na naka-wire sa pamamagitan ng relay](../../../../../translated_images/pump-wired-to-relay.66c5cfc0d8918990.tl.png)
 
 Sa imahe sa itaas, ang kuryente ay ibinibigay sa isang pump sa pamamagitan ng relay. Mayroong isang pulang wire na kumokonekta sa +5V terminal ng isang USB power supply sa isang terminal ng output circuit ng relay, at isa pang pulang wire na kumokonekta sa ibang terminal ng output circuit sa pump. Ang isang itim na wire ay kumokonekta sa pump sa ground sa USB power supply. Kapag ang relay ay binubuksan, ito ay kumukumpleto sa circuit, nagpapadala ng 5V sa pump, binubuksan ang pump.
 
@@ -135,7 +135,7 @@ Sa lesson 3, gumawa ka ng nightlight - isang LED na nagbubukas kapag mababang an
 
 Kung ginawa mo ang nakaraang aralin sa soil moisture gamit ang isang physical sensor, mapapansin mo na tumagal ng ilang segundo bago bumaba ang soil moisture reading pagkatapos mong diligan ang iyong halaman. Hindi ito dahil mabagal ang sensor, kundi dahil tumatagal ang tubig upang sumipsip sa lupa.
 💁 Kung nagdilig ka nang masyadong malapit sa sensor, maaaring napansin mong bumaba agad ang pagbabasa, tapos bumalik ulit - ito ay sanhi ng tubig na malapit sa sensor na kumakalat sa iba pang bahagi ng lupa, na nagbabawas ng kahalumigmigan ng lupa sa paligid ng sensor.
-![Ang sukat ng soil moisture na 658 ay hindi nagbabago habang dinidiligan, bumababa lamang ito sa 320 pagkatapos ng pagdidilig kapag ang tubig ay sumuot na sa lupa](../../../../../translated_images/soil-moisture-travel.a0e31af222cf14385de5380dfc32c7b8213960965228b8e4f7b7ab7f73b310a3.tl.png)
+![Ang sukat ng soil moisture na 658 ay hindi nagbabago habang dinidiligan, bumababa lamang ito sa 320 pagkatapos ng pagdidilig kapag ang tubig ay sumuot na sa lupa](../../../../../translated_images/soil-moisture-travel.a0e31af222cf1438.tl.png)
 
 Sa diagram sa itaas, ang sukat ng soil moisture ay nagpapakita ng 658. Diniligan ang halaman, ngunit hindi agad nagbabago ang sukat na ito dahil hindi pa naaabot ng tubig ang sensor. Maaaring matapos ang pagdidilig bago pa maabot ng tubig ang sensor, at saka pa lamang bababa ang halaga upang ipakita ang bagong antas ng moisture.
 
@@ -157,11 +157,11 @@ Gaano katagal dapat naka-on ang relay sa bawat pagkakataon? Mas mabuting mag-ing
 
 > 💁 Ang ganitong uri ng kontrol sa timing ay napaka-espesipiko sa IoT device na iyong binubuo, sa property na iyong sinusukat, at sa mga sensor at actuator na ginagamit.
 
-![Isang tanim na strawberry na konektado sa tubig sa pamamagitan ng pump, na ang pump ay konektado sa relay. Ang relay at isang soil moisture sensor sa tanim ay parehong konektado sa Raspberry Pi](../../../../../translated_images/strawberry-with-pump.b410fc72ac6aabad3e28de9775bf2393ead73dcfec6fd8c9bc01cf107ecd171a.tl.png)
+![Isang tanim na strawberry na konektado sa tubig sa pamamagitan ng pump, na ang pump ay konektado sa relay. Ang relay at isang soil moisture sensor sa tanim ay parehong konektado sa Raspberry Pi](../../../../../translated_images/strawberry-with-pump.b410fc72ac6aabad.tl.png)
 
 Halimbawa, mayroon akong tanim na strawberry na may soil moisture sensor at pump na kontrolado ng relay. Napansin ko na kapag nagdagdag ako ng tubig, tumatagal ng humigit-kumulang 20 segundo bago maging stable ang sukat ng soil moisture. Nangangahulugan ito na kailangan kong i-off ang relay at maghintay ng 20 segundo bago sukatin ang antas ng moisture. Mas gugustuhin kong kulang ang tubig kaysa sobra - maaari kong palaging i-on muli ang pump, ngunit hindi ko maaalis ang tubig mula sa tanim.
 
-![Hakbang 1, kumuha ng sukat. Hakbang 2, magdagdag ng tubig. Hakbang 3, maghintay para sa tubig na sumuot sa lupa. Hakbang 4, muling kumuha ng sukat](../../../../../translated_images/soil-moisture-delay.865f3fae206db01d5f8f100f4f44040215d44a0412dd3450aef7ff7b93b6d273.tl.png)
+![Hakbang 1, kumuha ng sukat. Hakbang 2, magdagdag ng tubig. Hakbang 3, maghintay para sa tubig na sumuot sa lupa. Hakbang 4, muling kumuha ng sukat](../../../../../translated_images/soil-moisture-delay.865f3fae206db01d.tl.png)
 
 Nangangahulugan ito na ang pinakamahusay na proseso ay isang cycle ng pagdidilig na ganito:
 

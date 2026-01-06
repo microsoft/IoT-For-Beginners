@@ -29,7 +29,7 @@ Verbind de camera.
 
 1. De pinnen aan de onderkant van de ArduCam moeten worden verbonden met de GPIO-pinnen op de Wio Terminal. Om het gemakkelijker te maken de juiste pinnen te vinden, plak je de GPIO-pinsticker die bij de Wio Terminal wordt geleverd rond de pinnen:
 
-    ![De Wio Terminal met de GPIO-pinsticker](../../../../../translated_images/wio-terminal-pin-sticker.b90b1535937b84bd00d853f0004aea74fac2aec04b43f14b887796b2633f855e.nl.png)
+    ![De Wio Terminal met de GPIO-pinsticker](../../../../../translated_images/wio-terminal-pin-sticker.b90b1535937b84bd.nl.png)
 
 1. Gebruik jumperdraden om de volgende verbindingen te maken:
 
@@ -297,7 +297,7 @@ De Wio Terminal kan nu worden geprogrammeerd om een foto te maken wanneer een kn
 
 1. Microcontrollers voeren je code continu uit, dus het is niet eenvoudig om iets zoals het maken van een foto te activeren zonder te reageren op een sensor. De Wio Terminal heeft knoppen, dus de camera kan worden ingesteld om te worden geactiveerd door een van de knoppen. Voeg de volgende code toe aan het einde van de `setup`-functie om de C-knop (een van de drie knoppen bovenop, degene die het dichtst bij de aan/uit-schakelaar zit) te configureren.
 
-    ![De C-knop bovenop, dicht bij de aan/uit-schakelaar](../../../../../translated_images/wio-terminal-c-button.73df3cb1c1445ea07ee98316af0e7925fcb43135df0abed58d3d4822b2589c3b.nl.png)
+    ![De C-knop bovenop, dicht bij de aan/uit-schakelaar](../../../../../translated_images/wio-terminal-c-button.73df3cb1c1445ea0.nl.png)
 
     ```cpp
     pinMode(WIO_KEY_C, INPUT_PULLUP);

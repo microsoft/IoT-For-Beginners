@@ -37,7 +37,7 @@ Trong bài học này, chúng ta sẽ đề cập đến:
 
 Chuyển văn bản thành giọng nói, như tên gọi, là quá trình chuyển đổi văn bản thành âm thanh chứa các từ được nói. Nguyên tắc cơ bản là phân tích các từ trong văn bản thành các âm vị (phoneme) cấu thành, và ghép nối âm thanh cho các âm vị đó, hoặc sử dụng âm thanh đã được ghi sẵn hoặc âm thanh được tạo bởi các mô hình AI.
 
-![Ba giai đoạn của hệ thống chuyển văn bản thành giọng nói điển hình](../../../../../translated_images/tts-overview.193843cf3f5ee09f8b3371a9fdaeb0f116698a07ca69daaa77158da4800e5453.vi.png)
+![Ba giai đoạn của hệ thống chuyển văn bản thành giọng nói điển hình](../../../../../translated_images/tts-overview.193843cf3f5ee09f.vi.png)
 
 Hệ thống chuyển văn bản thành giọng nói thường có 3 giai đoạn:
 

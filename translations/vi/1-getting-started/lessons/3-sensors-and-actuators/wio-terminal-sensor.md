@@ -17,7 +17,7 @@ Cảm biến cho bài học này là **cảm biến ánh sáng** sử dụng [ph
 
 Cảm biến ánh sáng được tích hợp trong Wio Terminal và có thể nhìn thấy qua cửa sổ nhựa trong suốt ở mặt sau.
 
-![Cảm biến ánh sáng ở mặt sau của Wio Terminal](../../../../../translated_images/wio-light-sensor.b1f529f3c95f51654f2e2c1d2d4b55fe547d189f588c974f5c2462c728133840.vi.png)
+![Cảm biến ánh sáng ở mặt sau của Wio Terminal](../../../../../translated_images/wio-light-sensor.b1f529f3c95f5165.vi.png)
 
 ## Lập trình cảm biến ánh sáng
 

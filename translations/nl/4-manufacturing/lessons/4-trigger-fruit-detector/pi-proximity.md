@@ -35,7 +35,7 @@ Verbind de Time of Flight-sensor.
 
 1. Schakel de Raspberry Pi uit en verbind het andere uiteinde van de Grove-kabel met een van de I²C-aansluitingen gemarkeerd als **I²C** op de Grove Base Hat die aan de Pi is bevestigd. Deze aansluitingen bevinden zich op de onderste rij, aan de tegenovergestelde kant van de GPIO-pinnen en naast de aansluiting voor de camerakabel.
 
-![De Grove Time of Flight-sensor verbonden met de I²C-aansluiting](../../../../../translated_images/pi-time-of-flight-sensor.58c8dc04eb3bfb57a7c3019f031433ef4d798d4d7603d565afbf6f3802840dba.nl.png)
+![De Grove Time of Flight-sensor verbonden met de I²C-aansluiting](../../../../../translated_images/pi-time-of-flight-sensor.58c8dc04eb3bfb57.nl.png)
 
 ## Programmeer de Time of Flight-sensor
 
@@ -106,7 +106,7 @@ Programmeer het apparaat.
 
     De afstandsmeter bevindt zich aan de achterkant van de sensor, dus zorg ervoor dat je de juiste kant gebruikt bij het meten van afstanden.
 
-    ![De afstandsmeter aan de achterkant van de Time of Flight-sensor gericht op een banaan](../../../../../translated_images/time-of-flight-banana.079921ad8b1496e4525dc26b4cdc71a076407aba3e72ba113ba2e38febae92c5.nl.png)
+    ![De afstandsmeter aan de achterkant van de Time of Flight-sensor gericht op een banaan](../../../../../translated_images/time-of-flight-banana.079921ad8b1496e4.nl.png)
 
 > 💁 Je kunt deze code vinden in de [code-proximity/pi](../../../../../4-manufacturing/lessons/4-trigger-fruit-detector/code-proximity/pi) map.
 

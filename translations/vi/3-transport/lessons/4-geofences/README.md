@@ -110,7 +110,7 @@ Mỗi điểm trên đa giác được định nghĩa là một cặp kinh độ
 
 Mảng tọa độ đa giác luôn có 1 mục nhập nhiều hơn số điểm trên đa giác, với mục nhập cuối cùng giống như mục đầu tiên, đóng đa giác. Ví dụ, đối với một hình chữ nhật sẽ có 5 điểm.
 
-![Một hình chữ nhật với các tọa độ](../../../../../translated_images/polygon-points.302193da381cb415f46c2c7a98496ee4be05d6c73d21238a89721ad93e121233.vi.png)
+![Một hình chữ nhật với các tọa độ](../../../../../translated_images/polygon-points.302193da381cb415.vi.png)
 
 Trong hình trên, có một hình chữ nhật. Tọa độ đa giác bắt đầu từ góc trên bên trái tại 47,-122, sau đó di chuyển sang phải đến 47,-121, sau đó xuống dưới đến 46,-121, sau đó sang trái đến 46, -122, sau đó quay lại điểm bắt đầu tại 47, -122. Điều này tạo ra đa giác với 5 điểm - góc trên bên trái, góc trên bên phải, góc dưới bên phải, góc dưới bên trái, sau đó góc trên bên trái để đóng lại.
 
@@ -208,7 +208,7 @@ Khi bạn thực hiện yêu cầu này, bạn cũng có thể truyền một gi
 
 Khi kết quả được trả về từ lệnh gọi API, một trong các phần của kết quả là `distance` được đo đến điểm gần nhất trên cạnh của hàng rào địa lý, với giá trị dương nếu điểm nằm ngoài hàng rào địa lý, giá trị âm nếu nó nằm trong hàng rào địa lý. Nếu khoảng cách này nhỏ hơn search buffer, khoảng cách thực tế được trả về bằng mét, nếu không giá trị là 999 hoặc -999. 999 nghĩa là điểm nằm ngoài hàng rào địa lý hơn search buffer, -999 nghĩa là nó nằm trong hàng rào địa lý hơn search buffer.
 
-![Một hàng rào địa lý với search buffer 50m xung quanh](../../../../../translated_images/search-buffer-and-distance.e6a79af3898183c7b2ef6fbf12271b8b34afd23969bb946962b1b18d3d2635e8.vi.png)
+![Một hàng rào địa lý với search buffer 50m xung quanh](../../../../../translated_images/search-buffer-and-distance.e6a79af3898183c7.vi.png)
 
 Trong hình trên, hàng rào địa lý có search buffer 50m.
 

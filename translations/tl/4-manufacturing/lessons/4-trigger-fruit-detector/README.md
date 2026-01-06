@@ -115,7 +115,7 @@ Para sa prototype, ipapatupad mo ang lahat ng ito sa isang solong device. Kung g
 
 Ang IoT device ay nangangailangan ng isang uri ng trigger upang ipahiwatig kung kailan handa na ang prutas na ma-classify. Ang isang trigger para dito ay ang pagsukat kung kailan ang prutas ay nasa tamang lokasyon sa conveyor belt sa pamamagitan ng pagsukat ng distansya sa isang sensor.
 
-![Ang mga proximity sensor ay nagpapadala ng laser beams sa mga bagay tulad ng saging at sinusukat ang oras bago bumalik ang beam](../../../../../translated_images/proximity-sensor.f5cd752c77fb62fea000156233b32fd24fad3707ec69b8bdd8d312b7af85156d.tl.png)
+![Ang mga proximity sensor ay nagpapadala ng laser beams sa mga bagay tulad ng saging at sinusukat ang oras bago bumalik ang beam](../../../../../translated_images/proximity-sensor.f5cd752c77fb62fe.tl.png)
 
 Ang mga proximity sensor ay maaaring gamitin upang sukatin ang distansya mula sa sensor patungo sa isang bagay. Karaniwan silang nagpapadala ng isang beam ng electromagnetic radiation tulad ng laser beam o infra-red light, pagkatapos ay natutukoy ang radiation na bumabalik mula sa isang bagay. Ang oras sa pagitan ng pagpapadala ng laser beam at pagbabalik ng signal ay maaaring gamitin upang kalkulahin ang distansya sa sensor.
 

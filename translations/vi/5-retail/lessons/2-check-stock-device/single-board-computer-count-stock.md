@@ -81,7 +81,7 @@ Như một bước gỡ lỗi hữu ích, bạn không chỉ có thể in ra cá
 
 1. Chạy ứng dụng với camera hướng vào một số hàng hóa trên kệ. Bạn sẽ thấy tệp `image.jpg` trong trình khám phá của VS Code, và bạn có thể chọn nó để xem các hộp giới hạn.
 
-    ![4 hộp sốt cà chua với hộp giới hạn xung quanh mỗi hộp](../../../../../translated_images/rpi-stock-with-bounding-boxes.b5540e2ecb7cd49f1271828d3be412671d950e87625c5597ea97c90f11e01097.vi.jpg)
+    ![4 hộp sốt cà chua với hộp giới hạn xung quanh mỗi hộp](../../../../../translated_images/rpi-stock-with-bounding-boxes.b5540e2ecb7cd49f.vi.jpg)
 
 ## Đếm hàng tồn kho
 

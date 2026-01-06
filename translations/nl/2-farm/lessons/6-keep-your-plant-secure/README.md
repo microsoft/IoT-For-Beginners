@@ -97,15 +97,15 @@ Encryptie komt in twee soorten: symmetrisch en asymmetrisch.
 
 **Symmetrische** encryptie gebruikt dezelfde sleutel om gegevens te versleutelen en te ontsleutelen. Zowel de verzender als de ontvanger moeten dezelfde sleutel kennen. Dit is het minst veilige type, omdat de sleutel op de een of andere manier moet worden gedeeld. Om een versleuteld bericht naar een ontvanger te sturen, moet de verzender de sleutel eerst naar de ontvanger sturen.
 
-![Symmetrische encryptie gebruikt dezelfde sleutel om een bericht te versleutelen en te ontsleutelen](../../../../../translated_images/send-message-symmetric-key.a2e8ad0d495896ffcdf15d25bb4491c695a5cb851457b359fb0f0c89d67707c9.nl.png)
+![Symmetrische encryptie gebruikt dezelfde sleutel om een bericht te versleutelen en te ontsleutelen](../../../../../translated_images/send-message-symmetric-key.a2e8ad0d495896ff.nl.png)
 
 Als de sleutel tijdens het transport wordt gestolen, of als de verzender of ontvanger wordt gehackt en de sleutel wordt gevonden, kan de encryptie worden gekraakt.
 
-![Symmetrische encryptie is alleen veilig als een hacker de sleutel niet krijgt - anders kunnen ze het bericht onderscheppen en ontsleutelen](../../../../../translated_images/send-message-symmetric-key-hacker.e7cb53db1707adfb1486a8144060cb76435fe8dbdede8cecc09e7d15b2d9a251.nl.png)
+![Symmetrische encryptie is alleen veilig als een hacker de sleutel niet krijgt - anders kunnen ze het bericht onderscheppen en ontsleutelen](../../../../../translated_images/send-message-symmetric-key-hacker.e7cb53db1707adfb.nl.png)
 
 **Asymmetrische** encryptie gebruikt 2 sleutels: een encryptiesleutel en een decryptiesleutel, ook wel een openbaar/privé-sleutelpaar genoemd. De openbare sleutel wordt gebruikt om het bericht te versleutelen, maar kan niet worden gebruikt om het te ontsleutelen. De privésleutel wordt gebruikt om het bericht te ontsleutelen, maar kan niet worden gebruikt om het te versleutelen.
 
-![Asymmetrische encryptie gebruikt een andere sleutel om te versleutelen en te ontsleutelen. De encryptiesleutel wordt naar elke verzender gestuurd zodat zij een bericht kunnen versleutelen voordat ze het naar de ontvanger sturen die de sleutels bezit](../../../../../translated_images/send-message-asymmetric.7abe327c62615b8c19805252af5d4b6c5e7aaeb8fbc455efeff866fe2d300b62.nl.png)
+![Asymmetrische encryptie gebruikt een andere sleutel om te versleutelen en te ontsleutelen. De encryptiesleutel wordt naar elke verzender gestuurd zodat zij een bericht kunnen versleutelen voordat ze het naar de ontvanger sturen die de sleutels bezit](../../../../../translated_images/send-message-asymmetric.7abe327c62615b8c.nl.png)
 
 De ontvanger deelt zijn openbare sleutel, en de verzender gebruikt deze om het bericht te versleutelen. Zodra het bericht is verzonden, ontsleutelt de ontvanger het met zijn privésleutel. Asymmetrische encryptie is veiliger omdat de privésleutel privé wordt gehouden door de ontvanger en nooit wordt gedeeld. Iedereen kan de openbare sleutel hebben, omdat deze alleen kan worden gebruikt om berichten te versleutelen.
 
@@ -165,7 +165,7 @@ Deze certificaten bevatten een aantal velden, waaronder van wie de openbare sleu
 
 Bij het gebruik van X.509-certificaten hebben zowel de verzender als de ontvanger hun eigen openbare en privé-sleutels, evenals beide een X.509-certificaat dat de openbare sleutel bevat. Ze wisselen vervolgens op de een of andere manier X.509-certificaten uit, waarbij ze elkaars openbare sleutels gebruiken om de gegevens die ze verzenden te versleutelen, en hun eigen privé-sleutel om de gegevens die ze ontvangen te ontsleutelen.
 
-![In plaats van een openbare sleutel te delen, kun je een certificaat delen. De gebruiker van het certificaat kan verifiëren dat het van jou afkomstig is door te controleren bij de certificeringsinstantie die het heeft ondertekend.](../../../../../translated_images/send-message-certificate.9cc576ac1e46b76eb58ebc8eedaa522566fa0700076da46f5180aad78c2435db.nl.png)
+![In plaats van een openbare sleutel te delen, kun je een certificaat delen. De gebruiker van het certificaat kan verifiëren dat het van jou afkomstig is door te controleren bij de certificeringsinstantie die het heeft ondertekend.](../../../../../translated_images/send-message-certificate.9cc576ac1e46b76e.nl.png)
 
 Een groot voordeel van het gebruik van X.509-certificaten is dat ze tussen apparaten kunnen worden gedeeld. Je kunt één certificaat maken, het uploaden naar IoT Hub, en dit gebruiken voor al je apparaten. Elk apparaat hoeft dan alleen de privé-sleutel te kennen om de berichten die het van IoT Hub ontvangt te ontsleutelen.
 

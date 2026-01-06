@@ -72,7 +72,7 @@ Nhà cung cấp đám mây sau đó có thể sử dụng quy mô kinh tế đ�
 
 Azure là đám mây dành cho nhà phát triển từ Microsoft, và đây là đám mây bạn sẽ sử dụng cho các bài học này. Video dưới đây cung cấp một cái nhìn tổng quan ngắn về Azure:
 
-[![Video tổng quan về Azure](../../../../../translated_images/what-is-azure-video-thumbnail.20174db09e03bbb87d213f928d3cb27410305d2e567e952827de8478dbda959b.vi.png)](https://www.microsoft.com/videoplayer/embed/RE4Ibng?WT.mc_id=academic-17441-jabenn)
+[![Video tổng quan về Azure](../../../../../translated_images/what-is-azure-video-thumbnail.20174db09e03bbb8.vi.png)](https://www.microsoft.com/videoplayer/embed/RE4Ibng?WT.mc_id=academic-17441-jabenn)
 
 ## Tạo một đăng ký đám mây
 

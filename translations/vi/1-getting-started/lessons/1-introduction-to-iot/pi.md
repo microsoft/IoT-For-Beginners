@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 [Raspberry Pi](https://raspberrypi.org) là một máy tính đơn bo mạch. Bạn có thể thêm cảm biến và bộ truyền động bằng cách sử dụng nhiều loại thiết bị và hệ sinh thái khác nhau, và trong các bài học này, chúng ta sẽ sử dụng một hệ sinh thái phần cứng gọi là [Grove](https://www.seeedstudio.com/category/Grove-c-1003.html). Bạn sẽ lập trình Pi của mình và truy cập các cảm biến Grove bằng Python.
 
-![Một Raspberry Pi 4](../../../../../translated_images/raspberry-pi-4.fd4590d308c3d456db1327e86b395ddcd735513267aafd4879ea2785f7792eac.vi.jpg)
+![Một Raspberry Pi 4](../../../../../translated_images/raspberry-pi-4.fd4590d308c3d456.vi.jpg)
 
 ## Cài đặt
 
@@ -112,7 +112,7 @@ Cài đặt hệ điều hành Pi không màn hình.
 
 1. Từ Raspberry Pi Imager, chọn nút **CHOOSE OS**, sau đó chọn *Raspberry Pi OS (Other)*, tiếp theo là *Raspberry Pi OS Lite (32-bit)*.
 
-    ![Raspberry Pi Imager với Raspberry Pi OS Lite được chọn](../../../../../translated_images/raspberry-pi-imager.24aedeab9e233d841a1504ed7cfeb871b1f8e1134cfcd8370e7f60a092056be2.vi.png)
+    ![Raspberry Pi Imager với Raspberry Pi OS Lite được chọn](../../../../../translated_images/raspberry-pi-imager.24aedeab9e233d84.vi.png)
 
     > 💁 Raspberry Pi OS Lite là một phiên bản của Raspberry Pi OS không có giao diện người dùng desktop hoặc các công cụ dựa trên giao diện người dùng. Những thứ này không cần thiết cho một Pi không màn hình và làm cho cài đặt nhỏ hơn và thời gian khởi động nhanh hơn.
 
@@ -251,7 +251,7 @@ Tạo ứng dụng Hello World.
 
 1. Mở thư mục này trong VS Code bằng cách chọn *File -> Open...* và chọn thư mục *nightlight*, sau đó chọn **OK**.
 
-    ![Hộp thoại mở của VS Code hiển thị thư mục nightlight](../../../../../translated_images/vscode-open-nightlight-remote.d3d2a4011e30d535c4b70084f6e94bf6b5b1327fd8e77affe64465ac151ee766.vi.png)
+    ![Hộp thoại mở của VS Code hiển thị thư mục nightlight](../../../../../translated_images/vscode-open-nightlight-remote.d3d2a4011e30d535.vi.png)
 
 1. Mở tệp `app.py` từ trình khám phá của VS Code và thêm đoạn mã sau:
 

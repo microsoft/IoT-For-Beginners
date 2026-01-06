@@ -37,7 +37,7 @@ In deze les behandelen we:
 
 Tekst naar spraak, zoals de naam al aangeeft, is het proces van het omzetten van tekst in audio die de tekst als gesproken woorden bevat. Het basisprincipe is om de woorden in de tekst op te splitsen in hun samenstellende klanken (bekend als fonemen) en audio voor die klanken samen te voegen, hetzij met vooraf opgenomen audio, hetzij met audio die door AI-modellen wordt gegenereerd.
 
-![De drie fasen van typische tekst-naar-spraak-systemen](../../../../../translated_images/tts-overview.193843cf3f5ee09f8b3371a9fdaeb0f116698a07ca69daaa77158da4800e5453.nl.png)
+![De drie fasen van typische tekst-naar-spraak-systemen](../../../../../translated_images/tts-overview.193843cf3f5ee09f.nl.png)
 
 Tekst-naar-spraak-systemen hebben doorgaans 3 fasen:
 

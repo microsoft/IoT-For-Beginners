@@ -61,7 +61,7 @@ De nieuwste evoluties van deze sorteermachines maken gebruik van AI en ML, waarb
 
 Traditioneel programmeren is waar je gegevens neemt, een algoritme toepast op de gegevens, en een output krijgt. Bijvoorbeeld, in het laatste project nam je GPS-coördinaten en een geofence, paste een algoritme toe dat werd geleverd door Azure Maps, en kreeg een resultaat terug of het punt binnen of buiten de geofence lag. Je voert meer gegevens in, je krijgt meer output.
 
-![Traditionele ontwikkeling neemt input en een algoritme en geeft output. Machine learning gebruikt input- en outputgegevens om een model te trainen, en dit model kan nieuwe inputgegevens gebruiken om nieuwe output te genereren](../../../../../translated_images/traditional-vs-ml.5c20c169621fa539ca84a2cd9a49f6ff7410b3a6c6b46c97ff2af3f99db3c66b.nl.png)
+![Traditionele ontwikkeling neemt input en een algoritme en geeft output. Machine learning gebruikt input- en outputgegevens om een model te trainen, en dit model kan nieuwe inputgegevens gebruiken om nieuwe output te genereren](../../../../../translated_images/traditional-vs-ml.5c20c169621fa539.nl.png)
 
 Machine learning draait dit om - je begint met gegevens en bekende outputs, en het machine learning-algoritme leert van de gegevens. Je kunt vervolgens dat getrainde algoritme, een *machine learning model* of *model* genoemd, nemen en nieuwe gegevens invoeren om nieuwe output te krijgen.
 
@@ -87,7 +87,7 @@ Om een beeldclassifier succesvol te trainen, heb je miljoenen afbeeldingen nodig
 
 Zodra een beeldclassifier is getraind voor een breed scala aan afbeeldingen, zijn de interne mechanismen ervan goed in het herkennen van vormen, kleuren en patronen. Transfer learning stelt het model in staat om wat het al heeft geleerd in het herkennen van beeldonderdelen te gebruiken om nieuwe afbeeldingen te herkennen.
 
-![Zodra je vormen kunt herkennen, kunnen ze in verschillende configuraties worden geplaatst om een boot of een kat te maken](../../../../../translated_images/shapes-to-images.1a309f0ea88dd66fafa4da6d38e88806ce174cc6a88081efb32852230ed55de8.nl.png)
+![Zodra je vormen kunt herkennen, kunnen ze in verschillende configuraties worden geplaatst om een boot of een kat te maken](../../../../../translated_images/shapes-to-images.1a309f0ea88dd66f.nl.png)
 
 Je kunt dit zien als een soort kinderboek over vormen, waarbij je, zodra je een halve cirkel, een rechthoek en een driehoek kunt herkennen, een zeilboot of een kat kunt herkennen, afhankelijk van de configuratie van deze vormen. De beeldclassifier kan de vormen herkennen, en transfer learning leert het wat de combinatie maakt - een boot, een kat, of een rijpe banaan.
 

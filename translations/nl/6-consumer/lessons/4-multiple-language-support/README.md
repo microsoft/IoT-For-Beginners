@@ -130,7 +130,7 @@ Voor deze les heb je een Vertaler-resource nodig. Je zult de REST API gebruiken 
 
 In een ideale wereld zou je hele applicatie zoveel mogelijk verschillende talen moeten begrijpen, van luisteren naar spraak, tot taalbegrip, tot reageren met spraak. Dit is veel werk, dus vertaaldiensten kunnen de tijd tot levering van je applicatie versnellen.
 
-![Een slimme timer-architectuur die Japans naar Engels vertaalt, verwerkt in Engels en vervolgens terug vertaalt naar Japans](../../../../../translated_images/translated-smart-timer.08ac20057fdc5c3778ed41cb425dca5d7fbcd4584b6da7b73ca67115a5b8a883.nl.png)
+![Een slimme timer-architectuur die Japans naar Engels vertaalt, verwerkt in Engels en vervolgens terug vertaalt naar Japans](../../../../../translated_images/translated-smart-timer.08ac20057fdc5c37.nl.png)
 
 Stel je voor dat je een slimme timer bouwt die volledig in het Engels werkt, waarbij gesproken Engels wordt begrepen en omgezet in tekst, taalbegrip in het Engels wordt uitgevoerd, reacties in het Engels worden opgebouwd en wordt gereageerd met Engelse spraak. Als je ondersteuning voor Japans wilt toevoegen, kun je beginnen met het vertalen van gesproken Japans naar Engelse tekst, vervolgens de kern van de applicatie hetzelfde houden, en dan de reactietekst naar Japans vertalen voordat je de reactie uitspreekt. Dit zou je in staat stellen om snel ondersteuning voor Japans toe te voegen, en je kunt later uitbreiden naar volledige end-to-end ondersteuning voor Japans.
 

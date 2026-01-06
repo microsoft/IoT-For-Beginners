@@ -35,7 +35,7 @@ Kết nối cảm biến Time of Flight.
 
 1. Khi Wio Terminal chưa được kết nối với máy tính hoặc nguồn điện khác, cắm đầu còn lại của cáp Grove vào cổng Grove bên trái trên Wio Terminal khi bạn nhìn vào màn hình. Đây là cổng gần nút nguồn nhất. Đây là một cổng kết hợp kỹ thuật số và I2C.
 
-![Cảm biến Grove Time of Flight được kết nối với cổng bên trái](../../../../../translated_images/wio-time-of-flight-sensor.c4c182131d2ea73df67febd004dc0313d271013d016be9c47e7da4d77c6c20a8.vi.png)
+![Cảm biến Grove Time of Flight được kết nối với cổng bên trái](../../../../../translated_images/wio-time-of-flight-sensor.c4c182131d2ea73d.vi.png)
 
 1. Bây giờ bạn có thể kết nối Wio Terminal với máy tính của mình.
 
@@ -101,7 +101,7 @@ Wio Terminal bây giờ có thể được lập trình để sử dụng cảm 
 
     Máy đo khoảng cách nằm ở mặt sau của cảm biến, vì vậy hãy đảm bảo bạn sử dụng đúng mặt khi đo khoảng cách.
 
-    ![Máy đo khoảng cách ở mặt sau của cảm biến Time of Flight hướng về một quả chuối](../../../../../translated_images/time-of-flight-banana.079921ad8b1496e4525dc26b4cdc71a076407aba3e72ba113ba2e38febae92c5.vi.png)
+    ![Máy đo khoảng cách ở mặt sau của cảm biến Time of Flight hướng về một quả chuối](../../../../../translated_images/time-of-flight-banana.079921ad8b1496e4.vi.png)
 
 > 💁 Bạn có thể tìm thấy đoạn mã này trong thư mục [code-proximity/wio-terminal](../../../../../4-manufacturing/lessons/4-trigger-fruit-detector/code-proximity/wio-terminal).
 

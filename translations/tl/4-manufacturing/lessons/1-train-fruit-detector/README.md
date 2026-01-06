@@ -61,7 +61,7 @@ Ang pinakabagong ebolusyon ng mga sorting machine na ito ay gumagamit ng AI at M
 
 Ang tradisyunal na programming ay kung saan kinukuha mo ang data, ina-apply ang algorithm sa data, at nakakakuha ng output. Halimbawa, sa huling proyekto, kinuha mo ang GPS coordinates at isang geofence, ina-apply ang algorithm na ibinigay ng Azure Maps, at nakakuha ng resulta kung ang punto ay nasa loob o labas ng geofence. Mag-input ka ng mas maraming data, makakakuha ka ng mas maraming output.
 
-![Ang tradisyunal na development ay kumukuha ng input at algorithm at nagbibigay ng output. Ang machine learning ay gumagamit ng input at output data upang mag-train ng model, at ang model na ito ay maaaring kumuha ng bagong input data upang makabuo ng bagong output](../../../../../translated_images/traditional-vs-ml.5c20c169621fa539ca84a2cd9a49f6ff7410b3a6c6b46c97ff2af3f99db3c66b.tl.png)
+![Ang tradisyunal na development ay kumukuha ng input at algorithm at nagbibigay ng output. Ang machine learning ay gumagamit ng input at output data upang mag-train ng model, at ang model na ito ay maaaring kumuha ng bagong input data upang makabuo ng bagong output](../../../../../translated_images/traditional-vs-ml.5c20c169621fa539.tl.png)
 
 Ang machine learning ay binabaliktad ito - nagsisimula ka sa data at kilalang outputs, at ang machine learning algorithm ay natututo mula sa data. Maaari mong kunin ang na-train na algorithm, na tinatawag na *machine learning model* o *model*, at mag-input ng bagong data upang makakuha ng bagong output.
 
@@ -87,7 +87,7 @@ Upang matagumpay na mag-train ng image classifier, kailangan mo ng milyon-milyon
 
 Kapag ang isang image classifier ay na-train para sa malawak na iba't ibang larawan, ang mga internal nito ay mahusay sa pagkilala ng mga hugis, kulay, at pattern. Ang transfer learning ay nagbibigay-daan sa model na gamitin ang natutunan nito sa pagkilala ng mga bahagi ng larawan, at gamitin ito upang makilala ang mga bagong larawan.
 
-![Kapag kaya mong kilalanin ang mga hugis, maaari itong ilagay sa iba't ibang configuration upang makabuo ng bangka o pusa](../../../../../translated_images/shapes-to-images.1a309f0ea88dd66fafa4da6d38e88806ce174cc6a88081efb32852230ed55de8.tl.png)
+![Kapag kaya mong kilalanin ang mga hugis, maaari itong ilagay sa iba't ibang configuration upang makabuo ng bangka o pusa](../../../../../translated_images/shapes-to-images.1a309f0ea88dd66f.tl.png)
 
 Maaari mong isipin ito na parang mga libro ng hugis para sa mga bata, kung saan kapag kaya mong kilalanin ang semi-circle, rectangle, at triangle, maaari mong kilalanin ang isang sailboat o pusa depende sa configuration ng mga hugis na ito. Ang image classifier ay maaaring kilalanin ang mga hugis, at ang transfer learning ang nagtuturo dito kung anong kombinasyon ang bumubuo ng bangka o pusa - o hinog na saging.
 

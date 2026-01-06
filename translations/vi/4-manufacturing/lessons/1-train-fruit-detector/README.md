@@ -61,7 +61,7 @@ Sự phát triển mới nhất của các máy phân loại này tận dụng A
 
 Lập trình truyền thống là khi bạn lấy dữ liệu, áp dụng một thuật toán vào dữ liệu, và nhận được kết quả đầu ra. Ví dụ, trong dự án trước, bạn đã lấy tọa độ GPS và một hàng rào địa lý, áp dụng một thuật toán được cung cấp bởi Azure Maps, và nhận được kết quả liệu điểm đó nằm trong hay ngoài hàng rào địa lý. Bạn nhập thêm dữ liệu, bạn nhận được thêm kết quả đầu ra.
 
-![Phát triển truyền thống lấy đầu vào và thuật toán để cho ra đầu ra. Học máy sử dụng dữ liệu đầu vào và đầu ra đã biết để huấn luyện một mô hình, và mô hình này có thể nhận dữ liệu đầu vào mới để tạo ra đầu ra mới](../../../../../translated_images/traditional-vs-ml.5c20c169621fa539ca84a2cd9a49f6ff7410b3a6c6b46c97ff2af3f99db3c66b.vi.png)
+![Phát triển truyền thống lấy đầu vào và thuật toán để cho ra đầu ra. Học máy sử dụng dữ liệu đầu vào và đầu ra đã biết để huấn luyện một mô hình, và mô hình này có thể nhận dữ liệu đầu vào mới để tạo ra đầu ra mới](../../../../../translated_images/traditional-vs-ml.5c20c169621fa539.vi.png)
 
 Học máy đảo ngược quy trình này - bạn bắt đầu với dữ liệu và các kết quả đầu ra đã biết, và thuật toán học máy sẽ học từ dữ liệu đó. Sau đó, bạn có thể sử dụng thuật toán đã được huấn luyện, gọi là *mô hình học máy* hoặc *mô hình*, và nhập dữ liệu mới để nhận được kết quả đầu ra mới.
 
@@ -87,7 +87,7 @@ Mô hình ML được sử dụng để phát hiện hình ảnh như thế này
 
 Khi một bộ phân loại hình ảnh đã được huấn luyện cho một loạt hình ảnh đa dạng, các thành phần bên trong của nó rất giỏi trong việc nhận diện hình dạng, màu sắc và hoa văn. Học chuyển giao cho phép mô hình sử dụng những gì nó đã học được trong việc nhận diện các phần của hình ảnh, và sử dụng điều đó để nhận diện các hình ảnh mới.
 
-![Khi bạn có thể nhận diện các hình dạng, chúng có thể được sắp xếp thành các cấu hình khác nhau để tạo thành một chiếc thuyền hoặc một con mèo](../../../../../translated_images/shapes-to-images.1a309f0ea88dd66fafa4da6d38e88806ce174cc6a88081efb32852230ed55de8.vi.png)
+![Khi bạn có thể nhận diện các hình dạng, chúng có thể được sắp xếp thành các cấu hình khác nhau để tạo thành một chiếc thuyền hoặc một con mèo](../../../../../translated_images/shapes-to-images.1a309f0ea88dd66f.vi.png)
 
 Bạn có thể nghĩ về điều này giống như sách hình dạng dành cho trẻ em, nơi mà khi bạn có thể nhận diện một nửa hình tròn, một hình chữ nhật và một hình tam giác, bạn có thể nhận diện một chiếc thuyền buồm hoặc một con mèo tùy thuộc vào cách sắp xếp các hình dạng này. Bộ phân loại hình ảnh có thể nhận diện các hình dạng, và học chuyển giao dạy nó cách kết hợp nào tạo thành một chiếc thuyền hoặc một con mèo - hoặc một quả chuối chín.
 

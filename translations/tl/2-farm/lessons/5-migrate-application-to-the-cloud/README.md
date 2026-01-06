@@ -41,7 +41,7 @@ Ang serverless, o serverless computing, ay tumutukoy sa paggawa ng maliliit na p
 
 > 💁 Kung gumamit ka na ng database triggers dati, maaari mong isipin ito bilang katulad nito, kung saan ang code ay na-trigger ng isang event tulad ng pag-insert ng row.
 
-![Kapag maraming event ang ipinadala nang sabay-sabay, ang serverless service ay nag-e-scale up upang patakbuhin ang lahat ng ito nang sabay-sabay](../../../../../translated_images/serverless-scaling.f8c769adf0413fd17be1af4f07ff63016b347e2ff869be6c4abb211f9e93909d.tl.png)
+![Kapag maraming event ang ipinadala nang sabay-sabay, ang serverless service ay nag-e-scale up upang patakbuhin ang lahat ng ito nang sabay-sabay](../../../../../translated_images/serverless-scaling.f8c769adf0413fd1.tl.png)
 
 Ang iyong code ay tatakbo lamang kapag nangyari ang event, at hindi ito aktibo sa ibang oras. Kapag nangyari ang event, ang iyong code ay ilulunsad at tatakbo. Ginagawa nitong napaka-scalable ng serverless - kung maraming event ang nangyari nang sabay-sabay, maaaring patakbuhin ng cloud provider ang iyong function nang maraming beses nang sabay-sabay sa iba't ibang server na mayroon sila. Ang downside nito ay kung kailangan mong magbahagi ng impormasyon sa pagitan ng mga event, kailangan mong i-save ito sa isang lugar tulad ng database sa halip na i-store ito sa memory.
 
@@ -244,7 +244,7 @@ Ang Azure Functions CLI ay maaaring gamitin upang gumawa ng bagong Functions app
     VS Code. Initialize for optimal use with VS Code?
     ```
 
-    ![Ang notification](../../../../../translated_images/vscode-azure-functions-init-notification.bd19b49229963edb5311fb3a79445ea469424759d2917ee2f2eb6f92d65d5086.tl.png)
+    ![Ang notification](../../../../../translated_images/vscode-azure-functions-init-notification.bd19b49229963edb.tl.png)
 
     Piliin ang **Yes** mula sa notification na ito.
 

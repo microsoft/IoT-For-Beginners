@@ -81,7 +81,7 @@ Bilang isang kapaki-pakinabang na hakbang sa pag-debug, hindi mo lang maaaring i
 
 1. Patakbuhin ang app habang nakatutok ang camera sa ilang stock sa isang istante. Makikita mo ang `image.jpg` file sa VS Code explorer, at maaari mo itong piliin upang makita ang bounding boxes.
 
-    ![4 lata ng tomato paste na may bounding boxes sa paligid ng bawat lata](../../../../../translated_images/rpi-stock-with-bounding-boxes.b5540e2ecb7cd49f1271828d3be412671d950e87625c5597ea97c90f11e01097.tl.jpg)
+    ![4 lata ng tomato paste na may bounding boxes sa paligid ng bawat lata](../../../../../translated_images/rpi-stock-with-bounding-boxes.b5540e2ecb7cd49f.tl.jpg)
 
 ## Bilangin ang stock
 

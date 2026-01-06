@@ -17,7 +17,7 @@ Ang sensor para sa araling ito ay isang **light sensor** na gumagamit ng [photod
 
 Ang light sensor ay naka-built-in sa Wio Terminal at makikita sa pamamagitan ng malinaw na plastik na bintana sa likod.
 
-![Ang light sensor sa likod ng Wio Terminal](../../../../../translated_images/wio-light-sensor.b1f529f3c95f51654f2e2c1d2d4b55fe547d189f588c974f5c2462c728133840.tl.png)
+![Ang light sensor sa likod ng Wio Terminal](../../../../../translated_images/wio-light-sensor.b1f529f3c95f5165.tl.png)
 
 ## I-program ang light sensor
 

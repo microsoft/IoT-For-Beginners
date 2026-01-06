@@ -13,7 +13,7 @@ Een combinatie van de voorspellingen en hun begrenzingskaders kan worden gebruik
 
 ## Voorraad tellen
 
-![4 blikken tomatenpuree met begrenzingskaders rond elk blik](../../../../../translated_images/rpi-stock-with-bounding-boxes.b5540e2ecb7cd49f1271828d3be412671d950e87625c5597ea97c90f11e01097.nl.jpg)
+![4 blikken tomatenpuree met begrenzingskaders rond elk blik](../../../../../translated_images/rpi-stock-with-bounding-boxes.b5540e2ecb7cd49f.nl.jpg)
 
 In de afbeelding hierboven hebben de begrenzingskaders een kleine overlap. Als deze overlap veel groter was, zouden de begrenzingskaders mogelijk hetzelfde object aangeven. Om de objecten correct te tellen, moet je kaders met een significante overlap negeren.
 

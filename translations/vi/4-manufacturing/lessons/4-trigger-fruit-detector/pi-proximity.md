@@ -35,7 +35,7 @@ Kết nối cảm biến Time of Flight.
 
 1. Khi Raspberry Pi đã tắt nguồn, kết nối đầu còn lại của cáp Grove vào một trong các ổ cắm I²C được đánh dấu **I²C** trên Grove Base hat gắn vào Pi. Các ổ cắm này nằm ở hàng dưới cùng, đối diện với các chân GPIO và gần khe cắm cáp camera.
 
-![Cảm biến Time of Flight Grove được kết nối với ổ cắm I²C](../../../../../translated_images/pi-time-of-flight-sensor.58c8dc04eb3bfb57a7c3019f031433ef4d798d4d7603d565afbf6f3802840dba.vi.png)
+![Cảm biến Time of Flight Grove được kết nối với ổ cắm I²C](../../../../../translated_images/pi-time-of-flight-sensor.58c8dc04eb3bfb57.vi.png)
 
 ## Lập trình cảm biến Time of Flight
 
@@ -106,7 +106,7 @@ Lập trình thiết bị.
 
     Máy đo khoảng cách nằm ở mặt sau của cảm biến, vì vậy hãy chắc chắn sử dụng đúng mặt khi đo khoảng cách.
 
-    ![Máy đo khoảng cách ở mặt sau của cảm biến Time of Flight đang hướng vào một quả chuối](../../../../../translated_images/time-of-flight-banana.079921ad8b1496e4525dc26b4cdc71a076407aba3e72ba113ba2e38febae92c5.vi.png)
+    ![Máy đo khoảng cách ở mặt sau của cảm biến Time of Flight đang hướng vào một quả chuối](../../../../../translated_images/time-of-flight-banana.079921ad8b1496e4.vi.png)
 
 > 💁 Bạn có thể tìm thấy đoạn mã này trong thư mục [code-proximity/pi](../../../../../4-manufacturing/lessons/4-trigger-fruit-detector/code-proximity/pi).
 

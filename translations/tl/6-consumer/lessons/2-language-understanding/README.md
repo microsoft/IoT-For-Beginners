@@ -126,7 +126,7 @@ Kapag naitakda na ang mga entidad, gagawa ka ng mga intensyon. Ang mga ito ay na
 
 Pagkatapos, sasabihin mo sa LUIS kung aling bahagi ng mga pangungusap ang tumutugma sa mga entidad:
 
-![Ang pangungusap na mag-set ng timer para sa 1 minuto at 12 segundo na hinati sa mga entidad](../../../../../translated_images/sentence-as-intent-entities.301401696f9922590a99343f5c5d211b710b906f212f0d4d034cee3ffb610272.tl.png)
+![Ang pangungusap na mag-set ng timer para sa 1 minuto at 12 segundo na hinati sa mga entidad](../../../../../translated_images/sentence-as-intent-entities.301401696f992259.tl.png)
 
 Ang pangungusap na `mag-set ng timer para sa 1 minuto at 12 segundo` ay may intensyon na `mag-set ng timer`. Mayroon din itong 2 entidad na may 2 halaga bawat isa:
 

@@ -64,7 +64,7 @@ Kết nối Wio Terminal với WiFi.
 
 1. Tạo một tệp mới trong thư mục `src` có tên `config.h`. Bạn có thể làm điều này bằng cách chọn thư mục `src`, hoặc tệp `main.cpp` bên trong, và chọn nút **New file** từ trình khám phá. Nút này chỉ xuất hiện khi con trỏ của bạn ở trên trình khám phá.
 
-    ![Nút tạo tệp mới](../../../../../translated_images/vscode-new-file-button.182702340fe6723c8cbb4cfa1a9a9fb0d0a5227643b4e46b91ff67b07a39a92f.vi.png)
+    ![Nút tạo tệp mới](../../../../../translated_images/vscode-new-file-button.182702340fe6723c.vi.png)
 
 1. Thêm mã sau vào tệp này để định nghĩa các hằng số cho thông tin đăng nhập WiFi của bạn:
 

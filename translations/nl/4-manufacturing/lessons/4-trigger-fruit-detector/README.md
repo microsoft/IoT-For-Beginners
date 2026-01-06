@@ -115,7 +115,7 @@ Voor het prototype implementeer je alles op één apparaat. Als je een microcont
 
 Het IoT-apparaat heeft een soort trigger nodig om aan te geven wanneer fruit klaar is om te worden geclassificeerd. Een mogelijke trigger hiervoor is het meten van wanneer het fruit zich op de juiste locatie op de transportband bevindt door de afstand tot een sensor te meten.
 
-![Nabijheidssensoren sturen laserstralen naar objecten zoals bananen en meten hoe lang het duurt voordat de straal wordt teruggekaatst](../../../../../translated_images/proximity-sensor.f5cd752c77fb62fea000156233b32fd24fad3707ec69b8bdd8d312b7af85156d.nl.png)
+![Nabijheidssensoren sturen laserstralen naar objecten zoals bananen en meten hoe lang het duurt voordat de straal wordt teruggekaatst](../../../../../translated_images/proximity-sensor.f5cd752c77fb62fe.nl.png)
 
 Nabijheidssensoren kunnen worden gebruikt om de afstand van de sensor tot een object te meten. Ze zenden meestal een straal van elektromagnetische straling uit, zoals een laserstraal of infraroodlicht, en detecteren vervolgens de straling die van een object wordt teruggekaatst. De tijd tussen het verzenden van de straal en het terugkaatsen van het signaal kan worden gebruikt om de afstand tot de sensor te berekenen.
 

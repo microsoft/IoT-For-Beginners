@@ -37,7 +37,7 @@ Ang UART ay gumagamit ng pisikal na circuitry na nagpapahintulot sa dalawang dev
 * Ang Device 1 ay nagpapadala ng data mula sa kanyang Tx pin, na tinatanggap ng Device 2 sa kanyang Rx pin
 * Ang Device 1 ay tumatanggap ng data sa kanyang Rx pin na ipinapadala ng Device 2 mula sa kanyang Tx pin
 
-![UART na may Tx pin sa isang chip na konektado sa Rx pin ng isa pa, at kabaliktaran](../../../../../translated_images/uart.d0dbd3fb9e3728c6ee1995c8206f3cdb13cdfd208f13745e8ef6854cab75e421.tl.png)
+![UART na may Tx pin sa isang chip na konektado sa Rx pin ng isa pa, at kabaliktaran](../../../../../translated_images/uart.d0dbd3fb9e3728c6.tl.png)
 
 > 🎓 Ang data ay ipinapadala nang paisa-isang bit, at ito ay kilala bilang *serial* na komunikasyon. Karamihan sa mga operating system at microcontroller ay may *serial ports*, na mga koneksyon na maaaring magpadala at tumanggap ng serial data na magagamit ng iyong code.
 
@@ -66,7 +66,7 @@ Ang mga SPI controller ay gumagamit ng 3 wires, kasama ang 1 dagdag na wire bawa
 | SCLK | Serial Clock | Ang wire na ito ay nagpapadala ng clock signal sa bilis na itinakda ng controller. |
 | CS   | Chip Select | Ang controller ay may maraming wires, isa bawat peripheral, at bawat wire ay konektado sa CS wire ng kaukulang peripheral. |
 
-![SPI na may isang controller at dalawang peripherals](../../../../../translated_images/spi.297431d6f98b386b4ff88aea44ce9c1e7acfb1ef69c7e4e388a7aa97b6948e24.tl.png)
+![SPI na may isang controller at dalawang peripherals](../../../../../translated_images/spi.297431d6f98b386b.tl.png)
 
 Ang CS wire ay ginagamit upang i-activate ang isang peripheral sa bawat pagkakataon, na nakikipag-ugnayan sa mga COPI at CIPO wires. Kapag kailangang baguhin ng controller ang peripheral, i-deactivate nito ang CS wire na konektado sa kasalukuyang aktibong peripheral, pagkatapos ay i-activate ang wire na konektado sa peripheral na nais nitong makipag-ugnayan.
 
@@ -127,13 +127,13 @@ Ang soil moisture ay sinusukat gamit ang gravimetric o volumetric water content.
 
 Ang mga soil moisture sensor ay sumusukat ng electrical resistance o capacitance - hindi lamang ito nagbabago ayon sa soil moisture, kundi pati na rin sa uri ng lupa dahil ang mga sangkap sa lupa ay maaaring magbago ng mga electrical characteristics nito. Sa ideal na sitwasyon, ang mga sensor ay dapat i-calibrate - ibig sabihin, kumuha ng mga sukat mula sa sensor at ihambing ang mga ito sa mga sukat na nakuha gamit ang mas siyentipikong pamamaraan. Halimbawa, ang isang laboratoryo ay maaaring kalkulahin ang gravimetric soil moisture gamit ang mga sample ng isang partikular na field na kinuha ng ilang beses sa isang taon, at ang mga numerong ito ay maaaring gamitin upang i-calibrate ang sensor, pagtutugma ng sensor reading sa gravimetric soil moisture.
 
-![Isang graph ng boltahe laban sa nilalaman ng soil moisture](../../../../../translated_images/soil-moisture-to-voltage.df86d80cda1587008f312431ed5f79eb6c50c58d4fbc25a6763c5e9127c3106b.tl.png)
+![Isang graph ng boltahe laban sa nilalaman ng soil moisture](../../../../../translated_images/soil-moisture-to-voltage.df86d80cda158700.tl.png)
 
 Ang graph sa itaas ay nagpapakita kung paano i-calibrate ang isang sensor. Ang boltahe ay kinukuha para sa isang soil sample na pagkatapos ay sinusukat sa isang laboratoryo sa pamamagitan ng paghahambing ng timbang na basa sa timbang na tuyo (sa pamamagitan ng pagsukat ng timbang na basa, pagkatapos ay pagpapatuyo sa oven at pagsukat ng tuyong timbang). Kapag ang ilang mga sukat ay nakuha, ito ay maaaring i-plot sa isang graph at isang linya ang maaaring itugma sa mga puntos. Ang linyang ito ay maaaring gamitin upang i-convert ang mga soil moisture sensor readings na kinuha ng isang IoT device sa aktwal na mga sukat ng soil moisture.
 
 💁 Para sa mga resistive soil moisture sensor, ang boltahe ay tumataas habang tumataas ang soil moisture. Para sa mga capacitive soil moisture sensor, ang boltahe ay bumababa habang tumataas ang soil moisture, kaya ang mga graph para dito ay magiging pababa, hindi pataas.
 
-![Isang soil moisture value na interpolated mula sa graph](../../../../../translated_images/soil-moisture-to-voltage-with-reading.681cb3e1f8b68caf5547dbf1415851c82e201edfb78face16fc98da4051ed9b2.tl.png)
+![Isang soil moisture value na interpolated mula sa graph](../../../../../translated_images/soil-moisture-to-voltage-with-reading.681cb3e1f8b68caf.tl.png)
 
 Ang graph sa itaas ay nagpapakita ng isang boltahe reading mula sa isang soil moisture sensor, at sa pamamagitan ng pagsunod nito sa linya sa graph, ang aktwal na soil moisture ay maaaring kalkulahin.
 

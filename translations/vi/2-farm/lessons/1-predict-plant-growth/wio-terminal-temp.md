@@ -33,7 +33,7 @@ Kết nối cảm biến nhiệt độ.
 
 1. Khi Wio Terminal chưa được kết nối với máy tính hoặc nguồn điện khác, cắm đầu còn lại của cáp Grove vào ổ cắm Grove bên phải trên Wio Terminal khi bạn nhìn vào màn hình. Đây là ổ cắm xa nhất từ nút nguồn.
 
-![Cảm biến nhiệt độ Grove được kết nối với ổ cắm bên phải](../../../../../translated_images/wio-temperature-sensor.2934928f38c7f79a68d24879d2c8986c78244696f931e2e33c293f426ecdc0ad.vi.png)
+![Cảm biến nhiệt độ Grove được kết nối với ổ cắm bên phải](../../../../../translated_images/wio-temperature-sensor.2934928f38c7f79a.vi.png)
 
 ## Lập trình cảm biến nhiệt độ
 
