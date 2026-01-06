@@ -66,7 +66,7 @@ I database sono servizi che consentono di archiviare e interrogare i dati. I dat
 
 I primi database erano Sistemi di Gestione di Database Relazionali (RDBMS), o database relazionali. Sono anche noti come database SQL, dal linguaggio Structured Query Language (SQL) utilizzato per interagire con essi per aggiungere, rimuovere, aggiornare o interrogare i dati. Questi database consistono in uno schema: un insieme ben definito di tabelle di dati, simile a un foglio di calcolo. Ogni tabella ha più colonne con nomi specifici. Quando inserisci dati, aggiungi una riga alla tabella, inserendo valori in ciascuna colonna. Questo mantiene i dati in una struttura molto rigida: sebbene tu possa lasciare colonne vuote, se vuoi aggiungere una nuova colonna devi farlo sul database, popolando i valori per le righe esistenti. Questi database sono relazionali, nel senso che una tabella può avere una relazione con un'altra.
 
-![Un database relazionale con l'ID della tabella Utenti che si collega alla colonna ID utente della tabella Acquisti, e l'ID della tabella Prodotti che si collega alla colonna ID prodotto della tabella Acquisti](../../../../../translated_images/sql-database.be160f12bfccefd3ca718a66468c2c4c89c53e5aad4c295324d576da87f9dfdd.it.png)
+![Un database relazionale con l'ID della tabella Utenti che si collega alla colonna ID utente della tabella Acquisti, e l'ID della tabella Prodotti che si collega alla colonna ID prodotto della tabella Acquisti](../../../../../translated_images/sql-database.be160f12bfccefd3.it.png)
 
 Ad esempio, se memorizzi i dettagli personali di un utente in una tabella, avrai un ID univoco interno per ogni utente utilizzato in una riga della tabella che contiene il nome e l'indirizzo dell'utente. Se poi vuoi memorizzare altri dettagli su quell'utente, come i suoi acquisti, in un'altra tabella, avrai una colonna nella nuova tabella per l'ID dell'utente. Quando cerchi un utente, puoi utilizzare il suo ID per ottenere i dettagli personali da una tabella e i suoi acquisti da un'altra.
 
@@ -241,7 +241,7 @@ La tua app di funzioni ora deve connettersi all'archiviazione blob per archiviar
 
 In questa lezione, utilizzerai l'SDK Python per vedere come interagire con l'archiviazione blob.
 
-![Invio di telemetria GPS da un dispositivo IoT a IoT Hub, quindi a Azure Functions tramite un trigger di Event Hub, quindi salvataggio nell'archiviazione blob](../../../../../translated_images/save-telemetry-to-storage-from-functions.ed3b1820980097f143d9f0570072da11304c2bc7906359dfa075b4d9b253c20f.it.png)
+![Invio di telemetria GPS da un dispositivo IoT a IoT Hub, quindi a Azure Functions tramite un trigger di Event Hub, quindi salvataggio nell'archiviazione blob](../../../../../translated_images/save-telemetry-to-storage-from-functions.ed3b1820980097f1.it.png)
 
 I dati verranno salvati come un blob JSON con il seguente formato:
 

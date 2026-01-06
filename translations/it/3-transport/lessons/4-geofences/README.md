@@ -110,7 +110,7 @@ Ogni punto del poligono è definito come una coppia longitudine, latitudine in u
 
 L'array delle coordinate del poligono ha sempre 1 voce in più rispetto al numero di punti del poligono, con l'ultima voce uguale alla prima, chiudendo il poligono. Ad esempio, per un rettangolo ci sarebbero 5 punti.
 
-![Un rettangolo con coordinate](../../../../../translated_images/polygon-points.302193da381cb415f46c2c7a98496ee4be05d6c73d21238a89721ad93e121233.it.png)
+![Un rettangolo con coordinate](../../../../../translated_images/polygon-points.302193da381cb415.it.png)
 
 Nell'immagine sopra, c'è un rettangolo. Le coordinate del poligono iniziano in alto a sinistra a 47,-122, poi si spostano a destra a 47,-121, poi in basso a 46,-121, poi a sinistra a 46,-122, e infine tornano al punto di partenza a 47,-122. Questo dà al poligono 5 punti: in alto a sinistra, in alto a destra, in basso a destra, in basso a sinistra, e infine in alto a sinistra per chiuderlo.
 
@@ -208,7 +208,7 @@ Quando effettui questa richiesta, puoi anche passare un valore chiamato `searchB
 
 Quando i risultati vengono restituiti dalla chiamata API, una delle parti del risultato è una `distance` misurata fino al punto più vicino sul bordo della georecinzione, con un valore positivo se il punto è all'esterno della georecinzione, negativo se è all'interno. Se questa distanza è inferiore al search buffer, viene restituito il valore effettivo in metri, altrimenti il valore è 999 o -999. 999 significa che il punto è all'esterno della georecinzione di oltre il search buffer, -999 significa che è all'interno della georecinzione di oltre il search buffer.
 
-![Una georecinzione con un search buffer di 50m intorno ad essa](../../../../../translated_images/search-buffer-and-distance.e6a79af3898183c7b2ef6fbf12271b8b34afd23969bb946962b1b18d3d2635e8.it.png)
+![Una georecinzione con un search buffer di 50m intorno ad essa](../../../../../translated_images/search-buffer-and-distance.e6a79af3898183c7.it.png)
 
 Nell'immagine sopra, la georecinzione ha un search buffer di 50m.
 

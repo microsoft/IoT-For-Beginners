@@ -154,11 +154,11 @@ Utwórz aplikację w Pythonie, która wypisze `"Hello World"` w konsoli.
 
 1. Po uruchomieniu VS Code aktywuje ono wirtualne środowisko Pythona. Wybrane środowisko pojawi się na dolnym pasku stanu:
 
-    ![VS Code pokazujący wybrane wirtualne środowisko](../../../../../translated_images/vscode-virtual-env.8ba42e04c3d533cf677e16cbe5ed9a3b80f62c6964472dc84b6f940800f0909f.pl.png)
+    ![VS Code pokazujący wybrane wirtualne środowisko](../../../../../translated_images/vscode-virtual-env.8ba42e04c3d533cf.pl.png)
 
 1. Jeśli terminal VS Code jest już uruchomiony podczas startu VS Code, wirtualne środowisko nie będzie w nim aktywne. Najłatwiej jest zamknąć terminal, używając przycisku **Kill the active terminal instance**:
 
-    ![VS Code przycisk Kill the active terminal instance](../../../../../translated_images/vscode-kill-terminal.1cc4de7c6f25ee08f423f0ead714e61d069fac1eb2089e97b8a7bbcb3d45fe5e.pl.png)
+    ![VS Code przycisk Kill the active terminal instance](../../../../../translated_images/vscode-kill-terminal.1cc4de7c6f25ee08.pl.png)
 
     Możesz sprawdzić, czy terminal ma aktywne wirtualne środowisko, ponieważ nazwa środowiska będzie prefiksem w terminalu. Na przykład może to być:
 
@@ -229,7 +229,7 @@ Jako drugi krok 'Hello World', uruchomisz aplikację CounterFit i połączysz z 
 
 1. Będziesz musiał uruchomić nowy terminal w VS Code, wybierając przycisk **Create a new integrated terminal**. Jest to konieczne, ponieważ aplikacja CounterFit działa w bieżącym terminalu.
 
-    ![VS Code przycisk Create a new integrated terminal](../../../../../translated_images/vscode-new-terminal.77db8fc0f9cd31824b0e49a201beafe4ae4616d6c7339992cb2819e789b3eff9.pl.png)
+    ![VS Code przycisk Create a new integrated terminal](../../../../../translated_images/vscode-new-terminal.77db8fc0f9cd3182.pl.png)
 
 1. W nowym terminalu uruchom plik `app.py` tak jak wcześniej. Status CounterFit zmieni się na **Connected**, a dioda LED zaświeci się.
 

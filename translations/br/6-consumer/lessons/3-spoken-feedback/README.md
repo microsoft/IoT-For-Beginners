@@ -37,7 +37,7 @@ Nesta lição, abordaremos:
 
 Texto para fala, como o nome sugere, é o processo de converter texto em áudio que contém as palavras faladas. O princípio básico é decompor as palavras do texto em seus sons constituintes (conhecidos como fonemas) e juntar áudios desses sons, seja usando gravações pré-existentes ou áudios gerados por modelos de IA.
 
-![As três etapas dos sistemas típicos de texto para fala](../../../../../translated_images/tts-overview.193843cf3f5ee09f8b3371a9fdaeb0f116698a07ca69daaa77158da4800e5453.br.png)
+![As três etapas dos sistemas típicos de texto para fala](../../../../../translated_images/tts-overview.193843cf3f5ee09f.br.png)
 
 Os sistemas de texto para fala geralmente têm 3 etapas:
 

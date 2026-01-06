@@ -13,7 +13,7 @@ Uma combinação de previsões e suas caixas delimitadoras pode ser usada para c
 
 ## Contar estoque
 
-![4 latas de extrato de tomate com caixas delimitadoras ao redor de cada lata](../../../../../translated_images/rpi-stock-with-bounding-boxes.b5540e2ecb7cd49f1271828d3be412671d950e87625c5597ea97c90f11e01097.br.jpg)
+![4 latas de extrato de tomate com caixas delimitadoras ao redor de cada lata](../../../../../translated_images/rpi-stock-with-bounding-boxes.b5540e2ecb7cd49f.br.jpg)
 
 Na imagem mostrada acima, as caixas delimitadoras têm uma pequena sobreposição. Se essa sobreposição fosse muito maior, as caixas delimitadoras poderiam indicar o mesmo objeto. Para contar os objetos corretamente, você precisa ignorar caixas com uma sobreposição significativa.
 

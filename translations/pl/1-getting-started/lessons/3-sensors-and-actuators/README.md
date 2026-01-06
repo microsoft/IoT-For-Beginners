@@ -75,7 +75,7 @@ Najprostsze czujniki to czujniki analogowe. Otrzymują napięcie z urządzenia I
 
 Przykładem jest potencjometr – pokrętło, które można obracać między dwoma pozycjami, a czujnik mierzy obrót.
 
-![Potencjometr ustawiony w połowie, otrzymujący 5 woltów i zwracający 3,8 woltów](../../../../../translated_images/potentiometer.35a348b9ce22f6ec1199ad37d68692d04185456ccbc2541a454bb6698be9f19c.pl.png)
+![Potencjometr ustawiony w połowie, otrzymujący 5 woltów i zwracający 3,8 woltów](../../../../../translated_images/potentiometer.35a348b9ce22f6ec.pl.png)
 
 Urządzenie IoT wysyła sygnał elektryczny do potencjometru o napięciu, np. 5 woltów (5V). W miarę regulacji potencjometru zmienia się napięcie wychodzące z drugiej strony. Wyobraź sobie potencjometr oznaczony jako pokrętło od 0 do [11](https://wikipedia.org/wiki/Up_to_eleven), np. pokrętło głośności w wzmacniaczu. Gdy potencjometr jest w pozycji wyłączonej (0), wychodzi 0V. Gdy jest w pozycji maksymalnej (11), wychodzi 5V.
 
@@ -112,7 +112,7 @@ Piny w urządzeniach IoT, takie jak piny GPIO, mogą bezpośrednio mierzyć ten 
 
 Bardziej zaawansowane cyfrowe czujniki odczytują wartości analogowe, a następnie konwertują je za pomocą wbudowanych ADC na sygnały cyfrowe. Na przykład cyfrowy czujnik temperatury nadal używa termopary w taki sam sposób jak czujnik analogowy i nadal mierzy zmianę napięcia spowodowaną rezystancją termopary w danej temperaturze. Zamiast zwracać wartość analogową i polegać na urządzeniu lub płytce łączącej w celu konwersji na sygnał cyfrowy, wbudowany w czujnik ADC konwertuje wartość i wysyła ją jako serię 0 i 1 do urządzenia IoT. Te 0 i 1 są wysyłane w taki sam sposób jak sygnał cyfrowy dla przycisku, gdzie 1 oznacza pełne napięcie, a 0 oznacza 0V.
 
-![Cyfrowy czujnik temperatury konwertujący odczyt analogowy na dane binarne z 0 jako 0 woltów i 1 jako 5 woltów przed wysłaniem do urządzenia IoT](../../../../../translated_images/temperature-as-digital.85004491b977bae1129707df107c0b19fe6fc6374210e9027e04acb34a640c78.pl.png)
+![Cyfrowy czujnik temperatury konwertujący odczyt analogowy na dane binarne z 0 jako 0 woltów i 1 jako 5 woltów przed wysłaniem do urządzenia IoT](../../../../../translated_images/temperature-as-digital.85004491b977bae1.pl.png)
 
 Wysyłanie danych cyfrowych pozwala czujnikom stać się bardziej zaawansowanymi i przesyłać bardziej szczegółowe dane, a nawet zaszyfrowane dane dla bezpiecznych czujników. Przykładem jest kamera. Jest to czujnik, który rejestruje obraz i przesyła go jako dane cyfrowe zawierające ten obraz, zwykle w skompresowanym formacie, takim jak JPEG, do odczytu przez urządzenie IoT. Może nawet przesyłać strumieniowo wideo, rejestrując obrazy i przesyłając je klatka po klatce lub jako skompresowany strumień wideo.
 
@@ -164,7 +164,7 @@ Na przykład PWM można użyć do kontrolowania prędkości silnika.
 
 Wyobraź sobie, że sterujesz silnikiem zasilanym napięciem 5V. Wysyłasz krótki impuls do silnika, przełączając napięcie na wysokie (5V) na dwie setne sekundy (0,02s). W tym czasie silnik może wykonać jedną dziesiątą obrotu, czyli 36°. Następnie sygnał pauzuje na dwie setne sekundy (0,02s), wysyłając niski sygnał (0V). Każdy cykl włączania i wyłączania trwa 0,04s. Cykl ten powtarza się.
 
-![Modulacja szerokości impulsu - obrót silnika z prędkością 150 RPM](../../../../../translated_images/pwm-motor-150rpm.83347ac04ca38482bd120939b133803963c9c15ca9d8d484712a4bd92820f6a4.pl.png)
+![Modulacja szerokości impulsu - obrót silnika z prędkością 150 RPM](../../../../../translated_images/pwm-motor-150rpm.83347ac04ca38482.pl.png)
 
 Oznacza to, że w ciągu jednej sekundy wysyłasz 25 impulsów 5V trwających 0,02s, które obracają silnik, a każdy z nich jest poprzedzony 0,02s przerwy przy 0V, gdy silnik się nie obraca. Każdy impuls obraca silnik o jedną dziesiątą obrotu, co oznacza, że silnik wykonuje 2,5 obrotu na sekundę. Użyłeś sygnału cyfrowego, aby obrócić silnik z prędkością 2,5 obrotu na sekundę, czyli 150 [obrotów na minutę](https://wikipedia.org/wiki/Revolutions_per_minute) (niestandardowa jednostka prędkości obrotowej).
 
@@ -175,7 +175,7 @@ Oznacza to, że w ciągu jednej sekundy wysyłasz 25 impulsów 5V trwających 0,
 
 > 🎓 Gdy sygnał PWM jest włączony przez połowę czasu, a wyłączony przez drugą połowę, nazywa się to [cyklem pracy 50%](https://wikipedia.org/wiki/Duty_cycle). Cykl pracy mierzy się jako procent czasu, w którym sygnał jest w stanie włączonym w porównaniu do stanu wyłączonego.
 
-![Modulacja szerokości impulsu - obrót silnika z prędkością 75 RPM](../../../../../translated_images/pwm-motor-75rpm.a5e4c939934b6e14fd9e98e4f2c9539d723da2b18f490eae0948dd044d18ff7e.pl.png)
+![Modulacja szerokości impulsu - obrót silnika z prędkością 75 RPM](../../../../../translated_images/pwm-motor-75rpm.a5e4c939934b6e14.pl.png)
 
 Możesz zmienić prędkość silnika, zmieniając długość impulsów. Na przykład, przy tym samym silniku możesz zachować ten sam czas cyklu 0,04s, ale skrócić impuls włączony do 0,01s, a impuls wyłączony wydłużyć do 0,03s. Liczba impulsów na sekundę (25) pozostaje taka sama, ale każdy impuls włączony jest o połowę krótszy. Krótszy impuls obraca silnik o jedną dwudziestą obrotu, a przy 25 impulsach na sekundę silnik wykona 1,25 obrotu na sekundę, czyli 75 RPM. Zmieniając prędkość impulsów sygnału cyfrowego, zmniejszyłeś prędkość analogowego silnika o połowę.
 

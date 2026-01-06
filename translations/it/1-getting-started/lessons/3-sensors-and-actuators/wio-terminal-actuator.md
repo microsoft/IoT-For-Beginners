@@ -51,7 +51,7 @@ Collega il LED.
 
     > 💁 La presa Grove sul lato destro può essere utilizzata con sensori e attuatori analogici o digitali. La presa sul lato sinistro è per sensori e attuatori digitali soltanto. C sarà trattato in una lezione successiva.
 
-![Il LED Grove collegato alla presa sul lato destro](../../../../../translated_images/wio-led.265a1897e72d7f21c753257516a4b677d8e30ce2b95fee98189458b3275ba0a6.it.png)
+![Il LED Grove collegato alla presa sul lato destro](../../../../../translated_images/wio-led.265a1897e72d7f21.it.png)
 
 ## Programmare la luce notturna
 

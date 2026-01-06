@@ -64,7 +64,7 @@ Połącz Wio Terminal z WiFi.
 
 1. Utwórz nowy plik w folderze `src` o nazwie `config.h`. Możesz to zrobić, wybierając folder `src` lub plik `main.cpp` w środku, a następnie klikając przycisk **New file** w eksploratorze. Ten przycisk pojawia się tylko wtedy, gdy kursor znajduje się nad eksploratorem.
 
-    ![Przycisk nowego pliku](../../../../../translated_images/vscode-new-file-button.182702340fe6723c8cbb4cfa1a9a9fb0d0a5227643b4e46b91ff67b07a39a92f.pl.png)
+    ![Przycisk nowego pliku](../../../../../translated_images/vscode-new-file-button.182702340fe6723c.pl.png)
 
 1. Dodaj następujący kod do tego pliku, aby zdefiniować stałe dla danych logowania do WiFi:
 

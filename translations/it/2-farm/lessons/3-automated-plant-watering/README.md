@@ -55,11 +55,11 @@ Un relè è un interruttore elettromeccanico che converte un segnale elettrico i
 
 > 🎓 [Elettromagneti](https://wikipedia.org/wiki/Electromagnet) sono magneti creati facendo passare elettricità attraverso una bobina di filo. Quando l'elettricità è accesa, la bobina si magnetizza. Quando l'elettricità è spenta, la bobina perde il suo magnetismo.
 
-![Quando è acceso, l'elettromagnete crea un campo magnetico, accendendo l'interruttore per il circuito di uscita](../../../../../translated_images/relay-on.4db16a0fd6b669262fd6699aff3fbcd31b6057c06d90411b6bddc06326d1cf75.it.png)
+![Quando è acceso, l'elettromagnete crea un campo magnetico, accendendo l'interruttore per il circuito di uscita](../../../../../translated_images/relay-on.4db16a0fd6b66926.it.png)
 
 In un relè, un circuito di controllo alimenta l'elettromagnete. Quando l'elettromagnete è acceso, tira una leva che muove un interruttore, chiudendo un paio di contatti e completando un circuito di uscita.
 
-![Quando è spento, l'elettromagnete non crea un campo magnetico, spegnendo l'interruttore per il circuito di uscita](../../../../../translated_images/relay-off.c34a178a2960fecdc3c6400d43e633ed11c6746cd653cfb4a768fa097c40394c.it.png)
+![Quando è spento, l'elettromagnete non crea un campo magnetico, spegnendo l'interruttore per il circuito di uscita](../../../../../translated_images/relay-off.c34a178a2960fecd.it.png)
 
 Quando il circuito di controllo è spento, l'elettromagnete si spegne, rilasciando la leva e aprendo i contatti, spegnendo il circuito di uscita. I relè sono attuatori digitali: un segnale alto al relè lo accende, un segnale basso lo spegne.
 
@@ -85,7 +85,7 @@ L'elettromagnete non necessita di molta energia per attivarsi e tirare la leva, 
 
 L'immagine sopra mostra un relè Grove. Il circuito di controllo si collega a un dispositivo IoT e accende o spegne il relè utilizzando 3.3V o 5V. Il circuito di uscita ha due terminali, uno può essere alimentazione o massa. Il circuito di uscita può gestire fino a 250V a 10A, sufficiente per una gamma di dispositivi alimentati dalla rete. Puoi trovare relè che possono gestire livelli di potenza ancora più elevati.
 
-![Una pompa cablata attraverso un relè](../../../../../translated_images/pump-wired-to-relay.66c5cfc0d89189900cd601777f5caeb39ee35c6250f6c86bf38feaceedb21fe9.it.png)
+![Una pompa cablata attraverso un relè](../../../../../translated_images/pump-wired-to-relay.66c5cfc0d8918990.it.png)
 
 Nell'immagine sopra, l'alimentazione viene fornita a una pompa tramite un relè. C'è un filo rosso che collega il terminale +5V di un alimentatore USB a un terminale del circuito di uscita del relè, e un altro filo rosso che collega l'altro terminale del circuito di uscita alla pompa. Un filo nero collega la pompa alla massa dell'alimentatore USB. Quando il relè si accende, completa il circuito, inviando 5V alla pompa e accendendola.
 
@@ -135,7 +135,7 @@ Nella lezione 3 hai costruito una luce notturna: un LED che si accende non appen
 
 Se hai seguito la lezione precedente sull'umidità del terreno utilizzando un sensore fisico, avrai notato che ci sono voluti alcuni secondi affinché la lettura dell'umidità del terreno diminuisse dopo aver irrigato la tua pianta. Questo non è dovuto alla lentezza del sensore, ma al tempo necessario affinché l'acqua si diffonda nel terreno.
 💁 Se hai annaffiato troppo vicino al sensore, potresti aver notato che la lettura è diminuita rapidamente per poi risalire - questo accade perché l'acqua vicino al sensore si diffonde nel resto del terreno, riducendo l'umidità del suolo rilevata dal sensore.
-![Una misurazione dell'umidità del suolo di 658 non cambia durante l'irrigazione, ma scende a 320 dopo che l'acqua ha attraversato il terreno](../../../../../translated_images/soil-moisture-travel.a0e31af222cf14385de5380dfc32c7b8213960965228b8e4f7b7ab7f73b310a3.it.png)
+![Una misurazione dell'umidità del suolo di 658 non cambia durante l'irrigazione, ma scende a 320 dopo che l'acqua ha attraversato il terreno](../../../../../translated_images/soil-moisture-travel.a0e31af222cf1438.it.png)
 
 Nel diagramma sopra, una lettura dell'umidità del suolo mostra 658. La pianta viene irrigata, ma questa lettura non cambia immediatamente, poiché l'acqua non ha ancora raggiunto il sensore. L'irrigazione può persino terminare prima che l'acqua raggiunga il sensore e il valore scenda per riflettere il nuovo livello di umidità.
 
@@ -157,11 +157,11 @@ Quanto tempo dovrebbe rimanere acceso il relè ogni volta? È meglio essere prud
 
 > 💁 Questo tipo di controllo temporale è molto specifico per il dispositivo IoT che stai costruendo, la proprietà che stai misurando e i sensori e attuatori utilizzati.
 
-![Una pianta di fragole collegata a un sistema di irrigazione tramite una pompa, con la pompa collegata a un relè. Il relè e un sensore di umidità del suolo nella pianta sono entrambi collegati a un Raspberry Pi](../../../../../translated_images/strawberry-with-pump.b410fc72ac6aabad3e28de9775bf2393ead73dcfec6fd8c9bc01cf107ecd171a.it.png)
+![Una pianta di fragole collegata a un sistema di irrigazione tramite una pompa, con la pompa collegata a un relè. Il relè e un sensore di umidità del suolo nella pianta sono entrambi collegati a un Raspberry Pi](../../../../../translated_images/strawberry-with-pump.b410fc72ac6aabad.it.png)
 
 Ad esempio, ho una pianta di fragole con un sensore di umidità del suolo e una pompa controllata da un relè. Ho osservato che quando aggiungo acqua ci vogliono circa 20 secondi affinché la lettura dell'umidità del suolo si stabilizzi. Questo significa che devo spegnere il relè e attendere 20 secondi prima di controllare i livelli di umidità. Preferisco avere poca acqua piuttosto che troppa: posso sempre riaccendere la pompa, ma non posso togliere l'acqua dalla pianta.
 
-![Passo 1: prendi una misurazione. Passo 2: aggiungi acqua. Passo 3: attendi che l'acqua si infiltri nel terreno. Passo 4: riprendi la misurazione](../../../../../translated_images/soil-moisture-delay.865f3fae206db01d5f8f100f4f44040215d44a0412dd3450aef7ff7b93b6d273.it.png)
+![Passo 1: prendi una misurazione. Passo 2: aggiungi acqua. Passo 3: attendi che l'acqua si infiltri nel terreno. Passo 4: riprendi la misurazione](../../../../../translated_images/soil-moisture-delay.865f3fae206db01d.it.png)
 
 Questo significa che il miglior processo sarebbe un ciclo di irrigazione simile a:
 

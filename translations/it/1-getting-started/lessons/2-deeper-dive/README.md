@@ -41,7 +41,7 @@ I due componenti principali di un'applicazione IoT sono *Internet* e *l'oggetto*
 
 ### L'oggetto
 
-![Un Raspberry Pi 4](../../../../../translated_images/raspberry-pi-4.fd4590d308c3d456db1327e86b395ddcd735513267aafd4879ea2785f7792eac.it.jpg)
+![Un Raspberry Pi 4](../../../../../translated_images/raspberry-pi-4.fd4590d308c3d456.it.jpg)
 
 La parte **oggetto** dell'IoT si riferisce a un dispositivo che può interagire con il mondo fisico. Questi dispositivi sono solitamente piccoli computer a basso costo, che funzionano a basse velocità e consumano poca energia - ad esempio, semplici microcontrollori con pochi kilobyte di RAM (rispetto ai gigabyte di un PC) che operano a poche centinaia di megahertz (rispetto ai gigahertz di un PC), ma che consumano così poca energia da poter funzionare per settimane, mesi o addirittura anni con batterie.
 
@@ -67,7 +67,7 @@ Nel caso di un termostato intelligente, il termostato si connetterebbe utilizzan
 
 Una versione ancora più intelligente potrebbe utilizzare l'AI nel cloud con dati provenienti da altri sensori collegati ad altri dispositivi IoT, come sensori di occupazione che rilevano quali stanze sono in uso, oltre a dati come il meteo e persino il tuo calendario, per prendere decisioni su come impostare la temperatura in modo intelligente. Ad esempio, potrebbe spegnere il riscaldamento se legge dal tuo calendario che sei in vacanza, o spegnere il riscaldamento stanza per stanza a seconda delle stanze che utilizzi, imparando dai dati per essere sempre più preciso nel tempo.
 
-![Un diagramma che mostra più sensori di temperatura e una manopola come input per un dispositivo IoT, il dispositivo IoT con comunicazione bidirezionale con il cloud, che a sua volta ha comunicazione bidirezionale con un telefono, un calendario e un servizio meteo, e il controllo di un riscaldatore come output dal dispositivo IoT](../../../../../translated_images/smarter-thermostat.a75855f15d2d9e63d5da9d7ba5847a987f6c9d98e96e770c203532275194e27d.it.png)
+![Un diagramma che mostra più sensori di temperatura e una manopola come input per un dispositivo IoT, il dispositivo IoT con comunicazione bidirezionale con il cloud, che a sua volta ha comunicazione bidirezionale con un telefono, un calendario e un servizio meteo, e il controllo di un riscaldatore come output dal dispositivo IoT](../../../../../translated_images/smarter-thermostat.a75855f15d2d9e63.it.png)
 
 ✅ Quali altri dati potrebbero aiutare a rendere un termostato connesso a Internet più intelligente?
 
@@ -135,7 +135,7 @@ Come per la CPU, la memoria di un microcontrollore è di ordini di grandezza inf
 
 Il diagramma qui sotto mostra la differenza di dimensione relativa tra 192KB e 8GB - il piccolo punto al centro rappresenta 192KB.
 
-![Un confronto tra 192KB e 8GB - più di 40.000 volte più grande](../../../../../translated_images/ram-comparison.6beb73541b42ac6ffde64cdf79fc925a84b932ce7ebd4d41d5fd7afc1257a696.it.png)
+![Un confronto tra 192KB e 8GB - più di 40.000 volte più grande](../../../../../translated_images/ram-comparison.6beb73541b42ac6f.it.png)
 
 Anche lo spazio di archiviazione per i programmi è più piccolo rispetto a un PC. Un PC tipico potrebbe avere un disco rigido da 500GB per l'archiviazione dei programmi, mentre un microcontrollore potrebbe avere solo kilobyte o forse pochi megabyte (MB) di spazio di archiviazione (1MB è 1.000KB, ovvero 1.000.000 byte). Il terminale Wio ha 4MB di spazio di archiviazione per i programmi.
 
@@ -211,17 +211,17 @@ Nella lezione precedente, abbiamo introdotto i computer a scheda singola. Ora ap
 
 ### Raspberry Pi
 
-![Il logo Raspberry Pi](../../../../../translated_images/raspberry-pi-logo.4efaa16605cee05489d8fa53941e991b3757aa24c20a95abdcf8cfd761953596.it.png)
+![Il logo Raspberry Pi](../../../../../translated_images/raspberry-pi-logo.4efaa16605cee054.it.png)
 
 La [Raspberry Pi Foundation](https://www.raspberrypi.org) è un'organizzazione benefica del Regno Unito fondata nel 2009 per promuovere lo studio dell'informatica, soprattutto a livello scolastico. Come parte di questa missione, hanno sviluppato un computer a scheda singola, chiamato Raspberry Pi. I Raspberry Pi sono attualmente disponibili in 3 varianti - una versione a grandezza naturale, il più piccolo Pi Zero, e un modulo di calcolo che può essere integrato nel tuo dispositivo IoT finale.
 
-![Un Raspberry Pi 4](../../../../../translated_images/raspberry-pi-4.fd4590d308c3d456db1327e86b395ddcd735513267aafd4879ea2785f7792eac.it.jpg)
+![Un Raspberry Pi 4](../../../../../translated_images/raspberry-pi-4.fd4590d308c3d456.it.jpg)
 
 L'ultima iterazione del Raspberry Pi a grandezza naturale è il Raspberry Pi 4B. Questo ha una CPU quad-core (4 core) che funziona a 1.5GHz, 2, 4 o 8GB di RAM, gigabit ethernet, WiFi, 2 porte HDMI che supportano schermi 4k, una porta audio e video composito, porte USB (2 USB 2.0, 2 USB 3.0), 40 pin GPIO, un connettore per fotocamera per un modulo fotocamera Raspberry Pi e uno slot per schede SD. Tutto questo su una scheda che misura 88mm x 58mm x 19.5mm ed è alimentata da un alimentatore USB-C da 3A. Questi partono da 35 dollari USA, molto più economici di un PC o Mac.
 
 > 💁 C'è anche un Pi400, un computer all-in-one con un Pi4 integrato in una tastiera.
 
-![Un Raspberry Pi Zero](../../../../../translated_images/raspberry-pi-zero.f7a4133e1e7d54bb3dbb32319b217a53c5b94871995a54647f2894b54206b8d8.it.jpg)
+![Un Raspberry Pi Zero](../../../../../translated_images/raspberry-pi-zero.f7a4133e1e7d54bb.it.jpg)
 
 Il Pi Zero è molto più piccolo e con un consumo energetico inferiore. Ha una CPU single-core da 1GHz, 512MB di RAM, WiFi (nel modello Zero W), una singola porta HDMI, una porta micro-USB, 40 pin GPIO, un connettore per fotocamera per un modulo fotocamera Raspberry Pi e uno slot per schede SD. Misura 65mm x 30mm x 5mm e consuma pochissima energia. Il Zero costa 5 dollari USA, mentre la versione W con WiFi costa 10 dollari USA.
 

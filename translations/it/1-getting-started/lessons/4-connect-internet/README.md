@@ -46,7 +46,7 @@ In questa lezione tratteremo:
 
 Esistono diversi protocolli di comunicazione popolari utilizzati dai dispositivi IoT per comunicare con Internet. I più comuni si basano sulla messaggistica publish/subscribe tramite un broker. I dispositivi IoT si connettono al broker, pubblicano telemetria e si iscrivono ai comandi. Anche i servizi cloud si connettono al broker, si iscrivono a tutti i messaggi di telemetria e pubblicano comandi a dispositivi specifici o a gruppi di dispositivi.
 
-![I dispositivi IoT si connettono a un broker, pubblicano telemetria e si iscrivono ai comandi. I servizi cloud si connettono al broker, si iscrivono a tutta la telemetria e inviano comandi a dispositivi specifici.](../../../../../translated_images/pub-sub.7c7ed43fe9fd15d4e1f81a3fd95440413c457acd9bcbe9a43341e30e88db5264.it.png)
+![I dispositivi IoT si connettono a un broker, pubblicano telemetria e si iscrivono ai comandi. I servizi cloud si connettono al broker, si iscrivono a tutta la telemetria e inviano comandi a dispositivi specifici.](../../../../../translated_images/pub-sub.7c7ed43fe9fd15d4.it.png)
 
 MQTT è il protocollo di comunicazione più popolare per i dispositivi IoT ed è trattato in questa lezione. Altri protocolli includono AMQP e HTTP/HTTPS.
 
@@ -115,7 +115,7 @@ La parola telemetria deriva da radici greche che significano misurare a distanza
 
 Torniamo all'esempio del termostato intelligente dalla Lezione 1.
 
-![Un termostato connesso a Internet che utilizza sensori in più stanze](../../../../../translated_images/telemetry.21e5d8b97649d2ebeb0f68d4b9691ab2d1f7bd629338e131465aff8a614e4d4a.it.png)
+![Un termostato connesso a Internet che utilizza sensori in più stanze](../../../../../translated_images/telemetry.21e5d8b97649d2eb.it.png)
 
 Il termostato ha sensori di temperatura per raccogliere telemetria. Probabilmente avrebbe un sensore di temperatura integrato e potrebbe connettersi a più sensori di temperatura esterni tramite un protocollo wireless come il [Bluetooth Low Energy](https://wikipedia.org/wiki/Bluetooth_Low_Energy) (BLE).
 
@@ -267,11 +267,11 @@ Scrivi il codice del server.
 
 1. Quando VS Code si avvia, attiverà l'ambiente virtuale Python. Questo sarà riportato nella barra di stato in basso:
 
-    ![VS Code che mostra l'ambiente virtuale selezionato](../../../../../translated_images/vscode-virtual-env.8ba42e04c3d533cf677e16cbe5ed9a3b80f62c6964472dc84b6f940800f0909f.it.png)
+    ![VS Code che mostra l'ambiente virtuale selezionato](../../../../../translated_images/vscode-virtual-env.8ba42e04c3d533cf.it.png)
 
 1. Se il terminale di VS Code è già in esecuzione quando VS Code si avvia, non avrà l'ambiente virtuale attivato. La cosa più semplice da fare è chiudere il terminale utilizzando il pulsante **Kill the active terminal instance**:
 
-    ![Pulsante di chiusura del terminale attivo in VS Code](../../../../../translated_images/vscode-kill-terminal.1cc4de7c6f25ee08f423f0ead714e61d069fac1eb2089e97b8a7bbcb3d45fe5e.it.png)
+    ![Pulsante di chiusura del terminale attivo in VS Code](../../../../../translated_images/vscode-kill-terminal.1cc4de7c6f25ee08.it.png)
 
 1. Avvia un nuovo terminale di VS Code selezionando *Terminal -> New Terminal*, o premendo `` CTRL+` ``. Il nuovo terminale caricherà l'ambiente virtuale, con la chiamata per attivarlo che apparirà nel terminale. Il nome dell'ambiente virtuale (`.venv`) sarà anche nel prompt:
 

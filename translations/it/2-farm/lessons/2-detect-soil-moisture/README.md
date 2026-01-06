@@ -37,7 +37,7 @@ UART coinvolge circuiti fisici che permettono a due dispositivi di comunicare. O
 * Il dispositivo 1 trasmette dati dal suo pin Tx, che vengono ricevuti dal dispositivo 2 sul suo pin Rx
 * Il dispositivo 1 riceve dati sul suo pin Rx che vengono trasmessi dal dispositivo 2 dal suo pin Tx
 
-![UART con il pin Tx su un chip collegato al pin Rx su un altro, e viceversa](../../../../../translated_images/uart.d0dbd3fb9e3728c6ee1995c8206f3cdb13cdfd208f13745e8ef6854cab75e421.it.png)
+![UART con il pin Tx su un chip collegato al pin Rx su un altro, e viceversa](../../../../../translated_images/uart.d0dbd3fb9e3728c6.it.png)
 
 > 🎓 I dati vengono inviati un bit alla volta, e questo è noto come comunicazione *seriale*. La maggior parte dei sistemi operativi e microcontrollori ha *porte seriali*, ovvero connessioni che possono inviare e ricevere dati seriali disponibili per il tuo codice.
 
@@ -66,7 +66,7 @@ I controller SPI utilizzano 3 fili, insieme a 1 filo extra per periferica. Le pe
 | SCLK | Serial Clock | Questo filo invia un segnale di clock a una velocità impostata dal controller. |
 | CS   | Chip Select | Il controller ha più fili, uno per periferica, e ogni filo si collega al filo CS sulla periferica corrispondente. |
 
-![SPI con un controller e due periferiche](../../../../../translated_images/spi.297431d6f98b386b4ff88aea44ce9c1e7acfb1ef69c7e4e388a7aa97b6948e24.it.png)
+![SPI con un controller e due periferiche](../../../../../translated_images/spi.297431d6f98b386b.it.png)
 
 Il filo CS viene utilizzato per attivare una periferica alla volta, comunicando tramite i fili COPI e CIPO. Quando il controller deve cambiare periferica, disattiva il filo CS collegato alla periferica attualmente attiva, quindi attiva il filo collegato alla periferica con cui vuole comunicare successivamente.
 
@@ -127,13 +127,13 @@ L'umidità del suolo viene misurata utilizzando il contenuto d'acqua gravimetric
 
 I sensori di umidità del suolo misurano la resistenza elettrica o la capacità - questo non varia solo in base all'umidità del suolo, ma anche al tipo di suolo poiché i componenti nel suolo possono cambiare le sue caratteristiche elettriche. Idealmente i sensori dovrebbero essere calibrati - ovvero prendere letture dal sensore e confrontarle con misurazioni ottenute utilizzando un approccio più scientifico. Ad esempio, un laboratorio può calcolare l'umidità gravimetrica del suolo utilizzando campioni di un campo specifico prelevati alcune volte all'anno, e questi numeri utilizzati per calibrare il sensore, abbinando la lettura del sensore all'umidità gravimetrica del suolo.
 
-![Un grafico della tensione rispetto al contenuto di umidità del suolo](../../../../../translated_images/soil-moisture-to-voltage.df86d80cda1587008f312431ed5f79eb6c50c58d4fbc25a6763c5e9127c3106b.it.png)
+![Un grafico della tensione rispetto al contenuto di umidità del suolo](../../../../../translated_images/soil-moisture-to-voltage.df86d80cda158700.it.png)
 
 Il grafico sopra mostra come calibrare un sensore. La tensione viene catturata per un campione di suolo che viene poi misurato in laboratorio confrontando il peso umido con il peso secco (misurando il peso umido, poi asciugandolo in un forno e misurando il peso secco). Una volta prese alcune letture, queste possono essere tracciate su un grafico e una linea adattata ai punti. Questa linea può poi essere utilizzata per convertire le letture del sensore di umidità del suolo prese da un dispositivo IoT in misurazioni effettive dell'umidità del suolo.
 
 💁 Per i sensori resistivi di umidità del suolo, la tensione aumenta con l'aumento dell'umidità del suolo. Per i sensori capacitivi di umidità del suolo, la tensione diminuisce con l'aumento dell'umidità del suolo, quindi i grafici per questi avrebbero una pendenza verso il basso, non verso l'alto.
 
-![Un valore di umidità del suolo interpolato dal grafico](../../../../../translated_images/soil-moisture-to-voltage-with-reading.681cb3e1f8b68caf5547dbf1415851c82e201edfb78face16fc98da4051ed9b2.it.png)
+![Un valore di umidità del suolo interpolato dal grafico](../../../../../translated_images/soil-moisture-to-voltage-with-reading.681cb3e1f8b68caf.it.png)
 
 Il grafico sopra mostra una lettura di tensione da un sensore di umidità del suolo, e seguendo quella linea sul grafico, l'umidità effettiva del suolo può essere calcolata.
 

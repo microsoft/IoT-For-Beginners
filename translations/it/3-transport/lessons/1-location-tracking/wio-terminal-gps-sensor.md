@@ -33,7 +33,7 @@ Collega il sensore GPS.
 
 1. Con il Wio Terminal scollegato dal computer o da altre fonti di alimentazione, collega l'altra estremità del cavo Grove alla presa Grove sul lato sinistro del Wio Terminal, guardando lo schermo. Questa è la presa più vicina al pulsante di accensione.
 
-    ![Il sensore Grove GPS collegato alla presa sinistra](../../../../../translated_images/wio-gps-sensor.19fd52b81ce58095d5deb3d4e5a1fdd88818d76569b00b1f0d740c92dc986525.it.png)
+    ![Il sensore Grove GPS collegato alla presa sinistra](../../../../../translated_images/wio-gps-sensor.19fd52b81ce58095.it.png)
 
 1. Posiziona il sensore GPS in modo che l'antenna collegata abbia visibilità verso il cielo - idealmente vicino a una finestra aperta o all'esterno. È più facile ottenere un segnale chiaro senza ostacoli davanti all'antenna.
 

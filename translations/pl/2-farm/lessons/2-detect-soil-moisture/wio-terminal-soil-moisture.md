@@ -33,11 +33,11 @@ Podłącz czujnik wilgotności gleby.
 
 1. Przy odłączonym Wio Terminal od komputera lub innego źródła zasilania, podłącz drugi koniec kabla Grove do prawego gniazda Grove na Wio Terminal, patrząc na ekran. Jest to gniazdo najbardziej oddalone od przycisku zasilania.
 
-![Czujnik wilgotności gleby Grove podłączony do prawego gniazda](../../../../../translated_images/wio-soil-moisture-sensor.46919b61c3f6cb7497662251b29038ee0e57a4c8b9d071feb996c3b0d7f65aaf.pl.png)
+![Czujnik wilgotności gleby Grove podłączony do prawego gniazda](../../../../../translated_images/wio-soil-moisture-sensor.46919b61c3f6cb74.pl.png)
 
 1. Włóż czujnik wilgotności gleby do gleby. Czujnik ma linię oznaczającą "najwyższą pozycję" - białą linię na czujniku. Włóż czujnik do gleby do tej linii, ale nie dalej.
 
-![Czujnik wilgotności gleby Grove w glebie](../../../../../translated_images/soil-moisture-sensor-in-soil.bfad91002bda5e960f8c51ee64b02ee59b32c8c717e3515a2c945f33e614e403.pl.png)
+![Czujnik wilgotności gleby Grove w glebie](../../../../../translated_images/soil-moisture-sensor-in-soil.bfad91002bda5e96.pl.png)
 
 1. Teraz możesz podłączyć Wio Terminal do komputera.
 

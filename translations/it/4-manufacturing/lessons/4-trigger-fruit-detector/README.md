@@ -115,7 +115,7 @@ Per il prototipo, implementerai tutto questo su un singolo dispositivo. Se stai 
 
 Il dispositivo IoT ha bisogno di un qualche tipo di trigger per indicare quando la frutta è pronta per essere classificata. Un trigger potrebbe essere misurare quando la frutta è nella posizione giusta sul nastro trasportatore, rilevando la distanza con un sensore.
 
-![I sensori di prossimità inviano raggi laser agli oggetti come le banane e misurano il tempo necessario affinché il raggio venga riflesso](../../../../../translated_images/proximity-sensor.f5cd752c77fb62fea000156233b32fd24fad3707ec69b8bdd8d312b7af85156d.it.png)
+![I sensori di prossimità inviano raggi laser agli oggetti come le banane e misurano il tempo necessario affinché il raggio venga riflesso](../../../../../translated_images/proximity-sensor.f5cd752c77fb62fe.it.png)
 
 I sensori di prossimità possono essere utilizzati per misurare la distanza tra il sensore e un oggetto. Solitamente trasmettono un raggio di radiazione elettromagnetica, come un raggio laser o luce infrarossa, e rilevano la radiazione riflessa da un oggetto. Il tempo tra l'invio del raggio laser e il segnale riflesso può essere utilizzato per calcolare la distanza dal sensore.
 

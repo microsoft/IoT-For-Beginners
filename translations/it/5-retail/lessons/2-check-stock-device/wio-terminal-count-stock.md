@@ -13,7 +13,7 @@ Una combinazione di previsioni e dei loro riquadri di delimitazione può essere 
 
 ## Conta il magazzino
 
-![4 barattoli di concentrato di pomodoro con riquadri di delimitazione attorno a ciascun barattolo](../../../../../translated_images/rpi-stock-with-bounding-boxes.b5540e2ecb7cd49f1271828d3be412671d950e87625c5597ea97c90f11e01097.it.jpg)
+![4 barattoli di concentrato di pomodoro con riquadri di delimitazione attorno a ciascun barattolo](../../../../../translated_images/rpi-stock-with-bounding-boxes.b5540e2ecb7cd49f.it.jpg)
 
 Nell'immagine mostrata sopra, i riquadri di delimitazione hanno un piccolo sovrapposizione. Se questa sovrapposizione fosse molto più grande, i riquadri di delimitazione potrebbero indicare lo stesso oggetto. Per contare correttamente gli oggetti, è necessario ignorare i riquadri con una sovrapposizione significativa.
 

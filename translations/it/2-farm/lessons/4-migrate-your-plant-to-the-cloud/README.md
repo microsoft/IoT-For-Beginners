@@ -72,7 +72,7 @@ Il fornitore di cloud può quindi sfruttare le economie di scala per ridurre i c
 
 Azure è il cloud per sviluppatori di Microsoft, ed è il cloud che utilizzerai in queste lezioni. Il video qui sotto offre una breve panoramica di Azure:
 
-[![Video panoramica di Azure](../../../../../translated_images/what-is-azure-video-thumbnail.20174db09e03bbb87d213f928d3cb27410305d2e567e952827de8478dbda959b.it.png)](https://www.microsoft.com/videoplayer/embed/RE4Ibng?WT.mc_id=academic-17441-jabenn)
+[![Video panoramica di Azure](../../../../../translated_images/what-is-azure-video-thumbnail.20174db09e03bbb8.it.png)](https://www.microsoft.com/videoplayer/embed/RE4Ibng?WT.mc_id=academic-17441-jabenn)
 
 ## Crea un abbonamento al cloud
 

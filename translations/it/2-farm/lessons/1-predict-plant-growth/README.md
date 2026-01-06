@@ -65,7 +65,7 @@ Ogni specie di pianta ha valori diversi per la temperatura base, ottimale e mass
 
 ✅ Fai una ricerca. Per le piante che hai nel tuo giardino, scuola o parco locale, cerca di trovare la temperatura base.
 
-![Un grafico che mostra il tasso di crescita aumentare con l'aumento della temperatura, per poi diminuire quando la temperatura diventa troppo alta](../../../../../translated_images/plant-growth-temp-graph.c6d69c9478e6ca832baa8dcb8d4adcbb67304074ce50e94ac8faae95975177f9.it.png)
+![Un grafico che mostra il tasso di crescita aumentare con l'aumento della temperatura, per poi diminuire quando la temperatura diventa troppo alta](../../../../../translated_images/plant-growth-temp-graph.c6d69c9478e6ca83.it.png)
 
 Il grafico sopra mostra un esempio di relazione tra tasso di crescita e temperatura. Fino alla temperatura base non c'è crescita. Il tasso di crescita aumenta fino alla temperatura ottimale, poi diminuisce dopo aver raggiunto il picco. Alla temperatura massima la crescita si interrompe.
 
@@ -91,7 +91,7 @@ Questo codice apre il file CSV e aggiunge una nuova riga alla fine. La riga cont
 
     
 > 💁 Se stai utilizzando un dispositivo IoT virtuale, seleziona la casella di controllo casuale e imposta un intervallo per evitare di ottenere sempre la stessa temperatura ogni volta che viene restituito il valore della temperatura.
-    ![Seleziona la casella di controllo casuale e imposta un intervallo](../../../../../translated_images/select-the-random-checkbox-and-set-a-range.32cf4bc7c12e797f8c76616b10c7c23a6592321bb1a6310e0b481e72f97d23b3.it.png) 
+    ![Seleziona la casella di controllo casuale e imposta un intervallo](../../../../../translated_images/select-the-random-checkbox-and-set-a-range.32cf4bc7c12e797f.it.png) 
 
     > 💁 Se vuoi eseguirlo per un'intera giornata, devi assicurarti che il computer su cui gira il codice del server non vada in sospensione, modificando le impostazioni di alimentazione o eseguendo qualcosa come [questo script Python per mantenere il sistema attivo](https://github.com/jaqsparow/keep-system-active).
     

@@ -37,7 +37,7 @@ UART obejmuje fizyczny układ, który pozwala dwóm urządzeniom komunikować si
 * Urządzenie 1 przesyła dane ze swojego pinu Tx, które są odbierane przez urządzenie 2 na jego pinie Rx
 * Urządzenie 1 odbiera dane na swoim pinie Rx, które są przesyłane przez urządzenie 2 z jego pinu Tx
 
-![UART z pinem Tx jednego układu połączonym z pinem Rx innego i vice versa](../../../../../translated_images/uart.d0dbd3fb9e3728c6ee1995c8206f3cdb13cdfd208f13745e8ef6854cab75e421.pl.png)
+![UART z pinem Tx jednego układu połączonym z pinem Rx innego i vice versa](../../../../../translated_images/uart.d0dbd3fb9e3728c6.pl.png)
 
 > 🎓 Dane są przesyłane po jednym bicie na raz, co nazywa się komunikacją *szeregową*. Większość systemów operacyjnych i mikrokontrolerów ma *porty szeregowe*, czyli połączenia umożliwiające przesyłanie i odbieranie danych szeregowych, które są dostępne dla twojego kodu.
 
@@ -66,7 +66,7 @@ Kontrolery SPI używają 3 przewodów, wraz z 1 dodatkowym przewodem na każde p
 | SCLK | Zegar szeregowy | Ten przewód przesyła sygnał zegarowy z prędkością ustawioną przez kontroler. |
 | CS   | Wybór układu | Kontroler ma wiele przewodów, po jednym na każde peryferium, a każdy przewód łączy się z przewodem CS odpowiedniego peryferium. |
 
-![SPI z jednym kontrolerem i dwoma peryferiami](../../../../../translated_images/spi.297431d6f98b386b4ff88aea44ce9c1e7acfb1ef69c7e4e388a7aa97b6948e24.pl.png)
+![SPI z jednym kontrolerem i dwoma peryferiami](../../../../../translated_images/spi.297431d6f98b386b.pl.png)
 
 Przewód CS jest używany do aktywacji jednego peryferium naraz, komunikując się przez przewody COPI i CIPO. Gdy kontroler musi zmienić peryferium, dezaktywuje przewód CS połączony z obecnie aktywnym peryferium, a następnie aktywuje przewód połączony z peryferium, z którym chce się komunikować.
 
@@ -127,13 +127,13 @@ Wilgotność gleby jest mierzona za pomocą zawartości wody grawimetrycznej lub
 
 Czujniki wilgotności gleby mierzą rezystancję lub pojemność elektryczną - to zależy nie tylko od wilgotności gleby, ale także od jej rodzaju, ponieważ składniki gleby mogą zmieniać jej właściwości elektryczne. Idealnie czujniki powinny być skalibrowane - czyli odczyty z czujnika powinny być porównywane z pomiarami uzyskanymi bardziej naukową metodą. Na przykład laboratorium może obliczyć grawimetryczną wilgotność gleby, używając próbek z konkretnego pola pobranych kilka razy w roku, a te dane mogą być użyte do kalibracji czujnika, dopasowując odczyty czujnika do grawimetrycznej wilgotności gleby.
 
-![Wykres napięcia w zależności od zawartości wilgoci w glebie](../../../../../translated_images/soil-moisture-to-voltage.df86d80cda1587008f312431ed5f79eb6c50c58d4fbc25a6763c5e9127c3106b.pl.png)
+![Wykres napięcia w zależności od zawartości wilgoci w glebie](../../../../../translated_images/soil-moisture-to-voltage.df86d80cda158700.pl.png)
 
 Powyższy wykres pokazuje, jak skalibrować czujnik. Napięcie jest rejestrowane dla próbki gleby, która następnie jest mierzona w laboratorium przez porównanie wilgotnej wagi z suchą wagą (mierząc wagę wilgotną, a następnie susząc w piecu i mierząc wagę suchą). Po wykonaniu kilku pomiarów można je nanieść na wykres i dopasować linię do punktów. Ta linia może być następnie użyta do przekształcenia odczytów czujnika wilgotności gleby wykonanych przez urządzenie IoT na rzeczywiste pomiary wilgotności gleby.
 
 💁 W przypadku rezystancyjnych czujników wilgotności gleby napięcie wzrasta wraz ze wzrostem wilgotności gleby. W przypadku pojemnościowych czujników wilgotności gleby napięcie maleje wraz ze wzrostem wilgotności gleby, więc wykresy dla tych czujników będą opadać, a nie wznosić się.
 
-![Wartość wilgotności gleby interpolowana z wykresu](../../../../../translated_images/soil-moisture-to-voltage-with-reading.681cb3e1f8b68caf5547dbf1415851c82e201edfb78face16fc98da4051ed9b2.pl.png)
+![Wartość wilgotności gleby interpolowana z wykresu](../../../../../translated_images/soil-moisture-to-voltage-with-reading.681cb3e1f8b68caf.pl.png)
 
 Powyższy wykres pokazuje odczyt napięcia z czujnika wilgotności gleby, a poprzez śledzenie tego do linii na wykresie można obliczyć rzeczywistą wilgotność gleby.
 

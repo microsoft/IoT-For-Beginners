@@ -70,7 +70,7 @@ IoT ਡਿਵਾਈਸ ਨੇ ਸਿਧਾਂਤਾਂ ਨੂੰ ਦਰਸਾਉ
 
 Azure ਮਾਈਕਰੋਸਾਫਟ ਦਾ ਡਿਵੈਲਪਰ ਕਲਾਉਡ ਹੈ, ਅਤੇ ਇਹ ਉਹ ਕਲਾਉਡ ਹੈ ਜੋ ਤੁਸੀਂ ਇਸ ਪਾਠ ਲਈ ਵਰਤ ਰਹੇ ਹੋ। ਹੇਠਾਂ ਦਿੱਤਾ ਵੀਡੀਓ Azure ਦਾ ਛੋਟਾ ਝਲਕ ਦਿੰਦਾ ਹੈ:
 
-[![Azure ਵੀਡੀਓ ਝਲਕ](../../../../../translated_images/what-is-azure-video-thumbnail.20174db09e03bbb87d213f928d3cb27410305d2e567e952827de8478dbda959b.pa.png)](https://www.microsoft.com/videoplayer/embed/RE4Ibng?WT.mc_id=academic-17441-jabenn)
+[![Azure ਵੀਡੀਓ ਝਲਕ](../../../../../translated_images/what-is-azure-video-thumbnail.20174db09e03bbb8.pa.png)](https://www.microsoft.com/videoplayer/embed/RE4Ibng?WT.mc_id=academic-17441-jabenn)
 
 ## ਕਲਾਉਡ ਸਬਸਕ੍ਰਿਪਸ਼ਨ ਬਣਾਓ
 

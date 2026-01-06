@@ -64,7 +64,7 @@ Microfones vêm em uma variedade de tipos:
 
 * Fita - Microfones de fita são semelhantes aos microfones dinâmicos, exceto que possuem uma fita de metal em vez de um diafragma. Essa fita se move em um campo magnético, gerando uma corrente elétrica. Assim como os microfones dinâmicos, os microfones de fita não precisam de energia para funcionar.
 
-    ![Edmund Lowe, ator americano, em pé ao lado de um microfone de rádio (etiquetado para a rede Blue da NBC), segurando um roteiro, 1942](../../../../../translated_images/ribbon-mic.eacc8e092c7441caee6d7a81e2f40e1675bf36269848964c7c09c9a9acb05127.br.jpg)
+    ![Edmund Lowe, ator americano, em pé ao lado de um microfone de rádio (etiquetado para a rede Blue da NBC), segurando um roteiro, 1942](../../../../../translated_images/ribbon-mic.eacc8e092c7441ca.br.jpg)
 
 * Condensador - Microfones condensadores possuem um diafragma de metal fino e uma placa traseira de metal fixa. Eletricidade é aplicada a ambos, e à medida que o diafragma vibra, a carga estática entre as placas muda, gerando um sinal. Microfones condensadores precisam de energia para funcionar - chamada de *Phantom power*.
 
@@ -84,7 +84,7 @@ O áudio é um sinal analógico que carrega informações muito detalhadas. Para
 
 > 🎓 Amostragem é o processo de converter o sinal de áudio em um valor digital que representa o sinal naquele momento específico.
 
-![Um gráfico de linha mostrando um sinal, com pontos discretos em intervalos fixos](../../../../../translated_images/sampling.6f4fadb3f2d9dfe7618f9edfe75a350e6b3f74293ec84f02ab69c19d2afe3d73.br.png)
+![Um gráfico de linha mostrando um sinal, com pontos discretos em intervalos fixos](../../../../../translated_images/sampling.6f4fadb3f2d9dfe7.br.png)
 
 O áudio digital é amostrado usando Modulação por Código de Pulso, ou PCM. PCM envolve a leitura da voltagem do sinal e a seleção do valor discreto mais próximo dessa voltagem usando um tamanho definido.
 

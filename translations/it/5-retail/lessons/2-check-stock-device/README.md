@@ -39,7 +39,7 @@ I rilevatori di oggetti possono essere utilizzati per controllare le scorte, sia
 
 Ad esempio, se una telecamera è puntata su uno scaffale che può contenere 8 lattine di concentrato di pomodoro, e un rilevatore di oggetti ne rileva solo 7, significa che una è mancante e deve essere rifornita.
 
-![7 lattine di concentrato di pomodoro su uno scaffale, 4 sulla fila superiore, 3 sulla fila inferiore](../../../../../translated_images/stock-7-cans-tomato-paste.f86059cc573d7becaa89a0eafb9d2cd7e2fe37405a530fe565990e2333d0e4a1.it.png)
+![7 lattine di concentrato di pomodoro su uno scaffale, 4 sulla fila superiore, 3 sulla fila inferiore](../../../../../translated_images/stock-7-cans-tomato-paste.f86059cc573d7bec.it.png)
 
 Nell'immagine sopra, un rilevatore di oggetti ha rilevato 7 lattine di concentrato di pomodoro su uno scaffale che può contenerne 8. Non solo il dispositivo IoT può inviare una notifica della necessità di rifornire, ma può anche indicare la posizione dell'articolo mancante, un dato importante se si utilizzano robot per rifornire gli scaffali.
 
@@ -51,7 +51,7 @@ A volte sugli scaffali possono esserci articoli sbagliati. Questo potrebbe esser
 
 Il rilevamento di oggetti può essere utilizzato per rilevare articoli inaspettati, avvisando nuovamente un umano o un robot per restituire l'articolo non appena viene rilevato.
 
-![Una lattina di mais baby fuori posto accanto al concentrato di pomodoro](../../../../../translated_images/stock-rogue-corn.be1f3ada8c4578544641af66671c1711a4c02297f14cc7f503354dae0d30a954.it.png)
+![Una lattina di mais baby fuori posto accanto al concentrato di pomodoro](../../../../../translated_images/stock-rogue-corn.be1f3ada8c457854.it.png)
 
 Nell'immagine sopra, una lattina di mais baby è stata messa sullo scaffale accanto al concentrato di pomodoro. Il rilevatore di oggetti ha rilevato questo, permettendo al dispositivo IoT di notificare a un umano o a un robot di restituire la lattina alla sua posizione corretta.
 

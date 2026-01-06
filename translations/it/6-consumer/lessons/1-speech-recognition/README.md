@@ -64,7 +64,7 @@ I microfoni sono disponibili in una varietà di tipi:
 
 * A nastro - I microfoni a nastro sono simili ai microfoni dinamici, ma hanno un nastro metallico invece di un diaframma. Questo nastro si muove in un campo magnetico generando una corrente elettrica. Come i microfoni dinamici, i microfoni a nastro non necessitano di alimentazione per funzionare.
 
-    ![Edmund Lowe, attore americano, in piedi davanti a un microfono radiofonico (etichettato per la rete Blue Network della NBC), con in mano un copione, 1942](../../../../../translated_images/ribbon-mic.eacc8e092c7441caee6d7a81e2f40e1675bf36269848964c7c09c9a9acb05127.it.jpg)
+    ![Edmund Lowe, attore americano, in piedi davanti a un microfono radiofonico (etichettato per la rete Blue Network della NBC), con in mano un copione, 1942](../../../../../translated_images/ribbon-mic.eacc8e092c7441ca.it.jpg)
 
 * Condensatore - I microfoni a condensatore hanno un diaframma metallico sottile e una piastra posteriore metallica fissa. L'elettricità viene applicata a entrambi e, mentre il diaframma vibra, la carica statica tra le piastre cambia generando un segnale. I microfoni a condensatore necessitano di alimentazione per funzionare - chiamata *Phantom power*.
 
@@ -84,7 +84,7 @@ L'audio è un segnale analogico che trasporta informazioni molto dettagliate. Pe
 
 > 🎓 Il campionamento consiste nel convertire il segnale audio in un valore digitale che rappresenta il segnale in quel momento.
 
-![Un grafico a linee che mostra un segnale, con punti discreti a intervalli fissi](../../../../../translated_images/sampling.6f4fadb3f2d9dfe7618f9edfe75a350e6b3f74293ec84f02ab69c19d2afe3d73.it.png)
+![Un grafico a linee che mostra un segnale, con punti discreti a intervalli fissi](../../../../../translated_images/sampling.6f4fadb3f2d9dfe7.it.png)
 
 L'audio digitale viene campionato utilizzando la modulazione a codice di impulsi, o PCM. PCM consiste nel leggere la tensione del segnale e selezionare il valore discreto più vicino a quella tensione utilizzando una dimensione definita.
 

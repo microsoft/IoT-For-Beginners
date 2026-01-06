@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Il [Raspberry Pi](https://raspberrypi.org) è un computer a scheda singola. Puoi aggiungere sensori e attuatori utilizzando una vasta gamma di dispositivi ed ecosistemi. Per queste lezioni utilizzeremo un ecosistema hardware chiamato [Grove](https://www.seeedstudio.com/category/Grove-c-1003.html). Programmerai il tuo Pi e accederai ai sensori Grove utilizzando Python.
 
-![Un Raspberry Pi 4](../../../../../translated_images/raspberry-pi-4.fd4590d308c3d456db1327e86b395ddcd735513267aafd4879ea2785f7792eac.it.jpg)
+![Un Raspberry Pi 4](../../../../../translated_images/raspberry-pi-4.fd4590d308c3d456.it.jpg)
 
 ## Configurazione
 
@@ -112,7 +112,7 @@ Configura il sistema operativo headless del Pi.
 
 1. Dal Raspberry Pi Imager, seleziona il pulsante **CHOOSE OS**, quindi seleziona *Raspberry Pi OS (Other)*, seguito da *Raspberry Pi OS Lite (32-bit)*.
 
-    ![Il Raspberry Pi Imager con Raspberry Pi OS Lite selezionato](../../../../../translated_images/raspberry-pi-imager.24aedeab9e233d841a1504ed7cfeb871b1f8e1134cfcd8370e7f60a092056be2.it.png)
+    ![Il Raspberry Pi Imager con Raspberry Pi OS Lite selezionato](../../../../../translated_images/raspberry-pi-imager.24aedeab9e233d84.it.png)
 
     > 💁 Raspberry Pi OS Lite è una versione di Raspberry Pi OS che non include l'interfaccia utente desktop o strumenti basati su interfaccia grafica. Questi non sono necessari per un Pi headless e rendono l'installazione più leggera e il tempo di avvio più rapido.
 
@@ -251,7 +251,7 @@ Crea l'app Hello World.
 
 1. Apri questa cartella in VS Code selezionando *File -> Apri...* e scegliendo la cartella *nightlight*, quindi seleziona **OK**.
 
-    ![La finestra di dialogo di apertura di VS Code che mostra la cartella nightlight](../../../../../translated_images/vscode-open-nightlight-remote.d3d2a4011e30d535c4b70084f6e94bf6b5b1327fd8e77affe64465ac151ee766.it.png)
+    ![La finestra di dialogo di apertura di VS Code che mostra la cartella nightlight](../../../../../translated_images/vscode-open-nightlight-remote.d3d2a4011e30d535.it.png)
 
 1. Apri il file `app.py` dall'esploratore di VS Code e aggiungi il seguente codice:
 

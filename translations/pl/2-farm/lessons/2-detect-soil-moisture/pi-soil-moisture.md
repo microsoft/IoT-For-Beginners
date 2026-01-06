@@ -37,7 +37,7 @@ Podłącz czujnik wilgotności gleby.
 
 1. Włóż czujnik wilgotności gleby do gleby. Na czujniku znajduje się linia oznaczająca "najwyższy poziom" - biała linia przecinająca czujnik. Włóż czujnik do gleby do tej linii, ale nie głębiej.
 
-![Czujnik wilgotności gleby Grove w glebie](../../../../../translated_images/soil-moisture-sensor-in-soil.bfad91002bda5e960f8c51ee64b02ee59b32c8c717e3515a2c945f33e614e403.pl.png)
+![Czujnik wilgotności gleby Grove w glebie](../../../../../translated_images/soil-moisture-sensor-in-soil.bfad91002bda5e96.pl.png)
 
 ## Programowanie czujnika wilgotności gleby
 

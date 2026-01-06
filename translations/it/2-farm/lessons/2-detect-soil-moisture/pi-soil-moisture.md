@@ -37,7 +37,7 @@ Collega il sensore di umidità del suolo.
 
 1. Inserisci il sensore di umidità del suolo nel terreno. Il sensore ha una "linea di posizione massima" - una linea bianca che attraversa il sensore. Inserisci il sensore fino a questa linea, ma non oltre.
 
-![Il sensore Grove di umidità del suolo nel terreno](../../../../../translated_images/soil-moisture-sensor-in-soil.bfad91002bda5e960f8c51ee64b02ee59b32c8c717e3515a2c945f33e614e403.it.png)
+![Il sensore Grove di umidità del suolo nel terreno](../../../../../translated_images/soil-moisture-sensor-in-soil.bfad91002bda5e96.it.png)
 
 ## Programmare il sensore di umidità del suolo
 

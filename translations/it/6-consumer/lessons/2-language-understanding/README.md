@@ -126,7 +126,7 @@ Una volta definite le entità, crei le intenzioni. Queste vengono apprese dal mo
 
 Poi indichi a LUIS quali parti di queste frasi corrispondono alle entità:
 
-![La frase "imposta un timer di 1 minuto e 12 secondi" suddivisa in entità](../../../../../translated_images/sentence-as-intent-entities.301401696f9922590a99343f5c5d211b710b906f212f0d4d034cee3ffb610272.it.png)
+![La frase "imposta un timer di 1 minuto e 12 secondi" suddivisa in entità](../../../../../translated_images/sentence-as-intent-entities.301401696f992259.it.png)
 
 La frase `imposta un timer di 1 minuto e 12 secondi` ha l'intenzione di `impostare timer`. Ha anche 2 entità con 2 valori ciascuna:
 

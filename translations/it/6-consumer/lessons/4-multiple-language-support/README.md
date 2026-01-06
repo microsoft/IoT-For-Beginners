@@ -130,7 +130,7 @@ Per questa lezione avrai bisogno di una risorsa Translator. Utilizzerai l'API RE
 
 In un mondo ideale, tutta la tua applicazione dovrebbe comprendere il maggior numero possibile di lingue diverse, dall'ascolto del parlato, alla comprensione del linguaggio, fino alla risposta con il parlato. Questo richiede molto lavoro, quindi i servizi di traduzione possono accelerare il tempo di consegna della tua applicazione.
 
-![Un'architettura di timer intelligente che traduce dal giapponese all'inglese, elabora in inglese e poi traduce di nuovo in giapponese](../../../../../translated_images/translated-smart-timer.08ac20057fdc5c3778ed41cb425dca5d7fbcd4584b6da7b73ca67115a5b8a883.it.png)
+![Un'architettura di timer intelligente che traduce dal giapponese all'inglese, elabora in inglese e poi traduce di nuovo in giapponese](../../../../../translated_images/translated-smart-timer.08ac20057fdc5c37.it.png)
 
 Immagina di costruire un timer intelligente che utilizza l'inglese end-to-end, comprendendo l'inglese parlato e convertendolo in testo, eseguendo la comprensione del linguaggio in inglese, costruendo risposte in inglese e rispondendo con parlato in inglese. Se volessi aggiungere il supporto per il giapponese, potresti iniziare traducendo il giapponese parlato in testo inglese, mantenendo il nucleo dell'applicazione invariato, poi traducendo il testo di risposta in giapponese prima di pronunciare la risposta. Questo ti permetterebbe di aggiungere rapidamente il supporto per il giapponese, e potresti espandere per fornire un supporto completo end-to-end per il giapponese in seguito.
 

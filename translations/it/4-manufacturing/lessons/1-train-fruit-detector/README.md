@@ -61,7 +61,7 @@ Le ultime evoluzioni di queste macchine di selezione sfruttano AI e ML, utilizza
 
 La programmazione tradizionale consiste nel prendere dati, applicare un algoritmo ai dati e ottenere un output. Ad esempio, nel progetto precedente hai preso coordinate GPS e un geofence, applicato un algoritmo fornito da Azure Maps e ottenuto un risultato che indicava se il punto era dentro o fuori dal geofence. Inserisci più dati, ottieni più output.
 
-![Lo sviluppo tradizionale prende input e un algoritmo e restituisce output. Il machine learning utilizza dati di input e output per addestrare un modello, e questo modello può prendere nuovi dati di input per generare nuovi output](../../../../../translated_images/traditional-vs-ml.5c20c169621fa539ca84a2cd9a49f6ff7410b3a6c6b46c97ff2af3f99db3c66b.it.png)
+![Lo sviluppo tradizionale prende input e un algoritmo e restituisce output. Il machine learning utilizza dati di input e output per addestrare un modello, e questo modello può prendere nuovi dati di input per generare nuovi output](../../../../../translated_images/traditional-vs-ml.5c20c169621fa539.it.png)
 
 Il machine learning ribalta questo processo: si parte dai dati e dagli output noti, e l'algoritmo di machine learning apprende dai dati. Puoi quindi prendere quell'algoritmo addestrato, chiamato *modello di machine learning* o *modello*, e inserire nuovi dati per ottenere nuovi output.
 
@@ -87,7 +87,7 @@ Per addestrare con successo un classificatore di immagini, hai bisogno di milion
 
 Una volta che un classificatore di immagini è stato addestrato su una vasta gamma di immagini, le sue componenti interne sono ottime nel riconoscere forme, colori e schemi. Il transfer learning consente al modello di utilizzare ciò che ha già appreso nel riconoscere parti di immagini e di applicarlo al riconoscimento di nuove immagini.
 
-![Una volta che puoi riconoscere le forme, possono essere messe in configurazioni diverse per creare una barca o un gatto](../../../../../translated_images/shapes-to-images.1a309f0ea88dd66fafa4da6d38e88806ce174cc6a88081efb32852230ed55de8.it.png)
+![Una volta che puoi riconoscere le forme, possono essere messe in configurazioni diverse per creare una barca o un gatto](../../../../../translated_images/shapes-to-images.1a309f0ea88dd66f.it.png)
 
 Puoi pensare a questo come ai libri di forme per bambini, dove una volta che puoi riconoscere un semicerchio, un rettangolo e un triangolo, puoi riconoscere una barca a vela o un gatto a seconda della configurazione di queste forme. Il classificatore di immagini può riconoscere le forme, e il transfer learning gli insegna quale combinazione crea una barca o un gatto - o una banana matura.
 

@@ -130,7 +130,7 @@ Para esta lição, você precisará de um recurso de tradutor. Você usará a AP
 
 Em um mundo ideal, todo o seu aplicativo deveria entender o maior número possível de idiomas diferentes, desde ouvir a fala até compreender a linguagem e responder com fala. Isso dá muito trabalho, então os serviços de tradução podem acelerar o tempo de entrega do seu aplicativo.
 
-![Uma arquitetura de cronômetro inteligente traduzindo japonês para inglês, processando em inglês e depois traduzindo de volta para japonês](../../../../../translated_images/translated-smart-timer.08ac20057fdc5c3778ed41cb425dca5d7fbcd4584b6da7b73ca67115a5b8a883.br.png)
+![Uma arquitetura de cronômetro inteligente traduzindo japonês para inglês, processando em inglês e depois traduzindo de volta para japonês](../../../../../translated_images/translated-smart-timer.08ac20057fdc5c37.br.png)
 
 Imagine que você está construindo um cronômetro inteligente que usa inglês de ponta a ponta, entendendo inglês falado e convertendo isso em texto, executando a compreensão de linguagem em inglês, criando respostas em inglês e respondendo com fala em inglês. Se você quisesse adicionar suporte ao japonês, poderia começar traduzindo japonês falado para texto em inglês, mantendo o núcleo do aplicativo o mesmo, e depois traduzir o texto da resposta para japonês antes de falar a resposta. Isso permitiria adicionar suporte ao japonês rapidamente, e você poderia expandir para fornecer suporte completo de ponta a ponta em japonês mais tarde.
 
