@@ -66,7 +66,7 @@ Bancos de dados são serviços que permitem armazenar e consultar dados. Eles v�
 
 Os primeiros bancos de dados eram Sistemas de Gerenciamento de Banco de Dados Relacional (RDBMS), ou banco de dados relacional. Eles também são conhecidos como bancos de dados SQL devido à Linguagem de Consulta Estruturada (SQL) usada para interagir com eles para adicionar, remover, atualizar ou consultar dados. Esses bancos de dados consistem em um esquema - um conjunto bem definido de tabelas de dados, semelhante a uma planilha. Cada tabela tem várias colunas nomeadas. Quando você insere dados, adiciona uma linha à tabela, colocando valores em cada uma das colunas. Isso mantém os dados em uma estrutura muito rígida - embora você possa deixar colunas vazias, se quiser adicionar uma nova coluna, terá que fazer isso no banco de dados, populando valores para as linhas existentes. Esses bancos de dados são relacionais - ou seja, uma tabela pode ter um relacionamento com outra.
 
-![Um banco de dados relacional com o ID da tabela de Usuários relacionado à coluna de ID de usuário da tabela de compras, e o ID da tabela de produtos relacionado ao ID de produto da tabela de compras](../../../../../translated_images/sql-database.be160f12bfccefd3ca718a66468c2c4c89c53e5aad4c295324d576da87f9dfdd.br.png)
+![Um banco de dados relacional com o ID da tabela de Usuários relacionado à coluna de ID de usuário da tabela de compras, e o ID da tabela de produtos relacionado ao ID de produto da tabela de compras](../../../../../translated_images/sql-database.be160f12bfccefd3.br.png)
 
 Por exemplo, se você armazenar os detalhes pessoais de um usuário em uma tabela, terá algum tipo de ID único interno por usuário que é usado em uma linha em uma tabela que contém o nome e endereço do usuário. Se você quiser armazenar outros detalhes sobre esse usuário, como suas compras, em outra tabela, terá uma coluna na nova tabela para o ID desse usuário. Quando você procura um usuário, pode usar seu ID para obter seus detalhes pessoais de uma tabela e suas compras de outra.
 
@@ -241,7 +241,7 @@ Seu aplicativo de funções agora precisa se conectar ao armazenamento de blobs 
 
 Nesta lição, você usará o SDK do Python para ver como interagir com o armazenamento de blobs.
 
-![Enviando telemetria GPS de um dispositivo IoT para o IoT Hub, depois para o Azure Functions via um gatilho de Event Hub, e então salvando no armazenamento de blobs](../../../../../translated_images/save-telemetry-to-storage-from-functions.ed3b1820980097f143d9f0570072da11304c2bc7906359dfa075b4d9b253c20f.br.png)
+![Enviando telemetria GPS de um dispositivo IoT para o IoT Hub, depois para o Azure Functions via um gatilho de Event Hub, e então salvando no armazenamento de blobs](../../../../../translated_images/save-telemetry-to-storage-from-functions.ed3b1820980097f1.br.png)
 
 Os dados serão salvos como um blob JSON com o seguinte formato:
 

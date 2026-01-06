@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 O [Wio Terminal da Seeed Studios](https://www.seeedstudio.com/Wio-Terminal-p-4509.html) é um microcontrolador compatível com Arduino, com WiFi e alguns sensores e atuadores integrados, além de portas para adicionar mais sensores e atuadores, utilizando um ecossistema de hardware chamado [Grove](https://www.seeedstudio.com/category/Grove-c-1003.html).
 
-![Um Wio Terminal da Seeed Studios](../../../../../translated_images/wio-terminal.b8299ee16587db9aa9e05fabf9721bccd9eb8fb541b7c1a8267241282d81b603.br.png)
+![Um Wio Terminal da Seeed Studios](../../../../../translated_images/wio-terminal.b8299ee16587db9a.br.png)
 
 ## Configuração
 
@@ -51,15 +51,15 @@ Crie o projeto no PlatformIO.
 
 1. O ícone do PlatformIO estará na barra de menu lateral:
 
-    ![A opção de menu do PlatformIO](../../../../../translated_images/vscode-platformio-menu.297be26b9733e5c4635d9d8e636e93fed2015809eafb7cc8fd409c37b3ef2ef5.br.png)
+    ![A opção de menu do PlatformIO](../../../../../translated_images/vscode-platformio-menu.297be26b9733e5c4.br.png)
 
     Selecione este item de menu e, em seguida, selecione *PIO Home -> Open*.
 
-    ![A opção de abrir o PlatformIO](../../../../../translated_images/vscode-platformio-home-open.3f9a41bfd3f4da1c866ec3e69f1675faa30b823b5b58ab58ac88e5df9a85da19.br.png)
+    ![A opção de abrir o PlatformIO](../../../../../translated_images/vscode-platformio-home-open.3f9a41bfd3f4da1c.br.png)
 
 1. Na tela de boas-vindas, selecione o botão **+ New Project**.
 
-    ![O botão de novo projeto](../../../../../translated_images/vscode-platformio-welcome-new-button.ba6fc8a4c7b78cc822e1ce47ba29c5db96668cce7c5f4adbfd2f1196422baa26.br.png)
+    ![O botão de novo projeto](../../../../../translated_images/vscode-platformio-welcome-new-button.ba6fc8a4c7b78cc8.br.png)
 
 1. Configure o projeto no *Project Wizard*:
 
@@ -73,7 +73,7 @@ Crie o projeto no PlatformIO.
 
     1. Selecione o botão **Finish**.
 
-    ![O assistente de projeto preenchido](../../../../../translated_images/vscode-platformio-nightlight-project-wizard.5c64db4da6037420827c2597507897233457210ee23975711fa2285efdcd0dc7.br.png)
+    ![O assistente de projeto preenchido](../../../../../translated_images/vscode-platformio-nightlight-project-wizard.5c64db4da6037420.br.png)
 
     O PlatformIO fará o download dos componentes necessários para compilar o código para o Wio Terminal e criará seu projeto. Isso pode levar alguns minutos.
 
@@ -179,7 +179,7 @@ Escreva o aplicativo Hello World.
 
     1. Digite `PlatformIO Upload` para buscar a opção de upload e selecione *PlatformIO: Upload*.
 
-        ![A opção de upload do PlatformIO no painel de comandos](../../../../../translated_images/vscode-platformio-upload-command-palette.9e0f49cf80d1f1c3eb5c6689b8705ad8b89f0374b21698e996fec11e4ed09347.br.png)
+        ![A opção de upload do PlatformIO no painel de comandos](../../../../../translated_images/vscode-platformio-upload-command-palette.9e0f49cf80d1f1c3.br.png)
 
         O PlatformIO compilará automaticamente o código, se necessário, antes de enviá-lo.
 
@@ -195,7 +195,7 @@ O PlatformIO possui um Monitor Serial que pode monitorar os dados enviados pelo 
 
 1. Digite `PlatformIO Serial` para buscar a opção de Monitor Serial e selecione *PlatformIO: Serial Monitor*.
 
-    ![A opção de Monitor Serial do PlatformIO no painel de comandos](../../../../../translated_images/vscode-platformio-serial-monitor-command-palette.b348ec841b8a1c14af503d6fc0bf73c657c79c9acc12a6b6dd485ce3b5826f48.br.png)
+    ![A opção de Monitor Serial do PlatformIO no painel de comandos](../../../../../translated_images/vscode-platformio-serial-monitor-command-palette.b348ec841b8a1c14.br.png)
 
     Um novo terminal será aberto, e os dados enviados pela porta serial serão exibidos neste terminal:
 

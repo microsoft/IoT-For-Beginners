@@ -37,7 +37,7 @@ Conecte o sensor de umidade do solo.
 
 1. Insira o sensor de umidade do solo no solo. Ele possui uma "linha de posição máxima" - uma linha branca atravessando o sensor. Insira o sensor até essa linha, mas não ultrapasse.
 
-![O sensor de umidade do solo Grove no solo](../../../../../translated_images/soil-moisture-sensor-in-soil.bfad91002bda5e960f8c51ee64b02ee59b32c8c717e3515a2c945f33e614e403.br.png)
+![O sensor de umidade do solo Grove no solo](../../../../../translated_images/soil-moisture-sensor-in-soil.bfad91002bda5e96.br.png)
 
 ## Programar o sensor de umidade do solo
 

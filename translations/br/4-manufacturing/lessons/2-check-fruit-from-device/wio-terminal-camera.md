@@ -29,7 +29,7 @@ Conecte a câmera.
 
 1. Os pinos na base da ArduCam precisam ser conectados aos pinos GPIO no Wio Terminal. Para facilitar a identificação dos pinos corretos, coloque o adesivo de pinos GPIO que vem com o Wio Terminal ao redor dos pinos:
 
-    ![O Wio Terminal com o adesivo de pinos GPIO](../../../../../translated_images/wio-terminal-pin-sticker.b90b1535937b84bd00d853f0004aea74fac2aec04b43f14b887796b2633f855e.br.png)
+    ![O Wio Terminal com o adesivo de pinos GPIO](../../../../../translated_images/wio-terminal-pin-sticker.b90b1535937b84bd.br.png)
 
 1. Usando fios jumper, faça as seguintes conexões:
 
@@ -297,7 +297,7 @@ O Wio Terminal agora pode ser programado para capturar uma imagem quando um bot�
 
 1. Microcontroladores executam seu código continuamente, então não é fácil acionar algo como tirar uma foto sem reagir a um sensor. O Wio Terminal possui botões, então a câmera pode ser configurada para ser acionada por um dos botões. Adicione o seguinte código ao final da função `setup` para configurar o botão C (um dos três botões na parte superior, o mais próximo do interruptor de energia).
 
-    ![O botão C na parte superior, próximo ao interruptor de energia](../../../../../translated_images/wio-terminal-c-button.73df3cb1c1445ea07ee98316af0e7925fcb43135df0abed58d3d4822b2589c3b.br.png)
+    ![O botão C na parte superior, próximo ao interruptor de energia](../../../../../translated_images/wio-terminal-c-button.73df3cb1c1445ea0.br.png)
 
     ```cpp
     pinMode(WIO_KEY_C, INPUT_PULLUP);

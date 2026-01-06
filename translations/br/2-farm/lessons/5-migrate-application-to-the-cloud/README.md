@@ -41,7 +41,7 @@ Serverless, ou computação sem servidor, envolve criar pequenos blocos de códi
 
 > 💁 Se você já usou gatilhos de banco de dados antes, pode pensar nisso como algo semelhante: código sendo acionado por um evento, como a inserção de uma linha.
 
-![Quando muitos eventos são enviados ao mesmo tempo, o serviço serverless escala para executá-los todos simultaneamente](../../../../../translated_images/serverless-scaling.f8c769adf0413fd17be1af4f07ff63016b347e2ff869be6c4abb211f9e93909d.br.png)
+![Quando muitos eventos são enviados ao mesmo tempo, o serviço serverless escala para executá-los todos simultaneamente](../../../../../translated_images/serverless-scaling.f8c769adf0413fd1.br.png)
 
 Seu código só é executado quando o evento ocorre, não há nada mantendo seu código ativo em outros momentos. O evento acontece, seu código é carregado e executado. Isso torna o serverless muito escalável - se muitos eventos ocorrerem ao mesmo tempo, o provedor de nuvem pode executar sua função quantas vezes forem necessárias simultaneamente, utilizando os servidores disponíveis. A desvantagem disso é que, se você precisar compartilhar informações entre eventos, será necessário armazená-las em algum lugar, como um banco de dados, em vez de mantê-las na memória.
 
@@ -244,7 +244,7 @@ A CLI do Azure Functions pode ser usada para criar um novo aplicativo de funçõ
     VS Code. Initialize for optimal use with VS Code?
     ```
 
-    ![A notificação](../../../../../translated_images/vscode-azure-functions-init-notification.bd19b49229963edb5311fb3a79445ea469424759d2917ee2f2eb6f92d65d5086.br.png)
+    ![A notificação](../../../../../translated_images/vscode-azure-functions-init-notification.bd19b49229963edb.br.png)
 
     Selecione **Sim** nesta notificação.
 

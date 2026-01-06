@@ -154,11 +154,11 @@ Crie um aplicativo Python para imprimir `"Olá Mundo"` no console.
 
 1. Quando o VS Code for iniciado, ele ativará o ambiente virtual Python. O ambiente virtual selecionado aparecerá na barra de status inferior:
 
-    ![VS Code mostrando o ambiente virtual selecionado](../../../../../translated_images/vscode-virtual-env.8ba42e04c3d533cf677e16cbe5ed9a3b80f62c6964472dc84b6f940800f0909f.br.png)
+    ![VS Code mostrando o ambiente virtual selecionado](../../../../../translated_images/vscode-virtual-env.8ba42e04c3d533cf.br.png)
 
 1. Se o Terminal do VS Code já estiver em execução quando o VS Code for iniciado, ele não terá o ambiente virtual ativado. A maneira mais fácil de resolver isso é encerrar o terminal usando o botão **Kill the active terminal instance**:
 
-    ![Botão do VS Code para encerrar a instância ativa do terminal](../../../../../translated_images/vscode-kill-terminal.1cc4de7c6f25ee08f423f0ead714e61d069fac1eb2089e97b8a7bbcb3d45fe5e.br.png)
+    ![Botão do VS Code para encerrar a instância ativa do terminal](../../../../../translated_images/vscode-kill-terminal.1cc4de7c6f25ee08.br.png)
 
     Você pode verificar se o terminal tem o ambiente virtual ativado, pois o nome do ambiente virtual será um prefixo no prompt do terminal. Por exemplo, pode ser:
 
@@ -229,7 +229,7 @@ Como um segundo passo do 'Olá Mundo', você executará o aplicativo CounterFit 
 
 1. Você precisará iniciar um novo terminal do VS Code selecionando o botão **Create a new integrated terminal**. Isso porque o aplicativo CounterFit está rodando no terminal atual.
 
-    ![Botão do VS Code para criar um novo terminal integrado](../../../../../translated_images/vscode-new-terminal.77db8fc0f9cd31824b0e49a201beafe4ae4616d6c7339992cb2819e789b3eff9.br.png)
+    ![Botão do VS Code para criar um novo terminal integrado](../../../../../translated_images/vscode-new-terminal.77db8fc0f9cd3182.br.png)
 
 1. No novo terminal, execute o arquivo `app.py` como antes. O status do CounterFit mudará para **Connected** e o LED acenderá.
 

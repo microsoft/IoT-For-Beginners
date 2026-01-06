@@ -35,7 +35,7 @@ Conecte o sensor time of flight.
 
 1. Com o Wio Terminal desconectado do seu computador ou de outra fonte de energia, conecte a outra extremidade do cabo Grove ao conector Grove do lado esquerdo do Wio Terminal, olhando para a tela. Este é o conector mais próximo do botão de energia. Este é um socket combinado digital e I²C.
 
-![O sensor Grove time of flight conectado ao conector esquerdo](../../../../../translated_images/wio-time-of-flight-sensor.c4c182131d2ea73df67febd004dc0313d271013d016be9c47e7da4d77c6c20a8.br.png)
+![O sensor Grove time of flight conectado ao conector esquerdo](../../../../../translated_images/wio-time-of-flight-sensor.c4c182131d2ea73d.br.png)
 
 1. Agora você pode conectar o Wio Terminal ao seu computador.
 
@@ -101,7 +101,7 @@ Agora o Wio Terminal pode ser programado para usar o sensor time of flight conec
 
     O medidor de distância está na parte traseira do sensor, então certifique-se de usar o lado correto ao medir a distância.
 
-    ![O medidor de distância na parte traseira do sensor time of flight apontando para uma banana](../../../../../translated_images/time-of-flight-banana.079921ad8b1496e4525dc26b4cdc71a076407aba3e72ba113ba2e38febae92c5.br.png)
+    ![O medidor de distância na parte traseira do sensor time of flight apontando para uma banana](../../../../../translated_images/time-of-flight-banana.079921ad8b1496e4.br.png)
 
 > 💁 Você pode encontrar este código na pasta [code-proximity/wio-terminal](../../../../../4-manufacturing/lessons/4-trigger-fruit-detector/code-proximity/wio-terminal).
 

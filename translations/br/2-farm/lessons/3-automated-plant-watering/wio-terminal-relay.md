@@ -33,7 +33,7 @@ Conecte o relé.
 
 1. Com o Wio Terminal desconectado do computador ou de outra fonte de energia, conecte a outra extremidade do cabo Grove ao soquete Grove do lado esquerdo do Wio Terminal, olhando para a tela. Deixe o sensor de umidade do solo conectado ao soquete do lado direito.
 
-![O relé Grove conectado ao soquete esquerdo e o sensor de umidade do solo conectado ao soquete direito](../../../../../translated_images/wio-relay-and-soil-moisture-sensor.ed722202d42babe0be5f4518cf13e8c2c81e8df21d37839266cbdb60cf30172d.br.png)
+![O relé Grove conectado ao soquete esquerdo e o sensor de umidade do solo conectado ao soquete direito](../../../../../translated_images/wio-relay-and-soil-moisture-sensor.ed722202d42babe0.br.png)
 
 1. Insira o sensor de umidade do solo no solo, caso ele ainda não esteja inserido da lição anterior.
 

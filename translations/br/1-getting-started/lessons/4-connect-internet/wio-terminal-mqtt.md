@@ -64,7 +64,7 @@ Conecte o Wio Terminal ao WiFi.
 
 1. Crie um novo arquivo na pasta `src` chamado `config.h`. Você pode fazer isso selecionando a pasta `src` ou o arquivo `main.cpp` dentro dela e clicando no botão **Novo arquivo** no explorador. Esse botão só aparece quando o cursor está sobre o explorador.
 
-    ![O botão de novo arquivo](../../../../../translated_images/vscode-new-file-button.182702340fe6723c8cbb4cfa1a9a9fb0d0a5227643b4e46b91ff67b07a39a92f.br.png)
+    ![O botão de novo arquivo](../../../../../translated_images/vscode-new-file-button.182702340fe6723c.br.png)
 
 1. Adicione o seguinte código a este arquivo para definir constantes para suas credenciais de WiFi:
 

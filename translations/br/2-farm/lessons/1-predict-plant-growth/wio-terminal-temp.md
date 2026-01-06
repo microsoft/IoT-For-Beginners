@@ -33,7 +33,7 @@ Conecte o sensor de temperatura.
 
 1. Com o Wio Terminal desconectado do seu computador ou de outra fonte de energia, conecte a outra extremidade do cabo Grove ao conector Grove do lado direito do Wio Terminal, olhando para a tela. Este é o conector mais distante do botão de energia.
 
-![O sensor de temperatura Grove conectado ao conector do lado direito](../../../../../translated_images/wio-temperature-sensor.2934928f38c7f79a68d24879d2c8986c78244696f931e2e33c293f426ecdc0ad.br.png)
+![O sensor de temperatura Grove conectado ao conector do lado direito](../../../../../translated_images/wio-temperature-sensor.2934928f38c7f79a.br.png)
 
 ## Programar o sensor de temperatura
 

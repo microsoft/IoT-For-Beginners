@@ -72,7 +72,7 @@ O provedor de nuvem pode então usar economias de escala para reduzir os custos,
 
 Azure é a nuvem para desenvolvedores da Microsoft, e é a nuvem que você usará nestas lições. O vídeo abaixo oferece uma breve visão geral do Azure:
 
-[![Vídeo de visão geral do Azure](../../../../../translated_images/what-is-azure-video-thumbnail.20174db09e03bbb87d213f928d3cb27410305d2e567e952827de8478dbda959b.br.png)](https://www.microsoft.com/videoplayer/embed/RE4Ibng?WT.mc_id=academic-17441-jabenn)
+[![Vídeo de visão geral do Azure](../../../../../translated_images/what-is-azure-video-thumbnail.20174db09e03bbb8.br.png)](https://www.microsoft.com/videoplayer/embed/RE4Ibng?WT.mc_id=academic-17441-jabenn)
 
 ## Criar uma assinatura de nuvem
 

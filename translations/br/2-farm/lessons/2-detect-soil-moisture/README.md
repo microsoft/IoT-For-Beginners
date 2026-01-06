@@ -37,7 +37,7 @@ UART envolve circuitos físicos que permitem a comunicação entre dois disposit
 * O Dispositivo 1 transmite dados do seu pino Tx, que são recebidos pelo Dispositivo 2 no seu pino Rx.
 * O Dispositivo 1 recebe dados no seu pino Rx que são transmitidos pelo Dispositivo 2 a partir do seu pino Tx.
 
-![UART com o pino Tx de um chip conectado ao pino Rx de outro, e vice-versa](../../../../../translated_images/uart.d0dbd3fb9e3728c6ee1995c8206f3cdb13cdfd208f13745e8ef6854cab75e421.br.png)
+![UART com o pino Tx de um chip conectado ao pino Rx de outro, e vice-versa](../../../../../translated_images/uart.d0dbd3fb9e3728c6.br.png)
 
 > 🎓 Os dados são enviados um bit por vez, e isso é conhecido como comunicação *serial*. A maioria dos sistemas operacionais e microcontroladores possuem *portas seriais*, ou seja, conexões que podem enviar e receber dados seriais disponíveis para o seu código.
 
@@ -66,7 +66,7 @@ Controladores SPI utilizam 3 fios, junto com 1 fio extra por periférico. Perif�
 | SCLK | Relógio Serial | Este fio envia um sinal de relógio em uma taxa definida pelo controlador. |
 | CS   | Seleção de Chip | O controlador possui múltiplos fios, um por periférico, e cada fio conecta ao fio CS no periférico correspondente. |
 
-![SPI com um controlador e dois periféricos](../../../../../translated_images/spi.297431d6f98b386b4ff88aea44ce9c1e7acfb1ef69c7e4e388a7aa97b6948e24.br.png)
+![SPI com um controlador e dois periféricos](../../../../../translated_images/spi.297431d6f98b386b.br.png)
 
 O fio CS é usado para ativar um periférico por vez, comunicando-se pelos fios COPI e CIPO. Quando o controlador precisa mudar de periférico, ele desativa o fio CS conectado ao periférico ativo e ativa o fio conectado ao periférico com o qual deseja se comunicar.
 
@@ -127,13 +127,13 @@ A umidade do solo é medida usando o conteúdo de água gravimétrico ou volumé
 
 Sensores de umidade do solo medem resistência elétrica ou capacitância - isso não apenas varia com a umidade do solo, mas também com o tipo de solo, já que os componentes do solo podem alterar suas características elétricas. Idealmente, os sensores devem ser calibrados - ou seja, realizar leituras do sensor e compará-las com medições obtidas por um método mais científico. Por exemplo, um laboratório pode calcular a umidade gravimétrica do solo usando amostras de um campo específico algumas vezes por ano, e esses números podem ser usados para calibrar o sensor, associando a leitura do sensor à umidade gravimétrica do solo.
 
-![Um gráfico de tensão vs. conteúdo de umidade do solo](../../../../../translated_images/soil-moisture-to-voltage.df86d80cda1587008f312431ed5f79eb6c50c58d4fbc25a6763c5e9127c3106b.br.png)
+![Um gráfico de tensão vs. conteúdo de umidade do solo](../../../../../translated_images/soil-moisture-to-voltage.df86d80cda158700.br.png)
 
 O gráfico acima mostra como calibrar um sensor. A tensão é capturada para uma amostra de solo que é então medida em um laboratório, comparando o peso úmido ao peso seco (medindo o peso úmido, depois secando no forno e medindo o peso seco). Após algumas leituras, os dados podem ser plotados em um gráfico e uma linha ajustada aos pontos. Essa linha pode então ser usada para converter leituras do sensor de umidade do solo feitas por um dispositivo IoT em medições reais de umidade do solo.
 
 💁 Para sensores resistivos de umidade do solo, a tensão aumenta à medida que a umidade do solo aumenta. Para sensores capacitivos de umidade do solo, a tensão diminui à medida que a umidade do solo aumenta, então os gráficos para esses sensores teriam uma inclinação descendente, não ascendente.
 
-![Um valor de umidade do solo interpolado a partir do gráfico](../../../../../translated_images/soil-moisture-to-voltage-with-reading.681cb3e1f8b68caf5547dbf1415851c82e201edfb78face16fc98da4051ed9b2.br.png)
+![Um valor de umidade do solo interpolado a partir do gráfico](../../../../../translated_images/soil-moisture-to-voltage-with-reading.681cb3e1f8b68caf.br.png)
 
 O gráfico acima mostra uma leitura de tensão de um sensor de umidade do solo e, ao seguir essa leitura até a linha no gráfico, a umidade real do solo pode ser calculada.
 
