@@ -154,11 +154,11 @@ Creați o aplicație Python pentru a afișa `"Hello World"` în consolă.
 
 1. Când VS Code se lansează, va activa mediul virtual Python. Mediul virtual selectat va apărea în bara de stare de jos:
 
-    ![VS Code arătând mediul virtual selectat](../../../../../translated_images/vscode-virtual-env.8ba42e04c3d533cf677e16cbe5ed9a3b80f62c6964472dc84b6f940800f0909f.ro.png)
+    ![VS Code arătând mediul virtual selectat](../../../../../translated_images/vscode-virtual-env.8ba42e04c3d533cf.ro.png)
 
 1. Dacă terminalul VS Code este deja activ când VS Code pornește, acesta nu va avea mediul virtual activat. Cel mai simplu lucru de făcut este să închideți terminalul folosind butonul **Kill the active terminal instance**:
 
-    ![Butonul VS Code Kill the active terminal instance](../../../../../translated_images/vscode-kill-terminal.1cc4de7c6f25ee08f423f0ead714e61d069fac1eb2089e97b8a7bbcb3d45fe5e.ro.png)
+    ![Butonul VS Code Kill the active terminal instance](../../../../../translated_images/vscode-kill-terminal.1cc4de7c6f25ee08.ro.png)
 
     Puteți spune dacă terminalul are mediul virtual activat, deoarece numele mediului virtual va fi un prefix pe promptul terminalului. De exemplu, ar putea fi:
 
@@ -229,7 +229,7 @@ Ca un al doilea pas 'Hello World', veți rula aplicația CounterFit și veți co
 
 1. Va trebui să lansați un nou terminal VS Code selectând butonul **Create a new integrated terminal**. Acest lucru se datorează faptului că aplicația CounterFit rulează în terminalul curent.
 
-    ![Butonul VS Code Create a new integrated terminal](../../../../../translated_images/vscode-new-terminal.77db8fc0f9cd31824b0e49a201beafe4ae4616d6c7339992cb2819e789b3eff9.ro.png)
+    ![Butonul VS Code Create a new integrated terminal](../../../../../translated_images/vscode-new-terminal.77db8fc0f9cd3182.ro.png)
 
 1. În acest nou terminal, rulați fișierul `app.py` ca înainte. Statusul CounterFit se va schimba la **Connected**, iar LED-ul se va aprinde.
 

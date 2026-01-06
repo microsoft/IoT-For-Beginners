@@ -130,7 +130,7 @@ Pro tuto lekci budete potřebovat zdroj Translator. Použijete REST API k překl
 
 V ideálním světě by celá vaše aplikace měla rozumět co nejvíce různým jazykům, od poslechu řeči, přes porozumění jazyku, až po odpovědi řečí. To je hodně práce, takže překladové služby mohou urychlit čas dodání vaší aplikace.
 
-![Architektura chytrého časovače překládajícího japonštinu do angličtiny, zpracovávajícího v angličtině a poté překládajícího zpět do japonštiny](../../../../../translated_images/translated-smart-timer.08ac20057fdc5c3778ed41cb425dca5d7fbcd4584b6da7b73ca67115a5b8a883.cs.png)
+![Architektura chytrého časovače překládajícího japonštinu do angličtiny, zpracovávajícího v angličtině a poté překládajícího zpět do japonštiny](../../../../../translated_images/translated-smart-timer.08ac20057fdc5c37.cs.png)
 
 Představte si, že vytváříte chytrý časovač, který používá angličtinu od začátku do konce, rozumí mluvené angličtině a převádí ji na text, provádí porozumění jazyku v angličtině, sestavuje odpovědi v angličtině a odpovídá anglickou řečí. Pokud byste chtěli přidat podporu japonštiny, mohli byste začít překladem mluvené japonštiny na anglický text, poté ponechat jádro aplikace stejné, a nakonec přeložit odpovědní text do japonštiny před jeho vyslovením. To by vám umožnilo rychle přidat podporu japonštiny a později můžete rozšířit na plnou podporu japonštiny od začátku do konce.
 

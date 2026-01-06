@@ -65,7 +65,7 @@ Každý druh rostliny má různé hodnoty pro základní, optimální a maximál
 
 ✅ Udělejte si průzkum. Pro jakékoli rostliny ve vaší zahradě, škole nebo místním parku zkuste zjistit jejich základní teplotu.
 
-![Graf ukazující rychlost růstu rostliny, která roste s teplotou, ale klesá, když teplota překročí určitou hranici](../../../../../translated_images/plant-growth-temp-graph.c6d69c9478e6ca832baa8dcb8d4adcbb67304074ce50e94ac8faae95975177f9.cs.png)
+![Graf ukazující rychlost růstu rostliny, která roste s teplotou, ale klesá, když teplota překročí určitou hranici](../../../../../translated_images/plant-growth-temp-graph.c6d69c9478e6ca83.cs.png)
 
 Výše uvedený graf ukazuje příklad závislosti rychlosti růstu na teplotě. Do základní teploty nedochází k žádnému růstu. Rychlost růstu se zvyšuje až do optimální teploty, poté klesá po dosažení vrcholu. Při maximální teplotě růst ustává.
 
@@ -91,7 +91,7 @@ Tento kód otevře soubor CSV a na jeho konec přidá nový řádek. Řádek obs
 
     
 > 💁 Pokud používáte virtuální IoT zařízení, zaškrtněte políčko "náhodně" a nastavte rozsah, abyste se vyhnuli získávání stejné teploty pokaždé, když se vrátí hodnota teploty.
-    ![Zaškrtněte políčko "náhodně" a nastavte rozsah](../../../../../translated_images/select-the-random-checkbox-and-set-a-range.32cf4bc7c12e797f8c76616b10c7c23a6592321bb1a6310e0b481e72f97d23b3.cs.png) 
+    ![Zaškrtněte políčko "náhodně" a nastavte rozsah](../../../../../translated_images/select-the-random-checkbox-and-set-a-range.32cf4bc7c12e797f.cs.png) 
 
     > 💁 Pokud chcete tento kód spustit po celý den, musíte zajistit, aby počítač, na kterém běží váš serverový kód, nepřešel do režimu spánku. To můžete udělat buď změnou nastavení napájení, nebo spuštěním něčeho jako [tento Python skript pro udržení systému aktivního](https://github.com/jaqsparow/keep-system-active).
     

@@ -81,7 +81,7 @@ Egy hasznos hibakeresési lépésként nemcsak kiírhatod a határoló dobozokat
 
 1. Futtasd az alkalmazást úgy, hogy a kamera egy polcon lévő készletre mutat. A VS Code fájlkezelőjében megjelenik az `image.jpg` fájl, amelyet kiválasztva láthatod a határoló dobozokat.
 
-    ![4 paradicsompüré konzerv, mindegyik körül határoló dobozokkal](../../../../../translated_images/rpi-stock-with-bounding-boxes.b5540e2ecb7cd49f1271828d3be412671d950e87625c5597ea97c90f11e01097.hu.jpg)
+    ![4 paradicsompüré konzerv, mindegyik körül határoló dobozokkal](../../../../../translated_images/rpi-stock-with-bounding-boxes.b5540e2ecb7cd49f.hu.jpg)
 
 ## Készlet megszámlálása
 

@@ -29,7 +29,7 @@ Připojte kameru.
 
 1. Piny na spodní straně ArduCam musí být připojeny k GPIO pinům na Wio Terminalu. Aby bylo snazší najít správné piny, připevněte kolem pinů nálepku GPIO pinů, která je součástí Wio Terminalu:
 
-    ![Wio Terminal s nálepkou GPIO pinů](../../../../../translated_images/wio-terminal-pin-sticker.b90b1535937b84bd00d853f0004aea74fac2aec04b43f14b887796b2633f855e.cs.png)
+    ![Wio Terminal s nálepkou GPIO pinů](../../../../../translated_images/wio-terminal-pin-sticker.b90b1535937b84bd.cs.png)
 
 1. Pomocí propojovacích vodičů proveďte následující připojení:
 
@@ -297,7 +297,7 @@ Wio Terminal nyní může být naprogramován tak, aby zachytil obrázek, když 
 
 1. Mikrokontroléry spouštějí váš kód nepřetržitě, takže není snadné spustit něco jako pořízení fotografie bez reakce na senzor. Wio Terminal má tlačítka, takže kamera může být nastavena tak, aby byla spuštěna jedním z tlačítek. Přidejte následující kód na konec funkce `setup` pro konfiguraci tlačítka C (jednoho ze tří tlačítek nahoře, toho nejblíže k vypínači).
 
-    ![Tlačítko C nahoře nejblíže k vypínači](../../../../../translated_images/wio-terminal-c-button.73df3cb1c1445ea07ee98316af0e7925fcb43135df0abed58d3d4822b2589c3b.cs.png)
+    ![Tlačítko C nahoře nejblíže k vypínači](../../../../../translated_images/wio-terminal-c-button.73df3cb1c1445ea0.cs.png)
 
     ```cpp
     pinMode(WIO_KEY_C, INPUT_PULLUP);

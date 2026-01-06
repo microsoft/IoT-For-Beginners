@@ -29,7 +29,7 @@ Csatlakoztasd a kamerát.
 
 1. Az ArduCam alján található tüskéket a Wio Terminal GPIO tüskéihez kell csatlakoztatni. Hogy könnyebben megtaláld a megfelelő tüskéket, helyezd fel a Wio Terminalhoz mellékelt GPIO tüske matricát a tüskék köré:
 
-    ![A Wio Terminal a GPIO tüske matricával](../../../../../translated_images/wio-terminal-pin-sticker.b90b1535937b84bd00d853f0004aea74fac2aec04b43f14b887796b2633f855e.hu.png)
+    ![A Wio Terminal a GPIO tüske matricával](../../../../../translated_images/wio-terminal-pin-sticker.b90b1535937b84bd.hu.png)
 
 1. Használj jumper kábeleket az alábbi csatlakozásokhoz:
 
@@ -297,7 +297,7 @@ A Wio Terminal most már programozható úgy, hogy képet készítsen, amikor eg
 
 1. A mikrokontrollerek folyamatosan futtatják a kódodat, így nem egyszerű olyan eseményt, mint például egy fénykép készítése, érzékelő nélkül elindítani. A Wio Terminal rendelkezik gombokkal, így a kamerát be lehet állítani úgy, hogy az egyik gomb megnyomásával aktiválódjon. Add hozzá a következő kódot a `setup` függvény végéhez, hogy konfiguráld a C gombot (a három felső gomb közül a legközelebbit a bekapcsoló kapcsolóhoz).
 
-    ![A C gomb a bekapcsoló kapcsolóhoz legközelebb](../../../../../translated_images/wio-terminal-c-button.73df3cb1c1445ea07ee98316af0e7925fcb43135df0abed58d3d4822b2589c3b.hu.png)
+    ![A C gomb a bekapcsoló kapcsolóhoz legközelebb](../../../../../translated_images/wio-terminal-c-button.73df3cb1c1445ea0.hu.png)
 
     ```cpp
     pinMode(WIO_KEY_C, INPUT_PULLUP);

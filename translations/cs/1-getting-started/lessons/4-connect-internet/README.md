@@ -46,7 +46,7 @@ V této lekci se zaměříme na:
 
 Existuje několik populárních komunikačních protokolů, které IoT zařízení používají k komunikaci s internetem. Nejpopulárnější jsou založeny na publikování/přihlašování zpráv prostřednictvím nějakého typu brokeru. IoT zařízení se připojují k brokeru, publikují telemetrii a přihlašují se k příkazům. Cloudové služby se také připojují k brokeru, přihlašují se ke všem telemetrickým zprávám a publikují příkazy buď konkrétním zařízením, nebo skupinám zařízení.
 
-![IoT zařízení se připojují k brokeru, publikují telemetrii a přihlašují se k příkazům. Cloudové služby se připojují k brokeru, přihlašují se ke všem telemetrickým zprávám a odesílají příkazy konkrétním zařízením.](../../../../../translated_images/pub-sub.7c7ed43fe9fd15d4e1f81a3fd95440413c457acd9bcbe9a43341e30e88db5264.cs.png)
+![IoT zařízení se připojují k brokeru, publikují telemetrii a přihlašují se k příkazům. Cloudové služby se připojují k brokeru, přihlašují se ke všem telemetrickým zprávám a odesílají příkazy konkrétním zařízením.](../../../../../translated_images/pub-sub.7c7ed43fe9fd15d4.cs.png)
 
 MQTT je nejpopulárnější komunikační protokol pro IoT zařízení a je pokryt v této lekci. Mezi další protokoly patří AMQP a HTTP/HTTPS.
 
@@ -115,7 +115,7 @@ Slovo telemetrie pochází z řeckých kořenů a znamená měření na dálku. 
 
 Podívejme se zpět na příklad chytrého termostatu z Lekce 1.
 
-![Internetově připojený termostat používající více senzorů v místnostech](../../../../../translated_images/telemetry.21e5d8b97649d2ebeb0f68d4b9691ab2d1f7bd629338e131465aff8a614e4d4a.cs.png)
+![Internetově připojený termostat používající více senzorů v místnostech](../../../../../translated_images/telemetry.21e5d8b97649d2eb.cs.png)
 
 Termostat má teplotní senzory pro sběr telemetrie. Pravděpodobně by měl jeden teplotní senzor zabudovaný a mohl by se připojit k více externím teplotním senzorům přes bezdrátový protokol, jako je [Bluetooth Low Energy](https://wikipedia.org/wiki/Bluetooth_Low_Energy) (BLE).
 
@@ -267,11 +267,11 @@ Napište kód serveru.
 
 1. Když se VS Code spustí, aktivuje virtuální prostředí Pythonu. To bude uvedeno ve spodním stavovém řádku:
 
-    ![VS Code ukazuje vybrané virtuální prostředí](../../../../../translated_images/vscode-virtual-env.8ba42e04c3d533cf677e16cbe5ed9a3b80f62c6964472dc84b6f940800f0909f.cs.png)
+    ![VS Code ukazuje vybrané virtuální prostředí](../../../../../translated_images/vscode-virtual-env.8ba42e04c3d533cf.cs.png)
 
 1. Pokud je terminál VS Code již spuštěn při startu VS Code, virtuální prostředí v něm nebude aktivováno. Nejjednodušší je ukončit terminál pomocí tlačítka **Kill the active terminal instance**:
 
-    ![Tlačítko VS Code Kill the active terminal instance](../../../../../translated_images/vscode-kill-terminal.1cc4de7c6f25ee08f423f0ead714e61d069fac1eb2089e97b8a7bbcb3d45fe5e.cs.png)
+    ![Tlačítko VS Code Kill the active terminal instance](../../../../../translated_images/vscode-kill-terminal.1cc4de7c6f25ee08.cs.png)
 
 1. Spusťte nový terminál VS Code výběrem *Terminal -> New Terminal* nebo stisknutím `` CTRL+` ``. Nový terminál načte virtuální prostředí, přičemž volání aktivačního příkazu se objeví v terminálu. Název virtuálního prostředí (`.venv`) bude také v promptu:
 

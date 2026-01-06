@@ -110,7 +110,7 @@ A poligon minden pontját egy hosszúsági és szélességi párként definiálj
 
 A poligon koordináták tömbje mindig egy bejegyzéssel több, mint a poligon pontjainak száma, az utolsó bejegyzés megegyezik az elsővel, lezárva a poligont. Például egy téglalap esetében 5 pont lenne.
 
-![Egy téglalap koordinátákkal](../../../../../translated_images/polygon-points.302193da381cb415f46c2c7a98496ee4be05d6c73d21238a89721ad93e121233.hu.png)
+![Egy téglalap koordinátákkal](../../../../../translated_images/polygon-points.302193da381cb415.hu.png)
 
 A fenti képen egy téglalap látható. A poligon koordináták a bal felső sarokban kezdődnek 47,-122-nél, majd jobbra haladnak 47,-121-hez, majd lefelé 46,-121-hez, majd balra 46,-122-höz, végül vissza az indulóponthoz 47,-122-nél. Ez 5 pontot ad a poligonnak – bal felső, jobb felső, jobb alsó, bal alsó, majd bal felső a lezáráshoz.
 
@@ -208,7 +208,7 @@ A kérés során megadhatsz egy `searchBuffer` nevű értéket is. Ez azt határ
 
 Az API hívás eredményei között szerepel egy `distance` nevű érték, amely a geokerítés széléhez legközelebbi pont távolságát méri. Ez pozitív érték, ha a pont a geokerítésen kívül van, és negatív, ha a geokerítésen belül van. Ha ez a távolság kisebb, mint a keresési puffer, akkor az aktuális távolság méterben kerül visszaadásra, különben az érték 999 vagy -999. A 999 azt jelenti, hogy a pont a geokerítésen kívül van a keresési pufferen túl, a -999 pedig azt, hogy a pont a geokerítésen belül van a keresési pufferen túl.
 
-![Egy geokerítés 50 méteres keresési pufferrel](../../../../../translated_images/search-buffer-and-distance.e6a79af3898183c7b2ef6fbf12271b8b34afd23969bb946962b1b18d3d2635e8.hu.png)
+![Egy geokerítés 50 méteres keresési pufferrel](../../../../../translated_images/search-buffer-and-distance.e6a79af3898183c7.hu.png)
 
 A fenti képen a geokerítésnek 50 méteres keresési puffere van.
 

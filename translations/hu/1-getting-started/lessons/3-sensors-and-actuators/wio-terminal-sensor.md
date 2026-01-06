@@ -17,7 +17,7 @@ A lecke során használt érzékelő egy **fényérzékelő**, amely egy [fotodi
 
 A fényérzékelő be van építve a Wio Terminalba, és a hátoldalon található átlátszó műanyag ablakon keresztül látható.
 
-![A Wio Terminal hátoldalán található fényérzékelő](../../../../../translated_images/wio-light-sensor.b1f529f3c95f51654f2e2c1d2d4b55fe547d189f588c974f5c2462c728133840.hu.png)
+![A Wio Terminal hátoldalán található fényérzékelő](../../../../../translated_images/wio-light-sensor.b1f529f3c95f5165.hu.png)
 
 ## A fényérzékelő programozása
 

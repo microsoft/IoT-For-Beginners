@@ -154,11 +154,11 @@ Vytvořte Python aplikaci, která vypíše `"Hello World"` do konzole.
 
 1. Když se VS Code spustí, aktivuje virtuální prostředí Pythonu. Vybrané virtuální prostředí se zobrazí ve spodním stavovém řádku:
 
-    ![VS Code zobrazující vybrané virtuální prostředí](../../../../../translated_images/vscode-virtual-env.8ba42e04c3d533cf677e16cbe5ed9a3b80f62c6964472dc84b6f940800f0909f.cs.png)
+    ![VS Code zobrazující vybrané virtuální prostředí](../../../../../translated_images/vscode-virtual-env.8ba42e04c3d533cf.cs.png)
 
 1. Pokud je terminál VS Code již spuštěn při spuštění VS Code, nebude mít aktivované virtuální prostředí. Nejjednodušší je ukončit terminál pomocí tlačítka **Kill the active terminal instance**:
 
-    ![VS Code tlačítko Kill the active terminal instance](../../../../../translated_images/vscode-kill-terminal.1cc4de7c6f25ee08f423f0ead714e61d069fac1eb2089e97b8a7bbcb3d45fe5e.cs.png)
+    ![VS Code tlačítko Kill the active terminal instance](../../../../../translated_images/vscode-kill-terminal.1cc4de7c6f25ee08.cs.png)
 
     Můžete zjistit, zda má terminál aktivované virtuální prostředí, protože název virtuálního prostředí bude předponou na výzvě terminálu. Například to může být:
 
@@ -229,7 +229,7 @@ Jako druhý krok 'Hello World' spustíte aplikaci CounterFit a připojíte k ní
 
 1. Budete muset spustit nový terminál VS Code výběrem tlačítka **Create a new integrated terminal**. To proto, že aplikace CounterFit běží v aktuálním terminálu.
 
-    ![VS Code tlačítko Create a new integrated terminal](../../../../../translated_images/vscode-new-terminal.77db8fc0f9cd31824b0e49a201beafe4ae4616d6c7339992cb2819e789b3eff9.cs.png)
+    ![VS Code tlačítko Create a new integrated terminal](../../../../../translated_images/vscode-new-terminal.77db8fc0f9cd3182.cs.png)
 
 1. V tomto novém terminálu spusťte soubor `app.py` jako dříve. Stav CounterFit se změní na **Connected** a LED se rozsvítí.
 

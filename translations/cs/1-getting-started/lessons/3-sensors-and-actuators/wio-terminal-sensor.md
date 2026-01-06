@@ -17,7 +17,7 @@ Senzor pro tuto lekci je **světelný senzor**, který využívá [fotodiodu](ht
 
 Světelný senzor je zabudován do Wio Terminalu a je viditelný skrz průhledné plastové okénko na zadní straně.
 
-![Světelný senzor na zadní straně Wio Terminalu](../../../../../translated_images/wio-light-sensor.b1f529f3c95f51654f2e2c1d2d4b55fe547d189f588c974f5c2462c728133840.cs.png)
+![Světelný senzor na zadní straně Wio Terminalu](../../../../../translated_images/wio-light-sensor.b1f529f3c95f5165.cs.png)
 
 ## Naprogramování světelného senzoru
 

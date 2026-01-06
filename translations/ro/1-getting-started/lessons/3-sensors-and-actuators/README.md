@@ -75,7 +75,7 @@ Unii dintre cei mai simpli senzori sunt cei analogici. Acești senzori primesc o
 
 Un exemplu este un potențiometru. Acesta este un buton rotativ care poate fi ajustat între două poziții, iar senzorul măsoară rotația.
 
-![Un potențiometru setat la o poziție intermediară, alimentat cu 5 volți, returnând 3,8 volți](../../../../../translated_images/potentiometer.35a348b9ce22f6ec1199ad37d68692d04185456ccbc2541a454bb6698be9f19c.ro.png)
+![Un potențiometru setat la o poziție intermediară, alimentat cu 5 volți, returnând 3,8 volți](../../../../../translated_images/potentiometer.35a348b9ce22f6ec.ro.png)
 
 Dispozitivul IoT va trimite un semnal electric către potențiometru la o anumită tensiune, cum ar fi 5 volți (5V). Pe măsură ce potențiometrul este ajustat, acesta modifică tensiunea care iese pe cealaltă parte. Imaginează-ți un potențiometru etichetat ca un buton care merge de la 0 la [11](https://wikipedia.org/wiki/Up_to_eleven), cum ar fi un buton de volum pe un amplificator. Când potențiometrul este în poziția complet oprită (0), 0V (0 volți) vor ieși. Când este în poziția complet pornită (11), 5V (5 volți) vor ieși.
 
@@ -112,7 +112,7 @@ Pinii de pe dispozitivele IoT, cum ar fi pinii GPIO, pot măsura direct acest se
 
 Senzorii digitali mai avansați citesc valori analogice, apoi le convertesc folosind ADC-uri încorporate în semnale digitale. De exemplu, un senzor digital de temperatură va folosi în continuare un termocuplu în același mod ca un senzor analogic și va măsura în continuare schimbarea tensiunii cauzată de rezistența termocuplului la temperatura curentă. În loc să returneze o valoare analogică și să se bazeze pe dispozitiv sau pe placa de conectare pentru a o converti într-un semnal digital, un ADC încorporat în senzor va converti valoarea și o va trimite ca o serie de 0 și 1 către dispozitivul IoT. Acești 0 și 1 sunt trimiși în același mod ca semnalul digital pentru un buton, cu 1 fiind tensiunea completă și 0 fiind 0V.
 
-![Un senzor digital de temperatură care convertește o citire analogică în date binare cu 0 ca 0 volți și 1 ca 5 volți înainte de a le trimite către un dispozitiv IoT](../../../../../translated_images/temperature-as-digital.85004491b977bae1129707df107c0b19fe6fc6374210e9027e04acb34a640c78.ro.png)
+![Un senzor digital de temperatură care convertește o citire analogică în date binare cu 0 ca 0 volți și 1 ca 5 volți înainte de a le trimite către un dispozitiv IoT](../../../../../translated_images/temperature-as-digital.85004491b977bae1.ro.png)
 
 Trimiterea datelor digitale permite senzorilor să devină mai complecși și să trimită date mai detaliate, chiar și date criptate pentru senzori securizați. Un exemplu este o cameră. Aceasta este un senzor care capturează o imagine și o trimite ca date digitale care conțin acea imagine, de obicei într-un format comprimat precum JPEG, pentru a fi citită de dispozitivul IoT. Poate chiar să transmită video prin capturarea imaginilor și trimiterea fie a imaginii complete cadru cu cadru, fie a unui flux video comprimat.
 
@@ -164,7 +164,7 @@ De exemplu, poți utiliza PWM pentru a controla viteza unui motor.
 
 Imaginează-ți că controlezi un motor cu o alimentare de 5V. Trimiți un impuls scurt către motorul tău, comutând tensiunea la nivel înalt (5V) pentru două sutimi de secundă (0,02s). În acel timp, motorul poate efectua o zecime de rotație, sau 36°. Semnalul apoi se oprește pentru două sutimi de secundă (0,02s), trimițând un semnal scăzut (0V). Fiecare ciclu de pornire și oprire durează 0,04s. Ciclul se repetă.
 
-![Modulația lățimii impulsului - rotația unui motor la 150 RPM](../../../../../translated_images/pwm-motor-150rpm.83347ac04ca38482bd120939b133803963c9c15ca9d8d484712a4bd92820f6a4.ro.png)
+![Modulația lățimii impulsului - rotația unui motor la 150 RPM](../../../../../translated_images/pwm-motor-150rpm.83347ac04ca38482.ro.png)
 
 Aceasta înseamnă că într-o secundă ai 25 de impulsuri de 5V de 0,02s care rotesc motorul, fiecare urmat de o pauză de 0,02s de 0V în care motorul nu se rotește. Fiecare impuls rotește motorul cu o zecime de rotație, ceea ce înseamnă că motorul completează 2,5 rotații pe secundă. Ai utilizat un semnal digital pentru a roti motorul la 2,5 rotații pe secundă, sau 150 [rotații pe minut](https://wikipedia.org/wiki/Revolutions_per_minute) (o măsură non-standard a vitezei de rotație).
 
@@ -175,7 +175,7 @@ Aceasta înseamnă că într-o secundă ai 25 de impulsuri de 5V de 0,02s care r
 
 > 🎓 Când un semnal PWM este activ pentru jumătate din timp și inactiv pentru cealaltă jumătate, se numește [ciclu de funcționare de 50%](https://wikipedia.org/wiki/Duty_cycle). Ciclurile de funcționare sunt măsurate ca procentul de timp în care semnalul este în stare activă comparativ cu starea inactivă.
 
-![Modulația lățimii impulsului - rotația unui motor la 75 RPM](../../../../../translated_images/pwm-motor-75rpm.a5e4c939934b6e14fd9e98e4f2c9539d723da2b18f490eae0948dd044d18ff7e.ro.png)
+![Modulația lățimii impulsului - rotația unui motor la 75 RPM](../../../../../translated_images/pwm-motor-75rpm.a5e4c939934b6e14.ro.png)
 
 Poți schimba viteza motorului modificând dimensiunea impulsurilor. De exemplu, cu același motor, poți păstra același timp de ciclu de 0,04s, cu impulsul activ redus la jumătate (0,01s), iar impulsul inactiv crescând la 0,03s. Ai același număr de impulsuri pe secundă (25), dar fiecare impuls activ este de jumătate din lungime. Un impuls de jumătate de lungime rotește motorul cu o douăzecime de rotație, iar la 25 de impulsuri pe secundă va completa 1,25 rotații pe secundă sau 75rpm. Prin modificarea vitezei impulsurilor unui semnal digital, ai înjumătățit viteza unui motor analogic.
 

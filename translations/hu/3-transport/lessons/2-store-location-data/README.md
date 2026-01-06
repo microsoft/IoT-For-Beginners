@@ -66,7 +66,7 @@ Az adatbázisok olyan szolgáltatások, amelyek lehetővé teszik az adatok tár
 
 Az első adatbázisok Relációs Adatbázis-kezelő Rendszerek (RDBMS) voltak, vagy relációs adatbázisok. Ezeket SQL adatbázisoknak is nevezik, az általuk használt Structured Query Language (SQL) után, amelyet az adatok hozzáadására, eltávolítására, frissítésére vagy lekérdezésére használnak. Ezek az adatbázisok egy sémából állnak - egy jól definiált táblázatkészletből, hasonlóan egy táblázathoz. Minden táblázatnak több elnevezett oszlopa van. Amikor adatokat ad hozzá, egy sort ad a táblázathoz, értékeket helyezve az oszlopokba. Ez az adatokat nagyon merev szerkezetben tartja - bár az oszlopokat üresen hagyhatja, ha új oszlopot szeretne hozzáadni, azt az adatbázisban kell megtennie, az értékeket kitöltve a meglévő sorokhoz. Ezek az adatbázisok relációsak - azaz egy táblázat kapcsolatban állhat egy másikkal.
 
-![Egy relációs adatbázis, ahol a Felhasználó táblázat ID-ja kapcsolódik a vásárlások táblázat felhasználói ID oszlopához, és a termékek táblázat ID-ja kapcsolódik a vásárlások táblázat termék ID oszlopához](../../../../../translated_images/sql-database.be160f12bfccefd3ca718a66468c2c4c89c53e5aad4c295324d576da87f9dfdd.hu.png)
+![Egy relációs adatbázis, ahol a Felhasználó táblázat ID-ja kapcsolódik a vásárlások táblázat felhasználói ID oszlopához, és a termékek táblázat ID-ja kapcsolódik a vásárlások táblázat termék ID oszlopához](../../../../../translated_images/sql-database.be160f12bfccefd3.hu.png)
 
 Például, ha egy felhasználó személyes adatait tárolja egy táblázatban, akkor valamilyen belső egyedi ID-t használna felhasználónként, amelyet egy sorban tárolna egy táblázatban, amely tartalmazza a felhasználó nevét és címét. Ha további adatokat szeretne tárolni a felhasználóról, például a vásárlásait, egy másik táblázatban, akkor az új táblázatban lenne egy oszlop a felhasználó ID-jéhez. Amikor egy felhasználót keres, az ID-jét használhatja, hogy megszerezze személyes adatait az egyik táblázatból, és vásárlásait egy másikból.
 
@@ -231,7 +231,7 @@ A Functions alkalmazásodnak most csatlakoznia kell a blob tároláshoz, hogy t�
 
 Ebben a leckében a Python SDK-t fogod használni, hogy megtanuld, hogyan lehet interakcióba lépni a blob tárolással.
 
-![GPS telemetria küldése egy IoT eszközről az IoT Hubba, majd Azure Functions-be egy eseményindító segítségével, végül mentés blob tárolásba](../../../../../translated_images/save-telemetry-to-storage-from-functions.ed3b1820980097f143d9f0570072da11304c2bc7906359dfa075b4d9b253c20f.hu.png)
+![GPS telemetria küldése egy IoT eszközről az IoT Hubba, majd Azure Functions-be egy eseményindító segítségével, végül mentés blob tárolásba](../../../../../translated_images/save-telemetry-to-storage-from-functions.ed3b1820980097f1.hu.png)
 
 Az adatok JSON blobként lesznek mentve a következő formátumban:
 

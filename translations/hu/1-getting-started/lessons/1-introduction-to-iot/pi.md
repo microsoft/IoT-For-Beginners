@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 A [Raspberry Pi](https://raspberrypi.org) egy egykártyás számítógép. Számos eszköz és ökoszisztéma segítségével érzékelőket és működtetőket adhat hozzá, és ezekhez a leckékhez egy [Grove](https://www.seeedstudio.com/category/Grove-c-1003.html) nevű hardver ökoszisztémát fogunk használni. A Pi-t Python segítségével fogja programozni, és hozzáférhet a Grove érzékelőkhöz.
 
-![Egy Raspberry Pi 4](../../../../../translated_images/raspberry-pi-4.fd4590d308c3d456db1327e86b395ddcd735513267aafd4879ea2785f7792eac.hu.jpg)
+![Egy Raspberry Pi 4](../../../../../translated_images/raspberry-pi-4.fd4590d308c3d456.hu.jpg)
 
 ## Beállítás
 
@@ -112,7 +112,7 @@ A távoli programozáshoz a Pi OS-t telepíteni kell egy SD kártyára.
 
 1. A Raspberry Pi Imager-ben válassza ki a **CHOOSE OS** gombot, majd válassza a *Raspberry Pi OS (Other)*, majd a *Raspberry Pi OS Lite (32-bit)* lehetőséget
 
-    ![A Raspberry Pi Imager a Raspberry Pi OS Lite kiválasztásával](../../../../../translated_images/raspberry-pi-imager.24aedeab9e233d841a1504ed7cfeb871b1f8e1134cfcd8370e7f60a092056be2.hu.png)
+    ![A Raspberry Pi Imager a Raspberry Pi OS Lite kiválasztásával](../../../../../translated_images/raspberry-pi-imager.24aedeab9e233d84.hu.png)
 
     > 💁 A Raspberry Pi OS Lite a Raspberry Pi OS egy olyan verziója, amely nem tartalmazza az asztali felhasználói felületet vagy a felhasználói felület alapú eszközöket. Ezek nem szükségesek egy fej nélküli Pi-hez, és kisebb telepítést, valamint gyorsabb indítási időt biztosítanak.
 
@@ -241,7 +241,7 @@ Hozd létre a Hello World alkalmazást.
 
 1. Nyisd meg ezt a mappát a VS Code-ban a *File -> Open...* kiválasztásával, majd válaszd ki a *nightlight* mappát, és kattints a **OK** gombra.
 
-    ![A VS Code megnyitási párbeszédablaka, amely a nightlight mappát mutatja](../../../../../translated_images/vscode-open-nightlight-remote.d3d2a4011e30d535c4b70084f6e94bf6b5b1327fd8e77affe64465ac151ee766.hu.png)
+    ![A VS Code megnyitási párbeszédablaka, amely a nightlight mappát mutatja](../../../../../translated_images/vscode-open-nightlight-remote.d3d2a4011e30d535.hu.png)
 
 1. Nyisd meg az `app.py` fájlt a VS Code felfedezőjéből, és add hozzá a következő kódot:
 

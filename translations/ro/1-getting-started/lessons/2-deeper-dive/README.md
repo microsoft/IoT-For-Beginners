@@ -41,7 +41,7 @@ Cele două componente ale unei aplicații IoT sunt *Internetul* și *dispozitivu
 
 ### Dispozitivul
 
-![Un Raspberry Pi 4](../../../../../translated_images/raspberry-pi-4.fd4590d308c3d456db1327e86b395ddcd735513267aafd4879ea2785f7792eac.ro.jpg)
+![Un Raspberry Pi 4](../../../../../translated_images/raspberry-pi-4.fd4590d308c3d456.ro.jpg)
 
 Partea **Dispozitiv** din IoT se referă la un aparat care poate interacționa cu lumea fizică. Aceste dispozitive sunt de obicei computere mici, cu preț redus, care funcționează la viteze reduse și consumă puțină energie - de exemplu, microcontrolere simple cu kilobytes de RAM (spre deosebire de gigabytes într-un PC) care funcționează la doar câteva sute de megahertz (spre deosebire de gigahertz într-un PC), dar consumă uneori atât de puțină energie încât pot funcționa săptămâni, luni sau chiar ani pe baterii.
 
@@ -67,7 +67,7 @@ Dispozitivele nu se conectează întotdeauna direct la Internet prin WiFi sau co
 
 O versiune și mai inteligentă ar putea folosi AI în cloud cu date de la alți senzori conectați la alte dispozitive IoT, cum ar fi senzori de ocupare care detectează ce camere sunt utilizate, precum și date precum vremea și chiar calendarul tău, pentru a lua decizii privind setarea temperaturii într-un mod inteligent. De exemplu, ar putea opri încălzirea dacă citește din calendarul tău că ești în vacanță sau ar putea opri încălzirea pe baza utilizării camerelor, învățând din date pentru a fi din ce în ce mai precis în timp.
 
-![Un diagram care arată mai mulți senzori de temperatură și un cadran ca intrări pentru un dispozitiv IoT, dispozitivul IoT cu comunicare bidirecțională către cloud, care la rândul său are comunicare bidirecțională către un telefon, un calendar și un serviciu meteo, și controlul unui încălzitor ca ieșire din dispozitivul IoT](../../../../../translated_images/smarter-thermostat.a75855f15d2d9e63d5da9d7ba5847a987f6c9d98e96e770c203532275194e27d.ro.png)
+![Un diagram care arată mai mulți senzori de temperatură și un cadran ca intrări pentru un dispozitiv IoT, dispozitivul IoT cu comunicare bidirecțională către cloud, care la rândul său are comunicare bidirecțională către un telefon, un calendar și un serviciu meteo, și controlul unui încălzitor ca ieșire din dispozitivul IoT](../../../../../translated_images/smarter-thermostat.a75855f15d2d9e63.ro.png)
 
 ✅ Ce alte date ar putea ajuta un termostat conectat la Internet să fie mai inteligent?
 
@@ -135,7 +135,7 @@ La fel ca în cazul CPU-ului, memoria unui microcontroler este de ordinul magnit
 
 Diagrama de mai jos arată diferența relativă de dimensiune între 192KB și 8GB - punctul mic din centru reprezintă 192KB.
 
-![O comparație între 192KB și 8GB - de peste 40.000 de ori mai mare](../../../../../translated_images/ram-comparison.6beb73541b42ac6ffde64cdf79fc925a84b932ce7ebd4d41d5fd7afc1257a696.ro.png)
+![O comparație între 192KB și 8GB - de peste 40.000 de ori mai mare](../../../../../translated_images/ram-comparison.6beb73541b42ac6f.ro.png)
 
 Spațiul de stocare pentru programe este, de asemenea, mai mic decât cel al unui PC. Un PC tipic ar putea avea un hard disk de 500GB pentru stocarea programelor, în timp ce un microcontroler ar putea avea doar kilobytes sau poate câțiva megabytes (MB) de stocare (1MB este 1.000KB, sau 1.000.000 de bytes). Terminalul Wio are 4MB de spațiu de stocare pentru programe.
 
@@ -211,17 +211,17 @@ Dacă folosești un terminal Wio pentru aceste lecții, recitește codul pe care
 
 ### Raspberry Pi
 
-![Logo-ul Raspberry Pi](../../../../../translated_images/raspberry-pi-logo.4efaa16605cee05489d8fa53941e991b3757aa24c20a95abdcf8cfd761953596.ro.png)
+![Logo-ul Raspberry Pi](../../../../../translated_images/raspberry-pi-logo.4efaa16605cee054.ro.png)
 
 [Fundația Raspberry Pi](https://www.raspberrypi.org) este o organizație caritabilă din Marea Britanie fondată în 2009 pentru a promova studiul informaticii, în special la nivel școlar. Ca parte a acestei misiuni, au dezvoltat un computer cu o singură placă, numit Raspberry Pi. Raspberry Pi-urile sunt disponibile în prezent în 3 variante - o versiune de dimensiune completă, mai micul Pi Zero și un modul de calcul care poate fi integrat în dispozitivul tău IoT final.
 
-![Un Raspberry Pi 4](../../../../../translated_images/raspberry-pi-4.fd4590d308c3d456db1327e86b395ddcd735513267aafd4879ea2785f7792eac.ro.jpg)
+![Un Raspberry Pi 4](../../../../../translated_images/raspberry-pi-4.fd4590d308c3d456.ro.jpg)
 
 Ultima iterație a Raspberry Pi de dimensiune completă este Raspberry Pi 4B. Acesta are un CPU quad-core (4 nuclee) care rulează la 1.5GHz, 2, 4 sau 8GB de RAM, ethernet gigabit, WiFi, 2 porturi HDMI care suportă ecrane 4k, un port de ieșire audio și video compozit, porturi USB (2 USB 2.0, 2 USB 3.0), 40 de pini GPIO, un conector pentru cameră pentru un modul de cameră Raspberry Pi și un slot pentru card SD. Toate acestea pe o placă de 88mm x 58mm x 19.5mm, alimentată de o sursă de alimentare USB-C de 3A. Acestea încep de la 35 USD, mult mai ieftin decât un PC sau Mac.
 
 > 💁 Există și un Pi400, un computer all-in-one cu un Pi4 integrat într-o tastatură.
 
-![Un Raspberry Pi Zero](../../../../../translated_images/raspberry-pi-zero.f7a4133e1e7d54bb3dbb32319b217a53c5b94871995a54647f2894b54206b8d8.ro.jpg)
+![Un Raspberry Pi Zero](../../../../../translated_images/raspberry-pi-zero.f7a4133e1e7d54bb.ro.jpg)
 
 Pi Zero este mult mai mic, cu o putere mai redusă. Are un CPU single-core de 1GHz, 512MB de RAM, WiFi (în modelul Zero W), un singur port HDMI, un port micro-USB, 40 de pini GPIO, un conector pentru cameră pentru un modul de cameră Raspberry Pi și un slot pentru card SD. Măsoară 65mm x 30mm x 5mm și consumă foarte puțină energie. Zero costă 5 USD, iar versiunea W cu WiFi costă 10 USD.
 

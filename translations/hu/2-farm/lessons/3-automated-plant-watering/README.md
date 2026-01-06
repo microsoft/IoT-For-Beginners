@@ -55,11 +55,11 @@ A relé egy elektromechanikus kapcsoló, amely egy elektromos jelet mechanikus m
 
 > 🎓 Az [elektromágnesek](https://wikipedia.org/wiki/Electromagnet) olyan mágnesek, amelyeket egy huzaltekercsen keresztül áramot vezetve hoznak létre. Amikor az áram bekapcsol, a tekercs mágnesessé válik. Amikor az áram kikapcsol, a tekercs elveszíti mágnesességét.
 
-![Bekapcsolt állapotban az elektromágnes mágneses mezőt hoz létre, amely bekapcsolja a kimeneti áramkör kapcsolóját](../../../../../translated_images/relay-on.4db16a0fd6b669262fd6699aff3fbcd31b6057c06d90411b6bddc06326d1cf75.hu.png)
+![Bekapcsolt állapotban az elektromágnes mágneses mezőt hoz létre, amely bekapcsolja a kimeneti áramkör kapcsolóját](../../../../../translated_images/relay-on.4db16a0fd6b66926.hu.png)
 
 Egy relében egy vezérlő áramkör táplálja az elektromágnest. Amikor az elektromágnes bekapcsol, egy kart húz meg, amely egy kapcsolót mozgat, és zárja a kimeneti áramkör érintkezőit.
 
-![Kikapcsolt állapotban az elektromágnes nem hoz létre mágneses mezőt, amely kikapcsolja a kimeneti áramkör kapcsolóját](../../../../../translated_images/relay-off.c34a178a2960fecdc3c6400d43e633ed11c6746cd653cfb4a768fa097c40394c.hu.png)
+![Kikapcsolt állapotban az elektromágnes nem hoz létre mágneses mezőt, amely kikapcsolja a kimeneti áramkör kapcsolóját](../../../../../translated_images/relay-off.c34a178a2960fecd.hu.png)
 
 Amikor a vezérlő áramkör kikapcsol, az elektromágnes kikapcsol, elengedve a kart, és megszakítva az érintkezőket, kikapcsolva a kimeneti áramkört. A relék digitális aktuátorok – egy magas jel bekapcsolja a relét, egy alacsony jel kikapcsolja.
 
@@ -85,7 +85,7 @@ Az elektromágnesnek nincs szüksége sok energiára ahhoz, hogy aktiválódjon 
 
 A fenti képen egy Grove relé látható. A vezérlő áramkör egy IoT eszközhöz csatlakozik, és 3,3V vagy 5V segítségével kapcsolja be vagy ki a relét. A kimeneti áramkör két terminállal rendelkezik, bármelyik lehet áramforrás vagy földelés. A kimeneti áramkör akár 250V-ot és 10A-t is képes kezelni, ami elegendő számos hálózati árammal működő eszközhöz. Léteznek még nagyobb teljesítményű relék is.
 
-![Egy pumpa bekötve egy relébe](../../../../../translated_images/pump-wired-to-relay.66c5cfc0d89189900cd601777f5caeb39ee35c6250f6c86bf38feaceedb21fe9.hu.png)
+![Egy pumpa bekötve egy relébe](../../../../../translated_images/pump-wired-to-relay.66c5cfc0d8918990.hu.png)
 
 A fenti képen egy pumpa áramellátása egy relén keresztül történik. Egy piros vezeték köti össze az USB tápegység +5V terminálját a relé kimeneti áramkörének egyik termináljával, és egy másik piros vezeték köti össze a kimeneti áramkör másik terminálját a pumpával. Egy fekete vezeték köti össze a pumpát az USB tápegység földelésével. Amikor a relé bekapcsol, zárja az áramkört, 5V-ot küldve a pumpának, amely bekapcsol.
 
@@ -135,7 +135,7 @@ A 3. leckében építettél egy éjszakai fényt – egy LED-et, amely bekapcsol
 
 Ha az előző leckében fizikai érzékelőt használtál a talajnedvesség mérésére, észrevehetted, hogy néhány másodpercbe telt, mire a talajnedvess
 💁 Ha túl közel öntöztél az érzékelőhöz, előfordulhatott, hogy a mérés gyorsan leesett, majd visszaemelkedett – ezt az okozza, hogy az érzékelő közelében lévő víz szétterjed a talaj többi részében, csökkentve az érzékelő által mért talajnedvességet.
-![A talajnedvesség-mérés 658-at mutat, amely öntözés közben nem változik, csak akkor csökken 320-ra, amikor a víz átszivárog a talajon](../../../../../translated_images/soil-moisture-travel.a0e31af222cf14385de5380dfc32c7b8213960965228b8e4f7b7ab7f73b310a3.hu.png)
+![A talajnedvesség-mérés 658-at mutat, amely öntözés közben nem változik, csak akkor csökken 320-ra, amikor a víz átszivárog a talajon](../../../../../translated_images/soil-moisture-travel.a0e31af222cf1438.hu.png)
 
 A fenti ábrán egy talajnedvesség-érzékelő 658-as értéket mutat. A növényt megöntözik, de ez az érték nem változik azonnal, mivel a víz még nem érte el az érzékelőt. Az öntözés akár be is fejeződhet, mielőtt a víz eléri az érzékelőt, és az érték csökken, hogy tükrözze az új nedvességszintet.
 
@@ -157,11 +157,11 @@ Mennyi ideig legyen bekapcsolva a relé minden alkalommal? Jobb óvatosnak lenni
 
 > 💁 Az ilyen időzítésvezérlés nagyon specifikus az épített IoT eszközre, a mért tulajdonságra, valamint az érzékelőkre és aktuátorokra.
 
-![Egy epernövény, amelyet egy szivattyún keresztül vízzel látnak el, a szivattyú egy reléhez csatlakozik. A relé és a talajnedvesség-érzékelő egy Raspberry Pi-hez van csatlakoztatva](../../../../../translated_images/strawberry-with-pump.b410fc72ac6aabad3e28de9775bf2393ead73dcfec6fd8c9bc01cf107ecd171a.hu.png)
+![Egy epernövény, amelyet egy szivattyún keresztül vízzel látnak el, a szivattyú egy reléhez csatlakozik. A relé és a talajnedvesség-érzékelő egy Raspberry Pi-hez van csatlakoztatva](../../../../../translated_images/strawberry-with-pump.b410fc72ac6aabad.hu.png)
 
 Például van egy epernövényem, amelyhez egy talajnedvesség-érzékelő és egy relével vezérelt szivattyú tartozik. Megfigyeltem, hogy amikor vizet adok hozzá, körülbelül 20 másodpercbe telik, mire a talajnedvesség-érték stabilizálódik. Ez azt jelenti, hogy ki kell kapcsolnom a relét, és 20 másodpercet kell várnom, mielőtt ellenőrzöm a nedvességszintet. Inkább legyen túl kevés víz, mint túl sok – mindig újra bekapcsolhatom a szivattyút, de nem tudom eltávolítani a vizet a növényből.
 
-![1. lépés: mérés. 2. lépés: víz hozzáadása. 3. lépés: várakozás, hogy a víz átszivárogjon a talajon. 4. lépés: újramérés](../../../../../translated_images/soil-moisture-delay.865f3fae206db01d5f8f100f4f44040215d44a0412dd3450aef7ff7b93b6d273.hu.png)
+![1. lépés: mérés. 2. lépés: víz hozzáadása. 3. lépés: várakozás, hogy a víz átszivárogjon a talajon. 4. lépés: újramérés](../../../../../translated_images/soil-moisture-delay.865f3fae206db01d.hu.png)
 
 Ez azt jelenti, hogy a legjobb folyamat egy öntözési ciklushoz valami ilyesmi lenne:
 

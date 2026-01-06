@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 A [Seeed Studios Wio Terminal](https://www.seeedstudio.com/Wio-Terminal-p-4509.html) egy Arduino-kompatibilis mikrokontroller, beépített WiFi-vel, néhány érzékelővel és aktuátorral, valamint portokkal, amelyek lehetővé teszik további érzékelők és aktuátorok csatlakoztatását a [Grove](https://www.seeedstudio.com/category/Grove-c-1003.html) nevű hardveres ökoszisztéma segítségével.
 
-![A Seeed studios Wio Terminal](../../../../../translated_images/wio-terminal.b8299ee16587db9aa9e05fabf9721bccd9eb8fb541b7c1a8267241282d81b603.hu.png)
+![A Seeed studios Wio Terminal](../../../../../translated_images/wio-terminal.b8299ee16587db9a.hu.png)
 
 ## Beállítás
 
@@ -51,15 +51,15 @@ Hozd létre a PlatformIO projektet.
 
 1. A PlatformIO ikon a bal oldali menüsávon található:
 
-    ![A Platform IO menü opció](../../../../../translated_images/vscode-platformio-menu.297be26b9733e5c4635d9d8e636e93fed2015809eafb7cc8fd409c37b3ef2ef5.hu.png)
+    ![A Platform IO menü opció](../../../../../translated_images/vscode-platformio-menu.297be26b9733e5c4.hu.png)
 
     Válaszd ki ezt a menüpontot, majd válaszd a *PIO Home -> Open* lehetőséget.
 
-    ![A Platform IO open opció](../../../../../translated_images/vscode-platformio-home-open.3f9a41bfd3f4da1c866ec3e69f1675faa30b823b5b58ab58ac88e5df9a85da19.hu.png)
+    ![A Platform IO open opció](../../../../../translated_images/vscode-platformio-home-open.3f9a41bfd3f4da1c.hu.png)
 
 1. A kezdőképernyőn válaszd ki a **+ New Project** gombot.
 
-    ![Az új projekt gomb](../../../../../translated_images/vscode-platformio-welcome-new-button.ba6fc8a4c7b78cc822e1ce47ba29c5db96668cce7c5f4adbfd2f1196422baa26.hu.png)
+    ![Az új projekt gomb](../../../../../translated_images/vscode-platformio-welcome-new-button.ba6fc8a4c7b78cc8.hu.png)
 
 1. Konfiguráld a projektet a *Project Wizard*-ban:
 
@@ -73,7 +73,7 @@ Hozd létre a PlatformIO projektet.
 
     1. Kattints a **Finish** gombra.
 
-    ![A kitöltött projekt varázsló](../../../../../translated_images/vscode-platformio-nightlight-project-wizard.5c64db4da6037420827c2597507897233457210ee23975711fa2285efdcd0dc7.hu.png)
+    ![A kitöltött projekt varázsló](../../../../../translated_images/vscode-platformio-nightlight-project-wizard.5c64db4da6037420.hu.png)
 
     A PlatformIO letölti a szükséges komponenseket a Wio Terminal kódjának fordításához, és létrehozza a projektet. Ez néhány percet igénybe vehet.
 
@@ -179,7 +179,7 @@ Most készen állsz arra, hogy megírd a Hello World alkalmazást.
 
     1. Írd be, hogy `PlatformIO Upload`, hogy megkeresd a feltöltési opciót, majd válaszd a *PlatformIO: Upload* lehetőséget.
 
-        ![A PlatformIO feltöltési opció a parancspalettán](../../../../../translated_images/vscode-platformio-upload-command-palette.9e0f49cf80d1f1c3eb5c6689b8705ad8b89f0374b21698e996fec11e4ed09347.hu.png)
+        ![A PlatformIO feltöltési opció a parancspalettán](../../../../../translated_images/vscode-platformio-upload-command-palette.9e0f49cf80d1f1c3.hu.png)
 
         A PlatformIO automatikusan lefordítja a kódot, ha szükséges, mielőtt feltölti.
 
@@ -195,7 +195,7 @@ A PlatformIO rendelkezik egy Soros Monitorral, amely figyelheti az USB kábelen 
 
 1. Írd be, hogy `PlatformIO Serial`, hogy megkeresd a Soros Monitor opciót, majd válaszd a *PlatformIO: Serial Monitor* lehetőséget.
 
-    ![A PlatformIO Soros Monitor opció a parancspalettán](../../../../../translated_images/vscode-platformio-serial-monitor-command-palette.b348ec841b8a1c14af503d6fc0bf73c657c79c9acc12a6b6dd485ce3b5826f48.hu.png)
+    ![A PlatformIO Soros Monitor opció a parancspalettán](../../../../../translated_images/vscode-platformio-serial-monitor-command-palette.b348ec841b8a1c14.hu.png)
 
     Egy új terminál nyílik meg, és a soros porton keresztül küldött adatok ebbe a terminálba kerülnek:
 

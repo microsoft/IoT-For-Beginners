@@ -115,7 +115,7 @@ A prototípushoz mindezt egyetlen eszközön fogod megvalósítani. Ha mikrokont
 
 Az IoT-eszköznek szüksége van valamilyen indítóra, amely jelzi, hogy a gyümölcs készen áll az osztályozásra. Egy ilyen indító lehet például a gyümölcs helyzetének mérése a szállítószalagon egy érzékelő távolságának mérésével.
 
-![A közelségérzékelők lézersugarakat küldenek tárgyakra, például banánokra, és mérik, mennyi idő alatt verődik vissza a sugár](../../../../../translated_images/proximity-sensor.f5cd752c77fb62fea000156233b32fd24fad3707ec69b8bdd8d312b7af85156d.hu.png)
+![A közelségérzékelők lézersugarakat küldenek tárgyakra, például banánokra, és mérik, mennyi idő alatt verődik vissza a sugár](../../../../../translated_images/proximity-sensor.f5cd752c77fb62fe.hu.png)
 
 A közelségérzékelők használhatók az érzékelő és egy tárgy közötti távolság mérésére. Általában elektromágneses sugárzást, például lézersugarat vagy infravörös fényt bocsátanak ki, majd érzékelik a tárgyról visszaverődő sugárzást. A lézersugár kibocsátása és a jel visszaverődése közötti idő alapján kiszámítható az érzékelő távolsága.
 

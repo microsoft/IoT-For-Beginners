@@ -17,7 +17,7 @@ Senzorul pentru această lecție este un **senzor de lumină** care folosește u
 
 Senzorul de lumină este integrat în Wio Terminal și este vizibil prin fereastra de plastic transparentă de pe spate.
 
-![Senzorul de lumină de pe spatele Wio Terminal](../../../../../translated_images/wio-light-sensor.b1f529f3c95f51654f2e2c1d2d4b55fe547d189f588c974f5c2462c728133840.ro.png)
+![Senzorul de lumină de pe spatele Wio Terminal](../../../../../translated_images/wio-light-sensor.b1f529f3c95f5165.ro.png)
 
 ## Programează senzorul de lumină
 

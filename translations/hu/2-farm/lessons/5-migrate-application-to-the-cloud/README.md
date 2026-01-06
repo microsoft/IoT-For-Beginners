@@ -41,7 +41,7 @@ A szerver nélküli, vagy szerver nélküli számítástechnika kis kódrészlet
 
 > 💁 Ha már használtál adatbázis-triggereket, gondolj erre úgy, mint egy hasonló dologra: kódot indít el egy esemény, például egy sor beszúrása.
 
-![Amikor sok esemény érkezik egyszerre, a szerver nélküli szolgáltatás skálázódik, hogy mindet egyszerre futtassa](../../../../../translated_images/serverless-scaling.f8c769adf0413fd17be1af4f07ff63016b347e2ff869be6c4abb211f9e93909d.hu.png)
+![Amikor sok esemény érkezik egyszerre, a szerver nélküli szolgáltatás skálázódik, hogy mindet egyszerre futtassa](../../../../../translated_images/serverless-scaling.f8c769adf0413fd1.hu.png)
 
 A kódod csak akkor fut, amikor az esemény bekövetkezik, máskor nem marad aktív. Az esemény bekövetkezik, a kódod betöltődik és lefut. Ez a szerver nélküli megoldást nagyon skálázhatóvá teszi – ha sok esemény történik egyszerre, a felhőszolgáltató annyiszor futtatja a funkciódat, ahányszor szükséges, a rendelkezésre álló szervereken. Ennek hátránya, hogy ha információt kell megosztanod az események között, azt valahol el kell tárolnod, például egy adatbázisban, nem pedig memóriában.
 
@@ -244,7 +244,7 @@ Az Azure Functions CLI segítségével új Functions alkalmazást hozhatsz létr
     VS Code. Initialize for optimal use with VS Code?
     ```
 
-    ![Az értesítés](../../../../../translated_images/vscode-azure-functions-init-notification.bd19b49229963edb5311fb3a79445ea469424759d2917ee2f2eb6f92d65d5086.hu.png)
+    ![Az értesítés](../../../../../translated_images/vscode-azure-functions-init-notification.bd19b49229963edb.hu.png)
 
     Válaszd az **Igen** lehetőséget az értesítésben.
 

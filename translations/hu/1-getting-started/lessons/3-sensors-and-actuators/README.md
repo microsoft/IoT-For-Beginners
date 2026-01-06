@@ -75,7 +75,7 @@ A legegyszerűbb érzékelők közé tartoznak az analóg érzékelők. Ezek az 
 
 Egy példa erre a potenciométer. Ez egy forgatható tárcsa, amelyet két pozíció között lehet elforgatni, és az érzékelő méri a forgást.
 
-![Egy potenciométer középső állásban, amely 5 voltot kap, és 3,8 voltot ad vissza](../../../../../translated_images/potentiometer.35a348b9ce22f6ec1199ad37d68692d04185456ccbc2541a454bb6698be9f19c.hu.png)
+![Egy potenciométer középső állásban, amely 5 voltot kap, és 3,8 voltot ad vissza](../../../../../translated_images/potentiometer.35a348b9ce22f6ec.hu.png)
 
 Az IoT eszköz elektromos jelet küld a potenciométernek egy adott feszültségen, például 5 volton (5V). Ahogy a potenciométert állítod, az megváltoztatja a másik oldalon kijövő feszültséget. Képzeld el, hogy van egy potenciométered, amelyet egy 0-tól [11-ig](https://wikipedia.org/wiki/Up_to_eleven) terjedő skálán jelöltek, például egy hangerőszabályzó gombot egy erősítőn. Amikor a potenciométer teljesen kikapcsolt állásban van (0), akkor 0V (0 volt) jön ki. Amikor teljesen bekapcsolt állásban van (11), akkor 5V (5 volt) jön ki.
 
@@ -112,7 +112,7 @@ Az IoT eszközök, például a GPIO tüskék, közvetlenül mérhetik ezt a jele
 
 Fejlettebb digitális érzékelők analóg értékeket olvasnak, majd beépített ADC-kkel digitális jelekké alakítják azokat. Például egy digitális hőmérsékletérzékelő továbbra is használ egy hőelemet, ugyanúgy, mint egy analóg érzékelő, és továbbra is méri a hőelem ellenállásának változását az aktuális hőmérsékleten. Ahelyett, hogy analóg értéket adna vissza, és az eszközre vagy a csatlakozópanelre bízná a digitális jellé alakítást, az érzékelőbe épített ADC átalakítja az értéket, és 0-k és 1-ek sorozataként küldi el az IoT eszköznek. Ezek a 0-k és 1-ek ugyanúgy kerülnek továbbításra, mint egy gomb digitális jele, ahol az 1 a teljes feszültséget, a 0 pedig a 0V-ot jelenti.
 
-![Egy digitális hőmérsékletérzékelő, amely egy analóg értéket bináris adatokra alakít, ahol 0 a 0 voltot, 1 az 5 voltot jelenti, mielőtt elküldi az IoT eszköznek](../../../../../translated_images/temperature-as-digital.85004491b977bae1129707df107c0b19fe6fc6374210e9027e04acb34a640c78.hu.png)
+![Egy digitális hőmérsékletérzékelő, amely egy analóg értéket bináris adatokra alakít, ahol 0 a 0 voltot, 1 az 5 voltot jelenti, mielőtt elküldi az IoT eszköznek](../../../../../translated_images/temperature-as-digital.85004491b977bae1.hu.png)
 
 A digitális adatok küldése lehetővé teszi, hogy az érzékelők bonyolultabbá váljanak, és részletesebb adatokat, akár titkosított adatokat is küldjenek biztonságos érzékelők esetén. Egy példa erre egy kamera. Ez egy olyan érzékelő, amely képet rögzít, és digitális adatként küldi el az IoT eszköznek, általában tömörített formátumban, például JPEG-ben. Akár videót is streamelhet, képkockánként teljes képet vagy tömörített videófolyamot küldve.
 
@@ -146,7 +146,7 @@ Például PWM segítségével vezérelheted egy motor sebességét.
 
 Képzeld el, hogy egy motort vezérlesz 5V-os táppal. Rövid impulzust küldesz a motorodnak, amely 0,02 másodpercre (0,02s) magas feszültségre (5V) kapcsol. Ez idő alatt a motor egy tized fordulatot, azaz 36°-ot tesz meg. Ezután a jel szünetel 0,02 másodpercre (0,02s), alacsony jelet (0V) küldve. Minden be- és kikapcsolási ciklus 0,04 másodpercig tart. A ciklus ismétlődik.
 
-![Impulzusszélesség-modulációval egy motor forgása 150 RPM sebességgel](../../../../../translated_images/pwm-motor-150rpm.83347ac04ca38482bd120939b133803963c9c15ca9d8d484712a4bd92820f6a4.hu.png)
+![Impulzusszélesség-modulációval egy motor forgása 150 RPM sebességgel](../../../../../translated_images/pwm-motor-150rpm.83347ac04ca38482.hu.png)
 
 Ez azt jelenti, hogy egy másodperc alatt 25 darab 0,02 másodperces 5V-os impulzust küldesz a motor forgatására, amelyeket 0,02 másodperces 0V-os szünet követ, amikor a motor nem forog. Minden impulzus egy tized fordulatot eredményez, így a motor másodpercenként 2,5 fordulatot tesz meg. Digitális jelet használtál arra, hogy a motort másodpercenként 2,5 fordulatra, vagy 150 [fordulat/perc](https://wikipedia.org/wiki/Revolutions_per_minute) sebességre állítsd (egy nem szabványos forgási sebesség mértékegység).
 
@@ -157,7 +157,7 @@ Ez azt jelenti, hogy egy másodperc alatt 25 darab 0,02 másodperces 5V-os impul
 
 > 🎓 Amikor egy PWM jel az idő felében be van kapcsolva, a másik felében pedig ki, azt [50%-os kitöltési tényezőnek](https://wikipedia.org/wiki/Duty_cycle) nevezzük. A kitöltési tényezőt az idő százalékában mérik, amely alatt a jel be van kapcsolva a kikapcsolt állapothoz képest.
 
-![Impulzusszélesség-modulációval egy motor forgása 75 RPM sebességgel](../../../../../translated_images/pwm-motor-75rpm.a5e4c939934b6e14fd9e98e4f2c9539d723da2b18f490eae0948dd044d18ff7e.hu.png)
+![Impulzusszélesség-modulációval egy motor forgása 75 RPM sebességgel](../../../../../translated_images/pwm-motor-75rpm.a5e4c939934b6e14.hu.png)
 
 A motor sebességét az impulzusok méretének változtatásával tudod szabályozni. Például ugyanazzal a motorral megtarthatod a ciklusidőt 0,04 másodpercen, miközben a bekapcsolási impulzust felére csökkented, 0,01 másodpercre, és a kikapcsolási impulzust 0,03 másodpercre növeled. Ugyanannyi impulzus van másodpercenként (25), de minden bekapcsolási impulzus fele olyan hosszú. Egy fele hosszú impulzus csak egy huszad fordulatot eredményez, és 25 impulzus másodpercenként 1,25 fordulatot, vagy 75 RPM-et eredményez. A digitális jel impulzussebességének változtatásával felére csökkentetted az analóg motor sebességét.
 

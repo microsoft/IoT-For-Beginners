@@ -97,15 +97,15 @@ A titkosításnak két típusa van - szimmetrikus és aszimmetrikus.
 
 **Szimmetrikus** titkosítás ugyanazt a kulcsot használja az adatok titkosítására és dekódolására. Mind a küldőnek, mind a fogadónak ismernie kell ugyanazt a kulcsot. Ez a legkevésbé biztonságos típus, mivel a kulcsot valahogy meg kell osztani. Ahhoz, hogy a küldő titkosított üzenetet küldjön a címzettnek, először el kell küldenie a címzettnek a kulcsot.
 
-![A szimmetrikus kulcs titkosítás ugyanazt a kulcsot használja az üzenet titkosítására és dekódolására](../../../../../translated_images/send-message-symmetric-key.a2e8ad0d495896ffcdf15d25bb4491c695a5cb851457b359fb0f0c89d67707c9.hu.png)
+![A szimmetrikus kulcs titkosítás ugyanazt a kulcsot használja az üzenet titkosítására és dekódolására](../../../../../translated_images/send-message-symmetric-key.a2e8ad0d495896ff.hu.png)
 
 Ha a kulcsot ellopják az átvitel során, vagy a küldőt vagy a címzettet feltörik, és megtalálják a kulcsot, a titkosítás feltörhető.
 
-![A szimmetrikus kulcs titkosítás csak akkor biztonságos, ha a hacker nem szerzi meg a kulcsot - ha igen, elfoghatja és dekódolhatja az üzenetet](../../../../../translated_images/send-message-symmetric-key-hacker.e7cb53db1707adfb1486a8144060cb76435fe8dbdede8cecc09e7d15b2d9a251.hu.png)
+![A szimmetrikus kulcs titkosítás csak akkor biztonságos, ha a hacker nem szerzi meg a kulcsot - ha igen, elfoghatja és dekódolhatja az üzenetet](../../../../../translated_images/send-message-symmetric-key-hacker.e7cb53db1707adfb.hu.png)
 
 **Aszimmetrikus** titkosítás 2 kulcsot használ - egy titkosítási kulcsot és egy dekódolási kulcsot, amelyeket nyilvános/privát kulcspárnak nevezünk. A nyilvános kulcsot az üzenet titkosítására használják, de nem lehet vele dekódolni, a privát kulcsot az üzenet dekódolására használják, de nem lehet vele titkosítani.
 
-![Az aszimmetrikus titkosítás különböző kulcsot használ az üzenet titkosítására és dekódolására. A titkosítási kulcsot elküldik az üzenetküldőknek, hogy titkosítsák az üzenetet, mielőtt elküldik a címzettnek, aki birtokolja a kulcsokat](../../../../../translated_images/send-message-asymmetric.7abe327c62615b8c19805252af5d4b6c5e7aaeb8fbc455efeff866fe2d300b62.hu.png)
+![Az aszimmetrikus titkosítás különböző kulcsot használ az üzenet titkosítására és dekódolására. A titkosítási kulcsot elküldik az üzenetküldőknek, hogy titkosítsák az üzenetet, mielőtt elküldik a címzettnek, aki birtokolja a kulcsokat](../../../../../translated_images/send-message-asymmetric.7abe327c62615b8c.hu.png)
 
 A címzett megosztja a nyilvános kulcsát, és a küldő ezt használja az üzenet titkosítására. Miután az üzenetet elküldték, a címzett a privát kulcsával dekódolja azt. Az aszimmetrikus titkosítás biztonságosabb, mivel a privát kulcsot a címzett titokban tartja, és sosem osztja meg. Bárki megkaphatja a nyilvános kulcsot, mivel az csak üzenetek titkosítására használható.
 
@@ -157,7 +157,7 @@ Ezek a tanúsítványok számos mezőt tartalmaznak, például hogy kitől szár
 
 X.509 tanúsítványok használatakor mind a küldőnek, mind a címzettnek megvan a saját nyilvános és magánkulcsa, valamint mindkettőjüknek van X.509 tanúsítványa, amely tartalmazza a nyilvános kulcsot. Ezután valamilyen módon kicserélik az X.509 tanúsítványaikat, egymás nyilvános kulcsait használva titkosítják az általuk küldött adatokat, és a saját magánkulcsukkal dekódolják a kapott adatokat.
 
-![A nyilvános kulcs megosztása helyett megoszthatsz egy tanúsítványt. A tanúsítvány használója ellenőrizheti, hogy az tőled származik-e, a tanúsítványt aláíró tanúsítványkiadó hatóságnál.](../../../../../translated_images/send-message-certificate.9cc576ac1e46b76eb58ebc8eedaa522566fa0700076da46f5180aad78c2435db.hu.png)
+![A nyilvános kulcs megosztása helyett megoszthatsz egy tanúsítványt. A tanúsítvány használója ellenőrizheti, hogy az tőled származik-e, a tanúsítványt aláíró tanúsítványkiadó hatóságnál.](../../../../../translated_images/send-message-certificate.9cc576ac1e46b76e.hu.png)
 
 Az X.509 tanúsítványok egyik nagy előnye, hogy megoszthatók az eszközök között. Létrehozhatsz egy tanúsítványt, feltöltheted az IoT Hubba, és ezt használhatod az összes eszközödhöz. Minden eszköznek csak a magánkulcsot kell ismernie, hogy dekódolhassa az IoT Hubtól kapott üzeneteket.
 

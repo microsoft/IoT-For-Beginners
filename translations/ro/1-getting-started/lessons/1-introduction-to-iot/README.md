@@ -79,7 +79,7 @@ Un microcontroler (denumit și MCU, prescurtare de la microcontroller unit) este
 
 Microcontrolerele sunt dispozitive de calcul cu costuri reduse, cu prețuri medii pentru cele utilizate în hardware personalizat scăzând la aproximativ 0,50 USD, iar unele dispozitive costând chiar și 0,03 USD. Kiturile de dezvoltare pot începe de la 4 USD, cu costuri care cresc pe măsură ce adăugați mai multe funcții. [Wio Terminal](https://www.seeedstudio.com/Wio-Terminal-p-4509.html), un kit de dezvoltare pentru microcontrolere de la [Seeed studios](https://www.seeedstudio.com), care include senzori, actuatoare, WiFi și un ecran, costă aproximativ 30 USD.
 
-![Un Wio Terminal](../../../../../translated_images/wio-terminal.b8299ee16587db9aa9e05fabf9721bccd9eb8fb541b7c1a8267241282d81b603.ro.png)
+![Un Wio Terminal](../../../../../translated_images/wio-terminal.b8299ee16587db9a.ro.png)
 
 > 💁 Când căutați pe Internet microcontrolere, fiți atenți la termenul **MCU**, deoarece acesta va aduce multe rezultate despre Universul Cinematic Marvel, nu despre microcontrolere.
 
@@ -93,7 +93,7 @@ Kiturile de dezvoltare pentru microcontrolere vin de obicei cu senzori și actua
 
 Un computer pe o singură placă este un dispozitiv de calcul mic care conține toate elementele unui computer complet pe o singură placă mică. Acestea sunt dispozitive cu specificații apropiate de un PC sau Mac desktop sau laptop, rulează un sistem de operare complet, dar sunt mai mici, consumă mai puțină energie și sunt considerabil mai ieftine.
 
-![Un Raspberry Pi 4](../../../../../translated_images/raspberry-pi-4.fd4590d308c3d456db1327e86b395ddcd735513267aafd4879ea2785f7792eac.ro.jpg)
+![Un Raspberry Pi 4](../../../../../translated_images/raspberry-pi-4.fd4590d308c3d456.ro.jpg)
 
 Raspberry Pi este unul dintre cele mai populare computere pe o singură placă.
 

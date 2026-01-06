@@ -110,7 +110,7 @@ Každý bod na polygonu je definován jako dvojice zeměpisné délky a šířky
 
 Pole souřadnic polygonu vždy obsahuje o 1 více záznamů než počet bodů na polygonu, přičemž poslední záznam je stejný jako první, čímž se polygon uzavírá. Například pro obdélník by bylo 5 bodů.
 
-![Obdélník se souřadnicemi](../../../../../translated_images/polygon-points.302193da381cb415f46c2c7a98496ee4be05d6c73d21238a89721ad93e121233.cs.png)
+![Obdélník se souřadnicemi](../../../../../translated_images/polygon-points.302193da381cb415.cs.png)
 
 Na obrázku výše je obdélník. Souřadnice polygonu začínají vlevo nahoře na 47,-122, poté se posunou doprava na 47,-121, poté dolů na 46,-121, poté doleva na 46,-122, a nakonec zpět na výchozí bod na 47,-122. To dává polygonu 5 bodů – vlevo nahoře, vpravo nahoře, vpravo dole, vlevo dole a nakonec vlevo nahoře pro uzavření.
 
@@ -208,7 +208,7 @@ Při provádění tohoto požadavku můžete také předat hodnotu nazvanou `sea
 
 Když jsou výsledky vráceny z volání API, jedna z částí výsledku je `distance`, měřená k nejbližšímu bodu na okraji geofence, s kladnou hodnotou, pokud je bod vně geofence, a zápornou, pokud je uvnitř geofence. Pokud je tato vzdálenost menší než search buffer, skutečná vzdálenost je vrácena v metrech, jinak je hodnota 999 nebo -999. 999 znamená, že bod je vně geofence o více než search buffer, -999 znamená, že je uvnitř geofence o více než search buffer.
 
-![Geofence s 50m search buffer kolem ní](../../../../../translated_images/search-buffer-and-distance.e6a79af3898183c7b2ef6fbf12271b8b34afd23969bb946962b1b18d3d2635e8.cs.png)
+![Geofence s 50m search buffer kolem ní](../../../../../translated_images/search-buffer-and-distance.e6a79af3898183c7.cs.png)
 
 Na obrázku výše má geofence 50m search buffer.
 

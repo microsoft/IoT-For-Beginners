@@ -37,7 +37,7 @@ UART zahrnuje fyzické obvody, které umožňují komunikaci mezi dvěma zaříz
 * Zařízení 1 vysílá data ze svého Tx pinu, která jsou přijímána zařízením 2 na jeho Rx pinu
 * Zařízení 1 přijímá data na svém Rx pinu, která jsou vysílána zařízením 2 z jeho Tx pinu
 
-![UART s Tx pinem na jednom čipu připojeným k Rx pinu na druhém čipu a naopak](../../../../../translated_images/uart.d0dbd3fb9e3728c6ee1995c8206f3cdb13cdfd208f13745e8ef6854cab75e421.cs.png)
+![UART s Tx pinem na jednom čipu připojeným k Rx pinu na druhém čipu a naopak](../../../../../translated_images/uart.d0dbd3fb9e3728c6.cs.png)
 
 > 🎓 Data jsou odesílána po jednom bitu, což se nazývá *sériová* komunikace. Většina operačních systémů a mikrokontrolérů má *sériové porty*, tedy připojení, která mohou odesílat a přijímat sériová data a jsou dostupná vašemu kódu.
 
@@ -66,7 +66,7 @@ SPI je navrženo pro komunikaci na krátké vzdálenosti, například na mikroko
 | SCLK | Sériový hodinový signál | Tento vodič odesílá hodinový signál rychlostí nastavenou řadičem. |
 | CS   | Výběr čipu | Řadič má více vodičů, jeden na periferii, a každý vodič se připojuje k vodiči CS na odpovídající periferii. |
 
-![SPI s jedním řadičem a dvěma periferiemi](../../../../../translated_images/spi.297431d6f98b386b4ff88aea44ce9c1e7acfb1ef69c7e4e388a7aa97b6948e24.cs.png)
+![SPI s jedním řadičem a dvěma periferiemi](../../../../../translated_images/spi.297431d6f98b386b.cs.png)
 
 Vodič CS se používá k aktivaci jedné periferie najednou, komunikaci přes vodiče COPI a CIPO. Když řadič potřebuje změnit periferii, deaktivuje vodič CS připojený k aktuálně aktivní periferii a poté aktivuje vodič připojený k periferii, se kterou chce komunikovat dál.
 
@@ -127,13 +127,13 @@ Vlhkost půdy se měří pomocí gravimetrického nebo objemového obsahu vody.
 
 Senzory vlhkosti půdy měří elektrický odpor nebo kapacitu - to se mění nejen podle vlhkosti půdy, ale také podle typu půdy, protože složky v půdě mohou měnit její elektrické vlastnosti. Ideálně by měly být senzory kalibrovány - tedy odebráním hodnot ze senzoru a jejich porovnáním s měřeními získanými vědeckým přístupem. Například laboratoř může vypočítat gravimetrickou vlhkost půdy pomocí vzorků konkrétního pole odebraných několikrát ročně a tyto hodnoty použít ke kalibraci senzoru, přiřazením hodnoty senzoru k gravimetrické vlhkosti půdy.
 
-![Graf napětí vs obsah vlhkosti půdy](../../../../../translated_images/soil-moisture-to-voltage.df86d80cda1587008f312431ed5f79eb6c50c58d4fbc25a6763c5e9127c3106b.cs.png)
+![Graf napětí vs obsah vlhkosti půdy](../../../../../translated_images/soil-moisture-to-voltage.df86d80cda158700.cs.png)
 
 Výše uvedený graf ukazuje, jak kalibrovat senzor. Napětí je zachyceno pro vzorek půdy, který je poté měřen v laboratoři porovnáním vlhkého hmotnosti se suchou hmotností (měřením hmotnosti vlhké, poté sušením v troubě a měřením suché). Jakmile je odebráno několik hodnot, mohou být vykresleny na grafu a na body může být přizpůsobena čára. Tato čára pak může být použita k převodu hodnot senzoru vlhkosti půdy odebraných IoT zařízením na skutečná měření vlhkosti půdy.
 
 💁 U odporových senzorů vlhkosti půdy napětí roste s rostoucí vlhkostí půdy. U kapacitních senzorů vlhkosti půdy napětí klesá s rostoucí vlhkostí půdy, takže grafy pro tyto senzory by klesaly, nikoli stoupaly.
 
-![Hodnota vlhkosti půdy interpolovaná z grafu](../../../../../translated_images/soil-moisture-to-voltage-with-reading.681cb3e1f8b68caf5547dbf1415851c82e201edfb78face16fc98da4051ed9b2.cs.png)
+![Hodnota vlhkosti půdy interpolovaná z grafu](../../../../../translated_images/soil-moisture-to-voltage-with-reading.681cb3e1f8b68caf.cs.png)
 
 Výše uvedený graf ukazuje hodnotu napětí ze senzoru vlhkosti půdy, a sledováním této hodnoty k čáře na grafu lze vypočítat skutečnou vlhkost půdy.
 

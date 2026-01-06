@@ -115,7 +115,7 @@ Pro prototyp implementujete vše na jednom zařízení. Pokud používáte mikro
 
 IoT zařízení potřebuje nějaký spouštěč, který indikuje, kdy je ovoce připraveno ke klasifikaci. Jedním ze spouštěčů by bylo měření, kdy je ovoce na správném místě na dopravníku, měřením vzdálenosti k senzoru.
 
-![Proximity senzory vysílají laserové paprsky na objekty, jako jsou banány, a měří čas, za který se paprsek odrazí zpět](../../../../../translated_images/proximity-sensor.f5cd752c77fb62fea000156233b32fd24fad3707ec69b8bdd8d312b7af85156d.cs.png)
+![Proximity senzory vysílají laserové paprsky na objekty, jako jsou banány, a měří čas, za který se paprsek odrazí zpět](../../../../../translated_images/proximity-sensor.f5cd752c77fb62fe.cs.png)
 
 Proximity senzory mohou být použity k měření vzdálenosti od senzoru k objektu. Obvykle vysílají paprsek elektromagnetického záření, jako je laserový paprsek nebo infračervené světlo, a poté detekují záření odražené od objektu. Čas mezi vysláním paprsku a odrazem signálu lze použít k výpočtu vzdálenosti k senzoru.
 

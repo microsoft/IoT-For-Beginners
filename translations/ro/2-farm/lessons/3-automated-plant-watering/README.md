@@ -55,11 +55,11 @@ Un releu este un întrerupător electromecanic care convertește un semnal elect
 
 > 🎓 [Electromagneții](https://wikipedia.org/wiki/Electromagnet) sunt magneți creați prin trecerea electricității printr-o bobină de sârmă. Când electricitatea este pornită, bobina devine magnetizată. Când electricitatea este oprită, bobina își pierde magnetismul.
 
-![Când este pornit, electromagnetul creează un câmp magnetic, activând întrerupătorul pentru circuitul de ieșire](../../../../../translated_images/relay-on.4db16a0fd6b669262fd6699aff3fbcd31b6057c06d90411b6bddc06326d1cf75.ro.png)
+![Când este pornit, electromagnetul creează un câmp magnetic, activând întrerupătorul pentru circuitul de ieșire](../../../../../translated_images/relay-on.4db16a0fd6b66926.ro.png)
 
 Într-un releu, un circuit de control alimentează electromagnetul. Când electromagnetul este pornit, acesta trage o pârghie care mișcă un întrerupător, închizând un set de contacte și completând un circuit de ieșire.
 
-![Când este oprit, electromagnetul nu creează un câmp magnetic, dezactivând întrerupătorul pentru circuitul de ieșire](../../../../../translated_images/relay-off.c34a178a2960fecdc3c6400d43e633ed11c6746cd653cfb4a768fa097c40394c.ro.png)
+![Când este oprit, electromagnetul nu creează un câmp magnetic, dezactivând întrerupătorul pentru circuitul de ieșire](../../../../../translated_images/relay-off.c34a178a2960fecd.ro.png)
 
 Când circuitul de control este oprit, electromagnetul se oprește, eliberând pârghia și deschizând contactele, oprind circuitul de ieșire. Releele sunt actuatoare digitale - un semnal ridicat către releu îl pornește, un semnal scăzut îl oprește.
 
@@ -85,7 +85,7 @@ Electromagnetul nu are nevoie de multă putere pentru a se activa și a trage p�
 
 Imaginea de mai sus arată un releu Grove. Circuitul de control se conectează la un dispozitiv IoT și pornește sau oprește releul folosind 3.3V sau 5V. Circuitul de ieșire are două terminale, oricare dintre ele poate fi alimentare sau masă. Circuitul de ieșire poate gestiona până la 250V la 10A, suficient pentru o gamă de dispozitive alimentate de la rețea. Puteți găsi relee care pot gestiona chiar și niveluri mai mari de putere.
 
-![O pompă conectată printr-un releu](../../../../../translated_images/pump-wired-to-relay.66c5cfc0d89189900cd601777f5caeb39ee35c6250f6c86bf38feaceedb21fe9.ro.png)
+![O pompă conectată printr-un releu](../../../../../translated_images/pump-wired-to-relay.66c5cfc0d8918990.ro.png)
 
 În imaginea de mai sus, alimentarea este furnizată unei pompe printr-un releu. Există un fir roșu care conectează terminalul +5V al unei surse de alimentare USB la un terminal al circuitului de ieșire al releului și un alt fir roșu care conectează celălalt terminal al circuitului de ieșire la pompă. Un fir negru conectează pompa la masă pe sursa de alimentare USB. Când releul se pornește, acesta completează circuitul, trimițând 5V către pompă, pornind pompa.
 
@@ -135,7 +135,7 @@ Asigurați-vă că codul rulează pe dispozitivul și serverul local și testaț
 
 Dacă ați realizat lecția anterioară despre umiditatea solului folosind un senzor fizic, ați observat probabil că a durat câteva secunde până când citirea umidității solului a scăzut după ce ați udat planta. Acest lucru nu se întâmplă deoarece senzorul este lent, ci pentru că apa are nevoie de timp pentru a se infiltra în sol.
 💁 Dacă ai udat prea aproape de senzor, este posibil să fi observat cum citirea a scăzut rapid, apoi a revenit - acest lucru se întâmplă deoarece apa din apropierea senzorului se răspândește în restul solului, reducând umiditatea solului în jurul senzorului.
-![O citire a umidității solului de 658 nu se schimbă în timpul udării, ci scade la 320 după udare, când apa a pătruns în sol](../../../../../translated_images/soil-moisture-travel.a0e31af222cf14385de5380dfc32c7b8213960965228b8e4f7b7ab7f73b310a3.ro.png)
+![O citire a umidității solului de 658 nu se schimbă în timpul udării, ci scade la 320 după udare, când apa a pătruns în sol](../../../../../translated_images/soil-moisture-travel.a0e31af222cf1438.ro.png)
 
 În diagrama de mai sus, o citire a umidității solului indică 658. Planta este udată, dar această citire nu se schimbă imediat, deoarece apa nu a ajuns încă la senzor. Udarea poate chiar să se termine înainte ca apa să ajungă la senzor, iar valoarea scade pentru a reflecta noul nivel de umiditate.
 
@@ -157,11 +157,11 @@ Cât timp ar trebui să fie activ releul de fiecare dată? Este mai bine să fii
 
 > 💁 Acest tip de control al sincronizării este foarte specific dispozitivului IoT pe care îl construiești, proprietății pe care o măsori și senzorilor și actuatoarelor utilizate.
 
-![O plantă de căpșuni conectată la apă printr-o pompă, cu pompa conectată la un releu. Releul și un senzor de umiditate al solului din plantă sunt ambele conectate la un Raspberry Pi](../../../../../translated_images/strawberry-with-pump.b410fc72ac6aabad3e28de9775bf2393ead73dcfec6fd8c9bc01cf107ecd171a.ro.png)
+![O plantă de căpșuni conectată la apă printr-o pompă, cu pompa conectată la un releu. Releul și un senzor de umiditate al solului din plantă sunt ambele conectate la un Raspberry Pi](../../../../../translated_images/strawberry-with-pump.b410fc72ac6aabad.ro.png)
 
 De exemplu, am o plantă de căpșuni cu un senzor de umiditate al solului și o pompă controlată de un releu. Am observat că atunci când adaug apă, durează aproximativ 20 de secunde pentru ca citirea umidității solului să se stabilizeze. Aceasta înseamnă că trebuie să opresc releul și să aștept 20 de secunde înainte de a verifica nivelurile de umiditate. Prefer să am prea puțină apă decât prea multă - pot oricând să pornesc pompa din nou, dar nu pot elimina apa din plantă.
 
-![Pasul 1, măsoară. Pasul 2, adaugă apă. Pasul 3, așteaptă ca apa să pătrundă în sol. Pasul 4, măsoară din nou](../../../../../translated_images/soil-moisture-delay.865f3fae206db01d5f8f100f4f44040215d44a0412dd3450aef7ff7b93b6d273.ro.png)
+![Pasul 1, măsoară. Pasul 2, adaugă apă. Pasul 3, așteaptă ca apa să pătrundă în sol. Pasul 4, măsoară din nou](../../../../../translated_images/soil-moisture-delay.865f3fae206db01d.ro.png)
 
 Aceasta înseamnă că cel mai bun proces ar fi un ciclu de udare care arată astfel:
 

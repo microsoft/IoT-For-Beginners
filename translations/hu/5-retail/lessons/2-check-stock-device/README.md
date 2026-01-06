@@ -39,7 +39,7 @@ Az objektumfelismerők használhatók készletellenőrzésre, akár a készlet s
 
 Például, ha egy kamera egy olyan polcra néz, amelyen 8 paradicsompüré konzerv fér el, és az objektumfelismerő csak 7 konzervet észlel, akkor egy hiányzik, és újra kell tölteni.
 
-![7 paradicsompüré konzerv egy polcon, 4 a felső sorban, 3 alatta](../../../../../translated_images/stock-7-cans-tomato-paste.f86059cc573d7becaa89a0eafb9d2cd7e2fe37405a530fe565990e2333d0e4a1.hu.png)
+![7 paradicsompüré konzerv egy polcon, 4 a felső sorban, 3 alatta](../../../../../translated_images/stock-7-cans-tomato-paste.f86059cc573d7bec.hu.png)
 
 A fenti képen az objektumfelismerő 7 paradicsompüré konzervet észlelt egy polcon, amelyen 8 konzerv fér el. Az IoT eszköz nemcsak értesítést küldhet az újratöltés szükségességéről, hanem még a hiányzó elem helyét is megadhatja, ami fontos adat, ha robotokat használsz a polcok újratöltésére.
 
@@ -51,7 +51,7 @@ Néha rossz áruk kerülhetnek a polcokra. Ez lehet emberi hiba az újratöltés
 
 Az objektumfelismerés használható váratlan áruk észlelésére, és értesítheti az embert vagy a robotot, hogy az árut azonnal visszahelyezze.
 
-![Egy eltévedt bébikukorica konzerv a paradicsompüré polcon](../../../../../translated_images/stock-rogue-corn.be1f3ada8c4578544641af66671c1711a4c02297f14cc7f503354dae0d30a954.hu.png)
+![Egy eltévedt bébikukorica konzerv a paradicsompüré polcon](../../../../../translated_images/stock-rogue-corn.be1f3ada8c457854.hu.png)
 
 A fenti képen egy bébikukorica konzerv került a paradicsompüré polcra. Az objektumfelismerő ezt észlelte, lehetővé téve az IoT eszköz számára, hogy értesítse az embert vagy a robotot, hogy helyezze vissza a konzervet a megfelelő helyére.
 

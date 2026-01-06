@@ -33,7 +33,7 @@ Conectează releul.
 
 1. Cu Wio Terminal deconectat de la computer sau de la altă sursă de alimentare, conectează celălalt capăt al cablului Grove la soclul din stânga al Wio Terminal, așa cum privești ecranul. Lasă senzorul de umiditate a solului conectat la soclul din dreapta.
 
-![Releul Grove conectat la soclul din stânga, iar senzorul de umiditate a solului conectat la soclul din dreapta](../../../../../translated_images/wio-relay-and-soil-moisture-sensor.ed722202d42babe0be5f4518cf13e8c2c81e8df21d37839266cbdb60cf30172d.ro.png)
+![Releul Grove conectat la soclul din stânga, iar senzorul de umiditate a solului conectat la soclul din dreapta](../../../../../translated_images/wio-relay-and-soil-moisture-sensor.ed722202d42babe0.ro.png)
 
 1. Introdu senzorul de umiditate a solului în pământ, dacă nu este deja introdus din lecția anterioară.
 

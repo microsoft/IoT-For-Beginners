@@ -37,7 +37,7 @@ Ebben a leckében az alábbiakat fogjuk áttekinteni:
 
 A szöveg beszéddé alakítása, ahogy a neve is sugallja, a szöveg hanggá alakításának folyamata, amely tartalmazza a szöveget kimondott szavakként. Az alapelv az, hogy a szövegben lévő szavakat alkotó hangokra (fonémákra) bontjuk, és ezekhez a hangokhoz hanganyagot illesztünk, akár előre rögzített hangokkal, akár mesterséges intelligencia modellek által generált hangokkal.
 
-![A tipikus szöveg-beszéd rendszerek három szakasza](../../../../../translated_images/tts-overview.193843cf3f5ee09f8b3371a9fdaeb0f116698a07ca69daaa77158da4800e5453.hu.png)
+![A tipikus szöveg-beszéd rendszerek három szakasza](../../../../../translated_images/tts-overview.193843cf3f5ee09f.hu.png)
 
 A szöveg-beszéd rendszerek általában 3 szakaszból állnak:
 

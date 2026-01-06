@@ -130,7 +130,7 @@ Ehhez a leckéhez szükséged lesz egy Fordító erőforrásra. A REST API-t fog
 
 Egy ideális világban az egész alkalmazásodnak annyi különböző nyelvet kellene értenie, amennyit csak lehet, a beszéd felismerésétől kezdve a nyelv megértésén át a válaszadásig beszéd formájában. Ez rengeteg munka, ezért a fordítási szolgáltatások felgyorsíthatják az alkalmazásod szállítási idejét.
 
-![Egy okos időzítő architektúrája, amely japánról angolra fordít, angolul dolgozik, majd visszafordít japánra](../../../../../translated_images/translated-smart-timer.08ac20057fdc5c3778ed41cb425dca5d7fbcd4584b6da7b73ca67115a5b8a883.hu.png)
+![Egy okos időzítő architektúrája, amely japánról angolra fordít, angolul dolgozik, majd visszafordít japánra](../../../../../translated_images/translated-smart-timer.08ac20057fdc5c37.hu.png)
 
 Képzeld el, hogy egy okos időzítőt építesz, amely angolul működik végig, felismeri az angol beszédet, szöveggé alakítja, angolul végzi a nyelv megértését, angolul építi fel a válaszokat, és angol beszéddel válaszol. Ha japán támogatást szeretnél hozzáadni, kezdheted azzal, hogy a japán beszédet angol szöveggé fordítod, majd az alkalmazás magját változatlanul hagyod, végül a válasz szövegét japánra fordítod, mielőtt beszéddé alakítanád. Ez lehetővé tenné, hogy gyorsan hozzáadd a japán támogatást, és később bővítheted a teljes végponttól végpontig tartó japán támogatással.
 

@@ -65,7 +65,7 @@ Fiecare specie de plantă are valori diferite pentru temperatura de bază, optim
 
 ✅ Fă niște cercetări. Pentru orice plante pe care le ai în grădină, școală sau parc local, vezi dacă poți găsi temperatura de bază.
 
-![Un grafic care arată rata de creștere crescând pe măsură ce temperatura crește, apoi scăzând pe măsură ce temperatura devine prea mare](../../../../../translated_images/plant-growth-temp-graph.c6d69c9478e6ca832baa8dcb8d4adcbb67304074ce50e94ac8faae95975177f9.ro.png)
+![Un grafic care arată rata de creștere crescând pe măsură ce temperatura crește, apoi scăzând pe măsură ce temperatura devine prea mare](../../../../../translated_images/plant-growth-temp-graph.c6d69c9478e6ca83.ro.png)
 
 Graficul de mai sus arată un exemplu de grafic al ratei de creștere în funcție de temperatură. Până la temperatura de bază, nu există creștere. Rata de creștere crește până la temperatura optimă, apoi scade după atingerea acestui vârf. La temperatura maximă, creșterea se oprește.
 
@@ -141,7 +141,7 @@ Acest lucru are un impact mare asupra muncii pe o fermă mare și riscă ca ferm
 
 Prin colectarea datelor despre temperatură folosind un dispozitiv IoT, un fermier poate fi notificat automat când plantele sunt aproape de maturitate. O arhitectură tipică pentru acest lucru este ca dispozitivele IoT să măsoare temperatura, apoi să publice aceste date de telemetrie pe Internet folosind ceva precum MQTT. Codul serverului ascultă aceste date și le salvează undeva, cum ar fi într-o bază de date. Acest lucru înseamnă că datele pot fi apoi analizate mai târziu, cum ar fi o sarcină nocturnă pentru a calcula GDD pentru ziua respectivă, a totaliza GDD pentru fiecare cultură până acum și a alerta dacă o plantă este aproape de maturitate.
 
-![Datele de telemetrie sunt trimise către un server și apoi salvate într-o bază de date](../../../../../translated_images/save-telemetry-database.ddc9c6bea0c5ba39449966a463ca6748cd8e2d565dab44ff31c9f1d2f6c21d27.ro.png)
+![Datele de telemetrie sunt trimise către un server și apoi salvate într-o bază de date](../../../../../translated_images/save-telemetry-database.ddc9c6bea0c5ba39.ro.png)
 
 Codul serverului poate, de asemenea, să completeze datele adăugând informații suplimentare. De exemplu, dispozitivul IoT poate publica un identificator pentru a indica ce dispozitiv este, iar codul serverului poate utiliza acest lucru pentru a găsi locația dispozitivului și ce culturi monitorizează. De asemenea, poate adăuga date de bază, cum ar fi ora curentă, deoarece unele dispozitive IoT nu au hardware-ul necesar pentru a ține evidența unei ore exacte sau necesită cod suplimentar pentru a citi ora curentă de pe Internet.
 
@@ -228,7 +228,7 @@ Acest cod deschide fișierul CSV, apoi adaugă un rând nou la final. Rândul co
 
     
 > 💁 Dacă folosești un dispozitiv IoT virtual, selectează caseta de bifare pentru valori aleatorii și setează un interval pentru a evita obținerea aceleiași temperaturi de fiecare dată când este returnată valoarea temperaturii.
-    ![Selectează caseta de bifare pentru valori aleatorii și setează un interval](../../../../../translated_images/select-the-random-checkbox-and-set-a-range.32cf4bc7c12e797f8c76616b10c7c23a6592321bb1a6310e0b481e72f97d23b3.ro.png) 
+    ![Selectează caseta de bifare pentru valori aleatorii și setează un interval](../../../../../translated_images/select-the-random-checkbox-and-set-a-range.32cf4bc7c12e797f.ro.png) 
 
     > 💁 Dacă vrei să rulezi acest cod o zi întreagă, trebuie să te asiguri că computerul pe care rulează codul serverului nu va intra în modul de repaus, fie prin schimbarea setărilor de alimentare, fie rulând ceva precum [acest script Python pentru menținerea activității sistemului](https://github.com/jaqsparow/keep-system-active).
     

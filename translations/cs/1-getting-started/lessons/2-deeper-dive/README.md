@@ -41,7 +41,7 @@ IoT aplikace se skládá ze dvou hlavních částí: *Internetu* a *zařízení*
 
 ### Zařízení
 
-![Raspberry Pi 4](../../../../../translated_images/raspberry-pi-4.fd4590d308c3d456db1327e86b395ddcd735513267aafd4879ea2785f7792eac.cs.jpg)
+![Raspberry Pi 4](../../../../../translated_images/raspberry-pi-4.fd4590d308c3d456.cs.jpg)
 
 **Zařízení** v IoT označuje zařízení, které dokáže interagovat s fyzickým světem. Tato zařízení jsou obvykle malá, cenově dostupná a mají nízkou spotřebu energie. Například jednoduché mikrokontroléry s několika kilobajty RAM (oproti gigabajtům v PC), běžící na několika stovkách megahertzů (oproti gigahertzům v PC), ale s tak nízkou spotřebou energie, že mohou fungovat týdny, měsíce nebo dokonce roky na baterie.
 
@@ -67,7 +67,7 @@ V případě chytrého termostatu by se termostat připojil k domácí WiFi a n�
 
 Ještě chytřejší verze by mohla využívat AI v cloudu s daty z dalších senzorů připojených k jiným IoT zařízením, jako jsou senzory obsazenosti, které detekují, které místnosti jsou využívány, stejně jako data o počasí nebo váš kalendář, aby inteligentně nastavovala teplotu. Například by mohla vypnout topení, pokud zjistí z vašeho kalendáře, že jste na dovolené, nebo vypnout topení v jednotlivých místnostech podle toho, které místnosti používáte, a postupně se učit z dat, aby byla stále přesnější.
 
-![Schéma ukazující více teplotních senzorů a otočný knoflík jako vstupy do IoT zařízení, obousměrnou komunikaci mezi IoT zařízením a cloudem, který dále komunikuje s telefonem, kalendářem a službou počasí, a ovládání topení jako výstup z IoT zařízení](../../../../../translated_images/smarter-thermostat.a75855f15d2d9e63d5da9d7ba5847a987f6c9d98e96e770c203532275194e27d.cs.png)
+![Schéma ukazující více teplotních senzorů a otočný knoflík jako vstupy do IoT zařízení, obousměrnou komunikaci mezi IoT zařízením a cloudem, který dále komunikuje s telefonem, kalendářem a službou počasí, a ovládání topení jako výstup z IoT zařízení](../../../../../translated_images/smarter-thermostat.a75855f15d2d9e63.cs.png)
 
 ✅ Jaká další data by mohla pomoci udělat internetově připojený termostat chytřejším?
 
@@ -135,7 +135,7 @@ Stejně jako u CPU je paměť na mikrokontroléru o několik řádů menší ne�
 
 Diagram níže ukazuje relativní rozdíl ve velikosti mezi 192 KB a 8 GB - malá tečka uprostřed představuje 192 KB.
 
-![Porovnání mezi 192 KB a 8 GB - více než 40 000krát větší](../../../../../translated_images/ram-comparison.6beb73541b42ac6ffde64cdf79fc925a84b932ce7ebd4d41d5fd7afc1257a696.cs.png)
+![Porovnání mezi 192 KB a 8 GB - více než 40 000krát větší](../../../../../translated_images/ram-comparison.6beb73541b42ac6f.cs.png)
 
 Úložiště pro programy je také menší než u PC. Typický počítač může mít 500GB pevný disk pro ukládání programů, zatímco mikrokontrolér může mít pouze kilobajty nebo možná několik megabajtů (MB) úložiště (1 MB je 1 000 KB, nebo 1 000 000 bajtů). Wio terminál má 4 MB úložiště pro programy.
 
@@ -211,17 +211,17 @@ V minulé lekci jsme představili jednodeskové počítače. Nyní se na ně pod
 
 ### Raspberry Pi
 
-![Logo Raspberry Pi](../../../../../translated_images/raspberry-pi-logo.4efaa16605cee05489d8fa53941e991b3757aa24c20a95abdcf8cfd761953596.cs.png)
+![Logo Raspberry Pi](../../../../../translated_images/raspberry-pi-logo.4efaa16605cee054.cs.png)
 
 [Nadace Raspberry Pi](https://www.raspberrypi.org) je charitativní organizace z Velké Británie založená v roce 2009 na podporu studia informatiky, zejména na školní úrovni. V rámci této mise vyvinuli jednodeskový počítač nazvaný Raspberry Pi. Raspberry Pi jsou aktuálně dostupné ve 3 variantách - plné velikosti, menší Pi Zero a výpočetní modul, který lze zabudovat do vašeho finálního IoT zařízení.
 
-![Raspberry Pi 4](../../../../../translated_images/raspberry-pi-4.fd4590d308c3d456db1327e86b395ddcd735513267aafd4879ea2785f7792eac.cs.jpg)
+![Raspberry Pi 4](../../../../../translated_images/raspberry-pi-4.fd4590d308c3d456.cs.jpg)
 
 Nejnovější iterací plnohodnotného Raspberry Pi je Raspberry Pi 4B. Má čtyřjádrový (4 jádra) CPU běžící na 1,5 GHz, 2, 4 nebo 8 GB RAM, gigabitový ethernet, WiFi, 2 HDMI porty podporující 4k obrazovky, audio a kompozitní video výstupní port, USB porty (2 USB 2.0, 2 USB 3.0), 40 GPIO pinů, konektor pro kameru Raspberry Pi a slot na SD kartu. To vše na desce o rozměrech 88 mm x 58 mm x 19,5 mm, napájené 3A USB-C napájecím zdrojem. Tyto desky začínají na ceně 35 USD, což je mnohem levnější než PC nebo Mac.
 
 > 💁 Existuje také Pi400, vše v jednom počítač s Pi4 zabudovaným do klávesnice.
 
-![Raspberry Pi Zero](../../../../../translated_images/raspberry-pi-zero.f7a4133e1e7d54bb3dbb32319b217a53c5b94871995a54647f2894b54206b8d8.cs.jpg)
+![Raspberry Pi Zero](../../../../../translated_images/raspberry-pi-zero.f7a4133e1e7d54bb.cs.jpg)
 
 Pi Zero je mnohem menší a má nižší výkon. Má jednojádrový 1GHz CPU, 512 MB RAM, WiFi (v modelu Zero W), jeden HDMI port, micro-USB port, 40 GPIO pinů, konektor pro kameru Raspberry Pi a slot na SD kartu. Měří 65 mm x 30 mm x 5 mm a spotřebovává velmi málo energie. Zero stojí 5 USD, verze W s WiFi 10 USD.
 
