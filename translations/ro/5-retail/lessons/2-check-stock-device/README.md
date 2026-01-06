@@ -39,7 +39,7 @@ Detectoarele de obiecte pot fi utilizate pentru verificarea stocului, fie pentru
 
 De exemplu, dacă o cameră este îndreptată spre un set de rafturi care pot ține 8 conserve de pastă de tomate, iar un detector de obiecte detectează doar 7 conserve, atunci una lipsește și trebuie reumplută.
 
-![7 conserve de pastă de tomate pe un raft, 4 pe rândul de sus, 3 pe rândul de jos](../../../../../translated_images/stock-7-cans-tomato-paste.f86059cc573d7becaa89a0eafb9d2cd7e2fe37405a530fe565990e2333d0e4a1.ro.png)
+![7 conserve de pastă de tomate pe un raft, 4 pe rândul de sus, 3 pe rândul de jos](../../../../../translated_images/stock-7-cans-tomato-paste.f86059cc573d7bec.ro.png)
 
 În imaginea de mai sus, un detector de obiecte a detectat 7 conserve de pastă de tomate pe un raft care poate ține 8 conserve. Dispozitivul IoT nu doar că poate trimite o notificare despre necesitatea reumplerii, dar poate chiar să ofere o indicație despre locația articolului lipsă, informație importantă dacă folosești roboți pentru a reumple rafturile.
 
@@ -51,7 +51,7 @@ Uneori, stocul greșit poate ajunge pe rafturi. Acest lucru poate fi o eroare um
 
 Detectarea obiectelor poate fi utilizată pentru a detecta articole neașteptate, alertând din nou un om sau un robot să returneze articolul imediat ce este detectat.
 
-![O conservă de porumb pentru bebeluși pe raftul de pastă de tomate](../../../../../translated_images/stock-rogue-corn.be1f3ada8c4578544641af66671c1711a4c02297f14cc7f503354dae0d30a954.ro.png)
+![O conservă de porumb pentru bebeluși pe raftul de pastă de tomate](../../../../../translated_images/stock-rogue-corn.be1f3ada8c457854.ro.png)
 
 În imaginea de mai sus, o conservă de porumb pentru bebeluși a fost pusă pe raftul de pastă de tomate. Detectorul de obiecte a detectat acest lucru, permițând dispozitivului IoT să notifice un om sau un robot să returneze conserva la locația corectă.
 

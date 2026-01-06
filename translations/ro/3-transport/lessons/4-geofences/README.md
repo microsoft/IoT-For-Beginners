@@ -110,7 +110,7 @@ Fiecare punct de pe poligon este definit ca o pereche longitudine, latitudine î
 
 Array-ul de coordonate ale poligonului are întotdeauna cu 1 intrare mai mult decât numărul de puncte de pe poligon, ultima intrare fiind aceeași cu prima, închizând poligonul. De exemplu, pentru un dreptunghi ar exista 5 puncte.
 
-![Un dreptunghi cu coordonate](../../../../../translated_images/polygon-points.302193da381cb415f46c2c7a98496ee4be05d6c73d21238a89721ad93e121233.ro.png)
+![Un dreptunghi cu coordonate](../../../../../translated_images/polygon-points.302193da381cb415.ro.png)
 
 În imaginea de mai sus, există un dreptunghi. Coordonatele poligonului încep din colțul stânga-sus la 47,-122, apoi se deplasează spre dreapta la 47,-121, apoi în jos la 46,-121, apoi spre stânga la 46, -122, apoi înapoi la punctul de pornire la 47, -122. Acest lucru oferă poligonului 5 puncte - stânga-sus, dreapta-sus, dreapta-jos, stânga-jos, apoi stânga-sus pentru a-l închide.
 
@@ -208,7 +208,7 @@ Când faceți această cerere, puteți transmite și o valoare numită `searchBu
 
 Când rezultatele sunt returnate din apelul API, una dintre părțile rezultatului este o `distance` măsurată până la cel mai apropiat punct de pe marginea geofence-ului, cu o valoare pozitivă dacă punctul este în afara geofence-ului, negativă dacă este în interiorul geofence-ului. Dacă această distanță este mai mică decât bufferul de căutare, distanța reală este returnată în metri, altfel valoarea este 999 sau -999. 999 înseamnă că punctul este în afara geofence-ului cu mai mult decât bufferul de căutare, -999 înseamnă că este în interiorul geofence-ului cu mai mult decât bufferul de căutare.
 
-![O geofence cu un buffer de căutare de 50m în jurul său](../../../../../translated_images/search-buffer-and-distance.e6a79af3898183c7b2ef6fbf12271b8b34afd23969bb946962b1b18d3d2635e8.ro.png)
+![O geofence cu un buffer de căutare de 50m în jurul său](../../../../../translated_images/search-buffer-and-distance.e6a79af3898183c7.ro.png)
 
 În imaginea de mai sus, geofence-ul are un buffer de căutare de 50m.
 

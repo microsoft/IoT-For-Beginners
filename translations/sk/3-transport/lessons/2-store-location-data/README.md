@@ -66,7 +66,7 @@ Databázy sú služby, ktoré umožňujú ukladať a vyhľadávať údaje. Datab
 
 Prvé databázy boli relačné databázové systémy (RDBMS), alebo relačné databázy. Tieto sú tiež známe ako SQL databázy podľa jazyka Structured Query Language (SQL), ktorý sa používa na interakciu s nimi na pridávanie, odstraňovanie, aktualizáciu alebo vyhľadávanie údajov. Tieto databázy pozostávajú zo schémy - dobre definovanej sady tabuliek údajov, podobnej tabuľke. Každá tabuľka má viacero pomenovaných stĺpcov. Keď vkladáte údaje, pridávate riadok do tabuľky, pričom vkladáte hodnoty do každého stĺpca. To udržuje údaje v veľmi pevnej štruktúre - aj keď môžete nechať stĺpce prázdne, ak chcete pridať nový stĺpec, musíte to urobiť v databáze, pričom vyplníte hodnoty pre existujúce riadky. Tieto databázy sú relačné - jeden stôl môže mať vzťah k inému.
 
-![Relačná databáza s ID tabuľky používateľov, ktoré sa vzťahuje na stĺpec ID používateľa tabuľky nákupov, a ID tabuľky produktov, ktoré sa vzťahuje na stĺpec ID produktu tabuľky nákupov](../../../../../translated_images/sql-database.be160f12bfccefd3ca718a66468c2c4c89c53e5aad4c295324d576da87f9dfdd.sk.png)
+![Relačná databáza s ID tabuľky používateľov, ktoré sa vzťahuje na stĺpec ID používateľa tabuľky nákupov, a ID tabuľky produktov, ktoré sa vzťahuje na stĺpec ID produktu tabuľky nákupov](../../../../../translated_images/sql-database.be160f12bfccefd3.sk.png)
 
 Napríklad, ak by ste ukladali osobné údaje používateľov do tabuľky, mali by ste nejaké interné jedinečné ID pre každého používateľa, ktoré sa používa v riadku tabuľky obsahujúcej meno a adresu používateľa. Ak by ste potom chceli uložiť ďalšie údaje o tomto používateľovi, ako jeho nákupy, do inej tabuľky, mali by ste jeden stĺpec v novej tabuľke pre ID tohto používateľa. Keď vyhľadávate používateľa, môžete použiť jeho ID na získanie jeho osobných údajov z jednej tabuľky a jeho nákupov z inej.
 
@@ -241,7 +241,7 @@ Vaša aplikácia funkcií teraz potrebuje pripojiť sa k blob úložisku, aby mo
 
 V tejto lekcii použijete Python SDK, aby ste videli, ako pracovať s blob úložiskom.
 
-![Odosielanie GPS telemetrie z IoT zariadenia do IoT Hubu, potom do Azure Functions cez spúšťač udalostí Event Hub, a následne ukladanie do blob úložiska](../../../../../translated_images/save-telemetry-to-storage-from-functions.ed3b1820980097f143d9f0570072da11304c2bc7906359dfa075b4d9b253c20f.sk.png)
+![Odosielanie GPS telemetrie z IoT zariadenia do IoT Hubu, potom do Azure Functions cez spúšťač udalostí Event Hub, a následne ukladanie do blob úložiska](../../../../../translated_images/save-telemetry-to-storage-from-functions.ed3b1820980097f1.sk.png)
 
 Údaje budú uložené ako JSON blob s nasledujúcim formátom:
 

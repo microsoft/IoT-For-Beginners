@@ -37,7 +37,7 @@ Unganisha kihisi cha unyevu wa udongo.
 
 1. Ingiza kihisi cha unyevu wa udongo kwenye udongo. Kina mstari wa 'kiwango cha juu zaidi' - mstari mweupe kwenye kihisi. Ingiza kihisi hadi mstari huu lakini usivuke mstari.
 
-![Kihisi cha unyevu wa udongo cha Grove kwenye udongo](../../../../../translated_images/soil-moisture-sensor-in-soil.bfad91002bda5e960f8c51ee64b02ee59b32c8c717e3515a2c945f33e614e403.sw.png)
+![Kihisi cha unyevu wa udongo cha Grove kwenye udongo](../../../../../translated_images/soil-moisture-sensor-in-soil.bfad91002bda5e96.sw.png)
 
 ## Programu ya kihisi cha unyevu wa udongo
 

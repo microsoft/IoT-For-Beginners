@@ -41,7 +41,7 @@ Serverless, alebo serverless computing, zahŕňa vytváranie malých blokov kód
 
 > 💁 Ak ste už používali databázové triggery, môžete si to predstaviť ako podobný koncept, kód spúšťaný udalosťou, ako je napríklad vloženie riadku.
 
-![Keď sa naraz odošle veľa udalostí, serverless služba sa škáluje tak, aby ich všetky spracovala naraz](../../../../../translated_images/serverless-scaling.f8c769adf0413fd17be1af4f07ff63016b347e2ff869be6c4abb211f9e93909d.sk.png)
+![Keď sa naraz odošle veľa udalostí, serverless služba sa škáluje tak, aby ich všetky spracovala naraz](../../../../../translated_images/serverless-scaling.f8c769adf0413fd1.sk.png)
 
 Váš kód sa spúšťa iba vtedy, keď sa udalosť stane, inak nie je aktívny. Udalosť sa stane, váš kód sa načíta a spustí. To robí serverless veľmi škálovateľným - ak sa naraz stane veľa udalostí, poskytovateľ cloudu môže spustiť vašu funkciu toľkokrát, koľko je potrebné, na dostupných serveroch. Nevýhodou je, že ak potrebujete zdieľať informácie medzi udalosťami, musíte ich uložiť niekde, napríklad do databázy, namiesto ukladania do pamäte.
 
@@ -244,7 +244,7 @@ CLI Azure Functions môže byť použité na vytvorenie novej aplikácie funkci�
     VS Code. Initialize for optimal use with VS Code?
     ```
 
-    ![Upozornenie](../../../../../translated_images/vscode-azure-functions-init-notification.bd19b49229963edb5311fb3a79445ea469424759d2917ee2f2eb6f92d65d5086.sk.png)
+    ![Upozornenie](../../../../../translated_images/vscode-azure-functions-init-notification.bd19b49229963edb.sk.png)
 
     V tomto upozornení vyberte **Áno**.
 

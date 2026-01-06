@@ -81,7 +81,7 @@ Ca un pas util de depanare, poți nu doar să afișezi casetele de delimitare, c
 
 1. Rulează aplicația cu camera îndreptată spre stocul de pe un raft. Vei vedea fișierul `image.jpg` în explorer-ul VS Code și vei putea să-l selectezi pentru a vedea casetele de delimitare.
 
-    ![4 conserve de pastă de roșii cu casete de delimitare în jurul fiecărei conserve](../../../../../translated_images/rpi-stock-with-bounding-boxes.b5540e2ecb7cd49f1271828d3be412671d950e87625c5597ea97c90f11e01097.ro.jpg)
+    ![4 conserve de pastă de roșii cu casete de delimitare în jurul fiecărei conserve](../../../../../translated_images/rpi-stock-with-bounding-boxes.b5540e2ecb7cd49f.ro.jpg)
 
 ## Numără stocul
 

@@ -75,7 +75,7 @@ Baadhi ya vihisi vya msingi zaidi ni vya analogi. Vihisi hivi hupokea voltage ku
 
 Mfano mmoja wa hili ni potentiometer. Hii ni kidhibiti unachoweza kuzungusha kati ya nafasi mbili na kihisi kinapima mzunguko.
 
-![Potentiometer iliyowekwa katikati ikitumwa volts 5 ikirudisha volts 3.8](../../../../../translated_images/potentiometer.35a348b9ce22f6ec1199ad37d68692d04185456ccbc2541a454bb6698be9f19c.sw.png)
+![Potentiometer iliyowekwa katikati ikitumwa volts 5 ikirudisha volts 3.8](../../../../../translated_images/potentiometer.35a348b9ce22f6ec.sw.png)
 
 Kifaa cha IoT kitatoa ishara ya umeme kwa potentiometer kwa voltage, kama vile volts 5 (5V). Potentiometer inaporekebishwa inabadilisha voltage inayotoka upande mwingine. Fikiria una potentiometer iliyoandikwa kama kidhibiti kinachokwenda kutoka 0 hadi [11](https://wikipedia.org/wiki/Up_to_eleven), kama kidhibiti cha sauti kwenye amplifier. Wakati potentiometer iko katika nafasi ya kuzimwa kabisa (0) basi 0V (volts 0) itatoka. Wakati iko katika nafasi ya kuwashwa kabisa (11), 5V (volts 5) itatoka.
 
@@ -112,7 +112,7 @@ Pini kwenye vifaa vya IoT kama pini za GPIO zinaweza kupima ishara hii moja kwa 
 
 Vihisi vya dijitali vya hali ya juu zaidi husoma thamani za analogi, kisha kuzibadilisha kwa kutumia ADC zilizojengwa ndani kuwa ishara za dijitali. Kwa mfano, kihisi cha joto cha dijitali bado kitatumia thermocouple kwa njia sawa na kihisi cha analogi, na bado kitapima mabadiliko ya voltage yanayosababishwa na upinzani wa thermocouple kwa joto la sasa. Badala ya kurudisha thamani ya analogi na kutegemea kifaa au bodi ya kiunganishi kubadilisha kuwa ishara ya dijitali, ADC iliyojengwa ndani ya kihisi itabadilisha thamani na kuituma kama mfululizo wa 0 na 1 kwa kifaa cha IoT. 0 na 1 hizi zitatumwa kwa njia sawa na ishara ya dijitali kwa kitufe ambapo 1 ni voltage kamili na 0 ni 0V.
 
-![Kihisi cha joto cha dijitali kinachobadilisha usomaji wa analogi kuwa data ya binary na 0 kama volts 0 na 1 kama volts 5 kabla ya kuituma kwa kifaa cha IoT](../../../../../translated_images/temperature-as-digital.85004491b977bae1129707df107c0b19fe6fc6374210e9027e04acb34a640c78.sw.png)
+![Kihisi cha joto cha dijitali kinachobadilisha usomaji wa analogi kuwa data ya binary na 0 kama volts 0 na 1 kama volts 5 kabla ya kuituma kwa kifaa cha IoT](../../../../../translated_images/temperature-as-digital.85004491b977bae1.sw.png)
 
 Kutuma data ya dijitali kunaruhusu vihisi kuwa vya hali ya juu zaidi na kutuma data ya kina zaidi, hata data iliyosimbwa kwa vihisi salama. Mfano mmoja ni kamera. Hiki ni kihisi kinachokamata picha na kuituma kama data ya dijitali inayojumuisha picha hiyo, kwa kawaida katika muundo uliobanwa kama JPEG, kusomwa na kifaa cha IoT. Inaweza hata kutiririsha video kwa kukamata picha na kutuma ama picha kamili fremu kwa fremu au mkondo wa video uliobanwa.
 
@@ -164,7 +164,7 @@ Kwa mfano, unaweza kutumia PWM kudhibiti kasi ya motor.
 
 Fikiria unadhibiti motor yenye usambazaji wa 5V. Unatuma pigo fupi kwa motor yako, ukibadilisha voltage kuwa ya juu (5V) kwa sekunde mbili ya mia (0.02s). Katika muda huo motor yako inaweza kuzunguka sehemu moja ya kumi ya mzunguko, au 36°. Ishara kisha inasimama kwa sekunde mbili ya mia (0.02s), ikituma ishara ya chini (0V). Kila mzunguko wa kuwasha kisha kuzima hudumu 0.04s. Mzunguko kisha unarudiwa.
 
-![Modulation ya upana wa mapigo ikizungusha motor kwa RPM 150](../../../../../translated_images/pwm-motor-150rpm.83347ac04ca38482bd120939b133803963c9c15ca9d8d484712a4bd92820f6a4.sw.png)
+![Modulation ya upana wa mapigo ikizungusha motor kwa RPM 150](../../../../../translated_images/pwm-motor-150rpm.83347ac04ca38482.sw.png)
 
 Hii inamaanisha kwa sekunde moja unakuwa na mapigo 25 ya 5V ya 0.02s yanayozungusha motor, kila moja ikifuatiwa na pause ya 0.02s ya 0V ambayo haizungushi motor. Kila pigo huzungusha motor sehemu moja ya kumi ya mzunguko, ikimaanisha motor inakamilisha mizunguko 2.5 kwa sekunde. Umetumia ishara ya kidijitali kuzungusha motor kwa mizunguko 2.5 kwa sekunde, au 150 [mizunguko kwa dakika](https://wikipedia.org/wiki/Revolutions_per_minute) (kipimo kisicho rasmi cha kasi ya mzunguko).
 
@@ -175,7 +175,7 @@ Hii inamaanisha kwa sekunde moja unakuwa na mapigo 25 ya 5V ya 0.02s yanayozungu
 
 > 🎓 Wakati ishara ya PWM iko juu kwa nusu ya muda, na chini kwa nusu ya muda inajulikana kama [mzunguko wa wajibu wa 50%](https://wikipedia.org/wiki/Duty_cycle). Mizunguko ya wajibu hupimwa kama asilimia ya muda ambao ishara iko katika hali ya juu ikilinganishwa na hali ya chini.
 
-![Modulation ya upana wa mapigo ikizungusha motor kwa RPM 75](../../../../../translated_images/pwm-motor-75rpm.a5e4c939934b6e14fd9e98e4f2c9539d723da2b18f490eae0948dd044d18ff7e.sw.png)
+![Modulation ya upana wa mapigo ikizungusha motor kwa RPM 75](../../../../../translated_images/pwm-motor-75rpm.a5e4c939934b6e14.sw.png)
 
 Unaweza kubadilisha kasi ya motor kwa kubadilisha ukubwa wa mapigo. Kwa mfano, kwa motor ile ile unaweza kuweka muda wa mzunguko ule ule wa 0.04s, na pigo la juu likipunguzwa nusu hadi 0.01s, na pause ya chini ikiongezeka hadi 0.03s. Unakuwa na idadi ile ile ya mapigo kwa sekunde (25), lakini kila pigo la juu ni nusu ya urefu. Pigo la nusu urefu huzungusha motor sehemu moja ya ishirini ya mzunguko, na kwa mapigo 25 kwa sekunde itakamilisha mizunguko 1.25 kwa sekunde au 75rpm. Kwa kubadilisha kasi ya mapigo ya ishara ya kidijitali umepunguza kasi ya motor ya analogi kwa nusu.
 

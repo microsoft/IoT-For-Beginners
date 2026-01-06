@@ -154,11 +154,11 @@ Unda programu ya Python kuchapisha `"Hello World"` kwenye koni.
 
 1. Wakati VS Code inazinduliwa, itawasha mazingira ya mtandaoni ya Python. Mazingira ya mtandaoni yaliyochaguliwa yataonekana kwenye upau wa hali ya chini:
 
-    ![VS Code ikionyesha mazingira ya mtandaoni yaliyochaguliwa](../../../../../translated_images/vscode-virtual-env.8ba42e04c3d533cf677e16cbe5ed9a3b80f62c6964472dc84b6f940800f0909f.sw.png)
+    ![VS Code ikionyesha mazingira ya mtandaoni yaliyochaguliwa](../../../../../translated_images/vscode-virtual-env.8ba42e04c3d533cf.sw.png)
 
 1. Ikiwa terminal ya VS Code tayari inaendesha wakati VS Code inapoanza, haitakuwa na mazingira ya mtandaoni yaliyoamilishwa ndani yake. Jambo rahisi kufanya ni kuua terminal kwa kutumia kitufe cha **Kill the active terminal instance**:
 
-    ![Kitufe cha VS Code Kill the active terminal instance](../../../../../translated_images/vscode-kill-terminal.1cc4de7c6f25ee08f423f0ead714e61d069fac1eb2089e97b8a7bbcb3d45fe5e.sw.png)
+    ![Kitufe cha VS Code Kill the active terminal instance](../../../../../translated_images/vscode-kill-terminal.1cc4de7c6f25ee08.sw.png)
 
     Unaweza kujua ikiwa terminal ina mazingira ya mtandaoni yaliyoamilishwa kwani jina la mazingira ya mtandaoni litakuwa kiambishi awali kwenye prompt ya terminal. Kwa mfano, inaweza kuwa:
 
@@ -229,7 +229,7 @@ Kama hatua ya pili ya 'Hello World', utaendesha programu ya CounterFit na kuunga
 
 1. Utahitaji kuzindua terminal mpya ya VS Code kwa kuchagua kitufe cha **Create a new integrated terminal**. Hii ni kwa sababu programu ya CounterFit inaendesha kwenye terminal ya sasa.
 
-    ![Kitufe cha VS Code Create a new integrated terminal](../../../../../translated_images/vscode-new-terminal.77db8fc0f9cd31824b0e49a201beafe4ae4616d6c7339992cb2819e789b3eff9.sw.png)
+    ![Kitufe cha VS Code Create a new integrated terminal](../../../../../translated_images/vscode-new-terminal.77db8fc0f9cd3182.sw.png)
 
 1. Katika terminal hii mpya, endesha faili ya `app.py` kama awali. Hali ya CounterFit itabadilika kuwa **Connected** na LED itawaka.
 

@@ -31,7 +31,7 @@ Unganisha kihisi cha joto
 
 1. Ukiwa na Raspberry Pi imezimwa, unganisha mwisho mwingine wa kebo ya Grove kwenye soketi ya kidijitali iliyoandikwa **D5** kwenye Grove Base hat iliyounganishwa na Pi. Soketi hii ni ya pili kutoka kushoto, kwenye safu ya soketi karibu na pini za GPIO.
 
-![Kihisi cha joto cha Grove kimeunganishwa kwenye soketi A0](../../../../../translated_images/pi-temperature-sensor.3ff82fff672c8e565ef25a39d26d111de006b825a7e0867227ef4e7fbff8553c.sw.png)
+![Kihisi cha joto cha Grove kimeunganishwa kwenye soketi A0](../../../../../translated_images/pi-temperature-sensor.3ff82fff672c8e56.sw.png)
 
 ## Programu ya kihisi cha joto
 

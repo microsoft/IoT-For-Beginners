@@ -75,7 +75,7 @@ Niektoré z najzákladnejších senzorov sú analógové senzory. Tieto senzory 
 
 Jedným z príkladov je potenciometer. Ide o otočný ovládač, ktorý môžete otáčať medzi dvoma polohami, pričom senzor meria rotáciu.
 
-![Potenciometer nastavený na strednú hodnotu, ktorý prijíma 5 voltov a vracia 3,8 voltu](../../../../../translated_images/potentiometer.35a348b9ce22f6ec1199ad37d68692d04185456ccbc2541a454bb6698be9f19c.sk.png)
+![Potenciometer nastavený na strednú hodnotu, ktorý prijíma 5 voltov a vracia 3,8 voltu](../../../../../translated_images/potentiometer.35a348b9ce22f6ec.sk.png)
 
 IoT zariadenie pošle elektrický signál do potenciometra s určitým napätím, napríklad 5 voltov (5V). Keď sa potenciometer nastaví, mení sa napätie, ktoré vychádza na druhej strane. Predstavte si potenciometer označený ako ovládač, ktorý ide od 0 do [11](https://wikipedia.org/wiki/Up_to_eleven), napríklad ovládač hlasitosti na zosilňovači. Keď je potenciometer v úplne vypnutej polohe (0), vychádza 0V (0 voltov). Keď je v úplne zapnutej polohe (11), vychádza 5V (5 voltov).
 
@@ -112,7 +112,7 @@ Piny na IoT zariadeniach, ako sú GPIO piny, môžu tento signál priamo merať 
 
 Pokročilejšie digitálne senzory čítajú analógové hodnoty a potom ich konvertujú pomocou zabudovaných ADC na digitálne signály. Napríklad digitálny teplotný senzor stále používa termočlánok rovnakým spôsobom ako analógový senzor a stále meria zmenu napätia spôsobenú odporom termočlánku pri aktuálnej teplote. Namiesto vrátenia analógovej hodnoty a spoliehania sa na zariadenie alebo pripojovaciu dosku na konverziu na digitálny signál, ADC zabudovaný v senzore konvertuje hodnotu a posiela ju ako sériu 0 a 1 do IoT zariadenia. Tieto 0 a 1 sú posielané rovnakým spôsobom ako digitálny signál pre tlačidlo, kde 1 predstavuje plné napätie a 0 predstavuje 0V.
 
-![Digitálny teplotný senzor konvertujúci analógové čítanie na binárne dáta s 0 ako 0 voltov a 1 ako 5 voltov pred odoslaním do IoT zariadenia](../../../../../translated_images/temperature-as-digital.85004491b977bae1129707df107c0b19fe6fc6374210e9027e04acb34a640c78.sk.png)
+![Digitálny teplotný senzor konvertujúci analógové čítanie na binárne dáta s 0 ako 0 voltov a 1 ako 5 voltov pred odoslaním do IoT zariadenia](../../../../../translated_images/temperature-as-digital.85004491b977bae1.sk.png)
 
 Posielanie digitálnych dát umožňuje senzorom byť zložitejšími a posielať podrobnejšie dáta, dokonca aj šifrované dáta pre bezpečné senzory. Jedným príkladom je kamera. Ide o senzor, ktorý zachytáva obraz a posiela ho ako digitálne dáta obsahujúce tento obraz, zvyčajne v komprimovanom formáte, ako je JPEG, aby ho mohlo čítať IoT zariadenie. Dokáže dokonca streamovať video zachytávaním obrázkov a posielaním buď kompletného obrazu rám po ráme, alebo komprimovaného video streamu.
 
@@ -164,7 +164,7 @@ Napríklad môžete použiť PWM na ovládanie rýchlosti motora.
 
 Predstavte si, že ovládate motor s napájaním 5V. Pošlete krátky impulz do motora, čím prepnete napätie na vysoké (5V) na dve stotiny sekundy (0,02s). Počas tejto doby sa motor môže otočiť o jednu desatinu otáčky, teda o 36°. Signál potom na dve stotiny sekundy (0,02s) prestane, čím sa odošle nízky signál (0V). Každý cyklus zapnutia a vypnutia trvá 0,04s. Cyklus sa potom opakuje.
 
-![Pulzná šírková modulácia otáčania motora pri 150 RPM](../../../../../translated_images/pwm-motor-150rpm.83347ac04ca38482bd120939b133803963c9c15ca9d8d484712a4bd92820f6a4.sk.png)
+![Pulzná šírková modulácia otáčania motora pri 150 RPM](../../../../../translated_images/pwm-motor-150rpm.83347ac04ca38482.sk.png)
 
 To znamená, že za jednu sekundu máte 25 impulzov 5V trvajúcich 0,02s, ktoré otáčajú motor, pričom každý impulz je nasledovaný 0,02s pauzou 0V, kedy motor neotáča. Každý impulz otočí motor o jednu desatinu otáčky, čo znamená, že motor dokončí 2,5 otáčky za sekundu. Použili ste digitálny signál na otočenie motora rýchlosťou 2,5 otáčky za sekundu, alebo 150 [otáčok za minútu](https://wikipedia.org/wiki/Revolutions_per_minute) (neštandardná jednotka rotačnej rýchlosti).
 
@@ -175,7 +175,7 @@ To znamená, že za jednu sekundu máte 25 impulzov 5V trvajúcich 0,02s, ktoré
 
 > 🎓 Keď je PWM signál zapnutý polovicu času a vypnutý polovicu času, označuje sa to ako [50% pracovný cyklus](https://wikipedia.org/wiki/Duty_cycle). Pracovné cykly sa merajú ako percento času, počas ktorého je signál v zapnutom stave v porovnaní s vypnutým stavom.
 
-![Pulzná šírková modulácia otáčania motora pri 75 RPM](../../../../../translated_images/pwm-motor-75rpm.a5e4c939934b6e14fd9e98e4f2c9539d723da2b18f490eae0948dd044d18ff7e.sk.png)
+![Pulzná šírková modulácia otáčania motora pri 75 RPM](../../../../../translated_images/pwm-motor-75rpm.a5e4c939934b6e14.sk.png)
 
 Rýchlosť motora môžete zmeniť zmenou veľkosti impulzov. Napríklad pri rovnakom motore môžete zachovať rovnaký čas cyklu 0,04s, pričom impulz zapnutia zmenšíte na polovicu, teda na 0,01s, a impulz vypnutia zvýšite na 0,03s. Máte rovnaký počet impulzov za sekundu (25), ale každý impulz zapnutia je polovičnej dĺžky. Polovičný impulz otočí motor o jednu dvadsiatinu otáčky, a pri 25 impulzoch za sekundu dokončí motor 1,25 otáčky za sekundu alebo 75rpm. Zmenou rýchlosti impulzov digitálneho signálu ste znížili rýchlosť analógového motora na polovicu.
 

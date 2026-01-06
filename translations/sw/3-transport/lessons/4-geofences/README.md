@@ -110,7 +110,7 @@ Kila nukta kwenye poligoni hufafanuliwa kama jozi la longitudo na latitudo katik
 
 Safu ya viwianishi vya poligoni daima ina kiingilio 1 zaidi kuliko idadi ya nukta kwenye poligoni, na kiingilio cha mwisho kuwa sawa na cha kwanza, kufunga poligoni. Kwa mfano, kwa mstatili kutakuwa na nukta 5.
 
-![Mstatili na viwianishi](../../../../../translated_images/polygon-points.302193da381cb415f46c2c7a98496ee4be05d6c73d21238a89721ad93e121233.sw.png)
+![Mstatili na viwianishi](../../../../../translated_images/polygon-points.302193da381cb415.sw.png)
 
 Katika picha hapo juu, kuna mstatili. Viwianishi vya poligoni vinaanza upande wa juu-kushoto kwa 47,-122, kisha vinaenda kulia kwa 47,-121, kisha chini kwa 46,-121, kisha kulia kwa 46, -122, kisha kurudi juu kwa nukta ya mwanzo kwa 47, -122. Hii inatoa poligoni nukta 5 - juu-kushoto, juu-kulia, chini-kulia, chini-kushoto, kisha juu-kushoto kufunga.
 
@@ -208,7 +208,7 @@ Wakati unafanya ombi hili, unaweza pia kupitisha thamani inayoitwa `searchBuffer
 
 Wakati matokeo yanarudishwa kutoka kwa simu ya API, moja ya sehemu za matokeo ni `distance` iliyopimwa hadi nukta ya karibu kwenye ukingo wa geofence, na thamani chanya ikiwa nukta iko nje ya geofence, hasi ikiwa iko ndani ya geofence. Ikiwa umbali huu ni chini ya search buffer, umbali halisi unarudishwa kwa mita, vinginevyo thamani ni 999 au -999. 999 inamaanisha kwamba nukta iko nje ya geofence kwa zaidi ya search buffer, -999 inamaanisha iko ndani ya geofence kwa zaidi ya search buffer.
 
-![Geofence na search buffer ya 50m karibu nayo](../../../../../translated_images/search-buffer-and-distance.e6a79af3898183c7b2ef6fbf12271b8b34afd23969bb946962b1b18d3d2635e8.sw.png)
+![Geofence na search buffer ya 50m karibu nayo](../../../../../translated_images/search-buffer-and-distance.e6a79af3898183c7.sw.png)
 
 Katika picha hapo juu, geofence ina search buffer ya 50m.
 

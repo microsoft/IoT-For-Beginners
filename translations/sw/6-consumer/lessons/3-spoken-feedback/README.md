@@ -37,7 +37,7 @@ Katika somo hili tutashughulikia:
 
 Maandishi hadi sauti, kama jina linavyopendekeza, ni mchakato wa kubadilisha maandishi kuwa sauti inayojumuisha maneno yaliyosemwa. Kanuni ya msingi ni kuvunja maneno katika maandishi kuwa sauti zake za kimsingi (zinazojulikana kama fonimu), na kushona pamoja sauti za fonimu hizo, ama kwa kutumia sauti zilizorekodiwa awali au sauti zinazozalishwa na mifano ya AI.
 
-![Hatua tatu za mifumo ya kawaida ya maandishi hadi sauti](../../../../../translated_images/tts-overview.193843cf3f5ee09f8b3371a9fdaeb0f116698a07ca69daaa77158da4800e5453.sw.png)
+![Hatua tatu za mifumo ya kawaida ya maandishi hadi sauti](../../../../../translated_images/tts-overview.193843cf3f5ee09f.sw.png)
 
 Mifumo ya maandishi hadi sauti kwa kawaida ina hatua 3:
 

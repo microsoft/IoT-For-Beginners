@@ -37,7 +37,7 @@ UART inahusisha mzunguko wa kimwili unaoruhusu vifaa viwili kuwasiliana. Kila ki
 * Kifaa cha 1 kinatuma data kutoka pini yake ya Tx, ambayo inapokelewa na kifaa cha 2 kwenye pini yake ya Rx
 * Kifaa cha 1 kinapokea data kwenye pini yake ya Rx ambayo imetumwa na kifaa cha 2 kutoka pini yake ya Tx
 
-![UART na pini ya Tx kwenye chip moja imeunganishwa na pini ya Rx kwenye chip nyingine, na kinyume chake](../../../../../translated_images/uart.d0dbd3fb9e3728c6ee1995c8206f3cdb13cdfd208f13745e8ef6854cab75e421.sw.png)
+![UART na pini ya Tx kwenye chip moja imeunganishwa na pini ya Rx kwenye chip nyingine, na kinyume chake](../../../../../translated_images/uart.d0dbd3fb9e3728c6.sw.png)
 
 > 🎓 Data inatumwa kidogo moja kwa wakati, na hii inajulikana kama mawasiliano ya *serial*. Mfumo wa uendeshaji na mikrokontroller nyingi zina *bandari za serial*, yaani miunganisho inayoweza kutuma na kupokea data ya serial inayopatikana kwa msimbo wako.
 
@@ -66,7 +66,7 @@ Vidhibiti vya SPI hutumia nyaya 3, pamoja na waya 1 wa ziada kwa kila kifaa cha 
 | SCLK | Saa ya Serial | Waya huu hutuma ishara ya saa kwa kiwango kilichowekwa na kidhibiti. |
 | CS   | Chagua Chipu | Kidhibiti kina waya nyingi, moja kwa kila kifaa cha pembeni, na kila waya inaunganishwa na waya ya CS kwenye kifaa cha pembeni kinacholingana. |
 
-![SPI na kidhibiti kimoja na vifaa viwili vya pembeni](../../../../../translated_images/spi.297431d6f98b386b4ff88aea44ce9c1e7acfb1ef69c7e4e388a7aa97b6948e24.sw.png)
+![SPI na kidhibiti kimoja na vifaa viwili vya pembeni](../../../../../translated_images/spi.297431d6f98b386b.sw.png)
 
 Waya ya CS hutumika kuamsha kifaa kimoja cha pembeni kwa wakati mmoja, kuwasiliana kupitia nyaya za COPI na CIPO. Wakati kidhibiti kinahitaji kubadilisha kifaa cha pembeni, kinazima waya ya CS iliyounganishwa na kifaa cha pembeni kinachotumika kwa sasa, kisha kinaamsha waya iliyounganishwa na kifaa cha pembeni kinachotaka kuwasiliana nacho.
 
@@ -127,13 +127,13 @@ Unyevu wa udongo unapimwa kwa kutumia maudhui ya maji ya gravimetriki au volumet
 
 Sensa za unyevu wa udongo hupima upinzani wa umeme au kapasitansi - hii haibadiliki tu kwa unyevu wa udongo, lakini pia aina ya udongo kwa kuwa vipengele katika udongo vinaweza kubadilisha sifa zake za umeme. Kwa kawaida sensa zinapaswa kurekebishwa - yaani kuchukua vipimo kutoka sensa na kuvilinganisha na vipimo vilivyopatikana kwa kutumia mbinu ya kisayansi zaidi. Kwa mfano, maabara inaweza kuhesabu unyevu wa udongo wa gravimetriki kwa kutumia sampuli za shamba maalum zilizochukuliwa mara kadhaa kwa mwaka, na nambari hizi zikitumika kurekebisha sensa, kulinganisha kipimo cha sensa na unyevu wa udongo wa gravimetriki.
 
-![Mchoro wa voltage dhidi ya maudhui ya unyevu wa udongo](../../../../../translated_images/soil-moisture-to-voltage.df86d80cda1587008f312431ed5f79eb6c50c58d4fbc25a6763c5e9127c3106b.sw.png)
+![Mchoro wa voltage dhidi ya maudhui ya unyevu wa udongo](../../../../../translated_images/soil-moisture-to-voltage.df86d80cda158700.sw.png)
 
 Mchoro hapo juu unaonyesha jinsi ya kurekebisha sensa. Voltage inachukuliwa kwa sampuli ya udongo ambayo kisha inapimwa maabara kwa kulinganisha uzito wa unyevu na uzito wa mkavu (kwa kupima uzito ukiwa unyevu, kisha kukausha kwenye oveni na kupima ukiwa mkavu). Mara vipimo vichache vinapochukuliwa, vinaweza kuwekwa kwenye mchoro na mstari kufaa kwa alama. Mstari huu unaweza kisha kutumika kubadilisha vipimo vya sensa ya unyevu wa udongo vilivyopimwa na kifaa cha IoT kuwa vipimo halisi vya unyevu wa udongo.
 
 💁 Kwa sensa za unyevu wa udongo za upinzani, voltage huongezeka kadri unyevu wa udongo unavyoongezeka. Kwa sensa za unyevu wa udongo za kapasitansi, voltage hupungua kadri unyevu wa udongo unavyoongezeka, kwa hivyo michoro ya hizi ingekuwa na mwelekeo wa chini, si juu.
 
-![Thamani ya unyevu wa udongo iliyokadiriwa kutoka mchoro](../../../../../translated_images/soil-moisture-to-voltage-with-reading.681cb3e1f8b68caf5547dbf1415851c82e201edfb78face16fc98da4051ed9b2.sw.png)
+![Thamani ya unyevu wa udongo iliyokadiriwa kutoka mchoro](../../../../../translated_images/soil-moisture-to-voltage-with-reading.681cb3e1f8b68caf.sw.png)
 
 Mchoro hapo juu unaonyesha kipimo cha voltage kutoka sensa ya unyevu wa udongo, na kwa kufuata mstari kwenye mchoro, unyevu halisi wa udongo unaweza kuhesabiwa.
 

@@ -55,11 +55,11 @@ Relé je elektromechanický spínač, ktorý premieňa elektrický signál na me
 
 > 🎓 [Elektromagnety](https://wikipedia.org/wiki/Electromagnet) sú magnety, ktoré vznikajú prechodom elektriny cez cievku drôtu. Keď je elektrina zapnutá, cievka sa zmagnetizuje. Keď je elektrina vypnutá, cievka stratí svoju magnetickú schopnosť.
 
-![Keď je zapnuté, elektromagnet vytvára magnetické pole, ktoré zapína spínač pre výstupný obvod](../../../../../translated_images/relay-on.4db16a0fd6b669262fd6699aff3fbcd31b6057c06d90411b6bddc06326d1cf75.sk.png)
+![Keď je zapnuté, elektromagnet vytvára magnetické pole, ktoré zapína spínač pre výstupný obvod](../../../../../translated_images/relay-on.4db16a0fd6b66926.sk.png)
 
 V relé napája ovládací obvod elektromagnet. Keď je elektromagnet zapnutý, pritiahne páku, ktorá pohne spínačom, uzavrie pár kontaktov a dokončí výstupný obvod.
 
-![Keď je vypnuté, elektromagnet nevytvára magnetické pole, ktoré by zapínalo spínač pre výstupný obvod](../../../../../translated_images/relay-off.c34a178a2960fecdc3c6400d43e633ed11c6746cd653cfb4a768fa097c40394c.sk.png)
+![Keď je vypnuté, elektromagnet nevytvára magnetické pole, ktoré by zapínalo spínač pre výstupný obvod](../../../../../translated_images/relay-off.c34a178a2960fecd.sk.png)
 
 Keď je ovládací obvod vypnutý, elektromagnet sa vypne, uvoľní páku a otvorí kontakty, čím vypne výstupný obvod. Relé sú digitálne aktuátory – vysoký signál do relé ho zapne, nízky signál ho vypne.
 
@@ -85,7 +85,7 @@ Elektromagnet nepotrebuje veľa energie na aktiváciu a pritiahne páku, môže 
 
 Na obrázku vyššie je relé Grove. Ovládací obvod sa pripája k IoT zariadeniu a zapína alebo vypína relé pomocou 3,3V alebo 5V. Výstupný obvod má dva terminály, buď jeden môže byť napájanie alebo uzemnenie. Výstupný obvod zvládne až 250V pri 10A, čo je dosť pre rad zariadení napájaných zo siete. Môžete získať relé, ktoré zvládnu ešte vyššie úrovne výkonu.
 
-![Čerpadlo zapojené cez relé](../../../../../translated_images/pump-wired-to-relay.66c5cfc0d89189900cd601777f5caeb39ee35c6250f6c86bf38feaceedb21fe9.sk.png)
+![Čerpadlo zapojené cez relé](../../../../../translated_images/pump-wired-to-relay.66c5cfc0d8918990.sk.png)
 
 Na obrázku vyššie je čerpadlo napájané cez relé. Červený vodič spája +5V terminál USB napájacieho zdroja s jedným terminálom výstupného obvodu relé a ďalší červený vodič spája druhý terminál výstupného obvodu s čerpadlom. Čierny vodič spája čerpadlo s uzemnením USB napájacieho zdroja. Keď sa relé zapne, dokončí obvod, pošle 5V do čerpadla a zapne ho.
 
@@ -135,7 +135,7 @@ V lekcii 3 ste vytvorili nočné svetlo – LED diódu, ktorá sa zapne hneď, a
 
 Ak ste robili predchádzajúcu lekciu o vlhkosti pôdy pomocou fyzického senzora, mohli ste si všimnúť, že trvalo niekoľko sekúnd, kým hodnota vlhkosti pôdy klesla po tom, čo ste zaliali rastlinu. To nie je preto, že by bol senzor pomalý, ale preto, že vode trvá určitý čas, kým sa vsiakne do pôdy.
 💁 Ak ste polievali príliš blízko senzora, mohli ste si všimnúť, že hodnota rýchlo klesla a potom sa opäť zvýšila – je to spôsobené tým, že voda v blízkosti senzora sa rozšírila do zvyšku pôdy, čím sa znížila vlhkosť pôdy v okolí senzora.
-![Meranie vlhkosti pôdy na úrovni 658 sa nemení počas zalievania, klesne na 320 až po tom, ako voda presiakne pôdou](../../../../../translated_images/soil-moisture-travel.a0e31af222cf14385de5380dfc32c7b8213960965228b8e4f7b7ab7f73b310a3.sk.png)
+![Meranie vlhkosti pôdy na úrovni 658 sa nemení počas zalievania, klesne na 320 až po tom, ako voda presiakne pôdou](../../../../../translated_images/soil-moisture-travel.a0e31af222cf1438.sk.png)
 
 Na diagrame vyššie je zobrazené meranie vlhkosti pôdy na úrovni 658. Rastlina je zaliata, ale táto hodnota sa okamžite nezmení, pretože voda ešte nedosiahla senzor. Zalievanie môže dokonca skončiť skôr, než voda dosiahne senzor, a hodnota klesne, aby odrážala novú úroveň vlhkosti.
 
@@ -157,11 +157,11 @@ Ako dlho by malo byť relé zapnuté pri každom cykle? Je lepšie byť opatrný
 
 > 💁 Tento typ načasovania je veľmi špecifický pre IoT zariadenie, ktoré budujete, vlastnosť, ktorú meriate, a použité senzory a aktuátory.
 
-![Rastlina jahody pripojená k čerpadlu cez relé. Relé a senzor vlhkosti pôdy sú pripojené k Raspberry Pi](../../../../../translated_images/strawberry-with-pump.b410fc72ac6aabad3e28de9775bf2393ead73dcfec6fd8c9bc01cf107ecd171a.sk.png)
+![Rastlina jahody pripojená k čerpadlu cez relé. Relé a senzor vlhkosti pôdy sú pripojené k Raspberry Pi](../../../../../translated_images/strawberry-with-pump.b410fc72ac6aabad.sk.png)
 
 Napríklad mám rastlinu jahody so senzorom vlhkosti pôdy a čerpadlom ovládaným relé. Zistil som, že keď pridám vodu, trvá približne 20 sekúnd, kým sa hodnota vlhkosti pôdy stabilizuje. To znamená, že musím relé vypnúť a počkať 20 sekúnd pred kontrolou úrovne vlhkosti. Radšej pridám menej vody než príliš veľa – čerpadlo môžem vždy znovu zapnúť, ale nemôžem vodu z rastliny odstrániť.
 
-![Krok 1: vykonajte meranie. Krok 2: pridajte vodu. Krok 3: počkajte, kým voda presiakne pôdou. Krok 4: vykonajte opätovné meranie](../../../../../translated_images/soil-moisture-delay.865f3fae206db01d5f8f100f4f44040215d44a0412dd3450aef7ff7b93b6d273.sk.png)
+![Krok 1: vykonajte meranie. Krok 2: pridajte vodu. Krok 3: počkajte, kým voda presiakne pôdou. Krok 4: vykonajte opätovné meranie](../../../../../translated_images/soil-moisture-delay.865f3fae206db01d.sk.png)
 
 To znamená, že najlepší proces zavlažovania by mohol vyzerať takto:
 

@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 [Wio Terminal kutoka Seeed Studios](https://www.seeedstudio.com/Wio-Terminal-p-4509.html) ni microcontroller inayofanana na Arduino, yenye WiFi na sensa kadhaa pamoja na actuators zilizojengwa ndani, pamoja na sehemu za kuongezea sensa na actuators zaidi, kwa kutumia mfumo wa vifaa unaoitwa [Grove](https://www.seeedstudio.com/category/Grove-c-1003.html).
 
-![A Seeed studios Wio Terminal](../../../../../translated_images/wio-terminal.b8299ee16587db9aa9e05fabf9721bccd9eb8fb541b7c1a8267241282d81b603.sw.png)
+![A Seeed studios Wio Terminal](../../../../../translated_images/wio-terminal.b8299ee16587db9a.sw.png)
 
 ## Usanidi
 
@@ -51,15 +51,15 @@ Unda mradi wa PlatformIO.
 
 1. Ikoni ya PlatformIO itakuwa kwenye menyu ya upande:
 
-    ![The Platform IO menu option](../../../../../translated_images/vscode-platformio-menu.297be26b9733e5c4635d9d8e636e93fed2015809eafb7cc8fd409c37b3ef2ef5.sw.png)
+    ![The Platform IO menu option](../../../../../translated_images/vscode-platformio-menu.297be26b9733e5c4.sw.png)
 
     Chagua kipengele hiki cha menyu, kisha chagua *PIO Home -> Open*
 
-    ![The Platform IO open option](../../../../../translated_images/vscode-platformio-home-open.3f9a41bfd3f4da1c866ec3e69f1675faa30b823b5b58ab58ac88e5df9a85da19.sw.png)
+    ![The Platform IO open option](../../../../../translated_images/vscode-platformio-home-open.3f9a41bfd3f4da1c.sw.png)
 
 1. Kutoka skrini ya kukaribisha, chagua kitufe cha **+ New Project**
 
-    ![The new project button](../../../../../translated_images/vscode-platformio-welcome-new-button.ba6fc8a4c7b78cc822e1ce47ba29c5db96668cce7c5f4adbfd2f1196422baa26.sw.png)
+    ![The new project button](../../../../../translated_images/vscode-platformio-welcome-new-button.ba6fc8a4c7b78cc8.sw.png)
 
 1. Sanidi mradi katika *Project Wizard*:
 
@@ -73,7 +73,7 @@ Unda mradi wa PlatformIO.
 
     1. Chagua kitufe cha **Finish**
 
-    ![The completed project wizard](../../../../../translated_images/vscode-platformio-nightlight-project-wizard.5c64db4da6037420827c2597507897233457210ee23975711fa2285efdcd0dc7.sw.png)
+    ![The completed project wizard](../../../../../translated_images/vscode-platformio-nightlight-project-wizard.5c64db4da6037420.sw.png)
 
     PlatformIO itapakua vipengele vinavyohitajika kuunda msimbo kwa Wio Terminal na kuunda mradi wako. Hii inaweza kuchukua dakika chache.
 
@@ -179,7 +179,7 @@ Andika programu ya Hello World.
 
     1. Andika `PlatformIO Upload` kutafuta chaguo la kupakia, na uchague *PlatformIO: Upload*
 
-        ![The PlatformIO upload option in the command palette](../../../../../translated_images/vscode-platformio-upload-command-palette.9e0f49cf80d1f1c3eb5c6689b8705ad8b89f0374b21698e996fec11e4ed09347.sw.png)
+        ![The PlatformIO upload option in the command palette](../../../../../translated_images/vscode-platformio-upload-command-palette.9e0f49cf80d1f1c3.sw.png)
 
         PlatformIO itatengeneza msimbo kiotomatiki ikiwa inahitajika kabla ya kupakia.
 
@@ -195,7 +195,7 @@ PlatformIO ina Serial Monitor inayoweza kufuatilia data inayotumwa kupitia kebo 
 
 1. Andika `PlatformIO Serial` kutafuta chaguo la Serial Monitor, na uchague *PlatformIO: Serial Monitor*
 
-    ![The PlatformIO Serial Monitor option in the command palette](../../../../../translated_images/vscode-platformio-serial-monitor-command-palette.b348ec841b8a1c14af503d6fc0bf73c657c79c9acc12a6b6dd485ce3b5826f48.sw.png)
+    ![The PlatformIO Serial Monitor option in the command palette](../../../../../translated_images/vscode-platformio-serial-monitor-command-palette.b348ec841b8a1c14.sw.png)
 
     Terminal mpya itafunguka, na data inayotumwa kupitia bandari ya serial itatiririka kwenye terminal hii:
 

@@ -21,7 +21,7 @@ Pia utahitaji vitu vichache visivyo vya kiufundi, kama udongo au mmea wa sufuria
 
 ## Nunua Vifurushi
 
-![Nembo ya Seeed Studios](../../translated_images/seeed-logo.74732b6b482b6e8e8bdcc06f0541fc92b1dabf5e3e8f37afb91e04393a8cb977.sw.png)
+![Nembo ya Seeed Studios](../../translated_images/seeed-logo.74732b6b482b6e8e.sw.png)
 
 Seeed Studios wamefanya vifaa vyote kupatikana kwa urahisi kama vifurushi vya kununua:
 
@@ -29,7 +29,7 @@ Seeed Studios wamefanya vifaa vyote kupatikana kwa urahisi kama vifurushi vya ku
 
 **[IoT kwa wanaoanza na Seeed na Microsoft - Kifurushi cha Kuanza cha Wio Terminal](https://www.seeedstudio.com/IoT-for-beginners-with-Seeed-and-Microsoft-Wio-Terminal-Starter-Kit-p-5006.html)**
 
-[![Kifurushi cha vifaa vya Wio Terminal](../../translated_images/wio-hardware-kit.4c70c48b85e4283a1d73e248d87d49587c0cd077eeb69cb3eca803166f63c9a5.sw.png)](https://www.seeedstudio.com/IoT-for-beginners-with-Seeed-and-Microsoft-Wio-Terminal-Starter-Kit-p-5006.html)
+[![Kifurushi cha vifaa vya Wio Terminal](../../translated_images/wio-hardware-kit.4c70c48b85e4283a.sw.png)](https://www.seeedstudio.com/IoT-for-beginners-with-Seeed-and-Microsoft-Wio-Terminal-Starter-Kit-p-5006.html)
 
 ### Raspberry Pi
 

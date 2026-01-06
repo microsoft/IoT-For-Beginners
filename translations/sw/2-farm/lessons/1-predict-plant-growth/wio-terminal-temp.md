@@ -33,7 +33,7 @@ Unganisha kihisi cha joto.
 
 1. Ukiwa na Wio Terminal imekatwa kutoka kwa kompyuta yako au chanzo kingine cha nguvu, unganisha mwisho mwingine wa kebo ya Grove kwenye soketi ya kulia ya Grove kwenye Wio Terminal ukiangalia skrini. Hii ni soketi iliyo mbali zaidi na kitufe cha nguvu.
 
-![Kihisi cha joto cha Grove kimeunganishwa kwenye soketi ya kulia](../../../../../translated_images/wio-temperature-sensor.2934928f38c7f79a68d24879d2c8986c78244696f931e2e33c293f426ecdc0ad.sw.png)
+![Kihisi cha joto cha Grove kimeunganishwa kwenye soketi ya kulia](../../../../../translated_images/wio-temperature-sensor.2934928f38c7f79a.sw.png)
 
 ## Programu ya kihisi cha joto
 

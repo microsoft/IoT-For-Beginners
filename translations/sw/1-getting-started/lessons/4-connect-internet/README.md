@@ -46,7 +46,7 @@ Katika somo hili tutashughulikia:
 
 Kuna itifaki kadhaa maarufu za mawasiliano zinazotumiwa na vifaa vya IoT kuwasiliana na Intaneti. Maarufu zaidi zinategemea ujumbe wa kuchapisha/kusubscribe kupitia aina fulani ya broker. Vifaa vya IoT vinaunganishwa na broker na kuchapisha telemetry na kusubscribe kwa amri. Huduma za wingu pia zinaunganishwa na broker na kusubscribe kwa ujumbe wote wa telemetry na kuchapisha amri kwa vifaa maalum, au kwa vikundi vya vifaa.
 
-![Vifaa vya IoT vinaunganishwa na broker na kuchapisha telemetry na kusubscribe kwa amri. Huduma za wingu zinaunganishwa na broker na kusubscribe kwa telemetry yote na kutuma amri kwa vifaa maalum.](../../../../../translated_images/pub-sub.7c7ed43fe9fd15d4e1f81a3fd95440413c457acd9bcbe9a43341e30e88db5264.sw.png)
+![Vifaa vya IoT vinaunganishwa na broker na kuchapisha telemetry na kusubscribe kwa amri. Huduma za wingu zinaunganishwa na broker na kusubscribe kwa telemetry yote na kutuma amri kwa vifaa maalum.](../../../../../translated_images/pub-sub.7c7ed43fe9fd15d4.sw.png)
 
 MQTT ni itifaki maarufu zaidi ya mawasiliano kwa vifaa vya IoT na imeelezwa katika somo hili. Itifaki nyingine ni pamoja na AMQP na HTTP/HTTPS.
 
@@ -115,7 +115,7 @@ Neno telemetry linatokana na mizizi ya Kigiriki inayomaanisha kupima kwa mbali. 
 
 Hebu tuangalie tena mfano wa thermostat ya kisasa kutoka Somo la 1.
 
-![Thermostat iliyounganishwa na Intaneti ikitumia sensa nyingi za chumba](../../../../../translated_images/telemetry.21e5d8b97649d2ebeb0f68d4b9691ab2d1f7bd629338e131465aff8a614e4d4a.sw.png)
+![Thermostat iliyounganishwa na Intaneti ikitumia sensa nyingi za chumba](../../../../../translated_images/telemetry.21e5d8b97649d2eb.sw.png)
 
 Thermostat ina sensa za joto za kukusanya telemetry. Inaweza kuwa na sensa moja ya joto iliyojengwa ndani, na inaweza kuunganishwa na sensa nyingi za joto za nje kupitia itifaki ya bila waya kama [Bluetooth Low Energy](https://wikipedia.org/wiki/Bluetooth_Low_Energy) (BLE).
 
@@ -267,11 +267,11 @@ Andika msimbo wa seva.
 
 1. VS Code itakapoanzishwa, itawasha mazingira halisi ya Python. Hii itaonyeshwa kwenye upau wa hali wa chini:
 
-    ![VS Code ikionyesha mazingira halisi yaliyochaguliwa](../../../../../translated_images/vscode-virtual-env.8ba42e04c3d533cf677e16cbe5ed9a3b80f62c6964472dc84b6f940800f0909f.sw.png)
+    ![VS Code ikionyesha mazingira halisi yaliyochaguliwa](../../../../../translated_images/vscode-virtual-env.8ba42e04c3d533cf.sw.png)
 
 1. Ikiwa Terminal ya VS Code tayari inaendesha wakati VS Code inaanza, haitakuwa na mazingira halisi yaliyoamilishwa ndani yake. Jambo rahisi kufanya ni kuua terminal kwa kutumia kitufe cha **Kill the active terminal instance**:
 
-    ![Kitufe cha VS Code Kill the active terminal instance](../../../../../translated_images/vscode-kill-terminal.1cc4de7c6f25ee08f423f0ead714e61d069fac1eb2089e97b8a7bbcb3d45fe5e.sw.png)
+    ![Kitufe cha VS Code Kill the active terminal instance](../../../../../translated_images/vscode-kill-terminal.1cc4de7c6f25ee08.sw.png)
 
 1. Zindua Terminal mpya ya VS Code kwa kuchagua *Terminal -> New Terminal*, au kubonyeza `` CTRL+` ``. Terminal mpya itapakia mazingira halisi, na wito wa kuamsha hii utaonekana kwenye terminal. Jina la mazingira halisi (`.venv`) pia litakuwa kwenye prompt:
 

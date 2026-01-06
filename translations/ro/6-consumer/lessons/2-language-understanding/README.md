@@ -126,7 +126,7 @@ Odată ce entitățile sunt definite, creați intențiile. Acestea sunt învăț
 
 Apoi spuneți LUIS ce părți ale acestor propoziții corespund entităților:
 
-![Propoziția „setează un cronometru pentru 1 minut și 12 secunde” împărțită în entități](../../../../../translated_images/sentence-as-intent-entities.301401696f9922590a99343f5c5d211b710b906f212f0d4d034cee3ffb610272.ro.png)
+![Propoziția „setează un cronometru pentru 1 minut și 12 secunde” împărțită în entități](../../../../../translated_images/sentence-as-intent-entities.301401696f992259.ro.png)
 
 Propoziția `setează un cronometru pentru 1 minut și 12 secunde` are intenția `setează cronometru`. De asemenea, are 2 entități cu câte 2 valori fiecare:
 

@@ -21,7 +21,7 @@ De asemenea, veți avea nevoie de câteva obiecte non-tehnice, cum ar fi sol sau
 
 ## Cumpărați kiturile
 
-![Logo-ul Seeed Studios](../../translated_images/seeed-logo.74732b6b482b6e8e8bdcc06f0541fc92b1dabf5e3e8f37afb91e04393a8cb977.ro.png)
+![Logo-ul Seeed Studios](../../translated_images/seeed-logo.74732b6b482b6e8e.ro.png)
 
 Seeed Studios a făcut foarte ușor accesibile toate componentele hardware, oferindu-le sub formă de kituri ușor de achiziționat:
 
@@ -29,7 +29,7 @@ Seeed Studios a făcut foarte ușor accesibile toate componentele hardware, ofer
 
 **[IoT pentru începători cu Seeed și Microsoft - Kit de start Wio Terminal](https://www.seeedstudio.com/IoT-for-beginners-with-Seeed-and-Microsoft-Wio-Terminal-Starter-Kit-p-5006.html)**
 
-[![Kitul hardware Wio Terminal](../../translated_images/wio-hardware-kit.4c70c48b85e4283a1d73e248d87d49587c0cd077eeb69cb3eca803166f63c9a5.ro.png)](https://www.seeedstudio.com/IoT-for-beginners-with-Seeed-and-Microsoft-Wio-Terminal-Starter-Kit-p-5006.html)
+[![Kitul hardware Wio Terminal](../../translated_images/wio-hardware-kit.4c70c48b85e4283a.ro.png)](https://www.seeedstudio.com/IoT-for-beginners-with-Seeed-and-Microsoft-Wio-Terminal-Starter-Kit-p-5006.html)
 
 ### Raspberry Pi
 

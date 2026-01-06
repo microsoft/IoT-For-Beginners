@@ -37,7 +37,7 @@ V tejto lekcii sa budeme venovať:
 
 Text na reč, ako názov napovedá, je proces konverzie textu na zvuk, ktorý obsahuje text ako hovorené slová. Základný princíp spočíva v rozložení slov v texte na ich základné zvuky (známe ako fonémy) a v spojení zvukov buď pomocou prednahraného zvuku, alebo zvuku generovaného modelmi umelej inteligencie.
 
-![Tri fázy typických systémov textu na reč](../../../../../translated_images/tts-overview.193843cf3f5ee09f8b3371a9fdaeb0f116698a07ca69daaa77158da4800e5453.sk.png)
+![Tri fázy typických systémov textu na reč](../../../../../translated_images/tts-overview.193843cf3f5ee09f.sk.png)
 
 Systémy textu na reč majú zvyčajne 3 fázy:
 

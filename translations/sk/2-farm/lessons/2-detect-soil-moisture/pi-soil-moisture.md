@@ -37,7 +37,7 @@ Pripojte senzor vlhkosti pôdy.
 
 1. Zasuňte senzor vlhkosti pôdy do pôdy. Na senzore je biela čiara označujúca „najvyššiu polohu“. Zasuňte senzor až po túto čiaru, ale nie hlbšie.
 
-![Grove senzor vlhkosti pôdy v pôde](../../../../../translated_images/soil-moisture-sensor-in-soil.bfad91002bda5e960f8c51ee64b02ee59b32c8c717e3515a2c945f33e614e403.sk.png)
+![Grove senzor vlhkosti pôdy v pôde](../../../../../translated_images/soil-moisture-sensor-in-soil.bfad91002bda5e96.sk.png)
 
 ## Naprogramovanie senzora vlhkosti pôdy
 

@@ -130,7 +130,7 @@ Kwa somo hili utahitaji rasilimali ya Mtafsiri. Utatumia API ya REST kutafsiri m
 
 Katika ulimwengu bora, programu yako yote inapaswa kuelewa lugha nyingi iwezekanavyo, kutoka kusikiliza sauti, kuelewa lugha, hadi kujibu kwa sauti. Hii ni kazi kubwa, kwa hivyo huduma za tafsiri zinaweza kuharakisha muda wa utoaji wa programu yako.
 
-![Mimomemo ya kipima muda mahiri ikitafsiri Kijapani kwenda Kiingereza, kuchakata kwa Kiingereza kisha kutafsiri tena kwenda Kijapani](../../../../../translated_images/translated-smart-timer.08ac20057fdc5c3778ed41cb425dca5d7fbcd4584b6da7b73ca67115a5b8a883.sw.png)
+![Mimomemo ya kipima muda mahiri ikitafsiri Kijapani kwenda Kiingereza, kuchakata kwa Kiingereza kisha kutafsiri tena kwenda Kijapani](../../../../../translated_images/translated-smart-timer.08ac20057fdc5c37.sw.png)
 
 Fikiria unajenga kipima muda mahiri kinachotumia Kiingereza kutoka mwanzo hadi mwisho, kuelewa Kiingereza kilichozungumzwa na kukibadilisha kuwa maandishi, kuendesha uelewa wa lugha kwa Kiingereza, kuunda majibu kwa Kiingereza na kujibu kwa sauti ya Kiingereza. Ikiwa ungependa kuongeza msaada kwa Kijapani, ungeweza kuanza kwa kutafsiri Kijapani kilichozungumzwa kuwa maandishi ya Kiingereza, kisha kuweka msingi wa programu sawa, kisha kutafsiri maandishi ya majibu kwenda Kijapani kabla ya kuyazungumza. Hii ingeruhusu kuongeza msaada wa Kijapani haraka, na unaweza kupanua kutoa msaada kamili wa Kijapani baadaye.
 

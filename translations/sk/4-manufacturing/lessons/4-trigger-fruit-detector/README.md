@@ -115,7 +115,7 @@ Pre prototyp budete implementovať všetko na jednom zariadení. Ak používate 
 
 IoT zariadenie potrebuje nejaký druh spúšťača, ktorý indikuje, kedy je ovocie pripravené na klasifikáciu. Jedným zo spúšťačov by bolo meranie, keď je ovocie na správnom mieste na dopravníkovom páse, pomocou merania vzdialenosti k senzoru.
 
-![Proximity senzory posielajú laserové lúče na objekty ako banány a merajú čas, kým sa lúč odrazí späť](../../../../../translated_images/proximity-sensor.f5cd752c77fb62fea000156233b32fd24fad3707ec69b8bdd8d312b7af85156d.sk.png)
+![Proximity senzory posielajú laserové lúče na objekty ako banány a merajú čas, kým sa lúč odrazí späť](../../../../../translated_images/proximity-sensor.f5cd752c77fb62fe.sk.png)
 
 Proximity senzory môžu byť použité na meranie vzdialenosti od senzora k objektu. Zvyčajne vysielajú lúč elektromagnetického žiarenia, ako je laserový lúč alebo infračervené svetlo, a potom detegujú žiarenie odrazené od objektu. Čas medzi vyslaním laserového lúča a signálom odrazeným späť môže byť použitý na výpočet vzdialenosti k senzoru.
 

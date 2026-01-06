@@ -35,7 +35,7 @@ Conectează senzorul Time of Flight.
 
 1. Cu Wio Terminal deconectat de la computer sau altă sursă de alimentare, conectează celălalt capăt al cablului Grove la conectorul Grove din partea stângă a Wio Terminal, așa cum privești ecranul. Acesta este conectorul cel mai apropiat de butonul de alimentare. Este un socket combinat digital și I²C.
 
-![Senzorul Grove Time of Flight conectat la conectorul din stânga](../../../../../translated_images/wio-time-of-flight-sensor.c4c182131d2ea73df67febd004dc0313d271013d016be9c47e7da4d77c6c20a8.ro.png)
+![Senzorul Grove Time of Flight conectat la conectorul din stânga](../../../../../translated_images/wio-time-of-flight-sensor.c4c182131d2ea73d.ro.png)
 
 1. Acum poți conecta Wio Terminal la computerul tău.
 
@@ -101,7 +101,7 @@ Wio Terminal poate fi acum programat pentru a utiliza senzorul Time of Flight at
 
     Telemetrul se află pe partea din spate a senzorului, așa că asigură-te că folosești partea corectă atunci când măsori distanța.
 
-    ![Telemetrul de pe partea din spate a senzorului Time of Flight îndreptat spre o banană](../../../../../translated_images/time-of-flight-banana.079921ad8b1496e4525dc26b4cdc71a076407aba3e72ba113ba2e38febae92c5.ro.png)
+    ![Telemetrul de pe partea din spate a senzorului Time of Flight îndreptat spre o banană](../../../../../translated_images/time-of-flight-banana.079921ad8b1496e4.ro.png)
 
 > 💁 Poți găsi acest cod în folderul [code-proximity/wio-terminal](../../../../../4-manufacturing/lessons/4-trigger-fruit-detector/code-proximity/wio-terminal).
 

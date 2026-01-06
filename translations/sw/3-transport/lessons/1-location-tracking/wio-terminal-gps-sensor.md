@@ -33,7 +33,7 @@ Unganisha kihisi cha GPS.
 
 1. Ukiwa umeondoa Wio Terminal kutoka kwa kompyuta yako au chanzo kingine cha umeme, unganisha mwisho mwingine wa kebo ya Grove kwenye soketi ya upande wa kushoto ya Grove kwenye Wio Terminal ukiangalia skrini. Hii ni soketi iliyo karibu zaidi na kitufe cha kuwasha.
 
-    ![Kihisi cha Grove GPS kimeunganishwa kwenye soketi ya upande wa kushoto](../../../../../translated_images/wio-gps-sensor.19fd52b81ce58095d5deb3d4e5a1fdd88818d76569b00b1f0d740c92dc986525.sw.png)
+    ![Kihisi cha Grove GPS kimeunganishwa kwenye soketi ya upande wa kushoto](../../../../../translated_images/wio-gps-sensor.19fd52b81ce58095.sw.png)
 
 1. Weka kihisi cha GPS mahali ambapo antena iliyounganishwa inaweza kuona anga - ikiwezekana karibu na dirisha lililo wazi au nje. Ni rahisi kupata ishara wazi bila kitu chochote kuzuia antena.
 

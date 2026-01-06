@@ -13,7 +13,7 @@ O combinație între predicții și casetele de delimitare poate fi utilizată p
 
 ## Numără stocul
 
-![4 cutii de pastă de roșii cu casete de delimitare în jurul fiecărei cutii](../../../../../translated_images/rpi-stock-with-bounding-boxes.b5540e2ecb7cd49f1271828d3be412671d950e87625c5597ea97c90f11e01097.ro.jpg)
+![4 cutii de pastă de roșii cu casete de delimitare în jurul fiecărei cutii](../../../../../translated_images/rpi-stock-with-bounding-boxes.b5540e2ecb7cd49f.ro.jpg)
 
 În imaginea de mai sus, casetele de delimitare au o mică suprapunere. Dacă această suprapunere ar fi fost mult mai mare, casetele de delimitare ar putea indica același obiect. Pentru a număra corect obiectele, trebuie să ignori casetele cu o suprapunere semnificativă.
 

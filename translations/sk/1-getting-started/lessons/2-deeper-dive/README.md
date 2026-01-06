@@ -41,7 +41,7 @@ Dve hlavné komponenty IoT aplikácie sú *Internet* a *vec*. Pozrime sa na tiet
 
 ### Vec
 
-![Raspberry Pi 4](../../../../../translated_images/raspberry-pi-4.fd4590d308c3d456db1327e86b395ddcd735513267aafd4879ea2785f7792eac.sk.jpg)
+![Raspberry Pi 4](../../../../../translated_images/raspberry-pi-4.fd4590d308c3d456.sk.jpg)
 
 **Vec** v IoT označuje zariadenie, ktoré dokáže interagovať s fyzickým svetom. Tieto zariadenia sú zvyčajne malé, cenovo dostupné počítače, ktoré pracujú pri nízkych rýchlostiach a spotrebujú málo energie - napríklad jednoduché mikrokontroléry s kilobajtmi RAM (na rozdiel od gigabajtov v PC), ktoré bežia len na niekoľkých stovkách megahertzov (na rozdiel od gigahertzov v PC), ale spotrebujú tak málo energie, že môžu fungovať týždne, mesiace alebo dokonca roky na batérie.
 
@@ -67,7 +67,7 @@ V prípade inteligentného termostatu by sa termostat pripojil cez domáce WiFi 
 
 Ešte inteligentnejšia verzia by mohla používať AI v cloude s údajmi z iných senzorov pripojených k iným IoT zariadeniam, ako sú senzory obsadenosti, ktoré detekujú, ktoré miestnosti sa používajú, ako aj údaje ako počasie a dokonca váš kalendár, na rozhodovanie o tom, ako inteligentne nastaviť teplotu. Napríklad by mohla vypnúť kúrenie, ak z vášho kalendára zistí, že ste na dovolenke, alebo vypnúť kúrenie miestnosť po miestnosti v závislosti od toho, ktoré miestnosti používate, pričom sa z údajov učí byť čoraz presnejšia.
 
-![Diagram zobrazujúci viaceré teplotné senzory a otočný ovládač ako vstupy do IoT zariadenia, IoT zariadenie s obojsmernou komunikáciou s cloudom, ktorý má obojsmernú komunikáciu s telefónom, kalendárom a službou počasia, a ovládanie kúrenia ako výstup z IoT zariadenia](../../../../../translated_images/smarter-thermostat.a75855f15d2d9e63d5da9d7ba5847a987f6c9d98e96e770c203532275194e27d.sk.png)
+![Diagram zobrazujúci viaceré teplotné senzory a otočný ovládač ako vstupy do IoT zariadenia, IoT zariadenie s obojsmernou komunikáciou s cloudom, ktorý má obojsmernú komunikáciu s telefónom, kalendárom a službou počasia, a ovládanie kúrenia ako výstup z IoT zariadenia](../../../../../translated_images/smarter-thermostat.a75855f15d2d9e63.sk.png)
 
 ✅ Aké ďalšie údaje by mohli pomôcť urobiť internetovo pripojený termostat inteligentnejším?
 
@@ -135,7 +135,7 @@ Podobne ako pri CPU, pamäť v mikrokontroléri je o niekoľko rádov menšia ak
 
 Diagram nižšie ukazuje relatívny rozdiel vo veľkosti medzi 192 KB a 8 GB - malá bodka v strede predstavuje 192 KB.
 
-![Porovnanie medzi 192 KB a 8 GB - viac ako 40 000-krát väčšie](../../../../../translated_images/ram-comparison.6beb73541b42ac6ffde64cdf79fc925a84b932ce7ebd4d41d5fd7afc1257a696.sk.png)
+![Porovnanie medzi 192 KB a 8 GB - viac ako 40 000-krát väčšie](../../../../../translated_images/ram-comparison.6beb73541b42ac6f.sk.png)
 
 Pamäť na ukladanie programov je tiež menšia ako v PC. Typický počítač môže mať 500 GB pevný disk na ukladanie programov, zatiaľ čo mikrokontrolér môže mať len kilobajty alebo možno niekoľko megabajtov (MB) úložiska (1 MB je 1 000 KB alebo 1 000 000 bajtov). Wio terminál má 4 MB úložiska na programy.
 
@@ -211,17 +211,17 @@ V predchádzajúcej lekcii sme predstavili jednodeskové počítače. Teraz sa n
 
 ### Raspberry Pi
 
-![Logo Raspberry Pi](../../../../../translated_images/raspberry-pi-logo.4efaa16605cee05489d8fa53941e991b3757aa24c20a95abdcf8cfd761953596.sk.png)
+![Logo Raspberry Pi](../../../../../translated_images/raspberry-pi-logo.4efaa16605cee054.sk.png)
 
 [Raspberry Pi Foundation](https://www.raspberrypi.org) je charitatívna organizácia z Veľkej Británie, založená v roku 2009 na podporu štúdia informatiky, najmä na školách. V rámci tejto misie vyvinuli jednodeskový počítač nazývaný Raspberry Pi. Raspberry Pi sú momentálne dostupné v 3 variantoch - plnohodnotná verzia, menšia Pi Zero a výpočtový modul, ktorý je možné zabudovať do vášho finálneho IoT zariadenia.
 
-![Raspberry Pi 4](../../../../../translated_images/raspberry-pi-4.fd4590d308c3d456db1327e86b395ddcd735513267aafd4879ea2785f7792eac.sk.jpg)
+![Raspberry Pi 4](../../../../../translated_images/raspberry-pi-4.fd4590d308c3d456.sk.jpg)
 
 Najnovšia iterácia plnohodnotného Raspberry Pi je Raspberry Pi 4B. Má štvorjadrový (4 jadrá) CPU s frekvenciou 1,5 GHz, 2, 4 alebo 8 GB RAM, gigabitový ethernet, WiFi, 2 HDMI porty podporujúce 4k obrazovky, audio a kompozitný video výstup, USB porty (2 USB 2.0, 2 USB 3.0), 40 GPIO pinov, konektor pre kamerový modul Raspberry Pi a slot na SD kartu. To všetko na doske s rozmermi 88 mm x 58 mm x 19,5 mm, napájané 3A USB-C zdrojom. Cena začína na 35 USD, čo je oveľa lacnejšie ako PC alebo Mac.
 
 > 💁 Existuje aj Pi400, all-in-one počítač s Pi4 zabudovaným do klávesnice.
 
-![Raspberry Pi Zero](../../../../../translated_images/raspberry-pi-zero.f7a4133e1e7d54bb3dbb32319b217a53c5b94871995a54647f2894b54206b8d8.sk.jpg)
+![Raspberry Pi Zero](../../../../../translated_images/raspberry-pi-zero.f7a4133e1e7d54bb.sk.jpg)
 
 Pi Zero je oveľa menší a má nižšiu spotrebu. Má jednojadrový 1 GHz CPU, 512 MB RAM, WiFi (v modeli Zero W), jeden HDMI port, micro-USB port, 40 GPIO pinov, konektor pre kamerový modul Raspberry Pi a slot na SD kartu. Má rozmery 65 mm x 30 mm x 5 mm a spotrebuje veľmi málo energie. Zero stojí 5 USD, verzia W s WiFi stojí 10 USD.
 

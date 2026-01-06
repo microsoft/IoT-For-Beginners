@@ -97,15 +97,15 @@ Bohužiaľ, nie všetko je zabezpečené. Niektoré zariadenia nemajú žiadne z
 
 **Symetrické** šifrovanie používa rovnaký kľúč na šifrovanie a dešifrovanie údajov. Odosielateľ aj príjemca musia poznať rovnaký kľúč. Toto je najmenej bezpečný typ, pretože kľúč musí byť nejako zdieľaný. Aby odosielateľ mohol poslať zašifrovanú správu príjemcovi, odosielateľ musí najskôr poslať príjemcovi kľúč.
 
-![Symetrické šifrovanie používa rovnaký kľúč na šifrovanie a dešifrovanie správy](../../../../../translated_images/send-message-symmetric-key.a2e8ad0d495896ffcdf15d25bb4491c695a5cb851457b359fb0f0c89d67707c9.sk.png)
+![Symetrické šifrovanie používa rovnaký kľúč na šifrovanie a dešifrovanie správy](../../../../../translated_images/send-message-symmetric-key.a2e8ad0d495896ff.sk.png)
 
 Ak je kľúč ukradnutý počas prenosu, alebo je odosielateľ alebo príjemca hacknutý a kľúč je nájdený, šifrovanie môže byť prelomené.
 
-![Symetrické šifrovanie je bezpečné iba v prípade, že hacker nezíska kľúč - ak áno, môže zachytiť a dešifrovať správu](../../../../../translated_images/send-message-symmetric-key-hacker.e7cb53db1707adfb1486a8144060cb76435fe8dbdede8cecc09e7d15b2d9a251.sk.png)
+![Symetrické šifrovanie je bezpečné iba v prípade, že hacker nezíska kľúč - ak áno, môže zachytiť a dešifrovať správu](../../../../../translated_images/send-message-symmetric-key-hacker.e7cb53db1707adfb.sk.png)
 
 **Asymetrické** šifrovanie používa 2 kľúče - šifrovací kľúč a dešifrovací kľúč, označované ako verejný/súkromný pár kľúčov. Verejný kľúč sa používa na šifrovanie správy, ale nemôže byť použitý na jej dešifrovanie, súkromný kľúč sa používa na dešifrovanie správy, ale nemôže byť použitý na jej šifrovanie.
 
-![Asymetrické šifrovanie používa iný kľúč na šifrovanie a dešifrovanie. Šifrovací kľúč je poslaný odosielateľom správ, aby mohli zašifrovať správu pred jej odoslaním príjemcovi, ktorý vlastní kľúče](../../../../../translated_images/send-message-asymmetric.7abe327c62615b8c19805252af5d4b6c5e7aaeb8fbc455efeff866fe2d300b62.sk.png)
+![Asymetrické šifrovanie používa iný kľúč na šifrovanie a dešifrovanie. Šifrovací kľúč je poslaný odosielateľom správ, aby mohli zašifrovať správu pred jej odoslaním príjemcovi, ktorý vlastní kľúče](../../../../../translated_images/send-message-asymmetric.7abe327c62615b8c.sk.png)
 
 Príjemca zdieľa svoj verejný kľúč a odosielateľ ho používa na šifrovanie správy. Po odoslaní správy ju príjemca dešifruje pomocou svojho súkromného kľúča. Asymetrické šifrovanie je bezpečnejšie, pretože súkromný kľúč je uchovávaný v tajnosti príjemcom a nikdy nie je zdieľaný. Verejný kľúč môže mať ktokoľvek, pretože môže byť použitý iba na šifrovanie správ.
 
@@ -161,7 +161,7 @@ Tieto certifikáty obsahujú množstvo polí, vrátane informácií o tom, od ko
 
 Pri používaní X.509 certifikátov budú mať odosielateľ aj príjemca svoje vlastné verejné a súkromné kľúče, ako aj X.509 certifikáty obsahujúce verejný kľúč. Následne si vymenia X.509 certifikáty a používajú verejné kľúče na šifrovanie údajov, ktoré posielajú, a svoje súkromné kľúče na dešifrovanie údajov, ktoré prijímajú.
 
-![Namiesto zdieľania verejného kľúča môžete zdieľať certifikát. Používateľ certifikátu môže overiť, že pochádza od vás, kontrolou u certifikačnej autority, ktorá ho podpísala.](../../../../../translated_images/send-message-certificate.9cc576ac1e46b76eb58ebc8eedaa522566fa0700076da46f5180aad78c2435db.sk.png)
+![Namiesto zdieľania verejného kľúča môžete zdieľať certifikát. Používateľ certifikátu môže overiť, že pochádza od vás, kontrolou u certifikačnej autority, ktorá ho podpísala.](../../../../../translated_images/send-message-certificate.9cc576ac1e46b76e.sk.png)
 
 Jednou z veľkých výhod používania X.509 certifikátov je, že ich možno zdieľať medzi zariadeniami. Môžete vytvoriť jeden certifikát, nahrať ho do IoT Hubu a používať ho pre všetky vaše zariadenia. Každé zariadenie potom potrebuje poznať iba súkromný kľúč na dešifrovanie správ, ktoré prijíma z IoT Hubu.
 

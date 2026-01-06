@@ -115,7 +115,7 @@ Kwa mfano, utatekeleza yote haya kwenye kifaa kimoja. Ikiwa unatumia kidhibiti m
 
 Kifaa cha IoT kinahitaji aina fulani ya kichocheo kuonyesha wakati matunda yako tayari kuainishwa. Kichocheo kimoja kwa hili litakuwa kupima wakati matunda yako katika eneo sahihi kwenye mkanda wa kusafirisha kwa kupima umbali hadi kwenye kihisi.
 
-![Vihisi vya ukaribu hutuma miale ya leza kwa vitu kama ndizi na kupima muda wa miale kurudi](../../../../../translated_images/proximity-sensor.f5cd752c77fb62fea000156233b32fd24fad3707ec69b8bdd8d312b7af85156d.sw.png)
+![Vihisi vya ukaribu hutuma miale ya leza kwa vitu kama ndizi na kupima muda wa miale kurudi](../../../../../translated_images/proximity-sensor.f5cd752c77fb62fe.sw.png)
 
 Vihisi vya ukaribu vinaweza kutumika kupima umbali kutoka kwa kihisi hadi kwenye kitu. Kwa kawaida hutuma miale ya mionzi ya sumakuumeme kama vile miale ya leza au mwanga wa infraredi, kisha kugundua mionzi hiyo ikirudi kutoka kwenye kitu. Muda kati ya miale ya leza kutumwa na ishara kurudi unaweza kutumika kuhesabu umbali hadi kwenye kihisi.
 

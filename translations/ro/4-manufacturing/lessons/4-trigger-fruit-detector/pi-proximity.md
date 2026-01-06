@@ -35,7 +35,7 @@ Conectează senzorul Time of Flight.
 
 1. Cu Raspberry Pi oprit, conectează celălalt capăt al cablului Grove la unul dintre soclurile I²C marcate **I²C** pe Grove Base Hat atașat la Pi. Aceste socluri se află pe rândul de jos, la capătul opus pinilor GPIO și lângă slotul pentru cablul camerei.
 
-![Senzorul Grove Time of Flight conectat la soclul I²C](../../../../../translated_images/pi-time-of-flight-sensor.58c8dc04eb3bfb57a7c3019f031433ef4d798d4d7603d565afbf6f3802840dba.ro.png)
+![Senzorul Grove Time of Flight conectat la soclul I²C](../../../../../translated_images/pi-time-of-flight-sensor.58c8dc04eb3bfb57.ro.png)
 
 ## Programează senzorul Time of Flight
 
@@ -106,7 +106,7 @@ Programează dispozitivul.
 
     Telemetrul se află pe partea din spate a senzorului, așa că asigură-te că folosești partea corectă atunci când măsori distanța.
 
-    ![Telemetrul de pe partea din spate a senzorului Time of Flight îndreptat spre o banană](../../../../../translated_images/time-of-flight-banana.079921ad8b1496e4525dc26b4cdc71a076407aba3e72ba113ba2e38febae92c5.ro.png)
+    ![Telemetrul de pe partea din spate a senzorului Time of Flight îndreptat spre o banană](../../../../../translated_images/time-of-flight-banana.079921ad8b1496e4.ro.png)
 
 > 💁 Poți găsi acest cod în folderul [code-proximity/pi](../../../../../4-manufacturing/lessons/4-trigger-fruit-detector/code-proximity/pi).
 

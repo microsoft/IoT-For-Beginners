@@ -72,7 +72,7 @@ Mtoa huduma wa wingu anaweza kutumia uchumi wa kiwango kupunguza gharama, kununu
 
 Azure ni wingu la watengenezaji kutoka Microsoft, na hili ndilo wingu utakalotumia kwa masomo haya. Video iliyo hapa chini inatoa muhtasari mfupi wa Azure:
 
-[![Video ya muhtasari wa Azure](../../../../../translated_images/what-is-azure-video-thumbnail.20174db09e03bbb87d213f928d3cb27410305d2e567e952827de8478dbda959b.sw.png)](https://www.microsoft.com/videoplayer/embed/RE4Ibng?WT.mc_id=academic-17441-jabenn)
+[![Video ya muhtasari wa Azure](../../../../../translated_images/what-is-azure-video-thumbnail.20174db09e03bbb8.sw.png)](https://www.microsoft.com/videoplayer/embed/RE4Ibng?WT.mc_id=academic-17441-jabenn)
 
 ## Unda usajili wa wingu
 

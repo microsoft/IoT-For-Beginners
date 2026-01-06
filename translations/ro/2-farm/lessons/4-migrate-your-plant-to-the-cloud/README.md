@@ -72,7 +72,7 @@ Furnizorul de cloud poate apoi să folosească economiile de scară pentru a red
 
 Azure este cloud-ul pentru dezvoltatori de la Microsoft, și acesta este cloud-ul pe care îl vei folosi în aceste lecții. Videoclipul de mai jos oferă o scurtă prezentare a Azure:
 
-[![Videoclip de prezentare Azure](../../../../../translated_images/what-is-azure-video-thumbnail.20174db09e03bbb87d213f928d3cb27410305d2e567e952827de8478dbda959b.ro.png)](https://www.microsoft.com/videoplayer/embed/RE4Ibng?WT.mc_id=academic-17441-jabenn)
+[![Videoclip de prezentare Azure](../../../../../translated_images/what-is-azure-video-thumbnail.20174db09e03bbb8.ro.png)](https://www.microsoft.com/videoplayer/embed/RE4Ibng?WT.mc_id=academic-17441-jabenn)
 
 ## Crearea unui abonament cloud
 

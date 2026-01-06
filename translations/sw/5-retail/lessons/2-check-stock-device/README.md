@@ -39,7 +39,7 @@ Vifaa vya kutambua vitu vinaweza kutumika kwa ukaguzi wa hisa, ama kwa kuhesabu 
 
 Kwa mfano, ikiwa kamera inaelekezwa kwenye rafu inayoweza kushikilia makopo 8 ya tomato paste, na kifaa cha kutambua vitu kinatambua makopo 7 tu, basi moja linakosekana na linahitaji kuwekwa tena.
 
-![Makopo 7 ya tomato paste kwenye rafu, 4 kwenye safu ya juu, 3 juu yake](../../../../../translated_images/stock-7-cans-tomato-paste.f86059cc573d7becaa89a0eafb9d2cd7e2fe37405a530fe565990e2333d0e4a1.sw.png)
+![Makopo 7 ya tomato paste kwenye rafu, 4 kwenye safu ya juu, 3 juu yake](../../../../../translated_images/stock-7-cans-tomato-paste.f86059cc573d7bec.sw.png)
 
 Katika picha hapo juu, kifaa cha kutambua vitu kimetambua makopo 7 ya tomato paste kwenye rafu inayoweza kushikilia makopo 8. Si tu kwamba kifaa cha IoT kinaweza kutuma arifa ya hitaji la kuweka bidhaa, lakini pia kinaweza kutoa maelezo ya eneo la bidhaa inayokosekana, data muhimu ikiwa unatumia roboti kuweka bidhaa.
 
@@ -51,7 +51,7 @@ Wakati mwingine bidhaa zisizofaa zinaweza kuwa kwenye rafu. Hii inaweza kuwa kos
 
 Utambuzi wa vitu unaweza kutumika kugundua bidhaa zisizotarajiwa, tena kuarifu binadamu au roboti kurudisha bidhaa mara tu inapogunduliwa.
 
-![Kopo la mahindi ya mtoto kwenye rafu ya tomato paste](../../../../../translated_images/stock-rogue-corn.be1f3ada8c4578544641af66671c1711a4c02297f14cc7f503354dae0d30a954.sw.png)
+![Kopo la mahindi ya mtoto kwenye rafu ya tomato paste](../../../../../translated_images/stock-rogue-corn.be1f3ada8c457854.sw.png)
 
 Katika picha hapo juu, kopo la mahindi ya mtoto limewekwa kwenye rafu karibu na tomato paste. Kifaa cha kutambua vitu kimetambua hili, kuruhusu kifaa cha IoT kuarifu binadamu au roboti kurudisha kopo mahali pake sahihi.
 

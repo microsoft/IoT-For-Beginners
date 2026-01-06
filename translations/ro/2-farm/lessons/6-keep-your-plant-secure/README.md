@@ -97,15 +97,15 @@ Criptarea vine în două tipuri - simetrică și asimetrică.
 
 **Criptarea simetrică** folosește aceeași cheie pentru a cripta și decripta datele. Atât expeditorul, cât și destinatarul trebuie să cunoască aceeași cheie. Acesta este cel mai puțin sigur tip, deoarece cheia trebuie să fie partajată cumva. Pentru ca un expeditor să trimită un mesaj criptat unui destinatar, expeditorul ar putea mai întâi să trimită cheia destinatarului.
 
-![Criptarea cu cheie simetrică folosește aceeași cheie pentru a cripta și decripta un mesaj](../../../../../translated_images/send-message-symmetric-key.a2e8ad0d495896ffcdf15d25bb4491c695a5cb851457b359fb0f0c89d67707c9.ro.png)
+![Criptarea cu cheie simetrică folosește aceeași cheie pentru a cripta și decripta un mesaj](../../../../../translated_images/send-message-symmetric-key.a2e8ad0d495896ff.ro.png)
 
 Dacă cheia este furată în tranzit sau dacă expeditorul sau destinatarul sunt hackeriți și cheia este găsită, criptarea poate fi spartă.
 
-![Criptarea cu cheie simetrică este sigură doar dacă un hacker nu obține cheia - dacă o face, poate intercepta și decripta mesajul](../../../../../translated_images/send-message-symmetric-key-hacker.e7cb53db1707adfb1486a8144060cb76435fe8dbdede8cecc09e7d15b2d9a251.ro.png)
+![Criptarea cu cheie simetrică este sigură doar dacă un hacker nu obține cheia - dacă o face, poate intercepta și decripta mesajul](../../../../../translated_images/send-message-symmetric-key-hacker.e7cb53db1707adfb.ro.png)
 
 **Criptarea asimetrică** folosește 2 chei - o cheie de criptare și o cheie de decriptare, denumite pereche de chei publice/private. Cheia publică este utilizată pentru a cripta mesajul, dar nu poate fi utilizată pentru a-l decripta, iar cheia privată este utilizată pentru a decripta mesajul, dar nu poate fi utilizată pentru a-l cripta.
 
-![Criptarea asimetrică folosește o cheie diferită pentru a cripta și decripta. Cheia de criptare este trimisă oricărui expeditor de mesaje, astfel încât acesta să poată cripta un mesaj înainte de a-l trimite destinatarului care deține cheile](../../../../../translated_images/send-message-asymmetric.7abe327c62615b8c19805252af5d4b6c5e7aaeb8fbc455efeff866fe2d300b62.ro.png)
+![Criptarea asimetrică folosește o cheie diferită pentru a cripta și decripta. Cheia de criptare este trimisă oricărui expeditor de mesaje, astfel încât acesta să poată cripta un mesaj înainte de a-l trimite destinatarului care deține cheile](../../../../../translated_images/send-message-asymmetric.7abe327c62615b8c.ro.png)
 
 Destinatarul își partajează cheia publică, iar expeditorul o folosește pentru a cripta mesajul. Odată ce mesajul este trimis, destinatarul îl decriptează cu cheia sa privată. Criptarea asimetrică este mai sigură, deoarece cheia privată este păstrată privată de către destinatar și nu este niciodată partajată. Oricine poate avea cheia publică, deoarece aceasta poate fi utilizată doar pentru a cripta mesaje.
 
@@ -165,7 +165,7 @@ Aceste certificate au o serie de câmpuri, inclusiv cine este sursa cheii public
 
 Când folosești certificate X.509, atât expeditorul, cât și destinatarul vor avea propriile chei publice și private, precum și certificate X.509 care conțin cheia publică. Apoi schimbă cumva certificatele X.509, folosind cheile publice ale celuilalt pentru a cripta datele pe care le trimit și propria cheie privată pentru a decripta datele pe care le primesc.
 
-![În loc să împărtășești o cheie publică, poți împărtăși un certificat. Utilizatorul certificatului poate verifica că provine de la tine verificând cu autoritatea de certificare care l-a semnat.](../../../../../translated_images/send-message-certificate.9cc576ac1e46b76eb58ebc8eedaa522566fa0700076da46f5180aad78c2435db.ro.png)
+![În loc să împărtășești o cheie publică, poți împărtăși un certificat. Utilizatorul certificatului poate verifica că provine de la tine verificând cu autoritatea de certificare care l-a semnat.](../../../../../translated_images/send-message-certificate.9cc576ac1e46b76e.ro.png)
 
 Un mare avantaj al utilizării certificatelor X.509 este că acestea pot fi împărtășite între dispozitive. Poți crea un certificat, să-l încarci în IoT Hub și să-l folosești pentru toate dispozitivele tale. Fiecare dispozitiv trebuie doar să cunoască cheia privată pentru a decripta mesajele pe care le primește de la IoT Hub.
 

@@ -41,7 +41,7 @@ Vipengele viwili vya programu ya IoT ni *Intaneti* na *kifaa*. Hebu tuangalie vi
 
 ### Kifaa
 
-![Raspberry Pi 4](../../../../../translated_images/raspberry-pi-4.fd4590d308c3d456db1327e86b395ddcd735513267aafd4879ea2785f7792eac.sw.jpg)
+![Raspberry Pi 4](../../../../../translated_images/raspberry-pi-4.fd4590d308c3d456.sw.jpg)
 
 Sehemu ya **Kifaa** katika IoT inahusu kifaa kinachoweza kuingiliana na ulimwengu wa kimwili. Vifaa hivi mara nyingi ni kompyuta ndogo, za bei nafuu, zinazofanya kazi kwa kasi ndogo na kutumia nguvu kidogo - kwa mfano, microcontrollers rahisi zenye kilobaiti za RAM (tofauti na gigabaiti kwenye PC) zinazofanya kazi kwa mamia machache ya megahertz (tofauti na gigahertz kwenye PC), lakini wakati mwingine hutumia nguvu kidogo sana kiasi kwamba zinaweza kufanya kazi kwa wiki, miezi au hata miaka kwa betri.
 
@@ -67,7 +67,7 @@ Kwa mfano wa thermostat ya kisasa, thermostat ingeunganishwa kwa kutumia WiFi ya
 
 Toleo la kisasa zaidi linaweza kutumia AI kwenye wingu pamoja na data kutoka kwa sensa nyingine zilizounganishwa na vifaa vingine vya IoT kama sensa za uwepo zinazogundua vyumba vinavyotumika, pamoja na data kama hali ya hewa na hata kalenda yako, kufanya maamuzi ya jinsi ya kuweka joto kwa njia ya kisasa. Kwa mfano, linaweza kuzima mfumo wa kupasha joto ikiwa linasoma kutoka kwa kalenda yako kuwa uko likizoni, au kuzima mfumo wa kupasha joto kwa msingi wa chumba kwa chumba kulingana na vyumba unavyotumia, likijifunza kutoka kwa data kuwa sahihi zaidi kwa muda.
 
-![Mchoro unaoonyesha sensa nyingi za joto na kidhibiti kama pembejeo kwa kifaa cha IoT, kifaa cha IoT kikiwa na mawasiliano ya njia mbili na wingu, ambalo kwa upande wake lina mawasiliano ya njia mbili na simu, kalenda na huduma ya hali ya hewa, na udhibiti wa hita kama matokeo kutoka kwa kifaa cha IoT](../../../../../translated_images/smarter-thermostat.a75855f15d2d9e63d5da9d7ba5847a987f6c9d98e96e770c203532275194e27d.sw.png)
+![Mchoro unaoonyesha sensa nyingi za joto na kidhibiti kama pembejeo kwa kifaa cha IoT, kifaa cha IoT kikiwa na mawasiliano ya njia mbili na wingu, ambalo kwa upande wake lina mawasiliano ya njia mbili na simu, kalenda na huduma ya hali ya hewa, na udhibiti wa hita kama matokeo kutoka kwa kifaa cha IoT](../../../../../translated_images/smarter-thermostat.a75855f15d2d9e63.sw.png)
 
 ✅ Ni data gani nyingine inaweza kusaidia kufanya thermostat inayounganishwa na Intaneti kuwa ya kisasa zaidi?
 
@@ -135,7 +135,7 @@ Kama ilivyo kwa CPU, kumbukumbu kwenye microcontroller ni ndogo sana ikilinganis
 
 Mchoro hapa chini unaonyesha tofauti ya ukubwa kati ya 192KB na 8GB - nukta ndogo katikati inawakilisha 192KB.
 
-![Ulinganisho kati ya 192KB na 8GB - zaidi ya mara 40,000 kubwa](../../../../../translated_images/ram-comparison.6beb73541b42ac6ffde64cdf79fc925a84b932ce7ebd4d41d5fd7afc1257a696.sw.png)
+![Ulinganisho kati ya 192KB na 8GB - zaidi ya mara 40,000 kubwa](../../../../../translated_images/ram-comparison.6beb73541b42ac6f.sw.png)
 
 Hifadhi ya programu pia ni ndogo kuliko PC. PC ya kawaida inaweza kuwa na diski ngumu ya 500GB kwa hifadhi ya programu, wakati microcontroller inaweza kuwa na kilobytes tu au labda megabytes chache (MB) za hifadhi (1MB ni 1,000KB, au bytes 1,000,000). Wio terminal ina hifadhi ya programu ya 4MB.
 
@@ -211,17 +211,17 @@ Katika somo la mwisho, tulianzisha kompyuta za bodi moja. Sasa tuzichunguze kwa 
 
 ### Raspberry Pi
 
-![Nembo ya Raspberry Pi](../../../../../translated_images/raspberry-pi-logo.4efaa16605cee05489d8fa53941e991b3757aa24c20a95abdcf8cfd761953596.sw.png)
+![Nembo ya Raspberry Pi](../../../../../translated_images/raspberry-pi-logo.4efaa16605cee054.sw.png)
 
 [Raspberry Pi Foundation](https://www.raspberrypi.org) ni shirika la hisani kutoka Uingereza lililoanzishwa mwaka 2009 ili kukuza masomo ya sayansi ya kompyuta, hasa katika ngazi ya shule. Kama sehemu ya dhamira hii, walitengeneza kompyuta ya bodi moja, inayoitwa Raspberry Pi. Raspberry Pis kwa sasa zinapatikana katika aina 3 - toleo la ukubwa kamili, Pi Zero ndogo, na moduli ya kompyuta inayoweza kujengwa kwenye kifaa chako cha mwisho cha IoT.
 
-![Raspberry Pi 4](../../../../../translated_images/raspberry-pi-4.fd4590d308c3d456db1327e86b395ddcd735513267aafd4879ea2785f7792eac.sw.jpg)
+![Raspberry Pi 4](../../../../../translated_images/raspberry-pi-4.fd4590d308c3d456.sw.jpg)
 
 Toleo la hivi karibuni la Raspberry Pi ya ukubwa kamili ni Raspberry Pi 4B. Hii ina CPU ya quad-core (4 core) inayokimbia kwa 1.5GHz, RAM ya 2, 4, au 8GB, gigabit ethernet, WiFi, bandari 2 za HDMI zinazounga mkono skrini za 4k, bandari ya sauti na video ya mchanganyiko, bandari za USB (2 USB 2.0, 2 USB 3.0), pini 40 za GPIO, kiunganishi cha kamera kwa moduli ya kamera ya Raspberry Pi, na nafasi ya kadi ya SD. Yote haya kwenye bodi ya 88mm x 58mm x 19.5mm na inaendeshwa na usambazaji wa nguvu wa USB-C wa 3A. Hizi zinaanza kwa US$35, bei nafuu zaidi kuliko PC au Mac.
 
 > 💁 Pia kuna Pi400 kompyuta yote katika moja yenye Pi4 iliyojengwa ndani ya kibodi.
 
-![Raspberry Pi Zero](../../../../../translated_images/raspberry-pi-zero.f7a4133e1e7d54bb3dbb32319b217a53c5b94871995a54647f2894b54206b8d8.sw.jpg)
+![Raspberry Pi Zero](../../../../../translated_images/raspberry-pi-zero.f7a4133e1e7d54bb.sw.jpg)
 
 Pi Zero ni ndogo zaidi, yenye nguvu ndogo. Ina CPU ya msingi mmoja ya 1GHz, RAM ya 512MB, WiFi (katika modeli ya Zero W), bandari moja ya HDMI, bandari moja ya micro-USB, pini 40 za GPIO, kiunganishi cha kamera kwa moduli ya kamera ya Raspberry Pi, na nafasi ya kadi ya SD. Inapima 65mm x 30mm x 5mm, na hutumia nguvu kidogo sana. Zero ni US$5, na toleo la W lenye WiFi ni US$10.
 

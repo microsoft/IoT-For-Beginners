@@ -97,15 +97,15 @@ Usimbaji fiche unakuja kwa aina mbili - symmetri na asymmetri.
 
 **Symmetri** hutumia ufunguo sawa kusimba na kufuta data. Mtumaji na mpokeaji wote wanahitaji kujua ufunguo sawa. Hii ni aina isiyo salama zaidi, kwa kuwa ufunguo unahitaji kushirikiwa kwa namna fulani. Ili mtumaji kutuma ujumbe uliofichwa kwa mpokeaji, mtumaji anaweza kwanza kuhitaji kutuma ufunguo kwa mpokeaji.
 
-![Usimbaji fiche wa symmetri hutumia ufunguo sawa kusimba na kufuta ujumbe](../../../../../translated_images/send-message-symmetric-key.a2e8ad0d495896ffcdf15d25bb4491c695a5cb851457b359fb0f0c89d67707c9.sw.png)
+![Usimbaji fiche wa symmetri hutumia ufunguo sawa kusimba na kufuta ujumbe](../../../../../translated_images/send-message-symmetric-key.a2e8ad0d495896ff.sw.png)
 
 Ikiwa ufunguo utaibiwa wakati wa usafirishaji, au mtumaji au mpokeaji atavamiwa na ufunguo ukapatikana, usimbaji fiche unaweza kuvunjwa.
 
-![Usimbaji fiche wa symmetri ni salama tu ikiwa mdukuzi hajapata ufunguo - ikiwa hivyo, wanaweza kuingilia na kufuta ujumbe](../../../../../translated_images/send-message-symmetric-key-hacker.e7cb53db1707adfb1486a8144060cb76435fe8dbdede8cecc09e7d15b2d9a251.sw.png)
+![Usimbaji fiche wa symmetri ni salama tu ikiwa mdukuzi hajapata ufunguo - ikiwa hivyo, wanaweza kuingilia na kufuta ujumbe](../../../../../translated_images/send-message-symmetric-key-hacker.e7cb53db1707adfb.sw.png)
 
 **Asymmetri** hutumia funguo 2 - ufunguo wa kusimba na ufunguo wa kufuta, unaojulikana kama jozi ya funguo ya umma/binafsi. Ufunguo wa umma hutumika kusimba ujumbe, lakini hauwezi kutumika kufuta, na ufunguo wa binafsi hutumika kufuta ujumbe lakini hauwezi kutumika kusimba.
 
-![Usimbaji fiche wa asymmetri hutumia ufunguo tofauti kusimba na kufuta. Ufunguo wa kusimba hutumwa kwa watumaji wa ujumbe ili waweze kusimba ujumbe kabla ya kuutuma kwa mpokeaji anayemiliki funguo](../../../../../translated_images/send-message-asymmetric.7abe327c62615b8c19805252af5d4b6c5e7aaeb8fbc455efeff866fe2d300b62.sw.png)
+![Usimbaji fiche wa asymmetri hutumia ufunguo tofauti kusimba na kufuta. Ufunguo wa kusimba hutumwa kwa watumaji wa ujumbe ili waweze kusimba ujumbe kabla ya kuutuma kwa mpokeaji anayemiliki funguo](../../../../../translated_images/send-message-asymmetric.7abe327c62615b8c.sw.png)
 
 Mpokeaji hushiriki ufunguo wake wa umma, na mtumaji hutumia huu kusimba ujumbe. Mara tu ujumbe unapotumwa, mpokeaji hufuta kwa kutumia ufunguo wake wa binafsi. Usimbaji fiche wa asymmetri ni salama zaidi kwa kuwa ufunguo wa binafsi unahifadhiwa na mpokeaji na haujawahi kushirikiwa. Mtu yeyote anaweza kuwa na ufunguo wa umma kwa kuwa unaweza kutumika tu kusimba ujumbe.
 
@@ -165,7 +165,7 @@ Vyeti hivi vina sehemu kadhaa ndani yake, ikiwa ni pamoja na ni nani ufunguo wa 
 
 Unapotumia vyeti vya X.509, mtumaji na mpokeaji wote watakuwa na funguo zao za umma na binafsi, pamoja na vyeti vya X.509 vinavyobeba funguo za umma. Kisha wanabadilishana vyeti vya X.509 kwa namna fulani, wakitumia funguo za umma za kila mmoja kuficha data wanayotuma, na funguo zao binafsi kufungua data wanayopokea.
 
-![Badala ya kushiriki ufunguo wa umma, unaweza kushiriki cheti. Mtumiaji wa cheti anaweza kuthibitisha kuwa kinatoka kwako kwa kuangalia na mamlaka ya cheti iliyokisaini.](../../../../../translated_images/send-message-certificate.9cc576ac1e46b76eb58ebc8eedaa522566fa0700076da46f5180aad78c2435db.sw.png)
+![Badala ya kushiriki ufunguo wa umma, unaweza kushiriki cheti. Mtumiaji wa cheti anaweza kuthibitisha kuwa kinatoka kwako kwa kuangalia na mamlaka ya cheti iliyokisaini.](../../../../../translated_images/send-message-certificate.9cc576ac1e46b76e.sw.png)
 
 Faida kubwa ya kutumia vyeti vya X.509 ni kwamba vinaweza kushirikiwa kati ya vifaa. Unaweza kuunda cheti kimoja, kukipakia kwenye IoT Hub, na kutumia hiki kwa vifaa vyote vyako. Kila kifaa kinahitaji tu kujua ufunguo binafsi kufungua ujumbe kinachopokea kutoka IoT Hub.
 

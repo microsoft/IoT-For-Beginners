@@ -64,7 +64,7 @@ Unganisha Wio Terminal na WiFi.
 
 1. Unda faili mpya kwenye folda ya `src` inayoitwa `config.h`. Unaweza kufanya hivi kwa kuchagua folda ya `src`, au faili ya `main.cpp` ndani yake, na kuchagua kitufe cha **New file** kutoka kwa explorer. Kitufe hiki kinaonekana tu wakati mshale wako uko juu ya explorer.
 
-    ![Kitufe cha faili mpya](../../../../../translated_images/vscode-new-file-button.182702340fe6723c8cbb4cfa1a9a9fb0d0a5227643b4e46b91ff67b07a39a92f.sw.png)
+    ![Kitufe cha faili mpya](../../../../../translated_images/vscode-new-file-button.182702340fe6723c.sw.png)
 
 1. Ongeza msimbo ufuatao kwenye faili hii ili kufafanua constants za maelezo ya WiFi yako:
 

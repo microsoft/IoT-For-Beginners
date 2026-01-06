@@ -33,7 +33,7 @@ Conectează senzorul GPS.
 
 1. Cu Wio Terminal deconectat de la computer sau de la altă sursă de alimentare, conectează celălalt capăt al cablului Grove la soclul Grove din partea stângă a Wio Terminal, așa cum privești ecranul. Acesta este soclul cel mai apropiat de butonul de alimentare.
 
-    ![Senzorul Grove GPS conectat la soclul din stânga](../../../../../translated_images/wio-gps-sensor.19fd52b81ce58095d5deb3d4e5a1fdd88818d76569b00b1f0d740c92dc986525.ro.png)
+    ![Senzorul Grove GPS conectat la soclul din stânga](../../../../../translated_images/wio-gps-sensor.19fd52b81ce58095.ro.png)
 
 1. Poziționează senzorul GPS astfel încât antena atașată să aibă vizibilitate către cer - ideal lângă o fereastră deschisă sau afară. Este mai ușor să obții un semnal clar fără obstacole în calea antenei.
 

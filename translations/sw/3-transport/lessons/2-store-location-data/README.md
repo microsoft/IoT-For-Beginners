@@ -66,7 +66,7 @@ Hifadhidata ni huduma zinazokuruhusu kuhifadhi na kuuliza data. Hifadhidata huja
 
 Hifadhidata za kwanza zilikuwa Mfumo wa Usimamizi wa Hifadhidata za Uhusiano (RDBMS), au hifadhidata za uhusiano. Hizi pia zinajulikana kama hifadhidata za SQL kutokana na Lugha ya Uulizaji Iliyopangiliwa (SQL) inayotumika kuingiliana nazo ili kuongeza, kuondoa, kusasisha au kuuliza data. Hifadhidata hizi zina muundo - seti iliyoelezwa vizuri ya meza za data, sawa na lahajedwali. Kila meza ina safu nyingi zilizopewa majina. Unapoweka data, unaongeza safu kwenye meza, ukiweka thamani kwenye kila safu. Hii huweka data katika muundo thabiti - ingawa unaweza kuacha safu tupu, ikiwa unataka kuongeza safu mpya lazima ufanye hivyo kwenye hifadhidata, ukijaza thamani kwa safu zilizopo. Hifadhidata hizi zina uhusiano - kwamba meza moja inaweza kuwa na uhusiano na nyingine.
 
-![Hifadhidata ya uhusiano na ID ya meza ya Mtumiaji inayohusiana na safu ya ID ya mtumiaji ya meza ya manunuzi, na ID ya meza ya bidhaa inayohusiana na ID ya bidhaa ya meza ya manunuzi](../../../../../translated_images/sql-database.be160f12bfccefd3ca718a66468c2c4c89c53e5aad4c295324d576da87f9dfdd.sw.png)
+![Hifadhidata ya uhusiano na ID ya meza ya Mtumiaji inayohusiana na safu ya ID ya mtumiaji ya meza ya manunuzi, na ID ya meza ya bidhaa inayohusiana na ID ya bidhaa ya meza ya manunuzi](../../../../../translated_images/sql-database.be160f12bfccefd3.sw.png)
 
 Kwa mfano, ikiwa ungehifadhi maelezo ya kibinafsi ya mtumiaji kwenye meza, ungekuwa na aina fulani ya ID ya kipekee ya ndani kwa kila mtumiaji inayotumika kwenye safu kwenye meza inayojumuisha jina na anwani ya mtumiaji. Ikiwa ungependa kuhifadhi maelezo mengine kuhusu mtumiaji huyo, kama manunuzi yake, kwenye meza nyingine, ungekuwa na safu moja kwenye meza mpya kwa ID ya mtumiaji huyo. Unapomtafuta mtumiaji, unaweza kutumia ID yake kupata maelezo yake ya kibinafsi kutoka meza moja, na manunuzi yake kutoka nyingine.
 
@@ -241,7 +241,7 @@ Sasa programu yako ya functions inahitaji kuunganishwa na hifadhi ya blob ili ku
 
 Katika somo hili, utatumia Python SDK kuona jinsi ya kuingiliana na hifadhi ya blob.
 
-![Kutuma telemetry ya GPS kutoka kifaa cha IoT kwenda IoT Hub, kisha Azure Functions kupitia kichocheo cha event hub, kisha kuihifadhi kwenye hifadhi ya blob](../../../../../translated_images/save-telemetry-to-storage-from-functions.ed3b1820980097f143d9f0570072da11304c2bc7906359dfa075b4d9b253c20f.sw.png)
+![Kutuma telemetry ya GPS kutoka kifaa cha IoT kwenda IoT Hub, kisha Azure Functions kupitia kichocheo cha event hub, kisha kuihifadhi kwenye hifadhi ya blob](../../../../../translated_images/save-telemetry-to-storage-from-functions.ed3b1820980097f1.sw.png)
 
 Data itahifadhiwa kama blob ya JSON yenye muundo ufuatao:
 

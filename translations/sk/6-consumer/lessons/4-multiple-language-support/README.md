@@ -130,7 +130,7 @@ Pre túto lekciu budete potrebovať zdroj Translator. Na preklad textu použijet
 
 V ideálnom svete by celá vaša aplikácia mala rozumieť čo najväčšiemu počtu rôznych jazykov, od počúvania reči, cez porozumenie jazyku, až po odpovedanie rečou. Toto je však veľa práce, takže prekladateľské služby môžu urýchliť čas dodania vašej aplikácie.
 
-![Architektúra inteligentného časovača prekladajúca japončinu do angličtiny, spracovanie v angličtine a preklad späť do japončiny](../../../../../translated_images/translated-smart-timer.08ac20057fdc5c3778ed41cb425dca5d7fbcd4584b6da7b73ca67115a5b8a883.sk.png)
+![Architektúra inteligentného časovača prekladajúca japončinu do angličtiny, spracovanie v angličtine a preklad späť do japončiny](../../../../../translated_images/translated-smart-timer.08ac20057fdc5c37.sk.png)
 
 Predstavte si, že vytvárate inteligentný časovač, ktorý používa angličtinu od začiatku do konca, rozumie hovorenému anglickému jazyku a prevádza ho na text, vykonáva porozumenie jazyka v angličtine, vytvára odpovede v angličtine a odpovedá hovorenou angličtinou. Ak by ste chceli pridať podporu pre japončinu, mohli by ste začať prekladom hovoreného japonského jazyka na anglický text, potom ponechať jadro aplikácie rovnaké a potom preložiť odpoveď na text do japončiny predtým, ako ju vyslovíte. To by vám umožnilo rýchlo pridať podporu pre japončinu a neskôr môžete rozšíriť aplikáciu na plnú podporu japončiny od začiatku do konca.
 

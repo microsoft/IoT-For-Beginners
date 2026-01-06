@@ -39,7 +39,7 @@ Detektory objektov môžu byť použité na kontrolu zásob, či už na ich poč
 
 Napríklad, ak kamera smeruje na poličky, ktoré môžu držať 8 plechoviek paradajkového pretlaku, a detektor objektov detekuje iba 7 plechoviek, jedna chýba a je potrebné ju doplniť.
 
-![7 plechoviek paradajkového pretlaku na poličke, 4 na hornom rade, 3 na spodnom](../../../../../translated_images/stock-7-cans-tomato-paste.f86059cc573d7becaa89a0eafb9d2cd7e2fe37405a530fe565990e2333d0e4a1.sk.png)
+![7 plechoviek paradajkového pretlaku na poličke, 4 na hornom rade, 3 na spodnom](../../../../../translated_images/stock-7-cans-tomato-paste.f86059cc573d7bec.sk.png)
 
 Na obrázku vyššie detektor objektov detekoval 7 plechoviek paradajkového pretlaku na poličke, ktorá môže držať 8 plechoviek. IoT zariadenie môže nielen poslať upozornenie na potrebu doplnenia, ale môže dokonca poskytnúť informáciu o umiestnení chýbajúcej položky, čo je dôležitý údaj, ak používate roboty na dopĺňanie poličiek.
 
@@ -51,7 +51,7 @@ Niekedy sa na poličkách môže nachádzať nesprávny tovar. Môže to byť ľ
 
 Detekcia objektov môže byť použitá na detekciu neočakávaných položiek, opäť upozorňujúc človeka alebo robota, aby položku vrátil hneď, ako je detekovaná.
 
-![Nepatriaca plechovka baby kukurice na poličke s paradajkovým pretlakom](../../../../../translated_images/stock-rogue-corn.be1f3ada8c4578544641af66671c1711a4c02297f14cc7f503354dae0d30a954.sk.png)
+![Nepatriaca plechovka baby kukurice na poličke s paradajkovým pretlakom](../../../../../translated_images/stock-rogue-corn.be1f3ada8c457854.sk.png)
 
 Na obrázku vyššie bola na poličku vedľa paradajkového pretlaku umiestnená plechovka baby kukurice. Detektor objektov to detekoval, čo umožňuje IoT zariadeniu upozorniť človeka alebo robota, aby plechovku vrátil na správne miesto.
 

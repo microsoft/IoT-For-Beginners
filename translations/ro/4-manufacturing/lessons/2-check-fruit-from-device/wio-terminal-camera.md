@@ -29,7 +29,7 @@ Conectează camera.
 
 1. Pinii de la baza ArduCam trebuie conectați la pinii GPIO de pe Wio Terminal. Pentru a găsi mai ușor pinii corecți, atașează autocolantul pentru pini GPIO care vine cu Wio Terminal în jurul pinilor:
 
-    ![Wio Terminal cu autocolantul pentru pini GPIO](../../../../../translated_images/wio-terminal-pin-sticker.b90b1535937b84bd00d853f0004aea74fac2aec04b43f14b887796b2633f855e.ro.png)
+    ![Wio Terminal cu autocolantul pentru pini GPIO](../../../../../translated_images/wio-terminal-pin-sticker.b90b1535937b84bd.ro.png)
 
 1. Folosind fire jumper, realizează următoarele conexiuni:
 
@@ -297,7 +297,7 @@ Wio Terminal poate fi acum programat pentru a captura o imagine atunci când un 
 
 1. Microcontrolerele rulează codul tău continuu, așa că nu este ușor să declanșezi ceva precum realizarea unei fotografii fără a reacționa la un senzor. Wio Terminal are butoane, așa că camera poate fi configurată să fie declanșată de unul dintre butoane. Adaugă următorul cod la sfârșitul funcției `setup` pentru a configura butonul C (unul dintre cele trei butoane de sus, cel mai apropiat de comutatorul de alimentare).
 
-    ![Butonul C de sus, cel mai apropiat de comutatorul de alimentare](../../../../../translated_images/wio-terminal-c-button.73df3cb1c1445ea07ee98316af0e7925fcb43135df0abed58d3d4822b2589c3b.ro.png)
+    ![Butonul C de sus, cel mai apropiat de comutatorul de alimentare](../../../../../translated_images/wio-terminal-c-button.73df3cb1c1445ea0.ro.png)
 
     ```cpp
     pinMode(WIO_KEY_C, INPUT_PULLUP);

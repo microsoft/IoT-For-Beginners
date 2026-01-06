@@ -13,7 +13,7 @@ Mchanganyiko wa utabiri na masanduku yao ya mipaka unaweza kutumika kuhesabu his
 
 ## Hesabu Hisa
 
-![Mikebe 4 ya tomato paste ikiwa na masanduku ya mipaka kuzunguka kila kebe](../../../../../translated_images/rpi-stock-with-bounding-boxes.b5540e2ecb7cd49f1271828d3be412671d950e87625c5597ea97c90f11e01097.sw.jpg)
+![Mikebe 4 ya tomato paste ikiwa na masanduku ya mipaka kuzunguka kila kebe](../../../../../translated_images/rpi-stock-with-bounding-boxes.b5540e2ecb7cd49f.sw.jpg)
 
 Kwenye picha iliyoonyeshwa hapo juu, masanduku ya mipaka yana mgongano mdogo. Ikiwa mgongano huu ungekuwa mkubwa zaidi, basi masanduku ya mipaka yanaweza kuonyesha kitu kimoja. Ili kuhesabu vitu kwa usahihi, unahitaji kupuuza masanduku yenye mgongano mkubwa.
 

@@ -35,7 +35,7 @@ Unganisha kihisi cha Time of Flight.
 
 1. Ukiwa na Raspberry Pi imezimwa, unganisha mwisho mwingine wa kebo ya Grove kwenye moja ya soketi za I²C zilizowekwa alama **I²C** kwenye Grove Base hat iliyounganishwa na Pi. Soketi hizi ziko kwenye safu ya chini, upande wa pili wa pini za GPIO na karibu na nafasi ya kebo ya kamera.
 
-![Kihisi cha Grove Time of Flight kimeunganishwa kwenye soketi ya I²C](../../../../../translated_images/pi-time-of-flight-sensor.58c8dc04eb3bfb57a7c3019f031433ef4d798d4d7603d565afbf6f3802840dba.sw.png)
+![Kihisi cha Grove Time of Flight kimeunganishwa kwenye soketi ya I²C](../../../../../translated_images/pi-time-of-flight-sensor.58c8dc04eb3bfb57.sw.png)
 
 ## Programu ya kihisi cha Time of Flight
 
@@ -106,7 +106,7 @@ Programu kifaa.
 
     Kipima umbali kiko nyuma ya kihisi, kwa hivyo hakikisha unatumia upande sahihi unapopima umbali.
 
-    ![Kipima umbali kilicho nyuma ya kihisi cha Time of Flight kikielekezwa kwenye ndizi](../../../../../translated_images/time-of-flight-banana.079921ad8b1496e4525dc26b4cdc71a076407aba3e72ba113ba2e38febae92c5.sw.png)
+    ![Kipima umbali kilicho nyuma ya kihisi cha Time of Flight kikielekezwa kwenye ndizi](../../../../../translated_images/time-of-flight-banana.079921ad8b1496e4.sw.png)
 
 > 💁 Unaweza kupata msimbo huu kwenye folda ya [code-proximity/pi](../../../../../4-manufacturing/lessons/4-trigger-fruit-detector/code-proximity/pi).
 

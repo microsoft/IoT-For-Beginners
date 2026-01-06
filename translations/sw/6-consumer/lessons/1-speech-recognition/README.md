@@ -64,7 +64,7 @@ Maikrofoni huja katika aina mbalimbali:
 
 * **Ribbon** - Maikrofoni za ribbon zinafanana na maikrofoni za dynamic, isipokuwa zina ribbon ya chuma badala ya diaphragm. Ribbon hii husogea kwenye uwanja wa sumaku na kuzalisha mkondo wa umeme. Kama maikrofoni za dynamic, maikrofoni za ribbon hazihitaji nguvu kufanya kazi.
 
-    ![Edmund Lowe, mwigizaji wa Marekani, akiwa amesimama kwenye maikrofoni ya redio (iliyotajwa kwa (NBC) Blue Network), akiwa ameshikilia maandishi, 1942](../../../../../translated_images/ribbon-mic.eacc8e092c7441caee6d7a81e2f40e1675bf36269848964c7c09c9a9acb05127.sw.jpg)
+    ![Edmund Lowe, mwigizaji wa Marekani, akiwa amesimama kwenye maikrofoni ya redio (iliyotajwa kwa (NBC) Blue Network), akiwa ameshikilia maandishi, 1942](../../../../../translated_images/ribbon-mic.eacc8e092c7441ca.sw.jpg)
 
 * **Condenser** - Maikrofoni za condenser zina diaphragm nyembamba ya chuma na sahani ya nyuma ya chuma iliyowekwa. Umeme hutumika kwa vyote viwili na diaphragm inapovibrate, chaji ya static kati ya sahani hubadilika na kuzalisha ishara. Maikrofoni za condenser zinahitaji nguvu kufanya kazi - inayoitwa *Phantom power*.
 
@@ -84,7 +84,7 @@ Sauti ni ishara ya analogi inayobeba taarifa za kina sana. Ili kubadilisha ishar
 
 > 🎓 Kuchukua sampuli ni kubadilisha ishara ya sauti kuwa thamani ya kidijitali inayowakilisha ishara hiyo kwa wakati huo.
 
-![Chati ya mstari inayoonyesha ishara, na pointi maalum kwa vipindi vilivyowekwa](../../../../../translated_images/sampling.6f4fadb3f2d9dfe7618f9edfe75a350e6b3f74293ec84f02ab69c19d2afe3d73.sw.png)
+![Chati ya mstari inayoonyesha ishara, na pointi maalum kwa vipindi vilivyowekwa](../../../../../translated_images/sampling.6f4fadb3f2d9dfe7.sw.png)
 
 Sauti ya kidijitali inachukuliwa sampuli kwa kutumia Pulse Code Modulation, au PCM. PCM inahusisha kusoma voltage ya ishara, na kuchagua thamani ya karibu zaidi ya kidijitali kwa voltage hiyo kwa kutumia ukubwa ulioainishwa.
 

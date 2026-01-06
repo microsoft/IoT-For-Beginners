@@ -130,7 +130,7 @@ Pentru această lecție vei avea nevoie de o resursă Translator. Vei folosi API
 
 Într-o lume ideală, întreaga aplicație ar trebui să înțeleagă cât mai multe limbi diferite, de la ascultarea vorbirii, la înțelegerea limbajului, până la răspunsul cu vorbire. Acest lucru implică multă muncă, așa că serviciile de traducere pot accelera timpul de livrare al aplicației tale.
 
-![O arhitectură de cronometru inteligent care traduce japoneza în engleză, procesează în engleză, apoi traduce înapoi în japoneză](../../../../../translated_images/translated-smart-timer.08ac20057fdc5c3778ed41cb425dca5d7fbcd4584b6da7b73ca67115a5b8a883.ro.png)
+![O arhitectură de cronometru inteligent care traduce japoneza în engleză, procesează în engleză, apoi traduce înapoi în japoneză](../../../../../translated_images/translated-smart-timer.08ac20057fdc5c37.ro.png)
 
 Imaginează-ți că construiești un cronometru inteligent care folosește engleza de la un capăt la altul, înțelegând vorbirea în engleză și convertind-o în text, rulând înțelegerea limbajului în engleză, construind răspunsuri în engleză și răspunzând cu vorbire în engleză. Dacă ai dori să adaugi suport pentru japoneză, ai putea începe prin traducerea vorbirii japoneze în text englez, apoi păstrând nucleul aplicației la fel, apoi traducând textul răspunsului în japoneză înainte de a răspunde cu vorbire. Acest lucru ți-ar permite să adaugi rapid suport pentru japoneză și poți extinde pentru a oferi suport complet de la un capăt la altul pentru japoneză mai târziu.
 

@@ -65,7 +65,7 @@ Kila aina ya mmea ina thamani tofauti kwa joto lake la msingi, bora, na la juu. 
 
 ✅ Fanya utafiti. Kwa mimea yoyote uliyo nayo kwenye bustani yako, shule, au mbuga ya karibu, angalia kama unaweza kupata joto la msingi.
 
-![Grafu inayoonyesha kiwango cha ukuaji kinavyoongezeka joto linapoongezeka, kisha kushuka joto linapokuwa juu sana](../../../../../translated_images/plant-growth-temp-graph.c6d69c9478e6ca832baa8dcb8d4adcbb67304074ce50e94ac8faae95975177f9.sw.png)
+![Grafu inayoonyesha kiwango cha ukuaji kinavyoongezeka joto linapoongezeka, kisha kushuka joto linapokuwa juu sana](../../../../../translated_images/plant-growth-temp-graph.c6d69c9478e6ca83.sw.png)
 
 Grafu hapo juu inaonyesha mfano wa grafu ya ukuaji kulingana na joto. Hadi joto la msingi hakuna ukuaji. Kiwango cha ukuaji kinaongezeka hadi joto bora, kisha kushuka baada ya kufikia kilele hiki. Katika joto la juu ukuaji husimama.
 
@@ -141,7 +141,7 @@ Hii ina athari kubwa ya kazi kwenye shamba kubwa, na inahatarisha mkulima kukosa
 
 Kwa kukusanya data ya joto kwa kutumia kifaa cha IoT, mkulima anaweza kuarifiwa kiotomatiki wakati mimea iko karibu na ukomavu. Muundo wa kawaida wa hili ni kuwa na vifaa vya IoT kupima joto, kisha kuchapisha data hii ya telemetry kupitia mtandao kwa kutumia kitu kama MQTT. Nambari ya seva kisha husikiliza data hii na kuihifadhi mahali fulani, kama kwenye hifadhidata. Hii inamaanisha data inaweza kuchambuliwa baadaye, kama kazi ya usiku ya kuhesabu GDD kwa siku, kujumlisha GDD kwa kila zao hadi sasa na kutoa tahadhari ikiwa mmea uko karibu na ukomavu.
 
-![Data ya telemetry inatumwa kwa seva na kisha kuhifadhiwa kwenye hifadhidata](../../../../../translated_images/save-telemetry-database.ddc9c6bea0c5ba39449966a463ca6748cd8e2d565dab44ff31c9f1d2f6c21d27.sw.png)
+![Data ya telemetry inatumwa kwa seva na kisha kuhifadhiwa kwenye hifadhidata](../../../../../translated_images/save-telemetry-database.ddc9c6bea0c5ba39.sw.png)
 
 Nambari ya seva pia inaweza kuongeza data ya ziada. Kwa mfano, kifaa cha IoT kinaweza kuchapisha kitambulisho kuonyesha ni kifaa gani, na nambari ya seva inaweza kutumia hii kutafuta eneo la kifaa, na mazao gani kinachofuatilia. Pia inaweza kuongeza data ya msingi kama wakati wa sasa kwani baadhi ya vifaa vya IoT havina vifaa vinavyohitajika kufuatilia wakati sahihi, au vinahitaji nambari ya ziada kusoma wakati wa sasa kupitia mtandao.
 
@@ -228,7 +228,7 @@ Faili hii inafungua faili la CSV, kisha inaongeza safu mpya mwishoni. Safu hiyo 
 
     
 > 💁 Ikiwa unatumia Kifaa cha IoT cha Virtual, chagua kisanduku cha random na weka kiwango ili kuepuka kupata joto sawa kila wakati thamani ya joto inarudishwa.
-    ![Chagua kisanduku cha random na weka kiwango](../../../../../translated_images/select-the-random-checkbox-and-set-a-range.32cf4bc7c12e797f8c76616b10c7c23a6592321bb1a6310e0b481e72f97d23b3.sw.png) 
+    ![Chagua kisanduku cha random na weka kiwango](../../../../../translated_images/select-the-random-checkbox-and-set-a-range.32cf4bc7c12e797f.sw.png) 
 
     > 💁 Ikiwa unataka kuendesha hii kwa siku nzima, basi unahitaji kuhakikisha kompyuta ambayo msimbo wa seva yako unaendesha haitalala, ama kwa kubadilisha mipangilio ya nguvu, au kuendesha kitu kama [msimbo huu wa Python wa kuweka mfumo ukiwa hai](https://github.com/jaqsparow/keep-system-active).
     

@@ -61,7 +61,7 @@ Cele mai recente evoluții ale acestor mașini de sortare profită de AI și ML,
 
 Programarea tradițională presupune să iei date, să aplici un algoritm asupra lor și să obții un rezultat. De exemplu, în proiectul anterior ai luat coordonate GPS și o geofence, ai aplicat un algoritm furnizat de Azure Maps și ai obținut un rezultat care indica dacă punctul era în interiorul sau în afara geofence-ului. Introduci mai multe date, obții mai multe rezultate.
 
-![Dezvoltarea tradițională ia datele de intrare și un algoritm și oferă un rezultat. Învățarea automată folosește datele de intrare și rezultatele cunoscute pentru a antrena un model, iar acest model poate lua noi date de intrare pentru a genera noi rezultate](../../../../../translated_images/traditional-vs-ml.5c20c169621fa539ca84a2cd9a49f6ff7410b3a6c6b46c97ff2af3f99db3c66b.ro.png)
+![Dezvoltarea tradițională ia datele de intrare și un algoritm și oferă un rezultat. Învățarea automată folosește datele de intrare și rezultatele cunoscute pentru a antrena un model, iar acest model poate lua noi date de intrare pentru a genera noi rezultate](../../../../../translated_images/traditional-vs-ml.5c20c169621fa539.ro.png)
 
 Învățarea automată schimbă acest proces - începi cu date și rezultate cunoscute, iar algoritmul de învățare automată învață din date. Poți apoi să iei acest algoritm antrenat, numit *model de învățare automată* sau *model*, și să introduci date noi pentru a obține rezultate noi.
 
@@ -87,7 +87,7 @@ Pentru a antrena cu succes un clasificator de imagini, ai nevoie de milioane de 
 
 Odată ce un clasificator de imagini a fost antrenat pentru o gamă largă de imagini, structura sa internă este excelentă la recunoașterea formelor, culorilor și modelelor. Transferul de învățare permite modelului să folosească ceea ce a învățat deja despre recunoașterea părților unei imagini și să folosească acest lucru pentru a recunoaște imagini noi.
 
-![Odată ce poți recunoaște forme, acestea pot fi configurate diferit pentru a forma o barcă sau o pisică](../../../../../translated_images/shapes-to-images.1a309f0ea88dd66fafa4da6d38e88806ce174cc6a88081efb32852230ed55de8.ro.png)
+![Odată ce poți recunoaște forme, acestea pot fi configurate diferit pentru a forma o barcă sau o pisică](../../../../../translated_images/shapes-to-images.1a309f0ea88dd66f.ro.png)
 
 Poți considera acest lucru ca fiind similar cu cărțile pentru copii despre forme, unde odată ce poți recunoaște un semicerc, un dreptunghi și un triunghi, poți recunoaște o barcă cu pânze sau o pisică, în funcție de configurația acestor forme. Clasificatorul de imagini poate recunoaște formele, iar transferul de învățare îl învață ce combinație formează o barcă sau o pisică - sau o banană coaptă.
 

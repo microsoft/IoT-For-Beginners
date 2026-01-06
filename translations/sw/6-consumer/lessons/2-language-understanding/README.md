@@ -126,7 +126,7 @@ Baada ya kufafanua vyombo, unaunda makusudi. Haya yanajifunza na mfano kulingana
 
 Kisha unaiambia LUIS ni sehemu gani za sentensi hizi zinahusiana na vyombo:
 
-![Sentensi "weka kipima muda kwa dakika 1 na sekunde 12" imegawanywa katika vyombo](../../../../../translated_images/sentence-as-intent-entities.301401696f9922590a99343f5c5d211b710b906f212f0d4d034cee3ffb610272.sw.png)
+![Sentensi "weka kipima muda kwa dakika 1 na sekunde 12" imegawanywa katika vyombo](../../../../../translated_images/sentence-as-intent-entities.301401696f992259.sw.png)
 
 Sentensi `weka kipima muda kwa dakika 1 na sekunde 12` ina kusudi la `weka kipima muda`. Pia ina vyombo 2 vyenye thamani 2 kila moja:
 

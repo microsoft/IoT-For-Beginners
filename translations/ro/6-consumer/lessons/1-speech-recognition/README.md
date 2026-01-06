@@ -64,7 +64,7 @@ Microfoanele vin într-o varietate de tipuri:
 
 * Ribbon - Microfoanele cu panglică sunt similare cu microfoanele dinamice, cu excepția faptului că au o panglică metalică în loc de diafragmă. Această panglică se mișcă într-un câmp magnetic, generând un curent electric. La fel ca microfoanele dinamice, microfoanele cu panglică nu au nevoie de alimentare pentru a funcționa.
 
-    ![Edmund Lowe, actor american, stând la un microfon de radio (marcat pentru rețeaua Blue Network NBC), ținând un scenariu, 1942](../../../../../translated_images/ribbon-mic.eacc8e092c7441caee6d7a81e2f40e1675bf36269848964c7c09c9a9acb05127.ro.jpg)
+    ![Edmund Lowe, actor american, stând la un microfon de radio (marcat pentru rețeaua Blue Network NBC), ținând un scenariu, 1942](../../../../../translated_images/ribbon-mic.eacc8e092c7441ca.ro.jpg)
 
 * Condensator - Microfoanele cu condensator au o diafragmă metalică subțire și o placă metalică fixă. Electricitatea este aplicată ambelor, iar pe măsură ce diafragma vibrează, sarcina statică dintre plăci se modifică, generând un semnal. Microfoanele cu condensator au nevoie de alimentare pentru a funcționa - numită *Phantom power*.
 
@@ -84,7 +84,7 @@ Audio-ul este un semnal analogic care transportă informații foarte detaliate. 
 
 > 🎓 Eșantionarea înseamnă convertirea semnalului audio într-o valoare digitală care reprezintă semnalul în acel moment.
 
-![Un grafic liniar care arată un semnal, cu puncte discrete la intervale fixe](../../../../../translated_images/sampling.6f4fadb3f2d9dfe7618f9edfe75a350e6b3f74293ec84f02ab69c19d2afe3d73.ro.png)
+![Un grafic liniar care arată un semnal, cu puncte discrete la intervale fixe](../../../../../translated_images/sampling.6f4fadb3f2d9dfe7.ro.png)
 
 Audio-ul digital este eșantionat folosind Modularea Codului de Puls, sau PCM. PCM implică citirea tensiunii semnalului și selectarea celei mai apropiate valori discrete de acea tensiune folosind o dimensiune definită.
 

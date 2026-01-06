@@ -66,7 +66,7 @@ Bazele de date sunt servicii care îți permit să stochezi și să interoghezi 
 
 Primele baze de date au fost Sisteme de Management al Bazelor de Date Relaționale (RDBMS), sau baze de date relaționale. Acestea sunt cunoscute și sub numele de baze de date SQL datorită limbajului Structured Query Language (SQL) utilizat pentru a interacționa cu ele pentru a adăuga, elimina, actualiza sau interoga date. Aceste baze de date constau într-un schemă - un set bine definit de tabele de date, similar cu o foaie de calcul. Fiecare tabel are mai multe coloane denumite. Când inserezi date, adaugi un rând în tabel, punând valori în fiecare dintre coloane. Acest lucru păstrează datele într-o structură foarte rigidă - deși poți lăsa coloanele goale, dacă vrei să adaugi o nouă coloană trebuie să faci acest lucru în baza de date, populând valori pentru rândurile existente. Aceste baze de date sunt relaționale - în sensul că un tabel poate avea o relație cu altul.
 
-![O bază de date relațională cu ID-ul tabelului User care se referă la coloana user ID din tabelul purchases, și ID-ul tabelului products care se referă la coloana product ID din tabelul purchases](../../../../../translated_images/sql-database.be160f12bfccefd3ca718a66468c2c4c89c53e5aad4c295324d576da87f9dfdd.ro.png)
+![O bază de date relațională cu ID-ul tabelului User care se referă la coloana user ID din tabelul purchases, și ID-ul tabelului products care se referă la coloana product ID din tabelul purchases](../../../../../translated_images/sql-database.be160f12bfccefd3.ro.png)
 
 De exemplu, dacă stochezi detaliile personale ale unui utilizator într-un tabel, ai avea un fel de ID unic intern pentru fiecare utilizator care este utilizat într-un rând dintr-un tabel care conține numele și adresa utilizatorului. Dacă apoi vrei să stochezi alte detalii despre acel utilizator, cum ar fi achizițiile sale, într-un alt tabel, ai avea o coloană în noul tabel pentru ID-ul utilizatorului. Când cauți un utilizator, poți folosi ID-ul său pentru a obține detaliile personale dintr-un tabel și achizițiile sale din altul.
 
@@ -241,7 +241,7 @@ Aplicația ta de funcții trebuie acum să se conecteze la stocarea de tip blob 
 
 În această lecție, vei folosi SDK-ul Python pentru a vedea cum să interacționezi cu stocarea de tip blob.
 
-![Trimiterea telemetriei GPS de la un dispozitiv IoT la IoT Hub, apoi la Azure Functions printr-un declanșator Event Hub, apoi salvarea acesteia în stocarea de tip blob](../../../../../translated_images/save-telemetry-to-storage-from-functions.ed3b1820980097f143d9f0570072da11304c2bc7906359dfa075b4d9b253c20f.ro.png)
+![Trimiterea telemetriei GPS de la un dispozitiv IoT la IoT Hub, apoi la Azure Functions printr-un declanșator Event Hub, apoi salvarea acesteia în stocarea de tip blob](../../../../../translated_images/save-telemetry-to-storage-from-functions.ed3b1820980097f1.ro.png)
 
 Datele vor fi salvate ca un blob JSON cu următorul format:
 
