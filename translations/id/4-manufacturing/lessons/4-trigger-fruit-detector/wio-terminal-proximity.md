@@ -35,7 +35,7 @@ Hubungkan sensor time of flight.
 
 1. Dengan Wio Terminal terputus dari komputer atau sumber daya lainnya, hubungkan ujung lain kabel Grove ke soket Grove di sisi kiri Wio Terminal saat Anda melihat layar. Soket ini adalah yang paling dekat dengan tombol daya. Soket ini adalah soket gabungan digital dan I²C.
 
-![Sensor Grove time of flight terhubung ke soket kiri](../../../../../translated_images/wio-time-of-flight-sensor.c4c182131d2ea73df67febd004dc0313d271013d016be9c47e7da4d77c6c20a8.id.png)
+![Sensor Grove time of flight terhubung ke soket kiri](../../../../../translated_images/wio-time-of-flight-sensor.c4c182131d2ea73d.id.png)
 
 1. Sekarang Anda dapat menghubungkan Wio Terminal ke komputer Anda.
 
@@ -101,7 +101,7 @@ Wio Terminal sekarang dapat diprogram untuk menggunakan sensor time of flight ya
 
     Pengukur jarak berada di bagian belakang sensor, jadi pastikan Anda menggunakan sisi yang benar saat mengukur jarak.
 
-    ![Pengukur jarak di bagian belakang sensor time of flight mengarah ke pisang](../../../../../translated_images/time-of-flight-banana.079921ad8b1496e4525dc26b4cdc71a076407aba3e72ba113ba2e38febae92c5.id.png)
+    ![Pengukur jarak di bagian belakang sensor time of flight mengarah ke pisang](../../../../../translated_images/time-of-flight-banana.079921ad8b1496e4.id.png)
 
 > 💁 Anda dapat menemukan kode ini di folder [code-proximity/wio-terminal](../../../../../4-manufacturing/lessons/4-trigger-fruit-detector/code-proximity/wio-terminal).
 

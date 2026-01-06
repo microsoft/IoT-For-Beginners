@@ -65,7 +65,7 @@ Elke plantensoort heeft verschillende waarden voor hun basis-, optimale en maxim
 
 ✅ Doe wat onderzoek. Voor planten in je tuin, school of lokale park, kun je de basistemperatuur vinden?
 
-![Een grafiek die de groeisnelheid toont die stijgt naarmate de temperatuur stijgt, en vervolgens daalt als de temperatuur te hoog wordt](../../../../../translated_images/plant-growth-temp-graph.c6d69c9478e6ca832baa8dcb8d4adcbb67304074ce50e94ac8faae95975177f9.nl.png)
+![Een grafiek die de groeisnelheid toont die stijgt naarmate de temperatuur stijgt, en vervolgens daalt als de temperatuur te hoog wordt](../../../../../translated_images/plant-growth-temp-graph.c6d69c9478e6ca83.nl.png)
 
 De bovenstaande grafiek toont een voorbeeld van een groeisnelheid-temperatuur-grafiek. Tot aan de basistemperatuur is er geen groei. De groeisnelheid neemt toe tot de optimale temperatuur, en daalt daarna na het bereiken van deze piek. Bij de maximumtemperatuur stopt de groei.
 
@@ -141,7 +141,7 @@ Dit heeft een enorme impact op de arbeidskosten op een grote boerderij en brengt
 
 Door temperatuurgegevens te verzamelen met een IoT-apparaat, kan een boer automatisch een melding krijgen wanneer planten bijna rijp zijn. Een typische architectuur hiervoor is dat de IoT-apparaten de temperatuur meten en deze telemetriegegevens via internet publiceren met iets als MQTT. Servercode luistert vervolgens naar deze gegevens en slaat ze ergens op, bijvoorbeeld in een database. Dit betekent dat de gegevens later kunnen worden geanalyseerd, zoals een nachtelijke taak om de GDD voor de dag te berekenen, de totale GDD voor elk gewas tot nu toe op te tellen en een waarschuwing te geven als een plant bijna rijp is.
 
-![Telemetriegegevens worden naar een server verzonden en vervolgens opgeslagen in een database](../../../../../translated_images/save-telemetry-database.ddc9c6bea0c5ba39449966a463ca6748cd8e2d565dab44ff31c9f1d2f6c21d27.nl.png)
+![Telemetriegegevens worden naar een server verzonden en vervolgens opgeslagen in een database](../../../../../translated_images/save-telemetry-database.ddc9c6bea0c5ba39.nl.png)
 
 De servercode kan de gegevens ook aanvullen door extra informatie toe te voegen. Bijvoorbeeld, het IoT-apparaat kan een identificator publiceren om aan te geven welk apparaat het is, en de servercode kan dit gebruiken om de locatie van het apparaat op te zoeken en welke gewassen het bewaakt. Het kan ook basisgegevens toevoegen zoals de huidige tijd, omdat sommige IoT-apparaten niet over de benodigde hardware beschikken om een nauwkeurige tijd bij te houden, of extra code nodig hebben om de huidige tijd via internet te lezen.
 
@@ -228,7 +228,7 @@ Deze code opent het CSV-bestand en voegt vervolgens een nieuwe rij toe aan het e
 
     
 > 💁 Als je een virtueel IoT-apparaat gebruikt, selecteer dan het willekeurige selectievakje en stel een bereik in om te voorkomen dat je steeds dezelfde temperatuurwaarde krijgt.
-    ![Selecteer het willekeurige selectievakje en stel een bereik in](../../../../../translated_images/select-the-random-checkbox-and-set-a-range.32cf4bc7c12e797f8c76616b10c7c23a6592321bb1a6310e0b481e72f97d23b3.nl.png) 
+    ![Selecteer het willekeurige selectievakje en stel een bereik in](../../../../../translated_images/select-the-random-checkbox-and-set-a-range.32cf4bc7c12e797f.nl.png) 
 
     > 💁 Als je dit een hele dag wilt laten draaien, zorg er dan voor dat de computer waarop je servercode draait niet in slaapstand gaat, door je energie-instellingen te wijzigen of iets te gebruiken zoals [dit Python-script om het systeem actief te houden](https://github.com/jaqsparow/keep-system-active).
     

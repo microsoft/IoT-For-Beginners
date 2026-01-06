@@ -33,7 +33,7 @@ Sambungkan sensor GPS.
 
 1. Dengan Wio Terminal tidak disambungkan kepada komputer atau sumber kuasa lain, sambungkan hujung lain kabel Grove ke soket Grove di sebelah kiri Wio Terminal apabila anda melihat skrin. Ini adalah soket yang paling dekat dengan butang kuasa.
 
-    ![Sensor GPS Grove disambungkan ke soket sebelah kiri](../../../../../translated_images/wio-gps-sensor.19fd52b81ce58095d5deb3d4e5a1fdd88818d76569b00b1f0d740c92dc986525.ms.png)
+    ![Sensor GPS Grove disambungkan ke soket sebelah kiri](../../../../../translated_images/wio-gps-sensor.19fd52b81ce58095.ms.png)
 
 1. Letakkan sensor GPS supaya antena yang disambungkan mempunyai pandangan ke langit - sebaiknya di sebelah tingkap terbuka atau di luar. Isyarat akan lebih jelas jika tiada halangan di antara antena dan langit.
 

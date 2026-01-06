@@ -46,7 +46,7 @@ Dalam pelajaran ini kita akan membahas:
 
 Ada sejumlah protokol komunikasi populer yang digunakan oleh perangkat IoT untuk berkomunikasi dengan Internet. Yang paling populer berbasis pada pesan publish/subscribe melalui semacam broker. Perangkat IoT terhubung ke broker dan mempublikasikan telemetri serta berlangganan perintah. Layanan cloud juga terhubung ke broker dan berlangganan semua pesan telemetri serta mempublikasikan perintah baik ke perangkat tertentu, atau ke grup perangkat.
 
-![Perangkat IoT terhubung ke broker dan mempublikasikan telemetri serta berlangganan perintah. Layanan cloud terhubung ke broker dan berlangganan semua telemetri serta mengirim perintah ke perangkat tertentu.](../../../../../translated_images/pub-sub.7c7ed43fe9fd15d4e1f81a3fd95440413c457acd9bcbe9a43341e30e88db5264.id.png)
+![Perangkat IoT terhubung ke broker dan mempublikasikan telemetri serta berlangganan perintah. Layanan cloud terhubung ke broker dan berlangganan semua telemetri serta mengirim perintah ke perangkat tertentu.](../../../../../translated_images/pub-sub.7c7ed43fe9fd15d4.id.png)
 
 MQTT adalah protokol komunikasi paling populer untuk perangkat IoT dan akan dibahas dalam pelajaran ini. Protokol lainnya termasuk AMQP dan HTTP/HTTPS.
 
@@ -115,7 +115,7 @@ Kata telemetri berasal dari akar kata Yunani yang berarti mengukur dari jarak ja
 
 Mari kita lihat kembali contoh termostat pintar dari Pelajaran 1.
 
-![Termostat yang terhubung ke Internet menggunakan beberapa sensor ruangan](../../../../../translated_images/telemetry.21e5d8b97649d2ebeb0f68d4b9691ab2d1f7bd629338e131465aff8a614e4d4a.id.png)
+![Termostat yang terhubung ke Internet menggunakan beberapa sensor ruangan](../../../../../translated_images/telemetry.21e5d8b97649d2eb.id.png)
 
 Termostat memiliki sensor suhu untuk mengumpulkan telemetri. Kemungkinan besar, termostat memiliki satu sensor suhu bawaan, dan mungkin terhubung ke beberapa sensor suhu eksternal melalui protokol nirkabel seperti [Bluetooth Low Energy](https://wikipedia.org/wiki/Bluetooth_Low_Energy) (BLE).
 
@@ -267,11 +267,11 @@ Tulis kode server.
 
 1. Ketika VS Code diluncurkan, itu akan mengaktifkan lingkungan virtual Python. Ini akan dilaporkan di bilah status bawah:
 
-    ![VS Code menunjukkan lingkungan virtual yang dipilih](../../../../../translated_images/vscode-virtual-env.8ba42e04c3d533cf677e16cbe5ed9a3b80f62c6964472dc84b6f940800f0909f.id.png)
+    ![VS Code menunjukkan lingkungan virtual yang dipilih](../../../../../translated_images/vscode-virtual-env.8ba42e04c3d533cf.id.png)
 
 1. Jika Terminal VS Code sudah berjalan saat VS Code dimulai, lingkungan virtual tidak akan diaktifkan di dalamnya. Cara termudah adalah dengan menutup terminal menggunakan tombol **Kill the active terminal instance**:
 
-    ![Tombol Kill the active terminal instance di VS Code](../../../../../translated_images/vscode-kill-terminal.1cc4de7c6f25ee08f423f0ead714e61d069fac1eb2089e97b8a7bbcb3d45fe5e.id.png)
+    ![Tombol Kill the active terminal instance di VS Code](../../../../../translated_images/vscode-kill-terminal.1cc4de7c6f25ee08.id.png)
 
 1. Luncurkan Terminal VS Code baru dengan memilih *Terminal -> New Terminal*, atau menekan `` CTRL+` ``. Terminal baru akan memuat lingkungan virtual, dengan panggilan untuk mengaktifkannya muncul di terminal. Nama lingkungan virtual (`.venv`) juga akan ada di prompt:
 

@@ -55,11 +55,11 @@ Relay adalah saklar elektromekanis yang mengubah sinyal listrik menjadi gerakan 
 
 > 🎓 [Elektromagnet](https://wikipedia.org/wiki/Electromagnet) adalah magnet yang dibuat dengan mengalirkan listrik melalui kumparan kawat. Ketika listrik dinyalakan, kumparan menjadi magnet. Ketika listrik dimatikan, kumparan kehilangan sifat magnetnya.
 
-![Ketika menyala, elektromagnet menciptakan medan magnet, menyalakan saklar untuk sirkuit keluaran](../../../../../translated_images/relay-on.4db16a0fd6b669262fd6699aff3fbcd31b6057c06d90411b6bddc06326d1cf75.id.png)
+![Ketika menyala, elektromagnet menciptakan medan magnet, menyalakan saklar untuk sirkuit keluaran](../../../../../translated_images/relay-on.4db16a0fd6b66926.id.png)
 
 Dalam relay, sirkuit kontrol memberi daya pada elektromagnet. Ketika elektromagnet menyala, ia menarik tuas yang menggerakkan saklar, menutup sepasang kontak dan menyelesaikan sirkuit keluaran.
 
-![Ketika mati, elektromagnet tidak menciptakan medan magnet, mematikan saklar untuk sirkuit keluaran](../../../../../translated_images/relay-off.c34a178a2960fecdc3c6400d43e633ed11c6746cd653cfb4a768fa097c40394c.id.png)
+![Ketika mati, elektromagnet tidak menciptakan medan magnet, mematikan saklar untuk sirkuit keluaran](../../../../../translated_images/relay-off.c34a178a2960fecd.id.png)
 
 Ketika sirkuit kontrol mati, elektromagnet mati, melepaskan tuas dan membuka kontak, mematikan sirkuit keluaran. Relay adalah aktuator digital - sinyal tinggi ke relay menyalakannya, sinyal rendah mematikannya.
 
@@ -85,7 +85,7 @@ Elektromagnet tidak membutuhkan banyak daya untuk mengaktifkan dan menarik tuas,
 
 Gambar di atas menunjukkan relay Grove. Sirkuit kontrol terhubung ke perangkat IoT dan menyalakan atau mematikan relay menggunakan 3.3V atau 5V. Sirkuit keluaran memiliki dua terminal, salah satunya dapat menjadi daya atau ground. Sirkuit keluaran dapat menangani hingga 250V pada 10A, cukup untuk berbagai perangkat yang menggunakan daya utama. Anda dapat menemukan relay yang dapat menangani tingkat daya yang lebih tinggi.
 
-![Pompa yang dihubungkan melalui relay](../../../../../translated_images/pump-wired-to-relay.66c5cfc0d89189900cd601777f5caeb39ee35c6250f6c86bf38feaceedb21fe9.id.png)
+![Pompa yang dihubungkan melalui relay](../../../../../translated_images/pump-wired-to-relay.66c5cfc0d8918990.id.png)
 
 Dalam gambar di atas, daya disuplai ke pompa melalui relay. Ada kabel merah yang menghubungkan terminal +5V dari catu daya USB ke salah satu terminal sirkuit keluaran relay, dan kabel merah lainnya menghubungkan terminal lain dari sirkuit keluaran ke pompa. Kabel hitam menghubungkan pompa ke ground pada catu daya USB. Ketika relay menyala, ia menyelesaikan sirkuit, mengirimkan 5V ke pompa, menyalakan pompa.
 
@@ -135,7 +135,7 @@ Pada pelajaran 3, Anda membuat lampu malam - LED yang menyala segera setelah tin
 
 Jika Anda melakukan pelajaran terakhir tentang kelembapan tanah menggunakan sensor fisik, Anda mungkin memperhatikan bahwa diperlukan beberapa detik untuk pembacaan kelembapan tanah turun setelah Anda menyiram tanaman Anda. Ini bukan karena sensor lambat, tetapi karena air membutuhkan waktu untuk meresap ke dalam tanah.
 💁 Jika Anda menyiram terlalu dekat dengan sensor, Anda mungkin melihat pembacaan turun dengan cepat, lalu naik kembali - ini disebabkan oleh air di dekat sensor yang menyebar ke seluruh tanah lainnya, sehingga mengurangi kelembapan tanah di sekitar sensor.
-![Pengukuran kelembapan tanah sebesar 658 tidak berubah selama penyiraman, hanya turun menjadi 320 setelah penyiraman ketika air telah meresap ke dalam tanah](../../../../../translated_images/soil-moisture-travel.a0e31af222cf14385de5380dfc32c7b8213960965228b8e4f7b7ab7f73b310a3.id.png)
+![Pengukuran kelembapan tanah sebesar 658 tidak berubah selama penyiraman, hanya turun menjadi 320 setelah penyiraman ketika air telah meresap ke dalam tanah](../../../../../translated_images/soil-moisture-travel.a0e31af222cf1438.id.png)
 
 Pada diagram di atas, pembacaan kelembapan tanah menunjukkan angka 658. Tanaman disiram, tetapi pembacaan ini tidak langsung berubah karena air belum mencapai sensor. Penyiraman bahkan bisa selesai sebelum air mencapai sensor dan nilai turun untuk mencerminkan tingkat kelembapan baru.
 
@@ -157,11 +157,11 @@ Berapa lama relay harus menyala setiap kali? Lebih baik berhati-hati dan hanya m
 
 > 💁 Pengaturan waktu seperti ini sangat spesifik untuk perangkat IoT yang Anda bangun, properti yang Anda ukur, serta sensor dan aktuator yang digunakan.
 
-![Tanaman stroberi terhubung ke air melalui pompa, dengan pompa terhubung ke relay. Relay dan sensor kelembapan tanah pada tanaman keduanya terhubung ke Raspberry Pi](../../../../../translated_images/strawberry-with-pump.b410fc72ac6aabad3e28de9775bf2393ead73dcfec6fd8c9bc01cf107ecd171a.id.png)
+![Tanaman stroberi terhubung ke air melalui pompa, dengan pompa terhubung ke relay. Relay dan sensor kelembapan tanah pada tanaman keduanya terhubung ke Raspberry Pi](../../../../../translated_images/strawberry-with-pump.b410fc72ac6aabad.id.png)
 
 Sebagai contoh, saya memiliki tanaman stroberi dengan sensor kelembapan tanah dan pompa yang dikontrol oleh relay. Saya telah mengamati bahwa ketika saya menambahkan air, dibutuhkan sekitar 20 detik agar pembacaan kelembapan tanah stabil. Ini berarti saya perlu mematikan relay dan menunggu 20 detik sebelum memeriksa tingkat kelembapan. Saya lebih memilih terlalu sedikit air daripada terlalu banyak - saya selalu bisa menyalakan pompa lagi, tetapi saya tidak bisa mengeluarkan air dari tanaman.
 
-![Langkah 1, ambil pengukuran. Langkah 2, tambahkan air. Langkah 3, tunggu air meresap ke dalam tanah. Langkah 4, ambil pengukuran ulang](../../../../../translated_images/soil-moisture-delay.865f3fae206db01d5f8f100f4f44040215d44a0412dd3450aef7ff7b93b6d273.id.png)
+![Langkah 1, ambil pengukuran. Langkah 2, tambahkan air. Langkah 3, tunggu air meresap ke dalam tanah. Langkah 4, ambil pengukuran ulang](../../../../../translated_images/soil-moisture-delay.865f3fae206db01d.id.png)
 
 Ini berarti proses terbaik adalah siklus penyiraman yang seperti ini:
 

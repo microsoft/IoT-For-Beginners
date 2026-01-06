@@ -61,7 +61,7 @@ Evolusi terkini mesin penyusunan ini memanfaatkan AI dan ML, menggunakan model y
 
 Pengaturcaraan tradisional adalah di mana anda mengambil data, menggunakan algoritma pada data, dan mendapatkan output. Sebagai contoh, dalam projek terakhir anda mengambil koordinat GPS dan geofence, menggunakan algoritma yang disediakan oleh Azure Maps, dan mendapatkan hasil sama ada titik itu berada di dalam atau di luar geofence. Anda memasukkan lebih banyak data, anda mendapatkan lebih banyak output.
 
-![Pembangunan tradisional mengambil input dan algoritma dan memberikan output. Pembelajaran mesin menggunakan data input dan output untuk melatih model, dan model ini boleh mengambil data input baru untuk menghasilkan output baru](../../../../../translated_images/traditional-vs-ml.5c20c169621fa539ca84a2cd9a49f6ff7410b3a6c6b46c97ff2af3f99db3c66b.ms.png)
+![Pembangunan tradisional mengambil input dan algoritma dan memberikan output. Pembelajaran mesin menggunakan data input dan output untuk melatih model, dan model ini boleh mengambil data input baru untuk menghasilkan output baru](../../../../../translated_images/traditional-vs-ml.5c20c169621fa539.ms.png)
 
 Pembelajaran mesin membalikkan proses ini - anda bermula dengan data dan output yang diketahui, dan algoritma pembelajaran mesin belajar daripada data tersebut. Anda kemudian boleh mengambil algoritma yang telah dilatih, yang dipanggil *model pembelajaran mesin* atau *model*, dan memasukkan data baru untuk mendapatkan output baru.
 
@@ -87,7 +87,7 @@ Untuk melatih pengelasan imej dengan berjaya, anda memerlukan berjuta-juta imej.
 
 Setelah pengelasan imej dilatih untuk pelbagai imej, bahagian dalamannya sangat baik dalam mengenali bentuk, warna dan corak. Pembelajaran pemindahan membolehkan model menggunakan apa yang telah dipelajarinya dalam mengenali bahagian imej, dan menggunakannya untuk mengenali imej baru.
 
-![Setelah anda dapat mengenali bentuk, ia boleh disusun dalam konfigurasi yang berbeza untuk membuat bot atau kucing](../../../../../translated_images/shapes-to-images.1a309f0ea88dd66fafa4da6d38e88806ce174cc6a88081efb32852230ed55de8.ms.png)
+![Setelah anda dapat mengenali bentuk, ia boleh disusun dalam konfigurasi yang berbeza untuk membuat bot atau kucing](../../../../../translated_images/shapes-to-images.1a309f0ea88dd66f.ms.png)
 
 Anda boleh menganggap ini seperti buku bentuk kanak-kanak, di mana setelah anda dapat mengenali separuh bulatan, segi empat tepat dan segi tiga, anda boleh mengenali bot layar atau kucing bergantung pada konfigurasi bentuk ini. Pengelasan imej boleh mengenali bentuk, dan pembelajaran pemindahan mengajarnya konfigurasi apa yang membuat bot atau kucing - atau pisang masak.
 

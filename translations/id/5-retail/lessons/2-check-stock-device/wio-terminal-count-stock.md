@@ -13,7 +13,7 @@ Kombinasi prediksi dan kotak pembatas dapat digunakan untuk menghitung stok dala
 
 ## Hitung stok
 
-![4 kaleng pasta tomat dengan kotak pembatas di sekitar setiap kaleng](../../../../../translated_images/rpi-stock-with-bounding-boxes.b5540e2ecb7cd49f1271828d3be412671d950e87625c5597ea97c90f11e01097.id.jpg)
+![4 kaleng pasta tomat dengan kotak pembatas di sekitar setiap kaleng](../../../../../translated_images/rpi-stock-with-bounding-boxes.b5540e2ecb7cd49f.id.jpg)
 
 Pada gambar di atas, kotak pembatas memiliki sedikit tumpang tindih. Jika tumpang tindih ini jauh lebih besar, maka kotak pembatas mungkin menunjukkan objek yang sama. Untuk menghitung objek dengan benar, Anda perlu mengabaikan kotak dengan tumpang tindih yang signifikan.
 

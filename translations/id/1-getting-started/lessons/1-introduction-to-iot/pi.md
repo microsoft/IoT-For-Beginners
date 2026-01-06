@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 [Raspberry Pi](https://raspberrypi.org) adalah komputer papan tunggal. Anda dapat menambahkan sensor dan aktuator menggunakan berbagai perangkat dan ekosistem, dan untuk pelajaran ini, kita akan menggunakan ekosistem perangkat keras bernama [Grove](https://www.seeedstudio.com/category/Grove-c-1003.html). Anda akan memprogram Pi Anda dan mengakses sensor Grove menggunakan Python.
 
-![Raspberry Pi 4](../../../../../translated_images/raspberry-pi-4.fd4590d308c3d456db1327e86b395ddcd735513267aafd4879ea2785f7792eac.id.jpg)
+![Raspberry Pi 4](../../../../../translated_images/raspberry-pi-4.fd4590d308c3d456.id.jpg)
 
 ## Persiapan
 
@@ -112,7 +112,7 @@ Siapkan Pi OS dalam mode headless.
 
 1. Dari Raspberry Pi Imager, pilih tombol **CHOOSE OS**, lalu pilih *Raspberry Pi OS (Other)*, diikuti dengan *Raspberry Pi OS Lite (32-bit)*.
 
-    ![Raspberry Pi Imager dengan Raspberry Pi OS Lite dipilih](../../../../../translated_images/raspberry-pi-imager.24aedeab9e233d841a1504ed7cfeb871b1f8e1134cfcd8370e7f60a092056be2.id.png)
+    ![Raspberry Pi Imager dengan Raspberry Pi OS Lite dipilih](../../../../../translated_images/raspberry-pi-imager.24aedeab9e233d84.id.png)
 
     > 💁 Raspberry Pi OS Lite adalah versi Raspberry Pi OS yang tidak memiliki antarmuka pengguna desktop atau alat berbasis UI. Ini tidak diperlukan untuk Pi headless dan membuat instalasi lebih kecil serta waktu boot lebih cepat.
 
@@ -251,7 +251,7 @@ Buat aplikasi Hello World.
 
 1. Buka folder ini di VS Code dengan memilih *File -> Open...* dan memilih folder *nightlight*, lalu pilih **OK**.
 
-    ![Dialog buka file di VS Code yang menunjukkan folder nightlight](../../../../../translated_images/vscode-open-nightlight-remote.d3d2a4011e30d535c4b70084f6e94bf6b5b1327fd8e77affe64465ac151ee766.id.png)
+    ![Dialog buka file di VS Code yang menunjukkan folder nightlight](../../../../../translated_images/vscode-open-nightlight-remote.d3d2a4011e30d535.id.png)
 
 1. Buka file `app.py` dari penjelajah VS Code dan tambahkan kode berikut:
 

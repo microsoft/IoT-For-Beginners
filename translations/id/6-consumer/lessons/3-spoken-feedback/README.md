@@ -37,7 +37,7 @@ Dalam pelajaran ini, kita akan membahas:
 
 Teks ke ucapan, seperti namanya, adalah proses mengonversi teks menjadi audio yang berisi kata-kata yang diucapkan. Prinsip dasarnya adalah memecah kata-kata dalam teks menjadi bunyi-bunyi penyusunnya (dikenal sebagai fonem), dan menyatukan audio untuk bunyi-bunyi tersebut, baik menggunakan audio yang telah direkam sebelumnya atau menggunakan audio yang dihasilkan oleh model AI.
 
-![Tiga tahap sistem teks ke ucapan](../../../../../translated_images/tts-overview.193843cf3f5ee09f8b3371a9fdaeb0f116698a07ca69daaa77158da4800e5453.id.png)
+![Tiga tahap sistem teks ke ucapan](../../../../../translated_images/tts-overview.193843cf3f5ee09f.id.png)
 
 Sistem teks ke ucapan biasanya memiliki 3 tahap:
 

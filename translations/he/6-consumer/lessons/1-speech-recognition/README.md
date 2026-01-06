@@ -64,7 +64,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 * סרט - מיקרופונים מסוג סרט דומים למיקרופונים דינמיים, אך במקום דיאפרגמה יש בהם סרט מתכת. הסרט נע בשדה מגנטי ויוצר זרם חשמלי. כמו מיקרופונים דינמיים, גם מיקרופונים מסוג סרט אינם זקוקים לחשמל כדי לפעול.
 
-    ![אדמונד לואו, שחקן אמריקאי, עומד ליד מיקרופון רדיו (מסומן כרשת הכחולה של NBC), מחזיק תסריט, 1942](../../../../../translated_images/ribbon-mic.eacc8e092c7441caee6d7a81e2f40e1675bf36269848964c7c09c9a9acb05127.he.jpg)
+    ![אדמונד לואו, שחקן אמריקאי, עומד ליד מיקרופון רדיו (מסומן כרשת הכחולה של NBC), מחזיק תסריט, 1942](../../../../../translated_images/ribbon-mic.eacc8e092c7441ca.he.jpg)
 
 * קונדנסר - מיקרופונים מסוג קונדנסר כוללים דיאפרגמה מתכתית דקה ולוח אחורי מתכתי קבוע. זרם חשמלי מוחל על שניהם, וכאשר הדיאפרגמה רוטטת, המטען הסטטי בין הלוחות משתנה ויוצר אות. מיקרופונים מסוג קונדנסר זקוקים לחשמל כדי לפעול - הנקרא *Phantom power*.
 
@@ -84,7 +84,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 > 🎓 דגימה היא המרה של אות האודיו לערך דיגיטלי המייצג את האות בנקודת זמן מסוימת.
 
-![גרף קווי המציג אות, עם נקודות בדידות במרווחים קבועים](../../../../../translated_images/sampling.6f4fadb3f2d9dfe7618f9edfe75a350e6b3f74293ec84f02ab69c19d2afe3d73.he.png)
+![גרף קווי המציג אות, עם נקודות בדידות במרווחים קבועים](../../../../../translated_images/sampling.6f4fadb3f2d9dfe7.he.png)
 
 אודיו דיגיטלי נדגם באמצעות שיטת Pulse Code Modulation, או PCM. PCM כוללת קריאת המתח של האות ובחירת הערך הדיסקרטי הקרוב ביותר למתח זה באמצעות גודל מוגדר.
 

@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 De [Raspberry Pi](https://raspberrypi.org) is een single-board computer. Je kunt sensoren en actuatoren toevoegen met behulp van een breed scala aan apparaten en ecosystemen, en voor deze lessen gebruik je een hardware-ecosysteem genaamd [Grove](https://www.seeedstudio.com/category/Grove-c-1003.html). Je programmeert je Pi en hebt toegang tot de Grove-sensoren met Python.
 
-![Een Raspberry Pi 4](../../../../../translated_images/raspberry-pi-4.fd4590d308c3d456db1327e86b395ddcd735513267aafd4879ea2785f7792eac.nl.jpg)
+![Een Raspberry Pi 4](../../../../../translated_images/raspberry-pi-4.fd4590d308c3d456.nl.jpg)
 
 ## Installatie
 
@@ -112,7 +112,7 @@ Configureer het headless Pi OS.
 
 1. Selecteer in de Raspberry Pi Imager de knop **CHOOSE OS** en kies vervolgens *Raspberry Pi OS (Other)*, gevolgd door *Raspberry Pi OS Lite (32-bit)*.
 
-    ![De Raspberry Pi Imager met Raspberry Pi OS Lite geselecteerd](../../../../../translated_images/raspberry-pi-imager.24aedeab9e233d841a1504ed7cfeb871b1f8e1134cfcd8370e7f60a092056be2.nl.png)
+    ![De Raspberry Pi Imager met Raspberry Pi OS Lite geselecteerd](../../../../../translated_images/raspberry-pi-imager.24aedeab9e233d84.nl.png)
 
     > 💁 Raspberry Pi OS Lite is een versie van Raspberry Pi OS zonder de desktop-UI of UI-gebaseerde tools. Deze zijn niet nodig voor een headless Pi en maken de installatie kleiner en de opstarttijd sneller.
 
@@ -251,7 +251,7 @@ Maak de Hello World-app.
 
 1. Open deze map in VS Code door *File -> Open...* te selecteren en de *nightlight* map te kiezen, klik vervolgens op **OK**.
 
-    ![De VS Code open dialoog toont de nightlight map](../../../../../translated_images/vscode-open-nightlight-remote.d3d2a4011e30d535c4b70084f6e94bf6b5b1327fd8e77affe64465ac151ee766.nl.png)
+    ![De VS Code open dialoog toont de nightlight map](../../../../../translated_images/vscode-open-nightlight-remote.d3d2a4011e30d535.nl.png)
 
 1. Open het bestand `app.py` vanuit de VS Code explorer en voeg de volgende code toe:
 

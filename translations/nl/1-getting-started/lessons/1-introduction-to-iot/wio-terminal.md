@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 De [Wio Terminal van Seeed Studios](https://www.seeedstudio.com/Wio-Terminal-p-4509.html) is een Arduino-compatibele microcontroller met ingebouwde WiFi, sensoren en actuatoren. Daarnaast heeft het poorten om meer sensoren en actuatoren toe te voegen via een hardware-ecosysteem genaamd [Grove](https://www.seeedstudio.com/category/Grove-c-1003.html).
 
-![Een Seeed Studios Wio Terminal](../../../../../translated_images/wio-terminal.b8299ee16587db9aa9e05fabf9721bccd9eb8fb541b7c1a8267241282d81b603.nl.png)
+![Een Seeed Studios Wio Terminal](../../../../../translated_images/wio-terminal.b8299ee16587db9a.nl.png)
 
 ## Installatie
 
@@ -51,15 +51,15 @@ Maak het PlatformIO-project.
 
 1. Het PlatformIO-pictogram staat in de zijbalk:
 
-    ![De PlatformIO-menuoptie](../../../../../translated_images/vscode-platformio-menu.297be26b9733e5c4635d9d8e636e93fed2015809eafb7cc8fd409c37b3ef2ef5.nl.png)
+    ![De PlatformIO-menuoptie](../../../../../translated_images/vscode-platformio-menu.297be26b9733e5c4.nl.png)
 
     Selecteer dit menu-item en kies vervolgens *PIO Home -> Open*.
 
-    ![De PlatformIO-openoptie](../../../../../translated_images/vscode-platformio-home-open.3f9a41bfd3f4da1c866ec3e69f1675faa30b823b5b58ab58ac88e5df9a85da19.nl.png)
+    ![De PlatformIO-openoptie](../../../../../translated_images/vscode-platformio-home-open.3f9a41bfd3f4da1c.nl.png)
 
 1. Selecteer op het welkomstscherm de knop **+ New Project**.
 
-    ![De knop voor een nieuw project](../../../../../translated_images/vscode-platformio-welcome-new-button.ba6fc8a4c7b78cc822e1ce47ba29c5db96668cce7c5f4adbfd2f1196422baa26.nl.png)
+    ![De knop voor een nieuw project](../../../../../translated_images/vscode-platformio-welcome-new-button.ba6fc8a4c7b78cc8.nl.png)
 
 1. Configureer het project in de *Project Wizard*:
 
@@ -73,7 +73,7 @@ Maak het PlatformIO-project.
 
     1. Selecteer de knop **Finish**.
 
-    ![De voltooide projectwizard](../../../../../translated_images/vscode-platformio-nightlight-project-wizard.5c64db4da6037420827c2597507897233457210ee23975711fa2285efdcd0dc7.nl.png)
+    ![De voltooide projectwizard](../../../../../translated_images/vscode-platformio-nightlight-project-wizard.5c64db4da6037420.nl.png)
 
     PlatformIO downloadt de benodigde componenten om code voor de Wio Terminal te compileren en maakt je project aan. Dit kan enkele minuten duren.
 
@@ -179,7 +179,7 @@ Schrijf de Hello World-app.
 
     1. Typ `PlatformIO Upload` om te zoeken naar de uploadoptie en selecteer *PlatformIO: Upload*.
 
-        ![De PlatformIO-uploadoptie in de opdrachtpalet](../../../../../translated_images/vscode-platformio-upload-command-palette.9e0f49cf80d1f1c3eb5c6689b8705ad8b89f0374b21698e996fec11e4ed09347.nl.png)
+        ![De PlatformIO-uploadoptie in de opdrachtpalet](../../../../../translated_images/vscode-platformio-upload-command-palette.9e0f49cf80d1f1c3.nl.png)
 
         PlatformIO bouwt de code automatisch indien nodig voordat het wordt geüpload.
 
@@ -195,7 +195,7 @@ PlatformIO heeft een seriële monitor waarmee je gegevens kunt volgen die via de
 
 1. Typ `PlatformIO Serial` om te zoeken naar de seriële monitoroptie en selecteer *PlatformIO: Serial Monitor*.
 
-    ![De PlatformIO-seriële monitoroptie in de opdrachtpalet](../../../../../translated_images/vscode-platformio-serial-monitor-command-palette.b348ec841b8a1c14af503d6fc0bf73c657c79c9acc12a6b6dd485ce3b5826f48.nl.png)
+    ![De PlatformIO-seriële monitoroptie in de opdrachtpalet](../../../../../translated_images/vscode-platformio-serial-monitor-command-palette.b348ec841b8a1c14.nl.png)
 
     Er wordt een nieuwe terminal geopend en de gegevens die via de seriële poort worden verzonden, worden in deze terminal gestreamd:
 

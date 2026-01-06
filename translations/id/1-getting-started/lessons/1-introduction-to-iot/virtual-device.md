@@ -154,11 +154,11 @@ Buat aplikasi Python untuk mencetak `"Hello World"` ke konsol.
 
 1. Ketika VS Code diluncurkan, itu akan mengaktifkan lingkungan virtual Python. Lingkungan virtual yang dipilih akan muncul di bilah status bawah:
 
-    ![VS Code menunjukkan lingkungan virtual yang dipilih](../../../../../translated_images/vscode-virtual-env.8ba42e04c3d533cf677e16cbe5ed9a3b80f62c6964472dc84b6f940800f0909f.id.png)
+    ![VS Code menunjukkan lingkungan virtual yang dipilih](../../../../../translated_images/vscode-virtual-env.8ba42e04c3d533cf.id.png)
 
 1. Jika Terminal VS Code sudah berjalan saat VS Code dimulai, lingkungan virtual tidak akan diaktifkan di dalamnya. Cara termudah untuk mengatasinya adalah dengan menutup terminal menggunakan tombol **Kill the active terminal instance**:
 
-    ![Tombol VS Code Kill the active terminal instance](../../../../../translated_images/vscode-kill-terminal.1cc4de7c6f25ee08f423f0ead714e61d069fac1eb2089e97b8a7bbcb3d45fe5e.id.png)
+    ![Tombol VS Code Kill the active terminal instance](../../../../../translated_images/vscode-kill-terminal.1cc4de7c6f25ee08.id.png)
 
     Anda dapat mengetahui apakah terminal memiliki lingkungan virtual yang diaktifkan karena nama lingkungan virtual akan menjadi awalan pada prompt terminal. Misalnya, mungkin:
 
@@ -229,7 +229,7 @@ Sebagai langkah kedua 'Hello World', Anda akan menjalankan aplikasi CounterFit d
 
 1. Anda perlu meluncurkan terminal VS Code baru dengan memilih tombol **Create a new integrated terminal**. Ini karena aplikasi CounterFit sedang berjalan di terminal saat ini.
 
-    ![Tombol VS Code Create a new integrated terminal](../../../../../translated_images/vscode-new-terminal.77db8fc0f9cd31824b0e49a201beafe4ae4616d6c7339992cb2819e789b3eff9.id.png)
+    ![Tombol VS Code Create a new integrated terminal](../../../../../translated_images/vscode-new-terminal.77db8fc0f9cd3182.id.png)
 
 1. Di terminal baru ini, jalankan file `app.py` seperti sebelumnya. Status CounterFit akan berubah menjadi **Connected** dan LED akan menyala.
 

@@ -39,7 +39,7 @@ Detektor objek dapat digunakan untuk memeriksa stok, baik untuk menghitung stok 
 
 Sebagai contoh, jika sebuah kamera mengarah ke rak yang dapat menampung 8 kaleng pasta tomat, dan detektor objek hanya mendeteksi 7 kaleng, maka satu kaleng hilang dan perlu diisi ulang.
 
-![7 kaleng pasta tomat di rak, 4 di baris atas, 3 di bawah](../../../../../translated_images/stock-7-cans-tomato-paste.f86059cc573d7becaa89a0eafb9d2cd7e2fe37405a530fe565990e2333d0e4a1.id.png)
+![7 kaleng pasta tomat di rak, 4 di baris atas, 3 di bawah](../../../../../translated_images/stock-7-cans-tomato-paste.f86059cc573d7bec.id.png)
 
 Pada gambar di atas, detektor objek telah mendeteksi 7 kaleng pasta tomat di rak yang dapat menampung 8 kaleng. Tidak hanya perangkat IoT dapat mengirimkan notifikasi kebutuhan pengisian ulang, tetapi juga dapat memberikan indikasi lokasi barang yang hilang, data penting jika Anda menggunakan robot untuk mengisi ulang rak.
 
@@ -51,7 +51,7 @@ Terkadang stok yang salah bisa berada di rak. Ini bisa terjadi karena kesalahan 
 
 Deteksi objek dapat digunakan untuk mendeteksi barang yang tidak sesuai, dan memberi tahu manusia atau robot untuk segera mengembalikan barang tersebut.
 
-![Sebuah kaleng jagung bayi yang salah tempat di rak pasta tomat](../../../../../translated_images/stock-rogue-corn.be1f3ada8c4578544641af66671c1711a4c02297f14cc7f503354dae0d30a954.id.png)
+![Sebuah kaleng jagung bayi yang salah tempat di rak pasta tomat](../../../../../translated_images/stock-rogue-corn.be1f3ada8c457854.id.png)
 
 Pada gambar di atas, sebuah kaleng jagung bayi telah diletakkan di rak pasta tomat. Detektor objek telah mendeteksi ini, memungkinkan perangkat IoT memberi tahu manusia atau robot untuk mengembalikan kaleng tersebut ke lokasi yang benar.
 

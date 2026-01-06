@@ -66,7 +66,7 @@ Pangkalan data ialah perkhidmatan yang membolehkan anda menyimpan dan menyoal da
 
 Pangkalan data pertama ialah Sistem Pengurusan Pangkalan Data Relasi (RDBMS), atau pangkalan data relasi. Ini juga dikenali sebagai pangkalan data SQL kerana Bahasa Pertanyaan Berstruktur (SQL) digunakan untuk berinteraksi dengannya untuk menambah, menghapus, mengemas kini atau menyoal data. Pangkalan data ini terdiri daripada skema - satu set jadual data yang jelas, serupa dengan hamparan. Setiap jadual mempunyai pelbagai lajur bernama. Apabila anda memasukkan data, anda menambah baris ke jadual, meletakkan nilai ke dalam setiap lajur. Ini mengekalkan data dalam struktur yang sangat tegar - walaupun anda boleh meninggalkan lajur kosong, jika anda ingin menambah lajur baru, anda perlu melakukannya pada pangkalan data, mengisi nilai untuk baris yang sedia ada. Pangkalan data ini adalah relasi - di mana satu jadual boleh mempunyai hubungan dengan yang lain.
 
-![Pangkalan data relasi dengan ID jadual Pengguna berkaitan dengan lajur ID pengguna jadual pembelian, dan ID jadual produk berkaitan dengan ID produk jadual pembelian](../../../../../translated_images/sql-database.be160f12bfccefd3ca718a66468c2c4c89c53e5aad4c295324d576da87f9dfdd.ms.png)
+![Pangkalan data relasi dengan ID jadual Pengguna berkaitan dengan lajur ID pengguna jadual pembelian, dan ID jadual produk berkaitan dengan ID produk jadual pembelian](../../../../../translated_images/sql-database.be160f12bfccefd3.ms.png)
 
 Sebagai contoh, jika anda menyimpan butiran peribadi pengguna dalam jadual, anda akan mempunyai beberapa jenis ID unik dalaman bagi setiap pengguna yang digunakan dalam baris dalam jadual yang mengandungi nama dan alamat pengguna. Jika anda kemudian ingin menyimpan butiran lain tentang pengguna itu, seperti pembelian mereka, dalam jadual lain, anda akan mempunyai satu lajur dalam jadual baru untuk ID pengguna tersebut. Apabila anda mencari pengguna, anda boleh menggunakan ID mereka untuk mendapatkan butiran peribadi mereka daripada satu jadual, dan pembelian mereka daripada yang lain.
 
@@ -241,7 +241,7 @@ Aplikasi fungsi anda kini perlu disambungkan ke storan blob untuk menyimpan mese
 
 Dalam pelajaran ini, anda akan menggunakan SDK Python untuk melihat cara berinteraksi dengan storan blob.
 
-![Menghantar telemetri GPS dari peranti IoT ke IoT Hub, kemudian ke Azure Functions melalui pencetus Event Hub, kemudian menyimpannya ke storan blob](../../../../../translated_images/save-telemetry-to-storage-from-functions.ed3b1820980097f143d9f0570072da11304c2bc7906359dfa075b4d9b253c20f.ms.png)
+![Menghantar telemetri GPS dari peranti IoT ke IoT Hub, kemudian ke Azure Functions melalui pencetus Event Hub, kemudian menyimpannya ke storan blob](../../../../../translated_images/save-telemetry-to-storage-from-functions.ed3b1820980097f1.ms.png)
 
 Data akan disimpan sebagai blob JSON dengan format berikut:
 

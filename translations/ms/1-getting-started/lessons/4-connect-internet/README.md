@@ -46,7 +46,7 @@ Dalam pelajaran ini, kita akan membincangkan:
 
 Terdapat beberapa protokol komunikasi popular yang digunakan oleh peranti IoT untuk berkomunikasi dengan Internet. Yang paling popular adalah berdasarkan pemesejan publish/subscribe melalui sejenis broker. Peranti IoT disambungkan ke broker dan menerbitkan telemetri serta melanggan arahan. Perkhidmatan awan juga disambungkan ke broker dan melanggan semua mesej telemetri serta menerbitkan arahan sama ada kepada peranti tertentu, atau kepada kumpulan peranti.
 
-![Peranti IoT disambungkan ke broker dan menerbitkan telemetri serta melanggan arahan. Perkhidmatan awan disambungkan ke broker dan melanggan semua telemetri serta menghantar arahan kepada peranti tertentu.](../../../../../translated_images/pub-sub.7c7ed43fe9fd15d4e1f81a3fd95440413c457acd9bcbe9a43341e30e88db5264.ms.png)
+![Peranti IoT disambungkan ke broker dan menerbitkan telemetri serta melanggan arahan. Perkhidmatan awan disambungkan ke broker dan melanggan semua telemetri serta menghantar arahan kepada peranti tertentu.](../../../../../translated_images/pub-sub.7c7ed43fe9fd15d4.ms.png)
 
 MQTT adalah protokol komunikasi paling popular untuk peranti IoT dan akan dibincangkan dalam pelajaran ini. Protokol lain termasuk AMQP dan HTTP/HTTPS.
 
@@ -115,7 +115,7 @@ Perkataan telemetri berasal dari akar bahasa Yunani yang bermaksud mengukur dari
 
 Mari kita lihat kembali contoh termostat pintar dari Pelajaran 1.
 
-![Termostat yang disambungkan ke Internet menggunakan pelbagai sensor bilik](../../../../../translated_images/telemetry.21e5d8b97649d2ebeb0f68d4b9691ab2d1f7bd629338e131465aff8a614e4d4a.ms.png)
+![Termostat yang disambungkan ke Internet menggunakan pelbagai sensor bilik](../../../../../translated_images/telemetry.21e5d8b97649d2eb.ms.png)
 
 Termostat mempunyai sensor suhu untuk mengumpul telemetri. Ia kemungkinan besar mempunyai satu sensor suhu terbina dalam, dan mungkin disambungkan ke pelbagai sensor suhu luaran melalui protokol tanpa wayar seperti [Bluetooth Low Energy](https://wikipedia.org/wiki/Bluetooth_Low_Energy) (BLE).
 
@@ -267,11 +267,11 @@ Tulis kod pelayan.
 
 1. Apabila VS Code dilancarkan, ia akan mengaktifkan persekitaran maya Python. Ini akan dilaporkan di bar status bawah:
 
-    ![VS Code menunjukkan persekitaran maya yang dipilih](../../../../../translated_images/vscode-virtual-env.8ba42e04c3d533cf677e16cbe5ed9a3b80f62c6964472dc84b6f940800f0909f.ms.png)
+    ![VS Code menunjukkan persekitaran maya yang dipilih](../../../../../translated_images/vscode-virtual-env.8ba42e04c3d533cf.ms.png)
 
 1. Jika Terminal VS Code sudah berjalan semasa VS Code dimulakan, ia tidak akan mempunyai persekitaran maya yang diaktifkan di dalamnya. Cara paling mudah ialah mematikan terminal menggunakan butang **Kill the active terminal instance**:
 
-    ![Butang VS Code Kill the active terminal instance](../../../../../translated_images/vscode-kill-terminal.1cc4de7c6f25ee08f423f0ead714e61d069fac1eb2089e97b8a7bbcb3d45fe5e.ms.png)
+    ![Butang VS Code Kill the active terminal instance](../../../../../translated_images/vscode-kill-terminal.1cc4de7c6f25ee08.ms.png)
 
 1. Lancarkan Terminal VS Code baru dengan memilih *Terminal -> New Terminal*, atau menekan `` CTRL+` ``. Terminal baru akan memuatkan persekitaran maya, dengan panggilan untuk mengaktifkannya muncul di terminal. Nama persekitaran maya (`.venv`) juga akan berada dalam prompt:
 

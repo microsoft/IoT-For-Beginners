@@ -75,7 +75,7 @@ Sommige van de meest eenvoudige sensoren zijn analoge sensoren. Deze sensoren on
 
 Een voorbeeld hiervan is een potentiometer. Dit is een draaiknop die je kunt draaien tussen twee posities en de sensor meet de rotatie.
 
-![Een potentiometer ingesteld op een middenpositie die 5 volt ontvangt en 3,8 volt terugstuurt](../../../../../translated_images/potentiometer.35a348b9ce22f6ec1199ad37d68692d04185456ccbc2541a454bb6698be9f19c.nl.png)
+![Een potentiometer ingesteld op een middenpositie die 5 volt ontvangt en 3,8 volt terugstuurt](../../../../../translated_images/potentiometer.35a348b9ce22f6ec.nl.png)
 
 Het IoT-apparaat stuurt een elektrisch signaal naar de potentiometer met een spanning, bijvoorbeeld 5 volt (5V). Naarmate de potentiometer wordt aangepast, verandert de spanning die aan de andere kant uitkomt. Stel je voor dat je een potentiometer hebt die is gelabeld als een draaiknop die gaat van 0 tot [11](https://wikipedia.org/wiki/Up_to_eleven), zoals een volumeknop op een versterker. Wanneer de potentiometer in de volledig uit-positie (0) staat, komt er 0V (0 volt) uit. Wanneer deze in de volledig aan-positie (11) staat, komt er 5V (5 volt) uit.
 
@@ -112,7 +112,7 @@ Pinnen op IoT-apparaten zoals GPIO-pinnen kunnen dit signaal direct meten als ee
 
 Meer geavanceerde digitale sensoren lezen analoge waarden en zetten deze vervolgens om met ingebouwde ADC's naar digitale signalen. Bijvoorbeeld, een digitale temperatuursensor zal nog steeds een thermokoppel gebruiken op dezelfde manier als een analoge sensor, en zal nog steeds de verandering in spanning meten die wordt veroorzaakt door de weerstand van het thermokoppel bij de huidige temperatuur. In plaats van een analoge waarde terug te sturen en te vertrouwen op het apparaat of connectorbord om deze om te zetten naar een digitaal signaal, zal een ADC ingebouwd in de sensor de waarde omzetten en deze als een reeks 0's en 1's naar het IoT-apparaat sturen. Deze 0's en 1's worden op dezelfde manier verzonden als het digitale signaal voor een knop, waarbij 1 volledige spanning is en 0 0V.
 
-![Een digitale temperatuursensor die een analoge meting omzet naar binaire gegevens met 0 als 0 volt en 1 als 5 volt voordat deze naar een IoT-apparaat wordt gestuurd](../../../../../translated_images/temperature-as-digital.85004491b977bae1129707df107c0b19fe6fc6374210e9027e04acb34a640c78.nl.png)
+![Een digitale temperatuursensor die een analoge meting omzet naar binaire gegevens met 0 als 0 volt en 1 als 5 volt voordat deze naar een IoT-apparaat wordt gestuurd](../../../../../translated_images/temperature-as-digital.85004491b977bae1.nl.png)
 
 Het verzenden van digitale gegevens stelt sensoren in staat om complexer te worden en meer gedetailleerde gegevens te verzenden, zelfs versleutelde gegevens voor beveiligde sensoren. Een voorbeeld hiervan is een camera. Dit is een sensor die een afbeelding vastlegt en deze verzendt als digitale gegevens die die afbeelding bevatten, meestal in een gecomprimeerd formaat zoals JPEG, om te worden gelezen door het IoT-apparaat. Het kan zelfs video streamen door afbeeldingen vast te leggen en ofwel het volledige beeld frame voor frame te verzenden of een gecomprimeerde videostream.
 
@@ -164,7 +164,7 @@ Bijvoorbeeld, je kunt PWM gebruiken om de snelheid van een motor te regelen.
 
 Stel je voor dat je een motor bestuurt met een 5V voeding. Je stuurt een korte puls naar je motor, waarbij de spanning hoog wordt gezet (5V) gedurende twee honderdsten van een seconde (0,02s). In die tijd kan je motor een tiende van een rotatie maken, of 36°. Het signaal pauzeert vervolgens gedurende twee honderdsten van een seconde (0,02s), waarbij een laag signaal (0V) wordt verzonden. Elke cyclus van aan en uit duurt 0,04s. De cyclus herhaalt zich vervolgens.
 
-![Pulsbreedtemodulatie rotatie van een motor bij 150 RPM](../../../../../translated_images/pwm-motor-150rpm.83347ac04ca38482bd120939b133803963c9c15ca9d8d484712a4bd92820f6a4.nl.png)
+![Pulsbreedtemodulatie rotatie van een motor bij 150 RPM](../../../../../translated_images/pwm-motor-150rpm.83347ac04ca38482.nl.png)
 
 Dit betekent dat je in één seconde 25 pulsen van 5V hebt van 0,02s die de motor laten draaien, elk gevolgd door een pauze van 0,02s van 0V waarbij de motor niet draait. Elke puls draait de motor een tiende van een rotatie, wat betekent dat de motor 2,5 rotaties per seconde voltooit. Je hebt een digitaal signaal gebruikt om de motor te laten draaien met 2,5 rotaties per seconde, of 150 [omwentelingen per minuut](https://wikipedia.org/wiki/Revolutions_per_minute) (een niet-standaard maat voor rotatiesnelheid).
 
@@ -175,7 +175,7 @@ Dit betekent dat je in één seconde 25 pulsen van 5V hebt van 0,02s die de moto
 
 > 🎓 Wanneer een PWM-signaal de helft van de tijd aan is en de helft van de tijd uit, wordt dit een [50% duty cycle](https://wikipedia.org/wiki/Duty_cycle) genoemd. Duty cycles worden gemeten als het percentage tijd dat het signaal in de aan-stand is vergeleken met de uit-stand.
 
-![Pulsbreedtemodulatie rotatie van een motor bij 75 RPM](../../../../../translated_images/pwm-motor-75rpm.a5e4c939934b6e14fd9e98e4f2c9539d723da2b18f490eae0948dd044d18ff7e.nl.png)
+![Pulsbreedtemodulatie rotatie van een motor bij 75 RPM](../../../../../translated_images/pwm-motor-75rpm.a5e4c939934b6e14.nl.png)
 
 Je kunt de motorsnelheid veranderen door de grootte van de pulsen te wijzigen. Bijvoorbeeld, met dezelfde motor kun je dezelfde cyclustijd van 0,04s behouden, waarbij de aan-puls wordt gehalveerd tot 0,01s en de uit-puls toeneemt tot 0,03s. Je hebt hetzelfde aantal pulsen per seconde (25), maar elke aan-puls is de helft zo lang. Een halve lengte puls draait de motor slechts een twintigste van een rotatie, en bij 25 pulsen per seconde voltooit de motor 1,25 rotaties per seconde of 75rpm. Door de pulsduur van een digitaal signaal te veranderen, heb je de snelheid van een analoge motor gehalveerd.
 

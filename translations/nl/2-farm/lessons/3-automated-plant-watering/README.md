@@ -55,11 +55,11 @@ Een relais is een elektromechanische schakelaar die een elektrisch signaal omzet
 
 > 🎓 [Elektromagneten](https://wikipedia.org/wiki/Electromagnet) zijn magneten die worden gecreëerd door elektriciteit door een spoel van draad te laten lopen. Wanneer de elektriciteit wordt ingeschakeld, wordt de spoel magnetisch. Wanneer de elektriciteit wordt uitgeschakeld, verliest de spoel zijn magnetisme.
 
-![Wanneer ingeschakeld, creëert de elektromagneet een magnetisch veld, waardoor de schakelaar van het uitgangscircuit wordt ingeschakeld](../../../../../translated_images/relay-on.4db16a0fd6b669262fd6699aff3fbcd31b6057c06d90411b6bddc06326d1cf75.nl.png)
+![Wanneer ingeschakeld, creëert de elektromagneet een magnetisch veld, waardoor de schakelaar van het uitgangscircuit wordt ingeschakeld](../../../../../translated_images/relay-on.4db16a0fd6b66926.nl.png)
 
 In een relais voedt een besturingscircuit de elektromagneet. Wanneer de elektromagneet is ingeschakeld, trekt deze een hendel aan die een schakelaar beweegt, waardoor een paar contacten worden gesloten en een uitgangscircuit wordt voltooid.
 
-![Wanneer uitgeschakeld, creëert de elektromagneet geen magnetisch veld, waardoor de schakelaar van het uitgangscircuit wordt uitgeschakeld](../../../../../translated_images/relay-off.c34a178a2960fecdc3c6400d43e633ed11c6746cd653cfb4a768fa097c40394c.nl.png)
+![Wanneer uitgeschakeld, creëert de elektromagneet geen magnetisch veld, waardoor de schakelaar van het uitgangscircuit wordt uitgeschakeld](../../../../../translated_images/relay-off.c34a178a2960fecd.nl.png)
 
 Wanneer het besturingscircuit is uitgeschakeld, schakelt de elektromagneet uit, waardoor de hendel wordt losgelaten en de contacten worden geopend, waardoor het uitgangscircuit wordt uitgeschakeld. Relais zijn digitale actuatoren - een hoog signaal naar het relais schakelt het in, een laag signaal schakelt het uit.
 
@@ -85,7 +85,7 @@ De elektromagneet heeft niet veel stroom nodig om te activeren en de hendel aan 
 
 De bovenstaande afbeelding toont een Grove-relais. Het besturingscircuit wordt aangesloten op een IoT-apparaat en schakelt het relais in of uit met 3,3V of 5V. Het uitgangscircuit heeft twee aansluitingen; beide kunnen stroom of aarde zijn. Het uitgangscircuit kan tot 250V bij 10A aan, genoeg voor een reeks apparaten op netstroom. Je kunt relais krijgen die nog hogere vermogensniveaus aankunnen.
 
-![Een pomp aangesloten via een relais](../../../../../translated_images/pump-wired-to-relay.66c5cfc0d89189900cd601777f5caeb39ee35c6250f6c86bf38feaceedb21fe9.nl.png)
+![Een pomp aangesloten via een relais](../../../../../translated_images/pump-wired-to-relay.66c5cfc0d8918990.nl.png)
 
 In de bovenstaande afbeelding wordt stroom geleverd aan een pomp via een relais. Er is een rode draad die de +5V-aansluiting van een USB-voeding verbindt met één aansluiting van het uitgangscircuit van het relais, en een andere rode draad die de andere aansluiting van het uitgangscircuit verbindt met de pomp. Een zwarte draad verbindt de pomp met de aarde van de USB-voeding. Wanneer het relais wordt ingeschakeld, voltooit het het circuit, waardoor 5V naar de pomp wordt gestuurd en de pomp wordt ingeschakeld.
 
@@ -135,7 +135,7 @@ In les 3 bouwde je een nachtlampje - een LED die aangaat zodra een laag lichtniv
 
 Als je de vorige les over bodemvocht hebt gedaan met een fysieke sensor, heb je waarschijnlijk gemerkt dat het een paar seconden duurde voordat de bodemvochtwaarde daalde nadat je je plant water had gegeven. Dit komt niet omdat de sensor traag is, maar omdat het tijd kost voor water om door de grond te dringen.
 💁 Als je te dicht bij de sensor water hebt gegeven, heb je misschien gezien dat de meting snel daalde en daarna weer steeg - dit komt doordat water dichtbij de sensor zich verspreidt door de rest van de grond, waardoor het bodemvocht bij de sensor afneemt.
-![Een bodemvochtmeting van 658 verandert niet tijdens het water geven, het daalt pas naar 320 nadat het water door de grond is getrokken](../../../../../translated_images/soil-moisture-travel.a0e31af222cf14385de5380dfc32c7b8213960965228b8e4f7b7ab7f73b310a3.nl.png)
+![Een bodemvochtmeting van 658 verandert niet tijdens het water geven, het daalt pas naar 320 nadat het water door de grond is getrokken](../../../../../translated_images/soil-moisture-travel.a0e31af222cf1438.nl.png)
 
 In het diagram hierboven toont een bodemvochtmeting 658. De plant wordt bewaterd, maar deze waarde verandert niet onmiddellijk, omdat het water de sensor nog niet heeft bereikt. Het water geven kan zelfs voltooid zijn voordat het water de sensor bereikt en de waarde daalt om het nieuwe vochtigheidsniveau weer te geven.
 
@@ -157,11 +157,11 @@ Hoe lang moet het relais elke keer aanstaan? Het is beter om voorzichtig te zijn
 
 > 💁 Dit soort timingcontrole is zeer specifiek voor het IoT-apparaat dat je bouwt, de eigenschap die je meet en de gebruikte sensoren en actuatoren.
 
-![Een aardbeienplant aangesloten op water via een pomp, waarbij de pomp is aangesloten op een relais. Het relais en een bodemvochtsensor in de plant zijn beide aangesloten op een Raspberry Pi](../../../../../translated_images/strawberry-with-pump.b410fc72ac6aabad3e28de9775bf2393ead73dcfec6fd8c9bc01cf107ecd171a.nl.png)
+![Een aardbeienplant aangesloten op water via een pomp, waarbij de pomp is aangesloten op een relais. Het relais en een bodemvochtsensor in de plant zijn beide aangesloten op een Raspberry Pi](../../../../../translated_images/strawberry-with-pump.b410fc72ac6aabad.nl.png)
 
 Bijvoorbeeld, ik heb een aardbeienplant met een bodemvochtsensor en een pomp die wordt bestuurd door een relais. Ik heb geobserveerd dat wanneer ik water toevoeg, het ongeveer 20 seconden duurt voordat de bodemvochtmeting stabiliseert. Dit betekent dat ik het relais moet uitschakelen en 20 seconden moet wachten voordat ik de vochtigheidsniveaus controleer. Ik heb liever te weinig water dan te veel - ik kan de pomp altijd opnieuw inschakelen, maar ik kan geen water uit de plant halen.
 
-![Stap 1, meetwaarde opnemen. Stap 2, water toevoegen. Stap 3, wachten tot het water door de grond is getrokken. Stap 4, meetwaarde opnieuw opnemen](../../../../../translated_images/soil-moisture-delay.865f3fae206db01d5f8f100f4f44040215d44a0412dd3450aef7ff7b93b6d273.nl.png)
+![Stap 1, meetwaarde opnemen. Stap 2, water toevoegen. Stap 3, wachten tot het water door de grond is getrokken. Stap 4, meetwaarde opnieuw opnemen](../../../../../translated_images/soil-moisture-delay.865f3fae206db01d.nl.png)
 
 Dit betekent dat het beste proces een bewateringscyclus zou zijn zoals:
 

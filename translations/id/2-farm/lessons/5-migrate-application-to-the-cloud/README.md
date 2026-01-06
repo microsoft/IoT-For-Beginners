@@ -41,7 +41,7 @@ Tanpa server, atau komputasi tanpa server, melibatkan pembuatan blok kode kecil 
 
 > 💁 Jika Anda pernah menggunakan pemicu database sebelumnya, Anda dapat menganggap ini sebagai hal yang sama, yaitu kode yang dipicu oleh acara seperti memasukkan baris.
 
-![Ketika banyak acara dikirim secara bersamaan, layanan tanpa server meningkat untuk menjalankan semuanya secara bersamaan](../../../../../translated_images/serverless-scaling.f8c769adf0413fd17be1af4f07ff63016b347e2ff869be6c4abb211f9e93909d.id.png)
+![Ketika banyak acara dikirim secara bersamaan, layanan tanpa server meningkat untuk menjalankan semuanya secara bersamaan](../../../../../translated_images/serverless-scaling.f8c769adf0413fd1.id.png)
 
 Kode Anda hanya dijalankan ketika acara terjadi, tidak ada yang menjaga kode Anda tetap aktif di waktu lain. Acara terjadi, kode Anda dimuat dan dijalankan. Ini membuat tanpa server sangat skalabel - jika banyak acara terjadi secara bersamaan, penyedia cloud dapat menjalankan fungsi Anda sebanyak yang Anda butuhkan secara bersamaan di berbagai server yang tersedia. Kekurangannya adalah jika Anda perlu berbagi informasi antar acara, Anda harus menyimpannya di tempat lain seperti database daripada menyimpannya di memori.
 
@@ -244,7 +244,7 @@ CLI Azure Functions dapat digunakan untuk membuat aplikasi Functions baru.
     VS Code. Initialize for optimal use with VS Code?
     ```
 
-    ![Notifikasi](../../../../../translated_images/vscode-azure-functions-init-notification.bd19b49229963edb5311fb3a79445ea469424759d2917ee2f2eb6f92d65d5086.id.png)
+    ![Notifikasi](../../../../../translated_images/vscode-azure-functions-init-notification.bd19b49229963edb.id.png)
 
     Pilih **Yes** dari notifikasi ini.
 

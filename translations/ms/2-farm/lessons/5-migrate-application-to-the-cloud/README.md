@@ -41,7 +41,7 @@ Tanpa pelayan, atau pengkomputeran tanpa pelayan, melibatkan penciptaan blok kec
 
 > 💁 Jika anda pernah menggunakan pencetus pangkalan data sebelum ini, anda boleh menganggap ini sebagai perkara yang sama, iaitu kod yang dicetuskan oleh acara seperti memasukkan baris.
 
-![Apabila banyak acara dihantar serentak, perkhidmatan tanpa pelayan meningkatkan skala untuk menjalankan semuanya pada masa yang sama](../../../../../translated_images/serverless-scaling.f8c769adf0413fd17be1af4f07ff63016b347e2ff869be6c4abb211f9e93909d.ms.png)
+![Apabila banyak acara dihantar serentak, perkhidmatan tanpa pelayan meningkatkan skala untuk menjalankan semuanya pada masa yang sama](../../../../../translated_images/serverless-scaling.f8c769adf0413fd1.ms.png)
 
 Kod anda hanya dijalankan apabila acara berlaku, dan tidak akan aktif pada masa lain. Apabila acara berlaku, kod anda dimuatkan dan dijalankan. Ini menjadikan tanpa pelayan sangat berskala - jika banyak acara berlaku serentak, penyedia awan boleh menjalankan fungsi anda sebanyak yang diperlukan pada masa yang sama di seluruh pelayan yang tersedia. Kelemahannya ialah jika anda perlu berkongsi maklumat antara acara, anda perlu menyimpannya di tempat lain seperti pangkalan data dan bukannya menyimpannya dalam memori.
 
@@ -244,7 +244,7 @@ CLI Azure Functions boleh digunakan untuk mencipta aplikasi Functions baru.
     VS Code. Initialize for optimal use with VS Code?
     ```
 
-    ![Notifikasi](../../../../../translated_images/vscode-azure-functions-init-notification.bd19b49229963edb5311fb3a79445ea469424759d2917ee2f2eb6f92d65d5086.ms.png)
+    ![Notifikasi](../../../../../translated_images/vscode-azure-functions-init-notification.bd19b49229963edb.ms.png)
 
     Pilih **Yes** dari notifikasi ini.
 

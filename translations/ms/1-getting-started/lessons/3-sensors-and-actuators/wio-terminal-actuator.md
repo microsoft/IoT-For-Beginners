@@ -51,7 +51,7 @@ Sambungkan LED.
 
     > 💁 Soket Grove di sebelah kanan boleh digunakan dengan sensor dan penggerak analog atau digital. Soket di sebelah kiri adalah untuk sensor dan penggerak digital sahaja. C akan dibincangkan dalam pelajaran kemudian.
 
-![LED Grove disambungkan ke soket sebelah kanan](../../../../../translated_images/wio-led.265a1897e72d7f21c753257516a4b677d8e30ce2b95fee98189458b3275ba0a6.ms.png)
+![LED Grove disambungkan ke soket sebelah kanan](../../../../../translated_images/wio-led.265a1897e72d7f21.ms.png)
 
 ## Program lampu malam
 

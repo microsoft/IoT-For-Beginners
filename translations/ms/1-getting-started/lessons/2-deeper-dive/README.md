@@ -41,7 +41,7 @@ Dua komponen utama aplikasi IoT adalah *Internet* dan *peranti*. Mari kita lihat
 
 ### Peranti
 
-![Raspberry Pi 4](../../../../../translated_images/raspberry-pi-4.fd4590d308c3d456db1327e86b395ddcd735513267aafd4879ea2785f7792eac.ms.jpg)
+![Raspberry Pi 4](../../../../../translated_images/raspberry-pi-4.fd4590d308c3d456.ms.jpg)
 
 Bahagian **Peranti** dalam IoT merujuk kepada peranti yang boleh berinteraksi dengan dunia fizikal. Peranti ini biasanya adalah komputer kecil, berharga rendah, beroperasi pada kelajuan rendah dan menggunakan kuasa yang rendah - contohnya, mikropengawal mudah dengan RAM dalam kilobyte (berbanding gigabyte dalam PC) yang beroperasi hanya pada beberapa ratus megahertz (berbanding gigahertz dalam PC), tetapi kadang-kadang menggunakan kuasa yang sangat sedikit sehingga boleh beroperasi selama berminggu-minggu, berbulan-bulan atau bahkan bertahun-tahun dengan bateri.
 
@@ -67,7 +67,7 @@ Sebagai contoh termostat pintar, termostat akan bersambung menggunakan WiFi ruma
 
 Versi yang lebih pintar boleh menggunakan AI di awan dengan data daripada sensor lain yang bersambung kepada peranti IoT lain seperti sensor kehadiran yang mengesan bilik mana yang digunakan, serta data seperti cuaca dan juga kalendar anda, untuk membuat keputusan tentang cara menetapkan suhu dengan cara yang pintar. Contohnya, ia boleh mematikan pemanasan jika ia membaca daripada kalendar anda bahawa anda sedang bercuti, atau mematikan pemanasan berdasarkan bilik demi bilik bergantung pada bilik mana yang anda gunakan, belajar daripada data untuk menjadi lebih tepat dari semasa ke semasa.
 
-![Rajah menunjukkan pelbagai sensor suhu dan dail sebagai input kepada peranti IoT, peranti IoT dengan komunikasi dua hala ke awan, yang seterusnya mempunyai komunikasi dua hala ke telefon, kalendar dan perkhidmatan cuaca, dan kawalan pemanas sebagai output daripada peranti IoT](../../../../../translated_images/smarter-thermostat.a75855f15d2d9e63d5da9d7ba5847a987f6c9d98e96e770c203532275194e27d.ms.png)
+![Rajah menunjukkan pelbagai sensor suhu dan dail sebagai input kepada peranti IoT, peranti IoT dengan komunikasi dua hala ke awan, yang seterusnya mempunyai komunikasi dua hala ke telefon, kalendar dan perkhidmatan cuaca, dan kawalan pemanas sebagai output daripada peranti IoT](../../../../../translated_images/smarter-thermostat.a75855f15d2d9e63.ms.png)
 
 ✅ Apakah data lain yang boleh membantu menjadikan termostat bersambung Internet lebih pintar?
 
@@ -135,7 +135,7 @@ Seperti CPU, memori pada mikrokontroler jauh lebih kecil berbanding PC atau Mac.
 
 Rajah di bawah menunjukkan perbezaan saiz relatif antara 192KB dan 8GB - titik kecil di tengah mewakili 192KB.
 
-![Perbandingan antara 192KB dan 8GB - lebih besar 40,000 kali ganda](../../../../../translated_images/ram-comparison.6beb73541b42ac6ffde64cdf79fc925a84b932ce7ebd4d41d5fd7afc1257a696.ms.png)
+![Perbandingan antara 192KB dan 8GB - lebih besar 40,000 kali ganda](../../../../../translated_images/ram-comparison.6beb73541b42ac6f.ms.png)
 
 Storan program juga lebih kecil berbanding PC. Sebuah PC biasa mungkin mempunyai cakera keras 500GB untuk storan program, manakala mikrokontroler mungkin hanya mempunyai kilobyte atau beberapa megabyte (MB) storan (1MB adalah 1,000KB, atau 1,000,000 bait). Wio terminal mempunyai 4MB storan program.
 
@@ -211,17 +211,17 @@ Dalam pelajaran terakhir, kami memperkenalkan komputer papan tunggal. Sekarang m
 
 ### Raspberry Pi
 
-![Logo Raspberry Pi](../../../../../translated_images/raspberry-pi-logo.4efaa16605cee05489d8fa53941e991b3757aa24c20a95abdcf8cfd761953596.ms.png)
+![Logo Raspberry Pi](../../../../../translated_images/raspberry-pi-logo.4efaa16605cee054.ms.png)
 
 [The Raspberry Pi Foundation](https://www.raspberrypi.org) adalah sebuah badan amal dari UK yang ditubuhkan pada tahun 2009 untuk mempromosikan kajian sains komputer, terutamanya di peringkat sekolah. Sebagai sebahagian daripada misi ini, mereka membangunkan komputer papan tunggal, yang dipanggil Raspberry Pi. Raspberry Pi kini tersedia dalam 3 varian - versi bersaiz penuh, Pi Zero yang lebih kecil, dan modul pengkomputeran yang boleh dibina ke dalam peranti IoT akhir anda.
 
-![Raspberry Pi 4](../../../../../translated_images/raspberry-pi-4.fd4590d308c3d456db1327e86b395ddcd735513267aafd4879ea2785f7792eac.ms.jpg)
+![Raspberry Pi 4](../../../../../translated_images/raspberry-pi-4.fd4590d308c3d456.ms.jpg)
 
 Iterasi terbaru Raspberry Pi bersaiz penuh ialah Raspberry Pi 4B. Ia mempunyai CPU quad-core (4 teras) yang berjalan pada 1.5GHz, 2, 4, atau 8GB RAM, gigabit ethernet, WiFi, 2 port HDMI yang menyokong skrin 4k, port audio dan video komposit, port USB (2 USB 2.0, 2 USB 3.0), 40 pin GPIO, penyambung kamera untuk modul kamera Raspberry Pi, dan slot kad SD. Semua ini pada papan yang berukuran 88mm x 58mm x 19.5mm dan dikuasakan oleh bekalan kuasa USB-C 3A. Harga bermula dari US$35, jauh lebih murah daripada PC atau Mac.
 
 > 💁 Terdapat juga Pi400, komputer semua dalam satu dengan Pi4 yang dibina ke dalam papan kekunci.
 
-![Raspberry Pi Zero](../../../../../translated_images/raspberry-pi-zero.f7a4133e1e7d54bb3dbb32319b217a53c5b94871995a54647f2894b54206b8d8.ms.jpg)
+![Raspberry Pi Zero](../../../../../translated_images/raspberry-pi-zero.f7a4133e1e7d54bb.ms.jpg)
 
 Pi Zero jauh lebih kecil, dengan kuasa yang lebih rendah. Ia mempunyai CPU teras tunggal 1GHz, 512MB RAM, WiFi (dalam model Zero W), satu port HDMI, satu port mikro-USB, 40 pin GPIO, penyambung kamera untuk modul kamera Raspberry Pi, dan slot kad SD. Ia berukuran 65mm x 30mm x 5mm, dan menggunakan kuasa yang sangat sedikit. Zero berharga US$5, dengan versi W yang mempunyai WiFi berharga US$10.
 

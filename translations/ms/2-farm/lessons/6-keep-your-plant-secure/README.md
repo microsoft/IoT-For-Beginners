@@ -97,15 +97,15 @@ Penyulitan datang dalam dua jenis - simetri dan asimetri.
 
 **Simetri** menggunakan kunci yang sama untuk menyulitkan dan menyahulitkan data. Pengirim dan penerima perlu mengetahui kunci yang sama. Ini adalah jenis yang paling kurang selamat, kerana kunci perlu dikongsi dengan cara tertentu. Untuk pengirim menghantar mesej yang disulitkan kepada penerima, pengirim mungkin perlu menghantar kunci kepada penerima terlebih dahulu.
 
-![Penyulitan kunci simetri menggunakan kunci yang sama untuk menyulitkan dan menyahulitkan mesej](../../../../../translated_images/send-message-symmetric-key.a2e8ad0d495896ffcdf15d25bb4491c695a5cb851457b359fb0f0c89d67707c9.ms.png)
+![Penyulitan kunci simetri menggunakan kunci yang sama untuk menyulitkan dan menyahulitkan mesej](../../../../../translated_images/send-message-symmetric-key.a2e8ad0d495896ff.ms.png)
 
 Jika kunci dicuri semasa penghantaran, atau pengirim atau penerima digodam dan kunci ditemui, penyulitan boleh dipecahkan.
 
-![Penyulitan kunci simetri hanya selamat jika penggodam tidak mendapat kunci - jika ya, mereka boleh memintas dan menyahulitkan mesej](../../../../../translated_images/send-message-symmetric-key-hacker.e7cb53db1707adfb1486a8144060cb76435fe8dbdede8cecc09e7d15b2d9a251.ms.png)
+![Penyulitan kunci simetri hanya selamat jika penggodam tidak mendapat kunci - jika ya, mereka boleh memintas dan menyahulitkan mesej](../../../../../translated_images/send-message-symmetric-key-hacker.e7cb53db1707adfb.ms.png)
 
 **Asimetri** menggunakan 2 kunci - kunci penyulitan dan kunci penyahulitan, yang dirujuk sebagai pasangan kunci awam/peribadi. Kunci awam digunakan untuk menyulitkan mesej, tetapi tidak boleh digunakan untuk menyahulitkannya, kunci peribadi digunakan untuk menyahulitkan mesej tetapi tidak boleh digunakan untuk menyulitkannya.
 
-![Penyulitan asimetri menggunakan kunci yang berbeza untuk menyulitkan dan menyahulitkan. Kunci penyulitan dihantar kepada pengirim mesej supaya mereka boleh menyulitkan mesej sebelum menghantarnya kepada penerima yang memiliki kunci](../../../../../translated_images/send-message-asymmetric.7abe327c62615b8c19805252af5d4b6c5e7aaeb8fbc455efeff866fe2d300b62.ms.png)
+![Penyulitan asimetri menggunakan kunci yang berbeza untuk menyulitkan dan menyahulitkan. Kunci penyulitan dihantar kepada pengirim mesej supaya mereka boleh menyulitkan mesej sebelum menghantarnya kepada penerima yang memiliki kunci](../../../../../translated_images/send-message-asymmetric.7abe327c62615b8c.ms.png)
 
 Penerima berkongsi kunci awam mereka, dan pengirim menggunakan ini untuk menyulitkan mesej. Setelah mesej dihantar, penerima menyahulitkannya dengan kunci peribadi mereka. Penyulitan asimetri lebih selamat kerana kunci peribadi disimpan secara peribadi oleh penerima dan tidak pernah dikongsi. Sesiapa sahaja boleh memiliki kunci awam kerana ia hanya boleh digunakan untuk menyulitkan mesej.
 
@@ -165,7 +165,7 @@ Sijil-sijil ini mempunyai beberapa medan di dalamnya, termasuk siapa kunci awam 
 
 Apabila menggunakan sijil X.509, kedua-dua penghantar dan penerima akan mempunyai kunci awam dan peribadi mereka sendiri, serta kedua-duanya mempunyai sijil X.509 yang mengandungi kunci awam. Mereka kemudian bertukar sijil X.509 dengan cara tertentu, menggunakan kunci awam masing-masing untuk mengenkripsi data yang mereka hantar, dan kunci peribadi mereka sendiri untuk mendekripsi data yang mereka terima.
 
-![Daripada berkongsi kunci awam, anda boleh berkongsi sijil. Pengguna sijil boleh mengesahkan bahawa ia berasal dari anda dengan memeriksa dengan pihak berkuasa sijil yang menandatanganinya.](../../../../../translated_images/send-message-certificate.9cc576ac1e46b76eb58ebc8eedaa522566fa0700076da46f5180aad78c2435db.ms.png)
+![Daripada berkongsi kunci awam, anda boleh berkongsi sijil. Pengguna sijil boleh mengesahkan bahawa ia berasal dari anda dengan memeriksa dengan pihak berkuasa sijil yang menandatanganinya.](../../../../../translated_images/send-message-certificate.9cc576ac1e46b76e.ms.png)
 
 Satu kelebihan besar menggunakan sijil X.509 ialah ia boleh dikongsi antara peranti. Anda boleh membuat satu sijil, memuat naiknya ke IoT Hub, dan menggunakannya untuk semua peranti anda. Setiap peranti hanya perlu mengetahui kunci peribadi untuk mendekripsi mesej yang diterima dari IoT Hub.
 

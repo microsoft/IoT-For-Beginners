@@ -110,7 +110,7 @@ Setiap titik pada poligon ditentukan sebagai pasangan longitud, latitud dalam ar
 
 Array koordinat poligon sentiasa mempunyai 1 entri lebih banyak daripada bilangan titik pada poligon, dengan entri terakhir sama seperti yang pertama, menutup poligon. Sebagai contoh, untuk segi empat tepat akan ada 5 titik.
 
-![Segi empat tepat dengan koordinat](../../../../../translated_images/polygon-points.302193da381cb415f46c2c7a98496ee4be05d6c73d21238a89721ad93e121233.ms.png)
+![Segi empat tepat dengan koordinat](../../../../../translated_images/polygon-points.302193da381cb415.ms.png)
 
 Dalam gambar di atas, terdapat segi empat tepat. Koordinat poligon bermula di kiri atas pada 47,-122, kemudian bergerak ke kanan ke 47,-121, kemudian ke bawah ke 46,-121, kemudian ke kiri ke 46, -122, kemudian kembali ke titik permulaan di 47, -122. Ini memberikan poligon 5 titik - kiri atas, kanan atas, kanan bawah, kiri bawah, kemudian kiri atas untuk menutupnya.
 
@@ -208,7 +208,7 @@ Apabila anda membuat permintaan ini, anda juga boleh menghantar nilai yang dipan
 
 Apabila hasil dikembalikan dari panggilan API, salah satu bahagian hasil adalah `distance` yang diukur ke titik terdekat di tepi geopagar, dengan nilai positif jika titik berada di luar geopagar, nilai negatif jika ia berada di dalam geopagar. Jika jarak ini kurang daripada penimbal carian, jarak sebenar dikembalikan dalam meter, jika tidak, nilainya adalah 999 atau -999. 999 bermaksud titik berada di luar geopagar lebih daripada penimbal carian, -999 bermaksud ia berada di dalam geopagar lebih daripada penimbal carian.
 
-![Geopagar dengan penimbal carian 50m di sekelilingnya](../../../../../translated_images/search-buffer-and-distance.e6a79af3898183c7b2ef6fbf12271b8b34afd23969bb946962b1b18d3d2635e8.ms.png)
+![Geopagar dengan penimbal carian 50m di sekelilingnya](../../../../../translated_images/search-buffer-and-distance.e6a79af3898183c7.ms.png)
 
 Dalam gambar di atas, geopagar mempunyai penimbal carian 50m.
 

@@ -115,7 +115,7 @@ Untuk prototipe, Anda akan mengimplementasikan semua ini pada satu perangkat. Ji
 
 Perangkat IoT memerlukan semacam pemicu untuk menunjukkan kapan buah siap diklasifikasikan. Salah satu pemicu untuk ini adalah mengukur kapan buah berada di lokasi yang tepat di ban berjalan dengan mengukur jarak ke sensor.
 
-![Sensor jarak mengirimkan sinar laser ke objek seperti pisang dan mengukur waktu hingga sinar dipantulkan kembali](../../../../../translated_images/proximity-sensor.f5cd752c77fb62fea000156233b32fd24fad3707ec69b8bdd8d312b7af85156d.id.png)
+![Sensor jarak mengirimkan sinar laser ke objek seperti pisang dan mengukur waktu hingga sinar dipantulkan kembali](../../../../../translated_images/proximity-sensor.f5cd752c77fb62fe.id.png)
 
 Sensor jarak dapat digunakan untuk mengukur jarak dari sensor ke suatu objek. Biasanya, sensor ini memancarkan sinar radiasi elektromagnetik seperti sinar laser atau cahaya infra-merah, lalu mendeteksi radiasi yang dipantulkan dari objek. Waktu antara sinar laser yang dikirim dan sinyal yang dipantulkan kembali dapat digunakan untuk menghitung jarak ke sensor.
 

@@ -55,11 +55,11 @@ Relay adalah suis elektromekanikal yang menukar isyarat elektrik kepada pergerak
 
 > 🎓 [Elektromagnet](https://wikipedia.org/wiki/Electromagnet) adalah magnet yang dicipta dengan mengalirkan elektrik melalui gegelung wayar. Apabila elektrik dihidupkan, gegelung menjadi bermagnet. Apabila elektrik dimatikan, gegelung kehilangan kemagnetannya.
 
-![Apabila dihidupkan, elektromagnet mencipta medan magnet, menghidupkan suis untuk litar output](../../../../../translated_images/relay-on.4db16a0fd6b669262fd6699aff3fbcd31b6057c06d90411b6bddc06326d1cf75.ms.png)
+![Apabila dihidupkan, elektromagnet mencipta medan magnet, menghidupkan suis untuk litar output](../../../../../translated_images/relay-on.4db16a0fd6b66926.ms.png)
 
 Dalam relay, litar kawalan menghidupkan elektromagnet. Apabila elektromagnet dihidupkan, ia menarik tuil yang menggerakkan suis, menutup sepasang kenalan dan melengkapkan litar output.
 
-![Apabila dimatikan, elektromagnet tidak mencipta medan magnet, mematikan suis untuk litar output](../../../../../translated_images/relay-off.c34a178a2960fecdc3c6400d43e633ed11c6746cd653cfb4a768fa097c40394c.ms.png)
+![Apabila dimatikan, elektromagnet tidak mencipta medan magnet, mematikan suis untuk litar output](../../../../../translated_images/relay-off.c34a178a2960fecd.ms.png)
 
 Apabila litar kawalan dimatikan, elektromagnet dimatikan, melepaskan tuil dan membuka kenalan, mematikan litar output. Relay adalah aktuator digital - isyarat tinggi kepada relay menghidupkannya, isyarat rendah mematikannya.
 
@@ -85,7 +85,7 @@ Elektromagnet tidak memerlukan banyak kuasa untuk diaktifkan dan menarik tuil, i
 
 Gambar di atas menunjukkan relay Grove. Litar kawalan disambungkan kepada peranti IoT dan menghidupkan atau mematikan relay menggunakan 3.3V atau 5V. Litar output mempunyai dua terminal, salah satu daripadanya boleh menjadi kuasa atau tanah. Litar output boleh mengendalikan sehingga 250V pada 10A, mencukupi untuk pelbagai peranti berkuasa utama. Anda boleh mendapatkan relay yang boleh mengendalikan tahap kuasa yang lebih tinggi.
 
-![Pam disambungkan melalui relay](../../../../../translated_images/pump-wired-to-relay.66c5cfc0d89189900cd601777f5caeb39ee35c6250f6c86bf38feaceedb21fe9.ms.png)
+![Pam disambungkan melalui relay](../../../../../translated_images/pump-wired-to-relay.66c5cfc0d8918990.ms.png)
 
 Dalam gambar di atas, kuasa dibekalkan kepada pam melalui relay. Terdapat wayar merah yang menyambungkan terminal +5V bekalan kuasa USB ke satu terminal litar output relay, dan satu lagi wayar merah menyambungkan terminal lain litar output ke pam. Wayar hitam menyambungkan pam ke tanah pada bekalan kuasa USB. Apabila relay dihidupkan, ia melengkapkan litar, menghantar 5V ke pam, menghidupkan pam.
 
@@ -135,7 +135,7 @@ Dalam pelajaran 3, anda telah membina lampu malam - LED yang menyala sebaik saha
 
 Jika anda telah melakukan pelajaran terakhir tentang kelembapan tanah menggunakan sensor fizikal, anda mungkin perasan bahawa bacaan kelembapan tanah mengambil masa beberapa saat untuk menurun selepas anda menyiram tumbuhan anda. Ini bukan kerana sensor lambat, tetapi kerana air memerlukan masa untuk meresap ke dalam tanah.
 💁 Jika anda menyiram terlalu dekat dengan sensor, anda mungkin melihat bacaan menurun dengan cepat, kemudian naik semula - ini disebabkan oleh air berhampiran sensor yang tersebar ke seluruh tanah, mengurangkan kelembapan tanah di sekitar sensor.
-![Bacaan kelembapan tanah sebanyak 658 tidak berubah semasa penyiraman, ia hanya turun kepada 320 selepas penyiraman apabila air telah meresap ke dalam tanah](../../../../../translated_images/soil-moisture-travel.a0e31af222cf14385de5380dfc32c7b8213960965228b8e4f7b7ab7f73b310a3.ms.png)
+![Bacaan kelembapan tanah sebanyak 658 tidak berubah semasa penyiraman, ia hanya turun kepada 320 selepas penyiraman apabila air telah meresap ke dalam tanah](../../../../../translated_images/soil-moisture-travel.a0e31af222cf1438.ms.png)
 
 Dalam rajah di atas, bacaan kelembapan tanah menunjukkan 658. Tumbuhan disiram, tetapi bacaan ini tidak berubah dengan segera kerana air belum sampai ke sensor. Penyiraman boleh selesai sebelum air sampai ke sensor dan nilai turun untuk mencerminkan tahap kelembapan yang baru.
 
@@ -157,11 +157,11 @@ Berapa lama relay perlu dihidupkan setiap kali? Lebih baik berhati-hati dan hany
 
 > 💁 Kawalan pemasaan seperti ini sangat khusus untuk peranti IoT yang anda bina, sifat yang anda ukur dan sensor serta penggerak yang digunakan.
 
-![Tumbuhan strawberi disambungkan kepada air melalui pam, dengan pam disambungkan kepada relay. Relay dan sensor kelembapan tanah dalam tumbuhan kedua-duanya disambungkan kepada Raspberry Pi](../../../../../translated_images/strawberry-with-pump.b410fc72ac6aabad3e28de9775bf2393ead73dcfec6fd8c9bc01cf107ecd171a.ms.png)
+![Tumbuhan strawberi disambungkan kepada air melalui pam, dengan pam disambungkan kepada relay. Relay dan sensor kelembapan tanah dalam tumbuhan kedua-duanya disambungkan kepada Raspberry Pi](../../../../../translated_images/strawberry-with-pump.b410fc72ac6aabad.ms.png)
 
 Sebagai contoh, saya mempunyai tumbuhan strawberi dengan sensor kelembapan tanah dan pam yang dikawal oleh relay. Saya telah memerhatikan bahawa apabila saya menambah air, ia mengambil masa kira-kira 20 saat untuk bacaan kelembapan tanah stabil. Ini bermakna saya perlu mematikan relay dan menunggu 20 saat sebelum memeriksa tahap kelembapan. Saya lebih suka mempunyai terlalu sedikit air daripada terlalu banyak - saya sentiasa boleh menghidupkan pam semula, tetapi saya tidak boleh mengeluarkan air dari tumbuhan.
 
-![Langkah 1, ambil pengukuran. Langkah 2, tambah air. Langkah 3, tunggu air meresap ke dalam tanah. Langkah 4, ambil pengukuran semula](../../../../../translated_images/soil-moisture-delay.865f3fae206db01d5f8f100f4f44040215d44a0412dd3450aef7ff7b93b6d273.ms.png)
+![Langkah 1, ambil pengukuran. Langkah 2, tambah air. Langkah 3, tunggu air meresap ke dalam tanah. Langkah 4, ambil pengukuran semula](../../../../../translated_images/soil-moisture-delay.865f3fae206db01d.ms.png)
 
 Ini bermakna proses terbaik ialah kitaran penyiraman yang seperti berikut:
 

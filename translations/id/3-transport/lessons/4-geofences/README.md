@@ -110,7 +110,7 @@ Setiap titik pada poligon didefinisikan sebagai pasangan bujur dan lintang dalam
 
 Array koordinat poligon selalu memiliki 1 entri lebih banyak daripada jumlah titik pada poligon, dengan entri terakhir sama dengan yang pertama, menutup poligon. Misalnya, untuk sebuah persegi panjang akan ada 5 titik.
 
-![Sebuah persegi panjang dengan koordinat](../../../../../translated_images/polygon-points.302193da381cb415f46c2c7a98496ee4be05d6c73d21238a89721ad93e121233.id.png)
+![Sebuah persegi panjang dengan koordinat](../../../../../translated_images/polygon-points.302193da381cb415.id.png)
 
 Dalam gambar di atas, ada sebuah persegi panjang. Koordinat poligon dimulai di kiri atas pada 47,-122, lalu bergerak ke kanan ke 47,-121, lalu turun ke 46,-121, lalu ke kanan ke 46, -122, lalu kembali ke titik awal di 47, -122. Ini memberikan poligon 5 titik - kiri atas, kanan atas, kanan bawah, kiri bawah, lalu kiri atas untuk menutupnya.
 
@@ -208,7 +208,7 @@ Saat Anda membuat permintaan ini, Anda juga dapat meneruskan nilai yang disebut 
 
 Ketika hasil dikembalikan dari panggilan API, salah satu bagian dari hasil adalah `distance` yang diukur ke titik terdekat di tepi geofence, dengan nilai positif jika titik berada di luar geofence, nilai negatif jika berada di dalam geofence. Jika jarak ini kurang dari search buffer, jarak sebenarnya dikembalikan dalam meter, jika tidak nilainya adalah 999 atau -999. 999 berarti titik berada di luar geofence lebih dari search buffer, -999 berarti titik berada di dalam geofence lebih dari search buffer.
 
-![Sebuah geofence dengan search buffer 50m di sekitarnya](../../../../../translated_images/search-buffer-and-distance.e6a79af3898183c7b2ef6fbf12271b8b34afd23969bb946962b1b18d3d2635e8.id.png)
+![Sebuah geofence dengan search buffer 50m di sekitarnya](../../../../../translated_images/search-buffer-and-distance.e6a79af3898183c7.id.png)
 
 Dalam gambar di atas, geofence memiliki search buffer 50m.
 

@@ -66,7 +66,7 @@ Database adalah layanan yang memungkinkan Anda menyimpan dan melakukan kueri dat
 
 Database pertama adalah Sistem Manajemen Database Relasional (RDBMS), atau database relasional. Database ini juga dikenal sebagai database SQL karena menggunakan Structured Query Language (SQL) untuk menambahkan, menghapus, memperbarui, atau melakukan kueri data. Database ini terdiri dari skema - serangkaian tabel data yang terdefinisi dengan baik, mirip dengan spreadsheet. Setiap tabel memiliki beberapa kolom bernama. Ketika Anda memasukkan data, Anda menambahkan baris ke tabel, menempatkan nilai ke dalam setiap kolom. Ini menjaga data dalam struktur yang sangat kaku - meskipun Anda dapat membiarkan kolom kosong, jika Anda ingin menambahkan kolom baru, Anda harus melakukannya di database, mengisi nilai untuk baris yang sudah ada. Database ini bersifat relasional - di mana satu tabel dapat memiliki hubungan dengan tabel lain.
 
-![Database relasional dengan ID tabel Pengguna yang berhubungan dengan kolom ID pengguna di tabel pembelian, dan ID tabel produk yang berhubungan dengan ID produk di tabel pembelian](../../../../../translated_images/sql-database.be160f12bfccefd3ca718a66468c2c4c89c53e5aad4c295324d576da87f9dfdd.id.png)
+![Database relasional dengan ID tabel Pengguna yang berhubungan dengan kolom ID pengguna di tabel pembelian, dan ID tabel produk yang berhubungan dengan ID produk di tabel pembelian](../../../../../translated_images/sql-database.be160f12bfccefd3.id.png)
 
 Sebagai contoh, jika Anda menyimpan detail pribadi pengguna dalam tabel, Anda akan memiliki semacam ID unik internal per pengguna yang digunakan dalam baris di tabel yang berisi nama dan alamat pengguna. Jika Anda kemudian ingin menyimpan detail lain tentang pengguna tersebut, seperti pembelian mereka, dalam tabel lain, Anda akan memiliki satu kolom di tabel baru untuk ID pengguna tersebut. Ketika Anda mencari pengguna, Anda dapat menggunakan ID mereka untuk mendapatkan detail pribadi dari satu tabel, dan pembelian mereka dari tabel lain.
 
@@ -241,7 +241,7 @@ Aplikasi fungsi Anda sekarang perlu terhubung ke penyimpanan blob untuk menyimpa
 
 Dalam pelajaran ini, Anda akan menggunakan SDK Python untuk melihat cara berinteraksi dengan penyimpanan blob.
 
-![Mengirim telemetri GPS dari perangkat IoT ke IoT Hub, lalu ke Azure Functions melalui pemicu event hub, kemudian menyimpannya ke penyimpanan blob](../../../../../translated_images/save-telemetry-to-storage-from-functions.ed3b1820980097f143d9f0570072da11304c2bc7906359dfa075b4d9b253c20f.id.png)
+![Mengirim telemetri GPS dari perangkat IoT ke IoT Hub, lalu ke Azure Functions melalui pemicu event hub, kemudian menyimpannya ke penyimpanan blob](../../../../../translated_images/save-telemetry-to-storage-from-functions.ed3b1820980097f1.id.png)
 
 Data akan disimpan sebagai blob JSON dengan format berikut:
 

@@ -37,7 +37,7 @@ UART omvat fysieke schakelingen die twee apparaten in staat stellen te communice
 * Apparaat 1 verzendt gegevens vanaf zijn Tx-pin, die worden ontvangen door apparaat 2 op zijn Rx-pin.
 * Apparaat 1 ontvangt gegevens op zijn Rx-pin die worden verzonden door apparaat 2 vanaf zijn Tx-pin.
 
-![UART met de Tx-pin op één chip verbonden met de Rx-pin op een andere, en vice versa](../../../../../translated_images/uart.d0dbd3fb9e3728c6ee1995c8206f3cdb13cdfd208f13745e8ef6854cab75e421.nl.png)
+![UART met de Tx-pin op één chip verbonden met de Rx-pin op een andere, en vice versa](../../../../../translated_images/uart.d0dbd3fb9e3728c6.nl.png)
 
 > 🎓 De gegevens worden één bit tegelijk verzonden, en dit staat bekend als *seriële* communicatie. De meeste besturingssystemen en microcontrollers hebben *seriële poorten*, dat wil zeggen verbindingen die seriële gegevens kunnen verzenden en ontvangen en beschikbaar zijn voor je code.
 
@@ -66,7 +66,7 @@ SPI-controllers gebruiken 3 draden, samen met 1 extra draad per perifere. Perife
 | SCLK | Seriële klok | Deze draad verzendt een kloksignaal met een snelheid ingesteld door de controller. |
 | CS   | Chip Select | De controller heeft meerdere draden, één per perifere, en elke draad is verbonden met de CS-draad op de corresponderende perifere. |
 
-![SPI met één controller en twee perifere apparaten](../../../../../translated_images/spi.297431d6f98b386b4ff88aea44ce9c1e7acfb1ef69c7e4e388a7aa97b6948e24.nl.png)
+![SPI met één controller en twee perifere apparaten](../../../../../translated_images/spi.297431d6f98b386b.nl.png)
 
 De CS-draad wordt gebruikt om één perifere tegelijk te activeren, waarbij communicatie plaatsvindt via de COPI- en CIPO-draden. Wanneer de controller van perifere moet wisselen, deactiveert hij de CS-draad die is verbonden met de momenteel actieve perifere, en activeert vervolgens de draad die is verbonden met de perifere waarmee hij als volgende wil communiceren.
 
@@ -127,13 +127,13 @@ Bodemvochtigheid wordt gemeten met behulp van gravimetrische of volumetrische wa
 
 Bodemvochtigheidssensoren meten elektrische weerstand of capaciteit - dit varieert niet alleen door bodemvochtigheid, maar ook door bodemtype omdat de componenten in de bodem de elektrische eigenschappen kunnen veranderen. Idealiter moeten sensoren worden gekalibreerd - dat wil zeggen het nemen van metingen van de sensor en deze vergelijken met metingen die zijn verkregen met een meer wetenschappelijke aanpak. Bijvoorbeeld, een laboratorium kan de gravimetrische bodemvochtigheid berekenen met behulp van monsters van een specifiek veld die een paar keer per jaar worden genomen, en deze cijfers worden gebruikt om de sensor te kalibreren, waarbij de sensorlezing wordt gekoppeld aan de gravimetrische bodemvochtigheid.
 
-![Een grafiek van spanning vs bodemvochtigheidsinhoud](../../../../../translated_images/soil-moisture-to-voltage.df86d80cda1587008f312431ed5f79eb6c50c58d4fbc25a6763c5e9127c3106b.nl.png)
+![Een grafiek van spanning vs bodemvochtigheidsinhoud](../../../../../translated_images/soil-moisture-to-voltage.df86d80cda158700.nl.png)
 
 De bovenstaande grafiek laat zien hoe een sensor kan worden gekalibreerd. De spanning wordt vastgelegd voor een bodemmonster dat vervolgens in een laboratorium wordt gemeten door het vochtige gewicht te vergelijken met het droge gewicht (door het gewicht nat te meten, vervolgens te drogen in een oven en het droge gewicht te meten). Zodra een paar metingen zijn genomen, kan dit worden uitgezet op een grafiek en een lijn worden aangepast aan de punten. Deze lijn kan vervolgens worden gebruikt om bodemvochtigheidssensorlezingen die door een IoT-apparaat worden genomen om te zetten in daadwerkelijke bodemvochtigheidsmetingen.
 
 💁 Voor resistieve bodemvochtigheidssensoren neemt de spanning toe naarmate de bodemvochtigheid toeneemt. Voor capacitieve bodemvochtigheidssensoren neemt de spanning af naarmate de bodemvochtigheid toeneemt, dus de grafieken voor deze zouden naar beneden hellen, niet naar boven.
 
-![Een bodemvochtigheidswaarde geïnterpoleerd uit de grafiek](../../../../../translated_images/soil-moisture-to-voltage-with-reading.681cb3e1f8b68caf5547dbf1415851c82e201edfb78face16fc98da4051ed9b2.nl.png)
+![Een bodemvochtigheidswaarde geïnterpoleerd uit de grafiek](../../../../../translated_images/soil-moisture-to-voltage-with-reading.681cb3e1f8b68caf.nl.png)
 
 De bovenstaande grafiek toont een spanningsmeting van een bodemvochtigheidssensor, en door deze te volgen naar de lijn op de grafiek, kan de daadwerkelijke bodemvochtigheid worden berekend.
 

@@ -79,7 +79,7 @@ Mikropengawal (juga dirujuk sebagai MCU, singkatan untuk unit mikropengawal) ada
 
 Mikropengawal biasanya adalah peranti pengkomputeran kos rendah, dengan harga purata untuk yang digunakan dalam perkakasan khusus menurun kepada sekitar AS$0.50, dan beberapa peranti serendah AS$0.03. Kit pembangun boleh bermula serendah AS$4, dengan kos meningkat apabila anda menambah lebih banyak ciri. [Wio Terminal](https://www.seeedstudio.com/Wio-Terminal-p-4509.html), sebuah kit pembangun mikropengawal dari [Seeed studios](https://www.seeedstudio.com) yang mempunyai sensor, aktuator, WiFi dan skrin berharga sekitar AS$30.
 
-![Wio Terminal](../../../../../translated_images/wio-terminal.b8299ee16587db9aa9e05fabf9721bccd9eb8fb541b7c1a8267241282d81b603.ms.png)
+![Wio Terminal](../../../../../translated_images/wio-terminal.b8299ee16587db9a.ms.png)
 
 > 💁 Apabila mencari mikropengawal di Internet, berhati-hati mencari istilah **MCU** kerana ini akan membawa banyak hasil untuk Marvel Cinematic Universe, bukan mikropengawal.
 
@@ -93,7 +93,7 @@ Kit pembangun mikropengawal biasanya dilengkapi dengan sensor dan aktuator tamba
 
 Komputer papan tunggal adalah peranti pengkomputeran kecil yang mempunyai semua elemen komputer lengkap yang terkandung pada satu papan kecil. Ini adalah peranti yang mempunyai spesifikasi hampir dengan PC atau Mac desktop atau komputer riba, menjalankan sistem pengendalian penuh, tetapi kecil, menggunakan kuasa yang lebih rendah, dan jauh lebih murah.
 
-![Raspberry Pi 4](../../../../../translated_images/raspberry-pi-4.fd4590d308c3d456db1327e86b395ddcd735513267aafd4879ea2785f7792eac.ms.jpg)
+![Raspberry Pi 4](../../../../../translated_images/raspberry-pi-4.fd4590d308c3d456.ms.jpg)
 
 Raspberry Pi adalah salah satu komputer papan tunggal yang paling popular.
 

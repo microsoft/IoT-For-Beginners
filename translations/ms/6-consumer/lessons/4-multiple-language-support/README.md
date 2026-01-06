@@ -130,7 +130,7 @@ Untuk pelajaran ini, anda memerlukan sumber Penterjemah. Anda akan menggunakan A
 
 Dalam dunia yang ideal, keseluruhan aplikasi anda sepatutnya memahami sebanyak mungkin bahasa yang berbeza, dari mendengar ucapan, kepada memahami bahasa, kepada memberi respons dengan ucapan. Ini adalah banyak kerja, jadi perkhidmatan terjemahan boleh mempercepatkan masa penghantaran aplikasi anda.
 
-![Seni bina pemasa pintar menterjemah Bahasa Jepun ke Bahasa Inggeris, memproses dalam Bahasa Inggeris kemudian menterjemah kembali ke Bahasa Jepun](../../../../../translated_images/translated-smart-timer.08ac20057fdc5c3778ed41cb425dca5d7fbcd4584b6da7b73ca67115a5b8a883.ms.png)
+![Seni bina pemasa pintar menterjemah Bahasa Jepun ke Bahasa Inggeris, memproses dalam Bahasa Inggeris kemudian menterjemah kembali ke Bahasa Jepun](../../../../../translated_images/translated-smart-timer.08ac20057fdc5c37.ms.png)
 
 Bayangkan anda sedang membina pemasa pintar yang menggunakan Bahasa Inggeris sepenuhnya, memahami ucapan Bahasa Inggeris dan menukarnya kepada teks, menjalankan pemahaman bahasa dalam Bahasa Inggeris, membina respons dalam Bahasa Inggeris dan membalas dengan ucapan Bahasa Inggeris. Jika anda ingin menambah sokongan untuk Bahasa Jepun, anda boleh bermula dengan menterjemah ucapan Bahasa Jepun kepada teks Bahasa Inggeris, kemudian mengekalkan teras aplikasi yang sama, kemudian menterjemah teks respons kepada Bahasa Jepun sebelum menyampaikan respons. Ini akan membolehkan anda menambah sokongan Bahasa Jepun dengan cepat, dan anda boleh berkembang untuk menyediakan sokongan penuh Bahasa Jepun sepenuhnya kemudian.
 

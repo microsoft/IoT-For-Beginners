@@ -154,11 +154,11 @@ Cipta aplikasi Python untuk mencetak `"Hello World"` ke konsol.
 
 1. Apabila VS Code dilancarkan, ia akan mengaktifkan persekitaran maya Python. Persekitaran maya yang dipilih akan muncul di bar status bawah:
 
-    ![VS Code menunjukkan persekitaran maya yang dipilih](../../../../../translated_images/vscode-virtual-env.8ba42e04c3d533cf677e16cbe5ed9a3b80f62c6964472dc84b6f940800f0909f.ms.png)
+    ![VS Code menunjukkan persekitaran maya yang dipilih](../../../../../translated_images/vscode-virtual-env.8ba42e04c3d533cf.ms.png)
 
 1. Jika Terminal VS Code sudah berjalan semasa VS Code dimulakan, ia tidak akan mempunyai persekitaran maya yang diaktifkan di dalamnya. Cara paling mudah ialah mematikan terminal menggunakan butang **Kill the active terminal instance**:
 
-    ![Butang VS Code Kill the active terminal instance](../../../../../translated_images/vscode-kill-terminal.1cc4de7c6f25ee08f423f0ead714e61d069fac1eb2089e97b8a7bbcb3d45fe5e.ms.png)
+    ![Butang VS Code Kill the active terminal instance](../../../../../translated_images/vscode-kill-terminal.1cc4de7c6f25ee08.ms.png)
 
     Anda boleh mengetahui jika terminal mempunyai persekitaran maya yang diaktifkan kerana nama persekitaran maya akan menjadi awalan pada prompt terminal. Sebagai contoh, ia mungkin:
 
@@ -229,7 +229,7 @@ Sebagai langkah kedua 'Hello World', anda akan menjalankan aplikasi CounterFit d
 
 1. Anda perlu melancarkan terminal VS Code baru dengan memilih butang **Create a new integrated terminal**. Ini kerana aplikasi CounterFit sedang berjalan dalam terminal semasa.
 
-    ![Butang VS Code Create a new integrated terminal](../../../../../translated_images/vscode-new-terminal.77db8fc0f9cd31824b0e49a201beafe4ae4616d6c7339992cb2819e789b3eff9.ms.png)
+    ![Butang VS Code Create a new integrated terminal](../../../../../translated_images/vscode-new-terminal.77db8fc0f9cd3182.ms.png)
 
 1. Dalam terminal baru ini, jalankan fail `app.py` seperti sebelumnya. Status CounterFit akan berubah kepada **Connected** dan LED akan menyala.
 

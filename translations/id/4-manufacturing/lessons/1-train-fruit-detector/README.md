@@ -61,7 +61,7 @@ Evolusi terbaru dari mesin penyortir ini memanfaatkan AI dan ML, menggunakan mod
 
 Pemrograman tradisional adalah ketika Anda mengambil data, menerapkan algoritma ke data, dan mendapatkan output. Misalnya, dalam proyek terakhir Anda mengambil koordinat GPS dan geofence, menerapkan algoritma yang disediakan oleh Azure Maps, dan mendapatkan hasil apakah titik tersebut berada di dalam atau di luar geofence. Anda memasukkan lebih banyak data, Anda mendapatkan lebih banyak output.
 
-![Pengembangan tradisional mengambil input dan algoritma dan memberikan output. Pembelajaran mesin menggunakan data input dan output untuk melatih model, dan model ini dapat mengambil data input baru untuk menghasilkan output baru](../../../../../translated_images/traditional-vs-ml.5c20c169621fa539ca84a2cd9a49f6ff7410b3a6c6b46c97ff2af3f99db3c66b.id.png)
+![Pengembangan tradisional mengambil input dan algoritma dan memberikan output. Pembelajaran mesin menggunakan data input dan output untuk melatih model, dan model ini dapat mengambil data input baru untuk menghasilkan output baru](../../../../../translated_images/traditional-vs-ml.5c20c169621fa539.id.png)
 
 Pembelajaran mesin membalikkan proses ini - Anda memulai dengan data dan output yang diketahui, dan algoritma pembelajaran mesin belajar dari data tersebut. Anda kemudian dapat mengambil algoritma yang telah dilatih, yang disebut *model pembelajaran mesin* atau *model*, dan memasukkan data baru untuk mendapatkan output baru.
 
@@ -87,7 +87,7 @@ Untuk melatih pengklasifikasi gambar dengan sukses, Anda membutuhkan jutaan gamb
 
 Setelah pengklasifikasi gambar dilatih untuk berbagai macam gambar, bagian internalnya sangat baik dalam mengenali bentuk, warna, dan pola. Transfer learning memungkinkan model untuk menggunakan apa yang telah dipelajari dalam mengenali bagian gambar, dan menggunakannya untuk mengenali gambar baru.
 
-![Setelah Anda dapat mengenali bentuk, bentuk tersebut dapat disusun dalam konfigurasi berbeda untuk membuat perahu atau kucing](../../../../../translated_images/shapes-to-images.1a309f0ea88dd66fafa4da6d38e88806ce174cc6a88081efb32852230ed55de8.id.png)
+![Setelah Anda dapat mengenali bentuk, bentuk tersebut dapat disusun dalam konfigurasi berbeda untuk membuat perahu atau kucing](../../../../../translated_images/shapes-to-images.1a309f0ea88dd66f.id.png)
 
 Anda dapat menganggap ini seperti buku bentuk anak-anak, di mana setelah Anda dapat mengenali setengah lingkaran, persegi panjang, dan segitiga, Anda dapat mengenali perahu layar atau kucing tergantung pada konfigurasi bentuk-bentuk tersebut. Pengklasifikasi gambar dapat mengenali bentuk-bentuk tersebut, dan transfer learning mengajarkannya kombinasi apa yang membuat perahu atau kucing - atau pisang matang.
 

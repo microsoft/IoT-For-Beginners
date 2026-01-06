@@ -33,11 +33,11 @@ Verbind de bodemvochtsensor.
 
 1. Terwijl de Wio Terminal niet is aangesloten op je computer of een andere stroombron, verbind je het andere uiteinde van de Grove-kabel met de rechter Grove-aansluiting op de Wio Terminal, zoals je naar het scherm kijkt. Dit is de aansluiting die het verst van de aan/uit-knop verwijderd is.
 
-![De Grove bodemvochtsensor aangesloten op de rechteraansluiting](../../../../../translated_images/wio-soil-moisture-sensor.46919b61c3f6cb7497662251b29038ee0e57a4c8b9d071feb996c3b0d7f65aaf.nl.png)
+![De Grove bodemvochtsensor aangesloten op de rechteraansluiting](../../../../../translated_images/wio-soil-moisture-sensor.46919b61c3f6cb74.nl.png)
 
 1. Steek de bodemvochtsensor in de grond. De sensor heeft een 'hoogste positie lijn' - een witte lijn over de sensor. Steek de sensor in de grond tot aan, maar niet voorbij deze lijn.
 
-![De Grove bodemvochtsensor in de grond](../../../../../translated_images/soil-moisture-sensor-in-soil.bfad91002bda5e960f8c51ee64b02ee59b32c8c717e3515a2c945f33e614e403.nl.png)
+![De Grove bodemvochtsensor in de grond](../../../../../translated_images/soil-moisture-sensor-in-soil.bfad91002bda5e96.nl.png)
 
 1. Je kunt nu de Wio Terminal aansluiten op je computer.
 

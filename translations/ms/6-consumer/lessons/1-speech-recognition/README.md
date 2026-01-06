@@ -64,7 +64,7 @@ Mikrofon datang dalam pelbagai jenis:
 
 * Reben - Mikrofon reben serupa dengan mikrofon dinamik, kecuali ia mempunyai reben logam dan bukannya diafragma. Reben ini bergerak dalam medan magnet menghasilkan arus elektrik. Seperti mikrofon dinamik, mikrofon reben tidak memerlukan kuasa untuk berfungsi.
 
-    ![Edmund Lowe, pelakon Amerika, berdiri di mikrofon radio (berlabel untuk (NBC) Blue Network), memegang skrip, 1942](../../../../../translated_images/ribbon-mic.eacc8e092c7441caee6d7a81e2f40e1675bf36269848964c7c09c9a9acb05127.ms.jpg)
+    ![Edmund Lowe, pelakon Amerika, berdiri di mikrofon radio (berlabel untuk (NBC) Blue Network), memegang skrip, 1942](../../../../../translated_images/ribbon-mic.eacc8e092c7441ca.ms.jpg)
 
 * Kondensor - Mikrofon kondensor mempunyai diafragma logam nipis dan plat belakang logam tetap. Elektrik digunakan pada kedua-duanya dan apabila diafragma bergetar, cas statik antara plat berubah menghasilkan isyarat. Mikrofon kondensor memerlukan kuasa untuk berfungsi - dipanggil *Phantom power*.
 
@@ -84,7 +84,7 @@ Audio adalah isyarat analog yang membawa maklumat yang sangat terperinci. Untuk 
 
 > 🎓 Pensampelan adalah menukar isyarat audio kepada nilai digital yang mewakili isyarat pada masa itu.
 
-![Carta garis menunjukkan isyarat, dengan titik diskret pada selang tetap](../../../../../translated_images/sampling.6f4fadb3f2d9dfe7618f9edfe75a350e6b3f74293ec84f02ab69c19d2afe3d73.ms.png)
+![Carta garis menunjukkan isyarat, dengan titik diskret pada selang tetap](../../../../../translated_images/sampling.6f4fadb3f2d9dfe7.ms.png)
 
 Audio digital disampel menggunakan Modulasi Kod Nadi, atau PCM. PCM melibatkan membaca voltan isyarat, dan memilih nilai diskret yang paling hampir dengan voltan itu menggunakan saiz yang ditentukan.
 

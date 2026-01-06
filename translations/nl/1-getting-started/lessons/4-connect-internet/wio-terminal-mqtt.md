@@ -64,7 +64,7 @@ Verbind de Wio Terminal met WiFi.
 
 1. Maak een nieuw bestand in de `src`-map genaamd `config.h`. Je kunt dit doen door de `src`-map of het `main.cpp`-bestand erin te selecteren en op de knop **Nieuw bestand** te klikken in de verkenner. Deze knop verschijnt alleen wanneer je cursor boven de verkenner zweeft.
 
-    ![De knop nieuw bestand](../../../../../translated_images/vscode-new-file-button.182702340fe6723c8cbb4cfa1a9a9fb0d0a5227643b4e46b91ff67b07a39a92f.nl.png)
+    ![De knop nieuw bestand](../../../../../translated_images/vscode-new-file-button.182702340fe6723c.nl.png)
 
 1. Voeg de volgende code toe aan dit bestand om constanten te definiëren voor je WiFi-inloggegevens:
 

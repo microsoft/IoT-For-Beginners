@@ -37,7 +37,7 @@ Hubungkan sensor kelembapan tanah.
 
 1. Masukkan sensor kelembapan tanah ke dalam tanah. Sensor memiliki 'garis posisi tertinggi' - garis putih melintang pada sensor. Masukkan sensor hingga garis ini, tetapi jangan melebihi garis tersebut.
 
-![Sensor kelembapan tanah Grove di dalam tanah](../../../../../translated_images/soil-moisture-sensor-in-soil.bfad91002bda5e960f8c51ee64b02ee59b32c8c717e3515a2c945f33e614e403.id.png)
+![Sensor kelembapan tanah Grove di dalam tanah](../../../../../translated_images/soil-moisture-sensor-in-soil.bfad91002bda5e96.id.png)
 
 ## Program Sensor Kelembapan Tanah
 

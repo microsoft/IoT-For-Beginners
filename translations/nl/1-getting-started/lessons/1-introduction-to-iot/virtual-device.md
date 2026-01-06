@@ -154,11 +154,11 @@ Maak een Python-applicatie om `"Hello World"` naar de console te printen.
 
 1. Wanneer VS Code wordt gestart, activeert het de Python virtuele omgeving. De geselecteerde virtuele omgeving verschijnt in de onderste statusbalk:
 
-    ![VS Code toont de geselecteerde virtuele omgeving](../../../../../translated_images/vscode-virtual-env.8ba42e04c3d533cf677e16cbe5ed9a3b80f62c6964472dc84b6f940800f0909f.nl.png)
+    ![VS Code toont de geselecteerde virtuele omgeving](../../../../../translated_images/vscode-virtual-env.8ba42e04c3d533cf.nl.png)
 
 1. Als de VS Code Terminal al actief is wanneer VS Code wordt gestart, zal de virtuele omgeving niet geactiveerd zijn in de terminal. Het eenvoudigste is om de terminal te sluiten met de knop **Kill the active terminal instance**:
 
-    ![VS Code Kill the active terminal instance-knop](../../../../../translated_images/vscode-kill-terminal.1cc4de7c6f25ee08f423f0ead714e61d069fac1eb2089e97b8a7bbcb3d45fe5e.nl.png)
+    ![VS Code Kill the active terminal instance-knop](../../../../../translated_images/vscode-kill-terminal.1cc4de7c6f25ee08.nl.png)
 
     Je kunt zien of de terminal de virtuele omgeving heeft geactiveerd, omdat de naam van de virtuele omgeving een prefix is op de terminalprompt. Bijvoorbeeld, het kan zijn:
 
@@ -229,7 +229,7 @@ Als een tweede 'Hello World'-stap ga je de CounterFit-app uitvoeren en je code e
 
 1. Je moet een nieuwe VS Code-terminal starten door de knop **Create a new integrated terminal** te selecteren. Dit komt omdat de CounterFit-app draait in de huidige terminal.
 
-    ![VS Code Create a new integrated terminal-knop](../../../../../translated_images/vscode-new-terminal.77db8fc0f9cd31824b0e49a201beafe4ae4616d6c7339992cb2819e789b3eff9.nl.png)
+    ![VS Code Create a new integrated terminal-knop](../../../../../translated_images/vscode-new-terminal.77db8fc0f9cd3182.nl.png)
 
 1. Voer in deze nieuwe terminal het bestand `app.py` uit zoals eerder. De status van CounterFit zal veranderen naar **Connected** en de LED zal oplichten.
 
