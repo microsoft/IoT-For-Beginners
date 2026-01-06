@@ -46,7 +46,7 @@ I denne leksjonen skal vi dekke:
 
 Det finnes flere populære kommunikasjonsprotokoller som IoT-enheter bruker for å kommunisere med Internett. De mest populære er basert på publiser/abonner-meldinger via en form for megler. IoT-enhetene kobler seg til megleren og publiserer telemetri og abonnerer på kommandoer. Sky-tjenestene kobler seg også til megleren og abonnerer på alle telemetrimeldinger og publiserer kommandoer enten til spesifikke enheter eller til grupper av enheter.
 
-![IoT-enheter kobler seg til en megler og publiserer telemetri og abonnerer på kommandoer. Sky-tjenester kobler seg til megleren og abonnerer på all telemetri og sender kommandoer til spesifikke enheter.](../../../../../translated_images/pub-sub.7c7ed43fe9fd15d4e1f81a3fd95440413c457acd9bcbe9a43341e30e88db5264.no.png)
+![IoT-enheter kobler seg til en megler og publiserer telemetri og abonnerer på kommandoer. Sky-tjenester kobler seg til megleren og abonnerer på all telemetri og sender kommandoer til spesifikke enheter.](../../../../../translated_images/pub-sub.7c7ed43fe9fd15d4.no.png)
 
 MQTT er den mest populære kommunikasjonsprotokollen for IoT-enheter og dekkes i denne leksjonen. Andre protokoller inkluderer AMQP og HTTP/HTTPS.
 
@@ -115,7 +115,7 @@ Ordet telemetri er avledet fra greske røtter som betyr å måle eksternt. Telem
 
 La oss se tilbake på eksempelet med den smarte termostaten fra Leksjon 1.
 
-![En Internett-tilkoblet termostat som bruker flere romsensorer](../../../../../translated_images/telemetry.21e5d8b97649d2ebeb0f68d4b9691ab2d1f7bd629338e131465aff8a614e4d4a.no.png)
+![En Internett-tilkoblet termostat som bruker flere romsensorer](../../../../../translated_images/telemetry.21e5d8b97649d2eb.no.png)
 
 Termostaten har temperatursensorer for å samle telemetri. Den vil mest sannsynlig ha én innebygd temperatursensor, og den kan koble seg til flere eksterne temperatursensorer via en trådløs protokoll som [Bluetooth Low Energy](https://wikipedia.org/wiki/Bluetooth_Low_Energy) (BLE).
 
@@ -267,11 +267,11 @@ Skriv serverkoden.
 
 1. Når VS Code starter, vil det aktivere det virtuelle Python-miljøet. Dette vil bli rapportert i den nederste statuslinjen:
 
-    ![VS Code viser det valgte virtuelle miljøet](../../../../../translated_images/vscode-virtual-env.8ba42e04c3d533cf677e16cbe5ed9a3b80f62c6964472dc84b6f940800f0909f.no.png)
+    ![VS Code viser det valgte virtuelle miljøet](../../../../../translated_images/vscode-virtual-env.8ba42e04c3d533cf.no.png)
 
 1. Hvis VS Code-terminalen allerede kjører når VS Code starter opp, vil den ikke ha det virtuelle miljøet aktivert i seg. Det enkleste er å avslutte terminalen ved å bruke **Kill the active terminal instance**-knappen:
 
-    ![VS Code Kill the active terminal instance-knapp](../../../../../translated_images/vscode-kill-terminal.1cc4de7c6f25ee08f423f0ead714e61d069fac1eb2089e97b8a7bbcb3d45fe5e.no.png)
+    ![VS Code Kill the active terminal instance-knapp](../../../../../translated_images/vscode-kill-terminal.1cc4de7c6f25ee08.no.png)
 
 1. Start en ny VS Code-terminal ved å velge *Terminal -> New Terminal*, eller ved å trykke `` CTRL+` ``. Den nye terminalen vil laste det virtuelle miljøet, med aktiveringskommandoen som vises i terminalen. Navnet på det virtuelle miljøet (`.venv`) vil også være i prompten:
 

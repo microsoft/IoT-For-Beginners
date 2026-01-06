@@ -154,11 +154,11 @@ CO_OP_TRANSLATOR_METADATA:
 
 1. Όταν το VS Code εκκινήσει, θα ενεργοποιήσει το εικονικό περιβάλλον Python. Το επιλεγμένο εικονικό περιβάλλον θα εμφανιστεί στη γραμμή κατάστασης στο κάτω μέρος:
 
-    ![Το VS Code δείχνει το επιλεγμένο εικονικό περιβάλλον](../../../../../translated_images/vscode-virtual-env.8ba42e04c3d533cf677e16cbe5ed9a3b80f62c6964472dc84b6f940800f0909f.el.png)
+    ![Το VS Code δείχνει το επιλεγμένο εικονικό περιβάλλον](../../../../../translated_images/vscode-virtual-env.8ba42e04c3d533cf.el.png)
 
 1. Αν το τερματικό του VS Code είναι ήδη ανοιχτό όταν ξεκινά το VS Code, δεν θα έχει ενεργοποιηθεί το εικονικό περιβάλλον σε αυτό. Το πιο εύκολο πράγμα που μπορείτε να κάνετε είναι να τερματίσετε το τερματικό χρησιμοποιώντας το κουμπί **Kill the active terminal instance**:
 
-    ![Κουμπί Kill the active terminal instance στο VS Code](../../../../../translated_images/vscode-kill-terminal.1cc4de7c6f25ee08f423f0ead714e61d069fac1eb2089e97b8a7bbcb3d45fe5e.el.png)
+    ![Κουμπί Kill the active terminal instance στο VS Code](../../../../../translated_images/vscode-kill-terminal.1cc4de7c6f25ee08.el.png)
 
     Μπορείτε να καταλάβετε αν το τερματικό έχει ενεργοποιημένο το εικονικό περιβάλλον, καθώς το όνομα του εικονικού περιβάλλοντος θα είναι πρόθεμα στην προτροπή του τερματικού. Για παράδειγμα, μπορεί να είναι:
 
@@ -229,7 +229,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 1. Θα χρειαστεί να εκκινήσετε ένα νέο τερματικό στο VS Code επιλέγοντας το κουμπί **Create a new integrated terminal**. Αυτό συμβαίνει επειδή η εφαρμογή CounterFit εκτελείται στο τρέχον τερματικό.
 
-    ![Κουμπί Create a new integrated terminal στο VS Code](../../../../../translated_images/vscode-new-terminal.77db8fc0f9cd31824b0e49a201beafe4ae4616d6c7339992cb2819e789b3eff9.el.png)
+    ![Κουμπί Create a new integrated terminal στο VS Code](../../../../../translated_images/vscode-new-terminal.77db8fc0f9cd3182.el.png)
 
 1. Στο νέο αυτό τερματικό, εκτελέστε το αρχείο `app.py` όπως πριν. Η κατάσταση του CounterFit θα αλλάξει σε **Connected** και το LED θα ανάψει.
 

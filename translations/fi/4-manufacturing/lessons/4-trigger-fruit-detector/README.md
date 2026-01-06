@@ -115,7 +115,7 @@ Prototyypissä toteutat kaiken yhdellä laitteella. Jos käytät mikro-ohjainta,
 
 IoT-laitteessa tarvitaan jonkinlainen laukaisin, joka ilmoittaa, milloin hedelmä on valmis luokiteltavaksi. Yksi laukaisin voisi olla hedelmän sijainnin mittaaminen kuljetinhihnalla etäisyyden perusteella.
 
-![Läheisyysanturit lähettävät laser- tai infrapunasäteitä kohteisiin, kuten banaaneihin, ja mittaavat ajan, joka kuluu säteen heijastumiseen takaisin](../../../../../translated_images/proximity-sensor.f5cd752c77fb62fea000156233b32fd24fad3707ec69b8bdd8d312b7af85156d.fi.png)
+![Läheisyysanturit lähettävät laser- tai infrapunasäteitä kohteisiin, kuten banaaneihin, ja mittaavat ajan, joka kuluu säteen heijastumiseen takaisin](../../../../../translated_images/proximity-sensor.f5cd752c77fb62fe.fi.png)
 
 Läheisyysantureita voidaan käyttää mittaamaan etäisyyttä anturin ja kohteen välillä. Ne lähettävät yleensä sähkömagneettista säteilyä, kuten laser- tai infrapunasäteitä, ja havaitsevat säteilyn heijastumisen kohteesta. Aika, joka kuluu säteen lähettämisestä signaalin heijastumiseen, voidaan käyttää etäisyyden laskemiseen.
 

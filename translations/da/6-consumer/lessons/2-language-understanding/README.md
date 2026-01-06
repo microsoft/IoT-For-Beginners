@@ -126,7 +126,7 @@ Når entiteterne er defineret, opretter du intentioner. Disse læres af modellen
 
 Du fortæller derefter LUIS, hvilke dele af disse sætninger der svarer til entiteterne:
 
-![Sætningen sæt en timer for 1 minut og 12 sekunder opdelt i entiteter](../../../../../translated_images/sentence-as-intent-entities.301401696f9922590a99343f5c5d211b710b906f212f0d4d034cee3ffb610272.da.png)
+![Sætningen sæt en timer for 1 minut og 12 sekunder opdelt i entiteter](../../../../../translated_images/sentence-as-intent-entities.301401696f992259.da.png)
 
 Sætningen `sæt en timer for 1 minut og 12 sekunder` har intentionen `sæt timer`. Den har også 2 entiteter med 2 værdier hver:
 

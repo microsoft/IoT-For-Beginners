@@ -13,7 +13,7 @@ Ennusteiden ja niiden rajauslaatikoiden yhdistelmää voidaan käyttää varasto
 
 ## Laske varasto
 
-![4 tomaattipyreepurkkia, joiden ympärillä rajauslaatikot](../../../../../translated_images/rpi-stock-with-bounding-boxes.b5540e2ecb7cd49f1271828d3be412671d950e87625c5597ea97c90f11e01097.fi.jpg)
+![4 tomaattipyreepurkkia, joiden ympärillä rajauslaatikot](../../../../../translated_images/rpi-stock-with-bounding-boxes.b5540e2ecb7cd49f.fi.jpg)
 
 Yllä olevassa kuvassa rajauslaatikot ovat hieman päällekkäin. Jos tämä päällekkäisyys olisi paljon suurempi, rajauslaatikot saattaisivat viitata samaan objektiin. Jotta objektit lasketaan oikein, sinun täytyy jättää huomiotta laatikot, joilla on merkittävä päällekkäisyys.
 

@@ -33,7 +33,7 @@ Koble til temperatursensoren.
 
 1. Med Wio Terminal frakoblet fra datamaskinen eller annen strømkilde, koble den andre enden av Grove-kabelen til den høyre Grove-kontakten på Wio Terminal når du ser på skjermen. Dette er kontakten som er lengst unna strømknappen.
 
-![Grove-temperatursensoren koblet til den høyre kontakten](../../../../../translated_images/wio-temperature-sensor.2934928f38c7f79a68d24879d2c8986c78244696f931e2e33c293f426ecdc0ad.no.png)
+![Grove-temperatursensoren koblet til den høyre kontakten](../../../../../translated_images/wio-temperature-sensor.2934928f38c7f79a.no.png)
 
 ## Programmer temperatursensoren
 

@@ -46,7 +46,7 @@ Tässä oppitunnissa käsitellään:
 
 IoT-laitteiden ja Internetin väliseen viestintään on useita suosittuja protokollia. Suosituimmat perustuvat julkaisu/tilaus-malliin jonkinlaisen välittäjän kautta. IoT-laitteet yhdistyvät välittäjään ja julkaisevat telemetriaa sekä tilaavat komentoja. Pilvipalvelut yhdistyvät myös välittäjään, tilaavat kaikki telemetriaviestit ja julkaisevat komentoja joko tiettyihin laitteisiin tai laitejoukkoihin.
 
-![IoT-laitteet yhdistyvät välittäjään, julkaisevat telemetriaa ja tilaavat komentoja. Pilvipalvelut yhdistyvät välittäjään, tilaavat kaikki telemetriat ja lähettävät komentoja tiettyihin laitteisiin.](../../../../../translated_images/pub-sub.7c7ed43fe9fd15d4e1f81a3fd95440413c457acd9bcbe9a43341e30e88db5264.fi.png)
+![IoT-laitteet yhdistyvät välittäjään, julkaisevat telemetriaa ja tilaavat komentoja. Pilvipalvelut yhdistyvät välittäjään, tilaavat kaikki telemetriat ja lähettävät komentoja tiettyihin laitteisiin.](../../../../../translated_images/pub-sub.7c7ed43fe9fd15d4.fi.png)
 
 MQTT on suosituin viestintäprotokolla IoT-laitteille, ja se käsitellään tässä oppitunnissa. Muita protokollia ovat AMQP ja HTTP/HTTPS.
 
@@ -115,7 +115,7 @@ Sana telemetria tulee kreikan juurista, jotka tarkoittavat etämittausta. Teleme
 
 Palataanpa esimerkkiin älytermostaatista oppitunnista 1.
 
-![Internet-yhteydellä varustettu termostaatti, joka käyttää useita huoneantureita](../../../../../translated_images/telemetry.21e5d8b97649d2ebeb0f68d4b9691ab2d1f7bd629338e131465aff8a614e4d4a.fi.png)
+![Internet-yhteydellä varustettu termostaatti, joka käyttää useita huoneantureita](../../../../../translated_images/telemetry.21e5d8b97649d2eb.fi.png)
 
 Termostaatilla on lämpötila-anturit telemetrian keräämiseen. Sillä olisi todennäköisesti yksi sisäänrakennettu lämpötila-anturi, ja se saattaisi yhdistyä useisiin ulkoisiin lämpötila-antureihin langattoman protokollan, kuten [Bluetooth Low Energy](https://wikipedia.org/wiki/Bluetooth_Low_Energy) (BLE), kautta.
 
@@ -267,11 +267,11 @@ Kirjoita palvelinkoodi.
 
 1. Kun VS Code käynnistyy, se aktivoi Python-virtuaaliympäristön. Tämä näkyy alareunan tilapalkissa:
 
-    ![VS Code näyttää valitun virtuaaliympäristön](../../../../../translated_images/vscode-virtual-env.8ba42e04c3d533cf677e16cbe5ed9a3b80f62c6964472dc84b6f940800f0909f.fi.png)
+    ![VS Code näyttää valitun virtuaaliympäristön](../../../../../translated_images/vscode-virtual-env.8ba42e04c3d533cf.fi.png)
 
 1. Jos VS Code -terminaali on jo käynnissä, kun VS Code käynnistyy, virtuaaliympäristö ei ole aktivoituna siinä. Helpoin tapa korjata tämä on sulkea terminaali käyttämällä **Sulje aktiivinen terminaali**-painiketta:
 
-    ![VS Code Sulje aktiivinen terminaali -painike](../../../../../translated_images/vscode-kill-terminal.1cc4de7c6f25ee08f423f0ead714e61d069fac1eb2089e97b8a7bbcb3d45fe5e.fi.png)
+    ![VS Code Sulje aktiivinen terminaali -painike](../../../../../translated_images/vscode-kill-terminal.1cc4de7c6f25ee08.fi.png)
 
 1. Käynnistä uusi VS Code -terminaali valitsemalla *Terminal -> New Terminal* tai painamalla `` CTRL+` ``. Uusi terminaali lataa virtuaaliympäristön, ja aktivointikutsu näkyy terminaalissa. Virtuaaliympäristön nimi (`.venv`) näkyy myös kehotteessa:
 

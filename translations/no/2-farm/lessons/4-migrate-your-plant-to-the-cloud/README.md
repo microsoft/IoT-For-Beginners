@@ -72,7 +72,7 @@ Skyleverandøren kan deretter bruke stordriftsfordeler for å redusere kostnaden
 
 Azure er utviklerskyen fra Microsoft, og det er denne skyen du vil bruke i disse leksjonene. Videoen nedenfor gir en kort oversikt over Azure:
 
-[![Oversikt over Azure-video](../../../../../translated_images/what-is-azure-video-thumbnail.20174db09e03bbb87d213f928d3cb27410305d2e567e952827de8478dbda959b.no.png)](https://www.microsoft.com/videoplayer/embed/RE4Ibng?WT.mc_id=academic-17441-jabenn)
+[![Oversikt over Azure-video](../../../../../translated_images/what-is-azure-video-thumbnail.20174db09e03bbb8.no.png)](https://www.microsoft.com/videoplayer/embed/RE4Ibng?WT.mc_id=academic-17441-jabenn)
 
 ## Opprett et skyabonnement
 

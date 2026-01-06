@@ -33,7 +33,7 @@ Koble til reléet.
 
 1. Med Wio Terminal frakoblet fra datamaskinen eller annen strømkilde, koble den andre enden av Grove-kabelen til venstre Grove-kontakt på Wio Terminal når du ser på skjermen. La jordfuktighetssensoren være koblet til den høyre kontakten.
 
-![Grove-reléet koblet til venstre kontakt, og jordfuktighetssensoren koblet til høyre kontakt](../../../../../translated_images/wio-relay-and-soil-moisture-sensor.ed722202d42babe0be5f4518cf13e8c2c81e8df21d37839266cbdb60cf30172d.no.png)
+![Grove-reléet koblet til venstre kontakt, og jordfuktighetssensoren koblet til høyre kontakt](../../../../../translated_images/wio-relay-and-soil-moisture-sensor.ed722202d42babe0.no.png)
 
 1. Sett jordfuktighetssensoren i jorden, hvis den ikke allerede er satt inn fra forrige leksjon.
 

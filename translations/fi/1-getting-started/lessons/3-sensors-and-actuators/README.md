@@ -75,7 +75,7 @@ Yksinkertaisimmat anturit ovat analogisia antureita. Nämä anturit vastaanottav
 
 Yksi esimerkki on potentiometri. Tämä on säädin, jota voi kiertää kahden asennon välillä, ja anturi mittaa kiertokulman.
 
-![Potentiometri asetettuna keskiasentoon, vastaanottaa 5 volttia ja palauttaa 3,8 volttia](../../../../../translated_images/potentiometer.35a348b9ce22f6ec1199ad37d68692d04185456ccbc2541a454bb6698be9f19c.fi.png)
+![Potentiometri asetettuna keskiasentoon, vastaanottaa 5 volttia ja palauttaa 3,8 volttia](../../../../../translated_images/potentiometer.35a348b9ce22f6ec.fi.png)
 
 IoT-laite lähettää sähköisen signaalin potentiometrille tietyllä jännitteellä, kuten 5 volttia (5V). Kun potentiometriä säädetään, se muuttaa ulostulevaa jännitettä. Kuvittele, että sinulla on potentiometri, joka on merkitty asteikolla 0–[11](https://wikipedia.org/wiki/Up_to_eleven), kuten vahvistimen äänenvoimakkuuden säädin. Kun potentiometri on täysin pois päältä (0), ulos tulee 0V (0 volttia). Kun se on täysin päällä (11), ulos tulee 5V (5 volttia).
 
@@ -112,7 +112,7 @@ IoT-laitteiden pinnit, kuten GPIO-pinnit, voivat mitata tämän signaalin suoraa
 
 Kehittyneemmät digitaaliset anturit lukevat analogisia arvoja ja muuntavat ne sisäänrakennetuilla ADC:illä digitaalisiksi signaaleiksi. Esimerkiksi digitaalinen lämpötila-anturi käyttää edelleen termoelementtiä samalla tavalla kuin analoginen anturi ja mittaa edelleen jännitteen muutosta, joka johtuu termoelementin vastuksesta nykyisessä lämpötilassa. Sen sijaan, että se palauttaisi analogisen arvon ja luottaisi laitteen tai liitäntälevyn muuntavan sen digitaaliseksi signaaliksi, anturiin sisäänrakennettu ADC muuntaa arvon ja lähettää sen sarjana 0:ia ja 1:iä IoT-laitteelle. Nämä 0:t ja 1:t lähetetään samalla tavalla kuin painikkeen digitaalinen signaali, jossa 1 on täysi jännite ja 0 on 0V.
 
-![Digitaalinen lämpötila-anturi muuntaa analogisen lukeman binääridataksi, jossa 0 on 0 volttia ja 1 on 5 volttia ennen sen lähettämistä IoT-laitteelle](../../../../../translated_images/temperature-as-digital.85004491b977bae1129707df107c0b19fe6fc6374210e9027e04acb34a640c78.fi.png)
+![Digitaalinen lämpötila-anturi muuntaa analogisen lukeman binääridataksi, jossa 0 on 0 volttia ja 1 on 5 volttia ennen sen lähettämistä IoT-laitteelle](../../../../../translated_images/temperature-as-digital.85004491b977bae1.fi.png)
 
 Digitaalisen datan lähettäminen mahdollistaa antureiden monimutkaistumisen ja yksityiskohtaisemman datan lähettämisen, jopa salatun datan turvallisille antureille. Yksi esimerkki on kamera. Tämä on anturi, joka tallentaa kuvan ja lähettää sen digitaalisena datana, joka sisältää kuvan, yleensä pakatussa muodossa, kuten JPEG, IoT-laitteen luettavaksi. Se voi jopa suoratoistaa videota tallentamalla kuvia ja lähettämällä joko täydellisen kuvan kehys kerrallaan tai pakatun videovirran.
 
@@ -164,7 +164,7 @@ Esimerkiksi PWM:ää voidaan käyttää moottorin nopeuden säätämiseen.
 
 Kuvittele, että ohjaat moottoria 5V:n virtalähteellä. Lähetät lyhyen pulssin moottorillesi, jolloin jännite nousee korkeaksi (5V) kahden sadasosan sekunnin ajaksi (0,02s). Tänä aikana moottori voi pyöriä yhden kymmenesosan kierroksesta eli 36°. Signaali sitten taukoaa kahden sadasosan sekunnin ajaksi (0,02s), jolloin lähetetään matala signaali (0V). Jokainen sykli, jossa jännite on ensin päällä ja sitten pois, kestää 0,04s. Sykli toistuu.
 
-![Pulssinleveysmodulaatio moottorin pyörimisessä 150 RPM](../../../../../translated_images/pwm-motor-150rpm.83347ac04ca38482bd120939b133803963c9c15ca9d8d484712a4bd92820f6a4.fi.png)
+![Pulssinleveysmodulaatio moottorin pyörimisessä 150 RPM](../../../../../translated_images/pwm-motor-150rpm.83347ac04ca38482.fi.png)
 
 Tämä tarkoittaa, että yhdessä sekunnissa lähetetään 25 5V:n pulssia, jotka kestävät 0,02s ja pyörittävät moottoria, ja jokaisen pulssin jälkeen on 0,02s tauko, jolloin moottori ei pyöri. Jokainen pulssi pyörittää moottoria yhden kymmenesosan kierroksesta, mikä tarkoittaa, että moottori tekee 2,5 kierrosta sekunnissa. Olet käyttänyt digitaalista signaalia pyörittämään moottoria 2,5 kierrosta sekunnissa eli 150 [kierrosta minuutissa](https://wikipedia.org/wiki/Revolutions_per_minute) (RPM, epästandardi pyörimisnopeuden mitta).
 
@@ -175,7 +175,7 @@ Tämä tarkoittaa, että yhdessä sekunnissa lähetetään 25 5V:n pulssia, jotk
 
 > 🎓 Kun PWM-signaali on päällä puolet ajasta ja pois päältä puolet ajasta, sitä kutsutaan [50% työsykliksi](https://wikipedia.org/wiki/Duty_cycle). Työsyklit mitataan prosenttiosuutena ajasta, jolloin signaali on päällä verrattuna aikaan, jolloin se on pois päältä.
 
-![Pulssinleveysmodulaatio moottorin pyörimisessä 75 RPM](../../../../../translated_images/pwm-motor-75rpm.a5e4c939934b6e14fd9e98e4f2c9539d723da2b18f490eae0948dd044d18ff7e.fi.png)
+![Pulssinleveysmodulaatio moottorin pyörimisessä 75 RPM](../../../../../translated_images/pwm-motor-75rpm.a5e4c939934b6e14.fi.png)
 
 Voit muuttaa moottorin nopeutta muuttamalla pulssien kokoa. Esimerkiksi saman moottorin kanssa voit pitää syklin ajan samana, 0,04s, mutta puolittaa päällä olevan pulssin ajan 0,01s:iin ja lisätä pois päältä olevan pulssin ajan 0,03s:iin. Pulssien määrä sekunnissa pysyy samana (25), mutta jokainen päällä oleva pulssi on puolet lyhyempi. Puolikas pulssi pyörittää moottoria vain yhden kahdeskymmenesosan kierroksesta, ja 25 pulssilla sekunnissa moottori tekee 1,25 kierrosta sekunnissa eli 75 RPM. Muuttamalla digitaalisen signaalin pulssin nopeutta olet puolittanut analogisen moottorin nopeuden.
 

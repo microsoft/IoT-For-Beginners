@@ -130,7 +130,7 @@ Tätä oppituntia varten tarvitset kääntäjäresurssin. Käytät REST-rajapint
 
 Ihannetapauksessa koko sovelluksesi ymmärtäisi mahdollisimman monta eri kieltä, puheen kuuntelusta kielen ymmärtämiseen ja vastauksen antamiseen puheena. Tämä on kuitenkin paljon työtä, joten käännöspalvelut voivat nopeuttaa sovelluksen toimitusaikaa.
 
-![Älykkään ajastimen arkkitehtuuri, joka kääntää japanin englanniksi, käsittelee englanniksi ja kääntää takaisin japaniksi](../../../../../translated_images/translated-smart-timer.08ac20057fdc5c3778ed41cb425dca5d7fbcd4584b6da7b73ca67115a5b8a883.fi.png)
+![Älykkään ajastimen arkkitehtuuri, joka kääntää japanin englanniksi, käsittelee englanniksi ja kääntää takaisin japaniksi](../../../../../translated_images/translated-smart-timer.08ac20057fdc5c37.fi.png)
 
 Kuvittele, että rakennat älykästä ajastinta, joka käyttää englantia alusta loppuun: ymmärtää puhuttua englantia ja muuntaa sen tekstiksi, suorittaa kielen ymmärtämisen englanniksi, luo vastaukset englanniksi ja vastaa englanninkielisellä puheella. Jos haluaisit lisätä tuen japanille, voisit aloittaa kääntämällä puhutun japanin englanniksi tekstiksi, pitää sovelluksen ytimen ennallaan ja kääntää vastaustekstin japaniksi ennen kuin vastaat puheella. Tämä mahdollistaisi japanin tuen lisäämisen nopeasti, ja voit myöhemmin laajentaa täyteen japaninkieliseen tukeen.
 

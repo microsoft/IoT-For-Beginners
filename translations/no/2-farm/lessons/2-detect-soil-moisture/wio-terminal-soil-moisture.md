@@ -33,11 +33,11 @@ Koble til jordfuktighetssensoren.
 
 1. Med Wio Terminal frakoblet fra datamaskinen eller annen strømkilde, koble den andre enden av Grove-kabelen til den høyre Grove-kontakten på Wio Terminal når du ser på skjermen. Dette er kontakten lengst unna strømknappen.
 
-![Grove jordfuktighetssensor koblet til høyre kontakt](../../../../../translated_images/wio-soil-moisture-sensor.46919b61c3f6cb7497662251b29038ee0e57a4c8b9d071feb996c3b0d7f65aaf.no.png)
+![Grove jordfuktighetssensor koblet til høyre kontakt](../../../../../translated_images/wio-soil-moisture-sensor.46919b61c3f6cb74.no.png)
 
 1. Sett jordfuktighetssensoren inn i jorden. Den har en "høyeste posisjonslinje" - en hvit linje på tvers av sensoren. Sett sensoren inn opp til, men ikke forbi, denne linjen.
 
-![Grove jordfuktighetssensor i jord](../../../../../translated_images/soil-moisture-sensor-in-soil.bfad91002bda5e960f8c51ee64b02ee59b32c8c717e3515a2c945f33e614e403.no.png)
+![Grove jordfuktighetssensor i jord](../../../../../translated_images/soil-moisture-sensor-in-soil.bfad91002bda5e96.no.png)
 
 1. Du kan nå koble Wio Terminal til datamaskinen din.
 

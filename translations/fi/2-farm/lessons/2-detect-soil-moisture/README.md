@@ -37,7 +37,7 @@ UART sisältää fyysisen piirin, joka mahdollistaa kahden laitteen välisen kom
 * Laite 1 lähettää dataa Tx-pinnistään, jonka laite 2 vastaanottaa Rx-pinnillään.
 * Laite 1 vastaanottaa dataa Rx-pinnillään, jonka laite 2 lähettää Tx-pinnistään.
 
-![UART, jossa yhden sirun Tx-pinni on kytketty toisen sirun Rx-pinniin ja päinvastoin](../../../../../translated_images/uart.d0dbd3fb9e3728c6ee1995c8206f3cdb13cdfd208f13745e8ef6854cab75e421.fi.png)
+![UART, jossa yhden sirun Tx-pinni on kytketty toisen sirun Rx-pinniin ja päinvastoin](../../../../../translated_images/uart.d0dbd3fb9e3728c6.fi.png)
 
 > 🎓 Data lähetetään yksi bitti kerrallaan, ja tätä kutsutaan *sarjakommunikaatioksi*. Useimmissa käyttöjärjestelmissä ja mikrokontrollereissa on *sarjaportteja*, eli yhteyksiä, jotka voivat lähettää ja vastaanottaa sarjadataa ja jotka ovat käytettävissä koodissasi.
 
@@ -66,7 +66,7 @@ SPI-ohjaimet käyttävät 3 johtoa sekä yhtä ylimääräistä johtoa per perif
 | SCLK | Sarjakello | Tämä johto lähettää kellosignaalin ohjaimen määrittämällä nopeudella. |
 | CS   | Piirin valinta | Ohjaimella on useita johtoja, yksi per periferia, ja jokainen johto on kytketty vastaavan periferian CS-johtoon. |
 
-![SPI, jossa yksi ohjain ja kaksi periferiaa](../../../../../translated_images/spi.297431d6f98b386b4ff88aea44ce9c1e7acfb1ef69c7e4e388a7aa97b6948e24.fi.png)
+![SPI, jossa yksi ohjain ja kaksi periferiaa](../../../../../translated_images/spi.297431d6f98b386b.fi.png)
 
 CS-johtoa käytetään aktivoimaan yksi periferia kerrallaan, kommunikoimalla COPI- ja CIPO-johtojen kautta. Kun ohjaimen täytyy vaihtaa periferiaa, se deaktivoi CS-johdon, joka on kytketty aktiiviseen periferiaan, ja aktivoi johdon, joka on kytketty seuraavaan periferiaan, jonka kanssa se haluaa kommunikoida.
 
@@ -127,13 +127,13 @@ Maaperän kosteus mitataan gravimetrisellä tai volymetrisellä vesipitoisuudell
 
 Maaperän kosteusanturit mittaavat sähköistä resistanssia tai kapasitanssia - tämä ei ainoastaan vaihtele maaperän kosteuden mukaan, vaan myös maaperän tyypin mukaan, sillä maaperän komponentit voivat muuttaa sen sähköisiä ominaisuuksia. Ihanteellisesti anturit tulisi kalibroida - eli ottaa anturin lukemia ja verrata niitä tieteellisemmällä menetelmällä saatuihin mittauksiin. Esimerkiksi laboratorio voi laskea gravimetrisen maaperän kosteuden tietyn pellon näytteistä muutaman kerran vuodessa, ja näitä lukuja voidaan käyttää anturin kalibrointiin, yhdistäen anturin lukemat gravimetriseen maaperän kosteuteen.
 
-![Graafi jännitteestä vs maaperän kosteuspitoisuus](../../../../../translated_images/soil-moisture-to-voltage.df86d80cda1587008f312431ed5f79eb6c50c58d4fbc25a6763c5e9127c3106b.fi.png)
+![Graafi jännitteestä vs maaperän kosteuspitoisuus](../../../../../translated_images/soil-moisture-to-voltage.df86d80cda158700.fi.png)
 
 Yllä oleva graafi näyttää, kuinka anturi kalibroidaan. Jännite mitataan maaperänäytteestä, joka sitten analysoidaan laboratoriossa vertaamalla kosteaa painoa kuivaan painoon (mittaamalla paino kosteana, sitten kuivaamalla uunissa ja mittaamalla kuivana). Kun muutama lukema on otettu, ne voidaan piirtää graafiin ja sovittaa viiva pisteisiin. Tätä viivaa voidaan sitten käyttää muuntamaan IoT-laitteen ottamat maaperän kosteusanturin lukemat todellisiksi maaperän kosteuden mittauksiksi.
 
 💁 Resistiivisillä maaperän kosteusantureilla jännite kasvaa maaperän kosteuden kasvaessa. Kapasitiivisilla maaperän kosteusantureilla jännite laskee maaperän kosteuden kasvaessa, joten näiden graafit kallistuisivat alaspäin, eivät ylöspäin.
 
-![Maaperän kosteuslukema interpoloituna graafista](../../../../../translated_images/soil-moisture-to-voltage-with-reading.681cb3e1f8b68caf5547dbf1415851c82e201edfb78face16fc98da4051ed9b2.fi.png)
+![Maaperän kosteuslukema interpoloituna graafista](../../../../../translated_images/soil-moisture-to-voltage-with-reading.681cb3e1f8b68caf.fi.png)
 
 Yllä oleva graafi näyttää maaperän kosteusanturin jännitelukeman, ja seuraamalla sitä graafin viivaan voidaan laskea todellinen maaperän kosteus.
 

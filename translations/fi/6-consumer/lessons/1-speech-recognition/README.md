@@ -64,7 +64,7 @@ Mikrofoneja on monenlaisia:
 
 * Nauhamikrofonit - Nauhamikrofonit ovat samankaltaisia kuin dynaamiset mikrofonit, mutta niissä on metallinauha kalvon sijasta. Tämä nauha liikkuu magneettikentässä ja tuottaa sähkövirran. Kuten dynaamiset mikrofonit, nauhamikrofonit eivät tarvitse virtaa toimiakseen.
 
-    ![Edmund Lowe, amerikkalainen näyttelijä, seisoo radiomikrofonin (merkitty (NBC) Blue Network) edessä, käsikirjoitus kädessään, 1942](../../../../../translated_images/ribbon-mic.eacc8e092c7441caee6d7a81e2f40e1675bf36269848964c7c09c9a9acb05127.fi.jpg)
+    ![Edmund Lowe, amerikkalainen näyttelijä, seisoo radiomikrofonin (merkitty (NBC) Blue Network) edessä, käsikirjoitus kädessään, 1942](../../../../../translated_images/ribbon-mic.eacc8e092c7441ca.fi.jpg)
 
 * Kondensaattorimikrofonit - Kondensaattorimikrofoneissa on ohut metallikalvo ja kiinteä metallinen takalevy. Molempiin johdetaan sähköä, ja kun kalvo värähtelee, staattinen varaus levyjen välillä muuttuu ja tuottaa signaalin. Kondensaattorimikrofonit tarvitsevat virtaa toimiakseen – tätä kutsutaan *phantom-virraksi*.
 
@@ -84,7 +84,7 @@ Mikrofoneja on monenlaisia:
 
 > 🎓 Näytteenotto tarkoittaa äänen signaalin muuntamista digitaaliseksi arvoksi, joka edustaa signaalia tietyllä ajanhetkellä.
 
-![Viivakaavio, joka näyttää signaalin ja kiintein välein otetut pisteet](../../../../../translated_images/sampling.6f4fadb3f2d9dfe7618f9edfe75a350e6b3f74293ec84f02ab69c19d2afe3d73.fi.png)
+![Viivakaavio, joka näyttää signaalin ja kiintein välein otetut pisteet](../../../../../translated_images/sampling.6f4fadb3f2d9dfe7.fi.png)
 
 Digitaalinen ääni näytteistetään käyttämällä pulssikoodimodulaatiota (Pulse Code Modulation, PCM). PCM:ssä signaalin jännite luetaan ja valitaan lähin diskreetti arvo tälle jännitteelle määritellyn koon perusteella.
 

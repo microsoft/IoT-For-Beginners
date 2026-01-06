@@ -17,7 +17,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Ο αισθητήρας φωτός είναι ενσωματωμένος στο Wio Terminal και είναι ορατός μέσα από το διαφανές πλαστικό παράθυρο στο πίσω μέρος.
 
-![Ο αισθητήρας φωτός στο πίσω μέρος του Wio Terminal](../../../../../translated_images/wio-light-sensor.b1f529f3c95f51654f2e2c1d2d4b55fe547d189f588c974f5c2462c728133840.el.png)
+![Ο αισθητήρας φωτός στο πίσω μέρος του Wio Terminal](../../../../../translated_images/wio-light-sensor.b1f529f3c95f5165.el.png)
 
 ## Προγραμματισμός του αισθητήρα φωτός
 

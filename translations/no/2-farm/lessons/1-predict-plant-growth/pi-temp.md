@@ -31,7 +31,7 @@ Koble til temperatursensoren
 
 1. Med Raspberry Pi slått av, koble den andre enden av Grove-kabelen til den digitale kontakten merket **D5** på Grove Base-hatten som er festet til Pi. Denne kontakten er den andre fra venstre, på raden med kontakter ved siden av GPIO-pinnene.
 
-![Grove-temperatursensoren koblet til kontakt A0](../../../../../translated_images/pi-temperature-sensor.3ff82fff672c8e565ef25a39d26d111de006b825a7e0867227ef4e7fbff8553c.no.png)
+![Grove-temperatursensoren koblet til kontakt A0](../../../../../translated_images/pi-temperature-sensor.3ff82fff672c8e56.no.png)
 
 ## Programmer temperatursensoren
 

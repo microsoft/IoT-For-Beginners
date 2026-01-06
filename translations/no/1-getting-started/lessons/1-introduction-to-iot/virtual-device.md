@@ -154,11 +154,11 @@ Opprett en Python-applikasjon for å skrive `"Hello World"` til konsollen.
 
 1. Når VS Code starter, vil det aktivere det virtuelle Python-miljøet. Det valgte virtuelle miljøet vil vises i statuslinjen nederst:
 
-    ![VS Code viser det valgte virtuelle miljøet](../../../../../translated_images/vscode-virtual-env.8ba42e04c3d533cf677e16cbe5ed9a3b80f62c6964472dc84b6f940800f0909f.no.png)
+    ![VS Code viser det valgte virtuelle miljøet](../../../../../translated_images/vscode-virtual-env.8ba42e04c3d533cf.no.png)
 
 1. Hvis VS Code-terminalen allerede kjører når VS Code starter opp, vil den ikke ha det virtuelle miljøet aktivert i seg. Det enkleste er å avslutte terminalen ved å bruke **Kill the active terminal instance**-knappen:
 
-    ![VS Code Kill the active terminal instance-knappen](../../../../../translated_images/vscode-kill-terminal.1cc4de7c6f25ee08f423f0ead714e61d069fac1eb2089e97b8a7bbcb3d45fe5e.no.png)
+    ![VS Code Kill the active terminal instance-knappen](../../../../../translated_images/vscode-kill-terminal.1cc4de7c6f25ee08.no.png)
 
     Du kan se om terminalen har det virtuelle miljøet aktivert, da navnet på det virtuelle miljøet vil være et prefiks på terminalprompten. For eksempel kan det være:
 
@@ -229,7 +229,7 @@ Som et andre 'Hello World'-steg, vil du kjøre CounterFit-appen og koble koden d
 
 1. Du må starte en ny VS Code-terminal ved å velge **Create a new integrated terminal**-knappen. Dette er fordi CounterFit-appen kjører i den nåværende terminalen.
 
-    ![VS Code Create a new integrated terminal-knappen](../../../../../translated_images/vscode-new-terminal.77db8fc0f9cd31824b0e49a201beafe4ae4616d6c7339992cb2819e789b3eff9.no.png)
+    ![VS Code Create a new integrated terminal-knappen](../../../../../translated_images/vscode-new-terminal.77db8fc0f9cd3182.no.png)
 
 1. I denne nye terminalen, kjør `app.py`-filen som før. Statusen til CounterFit vil endres til **Connected**, og LED-en vil lyse opp.
 

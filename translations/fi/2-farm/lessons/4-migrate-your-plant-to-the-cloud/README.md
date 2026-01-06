@@ -72,7 +72,7 @@ Pilvipalveluntarjoajat voivat hyödyntää mittakaavaetuja alentamaan kustannuks
 
 Azure on Microsoftin kehittäjille suunnattu pilvipalvelu, ja tätä pilvipalvelua käytät näissä oppitunneissa. Alla oleva video antaa lyhyen yleiskatsauksen Azuresta:
 
-[![Azure yleiskatsausvideo](../../../../../translated_images/what-is-azure-video-thumbnail.20174db09e03bbb87d213f928d3cb27410305d2e567e952827de8478dbda959b.fi.png)](https://www.microsoft.com/videoplayer/embed/RE4Ibng?WT.mc_id=academic-17441-jabenn)
+[![Azure yleiskatsausvideo](../../../../../translated_images/what-is-azure-video-thumbnail.20174db09e03bbb8.fi.png)](https://www.microsoft.com/videoplayer/embed/RE4Ibng?WT.mc_id=academic-17441-jabenn)
 
 ## Luo pilvitilaus
 

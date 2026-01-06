@@ -110,7 +110,7 @@ Jokainen monikulmion piste määritellään pituus- ja leveysasteparina taulukos
 
 Monikulmion koordinaattitaulukossa on aina yksi merkintä enemmän kuin monikulmion pisteiden lukumäärä, ja viimeinen merkintä on sama kuin ensimmäinen, sulkien monikulmion. Esimerkiksi suorakulmiossa olisi viisi pistettä.
 
-![Suorakulmio koordinaatteineen](../../../../../translated_images/polygon-points.302193da381cb415f46c2c7a98496ee4be05d6c73d21238a89721ad93e121233.fi.png)
+![Suorakulmio koordinaatteineen](../../../../../translated_images/polygon-points.302193da381cb415.fi.png)
 
 Yllä olevassa kuvassa on suorakulmio. Monikulmion koordinaatit alkavat vasemmasta yläkulmasta kohdasta 47,-122, sitten siirtyvät oikealle kohtaan 47,-121, sitten alas kohtaan 46,-121, sitten vasemmalle kohtaan 46,-122 ja lopuksi takaisin alkuun kohtaan 47,-122. Tämä antaa monikulmiolle viisi pistettä – vasen yläkulma, oikea yläkulma, oikea alakulma, vasen alakulma ja vasen yläkulma sulkemaan sen.
 
@@ -208,7 +208,7 @@ Kun teet tämän pyynnön, voit myös välittää arvon nimeltä `searchBuffer`.
 
 Kun tulokset palautetaan sovellusliittymäpyynnöstä, yksi tuloksen osista on `distance`, joka mitataan lähimpään pisteeseen geoaidan reunalla. Positiivinen arvo tarkoittaa, että piste on geoaidan ulkopuolella, negatiivinen arvo tarkoittaa, että se on geoaidan sisällä. Jos tämä etäisyys on pienempi kuin hakupuskuri, todellinen etäisyys palautetaan metreinä, muuten arvo on 999 tai -999. 999 tarkoittaa, että piste on geoaidan ulkopuolella enemmän kuin hakupuskuri, -999 tarkoittaa, että se on geoaidan sisällä enemmän kuin hakupuskuri.
 
-![Geoaidan ympärillä 50 m hakupuskuri](../../../../../translated_images/search-buffer-and-distance.e6a79af3898183c7b2ef6fbf12271b8b34afd23969bb946962b1b18d3d2635e8.fi.png)
+![Geoaidan ympärillä 50 m hakupuskuri](../../../../../translated_images/search-buffer-and-distance.e6a79af3898183c7.fi.png)
 
 Yllä olevassa kuvassa geoaidalla on 50 m hakupuskuri.
 

@@ -72,7 +72,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Το Azure είναι το cloud για προγραμματιστές από τη Microsoft, και αυτό είναι το cloud που θα χρησιμοποιήσετε για αυτά τα μαθήματα. Το παρακάτω βίντεο δίνει μια σύντομη επισκόπηση του Azure:
 
-[![Επισκόπηση του Azure βίντεο](../../../../../translated_images/what-is-azure-video-thumbnail.20174db09e03bbb87d213f928d3cb27410305d2e567e952827de8478dbda959b.el.png)](https://www.microsoft.com/videoplayer/embed/RE4Ibng?WT.mc_id=academic-17441-jabenn)
+[![Επισκόπηση του Azure βίντεο](../../../../../translated_images/what-is-azure-video-thumbnail.20174db09e03bbb8.el.png)](https://www.microsoft.com/videoplayer/embed/RE4Ibng?WT.mc_id=academic-17441-jabenn)
 
 ## Δημιουργία συνδρομής στο cloud
 

@@ -64,7 +64,7 @@ Mikrofoner findes i forskellige typer:
 
 * Bånd - Båndmikrofoner ligner dynamiske mikrofoner, men de har et metalbånd i stedet for en membran. Dette bånd bevæger sig i et magnetfelt og genererer en elektrisk strøm. Ligesom dynamiske mikrofoner behøver båndmikrofoner ikke strøm for at fungere.
 
-    ![Edmund Lowe, amerikansk skuespiller, står ved en radiomikrofon (mærket for (NBC) Blue Network), holder manuskript, 1942](../../../../../translated_images/ribbon-mic.eacc8e092c7441caee6d7a81e2f40e1675bf36269848964c7c09c9a9acb05127.da.jpg)
+    ![Edmund Lowe, amerikansk skuespiller, står ved en radiomikrofon (mærket for (NBC) Blue Network), holder manuskript, 1942](../../../../../translated_images/ribbon-mic.eacc8e092c7441ca.da.jpg)
 
 * Kondensator - Kondensatormikrofoner har en tynd metalmembran og en fast metalbagplade. Elektricitet påføres begge dele, og når membranen vibrerer, ændres den statiske ladning mellem pladerne og genererer et signal. Kondensatormikrofoner kræver strøm for at fungere - kaldet *Phantom power*.
 
@@ -84,7 +84,7 @@ Lyd er et analogt signal, der bærer meget detaljeret information. For at konver
 
 > 🎓 Sampling er processen med at konvertere lydsignalet til en digital værdi, der repræsenterer signalet på det pågældende tidspunkt.
 
-![Et linjediagram, der viser et signal med diskrete punkter på faste intervaller](../../../../../translated_images/sampling.6f4fadb3f2d9dfe7618f9edfe75a350e6b3f74293ec84f02ab69c19d2afe3d73.da.png)
+![Et linjediagram, der viser et signal med diskrete punkter på faste intervaller](../../../../../translated_images/sampling.6f4fadb3f2d9dfe7.da.png)
 
 Digital lyd samples ved hjælp af Pulse Code Modulation, eller PCM. PCM indebærer at aflæse spændingen af signalet og vælge den nærmeste diskrete værdi til den spænding ved hjælp af en defineret størrelse.
 

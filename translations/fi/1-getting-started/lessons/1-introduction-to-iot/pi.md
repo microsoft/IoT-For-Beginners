@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 [Raspberry Pi](https://raspberrypi.org) on yhden piirilevyn tietokone. Voit lisätä antureita ja toimilaitteita käyttämällä laajaa valikoimaa laitteita ja ekosysteemejä. Näissä oppitunneissa käytetään laitteistoekosysteemiä nimeltä [Grove](https://www.seeedstudio.com/category/Grove-c-1003.html). Koodaat Pi:täsi ja käytät Grove-antureita Pythonin avulla.
 
-![Raspberry Pi 4](../../../../../translated_images/raspberry-pi-4.fd4590d308c3d456db1327e86b395ddcd735513267aafd4879ea2785f7792eac.fi.jpg)
+![Raspberry Pi 4](../../../../../translated_images/raspberry-pi-4.fd4590d308c3d456.fi.jpg)
 
 ## Asennus
 
@@ -112,7 +112,7 @@ Asenna päätelaitteeton Pi OS.
 
 1. Raspberry Pi Imagerissa valitse **CHOOSE OS** -painike ja valitse *Raspberry Pi OS (Other)*, jonka jälkeen *Raspberry Pi OS Lite (32-bit)*
 
-    ![Raspberry Pi Imager, jossa Raspberry Pi OS Lite valittuna](../../../../../translated_images/raspberry-pi-imager.24aedeab9e233d841a1504ed7cfeb871b1f8e1134cfcd8370e7f60a092056be2.fi.png)
+    ![Raspberry Pi Imager, jossa Raspberry Pi OS Lite valittuna](../../../../../translated_images/raspberry-pi-imager.24aedeab9e233d84.fi.png)
 
     > 💁 Raspberry Pi OS Lite on Raspberry Pi OS:n versio, jossa ei ole työpöytäkäyttöliittymää tai käyttöliittymäpohjaisia työkaluja. Näitä ei tarvita päätelaitteettomalle Pi:lle, ja tämä tekee asennuksesta pienemmän ja käynnistysajasta nopeamman.
 
@@ -251,7 +251,7 @@ Luo Hello World -sovellus.
 
 1. Avaa tämä kansio VS Codessa valitsemalla *File -> Open...* ja valitsemalla *nightlight*-kansio, sitten valitse **OK**.
 
-    ![VS Code -avausdialogi, jossa näkyy nightlight-kansio](../../../../../translated_images/vscode-open-nightlight-remote.d3d2a4011e30d535c4b70084f6e94bf6b5b1327fd8e77affe64465ac151ee766.fi.png)
+    ![VS Code -avausdialogi, jossa näkyy nightlight-kansio](../../../../../translated_images/vscode-open-nightlight-remote.d3d2a4011e30d535.fi.png)
 
 1. Avaa `app.py`-tiedosto VS Code -tiedostoselaimesta ja lisää seuraava koodi:
 

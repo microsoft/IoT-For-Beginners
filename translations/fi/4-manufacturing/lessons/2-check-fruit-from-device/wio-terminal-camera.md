@@ -29,7 +29,7 @@ Yhdistä kamera.
 
 1. ArduCamin pohjassa olevat pinnit täytyy yhdistää Wio Terminalin GPIO-pinneihin. Jotta oikeat pinnit löytyvät helpommin, kiinnitä Wio Terminalin mukana tuleva GPIO-tarralappu pinneihin:
 
-    ![Wio Terminal GPIO-tarralapulla](../../../../../translated_images/wio-terminal-pin-sticker.b90b1535937b84bd00d853f0004aea74fac2aec04b43f14b887796b2633f855e.fi.png)
+    ![Wio Terminal GPIO-tarralapulla](../../../../../translated_images/wio-terminal-pin-sticker.b90b1535937b84bd.fi.png)
 
 1. Käytä hyppylankoja ja tee seuraavat liitännät:
 
@@ -297,7 +297,7 @@ Wio Terminal voidaan nyt ohjelmoida ottamaan kuva, kun painiketta painetaan.
 
 1. Mikro-ohjaimet suorittavat koodiasi jatkuvasti, joten ei ole helppoa käynnistää jotain, kuten valokuvan ottamista, ilman reaktiota anturiin. Wio Terminalissa on painikkeita, joten kamera voidaan asettaa käynnistymään yhdellä painikkeista. Lisää seuraava koodi `setup`-funktion loppuun konfiguroidaksesi C-painikkeen (yksi kolmesta yläpainikkeesta, lähimpänä virtakytkintä).
 
-    ![C-painike yläosassa, lähimpänä virtakytkintä](../../../../../translated_images/wio-terminal-c-button.73df3cb1c1445ea07ee98316af0e7925fcb43135df0abed58d3d4822b2589c3b.fi.png)
+    ![C-painike yläosassa, lähimpänä virtakytkintä](../../../../../translated_images/wio-terminal-c-button.73df3cb1c1445ea0.fi.png)
 
     ```cpp
     pinMode(WIO_KEY_C, INPUT_PULLUP);

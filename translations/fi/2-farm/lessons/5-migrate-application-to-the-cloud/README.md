@@ -41,7 +41,7 @@ Serveritön, tai serveritön laskenta, tarkoittaa pienten koodilohkojen luomista
 
 > 💁 Jos olet käyttänyt tietokantatriggereitä aiemmin, voit ajatella tätä samalla tavalla: koodi käynnistyy tapahtumasta, kuten rivin lisäämisestä.
 
-![Kun useita tapahtumia lähetetään samanaikaisesti, serveritön palvelu skaalautuu suorittamaan ne kaikki yhtä aikaa](../../../../../translated_images/serverless-scaling.f8c769adf0413fd17be1af4f07ff63016b347e2ff869be6c4abb211f9e93909d.fi.png)
+![Kun useita tapahtumia lähetetään samanaikaisesti, serveritön palvelu skaalautuu suorittamaan ne kaikki yhtä aikaa](../../../../../translated_images/serverless-scaling.f8c769adf0413fd1.fi.png)
 
 Koodisi suoritetaan vain, kun tapahtuma tapahtuu, eikä sitä pidetä aktiivisena muina aikoina. Tapahtuma tapahtuu, koodisi ladataan ja suoritetaan. Tämä tekee serverittömästä mallista erittäin skaalautuvan – jos useita tapahtumia tapahtuu samanaikaisesti, pilvipalveluntarjoaja voi suorittaa funktiosi niin monta kertaa kuin tarvitaan samanaikaisesti käytettävissä olevilla palvelimilla. Haittapuolena on, että jos sinun täytyy jakaa tietoa tapahtumien välillä, sinun täytyy tallentaa se esimerkiksi tietokantaan sen sijaan, että säilyttäisit sen muistissa.
 
@@ -244,7 +244,7 @@ Azure Functions CLI:llä voidaan luoda uusi Functions-sovellus.
     VS Code. Initialize for optimal use with VS Code?
     ```
 
-    ![Ilmoitus](../../../../../translated_images/vscode-azure-functions-init-notification.bd19b49229963edb5311fb3a79445ea469424759d2917ee2f2eb6f92d65d5086.fi.png)
+    ![Ilmoitus](../../../../../translated_images/vscode-azure-functions-init-notification.bd19b49229963edb.fi.png)
 
     Valitse **Yes** tästä ilmoituksesta.
 

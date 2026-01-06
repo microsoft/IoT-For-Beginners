@@ -35,7 +35,7 @@ Yhdistä Time of Flight -sensori.
 
 1. Kun Wio Terminal ei ole kytketty tietokoneeseen tai muuhun virtalähteeseen, liitä Grove-kaapelin toinen pää Wio Terminalin vasemmanpuoleiseen Grove-liittimeen, kun katsot näyttöä. Tämä liitin on lähimpänä virtapainiketta. Tämä on yhdistetty digitaalinen ja I2C-liitin.
 
-![Grove Time of Flight -sensori liitettynä vasempaan liittimeen](../../../../../translated_images/wio-time-of-flight-sensor.c4c182131d2ea73df67febd004dc0313d271013d016be9c47e7da4d77c6c20a8.fi.png)
+![Grove Time of Flight -sensori liitettynä vasempaan liittimeen](../../../../../translated_images/wio-time-of-flight-sensor.c4c182131d2ea73d.fi.png)
 
 1. Nyt voit liittää Wio Terminalin tietokoneeseesi.
 
@@ -101,7 +101,7 @@ Wio Terminal voidaan nyt ohjelmoida käyttämään liitettyä Time of Flight -se
 
     Etäisyysmittari sijaitsee sensorin takapuolella, joten varmista, että käytät oikeaa puolta etäisyyden mittaamiseen.
 
-    ![Time of Flight -sensorin takapuolen etäisyysmittari osoittaa banaania](../../../../../translated_images/time-of-flight-banana.079921ad8b1496e4525dc26b4cdc71a076407aba3e72ba113ba2e38febae92c5.fi.png)
+    ![Time of Flight -sensorin takapuolen etäisyysmittari osoittaa banaania](../../../../../translated_images/time-of-flight-banana.079921ad8b1496e4.fi.png)
 
 > 💁 Löydät tämän koodin [code-proximity/wio-terminal](../../../../../4-manufacturing/lessons/4-trigger-fruit-detector/code-proximity/wio-terminal) -kansiosta.
 

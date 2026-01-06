@@ -61,7 +61,7 @@ Näiden lajittelukoneiden viimeisimmät kehitysaskeleet hyödyntävät AI:ta ja 
 
 Perinteinen ohjelmointi tarkoittaa, että otat dataa, sovellat algoritmia siihen ja saat tuloksen. Esimerkiksi edellisessä projektissa otit GPS-koordinaatteja ja geoaidan, sovelsit Azure Mapsin tarjoamaa algoritmia ja sait tulokseksi, oliko piste geoaidan sisällä vai ulkopuolella. Syötit lisää dataa, sait lisää tuloksia.
 
-![Perinteinen kehitys ottaa syötteen ja algoritmin ja antaa tuloksen. Koneoppiminen käyttää syöte- ja tulosdataa mallin kouluttamiseen, ja tämä malli voi ottaa uutta syötettä ja tuottaa uusia tuloksia.](../../../../../translated_images/traditional-vs-ml.5c20c169621fa539ca84a2cd9a49f6ff7410b3a6c6b46c97ff2af3f99db3c66b.fi.png)
+![Perinteinen kehitys ottaa syötteen ja algoritmin ja antaa tuloksen. Koneoppiminen käyttää syöte- ja tulosdataa mallin kouluttamiseen, ja tämä malli voi ottaa uutta syötettä ja tuottaa uusia tuloksia.](../../../../../translated_images/traditional-vs-ml.5c20c169621fa539.fi.png)
 
 Koneoppiminen kääntää tämän ympäri - aloitat datalla ja tunnetuilla tuloksilla, ja koneoppimisalgoritmi oppii datasta. Voit sitten ottaa tämän koulutetun algoritmin, jota kutsutaan *koneoppimismalliksi* tai *malliksi*, ja syöttää uutta dataa saadaksesi uusia tuloksia.
 
@@ -87,7 +87,7 @@ Jotta voit onnistuneesti kouluttaa kuvien luokittelijan, tarvitset miljoonia kuv
 
 Kun kuvien luokittelija on koulutettu laajalle valikoimalle kuvia, sen sisäiset mekanismit ovat erinomaisia muotojen, värien ja kuvioiden tunnistamisessa. Siirto-oppiminen mahdollistaa mallin käyttämään jo oppimaansa kuvien osien tunnistamisessa ja käyttämään sitä uusien kuvien tunnistamiseen.
 
-![Kun osaat tunnistaa muodot, ne voidaan järjestää eri tavoin veneen tai kissan muodostamiseksi.](../../../../../translated_images/shapes-to-images.1a309f0ea88dd66fafa4da6d38e88806ce174cc6a88081efb32852230ed55de8.fi.png)
+![Kun osaat tunnistaa muodot, ne voidaan järjestää eri tavoin veneen tai kissan muodostamiseksi.](../../../../../translated_images/shapes-to-images.1a309f0ea88dd66f.fi.png)
 
 Voit ajatella tätä vähän kuin lasten muotokirjoja, joissa kun osaat tunnistaa puolipyöreän, suorakulmion ja kolmion, voit tunnistaa purjeveneen tai kissan riippuen näiden muotojen järjestelystä. Kuvien luokittelija voi tunnistaa muodot, ja siirto-oppiminen opettaa sille, mikä yhdistelmä muodostaa veneen tai kissan - tai kypsän banaanin.
 

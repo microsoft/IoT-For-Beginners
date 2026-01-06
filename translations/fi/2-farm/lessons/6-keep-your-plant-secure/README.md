@@ -97,15 +97,15 @@ Salaus jaetaan kahteen tyyppiin – symmetrinen ja epäsymmetrinen.
 
 **Symmetrinen** salaus käyttää samaa avainta tietojen salaamiseen ja purkamiseen. Sekä lähettäjän että vastaanottajan on tiedettävä sama avain. Tämä on vähiten turvallinen tyyppi, koska avain on jaettava jollain tavalla. Jotta lähettäjä voisi lähettää salatun viestin vastaanottajalle, lähettäjän on ensin ehkä lähetettävä avain vastaanottajalle.
 
-![Symmetrinen salaus käyttää samaa avainta viestin salaamiseen ja purkamiseen](../../../../../translated_images/send-message-symmetric-key.a2e8ad0d495896ffcdf15d25bb4491c695a5cb851457b359fb0f0c89d67707c9.fi.png)
+![Symmetrinen salaus käyttää samaa avainta viestin salaamiseen ja purkamiseen](../../../../../translated_images/send-message-symmetric-key.a2e8ad0d495896ff.fi.png)
 
 Jos avain varastetaan siirron aikana tai lähettäjä tai vastaanottaja hakkeroidaan ja avain löydetään, salaus voidaan murtaa.
 
-![Symmetrinen salaus on turvallinen vain, jos hakkeri ei saa avainta – jos saa, hän voi siepata ja purkaa viestin](../../../../../translated_images/send-message-symmetric-key-hacker.e7cb53db1707adfb1486a8144060cb76435fe8dbdede8cecc09e7d15b2d9a251.fi.png)
+![Symmetrinen salaus on turvallinen vain, jos hakkeri ei saa avainta – jos saa, hän voi siepata ja purkaa viestin](../../../../../translated_images/send-message-symmetric-key-hacker.e7cb53db1707adfb.fi.png)
 
 **Epäsymmetrinen** salaus käyttää kahta avainta – salausavainta ja purkuavainta, joita kutsutaan julkisen ja yksityisen avaimen pariksi. Julkista avainta käytetään viestin salaamiseen, mutta sitä ei voida käyttää sen purkamiseen. Yksityistä avainta käytetään viestin purkamiseen, mutta sitä ei voida käyttää sen salaamiseen.
 
-![Epäsymmetrinen salaus käyttää eri avainta viestin salaamiseen ja purkamiseen. Salausavain jaetaan viestin lähettäjille, jotta he voivat salata viestin ennen sen lähettämistä vastaanottajalle, joka omistaa avaimet](../../../../../translated_images/send-message-asymmetric.7abe327c62615b8c19805252af5d4b6c5e7aaeb8fbc455efeff866fe2d300b62.fi.png)
+![Epäsymmetrinen salaus käyttää eri avainta viestin salaamiseen ja purkamiseen. Salausavain jaetaan viestin lähettäjille, jotta he voivat salata viestin ennen sen lähettämistä vastaanottajalle, joka omistaa avaimet](../../../../../translated_images/send-message-asymmetric.7abe327c62615b8c.fi.png)
 
 Vastaanottaja jakaa julkisen avaimensa, ja lähettäjä käyttää sitä viestin salaamiseen. Kun viesti on lähetetty, vastaanottaja purkaa sen yksityisellä avaimellaan. Epäsymmetrinen salaus on turvallisempi, koska yksityinen avain pidetään vastaanottajan hallussa eikä sitä koskaan jaeta. Julkisen avaimen voi antaa kenelle tahansa, koska sitä voidaan käyttää vain viestien salaamiseen.
 
@@ -165,7 +165,7 @@ Näissä sertifikaateissa on useita kenttiä, mukaan lukien keneltä julkinen av
 
 Kun käytät X.509-sertifikaatteja, sekä lähettäjällä että vastaanottajalla on omat julkiset ja yksityiset avaimensa, sekä X.509-sertifikaatit, jotka sisältävät julkisen avaimen. He vaihtavat X.509-sertifikaatteja jollain tavalla, käyttäen toistensa julkisia avaimia salatakseen lähettämänsä datan ja omia yksityisiä avaimiaan purkaakseen vastaanottamansa datan.
 
-![Sen sijaan, että jakaisit julkisen avaimen, voit jakaa sertifikaatin. Sertifikaatin käyttäjä voi varmistaa, että se tulee sinulta tarkistamalla sertifikaattiviranomaiselta, joka on allekirjoittanut sen.](../../../../../translated_images/send-message-certificate.9cc576ac1e46b76eb58ebc8eedaa522566fa0700076da46f5180aad78c2435db.fi.png)
+![Sen sijaan, että jakaisit julkisen avaimen, voit jakaa sertifikaatin. Sertifikaatin käyttäjä voi varmistaa, että se tulee sinulta tarkistamalla sertifikaattiviranomaiselta, joka on allekirjoittanut sen.](../../../../../translated_images/send-message-certificate.9cc576ac1e46b76e.fi.png)
 
 Yksi suuri etu X.509-sertifikaattien käytössä on, että niitä voidaan jakaa laitteiden välillä. Voit luoda yhden sertifikaatin, ladata sen IoT Hubiin ja käyttää sitä kaikille laitteillesi. Jokaisen laitteen tarvitsee vain tietää yksityinen avain purkaakseen IoT Hubista vastaanottamansa viestit.
 

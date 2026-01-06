@@ -64,7 +64,7 @@ Koble Wio Terminal til WiFi.
 
 1. Opprett en ny fil i `src`-mappen kalt `config.h`. Du kan gjøre dette ved å velge `src`-mappen, eller `main.cpp`-filen inni, og velge **Ny fil**-knappen fra utforskeren. Denne knappen vises bare når markøren din er over utforskeren.
 
-    ![Knappen for ny fil](../../../../../translated_images/vscode-new-file-button.182702340fe6723c8cbb4cfa1a9a9fb0d0a5227643b4e46b91ff67b07a39a92f.no.png)
+    ![Knappen for ny fil](../../../../../translated_images/vscode-new-file-button.182702340fe6723c.no.png)
 
 1. Legg til følgende kode i denne filen for å definere konstanter for WiFi-legitimasjonen din:
 

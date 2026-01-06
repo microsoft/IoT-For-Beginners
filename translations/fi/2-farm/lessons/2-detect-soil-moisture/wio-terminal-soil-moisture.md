@@ -33,11 +33,11 @@ Liitä maaperän kosteusanturi.
 
 1. Kun Wio Terminal ei ole kytketty tietokoneeseen tai muuhun virtalähteeseen, liitä Grove-kaapelin toinen pää Wio Terminalin oikeanpuoleiseen Grove-liittimeen, kun katsot näyttöä. Tämä liitin on kauimpana virtapainikkeesta.
 
-![Grove-maaperän kosteusanturi liitetty oikeanpuoleiseen liittimeen](../../../../../translated_images/wio-soil-moisture-sensor.46919b61c3f6cb7497662251b29038ee0e57a4c8b9d071feb996c3b0d7f65aaf.fi.png)
+![Grove-maaperän kosteusanturi liitetty oikeanpuoleiseen liittimeen](../../../../../translated_images/wio-soil-moisture-sensor.46919b61c3f6cb74.fi.png)
 
 1. Työnnä maaperän kosteusanturi maaperään. Anturissa on "korkein asennuslinja" - valkoinen viiva anturin poikki. Työnnä anturi maaperään tähän viivaan asti, mutta älä sen yli.
 
-![Grove-maaperän kosteusanturi maaperässä](../../../../../translated_images/soil-moisture-sensor-in-soil.bfad91002bda5e960f8c51ee64b02ee59b32c8c717e3515a2c945f33e614e403.fi.png)
+![Grove-maaperän kosteusanturi maaperässä](../../../../../translated_images/soil-moisture-sensor-in-soil.bfad91002bda5e96.fi.png)
 
 1. Voit nyt liittää Wio Terminalin tietokoneeseesi.
 
