@@ -66,7 +66,7 @@ Databaser er tjenester som lar deg lagre og søke i data. Databaser kommer i to 
 
 De første databasene var Relational Database Management Systems (RDBMS), eller relasjonsdatabaser. Disse er også kjent som SQL-databaser etter Structured Query Language (SQL) som brukes til å legge til, fjerne, oppdatere eller søke i data. Disse databasene består av et skjema - et veldefinert sett med datatabeller, likt et regneark. Hver tabell har flere navngitte kolonner. Når du legger inn data, legger du til en rad i tabellen, og setter verdier inn i hver av kolonnene. Dette holder dataen i en veldig rigid struktur - selv om du kan la kolonner stå tomme, må du legge til en ny kolonne i databasen og fylle verdier for eksisterende rader hvis du vil legge til en ny kolonne. Disse databasene er relasjonelle - i den forstand at én tabell kan ha en relasjon til en annen.
 
-![En relasjonsdatabase med ID-en fra User-tabellen som relaterer til user ID-kolonnen i purchases-tabellen, og ID-en fra products-tabellen som relaterer til product ID i purchases-tabellen](../../../../../translated_images/sql-database.be160f12bfccefd3ca718a66468c2c4c89c53e5aad4c295324d576da87f9dfdd.no.png)
+![En relasjonsdatabase med ID-en fra User-tabellen som relaterer til user ID-kolonnen i purchases-tabellen, og ID-en fra products-tabellen som relaterer til product ID i purchases-tabellen](../../../../../translated_images/sql-database.be160f12bfccefd3.no.png)
 
 For eksempel, hvis du lagrer en brukers personlige detaljer i en tabell, vil du ha en slags intern unik ID per bruker som brukes i en rad i en tabell som inneholder brukerens navn og adresse. Hvis du deretter vil lagre andre detaljer om den brukeren, som deres kjøp, i en annen tabell, vil du ha én kolonne i den nye tabellen for brukerens ID. Når du ser opp en bruker, kan du bruke deres ID for å hente deres personlige detaljer fra én tabell, og deres kjøp fra en annen.
 
@@ -241,7 +241,7 @@ Funksjonsappen din må nå kobles til blob-lagring for å lagre meldingene fra I
 
 I denne leksjonen vil du bruke Python SDK for å se hvordan du kan interagere med blob-lagring.
 
-![Sender GPS-telemetri fra en IoT-enhet til IoT Hub, deretter til Azure Functions via en Event Hub-utløser, og lagrer det deretter i blob-lagring](../../../../../translated_images/save-telemetry-to-storage-from-functions.ed3b1820980097f143d9f0570072da11304c2bc7906359dfa075b4d9b253c20f.no.png)
+![Sender GPS-telemetri fra en IoT-enhet til IoT Hub, deretter til Azure Functions via en Event Hub-utløser, og lagrer det deretter i blob-lagring](../../../../../translated_images/save-telemetry-to-storage-from-functions.ed3b1820980097f1.no.png)
 
 Dataene vil bli lagret som en JSON-blob med følgende format:
 

@@ -41,7 +41,7 @@ Serverlöst, eller serverlös databehandling, innebär att skapa små kodblock s
 
 > 💁 Om du har använt databasutlösare tidigare kan du tänka på detta som samma sak, kod som triggas av en händelse som att infoga en rad.
 
-![När många händelser skickas samtidigt skalar den serverlösa tjänsten upp för att köra dem alla samtidigt](../../../../../translated_images/serverless-scaling.f8c769adf0413fd17be1af4f07ff63016b347e2ff869be6c4abb211f9e93909d.sv.png)
+![När många händelser skickas samtidigt skalar den serverlösa tjänsten upp för att köra dem alla samtidigt](../../../../../translated_images/serverless-scaling.f8c769adf0413fd1.sv.png)
 
 Din kod körs endast när händelsen inträffar, det finns inget som håller din kod aktiv vid andra tillfällen. Händelsen inträffar, din kod laddas och körs. Detta gör serverlöst mycket skalbart - om många händelser inträffar samtidigt kan molnleverantören köra din funktion så många gånger som behövs samtidigt över de servrar de har tillgängliga. Nackdelen med detta är att om du behöver dela information mellan händelser måste du spara den någonstans, som i en databas, istället för att lagra den i minnet.
 
@@ -244,7 +244,7 @@ Azure Functions CLI kan användas för att skapa en ny Functions-app.
     VS Code. Initialize for optimal use with VS Code?
     ```
 
-    ![Notisen](../../../../../translated_images/vscode-azure-functions-init-notification.bd19b49229963edb5311fb3a79445ea469424759d2917ee2f2eb6f92d65d5086.sv.png)
+    ![Notisen](../../../../../translated_images/vscode-azure-functions-init-notification.bd19b49229963edb.sv.png)
 
     Välj **Yes** i denna notis.
 

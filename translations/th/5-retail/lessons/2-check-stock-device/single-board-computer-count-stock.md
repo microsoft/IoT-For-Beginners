@@ -81,7 +81,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 1. รันแอปพลิเคชันโดยให้กล้องชี้ไปที่สินค้าบนชั้นวาง คุณจะเห็นไฟล์ `image.jpg` ใน VS Code explorer และสามารถเลือกดูกรอบสี่เหลี่ยมได้
 
-    ![กระป๋องมะเขือเทศ 4 กระป๋องพร้อมกรอบสี่เหลี่ยมรอบแต่ละกระป๋อง](../../../../../translated_images/rpi-stock-with-bounding-boxes.b5540e2ecb7cd49f1271828d3be412671d950e87625c5597ea97c90f11e01097.th.jpg)
+    ![กระป๋องมะเขือเทศ 4 กระป๋องพร้อมกรอบสี่เหลี่ยมรอบแต่ละกระป๋อง](../../../../../translated_images/rpi-stock-with-bounding-boxes.b5540e2ecb7cd49f.th.jpg)
 
 ## นับจำนวนสินค้า
 

@@ -39,7 +39,7 @@ Objektdetektorer kan användas för lagerkontroll, antingen för att räkna lage
 
 Till exempel, om en kamera pekar på en hylla som kan hålla 8 burkar tomatpuré, och en objektdetektor bara upptäcker 7 burkar, saknas en och behöver fyllas på.
 
-![7 burkar tomatpuré på en hylla, 4 på den övre raden, 3 på den nedre](../../../../../translated_images/stock-7-cans-tomato-paste.f86059cc573d7becaa89a0eafb9d2cd7e2fe37405a530fe565990e2333d0e4a1.sv.png)
+![7 burkar tomatpuré på en hylla, 4 på den övre raden, 3 på den nedre](../../../../../translated_images/stock-7-cans-tomato-paste.f86059cc573d7bec.sv.png)
 
 I bilden ovan har en objektdetektor upptäckt 7 burkar tomatpuré på en hylla som kan hålla 8 burkar. IoT-enheten kan inte bara skicka en notifikation om behovet av påfyllning, utan kan även ge en indikation om var den saknade varan finns, viktig information om du använder robotar för att fylla på hyllor.
 
@@ -51,7 +51,7 @@ Ibland kan fel lager finnas på hyllorna. Detta kan bero på mänskliga misstag 
 
 Objektdetektering kan användas för att upptäcka oväntade varor, och återigen varna en människa eller robot för att returnera varan så snart den upptäcks.
 
-![En burk babymajs på tomatpuréhyllan](../../../../../translated_images/stock-rogue-corn.be1f3ada8c4578544641af66671c1711a4c02297f14cc7f503354dae0d30a954.sv.png)
+![En burk babymajs på tomatpuréhyllan](../../../../../translated_images/stock-rogue-corn.be1f3ada8c457854.sv.png)
 
 I bilden ovan har en burk babymajs placerats på hyllan bredvid tomatpurén. Objektdetektorn har upptäckt detta, vilket gör att IoT-enheten kan notifiera en människa eller robot att returnera burken till dess rätta plats.
 

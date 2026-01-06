@@ -29,7 +29,7 @@ Anslut kameran.
 
 1. Stiften på basen av ArduCam måste anslutas till GPIO-stiften på Wio Terminal. För att göra det enklare att hitta rätt stift, fäst GPIO-stiftetiketten som följer med Wio Terminal runt stiften:
 
-    ![Wio Terminal med GPIO-stiftetiketten på](../../../../../translated_images/wio-terminal-pin-sticker.b90b1535937b84bd00d853f0004aea74fac2aec04b43f14b887796b2633f855e.sv.png)
+    ![Wio Terminal med GPIO-stiftetiketten på](../../../../../translated_images/wio-terminal-pin-sticker.b90b1535937b84bd.sv.png)
 
 1. Använd jumperkablar för att göra följande anslutningar:
 
@@ -297,7 +297,7 @@ Wio Terminal kan nu programmeras för att ta en bild när en knapp trycks in.
 
 1. Mikrokontroller kör din kod kontinuerligt, så det är inte enkelt att trigga något som att ta ett foto utan att reagera på en sensor. Wio Terminal har knappar, så kameran kan ställas in för att triggas av en av knapparna. Lägg till följande kod i slutet av `setup`-funktionen för att konfigurera C-knappen (en av de tre knapparna på toppen, den som är närmast strömbrytaren).
 
-    ![C-knappen på toppen närmast strömbrytaren](../../../../../translated_images/wio-terminal-c-button.73df3cb1c1445ea07ee98316af0e7925fcb43135df0abed58d3d4822b2589c3b.sv.png)
+    ![C-knappen på toppen närmast strömbrytaren](../../../../../translated_images/wio-terminal-c-button.73df3cb1c1445ea0.sv.png)
 
     ```cpp
     pinMode(WIO_KEY_C, INPUT_PULLUP);

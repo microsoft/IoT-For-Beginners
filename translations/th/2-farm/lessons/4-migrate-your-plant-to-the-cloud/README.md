@@ -72,7 +72,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Azure เป็นคลาวด์สำหรับนักพัฒนาจาก Microsoft และเป็นคลาวด์ที่คุณจะใช้ในบทเรียนนี้ วิดีโอด้านล่างให้ภาพรวมสั้น ๆ เกี่ยวกับ Azure:
 
-[![วิดีโอภาพรวมของ Azure](../../../../../translated_images/what-is-azure-video-thumbnail.20174db09e03bbb87d213f928d3cb27410305d2e567e952827de8478dbda959b.th.png)](https://www.microsoft.com/videoplayer/embed/RE4Ibng?WT.mc_id=academic-17441-jabenn)
+[![วิดีโอภาพรวมของ Azure](../../../../../translated_images/what-is-azure-video-thumbnail.20174db09e03bbb8.th.png)](https://www.microsoft.com/videoplayer/embed/RE4Ibng?WT.mc_id=academic-17441-jabenn)
 
 ## สร้างการสมัครใช้งานคลาวด์
 

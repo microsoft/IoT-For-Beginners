@@ -65,7 +65,7 @@ Varje växtart har olika värden för sin bas-, optimala och maximala temperatur
 
 ✅ Gör lite efterforskningar. För några växter du har i din trädgård, skola eller lokala park, se om du kan hitta deras bas-temperatur.
 
-![En graf som visar tillväxthastigheten öka när temperaturen stiger, för att sedan minska när temperaturen blir för hög](../../../../../translated_images/plant-growth-temp-graph.c6d69c9478e6ca832baa8dcb8d4adcbb67304074ce50e94ac8faae95975177f9.sv.png)
+![En graf som visar tillväxthastigheten öka när temperaturen stiger, för att sedan minska när temperaturen blir för hög](../../../../../translated_images/plant-growth-temp-graph.c6d69c9478e6ca83.sv.png)
 
 Grafen ovan visar ett exempel på en tillväxthastighet i förhållande till temperatur. Upp till bas-temperaturen sker ingen tillväxt. Tillväxthastigheten ökar upp till den optimala temperaturen och minskar sedan efter att ha nått denna topp. Vid maxtemperaturen upphör tillväxten.
 
@@ -141,7 +141,7 @@ Detta har en stor arbetskraftspåverkan på en stor gård och riskerar att bonde
 
 Genom att samla in temperaturdata med en IoT-enhet kan en bonde automatiskt bli meddelad när växter är nära mognad. En typisk arkitektur för detta är att IoT-enheterna mäter temperaturen och sedan publicerar denna telemetridata över Internet med något som MQTT. Serverkod lyssnar sedan på denna data och sparar den någonstans, till exempel i en databas. Detta innebär att data kan analyseras senare, till exempel ett nattligt jobb för att beräkna dagens GDD, summera GDD för varje gröda hittills och varna om en växt är nära mognad.
 
-![Telemetridata skickas till en server och sparas sedan i en databas](../../../../../translated_images/save-telemetry-database.ddc9c6bea0c5ba39449966a463ca6748cd8e2d565dab44ff31c9f1d2f6c21d27.sv.png)
+![Telemetridata skickas till en server och sparas sedan i en databas](../../../../../translated_images/save-telemetry-database.ddc9c6bea0c5ba39.sv.png)
 
 Serverkoden kan också komplettera data genom att lägga till extra information. Till exempel kan IoT-enheten publicera en identifierare för att indikera vilken enhet det är, och serverkoden kan använda detta för att slå upp enhetens plats och vilka grödor den övervakar. Den kan också lägga till grundläggande data som aktuell tid, eftersom vissa IoT-enheter inte har den nödvändiga hårdvaran för att hålla reda på en exakt tid eller kräver ytterligare kod för att läsa aktuell tid över Internet.
 
@@ -228,7 +228,7 @@ Den här koden öppnar CSV-filen och lägger till en ny rad i slutet. Raden inne
 
     
 > 💁 Om du använder en virtuell IoT-enhet, välj kryssrutan för slumpmässighet och ställ in ett intervall för att undvika att få samma temperatur varje gång temperaturen returneras.
-    ![Välj kryssrutan för slumpmässighet och ställ in ett intervall](../../../../../translated_images/select-the-random-checkbox-and-set-a-range.32cf4bc7c12e797f8c76616b10c7c23a6592321bb1a6310e0b481e72f97d23b3.sv.png) 
+    ![Välj kryssrutan för slumpmässighet och ställ in ett intervall](../../../../../translated_images/select-the-random-checkbox-and-set-a-range.32cf4bc7c12e797f.sv.png) 
 
     > 💁 Om du vill köra detta under en hel dag måste du se till att datorn som din serverkod körs på inte går i viloläge, antingen genom att ändra dina energisparinställningar eller genom att köra något som [detta Python-skript för att hålla systemet aktivt](https://github.com/jaqsparow/keep-system-active).
     

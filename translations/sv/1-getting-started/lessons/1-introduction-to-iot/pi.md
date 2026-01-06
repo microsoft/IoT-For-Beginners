@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 [Raspberry Pi](https://raspberrypi.org) är en enkortsdator. Du kan lägga till sensorer och aktuatorer med hjälp av en mängd olika enheter och ekosystem, och för dessa lektioner använder vi ett hårdvaruekosystem som heter [Grove](https://www.seeedstudio.com/category/Grove-c-1003.html). Du kommer att programmera din Pi och använda Grove-sensorerna med Python.
 
-![En Raspberry Pi 4](../../../../../translated_images/raspberry-pi-4.fd4590d308c3d456db1327e86b395ddcd735513267aafd4879ea2785f7792eac.sv.jpg)
+![En Raspberry Pi 4](../../../../../translated_images/raspberry-pi-4.fd4590d308c3d456.sv.jpg)
 
 ## Installation
 
@@ -112,7 +112,7 @@ Installera det headless Pi OS.
 
 1. I Raspberry Pi Imager, välj **CHOOSE OS**-knappen och välj *Raspberry Pi OS (Other)*, följt av *Raspberry Pi OS Lite (32-bit)*.
 
-    ![Raspberry Pi Imager med Raspberry Pi OS Lite valt](../../../../../translated_images/raspberry-pi-imager.24aedeab9e233d841a1504ed7cfeb871b1f8e1134cfcd8370e7f60a092056be2.sv.png)
+    ![Raspberry Pi Imager med Raspberry Pi OS Lite valt](../../../../../translated_images/raspberry-pi-imager.24aedeab9e233d84.sv.png)
 
     > 💁 Raspberry Pi OS Lite är en version av Raspberry Pi OS som inte har desktop-UI eller UI-baserade verktyg. Dessa behövs inte för en headless Pi och gör installationen mindre och uppstarten snabbare.
 
@@ -251,7 +251,7 @@ Skapa Hello World-appen.
 
 1. Öppna denna mapp i VS Code genom att välja *File -> Open...* och välja mappen *nightlight*, klicka sedan på **OK**.
 
-    ![Dialogrutan för att öppna filer i VS Code som visar mappen nightlight](../../../../../translated_images/vscode-open-nightlight-remote.d3d2a4011e30d535c4b70084f6e94bf6b5b1327fd8e77affe64465ac151ee766.sv.png)
+    ![Dialogrutan för att öppna filer i VS Code som visar mappen nightlight](../../../../../translated_images/vscode-open-nightlight-remote.d3d2a4011e30d535.sv.png)
 
 1. Öppna filen `app.py` från VS Code Explorer och lägg till följande kod:
 

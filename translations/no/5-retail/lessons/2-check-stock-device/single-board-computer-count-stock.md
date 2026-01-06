@@ -81,7 +81,7 @@ Som et nyttig feilsøkingssteg kan du ikke bare skrive ut avgrensningsboksene, m
 
 1. Kjør appen med kameraet rettet mot noe lager på en hylle. Du vil se filen `image.jpg` i VS Code explorer, og du vil kunne velge den for å se avgrensningsboksene.
 
-    ![4 bokser med tomatpuré med avgrensningsbokser rundt hver boks](../../../../../translated_images/rpi-stock-with-bounding-boxes.b5540e2ecb7cd49f1271828d3be412671d950e87625c5597ea97c90f11e01097.no.jpg)
+    ![4 bokser med tomatpuré med avgrensningsbokser rundt hver boks](../../../../../translated_images/rpi-stock-with-bounding-boxes.b5540e2ecb7cd49f.no.jpg)
 
 ## Tell lagerbeholdning
 

@@ -97,15 +97,15 @@ Kryptering finns i två typer – symmetrisk och asymmetrisk.
 
 **Symmetrisk** kryptering använder samma nyckel för att kryptera och dekryptera data. Både avsändaren och mottagaren måste känna till samma nyckel. Detta är den minst säkra typen, eftersom nyckeln måste delas på något sätt. För att en avsändare ska kunna skicka ett krypterat meddelande till en mottagare kan avsändaren först behöva skicka nyckeln till mottagaren.
 
-![Symmetrisk nyckelkryptering använder samma nyckel för att kryptera och dekryptera ett meddelande](../../../../../translated_images/send-message-symmetric-key.a2e8ad0d495896ffcdf15d25bb4491c695a5cb851457b359fb0f0c89d67707c9.sv.png)
+![Symmetrisk nyckelkryptering använder samma nyckel för att kryptera och dekryptera ett meddelande](../../../../../translated_images/send-message-symmetric-key.a2e8ad0d495896ff.sv.png)
 
 Om nyckeln blir stulen under överföringen, eller om avsändaren eller mottagaren blir hackad och nyckeln hittas, kan krypteringen knäckas.
 
-![Symmetrisk nyckelkryptering är endast säker om en hackare inte får tag på nyckeln – om så är fallet kan de avlyssna och dekryptera meddelandet](../../../../../translated_images/send-message-symmetric-key-hacker.e7cb53db1707adfb1486a8144060cb76435fe8dbdede8cecc09e7d15b2d9a251.sv.png)
+![Symmetrisk nyckelkryptering är endast säker om en hackare inte får tag på nyckeln – om så är fallet kan de avlyssna och dekryptera meddelandet](../../../../../translated_images/send-message-symmetric-key-hacker.e7cb53db1707adfb.sv.png)
 
 **Asymmetrisk** kryptering använder två nycklar – en krypteringsnyckel och en dekrypteringsnyckel, kallad en offentlig/privat nyckelpar. Den offentliga nyckeln används för att kryptera meddelandet, men kan inte användas för att dekryptera det, den privata nyckeln används för att dekryptera meddelandet men kan inte användas för att kryptera det.
 
-![Asymmetrisk kryptering använder en annan nyckel för att kryptera och dekryptera. Krypteringsnyckeln skickas till alla meddelandeavsändare så att de kan kryptera ett meddelande innan det skickas till mottagaren som äger nycklarna](../../../../../translated_images/send-message-asymmetric.7abe327c62615b8c19805252af5d4b6c5e7aaeb8fbc455efeff866fe2d300b62.sv.png)
+![Asymmetrisk kryptering använder en annan nyckel för att kryptera och dekryptera. Krypteringsnyckeln skickas till alla meddelandeavsändare så att de kan kryptera ett meddelande innan det skickas till mottagaren som äger nycklarna](../../../../../translated_images/send-message-asymmetric.7abe327c62615b8c.sv.png)
 
 Mottagaren delar sin offentliga nyckel, och avsändaren använder denna för att kryptera meddelandet. När meddelandet skickas dekrypterar mottagaren det med sin privata nyckel. Asymmetrisk kryptering är säkrare eftersom den privata nyckeln hålls privat av mottagaren och aldrig delas. Alla kan ha den offentliga nyckeln eftersom den endast kan användas för att kryptera meddelanden.
 
@@ -165,7 +165,7 @@ Dessa certifikat har ett antal fält, inklusive vem den offentliga nyckeln komme
 
 När du använder X.509-certifikat kommer både avsändaren och mottagaren att ha sina egna offentliga och privata nycklar, samt båda ha X.509-certifikat som innehåller den offentliga nyckeln. De utbyter sedan X.509-certifikat på något sätt, använder varandras offentliga nycklar för att kryptera data de skickar och sin egen privata nyckel för att dekryptera data de tar emot.
 
-![Istället för att dela en offentlig nyckel kan du dela ett certifikat. Användaren av certifikatet kan verifiera att det kommer från dig genom att kontrollera med certifikatutfärdaren som signerade det.](../../../../../translated_images/send-message-certificate.9cc576ac1e46b76eb58ebc8eedaa522566fa0700076da46f5180aad78c2435db.sv.png)
+![Istället för att dela en offentlig nyckel kan du dela ett certifikat. Användaren av certifikatet kan verifiera att det kommer från dig genom att kontrollera med certifikatutfärdaren som signerade det.](../../../../../translated_images/send-message-certificate.9cc576ac1e46b76e.sv.png)
 
 En stor fördel med att använda X.509-certifikat är att de kan delas mellan enheter. Du kan skapa ett certifikat, ladda upp det till IoT Hub och använda detta för alla dina enheter. Varje enhet behöver då bara känna till den privata nyckeln för att dekryptera meddelanden den tar emot från IoT Hub.
 

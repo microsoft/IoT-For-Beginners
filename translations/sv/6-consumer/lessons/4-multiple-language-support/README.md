@@ -130,7 +130,7 @@ För denna lektion behöver du en översättningsresurs. Du kommer att använda 
 
 I en idealisk värld bör hela din applikation förstå så många olika språk som möjligt, från att lyssna på tal, till språkförståelse, till att svara med tal. Detta är mycket arbete, så översättningstjänster kan påskynda leveranstiden för din applikation.
 
-![En smart timer-arkitektur som översätter japanska till engelska, bearbetar på engelska och sedan översätter tillbaka till japanska](../../../../../translated_images/translated-smart-timer.08ac20057fdc5c3778ed41cb425dca5d7fbcd4584b6da7b73ca67115a5b8a883.sv.png)
+![En smart timer-arkitektur som översätter japanska till engelska, bearbetar på engelska och sedan översätter tillbaka till japanska](../../../../../translated_images/translated-smart-timer.08ac20057fdc5c37.sv.png)
 
 Föreställ dig att du bygger en smart timer som använder engelska från början till slut, förstår talad engelska och konverterar det till text, kör språkförståelse på engelska, bygger upp svar på engelska och svarar med engelskt tal. Om du ville lägga till stöd för japanska, skulle du kunna börja med att översätta talad japanska till engelsk text, sedan behålla kärnan i applikationen densamma, och sedan översätta svarstexten till japanska innan du talar svaret. Detta skulle göra det möjligt för dig att snabbt lägga till stöd för japanska, och du kan expandera till att erbjuda fullständigt stöd för japanska senare.
 

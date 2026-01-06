@@ -33,7 +33,7 @@ Anslut temperatursensorn.
 
 1. Med Wio Terminal frånkopplad från din dator eller annan strömkälla, anslut den andra änden av Grove-kabeln till det högra Grove-uttaget på Wio Terminal när du tittar på skärmen. Detta är uttaget längst bort från strömbrytaren.
 
-![Grove-temperatursensorn ansluten till det högra uttaget](../../../../../translated_images/wio-temperature-sensor.2934928f38c7f79a68d24879d2c8986c78244696f931e2e33c293f426ecdc0ad.sv.png)
+![Grove-temperatursensorn ansluten till det högra uttaget](../../../../../translated_images/wio-temperature-sensor.2934928f38c7f79a.sv.png)
 
 ## Programmera temperatursensorn
 

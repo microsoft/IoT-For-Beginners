@@ -61,7 +61,7 @@ De nyeste utviklingene av disse sorteringsmaskinene drar nytte av AI og ML, ved 
 
 Tradisjonell programmering innebærer at du tar data, bruker en algoritme på dataene, og får et resultat. For eksempel, i det forrige prosjektet tok du GPS-koordinater og en geofence, brukte en algoritme levert av Azure Maps, og fikk tilbake et resultat om punktet var innenfor eller utenfor geofencen. Du gir mer data, du får mer output.
 
-![Tradisjonell utvikling tar input og en algoritme og gir output. Maskinlæring bruker input og output-data for å trene en modell, og denne modellen kan ta nye input-data for å generere nye output](../../../../../translated_images/traditional-vs-ml.5c20c169621fa539ca84a2cd9a49f6ff7410b3a6c6b46c97ff2af3f99db3c66b.no.png)
+![Tradisjonell utvikling tar input og en algoritme og gir output. Maskinlæring bruker input og output-data for å trene en modell, og denne modellen kan ta nye input-data for å generere nye output](../../../../../translated_images/traditional-vs-ml.5c20c169621fa539.no.png)
 
 Maskinlæring snur dette rundt – du starter med data og kjente resultater, og maskinlæringsalgoritmen lærer fra dataene. Du kan deretter ta den trente algoritmen, kalt en *maskinlæringsmodell* eller *modell*, og gi den nye data for å få nye resultater.
 
@@ -87,7 +87,7 @@ For å trene en bildegjenkjenner med suksess trenger du millioner av bilder. Det
 
 Når en bildegjenkjenner har blitt trent på et bredt spekter av bilder, er dens interne mekanismer gode til å gjenkjenne former, farger og mønstre. Transfer learning lar modellen bruke det den allerede har lært om å gjenkjenne bildeelementer, og bruke det til å gjenkjenne nye bilder.
 
-![Når du kan gjenkjenne former, kan de settes sammen i ulike konfigurasjoner for å lage en båt eller en katt](../../../../../translated_images/shapes-to-images.1a309f0ea88dd66fafa4da6d38e88806ce174cc6a88081efb32852230ed55de8.no.png)
+![Når du kan gjenkjenne former, kan de settes sammen i ulike konfigurasjoner for å lage en båt eller en katt](../../../../../translated_images/shapes-to-images.1a309f0ea88dd66f.no.png)
 
 Du kan tenke på dette som barnebøker om former, der du, når du kan gjenkjenne en halvsirkel, et rektangel og en trekant, kan gjenkjenne en seilbåt eller en katt avhengig av konfigurasjonen av disse formene. Bildegjenkjenneren kan gjenkjenne formene, og transfer learning lærer den hvilken kombinasjon som utgjør en båt eller en katt – eller en moden banan.
 

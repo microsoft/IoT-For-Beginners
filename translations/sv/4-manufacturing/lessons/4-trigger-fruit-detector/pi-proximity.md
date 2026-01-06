@@ -35,7 +35,7 @@ Anslut Time of Flight-sensorn.
 
 1. Med Raspberry Pi avstängd, anslut den andra änden av Grove-kabeln till en av I²C-kontakterna markerade **I²C** på Grove Base-hatten som är ansluten till Pi. Dessa kontakter finns på den nedre raden, motsatt sida till GPIO-stiften och bredvid kamerakabelns plats.
 
-![Grove Time of Flight-sensorn ansluten till I²C-kontakten](../../../../../translated_images/pi-time-of-flight-sensor.58c8dc04eb3bfb57a7c3019f031433ef4d798d4d7603d565afbf6f3802840dba.sv.png)
+![Grove Time of Flight-sensorn ansluten till I²C-kontakten](../../../../../translated_images/pi-time-of-flight-sensor.58c8dc04eb3bfb57.sv.png)
 
 ## Programmera Time of Flight-sensorn
 
@@ -106,7 +106,7 @@ Programmera enheten.
 
     Avståndsmätaren sitter på baksidan av sensorn, så se till att använda rätt sida när du mäter avstånd.
 
-    ![Avståndsmätaren på baksidan av Time of Flight-sensorn pekar på en banan](../../../../../translated_images/time-of-flight-banana.079921ad8b1496e4525dc26b4cdc71a076407aba3e72ba113ba2e38febae92c5.sv.png)
+    ![Avståndsmätaren på baksidan av Time of Flight-sensorn pekar på en banan](../../../../../translated_images/time-of-flight-banana.079921ad8b1496e4.sv.png)
 
 > 💁 Du kan hitta denna kod i mappen [code-proximity/pi](../../../../../4-manufacturing/lessons/4-trigger-fruit-detector/code-proximity/pi).
 

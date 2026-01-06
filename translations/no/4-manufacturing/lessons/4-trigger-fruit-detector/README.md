@@ -115,7 +115,7 @@ For prototypen vil du implementere alt dette på en enkelt enhet. Hvis du bruker
 
 IoT-enheten trenger en slags trigger for å indikere når frukten er klar til å klassifiseres. En trigger for dette kan være å måle når frukten er på riktig sted på samlebåndet ved å måle avstanden til en sensor.
 
-![Nærhetssensorer sender laserstråler til objekter som bananer og måler tiden det tar før strålen reflekteres tilbake](../../../../../translated_images/proximity-sensor.f5cd752c77fb62fea000156233b32fd24fad3707ec69b8bdd8d312b7af85156d.no.png)
+![Nærhetssensorer sender laserstråler til objekter som bananer og måler tiden det tar før strålen reflekteres tilbake](../../../../../translated_images/proximity-sensor.f5cd752c77fb62fe.no.png)
 
 Nærhetssensorer kan brukes til å måle avstanden fra sensoren til et objekt. De sender vanligvis ut en stråle av elektromagnetisk stråling, som en laserstråle eller infrarødt lys, og oppdager deretter strålingen som reflekteres fra et objekt. Tiden mellom laserstrålen som sendes og signalet som reflekteres tilbake kan brukes til å beregne avstanden til sensoren.
 

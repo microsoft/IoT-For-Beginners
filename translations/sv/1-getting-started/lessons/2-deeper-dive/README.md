@@ -41,7 +41,7 @@ De två huvudkomponenterna i en IoT-applikation är *Internet* och *saken*. Låt
 
 ### Saken
 
-![En Raspberry Pi 4](../../../../../translated_images/raspberry-pi-4.fd4590d308c3d456db1327e86b395ddcd735513267aafd4879ea2785f7792eac.sv.jpg)
+![En Raspberry Pi 4](../../../../../translated_images/raspberry-pi-4.fd4590d308c3d456.sv.jpg)
 
 **Saken** i IoT syftar på en enhet som kan interagera med den fysiska världen. Dessa enheter är vanligtvis små, prisvärda datorer som arbetar med låg hastighet och låg strömförbrukning - till exempel enkla mikrokontroller med några kilobyte RAM (jämfört med gigabyte i en PC) som körs på bara några hundra megahertz (jämfört med gigahertz i en PC), men som ibland förbrukar så lite ström att de kan drivas i veckor, månader eller till och med år på batterier.
 
@@ -67,7 +67,7 @@ I exemplet med en smart termostat skulle termostaten ansluta via hemmets WiFi ti
 
 En ännu smartare version skulle kunna använda AI i molnet med data från andra sensorer anslutna till andra IoT-enheter, såsom rörelsesensorer som upptäcker vilka rum som används, samt data som väder och till och med din kalender, för att fatta beslut om hur temperaturen ska ställas in på ett smart sätt. Till exempel skulle den kunna stänga av värmen om den läser från din kalender att du är på semester, eller stänga av värmen rum för rum beroende på vilka rum du använder, och lära sig från datan för att bli mer och mer exakt över tid.
 
-![Ett diagram som visar flera temperatursensorer och en ratt som indata till en IoT-enhet, IoT-enheten med tvåvägskommunikation till molnet, som i sin tur har tvåvägskommunikation till en telefon, en kalender och en vädertjänst, och styrning av en värmare som utdata från IoT-enheten](../../../../../translated_images/smarter-thermostat.a75855f15d2d9e63d5da9d7ba5847a987f6c9d98e96e770c203532275194e27d.sv.png)
+![Ett diagram som visar flera temperatursensorer och en ratt som indata till en IoT-enhet, IoT-enheten med tvåvägskommunikation till molnet, som i sin tur har tvåvägskommunikation till en telefon, en kalender och en vädertjänst, och styrning av en värmare som utdata från IoT-enheten](../../../../../translated_images/smarter-thermostat.a75855f15d2d9e63.sv.png)
 
 ✅ Vilka andra data skulle kunna hjälpa till att göra en Internetansluten termostat smartare?
 
@@ -135,7 +135,7 @@ Precis som med CPU:n är minnet i en mikrokontroller många gånger mindre än i
 
 Diagrammet nedan visar den relativa storleksskillnaden mellan 192KB och 8GB - den lilla pricken i mitten representerar 192KB.
 
-![En jämförelse mellan 192KB och 8GB - mer än 40 000 gånger större](../../../../../translated_images/ram-comparison.6beb73541b42ac6ffde64cdf79fc925a84b932ce7ebd4d41d5fd7afc1257a696.sv.png)
+![En jämförelse mellan 192KB och 8GB - mer än 40 000 gånger större](../../../../../translated_images/ram-comparison.6beb73541b42ac6f.sv.png)
 
 Programlagring är också mindre än i en PC. En typisk PC kan ha en hårddisk på 500GB för programlagring, medan en mikrokontroller kan ha bara kilobyte eller kanske några megabyte (MB) lagring (1MB är 1 000KB, eller 1 000 000 byte). Wio-terminalen har 4MB programlagring.
 
@@ -211,17 +211,17 @@ I förra lektionen introducerade vi enkortsdatorer. Låt oss nu titta djupare p�
 
 ### Raspberry Pi
 
-![Raspberry Pi-logotypen](../../../../../translated_images/raspberry-pi-logo.4efaa16605cee05489d8fa53941e991b3757aa24c20a95abdcf8cfd761953596.sv.png)
+![Raspberry Pi-logotypen](../../../../../translated_images/raspberry-pi-logo.4efaa16605cee054.sv.png)
 
 [Raspberry Pi Foundation](https://www.raspberrypi.org) är en välgörenhetsorganisation från Storbritannien som grundades 2009 för att främja studier i datavetenskap, särskilt på skolnivå. Som en del av detta uppdrag utvecklade de en enkortsdator, kallad Raspberry Pi. Raspberry Pi finns för närvarande i tre varianter - en fullstor version, den mindre Pi Zero, och en beräkningsmodul som kan byggas in i din slutliga IoT-enhet.
 
-![En Raspberry Pi 4](../../../../../translated_images/raspberry-pi-4.fd4590d308c3d456db1327e86b395ddcd735513267aafd4879ea2785f7792eac.sv.jpg)
+![En Raspberry Pi 4](../../../../../translated_images/raspberry-pi-4.fd4590d308c3d456.sv.jpg)
 
 Den senaste iterationen av den fullstora Raspberry Pi är Raspberry Pi 4B. Den har en fyrkärnig (4 kärnor) CPU som körs på 1.5GHz, 2, 4 eller 8GB RAM, gigabit ethernet, WiFi, 2 HDMI-portar som stöder 4k-skärmar, en ljud- och kompositvideoutgångsport, USB-portar (2 USB 2.0, 2 USB 3.0), 40 GPIO-pinnar, en kamerakontakt för en Raspberry Pi-kameramodul och en SD-kortplats. Allt detta på ett kort som är 88mm x 58mm x 19.5mm och drivs av en 3A USB-C strömadapter. Dessa börjar på US$35, mycket billigare än en PC eller Mac.
 
 > 💁 Det finns också en Pi400 allt-i-ett-dator med en Pi4 inbyggd i ett tangentbord.
 
-![En Raspberry Pi Zero](../../../../../translated_images/raspberry-pi-zero.f7a4133e1e7d54bb3dbb32319b217a53c5b94871995a54647f2894b54206b8d8.sv.jpg)
+![En Raspberry Pi Zero](../../../../../translated_images/raspberry-pi-zero.f7a4133e1e7d54bb.sv.jpg)
 
 Pi Zero är mycket mindre, med lägre effekt. Den har en enkelkärnig 1GHz CPU, 512MB RAM, WiFi (i Zero W-modellen), en enda HDMI-port, en mikro-USB-port, 40 GPIO-pinnar, en kamerakontakt för en Raspberry Pi-kameramodul och en SD-kortplats. Den mäter 65mm x 30mm x 5mm och drar väldigt lite ström. Zero kostar US$5, med W-versionen med WiFi US$10.
 

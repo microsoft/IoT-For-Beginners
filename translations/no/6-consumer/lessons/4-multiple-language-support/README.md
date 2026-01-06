@@ -130,7 +130,7 @@ For denne leksjonen trenger du en oversetterressurs. Du vil bruke REST API-en ti
 
 I en ideell verden bør hele applikasjonen din forstå så mange forskjellige språk som mulig, fra å lytte til tale, til språkforståelse, til å svare med tale. Dette er mye arbeid, så oversettelsestjenester kan fremskynde leveringstiden for applikasjonen din.
 
-![En smart timer-arkitektur som oversetter japansk til engelsk, behandler på engelsk og deretter oversetter tilbake til japansk](../../../../../translated_images/translated-smart-timer.08ac20057fdc5c3778ed41cb425dca5d7fbcd4584b6da7b73ca67115a5b8a883.no.png)
+![En smart timer-arkitektur som oversetter japansk til engelsk, behandler på engelsk og deretter oversetter tilbake til japansk](../../../../../translated_images/translated-smart-timer.08ac20057fdc5c37.no.png)
 
 Tenk deg at du bygger en smart timer som bruker engelsk fra ende til ende, forstår talt engelsk og konverterer det til tekst, kjører språkforståelse på engelsk, bygger opp svar på engelsk og svarer med engelsk tale. Hvis du ønsket å legge til støtte for japansk, kunne du starte med å oversette talt japansk til engelsk tekst, deretter holde kjernen i applikasjonen den samme, og deretter oversette svarteksten til japansk før du snakker svaret. Dette ville tillate deg å raskt legge til støtte for japansk, og du kan senere utvide til å tilby fullstendig ende-til-ende-støtte for japansk.
 

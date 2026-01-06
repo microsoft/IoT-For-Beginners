@@ -72,7 +72,7 @@ Molnleverantören kan sedan använda stordriftsfördelar för att sänka kostnad
 
 Azure är utvecklarmolnet från Microsoft, och det är det moln du kommer att använda i dessa lektioner. Videon nedan ger en kort översikt av Azure:
 
-[![Översikt av Azure-video](../../../../../translated_images/what-is-azure-video-thumbnail.20174db09e03bbb87d213f928d3cb27410305d2e567e952827de8478dbda959b.sv.png)](https://www.microsoft.com/videoplayer/embed/RE4Ibng?WT.mc_id=academic-17441-jabenn)
+[![Översikt av Azure-video](../../../../../translated_images/what-is-azure-video-thumbnail.20174db09e03bbb8.sv.png)](https://www.microsoft.com/videoplayer/embed/RE4Ibng?WT.mc_id=academic-17441-jabenn)
 
 ## Skapa ett molnabonnemang
 

@@ -64,7 +64,7 @@ Anslut Wio Terminal till WiFi.
 
 1. Skapa en ny fil i mappen `src` som heter `config.h`. Du kan göra detta genom att välja mappen `src` eller filen `main.cpp` inuti och klicka på knappen **New file** i utforskaren. Den här knappen visas bara när din markör är över utforskaren.
 
-    ![Knappen för ny fil](../../../../../translated_images/vscode-new-file-button.182702340fe6723c8cbb4cfa1a9a9fb0d0a5227643b4e46b91ff67b07a39a92f.sv.png)
+    ![Knappen för ny fil](../../../../../translated_images/vscode-new-file-button.182702340fe6723c.sv.png)
 
 1. Lägg till följande kod i den här filen för att definiera konstanter för dina WiFi-uppgifter:
 

@@ -126,7 +126,7 @@ När entiteterna är definierade skapar du intentioner. Dessa lärs av modellen 
 
 Du anger sedan för LUIS vilka delar av dessa meningar som motsvarar entiteter:
 
-![Meningen "ställ in en timer för 1 minut och 12 sekunder" uppdelad i entiteter](../../../../../translated_images/sentence-as-intent-entities.301401696f9922590a99343f5c5d211b710b906f212f0d4d034cee3ffb610272.sv.png)
+![Meningen "ställ in en timer för 1 minut och 12 sekunder" uppdelad i entiteter](../../../../../translated_images/sentence-as-intent-entities.301401696f992259.sv.png)
 
 Meningen `ställ in en timer för 1 minut och 12 sekunder` har intentionen `ställ in timer`. Den har också 2 entiteter med 2 värden vardera:
 

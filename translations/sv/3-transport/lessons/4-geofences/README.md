@@ -110,7 +110,7 @@ Varje punkt på polygonen definieras som ett longitud-, latitudpar i en array, o
 
 Polygonens koordinat-array har alltid 1 mer post än antalet punkter på polygonen, där den sista posten är densamma som den första, vilket stänger polygonen. Till exempel, för en rektangel skulle det finnas 5 punkter.
 
-![En rektangel med koordinater](../../../../../translated_images/polygon-points.302193da381cb415f46c2c7a98496ee4be05d6c73d21238a89721ad93e121233.sv.png)
+![En rektangel med koordinater](../../../../../translated_images/polygon-points.302193da381cb415.sv.png)
 
 I bilden ovan finns en rektangel. Polygonens koordinater börjar i det övre vänstra hörnet vid 47,-122, sedan rör sig till höger till 47,-121, sedan ner till 46,-121, sedan till vänster till 46,-122, och sedan tillbaka upp till startpunkten vid 47,-122. Detta ger polygonen 5 punkter - övre vänster, övre höger, nedre höger, nedre vänster och sedan övre vänster för att stänga den.
 
@@ -208,7 +208,7 @@ När du gör denna förfrågan kan du också skicka ett värde som kallas `searc
 
 När resultaten returneras från API-anropet är en av delarna i resultatet ett `distance`-värde som mäts till den närmaste punkten på kanten av geofencen, med ett positivt värde om punkten är utanför geofencen och ett negativt värde om den är innanför. Om detta avstånd är mindre än sökbufferten returneras det faktiska avståndet i meter, annars är värdet 999 eller -999. 999 betyder att punkten är utanför geofencen med mer än sökbufferten, -999 betyder att den är innanför geofencen med mer än sökbufferten.
 
-![En geofence med en 50 m sökbuffer runt den](../../../../../translated_images/search-buffer-and-distance.e6a79af3898183c7b2ef6fbf12271b8b34afd23969bb946962b1b18d3d2635e8.sv.png)
+![En geofence med en 50 m sökbuffer runt den](../../../../../translated_images/search-buffer-and-distance.e6a79af3898183c7.sv.png)
 
 I bilden ovan har geofencen en 50 m sökbuffer.
 
