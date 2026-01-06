@@ -64,7 +64,7 @@ Wio Terminal을 WiFi에 연결하세요.
 
 1. `src` 폴더에 `config.h`라는 새 파일을 만드세요. 이를 위해 `src` 폴더 또는 그 안의 `main.cpp` 파일을 선택한 후 탐색기에서 **새 파일** 버튼을 선택하세요. 이 버튼은 탐색기 위에 커서를 올려놓았을 때만 나타납니다.
 
-    ![새 파일 버튼](../../../../../translated_images/vscode-new-file-button.182702340fe6723c8cbb4cfa1a9a9fb0d0a5227643b4e46b91ff67b07a39a92f.ko.png)
+    ![새 파일 버튼](../../../../../translated_images/vscode-new-file-button.182702340fe6723c.ko.png)
 
 1. WiFi 자격 증명을 위한 상수를 정의하는 다음 코드를 이 파일에 추가하세요:
 

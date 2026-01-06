@@ -81,7 +81,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 1. カメラを棚の在庫に向けてアプリを実行してください。VS Codeのエクスプローラーで`image.jpg`ファイルが表示され、バウンディングボックスを確認できます。
 
-    ![4つのトマトペースト缶にバウンディングボックスが描かれている](../../../../../translated_images/rpi-stock-with-bounding-boxes.b5540e2ecb7cd49f1271828d3be412671d950e87625c5597ea97c90f11e01097.ja.jpg)
+    ![4つのトマトペースト缶にバウンディングボックスが描かれている](../../../../../translated_images/rpi-stock-with-bounding-boxes.b5540e2ecb7cd49f.ja.jpg)
 
 ## 在庫をカウントする
 

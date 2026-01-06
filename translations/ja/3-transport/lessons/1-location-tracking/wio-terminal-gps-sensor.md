@@ -33,7 +33,7 @@ GPSセンサーを接続します。
 
 1. Wio Terminalをコンピュータやその他の電源から切断した状態で、Groveケーブルのもう片方の端をWio Terminalの画面左側のGroveソケットに接続します。このソケットは電源ボタンに最も近いソケットです。
 
-    ![左側のソケットに接続されたGrove GPSセンサー](../../../../../translated_images/wio-gps-sensor.19fd52b81ce58095d5deb3d4e5a1fdd88818d76569b00b1f0d740c92dc986525.ja.png)
+    ![左側のソケットに接続されたGrove GPSセンサー](../../../../../translated_images/wio-gps-sensor.19fd52b81ce58095.ja.png)
 
 1. GPSセンサーを配置し、接続されたアンテナが空を見渡せるようにします。理想的には窓の近くや屋外に置くと良いです。アンテナに障害物がない方が信号を受信しやすくなります。
 

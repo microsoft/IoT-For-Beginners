@@ -33,11 +33,11 @@ Grove土壌水分センサーは、Wio Terminalのアナログ/デジタルポ�
 
 1. Wio Terminalをコンピュータや他の電源から切り離した状態で、Groveケーブルのもう一方の端をWio Terminalの画面右側のGroveソケットに接続します。このソケットは電源ボタンから最も遠いソケットです。
 
-![右側のソケットに接続されたGrove土壌水分センサー](../../../../../translated_images/wio-soil-moisture-sensor.46919b61c3f6cb7497662251b29038ee0e57a4c8b9d071feb996c3b0d7f65aaf.ja.png)
+![右側のソケットに接続されたGrove土壌水分センサー](../../../../../translated_images/wio-soil-moisture-sensor.46919b61c3f6cb74.ja.png)
 
 1. 土壌水分センサーを土に挿します。センサーには「最高挿入ライン」と呼ばれる白い線が引かれています。この線までセンサーを挿し込み、それ以上は挿し込まないでください。
 
-![土に挿されたGrove土壌水分センサー](../../../../../translated_images/soil-moisture-sensor-in-soil.bfad91002bda5e960f8c51ee64b02ee59b32c8c717e3515a2c945f33e614e403.ja.png)
+![土に挿されたGrove土壌水分センサー](../../../../../translated_images/soil-moisture-sensor-in-soil.bfad91002bda5e96.ja.png)
 
 1. これでWio Terminalをコンピュータに接続できます。
 

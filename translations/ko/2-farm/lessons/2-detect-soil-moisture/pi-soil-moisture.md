@@ -37,7 +37,7 @@ Grove 토양 수분 센서를 Raspberry Pi에 연결할 수 있습니다.
 
 1. 토양에 토양 수분 센서를 삽입합니다. 센서에는 '최고 위치 라인'이라는 흰색 선이 있습니다. 이 선까지 센서를 삽입하되, 선을 넘지 않도록 합니다.
 
-![토양에 삽입된 Grove 토양 수분 센서](../../../../../translated_images/soil-moisture-sensor-in-soil.bfad91002bda5e960f8c51ee64b02ee59b32c8c717e3515a2c945f33e614e403.ko.png)
+![토양에 삽입된 Grove 토양 수분 센서](../../../../../translated_images/soil-moisture-sensor-in-soil.bfad91002bda5e96.ko.png)
 
 ## 토양 수분 센서 프로그래밍하기
 

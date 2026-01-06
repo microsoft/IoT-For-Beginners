@@ -79,7 +79,7 @@ IoT를 배우거나 장치 프로토타입을 만드는 개발자로서, 개발 
 
 마이크로컨트롤러는 일반적으로 저비용 컴퓨팅 장치로, 맞춤형 하드웨어에 사용되는 평균 가격은 약 0.50달러이며, 일부 장치는 0.03달러만큼 저렴합니다. 개발 키트는 4달러부터 시작하며, 기능이 추가될수록 비용이 증가합니다. [Seeed Studios](https://www.seeedstudio.com)의 마이크로컨트롤러 개발 키트인 [Wio Terminal](https://www.seeedstudio.com/Wio-Terminal-p-4509.html)은 센서, 액추에이터, WiFi 및 화면을 포함하며 약 30달러에 판매됩니다.
 
-![Wio Terminal](../../../../../translated_images/wio-terminal.b8299ee16587db9aa9e05fabf9721bccd9eb8fb541b7c1a8267241282d81b603.ko.png)
+![Wio Terminal](../../../../../translated_images/wio-terminal.b8299ee16587db9a.ko.png)
 
 > 💁 인터넷에서 마이크로컨트롤러를 검색할 때 **MCU**라는 용어를 검색하면 마이크로컨트롤러가 아닌 마블 시네마틱 유니버스(Marvel Cinematic Universe)에 대한 결과가 많이 나올 수 있으니 주의하세요.
 
@@ -93,7 +93,7 @@ IoT를 배우거나 장치 프로토타입을 만드는 개발자로서, 개발 
 
 싱글보드 컴퓨터는 모든 컴퓨터 구성 요소가 하나의 작은 보드에 포함된 소형 컴퓨팅 장치입니다. 이러한 장치는 데스크톱 또는 노트북 PC나 Mac과 유사한 사양을 가지고 있으며, 전체 운영 체제를 실행할 수 있지만 크기가 작고, 전력을 적게 사용하며, 비용이 훨씬 저렴합니다.
 
-![Raspberry Pi 4](../../../../../translated_images/raspberry-pi-4.fd4590d308c3d456db1327e86b395ddcd735513267aafd4879ea2785f7792eac.ko.jpg)
+![Raspberry Pi 4](../../../../../translated_images/raspberry-pi-4.fd4590d308c3d456.ko.jpg)
 
 Raspberry Pi는 가장 인기 있는 싱글보드 컴퓨터 중 하나입니다.
 

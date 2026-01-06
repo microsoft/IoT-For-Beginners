@@ -46,7 +46,7 @@ IoT 디바이스는 클라우드로부터 메시지를 받을 수 있습니다. 
 
 IoT 디바이스가 인터넷과 통신하기 위해 사용하는 여러 인기 있는 통신 프로토콜이 있습니다. 가장 널리 사용되는 프로토콜은 브로커를 통해 게시/구독 메시징을 기반으로 합니다. IoT 디바이스는 브로커에 연결하여 원격 측정을 게시하고 명령을 구독합니다. 클라우드 서비스도 브로커에 연결하여 모든 원격 측정 메시지를 구독하고 특정 디바이스나 디바이스 그룹에 명령을 게시합니다.
 
-![IoT 디바이스는 브로커에 연결하여 원격 측정을 게시하고 명령을 구독합니다. 클라우드 서비스는 브로커에 연결하여 모든 원격 측정을 구독하고 특정 디바이스에 명령을 보냅니다.](../../../../../translated_images/pub-sub.7c7ed43fe9fd15d4e1f81a3fd95440413c457acd9bcbe9a43341e30e88db5264.ko.png)
+![IoT 디바이스는 브로커에 연결하여 원격 측정을 게시하고 명령을 구독합니다. 클라우드 서비스는 브로커에 연결하여 모든 원격 측정을 구독하고 특정 디바이스에 명령을 보냅니다.](../../../../../translated_images/pub-sub.7c7ed43fe9fd15d4.ko.png)
 
 MQTT는 IoT 디바이스에서 가장 인기 있는 통신 프로토콜이며, 이번 강의에서 다룹니다. 그 외에도 AMQP와 HTTP/HTTPS 같은 프로토콜이 있습니다.
 
@@ -115,7 +115,7 @@ MQTT 연결은 공개적이고 개방적일 수도 있고, 사용자 이름과 �
 
 Lesson 1에서 다룬 스마트 온도 조절기의 예를 다시 살펴봅시다.
 
-![여러 방 센서를 사용하는 인터넷 연결 온도 조절기](../../../../../translated_images/telemetry.21e5d8b97649d2ebeb0f68d4b9691ab2d1f7bd629338e131465aff8a614e4d4a.ko.png)
+![여러 방 센서를 사용하는 인터넷 연결 온도 조절기](../../../../../translated_images/telemetry.21e5d8b97649d2eb.ko.png)
 
 온도 조절기는 원격 측정을 위해 온도 센서를 사용합니다. 내장된 온도 센서가 하나 있을 가능성이 높으며, [Bluetooth Low Energy](https://wikipedia.org/wiki/Bluetooth_Low_Energy) (BLE)와 같은 무선 프로토콜을 통해 여러 외부 온도 센서와 연결될 수 있습니다.
 
@@ -267,11 +267,11 @@ Python 가상 환경을 구성하고 MQTT pip 패키지를 설치하세요.
 
 1. VS Code가 실행되면 Python 가상 환경이 활성화됩니다. 이는 하단 상태 표시줄에 표시됩니다:
 
-    ![VS Code에서 선택된 가상 환경 표시](../../../../../translated_images/vscode-virtual-env.8ba42e04c3d533cf677e16cbe5ed9a3b80f62c6964472dc84b6f940800f0909f.ko.png)
+    ![VS Code에서 선택된 가상 환경 표시](../../../../../translated_images/vscode-virtual-env.8ba42e04c3d533cf.ko.png)
 
 1. VS Code가 시작될 때 VS Code 터미널이 이미 실행 중이라면 가상 환경이 활성화되지 않을 수 있습니다. 가장 쉬운 방법은 **활성 터미널 인스턴스 종료** 버튼을 사용하여 터미널을 종료하는 것입니다:
 
-    ![VS Code 활성 터미널 인스턴스 종료 버튼](../../../../../translated_images/vscode-kill-terminal.1cc4de7c6f25ee08f423f0ead714e61d069fac1eb2089e97b8a7bbcb3d45fe5e.ko.png)
+    ![VS Code 활성 터미널 인스턴스 종료 버튼](../../../../../translated_images/vscode-kill-terminal.1cc4de7c6f25ee08.ko.png)
 
 1. *Terminal -> New Terminal*을 선택하거나 `` CTRL+` ``를 눌러 새 VS Code 터미널을 실행하세요. 새 터미널은 가상 환경을 로드하며, 터미널에 활성화 명령어가 표시됩니다. 가상 환경 이름(`.venv`)도 프롬프트에 표시됩니다:
 

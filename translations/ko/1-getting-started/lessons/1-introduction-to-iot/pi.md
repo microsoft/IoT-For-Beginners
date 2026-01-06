@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 [Raspberry Pi](https://raspberrypi.org)는 단일 보드 컴퓨터입니다. 다양한 장치와 생태계를 사용하여 센서와 액추에이터를 추가할 수 있으며, 이 레슨에서는 [Grove](https://www.seeedstudio.com/category/Grove-c-1003.html)라는 하드웨어 생태계를 사용합니다. Python을 사용하여 Pi를 코딩하고 Grove 센서에 접근할 수 있습니다.
 
-![라즈베리 파이 4](../../../../../translated_images/raspberry-pi-4.fd4590d308c3d456db1327e86b395ddcd735513267aafd4879ea2785f7792eac.ko.jpg)
+![라즈베리 파이 4](../../../../../translated_images/raspberry-pi-4.fd4590d308c3d456.ko.jpg)
 
 ## 설정
 
@@ -112,7 +112,7 @@ Pi에서 직접 코딩하는 대신, 키보드/마우스/모니터에 연결하�
 
 1. Raspberry Pi Imager에서 **CHOOSE OS** 버튼을 선택한 후 *Raspberry Pi OS (Other)*를 선택하고 *Raspberry Pi OS Lite (32-bit)*를 선택하세요.
 
-    ![Raspberry Pi Imager에서 Raspberry Pi OS Lite 선택](../../../../../translated_images/raspberry-pi-imager.24aedeab9e233d841a1504ed7cfeb871b1f8e1134cfcd8370e7f60a092056be2.ko.png)
+    ![Raspberry Pi Imager에서 Raspberry Pi OS Lite 선택](../../../../../translated_images/raspberry-pi-imager.24aedeab9e233d84.ko.png)
 
     > 💁 Raspberry Pi OS Lite는 데스크톱 UI나 UI 기반 도구가 없는 Raspberry Pi OS 버전입니다. 헤드리스 Pi에는 이러한 도구가 필요하지 않으며 설치 크기를 줄이고 부팅 시간을 단축합니다.
 
@@ -251,7 +251,7 @@ Hello World 앱을 만드세요.
 
 1. VS Code에서 *File -> Open...*을 선택하여 *nightlight* 폴더를 열고 **OK**를 선택하세요.
 
-    ![VS Code 열기 대화창에서 nightlight 폴더를 보여주는 화면](../../../../../translated_images/vscode-open-nightlight-remote.d3d2a4011e30d535c4b70084f6e94bf6b5b1327fd8e77affe64465ac151ee766.ko.png)
+    ![VS Code 열기 대화창에서 nightlight 폴더를 보여주는 화면](../../../../../translated_images/vscode-open-nightlight-remote.d3d2a4011e30d535.ko.png)
 
 1. VS Code 탐색기에서 `app.py` 파일을 열고 아래 코드를 추가하세요:
 

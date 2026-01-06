@@ -41,7 +41,7 @@ IoTアプリケーションの構成要素は、*インターネット*と*モ�
 
 ### モノ（Thing）
 
-![Raspberry Pi 4](../../../../../translated_images/raspberry-pi-4.fd4590d308c3d456db1327e86b395ddcd735513267aafd4879ea2785f7792eac.ja.jpg)
+![Raspberry Pi 4](../../../../../translated_images/raspberry-pi-4.fd4590d308c3d456.ja.jpg)
 
 IoTの**モノ（Thing）**部分は、物理的な世界とやり取りできるデバイスを指します。これらのデバイスは通常、小型で低価格のコンピュータであり、低速で動作し、低電力を使用します。例えば、数キロバイトのRAM（PCのギガバイトとは対照的）を持ち、数百メガヘルツ（PCのギガヘルツとは対照的）で動作するシンプルなマイクロコントローラーが挙げられます。これらは非常に少ない電力で動作するため、バッテリーで数週間、数ヶ月、さらには数年も稼働することが可能です。
 
@@ -67,7 +67,7 @@ IoTアプリケーションの**インターネット**側は、IoTデバイス�
 
 さらにスマートなバージョンでは、クラウド内のAIが、他のIoTデバイスに接続された占有センサー（どの部屋が使用されているかを検知するセンサー）などの他のセンサーからのデータや、天気、さらにはカレンダーのデータを使用して、スマートに温度を設定する意思決定を行うことができます。例えば、カレンダーから休暇中であることを読み取って暖房をオフにしたり、使用する部屋に応じて部屋ごとに暖房をオフにしたりすることができます。このようなデータから学習し、時間とともにますます正確になることができます。
 
-![複数の温度センサーとダイヤルをIoTデバイスへの入力として示し、クラウドとの双方向通信、クラウドとスマートフォン、カレンダー、天気サービスとの双方向通信、IoTデバイスからの出力としてのヒーター制御を示す図](../../../../../translated_images/smarter-thermostat.a75855f15d2d9e63d5da9d7ba5847a987f6c9d98e96e770c203532275194e27d.ja.png)
+![複数の温度センサーとダイヤルをIoTデバイスへの入力として示し、クラウドとの双方向通信、クラウドとスマートフォン、カレンダー、天気サービスとの双方向通信、IoTデバイスからの出力としてのヒーター制御を示す図](../../../../../translated_images/smarter-thermostat.a75855f15d2d9e63.ja.png)
 
 ✅ インターネット接続されたサーモスタットをよりスマートにするために役立つ他のデータは何でしょうか？
 
@@ -129,7 +129,7 @@ CPUと同様に、マイクロコントローラーのメモリはPCやMacに比
 
 以下の図は192KBと8GBの相対的なサイズの違いを示しています。中央の小さな点が192KBを表しています。
 
-![192KBと8GBの比較 - 40,000倍以上の差](../../../../../translated_images/ram-comparison.6beb73541b42ac6ffde64cdf79fc925a84b932ce7ebd4d41d5fd7afc1257a696.ja.png)
+![192KBと8GBの比較 - 40,000倍以上の差](../../../../../translated_images/ram-comparison.6beb73541b42ac6f.ja.png)
 
 プログラムの保存容量もPCより小さいです。典型的なPCはプログラム保存用に500GBのハードドライブを持っていますが、マイクロコントローラーはキロバイト、または数メガバイト（MB）の保存容量しか持たないことがあります（1MBは1,000KB、つまり1,000,000バイト）。Wio Terminalは4MBのプログラム保存容量を持っています。
 
@@ -205,17 +205,17 @@ Wio Terminalを調査してみましょう。
 
 ### Raspberry Pi
 
-![Raspberry Piのロゴ](../../../../../translated_images/raspberry-pi-logo.4efaa16605cee05489d8fa53941e991b3757aa24c20a95abdcf8cfd761953596.ja.png)
+![Raspberry Piのロゴ](../../../../../translated_images/raspberry-pi-logo.4efaa16605cee054.ja.png)
 
 [Raspberry Pi Foundation](https://www.raspberrypi.org)は、2009年に英国で設立された慈善団体で、特に学校レベルでのコンピューターサイエンスの学習を促進することを目的としています。この使命の一環として、シングルボードコンピューターであるRaspberry Piを開発しました。現在、Raspberry Piはフルサイズ版、小型のPi Zero、最終的なIoTデバイスに組み込むことができるコンピュートモジュールの3種類が販売されています。
 
-![Raspberry Pi 4](../../../../../translated_images/raspberry-pi-4.fd4590d308c3d456db1327e86b395ddcd735513267aafd4879ea2785f7792eac.ja.jpg)
+![Raspberry Pi 4](../../../../../translated_images/raspberry-pi-4.fd4590d308c3d456.ja.jpg)
 
 フルサイズの最新バージョンはRaspberry Pi 4Bです。これは1.5GHzで動作するクアッドコア（4コア）CPU、2、4、または8GBのRAM、ギガビットイーサネット、WiFi、4kスクリーンをサポートする2つのHDMIポート、オーディオおよびコンポジットビデオ出力ポート、USBポート（USB 2.0が2つ、USB 3.0が2つ）、40 GPIOピン、Raspberry Piカメラモジュール用のカメラコネクタ、SDカードスロットを備えています。これらすべてが88mm x 58mm x 19.5mmのボードに収まり、3AのUSB-C電源で動作します。価格は35米ドルからで、PCやMacよりもはるかに安価です。
 
 > 💁 Pi4がキーボードに組み込まれたオールインワンコンピューターであるPi400もあります。
 
-![Raspberry Pi Zero](../../../../../translated_images/raspberry-pi-zero.f7a4133e1e7d54bb3dbb32319b217a53c5b94871995a54647f2894b54206b8d8.ja.jpg)
+![Raspberry Pi Zero](../../../../../translated_images/raspberry-pi-zero.f7a4133e1e7d54bb.ja.jpg)
 
 Pi Zeroはさらに小型で低消費電力です。1GHzのシングルコアCPU、512MBのRAM、WiFi（Zero Wモデル）、1つのHDMIポート、1つのマイクロUSBポート、40 GPIOピン、Raspberry Piカメラモジュール用のカメラコネクタ、SDカードスロットを備えています。サイズは65mm x 30mm x 5mmで、非常に少ない電力を消費します。Zeroは5米ドル、WiFi付きのWバージョンは10米ドルです。
 

@@ -66,7 +66,7 @@ IoT 데이터는 일반적으로 비구조화된 데이터로 간주됩니다.
 
 초기 데이터베이스는 관계형 데이터베이스 관리 시스템(RDBMS) 또는 관계형 데이터베이스로 알려졌습니다. 이러한 데이터베이스는 Structured Query Language(SQL)를 사용하여 데이터를 추가, 제거, 업데이트 또는 쿼리하는 방식으로 작동하며, SQL 데이터베이스로 알려져 있습니다. 이 데이터베이스는 스키마로 구성되며, 이는 스프레드시트와 유사한 잘 정의된 데이터 테이블 세트입니다. 각 테이블에는 여러 개의 이름이 지정된 열이 있습니다. 데이터를 삽입할 때, 테이블에 행을 추가하고 각 열에 값을 입력합니다. 이는 데이터를 매우 고정된 구조로 유지합니다. 열을 비워둘 수는 있지만, 새 열을 추가하려면 데이터베이스에서 이를 추가하고 기존 행에 값을 채워야 합니다. 이러한 데이터베이스는 관계형입니다. 즉, 한 테이블이 다른 테이블과 관계를 맺을 수 있습니다.
 
-![User 테이블의 ID가 Purchases 테이블의 user ID 열과 관계를 맺고, Products 테이블의 ID가 Purchases 테이블의 product ID와 관계를 맺는 관계형 데이터베이스](../../../../../translated_images/sql-database.be160f12bfccefd3ca718a66468c2c4c89c53e5aad4c295324d576da87f9dfdd.ko.png)
+![User 테이블의 ID가 Purchases 테이블의 user ID 열과 관계를 맺고, Products 테이블의 ID가 Purchases 테이블의 product ID와 관계를 맺는 관계형 데이터베이스](../../../../../translated_images/sql-database.be160f12bfccefd3.ko.png)
 
 예를 들어, 사용자의 개인 정보를 테이블에 저장한다고 가정하면, 각 사용자마다 고유한 내부 ID가 있으며, 이는 사용자의 이름과 주소를 포함하는 테이블의 행에 사용됩니다. 사용자의 구매 내역과 같은 다른 세부 정보를 다른 테이블에 저장하려면, 새 테이블에 사용자의 ID를 나타내는 열이 하나 있어야 합니다. 사용자를 조회할 때, 해당 ID를 사용하여 한 테이블에서 개인 정보를 가져오고, 다른 테이블에서 구매 내역을 가져올 수 있습니다.
 
@@ -241,7 +241,7 @@ Azure Storage Accounts는 다양한 방식으로 데이터를 저장할 수 있�
 
 이 레슨에서는 Python SDK를 사용하여 Blob 스토리지를 다루는 방법을 배웁니다.
 
-![IoT 장치에서 GPS 텔레메트리를 IoT Hub로 전송한 후, 이벤트 허브 트리거를 통해 Azure Functions로 전달하고 Blob 스토리지에 저장](../../../../../translated_images/save-telemetry-to-storage-from-functions.ed3b1820980097f143d9f0570072da11304c2bc7906359dfa075b4d9b253c20f.ko.png)
+![IoT 장치에서 GPS 텔레메트리를 IoT Hub로 전송한 후, 이벤트 허브 트리거를 통해 Azure Functions로 전달하고 Blob 스토리지에 저장](../../../../../translated_images/save-telemetry-to-storage-from-functions.ed3b1820980097f1.ko.png)
 
 데이터는 다음 형식의 JSON Blob으로 저장됩니다:
 

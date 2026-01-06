@@ -41,7 +41,7 @@ IoT 애플리케이션은 *인터넷*과 *사물*이라는 두 가지 구성 요
 
 ### 사물 (Thing)
 
-![라즈베리 파이 4](../../../../../translated_images/raspberry-pi-4.fd4590d308c3d456db1327e86b395ddcd735513267aafd4879ea2785f7792eac.ko.jpg)
+![라즈베리 파이 4](../../../../../translated_images/raspberry-pi-4.fd4590d308c3d456.ko.jpg)
 
 IoT의 **사물(Thing)** 부분은 물리적 세계와 상호작용할 수 있는 장치를 의미합니다. 이러한 장치는 일반적으로 작고 저렴한 컴퓨터로, 낮은 속도로 작동하며 적은 전력을 사용합니다. 예를 들어, 몇 킬로바이트의 RAM을 가진 간단한 마이크로컨트롤러(PC의 기가바이트 RAM과 비교)로 몇 백 메가헤르츠로 작동하며(PC의 기가헤르츠와 비교), 때로는 매우 적은 전력을 소비하여 배터리로 몇 주, 몇 달 또는 몇 년 동안 작동할 수 있습니다.
 
@@ -67,7 +67,7 @@ IoT 애플리케이션의 **인터넷** 측면은 IoT 장치가 데이터를 보
 
 더 스마트한 버전은 클라우드에서 AI를 사용하여 다른 IoT 장치에 연결된 점유 센서와 같은 다른 센서의 데이터, 날씨 데이터, 심지어 캘린더 데이터를 활용하여 스마트하게 온도를 설정하는 결정을 내릴 수 있습니다. 예를 들어, 캘린더에서 휴가 중이라는 정보를 읽으면 난방을 끄거나, 사용하지 않는 방의 난방을 끄는 등 데이터를 학습하여 점점 더 정확해질 수 있습니다.
 
-![여러 온도 센서와 다이얼을 IoT 장치의 입력으로, IoT 장치가 클라우드와 양방향 통신을 하고, 클라우드가 전화, 캘린더, 날씨 서비스와 양방향 통신을 하며, 히터 제어를 IoT 장치의 출력으로 보여주는 다이어그램](../../../../../translated_images/smarter-thermostat.a75855f15d2d9e63d5da9d7ba5847a987f6c9d98e96e770c203532275194e27d.ko.png)
+![여러 온도 센서와 다이얼을 IoT 장치의 입력으로, IoT 장치가 클라우드와 양방향 통신을 하고, 클라우드가 전화, 캘린더, 날씨 서비스와 양방향 통신을 하며, 히터 제어를 IoT 장치의 출력으로 보여주는 다이어그램](../../../../../translated_images/smarter-thermostat.a75855f15d2d9e63.ko.png)
 
 ✅ 인터넷에 연결된 온도 조절 장치를 더 스마트하게 만드는 데 도움이 될 수 있는 다른 데이터는 무엇일까요?
 
@@ -135,7 +135,7 @@ CPU와 마찬가지로, 마이크로컨트롤러의 메모리는 PC나 Mac에 �
 
 아래 다이어그램은 192KB와 8GB의 상대적인 크기 차이를 보여줍니다. 중앙의 작은 점이 192KB를 나타냅니다.
 
-![192KB와 8GB의 비교 - 40,000배 이상 차이](../../../../../translated_images/ram-comparison.6beb73541b42ac6ffde64cdf79fc925a84b932ce7ebd4d41d5fd7afc1257a696.ko.png)
+![192KB와 8GB의 비교 - 40,000배 이상 차이](../../../../../translated_images/ram-comparison.6beb73541b42ac6f.ko.png)
 
 프로그램 저장 공간도 PC보다 작습니다. 일반적인 PC는 프로그램 저장을 위해 500GB 하드 드라이브를 사용할 수 있지만, 마이크로컨트롤러는 킬로바이트 또는 몇 메가바이트(MB)의 저장 공간만 가질 수 있습니다(1MB는 1,000KB 또는 1,000,000 바이트). Wio 터미널은 4MB의 프로그램 저장 공간을 가지고 있습니다.
 
@@ -211,17 +211,17 @@ Wio 터미널을 조사해보세요.
 
 ### 라즈베리 파이
 
-![라즈베리 파이 로고](../../../../../translated_images/raspberry-pi-logo.4efaa16605cee05489d8fa53941e991b3757aa24c20a95abdcf8cfd761953596.ko.png)
+![라즈베리 파이 로고](../../../../../translated_images/raspberry-pi-logo.4efaa16605cee054.ko.png)
 
 [Raspberry Pi Foundation](https://www.raspberrypi.org)은 2009년 영국에서 설립된 자선 단체로, 특히 학교 수준에서 컴퓨터 과학 학습을 촉진하기 위해 설립되었습니다. 이 미션의 일환으로, Raspberry Pi라는 싱글보드 컴퓨터를 개발했습니다. 현재 Raspberry Pi는 풀 사이즈 버전, 더 작은 Pi Zero, 그리고 최종 IoT 장치에 내장할 수 있는 컴퓨트 모듈의 3가지 변형으로 제공됩니다.
 
-![라즈베리 파이 4](../../../../../translated_images/raspberry-pi-4.fd4590d308c3d456db1327e86b395ddcd735513267aafd4879ea2785f7792eac.ko.jpg)
+![라즈베리 파이 4](../../../../../translated_images/raspberry-pi-4.fd4590d308c3d456.ko.jpg)
 
 풀 사이즈 Raspberry Pi의 최신 버전은 Raspberry Pi 4B입니다. 이 보드는 1.5GHz로 작동하는 쿼드코어(4코어) CPU, 2, 4 또는 8GB의 RAM, 기가비트 이더넷, WiFi, 4k 화면을 지원하는 2개의 HDMI 포트, 오디오 및 복합 비디오 출력 포트, USB 포트(USB 2.0 2개, USB 3.0 2개), 40개의 GPIO 핀, Raspberry Pi 카메라 모듈용 카메라 커넥터, SD 카드 슬롯을 갖추고 있습니다. 이 모든 것이 88mm x 58mm x 19.5mm 크기의 보드에 포함되어 있으며, 3A USB-C 전원 공급 장치로 작동합니다. 가격은 US$35부터 시작하며, PC나 Mac보다 훨씬 저렴합니다.
 
 > 💁 Pi4가 내장된 키보드 형태의 Pi400 올인원 컴퓨터도 있습니다.
 
-![라즈베리 파이 제로](../../../../../translated_images/raspberry-pi-zero.f7a4133e1e7d54bb3dbb32319b217a53c5b94871995a54647f2894b54206b8d8.ko.jpg)
+![라즈베리 파이 제로](../../../../../translated_images/raspberry-pi-zero.f7a4133e1e7d54bb.ko.jpg)
 
 Pi Zero는 훨씬 작고 전력 소모가 적습니다. 이 보드는 1GHz 단일 코어 CPU, 512MB RAM, WiFi(Zero W 모델), 단일 HDMI 포트, 마이크로 USB 포트, 40개의 GPIO 핀, Raspberry Pi 카메라 모듈용 카메라 커넥터, SD 카드 슬롯을 갖추고 있습니다. 크기는 65mm x 30mm x 5mm이며, 전력 소모가 매우 적습니다. Zero는 US$5, WiFi가 포함된 W 버전은 US$10입니다.
 

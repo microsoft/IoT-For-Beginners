@@ -35,7 +35,7 @@ Time of Flightセンサーを接続します。
 
 1. Raspberry Piの電源をオフにした状態で、Groveケーブルのもう片方の端を、Piに取り付けられたGrove Base Hatの**I²C**と記されたソケットの1つに接続します。このソケットは下段にあり、GPIOピンの反対側で、カメラケーブルスロットの隣にあります。
 
-![I²Cソケットに接続されたGrove Time of Flightセンサー](../../../../../translated_images/pi-time-of-flight-sensor.58c8dc04eb3bfb57a7c3019f031433ef4d798d4d7603d565afbf6f3802840dba.ja.png)
+![I²Cソケットに接続されたGrove Time of Flightセンサー](../../../../../translated_images/pi-time-of-flight-sensor.58c8dc04eb3bfb57.ja.png)
 
 ## Time of Flightセンサーをプログラムする
 
@@ -106,7 +106,7 @@ Raspberry Piをプログラムして、接続されたTime of Flightセンサー
 
     測距モジュールはセンサーの背面にあるため、距離を測定する際には正しい側を使用してください。
 
-    ![バナナに向けられたTime of Flightセンサーの背面の測距モジュール](../../../../../translated_images/time-of-flight-banana.079921ad8b1496e4525dc26b4cdc71a076407aba3e72ba113ba2e38febae92c5.ja.png)
+    ![バナナに向けられたTime of Flightセンサーの背面の測距モジュール](../../../../../translated_images/time-of-flight-banana.079921ad8b1496e4.ja.png)
 
 > 💁 このコードは[code-proximity/pi](../../../../../4-manufacturing/lessons/4-trigger-fruit-detector/code-proximity/pi)フォルダーにあります。
 

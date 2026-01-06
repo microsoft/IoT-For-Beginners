@@ -79,7 +79,7 @@ IoTを学ぶ、またはデバイスのプロトタイプを作成する開発�
 
 マイクロコントローラーは通常、低コストのコンピューティングデバイスであり、カスタムハードウェアで使用されるものの平均価格は約0.50米ドル、最も安いものでは0.03米ドル程度です。開発キットは4米ドルから始まり、機能を追加するにつれてコストが上昇します。[Wio Terminal](https://www.seeedstudio.com/Wio-Terminal-p-4509.html)は、[Seeed studios](https://www.seeedstudio.com)から提供されるマイクロコントローラー開発キットで、センサー、アクチュエータ、WiFi、スクリーンを備え、約30米ドルで購入できます。
 
-![Wio Terminal](../../../../../translated_images/wio-terminal.b8299ee16587db9aa9e05fabf9721bccd9eb8fb541b7c1a8267241282d81b603.ja.png)
+![Wio Terminal](../../../../../translated_images/wio-terminal.b8299ee16587db9a.ja.png)
 
 > 💁 インターネットでマイクロコントローラーを検索する際は、**MCU**という用語を検索する際に注意してください。これは、マイクロコントローラーではなく、マーベル・シネマティック・ユニバース（Marvel Cinematic Universe）に関する多くの結果を返す可能性があります。
 
@@ -93,7 +93,7 @@ IoTを学ぶ、またはデバイスのプロトタイプを作成する開発�
 
 シングルボードコンピューターは、すべての要素が1つの小さなボードに収められた小型のコンピューティングデバイスです。これらは、デスクトップやノートPC、Macに近い仕様を持ち、完全なオペレーティングシステムを実行しますが、小型で、消費電力が少なく、非常に安価です。
 
-![Raspberry Pi 4](../../../../../translated_images/raspberry-pi-4.fd4590d308c3d456db1327e86b395ddcd735513267aafd4879ea2785f7792eac.ja.jpg)
+![Raspberry Pi 4](../../../../../translated_images/raspberry-pi-4.fd4590d308c3d456.ja.jpg)
 
 Raspberry Piは、最も人気のあるシングルボードコンピューターの1つです。
 

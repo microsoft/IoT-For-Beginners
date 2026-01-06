@@ -81,7 +81,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 1. ऐप को चलाएं और कैमरे को शेल्फ पर रखे स्टॉक की ओर इंगित करें। आप VS Code एक्सप्लोरर में `image.jpg` फ़ाइल देखेंगे और इसे चुनकर बाउंडिंग बॉक्स देख सकेंगे।
 
-    ![4 टमाटर पेस्ट के डिब्बे, जिनके चारों ओर बाउंडिंग बॉक्स हैं](../../../../../translated_images/rpi-stock-with-bounding-boxes.b5540e2ecb7cd49f1271828d3be412671d950e87625c5597ea97c90f11e01097.hi.jpg)
+    ![4 टमाटर पेस्ट के डिब्बे, जिनके चारों ओर बाउंडिंग बॉक्स हैं](../../../../../translated_images/rpi-stock-with-bounding-boxes.b5540e2ecb7cd49f.hi.jpg)
 
 ## स्टॉक गिनें
 

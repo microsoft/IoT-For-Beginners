@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 [Raspberry Pi](https://raspberrypi.org) はシングルボードコンピュータです。さまざまなデバイスやエコシステムを使用してセンサーやアクチュエータを追加することができ、このレッスンでは [Grove](https://www.seeedstudio.com/category/Grove-c-1003.html) というハードウェアエコシステムを使用します。Pythonを使ってRaspberry Piをプログラミングし、Groveセンサーにアクセスします。
 
-![Raspberry Pi 4](../../../../../translated_images/raspberry-pi-4.fd4590d308c3d456db1327e86b395ddcd735513267aafd4879ea2785f7792eac.ja.jpg)
+![Raspberry Pi 4](../../../../../translated_images/raspberry-pi-4.fd4590d308c3d456.ja.jpg)
 
 ## セットアップ
 
@@ -112,7 +112,7 @@ Pi上で直接コードを書く代わりに、キーボード/マウス/モニ�
 
 1. Raspberry Pi Imagerで**CHOOSE OS**ボタンを選択し、*Raspberry Pi OS (Other)*を選択した後、*Raspberry Pi OS Lite (32-bit)*を選択します。
 
-    ![Raspberry Pi ImagerでRaspberry Pi OS Liteを選択](../../../../../translated_images/raspberry-pi-imager.24aedeab9e233d841a1504ed7cfeb871b1f8e1134cfcd8370e7f60a092056be2.ja.png)
+    ![Raspberry Pi ImagerでRaspberry Pi OS Liteを選択](../../../../../translated_images/raspberry-pi-imager.24aedeab9e233d84.ja.png)
 
     > 💁 Raspberry Pi OS Liteは、デスクトップUIやUIベースのツールが含まれていないRaspberry Pi OSのバージョンです。ヘッドレスPiにはこれらは必要なく、インストールサイズが小さくなり、起動時間が短縮されます。
 
@@ -251,7 +251,7 @@ Hello Worldアプリを作成します。
 
 1. *File -> Open...*を選択し、*nightlight*フォルダーを選択して**OK**をクリックして、このフォルダーをVS Codeで開きます。
 
-    ![VS Codeのオープンダイアログでnightlightフォルダーが表示されている](../../../../../translated_images/vscode-open-nightlight-remote.d3d2a4011e30d535c4b70084f6e94bf6b5b1327fd8e77affe64465ac151ee766.ja.png)
+    ![VS Codeのオープンダイアログでnightlightフォルダーが表示されている](../../../../../translated_images/vscode-open-nightlight-remote.d3d2a4011e30d535.ja.png)
 
 1. VS Codeエクスプローラーから`app.py`ファイルを開き、以下のコードを追加します：
 

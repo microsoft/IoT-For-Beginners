@@ -37,7 +37,7 @@ Grove 土壌水分センサーを Raspberry Pi に接続できます。
 
 1. 土壌水分センサーを土に挿します。センサーには「最高挿入ライン」があり、白い線で示されています。このラインまで（ラインを超えないように）センサーを挿入します。
 
-![土に挿された Grove 土壌水分センサー](../../../../../translated_images/soil-moisture-sensor-in-soil.bfad91002bda5e960f8c51ee64b02ee59b32c8c717e3515a2c945f33e614e403.ja.png)
+![土に挿された Grove 土壌水分センサー](../../../../../translated_images/soil-moisture-sensor-in-soil.bfad91002bda5e96.ja.png)
 
 ## 土壌水分センサーをプログラムする
 

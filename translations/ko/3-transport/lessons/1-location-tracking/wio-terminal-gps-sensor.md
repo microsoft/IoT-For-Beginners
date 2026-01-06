@@ -33,7 +33,7 @@ GPS 센서를 연결하세요.
 
 1. Wio Terminal이 컴퓨터나 다른 전원 공급 장치에 연결되지 않은 상태에서, Grove 케이블의 다른 쪽 끝을 Wio Terminal 화면을 기준으로 왼쪽에 있는 Grove 소켓에 연결하세요. 이 소켓은 전원 버튼에 가장 가까운 소켓입니다.
 
-    ![왼쪽 소켓에 연결된 Grove GPS 센서](../../../../../translated_images/wio-gps-sensor.19fd52b81ce58095d5deb3d4e5a1fdd88818d76569b00b1f0d740c92dc986525.ko.png)
+    ![왼쪽 소켓에 연결된 Grove GPS 센서](../../../../../translated_images/wio-gps-sensor.19fd52b81ce58095.ko.png)
 
 1. GPS 센서를 배치할 때, 연결된 안테나가 하늘을 볼 수 있는 위치에 두세요. 이상적으로는 창문 옆이나 야외에 두는 것이 좋습니다. 안테나에 장애물이 없을수록 신호가 더 잘 잡힙니다.
 

@@ -17,7 +17,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 लाइट सेंसर Wio Terminal में अंतर्निहित है और पीछे की पारदर्शी प्लास्टिक खिड़की के माध्यम से दिखाई देता है।
 
-![Wio Terminal के पीछे का लाइट सेंसर](../../../../../translated_images/wio-light-sensor.b1f529f3c95f51654f2e2c1d2d4b55fe547d189f588c974f5c2462c728133840.hi.png)
+![Wio Terminal के पीछे का लाइट सेंसर](../../../../../translated_images/wio-light-sensor.b1f529f3c95f5165.hi.png)
 
 ## लाइट सेंसर को प्रोग्राम करें
 

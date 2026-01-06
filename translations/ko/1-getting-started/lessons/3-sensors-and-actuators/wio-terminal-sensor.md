@@ -17,7 +17,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 광 센서는 Wio Terminal에 내장되어 있으며, 뒷면의 투명한 플라스틱 창을 통해 볼 수 있습니다.
 
-![Wio Terminal 뒷면의 광 센서](../../../../../translated_images/wio-light-sensor.b1f529f3c95f51654f2e2c1d2d4b55fe547d189f588c974f5c2462c728133840.ko.png)
+![Wio Terminal 뒷면의 광 센서](../../../../../translated_images/wio-light-sensor.b1f529f3c95f5165.ko.png)
 
 ## 광 센서 프로그래밍하기
 

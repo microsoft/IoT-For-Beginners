@@ -21,7 +21,7 @@ IoT-এ **T** মানে **থিংস** এবং এটি এমন ডি
 
 ## কিট কিনুন
 
-![Seeed studios লোগো](../../translated_images/seeed-logo.74732b6b482b6e8e8bdcc06f0541fc92b1dabf5e3e8f37afb91e04393a8cb977.bn.png)
+![Seeed studios লোগো](../../translated_images/seeed-logo.74732b6b482b6e8e.bn.png)
 
 Seeed Studios খুবই সদয়ভাবে সমস্ত হার্ডওয়্যার সহজে কেনার কিট হিসেবে সরবরাহ করেছে:
 
@@ -29,7 +29,7 @@ Seeed Studios খুবই সদয়ভাবে সমস্ত হার্
 
 **[Seeed এবং Microsoft-এর সাথে IoT শিক্ষার্থীদের জন্য - Wio টার্মিনাল স্টার্টার কিট](https://www.seeedstudio.com/IoT-for-beginners-with-Seeed-and-Microsoft-Wio-Terminal-Starter-Kit-p-5006.html)**
 
-[![Wio টার্মিনাল হার্ডওয়্যার কিট](../../translated_images/wio-hardware-kit.4c70c48b85e4283a1d73e248d87d49587c0cd077eeb69cb3eca803166f63c9a5.bn.png)](https://www.seeedstudio.com/IoT-for-beginners-with-Seeed-and-Microsoft-Wio-Terminal-Starter-Kit-p-5006.html)
+[![Wio টার্মিনাল হার্ডওয়্যার কিট](../../translated_images/wio-hardware-kit.4c70c48b85e4283a.bn.png)](https://www.seeedstudio.com/IoT-for-beginners-with-Seeed-and-Microsoft-Wio-Terminal-Starter-Kit-p-5006.html)
 
 ### Raspberry Pi
 

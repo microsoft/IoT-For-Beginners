@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 [Seeed Studios의 Wio Terminal](https://www.seeedstudio.com/Wio-Terminal-p-4509.html)은 WiFi와 일부 센서 및 액추에이터가 내장된 Arduino 호환 마이크로컨트롤러입니다. 또한 [Grove](https://www.seeedstudio.com/category/Grove-c-1003.html)라는 하드웨어 생태계를 사용하여 더 많은 센서와 액추에이터를 추가할 수 있는 포트를 제공합니다.
 
-![Seeed Studios의 Wio Terminal](../../../../../translated_images/wio-terminal.b8299ee16587db9aa9e05fabf9721bccd9eb8fb541b7c1a8267241282d81b603.ko.png)
+![Seeed Studios의 Wio Terminal](../../../../../translated_images/wio-terminal.b8299ee16587db9a.ko.png)
 
 ## 설정
 
@@ -51,15 +51,15 @@ PlatformIO 프로젝트를 생성하세요.
 
 1. PlatformIO 아이콘이 사이드 메뉴 바에 표시됩니다:
 
-    ![Platform IO 메뉴 옵션](../../../../../translated_images/vscode-platformio-menu.297be26b9733e5c4635d9d8e636e93fed2015809eafb7cc8fd409c37b3ef2ef5.ko.png)
+    ![Platform IO 메뉴 옵션](../../../../../translated_images/vscode-platformio-menu.297be26b9733e5c4.ko.png)
 
     이 메뉴 항목을 선택한 후 *PIO Home -> Open*을 선택하세요.
 
-    ![Platform IO 열기 옵션](../../../../../translated_images/vscode-platformio-home-open.3f9a41bfd3f4da1c866ec3e69f1675faa30b823b5b58ab58ac88e5df9a85da19.ko.png)
+    ![Platform IO 열기 옵션](../../../../../translated_images/vscode-platformio-home-open.3f9a41bfd3f4da1c.ko.png)
 
 1. 환영 화면에서 **+ New Project** 버튼을 선택하세요.
 
-    ![새 프로젝트 버튼](../../../../../translated_images/vscode-platformio-welcome-new-button.ba6fc8a4c7b78cc822e1ce47ba29c5db96668cce7c5f4adbfd2f1196422baa26.ko.png)
+    ![새 프로젝트 버튼](../../../../../translated_images/vscode-platformio-welcome-new-button.ba6fc8a4c7b78cc8.ko.png)
 
 1. *Project Wizard*에서 프로젝트를 구성하세요:
 
@@ -73,7 +73,7 @@ PlatformIO 프로젝트를 생성하세요.
 
     1. **Finish** 버튼을 선택하세요.
 
-    ![완료된 프로젝트 마법사](../../../../../translated_images/vscode-platformio-nightlight-project-wizard.5c64db4da6037420827c2597507897233457210ee23975711fa2285efdcd0dc7.ko.png)
+    ![완료된 프로젝트 마법사](../../../../../translated_images/vscode-platformio-nightlight-project-wizard.5c64db4da6037420.ko.png)
 
     PlatformIO는 Wio Terminal의 코드를 컴파일하는 데 필요한 구성 요소를 다운로드하고 프로젝트를 생성합니다. 이 과정은 몇 분 정도 걸릴 수 있습니다.
 
@@ -179,7 +179,7 @@ Hello World 앱을 작성하세요.
 
     1. `PlatformIO Upload`를 입력하여 업로드 옵션을 검색하고 *PlatformIO: Upload*를 선택하세요.
 
-        ![명령 팔레트에서 PlatformIO 업로드 옵션](../../../../../translated_images/vscode-platformio-upload-command-palette.9e0f49cf80d1f1c3eb5c6689b8705ad8b89f0374b21698e996fec11e4ed09347.ko.png)
+        ![명령 팔레트에서 PlatformIO 업로드 옵션](../../../../../translated_images/vscode-platformio-upload-command-palette.9e0f49cf80d1f1c3.ko.png)
 
         PlatformIO는 필요할 경우 자동으로 코드를 빌드한 후 업로드합니다.
 
@@ -195,7 +195,7 @@ PlatformIO에는 Wio Terminal에서 USB 케이블을 통해 전송된 데이터�
 
 1. `PlatformIO Serial`을 입력하여 Serial Monitor 옵션을 검색하고 *PlatformIO: Serial Monitor*를 선택하세요.
 
-    ![명령 팔레트에서 PlatformIO Serial Monitor 옵션](../../../../../translated_images/vscode-platformio-serial-monitor-command-palette.b348ec841b8a1c14af503d6fc0bf73c657c79c9acc12a6b6dd485ce3b5826f48.ko.png)
+    ![명령 팔레트에서 PlatformIO Serial Monitor 옵션](../../../../../translated_images/vscode-platformio-serial-monitor-command-palette.b348ec841b8a1c14.ko.png)
 
     새 터미널이 열리고 직렬 포트를 통해 전송된 데이터가 이 터미널에 스트리밍됩니다:
 

@@ -33,7 +33,7 @@ Grove温度センサーは、Wio Terminalのデジタルポートに接続でき
 
 1. Wio Terminalをコンピューターや他の電源から切り離した状態で、Groveケーブルのもう片方の端をWio Terminalの画面右側のGroveソケットに接続します。このソケットは電源ボタンから最も遠い位置にあります。
 
-![右側のソケットに接続されたGrove温度センサー](../../../../../translated_images/wio-temperature-sensor.2934928f38c7f79a68d24879d2c8986c78244696f931e2e33c293f426ecdc0ad.ja.png)
+![右側のソケットに接続されたGrove温度センサー](../../../../../translated_images/wio-temperature-sensor.2934928f38c7f79a.ja.png)
 
 ## 温度センサーをプログラムする
 
