@@ -64,7 +64,7 @@ Mikrofonlar çeşitli türlerde gelir:
 
 * Şerit - Şerit mikrofonlar, dinamik mikrofonlara benzer, ancak bir diyafram yerine metal bir şerit kullanır. Bu şerit, bir manyetik alan içinde hareket ederek bir elektrik akımı üretir. Dinamik mikrofonlar gibi, şerit mikrofonların çalışması için güce ihtiyaç yoktur.
 
-    ![Edmund Lowe, Amerikan aktör, bir radyo mikrofonunun (NBC Blue Network olarak etiketlenmiş) önünde, elinde senaryo ile, 1942](../../../../../translated_images/ribbon-mic.eacc8e092c7441caee6d7a81e2f40e1675bf36269848964c7c09c9a9acb05127.tr.jpg)
+    ![Edmund Lowe, Amerikan aktör, bir radyo mikrofonunun (NBC Blue Network olarak etiketlenmiş) önünde, elinde senaryo ile, 1942](../../../../../translated_images/ribbon-mic.eacc8e092c7441ca.tr.jpg)
 
 * Kondansatör - Kondansatör mikrofonlarda ince bir metal diyafram ve sabit bir metal arka plaka bulunur. Her ikisine de elektrik uygulanır ve diyafram titreştikçe plakalar arasındaki statik yük değişerek bir sinyal oluşturur. Kondansatör mikrofonların çalışması için güce ihtiyaç vardır - buna *Phantom power* denir.
 
@@ -84,7 +84,7 @@ Ses, çok ince ayrıntılı bilgileri taşıyan bir analog sinyaldir. Bu sinyali
 
 > 🎓 Örnekleme, ses sinyalini belirli bir anda temsil eden dijital bir değere dönüştürmektir.
 
-![Bir sinyali gösteren bir çizgi grafiği, sabit aralıklarla ayrık noktalar](../../../../../translated_images/sampling.6f4fadb3f2d9dfe7618f9edfe75a350e6b3f74293ec84f02ab69c19d2afe3d73.tr.png)
+![Bir sinyali gösteren bir çizgi grafiği, sabit aralıklarla ayrık noktalar](../../../../../translated_images/sampling.6f4fadb3f2d9dfe7.tr.png)
 
 Dijital ses, Darbe Kod Modülasyonu (Pulse Code Modulation - PCM) kullanılarak örneklenir. PCM, sinyalin voltajını okuyup, bu voltaja en yakın ayrık değeri tanımlı bir boyut kullanarak seçmeyi içerir.
 

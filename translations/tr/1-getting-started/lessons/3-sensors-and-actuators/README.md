@@ -75,7 +75,7 @@ En temel sensörlerden bazıları analog sensörlerdir. Bu sensörler, IoT cihaz
 
 Bunun bir örneği bir potansiyometredir. Bu, iki pozisyon arasında döndürebileceğiniz bir kadrandır ve sensör dönüşü ölçer.
 
-![5 volt gönderilen ve 3.8 volt dönen orta noktaya ayarlanmış bir potansiyometre](../../../../../translated_images/potentiometer.35a348b9ce22f6ec1199ad37d68692d04185456ccbc2541a454bb6698be9f19c.tr.png)
+![5 volt gönderilen ve 3.8 volt dönen orta noktaya ayarlanmış bir potansiyometre](../../../../../translated_images/potentiometer.35a348b9ce22f6ec.tr.png)
 
 IoT cihazı, potansiyometreye bir voltajda (örneğin 5 volt) bir elektrik sinyali gönderir. Potansiyometre ayarlandıkça, diğer taraftan çıkan voltaj değişir. Örneğin, bir amplifikatör üzerindeki bir ses düğmesi gibi, 0'dan [11'e](https://wikipedia.org/wiki/Up_to_eleven) kadar bir kadran olarak etiketlenmiş bir potansiyometreniz olduğunu hayal edin. Potansiyometre tamamen kapalı konumda (0) olduğunda, 0V (0 volt) çıkacaktır. Tamamen açık konumda (11) olduğunda, 5V (5 volt) çıkacaktır.
 
@@ -112,7 +112,7 @@ IoT cihazlarındaki GPIO pinleri gibi pinler, bu sinyali doğrudan 0 veya 1 olar
 
 Daha gelişmiş dijital sensörler analog değerleri okur ve ardından yerleşik ADC'ler kullanarak bunları dijital sinyallere dönüştürür. Örneğin, dijital bir sıcaklık sensörü, analog bir sensörle aynı şekilde bir termokupl kullanır ve mevcut sıcaklıkta termokuplun direncinden kaynaklanan voltaj değişimini ölçer. Analog bir değer döndürmek ve cihazın veya bağlantı kartının dijital bir sinyale dönüştürmesine güvenmek yerine, sensöre yerleşik bir ADC değeri dönüştürür ve IoT cihazına 0 ve 1'lerden oluşan bir dizi olarak gönderir. Bu 0 ve 1'ler, bir düğme için dijital sinyalde olduğu gibi, 1 tam voltaj ve 0 0V olarak gönderilir.
 
-![Bir dijital sıcaklık sensörü, analog bir okumayı 0 volt için 0 ve 5 volt için 1 ile ikili verilere dönüştürerek IoT cihazına gönderiyor](../../../../../translated_images/temperature-as-digital.85004491b977bae1129707df107c0b19fe6fc6374210e9027e04acb34a640c78.tr.png)
+![Bir dijital sıcaklık sensörü, analog bir okumayı 0 volt için 0 ve 5 volt için 1 ile ikili verilere dönüştürerek IoT cihazına gönderiyor](../../../../../translated_images/temperature-as-digital.85004491b977bae1.tr.png)
 
 Dijital veri gönderimi, sensörlerin daha karmaşık hale gelmesine ve daha ayrıntılı veri, hatta güvenli sensörler için şifrelenmiş veri göndermesine olanak tanır. Bir örnek bir kameradır. Bu, bir görüntüyü yakalayan ve genellikle JPEG gibi sıkıştırılmış bir formatta IoT cihazı tarafından okunacak şekilde dijital veri olarak gönderen bir sensördür. Hatta görüntüleri yakalayıp ya kare kare tam görüntü ya da sıkıştırılmış bir video akışı göndererek video akışı yapabilir.
 
@@ -164,7 +164,7 @@ IoT cihazından gelen dijital sinyalleri analog bir sinyale dönüştürmenin bi
 
 Bir motoru 5V'luk bir güç kaynağıyla kontrol ettiğinizi hayal edin. Motorunuza kısa bir darbe göndererek voltajı iki saliselik (0.02s) bir süre için yüksek (5V) yaparsınız. Bu süre zarfında motorunuz bir dönüşün onda biri kadar, yani 36° dönebilir. Sinyal daha sonra iki saliselik (0.02s) bir süre için duraklar ve düşük bir sinyal (0V) gönderir. Açık ve kapalı her döngü 0.04s sürer. Döngü bu şekilde tekrar eder.
 
-![150 RPM'de bir motorun darbe genişlik modülasyonu ile dönüşü](../../../../../translated_images/pwm-motor-150rpm.83347ac04ca38482bd120939b133803963c9c15ca9d8d484712a4bd92820f6a4.tr.png)
+![150 RPM'de bir motorun darbe genişlik modülasyonu ile dönüşü](../../../../../translated_images/pwm-motor-150rpm.83347ac04ca38482.tr.png)
 
 Bu, bir saniyede motoru döndüren 0.02s'lik 25 adet 5V darbesi ve ardından motoru döndürmeyen 0.02s'lik 0V duraklaması olduğu anlamına gelir. Her darbe motoru bir dönüşün onda biri kadar döndürür, bu da motorun saniyede 2.5 dönüş yapması anlamına gelir. Dijital bir sinyal kullanarak motoru saniyede 2.5 dönüş veya 150 [dakikada devir](https://wikipedia.org/wiki/Revolutions_per_minute) (RPM) hızında döndürmüş olursunuz.
 
@@ -175,7 +175,7 @@ Bu, bir saniyede motoru döndüren 0.02s'lik 25 adet 5V darbesi ve ardından mot
 
 > 🎓 Bir PWM sinyali yarı zaman açık, yarı zaman kapalı olduğunda buna [50% görev döngüsü](https://wikipedia.org/wiki/Duty_cycle) denir. Görev döngüleri, sinyalin açık durumda olduğu sürenin kapalı duruma göre yüzdesi olarak ölçülür.
 
-![75 RPM'de bir motorun darbe genişlik modülasyonu ile dönüşü](../../../../../translated_images/pwm-motor-75rpm.a5e4c939934b6e14fd9e98e4f2c9539d723da2b18f490eae0948dd044d18ff7e.tr.png)
+![75 RPM'de bir motorun darbe genişlik modülasyonu ile dönüşü](../../../../../translated_images/pwm-motor-75rpm.a5e4c939934b6e14.tr.png)
 
 Darbelerin boyutunu değiştirerek motor hızını değiştirebilirsiniz. Örneğin, aynı motorla 0.04s'lik aynı döngü süresini koruyabilir, açık darbe süresini yarıya indirerek 0.01s yapabilir ve kapalı darbe süresini 0.03s'ye çıkarabilirsiniz. Saniyede aynı sayıda darbe (25) olmasına rağmen, her açık darbe yarı uzunluktadır. Yarı uzunlukta bir darbe motoru yalnızca bir dönüşün yirmide biri kadar döndürür ve saniyede 25 darbe ile 1.25 dönüş veya 75 RPM tamamlar. Dijital bir sinyalin darbe hızını değiştirerek analog bir motorun hızını yarıya indirmiş olursunuz.
 

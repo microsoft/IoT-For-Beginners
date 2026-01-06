@@ -51,7 +51,7 @@ LED'i bağlayın.
 
     > 💁 Sağ taraftaki Grove soketi, analog veya dijital sensörler ve aktüatörlerle kullanılabilir. Sol taraftaki soket yalnızca I2C ve dijital sensörler ve aktüatörler içindir. Bu konu daha sonraki bir derste ele alınacaktır.
 
-![Sağ taraftaki sokete bağlanmış Grove LED](../../../../../translated_images/wio-led.265a1897e72d7f21c753257516a4b677d8e30ce2b95fee98189458b3275ba0a6.tr.png)
+![Sağ taraftaki sokete bağlanmış Grove LED](../../../../../translated_images/wio-led.265a1897e72d7f21.tr.png)
 
 ## Gece Lambasını Programlayın
 

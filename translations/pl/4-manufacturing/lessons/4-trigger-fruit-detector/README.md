@@ -115,7 +115,7 @@ W prototypie zaimplementujesz wszystko na jednym urządzeniu. Jeśli używasz mi
 
 Urządzenie IoT potrzebuje jakiegoś wyzwalacza, aby wskazać, kiedy owoc jest gotowy do klasyfikacji. Jednym z takich wyzwalaczy może być pomiar odległości do czujnika, aby sprawdzić, czy owoc znajduje się w odpowiednim miejscu na taśmie.
 
-![Czujniki zbliżeniowe wysyłają wiązki laserowe do obiektów, takich jak banany, i mierzą czas odbicia](../../../../../translated_images/proximity-sensor.f5cd752c77fb62fea000156233b32fd24fad3707ec69b8bdd8d312b7af85156d.pl.png)
+![Czujniki zbliżeniowe wysyłają wiązki laserowe do obiektów, takich jak banany, i mierzą czas odbicia](../../../../../translated_images/proximity-sensor.f5cd752c77fb62fe.pl.png)
 
 Czujniki zbliżeniowe mogą być używane do pomiaru odległości od czujnika do obiektu. Zazwyczaj wysyłają wiązkę promieniowania elektromagnetycznego, taką jak wiązka laserowa lub światło podczerwone, a następnie wykrywają odbite promieniowanie. Czas między wysłaniem wiązki a odbiciem sygnału może być użyty do obliczenia odległości do czujnika.
 

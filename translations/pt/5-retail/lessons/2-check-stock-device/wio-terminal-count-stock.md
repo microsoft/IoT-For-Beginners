@@ -13,7 +13,7 @@ Uma combinação das previsões e das suas caixas delimitadoras pode ser usada p
 
 ## Contar stock
 
-![4 latas de polpa de tomate com caixas delimitadoras à volta de cada lata](../../../../../translated_images/rpi-stock-with-bounding-boxes.b5540e2ecb7cd49f1271828d3be412671d950e87625c5597ea97c90f11e01097.pt.jpg)
+![4 latas de polpa de tomate com caixas delimitadoras à volta de cada lata](../../../../../translated_images/rpi-stock-with-bounding-boxes.b5540e2ecb7cd49f.pt.jpg)
 
 Na imagem acima, as caixas delimitadoras têm uma pequena sobreposição. Se essa sobreposição fosse muito maior, as caixas delimitadoras poderiam indicar o mesmo objeto. Para contar os objetos corretamente, é necessário ignorar caixas com uma sobreposição significativa.
 

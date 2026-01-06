@@ -130,7 +130,7 @@ Para esta lição, vais precisar de um recurso de tradutor. Vais usar a API REST
 
 Num mundo ideal, toda a tua aplicação deveria compreender o maior número possível de idiomas diferentes, desde ouvir fala, até compreender linguagem e responder com fala. Isto dá muito trabalho, então os serviços de tradução podem acelerar o tempo de entrega da tua aplicação.
 
-![Uma arquitetura de temporizador inteligente traduzindo japonês para inglês, processando em inglês e depois traduzindo de volta para japonês](../../../../../translated_images/translated-smart-timer.08ac20057fdc5c3778ed41cb425dca5d7fbcd4584b6da7b73ca67115a5b8a883.pt.png)
+![Uma arquitetura de temporizador inteligente traduzindo japonês para inglês, processando em inglês e depois traduzindo de volta para japonês](../../../../../translated_images/translated-smart-timer.08ac20057fdc5c37.pt.png)
 
 Imagina que estás a construir um temporizador inteligente que usa inglês de ponta a ponta, compreendendo inglês falado e convertendo-o em texto, executando a compreensão de linguagem em inglês, construindo respostas em inglês e respondendo com fala em inglês. Se quisesses adicionar suporte para japonês, poderias começar por traduzir japonês falado para texto em inglês, mantendo o núcleo da aplicação igual, e depois traduzir o texto da resposta para japonês antes de falar a resposta. Isto permitiria adicionar suporte para japonês rapidamente, e poderias expandir para fornecer suporte completo de ponta a ponta em japonês mais tarde.
 

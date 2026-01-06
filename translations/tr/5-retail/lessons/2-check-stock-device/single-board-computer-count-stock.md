@@ -81,7 +81,7 @@ Sorun giderme adımı olarak, sınırlayıcı kutuları yalnızca konsola yazdı
 
 1. Kamerayı bir raftaki stoklara doğrultarak uygulamayı çalıştırın. VS Code gezgininde `image.jpg` dosyasını göreceksiniz ve sınırlayıcı kutuları görmek için seçebilirsiniz.
 
-    ![Her bir kutunun etrafında sınırlayıcı kutular olan 4 domates salçası kutusu](../../../../../translated_images/rpi-stock-with-bounding-boxes.b5540e2ecb7cd49f1271828d3be412671d950e87625c5597ea97c90f11e01097.tr.jpg)
+    ![Her bir kutunun etrafında sınırlayıcı kutular olan 4 domates salçası kutusu](../../../../../translated_images/rpi-stock-with-bounding-boxes.b5540e2ecb7cd49f.tr.jpg)
 
 ## Stok Sayımı
 

@@ -33,7 +33,7 @@ Röleyi bağlayın.
 
 2. Wio Terminal'i bilgisayarınızdan veya başka bir güç kaynağından ayırarak, Grove kablosunun diğer ucunu Wio Terminal'in ekranına bakarken sol taraftaki Grove soketine bağlayın. Toprak nem sensörünü sağ taraftaki sokette bağlı bırakın.
 
-![Grove rölesi sol sokete, toprak nem sensörü sağ sokete bağlı](../../../../../translated_images/wio-relay-and-soil-moisture-sensor.ed722202d42babe0be5f4518cf13e8c2c81e8df21d37839266cbdb60cf30172d.tr.png)
+![Grove rölesi sol sokete, toprak nem sensörü sağ sokete bağlı](../../../../../translated_images/wio-relay-and-soil-moisture-sensor.ed722202d42babe0.tr.png)
 
 3. Toprak nem sensörünü toprağa yerleştirin, eğer önceki dersten zaten yerleştirilmişse bu adımı atlayabilirsiniz.
 

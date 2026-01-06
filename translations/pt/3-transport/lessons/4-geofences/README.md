@@ -110,7 +110,7 @@ Cada ponto no polígono é definido como um par de longitude e latitude num arra
 
 O array de coordenadas do polígono sempre tem 1 entrada a mais do que o número de pontos no polígono, sendo a última entrada igual à primeira, fechando o polígono. Por exemplo, para um retângulo, haveria 5 pontos.
 
-![Um retângulo com coordenadas](../../../../../translated_images/polygon-points.302193da381cb415f46c2c7a98496ee4be05d6c73d21238a89721ad93e121233.pt.png)
+![Um retângulo com coordenadas](../../../../../translated_images/polygon-points.302193da381cb415.pt.png)
 
 Na imagem acima, há um retângulo. As coordenadas do polígono começam no canto superior esquerdo em 47,-122, depois movem-se para a direita até 47,-121, depois para baixo até 46,-121, depois para a esquerda até 46,-122, e finalmente de volta ao ponto inicial em 47,-122. Isso dá ao polígono 5 pontos - canto superior esquerdo, canto superior direito, canto inferior direito, canto inferior esquerdo e, por fim, o canto superior esquerdo para fechá-lo.
 
@@ -208,7 +208,7 @@ Quando faz este pedido, também pode passar um valor chamado `searchBuffer`. Est
 
 Quando os resultados são retornados da chamada à API, uma das partes do resultado é a `distance`, medida até o ponto mais próximo na borda da geofence, com um valor positivo se o ponto estiver fora da geofence e negativo se estiver dentro. Se esta distância for menor que o search buffer, a distância real é retornada em metros; caso contrário, o valor será 999 ou -999. 999 significa que o ponto está fora da geofence por mais do que o search buffer, -999 significa que está dentro da geofence por mais do que o search buffer.
 
-![Uma geofence com um search buffer de 50m ao redor](../../../../../translated_images/search-buffer-and-distance.e6a79af3898183c7b2ef6fbf12271b8b34afd23969bb946962b1b18d3d2635e8.pt.png)
+![Uma geofence com um search buffer de 50m ao redor](../../../../../translated_images/search-buffer-and-distance.e6a79af3898183c7.pt.png)
 
 Na imagem acima, a geofence tem um search buffer de 50m.
 

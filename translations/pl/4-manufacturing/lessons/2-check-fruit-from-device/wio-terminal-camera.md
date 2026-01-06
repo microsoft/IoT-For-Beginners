@@ -29,7 +29,7 @@ Podłącz kamerę.
 
 1. Piny na spodzie ArduCam muszą być podłączone do pinów GPIO na Wio Terminal. Aby łatwiej było znaleźć odpowiednie piny, przyklej naklejkę z oznaczeniami pinów GPIO, która jest dołączona do Wio Terminal:
 
-    ![Wio Terminal z naklejką oznaczającą piny GPIO](../../../../../translated_images/wio-terminal-pin-sticker.b90b1535937b84bd00d853f0004aea74fac2aec04b43f14b887796b2633f855e.pl.png)
+    ![Wio Terminal z naklejką oznaczającą piny GPIO](../../../../../translated_images/wio-terminal-pin-sticker.b90b1535937b84bd.pl.png)
 
 1. Używając przewodów połączeniowych, wykonaj następujące połączenia:
 
@@ -297,7 +297,7 @@ Wio Terminal można teraz zaprogramować tak, aby robił zdjęcie po naciśnięc
 
 1. Mikrokontrolery wykonują kod w sposób ciągły, więc trudno jest wywołać coś takiego jak zrobienie zdjęcia bez reakcji na czujnik. Wio Terminal ma przyciski, więc kamerę można skonfigurować tak, aby była wyzwalana jednym z przycisków. Dodaj poniższy kod na końcu funkcji `setup`, aby skonfigurować przycisk C (jeden z trzech przycisków na górze, ten najbliżej przełącznika zasilania).
 
-    ![Przycisk C na górze, najbliżej przełącznika zasilania](../../../../../translated_images/wio-terminal-c-button.73df3cb1c1445ea07ee98316af0e7925fcb43135df0abed58d3d4822b2589c3b.pl.png)
+    ![Przycisk C na górze, najbliżej przełącznika zasilania](../../../../../translated_images/wio-terminal-c-button.73df3cb1c1445ea0.pl.png)
 
     ```cpp
     pinMode(WIO_KEY_C, INPUT_PULLUP);

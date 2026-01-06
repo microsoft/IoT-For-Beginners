@@ -97,15 +97,15 @@ A encriptação pode ser de dois tipos - simétrica e assimétrica.
 
 A encriptação **simétrica** usa a mesma chave para encriptar e desencriptar os dados. Tanto o remetente quanto o destinatário precisam conhecer a mesma chave. Este é o tipo menos seguro, pois a chave precisa ser partilhada de alguma forma. Para que um remetente envie uma mensagem encriptada a um destinatário, o remetente pode primeiro ter que enviar a chave ao destinatário.
 
-![A encriptação com chave simétrica usa a mesma chave para encriptar e desencriptar uma mensagem](../../../../../translated_images/send-message-symmetric-key.a2e8ad0d495896ffcdf15d25bb4491c695a5cb851457b359fb0f0c89d67707c9.pt.png)
+![A encriptação com chave simétrica usa a mesma chave para encriptar e desencriptar uma mensagem](../../../../../translated_images/send-message-symmetric-key.a2e8ad0d495896ff.pt.png)
 
 Se a chave for roubada durante o envio, ou se o remetente ou destinatário forem hackeados e a chave for descoberta, a encriptação pode ser comprometida.
 
-![A encriptação com chave simétrica só é segura se um hacker não obtiver a chave - caso contrário, podem interceptar e desencriptar a mensagem](../../../../../translated_images/send-message-symmetric-key-hacker.e7cb53db1707adfb1486a8144060cb76435fe8dbdede8cecc09e7d15b2d9a251.pt.png)
+![A encriptação com chave simétrica só é segura se um hacker não obtiver a chave - caso contrário, podem interceptar e desencriptar a mensagem](../../../../../translated_images/send-message-symmetric-key-hacker.e7cb53db1707adfb.pt.png)
 
 A encriptação **assimétrica** usa 2 chaves - uma chave de encriptação e uma chave de desencriptação, conhecidas como par de chaves pública/privada. A chave pública é usada para encriptar a mensagem, mas não pode ser usada para desencriptá-la; a chave privada é usada para desencriptar a mensagem, mas não pode ser usada para encriptá-la.
 
-![A encriptação assimétrica usa uma chave diferente para encriptar e desencriptar. A chave de encriptação é enviada a qualquer remetente para que possam encriptar uma mensagem antes de enviá-la ao destinatário que possui as chaves](../../../../../translated_images/send-message-asymmetric.7abe327c62615b8c19805252af5d4b6c5e7aaeb8fbc455efeff866fe2d300b62.pt.png)
+![A encriptação assimétrica usa uma chave diferente para encriptar e desencriptar. A chave de encriptação é enviada a qualquer remetente para que possam encriptar uma mensagem antes de enviá-la ao destinatário que possui as chaves](../../../../../translated_images/send-message-asymmetric.7abe327c62615b8c.pt.png)
 
 O destinatário partilha a sua chave pública, e o remetente usa-a para encriptar a mensagem. Depois de enviada, o destinatário desencripta-a com a sua chave privada. A encriptação assimétrica é mais segura, pois a chave privada é mantida em segredo pelo destinatário e nunca é partilhada. Qualquer pessoa pode ter a chave pública, pois ela só pode ser usada para encriptar mensagens.
 
@@ -165,7 +165,7 @@ Estes certificados têm vários campos, incluindo quem é o proprietário da cha
 
 Ao usar certificados X.509, tanto o remetente quanto o destinatário terão as suas próprias chaves públicas e privadas, bem como certificados X.509 que contêm as chaves públicas. Eles trocam os certificados X.509 de alguma forma, usando as chaves públicas um do outro para encriptar os dados que enviam e as suas próprias chaves privadas para desencriptar os dados que recebem.
 
-![Em vez de partilhar uma chave pública, pode partilhar um certificado. O utilizador do certificado pode verificar que ele vem de si ao confirmar com a autoridade de certificação que o assinou.](../../../../../translated_images/send-message-certificate.9cc576ac1e46b76eb58ebc8eedaa522566fa0700076da46f5180aad78c2435db.pt.png)
+![Em vez de partilhar uma chave pública, pode partilhar um certificado. O utilizador do certificado pode verificar que ele vem de si ao confirmar com a autoridade de certificação que o assinou.](../../../../../translated_images/send-message-certificate.9cc576ac1e46b76e.pt.png)
 
 Uma grande vantagem de usar certificados X.509 é que podem ser partilhados entre dispositivos. Pode criar um certificado, carregá-lo para o IoT Hub e usá-lo para todos os seus dispositivos. Cada dispositivo só precisa de conhecer a chave privada para desencriptar as mensagens que recebe do IoT Hub.
 

@@ -115,7 +115,7 @@ Para o protótipo, vais implementar tudo isto num único dispositivo. Se estiver
 
 O dispositivo IoT precisa de algum tipo de gatilho para indicar quando a fruta está pronta para ser classificada. Um gatilho para isto seria medir quando a fruta está na posição certa no tapete rolante, medindo a distância até um sensor.
 
-![Sensores de proximidade enviam feixes de laser para objetos como bananas e medem o tempo até o feixe ser refletido de volta](../../../../../translated_images/proximity-sensor.f5cd752c77fb62fea000156233b32fd24fad3707ec69b8bdd8d312b7af85156d.pt.png)
+![Sensores de proximidade enviam feixes de laser para objetos como bananas e medem o tempo até o feixe ser refletido de volta](../../../../../translated_images/proximity-sensor.f5cd752c77fb62fe.pt.png)
 
 Sensores de proximidade podem ser usados para medir a distância entre o sensor e um objeto. Normalmente, transmitem um feixe de radiação eletromagnética, como um feixe de laser ou luz infravermelha, e depois detetam a radiação refletida por um objeto. O tempo entre o envio do feixe de laser e o sinal refletido pode ser usado para calcular a distância até ao sensor.
 

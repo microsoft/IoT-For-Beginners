@@ -97,15 +97,15 @@ Ne yazık ki, her şey güvenli değildir. Bazı cihazların hiç güvenliği yo
 
 **Simetrik** şifreleme, verileri şifrelemek ve şifresini çözmek için aynı anahtarı kullanır. Hem gönderici hem de alıcı aynı anahtarı bilmelidir. Bu, en az güvenli türdür çünkü anahtar bir şekilde paylaşılmalıdır. Gönderici, alıcıya şifrelenmiş bir mesaj göndermek için önce anahtarı göndermek zorunda kalabilir.
 
-![Simetrik anahtar şifreleme, bir mesajı şifrelemek ve şifresini çözmek için aynı anahtarı kullanır](../../../../../translated_images/send-message-symmetric-key.a2e8ad0d495896ffcdf15d25bb4491c695a5cb851457b359fb0f0c89d67707c9.tr.png)
+![Simetrik anahtar şifreleme, bir mesajı şifrelemek ve şifresini çözmek için aynı anahtarı kullanır](../../../../../translated_images/send-message-symmetric-key.a2e8ad0d495896ff.tr.png)
 
 Eğer anahtar aktarım sırasında çalınırsa veya gönderici ya da alıcı hacklenir ve anahtar bulunursa, şifreleme kırılabilir.
 
-![Simetrik anahtar şifreleme, yalnızca bir hacker anahtarı ele geçirmezse güvenlidir - eğer ele geçirirse mesajı yakalayıp şifresini çözebilir](../../../../../translated_images/send-message-symmetric-key-hacker.e7cb53db1707adfb1486a8144060cb76435fe8dbdede8cecc09e7d15b2d9a251.tr.png)
+![Simetrik anahtar şifreleme, yalnızca bir hacker anahtarı ele geçirmezse güvenlidir - eğer ele geçirirse mesajı yakalayıp şifresini çözebilir](../../../../../translated_images/send-message-symmetric-key-hacker.e7cb53db1707adfb.tr.png)
 
 **Asimetrik** şifreleme, bir şifreleme anahtarı ve bir şifre çözme anahtarı olmak üzere 2 anahtar kullanır, bunlara genel/özel anahtar çifti denir. Genel anahtar mesajı şifrelemek için kullanılır ancak şifresini çözmek için kullanılamaz, özel anahtar ise mesajın şifresini çözmek için kullanılır ancak şifrelemek için kullanılamaz.
 
-![Asimetrik şifreleme, şifrelemek ve şifresini çözmek için farklı anahtarlar kullanır. Şifreleme anahtarı, mesaj gönderenlere gönderilir, böylece mesajı alıcıya göndermeden önce şifreleyebilirler](../../../../../translated_images/send-message-asymmetric.7abe327c62615b8c19805252af5d4b6c5e7aaeb8fbc455efeff866fe2d300b62.tr.png)
+![Asimetrik şifreleme, şifrelemek ve şifresini çözmek için farklı anahtarlar kullanır. Şifreleme anahtarı, mesaj gönderenlere gönderilir, böylece mesajı alıcıya göndermeden önce şifreleyebilirler](../../../../../translated_images/send-message-asymmetric.7abe327c62615b8c.tr.png)
 
 Alıcı, genel anahtarını paylaşır ve gönderici bunu mesajı şifrelemek için kullanır. Mesaj gönderildikten sonra, alıcı özel anahtarıyla şifresini çözer. Asimetrik şifreleme daha güvenlidir çünkü özel anahtar alıcı tarafından gizli tutulur ve asla paylaşılmaz. Genel anahtarı herkes alabilir çünkü yalnızca mesajları şifrelemek için kullanılabilir.
 
@@ -165,7 +165,7 @@ Bu sertifikalarda, genel anahtarın kimden geldiği, sertifikayı veren CA'nın 
 
 X.509 sertifikaları kullanırken, hem gönderici hem de alıcı kendi genel ve özel anahtarlarına, ayrıca genel anahtarı içeren X.509 sertifikalarına sahip olacaktır. Daha sonra X.509 sertifikalarını bir şekilde değiş tokuş ederler, birbirlerinin genel anahtarlarını gönderilen verileri şifrelemek için ve kendi özel anahtarlarını alınan verileri çözmek için kullanırlar.
 
-![Bir genel anahtar paylaşmak yerine, bir sertifika paylaşabilirsiniz. Sertifikayı kullanan kişi, sertifikayı imzalayan sertifika otoritesine danışarak bunun sizden geldiğini doğrulayabilir.](../../../../../translated_images/send-message-certificate.9cc576ac1e46b76eb58ebc8eedaa522566fa0700076da46f5180aad78c2435db.tr.png)
+![Bir genel anahtar paylaşmak yerine, bir sertifika paylaşabilirsiniz. Sertifikayı kullanan kişi, sertifikayı imzalayan sertifika otoritesine danışarak bunun sizden geldiğini doğrulayabilir.](../../../../../translated_images/send-message-certificate.9cc576ac1e46b76e.tr.png)
 
 X.509 sertifikalarının büyük bir avantajı, cihazlar arasında paylaşılabilmeleridir. Bir sertifika oluşturabilir, bunu IoT Hub'a yükleyebilir ve tüm cihazlarınız için kullanabilirsiniz. Her cihazın, IoT Hub'dan aldığı mesajları çözmek için yalnızca özel anahtarı bilmesi yeterlidir.
 

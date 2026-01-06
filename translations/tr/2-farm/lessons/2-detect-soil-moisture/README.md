@@ -37,7 +37,7 @@ UART, iki cihazın iletişim kurmasını sağlayan fiziksel devreleri içerir. H
 * Cihaz 1, Tx pininden veri gönderir, bu veri cihaz 2 tarafından Rx pininde alınır.
 * Cihaz 1, Rx pininde cihaz 2'nin Tx pininden gönderdiği veriyi alır.
 
-![Bir çipin Tx pini diğer çipin Rx pinine ve tam tersi şekilde bağlanmış UART](../../../../../translated_images/uart.d0dbd3fb9e3728c6ee1995c8206f3cdb13cdfd208f13745e8ef6854cab75e421.tr.png)
+![Bir çipin Tx pini diğer çipin Rx pinine ve tam tersi şekilde bağlanmış UART](../../../../../translated_images/uart.d0dbd3fb9e3728c6.tr.png)
 
 > 🎓 Veriler birer bit olarak gönderilir ve bu *seri* iletişim olarak bilinir. Çoğu işletim sistemi ve mikrodenetleyici, kodunuzun erişebileceği *seri portlar* yani seri veri gönderip alabilen bağlantılara sahiptir.
 
@@ -66,7 +66,7 @@ SPI kontrolcüleri 3 tel kullanır ve her çevre birimi için 1 ekstra tel eklen
 | SCLK | Seri Saat | Bu tel, kontrolcü tarafından ayarlanan bir hızda saat sinyali gönderir. |
 | CS   | Çip Seçimi | Kontrolcünün birden fazla teli vardır, her çevre birimi için bir tel, ve her tel ilgili çevre birimin CS teline bağlanır. |
 
-![Bir kontrolcü ve iki çevre birimi ile SPI](../../../../../translated_images/spi.297431d6f98b386b4ff88aea44ce9c1e7acfb1ef69c7e4e388a7aa97b6948e24.tr.png)
+![Bir kontrolcü ve iki çevre birimi ile SPI](../../../../../translated_images/spi.297431d6f98b386b.tr.png)
 
 CS teli, COPI ve CIPO telleri üzerinden bir seferde bir çevre birimini etkinleştirmek için kullanılır. Kontrolcü, çevre birimini değiştirmesi gerektiğinde, şu anda etkin olan çevre birimine bağlı CS telini devre dışı bırakır, ardından bir sonraki iletişim kurmak istediği çevre birimine bağlı teli etkinleştirir.
 
@@ -127,13 +127,13 @@ Toprak nemi, gravimetrik veya hacimsel su içeriği kullanılarak ölçülür.
 
 Toprak nem sensörleri elektriksel direnç veya kapasitansı ölçer - bu sadece toprak nemine değil, aynı zamanda toprak türüne de bağlıdır çünkü topraktaki bileşenler elektriksel özelliklerini değiştirebilir. İdeal olarak sensörler kalibre edilmelidir - yani sensörden alınan ölçümler daha bilimsel bir yaklaşımla bulunan ölçümlerle karşılaştırılmalıdır. Örneğin, bir laboratuvar belirli bir tarladan alınan örneklerle gravimetrik toprak nemini birkaç kez hesaplayabilir ve bu sayılar sensörü kalibre etmek için kullanılabilir, sensör ölçümünü gravimetrik toprak nemiyle eşleştirir.
 
-![Toprak nem içeriğine karşı voltaj grafiği](../../../../../translated_images/soil-moisture-to-voltage.df86d80cda1587008f312431ed5f79eb6c50c58d4fbc25a6763c5e9127c3106b.tr.png)
+![Toprak nem içeriğine karşı voltaj grafiği](../../../../../translated_images/soil-moisture-to-voltage.df86d80cda158700.tr.png)
 
 Yukarıdaki grafik bir sensörün nasıl kalibre edileceğini gösterir. Voltaj, nemli ağırlığın kuru ağırlığa (önce nemli ölçüm, ardından fırında kurutulup kuru ölçüm) karşılaştırılarak ölçüldüğü bir laboratuvar tarafından ölçülen bir toprak örneği için yakalanır. Birkaç ölçüm alındıktan sonra, bu bir grafikte çizilir ve noktalara bir çizgi oturtulur. Bu çizgi, bir IoT cihazı tarafından alınan toprak nem sensörü ölçümlerini gerçek toprak nem ölçümlerine dönüştürmek için kullanılabilir.
 
 💁 Dirençli toprak nem sensörleri için, voltaj toprak nemi arttıkça artar. Kapasitif toprak nem sensörleri için, voltaj toprak nemi arttıkça azalır, bu nedenle bu sensörlerin grafikleri yukarı değil aşağı doğru eğilir.
 
-![Grafikten interpolasyonla hesaplanan bir toprak nem değeri](../../../../../translated_images/soil-moisture-to-voltage-with-reading.681cb3e1f8b68caf5547dbf1415851c82e201edfb78face16fc98da4051ed9b2.tr.png)
+![Grafikten interpolasyonla hesaplanan bir toprak nem değeri](../../../../../translated_images/soil-moisture-to-voltage-with-reading.681cb3e1f8b68caf.tr.png)
 
 Yukarıdaki grafik, bir toprak nem sensöründen alınan bir voltaj ölçümünü gösterir ve grafikteki çizgiye kadar takip edilerek gerçek toprak nemi hesaplanabilir.
 

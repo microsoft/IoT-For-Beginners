@@ -41,7 +41,7 @@ Sunucusuz ya da sunucusuz bilişim, farklı türdeki olaylara yanıt olarak bulu
 
 > 💁 Daha önce veritabanı tetikleyicileri kullandıysanız, bunu bir olay (örneğin bir satır ekleme) tarafından tetiklenen kod olarak düşünebilirsiniz.
 
-![Birçok olay aynı anda gönderildiğinde, sunucusuz hizmet bunları aynı anda çalıştırmak için ölçeklenir](../../../../../translated_images/serverless-scaling.f8c769adf0413fd17be1af4f07ff63016b347e2ff869be6c4abb211f9e93909d.tr.png)
+![Birçok olay aynı anda gönderildiğinde, sunucusuz hizmet bunları aynı anda çalıştırmak için ölçeklenir](../../../../../translated_images/serverless-scaling.f8c769adf0413fd1.tr.png)
 
 Kodunuz yalnızca olay gerçekleştiğinde çalıştırılır, diğer zamanlarda kodunuz aktif değildir. Olay gerçekleşir, kodunuz yüklenir ve çalıştırılır. Bu, sunucusuz yapıyı oldukça ölçeklenebilir hale getirir - birçok olay aynı anda gerçekleşirse, bulut sağlayıcısı fonksiyonunuzu aynı anda ihtiyaç duyduğunuz kadar çalıştırabilir. Bunun dezavantajı, olaylar arasında bilgi paylaşmanız gerekiyorsa, bunu bellekte saklamak yerine bir veritabanı gibi bir yerde saklamanız gerektiğidir.
 
@@ -244,7 +244,7 @@ Azure Functions CLI, yeni bir Functions uygulaması oluşturmak için kullanıla
     VS Code. Initialize for optimal use with VS Code?
     ```
 
-    ![Bildirim](../../../../../translated_images/vscode-azure-functions-init-notification.bd19b49229963edb5311fb3a79445ea469424759d2917ee2f2eb6f92d65d5086.tr.png)
+    ![Bildirim](../../../../../translated_images/vscode-azure-functions-init-notification.bd19b49229963edb.tr.png)
 
     Bu bildirimi seçerek **Evet** deyin.
 

@@ -110,7 +110,7 @@ Każdy punkt na wielokącie jest definiowany jako para długości i szerokości 
 
 Tablica współrzędnych wielokąta zawsze ma o 1 więcej wpis niż liczba punktów na wielokącie, z ostatnim wpisem będącym takim samym jak pierwszy, zamykającym wielokąt. Na przykład dla prostokąta byłoby 5 punktów.
 
-![Prostokąt z współrzędnymi](../../../../../translated_images/polygon-points.302193da381cb415f46c2c7a98496ee4be05d6c73d21238a89721ad93e121233.pl.png)
+![Prostokąt z współrzędnymi](../../../../../translated_images/polygon-points.302193da381cb415.pl.png)
 
 Na powyższym obrazku znajduje się prostokąt. Współrzędne wielokąta zaczynają się w lewym górnym rogu na 47,-122, następnie przesuwają się w prawo do 47,-121, potem w dół do 46,-121, następnie w lewo do 46, -122, a potem z powrotem do punktu początkowego na 47, -122. Daje to wielokąt o 5 punktach - lewy górny, prawy górny, prawy dolny, lewy dolny, a następnie lewy górny, aby go zamknąć.
 
@@ -208,7 +208,7 @@ Podczas wykonywania tego żądania możesz również przekazać wartość zwaną
 
 Gdy wyniki zostaną zwrócone z wywołania API, jedna z części wyniku to `distance` mierzona do najbliższego punktu na krawędzi geofence, z wartością dodatnią, jeśli punkt znajduje się na zewnątrz geofence, ujemną, jeśli znajduje się wewnątrz geofence. Jeśli ta odległość jest mniejsza niż search buffer, rzeczywista odległość jest zwracana w metrach, w przeciwnym razie wartość wynosi 999 lub -999. 999 oznacza, że punkt znajduje się na zewnątrz geofence o więcej niż search buffer, -999 oznacza, że znajduje się wewnątrz geofence o więcej niż search buffer.
 
-![Geofence z buforem wyszukiwania 50 m wokół niego](../../../../../translated_images/search-buffer-and-distance.e6a79af3898183c7b2ef6fbf12271b8b34afd23969bb946962b1b18d3d2635e8.pl.png)
+![Geofence z buforem wyszukiwania 50 m wokół niego](../../../../../translated_images/search-buffer-and-distance.e6a79af3898183c7.pl.png)
 
 Na powyższym obrazku geofence ma bufor wyszukiwania 50 m.
 

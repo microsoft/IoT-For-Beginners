@@ -66,7 +66,7 @@ Bazy danych to usługi umożliwiające przechowywanie i przeszukiwanie danych. B
 
 Pierwsze bazy danych to Relacyjne Systemy Zarządzania Bazami Danych (RDBMS), znane również jako bazy danych SQL, od języka Structured Query Language (SQL), który służy do interakcji z nimi w celu dodawania, usuwania, aktualizowania lub przeszukiwania danych. Te bazy danych składają się ze schematu - dobrze zdefiniowanego zestawu tabel danych, podobnych do arkusza kalkulacyjnego. Każda tabela ma wiele nazwanych kolumn. Wstawiając dane, dodajesz wiersz do tabeli, umieszczając wartości w każdej z kolumn. To utrzymuje dane w bardzo sztywnej strukturze - chociaż możesz pozostawić kolumny puste, jeśli chcesz dodać nową kolumnę, musisz to zrobić w bazie danych, uzupełniając wartości dla istniejących wierszy. Te bazy danych są relacyjne - jedna tabela może mieć relację z inną.
 
-![Relacyjna baza danych z ID tabeli użytkowników powiązanym z kolumną ID użytkownika w tabeli zakupów oraz ID tabeli produktów powiązanym z kolumną ID produktu w tabeli zakupów](../../../../../translated_images/sql-database.be160f12bfccefd3ca718a66468c2c4c89c53e5aad4c295324d576da87f9dfdd.pl.png)
+![Relacyjna baza danych z ID tabeli użytkowników powiązanym z kolumną ID użytkownika w tabeli zakupów oraz ID tabeli produktów powiązanym z kolumną ID produktu w tabeli zakupów](../../../../../translated_images/sql-database.be160f12bfccefd3.pl.png)
 
 Na przykład, jeśli przechowujesz dane osobowe użytkowników w tabeli, miałbyś jakiś wewnętrzny unikalny identyfikator dla każdego użytkownika, który jest używany w wierszu tabeli zawierającej imię i adres użytkownika. Jeśli chciałbyś przechowywać inne szczegóły dotyczące tego użytkownika, takie jak jego zakupy, w innej tabeli, miałbyś jedną kolumnę w nowej tabeli dla identyfikatora tego użytkownika. Gdy wyszukujesz użytkownika, możesz użyć jego identyfikatora, aby uzyskać jego dane osobowe z jednej tabeli i jego zakupy z innej.
 
@@ -241,7 +241,7 @@ Twoja aplikacja funkcji musi teraz połączyć się z magazynem obiektów blob, 
 
 W tej lekcji użyjesz SDK dla Pythona, aby zobaczyć, jak pracować z magazynem obiektów blob.
 
-![Wysyłanie telemetrii GPS z urządzenia IoT do IoT Hub, następnie do Azure Functions za pomocą wyzwalacza Event Hub, a następnie zapisywanie jej w magazynie obiektów blob](../../../../../translated_images/save-telemetry-to-storage-from-functions.ed3b1820980097f143d9f0570072da11304c2bc7906359dfa075b4d9b253c20f.pl.png)
+![Wysyłanie telemetrii GPS z urządzenia IoT do IoT Hub, następnie do Azure Functions za pomocą wyzwalacza Event Hub, a następnie zapisywanie jej w magazynie obiektów blob](../../../../../translated_images/save-telemetry-to-storage-from-functions.ed3b1820980097f1.pl.png)
 
 Dane zostaną zapisane jako obiekt JSON w następującym formacie:
 

@@ -29,7 +29,7 @@ Kamerayı bağlayın.
 
 1. ArduCam'in altındaki pinler, Wio Terminal'in GPIO pinlerine bağlanmalıdır. Doğru pinleri bulmayı kolaylaştırmak için, Wio Terminal ile birlikte gelen GPIO pin etiketini pinlerin etrafına yapıştırın:
 
-    ![GPIO pin etiketi takılmış Wio Terminal](../../../../../translated_images/wio-terminal-pin-sticker.b90b1535937b84bd00d853f0004aea74fac2aec04b43f14b887796b2633f855e.tr.png)
+    ![GPIO pin etiketi takılmış Wio Terminal](../../../../../translated_images/wio-terminal-pin-sticker.b90b1535937b84bd.tr.png)
 
 1. Jumper kabloları kullanarak aşağıdaki bağlantıları yapın:
 
@@ -297,7 +297,7 @@ Wio Terminal artık bir düğmeye basıldığında bir görüntü yakalayacak ş
 
 1. Mikrodenetleyiciler kodunuzu sürekli çalıştırır, bu nedenle bir fotoğraf çekmek gibi bir işlemi tetiklemek için bir sensöre tepki vermek gerekir. Wio Terminal'in düğmeleri vardır, bu nedenle kamera, düğmelerden biriyle tetiklenecek şekilde ayarlanabilir. Güç anahtarına en yakın olan üstteki üç düğmeden biri olan C düğmesini yapılandırmak için `setup` fonksiyonunun sonuna şu kodu ekleyin:
 
-    ![Güç anahtarına en yakın C düğmesi](../../../../../translated_images/wio-terminal-c-button.73df3cb1c1445ea07ee98316af0e7925fcb43135df0abed58d3d4822b2589c3b.tr.png)
+    ![Güç anahtarına en yakın C düğmesi](../../../../../translated_images/wio-terminal-c-button.73df3cb1c1445ea0.tr.png)
 
     ```cpp
     pinMode(WIO_KEY_C, INPUT_PULLUP);

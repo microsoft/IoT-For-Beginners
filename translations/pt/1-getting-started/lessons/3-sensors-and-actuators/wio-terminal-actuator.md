@@ -51,7 +51,7 @@ Ligue o LED.
 
     > 💁 A tomada Grove do lado direito pode ser usada com sensores e atuadores analógicos ou digitais. A tomada do lado esquerdo é apenas para sensores e atuadores digitais. O C será abordado numa lição posterior.
 
-![O LED Grove ligado à tomada do lado direito](../../../../../translated_images/wio-led.265a1897e72d7f21c753257516a4b677d8e30ce2b95fee98189458b3275ba0a6.pt.png)
+![O LED Grove ligado à tomada do lado direito](../../../../../translated_images/wio-led.265a1897e72d7f21.pt.png)
 
 ## Programar a luz de presença
 

@@ -130,7 +130,7 @@ Do tej lekcji będziesz potrzebować zasobu Translator. Użyjesz REST API do tł
 
 W idealnym świecie cała Twoja aplikacja powinna rozumieć jak najwięcej różnych języków, od rozpoznawania mowy, przez rozumienie języka, po odpowiedzi w mowie. To jednak wymaga dużo pracy, więc usługi tłumaczeniowe mogą przyspieszyć czas dostarczenia aplikacji.
 
-![Architektura inteligentnego timera tłumaczącego japoński na angielski, przetwarzającego w angielskim, a następnie tłumaczącego z powrotem na japoński](../../../../../translated_images/translated-smart-timer.08ac20057fdc5c3778ed41cb425dca5d7fbcd4584b6da7b73ca67115a5b8a883.pl.png)
+![Architektura inteligentnego timera tłumaczącego japoński na angielski, przetwarzającego w angielskim, a następnie tłumaczącego z powrotem na japoński](../../../../../translated_images/translated-smart-timer.08ac20057fdc5c37.pl.png)
 
 Wyobraź sobie, że budujesz inteligentny timer, który używa angielskiego od początku do końca, rozumiejąc mowę po angielsku i konwertując ją na tekst, przetwarzając rozumienie języka w angielskim, budując odpowiedzi w angielskim i odpowiadając mową w angielskim. Jeśli chciałbyś dodać obsługę japońskiego, mógłbyś zacząć od tłumaczenia mówionego japońskiego na tekst w języku angielskim, a następnie pozostawić rdzeń aplikacji bez zmian, a na końcu przetłumaczyć tekst odpowiedzi na japoński przed wygenerowaniem odpowiedzi w mowie. Pozwoliłoby to szybko dodać obsługę japońskiego, a pełną obsługę od początku do końca można by dodać później.
 

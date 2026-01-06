@@ -64,7 +64,7 @@ Mikrofony występują w różnych typach:
 
 * Wstęgowe – Mikrofony wstęgowe są podobne do dynamicznych, ale zamiast membrany mają metalową wstęgę. Ta wstęga porusza się w polu magnetycznym, generując prąd elektryczny. Podobnie jak mikrofony dynamiczne, mikrofony wstęgowe nie potrzebują zasilania, aby działać.
 
-    ![Edmund Lowe, amerykański aktor, stojący przy mikrofonie radiowym (oznaczonym jako (NBC) Blue Network), trzymający scenariusz, 1942](../../../../../translated_images/ribbon-mic.eacc8e092c7441caee6d7a81e2f40e1675bf36269848964c7c09c9a9acb05127.pl.jpg)
+    ![Edmund Lowe, amerykański aktor, stojący przy mikrofonie radiowym (oznaczonym jako (NBC) Blue Network), trzymający scenariusz, 1942](../../../../../translated_images/ribbon-mic.eacc8e092c7441ca.pl.jpg)
 
 * Pojemnościowe – Mikrofony pojemnościowe mają cienką metalową membranę i stałą metalową płytkę tylną. Do obu tych elementów przykładane jest napięcie, a gdy membrana wibruje, zmienia się ładunek elektrostatyczny między płytkami, generując sygnał. Mikrofony pojemnościowe potrzebują zasilania, aby działać – nazywanego *zasilaniem fantomowym*.
 
@@ -84,7 +84,7 @@ Dźwięk to sygnał analogowy niosący bardzo szczegółowe informacje. Aby prze
 
 > 🎓 Próbkowanie to proces konwersji sygnału dźwiękowego na wartość cyfrową, która reprezentuje sygnał w danym momencie.
 
-![Wykres liniowy przedstawiający sygnał z dyskretnymi punktami w stałych odstępach](../../../../../translated_images/sampling.6f4fadb3f2d9dfe7618f9edfe75a350e6b3f74293ec84f02ab69c19d2afe3d73.pl.png)
+![Wykres liniowy przedstawiający sygnał z dyskretnymi punktami w stałych odstępach](../../../../../translated_images/sampling.6f4fadb3f2d9dfe7.pl.png)
 
 Cyfrowy dźwięk jest próbkowany za pomocą modulacji kodu impulsowego (PCM). PCM polega na odczytywaniu napięcia sygnału i wybieraniu najbliższej wartości dyskretnej odpowiadającej temu napięciu, zgodnie z określoną rozdzielczością.
 

@@ -17,7 +17,7 @@ O sensor para esta lição é um **sensor de luz** que utiliza um [fotodíodo](h
 
 O sensor de luz está integrado no Wio Terminal e é visível através da janela de plástico transparente na parte de trás.
 
-![O sensor de luz na parte de trás do Wio Terminal](../../../../../translated_images/wio-light-sensor.b1f529f3c95f51654f2e2c1d2d4b55fe547d189f588c974f5c2462c728133840.pt.png)
+![O sensor de luz na parte de trás do Wio Terminal](../../../../../translated_images/wio-light-sensor.b1f529f3c95f5165.pt.png)
 
 ## Programar o sensor de luz
 

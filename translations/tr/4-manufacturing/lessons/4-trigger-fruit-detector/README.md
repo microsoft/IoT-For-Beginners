@@ -115,7 +115,7 @@ Prototip için, tüm bunları tek bir cihazda uygulayacaksınız. Bir mikrodenet
 
 IoT cihazının, meyvenin sınıflandırılmaya hazır olduğunu belirten bir tür tetikleyiciye ihtiyacı vardır. Bunun bir yolu, bir sensörle mesafeyi ölçerek meyvenin konveyör bandında doğru konumda olup olmadığını belirlemektir.
 
-![Yakınlık sensörleri, muz gibi nesnelere lazer ışınları gönderir ve ışının geri yansıma süresini ölçer](../../../../../translated_images/proximity-sensor.f5cd752c77fb62fea000156233b32fd24fad3707ec69b8bdd8d312b7af85156d.tr.png)
+![Yakınlık sensörleri, muz gibi nesnelere lazer ışınları gönderir ve ışının geri yansıma süresini ölçer](../../../../../translated_images/proximity-sensor.f5cd752c77fb62fe.tr.png)
 
 Yakınlık sensörleri, sensör ile bir nesne arasındaki mesafeyi ölçmek için kullanılabilir. Genellikle bir lazer ışını veya kızılötesi ışık gibi bir elektromanyetik radyasyon ışını gönderir ve ardından bir nesneden yansıyan radyasyonu algılarlar. Lazer ışınının gönderilmesi ile sinyalin geri yansıması arasındaki süre, sensöre olan mesafeyi hesaplamak için kullanılabilir.
 

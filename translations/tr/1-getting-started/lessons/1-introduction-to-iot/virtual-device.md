@@ -154,11 +154,11 @@ Konsola `"Merhaba Dünya"` yazdıran bir Python uygulaması oluşturun.
 
 1. VS Code başlatıldığında, Python sanal ortamını etkinleştirecektir. Seçilen sanal ortam alt durum çubuğunda görünecektir:
 
-    ![VS Code seçilen sanal ortamı gösteriyor](../../../../../translated_images/vscode-virtual-env.8ba42e04c3d533cf677e16cbe5ed9a3b80f62c6964472dc84b6f940800f0909f.tr.png)
+    ![VS Code seçilen sanal ortamı gösteriyor](../../../../../translated_images/vscode-virtual-env.8ba42e04c3d533cf.tr.png)
 
 1. VS Code Terminali, VS Code başlatıldığında zaten çalışıyorsa, sanal ortam terminalde etkinleştirilmemiş olacaktır. En kolay şey, **Aktif terminal örneğini kapat** düğmesini kullanarak terminali kapatmaktır:
 
-    ![VS Code Aktif terminal örneğini kapat düğmesi](../../../../../translated_images/vscode-kill-terminal.1cc4de7c6f25ee08f423f0ead714e61d069fac1eb2089e97b8a7bbcb3d45fe5e.tr.png)
+    ![VS Code Aktif terminal örneğini kapat düğmesi](../../../../../translated_images/vscode-kill-terminal.1cc4de7c6f25ee08.tr.png)
 
     Terminalin sanal ortamı etkinleştirdiğini, terminal isteminde sanal ortamın adının bir ön ek olarak görünmesiyle anlayabilirsiniz. Örneğin, şu şekilde olabilir:
 
@@ -229,7 +229,7 @@ Konsola `"Merhaba Dünya"` yazdıran bir Python uygulaması oluşturun.
 
 1. CounterFit uygulaması mevcut terminalde çalıştığı için yeni bir VS Code terminali başlatmanız gerekecek. **Yeni bir entegre terminal oluştur** düğmesini seçerek bunu yapabilirsiniz.
 
-    ![VS Code Yeni bir entegre terminal oluştur düğmesi](../../../../../translated_images/vscode-new-terminal.77db8fc0f9cd31824b0e49a201beafe4ae4616d6c7339992cb2819e789b3eff9.tr.png)
+    ![VS Code Yeni bir entegre terminal oluştur düğmesi](../../../../../translated_images/vscode-new-terminal.77db8fc0f9cd3182.tr.png)
 
 1. Bu yeni terminalde, daha önce olduğu gibi `app.py` dosyasını çalıştırın. CounterFit'in durumu **Bağlı** olarak değişecek ve LED yanacaktır.
 

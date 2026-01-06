@@ -31,7 +31,7 @@ Sıcaklık sensörünü bağlayın.
 
 1. Raspberry Pi kapalıyken, Grove kablosunun diğer ucunu Pi'ye bağlı Grove Base hat üzerindeki **D5** olarak işaretlenmiş dijital sokete bağlayın. Bu soket, GPIO pinlerinin yanındaki soket sırasının soldan ikinci soketidir.
 
-![Grove sıcaklık sensörü A0 soketine bağlı](../../../../../translated_images/pi-temperature-sensor.3ff82fff672c8e565ef25a39d26d111de006b825a7e0867227ef4e7fbff8553c.tr.png)
+![Grove sıcaklık sensörü A0 soketine bağlı](../../../../../translated_images/pi-temperature-sensor.3ff82fff672c8e56.tr.png)
 
 ## Sıcaklık sensörünü programlayın
 

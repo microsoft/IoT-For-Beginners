@@ -79,7 +79,7 @@ Bir mikrodenetleyici (kısaca MCU olarak da adlandırılır, mikrodenetleyici bi
 
 Mikrodenetleyiciler genellikle düşük maliyetli bilgi işlem cihazlarıdır ve özel donanımlarda kullanılanların ortalama fiyatları yaklaşık 0,50 ABD dolarına kadar düşmektedir ve bazı cihazlar 0,03 ABD doları kadar ucuzdur. Geliştirici kitleri 4 ABD dolarından başlayabilir ve daha fazla özellik ekledikçe maliyet artar. [Wio Terminal](https://www.seeedstudio.com/Wio-Terminal-p-4509.html), sensörler, aktüatörler, WiFi ve bir ekrana sahip bir mikrodenetleyici geliştirici kiti, yaklaşık 30 ABD dolarıdır.
 
-![Bir Wio Terminal](../../../../../translated_images/wio-terminal.b8299ee16587db9aa9e05fabf9721bccd9eb8fb541b7c1a8267241282d81b603.tr.png)
+![Bir Wio Terminal](../../../../../translated_images/wio-terminal.b8299ee16587db9a.tr.png)
 
 > 💁 İnternette mikrodenetleyiciler ararken, **MCU** terimini aramaya dikkat edin, çünkü bu, mikrodenetleyiciler yerine Marvel Sinematik Evreni ile ilgili birçok sonuç getirebilir.
 
@@ -93,7 +93,7 @@ Mikrodenetleyici geliştirici kitleri genellikle yerleşik sensörler ve aktüat
 
 Tek kartlı bir bilgisayar, tüm bir bilgisayarın unsurlarını tek bir küçük kart üzerinde barındıran küçük bir bilgi işlem cihazıdır. Bunlar, bir masaüstü veya dizüstü bilgisayarın özelliklerine yakın, tam bir işletim sistemi çalıştıran, ancak daha küçük, daha az güç kullanan ve önemli ölçüde daha ucuz olan cihazlardır.
 
-![Bir Raspberry Pi 4](../../../../../translated_images/raspberry-pi-4.fd4590d308c3d456db1327e86b395ddcd735513267aafd4879ea2785f7792eac.tr.jpg)
+![Bir Raspberry Pi 4](../../../../../translated_images/raspberry-pi-4.fd4590d308c3d456.tr.jpg)
 
 Raspberry Pi, en popüler tek kartlı bilgisayarlardan biridir.
 

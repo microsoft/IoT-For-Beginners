@@ -39,7 +39,7 @@ Nesne dedektörleri, stok kontrolü için kullanılabilir; stok sayımı yapmak 
 
 Örneğin, bir kamera 8 kutu domates salçası alabilecek bir rafı izliyorsa ve bir nesne dedektörü yalnızca 7 kutu tespit ediyorsa, bir kutu eksiktir ve yeniden stoklanması gerekir.
 
-![Bir rafta 7 kutu domates salçası, üst sırada 4, alt sırada 3](../../../../../translated_images/stock-7-cans-tomato-paste.f86059cc573d7becaa89a0eafb9d2cd7e2fe37405a530fe565990e2333d0e4a1.tr.png)
+![Bir rafta 7 kutu domates salçası, üst sırada 4, alt sırada 3](../../../../../translated_images/stock-7-cans-tomato-paste.f86059cc573d7bec.tr.png)
 
 Yukarıdaki görselde, bir nesne dedektörü 8 kutu alabilecek bir rafta 7 kutu domates salçası tespit etmiştir. IoT cihazı yalnızca yeniden stoklama ihtiyacını bildirmekle kalmaz, aynı zamanda eksik ürünün yerini de belirtebilir. Bu, rafları yeniden stoklamak için robotlar kullanıyorsanız önemli bir veridir.
 
@@ -51,7 +51,7 @@ Bazen raflarda yanlış stok bulunabilir. Bu, yeniden stoklama sırasında yapı
 
 Nesne tespiti, beklenmeyen ürünleri tespit etmek için kullanılabilir ve bu ürünlerin tespit edildiği anda bir insanı veya robotu uyararak ürünü geri yerine koymasını sağlayabilir.
 
-![Domates salçası rafında yanlış yerleştirilmiş bir bebek mısır konservesi](../../../../../translated_images/stock-rogue-corn.be1f3ada8c4578544641af66671c1711a4c02297f14cc7f503354dae0d30a954.tr.png)
+![Domates salçası rafında yanlış yerleştirilmiş bir bebek mısır konservesi](../../../../../translated_images/stock-rogue-corn.be1f3ada8c457854.tr.png)
 
 Yukarıdaki görselde, bir bebek mısır konservesi domates salçası rafına yerleştirilmiştir. Nesne dedektörü bunu tespit etmiş ve IoT cihazı bir insanı veya robotu uyararak konservesi doğru yerine koymasını sağlamıştır.
 

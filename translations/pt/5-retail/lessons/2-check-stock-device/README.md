@@ -39,7 +39,7 @@ Os detetores de objetos podem ser usados para verificar stock, seja contando os 
 
 Por exemplo, se uma câmara estiver apontada para uma prateleira que pode conter 8 latas de polpa de tomate, e o detetor de objetos apenas detetar 7 latas, então falta uma e precisa de ser reposta.
 
-![7 latas de polpa de tomate numa prateleira, 4 na fila de cima, 3 na de baixo](../../../../../translated_images/stock-7-cans-tomato-paste.f86059cc573d7becaa89a0eafb9d2cd7e2fe37405a530fe565990e2333d0e4a1.pt.png)
+![7 latas de polpa de tomate numa prateleira, 4 na fila de cima, 3 na de baixo](../../../../../translated_images/stock-7-cans-tomato-paste.f86059cc573d7bec.pt.png)
 
 Na imagem acima, um detetor de objetos detetou 7 latas de polpa de tomate numa prateleira que pode conter 8 latas. Não só o dispositivo IoT pode enviar uma notificação sobre a necessidade de reposição, como também pode indicar a localização do item em falta, informação importante caso estejas a usar robôs para repor prateleiras.
 
@@ -51,7 +51,7 @@ Por vezes, o stock errado pode estar nas prateleiras. Isto pode acontecer devido
 
 A deteção de objetos pode ser usada para identificar itens inesperados, alertando novamente um humano ou robô para devolver o item assim que for detetado.
 
-![Uma lata de milho bebé fora do lugar na prateleira de polpa de tomate](../../../../../translated_images/stock-rogue-corn.be1f3ada8c4578544641af66671c1711a4c02297f14cc7f503354dae0d30a954.pt.png)
+![Uma lata de milho bebé fora do lugar na prateleira de polpa de tomate](../../../../../translated_images/stock-rogue-corn.be1f3ada8c457854.pt.png)
 
 Na imagem acima, uma lata de milho bebé foi colocada na prateleira ao lado da polpa de tomate. O detetor de objetos detetou isto, permitindo que o dispositivo IoT notifique um humano ou robô para devolver a lata ao local correto.
 

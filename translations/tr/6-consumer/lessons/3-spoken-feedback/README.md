@@ -37,7 +37,7 @@ Bu derste şunları ele alacağız:
 
 Adından da anlaşılacağı gibi, metinden konuşmaya işlemi, metni sesli kelimeler olarak içeren sese dönüştürme sürecidir. Temel prensip, metindeki kelimeleri bileşen seslerine (fonemler olarak bilinir) ayırmak ve bu sesler için sesleri birleştirmek, ya önceden kaydedilmiş sesleri kullanarak ya da yapay zeka modelleri tarafından üretilen sesleri kullanarak gerçekleştirilir.
 
-![Tipik metinden konuşmaya sistemlerinin üç aşaması](../../../../../translated_images/tts-overview.193843cf3f5ee09f8b3371a9fdaeb0f116698a07ca69daaa77158da4800e5453.tr.png)
+![Tipik metinden konuşmaya sistemlerinin üç aşaması](../../../../../translated_images/tts-overview.193843cf3f5ee09f.tr.png)
 
 Metinden konuşmaya sistemleri genellikle 3 aşamadan oluşur:
 

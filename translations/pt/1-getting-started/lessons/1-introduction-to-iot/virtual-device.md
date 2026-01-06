@@ -154,11 +154,11 @@ Crie uma aplicação Python para imprimir `"Hello World"` no terminal.
 
 1. Quando o VS Code for iniciado, ativará o ambiente virtual Python. O ambiente virtual selecionado aparecerá na barra de estado inferior:
 
-    ![VS Code mostrando o ambiente virtual selecionado](../../../../../translated_images/vscode-virtual-env.8ba42e04c3d533cf677e16cbe5ed9a3b80f62c6964472dc84b6f940800f0909f.pt.png)
+    ![VS Code mostrando o ambiente virtual selecionado](../../../../../translated_images/vscode-virtual-env.8ba42e04c3d533cf.pt.png)
 
 1. Se o Terminal do VS Code já estiver em execução quando o VS Code for iniciado, ele não terá o ambiente virtual ativado. A forma mais fácil de resolver isso é encerrar o terminal usando o botão **Kill the active terminal instance**:
 
-    ![Botão Kill the active terminal instance no VS Code](../../../../../translated_images/vscode-kill-terminal.1cc4de7c6f25ee08f423f0ead714e61d069fac1eb2089e97b8a7bbcb3d45fe5e.pt.png)
+    ![Botão Kill the active terminal instance no VS Code](../../../../../translated_images/vscode-kill-terminal.1cc4de7c6f25ee08.pt.png)
 
     Pode verificar se o terminal tem o ambiente virtual ativado, pois o nome do ambiente virtual será um prefixo no prompt do terminal. Por exemplo, pode ser:
 
@@ -229,7 +229,7 @@ Como um segundo passo do 'Hello World', irá executar a aplicação CounterFit e
 
 1. Precisará de iniciar um novo terminal no VS Code selecionando o botão **Create a new integrated terminal**. Isto porque a aplicação CounterFit está a ser executada no terminal atual.
 
-    ![Botão Create a new integrated terminal no VS Code](../../../../../translated_images/vscode-new-terminal.77db8fc0f9cd31824b0e49a201beafe4ae4616d6c7339992cb2819e789b3eff9.pt.png)
+    ![Botão Create a new integrated terminal no VS Code](../../../../../translated_images/vscode-new-terminal.77db8fc0f9cd3182.pt.png)
 
 1. Neste novo terminal, execute o ficheiro `app.py` como antes. O estado do CounterFit mudará para **Connected** e o LED acenderá.
 

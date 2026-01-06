@@ -21,7 +21,7 @@ Ayrıca, toprak veya bir saksı bitkisi ve meyve veya sebze gibi birkaç teknik 
 
 ## Kitleri Satın Alın
 
-![Seeed Studios logosu](../../translated_images/seeed-logo.74732b6b482b6e8e8bdcc06f0541fc92b1dabf5e3e8f37afb91e04393a8cb977.tr.png)
+![Seeed Studios logosu](../../translated_images/seeed-logo.74732b6b482b6e8e.tr.png)
 
 Seeed Studios, tüm donanımı kolayca satın alınabilir kitler olarak sunma konusunda çok nazik davrandı:
 
@@ -29,7 +29,7 @@ Seeed Studios, tüm donanımı kolayca satın alınabilir kitler olarak sunma ko
 
 **[Seeed ve Microsoft ile Başlangıç için IoT - Wio Terminal Başlangıç Kiti](https://www.seeedstudio.com/IoT-for-beginners-with-Seeed-and-Microsoft-Wio-Terminal-Starter-Kit-p-5006.html)**
 
-[![Wio Terminal donanım kiti](../../translated_images/wio-hardware-kit.4c70c48b85e4283a1d73e248d87d49587c0cd077eeb69cb3eca803166f63c9a5.tr.png)](https://www.seeedstudio.com/IoT-for-beginners-with-Seeed-and-Microsoft-Wio-Terminal-Starter-Kit-p-5006.html)
+[![Wio Terminal donanım kiti](../../translated_images/wio-hardware-kit.4c70c48b85e4283a.tr.png)](https://www.seeedstudio.com/IoT-for-beginners-with-Seeed-and-Microsoft-Wio-Terminal-Starter-Kit-p-5006.html)
 
 ### Raspberry Pi
 

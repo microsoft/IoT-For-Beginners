@@ -61,7 +61,7 @@ Najnowocześniejsze maszyny sortujące wykorzystują AI i ML, używając modeli 
 
 Tradycyjne programowanie polega na tym, że bierzesz dane, stosujesz do nich algorytm i otrzymujesz wynik. Na przykład w poprzednim projekcie używałeś współrzędnych GPS i geofencing, stosując algorytm dostarczony przez Azure Maps, aby uzyskać wynik, czy punkt znajduje się wewnątrz, czy na zewnątrz geofencing. Wprowadzasz więcej danych, otrzymujesz więcej wyników.
 
-![Tradycyjne programowanie bierze dane wejściowe i algorytm, aby dać wynik. Uczenie maszynowe używa danych wejściowych i wyników do trenowania modelu, który może generować nowe wyniki na podstawie nowych danych wejściowych](../../../../../translated_images/traditional-vs-ml.5c20c169621fa539ca84a2cd9a49f6ff7410b3a6c6b46c97ff2af3f99db3c66b.pl.png)
+![Tradycyjne programowanie bierze dane wejściowe i algorytm, aby dać wynik. Uczenie maszynowe używa danych wejściowych i wyników do trenowania modelu, który może generować nowe wyniki na podstawie nowych danych wejściowych](../../../../../translated_images/traditional-vs-ml.5c20c169621fa539.pl.png)
 
 Uczenie maszynowe odwraca ten proces – zaczynasz od danych i znanych wyników, a algorytm uczenia maszynowego uczy się na podstawie tych danych. Następnie możesz użyć wytrenowanego algorytmu, zwanego *modelem uczenia maszynowego* lub *modelem*, aby wprowadzić nowe dane i uzyskać nowe wyniki.
 
@@ -87,7 +87,7 @@ Aby skutecznie wytrenować klasyfikator obrazów, potrzebujesz milionów obrazó
 
 Gdy klasyfikator obrazów został wytrenowany na szerokiej gamie obrazów, jego wewnętrzne mechanizmy są świetne w rozpoznawaniu kształtów, kolorów i wzorów. Transfer learning pozwala modelowi wykorzystać to, czego już nauczył się w rozpoznawaniu części obrazu, aby rozpoznawać nowe obrazy.
 
-![Gdy rozpoznasz kształty, możesz je ułożyć w różne konfiguracje, aby stworzyć łódkę lub kota](../../../../../translated_images/shapes-to-images.1a309f0ea88dd66fafa4da6d38e88806ce174cc6a88081efb32852230ed55de8.pl.png)
+![Gdy rozpoznasz kształty, możesz je ułożyć w różne konfiguracje, aby stworzyć łódkę lub kota](../../../../../translated_images/shapes-to-images.1a309f0ea88dd66f.pl.png)
 
 Możesz to porównać do książek dla dzieci o kształtach, gdzie po rozpoznaniu półkola, prostokąta i trójkąta możesz rozpoznać żaglówkę lub kota w zależności od konfiguracji tych kształtów. Klasyfikator obrazów rozpoznaje kształty, a transfer learning uczy go, jaka kombinacja tworzy łódkę, kota – lub dojrzałego banana.
 

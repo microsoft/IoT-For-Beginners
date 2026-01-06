@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 O [Raspberry Pi](https://raspberrypi.org) é um computador de placa única. Pode adicionar sensores e atuadores utilizando uma ampla gama de dispositivos e ecossistemas. Para estas lições, será utilizado um ecossistema de hardware chamado [Grove](https://www.seeedstudio.com/category/Grove-c-1003.html). Vai programar o seu Pi e aceder aos sensores Grove utilizando Python.
 
-![Um Raspberry Pi 4](../../../../../translated_images/raspberry-pi-4.fd4590d308c3d456db1327e86b395ddcd735513267aafd4879ea2785f7792eac.pt.jpg)
+![Um Raspberry Pi 4](../../../../../translated_images/raspberry-pi-4.fd4590d308c3d456.pt.jpg)
 
 ## Configuração
 
@@ -112,7 +112,7 @@ Configure o sistema operativo do Pi para funcionar como 'headless'.
 
 1. No Raspberry Pi Imager, selecione o botão **CHOOSE OS**, depois escolha *Raspberry Pi OS (Other)* e, em seguida, *Raspberry Pi OS Lite (32-bit)*.
 
-    ![O Raspberry Pi Imager com o Raspberry Pi OS Lite selecionado](../../../../../translated_images/raspberry-pi-imager.24aedeab9e233d841a1504ed7cfeb871b1f8e1134cfcd8370e7f60a092056be2.pt.png)
+    ![O Raspberry Pi Imager com o Raspberry Pi OS Lite selecionado](../../../../../translated_images/raspberry-pi-imager.24aedeab9e233d84.pt.png)
 
     > 💁 O Raspberry Pi OS Lite é uma versão do Raspberry Pi OS sem a interface gráfica ou ferramentas baseadas em UI. Estas não são necessárias para um Pi 'headless', tornando a instalação mais leve e o tempo de arranque mais rápido.
 
@@ -251,7 +251,7 @@ Cria a aplicação Hello World.
 
 1. Abre esta pasta no VS Code selecionando *File -> Open...* e escolhendo a pasta *nightlight*, depois seleciona **OK**.
 
-    ![A janela de diálogo do VS Code a mostrar a pasta nightlight](../../../../../translated_images/vscode-open-nightlight-remote.d3d2a4011e30d535c4b70084f6e94bf6b5b1327fd8e77affe64465ac151ee766.pt.png)
+    ![A janela de diálogo do VS Code a mostrar a pasta nightlight](../../../../../translated_images/vscode-open-nightlight-remote.d3d2a4011e30d535.pt.png)
 
 1. Abre o ficheiro `app.py` no explorador do VS Code e adiciona o seguinte código:
 

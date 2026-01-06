@@ -13,7 +13,7 @@ Tahminler ve bunlara ait sınırlayıcı kutuların kombinasyonu, bir görüntü
 
 ## Stok Sayımı
 
-![Her bir kutunun etrafında sınırlayıcı kutular olan 4 domates salçası kutusu](../../../../../translated_images/rpi-stock-with-bounding-boxes.b5540e2ecb7cd49f1271828d3be412671d950e87625c5597ea97c90f11e01097.tr.jpg)
+![Her bir kutunun etrafında sınırlayıcı kutular olan 4 domates salçası kutusu](../../../../../translated_images/rpi-stock-with-bounding-boxes.b5540e2ecb7cd49f.tr.jpg)
 
 Yukarıdaki görüntüde, sınırlayıcı kutuların küçük bir örtüşmesi var. Eğer bu örtüşme çok daha büyük olsaydı, sınırlayıcı kutular aynı nesneyi gösterebilirdi. Nesneleri doğru bir şekilde saymak için, önemli ölçüde örtüşen kutuları görmezden gelmeniz gerekir.
 

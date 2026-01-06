@@ -130,7 +130,7 @@ Bu ders için bir Çevirmen kaynağına ihtiyacınız olacak. Metin çevirisi ya
 
 İdeal bir dünyada, tüm uygulamanız mümkün olduğunca çok dili anlamalıdır; konuşmayı dinlemekten, dili anlamaya ve konuşma ile yanıt vermeye kadar. Bu oldukça fazla iş gerektirir, bu nedenle çeviri hizmetleri uygulamanızın teslim süresini hızlandırabilir.
 
-![Japoncayı İngilizceye çeviren, İngilizce işleyen ve ardından Japoncaya çeviren bir akıllı zamanlayıcı mimarisi](../../../../../translated_images/translated-smart-timer.08ac20057fdc5c3778ed41cb425dca5d7fbcd4584b6da7b73ca67115a5b8a883.tr.png)
+![Japoncayı İngilizceye çeviren, İngilizce işleyen ve ardından Japoncaya çeviren bir akıllı zamanlayıcı mimarisi](../../../../../translated_images/translated-smart-timer.08ac20057fdc5c37.tr.png)
 
 Diyelim ki, baştan sona İngilizce kullanan bir akıllı zamanlayıcı oluşturuyorsunuz. İngilizce konuşmayı anlayıp metne dönüştürerek, dili İngilizce anlayarak, İngilizce yanıtlar oluşturup İngilizce konuşma ile yanıt vererek çalışıyor. Japonca desteği eklemek istiyorsanız, Japonca konuşmayı İngilizce metne çevirerek başlayabilir, ardından uygulamanın çekirdeğini aynı tutabilir ve yanıt metnini Japoncaya çevirerek yanıtı konuşabilirsiniz. Bu, Japonca desteğini hızlı bir şekilde eklemenizi sağlar ve daha sonra tam uçtan uca Japonca desteği sağlamaya genişleyebilirsiniz.
 
