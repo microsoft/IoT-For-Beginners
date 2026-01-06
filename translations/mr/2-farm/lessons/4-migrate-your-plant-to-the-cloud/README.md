@@ -72,7 +72,7 @@ IoT डिव्हाइसने सार्वजनिक MQTT ब्रो
 
 Azure हा मायक्रोसॉफ्टचा डेव्हलपर क्लाउड आहे, आणि तुम्ही या धड्यांसाठी याचाच वापर करणार आहात. खालील व्हिडिओ Azure चा एक छोटा आढावा देतो:
 
-[![Azure व्हिडिओचा आढावा](../../../../../translated_images/what-is-azure-video-thumbnail.20174db09e03bbb87d213f928d3cb27410305d2e567e952827de8478dbda959b.mr.png)](https://www.microsoft.com/videoplayer/embed/RE4Ibng?WT.mc_id=academic-17441-jabenn)
+[![Azure व्हिडिओचा आढावा](../../../../../translated_images/what-is-azure-video-thumbnail.20174db09e03bbb8.mr.png)](https://www.microsoft.com/videoplayer/embed/RE4Ibng?WT.mc_id=academic-17441-jabenn)
 
 ## क्लाउड सबस्क्रिप्शन तयार करा
 

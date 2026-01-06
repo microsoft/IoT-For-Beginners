@@ -21,7 +21,7 @@ IoT मधील **T** म्हणजे **थिंग्स**, ज्या�
 
 ## किट्स खरेदी करा
 
-![Seeed Studios लोगो](../../translated_images/seeed-logo.74732b6b482b6e8e8bdcc06f0541fc92b1dabf5e3e8f37afb91e04393a8cb977.mr.png)
+![Seeed Studios लोगो](../../translated_images/seeed-logo.74732b6b482b6e8e.mr.png)
 
 Seeed Studios ने सर्व हार्डवेअर सोप्या पद्धतीने खरेदी करण्यासाठी किट्स उपलब्ध करून दिल्या आहेत:
 
@@ -29,7 +29,7 @@ Seeed Studios ने सर्व हार्डवेअर सोप्या
 
 **[Seeed आणि Microsoft सोबत IoT शिकण्यासाठी - Wio टर्मिनल स्टार्टर किट](https://www.seeedstudio.com/IoT-for-beginners-with-Seeed-and-Microsoft-Wio-Terminal-Starter-Kit-p-5006.html)**
 
-[![Wio टर्मिनल हार्डवेअर किट](../../translated_images/wio-hardware-kit.4c70c48b85e4283a1d73e248d87d49587c0cd077eeb69cb3eca803166f63c9a5.mr.png)](https://www.seeedstudio.com/IoT-for-beginners-with-Seeed-and-Microsoft-Wio-Terminal-Starter-Kit-p-5006.html)
+[![Wio टर्मिनल हार्डवेअर किट](../../translated_images/wio-hardware-kit.4c70c48b85e4283a.mr.png)](https://www.seeedstudio.com/IoT-for-beginners-with-Seeed-and-Microsoft-Wio-Terminal-Starter-Kit-p-5006.html)
 
 ### Raspberry Pi
 

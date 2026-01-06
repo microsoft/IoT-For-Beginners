@@ -17,7 +17,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 प्रकाश सेन्सर Wio Terminal मध्ये अंगभूत आहे आणि मागील बाजूस असलेल्या पारदर्शक प्लास्टिकच्या खिडकीतून दिसतो.
 
-![Wio Terminal च्या मागील बाजूस असलेला प्रकाश सेन्सर](../../../../../translated_images/wio-light-sensor.b1f529f3c95f51654f2e2c1d2d4b55fe547d189f588c974f5c2462c728133840.mr.png)
+![Wio Terminal च्या मागील बाजूस असलेला प्रकाश सेन्सर](../../../../../translated_images/wio-light-sensor.b1f529f3c95f5165.mr.png)
 
 ## प्रकाश सेन्सर प्रोग्राम करा
 

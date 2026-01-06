@@ -72,7 +72,7 @@ IoT उपकरणले सार्वजनिक MQTT ब्रोकरस
 
 Azure Microsoft को डेभलपर क्लाउड हो, र तपाईंले यी पाठहरूको लागि प्रयोग गर्ने क्लाउड हो। तलको भिडियोले Azure को छोटो अवलोकन दिन्छ:
 
-[![Azure भिडियोको अवलोकन](../../../../../translated_images/what-is-azure-video-thumbnail.20174db09e03bbb87d213f928d3cb27410305d2e567e952827de8478dbda959b.ne.png)](https://www.microsoft.com/videoplayer/embed/RE4Ibng?WT.mc_id=academic-17441-jabenn)
+[![Azure भिडियोको अवलोकन](../../../../../translated_images/what-is-azure-video-thumbnail.20174db09e03bbb8.ne.png)](https://www.microsoft.com/videoplayer/embed/RE4Ibng?WT.mc_id=academic-17441-jabenn)
 
 ## क्लाउड सदस्यता सिर्जना गर्नुहोस्
 

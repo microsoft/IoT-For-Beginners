@@ -33,11 +33,11 @@ Grove मातीतील आर्द्रता सेन्सर Wio Term
 
 1. Wio Terminal तुमच्या संगणकापासून किंवा इतर पॉवर सप्लायपासून डिस्कनेक्ट केलेला असताना, Grove केबलचे दुसरे टोक Wio Terminal च्या स्क्रीनकडे पाहताना उजव्या बाजूच्या Grove सॉकेटमध्ये जोडा. हे पॉवर बटणापासून सर्वात दूर असलेले सॉकेट आहे.
 
-![Grove मातीतील आर्द्रता सेन्सर उजव्या सॉकेटला जोडलेला](../../../../../translated_images/wio-soil-moisture-sensor.46919b61c3f6cb7497662251b29038ee0e57a4c8b9d071feb996c3b0d7f65aaf.mr.png)
+![Grove मातीतील आर्द्रता सेन्सर उजव्या सॉकेटला जोडलेला](../../../../../translated_images/wio-soil-moisture-sensor.46919b61c3f6cb74.mr.png)
 
 1. मातीतील आर्द्रता सेन्सर मातीमध्ये घाला. त्यावर 'highest position line' आहे - सेन्सरवर पांढऱ्या रंगाची रेषा. सेन्सर त्या रेषेपर्यंत पण त्यापलीकडे नाही असे घाला.
 
-![मातीतील आर्द्रता सेन्सर मातीमध्ये](../../../../../translated_images/soil-moisture-sensor-in-soil.bfad91002bda5e960f8c51ee64b02ee59b32c8c717e3515a2c945f33e614e403.mr.png)
+![मातीतील आर्द्रता सेन्सर मातीमध्ये](../../../../../translated_images/soil-moisture-sensor-in-soil.bfad91002bda5e96.mr.png)
 
 1. आता तुम्ही Wio Terminal तुमच्या संगणकाला जोडू शकता.
 

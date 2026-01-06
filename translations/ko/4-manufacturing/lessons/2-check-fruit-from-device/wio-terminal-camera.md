@@ -29,7 +29,7 @@ ArduCam은 Grove 소켓이 없으며, 대신 Wio Terminal의 GPIO 핀을 통해 
 
 1. ArduCam의 하단 핀을 Wio Terminal의 GPIO 핀에 연결해야 합니다. 올바른 핀을 쉽게 찾을 수 있도록 Wio Terminal에 제공된 GPIO 핀 스티커를 핀 주변에 붙이세요:
 
-    ![GPIO 핀 스티커가 붙은 Wio Terminal](../../../../../translated_images/wio-terminal-pin-sticker.b90b1535937b84bd00d853f0004aea74fac2aec04b43f14b887796b2633f855e.ko.png)
+    ![GPIO 핀 스티커가 붙은 Wio Terminal](../../../../../translated_images/wio-terminal-pin-sticker.b90b1535937b84bd.ko.png)
 
 1. 점퍼 와이어를 사용하여 다음 연결을 만드세요:
 
@@ -297,7 +297,7 @@ ArduCam은 Grove 소켓이 없으며, 대신 Wio Terminal의 GPIO 핀을 통해 
 
 1. 마이크로컨트롤러는 코드를 지속적으로 실행하므로 센서에 반응하지 않고 사진을 찍는 것과 같은 작업을 트리거하기가 쉽지 않습니다. Wio Terminal에는 버튼이 있으므로 카메라를 버튼 중 하나로 트리거하도록 설정할 수 있습니다. `setup` 함수 끝에 다음 코드를 추가하여 C 버튼(세 개의 버튼 중 전원 스위치에 가장 가까운 버튼)을 구성하세요.
 
-    ![전원 스위치에 가장 가까운 C 버튼](../../../../../translated_images/wio-terminal-c-button.73df3cb1c1445ea07ee98316af0e7925fcb43135df0abed58d3d4822b2589c3b.ko.png)
+    ![전원 스위치에 가장 가까운 C 버튼](../../../../../translated_images/wio-terminal-c-button.73df3cb1c1445ea0.ko.png)
 
     ```cpp
     pinMode(WIO_KEY_C, INPUT_PULLUP);

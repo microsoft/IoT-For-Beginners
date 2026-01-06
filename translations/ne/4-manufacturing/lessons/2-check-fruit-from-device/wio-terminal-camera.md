@@ -29,7 +29,7 @@ ArduCam सँग Grove सकेट छैन, यसको सट्टा य
 
 1. ArduCam को आधारमा रहेका पिनहरू Wio Terminal का GPIO पिनहरूसँग जडान गर्नुपर्छ। सही पिनहरू पत्ता लगाउन सजिलो बनाउन, Wio Terminal सँग आउने GPIO पिन स्टिकरलाई पिनहरूको वरिपरि टाँस्नुहोस्:
 
-    ![GPIO पिन स्टिकर भएको Wio Terminal](../../../../../translated_images/wio-terminal-pin-sticker.b90b1535937b84bd00d853f0004aea74fac2aec04b43f14b887796b2633f855e.ne.png)
+    ![GPIO पिन स्टिकर भएको Wio Terminal](../../../../../translated_images/wio-terminal-pin-sticker.b90b1535937b84bd.ne.png)
 
 1. जम्पर तारहरूको प्रयोग गरेर, निम्न जडानहरू गर्नुहोस्:
 
@@ -297,7 +297,7 @@ ArduCam सँग Grove सकेट छैन, यसको सट्टा य
 
 1. माइक्रोकन्ट्रोलरहरूले तपाईंको कोड निरन्तर चलाउँछन्, त्यसैले तस्बिर खिच्ने जस्तो कार्य ट्रिगर गर्न सेन्सरको प्रतिक्रिया आवश्यक पर्छ। Wio Terminal सँग बटनहरू छन्, त्यसैले क्यामेरालाई यी बटनहरूमध्ये एकले ट्रिगर गर्न सकिन्छ। `setup` फंक्शनको अन्त्यमा निम्न कोड थप्नुहोस्:
 
-    ![पावर स्विच नजिकको C बटन](../../../../../translated_images/wio-terminal-c-button.73df3cb1c1445ea07ee98316af0e7925fcb43135df0abed58d3d4822b2589c3b.ne.png)
+    ![पावर स्विच नजिकको C बटन](../../../../../translated_images/wio-terminal-c-button.73df3cb1c1445ea0.ne.png)
 
     ```cpp
     pinMode(WIO_KEY_C, INPUT_PULLUP);

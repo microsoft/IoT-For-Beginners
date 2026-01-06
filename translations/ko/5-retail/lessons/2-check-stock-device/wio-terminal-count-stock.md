@@ -13,7 +13,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 ## 재고 계산하기
 
-![각 캔 주위에 경계 상자가 표시된 토마토 페이스트 캔 4개](../../../../../translated_images/rpi-stock-with-bounding-boxes.b5540e2ecb7cd49f1271828d3be412671d950e87625c5597ea97c90f11e01097.ko.jpg)
+![각 캔 주위에 경계 상자가 표시된 토마토 페이스트 캔 4개](../../../../../translated_images/rpi-stock-with-bounding-boxes.b5540e2ecb7cd49f.ko.jpg)
 
 위 이미지에서 경계 상자들이 약간 겹쳐져 있습니다. 만약 이 겹침이 훨씬 더 크다면, 경계 상자가 동일한 객체를 나타낼 수 있습니다. 객체를 올바르게 계산하려면 겹침이 큰 상자는 무시해야 합니다.
 

@@ -154,11 +154,11 @@ Python भर्चुअल वातावरण तयार भएपछि,
 
 1. जब VS Code सुरु हुन्छ, यसले Python भर्चुअल वातावरण सक्रिय गर्नेछ। चयन गरिएको भर्चुअल वातावरण तलको स्टाटस बारमा देखिनेछ:
 
-    ![VS Code मा चयन गरिएको भर्चुअल वातावरण देखाउँदै](../../../../../translated_images/vscode-virtual-env.8ba42e04c3d533cf677e16cbe5ed9a3b80f62c6964472dc84b6f940800f0909f.ne.png)
+    ![VS Code मा चयन गरिएको भर्चुअल वातावरण देखाउँदै](../../../../../translated_images/vscode-virtual-env.8ba42e04c3d533cf.ne.png)
 
 1. यदि VS Code टर्मिनल VS Code सुरु हुँदा पहिले नै चलिरहेको छ भने, यसमा भर्चुअल वातावरण सक्रिय हुनेछैन। सबैभन्दा सजिलो कुरा भनेको **Kill the active terminal instance** बटन प्रयोग गरेर टर्मिनललाई बन्द गर्नु हो:
 
-    ![VS Code Kill the active terminal instance बटन](../../../../../translated_images/vscode-kill-terminal.1cc4de7c6f25ee08f423f0ead714e61d069fac1eb2089e97b8a7bbcb3d45fe5e.ne.png)
+    ![VS Code Kill the active terminal instance बटन](../../../../../translated_images/vscode-kill-terminal.1cc4de7c6f25ee08.ne.png)
 
     तपाईं टर्मिनलमा भर्चुअल वातावरण सक्रिय छ कि छैन भनेर थाहा पाउन सक्नुहुन्छ किनभने टर्मिनल प्रम्प्टमा भर्चुअल वातावरणको नाम उपसर्ग हुनेछ। उदाहरणका लागि, यो हुन सक्छ:
 
@@ -229,7 +229,7 @@ Python भर्चुअल वातावरण तयार भएपछि,
 
 1. तपाईंले नयाँ VS Code टर्मिनल सुरु गर्नुपर्नेछ **Create a new integrated terminal** बटन चयन गरेर। यो किनभने CounterFit एप्लिकेसन हालको टर्मिनलमा चलिरहेको छ।
 
-    ![VS Code Create a new integrated terminal बटन](../../../../../translated_images/vscode-new-terminal.77db8fc0f9cd31824b0e49a201beafe4ae4616d6c7339992cb2819e789b3eff9.ne.png)
+    ![VS Code Create a new integrated terminal बटन](../../../../../translated_images/vscode-new-terminal.77db8fc0f9cd3182.ne.png)
 
 1. यस नयाँ टर्मिनलमा, पहिलेको जस्तै `app.py` फाइल चलाउनुहोस्। CounterFit को स्थिति **Connected** मा परिवर्तन हुनेछ र LED बत्ती बल्नेछ।
 

@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 [Seeed Studios को Wio Terminal](https://www.seeedstudio.com/Wio-Terminal-p-4509.html) एक Arduino-संगत माइक्रोकन्ट्रोलर हो, जसमा WiFi र केही सेन्सर तथा एक्ट्युएटरहरू निर्मित छन्। साथै, [Grove](https://www.seeedstudio.com/category/Grove-c-1003.html) नामक हार्डवेयर इकोसिस्टम प्रयोग गरेर थप सेन्सर र एक्ट्युएटरहरू जोड्न सकिन्छ।
 
-![Seeed Studios को Wio Terminal](../../../../../translated_images/wio-terminal.b8299ee16587db9aa9e05fabf9721bccd9eb8fb541b7c1a8267241282d81b603.ne.png)
+![Seeed Studios को Wio Terminal](../../../../../translated_images/wio-terminal.b8299ee16587db9a.ne.png)
 
 ## सेटअप
 
@@ -51,15 +51,15 @@ PlatformIO प्रोजेक्ट बनाउनुहोस्।
 
 1. PlatformIO आइकन साइड मेनु बारमा हुनेछ:
 
-    ![Platform IO मेनु विकल्प](../../../../../translated_images/vscode-platformio-menu.297be26b9733e5c4635d9d8e636e93fed2015809eafb7cc8fd409c37b3ef2ef5.ne.png)
+    ![Platform IO मेनु विकल्प](../../../../../translated_images/vscode-platformio-menu.297be26b9733e5c4.ne.png)
 
     यो मेनु आइटम चयन गर्नुहोस्, त्यसपछि *PIO Home -> Open* चयन गर्नुहोस्।
 
-    ![Platform IO ओपन विकल्प](../../../../../translated_images/vscode-platformio-home-open.3f9a41bfd3f4da1c866ec3e69f1675faa30b823b5b58ab58ac88e5df9a85da19.ne.png)
+    ![Platform IO ओपन विकल्प](../../../../../translated_images/vscode-platformio-home-open.3f9a41bfd3f4da1c.ne.png)
 
 1. स्वागत स्क्रीनबाट **+ New Project** बटन चयन गर्नुहोस्।
 
-    ![नयाँ प्रोजेक्ट बटन](../../../../../translated_images/vscode-platformio-welcome-new-button.ba6fc8a4c7b78cc822e1ce47ba29c5db96668cce7c5f4adbfd2f1196422baa26.ne.png)
+    ![नयाँ प्रोजेक्ट बटन](../../../../../translated_images/vscode-platformio-welcome-new-button.ba6fc8a4c7b78cc8.ne.png)
 
 1. *Project Wizard* मा प्रोजेक्ट कन्फिगर गर्नुहोस्:
 
@@ -73,7 +73,7 @@ PlatformIO प्रोजेक्ट बनाउनुहोस्।
 
     1. **Finish** बटन चयन गर्नुहोस्।
 
-    ![पूरा भएको प्रोजेक्ट विजार्ड](../../../../../translated_images/vscode-platformio-nightlight-project-wizard.5c64db4da6037420827c2597507897233457210ee23975711fa2285efdcd0dc7.ne.png)
+    ![पूरा भएको प्रोजेक्ट विजार्ड](../../../../../translated_images/vscode-platformio-nightlight-project-wizard.5c64db4da6037420.ne.png)
 
     PlatformIO ले Wio Terminal को लागि कोड कम्पाइल गर्न आवश्यक कम्पोनेन्टहरू डाउनलोड गर्नेछ र तपाईंको प्रोजेक्ट बनाउनेछ। यसमा केही मिनेट लाग्न सक्छ।
 
@@ -179,7 +179,7 @@ VS Code एक्सप्लोररले PlatformIO विजार्डल
 
     1. `PlatformIO Upload` टाइप गरेर अपलोड विकल्प खोज्नुहोस्, र *PlatformIO: Upload* चयन गर्नुहोस्।
 
-        ![PlatformIO अपलोड विकल्प कमाण्ड प्यालेटमा](../../../../../translated_images/vscode-platformio-upload-command-palette.9e0f49cf80d1f1c3eb5c6689b8705ad8b89f0374b21698e996fec11e4ed09347.ne.png)
+        ![PlatformIO अपलोड विकल्प कमाण्ड प्यालेटमा](../../../../../translated_images/vscode-platformio-upload-command-palette.9e0f49cf80d1f1c3.ne.png)
 
         PlatformIO ले आवश्यक परेमा कोडलाई अपलोड गर्नु अघि स्वतः कम्पाइल गर्नेछ।
 
@@ -195,7 +195,7 @@ PlatformIO मा एक सिरियल मोनिटर छ जसले 
 
 1. `PlatformIO Serial` टाइप गरेर सिरियल मोनिटर विकल्प खोज्नुहोस्, र *PlatformIO: Serial Monitor* चयन गर्नुहोस्।
 
-    ![PlatformIO सिरियल मोनिटर विकल्प कमाण्ड प्यालेटमा](../../../../../translated_images/vscode-platformio-serial-monitor-command-palette.b348ec841b8a1c14af503d6fc0bf73c657c79c9acc12a6b6dd485ce3b5826f48.ne.png)
+    ![PlatformIO सिरियल मोनिटर विकल्प कमाण्ड प्यालेटमा](../../../../../translated_images/vscode-platformio-serial-monitor-command-palette.b348ec841b8a1c14.ne.png)
 
     नयाँ टर्मिनल खुल्नेछ, र सिरियल पोर्टबाट पठाइएको डेटा यस टर्मिनलमा स्ट्रिम गरिनेछ:
 

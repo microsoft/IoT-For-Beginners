@@ -13,7 +13,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 ## स्टक गणना गर्नुहोस्
 
-![टमाटर पेस्टका ४ क्यानहरू, प्रत्येक क्यान वरिपरि bounding boxes सहित](../../../../../translated_images/rpi-stock-with-bounding-boxes.b5540e2ecb7cd49f1271828d3be412671d950e87625c5597ea97c90f11e01097.ne.jpg)
+![टमाटर पेस्टका ४ क्यानहरू, प्रत्येक क्यान वरिपरि bounding boxes सहित](../../../../../translated_images/rpi-stock-with-bounding-boxes.b5540e2ecb7cd49f.ne.jpg)
 
 माथिको छविमा देखाइएको छ, bounding boxes साना ओभरल्याप भएका छन्। यदि यो ओभरल्याप धेरै ठूलो हुन्थ्यो भने, bounding boxes ले एउटै वस्तु संकेत गर्न सक्थे। वस्तुहरू सही रूपमा गणना गर्न, तपाईंले महत्त्वपूर्ण ओभरल्याप भएका बक्सहरूलाई बेवास्ता गर्नुपर्छ।
 
