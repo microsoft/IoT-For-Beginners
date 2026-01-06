@@ -154,11 +154,11 @@ CO_OP_TRANSLATOR_METADATA:
 
 1. כאשר VS Code יופעל, הוא יפעיל את הסביבה הווירטואלית של Python. הסביבה הווירטואלית שנבחרה תופיע בשורת המצב התחתונה:
 
-    ![VS Code showing the selected virtual environment](../../../../../translated_images/vscode-virtual-env.8ba42e04c3d533cf677e16cbe5ed9a3b80f62c6964472dc84b6f940800f0909f.he.png)
+    ![VS Code showing the selected virtual environment](../../../../../translated_images/vscode-virtual-env.8ba42e04c3d533cf.he.png)
 
 1. אם הטרמינל של VS Code כבר פועל כאשר VS Code מופעל, הוא לא יפעיל את הסביבה הווירטואלית בתוכו. הדרך הקלה ביותר היא לסגור את הטרמינל באמצעות כפתור **Kill the active terminal instance**:
 
-    ![VS Code Kill the active terminal instance button](../../../../../translated_images/vscode-kill-terminal.1cc4de7c6f25ee08f423f0ead714e61d069fac1eb2089e97b8a7bbcb3d45fe5e.he.png)
+    ![VS Code Kill the active terminal instance button](../../../../../translated_images/vscode-kill-terminal.1cc4de7c6f25ee08.he.png)
 
     תוכל לדעת אם הטרמינל מפעיל את הסביבה הווירטואלית לפי שם הסביבה הווירטואלית שיופיע כקידומת בשורת הפקודה של הטרמינל. לדוגמה, זה עשוי להיות:
 
@@ -229,7 +229,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 1. תצטרך להפעיל טרמינל חדש ב-VS Code על ידי בחירה בכפתור **Create a new integrated terminal**. זאת מכיוון שאפליקציית CounterFit רצה בטרמינל הנוכחי.
 
-    ![VS Code Create a new integrated terminal button](../../../../../translated_images/vscode-new-terminal.77db8fc0f9cd31824b0e49a201beafe4ae4616d6c7339992cb2819e789b3eff9.he.png)
+    ![VS Code Create a new integrated terminal button](../../../../../translated_images/vscode-new-terminal.77db8fc0f9cd3182.he.png)
 
 1. בטרמינל החדש, הרץ את הקובץ `app.py` כפי שעשית קודם. הסטטוס של CounterFit ישתנה ל-**Connected** והנורית תידלק.
 

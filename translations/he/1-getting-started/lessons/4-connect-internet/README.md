@@ -46,7 +46,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 ישנם מספר פרוטוקולי תקשורת פופולריים שמכשירי IoT משתמשים בהם כדי לתקשר עם האינטרנט. הפופולריים ביותר מבוססים על מודל פרסום/מנוי דרך סוג כלשהו של מתווך. מכשירי IoT מתחברים למתווך, מפרסמים טלמטריה ונרשמים לפקודות. שירותי הענן גם מתחברים למתווך, נרשמים לכל הודעות הטלמטריה ומפרסמים פקודות למכשירים ספציפיים או לקבוצות של מכשירים.
 
-![מכשירי IoT מתחברים למתווך, מפרסמים טלמטריה ונרשמים לפקודות. שירותי ענן מתחברים למתווך, נרשמים לכל הטלמטריה ושולחים פקודות למכשירים ספציפיים.](../../../../../translated_images/pub-sub.7c7ed43fe9fd15d4e1f81a3fd95440413c457acd9bcbe9a43341e30e88db5264.he.png)
+![מכשירי IoT מתחברים למתווך, מפרסמים טלמטריה ונרשמים לפקודות. שירותי ענן מתחברים למתווך, נרשמים לכל הטלמטריה ושולחים פקודות למכשירים ספציפיים.](../../../../../translated_images/pub-sub.7c7ed43fe9fd15d4.he.png)
 
 MQTT הוא פרוטוקול התקשורת הפופולרי ביותר למכשירי IoT והוא מכוסה בשיעור הזה. פרוטוקולים אחרים כוללים AMQP ו-HTTP/HTTPS.
 
@@ -115,7 +115,7 @@ MQTT גם תומך בפונקציית שמירה על חיבור שמוודאת 
 
 בואו נחזור לדוגמה של התרמוסטט החכם משיעור 1.
 
-![תרמוסטט מחובר לאינטרנט שמשתמש בחיישנים מרובים בחדרים](../../../../../translated_images/telemetry.21e5d8b97649d2ebeb0f68d4b9691ab2d1f7bd629338e131465aff8a614e4d4a.he.png)
+![תרמוסטט מחובר לאינטרנט שמשתמש בחיישנים מרובים בחדרים](../../../../../translated_images/telemetry.21e5d8b97649d2eb.he.png)
 
 לתרמוסטט יש חיישני טמפרטורה לאיסוף טלמטריה. סביר להניח שיהיה לו חיישן טמפרטורה מובנה, והוא עשוי להתחבר למספר חיישני טמפרטורה חיצוניים דרך פרוטוקול אלחוטי כמו [Bluetooth Low Energy](https://wikipedia.org/wiki/Bluetooth_Low_Energy) (BLE).
 
@@ -267,11 +267,11 @@ MQTT גם תומך בפונקציית שמירה על חיבור שמוודאת 
 
 1. כאשר VS Code יופעל, הוא יפעיל את סביבת העבודה הווירטואלית של Python. הדבר ידווח בשורת המצב התחתונה:
 
-    ![VS Code showing the selected virtual environment](../../../../../translated_images/vscode-virtual-env.8ba42e04c3d533cf677e16cbe5ed9a3b80f62c6964472dc84b6f940800f0909f.he.png)
+    ![VS Code showing the selected virtual environment](../../../../../translated_images/vscode-virtual-env.8ba42e04c3d533cf.he.png)
 
 1. אם הטרמינל של VS Code כבר פועל כאשר VS Code מופעל, הוא לא יפעיל את סביבת העבודה הווירטואלית בתוכו. הדבר הפשוט ביותר לעשות הוא לסגור את הטרמינל באמצעות כפתור **Kill the active terminal instance**:
 
-    ![VS Code Kill the active terminal instance button](../../../../../translated_images/vscode-kill-terminal.1cc4de7c6f25ee08f423f0ead714e61d069fac1eb2089e97b8a7bbcb3d45fe5e.he.png)
+    ![VS Code Kill the active terminal instance button](../../../../../translated_images/vscode-kill-terminal.1cc4de7c6f25ee08.he.png)
 
 1. הפעל טרמינל חדש ב-VS Code על ידי בחירה ב-*Terminal -> New Terminal*, או לחיצה על `` CTRL+` ``. הטרמינל החדש יטען את סביבת העבודה הווירטואלית, עם קריאה להפעלה שתופיע בטרמינל. שם סביבת העבודה הווירטואלית (`.venv`) יופיע גם הוא בהנחיה:
 

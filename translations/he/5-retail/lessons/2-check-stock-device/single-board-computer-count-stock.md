@@ -81,7 +81,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 1. הרץ את האפליקציה כאשר המצלמה מכוונת למלאי על מדף. תראה את קובץ `image.jpg` ב-VS Code explorer, ותוכל לבחור אותו כדי לראות את תיבות הגבול.
 
-    ![4 קופסאות של רסק עגבניות עם תיבות גבול סביב כל קופסה](../../../../../translated_images/rpi-stock-with-bounding-boxes.b5540e2ecb7cd49f1271828d3be412671d950e87625c5597ea97c90f11e01097.he.jpg)
+    ![4 קופסאות של רסק עגבניות עם תיבות גבול סביב כל קופסה](../../../../../translated_images/rpi-stock-with-bounding-boxes.b5540e2ecb7cd49f.he.jpg)
 
 ## ספירת מלאי
 

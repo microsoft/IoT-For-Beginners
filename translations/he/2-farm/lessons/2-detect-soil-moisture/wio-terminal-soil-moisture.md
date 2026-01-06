@@ -33,11 +33,11 @@ CO_OP_TRANSLATOR_METADATA:
 
 1. כאשר ה-Wio Terminal מנותק מהמחשב או ממקור כוח אחר, חברו את הקצה השני של כבל ה-Grove לשקע הימני ביותר ב-Wio Terminal כאשר אתם מביטים במסך. זהו השקע הרחוק ביותר מכפתור ההפעלה.
 
-![חיישן לחות הקרקע מחובר לשקע הימני](../../../../../translated_images/wio-soil-moisture-sensor.46919b61c3f6cb7497662251b29038ee0e57a4c8b9d071feb996c3b0d7f65aaf.he.png)
+![חיישן לחות הקרקע מחובר לשקע הימני](../../../../../translated_images/wio-soil-moisture-sensor.46919b61c3f6cb74.he.png)
 
 1. הכניסו את חיישן לחות הקרקע לתוך האדמה. יש לו "קו מיקום מקסימלי" - קו לבן שחוצה את החיישן. הכניסו את החיישן עד לקו זה אך לא מעבר לו.
 
-![חיישן לחות הקרקע בתוך האדמה](../../../../../translated_images/soil-moisture-sensor-in-soil.bfad91002bda5e960f8c51ee64b02ee59b32c8c717e3515a2c945f33e614e403.he.png)
+![חיישן לחות הקרקע בתוך האדמה](../../../../../translated_images/soil-moisture-sensor-in-soil.bfad91002bda5e96.he.png)
 
 1. כעת תוכלו לחבר את ה-Wio Terminal למחשב שלכם.
 

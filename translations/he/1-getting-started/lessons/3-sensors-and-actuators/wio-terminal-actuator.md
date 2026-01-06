@@ -51,7 +51,7 @@ Otherwise
 
     > 💁 השקע הימני של Grove יכול לשמש עם חיישנים ומפעילים אנלוגיים או דיגיטליים. השקע השמאלי מיועד לחיישנים ומפעילים דיגיטליים בלבד. C יכוסה בשיעור מאוחר יותר.
 
-![ה-LED של Grove מחובר לשקע הימני](../../../../../translated_images/wio-led.265a1897e72d7f21c753257516a4b677d8e30ce2b95fee98189458b3275ba0a6.he.png)
+![ה-LED של Grove מחובר לשקע הימני](../../../../../translated_images/wio-led.265a1897e72d7f21.he.png)
 
 ## תכנת את מנורת הלילה
 

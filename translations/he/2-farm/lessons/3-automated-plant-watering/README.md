@@ -55,11 +55,11 @@ CO_OP_TRANSLATOR_METADATA:
 
 > 🎓 [אלקטרומגנטים](https://wikipedia.org/wiki/Electromagnet) הם מגנטים שנוצרים על ידי העברת חשמל דרך סליל חוט. כאשר החשמל מופעל, הסליל מתמגנט. כאשר החשמל כבוי, הסליל מאבד את המגנטיות שלו.
 
-![כאשר מופעל, האלקטרומגנט יוצר שדה מגנטי, שמפעיל את המתג במעגל הפלט](../../../../../translated_images/relay-on.4db16a0fd6b669262fd6699aff3fbcd31b6057c06d90411b6bddc06326d1cf75.he.png)
+![כאשר מופעל, האלקטרומגנט יוצר שדה מגנטי, שמפעיל את המתג במעגל הפלט](../../../../../translated_images/relay-on.4db16a0fd6b66926.he.png)
 
 בממסר, מעגל הבקרה מפעיל את האלקטרומגנט. כאשר האלקטרומגנט מופעל, הוא מושך מנוף שמזיז מתג, סוגר זוג מגעים ומשלים מעגל פלט.
 
-![כאשר כבוי, האלקטרומגנט לא יוצר שדה מגנטי, שמכבה את המתג במעגל הפלט](../../../../../translated_images/relay-off.c34a178a2960fecdc3c6400d43e633ed11c6746cd653cfb4a768fa097c40394c.he.png)
+![כאשר כבוי, האלקטרומגנט לא יוצר שדה מגנטי, שמכבה את המתג במעגל הפלט](../../../../../translated_images/relay-off.c34a178a2960fecd.he.png)
 
 כאשר מעגל הבקרה כבוי, האלקטרומגנט נכבה, משחרר את המנוף ופותח את המגעים, מכבה את מעגל הפלט. ממסרים הם מפעילים דיגיטליים - אות גבוה לממסר מפעיל אותו, אות נמוך מכבה אותו.
 
@@ -85,7 +85,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 התמונה למעלה מציגה ממסר Grove. מעגל הבקרה מתחבר למכשיר IoT ומפעיל או מכבה את הממסר באמצעות 3.3V או 5V. למעגל הפלט יש שני מסופים, כל אחד מהם יכול להיות כוח או קרקע. מעגל הפלט יכול להתמודד עם עד 250V ב-10A, מספיק למגוון מכשירים המופעלים על ידי חשמל ביתי. ניתן להשיג ממסרים שיכולים להתמודד עם רמות כוח גבוהות אף יותר.
 
-![משאבה מחוברת דרך ממסר](../../../../../translated_images/pump-wired-to-relay.66c5cfc0d89189900cd601777f5caeb39ee35c6250f6c86bf38feaceedb21fe9.he.png)
+![משאבה מחוברת דרך ממסר](../../../../../translated_images/pump-wired-to-relay.66c5cfc0d8918990.he.png)
 
 בתמונה למעלה, כוח מסופק למשאבה דרך ממסר. ישנו חוט אדום שמחבר את מסוף ה-+5V של ספק כוח USB למסוף אחד של מעגל הפלט של הממסר, וחוט אדום נוסף שמחבר את המסוף השני של מעגל הפלט למשאבה. חוט שחור מחבר את המשאבה לקרקע של ספק כוח ה-USB. כאשר הממסר מופעל, הוא משלים את המעגל, שולח 5V למשאבה ומפעיל אותה.
 
@@ -135,7 +135,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 אם עשיתם את השיעור הקודם על לחות הקרקע באמצעות חיישן פיזי, הייתם שמים לב שלקח כמה שניות עד שרמת לחות הקרקע ירדה לאחר שהשקיתם את הצמח שלכם. זה לא בגלל שהחיישן איטי, אלא בגלל שלוקח זמן למים לחלחל דרך הקרקע.
 💁 אם השקיתם קרוב מדי לחיישן, ייתכן שראיתם את הקריאה יורדת במהירות ואז עולה שוב - זה נגרם מכך שהמים ליד החיישן מתפשטים בשאר האדמה, מה שמפחית את רמת הלחות באדמה ליד החיישן.
-![מדידת לחות קרקע של 658 לא משתנה במהלך השקיה, היא יורדת ל-320 רק לאחר שהמים חלחלו דרך הקרקע](../../../../../translated_images/soil-moisture-travel.a0e31af222cf14385de5380dfc32c7b8213960965228b8e4f7b7ab7f73b310a3.he.png)
+![מדידת לחות קרקע של 658 לא משתנה במהלך השקיה, היא יורדת ל-320 רק לאחר שהמים חלחלו דרך הקרקע](../../../../../translated_images/soil-moisture-travel.a0e31af222cf1438.he.png)
 
 בדיאגרמה למעלה, מדידת לחות הקרקע מראה 658. הצמח מושקה, אך המדידה הזו לא משתנה מיד, מכיוון שהמים עדיין לא הגיעו לחיישן. ההשקיה יכולה אפילו להסתיים לפני שהמים מגיעים לחיישן והערך יורד כדי לשקף את רמת הלחות החדשה.
 
@@ -157,11 +157,11 @@ CO_OP_TRANSLATOR_METADATA:
 
 > 💁 תזמון מסוג זה מאוד ספציפי למכשיר ה-IoT שאתם בונים, לתכונה שאתם מודדים ולחיישנים ולמפסק שאתם משתמשים בהם.
 
-![צמח תות מחובר למים דרך משאבה, כשהמשאבה מחוברת לממסר. הממסר וחיישן לחות הקרקע בצמח מחוברים ל-Raspberry Pi](../../../../../translated_images/strawberry-with-pump.b410fc72ac6aabad3e28de9775bf2393ead73dcfec6fd8c9bc01cf107ecd171a.he.png)
+![צמח תות מחובר למים דרך משאבה, כשהמשאבה מחוברת לממסר. הממסר וחיישן לחות הקרקע בצמח מחוברים ל-Raspberry Pi](../../../../../translated_images/strawberry-with-pump.b410fc72ac6aabad.he.png)
 
 לדוגמה, יש לי צמח תות עם חיישן לחות קרקע ומשאבה הנשלטת על ידי ממסר. שמתי לב שכאשר אני מוסיף מים, לוקח כ-20 שניות עד שרמת הלחות בקרקע מתייצבת. המשמעות היא שאני צריך לכבות את הממסר ולהמתין 20 שניות לפני שאני בודק את רמות הלחות. אני מעדיף שיהיו מעט מדי מים מאשר יותר מדי - תמיד אפשר להפעיל את המשאבה שוב, אבל אי אפשר להוציא מים מהצמח.
 
-![שלב 1, מדידה. שלב 2, הוספת מים. שלב 3, המתנה לחלחול המים דרך הקרקע. שלב 4, מדידה חוזרת](../../../../../translated_images/soil-moisture-delay.865f3fae206db01d5f8f100f4f44040215d44a0412dd3450aef7ff7b93b6d273.he.png)
+![שלב 1, מדידה. שלב 2, הוספת מים. שלב 3, המתנה לחלחול המים דרך הקרקע. שלב 4, מדידה חוזרת](../../../../../translated_images/soil-moisture-delay.865f3fae206db01d.he.png)
 
 המשמעות היא שתהליך ההשקיה הטוב ביותר יהיה משהו כמו:
 

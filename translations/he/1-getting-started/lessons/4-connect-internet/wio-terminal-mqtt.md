@@ -64,7 +64,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 1. צור קובץ חדש בתיקיית `src` בשם `config.h`. ניתן לעשות זאת על ידי בחירת תיקיית `src`, או קובץ `main.cpp` שבתוכה, ולחיצה על כפתור **New file** בסייר הקבצים. כפתור זה מופיע רק כאשר הסמן נמצא מעל סייר הקבצים.
 
-    ![כפתור יצירת קובץ חדש](../../../../../translated_images/vscode-new-file-button.182702340fe6723c8cbb4cfa1a9a9fb0d0a5227643b4e46b91ff67b07a39a92f.he.png)
+    ![כפתור יצירת קובץ חדש](../../../../../translated_images/vscode-new-file-button.182702340fe6723c.he.png)
 
 1. הוסף את הקוד הבא לקובץ זה כדי להגדיר קבועים עבור פרטי ה-WiFi שלך:
 

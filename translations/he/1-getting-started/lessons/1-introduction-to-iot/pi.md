@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 ה-[Raspberry Pi](https://raspberrypi.org) הוא מחשב חד-לוח. ניתן להוסיף חיישנים ומפעילים באמצעות מגוון רחב של מכשירים ואקוסיסטמות, ובשיעורים אלו נעשה שימוש באקוסיסטמה חומרתית בשם [Grove](https://www.seeedstudio.com/category/Grove-c-1003.html). תכתבו קוד עבור ה-Pi ותיגשו לחיישני Grove באמצעות Python.
 
-![רספברי פאי 4](../../../../../translated_images/raspberry-pi-4.fd4590d308c3d456db1327e86b395ddcd735513267aafd4879ea2785f7792eac.he.jpg)
+![רספברי פאי 4](../../../../../translated_images/raspberry-pi-4.fd4590d308c3d456.he.jpg)
 
 ## הגדרות
 
@@ -112,7 +112,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 1. מתוך Raspberry Pi Imager, בחרו בכפתור **CHOOSE OS**, ואז בחרו *Raspberry Pi OS (Other)*, ואחריו *Raspberry Pi OS Lite (32-bit)*
 
-    ![Raspberry Pi Imager עם Raspberry Pi OS Lite נבחר](../../../../../translated_images/raspberry-pi-imager.24aedeab9e233d841a1504ed7cfeb871b1f8e1134cfcd8370e7f60a092056be2.he.png)
+    ![Raspberry Pi Imager עם Raspberry Pi OS Lite נבחר](../../../../../translated_images/raspberry-pi-imager.24aedeab9e233d84.he.png)
 
     > 💁 Raspberry Pi OS Lite היא גרסה של Raspberry Pi OS שאין לה ממשק משתמש גרפי או כלים מבוססי ממשק משתמש. אלו אינם נחוצים עבור Pi ללא ראש והופכים את ההתקנה לקטנה יותר ואת זמן האתחול למהיר יותר.
 
@@ -251,7 +251,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 1. פתח את התיקייה הזו ב-VS Code על ידי בחירה ב-*File -> Open...* ובחירה בתיקיית *nightlight*, ואז לחץ על **OK**.
 
-    ![תיבת הדו-שיח של פתיחת קובץ ב-VS Code שמציגה את תיקיית nightlight](../../../../../translated_images/vscode-open-nightlight-remote.d3d2a4011e30d535c4b70084f6e94bf6b5b1327fd8e77affe64465ac151ee766.he.png)
+    ![תיבת הדו-שיח של פתיחת קובץ ב-VS Code שמציגה את תיקיית nightlight](../../../../../translated_images/vscode-open-nightlight-remote.d3d2a4011e30d535.he.png)
 
 1. פתח את הקובץ `app.py` מתוך סייר הקבצים של VS Code והוסף את הקוד הבא:
 

@@ -75,7 +75,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 דוגמה לכך היא פוטנציומטר. זהו חוגה שניתן לסובב בין שתי עמדות, והחיישן מודד את הסיבוב.
 
-![פוטנציומטר במצב אמצעי שמקבל 5 וולט ומחזיר 3.8 וולט](../../../../../translated_images/potentiometer.35a348b9ce22f6ec1199ad37d68692d04185456ccbc2541a454bb6698be9f19c.he.png)
+![פוטנציומטר במצב אמצעי שמקבל 5 וולט ומחזיר 3.8 וולט](../../../../../translated_images/potentiometer.35a348b9ce22f6ec.he.png)
 
 מכשיר ה-IoT ישלח אות חשמלי לפוטנציומטר במתח, לדוגמה 5 וולט (5V). כאשר מסובבים את הפוטנציומטר, הוא משנה את המתח שיוצא מהצד השני. דמיינו שיש לכם פוטנציומטר שמסומן כחוגה מ-0 עד [11](https://wikipedia.org/wiki/Up_to_eleven), כמו כפתור עוצמת קול במגבר. כאשר הפוטנציומטר במצב כבוי לחלוטין (0), ייצא 0V (0 וולט). כאשר הוא במצב דלוק לחלוטין (11), ייצא 5V (5 וולט).
 
@@ -105,7 +105,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 דמיינו שאתם שולטים במנוע עם אספקת מתח של 5V. אתם שולחים פולס קצר למנוע שלכם, ומעבירים את המתח לגבוה (5V) למשך שתי מאיות השנייה (0.02s). בזמן הזה המנוע יכול להסתובב עשירית סיבוב, או 36°. האות נעצר למשך שתי מאיות השנייה (0.02s), ושולח אות נמוך (0V). כל מחזור של הפעלה ואז הפסקה נמשך 0.04s. המחזור חוזר על עצמו.
 
-![מיתון רוחב פולס סיבוב מנוע ב-150 RPM](../../../../../translated_images/pwm-motor-150rpm.83347ac04ca38482bd120939b133803963c9c15ca9d8d484712a4bd92820f6a4.he.png)
+![מיתון רוחב פולס סיבוב מנוע ב-150 RPM](../../../../../translated_images/pwm-motor-150rpm.83347ac04ca38482.he.png)
 
 המשמעות היא שבשנייה אחת יש לכם 25 פולסים של 5V באורך 0.02s שמסובבים את המנוע, כל אחד מלווה בהפסקה של 0.02s עם 0V שלא מסובב את המנוע. כל פולס מסובב את המנוע עשירית סיבוב, כלומר המנוע משלים 2.5 סיבובים בשנייה. השתמשתם באות דיגיטלי כדי לסובב את המנוע ב-2.5 סיבובים בשנייה, או 150 [סיבובים לדקה](https://wikipedia.org/wiki/Revolutions_per_minute) (מדד לא סטנדרטי של מהירות סיבוב).
 
@@ -116,7 +116,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 > 🎓 כאשר אות PWM מופעל למשך חצי מהזמן ומכובה למשך החצי השני, זה נקרא [מחזור עבודה של 50%](https://wikipedia.org/wiki/Duty_cycle). מחזורי עבודה נמדדים כאחוז הזמן שבו האות במצב מופעל לעומת מצב כבוי.
 
-![מיתון רוחב פולס סיבוב מנוע ב-75 RPM](../../../../../translated_images/pwm-motor-75rpm.a5e4c939934b6e14fd9e98e4f2c9539d723da2b18f490eae0948dd044d18ff7e.he.png)
+![מיתון רוחב פולס סיבוב מנוע ב-75 RPM](../../../../../translated_images/pwm-motor-75rpm.a5e4c939934b6e14.he.png)
 
 ניתן לשנות את מהירות המנוע על ידי שינוי גודל הפולסים. לדוגמה, עם אותו מנוע ניתן לשמור על זמן מחזור של 0.04s, כאשר פולס ההפעלה מקוצר לחצי (0.01s), ופולס ההפסקה מתארך ל-0.03s. יש לכם את אותו מספר פולסים בשנייה (25), אבל כל פולס הפעלה הוא חצי מהאורך. פולס באורך חצי מסובב את המנוע עשירית סיבוב, וב-25 פולסים בשנייה המנוע ישלים 1.25 סיבובים בשנייה או 75rpm. על ידי שינוי מהירות הפולסים של אות דיגיטלי, חציתם את מהירות מנוע אנלוגי.
 

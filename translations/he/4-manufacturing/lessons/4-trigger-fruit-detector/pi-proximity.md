@@ -35,7 +35,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 1. כשה-Raspberry Pi כבוי, חבר את הקצה השני של כבל ה-Grove לאחד משקעי ה-I²C המסומנים **I²C** על ה-Grove Base Hat המחובר ל-Pi. שקעי ה-I²C נמצאים בשורה התחתונה, בצד הנגדי לפינים של ה-GPI וליד חריץ כבל המצלמה.
 
-![חיישן Time of Flight מסוג Grove מחובר לשקע I²C](../../../../../translated_images/pi-time-of-flight-sensor.58c8dc04eb3bfb57a7c3019f031433ef4d798d4d7603d565afbf6f3802840dba.he.png)
+![חיישן Time of Flight מסוג Grove מחובר לשקע I²C](../../../../../translated_images/pi-time-of-flight-sensor.58c8dc04eb3bfb57.he.png)
 
 ## תכנות חיישן ה-Time of Flight
 
@@ -106,7 +106,7 @@ CO_OP_TRANSLATOR_METADATA:
 
     מד המרחק נמצא בצד האחורי של החיישן, אז ודא שאתה משתמש בצד הנכון בעת מדידת מרחק.
 
-    ![מד המרחק בצד האחורי של חיישן ה-Time of Flight מכוון לעבר בננה](../../../../../translated_images/time-of-flight-banana.079921ad8b1496e4525dc26b4cdc71a076407aba3e72ba113ba2e38febae92c5.he.png)
+    ![מד המרחק בצד האחורי של חיישן ה-Time of Flight מכוון לעבר בננה](../../../../../translated_images/time-of-flight-banana.079921ad8b1496e4.he.png)
 
 > 💁 תוכל למצוא את הקוד הזה בתיקיית [code-proximity/pi](../../../../../4-manufacturing/lessons/4-trigger-fruit-detector/code-proximity/pi).
 

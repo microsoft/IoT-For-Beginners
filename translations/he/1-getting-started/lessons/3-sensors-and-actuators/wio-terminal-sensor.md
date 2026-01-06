@@ -17,7 +17,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 חיישן האור מובנה בתוך ה-Wio Terminal וניתן לראותו דרך החלון השקוף בגב המכשיר.
 
-![חיישן האור בגב ה-Wio Terminal](../../../../../translated_images/wio-light-sensor.b1f529f3c95f51654f2e2c1d2d4b55fe547d189f588c974f5c2462c728133840.he.png)
+![חיישן האור בגב ה-Wio Terminal](../../../../../translated_images/wio-light-sensor.b1f529f3c95f5165.he.png)
 
 ## תכנות חיישן האור
 

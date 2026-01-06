@@ -37,7 +37,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 1. הכנס את חיישן לחות הקרקע לתוך הקרקע. יש לו 'קו מיקום עליון' - קו לבן שחוצה את החיישן. הכנס את החיישן עד לקו זה אך לא מעבר לו.
 
-![חיישן לחות הקרקע של Grove בתוך הקרקע](../../../../../translated_images/soil-moisture-sensor-in-soil.bfad91002bda5e960f8c51ee64b02ee59b32c8c717e3515a2c945f33e614e403.he.png)
+![חיישן לחות הקרקע של Grove בתוך הקרקע](../../../../../translated_images/soil-moisture-sensor-in-soil.bfad91002bda5e96.he.png)
 
 ## תכנות חיישן לחות הקרקע
 

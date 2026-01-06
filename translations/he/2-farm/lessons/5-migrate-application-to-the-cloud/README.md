@@ -41,7 +41,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 > 💁 אם השתמשת בעבר בטריגרים של בסיס נתונים, תוכל לחשוב על זה כמשהו דומה - קוד שמופעל על ידי אירוע כמו הכנסת שורה.
 
-![כאשר אירועים רבים נשלחים בו זמנית, שירות ללא שרת מתרחב כדי להפעיל את כולם בו זמנית](../../../../../translated_images/serverless-scaling.f8c769adf0413fd17be1af4f07ff63016b347e2ff869be6c4abb211f9e93909d.he.png)
+![כאשר אירועים רבים נשלחים בו זמנית, שירות ללא שרת מתרחב כדי להפעיל את כולם בו זמנית](../../../../../translated_images/serverless-scaling.f8c769adf0413fd1.he.png)
 
 הקוד שלך מופעל רק כאשר האירוע מתרחש, ואין שום דבר שמחזיק את הקוד שלך פעיל בזמנים אחרים. האירוע מתרחש, הקוד שלך נטען ומופעל. זה הופך את המודל ללא שרת למאוד ניתן להרחבה - אם אירועים רבים מתרחשים בו זמנית, ספק הענן יכול להפעיל את הפונקציה שלך כמה פעמים שצריך בו זמנית על פני כל השרתים הזמינים. החיסרון הוא שאם אתה צריך לשתף מידע בין אירועים, תצטרך לשמור אותו במקום כלשהו כמו בסיס נתונים במקום בזיכרון.
 
@@ -244,7 +244,7 @@ CO_OP_TRANSLATOR_METADATA:
     VS Code. Initialize for optimal use with VS Code?
     ```
 
-    ![ההודעה](../../../../../translated_images/vscode-azure-functions-init-notification.bd19b49229963edb5311fb3a79445ea469424759d2917ee2f2eb6f92d65d5086.he.png)
+    ![ההודעה](../../../../../translated_images/vscode-azure-functions-init-notification.bd19b49229963edb.he.png)
 
     בחר **כן** מההודעה הזו.
 

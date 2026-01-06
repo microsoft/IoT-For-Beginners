@@ -37,7 +37,7 @@ UART כולל מעגלים פיזיים שמאפשרים לשני מכשירים
 * מכשיר 1 משדר נתונים מפין ה-Tx שלו, שמתקבלים על ידי מכשיר 2 בפין ה-Rx שלו
 * מכשיר 1 מקבל נתונים בפין ה-Rx שלו שמשודרים על ידי מכשיר 2 מפין ה-Tx שלו
 
-![UART עם פין Tx על שבב אחד המחובר לפין Rx על שבב אחר, ולהפך](../../../../../translated_images/uart.d0dbd3fb9e3728c6ee1995c8206f3cdb13cdfd208f13745e8ef6854cab75e421.he.png)
+![UART עם פין Tx על שבב אחד המחובר לפין Rx על שבב אחר, ולהפך](../../../../../translated_images/uart.d0dbd3fb9e3728c6.he.png)
 
 > 🎓 הנתונים נשלחים ביט אחד בכל פעם, וזה נקרא תקשורת *סדרתית*. רוב מערכות ההפעלה והבקרים כוללים *יציאות סדרתיות*, כלומר חיבורים שיכולים לשלוח ולקבל נתונים סדרתיים הזמינים לקוד שלכם.
 
@@ -66,7 +66,7 @@ SPI מיועד לתקשורת למרחקים קצרים, כמו על בקר מי
 | SCLK | שעון סדרתי | חוט זה שולח אות שעון בקצב שנקבע על ידי הבקר. |
 | CS   | בחירת שבב | לבקר יש מספר חוטים, אחד לכל התקן היקפי, וכל חוט מתחבר לחוט CS על ההתקן ההיקפי המתאים. |
 
-![SPI עם בקר אחד ושני התקנים היקפיים](../../../../../translated_images/spi.297431d6f98b386b4ff88aea44ce9c1e7acfb1ef69c7e4e388a7aa97b6948e24.he.png)
+![SPI עם בקר אחד ושני התקנים היקפיים](../../../../../translated_images/spi.297431d6f98b386b.he.png)
 
 חוט ה-CS משמש להפעלת התקן היקפי אחד בכל פעם, לתקשורת דרך חוטי COPI ו-CIPO. כאשר הבקר צריך להחליף התקן היקפי, הוא משבית את חוט ה-CS המחובר להתקן ההיקפי הפעיל כרגע, ואז מפעיל את החוט המחובר להתקן ההיקפי הבא שהוא רוצה לתקשר איתו.
 
@@ -127,13 +127,13 @@ BLE פופולרי עבור חיישנים מתקדמים כמו צמידי כו
 
 חיישני לחות קרקע מודדים התנגדות או קיבול חשמלי - זה לא רק משתנה לפי לחות הקרקע, אלא גם לפי סוג הקרקע, שכן הרכיבים בקרקע יכולים לשנות את התכונות החשמליות שלה. באופן אידיאלי, יש לכייל את החיישנים - כלומר לקחת קריאות מהחיישן ולהשוות אותן למדידות שנמצאו באמצעות גישה מדעית יותר. לדוגמה, מעבדה יכולה לחשב את לחות הקרקע הגרבימטרית באמצעות דגימות משדה מסוים שנלקחות כמה פעמים בשנה, ומספרים אלה משמשים לכיול החיישן, התאמת קריאת החיישן ללחות הקרקע הגרבימטרית.
 
-![גרף של מתח מול תכולת לחות קרקע](../../../../../translated_images/soil-moisture-to-voltage.df86d80cda1587008f312431ed5f79eb6c50c58d4fbc25a6763c5e9127c3106b.he.png)
+![גרף של מתח מול תכולת לחות קרקע](../../../../../translated_images/soil-moisture-to-voltage.df86d80cda158700.he.png)
 
 הגרף למעלה מראה כיצד לכייל חיישן. המתח נלכד עבור דגימת קרקע שנמדדת לאחר מכן במעבדה על ידי השוואת המשקל הרטוב למשקל היבש (על ידי מדידת המשקל רטוב, ואז ייבוש בתנור ומדידה יבש). לאחר שנלקחו כמה קריאות, ניתן לשרטט אותן על גרף ולהתאים קו לנקודות. קו זה יכול לשמש להמרת קריאות חיישן לחות קרקע שנלקחו על ידי מכשיר IoT למדידות לחות קרקע בפועל.
 
 💁 עבור חיישני לחות קרקע התנגדותיים, המתח עולה ככל שלחות הקרקע עולה. עבור חיישני לחות קרקע קיבוליים, המתח יורד ככל שלחות הקרקע עולה, כך שהגרפים עבורם ינטו כלפי מטה, לא כלפי מעלה.
 
-![ערך לחות קרקע מחושב מתוך הגרף](../../../../../translated_images/soil-moisture-to-voltage-with-reading.681cb3e1f8b68caf5547dbf1415851c82e201edfb78face16fc98da4051ed9b2.he.png)
+![ערך לחות קרקע מחושב מתוך הגרף](../../../../../translated_images/soil-moisture-to-voltage-with-reading.681cb3e1f8b68caf.he.png)
 
 הגרף למעלה מראה קריאת מתח מחיישן לחות קרקע, ועל ידי מעקב אחריה לקו על הגרף, ניתן לחשב את לחות הקרקע בפועל.
 
