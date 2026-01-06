@@ -17,7 +17,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 লাইট সেন্সরটি Wio Terminal-এর মধ্যে অন্তর্ভুক্ত এবং এটি পিছনের স্বচ্ছ প্লাস্টিকের জানালার মাধ্যমে দৃশ্যমান।
 
-![Wio Terminal-এর পিছনে থাকা লাইট সেন্সর](../../../../../translated_images/wio-light-sensor.b1f529f3c95f51654f2e2c1d2d4b55fe547d189f588c974f5c2462c728133840.bn.png)
+![Wio Terminal-এর পিছনে থাকা লাইট সেন্সর](../../../../../translated_images/wio-light-sensor.b1f529f3c95f5165.bn.png)
 
 ## লাইট সেন্সর প্রোগ্রাম করুন
 
