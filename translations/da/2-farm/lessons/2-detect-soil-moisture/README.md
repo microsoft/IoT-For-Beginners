@@ -37,7 +37,7 @@ UART involverer fysisk kredsløb, der gør det muligt for to enheder at kommunik
 * Enhed 1 sender data fra sin Tx-pin, som modtages af enhed 2 på dens Rx-pin
 * Enhed 1 modtager data på sin Rx-pin, som sendes af enhed 2 fra dens Tx-pin
 
-![UART med Tx-pinnen på én chip forbundet til Rx-pinnen på en anden og omvendt](../../../../../translated_images/uart.d0dbd3fb9e3728c6ee1995c8206f3cdb13cdfd208f13745e8ef6854cab75e421.da.png)
+![UART med Tx-pinnen på én chip forbundet til Rx-pinnen på en anden og omvendt](../../../../../translated_images/uart.d0dbd3fb9e3728c6.da.png)
 
 > 🎓 Data sendes én bit ad gangen, og dette kaldes *seriel* kommunikation. De fleste operativsystemer og mikrocontrollere har *serielle porte*, det vil sige forbindelser, der kan sende og modtage serielle data, som er tilgængelige for din kode.
 
@@ -66,7 +66,7 @@ SPI-controllere bruger 3 ledninger sammen med 1 ekstra ledning per periferienhed
 | SCLK | Seriel Clock | Denne ledning sender et clock-signal med en hastighed, der er indstillet af controlleren. |
 | CS   | Chip Select | Controlleren har flere ledninger, én per periferienhed, og hver ledning forbinder til CS-ledningen på den tilsvarende periferienhed. |
 
-![SPI med én controller og to periferienheder](../../../../../translated_images/spi.297431d6f98b386b4ff88aea44ce9c1e7acfb1ef69c7e4e388a7aa97b6948e24.da.png)
+![SPI med én controller og to periferienheder](../../../../../translated_images/spi.297431d6f98b386b.da.png)
 
 CS-ledningen bruges til at aktivere én periferienhed ad gangen og kommunikere over COPI- og CIPO-ledningerne. Når controlleren skal skifte periferienhed, deaktiverer den CS-ledningen, der er forbundet til den aktuelt aktive periferienhed, og aktiverer derefter ledningen, der er forbundet til den periferienhed, den ønsker at kommunikere med næste gang.
 
@@ -127,13 +127,13 @@ Jordfugtighed måles ved hjælp af gravimetrisk eller volumetrisk vandindhold.
 
 Jordfugtighedssensorer måler elektrisk modstand eller kapacitans - dette varierer ikke kun med jordfugtighed, men også jordtype, da komponenterne i jorden kan ændre dens elektriske egenskaber. Ideelt set bør sensorer kalibreres - det vil sige at tage aflæsninger fra sensoren og sammenligne dem med målinger fundet ved hjælp af en mere videnskabelig tilgang. For eksempel kan et laboratorium beregne den gravimetriske jordfugtighed ved hjælp af prøver fra et specifikt felt taget et par gange om året, og disse tal kan bruges til at kalibrere sensoren, så sensoraflæsningen matcher den gravimetriske jordfugtighed.
 
-![En graf over spænding vs jordfugtighedsindhold](../../../../../translated_images/soil-moisture-to-voltage.df86d80cda1587008f312431ed5f79eb6c50c58d4fbc25a6763c5e9127c3106b.da.png)
+![En graf over spænding vs jordfugtighedsindhold](../../../../../translated_images/soil-moisture-to-voltage.df86d80cda158700.da.png)
 
 Grafen ovenfor viser, hvordan man kalibrerer en sensor. Spændingen registreres for en jordprøve, der derefter måles i et laboratorium ved at sammenligne den fugtige vægt med den tørre vægt (ved at måle vægten våd, derefter tørre i en ovn og måle tør). Når der er taget et par aflæsninger, kan disse plottes på en graf, og en linje kan tilpasses punkterne. Denne linje kan derefter bruges til at konvertere jordfugtighedssensoraflæsninger taget af en IoT-enhed til faktiske jordfugtighedsmålinger.
 
 💁 For resistive jordfugtighedssensorer stiger spændingen, når jordfugtigheden stiger. For kapacitive jordfugtighedssensorer falder spændingen, når jordfugtigheden stiger, så graferne for disse ville hælde nedad, ikke opad.
 
-![En jordfugtighedsværdi interpoleret fra grafen](../../../../../translated_images/soil-moisture-to-voltage-with-reading.681cb3e1f8b68caf5547dbf1415851c82e201edfb78face16fc98da4051ed9b2.da.png)
+![En jordfugtighedsværdi interpoleret fra grafen](../../../../../translated_images/soil-moisture-to-voltage-with-reading.681cb3e1f8b68caf.da.png)
 
 Grafen ovenfor viser en spændingsaflæsning fra en jordfugtighedssensor, og ved at følge den til linjen på grafen kan den faktiske jordfugtighed beregnes.
 

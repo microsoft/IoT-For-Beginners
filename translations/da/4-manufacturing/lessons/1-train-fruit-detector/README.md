@@ -61,7 +61,7 @@ De nyeste udviklinger af disse sorteringsmaskiner udnytter AI og ML, ved at brug
 
 Traditionel programmering er, hvor du tager data, anvender en algoritme på dataene og får output. For eksempel, i det sidste projekt tog du GPS-koordinater og en geofence, anvendte en algoritme leveret af Azure Maps og fik et resultat om, hvorvidt punktet var inden for eller uden for geofencen. Du indtaster flere data, du får mere output.
 
-![Traditionel udvikling tager input og en algoritme og giver output. Maskinlæring bruger input og outputdata til at træne en model, og denne model kan tage nye inputdata for at generere nyt output](../../../../../translated_images/traditional-vs-ml.5c20c169621fa539ca84a2cd9a49f6ff7410b3a6c6b46c97ff2af3f99db3c66b.da.png)
+![Traditionel udvikling tager input og en algoritme og giver output. Maskinlæring bruger input og outputdata til at træne en model, og denne model kan tage nye inputdata for at generere nyt output](../../../../../translated_images/traditional-vs-ml.5c20c169621fa539.da.png)
 
 Maskinlæring vender dette om - du starter med data og kendte outputs, og maskinlæringsalgoritmen lærer af dataene. Du kan derefter tage den trænede algoritme, kaldet en *maskinlæringsmodel* eller *model*, og indtaste nye data og få nyt output.
 
@@ -87,7 +87,7 @@ For at træne en billedklassifikator med succes har du brug for millioner af bil
 
 Når en billedklassifikator er blevet trænet til en bred vifte af billeder, er dens interne funktioner gode til at genkende former, farver og mønstre. Transfer learning gør det muligt for modellen at tage det, den allerede har lært om at genkende billeddele, og bruge det til at genkende nye billeder.
 
-![Når du kan genkende former, kan de sættes sammen i forskellige konfigurationer for at lave en båd eller en kat](../../../../../translated_images/shapes-to-images.1a309f0ea88dd66fafa4da6d38e88806ce174cc6a88081efb32852230ed55de8.da.png)
+![Når du kan genkende former, kan de sættes sammen i forskellige konfigurationer for at lave en båd eller en kat](../../../../../translated_images/shapes-to-images.1a309f0ea88dd66f.da.png)
 
 Du kan tænke på dette som lidt ligesom børns formbøger, hvor når du først kan genkende en halvcirkel, et rektangel og en trekant, kan du genkende en sejlbåd eller en kat afhængigt af konfigurationen af disse former. Billedklassifikatoren kan genkende formerne, og transfer learning lærer den, hvilken kombination der udgør en båd eller en kat - eller en moden banan.
 

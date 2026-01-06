@@ -72,7 +72,7 @@ Cloud-udbyderen kan derefter bruge stordriftsfordele til at reducere omkostninge
 
 Azure er udviklerens cloud fra Microsoft, og det er den cloud, du vil bruge i disse lektioner. Videoen nedenfor giver en kort oversigt over Azure:
 
-[![Oversigt over Azure-video](../../../../../translated_images/what-is-azure-video-thumbnail.20174db09e03bbb87d213f928d3cb27410305d2e567e952827de8478dbda959b.da.png)](https://www.microsoft.com/videoplayer/embed/RE4Ibng?WT.mc_id=academic-17441-jabenn)
+[![Oversigt over Azure-video](../../../../../translated_images/what-is-azure-video-thumbnail.20174db09e03bbb8.da.png)](https://www.microsoft.com/videoplayer/embed/RE4Ibng?WT.mc_id=academic-17441-jabenn)
 
 ## Opret et cloud-abonnement
 

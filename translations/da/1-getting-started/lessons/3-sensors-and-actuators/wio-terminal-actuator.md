@@ -51,7 +51,7 @@ Tilslut LED'en.
 
     > 💁 Det højre Grove-stik kan bruges med analoge eller digitale sensorer og aktuatorer. Det venstre stik er kun til digitale sensorer og aktuatorer. C vil blive dækket i en senere lektion.
 
-![Grove LED tilsluttet det højre stik](../../../../../translated_images/wio-led.265a1897e72d7f21c753257516a4b677d8e30ce2b95fee98189458b3275ba0a6.da.png)
+![Grove LED tilsluttet det højre stik](../../../../../translated_images/wio-led.265a1897e72d7f21.da.png)
 
 ## Programmer natlampen
 

@@ -97,15 +97,15 @@ Kryptering findes i to typer - symmetrisk og asymmetrisk.
 
 **Symmetrisk** kryptering bruger den samme nøgle til at kryptere og dekryptere dataene. Både afsender og modtager skal kende den samme nøgle. Dette er den mindst sikre type, da nøglen skal deles på en eller anden måde. For at en afsender kan sende en krypteret meddelelse til en modtager, skal afsenderen først sende modtageren nøglen.
 
-![Symmetrisk nøglekryptering bruger den samme nøgle til at kryptere og dekryptere en meddelelse](../../../../../translated_images/send-message-symmetric-key.a2e8ad0d495896ffcdf15d25bb4491c695a5cb851457b359fb0f0c89d67707c9.da.png)
+![Symmetrisk nøglekryptering bruger den samme nøgle til at kryptere og dekryptere en meddelelse](../../../../../translated_images/send-message-symmetric-key.a2e8ad0d495896ff.da.png)
 
 Hvis nøglen bliver stjålet under overførsel, eller hvis afsenderen eller modtageren bliver hacket, og nøglen bliver fundet, kan krypteringen brydes.
 
-![Symmetrisk nøglekryptering er kun sikker, hvis en hacker ikke får fat i nøglen - hvis det sker, kan de opsnappe og dekryptere meddelelsen](../../../../../translated_images/send-message-symmetric-key-hacker.e7cb53db1707adfb1486a8144060cb76435fe8dbdede8cecc09e7d15b2d9a251.da.png)
+![Symmetrisk nøglekryptering er kun sikker, hvis en hacker ikke får fat i nøglen - hvis det sker, kan de opsnappe og dekryptere meddelelsen](../../../../../translated_images/send-message-symmetric-key-hacker.e7cb53db1707adfb.da.png)
 
 **Asymmetrisk** kryptering bruger 2 nøgler - en krypteringsnøgle og en dekrypteringsnøgle, kendt som et offentligt/privat nøglepar. Den offentlige nøgle bruges til at kryptere meddelelsen, men kan ikke bruges til at dekryptere den, mens den private nøgle bruges til at dekryptere meddelelsen, men kan ikke bruges til at kryptere den.
 
-![Asymmetrisk kryptering bruger en anden nøgle til at kryptere og dekryptere. Krypteringsnøglen sendes til enhver meddelelsesafsender, så de kan kryptere en meddelelse, før den sendes til modtageren, der ejer nøglerne](../../../../../translated_images/send-message-asymmetric.7abe327c62615b8c19805252af5d4b6c5e7aaeb8fbc455efeff866fe2d300b62.da.png)
+![Asymmetrisk kryptering bruger en anden nøgle til at kryptere og dekryptere. Krypteringsnøglen sendes til enhver meddelelsesafsender, så de kan kryptere en meddelelse, før den sendes til modtageren, der ejer nøglerne](../../../../../translated_images/send-message-asymmetric.7abe327c62615b8c.da.png)
 
 Modtageren deler sin offentlige nøgle, og afsenderen bruger denne til at kryptere meddelelsen. Når meddelelsen er sendt, dekrypterer modtageren den med sin private nøgle. Asymmetrisk kryptering er mere sikker, da den private nøgle holdes privat af modtageren og aldrig deles. Alle kan få den offentlige nøgle, da den kun kan bruges til at kryptere meddelelser.
 
@@ -165,7 +165,7 @@ Disse certifikater har en række felter i sig, herunder hvem den offentlige nøg
 
 Når du bruger X.509-certifikater, vil både afsenderen og modtageren have deres egne offentlige og private nøgler samt begge have X.509-certifikater, der indeholder den offentlige nøgle. De udveksler derefter X.509-certifikater på en eller anden måde, bruger hinandens offentlige nøgler til at kryptere de data, de sender, og deres egne private nøgler til at dekryptere de data, de modtager.
 
-![I stedet for at dele en offentlig nøgle kan du dele et certifikat. Brugeren af certifikatet kan verificere, at det kommer fra dig, ved at kontrollere med den certificeringsmyndighed, der har underskrevet det.](../../../../../translated_images/send-message-certificate.9cc576ac1e46b76eb58ebc8eedaa522566fa0700076da46f5180aad78c2435db.da.png)
+![I stedet for at dele en offentlig nøgle kan du dele et certifikat. Brugeren af certifikatet kan verificere, at det kommer fra dig, ved at kontrollere med den certificeringsmyndighed, der har underskrevet det.](../../../../../translated_images/send-message-certificate.9cc576ac1e46b76e.da.png)
 
 En stor fordel ved at bruge X.509-certifikater er, at de kan deles mellem enheder. Du kan oprette ét certifikat, uploade det til IoT Hub og bruge det til alle dine enheder. Hver enhed skal derefter kun kende den private nøgle for at dekryptere de meddelelser, den modtager fra IoT Hub.
 

@@ -46,7 +46,7 @@ I denne lektion dækker vi:
 
 Der findes en række populære kommunikationsprotokoller, som IoT-enheder bruger til at kommunikere med internettet. De mest populære er baseret på publish/subscribe-messaging via en form for broker. IoT-enheder forbinder til brokeren og publicerer telemetri og abonnerer på kommandoer. Cloud-tjenester forbinder også til brokeren og abonnerer på alle telemetribeskeder og publicerer kommandoer enten til specifikke enheder eller til grupper af enheder.
 
-![IoT-enheder forbinder til en broker og publicerer telemetri og abonnerer på kommandoer. Cloud-tjenester forbinder til brokeren og abonnerer på al telemetri og sender kommandoer til specifikke enheder.](../../../../../translated_images/pub-sub.7c7ed43fe9fd15d4e1f81a3fd95440413c457acd9bcbe9a43341e30e88db5264.da.png)
+![IoT-enheder forbinder til en broker og publicerer telemetri og abonnerer på kommandoer. Cloud-tjenester forbinder til brokeren og abonnerer på al telemetri og sender kommandoer til specifikke enheder.](../../../../../translated_images/pub-sub.7c7ed43fe9fd15d4.da.png)
 
 MQTT er den mest populære kommunikationsprotokol for IoT-enheder og dækkes i denne lektion. Andre protokoller inkluderer AMQP og HTTP/HTTPS.
 
@@ -115,7 +115,7 @@ Ordet telemetri stammer fra græske rødder og betyder at måle på afstand. Tel
 
 Lad os se tilbage på eksemplet med den smarte termostat fra Lektion 1.
 
-![En internetforbundet termostat, der bruger flere rumfølere](../../../../../translated_images/telemetry.21e5d8b97649d2ebeb0f68d4b9691ab2d1f7bd629338e131465aff8a614e4d4a.da.png)
+![En internetforbundet termostat, der bruger flere rumfølere](../../../../../translated_images/telemetry.21e5d8b97649d2eb.da.png)
 
 Termostaten har temperatursensorer til at indsamle telemetri. Den vil sandsynligvis have en indbygget temperatursensor og kan forbinde til flere eksterne temperatursensorer via en trådløs protokol som [Bluetooth Low Energy](https://wikipedia.org/wiki/Bluetooth_Low_Energy) (BLE).
 
@@ -269,11 +269,11 @@ Skriv serverkoden.
 
 1. Når VS Code starter, vil det aktivere det virtuelle Python-miljø. Dette vil blive rapporteret i den nederste statuslinje:
 
-    ![VS Code viser det valgte virtuelle miljø](../../../../../translated_images/vscode-virtual-env.8ba42e04c3d533cf677e16cbe5ed9a3b80f62c6964472dc84b6f940800f0909f.da.png)
+    ![VS Code viser det valgte virtuelle miljø](../../../../../translated_images/vscode-virtual-env.8ba42e04c3d533cf.da.png)
 
 1. Hvis VS Code-terminalen allerede kører, når VS Code starter op, vil den ikke have det virtuelle miljø aktiveret i sig. Det nemmeste er at lukke terminalen ved hjælp af knappen **Kill the active terminal instance**:
 
-    ![VS Code Kill the active terminal instance-knap](../../../../../translated_images/vscode-kill-terminal.1cc4de7c6f25ee08f423f0ead714e61d069fac1eb2089e97b8a7bbcb3d45fe5e.da.png)
+    ![VS Code Kill the active terminal instance-knap](../../../../../translated_images/vscode-kill-terminal.1cc4de7c6f25ee08.da.png)
 
 1. Start en ny VS Code-terminal ved at vælge *Terminal -> New Terminal* eller ved at trykke på `` CTRL+` ``. Den nye terminal vil indlæse det virtuelle miljø, med kaldet til aktivering, der vises i terminalen. Navnet på det virtuelle miljø (`.venv`) vil også være i prompten:
 

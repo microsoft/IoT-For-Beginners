@@ -81,7 +81,7 @@ Som et nyttigt fejlsøgningstrin kan du ikke kun udskrive afgrænsningsboksene, 
 
 1. Kør appen med kameraet rettet mod noget lager på en hylde. Du vil se filen `image.jpg` i VS Code-udforskeren, og du vil kunne vælge den for at se afgrænsningsboksene.
 
-    ![4 dåser tomatpuré med afgrænsningsbokse omkring hver dåse](../../../../../translated_images/rpi-stock-with-bounding-boxes.b5540e2ecb7cd49f1271828d3be412671d950e87625c5597ea97c90f11e01097.da.jpg)
+    ![4 dåser tomatpuré med afgrænsningsbokse omkring hver dåse](../../../../../translated_images/rpi-stock-with-bounding-boxes.b5540e2ecb7cd49f.da.jpg)
 
 ## Tæl lager
 

@@ -13,7 +13,7 @@ En kombination af forudsigelserne og deres afgrænsningsbokse kan bruges til at 
 
 ## Tæl lager
 
-![4 dåser tomatpuré med afgrænsningsbokse omkring hver dåse](../../../../../translated_images/rpi-stock-with-bounding-boxes.b5540e2ecb7cd49f1271828d3be412671d950e87625c5597ea97c90f11e01097.da.jpg)
+![4 dåser tomatpuré med afgrænsningsbokse omkring hver dåse](../../../../../translated_images/rpi-stock-with-bounding-boxes.b5540e2ecb7cd49f.da.jpg)
 
 På billedet ovenfor har afgrænsningsboksene en lille overlapning. Hvis denne overlapning var meget større, kunne afgrænsningsboksene indikere det samme objekt. For at tælle objekterne korrekt skal du ignorere bokse med en betydelig overlapning.
 
