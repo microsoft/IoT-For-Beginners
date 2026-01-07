@@ -81,7 +81,7 @@ Kasulikuks silumiseks saate mitte ainult piirdekastid välja printida, vaid ka n
 
 1. Käivita rakendus, suunates kaamera riiulil olevatele varudele. Näed `image.jpg` faili VS Code'i failihalduris ja saad selle valida, et näha piirdekaste.
 
-    ![4 tomatipasta purki, mille ümber on piirdekastid](../../../../../translated_images/rpi-stock-with-bounding-boxes.b5540e2ecb7cd49f1271828d3be412671d950e87625c5597ea97c90f11e01097.et.jpg)
+    ![4 tomatipasta purki, mille ümber on piirdekastid](../../../../../translated_images/rpi-stock-with-bounding-boxes.b5540e2ecb7cd49f.et.jpg)
 
 ## Loenda varusid
 

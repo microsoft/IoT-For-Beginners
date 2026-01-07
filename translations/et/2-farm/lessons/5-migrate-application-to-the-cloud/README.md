@@ -41,7 +41,7 @@ Serverivaba, või serverivaba arvutus, hõlmab väikeste koodiplokkide loomist, 
 
 > 💁 Kui olete varem kasutanud andmebaasi käivitajaid, võite mõelda sellele kui samale asjale – kood, mis käivitatakse sündmuse, näiteks rea lisamise, korral.
 
-![Kui palju sündmusi saadetakse korraga, skaleerub serverivaba teenus üles, et neid kõiki samaaegselt töödelda](../../../../../translated_images/serverless-scaling.f8c769adf0413fd17be1af4f07ff63016b347e2ff869be6c4abb211f9e93909d.et.png)
+![Kui palju sündmusi saadetakse korraga, skaleerub serverivaba teenus üles, et neid kõiki samaaegselt töödelda](../../../../../translated_images/serverless-scaling.f8c769adf0413fd1.et.png)
 
 Teie kood käivitatakse ainult siis, kui sündmus toimub; muul ajal ei hoita teie koodi aktiivsena. Sündmus toimub, teie kood laaditakse ja käivitatakse. See muudab serverivaba mudeli väga skaleeritavaks – kui palju sündmusi toimub korraga, saab pilveteenuse pakkuja käivitada teie funktsiooni nii mitu korda kui vaja, kasutades kõiki saadaolevaid servereid. Selle mudeli miinus on see, et kui teil on vaja jagada teavet sündmuste vahel, peate selle salvestama kuhugi, näiteks andmebaasi, mitte hoidma seda mälus.
 
@@ -246,7 +246,7 @@ VS Code tuvastab teie Functions projekti ja kuvab teate, mis ütleb:
     VS Code. Initialize for optimal use with VS Code?
     ```
 
-![Teade](../../../../../translated_images/vscode-azure-functions-init-notification.bd19b49229963edb5311fb3a79445ea469424759d2917ee2f2eb6f92d65d5086.et.png)
+![Teade](../../../../../translated_images/vscode-azure-functions-init-notification.bd19b49229963edb.et.png)
 
 Valige sellest teatest **Yes**.
 

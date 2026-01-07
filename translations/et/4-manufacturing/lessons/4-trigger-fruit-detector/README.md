@@ -115,7 +115,7 @@ Prototüübi jaoks rakendate kõik selle ühe seadme peal. Kui kasutate mikrokon
 
 IoT-seade vajab mingisugust käivitust, et näidata, millal puuviljad on valmis klassifitseerimiseks. Üks käivitusviis oleks mõõta, millal puuviljad on konveierilindil õiges asukohas, mõõtes kaugust sensorini.
 
-![Lähedussensorid saadavad laserkiiri objektidele, nagu banaanid, ja mõõdavad aega, kuni kiir tagasi põrkub](../../../../../translated_images/proximity-sensor.f5cd752c77fb62fea000156233b32fd24fad3707ec69b8bdd8d312b7af85156d.et.png)
+![Lähedussensorid saadavad laserkiiri objektidele, nagu banaanid, ja mõõdavad aega, kuni kiir tagasi põrkub](../../../../../translated_images/proximity-sensor.f5cd752c77fb62fe.et.png)
 
 Lähedussensoreid saab kasutada sensori ja objekti vahelise kauguse mõõtmiseks. Tavaliselt edastavad need elektromagnetilise kiirguse kiirt, näiteks laserkiirt või infrapunavalgust, ja tuvastavad kiirguse, mis põrkub objektist tagasi. Aeg, mis kulub laserkiire saatmisest kuni signaali tagasi põrkumiseni, võimaldab arvutada sensori kauguse objektist.
 

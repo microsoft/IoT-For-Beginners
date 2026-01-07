@@ -72,7 +72,7 @@ Pilveteenuse pakkuja saab seejärel kasutada mastaabisäästu, et kulusid vähen
 
 Azure on Microsofti arendajate pilv, mida kasutate nende õppetundide jaoks. Allolev video annab lühikese ülevaate Azure'ist:
 
-[![Azure'i ülevaate video](../../../../../translated_images/what-is-azure-video-thumbnail.20174db09e03bbb87d213f928d3cb27410305d2e567e952827de8478dbda959b.et.png)](https://www.microsoft.com/videoplayer/embed/RE4Ibng?WT.mc_id=academic-17441-jabenn)
+[![Azure'i ülevaate video](../../../../../translated_images/what-is-azure-video-thumbnail.20174db09e03bbb8.et.png)](https://www.microsoft.com/videoplayer/embed/RE4Ibng?WT.mc_id=academic-17441-jabenn)
 
 ## Loo pilvetellimus
 

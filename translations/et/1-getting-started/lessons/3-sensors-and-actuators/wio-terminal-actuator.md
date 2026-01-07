@@ -51,7 +51,7 @@ Grove LED on moodul, millel on valik erinevaid LED-e, mis võimaldab valida vär
 
     > 💁 Parempoolset Grove-pistikut saab kasutada analoog- või digitaalsete sensorite ja täiturmehhanismidega. Vasakpoolne pistik on ainult I<sup>2</sup>C ja digitaalsete sensorite ning täiturmehhanismide jaoks. I<sup>2</sup>C käsitletakse hilisemas õppetunnis.
 
-![Grove LED ühendatud parempoolse pistikuga](../../../../../translated_images/wio-led.265a1897e72d7f21c753257516a4b677d8e30ce2b95fee98189458b3275ba0a6.et.png)
+![Grove LED ühendatud parempoolse pistikuga](../../../../../translated_images/wio-led.265a1897e72d7f21.et.png)
 
 ## Öölambi programmeerimine
 

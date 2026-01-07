@@ -61,7 +61,7 @@ Di latest type of sorting machine dey use AI and ML. Dem dey train di model to s
 
 Traditional programming na when you use data, apply algorithm, and get result. For example, for di last project, you use GPS coordinates and geofence, apply Azure Maps algorithm, and e tell you if di point dey inside or outside di geofence. You put more data, you get more result.
 
-![Traditional development dey use input and algorithm to get output. Machine learning dey use input and output data to train model, and di model fit use new input to give new output](../../../../../translated_images/traditional-vs-ml.5c20c169621fa539ca84a2cd9a49f6ff7410b3a6c6b46c97ff2af3f99db3c66b.pcm.png)
+![Traditional development dey use input and algorithm to get output. Machine learning dey use input and output data to train model, and di model fit use new input to give new output](../../../../../translated_images/traditional-vs-ml.5c20c169621fa539.pcm.png)
 
 Machine learning dey different - you go start with data and di result wey you sabi already, then di machine learning algorithm go learn from di data. Di trained algorithm wey dem dey call *machine learning model* or *model* fit use new data to give new result.
 
@@ -87,7 +87,7 @@ To train image classifier well, you need plenty pictures. But if you get image c
 
 Once image classifier don train with plenty pictures, e go sabi shapes, colors, and patterns well. Transfer learning go help di model use wetin e don sabi to recognize new pictures.
 
-![Once you sabi shapes, you fit arrange dem to make boat or cat](../../../../../translated_images/shapes-to-images.1a309f0ea88dd66fafa4da6d38e88806ce174cc6a88081efb32852230ed55de8.pcm.png)
+![Once you sabi shapes, you fit arrange dem to make boat or cat](../../../../../translated_images/shapes-to-images.1a309f0ea88dd66f.pcm.png)
 
 You fit think am like children shape books, once you sabi semi-circle, rectangle, and triangle, you fit sabi sailboat or cat based on how dem arrange di shapes. Di image classifier go sabi di shapes, and transfer learning go teach am wetin di arrangement mean - like ripe banana.
 

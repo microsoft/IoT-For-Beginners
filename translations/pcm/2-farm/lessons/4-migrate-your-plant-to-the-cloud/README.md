@@ -72,7 +72,7 @@ Di cloud provider go use economies of scale to reduce cost, buy computers in bul
 
 Azure na di developer cloud wey Microsoft get, and na di cloud wey you go use for dis lessons. Di video below go give you small overview of Azure:
 
-[![Overview of Azure video](../../../../../translated_images/what-is-azure-video-thumbnail.20174db09e03bbb87d213f928d3cb27410305d2e567e952827de8478dbda959b.pcm.png)](https://www.microsoft.com/videoplayer/embed/RE4Ibng?WT.mc_id=academic-17441-jabenn)
+[![Overview of Azure video](../../../../../translated_images/what-is-azure-video-thumbnail.20174db09e03bbb8.pcm.png)](https://www.microsoft.com/videoplayer/embed/RE4Ibng?WT.mc_id=academic-17441-jabenn)
 
 ## Create cloud subscription
 

@@ -41,7 +41,7 @@ Di two main parts of IoT application na di *Internet* and di *thing*. Make we lo
 
 ### The Thing
 
-![A Raspberry Pi 4](../../../../../translated_images/raspberry-pi-4.fd4590d308c3d456db1327e86b395ddcd735513267aafd4879ea2785f7792eac.pcm.jpg)
+![A Raspberry Pi 4](../../../../../translated_images/raspberry-pi-4.fd4590d308c3d456.pcm.jpg)
 
 Di **Thing** part of IoT na di device wey dey interact with di physical world. Dis devices dey small, cheap, and dey use low power - like microcontrollers wey get small RAM (kilobytes instead of gigabytes for PC) and dey run slow (hundreds of megahertz instead of gigahertz for PC). Dem fit use battery wey go last weeks, months or even years.
 
@@ -67,7 +67,7 @@ For example, smart thermostat go connect to cloud service through home WiFi. E g
 
 Smarter version fit use AI for di cloud with data from other sensors like occupancy sensors, weather, and calendar to make better decisions. Example, e fit turn heating off if e see for your calendar say you dey vacation, or turn heating off for rooms wey you no dey use.
 
-![A diagram showing multiple temperature sensors and a dial as inputs to an IoT device, the IoT device with 2 way communication to the cloud, which in turn has 2 way communication to a phone, a calendar and a weather service, and control of a heater as an output from the IoT device](../../../../../translated_images/smarter-thermostat.a75855f15d2d9e63d5da9d7ba5847a987f6c9d98e96e770c203532275194e27d.pcm.png)
+![A diagram showing multiple temperature sensors and a dial as inputs to an IoT device, the IoT device with 2 way communication to the cloud, which in turn has 2 way communication to a phone, a calendar and a weather service, and control of a heater as an output from the IoT device](../../../../../translated_images/smarter-thermostat.a75855f15d2d9e63.pcm.png)
 
 ✅ Wetin other data fit help make Internet connected thermostat smarter?
 
@@ -136,7 +136,7 @@ Just like CPU, memory wey dey inside microcontroller small well well compared to
 
 The diagram wey dey below go show you how 192KB and 8GB take compare - that small dot for center na 192KB.
 
-![A comparison between 192KB and 8GB - more than 40,000 times larger](../../../../../translated_images/ram-comparison.6beb73541b42ac6ffde64cdf79fc925a84b932ce7ebd4d41d5fd7afc1257a696.pcm.png)
+![A comparison between 192KB and 8GB - more than 40,000 times larger](../../../../../translated_images/ram-comparison.6beb73541b42ac6f.pcm.png)
 
 Program storage for microcontroller sef small pass PC own. Normal PC fit get 500GB hard drive for program storage, but microcontroller fit get only kilobytes or maybe small megabytes (MB) of storage (1MB na 1,000KB, or 1,000,000 bytes). The Wio terminal get 4MB of program storage.
 
@@ -212,17 +212,17 @@ For the last lesson, we talk about single-board computers. Now, make we look am 
 
 ### Raspberry Pi
 
-![The Raspberry Pi logo](../../../../../translated_images/raspberry-pi-logo.4efaa16605cee05489d8fa53941e991b3757aa24c20a95abdcf8cfd761953596.pcm.png)
+![The Raspberry Pi logo](../../../../../translated_images/raspberry-pi-logo.4efaa16605cee054.pcm.png)
 
 The [Raspberry Pi Foundation](https://www.raspberrypi.org) na charity from UK wey dem start for 2009 to promote computer science study, especially for school level. As part of their mission, dem develop single-board computer wey dem call Raspberry Pi. Raspberry Pi dey come in 3 types - full size version, smaller Pi Zero, and compute module wey you fit use build your final IoT device.
 
-![A Raspberry Pi 4](../../../../../translated_images/raspberry-pi-4.fd4590d308c3d456db1327e86b395ddcd735513267aafd4879ea2785f7792eac.pcm.jpg)
+![A Raspberry Pi 4](../../../../../translated_images/raspberry-pi-4.fd4590d308c3d456.pcm.jpg)
 
 The latest full size Raspberry Pi na Raspberry Pi 4B. E get quad-core (4 core) CPU wey dey run for 1.5GHz, 2, 4, or 8GB of RAM, gigabit ethernet, WiFi, 2 HDMI ports wey fit support 4k screens, audio and composite video output port, USB ports (2 USB 2.0, 2 USB 3.0), 40 GPIO pins, camera connector for Raspberry Pi camera module, and SD card slot. All these dey for board wey be 88mm x 58mm x 19.5mm and e dey powered by 3A USB-C power supply. E dey start from US$35, e cheap pass PC or Mac.
 
 > 💁 Dem still get Pi400 all-in-one computer wey get Pi4 inside keyboard.
 
-![A Raspberry Pi Zero](../../../../../translated_images/raspberry-pi-zero.f7a4133e1e7d54bb3dbb32319b217a53c5b94871995a54647f2894b54206b8d8.pcm.jpg)
+![A Raspberry Pi Zero](../../../../../translated_images/raspberry-pi-zero.f7a4133e1e7d54bb.pcm.jpg)
 
 The Pi Zero small well well, and e no dey use plenty power. E get single core 1GHz CPU, 512MB of RAM, WiFi (for the Zero W model), one HDMI port, one micro-USB port, 40 GPIO pins, camera connector for Raspberry Pi camera module, and SD card slot. E measure 65mm x 30mm x 5mm, and e no dey use plenty power. The Zero na US$5, and the W version wey get WiFi na US$10.
 

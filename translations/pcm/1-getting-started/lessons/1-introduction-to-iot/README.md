@@ -79,7 +79,7 @@ Microcontroller (MCU - microcontroller unit) na small computer wey get:
 
 Microcontrollers dey cheap, with average price around US$0.50, and some as low as US$0.03. Developer kits fit start from US$4, and di [Wio Terminal](https://www.seeedstudio.com/Wio-Terminal-p-4509.html) from [Seeed studios](https://www.seeedstudio.com) wey get sensors, actuators, WiFi and screen dey cost around US$30.
 
-![A Wio Terminal](../../../../../translated_images/wio-terminal.b8299ee16587db9aa9e05fabf9721bccd9eb8fb541b7c1a8267241282d81b603.pcm.png)
+![A Wio Terminal](../../../../../translated_images/wio-terminal.b8299ee16587db9a.pcm.png)
 
 > 💁 If you dey search for microcontrollers online, no use **MCU** because e go show plenty Marvel Cinematic Universe results instead of microcontrollers.
 
@@ -93,7 +93,7 @@ Developer kits dey come with sensors and actuators onboard. Most boards get LEDs
 
 Single-board computer na small computer wey get all di parts of complete computer for one small board. E dey like desktop or laptop PC/Mac, but e small, dey use less power, and cheap.
 
-![A Raspberry Pi 4](../../../../../translated_images/raspberry-pi-4.fd4590d308c3d456db1327e86b395ddcd735513267aafd4879ea2785f7792eac.pcm.jpg)
+![A Raspberry Pi 4](../../../../../translated_images/raspberry-pi-4.fd4590d308c3d456.pcm.jpg)
 
 Raspberry Pi na one of di most popular single-board computers.
 

@@ -17,7 +17,7 @@ Di sensor for dis lesson na **light sensor** wey dey use [photodiode](https://wi
 
 Di light sensor dey inside di Wio Terminal and you fit see am through di clear plastic window wey dey di back.
 
-![Di light sensor wey dey di back of di Wio Terminal](../../../../../translated_images/wio-light-sensor.b1f529f3c95f51654f2e2c1d2d4b55fe547d189f588c974f5c2462c728133840.pcm.png)
+![Di light sensor wey dey di back of di Wio Terminal](../../../../../translated_images/wio-light-sensor.b1f529f3c95f5165.pcm.png)
 
 ## Program di light sensor
 

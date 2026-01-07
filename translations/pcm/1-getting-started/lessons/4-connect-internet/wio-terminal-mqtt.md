@@ -64,7 +64,7 @@ Connect di Wio Terminal to WiFi.
 
 1. Create one new file for di `src` folder wey you go call `config.h`. You fit do dis by selecting di `src` folder, or di `main.cpp` file wey dey inside, and selecting di **New file** button for di explorer. Dis button go only show when your cursor dey over di explorer.
 
-    ![Di new file button](../../../../../translated_images/vscode-new-file-button.182702340fe6723c8cbb4cfa1a9a9fb0d0a5227643b4e46b91ff67b07a39a92f.pcm.png)
+    ![Di new file button](../../../../../translated_images/vscode-new-file-button.182702340fe6723c.pcm.png)
 
 1. Add di following code for dis file to define constants for your WiFi credentials:
 

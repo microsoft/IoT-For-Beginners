@@ -110,7 +110,7 @@ Each point for di polygon dey defined as longitude, latitude pair inside array, 
 
 Di polygon coordinates array go always get 1 extra entry pass di number of points for di polygon, di last entry go be same as di first one, to close di polygon. For example, rectangle go get 5 points.
 
-![A rectangle with coordinates](../../../../../translated_images/polygon-points.302193da381cb415f46c2c7a98496ee4be05d6c73d21238a89721ad93e121233.pcm.png)
+![A rectangle with coordinates](../../../../../translated_images/polygon-points.302193da381cb415.pcm.png)
 
 For di image above, di rectangle polygon coordinates start for top-left at 47,-122, then e go right to 47,-121, then e go down to 46,-121, then e go left to 46, -122, then e go back up to di start point at 47, -122. Dis go give di polygon 5 points - top-left, top-right, bottom-right, bottom-left, then top-left to close am.
 
@@ -208,7 +208,7 @@ Wen you dey make dis request, you fit also pass value wey dem call `searchBuffer
 
 Wen results return from di API call, one part of di result na `distance` wey dem measure to di closest point for di edge of di geofence, with positive value if di point dey outside di geofence, negative if e dey inside di geofence. If dis distance dey less than di search buffer, di actual distance go return for meters, otherwise di value go be 999 or -999. 999 mean say di point dey outside di geofence pass di search buffer, -999 mean say e dey inside di geofence pass di search buffer.
 
-![A geofence with a 50m search buffer around in](../../../../../translated_images/search-buffer-and-distance.e6a79af3898183c7b2ef6fbf12271b8b34afd23969bb946962b1b18d3d2635e8.pcm.png)
+![A geofence with a 50m search buffer around in](../../../../../translated_images/search-buffer-and-distance.e6a79af3898183c7.pcm.png)
 
 For di image above, di geofence get 50m search buffer.
 

@@ -33,11 +33,11 @@ Grove mulla niiskuse sensorit saab ühendada Wio Terminali konfigureeritava anal
 
 1. Kui Wio Terminal on arvutist või muust toiteallikast lahti ühendatud, ühenda Grove-kaabli teine ots Wio Terminali parempoolse Grove-pistiku külge, vaadates ekraani. See on pistik, mis asub kõige kaugemal toitenupust.
 
-![Grove mulla niiskuse sensor ühendatud parempoolse pistikuga](../../../../../translated_images/wio-soil-moisture-sensor.46919b61c3f6cb7497662251b29038ee0e57a4c8b9d071feb996c3b0d7f65aaf.et.png)
+![Grove mulla niiskuse sensor ühendatud parempoolse pistikuga](../../../../../translated_images/wio-soil-moisture-sensor.46919b61c3f6cb74.et.png)
 
 1. Sisesta mulla niiskuse sensor mulda. Sellel on "kõrgeima positsiooni joon" – valge joon sensori peal. Sisesta sensor kuni selle jooneni, kuid mitte üle selle.
 
-![Grove mulla niiskuse sensor mullas](../../../../../translated_images/soil-moisture-sensor-in-soil.bfad91002bda5e960f8c51ee64b02ee59b32c8c717e3515a2c945f33e614e403.et.png)
+![Grove mulla niiskuse sensor mullas](../../../../../translated_images/soil-moisture-sensor-in-soil.bfad91002bda5e96.et.png)
 
 1. Nüüd saad ühendada Wio Terminali oma arvutiga.
 

@@ -97,15 +97,15 @@ Krüpteerimine jaguneb kahte tüüpi - sümeetriline ja asümeetriline.
 
 **Sümeetriline** krüpteerimine kasutab sama võtit andmete krüpteerimiseks ja dekrüpteerimiseks. Nii saatja kui ka vastuvõtja peavad teadma sama võtit. See on kõige vähem turvaline tüüp, kuna võti tuleb kuidagi jagada. Et saatja saaks saata krüpteeritud sõnumi vastuvõtjale, võib saatja kõigepealt pidada vajalikuks saata vastuvõtjale võti.
 
-![Sümeetriline võtmekrüpteerimine kasutab sama võtit sõnumi krüpteerimiseks ja dekrüpteerimiseks](../../../../../translated_images/send-message-symmetric-key.a2e8ad0d495896ffcdf15d25bb4491c695a5cb851457b359fb0f0c89d67707c9.et.png)
+![Sümeetriline võtmekrüpteerimine kasutab sama võtit sõnumi krüpteerimiseks ja dekrüpteerimiseks](../../../../../translated_images/send-message-symmetric-key.a2e8ad0d495896ff.et.png)
 
 Kui võti varastatakse transiidil või saatja või vastuvõtja häkitakse ja võti leitakse, saab krüpteeringu murda.
 
-![Sümeetriline võtmekrüpteerimine on turvaline ainult siis, kui häkker ei saa võtit - kui see juhtub, saab ta sõnumi pealt kuulata ja dekrüpteerida](../../../../../translated_images/send-message-symmetric-key-hacker.e7cb53db1707adfb1486a8144060cb76435fe8dbdede8cecc09e7d15b2d9a251.et.png)
+![Sümeetriline võtmekrüpteerimine on turvaline ainult siis, kui häkker ei saa võtit - kui see juhtub, saab ta sõnumi pealt kuulata ja dekrüpteerida](../../../../../translated_images/send-message-symmetric-key-hacker.e7cb53db1707adfb.et.png)
 
 **Asümeetriline** krüpteerimine kasutab 2 võtit - krüpteerimisvõtit ja dekrüpteerimisvõtit, mida nimetatakse avaliku/privaatse võtme paariks. Avalikku võtit kasutatakse sõnumi krüpteerimiseks, kuid seda ei saa kasutada dekrüpteerimiseks, privaatset võtit kasutatakse sõnumi dekrüpteerimiseks, kuid seda ei saa kasutada krüpteerimiseks.
 
-![Asümeetriline krüpteerimine kasutab erinevat võtit krüpteerimiseks ja dekrüpteerimiseks. Krüpteerimisvõti saadetakse kõigile sõnumi saatjatele, et nad saaksid sõnumi krüpteerida enne selle saatmist võtmete omanikule](../../../../../translated_images/send-message-asymmetric.7abe327c62615b8c19805252af5d4b6c5e7aaeb8fbc455efeff866fe2d300b62.et.png)
+![Asümeetriline krüpteerimine kasutab erinevat võtit krüpteerimiseks ja dekrüpteerimiseks. Krüpteerimisvõti saadetakse kõigile sõnumi saatjatele, et nad saaksid sõnumi krüpteerida enne selle saatmist võtmete omanikule](../../../../../translated_images/send-message-asymmetric.7abe327c62615b8c.et.png)
 
 Vastuvõtja jagab oma avaliku võtme ja saatja kasutab seda sõnumi krüpteerimiseks. Kui sõnum on saadetud, dekrüpteerib vastuvõtja selle oma privaatse võtmega. Asümeetriline krüpteerimine on turvalisem, kuna privaatne võti hoitakse vastuvõtja poolt privaatsena ja seda ei jagata kunagi. Avaliku võtme võib saada igaüks, kuna seda saab kasutada ainult sõnumite krüpteerimiseks.
 
@@ -166,7 +166,7 @@ Need sertifikaadid sisaldavad mitmeid välju, sealhulgas teavet selle kohta, kel
 
 X.509 sertifikaate kasutades on nii saatjal kui ka saajal oma avalikud ja privaatsed võtmed, samuti X.509 sertifikaadid, mis sisaldavad avalikku võtit. Nad vahetavad kuidagi X.509 sertifikaate, kasutades üksteise avalikke võtmeid andmete krüpteerimiseks, mida nad saadavad, ja oma privaatset võtit andmete dekrüpteerimiseks, mida nad vastu võtavad.
 
-![Selle asemel, et jagada avalikku võtit, saate jagada sertifikaati. Sertifikaadi kasutaja saab kontrollida, et see pärineb teilt, kontrollides sertifitseerimisasutust, kes selle allkirjastas.](../../../../../translated_images/send-message-certificate.9cc576ac1e46b76eb58ebc8eedaa522566fa0700076da46f5180aad78c2435db.et.png)
+![Selle asemel, et jagada avalikku võtit, saate jagada sertifikaati. Sertifikaadi kasutaja saab kontrollida, et see pärineb teilt, kontrollides sertifitseerimisasutust, kes selle allkirjastas.](../../../../../translated_images/send-message-certificate.9cc576ac1e46b76e.et.png)
 
 Üks suur eelis X.509 sertifikaatide kasutamisel on see, et neid saab jagada seadmete vahel. Saate luua ühe sertifikaadi, laadida selle IoT Hubi ja kasutada seda kõigi oma seadmete jaoks. Iga seade peab siis teadma ainult privaatset võtit, et dekrüpteerida sõnumeid, mida ta IoT Hubilt saab.
 

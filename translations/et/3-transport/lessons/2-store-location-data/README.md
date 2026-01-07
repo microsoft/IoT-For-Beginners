@@ -66,7 +66,7 @@ Andmebaasid on teenused, mis võimaldavad andmeid salvestada ja päringuid teha.
 
 Esimesed andmebaasid olid relatsioonilised andmebaasid (RDBMS), mida tuntakse ka SQL-andmebaasidena, kuna need kasutavad struktureeritud päringukeelt (SQL) andmete lisamiseks, eemaldamiseks, uuendamiseks või pärimiseks. Need andmebaasid koosnevad skeemist - hästi määratletud tabelite kogumist, mis sarnanevad arvutustabelitega. Iga tabel sisaldab mitmeid nimega veerge. Andmete sisestamisel lisate tabelisse rea, pannes väärtused veergudesse. See hoiab andmed väga jäigas struktuuris - kuigi veerge võib jätta tühjaks, tuleb uue veeru lisamiseks andmebaasi muuta, täites olemasolevate ridade väärtused. Need andmebaasid on relatsioonilised - üks tabel võib olla seotud teisega.
 
-![Relatsiooniline andmebaas, kus kasutajate tabeli ID on seotud ostude tabeli kasutaja ID veeruga ja toodete tabeli ID on seotud ostude tabeli toote ID veeruga](../../../../../translated_images/sql-database.be160f12bfccefd3ca718a66468c2c4c89c53e5aad4c295324d576da87f9dfdd.et.png)
+![Relatsiooniline andmebaas, kus kasutajate tabeli ID on seotud ostude tabeli kasutaja ID veeruga ja toodete tabeli ID on seotud ostude tabeli toote ID veeruga](../../../../../translated_images/sql-database.be160f12bfccefd3.et.png)
 
 Näiteks, kui salvestate kasutaja isiklikke andmeid tabelisse, oleks igal kasutajal mingi sisemine unikaalne ID, mida kasutatakse tabelis, mis sisaldab kasutaja nime ja aadressi. Kui soovite salvestada selle kasutaja kohta muid andmeid, näiteks tema oste, teises tabelis, oleks uues tabelis üks veerg selle kasutaja ID jaoks. Kui otsite kasutajat, saate tema ID abil hankida isiklikud andmed ühest tabelist ja ostud teisest.
 
@@ -242,7 +242,7 @@ Sinu funktsioonirakendus peab nüüd ühenduma blob-salvestusega, et salvestada 
 
 Selles õppetunnis kasutad Python SDK-d, et näha, kuidas blob-salvestusega suhelda.
 
-![GPS-telemeetria saatmine IoT-seadmest IoT Hubi, seejärel Azure Functionsisse sündmuse käivitaja kaudu ja lõpuks salvestamine blob-salvestusse](../../../../../translated_images/save-telemetry-to-storage-from-functions.ed3b1820980097f143d9f0570072da11304c2bc7906359dfa075b4d9b253c20f.et.png)
+![GPS-telemeetria saatmine IoT-seadmest IoT Hubi, seejärel Azure Functionsisse sündmuse käivitaja kaudu ja lõpuks salvestamine blob-salvestusse](../../../../../translated_images/save-telemetry-to-storage-from-functions.ed3b1820980097f1.et.png)
 
 Andmed salvestatakse JSON-blobina järgmises formaadis:
 

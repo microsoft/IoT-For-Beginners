@@ -61,7 +61,7 @@ Viimased arengud sorteerimismasinate valdkonnas kasutavad AI-d ja ML-i, kasutade
 
 Traditsiooniline programmeerimine seisneb andmete võtmises, algoritmi rakendamises ja väljundi saamisel. Näiteks eelmises projektis kasutasid sa GPS-koordinaate ja geopiiret, rakendasid Azure Mapsi pakutud algoritmi ja said tulemuseks, kas punkt oli geopiire sees või väljas. Sisestad rohkem andmeid, saad rohkem väljundeid.
 
-![Traditsiooniline arendus võtab sisendi ja algoritmi ning annab väljundi. Masinõpe kasutab sisend- ja väljundandmeid mudeli treenimiseks, ning see mudel saab kasutada uusi sisendandmeid uue väljundi genereerimiseks.](../../../../../translated_images/traditional-vs-ml.5c20c169621fa539ca84a2cd9a49f6ff7410b3a6c6b46c97ff2af3f99db3c66b.et.png)
+![Traditsiooniline arendus võtab sisendi ja algoritmi ning annab väljundi. Masinõpe kasutab sisend- ja väljundandmeid mudeli treenimiseks, ning see mudel saab kasutada uusi sisendandmeid uue väljundi genereerimiseks.](../../../../../translated_images/traditional-vs-ml.5c20c169621fa539.et.png)
 
 Masinõpe pöörab selle ümber - alustad andmetest ja teadaolevatest väljunditest ning masinõppe algoritm õpib andmetest. Seejärel saad kasutada treenitud algoritmi, mida nimetatakse *masinõppe mudeliks* või *mudeliks*, sisestada uusi andmeid ja saada uusi väljundeid.
 
@@ -87,7 +87,7 @@ Eduka pildiklassifikaatori treenimiseks on vaja miljoneid pilte. Selgub, et kui 
 
 Kui pildiklassifikaator on treenitud laia valiku piltide jaoks, on selle sisemised mehhanismid suurepärased kujundite, värvide ja mustrite tuvastamisel. Ülekandeõpe võimaldab mudelil kasutada juba õpitud kujundite tuvastamist ja rakendada seda uute piltide tuvastamiseks.
 
-![Kui suudad tuvastada kujundeid, saab neid paigutada erinevatesse konfiguratsioonidesse, et moodustada paat või kass.](../../../../../translated_images/shapes-to-images.1a309f0ea88dd66fafa4da6d38e88806ce174cc6a88081efb32852230ed55de8.et.png)
+![Kui suudad tuvastada kujundeid, saab neid paigutada erinevatesse konfiguratsioonidesse, et moodustada paat või kass.](../../../../../translated_images/shapes-to-images.1a309f0ea88dd66f.et.png)
 
 Seda võib võrrelda laste kujundiraamatutega, kus kui suudad tuvastada poolringi, ristküliku ja kolmnurga, suudad tuvastada purjepaadi või kassi sõltuvalt nende kujundite konfiguratsioonist. Pildiklassifikaator suudab tuvastada kujundeid ja ülekandeõpe õpetab sellele, milline kombinatsioon moodustab paadi või kassi - või küpse banaani.
 

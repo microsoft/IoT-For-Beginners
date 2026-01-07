@@ -97,15 +97,15 @@ Encryption get two types - symmetric and asymmetric.
 
 **Symmetric** encryption dey use di same key to encrypt and decrypt di data. Both di sender and receiver need to sabi di same key. Dis na di least secure type, because di key need to dey shared somehow. For sender to send encrypted message to recipient, di sender first fit need to send di recipient di key.
 
-![Symmetric key encryption uses the same key to encrypt and decrypt a message](../../../../../translated_images/send-message-symmetric-key.a2e8ad0d495896ffcdf15d25bb4491c695a5cb851457b359fb0f0c89d67707c9.pcm.png)
+![Symmetric key encryption uses the same key to encrypt and decrypt a message](../../../../../translated_images/send-message-symmetric-key.a2e8ad0d495896ff.pcm.png)
 
 If di key dey stolen for transit, or di sender or recipient dey hacked and di key dey found, di encryption fit dey cracked.
 
-![Symmetric key encryption is only secure if a hacker doesn't get the key - if so they can intercept and decrypt the message](../../../../../translated_images/send-message-symmetric-key-hacker.e7cb53db1707adfb1486a8144060cb76435fe8dbdede8cecc09e7d15b2d9a251.pcm.png)
+![Symmetric key encryption is only secure if a hacker doesn't get the key - if so they can intercept and decrypt the message](../../../../../translated_images/send-message-symmetric-key-hacker.e7cb53db1707adfb.pcm.png)
 
 **Asymmetric** encryption dey use 2 keys - one encryption key and one decryption key, wey dem dey call public/private key pair. Di public key dey used to encrypt di message, but e no fit dey used to decrypt am, di private key dey used to decrypt di message but e no fit dey used to encrypt am.
 
-![Asymmetric encryption uses a different key to encrypt and decrypt. The encryption key is sent to any message senders so they can encrypt a message before sending it to the recipient who owns the keys](../../../../../translated_images/send-message-asymmetric.7abe327c62615b8c19805252af5d4b6c5e7aaeb8fbc455efeff866fe2d300b62.pcm.png)
+![Asymmetric encryption uses a different key to encrypt and decrypt. The encryption key is sent to any message senders so they can encrypt a message before sending it to the recipient who owns the keys](../../../../../translated_images/send-message-asymmetric.7abe327c62615b8c.pcm.png)
 
 Di recipient go share their public key, and di sender go use am to encrypt di message. Once di message don send, di recipient go decrypt am with their private key. Asymmetric encryption dey more secure because di private key dey kept private by di recipient and e no dey shared. Anybody fit get di public key because e only fit dey used to encrypt messages.
 
@@ -166,7 +166,7 @@ Dis certificates get plenty fields inside dem, like who di public key dey from, 
 
 If you dey use X.509 certificates, both di sender and di receiver go get dia own public and private keys, and dem go still get X.509 certificates wey get di public key. Dem go exchange X.509 certificates somehow, use each other public keys to encrypt di data wey dem dey send, and use dia own private key to decrypt di data wey dem receive.
 
-![Instead of sharing a public key, you can share a certificate. The user of the certificate can verify that it comes from you by checking with the certificate authority who signed it.](../../../../../translated_images/send-message-certificate.9cc576ac1e46b76eb58ebc8eedaa522566fa0700076da46f5180aad78c2435db.pcm.png)
+![Instead of sharing a public key, you can share a certificate. The user of the certificate can verify that it comes from you by checking with the certificate authority who signed it.](../../../../../translated_images/send-message-certificate.9cc576ac1e46b76e.pcm.png)
 
 One big advantage of using X.509 certificates be say you fit share dem between devices. You fit create one certificate, upload am to IoT Hub, and use am for all your devices. Each device go just need di private key to decrypt di messages wey e receive from IoT Hub.
 

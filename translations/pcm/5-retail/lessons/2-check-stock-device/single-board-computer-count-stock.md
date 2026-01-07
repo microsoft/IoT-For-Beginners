@@ -81,7 +81,7 @@ As one helpful debugging step, you fit no just print di bounding boxes, but you 
 
 1. Run di app make di camera face some stock wey dey shelf. You go see di `image.jpg` file for di VS Code explorer, and you fit select am to see di bounding boxes.
 
-    ![4 cans of tomato paste with bounding boxes around each can](../../../../../translated_images/rpi-stock-with-bounding-boxes.b5540e2ecb7cd49f1271828d3be412671d950e87625c5597ea97c90f11e01097.pcm.jpg)
+    ![4 cans of tomato paste with bounding boxes around each can](../../../../../translated_images/rpi-stock-with-bounding-boxes.b5540e2ecb7cd49f.pcm.jpg)
 
 ## Count stock
 

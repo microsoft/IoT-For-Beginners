@@ -46,7 +46,7 @@ Selles õppetunnis käsitleme:
 
 IoT-seadmete ja Interneti vaheliseks suhtluseks kasutatakse mitmeid populaarseid protokolle. Kõige populaarsemad põhinevad avaldamise/tellimise sõnumite edastamisel mingi vahendaja kaudu. IoT-seadmed ühenduvad vahendajaga, avaldavad telemeetria ja tellivad käske. Pilveteenused ühenduvad samuti vahendajaga, tellivad kõik telemeetria sõnumid ja avaldavad käske kas konkreetsetele seadmetele või seadmete gruppidele.
 
-![IoT-seadmed ühenduvad vahendajaga, avaldavad telemeetria ja tellivad käske. Pilveteenused ühenduvad vahendajaga, tellivad kõik telemeetria ja saadavad käske konkreetsetele seadmetele.](../../../../../translated_images/pub-sub.7c7ed43fe9fd15d4e1f81a3fd95440413c457acd9bcbe9a43341e30e88db5264.et.png)
+![IoT-seadmed ühenduvad vahendajaga, avaldavad telemeetria ja tellivad käske. Pilveteenused ühenduvad vahendajaga, tellivad kõik telemeetria ja saadavad käske konkreetsetele seadmetele.](../../../../../translated_images/pub-sub.7c7ed43fe9fd15d4.et.png)
 
 MQTT on IoT-seadmete seas kõige populaarsem suhtlusprotokoll ja seda käsitletakse selles õppetunnis. Muud protokollid hõlmavad AMQP ja HTTP/HTTPS.
 
@@ -115,7 +115,7 @@ Sõna telemeetria pärineb kreeka juurtest, mis tähendavad kaugmõõtmist. Tele
 
 Vaatame tagasi nutika termostaadi näitele 1. õppetunnist.
 
-![Internetiga ühendatud termostaat, mis kasutab mitme ruumi andureid](../../../../../translated_images/telemetry.21e5d8b97649d2ebeb0f68d4b9691ab2d1f7bd629338e131465aff8a614e4d4a.et.png)
+![Internetiga ühendatud termostaat, mis kasutab mitme ruumi andureid](../../../../../translated_images/telemetry.21e5d8b97649d2eb.et.png)
 
 Termostaadil on temperatuuriandurid telemeetria kogumiseks. Tõenäoliselt on sellel üks sisseehitatud temperatuuriandur ja see võib ühenduda mitme välise temperatuurianduriga traadita protokolli, näiteks [Bluetooth Low Energy](https://wikipedia.org/wiki/Bluetooth_Low_Energy) (BLE), kaudu.
 
@@ -268,11 +268,11 @@ Kirjuta serveri kood.
 
 1. Kui VS Code käivitub, aktiveerib see Pythoni virtuaalse keskkonna. Seda näidatakse alumises olekuribal:
 
-    ![VS Code näitab valitud virtuaalset keskkonda](../../../../../translated_images/vscode-virtual-env.8ba42e04c3d533cf677e16cbe5ed9a3b80f62c6964472dc84b6f940800f0909f.et.png)
+    ![VS Code näitab valitud virtuaalset keskkonda](../../../../../translated_images/vscode-virtual-env.8ba42e04c3d533cf.et.png)
 
 1. Kui VS Code Terminal on juba käimas, kui VS Code käivitub, siis virtuaalne keskkond ei ole seal aktiveeritud. Lihtsaim viis on terminal sulgeda, kasutades **Kill the active terminal instance** nuppu:
 
-    ![VS Code Kill the active terminal instance nupp](../../../../../translated_images/vscode-kill-terminal.1cc4de7c6f25ee08f423f0ead714e61d069fac1eb2089e97b8a7bbcb3d45fe5e.et.png)
+    ![VS Code Kill the active terminal instance nupp](../../../../../translated_images/vscode-kill-terminal.1cc4de7c6f25ee08.et.png)
 
 1. Käivita uus VS Code Terminal, valides *Terminal -> New Terminal* või vajutades `` CTRL+` ``. Uus terminal laadib virtuaalse keskkonna, aktiveerimiskäsk ilmub terminalis. Virtuaalse keskkonna nimi (`.venv`) ilmub ka käsurea promptis:
 

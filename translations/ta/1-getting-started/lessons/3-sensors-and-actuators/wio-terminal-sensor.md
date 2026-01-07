@@ -17,7 +17,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 ஒளி சென்சார் Wio Terminal இல் உள்ளடக்கப்பட்டுள்ளது மற்றும் பின்புறத்தில் உள்ள தெளிவான பிளாஸ்டிக் சாளரத்தின் வழியாக காணக்கூடியது.
 
-![Wio Terminal இன் பின்புறத்தில் உள்ள ஒளி சென்சார்](../../../../../translated_images/wio-light-sensor.b1f529f3c95f51654f2e2c1d2d4b55fe547d189f588c974f5c2462c728133840.ta.png)
+![Wio Terminal இன் பின்புறத்தில் உள்ள ஒளி சென்சார்](../../../../../translated_images/wio-light-sensor.b1f529f3c95f5165.ta.png)
 
 ## ஒளி சென்சாரை நிரலாக்கவும்
 

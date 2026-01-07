@@ -115,7 +115,7 @@ For di prototype, you go implement all dis for one device. If you dey use microc
 
 Di IoT device need trigger to show when fruit don ready to classify. One trigger fit be to measure when di fruit dey di correct location for conveyor belt by measuring di distance to sensor.
 
-![Proximity sensors send laser beams to objects like bananas and time how long till the beam is bounced back](../../../../../translated_images/proximity-sensor.f5cd752c77fb62fea000156233b32fd24fad3707ec69b8bdd8d312b7af85156d.pcm.png)
+![Proximity sensors send laser beams to objects like bananas and time how long till the beam is bounced back](../../../../../translated_images/proximity-sensor.f5cd752c77fb62fe.pcm.png)
 
 Proximity sensors fit dey used to measure di distance from sensor to object. Dem dey usually send beam of electromagnetic radiation like laser beam or infra-red light, then detect di radiation wey bounce off object. Di time wey e take for di laser beam to send and di signal to bounce back fit dey used to calculate di distance to di sensor.
 

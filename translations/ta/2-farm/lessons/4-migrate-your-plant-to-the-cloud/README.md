@@ -72,7 +72,7 @@ IoT சாதனம் பொதுவான MQTT ப்ரோக்கருட
 
 Azure என்பது மைக்ரோசாஃப்ட் நிறுவனத்தின் டெவலப்பர் கிளவுட் ஆகும், மேலும் இந்த பாடங்களில் நீங்கள் பயன்படுத்தப்போகும் கிளவுட் இதுவே. கீழே உள்ள வீடியோ Azure பற்றிய ஒரு சுருக்கமான பார்வையை வழங்குகிறது:
 
-[![Azure பற்றிய சுருக்கமான வீடியோ](../../../../../translated_images/what-is-azure-video-thumbnail.20174db09e03bbb87d213f928d3cb27410305d2e567e952827de8478dbda959b.ta.png)](https://www.microsoft.com/videoplayer/embed/RE4Ibng?WT.mc_id=academic-17441-jabenn)
+[![Azure பற்றிய சுருக்கமான வீடியோ](../../../../../translated_images/what-is-azure-video-thumbnail.20174db09e03bbb8.ta.png)](https://www.microsoft.com/videoplayer/embed/RE4Ibng?WT.mc_id=academic-17441-jabenn)
 
 ## கிளவுட் சந்தாதாரத்தை உருவாக்கவும்
 

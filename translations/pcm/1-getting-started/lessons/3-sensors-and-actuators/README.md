@@ -75,7 +75,7 @@ Di basic sensors na analog sensors. Dem dey receive voltage from di IoT device, 
 
 One example na potentiometer. Dis na dial wey you fit turn between two positions and di sensor go measure di rotation.
 
-![A potentiometer set to mid point wey dem send 5 volts return 3.8 volts](../../../../../translated_images/potentiometer.35a348b9ce22f6ec1199ad37d68692d04185456ccbc2541a454bb6698be9f19c.pcm.png)
+![A potentiometer set to mid point wey dem send 5 volts return 3.8 volts](../../../../../translated_images/potentiometer.35a348b9ce22f6ec.pcm.png)
 
 Di IoT device go send electrical signal to di potentiometer wit voltage, like 5 volts (5V). As you dey adjust di potentiometer, e go change di voltage wey dey come out. Imagine say di potentiometer get dial wey dey go from 0 to [11](https://wikipedia.org/wiki/Up_to_eleven), like volume knob for amplifier. When di potentiometer dey full off position (0), 0V (0 volts) go come out. When e dey full on position (11), 5V (5 volts) go come out.
 
@@ -112,7 +112,7 @@ Pins for IoT devices like GPIO pins fit measure dis signal directly as 0 or 1. I
 
 More advanced digital sensors dey read analog values, then dem dey change am wit ADC wey dey inside dem to digital signal. For example, digital temperature sensor go still use thermocouple like analog sensor, and e go still measure di change for voltage wey di thermocouple resistance dey cause for di current temperature. Instead of returning analog value and relying on di device or connector board to change am to digital signal, ADC wey dey inside di sensor go change di value and send am as 0s and 1s to di IoT device. Dis 0s and 1s dey send di same way as di digital signal for button wit 1 being full voltage and 0 being 0v.
 
-![A digital temperature sensor dey change analog reading to binary data wit 0 as 0 volts and 1 as 5 volts before e send am to IoT device](../../../../../translated_images/temperature-as-digital.85004491b977bae1129707df107c0b19fe6fc6374210e9027e04acb34a640c78.pcm.png)
+![A digital temperature sensor dey change analog reading to binary data wit 0 as 0 volts and 1 as 5 volts before e send am to IoT device](../../../../../translated_images/temperature-as-digital.85004491b977bae1.pcm.png)
 
 Sending digital data dey allow sensors to dey more complex and send more detailed data, even encrypted data for secure sensors. One example na camera. Dis na sensor wey dey capture image and send am as digital data wey get di image, usually for compressed format like JPEG, to di IoT device. E fit even stream video by capturing images and sending di complete image frame by frame or compressed video stream.
 
@@ -164,7 +164,7 @@ For example, you fit use PWM to control motor speed.
 
 Imagine say you dey control motor wey dey use 5V supply. You send short pulse to your motor, switch the voltage to high (5V) for two hundredths of a second (0.02s). For that time, your motor fit turn one tenth of a rotation, or 36°. The signal go pause for two hundredths of a second (0.02s), send low signal (0V). Each cycle of on then off go last 0.04s. The cycle go repeat.
 
-![Pule width modulation rotation of a motor at 150 RPM](../../../../../translated_images/pwm-motor-150rpm.83347ac04ca38482bd120939b133803963c9c15ca9d8d484712a4bd92820f6a4.pcm.png)
+![Pule width modulation rotation of a motor at 150 RPM](../../../../../translated_images/pwm-motor-150rpm.83347ac04ca38482.pcm.png)
 
 This mean say for one second, you go get 25 5V pulses of 0.02s wey go turn the motor, each one go follow 0.02s pause of 0V wey no go turn the motor. Each pulse go turn the motor one tenth of a rotation, meaning the motor go complete 2.5 rotations per second. You don use digital signal to turn the motor at 2.5 rotations per second, or 150 [revolutions per minute](https://wikipedia.org/wiki/Revolutions_per_minute) (na non-standard measure of rotational velocity).
 
@@ -175,7 +175,7 @@ This mean say for one second, you go get 25 5V pulses of 0.02s wey go turn the m
 
 > 🎓 When PWM signal dey on for half the time, and off for half, dem dey call am [50% duty cycle](https://wikipedia.org/wiki/Duty_cycle). Duty cycles na percentage time wey signal dey on compared to off.
 
-![Pule width modulation rotation of a motor at 75 RPM](../../../../../translated_images/pwm-motor-75rpm.a5e4c939934b6e14fd9e98e4f2c9539d723da2b18f490eae0948dd044d18ff7e.pcm.png)
+![Pule width modulation rotation of a motor at 75 RPM](../../../../../translated_images/pwm-motor-75rpm.a5e4c939934b6e14.pcm.png)
 
 You fit change motor speed by changing the size of the pulses. For example, with the same motor, you fit keep the same cycle time of 0.04s, with the on pulse cut to 0.01s, and the off pulse increase to 0.03s. You go still get the same number of pulses per second (25), but each on pulse go short. Short pulse go only turn the motor one twentieth of a rotation, and at 25 pulses per second, the motor go complete 1.25 rotations per second or 75rpm. By changing the pulse speed of digital signal, you don reduce the speed of analog motor by half.
 

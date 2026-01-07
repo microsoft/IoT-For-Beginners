@@ -55,11 +55,11 @@ Relay na electromechanical switch wey dey change electrical signal to mechanical
 
 > 🎓 [Electromagnets](https://wikipedia.org/wiki/Electromagnet) na magnets wey dem dey create by passing electricity through coil of wire. When electricity dey on, di coil go magnetize. When electricity dey off, di coil go lose di magnetism.
 
-![When on, the electromagnet creates a magnetic field, turning on the switch for the output circuit](../../../../../translated_images/relay-on.4db16a0fd6b669262fd6699aff3fbcd31b6057c06d90411b6bddc06326d1cf75.pcm.png)
+![When on, the electromagnet creates a magnetic field, turning on the switch for the output circuit](../../../../../translated_images/relay-on.4db16a0fd6b66926.pcm.png)
 
 For relay, control circuit dey power di electromagnet. When di electromagnet dey on, e go pull lever wey go move switch, close di contacts and complete di output circuit.
 
-![When off, the electromagnet doesn't create a magnetic field, turning off the switch for the output circuit](../../../../../translated_images/relay-off.c34a178a2960fecdc3c6400d43e633ed11c6746cd653cfb4a768fa097c40394c.pcm.png)
+![When off, the electromagnet doesn't create a magnetic field, turning off the switch for the output circuit](../../../../../translated_images/relay-off.c34a178a2960fecd.pcm.png)
 
 When di control circuit dey off, di electromagnet go off, release di lever and open di contacts, turn off di output circuit. Relays na digital actuators - high signal to di relay go turn am on, low signal go turn am off.
 
@@ -85,7 +85,7 @@ Di electromagnet no need plenty power to activate and pull di lever, e fit dey c
 
 Di image above dey show Grove relay. Di control circuit dey connect to IoT device and dey turn di relay on or off using 3.3V or 5V. Di output circuit get two terminals, any one fit be power or ground. Di output circuit fit handle up to 250V at 10A, enough for plenty mains-powered devices. You fit get relays wey fit handle even higher power levels.
 
-![A pump wired through a relay](../../../../../translated_images/pump-wired-to-relay.66c5cfc0d89189900cd601777f5caeb39ee35c6250f6c86bf38feaceedb21fe9.pcm.png)
+![A pump wired through a relay](../../../../../translated_images/pump-wired-to-relay.66c5cfc0d8918990.pcm.png)
 
 For di image above, power dey supply to pump through relay. Red wire dey connect di +5V terminal of USB power supply to one terminal of di output circuit of di relay, and another red wire dey connect di other terminal of di output circuit to di pump. Black wire dey connect di pump to di ground for di USB power supply. When di relay turn on, e go complete di circuit, send 5V to di pump, turn di pump on.
 
@@ -137,7 +137,7 @@ If you do di last lesson on soil moisture using physical sensor, you go notice s
 
 > 💁 If you water too close to di sensor you fit see say di reading drop quick, then e go come back up - dis na because di water wey dey near di sensor dey spread throughout di rest of di soil, reduce di soil moisture by di sensor.
 
-![A soil moisture measurement of 658 doesn't change during watering, it only drops to 320 after watering when water has soaked through the soil](../../../../../translated_images/soil-moisture-travel.a0e31af222cf14385de5380dfc32c7b8213960965228b8e4f7b7ab7f73b310a3.pcm.png)
+![A soil moisture measurement of 658 doesn't change during watering, it only drops to 320 after watering when water has soaked through the soil](../../../../../translated_images/soil-moisture-travel.a0e31af222cf1438.pcm.png)
 
 For di diagram above, soil moisture reading dey show 658. Di plant dey water, but dis reading no dey change immediately, as di water never reach di sensor. Watering fit even finish before di water reach di sensor and di value drop to show di new moisture level.
 
@@ -158,11 +158,11 @@ How long the relay go dey on each time? E better make you dey careful and just t
 
 💁 This kind timing control na something wey depend on the IoT device wey you dey build, the property wey you dey measure and the sensors plus actuators wey you dey use.
 
-![Strawberry plant wey connect to water through pump, the pump connect to relay. The relay and soil moisture sensor for the plant dey connect to Raspberry Pi](../../../../../translated_images/strawberry-with-pump.b410fc72ac6aabad3e28de9775bf2393ead73dcfec6fd8c9bc01cf107ecd171a.pcm.png)
+![Strawberry plant wey connect to water through pump, the pump connect to relay. The relay and soil moisture sensor for the plant dey connect to Raspberry Pi](../../../../../translated_images/strawberry-with-pump.b410fc72ac6aabad.pcm.png)
 
 For example, I get strawberry plant wey get soil moisture sensor and pump wey relay dey control. I don observe say when I add water, e dey take like 20 seconds before the soil moisture reading go balance. This mean say I need to turn the relay off and wait 20 seconds before I check the moisture level. I go prefer make water no too plenty than make e too much - I fit always turn the pump on again, but I no fit remove water from the plant.
 
-![Step 1, take measurement. Step 2, add water. Step 3, wait make water soak enter the soil. Step 4, take measurement again](../../../../../translated_images/soil-moisture-delay.865f3fae206db01d5f8f100f4f44040215d44a0412dd3450aef7ff7b93b6d273.pcm.png)
+![Step 1, take measurement. Step 2, add water. Step 3, wait make water soak enter the soil. Step 4, take measurement again](../../../../../translated_images/soil-moisture-delay.865f3fae206db01d.pcm.png)
 
 This mean say the best process go be watering cycle wey be like this:
 

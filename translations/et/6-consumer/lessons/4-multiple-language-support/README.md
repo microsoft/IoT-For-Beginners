@@ -130,7 +130,7 @@ Selle õppetunni jaoks vajate Translator ressurssi. Kasutate REST API-d teksti t
 
 Ideaalis peaks teie kogu rakendus mõistma võimalikult palju erinevaid keeli, alates kõne kuulamisest kuni keele mõistmiseni ja vastamiseni kõnega. See on palju tööd, seega tõlketeenused võivad kiirendada rakenduse valmimise aega.
 
-![Nutika taimeri arhitektuur, mis tõlgib jaapani keelt inglise keelde, töötleb inglise keeles ja tõlgib tagasi jaapani keelde](../../../../../translated_images/translated-smart-timer.08ac20057fdc5c3778ed41cb425dca5d7fbcd4584b6da7b73ca67115a5b8a883.et.png)
+![Nutika taimeri arhitektuur, mis tõlgib jaapani keelt inglise keelde, töötleb inglise keeles ja tõlgib tagasi jaapani keelde](../../../../../translated_images/translated-smart-timer.08ac20057fdc5c37.et.png)
 
 Kujutage ette, et ehitate nutikat taimerit, mis kasutab inglise keelt algusest lõpuni, mõistes räägitud inglise keelt ja teisendades selle tekstiks, töötades keele mõistmisega inglise keeles, koostades vastuseid inglise keeles ja vastates inglise kõnega. Kui soovite lisada jaapani keele toe, võite alustada jaapani keele kõne tõlkimisest inglise keele tekstiks, hoida rakenduse tuuma samana ja seejärel tõlkida vastuse teksti jaapani keelde enne vastuse kõneks muutmist. See võimaldaks teil kiiresti lisada jaapani keele toe ja hiljem laiendada täieliku jaapani keele toe pakkumiseks.
 

@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 [Wio Terminal Seeed Studiosilt](https://www.seeedstudio.com/Wio-Terminal-p-4509.html) on Arduino-ühilduv mikrokontroller, millel on sisseehitatud WiFi, mõned sensorid ja aktuaatorid ning pordid, et lisada rohkem sensoreid ja aktuaatoreid, kasutades riistvara ökosüsteemi nimega [Grove](https://www.seeedstudio.com/category/Grove-c-1003.html).
 
-![Seeed Studios Wio Terminal](../../../../../translated_images/wio-terminal.b8299ee16587db9aa9e05fabf9721bccd9eb8fb541b7c1a8267241282d81b603.et.png)
+![Seeed Studios Wio Terminal](../../../../../translated_images/wio-terminal.b8299ee16587db9a.et.png)
 
 ## Seadistamine
 
@@ -51,15 +51,15 @@ Loo PlatformIO projekt.
 
 1. PlatformIO ikoon on külgmenüüs:
 
-    ![PlatformIO menüüvalik](../../../../../translated_images/vscode-platformio-menu.297be26b9733e5c4635d9d8e636e93fed2015809eafb7cc8fd409c37b3ef2ef5.et.png)
+    ![PlatformIO menüüvalik](../../../../../translated_images/vscode-platformio-menu.297be26b9733e5c4.et.png)
 
     Vali see menüüvalik, seejärel vali *PIO Home -> Open*
 
-    ![PlatformIO avamise valik](../../../../../translated_images/vscode-platformio-home-open.3f9a41bfd3f4da1c866ec3e69f1675faa30b823b5b58ab58ac88e5df9a85da19.et.png)
+    ![PlatformIO avamise valik](../../../../../translated_images/vscode-platformio-home-open.3f9a41bfd3f4da1c.et.png)
 
 1. Tervitusekraanil vali **+ New Project** nupp
 
-    ![Uue projekti nupp](../../../../../translated_images/vscode-platformio-welcome-new-button.ba6fc8a4c7b78cc822e1ce47ba29c5db96668cce7c5f4adbfd2f1196422baa26.et.png)
+    ![Uue projekti nupp](../../../../../translated_images/vscode-platformio-welcome-new-button.ba6fc8a4c7b78cc8.et.png)
 
 1. Konfigureeri projekt *Project Wizard*is:
 
@@ -73,7 +73,7 @@ Loo PlatformIO projekt.
 
     1. Vali **Finish** nupp
 
-    ![Valmis projektiviisard](../../../../../translated_images/vscode-platformio-nightlight-project-wizard.5c64db4da6037420827c2597507897233457210ee23975711fa2285efdcd0dc7.et.png)
+    ![Valmis projektiviisard](../../../../../translated_images/vscode-platformio-nightlight-project-wizard.5c64db4da6037420.et.png)
 
     PlatformIO laadib alla komponendid, mida on vaja Wio Terminali koodi kompileerimiseks, ja loob teie projekti. See võib võtta paar minutit.
 
@@ -179,7 +179,7 @@ Kirjuta Tere Maailm rakendus.
 
     1. Sisestage `PlatformIO Upload`, et otsida üleslaadimise valikut, ja valige *PlatformIO: Upload*
 
-        ![PlatformIO üleslaadimise valik käsupaletis](../../../../../translated_images/vscode-platformio-upload-command-palette.9e0f49cf80d1f1c3eb5c6689b8705ad8b89f0374b21698e996fec11e4ed09347.et.png)
+        ![PlatformIO üleslaadimise valik käsupaletis](../../../../../translated_images/vscode-platformio-upload-command-palette.9e0f49cf80d1f1c3.et.png)
 
         PlatformIO koostab koodi automaatselt, kui vaja, enne üleslaadimist.
 
@@ -195,7 +195,7 @@ PlatformIO-l on Serial Monitor, mis võimaldab jälgida USB-kaabli kaudu Wio Ter
 
 1. Sisestage `PlatformIO Serial`, et otsida Serial Monitori valikut, ja valige *PlatformIO: Serial Monitor*
 
-    ![PlatformIO Serial Monitori valik käsupaletis](../../../../../translated_images/vscode-platformio-serial-monitor-command-palette.b348ec841b8a1c14af503d6fc0bf73c657c79c9acc12a6b6dd485ce3b5826f48.et.png)
+    ![PlatformIO Serial Monitori valik käsupaletis](../../../../../translated_images/vscode-platformio-serial-monitor-command-palette.b348ec841b8a1c14.et.png)
 
     Avaneb uus terminal ja jadapordi kaudu saadetud andmed kuvatakse selles terminalis:
 

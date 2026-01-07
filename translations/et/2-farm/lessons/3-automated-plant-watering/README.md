@@ -55,11 +55,11 @@ Relee on elektromehhaaniline lüliti, mis muudab elektrilise signaali mehaanilis
 
 > 🎓 [Elektromagnetid](https://wikipedia.org/wiki/Electromagnet) on magnetid, mis luuakse elektri juhtimisega läbi traadi mähise. Kui elekter on sisse lülitatud, muutub mähis magnetiliseks. Kui elekter on välja lülitatud, kaotab mähis oma magnetismi.
 
-![Kui relee on sisse lülitatud, loob elektromagnet magnetvälja, mis lülitab väljundvooluringi sisse](../../../../../translated_images/relay-on.4db16a0fd6b669262fd6699aff3fbcd31b6057c06d90411b6bddc06326d1cf75.et.png)
+![Kui relee on sisse lülitatud, loob elektromagnet magnetvälja, mis lülitab väljundvooluringi sisse](../../../../../translated_images/relay-on.4db16a0fd6b66926.et.png)
 
 Relees juhib juhtimisahel elektromagneti. Kui elektromagnet on sisse lülitatud, tõmbab see kangi, mis liigutab lülitit, sulgedes kontaktid ja lõpetades väljundvooluringi.
 
-![Kui relee on välja lülitatud, ei loo elektromagnet magnetvälja, mis lülitab väljundvooluringi välja](../../../../../translated_images/relay-off.c34a178a2960fecdc3c6400d43e633ed11c6746cd653cfb4a768fa097c40394c.et.png)
+![Kui relee on välja lülitatud, ei loo elektromagnet magnetvälja, mis lülitab väljundvooluringi välja](../../../../../translated_images/relay-off.c34a178a2960fecd.et.png)
 
 Kui juhtimisahel on välja lülitatud, lülitub elektromagnet välja, vabastades kangi ja avades kontaktid, lülitades väljundvooluringi välja. Releed on digitaalsed aktuaatorid – kõrge signaal lülitab relee sisse, madal signaal lülitab selle välja.
 
@@ -85,7 +85,7 @@ Elektromagnet ei vaja palju energiat, et aktiveeruda ja kangi tõmmata, seda saa
 
 Ülaltoodud pildil on Grove relee. Juhtimisahel ühendub IoT-seadmega ja lülitab relee sisse või välja, kasutades 3.3V või 5V. Väljundvooluringil on kaks terminali, millest kumbki võib olla toide või maandus. Väljundvooluring suudab käsitleda kuni 250V pinget ja 10A voolu, mis on piisav mitmesuguste koduvõrgu seadmete jaoks. Saadaval on releed, mis suudavad käsitleda veelgi kõrgemaid energiatasemeid.
 
-![Pump ühendatud relee kaudu](../../../../../translated_images/pump-wired-to-relay.66c5cfc0d89189900cd601777f5caeb39ee35c6250f6c86bf38feaceedb21fe9.et.png)
+![Pump ühendatud relee kaudu](../../../../../translated_images/pump-wired-to-relay.66c5cfc0d8918990.et.png)
 
 Ülaltoodud pildil tarnitakse pumpa relee kaudu. Punane juhe ühendab USB toiteallika +5V terminali relee väljundvooluringi ühe terminaliga ja teine punane juhe ühendab väljundvooluringi teise terminali pumbaga. Must juhe ühendab pumba USB toiteallika maandusega. Kui relee lülitub sisse, lõpetab see vooluringi, saates pumbale 5V ja lülitades pumba sisse.
 
@@ -137,7 +137,7 @@ Kui tegite eelmise õppetunni mulla niiskuse kohta füüsilise sensoriga, märka
 
 > 💁 Kui kastsite sensori lähedal, võisite näha, et näit langes kiiresti ja siis tõusis tagasi – see on põhjustatud vee levimisest sensori lähedalt ülejäänud mulda, vähendades sensori juures mulla niiskust.
 
-![Mulla niiskuse mõõtmine 658 ei muutu kastmise ajal, langeb alles pärast kastmist, kui vesi on imbunud läbi mulla](../../../../../translated_images/soil-moisture-travel.a0e31af222cf14385de5380dfc32c7b8213960965228b8e4f7b7ab7f73b310a3.et.png)
+![Mulla niiskuse mõõtmine 658 ei muutu kastmise ajal, langeb alles pärast kastmist, kui vesi on imbunud läbi mulla](../../../../../translated_images/soil-moisture-travel.a0e31af222cf1438.et.png)
 
 Ülaltoodud diagrammil näitab mulla niiskuse näit 658. Taim kastetakse, kuid see näit ei muutu kohe, kuna vesi pole veel sensorini jõudnud. Kastmine võib isegi lõppeda enne, kui vesi jõuab sensorini ja väärtus langeb, kajastades uut niiskustaset.
 
@@ -158,11 +158,11 @@ Kui kaua peaks relee iga kord sees olema? Parem on olla ettevaatlik ja lülitada
 
 > 💁 Selline ajastuse kontroll on väga spetsiifiline IoT-seadme, mõõdetava omaduse ning kasutatavate sensorite ja aktuaatorite jaoks.
 
-![Maasikataim, mis on ühendatud veepumbaga, pump on ühendatud releega. Relee ja pinnase niiskuse sensor on mõlemad ühendatud Raspberry Pi-ga](../../../../../translated_images/strawberry-with-pump.b410fc72ac6aabad3e28de9775bf2393ead73dcfec6fd8c9bc01cf107ecd171a.et.png)
+![Maasikataim, mis on ühendatud veepumbaga, pump on ühendatud releega. Relee ja pinnase niiskuse sensor on mõlemad ühendatud Raspberry Pi-ga](../../../../../translated_images/strawberry-with-pump.b410fc72ac6aabad.et.png)
 
 Näiteks mul on maasikataim, millel on pinnase niiskuse sensor ja pump, mida juhib relee. Olen täheldanud, et kui vett lisada, kulub umbes 20 sekundit, enne kui pinnase niiskuse näit stabiliseerub. See tähendab, et pean relee välja lülitama ja ootama 20 sekundit enne niiskustaseme kontrollimist. Pigem liiga vähe vett kui liiga palju – pumpa saab alati uuesti sisse lülitada, kuid taimest vett välja võtta ei saa.
 
-![1. samm: mõõda väärtus. 2. samm: lisa vett. 3. samm: oota, kuni vesi imbub pinnasesse. 4. samm: mõõda uuesti](../../../../../translated_images/soil-moisture-delay.865f3fae206db01d5f8f100f4f44040215d44a0412dd3450aef7ff7b93b6d273.et.png)
+![1. samm: mõõda väärtus. 2. samm: lisa vett. 3. samm: oota, kuni vesi imbub pinnasesse. 4. samm: mõõda uuesti](../../../../../translated_images/soil-moisture-delay.865f3fae206db01d.et.png)
 
 See tähendab, et parim protsess oleks niisutustsükkel, mis näeb välja umbes selline:
 

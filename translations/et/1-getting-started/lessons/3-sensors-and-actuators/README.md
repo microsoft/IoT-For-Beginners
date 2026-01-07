@@ -75,7 +75,7 @@ Mõned kõige lihtsamad sensorid on analoogsensorid. Need sensorid saavad IoT-se
 
 Üks näide on potentsiomeeter. See on nupp, mida saab pöörata kahe positsiooni vahel ja sensor mõõdab pööramist.
 
-![Potentsiomeeter, mis on seatud keskmisele punktile, saades 5 volti ja tagastades 3,8 volti](../../../../../translated_images/potentiometer.35a348b9ce22f6ec1199ad37d68692d04185456ccbc2541a454bb6698be9f19c.et.png)
+![Potentsiomeeter, mis on seatud keskmisele punktile, saades 5 volti ja tagastades 3,8 volti](../../../../../translated_images/potentiometer.35a348b9ce22f6ec.et.png)
 
 IoT-seade saadab potentsiomeetrile elektrisignaali teatud pingega, näiteks 5 volti (5V). Kui potentsiomeetrit reguleeritakse, muutub pinge, mis teiselt poolt välja tuleb. Kujutage ette, et teil on potentsiomeeter, millel on skaala 0-st [11-ni](https://wikipedia.org/wiki/Up_to_eleven), näiteks helitugevuse nupp võimendil. Kui potentsiomeeter on täielikult välja lülitatud asendis (0), siis tuleb välja 0V (0 volti). Kui see on täielikult sisse lülitatud asendis (11), siis tuleb välja 5V (5 volti).
 
@@ -112,7 +112,7 @@ IoT-seadme GPIO-pinnid võivad seda signaali otse mõõta kui 0 või 1. Kui saad
 
 Rohkem arenenud digitaalsed sensorid loevad analoogväärtusi ja seejärel teisendavad need sisseehitatud ADC-de abil digitaalseks signaaliks. Näiteks digitaalne temperatuuriandur kasutab endiselt termopaari samamoodi nagu analoogsensor ja mõõdab endiselt pingemuutust, mis on põhjustatud termopaari takistusest praegusel temperatuuril. Selle asemel, et tagastada analoogväärtus ja tugineda seadmele või ühendusplaadile, et see digitaalseks signaaliks teisendada, teisendab sensorisse sisseehitatud ADC väärtuse ja saadab selle IoT-seadmele 0-de ja 1-de jadana. Need 0-d ja 1-d saadetakse samamoodi nagu nupu digitaalne signaal, kus 1 on täispinge ja 0 on 0V.
 
-![Digitaalne temperatuuriandur, mis teisendab analooglugemise binaarandmeteks, kus 0 on 0 volti ja 1 on 5 volti, enne kui see IoT-seadmele saadetakse](../../../../../translated_images/temperature-as-digital.85004491b977bae1129707df107c0b19fe6fc6374210e9027e04acb34a640c78.et.png)
+![Digitaalne temperatuuriandur, mis teisendab analooglugemise binaarandmeteks, kus 0 on 0 volti ja 1 on 5 volti, enne kui see IoT-seadmele saadetakse](../../../../../translated_images/temperature-as-digital.85004491b977bae1.et.png)
 
 Digitaalandmete saatmine võimaldab sensoritel muutuda keerukamaks ja edastada üksikasjalikumaid andmeid, isegi krüpteeritud andmeid turvaliste sensorite jaoks. Üks näide on kaamera. See on sensor, mis jäädvustab pildi ja saadab selle digitaalandmetena, mis sisaldavad seda pilti, tavaliselt tihendatud vormingus nagu JPEG, et IoT-seade saaks seda lugeda. Kaamera võib isegi videot voogesitada, jäädvustades pilte ja saates kas täieliku pildiraami kaadri kaupa või tihendatud videovoogu.
 
@@ -164,7 +164,7 @@ Näiteks saab PWM-i kasutada mootori kiiruse reguleerimiseks.
 
 Kujutage ette, et juhite mootorit 5V toiteallikaga. Saadate mootorile lühikese impulsi, lülitades pinge kõrgeks (5V) kahe sajandiku sekundi (0,02s) jooksul. Selle aja jooksul suudab mootor pöörata ühe kümnendiku pöördest ehk 36°. Seejärel signaal peatub kahe sajandiku sekundi (0,02s) jooksul, saates madala signaali (0V). Iga tsükkel sisse ja välja kestab 0,04s. Tsükkel kordub.
 
-![Impulsi laiuse modulatsioon mootori pöörlemine kiirusel 150 RPM](../../../../../translated_images/pwm-motor-150rpm.83347ac04ca38482bd120939b133803963c9c15ca9d8d484712a4bd92820f6a4.et.png)
+![Impulsi laiuse modulatsioon mootori pöörlemine kiirusel 150 RPM](../../../../../translated_images/pwm-motor-150rpm.83347ac04ca38482.et.png)
 
 See tähendab, et ühe sekundi jooksul saadate 25 5V impulssi, mis kestavad 0,02s ja pööravad mootorit, millele järgneb 0,02s paus 0V-ga, kus mootor ei pöörle. Iga impulss pöörab mootorit ühe kümnendiku pöördest, mis tähendab, et mootor teeb 2,5 pöördet sekundis. Olete kasutanud digitaalset signaali, et pöörata mootorit kiirusel 2,5 pöördet sekundis ehk 150 [pööret minutis](https://wikipedia.org/wiki/Revolutions_per_minute) (mittestandardne pöörlemiskiiruse mõõtühik).
 
@@ -175,7 +175,7 @@ See tähendab, et ühe sekundi jooksul saadate 25 5V impulssi, mis kestavad 0,02
   
 > 🎓 Kui PWM-signaal on poole ajast sees ja poole ajast väljas, nimetatakse seda [50% töötsükliks](https://wikipedia.org/wiki/Duty_cycle). Töötsüklit mõõdetakse protsendina ajast, mil signaal on seesolekus võrreldes väljasolekuga.
 
-![Impulsi laiuse modulatsioon mootori pöörlemine kiirusel 75 RPM](../../../../../translated_images/pwm-motor-75rpm.a5e4c939934b6e14fd9e98e4f2c9539d723da2b18f490eae0948dd044d18ff7e.et.png)
+![Impulsi laiuse modulatsioon mootori pöörlemine kiirusel 75 RPM](../../../../../translated_images/pwm-motor-75rpm.a5e4c939934b6e14.et.png)
 
 Mootori kiirust saab muuta impulsside suurust muutes. Näiteks sama mootori puhul saate hoida tsükli aja samana (0,04s), kuid vähendada sisse lülitatud impulssi poole võrra (0,01s) ja suurendada väljalülitatud impulssi (0,03s). Teil on sama arv impulsse sekundis (25), kuid iga sisse lülitatud impulss on poole lühem. Pool pikkusega impulss pöörab mootorit ühe kahekümnendiku pöördest ja 25 impulsi sekundis teeb mootor 1,25 pöördet sekundis ehk 75 pööret minutis. Muutes digitaalse signaali impulsi kiirust, olete analoogmootori kiiruse poole võrra vähendanud.
 

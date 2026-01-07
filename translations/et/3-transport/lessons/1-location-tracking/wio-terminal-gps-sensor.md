@@ -33,7 +33,7 @@ Grove GPS-sensorit saab ühendada Wio Terminaliga.
 
 1. Kui Wio Terminal on arvutist või muust toiteallikast lahti ühendatud, ühendage Grove-kaabli teine ots Wio Terminali vasakpoolse Grove-pistikuga, vaadates ekraani. See pistik asub toitenupu lähedal.
 
-    ![Grove GPS-sensor ühendatud vasakpoolse pistikuga](../../../../../translated_images/wio-gps-sensor.19fd52b81ce58095d5deb3d4e5a1fdd88818d76569b00b1f0d740c92dc986525.et.png)
+    ![Grove GPS-sensor ühendatud vasakpoolse pistikuga](../../../../../translated_images/wio-gps-sensor.19fd52b81ce58095.et.png)
 
 1. Asetage GPS-sensor nii, et kinnitatud antennil oleks nähtavus taeva suunas - ideaalis avatud akna lähedal või väljas. Selgem signaal on kergemini saadav, kui antenni ees pole takistusi.
 

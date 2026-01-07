@@ -110,7 +110,7 @@ Iga polügooni punkt määratletakse pikkus- ja laiuskraadi paarina massiivis ni
 
 Polügooni koordinaatide massiivis on alati üks kirje rohkem kui polügooni punktide arv, kus viimane kirje on sama mis esimene, sulgedes polügooni. Näiteks ristküliku puhul oleks 5 punkti.
 
-![Ristkülik koos koordinaatidega](../../../../../translated_images/polygon-points.302193da381cb415f46c2c7a98496ee4be05d6c73d21238a89721ad93e121233.et.png)
+![Ristkülik koos koordinaatidega](../../../../../translated_images/polygon-points.302193da381cb415.et.png)
 
 Ülaloleval pildil on ristkülik. Polügooni koordinaadid algavad vasakult ülevalt 47,-122, liiguvad paremale 47,-121, siis alla 46,-121, siis vasakule 46,-122 ja lõpuks tagasi alguspunkti 47,-122. See annab polügoonile 5 punkti - vasak ülemine, parem ülemine, parem alumine, vasak alumine ja vasak ülemine, et see sulgeda.
 
@@ -208,7 +208,7 @@ Selle päringu tegemisel saate edastada ka väärtuse nimega `searchBuffer`. See
 
 Kui API-päringust tagastatakse tulemused, on üks osa tulemusest `distance`, mis mõõdetakse geopiirde serva lähima punktini, positiivse väärtusega, kui punkt on geopiirde väljas, ja negatiivsega, kui see on sees. Kui see kaugus on väiksem kui otsingupuhver, tagastatakse tegelik kaugus meetrites, vastasel juhul on väärtus 999 või -999. 999 tähendab, et punkt on geopiirde väljas rohkem kui otsingupuhvri võrra, -999 tähendab, et see on geopiirde sees rohkem kui otsingupuhvri võrra.
 
-![Geopiire koos 50m otsingupuhvriga](../../../../../translated_images/search-buffer-and-distance.e6a79af3898183c7b2ef6fbf12271b8b34afd23969bb946962b1b18d3d2635e8.et.png)
+![Geopiire koos 50m otsingupuhvriga](../../../../../translated_images/search-buffer-and-distance.e6a79af3898183c7.et.png)
 
 Ülaloleval pildil on geopiire koos 50m otsingupuhvriga.
 

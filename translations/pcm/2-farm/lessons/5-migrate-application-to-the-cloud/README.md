@@ -41,7 +41,7 @@ Serverless, or serverless computing, na di way wey you go fit create small code 
 
 > 💁 If you don use database triggers before, you fit think am like di same thing, code wey dey triggered by event like inserting row.
 
-![When plenty events dey happen at di same time, di serverless service go scale up to run all di events at di same time](../../../../../translated_images/serverless-scaling.f8c769adf0413fd17be1af4f07ff63016b347e2ff869be6c4abb211f9e93909d.pcm.png)
+![When plenty events dey happen at di same time, di serverless service go scale up to run all di events at di same time](../../../../../translated_images/serverless-scaling.f8c769adf0413fd1.pcm.png)
 
 Your code go only run when di event happen, e no dey alive for other times. Di event go happen, your code go load and run. Dis make serverless dey scalable - if plenty events happen at di same time, di cloud provider fit run your function as many times as you need am for di same time across di servers wey dem get. Di downside be say if you need to share information between events, you go need save am somewhere like database instead of memory.
 
@@ -246,7 +246,7 @@ VS Code go sabi your Functions project and go show one notification wey talk:
     VS Code. Initialize for optimal use with VS Code?
     ```
 
-![The notification](../../../../../translated_images/vscode-azure-functions-init-notification.bd19b49229963edb5311fb3a79445ea469424759d2917ee2f2eb6f92d65d5086.pcm.png)
+![The notification](../../../../../translated_images/vscode-azure-functions-init-notification.bd19b49229963edb.pcm.png)
 
 Choose **Yes** for dis notification.
 

@@ -66,7 +66,7 @@ Databases na services wey dey allow you store and query data. Database dey come 
 
 Di first databases na Relational Database Management Systems (RDBMS), or relational database. Dem dey also call am SQL databases because of di Structured Query Language (SQL) wey dem dey use to add, remove, update or query data. Dis database get schema - one well-defined set of tables of data, like spreadsheet. Each table get plenty named columns. When you insert data, you dey add one row to di table, put values inside each of di columns. Dis dey keep di data for very rigid structure - even though you fit leave columns empty, if you wan add new column, you go need do am for di database, populate values for di existing rows. Dis databases dey relational - one table fit get relationship to another.
 
-![A relational database with the ID of the User table relating to the user ID column of the purchases table, and the ID of the products table relating to the product ID of the purchases table](../../../../../translated_images/sql-database.be160f12bfccefd3ca718a66468c2c4c89c53e5aad4c295324d576da87f9dfdd.pcm.png)
+![A relational database with the ID of the User table relating to the user ID column of the purchases table, and the ID of the products table relating to the product ID of the purchases table](../../../../../translated_images/sql-database.be160f12bfccefd3.pcm.png)
 
 For example, if you store one user personal details for one table, you go get one kind internal unique ID per user wey dey used for one row for table wey get di user name and address. If you wan store other details about di user, like di purchases, for another table, you go get one column for di new table for di user ID. When you look up one user, you fit use di ID to get di personal details from one table, and di purchases from another.
 
@@ -242,7 +242,7 @@ Your function app now need to connect to blob storage to store di messages from 
 
 For dis lesson, you go use di Python SDK to see how to interact with blob storage.
 
-![How GPS telemetry dey move from IoT device to IoT Hub, then to Azure Functions via event hub trigger, then save am to blob storage](../../../../../translated_images/save-telemetry-to-storage-from-functions.ed3b1820980097f143d9f0570072da11304c2bc7906359dfa075b4d9b253c20f.pcm.png)
+![How GPS telemetry dey move from IoT device to IoT Hub, then to Azure Functions via event hub trigger, then save am to blob storage](../../../../../translated_images/save-telemetry-to-storage-from-functions.ed3b1820980097f1.pcm.png)
 
 Di data go dey save as JSON blob with dis format:
 

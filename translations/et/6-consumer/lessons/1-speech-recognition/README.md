@@ -64,7 +64,7 @@ Mikrofonid on saadaval mitmesugustes tüüpides:
 
 * Lintmikrofonid - Lintmikrofonid on sarnased dünaamiliste mikrofonidega, kuid neil on membraani asemel metalllint. See lint liigub magnetväljas, tekitades elektrivoolu. Nagu dünaamilised mikrofonid, ei vaja lintmikrofonid töötamiseks voolu.
 
-    ![Edmund Lowe, Ameerika näitleja, seisab raadiomikrofoni (märgistatud (NBC) Blue Network) juures, hoides käsikirja, 1942](../../../../../translated_images/ribbon-mic.eacc8e092c7441caee6d7a81e2f40e1675bf36269848964c7c09c9a9acb05127.et.jpg)
+    ![Edmund Lowe, Ameerika näitleja, seisab raadiomikrofoni (märgistatud (NBC) Blue Network) juures, hoides käsikirja, 1942](../../../../../translated_images/ribbon-mic.eacc8e092c7441ca.et.jpg)
 
 * Kondensaator - Kondensaator mikrofonidel on õhuke metallmembraan ja fikseeritud metallist tagaplaat. Elektrit rakendatakse mõlemale ja kui membraan vibreerib, muutub plaatide vaheline staatiline laeng, tekitades signaali. Kondensaator mikrofonid vajavad töötamiseks voolu – seda nimetatakse *fantoomtoiteks*.
 
@@ -84,7 +84,7 @@ Heli on analoogsignaal, mis kannab väga peeneteralist teavet. Selle signaali di
 
 > 🎓 Proovimine tähendab heli signaali muutmist digitaalseks väärtuseks, mis esindab signaali antud ajahetkel.
 
-![Joonis, mis näitab signaali koos fikseeritud intervallidega diskreetsete punktidega](../../../../../translated_images/sampling.6f4fadb3f2d9dfe7618f9edfe75a350e6b3f74293ec84f02ab69c19d2afe3d73.et.png)
+![Joonis, mis näitab signaali koos fikseeritud intervallidega diskreetsete punktidega](../../../../../translated_images/sampling.6f4fadb3f2d9dfe7.et.png)
 
 Digitaalset heli proovitakse impulsskoodmodulatsiooni ehk PCM-i abil. PCM hõlmab signaali pinge lugemist ja selle pinge lähima diskreetse väärtuse valimist määratletud suuruse järgi.
 

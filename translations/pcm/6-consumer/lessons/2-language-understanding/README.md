@@ -126,7 +126,7 @@ After you define di entities, you go create intents. Di model go learn di intent
 
 You go then tell LUIS which part of di sentences dey map to di entities:
 
-![The sentence set a timer for 1 minute and 12 seconds broken into entities](../../../../../translated_images/sentence-as-intent-entities.301401696f9922590a99343f5c5d211b710b906f212f0d4d034cee3ffb610272.pcm.png)
+![The sentence set a timer for 1 minute and 12 seconds broken into entities](../../../../../translated_images/sentence-as-intent-entities.301401696f992259.pcm.png)
 
 Di sentence `set a timer for 1 minute and 12 seconds` get di intent of `set timer`. E also get 2 entities with 2 values each:
 
