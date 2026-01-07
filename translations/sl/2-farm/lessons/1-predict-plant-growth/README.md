@@ -65,7 +65,7 @@ Vsaka vrsta rastline ima različne vrednosti za osnovno, optimalno in maksimalno
 
 ✅ Raziskujte. Za rastline, ki jih imate na vrtu, v šoli ali lokalnem parku, preverite, ali lahko najdete osnovno temperaturo.
 
-![Graf, ki prikazuje stopnjo rasti, ki se povečuje z naraščanjem temperature, nato pa upada, ko temperatura postane previsoka](../../../../../translated_images/plant-growth-temp-graph.c6d69c9478e6ca832baa8dcb8d4adcbb67304074ce50e94ac8faae95975177f9.sl.png)
+![Graf, ki prikazuje stopnjo rasti, ki se povečuje z naraščanjem temperature, nato pa upada, ko temperatura postane previsoka](../../../../../translated_images/plant-growth-temp-graph.c6d69c9478e6ca83.sl.png)
 
 Zgornji graf prikazuje primer grafa stopnje rasti glede na temperaturo. Do osnovne temperature ni rasti. Stopnja rasti se povečuje do optimalne temperature, nato pa upada po doseganju vrha. 
 
@@ -141,7 +141,7 @@ To ima velik vpliv na delo na velikih kmetijah in tveganje, da kmet zamudi pride
 
 Z zbiranjem podatkov o temperaturi z uporabo IoT naprave lahko kmet samodejno prejme obvestilo, ko so rastline blizu zrelosti. Tipična arhitektura za to je, da IoT naprave merijo temperaturo, nato pa te podatke o telemetriji objavijo prek interneta z uporabo nečesa, kot je MQTT. Strežniška koda nato posluša te podatke in jih shrani nekam, na primer v bazo podatkov. To pomeni, da se podatki lahko analizirajo kasneje, na primer nočno opravilo za izračun GDD za dan, seštevanje GDD za vsak pridelek doslej in opozarjanje, če je rastlina blizu zrelosti.
 
-![Podatki o telemetriji se pošljejo na strežnik in nato shranijo v bazo podatkov](../../../../../translated_images/save-telemetry-database.ddc9c6bea0c5ba39449966a463ca6748cd8e2d565dab44ff31c9f1d2f6c21d27.sl.png)
+![Podatki o telemetriji se pošljejo na strežnik in nato shranijo v bazo podatkov](../../../../../translated_images/save-telemetry-database.ddc9c6bea0c5ba39.sl.png)
 
 Strežniška koda lahko podatke tudi dopolni z dodatnimi informacijami. Na primer, IoT naprava lahko objavi identifikator, ki označuje, katera naprava je, strežniška koda pa lahko to uporabi za iskanje lokacije naprave in katere pridelke spremlja. Prav tako lahko doda osnovne podatke, kot je trenutni čas, saj nekatere IoT naprave nimajo potrebne strojne opreme za natančno spremljanje časa ali zahtevajo dodatno kodo za branje trenutnega časa prek interneta.
 
@@ -228,7 +228,7 @@ Ta koda odpre datoteko CSV in na koncu doda novo vrstico. Vrstica vsebuje trenut
 
     
 > 💁 Če uporabljate virtualno IoT napravo, izberite naključni potrditveni okvir in nastavite razpon, da se izognete vedno enaki temperaturi, ko se vrne vrednost temperature.
-    ![Izberite naključni potrditveni okvir in nastavite razpon](../../../../../translated_images/select-the-random-checkbox-and-set-a-range.32cf4bc7c12e797f8c76616b10c7c23a6592321bb1a6310e0b481e72f97d23b3.sl.png) 
+    ![Izberite naključni potrditveni okvir in nastavite razpon](../../../../../translated_images/select-the-random-checkbox-and-set-a-range.32cf4bc7c12e797f.sl.png) 
 
     > 💁 Če želite to izvajati cel dan, morate poskrbeti, da računalnik, na katerem se izvaja vaša strežniška koda, ne bo prešel v stanje spanja, bodisi s spremembo nastavitev porabe energije ali z uporabo nečesa, kot je [ta Python skripta za ohranjanje sistema aktivnega](https://github.com/jaqsparow/keep-system-active).
     

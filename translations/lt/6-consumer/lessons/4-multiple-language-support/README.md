@@ -130,7 +130,7 @@ Pavyzdžiui, verčiant sakinį „Aš turiu Raspberry Pi“, nurodant vieno plok
 
 Idealiame pasaulyje visa jūsų programa turėtų suprasti kuo daugiau skirtingų kalbų – nuo kalbos klausymo iki kalbos supratimo ir atsakymo kalba. Tai reikalauja daug darbo, todėl vertimo paslaugos gali pagreitinti jūsų programos pristatymo laiką.
 
-![Išmaniojo laikmačio architektūra, verčianti japonų kalbą į anglų, apdorojanti anglų kalba, o tada verčianti atgal į japonų](../../../../../translated_images/translated-smart-timer.08ac20057fdc5c3778ed41cb425dca5d7fbcd4584b6da7b73ca67115a5b8a883.lt.png)
+![Išmaniojo laikmačio architektūra, verčianti japonų kalbą į anglų, apdorojanti anglų kalba, o tada verčianti atgal į japonų](../../../../../translated_images/translated-smart-timer.08ac20057fdc5c37.lt.png)
 
 Įsivaizduokite, kad kuriate išmanųjį laikmatį, kuris naudoja anglų kalbą nuo pradžios iki pabaigos, supranta sakomą anglų kalbą ir paverčia ją tekstu, vykdo kalbos supratimą anglų kalba, kuria atsakymus anglų kalba ir atsako anglų kalbos kalba. Jei norėtumėte pridėti japonų kalbos palaikymą, galėtumėte pradėti nuo sakomos japonų kalbos vertimo į anglų tekstą, tada palikti pagrindinę programos dalį tokią pačią, o tada išversti atsakymo tekstą į japonų kalbą prieš sakant atsakymą. Tai leistų greitai pridėti japonų kalbos palaikymą, o vėliau galėtumėte išplėsti iki pilno japonų kalbos palaikymo nuo pradžios iki pabaigos.
 

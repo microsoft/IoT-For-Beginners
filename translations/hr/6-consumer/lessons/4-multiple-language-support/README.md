@@ -130,7 +130,7 @@ Za ovu lekciju trebat će vam resurs za prevoditelja. Koristit ćete REST API za
 
 U idealnom svijetu, cijela vaša aplikacija trebala bi razumjeti što više različitih jezika, od slušanja govora, do razumijevanja jezika, do odgovaranja govorom. Ovo je puno posla, pa usluge prevođenja mogu ubrzati vrijeme isporuke vaše aplikacije.
 
-![Arhitektura pametnog mjerača vremena koja prevodi japanski na engleski, obrađuje na engleskom, a zatim prevodi natrag na japanski](../../../../../translated_images/translated-smart-timer.08ac20057fdc5c3778ed41cb425dca5d7fbcd4584b6da7b73ca67115a5b8a883.hr.png)
+![Arhitektura pametnog mjerača vremena koja prevodi japanski na engleski, obrađuje na engleskom, a zatim prevodi natrag na japanski](../../../../../translated_images/translated-smart-timer.08ac20057fdc5c37.hr.png)
 
 Zamislite da gradite pametni mjerač vremena koji koristi engleski od početka do kraja, razumijevanje govornog engleskog i pretvaranje toga u tekst, provođenje razumijevanja jezika na engleskom, stvaranje odgovora na engleskom i odgovaranje engleskim govorom. Ako želite dodati podršku za japanski, mogli biste započeti s prevođenjem govornog japanskog u engleski tekst, zatim zadržati jezgru aplikacije istom, a zatim prevesti tekst odgovora na japanski prije nego što odgovorite govorom. Ovo bi vam omogućilo brzo dodavanje podrške za japanski, a kasnije možete proširiti na pružanje potpune podrške za japanski od početka do kraja.
 

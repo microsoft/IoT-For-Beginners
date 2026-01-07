@@ -13,7 +13,7 @@ Prognozių ir jų ribinių dėžių derinys gali būti naudojamas atsargoms skai
 
 ## Atsargų skaičiavimas
 
-![4 pomidorų pastos skardinės su ribinėmis dėžėmis aplink kiekvieną skardinę](../../../../../translated_images/rpi-stock-with-bounding-boxes.b5540e2ecb7cd49f1271828d3be412671d950e87625c5597ea97c90f11e01097.lt.jpg)
+![4 pomidorų pastos skardinės su ribinėmis dėžėmis aplink kiekvieną skardinę](../../../../../translated_images/rpi-stock-with-bounding-boxes.b5540e2ecb7cd49f.lt.jpg)
 
 Pateiktame paveikslėlyje ribinės dėžės šiek tiek persidengia. Jei šis persidengimas būtų daug didesnis, ribinės dėžės galėtų nurodyti tą patį objektą. Norint teisingai suskaičiuoti objektus, reikia ignoruoti dėžes su reikšmingu persidengimu.
 

@@ -33,7 +33,7 @@ Prijunkite temperatūros jutiklį.
 
 1. Kai Wio Terminal yra atjungtas nuo kompiuterio ar kito maitinimo šaltinio, prijunkite kitą Grove kabelio galą prie dešiniojo Grove lizdo Wio Terminal, žiūrint į ekraną. Tai yra lizdas, esantis toliausiai nuo maitinimo mygtuko.
 
-![Grove temperatūros jutiklis prijungtas prie dešiniojo lizdo](../../../../../translated_images/wio-temperature-sensor.2934928f38c7f79a68d24879d2c8986c78244696f931e2e33c293f426ecdc0ad.lt.png)
+![Grove temperatūros jutiklis prijungtas prie dešiniojo lizdo](../../../../../translated_images/wio-temperature-sensor.2934928f38c7f79a.lt.png)
 
 ## Programuokite temperatūros jutiklį
 

@@ -41,7 +41,7 @@ Serverless, သို့မဟုတ် serverless computing ဆိုသည်�
 
 > 💁 Database triggers ကို အသုံးပြုဖူးလျှင်၊ အဖြစ်အပျက်တစ်ခုဖြစ်ပေါ်သောအခါ code ကို run လုပ်ခြင်းအနေနှင့် ယင်းကို တူညီသည်ဟု ထင်နိုင်သည်။
 
-![အဖြစ်အပျက်များစွာ တစ်ချိန်တည်းတွင် ပို့သောအခါ serverless service သည် function များစွာကို run လုပ်ရန် scale up လုပ်သည်](../../../../../translated_images/serverless-scaling.f8c769adf0413fd17be1af4f07ff63016b347e2ff869be6c4abb211f9e93909d.my.png)
+![အဖြစ်အပျက်များစွာ တစ်ချိန်တည်းတွင် ပို့သောအခါ serverless service သည် function များစွာကို run လုပ်ရန် scale up လုပ်သည်](../../../../../translated_images/serverless-scaling.f8c769adf0413fd1.my.png)
 
 သင့် code သည် အဖြစ်အပျက်တစ်ခုဖြစ်ပေါ်သောအခါတွင်သာ run လုပ်ပြီး အခြားအချိန်များတွင် အသက်မရှိပါ။ အဖြစ်အပျက်ဖြစ်ပေါ်သောအခါ သင့် code ကို load လုပ်ပြီး run လုပ်သည်။ ဒီအရာသည် serverless ကို အလွန် scalable ဖြစ်စေသည် - အဖြစ်အပျက်များစွာ တစ်ချိန်တည်းတွင် ဖြစ်ပေါ်လျှင် cloud provider သည် သင့် function ကို လိုအပ်သလောက် server များတွင် run လုပ်နိုင်သည်။ သို့သော် အဖြစ်အပျက်များအကြား data ကို share လုပ်ရန်လိုအပ်ပါက memory တွင် သိမ်းဆည်းခြင်းမဟုတ်ဘဲ database တစ်ခုတွင် သိမ်းဆည်းရမည်ဖြစ်သည်။
 
@@ -213,7 +213,7 @@ Azure Functions CLI ကို အသုံးပြု၍ Functions app အသ�
     VS Code. Initialize for optimal use with VS Code?
     ```
 
-    ![အကြောင်းကြားချက်](../../../../../translated_images/vscode-azure-functions-init-notification.bd19b49229963edb5311fb3a79445ea469424759d2917ee2f2eb6f92d65d5086.my.png)
+    ![အကြောင်းကြားချက်](../../../../../translated_images/vscode-azure-functions-init-notification.bd19b49229963edb.my.png)
 
     ဤအကြောင်းကြားချက်မှ **Yes** ကို ရွေးချယ်ပါ။
 

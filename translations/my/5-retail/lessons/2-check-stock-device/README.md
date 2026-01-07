@@ -39,7 +39,7 @@ Object detectors များကို stock စစ်ဆေးရန် အသ�
 
 ဥပမာအားဖြင့် ကင်မရာတစ်ခုသည် 8 ကန်အထိ tomato paste ကို ထည့်နိုင်သော စင်တစ်ခုကို ဦးတည်ထားပြီး object detector သည် 7 ကန်သာ ရှာဖွေတွေ့ရှိခဲ့ပါက တစ်ခုပျောက်နေပြီး ပြန်လည်ဖြည့်ရန် လိုအပ်သည်။
 
-![စင်ပေါ်တွင် 7 ကန်ရှိသော tomato paste - အပေါ်တန်းတွင် 4, အောက်တွင် 3](../../../../../translated_images/stock-7-cans-tomato-paste.f86059cc573d7becaa89a0eafb9d2cd7e2fe37405a530fe565990e2333d0e4a1.my.png)
+![စင်ပေါ်တွင် 7 ကန်ရှိသော tomato paste - အပေါ်တန်းတွင် 4, အောက်တွင် 3](../../../../../translated_images/stock-7-cans-tomato-paste.f86059cc573d7bec.my.png)
 
 အထက်ပါပုံတွင် object detector သည် 8 ကန်ထည့်နိုင်သော စင်ပေါ်တွင် 7 ကန်ရှိသော tomato paste ကို ရှာဖွေတွေ့ရှိခဲ့သည်။ IoT device သည် stock ပြန်လည်ဖြည့်ရန် အချက်ပေးနိုင်သလို ပျောက်နေသော item ၏ တည်နေရာကိုလည်း ဖော်ပြနိုင်သည်။ ဒါသည် စင်များကို ပြန်လည်ဖြည့်ရန် robots အသုံးပြုနေပါက အရေးကြီးသော ဒေတာဖြစ်သည်။
 
@@ -51,7 +51,7 @@ Object detectors များကို stock စစ်ဆေးရန် အသ�
 
 Object detection ကို မမျှော်လင့်ထားသော item များကို ရှာဖွေဖော်ထုတ်ရန် အသုံးပြုနိုင်ပြီး item ကို ပြန်ထားရန် လူတစ်ဦး သို့မဟုတ် robot ကို အချက်ပေးနိုင်သည်။
 
-![Tomato paste စင်ပေါ်တွင် baby corn ကန်တစ်ခု](../../../../../translated_images/stock-rogue-corn.be1f3ada8c4578544641af66671c1711a4c02297f14cc7f503354dae0d30a954.my.png)
+![Tomato paste စင်ပေါ်တွင် baby corn ကန်တစ်ခု](../../../../../translated_images/stock-rogue-corn.be1f3ada8c457854.my.png)
 
 အထက်ပါပုံတွင် baby corn ကန်တစ်ခုသည် tomato paste အနီးတွင် စင်ပေါ်တွင်ထားရှိထားသည်။ Object detector သည် ဒါကို ရှာဖွေတွေ့ရှိပြီး IoT device သည် လူတစ်ဦး သို့မဟုတ် robot ကို အချက်ပေးနိုင်သည်။
 

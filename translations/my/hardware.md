@@ -21,7 +21,7 @@ IoT ရဲ့ **T** က **Things** ကိုဆိုလိုပြီး က�
 
 ## ကိရိယာများ ဝယ်ယူရန်
 
-![Seeed Studios ရဲ့ လိုဂို](../../translated_images/seeed-logo.74732b6b482b6e8e8bdcc06f0541fc92b1dabf5e3e8f37afb91e04393a8cb977.my.png)
+![Seeed Studios ရဲ့ လိုဂို](../../translated_images/seeed-logo.74732b6b482b6e8e.my.png)
 
 Seeed Studios က သင်ဝယ်ယူရလွယ်ကူစေဖို့ အားလုံးကို အစုံအလင်ဖြင့် စီစဉ်ပေးထားပါတယ်။
 
@@ -29,7 +29,7 @@ Seeed Studios က သင်ဝယ်ယူရလွယ်ကူစေဖို�
 
 **[Seeed နဲ့ Microsoft တို့မှ IoT စတင်သူများအတွက် - Wio Terminal Starter Kit](https://www.seeedstudio.com/IoT-for-beginners-with-Seeed-and-Microsoft-Wio-Terminal-Starter-Kit-p-5006.html)**
 
-[![Wio Terminal ဟာ့ဒ်ဝဲ ကိရိယာ](../../translated_images/wio-hardware-kit.4c70c48b85e4283a1d73e248d87d49587c0cd077eeb69cb3eca803166f63c9a5.my.png)](https://www.seeedstudio.com/IoT-for-beginners-with-Seeed-and-Microsoft-Wio-Terminal-Starter-Kit-p-5006.html)
+[![Wio Terminal ဟာ့ဒ်ဝဲ ကိရိယာ](../../translated_images/wio-hardware-kit.4c70c48b85e4283a.my.png)](https://www.seeedstudio.com/IoT-for-beginners-with-Seeed-and-Microsoft-Wio-Terminal-Starter-Kit-p-5006.html)
 
 ### Raspberry Pi
 

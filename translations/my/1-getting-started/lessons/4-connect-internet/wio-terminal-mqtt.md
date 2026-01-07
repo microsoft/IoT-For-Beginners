@@ -64,7 +64,7 @@ Wio Terminal ကို WiFi နှင့် ချိတ်ဆက်ပါ။
 
 1. `src` ဖိုလ်ဒါအတွင်း `config.h` ဟုခေါ်သော ဖိုင်အသစ်တစ်ခု ဖန်တီးပါ။ ၎င်းကို `src` ဖိုလ်ဒါကို ရွေးချယ်ခြင်းဖြင့် သို့မဟုတ် `main.cpp` ဖိုင်အတွင်းမှ **New file** ခလုတ်ကို ရွေးချယ်ခြင်းဖြင့် ပြုလုပ်နိုင်ပါသည်။ 
 
-    ![The new file button](../../../../../translated_images/vscode-new-file-button.182702340fe6723c8cbb4cfa1a9a9fb0d0a5227643b4e46b91ff67b07a39a92f.my.png)
+    ![The new file button](../../../../../translated_images/vscode-new-file-button.182702340fe6723c.my.png)
 
 1. WiFi အချက်အလက်များအတွက် constants များကို သတ်မှတ်ရန် အောက်ပါကုဒ်ကို ထည့်သွင်းပါ။
 

@@ -37,7 +37,7 @@ Per paskutines 2 pamokas išmokote, kaip paversti kalbą tekstu, o tada išgauti
 
 Teksto pavertimas kalba, kaip rodo pavadinimas, yra procesas, kai tekstas paverčiamas garsu, kuriame tekstas pateikiamas kaip ištarti žodžiai. Pagrindinis principas yra suskaidyti teksto žodžius į jų sudedamuosius garsus (vadinamus fonemomis) ir sujungti šių garsų garso įrašus, naudojant iš anksto įrašytą garsą arba AI modelių generuotą garsą.
 
-![Tipinių teksto pavertimo kalba sistemų trys etapai](../../../../../translated_images/tts-overview.193843cf3f5ee09f8b3371a9fdaeb0f116698a07ca69daaa77158da4800e5453.lt.png)
+![Tipinių teksto pavertimo kalba sistemų trys etapai](../../../../../translated_images/tts-overview.193843cf3f5ee09f.lt.png)
 
 Teksto pavertimo kalba sistemos paprastai turi 3 etapus:
 

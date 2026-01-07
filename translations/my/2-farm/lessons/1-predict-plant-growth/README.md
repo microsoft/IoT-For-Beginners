@@ -65,7 +65,7 @@ CO_OP_TRANSLATOR_METADATA:
 
     
 > 💁 Virtual IoT Device ကို အသုံးပြုနေပါက၊ random checkbox ကို ရွေးချယ်ပြီး အပူချိန်တန်ဖိုးတစ်ခုကို ပြန်ပေးစဉ် အမြဲတူညီသော အပူချိန်မရရှိစေရန် range တစ်ခုကို သတ်မှတ်ပါ။
-    ![random checkbox ကို ရွေးချယ်ပြီး range တစ်ခု သတ်မှတ်ပါ](../../../../../translated_images/select-the-random-checkbox-and-set-a-range.32cf4bc7c12e797f8c76616b10c7c23a6592321bb1a6310e0b481e72f97d23b3.my.png) 
+    ![random checkbox ကို ရွေးချယ်ပြီး range တစ်ခု သတ်မှတ်ပါ](../../../../../translated_images/select-the-random-checkbox-and-set-a-range.32cf4bc7c12e797f.my.png) 
 
     > 💁 တစ်နေ့လုံး run လုပ်လိုပါက၊ သင့် server code ရှိသော ကွန်ပျူတာသည် အိပ်မသွားစေရန် သို့မဟုတ် power settings ကို ပြောင်းလဲခြင်းဖြင့် သို့မဟုတ် [ဒီ keep system active Python script](https://github.com/jaqsparow/keep-system-active) ကဲ့သို့သော script တစ်ခုကို အသုံးပြုခြင်းဖြင့် စီမံပါ။
     

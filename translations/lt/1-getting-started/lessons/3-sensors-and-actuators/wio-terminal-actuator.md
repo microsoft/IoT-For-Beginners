@@ -51,7 +51,7 @@ Prijunkite LED.
 
     > 💁 Dešinysis Grove lizdas gali būti naudojamas su analoginiais arba skaitmeniniais jutikliais ir vykdykliais. Kairysis lizdas skirtas tik skaitmeniniams jutikliams ir vykdykliams. C bus aptarta vėlesnėje pamokoje.
 
-![Grove LED prijungtas prie dešiniojo lizdo](../../../../../translated_images/wio-led.265a1897e72d7f21c753257516a4b677d8e30ce2b95fee98189458b3275ba0a6.lt.png)
+![Grove LED prijungtas prie dešiniojo lizdo](../../../../../translated_images/wio-led.265a1897e72d7f21.lt.png)
 
 ## Užprogramuokite naktinę lemputę
 

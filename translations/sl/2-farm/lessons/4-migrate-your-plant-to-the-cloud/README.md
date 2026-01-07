@@ -72,7 +72,7 @@ Oblačni ponudnik lahko nato z ekonomijo obsega zniža stroške, kupuje računal
 
 Azure je razvijalski oblak podjetja Microsoft, in to je oblak, ki ga boste uporabljali v teh lekcijah. Spodnji video ponuja kratek pregled Azure:
 
-[![Pregled videa o Azure](../../../../../translated_images/what-is-azure-video-thumbnail.20174db09e03bbb87d213f928d3cb27410305d2e567e952827de8478dbda959b.sl.png)](https://www.microsoft.com/videoplayer/embed/RE4Ibng?WT.mc_id=academic-17441-jabenn)
+[![Pregled videa o Azure](../../../../../translated_images/what-is-azure-video-thumbnail.20174db09e03bbb8.sl.png)](https://www.microsoft.com/videoplayer/embed/RE4Ibng?WT.mc_id=academic-17441-jabenn)
 
 ## Ustvarite naročnino na oblak
 

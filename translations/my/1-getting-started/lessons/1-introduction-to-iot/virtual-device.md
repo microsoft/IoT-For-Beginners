@@ -154,11 +154,11 @@ Console တွင် `"Hello World"` ကို print လုပ်သော Pytho
 
 1. VS Code ကို launch လုပ်သောအခါ Python virtual environment ကို activate လုပ်ပါမည်။ Virtual environment ကို select လုပ်ထားသည်ကို အောက်ခြေ status bar တွင် တွေ့နိုင်ပါမည်:
 
-    ![VS Code showing the selected virtual environment](../../../../../translated_images/vscode-virtual-env.8ba42e04c3d533cf677e16cbe5ed9a3b80f62c6964472dc84b6f940800f0909f.my.png)
+    ![VS Code showing the selected virtual environment](../../../../../translated_images/vscode-virtual-env.8ba42e04c3d533cf.my.png)
 
 1. VS Code Terminal သည် VS Code စတင်လုပ်ဆောင်သောအခါ run လုပ်နေပါက virtual environment ကို activate လုပ်ထားမည်မဟုတ်ပါ။ Terminal ကို **Kill the active terminal instance** button ဖြင့် ပိတ်လိုက်ပါ:
 
-    ![VS Code Kill the active terminal instance button](../../../../../translated_images/vscode-kill-terminal.1cc4de7c6f25ee08f423f0ead714e61d069fac1eb2089e97b8a7bbcb3d45fe5e.my.png)
+    ![VS Code Kill the active terminal instance button](../../../../../translated_images/vscode-kill-terminal.1cc4de7c6f25ee08.my.png)
 
     Terminal prompt တွင် virtual environment ၏နာမည် `.venv` ဟု prefix အနေဖြင့်ပါဝင်ပါမည်။ ဥပမာ - prompt သည် အောက်ပါအတိုင်းဖြစ်နိုင်သည်:
 
@@ -229,7 +229,7 @@ Console တွင် `"Hello World"` ကို print လုပ်သော Pytho
 
 1. VS Code terminal အသစ်ကို **Create a new integrated terminal** button ကို select လုပ်ခြင်းဖြင့် launch လုပ်ပါ။ ဒါဟာ လက်ရှိ terminal တွင် CounterFit app run လုပ်နေသောကြောင့်ဖြစ်သည်။
 
-    ![VS Code Create a new integrated terminal button](../../../../../translated_images/vscode-new-terminal.77db8fc0f9cd31824b0e49a201beafe4ae4616d6c7339992cb2819e789b3eff9.my.png)
+    ![VS Code Create a new integrated terminal button](../../../../../translated_images/vscode-new-terminal.77db8fc0f9cd3182.my.png)
 
 1. Terminal အသစ်တွင် `app.py` file ကို အရင်ကအတိုင်း run လုပ်ပါ။ CounterFit ၏ status သည် **Connected** ဟုပြောင်းပြီး LED သည် အလင်းပေးပါမည်။
 

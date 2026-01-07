@@ -29,7 +29,7 @@ Prijunkite kamerą.
 
 1. ArduCam apačioje esantys kaiščiai turi būti prijungti prie GPIO kaiščių ant Wio Terminal. Kad būtų lengviau rasti tinkamus kaiščius, uždėkite GPIO kaiščių lipduką, kuris yra komplekte su Wio Terminal:
 
-    ![Wio Terminal su GPIO kaiščių lipduku](../../../../../translated_images/wio-terminal-pin-sticker.b90b1535937b84bd00d853f0004aea74fac2aec04b43f14b887796b2633f855e.lt.png)
+    ![Wio Terminal su GPIO kaiščių lipduku](../../../../../translated_images/wio-terminal-pin-sticker.b90b1535937b84bd.lt.png)
 
 1. Naudodami jungiamuosius laidus, atlikite šiuos sujungimus:
 
@@ -297,7 +297,7 @@ Dabar Wio Terminal galima užprogramuoti, kad užfiksuotų vaizdą, kai paspaud�
 
 1. Mikrovaldikliai vykdo jūsų kodą nuolat, todėl nėra lengva inicijuoti veiksmą, pvz., fotografavimą, nereaguojant į jutiklį. Wio Terminal turi mygtukus, todėl kamerą galima nustatyti taip, kad ją inicijuotų vienas iš mygtukų. Pridėkite šį kodą `setup` funkcijos pabaigoje, kad sukonfigūruotumėte C mygtuką (vieną iš trijų mygtukų viršuje, esantį arčiausiai maitinimo jungiklio).
 
-    ![C mygtukas viršuje, arčiausiai maitinimo jungiklio](../../../../../translated_images/wio-terminal-c-button.73df3cb1c1445ea07ee98316af0e7925fcb43135df0abed58d3d4822b2589c3b.lt.png)
+    ![C mygtukas viršuje, arčiausiai maitinimo jungiklio](../../../../../translated_images/wio-terminal-c-button.73df3cb1c1445ea0.lt.png)
 
     ```cpp
     pinMode(WIO_KEY_C, INPUT_PULLUP);

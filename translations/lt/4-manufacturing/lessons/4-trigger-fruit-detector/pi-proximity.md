@@ -35,7 +35,7 @@ Prijunkite Time of Flight jutiklį.
 
 1. Išjungus Raspberry Pi, prijunkite kitą Grove kabelio galą prie vienos iš I²C jungčių, pažymėtų **I²C**, esančių Grove Base hat, prijungto prie Pi. Šios jungtys yra apatinėje eilėje, priešingoje GPIO pinams ir šalia kameros kabelio lizdo.
 
-![Grove Time of Flight jutiklis prijungtas prie I²C jungties](../../../../../translated_images/pi-time-of-flight-sensor.58c8dc04eb3bfb57a7c3019f031433ef4d798d4d7603d565afbf6f3802840dba.lt.png)
+![Grove Time of Flight jutiklis prijungtas prie I²C jungties](../../../../../translated_images/pi-time-of-flight-sensor.58c8dc04eb3bfb57.lt.png)
 
 ## Programuokite Time of Flight jutiklį
 
@@ -106,7 +106,7 @@ Programuokite įrenginį.
 
     Atstumo matuoklis yra jutiklio gale, todėl matuodami atstumą naudokite tinkamą pusę.
 
-    ![Atstumo matuoklis Time of Flight jutiklio gale, nukreiptas į bananą](../../../../../translated_images/time-of-flight-banana.079921ad8b1496e4525dc26b4cdc71a076407aba3e72ba113ba2e38febae92c5.lt.png)
+    ![Atstumo matuoklis Time of Flight jutiklio gale, nukreiptas į bananą](../../../../../translated_images/time-of-flight-banana.079921ad8b1496e4.lt.png)
 
 > 💁 Šį kodą galite rasti [code-proximity/pi](../../../../../4-manufacturing/lessons/4-trigger-fruit-detector/code-proximity/pi) aplanke.
 

@@ -33,11 +33,11 @@ Povežite senzor za merjenje vlažnosti zemlje.
 
 1. Ko je Wio Terminal odklopljen od računalnika ali drugega vira napajanja, povežite drugi konec Grove kabla z desno Grove vtičnico na Wio Terminalu, gledano s sprednje strani zaslona. To je vtičnica, ki je najbolj oddaljena od gumba za vklop.
 
-![Grove senzor za merjenje vlažnosti zemlje povezan z desno vtičnico](../../../../../translated_images/wio-soil-moisture-sensor.46919b61c3f6cb7497662251b29038ee0e57a4c8b9d071feb996c3b0d7f65aaf.sl.png)
+![Grove senzor za merjenje vlažnosti zemlje povezan z desno vtičnico](../../../../../translated_images/wio-soil-moisture-sensor.46919b61c3f6cb74.sl.png)
 
 1. Vstavite senzor za merjenje vlažnosti zemlje v zemljo. Na senzorju je označena 'najvišja linija pozicije' - bela črta čez senzor. Senzor vstavite do te črte, vendar ne čez njo.
 
-![Grove senzor za merjenje vlažnosti zemlje v zemlji](../../../../../translated_images/soil-moisture-sensor-in-soil.bfad91002bda5e960f8c51ee64b02ee59b32c8c717e3515a2c945f33e614e403.sl.png)
+![Grove senzor za merjenje vlažnosti zemlje v zemlji](../../../../../translated_images/soil-moisture-sensor-in-soil.bfad91002bda5e96.sl.png)
 
 1. Zdaj lahko Wio Terminal povežete z računalnikom.
 

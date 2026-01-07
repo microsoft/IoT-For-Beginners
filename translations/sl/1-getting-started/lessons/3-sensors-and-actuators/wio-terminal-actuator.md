@@ -51,7 +51,7 @@ Povežite LED.
 
     > 💁 Desna Grove vtičnica se lahko uporablja z analognimi ali digitalnimi senzorji in aktuatorji. Leva vtičnica je namenjena samo I2C in digitalnim senzorjem ter aktuatorjem.
 
-![Grove LED povezan z desno vtičnico](../../../../../translated_images/wio-led.265a1897e72d7f21c753257516a4b677d8e30ce2b95fee98189458b3275ba0a6.sl.png)
+![Grove LED povezan z desno vtičnico](../../../../../translated_images/wio-led.265a1897e72d7f21.sl.png)
 
 ## Programirajte nočno lučko
 

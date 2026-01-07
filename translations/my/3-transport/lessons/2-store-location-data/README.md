@@ -66,7 +66,7 @@ Database ဆိုတာ ဒေတာကို သိမ်းဆည်းပြ
 
 ပထမဆုံး Database များသည် Relational Database Management Systems (RDBMS) သို့မဟုတ် Relational Database များဖြစ်သည်။ SQL Database များဟုလည်း သိထားကြသည်။ SQL Database များသည် Structured Query Language (SQL) ကို အသုံးပြုပြီး ဒေတာကို ထည့်သွင်း၊ ဖယ်ရှား၊ ပြင်ဆင် သို့မဟုတ် ရှာဖွေနိုင်သည်။ Database များတွင် schema - စာရင်းဇယားများနှင့် ဆက်နွယ်မှုများပါဝင်သော ဖွဲ့စည်းမှုတစ်ခုရှိသည်။ 
 
-![A relational database with the ID of the User table relating to the user ID column of the purchases table, and the ID of the products table relating to the product ID of the purchases table](../../../../../translated_images/sql-database.be160f12bfccefd3ca718a66468c2c4c89c53e5aad4c295324d576da87f9dfdd.my.png)
+![A relational database with the ID of the User table relating to the user ID column of the purchases table, and the ID of the products table relating to the product ID of the purchases table](../../../../../translated_images/sql-database.be160f12bfccefd3.my.png)
 
 ဥပမာအားဖြင့် သင်သည် အသုံးပြုသူ၏ ကိုယ်ရေးအချက်အလက်များကို စာရင်းဇယားတစ်ခုတွင် သိမ်းဆည်းလိုပါက အသုံးပြုသူတစ်ဦးစီအတွက် ထူးခြားသော ID တစ်ခုရှိပြီး အမည်နှင့် လိပ်စာတို့ပါဝင်သော စာရင်းဇယားတစ်ခုတွင် ထည့်သွင်းထားသည်။ သင်သည် အသုံးပြုသူ၏ ဝယ်ယူမှုများကို သိမ်းဆည်းလိုပါက အသစ်သော စာရင်းဇယားတွင် အသုံးပြုသူ၏ ID ကို ထည့်သွင်းထားသော ကော်လံတစ်ခုရှိသည်။ 
 
@@ -235,7 +235,7 @@ File storage သည် cloud တွင် file များကို သိမ�
 
 ဒီ lesson တွင် Python SDK ကို အသုံးပြု၍ blob storage နှင့် အလုပ်လုပ်ပုံကို လေ့လာမည်။
 
-![IoT device မှ GPS telemetry ကို IoT Hub သို့ ပို့ပြီး၊ Azure Functions မှ event hub trigger ဖြင့် blob storage တွင် သိမ်းဆည်းခြင်း](../../../../../translated_images/save-telemetry-to-storage-from-functions.ed3b1820980097f143d9f0570072da11304c2bc7906359dfa075b4d9b253c20f.my.png)
+![IoT device မှ GPS telemetry ကို IoT Hub သို့ ပို့ပြီး၊ Azure Functions မှ event hub trigger ဖြင့် blob storage တွင် သိမ်းဆည်းခြင်း](../../../../../translated_images/save-telemetry-to-storage-from-functions.ed3b1820980097f1.my.png)
 
 Data ကို JSON blob အဖြစ် သိမ်းဆည်းမည်၊ format သည် အောက်ပါအတိုင်းဖြစ်သည်-
 

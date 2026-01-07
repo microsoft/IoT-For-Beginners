@@ -118,7 +118,7 @@ Translator service သည် dedicated translation service ဖြစ်ပြီ
 
 အကောင်းဆုံးကမ္ဘာတစ်ခုတွင် သင့်အက်ပလီကေးရှင်းတစ်ခုလုံးသည် ဘာသာစကားများစွာကို နားလည်နိုင်စွမ်းရှိသင့်သည်။ speech ကို နားထောင်ခြင်းမှ language understanding, speech ဖြင့် ပြန်လည်တုံ့ပြန်ခြင်းအထိပါဝင်သည်။ translation services များသည် သင့်အက်ပလီကေးရှင်းကို အမြန်တိုးတက်စေပါသည်။
 
-![Smart timer architecture](../../../../../translated_images/translated-smart-timer.08ac20057fdc5c3778ed41cb425dca5d7fbcd4584b6da7b73ca67115a5b8a883.my.png)
+![Smart timer architecture](../../../../../translated_images/translated-smart-timer.08ac20057fdc5c37.my.png)
 
 ဥပမာအားဖြင့် သင်သည် အင်္ဂလိပ်ကို အခြေခံထားသော smart timer တစ်ခုကို တည်ဆောက်နေသည်ဟု ဆိုပါစို့။ အင်္ဂလိပ် speech ကို နားလည်ပြီး၊ အင်္ဂလိပ် text သို့ ပြောင်းပြီး၊ အင်္ဂလိပ် language understanding ကို run လုပ်ပြီး၊ အင်္ဂလိပ် speech ဖြင့် ပြန်လည်တုံ့ပြန်သည်။ ဂျပန်ဘာသာစကားကို ထည့်သွင်းလိုပါက၊ ဂျပန် speech ကို အင်္ဂလိပ် text သို့ ဘာသာပြန်ပြီး၊ အက်ပလီကေးရှင်း core ကို အတူတူထားပြီး၊ ပြန်လည်တုံ့ပြန်မှု text ကို ဂျပန်ဘာသာစကားသို့ ပြောင်းပြီး၊ speech ဖြင့် ပြန်လည်တုံ့ပြန်နိုင်သည်။
 

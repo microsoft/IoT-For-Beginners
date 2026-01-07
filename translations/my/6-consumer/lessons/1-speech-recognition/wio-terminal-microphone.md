@@ -15,11 +15,11 @@ CO_OP_TRANSLATOR_METADATA:
 
 Wio Terminal တွင် မိုက်ခရိုဖုန်းတစ်ခု ရှိပြီးသားဖြစ်ပြီး၊ ၎င်းကို အသံဖမ်းယူရန် အသုံးပြုနိုင်သည်။
 
-![Wio Terminal တွင်ရှိသော မိုက်ခရိုဖုန်း](../../../../../translated_images/wio-mic.3f8c843dbe8ad917424037a93e3d25c62634add00a04dd8e091317b5a7a90088.my.png)
+![Wio Terminal တွင်ရှိသော မိုက်ခရိုဖုန်း](../../../../../translated_images/wio-mic.3f8c843dbe8ad917.my.png)
 
 စပီကာတစ်ခု ထည့်သွင်းရန်၊ [ReSpeaker 2-Mics Pi Hat](https://www.seeedstudio.com/ReSpeaker-2-Mics-Pi-HAT.html) ကို အသုံးပြုနိုင်သည်။ ၎င်းသည် MEMS မိုက်ခရိုဖုန်း ၂ ခု၊ စပီကာ ချိတ်ဆက်ရာနှင့် နားကြပ်ဆက်တပ်ရာ ပါဝင်သော အပြင်ဘုတ်အဖွဲ့တစ်ခုဖြစ်သည်။
 
-![ReSpeaker 2-Mics Pi Hat](../../../../../translated_images/respeaker.f5d19d1c6b14ab1676d24ac2764e64fac5339046ae07be8b45ce07633d61b79b.my.png)
+![ReSpeaker 2-Mics Pi Hat](../../../../../translated_images/respeaker.f5d19d1c6b14ab16.my.png)
 
 သင်သည် နားကြပ်၊ 3.5mm ဂျက်ပါသော စပီကာ၊ သို့မဟုတ် [Mono Enclosed Speaker - 2W 6 Ohm](https://www.seeedstudio.com/Mono-Enclosed-Speaker-2W-6-Ohm-p-2832.html) ကဲ့သို့ JST ချိတ်ဆက်မှုပါသော စပီကာတစ်ခု ထည့်သွင်းရန် လိုအပ်ပါမည်။
 
@@ -35,7 +35,7 @@ ReSpeaker 2-Mics Pi Hat ကို ချိတ်ဆက်ရန် 40 pin-to-pi
 
     pin များကို အောက်ပါအတိုင်း ချိတ်ဆက်ရမည်။
 
-    ![pin diagram](../../../../../translated_images/wio-respeaker-wiring-0.767f80aa6508103880d256cdf99ee7219e190db257c7261e4aec219759dc67b9.my.png)
+    ![pin diagram](../../../../../translated_images/wio-respeaker-wiring-0.767f80aa65081038.my.png)
 
 1. ReSpeaker နှင့် Wio Terminal ကို GPIO sockets များ အပေါ်ဘက်ကို မျက်နှာမူထားပြီး၊ ဘယ်ဘက်ခြမ်းတွင်ထားပါ။
 
@@ -43,33 +43,33 @@ ReSpeaker 2-Mics Pi Hat ကို ချိတ်ဆက်ရန် 40 pin-to-pi
 
 1. ဘယ်ဘက်ခြမ်းရှိ GPIO sockets အပေါ်မှ အောက်သို့ တစ်ခုချင်းစီ ချိတ်ဆက်ပါ။ pin များကို ခိုင်ခိုင်မာမာ ထည့်ထားပါ။
 
-    ![ReSpeaker နှင့် Wio Terminal ရှိ ဘယ်ဘက် pin များကို ချိတ်ဆက်ထားသောပုံ](../../../../../translated_images/wio-respeaker-wiring-1.8d894727f2ba24004824ee5e06b83b6d10952550003a3efb603182121521b0ef.my.png)
+    ![ReSpeaker နှင့် Wio Terminal ရှိ ဘယ်ဘက် pin များကို ချိတ်ဆက်ထားသောပုံ](../../../../../translated_images/wio-respeaker-wiring-1.8d894727f2ba2400.my.png)
 
-    ![ReSpeaker နှင့် Wio Terminal ရှိ ဘယ်ဘက် pin များကို ချိတ်ဆက်ထားသောပုံ](../../../../../translated_images/wio-respeaker-wiring-2.329e1cbd306e754f8ffe56f9294794f4a8fa123860d76067a79e9ea385d1bf56.my.png)
+    ![ReSpeaker နှင့် Wio Terminal ရှိ ဘယ်ဘက် pin များကို ချိတ်ဆက်ထားသောပုံ](../../../../../translated_images/wio-respeaker-wiring-2.329e1cbd306e754f.my.png)
 
     > 💁 jumper cables များကို ribbon အဖြစ် ချိတ်ဆက်ထားပါက၊ အတူတူထားပါ - cables များကို အစီအစဉ်တကျ ချိတ်ဆက်ထားသည်ကို အတည်ပြုရန် လွယ်ကူစေသည်။
 
 1. ReSpeaker နှင့် Wio Terminal ရှိ ညာဘက် GPIO sockets များကို အသုံးပြု၍ အတူတူလုပ်ဆောင်ပါ။ ဤ cables များသည် ရှိပြီးသား cables များကို ပတ်သွားရမည်။
 
-    ![ReSpeaker နှင့် Wio Terminal ရှိ ညာဘက် pin များကို ချိတ်ဆက်ထားသောပုံ](../../../../../translated_images/wio-respeaker-wiring-3.75b0be447e2fa9307a6a954f9ae8a71b77e39ada6a5ef1a059d341dc850fd90c.my.png)
+    ![ReSpeaker နှင့် Wio Terminal ရှိ ညာဘက် pin များကို ချိတ်ဆက်ထားသောပုံ](../../../../../translated_images/wio-respeaker-wiring-3.75b0be447e2fa930.my.png)
 
-    ![ReSpeaker နှင့် Wio Terminal ရှိ ညာဘက် pin များကို ချိတ်ဆက်ထားသောပုံ](../../../../../translated_images/wio-respeaker-wiring-4.aa9cd434d8779437de720cba2719d83992413caed1b620b6148f6c8924889afb.my.png)
+    ![ReSpeaker နှင့် Wio Terminal ရှိ ညာဘက် pin များကို ချိတ်ဆက်ထားသောပုံ](../../../../../translated_images/wio-respeaker-wiring-4.aa9cd434d8779437.my.png)
 
     > 💁 jumper cables များကို ribbon အဖြစ် ချိတ်ဆက်ထားပါက၊ ribbon နှစ်ခုအဖြစ် ခွဲထားပါ။ ရှိပြီးသား cables များ၏ နှစ်ဖက်သို့ တစ်ခုစီ ပတ်သွားပါ။
 
     > 💁 pin များကို block အဖြစ် တစ်စုတစ်စည်းထားရန် sticky tape ကို အသုံးပြုနိုင်သည်။ cables များအားလုံး ချိတ်ဆက်နေစဉ် pin များ မထွက်စေရန် ကူညီပေးသည်။
     >
-    > ![sticky tape ဖြင့် pin များကို တစ်စုတစ်စည်းထားသောပုံ](../../../../../translated_images/wio-respeaker-wiring-5.af117c20acf622f3cd656ccd8f4053f8845d6aaa3af164d24cb7dbd54a4bb470.my.png)
+    > ![sticky tape ဖြင့် pin များကို တစ်စုတစ်စည်းထားသောပုံ](../../../../../translated_images/wio-respeaker-wiring-5.af117c20acf622f3.my.png)
 
 1. သင်သည် စပီကာတစ်ခု ထည့်သွင်းရန် လိုအပ်ပါမည်။
 
     * JST cable ပါသော စပီကာကို အသုံးပြုပါက၊ ReSpeaker ရှိ JST port သို့ ချိတ်ဆက်ပါ။
 
-      ![JST cable ဖြင့် ReSpeaker သို့ ချိတ်ဆက်ထားသော စပီကာ](../../../../../translated_images/respeaker-jst-speaker.a441d177809df9458041a2012dd336dbb22c00a5c9642647109d2940a50d6fcc.my.png)
+      ![JST cable ဖြင့် ReSpeaker သို့ ချိတ်ဆက်ထားသော စပီကာ](../../../../../translated_images/respeaker-jst-speaker.a441d177809df945.my.png)
 
     * 3.5mm ဂျက်ပါသော စပီကာ သို့မဟုတ် နားကြပ်ကို အသုံးပြုပါက၊ 3.5mm ဂျက် socket သို့ ထည့်ပါ။
 
-      ![3.5mm ဂျက် socket ဖြင့် ReSpeaker သို့ ချိတ်ဆက်ထားသော စပီကာ](../../../../../translated_images/respeaker-35mm-speaker.ad79ef4f128c7751f0abf854869b6b779c90c12ae3e48909944a7e48aeee3c7e.my.png)
+      ![3.5mm ဂျက် socket ဖြင့် ReSpeaker သို့ ချိတ်ဆက်ထားသော စပီကာ](../../../../../translated_images/respeaker-35mm-speaker.ad79ef4f128c7751.my.png)
 
 ### အလုပ် - SD ကတ်ကို ပြင်ဆင်ခြင်း
 
@@ -79,7 +79,7 @@ ReSpeaker 2-Mics Pi Hat ကို ချိတ်ဆက်ရန် 40 pin-to-pi
 
 1. SD ကတ်ကို Wio Terminal ရှိ power button အောက်ဘက်၊ ဘယ်ဘက်ခြမ်းရှိ SD ကတ် slot ထဲသို့ ထည့်ပါ။ SD ကတ်ကို အပြည့်အဝ push လုပ်ပြီး click ဖြစ်အောင် ထည့်ရမည် - သင်သည် tool သို့မဟုတ် အခြား SD ကတ်တစ်ခုကို အသုံးပြု၍ push လုပ်ရန် လိုအပ်နိုင်သည်။
 
-    ![SD ကတ်ကို power switch အောက်ရှိ SD ကတ် slot ထဲသို့ ထည့်နေသောပုံ](../../../../../translated_images/wio-sd-card.acdcbe322fa4ee7f8f9c8cc015b3263964bb26ab5c7e25b41747988cc5280d64.my.png)
+    ![SD ကတ်ကို power switch အောက်ရှိ SD ကတ် slot ထဲသို့ ထည့်နေသောပုံ](../../../../../translated_images/wio-sd-card.acdcbe322fa4ee7f.my.png)
 
     > 💁 SD ကတ်ကို ထုတ်ရန်၊ အနည်းငယ် push လုပ်ရမည်၊ ထုတ်လွှတ်မည်။ flat-head screwdriver သို့မဟုတ် အခြား SD ကတ်ကဲ့သို့ tool တစ်ခုလိုအပ်နိုင်သည်။
 

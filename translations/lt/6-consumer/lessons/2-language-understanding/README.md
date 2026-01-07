@@ -126,7 +126,7 @@ Kai esybės yra apibrėžtos, sukuriate ketinimus. Jie yra išmokomi modelio rem
 
 Tada nurodote LUIS, kurios sakinio dalys atitinka esybes:
 
-![Sakinys „nustatyk laikmatį 1 minutei ir 12 sekundžių“ suskaidytas į esybes](../../../../../translated_images/sentence-as-intent-entities.301401696f9922590a99343f5c5d211b710b906f212f0d4d034cee3ffb610272.lt.png)
+![Sakinys „nustatyk laikmatį 1 minutei ir 12 sekundžių“ suskaidytas į esybes](../../../../../translated_images/sentence-as-intent-entities.301401696f992259.lt.png)
 
 Sakinys `nustatyk laikmatį 1 minutei ir 12 sekundžių` turi ketinimą `nustatyti laikmatį`. Jame taip pat yra 2 esybės su 2 reikšmėmis kiekviena:
 

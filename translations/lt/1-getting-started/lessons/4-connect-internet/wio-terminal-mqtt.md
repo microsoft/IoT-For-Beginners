@@ -64,7 +64,7 @@ Prijunkite Wio Terminal prie WiFi.
 
 1. Sukurkite naują failą `src` aplanke, pavadintą `config.h`. Tai galite padaryti pasirinkę `src` aplanką arba `main.cpp` failą viduje ir paspaudę **Naujo failo** mygtuką naršyklėje. Šis mygtukas pasirodo tik tada, kai jūsų žymeklis yra virš naršyklės.
 
-    ![Naujo failo mygtukas](../../../../../translated_images/vscode-new-file-button.182702340fe6723c8cbb4cfa1a9a9fb0d0a5227643b4e46b91ff67b07a39a92f.lt.png)
+    ![Naujo failo mygtukas](../../../../../translated_images/vscode-new-file-button.182702340fe6723c.lt.png)
 
 1. Pridėkite šį kodą į failą, kad apibrėžtumėte konstantas savo WiFi prisijungimo duomenims:
 

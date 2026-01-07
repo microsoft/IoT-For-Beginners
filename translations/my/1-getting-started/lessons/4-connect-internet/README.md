@@ -46,7 +46,7 @@ IoT စက်များသည် cloud မှ message များကိုလ
 
 IoT စက်များသည်အင်တာနက်နှင့်ဆက်သွယ်ရန်အသုံးပြုသော communication protocol များစွာရှိသည်။ အများဆုံးအသုံးပြုသော protocol များသည် publish/subscribe messaging ကို broker တစ်ခုခုမှတစ်ဆင့်အခြေခံထားသည်။ IoT စက်များသည် broker နှင့်ချိတ်ဆက်ပြီး telemetry ကို publish လုပ်ပြီး command များကို subscribe လုပ်သည်။ cloud service များသည် broker နှင့်ချိတ်ဆက်ပြီး telemetry message များအားလုံးကို subscribe လုပ်ပြီး command များကိုတစ်ခုတည်းသောစက်များ သို့မဟုတ် စက်အုပ်စုများသို့ publish လုပ်သည်။
 
-![IoT စက်များသည် broker နှင့်ချိတ်ဆက်ပြီး telemetry ကို publish လုပ်ပြီး command များကို subscribe လုပ်သည်။ Cloud service များသည် broker နှင့်ချိတ်ဆက်ပြီး telemetry message များအားလုံးကို subscribe လုပ်ပြီး command များကိုတိကျသောစက်များသို့ပို့သည်။](../../../../../translated_images/pub-sub.7c7ed43fe9fd15d4e1f81a3fd95440413c457acd9bcbe9a43341e30e88db5264.my.png)
+![IoT စက်များသည် broker နှင့်ချိတ်ဆက်ပြီး telemetry ကို publish လုပ်ပြီး command များကို subscribe လုပ်သည်။ Cloud service များသည် broker နှင့်ချိတ်ဆက်ပြီး telemetry message များအားလုံးကို subscribe လုပ်ပြီး command များကိုတိကျသောစက်များသို့ပို့သည်။](../../../../../translated_images/pub-sub.7c7ed43fe9fd15d4.my.png)
 
 MQTT သည် IoT စက်များအတွက်အများဆုံးအသုံးပြုသော communication protocol ဖြစ်ပြီး ဒီသင်ခန်းစာတွင်ဖော်ပြထားသည်။ အခြား protocol များတွင် AMQP နှင့် HTTP/HTTPS ပါဝင်သည်။
 
@@ -115,7 +115,7 @@ Telemetry ဆိုသောစကားလုံးသည် "ဝေးကွ�
 
 Lesson 1 မှ smart thermostat ၏ဥပမာကိုပြန်လည်ကြည့်ပါ။
 
-![အခန်း sensor များစွာကိုအသုံးပြုသော Internet ချိတ်ဆက်ထားသော thermostat](../../../../../translated_images/telemetry.21e5d8b97649d2ebeb0f68d4b9691ab2d1f7bd629338e131465aff8a614e4d4a.my.png)
+![အခန်း sensor များစွာကိုအသုံးပြုသော Internet ချိတ်ဆက်ထားသော thermostat](../../../../../translated_images/telemetry.21e5d8b97649d2eb.my.png)
 
 Thermostat တွင် temperature sensor များရှိပြီး telemetry ကိုစုဆောင်းသည်။ ၎င်းတွင် built-in temperature sensor တစ်ခုရှိနိုင်ပြီး wireless protocol တစ်ခုဖြစ်သော [Bluetooth Low Energy](https://wikipedia.org/wiki/Bluetooth_Low_Energy) (BLE) ကိုအသုံးပြု၍ external temperature sensor များစွာနှင့်ချိတ်ဆက်နိုင်သည်။
 
@@ -249,11 +249,11 @@ Server code ကိုရေးပါ။
 
 1. VS Code launch လုပ်တဲ့အခါ Python virtual environment ကို activate လုပ်ပါမယ်။ Status bar ရဲ့အောက်ခြေမှာပြပါမယ်:
 
-    ![VS Code showing the selected virtual environment](../../../../../translated_images/vscode-virtual-env.8ba42e04c3d533cf677e16cbe5ed9a3b80f62c6964472dc84b6f940800f0909f.my.png)
+    ![VS Code showing the selected virtual environment](../../../../../translated_images/vscode-virtual-env.8ba42e04c3d533cf.my.png)
 
 1. VS Code Terminal က already running ဖြစ်နေတဲ့အခါ virtual environment activate မဖြစ်နိုင်ပါဘူး။ Terminal ကို **Kill the active terminal instance** button ကိုအသုံးပြုပြီးပိတ်ပါ:
 
-    ![VS Code Kill the active terminal instance button](../../../../../translated_images/vscode-kill-terminal.1cc4de7c6f25ee08f423f0ead714e61d069fac1eb2089e97b8a7bbcb3d45fe5e.my.png)
+    ![VS Code Kill the active terminal instance button](../../../../../translated_images/vscode-kill-terminal.1cc4de7c6f25ee08.my.png)
 
 1. VS Code Terminal အသစ်ကို *Terminal -> New Terminal* ကိုရွေးချယ်ပါ သို့မဟုတ် `` CTRL+` `` ကိုနှိပ်ပါ။ Terminal အသစ်က virtual environment ကို load လုပ်ပါမယ်။ Prompt မှာ virtual environment (`.venv`) ရဲ့နာမည်ကိုလည်းပြပါမယ်:
 

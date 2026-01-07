@@ -64,7 +64,7 @@ Povežite Wio Terminal z WiFi.
 
 1. Ustvarite novo datoteko v mapi `src` z imenom `config.h`. To lahko storite tako, da izberete mapo `src` ali datoteko `main.cpp` znotraj nje in kliknete gumb **New file** v raziskovalcu. Ta gumb se prikaže le, ko je vaš kazalec nad raziskovalcem.
 
-    ![Gumb za novo datoteko](../../../../../translated_images/vscode-new-file-button.182702340fe6723c8cbb4cfa1a9a9fb0d0a5227643b4e46b91ff67b07a39a92f.sl.png)
+    ![Gumb za novo datoteko](../../../../../translated_images/vscode-new-file-button.182702340fe6723c.sl.png)
 
 1. V to datoteko dodajte naslednjo kodo za definiranje konstant za vaše WiFi poverilnice:
 

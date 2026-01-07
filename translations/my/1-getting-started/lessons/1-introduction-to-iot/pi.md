@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 [Raspberry Pi](https://raspberrypi.org) သည် single-board computer တစ်ခုဖြစ်သည်။ သင်သည် sensor များနှင့် actuator များကို device များနှင့် ecosystem များစွာကို အသုံးပြု၍ ထည့်သွင်းနိုင်ပြီး၊ ဤသင်ခန်းစာများအတွက် [Grove](https://www.seeedstudio.com/category/Grove-c-1003.html) ဟုခေါ်သော hardware ecosystem ကို အသုံးပြုမည်ဖြစ်သည်။ သင်၏ Pi ကို Python ဖြင့် code ရေးပြီး Grove sensor များကို access ပြုလုပ်နိုင်ပါသည်။
 
-![A Raspberry Pi 4](../../../../../translated_images/raspberry-pi-4.fd4590d308c3d456db1327e86b395ddcd735513267aafd4879ea2785f7792eac.my.jpg)
+![A Raspberry Pi 4](../../../../../translated_images/raspberry-pi-4.fd4590d308c3d456.my.jpg)
 
 ## Setup
 
@@ -112,7 +112,7 @@ Headless Pi OS ကို setup လုပ်ပါ။
 
 1. Raspberry Pi Imager မှ **CHOOSE OS** button ကို ရွေးပါ၊ *Raspberry Pi OS (Other)* ကို ရွေးပြီး *Raspberry Pi OS Lite (32-bit)* ကို ရွေးပါ
 
-    ![The Raspberry Pi Imager with Raspberry Pi OS Lite selected](../../../../../translated_images/raspberry-pi-imager.24aedeab9e233d841a1504ed7cfeb871b1f8e1134cfcd8370e7f60a092056be2.my.png)
+    ![The Raspberry Pi Imager with Raspberry Pi OS Lite selected](../../../../../translated_images/raspberry-pi-imager.24aedeab9e233d84.my.png)
 
     > 💁 Raspberry Pi OS Lite သည် desktop UI သို့မဟုတ် UI based tool မပါသော Raspberry Pi OS version ဖြစ်သည်။ ၎င်းသည် headless Pi အတွက် မလိုအပ်သော UI များကို ဖယ်ရှားထားပြီး install size ကို သေးငယ်စေပြီး boot up time ကို မြန်စေသည်။
 
@@ -233,7 +233,7 @@ Hello World app ကို ဖန်တီးပါ။
 
 1. *File -> Open...* ကို ရွေးပြီး *nightlight* folder ကို ရွေးပါ၊ ထို့နောက် **OK** ကို နှိပ်ပါ။ 
 
-    ![VS Code open dialog တွင် nightlight folder ကို ပြသထားသည်](../../../../../translated_images/vscode-open-nightlight-remote.d3d2a4011e30d535c4b70084f6e94bf6b5b1327fd8e77affe64465ac151ee766.my.png)
+    ![VS Code open dialog တွင် nightlight folder ကို ပြသထားသည်](../../../../../translated_images/vscode-open-nightlight-remote.d3d2a4011e30d535.my.png)
 
 1. VS Code explorer မှ `app.py` ဖိုင်ကို ဖွင့်ပြီး အောက်ပါ code ကို ထည့်သွင်းပါ။
 

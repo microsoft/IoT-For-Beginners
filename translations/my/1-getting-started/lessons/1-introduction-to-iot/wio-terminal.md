@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 [Seeed Studios မှ Wio Terminal](https://www.seeedstudio.com/Wio-Terminal-p-4509.html) သည် Arduino-compatible microcontroller တစ်ခုဖြစ်ပြီး WiFi နှင့် sensor များ၊ actuator များပါဝင်သည့်အပြင် [Grove](https://www.seeedstudio.com/category/Grove-c-1003.html) ဟုခေါ်သော hardware ecosystem ကို အသုံးပြု၍ sensor များနှင့် actuator များကို ထပ်မံထည့်သွင်းနိုင်သော port များပါရှိသည်။
 
-![Seeed Studios Wio Terminal](../../../../../translated_images/wio-terminal.b8299ee16587db9aa9e05fabf9721bccd9eb8fb541b7c1a8267241282d81b603.my.png)
+![Seeed Studios Wio Terminal](../../../../../translated_images/wio-terminal.b8299ee16587db9a.my.png)
 
 ## Setup
 
@@ -51,15 +51,15 @@ PlatformIO project ကို ဖန်တီးပါ။
 
 1. PlatformIO icon သည် ဘေး menu bar တွင် ရှိပါမည်။
 
-    ![Platform IO menu option](../../../../../translated_images/vscode-platformio-menu.297be26b9733e5c4635d9d8e636e93fed2015809eafb7cc8fd409c37b3ef2ef5.my.png)
+    ![Platform IO menu option](../../../../../translated_images/vscode-platformio-menu.297be26b9733e5c4.my.png)
 
     ဤ menu item ကို ရွေးချယ်ပြီး *PIO Home -> Open* ကို ရွေးပါ။
 
-    ![Platform IO open option](../../../../../translated_images/vscode-platformio-home-open.3f9a41bfd3f4da1c866ec3e69f1675faa30b823b5b58ab58ac88e5df9a85da19.my.png)
+    ![Platform IO open option](../../../../../translated_images/vscode-platformio-home-open.3f9a41bfd3f4da1c.my.png)
 
 1. Welcome screen မှ **+ New Project** ခလုတ်ကို ရွေးချယ်ပါ။
 
-    ![New project button](../../../../../translated_images/vscode-platformio-welcome-new-button.ba6fc8a4c7b78cc822e1ce47ba29c5db96668cce7c5f4adbfd2f1196422baa26.my.png)
+    ![New project button](../../../../../translated_images/vscode-platformio-welcome-new-button.ba6fc8a4c7b78cc8.my.png)
 
 1. *Project Wizard* တွင် project ကို configure လုပ်ပါ။
 
@@ -73,7 +73,7 @@ PlatformIO project ကို ဖန်တီးပါ။
 
     1. **Finish** ခလုတ်ကို ရွေးပါ။
 
-    ![Completed project wizard](../../../../../translated_images/vscode-platformio-nightlight-project-wizard.5c64db4da6037420827c2597507897233457210ee23975711fa2285efdcd0dc7.my.png)
+    ![Completed project wizard](../../../../../translated_images/vscode-platformio-nightlight-project-wizard.5c64db4da6037420.my.png)
 
     PlatformIO သည် Wio Terminal အတွက် code ကို compile လုပ်ရန်လိုအပ်သော components များကို download လုပ်ပြီး သင့် project ကို ဖန်တီးပါမည်။ ဤလုပ်ငန်းစဉ်သည် မိနစ်အနည်းငယ်ကြာနိုင်ပါသည်။
 
@@ -179,7 +179,7 @@ Hello World app ကို ရေးသားပါ။
 
     1. `PlatformIO Upload` ဟု ရိုက်ထည့်ကာ upload option ကို ရှာပြီး *PlatformIO: Upload* ကို ရွေးပါ။
 
-        ![PlatformIO upload option in command palette](../../../../../translated_images/vscode-platformio-upload-command-palette.9e0f49cf80d1f1c3eb5c6689b8705ad8b89f0374b21698e996fec11e4ed09347.my.png)
+        ![PlatformIO upload option in command palette](../../../../../translated_images/vscode-platformio-upload-command-palette.9e0f49cf80d1f1c3.my.png)
 
         PlatformIO သည် upload လုပ်ရန်အလိုအလျောက် code ကို build လုပ်ပါမည်။
 
@@ -195,7 +195,7 @@ PlatformIO တွင် Serial Monitor တစ်ခုရှိပြီး Wio 
 
 1. `PlatformIO Serial` ဟု ရိုက်ထည့်ကာ Serial Monitor option ကို ရှာပြီး *PlatformIO: Serial Monitor* ကို ရွေးပါ။
 
-    ![PlatformIO Serial Monitor option in command palette](../../../../../translated_images/vscode-platformio-serial-monitor-command-palette.b348ec841b8a1c14af503d6fc0bf73c657c79c9acc12a6b6dd485ce3b5826f48.my.png)
+    ![PlatformIO Serial Monitor option in command palette](../../../../../translated_images/vscode-platformio-serial-monitor-command-palette.b348ec841b8a1c14.my.png)
 
     Terminal အသစ်တစ်ခု ဖွင့်ပြီး serial port မှ ပို့ပေးသော data ကို ဤ terminal တွင် stream လုပ်ပါမည်။
 

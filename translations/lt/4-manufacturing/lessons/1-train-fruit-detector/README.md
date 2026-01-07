@@ -61,7 +61,7 @@ Naujausios šių rūšiavimo mašinų evoliucijos pasitelkia DI ir MM, naudodamo
 
 Tradicinis programavimas yra tada, kai jūs imate duomenis, taikote jiems algoritmą ir gaunate rezultatą. Pavyzdžiui, ankstesniame projekte jūs naudojote GPS koordinates ir geografinę zoną, taikėte Azure Maps pateiktą algoritmą ir gavote rezultatą, ar taškas yra zonos viduje, ar išorėje. Įvedate daugiau duomenų, gaunate daugiau rezultatų.
 
-![Tradicinis kūrimas naudoja įvestį ir algoritmą, kad gautų rezultatą. Mašininis mokymasis naudoja įvesties ir išvesties duomenis, kad apmokytų modelį, kuris gali naudoti naujus įvesties duomenis naujiems rezultatams generuoti](../../../../../translated_images/traditional-vs-ml.5c20c169621fa539ca84a2cd9a49f6ff7410b3a6c6b46c97ff2af3f99db3c66b.lt.png)
+![Tradicinis kūrimas naudoja įvestį ir algoritmą, kad gautų rezultatą. Mašininis mokymasis naudoja įvesties ir išvesties duomenis, kad apmokytų modelį, kuris gali naudoti naujus įvesties duomenis naujiems rezultatams generuoti](../../../../../translated_images/traditional-vs-ml.5c20c169621fa539.lt.png)
 
 Mašininis mokymasis tai apverčia – jūs pradedate nuo duomenų ir žinomų rezultatų, o mašininio mokymosi algoritmas mokosi iš duomenų. Tada galite naudoti šį apmokytą algoritmą, vadinamą *mašininio mokymosi modeliu* arba *modeliu*, ir įvesti naujus duomenis, kad gautumėte naujus rezultatus.
 
@@ -87,7 +87,7 @@ Norint sėkmingai apmokyti vaizdų klasifikatorių, reikia milijonų nuotraukų.
 
 Kai vaizdų klasifikatorius yra apmokytas atpažinti įvairias nuotraukas, jo vidiniai mechanizmai puikiai atpažįsta formas, spalvas ir raštus. Perdavimo mokymasis leidžia modeliui panaudoti jau įgytas žinias apie vaizdų dalis ir pritaikyti jas naujų vaizdų atpažinimui.
 
-![Kai atpažįstate formas, jas galima sudėlioti į skirtingas konfigūracijas, kad sudarytumėte laivą arba katę](../../../../../translated_images/shapes-to-images.1a309f0ea88dd66fafa4da6d38e88806ce174cc6a88081efb32852230ed55de8.lt.png)
+![Kai atpažįstate formas, jas galima sudėlioti į skirtingas konfigūracijas, kad sudarytumėte laivą arba katę](../../../../../translated_images/shapes-to-images.1a309f0ea88dd66f.lt.png)
 
 Galite tai įsivaizduoti kaip vaikų knygas apie formas, kur, kai jau atpažįstate puslankį, stačiakampį ir trikampį, galite atpažinti burlaivį arba katę, priklausomai nuo šių formų išdėstymo. Vaizdų klasifikatorius gali atpažinti formas, o perdavimo mokymasis moko, kokia kombinacija sudaro laivą ar katę – arba prinokusį bananą.
 

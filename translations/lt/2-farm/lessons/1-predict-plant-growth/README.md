@@ -65,7 +65,7 @@ Kiekviena augalų rūšis turi skirtingas bazinės, optimalios ir maksimalios te
 
 ✅ Atlikite tyrimą. Jei turite augalų savo sode, mokykloje ar vietiniame parke, pabandykite surasti jų bazinę temperatūrą.
 
-![Grafikas, rodantis augimo tempą kylant temperatūrai, o vėliau mažėjant, kai temperatūra tampa per aukšta](../../../../../translated_images/plant-growth-temp-graph.c6d69c9478e6ca832baa8dcb8d4adcbb67304074ce50e94ac8faae95975177f9.lt.png)
+![Grafikas, rodantis augimo tempą kylant temperatūrai, o vėliau mažėjant, kai temperatūra tampa per aukšta](../../../../../translated_images/plant-growth-temp-graph.c6d69c9478e6ca83.lt.png)
 
 Aukščiau pateiktas grafikas rodo augimo tempo ir temperatūros ryšį. Iki bazinės temperatūros augimas nevyksta. Augimo tempas didėja iki optimalios temperatūros, o vėliau mažėja, pasiekus šį piką. Maksimalioje temperatūroje augimas sustoja.
 
@@ -111,7 +111,7 @@ Augimo laipsnių dienos, arba GDD, skaičiuojamos kiekvieną dieną kaip vidutin
 
     
 > 💁 Jei naudojate virtualų IoT įrenginį, pažymėkite atsitiktinumo žymimąjį laukelį ir nustatykite diapazoną, kad išvengtumėte tos pačios temperatūros gavimo kiekvieną kartą, kai grąžinama temperatūros reikšmė.
-    ![Pažymėkite atsitiktinumo žymimąjį laukelį ir nustatykite diapazoną](../../../../../translated_images/select-the-random-checkbox-and-set-a-range.32cf4bc7c12e797f8c76616b10c7c23a6592321bb1a6310e0b481e72f97d23b3.lt.png) 
+    ![Pažymėkite atsitiktinumo žymimąjį laukelį ir nustatykite diapazoną](../../../../../translated_images/select-the-random-checkbox-and-set-a-range.32cf4bc7c12e797f.lt.png) 
 
     > 💁 Jei norite paleisti šį kodą visą dieną, turite įsitikinti, kad kompiuteris, kuriame veikia jūsų serverio kodas, neperjungs miego režimo – tai galite padaryti pakeisdami energijos nustatymus arba paleisdami kažką panašaus į [šį Python skriptą, kuris palaiko sistemą aktyvią](https://github.com/jaqsparow/keep-system-active).
     

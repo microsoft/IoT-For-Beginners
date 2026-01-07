@@ -33,11 +33,11 @@ Grove မြေစိုထိုင်းဆာန့်ဆာကို Wio Ter
 
 1. Wio Terminal ကို သင့်ကွန်ပျူတာ သို့မဟုတ် အခြားပါဝါထောက်ပံ့မှုမှ ချိတ်ဆက်ထားခြင်းမရှိဘဲ၊ Grove ကေဘယ်ရဲ့ အခြားဖက်ကို Wio Terminal ရဲ့ ညာဘက် Grove socket (power button မှ အဝေးဆုံး) ထဲထည့်ပါ။
 
-![The grove soil moisture sensor connected to the right hand socket](../../../../../translated_images/wio-soil-moisture-sensor.46919b61c3f6cb7497662251b29038ee0e57a4c8b9d071feb996c3b0d7f65aaf.my.png)
+![The grove soil moisture sensor connected to the right hand socket](../../../../../translated_images/wio-soil-moisture-sensor.46919b61c3f6cb74.my.png)
 
 1. မြေစိုထိုင်းဆာန့်ဆာကို မြေထဲထည့်ပါ။ အမြင့်ဆုံးအနေအထားလိုင်း (sensor ပေါ်ရှိ အဖြူရောင်လိုင်း) ရှိပြီး၊ အဲဒီလိုင်းအထိသာ ထည့်ပါ၊ အဲဒီလိုင်းကို ကျော်မထည့်ပါနှင့်။
 
-![The grove soil moisture sensor in soil](../../../../../translated_images/soil-moisture-sensor-in-soil.bfad91002bda5e960f8c51ee64b02ee59b32c8c717e3515a2c945f33e614e403.my.png)
+![The grove soil moisture sensor in soil](../../../../../translated_images/soil-moisture-sensor-in-soil.bfad91002bda5e96.my.png)
 
 1. ယခု Wio Terminal ကို သင့်ကွန်ပျူတာနှင့် ချိတ်ဆက်နိုင်ပါပြီ။
 

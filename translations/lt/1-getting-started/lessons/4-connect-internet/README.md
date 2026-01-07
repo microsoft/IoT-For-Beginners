@@ -46,7 +46,7 @@ IoT įrenginiai gali gauti pranešimus iš debesies. Dažnai pranešimai yra kom
 
 Yra keletas populiarių ryšio protokolų, kuriuos IoT įrenginiai naudoja bendraudami su internetu. Populiariausi yra pagrįsti publikavimo/prenumeravimo pranešimais per tam tikrą brokerį. IoT įrenginiai jungiasi prie brokerio ir publikuoja telemetriją bei prenumeruoja komandas. Debesų paslaugos taip pat jungiasi prie brokerio, prenumeruoja visus telemetrijos pranešimus ir publikuoja komandas arba konkretiems įrenginiams, arba įrenginių grupėms.
 
-![IoT įrenginiai jungiasi prie brokerio, publikuoja telemetriją ir prenumeruoja komandas. Debesų paslaugos jungiasi prie brokerio, prenumeruoja visą telemetriją ir siunčia komandas konkretiems įrenginiams.](../../../../../translated_images/pub-sub.7c7ed43fe9fd15d4e1f81a3fd95440413c457acd9bcbe9a43341e30e88db5264.lt.png)
+![IoT įrenginiai jungiasi prie brokerio, publikuoja telemetriją ir prenumeruoja komandas. Debesų paslaugos jungiasi prie brokerio, prenumeruoja visą telemetriją ir siunčia komandas konkretiems įrenginiams.](../../../../../translated_images/pub-sub.7c7ed43fe9fd15d4.lt.png)
 
 MQTT yra populiariausias ryšio protokolas IoT įrenginiams ir yra aptariamas šioje pamokoje. Kiti protokolai apima AMQP ir HTTP/HTTPS.
 
@@ -115,7 +115,7 @@ MQTT ryšiai gali būti vieši ir atviri arba užšifruoti ir apsaugoti naudojan
 
 Pažvelkime atgal į išmaniojo termostato pavyzdį iš 1 pamokos.
 
-![Interneto prijungtas termostatas, naudojantis kelis kambario jutiklius](../../../../../translated_images/telemetry.21e5d8b97649d2ebeb0f68d4b9691ab2d1f7bd629338e131465aff8a614e4d4a.lt.png)
+![Interneto prijungtas termostatas, naudojantis kelis kambario jutiklius](../../../../../translated_images/telemetry.21e5d8b97649d2eb.lt.png)
 
 Termostatas turi temperatūros jutiklius telemetrijai rinkti. Labiausiai tikėtina, kad jis turės vieną įmontuotą temperatūros jutiklį, ir jis gali prisijungti prie kelių išorinių temperatūros jutiklių per belaidį protokolą, pvz., [Bluetooth Low Energy](https://wikipedia.org/wiki/Bluetooth_Low_Energy) (BLE).
 
@@ -267,11 +267,11 @@ Parašykite serverio kodą.
 
 1. Kai VS Code paleidžiamas, jis aktyvuos Python virtualią aplinką. Tai bus nurodyta apatinėje būsenos juostoje:
 
-    ![VS Code rodo pasirinktą virtualią aplinką](../../../../../translated_images/vscode-virtual-env.8ba42e04c3d533cf677e16cbe5ed9a3b80f62c6964472dc84b6f940800f0909f.lt.png)
+    ![VS Code rodo pasirinktą virtualią aplinką](../../../../../translated_images/vscode-virtual-env.8ba42e04c3d533cf.lt.png)
 
 1. Jei VS Code terminalas jau veikia, kai VS Code paleidžiamas, virtuali aplinka jame nebus aktyvuota. Paprasčiausia yra uždaryti terminalą naudojant mygtuką **Kill the active terminal instance**:
 
-    ![VS Code mygtukas Kill the active terminal instance](../../../../../translated_images/vscode-kill-terminal.1cc4de7c6f25ee08f423f0ead714e61d069fac1eb2089e97b8a7bbcb3d45fe5e.lt.png)
+    ![VS Code mygtukas Kill the active terminal instance](../../../../../translated_images/vscode-kill-terminal.1cc4de7c6f25ee08.lt.png)
 
 1. Paleiskite naują VS Code terminalą pasirinkdami *Terminal -> New Terminal* arba paspausdami `` CTRL+` ``. Naujas terminalas įkels virtualią aplinką, o aktyvavimo komanda bus rodoma terminale. Virtualios aplinkos pavadinimas (`.venv`) taip pat bus matomas eilutėje:
 

@@ -37,7 +37,7 @@ U ovoj lekciji obradit ćemo:
 
 Tekst u govor, kako naziv sugerira, proces je pretvaranja teksta u audio koji sadrži tekst kao izgovorene riječi. Osnovni princip je razbijanje riječi u tekstu na njihove sastavne zvukove (poznate kao fonemi) i spajanje audija za te zvukove, bilo korištenjem unaprijed snimljenog audija ili audija generiranog AI modelima.
 
-![Tri faze tipičnih sustava za tekst u govor](../../../../../translated_images/tts-overview.193843cf3f5ee09f8b3371a9fdaeb0f116698a07ca69daaa77158da4800e5453.hr.png)
+![Tri faze tipičnih sustava za tekst u govor](../../../../../translated_images/tts-overview.193843cf3f5ee09f.hr.png)
 
 Sustavi za tekst u govor obično imaju 3 faze:
 

@@ -110,7 +110,7 @@ Kiekvienas daugiakampio taškas apibrėžiamas kaip ilgumos ir platumos pora mas
 
 Daugiakampio koordinatės masyvas visada turi 1 įrašą daugiau nei daugiakampio taškų skaičius, nes paskutinis įrašas yra toks pat kaip pirmasis, uždarant daugiakampį. Pavyzdžiui, stačiakampiui būtų 5 taškai.
 
-![Stačiakampis su koordinatėmis](../../../../../translated_images/polygon-points.302193da381cb415f46c2c7a98496ee4be05d6c73d21238a89721ad93e121233.lt.png)
+![Stačiakampis su koordinatėmis](../../../../../translated_images/polygon-points.302193da381cb415.lt.png)
 
 Aukščiau esančiame paveikslėlyje yra stačiakampis. Daugiakampio koordinatės prasideda viršutiniame kairiajame kampe 47,-122, tada juda į dešinę iki 47,-121, tada žemyn iki 46,-121, tada į kairę iki 46,-122, tada grįžta į pradinį tašką 47,-122. Tai suteikia daugiakampiui 5 taškus – viršutinis kairysis, viršutinis dešinysis, apatinis dešinysis, apatinis kairysis ir viršutinis kairysis, kad uždarytų daugiakampį.
 
@@ -208,7 +208,7 @@ Kai atliekate šią užklausą, taip pat galite perduoti reikšmę, vadinamą `s
 
 Kai API užklausa grąžina rezultatus, viena iš rezultatų dalių yra `distance`, matuojamas iki artimiausio taško geotvoros krašte. Jei taškas yra už geotvoros, reikšmė bus teigiama, jei viduje – neigiama. Jei ši reikšmė yra mažesnė už `searchBuffer`, grąžinama tikroji reikšmė metrais, kitaip reikšmė bus 999 arba -999. 999 reiškia, kad taškas yra už geotvoros daugiau nei `searchBuffer`, -999 reiškia, kad jis yra geotvoroje daugiau nei `searchBuffer`.
 
-![Geotvora su 50 m paieškos buferiu](../../../../../translated_images/search-buffer-and-distance.e6a79af3898183c7b2ef6fbf12271b8b34afd23969bb946962b1b18d3d2635e8.lt.png)
+![Geotvora su 50 m paieškos buferiu](../../../../../translated_images/search-buffer-and-distance.e6a79af3898183c7.lt.png)
 
 Aukščiau esančiame paveikslėlyje geotvora turi 50 m paieškos buferį.
 

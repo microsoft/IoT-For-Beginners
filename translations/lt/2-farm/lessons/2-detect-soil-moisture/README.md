@@ -37,7 +37,7 @@ UART apima fizinę grandinę, leidžiančią dviem įrenginiams bendrauti. Kiekv
 * Įrenginys 1 siunčia duomenis iš savo Tx kontakto, kuriuos gauna įrenginys 2 per savo Rx kontaktą
 * Įrenginys 1 gauna duomenis per savo Rx kontaktą, kuriuos siunčia įrenginys 2 iš savo Tx kontakto
 
-![UART su Tx kontaktu viename luste, prijungtu prie Rx kontakto kitame, ir atvirkščiai](../../../../../translated_images/uart.d0dbd3fb9e3728c6ee1995c8206f3cdb13cdfd208f13745e8ef6854cab75e421.lt.png)
+![UART su Tx kontaktu viename luste, prijungtu prie Rx kontakto kitame, ir atvirkščiai](../../../../../translated_images/uart.d0dbd3fb9e3728c6.lt.png)
 
 > 🎓 Duomenys siunčiami po vieną bitą, ir tai vadinama *nuosekliuoju* ryšiu. Dauguma operacinių sistemų ir mikrovaldiklių turi *nuosekliuosius prievadus*, tai yra jungtis, kurios gali siųsti ir priimti nuoseklius duomenis, prieinamus jūsų kodui.
 
@@ -66,7 +66,7 @@ SPI valdikliai naudoja 3 laidus kartu su 1 papildomu laidu kiekvienam periferini
 | SCLK | Nuoseklus laikrodis | Šis laidas siunčia laikrodžio signalą, kurio dažnį nustato valdiklis. |
 | CS   | Lustų pasirinkimas | Valdiklis turi kelis laidus, po vieną kiekvienam periferiniam įrenginiui, ir kiekvienas laidas jungiasi prie atitinkamo periferinio įrenginio CS laido. |
 
-![SPI su vienu valdikliu ir dviem periferiniais įrenginiais](../../../../../translated_images/spi.297431d6f98b386b4ff88aea44ce9c1e7acfb1ef69c7e4e388a7aa97b6948e24.lt.png)
+![SPI su vienu valdikliu ir dviem periferiniais įrenginiais](../../../../../translated_images/spi.297431d6f98b386b.lt.png)
 
 CS laidas naudojamas aktyvuoti vieną periferinį įrenginį vienu metu, bendraujant per COPI ir CIPO laidus. Kai valdikliui reikia pakeisti periferinį įrenginį, jis išjungia CS laidą, prijungtą prie šiuo metu aktyvaus periferinio įrenginio, tada įjungia laidą, prijungtą prie kito periferinio įrenginio, su kuriuo nori bendrauti.
 
@@ -127,13 +127,13 @@ Dirvožemio drėgmė matuojama naudojant gravimetrinį arba tūrį matuojantį v
 
 Dirvožemio drėgmės jutikliai matuoja elektrinę varžą arba talpą – tai ne tik priklauso nuo dirvožemio drėgmės, bet ir nuo dirvožemio tipo, nes dirvožemio sudedamosios dalys gali pakeisti jo elektrines savybes. Idealiu atveju jutikliai turėtų būti kalibruoti – tai yra, imant jutiklio rodmenis ir lyginant juos su matavimais, atliktais naudojant mokslinį metodą. Pavyzdžiui, laboratorija gali apskaičiuoti gravimetrinę dirvožemio drėgmę, naudodama konkretaus lauko mėginius, paimtus kelis kartus per metus, ir šie skaičiai gali būti naudojami jutiklio kalibravimui, suderinant jutiklio rodmenis su gravimetrine dirvožemio drėgme.
 
-![Įtampa prieš dirvožemio drėgmės kiekį](../../../../../translated_images/soil-moisture-to-voltage.df86d80cda1587008f312431ed5f79eb6c50c58d4fbc25a6763c5e9127c3106b.lt.png)
+![Įtampa prieš dirvožemio drėgmės kiekį](../../../../../translated_images/soil-moisture-to-voltage.df86d80cda158700.lt.png)
 
 Aukščiau pateiktoje diagramoje parodyta, kaip kalibruoti jutiklį. Įtampa užfiksuojama dirvožemio mėginiui, kuris vėliau laboratorijoje matuojamas, lyginant drėgną svorį su sausu svoriu (matuojant svorį drėgną, tada džiovinant orkaitėje ir matuojant sausą). Kai keli matavimai yra atlikti, jie gali būti pavaizduoti diagramoje, o taškams pritaikyta linija. Ši linija gali būti naudojama konvertuoti dirvožemio drėgmės jutiklio rodmenis, gautus IoT įrenginiu, į faktinius dirvožemio drėgmės matavimus.
 
 💁 Rezistyviniams dirvožemio drėgmės jutikliams įtampa didėja, kai dirvožemio drėgmė didėja. Kapacitiviniams dirvožemio drėgmės jutikliams įtampa mažėja, kai dirvožemio drėgmė didėja, todėl jų grafikai būtų nuolydžiai žemyn, o ne aukštyn.
 
-![Dirvožemio drėgmės reikšmė, interpoliuota iš grafiko](../../../../../translated_images/soil-moisture-to-voltage-with-reading.681cb3e1f8b68caf5547dbf1415851c82e201edfb78face16fc98da4051ed9b2.lt.png)
+![Dirvožemio drėgmės reikšmė, interpoliuota iš grafiko](../../../../../translated_images/soil-moisture-to-voltage-with-reading.681cb3e1f8b68caf.lt.png)
 
 Aukščiau pateiktoje diagramoje parodytas dirvožemio drėgmės jutiklio įtampos rodmuo, ir sekant jį iki linijos diagramoje galima apskaičiuoti faktinę dirvožemio drėgmę.
 

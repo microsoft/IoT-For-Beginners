@@ -31,7 +31,7 @@ Povežite temperaturni senzor.
 
 1. Ko je Raspberry Pi izklopljen, povežite drugi konec Grove kabla z digitalno vtičnico, označeno **D5**, na Grove Base hat, ki je priključen na Pi. Ta vtičnica je druga z leve strani v vrsti vtičnic poleg GPIO pinov.
 
-![Grove temperaturni senzor povezan z vtičnico A0](../../../../../translated_images/pi-temperature-sensor.3ff82fff672c8e565ef25a39d26d111de006b825a7e0867227ef4e7fbff8553c.sl.png)
+![Grove temperaturni senzor povezan z vtičnico A0](../../../../../translated_images/pi-temperature-sensor.3ff82fff672c8e56.sl.png)
 
 ## Programirajte temperaturni senzor
 

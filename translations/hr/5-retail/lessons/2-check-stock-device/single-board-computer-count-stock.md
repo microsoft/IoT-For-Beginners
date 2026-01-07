@@ -81,7 +81,7 @@ Kao korak za otklanjanje pogrešaka, možete ne samo ispisati okvire, već ih i 
 
 1. Pokrenite aplikaciju s kamerom usmjerenom prema zalihama na polici. Vidjet ćete datoteku `image.jpg` u pregledniku VS Code-a i moći ćete je odabrati kako biste vidjeli okvire.
 
-    ![4 konzerve paste od rajčice s okvirima oko svake konzerve](../../../../../translated_images/rpi-stock-with-bounding-boxes.b5540e2ecb7cd49f1271828d3be412671d950e87625c5597ea97c90f11e01097.hr.jpg)
+    ![4 konzerve paste od rajčice s okvirima oko svake konzerve](../../../../../translated_images/rpi-stock-with-bounding-boxes.b5540e2ecb7cd49f.hr.jpg)
 
 ## Brojanje zaliha
 

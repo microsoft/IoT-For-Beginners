@@ -97,15 +97,15 @@ Deja, ne viskas yra saugu. Kai kurie įrenginiai neturi jokio saugumo, kiti yra 
 
 **Simetrinis** šifravimas naudoja tą patį raktą duomenims užšifruoti ir iššifruoti. Tiek siuntėjas, tiek gavėjas turi žinoti tą patį raktą. Tai yra mažiausiai saugus tipas, nes raktą reikia kažkaip perduoti. Kad siuntėjas galėtų išsiųsti užšifruotą pranešimą gavėjui, siuntėjas pirmiausia gali turėti perduoti gavėjui raktą.
 
-![Simetrinis raktas naudoja tą patį raktą pranešimui užšifruoti ir iššifruoti](../../../../../translated_images/send-message-symmetric-key.a2e8ad0d495896ffcdf15d25bb4491c695a5cb851457b359fb0f0c89d67707c9.lt.png)
+![Simetrinis raktas naudoja tą patį raktą pranešimui užšifruoti ir iššifruoti](../../../../../translated_images/send-message-symmetric-key.a2e8ad0d495896ff.lt.png)
 
 Jei raktas pavogiamas perdavimo metu arba siuntėjas ar gavėjas yra nulaužti ir raktas randamas, šifravimas gali būti nulaužtas.
 
-![Simetrinis raktas yra saugus tik tuo atveju, jei įsilaužėlis negauna rakto – jei taip, jie gali perimti ir iššifruoti pranešimą](../../../../../translated_images/send-message-symmetric-key-hacker.e7cb53db1707adfb1486a8144060cb76435fe8dbdede8cecc09e7d15b2d9a251.lt.png)
+![Simetrinis raktas yra saugus tik tuo atveju, jei įsilaužėlis negauna rakto – jei taip, jie gali perimti ir iššifruoti pranešimą](../../../../../translated_images/send-message-symmetric-key-hacker.e7cb53db1707adfb.lt.png)
 
 **Asimetrinis** šifravimas naudoja 2 raktus – šifravimo raktą ir iššifravimo raktą, vadinamus viešojo/privačiojo rakto pora. Viešasis raktas naudojamas pranešimui užšifruoti, tačiau negali būti naudojamas jo iššifruoti, o privatusis raktas naudojamas pranešimui iššifruoti, tačiau negali būti naudojamas jo užšifruoti.
 
-![Asimetrinis šifravimas naudoja skirtingus raktus pranešimui užšifruoti ir iššifruoti. Šifravimo raktas siunčiamas bet kokiems pranešimų siuntėjams, kad jie galėtų užšifruoti pranešimą prieš jį išsiųsdami gavėjui, kuris turi raktus](../../../../../translated_images/send-message-asymmetric.7abe327c62615b8c19805252af5d4b6c5e7aaeb8fbc455efeff866fe2d300b62.lt.png)
+![Asimetrinis šifravimas naudoja skirtingus raktus pranešimui užšifruoti ir iššifruoti. Šifravimo raktas siunčiamas bet kokiems pranešimų siuntėjams, kad jie galėtų užšifruoti pranešimą prieš jį išsiųsdami gavėjui, kuris turi raktus](../../../../../translated_images/send-message-asymmetric.7abe327c62615b8c.lt.png)
 
 Gavėjas dalijasi savo viešuoju raktu, o siuntėjas naudoja jį pranešimui užšifruoti. Kai pranešimas išsiunčiamas, gavėjas jį iššifruoja naudodamas savo privatųjį raktą. Asimetrinis šifravimas yra saugesnis, nes privatusis raktas yra laikomas privačiai gavėjo ir niekada nėra dalijamasi. Viešasis raktas gali būti prieinamas visiems, nes jis gali būti naudojamas tik pranešimams užšifruoti.
 
@@ -157,7 +157,7 @@ X.509 sertifikatai yra skaitmeniniai dokumentai, kuriuose yra viešojo/privačio
 
 Naudojant X.509 sertifikatus, tiek siuntėjas, tiek gavėjas turės savo viešuosius ir privačius raktus, taip pat abu turės X.509 sertifikatus, kuriuose yra viešasis raktas. Jie tada kažkokiu būdu apsikeičia X.509 sertifikatais, naudodami vienas kito viešuosius raktus duomenims, kuriuos siunčia, užšifruoti, o savo privačius raktus – duomenims, kuriuos gauna, iššifruoti.
 
-![Vietoj viešojo rakto galite dalintis sertifikatu. Sertifikato naudotojas gali patikrinti, ar jis yra iš jūsų, pasitikrindamas su sertifikavimo institucija, kuri jį pasirašė.](../../../../../translated_images/send-message-certificate.9cc576ac1e46b76eb58ebc8eedaa522566fa0700076da46f5180aad78c2435db.lt.png)
+![Vietoj viešojo rakto galite dalintis sertifikatu. Sertifikato naudotojas gali patikrinti, ar jis yra iš jūsų, pasitikrindamas su sertifikavimo institucija, kuri jį pasirašė.](../../../../../translated_images/send-message-certificate.9cc576ac1e46b76e.lt.png)
 
 Didelis X.509 sertifikatų privalumas yra tas, kad jie gali būti dalijami tarp įrenginių. Galite sukurti vieną sertifikatą, įkelti jį į IoT Hub ir naudoti jį visiems savo įrenginiams. Kiekvienas įrenginys tada turi žinoti tik privatų raktą, kad iššifruotų pranešimus, kuriuos gauna iš IoT Hub.
 

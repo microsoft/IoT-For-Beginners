@@ -61,7 +61,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 ရိုးရာ programming ဟာ ဒေတာကို ယူပြီး၊ algorithm ကို ဒေတာပေါ်မှာ အသုံးပြုကာ output ကို ရရှိစေသည်။ ဥပမာအားဖြင့်၊ နောက်ဆုံး project မှာ သင် GPS coordinates နဲ့ geofence ကို ယူပြီး၊ Azure Maps မှ ပေးထားသော algorithm ကို အသုံးပြုကာ၊ point ဟာ geofence အတွင်းမှာလား အပြင်မှာလားဆိုတာကို ရလဒ်အဖြစ် ရရှိခဲ့သည်။ သင်ပိုမိုများသော ဒေတာကို input လုပ်ပါက output ကို ပိုမိုရရှိနိုင်ပါသည်။
 
-![ရိုးရာ development ဟာ input နဲ့ algorithm ကို အသုံးပြုပြီး output ကို ရရှိစေသည်။ Machine learning ဟာ input နဲ့ output ဒေတာကို အသုံးပြုကာ model ကို လေ့ကျင့်ပြီး၊ model ဟာ input data အသစ်များကို အသုံးပြုကာ output အသစ်များကို ဖန်တီးနိုင်သည်](../../../../../translated_images/traditional-vs-ml.5c20c169621fa539ca84a2cd9a49f6ff7410b3a6c6b46c97ff2af3f99db3c66b.my.png)
+![ရိုးရာ development ဟာ input နဲ့ algorithm ကို အသုံးပြုပြီး output ကို ရရှိစေသည်။ Machine learning ဟာ input နဲ့ output ဒေတာကို အသုံးပြုကာ model ကို လေ့ကျင့်ပြီး၊ model ဟာ input data အသစ်များကို အသုံးပြုကာ output အသစ်များကို ဖန်တီးနိုင်သည်](../../../../../translated_images/traditional-vs-ml.5c20c169621fa539.my.png)
 
 Machine learning ဟာ ဒီစနစ်ကို ပြောင်းလဲစေသည် - သင်ဟာ ဒေတာနဲ့ သိထားသော output များကို စတင်ပေးပြီး၊ machine learning algorithm ဟာ ဒေတာမှ လေ့လာသည်။ ထို့နောက် သင်ဟာ ဒီလေ့လာထားသော algorithm ကို ယူပြီး၊ *machine learning model* သို့မဟုတ် *model* ဟုခေါ်သော trained algorithm ကို အသုံးပြုကာ input data အသစ်များကို ထည့်သွင်းပြီး output အသစ်များကို ရရှိနိုင်သည်။
 
@@ -87,7 +87,7 @@ Image classifier ကို အောင်မြင်စွာ လေ့ကျ�
 
 Image classifier တစ်ခုဟာ အမျိုးမျိုးသော ပုံများအတွက် လေ့ကျင့်ပြီးနောက်၊ အတွင်းပိုင်းမှာ shape, color, pattern များကို ခွဲခြားနိုင်စွမ်းရှိသည်။ Transfer learning ဟာ model ကို shape များကို ခွဲခြားနိုင်စွမ်းရှိစေပြီး၊ shape များကို အသုံးပြုကာ အသစ်သော ပုံများကို ခွဲခြားနိုင်စွမ်းရှိစေသည်။
 
-![Shape များကို ခွဲခြားနိုင်ပြီး၊ shape များကို အမျိုးမျိုးသော configuration များတွင် boat သို့မဟုတ် cat တစ်ခုကို ဖန်တီးနိုင်သည်](../../../../../translated_images/shapes-to-images.1a309f0ea88dd66fafa4da6d38e88806ce174cc6a88081efb32852230ed55de8.my.png)
+![Shape များကို ခွဲခြားနိုင်ပြီး၊ shape များကို အမျိုးမျိုးသော configuration များတွင် boat သို့မဟုတ် cat တစ်ခုကို ဖန်တီးနိုင်သည်](../../../../../translated_images/shapes-to-images.1a309f0ea88dd66f.my.png)
 
 ဒီဟာကို ကလေးများရဲ့ shape book ကဲ့သို့ စဉ်းစားနိုင်သည်။ Semi-circle, rectangle, triangle တို့ကို ခွဲခြားနိုင်ပြီးနောက်၊ shape များကို configuration အမျိုးမျိုးတွင် အသုံးပြုကာ sailboat သို့မဟုတ် cat ကို ဖန်တီးနိုင်သည်။ Image classifier ဟာ shape များကို ခွဲခြားနိုင်ပြီး၊ transfer learning ဟာ shape များကို အသုံးပြုကာ sailboat သို့မဟုတ် cat - သို့မဟုတ် ripe banana ကို ခွဲခြားနိုင်စွမ်းရှိစေသည်။
 

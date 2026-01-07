@@ -37,7 +37,7 @@ UART သည် စက် 2 စက်အကြား ဆက်သွယ်မှ�
 * စက် 1 သည် ၎င်း၏ Tx pin မှ ဒေတာကို ပို့ပြီး၊ ဒုတိယစက်၏ Rx pin မှ လက်ခံသည်။
 * စက် 1 သည် ၎င်း၏ Rx pin မှ ဒုတိယစက်၏ Tx pin မှ ပို့သော ဒေတာကို လက်ခံသည်။
 
-![UART with the Tx pin on one chip connected to the Rx pin on another, and vice versa](../../../../../translated_images/uart.d0dbd3fb9e3728c6ee1995c8206f3cdb13cdfd208f13745e8ef6854cab75e421.my.png)
+![UART with the Tx pin on one chip connected to the Rx pin on another, and vice versa](../../../../../translated_images/uart.d0dbd3fb9e3728c6.my.png)
 
 > 🎓 ဒေတာကို တစ်ဘစ်စီ ပို့ပေးပြီး၊ ၎င်းကို *serial* communication ဟုခေါ်သည်။ အများစုသော operating systems နှင့် microcontrollers တွင် *serial ports* ရှိပြီး၊ ၎င်းသည် serial data ကို ပို့ပေးနိုင်သော connection များကို သင်၏ code မှ အသုံးပြုနိုင်သည်။
 
@@ -66,7 +66,7 @@ SPI controllers တွင် 3 wires ရှိပြီး၊ peripheral တစ�
 | SCLK | Serial Clock | controller မှ clock signal ပို့ရန် wire |
 | CS   | Chip Select | controller တွင် peripherals တစ်ခုစီအတွက် wire များရှိပြီး၊ wire တစ်ခုစီသည် သက်ဆိုင် peripheral ၏ CS wire နှင့် ချိတ်ဆက်ထားသည်။ |
 
-![SPI with on controller and two peripherals](../../../../../translated_images/spi.297431d6f98b386b4ff88aea44ce9c1e7acfb1ef69c7e4e388a7aa97b6948e24.my.png)
+![SPI with on controller and two peripherals](../../../../../translated_images/spi.297431d6f98b386b.my.png)
 
 CS wire သည် peripheral တစ်ခုစီကို တစ်ချိန်တည်းတွင် active ဖြစ်စေပြီး၊ COPI နှင့် CIPO wires မှတဆင့် ဆက်သွယ်သည်။ controller သည် peripheral ကို ပြောင်းလဲရန်လိုအပ်သောအခါ၊ လက်ရှိ active ဖြစ်နေသော peripheral ၏ CS wire ကို deactivate လုပ်ပြီး၊ နောက်တစ်ခုဆက်သွယ်လိုသော peripheral ၏ wire ကို activate လုပ်သည်။
 
@@ -127,7 +127,7 @@ Sensors များသည် resistance သို့မဟုတ် capacitance
 
 မြေစိုထိုင်းဆ sensors များသည် electrical resistance သို့မဟုတ် capacitance ကို တိုင်းတာသည် - ၎င်းသည် မြေစိုထိုင်းဆအပေါ်သာမက မြေ၏အမျိုးအစားအပေါ်လည်း မူတည်သည်။ မြေတွင်ပါဝင်သော components များသည် electrical characteristics ကို ပြောင်းလဲနိုင်သည်။ ideal အနေဖြင့် sensors များကို calibration လုပ်သင့်သည် - ၎င်းသည် sensor မှ readings များကို သိပ္ပံနည်းကျနည်းလမ်းများဖြင့် ရရှိသော တိုင်းတာမှုများနှင့် နှိုင်းယှဉ်ခြင်းဖြစ်သည်။ ဥပမာ lab တစ်ခုသည် field တစ်ခု၏ gravimetric မြေစိုထိုင်းဆကို တစ်နှစ်လျှင် အချိန်အနည်းငယ်တွင် တိုင်းတာပြီး၊ ၎င်းတို့ကို sensor calibration အတွက် အသုံးပြုနိုင်သည်။
 
-![A graph of voltage vs soil moisture content](../../../../../translated_images/soil-moisture-to-voltage.df86d80cda1587008f312431ed5f79eb6c50c58d4fbc25a6763c5e9127c3106b.my.png)
+![A graph of voltage vs soil moisture content](../../../../../translated_images/soil-moisture-to-voltage.df86d80cda158700.my.png)
 
 အထက်ပါ graph သည် sensor ကို calibration လုပ်ရန် ပြသထားသည်။ voltage ကို capture လုပ်ပြီး၊ lab မှတဆင့် moist weight နှင့် dry weight ကို နှိုင်းယှဉ်ခြင်းဖြင့် တိုင်းတာသည် (wet weight ကို တိုင်းတာပြီး၊ အိုးဗန်တွင်ခြောက်သွေ့ပြီး dry weight ကို တိုင်းတာသည်။) အချို့သော readings များကို capture လုပ်ပြီး၊ graph ပေါ်တွင် plot လုပ်ကာ၊ points များကို line တစ်ခုဖြင့် fit လုပ်သည်။ ဤ line ကို IoT device မှ sensor readings များကို အမှန်တကယ် မြေစိုထိုင်းဆ measurement သို့ ပြောင်းလဲရန် အသုံးပြုနိုင်သည်။
 

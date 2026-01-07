@@ -39,7 +39,7 @@ Objektų atpažinimo modeliai gali būti naudojami atsargų tikrinimui – tiek 
 
 Pavyzdžiui, jei kamera nukreipta į lentyną, kurioje telpa 8 pomidorų pastos skardinės, o objektų atpažinimo modelis aptinka tik 7 skardines, viena skardinė trūksta ir ją reikia papildyti.
 
-![7 pomidorų pastos skardinės lentynoje, 4 viršutinėje eilėje, 3 apatinėje](../../../../../translated_images/stock-7-cans-tomato-paste.f86059cc573d7becaa89a0eafb9d2cd7e2fe37405a530fe565990e2333d0e4a1.lt.png)
+![7 pomidorų pastos skardinės lentynoje, 4 viršutinėje eilėje, 3 apatinėje](../../../../../translated_images/stock-7-cans-tomato-paste.f86059cc573d7bec.lt.png)
 
 Aukščiau pateiktame paveikslėlyje objektų atpažinimo modelis aptiko 7 pomidorų pastos skardines lentynoje, kurioje telpa 8 skardinės. IoT įrenginys ne tik gali siųsti pranešimą apie poreikį papildyti atsargas, bet ir nurodyti trūkstamos prekės vietą, kas yra svarbi informacija, jei naudojate robotus lentynoms papildyti.
 
@@ -51,7 +51,7 @@ Kartais lentynose gali būti netinkamos atsargos. Tai gali būti žmogaus klaida
 
 Objektų atpažinimo modeliai gali būti naudojami netikėtų prekių aptikimui, vėlgi įspėjant žmogų ar robotą, kad prekė būtų grąžinta, kai tik ji aptinkama.
 
-![Netinkama kūdikių kukurūzų skardinė pomidorų pastos lentynoje](../../../../../translated_images/stock-rogue-corn.be1f3ada8c4578544641af66671c1711a4c02297f14cc7f503354dae0d30a954.lt.png)
+![Netinkama kūdikių kukurūzų skardinė pomidorų pastos lentynoje](../../../../../translated_images/stock-rogue-corn.be1f3ada8c457854.lt.png)
 
 Aukščiau pateiktame paveikslėlyje kūdikių kukurūzų skardinė buvo padėta lentynoje šalia pomidorų pastos. Objektų atpažinimo modelis tai aptiko, leidžiant IoT įrenginiui pranešti žmogui ar robotui, kad skardinė būtų grąžinta į tinkamą vietą.
 

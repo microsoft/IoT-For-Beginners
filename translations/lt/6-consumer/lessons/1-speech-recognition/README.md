@@ -64,7 +64,7 @@ Mikrofonai būna įvairių tipų:
 
 * Juostiniai – Juostiniai mikrofonai yra panašūs į dinaminius mikrofonus, išskyrus tai, kad vietoj diafragmos jie turi metalinę juostelę. Ši juostelė juda magnetiniame lauke, generuodama elektros srovę. Kaip ir dinaminiai mikrofonai, juostiniai mikrofonai nereikalauja energijos.
 
-    ![Edmund Lowe, amerikiečių aktorius, stovi prie radijo mikrofono (pažymėto kaip (NBC) Blue Network), laikydamas scenarijų, 1942](../../../../../translated_images/ribbon-mic.eacc8e092c7441caee6d7a81e2f40e1675bf36269848964c7c09c9a9acb05127.lt.jpg)
+    ![Edmund Lowe, amerikiečių aktorius, stovi prie radijo mikrofono (pažymėto kaip (NBC) Blue Network), laikydamas scenarijų, 1942](../../../../../translated_images/ribbon-mic.eacc8e092c7441ca.lt.jpg)
 
 * Kondensatoriniai – Kondensatoriniai mikrofonai turi ploną metalinę diafragmą ir fiksuotą metalinę plokštelę. Elektrinė energija taikoma abiem, ir kai diafragma vibruoja, statinis krūvis tarp plokštelių keičiasi, generuodamas signalą. Kondensatoriniai mikrofonai reikalauja energijos – vadinamos *fantomine energija*.
 
@@ -84,7 +84,7 @@ Garsas yra analoginis signalas, turintis labai smulkią informaciją. Norint kon
 
 > 🎓 Mėginiuojimas – tai garso signalo konvertavimas į skaitmeninę vertę, kuri atspindi signalą tam tikru momentu.
 
-![Linijinė diagrama, rodanti signalą su diskrečiais taškais fiksuotais intervalais](../../../../../translated_images/sampling.6f4fadb3f2d9dfe7618f9edfe75a350e6b3f74293ec84f02ab69c19d2afe3d73.lt.png)
+![Linijinė diagrama, rodanti signalą su diskrečiais taškais fiksuotais intervalais](../../../../../translated_images/sampling.6f4fadb3f2d9dfe7.lt.png)
 
 Skaitmeninis garsas mėginiuojamas naudojant impulsų kodavimo moduliaciją (PCM). PCM apima signalo įtampos nuskaitymą ir artimiausios diskretinės vertės pasirinkimą pagal apibrėžtą dydį.
 
