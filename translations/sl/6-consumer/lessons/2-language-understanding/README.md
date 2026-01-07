@@ -126,7 +126,7 @@ Ko so entitete definirane, ustvarite namene. Ti se učijo s pomočjo modela na p
 
 Nato LUIS-u poveste, kateri deli teh stavkov ustrezajo entitetam:
 
-![Stavek "nastavi časovnik za 1 minuto in 12 sekund" razdeljen na entitete](../../../../../translated_images/sentence-as-intent-entities.301401696f9922590a99343f5c5d211b710b906f212f0d4d034cee3ffb610272.sl.png)
+![Stavek "nastavi časovnik za 1 minuto in 12 sekund" razdeljen na entitete](../../../../../translated_images/sentence-as-intent-entities.301401696f992259.sl.png)
 
 Stavek `nastavi časovnik za 1 minuto in 12 sekund` ima namen `nastavi časovnik`. Ima tudi 2 entiteti z 2 vrednostma:
 

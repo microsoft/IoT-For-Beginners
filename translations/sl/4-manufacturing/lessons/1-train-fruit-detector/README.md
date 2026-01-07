@@ -61,7 +61,7 @@ Najbolj napredni stroji za sortiranje zdaj izkoriščajo AI in ML, pri čemer up
 
 Tradicionalno programiranje vključuje uporabo podatkov in algoritma za pridobitev rezultata. Na primer, v zadnjem projektu ste uporabili GPS koordinate in geografsko ograjo, uporabili algoritem, ki ga je zagotovil Azure Maps, in dobili rezultat, ali je točka znotraj ali zunaj geografske ograje. Vnesete več podatkov, dobite več rezultatov.
 
-![Tradicionalni razvoj uporablja vhodne podatke in algoritem za pridobitev izhoda. Strojno učenje uporablja vhodne in izhodne podatke za usposabljanje modela, ta model pa lahko nato obdeluje nove vhodne podatke za ustvarjanje novih izhodov.](../../../../../translated_images/traditional-vs-ml.5c20c169621fa539ca84a2cd9a49f6ff7410b3a6c6b46c97ff2af3f99db3c66b.sl.png)
+![Tradicionalni razvoj uporablja vhodne podatke in algoritem za pridobitev izhoda. Strojno učenje uporablja vhodne in izhodne podatke za usposabljanje modela, ta model pa lahko nato obdeluje nove vhodne podatke za ustvarjanje novih izhodov.](../../../../../translated_images/traditional-vs-ml.5c20c169621fa539.sl.png)
 
 Strojno učenje to obrne – začnete s podatki in znanimi izhodi, algoritem strojnega učenja pa se uči iz podatkov. Nato lahko uporabite ta usposobljeni algoritem, imenovan *model strojnega učenja* ali *model*, in vnesete nove podatke za pridobitev novih rezultatov.
 
@@ -87,7 +87,7 @@ Za uspešno usposabljanje klasifikatorja slik potrebujete milijone slik. Kot se 
 
 Ko je klasifikator slik usposobljen za širok spekter slik, so njegove notranje funkcije odlične pri prepoznavanju oblik, barv in vzorcev. Prenosno učenje omogoča modelu, da uporabi to, kar se je že naučil pri prepoznavanju delov slik, za prepoznavanje novih slik.
 
-![Ko enkrat prepoznate oblike, jih lahko razporedite v različne konfiguracije, da ustvarite ladjo ali mačko.](../../../../../translated_images/shapes-to-images.1a309f0ea88dd66fafa4da6d38e88806ce174cc6a88081efb32852230ed55de8.sl.png)
+![Ko enkrat prepoznate oblike, jih lahko razporedite v različne konfiguracije, da ustvarite ladjo ali mačko.](../../../../../translated_images/shapes-to-images.1a309f0ea88dd66f.sl.png)
 
 To si lahko predstavljate kot otroške knjige z oblikami, kjer lahko, ko prepoznate polkrog, pravokotnik in trikotnik, prepoznate jadrnico ali mačko, odvisno od konfiguracije teh oblik. Klasifikator slik lahko prepozna oblike, prenosno učenje pa ga nauči, katera kombinacija predstavlja ladjo ali mačko – ali zrelo banano.
 

@@ -64,7 +64,7 @@ Mikrofoni so na voljo v različnih vrstah:
 
 * Trakasti - Trakasti mikrofoni so podobni dinamičnim mikrofonom, razen da imajo kovinski trak namesto membrane. Ta trak se premika v magnetnem polju in ustvarja električni tok. Tako kot dinamični mikrofoni trakasti mikrofoni ne potrebujejo napajanja za delovanje.
 
-    ![Edmund Lowe, ameriški igralec, stoji ob radijskem mikrofonu (označen za (NBC) Blue Network), drži scenarij, 1942](../../../../../translated_images/ribbon-mic.eacc8e092c7441caee6d7a81e2f40e1675bf36269848964c7c09c9a9acb05127.sl.jpg)
+    ![Edmund Lowe, ameriški igralec, stoji ob radijskem mikrofonu (označen za (NBC) Blue Network), drži scenarij, 1942](../../../../../translated_images/ribbon-mic.eacc8e092c7441ca.sl.jpg)
 
 * Kondenzatorski - Kondenzatorski mikrofoni imajo tanko kovinsko membrano in fiksno kovinsko ploščo. Elektrika se uporablja na obeh, in ko membrana vibrira, se statični naboj med ploščama spreminja, kar ustvarja signal. Kondenzatorski mikrofoni potrebujejo napajanje za delovanje – imenovano *Phantom power*.
 
@@ -84,7 +84,7 @@ Zvok je analogni signal, ki nosi zelo podrobne informacije. Da bi ta signal pret
 
 > 🎓 Vzorčenje je pretvorba zvočnega signala v digitalno vrednost, ki predstavlja signal v določenem trenutku.
 
-![Graf, ki prikazuje signal z diskretnimi točkami v fiksnih intervalih](../../../../../translated_images/sampling.6f4fadb3f2d9dfe7618f9edfe75a350e6b3f74293ec84f02ab69c19d2afe3d73.sl.png)
+![Graf, ki prikazuje signal z diskretnimi točkami v fiksnih intervalih](../../../../../translated_images/sampling.6f4fadb3f2d9dfe7.sl.png)
 
 Digitalni zvok se vzorči z uporabo modulacije pulznega kodeksa, ali PCM. PCM vključuje branje napetosti signala in izbiro najbližje diskretne vrednosti tej napetosti z uporabo določene velikosti.
 

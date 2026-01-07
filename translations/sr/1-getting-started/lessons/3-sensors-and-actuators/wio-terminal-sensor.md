@@ -17,7 +17,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Сензор светлости је уграђен у Wio Terminal и видљив је кроз прозирни пластични прозор на задњој страни.
 
-![Сензор светлости на задњој страни Wio Terminal-а](../../../../../translated_images/wio-light-sensor.b1f529f3c95f51654f2e2c1d2d4b55fe547d189f588c974f5c2462c728133840.sr.png)
+![Сензор светлости на задњој страни Wio Terminal-а](../../../../../translated_images/wio-light-sensor.b1f529f3c95f5165.sr.png)
 
 ## Програмирање сензора светлости
 

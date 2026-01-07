@@ -33,7 +33,7 @@ Povežite GPS senzor.
 
 1. Ko je Wio Terminal odklopljen od računalnika ali drugega vira napajanja, povežite drugi konec Grove kabla z levo Grove vtičnico na Wio Terminalu, ko gledate zaslon. To je vtičnica, ki je najbližje gumbu za vklop.
 
-    ![Grove GPS senzor povezan z levo vtičnico](../../../../../translated_images/wio-gps-sensor.19fd52b81ce58095d5deb3d4e5a1fdd88818d76569b00b1f0d740c92dc986525.sl.png)
+    ![Grove GPS senzor povezan z levo vtičnico](../../../../../translated_images/wio-gps-sensor.19fd52b81ce58095.sl.png)
 
 1. Postavite GPS senzor tako, da ima pritrjena antena vidljivost do neba - idealno ob odprtem oknu ali zunaj. Lažje je dobiti jasen signal, če anteni nič ne stoji na poti.
 

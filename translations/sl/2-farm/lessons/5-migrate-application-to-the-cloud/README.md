@@ -41,7 +41,7 @@ Strežniško, ali strežniško računalništvo, vključuje ustvarjanje majhnih b
 
 > 💁 Če ste že uporabljali sprožilce v bazi podatkov, si to lahko predstavljate kot nekaj podobnega - koda, ki se sproži ob dogodku, kot je vstavljanje vrstice.
 
-![Ko se hkrati pošlje veliko dogodkov, se strežniška storitev razširi, da jih vse obdeluje hkrati](../../../../../translated_images/serverless-scaling.f8c769adf0413fd17be1af4f07ff63016b347e2ff869be6c4abb211f9e93909d.sl.png)
+![Ko se hkrati pošlje veliko dogodkov, se strežniška storitev razširi, da jih vse obdeluje hkrati](../../../../../translated_images/serverless-scaling.f8c769adf0413fd1.sl.png)
 
 Vaša koda se zažene le, ko se dogodek zgodi, sicer ni aktivna. Dogodek se zgodi, vaša koda se naloži in zažene. To naredi strežniško zelo prilagodljivo - če se hkrati zgodi veliko dogodkov, lahko ponudnik oblaka zažene vašo funkcijo tolikokrat, kot je potrebno, hkrati na vseh razpoložljivih strežnikih. Slabost tega je, da če morate deliti informacije med dogodki, jih morate shraniti nekje, na primer v bazi podatkov, namesto da jih hranite v pomnilniku.
 
@@ -244,7 +244,7 @@ CLI za Azure Functions se lahko uporablja za ustvarjanje nove aplikacije funkcij
     VS Code. Initialize for optimal use with VS Code?
     ```
 
-    ![Obvestilo](../../../../../translated_images/vscode-azure-functions-init-notification.bd19b49229963edb5311fb3a79445ea469424759d2917ee2f2eb6f92d65d5086.sl.png)
+    ![Obvestilo](../../../../../translated_images/vscode-azure-functions-init-notification.bd19b49229963edb.sl.png)
 
     Izberite **Yes** v tem obvestilu.
 

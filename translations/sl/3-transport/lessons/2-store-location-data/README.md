@@ -66,7 +66,7 @@ Podatkovne baze so storitve, ki omogočajo shranjevanje in poizvedovanje podatko
 
 Prve podatkovne baze so bile Relacijski Sistemi za Upravljanje Podatkovnih Baz (RDBMS), ali relacijske podatkovne baze. Te so znane tudi kot SQL podatkovne baze po jeziku Structured Query Language (SQL), ki se uporablja za interakcijo z njimi za dodajanje, odstranjevanje, posodabljanje ali poizvedovanje podatkov. Te podatkovne baze sestavljajo shema - dobro definirana zbirka tabel podatkov, podobna preglednici. Vsaka tabela ima več poimenovanih stolpcev. Ko vstavite podatke, dodate vrstico v tabelo, pri čemer vnesete vrednosti v vsak stolpec. To ohranja podatke v zelo togi strukturi - čeprav lahko stolpce pustite prazne, morate ob dodajanju novega stolpca to storiti v podatkovni bazi, pri čemer morate vnesti vrednosti za obstoječe vrstice. Te podatkovne baze so relacijske - ena tabela lahko ima odnos do druge.
 
-![Relacijska podatkovna baza, kjer ID tabele uporabnikov ustreza stolpcu ID uporabnika v tabeli nakupov, ID tabele izdelkov pa ustreza stolpcu ID izdelka v tabeli nakupov](../../../../../translated_images/sql-database.be160f12bfccefd3ca718a66468c2c4c89c53e5aad4c295324d576da87f9dfdd.sl.png)
+![Relacijska podatkovna baza, kjer ID tabele uporabnikov ustreza stolpcu ID uporabnika v tabeli nakupov, ID tabele izdelkov pa ustreza stolpcu ID izdelka v tabeli nakupov](../../../../../translated_images/sql-database.be160f12bfccefd3.sl.png)
 
 Na primer, če shranite osebne podatke uporabnika v tabelo, bi imeli nekakšen notranji edinstven ID za vsakega uporabnika, ki se uporablja v vrstici v tabeli, ki vsebuje ime in naslov uporabnika. Če bi nato želeli shraniti druge podrobnosti o tem uporabniku, kot so njegovi nakupi, v drugo tabelo, bi imeli en stolpec v novi tabeli za ID tega uporabnika. Ko poiščete uporabnika, lahko uporabite njegov ID za pridobitev njegovih osebnih podatkov iz ene tabele in njegovih nakupov iz druge.
 
@@ -241,7 +241,7 @@ Vaša aplikacija funkcij mora zdaj vzpostaviti povezavo z blob shranjevanjem za 
 
 V tej lekciji boste uporabili Python SDK, da se naučite, kako delati z blob shranjevanjem.
 
-![Pošiljanje GPS telemetrije iz IoT naprave v IoT Hub, nato v Azure Functions prek sprožilca dogodka Event Hub, nato pa shranjevanje v blob shranjevanje](../../../../../translated_images/save-telemetry-to-storage-from-functions.ed3b1820980097f143d9f0570072da11304c2bc7906359dfa075b4d9b253c20f.sl.png)
+![Pošiljanje GPS telemetrije iz IoT naprave v IoT Hub, nato v Azure Functions prek sprožilca dogodka Event Hub, nato pa shranjevanje v blob shranjevanje](../../../../../translated_images/save-telemetry-to-storage-from-functions.ed3b1820980097f1.sl.png)
 
 Podatki bodo shranjeni kot JSON blob v naslednji obliki:
 

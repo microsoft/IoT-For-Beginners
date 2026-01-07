@@ -110,7 +110,7 @@ Vsaka točka na poligonu je določena kot par dolžine in širine v polju, te to
 
 Poligonovo polje koordinat vedno vsebuje 1 vnos več kot število točk na poligonu, pri čemer je zadnji vnos enak prvemu, kar zapre poligon. Na primer, za pravokotnik bi bilo 5 točk.
 
-![Pravokotnik s koordinatami](../../../../../translated_images/polygon-points.302193da381cb415f46c2c7a98496ee4be05d6c73d21238a89721ad93e121233.sl.png)
+![Pravokotnik s koordinatami](../../../../../translated_images/polygon-points.302193da381cb415.sl.png)
 
 Na zgornji sliki je pravokotnik. Koordinate poligona se začnejo zgoraj levo pri 47,-122, nato se premaknejo desno na 47,-121, nato navzdol na 46,-121, nato desno na 46, -122, nato nazaj gor na začetno točko pri 47, -122. To daje poligonu 5 točk - zgoraj levo, zgoraj desno, spodaj desno, spodaj levo, nato zgoraj levo, da ga zapre.
 
@@ -208,7 +208,7 @@ Pri izvedbi te zahteve lahko posredujete tudi vrednost, imenovano `searchBuffer`
 
 Ko so rezultati vrnjeni iz klica API-ja, je eden od delov rezultata `distance`, izmerjen do najbližje točke na robu geografske ograje, s pozitivno vrednostjo, če je točka zunaj geografske ograje, negativno, če je znotraj geografske ograje. Če je ta razdalja manjša od iskalnega bufferja, se vrne dejanska razdalja v metrih, sicer je vrednost 999 ali -999. 999 pomeni, da je točka zunaj geografske ograje za več kot iskalni buffer, -999 pomeni, da je znotraj geografske ograje za več kot iskalni buffer.
 
-![Geografska ograja z iskalnim bufferjem 50 m okoli nje](../../../../../translated_images/search-buffer-and-distance.e6a79af3898183c7b2ef6fbf12271b8b34afd23969bb946962b1b18d3d2635e8.sl.png)
+![Geografska ograja z iskalnim bufferjem 50 m okoli nje](../../../../../translated_images/search-buffer-and-distance.e6a79af3898183c7.sl.png)
 
 Na zgornji sliki ima geografska ograja iskalni buffer 50 m.
 

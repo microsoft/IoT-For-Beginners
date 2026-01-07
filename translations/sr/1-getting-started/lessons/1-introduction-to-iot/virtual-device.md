@@ -154,11 +154,11 @@ Hello World апликација за виртуелни IoT хардвер ће
 
 1. Када се VS Code покрене, активираће Python виртуелно окружење. Изабрано виртуелно окружење ће се појавити у доњој статусној траци:
 
-    ![VS Code приказује изабрано виртуелно окружење](../../../../../translated_images/vscode-virtual-env.8ba42e04c3d533cf677e16cbe5ed9a3b80f62c6964472dc84b6f940800f0909f.sr.png)
+    ![VS Code приказује изабрано виртуелно окружење](../../../../../translated_images/vscode-virtual-env.8ba42e04c3d533cf.sr.png)
 
 1. Ако је VS Code терминал већ покренут када се VS Code стартује, виртуелно окружење неће бити активирано у њему. Најлакше је угасити терминал користећи дугме **Kill the active terminal instance**:
 
-    ![VS Code дугме за гашење активног терминала](../../../../../translated_images/vscode-kill-terminal.1cc4de7c6f25ee08f423f0ead714e61d069fac1eb2089e97b8a7bbcb3d45fe5e.sr.png)
+    ![VS Code дугме за гашење активног терминала](../../../../../translated_images/vscode-kill-terminal.1cc4de7c6f25ee08.sr.png)
 
     Можете проверити да ли је терминал активирао виртуелно окружење тако што ће име виртуелног окружења бити префикс на терминалском промпту. На пример, може бити:
 
@@ -229,7 +229,7 @@ Hello World апликација за виртуелни IoT хардвер ће
 
 1. Биће потребно да покренете нови VS Code терминал одабиром дугмета **Create a new integrated terminal**. Ово је зато што CounterFit апликација ради у тренутном терминалу.
 
-    ![VS Code дугме за креирање новог интегрисаног терминала](../../../../../translated_images/vscode-new-terminal.77db8fc0f9cd31824b0e49a201beafe4ae4616d6c7339992cb2819e789b3eff9.sr.png)
+    ![VS Code дугме за креирање новог интегрисаног терминала](../../../../../translated_images/vscode-new-terminal.77db8fc0f9cd3182.sr.png)
 
 1. У овом новом терминалу, покрените `app.py` датотеку као и раније. Статус CounterFit-а ће се променити у **Connected** и LED ће се упалити.
 

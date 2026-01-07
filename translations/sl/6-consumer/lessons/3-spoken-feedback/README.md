@@ -37,7 +37,7 @@ V tej lekciji bomo obravnavali:
 
 Pretvorba besedila v govor, kot že ime pove, je proces pretvorbe besedila v zvok, ki vsebuje besedilo kot izgovorjene besede. Osnovno načelo je razčleniti besede v besedilu na njihove sestavne zvoke (imenovane foneme) in sestaviti zvok za te zvoke, bodisi z uporabo vnaprej posnetega zvoka bodisi z zvokom, ki ga generirajo modeli umetne inteligence.
 
-![Tri faze tipičnih sistemov za pretvorbo besedila v govor](../../../../../translated_images/tts-overview.193843cf3f5ee09f8b3371a9fdaeb0f116698a07ca69daaa77158da4800e5453.sl.png)
+![Tri faze tipičnih sistemov za pretvorbo besedila v govor](../../../../../translated_images/tts-overview.193843cf3f5ee09f.sl.png)
 
 Sistemi za pretvorbo besedila v govor običajno vključujejo 3 faze:
 

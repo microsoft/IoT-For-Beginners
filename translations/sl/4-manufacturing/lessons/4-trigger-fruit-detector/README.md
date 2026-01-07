@@ -115,7 +115,7 @@ Za prototip boste vse to izvedli na eni napravi. Če uporabljate mikrokrmilnik, 
 
 IoT naprava potrebuje nekakšen sprožilec, ki označuje, kdaj je sadje pripravljeno za klasifikacijo. Eden od sprožilcev za to bi bil merjenje, kdaj je sadje na pravem mestu na tekočem traku, z merjenjem razdalje do senzorja.
 
-![Senzorji bližine pošiljajo laserske žarke na predmete, kot so banane, in merijo čas, ki ga žarek potrebuje, da se odbije nazaj](../../../../../translated_images/proximity-sensor.f5cd752c77fb62fea000156233b32fd24fad3707ec69b8bdd8d312b7af85156d.sl.png)
+![Senzorji bližine pošiljajo laserske žarke na predmete, kot so banane, in merijo čas, ki ga žarek potrebuje, da se odbije nazaj](../../../../../translated_images/proximity-sensor.f5cd752c77fb62fe.sl.png)
 
 Senzorji bližine se lahko uporabljajo za merjenje razdalje med senzorjem in predmetom. Običajno oddajajo žarek elektromagnetnega sevanja, kot je laserski žarek ali infrardeča svetloba, nato zaznajo sevanje, ki se odbije od predmeta. Čas med oddajo laserskega žarka in signalom, ki se odbije nazaj, se lahko uporabi za izračun razdalje do senzorja.
 

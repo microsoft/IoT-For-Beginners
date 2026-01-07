@@ -13,7 +13,7 @@ Kombinacija napovedi in njihovih obrisnih okvirjev se lahko uporabi za štetje z
 
 ## Štetje zalog
 
-![4 pločevinke paradižnikovega koncentrata z obrisnimi okvirji okoli vsake pločevinke](../../../../../translated_images/rpi-stock-with-bounding-boxes.b5540e2ecb7cd49f1271828d3be412671d950e87625c5597ea97c90f11e01097.sl.jpg)
+![4 pločevinke paradižnikovega koncentrata z obrisnimi okvirji okoli vsake pločevinke](../../../../../translated_images/rpi-stock-with-bounding-boxes.b5540e2ecb7cd49f.sl.jpg)
 
 Na zgornji sliki imajo obrisni okvirji majhno prekrivanje. Če bi bilo to prekrivanje veliko večje, bi lahko obrisni okvirji nakazovali isti predmet. Da pravilno preštejete predmete, morate ignorirati okvirje z znatnim prekrivanjem.
 

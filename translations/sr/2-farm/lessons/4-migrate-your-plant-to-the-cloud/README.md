@@ -72,7 +72,7 @@ IoT уређај је комуницирао са јавним MQTT брокер
 
 Azure је облак за програмере од Microsoft-а, и то је облак који ћете користити за ове лекције. Видео испод даје кратак преглед Azure-а:
 
-[![Преглед Azure видеа](../../../../../translated_images/what-is-azure-video-thumbnail.20174db09e03bbb87d213f928d3cb27410305d2e567e952827de8478dbda959b.sr.png)](https://www.microsoft.com/videoplayer/embed/RE4Ibng?WT.mc_id=academic-17441-jabenn)
+[![Преглед Azure видеа](../../../../../translated_images/what-is-azure-video-thumbnail.20174db09e03bbb8.sr.png)](https://www.microsoft.com/videoplayer/embed/RE4Ibng?WT.mc_id=academic-17441-jabenn)
 
 ## Креирање претплате за облак
 

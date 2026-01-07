@@ -130,7 +130,7 @@ Za to lekcijo boste potrebovali prevajalski vir. Uporabili boste REST API za pre
 
 V idealnem svetu bi morala vaša celotna aplikacija razumeti čim več različnih jezikov, od poslušanja govora, do razumevanja jezika, do odgovarjanja z govorom. To je veliko dela, zato lahko prevajalske storitve pospešijo čas dostave vaše aplikacije.
 
-![Arhitektura pametnega časovnika, ki prevaja japonščino v angleščino, obdeluje v angleščini in nato prevaja nazaj v japonščino](../../../../../translated_images/translated-smart-timer.08ac20057fdc5c3778ed41cb425dca5d7fbcd4584b6da7b73ca67115a5b8a883.sl.png)
+![Arhitektura pametnega časovnika, ki prevaja japonščino v angleščino, obdeluje v angleščini in nato prevaja nazaj v japonščino](../../../../../translated_images/translated-smart-timer.08ac20057fdc5c37.sl.png)
 
 Predstavljajte si, da gradite pametni časovnik, ki uporablja angleščino od začetka do konca, razume govorjeno angleščino in jo pretvori v besedilo, izvaja razumevanje jezika v angleščini, sestavlja odgovore v angleščini in odgovarja z govorom v angleščini. Če bi želeli dodati podporo za japonščino, bi lahko začeli s prevajanjem govorjene japonščine v angleško besedilo, nato pa ohranili jedro aplikacije enako, nato pa prevedli besedilo odgovora v japonščino, preden bi odgovorili z govorom. To bi vam omogočilo hitro dodajanje podpore za japonščino, kasneje pa lahko razširite na popolno podporo za japonščino od začetka do konca.
 
