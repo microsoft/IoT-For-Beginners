@@ -118,7 +118,7 @@ File சேமிப்பு என்பது cloud இல் கோப்ப
 
 இந்த பாடத்தில், blob சேமிப்புடன் தொடர்பு கொள்ள Python SDK ஐப் பயன்படுத்துவீர்கள்.
 
-![IoT சாதனத்திலிருந்து GPS தகவல்தொகுப்பை IoT Hub-க்கு அனுப்பி, பின்னர் Azure Functions-க்கு ஒரு event hub trigger மூலம், பின்னர் blob சேமிப்பில் சேமிக்க](../../../../../translated_images/save-telemetry-to-storage-from-functions.ed3b1820980097f143d9f0570072da11304c2bc7906359dfa075b4d9b253c20f.ta.png)
+![IoT சாதனத்திலிருந்து GPS தகவல்தொகுப்பை IoT Hub-க்கு அனுப்பி, பின்னர் Azure Functions-க்கு ஒரு event hub trigger மூலம், பின்னர் blob சேமிப்பில் சேமிக்க](../../../../../translated_images/save-telemetry-to-storage-from-functions.ed3b1820980097f1.ta.png)
 
 தரவு JSON blob ஆக பின்வரும் வடிவத்தில் சேமிக்கப்படும்:
 

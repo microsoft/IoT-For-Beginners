@@ -21,7 +21,7 @@ IoT இல் **T** என்பது **வஸ்துக்கள்** என
 
 ## கிட்களை வாங்கவும்
 
-![Seeed studios லோகோ](../../translated_images/seeed-logo.74732b6b482b6e8e8bdcc06f0541fc92b1dabf5e3e8f37afb91e04393a8cb977.ta.png)
+![Seeed studios லோகோ](../../translated_images/seeed-logo.74732b6b482b6e8e.ta.png)
 
 Seeed Studios மிகவும் அன்புடன் அனைத்து ஹார்ட்வேரங்களையும் எளிதில் வாங்கக்கூடிய கிட்களாகக் கொடுத்துள்ளது:
 
@@ -29,7 +29,7 @@ Seeed Studios மிகவும் அன்புடன் அனைத்த�
 
 **[Seeed மற்றும் Microsoft உடன் தொடக்கநிலை IoT - Wio Terminal Starter Kit](https://www.seeedstudio.com/IoT-for-beginners-with-Seeed-and-Microsoft-Wio-Terminal-Starter-Kit-p-5006.html)**
 
-[![Wio Terminal ஹார்ட்வேர கிட்](../../translated_images/wio-hardware-kit.4c70c48b85e4283a1d73e248d87d49587c0cd077eeb69cb3eca803166f63c9a5.ta.png)](https://www.seeedstudio.com/IoT-for-beginners-with-Seeed-and-Microsoft-Wio-Terminal-Starter-Kit-p-5006.html)
+[![Wio Terminal ஹார்ட்வேர கிட்](../../translated_images/wio-hardware-kit.4c70c48b85e4283a.ta.png)](https://www.seeedstudio.com/IoT-for-beginners-with-Seeed-and-Microsoft-Wio-Terminal-Starter-Kit-p-5006.html)
 
 ### Raspberry Pi
 
