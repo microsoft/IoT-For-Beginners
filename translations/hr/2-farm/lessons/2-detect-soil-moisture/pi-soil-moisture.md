@@ -37,7 +37,7 @@ Spojite senzor vlažnosti tla.
 
 1. Umetnite senzor vlažnosti tla u tlo. Na senzoru postoji oznaka 'najviša pozicija' - bijela linija preko senzora. Umetnite senzor do te linije, ali ne preko nje.
 
-![Grove senzor vlažnosti tla u tlu](../../../../../translated_images/soil-moisture-sensor-in-soil.bfad91002bda5e960f8c51ee64b02ee59b32c8c717e3515a2c945f33e614e403.hr.png)
+![Grove senzor vlažnosti tla u tlu](../../../../../translated_images/soil-moisture-sensor-in-soil.bfad91002bda5e96.hr.png)
 
 ## Programiranje senzora vlažnosti tla
 

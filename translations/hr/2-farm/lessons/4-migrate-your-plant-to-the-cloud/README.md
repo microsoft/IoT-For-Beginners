@@ -72,7 +72,7 @@ Pružatelj usluga u oblaku tada može koristiti ekonomiju razmjera kako bi smanj
 
 Azure je oblak za programere iz Microsofta, i to je oblak koji ćete koristiti u ovim lekcijama. Video ispod daje kratak pregled Azurea:
 
-[![Pregled Azure videa](../../../../../translated_images/what-is-azure-video-thumbnail.20174db09e03bbb87d213f928d3cb27410305d2e567e952827de8478dbda959b.hr.png)](https://www.microsoft.com/videoplayer/embed/RE4Ibng?WT.mc_id=academic-17441-jabenn)
+[![Pregled Azure videa](../../../../../translated_images/what-is-azure-video-thumbnail.20174db09e03bbb8.hr.png)](https://www.microsoft.com/videoplayer/embed/RE4Ibng?WT.mc_id=academic-17441-jabenn)
 
 ## Kreiranje pretplate na oblak
 

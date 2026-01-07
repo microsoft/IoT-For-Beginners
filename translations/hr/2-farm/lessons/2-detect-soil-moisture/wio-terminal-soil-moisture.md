@@ -33,11 +33,11 @@ Povežite senzor vlažnosti tla.
 
 1. Dok je Wio Terminal odspojen od vašeg računala ili drugog izvora napajanja, povežite drugi kraj Grove kabela s desnom Grove utičnicom na Wio Terminalu gledajući prema ekranu. To je utičnica najudaljenija od gumba za napajanje.
 
-![Grove senzor vlažnosti tla povezan s desnom utičnicom](../../../../../translated_images/wio-soil-moisture-sensor.46919b61c3f6cb7497662251b29038ee0e57a4c8b9d071feb996c3b0d7f65aaf.hr.png)
+![Grove senzor vlažnosti tla povezan s desnom utičnicom](../../../../../translated_images/wio-soil-moisture-sensor.46919b61c3f6cb74.hr.png)
 
 1. Umetnite senzor vlažnosti tla u tlo. Senzor ima 'liniju najvišeg položaja' - bijelu crtu preko senzora. Umetnite senzor do, ali ne preko ove linije.
 
-![Grove senzor vlažnosti tla u tlu](../../../../../translated_images/soil-moisture-sensor-in-soil.bfad91002bda5e960f8c51ee64b02ee59b32c8c717e3515a2c945f33e614e403.hr.png)
+![Grove senzor vlažnosti tla u tlu](../../../../../translated_images/soil-moisture-sensor-in-soil.bfad91002bda5e96.hr.png)
 
 1. Sada možete povezati Wio Terminal s vašim računalom.
 

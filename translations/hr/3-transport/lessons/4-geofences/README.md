@@ -110,7 +110,7 @@ Svaka točka na poligonu definirana je kao par dužine i širine u nizu, a te to
 
 Niz koordinata poligona uvijek ima 1 unos više od broja točaka na poligonu, pri čemu je posljednji unos isti kao i prvi, zatvarajući poligon. Na primjer, za pravokutnik bi bilo 5 točaka.
 
-![Pravokutnik s koordinatama](../../../../../translated_images/polygon-points.302193da381cb415f46c2c7a98496ee4be05d6c73d21238a89721ad93e121233.hr.png)
+![Pravokutnik s koordinatama](../../../../../translated_images/polygon-points.302193da381cb415.hr.png)
 
 Na slici iznad nalazi se pravokutnik. Koordinate poligona počinju u gornjem lijevom kutu na 47,-122, zatim se pomiču desno na 47,-121, zatim dolje na 46,-121, zatim desno na 46,-122, zatim natrag gore na početnu točku na 47,-122. To daje poligonu 5 točaka - gornji lijevi, gornji desni, donji desni, donji lijevi, zatim gornji lijevi za zatvaranje.
 
@@ -208,7 +208,7 @@ Kada napravite ovaj zahtjev, možete također proslijediti vrijednost zvanu `sea
 
 Kada se rezultati vrate iz API poziva, jedan od dijelova rezultata je `distance` izmjeren do najbliže točke na rubu geooograde, s pozitivnom vrijednošću ako je točka izvan geooograde, negativnom ako je unutar geooograde. Ako je ova udaljenost manja od search buffer-a, stvarna udaljenost se vraća u metrima, inače je vrijednost 999 ili -999. 999 znači da je točka izvan geooograde za više od search buffer-a, -999 znači da je unutar geooograde za više od search buffer-a.
 
-![Geooograda s 50m search bufferom oko nje](../../../../../translated_images/search-buffer-and-distance.e6a79af3898183c7b2ef6fbf12271b8b34afd23969bb946962b1b18d3d2635e8.hr.png)
+![Geooograda s 50m search bufferom oko nje](../../../../../translated_images/search-buffer-and-distance.e6a79af3898183c7.hr.png)
 
 Na slici iznad, geooograda ima 50m search buffer.
 

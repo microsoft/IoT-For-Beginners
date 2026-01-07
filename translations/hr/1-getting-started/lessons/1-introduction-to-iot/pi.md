@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 [Raspberry Pi](https://raspberrypi.org) je računalo na jednoj ploči. Možete dodati senzore i aktuatore koristeći širok raspon uređaja i ekosustava, a za ove lekcije koristit ćemo hardverski ekosustav nazvan [Grove](https://www.seeedstudio.com/category/Grove-c-1003.html). Kodirat ćete svoj Pi i pristupati Grove senzorima koristeći Python.
 
-![Raspberry Pi 4](../../../../../translated_images/raspberry-pi-4.fd4590d308c3d456db1327e86b395ddcd735513267aafd4879ea2785f7792eac.hr.jpg)
+![Raspberry Pi 4](../../../../../translated_images/raspberry-pi-4.fd4590d308c3d456.hr.jpg)
 
 ## Postavljanje
 
@@ -112,7 +112,7 @@ Postavite headless Pi OS.
 
 1. U Raspberry Pi Imageru odaberite gumb **CHOOSE OS**, zatim odaberite *Raspberry Pi OS (Other)*, a potom *Raspberry Pi OS Lite (32-bit)*.
 
-    ![Raspberry Pi Imager s odabranim Raspberry Pi OS Lite](../../../../../translated_images/raspberry-pi-imager.24aedeab9e233d841a1504ed7cfeb871b1f8e1134cfcd8370e7f60a092056be2.hr.png)
+    ![Raspberry Pi Imager s odabranim Raspberry Pi OS Lite](../../../../../translated_images/raspberry-pi-imager.24aedeab9e233d84.hr.png)
 
     > 💁 Raspberry Pi OS Lite je verzija Raspberry Pi OS-a koja nema desktop UI ili alate bazirane na UI-u. Ovi nisu potrebni za headless Pi i čine instalaciju manjom i vrijeme pokretanja bržim.
 
@@ -251,7 +251,7 @@ Kreirajte Hello World aplikaciju.
 
 1. Otvorite ovu mapu u VS Code odabirom *File -> Open...* i odabirom mape *nightlight*, zatim odaberite **OK**.
 
-    ![Dijalog za otvaranje u VS Code prikazuje mapu nightlight](../../../../../translated_images/vscode-open-nightlight-remote.d3d2a4011e30d535c4b70084f6e94bf6b5b1327fd8e77affe64465ac151ee766.hr.png)
+    ![Dijalog za otvaranje u VS Code prikazuje mapu nightlight](../../../../../translated_images/vscode-open-nightlight-remote.d3d2a4011e30d535.hr.png)
 
 1. Otvorite datoteku `app.py` iz VS Code explorer-a i dodajte sljedeći kod:
 

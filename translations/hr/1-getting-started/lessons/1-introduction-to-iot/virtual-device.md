@@ -154,11 +154,11 @@ Stvorite Python aplikaciju koja ispisuje `"Hello World"` na konzolu.
 
 1. Kada se VS Code pokrene, aktivirat će Python virtualno okruženje. Odabrano virtualno okruženje pojavit će se u donjoj statusnoj traci:
 
-    ![VS Code prikazuje odabrano virtualno okruženje](../../../../../translated_images/vscode-virtual-env.8ba42e04c3d533cf677e16cbe5ed9a3b80f62c6964472dc84b6f940800f0909f.hr.png)
+    ![VS Code prikazuje odabrano virtualno okruženje](../../../../../translated_images/vscode-virtual-env.8ba42e04c3d533cf.hr.png)
 
 1. Ako je VS Code Terminal već pokrenut kada se VS Code pokrene, neće imati aktivirano virtualno okruženje u njemu. Najlakše je zatvoriti terminal pomoću gumba **Kill the active terminal instance**:
 
-    ![VS Code gumb za zatvaranje aktivnog terminala](../../../../../translated_images/vscode-kill-terminal.1cc4de7c6f25ee08f423f0ead714e61d069fac1eb2089e97b8a7bbcb3d45fe5e.hr.png)
+    ![VS Code gumb za zatvaranje aktivnog terminala](../../../../../translated_images/vscode-kill-terminal.1cc4de7c6f25ee08.hr.png)
 
     Možete prepoznati je li terminal aktivirao virtualno okruženje jer će ime virtualnog okruženja biti prefiks na terminalskom promptu. Na primjer, moglo bi biti:
 
@@ -229,7 +229,7 @@ Kao drugi korak 'Hello World', pokrenut ćete CounterFit aplikaciju i povezati s
 
 1. Morat ćete pokrenuti novi VS Code terminal odabirom gumba **Create a new integrated terminal**. To je zato što CounterFit aplikacija radi u trenutnom terminalu.
 
-    ![VS Code gumb za stvaranje novog integriranog terminala](../../../../../translated_images/vscode-new-terminal.77db8fc0f9cd31824b0e49a201beafe4ae4616d6c7339992cb2819e789b3eff9.hr.png)
+    ![VS Code gumb za stvaranje novog integriranog terminala](../../../../../translated_images/vscode-new-terminal.77db8fc0f9cd3182.hr.png)
 
 1. U ovom novom terminalu pokrenite datoteku `app.py` kao i prije. Status CounterFit-a promijenit će se u **Connected** i LED-ica će se upaliti.
 

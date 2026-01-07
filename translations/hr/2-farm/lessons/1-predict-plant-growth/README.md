@@ -65,7 +65,7 @@ Svaka vrsta biljke ima različite vrijednosti za osnovnu, optimalnu i maksimalnu
 
 ✅ Istražite. Za bilo koje biljke koje imate u svom vrtu, školi ili lokalnom parku, pokušajte pronaći osnovnu temperaturu.
 
-![Grafikon koji prikazuje stopu rasta koja raste s porastom temperature, a zatim opada kada temperatura postane previsoka](../../../../../translated_images/plant-growth-temp-graph.c6d69c9478e6ca832baa8dcb8d4adcbb67304074ce50e94ac8faae95975177f9.hr.png)
+![Grafikon koji prikazuje stopu rasta koja raste s porastom temperature, a zatim opada kada temperatura postane previsoka](../../../../../translated_images/plant-growth-temp-graph.c6d69c9478e6ca83.hr.png)
 
 Gornji grafikon prikazuje primjer stope rasta u odnosu na temperaturu. Do osnovne temperature nema rasta. Stopa rasta povećava se do optimalne temperature, a zatim opada nakon što dosegne vrhunac. 
 
@@ -91,7 +91,7 @@ Ovaj kod otvara CSV datoteku, a zatim dodaje novi redak na kraju. Redak sadrži 
 
     
 > 💁 Ako koristite virtualni IoT uređaj, označite opciju za nasumične vrijednosti i postavite raspon kako biste izbjegli dobivanje iste temperature svaki put kada se vrati vrijednost temperature.
-    ![Označite opciju za nasumične vrijednosti i postavite raspon](../../../../../translated_images/select-the-random-checkbox-and-set-a-range.32cf4bc7c12e797f8c76616b10c7c23a6592321bb1a6310e0b481e72f97d23b3.hr.png) 
+    ![Označite opciju za nasumične vrijednosti i postavite raspon](../../../../../translated_images/select-the-random-checkbox-and-set-a-range.32cf4bc7c12e797f.hr.png) 
 
     > 💁 Ako želite pokrenuti ovo cijeli dan, trebate osigurati da računalo na kojem se izvršava vaš serverski kod neće prijeći u stanje mirovanja, bilo promjenom postavki napajanja ili pokretanjem nečega poput [ovog Python skripta za održavanje sustava aktivnim](https://github.com/jaqsparow/keep-system-active).
     

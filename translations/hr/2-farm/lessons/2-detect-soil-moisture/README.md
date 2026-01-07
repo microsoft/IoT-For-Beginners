@@ -37,7 +37,7 @@ UART uključuje fizičke sklopove koji omogućuju komunikaciju između dva uređ
 * Uređaj 1 šalje podatke sa svog Tx pina, koje prima uređaj 2 na svom Rx pin
 * Uređaj 1 prima podatke na svom Rx pin koje šalje uređaj 2 sa svog Tx pin
 
-![UART s Tx pinom na jednom čipu povezan s Rx pinom na drugom, i obrnuto](../../../../../translated_images/uart.d0dbd3fb9e3728c6ee1995c8206f3cdb13cdfd208f13745e8ef6854cab75e421.hr.png)
+![UART s Tx pinom na jednom čipu povezan s Rx pinom na drugom, i obrnuto](../../../../../translated_images/uart.d0dbd3fb9e3728c6.hr.png)
 
 > 🎓 Podaci se šalju jedan bit po jedan, što se naziva *serijska* komunikacija. Većina operativnih sustava i mikrokontrolera ima *serijske portove*, tj. veze koje mogu slati i primati serijske podatke dostupne vašem kodu.
 
@@ -66,7 +66,7 @@ SPI kontroleri koriste 3 žice, uz 1 dodatnu žicu po periferiji. Periferije kor
 | SCLK | Serijski sat | Ova žica šalje signal sata brzinom koju postavlja kontroler. |
 | CS   | Odabir čipa | Kontroler ima više žica, jednu po periferiji, i svaka žica povezuje se s CS žicom na odgovarajućoj periferiji. |
 
-![SPI s jednim kontrolerom i dvije periferije](../../../../../translated_images/spi.297431d6f98b386b4ff88aea44ce9c1e7acfb1ef69c7e4e388a7aa97b6948e24.hr.png)
+![SPI s jednim kontrolerom i dvije periferije](../../../../../translated_images/spi.297431d6f98b386b.hr.png)
 
 CS žica se koristi za aktiviranje jedne periferije u isto vrijeme, komunicirajući preko COPI i CIPO žica. Kada kontroler treba promijeniti periferiju, deaktivira CS žicu povezanu s trenutno aktivnom periferijom, a zatim aktivira žicu povezanu s periferijom s kojom želi komunicirati sljedeće.
 
@@ -127,13 +127,13 @@ Vlaga tla mjeri se pomoću gravimetrijskog ili volumetrijskog sadržaja vode.
 
 Senzori vlage tla mjere električni otpor ili kapacitet - to ne varira samo s vlagom tla, već i s vrstom tla jer komponente u tlu mogu promijeniti njegove električne karakteristike. Idealno bi bilo da se senzori kalibriraju - tj. uzimanje očitanja sa senzora i uspoređivanje s mjerenjima dobivenim znanstvenijim pristupom. Na primjer, laboratorij može izračunati gravimetrijsku vlagu tla koristeći uzorke specifičnog polja uzete nekoliko puta godišnje, a ti brojevi se koriste za kalibraciju senzora, povezujući očitanje senzora s gravimetrijskom vlagom tla.
 
-![Graf napona u odnosu na sadržaj vlage tla](../../../../../translated_images/soil-moisture-to-voltage.df86d80cda1587008f312431ed5f79eb6c50c58d4fbc25a6763c5e9127c3106b.hr.png)
+![Graf napona u odnosu na sadržaj vlage tla](../../../../../translated_images/soil-moisture-to-voltage.df86d80cda158700.hr.png)
 
 Gornji graf pokazuje kako kalibrirati senzor. Napon se bilježi za uzorak tla koji se zatim mjeri u laboratoriju uspoređivanjem težine vlažnog tla s težinom suhog tla (mjerenjem težine vlažnog tla, zatim sušenjem u pećnici i mjerenjem suhog tla). Nakon što se uzme nekoliko očitanja, to se može prikazati na grafu i linija se može prilagoditi točkama. Ova linija se zatim može koristiti za pretvaranje očitanja senzora vlage tla dobivenih IoT uređajem u stvarna mjerenja vlage tla.
 
 💁 Kod rezistivnih senzora vlage tla, napon raste kako vlaga tla raste. Kod kapacitivnih senzora vlage tla, napon opada kako vlaga tla raste, pa bi grafovi za njih padali, a ne rasli.
 
-![Vrijednost vlage tla interpolirana iz grafa](../../../../../translated_images/soil-moisture-to-voltage-with-reading.681cb3e1f8b68caf5547dbf1415851c82e201edfb78face16fc98da4051ed9b2.hr.png)
+![Vrijednost vlage tla interpolirana iz grafa](../../../../../translated_images/soil-moisture-to-voltage-with-reading.681cb3e1f8b68caf.hr.png)
 
 Gornji graf pokazuje očitanje napona sa senzora vlage tla, a praćenjem tog očitanja do linije na grafu može se izračunati stvarna vlaga tla.
 

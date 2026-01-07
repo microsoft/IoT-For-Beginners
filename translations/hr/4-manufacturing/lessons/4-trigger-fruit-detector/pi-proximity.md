@@ -35,7 +35,7 @@ Povežite senzor Time of Flight.
 
 1. Kada je Raspberry Pi isključen, spojite drugi kraj Grove kabela na jednu od I²C utičnica označenih **I²C** na Grove Base hatu pričvršćenom na Pi. Ove utičnice nalaze se u donjem redu, na suprotnom kraju od GPIO pinova i pored utora za kabel kamere.
 
-![Grove Time of Flight senzor povezan s I²C utičnicom](../../../../../translated_images/pi-time-of-flight-sensor.58c8dc04eb3bfb57a7c3019f031433ef4d798d4d7603d565afbf6f3802840dba.hr.png)
+![Grove Time of Flight senzor povezan s I²C utičnicom](../../../../../translated_images/pi-time-of-flight-sensor.58c8dc04eb3bfb57.hr.png)
 
 ## Programiranje senzora Time of Flight
 
@@ -106,7 +106,7 @@ Programirajte uređaj.
 
     Daljinomjer se nalazi na stražnjoj strani senzora, pa pazite da koristite ispravnu stranu prilikom mjerenja udaljenosti.
 
-    ![Daljinomjer na stražnjoj strani senzora Time of Flight usmjeren prema banani](../../../../../translated_images/time-of-flight-banana.079921ad8b1496e4525dc26b4cdc71a076407aba3e72ba113ba2e38febae92c5.hr.png)
+    ![Daljinomjer na stražnjoj strani senzora Time of Flight usmjeren prema banani](../../../../../translated_images/time-of-flight-banana.079921ad8b1496e4.hr.png)
 
 > 💁 Ovaj kod možete pronaći u mapi [code-proximity/pi](../../../../../4-manufacturing/lessons/4-trigger-fruit-detector/code-proximity/pi).
 

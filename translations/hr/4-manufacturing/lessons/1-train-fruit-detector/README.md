@@ -61,7 +61,7 @@ Najnovije evolucije ovih strojeva za sortiranje koriste AI i ML, koristeći mode
 
 Tradicionalno programiranje uključuje uzimanje podataka, primjenu algoritma na te podatke i dobivanje rezultata. Na primjer, u prošlom projektu uzeli ste GPS koordinate i geozonu, primijenili algoritam koji je pružio Azure Maps i dobili rezultat o tome je li točka unutar ili izvan geozone. Unesete više podataka, dobijete više rezultata.
 
-![Tradicionalni razvoj uzima ulazne podatke i algoritam te daje izlaz. Strojno učenje koristi ulazne i izlazne podatke za obuku modela, a taj model može uzeti nove ulazne podatke za generiranje novih izlaza](../../../../../translated_images/traditional-vs-ml.5c20c169621fa539ca84a2cd9a49f6ff7410b3a6c6b46c97ff2af3f99db3c66b.hr.png)
+![Tradicionalni razvoj uzima ulazne podatke i algoritam te daje izlaz. Strojno učenje koristi ulazne i izlazne podatke za obuku modela, a taj model može uzeti nove ulazne podatke za generiranje novih izlaza](../../../../../translated_images/traditional-vs-ml.5c20c169621fa539.hr.png)
 
 Strojno učenje to preokreće - počinjete s podacima i poznatim izlazima, a algoritam strojnog učenja uči iz podataka. Zatim možete uzeti taj obučeni algoritam, nazvan *model strojnog učenja* ili *model*, i unijeti nove podatke te dobiti nove rezultate.
 
@@ -87,7 +87,7 @@ Da biste uspješno obučili klasifikator slika, trebate milijune slika. Kako se 
 
 Jednom kada je klasifikator slika obučen za širok raspon slika, njegove unutarnje funkcije su izvrsne u prepoznavanju oblika, boja i uzoraka. Transferno učenje omogućuje modelu da iskoristi ono što je već naučio u prepoznavanju dijelova slike i koristi to za prepoznavanje novih slika.
 
-![Jednom kada možete prepoznati oblike, oni se mogu složiti u različite konfiguracije kako bi se stvorio brod ili mačka](../../../../../translated_images/shapes-to-images.1a309f0ea88dd66fafa4da6d38e88806ce174cc6a88081efb32852230ed55de8.hr.png)
+![Jednom kada možete prepoznati oblike, oni se mogu složiti u različite konfiguracije kako bi se stvorio brod ili mačka](../../../../../translated_images/shapes-to-images.1a309f0ea88dd66f.hr.png)
 
 Možete to zamisliti kao dječje knjige s oblicima, gdje jednom kada možete prepoznati polukrug, pravokutnik i trokut, možete prepoznati jedrilicu ili mačku ovisno o konfiguraciji tih oblika. Klasifikator slika može prepoznati oblike, a transferno učenje ga uči koja kombinacija čini brod ili mačku - ili zrelu bananu.
 

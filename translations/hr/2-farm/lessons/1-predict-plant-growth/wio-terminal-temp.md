@@ -33,7 +33,7 @@ Povežite senzor temperature.
 
 1. Dok je Wio Terminal isključen s vašeg računala ili drugog izvora napajanja, spojite drugi kraj Grove kabela na desnu Grove utičnicu na Wio Terminalu, gledajući prema ekranu. To je utičnica koja je najudaljenija od gumba za uključivanje.
 
-![Grove senzor temperature povezan na desnu utičnicu](../../../../../translated_images/wio-temperature-sensor.2934928f38c7f79a68d24879d2c8986c78244696f931e2e33c293f426ecdc0ad.hr.png)
+![Grove senzor temperature povezan na desnu utičnicu](../../../../../translated_images/wio-temperature-sensor.2934928f38c7f79a.hr.png)
 
 ## Programiranje senzora temperature
 

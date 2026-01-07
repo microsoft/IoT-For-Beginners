@@ -51,7 +51,7 @@ Spojite LED.
 
     > 💁 Desna Grove utičnica može se koristiti s analognim ili digitalnim senzorima i aktuatorima. Lijeva utičnica je samo za I2C i digitalne senzore i aktuatore. O tome će biti riječi u kasnijoj lekciji.
 
-![Grove LED spojen na desnu utičnicu](../../../../../translated_images/wio-led.265a1897e72d7f21c753257516a4b677d8e30ce2b95fee98189458b3275ba0a6.hr.png)
+![Grove LED spojen na desnu utičnicu](../../../../../translated_images/wio-led.265a1897e72d7f21.hr.png)
 
 ## Programirajte noćno svjetlo
 

@@ -41,7 +41,7 @@ Dvije glavne komponente IoT aplikacije su *Internet* i *stvar*. Pogledajmo ove d
 
 ### Stvar
 
-![Raspberry Pi 4](../../../../../translated_images/raspberry-pi-4.fd4590d308c3d456db1327e86b395ddcd735513267aafd4879ea2785f7792eac.hr.jpg)
+![Raspberry Pi 4](../../../../../translated_images/raspberry-pi-4.fd4590d308c3d456.hr.jpg)
 
 **Stvar** u IoT-u odnosi se na uređaj koji može komunicirati s fizičkim svijetom. Ovi uređaji su obično mali, jeftini računari, koji rade pri niskim brzinama i koriste malo energije - na primjer, jednostavni mikrokontroleri s kilobajtima RAM-a (za razliku od gigabajta u PC-ju) koji rade na samo nekoliko stotina megaherca (za razliku od gigaherca u PC-ju), ali troše toliko malo energije da mogu raditi tjednima, mjesecima ili čak godinama na baterijama.
 
@@ -67,7 +67,7 @@ U primjeru pametnog termostata, termostat bi se povezao putem kućnog WiFi-a na 
 
 Još pametnija verzija mogla bi koristiti AI u oblaku s podacima iz drugih senzora povezanih s drugim IoT uređajima, poput senzora prisutnosti koji detektiraju koje su prostorije u upotrebi, kao i podatke poput vremenske prognoze ili čak vašeg kalendara, za donošenje odluka o tome kako pametno postaviti temperaturu. Na primjer, mogla bi isključiti grijanje ako iz vašeg kalendara pročita da ste na odmoru, ili isključiti grijanje po sobama ovisno o tome koje prostorije koristite, učeći iz podataka kako bi s vremenom postajala sve preciznija.
 
-![Dijagram koji prikazuje više senzora temperature i kotačić kao ulaze u IoT uređaj, IoT uređaj s dvosmjernom komunikacijom s oblakom, koji zauzvrat ima dvosmjernu komunikaciju s telefonom, kalendarom i vremenskom prognozom, te kontrolu grijalice kao izlaz iz IoT uređaja](../../../../../translated_images/smarter-thermostat.a75855f15d2d9e63d5da9d7ba5847a987f6c9d98e96e770c203532275194e27d.hr.png)
+![Dijagram koji prikazuje više senzora temperature i kotačić kao ulaze u IoT uređaj, IoT uređaj s dvosmjernom komunikacijom s oblakom, koji zauzvrat ima dvosmjernu komunikaciju s telefonom, kalendarom i vremenskom prognozom, te kontrolu grijalice kao izlaz iz IoT uređaja](../../../../../translated_images/smarter-thermostat.a75855f15d2d9e63.hr.png)
 
 ✅ Koji bi drugi podaci mogli pomoći da Internet povezani termostat postane pametniji?
 
@@ -135,7 +135,7 @@ Kao i kod CPU-a, memorija na mikrokontroleru je za nekoliko redova veličine man
 
 Dijagram ispod prikazuje relativnu razliku u veličini između 192KB i 8GB - mala točka u sredini predstavlja 192KB.
 
-![Usporedba između 192KB i 8GB - više od 40.000 puta veće](../../../../../translated_images/ram-comparison.6beb73541b42ac6ffde64cdf79fc925a84b932ce7ebd4d41d5fd7afc1257a696.hr.png)
+![Usporedba između 192KB i 8GB - više od 40.000 puta veće](../../../../../translated_images/ram-comparison.6beb73541b42ac6f.hr.png)
 
 Prostor za pohranu programa također je manji nego na PC-u. Tipično računalo može imati tvrdi disk od 500GB za pohranu programa, dok mikrokontroler može imati samo kilobajte ili možda nekoliko megabajta (MB) prostora za pohranu (1MB je 1.000KB, ili 1.000.000 bajtova). Wio terminal ima 4MB prostora za pohranu programa.
 
@@ -211,17 +211,17 @@ U prošloj lekciji predstavili smo jednopločna računala. Sada ćemo ih detaljn
 
 ### Raspberry Pi
 
-![Raspberry Pi logo](../../../../../translated_images/raspberry-pi-logo.4efaa16605cee05489d8fa53941e991b3757aa24c20a95abdcf8cfd761953596.hr.png)
+![Raspberry Pi logo](../../../../../translated_images/raspberry-pi-logo.4efaa16605cee054.hr.png)
 
 [Raspberry Pi Foundation](https://www.raspberrypi.org) je dobrotvorna organizacija iz Ujedinjenog Kraljevstva osnovana 2009. godine s ciljem promicanja proučavanja računalnih znanosti, posebno na razini škola. Kao dio ove misije, razvili su jednopločno računalo nazvano Raspberry Pi. Raspberry Pi trenutno je dostupan u 3 varijante - punoj veličini, manjem Pi Zero i računalnom modulu koji se može ugraditi u vaš konačni IoT uređaj.
 
-![Raspberry Pi 4](../../../../../translated_images/raspberry-pi-4.fd4590d308c3d456db1327e86b395ddcd735513267aafd4879ea2785f7792eac.hr.jpg)
+![Raspberry Pi 4](../../../../../translated_images/raspberry-pi-4.fd4590d308c3d456.hr.jpg)
 
 Najnovija iteracija Raspberry Pi-ja pune veličine je Raspberry Pi 4B. Ima četverojezgreni (4 jezgre) CPU koji radi na 1.5GHz, 2, 4 ili 8GB RAM-a, gigabitni ethernet, WiFi, 2 HDMI porta koji podržavaju 4k zaslone, audio i kompozitni video izlaz, USB portove (2 USB 2.0, 2 USB 3.0), 40 GPIO pinova, konektor za kameru za Raspberry Pi modul kamere i utor za SD karticu. Sve to na ploči dimenzija 88mm x 58mm x 19.5mm, napajanoj USB-C adapterom od 3A. Cijena počinje od 35 USD, što je znatno jeftinije od PC-a ili Maca.
 
 > 💁 Postoji i Pi400, sve-u-jednom računalo s Pi4 ugrađenim u tipkovnicu.
 
-![Raspberry Pi Zero](../../../../../translated_images/raspberry-pi-zero.f7a4133e1e7d54bb3dbb32319b217a53c5b94871995a54647f2894b54206b8d8.hr.jpg)
+![Raspberry Pi Zero](../../../../../translated_images/raspberry-pi-zero.f7a4133e1e7d54bb.hr.jpg)
 
 Pi Zero je mnogo manji, s nižom snagom. Ima jednojezgreni CPU od 1GHz, 512MB RAM-a, WiFi (u modelu Zero W), jedan HDMI port, mikro-USB port, 40 GPIO pinova, konektor za kameru za Raspberry Pi modul kamere i utor za SD karticu. Dimenzije su mu 65mm x 30mm x 5mm, a troši vrlo malo energije. Zero košta 5 USD, dok verzija s WiFi-jem (Zero W) košta 10 USD.
 

@@ -97,15 +97,15 @@ Nažalost, nije sve sigurno. Neki uređaji nemaju nikakvu sigurnost, drugi su os
 
 **Simetrično** šifriranje koristi isti ključ za šifriranje i dešifriranje podataka. I pošiljatelj i primatelj moraju znati isti ključ. Ovo je najmanje siguran tip, jer se ključ mora nekako podijeliti. Da bi pošiljatelj poslao šifriranu poruku primatelju, pošiljatelj prvo mora poslati primatelju ključ.
 
-![Simetrično šifriranje koristi isti ključ za šifriranje i dešifriranje poruke](../../../../../translated_images/send-message-symmetric-key.a2e8ad0d495896ffcdf15d25bb4491c695a5cb851457b359fb0f0c89d67707c9.hr.png)
+![Simetrično šifriranje koristi isti ključ za šifriranje i dešifriranje poruke](../../../../../translated_images/send-message-symmetric-key.a2e8ad0d495896ff.hr.png)
 
 Ako se ključ ukrade tijekom prijenosa, ili ako pošiljatelj ili primatelj budu hakirani i ključ se pronađe, šifriranje se može razbiti.
 
-![Simetrično šifriranje je sigurno samo ako haker ne dobije ključ - ako ga dobije, može presresti i dešifrirati poruku](../../../../../translated_images/send-message-symmetric-key-hacker.e7cb53db1707adfb1486a8144060cb76435fe8dbdede8cecc09e7d15b2d9a251.hr.png)
+![Simetrično šifriranje je sigurno samo ako haker ne dobije ključ - ako ga dobije, može presresti i dešifrirati poruku](../../../../../translated_images/send-message-symmetric-key-hacker.e7cb53db1707adfb.hr.png)
 
 **Asimetrično** šifriranje koristi 2 ključa - ključ za šifriranje i ključ za dešifriranje, poznate kao javno/privatni par ključeva. Javni ključ se koristi za šifriranje poruke, ali se ne može koristiti za dešifriranje, dok se privatni ključ koristi za dešifriranje poruke, ali se ne može koristiti za šifriranje.
 
-![Asimetrično šifriranje koristi različite ključeve za šifriranje i dešifriranje. Ključ za šifriranje se šalje pošiljateljima poruka kako bi mogli šifrirati poruku prije slanja primatelju koji posjeduje ključeve](../../../../../translated_images/send-message-asymmetric.7abe327c62615b8c19805252af5d4b6c5e7aaeb8fbc455efeff866fe2d300b62.hr.png)
+![Asimetrično šifriranje koristi različite ključeve za šifriranje i dešifriranje. Ključ za šifriranje se šalje pošiljateljima poruka kako bi mogli šifrirati poruku prije slanja primatelju koji posjeduje ključeve](../../../../../translated_images/send-message-asymmetric.7abe327c62615b8c.hr.png)
 
 Primatelj dijeli svoj javni ključ, a pošiljatelj koristi ovaj ključ za šifriranje poruke. Nakon što je poruka poslana, primatelj je dešifrira svojim privatnim ključem. Asimetrično šifriranje je sigurnije jer se privatni ključ čuva privatnim od strane primatelja i nikada se ne dijeli. Javni ključ može imati bilo tko jer se može koristiti samo za šifriranje poruka.
 
@@ -165,7 +165,7 @@ Ovi certifikati sadrže niz polja, uključujući od koga je javni ključ, detalj
 
 Kada koristite X.509 certifikate, i pošiljatelj i primatelj imaju svoje javne i privatne ključeve, kao i X.509 certifikate koji sadrže javni ključ. Zatim razmjenjuju X.509 certifikate na neki način, koristeći javne ključeve jedni drugih za šifriranje podataka koje šalju, i svoje privatne ključeve za dešifriranje podataka koje primaju.
 
-![Umjesto dijeljenja javnog ključa, možete podijeliti certifikat. Korisnik certifikata može provjeriti dolazi li od vas provjerom kod certifikacijske vlasti koja ga je potpisala.](../../../../../translated_images/send-message-certificate.9cc576ac1e46b76eb58ebc8eedaa522566fa0700076da46f5180aad78c2435db.hr.png)
+![Umjesto dijeljenja javnog ključa, možete podijeliti certifikat. Korisnik certifikata može provjeriti dolazi li od vas provjerom kod certifikacijske vlasti koja ga je potpisala.](../../../../../translated_images/send-message-certificate.9cc576ac1e46b76e.hr.png)
 
 Jedna velika prednost korištenja X.509 certifikata je što se mogu dijeliti između uređaja. Možete stvoriti jedan certifikat, učitati ga na IoT Hub i koristiti ga za sve svoje uređaje. Svaki uređaj tada samo treba znati privatni ključ kako bi dešifrirao poruke koje prima od IoT Huba.
 

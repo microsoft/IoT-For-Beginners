@@ -79,7 +79,7 @@ Mikrokontroler (također poznat kao MCU, skraćeno od microcontroller unit) je m
 
 Mikrokontroleri su obično jeftini računalni uređaji, s prosječnim cijenama za one koji se koriste u prilagođenom hardveru padajući na oko 0,50 USD, a neki uređaji su jeftini i do 0,03 USD. Razvojni kompleti mogu početi od 4 USD, a cijene rastu kako dodajete više funkcija. [Wio Terminal](https://www.seeedstudio.com/Wio-Terminal-p-4509.html), razvojni komplet mikrokontrolera iz [Seeed Studios](https://www.seeedstudio.com) koji ima senzore, aktuatore, WiFi i ekran, košta oko 30 USD.
 
-![Wio Terminal](../../../../../translated_images/wio-terminal.b8299ee16587db9aa9e05fabf9721bccd9eb8fb541b7c1a8267241282d81b603.hr.png)
+![Wio Terminal](../../../../../translated_images/wio-terminal.b8299ee16587db9a.hr.png)
 
 > 💁 Kada pretražujete Internet za mikrokontrolere, budite oprezni s pretraživanjem pojma **MCU**, jer će vam se vratiti puno rezultata vezanih uz Marvel Cinematic Universe, a ne mikrokontrolere.
 
@@ -93,7 +93,7 @@ Razvojni kompleti mikrokontrolera obično dolaze s dodatnim senzorima i aktuator
 
 Jednopločno računalo je mali računalni uređaj koji ima sve elemente kompletnog računala sadržane na jednoj maloj ploči. To su uređaji koji imaju specifikacije bliske stolnim ili prijenosnim računalima, pokreću puni operativni sustav, ali su mali, troše manje energije i znatno su jeftiniji.
 
-![Raspberry Pi 4](../../../../../translated_images/raspberry-pi-4.fd4590d308c3d456db1327e86b395ddcd735513267aafd4879ea2785f7792eac.hr.jpg)
+![Raspberry Pi 4](../../../../../translated_images/raspberry-pi-4.fd4590d308c3d456.hr.jpg)
 
 Raspberry Pi je jedno od najpopularnijih jednopločnih računala.
 

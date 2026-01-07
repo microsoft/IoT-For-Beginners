@@ -41,7 +41,7 @@ Serverless, ili serverless računarstvo, uključuje kreiranje malih blokova koda
 
 > 💁 Ako ste prije koristili okidače u bazama podataka, ovo možete zamisliti kao sličan koncept - kod koji se pokreće događajem, poput umetanja retka.
 
-![Kada se više događaja pošalje istovremeno, serverless usluga se skalira kako bi ih sve obradila u isto vrijeme](../../../../../translated_images/serverless-scaling.f8c769adf0413fd17be1af4f07ff63016b347e2ff869be6c4abb211f9e93909d.hr.png)
+![Kada se više događaja pošalje istovremeno, serverless usluga se skalira kako bi ih sve obradila u isto vrijeme](../../../../../translated_images/serverless-scaling.f8c769adf0413fd1.hr.png)
 
 Vaš kod se pokreće samo kada se dogodi događaj, a u drugim trenucima nije aktivan. Događaj se dogodi, vaš kod se učita i izvrši. Ovo čini serverless vrlo skalabilnim - ako se mnogo događaja dogodi istovremeno, pružatelj oblaka može pokrenuti vašu funkciju onoliko puta koliko je potrebno, koristeći dostupne resurse. Nedostatak ovog pristupa je što, ako trebate dijeliti informacije između događaja, morate ih pohraniti negdje, poput baze podataka, umjesto da ih držite u memoriji.
 
@@ -244,7 +244,7 @@ CLI za Azure Functions može se koristiti za kreiranje nove aplikacije funkcija.
     VS Code. Initialize for optimal use with VS Code?
     ```
 
-    ![Obavijest](../../../../../translated_images/vscode-azure-functions-init-notification.bd19b49229963edb5311fb3a79445ea469424759d2917ee2f2eb6f92d65d5086.hr.png)
+    ![Obavijest](../../../../../translated_images/vscode-azure-functions-init-notification.bd19b49229963edb.hr.png)
 
     Odaberite **Yes** u ovoj obavijesti.
 

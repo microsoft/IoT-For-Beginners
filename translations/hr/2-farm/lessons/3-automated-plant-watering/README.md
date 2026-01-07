@@ -55,11 +55,11 @@ Relej je elektromehanički prekidač koji pretvara električni signal u mehanič
 
 > 🎓 [Elektromagneti](https://wikipedia.org/wiki/Electromagnet) su magneti koji se stvaraju prolaskom električne struje kroz zavojnicu žice. Kada je struja uključena, zavojnica postaje magnetizirana. Kada je struja isključena, zavojnica gubi magnetizam.
 
-![Kada je uključen, elektromagnet stvara magnetsko polje, uključujući prekidač za izlazni krug](../../../../../translated_images/relay-on.4db16a0fd6b669262fd6699aff3fbcd31b6057c06d90411b6bddc06326d1cf75.hr.png)
+![Kada je uključen, elektromagnet stvara magnetsko polje, uključujući prekidač za izlazni krug](../../../../../translated_images/relay-on.4db16a0fd6b66926.hr.png)
 
 U releju, kontrolni krug napaja elektromagnet. Kada je elektromagnet uključen, povlači polugu koja pomiče prekidač, zatvarajući par kontakata i dovršavajući izlazni krug.
 
-![Kada je isključen, elektromagnet ne stvara magnetsko polje, isključujući prekidač za izlazni krug](../../../../../translated_images/relay-off.c34a178a2960fecdc3c6400d43e633ed11c6746cd653cfb4a768fa097c40394c.hr.png)
+![Kada je isključen, elektromagnet ne stvara magnetsko polje, isključujući prekidač za izlazni krug](../../../../../translated_images/relay-off.c34a178a2960fecd.hr.png)
 
 Kada je kontrolni krug isključen, elektromagnet se isključuje, oslobađajući polugu i otvarajući kontakte, isključujući izlazni krug. Releji su digitalni aktuatori - visoki signal prema releju ga uključuje, niski signal ga isključuje.
 
@@ -85,7 +85,7 @@ Elektromagnetu nije potrebno puno energije za aktivaciju i povlačenje poluge, m
 
 Slika iznad prikazuje Grove relej. Kontrolni krug povezuje se s IoT uređajem i uključuje ili isključuje relej koristeći 3.3V ili 5V. Izlazni krug ima dva terminala, bilo koji može biti napajanje ili uzemljenje. Izlazni krug može podnijeti do 250V pri 10A, što je dovoljno za niz uređaja na mrežno napajanje. Možete nabaviti releje koji mogu podnijeti još veće razine snage.
 
-![Pumpa spojena preko releja](../../../../../translated_images/pump-wired-to-relay.66c5cfc0d89189900cd601777f5caeb39ee35c6250f6c86bf38feaceedb21fe9.hr.png)
+![Pumpa spojena preko releja](../../../../../translated_images/pump-wired-to-relay.66c5cfc0d8918990.hr.png)
 
 Na slici iznad, napajanje se isporučuje pumpi putem releja. Crvena žica povezuje +5V terminal USB napajanja s jednim terminalom izlaznog kruga releja, a druga crvena žica povezuje drugi terminal izlaznog kruga s pumpom. Crna žica povezuje pumpu s uzemljenjem na USB napajanju. Kada se relej uključi, dovršava krug, šaljući 5V na pumpu, uključujući pumpu.
 
@@ -135,7 +135,7 @@ U lekciji 3 izradili ste noćno svjetlo - LED-icu koja se uključuje čim senzor
 
 Ako ste radili prethodnu lekciju o vlažnosti tla koristeći fizički senzor, mogli ste primijetiti da je trebalo nekoliko sekundi da očitanje vlažnosti tla padne nakon što ste zalili biljku. Ovo nije zato što je senzor spor, već zato što vodi treba vremena da se upije kroz tlo.
 💁 Ako ste zalijevali preblizu senzoru, možda ste primijetili da je očitanje brzo palo, a zatim se ponovno povećalo - to je uzrokovano time što se voda blizu senzora širi kroz ostatak tla, smanjujući vlagu tla u blizini senzora.
-![Mjerenje vlažnosti tla od 658 ne mijenja se tijekom zalijevanja, već pada na 320 nakon zalijevanja kada voda prodre kroz tlo](../../../../../translated_images/soil-moisture-travel.a0e31af222cf14385de5380dfc32c7b8213960965228b8e4f7b7ab7f73b310a3.hr.png)
+![Mjerenje vlažnosti tla od 658 ne mijenja se tijekom zalijevanja, već pada na 320 nakon zalijevanja kada voda prodre kroz tlo](../../../../../translated_images/soil-moisture-travel.a0e31af222cf1438.hr.png)
 
 Na gornjem dijagramu očitanje vlažnosti tla pokazuje 658. Biljka se zalijeva, ali ovo očitanje se ne mijenja odmah jer voda još nije stigla do senzora. Zalijevanje može završiti prije nego što voda stigne do senzora, a vrijednost se smanji kako bi odražavala novu razinu vlažnosti.
 
@@ -157,11 +157,11 @@ Koliko dugo relej treba biti uključen svaki put? Bolje je biti oprezan i uklju�
 
 > 💁 Ovakva kontrola vremena vrlo je specifična za IoT uređaj koji gradite, svojstvo koje mjerite te senzore i aktuatore koji se koriste.
 
-![Biljka jagode povezana s vodom putem pumpe, pri čemu je pumpa povezana s relejem. Relej i senzor vlažnosti tla u biljci povezani su s Raspberry Pi-jem](../../../../../translated_images/strawberry-with-pump.b410fc72ac6aabad3e28de9775bf2393ead73dcfec6fd8c9bc01cf107ecd171a.hr.png)
+![Biljka jagode povezana s vodom putem pumpe, pri čemu je pumpa povezana s relejem. Relej i senzor vlažnosti tla u biljci povezani su s Raspberry Pi-jem](../../../../../translated_images/strawberry-with-pump.b410fc72ac6aabad.hr.png)
 
 Na primjer, imam biljku jagode sa senzorom vlažnosti tla i pumpom kojom upravlja relej. Primijetio sam da kada dodam vodu, treba oko 20 sekundi da se očitanje vlažnosti tla stabilizira. To znači da moram isključiti relej i pričekati 20 sekundi prije nego što provjerim razinu vlažnosti. Radije bih imao premalo vode nego previše - uvijek mogu ponovno uključiti pumpu, ali ne mogu izvaditi vodu iz biljke.
 
-![Korak 1, uzmi mjerenje. Korak 2, dodaj vodu. Korak 3, pričekaj da voda prodre kroz tlo. Korak 4, ponovno uzmi mjerenje](../../../../../translated_images/soil-moisture-delay.865f3fae206db01d5f8f100f4f44040215d44a0412dd3450aef7ff7b93b6d273.hr.png)
+![Korak 1, uzmi mjerenje. Korak 2, dodaj vodu. Korak 3, pričekaj da voda prodre kroz tlo. Korak 4, ponovno uzmi mjerenje](../../../../../translated_images/soil-moisture-delay.865f3fae206db01d.hr.png)
 
 To znači da bi najbolji proces bio ciklus zalijevanja koji izgleda ovako:
 
