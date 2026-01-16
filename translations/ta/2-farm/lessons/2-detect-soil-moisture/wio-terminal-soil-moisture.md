@@ -27,17 +27,17 @@ Grove மண் ஈரப்பதம் சென்சரை Wio Terminal-இ�
 
 மண் ஈரப்பதம் சென்சரை இணைக்கவும்.
 
-![ஒரு Grove மண் ஈரப்பதம் சென்சர்](../../../../../translated_images/grove-capacitive-soil-moisture-sensor.e7f0776cce30e78be5cc5a07839385fd6718857f31b5bf5ad3d0c73c83b2f0ef.ta.png)
+![ஒரு Grove மண் ஈரப்பதம் சென்சர்](../../../../../translated_images/ta/grove-capacitive-soil-moisture-sensor.e7f0776cce30e78be5cc5a07839385fd6718857f31b5bf5ad3d0c73c83b2f0ef.png)
 
 1. Grove கேபிளின் ஒரு முனையை மண் ஈரப்பதம் சென்சரின் சாக்கெட்டில் செருகவும். இது ஒரு வழியில் மட்டுமே செருகப்படும்.
 
 1. Wio Terminal உங்கள் கணினி அல்லது பிற மின்சார ஆதாரத்திலிருந்து துண்டிக்கப்பட்ட நிலையில், Grove கேபிளின் மற்ற முனையை Wio Terminal-இன் திரையைப் பார்க்கும் போது வலது பக்க Grove சாக்கெட்டில் இணைக்கவும். இது மின்சார பொத்தானிலிருந்து மிகத் தொலைவில் உள்ள சாக்கெட்.
 
-![வலது பக்க சாக்கெட்டில் இணைக்கப்பட்ட Grove மண் ஈரப்பதம் சென்சர்](../../../../../translated_images/wio-soil-moisture-sensor.46919b61c3f6cb74.ta.png)
+![வலது பக்க சாக்கெட்டில் இணைக்கப்பட்ட Grove மண் ஈரப்பதம் சென்சர்](../../../../../translated_images/ta/wio-soil-moisture-sensor.46919b61c3f6cb74.png)
 
 1. மண் ஈரப்பதம் சென்சரை மண்ணில் செருகவும். இது 'அதிகபட்ச நிலை கோடு' - சென்சரின் மீது ஒரு வெள்ளை கோடு உள்ளது. இந்த கோட்டிற்கு கீழே சென்சரை செருகவும், ஆனால் அதை மீற வேண்டாம்.
 
-![மண்ணில் உள்ள Grove மண் ஈரப்பதம் சென்சர்](../../../../../translated_images/soil-moisture-sensor-in-soil.bfad91002bda5e96.ta.png)
+![மண்ணில் உள்ள Grove மண் ஈரப்பதம் சென்சர்](../../../../../translated_images/ta/soil-moisture-sensor-in-soil.bfad91002bda5e96.png)
 
 1. இப்போது Wio Terminal-ஐ உங்கள் கணினியுடன் இணைக்கலாம்.
 

@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Förutsäg växttillväxt med IoT
 
-![En sketchnote-översikt av denna lektion](../../../../../translated_images/lesson-5.42b234299279d263143148b88ab4583861a32ddb03110c6c1120e41bb88b2592.sv.jpg)
+![En sketchnote-översikt av denna lektion](../../../../../translated_images/sv/lesson-5.42b234299279d263143148b88ab4583861a32ddb03110c6c1120e41bb88b2592.jpg)
 
 > Sketchnote av [Nitya Narasimhan](https://github.com/nitya). Klicka på bilden för en större version.
 
@@ -65,7 +65,7 @@ Varje växtart har olika värden för sin bas-, optimala och maximala temperatur
 
 ✅ Gör lite efterforskningar. För några växter du har i din trädgård, skola eller lokala park, se om du kan hitta deras bas-temperatur.
 
-![En graf som visar tillväxthastigheten öka när temperaturen stiger, för att sedan minska när temperaturen blir för hög](../../../../../translated_images/plant-growth-temp-graph.c6d69c9478e6ca83.sv.png)
+![En graf som visar tillväxthastigheten öka när temperaturen stiger, för att sedan minska när temperaturen blir för hög](../../../../../translated_images/sv/plant-growth-temp-graph.c6d69c9478e6ca83.png)
 
 Grafen ovan visar ett exempel på en tillväxthastighet i förhållande till temperatur. Upp till bas-temperaturen sker ingen tillväxt. Tillväxthastigheten ökar upp till den optimala temperaturen och minskar sedan efter att ha nått denna topp. Vid maxtemperaturen upphör tillväxten.
 
@@ -99,7 +99,7 @@ Växande grad-dagar, eller GDD, beräknas per dag som den genomsnittliga tempera
 
 Den fullständiga formeln för GDD är lite komplicerad, men det finns en förenklad ekvation som ofta används som en bra approximation:
 
-![GDD = T max + T min dividerat med 2, allt minus T bas](../../../../../translated_images/gdd-calculation.79b3660f9c5757aa92dc2dd2cdde75344e2d2c1565c4b3151640f7887edc0275.sv.png)
+![GDD = T max + T min dividerat med 2, allt minus T bas](../../../../../translated_images/sv/gdd-calculation.79b3660f9c5757aa92dc2dd2cdde75344e2d2c1565c4b3151640f7887edc0275.png)
 
 * **GDD** - detta är antalet växande grad-dagar
 * **T max** - detta är den dagliga maxtemperaturen i grader Celsius
@@ -127,7 +127,7 @@ Om vi sätter in dessa siffror i vår beräkning:
 
 Detta ger en beräkning av:
 
-![GDD = 16 + 12 dividerat med 2, allt minus 10, vilket ger ett svar på 4](../../../../../translated_images/gdd-calculation-corn.64a58b7a7afcd0dfd46ff733996d939f17f4f3feac9f0d1c632be3523e51ebd9.sv.png)
+![GDD = 16 + 12 dividerat med 2, allt minus 10, vilket ger ett svar på 4](../../../../../translated_images/sv/gdd-calculation-corn.64a58b7a7afcd0dfd46ff733996d939f17f4f3feac9f0d1c632be3523e51ebd9.png)
 
 Majsen fick 4 GDD den dagen. Om vi antar en majsort som behöver 800 GDD för att mogna, kommer den att behöva ytterligare 796 GDD för att nå mognad.
 
@@ -141,7 +141,7 @@ Detta har en stor arbetskraftspåverkan på en stor gård och riskerar att bonde
 
 Genom att samla in temperaturdata med en IoT-enhet kan en bonde automatiskt bli meddelad när växter är nära mognad. En typisk arkitektur för detta är att IoT-enheterna mäter temperaturen och sedan publicerar denna telemetridata över Internet med något som MQTT. Serverkod lyssnar sedan på denna data och sparar den någonstans, till exempel i en databas. Detta innebär att data kan analyseras senare, till exempel ett nattligt jobb för att beräkna dagens GDD, summera GDD för varje gröda hittills och varna om en växt är nära mognad.
 
-![Telemetridata skickas till en server och sparas sedan i en databas](../../../../../translated_images/save-telemetry-database.ddc9c6bea0c5ba39.sv.png)
+![Telemetridata skickas till en server och sparas sedan i en databas](../../../../../translated_images/sv/save-telemetry-database.ddc9c6bea0c5ba39.png)
 
 Serverkoden kan också komplettera data genom att lägga till extra information. Till exempel kan IoT-enheten publicera en identifierare för att indikera vilken enhet det är, och serverkoden kan använda detta för att slå upp enhetens plats och vilka grödor den övervakar. Den kan också lägga till grundläggande data som aktuell tid, eftersom vissa IoT-enheter inte har den nödvändiga hårdvaran för att hålla reda på en exakt tid eller kräver ytterligare kod för att läsa aktuell tid över Internet.
 
@@ -228,7 +228,7 @@ Den här koden öppnar CSV-filen och lägger till en ny rad i slutet. Raden inne
 
     
 > 💁 Om du använder en virtuell IoT-enhet, välj kryssrutan för slumpmässighet och ställ in ett intervall för att undvika att få samma temperatur varje gång temperaturen returneras.
-    ![Välj kryssrutan för slumpmässighet och ställ in ett intervall](../../../../../translated_images/select-the-random-checkbox-and-set-a-range.32cf4bc7c12e797f.sv.png) 
+    ![Välj kryssrutan för slumpmässighet och ställ in ett intervall](../../../../../translated_images/sv/select-the-random-checkbox-and-set-a-range.32cf4bc7c12e797f.png) 
 
     > 💁 Om du vill köra detta under en hel dag måste du se till att datorn som din serverkod körs på inte går i viloläge, antingen genom att ändra dina energisparinställningar eller genom att köra något som [detta Python-skript för att hålla systemet aktivt](https://github.com/jaqsparow/keep-system-active).
     
@@ -248,7 +248,7 @@ Stegen för att göra detta manuellt är:
 
 Till exempel, om dagens högsta temperatur är 25°C och den lägsta är 12°C:
 
-![GDD = 25 + 12 dividerat med 2, sedan subtrahera 10 från resultatet vilket ger 8.5](../../../../../translated_images/gdd-calculation-strawberries.59f57db94b22adb8ff6efb951ace33af104a1c6ccca3ffb0f8169c14cb160c90.sv.png)
+![GDD = 25 + 12 dividerat med 2, sedan subtrahera 10 från resultatet vilket ger 8.5](../../../../../translated_images/sv/gdd-calculation-strawberries.59f57db94b22adb8ff6efb951ace33af104a1c6ccca3ffb0f8169c14cb160c90.png)
 
 * 25 + 12 = 37
 * 37 / 2 = 18.5

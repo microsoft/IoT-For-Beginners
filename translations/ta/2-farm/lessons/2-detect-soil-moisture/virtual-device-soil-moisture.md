@@ -43,11 +43,11 @@ CounterFit செயலியில் மண் ஈரப்பதம் செ
 
     1. **Add** பொத்தானைத் தேர்ந்தெடுத்து Pin 0-ல் *Soil Moisture* சென்சரை உருவாக்கவும்.
 
-    ![மண் ஈரப்பதம் சென்சர் அமைப்புகள்](../../../../../translated_images/counterfit-create-soil-moisture-sensor.35266135a5e0ae68b29a684d7db0d2933a8098b2307d197f7c71577b724603aa.ta.png)
+    ![மண் ஈரப்பதம் சென்சர் அமைப்புகள்](../../../../../translated_images/ta/counterfit-create-soil-moisture-sensor.35266135a5e0ae68b29a684d7db0d2933a8098b2307d197f7c71577b724603aa.png)
 
     மண் ஈரப்பதம் சென்சர் உருவாக்கப்பட்டு சென்சர்கள் பட்டியலில் தோன்றும்.
 
-    ![மண் ஈரப்பதம் சென்சர் உருவாக்கப்பட்டது](../../../../../translated_images/counterfit-soil-moisture-sensor.81742b2de0e9de60a3b3b9a2ff8ecc686d428eb6d71820f27a693be26e5aceee.ta.png)
+    ![மண் ஈரப்பதம் சென்சர் உருவாக்கப்பட்டது](../../../../../translated_images/ta/counterfit-soil-moisture-sensor.81742b2de0e9de60a3b3b9a2ff8ecc686d428eb6d71820f27a693be26e5aceee.png)
 
 ## மண் ஈரப்பதம் சென்சர் செயலியை நிரலாக்கவும்
 

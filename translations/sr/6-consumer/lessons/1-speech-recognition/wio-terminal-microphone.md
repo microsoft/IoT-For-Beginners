@@ -15,11 +15,11 @@ CO_OP_TRANSLATOR_METADATA:
 
 Wio Terminal већ има уграђен микрофон, који се може користити за снимање звука за препознавање говора.
 
-![Микрофон на Wio Terminal-у](../../../../../translated_images/wio-mic.3f8c843dbe8ad917.sr.png)
+![Микрофон на Wio Terminal-у](../../../../../translated_images/sr/wio-mic.3f8c843dbe8ad917.png)
 
 Да бисте додали звучник, можете користити [ReSpeaker 2-Mics Pi Hat](https://www.seeedstudio.com/ReSpeaker-2-Mics-Pi-HAT.html). Ово је екстерна плоча која садржи 2 MEMS микрофона, као и конектор за звучник и прикључак за слушалице.
 
-![ReSpeaker 2-Mics Pi Hat](../../../../../translated_images/respeaker.f5d19d1c6b14ab16.sr.png)
+![ReSpeaker 2-Mics Pi Hat](../../../../../translated_images/sr/respeaker.f5d19d1c6b14ab16.png)
 
 Биће вам потребне или слушалице, звучник са 3.5мм прикључком, или звучник са JST конектором, као што је [Mono Enclosed Speaker - 2W 6 Ohm](https://www.seeedstudio.com/Mono-Enclosed-Speaker-2W-6-Ohm-p-2832.html).
 
@@ -35,7 +35,7 @@ Wio Terminal већ има уграђен микрофон, који се мож
 
     Пинови треба да буду повезани на следећи начин:
 
-    ![Дијаграм пинова](../../../../../translated_images/wio-respeaker-wiring-0.767f80aa65081038.sr.png)
+    ![Дијаграм пинова](../../../../../translated_images/sr/wio-respeaker-wiring-0.767f80aa65081038.png)
 
 1. Поставите ReSpeaker и Wio Terminal тако да GPIO прикључци буду окренути нагоре, са леве стране.
 
@@ -43,33 +43,33 @@ Wio Terminal већ има уграђен микрофон, који се мож
 
 1. Понављајте овај процес низ леву страну GPIO прикључака. Уверите се да су пинови чврсто повезани.
 
-    ![ReSpeaker са левим пиновима повезаним на леве пинове Wio Terminal-а](../../../../../translated_images/wio-respeaker-wiring-1.8d894727f2ba2400.sr.png)
+    ![ReSpeaker са левим пиновима повезаним на леве пинове Wio Terminal-а](../../../../../translated_images/sr/wio-respeaker-wiring-1.8d894727f2ba2400.png)
 
-    ![ReSpeaker са левим пиновима повезаним на леве пинове Wio Terminal-а](../../../../../translated_images/wio-respeaker-wiring-2.329e1cbd306e754f.sr.png)
+    ![ReSpeaker са левим пиновима повезаним на леве пинове Wio Terminal-а](../../../../../translated_images/sr/wio-respeaker-wiring-2.329e1cbd306e754f.png)
 
     > 💁 Ако су ваши каблови за повезивање у облику траке, држите их заједно - то ће олакшати осигурање да су сви каблови повезани редом.
 
 1. Поновите процес користећи десне GPIO прикључке на ReSpeaker-у и Wio Terminal-у. Ови каблови треба да иду око већ постављених каблова.
 
-    ![ReSpeaker са десним пиновима повезаним на десне пинове Wio Terminal-а](../../../../../translated_images/wio-respeaker-wiring-3.75b0be447e2fa930.sr.png)
+    ![ReSpeaker са десним пиновима повезаним на десне пинове Wio Terminal-а](../../../../../translated_images/sr/wio-respeaker-wiring-3.75b0be447e2fa930.png)
 
-    ![ReSpeaker са десним пиновима повезаним на десне пинове Wio Terminal-а](../../../../../translated_images/wio-respeaker-wiring-4.aa9cd434d8779437.sr.png)
+    ![ReSpeaker са десним пиновима повезаним на десне пинове Wio Terminal-а](../../../../../translated_images/sr/wio-respeaker-wiring-4.aa9cd434d8779437.png)
 
     > 💁 Ако су ваши каблови за повезивање у облику траке, поделите их у две траке. Провуците их са обе стране постојећих каблова.
 
     > 💁 Можете користити лепљиву траку да држите пинове у блоку како бисте спречили испадање током повезивања.
     >
-    > ![Пинови фиксирани траком](../../../../../translated_images/wio-respeaker-wiring-5.af117c20acf622f3.sr.png)
+    > ![Пинови фиксирани траком](../../../../../translated_images/sr/wio-respeaker-wiring-5.af117c20acf622f3.png)
 
 1. Биће вам потребно да додате звучник.
 
     * Ако користите звучник са JST каблом, повежите га са JST портом на ReSpeaker-у.
 
-      ![Звучник повезан са ReSpeaker-ом помоћу JST кабла](../../../../../translated_images/respeaker-jst-speaker.a441d177809df945.sr.png)
+      ![Звучник повезан са ReSpeaker-ом помоћу JST кабла](../../../../../translated_images/sr/respeaker-jst-speaker.a441d177809df945.png)
 
     * Ако користите звучник са 3.5мм прикључком или слушалице, уметните их у 3.5мм прикључак.
 
-      ![Звучник повезан са ReSpeaker-ом преко 3.5мм прикључка](../../../../../translated_images/respeaker-35mm-speaker.ad79ef4f128c7751.sr.png)
+      ![Звучник повезан са ReSpeaker-ом преко 3.5мм прикључка](../../../../../translated_images/sr/respeaker-35mm-speaker.ad79ef4f128c7751.png)
 
 ### Задатак - подесите SD картицу
 
@@ -79,7 +79,7 @@ Wio Terminal већ има уграђен микрофон, који се мож
 
 1. Уметните SD картицу у слот за SD картице на левој страни Wio Terminal-а, одмах испод дугмета за укључивање. Уверите се да је картица потпуно уметнута и да кликне - можда ће вам бити потребан танак алат или друга SD картица да је потиснете до краја.
 
-    ![Уметање SD картице у слот испод дугмета за укључивање](../../../../../translated_images/wio-sd-card.acdcbe322fa4ee7f.sr.png)
+    ![Уметање SD картице у слот испод дугмета за укључивање](../../../../../translated_images/sr/wio-sd-card.acdcbe322fa4ee7f.png)
 
     > 💁 Да бисте извадили SD картицу, потребно је благо је потиснути унутра, након чега ће искочити. Биће вам потребан танак алат, као што је равни шрафцигер или друга SD картица.
 

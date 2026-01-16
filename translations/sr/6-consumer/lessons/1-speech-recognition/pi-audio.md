@@ -25,13 +25,13 @@ Raspberry Pi захтева дугме за контролу снимања зв
 
 #### Задатак - повежите дугме
 
-![Grove дугме](../../../../../translated_images/grove-button.a70cfbb809a8563681003250cf5b06d68cdcc68624f9e2f493d5a534ae2da1e5.sr.png)
+![Grove дугме](../../../../../translated_images/sr/grove-button.a70cfbb809a8563681003250cf5b06d68cdcc68624f9e2f493d5a534ae2da1e5.png)
 
 1. Уметните један крај Grove кабла у утичницу на модулу дугмета. Кабл ће ући само у једном смеру.
 
 1. Са искљученим Raspberry Pi уређајем, повежите други крај Grove кабла у дигиталну утичницу означену са **D5** на Grove базном HAT-у који је повезан са Pi уређајем. Ова утичница је друга с лева, у реду утичница поред GPIO пинова.
 
-![Grove дугме повезано на утичницу D5](../../../../../translated_images/pi-button.c7a1a4f55943341ce1baf1057658e9a205804d4131d258e820c93f951df0abf3.sr.png)
+![Grove дугме повезано на утичницу D5](../../../../../translated_images/sr/pi-button.c7a1a4f55943341ce1baf1057658e9a205804d4131d258e820c93f951df0abf3.png)
 
 ## Снимање звука
 

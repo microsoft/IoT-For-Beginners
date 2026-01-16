@@ -29,13 +29,13 @@ Kihisi cha Grove Time of Flight kinaweza kuunganishwa na Raspberry Pi.
 
 Unganisha kihisi cha Time of Flight.
 
-![Kihisi cha Grove Time of Flight](../../../../../translated_images/grove-time-of-flight-sensor.d82ff2165bfded9f485de54d8d07195a6270a602696825fca19f629ddfe94e86.sw.png)
+![Kihisi cha Grove Time of Flight](../../../../../translated_images/sw/grove-time-of-flight-sensor.d82ff2165bfded9f485de54d8d07195a6270a602696825fca19f629ddfe94e86.png)
 
 1. Ingiza mwisho mmoja wa kebo ya Grove kwenye soketi ya kihisi cha Time of Flight. Itaingia kwa njia moja tu.
 
 1. Ukiwa na Raspberry Pi imezimwa, unganisha mwisho mwingine wa kebo ya Grove kwenye moja ya soketi za I²C zilizowekwa alama **I²C** kwenye Grove Base hat iliyounganishwa na Pi. Soketi hizi ziko kwenye safu ya chini, upande wa pili wa pini za GPIO na karibu na nafasi ya kebo ya kamera.
 
-![Kihisi cha Grove Time of Flight kimeunganishwa kwenye soketi ya I²C](../../../../../translated_images/pi-time-of-flight-sensor.58c8dc04eb3bfb57.sw.png)
+![Kihisi cha Grove Time of Flight kimeunganishwa kwenye soketi ya I²C](../../../../../translated_images/sw/pi-time-of-flight-sensor.58c8dc04eb3bfb57.png)
 
 ## Programu ya kihisi cha Time of Flight
 
@@ -106,7 +106,7 @@ Programu kifaa.
 
     Kipima umbali kiko nyuma ya kihisi, kwa hivyo hakikisha unatumia upande sahihi unapopima umbali.
 
-    ![Kipima umbali kilicho nyuma ya kihisi cha Time of Flight kikielekezwa kwenye ndizi](../../../../../translated_images/time-of-flight-banana.079921ad8b1496e4.sw.png)
+    ![Kipima umbali kilicho nyuma ya kihisi cha Time of Flight kikielekezwa kwenye ndizi](../../../../../translated_images/sw/time-of-flight-banana.079921ad8b1496e4.png)
 
 > 💁 Unaweza kupata msimbo huu kwenye folda ya [code-proximity/pi](../../../../../4-manufacturing/lessons/4-trigger-fruit-detector/code-proximity/pi).
 

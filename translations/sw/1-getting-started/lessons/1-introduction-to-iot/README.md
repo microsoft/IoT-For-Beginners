@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Utangulizi wa IoT
 
-![Muhtasari wa somo hili kwa sketchnote](../../../../../translated_images/lesson-1.2606670fa61ee904687da5d6fa4e726639d524d064c895117da1b95b9ff6251d.sw.jpg)
+![Muhtasari wa somo hili kwa sketchnote](../../../../../translated_images/sw/lesson-1.2606670fa61ee904687da5d6fa4e726639d524d064c895117da1b95b9ff6251d.jpg)
 
 > Sketchnote na [Nitya Narasimhan](https://github.com/nitya). Bofya picha kwa toleo kubwa zaidi.
 
@@ -79,7 +79,7 @@ Mikrocontroller (pia hujulikana kama MCU, kifupi cha microcontroller unit) ni ko
 
 Mikrocontroller kwa kawaida ni vifaa vya kompyuta vya gharama ya chini, na bei ya wastani kwa zile zinazotumika katika vifaa maalum ikishuka hadi karibu dola za Marekani $0.50, na baadhi ya vifaa vikiwa vya bei ya chini kama $0.03. Vifaa vya msanidi programu vinaweza kuanza kwa bei ya chini kama $4, na gharama huongezeka unapoongeza vipengele zaidi. [Wio Terminal](https://www.seeedstudio.com/Wio-Terminal-p-4509.html), kifaa cha msanidi programu cha mikrocontroller kutoka [Seeed studios](https://www.seeedstudio.com) ambacho kina sensa, aktueta, WiFi na skrini kinagharimu karibu dola za Marekani $30.
 
-![Wio Terminal](../../../../../translated_images/wio-terminal.b8299ee16587db9a.sw.png)
+![Wio Terminal](../../../../../translated_images/sw/wio-terminal.b8299ee16587db9a.png)
 
 > 💁 Unapofanya utafutaji wa mikrocontroller mtandaoni, kuwa makini na kutafuta neno **MCU** kwani hili litarudisha matokeo mengi kuhusu Marvel Cinematic Universe, si mikrocontroller.
 
@@ -93,7 +93,7 @@ Vifaa vya msanidi programu vya mikrocontroller kwa kawaida huja na sensa na aktu
 
 Kompyuta ya bodi moja ni kifaa kidogo cha kompyuta ambacho kina vipengele vyote vya kompyuta kamili vilivyomo kwenye bodi moja ndogo. Hivi ni vifaa ambavyo vina vipimo karibu na PC au Mac ya mezani au laptop, vinaendesha mfumo kamili wa uendeshaji, lakini ni vidogo, vinatumia nguvu kidogo, na ni vya bei nafuu sana.
 
-![Raspberry Pi 4](../../../../../translated_images/raspberry-pi-4.fd4590d308c3d456.sw.jpg)
+![Raspberry Pi 4](../../../../../translated_images/sw/raspberry-pi-4.fd4590d308c3d456.jpg)
 
 Raspberry Pi ni mojawapo ya kompyuta za bodi moja maarufu zaidi.
 

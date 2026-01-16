@@ -45,11 +45,11 @@ Adaugă LED-ul în aplicația CounterFit.
 
     1. Selectează butonul **Add** pentru a crea LED-ul pe Pin 5.
 
-    ![Setările LED-ului](../../../../../translated_images/counterfit-create-led.ba9db1c9b8c622a635d6dfae5cdc4e70c2b250635bd4f0601c6cf0bd22b7ba46.ro.png)
+    ![Setările LED-ului](../../../../../translated_images/ro/counterfit-create-led.ba9db1c9b8c622a635d6dfae5cdc4e70c2b250635bd4f0601c6cf0bd22b7ba46.png)
 
     LED-ul va fi creat și va apărea în lista de actuatori.
 
-    ![LED-ul creat](../../../../../translated_images/counterfit-led.c0ab02de6d256ad84d9bad4d67a7faa709f0ea83e410cfe9b5561ef0cef30b1c.ro.png)
+    ![LED-ul creat](../../../../../translated_images/ro/counterfit-led.c0ab02de6d256ad84d9bad4d67a7faa709f0ea83e410cfe9b5561ef0cef30b1c.png)
 
     După ce LED-ul a fost creat, poți schimba culoarea folosind selectorul *Color*. Selectează butonul **Set** pentru a schimba culoarea după ce ai ales-o.
 

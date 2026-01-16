@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Podpora viacerých jazykov
 
-![Prehľad tejto lekcie vo forme sketchnote](../../../../../translated_images/lesson-24.4246968ed058510ab275052e87ef9aa89c7b2f938915d103c605c04dc6cd5bb7.sk.jpg)
+![Prehľad tejto lekcie vo forme sketchnote](../../../../../translated_images/sk/lesson-24.4246968ed058510ab275052e87ef9aa89c7b2f938915d103c605c04dc6cd5bb7.jpg)
 
 > Sketchnote od [Nitya Narasimhan](https://github.com/nitya). Kliknite na obrázok pre väčšiu verziu.
 
@@ -83,7 +83,7 @@ Existuje množstvo AI služieb, ktoré môžete použiť vo svojich aplikáciác
 
 ### Kognitívne služby – Služba reči
 
-![Logo služby reči](../../../../../translated_images/azure-speech-logo.a1f08c4befb0159f2cb5d692d3baf5b599e7b44759d316da907bda1508f46a4a.sk.png)
+![Logo služby reči](../../../../../translated_images/sk/azure-speech-logo.a1f08c4befb0159f2cb5d692d3baf5b599e7b44759d316da907bda1508f46a4a.png)
 
 Služba reči, ktorú ste používali v predchádzajúcich lekciách, má schopnosti prekladu pre rozpoznávanie reči. Keď rozpoznávate reč, môžete požiadať nielen o text reči v rovnakom jazyku, ale aj v iných jazykoch.
 
@@ -91,7 +91,7 @@ Služba reči, ktorú ste používali v predchádzajúcich lekciách, má schopn
 
 ### Kognitívne služby – Služba Translator
 
-![Logo služby Translator](../../../../../translated_images/azure-translator-logo.c6ed3a4a433edfd2f11577eca105412c50b8396b194cbbd730723dd1d0793bcd.sk.png)
+![Logo služby Translator](../../../../../translated_images/sk/azure-translator-logo.c6ed3a4a433edfd2f11577eca105412c50b8396b194cbbd730723dd1d0793bcd.png)
 
 Služba Translator je špecializovaná prekladateľská služba, ktorá dokáže prekladať text z jedného jazyka do jedného alebo viacerých cieľových jazykov. Okrem prekladu podporuje širokú škálu ďalších funkcií, vrátane maskovania vulgarizmov. Umožňuje vám tiež poskytnúť konkrétny preklad pre určité slovo alebo vetu, aby ste mohli pracovať s termínmi, ktoré nechcete prekladať, alebo mať konkrétny, dobre známy preklad.
 
@@ -130,7 +130,7 @@ Pre túto lekciu budete potrebovať zdroj Translator. Na preklad textu použijet
 
 V ideálnom svete by celá vaša aplikácia mala rozumieť čo najväčšiemu počtu rôznych jazykov, od počúvania reči, cez porozumenie jazyku, až po odpovedanie rečou. Toto je však veľa práce, takže prekladateľské služby môžu urýchliť čas dodania vašej aplikácie.
 
-![Architektúra inteligentného časovača prekladajúca japončinu do angličtiny, spracovanie v angličtine a preklad späť do japončiny](../../../../../translated_images/translated-smart-timer.08ac20057fdc5c37.sk.png)
+![Architektúra inteligentného časovača prekladajúca japončinu do angličtiny, spracovanie v angličtine a preklad späť do japončiny](../../../../../translated_images/sk/translated-smart-timer.08ac20057fdc5c37.png)
 
 Predstavte si, že vytvárate inteligentný časovač, ktorý používa angličtinu od začiatku do konca, rozumie hovorenému anglickému jazyku a prevádza ho na text, vykonáva porozumenie jazyka v angličtine, vytvára odpovede v angličtine a odpovedá hovorenou angličtinou. Ak by ste chceli pridať podporu pre japončinu, mohli by ste začať prekladom hovoreného japonského jazyka na anglický text, potom ponechať jadro aplikácie rovnaké a potom preložiť odpoveď na text do japončiny predtým, ako ju vyslovíte. To by vám umožnilo rýchlo pridať podporu pre japončinu a neskôr môžete rozšíriť aplikáciu na plnú podporu japončiny od začiatku do konca.
 

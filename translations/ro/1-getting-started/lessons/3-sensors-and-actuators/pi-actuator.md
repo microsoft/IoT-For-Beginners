@@ -35,7 +35,7 @@ LED-ul Grove vine ca un modul cu o selecție de LED-uri, permițându-ți să al
 
 Conectează LED-ul.
 
-![Un LED Grove](../../../../../translated_images/grove-led.6c853be93f473cf2c439cfc74bb1064732b22251a83cedf66e62f783f9cc1a79.ro.png)
+![Un LED Grove](../../../../../translated_images/ro/grove-led.6c853be93f473cf2c439cfc74bb1064732b22251a83cedf66e62f783f9cc1a79.png)
 
 1. Alege LED-ul preferat și inserează picioarele acestuia în cele două găuri de pe modulul LED.
 
@@ -49,7 +49,7 @@ Conectează LED-ul.
 
 1. Cu Raspberry Pi oprit, conectează celălalt capăt al cablului Grove la soclul digital marcat **D5** pe Grove Base hat atașat la Pi. Acest soclu este al doilea din stânga, pe rândul de socluri de lângă pini GPIO.
 
-![LED-ul Grove conectat la soclul D5](../../../../../translated_images/pi-led.97f1d474981dc35d1c7996c7b17de355d3d0a6bc9606d79fa5f89df933415122.ro.png)
+![LED-ul Grove conectat la soclul D5](../../../../../translated_images/ro/pi-led.97f1d474981dc35d1c7996c7b17de355d3d0a6bc9606d79fa5f89df933415122.png)
 
 ## Programează lampa de veghe
 

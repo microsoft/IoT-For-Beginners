@@ -45,11 +45,11 @@ Ongeza LED kwenye programu ya CounterFit.
 
     1. Chagua kitufe cha **Add** kuunda LED kwenye Pin 5.
 
-    ![Mipangilio ya LED](../../../../../translated_images/counterfit-create-led.ba9db1c9b8c622a635d6dfae5cdc4e70c2b250635bd4f0601c6cf0bd22b7ba46.sw.png)
+    ![Mipangilio ya LED](../../../../../translated_images/sw/counterfit-create-led.ba9db1c9b8c622a635d6dfae5cdc4e70c2b250635bd4f0601c6cf0bd22b7ba46.png)
 
     LED itaundwa na itaonekana kwenye orodha ya viendeshaji.
 
-    ![LED iliyoundwa](../../../../../translated_images/counterfit-led.c0ab02de6d256ad84d9bad4d67a7faa709f0ea83e410cfe9b5561ef0cef30b1c.sw.png)
+    ![LED iliyoundwa](../../../../../translated_images/sw/counterfit-led.c0ab02de6d256ad84d9bad4d67a7faa709f0ea83e410cfe9b5561ef0cef30b1c.png)
 
     Mara LED inapoundwa, unaweza kubadilisha rangi kwa kutumia kiondoa rangi cha *Color*. Chagua kitufe cha **Set** kubadilisha rangi baada ya kuchagua.
 

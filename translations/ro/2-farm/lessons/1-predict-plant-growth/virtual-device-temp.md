@@ -47,11 +47,11 @@ Adaugă senzorii de umiditate și temperatură în aplicația CounterFit.
 
     1. Selectează butonul **Add** pentru a crea senzorul de umiditate pe Pin 5.
 
-    ![Setările senzorului de umiditate](../../../../../translated_images/counterfit-create-humidity-sensor.2750e27b6f30e09cf4e22101defd5252710717620816ab41ba688f91f757c49a.ro.png)
+    ![Setările senzorului de umiditate](../../../../../translated_images/ro/counterfit-create-humidity-sensor.2750e27b6f30e09cf4e22101defd5252710717620816ab41ba688f91f757c49a.png)
 
     Senzorul de umiditate va fi creat și va apărea în lista de senzori.
 
-    ![Senzorul de umiditate creat](../../../../../translated_images/counterfit-humidity-sensor.7b12f7f339e430cb26c8211d2dba4ef75261b353a01da0932698b5bebd693f27.ro.png)
+    ![Senzorul de umiditate creat](../../../../../translated_images/ro/counterfit-humidity-sensor.7b12f7f339e430cb26c8211d2dba4ef75261b353a01da0932698b5bebd693f27.png)
 
 1. Creează un senzor de temperatură:
 
@@ -63,11 +63,11 @@ Adaugă senzorii de umiditate și temperatură în aplicația CounterFit.
 
     1. Selectează butonul **Add** pentru a crea senzorul de temperatură pe Pin 6.
 
-    ![Setările senzorului de temperatură](../../../../../translated_images/counterfit-create-temperature-sensor.199350ed34f7343d79dccbe95eaf6c11d2121f03d1c35ab9613b330c23f39b29.ro.png)
+    ![Setările senzorului de temperatură](../../../../../translated_images/ro/counterfit-create-temperature-sensor.199350ed34f7343d79dccbe95eaf6c11d2121f03d1c35ab9613b330c23f39b29.png)
 
     Senzorul de temperatură va fi creat și va apărea în lista de senzori.
 
-    ![Senzorul de temperatură creat](../../../../../translated_images/counterfit-temperature-sensor.f0560236c96a9016bafce7f6f792476fe3367bc6941a1f7d5811d144d4bcbfff.ro.png)
+    ![Senzorul de temperatură creat](../../../../../translated_images/ro/counterfit-temperature-sensor.f0560236c96a9016bafce7f6f792476fe3367bc6941a1f7d5811d144d4bcbfff.png)
 
 ## Programează aplicația senzorului de temperatură
 

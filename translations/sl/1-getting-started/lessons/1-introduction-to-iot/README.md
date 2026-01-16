@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Uvod v IoT
 
-![Sketchnote pregled te lekcije](../../../../../translated_images/lesson-1.2606670fa61ee904687da5d6fa4e726639d524d064c895117da1b95b9ff6251d.sl.jpg)
+![Sketchnote pregled te lekcije](../../../../../translated_images/sl/lesson-1.2606670fa61ee904687da5d6fa4e726639d524d064c895117da1b95b9ff6251d.jpg)
 
 > Sketchnote avtorja [Nitya Narasimhan](https://github.com/nitya). Kliknite na sliko za večjo različico.
 
@@ -79,7 +79,7 @@ Mikrokrmilnik (pogosto imenovan MCU, kratica za mikrokrmilniško enoto) je majhe
 
 Mikrokrmilniki so običajno nizkocenovne računalniške naprave, pri čemer povprečne cene tistih, ki se uporabljajo v prilagojeni strojni opremi, padajo na približno 0,50 USD, nekatere naprave pa so poceni kot 0,03 USD. Razvojni kompleti se začnejo pri približno 4 USD, stroški pa naraščajo z dodajanjem več funkcij. [Wio Terminal](https://www.seeedstudio.com/Wio-Terminal-p-4509.html), mikrokrmilniški razvojni komplet iz [Seeed studios](https://www.seeedstudio.com), ki ima senzorje, aktuatorje, WiFi in zaslon, stane približno 30 USD.
 
-![Wio Terminal](../../../../../translated_images/wio-terminal.b8299ee16587db9a.sl.png)
+![Wio Terminal](../../../../../translated_images/sl/wio-terminal.b8299ee16587db9a.png)
 
 > 💁 Pri iskanju mikrokrmilnikov na internetu bodite previdni pri iskanju izraza **MCU**, saj bo to prineslo veliko rezultatov za Marvel Cinematic Universe, ne pa mikrokrmilnikov.
 
@@ -93,7 +93,7 @@ Razvojni kompleti mikrokrmilnikov običajno vključujejo dodatne senzorje in akt
 
 Enobočni računalnik je majhna računalniška naprava, ki ima vse elemente popolnega računalnika na eni majhni plošči. To so naprave, ki imajo specifikacije, podobne namiznemu ali prenosnemu računalniku PC ali Mac, poganjajo celoten operacijski sistem, vendar so majhne, porabijo manj energije in so bistveno cenejše.
 
-![Raspberry Pi 4](../../../../../translated_images/raspberry-pi-4.fd4590d308c3d456.sl.jpg)
+![Raspberry Pi 4](../../../../../translated_images/sl/raspberry-pi-4.fd4590d308c3d456.jpg)
 
 Raspberry Pi je eden najbolj priljubljenih enobočnih računalnikov.
 

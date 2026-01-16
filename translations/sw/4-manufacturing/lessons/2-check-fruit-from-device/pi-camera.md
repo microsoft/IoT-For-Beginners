@@ -25,7 +25,7 @@ Kamera inaweza kuunganishwa na Raspberry Pi kwa kutumia kebo ya ribbon.
 
 ### Kazi - unganisha kamera
 
-![Kamera ya Raspberry Pi](../../../../../translated_images/pi-camera-module.4278753c31bd6e757aa2b858be97d72049f71616278cefe4fb5abb485b40a078.sw.png)
+![Kamera ya Raspberry Pi](../../../../../translated_images/sw/pi-camera-module.4278753c31bd6e757aa2b858be97d72049f71616278cefe4fb5abb485b40a078.png)
 
 1. Zima Pi.
 
@@ -33,17 +33,17 @@ Kamera inaweza kuunganishwa na Raspberry Pi kwa kutumia kebo ya ribbon.
 
     Unaweza kupata uhuishaji unaoonyesha jinsi ya kufungua kipande na kuingiza kebo kwenye [Raspberry Pi Getting Started with the Camera module documentation](https://projects.raspberrypi.org/en/projects/getting-started-with-picamera/2).
 
-    ![Kebo ya ribbon imeingizwa kwenye moduli ya kamera](../../../../../translated_images/pi-camera-ribbon-cable.0bf82acd251611c21ac616f082849413e2b322a261d0e4f8fec344248083b07e.sw.png)
+    ![Kebo ya ribbon imeingizwa kwenye moduli ya kamera](../../../../../translated_images/sw/pi-camera-ribbon-cable.0bf82acd251611c21ac616f082849413e2b322a261d0e4f8fec344248083b07e.png)
 
 1. Ondoa Grove Base Hat kutoka Pi.
 
 1. Pitisha kebo ya ribbon kupitia nafasi ya kamera kwenye Grove Base Hat. Hakikisha upande wa bluu wa kebo unakabili bandari za analog zilizoandikwa **A0**, **A1** nk.
 
-    ![Kebo ya ribbon ikipitia Grove Base Hat](../../../../../translated_images/grove-base-hat-ribbon-cable.501fed202fcf73b11b2b68f6d246189f7d15d3e4423c572ddee79d77b4632b47.sw.png)
+    ![Kebo ya ribbon ikipitia Grove Base Hat](../../../../../translated_images/sw/grove-base-hat-ribbon-cable.501fed202fcf73b11b2b68f6d246189f7d15d3e4423c572ddee79d77b4632b47.png)
 
 1. Ingiza kebo ya ribbon kwenye soketi ya kamera kwenye Pi. Tena, vuta kipande cha plastiki cheusi juu, ingiza kebo, kisha sukuma kipande kurudi mahali pake. Upande wa bluu wa kebo unapaswa kuelekea bandari za USB na ethernet.
 
-    ![Kebo ya ribbon imeunganishwa kwenye soketi ya kamera kwenye Pi](../../../../../translated_images/pi-camera-socket-ribbon-cable.a18309920b11800911082ed7aa6fb28e6d9be3a022e4079ff990016cae3fca10.sw.png)
+    ![Kebo ya ribbon imeunganishwa kwenye soketi ya kamera kwenye Pi](../../../../../translated_images/sw/pi-camera-socket-ribbon-cable.a18309920b11800911082ed7aa6fb28e6d9be3a022e4079ff990016cae3fca10.png)
 
 1. Rudisha Grove Base Hat.
 
@@ -110,7 +110,7 @@ Panga kifaa.
 
     Mstari wa `camera.rotation = 0` huweka mzunguko wa picha. Kebo ya ribbon huingia chini ya kamera, lakini ikiwa kamera yako imezungushwa ili kuruhusu iwe rahisi kuelekea kipengee unachotaka kuainisha, basi unaweza kubadilisha mstari huu kwa idadi ya digrii za mzunguko.
 
-    ![Kamera ikining'inia juu ya kopo la kinywaji](../../../../../translated_images/pi-camera-upside-down.5376961ba31459883362124152ad6b823d5ac5fc14e85f317e22903bd681c2b6.sw.png)
+    ![Kamera ikining'inia juu ya kopo la kinywaji](../../../../../translated_images/sw/pi-camera-upside-down.5376961ba31459883362124152ad6b823d5ac5fc14e85f317e22903bd681c2b6.png)
 
     Kwa mfano, ikiwa utaweka kebo ya ribbon juu ya kitu ili iwe juu ya kamera, basi weka mzunguko kuwa 180:
 

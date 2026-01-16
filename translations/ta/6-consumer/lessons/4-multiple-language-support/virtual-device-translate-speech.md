@@ -46,7 +46,7 @@ CO_OP_TRANSLATOR_METADATA:
    >
    > உதாரணமாக, நீங்கள் LUIS-ஐ ஆங்கிலத்தில் பயிற்சி செய்தால், ஆனால் பிரெஞ்சை பயனர் மொழியாகப் பயன்படுத்த விரும்பினால், "set a 2 minute and 27 second timer" போன்ற வாக்கியங்களை Bing Translate மூலம் ஆங்கிலத்திலிருந்து பிரெஞ்சுக்கு மொழிபெயர்க்கலாம், பின்னர் **Listen translation** பொத்தானை பயன்படுத்தி மொழிபெயர்ப்பை உங்கள் மைக்ரோஃபோனில் பேசலாம்.
    >
-   > ![Bing Translate இல் Listen translation பொத்தான்](../../../../../translated_images/bing-translate.348aa796d6efe2a92f41ea74a5cf42bb4c63d6faaa08e7f46924e072a35daa48.ta.png)
+   > ![Bing Translate இல் Listen translation பொத்தான்](../../../../../translated_images/ta/bing-translate.348aa796d6efe2a92f41ea74a5cf42bb4c63d6faaa08e7f46924e072a35daa48.png)
 
 1. `recognizer_config` மற்றும் `recognizer` அறிவிப்புகளை பின்வரும் குறியீட்டால் மாற்றவும்:
 

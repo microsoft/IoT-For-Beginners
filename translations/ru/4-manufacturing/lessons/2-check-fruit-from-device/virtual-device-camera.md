@@ -43,11 +43,11 @@ CO_OP_TRANSLATOR_METADATA:
 
     1. Нажмите кнопку **Add**, чтобы создать камеру.
 
-    ![Настройки камеры](../../../../../translated_images/counterfit-create-camera.a5de97f59c0bd3cbe0416d7e89a3cfe86d19fbae05c641c53a91286412af0a34.ru.png)
+    ![Настройки камеры](../../../../../translated_images/ru/counterfit-create-camera.a5de97f59c0bd3cbe0416d7e89a3cfe86d19fbae05c641c53a91286412af0a34.png)
 
     Камера будет создана и появится в списке датчиков.
 
-    ![Созданная камера](../../../../../translated_images/counterfit-camera.001ec52194c8ee5d3f617173da2c79e1df903d10882adc625cbfc493525125d4.ru.png)
+    ![Созданная камера](../../../../../translated_images/ru/counterfit-camera.001ec52194c8ee5d3f617173da2c79e1df903d10882adc625cbfc493525125d4.png)
 
 ## Программирование камеры
 
@@ -112,7 +112,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 1. Настройте изображение, которое камера в CounterFit будет захватывать. Вы можете установить *Source* как *File* и загрузить файл изображения, либо установить *Source* как *WebCam*, чтобы изображения захватывались с вашей веб-камеры. Убедитесь, что вы нажали кнопку **Set** после выбора изображения или веб-камеры.
 
-    ![CounterFit с файлом в качестве источника изображения и веб-камерой, показывающей человека с бананом в предварительном просмотре](../../../../../translated_images/counterfit-camera-options.eb3bd5150a8e7dffbf24bc5bcaba0cf2cdef95fbe6bbe393695d173817d6b8df.ru.png)
+    ![CounterFit с файлом в качестве источника изображения и веб-камерой, показывающей человека с бананом в предварительном просмотре](../../../../../translated_images/ru/counterfit-camera-options.eb3bd5150a8e7dffbf24bc5bcaba0cf2cdef95fbe6bbe393695d173817d6b8df.png)
 
 1. Изображение будет захвачено и сохранено как `image.jpg` в текущей папке. Вы увидите этот файл в обозревателе VS Code. Выберите файл, чтобы просмотреть изображение. Если требуется поворот, обновите строку `camera.rotation = 0` и сделайте ещё один снимок.
 

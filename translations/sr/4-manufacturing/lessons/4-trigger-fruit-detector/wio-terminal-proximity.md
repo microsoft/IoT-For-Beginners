@@ -29,13 +29,13 @@ Grove Time of Flight сензор може се повезати са Wio Termin
 
 Повежите Time of Flight сензор.
 
-![Grove Time of Flight сензор](../../../../../translated_images/grove-time-of-flight-sensor.d82ff2165bfded9f485de54d8d07195a6270a602696825fca19f629ddfe94e86.sr.png)
+![Grove Time of Flight сензор](../../../../../translated_images/sr/grove-time-of-flight-sensor.d82ff2165bfded9f485de54d8d07195a6270a602696825fca19f629ddfe94e86.png)
 
 1. Уметните један крај Grove кабла у прикључак на Time of Flight сензору. Кабл ће ући само у једном смеру.
 
 1. Док је Wio Terminal искључен са вашег рачунара или другог извора напајања, повежите други крај Grove кабла са левим Grove прикључком на Wio Terminal-у, гледајући екран. Ово је прикључак најближи дугмету за напајање. Ово је комбиновани дигитални и IC прикључак.
 
-![Grove Time of Flight сензор повезан са левим прикључком](../../../../../translated_images/wio-time-of-flight-sensor.c4c182131d2ea73d.sr.png)
+![Grove Time of Flight сензор повезан са левим прикључком](../../../../../translated_images/sr/wio-time-of-flight-sensor.c4c182131d2ea73d.png)
 
 1. Сада можете повезати Wio Terminal са вашим рачунаром.
 
@@ -101,7 +101,7 @@ Wio Terminal сада може бити програмиран да корист
 
     Мерач растојања налази се на задњој страни сензора, па се уверите да користите исправну страну приликом мерења растојања.
 
-    ![Мерач растојања на задњој страни Time of Flight сензора усмерен ка банани](../../../../../translated_images/time-of-flight-banana.079921ad8b1496e4.sr.png)
+    ![Мерач растојања на задњој страни Time of Flight сензора усмерен ка банани](../../../../../translated_images/sr/time-of-flight-banana.079921ad8b1496e4.png)
 
 > 💁 Овај код можете пронаћи у [code-proximity/wio-terminal](../../../../../4-manufacturing/lessons/4-trigger-fruit-detector/code-proximity/wio-terminal) фасцикли.
 

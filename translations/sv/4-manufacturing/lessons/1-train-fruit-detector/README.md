@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Träna en detektor för fruktkvalitet
 
-![En sketchnote-översikt av denna lektion](../../../../../translated_images/lesson-15.843d21afdc6fb2bba70cd9db7b7d2f91598859fafda2078b0bdc44954194b6c0.sv.jpg)
+![En sketchnote-översikt av denna lektion](../../../../../translated_images/sv/lesson-15.843d21afdc6fb2bba70cd9db7b7d2f91598859fafda2078b0bdc44954194b6c0.jpg)
 
 > Sketchnote av [Nitya Narasimhan](https://github.com/nitya). Klicka på bilden för en större version.
 
@@ -47,7 +47,7 @@ Alla grödor mognar inte jämnt. Tomater, till exempel, kan fortfarande ha någr
 
 Den ökade automatiseringen av skörd flyttade sorteringen av produkter från skörden till fabriken. Mat skulle färdas på långa transportband med team av människor som plockade bort produkter som inte uppfyllde kvalitetskraven. Skörden blev billigare tack vare maskiner, men det fanns fortfarande en kostnad för att manuellt sortera mat.
 
-![Om en röd tomat upptäcks fortsätter den sin resa utan avbrott. Om en grön tomat upptäcks slängs den i en avfallsbehållare med hjälp av en spak](../../../../../translated_images/optical-tomato-sorting.61aa134bdda4e5b1bfb16a212c1e35a6ef0c426cbb8b1c975f79d7bfbf48d068.sv.png)
+![Om en röd tomat upptäcks fortsätter den sin resa utan avbrott. Om en grön tomat upptäcks slängs den i en avfallsbehållare med hjälp av en spak](../../../../../translated_images/sv/optical-tomato-sorting.61aa134bdda4e5b1bfb16a212c1e35a6ef0c426cbb8b1c975f79d7bfbf48d068.png)
 
 Nästa utveckling var att använda maskiner för att sortera, antingen inbyggda i skördemaskinen eller i bearbetningsanläggningarna. Den första generationen av dessa maskiner använde optiska sensorer för att upptäcka färger, och styrde aktuatorer för att skjuta gröna tomater i en avfallsbehållare med hjälp av spakar eller lufttryck, medan röda tomater fortsatte på ett nätverk av transportband.
 
@@ -61,7 +61,7 @@ De senaste utvecklingarna av dessa sorteringsmaskiner drar nytta av AI och ML, m
 
 Traditionell programmering innebär att du tar data, tillämpar en algoritm på datan och får ett resultat. Till exempel, i det senaste projektet tog du GPS-koordinater och en geofence, tillämpade en algoritm som tillhandahölls av Azure Maps, och fick tillbaka ett resultat om punkten var innanför eller utanför geofencen. Du matar in mer data, du får mer resultat.
 
-![Traditionell utveckling tar input och en algoritm och ger output. Maskininlärning använder input och output-data för att träna en modell, och denna modell kan ta ny input-data för att generera nytt output](../../../../../translated_images/traditional-vs-ml.5c20c169621fa539.sv.png)
+![Traditionell utveckling tar input och en algoritm och ger output. Maskininlärning använder input och output-data för att träna en modell, och denna modell kan ta ny input-data för att generera nytt output](../../../../../translated_images/sv/traditional-vs-ml.5c20c169621fa539.png)
 
 Maskininlärning vänder på detta - du börjar med data och kända resultat, och maskininlärningsalgoritmen lär sig från datan. Du kan sedan ta den tränade algoritmen, kallad en *maskininlärningsmodell* eller *modell*, och mata in ny data och få nya resultat.
 
@@ -71,7 +71,7 @@ Till exempel kan du ge en modell miljontals bilder av omogna bananer som indata 
 
 > 🎓 Resultaten från ML-modeller kallas *förutsägelser*
 
-![2 bananer, en mogen med en förutsägelse på 99,7% mogen, 0,3% omogen, och en omogen med en förutsägelse på 1,4% mogen, 98,6% omogen](../../../../../translated_images/bananas-ripe-vs-unripe-predictions.8d0e2034014aa50ece4e4589e724b142da0681f35470fe3db3f7d51240f69c85.sv.png)
+![2 bananer, en mogen med en förutsägelse på 99,7% mogen, 0,3% omogen, och en omogen med en förutsägelse på 1,4% mogen, 98,6% omogen](../../../../../translated_images/sv/bananas-ripe-vs-unripe-predictions.8d0e2034014aa50ece4e4589e724b142da0681f35470fe3db3f7d51240f69c85.png)
 
 ML-modeller ger inte ett binärt svar, istället ger de sannolikheter. Till exempel kan en modell ges en bild av en banan och förutsäga `mogen` med 99,7% och `omogen` med 0,3%. Din kod skulle sedan välja den bästa förutsägelsen och avgöra att bananen är mogen.
 
@@ -87,7 +87,7 @@ För att framgångsrikt träna en bildklassificerare behöver du miljontals bild
 
 När en bildklassificerare har tränats för en mängd olika bilder är dess interna funktioner bra på att känna igen former, färger och mönster. Transfer learning gör det möjligt för modellen att ta det den redan har lärt sig om att känna igen bilddelar och använda det för att känna igen nya bilder.
 
-![När du kan känna igen former kan de sättas ihop i olika konfigurationer för att skapa en båt eller en katt](../../../../../translated_images/shapes-to-images.1a309f0ea88dd66f.sv.png)
+![När du kan känna igen former kan de sättas ihop i olika konfigurationer för att skapa en båt eller en katt](../../../../../translated_images/sv/shapes-to-images.1a309f0ea88dd66f.png)
 
 Du kan tänka på detta som lite som barnböcker om former, där när du kan känna igen en halvcirkel, en rektangel och en triangel, kan du känna igen en segelbåt eller en katt beroende på konfigurationen av dessa former. Bildklassificeraren kan känna igen formerna, och transfer learning lär den vilken kombination som gör en båt eller en katt - eller en mogen banan.
 
@@ -99,7 +99,7 @@ Det finns en mängd olika verktyg som kan hjälpa dig att göra detta, inklusive
 
 Custom Vision är ett molnbaserat verktyg för att träna bildklassificerare. Det gör det möjligt att träna en klassificerare med endast ett litet antal bilder. Du kan ladda upp bilder via en webbportal, web-API eller ett SDK, och ge varje bild en *tagg* som har klassificeringen av den bilden. Du tränar sedan modellen och testar den för att se hur bra den fungerar. När du är nöjd med modellen kan du publicera versioner av den som kan nås via ett web-API eller ett SDK.
 
-![Azure Custom Vision-logotypen](../../../../../translated_images/custom-vision-logo.d3d4e7c8a87ec9daf825e72e210576c3cbf60312577be7a139e22dd97ab7f1e6.sv.png)
+![Azure Custom Vision-logotypen](../../../../../translated_images/sv/custom-vision-logo.d3d4e7c8a87ec9daf825e72e210576c3cbf60312577be7a139e22dd97ab7f1e6.png)
 
 > 💁 Du kan träna en Custom Vision-modell med så lite som 5 bilder per klassificering, men fler är bättre. Du kan få bättre resultat med minst 30 bilder.
 
@@ -155,7 +155,7 @@ För att använda Custom Vision måste du först skapa två Cognitive Services-r
 
     När du skapar ditt projekt, se till att använda resursen `fruit-quality-detector-training` som du skapade tidigare. Använd en *Classification*-projekttyp, en *Multiclass*-klassificeringstyp och domänen *Food*.
 
-    ![Inställningarna för Custom Vision-projektet med namnet inställt på fruit-quality-detector, ingen beskrivning, resursen inställd på fruit-quality-detector-training, projekttypen inställd på classification, klassificeringstyperna inställda på multi class och domänerna inställda på food](../../../../../translated_images/custom-vision-create-project.cf46325b92d8b131089f6647cf5e07b664cb77850e106d66e3c057b6b69756c6.sv.png)
+    ![Inställningarna för Custom Vision-projektet med namnet inställt på fruit-quality-detector, ingen beskrivning, resursen inställd på fruit-quality-detector-training, projekttypen inställd på classification, klassificeringstyperna inställda på multi class och domänerna inställda på food](../../../../../translated_images/sv/custom-vision-create-project.cf46325b92d8b131089f6647cf5e07b664cb77850e106d66e3c057b6b69756c6.png)
 
 ✅ Ta dig tid att utforska Custom Vision-användargränssnittet för din bildklassificerare.
 
@@ -173,7 +173,7 @@ Bildklassificerare körs med mycket låg upplösning. Till exempel kan Custom Vi
 
     * Använd 2 mogna bananer, ta några bilder av varje från olika vinklar, ta minst 7 bilder (5 för träning, 2 för testning), men helst fler.
 
-        ![Bilder på 2 olika bananer](../../../../../translated_images/banana-training-images.530eb203346d73bc23b8b990fb4609470bf4ff7c942ccc13d4cfffeed9be1ad4.sv.png)
+        ![Bilder på 2 olika bananer](../../../../../translated_images/sv/banana-training-images.530eb203346d73bc23b8b990fb4609470bf4ff7c942ccc13d4cfffeed9be1ad4.png)
 
     * Upprepa samma process med 2 omogna bananer.
 
@@ -183,7 +183,7 @@ Bildklassificerare körs med mycket låg upplösning. Till exempel kan Custom Vi
 
 1. Följ [avsnittet om att ladda upp och tagga bilder i snabbstarten för att bygga en klassificerare på Microsoft Docs](https://docs.microsoft.com/azure/cognitive-services/custom-vision-service/getting-started-build-a-classifier?WT.mc_id=academic-17441-jabenn#upload-and-tag-images) för att ladda upp dina träningsbilder. Tagga den mogna frukten som `ripe` och den omogna frukten som `unripe`.
 
-    ![Uppladdningsdialoger som visar uppladdning av mogna och omogna bananbilder](../../../../../translated_images/image-upload-bananas.0751639f3815e0ec42bdbc6254d1e4357a185834d1ae10c9948a0e7d6d336695.sv.png)
+    ![Uppladdningsdialoger som visar uppladdning av mogna och omogna bananbilder](../../../../../translated_images/sv/image-upload-bananas.0751639f3815e0ec42bdbc6254d1e4357a185834d1ae10c9948a0e7d6d336695.png)
 
 1. Följ [avsnittet om att träna klassificeraren i snabbstarten för att bygga en klassificerare på Microsoft Docs](https://docs.microsoft.com/azure/cognitive-services/custom-vision-service/getting-started-build-a-classifier?WT.mc_id=academic-17441-jabenn#train-the-classifier) för att träna bildklassificeraren på dina uppladdade bilder.
 
@@ -201,7 +201,7 @@ När din klassificerare är tränad kan du testa den genom att ge den en ny bild
 
 1. Följ [dokumentationen om att testa din modell på Microsoft Docs](https://docs.microsoft.com/azure/cognitive-services/custom-vision-service/test-your-model?WT.mc_id=academic-17441-jabenn#test-your-model) för att testa din bildklassificerare. Använd testbilderna du skapade tidigare, inte några av bilderna du använde för träning.
 
-    ![En omogen banan förutspådd som omogen med 98,9 % sannolikhet, mogen med 1,1 % sannolikhet](../../../../../translated_images/banana-unripe-quick-test-prediction.dae9b5e1c4ef7c64886422438850ea14f0be6ac918c217ea3b255c685abfabe7.sv.png)
+    ![En omogen banan förutspådd som omogen med 98,9 % sannolikhet, mogen med 1,1 % sannolikhet](../../../../../translated_images/sv/banana-unripe-quick-test-prediction.dae9b5e1c4ef7c64886422438850ea14f0be6ac918c217ea3b255c685abfabe7.png)
 
 1. Testa alla testbilder du har tillgång till och observera sannolikheterna.
 

@@ -27,13 +27,13 @@ Grove rele lahko povežete na digitalni priključek Wio Terminala.
 
 Povežite rele.
 
-![Grove rele](../../../../../translated_images/grove-relay.d426958ca210fbd0fb7983d7edc069d46c73a8b0a099d94797bd756f7b6bb6be.sl.png)
+![Grove rele](../../../../../translated_images/sl/grove-relay.d426958ca210fbd0fb7983d7edc069d46c73a8b0a099d94797bd756f7b6bb6be.png)
 
 1. Vstavite en konec Grove kabla v vtičnico na releju. Kabel bo šel noter samo v eno smer.
 
 1. Ko je Wio Terminal odklopljen od računalnika ali drugega napajalnika, povežite drugi konec Grove kabla na levo vtičnico Grove na Wio Terminalu, gledano na zaslon. Senzor za vlažnost tal pustite povezan na desni vtičnici.
 
-![Grove rele povezan na levo vtičnico, senzor za vlažnost tal povezan na desno vtičnico](../../../../../translated_images/wio-relay-and-soil-moisture-sensor.ed722202d42babe0.sl.png)
+![Grove rele povezan na levo vtičnico, senzor za vlažnost tal povezan na desno vtičnico](../../../../../translated_images/sl/wio-relay-and-soil-moisture-sensor.ed722202d42babe0.png)
 
 1. Vstavite senzor za vlažnost tal v zemljo, če to ni že narejeno v prejšnji lekciji.
 

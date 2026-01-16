@@ -46,7 +46,7 @@ Storitve za govor lahko sprejmejo govor in ga ne le pretvorijo v besedilo v iste
     >
     > Na primer, če trenirate LUIS v angleščini, vendar želite uporabiti francoščino kot uporabniški jezik, lahko prevedete stavke, kot je "nastavi 2 minuti in 27 sekundni časovnik", iz angleščine v francoščino z uporabo Bing Translate, nato pa uporabite gumb **Listen translation**, da govorite prevod v mikrofon.
     >
-    > ![Gumb za poslušanje prevoda na Bing Translate](../../../../../translated_images/bing-translate.348aa796d6efe2a92f41ea74a5cf42bb4c63d6faaa08e7f46924e072a35daa48.sl.png)
+    > ![Gumb za poslušanje prevoda na Bing Translate](../../../../../translated_images/sl/bing-translate.348aa796d6efe2a92f41ea74a5cf42bb4c63d6faaa08e7f46924e072a35daa48.png)
 
 1. Zamenjajte deklaracije `recognizer_config` in `recognizer` z naslednjimi:
 

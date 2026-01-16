@@ -27,13 +27,13 @@ Kihisi cha joto cha Grove kinaweza kuunganishwa kwenye bandari ya kidijitali ya 
 
 Unganisha kihisi cha joto.
 
-![Kihisi cha joto cha Grove](../../../../../translated_images/grove-dht11.07f8eafceee170043efbb53e1d15722bd4e00fbaa9ff74290b57e9f66eb82c17.sw.png)
+![Kihisi cha joto cha Grove](../../../../../translated_images/sw/grove-dht11.07f8eafceee170043efbb53e1d15722bd4e00fbaa9ff74290b57e9f66eb82c17.png)
 
 1. Ingiza mwisho mmoja wa kebo ya Grove kwenye soketi ya kihisi cha unyevunyevu na joto. Itaingia kwa njia moja tu.
 
 1. Ukiwa na Wio Terminal imekatwa kutoka kwa kompyuta yako au chanzo kingine cha nguvu, unganisha mwisho mwingine wa kebo ya Grove kwenye soketi ya kulia ya Grove kwenye Wio Terminal ukiangalia skrini. Hii ni soketi iliyo mbali zaidi na kitufe cha nguvu.
 
-![Kihisi cha joto cha Grove kimeunganishwa kwenye soketi ya kulia](../../../../../translated_images/wio-temperature-sensor.2934928f38c7f79a.sw.png)
+![Kihisi cha joto cha Grove kimeunganishwa kwenye soketi ya kulia](../../../../../translated_images/sw/wio-temperature-sensor.2934928f38c7f79a.png)
 
 ## Programu ya kihisi cha joto
 

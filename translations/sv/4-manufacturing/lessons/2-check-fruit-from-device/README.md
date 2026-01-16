@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Kontrollera fruktkvalitet med en IoT-enhet
 
-![En sketchnote-översikt av denna lektion](../../../../../translated_images/lesson-16.215daf18b00631fbdfd64c6fc2dc6044dff5d544288825d8076f9fb83d964c23.sv.jpg)
+![En sketchnote-översikt av denna lektion](../../../../../translated_images/sv/lesson-16.215daf18b00631fbdfd64c6fc2dc6044dff5d544288825d8076f9fb83d964c23.jpg)
 
 > Sketchnote av [Nitya Narasimhan](https://github.com/nitya). Klicka på bilden för en större version.
 
@@ -35,7 +35,7 @@ I denna lektion kommer vi att täcka:
 
 Kamerasensorer, som namnet antyder, är kameror som du kan ansluta till din IoT-enhet. De kan ta stillbilder eller spela in strömmande video. Vissa returnerar rå bilddata, medan andra komprimerar bilddata till en bildfil som JPEG eller PNG. Vanligtvis är kamerorna som fungerar med IoT-enheter mycket mindre och har lägre upplösning än vad du kanske är van vid, men det finns högupplösta kameror som kan mäta sig med toppmoderna mobiltelefoner. Du kan få alla möjliga utbytbara linser, flera kamerauppsättningar, infraröda termiska kameror eller UV-kameror.
 
-![Ljuset från en scen passerar genom en lins och fokuseras på en CMOS-sensor](../../../../../translated_images/cmos-sensor.75f9cd74decb137149a4c9ea825251a4549497d67c0ae2776159e6102bb53aa9.sv.png)
+![Ljuset från en scen passerar genom en lins och fokuseras på en CMOS-sensor](../../../../../translated_images/sv/cmos-sensor.75f9cd74decb137149a4c9ea825251a4549497d67c0ae2776159e6102bb53aa9.png)
 
 De flesta kamerasensorer använder bildsensorer där varje pixel är en fotodiod. En lins fokuserar bilden på bildsensorn, och tusentals eller miljoner fotodioder registrerar ljuset som faller på var och en och sparar det som pixeldata.
 
@@ -83,7 +83,7 @@ Iterationer publiceras från Custom Vision-portalen.
 
 1. Välj knappen **Publicera** för iterationen.
 
-    ![Publiceringsknappen](../../../../../translated_images/custom-vision-publish-button.b7174e1977b0c33b8b72d4e5b1326c779e0af196f3849d09985ee2d7d5493a39.sv.png)
+    ![Publiceringsknappen](../../../../../translated_images/sv/custom-vision-publish-button.b7174e1977b0c33b8b72d4e5b1326c779e0af196f3849d09985ee2d7d5493a39.png)
 
 1. I dialogrutan *Publicera modell*, ställ in *Förutsägelse-resurs* till resursen `fruit-quality-detector-prediction` som du skapade i den senaste lektionen. Lämna namnet som `Iteration2` och välj knappen **Publicera**.
 
@@ -97,7 +97,7 @@ Iterationer publiceras från Custom Vision-portalen.
 
     Ta också en kopia av värdet *Förutsägelse-nyckel*. Detta är en säker nyckel som du måste skicka när du anropar modellen. Endast applikationer som skickar denna nyckel får använda modellen, alla andra applikationer avvisas.
 
-    ![Dialogrutan för förutsägelse-API som visar URL och nyckel](../../../../../translated_images/custom-vision-prediction-key-endpoint.30c569ffd0338864f319911f052d5e9b8c5066cb0800a26dd6f7ff5713130ad8.sv.png)
+    ![Dialogrutan för förutsägelse-API som visar URL och nyckel](../../../../../translated_images/sv/custom-vision-prediction-key-endpoint.30c569ffd0338864f319911f052d5e9b8c5066cb0800a26dd6f7ff5713130ad8.png)
 
 ✅ När en ny iteration publiceras kommer den att ha ett annat namn. Hur tror du att du skulle ändra iterationen som en IoT-enhet använder?
 
@@ -118,7 +118,7 @@ Du kanske märker att resultaten du får när du använder kameran ansluten till
 
 För att få bästa resultat för en bildklassificerare vill du träna modellen med bilder som är så lika de bilder som används för förutsägelser som möjligt. Om du till exempel använde din telefonkamera för att ta bilder för träning, kommer bildkvaliteten, skärpan och färgen att skilja sig från en kamera ansluten till en IoT-enhet.
 
-![2 bananbilder, en lågupplöst med dålig belysning från en IoT-enhet, och en högupplöst med bra belysning från en telefon](../../../../../translated_images/banana-picture-compare.174df164dc326a42cf7fb051a7497e6113c620e91552d92ca914220305d47d9a.sv.png)
+![2 bananbilder, en lågupplöst med dålig belysning från en IoT-enhet, och en högupplöst med bra belysning från en telefon](../../../../../translated_images/sv/banana-picture-compare.174df164dc326a42cf7fb051a7497e6113c620e91552d92ca914220305d47d9a.png)
 
 I bilden ovan togs bananbilden till vänster med en Raspberry Pi-kamera, medan den till höger togs av samma banan på samma plats med en iPhone. Det är en märkbar skillnad i kvalitet - iPhone-bilden är skarpare, med ljusare färger och mer kontrast.
 

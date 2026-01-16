@@ -17,7 +17,7 @@ Senzor za to lekcijo je **svetlobni senzor**, ki uporablja [fotodiodo](https://w
 
 Svetlobni senzor je vgrajen v Wio Terminal in je viden skozi prozorno plastično okno na zadnji strani.
 
-![Svetlobni senzor na zadnji strani Wio Terminala](../../../../../translated_images/wio-light-sensor.b1f529f3c95f5165.sl.png)
+![Svetlobni senzor na zadnji strani Wio Terminala](../../../../../translated_images/sl/wio-light-sensor.b1f529f3c95f5165.png)
 
 ## Programiranje svetlobnega senzorja
 

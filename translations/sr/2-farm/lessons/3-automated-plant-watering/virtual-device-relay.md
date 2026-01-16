@@ -37,11 +37,11 @@ CO_OP_TRANSLATOR_METADATA:
 
     1. Изаберите дугме **Add** да бисте креирали релеј на пину 5.
 
-    ![Подешавања релеја](../../../../../translated_images/counterfit-create-relay.fa7c40fd0f2f6afc33b35ea94fcb235085be4861e14e3fe6b9b7bcfc82d1c888.sr.png)
+    ![Подешавања релеја](../../../../../translated_images/sr/counterfit-create-relay.fa7c40fd0f2f6afc33b35ea94fcb235085be4861e14e3fe6b9b7bcfc82d1c888.png)
 
     Релеј ће бити креиран и појавиће се на листи актуатора.
 
-    ![Креирани релеј](../../../../../translated_images/counterfit-relay.bbf74c1dbdc8b9acd983367fcbd06703a402aefef6af54ddb28e11307ba8a12c.sr.png)
+    ![Креирани релеј](../../../../../translated_images/sr/counterfit-relay.bbf74c1dbdc8b9acd983367fcbd06703a402aefef6af54ddb28e11307ba8a12c.png)
 
 ## Програмирање релеја
 

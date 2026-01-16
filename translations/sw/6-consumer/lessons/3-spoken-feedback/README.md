@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Weka kipima muda na toa maoni kwa sauti
 
-![Muhtasari wa somo hili kwa sketchnote](../../../../../translated_images/lesson-23.f38483e1d4df4828990d3f02d60e46c978b075d384ae7cb4f7bab738e107c850.sw.jpg)
+![Muhtasari wa somo hili kwa sketchnote](../../../../../translated_images/sw/lesson-23.f38483e1d4df4828990d3f02d60e46c978b075d384ae7cb4f7bab738e107c850.jpg)
 
 > Sketchnote na [Nitya Narasimhan](https://github.com/nitya). Bofya picha kwa toleo kubwa zaidi.
 
@@ -37,7 +37,7 @@ Katika somo hili tutashughulikia:
 
 Maandishi hadi sauti, kama jina linavyopendekeza, ni mchakato wa kubadilisha maandishi kuwa sauti inayojumuisha maneno yaliyosemwa. Kanuni ya msingi ni kuvunja maneno katika maandishi kuwa sauti zake za kimsingi (zinazojulikana kama fonimu), na kushona pamoja sauti za fonimu hizo, ama kwa kutumia sauti zilizorekodiwa awali au sauti zinazozalishwa na mifano ya AI.
 
-![Hatua tatu za mifumo ya kawaida ya maandishi hadi sauti](../../../../../translated_images/tts-overview.193843cf3f5ee09f.sw.png)
+![Hatua tatu za mifumo ya kawaida ya maandishi hadi sauti](../../../../../translated_images/sw/tts-overview.193843cf3f5ee09f.png)
 
 Mifumo ya maandishi hadi sauti kwa kawaida ina hatua 3:
 

@@ -27,13 +27,13 @@ Senzorul de temperatură Grove poate fi conectat la portul digital al Wio Termin
 
 Conectează senzorul de temperatură.
 
-![Un senzor de temperatură Grove](../../../../../translated_images/grove-dht11.07f8eafceee170043efbb53e1d15722bd4e00fbaa9ff74290b57e9f66eb82c17.ro.png)
+![Un senzor de temperatură Grove](../../../../../translated_images/ro/grove-dht11.07f8eafceee170043efbb53e1d15722bd4e00fbaa9ff74290b57e9f66eb82c17.png)
 
 1. Introdu un capăt al cablului Grove în soclul senzorului de umiditate și temperatură. Acesta va intra doar într-un singur sens.
 
 1. Cu Wio Terminal deconectat de la computer sau altă sursă de alimentare, conectează celălalt capăt al cablului Grove la soclul Grove din partea dreaptă a Wio Terminal, așa cum privești ecranul. Acesta este soclul cel mai îndepărtat de butonul de alimentare.
 
-![Senzorul de temperatură Grove conectat la soclul din dreapta](../../../../../translated_images/wio-temperature-sensor.2934928f38c7f79a.ro.png)
+![Senzorul de temperatură Grove conectat la soclul din dreapta](../../../../../translated_images/ro/wio-temperature-sensor.2934928f38c7f79a.png)
 
 ## Programarea senzorului de temperatură
 

@@ -29,14 +29,14 @@ CO_OP_TRANSLATOR_METADATA:
 
 ஈரமான மண் ஈரப்பதம் உள்ளடக்கம் கணக்கிடப்படும்:
 
-![மண் ஈரப்பதம் % என்பது ஈரமான எடை மினஸ் உலர்ந்த எடை, பிரிக்கப்பட்டு உலர்ந்த எடையால், 100 மடங்காக](../../../../../translated_images/gsm-calculation.6da38c6201eec14e7573bb2647aa18892883193553d23c9d77e5dc681522dfb2.ta.png)
+![மண் ஈரப்பதம் % என்பது ஈரமான எடை மினஸ் உலர்ந்த எடை, பிரிக்கப்பட்டு உலர்ந்த எடையால், 100 மடங்காக](../../../../../translated_images/ta/gsm-calculation.6da38c6201eec14e7573bb2647aa18892883193553d23c9d77e5dc681522dfb2.png)
 
 * W<sub>wet</sub> - ஈரமான மண்ணின் எடை
 * W<sub>dry</sub> - உலர்ந்த மண்ணின் எடை
 
 உதாரணமாக, நீங்கள் 212g ஈரமான மற்றும் 197g உலர்ந்த மண்ணை கொண்ட மாதிரியை எடுத்துக் கொண்டால்:
 
-![கணக்கீடு நிரப்பப்பட்டது](../../../../../translated_images/gsm-calculation-example.99f9803b4f29e97668e7c15412136c0c399ab12dbba0b89596fdae9d8aedb6fb.ta.png)
+![கணக்கீடு நிரப்பப்பட்டது](../../../../../translated_images/ta/gsm-calculation-example.99f9803b4f29e97668e7c15412136c0c399ab12dbba0b89596fdae9d8aedb6fb.png)
 
 * W<sub>wet</sub> = 212g
 * W<sub>dry</sub> = 197g

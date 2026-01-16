@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Kuonyesha data ya eneo
 
-![Muhtasari wa somo hili kwa sketchnote](../../../../../translated_images/lesson-13.a259db1485021be7d7c72e90842fbe0ab977529e8684c179b5fb1ea75e92b3ef.sw.jpg)
+![Muhtasari wa somo hili kwa sketchnote](../../../../../translated_images/sw/lesson-13.a259db1485021be7d7c72e90842fbe0ab977529e8684c179b5fb1ea75e92b3ef.jpg)
 
 > Sketchnote na [Nitya Narasimhan](https://github.com/nitya). Bofya picha kwa toleo kubwa zaidi.
 
@@ -73,11 +73,11 @@ Kwa mfano rahisi - katika mradi wa shamba ulirekodi vipimo vya unyevu wa udongo.
 
 Kwa binadamu, kuelewa data hiyo inaweza kuwa ngumu. Ni ukuta wa namba bila maana yoyote. Kama hatua ya kwanza ya kuonyesha data hii, inaweza kuchorwa kwenye chati ya mstari:
 
-![Chati ya mstari wa data hapo juu](../../../../../translated_images/chart-soil-moisture.fd6d9d0cdc0b5f75e78038ecb8945dfc84b38851359de99d84b16e3336d6d7c2.sw.png)
+![Chati ya mstari wa data hapo juu](../../../../../translated_images/sw/chart-soil-moisture.fd6d9d0cdc0b5f75e78038ecb8945dfc84b38851359de99d84b16e3336d6d7c2.png)
 
 Hii inaweza kuboreshwa zaidi kwa kuongeza mstari unaoonyesha wakati mfumo wa kumwagilia kiotomatiki ulipoanzishwa kwenye usomaji wa unyevu wa udongo wa 450:
 
-![Chati ya mstari wa unyevu wa udongo na mstari kwenye 450](../../../../../translated_images/chart-soil-moisture-relay.fbb391236d34a64d0abf1df396e9197e0a24df14150620b9cc820a64a55c9326.sw.png)
+![Chati ya mstari wa unyevu wa udongo na mstari kwenye 450](../../../../../translated_images/sw/chart-soil-moisture-relay.fbb391236d34a64d0abf1df396e9197e0a24df14150620b9cc820a64a55c9326.png)
 
 Chati hii inaonyesha haraka sio tu viwango vya unyevu wa udongo vilivyokuwa, lakini pia alama ambapo mfumo wa kumwagilia ulianzishwa.
 
@@ -93,7 +93,7 @@ Unapofanya kazi na data ya GPS, uwakilishi wa wazi zaidi unaweza kuwa kuonyesha 
 
 Kufanya kazi na ramani ni zoezi la kuvutia, na kuna nyingi za kuchagua kama Bing Maps, Leaflet, Open Street Maps, na Google Maps. Katika somo hili, utajifunza kuhusu [Azure Maps](https://azure.microsoft.com/services/azure-maps/?WT.mc_id=academic-17441-jabenn) na jinsi zinavyoweza kuonyesha data yako ya GPS.
 
-![Nembo ya Azure Maps](../../../../../translated_images/azure-maps-logo.35d01dcfbd81fe6140e94257aaa1538f785a58c91576d14e0ebe7a2f6c694b99.sw.png)
+![Nembo ya Azure Maps](../../../../../translated_images/sw/azure-maps-logo.35d01dcfbd81fe6140e94257aaa1538f785a58c91576d14e0ebe7a2f6c694b99.png)
 
 Azure Maps ni "mkusanyiko wa huduma za kijiografia na SDK zinazotumia data mpya ya ramani kutoa muktadha wa kijiografia kwa programu za wavuti na simu." Watengenezaji wanapewa zana za kuunda ramani nzuri, za kuingiliana ambazo zinaweza kufanya mambo kama kutoa njia za trafiki zilizopendekezwa, kutoa taarifa kuhusu matukio ya trafiki, urambazaji wa ndani, uwezo wa kutafuta, taarifa za mwinuko, huduma za hali ya hewa na zaidi.
 
@@ -194,7 +194,7 @@ Sasa unaweza kuchukua hatua inayofuata ambayo ni kuonyesha ramani yako kwenye uk
 
     Ikiwa utafungua faili yako ya `index.html` kwenye kivinjari cha wavuti, unapaswa kuona ramani ikipakiwa, na ikilenga eneo la Seattle.
 
-    ![Ramani inayoonyesha Seattle, mji katika Jimbo la Washington, Marekani](../../../../../translated_images/map-image.8fb2c53eb23ef39c1c0a4410a5282e879b3b452b707eb066ff04c5488d3d72b7.sw.png)
+    ![Ramani inayoonyesha Seattle, mji katika Jimbo la Washington, Marekani](../../../../../translated_images/sw/map-image.8fb2c53eb23ef39c1c0a4410a5282e879b3b452b707eb066ff04c5488d3d72b7.png)
 
     ✅ Jaribu vigezo vya zoom na center kubadilisha mwonekano wa ramani yako. Unaweza kuongeza viwianishi tofauti vinavyolingana na latitudo na longitudo ya data yako ili kuhamisha ramani.
 
@@ -328,7 +328,7 @@ Ukifanya ombi kwa hifadhi yako ili kufikia data, unaweza kushangaa kuona makosa 
 
 1. Pakia ukurasa wa HTML kwenye kivinjari chako. Utapakia ramani, kisha utapakia data yote ya GPS kutoka hifadhi na kuonyesha kwenye ramani.
 
-    ![Ramani ya Saint Edward State Park karibu na Seattle, na miduara inayoonyesha njia kuzunguka ukingo wa hifadhi](../../../../../translated_images/map-path.896832e72dc696ffe20650e4051027d4855442d955f93fdbb80bb417ca8a406f.sw.png)
+    ![Ramani ya Saint Edward State Park karibu na Seattle, na miduara inayoonyesha njia kuzunguka ukingo wa hifadhi](../../../../../translated_images/sw/map-path.896832e72dc696ffe20650e4051027d4855442d955f93fdbb80bb417ca8a406f.png)
 
 > 💁 Unaweza kupata msimbo huu kwenye [code](../../../../../3-transport/lessons/3-visualize-location-data/code) folda.
 

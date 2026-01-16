@@ -47,11 +47,11 @@ CO_OP_TRANSLATOR_METADATA:
 
     1. Изаберите дугме **Add** да бисте креирали GPS сензор на порту `/dev/ttyAMA0`.
 
-    ![Подешавања GPS сензора](../../../../../translated_images/counterfit-create-gps-sensor.6385dc9357d85ad1d47b4abb2525e7651fd498917d25eefc5a72feab09eedc70.sr.png)
+    ![Подешавања GPS сензора](../../../../../translated_images/sr/counterfit-create-gps-sensor.6385dc9357d85ad1d47b4abb2525e7651fd498917d25eefc5a72feab09eedc70.png)
 
     GPS сензор ће бити креиран и појавиће се на листи сензора.
 
-    ![Креирани GPS сензор](../../../../../translated_images/counterfit-gps-sensor.3fbb15af0a5367566f2f11324ef5a6f30861cdf2b497071a5e002b7aa473550e.sr.png)
+    ![Креирани GPS сензор](../../../../../translated_images/sr/counterfit-gps-sensor.3fbb15af0a5367566f2f11324ef5a6f30861cdf2b497071a5e002b7aa473550e.png)
 
 ## Програмирање GPS сензора
 
@@ -111,17 +111,17 @@ CO_OP_TRANSLATOR_METADATA:
 
     * Подесите **Source** на `Lat/Lon` и поставите експлицитну географску ширину, дужину и број сателита који се користе за GPS фиксацију. Ова вредност ће бити послата само једном, па означите **Repeat** кутију да би се подаци понављали сваке секунде.
 
-      ![GPS сензор са изабраним lat lon](../../../../../translated_images/counterfit-gps-sensor-latlon.008c867d75464fbe7f84107cc57040df565ac07cb57d2f21db37d087d470197d.sr.png)
+      ![GPS сензор са изабраним lat lon](../../../../../translated_images/sr/counterfit-gps-sensor-latlon.008c867d75464fbe7f84107cc57040df565ac07cb57d2f21db37d087d470197d.png)
 
     * Подесите **Source** на `NMEA` и додајте неке NMEA реченице у текстуални оквир. Све ове вредности ће бити послате, са кашњењем од 1 секунде пре сваке нове GGA (позициона фиксација) реченице.
 
-      ![GPS сензор са подешеним NMEA реченицама](../../../../../translated_images/counterfit-gps-sensor-nmea.c62eea442171e17e19528b051b104cfcecdc9cd18db7bc72920f29821ae63f73.sr.png)
+      ![GPS сензор са подешеним NMEA реченицама](../../../../../translated_images/sr/counterfit-gps-sensor-nmea.c62eea442171e17e19528b051b104cfcecdc9cd18db7bc72920f29821ae63f73.png)
 
       Можете користити алат као што је [nmeagen.org](https://www.nmeagen.org) за генерисање ових реченица цртањем на мапи. Ове вредности ће бити послате само једном, па означите **Repeat** кутију да би се подаци понављали једну секунду након што су сви послати.
 
     * Подесите **Source** на GPX датотеку и отпремите GPX датотеку са локацијама стазе. Можете преузети GPX датотеке са бројних популарних сајтова за мапирање и планинарење, као што је [AllTrails](https://www.alltrails.com/). Ове датотеке садрже више GPS локација као стазу, а GPS сензор ће враћати сваку нову локацију у интервалима од 1 секунде.
 
-      ![GPS сензор са подешеном GPX датотеком](../../../../../translated_images/counterfit-gps-sensor-gpxfile.8310b063ce8a425ccc8ebeec8306aeac5e8e55207f007d52c6e1194432a70cd9.sr.png)
+      ![GPS сензор са подешеном GPX датотеком](../../../../../translated_images/sr/counterfit-gps-sensor-gpxfile.8310b063ce8a425ccc8ebeec8306aeac5e8e55207f007d52c6e1194432a70cd9.png)
 
       Ове вредности ће бити послате само једном, па означите **Repeat** кутију да би се подаци понављали једну секунду након што су сви послати.
 

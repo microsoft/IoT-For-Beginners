@@ -45,11 +45,11 @@ Pridajte LED diódu do aplikácie CounterFit.
 
     1. Kliknite na tlačidlo **Add**, aby ste vytvorili LED diódu na pine 5.
 
-    ![Nastavenia LED diódy](../../../../../translated_images/counterfit-create-led.ba9db1c9b8c622a635d6dfae5cdc4e70c2b250635bd4f0601c6cf0bd22b7ba46.sk.png)
+    ![Nastavenia LED diódy](../../../../../translated_images/sk/counterfit-create-led.ba9db1c9b8c622a635d6dfae5cdc4e70c2b250635bd4f0601c6cf0bd22b7ba46.png)
 
     LED dióda bude vytvorená a zobrazí sa v zozname akčných členov.
 
-    ![Vytvorená LED dióda](../../../../../translated_images/counterfit-led.c0ab02de6d256ad84d9bad4d67a7faa709f0ea83e410cfe9b5561ef0cef30b1c.sk.png)
+    ![Vytvorená LED dióda](../../../../../translated_images/sk/counterfit-led.c0ab02de6d256ad84d9bad4d67a7faa709f0ea83e410cfe9b5561ef0cef30b1c.png)
 
     Po vytvorení LED diódy môžete zmeniť jej farbu pomocou výberu *Color*. Kliknite na tlačidlo **Set**, aby ste zmenili farbu po jej výbere.
 

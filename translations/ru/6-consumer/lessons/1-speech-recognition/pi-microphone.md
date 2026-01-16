@@ -43,7 +43,7 @@ Raspberry Pi оснащен разъемом для наушников 3,5 мм.
 
 1. Если вы используете ReSpeaker 2-Mics Pi HAT, вы можете снять базовую плату Grove, а затем установить плату ReSpeaker на её место.
 
-    ![Raspberry Pi с установленной платой ReSpeaker](../../../../../translated_images/pi-respeaker-hat.f00fabe7dd039a93e2e0aa0fc946c9af0c6a9eb17c32fa1ca097fb4e384f69f0.ru.png)
+    ![Raspberry Pi с установленной платой ReSpeaker](../../../../../translated_images/ru/pi-respeaker-hat.f00fabe7dd039a93e2e0aa0fc946c9af0c6a9eb17c32fa1ca097fb4e384f69f0.png)
 
     Позже в этом уроке вам понадобится кнопка Grove, но она уже встроена в эту плату, поэтому базовая плата Grove не нужна.
 

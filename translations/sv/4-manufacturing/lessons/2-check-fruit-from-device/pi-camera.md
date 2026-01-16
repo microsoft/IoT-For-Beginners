@@ -25,7 +25,7 @@ Kameran kan anslutas till Raspberry Pi med hjälp av en flatkabel.
 
 ### Uppgift - anslut kameran
 
-![En Raspberry Pi-kamera](../../../../../translated_images/pi-camera-module.4278753c31bd6e757aa2b858be97d72049f71616278cefe4fb5abb485b40a078.sv.png)
+![En Raspberry Pi-kamera](../../../../../translated_images/sv/pi-camera-module.4278753c31bd6e757aa2b858be97d72049f71616278cefe4fb5abb485b40a078.png)
 
 1. Stäng av Pi.
 
@@ -33,17 +33,17 @@ Kameran kan anslutas till Raspberry Pi med hjälp av en flatkabel.
 
     Du kan hitta en animation som visar hur man öppnar klippet och sätter in kabeln i [Raspberry Pi Getting Started with the Camera module documentation](https://projects.raspberrypi.org/en/projects/getting-started-with-picamera/2).
 
-    ![Flatkabeln insatt i kameramodulen](../../../../../translated_images/pi-camera-ribbon-cable.0bf82acd251611c21ac616f082849413e2b322a261d0e4f8fec344248083b07e.sv.png)
+    ![Flatkabeln insatt i kameramodulen](../../../../../translated_images/sv/pi-camera-ribbon-cable.0bf82acd251611c21ac616f082849413e2b322a261d0e4f8fec344248083b07e.png)
 
 1. Ta bort Grove Base Hat från Pi.
 
 1. För flatkabeln genom kamerauttaget i Grove Base Hat. Se till att den blå sidan av kabeln är vänd mot de analoga portarna märkta **A0**, **A1** etc.
 
-    ![Flatkabeln passerar genom Grove Base Hat](../../../../../translated_images/grove-base-hat-ribbon-cable.501fed202fcf73b11b2b68f6d246189f7d15d3e4423c572ddee79d77b4632b47.sv.png)
+    ![Flatkabeln passerar genom Grove Base Hat](../../../../../translated_images/sv/grove-base-hat-ribbon-cable.501fed202fcf73b11b2b68f6d246189f7d15d3e4423c572ddee79d77b4632b47.png)
 
 1. Sätt in flatkabeln i kamerauttaget på Pi. Dra återigen upp det svarta plastklippet, sätt in kabeln och tryck sedan tillbaka klippet. Den blå sidan av kabeln ska vara vänd mot USB- och Ethernet-portarna.
 
-    ![Flatkabeln ansluten till kamerauttaget på Pi](../../../../../translated_images/pi-camera-socket-ribbon-cable.a18309920b11800911082ed7aa6fb28e6d9be3a022e4079ff990016cae3fca10.sv.png)
+    ![Flatkabeln ansluten till kamerauttaget på Pi](../../../../../translated_images/sv/pi-camera-socket-ribbon-cable.a18309920b11800911082ed7aa6fb28e6d9be3a022e4079ff990016cae3fca10.png)
 
 1. Sätt tillbaka Grove Base Hat.
 
@@ -110,7 +110,7 @@ Programmera enheten.
 
     Raden `camera.rotation = 0` ställer in bildens rotation. Flatkabeln går in i botten av kameran, men om din kamera är roterad för att enklare kunna peka på det objekt du vill klassificera, kan du ändra den här raden till antalet grader av rotation.
 
-    ![Kameran hänger ner över en läskburk](../../../../../translated_images/pi-camera-upside-down.5376961ba31459883362124152ad6b823d5ac5fc14e85f317e22903bd681c2b6.sv.png)
+    ![Kameran hänger ner över en läskburk](../../../../../translated_images/sv/pi-camera-upside-down.5376961ba31459883362124152ad6b823d5ac5fc14e85f317e22903bd681c2b6.png)
 
     Om du till exempel hänger flatkabeln över något så att den är ovanför kameran, ställ in rotationen till 180:
 

@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Kutabiri Ukuaji wa Mimea kwa IoT
 
-![Muhtasari wa somo hili kwa sketchnote](../../../../../translated_images/lesson-5.42b234299279d263143148b88ab4583861a32ddb03110c6c1120e41bb88b2592.sw.jpg)
+![Muhtasari wa somo hili kwa sketchnote](../../../../../translated_images/sw/lesson-5.42b234299279d263143148b88ab4583861a32ddb03110c6c1120e41bb88b2592.jpg)
 
 > Sketchnote na [Nitya Narasimhan](https://github.com/nitya). Bofya picha kwa toleo kubwa zaidi.
 
@@ -65,7 +65,7 @@ Kila aina ya mmea ina thamani tofauti kwa joto lake la msingi, bora, na la juu. 
 
 ✅ Fanya utafiti. Kwa mimea yoyote uliyo nayo kwenye bustani yako, shule, au mbuga ya karibu, angalia kama unaweza kupata joto la msingi.
 
-![Grafu inayoonyesha kiwango cha ukuaji kinavyoongezeka joto linapoongezeka, kisha kushuka joto linapokuwa juu sana](../../../../../translated_images/plant-growth-temp-graph.c6d69c9478e6ca83.sw.png)
+![Grafu inayoonyesha kiwango cha ukuaji kinavyoongezeka joto linapoongezeka, kisha kushuka joto linapokuwa juu sana](../../../../../translated_images/sw/plant-growth-temp-graph.c6d69c9478e6ca83.png)
 
 Grafu hapo juu inaonyesha mfano wa grafu ya ukuaji kulingana na joto. Hadi joto la msingi hakuna ukuaji. Kiwango cha ukuaji kinaongezeka hadi joto bora, kisha kushuka baada ya kufikia kilele hiki. Katika joto la juu ukuaji husimama.
 
@@ -99,7 +99,7 @@ Siku za digrii za ukuaji, au GDD, zinahesabiwa kwa siku kama wastani wa joto kwa
 
 Mchoro kamili wa GDD ni mgumu kidogo, lakini kuna mlinganyo rahisi ambao mara nyingi hutumika kama makadirio mazuri:
 
-![GDD = T max + T min kugawanywa kwa 2, yote ikipunguzwa na T base](../../../../../translated_images/gdd-calculation.79b3660f9c5757aa92dc2dd2cdde75344e2d2c1565c4b3151640f7887edc0275.sw.png)
+![GDD = T max + T min kugawanywa kwa 2, yote ikipunguzwa na T base](../../../../../translated_images/sw/gdd-calculation.79b3660f9c5757aa92dc2dd2cdde75344e2d2c1565c4b3151640f7887edc0275.png)
 
 * **GDD** - hii ni idadi ya siku za digrii za ukuaji
 * **T max** - hii ni joto la juu la kila siku katika digrii Celsius
@@ -127,7 +127,7 @@ Tukijaza namba hizi kwenye hesabu yetu:
 
 Hii inatoa hesabu ya:
 
-![GDD = 16 + 12 kugawanywa kwa 2, yote ikipunguzwa na 10, ikitoa jibu la 4](../../../../../translated_images/gdd-calculation-corn.64a58b7a7afcd0dfd46ff733996d939f17f4f3feac9f0d1c632be3523e51ebd9.sw.png)
+![GDD = 16 + 12 kugawanywa kwa 2, yote ikipunguzwa na 10, ikitoa jibu la 4](../../../../../translated_images/sw/gdd-calculation-corn.64a58b7a7afcd0dfd46ff733996d939f17f4f3feac9f0d1c632be3523e51ebd9.png)
 
 Mahindi yalipata 4 GDD siku hiyo. Tukichukulia aina ya mahindi inayohitaji 800 GDD ili kukomaa, itahitaji GDD nyingine 796 kufikia ukomavu.
 
@@ -141,7 +141,7 @@ Hii ina athari kubwa ya kazi kwenye shamba kubwa, na inahatarisha mkulima kukosa
 
 Kwa kukusanya data ya joto kwa kutumia kifaa cha IoT, mkulima anaweza kuarifiwa kiotomatiki wakati mimea iko karibu na ukomavu. Muundo wa kawaida wa hili ni kuwa na vifaa vya IoT kupima joto, kisha kuchapisha data hii ya telemetry kupitia mtandao kwa kutumia kitu kama MQTT. Nambari ya seva kisha husikiliza data hii na kuihifadhi mahali fulani, kama kwenye hifadhidata. Hii inamaanisha data inaweza kuchambuliwa baadaye, kama kazi ya usiku ya kuhesabu GDD kwa siku, kujumlisha GDD kwa kila zao hadi sasa na kutoa tahadhari ikiwa mmea uko karibu na ukomavu.
 
-![Data ya telemetry inatumwa kwa seva na kisha kuhifadhiwa kwenye hifadhidata](../../../../../translated_images/save-telemetry-database.ddc9c6bea0c5ba39.sw.png)
+![Data ya telemetry inatumwa kwa seva na kisha kuhifadhiwa kwenye hifadhidata](../../../../../translated_images/sw/save-telemetry-database.ddc9c6bea0c5ba39.png)
 
 Nambari ya seva pia inaweza kuongeza data ya ziada. Kwa mfano, kifaa cha IoT kinaweza kuchapisha kitambulisho kuonyesha ni kifaa gani, na nambari ya seva inaweza kutumia hii kutafuta eneo la kifaa, na mazao gani kinachofuatilia. Pia inaweza kuongeza data ya msingi kama wakati wa sasa kwani baadhi ya vifaa vya IoT havina vifaa vinavyohitajika kufuatilia wakati sahihi, au vinahitaji nambari ya ziada kusoma wakati wa sasa kupitia mtandao.
 
@@ -228,7 +228,7 @@ Faili hii inafungua faili la CSV, kisha inaongeza safu mpya mwishoni. Safu hiyo 
 
     
 > 💁 Ikiwa unatumia Kifaa cha IoT cha Virtual, chagua kisanduku cha random na weka kiwango ili kuepuka kupata joto sawa kila wakati thamani ya joto inarudishwa.
-    ![Chagua kisanduku cha random na weka kiwango](../../../../../translated_images/select-the-random-checkbox-and-set-a-range.32cf4bc7c12e797f.sw.png) 
+    ![Chagua kisanduku cha random na weka kiwango](../../../../../translated_images/sw/select-the-random-checkbox-and-set-a-range.32cf4bc7c12e797f.png) 
 
     > 💁 Ikiwa unataka kuendesha hii kwa siku nzima, basi unahitaji kuhakikisha kompyuta ambayo msimbo wa seva yako unaendesha haitalala, ama kwa kubadilisha mipangilio ya nguvu, au kuendesha kitu kama [msimbo huu wa Python wa kuweka mfumo ukiwa hai](https://github.com/jaqsparow/keep-system-active).
     
@@ -248,7 +248,7 @@ Hatua za kufanya hivi kwa mikono ni:
 
 Kwa mfano, ikiwa joto la juu kwa siku ni 25°C, na la chini ni 12°C:
 
-![GDD = 25 + 12 gawanya kwa 2, kisha toa 10 kutoka kwa matokeo ukipata 8.5](../../../../../translated_images/gdd-calculation-strawberries.59f57db94b22adb8ff6efb951ace33af104a1c6ccca3ffb0f8169c14cb160c90.sw.png)
+![GDD = 25 + 12 gawanya kwa 2, kisha toa 10 kutoka kwa matokeo ukipata 8.5](../../../../../translated_images/sw/gdd-calculation-strawberries.59f57db94b22adb8ff6efb951ace33af104a1c6ccca3ffb0f8169c14cb160c90.png)
 
 * 25 + 12 = 37
 * 37 / 2 = 18.5

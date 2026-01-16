@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Introduktion till IoT
 
-![En sketchnote-översikt av denna lektion](../../../../../translated_images/lesson-1.2606670fa61ee904687da5d6fa4e726639d524d064c895117da1b95b9ff6251d.sv.jpg)
+![En sketchnote-översikt av denna lektion](../../../../../translated_images/sv/lesson-1.2606670fa61ee904687da5d6fa4e726639d524d064c895117da1b95b9ff6251d.jpg)
 
 > Sketchnote av [Nitya Narasimhan](https://github.com/nitya). Klicka på bilden för en större version.
 
@@ -79,7 +79,7 @@ En mikrokontroller (även kallad MCU, kort för microcontroller unit) är en lit
 
 Mikrokontroller är vanligtvis billiga datorenheter, med genomsnittliga priser för de som används i specialtillverkad hårdvara som sjunker till cirka 0,50 USD, och vissa enheter är så billiga som 0,03 USD. Utvecklingskit kan börja så lågt som 4 USD, med kostnader som ökar när fler funktioner läggs till. [Wio Terminal](https://www.seeedstudio.com/Wio-Terminal-p-4509.html), ett mikrokontrollerutvecklingskit från [Seeed studios](https://www.seeedstudio.com) som har sensorer, aktuatorer, WiFi och en skärm, kostar cirka 30 USD.
 
-![En Wio Terminal](../../../../../translated_images/wio-terminal.b8299ee16587db9a.sv.png)
+![En Wio Terminal](../../../../../translated_images/sv/wio-terminal.b8299ee16587db9a.png)
 
 > 💁 När du söker på Internet efter mikrokontroller, var försiktig med att söka efter termen **MCU**, eftersom detta kan ge många resultat för Marvel Cinematic Universe istället för mikrokontroller.
 
@@ -93,7 +93,7 @@ Utvecklingskit för mikrokontroller har vanligtvis ytterligare sensorer och aktu
 
 En enkortsdator är en liten datorenhet som har alla element av en komplett dator på ett enda litet kort. Dessa enheter har specifikationer som liknar en stationär eller bärbar dator, kör ett fullständigt operativsystem, men är små, använder mindre ström och är betydligt billigare.
 
-![En Raspberry Pi 4](../../../../../translated_images/raspberry-pi-4.fd4590d308c3d456.sv.jpg)
+![En Raspberry Pi 4](../../../../../translated_images/sv/raspberry-pi-4.fd4590d308c3d456.jpg)
 
 Raspberry Pi är en av de mest populära enkortsdatorerna.
 

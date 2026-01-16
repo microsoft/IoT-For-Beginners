@@ -43,11 +43,11 @@ CO_OP_TRANSLATOR_METADATA:
 
     1. Изаберите дугме **Add** да бисте креирали камеру.
 
-    ![Подешавања камере](../../../../../translated_images/counterfit-create-camera.a5de97f59c0bd3cbe0416d7e89a3cfe86d19fbae05c641c53a91286412af0a34.sr.png)
+    ![Подешавања камере](../../../../../translated_images/sr/counterfit-create-camera.a5de97f59c0bd3cbe0416d7e89a3cfe86d19fbae05c641c53a91286412af0a34.png)
 
     Камера ће бити креирана и појавиће се на листи сензора.
 
-    ![Креирана камера](../../../../../translated_images/counterfit-camera.001ec52194c8ee5d3f617173da2c79e1df903d10882adc625cbfc493525125d4.sr.png)
+    ![Креирана камера](../../../../../translated_images/sr/counterfit-camera.001ec52194c8ee5d3f617173da2c79e1df903d10882adc625cbfc493525125d4.png)
 
 ## Програмирање камере
 
@@ -112,7 +112,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 1. Конфигуришите слику коју ће камера у CounterFit-у снимати. Можете подесити *Source* на *File*, затим отпремити слику, или подесити *Source* на *WebCam*, и слике ће се снимати са ваше веб камере. Уверите се да сте изабрали дугме **Set** након што изаберете слику или веб камеру.
 
-    ![CounterFit са фајлом подешеним као извор слике и веб камером која приказује особу која држи банану у прегледу веб камере](../../../../../translated_images/counterfit-camera-options.eb3bd5150a8e7dffbf24bc5bcaba0cf2cdef95fbe6bbe393695d173817d6b8df.sr.png)
+    ![CounterFit са фајлом подешеним као извор слике и веб камером која приказује особу која држи банану у прегледу веб камере](../../../../../translated_images/sr/counterfit-camera-options.eb3bd5150a8e7dffbf24bc5bcaba0cf2cdef95fbe6bbe393695d173817d6b8df.png)
 
 1. Слика ће бити снимљена и сачувана као `image.jpg` у тренутној фасцикли. Видећете овај фајл у VS Code експлореру. Изаберите фајл да бисте видели слику. Ако је потребно ротирање, ажурирајте линију `camera.rotation = 0` како је потребно и снимите нову слику.
 

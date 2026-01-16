@@ -37,11 +37,11 @@ CounterFit செயலியில் ஒளி உணரியைச் சே
 
     1. **Add** பொத்தானைத் தேர்ந்தெடுத்து Pin 0-ல் ஒளி உணரியை உருவாக்கவும்.
 
-    ![ஒளி உணரியின் அமைப்புகள்](../../../../../translated_images/counterfit-create-light-sensor.9f36a5e0d4458d8d554d54b34d2c806d56093d6e49fddcda2d20f6fef7f5cce1.ta.png)
+    ![ஒளி உணரியின் அமைப்புகள்](../../../../../translated_images/ta/counterfit-create-light-sensor.9f36a5e0d4458d8d554d54b34d2c806d56093d6e49fddcda2d20f6fef7f5cce1.png)
 
     ஒளி உணரி உருவாக்கப்பட்டு உணரிகள் பட்டியலில் தோன்றும்.
 
-    ![உருவாக்கப்பட்ட ஒளி உணரி](../../../../../translated_images/counterfit-light-sensor.5d0f5584df56b90f6b2561910d9cb20dfbd73eeff2177c238d38f4de54aefae1.ta.png)
+    ![உருவாக்கப்பட்ட ஒளி உணரி](../../../../../translated_images/ta/counterfit-light-sensor.5d0f5584df56b90f6b2561910d9cb20dfbd73eeff2177c238d38f4de54aefae1.png)
 
 ## ஒளி உணரியை நிரலாக்கவும்
 

@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Verificarea stocului de pe un dispozitiv IoT
 
-![O prezentare grafică a lecției](../../../../../translated_images/lesson-20.0211df9551a8abb300fc8fcf7dc2789468dea2eabe9202273ac077b0ba37f15e.ro.jpg)
+![O prezentare grafică a lecției](../../../../../translated_images/ro/lesson-20.0211df9551a8abb300fc8fcf7dc2789468dea2eabe9202273ac077b0ba37f15e.jpg)
 
 > Prezentare grafică realizată de [Nitya Narasimhan](https://github.com/nitya). Click pe imagine pentru o versiune mai mare.
 
@@ -39,7 +39,7 @@ Detectoarele de obiecte pot fi utilizate pentru verificarea stocului, fie pentru
 
 De exemplu, dacă o cameră este îndreptată spre un set de rafturi care pot ține 8 conserve de pastă de tomate, iar un detector de obiecte detectează doar 7 conserve, atunci una lipsește și trebuie reumplută.
 
-![7 conserve de pastă de tomate pe un raft, 4 pe rândul de sus, 3 pe rândul de jos](../../../../../translated_images/stock-7-cans-tomato-paste.f86059cc573d7bec.ro.png)
+![7 conserve de pastă de tomate pe un raft, 4 pe rândul de sus, 3 pe rândul de jos](../../../../../translated_images/ro/stock-7-cans-tomato-paste.f86059cc573d7bec.png)
 
 În imaginea de mai sus, un detector de obiecte a detectat 7 conserve de pastă de tomate pe un raft care poate ține 8 conserve. Dispozitivul IoT nu doar că poate trimite o notificare despre necesitatea reumplerii, dar poate chiar să ofere o indicație despre locația articolului lipsă, informație importantă dacă folosești roboți pentru a reumple rafturile.
 
@@ -51,7 +51,7 @@ Uneori, stocul greșit poate ajunge pe rafturi. Acest lucru poate fi o eroare um
 
 Detectarea obiectelor poate fi utilizată pentru a detecta articole neașteptate, alertând din nou un om sau un robot să returneze articolul imediat ce este detectat.
 
-![O conservă de porumb pentru bebeluși pe raftul de pastă de tomate](../../../../../translated_images/stock-rogue-corn.be1f3ada8c457854.ro.png)
+![O conservă de porumb pentru bebeluși pe raftul de pastă de tomate](../../../../../translated_images/ro/stock-rogue-corn.be1f3ada8c457854.png)
 
 În imaginea de mai sus, o conservă de porumb pentru bebeluși a fost pusă pe raftul de pastă de tomate. Detectorul de obiecte a detectat acest lucru, permițând dispozitivului IoT să notifice un om sau un robot să returneze conserva la locația corectă.
 
@@ -71,7 +71,7 @@ Iterațiile sunt publicate din portalul Custom Vision.
 
 1. Apasă butonul **Publish** pentru iterație.
 
-    ![Butonul de publicare](../../../../../translated_images/custom-vision-object-detector-publish-button.34ee379fc650ccb9856c3868d0003f413b9529f102fc73c37168c98d721cc293.ro.png)
+    ![Butonul de publicare](../../../../../translated_images/ro/custom-vision-object-detector-publish-button.34ee379fc650ccb9856c3868d0003f413b9529f102fc73c37168c98d721cc293.png)
 
 1. În dialogul *Publish Model*, setează *Prediction resource* la resursa `stock-detector-prediction` pe care ai creat-o în lecția anterioară. Lasă numele ca `Iteration2` și apasă butonul **Publish**.
 
@@ -85,7 +85,7 @@ Iterațiile sunt publicate din portalul Custom Vision.
 
     De asemenea, ia o copie a valorii *Prediction-Key*. Aceasta este o cheie securizată pe care trebuie să o transmiți când apelezi modelul. Doar aplicațiile care transmit această cheie au permisiunea de a utiliza modelul, orice alte aplicații sunt respinse.
 
-    ![Dialogul API de predicție care arată URL-ul și cheia](../../../../../translated_images/custom-vision-prediction-key-endpoint.30c569ffd0338864f319911f052d5e9b8c5066cb0800a26dd6f7ff5713130ad8.ro.png)
+    ![Dialogul API de predicție care arată URL-ul și cheia](../../../../../translated_images/ro/custom-vision-prediction-key-endpoint.30c569ffd0338864f319911f052d5e9b8c5066cb0800a26dd6f7ff5713130ad8.png)
 
 ✅ Când o nouă iterație este publicată, aceasta va avea un nume diferit. Cum crezi că ai putea schimba iterația pe care o folosește un dispozitiv IoT?
 
@@ -104,7 +104,7 @@ Când utilizezi detectorul de obiecte, nu primești doar obiectele detectate cu 
 
 Rezultatele unei predicții în fila **Predictions** din Custom Vision au casetele delimitatoare desenate pe imaginea care a fost trimisă pentru predicție.
 
-![4 conserve de pastă de tomate pe un raft cu predicții pentru cele 4 detectări de 35.8%, 33.5%, 25.7% și 16.6%](../../../../../translated_images/custom-vision-stock-prediction.942266ab1bcca3410ecdf23643b9f5f570cfab2345235074e24c51f285777613.ro.png)
+![4 conserve de pastă de tomate pe un raft cu predicții pentru cele 4 detectări de 35.8%, 33.5%, 25.7% și 16.6%](../../../../../translated_images/ro/custom-vision-stock-prediction.942266ab1bcca3410ecdf23643b9f5f570cfab2345235074e24c51f285777613.png)
 
 În imaginea de mai sus, au fost detectate 4 conserve de pastă de tomate. În rezultate, un pătrat roșu este suprapus pentru fiecare obiect detectat în imagine, indicând caseta delimitatoare pentru imagine.
 
@@ -112,7 +112,7 @@ Rezultatele unei predicții în fila **Predictions** din Custom Vision au casete
 
 Casetele delimitatoare sunt definite cu 4 valori - top, left, height și width. Aceste valori sunt pe o scară de la 0 la 1, reprezentând pozițiile ca procent din dimensiunea imaginii. Originea (poziția 0,0) este colțul din stânga sus al imaginii, astfel încât valoarea top este distanța de sus, iar partea de jos a casetei delimitatoare este top plus height.
 
-![O casetă delimitatoare în jurul unei conserve de pastă de tomate](../../../../../translated_images/bounding-box.1420a7ea0d3d15f71e1ffb5cf4b2271d184fac051f990abc541975168d163684.ro.png)
+![O casetă delimitatoare în jurul unei conserve de pastă de tomate](../../../../../translated_images/ro/bounding-box.1420a7ea0d3d15f71e1ffb5cf4b2271d184fac051f990abc541975168d163684.png)
 
 Imaginea de mai sus are 600 de pixeli lățime și 800 de pixeli înălțime. Caseta delimitatoare începe la 320 de pixeli în jos, oferind o coordonată top de 0.4 (800 x 0.4 = 320). De la stânga, caseta delimitatoare începe la 240 de pixeli în lateral, oferind o coordonată left de 0.4 (600 x 0.4 = 240). Înălțimea casetei delimitatoare este de 240 de pixeli, oferind o valoare height de 0.3 (800 x 0.3 = 240). Lățimea casetei delimitatoare este de 120 de pixeli, oferind o valoare width de 0.2 (600 x 0.2 = 120).
 
@@ -127,7 +127,7 @@ Utilizarea valorilor procentuale de la 0 la 1 înseamnă că, indiferent de dime
 
 Poți utiliza casetele delimitatoare combinate cu probabilitățile pentru a evalua cât de precisă este o detectare. De exemplu, un detector de obiecte poate detecta mai multe obiecte care se suprapun, de exemplu detectând o conservă în interiorul alteia. Codul tău ar putea analiza casetele delimitatoare, înțelege că acest lucru este imposibil și ignora orice obiecte care au o suprapunere semnificativă cu alte obiecte.
 
-![Două casete delimitatoare suprapunându-se pe o conservă de pastă de tomate](../../../../../translated_images/overlap-object-detection.d431e03cae75072a2760430eca7f2c5fdd43045bfd72dadcbf12711f7cd6c2ae.ro.png)
+![Două casete delimitatoare suprapunându-se pe o conservă de pastă de tomate](../../../../../translated_images/ro/overlap-object-detection.d431e03cae75072a2760430eca7f2c5fdd43045bfd72dadcbf12711f7cd6c2ae.png)
 
 În exemplul de mai sus, o casetă delimitatoare indică o conservă de pastă de tomate prezisă la 78.3%. O a doua casetă delimitatoare este puțin mai mică și se află în interiorul primei casete delimitatoare, cu o probabilitate de 64.3%. Codul tău poate verifica casetele delimitatoare, vedea că se suprapun complet și ignora probabilitatea mai mică, deoarece nu există nicio posibilitate ca una să fie în interiorul celeilalte.
 

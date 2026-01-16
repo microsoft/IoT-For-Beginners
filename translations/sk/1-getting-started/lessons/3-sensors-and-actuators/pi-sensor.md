@@ -25,13 +25,13 @@ Grove svetelný senzor, ktorý sa používa na detekciu úrovní svetla, musí b
 
 Pripojte svetelný senzor.
 
-![Grove svetelný senzor](../../../../../translated_images/grove-light-sensor.b8127b7c434e632d6bcdb57587a14e9ef69a268a22df95d08628f62b8fa5505c.sk.png)
+![Grove svetelný senzor](../../../../../translated_images/sk/grove-light-sensor.b8127b7c434e632d6bcdb57587a14e9ef69a268a22df95d08628f62b8fa5505c.png)
 
 1. Zasuňte jeden koniec Grove kábla do zásuvky na module svetelného senzora. Kábel sa dá zasunúť iba jedným spôsobom.
 
 1. Pri vypnutom Raspberry Pi pripojte druhý koniec Grove kábla do analógovej zásuvky označenej **A0** na Grove Base hat pripojenom k Pi. Táto zásuvka je druhá sprava v rade zásuviek vedľa GPIO pinov.
 
-![Grove svetelný senzor pripojený k zásuvke A0](../../../../../translated_images/pi-light-sensor.66cc1e31fa48cd7d5f23400d4b2119aa41508275cb7c778053a7923b4e972d7e.sk.png)
+![Grove svetelný senzor pripojený k zásuvke A0](../../../../../translated_images/sk/pi-light-sensor.66cc1e31fa48cd7d5f23400d4b2119aa41508275cb7c778053a7923b4e972d7e.png)
 
 ## Naprogramovanie svetelného senzora
 

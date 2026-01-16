@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Automatisk växtbevattning
 
-![En sketchnote-översikt av denna lektion](../../../../../translated_images/lesson-7.30b5f577d3cb8e031238751475cb519c7d6dbaea261b5df4643d086ffb2a03bb.sv.jpg)
+![En sketchnote-översikt av denna lektion](../../../../../translated_images/sv/lesson-7.30b5f577d3cb8e031238751475cb519c7d6dbaea261b5df4643d086ffb2a03bb.jpg)
 
 > Sketchnote av [Nitya Narasimhan](https://github.com/nitya). Klicka på bilden för en större version.
 
@@ -41,7 +41,7 @@ IoT-enheter använder låg spänning. Även om detta räcker för sensorer och l
 
 Lösningen på detta är att ha en pump ansluten till en extern strömkälla och använda en aktuator för att slå på pumpen, ungefär som du skulle slå på en lampa. Det krävs en liten mängd energi (i form av energi i din kropp) för att ditt finger ska trycka på en strömbrytare, och detta ansluter lampan till nätström som körs på 110v/240v.
 
-![En strömbrytare slår på strömmen till en lampa](../../../../../translated_images/light-switch.760317ad6ab8bd6d611da5352dfe9c73a94a0822ccec7df3c8bae35da18e1658.sv.png)
+![En strömbrytare slår på strömmen till en lampa](../../../../../translated_images/sv/light-switch.760317ad6ab8bd6d611da5352dfe9c73a94a0822ccec7df3c8bae35da18e1658.png)
 
 > 🎓 [Nätström](https://wikipedia.org/wiki/Mains_electricity) avser elektricitet som levereras till hem och företag via nationell infrastruktur i många delar av världen.
 
@@ -55,11 +55,11 @@ Ett relä är en elektromekanisk strömbrytare som omvandlar en elektrisk signal
 
 > 🎓 [Elektromagneter](https://wikipedia.org/wiki/Electromagnet) är magneter som skapas genom att elektricitet passerar genom en spole av tråd. När elektriciteten är påslagen blir spolen magnetiserad. När elektriciteten stängs av förlorar spolen sin magnetism.
 
-![När påslagen skapar elektromagneten ett magnetfält som slår på strömbrytaren för utgångskretsen](../../../../../translated_images/relay-on.4db16a0fd6b66926.sv.png)
+![När påslagen skapar elektromagneten ett magnetfält som slår på strömbrytaren för utgångskretsen](../../../../../translated_images/sv/relay-on.4db16a0fd6b66926.png)
 
 I ett relä driver en styrkrets elektromagneten. När elektromagneten är påslagen drar den en spak som flyttar en strömbrytare, stänger ett par kontakter och slutför en utgångskrets.
 
-![När avstängd skapar elektromagneten inget magnetfält, vilket stänger av strömbrytaren för utgångskretsen](../../../../../translated_images/relay-off.c34a178a2960fecd.sv.png)
+![När avstängd skapar elektromagneten inget magnetfält, vilket stänger av strömbrytaren för utgångskretsen](../../../../../translated_images/sv/relay-off.c34a178a2960fecd.png)
 
 När styrkretsen är avstängd stängs elektromagneten av, släpper spaken och öppnar kontakterna, vilket stänger av utgångskretsen. Reläer är digitala aktuatorer – en hög signal till reläet slår på det, en låg signal stänger av det.
 
@@ -81,11 +81,11 @@ När spaken rör sig kan du vanligtvis höra den göra kontakt med elektromagnet
 
 Elektromagneten behöver inte mycket ström för att aktiveras och dra spaken, den kan styras med 3,3V eller 5V från en IoT-utvecklingssats. Utgångskretsen kan bära mycket mer ström, beroende på reläet, inklusive nätspänning eller ännu högre strömnivåer för industriellt bruk. På detta sätt kan en IoT-utvecklingssats styra ett bevattningssystem, från en liten pump för en enskild växt, till ett massivt industriellt system för en hel kommersiell gård.
 
-![Ett Grove-relä med styrkrets, utgångskrets och relä markerade](../../../../../translated_images/grove-relay-labelled.293e068f5c3c2a199bd7892f2661fdc9e10c920b535cfed317fbd6d1d4ae1168.sv.png)
+![Ett Grove-relä med styrkrets, utgångskrets och relä markerade](../../../../../translated_images/sv/grove-relay-labelled.293e068f5c3c2a199bd7892f2661fdc9e10c920b535cfed317fbd6d1d4ae1168.png)
 
 Bilden ovan visar ett Grove-relä. Styrkretsen ansluts till en IoT-enhet och slår på eller av reläet med 3,3V eller 5V. Utgångskretsen har två terminaler, var och en kan vara ström eller jord. Utgångskretsen kan hantera upp till 250V vid 10A, tillräckligt för en rad nätanslutna enheter. Du kan få reläer som kan hantera ännu högre strömnivåer.
 
-![En pump ansluten via ett relä](../../../../../translated_images/pump-wired-to-relay.66c5cfc0d8918990.sv.png)
+![En pump ansluten via ett relä](../../../../../translated_images/sv/pump-wired-to-relay.66c5cfc0d8918990.png)
 
 I bilden ovan tillförs ström till en pump via ett relä. Det finns en röd kabel som ansluter +5V-terminalen på en USB-strömkälla till en terminal på utgångskretsen på reläet, och en annan röd kabel som ansluter den andra terminalen på utgångskretsen till pumpen. En svart kabel ansluter pumpen till jord på USB-strömkällan. När reläet slås på slutför det kretsen, skickar 5V till pumpen och slår på pumpen.
 
@@ -135,7 +135,7 @@ Tillbaka i lektion 3 byggde du en nattlampa – en lysdiod som tänds så snart 
 
 Om du gjorde den senaste lektionen om jordfuktighet med en fysisk sensor, skulle du ha märkt att det tog några sekunder för jordfuktighetsavläsningen att sjunka efter att du vattnat din växt. Detta beror inte på att sensorn är långsam, utan på att det tar tid för vatten att tränga igenom jorden.
 💁 Om du vattnade för nära sensorn kan du ha sett att avläsningen sjönk snabbt och sedan steg igen – detta beror på att vattnet nära sensorn sprider sig genom resten av jorden, vilket minskar jordfuktigheten vid sensorn.
-![En jordfuktighetsmätning på 658 ändras inte under bevattning, den sjunker bara till 320 efter bevattning när vattnet har trängt igenom jorden](../../../../../translated_images/soil-moisture-travel.a0e31af222cf1438.sv.png)
+![En jordfuktighetsmätning på 658 ändras inte under bevattning, den sjunker bara till 320 efter bevattning när vattnet har trängt igenom jorden](../../../../../translated_images/sv/soil-moisture-travel.a0e31af222cf1438.png)
 
 I diagrammet ovan visar en jordfuktighetsmätning 658. Växten vattnas, men denna mätning ändras inte omedelbart eftersom vattnet ännu inte har nått sensorn. Vattningen kan till och med avslutas innan vattnet når sensorn och värdet sjunker för att återspegla den nya fuktighetsnivån.
 
@@ -157,11 +157,11 @@ Hur länge ska reläet vara på varje gång? Det är bättre att vara försiktig
 
 > 💁 Den här typen av timingkontroll är mycket specifik för den IoT-enhet du bygger, egenskapen du mäter och de sensorer och aktuatorer som används.
 
-![En jordgubbsplanta ansluten till vatten via en pump, med pumpen ansluten till ett relä. Reläet och en jordfuktighetssensor i plantan är båda anslutna till en Raspberry Pi](../../../../../translated_images/strawberry-with-pump.b410fc72ac6aabad.sv.png)
+![En jordgubbsplanta ansluten till vatten via en pump, med pumpen ansluten till ett relä. Reläet och en jordfuktighetssensor i plantan är båda anslutna till en Raspberry Pi](../../../../../translated_images/sv/strawberry-with-pump.b410fc72ac6aabad.png)
 
 Till exempel har jag en jordgubbsplanta med en jordfuktighetssensor och en pump som styrs av ett relä. Jag har observerat att när jag tillsätter vatten tar det cirka 20 sekunder för jordfuktighetsavläsningen att stabilisera sig. Detta innebär att jag behöver stänga av reläet och vänta 20 sekunder innan jag kontrollerar fuktighetsnivåerna. Jag föredrar att ha för lite vatten än för mycket - jag kan alltid slå på pumpen igen, men jag kan inte ta bort vatten från plantan.
 
-![Steg 1, ta mätning. Steg 2, tillsätt vatten. Steg 3, vänta på att vattnet ska tränga igenom jorden. Steg 4, ta ny mätning](../../../../../translated_images/soil-moisture-delay.865f3fae206db01d.sv.png)
+![Steg 1, ta mätning. Steg 2, tillsätt vatten. Steg 3, vänta på att vattnet ska tränga igenom jorden. Steg 4, ta ny mätning](../../../../../translated_images/sv/soil-moisture-delay.865f3fae206db01d.png)
 
 Detta innebär att den bästa processen skulle vara en bevattningscykel som ser ut ungefär så här:
 

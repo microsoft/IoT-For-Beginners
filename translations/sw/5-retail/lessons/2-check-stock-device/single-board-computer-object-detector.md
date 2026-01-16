@@ -76,7 +76,7 @@ Msimbo uliotumia kugundua picha unafanana sana na msimbo wa kugundua vitu. Tofau
 
     Utaweza kuona picha iliyopigwa, na maadili haya kwenye kichupo cha **Predictions** katika Custom Vision.
 
-    ![Kopo 4 za tomato paste kwenye rafu na utabiri wa 4 zenye asilimia 35.8%, 33.5%, 25.7% na 16.6%](../../../../../translated_images/custom-vision-stock-prediction.942266ab1bcca3410ecdf23643b9f5f570cfab2345235074e24c51f285777613.sw.png)
+    ![Kopo 4 za tomato paste kwenye rafu na utabiri wa 4 zenye asilimia 35.8%, 33.5%, 25.7% na 16.6%](../../../../../translated_images/sw/custom-vision-stock-prediction.942266ab1bcca3410ecdf23643b9f5f570cfab2345235074e24c51f285777613.png)
 
 > 💁 Unaweza kupata msimbo huu kwenye folda ya [code-detect/pi](../../../../../5-retail/lessons/2-check-stock-device/code-detect/pi) au [code-detect/virtual-iot-device](../../../../../5-retail/lessons/2-check-stock-device/code-detect/virtual-iot-device).
 

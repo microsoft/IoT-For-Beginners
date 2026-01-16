@@ -217,7 +217,7 @@ CO_OP_TRANSLATOR_METADATA:
 
     Моћи ћете да видите слику која је снимљена и ове вредности у картици **Predictions** у Custom Vision-у.
 
-    ![Банана у Custom Vision-у предвиђена као зрела са 56.8% и незрела са 43.1%](../../../../../translated_images/custom-vision-banana-prediction.30cdff4e1d72db5d9a0be0193790a47c2b387da034e12dc1314dd57ca2131b59.sr.png)
+    ![Банана у Custom Vision-у предвиђена као зрела са 56.8% и незрела са 43.1%](../../../../../translated_images/sr/custom-vision-banana-prediction.30cdff4e1d72db5d9a0be0193790a47c2b387da034e12dc1314dd57ca2131b59.png)
 
 > 💁 Овај код можете пронаћи у фасцикли [code-classify/wio-terminal](../../../../../4-manufacturing/lessons/2-check-fruit-from-device/code-classify/wio-terminal).
 

@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Geofences
 
-![Muhtasari wa somo hili kwa sketchnote](../../../../../translated_images/lesson-14.63980c5150ae3c153e770fb71d044c1845dce79248d86bed9fc525adf3ede73c.sw.jpg)
+![Muhtasari wa somo hili kwa sketchnote](../../../../../translated_images/sw/lesson-14.63980c5150ae3c153e770fb71d044c1845dce79248d86bed9fc525adf3ede73c.jpg)
 
 > Sketchnote na [Nitya Narasimhan](https://github.com/nitya). Bofya picha kwa toleo kubwa zaidi.
 
@@ -44,7 +44,7 @@ Katika somo hili tutajadili:
 
 Geofence ni mpaka wa kielektroniki kwa eneo halisi la kijiografia. Geofences zinaweza kuwa duara lililofafanuliwa kama nukta na radius (kwa mfano duara lenye upana wa 100m karibu na jengo), au poligoni inayofunika eneo kama eneo la shule, mipaka ya jiji, au kampasi ya chuo kikuu au ofisi.
 
-![Mifano ya geofence inayoonyesha geofence ya duara karibu na duka la kampuni ya Microsoft, na geofence ya poligoni karibu na kampasi ya magharibi ya Microsoft](../../../../../translated_images/geofence-examples.172fbc534665769f6e1a1ddcf75e3b25183cd10354c80cc603ba44b635390e1a.sw.png)
+![Mifano ya geofence inayoonyesha geofence ya duara karibu na duka la kampuni ya Microsoft, na geofence ya poligoni karibu na kampasi ya magharibi ya Microsoft](../../../../../translated_images/sw/geofence-examples.172fbc534665769f6e1a1ddcf75e3b25183cd10354c80cc603ba44b635390e1a.png)
 
 > 💁 Huenda tayari umetumia geofences bila kujua. Ikiwa umewahi kuweka kikumbusho kwa kutumia programu ya iOS reminders au Google Keep kulingana na eneo, umeshatumia geofence. Programu hizi huweka geofence kulingana na eneo lililotolewa na kukuarifu simu yako inapoingia kwenye geofence.
 
@@ -110,7 +110,7 @@ Kila nukta kwenye poligoni hufafanuliwa kama jozi la longitudo na latitudo katik
 
 Safu ya viwianishi vya poligoni daima ina kiingilio 1 zaidi kuliko idadi ya nukta kwenye poligoni, na kiingilio cha mwisho kuwa sawa na cha kwanza, kufunga poligoni. Kwa mfano, kwa mstatili kutakuwa na nukta 5.
 
-![Mstatili na viwianishi](../../../../../translated_images/polygon-points.302193da381cb415.sw.png)
+![Mstatili na viwianishi](../../../../../translated_images/sw/polygon-points.302193da381cb415.png)
 
 Katika picha hapo juu, kuna mstatili. Viwianishi vya poligoni vinaanza upande wa juu-kushoto kwa 47,-122, kisha vinaenda kulia kwa 47,-121, kisha chini kwa 46,-121, kisha kulia kwa 46, -122, kisha kurudi juu kwa nukta ya mwanzo kwa 47, -122. Hii inatoa poligoni nukta 5 - juu-kushoto, juu-kulia, chini-kulia, chini-kushoto, kisha juu-kushoto kufunga.
 
@@ -208,7 +208,7 @@ Wakati unafanya ombi hili, unaweza pia kupitisha thamani inayoitwa `searchBuffer
 
 Wakati matokeo yanarudishwa kutoka kwa simu ya API, moja ya sehemu za matokeo ni `distance` iliyopimwa hadi nukta ya karibu kwenye ukingo wa geofence, na thamani chanya ikiwa nukta iko nje ya geofence, hasi ikiwa iko ndani ya geofence. Ikiwa umbali huu ni chini ya search buffer, umbali halisi unarudishwa kwa mita, vinginevyo thamani ni 999 au -999. 999 inamaanisha kwamba nukta iko nje ya geofence kwa zaidi ya search buffer, -999 inamaanisha iko ndani ya geofence kwa zaidi ya search buffer.
 
-![Geofence na search buffer ya 50m karibu nayo](../../../../../translated_images/search-buffer-and-distance.e6a79af3898183c7.sw.png)
+![Geofence na search buffer ya 50m karibu nayo](../../../../../translated_images/sw/search-buffer-and-distance.e6a79af3898183c7.png)
 
 Katika picha hapo juu, geofence ina search buffer ya 50m.
 
@@ -221,7 +221,7 @@ Ni muhimu kujua umbali hadi ukingo wa geofence, na kuunganisha hii na taarifa ny
 
 Kwa mfano, fikiria maelezo ya GPS yanayoonyesha gari lilikuwa linaendesha barabara inayomalizika karibu na geofence. Ikiwa thamani moja ya GPS si sahihi na inaweka gari ndani ya geofence, licha ya kutokuwepo kwa ufikiaji wa gari, basi inaweza kupuuzwa.
 
-![Njia ya GPS inayoonyesha gari likipita kampasi ya Microsoft kwenye 520, na maelezo ya GPS kando ya barabara isipokuwa moja kwenye kampasi, ndani ya geofence](../../../../../translated_images/geofence-crossing-inaccurate-gps.6a3ed911202ad9cabb66d3964888cec03a42c61d5b8f536ad5bdc99716b370f5.sw.png)
+![Njia ya GPS inayoonyesha gari likipita kampasi ya Microsoft kwenye 520, na maelezo ya GPS kando ya barabara isipokuwa moja kwenye kampasi, ndani ya geofence](../../../../../translated_images/sw/geofence-crossing-inaccurate-gps.6a3ed911202ad9cabb66d3964888cec03a42c61d5b8f536ad5bdc99716b370f5.png)
 Katika picha hapo juu, kuna geofence juu ya sehemu ya kampasi ya Microsoft. Mstari mwekundu unaonyesha lori likiendeshwa kando ya barabara ya 520, na duara zinaonyesha vipimo vya GPS. Vipimo vingi ni sahihi na viko kando ya barabara ya 520, lakini kuna kipimo kimoja kisicho sahihi ndani ya geofence. Haiwezekani kipimo hicho kuwa sahihi - hakuna barabara kwa lori kubadilisha ghafla kutoka barabara ya 520 kwenda kampasi, kisha kurudi tena kwenye barabara ya 520. Msimbo unaochunguza geofence hii utahitaji kuzingatia vipimo vya awali kabla ya kuchukua hatua kulingana na matokeo ya jaribio la geofence.
 
 ✅ Ni data gani ya ziada unayohitaji kuangalia ili kuthibitisha kama kipimo cha GPS kinaweza kuchukuliwa kuwa sahihi?
@@ -293,7 +293,7 @@ Kama unavyokumbuka kutoka masomo ya awali, IoT Hub itakuruhusu kurudia matukio a
 
 Jibu ni kwamba haiwezi! Badala yake unaweza kufafanua miunganisho tofauti kusoma matukio, na kila moja inaweza kudhibiti kurudia kwa ujumbe ambao haujasomwa. Hizi zinaitwa *vikundi vya watumiaji*. Unapounganisha kwenye endpoint, unaweza kubainisha ni kikundi gani cha watumiaji unataka kuunganishwa nacho. Kila sehemu ya programu yako itaunganishwa na kikundi tofauti cha watumiaji.
 
-![IoT Hub moja na vikundi 3 vya watumiaji vinavyosambaza ujumbe sawa kwa programu 3 tofauti za Functions](../../../../../translated_images/consumer-groups.a3262e26fc27ba2092863678ad57af15c7223416e388a23f330c058cf4358630.sw.png)
+![IoT Hub moja na vikundi 3 vya watumiaji vinavyosambaza ujumbe sawa kwa programu 3 tofauti za Functions](../../../../../translated_images/sw/consumer-groups.a3262e26fc27ba2092863678ad57af15c7223416e388a23f330c058cf4358630.png)
 
 Kwa nadharia, hadi programu 5 zinaweza kuunganishwa kwa kila kikundi cha watumiaji, na zote zitapokea ujumbe unapowasili. Ni bora kuwa na programu moja tu inayopata kila kikundi cha watumiaji ili kuepuka uchakataji wa ujumbe mara mbili, na kuhakikisha unapowasha tena ujumbe wote ulio kwenye foleni unachakatwa kwa usahihi. Kwa mfano, ikiwa ulizindua programu yako ya Functions kwa ndani pamoja na kuiendesha kwenye wingu, zote mbili zingechakata ujumbe, na kusababisha blobs maradufu kuhifadhiwa kwenye akaunti ya hifadhi.
 

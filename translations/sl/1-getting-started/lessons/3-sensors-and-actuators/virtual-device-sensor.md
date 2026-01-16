@@ -37,11 +37,11 @@ Dodajte svetlobni senzor v aplikacijo CounterFit.
 
     1. Kliknite gumb **Add**, da ustvarite svetlobni senzor na pinu 0.
 
-    ![Nastavitve svetlobnega senzorja](../../../../../translated_images/counterfit-create-light-sensor.9f36a5e0d4458d8d554d54b34d2c806d56093d6e49fddcda2d20f6fef7f5cce1.sl.png)
+    ![Nastavitve svetlobnega senzorja](../../../../../translated_images/sl/counterfit-create-light-sensor.9f36a5e0d4458d8d554d54b34d2c806d56093d6e49fddcda2d20f6fef7f5cce1.png)
 
     Svetlobni senzor bo ustvarjen in se bo pojavil na seznamu senzorjev.
 
-    ![Ustvarjen svetlobni senzor](../../../../../translated_images/counterfit-light-sensor.5d0f5584df56b90f6b2561910d9cb20dfbd73eeff2177c238d38f4de54aefae1.sl.png)
+    ![Ustvarjen svetlobni senzor](../../../../../translated_images/sl/counterfit-light-sensor.5d0f5584df56b90f6b2561910d9cb20dfbd73eeff2177c238d38f4de54aefae1.png)
 
 ## Programirajte svetlobni senzor
 

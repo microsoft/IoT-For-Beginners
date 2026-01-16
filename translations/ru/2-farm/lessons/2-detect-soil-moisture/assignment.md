@@ -29,7 +29,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Гравиметрическая влажность почвы рассчитывается по формуле:
 
-![влажность почвы % = вес влажной почвы минус вес сухой почвы, делённый на вес сухой почвы, умноженный на 100](../../../../../translated_images/gsm-calculation.6da38c6201eec14e7573bb2647aa18892883193553d23c9d77e5dc681522dfb2.ru.png)
+![влажность почвы % = вес влажной почвы минус вес сухой почвы, делённый на вес сухой почвы, умноженный на 100](../../../../../translated_images/ru/gsm-calculation.6da38c6201eec14e7573bb2647aa18892883193553d23c9d77e5dc681522dfb2.png)
 
 * W  
 - вес влажной почвы  
@@ -38,7 +38,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Например, у вас есть образец почвы, который весит 212 г во влажном состоянии и 197 г в сухом.
 
-![Пример расчёта](../../../../../translated_images/gsm-calculation-example.99f9803b4f29e97668e7c15412136c0c399ab12dbba0b89596fdae9d8aedb6fb.ru.png)
+![Пример расчёта](../../../../../translated_images/ru/gsm-calculation-example.99f9803b4f29e97668e7c15412136c0c399ab12dbba0b89596fdae9d8aedb6fb.png)
 
 * W = 212 г  
 * W = 197 г  

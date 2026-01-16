@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Angalia Hisa Kutoka Kifaa cha IoT
 
-![Muhtasari wa somo hili kwa sketchnote](../../../../../translated_images/lesson-20.0211df9551a8abb300fc8fcf7dc2789468dea2eabe9202273ac077b0ba37f15e.sw.jpg)
+![Muhtasari wa somo hili kwa sketchnote](../../../../../translated_images/sw/lesson-20.0211df9551a8abb300fc8fcf7dc2789468dea2eabe9202273ac077b0ba37f15e.jpg)
 
 > Sketchnote na [Nitya Narasimhan](https://github.com/nitya). Bofya picha kwa toleo kubwa.
 
@@ -39,7 +39,7 @@ Vifaa vya kutambua vitu vinaweza kutumika kwa ukaguzi wa hisa, ama kwa kuhesabu 
 
 Kwa mfano, ikiwa kamera inaelekezwa kwenye rafu inayoweza kushikilia makopo 8 ya tomato paste, na kifaa cha kutambua vitu kinatambua makopo 7 tu, basi moja linakosekana na linahitaji kuwekwa tena.
 
-![Makopo 7 ya tomato paste kwenye rafu, 4 kwenye safu ya juu, 3 juu yake](../../../../../translated_images/stock-7-cans-tomato-paste.f86059cc573d7bec.sw.png)
+![Makopo 7 ya tomato paste kwenye rafu, 4 kwenye safu ya juu, 3 juu yake](../../../../../translated_images/sw/stock-7-cans-tomato-paste.f86059cc573d7bec.png)
 
 Katika picha hapo juu, kifaa cha kutambua vitu kimetambua makopo 7 ya tomato paste kwenye rafu inayoweza kushikilia makopo 8. Si tu kwamba kifaa cha IoT kinaweza kutuma arifa ya hitaji la kuweka bidhaa, lakini pia kinaweza kutoa maelezo ya eneo la bidhaa inayokosekana, data muhimu ikiwa unatumia roboti kuweka bidhaa.
 
@@ -51,7 +51,7 @@ Wakati mwingine bidhaa zisizofaa zinaweza kuwa kwenye rafu. Hii inaweza kuwa kos
 
 Utambuzi wa vitu unaweza kutumika kugundua bidhaa zisizotarajiwa, tena kuarifu binadamu au roboti kurudisha bidhaa mara tu inapogunduliwa.
 
-![Kopo la mahindi ya mtoto kwenye rafu ya tomato paste](../../../../../translated_images/stock-rogue-corn.be1f3ada8c457854.sw.png)
+![Kopo la mahindi ya mtoto kwenye rafu ya tomato paste](../../../../../translated_images/sw/stock-rogue-corn.be1f3ada8c457854.png)
 
 Katika picha hapo juu, kopo la mahindi ya mtoto limewekwa kwenye rafu karibu na tomato paste. Kifaa cha kutambua vitu kimetambua hili, kuruhusu kifaa cha IoT kuarifu binadamu au roboti kurudisha kopo mahali pake sahihi.
 
@@ -71,7 +71,7 @@ Toleo linachapishwa kutoka kwenye portal ya Custom Vision.
 
 1. Chagua kitufe cha **Publish** kwa toleo hilo.
 
-    ![Kitufe cha kuchapisha](../../../../../translated_images/custom-vision-object-detector-publish-button.34ee379fc650ccb9856c3868d0003f413b9529f102fc73c37168c98d721cc293.sw.png)
+    ![Kitufe cha kuchapisha](../../../../../translated_images/sw/custom-vision-object-detector-publish-button.34ee379fc650ccb9856c3868d0003f413b9529f102fc73c37168c98d721cc293.png)
 
 1. Katika kisanduku cha mazungumzo cha *Publish Model*, weka *Prediction resource* kuwa rasilimali ya `stock-detector-prediction` uliyounda katika somo lililopita. Acha jina liwe `Iteration2`, na uchague kitufe cha **Publish**.
 
@@ -85,7 +85,7 @@ Toleo linachapishwa kutoka kwenye portal ya Custom Vision.
 
     Pia chukua nakala ya thamani ya *Prediction-Key*. Hii ni ufunguo wa usalama ambao lazima upitishwe unapokuita mfano. Programu tu zinazopitisha ufunguo huu ndizo zinazoruhusiwa kutumia mfano, programu nyingine zote zinakataliwa.
 
-    ![Kisanduku cha mazungumzo cha API ya utabiri kinachoonyesha URL na ufunguo](../../../../../translated_images/custom-vision-prediction-key-endpoint.30c569ffd0338864f319911f052d5e9b8c5066cb0800a26dd6f7ff5713130ad8.sw.png)
+    ![Kisanduku cha mazungumzo cha API ya utabiri kinachoonyesha URL na ufunguo](../../../../../translated_images/sw/custom-vision-prediction-key-endpoint.30c569ffd0338864f319911f052d5e9b8c5066cb0800a26dd6f7ff5713130ad8.png)
 
 ✅ Wakati toleo jipya linachapishwa, litakuwa na jina tofauti. Unafikiri ungebadilisha vipi toleo ambalo kifaa cha IoT kinatumia?
 
@@ -104,7 +104,7 @@ Unapotumia kifaa cha kutambua vitu, hupokea si tu vitu vilivyotambuliwa na lebo 
 
 Matokeo ya utabiri katika kichupo cha **Predictions** kwenye Custom Vision yana maboksi ya mipaka yaliyochorwa kwenye picha iliyotumwa kwa utabiri.
 
-![Makopo 4 ya tomato paste kwenye rafu na utabiri wa makopo 4 yaliyotambuliwa kwa asilimia 35.8%, 33.5%, 25.7% na 16.6%](../../../../../translated_images/custom-vision-stock-prediction.942266ab1bcca3410ecdf23643b9f5f570cfab2345235074e24c51f285777613.sw.png)
+![Makopo 4 ya tomato paste kwenye rafu na utabiri wa makopo 4 yaliyotambuliwa kwa asilimia 35.8%, 33.5%, 25.7% na 16.6%](../../../../../translated_images/sw/custom-vision-stock-prediction.942266ab1bcca3410ecdf23643b9f5f570cfab2345235074e24c51f285777613.png)
 
 Katika picha hapo juu, makopo 4 ya tomato paste yalitambuliwa. Katika matokeo, mraba mwekundu umewekwa juu kwa kila kitu kilichotambuliwa kwenye picha, kuonyesha boksi la mipaka kwa picha hiyo.
 
@@ -112,7 +112,7 @@ Katika picha hapo juu, makopo 4 ya tomato paste yalitambuliwa. Katika matokeo, m
 
 Maboksi ya mipaka yanafafanuliwa na thamani 4 - juu, kushoto, urefu na upana. Thamani hizi ziko kwenye kiwango cha 0-1, zikionyesha nafasi kama asilimia ya ukubwa wa picha. Asili (nafasi ya 0,0) ni kona ya juu kushoto ya picha, kwa hivyo thamani ya juu ni umbali kutoka juu, na chini ya boksi la mipaka ni juu pamoja na urefu.
 
-![Boksi la mipaka karibu na kopo la tomato paste](../../../../../translated_images/bounding-box.1420a7ea0d3d15f71e1ffb5cf4b2271d184fac051f990abc541975168d163684.sw.png)
+![Boksi la mipaka karibu na kopo la tomato paste](../../../../../translated_images/sw/bounding-box.1420a7ea0d3d15f71e1ffb5cf4b2271d184fac051f990abc541975168d163684.png)
 
 Picha hapo juu ina upana wa pikseli 600 na urefu wa pikseli 800. Boksi la mipaka linaanza kwenye pikseli 320 chini, likitoa thamani ya juu ya 0.4 (800 x 0.4 = 320). Kutoka kushoto, boksi la mipaka linaanza kwenye pikseli 240, likitoa thamani ya kushoto ya 0.4 (600 x 0.4 = 240). Urefu wa boksi la mipaka ni pikseli 240, likitoa thamani ya urefu ya 0.3 (800 x 0.3 = 240). Upana wa boksi la mipaka ni pikseli 120, likitoa thamani ya upana ya 0.2 (600 x 0.2 = 120).
 
@@ -127,7 +127,7 @@ Kutumia thamani za asilimia kutoka 0-1 kunamaanisha haijalishi ukubwa wa picha u
 
 Unaweza kutumia maboksi ya mipaka pamoja na uwezekano kutathmini jinsi utambuzi ulivyo sahihi. Kwa mfano, kifaa cha kutambua vitu kinaweza kutambua vitu vingi vinavyofunikana, kwa mfano kutambua kopo moja ndani ya jingine. Msimbo wako unaweza kuangalia maboksi ya mipaka, kuelewa kuwa hili haliwezekani, na kupuuza vitu vyovyote vinavyofunikana kwa kiasi kikubwa na vitu vingine.
 
-![Maboksi mawili ya mipaka yanayofunikana na kopo la tomato paste](../../../../../translated_images/overlap-object-detection.d431e03cae75072a2760430eca7f2c5fdd43045bfd72dadcbf12711f7cd6c2ae.sw.png)
+![Maboksi mawili ya mipaka yanayofunikana na kopo la tomato paste](../../../../../translated_images/sw/overlap-object-detection.d431e03cae75072a2760430eca7f2c5fdd43045bfd72dadcbf12711f7cd6c2ae.png)
 
 Katika mfano hapo juu, boksi moja la mipaka linaonyesha kopo la tomato paste lililotabiriwa kwa asilimia 78.3%. Boksi la pili la mipaka ni dogo kidogo, na liko ndani ya boksi la kwanza la mipaka kwa uwezekano wa asilimia 64.3%. Msimbo wako unaweza kuangalia maboksi ya mipaka, kuona yanayofunikana kabisa, na kupuuza uwezekano wa chini kwani hakuna njia moja inaweza kuwa ndani ya jingine.
 

@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Utlösa kvalitetskontroll av frukt från en sensor
 
-![En sketchnote-översikt av denna lektion](../../../../../translated_images/lesson-18.92c32ed1d354caa5a54baa4032cf0b172d4655e8e326ad5d46c558a0def15365.sv.jpg)
+![En sketchnote-översikt av denna lektion](../../../../../translated_images/sv/lesson-18.92c32ed1d354caa5a54baa4032cf0b172d4655e8e326ad5d46c558a0def15365.jpg)
 
 > Sketchnote av [Nitya Narasimhan](https://github.com/nitya). Klicka på bilden för en större version.
 
@@ -48,7 +48,7 @@ IoT-applikationer kan beskrivas som *saker* (enheter) som skickar data som gener
 
 ### Referensarkitektur för IoT
 
-![En referensarkitektur för IoT](../../../../../translated_images/iot-reference-architecture.2278b98b55c6d4e89bde18eada3688d893861d43507641804dd2f9d3079cfaa0.sv.png)
+![En referensarkitektur för IoT](../../../../../translated_images/sv/iot-reference-architecture.2278b98b55c6d4e89bde18eada3688d893861d43507641804dd2f9d3079cfaa0.png)
 
 Diagrammet ovan visar en referensarkitektur för IoT.
 
@@ -58,7 +58,7 @@ Diagrammet ovan visar en referensarkitektur för IoT.
 * **Insikter** kommer från serverlösa applikationer eller från analyser som körs på lagrad data.
 * **Åtgärder** kan vara kommandon som skickas till enheter eller visualisering av data som gör det möjligt för människor att fatta beslut.
 
-![En referensarkitektur för IoT](../../../../../translated_images/iot-reference-architecture-azure.0b8d2161af924cb18ae48a8558a19541cca47f27264851b5b7e56d7b8bb372ac.sv.png)
+![En referensarkitektur för IoT](../../../../../translated_images/sv/iot-reference-architecture-azure.0b8d2161af924cb18ae48a8558a19541cca47f27264851b5b7e56d7b8bb372ac.png)
 
 Diagrammet ovan visar några av de komponenter och tjänster som har täckts hittills i dessa lektioner och hur de länkas samman i en referensarkitektur för IoT.
 
@@ -98,7 +98,7 @@ Du behöver bygga ett system där frukt detekteras när den anländer på transp
 
 ### Prototypa din applikation
 
-![En referensarkitektur för kvalitetskontroll av frukt](../../../../../translated_images/iot-reference-architecture-fruit-quality.cc705f121c3b6fa71c800d9630935ac34bc08223a04601e35f41d5e9b5dd5207.sv.png)
+![En referensarkitektur för kvalitetskontroll av frukt](../../../../../translated_images/sv/iot-reference-architecture-fruit-quality.cc705f121c3b6fa71c800d9630935ac34bc08223a04601e35f41d5e9b5dd5207.png)
 
 Diagrammet ovan visar en referensarkitektur för denna prototypapplikation.
 
@@ -115,7 +115,7 @@ För prototypen kommer du att implementera allt detta på en enda enhet. Om du a
 
 IoT-enheten behöver någon form av trigger för att indikera när frukten är redo att klassificeras. En trigger för detta skulle kunna vara att mäta när frukten är på rätt plats på transportbandet genom att mäta avståndet till en sensor.
 
-![Närhetssensorer skickar laserstrålar till objekt som bananer och mäter tiden tills strålen studsar tillbaka](../../../../../translated_images/proximity-sensor.f5cd752c77fb62fe.sv.png)
+![Närhetssensorer skickar laserstrålar till objekt som bananer och mäter tiden tills strålen studsar tillbaka](../../../../../translated_images/sv/proximity-sensor.f5cd752c77fb62fe.png)
 
 Närhetssensorer kan användas för att mäta avståndet från sensorn till ett objekt. De skickar vanligtvis ut en stråle av elektromagnetisk strålning, som en laserstråle eller infrarött ljus, och detekterar sedan strålningen som studsar tillbaka från ett objekt. Tiden mellan att laserstrålen skickas och signalen studsar tillbaka kan användas för att beräkna avståndet till sensorn.
 
@@ -133,7 +133,7 @@ Följ den relevanta guiden för att använda en närhetssensor för att detekter
 
 Prototypen för fruktdetektorn har flera komponenter som kommunicerar med varandra.
 
-![Komponenterna kommunicerar med varandra](../../../../../translated_images/fruit-quality-detector-message-flow.adf2a65da8fd8741ac7af11361574de89adc126785d67606bb4d2ec00467e380.sv.png)
+![Komponenterna kommunicerar med varandra](../../../../../translated_images/sv/fruit-quality-detector-message-flow.adf2a65da8fd8741ac7af11361574de89adc126785d67606bb4d2ec00467e380.png)
 
 * En närhetssensor som mäter avståndet till en frukt och skickar detta till IoT Hub
 * Kommandot för att styra kameran som kommer från IoT Hub till kameranheten

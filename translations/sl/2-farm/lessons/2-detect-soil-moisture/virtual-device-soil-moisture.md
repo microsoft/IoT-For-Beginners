@@ -43,11 +43,11 @@ Dodajte senzor za merjenje vlažnosti tal v aplikacijo CounterFit.
 
     1. Kliknite gumb **Add**, da ustvarite senzor *Soil Moisture* na pinu 0.
 
-    ![Nastavitve senzorja za merjenje vlažnosti tal](../../../../../translated_images/counterfit-create-soil-moisture-sensor.35266135a5e0ae68b29a684d7db0d2933a8098b2307d197f7c71577b724603aa.sl.png)
+    ![Nastavitve senzorja za merjenje vlažnosti tal](../../../../../translated_images/sl/counterfit-create-soil-moisture-sensor.35266135a5e0ae68b29a684d7db0d2933a8098b2307d197f7c71577b724603aa.png)
 
     Senzor za merjenje vlažnosti tal bo ustvarjen in se bo pojavil na seznamu senzorjev.
 
-    ![Ustvarjen senzor za merjenje vlažnosti tal](../../../../../translated_images/counterfit-soil-moisture-sensor.81742b2de0e9de60a3b3b9a2ff8ecc686d428eb6d71820f27a693be26e5aceee.sl.png)
+    ![Ustvarjen senzor za merjenje vlažnosti tal](../../../../../translated_images/sl/counterfit-soil-moisture-sensor.81742b2de0e9de60a3b3b9a2ff8ecc686d428eb6d71820f27a693be26e5aceee.png)
 
 ## Programiranje aplikacije za senzor vlažnosti tal
 

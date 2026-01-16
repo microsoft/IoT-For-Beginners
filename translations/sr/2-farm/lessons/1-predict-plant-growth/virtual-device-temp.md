@@ -47,11 +47,11 @@ CO_OP_TRANSLATOR_METADATA:
 
     1. Изаберите дугме **Add** да бисте креирали сензор за влажност на пину 5.
 
-    ![Подешавања сензора за влажност](../../../../../translated_images/counterfit-create-humidity-sensor.2750e27b6f30e09cf4e22101defd5252710717620816ab41ba688f91f757c49a.sr.png)
+    ![Подешавања сензора за влажност](../../../../../translated_images/sr/counterfit-create-humidity-sensor.2750e27b6f30e09cf4e22101defd5252710717620816ab41ba688f91f757c49a.png)
 
     Сензор за влажност ће бити креиран и појавиће се на листи сензора.
 
-    ![Креирани сензор за влажност](../../../../../translated_images/counterfit-humidity-sensor.7b12f7f339e430cb26c8211d2dba4ef75261b353a01da0932698b5bebd693f27.sr.png)
+    ![Креирани сензор за влажност](../../../../../translated_images/sr/counterfit-humidity-sensor.7b12f7f339e430cb26c8211d2dba4ef75261b353a01da0932698b5bebd693f27.png)
 
 1. Направите сензор за температуру:
 
@@ -63,11 +63,11 @@ CO_OP_TRANSLATOR_METADATA:
 
     1. Изаберите дугме **Add** да бисте креирали сензор за температуру на пину 6.
 
-    ![Подешавања сензора за температуру](../../../../../translated_images/counterfit-create-temperature-sensor.199350ed34f7343d79dccbe95eaf6c11d2121f03d1c35ab9613b330c23f39b29.sr.png)
+    ![Подешавања сензора за температуру](../../../../../translated_images/sr/counterfit-create-temperature-sensor.199350ed34f7343d79dccbe95eaf6c11d2121f03d1c35ab9613b330c23f39b29.png)
 
     Сензор за температуру ће бити креиран и појавиће се на листи сензора.
 
-    ![Креирани сензор за температуру](../../../../../translated_images/counterfit-temperature-sensor.f0560236c96a9016bafce7f6f792476fe3367bc6941a1f7d5811d144d4bcbfff.sr.png)
+    ![Креирани сензор за температуру](../../../../../translated_images/sr/counterfit-temperature-sensor.f0560236c96a9016bafce7f6f792476fe3367bc6941a1f7d5811d144d4bcbfff.png)
 
 ## Програмирање апликације за сензор температуре
 

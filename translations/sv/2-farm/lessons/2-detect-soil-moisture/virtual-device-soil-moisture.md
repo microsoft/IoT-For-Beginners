@@ -43,11 +43,11 @@ Lägg till jordfuktighetssensorn i CounterFit-appen.
 
     1. Välj knappen **Add** för att skapa *Soil Moisture*-sensorn på Pin 0.
 
-    ![Inställningar för jordfuktighetssensorn](../../../../../translated_images/counterfit-create-soil-moisture-sensor.35266135a5e0ae68b29a684d7db0d2933a8098b2307d197f7c71577b724603aa.sv.png)
+    ![Inställningar för jordfuktighetssensorn](../../../../../translated_images/sv/counterfit-create-soil-moisture-sensor.35266135a5e0ae68b29a684d7db0d2933a8098b2307d197f7c71577b724603aa.png)
 
     Jordfuktighetssensorn kommer att skapas och visas i sensorlistan.
 
-    ![Den skapade jordfuktighetssensorn](../../../../../translated_images/counterfit-soil-moisture-sensor.81742b2de0e9de60a3b3b9a2ff8ecc686d428eb6d71820f27a693be26e5aceee.sv.png)
+    ![Den skapade jordfuktighetssensorn](../../../../../translated_images/sv/counterfit-soil-moisture-sensor.81742b2de0e9de60a3b3b9a2ff8ecc686d428eb6d71820f27a693be26e5aceee.png)
 
 ## Programmera appen för jordfuktighetssensorn
 

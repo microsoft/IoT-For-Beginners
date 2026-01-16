@@ -27,17 +27,17 @@ Grove senzor vlhkosti pôdy sa dá pripojiť k konfigurovateľnému analógovém
 
 Pripojte senzor vlhkosti pôdy.
 
-![Grove senzor vlhkosti pôdy](../../../../../translated_images/grove-capacitive-soil-moisture-sensor.e7f0776cce30e78be5cc5a07839385fd6718857f31b5bf5ad3d0c73c83b2f0ef.sk.png)
+![Grove senzor vlhkosti pôdy](../../../../../translated_images/sk/grove-capacitive-soil-moisture-sensor.e7f0776cce30e78be5cc5a07839385fd6718857f31b5bf5ad3d0c73c83b2f0ef.png)
 
 1. Zasuňte jeden koniec Grove kábla do zásuvky na senzore vlhkosti pôdy. Kábel sa dá zasunúť iba jedným spôsobom.
 
 1. Keď je Wio Terminal odpojený od vášho počítača alebo iného zdroja napájania, pripojte druhý koniec Grove kábla do pravého Grove portu na Wio Terminale, keď sa pozeráte na obrazovku. Ide o port najvzdialenejší od tlačidla napájania.
 
-![Grove senzor vlhkosti pôdy pripojený k pravému portu](../../../../../translated_images/wio-soil-moisture-sensor.46919b61c3f6cb74.sk.png)
+![Grove senzor vlhkosti pôdy pripojený k pravému portu](../../../../../translated_images/sk/wio-soil-moisture-sensor.46919b61c3f6cb74.png)
 
 1. Zasuňte senzor vlhkosti pôdy do pôdy. Má označenie „najvyššia pozícia“ - bielu čiaru cez senzor. Zasuňte senzor až po túto čiaru, ale nie za ňu.
 
-![Grove senzor vlhkosti pôdy v pôde](../../../../../translated_images/soil-moisture-sensor-in-soil.bfad91002bda5e96.sk.png)
+![Grove senzor vlhkosti pôdy v pôde](../../../../../translated_images/sk/soil-moisture-sensor-in-soil.bfad91002bda5e96.png)
 
 1. Teraz môžete pripojiť Wio Terminal k vášmu počítaču.
 

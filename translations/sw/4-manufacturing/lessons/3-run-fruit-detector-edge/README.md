@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Endesha kifaa chako cha kugundua matunda kwenye ukingo
 
-![Muhtasari wa somo hili kwa sketchnote](../../../../../translated_images/lesson-17.bc333c3c35ba8e42cce666cfffa82b915f787f455bd94e006aea2b6f2722421a.sw.jpg)
+![Muhtasari wa somo hili kwa sketchnote](../../../../../translated_images/sw/lesson-17.bc333c3c35ba8e42cce666cfffa82b915f787f455bd94e006aea2b6f2722421a.jpg)
 
 > Sketchnote na [Nitya Narasimhan](https://github.com/nitya). Bofya picha kwa toleo kubwa.
 
@@ -42,11 +42,11 @@ Katika somo hili tutashughulikia:
 
 Kompyuta ya ukingo inahusisha kuwa na kompyuta zinazochakata data ya IoT karibu iwezekanavyo na mahali ambapo data inazalishwa. Badala ya kuchakata hii kwenye wingu, inahamishwa kwenye ukingo wa wingu - mtandao wako wa ndani.
 
-![Mchoro wa usanifu unaonyesha huduma za mtandao kwenye wingu na vifaa vya IoT kwenye mtandao wa ndani](../../../../../translated_images/cloud-without-edge.b4da641f6022c95ed6b91fde8b5323abd2f94e0d52073ad54172ae8f5dac90e9.sw.png)
+![Mchoro wa usanifu unaonyesha huduma za mtandao kwenye wingu na vifaa vya IoT kwenye mtandao wa ndani](../../../../../translated_images/sw/cloud-without-edge.b4da641f6022c95ed6b91fde8b5323abd2f94e0d52073ad54172ae8f5dac90e9.png)
 
 Katika masomo yaliyopita, umekuwa na vifaa vinavyokusanya data na kutuma data kwenye wingu ili kuchambuliwa, kuendesha kazi zisizo na seva au mifano ya AI kwenye wingu.
 
-![Mchoro wa usanifu unaonyesha vifaa vya IoT kwenye mtandao wa ndani vikijumuika na vifaa vya ukingo, na vifaa hivyo vya ukingo vikijumuika na wingu](../../../../../translated_images/cloud-with-edge.1e26462c62c126fe150bd15a5714ddf0be599f09bacbad08b85be02b76ea1ae1.sw.png)
+![Mchoro wa usanifu unaonyesha vifaa vya IoT kwenye mtandao wa ndani vikijumuika na vifaa vya ukingo, na vifaa hivyo vya ukingo vikijumuika na wingu](../../../../../translated_images/sw/cloud-with-edge.1e26462c62c126fe150bd15a5714ddf0be599f09bacbad08b85be02b76ea1ae1.png)
 
 Kompyuta ya ukingo inahusisha kuhamisha baadhi ya huduma za wingu kutoka wingu na kuziweka kwenye kompyuta zinazofanya kazi kwenye mtandao sawa na vifaa vya IoT, zikijumuika na wingu pale tu inapohitajika. Kwa mfano, unaweza kuendesha mifano ya AI kwenye vifaa vya ukingo kuchambua ukomavu wa matunda, na kutuma tu uchambuzi kwenye wingu, kama idadi ya matunda yaliyoiva dhidi ya yasiyoiva.
 
@@ -94,7 +94,7 @@ Kwa mifumo ya IoT, mara nyingi utataka mchanganyiko wa kompyuta ya wingu na ukin
 
 ## Azure IoT Edge
 
-![Nembo ya Azure IoT Edge](../../../../../translated_images/azure-iot-edge-logo.c1c076749b5cba2e8755262fadc2f19ca1146b948d76990b1229199ac2292d79.sw.png)
+![Nembo ya Azure IoT Edge](../../../../../translated_images/sw/azure-iot-edge-logo.c1c076749b5cba2e8755262fadc2f19ca1146b948d76990b1229199ac2292d79.png)
 
 Azure IoT Edge ni huduma inayoweza kukusaidia kuhamisha kazi kutoka wingu kwenda ukingo. Unaweka kifaa kama kifaa cha ukingo, na kutoka wingu unaweza kupeleka msimbo kwenye kifaa hicho cha ukingo. Hii inakuruhusu kuchanganya uwezo wa wingu na ukingo.
 
@@ -108,7 +108,7 @@ IoT Edge imejengwa ndani ya IoT Hub, kwa hivyo unaweza kudhibiti vifaa vya uking
 
 IoT Edge inaendesha msimbo kutoka *kontena* - programu zilizojitegemea zinazofanya kazi kwa kujitenga na programu nyingine kwenye kompyuta yako. Unapoendesha kontena, linafanya kazi kama kompyuta tofauti inayofanya kazi ndani ya kompyuta yako, ikiwa na programu, huduma, na programu zake zinazofanya kazi. Mara nyingi kontena haziwezi kufikia chochote kwenye kompyuta yako isipokuwa uchague kushiriki vitu kama folda na kontena. Kontena kisha hufichua huduma kupitia mlango wazi ambao unaweza kuunganisha au kufichua kwenye mtandao wako.
 
-![Ombi la wavuti likielekezwa kwenye kontena](../../../../../translated_images/container-web-browser.4ee81dd4f0d8838ce622b2a0d600b6a4322b5d4fe43159facd87b7b34f84d66a.sw.png)
+![Ombi la wavuti likielekezwa kwenye kontena](../../../../../translated_images/sw/container-web-browser.4ee81dd4f0d8838ce622b2a0d600b6a4322b5d4fe43159facd87b7b34f84d66a.png)
 
 Kwa mfano, unaweza kuwa na kontena lenye tovuti inayofanya kazi kwenye mlango 80, mlango wa kawaida wa HTTP, na unaweza kisha kufichua kutoka kwa kompyuta yako pia kwenye mlango 80.
 
@@ -205,11 +205,11 @@ Baada ya modeli kufundishwa, inahitaji kuhamishwa kama kontena.
 
 ## Andaa kontena lako kwa ajili ya kupelekwa
 
-![Kontena zinajengwa kisha kusukumwa kwenye container registry, kisha kupelekwa kutoka container registry hadi kifaa cha edge kwa kutumia IoT Edge](../../../../../translated_images/container-edge-flow.c246050dd60ceefdb6ace026a4ce5c6aa4112bb5898ae23fbb2ab4be29ae3e1b.sw.png)
+![Kontena zinajengwa kisha kusukumwa kwenye container registry, kisha kupelekwa kutoka container registry hadi kifaa cha edge kwa kutumia IoT Edge](../../../../../translated_images/sw/container-edge-flow.c246050dd60ceefdb6ace026a4ce5c6aa4112bb5898ae23fbb2ab4be29ae3e1b.png)
 
 Baada ya kupakua modeli yako, inahitaji kujengwa kuwa kontena, kisha kusukumwa kwenye container registry - eneo la mtandaoni ambapo unaweza kuhifadhi kontena. IoT Edge inaweza kisha kupakua kontena kutoka kwenye registry na kulisukuma kwenye kifaa chako.
 
-![Nembo ya Azure Container Registry](../../../../../translated_images/azure-container-registry-logo.09494206991d4b295025ebff7d4e2900325e527a59184ffbc8464b6ab59654be.sw.png)
+![Nembo ya Azure Container Registry](../../../../../translated_images/sw/azure-container-registry-logo.09494206991d4b295025ebff7d4e2900325e527a59184ffbc8464b6ab59654be.png)
 
 Container registry utakayotumia kwa somo hili ni Azure Container Registry. Huduma hii si ya bure, kwa hivyo ili kuokoa pesa hakikisha unafanya [usafi wa mradi wako](../../../clean-up.md) mara tu unapomaliza.
 

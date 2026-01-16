@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Hifadhi data ya eneo
 
-![Muhtasari wa somo hili kwa sketchnote](../../../../../translated_images/lesson-12.ca7f53039712a3ec14ad6474d8445361c84adab643edc53fa6269b77895606bb.sw.jpg)
+![Muhtasari wa somo hili kwa sketchnote](../../../../../translated_images/sw/lesson-12.ca7f53039712a3ec14ad6474d8445361c84adab643edc53fa6269b77895606bb.jpg)
 
 > Sketchnote na [Nitya Narasimhan](https://github.com/nitya). Bofya picha kwa toleo kubwa.
 
@@ -66,7 +66,7 @@ Hifadhidata ni huduma zinazokuruhusu kuhifadhi na kuuliza data. Hifadhidata huja
 
 Hifadhidata za kwanza zilikuwa Mfumo wa Usimamizi wa Hifadhidata za Uhusiano (RDBMS), au hifadhidata za uhusiano. Hizi pia zinajulikana kama hifadhidata za SQL kutokana na Lugha ya Uulizaji Iliyopangiliwa (SQL) inayotumika kuingiliana nazo ili kuongeza, kuondoa, kusasisha au kuuliza data. Hifadhidata hizi zina muundo - seti iliyoelezwa vizuri ya meza za data, sawa na lahajedwali. Kila meza ina safu nyingi zilizopewa majina. Unapoweka data, unaongeza safu kwenye meza, ukiweka thamani kwenye kila safu. Hii huweka data katika muundo thabiti - ingawa unaweza kuacha safu tupu, ikiwa unataka kuongeza safu mpya lazima ufanye hivyo kwenye hifadhidata, ukijaza thamani kwa safu zilizopo. Hifadhidata hizi zina uhusiano - kwamba meza moja inaweza kuwa na uhusiano na nyingine.
 
-![Hifadhidata ya uhusiano na ID ya meza ya Mtumiaji inayohusiana na safu ya ID ya mtumiaji ya meza ya manunuzi, na ID ya meza ya bidhaa inayohusiana na ID ya bidhaa ya meza ya manunuzi](../../../../../translated_images/sql-database.be160f12bfccefd3.sw.png)
+![Hifadhidata ya uhusiano na ID ya meza ya Mtumiaji inayohusiana na safu ya ID ya mtumiaji ya meza ya manunuzi, na ID ya meza ya bidhaa inayohusiana na ID ya bidhaa ya meza ya manunuzi](../../../../../translated_images/sw/sql-database.be160f12bfccefd3.png)
 
 Kwa mfano, ikiwa ungehifadhi maelezo ya kibinafsi ya mtumiaji kwenye meza, ungekuwa na aina fulani ya ID ya kipekee ya ndani kwa kila mtumiaji inayotumika kwenye safu kwenye meza inayojumuisha jina na anwani ya mtumiaji. Ikiwa ungependa kuhifadhi maelezo mengine kuhusu mtumiaji huyo, kama manunuzi yake, kwenye meza nyingine, ungekuwa na safu moja kwenye meza mpya kwa ID ya mtumiaji huyo. Unapomtafuta mtumiaji, unaweza kutumia ID yake kupata maelezo yake ya kibinafsi kutoka meza moja, na manunuzi yake kutoka nyingine.
 
@@ -84,7 +84,7 @@ Hifadhidata za NoSQL zinaitwa NoSQL kwa sababu hazina muundo thabiti kama hifadh
 
 > 💁 Licha ya jina lao, baadhi ya hifadhidata za NoSQL hukuruhusu kutumia SQL kuuliza data.
 
-![Nyaraka kwenye folda kwenye hifadhidata ya NoSQL](../../../../../translated_images/noqsl-database.62d24ccf5b73f60d35c245a8533f1c7147c0928e955b82cb290b2e184bb434df.sw.png)
+![Nyaraka kwenye folda kwenye hifadhidata ya NoSQL](../../../../../translated_images/sw/noqsl-database.62d24ccf5b73f60d35c245a8533f1c7147c0928e955b82cb290b2e184bb434df.png)
 
 Hifadhidata za NoSQL hazina muundo uliowekwa awali unaozuia jinsi data inavyohifadhiwa, badala yake unaweza kuingiza data yoyote isiyopangiliwa, mara nyingi kwa kutumia nyaraka za JSON. Nyaraka hizi zinaweza kupangwa kwenye folda, sawa na faili kwenye kompyuta yako. Kila nyaraka inaweza kuwa na sehemu tofauti na nyaraka nyingine - kwa mfano ikiwa ungehifadhi data ya IoT kutoka kwa magari ya shamba, baadhi yanaweza kuwa na sehemu za data ya kasi na kasi ya kuharakisha, mengine yanaweza kuwa na sehemu za joto kwenye trela. Ikiwa ungeongeza aina mpya ya lori, kama moja lenye mizani ya ndani kufuatilia uzito wa mazao yanayobebwa, basi kifaa chako cha IoT kinaweza kuongeza sehemu hii mpya na inaweza kuhifadhiwa bila mabadiliko yoyote kwenye hifadhidata.
 
@@ -98,7 +98,7 @@ Katika somo hili, utatumia hifadhi ya NoSQL kuhifadhi data ya IoT.
 
 Katika somo lililopita ulikamata data ya GPS kutoka kwa sensa ya GPS iliyounganishwa na kifaa chako cha IoT. Ili kuhifadhi data hii ya IoT kwenye wingu, unahitaji kuituma kwa huduma ya IoT. Mara nyingine tena, utatumia Azure IoT Hub, huduma ya wingu ya IoT uliyotumia katika mradi uliopita.
 
-![Kutuma telemetry ya GPS kutoka kwa kifaa cha IoT kwenda IoT Hub](../../../../../translated_images/gps-telemetry-iot-hub.8115335d51cd2c1285d20e9d1b18cf685e59a8e093e7797291ef173445af6f3d.sw.png)
+![Kutuma telemetry ya GPS kutoka kwa kifaa cha IoT kwenda IoT Hub](../../../../../translated_images/sw/gps-telemetry-iot-hub.8115335d51cd2c1285d20e9d1b18cf685e59a8e093e7797291ef173445af6f3d.png)
 
 ### Kazi - tuma data ya GPS kwa IoT Hub
 
@@ -180,7 +180,7 @@ Data ya njia ya baridi huhifadhiwa kwenye maghala ya data - hifadhidata zilizoun
 
 Mara data inapokuwa inatiririka kwenye IoT Hub yako, unaweza kuandika msimbo usiohitaji seva kusikiliza matukio yanayochapishwa kwenye endpoint inayolingana na Event-Hub. Hii ni njia ya joto - data hii itahifadhiwa na kutumika katika somo linalofuata kwa ripoti ya safari.
 
-![Kutuma telemetry ya GPS kutoka kwa kifaa cha IoT kwenda IoT Hub, kisha kwa Azure Functions kupitia trigger ya event hub](../../../../../translated_images/gps-telemetry-iot-hub-functions.24d3fa5592455e9f4e2fe73856b40c3915a292b90263c31d652acfd976cfedd8.sw.png)
+![Kutuma telemetry ya GPS kutoka kwa kifaa cha IoT kwenda IoT Hub, kisha kwa Azure Functions kupitia trigger ya event hub](../../../../../translated_images/sw/gps-telemetry-iot-hub-functions.24d3fa5592455e9f4e2fe73856b40c3915a292b90263c31d652acfd976cfedd8.png)
 
 ### Kazi - shughulikia matukio ya GPS kwa kutumia msimbo usiohitaji seva
 
@@ -202,7 +202,7 @@ Mara data inapokuwa inatiririka kwenye IoT Hub yako, unaweza kuandika msimbo usi
 
 ## Akaunti za Hifadhi ya Azure
 
-![Nembo ya Azure Storage](../../../../../translated_images/azure-storage-logo.605c0f602c640d482a80f1b35a2629a32d595711b7ab1d7ceea843250615ff32.sw.png)
+![Nembo ya Azure Storage](../../../../../translated_images/sw/azure-storage-logo.605c0f602c640d482a80f1b35a2629a32d595711b7ab1d7ceea843250615ff32.png)
 
 Akaunti za Hifadhi ya Azure ni huduma ya hifadhi ya matumizi ya jumla inayoweza kuhifadhi data kwa njia mbalimbali. Unaweza kuhifadhi data kama blobs, kwenye foleni, kwenye meza, au kama faili, na yote kwa wakati mmoja.
 
@@ -241,7 +241,7 @@ Sasa programu yako ya functions inahitaji kuunganishwa na hifadhi ya blob ili ku
 
 Katika somo hili, utatumia Python SDK kuona jinsi ya kuingiliana na hifadhi ya blob.
 
-![Kutuma telemetry ya GPS kutoka kifaa cha IoT kwenda IoT Hub, kisha Azure Functions kupitia kichocheo cha event hub, kisha kuihifadhi kwenye hifadhi ya blob](../../../../../translated_images/save-telemetry-to-storage-from-functions.ed3b1820980097f1.sw.png)
+![Kutuma telemetry ya GPS kutoka kifaa cha IoT kwenda IoT Hub, kisha Azure Functions kupitia kichocheo cha event hub, kisha kuihifadhi kwenye hifadhi ya blob](../../../../../translated_images/sw/save-telemetry-to-storage-from-functions.ed3b1820980097f1.png)
 
 Data itahifadhiwa kama blob ya JSON yenye muundo ufuatao:
 

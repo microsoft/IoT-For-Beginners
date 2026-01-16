@@ -45,11 +45,11 @@ Pridajte senzor vzdialenosti do aplikácie CounterFit.
 
     1. Kliknite na tlačidlo **Add**, aby ste vytvorili senzor vzdialenosti.
 
-    ![Nastavenia senzora vzdialenosti](../../../../../translated_images/counterfit-create-distance-sensor.967c9fb98f27888d95920c9784d004c972490eb71f70397fe13bd70a79a879a3.sk.png)
+    ![Nastavenia senzora vzdialenosti](../../../../../translated_images/sk/counterfit-create-distance-sensor.967c9fb98f27888d95920c9784d004c972490eb71f70397fe13bd70a79a879a3.png)
 
     Senzor vzdialenosti bude vytvorený a zobrazí sa v zozname senzorov.
 
-    ![Vytvorený senzor vzdialenosti](../../../../../translated_images/counterfit-distance-sensor.079eefeeea0b68afc36431ce8fcbe2f09a7e4916ed1cd5cb30e696db53bc18fa.sk.png)
+    ![Vytvorený senzor vzdialenosti](../../../../../translated_images/sk/counterfit-distance-sensor.079eefeeea0b68afc36431ce8fcbe2f09a7e4916ed1cd5cb30e696db53bc18fa.png)
 
 ## Programovanie senzora vzdialenosti
 

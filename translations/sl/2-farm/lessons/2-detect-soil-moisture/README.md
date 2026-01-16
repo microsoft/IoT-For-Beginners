@@ -22,7 +22,7 @@ I²C ima vodilo, sestavljeno iz dveh glavnih žic, skupaj z dvema napajalnima ž
 | VCC | Napetostni skupni kolektor | Napajanje za naprave. Ta žica je povezana z žicama SDA in SCL, da zagotovi njuno napajanje prek pull-up upora, ki izklopi signal, ko nobena naprava ni krmilnik. |
 | GND | Ozemljitev | Zagotavlja skupno ozemljitev za električni krog. |
 
-![I2C vodilo s tremi napravami, povezanimi na žici SDA in SCL, ki si delijo skupno ozemljitveno žico](../../../../../translated_images/i2c.83da845dde02256bdd462dbe0d5145461416b74930571b89d1ae142841eeb584.sl.png)
+![I2C vodilo s tremi napravami, povezanimi na žici SDA in SCL, ki si delijo skupno ozemljitveno žico](../../../../../translated_images/sl/i2c.83da845dde02256bdd462dbe0d5145461416b74930571b89d1ae142841eeb584.png)
 
 Za pošiljanje podatkov ena naprava sproži začetni pogoj, da pokaže, da je pripravljena na pošiljanje podatkov. Nato postane krmilnik. Krmilnik nato pošlje naslov naprave, s katero želi komunicirati, skupaj z informacijo, ali želi brati ali pisati podatke. Po prenosu podatkov krmilnik pošlje končni pogoj, da označi, da je končal. Po tem lahko druga naprava postane krmilnik in pošilja ali prejema podatke.
 
@@ -37,7 +37,7 @@ UART vključuje fizično vezje, ki omogoča komunikacijo med dvema napravama. Vs
 * Naprava 1 pošilja podatke iz svojega Tx pina, ki jih prejme naprava 2 na svojem Rx pinu
 * Naprava 1 prejema podatke na svojem Rx pinu, ki jih pošilja naprava 2 iz svojega Tx pina
 
-![UART s Tx pinom na enem čipu, povezanem z Rx pinom na drugem, in obratno](../../../../../translated_images/uart.d0dbd3fb9e3728c6.sl.png)
+![UART s Tx pinom na enem čipu, povezanem z Rx pinom na drugem, in obratno](../../../../../translated_images/sl/uart.d0dbd3fb9e3728c6.png)
 
 > 🎓 Podatki se pošiljajo en bit naenkrat, kar je znano kot *serijska* komunikacija. Večina operacijskih sistemov in mikrokontrolerjev ima *serijska vrata*, torej povezave, ki lahko pošiljajo in prejemajo serijske podatke, dostopne vaši kodi.
 
@@ -66,7 +66,7 @@ SPI krmilniki uporabljajo 3 žice, skupaj z 1 dodatno žico na periferno napravo
 | SCLK | Serijska ura | Ta žica pošilja signal ure s hitrostjo, ki jo nastavi krmilnik. |
 | CS   | Izbira čipa | Krmilnik ima več žic, eno na periferno napravo, vsaka žica pa je povezana z žico CS na ustrezni periferni napravi. |
 
-![SPI z enim krmilnikom in dvema perifernima napravama](../../../../../translated_images/spi.297431d6f98b386b.sl.png)
+![SPI z enim krmilnikom in dvema perifernima napravama](../../../../../translated_images/sl/spi.297431d6f98b386b.png)
 
 Žica CS se uporablja za aktiviranje ene periferne naprave naenkrat, komunikacijo pa poteka prek žic COPI in CIPO. Ko mora krmilnik zamenjati periferno napravo, deaktivira žico CS, povezano s trenutno aktivno periferno napravo, nato aktivira žico, povezano z naslednjo periferno napravo, s katero želi komunicirati.
 
@@ -127,13 +127,13 @@ Vlaga v tleh se meri z gravimetrično ali volumetrično vsebnostjo vode.
 
 Senzorji za vlago v tleh merijo električno upornost ali kapacitivnost - to ne variira le glede na vlago v tleh, temveč tudi glede na vrsto zemlje, saj lahko sestavine v zemlji spremenijo njene električne lastnosti. Idealno bi bilo, da so senzorji umerjeni - torej da se odčitki senzorja primerjajo z meritvami, pridobljenimi z bolj znanstvenim pristopom. Na primer, laboratorij lahko izračuna gravimetrično vlago v tleh z vzorci določenega polja, odvzetimi nekajkrat na leto, te številke pa se uporabijo za umerjanje senzorja, tako da se odčitki senzorja ujemajo z gravimetrično vlago v tleh.
 
-![Graf napetosti v primerjavi z vsebnostjo vlage v tleh](../../../../../translated_images/soil-moisture-to-voltage.df86d80cda158700.sl.png)
+![Graf napetosti v primerjavi z vsebnostjo vlage v tleh](../../../../../translated_images/sl/soil-moisture-to-voltage.df86d80cda158700.png)
 
 Zgornji graf prikazuje, kako umeriti senzor. Napetost se zajame za vzorec zemlje, ki se nato izmeri v laboratoriju s primerjavo mokre teže s suho težo (z merjenjem teže mokrega vzorca, nato sušenjem v pečici in merjenjem suhega vzorca). Ko je opravljenih nekaj meritev, jih lahko narišemo na graf in prilagodimo črto točkam. Ta črta se nato lahko uporabi za pretvorbo odčitkov senzorja vlage v tleh, ki jih zajame IoT naprava, v dejanske meritve vlage v tleh.
 
 💁 Pri uporabi uporovnih senzorjev za vlago v tleh se napetost povečuje z naraščanjem vlage v tleh. Pri kapacitivnih senzorjih za vlago v tleh se napetost zmanjšuje z naraščanjem vlage v tleh, zato bi grafi za te senzorje padali navzdol, ne navzgor.
 
-![Vrednost vlage v tleh interpolirana iz grafa](../../../../../translated_images/soil-moisture-to-voltage-with-reading.681cb3e1f8b68caf.sl.png)
+![Vrednost vlage v tleh interpolirana iz grafa](../../../../../translated_images/sl/soil-moisture-to-voltage-with-reading.681cb3e1f8b68caf.png)
 
 Zgornji graf prikazuje odčitek napetosti iz senzorja za vlago v tleh, in s sledenjem tej vrednosti do črte na grafu lahko izračunamo dejansko vlago v tleh.
 

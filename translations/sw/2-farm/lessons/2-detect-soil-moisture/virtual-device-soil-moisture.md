@@ -43,11 +43,11 @@ Ongeza kihisi cha unyevu wa udongo kwenye programu ya CounterFit.
 
     1. Chagua kitufe cha **Add** kuunda kihisi cha *Soil Moisture* kwenye Pin 0.
 
-    ![Mipangilio ya kihisi cha unyevu wa udongo](../../../../../translated_images/counterfit-create-soil-moisture-sensor.35266135a5e0ae68b29a684d7db0d2933a8098b2307d197f7c71577b724603aa.sw.png)
+    ![Mipangilio ya kihisi cha unyevu wa udongo](../../../../../translated_images/sw/counterfit-create-soil-moisture-sensor.35266135a5e0ae68b29a684d7db0d2933a8098b2307d197f7c71577b724603aa.png)
 
     Kihisi cha unyevu wa udongo kitaundwa na kitaonekana kwenye orodha ya vihisi.
 
-    ![Kihisi cha unyevu wa udongo kimeundwa](../../../../../translated_images/counterfit-soil-moisture-sensor.81742b2de0e9de60a3b3b9a2ff8ecc686d428eb6d71820f27a693be26e5aceee.sw.png)
+    ![Kihisi cha unyevu wa udongo kimeundwa](../../../../../translated_images/sw/counterfit-soil-moisture-sensor.81742b2de0e9de60a3b3b9a2ff8ecc686d428eb6d71820f27a693be26e5aceee.png)
 
 ## Programu ya kihisi cha unyevu wa udongo
 

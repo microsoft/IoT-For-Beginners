@@ -46,7 +46,7 @@ Huduma ya hotuba inaweza kuchukua hotuba na sio tu kuibadilisha kuwa maandishi k
     >
     > Kwa mfano, ikiwa umefundisha LUIS kwa Kiingereza, lakini unataka kutumia Kifaransa kama lugha ya mtumiaji, unaweza kutafsiri sentensi kama "set a 2 minute and 27 second timer" kutoka Kiingereza kwenda Kifaransa kwa kutumia Bing Translate, kisha tumia kitufe cha **Listen translation** kuzungumza tafsiri hiyo kwenye kipaza sauti chako.
     >
-    > ![Kitufe cha kusikiliza tafsiri kwenye Bing Translate](../../../../../translated_images/bing-translate.348aa796d6efe2a92f41ea74a5cf42bb4c63d6faaa08e7f46924e072a35daa48.sw.png)
+    > ![Kitufe cha kusikiliza tafsiri kwenye Bing Translate](../../../../../translated_images/sw/bing-translate.348aa796d6efe2a92f41ea74a5cf42bb4c63d6faaa08e7f46924e072a35daa48.png)
 
 1. Badilisha matamko ya `recognizer_config` na `recognizer` na yafuatayo:
 

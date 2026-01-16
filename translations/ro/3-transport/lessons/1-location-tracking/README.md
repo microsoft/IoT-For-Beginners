@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Urmărirea locației
 
-![O prezentare grafică a lecției](../../../../../translated_images/lesson-11.9fddbac4b664c6d50ab7ac9bb32f1fc3f945f03760e72f7f43938073762fb017.ro.jpg)
+![O prezentare grafică a lecției](../../../../../translated_images/ro/lesson-11.9fddbac4b664c6d50ab7ac9bb32f1fc3f945f03760e72f7f43938073762fb017.jpg)
 
 > Schiță realizată de [Nitya Narasimhan](https://github.com/nitya). Faceți clic pe imagine pentru o versiune mai mare.
 
@@ -72,13 +72,13 @@ Pământul este o sferă - un cerc tridimensional. Din acest motiv, punctele sun
 
 > 💁 Nimeni nu știe cu adevărat motivul original pentru care cercurile sunt împărțite în 360 de grade. [Pagina despre grad (unghi) pe Wikipedia](https://wikipedia.org/wiki/Degree_(angle)) acoperă câteva dintre motivele posibile.
 
-![Linii de latitudine de la 90° la Polul Nord, 45° la jumătatea distanței dintre Polul Nord și ecuator, 0° la ecuator, -45° la jumătatea distanței dintre ecuator și Polul Sud, și -90° la Polul Sud](../../../../../translated_images/latitude-lines.11d8d91dfb2014a57437272d7db7fd6607243098e8685f06e0c5f1ec984cb7eb.ro.png)
+![Linii de latitudine de la 90° la Polul Nord, 45° la jumătatea distanței dintre Polul Nord și ecuator, 0° la ecuator, -45° la jumătatea distanței dintre ecuator și Polul Sud, și -90° la Polul Sud](../../../../../translated_images/ro/latitude-lines.11d8d91dfb2014a57437272d7db7fd6607243098e8685f06e0c5f1ec984cb7eb.png)
 
 Latitudinea este măsurată folosind linii care înconjoară Pământul și sunt paralele cu ecuatorul, împărțind emisferele nordică și sudică în câte 90° fiecare. Ecuatorul este la 0°, Polul Nord este la 90°, cunoscut și ca 90° Nord, iar Polul Sud este la -90°, sau 90° Sud.
 
 Longitudinea este măsurată ca numărul de grade măsurate spre est și vest. Originea longitudinii la 0° se numește *Meridianul Primar* și a fost definită în 1884 ca o linie de la Polul Nord la Polul Sud care trece prin [Observatorul Regal Britanic din Greenwich, Anglia](https://wikipedia.org/wiki/Royal_Observatory,_Greenwich).
 
-![Linii de longitudine care merg de la -180° la vest de Meridianul Primar, la 0° pe Meridianul Primar, la 180° est de Meridianul Primar](../../../../../translated_images/longitude-meridians.ab4ef1c91c064586b0185a3c8d39e585903696c6a7d28c098a93a629cddb5d20.ro.png)
+![Linii de longitudine care merg de la -180° la vest de Meridianul Primar, la 0° pe Meridianul Primar, la 180° est de Meridianul Primar](../../../../../translated_images/ro/longitude-meridians.ab4ef1c91c064586b0185a3c8d39e585903696c6a7d28c098a93a629cddb5d20.png)
 
 > 🎓 Un meridian este o linie imaginară dreaptă care merge de la Polul Nord la Polul Sud, formând un semicerc.
 
@@ -109,7 +109,7 @@ Coordonatele pentru un punct sunt întotdeauna date ca `latitudine, longitudine`
 * O latitudine de 47.6423109 (47.6423109 grade nord de ecuator)
 * O longitudine de -122.1390293 (122.1390293 grade vest de Meridianul Primar).
 
-![Campusul Microsoft la 47.6423109,-122.117198](../../../../../translated_images/microsoft-gps-location-world.a321d481b010f6adfcca139b2ba0adc53b79f58a540495b8e2ce7f779ea64bfe.ro.png)
+![Campusul Microsoft la 47.6423109,-122.117198](../../../../../translated_images/ro/microsoft-gps-location-world.a321d481b010f6adfcca139b2ba0adc53b79f58a540495b8e2ce7f779ea64bfe.png)
 
 ## Sisteme de poziționare globală (GPS)
 
@@ -121,7 +121,7 @@ Sistemele GPS funcționează având un număr de sateliți care trimit un semnal
 
 > 💁 Senzorii GPS au nevoie de antene pentru a detecta undele radio. Antenele integrate în camioane și mașini cu GPS la bord sunt poziționate pentru a obține un semnal bun, de obicei pe parbriz sau pe acoperiș. Dacă utilizați un sistem GPS separat, cum ar fi un smartphone sau un dispozitiv IoT, trebuie să vă asigurați că antena integrată în sistemul GPS sau telefon are o vedere clară a cerului, cum ar fi montarea pe parbriz.
 
-![Prin cunoașterea distanței de la senzor la mai mulți sateliți, locația poate fi calculată](../../../../../translated_images/gps-satellites.04acf1148fe25fbf1586bc2e8ba698e8d79b79a50c36824b38417dd13372b90f.ro.png)
+![Prin cunoașterea distanței de la senzor la mai mulți sateliți, locația poate fi calculată](../../../../../translated_images/ro/gps-satellites.04acf1148fe25fbf1586bc2e8ba698e8d79b79a50c36824b38417dd13372b90f.png)
 
 Sateliții GPS orbitează Pământul, nefiind într-un punct fix deasupra senzorului, astfel încât datele despre locație includ altitudinea deasupra nivelului mării, precum și latitudinea și longitudinea.
 

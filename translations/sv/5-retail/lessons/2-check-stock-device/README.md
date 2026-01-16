@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Kontrollera lager från en IoT-enhet
 
-![En sketchnote-översikt av denna lektion](../../../../../translated_images/lesson-20.0211df9551a8abb300fc8fcf7dc2789468dea2eabe9202273ac077b0ba37f15e.sv.jpg)
+![En sketchnote-översikt av denna lektion](../../../../../translated_images/sv/lesson-20.0211df9551a8abb300fc8fcf7dc2789468dea2eabe9202273ac077b0ba37f15e.jpg)
 
 > Sketchnote av [Nitya Narasimhan](https://github.com/nitya). Klicka på bilden för en större version.
 
@@ -39,7 +39,7 @@ Objektdetektorer kan användas för lagerkontroll, antingen för att räkna lage
 
 Till exempel, om en kamera pekar på en hylla som kan hålla 8 burkar tomatpuré, och en objektdetektor bara upptäcker 7 burkar, saknas en och behöver fyllas på.
 
-![7 burkar tomatpuré på en hylla, 4 på den övre raden, 3 på den nedre](../../../../../translated_images/stock-7-cans-tomato-paste.f86059cc573d7bec.sv.png)
+![7 burkar tomatpuré på en hylla, 4 på den övre raden, 3 på den nedre](../../../../../translated_images/sv/stock-7-cans-tomato-paste.f86059cc573d7bec.png)
 
 I bilden ovan har en objektdetektor upptäckt 7 burkar tomatpuré på en hylla som kan hålla 8 burkar. IoT-enheten kan inte bara skicka en notifikation om behovet av påfyllning, utan kan även ge en indikation om var den saknade varan finns, viktig information om du använder robotar för att fylla på hyllor.
 
@@ -51,7 +51,7 @@ Ibland kan fel lager finnas på hyllorna. Detta kan bero på mänskliga misstag 
 
 Objektdetektering kan användas för att upptäcka oväntade varor, och återigen varna en människa eller robot för att returnera varan så snart den upptäcks.
 
-![En burk babymajs på tomatpuréhyllan](../../../../../translated_images/stock-rogue-corn.be1f3ada8c457854.sv.png)
+![En burk babymajs på tomatpuréhyllan](../../../../../translated_images/sv/stock-rogue-corn.be1f3ada8c457854.png)
 
 I bilden ovan har en burk babymajs placerats på hyllan bredvid tomatpurén. Objektdetektorn har upptäckt detta, vilket gör att IoT-enheten kan notifiera en människa eller robot att returnera burken till dess rätta plats.
 
@@ -71,7 +71,7 @@ Iterationer publiceras från Custom Vision-portalen.
 
 1. Klicka på knappen **Publish** för iterationen.
 
-    ![Publiceringsknappen](../../../../../translated_images/custom-vision-object-detector-publish-button.34ee379fc650ccb9856c3868d0003f413b9529f102fc73c37168c98d721cc293.sv.png)
+    ![Publiceringsknappen](../../../../../translated_images/sv/custom-vision-object-detector-publish-button.34ee379fc650ccb9856c3868d0003f413b9529f102fc73c37168c98d721cc293.png)
 
 1. I dialogrutan *Publish Model*, ställ in *Prediction resource* till resursen `stock-detector-prediction` som du skapade i den senaste lektionen. Låt namnet vara `Iteration2` och klicka på knappen **Publish**.
 
@@ -85,7 +85,7 @@ Iterationer publiceras från Custom Vision-portalen.
 
     Ta också en kopia av värdet *Prediction-Key*. Detta är en säker nyckel som du måste skicka när du anropar modellen. Endast applikationer som skickar denna nyckel får använda modellen, alla andra applikationer avvisas.
 
-    ![Dialogrutan för prediktions-API som visar URL och nyckel](../../../../../translated_images/custom-vision-prediction-key-endpoint.30c569ffd0338864f319911f052d5e9b8c5066cb0800a26dd6f7ff5713130ad8.sv.png)
+    ![Dialogrutan för prediktions-API som visar URL och nyckel](../../../../../translated_images/sv/custom-vision-prediction-key-endpoint.30c569ffd0338864f319911f052d5e9b8c5066cb0800a26dd6f7ff5713130ad8.png)
 
 ✅ När en ny iteration publiceras kommer den att ha ett annat namn. Hur tror du att du skulle ändra iterationen som en IoT-enhet använder?
 
@@ -104,7 +104,7 @@ När du använder objektdetektorn får du inte bara tillbaka de upptäckta objek
 
 Resultaten av en prediktion i fliken **Predictions** i Custom Vision har avgränsningsrutorna ritade på bilden som skickades för prediktion.
 
-![4 burkar tomatpuré på en hylla med prediktioner för de 4 upptäckterna med 35.8%, 33.5%, 25.7% och 16.6%](../../../../../translated_images/custom-vision-stock-prediction.942266ab1bcca3410ecdf23643b9f5f570cfab2345235074e24c51f285777613.sv.png)
+![4 burkar tomatpuré på en hylla med prediktioner för de 4 upptäckterna med 35.8%, 33.5%, 25.7% och 16.6%](../../../../../translated_images/sv/custom-vision-stock-prediction.942266ab1bcca3410ecdf23643b9f5f570cfab2345235074e24c51f285777613.png)
 
 I bilden ovan upptäcktes 4 burkar tomatpuré. I resultaten är en röd fyrkant överlagd för varje objekt som upptäcktes i bilden, vilket indikerar avgränsningsrutan för bilden.
 
@@ -112,7 +112,7 @@ I bilden ovan upptäcktes 4 burkar tomatpuré. I resultaten är en röd fyrkant 
 
 Avgränsningsrutor definieras med 4 värden - top, left, height och width. Dessa värden är på en skala från 0-1, vilket representerar positionerna som en procentandel av bildens storlek. Ursprungspunkten (positionen 0,0) är det övre vänstra hörnet av bilden, så top-värdet är avståndet från toppen, och botten av avgränsningsrutan är top plus height.
 
-![En avgränsningsruta runt en burk tomatpuré](../../../../../translated_images/bounding-box.1420a7ea0d3d15f71e1ffb5cf4b2271d184fac051f990abc541975168d163684.sv.png)
+![En avgränsningsruta runt en burk tomatpuré](../../../../../translated_images/sv/bounding-box.1420a7ea0d3d15f71e1ffb5cf4b2271d184fac051f990abc541975168d163684.png)
 
 Bilden ovan är 600 pixlar bred och 800 pixlar hög. Avgränsningsrutan börjar 320 pixlar ner, vilket ger ett top-koordinat på 0.4 (800 x 0.4 = 320). Från vänster börjar avgränsningsrutan 240 pixlar in, vilket ger ett left-koordinat på 0.4 (600 x 0.4 = 240). Höjden på avgränsningsrutan är 240 pixlar, vilket ger ett height-värde på 0.3 (800 x 0.3 = 240). Bredden på avgränsningsrutan är 120 pixlar, vilket ger ett width-värde på 0.2 (600 x 0.2 = 120).
 
@@ -127,7 +127,7 @@ Att använda procentvärden från 0-1 innebär att oavsett vilken storlek bilden
 
 Du kan använda avgränsningsrutor kombinerat med sannolikheter för att utvärdera hur korrekt en upptäckt är. Till exempel kan en objektdetektor upptäcka flera objekt som överlappar, till exempel upptäcka en burk inuti en annan. Din kod kan titta på avgränsningsrutorna, förstå att detta är omöjligt, och ignorera alla objekt som har en betydande överlappning med andra objekt.
 
-![Två avgränsningsrutor som överlappar en burk tomatpuré](../../../../../translated_images/overlap-object-detection.d431e03cae75072a2760430eca7f2c5fdd43045bfd72dadcbf12711f7cd6c2ae.sv.png)
+![Två avgränsningsrutor som överlappar en burk tomatpuré](../../../../../translated_images/sv/overlap-object-detection.d431e03cae75072a2760430eca7f2c5fdd43045bfd72dadcbf12711f7cd6c2ae.png)
 
 I exemplet ovan indikerar en avgränsningsruta en förutsedd burk tomatpuré med 78.3%. En andra avgränsningsruta är något mindre och ligger inuti den första avgränsningsrutan med en sannolikhet på 64.3%. Din kod kan kontrollera avgränsningsrutorna, se att de överlappar helt, och ignorera den lägre sannolikheten eftersom det inte är möjligt att en burk är inuti en annan.
 

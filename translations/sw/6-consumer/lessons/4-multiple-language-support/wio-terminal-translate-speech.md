@@ -114,7 +114,7 @@ API ya REST ya huduma ya hotuba haiungi mkono tafsiri za moja kwa moja. Badala y
     >
     > Kwa mfano, ikiwa unafundisha LUIS kwa Kiingereza, lakini unataka kutumia Kifaransa kama lugha ya mtumiaji, unaweza kutafsiri sentensi kama "set a 2 minute and 27 second timer" kutoka Kiingereza hadi Kifaransa ukitumia Bing Translate, kisha tumia kitufe cha **Listen translation** kuzungumza tafsiri hiyo kwenye kipaza sauti chako.
     >
-    > ![Kitufe cha listen translation kwenye Bing translate](../../../../../translated_images/bing-translate.348aa796d6efe2a92f41ea74a5cf42bb4c63d6faaa08e7f46924e072a35daa48.sw.png)
+    > ![Kitufe cha listen translation kwenye Bing translate](../../../../../translated_images/sw/bing-translate.348aa796d6efe2a92f41ea74a5cf42bb4c63d6faaa08e7f46924e072a35daa48.png)
 
 1. Ongeza API key ya mtafsiri na eneo chini ya `SPEECH_LOCATION`:
 

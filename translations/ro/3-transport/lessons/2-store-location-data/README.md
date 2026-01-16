@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Stocarea datelor de locație
 
-![O prezentare grafică a lecției](../../../../../translated_images/lesson-12.ca7f53039712a3ec14ad6474d8445361c84adab643edc53fa6269b77895606bb.ro.jpg)
+![O prezentare grafică a lecției](../../../../../translated_images/ro/lesson-12.ca7f53039712a3ec14ad6474d8445361c84adab643edc53fa6269b77895606bb.jpg)
 
 > Prezentare grafică realizată de [Nitya Narasimhan](https://github.com/nitya). Click pe imagine pentru o versiune mai mare.
 
@@ -66,7 +66,7 @@ Bazele de date sunt servicii care îți permit să stochezi și să interoghezi 
 
 Primele baze de date au fost Sisteme de Management al Bazelor de Date Relaționale (RDBMS), sau baze de date relaționale. Acestea sunt cunoscute și sub numele de baze de date SQL datorită limbajului Structured Query Language (SQL) utilizat pentru a interacționa cu ele pentru a adăuga, elimina, actualiza sau interoga date. Aceste baze de date constau într-un schemă - un set bine definit de tabele de date, similar cu o foaie de calcul. Fiecare tabel are mai multe coloane denumite. Când inserezi date, adaugi un rând în tabel, punând valori în fiecare dintre coloane. Acest lucru păstrează datele într-o structură foarte rigidă - deși poți lăsa coloanele goale, dacă vrei să adaugi o nouă coloană trebuie să faci acest lucru în baza de date, populând valori pentru rândurile existente. Aceste baze de date sunt relaționale - în sensul că un tabel poate avea o relație cu altul.
 
-![O bază de date relațională cu ID-ul tabelului User care se referă la coloana user ID din tabelul purchases, și ID-ul tabelului products care se referă la coloana product ID din tabelul purchases](../../../../../translated_images/sql-database.be160f12bfccefd3.ro.png)
+![O bază de date relațională cu ID-ul tabelului User care se referă la coloana user ID din tabelul purchases, și ID-ul tabelului products care se referă la coloana product ID din tabelul purchases](../../../../../translated_images/ro/sql-database.be160f12bfccefd3.png)
 
 De exemplu, dacă stochezi detaliile personale ale unui utilizator într-un tabel, ai avea un fel de ID unic intern pentru fiecare utilizator care este utilizat într-un rând dintr-un tabel care conține numele și adresa utilizatorului. Dacă apoi vrei să stochezi alte detalii despre acel utilizator, cum ar fi achizițiile sale, într-un alt tabel, ai avea o coloană în noul tabel pentru ID-ul utilizatorului. Când cauți un utilizator, poți folosi ID-ul său pentru a obține detaliile personale dintr-un tabel și achizițiile sale din altul.
 
@@ -84,7 +84,7 @@ Baze de date NoSQL sunt numite NoSQL deoarece nu au aceeași structură rigidă 
 
 > 💁 În ciuda numelui lor, unele baze de date NoSQL îți permit să folosești SQL pentru a interoga datele.
 
-![Documente în foldere într-o bază de date NoSQL](../../../../../translated_images/noqsl-database.62d24ccf5b73f60d35c245a8533f1c7147c0928e955b82cb290b2e184bb434df.ro.png)
+![Documente în foldere într-o bază de date NoSQL](../../../../../translated_images/ro/noqsl-database.62d24ccf5b73f60d35c245a8533f1c7147c0928e955b82cb290b2e184bb434df.png)
 
 Baze de date NoSQL nu au o schemă predefinită care limitează modul în care sunt stocate datele, în schimb poți insera orice date nestructurate, de obicei folosind documente JSON. Aceste documente pot fi organizate în foldere, similar cu fișierele de pe computerul tău. Fiecare document poate avea câmpuri diferite față de alte documente - de exemplu, dacă stocai date IoT de la vehiculele tale agricole, unele ar putea avea câmpuri pentru datele accelerometrului și vitezei, altele ar putea avea câmpuri pentru temperatura din remorcă. Dacă ai adăuga un nou tip de camion, cum ar fi unul cu cântare integrate pentru a urmări greutatea produselor transportate, atunci dispozitivul tău IoT ar putea adăuga acest nou câmp și ar putea fi stocat fără modificări ale bazei de date.
 
@@ -98,7 +98,7 @@ Unele baze de date NoSQL cunoscute includ Azure CosmosDB, MongoDB și CouchDB.
 
 În lecția anterioară, ai capturat date GPS de la un senzor GPS conectat la dispozitivul tău IoT. Pentru a stoca aceste date IoT în cloud, trebuie să le trimiți către un serviciu IoT. Din nou, vei folosi Azure IoT Hub, același serviciu IoT în cloud pe care l-ai utilizat în proiectul anterior.
 
-![Trimiterea telemetriei GPS de la un dispozitiv IoT către IoT Hub](../../../../../translated_images/gps-telemetry-iot-hub.8115335d51cd2c1285d20e9d1b18cf685e59a8e093e7797291ef173445af6f3d.ro.png)
+![Trimiterea telemetriei GPS de la un dispozitiv IoT către IoT Hub](../../../../../translated_images/ro/gps-telemetry-iot-hub.8115335d51cd2c1285d20e9d1b18cf685e59a8e093e7797291ef173445af6f3d.png)
 
 ### Sarcină - trimite date GPS către un IoT Hub
 
@@ -180,7 +180,7 @@ Datele din calea rece sunt stocate în depozite de date - baze de date concepute
 
 Odată ce datele ajung în IoT Hub, poți scrie cod serverless pentru a asculta evenimentele publicate pe endpoint-ul compatibil Event-Hub. Aceasta este calea caldă - aceste date vor fi stocate și utilizate în lecția următoare pentru raportarea traseului.
 
-![Trimiterea telemetriei GPS de la un dispozitiv IoT către IoT Hub, apoi către Azure Functions printr-un trigger Event Hub](../../../../../translated_images/gps-telemetry-iot-hub-functions.24d3fa5592455e9f4e2fe73856b40c3915a292b90263c31d652acfd976cfedd8.ro.png)
+![Trimiterea telemetriei GPS de la un dispozitiv IoT către IoT Hub, apoi către Azure Functions printr-un trigger Event Hub](../../../../../translated_images/ro/gps-telemetry-iot-hub-functions.24d3fa5592455e9f4e2fe73856b40c3915a292b90263c31d652acfd976cfedd8.png)
 
 ### Sarcină - gestionează evenimentele GPS folosind cod serverless
 
@@ -202,7 +202,7 @@ Odată ce datele ajung în IoT Hub, poți scrie cod serverless pentru a asculta 
 
 ## Conturi de stocare Azure
 
-![Logo-ul Azure Storage](../../../../../translated_images/azure-storage-logo.605c0f602c640d482a80f1b35a2629a32d595711b7ab1d7ceea843250615ff32.ro.png)
+![Logo-ul Azure Storage](../../../../../translated_images/ro/azure-storage-logo.605c0f602c640d482a80f1b35a2629a32d595711b7ab1d7ceea843250615ff32.png)
 
 Conturile de stocare Azure reprezintă un serviciu de stocare generală care poate stoca date în diverse moduri. Poți stoca date sub formă de blob-uri, în cozi, în tabele sau ca fișiere, toate în același timp.
 
@@ -241,7 +241,7 @@ Aplicația ta de funcții trebuie acum să se conecteze la stocarea de tip blob 
 
 În această lecție, vei folosi SDK-ul Python pentru a vedea cum să interacționezi cu stocarea de tip blob.
 
-![Trimiterea telemetriei GPS de la un dispozitiv IoT la IoT Hub, apoi la Azure Functions printr-un declanșator Event Hub, apoi salvarea acesteia în stocarea de tip blob](../../../../../translated_images/save-telemetry-to-storage-from-functions.ed3b1820980097f1.ro.png)
+![Trimiterea telemetriei GPS de la un dispozitiv IoT la IoT Hub, apoi la Azure Functions printr-un declanșator Event Hub, apoi salvarea acesteia în stocarea de tip blob](../../../../../translated_images/ro/save-telemetry-to-storage-from-functions.ed3b1820980097f1.png)
 
 Datele vor fi salvate ca un blob JSON cu următorul format:
 

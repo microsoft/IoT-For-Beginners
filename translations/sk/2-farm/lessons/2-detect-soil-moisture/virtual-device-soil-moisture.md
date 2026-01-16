@@ -43,11 +43,11 @@ Pridajte senzor vlhkosti pôdy do aplikácie CounterFit.
 
     1. Kliknite na tlačidlo **Add**, aby ste vytvorili senzor *Soil Moisture* na pine 0.
 
-    ![Nastavenia senzora vlhkosti pôdy](../../../../../translated_images/counterfit-create-soil-moisture-sensor.35266135a5e0ae68b29a684d7db0d2933a8098b2307d197f7c71577b724603aa.sk.png)
+    ![Nastavenia senzora vlhkosti pôdy](../../../../../translated_images/sk/counterfit-create-soil-moisture-sensor.35266135a5e0ae68b29a684d7db0d2933a8098b2307d197f7c71577b724603aa.png)
 
     Senzor vlhkosti pôdy bude vytvorený a zobrazí sa v zozname senzorov.
 
-    ![Vytvorený senzor vlhkosti pôdy](../../../../../translated_images/counterfit-soil-moisture-sensor.81742b2de0e9de60a3b3b9a2ff8ecc686d428eb6d71820f27a693be26e5aceee.sk.png)
+    ![Vytvorený senzor vlhkosti pôdy](../../../../../translated_images/sk/counterfit-soil-moisture-sensor.81742b2de0e9de60a3b3b9a2ff8ecc686d428eb6d71820f27a693be26e5aceee.png)
 
 ## Naprogramovanie aplikácie senzora vlhkosti pôdy
 

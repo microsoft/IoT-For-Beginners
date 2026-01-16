@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Skontrolujte kvalitu ovocia pomocou IoT zariadenia
 
-![Prehľad tejto lekcie vo forme sketchnote](../../../../../translated_images/lesson-16.215daf18b00631fbdfd64c6fc2dc6044dff5d544288825d8076f9fb83d964c23.sk.jpg)
+![Prehľad tejto lekcie vo forme sketchnote](../../../../../translated_images/sk/lesson-16.215daf18b00631fbdfd64c6fc2dc6044dff5d544288825d8076f9fb83d964c23.jpg)
 
 > Sketchnote od [Nitya Narasimhan](https://github.com/nitya). Kliknite na obrázok pre jeho zväčšenú verziu.
 
@@ -35,7 +35,7 @@ V tejto lekcii sa budeme venovať:
 
 Kamerové senzory, ako už názov napovedá, sú kamery, ktoré môžete pripojiť k vášmu IoT zariadeniu. Môžu zachytávať statické obrázky alebo streamovať video. Niektoré vracajú surové obrazové dáta, iné komprimujú obrazové dáta do súborov ako JPEG alebo PNG. Kamery, ktoré pracujú s IoT zariadeniami, sú zvyčajne oveľa menšie a majú nižšie rozlíšenie, než na aké ste zvyknutí, ale môžete získať aj kamery s vysokým rozlíšením, ktoré sa vyrovnajú špičkovým telefónom. K dispozícii sú rôzne vymeniteľné objektívy, viacnásobné kamerové zostavy, infračervené termokamery alebo UV kamery.
 
-![Svetlo zo scény prechádza cez objektív a zaostruje sa na CMOS senzor](../../../../../translated_images/cmos-sensor.75f9cd74decb137149a4c9ea825251a4549497d67c0ae2776159e6102bb53aa9.sk.png)
+![Svetlo zo scény prechádza cez objektív a zaostruje sa na CMOS senzor](../../../../../translated_images/sk/cmos-sensor.75f9cd74decb137149a4c9ea825251a4549497d67c0ae2776159e6102bb53aa9.png)
 
 Väčšina kamerových senzorov používa obrazové senzory, kde každý pixel je fotodióda. Objektív zaostruje obraz na obrazový senzor a tisíce alebo milióny fotodiód detegujú svetlo dopadajúce na každú z nich a zaznamenávajú to ako obrazové dáta.
 
@@ -83,7 +83,7 @@ Iterácie sa publikujú z portálu Custom Vision.
 
 1. Kliknite na tlačidlo **Publikovať** pre danú iteráciu.
 
-    ![Tlačidlo publikovať](../../../../../translated_images/custom-vision-publish-button.b7174e1977b0c33b8b72d4e5b1326c779e0af196f3849d09985ee2d7d5493a39.sk.png)
+    ![Tlačidlo publikovať](../../../../../translated_images/sk/custom-vision-publish-button.b7174e1977b0c33b8b72d4e5b1326c779e0af196f3849d09985ee2d7d5493a39.png)
 
 1. V dialógovom okne *Publikovať model* nastavte *Predikčný zdroj* na zdroj `fruit-quality-detector-prediction`, ktorý ste vytvorili v predchádzajúcej lekcii. Nechajte názov ako `Iteration2` a kliknite na tlačidlo **Publikovať**.
 
@@ -97,7 +97,7 @@ Iterácie sa publikujú z portálu Custom Vision.
 
     Tiež si skopírujte hodnotu *Prediction-Key*. Toto je bezpečnostný kľúč, ktorý musíte odoslať pri volaní modelu. Len aplikácie, ktoré odosielajú tento kľúč, môžu model používať, všetky ostatné aplikácie budú odmietnuté.
 
-    ![Dialógové okno predikčného API zobrazujúce URL a kľúč](../../../../../translated_images/custom-vision-prediction-key-endpoint.30c569ffd0338864f319911f052d5e9b8c5066cb0800a26dd6f7ff5713130ad8.sk.png)
+    ![Dialógové okno predikčného API zobrazujúce URL a kľúč](../../../../../translated_images/sk/custom-vision-prediction-key-endpoint.30c569ffd0338864f319911f052d5e9b8c5066cb0800a26dd6f7ff5713130ad8.png)
 
 ✅ Keď sa publikuje nová iterácia, bude mať iný názov. Ako si myslíte, že by ste zmenili iteráciu, ktorú používa IoT zariadenie?
 
@@ -118,7 +118,7 @@ Môže sa stať, že výsledky, ktoré získate pri použití kamery pripojenej 
 
 Aby ste dosiahli čo najlepšie výsledky pre klasifikátor obrázkov, chcete model trénovať s obrázkami, ktoré sú čo najpodobnejšie obrázkom použitým na predikcie. Ak ste napríklad použili kameru telefónu na zachytenie obrázkov na tréning, kvalita obrázkov, ostrosť a farby budú odlišné od kamery pripojenej k IoT zariadeniu.
 
-![2 obrázky banánov, jeden s nízkym rozlíšením a zlým osvetlením z IoT zariadenia, druhý s vysokým rozlíšením a dobrým osvetlením z telefónu](../../../../../translated_images/banana-picture-compare.174df164dc326a42cf7fb051a7497e6113c620e91552d92ca914220305d47d9a.sk.png)
+![2 obrázky banánov, jeden s nízkym rozlíšením a zlým osvetlením z IoT zariadenia, druhý s vysokým rozlíšením a dobrým osvetlením z telefónu](../../../../../translated_images/sk/banana-picture-compare.174df164dc326a42cf7fb051a7497e6113c620e91552d92ca914220305d47d9a.png)
 
 Na obrázku vyššie bol obrázok banánu naľavo zachytený pomocou kamery Raspberry Pi, zatiaľ čo obrázok napravo bol zachytený toho istého banánu na tom istom mieste pomocou iPhonu. Je viditeľný rozdiel v kvalite – obrázok z iPhonu je ostrejší, s jasnejšími farbami a väčším kontrastom.
 

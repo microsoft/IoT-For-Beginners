@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Preverjanje zalog z IoT napravo
 
-![Sketchnote pregled te lekcije](../../../../../translated_images/lesson-20.0211df9551a8abb300fc8fcf7dc2789468dea2eabe9202273ac077b0ba37f15e.sl.jpg)
+![Sketchnote pregled te lekcije](../../../../../translated_images/sl/lesson-20.0211df9551a8abb300fc8fcf7dc2789468dea2eabe9202273ac077b0ba37f15e.jpg)
 
 > Sketchnote avtorja [Nitya Narasimhan](https://github.com/nitya). Kliknite na sliko za večjo različico.
 
@@ -39,7 +39,7 @@ Modeli za prepoznavanje objektov se lahko uporabljajo za preverjanje zalog, bodi
 
 Na primer, če kamera kaže na police, ki lahko držijo 8 pločevink paradižnikovega koncentrata, in model za prepoznavanje objektov zazna le 7 pločevink, potem ena manjka in jo je treba ponovno založiti.
 
-![7 pločevink paradižnikovega koncentrata na polici, 4 na zgornji vrsti, 3 na spodnji](../../../../../translated_images/stock-7-cans-tomato-paste.f86059cc573d7bec.sl.png)
+![7 pločevink paradižnikovega koncentrata na polici, 4 na zgornji vrsti, 3 na spodnji](../../../../../translated_images/sl/stock-7-cans-tomato-paste.f86059cc573d7bec.png)
 
 Na zgornji sliki je model za prepoznavanje objektov zaznal 7 pločevink paradižnikovega koncentrata na polici, ki lahko drži 8 pločevink. IoT naprava ne samo da lahko pošlje obvestilo o potrebi po ponovnem založenju, ampak lahko celo poda informacijo o lokaciji manjkajočega izdelka, kar je pomemben podatek, če uporabljate robote za ponovno založenje polic.
 
@@ -51,7 +51,7 @@ Včasih so na policah napačne zaloge. To je lahko posledica človeške napake p
 
 Prepoznavanje objektov se lahko uporabi za zaznavanje nepričakovanih predmetov, kar omogoča IoT napravi, da opozori človeka ali robota, da izdelek čim prej vrne na pravo mesto.
 
-![Nepovabljena pločevinka baby koruze na polici s paradižnikovim koncentratom](../../../../../translated_images/stock-rogue-corn.be1f3ada8c457854.sl.png)
+![Nepovabljena pločevinka baby koruze na polici s paradižnikovim koncentratom](../../../../../translated_images/sl/stock-rogue-corn.be1f3ada8c457854.png)
 
 Na zgornji sliki je pločevinka baby koruze postavljena na polico poleg paradižnikovega koncentrata. Model za prepoznavanje objektov je to zaznal, kar omogoča IoT napravi, da obvesti človeka ali robota, da pločevinko vrne na pravo mesto.
 
@@ -71,7 +71,7 @@ Iteracije se objavijo iz portala Custom Vision.
 
 1. Kliknite gumb **Publish** za iteracijo.
 
-    ![Gumb za objavo](../../../../../translated_images/custom-vision-object-detector-publish-button.34ee379fc650ccb9856c3868d0003f413b9529f102fc73c37168c98d721cc293.sl.png)
+    ![Gumb za objavo](../../../../../translated_images/sl/custom-vision-object-detector-publish-button.34ee379fc650ccb9856c3868d0003f413b9529f102fc73c37168c98d721cc293.png)
 
 1. V pogovornem oknu *Publish Model* nastavite *Prediction resource* na vir `stock-detector-prediction`, ki ste ga ustvarili v prejšnji lekciji. Ime pustite kot `Iteration2` in kliknite gumb **Publish**.
 
@@ -85,7 +85,7 @@ Iteracije se objavijo iz portala Custom Vision.
 
     Prav tako kopirajte vrednost *Prediction-Key*. To je varnostni ključ, ki ga morate posredovati, ko kličete model. Samo aplikacije, ki posredujejo ta ključ, lahko uporabljajo model, vse druge aplikacije so zavrnjene.
 
-    ![Pogovorno okno API za napovedovanje, ki prikazuje URL in ključ](../../../../../translated_images/custom-vision-prediction-key-endpoint.30c569ffd0338864f319911f052d5e9b8c5066cb0800a26dd6f7ff5713130ad8.sl.png)
+    ![Pogovorno okno API za napovedovanje, ki prikazuje URL in ključ](../../../../../translated_images/sl/custom-vision-prediction-key-endpoint.30c569ffd0338864f319911f052d5e9b8c5066cb0800a26dd6f7ff5713130ad8.png)
 
 ✅ Ko je objavljena nova iteracija, bo imela drugačno ime. Kako mislite, da bi spremenili iteracijo, ki jo uporablja IoT naprava?
 
@@ -104,7 +104,7 @@ Ko uporabljate model za prepoznavanje objektov, ne dobite le zaznanih objektov z
 
 Rezultati napovedi v zavihku **Predictions** v Custom Vision imajo omejevalne okvirje narisane na sliki, ki je bila poslana za napovedovanje.
 
-![4 pločevinke paradižnikovega koncentrata na polici z napovedmi za 4 zaznave z verjetnostmi 35.8%, 33.5%, 25.7% in 16.6%](../../../../../translated_images/custom-vision-stock-prediction.942266ab1bcca3410ecdf23643b9f5f570cfab2345235074e24c51f285777613.sl.png)
+![4 pločevinke paradižnikovega koncentrata na polici z napovedmi za 4 zaznave z verjetnostmi 35.8%, 33.5%, 25.7% in 16.6%](../../../../../translated_images/sl/custom-vision-stock-prediction.942266ab1bcca3410ecdf23643b9f5f570cfab2345235074e24c51f285777613.png)
 
 Na zgornji sliki so bile zaznane 4 pločevinke paradižnikovega koncentrata. V rezultatih je rdeč kvadrat prekril vsak zaznani objekt na sliki, kar označuje omejevalni okvir za sliko.
 
@@ -112,7 +112,7 @@ Na zgornji sliki so bile zaznane 4 pločevinke paradižnikovega koncentrata. V r
 
 Omejevalni okvirji so določeni s 4 vrednostmi - zgoraj, levo, višina in širina. Te vrednosti so na lestvici od 0-1, kar predstavlja položaje kot odstotek velikosti slike. Izvor (položaj 0,0) je zgornji levi del slike, zato je zgornja vrednost razdalja od vrha, spodnji del omejevalnega okvirja pa je zgornji del plus višina.
 
-![Omejevalni okvir okoli pločevinke paradižnikovega koncentrata](../../../../../translated_images/bounding-box.1420a7ea0d3d15f71e1ffb5cf4b2271d184fac051f990abc541975168d163684.sl.png)
+![Omejevalni okvir okoli pločevinke paradižnikovega koncentrata](../../../../../translated_images/sl/bounding-box.1420a7ea0d3d15f71e1ffb5cf4b2271d184fac051f990abc541975168d163684.png)
 
 Zgornja slika je široka 600 slikovnih pik in visoka 800 slikovnih pik. Omejevalni okvir se začne 320 slikovnih pik navzdol, kar daje zgornjo koordinato 0.4 (800 x 0.4 = 320). Od leve se omejevalni okvir začne 240 slikovnih pik čez, kar daje levo koordinato 0.4 (600 x 0.4 = 240). Višina omejevalnega okvirja je 240 slikovnih pik, kar daje vrednost višine 0.3 (800 x 0.3 = 240). Širina omejevalnega okvirja je 120 slikovnih pik, kar daje vrednost širine 0.2 (600 x 0.2 = 120).
 
@@ -127,7 +127,7 @@ Uporaba odstotkovnih vrednosti od 0-1 pomeni, da ne glede na to, na kakšno veli
 
 Omejevalne okvirje lahko uporabite v kombinaciji z verjetnostmi za oceno, kako natančno je zaznavanje. Na primer, model za prepoznavanje objektov lahko zazna več objektov, ki se prekrivajo, na primer zazna eno pločevinko znotraj druge. Vaša koda lahko pregleda omejevalne okvirje, razume, da je to nemogoče, in ignorira vse objekte, ki se znatno prekrivajo z drugimi objekti.
 
-![Dva omejevalna okvirja, ki se prekrivata pločevinko paradižnikovega koncentrata](../../../../../translated_images/overlap-object-detection.d431e03cae75072a2760430eca7f2c5fdd43045bfd72dadcbf12711f7cd6c2ae.sl.png)
+![Dva omejevalna okvirja, ki se prekrivata pločevinko paradižnikovega koncentrata](../../../../../translated_images/sl/overlap-object-detection.d431e03cae75072a2760430eca7f2c5fdd43045bfd72dadcbf12711f7cd6c2ae.png)
 
 V zgornjem primeru en omejevalni okvir označuje napovedano pločevinko paradižnikovega koncentrata z verjetnostjo 78.3%. Drugi omejevalni okvir je nekoliko manjši in je znotraj prvega omejevalnega okvirja z verjetnostjo 64.3%. Vaša koda lahko preveri omejevalne okvirje, vidi, da se popolnoma prekrivajo, in ignorira nižjo verjetnost, saj ni mogoče, da bi bila ena pločevinka znotraj druge.
 

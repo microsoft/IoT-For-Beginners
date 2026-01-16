@@ -37,11 +37,11 @@ Ongeza kihisi cha mwanga kwenye programu ya CounterFit.
 
     1. Chagua kitufe cha **Add** ili kuunda kihisi cha mwanga kwenye Pin 0.
 
-    ![Mipangilio ya kihisi cha mwanga](../../../../../translated_images/counterfit-create-light-sensor.9f36a5e0d4458d8d554d54b34d2c806d56093d6e49fddcda2d20f6fef7f5cce1.sw.png)
+    ![Mipangilio ya kihisi cha mwanga](../../../../../translated_images/sw/counterfit-create-light-sensor.9f36a5e0d4458d8d554d54b34d2c806d56093d6e49fddcda2d20f6fef7f5cce1.png)
 
     Kihisi cha mwanga kitatengenezwa na kuonekana kwenye orodha ya vihisi.
 
-    ![Kihisi cha mwanga kilichoundwa](../../../../../translated_images/counterfit-light-sensor.5d0f5584df56b90f6b2561910d9cb20dfbd73eeff2177c238d38f4de54aefae1.sw.png)
+    ![Kihisi cha mwanga kilichoundwa](../../../../../translated_images/sw/counterfit-light-sensor.5d0f5584df56b90f6b2561910d9cb20dfbd73eeff2177c238d38f4de54aefae1.png)
 
 ## Programu ya kihisi cha mwanga
 

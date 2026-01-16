@@ -19,7 +19,7 @@ Microfonul încorporat captează un semnal analogic, care este convertit într-u
 
 ✅ Citește mai multe despre DMA pe [pagina despre accesul direct la memorie de pe Wikipedia](https://wikipedia.org/wiki/Direct_memory_access).
 
-![Audio-ul de la microfon merge la un ADC, apoi la DMAC. Acesta scrie într-un buffer. Când acest buffer este plin, este procesat, iar DMAC scrie într-un al doilea buffer](../../../../../translated_images/dmac-adc-buffers.4509aee49145c90bc2e1be472b8ed2ddfcb2b6a81ad3e559114aca55f5fff759.ro.png)
+![Audio-ul de la microfon merge la un ADC, apoi la DMAC. Acesta scrie într-un buffer. Când acest buffer este plin, este procesat, iar DMAC scrie într-un al doilea buffer](../../../../../translated_images/ro/dmac-adc-buffers.4509aee49145c90bc2e1be472b8ed2ddfcb2b6a81ad3e559114aca55f5fff759.png)
 
 DMAC poate captura audio de la ADC la intervale fixe, cum ar fi de 16.000 de ori pe secundă pentru audio la 16KHz. Poate scrie aceste date capturate într-un buffer de memorie pre-alocat, iar când acesta este plin, îl face disponibil pentru procesarea codului tău. Utilizarea acestei memorii poate întârzia capturarea audio, dar poți configura mai multe buffere. DMAC scrie în bufferul 1, iar când acesta este plin, notifică codul tău să proceseze bufferul 1, în timp ce DMAC scrie în bufferul 2. Când bufferul 2 este plin, notifică codul tău și revine la scrierea în bufferul 1. Astfel, atâta timp cât procesezi fiecare buffer într-un timp mai scurt decât cel necesar pentru a umple unul, nu vei pierde date.
 

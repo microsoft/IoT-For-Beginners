@@ -27,17 +27,17 @@ CO_OP_TRANSLATOR_METADATA:
 
 Подключите датчик влажности почвы.
 
-![Емкостный датчик влажности почвы Grove](../../../../../translated_images/grove-capacitive-soil-moisture-sensor.e7f0776cce30e78be5cc5a07839385fd6718857f31b5bf5ad3d0c73c83b2f0ef.ru.png)
+![Емкостный датчик влажности почвы Grove](../../../../../translated_images/ru/grove-capacitive-soil-moisture-sensor.e7f0776cce30e78be5cc5a07839385fd6718857f31b5bf5ad3d0c73c83b2f0ef.png)
 
 1. Вставьте один конец кабеля Grove в разъем на датчике влажности почвы. Кабель вставляется только в одном направлении.
 
 1. Отключив Wio Terminal от компьютера или другого источника питания, подключите другой конец кабеля Grove к правому разъему Grove на Wio Terminal, если смотреть на экран. Это разъем, который находится дальше всего от кнопки питания.
 
-![Емкостный датчик влажности почвы Grove подключен к правому разъему](../../../../../translated_images/wio-soil-moisture-sensor.46919b61c3f6cb74.ru.png)
+![Емкостный датчик влажности почвы Grove подключен к правому разъему](../../../../../translated_images/ru/wio-soil-moisture-sensor.46919b61c3f6cb74.png)
 
 1. Вставьте датчик влажности почвы в почву. На датчике есть «линия максимального уровня» — белая линия, проходящая через датчик. Вставьте датчик до этой линии, но не глубже.
 
-![Емкостный датчик влажности почвы Grove в почве](../../../../../translated_images/soil-moisture-sensor-in-soil.bfad91002bda5e96.ru.png)
+![Емкостный датчик влажности почвы Grove в почве](../../../../../translated_images/ru/soil-moisture-sensor-in-soil.bfad91002bda5e96.png)
 
 1. Теперь вы можете подключить Wio Terminal к вашему компьютеру.
 

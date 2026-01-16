@@ -43,11 +43,11 @@ Dodajte kamero v aplikacijo CounterFit.
 
     1. Izberite gumb **Add**, da ustvarite kamero.
 
-    ![Nastavitve kamere](../../../../../translated_images/counterfit-create-camera.a5de97f59c0bd3cbe0416d7e89a3cfe86d19fbae05c641c53a91286412af0a34.sl.png)
+    ![Nastavitve kamere](../../../../../translated_images/sl/counterfit-create-camera.a5de97f59c0bd3cbe0416d7e89a3cfe86d19fbae05c641c53a91286412af0a34.png)
 
     Kamera bo ustvarjena in se bo pojavila na seznamu senzorjev.
 
-    ![Ustvarjena kamera](../../../../../translated_images/counterfit-camera.001ec52194c8ee5d3f617173da2c79e1df903d10882adc625cbfc493525125d4.sl.png)
+    ![Ustvarjena kamera](../../../../../translated_images/sl/counterfit-camera.001ec52194c8ee5d3f617173da2c79e1df903d10882adc625cbfc493525125d4.png)
 
 ## Programiranje kamere
 
@@ -112,7 +112,7 @@ Programirajte napravo.
 
 1. Konfigurirajte sliko, ki jo bo kamera v CounterFit zajela. Lahko nastavite *Source* na *File*, nato naložite slikovno datoteko, ali pa nastavite *Source* na *WebCam*, in slike bodo zajete iz vaše spletne kamere. Prepričajte se, da ste po izbiri slike ali spletne kamere izbrali gumb **Set**.
 
-    ![CounterFit z datoteko, nastavljeno kot vir slike, in spletno kamero, ki prikazuje osebo, ki drži banano, v predogledu spletne kamere](../../../../../translated_images/counterfit-camera-options.eb3bd5150a8e7dffbf24bc5bcaba0cf2cdef95fbe6bbe393695d173817d6b8df.sl.png)
+    ![CounterFit z datoteko, nastavljeno kot vir slike, in spletno kamero, ki prikazuje osebo, ki drži banano, v predogledu spletne kamere](../../../../../translated_images/sl/counterfit-camera-options.eb3bd5150a8e7dffbf24bc5bcaba0cf2cdef95fbe6bbe393695d173817d6b8df.png)
 
 1. Slika bo zajeta in shranjena kot `image.jpg` v trenutni mapi. To datoteko boste videli v raziskovalcu VS Code. Izberite datoteko, da si ogledate sliko. Če jo je treba zasukati, posodobite vrstico `camera.rotation = 0` po potrebi in posnemite novo sliko.
 

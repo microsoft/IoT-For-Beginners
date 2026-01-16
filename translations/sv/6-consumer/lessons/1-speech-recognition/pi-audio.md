@@ -25,13 +25,13 @@ Knappen kan anslutas till Grove Base HAT.
 
 #### Uppgift - anslut knappen
 
-![En Grove-knapp](../../../../../translated_images/grove-button.a70cfbb809a8563681003250cf5b06d68cdcc68624f9e2f493d5a534ae2da1e5.sv.png)
+![En Grove-knapp](../../../../../translated_images/sv/grove-button.a70cfbb809a8563681003250cf5b06d68cdcc68624f9e2f493d5a534ae2da1e5.png)
 
 1. Sätt in ena änden av en Grove-kabel i uttaget på knappmodulen. Den går bara in på ett sätt.
 
 1. Med Raspberry Pi avstängd, anslut den andra änden av Grove-kabeln till det digitala uttaget märkt **D5** på Grove Base HAT som är ansluten till Pi. Detta uttag är det andra från vänster, på raden av uttag bredvid GPIO-stiften.
 
-![Grove-knappen ansluten till uttag D5](../../../../../translated_images/pi-button.c7a1a4f55943341ce1baf1057658e9a205804d4131d258e820c93f951df0abf3.sv.png)
+![Grove-knappen ansluten till uttag D5](../../../../../translated_images/sv/pi-button.c7a1a4f55943341ce1baf1057658e9a205804d4131d258e820c93f951df0abf3.png)
 
 ## Spela in ljud
 

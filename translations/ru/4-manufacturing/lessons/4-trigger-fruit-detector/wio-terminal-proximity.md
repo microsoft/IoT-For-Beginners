@@ -29,13 +29,13 @@ CO_OP_TRANSLATOR_METADATA:
 
 Подключите датчик Time of Flight.
 
-![Датчик Grove Time of Flight](../../../../../translated_images/grove-time-of-flight-sensor.d82ff2165bfded9f485de54d8d07195a6270a602696825fca19f629ddfe94e86.ru.png)
+![Датчик Grove Time of Flight](../../../../../translated_images/ru/grove-time-of-flight-sensor.d82ff2165bfded9f485de54d8d07195a6270a602696825fca19f629ddfe94e86.png)
 
 1. Вставьте один конец кабеля Grove в разъем на датчике Time of Flight. Кабель вставляется только в одном направлении.
 
 1. С отключенным от компьютера или другого источника питания Wio Terminal подключите другой конец кабеля Grove к левому разъему Grove на Wio Terminal, если смотреть на экран. Это разъем, который находится ближе всего к кнопке питания. Этот разъем поддерживает цифровой и I²C интерфейсы.
 
-![Датчик Grove Time of Flight, подключенный к левому разъему](../../../../../translated_images/wio-time-of-flight-sensor.c4c182131d2ea73d.ru.png)
+![Датчик Grove Time of Flight, подключенный к левому разъему](../../../../../translated_images/ru/wio-time-of-flight-sensor.c4c182131d2ea73d.png)
 
 1. Теперь вы можете подключить Wio Terminal к компьютеру.
 
@@ -101,7 +101,7 @@ CO_OP_TRANSLATOR_METADATA:
 
     Дальномер находится на задней стороне датчика, поэтому убедитесь, что используете правильную сторону при измерении расстояния.
 
-    ![Дальномер на задней стороне датчика Time of Flight, направленный на банан](../../../../../translated_images/time-of-flight-banana.079921ad8b1496e4.ru.png)
+    ![Дальномер на задней стороне датчика Time of Flight, направленный на банан](../../../../../translated_images/ru/time-of-flight-banana.079921ad8b1496e4.png)
 
 > 💁 Вы можете найти этот код в папке [code-proximity/wio-terminal](../../../../../4-manufacturing/lessons/4-trigger-fruit-detector/code-proximity/wio-terminal).
 

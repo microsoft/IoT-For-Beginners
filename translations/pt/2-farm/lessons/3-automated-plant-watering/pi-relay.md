@@ -27,13 +27,13 @@ O relé Grove pode ser ligado ao Raspberry Pi.
 
 Ligue o relé.
 
-![Um relé Grove](../../../../../translated_images/grove-relay.d426958ca210fbd0fb7983d7edc069d46c73a8b0a099d94797bd756f7b6bb6be.pt.png)
+![Um relé Grove](../../../../../translated_images/pt/grove-relay.d426958ca210fbd0fb7983d7edc069d46c73a8b0a099d94797bd756f7b6bb6be.png)
 
 1. Insira uma extremidade de um cabo Grove na entrada do relé. Ele só encaixará de uma forma.
 
 1. Com o Raspberry Pi desligado, conecte a outra extremidade do cabo Grove à entrada digital marcada como **D5** no Grove Base Hat ligado ao Pi. Esta entrada é a segunda da esquerda, na fila de entradas ao lado dos pinos GPIO. Deixe o sensor de humidade do solo conectado à entrada **A0**.
 
-![O relé Grove conectado à entrada D5 e o sensor de humidade do solo conectado à entrada A0](../../../../../translated_images/pi-relay-and-soil-moisture-sensor.02f3198975b8c53e69ec716cd2719ce117700bd1fc933eaf93476c103c57939b.pt.png)
+![O relé Grove conectado à entrada D5 e o sensor de humidade do solo conectado à entrada A0](../../../../../translated_images/pt/pi-relay-and-soil-moisture-sensor.02f3198975b8c53e69ec716cd2719ce117700bd1fc933eaf93476c103c57939b.png)
 
 1. Insira o sensor de humidade do solo na terra, caso ainda não o tenha feito na lição anterior.
 

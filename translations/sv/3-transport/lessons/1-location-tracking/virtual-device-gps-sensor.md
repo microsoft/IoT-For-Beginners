@@ -47,11 +47,11 @@ Lägg till GPS-sensorn i CounterFit-appen.
 
     1. Välj knappen **Add** för att skapa GPS-sensorn på porten `/dev/ttyAMA0`.
 
-    ![Inställningar för GPS-sensorn](../../../../../translated_images/counterfit-create-gps-sensor.6385dc9357d85ad1d47b4abb2525e7651fd498917d25eefc5a72feab09eedc70.sv.png)
+    ![Inställningar för GPS-sensorn](../../../../../translated_images/sv/counterfit-create-gps-sensor.6385dc9357d85ad1d47b4abb2525e7651fd498917d25eefc5a72feab09eedc70.png)
 
     GPS-sensorn kommer att skapas och visas i sensorlistan.
 
-    ![Den skapade GPS-sensorn](../../../../../translated_images/counterfit-gps-sensor.3fbb15af0a5367566f2f11324ef5a6f30861cdf2b497071a5e002b7aa473550e.sv.png)
+    ![Den skapade GPS-sensorn](../../../../../translated_images/sv/counterfit-gps-sensor.3fbb15af0a5367566f2f11324ef5a6f30861cdf2b497071a5e002b7aa473550e.png)
 
 ## Programmera GPS-sensorn
 
@@ -111,17 +111,17 @@ Programmera GPS-sensorappen.
 
     * Ställ in **Source** till `Lat/Lon` och ange en specifik latitud, longitud och antal satelliter som används för att få GPS-fix. Detta värde skickas endast en gång, så markera rutan **Repeat** för att få data att upprepas varje sekund.
 
-      ![GPS-sensorn med lat lon vald](../../../../../translated_images/counterfit-gps-sensor-latlon.008c867d75464fbe7f84107cc57040df565ac07cb57d2f21db37d087d470197d.sv.png)
+      ![GPS-sensorn med lat lon vald](../../../../../translated_images/sv/counterfit-gps-sensor-latlon.008c867d75464fbe7f84107cc57040df565ac07cb57d2f21db37d087d470197d.png)
 
     * Ställ in **Source** till `NMEA` och lägg till några NMEA-meningar i textrutan. Alla dessa värden kommer att skickas, med en fördröjning på 1 sekund innan varje ny GGA (positionsfixerings-)mening kan läsas.
 
-      ![GPS-sensorn med NMEA-meningar inställda](../../../../../translated_images/counterfit-gps-sensor-nmea.c62eea442171e17e19528b051b104cfcecdc9cd18db7bc72920f29821ae63f73.sv.png)
+      ![GPS-sensorn med NMEA-meningar inställda](../../../../../translated_images/sv/counterfit-gps-sensor-nmea.c62eea442171e17e19528b051b104cfcecdc9cd18db7bc72920f29821ae63f73.png)
 
       Du kan använda ett verktyg som [nmeagen.org](https://www.nmeagen.org) för att generera dessa meningar genom att rita på en karta. Dessa värden skickas endast en gång, så markera rutan **Repeat** för att få data att upprepas en sekund efter att allt har skickats.
 
     * Ställ in **Source** till GPX-fil och ladda upp en GPX-fil med spårplatser. Du kan ladda ner GPX-filer från ett antal populära kart- och vandringssajter, som [AllTrails](https://www.alltrails.com/). Dessa filer innehåller flera GPS-platser som en rutt, och GPS-sensorn kommer att returnera varje ny plats med 1 sekunds intervall.
 
-      ![GPS-sensorn med en GPX-fil inställd](../../../../../translated_images/counterfit-gps-sensor-gpxfile.8310b063ce8a425ccc8ebeec8306aeac5e8e55207f007d52c6e1194432a70cd9.sv.png)
+      ![GPS-sensorn med en GPX-fil inställd](../../../../../translated_images/sv/counterfit-gps-sensor-gpxfile.8310b063ce8a425ccc8ebeec8306aeac5e8e55207f007d52c6e1194432a70cd9.png)
 
       Dessa värden skickas endast en gång, så markera rutan **Repeat** för att få data att upprepas en sekund efter att allt har skickats.
 

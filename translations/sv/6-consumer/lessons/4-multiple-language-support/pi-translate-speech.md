@@ -34,7 +34,7 @@ REST-API:t för tal-tjänsten stöder inte direkta översättningar, men du kan 
     >
     > Till exempel, om du tränar LUIS på engelska men vill använda franska som användarspråk, kan du översätta meningar som "set a 2 minute and 27 second timer" från engelska till franska med Bing Translate, och sedan använda knappen **Lyssna på översättning** för att tala översättningen i din mikrofon.
     >
-    > ![Knappen för att lyssna på översättning på Bing Translate](../../../../../translated_images/bing-translate.348aa796d6efe2a92f41ea74a5cf42bb4c63d6faaa08e7f46924e072a35daa48.sv.png)
+    > ![Knappen för att lyssna på översättning på Bing Translate](../../../../../translated_images/sv/bing-translate.348aa796d6efe2a92f41ea74a5cf42bb4c63d6faaa08e7f46924e072a35daa48.png)
 
 1. Lägg till API-nyckeln för översättningstjänsten under `speech_api_key`:
 

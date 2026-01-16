@@ -19,7 +19,7 @@ Vgrajeni mikrofon zajema analogni signal, ki se pretvori v digitalni signal, ki 
 
 ✅ Preberite več o DMA na [strani o neposrednem dostopu do pomnilnika na Wikipediji](https://wikipedia.org/wiki/Direct_memory_access).
 
-![Zvok iz mikrofona gre v ADC, nato v DMAC. Ta piše v en medpomnilnik. Ko je ta poln, se obdela, DMAC pa piše v drugi medpomnilnik](../../../../../translated_images/dmac-adc-buffers.4509aee49145c90bc2e1be472b8ed2ddfcb2b6a81ad3e559114aca55f5fff759.sl.png)
+![Zvok iz mikrofona gre v ADC, nato v DMAC. Ta piše v en medpomnilnik. Ko je ta poln, se obdela, DMAC pa piše v drugi medpomnilnik](../../../../../translated_images/sl/dmac-adc-buffers.4509aee49145c90bc2e1be472b8ed2ddfcb2b6a81ad3e559114aca55f5fff759.png)
 
 DMAC lahko zajame zvok iz ADC-ja v fiksnih intervalih, na primer 16.000-krat na sekundo za zvok pri 16 kHz. Zajete podatke lahko zapiše v vnaprej dodeljen pomnilniški medpomnilnik, in ko je ta poln, jih vaša koda lahko obdela. Uporaba tega pomnilnika lahko povzroči zamudo pri zajemu zvoka, vendar lahko nastavite več medpomnilnikov. DMAC piše v medpomnilnik 1, nato pa, ko je ta poln, obvesti vašo kodo, da obdela medpomnilnik 1, medtem ko DMAC piše v medpomnilnik 2. Ko je medpomnilnik 2 poln, obvesti vašo kodo in se vrne k pisanju v medpomnilnik 1. Na ta način, dokler obdelate vsak medpomnilnik v krajšem času, kot je potreben za polnjenje enega, ne boste izgubili nobenih podatkov.
 

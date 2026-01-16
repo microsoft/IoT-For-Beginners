@@ -25,13 +25,13 @@ O botão pode ser conectado ao Grove Base Hat.
 
 #### Tarefa - conectar o botão
 
-![Um botão Grove](../../../../../translated_images/grove-button.a70cfbb809a8563681003250cf5b06d68cdcc68624f9e2f493d5a534ae2da1e5.pt.png)
+![Um botão Grove](../../../../../translated_images/pt/grove-button.a70cfbb809a8563681003250cf5b06d68cdcc68624f9e2f493d5a534ae2da1e5.png)
 
 1. Insere uma extremidade de um cabo Grove na entrada do módulo do botão. Só encaixará de uma forma.
 
 1. Com o Raspberry Pi desligado, conecta a outra extremidade do cabo Grove à entrada digital marcada como **D5** no Grove Base Hat conectado ao Pi. Esta entrada é a segunda da esquerda, na fila de entradas ao lado dos pinos GPIO.
 
-![O botão Grove conectado à entrada D5](../../../../../translated_images/pi-button.c7a1a4f55943341ce1baf1057658e9a205804d4131d258e820c93f951df0abf3.pt.png)
+![O botão Grove conectado à entrada D5](../../../../../translated_images/pt/pi-button.c7a1a4f55943341ce1baf1057658e9a205804d4131d258e820c93f951df0abf3.png)
 
 ## Capturar áudio
 

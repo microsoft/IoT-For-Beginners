@@ -43,11 +43,11 @@ Adaugă senzorul de umiditate a solului în aplicația CounterFit.
 
     1. Selectează butonul **Add** pentru a crea senzorul *Soil Moisture* pe Pin 0.
 
-    ![Setările senzorului de umiditate a solului](../../../../../translated_images/counterfit-create-soil-moisture-sensor.35266135a5e0ae68b29a684d7db0d2933a8098b2307d197f7c71577b724603aa.ro.png)
+    ![Setările senzorului de umiditate a solului](../../../../../translated_images/ro/counterfit-create-soil-moisture-sensor.35266135a5e0ae68b29a684d7db0d2933a8098b2307d197f7c71577b724603aa.png)
 
     Senzorul de umiditate a solului va fi creat și va apărea în lista de senzori.
 
-    ![Senzorul de umiditate a solului creat](../../../../../translated_images/counterfit-soil-moisture-sensor.81742b2de0e9de60a3b3b9a2ff8ecc686d428eb6d71820f27a693be26e5aceee.ro.png)
+    ![Senzorul de umiditate a solului creat](../../../../../translated_images/ro/counterfit-soil-moisture-sensor.81742b2de0e9de60a3b3b9a2ff8ecc686d428eb6d71820f27a693be26e5aceee.png)
 
 ## Programarea aplicației senzorului de umiditate a solului
 

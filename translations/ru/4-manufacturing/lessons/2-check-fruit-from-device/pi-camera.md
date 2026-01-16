@@ -25,7 +25,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 ### Задание - подключить камеру
 
-![Камера Raspberry Pi](../../../../../translated_images/pi-camera-module.4278753c31bd6e757aa2b858be97d72049f71616278cefe4fb5abb485b40a078.ru.png)
+![Камера Raspberry Pi](../../../../../translated_images/ru/pi-camera-module.4278753c31bd6e757aa2b858be97d72049f71616278cefe4fb5abb485b40a078.png)
 
 1. Выключите Raspberry Pi.
 
@@ -33,17 +33,17 @@ CO_OP_TRANSLATOR_METADATA:
 
     Анимацию, показывающую, как открыть зажим и вставить кабель, можно найти в [документации Raspberry Pi по началу работы с модулем камеры](https://projects.raspberrypi.org/en/projects/getting-started-with-picamera/2).
 
-    ![Ленточный кабель вставлен в модуль камеры](../../../../../translated_images/pi-camera-ribbon-cable.0bf82acd251611c21ac616f082849413e2b322a261d0e4f8fec344248083b07e.ru.png)
+    ![Ленточный кабель вставлен в модуль камеры](../../../../../translated_images/ru/pi-camera-ribbon-cable.0bf82acd251611c21ac616f082849413e2b322a261d0e4f8fec344248083b07e.png)
 
 1. Снимите Grove Base Hat с Raspberry Pi.
 
 1. Пропустите ленточный кабель через слот для камеры в Grove Base Hat. Убедитесь, что синяя сторона кабеля направлена к аналоговым портам, обозначенным **A0**, **A1** и т.д.
 
-    ![Ленточный кабель проходит через Grove Base Hat](../../../../../translated_images/grove-base-hat-ribbon-cable.501fed202fcf73b11b2b68f6d246189f7d15d3e4423c572ddee79d77b4632b47.ru.png)
+    ![Ленточный кабель проходит через Grove Base Hat](../../../../../translated_images/ru/grove-base-hat-ribbon-cable.501fed202fcf73b11b2b68f6d246189f7d15d3e4423c572ddee79d77b4632b47.png)
 
 1. Вставьте ленточный кабель в порт камеры на Raspberry Pi. Снова потяните черный пластиковый зажим вверх, вставьте кабель, затем зафиксируйте его, вернув зажим на место. Синяя сторона кабеля должна быть направлена к USB и Ethernet портам.
 
-    ![Ленточный кабель подключен к разъему камеры на Raspberry Pi](../../../../../translated_images/pi-camera-socket-ribbon-cable.a18309920b11800911082ed7aa6fb28e6d9be3a022e4079ff990016cae3fca10.ru.png)
+    ![Ленточный кабель подключен к разъему камеры на Raspberry Pi](../../../../../translated_images/ru/pi-camera-socket-ribbon-cable.a18309920b11800911082ed7aa6fb28e6d9be3a022e4079ff990016cae3fca10.png)
 
 1. Установите Grove Base Hat обратно.
 
@@ -110,7 +110,7 @@ CO_OP_TRANSLATOR_METADATA:
 
     Строка `camera.rotation = 0` задает ориентацию изображения. Ленточный кабель подключается к нижней части камеры, но если ваша камера была повернута для удобства съемки объекта, который вы хотите классифицировать, то вы можете изменить эту строку на количество градусов поворота.
 
-    ![Камера, свисающая над банкой напитка](../../../../../translated_images/pi-camera-upside-down.5376961ba31459883362124152ad6b823d5ac5fc14e85f317e22903bd681c2b6.ru.png)
+    ![Камера, свисающая над банкой напитка](../../../../../translated_images/ru/pi-camera-upside-down.5376961ba31459883362124152ad6b823d5ac5fc14e85f317e22903bd681c2b6.png)
 
     Например, если вы подвесите ленточный кабель над чем-то так, чтобы он находился сверху камеры, установите поворот на 180 градусов:
 

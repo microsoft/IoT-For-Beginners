@@ -57,7 +57,7 @@ Advocații Azure Cloud de la Microsoft sunt încântați să ofere un curriculum
 
 Proiectele acoperă călătoria alimentului de la fermă la masă. Aceasta include agricultură, logistică, fabricație, retail și consumator - toate domenii populare pentru dispozitive IoT.
 
-![O hartă rutieră a cursului care arată 24 de lecții acoperind introducerea, agricultura, transportul, procesarea, retailul și gătitul](../../translated_images/Roadmap.bb1dec285dda0eda.ro.jpg)
+![O hartă rutieră a cursului care arată 24 de lecții acoperind introducerea, agricultura, transportul, procesarea, retailul și gătitul](../../translated_images/ro/Roadmap.bb1dec285dda0eda.jpg)
 
 > Schiță realizată de [Nitya Narasimhan](https://github.com/nitya). Click pe imagine pentru o versiune mai mare.
 

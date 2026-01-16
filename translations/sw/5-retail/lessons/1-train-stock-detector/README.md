@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Fanya Kifaa cha Kugundua Hisa
 
-![Muhtasari wa somo hili kwa sketchnote](../../../../../translated_images/lesson-19.cf6973cecadf080c4b526310620dc4d6f5994c80fb0139c6f378cc9ca2d435cd.sw.jpg)
+![Muhtasari wa somo hili kwa sketchnote](../../../../../translated_images/sw/lesson-19.cf6973cecadf080c4b526310620dc4d6f5994c80fb0139c6f378cc9ca2d435cd.jpg)
 
 > Sketchnote na [Nitya Narasimhan](https://github.com/nitya). Bofya picha kwa toleo kubwa zaidi.
 
@@ -45,7 +45,7 @@ Kugundua vitu kunahusisha kugundua vitu kwenye picha kwa kutumia AI. Tofauti na 
 
 Uainishaji wa picha unahusu kuainisha picha nzima - ni uwezekano gani kwamba picha nzima inalingana na kila lebo. Unapata uwezekano kwa kila lebo iliyotumika kufundisha mfano.
 
-![Uainishaji wa picha wa korosho na nyanya ya kopo](../../../../../translated_images/image-classifier-cashews-tomato.bc2e16ab8f05cf9ac0f59f73e32efc4227f9a5b601b90b2c60f436694547a965.sw.png)
+![Uainishaji wa picha wa korosho na nyanya ya kopo](../../../../../translated_images/sw/image-classifier-cashews-tomato.bc2e16ab8f05cf9ac0f59f73e32efc4227f9a5b601b90b2c60f436694547a965.png)
 
 Katika mfano hapo juu, picha mbili zimeainishwa kwa kutumia mfano uliotengenezwa kuainisha vyombo vya korosho au makopo ya nyanya ya kopo. Picha ya kwanza ni chombo cha korosho, na ina matokeo mawili kutoka kwa kifaa cha kuainisha picha:
 
@@ -69,7 +69,7 @@ Unapoitumia kutabiri picha, badala ya kupata orodha ya lebo na asilimia, unapata
 
 > 🎓 *Sanduku la mipaka* ni masanduku yanayozunguka kitu.
 
-![Kugundua vitu vya korosho na nyanya ya kopo](../../../../../translated_images/object-detector-cashews-tomato.1af7c26686b4db0e709754aeb196f4e73271f54e2085db3bcccb70d4a0d84d97.sw.png)
+![Kugundua vitu vya korosho na nyanya ya kopo](../../../../../translated_images/sw/object-detector-cashews-tomato.1af7c26686b4db0e709754aeb196f4e73271f54e2085db3bcccb70d4a0d84d97.png)
 
 Picha hapo juu ina chombo cha korosho na makopo matatu ya nyanya ya kopo. Kifaa cha kugundua vitu kiligundua korosho, kikitoa sanduku la mipaka linalojumuisha korosho na asilimia ya uwezekano kwamba sanduku la mipaka lina kitu hicho, katika kesi hii 97.6%. Kifaa cha kugundua vitu pia kimegundua makopo matatu ya nyanya ya kopo, na kinatoa masanduku matatu tofauti ya mipaka, moja kwa kila kopo lililogunduliwa, na kila moja lina asilimia ya uwezekano kwamba sanduku la mipaka lina kopo la nyanya ya kopo.
 
@@ -120,7 +120,7 @@ Unaweza kufundisha kifaa cha kugundua vitu kwa kutumia Custom Vision, kwa njia s
 
     Unapounda mradi wako, hakikisha unatumia rasilimali ya `stock-detector-training` uliyotengeneza awali. Tumia aina ya mradi wa *Object Detection*, na kikoa cha *Products on Shelves*.
 
-    ![Mipangilio ya mradi wa Custom Vision na jina limewekwa kuwa fruit-quality-detector, hakuna maelezo, rasilimali imewekwa kuwa fruit-quality-detector-training, aina ya mradi imewekwa kuwa classification, aina za classification zimewekwa kuwa multi class na kikoa kimewekwa kuwa food](../../../../../translated_images/custom-vision-create-object-detector-project.32d4fb9aa8e7e7375f8a799bfce517aca970f2cb65e42d4245c5e635c734ab29.sw.png)
+    ![Mipangilio ya mradi wa Custom Vision na jina limewekwa kuwa fruit-quality-detector, hakuna maelezo, rasilimali imewekwa kuwa fruit-quality-detector-training, aina ya mradi imewekwa kuwa classification, aina za classification zimewekwa kuwa multi class na kikoa kimewekwa kuwa food](../../../../../translated_images/sw/custom-vision-create-object-detector-project.32d4fb9aa8e7e7375f8a799bfce517aca970f2cb65e42d4245c5e635c734ab29.png)
 
     ✅ Kikoa cha bidhaa kwenye rafu kinalenga hasa kugundua hisa kwenye rafu za maduka. Soma zaidi kuhusu kikoa tofauti kwenye [Nyaraka za kuchagua kikoa kwenye Microsoft Docs](https://docs.microsoft.com/azure/cognitive-services/custom-vision-service/select-domain?WT.mc_id=academic-17441-jabenn#object-detection)
 
@@ -142,11 +142,11 @@ Ili kufundisha mfano wako utahitaji seti ya picha zinazojumuisha vitu unavyotaka
 
 1. Fuata [Sehemu ya Kupakia na Kuweka Lebo Picha ya mwongozo wa haraka wa Kujenga kifaa cha kugundua vitu kwenye nyaraka za Microsoft](https://docs.microsoft.com/azure/cognitive-services/custom-vision-service/get-started-build-detector?WT.mc_id=academic-17441-jabenn#upload-and-tag-images) kupakia picha zako za mafunzo. Tengeneza lebo zinazofaa kulingana na aina za vitu unavyotaka kugundua.
 
-    ![Vidirisha vya kupakia vikionyesha upakiaji wa picha za ndizi zilizoiva na zisizoiva](../../../../../translated_images/image-upload-object-detector.77c7892c3093cb59b79018edecd678749a75d71a099bc8a2d2f2f76320f88a5b.sw.png)
+    ![Vidirisha vya kupakia vikionyesha upakiaji wa picha za ndizi zilizoiva na zisizoiva](../../../../../translated_images/sw/image-upload-object-detector.77c7892c3093cb59b79018edecd678749a75d71a099bc8a2d2f2f76320f88a5b.png)
 
     Unapochora masanduku ya mipaka kwa vitu, yaweke karibu na kitu. Inaweza kuchukua muda kuainisha picha zote, lakini zana itagundua kile inachofikiri ni masanduku ya mipaka, na kufanya iwe haraka zaidi.
 
-    ![Kuweka lebo kwa nyanya ya kopo](../../../../../translated_images/object-detector-tag-tomato-paste.f47c362fb0f0eb582f3bc68cf3855fb43a805106395358d41896a269c210b7b4.sw.png)
+    ![Kuweka lebo kwa nyanya ya kopo](../../../../../translated_images/sw/object-detector-tag-tomato-paste.f47c362fb0f0eb582f3bc68cf3855fb43a805106395358d41896a269c210b7b4.png)
 
     > 💁 Ikiwa una zaidi ya picha 15 kwa kila kitu, unaweza kufundisha baada ya 15 kisha kutumia kipengele cha **Suggested tags**. Hii itatumia mfano uliotengenezwa kugundua vitu kwenye picha ambazo hazijawekwa lebo. Unaweza kisha kuthibitisha vitu vilivyogunduliwa, au kukataa na kuchora tena masanduku ya mipaka. Hii inaweza kuokoa *muda mwingi*.
 
@@ -164,7 +164,7 @@ Baada ya kifaa chako cha kugundua vitu kufundishwa, unaweza kukijaribu kwa kukip
 
 1. Tumia kitufe cha **Quick Test** kupakia picha za majaribio na kuthibitisha vitu vimegunduliwa. Tumia picha za majaribio ulizotengeneza awali, si picha zozote ulizotumia kwa mafunzo.
 
-    ![Makopo 3 ya nyanya ya kopo yaliyogunduliwa na uwezekano wa 38%, 35.5% na 34.6%](../../../../../translated_images/object-detector-detected-tomato-paste.52656fe87af4c37b4ee540526d63e73ed075da2e54a9a060aa528e0c562fb1b6.sw.png)
+    ![Makopo 3 ya nyanya ya kopo yaliyogunduliwa na uwezekano wa 38%, 35.5% na 34.6%](../../../../../translated_images/sw/object-detector-detected-tomato-paste.52656fe87af4c37b4ee540526d63e73ed075da2e54a9a060aa528e0c562fb1b6.png)
 
 1. Jaribu picha zote za majaribio ulizonazo na uangalie uwezekano.
 

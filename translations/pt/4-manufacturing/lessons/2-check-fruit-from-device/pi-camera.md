@@ -25,7 +25,7 @@ A câmara pode ser conectada ao Raspberry Pi utilizando um cabo de fita.
 
 ### Tarefa - conectar a câmara
 
-![Uma Câmara Raspberry Pi](../../../../../translated_images/pi-camera-module.4278753c31bd6e757aa2b858be97d72049f71616278cefe4fb5abb485b40a078.pt.png)
+![Uma Câmara Raspberry Pi](../../../../../translated_images/pt/pi-camera-module.4278753c31bd6e757aa2b858be97d72049f71616278cefe4fb5abb485b40a078.png)
 
 1. Desligue o Pi.
 
@@ -33,17 +33,17 @@ A câmara pode ser conectada ao Raspberry Pi utilizando um cabo de fita.
 
     Pode encontrar uma animação que mostra como abrir o clipe e inserir o cabo na [documentação de introdução ao módulo de câmara do Raspberry Pi](https://projects.raspberrypi.org/en/projects/getting-started-with-picamera/2).
 
-    ![O cabo de fita inserido no módulo de câmara](../../../../../translated_images/pi-camera-ribbon-cable.0bf82acd251611c21ac616f082849413e2b322a261d0e4f8fec344248083b07e.pt.png)
+    ![O cabo de fita inserido no módulo de câmara](../../../../../translated_images/pt/pi-camera-ribbon-cable.0bf82acd251611c21ac616f082849413e2b322a261d0e4f8fec344248083b07e.png)
 
 1. Remova o Grove Base Hat do Pi.
 
 1. Passe o cabo de fita através da abertura para câmara no Grove Base Hat. Certifique-se de que o lado azul do cabo está virado para as portas analógicas rotuladas **A0**, **A1**, etc.
 
-    ![O cabo de fita passando pelo Grove Base Hat](../../../../../translated_images/grove-base-hat-ribbon-cable.501fed202fcf73b11b2b68f6d246189f7d15d3e4423c572ddee79d77b4632b47.pt.png)
+    ![O cabo de fita passando pelo Grove Base Hat](../../../../../translated_images/pt/grove-base-hat-ribbon-cable.501fed202fcf73b11b2b68f6d246189f7d15d3e4423c572ddee79d77b4632b47.png)
 
 1. Insira o cabo de fita na porta da câmara no Pi. Mais uma vez, puxe o clipe de plástico preto para cima, insira o cabo e depois empurre o clipe de volta ao lugar. O lado azul do cabo deve estar virado para as portas USB e ethernet.
 
-    ![O cabo de fita conectado ao encaixe da câmara no Pi](../../../../../translated_images/pi-camera-socket-ribbon-cable.a18309920b11800911082ed7aa6fb28e6d9be3a022e4079ff990016cae3fca10.pt.png)
+    ![O cabo de fita conectado ao encaixe da câmara no Pi](../../../../../translated_images/pt/pi-camera-socket-ribbon-cable.a18309920b11800911082ed7aa6fb28e6d9be3a022e4079ff990016cae3fca10.png)
 
 1. Recoloque o Grove Base Hat.
 
@@ -110,7 +110,7 @@ Programe o dispositivo.
 
     A linha `camera.rotation = 0` define a rotação da imagem. O cabo de fita entra na parte inferior da câmara, mas se a sua câmara estiver girada para facilitar o apontamento para o objeto que deseja classificar, pode alterar esta linha para o número de graus de rotação.
 
-    ![A câmara pendurada sobre uma lata de bebida](../../../../../translated_images/pi-camera-upside-down.5376961ba31459883362124152ad6b823d5ac5fc14e85f317e22903bd681c2b6.pt.png)
+    ![A câmara pendurada sobre uma lata de bebida](../../../../../translated_images/pt/pi-camera-upside-down.5376961ba31459883362124152ad6b823d5ac5fc14e85f317e22903bd681c2b6.png)
 
     Por exemplo, se suspender o cabo de fita sobre algo de forma que ele fique na parte superior da câmara, defina a rotação para 180:
 

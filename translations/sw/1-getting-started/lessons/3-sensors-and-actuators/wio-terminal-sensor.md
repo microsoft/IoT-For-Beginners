@@ -17,7 +17,7 @@ Kihisi cha somo hili ni **kihisi cha mwanga** kinachotumia [photodiode](https://
 
 Kihisi cha mwanga kimejengwa ndani ya Wio Terminal na kinaonekana kupitia dirisha la plastiki la wazi nyuma.
 
-![Kihisi cha mwanga nyuma ya Wio Terminal](../../../../../translated_images/wio-light-sensor.b1f529f3c95f5165.sw.png)
+![Kihisi cha mwanga nyuma ya Wio Terminal](../../../../../translated_images/sw/wio-light-sensor.b1f529f3c95f5165.png)
 
 ## Programu ya kihisi cha mwanga
 

@@ -42,7 +42,7 @@ Keď budete mať údaje o teplote, môžete použiť Jupyter Notebook v tomto re
 
     Jupyter sa spustí a otvorí notebook vo vašom prehliadači. Prejdite si pokyny v notebooku, aby ste vizualizovali namerané teploty a vypočítali rastové stupne dní (GDD).
 
-    ![Jupyter notebook](../../../../../translated_images/gdd-jupyter-notebook.c5b52cf21094f158a61f47f455490fd95f1729777ff90861a4521820bf354cdc.sk.png)
+    ![Jupyter notebook](../../../../../translated_images/sk/gdd-jupyter-notebook.c5b52cf21094f158a61f47f455490fd95f1729777ff90861a4521820bf354cdc.png)
 
 ## Hodnotiace kritériá
 

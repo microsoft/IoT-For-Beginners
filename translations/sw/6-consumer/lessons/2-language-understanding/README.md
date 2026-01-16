@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Elewa Lugha
 
-![Muhtasari wa somo hili kwa sketchnote](../../../../../translated_images/lesson-22.6148ea28500d9e00c396aaa2649935fb6641362c8f03d8e5e90a676977ab01dd.sw.jpg)
+![Muhtasari wa somo hili kwa sketchnote](../../../../../translated_images/sw/lesson-22.6148ea28500d9e00c396aaa2649935fb6641362c8f03d8e5e90a676977ab01dd.jpg)
 
 > Sketchnote na [Nitya Narasimhan](https://github.com/nitya). Bofya picha kwa toleo kubwa zaidi.
 
@@ -55,7 +55,7 @@ Mifano ya uelewa wa lugha ni mifano ya AI inayofundishwa kutoa maelezo fulani ku
 
 ## Kuunda mfano wa uelewa wa lugha
 
-![Nembo ya LUIS](../../../../../translated_images/luis-logo.5cb4f3e88c020ee6df4f614e8831f4a4b6809a7247bf52085fb48d629ef9be52.sw.png)
+![Nembo ya LUIS](../../../../../translated_images/sw/luis-logo.5cb4f3e88c020ee6df4f614e8831f4a4b6809a7247bf52085fb48d629ef9be52.png)
 
 Unaweza kuunda mifano ya uelewa wa lugha kwa kutumia LUIS, huduma ya uelewa wa lugha kutoka Microsoft ambayo ni sehemu ya Huduma za Utambuzi.
 
@@ -126,7 +126,7 @@ Baada ya kufafanua vyombo, unaunda makusudi. Haya yanajifunza na mfano kulingana
 
 Kisha unaiambia LUIS ni sehemu gani za sentensi hizi zinahusiana na vyombo:
 
-![Sentensi "weka kipima muda kwa dakika 1 na sekunde 12" imegawanywa katika vyombo](../../../../../translated_images/sentence-as-intent-entities.301401696f992259.sw.png)
+![Sentensi "weka kipima muda kwa dakika 1 na sekunde 12" imegawanywa katika vyombo](../../../../../translated_images/sw/sentence-as-intent-entities.301401696f992259.png)
 
 Sentensi `weka kipima muda kwa dakika 1 na sekunde 12` ina kusudi la `weka kipima muda`. Pia ina vyombo 2 vyenye thamani 2 kila moja:
 
@@ -178,7 +178,7 @@ Unaweza kupata maagizo ya kutumia lango la LUIS katika [Mwongozo wa Haraka: Jeng
 
 1. Unapoongeza kila mfano, LUIS itaanza kugundua vyombo, na itaweka mstari chini na kuweka lebo yoyote inayopatikana.
 
-    ![Mifano na namba na vitengo vya muda vikiwa vimewekwa mstari chini na LUIS](../../../../../translated_images/luis-intent-examples.25716580b2d2723cf1bafdf277d015c7f046d8cfa20f27bddf3a0873ec45fab7.sw.png)
+    ![Mifano na namba na vitengo vya muda vikiwa vimewekwa mstari chini na LUIS](../../../../../translated_images/sw/luis-intent-examples.25716580b2d2723cf1bafdf277d015c7f046d8cfa20f27bddf3a0873ec45fab7.png)
 
 ### Kazi - kufundisha na kujaribu mfano
 

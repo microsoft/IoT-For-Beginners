@@ -13,7 +13,7 @@ Kombinácia predpovedí a ich ohraničujúcich rámčekov môže byť použitá 
 
 ## Počítanie zásob
 
-![4 konzervy paradajkového pretlaku s ohraničujúcimi rámčekmi okolo každej konzervy](../../../../../translated_images/rpi-stock-with-bounding-boxes.b5540e2ecb7cd49f.sk.jpg)
+![4 konzervy paradajkového pretlaku s ohraničujúcimi rámčekmi okolo každej konzervy](../../../../../translated_images/sk/rpi-stock-with-bounding-boxes.b5540e2ecb7cd49f.jpg)
 
 Na obrázku vyššie majú ohraničujúce rámčeky malý presah. Ak by bol tento presah oveľa väčší, rámčeky by mohli označovať ten istý objekt. Aby ste objekty spočítali správne, musíte ignorovať rámčeky s výrazným presahom.
 

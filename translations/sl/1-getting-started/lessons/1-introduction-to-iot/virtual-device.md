@@ -154,11 +154,11 @@ Ustvarite Python aplikacijo, ki izpiše `"Hello World"` v konzolo.
 
 1. Ko se VS Code zažene, bo aktiviral virtualno okolje za Python. Izbrano virtualno okolje bo prikazano v spodnji vrstici stanja:
 
-    ![VS Code prikazuje izbrano virtualno okolje](../../../../../translated_images/vscode-virtual-env.8ba42e04c3d533cf.sl.png)
+    ![VS Code prikazuje izbrano virtualno okolje](../../../../../translated_images/sl/vscode-virtual-env.8ba42e04c3d533cf.png)
 
 1. Če je terminal VS Code že aktiven, ko se VS Code zažene, virtualno okolje v njem ne bo aktivirano. Najlažje je ubiti terminal z gumbom **Kill the active terminal instance**:
 
-    ![Gumb za ubijanje aktivnega terminala v VS Code](../../../../../translated_images/vscode-kill-terminal.1cc4de7c6f25ee08.sl.png)
+    ![Gumb za ubijanje aktivnega terminala v VS Code](../../../../../translated_images/sl/vscode-kill-terminal.1cc4de7c6f25ee08.png)
 
     Prepoznate lahko, ali je terminal aktiviral virtualno okolje, saj bo ime virtualnega okolja predpona na ukaznem pozivu terminala. Na primer, lahko je:
 
@@ -212,7 +212,7 @@ Kot drugi korak 'Hello World' boste zagnali aplikacijo CounterFit in jo povezali
 
     Aplikacija se bo začela izvajati in odprla v vašem spletnem brskalniku:
 
-    ![Aplikacija CounterFit, ki se izvaja v brskalniku](../../../../../translated_images/counterfit-first-run.433326358b669b31d0e99c3513cb01bfbb13724d162c99cdcc8f51ecf5f9c779.sl.png)
+    ![Aplikacija CounterFit, ki se izvaja v brskalniku](../../../../../translated_images/sl/counterfit-first-run.433326358b669b31d0e99c3513cb01bfbb13724d162c99cdcc8f51ecf5f9c779.png)
 
     Označena bo kot *Disconnected*, z LED lučko v zgornjem desnem kotu, ki bo ugasnjena.
 
@@ -229,11 +229,11 @@ Kot drugi korak 'Hello World' boste zagnali aplikacijo CounterFit in jo povezali
 
 1. Morali boste zagnati nov terminal v VS Code z izbiro gumba **Create a new integrated terminal**. To je zato, ker se aplikacija CounterFit izvaja v trenutnem terminalu.
 
-    ![Gumb za ustvarjanje novega integriranega terminala v VS Code](../../../../../translated_images/vscode-new-terminal.77db8fc0f9cd3182.sl.png)
+    ![Gumb za ustvarjanje novega integriranega terminala v VS Code](../../../../../translated_images/sl/vscode-new-terminal.77db8fc0f9cd3182.png)
 
 1. V tem novem terminalu zaženite datoteko `app.py` kot prej. Status CounterFit se bo spremenil v **Connected**, LED lučka pa se bo prižgala.
 
-    ![CounterFit prikazuje status Connected](../../../../../translated_images/counterfit-connected.ed30b46d8f79b0921f3fc70be10366e596a89dca3f80c2224a9d9fc98fccf884.sl.png)
+    ![CounterFit prikazuje status Connected](../../../../../translated_images/sl/counterfit-connected.ed30b46d8f79b0921f3fc70be10366e596a89dca3f80c2224a9d9fc98fccf884.png)
 
 > 💁 To kodo lahko najdete v mapi [code/virtual-device](../../../../../1-getting-started/lessons/1-introduction-to-iot/code/virtual-device).
 

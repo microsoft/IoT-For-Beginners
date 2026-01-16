@@ -154,11 +154,11 @@ Python வேர்ச்சுவல் சூழல் தயாராக இ�
 
 1. VS Code தொடங்கும்போது, Python வேர்ச்சுவல் சூழலை செயல்படுத்தும். தேர்ந்தெடுக்கப்பட்ட வேர்ச்சுவல் சூழல் கீழே உள்ள நிலை பட்டியில் தோன்றும்:
 
-    ![VS Code தேர்ந்தெடுக்கப்பட்ட வேர்ச்சுவல் சூழலைக் காட்டுகிறது](../../../../../translated_images/vscode-virtual-env.8ba42e04c3d533cf.ta.png)
+    ![VS Code தேர்ந்தெடுக்கப்பட்ட வேர்ச்சுவல் சூழலைக் காட்டுகிறது](../../../../../translated_images/ta/vscode-virtual-env.8ba42e04c3d533cf.png)
 
 1. VS Code Terminal VS Code தொடங்கும்போது ஏற்கனவே இயங்கினால், அதில் வேர்ச்சுவல் சூழல் செயல்படுத்தப்படாது. எளிதானது, **Kill the active terminal instance** பொத்தானை பயன்படுத்தி டெர்மினலை முடிக்கவும்:
 
-    ![VS Code Kill the active terminal instance பொத்தான்](../../../../../translated_images/vscode-kill-terminal.1cc4de7c6f25ee08.ta.png)
+    ![VS Code Kill the active terminal instance பொத்தான்](../../../../../translated_images/ta/vscode-kill-terminal.1cc4de7c6f25ee08.png)
 
     டெர்மினலில் வேர்ச்சுவல் சூழல் செயல்படுத்தப்பட்டுள்ளதா என்பதை `.venv` என்ற பெயர் டெர்மினல் ப்ராம்ப்ட்டில் முன்னொட்டாக இருக்கும். உதாரணமாக, இது இருக்கலாம்:
 
@@ -212,7 +212,7 @@ Python வேர்ச்சுவல் சூழல் தயாராக இ�
 
     செயலி இயக்கத் தொடங்கும் மற்றும் உங்கள் வலை உலாவியில் திறக்கும்:
 
-    ![Counter Fit செயலி உலாவியில் இயக்கப்படுகிறது](../../../../../translated_images/counterfit-first-run.433326358b669b31d0e99c3513cb01bfbb13724d162c99cdcc8f51ecf5f9c779.ta.png)
+    ![Counter Fit செயலி உலாவியில் இயக்கப்படுகிறது](../../../../../translated_images/ta/counterfit-first-run.433326358b669b31d0e99c3513cb01bfbb13724d162c99cdcc8f51ecf5f9c779.png)
 
     இது *Disconnected* என்று குறிக்கப்படும், மற்றும் மேல் வலது மூலையில் LED அணைக்கப்பட்டிருக்கும்.
 
@@ -229,11 +229,11 @@ Python வேர்ச்சுவல் சூழல் தயாராக இ�
 
 1. CounterFit செயலி தற்போதைய டெர்மினலில் இயங்குவதால், புதிய VS Code டெர்மினலை தொடங்க **Create a new integrated terminal** பொத்தானைத் தேர்ந்தெடுக்க வேண்டும்.
 
-    ![VS Code Create a new integrated terminal பொத்தான்](../../../../../translated_images/vscode-new-terminal.77db8fc0f9cd3182.ta.png)
+    ![VS Code Create a new integrated terminal பொத்தான்](../../../../../translated_images/ta/vscode-new-terminal.77db8fc0f9cd3182.png)
 
 1. புதிய டெர்மினலில், முன்பு போல `app.py` கோப்பை இயக்கவும். CounterFit-இன் நிலை **Connected** ஆக மாறும் மற்றும் LED ஒளிரும்.
 
-    ![Counter Fit இணைக்கப்பட்டதாகக் காட்டுகிறது](../../../../../translated_images/counterfit-connected.ed30b46d8f79b0921f3fc70be10366e596a89dca3f80c2224a9d9fc98fccf884.ta.png)
+    ![Counter Fit இணைக்கப்பட்டதாகக் காட்டுகிறது](../../../../../translated_images/ta/counterfit-connected.ed30b46d8f79b0921f3fc70be10366e596a89dca3f80c2224a9d9fc98fccf884.png)
 
 > 💁 இந்த குறியீட்டை [code/virtual-device](../../../../../1-getting-started/lessons/1-introduction-to-iot/code/virtual-device) கோப்புறையில் காணலாம்.
 

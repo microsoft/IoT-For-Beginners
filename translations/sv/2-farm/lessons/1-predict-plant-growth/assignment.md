@@ -42,7 +42,7 @@ När du har temperaturdata kan du använda Jupyter Notebook i detta repo för at
 
     Jupyter kommer att starta och öppna notebooken i din webbläsare. Följ instruktionerna i notebooken för att visualisera de uppmätta temperaturerna och beräkna växtens tillväxtgrader (GDD).
 
-    ![Jupyter-notebooken](../../../../../translated_images/gdd-jupyter-notebook.c5b52cf21094f158a61f47f455490fd95f1729777ff90861a4521820bf354cdc.sv.png)
+    ![Jupyter-notebooken](../../../../../translated_images/sv/gdd-jupyter-notebook.c5b52cf21094f158a61f47f455490fd95f1729777ff90861a4521820bf354cdc.png)
 
 ## Bedömningskriterier
 

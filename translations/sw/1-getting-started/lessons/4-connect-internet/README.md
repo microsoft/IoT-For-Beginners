@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Unganisha kifaa chako na Intaneti
 
-![Muhtasari wa somo hili kwa sketchnote](../../../../../translated_images/lesson-4.7344e074ea68fa545fd320b12dce36d72dd62d28c3b4596cb26cf315f434b98f.sw.jpg)
+![Muhtasari wa somo hili kwa sketchnote](../../../../../translated_images/sw/lesson-4.7344e074ea68fa545fd320b12dce36d72dd62d28c3b4596cb26cf315f434b98f.jpg)
 
 > Sketchnote na [Nitya Narasimhan](https://github.com/nitya). Bofya picha kwa toleo kubwa zaidi.
 
@@ -46,7 +46,7 @@ Katika somo hili tutashughulikia:
 
 Kuna itifaki kadhaa maarufu za mawasiliano zinazotumiwa na vifaa vya IoT kuwasiliana na Intaneti. Maarufu zaidi zinategemea ujumbe wa kuchapisha/kusubscribe kupitia aina fulani ya broker. Vifaa vya IoT vinaunganishwa na broker na kuchapisha telemetry na kusubscribe kwa amri. Huduma za wingu pia zinaunganishwa na broker na kusubscribe kwa ujumbe wote wa telemetry na kuchapisha amri kwa vifaa maalum, au kwa vikundi vya vifaa.
 
-![Vifaa vya IoT vinaunganishwa na broker na kuchapisha telemetry na kusubscribe kwa amri. Huduma za wingu zinaunganishwa na broker na kusubscribe kwa telemetry yote na kutuma amri kwa vifaa maalum.](../../../../../translated_images/pub-sub.7c7ed43fe9fd15d4.sw.png)
+![Vifaa vya IoT vinaunganishwa na broker na kuchapisha telemetry na kusubscribe kwa amri. Huduma za wingu zinaunganishwa na broker na kusubscribe kwa telemetry yote na kutuma amri kwa vifaa maalum.](../../../../../translated_images/sw/pub-sub.7c7ed43fe9fd15d4.png)
 
 MQTT ni itifaki maarufu zaidi ya mawasiliano kwa vifaa vya IoT na imeelezwa katika somo hili. Itifaki nyingine ni pamoja na AMQP na HTTP/HTTPS.
 
@@ -56,7 +56,7 @@ MQTT ni itifaki maarufu zaidi ya mawasiliano kwa vifaa vya IoT na imeelezwa kati
 
 MQTT ina broker mmoja na wateja wengi. Wateja wote huunganishwa na broker, na broker husambaza ujumbe kwa wateja husika. Ujumbe husambazwa kwa kutumia mada zilizotajwa, badala ya kutumwa moja kwa moja kwa mteja mmoja. Mteja anaweza kuchapisha kwenye mada, na wateja wowote wanaosubscribe kwa mada hiyo watapokea ujumbe.
 
-![Kifaa cha IoT kinachochapisha telemetry kwenye mada ya /telemetry, na huduma ya wingu inayosubscribe kwa mada hiyo](../../../../../translated_images/mqtt.cbf7f21d9adc3e17548b359444cc11bb4bf2010543e32ece9a47becf54438c23.sw.png)
+![Kifaa cha IoT kinachochapisha telemetry kwenye mada ya /telemetry, na huduma ya wingu inayosubscribe kwa mada hiyo](../../../../../translated_images/sw/mqtt.cbf7f21d9adc3e17548b359444cc11bb4bf2010543e32ece9a47becf54438c23.png)
 
 ✅ Fanya utafiti. Ikiwa una vifaa vingi vya IoT, unaweza kuhakikisha vipi kwamba broker yako ya MQTT inaweza kushughulikia ujumbe wote?
 
@@ -78,7 +78,7 @@ Badala ya kushughulikia ugumu wa kusanidi broker ya MQTT kama sehemu ya kazi hii
 
 > 💁 Broker hii ya majaribio ni ya umma na si salama. Mtu yeyote anaweza kusikiliza unachochapisha, hivyo haipaswi kutumiwa na data yoyote inayohitaji kubaki siri.
 
-![Mchoro wa mtiririko wa kazi unaonyesha viwango vya mwanga vinavyosomwa na kuchunguzwa, na LED ikidhibitiwa](../../../../../translated_images/assignment-1-internet-flow.3256feab5f052fd273bf4e331157c574c2c3fa42e479836fc9c3586f41db35a5.sw.png)
+![Mchoro wa mtiririko wa kazi unaonyesha viwango vya mwanga vinavyosomwa na kuchunguzwa, na LED ikidhibitiwa](../../../../../translated_images/sw/assignment-1-internet-flow.3256feab5f052fd273bf4e331157c574c2c3fa42e479836fc9c3586f41db35a5.png)
 
 Fuata hatua husika hapa chini kuunganisha kifaa chako na broker ya MQTT:
 
@@ -115,7 +115,7 @@ Neno telemetry linatokana na mizizi ya Kigiriki inayomaanisha kupima kwa mbali. 
 
 Hebu tuangalie tena mfano wa thermostat ya kisasa kutoka Somo la 1.
 
-![Thermostat iliyounganishwa na Intaneti ikitumia sensa nyingi za chumba](../../../../../translated_images/telemetry.21e5d8b97649d2eb.sw.png)
+![Thermostat iliyounganishwa na Intaneti ikitumia sensa nyingi za chumba](../../../../../translated_images/sw/telemetry.21e5d8b97649d2eb.png)
 
 Thermostat ina sensa za joto za kukusanya telemetry. Inaweza kuwa na sensa moja ya joto iliyojengwa ndani, na inaweza kuunganishwa na sensa nyingi za joto za nje kupitia itifaki ya bila waya kama [Bluetooth Low Energy](https://wikipedia.org/wiki/Bluetooth_Low_Energy) (BLE).
 
@@ -267,11 +267,11 @@ Andika msimbo wa seva.
 
 1. VS Code itakapoanzishwa, itawasha mazingira halisi ya Python. Hii itaonyeshwa kwenye upau wa hali wa chini:
 
-    ![VS Code ikionyesha mazingira halisi yaliyochaguliwa](../../../../../translated_images/vscode-virtual-env.8ba42e04c3d533cf.sw.png)
+    ![VS Code ikionyesha mazingira halisi yaliyochaguliwa](../../../../../translated_images/sw/vscode-virtual-env.8ba42e04c3d533cf.png)
 
 1. Ikiwa Terminal ya VS Code tayari inaendesha wakati VS Code inaanza, haitakuwa na mazingira halisi yaliyoamilishwa ndani yake. Jambo rahisi kufanya ni kuua terminal kwa kutumia kitufe cha **Kill the active terminal instance**:
 
-    ![Kitufe cha VS Code Kill the active terminal instance](../../../../../translated_images/vscode-kill-terminal.1cc4de7c6f25ee08.sw.png)
+    ![Kitufe cha VS Code Kill the active terminal instance](../../../../../translated_images/sw/vscode-kill-terminal.1cc4de7c6f25ee08.png)
 
 1. Zindua Terminal mpya ya VS Code kwa kuchagua *Terminal -> New Terminal*, au kubonyeza `` CTRL+` ``. Terminal mpya itapakia mazingira halisi, na wito wa kuamsha hii utaonekana kwenye terminal. Jina la mazingira halisi (`.venv`) pia litakuwa kwenye prompt:
 
@@ -359,7 +359,7 @@ Kwa mashine unaweza kutaka kuhifadhi data, hasa ikiwa inatumika kutafuta mwenend
 
 Wabunifu wa vifaa vya IoT wanapaswa pia kuzingatia ikiwa kifaa cha IoT kinaweza kutumika wakati wa kukatika kwa mtandao au kupoteza ishara kunakosababishwa na eneo. Thermostat ya kisasa inapaswa kuwa na uwezo wa kufanya maamuzi machache ya kudhibiti joto ikiwa haiwezi kutuma telemetry kwa wingu kutokana na kukatika.
 
-[![Ferrari hii iliharibika kwa sababu mtu alijaribu kuiboresha chini ya ardhi ambapo hakuna mawasiliano ya simu](../../../../../translated_images/bricked-car.dc38f8efadc6c59d76211f981a521efb300939283dee468f79503aae3ec67615.sw.png)](https://twitter.com/internetofshit/status/1315736960082808832)
+[![Ferrari hii iliharibika kwa sababu mtu alijaribu kuiboresha chini ya ardhi ambapo hakuna mawasiliano ya simu](../../../../../translated_images/sw/bricked-car.dc38f8efadc6c59d76211f981a521efb300939283dee468f79503aae3ec67615.png)](https://twitter.com/internetofshit/status/1315736960082808832)
 
 Kwa MQTT kushughulikia kupoteza muunganisho, msimbo wa kifaa na seva utahitaji kuwajibika kuhakikisha ujumbe unafika ikiwa unahitajika, kwa mfano kwa kuhitaji kwamba ujumbe wote uliotumwa ujibiwe na ujumbe wa ziada kwenye mada ya majibu, na ikiwa sivyo, ujumbe huo uhifadhiwe kwa mkono ili utumwe tena baadaye.
 
@@ -367,7 +367,7 @@ Kwa MQTT kushughulikia kupoteza muunganisho, msimbo wa kifaa na seva utahitaji k
 
 Amri ni ujumbe unaotumwa na wingu kwenda kwa kifaa, ukielekeza kifaa kufanya jambo fulani. Mara nyingi hii inahusisha kutoa aina fulani ya pato kupitia actuator, lakini inaweza kuwa maagizo kwa kifaa chenyewe, kama kuwasha upya, au kukusanya telemetry ya ziada na kuirudisha kama jibu kwa amri.
 
-![Thermostat iliyounganishwa na mtandao ikipokea amri ya kuwasha joto](../../../../../translated_images/commands.d6c06bbbb3a02cce95f2831a1c331daf6dedd4e470c4aa2b0ae54f332016e504.sw.png)
+![Thermostat iliyounganishwa na mtandao ikipokea amri ya kuwasha joto](../../../../../translated_images/sw/commands.d6c06bbbb3a02cce95f2831a1c331daf6dedd4e470c4aa2b0ae54f332016e504.png)
 
 Thermostat inaweza kupokea amri kutoka kwa wingu kuwasha joto. Kulingana na data ya telemetry kutoka kwa sensorer zote, ikiwa huduma ya wingu imeamua kuwa joto linapaswa kuwashwa, basi inatuma amri husika.
 

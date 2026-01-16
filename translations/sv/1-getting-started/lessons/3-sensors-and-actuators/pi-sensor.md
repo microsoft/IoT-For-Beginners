@@ -25,13 +25,13 @@ Grove-ljussensorn som används för att upptäcka ljusnivåer måste anslutas ti
 
 Anslut ljussensorn.
 
-![En Grove-ljussensor](../../../../../translated_images/grove-light-sensor.b8127b7c434e632d6bcdb57587a14e9ef69a268a22df95d08628f62b8fa5505c.sv.png)
+![En Grove-ljussensor](../../../../../translated_images/sv/grove-light-sensor.b8127b7c434e632d6bcdb57587a14e9ef69a268a22df95d08628f62b8fa5505c.png)
 
 1. Sätt in ena änden av en Grove-kabel i uttaget på ljussensormodulen. Den går bara in på ett sätt.
 
 1. Med Raspberry Pi avstängd, anslut den andra änden av Grove-kabeln till det analoga uttaget märkt **A0** på Grove Base-hatten som är ansluten till Pi. Detta uttag är det andra från höger, på raden av uttag bredvid GPIO-stiften.
 
-![Grove-ljussensorn ansluten till uttag A0](../../../../../translated_images/pi-light-sensor.66cc1e31fa48cd7d5f23400d4b2119aa41508275cb7c778053a7923b4e972d7e.sv.png)
+![Grove-ljussensorn ansluten till uttag A0](../../../../../translated_images/sv/pi-light-sensor.66cc1e31fa48cd7d5f23400d4b2119aa41508275cb7c778053a7923b4e972d7e.png)
 
 ## Programmera ljussensorn
 

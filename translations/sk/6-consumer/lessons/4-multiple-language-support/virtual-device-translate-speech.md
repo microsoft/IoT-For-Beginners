@@ -46,7 +46,7 @@ Služba na spracovanie reči dokáže nielen previesť reč na text v rovnakom j
     >
     > Napríklad, ak trénujete LUIS v angličtine, ale chcete používať francúzštinu ako jazyk používateľa, môžete preložiť vety ako „nastav časovač na 2 minúty a 27 sekúnd“ z angličtiny do francúzštiny pomocou Bing Translate, a potom použiť tlačidlo **Listen translation** na prehranie prekladu do vášho mikrofónu.
     >
-    > ![Tlačidlo Listen translation na Bing Translate](../../../../../translated_images/bing-translate.348aa796d6efe2a92f41ea74a5cf42bb4c63d6faaa08e7f46924e072a35daa48.sk.png)
+    > ![Tlačidlo Listen translation na Bing Translate](../../../../../translated_images/sk/bing-translate.348aa796d6efe2a92f41ea74a5cf42bb4c63d6faaa08e7f46924e072a35daa48.png)
 
 1. Nahraďte deklarácie `recognizer_config` a `recognizer` nasledujúcim:
 

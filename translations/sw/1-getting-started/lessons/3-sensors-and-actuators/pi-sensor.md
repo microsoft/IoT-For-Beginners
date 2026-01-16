@@ -25,13 +25,13 @@ Kihisi cha mwanga cha Grove kinachotumika kugundua viwango vya mwanga kinahitaji
 
 Unganisha kihisi cha mwanga
 
-![Kihisi cha mwanga cha Grove](../../../../../translated_images/grove-light-sensor.b8127b7c434e632d6bcdb57587a14e9ef69a268a22df95d08628f62b8fa5505c.sw.png)
+![Kihisi cha mwanga cha Grove](../../../../../translated_images/sw/grove-light-sensor.b8127b7c434e632d6bcdb57587a14e9ef69a268a22df95d08628f62b8fa5505c.png)
 
 1. Ingiza mwisho mmoja wa kebo ya Grove kwenye soketi ya moduli ya kihisi cha mwanga. Itaingia kwa njia moja tu.
 
 1. Ukiwa na Raspberry Pi imezimwa, unganisha mwisho mwingine wa kebo ya Grove kwenye soketi ya analogi iliyoandikwa **A0** kwenye kofia ya Grove Base iliyounganishwa na Pi. Soketi hii ni ya pili kutoka kulia, kwenye safu ya soketi karibu na pini za GPIO.
 
-![Kihisi cha mwanga cha Grove kimeunganishwa kwenye soketi A0](../../../../../translated_images/pi-light-sensor.66cc1e31fa48cd7d5f23400d4b2119aa41508275cb7c778053a7923b4e972d7e.sw.png)
+![Kihisi cha mwanga cha Grove kimeunganishwa kwenye soketi A0](../../../../../translated_images/sw/pi-light-sensor.66cc1e31fa48cd7d5f23400d4b2119aa41508275cb7c778053a7923b4e972d7e.png)
 
 ## Programu ya kihisi cha mwanga
 

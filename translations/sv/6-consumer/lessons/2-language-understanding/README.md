@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Förstå språk
 
-![En sketchnote-översikt av denna lektion](../../../../../translated_images/lesson-22.6148ea28500d9e00c396aaa2649935fb6641362c8f03d8e5e90a676977ab01dd.sv.jpg)
+![En sketchnote-översikt av denna lektion](../../../../../translated_images/sv/lesson-22.6148ea28500d9e00c396aaa2649935fb6641362c8f03d8e5e90a676977ab01dd.jpg)
 
 > Sketchnote av [Nitya Narasimhan](https://github.com/nitya). Klicka på bilden för en större version.
 
@@ -55,7 +55,7 @@ Modeller för språkförståelse är AI-modeller som tränas för att extrahera 
 
 ## Skapa en modell för språkförståelse
 
-![LUIS-logotypen](../../../../../translated_images/luis-logo.5cb4f3e88c020ee6df4f614e8831f4a4b6809a7247bf52085fb48d629ef9be52.sv.png)
+![LUIS-logotypen](../../../../../translated_images/sv/luis-logo.5cb4f3e88c020ee6df4f614e8831f4a4b6809a7247bf52085fb48d629ef9be52.png)
 
 Du kan skapa modeller för språkförståelse med hjälp av LUIS, en tjänst för språkförståelse från Microsoft som är en del av Cognitive Services.
 
@@ -126,7 +126,7 @@ När entiteterna är definierade skapar du intentioner. Dessa lärs av modellen 
 
 Du anger sedan för LUIS vilka delar av dessa meningar som motsvarar entiteter:
 
-![Meningen "ställ in en timer för 1 minut och 12 sekunder" uppdelad i entiteter](../../../../../translated_images/sentence-as-intent-entities.301401696f992259.sv.png)
+![Meningen "ställ in en timer för 1 minut och 12 sekunder" uppdelad i entiteter](../../../../../translated_images/sv/sentence-as-intent-entities.301401696f992259.png)
 
 Meningen `ställ in en timer för 1 minut och 12 sekunder` har intentionen `ställ in timer`. Den har också 2 entiteter med 2 värden vardera:
 
@@ -178,7 +178,7 @@ Du kan hitta instruktioner för att använda LUIS-portalen i [Quickstart: Build 
 
 1. När du anger varje exempel kommer LUIS att börja upptäcka entiteter och understryka och märka de den hittar.
 
-    ![Exemplen med siffror och tidsenheter understrukna av LUIS](../../../../../translated_images/luis-intent-examples.25716580b2d2723cf1bafdf277d015c7f046d8cfa20f27bddf3a0873ec45fab7.sv.png)
+    ![Exemplen med siffror och tidsenheter understrukna av LUIS](../../../../../translated_images/sv/luis-intent-examples.25716580b2d2723cf1bafdf277d015c7f046d8cfa20f27bddf3a0873ec45fab7.png)
 
 ### Uppgift - träna och testa modellen
 

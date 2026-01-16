@@ -29,14 +29,14 @@ Va trebui să repeți acești pași de mai multe ori pentru a obține citirile n
 
 Umiditatea gravimetrică a solului se calculează astfel:
 
-![umiditatea solului % este greutatea umedă minus greutatea uscată, împărțită la greutatea uscată, înmulțită cu 100](../../../../../translated_images/gsm-calculation.6da38c6201eec14e7573bb2647aa18892883193553d23c9d77e5dc681522dfb2.ro.png)
+![umiditatea solului % este greutatea umedă minus greutatea uscată, împărțită la greutatea uscată, înmulțită cu 100](../../../../../translated_images/ro/gsm-calculation.6da38c6201eec14e7573bb2647aa18892883193553d23c9d77e5dc681522dfb2.png)
 
 * W - greutatea solului umed  
 * W - greutatea solului uscat  
 
 De exemplu, să presupunem că ai o probă de sol care cântărește 212g umed și 197g uscat.
 
-![Calculul completat](../../../../../translated_images/gsm-calculation-example.99f9803b4f29e97668e7c15412136c0c399ab12dbba0b89596fdae9d8aedb6fb.ro.png)
+![Calculul completat](../../../../../translated_images/ro/gsm-calculation-example.99f9803b4f29e97668e7c15412136c0c399ab12dbba0b89596fdae9d8aedb6fb.png)
 
 * W = 212g  
 * W = 197g  

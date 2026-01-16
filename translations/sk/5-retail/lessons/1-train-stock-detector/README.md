@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Trénovanie detektora zásob
 
-![Prehľad tejto lekcie v sketchnote](../../../../../translated_images/lesson-19.cf6973cecadf080c4b526310620dc4d6f5994c80fb0139c6f378cc9ca2d435cd.sk.jpg)
+![Prehľad tejto lekcie v sketchnote](../../../../../translated_images/sk/lesson-19.cf6973cecadf080c4b526310620dc4d6f5994c80fb0139c6f378cc9ca2d435cd.jpg)
 
 > Sketchnote od [Nitya Narasimhan](https://github.com/nitya). Kliknite na obrázok pre väčšiu verziu.
 
@@ -45,7 +45,7 @@ Detekcia objektov zahŕňa rozpoznávanie objektov na obrázkoch pomocou AI. Na 
 
 Klasifikácia obrázkov sa zameriava na klasifikáciu celého obrázka – aké sú pravdepodobnosti, že celý obrázok zodpovedá každej značke. Výsledkom sú pravdepodobnosti pre každú značku použitú na trénovanie modelu.
 
-![Klasifikácia obrázkov kešu orechov a paradajkového pretlaku](../../../../../translated_images/image-classifier-cashews-tomato.bc2e16ab8f05cf9ac0f59f73e32efc4227f9a5b601b90b2c60f436694547a965.sk.png)
+![Klasifikácia obrázkov kešu orechov a paradajkového pretlaku](../../../../../translated_images/sk/image-classifier-cashews-tomato.bc2e16ab8f05cf9ac0f59f73e32efc4227f9a5b601b90b2c60f436694547a965.png)
 
 V príklade vyššie sú dva obrázky klasifikované pomocou modelu trénovaného na klasifikáciu nádobiek s kešu orechmi alebo konzerv paradajkového pretlaku. Prvý obrázok je nádobka s kešu orechmi a má dva výsledky z klasifikátora obrázkov:
 
@@ -69,7 +69,7 @@ Keď ho potom použijete na predpovedanie obrázkov, namiesto zoznamu značiek a
 
 > 🎓 *Ohraničujúce rámčeky* sú rámčeky okolo objektu.
 
-![Detekcia objektov kešu orechov a paradajkového pretlaku](../../../../../translated_images/object-detector-cashews-tomato.1af7c26686b4db0e709754aeb196f4e73271f54e2085db3bcccb70d4a0d84d97.sk.png)
+![Detekcia objektov kešu orechov a paradajkového pretlaku](../../../../../translated_images/sk/object-detector-cashews-tomato.1af7c26686b4db0e709754aeb196f4e73271f54e2085db3bcccb70d4a0d84d97.png)
 
 Obrázok vyššie obsahuje nádobku s kešu orechmi a tri konzervy paradajkového pretlaku. Detektor objektov detegoval kešu orechy, pričom vrátil ohraničujúci rámček, ktorý obsahuje kešu orechy, s percentuálnou pravdepodobnosťou, že rámček obsahuje objekt, v tomto prípade 97,6%. Detektor objektov tiež detegoval tri konzervy paradajkového pretlaku a poskytuje tri samostatné ohraničujúce rámčeky, jeden pre každú detegovanú konzervu, pričom každý má percentuálnu pravdepodobnosť, že rámček obsahuje konzervu paradajkového pretlaku.
 
@@ -120,7 +120,7 @@ Detektor objektov môžete trénovať pomocou služby Custom Vision, podobne ako
 
     Pri vytváraní projektu sa uistite, že používate zdroj `stock-detector-training`, ktorý ste vytvorili skôr. Použite typ projektu *Object Detection* a doménu *Products on Shelves*.
 
-    ![Nastavenia projektu Custom Vision s názvom nastaveným na fruit-quality-detector, bez popisu, zdroj nastavený na fruit-quality-detector-training, typ projektu nastavený na klasifikáciu, typy klasifikácie nastavené na multi class a domény nastavené na food](../../../../../translated_images/custom-vision-create-object-detector-project.32d4fb9aa8e7e7375f8a799bfce517aca970f2cb65e42d4245c5e635c734ab29.sk.png)
+    ![Nastavenia projektu Custom Vision s názvom nastaveným na fruit-quality-detector, bez popisu, zdroj nastavený na fruit-quality-detector-training, typ projektu nastavený na klasifikáciu, typy klasifikácie nastavené na multi class a domény nastavené na food](../../../../../translated_images/sk/custom-vision-create-object-detector-project.32d4fb9aa8e7e7375f8a799bfce517aca970f2cb65e42d4245c5e635c734ab29.png)
 
     ✅ Doména *Products on Shelves* je špecificky zameraná na detekciu zásob na regáloch v obchodoch. Prečítajte si viac o rôznych doménach v [dokumentácii o výbere domény na Microsoft Docs](https://docs.microsoft.com/azure/cognitive-services/custom-vision-service/select-domain?WT.mc_id=academic-17441-jabenn#object-detection).
 
@@ -142,11 +142,11 @@ Na trénovanie vášho modelu budete potrebovať sadu obrázkov obsahujúcich ob
 
 1. Postupujte podľa [časti Nahrať a označiť obrázky v rýchlom štarte na vytvorenie detektora objektov v dokumentácii Microsoftu](https://docs.microsoft.com/azure/cognitive-services/custom-vision-service/get-started-build-detector?WT.mc_id=academic-17441-jabenn#upload-and-tag-images), aby ste nahrali svoje trénovacie obrázky. Vytvorte relevantné značky v závislosti od typov objektov, ktoré chcete detegovať.
 
-    ![Dialógy nahrávania zobrazujúce nahrávanie obrázkov zrelých a nezrelých banánov](../../../../../translated_images/image-upload-object-detector.77c7892c3093cb59b79018edecd678749a75d71a099bc8a2d2f2f76320f88a5b.sk.png)
+    ![Dialógy nahrávania zobrazujúce nahrávanie obrázkov zrelých a nezrelých banánov](../../../../../translated_images/sk/image-upload-object-detector.77c7892c3093cb59b79018edecd678749a75d71a099bc8a2d2f2f76320f88a5b.png)
 
     Keď kreslíte ohraničujúce rámčeky pre objekty, udržujte ich pekne tesné okolo objektu. Môže to chvíľu trvať, kým označíte všetky obrázky, ale nástroj deteguje, čo považuje za ohraničujúce rámčeky, čo proces urýchli.
 
-    ![Označovanie paradajkového pretlaku](../../../../../translated_images/object-detector-tag-tomato-paste.f47c362fb0f0eb582f3bc68cf3855fb43a805106395358d41896a269c210b7b4.sk.png)
+    ![Označovanie paradajkového pretlaku](../../../../../translated_images/sk/object-detector-tag-tomato-paste.f47c362fb0f0eb582f3bc68cf3855fb43a805106395358d41896a269c210b7b4.png)
 
     > 💁 Ak máte viac ako 15 obrázkov pre každý objekt, môžete trénovať po 15 a potom použiť funkciu **Suggested tags**. Táto funkcia použije trénovaný model na detekciu objektov na neoznačených obrázkoch. Potom môžete potvrdiť detegované objekty alebo ich odmietnuť a prekresliť ohraničujúce rámčeky. To môže ušetriť *veľa* času.
 
@@ -164,7 +164,7 @@ Keď je váš detektor objektov natrénovaný, môžete ho otestovať tak, že m
 
 1. Použite tlačidlo **Quick Test** na nahranie testovacích obrázkov a overenie, či sú objekty detegované. Použite testovacie obrázky, ktoré ste vytvorili skôr, nie žiadne z obrázkov, ktoré ste použili na trénovanie.
 
-    ![Detegované 3 konzervy paradajkového pretlaku s pravdepodobnosťami 38%, 35,5% a 34,6%](../../../../../translated_images/object-detector-detected-tomato-paste.52656fe87af4c37b4ee540526d63e73ed075da2e54a9a060aa528e0c562fb1b6.sk.png)
+    ![Detegované 3 konzervy paradajkového pretlaku s pravdepodobnosťami 38%, 35,5% a 34,6%](../../../../../translated_images/sk/object-detector-detected-tomato-paste.52656fe87af4c37b4ee540526d63e73ed075da2e54a9a060aa528e0c562fb1b6.png)
 
 1. Vyskúšajte všetky testovacie obrázky, ku ktorým máte prístup, a pozorujte pravdepodobnosti.
 

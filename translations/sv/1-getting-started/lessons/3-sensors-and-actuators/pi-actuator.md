@@ -35,7 +35,7 @@ Grove LED kommer som en modul med ett urval av LED-lampor, vilket gör att du ka
 
 Anslut LED-lampan.
 
-![En Grove LED](../../../../../translated_images/grove-led.6c853be93f473cf2c439cfc74bb1064732b22251a83cedf66e62f783f9cc1a79.sv.png)
+![En Grove LED](../../../../../translated_images/sv/grove-led.6c853be93f473cf2c439cfc74bb1064732b22251a83cedf66e62f783f9cc1a79.png)
 
 1. Välj din favorit-LED och sätt in benen i de två hålen på LED-modulen.
 
@@ -49,7 +49,7 @@ Anslut LED-lampan.
 
 1. Med Raspberry Pi avstängd, anslut den andra änden av Grove-kabeln till den digitala sockeln märkt **D5** på Grove Base-hatten som är ansluten till Pi. Denna sockel är den andra från vänster, på raden av socklar bredvid GPIO-pinnarna.
 
-![Grove LED ansluten till sockel D5](../../../../../translated_images/pi-led.97f1d474981dc35d1c7996c7b17de355d3d0a6bc9606d79fa5f89df933415122.sv.png)
+![Grove LED ansluten till sockel D5](../../../../../translated_images/sv/pi-led.97f1d474981dc35d1c7996c7b17de355d3d0a6bc9606d79fa5f89df933415122.png)
 
 ## Programmera nattlampan
 

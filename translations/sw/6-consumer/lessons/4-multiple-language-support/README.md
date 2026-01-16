@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Kusaidia Lugha Nyingi
 
-![Muhtasari wa somo hili kwa sketchnote](../../../../../translated_images/lesson-24.4246968ed058510ab275052e87ef9aa89c7b2f938915d103c605c04dc6cd5bb7.sw.jpg)
+![Muhtasari wa somo hili kwa sketchnote](../../../../../translated_images/sw/lesson-24.4246968ed058510ab275052e87ef9aa89c7b2f938915d103c605c04dc6cd5bb7.jpg)
 
 > Sketchnote na [Nitya Narasimhan](https://github.com/nitya). Bonyeza picha kwa toleo kubwa zaidi.
 
@@ -83,7 +83,7 @@ Kuna huduma kadhaa za AI ambazo zinaweza kutumika kutoka kwa programu zako kutaf
 
 ### Huduma ya Sauti ya Cognitive Services
 
-![Nembo ya huduma ya sauti](../../../../../translated_images/azure-speech-logo.a1f08c4befb0159f2cb5d692d3baf5b599e7b44759d316da907bda1508f46a4a.sw.png)
+![Nembo ya huduma ya sauti](../../../../../translated_images/sw/azure-speech-logo.a1f08c4befb0159f2cb5d692d3baf5b599e7b44759d316da907bda1508f46a4a.png)
 
 Huduma ya sauti ambayo umekuwa ukitumia katika masomo yaliyopita ina uwezo wa kutafsiri kwa utambuzi wa sauti. Unapotambua sauti, unaweza kuomba si tu maandishi ya sauti hiyo kwa lugha ile ile, bali pia kwa lugha nyingine.
 
@@ -91,7 +91,7 @@ Huduma ya sauti ambayo umekuwa ukitumia katika masomo yaliyopita ina uwezo wa ku
 
 ### Huduma ya Mtafsiri ya Cognitive Services
 
-![Nembo ya huduma ya mtafsiri](../../../../../translated_images/azure-translator-logo.c6ed3a4a433edfd2f11577eca105412c50b8396b194cbbd730723dd1d0793bcd.sw.png)
+![Nembo ya huduma ya mtafsiri](../../../../../translated_images/sw/azure-translator-logo.c6ed3a4a433edfd2f11577eca105412c50b8396b194cbbd730723dd1d0793bcd.png)
 
 Huduma ya Mtafsiri ni huduma maalum ya tafsiri inayoweza kutafsiri maandishi kutoka lugha moja kwenda lugha moja au zaidi za lengo. Mbali na kutafsiri, inasaidia vipengele vingi vya ziada ikiwa ni pamoja na kuficha matusi. Pia inakuruhusu kutoa tafsiri maalum kwa neno au sentensi fulani, kufanya kazi na maneno ambayo hutaki kutafsiriwa, au kuwa na tafsiri maalum inayojulikana.
 
@@ -130,7 +130,7 @@ Kwa somo hili utahitaji rasilimali ya Mtafsiri. Utatumia API ya REST kutafsiri m
 
 Katika ulimwengu bora, programu yako yote inapaswa kuelewa lugha nyingi iwezekanavyo, kutoka kusikiliza sauti, kuelewa lugha, hadi kujibu kwa sauti. Hii ni kazi kubwa, kwa hivyo huduma za tafsiri zinaweza kuharakisha muda wa utoaji wa programu yako.
 
-![Mimomemo ya kipima muda mahiri ikitafsiri Kijapani kwenda Kiingereza, kuchakata kwa Kiingereza kisha kutafsiri tena kwenda Kijapani](../../../../../translated_images/translated-smart-timer.08ac20057fdc5c37.sw.png)
+![Mimomemo ya kipima muda mahiri ikitafsiri Kijapani kwenda Kiingereza, kuchakata kwa Kiingereza kisha kutafsiri tena kwenda Kijapani](../../../../../translated_images/sw/translated-smart-timer.08ac20057fdc5c37.png)
 
 Fikiria unajenga kipima muda mahiri kinachotumia Kiingereza kutoka mwanzo hadi mwisho, kuelewa Kiingereza kilichozungumzwa na kukibadilisha kuwa maandishi, kuendesha uelewa wa lugha kwa Kiingereza, kuunda majibu kwa Kiingereza na kujibu kwa sauti ya Kiingereza. Ikiwa ungependa kuongeza msaada kwa Kijapani, ungeweza kuanza kwa kutafsiri Kijapani kilichozungumzwa kuwa maandishi ya Kiingereza, kisha kuweka msingi wa programu sawa, kisha kutafsiri maandishi ya majibu kwenda Kijapani kabla ya kuyazungumza. Hii ingeruhusu kuongeza msaada wa Kijapani haraka, na unaweza kupanua kutoa msaada kamili wa Kijapani baadaye.
 

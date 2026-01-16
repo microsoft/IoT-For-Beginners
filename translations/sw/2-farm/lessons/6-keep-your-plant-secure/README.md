@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Linda mmea wako dhidi ya hatari
 
-![Muhtasari wa somo hili kwa njia ya sketchnote](../../../../../translated_images/lesson-10.829c86b80b9403bb770929ee553a1d293afe50dc23121aaf9be144673ae012cc.sw.jpg)
+![Muhtasari wa somo hili kwa njia ya sketchnote](../../../../../translated_images/sw/lesson-10.829c86b80b9403bb770929ee553a1d293afe50dc23121aaf9be144673ae012cc.jpg)
 
 > Sketchnote na [Nitya Narasimhan](https://github.com/nitya). Bofya picha kwa toleo kubwa zaidi.
 
@@ -61,11 +61,11 @@ Hizi ni hali halisi za ulimwengu, na hutokea mara kwa mara. Baadhi ya mifano ili
 
 Wakati kifaa kinaunganishwa na huduma ya IoT, kinatumia kitambulisho kutambua chenyewe. Tatizo ni kwamba kitambulisho hiki kinaweza kuigwa - mdukuzi anaweza kuunda kifaa cha uharibifu kinachotumia kitambulisho sawa na kifaa halisi lakini kinatuma data ya uongo.
 
-![Vifaa halali na vya uharibifu vinaweza kutumia kitambulisho sawa kutuma data](../../../../../translated_images/iot-device-and-hacked-device-connecting.e0671675df74d6d99eb1dedb5a670e606f698efa6202b1ad4c8ae548db299cc6.sw.png)
+![Vifaa halali na vya uharibifu vinaweza kutumia kitambulisho sawa kutuma data](../../../../../translated_images/sw/iot-device-and-hacked-device-connecting.e0671675df74d6d99eb1dedb5a670e606f698efa6202b1ad4c8ae548db299cc6.png)
 
 Njia ya kuzuia hili ni kubadilisha data inayotumwa kuwa muundo usiosomeka, kwa kutumia thamani fulani inayojulikana tu na kifaa na wingu. Mchakato huu unaitwa *usimbaji fiche*, na thamani inayotumika kusimba data inaitwa *ufunguo wa usimbaji fiche*.
 
-![Ikiwa usimbaji fiche unatumika, basi ujumbe uliofichwa pekee ndio utakubaliwa, wengine watakataliwa](../../../../../translated_images/iot-device-and-hacked-device-connecting-encryption.5941aff601fc978f979e46f2849b573564eeb4a4dc5b52f669f62745397492fb.sw.png)
+![Ikiwa usimbaji fiche unatumika, basi ujumbe uliofichwa pekee ndio utakubaliwa, wengine watakataliwa](../../../../../translated_images/sw/iot-device-and-hacked-device-connecting-encryption.5941aff601fc978f979e46f2849b573564eeb4a4dc5b52f669f62745397492fb.png)
 
 Huduma ya wingu inaweza kubadilisha data kuwa muundo unaosomeka tena, kwa kutumia mchakato unaoitwa *ufutaji fiche*, kwa kutumia ufunguo wa usimbaji fiche sawa, au *ufunguo wa ufutaji fiche*. Ikiwa ujumbe uliofichwa hauwezi kufutwa fiche na ufunguo, kifaa kimevamiwa na ujumbe unakataliwa.
 
@@ -97,15 +97,15 @@ Usimbaji fiche unakuja kwa aina mbili - symmetri na asymmetri.
 
 **Symmetri** hutumia ufunguo sawa kusimba na kufuta data. Mtumaji na mpokeaji wote wanahitaji kujua ufunguo sawa. Hii ni aina isiyo salama zaidi, kwa kuwa ufunguo unahitaji kushirikiwa kwa namna fulani. Ili mtumaji kutuma ujumbe uliofichwa kwa mpokeaji, mtumaji anaweza kwanza kuhitaji kutuma ufunguo kwa mpokeaji.
 
-![Usimbaji fiche wa symmetri hutumia ufunguo sawa kusimba na kufuta ujumbe](../../../../../translated_images/send-message-symmetric-key.a2e8ad0d495896ff.sw.png)
+![Usimbaji fiche wa symmetri hutumia ufunguo sawa kusimba na kufuta ujumbe](../../../../../translated_images/sw/send-message-symmetric-key.a2e8ad0d495896ff.png)
 
 Ikiwa ufunguo utaibiwa wakati wa usafirishaji, au mtumaji au mpokeaji atavamiwa na ufunguo ukapatikana, usimbaji fiche unaweza kuvunjwa.
 
-![Usimbaji fiche wa symmetri ni salama tu ikiwa mdukuzi hajapata ufunguo - ikiwa hivyo, wanaweza kuingilia na kufuta ujumbe](../../../../../translated_images/send-message-symmetric-key-hacker.e7cb53db1707adfb.sw.png)
+![Usimbaji fiche wa symmetri ni salama tu ikiwa mdukuzi hajapata ufunguo - ikiwa hivyo, wanaweza kuingilia na kufuta ujumbe](../../../../../translated_images/sw/send-message-symmetric-key-hacker.e7cb53db1707adfb.png)
 
 **Asymmetri** hutumia funguo 2 - ufunguo wa kusimba na ufunguo wa kufuta, unaojulikana kama jozi ya funguo ya umma/binafsi. Ufunguo wa umma hutumika kusimba ujumbe, lakini hauwezi kutumika kufuta, na ufunguo wa binafsi hutumika kufuta ujumbe lakini hauwezi kutumika kusimba.
 
-![Usimbaji fiche wa asymmetri hutumia ufunguo tofauti kusimba na kufuta. Ufunguo wa kusimba hutumwa kwa watumaji wa ujumbe ili waweze kusimba ujumbe kabla ya kuutuma kwa mpokeaji anayemiliki funguo](../../../../../translated_images/send-message-asymmetric.7abe327c62615b8c.sw.png)
+![Usimbaji fiche wa asymmetri hutumia ufunguo tofauti kusimba na kufuta. Ufunguo wa kusimba hutumwa kwa watumaji wa ujumbe ili waweze kusimba ujumbe kabla ya kuutuma kwa mpokeaji anayemiliki funguo](../../../../../translated_images/sw/send-message-asymmetric.7abe327c62615b8c.png)
 
 Mpokeaji hushiriki ufunguo wake wa umma, na mtumaji hutumia huu kusimba ujumbe. Mara tu ujumbe unapotumwa, mpokeaji hufuta kwa kutumia ufunguo wake wa binafsi. Usimbaji fiche wa asymmetri ni salama zaidi kwa kuwa ufunguo wa binafsi unahifadhiwa na mpokeaji na haujawahi kushirikiwa. Mtu yeyote anaweza kuwa na ufunguo wa umma kwa kuwa unaweza kutumika tu kusimba ujumbe.
 
@@ -165,7 +165,7 @@ Vyeti hivi vina sehemu kadhaa ndani yake, ikiwa ni pamoja na ni nani ufunguo wa 
 
 Unapotumia vyeti vya X.509, mtumaji na mpokeaji wote watakuwa na funguo zao za umma na binafsi, pamoja na vyeti vya X.509 vinavyobeba funguo za umma. Kisha wanabadilishana vyeti vya X.509 kwa namna fulani, wakitumia funguo za umma za kila mmoja kuficha data wanayotuma, na funguo zao binafsi kufungua data wanayopokea.
 
-![Badala ya kushiriki ufunguo wa umma, unaweza kushiriki cheti. Mtumiaji wa cheti anaweza kuthibitisha kuwa kinatoka kwako kwa kuangalia na mamlaka ya cheti iliyokisaini.](../../../../../translated_images/send-message-certificate.9cc576ac1e46b76e.sw.png)
+![Badala ya kushiriki ufunguo wa umma, unaweza kushiriki cheti. Mtumiaji wa cheti anaweza kuthibitisha kuwa kinatoka kwako kwa kuangalia na mamlaka ya cheti iliyokisaini.](../../../../../translated_images/sw/send-message-certificate.9cc576ac1e46b76e.png)
 
 Faida kubwa ya kutumia vyeti vya X.509 ni kwamba vinaweza kushirikiwa kati ya vifaa. Unaweza kuunda cheti kimoja, kukipakia kwenye IoT Hub, na kutumia hiki kwa vifaa vyote vyako. Kila kifaa kinahitaji tu kujua ufunguo binafsi kufungua ujumbe kinachopokea kutoka IoT Hub.
 

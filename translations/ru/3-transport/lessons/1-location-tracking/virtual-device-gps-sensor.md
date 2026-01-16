@@ -47,11 +47,11 @@ CO_OP_TRANSLATOR_METADATA:
 
     1. Нажмите кнопку **Add**, чтобы создать GPS-датчик на порту `/dev/ttyAMA0`.
 
-    ![Настройки GPS-датчика](../../../../../translated_images/counterfit-create-gps-sensor.6385dc9357d85ad1d47b4abb2525e7651fd498917d25eefc5a72feab09eedc70.ru.png)
+    ![Настройки GPS-датчика](../../../../../translated_images/ru/counterfit-create-gps-sensor.6385dc9357d85ad1d47b4abb2525e7651fd498917d25eefc5a72feab09eedc70.png)
 
     GPS-датчик будет создан и появится в списке датчиков.
 
-    ![Созданный GPS-датчик](../../../../../translated_images/counterfit-gps-sensor.3fbb15af0a5367566f2f11324ef5a6f30861cdf2b497071a5e002b7aa473550e.ru.png)
+    ![Созданный GPS-датчик](../../../../../translated_images/ru/counterfit-gps-sensor.3fbb15af0a5367566f2f11324ef5a6f30861cdf2b497071a5e002b7aa473550e.png)
 
 ## Программирование GPS-датчика
 
@@ -111,17 +111,17 @@ CO_OP_TRANSLATOR_METADATA:
 
     * Установите **Source** в `Lat/Lon` и задайте явные значения широты, долготы и количества спутников, используемых для получения GPS-фиксации. Это значение будет отправлено только один раз, поэтому установите флажок **Repeat**, чтобы данные повторялись каждую секунду.
 
-      ![GPS-датчик с выбранным Lat/Lon](../../../../../translated_images/counterfit-gps-sensor-latlon.008c867d75464fbe7f84107cc57040df565ac07cb57d2f21db37d087d470197d.ru.png)
+      ![GPS-датчик с выбранным Lat/Lon](../../../../../translated_images/ru/counterfit-gps-sensor-latlon.008c867d75464fbe7f84107cc57040df565ac07cb57d2f21db37d087d470197d.png)
 
     * Установите **Source** в `NMEA` и добавьте несколько NMEA-строк в текстовое поле. Все эти значения будут отправлены с задержкой в 1 секунду перед каждой новой строкой GGA (фиксация позиции).
 
-      ![GPS-датчик с установленными NMEA-строками](../../../../../translated_images/counterfit-gps-sensor-nmea.c62eea442171e17e19528b051b104cfcecdc9cd18db7bc72920f29821ae63f73.ru.png)
+      ![GPS-датчик с установленными NMEA-строками](../../../../../translated_images/ru/counterfit-gps-sensor-nmea.c62eea442171e17e19528b051b104cfcecdc9cd18db7bc72920f29821ae63f73.png)
 
       Вы можете использовать инструмент, такой как [nmeagen.org](https://www.nmeagen.org), чтобы сгенерировать эти строки, рисуя на карте. Эти значения будут отправлены только один раз, поэтому установите флажок **Repeat**, чтобы данные повторялись через секунду после их отправки.
 
     * Установите **Source** в GPX-файл и загрузите GPX-файл с маршрутами. Вы можете скачать GPX-файлы с популярных сайтов для карт и пеших маршрутов, таких как [AllTrails](https://www.alltrails.com/). Эти файлы содержат несколько GPS-координат в виде маршрута, и GPS-датчик будет возвращать каждую новую координату с интервалом в 1 секунду.
 
-      ![GPS-датчик с установленным GPX-файлом](../../../../../translated_images/counterfit-gps-sensor-gpxfile.8310b063ce8a425ccc8ebeec8306aeac5e8e55207f007d52c6e1194432a70cd9.ru.png)
+      ![GPS-датчик с установленным GPX-файлом](../../../../../translated_images/ru/counterfit-gps-sensor-gpxfile.8310b063ce8a425ccc8ebeec8306aeac5e8e55207f007d52c6e1194432a70cd9.png)
 
       Эти значения будут отправлены только один раз, поэтому установите флажок **Repeat**, чтобы данные повторялись через секунду после их отправки.
 

@@ -37,11 +37,11 @@ CO_OP_TRANSLATOR_METADATA:
 
     1. Нажмите кнопку **Add**, чтобы создать реле на выводе 5.
 
-    ![Настройки реле](../../../../../translated_images/counterfit-create-relay.fa7c40fd0f2f6afc33b35ea94fcb235085be4861e14e3fe6b9b7bcfc82d1c888.ru.png)
+    ![Настройки реле](../../../../../translated_images/ru/counterfit-create-relay.fa7c40fd0f2f6afc33b35ea94fcb235085be4861e14e3fe6b9b7bcfc82d1c888.png)
 
     Реле будет создано и появится в списке актуаторов.
 
-    ![Созданное реле](../../../../../translated_images/counterfit-relay.bbf74c1dbdc8b9acd983367fcbd06703a402aefef6af54ddb28e11307ba8a12c.ru.png)
+    ![Созданное реле](../../../../../translated_images/ru/counterfit-relay.bbf74c1dbdc8b9acd983367fcbd06703a402aefef6af54ddb28e11307ba8a12c.png)
 
 ## Программирование реле
 

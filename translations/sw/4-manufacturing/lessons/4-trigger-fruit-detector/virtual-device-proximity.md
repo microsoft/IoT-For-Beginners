@@ -45,11 +45,11 @@ Ongeza kihisi cha umbali kwenye programu ya CounterFit.
 
     1. Chagua kitufe cha **Add** ili kuunda kihisi cha umbali.
 
-    ![Mipangilio ya kihisi cha umbali](../../../../../translated_images/counterfit-create-distance-sensor.967c9fb98f27888d95920c9784d004c972490eb71f70397fe13bd70a79a879a3.sw.png)
+    ![Mipangilio ya kihisi cha umbali](../../../../../translated_images/sw/counterfit-create-distance-sensor.967c9fb98f27888d95920c9784d004c972490eb71f70397fe13bd70a79a879a3.png)
 
     Kihisi cha umbali kitaundwa na kitaonekana kwenye orodha ya vihisi.
 
-    ![Kihisi cha umbali kimeundwa](../../../../../translated_images/counterfit-distance-sensor.079eefeeea0b68afc36431ce8fcbe2f09a7e4916ed1cd5cb30e696db53bc18fa.sw.png)
+    ![Kihisi cha umbali kimeundwa](../../../../../translated_images/sw/counterfit-distance-sensor.079eefeeea0b68afc36431ce8fcbe2f09a7e4916ed1cd5cb30e696db53bc18fa.png)
 
 ## Programu ya kihisi cha umbali
 

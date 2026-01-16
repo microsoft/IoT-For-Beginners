@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Träna en lagerdetektor
 
-![En sketchnote-översikt av denna lektion](../../../../../translated_images/lesson-19.cf6973cecadf080c4b526310620dc4d6f5994c80fb0139c6f378cc9ca2d435cd.sv.jpg)
+![En sketchnote-översikt av denna lektion](../../../../../translated_images/sv/lesson-19.cf6973cecadf080c4b526310620dc4d6f5994c80fb0139c6f378cc9ca2d435cd.jpg)
 
 > Sketchnote av [Nitya Narasimhan](https://github.com/nitya). Klicka på bilden för en större version.
 
@@ -45,7 +45,7 @@ Objektdetektering handlar om att upptäcka objekt i bilder med hjälp av AI. Til
 
 Bildklassificering handlar om att klassificera en hel bild – vilka är sannolikheterna att hela bilden matchar varje tagg. Du får tillbaka sannolikheter för varje tagg som användes för att träna modellen.
 
-![Bildklassificering av cashewnötter och tomatpuré](../../../../../translated_images/image-classifier-cashews-tomato.bc2e16ab8f05cf9ac0f59f73e32efc4227f9a5b601b90b2c60f436694547a965.sv.png)
+![Bildklassificering av cashewnötter och tomatpuré](../../../../../translated_images/sv/image-classifier-cashews-tomato.bc2e16ab8f05cf9ac0f59f73e32efc4227f9a5b601b90b2c60f436694547a965.png)
 
 I exemplet ovan klassificeras två bilder med hjälp av en modell som tränats för att klassificera burkar med cashewnötter eller tomatpuré. Den första bilden är en burk med cashewnötter och har två resultat från bildklassificeraren:
 
@@ -69,7 +69,7 @@ När du sedan använder den för att förutsäga bilder får du inte tillbaka en
 
 > 🎓 *Avgränsningsrutor* är rutorna runt ett objekt.
 
-![Objektdetektering av cashewnötter och tomatpuré](../../../../../translated_images/object-detector-cashews-tomato.1af7c26686b4db0e709754aeb196f4e73271f54e2085db3bcccb70d4a0d84d97.sv.png)
+![Objektdetektering av cashewnötter och tomatpuré](../../../../../translated_images/sv/object-detector-cashews-tomato.1af7c26686b4db0e709754aeb196f4e73271f54e2085db3bcccb70d4a0d84d97.png)
 
 Bilden ovan innehåller både en burk med cashewnötter och tre burkar med tomatpuré. Objektdetektorn upptäckte cashewnötterna och returnerade avgränsningsrutan som innehåller cashewnötterna med sannolikheten att rutan innehåller objektet, i detta fall 97,6%. Objektdetektorn har också upptäckt tre burkar med tomatpuré och ger tre separata avgränsningsrutor, en för varje upptäckt burk, och var och en har en sannolikhet att rutan innehåller en burk med tomatpuré.
 
@@ -120,7 +120,7 @@ Du kan träna en objektdetektor med Custom Vision, på ett liknande sätt som du
 
     När du skapar ditt projekt, se till att använda resursen `stock-detector-training` som du skapade tidigare. Använd projekttypen *Object Detection* och domänen *Products on Shelves*.
 
-    ![Inställningarna för Custom Vision-projektet med namnet inställt på fruit-quality-detector, ingen beskrivning, resursen inställd på fruit-quality-detector-training, projekttypen inställd på klassificering, klassificeringstyperna inställda på multi class och domänerna inställda på food](../../../../../translated_images/custom-vision-create-object-detector-project.32d4fb9aa8e7e7375f8a799bfce517aca970f2cb65e42d4245c5e635c734ab29.sv.png)
+    ![Inställningarna för Custom Vision-projektet med namnet inställt på fruit-quality-detector, ingen beskrivning, resursen inställd på fruit-quality-detector-training, projekttypen inställd på klassificering, klassificeringstyperna inställda på multi class och domänerna inställda på food](../../../../../translated_images/sv/custom-vision-create-object-detector-project.32d4fb9aa8e7e7375f8a799bfce517aca970f2cb65e42d4245c5e635c734ab29.png)
 
     ✅ Domänen *Products on Shelves* är specifikt inriktad på att upptäcka lager på butikshyllor. Läs mer om de olika domänerna i [Välj en domän-dokumentationen på Microsoft Docs](https://docs.microsoft.com/azure/cognitive-services/custom-vision-service/select-domain?WT.mc_id=academic-17441-jabenn#object-detection)
 
@@ -142,11 +142,11 @@ För att träna din modell behöver du en uppsättning bilder som innehåller de
 
 1. Följ [Ladda upp och tagga bilder-sektionen i snabbstartsguiden för att bygga en objektdetektor på Microsoft Docs](https://docs.microsoft.com/azure/cognitive-services/custom-vision-service/get-started-build-detector?WT.mc_id=academic-17441-jabenn#upload-and-tag-images) för att ladda upp dina träningsbilder. Skapa relevanta taggar beroende på vilka typer av objekt du vill upptäcka.
 
-    ![Uppladdningsdialogerna som visar uppladdning av bilder på mogna och omogna bananer](../../../../../translated_images/image-upload-object-detector.77c7892c3093cb59b79018edecd678749a75d71a099bc8a2d2f2f76320f88a5b.sv.png)
+    ![Uppladdningsdialogerna som visar uppladdning av bilder på mogna och omogna bananer](../../../../../translated_images/sv/image-upload-object-detector.77c7892c3093cb59b79018edecd678749a75d71a099bc8a2d2f2f76320f88a5b.png)
 
     När du ritar avgränsningsrutor för objekt, håll dem tätt runt objektet. Det kan ta ett tag att markera alla bilder, men verktyget kommer att upptäcka vad det tror är avgränsningsrutorna, vilket gör det snabbare.
 
-    ![Taggning av tomatpuré](../../../../../translated_images/object-detector-tag-tomato-paste.f47c362fb0f0eb582f3bc68cf3855fb43a805106395358d41896a269c210b7b4.sv.png)
+    ![Taggning av tomatpuré](../../../../../translated_images/sv/object-detector-tag-tomato-paste.f47c362fb0f0eb582f3bc68cf3855fb43a805106395358d41896a269c210b7b4.png)
 
     > 💁 Om du har fler än 15 bilder för varje objekt kan du träna efter 15 och sedan använda funktionen **Föreslagna taggar**. Detta kommer att använda den tränade modellen för att upptäcka objekten i de otaggade bilderna. Du kan sedan bekräfta de upptäckta objekten eller avvisa och rita om avgränsningsrutorna. Detta kan spara *mycket* tid.
 
@@ -164,7 +164,7 @@ När din objektdetektor är tränad kan du testa den genom att ge den nya bilder
 
 1. Använd knappen **Snabbtest** för att ladda upp testbilder och verifiera att objekten upptäcks. Använd testbilderna du skapade tidigare, inte några av bilderna du använde för träning.
 
-    ![3 burkar med tomatpuré upptäckta med sannolikheter på 38%, 35,5% och 34,6%](../../../../../translated_images/object-detector-detected-tomato-paste.52656fe87af4c37b4ee540526d63e73ed075da2e54a9a060aa528e0c562fb1b6.sv.png)
+    ![3 burkar med tomatpuré upptäckta med sannolikheter på 38%, 35,5% och 34,6%](../../../../../translated_images/sv/object-detector-detected-tomato-paste.52656fe87af4c37b4ee540526d63e73ed075da2e54a9a060aa528e0c562fb1b6.png)
 
 1. Testa alla testbilder du har tillgång till och observera sannolikheterna.
 

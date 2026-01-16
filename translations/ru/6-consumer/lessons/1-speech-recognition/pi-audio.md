@@ -25,13 +25,13 @@ CO_OP_TRANSLATOR_METADATA:
 
 #### Задача - подключить кнопку
 
-![Кнопка Grove](../../../../../translated_images/grove-button.a70cfbb809a8563681003250cf5b06d68cdcc68624f9e2f493d5a534ae2da1e5.ru.png)
+![Кнопка Grove](../../../../../translated_images/ru/grove-button.a70cfbb809a8563681003250cf5b06d68cdcc68624f9e2f493d5a534ae2da1e5.png)
 
 1. Вставьте один конец кабеля Grove в разъем на модуле кнопки. Он вставляется только в одном направлении.
 
 1. С выключенным Raspberry Pi подключите другой конец кабеля Grove к цифровому разъему, обозначенному как **D5**, на базовом модуле Grove, подключенном к Pi. Этот разъем — второй слева в ряду разъемов рядом с GPIO-пинами.
 
-![Кнопка Grove, подключенная к разъему D5](../../../../../translated_images/pi-button.c7a1a4f55943341ce1baf1057658e9a205804d4131d258e820c93f951df0abf3.ru.png)
+![Кнопка Grove, подключенная к разъему D5](../../../../../translated_images/ru/pi-button.c7a1a4f55943341ce1baf1057658e9a205804d4131d258e820c93f951df0abf3.png)
 
 ## Захват аудио
 

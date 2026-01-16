@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Rulează detectorul de fructe la margine
 
-![O prezentare grafică a lecției](../../../../../translated_images/lesson-17.bc333c3c35ba8e42cce666cfffa82b915f787f455bd94e006aea2b6f2722421a.ro.jpg)
+![O prezentare grafică a lecției](../../../../../translated_images/ro/lesson-17.bc333c3c35ba8e42cce666cfffa82b915f787f455bd94e006aea2b6f2722421a.jpg)
 
 > Prezentare grafică realizată de [Nitya Narasimhan](https://github.com/nitya). Click pe imagine pentru o versiune mai mare.
 
@@ -42,11 +42,11 @@ Acest videoclip oferă o prezentare generală despre rularea clasificatorilor de
 
 Calculul la margine presupune utilizarea unor computere care procesează datele IoT cât mai aproape de locul unde sunt generate. În loc ca acest proces să aibă loc în cloud, el este mutat la marginea cloud-ului - în rețeaua ta internă.
 
-![O diagramă arhitecturală care arată serviciile de internet în cloud și dispozitivele IoT într-o rețea locală](../../../../../translated_images/cloud-without-edge.b4da641f6022c95ed6b91fde8b5323abd2f94e0d52073ad54172ae8f5dac90e9.ro.png)
+![O diagramă arhitecturală care arată serviciile de internet în cloud și dispozitivele IoT într-o rețea locală](../../../../../translated_images/ro/cloud-without-edge.b4da641f6022c95ed6b91fde8b5323abd2f94e0d52073ad54172ae8f5dac90e9.png)
 
 În lecțiile de până acum, ai avut dispozitive care colectează date și le trimit în cloud pentru a fi analizate, rulând funcții serverless sau modele AI în cloud.
 
-![O diagramă arhitecturală care arată dispozitivele IoT într-o rețea locală conectându-se la dispozitivele de margine, iar acestea se conectează la cloud](../../../../../translated_images/cloud-with-edge.1e26462c62c126fe150bd15a5714ddf0be599f09bacbad08b85be02b76ea1ae1.ro.png)
+![O diagramă arhitecturală care arată dispozitivele IoT într-o rețea locală conectându-se la dispozitivele de margine, iar acestea se conectează la cloud](../../../../../translated_images/ro/cloud-with-edge.1e26462c62c126fe150bd15a5714ddf0be599f09bacbad08b85be02b76ea1ae1.png)
 
 Calculul la margine presupune mutarea unor servicii cloud pe computere care rulează în aceeași rețea cu dispozitivele IoT, comunicând cu cloud-ul doar dacă este necesar. De exemplu, poți rula modele AI pe dispozitivele de margine pentru a analiza gradul de coacere al fructelor și să trimiți în cloud doar analizele, cum ar fi numărul de fructe coapte versus necoapte.
 
@@ -94,7 +94,7 @@ Pentru sistemele IoT, vei dori adesea o combinație între calculul în cloud ș
 
 ## Azure IoT Edge
 
-![Logo-ul Azure IoT Edge](../../../../../translated_images/azure-iot-edge-logo.c1c076749b5cba2e8755262fadc2f19ca1146b948d76990b1229199ac2292d79.ro.png)
+![Logo-ul Azure IoT Edge](../../../../../translated_images/ro/azure-iot-edge-logo.c1c076749b5cba2e8755262fadc2f19ca1146b948d76990b1229199ac2292d79.png)
 
 Azure IoT Edge este un serviciu care te poate ajuta să muți sarcinile de lucru din cloud la margine. Configurezi un dispozitiv ca dispozitiv de margine și, din cloud, poți implementa cod pe acel dispozitiv de margine. Acest lucru îți permite să combini capabilitățile cloud-ului și ale marginii.
 
@@ -108,7 +108,7 @@ IoT Edge este integrat în IoT Hub, astfel încât poți gestiona dispozitivele 
 
 IoT Edge rulează cod din *containere* - aplicații autonome care sunt rulate izolat de restul aplicațiilor de pe computerul tău. Când rulezi un container, acesta funcționează ca un computer separat care rulează în interiorul computerului tău, cu propriul său software, servicii și aplicații. De cele mai multe ori, containerele nu pot accesa nimic de pe computerul tău decât dacă alegi să partajezi, de exemplu, un folder cu containerul. Containerul expune apoi servicii printr-un port deschis la care te poți conecta sau pe care îl poți expune rețelei tale.
 
-![O cerere web redirecționată către un container](../../../../../translated_images/container-web-browser.4ee81dd4f0d8838ce622b2a0d600b6a4322b5d4fe43159facd87b7b34f84d66a.ro.png)
+![O cerere web redirecționată către un container](../../../../../translated_images/ro/container-web-browser.4ee81dd4f0d8838ce622b2a0d600b6a4322b5d4fe43159facd87b7b34f84d66a.png)
 
 De exemplu, poți avea un container cu un site web care rulează pe portul 80, portul HTTP implicit, și îl poți expune de pe computerul tău tot pe portul 80.
 
@@ -205,11 +205,11 @@ După ce modelul a fost antrenat, trebuie exportat ca un container.
 
 ## Pregătește containerul pentru implementare
 
-![Containerele sunt construite, apoi încărcate într-un registry de containere, și implementate de acolo pe un dispozitiv edge folosind IoT Edge](../../../../../translated_images/container-edge-flow.c246050dd60ceefdb6ace026a4ce5c6aa4112bb5898ae23fbb2ab4be29ae3e1b.ro.png)
+![Containerele sunt construite, apoi încărcate într-un registry de containere, și implementate de acolo pe un dispozitiv edge folosind IoT Edge](../../../../../translated_images/ro/container-edge-flow.c246050dd60ceefdb6ace026a4ce5c6aa4112bb5898ae23fbb2ab4be29ae3e1b.png)
 
 După ce ai descărcat modelul, acesta trebuie construit într-un container, apoi încărcat într-un registry de containere - o locație online unde poți stoca containere. IoT Edge poate apoi descărca containerul din registry și îl poate implementa pe dispozitivul tău.
 
-![Logo-ul Azure Container Registry](../../../../../translated_images/azure-container-registry-logo.09494206991d4b295025ebff7d4e2900325e527a59184ffbc8464b6ab59654be.ro.png)
+![Logo-ul Azure Container Registry](../../../../../translated_images/ro/azure-container-registry-logo.09494206991d4b295025ebff7d4e2900325e527a59184ffbc8464b6ab59654be.png)
 
 Registry-ul de containere pe care îl vei folosi pentru această lecție este Azure Container Registry. Acesta nu este un serviciu gratuit, așa că pentru a economisi bani, asigură-te că [îți cureți proiectul](../../../clean-up.md) după ce ai terminat.
 

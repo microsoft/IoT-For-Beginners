@@ -217,7 +217,7 @@ Vyeti hivi vina funguo za umma, na havihitaji kuhifadhiwa kwa usalama. Unaweza k
 
     Utaweza kuona picha iliyochukuliwa, na maadili haya katika kichupo cha **Predictions** kwenye Custom Vision.
 
-    ![Ndizi katika Custom Vision iliyotabiriwa kuwa imeiva kwa 56.8% na haijaiva kwa 43.1%](../../../../../translated_images/custom-vision-banana-prediction.30cdff4e1d72db5d9a0be0193790a47c2b387da034e12dc1314dd57ca2131b59.sw.png)
+    ![Ndizi katika Custom Vision iliyotabiriwa kuwa imeiva kwa 56.8% na haijaiva kwa 43.1%](../../../../../translated_images/sw/custom-vision-banana-prediction.30cdff4e1d72db5d9a0be0193790a47c2b387da034e12dc1314dd57ca2131b59.png)
 
 > 💁 Unaweza kupata msimbo huu katika folda ya [code-classify/wio-terminal](../../../../../4-manufacturing/lessons/2-check-fruit-from-device/code-classify/wio-terminal).
 

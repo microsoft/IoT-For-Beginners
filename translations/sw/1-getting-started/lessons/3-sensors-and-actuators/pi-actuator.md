@@ -35,7 +35,7 @@ LED ya Grove inakuja kama moduli yenye chaguo la LEDs, ikikuruhusu kuchagua rang
 
 Unganisha LED.
 
-![LED ya Grove](../../../../../translated_images/grove-led.6c853be93f473cf2c439cfc74bb1064732b22251a83cedf66e62f783f9cc1a79.sw.png)
+![LED ya Grove](../../../../../translated_images/sw/grove-led.6c853be93f473cf2c439cfc74bb1064732b22251a83cedf66e62f783f9cc1a79.png)
 
 1. Chagua LED unayoipenda na ingiza miguu yake kwenye mashimo mawili kwenye moduli ya LED.
 
@@ -49,7 +49,7 @@ Unganisha LED.
 
 1. Ukiwa na Raspberry Pi imezimwa, unganisha mwisho mwingine wa kebo ya Grove kwenye soketi ya kidijitali iliyoandikwa **D5** kwenye Grove Base hat iliyounganishwa na Pi. Soketi hii ni ya pili kutoka kushoto, kwenye safu ya soketi karibu na pini za GPIO.
 
-![LED ya Grove imeunganishwa kwenye soketi D5](../../../../../translated_images/pi-led.97f1d474981dc35d1c7996c7b17de355d3d0a6bc9606d79fa5f89df933415122.sw.png)
+![LED ya Grove imeunganishwa kwenye soketi D5](../../../../../translated_images/sw/pi-led.97f1d474981dc35d1c7996c7b17de355d3d0a6bc9606d79fa5f89df933415122.png)
 
 ## Programu ya taa ya usiku
 

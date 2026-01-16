@@ -46,7 +46,7 @@ CO_OP_TRANSLATOR_METADATA:
     >
     > Например, если вы обучили LUIS на английском языке, но хотите использовать французский как язык пользователя, вы можете перевести такие предложения, как "установить таймер на 2 минуты и 27 секунд" с английского на французский с помощью Bing Translate, а затем использовать кнопку **Listen translation**, чтобы произнести перевод в микрофон.
     >
-    > ![Кнопка прослушивания перевода в Bing Translate](../../../../../translated_images/bing-translate.348aa796d6efe2a92f41ea74a5cf42bb4c63d6faaa08e7f46924e072a35daa48.ru.png)
+    > ![Кнопка прослушивания перевода в Bing Translate](../../../../../translated_images/ru/bing-translate.348aa796d6efe2a92f41ea74a5cf42bb4c63d6faaa08e7f46924e072a35daa48.png)
 
 1. Замените объявления `recognizer_config` и `recognizer` следующим:
 

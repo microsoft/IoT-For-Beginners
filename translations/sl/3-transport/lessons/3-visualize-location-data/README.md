@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Vizualizacija podatkov o lokaciji
 
-![Sketchnote pregled te lekcije](../../../../../translated_images/lesson-13.a259db1485021be7d7c72e90842fbe0ab977529e8684c179b5fb1ea75e92b3ef.sl.jpg)
+![Sketchnote pregled te lekcije](../../../../../translated_images/sl/lesson-13.a259db1485021be7d7c72e90842fbe0ab977529e8684c179b5fb1ea75e92b3ef.jpg)
 
 > Sketchnote avtorja [Nitya Narasimhan](https://github.com/nitya). Kliknite sliko za večjo različico.
 
@@ -73,11 +73,11 @@ Vzemimo preprost primer - v projektu na kmetiji ste zajeli podatke o vlažnosti 
 
 Za človeka je razumevanje teh podatkov lahko težavno. Gre za steno številk brez pravega pomena. Kot prvi korak k vizualizaciji teh podatkov jih lahko prikažemo na linijskem grafikonu:
 
-![Linijski grafikon zgornjih podatkov](../../../../../translated_images/chart-soil-moisture.fd6d9d0cdc0b5f75e78038ecb8945dfc84b38851359de99d84b16e3336d6d7c2.sl.png)
+![Linijski grafikon zgornjih podatkov](../../../../../translated_images/sl/chart-soil-moisture.fd6d9d0cdc0b5f75e78038ecb8945dfc84b38851359de99d84b16e3336d6d7c2.png)
 
 To lahko še izboljšamo z dodajanjem črte, ki označuje, kdaj je bil avtomatski namakalni sistem vklopljen pri branju vlažnosti tal 450:
 
-![Linijski grafikon vlažnosti tal z označeno črto pri 450](../../../../../translated_images/chart-soil-moisture-relay.fbb391236d34a64d0abf1df396e9197e0a24df14150620b9cc820a64a55c9326.sl.png)
+![Linijski grafikon vlažnosti tal z označeno črto pri 450](../../../../../translated_images/sl/chart-soil-moisture-relay.fbb391236d34a64d0abf1df396e9197e0a24df14150620b9cc820a64a55c9326.png)
 
 Ta grafikon hitro pokaže ne samo, kakšne so bile ravni vlažnosti tal, temveč tudi točke, kjer je bil namakalni sistem vklopljen.
 
@@ -93,7 +93,7 @@ Pri delu z GPS podatki je najjasnejša vizualizacija pogosto prikaz podatkov na 
 
 Delo z zemljevidi je zanimiva naloga, saj je na voljo veliko možnosti, kot so Bing Maps, Leaflet, Open Street Maps in Google Maps. V tej lekciji boste spoznali [Azure Maps](https://azure.microsoft.com/services/azure-maps/?WT.mc_id=academic-17441-jabenn) in kako lahko prikažejo vaše GPS podatke.
 
-![Logotip Azure Maps](../../../../../translated_images/azure-maps-logo.35d01dcfbd81fe6140e94257aaa1538f785a58c91576d14e0ebe7a2f6c694b99.sl.png)
+![Logotip Azure Maps](../../../../../translated_images/sl/azure-maps-logo.35d01dcfbd81fe6140e94257aaa1538f785a58c91576d14e0ebe7a2f6c694b99.png)
 
 Azure Maps je "zbirka geolokacijskih storitev in SDK-jev, ki uporabljajo sveže podatke o zemljevidih za zagotavljanje geografskega konteksta spletnim in mobilnim aplikacijam." Razvijalcem so na voljo orodja za ustvarjanje čudovitih, interaktivnih zemljevidov, ki lahko na primer priporočajo prometne poti, zagotavljajo informacije o prometnih incidentih, omogočajo notranjo navigacijo, iskalne zmogljivosti, informacije o nadmorski višini, vremenske storitve in še več.
 
@@ -192,7 +192,7 @@ Zdaj lahko naredite naslednji korak, to je prikaz zemljevida na spletni strani. 
 
     Če odprete svojo datoteko `index.html` v spletnem brskalniku, bi morali videti zemljevid, osredotočen na območje Seattla.
 
-    ![Zemljevid, ki prikazuje Seattle, mesto v zvezni državi Washington, ZDA](../../../../../translated_images/map-image.8fb2c53eb23ef39c1c0a4410a5282e879b3b452b707eb066ff04c5488d3d72b7.sl.png)
+    ![Zemljevid, ki prikazuje Seattle, mesto v zvezni državi Washington, ZDA](../../../../../translated_images/sl/map-image.8fb2c53eb23ef39c1c0a4410a5282e879b3b452b707eb066ff04c5488d3d72b7.png)
 
     ✅ Eksperimentirajte s parametri za povečavo in središče, da spremenite prikaz zemljevida. Dodate lahko različne koordinate, ki ustrezajo zemljepisni širini in dolžini vaših podatkov, da ponovno centrirate zemljevid.
 
@@ -326,7 +326,7 @@ Sedaj ste pripravljeni na uporabo podatkov iz shrambe, ki ste jo ustvarili v pre
 
 1. Naložite HTML stran v svoj brskalnik. Stran bo naložila zemljevid, nato pa vse GPS podatke iz shrambe in jih prikazala na zemljevidu.
 
-    ![Zemljevid Saint Edward State Park blizu Seattla, s krogi, ki prikazujejo pot okoli roba parka](../../../../../translated_images/map-path.896832e72dc696ffe20650e4051027d4855442d955f93fdbb80bb417ca8a406f.sl.png)
+    ![Zemljevid Saint Edward State Park blizu Seattla, s krogi, ki prikazujejo pot okoli roba parka](../../../../../translated_images/sl/map-path.896832e72dc696ffe20650e4051027d4855442d955f93fdbb80bb417ca8a406f.png)
 
 > 💁 To kodo lahko najdete v [code](../../../../../3-transport/lessons/3-visualize-location-data/code) mapi.
 

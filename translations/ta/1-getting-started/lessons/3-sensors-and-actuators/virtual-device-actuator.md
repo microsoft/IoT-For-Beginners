@@ -45,11 +45,11 @@ CounterFit செயலியில் LED ஐ சேர்க்கவும்
 
     1. **Add** பொத்தானைத் தேர்ந்தெடுத்து Pin 5 இல் LED ஐ உருவாக்கவும்.
 
-    ![LED அமைப்புகள்](../../../../../translated_images/counterfit-create-led.ba9db1c9b8c622a635d6dfae5cdc4e70c2b250635bd4f0601c6cf0bd22b7ba46.ta.png)
+    ![LED அமைப்புகள்](../../../../../translated_images/ta/counterfit-create-led.ba9db1c9b8c622a635d6dfae5cdc4e70c2b250635bd4f0601c6cf0bd22b7ba46.png)
 
     LED உருவாக்கப்பட்டு செயலிகள் பட்டியலில் தோன்றும்.
 
-    ![LED உருவாக்கப்பட்டது](../../../../../translated_images/counterfit-led.c0ab02de6d256ad84d9bad4d67a7faa709f0ea83e410cfe9b5561ef0cef30b1c.ta.png)
+    ![LED உருவாக்கப்பட்டது](../../../../../translated_images/ta/counterfit-led.c0ab02de6d256ad84d9bad4d67a7faa709f0ea83e410cfe9b5561ef0cef30b1c.png)
 
     LED உருவாக்கப்பட்ட பிறகு, *Color* தேர்வியைப் பயன்படுத்தி நிறத்தை மாற்றலாம். நீங்கள் தேர்ந்தெடுத்த பிறகு **Set** பொத்தானைத் தேர்ந்தெடுத்து நிறத்தை மாற்றவும்.
 

@@ -42,7 +42,7 @@ După ce aveți datele de temperatură, puteți utiliza Jupyter Notebook-ul din 
 
     Jupyter va porni și va deschide notebook-ul în browserul dvs. Parcurgeți instrucțiunile din notebook pentru a vizualiza temperaturile măsurate și a calcula zilele de grad de creștere.
 
-    ![Notebook-ul Jupyter](../../../../../translated_images/gdd-jupyter-notebook.c5b52cf21094f158a61f47f455490fd95f1729777ff90861a4521820bf354cdc.ro.png)
+    ![Notebook-ul Jupyter](../../../../../translated_images/ro/gdd-jupyter-notebook.c5b52cf21094f158a61f47f455490fd95f1729777ff90861a4521820bf354cdc.png)
 
 ## Rubrică
 

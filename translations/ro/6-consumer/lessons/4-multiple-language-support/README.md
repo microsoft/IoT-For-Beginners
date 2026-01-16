@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Suport pentru mai multe limbi
 
-![O prezentare grafică a acestei lecții](../../../../../translated_images/lesson-24.4246968ed058510ab275052e87ef9aa89c7b2f938915d103c605c04dc6cd5bb7.ro.jpg)
+![O prezentare grafică a acestei lecții](../../../../../translated_images/ro/lesson-24.4246968ed058510ab275052e87ef9aa89c7b2f938915d103c605c04dc6cd5bb7.jpg)
 
 > Prezentare grafică realizată de [Nitya Narasimhan](https://github.com/nitya). Click pe imagine pentru o versiune mai mare.
 
@@ -83,7 +83,7 @@ Există o serie de servicii AI care pot fi utilizate din aplicațiile tale pentr
 
 ### Serviciul de vorbire Cognitive Services
 
-![Logo-ul serviciului de vorbire](../../../../../translated_images/azure-speech-logo.a1f08c4befb0159f2cb5d692d3baf5b599e7b44759d316da907bda1508f46a4a.ro.png)
+![Logo-ul serviciului de vorbire](../../../../../translated_images/ro/azure-speech-logo.a1f08c4befb0159f2cb5d692d3baf5b599e7b44759d316da907bda1508f46a4a.png)
 
 Serviciul de vorbire pe care l-ai utilizat în lecțiile anterioare are capabilități de traducere pentru recunoașterea vorbirii. Când recunoști vorbirea, poți solicita nu doar textul vorbirii în aceeași limbă, ci și în alte limbi.
 
@@ -91,7 +91,7 @@ Serviciul de vorbire pe care l-ai utilizat în lecțiile anterioare are capabili
 
 ### Serviciul Translator Cognitive Services
 
-![Logo-ul serviciului Translator](../../../../../translated_images/azure-translator-logo.c6ed3a4a433edfd2f11577eca105412c50b8396b194cbbd730723dd1d0793bcd.ro.png)
+![Logo-ul serviciului Translator](../../../../../translated_images/ro/azure-translator-logo.c6ed3a4a433edfd2f11577eca105412c50b8396b194cbbd730723dd1d0793bcd.png)
 
 Serviciul Translator este un serviciu dedicat traducerii care poate traduce textul dintr-o limbă în una sau mai multe limbi țintă. Pe lângă traducere, acesta suportă o gamă largă de funcții suplimentare, inclusiv mascarea limbajului obscen. De asemenea, îți permite să oferi o traducere specifică pentru un anumit cuvânt sau propoziție, pentru a lucra cu termeni pe care nu dorești să-i traduci sau să ai o traducere bine-cunoscută.
 
@@ -130,7 +130,7 @@ Pentru această lecție vei avea nevoie de o resursă Translator. Vei folosi API
 
 Într-o lume ideală, întreaga aplicație ar trebui să înțeleagă cât mai multe limbi diferite, de la ascultarea vorbirii, la înțelegerea limbajului, până la răspunsul cu vorbire. Acest lucru implică multă muncă, așa că serviciile de traducere pot accelera timpul de livrare al aplicației tale.
 
-![O arhitectură de cronometru inteligent care traduce japoneza în engleză, procesează în engleză, apoi traduce înapoi în japoneză](../../../../../translated_images/translated-smart-timer.08ac20057fdc5c37.ro.png)
+![O arhitectură de cronometru inteligent care traduce japoneza în engleză, procesează în engleză, apoi traduce înapoi în japoneză](../../../../../translated_images/ro/translated-smart-timer.08ac20057fdc5c37.png)
 
 Imaginează-ți că construiești un cronometru inteligent care folosește engleza de la un capăt la altul, înțelegând vorbirea în engleză și convertind-o în text, rulând înțelegerea limbajului în engleză, construind răspunsuri în engleză și răspunzând cu vorbire în engleză. Dacă ai dori să adaugi suport pentru japoneză, ai putea începe prin traducerea vorbirii japoneze în text englez, apoi păstrând nucleul aplicației la fel, apoi traducând textul răspunsului în japoneză înainte de a răspunde cu vorbire. Acest lucru ți-ar permite să adaugi rapid suport pentru japoneză și poți extinde pentru a oferi suport complet de la un capăt la altul pentru japoneză mai târziu.
 

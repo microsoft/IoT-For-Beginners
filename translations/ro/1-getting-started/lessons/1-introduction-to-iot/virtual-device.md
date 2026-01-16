@@ -154,11 +154,11 @@ Creați o aplicație Python pentru a afișa `"Hello World"` în consolă.
 
 1. Când VS Code se lansează, va activa mediul virtual Python. Mediul virtual selectat va apărea în bara de stare de jos:
 
-    ![VS Code arătând mediul virtual selectat](../../../../../translated_images/vscode-virtual-env.8ba42e04c3d533cf.ro.png)
+    ![VS Code arătând mediul virtual selectat](../../../../../translated_images/ro/vscode-virtual-env.8ba42e04c3d533cf.png)
 
 1. Dacă terminalul VS Code este deja activ când VS Code pornește, acesta nu va avea mediul virtual activat. Cel mai simplu lucru de făcut este să închideți terminalul folosind butonul **Kill the active terminal instance**:
 
-    ![Butonul VS Code Kill the active terminal instance](../../../../../translated_images/vscode-kill-terminal.1cc4de7c6f25ee08.ro.png)
+    ![Butonul VS Code Kill the active terminal instance](../../../../../translated_images/ro/vscode-kill-terminal.1cc4de7c6f25ee08.png)
 
     Puteți spune dacă terminalul are mediul virtual activat, deoarece numele mediului virtual va fi un prefix pe promptul terminalului. De exemplu, ar putea fi:
 
@@ -212,7 +212,7 @@ Ca un al doilea pas 'Hello World', veți rula aplicația CounterFit și veți co
 
     Aplicația va începe să ruleze și se va deschide în browserul dvs. web:
 
-    ![Aplicația Counter Fit rulând într-un browser](../../../../../translated_images/counterfit-first-run.433326358b669b31d0e99c3513cb01bfbb13724d162c99cdcc8f51ecf5f9c779.ro.png)
+    ![Aplicația Counter Fit rulând într-un browser](../../../../../translated_images/ro/counterfit-first-run.433326358b669b31d0e99c3513cb01bfbb13724d162c99cdcc8f51ecf5f9c779.png)
 
     Va fi marcată ca *Disconnected*, cu LED-ul din colțul din dreapta sus stins.
 
@@ -229,11 +229,11 @@ Ca un al doilea pas 'Hello World', veți rula aplicația CounterFit și veți co
 
 1. Va trebui să lansați un nou terminal VS Code selectând butonul **Create a new integrated terminal**. Acest lucru se datorează faptului că aplicația CounterFit rulează în terminalul curent.
 
-    ![Butonul VS Code Create a new integrated terminal](../../../../../translated_images/vscode-new-terminal.77db8fc0f9cd3182.ro.png)
+    ![Butonul VS Code Create a new integrated terminal](../../../../../translated_images/ro/vscode-new-terminal.77db8fc0f9cd3182.png)
 
 1. În acest nou terminal, rulați fișierul `app.py` ca înainte. Statusul CounterFit se va schimba la **Connected**, iar LED-ul se va aprinde.
 
-    ![Counter Fit arătând ca fiind conectat](../../../../../translated_images/counterfit-connected.ed30b46d8f79b0921f3fc70be10366e596a89dca3f80c2224a9d9fc98fccf884.ro.png)
+    ![Counter Fit arătând ca fiind conectat](../../../../../translated_images/ro/counterfit-connected.ed30b46d8f79b0921f3fc70be10366e596a89dca3f80c2224a9d9fc98fccf884.png)
 
 > 💁 Puteți găsi acest cod în folderul [code/virtual-device](../../../../../1-getting-started/lessons/1-introduction-to-iot/code/virtual-device).
 

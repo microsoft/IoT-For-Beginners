@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Udare automată a plantelor
 
-![O prezentare vizuală a lecției](../../../../../translated_images/lesson-7.30b5f577d3cb8e031238751475cb519c7d6dbaea261b5df4643d086ffb2a03bb.ro.jpg)
+![O prezentare vizuală a lecției](../../../../../translated_images/ro/lesson-7.30b5f577d3cb8e031238751475cb519c7d6dbaea261b5df4643d086ffb2a03bb.jpg)
 
 > Schiță realizată de [Nitya Narasimhan](https://github.com/nitya). Faceți clic pe imagine pentru o versiune mai mare.
 
@@ -41,7 +41,7 @@ Dispozitivele IoT folosesc o tensiune joasă. Deși aceasta este suficientă pen
 
 Soluția este să conectați pompa la o sursă de alimentare externă și să folosiți un actuator pentru a porni pompa, similar cu modul în care aprindeți o lumină. Este nevoie de o cantitate mică de energie (sub formă de energie din corpul dumneavoastră) pentru ca degetul să apese pe un întrerupător, iar acest lucru conectează lumina la rețeaua electrică de 110V/240V.
 
-![Un întrerupător de lumină pornește alimentarea unei lămpi](../../../../../translated_images/light-switch.760317ad6ab8bd6d611da5352dfe9c73a94a0822ccec7df3c8bae35da18e1658.ro.png)
+![Un întrerupător de lumină pornește alimentarea unei lămpi](../../../../../translated_images/ro/light-switch.760317ad6ab8bd6d611da5352dfe9c73a94a0822ccec7df3c8bae35da18e1658.png)
 
 > 🎓 [Electricitatea de rețea](https://wikipedia.org/wiki/Mains_electricity) se referă la electricitatea livrată în case și afaceri prin infrastructura națională în multe părți ale lumii.
 
@@ -55,11 +55,11 @@ Un releu este un întrerupător electromecanic care convertește un semnal elect
 
 > 🎓 [Electromagneții](https://wikipedia.org/wiki/Electromagnet) sunt magneți creați prin trecerea electricității printr-o bobină de sârmă. Când electricitatea este pornită, bobina devine magnetizată. Când electricitatea este oprită, bobina își pierde magnetismul.
 
-![Când este pornit, electromagnetul creează un câmp magnetic, activând întrerupătorul pentru circuitul de ieșire](../../../../../translated_images/relay-on.4db16a0fd6b66926.ro.png)
+![Când este pornit, electromagnetul creează un câmp magnetic, activând întrerupătorul pentru circuitul de ieșire](../../../../../translated_images/ro/relay-on.4db16a0fd6b66926.png)
 
 Într-un releu, un circuit de control alimentează electromagnetul. Când electromagnetul este pornit, acesta trage o pârghie care mișcă un întrerupător, închizând un set de contacte și completând un circuit de ieșire.
 
-![Când este oprit, electromagnetul nu creează un câmp magnetic, dezactivând întrerupătorul pentru circuitul de ieșire](../../../../../translated_images/relay-off.c34a178a2960fecd.ro.png)
+![Când este oprit, electromagnetul nu creează un câmp magnetic, dezactivând întrerupătorul pentru circuitul de ieșire](../../../../../translated_images/ro/relay-off.c34a178a2960fecd.png)
 
 Când circuitul de control este oprit, electromagnetul se oprește, eliberând pârghia și deschizând contactele, oprind circuitul de ieșire. Releele sunt actuatoare digitale - un semnal ridicat către releu îl pornește, un semnal scăzut îl oprește.
 
@@ -81,11 +81,11 @@ Când pârghia se mișcă, de obicei puteți auzi cum face contact cu electromag
 
 Electromagnetul nu are nevoie de multă putere pentru a se activa și a trage pârghia, acesta poate fi controlat folosind ieșirea de 3.3V sau 5V de la un kit de dezvoltare IoT. Circuitul de ieșire poate transporta mult mai multă putere, în funcție de releu, inclusiv tensiune de rețea sau chiar niveluri mai mari de putere pentru utilizare industrială. Astfel, un kit de dezvoltare IoT poate controla un sistem de irigații, de la o pompă mică pentru o singură plantă, până la un sistem industrial masiv pentru o fermă comercială întreagă.
 
-![Un releu Grove cu circuitul de control, circuitul de ieșire și releul etichetate](../../../../../translated_images/grove-relay-labelled.293e068f5c3c2a199bd7892f2661fdc9e10c920b535cfed317fbd6d1d4ae1168.ro.png)
+![Un releu Grove cu circuitul de control, circuitul de ieșire și releul etichetate](../../../../../translated_images/ro/grove-relay-labelled.293e068f5c3c2a199bd7892f2661fdc9e10c920b535cfed317fbd6d1d4ae1168.png)
 
 Imaginea de mai sus arată un releu Grove. Circuitul de control se conectează la un dispozitiv IoT și pornește sau oprește releul folosind 3.3V sau 5V. Circuitul de ieșire are două terminale, oricare dintre ele poate fi alimentare sau masă. Circuitul de ieșire poate gestiona până la 250V la 10A, suficient pentru o gamă de dispozitive alimentate de la rețea. Puteți găsi relee care pot gestiona chiar și niveluri mai mari de putere.
 
-![O pompă conectată printr-un releu](../../../../../translated_images/pump-wired-to-relay.66c5cfc0d8918990.ro.png)
+![O pompă conectată printr-un releu](../../../../../translated_images/ro/pump-wired-to-relay.66c5cfc0d8918990.png)
 
 În imaginea de mai sus, alimentarea este furnizată unei pompe printr-un releu. Există un fir roșu care conectează terminalul +5V al unei surse de alimentare USB la un terminal al circuitului de ieșire al releului și un alt fir roșu care conectează celălalt terminal al circuitului de ieșire la pompă. Un fir negru conectează pompa la masă pe sursa de alimentare USB. Când releul se pornește, acesta completează circuitul, trimițând 5V către pompă, pornind pompa.
 
@@ -135,7 +135,7 @@ Asigurați-vă că codul rulează pe dispozitivul și serverul local și testaț
 
 Dacă ați realizat lecția anterioară despre umiditatea solului folosind un senzor fizic, ați observat probabil că a durat câteva secunde până când citirea umidității solului a scăzut după ce ați udat planta. Acest lucru nu se întâmplă deoarece senzorul este lent, ci pentru că apa are nevoie de timp pentru a se infiltra în sol.
 💁 Dacă ai udat prea aproape de senzor, este posibil să fi observat cum citirea a scăzut rapid, apoi a revenit - acest lucru se întâmplă deoarece apa din apropierea senzorului se răspândește în restul solului, reducând umiditatea solului în jurul senzorului.
-![O citire a umidității solului de 658 nu se schimbă în timpul udării, ci scade la 320 după udare, când apa a pătruns în sol](../../../../../translated_images/soil-moisture-travel.a0e31af222cf1438.ro.png)
+![O citire a umidității solului de 658 nu se schimbă în timpul udării, ci scade la 320 după udare, când apa a pătruns în sol](../../../../../translated_images/ro/soil-moisture-travel.a0e31af222cf1438.png)
 
 În diagrama de mai sus, o citire a umidității solului indică 658. Planta este udată, dar această citire nu se schimbă imediat, deoarece apa nu a ajuns încă la senzor. Udarea poate chiar să se termine înainte ca apa să ajungă la senzor, iar valoarea scade pentru a reflecta noul nivel de umiditate.
 
@@ -157,11 +157,11 @@ Cât timp ar trebui să fie activ releul de fiecare dată? Este mai bine să fii
 
 > 💁 Acest tip de control al sincronizării este foarte specific dispozitivului IoT pe care îl construiești, proprietății pe care o măsori și senzorilor și actuatoarelor utilizate.
 
-![O plantă de căpșuni conectată la apă printr-o pompă, cu pompa conectată la un releu. Releul și un senzor de umiditate al solului din plantă sunt ambele conectate la un Raspberry Pi](../../../../../translated_images/strawberry-with-pump.b410fc72ac6aabad.ro.png)
+![O plantă de căpșuni conectată la apă printr-o pompă, cu pompa conectată la un releu. Releul și un senzor de umiditate al solului din plantă sunt ambele conectate la un Raspberry Pi](../../../../../translated_images/ro/strawberry-with-pump.b410fc72ac6aabad.png)
 
 De exemplu, am o plantă de căpșuni cu un senzor de umiditate al solului și o pompă controlată de un releu. Am observat că atunci când adaug apă, durează aproximativ 20 de secunde pentru ca citirea umidității solului să se stabilizeze. Aceasta înseamnă că trebuie să opresc releul și să aștept 20 de secunde înainte de a verifica nivelurile de umiditate. Prefer să am prea puțină apă decât prea multă - pot oricând să pornesc pompa din nou, dar nu pot elimina apa din plantă.
 
-![Pasul 1, măsoară. Pasul 2, adaugă apă. Pasul 3, așteaptă ca apa să pătrundă în sol. Pasul 4, măsoară din nou](../../../../../translated_images/soil-moisture-delay.865f3fae206db01d.ro.png)
+![Pasul 1, măsoară. Pasul 2, adaugă apă. Pasul 3, așteaptă ca apa să pătrundă în sol. Pasul 4, măsoară din nou](../../../../../translated_images/ro/soil-moisture-delay.865f3fae206db01d.png)
 
 Aceasta înseamnă că cel mai bun proces ar fi un ciclu de udare care arată astfel:
 

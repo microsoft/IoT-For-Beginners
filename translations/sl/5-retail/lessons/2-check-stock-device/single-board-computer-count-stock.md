@@ -81,7 +81,7 @@ Kot korak za odpravljanje napak lahko ne samo izpišete okvirje, temveč jih tud
 
 1. Zaženite aplikacijo s kamero, usmerjeno na nekaj zalog na polici. Videli boste datoteko `image.jpg` v raziskovalcu VS Code in jo boste lahko izbrali za ogled okvirjev.
 
-    ![4 pločevinke paradižnikove paste z okvirji okoli vsake pločevinke](../../../../../translated_images/rpi-stock-with-bounding-boxes.b5540e2ecb7cd49f.sl.jpg)
+    ![4 pločevinke paradižnikove paste z okvirji okoli vsake pločevinke](../../../../../translated_images/sl/rpi-stock-with-bounding-boxes.b5540e2ecb7cd49f.jpg)
 
 ## Štetje zalog
 

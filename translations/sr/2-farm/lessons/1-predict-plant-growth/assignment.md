@@ -42,7 +42,7 @@ CO_OP_TRANSLATOR_METADATA:
 
     Jupyter ће се покренути и отворити Notebook у вашем претраживачу. Прођите кроз упутства у Notebook-у да визуализујете измерене температуре и израчунате дане раста (GDD).
 
-    ![Jupyter Notebook](../../../../../translated_images/gdd-jupyter-notebook.c5b52cf21094f158a61f47f455490fd95f1729777ff90861a4521820bf354cdc.sr.png)
+    ![Jupyter Notebook](../../../../../translated_images/sr/gdd-jupyter-notebook.c5b52cf21094f158a61f47f455490fd95f1729777ff90861a4521820bf354cdc.png)
 
 ## Рубрика
 

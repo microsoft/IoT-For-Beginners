@@ -93,7 +93,7 @@ Huduma ya Custom Vision ina Python SDK unayoweza kutumia kutambua picha.
 
     Utaweza kuona picha iliyopigwa, na maadili haya katika tab ya **Predictions** kwenye Custom Vision.
 
-    ![Ndizi katika Custom Vision imetabiriwa kuwa imeiva kwa 56.8% na haijaiva kwa 43.1%](../../../../../translated_images/custom-vision-banana-prediction.30cdff4e1d72db5d9a0be0193790a47c2b387da034e12dc1314dd57ca2131b59.sw.png)
+    ![Ndizi katika Custom Vision imetabiriwa kuwa imeiva kwa 56.8% na haijaiva kwa 43.1%](../../../../../translated_images/sw/custom-vision-banana-prediction.30cdff4e1d72db5d9a0be0193790a47c2b387da034e12dc1314dd57ca2131b59.png)
 
 > 💁 Unaweza kupata msimbo huu katika folda ya [code-classify/pi](../../../../../4-manufacturing/lessons/2-check-fruit-from-device/code-classify/pi) au [code-classify/virtual-iot-device](../../../../../4-manufacturing/lessons/2-check-fruit-from-device/code-classify/virtual-iot-device).
 

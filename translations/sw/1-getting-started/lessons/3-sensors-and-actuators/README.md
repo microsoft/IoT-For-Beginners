@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Kuingiliana na Ulimwengu wa Kifaa kwa Vihisi na Vichochezi
 
-![Muhtasari wa somo hili kwa sketchnote](../../../../../translated_images/lesson-3.cc3b7b4cd646de598698cce043c0393fd62ef42bac2eaf60e61272cd844250f4.sw.jpg)
+![Muhtasari wa somo hili kwa sketchnote](../../../../../translated_images/sw/lesson-3.cc3b7b4cd646de598698cce043c0393fd62ef42bac2eaf60e61272cd844250f4.jpg)
 
 > Sketchnote na [Nitya Narasimhan](https://github.com/nitya). Bofya picha kwa toleo kubwa zaidi.
 
@@ -75,7 +75,7 @@ Baadhi ya vihisi vya msingi zaidi ni vya analogi. Vihisi hivi hupokea voltage ku
 
 Mfano mmoja wa hili ni potentiometer. Hii ni kidhibiti unachoweza kuzungusha kati ya nafasi mbili na kihisi kinapima mzunguko.
 
-![Potentiometer iliyowekwa katikati ikitumwa volts 5 ikirudisha volts 3.8](../../../../../translated_images/potentiometer.35a348b9ce22f6ec.sw.png)
+![Potentiometer iliyowekwa katikati ikitumwa volts 5 ikirudisha volts 3.8](../../../../../translated_images/sw/potentiometer.35a348b9ce22f6ec.png)
 
 Kifaa cha IoT kitatoa ishara ya umeme kwa potentiometer kwa voltage, kama vile volts 5 (5V). Potentiometer inaporekebishwa inabadilisha voltage inayotoka upande mwingine. Fikiria una potentiometer iliyoandikwa kama kidhibiti kinachokwenda kutoka 0 hadi [11](https://wikipedia.org/wiki/Up_to_eleven), kama kidhibiti cha sauti kwenye amplifier. Wakati potentiometer iko katika nafasi ya kuzimwa kabisa (0) basi 0V (volts 0) itatoka. Wakati iko katika nafasi ya kuwashwa kabisa (11), 5V (volts 5) itatoka.
 
@@ -101,7 +101,7 @@ Vihisi vya dijitali, kama vile vya analogi, hutambua ulimwengu wa kifaa kwa kutu
 
 Kihisi rahisi zaidi cha dijitali ni kitufe au swichi. Hiki ni kihisi chenye hali mbili, kuwashwa au kuzimwa.
 
-![Kitufe kinatumwa volts 5. Wakati hakijabonyezwa kinarejesha volts 0, wakati kimebonyezwa kinarejesha volts 5](../../../../../translated_images/button.eadb560b77ac45e56f523d9d8876e40444f63b419e33eb820082d461fa79490b.sw.png)
+![Kitufe kinatumwa volts 5. Wakati hakijabonyezwa kinarejesha volts 0, wakati kimebonyezwa kinarejesha volts 5](../../../../../translated_images/sw/button.eadb560b77ac45e56f523d9d8876e40444f63b419e33eb820082d461fa79490b.png)
 
 Pini kwenye vifaa vya IoT kama pini za GPIO zinaweza kupima ishara hii moja kwa moja kama 0 au 1. Ikiwa voltage iliyotumwa ni sawa na voltage iliyorejeshwa, thamani inayosomwa ni 1, vinginevyo thamani inayosomwa ni 0. Hakuna haja ya kubadilisha ishara, inaweza kuwa 1 au 0 tu.
 
@@ -112,7 +112,7 @@ Pini kwenye vifaa vya IoT kama pini za GPIO zinaweza kupima ishara hii moja kwa 
 
 Vihisi vya dijitali vya hali ya juu zaidi husoma thamani za analogi, kisha kuzibadilisha kwa kutumia ADC zilizojengwa ndani kuwa ishara za dijitali. Kwa mfano, kihisi cha joto cha dijitali bado kitatumia thermocouple kwa njia sawa na kihisi cha analogi, na bado kitapima mabadiliko ya voltage yanayosababishwa na upinzani wa thermocouple kwa joto la sasa. Badala ya kurudisha thamani ya analogi na kutegemea kifaa au bodi ya kiunganishi kubadilisha kuwa ishara ya dijitali, ADC iliyojengwa ndani ya kihisi itabadilisha thamani na kuituma kama mfululizo wa 0 na 1 kwa kifaa cha IoT. 0 na 1 hizi zitatumwa kwa njia sawa na ishara ya dijitali kwa kitufe ambapo 1 ni voltage kamili na 0 ni 0V.
 
-![Kihisi cha joto cha dijitali kinachobadilisha usomaji wa analogi kuwa data ya binary na 0 kama volts 0 na 1 kama volts 5 kabla ya kuituma kwa kifaa cha IoT](../../../../../translated_images/temperature-as-digital.85004491b977bae1.sw.png)
+![Kihisi cha joto cha dijitali kinachobadilisha usomaji wa analogi kuwa data ya binary na 0 kama volts 0 na 1 kama volts 5 kabla ya kuituma kwa kifaa cha IoT](../../../../../translated_images/sw/temperature-as-digital.85004491b977bae1.png)
 
 Kutuma data ya dijitali kunaruhusu vihisi kuwa vya hali ya juu zaidi na kutuma data ya kina zaidi, hata data iliyosimbwa kwa vihisi salama. Mfano mmoja ni kamera. Hiki ni kihisi kinachokamata picha na kuituma kama data ya dijitali inayojumuisha picha hiyo, kwa kawaida katika muundo uliobanwa kama JPEG, kusomwa na kifaa cha IoT. Inaweza hata kutiririsha video kwa kukamata picha na kutuma ama picha kamili fremu kwa fremu au mkondo wa video uliobanwa.
 
@@ -134,7 +134,7 @@ Baadhi ya vichochezi vya kawaida ni:
 
 Fuata mwongozo husika hapa chini ili kuongeza kichochezi kwenye kifaa chako cha IoT, kinachodhibitiwa na kihisi, ili kujenga taa ya usiku ya IoT. Itakusanya viwango vya mwanga kutoka kwa kihisi cha mwanga, na kutumia kichochezi kwa njia ya LED kutoa mwanga wakati kiwango cha mwanga kilichotambuliwa ni kidogo sana.
 
-![Chati ya mtiririko wa kazi ikionyesha viwango vya mwanga vikisomwa na kukaguliwa, na LED ikidhibitiwa](../../../../../translated_images/assignment-1-flow.7552a51acb1a5ec858dca6e855cdbb44206434006df8ba3799a25afcdab1665d.sw.png)
+![Chati ya mtiririko wa kazi ikionyesha viwango vya mwanga vikisomwa na kukaguliwa, na LED ikidhibitiwa](../../../../../translated_images/sw/assignment-1-flow.7552a51acb1a5ec858dca6e855cdbb44206434006df8ba3799a25afcdab1665d.png)
 
 * [Arduino - Wio Terminal](wio-terminal-actuator.md)
 * [Kompyuta ya bodi moja - Raspberry Pi](pi-actuator.md)
@@ -149,7 +149,7 @@ Kama vihisi, vichochezi ni vya analogi au dijitali.
 Vichochezi vya analogi huchukua ishara ya analogi na kuibadilisha kuwa aina fulani ya mwingiliano, ambapo mwingiliano hubadilika kulingana na voltage inayotolewa.
 
 Mfano mmoja ni taa inayoweza kupunguzwa mwanga, kama zile unazoweza kuwa nazo nyumbani kwako. Kiasi cha voltage kinachotolewa kwa taa huamua jinsi inavyong'aa.
-![Taa inayozimika kwa voltage ya chini na kung'aa kwa voltage ya juu](../../../../../translated_images/dimmable-light.9ceffeb195dec1a849da718b2d71b32c35171ff7dfea9c07bbf82646a67acf6b.sw.png)
+![Taa inayozimika kwa voltage ya chini na kung'aa kwa voltage ya juu](../../../../../translated_images/sw/dimmable-light.9ceffeb195dec1a849da718b2d71b32c35171ff7dfea9c07bbf82646a67acf6b.png)
 
 Kama ilivyo kwa sensa, kifaa halisi cha IoT hufanya kazi kwa ishara za kidijitali, si za analogi. Hii inamaanisha ili kutuma ishara ya analogi, kifaa cha IoT kinahitaji kigeuzi cha kidijitali kwenda analogi (DAC), aidha moja kwa moja kwenye kifaa cha IoT, au kwenye bodi ya kiunganishi. Hii itabadilisha 0s na 1s kutoka kwa kifaa cha IoT kuwa voltage ya analogi ambayo actuator inaweza kutumia.
 
@@ -164,7 +164,7 @@ Kwa mfano, unaweza kutumia PWM kudhibiti kasi ya motor.
 
 Fikiria unadhibiti motor yenye usambazaji wa 5V. Unatuma pigo fupi kwa motor yako, ukibadilisha voltage kuwa ya juu (5V) kwa sekunde mbili ya mia (0.02s). Katika muda huo motor yako inaweza kuzunguka sehemu moja ya kumi ya mzunguko, au 36°. Ishara kisha inasimama kwa sekunde mbili ya mia (0.02s), ikituma ishara ya chini (0V). Kila mzunguko wa kuwasha kisha kuzima hudumu 0.04s. Mzunguko kisha unarudiwa.
 
-![Modulation ya upana wa mapigo ikizungusha motor kwa RPM 150](../../../../../translated_images/pwm-motor-150rpm.83347ac04ca38482.sw.png)
+![Modulation ya upana wa mapigo ikizungusha motor kwa RPM 150](../../../../../translated_images/sw/pwm-motor-150rpm.83347ac04ca38482.png)
 
 Hii inamaanisha kwa sekunde moja unakuwa na mapigo 25 ya 5V ya 0.02s yanayozungusha motor, kila moja ikifuatiwa na pause ya 0.02s ya 0V ambayo haizungushi motor. Kila pigo huzungusha motor sehemu moja ya kumi ya mzunguko, ikimaanisha motor inakamilisha mizunguko 2.5 kwa sekunde. Umetumia ishara ya kidijitali kuzungusha motor kwa mizunguko 2.5 kwa sekunde, au 150 [mizunguko kwa dakika](https://wikipedia.org/wiki/Revolutions_per_minute) (kipimo kisicho rasmi cha kasi ya mzunguko).
 
@@ -175,7 +175,7 @@ Hii inamaanisha kwa sekunde moja unakuwa na mapigo 25 ya 5V ya 0.02s yanayozungu
 
 > 🎓 Wakati ishara ya PWM iko juu kwa nusu ya muda, na chini kwa nusu ya muda inajulikana kama [mzunguko wa wajibu wa 50%](https://wikipedia.org/wiki/Duty_cycle). Mizunguko ya wajibu hupimwa kama asilimia ya muda ambao ishara iko katika hali ya juu ikilinganishwa na hali ya chini.
 
-![Modulation ya upana wa mapigo ikizungusha motor kwa RPM 75](../../../../../translated_images/pwm-motor-75rpm.a5e4c939934b6e14.sw.png)
+![Modulation ya upana wa mapigo ikizungusha motor kwa RPM 75](../../../../../translated_images/sw/pwm-motor-75rpm.a5e4c939934b6e14.png)
 
 Unaweza kubadilisha kasi ya motor kwa kubadilisha ukubwa wa mapigo. Kwa mfano, kwa motor ile ile unaweza kuweka muda wa mzunguko ule ule wa 0.04s, na pigo la juu likipunguzwa nusu hadi 0.01s, na pause ya chini ikiongezeka hadi 0.03s. Unakuwa na idadi ile ile ya mapigo kwa sekunde (25), lakini kila pigo la juu ni nusu ya urefu. Pigo la nusu urefu huzungusha motor sehemu moja ya ishirini ya mzunguko, na kwa mapigo 25 kwa sekunde itakamilisha mizunguko 1.25 kwa sekunde au 75rpm. Kwa kubadilisha kasi ya mapigo ya ishara ya kidijitali umepunguza kasi ya motor ya analogi kwa nusu.
 
@@ -196,7 +196,7 @@ Actuators za kidijitali, kama sensa za kidijitali, huwa na hali mbili zinazodhib
 
 Actuator moja rahisi ya kidijitali ni LED. Wakati kifaa kinatuma ishara ya kidijitali ya 1, voltage ya juu inatumwa ambayo huwasha LED. Wakati ishara ya kidijitali ya 0 inatumwa, voltage hushuka hadi 0V na LED huzimika.
 
-![LED imezimwa kwa 0 volts na imewashwa kwa 5V](../../../../../translated_images/led.ec6d94f66676a174ad06d9fa9ea49c2ee89beb18b312d5c6476467c66375b07f.sw.png)
+![LED imezimwa kwa 0 volts na imewashwa kwa 5V](../../../../../translated_images/sw/led.ec6d94f66676a174ad06d9fa9ea49c2ee89beb18b312d5c6476467c66375b07f.png)
 
 ✅ Ni actuators gani nyingine rahisi zenye hali mbili unaweza kufikiria? Mfano mmoja ni solenoid, ambayo ni sumaku ya umeme inayoweza kuanzishwa kufanya mambo kama kusogeza bolt ya mlango kufunga/kufungua mlango.
 

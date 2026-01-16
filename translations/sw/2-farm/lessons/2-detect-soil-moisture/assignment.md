@@ -29,7 +29,7 @@ Utahitaji kurudia hatua hizi mara kadhaa ili kupata vipimo vinavyohitajika, kila
 
 Unyevu wa udongo kwa njia ya gravimetriki unakokotolewa kama ifuatavyo:
 
-![unyevu wa udongo % ni uzito wa udongo mbichi ukiondoa uzito wa udongo mkavu, kugawanywa na uzito wa udongo mkavu, kisha kuzidishwa na 100](../../../../../translated_images/gsm-calculation.6da38c6201eec14e7573bb2647aa18892883193553d23c9d77e5dc681522dfb2.sw.png)
+![unyevu wa udongo % ni uzito wa udongo mbichi ukiondoa uzito wa udongo mkavu, kugawanywa na uzito wa udongo mkavu, kisha kuzidishwa na 100](../../../../../translated_images/sw/gsm-calculation.6da38c6201eec14e7573bb2647aa18892883193553d23c9d77e5dc681522dfb2.png)
 
 * W  
 - uzito wa udongo mbichi  
@@ -38,7 +38,7 @@ Unyevu wa udongo kwa njia ya gravimetriki unakokotolewa kama ifuatavyo:
 
 Kwa mfano, tuseme una sampuli ya udongo yenye uzito wa 212g ikiwa mbichi, na 197g ikiwa mkavu.
 
-![Hesabu iliyoonyeshwa](../../../../../translated_images/gsm-calculation-example.99f9803b4f29e97668e7c15412136c0c399ab12dbba0b89596fdae9d8aedb6fb.sw.png)
+![Hesabu iliyoonyeshwa](../../../../../translated_images/sw/gsm-calculation-example.99f9803b4f29e97668e7c15412136c0c399ab12dbba0b89596fdae9d8aedb6fb.png)
 
 * W = 212g  
 * W = 197g  

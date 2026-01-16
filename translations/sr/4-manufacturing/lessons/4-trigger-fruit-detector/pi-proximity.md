@@ -29,13 +29,13 @@ Grove сензор удаљености може се повезати са Rasp
 
 Повежите сензор удаљености.
 
-![Grove сензор удаљености](../../../../../translated_images/grove-time-of-flight-sensor.d82ff2165bfded9f485de54d8d07195a6270a602696825fca19f629ddfe94e86.sr.png)
+![Grove сензор удаљености](../../../../../translated_images/sr/grove-time-of-flight-sensor.d82ff2165bfded9f485de54d8d07195a6270a602696825fca19f629ddfe94e86.png)
 
 1. Уметните један крај Grove кабла у прикључак на сензору удаљености. Кабл ће ући само на један начин.
 
 1. Са искљученим Raspberry Pi-јем, повежите други крај Grove кабла у један од I²C прикључака означених **I²C** на Grove Base хату који је прикључен на Pi. Ови прикључци се налазе на доњем реду, супротном крају од GPIO пинова и поред слота за камеру.
 
-![Grove сензор удаљености повезан на I²C прикључак](../../../../../translated_images/pi-time-of-flight-sensor.58c8dc04eb3bfb57.sr.png)
+![Grove сензор удаљености повезан на I²C прикључак](../../../../../translated_images/sr/pi-time-of-flight-sensor.58c8dc04eb3bfb57.png)
 
 ## Програмирање сензора удаљености
 
@@ -106,7 +106,7 @@ Raspberry Pi сада може бити програмиран да корист
 
     Мерач удаљености је на задњој страни сензора, па се уверите да користите исправну страну приликом мерења удаљености.
 
-    ![Мерач удаљености на задњој страни сензора удаљености усмерен ка банани](../../../../../translated_images/time-of-flight-banana.079921ad8b1496e4.sr.png)
+    ![Мерач удаљености на задњој страни сензора удаљености усмерен ка банани](../../../../../translated_images/sr/time-of-flight-banana.079921ad8b1496e4.png)
 
 > 💁 Овај код можете пронаћи у [code-proximity/pi](../../../../../4-manufacturing/lessons/4-trigger-fruit-detector/code-proximity/pi) фасцикли.
 

@@ -22,7 +22,7 @@ I²C are o magistrală formată din 2 fire principale, împreună cu 2 fire de a
 | VCC | Colector comun de tensiune | Alimentarea dispozitivelor. Acesta este conectat la firele SDA și SCL pentru a le furniza energie printr-un rezistor pull-up care oprește semnalul atunci când niciun dispozitiv nu este controler. |
 | GND | Masă | Oferă o masă comună pentru circuitul electric. |
 
-![Magistrala I2C cu 3 dispozitive conectate la firele SDA și SCL, împărțind un fir comun de masă](../../../../../translated_images/i2c.83da845dde02256bdd462dbe0d5145461416b74930571b89d1ae142841eeb584.ro.png)
+![Magistrala I2C cu 3 dispozitive conectate la firele SDA și SCL, împărțind un fir comun de masă](../../../../../translated_images/ro/i2c.83da845dde02256bdd462dbe0d5145461416b74930571b89d1ae142841eeb584.png)
 
 Pentru a trimite date, un dispozitiv va emite o condiție de start pentru a arăta că este pregătit să trimită date. Acesta va deveni apoi controlerul. Controlerul trimite adresa dispozitivului cu care dorește să comunice, împreună cu informația dacă dorește să citească sau să scrie date. După ce datele au fost transmise, controlerul trimite o condiție de stop pentru a indica faptul că a terminat. După aceasta, un alt dispozitiv poate deveni controler și poate trimite sau primi date.
 
@@ -37,7 +37,7 @@ UART implică un circuit fizic care permite comunicarea între două dispozitive
 * Dispozitivul 1 transmite date de la pinul său Tx, care sunt recepționate de dispozitivul 2 pe pinul său Rx
 * Dispozitivul 1 primește date pe pinul său Rx, care sunt transmise de dispozitivul 2 de la pinul său Tx
 
-![UART cu pinul Tx al unui cip conectat la pinul Rx al altuia și viceversa](../../../../../translated_images/uart.d0dbd3fb9e3728c6.ro.png)
+![UART cu pinul Tx al unui cip conectat la pinul Rx al altuia și viceversa](../../../../../translated_images/ro/uart.d0dbd3fb9e3728c6.png)
 
 > 🎓 Datele sunt trimise câte un bit pe rând, iar acest lucru este cunoscut sub numele de comunicare *serială*. Majoritatea sistemelor de operare și microcontrolerelor au *porturi seriale*, adică conexiuni care pot trimite și primi date seriale disponibile pentru codul tău.
 
@@ -66,7 +66,7 @@ Controlerele SPI folosesc 3 fire, împreună cu 1 fir suplimentar per periferic.
 | SCLK | Ceas Serial | Acest fir trimite un semnal de ceas la o rată stabilită de controler. |
 | CS   | Selectare Cip | Controlerul are mai multe fire, câte unul pentru fiecare periferic, iar fiecare fir se conectează la firul CS al perifericului corespunzător. |
 
-![SPI cu un controler și două periferice](../../../../../translated_images/spi.297431d6f98b386b.ro.png)
+![SPI cu un controler și două periferice](../../../../../translated_images/ro/spi.297431d6f98b386b.png)
 
 Firul CS este utilizat pentru a activa un singur periferic la un moment dat, comunicând prin firele COPI și CIPO. Când controlerul trebuie să schimbe perifericul, dezactivează firul CS conectat la perifericul activ curent, apoi activează firul conectat la perifericul cu care dorește să comunice următorul.
 
@@ -127,13 +127,13 @@ Umiditatea solului este măsurată folosind conținutul gravimetric sau volumetr
 
 Senzorii de umiditate a solului măsoară rezistența sau capacitatea electrică - aceasta nu variază doar în funcție de umiditatea solului, ci și de tipul de sol, deoarece componentele din sol pot schimba caracteristicile electrice ale acestuia. Ideal, senzorii ar trebui calibrați - adică luarea măsurătorilor de la senzor și compararea lor cu măsurători obținute printr-o metodă mai științifică. De exemplu, un laborator poate calcula umiditatea gravimetrică a solului folosind mostre dintr-un câmp specific luate de câteva ori pe an, iar aceste valori pot fi utilizate pentru a calibra senzorul, potrivind citirea senzorului cu umiditatea gravimetrică a solului.
 
-![Un grafic al tensiunii vs conținutul de umiditate al solului](../../../../../translated_images/soil-moisture-to-voltage.df86d80cda158700.ro.png)
+![Un grafic al tensiunii vs conținutul de umiditate al solului](../../../../../translated_images/ro/soil-moisture-to-voltage.df86d80cda158700.png)
 
 Graficul de mai sus arată cum să calibrezi un senzor. Tensiunea este capturată pentru o mostră de sol care este apoi măsurată într-un laborator prin compararea greutății umede cu greutatea uscată (măsurând greutatea umedă, apoi uscând-o într-un cuptor și măsurând greutatea uscată). Odată ce câteva măsurători au fost luate, acestea pot fi reprezentate pe un grafic, iar o linie poate fi ajustată punctelor. Această linie poate fi apoi utilizată pentru a converti citirile senzorului de umiditate a solului luate de un dispozitiv IoT în măsurători reale ale umidității solului.
 
 💁 Pentru senzorii rezistivi de umiditate a solului, tensiunea crește pe măsură ce umiditatea solului crește. Pentru senzorii capacitivi de umiditate a solului, tensiunea scade pe măsură ce umiditatea solului crește, astfel încât graficele pentru aceștia ar avea o pantă descendentă, nu ascendentă.
 
-![O valoare a umidității solului interpolată din grafic](../../../../../translated_images/soil-moisture-to-voltage-with-reading.681cb3e1f8b68caf.ro.png)
+![O valoare a umidității solului interpolată din grafic](../../../../../translated_images/ro/soil-moisture-to-voltage-with-reading.681cb3e1f8b68caf.png)
 
 Graficul de mai sus arată o citire a tensiunii de la un senzor de umiditate a solului, iar urmărind aceasta până la linia de pe grafic, umiditatea reală a solului poate fi calculată.
 

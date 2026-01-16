@@ -29,13 +29,13 @@ CO_OP_TRANSLATOR_METADATA:
 
 Подключите датчик Time of Flight.
 
-![Датчик Grove Time of Flight](../../../../../translated_images/grove-time-of-flight-sensor.d82ff2165bfded9f485de54d8d07195a6270a602696825fca19f629ddfe94e86.ru.png)
+![Датчик Grove Time of Flight](../../../../../translated_images/ru/grove-time-of-flight-sensor.d82ff2165bfded9f485de54d8d07195a6270a602696825fca19f629ddfe94e86.png)
 
 1. Вставьте один конец кабеля Grove в разъем на датчике Time of Flight. Кабель вставляется только одной стороной.
 
 1. С выключенным Raspberry Pi подключите другой конец кабеля Grove к одному из разъемов I²C, обозначенных как **I²C**, на Grove Base Hat, установленном на Raspberry Pi. Эти разъемы находятся в нижнем ряду, на противоположной стороне от GPIO-пинов и рядом со слотом для кабеля камеры.
 
-![Датчик Grove Time of Flight, подключенный к разъему I²C](../../../../../translated_images/pi-time-of-flight-sensor.58c8dc04eb3bfb57.ru.png)
+![Датчик Grove Time of Flight, подключенный к разъему I²C](../../../../../translated_images/ru/pi-time-of-flight-sensor.58c8dc04eb3bfb57.png)
 
 ## Программирование датчика Time of Flight
 
@@ -106,7 +106,7 @@ CO_OP_TRANSLATOR_METADATA:
 
     Дальномер находится на задней стороне датчика, поэтому убедитесь, что вы используете правильную сторону при измерении расстояния.
 
-    ![Дальномер на задней стороне датчика Time of Flight, направленный на банан](../../../../../translated_images/time-of-flight-banana.079921ad8b1496e4.ru.png)
+    ![Дальномер на задней стороне датчика Time of Flight, направленный на банан](../../../../../translated_images/ru/time-of-flight-banana.079921ad8b1496e4.png)
 
 > 💁 Этот код можно найти в папке [code-proximity/pi](../../../../../4-manufacturing/lessons/4-trigger-fruit-detector/code-proximity/pi).
 

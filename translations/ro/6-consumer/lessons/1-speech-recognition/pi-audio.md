@@ -25,13 +25,13 @@ Butonul poate fi conectat la baza Grove hat.
 
 #### Sarcină - conectează butonul
 
-![Un buton Grove](../../../../../translated_images/grove-button.a70cfbb809a8563681003250cf5b06d68cdcc68624f9e2f493d5a534ae2da1e5.ro.png)
+![Un buton Grove](../../../../../translated_images/ro/grove-button.a70cfbb809a8563681003250cf5b06d68cdcc68624f9e2f493d5a534ae2da1e5.png)
 
 1. Introdu un capăt al unui cablu Grove în mufa de pe modulul butonului. Acesta va intra doar într-un singur sens.
 
 1. Cu Raspberry Pi-ul oprit, conectează celălalt capăt al cablului Grove la mufa digitală marcată **D5** de pe baza Grove hat atașată la Pi. Această mufă este a doua de la stânga, pe rândul de mufe de lângă pini GPIO.
 
-![Butonul Grove conectat la mufa D5](../../../../../translated_images/pi-button.c7a1a4f55943341ce1baf1057658e9a205804d4131d258e820c93f951df0abf3.ro.png)
+![Butonul Grove conectat la mufa D5](../../../../../translated_images/ro/pi-button.c7a1a4f55943341ce1baf1057658e9a205804d4131d258e820c93f951df0abf3.png)
 
 ## Capturarea audio
 

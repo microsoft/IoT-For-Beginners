@@ -64,7 +64,7 @@ Pripojte Wio Terminal k WiFi.
 
 1. Vytvorte nový súbor v priečinku `src` s názvom `config.h`. Môžete to urobiť tak, že vyberiete priečinok `src` alebo súbor `main.cpp` vo vnútri a kliknete na tlačidlo **New file** v prieskumníku. Toto tlačidlo sa zobrazí iba vtedy, keď je kurzor nad prieskumníkom.
 
-    ![Tlačidlo na vytvorenie nového súboru](../../../../../translated_images/vscode-new-file-button.182702340fe6723c.sk.png)
+    ![Tlačidlo na vytvorenie nového súboru](../../../../../translated_images/sk/vscode-new-file-button.182702340fe6723c.png)
 
 1. Pridajte nasledujúci kód do tohto súboru na definovanie konštánt pre vaše WiFi prihlasovacie údaje:
 

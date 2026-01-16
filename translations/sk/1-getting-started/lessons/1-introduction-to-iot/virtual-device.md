@@ -154,11 +154,11 @@ Vytvorte Python aplikáciu, ktorá vypíše `"Hello World"` do konzoly.
 
 1. Keď sa VS Code spustí, aktivuje virtuálne prostredie Pythonu. Vybrané virtuálne prostredie sa zobrazí v dolnom stavovom riadku:
 
-    ![VS Code zobrazujúci vybrané virtuálne prostredie](../../../../../translated_images/vscode-virtual-env.8ba42e04c3d533cf.sk.png)
+    ![VS Code zobrazujúci vybrané virtuálne prostredie](../../../../../translated_images/sk/vscode-virtual-env.8ba42e04c3d533cf.png)
 
 1. Ak je terminál VS Code už spustený, keď sa VS Code spustí, virtuálne prostredie v ňom nebude aktivované. Najjednoduchšie je zabiť terminál pomocou tlačidla **Kill the active terminal instance**:
 
-    ![Tlačidlo VS Code Kill the active terminal instance](../../../../../translated_images/vscode-kill-terminal.1cc4de7c6f25ee08.sk.png)
+    ![Tlačidlo VS Code Kill the active terminal instance](../../../../../translated_images/sk/vscode-kill-terminal.1cc4de7c6f25ee08.png)
 
     Môžete zistiť, či je virtuálne prostredie aktivované v termináli, pretože názov virtuálneho prostredia bude predponou na výzve terminálu. Napríklad to môže byť:
 
@@ -212,7 +212,7 @@ Ako druhý krok 'Hello World' spustíte aplikáciu CounterFit a pripojíte k nej
 
     Aplikácia sa spustí a otvorí vo vašom webovom prehliadači:
 
-    ![Aplikácia Counter Fit spustená v prehliadači](../../../../../translated_images/counterfit-first-run.433326358b669b31d0e99c3513cb01bfbb13724d162c99cdcc8f51ecf5f9c779.sk.png)
+    ![Aplikácia Counter Fit spustená v prehliadači](../../../../../translated_images/sk/counterfit-first-run.433326358b669b31d0e99c3513cb01bfbb13724d162c99cdcc8f51ecf5f9c779.png)
 
     Bude označená ako *Disconnected* a LED v pravom hornom rohu bude vypnutá.
 
@@ -229,11 +229,11 @@ Ako druhý krok 'Hello World' spustíte aplikáciu CounterFit a pripojíte k nej
 
 1. Budete musieť spustiť nový terminál VS Code výberom tlačidla **Create a new integrated terminal**. Je to preto, že aplikácia CounterFit beží v aktuálnom termináli.
 
-    ![Tlačidlo VS Code Create a new integrated terminal](../../../../../translated_images/vscode-new-terminal.77db8fc0f9cd3182.sk.png)
+    ![Tlačidlo VS Code Create a new integrated terminal](../../../../../translated_images/sk/vscode-new-terminal.77db8fc0f9cd3182.png)
 
 1. V tomto novom termináli spustite súbor `app.py` ako predtým. Stav CounterFit sa zmení na **Connected** a LED sa rozsvieti.
 
-    ![Counter Fit zobrazuje stav Connected](../../../../../translated_images/counterfit-connected.ed30b46d8f79b0921f3fc70be10366e596a89dca3f80c2224a9d9fc98fccf884.sk.png)
+    ![Counter Fit zobrazuje stav Connected](../../../../../translated_images/sk/counterfit-connected.ed30b46d8f79b0921f3fc70be10366e596a89dca3f80c2224a9d9fc98fccf884.png)
 
 > 💁 Tento kód nájdete v priečinku [code/virtual-device](../../../../../1-getting-started/lessons/1-introduction-to-iot/code/virtual-device).
 

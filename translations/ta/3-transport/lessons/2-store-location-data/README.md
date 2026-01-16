@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # கடை இடம் தரவுகள்
 
-![இந்த பாடத்தின் சுருக்கமான ஸ்கெட்ச்](../../../../../translated_images/lesson-12.ca7f53039712a3ec14ad6474d8445361c84adab643edc53fa6269b77895606bb.ta.jpg)
+![இந்த பாடத்தின் சுருக்கமான ஸ்கெட்ச்](../../../../../translated_images/ta/lesson-12.ca7f53039712a3ec14ad6474d8445361c84adab643edc53fa6269b77895606bb.jpg)
 
 > ஸ்கெட்ச்: [நித்யா நரசிம்மன்](https://github.com/nitya). படத்தை கிளிக் செய்து பெரிய பதிப்பைப் பாருங்கள்.
 
@@ -79,7 +79,7 @@ IoT தரவுகள் பொதுவாக கட்டமைக்கப�
 
 ## Azure சேமிப்பு கணக்குகள்
 
-![Azure சேமிப்பு லோகோ](../../../../../translated_images/azure-storage-logo.605c0f602c640d482a80f1b35a2629a32d595711b7ab1d7ceea843250615ff32.ta.png)
+![Azure சேமிப்பு லோகோ](../../../../../translated_images/ta/azure-storage-logo.605c0f602c640d482a80f1b35a2629a32d595711b7ab1d7ceea843250615ff32.png)
 
 Azure சேமிப்பு கணக்குகள் பல்வேறு முறைகளில் தரவை சேமிக்க உதவும் ஒரு பொதுவான சேமிப்பு சேவையாகும். நீங்கள் தரவை blobs, queues, tables அல்லது கோப்புகளாக சேமிக்கலாம், மேலும் அவற்றை ஒரே நேரத்தில் செய்யலாம்.
 
@@ -118,7 +118,7 @@ File சேமிப்பு என்பது cloud இல் கோப்ப
 
 இந்த பாடத்தில், blob சேமிப்புடன் தொடர்பு கொள்ள Python SDK ஐப் பயன்படுத்துவீர்கள்.
 
-![IoT சாதனத்திலிருந்து GPS தகவல்தொகுப்பை IoT Hub-க்கு அனுப்பி, பின்னர் Azure Functions-க்கு ஒரு event hub trigger மூலம், பின்னர் blob சேமிப்பில் சேமிக்க](../../../../../translated_images/save-telemetry-to-storage-from-functions.ed3b1820980097f1.ta.png)
+![IoT சாதனத்திலிருந்து GPS தகவல்தொகுப்பை IoT Hub-க்கு அனுப்பி, பின்னர் Azure Functions-க்கு ஒரு event hub trigger மூலம், பின்னர் blob சேமிப்பில் சேமிக்க](../../../../../translated_images/ta/save-telemetry-to-storage-from-functions.ed3b1820980097f1.png)
 
 தரவு JSON blob ஆக பின்வரும் வடிவத்தில் சேமிக்கப்படும்:
 

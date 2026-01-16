@@ -27,13 +27,13 @@ Releul Grove poate fi conectat la Raspberry Pi.
 
 Conectați releul.
 
-![Un releu Grove](../../../../../translated_images/grove-relay.d426958ca210fbd0fb7983d7edc069d46c73a8b0a099d94797bd756f7b6bb6be.ro.png)
+![Un releu Grove](../../../../../translated_images/ro/grove-relay.d426958ca210fbd0fb7983d7edc069d46c73a8b0a099d94797bd756f7b6bb6be.png)
 
 1. Introduceți un capăt al unui cablu Grove în soclul releului. Acesta va intra doar într-un singur mod.
 
 1. Cu Raspberry Pi oprit, conectați celălalt capăt al cablului Grove la soclul digital marcat **D5** pe Grove Base Hat atașat la Pi. Acest soclu este al doilea de la stânga, pe rândul de socluri de lângă pinii GPIO. Lăsați senzorul de umiditate a solului conectat la soclul **A0**.
 
-![Releul Grove conectat la soclul D5 și senzorul de umiditate a solului conectat la soclul A0](../../../../../translated_images/pi-relay-and-soil-moisture-sensor.02f3198975b8c53e69ec716cd2719ce117700bd1fc933eaf93476c103c57939b.ro.png)
+![Releul Grove conectat la soclul D5 și senzorul de umiditate a solului conectat la soclul A0](../../../../../translated_images/ro/pi-relay-and-soil-moisture-sensor.02f3198975b8c53e69ec716cd2719ce117700bd1fc933eaf93476c103c57939b.png)
 
 1. Introduceți senzorul de umiditate a solului în pământ, dacă nu este deja introdus din lecția anterioară.
 

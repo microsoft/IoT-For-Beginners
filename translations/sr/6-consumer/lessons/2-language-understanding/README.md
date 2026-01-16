@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Разумевање језика
 
-![Преглед лекције у виду скице](../../../../../translated_images/lesson-22.6148ea28500d9e00c396aaa2649935fb6641362c8f03d8e5e90a676977ab01dd.sr.jpg)
+![Преглед лекције у виду скице](../../../../../translated_images/sr/lesson-22.6148ea28500d9e00c396aaa2649935fb6641362c8f03d8e5e90a676977ab01dd.jpg)
 
 > Скица коју је направила [Нитија Нарасимхан](https://github.com/nitya). Кликните на слику за већу верзију.
 
@@ -55,7 +55,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 ## Креирање модела за разумевање језика
 
-![Лого LUIS-а](../../../../../translated_images/luis-logo.5cb4f3e88c020ee6df4f614e8831f4a4b6809a7247bf52085fb48d629ef9be52.sr.png)
+![Лого LUIS-а](../../../../../translated_images/sr/luis-logo.5cb4f3e88c020ee6df4f614e8831f4a4b6809a7247bf52085fb48d629ef9be52.png)
 
 Моделе за разумевање језика можете креирати користећи LUIS, услугу за разумевање језика компаније Microsoft која је део Cognitive Services.
 
@@ -126,7 +126,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Затим кажете LUIS-у који делови ових реченица одговарају ентитетима:
 
-![Реченица „подеси тајмер на 1 минут и 12 секунди“ разложена на ентитете](../../../../../translated_images/sentence-as-intent-entities.301401696f992259.sr.png)
+![Реченица „подеси тајмер на 1 минут и 12 секунди“ разложена на ентитете](../../../../../translated_images/sr/sentence-as-intent-entities.301401696f992259.png)
 
 Реченица `подеси тајмер на 1 минут и 12 секунди` има намеру `подеси тајмер`. Такође има 2 ентитета са по 2 вредности:
 
@@ -178,7 +178,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 1. Како уносите сваки пример, LUIS ће почети да детектује ентитете и подвлачиће и означавати све које пронађе.
 
-    ![Примери са бројевима и јединицама времена подвученим од стране LUIS-а](../../../../../translated_images/luis-intent-examples.25716580b2d2723cf1bafdf277d015c7f046d8cfa20f27bddf3a0873ec45fab7.sr.png)
+    ![Примери са бројевима и јединицама времена подвученим од стране LUIS-а](../../../../../translated_images/sr/luis-intent-examples.25716580b2d2723cf1bafdf277d015c7f046d8cfa20f27bddf3a0873ec45fab7.png)
 
 ### Задатак - обука и тестирање модела
 

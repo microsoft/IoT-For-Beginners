@@ -43,11 +43,11 @@ Lägg till kameran i CounterFit-appen.
 
     1. Välj knappen **Add** för att skapa kameran.
 
-    ![Kamerainställningarna](../../../../../translated_images/counterfit-create-camera.a5de97f59c0bd3cbe0416d7e89a3cfe86d19fbae05c641c53a91286412af0a34.sv.png)
+    ![Kamerainställningarna](../../../../../translated_images/sv/counterfit-create-camera.a5de97f59c0bd3cbe0416d7e89a3cfe86d19fbae05c641c53a91286412af0a34.png)
 
     Kameran kommer att skapas och visas i sensorlistan.
 
-    ![Kameran skapad](../../../../../translated_images/counterfit-camera.001ec52194c8ee5d3f617173da2c79e1df903d10882adc625cbfc493525125d4.sv.png)
+    ![Kameran skapad](../../../../../translated_images/sv/counterfit-camera.001ec52194c8ee5d3f617173da2c79e1df903d10882adc625cbfc493525125d4.png)
 
 ## Programmera kameran
 
@@ -112,7 +112,7 @@ Programmera enheten.
 
 1. Konfigurera bilden som kameran i CounterFit kommer att ta. Du kan antingen ställa in *Source* till *File*, sedan ladda upp en bildfil, eller ställa in *Source* till *WebCam*, och bilder kommer att tas från din webbkamera. Se till att du väljer knappen **Set** efter att ha valt en bild eller din webbkamera.
 
-    ![CounterFit med en fil inställd som bildkälla och en webbkamera som visar en person som håller en banan i en förhandsvisning av webbkameran](../../../../../translated_images/counterfit-camera-options.eb3bd5150a8e7dffbf24bc5bcaba0cf2cdef95fbe6bbe393695d173817d6b8df.sv.png)
+    ![CounterFit med en fil inställd som bildkälla och en webbkamera som visar en person som håller en banan i en förhandsvisning av webbkameran](../../../../../translated_images/sv/counterfit-camera-options.eb3bd5150a8e7dffbf24bc5bcaba0cf2cdef95fbe6bbe393695d173817d6b8df.png)
 
 1. En bild kommer att tas och sparas som `image.jpg` i den aktuella mappen. Du kommer att se denna fil i VS Code explorer. Välj filen för att visa bilden. Om den behöver roteras, uppdatera raden `camera.rotation = 0` som nödvändigt och ta en ny bild.
 

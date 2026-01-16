@@ -15,11 +15,11 @@ Nesta parte da lição, irá adicionar altifalantes ao seu Wio Terminal. O Wio T
 
 O Wio Terminal já tem um microfone integrado, que pode ser usado para captar áudio para reconhecimento de voz.
 
-![O microfone no Wio Terminal](../../../../../translated_images/wio-mic.3f8c843dbe8ad917.pt.png)
+![O microfone no Wio Terminal](../../../../../translated_images/pt/wio-mic.3f8c843dbe8ad917.png)
 
 Para adicionar um altifalante, pode usar o [ReSpeaker 2-Mics Pi Hat](https://www.seeedstudio.com/ReSpeaker-2-Mics-Pi-HAT.html). Este é um módulo externo que contém 2 microfones MEMS, bem como um conector para altifalantes e uma entrada para auscultadores.
 
-![O ReSpeaker 2-Mics Pi Hat](../../../../../translated_images/respeaker.f5d19d1c6b14ab16.pt.png)
+![O ReSpeaker 2-Mics Pi Hat](../../../../../translated_images/pt/respeaker.f5d19d1c6b14ab16.png)
 
 Será necessário adicionar auscultadores, um altifalante com ficha de 3,5mm ou um altifalante com ligação JST, como o [Mono Enclosed Speaker - 2W 6 Ohm](https://www.seeedstudio.com/Mono-Enclosed-Speaker-2W-6-Ohm-p-2832.html).
 
@@ -35,7 +35,7 @@ Também irá precisar de um cartão SD para descarregar e reproduzir áudio. O W
 
     Os pinos devem ser conectados desta forma:
 
-    ![Um diagrama de pinos](../../../../../translated_images/wio-respeaker-wiring-0.767f80aa65081038.pt.png)
+    ![Um diagrama de pinos](../../../../../translated_images/pt/wio-respeaker-wiring-0.767f80aa65081038.png)
 
 1. Posicione o ReSpeaker e o Wio Terminal com os conectores GPIO voltados para cima e do lado esquerdo.
 
@@ -43,33 +43,33 @@ Também irá precisar de um cartão SD para descarregar e reproduzir áudio. O W
 
 1. Repita este processo ao longo dos conectores GPIO do lado esquerdo. Certifique-se de que os pinos estão bem encaixados.
 
-    ![Um ReSpeaker com os pinos do lado esquerdo ligados aos pinos do lado esquerdo do Wio Terminal](../../../../../translated_images/wio-respeaker-wiring-1.8d894727f2ba2400.pt.png)
+    ![Um ReSpeaker com os pinos do lado esquerdo ligados aos pinos do lado esquerdo do Wio Terminal](../../../../../translated_images/pt/wio-respeaker-wiring-1.8d894727f2ba2400.png)
 
-    ![Um ReSpeaker com os pinos do lado esquerdo ligados aos pinos do lado esquerdo do Wio Terminal](../../../../../translated_images/wio-respeaker-wiring-2.329e1cbd306e754f.pt.png)
+    ![Um ReSpeaker com os pinos do lado esquerdo ligados aos pinos do lado esquerdo do Wio Terminal](../../../../../translated_images/pt/wio-respeaker-wiring-2.329e1cbd306e754f.png)
 
     > 💁 Se os seus cabos de ligação estiverem agrupados em fitas, mantenha-os juntos - isso facilita garantir que todos os cabos estão conectados na ordem correta.
 
 1. Repita o processo usando os conectores GPIO do lado direito do ReSpeaker e do Wio Terminal. Estes cabos devem passar por cima dos cabos já conectados.
 
-    ![Um ReSpeaker com os pinos do lado direito ligados aos pinos do lado direito do Wio Terminal](../../../../../translated_images/wio-respeaker-wiring-3.75b0be447e2fa930.pt.png)
+    ![Um ReSpeaker com os pinos do lado direito ligados aos pinos do lado direito do Wio Terminal](../../../../../translated_images/pt/wio-respeaker-wiring-3.75b0be447e2fa930.png)
 
-    ![Um ReSpeaker com os pinos do lado direito ligados aos pinos do lado direito do Wio Terminal](../../../../../translated_images/wio-respeaker-wiring-4.aa9cd434d8779437.pt.png)
+    ![Um ReSpeaker com os pinos do lado direito ligados aos pinos do lado direito do Wio Terminal](../../../../../translated_images/pt/wio-respeaker-wiring-4.aa9cd434d8779437.png)
 
     > 💁 Se os seus cabos de ligação estiverem agrupados em fitas, divida-os em duas fitas. Passe uma fita de cada lado dos cabos já existentes.
 
     > 💁 Pode usar fita adesiva para segurar os pinos em bloco e evitar que se soltem enquanto os conecta.
     >
-    > ![Os pinos fixados com fita adesiva](../../../../../translated_images/wio-respeaker-wiring-5.af117c20acf622f3.pt.png)
+    > ![Os pinos fixados com fita adesiva](../../../../../translated_images/pt/wio-respeaker-wiring-5.af117c20acf622f3.png)
 
 1. Será necessário adicionar um altifalante.
 
     * Se estiver a usar um altifalante com cabo JST, conecte-o à porta JST no ReSpeaker.
 
-      ![Um altifalante conectado ao ReSpeaker com um cabo JST](../../../../../translated_images/respeaker-jst-speaker.a441d177809df945.pt.png)
+      ![Um altifalante conectado ao ReSpeaker com um cabo JST](../../../../../translated_images/pt/respeaker-jst-speaker.a441d177809df945.png)
 
     * Se estiver a usar um altifalante com ficha de 3,5mm ou auscultadores, insira-os na entrada de 3,5mm.
 
-      ![Um altifalante conectado ao ReSpeaker através da entrada de 3,5mm](../../../../../translated_images/respeaker-35mm-speaker.ad79ef4f128c7751.pt.png)
+      ![Um altifalante conectado ao ReSpeaker através da entrada de 3,5mm](../../../../../translated_images/pt/respeaker-35mm-speaker.ad79ef4f128c7751.png)
 
 ### Tarefa - configurar o cartão SD
 
@@ -79,7 +79,7 @@ Também irá precisar de um cartão SD para descarregar e reproduzir áudio. O W
 
 1. Insira o cartão SD na entrada de cartões SD no lado esquerdo do Wio Terminal, logo abaixo do botão de ligar/desligar. Certifique-se de que o cartão está completamente inserido e faz um clique - pode precisar de uma ferramenta fina ou outro cartão SD para ajudar a empurrá-lo completamente.
 
-    ![Inserir o cartão SD na entrada de cartões SD abaixo do botão de ligar/desligar](../../../../../translated_images/wio-sd-card.acdcbe322fa4ee7f.pt.png)
+    ![Inserir o cartão SD na entrada de cartões SD abaixo do botão de ligar/desligar](../../../../../translated_images/pt/wio-sd-card.acdcbe322fa4ee7f.png)
 
     > 💁 Para ejetar o cartão SD, precisa de empurrá-lo ligeiramente e ele será ejetado. Será necessário usar uma ferramenta fina, como uma chave de fendas de cabeça plana ou outro cartão SD.
 

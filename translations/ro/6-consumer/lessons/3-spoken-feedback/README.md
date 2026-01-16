@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Setează un cronometru și oferă feedback vocal
 
-![O prezentare grafică a lecției](../../../../../translated_images/lesson-23.f38483e1d4df4828990d3f02d60e46c978b075d384ae7cb4f7bab738e107c850.ro.jpg)
+![O prezentare grafică a lecției](../../../../../translated_images/ro/lesson-23.f38483e1d4df4828990d3f02d60e46c978b075d384ae7cb4f7bab738e107c850.jpg)
 
 > Prezentare grafică realizată de [Nitya Narasimhan](https://github.com/nitya). Click pe imagine pentru o versiune mai mare.
 
@@ -37,7 +37,7 @@ Asistenții inteligenți nu sunt dispozitive de comunicare unidirecțională. Vo
 
 Text în vorbire, așa cum sugerează numele, este procesul de a converti textul în audio care conține cuvintele rostite. Principiul de bază este de a descompune cuvintele din text în sunetele lor componente (cunoscute sub numele de foneme) și de a îmbina audio pentru acele sunete, fie folosind înregistrări audio preexistente, fie audio generat de modele AI.
 
-![Cele trei etape ale sistemelor tipice de text în vorbire](../../../../../translated_images/tts-overview.193843cf3f5ee09f.ro.png)
+![Cele trei etape ale sistemelor tipice de text în vorbire](../../../../../translated_images/ro/tts-overview.193843cf3f5ee09f.png)
 
 Sistemele de text în vorbire au de obicei 3 etape:
 

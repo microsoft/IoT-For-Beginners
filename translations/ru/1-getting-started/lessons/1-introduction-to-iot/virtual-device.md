@@ -154,11 +154,11 @@ CO_OP_TRANSLATOR_METADATA:
 
 1. Когда VS Code запустится, он активирует виртуальное окружение Python. Выбранное виртуальное окружение будет отображаться в нижней строке состояния:
 
-    ![VS Code показывает выбранное виртуальное окружение](../../../../../translated_images/vscode-virtual-env.8ba42e04c3d533cf.ru.png)
+    ![VS Code показывает выбранное виртуальное окружение](../../../../../translated_images/ru/vscode-virtual-env.8ba42e04c3d533cf.png)
 
 1. Если терминал VS Code уже запущен при старте VS Code, виртуальное окружение в нем не будет активировано. Самый простой способ — закрыть терминал, используя кнопку **Kill the active terminal instance**:
 
-    ![Кнопка VS Code Kill the active terminal instance](../../../../../translated_images/vscode-kill-terminal.1cc4de7c6f25ee08.ru.png)
+    ![Кнопка VS Code Kill the active terminal instance](../../../../../translated_images/ru/vscode-kill-terminal.1cc4de7c6f25ee08.png)
 
     Вы можете определить, активировано ли виртуальное окружение в терминале, по имени виртуального окружения, которое будет префиксом в приглашении терминала. Например, это может быть:
 
@@ -212,7 +212,7 @@ CO_OP_TRANSLATOR_METADATA:
 
     Приложение начнет работать и откроется в вашем веб-браузере:
 
-    ![Приложение Counter Fit запущено в браузере](../../../../../translated_images/counterfit-first-run.433326358b669b31d0e99c3513cb01bfbb13724d162c99cdcc8f51ecf5f9c779.ru.png)
+    ![Приложение Counter Fit запущено в браузере](../../../../../translated_images/ru/counterfit-first-run.433326358b669b31d0e99c3513cb01bfbb13724d162c99cdcc8f51ecf5f9c779.png)
 
     Оно будет отмечено как *Disconnected*, а светодиод в правом верхнем углу будет выключен.
 
@@ -229,11 +229,11 @@ CO_OP_TRANSLATOR_METADATA:
 
 1. Вам нужно запустить новый терминал VS Code, выбрав кнопку **Create a new integrated terminal**. Это связано с тем, что приложение CounterFit работает в текущем терминале.
 
-    ![Кнопка VS Code Create a new integrated terminal](../../../../../translated_images/vscode-new-terminal.77db8fc0f9cd3182.ru.png)
+    ![Кнопка VS Code Create a new integrated terminal](../../../../../translated_images/ru/vscode-new-terminal.77db8fc0f9cd3182.png)
 
 1. В новом терминале выполните файл `app.py`, как и раньше. Статус CounterFit изменится на **Connected**, и светодиод загорится.
 
-    ![Counter Fit показывает статус Connected](../../../../../translated_images/counterfit-connected.ed30b46d8f79b0921f3fc70be10366e596a89dca3f80c2224a9d9fc98fccf884.ru.png)
+    ![Counter Fit показывает статус Connected](../../../../../translated_images/ru/counterfit-connected.ed30b46d8f79b0921f3fc70be10366e596a89dca3f80c2224a9d9fc98fccf884.png)
 
 > 💁 Вы можете найти этот код в папке [code/virtual-device](../../../../../1-getting-started/lessons/1-introduction-to-iot/code/virtual-device).
 

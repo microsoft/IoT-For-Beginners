@@ -104,7 +104,7 @@ Kód, ktorý ste použili na klasifikáciu obrázkov, je veľmi podobný kódu n
 
     Budete môcť vidieť obrázok, ktorý bol zachytený, a tieto hodnoty na karte **Predictions** v Custom Vision.
 
-    ![4 plechovky paradajkového pretlaku na poličke s predikciami pre 4 detekcie: 35.8%, 33.5%, 25.7% a 16.6%](../../../../../translated_images/custom-vision-stock-prediction.942266ab1bcca3410ecdf23643b9f5f570cfab2345235074e24c51f285777613.sk.png)
+    ![4 plechovky paradajkového pretlaku na poličke s predikciami pre 4 detekcie: 35.8%, 33.5%, 25.7% a 16.6%](../../../../../translated_images/sk/custom-vision-stock-prediction.942266ab1bcca3410ecdf23643b9f5f570cfab2345235074e24c51f285777613.png)
 
 > 💁 Tento kód nájdete v priečinku [code-detect/wio-terminal](../../../../../5-retail/lessons/2-check-stock-device/code-detect/wio-terminal).
 

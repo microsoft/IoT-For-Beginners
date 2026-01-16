@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Udržujte svoju rastlinu v bezpečí
 
-![Prehľad tejto lekcie v sketchnote](../../../../../translated_images/lesson-10.829c86b80b9403bb770929ee553a1d293afe50dc23121aaf9be144673ae012cc.sk.jpg)
+![Prehľad tejto lekcie v sketchnote](../../../../../translated_images/sk/lesson-10.829c86b80b9403bb770929ee553a1d293afe50dc23121aaf9be144673ae012cc.jpg)
 
 > Sketchnote od [Nitya Narasimhan](https://github.com/nitya). Kliknite na obrázok pre väčšiu verziu.
 
@@ -61,11 +61,11 @@ Toto sú scenáre z reálneho sveta, ktoré sa dejú neustále. Niektoré príkl
 
 Keď sa zariadenie pripojí k IoT službe, používa ID na identifikáciu. Problém je, že toto ID môže byť skopírované - hacker by mohol nastaviť škodlivé zariadenie, ktoré používa rovnaké ID ako skutočné zariadenie, ale posiela falošné údaje.
 
-![Platné aj škodlivé zariadenia môžu používať rovnaké ID na posielanie telemetrie](../../../../../translated_images/iot-device-and-hacked-device-connecting.e0671675df74d6d99eb1dedb5a670e606f698efa6202b1ad4c8ae548db299cc6.sk.png)
+![Platné aj škodlivé zariadenia môžu používať rovnaké ID na posielanie telemetrie](../../../../../translated_images/sk/iot-device-and-hacked-device-connecting.e0671675df74d6d99eb1dedb5a670e606f698efa6202b1ad4c8ae548db299cc6.png)
 
 Riešením je konvertovať posielané údaje do zašifrovanej podoby pomocou hodnoty, ktorá je známa iba zariadeniu a cloudu. Tento proces sa nazýva *šifrovanie* a hodnota použitá na šifrovanie údajov sa nazýva *šifrovací kľúč*.
 
-![Ak sa použije šifrovanie, budú akceptované iba zašifrované správy, ostatné budú odmietnuté](../../../../../translated_images/iot-device-and-hacked-device-connecting-encryption.5941aff601fc978f979e46f2849b573564eeb4a4dc5b52f669f62745397492fb.sk.png)
+![Ak sa použije šifrovanie, budú akceptované iba zašifrované správy, ostatné budú odmietnuté](../../../../../translated_images/sk/iot-device-and-hacked-device-connecting-encryption.5941aff601fc978f979e46f2849b573564eeb4a4dc5b52f669f62745397492fb.png)
 
 Cloudová služba potom môže údaje konvertovať späť do čitateľnej podoby pomocou procesu nazývaného *dešifrovanie*, buď pomocou rovnakého šifrovacieho kľúča, alebo *dešifrovacieho kľúča*. Ak zašifrovanú správu nie je možné dešifrovať pomocou kľúča, zariadenie bolo hacknuté a správa je odmietnutá.
 
@@ -97,15 +97,15 @@ Bohužiaľ, nie všetko je zabezpečené. Niektoré zariadenia nemajú žiadne z
 
 **Symetrické** šifrovanie používa rovnaký kľúč na šifrovanie a dešifrovanie údajov. Odosielateľ aj príjemca musia poznať rovnaký kľúč. Toto je najmenej bezpečný typ, pretože kľúč musí byť nejako zdieľaný. Aby odosielateľ mohol poslať zašifrovanú správu príjemcovi, odosielateľ musí najskôr poslať príjemcovi kľúč.
 
-![Symetrické šifrovanie používa rovnaký kľúč na šifrovanie a dešifrovanie správy](../../../../../translated_images/send-message-symmetric-key.a2e8ad0d495896ff.sk.png)
+![Symetrické šifrovanie používa rovnaký kľúč na šifrovanie a dešifrovanie správy](../../../../../translated_images/sk/send-message-symmetric-key.a2e8ad0d495896ff.png)
 
 Ak je kľúč ukradnutý počas prenosu, alebo je odosielateľ alebo príjemca hacknutý a kľúč je nájdený, šifrovanie môže byť prelomené.
 
-![Symetrické šifrovanie je bezpečné iba v prípade, že hacker nezíska kľúč - ak áno, môže zachytiť a dešifrovať správu](../../../../../translated_images/send-message-symmetric-key-hacker.e7cb53db1707adfb.sk.png)
+![Symetrické šifrovanie je bezpečné iba v prípade, že hacker nezíska kľúč - ak áno, môže zachytiť a dešifrovať správu](../../../../../translated_images/sk/send-message-symmetric-key-hacker.e7cb53db1707adfb.png)
 
 **Asymetrické** šifrovanie používa 2 kľúče - šifrovací kľúč a dešifrovací kľúč, označované ako verejný/súkromný pár kľúčov. Verejný kľúč sa používa na šifrovanie správy, ale nemôže byť použitý na jej dešifrovanie, súkromný kľúč sa používa na dešifrovanie správy, ale nemôže byť použitý na jej šifrovanie.
 
-![Asymetrické šifrovanie používa iný kľúč na šifrovanie a dešifrovanie. Šifrovací kľúč je poslaný odosielateľom správ, aby mohli zašifrovať správu pred jej odoslaním príjemcovi, ktorý vlastní kľúče](../../../../../translated_images/send-message-asymmetric.7abe327c62615b8c.sk.png)
+![Asymetrické šifrovanie používa iný kľúč na šifrovanie a dešifrovanie. Šifrovací kľúč je poslaný odosielateľom správ, aby mohli zašifrovať správu pred jej odoslaním príjemcovi, ktorý vlastní kľúče](../../../../../translated_images/sk/send-message-asymmetric.7abe327c62615b8c.png)
 
 Príjemca zdieľa svoj verejný kľúč a odosielateľ ho používa na šifrovanie správy. Po odoslaní správy ju príjemca dešifruje pomocou svojho súkromného kľúča. Asymetrické šifrovanie je bezpečnejšie, pretože súkromný kľúč je uchovávaný v tajnosti príjemcom a nikdy nie je zdieľaný. Verejný kľúč môže mať ktokoľvek, pretože môže byť použitý iba na šifrovanie správ.
 
@@ -161,7 +161,7 @@ Tieto certifikáty obsahujú množstvo polí, vrátane informácií o tom, od ko
 
 Pri používaní X.509 certifikátov budú mať odosielateľ aj príjemca svoje vlastné verejné a súkromné kľúče, ako aj X.509 certifikáty obsahujúce verejný kľúč. Následne si vymenia X.509 certifikáty a používajú verejné kľúče na šifrovanie údajov, ktoré posielajú, a svoje súkromné kľúče na dešifrovanie údajov, ktoré prijímajú.
 
-![Namiesto zdieľania verejného kľúča môžete zdieľať certifikát. Používateľ certifikátu môže overiť, že pochádza od vás, kontrolou u certifikačnej autority, ktorá ho podpísala.](../../../../../translated_images/send-message-certificate.9cc576ac1e46b76e.sk.png)
+![Namiesto zdieľania verejného kľúča môžete zdieľať certifikát. Používateľ certifikátu môže overiť, že pochádza od vás, kontrolou u certifikačnej autority, ktorá ho podpísala.](../../../../../translated_images/sk/send-message-certificate.9cc576ac1e46b76e.png)
 
 Jednou z veľkých výhod používania X.509 certifikátov je, že ich možno zdieľať medzi zariadeniami. Môžete vytvoriť jeden certifikát, nahrať ho do IoT Hubu a používať ho pre všetky vaše zariadenia. Každé zariadenie potom potrebuje poznať iba súkromný kľúč na dešifrovanie správ, ktoré prijíma z IoT Hubu.
 

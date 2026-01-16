@@ -57,7 +57,7 @@ Zagovorniki Azure Cloud pri Microsoftu z veseljem ponujajo 12-tedenski program z
 
 Projekti zajemajo pot hrane od kmetije do mize. To vključuje kmetijstvo, logistiko, proizvodnjo, maloprodajo in potrošnike – vse priljubljena industrijska področja za IoT naprave.
 
-![Zemljevid poti tečaja, ki prikazuje 24 lekcij, ki pokrivajo uvod, kmetijstvo, prevoz, predelavo, maloprodajo in kuhanje](../../translated_images/Roadmap.bb1dec285dda0eda.sl.jpg)
+![Zemljevid poti tečaja, ki prikazuje 24 lekcij, ki pokrivajo uvod, kmetijstvo, prevoz, predelavo, maloprodajo in kuhanje](../../translated_images/sl/Roadmap.bb1dec285dda0eda.jpg)
 
 > Sketchnote avtorice [Nitya Narasimhan](https://github.com/nitya). Kliknite sliko za večjo verzijo.
 

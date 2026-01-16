@@ -25,13 +25,13 @@ Tlačidlo je možné pripojiť k základnému HAT-u Grove.
 
 #### Úloha - pripojenie tlačidla
 
-![Tlačidlo Grove](../../../../../translated_images/grove-button.a70cfbb809a8563681003250cf5b06d68cdcc68624f9e2f493d5a534ae2da1e5.sk.png)
+![Tlačidlo Grove](../../../../../translated_images/sk/grove-button.a70cfbb809a8563681003250cf5b06d68cdcc68624f9e2f493d5a534ae2da1e5.png)
 
 1. Zasuňte jeden koniec kábla Grove do zásuvky na module tlačidla. Pôjde to iba jedným spôsobom.
 
 1. Pri vypnutom Raspberry Pi pripojte druhý koniec kábla Grove do digitálnej zásuvky označenej **D5** na základnom HAT-e Grove pripojenom k Pi. Táto zásuvka je druhá zľava v rade zásuviek vedľa GPIO pinov.
 
-![Tlačidlo Grove pripojené k zásuvke D5](../../../../../translated_images/pi-button.c7a1a4f55943341ce1baf1057658e9a205804d4131d258e820c93f951df0abf3.sk.png)
+![Tlačidlo Grove pripojené k zásuvke D5](../../../../../translated_images/sk/pi-button.c7a1a4f55943341ce1baf1057658e9a205804d4131d258e820c93f951df0abf3.png)
 
 ## Zachytávanie zvuku
 

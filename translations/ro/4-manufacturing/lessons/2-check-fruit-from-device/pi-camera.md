@@ -25,7 +25,7 @@ Camera poate fi conectată la Raspberry Pi folosind un cablu panglică.
 
 ### Sarcină - conectarea camerei
 
-![O cameră Raspberry Pi](../../../../../translated_images/pi-camera-module.4278753c31bd6e757aa2b858be97d72049f71616278cefe4fb5abb485b40a078.ro.png)
+![O cameră Raspberry Pi](../../../../../translated_images/ro/pi-camera-module.4278753c31bd6e757aa2b858be97d72049f71616278cefe4fb5abb485b40a078.png)
 
 1. Oprește alimentarea Pi-ului.
 
@@ -33,17 +33,17 @@ Camera poate fi conectată la Raspberry Pi folosind un cablu panglică.
 
     Poți găsi o animație care arată cum să deschizi clema și să introduci cablul în [documentația Raspberry Pi pentru modulul cameră](https://projects.raspberrypi.org/en/projects/getting-started-with-picamera/2).
 
-    ![Cablul panglică introdus în modulul cameră](../../../../../translated_images/pi-camera-ribbon-cable.0bf82acd251611c21ac616f082849413e2b322a261d0e4f8fec344248083b07e.ro.png)
+    ![Cablul panglică introdus în modulul cameră](../../../../../translated_images/ro/pi-camera-ribbon-cable.0bf82acd251611c21ac616f082849413e2b322a261d0e4f8fec344248083b07e.png)
 
 1. Scoate Grove Base Hat de pe Pi.
 
 1. Trece cablul panglică prin slotul pentru cameră din Grove Base Hat. Asigură-te că partea albastră a cablului este orientată spre porturile analogice etichetate **A0**, **A1** etc.
 
-    ![Cablul panglică trecând prin Grove Base Hat](../../../../../translated_images/grove-base-hat-ribbon-cable.501fed202fcf73b11b2b68f6d246189f7d15d3e4423c572ddee79d77b4632b47.ro.png)
+    ![Cablul panglică trecând prin Grove Base Hat](../../../../../translated_images/ro/grove-base-hat-ribbon-cable.501fed202fcf73b11b2b68f6d246189f7d15d3e4423c572ddee79d77b4632b47.png)
 
 1. Introdu cablul panglică în portul pentru cameră de pe Pi. Din nou, trage clema de plastic neagră în sus, introdu cablul, apoi împinge clema înapoi. Partea albastră a cablului ar trebui să fie orientată spre porturile USB și Ethernet.
 
-    ![Cablul panglică conectat la soclul camerei de pe Pi](../../../../../translated_images/pi-camera-socket-ribbon-cable.a18309920b11800911082ed7aa6fb28e6d9be3a022e4079ff990016cae3fca10.ro.png)
+    ![Cablul panglică conectat la soclul camerei de pe Pi](../../../../../translated_images/ro/pi-camera-socket-ribbon-cable.a18309920b11800911082ed7aa6fb28e6d9be3a022e4079ff990016cae3fca10.png)
 
 1. Reinstalează Grove Base Hat.
 
@@ -110,7 +110,7 @@ Programează dispozitivul.
 
     Linia `camera.rotation = 0` setează rotația imaginii. Cablul panglică intră în partea de jos a camerei, dar dacă camera ta a fost rotită pentru a permite o orientare mai ușoară spre obiectul pe care vrei să-l clasifici, atunci poți modifica această linie cu numărul de grade de rotație.
 
-    ![Camera suspendată deasupra unei doze de băutură](../../../../../translated_images/pi-camera-upside-down.5376961ba31459883362124152ad6b823d5ac5fc14e85f317e22903bd681c2b6.ro.png)
+    ![Camera suspendată deasupra unei doze de băutură](../../../../../translated_images/ro/pi-camera-upside-down.5376961ba31459883362124152ad6b823d5ac5fc14e85f317e22903bd681c2b6.png)
 
     De exemplu, dacă suspenzi cablul panglică deasupra unui obiect astfel încât să fie în partea de sus a camerei, setează rotația la 180:
 

@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Ufuatiliaji wa Mahali
 
-![Muhtasari wa somo hili kwa sketchnote](../../../../../translated_images/lesson-11.9fddbac4b664c6d50ab7ac9bb32f1fc3f945f03760e72f7f43938073762fb017.sw.jpg)
+![Muhtasari wa somo hili kwa sketchnote](../../../../../translated_images/sw/lesson-11.9fddbac4b664c6d50ab7ac9bb32f1fc3f945f03760e72f7f43938073762fb017.jpg)
 
 > Sketchnote na [Nitya Narasimhan](https://github.com/nitya). Bofya picha kwa toleo kubwa.
 
@@ -72,13 +72,13 @@ Dunia ni duara - mduara wa pande tatu. Kwa sababu ya hili, sehemu hufafanuliwa k
 
 > 💁 Hakuna mtu anayejua sababu halisi ya kwa nini miduara hugawanywa katika digrii 360. Ukurasa wa [degree (angle) kwenye Wikipedia](https://wikipedia.org/wiki/Degree_(angle)) unashughulikia baadhi ya sababu zinazowezekana.
 
-![Mistari ya latitudo kutoka 90° kwenye Ncha ya Kaskazini, 45° katikati ya Ncha ya Kaskazini na ikweta, 0° kwenye ikweta, -45° katikati ya ikweta na Ncha ya Kusini, na -90° kwenye Ncha ya Kusini](../../../../../translated_images/latitude-lines.11d8d91dfb2014a57437272d7db7fd6607243098e8685f06e0c5f1ec984cb7eb.sw.png)
+![Mistari ya latitudo kutoka 90° kwenye Ncha ya Kaskazini, 45° katikati ya Ncha ya Kaskazini na ikweta, 0° kwenye ikweta, -45° katikati ya ikweta na Ncha ya Kusini, na -90° kwenye Ncha ya Kusini](../../../../../translated_images/sw/latitude-lines.11d8d91dfb2014a57437272d7db7fd6607243098e8685f06e0c5f1ec984cb7eb.png)
 
 Latitudo hupimwa kwa kutumia mistari inayozunguka dunia na kukimbia sambamba na ikweta, ikigawanya Nusu ya Kaskazini na Kusini katika 90° kila moja. Ikweta iko kwenye 0°, Ncha ya Kaskazini iko 90°, pia inajulikana kama 90° Kaskazini, na Ncha ya Kusini iko -90°, au 90° Kusini.
 
 Longitudo hupimwa kama idadi ya digrii zinazopimwa mashariki na magharibi. Mwanzo wa 0° wa longitudo unaitwa *Prime Meridian*, na ulifafanuliwa mwaka wa 1884 kuwa mstari kutoka Ncha ya Kaskazini hadi Ncha ya Kusini unaopita kupitia [Royal Observatory ya Uingereza huko Greenwich, England](https://wikipedia.org/wiki/Royal_Observatory,_Greenwich).
 
-![Mistari ya longitudo inayotoka -180° magharibi mwa Prime Meridian, hadi 0° kwenye Prime Meridian, hadi 180° mashariki mwa Prime Meridian](../../../../../translated_images/longitude-meridians.ab4ef1c91c064586b0185a3c8d39e585903696c6a7d28c098a93a629cddb5d20.sw.png)
+![Mistari ya longitudo inayotoka -180° magharibi mwa Prime Meridian, hadi 0° kwenye Prime Meridian, hadi 180° mashariki mwa Prime Meridian](../../../../../translated_images/sw/longitude-meridians.ab4ef1c91c064586b0185a3c8d39e585903696c6a7d28c098a93a629cddb5d20.png)
 
 > 🎓 Meridian ni mstari wa kufikirika unaotoka Ncha ya Kaskazini hadi Ncha ya Kusini, ukifanya nusu duara.
 
@@ -109,7 +109,7 @@ Mihimili ya sehemu hutolewa kila mara kama `latitudo, longitudo`, kwa hivyo mfan
 * Latitudo ya 47.6423109 (47.6423109 digrii kaskazini mwa ikweta)
 * Longitudo ya -122.1390293 (122.1390293 digrii magharibi mwa Prime Meridian).
 
-![Kampasi ya Microsoft kwenye 47.6423109,-122.117198](../../../../../translated_images/microsoft-gps-location-world.a321d481b010f6adfcca139b2ba0adc53b79f58a540495b8e2ce7f779ea64bfe.sw.png)
+![Kampasi ya Microsoft kwenye 47.6423109,-122.117198](../../../../../translated_images/sw/microsoft-gps-location-world.a321d481b010f6adfcca139b2ba0adc53b79f58a540495b8e2ce7f779ea64bfe.png)
 
 ## Mfumo wa Uwekaji Mahali Duniani (GPS)
 
@@ -121,7 +121,7 @@ Mifumo ya GPS hufanya kazi kwa kuwa na satelaiti kadhaa zinazotuma ishara na mah
 
 > 💁 Sensa za GPS zinahitaji antenna kugundua mawimbi ya redio. Antenna zilizojengwa ndani ya malori na magari yenye GPS ya ndani zimewekwa ili kupata ishara nzuri, kawaida kwenye kioo cha mbele au paa. Ikiwa unatumia mfumo wa GPS tofauti, kama vile simu ya mkononi au kifaa cha IoT, basi unahitaji kuhakikisha kuwa antenna iliyojengwa ndani ya mfumo wa GPS au simu ina mtazamo wazi wa anga, kama vile kuwekwa kwenye kioo cha mbele.
 
-![Kwa kujua umbali kutoka sensa hadi satelaiti nyingi, mahali paweza kuhesabiwa](../../../../../translated_images/gps-satellites.04acf1148fe25fbf1586bc2e8ba698e8d79b79a50c36824b38417dd13372b90f.sw.png)
+![Kwa kujua umbali kutoka sensa hadi satelaiti nyingi, mahali paweza kuhesabiwa](../../../../../translated_images/sw/gps-satellites.04acf1148fe25fbf1586bc2e8ba698e8d79b79a50c36824b38417dd13372b90f.png)
 
 Satelaiti za GPS zinazunguka dunia, si mahali pa kudumu juu ya sensa, kwa hivyo data ya mahali inajumuisha urefu juu ya usawa wa bahari pamoja na latitudo na longitudo.
 

@@ -47,11 +47,11 @@ Pridajte senzory vlhkosti a teploty do aplikácie CounterFit.
 
     1. Kliknite na tlačidlo **Add**, aby ste vytvorili senzor vlhkosti na pine 5.
 
-    ![Nastavenia senzora vlhkosti](../../../../../translated_images/counterfit-create-humidity-sensor.2750e27b6f30e09cf4e22101defd5252710717620816ab41ba688f91f757c49a.sk.png)
+    ![Nastavenia senzora vlhkosti](../../../../../translated_images/sk/counterfit-create-humidity-sensor.2750e27b6f30e09cf4e22101defd5252710717620816ab41ba688f91f757c49a.png)
 
     Senzor vlhkosti bude vytvorený a zobrazí sa v zozname senzorov.
 
-    ![Vytvorený senzor vlhkosti](../../../../../translated_images/counterfit-humidity-sensor.7b12f7f339e430cb26c8211d2dba4ef75261b353a01da0932698b5bebd693f27.sk.png)
+    ![Vytvorený senzor vlhkosti](../../../../../translated_images/sk/counterfit-humidity-sensor.7b12f7f339e430cb26c8211d2dba4ef75261b353a01da0932698b5bebd693f27.png)
 
 1. Vytvorte teplotný senzor:
 
@@ -63,11 +63,11 @@ Pridajte senzory vlhkosti a teploty do aplikácie CounterFit.
 
     1. Kliknite na tlačidlo **Add**, aby ste vytvorili teplotný senzor na pine 6.
 
-    ![Nastavenia teplotného senzora](../../../../../translated_images/counterfit-create-temperature-sensor.199350ed34f7343d79dccbe95eaf6c11d2121f03d1c35ab9613b330c23f39b29.sk.png)
+    ![Nastavenia teplotného senzora](../../../../../translated_images/sk/counterfit-create-temperature-sensor.199350ed34f7343d79dccbe95eaf6c11d2121f03d1c35ab9613b330c23f39b29.png)
 
     Teplotný senzor bude vytvorený a zobrazí sa v zozname senzorov.
 
-    ![Vytvorený teplotný senzor](../../../../../translated_images/counterfit-temperature-sensor.f0560236c96a9016bafce7f6f792476fe3367bc6941a1f7d5811d144d4bcbfff.sk.png)
+    ![Vytvorený teplotný senzor](../../../../../translated_images/sk/counterfit-temperature-sensor.f0560236c96a9016bafce7f6f792476fe3367bc6941a1f7d5811d144d4bcbfff.png)
 
 ## Naprogramovanie aplikácie teplotného senzora
 

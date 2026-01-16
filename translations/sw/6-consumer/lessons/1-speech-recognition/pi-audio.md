@@ -25,13 +25,13 @@ Kitufe kinaweza kuunganishwa kwenye Grove base hat.
 
 #### Kazi - unganisha kitufe
 
-![Kitufe cha Grove](../../../../../translated_images/grove-button.a70cfbb809a8563681003250cf5b06d68cdcc68624f9e2f493d5a534ae2da1e5.sw.png)
+![Kitufe cha Grove](../../../../../translated_images/sw/grove-button.a70cfbb809a8563681003250cf5b06d68cdcc68624f9e2f493d5a534ae2da1e5.png)
 
 1. Ingiza mwisho mmoja wa kebo ya Grove kwenye soketi ya moduli ya kitufe. Itaingia kwa njia moja tu.
 
 1. Ukiwa na Raspberry Pi imezimwa, unganisha mwisho mwingine wa kebo ya Grove kwenye soketi ya kidijitali iliyoandikwa **D5** kwenye Grove Base hat iliyounganishwa na Pi. Soketi hii ni ya pili kutoka kushoto, kwenye safu ya soketi karibu na pini za GPIO.
 
-![Kitufe cha Grove kimeunganishwa kwenye soketi D5](../../../../../translated_images/pi-button.c7a1a4f55943341ce1baf1057658e9a205804d4131d258e820c93f951df0abf3.sw.png)
+![Kitufe cha Grove kimeunganishwa kwenye soketi D5](../../../../../translated_images/sw/pi-button.c7a1a4f55943341ce1baf1057658e9a205804d4131d258e820c93f951df0abf3.png)
 
 ## Kurekodi sauti
 

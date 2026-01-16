@@ -42,7 +42,7 @@ Ko imate temperaturne podatke, lahko uporabite Jupyter Notebook v tem repozitori
 
     Jupyter se bo zagnal in odprl notebook v vašem brskalniku. Sledite navodilom v notebooku za vizualizacijo izmerjenih temperatur in izračun rastnih stopinj dni (GDD).
 
-    ![Jupyter notebook](../../../../../translated_images/gdd-jupyter-notebook.c5b52cf21094f158a61f47f455490fd95f1729777ff90861a4521820bf354cdc.sl.png)
+    ![Jupyter notebook](../../../../../translated_images/sl/gdd-jupyter-notebook.c5b52cf21094f158a61f47f455490fd95f1729777ff90861a4521820bf354cdc.png)
 
 ## Rubrika
 

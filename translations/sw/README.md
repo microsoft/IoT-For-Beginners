@@ -57,7 +57,7 @@ Waharakati wa Azure Cloud Microsoft wana furaha kutoa mtaala wa wiki 12, masomo 
 
 Miradi inahusu safari ya chakula kutoka shambani hadi mezani. Hii inajumuisha kilimo, usafirishaji, utengenezaji, rejareja na matumizi - yote ni maeneo maarufu ya viwanda kwa vifaa vya IoT.
 
-![Ramani ya njia ya kozi inaonyesha masomo 24 yanayojumuisha utangulizi, kilimo, usafirishaji, usindikaji, rejareja na kupika](../../translated_images/Roadmap.bb1dec285dda0eda.sw.jpg)
+![Ramani ya njia ya kozi inaonyesha masomo 24 yanayojumuisha utangulizi, kilimo, usafirishaji, usindikaji, rejareja na kupika](../../translated_images/sw/Roadmap.bb1dec285dda0eda.jpg)
 
 > Sketchnote na [Nitya Narasimhan](https://github.com/nitya). Bonyeza picha kuona toleo kubwa.
 

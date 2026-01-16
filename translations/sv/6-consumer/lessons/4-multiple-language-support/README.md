@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Stöd för flera språk
 
-![En sketchnote-översikt av denna lektion](../../../../../translated_images/lesson-24.4246968ed058510ab275052e87ef9aa89c7b2f938915d103c605c04dc6cd5bb7.sv.jpg)
+![En sketchnote-översikt av denna lektion](../../../../../translated_images/sv/lesson-24.4246968ed058510ab275052e87ef9aa89c7b2f938915d103c605c04dc6cd5bb7.jpg)
 
 > Sketchnote av [Nitya Narasimhan](https://github.com/nitya). Klicka på bilden för en större version.
 
@@ -83,7 +83,7 @@ Det finns ett antal AI-tjänster som kan användas från dina applikationer för
 
 ### Cognitive services Speech service
 
-![Logotypen för tal-tjänsten](../../../../../translated_images/azure-speech-logo.a1f08c4befb0159f2cb5d692d3baf5b599e7b44759d316da907bda1508f46a4a.sv.png)
+![Logotypen för tal-tjänsten](../../../../../translated_images/sv/azure-speech-logo.a1f08c4befb0159f2cb5d692d3baf5b599e7b44759d316da907bda1508f46a4a.png)
 
 Tal-tjänsten som du har använt under de senaste lektionerna har översättningsmöjligheter för taligenkänning. När du känner igen tal kan du begära inte bara texten av talet på samma språk, utan också på andra språk.
 
@@ -91,7 +91,7 @@ Tal-tjänsten som du har använt under de senaste lektionerna har översättning
 
 ### Cognitive services Translator service
 
-![Logotypen för översättningstjänsten](../../../../../translated_images/azure-translator-logo.c6ed3a4a433edfd2f11577eca105412c50b8396b194cbbd730723dd1d0793bcd.sv.png)
+![Logotypen för översättningstjänsten](../../../../../translated_images/sv/azure-translator-logo.c6ed3a4a433edfd2f11577eca105412c50b8396b194cbbd730723dd1d0793bcd.png)
 
 Översättningstjänsten är en dedikerad översättningstjänst som kan översätta text från ett språk till ett eller flera målspråk. Förutom att översätta stöder den ett brett utbud av extra funktioner, inklusive att maskera svordomar. Den låter dig också ange en specifik översättning för ett visst ord eller en mening, för att hantera termer du inte vill översätta eller har en specifik välkänd översättning.
 
@@ -130,7 +130,7 @@ För denna lektion behöver du en översättningsresurs. Du kommer att använda 
 
 I en idealisk värld bör hela din applikation förstå så många olika språk som möjligt, från att lyssna på tal, till språkförståelse, till att svara med tal. Detta är mycket arbete, så översättningstjänster kan påskynda leveranstiden för din applikation.
 
-![En smart timer-arkitektur som översätter japanska till engelska, bearbetar på engelska och sedan översätter tillbaka till japanska](../../../../../translated_images/translated-smart-timer.08ac20057fdc5c37.sv.png)
+![En smart timer-arkitektur som översätter japanska till engelska, bearbetar på engelska och sedan översätter tillbaka till japanska](../../../../../translated_images/sv/translated-smart-timer.08ac20057fdc5c37.png)
 
 Föreställ dig att du bygger en smart timer som använder engelska från början till slut, förstår talad engelska och konverterar det till text, kör språkförståelse på engelska, bygger upp svar på engelska och svarar med engelskt tal. Om du ville lägga till stöd för japanska, skulle du kunna börja med att översätta talad japanska till engelsk text, sedan behålla kärnan i applikationen densamma, och sedan översätta svarstexten till japanska innan du talar svaret. Detta skulle göra det möjligt för dig att snabbt lägga till stöd för japanska, och du kan expandera till att erbjuda fullständigt stöd för japanska senare.
 

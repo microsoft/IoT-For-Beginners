@@ -27,13 +27,13 @@ Relay ya Grove inaweza kuunganishwa kwenye Raspberry Pi.
 
 Unganisha relay.
 
-![Relay ya Grove](../../../../../translated_images/grove-relay.d426958ca210fbd0fb7983d7edc069d46c73a8b0a099d94797bd756f7b6bb6be.sw.png)
+![Relay ya Grove](../../../../../translated_images/sw/grove-relay.d426958ca210fbd0fb7983d7edc069d46c73a8b0a099d94797bd756f7b6bb6be.png)
 
 1. Ingiza mwisho mmoja wa kebo ya Grove kwenye soketi ya relay. Itaingia kwa njia moja tu.
 
 1. Ukiwa na Raspberry Pi imezimwa, unganisha mwisho mwingine wa kebo ya Grove kwenye soketi ya kidigitali iliyoandikwa **D5** kwenye Grove Base Hat iliyounganishwa na Pi. Soketi hii ni ya pili kutoka kushoto, kwenye safu ya soketi karibu na pini za GPIO. Acha kihisi cha unyevu wa udongo kikiwa kimeunganishwa kwenye soketi ya **A0**.
 
-![Relay ya Grove imeunganishwa kwenye soketi ya D5, na kihisi cha unyevu wa udongo kimeunganishwa kwenye soketi ya A0](../../../../../translated_images/pi-relay-and-soil-moisture-sensor.02f3198975b8c53e69ec716cd2719ce117700bd1fc933eaf93476c103c57939b.sw.png)
+![Relay ya Grove imeunganishwa kwenye soketi ya D5, na kihisi cha unyevu wa udongo kimeunganishwa kwenye soketi ya A0](../../../../../translated_images/sw/pi-relay-and-soil-moisture-sensor.02f3198975b8c53e69ec716cd2719ce117700bd1fc933eaf93476c103c57939b.png)
 
 1. Ingiza kihisi cha unyevu wa udongo kwenye udongo, ikiwa hakijaingizwa tayari kutoka somo la awali.
 

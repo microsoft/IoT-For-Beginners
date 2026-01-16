@@ -22,7 +22,7 @@ I²C ina basi inayojumuisha nyaya kuu 2, pamoja na nyaya 2 za nguvu:
 | VCC | Voltage common collector | Chanzo cha nguvu kwa vifaa. Hii imeunganishwa na nyaya za SDA na SCL ili kutoa nguvu zao kupitia resistor ya kuvuta juu inayozima ishara wakati hakuna kifaa kinachofanya kazi kama kidhibiti. |
 | GND | Ardhi | Hii hutoa ardhi ya kawaida kwa mzunguko wa umeme. |
 
-![Basi la I2C na vifaa 3 vilivyounganishwa kwenye nyaya za SDA na SCL, zikishiriki waya wa ardhi ya kawaida](../../../../../translated_images/i2c.83da845dde02256bdd462dbe0d5145461416b74930571b89d1ae142841eeb584.sw.png)
+![Basi la I2C na vifaa 3 vilivyounganishwa kwenye nyaya za SDA na SCL, zikishiriki waya wa ardhi ya kawaida](../../../../../translated_images/sw/i2c.83da845dde02256bdd462dbe0d5145461416b74930571b89d1ae142841eeb584.png)
 
 Ili kutuma data, kifaa kimoja kitaanzisha hali ya kuanza kuonyesha kuwa kiko tayari kutuma data. Kisha kitakuwa kidhibiti. Kidhibiti kitatuma anwani ya kifaa ambacho kinataka kuwasiliana nacho, pamoja na ikiwa kinataka kusoma au kuandika data. Baada ya data kusafirishwa, kidhibiti kitatuma hali ya kusimama kuonyesha kuwa kimekamilisha. Baada ya hapo kifaa kingine kinaweza kuwa kidhibiti na kutuma au kupokea data.
 
@@ -37,7 +37,7 @@ UART inahusisha mzunguko wa kimwili unaoruhusu vifaa viwili kuwasiliana. Kila ki
 * Kifaa cha 1 kinatuma data kutoka pini yake ya Tx, ambayo inapokelewa na kifaa cha 2 kwenye pini yake ya Rx
 * Kifaa cha 1 kinapokea data kwenye pini yake ya Rx ambayo imetumwa na kifaa cha 2 kutoka pini yake ya Tx
 
-![UART na pini ya Tx kwenye chip moja imeunganishwa na pini ya Rx kwenye chip nyingine, na kinyume chake](../../../../../translated_images/uart.d0dbd3fb9e3728c6.sw.png)
+![UART na pini ya Tx kwenye chip moja imeunganishwa na pini ya Rx kwenye chip nyingine, na kinyume chake](../../../../../translated_images/sw/uart.d0dbd3fb9e3728c6.png)
 
 > 🎓 Data inatumwa kidogo moja kwa wakati, na hii inajulikana kama mawasiliano ya *serial*. Mfumo wa uendeshaji na mikrokontroller nyingi zina *bandari za serial*, yaani miunganisho inayoweza kutuma na kupokea data ya serial inayopatikana kwa msimbo wako.
 
@@ -66,7 +66,7 @@ Vidhibiti vya SPI hutumia nyaya 3, pamoja na waya 1 wa ziada kwa kila kifaa cha 
 | SCLK | Saa ya Serial | Waya huu hutuma ishara ya saa kwa kiwango kilichowekwa na kidhibiti. |
 | CS   | Chagua Chipu | Kidhibiti kina waya nyingi, moja kwa kila kifaa cha pembeni, na kila waya inaunganishwa na waya ya CS kwenye kifaa cha pembeni kinacholingana. |
 
-![SPI na kidhibiti kimoja na vifaa viwili vya pembeni](../../../../../translated_images/spi.297431d6f98b386b.sw.png)
+![SPI na kidhibiti kimoja na vifaa viwili vya pembeni](../../../../../translated_images/sw/spi.297431d6f98b386b.png)
 
 Waya ya CS hutumika kuamsha kifaa kimoja cha pembeni kwa wakati mmoja, kuwasiliana kupitia nyaya za COPI na CIPO. Wakati kidhibiti kinahitaji kubadilisha kifaa cha pembeni, kinazima waya ya CS iliyounganishwa na kifaa cha pembeni kinachotumika kwa sasa, kisha kinaamsha waya iliyounganishwa na kifaa cha pembeni kinachotaka kuwasiliana nacho.
 
@@ -127,13 +127,13 @@ Unyevu wa udongo unapimwa kwa kutumia maudhui ya maji ya gravimetriki au volumet
 
 Sensa za unyevu wa udongo hupima upinzani wa umeme au kapasitansi - hii haibadiliki tu kwa unyevu wa udongo, lakini pia aina ya udongo kwa kuwa vipengele katika udongo vinaweza kubadilisha sifa zake za umeme. Kwa kawaida sensa zinapaswa kurekebishwa - yaani kuchukua vipimo kutoka sensa na kuvilinganisha na vipimo vilivyopatikana kwa kutumia mbinu ya kisayansi zaidi. Kwa mfano, maabara inaweza kuhesabu unyevu wa udongo wa gravimetriki kwa kutumia sampuli za shamba maalum zilizochukuliwa mara kadhaa kwa mwaka, na nambari hizi zikitumika kurekebisha sensa, kulinganisha kipimo cha sensa na unyevu wa udongo wa gravimetriki.
 
-![Mchoro wa voltage dhidi ya maudhui ya unyevu wa udongo](../../../../../translated_images/soil-moisture-to-voltage.df86d80cda158700.sw.png)
+![Mchoro wa voltage dhidi ya maudhui ya unyevu wa udongo](../../../../../translated_images/sw/soil-moisture-to-voltage.df86d80cda158700.png)
 
 Mchoro hapo juu unaonyesha jinsi ya kurekebisha sensa. Voltage inachukuliwa kwa sampuli ya udongo ambayo kisha inapimwa maabara kwa kulinganisha uzito wa unyevu na uzito wa mkavu (kwa kupima uzito ukiwa unyevu, kisha kukausha kwenye oveni na kupima ukiwa mkavu). Mara vipimo vichache vinapochukuliwa, vinaweza kuwekwa kwenye mchoro na mstari kufaa kwa alama. Mstari huu unaweza kisha kutumika kubadilisha vipimo vya sensa ya unyevu wa udongo vilivyopimwa na kifaa cha IoT kuwa vipimo halisi vya unyevu wa udongo.
 
 💁 Kwa sensa za unyevu wa udongo za upinzani, voltage huongezeka kadri unyevu wa udongo unavyoongezeka. Kwa sensa za unyevu wa udongo za kapasitansi, voltage hupungua kadri unyevu wa udongo unavyoongezeka, kwa hivyo michoro ya hizi ingekuwa na mwelekeo wa chini, si juu.
 
-![Thamani ya unyevu wa udongo iliyokadiriwa kutoka mchoro](../../../../../translated_images/soil-moisture-to-voltage-with-reading.681cb3e1f8b68caf.sw.png)
+![Thamani ya unyevu wa udongo iliyokadiriwa kutoka mchoro](../../../../../translated_images/sw/soil-moisture-to-voltage-with-reading.681cb3e1f8b68caf.png)
 
 Mchoro hapo juu unaonyesha kipimo cha voltage kutoka sensa ya unyevu wa udongo, na kwa kufuata mstari kwenye mchoro, unyevu halisi wa udongo unaweza kuhesabiwa.
 

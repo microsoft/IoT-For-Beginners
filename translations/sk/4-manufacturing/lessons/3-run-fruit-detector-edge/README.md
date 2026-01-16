@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Spustite svoj detektor ovocia na okraji siete
 
-![Prehľad tejto lekcie vo forme sketchnote](../../../../../translated_images/lesson-17.bc333c3c35ba8e42cce666cfffa82b915f787f455bd94e006aea2b6f2722421a.sk.jpg)
+![Prehľad tejto lekcie vo forme sketchnote](../../../../../translated_images/sk/lesson-17.bc333c3c35ba8e42cce666cfffa82b915f787f455bd94e006aea2b6f2722421a.jpg)
 
 > Sketchnote od [Nitya Narasimhan](https://github.com/nitya). Kliknite na obrázok pre väčšiu verziu.
 
@@ -42,11 +42,11 @@ V tejto lekcii pokryjeme:
 
 Edge computing zahŕňa spracovanie údajov z IoT zariadení čo najbližšie k miestu, kde sú tieto údaje generované. Namiesto spracovania v cloude sa presúva na okraj cloudu – do vašej internej siete.
 
-![Architektonický diagram zobrazujúci internetové služby v cloude a IoT zariadenia v lokálnej sieti](../../../../../translated_images/cloud-without-edge.b4da641f6022c95ed6b91fde8b5323abd2f94e0d52073ad54172ae8f5dac90e9.sk.png)
+![Architektonický diagram zobrazujúci internetové služby v cloude a IoT zariadenia v lokálnej sieti](../../../../../translated_images/sk/cloud-without-edge.b4da641f6022c95ed6b91fde8b5323abd2f94e0d52073ad54172ae8f5dac90e9.png)
 
 V doterajších lekciách ste mali zariadenia, ktoré zhromažďovali údaje a posielali ich do cloudu na analýzu, pričom v cloude bežali serverless funkcie alebo AI modely.
 
-![Architektonický diagram zobrazujúci IoT zariadenia v lokálnej sieti pripojené k edge zariadeniam, ktoré sú pripojené k cloudu](../../../../../translated_images/cloud-with-edge.1e26462c62c126fe150bd15a5714ddf0be599f09bacbad08b85be02b76ea1ae1.sk.png)
+![Architektonický diagram zobrazujúci IoT zariadenia v lokálnej sieti pripojené k edge zariadeniam, ktoré sú pripojené k cloudu](../../../../../translated_images/sk/cloud-with-edge.1e26462c62c126fe150bd15a5714ddf0be599f09bacbad08b85be02b76ea1ae1.png)
 
 Edge computing zahŕňa presun niektorých cloudových služieb z cloudu na počítače, ktoré bežia v rovnakej sieti ako IoT zariadenia, pričom komunikácia s cloudom prebieha len v prípade potreby. Napríklad môžete spúšťať AI modely na edge zariadeniach na analýzu zrelosti ovocia a do cloudu posielať len analytické údaje, ako je počet zrelých a nezrelých kusov ovocia.
 
@@ -94,7 +94,7 @@ Pre IoT systémy často budete chcieť kombináciu cloudového a edge computingu
 
 ## Azure IoT Edge
 
-![Logo Azure IoT Edge](../../../../../translated_images/azure-iot-edge-logo.c1c076749b5cba2e8755262fadc2f19ca1146b948d76990b1229199ac2292d79.sk.png)
+![Logo Azure IoT Edge](../../../../../translated_images/sk/azure-iot-edge-logo.c1c076749b5cba2e8755262fadc2f19ca1146b948d76990b1229199ac2292d79.png)
 
 Azure IoT Edge je služba, ktorá vám môže pomôcť presunúť pracovné zaťaženia z cloudu na okraj siete. Nastavíte zariadenie ako edge zariadenie a z cloudu môžete na toto edge zariadenie nasadiť kód. To vám umožňuje kombinovať schopnosti cloudu a okraja siete.
 
@@ -108,7 +108,7 @@ IoT Edge je zabudovaný do IoT Hub, takže môžete spravovať edge zariadenia p
 
 IoT Edge spúšťa kód z *kontajnerov* – samostatných aplikácií, ktoré bežia izolovane od zvyšku aplikácií na vašom počítači. Keď spustíte kontajner, správa sa ako samostatný počítač bežiaci vo vašom počítači, s vlastným softvérom, službami a aplikáciami. Väčšinu času kontajnery nemajú prístup k ničomu na vašom počítači, pokiaľ sa nerozhodnete zdieľať napríklad priečinok s kontajnerom. Kontajner potom poskytuje služby cez otvorený port, ku ktorému sa môžete pripojiť alebo ho sprístupniť vo vašej sieti.
 
-![Webová požiadavka presmerovaná do kontajnera](../../../../../translated_images/container-web-browser.4ee81dd4f0d8838ce622b2a0d600b6a4322b5d4fe43159facd87b7b34f84d66a.sk.png)
+![Webová požiadavka presmerovaná do kontajnera](../../../../../translated_images/sk/container-web-browser.4ee81dd4f0d8838ce622b2a0d600b6a4322b5d4fe43159facd87b7b34f84d66a.png)
 
 Napríklad môžete mať kontajner s webovou stránkou bežiacou na porte 80, čo je predvolený HTTP port, a môžete ho potom sprístupniť z vášho počítača tiež na porte 80.
 
@@ -203,11 +203,11 @@ Keď je model natrénovaný, je potrebné ho exportovať ako kontajner.
 
 ## Pripravte svoj kontajner na nasadenie
 
-![Kontajnery sa vytvoria, potom sa nahrajú do kontajnerového registra a následne sa nasadia z registra na edge zariadenie pomocou IoT Edge](../../../../../translated_images/container-edge-flow.c246050dd60ceefdb6ace026a4ce5c6aa4112bb5898ae23fbb2ab4be29ae3e1b.sk.png)
+![Kontajnery sa vytvoria, potom sa nahrajú do kontajnerového registra a následne sa nasadia z registra na edge zariadenie pomocou IoT Edge](../../../../../translated_images/sk/container-edge-flow.c246050dd60ceefdb6ace026a4ce5c6aa4112bb5898ae23fbb2ab4be29ae3e1b.png)
 
 Keď ste stiahli svoj model, je potrebné ho zostaviť do kontajnera a nahrať do kontajnerového registra - online miesta, kde môžete ukladať kontajnery. IoT Edge potom môže stiahnuť kontajner z registra a nasadiť ho na vaše zariadenie.
 
-![Logo Azure Container Registry](../../../../../translated_images/azure-container-registry-logo.09494206991d4b295025ebff7d4e2900325e527a59184ffbc8464b6ab59654be.sk.png)
+![Logo Azure Container Registry](../../../../../translated_images/sk/azure-container-registry-logo.09494206991d4b295025ebff7d4e2900325e527a59184ffbc8464b6ab59654be.png)
 
 Kontajnerový register, ktorý budete používať v tejto lekcii, je Azure Container Registry. Nie je to bezplatná služba, takže aby ste ušetrili peniaze, uistite sa, že [vyčistíte svoj projekt](../../../clean-up.md), keď skončíte.
 

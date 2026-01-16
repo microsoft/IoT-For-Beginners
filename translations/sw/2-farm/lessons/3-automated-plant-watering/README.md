@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Kumwagilia mimea kiotomatiki
 
-![Muhtasari wa somo hili kwa sketchnote](../../../../../translated_images/lesson-7.30b5f577d3cb8e031238751475cb519c7d6dbaea261b5df4643d086ffb2a03bb.sw.jpg)
+![Muhtasari wa somo hili kwa sketchnote](../../../../../translated_images/sw/lesson-7.30b5f577d3cb8e031238751475cb519c7d6dbaea261b5df4643d086ffb2a03bb.jpg)
 
 > Sketchnote na [Nitya Narasimhan](https://github.com/nitya). Bofya picha kwa toleo kubwa zaidi.
 
@@ -41,7 +41,7 @@ Vifaa vya IoT hutumia voltage ndogo. Ingawa hii inatosha kwa sensa na actuators 
 
 Suluhisho la hili ni kuwa na pampu iliyounganishwa na chanzo cha umeme wa nje, na kutumia actuator kuwasha pampu, sawa na jinsi unavyowasha taa. Inachukua kiasi kidogo cha nguvu (kwa njia ya nishati mwilini mwako) kwa kidole chako kubonyeza swichi, na hii inaunganisha taa na umeme wa nyumbani unaoendesha kwa 110v/240v.
 
-![Swichi ya taa inawasha taa](../../../../../translated_images/light-switch.760317ad6ab8bd6d611da5352dfe9c73a94a0822ccec7df3c8bae35da18e1658.sw.png)
+![Swichi ya taa inawasha taa](../../../../../translated_images/sw/light-switch.760317ad6ab8bd6d611da5352dfe9c73a94a0822ccec7df3c8bae35da18e1658.png)
 
 > 🎓 [Umeme wa nyumbani](https://wikipedia.org/wiki/Mains_electricity) unarejelea umeme unaosambazwa kwa nyumba na biashara kupitia miundombinu ya kitaifa katika sehemu nyingi za dunia.
 
@@ -55,11 +55,11 @@ Relay ni swichi ya kielektroniki inayobadilisha ishara ya umeme kuwa harakati ya
 
 > 🎓 [Sumaku za umeme](https://wikipedia.org/wiki/Electromagnet) ni sumaku zinazoundwa kwa kupitisha umeme kupitia coil ya waya. Umeme unapowashwa, coil inakuwa na sumaku. Umeme unapozimwa, coil inapoteza sumaku yake.
 
-![Wakati imewashwa, sumaku ya umeme inaunda uwanja wa sumaku, kuwasha swichi kwa mzunguko wa nje](../../../../../translated_images/relay-on.4db16a0fd6b66926.sw.png)
+![Wakati imewashwa, sumaku ya umeme inaunda uwanja wa sumaku, kuwasha swichi kwa mzunguko wa nje](../../../../../translated_images/sw/relay-on.4db16a0fd6b66926.png)
 
 Katika relay, mzunguko wa kudhibiti huendesha sumaku ya umeme. Sumaku ya umeme inapowashwa, inavuta lever inayosogeza swichi, kufunga mawasiliano na kukamilisha mzunguko wa nje.
 
-![Wakati imezimwa, sumaku ya umeme haizalishi uwanja wa sumaku, kuzima swichi kwa mzunguko wa nje](../../../../../translated_images/relay-off.c34a178a2960fecd.sw.png)
+![Wakati imezimwa, sumaku ya umeme haizalishi uwanja wa sumaku, kuzima swichi kwa mzunguko wa nje](../../../../../translated_images/sw/relay-off.c34a178a2960fecd.png)
 
 Mzunguko wa kudhibiti unapozimwa, sumaku ya umeme inazimwa, ikiachilia lever na kufungua mawasiliano, kuzima mzunguko wa nje. Relay ni actuators za kidigitali - ishara ya juu kwa relay inaiwasha, ishara ya chini inazima.
 
@@ -81,11 +81,11 @@ Lever inaposogea, mara nyingi unaweza kuisikia ikigusa sumaku ya umeme kwa sauti
 
 Sumaku ya umeme haitaji nguvu nyingi kuamsha na kuvuta lever, inaweza kudhibitiwa kwa kutumia 3.3V au 5V kutoka kwa kifaa cha IoT. Mzunguko wa nje unaweza kubeba nguvu zaidi, kulingana na relay, ikiwa ni pamoja na voltage ya nyumbani au hata viwango vya juu vya nguvu kwa matumizi ya viwandani. Kwa njia hii kifaa cha IoT kinaweza kudhibiti mfumo wa umwagiliaji, kutoka pampu ndogo kwa mmea mmoja, hadi mfumo mkubwa wa viwandani kwa shamba zima la kibiashara.
 
-![Relay ya Grove ikiwa na mzunguko wa kudhibiti, mzunguko wa nje na relay vimewekwa alama](../../../../../translated_images/grove-relay-labelled.293e068f5c3c2a199bd7892f2661fdc9e10c920b535cfed317fbd6d1d4ae1168.sw.png)
+![Relay ya Grove ikiwa na mzunguko wa kudhibiti, mzunguko wa nje na relay vimewekwa alama](../../../../../translated_images/sw/grove-relay-labelled.293e068f5c3c2a199bd7892f2661fdc9e10c920b535cfed317fbd6d1d4ae1168.png)
 
 Picha hapo juu inaonyesha relay ya Grove. Mzunguko wa kudhibiti unaunganisha na kifaa cha IoT na kuwasha au kuzima relay kwa kutumia 3.3V au 5V. Mzunguko wa nje una vituo viwili, chochote kinaweza kuwa umeme au ardhi. Mzunguko wa nje unaweza kushughulikia hadi 250V kwa 10A, ya kutosha kwa vifaa mbalimbali vinavyotumia umeme wa nyumbani. Unaweza kupata relay zinazoweza kushughulikia hata viwango vya juu vya nguvu.
 
-![Pampu iliyounganishwa kupitia relay](../../../../../translated_images/pump-wired-to-relay.66c5cfc0d8918990.sw.png)
+![Pampu iliyounganishwa kupitia relay](../../../../../translated_images/sw/pump-wired-to-relay.66c5cfc0d8918990.png)
 
 Katika picha hapo juu, umeme unapelekwa kwa pampu kupitia relay. Kuna waya nyekundu inayounganisha terminal ya +5V ya chanzo cha umeme cha USB na terminal moja ya mzunguko wa nje wa relay, na waya nyekundu nyingine inayounganisha terminal nyingine ya mzunguko wa nje na pampu. Waya nyeusi inaunganisha pampu na ardhi kwenye chanzo cha umeme cha USB. Relay inapowashwa, inakamilisha mzunguko, kutuma 5V kwa pampu, kuiwasha pampu.
 
@@ -135,7 +135,7 @@ Katika somo la 3 ulijenga taa ya usiku - LED inayowashwa mara tu kiwango cha chi
 
 Ikiwa ulifanya somo la mwisho kuhusu unyevu wa udongo kwa kutumia sensa ya kimwili, ungeweza kugundua kuwa ilichukua sekunde chache kwa usomaji wa unyevu wa udongo kushuka baada ya kumwagilia mmea wako. Hii si kwa sababu sensa ni polepole, lakini kwa sababu inachukua muda kwa maji kupenya kwenye udongo.
 💁 Ikiwa ulimwagilia maji karibu sana na kihisi, huenda uliona usomaji ukishuka haraka kisha kurudi juu - hii inasababishwa na maji karibu na kihisi kusambaa kwenye sehemu nyingine ya udongo, na kupunguza unyevu wa udongo karibu na kihisi.
-![Kipimo cha unyevu wa udongo cha 658 hakibadiliki wakati wa kumwagilia, kinashuka tu hadi 320 baada ya maji kupenya kwenye udongo](../../../../../translated_images/soil-moisture-travel.a0e31af222cf1438.sw.png)
+![Kipimo cha unyevu wa udongo cha 658 hakibadiliki wakati wa kumwagilia, kinashuka tu hadi 320 baada ya maji kupenya kwenye udongo](../../../../../translated_images/sw/soil-moisture-travel.a0e31af222cf1438.png)
 
 Katika mchoro hapo juu, kipimo cha unyevu wa udongo kinaonyesha 658. Mmea unamwagiliwa maji, lakini kipimo hiki hakibadiliki mara moja kwa sababu maji bado hayajafika kwenye kihisi. Kumwagilia maji kunaweza hata kumalizika kabla ya maji kufika kwenye kihisi na thamani kushuka ili kuonyesha kiwango kipya cha unyevu.
 
@@ -157,11 +157,11 @@ Je, relay inapaswa kuwashwa kwa muda gani kila wakati? Ni bora kuwa mwangalifu n
 
 > 💁 Udhibiti wa muda wa aina hii ni maalum sana kwa kifaa cha IoT unachojenga, mali unayopima na vihisi na actuators vinavyotumika.
 
-![Mmea wa strawberry umeunganishwa na maji kupitia pampu, na pampu imeunganishwa na relay. Relay na kihisi cha unyevu wa udongo kwenye mmea vyote vimeunganishwa na Raspberry Pi](../../../../../translated_images/strawberry-with-pump.b410fc72ac6aabad.sw.png)
+![Mmea wa strawberry umeunganishwa na maji kupitia pampu, na pampu imeunganishwa na relay. Relay na kihisi cha unyevu wa udongo kwenye mmea vyote vimeunganishwa na Raspberry Pi](../../../../../translated_images/sw/strawberry-with-pump.b410fc72ac6aabad.png)
 
 Kwa mfano, nina mmea wa strawberry na kihisi cha unyevu wa udongo na pampu inayodhibitiwa na relay. Nimegundua kwamba ninapoongeza maji inachukua takriban sekunde 20 kwa kipimo cha unyevu wa udongo kutulia. Hii inamaanisha ninahitaji kuzima relay na kusubiri sekunde 20 kabla ya kuangalia viwango vya unyevu. Ningependelea kuwa na maji kidogo kuliko mengi - naweza kuwasha pampu tena, lakini siwezi kuondoa maji kutoka kwenye mmea.
 
-![Hatua ya 1, chukua kipimo. Hatua ya 2, ongeza maji. Hatua ya 3, subiri maji kupenya kwenye udongo. Hatua ya 4, chukua kipimo tena](../../../../../translated_images/soil-moisture-delay.865f3fae206db01d.sw.png)
+![Hatua ya 1, chukua kipimo. Hatua ya 2, ongeza maji. Hatua ya 3, subiri maji kupenya kwenye udongo. Hatua ya 4, chukua kipimo tena](../../../../../translated_images/sw/soil-moisture-delay.865f3fae206db01d.png)
 
 Hii inamaanisha mchakato bora wa kumwagilia ungekuwa kama:
 

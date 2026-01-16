@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Podpora več jezikov
 
-![Sketchnote pregled te lekcije](../../../../../translated_images/lesson-24.4246968ed058510ab275052e87ef9aa89c7b2f938915d103c605c04dc6cd5bb7.sl.jpg)
+![Sketchnote pregled te lekcije](../../../../../translated_images/sl/lesson-24.4246968ed058510ab275052e87ef9aa89c7b2f938915d103c605c04dc6cd5bb7.jpg)
 
 > Sketchnote avtorja [Nitya Narasimhan](https://github.com/nitya). Kliknite na sliko za večjo različico.
 
@@ -83,7 +83,7 @@ Obstaja več AI storitev, ki jih lahko uporabite v svojih aplikacijah za prevaja
 
 ### Cognitive services Speech service
 
-![Logotip storitve za govor](../../../../../translated_images/azure-speech-logo.a1f08c4befb0159f2cb5d692d3baf5b599e7b44759d316da907bda1508f46a4a.sl.png)
+![Logotip storitve za govor](../../../../../translated_images/sl/azure-speech-logo.a1f08c4befb0159f2cb5d692d3baf5b599e7b44759d316da907bda1508f46a4a.png)
 
 Storitev za govor, ki ste jo uporabljali v prejšnjih lekcijah, ima prevajalske zmogljivosti za prepoznavanje govora. Ko prepoznate govor, lahko zahtevate ne le besedilo govora v istem jeziku, ampak tudi v drugih jezikih.
 
@@ -91,7 +91,7 @@ Storitev za govor, ki ste jo uporabljali v prejšnjih lekcijah, ima prevajalske 
 
 ### Cognitive services Translator service
 
-![Logotip prevajalske storitve](../../../../../translated_images/azure-translator-logo.c6ed3a4a433edfd2f11577eca105412c50b8396b194cbbd730723dd1d0793bcd.sl.png)
+![Logotip prevajalske storitve](../../../../../translated_images/sl/azure-translator-logo.c6ed3a4a433edfd2f11577eca105412c50b8396b194cbbd730723dd1d0793bcd.png)
 
 Prevajalska storitev je namenski prevajalski servis, ki lahko prevede besedilo iz enega jezika v enega ali več ciljnih jezikov. Poleg prevajanja podpira širok nabor dodatnih funkcij, vključno z maskiranjem neprimernih besed. Prav tako vam omogoča, da zagotovite specifičen prevod za določeno besedo ali stavek, da delate s pojmi, ki jih ne želite prevesti, ali imate specifičen, dobro znan prevod.
 
@@ -130,7 +130,7 @@ Za to lekcijo boste potrebovali prevajalski vir. Uporabili boste REST API za pre
 
 V idealnem svetu bi morala vaša celotna aplikacija razumeti čim več različnih jezikov, od poslušanja govora, do razumevanja jezika, do odgovarjanja z govorom. To je veliko dela, zato lahko prevajalske storitve pospešijo čas dostave vaše aplikacije.
 
-![Arhitektura pametnega časovnika, ki prevaja japonščino v angleščino, obdeluje v angleščini in nato prevaja nazaj v japonščino](../../../../../translated_images/translated-smart-timer.08ac20057fdc5c37.sl.png)
+![Arhitektura pametnega časovnika, ki prevaja japonščino v angleščino, obdeluje v angleščini in nato prevaja nazaj v japonščino](../../../../../translated_images/sl/translated-smart-timer.08ac20057fdc5c37.png)
 
 Predstavljajte si, da gradite pametni časovnik, ki uporablja angleščino od začetka do konca, razume govorjeno angleščino in jo pretvori v besedilo, izvaja razumevanje jezika v angleščini, sestavlja odgovore v angleščini in odgovarja z govorom v angleščini. Če bi želeli dodati podporo za japonščino, bi lahko začeli s prevajanjem govorjene japonščine v angleško besedilo, nato pa ohranili jedro aplikacije enako, nato pa prevedli besedilo odgovora v japonščino, preden bi odgovorili z govorom. To bi vam omogočilo hitro dodajanje podpore za japonščino, kasneje pa lahko razširite na popolno podporo za japonščino od začetka do konca.
 

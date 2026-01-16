@@ -27,13 +27,13 @@ Grove-reläet kan anslutas till Wio Terminals digitala port.
 
 Anslut reläet.
 
-![Ett Grove-relä](../../../../../translated_images/grove-relay.d426958ca210fbd0fb7983d7edc069d46c73a8b0a099d94797bd756f7b6bb6be.sv.png)
+![Ett Grove-relä](../../../../../translated_images/sv/grove-relay.d426958ca210fbd0fb7983d7edc069d46c73a8b0a099d94797bd756f7b6bb6be.png)
 
 1. Sätt ena änden av en Grove-kabel i uttaget på reläet. Den går bara in på ett sätt.
 
 1. Med Wio Terminal frånkopplad från din dator eller annan strömkälla, anslut den andra änden av Grove-kabeln till den vänstra Grove-porten på Wio Terminal när du tittar på skärmen. Låt fuktighetssensorn för jord vara ansluten till den högra porten.
 
-![Grove-reläet anslutet till den vänstra porten, och fuktighetssensorn för jord ansluten till den högra porten](../../../../../translated_images/wio-relay-and-soil-moisture-sensor.ed722202d42babe0.sv.png)
+![Grove-reläet anslutet till den vänstra porten, och fuktighetssensorn för jord ansluten till den högra porten](../../../../../translated_images/sv/wio-relay-and-soil-moisture-sensor.ed722202d42babe0.png)
 
 1. Sätt fuktighetssensorn för jord i jorden, om den inte redan är det från föregående lektion.
 

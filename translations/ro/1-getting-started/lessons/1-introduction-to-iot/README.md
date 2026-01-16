@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Introducere în IoT
 
-![O prezentare grafică a lecției](../../../../../translated_images/lesson-1.2606670fa61ee904687da5d6fa4e726639d524d064c895117da1b95b9ff6251d.ro.jpg)
+![O prezentare grafică a lecției](../../../../../translated_images/ro/lesson-1.2606670fa61ee904687da5d6fa4e726639d524d064c895117da1b95b9ff6251d.jpg)
 
 > Ilustrație realizată de [Nitya Narasimhan](https://github.com/nitya). Faceți clic pe imagine pentru o versiune mai mare.
 
@@ -79,7 +79,7 @@ Un microcontroler (denumit și MCU, prescurtare de la microcontroller unit) este
 
 Microcontrolerele sunt dispozitive de calcul cu costuri reduse, cu prețuri medii pentru cele utilizate în hardware personalizat scăzând la aproximativ 0,50 USD, iar unele dispozitive costând chiar și 0,03 USD. Kiturile de dezvoltare pot începe de la 4 USD, cu costuri care cresc pe măsură ce adăugați mai multe funcții. [Wio Terminal](https://www.seeedstudio.com/Wio-Terminal-p-4509.html), un kit de dezvoltare pentru microcontrolere de la [Seeed studios](https://www.seeedstudio.com), care include senzori, actuatoare, WiFi și un ecran, costă aproximativ 30 USD.
 
-![Un Wio Terminal](../../../../../translated_images/wio-terminal.b8299ee16587db9a.ro.png)
+![Un Wio Terminal](../../../../../translated_images/ro/wio-terminal.b8299ee16587db9a.png)
 
 > 💁 Când căutați pe Internet microcontrolere, fiți atenți la termenul **MCU**, deoarece acesta va aduce multe rezultate despre Universul Cinematic Marvel, nu despre microcontrolere.
 
@@ -93,7 +93,7 @@ Kiturile de dezvoltare pentru microcontrolere vin de obicei cu senzori și actua
 
 Un computer pe o singură placă este un dispozitiv de calcul mic care conține toate elementele unui computer complet pe o singură placă mică. Acestea sunt dispozitive cu specificații apropiate de un PC sau Mac desktop sau laptop, rulează un sistem de operare complet, dar sunt mai mici, consumă mai puțină energie și sunt considerabil mai ieftine.
 
-![Un Raspberry Pi 4](../../../../../translated_images/raspberry-pi-4.fd4590d308c3d456.ro.jpg)
+![Un Raspberry Pi 4](../../../../../translated_images/ro/raspberry-pi-4.fd4590d308c3d456.jpg)
 
 Raspberry Pi este unul dintre cele mai populare computere pe o singură placă.
 

@@ -93,7 +93,7 @@ Custom Vision сервис има Python SDK који можете корист�
 
     Моћи ћете да видите слику која је снимљена, као и ове вредности у картици **Predictions** у Custom Vision.
 
-    ![Банана у Custom Vision предвиђена као зрела са 56.8% и незрела са 43.1%](../../../../../translated_images/custom-vision-banana-prediction.30cdff4e1d72db5d9a0be0193790a47c2b387da034e12dc1314dd57ca2131b59.sr.png)
+    ![Банана у Custom Vision предвиђена као зрела са 56.8% и незрела са 43.1%](../../../../../translated_images/sr/custom-vision-banana-prediction.30cdff4e1d72db5d9a0be0193790a47c2b387da034e12dc1314dd57ca2131b59.png)
 
 > 💁 Овај код можете пронаћи у фасцикли [code-classify/pi](../../../../../4-manufacturing/lessons/2-check-fruit-from-device/code-classify/pi) или [code-classify/virtual-iot-device](../../../../../4-manufacturing/lessons/2-check-fruit-from-device/code-classify/virtual-iot-device).
 

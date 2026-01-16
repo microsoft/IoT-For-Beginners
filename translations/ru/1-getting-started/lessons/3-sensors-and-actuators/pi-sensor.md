@@ -25,13 +25,13 @@ CO_OP_TRANSLATOR_METADATA:
 
 Подключите датчик света.
 
-![Датчик света Grove](../../../../../translated_images/grove-light-sensor.b8127b7c434e632d6bcdb57587a14e9ef69a268a22df95d08628f62b8fa5505c.ru.png)
+![Датчик света Grove](../../../../../translated_images/ru/grove-light-sensor.b8127b7c434e632d6bcdb57587a14e9ef69a268a22df95d08628f62b8fa5505c.png)
 
 1. Вставьте один конец кабеля Grove в разъем на модуле датчика света. Кабель вставляется только в одном направлении.
 
 1. С выключенным Raspberry Pi подключите другой конец кабеля Grove к аналоговому разъему, обозначенному как **A0**, на Grove Base hat, установленном на Pi. Этот разъем находится вторым справа в ряду разъемов рядом с GPIO-контактами.
 
-![Датчик света Grove, подключенный к разъему A0](../../../../../translated_images/pi-light-sensor.66cc1e31fa48cd7d5f23400d4b2119aa41508275cb7c778053a7923b4e972d7e.ru.png)
+![Датчик света Grove, подключенный к разъему A0](../../../../../translated_images/ru/pi-light-sensor.66cc1e31fa48cd7d5f23400d4b2119aa41508275cb7c778053a7923b4e972d7e.png)
 
 ## Программирование датчика света
 

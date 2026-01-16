@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Nastavte časovač a poskytnite hovorenú spätnú väzbu
 
-![Prehľad tejto lekcie vo forme sketchnote](../../../../../translated_images/lesson-23.f38483e1d4df4828990d3f02d60e46c978b075d384ae7cb4f7bab738e107c850.sk.jpg)
+![Prehľad tejto lekcie vo forme sketchnote](../../../../../translated_images/sk/lesson-23.f38483e1d4df4828990d3f02d60e46c978b075d384ae7cb4f7bab738e107c850.jpg)
 
 > Sketchnote od [Nitya Narasimhan](https://github.com/nitya). Kliknite na obrázok pre väčšiu verziu.
 
@@ -37,7 +37,7 @@ V tejto lekcii sa budeme venovať:
 
 Text na reč, ako názov napovedá, je proces konverzie textu na zvuk, ktorý obsahuje text ako hovorené slová. Základný princíp spočíva v rozložení slov v texte na ich základné zvuky (známe ako fonémy) a v spojení zvukov buď pomocou prednahraného zvuku, alebo zvuku generovaného modelmi umelej inteligencie.
 
-![Tri fázy typických systémov textu na reč](../../../../../translated_images/tts-overview.193843cf3f5ee09f.sk.png)
+![Tri fázy typických systémov textu na reč](../../../../../translated_images/sk/tts-overview.193843cf3f5ee09f.png)
 
 Systémy textu na reč majú zvyčajne 3 fázy:
 

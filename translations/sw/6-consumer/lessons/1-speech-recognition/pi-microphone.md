@@ -43,7 +43,7 @@ Kipaza sauti na spika vinahitaji kuunganishwa na kusanidiwa.
 
 1. Ikiwa unatumia ReSpeaker 2-Mics Pi HAT, unaweza kuondoa Grove base hat, kisha kuweka ReSpeaker hat mahali pake.
 
-    ![Raspberry Pi na ReSpeaker hat](../../../../../translated_images/pi-respeaker-hat.f00fabe7dd039a93e2e0aa0fc946c9af0c6a9eb17c32fa1ca097fb4e384f69f0.sw.png)
+    ![Raspberry Pi na ReSpeaker hat](../../../../../translated_images/sw/pi-respeaker-hat.f00fabe7dd039a93e2e0aa0fc946c9af0c6a9eb17c32fa1ca097fb4e384f69f0.png)
 
     Utahitaji kitufe cha Grove baadaye katika somo hili, lakini kimoja kimejengwa ndani ya hat hii, kwa hivyo Grove base hat haitahitajika.
 

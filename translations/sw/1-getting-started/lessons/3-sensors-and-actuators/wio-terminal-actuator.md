@@ -35,7 +35,7 @@ LED ya Grove inakuja kama moduli yenye chaguo la LEDs, ikikuruhusu kuchagua rang
 
 Unganisha LED.
 
-![LED ya Grove](../../../../../translated_images/grove-led.6c853be93f473cf2c439cfc74bb1064732b22251a83cedf66e62f783f9cc1a79.sw.png)
+![LED ya Grove](../../../../../translated_images/sw/grove-led.6c853be93f473cf2c439cfc74bb1064732b22251a83cedf66e62f783f9cc1a79.png)
 
 1. Chagua LED unayopenda na ingiza miguu yake kwenye mashimo mawili kwenye moduli ya LED.
 
@@ -51,7 +51,7 @@ Unganisha LED.
 
     > 💁 Soketi ya Grove ya upande wa kulia inaweza kutumika na sensa za analogi au kidijitali na vifaa vya kutenda. Soketi ya upande wa kushoto ni kwa sensa za analogi pekee. C itafundishwa katika somo la baadaye.
 
-![LED ya Grove imeunganishwa na soketi ya upande wa kulia](../../../../../translated_images/wio-led.265a1897e72d7f21.sw.png)
+![LED ya Grove imeunganishwa na soketi ya upande wa kulia](../../../../../translated_images/sw/wio-led.265a1897e72d7f21.png)
 
 ## Programu ya taa ya usiku
 

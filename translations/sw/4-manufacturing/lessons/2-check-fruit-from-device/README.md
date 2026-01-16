@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Angalia Ubora wa Matunda Kutoka Kifaa cha IoT
 
-![Muhtasari wa somo hili kwa njia ya mchoro](../../../../../translated_images/lesson-16.215daf18b00631fbdfd64c6fc2dc6044dff5d544288825d8076f9fb83d964c23.sw.jpg)
+![Muhtasari wa somo hili kwa njia ya mchoro](../../../../../translated_images/sw/lesson-16.215daf18b00631fbdfd64c6fc2dc6044dff5d544288825d8076f9fb83d964c23.jpg)
 
 > Mchoro na [Nitya Narasimhan](https://github.com/nitya). Bonyeza picha kwa toleo kubwa.
 
@@ -35,7 +35,7 @@ Katika somo hili tutajadili:
 
 Vihisi vya kamera, kama jina linavyopendekeza, ni kamera ambazo unaweza kuunganisha kwenye kifaa chako cha IoT. Zinaweza kunasa picha za kawaida, au kurekodi video inayoendelea. Baadhi zitarudisha data ghafi ya picha, wakati nyingine zitakandamiza data hiyo kuwa faili la picha kama JPEG au PNG. Kwa kawaida, kamera zinazofanya kazi na vifaa vya IoT ni ndogo zaidi na zina azimio la chini ukilinganisha na zile ulizozoea, lakini unaweza kupata kamera zenye azimio la juu zinazolingana na simu za hali ya juu. Unaweza pia kupata lenzi zinazobadilishika, mipangilio ya kamera nyingi, kamera za joto za infraredi, au kamera za miale ya UV.
 
-![Mwanga kutoka eneo fulani unapita kwenye lenzi na kuelekezwa kwenye kihisi cha CMOS](../../../../../translated_images/cmos-sensor.75f9cd74decb137149a4c9ea825251a4549497d67c0ae2776159e6102bb53aa9.sw.png)
+![Mwanga kutoka eneo fulani unapita kwenye lenzi na kuelekezwa kwenye kihisi cha CMOS](../../../../../translated_images/sw/cmos-sensor.75f9cd74decb137149a4c9ea825251a4549497d67c0ae2776159e6102bb53aa9.png)
 
 Vihisi vingi vya kamera hutumia vihisi vya picha ambapo kila pikseli ni fotodiode. Lenzi huweka picha kwenye kihisi cha picha, na maelfu au mamilioni ya fotodiode hugundua mwanga unaoangukia kila moja, na kurekodi hiyo kama data ya pikseli.
 
@@ -83,7 +83,7 @@ Mizunguko huchapishwa kutoka kwenye lango la Custom Vision.
 
 1. Chagua kitufe cha **Chapisha** kwa mzunguko huo.
 
-    ![Kitufe cha kuchapisha](../../../../../translated_images/custom-vision-publish-button.b7174e1977b0c33b8b72d4e5b1326c779e0af196f3849d09985ee2d7d5493a39.sw.png)
+    ![Kitufe cha kuchapisha](../../../../../translated_images/sw/custom-vision-publish-button.b7174e1977b0c33b8b72d4e5b1326c779e0af196f3849d09985ee2d7d5493a39.png)
 
 1. Katika kisanduku cha mazungumzo cha *Chapisha Mfano*, weka *Rasilimali ya Utabiri* kuwa rasilimali ya `fruit-quality-detector-prediction` uliyounda katika somo lililopita. Acha jina liwe `Iteration2`, na uchague kitufe cha **Chapisha**.
 
@@ -97,7 +97,7 @@ Mizunguko huchapishwa kutoka kwenye lango la Custom Vision.
 
     Pia chukua nakala ya thamani ya *Ufunguo wa Utabiri*. Huu ni ufunguo wa usalama ambao lazima upitishwe unapokuita mfano. Ni programu tu zinazopitisha ufunguo huu ndizo zinaruhusiwa kutumia mfano, programu nyingine zote zinakataliwa.
 
-    ![Kisanduku cha mazungumzo cha API ya utabiri kinachoonyesha URL na ufunguo](../../../../../translated_images/custom-vision-prediction-key-endpoint.30c569ffd0338864f319911f052d5e9b8c5066cb0800a26dd6f7ff5713130ad8.sw.png)
+    ![Kisanduku cha mazungumzo cha API ya utabiri kinachoonyesha URL na ufunguo](../../../../../translated_images/sw/custom-vision-prediction-key-endpoint.30c569ffd0338864f319911f052d5e9b8c5066cb0800a26dd6f7ff5713130ad8.png)
 
 ✅ Wakati mzunguko mpya unachapishwa, utakuwa na jina tofauti. Unafikiri ungewezaje kubadilisha mzunguko unaotumiwa na kifaa cha IoT?
 
@@ -118,7 +118,7 @@ Huenda ukagundua kuwa matokeo unayopata unapoitumia kamera iliyounganishwa kweny
 
 Ili kupata matokeo bora kwa kichanganuzi cha picha, unataka kufundisha mfano kwa picha zinazofanana zaidi na picha zinazotumiwa kwa utabiri. Ikiwa ulitumia kamera ya simu yako kunasa picha za mafunzo, kwa mfano, ubora wa picha, ukali, na rangi zitakuwa tofauti na kamera iliyounganishwa kwenye kifaa cha IoT.
 
-![Picha 2 za ndizi, moja ya azimio la chini na mwanga duni kutoka kifaa cha IoT, na nyingine ya azimio la juu na mwanga mzuri kutoka simu](../../../../../translated_images/banana-picture-compare.174df164dc326a42cf7fb051a7497e6113c620e91552d92ca914220305d47d9a.sw.png)
+![Picha 2 za ndizi, moja ya azimio la chini na mwanga duni kutoka kifaa cha IoT, na nyingine ya azimio la juu na mwanga mzuri kutoka simu](../../../../../translated_images/sw/banana-picture-compare.174df164dc326a42cf7fb051a7497e6113c620e91552d92ca914220305d47d9a.png)
 
 Katika picha hapo juu, picha ya ndizi upande wa kushoto ilichukuliwa kwa kutumia Kamera ya Raspberry Pi, ile ya kulia ilichukuliwa ya ndizi hiyo hiyo katika eneo lile lile kwa kutumia iPhone. Kuna tofauti kubwa ya ubora - picha ya iPhone ni kali zaidi, yenye rangi angavu na utofauti mkubwa.
 

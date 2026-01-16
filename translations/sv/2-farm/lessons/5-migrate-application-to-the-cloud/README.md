@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Migrera din applikationslogik till molnet
 
-![En sketchnote-översikt av denna lektion](../../../../../translated_images/lesson-9.dfe99c8e891f48e179724520da9f5794392cf9a625079281ccdcbf09bd85e1b6.sv.jpg)
+![En sketchnote-översikt av denna lektion](../../../../../translated_images/sv/lesson-9.dfe99c8e891f48e179724520da9f5794392cf9a625079281ccdcbf09bd85e1b6.jpg)
 
 > Sketchnote av [Nitya Narasimhan](https://github.com/nitya). Klicka på bilden för en större version.
 
@@ -37,11 +37,11 @@ I denna lektion kommer vi att täcka:
 
 Serverlöst, eller serverlös databehandling, innebär att skapa små kodblock som körs i molnet som svar på olika typer av händelser. När händelsen inträffar körs din kod och får data om händelsen. Dessa händelser kan komma från många olika saker, inklusive webbförfrågningar, meddelanden som läggs i en kö, ändringar av data i en databas eller meddelanden som skickas till en IoT-tjänst av IoT-enheter.
 
-![Händelser som skickas från en IoT-tjänst till en serverlös tjänst, alla bearbetas samtidigt av flera funktioner som körs](../../../../../translated_images/iot-messages-to-serverless.0194da1cc0732bb7d0f823aed3fce54735c6b1ad3bf36089804d8aaefc0a774f.sv.png)
+![Händelser som skickas från en IoT-tjänst till en serverlös tjänst, alla bearbetas samtidigt av flera funktioner som körs](../../../../../translated_images/sv/iot-messages-to-serverless.0194da1cc0732bb7d0f823aed3fce54735c6b1ad3bf36089804d8aaefc0a774f.png)
 
 > 💁 Om du har använt databasutlösare tidigare kan du tänka på detta som samma sak, kod som triggas av en händelse som att infoga en rad.
 
-![När många händelser skickas samtidigt skalar den serverlösa tjänsten upp för att köra dem alla samtidigt](../../../../../translated_images/serverless-scaling.f8c769adf0413fd1.sv.png)
+![När många händelser skickas samtidigt skalar den serverlösa tjänsten upp för att köra dem alla samtidigt](../../../../../translated_images/sv/serverless-scaling.f8c769adf0413fd1.png)
 
 Din kod körs endast när händelsen inträffar, det finns inget som håller din kod aktiv vid andra tillfällen. Händelsen inträffar, din kod laddas och körs. Detta gör serverlöst mycket skalbart - om många händelser inträffar samtidigt kan molnleverantören köra din funktion så många gånger som behövs samtidigt över de servrar de har tillgängliga. Nackdelen med detta är att om du behöver dela information mellan händelser måste du spara den någonstans, som i en databas, istället för att lagra den i minnet.
 
@@ -63,7 +63,7 @@ Som IoT-utvecklare är den serverlösa modellen idealisk. Du kan skriva en funkt
 
 Den serverlösa databehandlingstjänsten från Microsoft kallas Azure Functions.
 
-![Azure Functions-logotypen](../../../../../translated_images/azure-functions-logo.1cfc8e3204c9c44aaf80fcf406fc8544d80d7f00f8d3e8ed6fed764563e17564.sv.png)
+![Azure Functions-logotypen](../../../../../translated_images/sv/azure-functions-logo.1cfc8e3204c9c44aaf80fcf406fc8544d80d7f00f8d3e8ed6fed764563e17564.png)
 
 Den korta videon nedan ger en översikt över Azure Functions.
 
@@ -244,7 +244,7 @@ Azure Functions CLI kan användas för att skapa en ny Functions-app.
     VS Code. Initialize for optimal use with VS Code?
     ```
 
-    ![Notisen](../../../../../translated_images/vscode-azure-functions-init-notification.bd19b49229963edb.sv.png)
+    ![Notisen](../../../../../translated_images/sv/vscode-azure-functions-init-notification.bd19b49229963edb.png)
 
     Välj **Yes** i denna notis.
 

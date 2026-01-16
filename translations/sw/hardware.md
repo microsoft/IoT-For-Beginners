@@ -21,7 +21,7 @@ Pia utahitaji vitu vichache visivyo vya kiufundi, kama udongo au mmea wa sufuria
 
 ## Nunua Vifurushi
 
-![Nembo ya Seeed Studios](../../translated_images/seeed-logo.74732b6b482b6e8e.sw.png)
+![Nembo ya Seeed Studios](../../translated_images/sw/seeed-logo.74732b6b482b6e8e.png)
 
 Seeed Studios wamefanya vifaa vyote kupatikana kwa urahisi kama vifurushi vya kununua:
 
@@ -29,13 +29,13 @@ Seeed Studios wamefanya vifaa vyote kupatikana kwa urahisi kama vifurushi vya ku
 
 **[IoT kwa wanaoanza na Seeed na Microsoft - Kifurushi cha Kuanza cha Wio Terminal](https://www.seeedstudio.com/IoT-for-beginners-with-Seeed-and-Microsoft-Wio-Terminal-Starter-Kit-p-5006.html)**
 
-[![Kifurushi cha vifaa vya Wio Terminal](../../translated_images/wio-hardware-kit.4c70c48b85e4283a.sw.png)](https://www.seeedstudio.com/IoT-for-beginners-with-Seeed-and-Microsoft-Wio-Terminal-Starter-Kit-p-5006.html)
+[![Kifurushi cha vifaa vya Wio Terminal](../../translated_images/sw/wio-hardware-kit.4c70c48b85e4283a.png)](https://www.seeedstudio.com/IoT-for-beginners-with-Seeed-and-Microsoft-Wio-Terminal-Starter-Kit-p-5006.html)
 
 ### Raspberry Pi
 
 **[IoT kwa wanaoanza na Seeed na Microsoft - Kifurushi cha Kuanza cha Raspberry Pi 4](https://www.seeedstudio.com/IoT-for-beginners-with-Seeed-and-Microsoft-Raspberry-Pi-Starter-Kit-p-5004.html)**
 
-[![Kifurushi cha vifaa vya Raspberry Pi Terminal](../../translated_images/pi-hardware-kit.26dbadaedb7dd44c73b0131d5d68ea29472ed0a9744f90d5866c6d82f2d16380.sw.png)](https://www.seeedstudio.com/IoT-for-beginners-with-Seeed-and-Microsoft-Raspberry-Pi-Starter-Kit-p-5004.html)
+[![Kifurushi cha vifaa vya Raspberry Pi Terminal](../../translated_images/sw/pi-hardware-kit.26dbadaedb7dd44c73b0131d5d68ea29472ed0a9744f90d5866c6d82f2d16380.png)](https://www.seeedstudio.com/IoT-for-beginners-with-Seeed-and-Microsoft-Raspberry-Pi-Starter-Kit-p-5004.html)
 
 ## Arduino
 

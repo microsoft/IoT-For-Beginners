@@ -29,13 +29,13 @@ Grove Time of Flight சென்சரை Wio Terminal-க்கு இணை�
 
 Time of Flight சென்சரை இணைக்கவும்.
 
-![ஒரு Grove Time of Flight சென்சர்](../../../../../translated_images/grove-time-of-flight-sensor.d82ff2165bfded9f485de54d8d07195a6270a602696825fca19f629ddfe94e86.ta.png)
+![ஒரு Grove Time of Flight சென்சர்](../../../../../translated_images/ta/grove-time-of-flight-sensor.d82ff2165bfded9f485de54d8d07195a6270a602696825fca19f629ddfe94e86.png)
 
 1. Grove கேபிளின் ஒரு முனையை Time of Flight சென்சரின் சாக்கெட்டில் செருகவும். இது ஒரு வழியில் மட்டுமே செருகப்படும்.
 
 1. Wio Terminal உங்கள் கணினி அல்லது பிற மின்சார ஆதாரத்திலிருந்து துண்டிக்கப்பட்ட நிலையில், Grove கேபிளின் மற்ற முனையை Wio Terminal-ல் திரையின் இடது பக்கம் உள்ள Grove சாக்கெட்டில் இணைக்கவும். இது மின்மயமாக்கப்பட்ட மற்றும் I<sup>2</sup>C சாக்கெட் ஆகும்.
 
-![Time of Flight சென்சர் இடது பக்கம் சாக்கெட்டில் இணைக்கப்பட்டுள்ளது](../../../../../translated_images/wio-time-of-flight-sensor.c4c182131d2ea73d.ta.png)
+![Time of Flight சென்சர் இடது பக்கம் சாக்கெட்டில் இணைக்கப்பட்டுள்ளது](../../../../../translated_images/ta/wio-time-of-flight-sensor.c4c182131d2ea73d.png)
 
 1. இப்போது Wio Terminal-ஐ உங்கள் கணினிக்கு இணைக்கலாம்.
 
@@ -101,7 +101,7 @@ Time of Flight சென்சரை இணைக்கவும்.
 
     ரேஞ்ச்ஃபைண்டர் சென்சரின் பின்புறத்தில் உள்ளது, எனவே தூரத்தை அளவிட சரியான பக்கத்தை பயன்படுத்த உறுதிப்படுத்தவும்.
 
-    ![Time of Flight சென்சரின் பின்புறம் ஒரு வாழைப்பழத்தை நோக்க pointing](../../../../../translated_images/time-of-flight-banana.079921ad8b1496e4.ta.png)
+    ![Time of Flight சென்சரின் பின்புறம் ஒரு வாழைப்பழத்தை நோக்க pointing](../../../../../translated_images/ta/time-of-flight-banana.079921ad8b1496e4.png)
 
 > 💁 இந்த குறியீட்டை [code-proximity/wio-terminal](../../../../../4-manufacturing/lessons/4-trigger-fruit-detector/code-proximity/wio-terminal) கோப்பகத்தில் காணலாம்.
 

@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Kör din fruktdetektor på kanten
 
-![En sketchnote-översikt av denna lektion](../../../../../translated_images/lesson-17.bc333c3c35ba8e42cce666cfffa82b915f787f455bd94e006aea2b6f2722421a.sv.jpg)
+![En sketchnote-översikt av denna lektion](../../../../../translated_images/sv/lesson-17.bc333c3c35ba8e42cce666cfffa82b915f787f455bd94e006aea2b6f2722421a.jpg)
 
 > Sketchnote av [Nitya Narasimhan](https://github.com/nitya). Klicka på bilden för en större version.
 
@@ -42,11 +42,11 @@ I denna lektion kommer vi att behandla:
 
 Edge computing innebär att ha datorer som bearbetar IoT-data så nära som möjligt där data genereras. Istället för att ha denna bearbetning i molnet flyttas den till kanten av molnet - ditt interna nätverk.
 
-![En arkitekturdiagram som visar internettjänster i molnet och IoT-enheter på ett lokalt nätverk](../../../../../translated_images/cloud-without-edge.b4da641f6022c95ed6b91fde8b5323abd2f94e0d52073ad54172ae8f5dac90e9.sv.png)
+![En arkitekturdiagram som visar internettjänster i molnet och IoT-enheter på ett lokalt nätverk](../../../../../translated_images/sv/cloud-without-edge.b4da641f6022c95ed6b91fde8b5323abd2f94e0d52073ad54172ae8f5dac90e9.png)
 
 I de tidigare lektionerna har du haft enheter som samlar in data och skickar data till molnet för att analyseras, och kör serverlösa funktioner eller AI-modeller i molnet.
 
-![En arkitekturdiagram som visar IoT-enheter på ett lokalt nätverk som ansluter till edge-enheter, och dessa edge-enheter ansluter till molnet](../../../../../translated_images/cloud-with-edge.1e26462c62c126fe150bd15a5714ddf0be599f09bacbad08b85be02b76ea1ae1.sv.png)
+![En arkitekturdiagram som visar IoT-enheter på ett lokalt nätverk som ansluter till edge-enheter, och dessa edge-enheter ansluter till molnet](../../../../../translated_images/sv/cloud-with-edge.1e26462c62c126fe150bd15a5714ddf0be599f09bacbad08b85be02b76ea1ae1.png)
 
 Edge computing innebär att flytta vissa av molntjänsterna från molnet till datorer som körs på samma nätverk som IoT-enheterna, och endast kommunicera med molnet vid behov. Till exempel kan du köra AI-modeller på edge-enheter för att analysera fruktens mognad och endast skicka analysdata tillbaka till molnet, såsom antalet mogna frukter jämfört med omogna.
 
@@ -94,7 +94,7 @@ För IoT-system vill du ofta ha en blandning av moln- och edge computing, och ut
 
 ## Azure IoT Edge
 
-![Azure IoT Edge-logotypen](../../../../../translated_images/azure-iot-edge-logo.c1c076749b5cba2e8755262fadc2f19ca1146b948d76990b1229199ac2292d79.sv.png)
+![Azure IoT Edge-logotypen](../../../../../translated_images/sv/azure-iot-edge-logo.c1c076749b5cba2e8755262fadc2f19ca1146b948d76990b1229199ac2292d79.png)
 
 Azure IoT Edge är en tjänst som kan hjälpa dig att flytta arbetsbelastningar från molnet till kanten. Du ställer in en enhet som en edge-enhet och från molnet kan du distribuera kod till den edge-enheten. Detta gör att du kan blanda molnets och kantens kapabiliteter.
 
@@ -108,7 +108,7 @@ IoT Edge är inbyggt i IoT Hub, så du kan hantera edge-enheter med samma tjäns
 
 IoT Edge kör kod från *containers* - självständiga applikationer som körs isolerat från resten av applikationerna på din dator. När du kör en container fungerar den som en separat dator som körs inuti din dator, med sin egen programvara, tjänster och applikationer. Oftast kan containers inte komma åt något på din dator om du inte väljer att dela saker som en mapp med containern. Containern exponerar sedan tjänster via en öppen port som du kan ansluta till eller exponera för ditt nätverk.
 
-![En webbförfrågan omdirigerad till en container](../../../../../translated_images/container-web-browser.4ee81dd4f0d8838ce622b2a0d600b6a4322b5d4fe43159facd87b7b34f84d66a.sv.png)
+![En webbförfrågan omdirigerad till en container](../../../../../translated_images/sv/container-web-browser.4ee81dd4f0d8838ce622b2a0d600b6a4322b5d4fe43159facd87b7b34f84d66a.png)
 
 Till exempel kan du ha en container med en webbplats som körs på port 80, standardporten för HTTP, och du kan sedan exponera den från din dator också på port 80.
 
@@ -204,11 +204,11 @@ När modellen har tränats behöver den exporteras som en container.
 
 ## Förbered din container för distribution
 
-![Containrar byggs och skickas till ett containerregister, och distribueras sedan från registret till en edge-enhet med IoT Edge](../../../../../translated_images/container-edge-flow.c246050dd60ceefdb6ace026a4ce5c6aa4112bb5898ae23fbb2ab4be29ae3e1b.sv.png)
+![Containrar byggs och skickas till ett containerregister, och distribueras sedan från registret till en edge-enhet med IoT Edge](../../../../../translated_images/sv/container-edge-flow.c246050dd60ceefdb6ace026a4ce5c6aa4112bb5898ae23fbb2ab4be29ae3e1b.png)
 
 När du har laddat ner din modell behöver den byggas till en container och skickas till ett containerregister - en onlineplats där du kan lagra containrar. IoT Edge kan sedan ladda ner containern från registret och skicka den till din enhet.
 
-![Azure Container Registry-logotypen](../../../../../translated_images/azure-container-registry-logo.09494206991d4b295025ebff7d4e2900325e527a59184ffbc8464b6ab59654be.sv.png)
+![Azure Container Registry-logotypen](../../../../../translated_images/sv/azure-container-registry-logo.09494206991d4b295025ebff7d4e2900325e527a59184ffbc8464b6ab59654be.png)
 
 Containerregistret du kommer att använda för denna lektion är Azure Container Registry. Detta är inte en gratis tjänst, så för att spara pengar, se till att [städa upp ditt projekt](../../../clean-up.md) när du är klar.
 

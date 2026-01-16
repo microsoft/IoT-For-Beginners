@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Păstrează-ți planta în siguranță
 
-![O prezentare grafică a lecției](../../../../../translated_images/lesson-10.829c86b80b9403bb770929ee553a1d293afe50dc23121aaf9be144673ae012cc.ro.jpg)
+![O prezentare grafică a lecției](../../../../../translated_images/ro/lesson-10.829c86b80b9403bb770929ee553a1d293afe50dc23121aaf9be144673ae012cc.jpg)
 
 > Ilustrație de [Nitya Narasimhan](https://github.com/nitya). Click pe imagine pentru o versiune mai mare.
 
@@ -61,11 +61,11 @@ Acestea sunt scenarii reale și se întâmplă frecvent. Unele exemple au fost p
 
 Când un dispozitiv se conectează la un serviciu IoT, folosește un ID pentru a se identifica. Problema este că acest ID poate fi clonat - un hacker ar putea configura un dispozitiv malițios care folosește același ID ca un dispozitiv real, dar trimite date false.
 
-![Atât dispozitivele valide, cât și cele malițioase ar putea folosi același ID pentru a trimite telemetrie](../../../../../translated_images/iot-device-and-hacked-device-connecting.e0671675df74d6d99eb1dedb5a670e606f698efa6202b1ad4c8ae548db299cc6.ro.png)
+![Atât dispozitivele valide, cât și cele malițioase ar putea folosi același ID pentru a trimite telemetrie](../../../../../translated_images/ro/iot-device-and-hacked-device-connecting.e0671675df74d6d99eb1dedb5a670e606f698efa6202b1ad4c8ae548db299cc6.png)
 
 Soluția este să transformi datele trimise într-un format criptat, folosind o valoare cunoscută doar de dispozitiv și de cloud. Acest proces se numește *criptare*, iar valoarea utilizată pentru criptarea datelor se numește *cheie de criptare*.
 
-![Dacă se folosește criptarea, doar mesajele criptate vor fi acceptate, celelalte vor fi respinse](../../../../../translated_images/iot-device-and-hacked-device-connecting-encryption.5941aff601fc978f979e46f2849b573564eeb4a4dc5b52f669f62745397492fb.ro.png)
+![Dacă se folosește criptarea, doar mesajele criptate vor fi acceptate, celelalte vor fi respinse](../../../../../translated_images/ro/iot-device-and-hacked-device-connecting-encryption.5941aff601fc978f979e46f2849b573564eeb4a4dc5b52f669f62745397492fb.png)
 
 Serviciul cloud poate apoi să convertească datele înapoi într-un format lizibil, folosind un proces numit *decriptare*, utilizând fie aceeași cheie de criptare, fie o *cheie de decriptare*. Dacă mesajul criptat nu poate fi decriptat cu cheia, dispozitivul a fost compromis, iar mesajul este respins.
 
@@ -97,15 +97,15 @@ Criptarea vine în două tipuri - simetrică și asimetrică.
 
 **Criptarea simetrică** folosește aceeași cheie pentru a cripta și decripta datele. Atât expeditorul, cât și destinatarul trebuie să cunoască aceeași cheie. Acesta este cel mai puțin sigur tip, deoarece cheia trebuie să fie partajată cumva. Pentru ca un expeditor să trimită un mesaj criptat unui destinatar, expeditorul ar putea mai întâi să trimită cheia destinatarului.
 
-![Criptarea cu cheie simetrică folosește aceeași cheie pentru a cripta și decripta un mesaj](../../../../../translated_images/send-message-symmetric-key.a2e8ad0d495896ff.ro.png)
+![Criptarea cu cheie simetrică folosește aceeași cheie pentru a cripta și decripta un mesaj](../../../../../translated_images/ro/send-message-symmetric-key.a2e8ad0d495896ff.png)
 
 Dacă cheia este furată în tranzit sau dacă expeditorul sau destinatarul sunt hackeriți și cheia este găsită, criptarea poate fi spartă.
 
-![Criptarea cu cheie simetrică este sigură doar dacă un hacker nu obține cheia - dacă o face, poate intercepta și decripta mesajul](../../../../../translated_images/send-message-symmetric-key-hacker.e7cb53db1707adfb.ro.png)
+![Criptarea cu cheie simetrică este sigură doar dacă un hacker nu obține cheia - dacă o face, poate intercepta și decripta mesajul](../../../../../translated_images/ro/send-message-symmetric-key-hacker.e7cb53db1707adfb.png)
 
 **Criptarea asimetrică** folosește 2 chei - o cheie de criptare și o cheie de decriptare, denumite pereche de chei publice/private. Cheia publică este utilizată pentru a cripta mesajul, dar nu poate fi utilizată pentru a-l decripta, iar cheia privată este utilizată pentru a decripta mesajul, dar nu poate fi utilizată pentru a-l cripta.
 
-![Criptarea asimetrică folosește o cheie diferită pentru a cripta și decripta. Cheia de criptare este trimisă oricărui expeditor de mesaje, astfel încât acesta să poată cripta un mesaj înainte de a-l trimite destinatarului care deține cheile](../../../../../translated_images/send-message-asymmetric.7abe327c62615b8c.ro.png)
+![Criptarea asimetrică folosește o cheie diferită pentru a cripta și decripta. Cheia de criptare este trimisă oricărui expeditor de mesaje, astfel încât acesta să poată cripta un mesaj înainte de a-l trimite destinatarului care deține cheile](../../../../../translated_images/ro/send-message-asymmetric.7abe327c62615b8c.png)
 
 Destinatarul își partajează cheia publică, iar expeditorul o folosește pentru a cripta mesajul. Odată ce mesajul este trimis, destinatarul îl decriptează cu cheia sa privată. Criptarea asimetrică este mai sigură, deoarece cheia privată este păstrată privată de către destinatar și nu este niciodată partajată. Oricine poate avea cheia publică, deoarece aceasta poate fi utilizată doar pentru a cripta mesaje.
 
@@ -165,7 +165,7 @@ Aceste certificate au o serie de câmpuri, inclusiv cine este sursa cheii public
 
 Când folosești certificate X.509, atât expeditorul, cât și destinatarul vor avea propriile chei publice și private, precum și certificate X.509 care conțin cheia publică. Apoi schimbă cumva certificatele X.509, folosind cheile publice ale celuilalt pentru a cripta datele pe care le trimit și propria cheie privată pentru a decripta datele pe care le primesc.
 
-![În loc să împărtășești o cheie publică, poți împărtăși un certificat. Utilizatorul certificatului poate verifica că provine de la tine verificând cu autoritatea de certificare care l-a semnat.](../../../../../translated_images/send-message-certificate.9cc576ac1e46b76e.ro.png)
+![În loc să împărtășești o cheie publică, poți împărtăși un certificat. Utilizatorul certificatului poate verifica că provine de la tine verificând cu autoritatea de certificare care l-a semnat.](../../../../../translated_images/ro/send-message-certificate.9cc576ac1e46b76e.png)
 
 Un mare avantaj al utilizării certificatelor X.509 este că acestea pot fi împărtășite între dispozitive. Poți crea un certificat, să-l încarci în IoT Hub și să-l folosești pentru toate dispozitivele tale. Fiecare dispozitiv trebuie doar să cunoască cheia privată pentru a decripta mesajele pe care le primește de la IoT Hub.
 

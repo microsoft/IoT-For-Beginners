@@ -47,11 +47,11 @@ Adaugă senzorul GPS în aplicația CounterFit.
 
     1. Selectează butonul **Add** pentru a crea senzorul GPS pe portul `/dev/ttyAMA0`.
 
-    ![Setările senzorului GPS](../../../../../translated_images/counterfit-create-gps-sensor.6385dc9357d85ad1d47b4abb2525e7651fd498917d25eefc5a72feab09eedc70.ro.png)
+    ![Setările senzorului GPS](../../../../../translated_images/ro/counterfit-create-gps-sensor.6385dc9357d85ad1d47b4abb2525e7651fd498917d25eefc5a72feab09eedc70.png)
 
     Senzorul GPS va fi creat și va apărea în lista de senzori.
 
-    ![Senzorul GPS creat](../../../../../translated_images/counterfit-gps-sensor.3fbb15af0a5367566f2f11324ef5a6f30861cdf2b497071a5e002b7aa473550e.ro.png)
+    ![Senzorul GPS creat](../../../../../translated_images/ro/counterfit-gps-sensor.3fbb15af0a5367566f2f11324ef5a6f30861cdf2b497071a5e002b7aa473550e.png)
 
 ## Programează senzorul GPS
 
@@ -111,17 +111,17 @@ Programează aplicația senzorului GPS.
 
     * Setează **Source** la `Lat/Lon` și setează o latitudine, longitudine și numărul de sateliți folosiți pentru a obține fixarea GPS. Această valoare va fi trimisă o singură dată, așa că bifează caseta **Repeat** pentru ca datele să se repete la fiecare secundă.
 
-      ![Senzorul GPS cu lat lon selectat](../../../../../translated_images/counterfit-gps-sensor-latlon.008c867d75464fbe7f84107cc57040df565ac07cb57d2f21db37d087d470197d.ro.png)
+      ![Senzorul GPS cu lat lon selectat](../../../../../translated_images/ro/counterfit-gps-sensor-latlon.008c867d75464fbe7f84107cc57040df565ac07cb57d2f21db37d087d470197d.png)
 
     * Setează **Source** la `NMEA` și adaugă câteva propoziții NMEA în caseta de text. Toate aceste valori vor fi trimise, cu o întârziere de 1 secundă înainte ca fiecare propoziție GGA (fixare poziție) nouă să poată fi citită.
 
-      ![Senzorul GPS cu propoziții NMEA setate](../../../../../translated_images/counterfit-gps-sensor-nmea.c62eea442171e17e19528b051b104cfcecdc9cd18db7bc72920f29821ae63f73.ro.png)
+      ![Senzorul GPS cu propoziții NMEA setate](../../../../../translated_images/ro/counterfit-gps-sensor-nmea.c62eea442171e17e19528b051b104cfcecdc9cd18db7bc72920f29821ae63f73.png)
 
       Poți folosi un instrument precum [nmeagen.org](https://www.nmeagen.org) pentru a genera aceste propoziții desenând pe o hartă. Aceste valori vor fi trimise o singură dată, așa că bifează caseta **Repeat** pentru ca datele să se repete la o secundă după ce toate au fost trimise.
 
     * Setează **Source** la fișier GPX și încarcă un fișier GPX cu locații de traseu. Poți descărca fișiere GPX de pe o serie de site-uri populare de hărți și drumeții, cum ar fi [AllTrails](https://www.alltrails.com/). Aceste fișiere conțin locații GPS multiple ca traseu, iar senzorul GPS va returna fiecare locație nouă la intervale de 1 secundă.
 
-      ![Senzorul GPS cu fișier GPX setat](../../../../../translated_images/counterfit-gps-sensor-gpxfile.8310b063ce8a425ccc8ebeec8306aeac5e8e55207f007d52c6e1194432a70cd9.ro.png)
+      ![Senzorul GPS cu fișier GPX setat](../../../../../translated_images/ro/counterfit-gps-sensor-gpxfile.8310b063ce8a425ccc8ebeec8306aeac5e8e55207f007d52c6e1194432a70cd9.png)
 
       Aceste valori vor fi trimise o singură dată, așa că bifează caseta **Repeat** pentru ca datele să se repete la o secundă după ce toate au fost trimise.
 

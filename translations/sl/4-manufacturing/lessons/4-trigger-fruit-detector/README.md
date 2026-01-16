@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Sproži zaznavanje kakovosti sadja s senzorjem
 
-![Sketchnote pregled te lekcije](../../../../../translated_images/lesson-18.92c32ed1d354caa5a54baa4032cf0b172d4655e8e326ad5d46c558a0def15365.sl.jpg)
+![Sketchnote pregled te lekcije](../../../../../translated_images/sl/lesson-18.92c32ed1d354caa5a54baa4032cf0b172d4655e8e326ad5d46c558a0def15365.jpg)
 
 > Sketchnote avtorja [Nitya Narasimhan](https://github.com/nitya). Kliknite na sliko za večjo različico.
 
@@ -48,7 +48,7 @@ IoT aplikacije lahko opišemo kot *stvari* (naprave), ki pošiljajo podatke, ki 
 
 ### Referenčna IoT arhitektura
 
-![Referenčna IoT arhitektura](../../../../../translated_images/iot-reference-architecture.2278b98b55c6d4e89bde18eada3688d893861d43507641804dd2f9d3079cfaa0.sl.png)
+![Referenčna IoT arhitektura](../../../../../translated_images/sl/iot-reference-architecture.2278b98b55c6d4e89bde18eada3688d893861d43507641804dd2f9d3079cfaa0.png)
 
 Zgornji diagram prikazuje referenčno IoT arhitekturo.
 
@@ -58,7 +58,7 @@ Zgornji diagram prikazuje referenčno IoT arhitekturo.
 * **Vpogledi** izhajajo iz brezstrežnih aplikacij ali iz analize shranjenih podatkov.
 * **Dejanja** so lahko ukazi, poslani napravam, ali vizualizacija podatkov, ki omogoča ljudem sprejemanje odločitev.
 
-![Referenčna IoT arhitektura](../../../../../translated_images/iot-reference-architecture-azure.0b8d2161af924cb18ae48a8558a19541cca47f27264851b5b7e56d7b8bb372ac.sl.png)
+![Referenčna IoT arhitektura](../../../../../translated_images/sl/iot-reference-architecture-azure.0b8d2161af924cb18ae48a8558a19541cca47f27264851b5b7e56d7b8bb372ac.png)
 
 Zgornji diagram prikazuje nekatere komponente in storitve, obravnavane v teh lekcijah, ter kako se povezujejo v referenčni IoT arhitekturi.
 
@@ -98,7 +98,7 @@ Potrebujete sistem, kjer se sadje zazna, ko prispe na tekoči trak, nato se foto
 
 ### Prototipiranje vaše aplikacije
 
-![Referenčna IoT arhitektura za preverjanje kakovosti sadja](../../../../../translated_images/iot-reference-architecture-fruit-quality.cc705f121c3b6fa71c800d9630935ac34bc08223a04601e35f41d5e9b5dd5207.sl.png)
+![Referenčna IoT arhitektura za preverjanje kakovosti sadja](../../../../../translated_images/sl/iot-reference-architecture-fruit-quality.cc705f121c3b6fa71c800d9630935ac34bc08223a04601e35f41d5e9b5dd5207.png)
 
 Zgornji diagram prikazuje referenčno arhitekturo za to prototipno aplikacijo.
 
@@ -115,7 +115,7 @@ Za prototip boste vse to izvedli na eni napravi. Če uporabljate mikrokrmilnik, 
 
 IoT naprava potrebuje nekakšen sprožilec, ki označuje, kdaj je sadje pripravljeno za klasifikacijo. Eden od sprožilcev za to bi bil merjenje, kdaj je sadje na pravem mestu na tekočem traku, z merjenjem razdalje do senzorja.
 
-![Senzorji bližine pošiljajo laserske žarke na predmete, kot so banane, in merijo čas, ki ga žarek potrebuje, da se odbije nazaj](../../../../../translated_images/proximity-sensor.f5cd752c77fb62fe.sl.png)
+![Senzorji bližine pošiljajo laserske žarke na predmete, kot so banane, in merijo čas, ki ga žarek potrebuje, da se odbije nazaj](../../../../../translated_images/sl/proximity-sensor.f5cd752c77fb62fe.png)
 
 Senzorji bližine se lahko uporabljajo za merjenje razdalje med senzorjem in predmetom. Običajno oddajajo žarek elektromagnetnega sevanja, kot je laserski žarek ali infrardeča svetloba, nato zaznajo sevanje, ki se odbije od predmeta. Čas med oddajo laserskega žarka in signalom, ki se odbije nazaj, se lahko uporabi za izračun razdalje do senzorja.
 
@@ -133,7 +133,7 @@ Sledite ustreznemu vodniku za uporabo senzorja bližine za zaznavanje predmeta z
 
 Prototip detektorja sadja ima več komponent, ki medsebojno komunicirajo.
 
-![Komponente, ki medsebojno komunicirajo](../../../../../translated_images/fruit-quality-detector-message-flow.adf2a65da8fd8741ac7af11361574de89adc126785d67606bb4d2ec00467e380.sl.png)
+![Komponente, ki medsebojno komunicirajo](../../../../../translated_images/sl/fruit-quality-detector-message-flow.adf2a65da8fd8741ac7af11361574de89adc126785d67606bb4d2ec00467e380.png)
 
 * Senzor bližine meri razdaljo do kosa sadja in jo pošilja v IoT Hub
 * Ukaz za nadzor kamere prihaja iz IoT Hub do naprave s kamero

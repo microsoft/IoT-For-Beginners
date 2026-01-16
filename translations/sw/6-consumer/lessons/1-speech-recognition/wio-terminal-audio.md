@@ -19,7 +19,7 @@ Kipaza sauti kilichojengwa ndani hurekodi ishara ya analojia, ambayo hubadilishw
 
 ✅ Soma zaidi kuhusu DMA kwenye [ukurasa wa ufikiaji wa kumbukumbu moja kwa moja kwenye Wikipedia](https://wikipedia.org/wiki/Direct_memory_access).
 
-![Sauti kutoka kwa kipaza sauti huenda kwa ADC kisha kwa DMAC. Hii huandika kwenye buffer moja. Buffer hii inapojazwa, inachakatwa na DMAC huandika kwenye buffer ya pili](../../../../../translated_images/dmac-adc-buffers.4509aee49145c90bc2e1be472b8ed2ddfcb2b6a81ad3e559114aca55f5fff759.sw.png)
+![Sauti kutoka kwa kipaza sauti huenda kwa ADC kisha kwa DMAC. Hii huandika kwenye buffer moja. Buffer hii inapojazwa, inachakatwa na DMAC huandika kwenye buffer ya pili](../../../../../translated_images/sw/dmac-adc-buffers.4509aee49145c90bc2e1be472b8ed2ddfcb2b6a81ad3e559114aca55f5fff759.png)
 
 DMAC inaweza kurekodi sauti kutoka kwa ADC kwa vipindi vilivyowekwa, kama vile mara 16,000 kwa sekunde kwa sauti ya 16KHz. Inaweza kuandika data hii iliyorekodiwa kwenye buffer ya kumbukumbu iliyotengwa mapema, na buffer hii inapojazwa, inapatikana kwa msimbo wako kuchakata. Kutumia kumbukumbu hii kunaweza kuchelewesha kurekodi sauti, lakini unaweza kusanidi buffers nyingi. DMAC huandika kwenye buffer 1, kisha inapojazwa, inaarifu msimbo wako kuchakata buffer 1, wakati DMAC huandika kwenye buffer 2. Buffer 2 inapojazwa, inaarifu msimbo wako, na kurudi kuandika kwenye buffer 1. Kwa njia hii, mradi unachakata kila buffer kwa muda mfupi kuliko inavyohitajika kujaza moja, hutapoteza data yoyote.
 

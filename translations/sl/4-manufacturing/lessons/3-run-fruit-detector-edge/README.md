@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Zaženite vaš detektor sadja na robu
 
-![Pregled lekcije v obliki sketchnote](../../../../../translated_images/lesson-17.bc333c3c35ba8e42cce666cfffa82b915f787f455bd94e006aea2b6f2722421a.sl.jpg)
+![Pregled lekcije v obliki sketchnote](../../../../../translated_images/sl/lesson-17.bc333c3c35ba8e42cce666cfffa82b915f787f455bd94e006aea2b6f2722421a.jpg)
 
 > Sketchnote avtorja [Nitya Narasimhan](https://github.com/nitya). Kliknite na sliko za večjo različico.
 
@@ -42,11 +42,11 @@ V tej lekciji bomo obravnavali:
 
 Robno računalništvo vključuje računalnike, ki obdelujejo podatke IoT čim bližje mestu, kjer so ti podatki ustvarjeni. Namesto da se ta obdelava izvaja v oblaku, se premakne na rob oblaka - vaše interno omrežje.
 
-![Diagram arhitekture, ki prikazuje internetne storitve v oblaku in IoT naprave v lokalnem omrežju](../../../../../translated_images/cloud-without-edge.b4da641f6022c95ed6b91fde8b5323abd2f94e0d52073ad54172ae8f5dac90e9.sl.png)
+![Diagram arhitekture, ki prikazuje internetne storitve v oblaku in IoT naprave v lokalnem omrežju](../../../../../translated_images/sl/cloud-without-edge.b4da641f6022c95ed6b91fde8b5323abd2f94e0d52073ad54172ae8f5dac90e9.png)
 
 V dosedanjih lekcijah ste imeli naprave, ki zbirajo podatke in jih pošiljajo v oblak za analizo, kjer se izvajajo brezstrežni funkciji ali AI modeli v oblaku.
 
-![Diagram arhitekture, ki prikazuje IoT naprave v lokalnem omrežju, ki se povezujejo z robnimi napravami, te pa se povezujejo z oblakom](../../../../../translated_images/cloud-with-edge.1e26462c62c126fe150bd15a5714ddf0be599f09bacbad08b85be02b76ea1ae1.sl.png)
+![Diagram arhitekture, ki prikazuje IoT naprave v lokalnem omrežju, ki se povezujejo z robnimi napravami, te pa se povezujejo z oblakom](../../../../../translated_images/sl/cloud-with-edge.1e26462c62c126fe150bd15a5714ddf0be599f09bacbad08b85be02b76ea1ae1.png)
 
 Robno računalništvo vključuje premik nekaterih oblačnih storitev iz oblaka na računalnike, ki delujejo v istem omrežju kot IoT naprave, in komunikacijo z oblakom le, če je to potrebno. Na primer, lahko izvajate AI modele na robnih napravah za analizo zrelosti sadja in v oblak pošiljate le analitiko, kot je število zrelih kosov sadja v primerjavi z nezrelimi.
 
@@ -94,7 +94,7 @@ Za IoT sisteme boste pogosto želeli kombinacijo oblačnega in robnega računaln
 
 ## Azure IoT Edge
 
-![Logotip Azure IoT Edge](../../../../../translated_images/azure-iot-edge-logo.c1c076749b5cba2e8755262fadc2f19ca1146b948d76990b1229199ac2292d79.sl.png)
+![Logotip Azure IoT Edge](../../../../../translated_images/sl/azure-iot-edge-logo.c1c076749b5cba2e8755262fadc2f19ca1146b948d76990b1229199ac2292d79.png)
 
 Azure IoT Edge je storitev, ki vam lahko pomaga premakniti delovne obremenitve iz oblaka na rob. Napravo nastavite kot robno napravo, iz oblaka pa lahko na to robno napravo namestite kodo. To vam omogoča kombiniranje zmogljivosti oblaka in roba.
 
@@ -108,7 +108,7 @@ IoT Edge je vgrajen v IoT Hub, zato lahko upravljate robne naprave z isto storit
 
 IoT Edge izvaja kodo iz *kontejnerjev* - samostojnih aplikacij, ki se izvajajo ločeno od preostalih aplikacij na vašem računalniku. Ko zaženete kontejner, deluje kot ločen računalnik znotraj vašega računalnika, z lastno programsko opremo, storitvami in aplikacijami. Večinoma kontejnerji ne morejo dostopati do ničesar na vašem računalniku, razen če se odločite deliti stvari, kot je mapa, s kontejnerjem. Kontejner nato izpostavi storitve prek odprtega porta, do katerega lahko dostopate ali ga izpostavite svojemu omrežju.
 
-![Spletna zahteva, preusmerjena v kontejner](../../../../../translated_images/container-web-browser.4ee81dd4f0d8838ce622b2a0d600b6a4322b5d4fe43159facd87b7b34f84d66a.sl.png)
+![Spletna zahteva, preusmerjena v kontejner](../../../../../translated_images/sl/container-web-browser.4ee81dd4f0d8838ce622b2a0d600b6a4322b5d4fe43159facd87b7b34f84d66a.png)
 
 Na primer, lahko imate kontejner z spletno stranjo, ki deluje na portu 80, privzetem HTTP portu, in ga nato izpostavite iz vašega računalnika tudi na portu 80.
 
@@ -204,11 +204,11 @@ Ko je model usposobljen, ga je treba izvoziti kot vsebnik.
 
 ## Pripravite svoj vsebnik za uvajanje
 
-![Vsebnik se ustvari, nato potisne v register vsebnikov in se nato uvede na napravo na robu z uporabo IoT Edge](../../../../../translated_images/container-edge-flow.c246050dd60ceefdb6ace026a4ce5c6aa4112bb5898ae23fbb2ab4be29ae3e1b.sl.png)
+![Vsebnik se ustvari, nato potisne v register vsebnikov in se nato uvede na napravo na robu z uporabo IoT Edge](../../../../../translated_images/sl/container-edge-flow.c246050dd60ceefdb6ace026a4ce5c6aa4112bb5898ae23fbb2ab4be29ae3e1b.png)
 
 Ko prenesete svoj model, ga je treba sestaviti v vsebnik in potisniti v register vsebnikov - spletno mesto za shranjevanje vsebnikov. IoT Edge lahko nato prenese vsebnik iz registra in ga potisne na vašo napravo.
 
-![Logotip Azure Container Registry](../../../../../translated_images/azure-container-registry-logo.09494206991d4b295025ebff7d4e2900325e527a59184ffbc8464b6ab59654be.sl.png)
+![Logotip Azure Container Registry](../../../../../translated_images/sl/azure-container-registry-logo.09494206991d4b295025ebff7d4e2900325e527a59184ffbc8464b6ab59654be.png)
 
 Register vsebnikov, ki ga boste uporabili za to lekcijo, je Azure Container Registry. Ta storitev ni brezplačna, zato za zmanjšanje stroškov poskrbite, da [počistite svoj projekt](../../../clean-up.md), ko končate.
 

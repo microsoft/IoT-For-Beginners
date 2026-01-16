@@ -154,11 +154,11 @@ Python వర్చువల్ ఎన్విరాన్‌మెంట్ �
 
 1. VS Code ప్రదర్శనలో Python వర్చువల్ ఎన్విరాన్‌మెంట్ ఆటోమేటిగ్గా యాక్టివేట్ అవుతుంది. దిగువ స్టేటస్ బార్ లో ఎంపిక చేసిన వర్చువల్ ఎన్విరాన్‌మెంట్ కనిపించాలి:
 
-    ![VS Code showing the selected virtual environment](../../../../../translated_images/vscode-virtual-env.8ba42e04c3d533cf.te.png)
+    ![VS Code showing the selected virtual environment](../../../../../translated_images/te/vscode-virtual-env.8ba42e04c3d533cf.png)
 
 1. VS Code టెర్మినల్ ఇప్పటికే నడుస్తుంటే వర్చువల్ ఎన్విరాన్‌మెంట్ యాక్టివేట్ కావచ్చు లేదు. ఈ పరిస్థితిలో టెర్మినల్‌ను **Kill the active terminal instance** బటన్ ద్వారా ముగించండి:
 
-    ![VS Code Kill the active terminal instance button](../../../../../translated_images/vscode-kill-terminal.1cc4de7c6f25ee08.te.png)
+    ![VS Code Kill the active terminal instance button](../../../../../translated_images/te/vscode-kill-terminal.1cc4de7c6f25ee08.png)
 
     వర్చువల్ ఎన్విరాన్‌మెంట్ యాక్టివేట్ ఉన్నప్పుడే టెర్మినల్ ప్రాంప్ట్ కు ముందుగా వర్చువల్ ఎన్విరాన్‌మెంట్ పేరు ఉంటుంది, ఉదా: `.venv`
 
@@ -212,7 +212,7 @@ Python వర్చువల్ ఎన్విరాన్‌మెంట్ �
 
     యాప్ నడవడం ప్రారంభించి మీ బ్రౌజర్ లో తెరవబడుతుంది:
 
-    ![The Counter Fit app running in a browser](../../../../../translated_images/counterfit-first-run.433326358b669b31.te.png)
+    ![The Counter Fit app running in a browser](../../../../../translated_images/te/counterfit-first-run.433326358b669b31.png)
 
     ఇది *Disconnected*గా చూపిస్తుంది, టాప్-కుడి మూలలో LED ఆఫ్ ఉంటుంది.
 
@@ -229,11 +229,11 @@ Python వర్చువల్ ఎన్విరాన్‌మెంట్ �
 
 1. CounterFit యాప్ ఇప్పటి టెర్మినల్ లో నడుస్తున్నందున, VS Code లో కొత్త టెర్మినల్ తెరవాలి: **Create a new integrated terminal** బటన్ ను నొక్కండి:
 
-    ![VS Code Create a new integrated terminal button](../../../../../translated_images/vscode-new-terminal.77db8fc0f9cd3182.te.png)
+    ![VS Code Create a new integrated terminal button](../../../../../translated_images/te/vscode-new-terminal.77db8fc0f9cd3182.png)
 
 1. కొత్త టెర్మినల్ లో `app.py` ను మళ్ళీ నడపండి. CounterFit స్టేటస్ **Connected** గా మారి LED వెలుతురు ఆ పూట కనిపిస్తుంది.
 
-    ![Counter Fit showing as connected](../../../../../translated_images/counterfit-connected.ed30b46d8f79b092.te.png)
+    ![Counter Fit showing as connected](../../../../../translated_images/te/counterfit-connected.ed30b46d8f79b092.png)
 
 > 💁 ఈ కోడ్ ను మీరు [code/virtual-device](../../../../../1-getting-started/lessons/1-introduction-to-iot/code/virtual-device) ఫోల్డరులో కూడా కనుగొనవచ్చు.
 

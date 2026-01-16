@@ -43,7 +43,7 @@ Raspberry Pi има 3.5мм прикључак за слушалице. Може
 
 1. Ако користите ReSpeaker 2-Mics Pi HAT, можете уклонити Grove базни HAT, а затим поставити ReSpeaker HAT на његово место.
 
-    ![Raspberry Pi са ReSpeaker HAT-ом](../../../../../translated_images/pi-respeaker-hat.f00fabe7dd039a93e2e0aa0fc946c9af0c6a9eb17c32fa1ca097fb4e384f69f0.sr.png)
+    ![Raspberry Pi са ReSpeaker HAT-ом](../../../../../translated_images/sr/pi-respeaker-hat.f00fabe7dd039a93e2e0aa0fc946c9af0c6a9eb17c32fa1ca097fb4e384f69f0.png)
 
     Биће вам потребно дугме Grove касније у овој лекцији, али једно је уграђено у овај HAT, тако да Grove базни HAT није потребан.
 

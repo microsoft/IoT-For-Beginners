@@ -76,7 +76,7 @@ Koden du använde för att klassificera bilder är mycket lik koden för att det
 
     Du kommer att kunna se bilden som togs och dessa värden i fliken **Predictions** i Custom Vision.
 
-    ![4 burkar tomatpuré på en hylla med förutsägelser för de 4 detektionerna på 35.8%, 33.5%, 25.7% och 16.6%](../../../../../translated_images/custom-vision-stock-prediction.942266ab1bcca3410ecdf23643b9f5f570cfab2345235074e24c51f285777613.sv.png)
+    ![4 burkar tomatpuré på en hylla med förutsägelser för de 4 detektionerna på 35.8%, 33.5%, 25.7% och 16.6%](../../../../../translated_images/sv/custom-vision-stock-prediction.942266ab1bcca3410ecdf23643b9f5f570cfab2345235074e24c51f285777613.png)
 
 > 💁 Du kan hitta denna kod i mappen [code-detect/pi](../../../../../5-retail/lessons/2-check-stock-device/code-detect/pi) eller [code-detect/virtual-iot-device](../../../../../5-retail/lessons/2-check-stock-device/code-detect/virtual-iot-device).
 

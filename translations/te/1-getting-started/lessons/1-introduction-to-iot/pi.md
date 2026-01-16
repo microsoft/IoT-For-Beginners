@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 [Raspberry Pi](https://raspberrypi.org) ఒక సింగిల్-బోర్డు కంప్యూటర్. మీరు విస్తృతమైన పరికరాలు మరియు ఎకోసిస్టమ్స్ ఉపయోగించి సెన్సార్లు మరియు యాక్చువేటర్లను జోడించవచ్చు, మరియు ఈ పాఠాలు కోసం [Grove](https://www.seeedstudio.com/category/Grove-c-1003.html) అనే హార్డ్‌వేర్ ఎకోసిస్టమ్ ఉపయోగిస్తారు. మీరు మీ Pi ని కోడ్ చేసి Grove సెన్సార్లను Python ఉపయోగించి ప్రాప్తి చేస్తారు.
 
-![A Raspberry Pi 4](../../../../../translated_images/raspberry-pi-4.fd4590d308c3d456.te.jpg)
+![A Raspberry Pi 4](../../../../../translated_images/te/raspberry-pi-4.fd4590d308c3d456.jpg)
 
 ## సెటప్
 
@@ -112,7 +112,7 @@ Pi పై నేరుగా కోడ్ చేయకుండా, అది �
 
 1. Raspberry Pi Imager లో **CHOOSE OS** బటన్ ఎంచుకుని, *Raspberry Pi OS (Other)* ను, ఆపై *Raspberry Pi OS Lite (32-bit)* ను ఎంచుకోండి
 
-    ![The Raspberry Pi Imager with Raspberry Pi OS Lite selected](../../../../../translated_images/raspberry-pi-imager.24aedeab9e233d84.te.png)
+    ![The Raspberry Pi Imager with Raspberry Pi OS Lite selected](../../../../../translated_images/te/raspberry-pi-imager.24aedeab9e233d84.png)
 
     > 💁 Raspberry Pi OS Lite అనేది Raspberry Pi OS యొక్క ఒక వెర్షన్, దీని వద్ద డెస్క్‌టాప్ UI లేదా UI ఆధారిత టూల్స్ ఉండరు. ఇవి హెడ్లెస్ Pi కోసం అవసరం ఉండదు మరియు ఇన్‌స్టలేషన్ క్రింది స్థాయి, బూట్ టైమ్ వేగవంతం చేస్తాయి.
 
@@ -251,7 +251,7 @@ Pi కాన్ఫిగర్ అయిన తర్వాత, మీరు Vis
 
 1. VS కోడ్‌లో ఈ ఫోల్డర్‌ను *File -> Open...* ద్వారా ఎంచుకుని *nightlight* ఫోల్డర్‌ ను ఎంచుకుని **OK** ఎంచుకోండి
 
-    ![nightlight ఫోల్డర్ చూపిస్తున్న VS కోడ్ ఓపెన్ డయాలాగ్](../../../../../translated_images/vscode-open-nightlight-remote.d3d2a4011e30d535.te.png)
+    ![nightlight ఫోల్డర్ చూపిస్తున్న VS కోడ్ ఓపెన్ డయాలాగ్](../../../../../translated_images/te/vscode-open-nightlight-remote.d3d2a4011e30d535.png)
 
 1. VS కోడ్ ఎక్స్‌ప్లోరర్ నుంచి `app.py` ఫైల్ తెరిచి క్రింది కోడ్ జత చేయండి:
 

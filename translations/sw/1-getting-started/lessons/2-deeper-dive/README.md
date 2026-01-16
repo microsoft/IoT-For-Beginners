@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Uchambuzi wa Kina wa IoT
 
-![Muhtasari wa somo hili kwa sketchnote](../../../../../translated_images/lesson-2.324b0580d620c25e0a24fb7fddfc0b29a846dd4b82c08e7a9466d580ee78ce51.sw.jpg)
+![Muhtasari wa somo hili kwa sketchnote](../../../../../translated_images/sw/lesson-2.324b0580d620c25e0a24fb7fddfc0b29a846dd4b82c08e7a9466d580ee78ce51.jpg)
 
 > Sketchnote na [Nitya Narasimhan](https://github.com/nitya). Bofya picha kwa toleo kubwa zaidi.
 
@@ -41,13 +41,13 @@ Vipengele viwili vya programu ya IoT ni *Intaneti* na *kifaa*. Hebu tuangalie vi
 
 ### Kifaa
 
-![Raspberry Pi 4](../../../../../translated_images/raspberry-pi-4.fd4590d308c3d456.sw.jpg)
+![Raspberry Pi 4](../../../../../translated_images/sw/raspberry-pi-4.fd4590d308c3d456.jpg)
 
 Sehemu ya **Kifaa** katika IoT inahusu kifaa kinachoweza kuingiliana na ulimwengu wa kimwili. Vifaa hivi mara nyingi ni kompyuta ndogo, za bei nafuu, zinazofanya kazi kwa kasi ndogo na kutumia nguvu kidogo - kwa mfano, microcontrollers rahisi zenye kilobaiti za RAM (tofauti na gigabaiti kwenye PC) zinazofanya kazi kwa mamia machache ya megahertz (tofauti na gigahertz kwenye PC), lakini wakati mwingine hutumia nguvu kidogo sana kiasi kwamba zinaweza kufanya kazi kwa wiki, miezi au hata miaka kwa betri.
 
 Vifaa hivi huingiliana na ulimwengu wa kimwili, ama kwa kutumia sensa kukusanya data kutoka mazingira yao au kwa kudhibiti matokeo au actuators kufanya mabadiliko ya kimwili. Mfano wa kawaida wa hili ni thermostat ya kisasa - kifaa chenye sensa ya joto, njia ya kuweka joto linalotakiwa kama vile kidhibiti au skrini ya kugusa, na muunganisho na mfumo wa kupasha au kupoza ambao unaweza kuwashwa wakati joto lililogunduliwa liko nje ya kiwango kinachotakiwa. Sensa ya joto hugundua kuwa chumba ni baridi sana na actuator huwasha mfumo wa kupasha joto.
 
-![Mchoro unaoonyesha joto na kidhibiti kama pembejeo kwa kifaa cha IoT, na udhibiti wa hita kama matokeo](../../../../../translated_images/basic-thermostat.a923217fd1f37e5a6f3390396a65c22a387419ea2dd17e518ec24315ba6ae9a8.sw.png)
+![Mchoro unaoonyesha joto na kidhibiti kama pembejeo kwa kifaa cha IoT, na udhibiti wa hita kama matokeo](../../../../../translated_images/sw/basic-thermostat.a923217fd1f37e5a6f3390396a65c22a387419ea2dd17e518ec24315ba6ae9a8.png)
 
 Kuna aina nyingi za vifaa vinavyoweza kufanya kazi kama vifaa vya IoT, kuanzia vifaa maalum vinavyogundua kitu kimoja, hadi vifaa vya matumizi ya jumla, hata simu yako ya mkononi! Simu ya mkononi inaweza kutumia sensa kugundua ulimwengu unaozunguka, na actuators kuingiliana na ulimwengu - kwa mfano, kutumia sensa ya GPS kugundua eneo lako na spika kukupa maelekezo ya kufika mahali fulani.
 
@@ -63,11 +63,11 @@ Vifaa pia havihitaji kuunganishwa moja kwa moja na Intaneti yenyewe kupitia WiFi
 
 Kwa mfano wa thermostat ya kisasa, thermostat ingeunganishwa kwa kutumia WiFi ya nyumbani na huduma ya wingu inayofanya kazi kwenye wingu. Ingetuma data ya joto kwa huduma hii ya wingu, na kutoka hapo itaandikwa kwenye hifadhidata ya aina fulani inayomruhusu mmiliki wa nyumba kuangalia joto la sasa na la zamani kwa kutumia programu ya simu. Huduma nyingine kwenye wingu ingejua joto ambalo mmiliki wa nyumba anataka, na kutuma ujumbe kurudi kwa kifaa cha IoT kupitia huduma ya wingu ili kuambia mfumo wa kupasha joto kuwasha au kuzima.
 
-![Mchoro unaoonyesha joto na kidhibiti kama pembejeo kwa kifaa cha IoT, kifaa cha IoT kikiwa na mawasiliano ya njia mbili na wingu, ambalo kwa upande wake lina mawasiliano ya njia mbili na simu, na udhibiti wa hita kama matokeo kutoka kwa kifaa cha IoT](../../../../../translated_images/mobile-controlled-thermostat.4a994010473d8d6a52ba68c67e5f02dc8928c717e93ca4b9bc55525aa75bbb60.sw.png)
+![Mchoro unaoonyesha joto na kidhibiti kama pembejeo kwa kifaa cha IoT, kifaa cha IoT kikiwa na mawasiliano ya njia mbili na wingu, ambalo kwa upande wake lina mawasiliano ya njia mbili na simu, na udhibiti wa hita kama matokeo kutoka kwa kifaa cha IoT](../../../../../translated_images/sw/mobile-controlled-thermostat.4a994010473d8d6a52ba68c67e5f02dc8928c717e93ca4b9bc55525aa75bbb60.png)
 
 Toleo la kisasa zaidi linaweza kutumia AI kwenye wingu pamoja na data kutoka kwa sensa nyingine zilizounganishwa na vifaa vingine vya IoT kama sensa za uwepo zinazogundua vyumba vinavyotumika, pamoja na data kama hali ya hewa na hata kalenda yako, kufanya maamuzi ya jinsi ya kuweka joto kwa njia ya kisasa. Kwa mfano, linaweza kuzima mfumo wa kupasha joto ikiwa linasoma kutoka kwa kalenda yako kuwa uko likizoni, au kuzima mfumo wa kupasha joto kwa msingi wa chumba kwa chumba kulingana na vyumba unavyotumia, likijifunza kutoka kwa data kuwa sahihi zaidi kwa muda.
 
-![Mchoro unaoonyesha sensa nyingi za joto na kidhibiti kama pembejeo kwa kifaa cha IoT, kifaa cha IoT kikiwa na mawasiliano ya njia mbili na wingu, ambalo kwa upande wake lina mawasiliano ya njia mbili na simu, kalenda na huduma ya hali ya hewa, na udhibiti wa hita kama matokeo kutoka kwa kifaa cha IoT](../../../../../translated_images/smarter-thermostat.a75855f15d2d9e63.sw.png)
+![Mchoro unaoonyesha sensa nyingi za joto na kidhibiti kama pembejeo kwa kifaa cha IoT, kifaa cha IoT kikiwa na mawasiliano ya njia mbili na wingu, ambalo kwa upande wake lina mawasiliano ya njia mbili na simu, kalenda na huduma ya hali ya hewa, na udhibiti wa hita kama matokeo kutoka kwa kifaa cha IoT](../../../../../translated_images/sw/smarter-thermostat.a75855f15d2d9e63.png)
 
 ✅ Ni data gani nyingine inaweza kusaidia kufanya thermostat inayounganishwa na Intaneti kuwa ya kisasa zaidi?
 
@@ -103,7 +103,7 @@ Kadri mzunguko wa saa unavyokuwa wa haraka, ndivyo maagizo yanavyoweza kushughul
 
 > 💁 CPU hutekeleza programu kwa kutumia [mzunguko wa fetch-decode-execute](https://wikipedia.org/wiki/Instruction_cycle). Kwa kila dundo la saa, CPU itachukua agizo linalofuata kutoka kwa kumbukumbu, kulifafanua, kisha kulitekeleza kama vile kutumia kitengo cha mantiki ya hesabu (ALU) kuongeza namba 2. Baadhi ya utekelezaji utachukua mizunguko mingi kukimbia, hivyo mzunguko unaofuata utaendeshwa kwenye dundo linalofuata baada ya agizo kukamilika.
 
-![Mzunguko wa fetch decode execute unaoonyesha kuchukua agizo kutoka kwa programu iliyohifadhiwa kwenye RAM, kisha kulifafanua na kulitekeleza kwenye CPU](../../../../../translated_images/fetch-decode-execute.2fd6f150f6280392807f4475382319abd0cee0b90058e1735444d6baa6f2078c.sw.png)
+![Mzunguko wa fetch decode execute unaoonyesha kuchukua agizo kutoka kwa programu iliyohifadhiwa kwenye RAM, kisha kulifafanua na kulitekeleza kwenye CPU](../../../../../translated_images/sw/fetch-decode-execute.2fd6f150f6280392807f4475382319abd0cee0b90058e1735444d6baa6f2078c.png)
 
 Microcontrollers zina kasi ya saa ya chini sana ikilinganishwa na kompyuta za mezani au laptop, au hata simu nyingi za mkononi. Kwa mfano, Wio Terminal ina CPU inayofanya kazi kwa 120MHz au mizunguko 120,000,000 kwa sekunde.
 
@@ -135,7 +135,7 @@ Kama ilivyo kwa CPU, kumbukumbu kwenye microcontroller ni ndogo sana ikilinganis
 
 Mchoro hapa chini unaonyesha tofauti ya ukubwa kati ya 192KB na 8GB - nukta ndogo katikati inawakilisha 192KB.
 
-![Ulinganisho kati ya 192KB na 8GB - zaidi ya mara 40,000 kubwa](../../../../../translated_images/ram-comparison.6beb73541b42ac6f.sw.png)
+![Ulinganisho kati ya 192KB na 8GB - zaidi ya mara 40,000 kubwa](../../../../../translated_images/sw/ram-comparison.6beb73541b42ac6f.png)
 
 Hifadhi ya programu pia ni ndogo kuliko PC. PC ya kawaida inaweza kuwa na diski ngumu ya 500GB kwa hifadhi ya programu, wakati microcontroller inaweza kuwa na kilobytes tu au labda megabytes chache (MB) za hifadhi (1MB ni 1,000KB, au bytes 1,000,000). Wio terminal ina hifadhi ya programu ya 4MB.
 
@@ -191,7 +191,7 @@ Bodi za Arduino zinaandikwa kwa C au C++. Kutumia C/C++ kunaruhusu programu yako
 
 Ungeandika programu yako ya kuanzisha kwenye kazi ya `setup`, kama vile kuunganisha kwenye WiFi na huduma za wingu au kuanzisha pini za ingizo na toleo. Programu yako ya `loop` ingekuwa na programu ya usindikaji, kama kusoma kutoka kwa sensorer na kutuma thamani kwa wingu. Kwa kawaida ungejumuisha kuchelewesha katika kila mzunguko, kwa mfano, ikiwa unataka tu data ya sensorer kutumwa kila sekunde 10 ungeongeza kuchelewesha kwa sekunde 10 mwishoni mwa mzunguko ili microcontroller iweze kulala, kuokoa nguvu, kisha kuendesha mzunguko tena inapohitajika sekunde 10 baadaye.
 
-![Sketch ya Arduino ikiendesha setup kwanza, kisha ikiendesha loop mara kwa mara](../../../../../translated_images/arduino-sketch.79590cb837ff7a7c6a68d1afda6cab83fd53d3bb1bd9a8bf2eaf8d693a4d3ea6.sw.png)
+![Sketch ya Arduino ikiendesha setup kwanza, kisha ikiendesha loop mara kwa mara](../../../../../translated_images/sw/arduino-sketch.79590cb837ff7a7c6a68d1afda6cab83fd53d3bb1bd9a8bf2eaf8d693a4d3ea6.png)
 
 ✅ Muundo huu wa programu unajulikana kama *event loop* au *message loop*. Programu nyingi hutumia hii kwa siri na ni kiwango cha kawaida kwa programu nyingi za desktop zinazoendesha kwenye OS kama Windows, macOS au Linux. `loop` husikiliza ujumbe kutoka kwa vipengele vya kiolesura cha mtumiaji kama vile vifungo, au vifaa kama kibodi, na kujibu. Unaweza kusoma zaidi katika [makala kuhusu event loop](https://wikipedia.org/wiki/Event_loop).
 
@@ -211,17 +211,17 @@ Katika somo la mwisho, tulianzisha kompyuta za bodi moja. Sasa tuzichunguze kwa 
 
 ### Raspberry Pi
 
-![Nembo ya Raspberry Pi](../../../../../translated_images/raspberry-pi-logo.4efaa16605cee054.sw.png)
+![Nembo ya Raspberry Pi](../../../../../translated_images/sw/raspberry-pi-logo.4efaa16605cee054.png)
 
 [Raspberry Pi Foundation](https://www.raspberrypi.org) ni shirika la hisani kutoka Uingereza lililoanzishwa mwaka 2009 ili kukuza masomo ya sayansi ya kompyuta, hasa katika ngazi ya shule. Kama sehemu ya dhamira hii, walitengeneza kompyuta ya bodi moja, inayoitwa Raspberry Pi. Raspberry Pis kwa sasa zinapatikana katika aina 3 - toleo la ukubwa kamili, Pi Zero ndogo, na moduli ya kompyuta inayoweza kujengwa kwenye kifaa chako cha mwisho cha IoT.
 
-![Raspberry Pi 4](../../../../../translated_images/raspberry-pi-4.fd4590d308c3d456.sw.jpg)
+![Raspberry Pi 4](../../../../../translated_images/sw/raspberry-pi-4.fd4590d308c3d456.jpg)
 
 Toleo la hivi karibuni la Raspberry Pi ya ukubwa kamili ni Raspberry Pi 4B. Hii ina CPU ya quad-core (4 core) inayokimbia kwa 1.5GHz, RAM ya 2, 4, au 8GB, gigabit ethernet, WiFi, bandari 2 za HDMI zinazounga mkono skrini za 4k, bandari ya sauti na video ya mchanganyiko, bandari za USB (2 USB 2.0, 2 USB 3.0), pini 40 za GPIO, kiunganishi cha kamera kwa moduli ya kamera ya Raspberry Pi, na nafasi ya kadi ya SD. Yote haya kwenye bodi ya 88mm x 58mm x 19.5mm na inaendeshwa na usambazaji wa nguvu wa USB-C wa 3A. Hizi zinaanza kwa US$35, bei nafuu zaidi kuliko PC au Mac.
 
 > 💁 Pia kuna Pi400 kompyuta yote katika moja yenye Pi4 iliyojengwa ndani ya kibodi.
 
-![Raspberry Pi Zero](../../../../../translated_images/raspberry-pi-zero.f7a4133e1e7d54bb.sw.jpg)
+![Raspberry Pi Zero](../../../../../translated_images/sw/raspberry-pi-zero.f7a4133e1e7d54bb.jpg)
 
 Pi Zero ni ndogo zaidi, yenye nguvu ndogo. Ina CPU ya msingi mmoja ya 1GHz, RAM ya 512MB, WiFi (katika modeli ya Zero W), bandari moja ya HDMI, bandari moja ya micro-USB, pini 40 za GPIO, kiunganishi cha kamera kwa moduli ya kamera ya Raspberry Pi, na nafasi ya kadi ya SD. Inapima 65mm x 30mm x 5mm, na hutumia nguvu kidogo sana. Zero ni US$5, na toleo la W lenye WiFi ni US$10.
 

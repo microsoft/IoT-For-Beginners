@@ -45,11 +45,11 @@ Lägg till LED-lampan i CounterFit-appen.
 
     1. Välj knappen **Add** för att skapa LED-lampan på Pin 5.
 
-    ![LED-inställningarna](../../../../../translated_images/counterfit-create-led.ba9db1c9b8c622a635d6dfae5cdc4e70c2b250635bd4f0601c6cf0bd22b7ba46.sv.png)
+    ![LED-inställningarna](../../../../../translated_images/sv/counterfit-create-led.ba9db1c9b8c622a635d6dfae5cdc4e70c2b250635bd4f0601c6cf0bd22b7ba46.png)
 
     LED-lampan kommer att skapas och visas i listan över ställdon.
 
-    ![Den skapade LED-lampan](../../../../../translated_images/counterfit-led.c0ab02de6d256ad84d9bad4d67a7faa709f0ea83e410cfe9b5561ef0cef30b1c.sv.png)
+    ![Den skapade LED-lampan](../../../../../translated_images/sv/counterfit-led.c0ab02de6d256ad84d9bad4d67a7faa709f0ea83e410cfe9b5561ef0cef30b1c.png)
 
     När LED-lampan har skapats kan du ändra färgen med hjälp av färgväljaren *Color*. Välj knappen **Set** för att ändra färgen efter att du har valt den.
 

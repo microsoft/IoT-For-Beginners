@@ -43,11 +43,11 @@ Adaugă camera în aplicația CounterFit.
 
     1. Selectează butonul **Add** pentru a crea camera.
 
-    ![Setările camerei](../../../../../translated_images/counterfit-create-camera.a5de97f59c0bd3cbe0416d7e89a3cfe86d19fbae05c641c53a91286412af0a34.ro.png)
+    ![Setările camerei](../../../../../translated_images/ro/counterfit-create-camera.a5de97f59c0bd3cbe0416d7e89a3cfe86d19fbae05c641c53a91286412af0a34.png)
 
     Camera va fi creată și va apărea în lista de senzori.
 
-    ![Camera creată](../../../../../translated_images/counterfit-camera.001ec52194c8ee5d3f617173da2c79e1df903d10882adc625cbfc493525125d4.ro.png)
+    ![Camera creată](../../../../../translated_images/ro/counterfit-camera.001ec52194c8ee5d3f617173da2c79e1df903d10882adc625cbfc493525125d4.png)
 
 ## Programează camera
 
@@ -112,7 +112,7 @@ Programează dispozitivul.
 
 1. Configurează imaginea pe care camera din CounterFit o va captura. Poți seta *Source* la *File*, apoi să încarci un fișier imagine, sau să setezi *Source* la *WebCam*, iar imaginile vor fi capturate de la camera web. Asigură-te că selectezi butonul **Set** după ce alegi o imagine sau camera web.
 
-    ![CounterFit cu un fișier setat ca sursă de imagine și o cameră web afișând o persoană care ține o banană într-o previzualizare a camerei web](../../../../../translated_images/counterfit-camera-options.eb3bd5150a8e7dffbf24bc5bcaba0cf2cdef95fbe6bbe393695d173817d6b8df.ro.png)
+    ![CounterFit cu un fișier setat ca sursă de imagine și o cameră web afișând o persoană care ține o banană într-o previzualizare a camerei web](../../../../../translated_images/ro/counterfit-camera-options.eb3bd5150a8e7dffbf24bc5bcaba0cf2cdef95fbe6bbe393695d173817d6b8df.png)
 
 1. O imagine va fi capturată și salvată ca `image.jpg` în folderul curent. Vei vedea acest fișier în exploratorul VS Code. Selectează fișierul pentru a vizualiza imaginea. Dacă este necesară rotația, actualizează linia `camera.rotation = 0` corespunzător și fă o altă fotografie.
 

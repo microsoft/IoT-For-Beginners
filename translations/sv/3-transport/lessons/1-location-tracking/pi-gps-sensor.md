@@ -27,13 +27,13 @@ Grove GPS-sensorn kan anslutas till Raspberry Pi.
 
 Anslut GPS-sensorn.
 
-![En Grove GPS-sensor](../../../../../translated_images/grove-gps-sensor.247943bf69b03f0d1820ef6ed10c587f9b650e8db55b936851c92412180bd3e2.sv.png)
+![En Grove GPS-sensor](../../../../../translated_images/sv/grove-gps-sensor.247943bf69b03f0d1820ef6ed10c587f9b650e8db55b936851c92412180bd3e2.png)
 
 1. Sätt i ena änden av en Grove-kabel i uttaget på GPS-sensorn. Den går bara att sätta i på ett sätt.
 
 1. Med Raspberry Pi avstängd, anslut den andra änden av Grove-kabeln till UART-uttaget märkt **UART** på Grove Base-hatten som är ansluten till Pi. Detta uttag finns på den mellersta raden, på sidan närmast SD-kortplatsen, motsatt sida från USB-portarna och ethernet-uttaget.
 
-    ![Grove GPS-sensorn ansluten till UART-uttaget](../../../../../translated_images/pi-gps-sensor.1f99ee2b2f6528915047ec78967bd362e0e4ee0ed594368a3837b9cf9cdaca64.sv.png)
+    ![Grove GPS-sensorn ansluten till UART-uttaget](../../../../../translated_images/sv/pi-gps-sensor.1f99ee2b2f6528915047ec78967bd362e0e4ee0ed594368a3837b9cf9cdaca64.png)
 
 1. Placera GPS-sensorn så att den anslutna antennen har fri sikt mot himlen - helst nära ett öppet fönster eller utomhus. Det är lättare att få en tydligare signal utan hinder för antennen.
 

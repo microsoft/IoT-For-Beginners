@@ -64,7 +64,7 @@ Conectează Wio Terminal la WiFi.
 
 1. Creează un fișier nou în folderul `src` numit `config.h`. Poți face acest lucru selectând folderul `src` sau fișierul `main.cpp` din interior și selectând butonul **New file** din explorer. Acest buton apare doar când cursorul tău este deasupra explorer-ului.
 
-    ![Butonul pentru fișier nou](../../../../../translated_images/vscode-new-file-button.182702340fe6723c.ro.png)
+    ![Butonul pentru fișier nou](../../../../../translated_images/ro/vscode-new-file-button.182702340fe6723c.png)
 
 1. Adaugă următorul cod în acest fișier pentru a defini constantele pentru credențialele WiFi:
 

@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Vizualizați datele de locație
 
-![O prezentare grafică a acestei lecții](../../../../../translated_images/lesson-13.a259db1485021be7d7c72e90842fbe0ab977529e8684c179b5fb1ea75e92b3ef.ro.jpg)
+![O prezentare grafică a acestei lecții](../../../../../translated_images/ro/lesson-13.a259db1485021be7d7c72e90842fbe0ab977529e8684c179b5fb1ea75e92b3ef.jpg)
 
 > Prezentare grafică de [Nitya Narasimhan](https://github.com/nitya). Faceți clic pe imagine pentru o versiune mai mare.
 
@@ -73,11 +73,11 @@ Luând un exemplu simplu - în proiectul de fermă ați capturat setările de um
 
 Pentru un om, înțelegerea acestor date poate fi dificilă. Este un perete de numere fără sens. Ca prim pas pentru vizualizarea acestor date, ele pot fi reprezentate pe un grafic liniar:
 
-![Un grafic liniar al datelor de mai sus](../../../../../translated_images/chart-soil-moisture.fd6d9d0cdc0b5f75e78038ecb8945dfc84b38851359de99d84b16e3336d6d7c2.ro.png)
+![Un grafic liniar al datelor de mai sus](../../../../../translated_images/ro/chart-soil-moisture.fd6d9d0cdc0b5f75e78038ecb8945dfc84b38851359de99d84b16e3336d6d7c2.png)
 
 Acesta poate fi îmbunătățit prin adăugarea unei linii care indică momentul în care sistemul automat de irigare a fost activat la o citire de umiditate a solului de 450:
 
-![Un grafic liniar al umidității solului cu o linie la 450](../../../../../translated_images/chart-soil-moisture-relay.fbb391236d34a64d0abf1df396e9197e0a24df14150620b9cc820a64a55c9326.ro.png)
+![Un grafic liniar al umidității solului cu o linie la 450](../../../../../translated_images/ro/chart-soil-moisture-relay.fbb391236d34a64d0abf1df396e9197e0a24df14150620b9cc820a64a55c9326.png)
 
 Acest grafic arată foarte rapid nu doar nivelurile de umiditate ale solului, ci și punctele în care sistemul de irigare a fost activat.
 
@@ -93,7 +93,7 @@ Când lucrați cu date GPS, cea mai clară vizualizare poate fi să plotați dat
 
 Lucrul cu hărți este un exercițiu interesant, iar opțiunile sunt numeroase, cum ar fi Bing Maps, Leaflet, Open Street Maps și Google Maps. În această lecție, veți învăța despre [Azure Maps](https://azure.microsoft.com/services/azure-maps/?WT.mc_id=academic-17441-jabenn) și cum pot afișa datele voastre GPS.
 
-![Logo-ul Azure Maps](../../../../../translated_images/azure-maps-logo.35d01dcfbd81fe6140e94257aaa1538f785a58c91576d14e0ebe7a2f6c694b99.ro.png)
+![Logo-ul Azure Maps](../../../../../translated_images/ro/azure-maps-logo.35d01dcfbd81fe6140e94257aaa1538f785a58c91576d14e0ebe7a2f6c694b99.png)
 
 Azure Maps este "o colecție de servicii geospațiale și SDK-uri care utilizează date de cartografiere actualizate pentru a oferi context geografic aplicațiilor web și mobile." Dezvoltatorii sunt furnizați cu instrumente pentru a crea hărți frumoase, interactive, care pot face lucruri precum oferirea de rute de trafic recomandate, informații despre incidente de trafic, navigare interioară, capacități de căutare, informații despre altitudine, servicii meteorologice și multe altele.
 
@@ -194,7 +194,7 @@ Acum puteți face următorul pas, care este să afișați harta pe o pagină web
 
     Dacă deschideți pagina `index.html` într-un browser web, ar trebui să vedeți o hartă încărcată, concentrată pe zona Seattle.
 
-    ![O hartă care arată Seattle, un oraș din statul Washington, SUA](../../../../../translated_images/map-image.8fb2c53eb23ef39c1c0a4410a5282e879b3b452b707eb066ff04c5488d3d72b7.ro.png)
+    ![O hartă care arată Seattle, un oraș din statul Washington, SUA](../../../../../translated_images/ro/map-image.8fb2c53eb23ef39c1c0a4410a5282e879b3b452b707eb066ff04c5488d3d72b7.png)
 
     ✅ Experimentați cu parametrii de zoom și centru pentru a schimba afișarea hărții. Puteți adăuga coordonate diferite corespunzătoare latitudinii și longitudinii datelor voastre pentru a re-centra harta.
 
@@ -328,7 +328,7 @@ Dacă faci o cerere către spațiul de stocare pentru a prelua datele, s-ar pute
 
 1. Încarcă pagina HTML în browserul tău. Aceasta va încărca harta, apoi va încărca toate datele GPS din spațiul de stocare și le va plota pe hartă.
 
-    ![O hartă a Saint Edward State Park lângă Seattle, cu cercuri care arată un traseu în jurul marginii parcului](../../../../../translated_images/map-path.896832e72dc696ffe20650e4051027d4855442d955f93fdbb80bb417ca8a406f.ro.png)
+    ![O hartă a Saint Edward State Park lângă Seattle, cu cercuri care arată un traseu în jurul marginii parcului](../../../../../translated_images/ro/map-path.896832e72dc696ffe20650e4051027d4855442d955f93fdbb80bb417ca8a406f.png)
 
 > 💁 Poți găsi acest cod în [code](../../../../../3-transport/lessons/3-visualize-location-data/code) folder.
 

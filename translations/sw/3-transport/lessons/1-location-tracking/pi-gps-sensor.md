@@ -27,13 +27,13 @@ Kihisi cha Grove GPS kinaweza kuunganishwa na Raspberry Pi.
 
 Unganisha kihisi cha GPS.
 
-![Kihisi cha Grove GPS](../../../../../translated_images/grove-gps-sensor.247943bf69b03f0d1820ef6ed10c587f9b650e8db55b936851c92412180bd3e2.sw.png)
+![Kihisi cha Grove GPS](../../../../../translated_images/sw/grove-gps-sensor.247943bf69b03f0d1820ef6ed10c587f9b650e8db55b936851c92412180bd3e2.png)
 
 1. Ingiza upande mmoja wa kebo ya Grove kwenye soketi ya kihisi cha GPS. Itaingia kwa njia moja tu.
 
 1. Ukiwa na Raspberry Pi imezimwa, unganisha upande mwingine wa kebo ya Grove kwenye soketi ya UART iliyoandikwa **UART** kwenye Grove Base hat iliyounganishwa na Pi. Soketi hii iko kwenye safu ya katikati, upande ulio karibu na nafasi ya kadi ya SD, upande mwingine kutoka kwa soketi za USB na ethernet.
 
-    ![Kihisi cha Grove GPS kimeunganishwa kwenye soketi ya UART](../../../../../translated_images/pi-gps-sensor.1f99ee2b2f6528915047ec78967bd362e0e4ee0ed594368a3837b9cf9cdaca64.sw.png)
+    ![Kihisi cha Grove GPS kimeunganishwa kwenye soketi ya UART](../../../../../translated_images/sw/pi-gps-sensor.1f99ee2b2f6528915047ec78967bd362e0e4ee0ed594368a3837b9cf9cdaca64.png)
 
 1. Weka kihisi cha GPS ili antena iliyounganishwa iweze kuona anga - ikiwezekana karibu na dirisha lililo wazi au nje. Ni rahisi kupata ishara safi bila kitu chochote kinachozuia antena.
 

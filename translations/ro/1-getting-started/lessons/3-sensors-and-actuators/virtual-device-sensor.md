@@ -37,11 +37,11 @@ Adaugă senzorul de lumină în aplicația CounterFit.
 
     1. Selectează butonul **Add** pentru a crea senzorul de lumină pe Pin 0.
 
-    ![Setările senzorului de lumină](../../../../../translated_images/counterfit-create-light-sensor.9f36a5e0d4458d8d554d54b34d2c806d56093d6e49fddcda2d20f6fef7f5cce1.ro.png)
+    ![Setările senzorului de lumină](../../../../../translated_images/ro/counterfit-create-light-sensor.9f36a5e0d4458d8d554d54b34d2c806d56093d6e49fddcda2d20f6fef7f5cce1.png)
 
     Senzorul de lumină va fi creat și va apărea în lista de senzori.
 
-    ![Senzorul de lumină creat](../../../../../translated_images/counterfit-light-sensor.5d0f5584df56b90f6b2561910d9cb20dfbd73eeff2177c238d38f4de54aefae1.ro.png)
+    ![Senzorul de lumină creat](../../../../../translated_images/ro/counterfit-light-sensor.5d0f5584df56b90f6b2561910d9cb20dfbd73eeff2177c238d38f4de54aefae1.png)
 
 ## Programează senzorul de lumină
 

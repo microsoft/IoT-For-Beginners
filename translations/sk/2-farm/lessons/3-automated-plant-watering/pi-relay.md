@@ -27,13 +27,13 @@ Grove relé môže byť pripojené k Raspberry Pi.
 
 Pripojte relé.
 
-![Grove relé](../../../../../translated_images/grove-relay.d426958ca210fbd0fb7983d7edc069d46c73a8b0a099d94797bd756f7b6bb6be.sk.png)
+![Grove relé](../../../../../translated_images/sk/grove-relay.d426958ca210fbd0fb7983d7edc069d46c73a8b0a099d94797bd756f7b6bb6be.png)
 
 1. Zasuňte jeden koniec Grove kábla do zásuvky na relé. Pôjde tam iba jedným smerom.
 
 1. S vypnutým Raspberry Pi pripojte druhý koniec Grove kábla do digitálnej zásuvky označenej **D5** na Grove Base Hat pripojenom k Pi. Táto zásuvka je druhá zľava v rade zásuviek vedľa GPIO pinov. Nechajte senzor vlhkosti pôdy pripojený k zásuvke **A0**.
 
-![Grove relé pripojené k zásuvke D5 a senzor vlhkosti pôdy pripojený k zásuvke A0](../../../../../translated_images/pi-relay-and-soil-moisture-sensor.02f3198975b8c53e69ec716cd2719ce117700bd1fc933eaf93476c103c57939b.sk.png)
+![Grove relé pripojené k zásuvke D5 a senzor vlhkosti pôdy pripojený k zásuvke A0](../../../../../translated_images/sk/pi-relay-and-soil-moisture-sensor.02f3198975b8c53e69ec716cd2719ce117700bd1fc933eaf93476c103c57939b.png)
 
 1. Zasuňte senzor vlhkosti pôdy do pôdy, ak už nie je zasunutý z predchádzajúcej lekcie.
 

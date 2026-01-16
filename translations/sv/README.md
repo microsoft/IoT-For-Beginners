@@ -57,7 +57,7 @@ Azure Cloud Advocates på Microsoft är glada att erbjuda en 12-veckors, 24-lekt
 
 Projekten täcker resan för mat från gård till bord. Detta inkluderar jordbruk, logistik, tillverkning, detaljhandel och konsument – alla populära branschområden för IoT-enheter.
 
-![En roadmap för kursen som visar 24 lektioner som täcker intro, jordbruk, transport, bearbetning, detaljhandel och matlagning](../../translated_images/Roadmap.bb1dec285dda0eda.sv.jpg)
+![En roadmap för kursen som visar 24 lektioner som täcker intro, jordbruk, transport, bearbetning, detaljhandel och matlagning](../../translated_images/sv/Roadmap.bb1dec285dda0eda.jpg)
 
 > Sketchnote av [Nitya Narasimhan](https://github.com/nitya). Klicka på bilden för en större version.
 

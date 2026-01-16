@@ -27,13 +27,13 @@ Grove GPS senzor se lahko poveže z Raspberry Pi.
 
 Povežite GPS senzor.
 
-![Grove GPS senzor](../../../../../translated_images/grove-gps-sensor.247943bf69b03f0d1820ef6ed10c587f9b650e8db55b936851c92412180bd3e2.sl.png)
+![Grove GPS senzor](../../../../../translated_images/sl/grove-gps-sensor.247943bf69b03f0d1820ef6ed10c587f9b650e8db55b936851c92412180bd3e2.png)
 
 1. Vstavite en konec Grove kabla v vtičnico na GPS senzorju. Kabel bo šel noter samo v eno smer.
 
 1. Ko je Raspberry Pi izklopljen, povežite drugi konec Grove kabla z UART vtičnico, označeno **UART**, na Grove Base hat, ki je pritrjen na Pi. Ta vtičnica je v srednji vrsti, na strani, ki je najbližje reži za SD kartico, na nasprotni strani od USB priključkov in ethernet vtičnice.
 
-    ![Grove GPS senzor povezan z UART vtičnico](../../../../../translated_images/pi-gps-sensor.1f99ee2b2f6528915047ec78967bd362e0e4ee0ed594368a3837b9cf9cdaca64.sl.png)
+    ![Grove GPS senzor povezan z UART vtičnico](../../../../../translated_images/sl/pi-gps-sensor.1f99ee2b2f6528915047ec78967bd362e0e4ee0ed594368a3837b9cf9cdaca64.png)
 
 1. Postavite GPS senzor tako, da ima pritrjena antena vidljivost do neba - idealno ob odprtem oknu ali zunaj. Lažje je dobiti jasen signal, če anteni nič ne ovira.
 

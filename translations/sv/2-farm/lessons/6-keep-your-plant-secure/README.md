@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Håll din växt säker
 
-![En sketchnote-översikt av denna lektion](../../../../../translated_images/lesson-10.829c86b80b9403bb770929ee553a1d293afe50dc23121aaf9be144673ae012cc.sv.jpg)
+![En sketchnote-översikt av denna lektion](../../../../../translated_images/sv/lesson-10.829c86b80b9403bb770929ee553a1d293afe50dc23121aaf9be144673ae012cc.jpg)
 
 > Sketchnote av [Nitya Narasimhan](https://github.com/nitya). Klicka på bilden för en större version.
 
@@ -61,11 +61,11 @@ Dessa är verkliga scenarier och händer hela tiden. Några exempel gavs i tidig
 
 När en enhet ansluter till en IoT-tjänst använder den en ID för att identifiera sig. Problemet är att detta ID kan klonas – en hackare kan sätta upp en skadlig enhet som använder samma ID som en riktig enhet men skickar falska data.
 
-![Både giltiga och skadliga enheter kan använda samma ID för att skicka telemetri](../../../../../translated_images/iot-device-and-hacked-device-connecting.e0671675df74d6d99eb1dedb5a670e606f698efa6202b1ad4c8ae548db299cc6.sv.png)
+![Både giltiga och skadliga enheter kan använda samma ID för att skicka telemetri](../../../../../translated_images/sv/iot-device-and-hacked-device-connecting.e0671675df74d6d99eb1dedb5a670e606f698efa6202b1ad4c8ae548db299cc6.png)
 
 Lösningen på detta är att konvertera den data som skickas till ett krypterat format, med hjälp av ett värde som endast är känt av enheten och molnet. Denna process kallas *kryptering*, och värdet som används för att kryptera data kallas en *krypteringsnyckel*.
 
-![Om kryptering används kommer endast krypterade meddelanden att accepteras, andra kommer att avvisas](../../../../../translated_images/iot-device-and-hacked-device-connecting-encryption.5941aff601fc978f979e46f2849b573564eeb4a4dc5b52f669f62745397492fb.sv.png)
+![Om kryptering används kommer endast krypterade meddelanden att accepteras, andra kommer att avvisas](../../../../../translated_images/sv/iot-device-and-hacked-device-connecting-encryption.5941aff601fc978f979e46f2849b573564eeb4a4dc5b52f669f62745397492fb.png)
 
 Molntjänsten kan sedan konvertera data tillbaka till ett läsbart format, med en process som kallas *dekryptering*, med antingen samma krypteringsnyckel eller en *dekrypteringsnyckel*. Om det krypterade meddelandet inte kan dekrypteras med nyckeln har enheten blivit hackad och meddelandet avvisas.
 
@@ -97,15 +97,15 @@ Kryptering finns i två typer – symmetrisk och asymmetrisk.
 
 **Symmetrisk** kryptering använder samma nyckel för att kryptera och dekryptera data. Både avsändaren och mottagaren måste känna till samma nyckel. Detta är den minst säkra typen, eftersom nyckeln måste delas på något sätt. För att en avsändare ska kunna skicka ett krypterat meddelande till en mottagare kan avsändaren först behöva skicka nyckeln till mottagaren.
 
-![Symmetrisk nyckelkryptering använder samma nyckel för att kryptera och dekryptera ett meddelande](../../../../../translated_images/send-message-symmetric-key.a2e8ad0d495896ff.sv.png)
+![Symmetrisk nyckelkryptering använder samma nyckel för att kryptera och dekryptera ett meddelande](../../../../../translated_images/sv/send-message-symmetric-key.a2e8ad0d495896ff.png)
 
 Om nyckeln blir stulen under överföringen, eller om avsändaren eller mottagaren blir hackad och nyckeln hittas, kan krypteringen knäckas.
 
-![Symmetrisk nyckelkryptering är endast säker om en hackare inte får tag på nyckeln – om så är fallet kan de avlyssna och dekryptera meddelandet](../../../../../translated_images/send-message-symmetric-key-hacker.e7cb53db1707adfb.sv.png)
+![Symmetrisk nyckelkryptering är endast säker om en hackare inte får tag på nyckeln – om så är fallet kan de avlyssna och dekryptera meddelandet](../../../../../translated_images/sv/send-message-symmetric-key-hacker.e7cb53db1707adfb.png)
 
 **Asymmetrisk** kryptering använder två nycklar – en krypteringsnyckel och en dekrypteringsnyckel, kallad en offentlig/privat nyckelpar. Den offentliga nyckeln används för att kryptera meddelandet, men kan inte användas för att dekryptera det, den privata nyckeln används för att dekryptera meddelandet men kan inte användas för att kryptera det.
 
-![Asymmetrisk kryptering använder en annan nyckel för att kryptera och dekryptera. Krypteringsnyckeln skickas till alla meddelandeavsändare så att de kan kryptera ett meddelande innan det skickas till mottagaren som äger nycklarna](../../../../../translated_images/send-message-asymmetric.7abe327c62615b8c.sv.png)
+![Asymmetrisk kryptering använder en annan nyckel för att kryptera och dekryptera. Krypteringsnyckeln skickas till alla meddelandeavsändare så att de kan kryptera ett meddelande innan det skickas till mottagaren som äger nycklarna](../../../../../translated_images/sv/send-message-asymmetric.7abe327c62615b8c.png)
 
 Mottagaren delar sin offentliga nyckel, och avsändaren använder denna för att kryptera meddelandet. När meddelandet skickas dekrypterar mottagaren det med sin privata nyckel. Asymmetrisk kryptering är säkrare eftersom den privata nyckeln hålls privat av mottagaren och aldrig delas. Alla kan ha den offentliga nyckeln eftersom den endast kan användas för att kryptera meddelanden.
 
@@ -165,7 +165,7 @@ Dessa certifikat har ett antal fält, inklusive vem den offentliga nyckeln komme
 
 När du använder X.509-certifikat kommer både avsändaren och mottagaren att ha sina egna offentliga och privata nycklar, samt båda ha X.509-certifikat som innehåller den offentliga nyckeln. De utbyter sedan X.509-certifikat på något sätt, använder varandras offentliga nycklar för att kryptera data de skickar och sin egen privata nyckel för att dekryptera data de tar emot.
 
-![Istället för att dela en offentlig nyckel kan du dela ett certifikat. Användaren av certifikatet kan verifiera att det kommer från dig genom att kontrollera med certifikatutfärdaren som signerade det.](../../../../../translated_images/send-message-certificate.9cc576ac1e46b76e.sv.png)
+![Istället för att dela en offentlig nyckel kan du dela ett certifikat. Användaren av certifikatet kan verifiera att det kommer från dig genom att kontrollera med certifikatutfärdaren som signerade det.](../../../../../translated_images/sv/send-message-certificate.9cc576ac1e46b76e.png)
 
 En stor fördel med att använda X.509-certifikat är att de kan delas mellan enheter. Du kan skapa ett certifikat, ladda upp det till IoT Hub och använda detta för alla dina enheter. Varje enhet behöver då bara känna till den privata nyckeln för att dekryptera meddelanden den tar emot från IoT Hub.
 

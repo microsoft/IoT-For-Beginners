@@ -154,11 +154,11 @@ Unda programu ya Python kuchapisha `"Hello World"` kwenye koni.
 
 1. Wakati VS Code inazinduliwa, itawasha mazingira ya mtandaoni ya Python. Mazingira ya mtandaoni yaliyochaguliwa yataonekana kwenye upau wa hali ya chini:
 
-    ![VS Code ikionyesha mazingira ya mtandaoni yaliyochaguliwa](../../../../../translated_images/vscode-virtual-env.8ba42e04c3d533cf.sw.png)
+    ![VS Code ikionyesha mazingira ya mtandaoni yaliyochaguliwa](../../../../../translated_images/sw/vscode-virtual-env.8ba42e04c3d533cf.png)
 
 1. Ikiwa terminal ya VS Code tayari inaendesha wakati VS Code inapoanza, haitakuwa na mazingira ya mtandaoni yaliyoamilishwa ndani yake. Jambo rahisi kufanya ni kuua terminal kwa kutumia kitufe cha **Kill the active terminal instance**:
 
-    ![Kitufe cha VS Code Kill the active terminal instance](../../../../../translated_images/vscode-kill-terminal.1cc4de7c6f25ee08.sw.png)
+    ![Kitufe cha VS Code Kill the active terminal instance](../../../../../translated_images/sw/vscode-kill-terminal.1cc4de7c6f25ee08.png)
 
     Unaweza kujua ikiwa terminal ina mazingira ya mtandaoni yaliyoamilishwa kwani jina la mazingira ya mtandaoni litakuwa kiambishi awali kwenye prompt ya terminal. Kwa mfano, inaweza kuwa:
 
@@ -212,7 +212,7 @@ Kama hatua ya pili ya 'Hello World', utaendesha programu ya CounterFit na kuunga
 
     Programu itaanza kuendesha na kufunguka kwenye kivinjari chako cha mtandao:
 
-    ![Programu ya CounterFit ikifanya kazi kwenye kivinjari](../../../../../translated_images/counterfit-first-run.433326358b669b31d0e99c3513cb01bfbb13724d162c99cdcc8f51ecf5f9c779.sw.png)
+    ![Programu ya CounterFit ikifanya kazi kwenye kivinjari](../../../../../translated_images/sw/counterfit-first-run.433326358b669b31d0e99c3513cb01bfbb13724d162c99cdcc8f51ecf5f9c779.png)
 
     Itakuwa imewekwa alama kama *Disconnected*, na LED kwenye kona ya juu-kulia imezimwa.
 
@@ -229,11 +229,11 @@ Kama hatua ya pili ya 'Hello World', utaendesha programu ya CounterFit na kuunga
 
 1. Utahitaji kuzindua terminal mpya ya VS Code kwa kuchagua kitufe cha **Create a new integrated terminal**. Hii ni kwa sababu programu ya CounterFit inaendesha kwenye terminal ya sasa.
 
-    ![Kitufe cha VS Code Create a new integrated terminal](../../../../../translated_images/vscode-new-terminal.77db8fc0f9cd3182.sw.png)
+    ![Kitufe cha VS Code Create a new integrated terminal](../../../../../translated_images/sw/vscode-new-terminal.77db8fc0f9cd3182.png)
 
 1. Katika terminal hii mpya, endesha faili ya `app.py` kama awali. Hali ya CounterFit itabadilika kuwa **Connected** na LED itawaka.
 
-    ![CounterFit ikionyesha kama imeunganishwa](../../../../../translated_images/counterfit-connected.ed30b46d8f79b0921f3fc70be10366e596a89dca3f80c2224a9d9fc98fccf884.sw.png)
+    ![CounterFit ikionyesha kama imeunganishwa](../../../../../translated_images/sw/counterfit-connected.ed30b46d8f79b0921f3fc70be10366e596a89dca3f80c2224a9d9fc98fccf884.png)
 
 > 💁 Unaweza kupata msimbo huu kwenye [code/virtual-device](../../../../../1-getting-started/lessons/1-introduction-to-iot/code/virtual-device) folda.
 

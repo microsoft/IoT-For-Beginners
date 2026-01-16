@@ -43,7 +43,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 1. நீங்கள் ReSpeaker 2-Mics Pi HAT-ஐ பயன்படுத்தினால், Grove அடிப்படை ஹாட்-ஐ அகற்றலாம், பின்னர் ReSpeaker ஹாட்-ஐ அதன் இடத்தில் பொருத்தலாம்.
 
-    ![ReSpeaker ஹாட் கொண்ட ராஸ்பெர்ரி பை](../../../../../translated_images/pi-respeaker-hat.f00fabe7dd039a93e2e0aa0fc946c9af0c6a9eb17c32fa1ca097fb4e384f69f0.ta.png)
+    ![ReSpeaker ஹாட் கொண்ட ராஸ்பெர்ரி பை](../../../../../translated_images/ta/pi-respeaker-hat.f00fabe7dd039a93e2e0aa0fc946c9af0c6a9eb17c32fa1ca097fb4e384f69f0.png)
 
     இந்த பாடத்தின் பின்னர் உங்களுக்கு Grove பொத்தான் தேவைப்படும், ஆனால் இந்த ஹாட்-இல் ஒன்று உள்ளமைக்கப்பட்டுள்ளது, எனவே Grove அடிப்படை ஹாட் தேவையில்லை.
 

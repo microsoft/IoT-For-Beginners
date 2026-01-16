@@ -29,13 +29,13 @@ Grove senzor Time of Flight je mogoče povezati z Wio Terminalom.
 
 Povežite senzor Time of Flight.
 
-![Grove senzor Time of Flight](../../../../../translated_images/grove-time-of-flight-sensor.d82ff2165bfded9f485de54d8d07195a6270a602696825fca19f629ddfe94e86.sl.png)
+![Grove senzor Time of Flight](../../../../../translated_images/sl/grove-time-of-flight-sensor.d82ff2165bfded9f485de54d8d07195a6270a602696825fca19f629ddfe94e86.png)
 
 1. Vstavite en konec Grove kabla v priključek na senzorju Time of Flight. Kabel bo šel noter le na en način.
 
 1. Ko je Wio Terminal odklopljen od računalnika ali drugega napajalnika, povežite drugi konec Grove kabla z levim Grove priključkom na Wio Terminalu, ko gledate zaslon. To je priključek, ki je najbližje gumbu za vklop. To je kombiniran digitalni in I²C priključek.
 
-![Grove senzor Time of Flight povezan z levim priključkom](../../../../../translated_images/wio-time-of-flight-sensor.c4c182131d2ea73d.sl.png)
+![Grove senzor Time of Flight povezan z levim priključkom](../../../../../translated_images/sl/wio-time-of-flight-sensor.c4c182131d2ea73d.png)
 
 1. Zdaj lahko povežete Wio Terminal z računalnikom.
 
@@ -101,7 +101,7 @@ Wio Terminal je zdaj mogoče programirati za uporabo priključenega senzorja Tim
 
     Merilnik razdalje je na zadnji strani senzorja, zato poskrbite, da boste uporabili pravilno stran pri merjenju razdalje.
 
-    ![Merilnik razdalje na zadnji strani senzorja Time of Flight, usmerjen proti banani](../../../../../translated_images/time-of-flight-banana.079921ad8b1496e4.sl.png)
+    ![Merilnik razdalje na zadnji strani senzorja Time of Flight, usmerjen proti banani](../../../../../translated_images/sl/time-of-flight-banana.079921ad8b1496e4.png)
 
 > 💁 To kodo lahko najdete v mapi [code-proximity/wio-terminal](../../../../../4-manufacturing/lessons/4-trigger-fruit-detector/code-proximity/wio-terminal).
 

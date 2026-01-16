@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Hamishia mantiki ya programu yako kwenye wingu
 
-![Muhtasari wa somo hili kwa sketchnote](../../../../../translated_images/lesson-9.dfe99c8e891f48e179724520da9f5794392cf9a625079281ccdcbf09bd85e1b6.sw.jpg)
+![Muhtasari wa somo hili kwa sketchnote](../../../../../translated_images/sw/lesson-9.dfe99c8e891f48e179724520da9f5794392cf9a625079281ccdcbf09bd85e1b6.jpg)
 
 > Sketchnote na [Nitya Narasimhan](https://github.com/nitya). Bofya picha kwa toleo kubwa.
 
@@ -37,11 +37,11 @@ Katika somo hili tutashughulikia:
 
 Serverless, au kompyuta isiyo na seva, inahusisha kuunda vizuizi vidogo vya msimbo vinavyoendeshwa kwenye wingu kwa kujibu aina tofauti za matukio. Tukio linapotokea, msimbo wako unaendeshwa, na unapokea data kuhusu tukio hilo. Matukio haya yanaweza kutoka kwa vitu vingi tofauti, ikiwa ni pamoja na maombi ya wavuti, ujumbe uliowekwa kwenye foleni, mabadiliko ya data kwenye hifadhidata, au ujumbe uliotumwa kwa huduma ya IoT na vifaa vya IoT.
 
-![Matukio yanayotumwa kutoka kwa huduma ya IoT kwenda kwa huduma isiyo na seva, yote yakichakatwa kwa wakati mmoja na kazi nyingi zinazotendeka](../../../../../translated_images/iot-messages-to-serverless.0194da1cc0732bb7d0f823aed3fce54735c6b1ad3bf36089804d8aaefc0a774f.sw.png)
+![Matukio yanayotumwa kutoka kwa huduma ya IoT kwenda kwa huduma isiyo na seva, yote yakichakatwa kwa wakati mmoja na kazi nyingi zinazotendeka](../../../../../translated_images/sw/iot-messages-to-serverless.0194da1cc0732bb7d0f823aed3fce54735c6b1ad3bf36089804d8aaefc0a774f.png)
 
 > 💁 Ikiwa umewahi kutumia vichocheo vya hifadhidata, unaweza kufikiria hili kama kitu sawa, msimbo unaochochewa na tukio kama kuingiza safu.
 
-![Wakati matukio mengi yanatumwa kwa wakati mmoja, huduma isiyo na seva inapanuka ili kuyashughulikia yote kwa wakati mmoja](../../../../../translated_images/serverless-scaling.f8c769adf0413fd1.sw.png)
+![Wakati matukio mengi yanatumwa kwa wakati mmoja, huduma isiyo na seva inapanuka ili kuyashughulikia yote kwa wakati mmoja](../../../../../translated_images/sw/serverless-scaling.f8c769adf0413fd1.png)
 
 Msimbo wako unaendeshwa tu tukio linapotokea, hakuna kitu kinachohifadhi msimbo wako ukiwa hai nyakati nyingine. Tukio linatokea, msimbo wako unapakiwa na kuendeshwa. Hii inafanya serverless kuwa na uwezo mkubwa wa kupanuka - ikiwa matukio mengi yanatokea kwa wakati mmoja, mtoa huduma wa wingu anaweza kuendesha kazi yako mara nyingi kadri unavyohitaji kwa wakati mmoja kwenye seva zozote walizonazo. Hasara ya hili ni kwamba ikiwa unahitaji kushiriki taarifa kati ya matukio, unahitaji kuziokoa mahali fulani kama hifadhidata badala ya kuzihifadhi kwenye kumbukumbu.
 
@@ -63,7 +63,7 @@ Kama msanidi programu wa IoT, mfano wa serverless ni bora. Unaweza kuandika kazi
 
 Huduma ya kompyuta isiyo na seva kutoka Microsoft inaitwa Azure Functions.
 
-![Nembo ya Azure Functions](../../../../../translated_images/azure-functions-logo.1cfc8e3204c9c44aaf80fcf406fc8544d80d7f00f8d3e8ed6fed764563e17564.sw.png)
+![Nembo ya Azure Functions](../../../../../translated_images/sw/azure-functions-logo.1cfc8e3204c9c44aaf80fcf406fc8544d80d7f00f8d3e8ed6fed764563e17564.png)
 
 Video fupi hapa chini ina muhtasari wa Azure Functions.
 
@@ -244,7 +244,7 @@ CLI ya Azure Functions inaweza kutumika kuunda programu mpya ya Functions.
     VS Code. Initialize for optimal use with VS Code?
     ```
 
-    ![Arifa](../../../../../translated_images/vscode-azure-functions-init-notification.bd19b49229963edb.sw.png)
+    ![Arifa](../../../../../translated_images/sw/vscode-azure-functions-init-notification.bd19b49229963edb.png)
 
     Chagua **Yes** kutoka kwenye arifa hii.
 

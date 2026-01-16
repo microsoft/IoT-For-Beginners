@@ -27,17 +27,17 @@ Grove сензор влаге у земљишту може се повезати
 
 Повежите сензор влаге у земљишту.
 
-![Grove сензор влаге у земљишту](../../../../../translated_images/grove-capacitive-soil-moisture-sensor.e7f0776cce30e78be5cc5a07839385fd6718857f31b5bf5ad3d0c73c83b2f0ef.sr.png)
+![Grove сензор влаге у земљишту](../../../../../translated_images/sr/grove-capacitive-soil-moisture-sensor.e7f0776cce30e78be5cc5a07839385fd6718857f31b5bf5ad3d0c73c83b2f0ef.png)
 
 1. Уметните један крај Grove кабла у утичницу на сензору влаге у земљишту. Кабл ће ући само у једном смеру.
 
 1. Са Wio Terminal-ом искљученим из рачунара или другог извора напајања, повежите други крај Grove кабла у десну Grove утичницу на Wio Terminal-у када гледате у екран. Ово је утичница најудаљенија од дугмета за напајање.
 
-![Grove сензор влаге у земљишту повезан на десну утичницу](../../../../../translated_images/wio-soil-moisture-sensor.46919b61c3f6cb74.sr.png)
+![Grove сензор влаге у земљишту повезан на десну утичницу](../../../../../translated_images/sr/wio-soil-moisture-sensor.46919b61c3f6cb74.png)
 
 1. Уметните сензор влаге у земљиште. Има ознаку "највиша позиција" - белу линију преко сензора. Уметните сензор до те линије, али не преко ње.
 
-![Grove сензор влаге у земљишту у земљишту](../../../../../translated_images/soil-moisture-sensor-in-soil.bfad91002bda5e96.sr.png)
+![Grove сензор влаге у земљишту у земљишту](../../../../../translated_images/sr/soil-moisture-sensor-in-soil.bfad91002bda5e96.png)
 
 1. Сада можете повезати Wio Terminal са вашим рачунаром.
 

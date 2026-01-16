@@ -27,13 +27,13 @@ Grove rele lahko povežete z Raspberry Pi.
 
 Povežite rele.
 
-![Grove rele](../../../../../translated_images/grove-relay.d426958ca210fbd0fb7983d7edc069d46c73a8b0a099d94797bd756f7b6bb6be.sl.png)
+![Grove rele](../../../../../translated_images/sl/grove-relay.d426958ca210fbd0fb7983d7edc069d46c73a8b0a099d94797bd756f7b6bb6be.png)
 
 1. Vstavite en konec Grove kabla v vtičnico na releju. Kabel bo šel noter samo v eni smeri.
 
 1. Ko je Raspberry Pi izklopljen, povežite drugi konec Grove kabla z digitalno vtičnico, označeno **D5**, na Grove Base Hat, ki je pritrjen na Pi. Ta vtičnica je druga z leve strani v vrsti vtičnic poleg GPIO pinov. Senzor za vlago v tleh pustite povezan na vtičnico **A0**.
 
-![Grove rele povezan na vtičnico D5, senzor za vlago v tleh povezan na vtičnico A0](../../../../../translated_images/pi-relay-and-soil-moisture-sensor.02f3198975b8c53e69ec716cd2719ce117700bd1fc933eaf93476c103c57939b.sl.png)
+![Grove rele povezan na vtičnico D5, senzor za vlago v tleh povezan na vtičnico A0](../../../../../translated_images/sl/pi-relay-and-soil-moisture-sensor.02f3198975b8c53e69ec716cd2719ce117700bd1fc933eaf93476c103c57939b.png)
 
 1. Vstavite senzor za vlago v tleh v zemljo, če tega še niste storili v prejšnji lekciji.
 

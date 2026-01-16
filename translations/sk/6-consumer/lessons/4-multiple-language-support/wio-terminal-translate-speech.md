@@ -114,7 +114,7 @@ REST API služby reči nepodporuje priame preklady, namiesto toho môžete použ
     >
     > Napríklad, ak trénujete LUIS v angličtine, ale chcete používať francúzštinu ako jazyk používateľa, môžete preložiť vety ako "set a 2 minute and 27 second timer" z angličtiny do francúzštiny pomocou Bing Translate, a potom použiť tlačidlo **Listen translation** na prehranie prekladu do vášho mikrofónu.
     >
-    > ![Tlačidlo Listen translation na Bing Translate](../../../../../translated_images/bing-translate.348aa796d6efe2a92f41ea74a5cf42bb4c63d6faaa08e7f46924e072a35daa48.sk.png)
+    > ![Tlačidlo Listen translation na Bing Translate](../../../../../translated_images/sk/bing-translate.348aa796d6efe2a92f41ea74a5cf42bb4c63d6faaa08e7f46924e072a35daa48.png)
 
 1. Pridajte API kľúč prekladateľa a jeho umiestnenie pod `SPEECH_LOCATION`:
 

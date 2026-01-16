@@ -35,7 +35,7 @@ LED-ul Grove vine ca un modul cu o selecție de LED-uri, permițându-ți să al
 
 Conectează LED-ul.
 
-![Un LED Grove](../../../../../translated_images/grove-led.6c853be93f473cf2c439cfc74bb1064732b22251a83cedf66e62f783f9cc1a79.ro.png)
+![Un LED Grove](../../../../../translated_images/ro/grove-led.6c853be93f473cf2c439cfc74bb1064732b22251a83cedf66e62f783f9cc1a79.png)
 
 1. Alege LED-ul preferat și inserează picioarele acestuia în cele două găuri de pe modulul LED.
 
@@ -53,7 +53,7 @@ Conectează LED-ul.
 
 C va fi acoperit într-o lecție ulterioară.
 
-![LED-ul Grove conectat la soclul din partea dreaptă](../../../../../translated_images/wio-led.265a1897e72d7f21.ro.png)
+![LED-ul Grove conectat la soclul din partea dreaptă](../../../../../translated_images/ro/wio-led.265a1897e72d7f21.png)
 
 ## Programează lampa de veghe
 

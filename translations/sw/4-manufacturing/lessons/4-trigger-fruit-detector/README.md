@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Kuchochea Utambuzi wa Ubora wa Matunda Kutoka kwa Kihisi
 
-![Muhtasari wa somo hili kwa sketchnote](../../../../../translated_images/lesson-18.92c32ed1d354caa5a54baa4032cf0b172d4655e8e326ad5d46c558a0def15365.sw.jpg)
+![Muhtasari wa somo hili kwa sketchnote](../../../../../translated_images/sw/lesson-18.92c32ed1d354caa5a54baa4032cf0b172d4655e8e326ad5d46c558a0def15365.jpg)
 
 > Sketchnote na [Nitya Narasimhan](https://github.com/nitya). Bofya picha kwa toleo kubwa zaidi.
 
@@ -48,7 +48,7 @@ Programu za IoT zinaweza kuelezewa kama *vitu* (vifaa) vinavyotuma data inayozal
 
 ### Usanifu wa Marejeleo wa IoT
 
-![Usanifu wa marejeleo wa IoT](../../../../../translated_images/iot-reference-architecture.2278b98b55c6d4e89bde18eada3688d893861d43507641804dd2f9d3079cfaa0.sw.png)
+![Usanifu wa marejeleo wa IoT](../../../../../translated_images/sw/iot-reference-architecture.2278b98b55c6d4e89bde18eada3688d893861d43507641804dd2f9d3079cfaa0.png)
 
 Mchoro hapo juu unaonyesha usanifu wa marejeleo wa IoT.
 
@@ -58,7 +58,7 @@ Mchoro hapo juu unaonyesha usanifu wa marejeleo wa IoT.
 * **Ufahamu** hutoka kwa programu zisizo na seva, au kutoka kwa uchambuzi unaofanywa kwenye data iliyohifadhiwa.
 * **Vitendo** vinaweza kuwa amri zinazotumwa kwa vifaa, au vielelezo vya data vinavyoruhusu binadamu kufanya maamuzi.
 
-![Usanifu wa marejeleo wa IoT](../../../../../translated_images/iot-reference-architecture-azure.0b8d2161af924cb18ae48a8558a19541cca47f27264851b5b7e56d7b8bb372ac.sw.png)
+![Usanifu wa marejeleo wa IoT](../../../../../translated_images/sw/iot-reference-architecture-azure.0b8d2161af924cb18ae48a8558a19541cca47f27264851b5b7e56d7b8bb372ac.png)
 
 Mchoro hapo juu unaonyesha baadhi ya vipengele na huduma zilizoshughulikiwa hadi sasa katika masomo haya na jinsi zinavyounganishwa katika usanifu wa marejeleo wa IoT.
 
@@ -98,7 +98,7 @@ Unahitaji kujenga mfumo ambapo matunda hugunduliwa yanapowasili kwenye mkanda wa
 
 ### Kutengeneza Mfano wa Programu Yako
 
-![Usanifu wa marejeleo wa IoT kwa ukaguzi wa ubora wa matunda](../../../../../translated_images/iot-reference-architecture-fruit-quality.cc705f121c3b6fa71c800d9630935ac34bc08223a04601e35f41d5e9b5dd5207.sw.png)
+![Usanifu wa marejeleo wa IoT kwa ukaguzi wa ubora wa matunda](../../../../../translated_images/sw/iot-reference-architecture-fruit-quality.cc705f121c3b6fa71c800d9630935ac34bc08223a04601e35f41d5e9b5dd5207.png)
 
 Mchoro hapo juu unaonyesha usanifu wa marejeleo kwa programu hii ya mfano.
 
@@ -115,7 +115,7 @@ Kwa mfano, utatekeleza yote haya kwenye kifaa kimoja. Ikiwa unatumia kidhibiti m
 
 Kifaa cha IoT kinahitaji aina fulani ya kichocheo kuonyesha wakati matunda yako tayari kuainishwa. Kichocheo kimoja kwa hili litakuwa kupima wakati matunda yako katika eneo sahihi kwenye mkanda wa kusafirisha kwa kupima umbali hadi kwenye kihisi.
 
-![Vihisi vya ukaribu hutuma miale ya leza kwa vitu kama ndizi na kupima muda wa miale kurudi](../../../../../translated_images/proximity-sensor.f5cd752c77fb62fe.sw.png)
+![Vihisi vya ukaribu hutuma miale ya leza kwa vitu kama ndizi na kupima muda wa miale kurudi](../../../../../translated_images/sw/proximity-sensor.f5cd752c77fb62fe.png)
 
 Vihisi vya ukaribu vinaweza kutumika kupima umbali kutoka kwa kihisi hadi kwenye kitu. Kwa kawaida hutuma miale ya mionzi ya sumakuumeme kama vile miale ya leza au mwanga wa infraredi, kisha kugundua mionzi hiyo ikirudi kutoka kwenye kitu. Muda kati ya miale ya leza kutumwa na ishara kurudi unaweza kutumika kuhesabu umbali hadi kwenye kihisi.
 
@@ -133,7 +133,7 @@ Fanya kazi kupitia mwongozo husika kutumia kihisi cha ukaribu kugundua kitu kwa 
 
 Mfano wa kigunduzi cha matunda una vipengele vingi vinavyowasiliana.
 
-![Vipengele vinavyowasiliana](../../../../../translated_images/fruit-quality-detector-message-flow.adf2a65da8fd8741ac7af11361574de89adc126785d67606bb4d2ec00467e380.sw.png)
+![Vipengele vinavyowasiliana](../../../../../translated_images/sw/fruit-quality-detector-message-flow.adf2a65da8fd8741ac7af11361574de89adc126785d67606bb4d2ec00467e380.png)
 
 * Kihisi cha ukaribu kinachopima umbali hadi kwenye tunda na kutuma hii kwa IoT Hub
 * Amri ya kudhibiti kamera inayotoka kwa IoT Hub kwenda kwenye kifaa cha kamera

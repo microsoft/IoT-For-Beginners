@@ -25,13 +25,13 @@ Grove temperaturni senzor lahko povežete z Raspberry Pi.
 
 Povežite temperaturni senzor.
 
-![Grove temperaturni senzor](../../../../../translated_images/grove-dht11.07f8eafceee170043efbb53e1d15722bd4e00fbaa9ff74290b57e9f66eb82c17.sl.png)
+![Grove temperaturni senzor](../../../../../translated_images/sl/grove-dht11.07f8eafceee170043efbb53e1d15722bd4e00fbaa9ff74290b57e9f66eb82c17.png)
 
 1. Vstavite en konec Grove kabla v vtičnico na senzorju za vlago in temperaturo. Kabel bo šel noter samo v eni smeri.
 
 1. Ko je Raspberry Pi izklopljen, povežite drugi konec Grove kabla z digitalno vtičnico, označeno **D5**, na Grove Base hat, ki je priključen na Pi. Ta vtičnica je druga z leve strani v vrsti vtičnic poleg GPIO pinov.
 
-![Grove temperaturni senzor povezan z vtičnico A0](../../../../../translated_images/pi-temperature-sensor.3ff82fff672c8e56.sl.png)
+![Grove temperaturni senzor povezan z vtičnico A0](../../../../../translated_images/sl/pi-temperature-sensor.3ff82fff672c8e56.png)
 
 ## Programirajte temperaturni senzor
 

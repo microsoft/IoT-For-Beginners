@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Nastavite časovnik in podajte zvočne povratne informacije
 
-![Sketchnote pregled te lekcije](../../../../../translated_images/lesson-23.f38483e1d4df4828990d3f02d60e46c978b075d384ae7cb4f7bab738e107c850.sl.jpg)
+![Sketchnote pregled te lekcije](../../../../../translated_images/sl/lesson-23.f38483e1d4df4828990d3f02d60e46c978b075d384ae7cb4f7bab738e107c850.jpg)
 
 > Sketchnote avtorja [Nitya Narasimhan](https://github.com/nitya). Kliknite na sliko za večjo različico.
 
@@ -37,7 +37,7 @@ V tej lekciji bomo obravnavali:
 
 Pretvorba besedila v govor, kot že ime pove, je proces pretvorbe besedila v zvok, ki vsebuje besedilo kot izgovorjene besede. Osnovno načelo je razčleniti besede v besedilu na njihove sestavne zvoke (imenovane foneme) in sestaviti zvok za te zvoke, bodisi z uporabo vnaprej posnetega zvoka bodisi z zvokom, ki ga generirajo modeli umetne inteligence.
 
-![Tri faze tipičnih sistemov za pretvorbo besedila v govor](../../../../../translated_images/tts-overview.193843cf3f5ee09f.sl.png)
+![Tri faze tipičnih sistemov za pretvorbo besedila v govor](../../../../../translated_images/sl/tts-overview.193843cf3f5ee09f.png)
 
 Sistemi za pretvorbo besedila v govor običajno vključujejo 3 faze:
 

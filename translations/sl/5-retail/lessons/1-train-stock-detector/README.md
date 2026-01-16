@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Učite se zaznavanja zalog
 
-![Sketchnote pregled te lekcije](../../../../../translated_images/lesson-19.cf6973cecadf080c4b526310620dc4d6f5994c80fb0139c6f378cc9ca2d435cd.sl.jpg)
+![Sketchnote pregled te lekcije](../../../../../translated_images/sl/lesson-19.cf6973cecadf080c4b526310620dc4d6f5994c80fb0139c6f378cc9ca2d435cd.jpg)
 
 > Sketchnote avtorja [Nitya Narasimhan](https://github.com/nitya). Kliknite na sliko za večjo različico.
 
@@ -45,7 +45,7 @@ Zaznavanje objektov vključuje zaznavanje objektov na slikah z uporabo AI. Za ra
 
 Klasifikacija slik se osredotoča na klasifikacijo celotne slike – kakšne so verjetnosti, da celotna slika ustreza vsaki oznaki. Rezultat so verjetnosti za vsako oznako, ki je bila uporabljena za treniranje modela.
 
-![Klasifikacija slik za indijske oreščke in paradižnikovo pasto](../../../../../translated_images/image-classifier-cashews-tomato.bc2e16ab8f05cf9ac0f59f73e32efc4227f9a5b601b90b2c60f436694547a965.sl.png)
+![Klasifikacija slik za indijske oreščke in paradižnikovo pasto](../../../../../translated_images/sl/image-classifier-cashews-tomato.bc2e16ab8f05cf9ac0f59f73e32efc4227f9a5b601b90b2c60f436694547a965.png)
 
 V zgornjem primeru sta dve sliki klasificirani z modelom, ki je bil usposobljen za klasifikacijo posod z indijskimi oreščki ali pločevink paradižnikove paste. Prva slika je posoda z indijskimi oreščki in ima dva rezultata klasifikatorja slik:
 
@@ -69,7 +69,7 @@ Ko ga nato uporabite za napovedovanje slik, namesto da dobite seznam oznak in od
 
 > 🎓 *Okvirji* so škatle okoli objekta.
 
-![Zaznavanje objektov za indijske oreščke in paradižnikovo pasto](../../../../../translated_images/object-detector-cashews-tomato.1af7c26686b4db0e709754aeb196f4e73271f54e2085db3bcccb70d4a0d84d97.sl.png)
+![Zaznavanje objektov za indijske oreščke in paradižnikovo pasto](../../../../../translated_images/sl/object-detector-cashews-tomato.1af7c26686b4db0e709754aeb196f4e73271f54e2085db3bcccb70d4a0d84d97.png)
 
 Zgornja slika vsebuje tako posodo z indijskimi oreščki kot tri pločevinke paradižnikove paste. Zaznavalnik objektov je zaznal indijske oreščke in vrnil okvir, ki vsebuje indijske oreščke, z odstotno verjetnostjo, da okvir vsebuje objekt, v tem primeru 97.6%. Zaznavalnik objektov je zaznal tudi tri pločevinke paradižnikove paste in zagotavlja tri ločene okvirje, enega za vsako zaznano pločevinko, pri čemer ima vsak odstotno verjetnost, da okvir vsebuje pločevinko paradižnikove paste.
 
@@ -120,7 +120,7 @@ Zaznavalnik objektov lahko trenirate z uporabo Custom Vision, na podoben način 
 
     Ko ustvarite svoj projekt, se prepričajte, da uporabljate vir `stock-detector-training`, ki ste ga ustvarili prej. Uporabite tip projekta *Object Detection* in domeno *Products on Shelves*.
 
-    ![Nastavitve za projekt Custom Vision z imenom fruit-quality-detector, brez opisa, virom nastavljenim na fruit-quality-detector-training, tipom projekta nastavljenim na klasifikacijo, klasifikacijskimi tipi nastavljenimi na več razredov in domenami nastavljenimi na hrano](../../../../../translated_images/custom-vision-create-object-detector-project.32d4fb9aa8e7e7375f8a799bfce517aca970f2cb65e42d4245c5e635c734ab29.sl.png)
+    ![Nastavitve za projekt Custom Vision z imenom fruit-quality-detector, brez opisa, virom nastavljenim na fruit-quality-detector-training, tipom projekta nastavljenim na klasifikacijo, klasifikacijskimi tipi nastavljenimi na več razredov in domenami nastavljenimi na hrano](../../../../../translated_images/sl/custom-vision-create-object-detector-project.32d4fb9aa8e7e7375f8a799bfce517aca970f2cb65e42d4245c5e635c734ab29.png)
 
     ✅ Domena izdelkov na policah je posebej namenjena zaznavanju zalog na trgovinskih policah. Preberite več o različnih domenah v [dokumentaciji o izbiri domene na Microsoft Docs](https://docs.microsoft.com/azure/cognitive-services/custom-vision-service/select-domain?WT.mc_id=academic-17441-jabenn#object-detection)
 
@@ -142,11 +142,11 @@ Za treniranje modela boste potrebovali niz slik, ki vsebujejo objekte, ki jih ž
 
 1. Sledite [oddelku Naloži in označi slike v hitrem začetku za gradnjo zaznavalnika objektov na Microsoft Docs](https://docs.microsoft.com/azure/cognitive-services/custom-vision-service/get-started-build-detector?WT.mc_id=academic-17441-jabenn#upload-and-tag-images), da naložite svoje slike za treniranje. Ustvarite ustrezne oznake glede na vrste objektov, ki jih želite zaznati.
 
-    ![Dialogi za nalaganje, ki prikazujejo nalaganje slik zrelih in nezrelih banan](../../../../../translated_images/image-upload-object-detector.77c7892c3093cb59b79018edecd678749a75d71a099bc8a2d2f2f76320f88a5b.sl.png)
+    ![Dialogi za nalaganje, ki prikazujejo nalaganje slik zrelih in nezrelih banan](../../../../../translated_images/sl/image-upload-object-detector.77c7892c3093cb59b79018edecd678749a75d71a099bc8a2d2f2f76320f88a5b.png)
 
     Ko rišete okvirje za objekte, jih držite tesno okoli objekta. Lahko traja nekaj časa, da obkrožite vse slike, vendar orodje zazna, kaj meni, da so okvirji, kar proces pospeši.
 
-    ![Označevanje paradižnikove paste](../../../../../translated_images/object-detector-tag-tomato-paste.f47c362fb0f0eb582f3bc68cf3855fb43a805106395358d41896a269c210b7b4.sl.png)
+    ![Označevanje paradižnikove paste](../../../../../translated_images/sl/object-detector-tag-tomato-paste.f47c362fb0f0eb582f3bc68cf3855fb43a805106395358d41896a269c210b7b4.png)
 
     > 💁 Če imate več kot 15 slik za vsak objekt, lahko trenirate po 15 in nato uporabite funkcijo **Predlagane oznake**. To bo uporabilo trenirani model za zaznavanje objektov na neoznačenih slikah. Nato lahko potrdite zaznane objekte ali jih zavrnete in ponovno narišete okvirje. To lahko prihrani *veliko* časa.
 
@@ -164,7 +164,7 @@ Ko je vaš zaznavalnik objektov treniran, ga lahko testirate tako, da mu podate 
 
 1. Uporabite gumb **Quick Test**, da naložite testne slike in preverite, ali so objekti zaznani. Uporabite testne slike, ki ste jih ustvarili prej, ne pa nobene od slik, ki ste jih uporabili za treniranje.
 
-    ![3 pločevinke paradižnikove paste zaznane z verjetnostmi 38%, 35.5% in 34.6%](../../../../../translated_images/object-detector-detected-tomato-paste.52656fe87af4c37b4ee540526d63e73ed075da2e54a9a060aa528e0c562fb1b6.sl.png)
+    ![3 pločevinke paradižnikove paste zaznane z verjetnostmi 38%, 35.5% in 34.6%](../../../../../translated_images/sl/object-detector-detected-tomato-paste.52656fe87af4c37b4ee540526d63e73ed075da2e54a9a060aa528e0c562fb1b6.png)
 
 1. Poskusite vse testne slike, ki jih imate na voljo, in opazujte verjetnosti.
 

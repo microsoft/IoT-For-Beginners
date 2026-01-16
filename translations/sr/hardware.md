@@ -21,7 +21,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 ## Куповина комплета
 
-![Лого Seeed студија](../../translated_images/seeed-logo.74732b6b482b6e8e.sr.png)
+![Лого Seeed студија](../../translated_images/sr/seeed-logo.74732b6b482b6e8e.png)
 
 Seeed Studios су љубазно обезбедили сав хардвер у облику лако доступних комплета:
 
@@ -29,13 +29,13 @@ Seeed Studios су љубазно обезбедили сав хардвер у 
 
 **[IoT за почетнике са Seeed и Microsoft - Wio Terminal Starter Kit](https://www.seeedstudio.com/IoT-for-beginners-with-Seeed-and-Microsoft-Wio-Terminal-Starter-Kit-p-5006.html)**
 
-[![Wio Terminal хардверски комплет](../../translated_images/wio-hardware-kit.4c70c48b85e4283a.sr.png)](https://www.seeedstudio.com/IoT-for-beginners-with-Seeed-and-Microsoft-Wio-Terminal-Starter-Kit-p-5006.html)
+[![Wio Terminal хардверски комплет](../../translated_images/sr/wio-hardware-kit.4c70c48b85e4283a.png)](https://www.seeedstudio.com/IoT-for-beginners-with-Seeed-and-Microsoft-Wio-Terminal-Starter-Kit-p-5006.html)
 
 ### Raspberry Pi
 
 **[IoT за почетнике са Seeed и Microsoft - Raspberry Pi 4 Starter Kit](https://www.seeedstudio.com/IoT-for-beginners-with-Seeed-and-Microsoft-Raspberry-Pi-Starter-Kit-p-5004.html)**
 
-[![Raspberry Pi Terminal хардверски комплет](../../translated_images/pi-hardware-kit.26dbadaedb7dd44c73b0131d5d68ea29472ed0a9744f90d5866c6d82f2d16380.sr.png)](https://www.seeedstudio.com/IoT-for-beginners-with-Seeed-and-Microsoft-Raspberry-Pi-Starter-Kit-p-5004.html)
+[![Raspberry Pi Terminal хардверски комплет](../../translated_images/sr/pi-hardware-kit.26dbadaedb7dd44c73b0131d5d68ea29472ed0a9744f90d5866c6d82f2d16380.png)](https://www.seeedstudio.com/IoT-for-beginners-with-Seeed-and-Microsoft-Raspberry-Pi-Starter-Kit-p-5004.html)
 
 ## Arduino
 

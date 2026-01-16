@@ -25,11 +25,11 @@ ArduCam nu are un socket Grove, ci se conectează la magistralele SPI și I2C pr
 
 Conectează camera.
 
-![Un senzor ArduCam](../../../../../translated_images/arducam.20e4e4cbb268296570b5914e20d6c349fc42ddac9ed4e1b9deba2188204eebae.ro.png)
+![Un senzor ArduCam](../../../../../translated_images/ro/arducam.20e4e4cbb268296570b5914e20d6c349fc42ddac9ed4e1b9deba2188204eebae.png)
 
 1. Pinii de la baza ArduCam trebuie conectați la pinii GPIO de pe Wio Terminal. Pentru a găsi mai ușor pinii corecți, atașează autocolantul pentru pini GPIO care vine cu Wio Terminal în jurul pinilor:
 
-    ![Wio Terminal cu autocolantul pentru pini GPIO](../../../../../translated_images/wio-terminal-pin-sticker.b90b1535937b84bd.ro.png)
+    ![Wio Terminal cu autocolantul pentru pini GPIO](../../../../../translated_images/ro/wio-terminal-pin-sticker.b90b1535937b84bd.png)
 
 1. Folosind fire jumper, realizează următoarele conexiuni:
 
@@ -44,7 +44,7 @@ Conectează camera.
     | SDA         | 3 (I2C1_SDA)     | Date serial I2C                          |
     | SCL         | 5 (I2C1_SCL)     | Ceas serial I2C                          |
 
-    ![Wio Terminal conectat la ArduCam cu fire jumper](../../../../../translated_images/arducam-wio-terminal-connections.a4d5a4049bdb5ab800a2877389fc6ecf5e4ff307e6451ff56c517e6786467d0a.ro.png)
+    ![Wio Terminal conectat la ArduCam cu fire jumper](../../../../../translated_images/ro/arducam-wio-terminal-connections.a4d5a4049bdb5ab800a2877389fc6ecf5e4ff307e6451ff56c517e6786467d0a.png)
 
     Conexiunile GND și VCC furnizează o alimentare de 5V pentru ArduCam. Aceasta funcționează la 5V, spre deosebire de senzorii Grove care funcționează la 3V. Această alimentare provine direct de la conexiunea USB-C care alimentează dispozitivul.
 
@@ -297,7 +297,7 @@ Wio Terminal poate fi acum programat pentru a captura o imagine atunci când un 
 
 1. Microcontrolerele rulează codul tău continuu, așa că nu este ușor să declanșezi ceva precum realizarea unei fotografii fără a reacționa la un senzor. Wio Terminal are butoane, așa că camera poate fi configurată să fie declanșată de unul dintre butoane. Adaugă următorul cod la sfârșitul funcției `setup` pentru a configura butonul C (unul dintre cele trei butoane de sus, cel mai apropiat de comutatorul de alimentare).
 
-    ![Butonul C de sus, cel mai apropiat de comutatorul de alimentare](../../../../../translated_images/wio-terminal-c-button.73df3cb1c1445ea0.ro.png)
+    ![Butonul C de sus, cel mai apropiat de comutatorul de alimentare](../../../../../translated_images/ro/wio-terminal-c-button.73df3cb1c1445ea0.png)
 
     ```cpp
     pinMode(WIO_KEY_C, INPUT_PULLUP);
@@ -465,7 +465,7 @@ Wio Terminal suportă doar carduri microSD de până la 16GB. Dacă ai un card S
 
 1. Oprește alimentarea cardului microSD și scoate-l împingându-l ușor și eliberându-l, iar acesta va ieși. Poate fi necesar să folosești un instrument subțire pentru a face acest lucru. Conectează cardul microSD la computerul tău pentru a vizualiza imaginile.
 
-    ![O imagine a unei banane capturată folosind ArduCam](../../../../../translated_images/banana-arducam.be1b32d4267a8194b0fd042362e56faa431da9cd4af172051b37243ea9be0256.ro.jpg)
+    ![O imagine a unei banane capturată folosind ArduCam](../../../../../translated_images/ro/banana-arducam.be1b32d4267a8194b0fd042362e56faa431da9cd4af172051b37243ea9be0256.jpg)
 💁 Poate fi nevoie de câteva imagini pentru ca balansul de alb al camerei să se ajusteze. Vei observa acest lucru pe baza culorii imaginilor capturate, primele câteva pot părea cu o culoare nepotrivită. Poți rezolva întotdeauna acest lucru modificând codul pentru a captura câteva imagini care sunt ignorate în funcția `setup`.
 
 

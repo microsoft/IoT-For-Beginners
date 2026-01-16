@@ -43,11 +43,11 @@ CO_OP_TRANSLATOR_METADATA:
 
     1. Изаберите дугме **Add** да бисте креирали *Soil Moisture* сензор на пину 0.
 
-    ![Подешавања сензора влаге земљишта](../../../../../translated_images/counterfit-create-soil-moisture-sensor.35266135a5e0ae68b29a684d7db0d2933a8098b2307d197f7c71577b724603aa.sr.png)
+    ![Подешавања сензора влаге земљишта](../../../../../translated_images/sr/counterfit-create-soil-moisture-sensor.35266135a5e0ae68b29a684d7db0d2933a8098b2307d197f7c71577b724603aa.png)
 
     Сензор влаге земљишта ће бити креиран и појавиће се на листи сензора.
 
-    ![Креирани сензор влаге земљишта](../../../../../translated_images/counterfit-soil-moisture-sensor.81742b2de0e9de60a3b3b9a2ff8ecc686d428eb6d71820f27a693be26e5aceee.sr.png)
+    ![Креирани сензор влаге земљишта](../../../../../translated_images/sr/counterfit-soil-moisture-sensor.81742b2de0e9de60a3b3b9a2ff8ecc686d428eb6d71820f27a693be26e5aceee.png)
 
 ## Програмирање апликације за сензор влаге земљишта
 

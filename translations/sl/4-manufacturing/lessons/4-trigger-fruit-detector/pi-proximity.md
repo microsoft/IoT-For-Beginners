@@ -29,13 +29,13 @@ Grove senzor Time of Flight lahko povežete z Raspberry Pi.
 
 Povežite senzor Time of Flight.
 
-![Grove senzor Time of Flight](../../../../../translated_images/grove-time-of-flight-sensor.d82ff2165bfded9f485de54d8d07195a6270a602696825fca19f629ddfe94e86.sl.png)
+![Grove senzor Time of Flight](../../../../../translated_images/sl/grove-time-of-flight-sensor.d82ff2165bfded9f485de54d8d07195a6270a602696825fca19f629ddfe94e86.png)
 
 1. Vstavite en konec Grove kabla v priključek na senzorju Time of Flight. Kabel bo šel noter le v eni smeri.
 
 1. Ko je Raspberry Pi izklopljen, povežite drugi konec Grove kabla z enim od I²C priključkov, označenih z **I²C**, na Grove Base hat, ki je pritrjen na Pi. Ti priključki so v spodnji vrsti, na nasprotni strani od GPIO pinov in poleg reže za kabel kamere.
 
-![Grove senzor Time of Flight povezan z I²C priključkom](../../../../../translated_images/pi-time-of-flight-sensor.58c8dc04eb3bfb57.sl.png)
+![Grove senzor Time of Flight povezan z I²C priključkom](../../../../../translated_images/sl/pi-time-of-flight-sensor.58c8dc04eb3bfb57.png)
 
 ## Programirajte senzor Time of Flight
 
@@ -106,7 +106,7 @@ Programirajte napravo.
 
     Merilnik razdalje je na zadnji strani senzorja, zato poskrbite, da boste uporabili pravo stran pri merjenju razdalje.
 
-    ![Merilnik razdalje na zadnji strani senzorja Time of Flight, usmerjen proti banani](../../../../../translated_images/time-of-flight-banana.079921ad8b1496e4.sl.png)
+    ![Merilnik razdalje na zadnji strani senzorja Time of Flight, usmerjen proti banani](../../../../../translated_images/sl/time-of-flight-banana.079921ad8b1496e4.png)
 
 > 💁 To kodo lahko najdete v mapi [code-proximity/pi](../../../../../4-manufacturing/lessons/4-trigger-fruit-detector/code-proximity/pi).
 

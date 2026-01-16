@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Rozpoznávanie reči pomocou IoT zariadenia
 
-![Prehľad tejto lekcie vo forme sketchnote](../../../../../translated_images/lesson-21.e34de51354d6606fb5ee08d8c89d0222eea0a2a7aaf744a8805ae847c4f69dc4.sk.jpg)
+![Prehľad tejto lekcie vo forme sketchnote](../../../../../translated_images/sk/lesson-21.e34de51354d6606fb5ee08d8c89d0222eea0a2a7aaf744a8805ae847c4f69dc4.jpg)
 
 > Sketchnote od [Nitya Narasimhan](https://github.com/nitya). Kliknite na obrázok pre väčšiu verziu.
 
@@ -60,19 +60,19 @@ Mikrofóny existujú v rôznych typoch:
 
     Dynamické mikrofóny nepotrebujú na svoju činnosť napájanie, elektrický signál sa vytvára výlučne z mikrofónu.
 
-    ![Patti Smith spieva do mikrofónu Shure SM58 (dynamický typ kardioid)](../../../../../translated_images/dynamic-mic.8babac890a2d80dfb0874b5bf37d4b851fe2aeb9da6fd72945746176978bf3bb.sk.jpg)
+    ![Patti Smith spieva do mikrofónu Shure SM58 (dynamický typ kardioid)](../../../../../translated_images/sk/dynamic-mic.8babac890a2d80dfb0874b5bf37d4b851fe2aeb9da6fd72945746176978bf3bb.jpg)
 
 * Páskové - Páskové mikrofóny sú podobné dynamickým mikrofónom, ale namiesto membrány majú kovovú pásku. Táto páska sa pohybuje v magnetickom poli a generuje elektrický prúd. Rovnako ako dynamické mikrofóny, páskové mikrofóny nepotrebujú napájanie na svoju činnosť.
 
-    ![Edmund Lowe, americký herec, stojaci pri rádiovom mikrofóne (označený pre (NBC) Blue Network), držiaci scenár, 1942](../../../../../translated_images/ribbon-mic.eacc8e092c7441ca.sk.jpg)
+    ![Edmund Lowe, americký herec, stojaci pri rádiovom mikrofóne (označený pre (NBC) Blue Network), držiaci scenár, 1942](../../../../../translated_images/sk/ribbon-mic.eacc8e092c7441ca.jpg)
 
 * Kondenzátorové - Kondenzátorové mikrofóny majú tenkú kovovú membránu a pevný kovový zadný plát. Elektrina sa aplikuje na obe tieto časti a keď membrána vibruje, statický náboj medzi platňami sa mení a generuje signál. Kondenzátorové mikrofóny potrebujú na svoju činnosť napájanie - nazývané *Phantom power*.
 
-    ![C451B malý membránový kondenzátorový mikrofón od AKG Acoustics](../../../../../translated_images/condenser-mic.6f6ed5b76ca19e0ec3fd0c544601542d4479a6cb7565db336de49fbbf69f623e.sk.jpg)
+    ![C451B malý membránový kondenzátorový mikrofón od AKG Acoustics](../../../../../translated_images/sk/condenser-mic.6f6ed5b76ca19e0ec3fd0c544601542d4479a6cb7565db336de49fbbf69f623e.jpg)
 
 * MEMS - Mikrofóny na báze mikroelektromechanických systémov (MEMS) sú mikrofóny na čipe. Majú tlakovo citlivú membránu vyrytú na kremíkovom čipe a fungujú podobne ako kondenzátorové mikrofóny. Tieto mikrofóny môžu byť veľmi malé a integrované do obvodov.
 
-    ![MEMS mikrofón na obvodovej doske](../../../../../translated_images/mems-microphone.80574019e1f5e4d9ee72fed720ecd25a39fc2969c91355d17ebb24ba4159e4c4.sk.png)
+    ![MEMS mikrofón na obvodovej doske](../../../../../translated_images/sk/mems-microphone.80574019e1f5e4d9ee72fed720ecd25a39fc2969c91355d17ebb24ba4159e4c4.png)
 
     Na obrázku vyššie je čip označený **LEFT** MEMS mikrofón s malou membránou menšou ako milimeter.
 
@@ -84,7 +84,7 @@ Zvuk je analógový signál, ktorý nesie veľmi jemné informácie. Na prevod t
 
 > 🎓 Vzorkovanie je proces prevodu zvukového signálu na digitálnu hodnotu, ktorá reprezentuje signál v danom časovom okamihu.
 
-![Graf zobrazujúci signál s diskrétnymi bodmi v pevných intervaloch](../../../../../translated_images/sampling.6f4fadb3f2d9dfe7.sk.png)
+![Graf zobrazujúci signál s diskrétnymi bodmi v pevných intervaloch](../../../../../translated_images/sk/sampling.6f4fadb3f2d9dfe7.png)
 
 Digitálny zvuk sa vzorkuje pomocou Pulznej kódovej modulácie (PCM). PCM zahŕňa čítanie napätia signálu a výber najbližšej diskrétnej hodnoty k tomuto napätiu pomocou definovanej veľkosti.
 
@@ -168,7 +168,7 @@ Aby ste sa vyhli zložitosti trénovania a používania modelu na detekciu aktiv
 
 ## Prevod reči na text
 
-![Logo služieb reči](../../../../../translated_images/azure-speech-logo.a1f08c4befb0159f2cb5d692d3baf5b599e7b44759d316da907bda1508f46a4a.sk.png)
+![Logo služieb reči](../../../../../translated_images/sk/azure-speech-logo.a1f08c4befb0159f2cb5d692d3baf5b599e7b44759d316da907bda1508f46a4a.png)
 
 Rovnako ako pri klasifikácii obrázkov v predchádzajúcom projekte, existujú predpripravené AI služby, ktoré dokážu previesť reč ako zvukový súbor na text. Jednou z takýchto služieb je Speech Service, ktorá je súčasťou Cognitive Services, predpripravených AI služieb, ktoré môžete použiť vo svojich aplikáciách.
 

@@ -34,7 +34,7 @@ REST API сервиса речи не поддерживает прямой пе
     >
     > Например, если вы обучили LUIS на английском, но хотите использовать французский как язык пользователя, вы можете перевести фразы, такие как "set a 2 minute and 27 second timer", с английского на французский с помощью Bing Translate, а затем использовать кнопку **Listen translation**, чтобы произнести перевод в микрофон.
     >
-    > ![Кнопка прослушивания перевода в Bing Translate](../../../../../translated_images/bing-translate.348aa796d6efe2a92f41ea74a5cf42bb4c63d6faaa08e7f46924e072a35daa48.ru.png)
+    > ![Кнопка прослушивания перевода в Bing Translate](../../../../../translated_images/ru/bing-translate.348aa796d6efe2a92f41ea74a5cf42bb4c63d6faaa08e7f46924e072a35daa48.png)
 
 1. Добавьте ключ API переводчика ниже переменной `speech_api_key`:
 

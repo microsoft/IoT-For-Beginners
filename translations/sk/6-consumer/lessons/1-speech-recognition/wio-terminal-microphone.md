@@ -15,11 +15,11 @@ V tejto časti lekcie pridáte reproduktory k vášmu Wio Terminal. Wio Terminal
 
 Wio Terminal už má zabudovaný mikrofón, ktorý môžete použiť na zachytávanie zvuku pre rozpoznávanie reči.
 
-![Mikrofón na Wio Terminal](../../../../../translated_images/wio-mic.3f8c843dbe8ad917.sk.png)
+![Mikrofón na Wio Terminal](../../../../../translated_images/sk/wio-mic.3f8c843dbe8ad917.png)
 
 Na pridanie reproduktora môžete použiť [ReSpeaker 2-Mics Pi Hat](https://www.seeedstudio.com/ReSpeaker-2-Mics-Pi-HAT.html). Ide o externú dosku, ktorá obsahuje 2 MEMS mikrofóny, konektor na reproduktor a konektor na slúchadlá.
 
-![ReSpeaker 2-Mics Pi Hat](../../../../../translated_images/respeaker.f5d19d1c6b14ab16.sk.png)
+![ReSpeaker 2-Mics Pi Hat](../../../../../translated_images/sk/respeaker.f5d19d1c6b14ab16.png)
 
 Budete potrebovať pripojiť buď slúchadlá, reproduktor s 3,5mm jackom, alebo reproduktor s JST konektorom, ako napríklad [Mono Enclosed Speaker - 2W 6 Ohm](https://www.seeedstudio.com/Mono-Enclosed-Speaker-2W-6-Ohm-p-2832.html).
 
@@ -35,7 +35,7 @@ Budete tiež potrebovať SD kartu na sťahovanie a prehrávanie zvuku. Wio Termi
 
     Piny musia byť pripojené týmto spôsobom:
 
-    ![Schéma pinov](../../../../../translated_images/wio-respeaker-wiring-0.767f80aa65081038.sk.png)
+    ![Schéma pinov](../../../../../translated_images/sk/wio-respeaker-wiring-0.767f80aa65081038.png)
 
 1. Umiestnite ReSpeaker a Wio Terminal tak, aby GPIO konektory smerovali nahor a boli na ľavej strane.
 
@@ -43,33 +43,33 @@ Budete tiež potrebovať SD kartu na sťahovanie a prehrávanie zvuku. Wio Termi
 
 1. Pokračujte týmto spôsobom po celej ľavej strane GPIO konektorov. Uistite sa, že piny sú pevne zasunuté.
 
-    ![ReSpeaker s ľavými pinmi pripojenými k ľavým pinom Wio Terminal](../../../../../translated_images/wio-respeaker-wiring-1.8d894727f2ba2400.sk.png)
+    ![ReSpeaker s ľavými pinmi pripojenými k ľavým pinom Wio Terminal](../../../../../translated_images/sk/wio-respeaker-wiring-1.8d894727f2ba2400.png)
 
-    ![ReSpeaker s ľavými pinmi pripojenými k ľavým pinom Wio Terminal](../../../../../translated_images/wio-respeaker-wiring-2.329e1cbd306e754f.sk.png)
+    ![ReSpeaker s ľavými pinmi pripojenými k ľavým pinom Wio Terminal](../../../../../translated_images/sk/wio-respeaker-wiring-2.329e1cbd306e754f.png)
 
     > 💁 Ak sú vaše prepojovacie káble spojené do pásov, nechajte ich spolu - uľahčí to zabezpečenie správneho pripojenia všetkých káblov.
 
 1. Opakujte proces pomocou pravých GPIO konektorov na ReSpeaker a Wio Terminal. Tieto káble musia obísť už pripojené káble.
 
-    ![ReSpeaker s pravými pinmi pripojenými k pravým pinom Wio Terminal](../../../../../translated_images/wio-respeaker-wiring-3.75b0be447e2fa930.sk.png)
+    ![ReSpeaker s pravými pinmi pripojenými k pravým pinom Wio Terminal](../../../../../translated_images/sk/wio-respeaker-wiring-3.75b0be447e2fa930.png)
 
-    ![ReSpeaker s pravými pinmi pripojenými k pravým pinom Wio Terminal](../../../../../translated_images/wio-respeaker-wiring-4.aa9cd434d8779437.sk.png)
+    ![ReSpeaker s pravými pinmi pripojenými k pravým pinom Wio Terminal](../../../../../translated_images/sk/wio-respeaker-wiring-4.aa9cd434d8779437.png)
 
     > 💁 Ak sú vaše prepojovacie káble spojené do pásov, rozdeľte ich na dva pásy. Jeden preveďte na každú stranu existujúcich káblov.
 
     > 💁 Na upevnenie pinov do bloku môžete použiť lepiacu pásku, aby ste zabránili ich vypadnutiu počas pripojenia.
     >
-    > ![Piny upevnené páskou](../../../../../translated_images/wio-respeaker-wiring-5.af117c20acf622f3.sk.png)
+    > ![Piny upevnené páskou](../../../../../translated_images/sk/wio-respeaker-wiring-5.af117c20acf622f3.png)
 
 1. Budete musieť pridať reproduktor.
 
     * Ak používate reproduktor s JST káblom, pripojte ho k JST portu na ReSpeaker.
 
-      ![Reproduktor pripojený k ReSpeaker pomocou JST kábla](../../../../../translated_images/respeaker-jst-speaker.a441d177809df945.sk.png)
+      ![Reproduktor pripojený k ReSpeaker pomocou JST kábla](../../../../../translated_images/sk/respeaker-jst-speaker.a441d177809df945.png)
 
     * Ak používate reproduktor s 3,5mm jackom alebo slúchadlá, vložte ich do konektora 3,5mm jack.
 
-      ![Reproduktor pripojený k ReSpeaker cez konektor 3,5mm jack](../../../../../translated_images/respeaker-35mm-speaker.ad79ef4f128c7751.sk.png)
+      ![Reproduktor pripojený k ReSpeaker cez konektor 3,5mm jack](../../../../../translated_images/sk/respeaker-35mm-speaker.ad79ef4f128c7751.png)
 
 ### Úloha - nastavenie SD karty
 
@@ -79,7 +79,7 @@ Budete tiež potrebovať SD kartu na sťahovanie a prehrávanie zvuku. Wio Termi
 
 1. Vložte SD kartu do slotu na SD kartu na ľavej strane Wio Terminal, tesne pod tlačidlom napájania. Uistite sa, že karta je úplne zasunutá a zacvakne - možno budete potrebovať tenký nástroj alebo inú SD kartu na jej úplné zasunutie.
 
-    ![Vkladanie SD karty do slotu na SD kartu pod vypínačom](../../../../../translated_images/wio-sd-card.acdcbe322fa4ee7f.sk.png)
+    ![Vkladanie SD karty do slotu na SD kartu pod vypínačom](../../../../../translated_images/sk/wio-sd-card.acdcbe322fa4ee7f.png)
 
     > 💁 Na vysunutie SD karty ju musíte mierne zatlačiť, aby sa vysunula. Budete potrebovať tenký nástroj, ako je plochý skrutkovač alebo inú SD kartu.
 

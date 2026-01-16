@@ -27,13 +27,13 @@ Grove GPS-sensorn kan anslutas till Wio Terminal.
 
 Anslut GPS-sensorn.
 
-![En Grove GPS-sensor](../../../../../translated_images/grove-gps-sensor.247943bf69b03f0d1820ef6ed10c587f9b650e8db55b936851c92412180bd3e2.sv.png)
+![En Grove GPS-sensor](../../../../../translated_images/sv/grove-gps-sensor.247943bf69b03f0d1820ef6ed10c587f9b650e8db55b936851c92412180bd3e2.png)
 
 1. Sätt ena änden av en Grove-kabel i uttaget på GPS-sensorn. Den går bara att sätta i på ett sätt.
 
 1. Med Wio Terminal frånkopplad från din dator eller annan strömkälla, anslut den andra änden av Grove-kabeln till det vänstra Grove-uttaget på Wio Terminal när du tittar på skärmen. Detta är uttaget som är närmast strömknappen.
 
-    ![Grove GPS-sensorn ansluten till det vänstra uttaget](../../../../../translated_images/wio-gps-sensor.19fd52b81ce58095.sv.png)
+    ![Grove GPS-sensorn ansluten till det vänstra uttaget](../../../../../translated_images/sv/wio-gps-sensor.19fd52b81ce58095.png)
 
 1. Placera GPS-sensorn så att den anslutna antennen har fri sikt mot himlen - helst nära ett öppet fönster eller utomhus. Det är lättare att få en tydligare signal utan hinder för antennen.
 

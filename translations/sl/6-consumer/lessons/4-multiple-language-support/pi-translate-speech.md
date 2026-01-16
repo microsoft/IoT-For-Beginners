@@ -34,7 +34,7 @@ REST API storitve za govor ne podpira neposrednih prevodov, namesto tega lahko u
     >
     > Na primer, če trenirate LUIS v angleščini, vendar želite uporabiti francoščino kot uporabniški jezik, lahko prevedete stavke, kot je "nastavi 2 minuti in 27 sekundni časovnik", iz angleščine v francoščino z Bing Translate, nato pa uporabite gumb **Poslušaj prevod**, da izgovorite prevod v mikrofon.
     >
-    > ![Gumb poslušaj prevod na Bing Translate](../../../../../translated_images/bing-translate.348aa796d6efe2a92f41ea74a5cf42bb4c63d6faaa08e7f46924e072a35daa48.sl.png)
+    > ![Gumb poslušaj prevod na Bing Translate](../../../../../translated_images/sl/bing-translate.348aa796d6efe2a92f41ea74a5cf42bb4c63d6faaa08e7f46924e072a35daa48.png)
 
 1. Dodajte ključ API storitve Translator pod `speech_api_key`:
 

@@ -19,7 +19,7 @@ Den inbyggda mikrofonen fångar en analog signal som omvandlas till en digital s
 
 ✅ Läs mer om DMA på [Wikipedia-sidan om direktminnesåtkomst](https://wikipedia.org/wiki/Direct_memory_access).
 
-![Ljud från mikrofonen går till en ADC och sedan till DMAC. Detta skriver till en buffert. När denna buffert är full bearbetas den och DMAC skriver till en andra buffert](../../../../../translated_images/dmac-adc-buffers.4509aee49145c90bc2e1be472b8ed2ddfcb2b6a81ad3e559114aca55f5fff759.sv.png)
+![Ljud från mikrofonen går till en ADC och sedan till DMAC. Detta skriver till en buffert. När denna buffert är full bearbetas den och DMAC skriver till en andra buffert](../../../../../translated_images/sv/dmac-adc-buffers.4509aee49145c90bc2e1be472b8ed2ddfcb2b6a81ad3e559114aca55f5fff759.png)
 
 DMAC kan fånga ljud från ADC vid fasta intervall, till exempel 16 000 gånger per sekund för 16KHz-ljud. Den kan skriva denna inspelade data till en förallokerad minnesbuffert, och när denna är full görs den tillgänglig för din kod att bearbeta. Användning av detta minne kan fördröja ljudinspelningen, men du kan ställa in flera buffertar. DMAC skriver till buffert 1, och när den är full meddelar den din kod att bearbeta buffert 1, medan DMAC skriver till buffert 2. När buffert 2 är full meddelar den din kod och går tillbaka till att skriva till buffert 1. På så sätt, så länge du bearbetar varje buffert snabbare än det tar att fylla en, kommer du inte att förlora någon data.
 

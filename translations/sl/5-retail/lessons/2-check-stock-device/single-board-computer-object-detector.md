@@ -76,7 +76,7 @@ Koda, ki ste jo uporabili za razvrščanje slik, je zelo podobna kodi za zaznava
 
     Videli boste lahko sliko, ki je bila posneta, in te vrednosti v zavihku **Predictions** v Custom Vision.
 
-    ![4 pločevinke paradižnikove paste na polici z napovedmi za 4 zaznave: 35,8 %, 33,5 %, 25,7 % in 16,6 %](../../../../../translated_images/custom-vision-stock-prediction.942266ab1bcca3410ecdf23643b9f5f570cfab2345235074e24c51f285777613.sl.png)
+    ![4 pločevinke paradižnikove paste na polici z napovedmi za 4 zaznave: 35,8 %, 33,5 %, 25,7 % in 16,6 %](../../../../../translated_images/sl/custom-vision-stock-prediction.942266ab1bcca3410ecdf23643b9f5f570cfab2345235074e24c51f285777613.png)
 
 > 💁 To kodo lahko najdete v mapi [code-detect/pi](../../../../../5-retail/lessons/2-check-stock-device/code-detect/pi) ali [code-detect/virtual-iot-device](../../../../../5-retail/lessons/2-check-stock-device/code-detect/virtual-iot-device).
 

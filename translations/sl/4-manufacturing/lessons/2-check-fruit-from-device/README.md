@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Preverjanje kakovosti sadja z IoT napravo
 
-![Sketchnote pregled te lekcije](../../../../../translated_images/lesson-16.215daf18b00631fbdfd64c6fc2dc6044dff5d544288825d8076f9fb83d964c23.sl.jpg)
+![Sketchnote pregled te lekcije](../../../../../translated_images/sl/lesson-16.215daf18b00631fbdfd64c6fc2dc6044dff5d544288825d8076f9fb83d964c23.jpg)
 
 > Sketchnote avtorja [Nitya Narasimhan](https://github.com/nitya). Kliknite sliko za večjo različico.
 
@@ -35,7 +35,7 @@ V tej lekciji bomo obravnavali:
 
 Senzorji kamer, kot že ime pove, so kamere, ki jih lahko povežete z vašo IoT napravo. Lahko zajamejo statične slike ali snemajo video. Nekateri vrnejo surove podatke slike, drugi pa stisnejo podatke v slikovno datoteko, kot je JPEG ali PNG. Kamere, ki delujejo z IoT napravami, so običajno manjše in imajo nižjo ločljivost, kot ste jih vajeni, vendar lahko dobite tudi kamere z visoko ločljivostjo, ki se lahko kosajo z najboljšimi telefoni. Na voljo so različne zamenljive leče, večkamerne nastavitve, infrardeče termalne kamere ali UV kamere.
 
-![Svetloba iz prizora prehaja skozi lečo in se osredotoči na CMOS senzor](../../../../../translated_images/cmos-sensor.75f9cd74decb137149a4c9ea825251a4549497d67c0ae2776159e6102bb53aa9.sl.png)
+![Svetloba iz prizora prehaja skozi lečo in se osredotoči na CMOS senzor](../../../../../translated_images/sl/cmos-sensor.75f9cd74decb137149a4c9ea825251a4549497d67c0ae2776159e6102bb53aa9.png)
 
 Večina senzorjev kamer uporablja slikovne senzorje, kjer je vsak piksel fotodioda. Leča osredotoči sliko na slikovni senzor, tisoče ali milijone fotodiod pa zazna svetlobo, ki pada nanje, in jo zabeleži kot podatke o pikslih.
 
@@ -83,7 +83,7 @@ Iteracije se objavljajo iz portala Custom Vision.
 
 1. Kliknite gumb **Publish** za iteracijo.
 
-    ![Gumb za objavo](../../../../../translated_images/custom-vision-publish-button.b7174e1977b0c33b8b72d4e5b1326c779e0af196f3849d09985ee2d7d5493a39.sl.png)
+    ![Gumb za objavo](../../../../../translated_images/sl/custom-vision-publish-button.b7174e1977b0c33b8b72d4e5b1326c779e0af196f3849d09985ee2d7d5493a39.png)
 
 1. V pogovornem oknu *Publish Model* nastavite *Prediction resource* na vir `fruit-quality-detector-prediction`, ki ste ga ustvarili v prejšnji lekciji. Pustite ime kot `Iteration2` in kliknite gumb **Publish**.
 
@@ -97,7 +97,7 @@ Iteracije se objavljajo iz portala Custom Vision.
 
     Prav tako kopirajte vrednost *Prediction-Key*. To je varnostni ključ, ki ga morate posredovati, ko kličete model. Samo aplikacije, ki posredujejo ta ključ, lahko uporabljajo model, vse druge aplikacije so zavrnjene.
 
-    ![Pogovorno okno napovednega API-ja, ki prikazuje URL in ključ](../../../../../translated_images/custom-vision-prediction-key-endpoint.30c569ffd0338864f319911f052d5e9b8c5066cb0800a26dd6f7ff5713130ad8.sl.png)
+    ![Pogovorno okno napovednega API-ja, ki prikazuje URL in ključ](../../../../../translated_images/sl/custom-vision-prediction-key-endpoint.30c569ffd0338864f319911f052d5e9b8c5066cb0800a26dd6f7ff5713130ad8.png)
 
 ✅ Ko je nova iteracija objavljena, bo imela drugačno ime. Kako mislite, da bi spremenili iteracijo, ki jo uporablja IoT naprava?
 
@@ -118,7 +118,7 @@ Morda boste ugotovili, da rezultati, ki jih dobite pri uporabi kamere, povezane 
 
 Za najboljše rezultate klasifikatorja slik želite model trenirati s slikami, ki so čim bolj podobne slikam, uporabljenim za napovedi. Če ste na primer za treniranje uporabili kamero telefona, se kakovost slike, ostrina in barve razlikujejo od kamere, povezane z IoT napravo.
 
-![2 slike banan, ena z nizko ločljivostjo in slabšo osvetlitvijo z IoT naprave, druga z visoko ločljivostjo in dobro osvetlitvijo s telefonom](../../../../../translated_images/banana-picture-compare.174df164dc326a42cf7fb051a7497e6113c620e91552d92ca914220305d47d9a.sl.png)
+![2 slike banan, ena z nizko ločljivostjo in slabšo osvetlitvijo z IoT naprave, druga z visoko ločljivostjo in dobro osvetlitvijo s telefonom](../../../../../translated_images/sl/banana-picture-compare.174df164dc326a42cf7fb051a7497e6113c620e91552d92ca914220305d47d9a.png)
 
 Na zgornji sliki je slika banane na levi posneta z Raspberry Pi kamero, slika na desni pa z iPhone-om. Opazna je razlika v kakovosti – slika z iPhone-a je ostrejša, z živahnejšimi barvami in večjim kontrastom.
 

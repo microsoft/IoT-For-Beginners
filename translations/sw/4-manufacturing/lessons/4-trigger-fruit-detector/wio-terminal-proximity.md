@@ -29,13 +29,13 @@ Kihisi cha Grove Time of Flight kinaweza kuunganishwa na Wio Terminal.
 
 Unganisha kihisi cha Time of Flight.
 
-![Kihisi cha Grove Time of Flight](../../../../../translated_images/grove-time-of-flight-sensor.d82ff2165bfded9f485de54d8d07195a6270a602696825fca19f629ddfe94e86.sw.png)
+![Kihisi cha Grove Time of Flight](../../../../../translated_images/sw/grove-time-of-flight-sensor.d82ff2165bfded9f485de54d8d07195a6270a602696825fca19f629ddfe94e86.png)
 
 1. Ingiza mwisho mmoja wa kebo ya Grove kwenye soketi ya kihisi cha Time of Flight. Itaingia kwa mwelekeo mmoja tu.
 
 1. Ukiwa umeondoa Wio Terminal kutoka kwa kompyuta yako au chanzo kingine cha umeme, unganisha mwisho mwingine wa kebo ya Grove kwenye soketi ya upande wa kushoto ya Wio Terminal unapoangalia skrini. Hii ni soketi iliyo karibu zaidi na kitufe cha kuwasha. Hii ni soketi ya pamoja ya dijitali na I2C.
 
-![Kihisi cha Grove Time of Flight kimeunganishwa kwenye soketi ya upande wa kushoto](../../../../../translated_images/wio-time-of-flight-sensor.c4c182131d2ea73d.sw.png)
+![Kihisi cha Grove Time of Flight kimeunganishwa kwenye soketi ya upande wa kushoto](../../../../../translated_images/sw/wio-time-of-flight-sensor.c4c182131d2ea73d.png)
 
 1. Sasa unaweza kuunganisha Wio Terminal kwenye kompyuta yako.
 
@@ -101,7 +101,7 @@ Sasa Wio Terminal inaweza kupangwa kutumia kihisi cha Time of Flight kilichounga
 
     Kipima umbali kipo nyuma ya kihisi, kwa hivyo hakikisha unatumia upande sahihi unapopima umbali.
 
-    ![Kipima umbali kilicho nyuma ya kihisi cha Time of Flight kikielekezwa kwenye ndizi](../../../../../translated_images/time-of-flight-banana.079921ad8b1496e4.sw.png)
+    ![Kipima umbali kilicho nyuma ya kihisi cha Time of Flight kikielekezwa kwenye ndizi](../../../../../translated_images/sw/time-of-flight-banana.079921ad8b1496e4.png)
 
 > 💁 Unaweza kupata msimbo huu kwenye folda ya [code-proximity/wio-terminal](../../../../../4-manufacturing/lessons/4-trigger-fruit-detector/code-proximity/wio-terminal).
 

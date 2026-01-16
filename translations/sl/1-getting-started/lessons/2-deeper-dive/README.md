@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Poglobljen pogled v IoT
 
-![Sketchnote pregled te lekcije](../../../../../translated_images/lesson-2.324b0580d620c25e0a24fb7fddfc0b29a846dd4b82c08e7a9466d580ee78ce51.sl.jpg)
+![Sketchnote pregled te lekcije](../../../../../translated_images/sl/lesson-2.324b0580d620c25e0a24fb7fddfc0b29a846dd4b82c08e7a9466d580ee78ce51.jpg)
 
 > Sketchnote avtorja [Nitya Narasimhan](https://github.com/nitya). Kliknite na sliko za večjo različico.
 
@@ -41,13 +41,13 @@ Dve glavni komponenti IoT aplikacije sta *Internet* in *stvar*. Poglejmo si ti d
 
 ### Stvar
 
-![Raspberry Pi 4](../../../../../translated_images/raspberry-pi-4.fd4590d308c3d456.sl.jpg)
+![Raspberry Pi 4](../../../../../translated_images/sl/raspberry-pi-4.fd4590d308c3d456.jpg)
 
 **Stvar** v IoT se nanaša na napravo, ki lahko komunicira s fizičnim svetom. Te naprave so običajno majhni, cenovno ugodni računalniki, ki delujejo pri nizkih hitrostih in porabijo malo energije - na primer preprosti mikrokrmilniki z nekaj kilobajti RAM-a (v primerjavi z gigabajti v osebnem računalniku), ki delujejo le pri nekaj sto megahercih (v primerjavi z gigaherci v osebnem računalniku), vendar porabijo tako malo energije, da lahko delujejo tedne, mesece ali celo leta na baterijah.
 
 Te naprave komunicirajo s fizičnim svetom bodisi z uporabo senzorjev za zbiranje podatkov iz okolice bodisi z nadzorovanjem izhodov ali aktuatorjev za izvajanje fizičnih sprememb. Tipičen primer je pametni termostat - naprava, ki ima temperaturni senzor, način za nastavitev želene temperature, kot je vrtljivi gumb ali zaslon na dotik, in povezavo s sistemom za ogrevanje ali hlajenje, ki se lahko vklopi, ko zaznana temperatura ni v želenem območju. Temperaturni senzor zazna, da je prostor prehladen, in aktuator vklopi ogrevanje.
 
-![Diagram, ki prikazuje temperaturo in vrtljivi gumb kot vhodne podatke za IoT napravo ter nadzor grelnika kot izhod](../../../../../translated_images/basic-thermostat.a923217fd1f37e5a6f3390396a65c22a387419ea2dd17e518ec24315ba6ae9a8.sl.png)
+![Diagram, ki prikazuje temperaturo in vrtljivi gumb kot vhodne podatke za IoT napravo ter nadzor grelnika kot izhod](../../../../../translated_images/sl/basic-thermostat.a923217fd1f37e5a6f3390396a65c22a387419ea2dd17e518ec24315ba6ae9a8.png)
 
 Obstaja ogromno različnih stvari, ki lahko delujejo kot IoT naprave, od namenskih naprav za zaznavanje ene stvari do naprav splošnega namena, celo vaš pametni telefon! Pametni telefon lahko uporablja senzorje za zaznavanje sveta okoli sebe in aktuatorje za interakcijo s svetom - na primer z uporabo GPS senzorja za zaznavanje vaše lokacije in zvočnika za navigacijska navodila do cilja.
 
@@ -63,11 +63,11 @@ Naprave se ne povezujejo vedno neposredno z internetom prek WiFi ali žičnih po
 
 V primeru pametnega termostata bi se termostat povezal prek domačega WiFi z oblačno storitvijo. Pošiljal bi podatke o temperaturi tej storitvi v oblaku, od tam pa bi bili zapisani v neko bazo podatkov, ki bi omogočala lastniku doma preverjanje trenutnih in preteklih temperatur prek aplikacije na telefonu. Druga storitev v oblaku bi vedela, kakšno temperaturo si lastnik želi, in pošiljala sporočila nazaj IoT napravi prek oblačne storitve, da bi ogrevalni sistem vklopila ali izklopila.
 
-![Diagram, ki prikazuje temperaturo in vrtljivi gumb kot vhodne podatke za IoT napravo, IoT napravo z dvosmerno komunikacijo z oblakom, ki ima dvosmerno komunikacijo s telefonom, ter nadzor grelnika kot izhod iz IoT naprave](../../../../../translated_images/mobile-controlled-thermostat.4a994010473d8d6a52ba68c67e5f02dc8928c717e93ca4b9bc55525aa75bbb60.sl.png)
+![Diagram, ki prikazuje temperaturo in vrtljivi gumb kot vhodne podatke za IoT napravo, IoT napravo z dvosmerno komunikacijo z oblakom, ki ima dvosmerno komunikacijo s telefonom, ter nadzor grelnika kot izhod iz IoT naprave](../../../../../translated_images/sl/mobile-controlled-thermostat.4a994010473d8d6a52ba68c67e5f02dc8928c717e93ca4b9bc55525aa75bbb60.png)
 
 Še pametnejša različica bi lahko uporabljala AI v oblaku z podatki iz drugih senzorjev, povezanih z drugimi IoT napravami, kot so senzorji za zaznavanje prisotnosti, ki zaznavajo, katere sobe se uporabljajo, ter podatki, kot so vremenski podatki in celo vaš koledar, za sprejemanje odločitev o pametnem nastavljanju temperature. Na primer, lahko bi izklopila ogrevanje, če bi iz vašega koledarja prebrala, da ste na dopustu, ali pa bi izklopila ogrevanje po sobah glede na to, katere sobe uporabljate, pri čemer bi se učila iz podatkov, da bi bila sčasoma vedno bolj natančna.
 
-![Diagram, ki prikazuje več temperaturnih senzorjev in vrtljivi gumb kot vhodne podatke za IoT napravo, IoT napravo z dvosmerno komunikacijo z oblakom, ki ima dvosmerno komunikacijo s telefonom, koledarjem in vremensko storitvijo, ter nadzor grelnika kot izhod iz IoT naprave](../../../../../translated_images/smarter-thermostat.a75855f15d2d9e63.sl.png)
+![Diagram, ki prikazuje več temperaturnih senzorjev in vrtljivi gumb kot vhodne podatke za IoT napravo, IoT napravo z dvosmerno komunikacijo z oblakom, ki ima dvosmerno komunikacijo s telefonom, koledarjem in vremensko storitvijo, ter nadzor grelnika kot izhod iz IoT naprave](../../../../../translated_images/sl/smarter-thermostat.a75855f15d2d9e63.png)
 
 ✅ Katere druge podatke bi lahko uporabili za pametnejši internetno povezan termostat?
 
@@ -103,7 +103,7 @@ Hitrejši kot je cikel ure, več navodil lahko CPU obdela vsako sekundo in zato 
 
 > 💁 CPU-ji izvajajo programe z uporabo [cikla pridobivanja-dekodiranja-izvajanja](https://wikipedia.org/wiki/Instruction_cycle). Za vsak tik ure CPU pridobi naslednje navodilo iz pomnilnika, ga dekodira in nato izvede, na primer z uporabo aritmetično-logične enote (ALU) za seštevanje dveh števil. Nekatera izvajanja trajajo več tikov, zato se naslednji cikel izvede ob naslednjem tiku po zaključku navodila.
 
-![Cikli pridobivanja-dekodiranja-izvajanja, ki prikazujejo pridobivanje navodila iz programa, shranjenega v RAM-u, nato dekodiranje in izvajanje na CPU-ju](../../../../../translated_images/fetch-decode-execute.2fd6f150f6280392807f4475382319abd0cee0b90058e1735444d6baa6f2078c.sl.png)
+![Cikli pridobivanja-dekodiranja-izvajanja, ki prikazujejo pridobivanje navodila iz programa, shranjenega v RAM-u, nato dekodiranje in izvajanje na CPU-ju](../../../../../translated_images/sl/fetch-decode-execute.2fd6f150f6280392807f4475382319abd0cee0b90058e1735444d6baa6f2078c.png)
 
 Mikrokrmilniki imajo veliko nižje hitrosti ure kot namizni ali prenosni računalniki ali celo večina pametnih telefonov. Na primer, Wio Terminal ima CPU, ki deluje pri 120MHz ali 120.000.000 ciklov na sekundo.
 
@@ -135,7 +135,7 @@ Tako kot pri CPU je pomnilnik na mikrokrmilniku za več velikostnih razredov man
 
 Spodnji diagram prikazuje relativno razliko v velikosti med 192KB in 8GB - majhna pika v sredini predstavlja 192KB.
 
-![Primerjava med 192KB in 8GB - več kot 40.000-krat večje](../../../../../translated_images/ram-comparison.6beb73541b42ac6f.sl.png)
+![Primerjava med 192KB in 8GB - več kot 40.000-krat večje](../../../../../translated_images/sl/ram-comparison.6beb73541b42ac6f.png)
 
 Shranjevanje programov je prav tako manjše kot na PC-ju. Tipičen PC ima lahko 500GB trdi disk za shranjevanje programov, medtem ko ima mikrokrmilnik le kilobajte ali morda nekaj megabajtov (MB) prostora (1MB je 1.000KB, ali 1.000.000 bajtov). Wio terminal ima 4MB prostora za shranjevanje programov.
 
@@ -191,7 +191,7 @@ Arduino plošče se programirajo v C ali C++. Uporaba C/C++ omogoča, da se vaš
 
 V funkciji `setup` bi napisali začetno kodo, kot je povezovanje z WiFi-jem in storitvami v oblaku ali inicializacija pinov za vhod in izhod. Vaša koda v funkciji `loop` bi nato vsebovala procesno kodo, kot je branje senzorja in pošiljanje vrednosti v oblak. Običajno bi dodali zamik v vsakem zanki, na primer, če želite, da se podatki senzorja pošiljajo vsakih 10 sekund, bi na koncu zanke dodali zamik 10 sekund, da mikrokrmilnik lahko spi, prihrani energijo, nato pa ponovno zažene zanko, ko je potrebno.
 
-![Skica Arduino, ki najprej izvaja setup, nato pa neprekinjeno izvaja loop](../../../../../translated_images/arduino-sketch.79590cb837ff7a7c6a68d1afda6cab83fd53d3bb1bd9a8bf2eaf8d693a4d3ea6.sl.png)
+![Skica Arduino, ki najprej izvaja setup, nato pa neprekinjeno izvaja loop](../../../../../translated_images/sl/arduino-sketch.79590cb837ff7a7c6a68d1afda6cab83fd53d3bb1bd9a8bf2eaf8d693a4d3ea6.png)
 
 ✅ Ta arhitektura programa je znana kot *zanka dogodkov* ali *zanka sporočil*. Veliko aplikacij uporablja to v ozadju in je standard za večino namiznih aplikacij, ki delujejo na OS-ih, kot so Windows, macOS ali Linux. Funkcija `loop` posluša sporočila iz komponent uporabniškega vmesnika, kot so gumbi, ali naprav, kot je tipkovnica, in se nanje odziva. Več o tem lahko preberete v [članku o zanki dogodkov](https://wikipedia.org/wiki/Event_loop).
 
@@ -211,17 +211,17 @@ V prejšnji lekciji smo predstavili enobočne računalnike. Zdaj si jih poglejmo
 
 ### Raspberry Pi
 
-![Logotip Raspberry Pi](../../../../../translated_images/raspberry-pi-logo.4efaa16605cee054.sl.png)
+![Logotip Raspberry Pi](../../../../../translated_images/sl/raspberry-pi-logo.4efaa16605cee054.png)
 
 [Raspberry Pi Foundation](https://www.raspberrypi.org) je dobrodelna organizacija iz Združenega kraljestva, ustanovljena leta 2009 za spodbujanje študija računalništva, zlasti na šolski ravni. Kot del te misije so razvili enobočni računalnik, imenovan Raspberry Pi. Raspberry Pi-ji so trenutno na voljo v 3 različicah - polne velikosti, manjši Pi Zero in računalniški modul, ki ga lahko vgradite v svojo končno IoT napravo.
 
-![Raspberry Pi 4](../../../../../translated_images/raspberry-pi-4.fd4590d308c3d456.sl.jpg)
+![Raspberry Pi 4](../../../../../translated_images/sl/raspberry-pi-4.fd4590d308c3d456.jpg)
 
 Najbolj nova iteracija polne velikosti Raspberry Pi je Raspberry Pi 4B. Ta ima štirijedrni (4 jedra) CPU, ki deluje pri 1.5GHz, 2, 4 ali 8GB RAM-a, gigabitni ethernet, WiFi, 2 HDMI porta, ki podpirata 4k zaslone, avdio in kompozitni video izhodni port, USB porte (2 USB 2.0, 2 USB 3.0), 40 GPIO pinov, priključek za kamero za modul kamere Raspberry Pi in režo za SD kartico. Vse to na plošči, ki meri 88mm x 58mm x 19.5mm in jo napaja 3A USB-C napajalnik. Cena se začne pri 35 USD, kar je veliko ceneje kot PC ali Mac.
 
 > 💁 Obstaja tudi Pi400, vse-v-enem računalnik z vgrajenim Pi4 v tipkovnici.
 
-![Raspberry Pi Zero](../../../../../translated_images/raspberry-pi-zero.f7a4133e1e7d54bb.sl.jpg)
+![Raspberry Pi Zero](../../../../../translated_images/sl/raspberry-pi-zero.f7a4133e1e7d54bb.jpg)
 
 Pi Zero je veliko manjši, z nižjo porabo energije. Ima enojedrni 1GHz CPU, 512MB RAM-a, WiFi (v modelu Zero W), en HDMI port, mikro-USB port, 40 GPIO pinov, priključek za kamero za modul kamere Raspberry Pi in režo za SD kartico. Meri 65mm x 30mm x 5mm in porabi zelo malo energije. Zero stane 5 USD, medtem ko različica W z WiFi stane 10 USD.
 

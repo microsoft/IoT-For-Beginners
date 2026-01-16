@@ -25,13 +25,13 @@ Senzorul de lumină Grove utilizat pentru detectarea nivelurilor de lumină treb
 
 Conectează senzorul de lumină.
 
-![Un senzor de lumină Grove](../../../../../translated_images/grove-light-sensor.b8127b7c434e632d6bcdb57587a14e9ef69a268a22df95d08628f62b8fa5505c.ro.png)
+![Un senzor de lumină Grove](../../../../../translated_images/ro/grove-light-sensor.b8127b7c434e632d6bcdb57587a14e9ef69a268a22df95d08628f62b8fa5505c.png)
 
 1. Introdu un capăt al unui cablu Grove în soclul modulului senzorului de lumină. Acesta va intra doar într-un singur mod.
 
 1. Cu Raspberry Pi-ul oprit, conectează celălalt capăt al cablului Grove la soclul analogic marcat **A0** de pe Grove Base hat atașat la Pi. Acest soclu este al doilea din dreapta, pe rândul de socluri de lângă pini GPIO.
 
-![Senzorul de lumină Grove conectat la soclul A0](../../../../../translated_images/pi-light-sensor.66cc1e31fa48cd7d5f23400d4b2119aa41508275cb7c778053a7923b4e972d7e.ro.png)
+![Senzorul de lumină Grove conectat la soclul A0](../../../../../translated_images/ro/pi-light-sensor.66cc1e31fa48cd7d5f23400d4b2119aa41508275cb7c778053a7923b4e972d7e.png)
 
 ## Programează senzorul de lumină
 

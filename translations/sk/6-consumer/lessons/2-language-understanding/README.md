@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Pochopiť jazyk
 
-![Prehľad tejto lekcie vo forme sketchnote](../../../../../translated_images/lesson-22.6148ea28500d9e00c396aaa2649935fb6641362c8f03d8e5e90a676977ab01dd.sk.jpg)
+![Prehľad tejto lekcie vo forme sketchnote](../../../../../translated_images/sk/lesson-22.6148ea28500d9e00c396aaa2649935fb6641362c8f03d8e5e90a676977ab01dd.jpg)
 
 > Sketchnote od [Nitya Narasimhan](https://github.com/nitya). Kliknite na obrázok pre väčšiu verziu.
 
@@ -55,7 +55,7 @@ Modely na porozumenie jazyka sú AI modely, ktoré sú trénované na extrahovan
 
 ## Vytvorenie modelu na porozumenie jazyka
 
-![Logo LUIS](../../../../../translated_images/luis-logo.5cb4f3e88c020ee6df4f614e8831f4a4b6809a7247bf52085fb48d629ef9be52.sk.png)
+![Logo LUIS](../../../../../translated_images/sk/luis-logo.5cb4f3e88c020ee6df4f614e8831f4a4b6809a7247bf52085fb48d629ef9be52.png)
 
 Modely na porozumenie jazyka môžete vytvárať pomocou LUIS, služby na porozumenie jazyka od Microsoftu, ktorá je súčasťou Cognitive Services.
 
@@ -126,7 +126,7 @@ Keď sú entity definované, vytvoríte zámery. Tie sa model učí na základe 
 
 Potom LUISu poviete, ktoré časti týchto viet zodpovedajú entitám:
 
-![Veta „nastav časovač na 1 minútu a 12 sekúnd“ rozdelená na entity](../../../../../translated_images/sentence-as-intent-entities.301401696f992259.sk.png)
+![Veta „nastav časovač na 1 minútu a 12 sekúnd“ rozdelená na entity](../../../../../translated_images/sk/sentence-as-intent-entities.301401696f992259.png)
 
 Veta `nastav časovač na 1 minútu a 12 sekúnd` má zámer `nastaviť časovač`. Má tiež 2 entity s 2 hodnotami každá:
 
@@ -178,7 +178,7 @@ Pokyny na používanie portálu LUIS nájdete v [dokumentácii Quickstart: Build
 
 1. Pri zadávaní každého príkladu začne LUIS detekovať entity a podčiarkne a označí tie, ktoré nájde.
 
-    ![Príklady s podčiarknutými číslami a jednotkami času detekovanými LUIS](../../../../../translated_images/luis-intent-examples.25716580b2d2723cf1bafdf277d015c7f046d8cfa20f27bddf3a0873ec45fab7.sk.png)
+    ![Príklady s podčiarknutými číslami a jednotkami času detekovanými LUIS](../../../../../translated_images/sk/luis-intent-examples.25716580b2d2723cf1bafdf277d015c7f046d8cfa20f27bddf3a0873ec45fab7.png)
 
 ### Úloha – trénovanie a testovanie modelu
 

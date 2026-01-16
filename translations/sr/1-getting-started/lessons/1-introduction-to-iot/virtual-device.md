@@ -154,11 +154,11 @@ Hello World апликација за виртуелни IoT хардвер ће
 
 1. Када се VS Code покрене, активираће Python виртуелно окружење. Изабрано виртуелно окружење ће се појавити у доњој статусној траци:
 
-    ![VS Code приказује изабрано виртуелно окружење](../../../../../translated_images/vscode-virtual-env.8ba42e04c3d533cf.sr.png)
+    ![VS Code приказује изабрано виртуелно окружење](../../../../../translated_images/sr/vscode-virtual-env.8ba42e04c3d533cf.png)
 
 1. Ако је VS Code терминал већ покренут када се VS Code стартује, виртуелно окружење неће бити активирано у њему. Најлакше је угасити терминал користећи дугме **Kill the active terminal instance**:
 
-    ![VS Code дугме за гашење активног терминала](../../../../../translated_images/vscode-kill-terminal.1cc4de7c6f25ee08.sr.png)
+    ![VS Code дугме за гашење активног терминала](../../../../../translated_images/sr/vscode-kill-terminal.1cc4de7c6f25ee08.png)
 
     Можете проверити да ли је терминал активирао виртуелно окружење тако што ће име виртуелног окружења бити префикс на терминалском промпту. На пример, може бити:
 
@@ -212,7 +212,7 @@ Hello World апликација за виртуелни IoT хардвер ће
 
     Апликација ће почети са радом и отворити се у вашем веб прегледачу:
 
-    ![CounterFit апликација покренута у прегледачу](../../../../../translated_images/counterfit-first-run.433326358b669b31d0e99c3513cb01bfbb13724d162c99cdcc8f51ecf5f9c779.sr.png)
+    ![CounterFit апликација покренута у прегледачу](../../../../../translated_images/sr/counterfit-first-run.433326358b669b31d0e99c3513cb01bfbb13724d162c99cdcc8f51ecf5f9c779.png)
 
     Биће означена као *Disconnected*, са искљученим LED-ом у горњем десном углу.
 
@@ -229,11 +229,11 @@ Hello World апликација за виртуелни IoT хардвер ће
 
 1. Биће потребно да покренете нови VS Code терминал одабиром дугмета **Create a new integrated terminal**. Ово је зато што CounterFit апликација ради у тренутном терминалу.
 
-    ![VS Code дугме за креирање новог интегрисаног терминала](../../../../../translated_images/vscode-new-terminal.77db8fc0f9cd3182.sr.png)
+    ![VS Code дугме за креирање новог интегрисаног терминала](../../../../../translated_images/sr/vscode-new-terminal.77db8fc0f9cd3182.png)
 
 1. У овом новом терминалу, покрените `app.py` датотеку као и раније. Статус CounterFit-а ће се променити у **Connected** и LED ће се упалити.
 
-    ![CounterFit приказује статус као повезан](../../../../../translated_images/counterfit-connected.ed30b46d8f79b0921f3fc70be10366e596a89dca3f80c2224a9d9fc98fccf884.sr.png)
+    ![CounterFit приказује статус као повезан](../../../../../translated_images/sr/counterfit-connected.ed30b46d8f79b0921f3fc70be10366e596a89dca3f80c2224a9d9fc98fccf884.png)
 
 > 💁 Овај код можете пронаћи у [code/virtual-device](../../../../../1-getting-started/lessons/1-introduction-to-iot/code/virtual-device) фасцикли.
 

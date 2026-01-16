@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Recunoașterea vorbirii cu un dispozitiv IoT
 
-![O prezentare grafică a lecției](../../../../../translated_images/lesson-21.e34de51354d6606fb5ee08d8c89d0222eea0a2a7aaf744a8805ae847c4f69dc4.ro.jpg)
+![O prezentare grafică a lecției](../../../../../translated_images/ro/lesson-21.e34de51354d6606fb5ee08d8c89d0222eea0a2a7aaf744a8805ae847c4f69dc4.jpg)
 
 > Prezentare grafică realizată de [Nitya Narasimhan](https://github.com/nitya). Click pe imagine pentru o versiune mai mare.
 
@@ -60,19 +60,19 @@ Microfoanele vin într-o varietate de tipuri:
 
     Microfoanele dinamice nu au nevoie de alimentare pentru a funcționa, semnalul electric este creat în întregime de microfon.
 
-    ![Patti Smith cântând la un microfon Shure SM58 (tip cardioid dinamic)](../../../../../translated_images/dynamic-mic.8babac890a2d80dfb0874b5bf37d4b851fe2aeb9da6fd72945746176978bf3bb.ro.jpg)
+    ![Patti Smith cântând la un microfon Shure SM58 (tip cardioid dinamic)](../../../../../translated_images/ro/dynamic-mic.8babac890a2d80dfb0874b5bf37d4b851fe2aeb9da6fd72945746176978bf3bb.jpg)
 
 * Ribbon - Microfoanele cu panglică sunt similare cu microfoanele dinamice, cu excepția faptului că au o panglică metalică în loc de diafragmă. Această panglică se mișcă într-un câmp magnetic, generând un curent electric. La fel ca microfoanele dinamice, microfoanele cu panglică nu au nevoie de alimentare pentru a funcționa.
 
-    ![Edmund Lowe, actor american, stând la un microfon de radio (marcat pentru rețeaua Blue Network NBC), ținând un scenariu, 1942](../../../../../translated_images/ribbon-mic.eacc8e092c7441ca.ro.jpg)
+    ![Edmund Lowe, actor american, stând la un microfon de radio (marcat pentru rețeaua Blue Network NBC), ținând un scenariu, 1942](../../../../../translated_images/ro/ribbon-mic.eacc8e092c7441ca.jpg)
 
 * Condensator - Microfoanele cu condensator au o diafragmă metalică subțire și o placă metalică fixă. Electricitatea este aplicată ambelor, iar pe măsură ce diafragma vibrează, sarcina statică dintre plăci se modifică, generând un semnal. Microfoanele cu condensator au nevoie de alimentare pentru a funcționa - numită *Phantom power*.
 
-    ![Microfon cu condensator cu diafragmă mică C451B de la AKG Acoustics](../../../../../translated_images/condenser-mic.6f6ed5b76ca19e0ec3fd0c544601542d4479a6cb7565db336de49fbbf69f623e.ro.jpg)
+    ![Microfon cu condensator cu diafragmă mică C451B de la AKG Acoustics](../../../../../translated_images/ro/condenser-mic.6f6ed5b76ca19e0ec3fd0c544601542d4479a6cb7565db336de49fbbf69f623e.jpg)
 
 * MEMS - Microfoanele cu sisteme microelectromecanice, sau MEMS, sunt microfoane pe un cip. Acestea au o diafragmă sensibilă la presiune gravată pe un cip de siliciu și funcționează similar cu un microfon cu condensator. Aceste microfoane pot fi foarte mici și integrate în circuite.
 
-    ![Un microfon MEMS pe o placă de circuit](../../../../../translated_images/mems-microphone.80574019e1f5e4d9ee72fed720ecd25a39fc2969c91355d17ebb24ba4159e4c4.ro.png)
+    ![Un microfon MEMS pe o placă de circuit](../../../../../translated_images/ro/mems-microphone.80574019e1f5e4d9ee72fed720ecd25a39fc2969c91355d17ebb24ba4159e4c4.png)
 
     În imaginea de mai sus, cipul marcat **LEFT** este un microfon MEMS, cu o diafragmă minusculă mai mică de un milimetru lățime.
 
@@ -84,7 +84,7 @@ Audio-ul este un semnal analogic care transportă informații foarte detaliate. 
 
 > 🎓 Eșantionarea înseamnă convertirea semnalului audio într-o valoare digitală care reprezintă semnalul în acel moment.
 
-![Un grafic liniar care arată un semnal, cu puncte discrete la intervale fixe](../../../../../translated_images/sampling.6f4fadb3f2d9dfe7.ro.png)
+![Un grafic liniar care arată un semnal, cu puncte discrete la intervale fixe](../../../../../translated_images/ro/sampling.6f4fadb3f2d9dfe7.png)
 
 Audio-ul digital este eșantionat folosind Modularea Codului de Puls, sau PCM. PCM implică citirea tensiunii semnalului și selectarea celei mai apropiate valori discrete de acea tensiune folosind o dimensiune definită.
 
@@ -168,7 +168,7 @@ Pentru a evita complexitatea antrenării și utilizării unui model de cuvânt d
 
 ## Conversia vorbirii în text
 
-![Logo-ul serviciilor de vorbire](../../../../../translated_images/azure-speech-logo.a1f08c4befb0159f2cb5d692d3baf5b599e7b44759d316da907bda1508f46a4a.ro.png)
+![Logo-ul serviciilor de vorbire](../../../../../translated_images/ro/azure-speech-logo.a1f08c4befb0159f2cb5d692d3baf5b599e7b44759d316da907bda1508f46a4a.png)
 
 La fel ca în cazul clasificării imaginilor dintr-un proiect anterior, există servicii AI predefinite care pot lua vorbirea ca fișier audio și o pot converti în text. Un astfel de serviciu este Speech Service, parte din Cognitive Services, servicii AI predefinite pe care le poți folosi în aplicațiile tale.
 

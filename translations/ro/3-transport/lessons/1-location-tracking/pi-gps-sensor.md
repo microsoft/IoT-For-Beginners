@@ -27,13 +27,13 @@ Senzorul Grove GPS poate fi conectat la Raspberry Pi.
 
 Conectează senzorul GPS.
 
-![Un senzor Grove GPS](../../../../../translated_images/grove-gps-sensor.247943bf69b03f0d1820ef6ed10c587f9b650e8db55b936851c92412180bd3e2.ro.png)
+![Un senzor Grove GPS](../../../../../translated_images/ro/grove-gps-sensor.247943bf69b03f0d1820ef6ed10c587f9b650e8db55b936851c92412180bd3e2.png)
 
 1. Introdu un capăt al cablului Grove în soclul senzorului GPS. Acesta va intra doar într-un singur mod.
 
 1. Cu Raspberry Pi oprit, conectează celălalt capăt al cablului Grove la soclul UART marcat **UART** de pe Grove Base hat atașat la Pi. Acest soclu se află pe rândul din mijloc, pe partea cea mai apropiată de slotul pentru cardul SD, la capătul opus porturilor USB și soclului ethernet.
 
-    ![Senzorul Grove GPS conectat la soclul UART](../../../../../translated_images/pi-gps-sensor.1f99ee2b2f6528915047ec78967bd362e0e4ee0ed594368a3837b9cf9cdaca64.ro.png)
+    ![Senzorul Grove GPS conectat la soclul UART](../../../../../translated_images/ro/pi-gps-sensor.1f99ee2b2f6528915047ec78967bd362e0e4ee0ed594368a3837b9cf9cdaca64.png)
 
 1. Poziționează senzorul GPS astfel încât antena atașată să aibă vizibilitate către cer - ideal lângă o fereastră deschisă sau afară. Este mai ușor să obții un semnal clar fără obstacole în calea antenei.
 

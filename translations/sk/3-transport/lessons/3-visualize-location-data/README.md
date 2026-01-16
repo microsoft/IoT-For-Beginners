@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Vizualizácia údajov o polohe
 
-![Prehľad tejto lekcie v sketchnote](../../../../../translated_images/lesson-13.a259db1485021be7d7c72e90842fbe0ab977529e8684c179b5fb1ea75e92b3ef.sk.jpg)
+![Prehľad tejto lekcie v sketchnote](../../../../../translated_images/sk/lesson-13.a259db1485021be7d7c72e90842fbe0ab977529e8684c179b5fb1ea75e92b3ef.jpg)
 
 > Sketchnote od [Nitya Narasimhan](https://github.com/nitya). Kliknite na obrázok pre väčšiu verziu.
 
@@ -73,11 +73,11 @@ Jednoduchý príklad - v projekte farmy ste zachytili údaje o vlhkosti pôdy. T
 
 Ako človek môže byť pochopenie týchto údajov náročné. Je to stena čísel bez akéhokoľvek významu. Ako prvý krok k vizualizácii týchto údajov ich možno vykresliť na čiarovom grafe:
 
-![Čiarový graf vyššie uvedených údajov](../../../../../translated_images/chart-soil-moisture.fd6d9d0cdc0b5f75e78038ecb8945dfc84b38851359de99d84b16e3336d6d7c2.sk.png)
+![Čiarový graf vyššie uvedených údajov](../../../../../translated_images/sk/chart-soil-moisture.fd6d9d0cdc0b5f75e78038ecb8945dfc84b38851359de99d84b16e3336d6d7c2.png)
 
 Tento graf možno ďalej vylepšiť pridaním čiary, ktorá označuje, kedy bol automatický zavlažovací systém zapnutý pri hodnote vlhkosti pôdy 450:
 
-![Čiarový graf vlhkosti pôdy s čiarou na hodnote 450](../../../../../translated_images/chart-soil-moisture-relay.fbb391236d34a64d0abf1df396e9197e0a24df14150620b9cc820a64a55c9326.sk.png)
+![Čiarový graf vlhkosti pôdy s čiarou na hodnote 450](../../../../../translated_images/sk/chart-soil-moisture-relay.fbb391236d34a64d0abf1df396e9197e0a24df14150620b9cc820a64a55c9326.png)
 
 Tento graf veľmi rýchlo ukazuje nielen to, aké boli úrovne vlhkosti pôdy, ale aj body, kde bol zavlažovací systém zapnutý.
 
@@ -93,7 +93,7 @@ Pri práci s GPS údajmi môže byť najjasnejšou vizualizáciou vykreslenie ú
 
 Práca s mapami je zaujímavé cvičenie a existuje mnoho možností, ako napríklad Bing Maps, Leaflet, Open Street Maps a Google Maps. V tejto lekcii sa naučíte o [Azure Maps](https://azure.microsoft.com/services/azure-maps/?WT.mc_id=academic-17441-jabenn) a ako môžu zobrazovať vaše GPS údaje.
 
-![Logo Azure Maps](../../../../../translated_images/azure-maps-logo.35d01dcfbd81fe6140e94257aaa1538f785a58c91576d14e0ebe7a2f6c694b99.sk.png)
+![Logo Azure Maps](../../../../../translated_images/sk/azure-maps-logo.35d01dcfbd81fe6140e94257aaa1538f785a58c91576d14e0ebe7a2f6c694b99.png)
 
 Azure Maps je "kolekcia geopriestorových služieb a SDK, ktoré používajú aktuálne mapové údaje na poskytovanie geografického kontextu webovým a mobilným aplikáciám." Vývojári majú k dispozícii nástroje na vytváranie krásnych, interaktívnych máp, ktoré dokážu robiť veci ako poskytovať odporúčané dopravné trasy, informácie o dopravných incidentoch, navigáciu v interiéri, vyhľadávacie schopnosti, informácie o nadmorskej výške, služby počasia a ďalšie.
 
@@ -194,7 +194,7 @@ Teraz môžete urobiť ďalší krok, ktorým je zobrazenie mapy na webovej str�
 
     Ak otvoríte svoju stránku `index.html` v webovom prehliadači, mali by ste vidieť načítanú mapu, zameranú na oblasť Seattle.
 
-    ![Mapa zobrazujúca Seattle, mesto v štáte Washington, USA](../../../../../translated_images/map-image.8fb2c53eb23ef39c1c0a4410a5282e879b3b452b707eb066ff04c5488d3d72b7.sk.png)
+    ![Mapa zobrazujúca Seattle, mesto v štáte Washington, USA](../../../../../translated_images/sk/map-image.8fb2c53eb23ef39c1c0a4410a5282e879b3b452b707eb066ff04c5488d3d72b7.png)
 
     ✅ Experimentujte s parametrami priblíženia a centra na zmenu zobrazenia mapy. Môžete pridať rôzne súradnice zodpovedajúce zemepisnej šírke a dĺžke vašich údajov na opätovné zameranie mapy.
 
@@ -328,7 +328,7 @@ Ak zavoláte svoj storage na načítanie údajov, môžete byť prekvapení, ke�
 
 1. Načítajte HTML stránku vo svojom prehliadači. Načíta sa mapa, potom sa načítajú všetky GPS údaje zo storage a zobrazia sa na mape.
 
-    ![Mapa Saint Edward State Park blízko Seattlu, s kruhmi zobrazujúcimi trasu okolo okraja parku](../../../../../translated_images/map-path.896832e72dc696ffe20650e4051027d4855442d955f93fdbb80bb417ca8a406f.sk.png)
+    ![Mapa Saint Edward State Park blízko Seattlu, s kruhmi zobrazujúcimi trasu okolo okraja parku](../../../../../translated_images/sk/map-path.896832e72dc696ffe20650e4051027d4855442d955f93fdbb80bb417ca8a406f.png)
 
 > 💁 Tento kód nájdete v [code](../../../../../3-transport/lessons/3-visualize-location-data/code) priečinku.
 

@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Kutambua Sauti kwa Kifaa cha IoT
 
-![Muhtasari wa somo hili kwa sketchnote](../../../../../translated_images/lesson-21.e34de51354d6606fb5ee08d8c89d0222eea0a2a7aaf744a8805ae847c4f69dc4.sw.jpg)
+![Muhtasari wa somo hili kwa sketchnote](../../../../../translated_images/sw/lesson-21.e34de51354d6606fb5ee08d8c89d0222eea0a2a7aaf744a8805ae847c4f69dc4.jpg)
 
 > Sketchnote na [Nitya Narasimhan](https://github.com/nitya). Bofya picha kwa toleo kubwa zaidi.
 
@@ -60,19 +60,19 @@ Maikrofoni huja katika aina mbalimbali:
 
     Maikrofoni za dynamic hazihitaji nguvu kufanya kazi, ishara ya umeme inazalishwa moja kwa moja kutoka kwa maikrofoni.
 
-    ![Patti Smith akiimba kwenye maikrofoni ya Shure SM58 (aina ya dynamic cardioid)](../../../../../translated_images/dynamic-mic.8babac890a2d80dfb0874b5bf37d4b851fe2aeb9da6fd72945746176978bf3bb.sw.jpg)
+    ![Patti Smith akiimba kwenye maikrofoni ya Shure SM58 (aina ya dynamic cardioid)](../../../../../translated_images/sw/dynamic-mic.8babac890a2d80dfb0874b5bf37d4b851fe2aeb9da6fd72945746176978bf3bb.jpg)
 
 * **Ribbon** - Maikrofoni za ribbon zinafanana na maikrofoni za dynamic, isipokuwa zina ribbon ya chuma badala ya diaphragm. Ribbon hii husogea kwenye uwanja wa sumaku na kuzalisha mkondo wa umeme. Kama maikrofoni za dynamic, maikrofoni za ribbon hazihitaji nguvu kufanya kazi.
 
-    ![Edmund Lowe, mwigizaji wa Marekani, akiwa amesimama kwenye maikrofoni ya redio (iliyotajwa kwa (NBC) Blue Network), akiwa ameshikilia maandishi, 1942](../../../../../translated_images/ribbon-mic.eacc8e092c7441ca.sw.jpg)
+    ![Edmund Lowe, mwigizaji wa Marekani, akiwa amesimama kwenye maikrofoni ya redio (iliyotajwa kwa (NBC) Blue Network), akiwa ameshikilia maandishi, 1942](../../../../../translated_images/sw/ribbon-mic.eacc8e092c7441ca.jpg)
 
 * **Condenser** - Maikrofoni za condenser zina diaphragm nyembamba ya chuma na sahani ya nyuma ya chuma iliyowekwa. Umeme hutumika kwa vyote viwili na diaphragm inapovibrate, chaji ya static kati ya sahani hubadilika na kuzalisha ishara. Maikrofoni za condenser zinahitaji nguvu kufanya kazi - inayoitwa *Phantom power*.
 
-    ![Maikrofoni ya condenser ya diaframu ndogo ya C451B na AKG Acoustics](../../../../../translated_images/condenser-mic.6f6ed5b76ca19e0ec3fd0c544601542d4479a6cb7565db336de49fbbf69f623e.sw.jpg)
+    ![Maikrofoni ya condenser ya diaframu ndogo ya C451B na AKG Acoustics](../../../../../translated_images/sw/condenser-mic.6f6ed5b76ca19e0ec3fd0c544601542d4479a6cb7565db336de49fbbf69f623e.jpg)
 
 * **MEMS** - Maikrofoni za Microelectromechanical systems, au MEMS, ni maikrofoni kwenye chipu. Zina diaphragm inayohisi shinikizo iliyochongwa kwenye chipu ya silicon, na hufanya kazi sawa na maikrofoni ya condenser. Maikrofoni hizi zinaweza kuwa ndogo sana, na kuunganishwa kwenye mzunguko.
 
-    ![Maikrofoni ya MEMS kwenye ubao wa mzunguko](../../../../../translated_images/mems-microphone.80574019e1f5e4d9ee72fed720ecd25a39fc2969c91355d17ebb24ba4159e4c4.sw.png)
+    ![Maikrofoni ya MEMS kwenye ubao wa mzunguko](../../../../../translated_images/sw/mems-microphone.80574019e1f5e4d9ee72fed720ecd25a39fc2969c91355d17ebb24ba4159e4c4.png)
 
     Katika picha hapo juu, chipu iliyoandikwa **LEFT** ni maikrofoni ya MEMS, yenye diaphragm ndogo chini ya milimita moja.
 
@@ -84,7 +84,7 @@ Sauti ni ishara ya analogi inayobeba taarifa za kina sana. Ili kubadilisha ishar
 
 > 🎓 Kuchukua sampuli ni kubadilisha ishara ya sauti kuwa thamani ya kidijitali inayowakilisha ishara hiyo kwa wakati huo.
 
-![Chati ya mstari inayoonyesha ishara, na pointi maalum kwa vipindi vilivyowekwa](../../../../../translated_images/sampling.6f4fadb3f2d9dfe7.sw.png)
+![Chati ya mstari inayoonyesha ishara, na pointi maalum kwa vipindi vilivyowekwa](../../../../../translated_images/sw/sampling.6f4fadb3f2d9dfe7.png)
 
 Sauti ya kidijitali inachukuliwa sampuli kwa kutumia Pulse Code Modulation, au PCM. PCM inahusisha kusoma voltage ya ishara, na kuchagua thamani ya karibu zaidi ya kidijitali kwa voltage hiyo kwa kutumia ukubwa ulioainishwa.
 
@@ -168,7 +168,7 @@ Ili kuepuka ugumu wa kufundisha na kutumia modeli ya neno la kuamsha, kipima mud
 
 ## Badilisha sauti kuwa maandishi
 
-![Nembo ya huduma za sauti](../../../../../translated_images/azure-speech-logo.a1f08c4befb0159f2cb5d692d3baf5b599e7b44759d316da907bda1508f46a4a.sw.png)
+![Nembo ya huduma za sauti](../../../../../translated_images/sw/azure-speech-logo.a1f08c4befb0159f2cb5d692d3baf5b599e7b44759d316da907bda1508f46a4a.png)
 
 Kama ilivyo kwenye uainishaji wa picha katika mradi wa awali, kuna huduma za AI zilizojengwa tayari ambazo zinaweza kuchukua sauti kama faili ya sauti na kuibadilisha kuwa maandishi. Mojawapo ya huduma hizo ni Huduma ya Sauti, sehemu ya Huduma za Kognitivi, huduma za AI zilizojengwa tayari unazoweza kutumia kwenye programu zako.
 

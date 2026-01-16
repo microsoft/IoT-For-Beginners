@@ -37,11 +37,11 @@ Ongeza relay kwenye programu ya CounterFit.
 
     1. Chagua kitufe cha **Add** ili kuunda relay kwenye Pin 5.
 
-    ![Mipangilio ya relay](../../../../../translated_images/counterfit-create-relay.fa7c40fd0f2f6afc33b35ea94fcb235085be4861e14e3fe6b9b7bcfc82d1c888.sw.png)
+    ![Mipangilio ya relay](../../../../../translated_images/sw/counterfit-create-relay.fa7c40fd0f2f6afc33b35ea94fcb235085be4861e14e3fe6b9b7bcfc82d1c888.png)
 
     Relay itaundwa na itaonekana kwenye orodha ya actuators.
 
-    ![Relay iliyoundwa](../../../../../translated_images/counterfit-relay.bbf74c1dbdc8b9acd983367fcbd06703a402aefef6af54ddb28e11307ba8a12c.sw.png)
+    ![Relay iliyoundwa](../../../../../translated_images/sw/counterfit-relay.bbf74c1dbdc8b9acd983367fcbd06703a402aefef6af54ddb28e11307ba8a12c.png)
 
 ## Programu ya relay
 

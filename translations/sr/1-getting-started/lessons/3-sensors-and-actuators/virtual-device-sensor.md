@@ -37,11 +37,11 @@ CO_OP_TRANSLATOR_METADATA:
 
     1. Изаберите дугме **Add** да бисте креирали сензор светлости на пину 0.
 
-    ![Подешавања сензора светлости](../../../../../translated_images/counterfit-create-light-sensor.9f36a5e0d4458d8d554d54b34d2c806d56093d6e49fddcda2d20f6fef7f5cce1.sr.png)
+    ![Подешавања сензора светлости](../../../../../translated_images/sr/counterfit-create-light-sensor.9f36a5e0d4458d8d554d54b34d2c806d56093d6e49fddcda2d20f6fef7f5cce1.png)
 
     Сензор светлости ће бити креиран и појавиће се на листи сензора.
 
-    ![Креирани сензор светлости](../../../../../translated_images/counterfit-light-sensor.5d0f5584df56b90f6b2561910d9cb20dfbd73eeff2177c238d38f4de54aefae1.sr.png)
+    ![Креирани сензор светлости](../../../../../translated_images/sr/counterfit-light-sensor.5d0f5584df56b90f6b2561910d9cb20dfbd73eeff2177c238d38f4de54aefae1.png)
 
 ## Програмирајте сензор светлости
 

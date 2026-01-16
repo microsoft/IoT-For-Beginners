@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Sledenje lokaciji
 
-![Skica pregleda te lekcije](../../../../../translated_images/lesson-11.9fddbac4b664c6d50ab7ac9bb32f1fc3f945f03760e72f7f43938073762fb017.sl.jpg)
+![Skica pregleda te lekcije](../../../../../translated_images/sl/lesson-11.9fddbac4b664c6d50ab7ac9bb32f1fc3f945f03760e72f7f43938073762fb017.jpg)
 
 > Skico je pripravila [Nitya Narasimhan](https://github.com/nitya). Kliknite na sliko za večjo različico.
 
@@ -72,13 +72,13 @@ Zemlja je krogla – tridimenzionalni krog. Zaradi tega so točke definirane z d
 
 > 💁 Nihče ne ve natančno, zakaj so krogi razdeljeni na 360 stopinj. [Stran o stopinjah (kot) na Wikipediji](https://wikipedia.org/wiki/Degree_(angle)) pokriva nekaj možnih razlogov.
 
-![Črte geografske širine od 90° na severnem polu, 45° na polovici med severnim polom in ekvatorjem, 0° na ekvatorju, -45° na polovici med ekvatorjem in južnim polom ter -90° na južnem polu](../../../../../translated_images/latitude-lines.11d8d91dfb2014a57437272d7db7fd6607243098e8685f06e0c5f1ec984cb7eb.sl.png)
+![Črte geografske širine od 90° na severnem polu, 45° na polovici med severnim polom in ekvatorjem, 0° na ekvatorju, -45° na polovici med ekvatorjem in južnim polom ter -90° na južnem polu](../../../../../translated_images/sl/latitude-lines.11d8d91dfb2014a57437272d7db7fd6607243098e8685f06e0c5f1ec984cb7eb.png)
 
 Geografska širina se meri z linijami, ki obkrožajo Zemljo in tečejo vzporedno z ekvatorjem, delijo severno in južno poloblo na po 90°. Ekvator je na 0°, severni pol na 90°, znan tudi kot 90° severno, južni pol pa na -90°, ali 90° južno.
 
 Geografska dolžina se meri kot število stopinj vzhodno in zahodno. Izvor 0° geografske dolžine se imenuje *prvi poldnevnik* in je bil leta 1884 določen kot črta od severnega do južnega pola, ki poteka skozi [Kraljevi observatorij v Greenwichu, Anglija](https://wikipedia.org/wiki/Royal_Observatory,_Greenwich).
 
-![Črte geografske dolžine, ki segajo od -180° zahodno od prvega poldnevnika, do 0° na prvem poldnevniku, do 180° vzhodno od prvega poldnevnika](../../../../../translated_images/longitude-meridians.ab4ef1c91c064586b0185a3c8d39e585903696c6a7d28c098a93a629cddb5d20.sl.png)
+![Črte geografske dolžine, ki segajo od -180° zahodno od prvega poldnevnika, do 0° na prvem poldnevniku, do 180° vzhodno od prvega poldnevnika](../../../../../translated_images/sl/longitude-meridians.ab4ef1c91c064586b0185a3c8d39e585903696c6a7d28c098a93a629cddb5d20.png)
 
 > 🎓 Poldnevnik je namišljena ravna črta, ki poteka od severnega do južnega pola in tvori polkrog.
 
@@ -109,7 +109,7 @@ Koordinate za točko so vedno podane kot `geografska širina, geografska dolžin
 * Geografsko širino 47.6423109 (47.6423109 stopinj severno od ekvatorja)
 * Geografsko dolžino -122.1390293 (122.1390293 stopinj zahodno od prvega poldnevnika).
 
-![Microsoftov kampus na 47.6423109,-122.117198](../../../../../translated_images/microsoft-gps-location-world.a321d481b010f6adfcca139b2ba0adc53b79f58a540495b8e2ce7f779ea64bfe.sl.png)
+![Microsoftov kampus na 47.6423109,-122.117198](../../../../../translated_images/sl/microsoft-gps-location-world.a321d481b010f6adfcca139b2ba0adc53b79f58a540495b8e2ce7f779ea64bfe.png)
 
 ## Globalni sistemi za določanje položaja (GPS)
 
@@ -121,7 +121,7 @@ GPS sistemi delujejo tako, da imajo več satelitov, ki pošiljajo signal s trenu
 
 > 💁 GPS senzorji potrebujejo antene za zaznavanje radijskih valov. Antene, vgrajene v tovornjake in avtomobile z vgrajenim GPS-om, so nameščene tako, da dobijo dober signal, običajno na vetrobranskem steklu ali strehi. Če uporabljate ločen GPS sistem, kot je pametni telefon ali IoT naprava, morate zagotoviti, da ima antena, vgrajena v GPS sistem ali telefon, jasen pogled na nebo, na primer, da je nameščena na vetrobranskem steklu.
 
-![Z poznavanjem razdalje od senzorja do več satelitov je mogoče izračunati lokacijo](../../../../../translated_images/gps-satellites.04acf1148fe25fbf1586bc2e8ba698e8d79b79a50c36824b38417dd13372b90f.sl.png)
+![Z poznavanjem razdalje od senzorja do več satelitov je mogoče izračunati lokacijo](../../../../../translated_images/sl/gps-satellites.04acf1148fe25fbf1586bc2e8ba698e8d79b79a50c36824b38417dd13372b90f.png)
 
 GPS sateliti krožijo okoli Zemlje in niso na fiksni točki nad senzorjem, zato podatki o lokaciji vključujejo tudi nadmorsko višino poleg geografske širine in dolžine.
 
