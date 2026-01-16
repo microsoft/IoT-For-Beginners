@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # 存储位置信息数据
 
-![本课的手绘笔记概览](../../../../../translated_images/lesson-12.ca7f53039712a3ec14ad6474d8445361c84adab643edc53fa6269b77895606bb.zh.jpg)
+![本课的手绘笔记概览](../../../../../translated_images/zh/lesson-12.ca7f53039712a3ec14ad6474d8445361c84adab643edc53fa6269b77895606bb.jpg)
 
 > 手绘笔记由 [Nitya Narasimhan](https://github.com/nitya) 提供。点击图片查看大图。
 
@@ -66,7 +66,7 @@ IoT 数据通常被认为是非结构化数据。
 
 最早的数据库是关系型数据库管理系统（RDBMS），也称为关系型数据库。这些数据库也被称为 SQL 数据库，因为它们使用结构化查询语言（SQL）来添加、删除、更新或查询数据。这些数据库由一个模式组成——一组定义良好的数据表，类似于电子表格。每个表有多个命名列。当你插入数据时，你会向表中添加一行，将值放入每列中。这种方式使数据保持非常严格的结构——尽管你可以留空某些列，但如果你想添加新列，则必须在数据库中执行此操作，并为现有行填充值。这些数据库是关系型的——一个表可以与另一个表有关系。
 
-![一个关系型数据库，其中用户表的 ID 与购买表的用户 ID 列相关联，产品表的 ID 与购买表的产品 ID 相关联](../../../../../translated_images/sql-database.be160f12bfccefd3.zh.png)
+![一个关系型数据库，其中用户表的 ID 与购买表的用户 ID 列相关联，产品表的 ID 与购买表的产品 ID 相关联](../../../../../translated_images/zh/sql-database.be160f12bfccefd3.png)
 
 例如，如果你在一个表中存储用户的个人详细信息，你会为每个用户分配某种内部唯一 ID，该 ID 用于包含用户姓名和地址的表中的一行。如果你想在另一个表中存储该用户的其他详细信息，例如他们的购买记录，你会在新表中为该用户的 ID 添加一列。当你查找用户时，可以使用他们的 ID 从一个表中获取他们的个人详细信息，从另一个表中获取他们的购买记录。
 
@@ -84,7 +84,7 @@ NoSQL 数据库之所以被称为 NoSQL，是因为它们没有 SQL 数据库的
 
 > 💁 尽管名字叫 NoSQL，但一些 NoSQL 数据库允许你使用 SQL 查询数据。
 
-![NoSQL 数据库中的文件夹中的文档](../../../../../translated_images/noqsl-database.62d24ccf5b73f60d35c245a8533f1c7147c0928e955b82cb290b2e184bb434df.zh.png)
+![NoSQL 数据库中的文件夹中的文档](../../../../../translated_images/zh/noqsl-database.62d24ccf5b73f60d35c245a8533f1c7147c0928e955b82cb290b2e184bb434df.png)
 
 NoSQL 数据库没有预定义的模式来限制数据的存储方式，你可以插入任何非结构化数据，通常使用 JSON 文档。这些文档可以像计算机上的文件一样组织成文件夹。每个文档可以与其他文档有不同的字段——例如，如果你存储农用车辆的 IoT 数据，有些可能有加速度计和速度数据的字段，另一些可能有挂车温度的字段。如果你想添加一种新型卡车，例如带有内置秤以跟踪所载货物重量的卡车，那么你的 IoT 设备可以添加这个新字段，并且可以在无需更改数据库的情况下存储它。
 
@@ -98,7 +98,7 @@ NoSQL 数据库没有预定义的模式来限制数据的存储方式，你可�
 
 在上一课中，你从连接到 IoT 设备的 GPS 传感器捕获了 GPS 数据。为了在云端存储这些 IoT 数据，你需要将其发送到 IoT 服务。你将再次使用 Azure IoT Hub，这是你在前一个项目中使用的同一个 IoT 云服务。
 
-![将 GPS 遥测数据从 IoT 设备发送到 IoT Hub](../../../../../translated_images/gps-telemetry-iot-hub.8115335d51cd2c1285d20e9d1b18cf685e59a8e093e7797291ef173445af6f3d.zh.png)
+![将 GPS 遥测数据从 IoT 设备发送到 IoT Hub](../../../../../translated_images/zh/gps-telemetry-iot-hub.8115335d51cd2c1285d20e9d1b18cf685e59a8e093e7797291ef173445af6f3d.png)
 
 ### 任务 - 将 GPS 数据发送到 IoT Hub
 
@@ -180,7 +180,7 @@ message = Message(json.dumps(message_json))
 
 一旦数据流入你的 IoT Hub，你可以编写一些无服务器代码来监听发布到 Event-Hub 兼容端点的事件。这是温路径——这些数据将被存储，并在下一课中用于报告行程。
 
-![将 GPS 遥测数据从 IoT 设备发送到 IoT Hub，然后通过事件中心触发器发送到 Azure Functions](../../../../../translated_images/gps-telemetry-iot-hub-functions.24d3fa5592455e9f4e2fe73856b40c3915a292b90263c31d652acfd976cfedd8.zh.png)
+![将 GPS 遥测数据从 IoT 设备发送到 IoT Hub，然后通过事件中心触发器发送到 Azure Functions](../../../../../translated_images/zh/gps-telemetry-iot-hub-functions.24d3fa5592455e9f4e2fe73856b40c3915a292b90263c31d652acfd976cfedd8.png)
 
 ### 任务 - 使用无服务器代码处理 GPS 事件
 
@@ -202,7 +202,7 @@ message = Message(json.dumps(message_json))
 
 ## Azure 存储账户
 
-![Azure 存储标志](../../../../../translated_images/azure-storage-logo.605c0f602c640d482a80f1b35a2629a32d595711b7ab1d7ceea843250615ff32.zh.png)
+![Azure 存储标志](../../../../../translated_images/zh/azure-storage-logo.605c0f602c640d482a80f1b35a2629a32d595711b7ab1d7ceea843250615ff32.png)
 
 Azure 存储账户是一种通用存储服务，可以以多种方式存储数据。你可以将数据存储为 Blob、队列、表或文件，并且可以同时使用这些方式。
 
@@ -241,7 +241,7 @@ Azure 存储账户是一种通用存储服务，可以以多种方式存储数�
 
 在本课中，你将使用 Python SDK 来了解如何与 Blob 存储交互。
 
-![将 GPS 遥测数据从 IoT 设备发送到 IoT Hub，再通过事件触发器发送到 Azure Functions，最后保存到 Blob 存储](../../../../../translated_images/save-telemetry-to-storage-from-functions.ed3b1820980097f1.zh.png)
+![将 GPS 遥测数据从 IoT 设备发送到 IoT Hub，再通过事件触发器发送到 Azure Functions，最后保存到 Blob 存储](../../../../../translated_images/zh/save-telemetry-to-storage-from-functions.ed3b1820980097f1.png)
 
 数据将以以下格式保存为 JSON Blob：
 

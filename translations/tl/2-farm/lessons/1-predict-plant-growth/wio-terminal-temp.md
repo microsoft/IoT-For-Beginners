@@ -27,13 +27,13 @@ Ang Grove temperature sensor ay maaaring ikonekta sa digital port ng Wio Termina
 
 Ikonekta ang temperature sensor.
 
-![Isang Grove temperature sensor](../../../../../translated_images/grove-dht11.07f8eafceee170043efbb53e1d15722bd4e00fbaa9ff74290b57e9f66eb82c17.tl.png)
+![Isang Grove temperature sensor](../../../../../translated_images/tl/grove-dht11.07f8eafceee170043efbb53e1d15722bd4e00fbaa9ff74290b57e9f66eb82c17.png)
 
 1. Ipasok ang isang dulo ng Grove cable sa socket ng humidity at temperature sensor. Isa lang ang tamang paraan para maipasok ito.
 
 1. Kapag ang Wio Terminal ay hindi nakakonekta sa iyong computer o ibang power supply, ikonekta ang kabilang dulo ng Grove cable sa Grove socket sa kanang bahagi ng Wio Terminal habang nakatingin ka sa screen. Ito ang socket na pinakamalayo sa power button.
 
-![Ang Grove temperature sensor na nakakonekta sa kanang socket](../../../../../translated_images/wio-temperature-sensor.2934928f38c7f79a.tl.png)
+![Ang Grove temperature sensor na nakakonekta sa kanang socket](../../../../../translated_images/tl/wio-temperature-sensor.2934928f38c7f79a.png)
 
 ## I-program ang temperature sensor
 

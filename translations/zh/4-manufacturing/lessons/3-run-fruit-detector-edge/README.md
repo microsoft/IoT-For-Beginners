@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # 在边缘设备上运行水果检测器
 
-![本课的手绘笔记概览](../../../../../translated_images/lesson-17.bc333c3c35ba8e42cce666cfffa82b915f787f455bd94e006aea2b6f2722421a.zh.jpg)
+![本课的手绘笔记概览](../../../../../translated_images/zh/lesson-17.bc333c3c35ba8e42cce666cfffa82b915f787f455bd94e006aea2b6f2722421a.jpg)
 
 > 手绘笔记由 [Nitya Narasimhan](https://github.com/nitya) 提供。点击图片查看大图。
 
@@ -42,11 +42,11 @@ CO_OP_TRANSLATOR_METADATA:
 
 边缘计算是指尽可能靠近数据生成位置的地方处理物联网数据。与在云端处理不同，边缘计算将处理移至云的边缘——即你的内部网络。
 
-![一个架构图，显示云端的互联网服务和本地网络上的物联网设备](../../../../../translated_images/cloud-without-edge.b4da641f6022c95ed6b91fde8b5323abd2f94e0d52073ad54172ae8f5dac90e9.zh.png)
+![一个架构图，显示云端的互联网服务和本地网络上的物联网设备](../../../../../translated_images/zh/cloud-without-edge.b4da641f6022c95ed6b91fde8b5323abd2f94e0d52073ad54172ae8f5dac90e9.png)
 
 到目前为止的课程中，你的设备一直在收集数据并将其发送到云端进行分析，在云端运行无服务器函数或 AI 模型。
 
-![一个架构图，显示本地网络上的物联网设备连接到边缘设备，这些边缘设备再连接到云端](../../../../../translated_images/cloud-with-edge.1e26462c62c126fe150bd15a5714ddf0be599f09bacbad08b85be02b76ea1ae1.zh.png)
+![一个架构图，显示本地网络上的物联网设备连接到边缘设备，这些边缘设备再连接到云端](../../../../../translated_images/zh/cloud-with-edge.1e26462c62c126fe150bd15a5714ddf0be599f09bacbad08b85be02b76ea1ae1.png)
 
 边缘计算将部分云服务从云端移到与物联网设备同一网络上的计算机上，仅在需要时与云端通信。例如，你可以在边缘设备上运行 AI 模型来分析水果的成熟度，仅将分析结果（如成熟水果与未成熟水果的数量）发送回云端。
 
@@ -94,7 +94,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 ## Azure IoT Edge
 
-![Azure IoT Edge 的标志](../../../../../translated_images/azure-iot-edge-logo.c1c076749b5cba2e8755262fadc2f19ca1146b948d76990b1229199ac2292d79.zh.png)
+![Azure IoT Edge 的标志](../../../../../translated_images/zh/azure-iot-edge-logo.c1c076749b5cba2e8755262fadc2f19ca1146b948d76990b1229199ac2292d79.png)
 
 Azure IoT Edge 是一项服务，可以帮助你将工作负载从云端移到边缘。你可以将设备设置为边缘设备，并从云端向该边缘设备部署代码。这使得你可以混合使用云和边缘的功能。
 
@@ -108,7 +108,7 @@ IoT Edge 内置于 IoT Hub 中，因此你可以使用与管理物联网设备�
 
 IoT Edge 从 *容器* 中运行代码——容器是独立的应用程序，运行时与计算机上的其他应用程序隔离。当你运行一个容器时，它就像在你的计算机中运行的一个独立计算机，拥有自己的软件、服务和应用程序。大多数情况下，容器无法访问计算机上的任何内容，除非你选择共享某些内容（例如文件夹）给容器。容器通过开放端口暴露服务，你可以连接到这些端口或将其暴露到网络。
 
-![一个网络请求被重定向到容器](../../../../../translated_images/container-web-browser.4ee81dd4f0d8838ce622b2a0d600b6a4322b5d4fe43159facd87b7b34f84d66a.zh.png)
+![一个网络请求被重定向到容器](../../../../../translated_images/zh/container-web-browser.4ee81dd4f0d8838ce622b2a0d600b6a4322b5d4fe43159facd87b7b34f84d66a.png)
 
 例如，你可以在端口 80（默认 HTTP 端口）上运行一个带有网站的容器，然后也在你的计算机上通过端口 80 暴露它。
 
@@ -204,11 +204,11 @@ IoT Edge 从 *容器* 中运行代码——容器是独立的应用程序，运�
 
 ## 为部署准备容器
 
-![容器被构建后推送到容器注册表，然后通过 IoT Edge 从容器注册表部署到边缘设备](../../../../../translated_images/container-edge-flow.c246050dd60ceefdb6ace026a4ce5c6aa4112bb5898ae23fbb2ab4be29ae3e1b.zh.png)
+![容器被构建后推送到容器注册表，然后通过 IoT Edge 从容器注册表部署到边缘设备](../../../../../translated_images/zh/container-edge-flow.c246050dd60ceefdb6ace026a4ce5c6aa4112bb5898ae23fbb2ab4be29ae3e1b.png)
 
 下载模型后，需要将其构建为容器，然后推送到容器注册表——一个在线存储容器的位置。IoT Edge 可以从注册表下载容器并将其推送到你的设备。
 
-![Azure 容器注册表标志](../../../../../translated_images/azure-container-registry-logo.09494206991d4b295025ebff7d4e2900325e527a59184ffbc8464b6ab59654be.zh.png)
+![Azure 容器注册表标志](../../../../../translated_images/zh/azure-container-registry-logo.09494206991d4b295025ebff7d4e2900325e527a59184ffbc8464b6ab59654be.png)
 
 本课程中使用的容器注册表是 Azure 容器注册表。这不是一个免费服务，因此为了节省费用，请确保在完成后[清理你的项目](../../../clean-up.md)。
 

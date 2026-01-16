@@ -154,11 +154,11 @@ CO_OP_TRANSLATOR_METADATA:
 
 1. เมื่อ VS Code เปิดขึ้น มันจะเปิดใช้งานสภาพแวดล้อมเสมือน Python สภาพแวดล้อมเสมือนที่เลือกจะปรากฏในแถบสถานะด้านล่าง:
 
-    ![VS Code showing the selected virtual environment](../../../../../translated_images/vscode-virtual-env.8ba42e04c3d533cf.th.png)
+    ![VS Code showing the selected virtual environment](../../../../../translated_images/th/vscode-virtual-env.8ba42e04c3d533cf.png)
 
 1. หากเทอร์มินัลของ VS Code กำลังทำงานอยู่เมื่อ VS Code เริ่มต้นขึ้น มันจะไม่มีสภาพแวดล้อมเสมือนเปิดใช้งานในนั้น วิธีที่ง่ายที่สุดคือปิดเทอร์มินัลโดยใช้ปุ่ม **Kill the active terminal instance**:
 
-    ![VS Code Kill the active terminal instance button](../../../../../translated_images/vscode-kill-terminal.1cc4de7c6f25ee08.th.png)
+    ![VS Code Kill the active terminal instance button](../../../../../translated_images/th/vscode-kill-terminal.1cc4de7c6f25ee08.png)
 
     คุณสามารถบอกได้ว่าเทอร์มินัลมีสภาพแวดล้อมเสมือนเปิดใช้งานหรือไม่จากชื่อของสภาพแวดล้อมเสมือนที่จะแสดงเป็นคำนำหน้าบนพรอมต์ของเทอร์มินัล ตัวอย่างเช่น อาจเป็น:
 
@@ -212,7 +212,7 @@ CO_OP_TRANSLATOR_METADATA:
 
     แอปจะเริ่มทำงานและเปิดในเว็บเบราว์เซอร์ของคุณ:
 
-    ![The Counter Fit app running in a browser](../../../../../translated_images/counterfit-first-run.433326358b669b31d0e99c3513cb01bfbb13724d162c99cdcc8f51ecf5f9c779.th.png)
+    ![The Counter Fit app running in a browser](../../../../../translated_images/th/counterfit-first-run.433326358b669b31d0e99c3513cb01bfbb13724d162c99cdcc8f51ecf5f9c779.png)
 
     มันจะแสดงสถานะเป็น *Disconnected* โดยมีไฟ LED ที่มุมขวาบนปิดอยู่
 
@@ -229,11 +229,11 @@ CO_OP_TRANSLATOR_METADATA:
 
 1. คุณจะต้องเปิดเทอร์มินัลใหม่ใน VS Code โดยเลือกปุ่ม **Create a new integrated terminal** เนื่องจากแอป CounterFit กำลังรันอยู่ในเทอร์มินัลปัจจุบัน
 
-    ![VS Code Create a new integrated terminal button](../../../../../translated_images/vscode-new-terminal.77db8fc0f9cd3182.th.png)
+    ![VS Code Create a new integrated terminal button](../../../../../translated_images/th/vscode-new-terminal.77db8fc0f9cd3182.png)
 
 1. ในเทอร์มินัลใหม่นี้ รันไฟล์ `app.py` เหมือนเดิม สถานะของ CounterFit จะเปลี่ยนเป็น **Connected** และไฟ LED จะสว่างขึ้น
 
-    ![Counter Fit showing as connected](../../../../../translated_images/counterfit-connected.ed30b46d8f79b0921f3fc70be10366e596a89dca3f80c2224a9d9fc98fccf884.th.png)
+    ![Counter Fit showing as connected](../../../../../translated_images/th/counterfit-connected.ed30b46d8f79b0921f3fc70be10366e596a89dca3f80c2224a9d9fc98fccf884.png)
 
 > 💁 คุณสามารถหาโค้ดนี้ได้ในโฟลเดอร์ [code/virtual-device](../../../../../1-getting-started/lessons/1-introduction-to-iot/code/virtual-device)
 

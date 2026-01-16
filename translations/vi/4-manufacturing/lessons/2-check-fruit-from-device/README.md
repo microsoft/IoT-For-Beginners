@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Kiểm tra chất lượng trái cây từ thiết bị IoT
 
-![Tổng quan bài học qua sketchnote](../../../../../translated_images/lesson-16.215daf18b00631fbdfd64c6fc2dc6044dff5d544288825d8076f9fb83d964c23.vi.jpg)
+![Tổng quan bài học qua sketchnote](../../../../../translated_images/vi/lesson-16.215daf18b00631fbdfd64c6fc2dc6044dff5d544288825d8076f9fb83d964c23.jpg)
 
 > Sketchnote bởi [Nitya Narasimhan](https://github.com/nitya). Nhấp vào hình ảnh để xem phiên bản lớn hơn.
 
@@ -35,7 +35,7 @@ Trong bài học này, chúng ta sẽ đề cập đến:
 
 Cảm biến camera, như tên gọi, là các camera mà bạn có thể kết nối với thiết bị IoT của mình. Chúng có thể chụp ảnh tĩnh hoặc quay video trực tiếp. Một số sẽ trả về dữ liệu hình ảnh thô, trong khi những loại khác sẽ nén dữ liệu hình ảnh thành tệp hình ảnh như JPEG hoặc PNG. Thông thường, các camera hoạt động với thiết bị IoT nhỏ hơn và có độ phân giải thấp hơn so với những gì bạn có thể quen thuộc, nhưng bạn cũng có thể tìm thấy các camera có độ phân giải cao tương đương với các điện thoại cao cấp. Bạn có thể sử dụng nhiều loại ống kính thay thế, thiết lập nhiều camera, camera nhiệt hồng ngoại hoặc camera UV.
 
-![Ánh sáng từ một cảnh đi qua ống kính và được tập trung vào cảm biến CMOS](../../../../../translated_images/cmos-sensor.75f9cd74decb137149a4c9ea825251a4549497d67c0ae2776159e6102bb53aa9.vi.png)
+![Ánh sáng từ một cảnh đi qua ống kính và được tập trung vào cảm biến CMOS](../../../../../translated_images/vi/cmos-sensor.75f9cd74decb137149a4c9ea825251a4549497d67c0ae2776159e6102bb53aa9.png)
 
 Hầu hết các cảm biến camera sử dụng cảm biến hình ảnh, nơi mỗi pixel là một photodiode. Một ống kính tập trung hình ảnh lên cảm biến hình ảnh, và hàng ngàn hoặc hàng triệu photodiode phát hiện ánh sáng chiếu vào từng cái và ghi lại dưới dạng dữ liệu pixel.
 
@@ -83,7 +83,7 @@ Các lần lặp được xuất bản từ cổng Custom Vision.
 
 1. Chọn nút **Xuất bản** cho lần lặp.
 
-    ![Nút xuất bản](../../../../../translated_images/custom-vision-publish-button.b7174e1977b0c33b8b72d4e5b1326c779e0af196f3849d09985ee2d7d5493a39.vi.png)
+    ![Nút xuất bản](../../../../../translated_images/vi/custom-vision-publish-button.b7174e1977b0c33b8b72d4e5b1326c779e0af196f3849d09985ee2d7d5493a39.png)
 
 1. Trong hộp thoại *Xuất bản mô hình*, đặt *Nguồn dự đoán* thành tài nguyên `fruit-quality-detector-prediction` mà bạn đã tạo trong bài học trước. Giữ tên là `Iteration2`, và chọn nút **Xuất bản**.
 
@@ -97,7 +97,7 @@ Các lần lặp được xuất bản từ cổng Custom Vision.
 
     Cũng sao chép giá trị *Prediction-Key*. Đây là một khóa bảo mật mà bạn phải truyền khi gọi mô hình. Chỉ các ứng dụng truyền khóa này mới được phép sử dụng mô hình, các ứng dụng khác sẽ bị từ chối.
 
-    ![Hộp thoại API dự đoán hiển thị URL và khóa](../../../../../translated_images/custom-vision-prediction-key-endpoint.30c569ffd0338864f319911f052d5e9b8c5066cb0800a26dd6f7ff5713130ad8.vi.png)
+    ![Hộp thoại API dự đoán hiển thị URL và khóa](../../../../../translated_images/vi/custom-vision-prediction-key-endpoint.30c569ffd0338864f319911f052d5e9b8c5066cb0800a26dd6f7ff5713130ad8.png)
 
 ✅ Khi một lần lặp mới được xuất bản, nó sẽ có một tên khác. Bạn nghĩ làm thế nào để thay đổi lần lặp mà thiết bị IoT đang sử dụng?
 
@@ -118,7 +118,7 @@ Bạn có thể nhận thấy rằng kết quả bạn nhận được khi sử 
 
 Để có kết quả tốt nhất cho bộ phân loại hình ảnh, bạn muốn huấn luyện mô hình với các hình ảnh càng giống với hình ảnh được sử dụng để dự đoán càng tốt. Nếu bạn sử dụng camera điện thoại của mình để chụp hình ảnh để huấn luyện, ví dụ, chất lượng hình ảnh, độ sắc nét và màu sắc sẽ khác với camera kết nối với thiết bị IoT.
 
-![2 hình ảnh quả chuối, một hình ảnh có độ phân giải thấp với ánh sáng kém từ thiết bị IoT, và một hình ảnh có độ phân giải cao với ánh sáng tốt từ điện thoại](../../../../../translated_images/banana-picture-compare.174df164dc326a42cf7fb051a7497e6113c620e91552d92ca914220305d47d9a.vi.png)
+![2 hình ảnh quả chuối, một hình ảnh có độ phân giải thấp với ánh sáng kém từ thiết bị IoT, và một hình ảnh có độ phân giải cao với ánh sáng tốt từ điện thoại](../../../../../translated_images/vi/banana-picture-compare.174df164dc326a42cf7fb051a7497e6113c620e91552d92ca914220305d47d9a.png)
 
 Trong hình ảnh trên, hình ảnh quả chuối bên trái được chụp bằng Camera Raspberry Pi, hình ảnh bên phải được chụp cùng quả chuối ở cùng vị trí bằng iPhone. Có sự khác biệt rõ rệt về chất lượng - hình ảnh iPhone sắc nét hơn, với màu sắc sáng hơn và độ tương phản cao hơn.
 

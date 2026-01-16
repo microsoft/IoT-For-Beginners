@@ -47,11 +47,11 @@ GPS sensörünü CounterFit uygulamasına ekleyin.
 
     1. **Add** düğmesini seçerek `/dev/ttyAMA0` portunda GPS sensörünü oluşturun.
 
-    ![GPS sensör ayarları](../../../../../translated_images/counterfit-create-gps-sensor.6385dc9357d85ad1d47b4abb2525e7651fd498917d25eefc5a72feab09eedc70.tr.png)
+    ![GPS sensör ayarları](../../../../../translated_images/tr/counterfit-create-gps-sensor.6385dc9357d85ad1d47b4abb2525e7651fd498917d25eefc5a72feab09eedc70.png)
 
     GPS sensörü oluşturulacak ve sensörler listesinde görünecektir.
 
-    ![Oluşturulan GPS sensörü](../../../../../translated_images/counterfit-gps-sensor.3fbb15af0a5367566f2f11324ef5a6f30861cdf2b497071a5e002b7aa473550e.tr.png)
+    ![Oluşturulan GPS sensörü](../../../../../translated_images/tr/counterfit-gps-sensor.3fbb15af0a5367566f2f11324ef5a6f30861cdf2b497071a5e002b7aa473550e.png)
 
 ## GPS Sensörünü Programlama
 
@@ -111,17 +111,17 @@ GPS sensörü uygulamasını programlayın.
 
     * **Source**'u `Lat/Lon` olarak ayarlayın ve GPS sabitlemesi için kullanılan açık bir enlem, boylam ve uydu sayısı ayarlayın. Bu değer yalnızca bir kez gönderilecektir, bu nedenle verilerin her saniye tekrarlanması için **Repeat** kutusunu işaretleyin.
 
-      ![Lat/Lon seçili GPS sensörü](../../../../../translated_images/counterfit-gps-sensor-latlon.008c867d75464fbe7f84107cc57040df565ac07cb57d2f21db37d087d470197d.tr.png)
+      ![Lat/Lon seçili GPS sensörü](../../../../../translated_images/tr/counterfit-gps-sensor-latlon.008c867d75464fbe7f84107cc57040df565ac07cb57d2f21db37d087d470197d.png)
 
     * **Source**'u `NMEA` olarak ayarlayın ve metin kutusuna bazı NMEA cümleleri ekleyin. Tüm bu değerler gönderilecek ve her yeni GGA (konum sabitleme) cümlesi okunmadan önce 1 saniyelik bir gecikme olacaktır.
 
-      ![NMEA cümleleri ayarlanmış GPS sensörü](../../../../../translated_images/counterfit-gps-sensor-nmea.c62eea442171e17e19528b051b104cfcecdc9cd18db7bc72920f29821ae63f73.tr.png)
+      ![NMEA cümleleri ayarlanmış GPS sensörü](../../../../../translated_images/tr/counterfit-gps-sensor-nmea.c62eea442171e17e19528b051b104cfcecdc9cd18db7bc72920f29821ae63f73.png)
 
       Bu cümleleri oluşturmak için [nmeagen.org](https://www.nmeagen.org) gibi bir araç kullanabilirsiniz. Bu değerler yalnızca bir kez gönderilecektir, bu nedenle tümü gönderildikten bir saniye sonra verilerin tekrarlanması için **Repeat** kutusunu işaretleyin.
 
     * **Source**'u GPX dosyası olarak ayarlayın ve bir GPX dosyası yükleyin. Bu dosyaları [AllTrails](https://www.alltrails.com/) gibi popüler haritalama ve yürüyüş sitelerinden indirebilirsiniz. Bu dosyalar bir iz olarak birden fazla GPS konumu içerir ve GPS sensörü her yeni konumu 1 saniyelik aralıklarla döndürecektir.
 
-      ![GPX dosyası ayarlanmış GPS sensörü](../../../../../translated_images/counterfit-gps-sensor-gpxfile.8310b063ce8a425ccc8ebeec8306aeac5e8e55207f007d52c6e1194432a70cd9.tr.png)
+      ![GPX dosyası ayarlanmış GPS sensörü](../../../../../translated_images/tr/counterfit-gps-sensor-gpxfile.8310b063ce8a425ccc8ebeec8306aeac5e8e55207f007d52c6e1194432a70cd9.png)
 
       Bu değerler yalnızca bir kez gönderilecektir, bu nedenle tümü gönderildikten bir saniye sonra verilerin tekrarlanması için **Repeat** kutusunu işaretleyin.
 

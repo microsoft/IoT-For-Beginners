@@ -47,11 +47,11 @@ CO_OP_TRANSLATOR_METADATA:
 
     1. **Add** بٹن کو منتخب کریں تاکہ پورٹ `/dev/ttyAMA0` پر جی پی ایس سینسر بنایا جا سکے۔
 
-    ![جی پی ایس سینسر کی سیٹنگز](../../../../../translated_images/counterfit-create-gps-sensor.6385dc9357d85ad1d47b4abb2525e7651fd498917d25eefc5a72feab09eedc70.ur.png)
+    ![جی پی ایس سینسر کی سیٹنگز](../../../../../translated_images/ur/counterfit-create-gps-sensor.6385dc9357d85ad1d47b4abb2525e7651fd498917d25eefc5a72feab09eedc70.png)
 
     جی پی ایس سینسر بنایا جائے گا اور سینسرز کی فہرست میں ظاہر ہوگا۔
 
-    ![جی پی ایس سینسر بنایا گیا](../../../../../translated_images/counterfit-gps-sensor.3fbb15af0a5367566f2f11324ef5a6f30861cdf2b497071a5e002b7aa473550e.ur.png)
+    ![جی پی ایس سینسر بنایا گیا](../../../../../translated_images/ur/counterfit-gps-sensor.3fbb15af0a5367566f2f11324ef5a6f30861cdf2b497071a5e002b7aa473550e.png)
 
 ## جی پی ایس سینسر کو پروگرام کریں
 
@@ -111,17 +111,17 @@ CO_OP_TRANSLATOR_METADATA:
 
     * **Source** کو `Lat/Lon` پر سیٹ کریں، اور ایک واضح لاٹیٹیوڈ، لانگیٹیوڈ اور سیٹلائٹس کی تعداد سیٹ کریں جو جی پی ایس فکس حاصل کرنے کے لیے استعمال ہو۔ یہ ویلیو صرف ایک بار بھیجی جائے گی، لہذا **Repeat** باکس کو چیک کریں تاکہ ڈیٹا ہر سیکنڈ دہرایا جائے۔
 
-      ![جی پی ایس سینسر کے ساتھ لاٹ لان منتخب](../../../../../translated_images/counterfit-gps-sensor-latlon.008c867d75464fbe7f84107cc57040df565ac07cb57d2f21db37d087d470197d.ur.png)
+      ![جی پی ایس سینسر کے ساتھ لاٹ لان منتخب](../../../../../translated_images/ur/counterfit-gps-sensor-latlon.008c867d75464fbe7f84107cc57040df565ac07cb57d2f21db37d087d470197d.png)
 
     * **Source** کو `NMEA` پر سیٹ کریں اور این ایم ای اے جملے ٹیکسٹ باکس میں شامل کریں۔ یہ تمام ویلیوز بھیجی جائیں گی، ہر نئے جی جی اے (پوزیشن فکس) جملے کو پڑھنے سے پہلے 1 سیکنڈ کی تاخیر کے ساتھ۔
 
-      ![جی پی ایس سینسر کے ساتھ این ایم ای اے جملے سیٹ](../../../../../translated_images/counterfit-gps-sensor-nmea.c62eea442171e17e19528b051b104cfcecdc9cd18db7bc72920f29821ae63f73.ur.png)
+      ![جی پی ایس سینسر کے ساتھ این ایم ای اے جملے سیٹ](../../../../../translated_images/ur/counterfit-gps-sensor-nmea.c62eea442171e17e19528b051b104cfcecdc9cd18db7bc72920f29821ae63f73.png)
 
       آپ [nmeagen.org](https://www.nmeagen.org) جیسے ٹول کا استعمال کر سکتے ہیں تاکہ نقشے پر ڈرائنگ کر کے یہ جملے تیار کیے جا سکیں۔ یہ ویلیوز صرف ایک بار بھیجی جائیں گی، لہذا **Repeat** باکس کو چیک کریں تاکہ ڈیٹا ایک سیکنڈ بعد دہرایا جائے۔
 
     * **Source** کو GPX فائل پر سیٹ کریں، اور ایک جی پی ایکس فائل اپلوڈ کریں جس میں ٹریک کے مقامات ہوں۔ آپ جی پی ایکس فائلز کو کئی مشہور میپنگ اور ہائکنگ سائٹس جیسے [AllTrails](https://www.alltrails.com/) سے ڈاؤنلوڈ کر سکتے ہیں۔ ان فائلز میں متعدد جی پی ایس مقامات بطور ٹریل شامل ہوتے ہیں، اور جی پی ایس سینسر ہر نئے مقام کو 1 سیکنڈ کے وقفے پر واپس کرے گا۔
 
-      ![جی پی ایس سینسر کے ساتھ جی پی ایکس فائل سیٹ](../../../../../translated_images/counterfit-gps-sensor-gpxfile.8310b063ce8a425ccc8ebeec8306aeac5e8e55207f007d52c6e1194432a70cd9.ur.png)
+      ![جی پی ایس سینسر کے ساتھ جی پی ایکس فائل سیٹ](../../../../../translated_images/ur/counterfit-gps-sensor-gpxfile.8310b063ce8a425ccc8ebeec8306aeac5e8e55207f007d52c6e1194432a70cd9.png)
 
       یہ ویلیوز صرف ایک بار بھیجی جائیں گی، لہذا **Repeat** باکس کو چیک کریں تاکہ ڈیٹا ایک سیکنڈ بعد دہرایا جائے۔
 

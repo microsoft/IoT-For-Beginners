@@ -27,13 +27,13 @@ Grove sıcaklık sensörü, Wio Terminal'in dijital portuna bağlanabilir.
 
 Sıcaklık sensörünü bağlayın.
 
-![Bir Grove sıcaklık sensörü](../../../../../translated_images/grove-dht11.07f8eafceee170043efbb53e1d15722bd4e00fbaa9ff74290b57e9f66eb82c17.tr.png)
+![Bir Grove sıcaklık sensörü](../../../../../translated_images/tr/grove-dht11.07f8eafceee170043efbb53e1d15722bd4e00fbaa9ff74290b57e9f66eb82c17.png)
 
 1. Grove kablosunun bir ucunu nem ve sıcaklık sensöründeki sokete takın. Kablo yalnızca tek bir yönde takılabilir.
 
 1. Wio Terminal'inizi bilgisayarınızdan veya başka bir güç kaynağından ayırarak, Grove kablosunun diğer ucunu Wio Terminal'in ekranına bakarken sağ taraftaki Grove soketine bağlayın. Bu, güç düğmesinden en uzak olan sokettir.
 
-![Sağ sokete bağlı Grove sıcaklık sensörü](../../../../../translated_images/wio-temperature-sensor.2934928f38c7f79a.tr.png)
+![Sağ sokete bağlı Grove sıcaklık sensörü](../../../../../translated_images/tr/wio-temperature-sensor.2934928f38c7f79a.png)
 
 ## Sıcaklık sensörünü programlayın
 

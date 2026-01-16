@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # 儲存位置數據
 
-![本課程的手繪筆記概覽](../../../../../translated_images/lesson-12.ca7f53039712a3ec14ad6474d8445361c84adab643edc53fa6269b77895606bb.tw.jpg)
+![本課程的手繪筆記概覽](../../../../../translated_images/tw/lesson-12.ca7f53039712a3ec14ad6474d8445361c84adab643edc53fa6269b77895606bb.jpg)
 
 > 手繪筆記由 [Nitya Narasimhan](https://github.com/nitya) 提供。點擊圖片查看更大版本。
 
@@ -66,7 +66,7 @@ IoT 數據通常被認為是非結構化數據。
 
 最早的數據庫是關聯式數據庫管理系統（RDBMS），也稱為關聯式數據庫。這些數據庫也被稱為 SQL 數據庫，因為它們使用結構化查詢語言（SQL）來添加、刪除、更新或查詢數據。這些數據庫由一個模式（schema）組成——一組明確定義的數據表，類似於電子表格。每個表都有多個命名列。當你插入數據時，你會向表中添加一行，將值放入每個列中。這使得數據保持非常固定的結構——儘管你可以留空某些列，但如果你想添加新列，則必須在數據庫中執行此操作，並為現有行填充值。這些數據庫是關聯式的——即一個表可以與另一個表有關聯。
 
-![一個關聯式數據庫，其中用戶表的 ID 與購買表的用戶 ID 列相關，產品表的 ID 與購買表的產品 ID 列相關](../../../../../translated_images/sql-database.be160f12bfccefd3.tw.png)
+![一個關聯式數據庫，其中用戶表的 ID 與購買表的用戶 ID 列相關，產品表的 ID 與購買表的產品 ID 列相關](../../../../../translated_images/tw/sql-database.be160f12bfccefd3.png)
 
 例如，如果你將用戶的個人詳細信息存儲在一個表中，你會為每個用戶分配某種內部唯一 ID，該 ID 用於包含用戶姓名和地址的表中的一行。如果你想在另一個表中存儲該用戶的其他詳細信息，例如購買記錄，你會在新表中為該用戶的 ID 添加一列。當你查詢用戶時，可以使用他們的 ID 從一個表中獲取個人詳細信息，並從另一個表中獲取購買記錄。
 
@@ -84,7 +84,7 @@ NoSQL 數據庫之所以被稱為 NoSQL，是因為它們沒有 SQL 數據庫那
 
 > 💁 儘管名稱如此，一些 NoSQL 數據庫允許你使用 SQL 查詢數據。
 
-![NoSQL 數據庫中的文件夾中的文檔](../../../../../translated_images/noqsl-database.62d24ccf5b73f60d35c245a8533f1c7147c0928e955b82cb290b2e184bb434df.tw.png)
+![NoSQL 數據庫中的文件夾中的文檔](../../../../../translated_images/tw/noqsl-database.62d24ccf5b73f60d35c245a8533f1c7147c0928e955b82cb290b2e184bb434df.png)
 
 NoSQL 數據庫沒有預定義的模式來限制數據的存儲方式，相反，你可以插入任何非結構化數據，通常使用 JSON 文檔。這些文檔可以組織成文件夾，類似於計算機上的文件。每個文檔可以與其他文檔具有不同的字段——例如，如果你存儲來自農場車輛的 IoT 數據，有些可能有加速度計和速度數據字段，其他可能有拖車內部溫度的字段。如果你添加了一種新型卡車，例如內置秤來跟蹤運輸的貨物重量，那麼你的 IoT 設備可以添加這個新字段，並且可以在不更改數據庫的情況下存儲它。
 
@@ -98,7 +98,7 @@ NoSQL 數據庫沒有預定義的模式來限制數據的存儲方式，相反�
 
 在上一課中，你從連接到 IoT 設備的 GPS 感測器捕捉了 GPS 數據。為了將這些 IoT 數據存儲到雲端，你需要將其發送到 IoT 服務。你將再次使用 Azure IoT Hub，這是你在上一個項目中使用的相同 IoT 雲服務。
 
-![將 GPS 遙測數據從 IoT 設備發送到 IoT Hub](../../../../../translated_images/gps-telemetry-iot-hub.8115335d51cd2c1285d20e9d1b18cf685e59a8e093e7797291ef173445af6f3d.tw.png)
+![將 GPS 遙測數據從 IoT 設備發送到 IoT Hub](../../../../../translated_images/tw/gps-telemetry-iot-hub.8115335d51cd2c1285d20e9d1b18cf685e59a8e093e7797291ef173445af6f3d.png)
 
 ### 任務 - 將 GPS 數據發送到 IoT Hub
 
@@ -180,7 +180,7 @@ message = Message(json.dumps(message_json))
 
 一旦數據流入你的 IoT Hub，你可以編寫一些無伺服器代碼來監聽發佈到 Event-Hub 兼容端點的事件。這是溫路徑——這些數據將被存儲，並在下一課中用於行程報告。
 
-![將 GPS 遙測數據從 IoT 設備發送到 IoT Hub，然後通過事件中心觸發器發送到 Azure Functions](../../../../../translated_images/gps-telemetry-iot-hub-functions.24d3fa5592455e9f4e2fe73856b40c3915a292b90263c31d652acfd976cfedd8.tw.png)
+![將 GPS 遙測數據從 IoT 設備發送到 IoT Hub，然後通過事件中心觸發器發送到 Azure Functions](../../../../../translated_images/tw/gps-telemetry-iot-hub-functions.24d3fa5592455e9f4e2fe73856b40c3915a292b90263c31d652acfd976cfedd8.png)
 
 ### 任務 - 使用無伺服器代碼處理 GPS 事件
 
@@ -202,7 +202,7 @@ message = Message(json.dumps(message_json))
 
 ## Azure 儲存帳戶
 
-![Azure Storage 標誌](../../../../../translated_images/azure-storage-logo.605c0f602c640d482a80f1b35a2629a32d595711b7ab1d7ceea843250615ff32.tw.png)
+![Azure Storage 標誌](../../../../../translated_images/tw/azure-storage-logo.605c0f602c640d482a80f1b35a2629a32d595711b7ab1d7ceea843250615ff32.png)
 
 Azure 儲存帳戶是一種通用的儲存服務，可以以多種不同的方式儲存數據。您可以將數據儲存為 Blob、佇列、表格或檔案，並且可以同時使用這些方式。
 
@@ -241,7 +241,7 @@ Azure 儲存帳戶是一種通用的儲存服務，可以以多種不同的方�
 
 在本課中，您將使用 Python SDK 來了解如何與 Blob 儲存進行互動。
 
-![從 IoT 裝置傳送 GPS 遙測數據到 IoT Hub，然後通過事件觸發器傳送到 Azure Functions，最後儲存到 Blob 儲存](../../../../../translated_images/save-telemetry-to-storage-from-functions.ed3b1820980097f1.tw.png)
+![從 IoT 裝置傳送 GPS 遙測數據到 IoT Hub，然後通過事件觸發器傳送到 Azure Functions，最後儲存到 Blob 儲存](../../../../../translated_images/tw/save-telemetry-to-storage-from-functions.ed3b1820980097f1.png)
 
 數據將以以下格式儲存為 JSON Blob：
 

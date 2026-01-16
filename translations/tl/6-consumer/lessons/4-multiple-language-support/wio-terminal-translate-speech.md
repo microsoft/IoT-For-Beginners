@@ -114,7 +114,7 @@ Ang REST API ng speech service ay hindi sumusuporta sa direktang pagsasalin. Sa 
     >
     > Halimbawa, kung sinanay mo ang LUIS sa Ingles, ngunit nais mong gamitin ang Pranses bilang wika ng user, maaari mong isalin ang mga pangungusap tulad ng "set a 2 minute and 27 second timer" mula sa Ingles patungo sa Pranses gamit ang Bing Translate, pagkatapos ay gamitin ang **Listen translation** button upang sabihin ang pagsasalin sa iyong mikropono.
     >
-    > ![Ang listen translation button sa Bing translate](../../../../../translated_images/bing-translate.348aa796d6efe2a92f41ea74a5cf42bb4c63d6faaa08e7f46924e072a35daa48.tl.png)
+    > ![Ang listen translation button sa Bing translate](../../../../../translated_images/tl/bing-translate.348aa796d6efe2a92f41ea74a5cf42bb4c63d6faaa08e7f46924e072a35daa48.png)
 
 1. Idagdag ang translator API key at lokasyon sa ibaba ng `SPEECH_LOCATION`:
 

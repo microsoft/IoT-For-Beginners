@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Birden Fazla Dili Destekleme
 
-![Bu dersin genel bir sketchnote özeti](../../../../../translated_images/lesson-24.4246968ed058510ab275052e87ef9aa89c7b2f938915d103c605c04dc6cd5bb7.tr.jpg)
+![Bu dersin genel bir sketchnote özeti](../../../../../translated_images/tr/lesson-24.4246968ed058510ab275052e87ef9aa89c7b2f938915d103c605c04dc6cd5bb7.jpg)
 
 > Sketchnote: [Nitya Narasimhan](https://github.com/nitya). Daha büyük bir versiyon için görsele tıklayın.
 
@@ -83,7 +83,7 @@ Uygulamalarınızdan konuşma ve metin çevirisi yapmak için kullanabileceğini
 
 ### Bilişsel Hizmetler Konuşma Hizmeti
 
-![Konuşma hizmeti logosu](../../../../../translated_images/azure-speech-logo.a1f08c4befb0159f2cb5d692d3baf5b599e7b44759d316da907bda1508f46a4a.tr.png)
+![Konuşma hizmeti logosu](../../../../../translated_images/tr/azure-speech-logo.a1f08c4befb0159f2cb5d692d3baf5b599e7b44759d316da907bda1508f46a4a.png)
 
 Son birkaç derste kullandığınız konuşma hizmeti, konuşma tanıma için çeviri yeteneklerine sahiptir. Konuşmayı tanıdığınızda, yalnızca aynı dildeki konuşmanın metnini değil, aynı zamanda diğer dillerdeki metni de talep edebilirsiniz.
 
@@ -91,7 +91,7 @@ Son birkaç derste kullandığınız konuşma hizmeti, konuşma tanıma için ç
 
 ### Bilişsel Hizmetler Çevirmen Hizmeti
 
-![Çevirmen hizmeti logosu](../../../../../translated_images/azure-translator-logo.c6ed3a4a433edfd2f11577eca105412c50b8396b194cbbd730723dd1d0793bcd.tr.png)
+![Çevirmen hizmeti logosu](../../../../../translated_images/tr/azure-translator-logo.c6ed3a4a433edfd2f11577eca105412c50b8396b194cbbd730723dd1d0793bcd.png)
 
 Çevirmen hizmeti, bir dilden bir veya daha fazla hedef dile metin çevirebilen özel bir çeviri hizmetidir. Çeviri yapmanın yanı sıra, küfürleri maskeleme gibi çok çeşitli ek özellikleri destekler. Ayrıca, belirli bir kelime veya cümle için belirli bir çeviri sağlamanıza, çevrilmesini istemediğiniz terimlerle çalışmanıza veya belirli bir iyi bilinen çeviriyi kullanmanıza olanak tanır.
 
@@ -130,7 +130,7 @@ Bu ders için bir Çevirmen kaynağına ihtiyacınız olacak. Metin çevirisi ya
 
 İdeal bir dünyada, tüm uygulamanız mümkün olduğunca çok dili anlamalıdır; konuşmayı dinlemekten, dili anlamaya ve konuşma ile yanıt vermeye kadar. Bu oldukça fazla iş gerektirir, bu nedenle çeviri hizmetleri uygulamanızın teslim süresini hızlandırabilir.
 
-![Japoncayı İngilizceye çeviren, İngilizce işleyen ve ardından Japoncaya çeviren bir akıllı zamanlayıcı mimarisi](../../../../../translated_images/translated-smart-timer.08ac20057fdc5c37.tr.png)
+![Japoncayı İngilizceye çeviren, İngilizce işleyen ve ardından Japoncaya çeviren bir akıllı zamanlayıcı mimarisi](../../../../../translated_images/tr/translated-smart-timer.08ac20057fdc5c37.png)
 
 Diyelim ki, baştan sona İngilizce kullanan bir akıllı zamanlayıcı oluşturuyorsunuz. İngilizce konuşmayı anlayıp metne dönüştürerek, dili İngilizce anlayarak, İngilizce yanıtlar oluşturup İngilizce konuşma ile yanıt vererek çalışıyor. Japonca desteği eklemek istiyorsanız, Japonca konuşmayı İngilizce metne çevirerek başlayabilir, ardından uygulamanın çekirdeğini aynı tutabilir ve yanıt metnini Japoncaya çevirerek yanıtı konuşabilirsiniz. Bu, Japonca desteğini hızlı bir şekilde eklemenizi sağlar ve daha sonra tam uçtan uca Japonca desteği sağlamaya genişleyebilirsiniz.
 

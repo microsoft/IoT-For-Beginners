@@ -25,13 +25,13 @@ CO_OP_TRANSLATOR_METADATA:
 
 Підключіть датчик температури
 
-![Датчик температури Grove](../../../../../translated_images/grove-dht11.07f8eafceee170043efbb53e1d15722bd4e00fbaa9ff74290b57e9f66eb82c17.uk.png)
+![Датчик температури Grove](../../../../../translated_images/uk/grove-dht11.07f8eafceee170043efbb53e1d15722bd4e00fbaa9ff74290b57e9f66eb82c17.png)
 
 1. Вставте один кінець кабелю Grove у роз'єм на датчику вологості та температури. Він вставляється лише в одному напрямку.
 
 1. З вимкненим Raspberry Pi підключіть інший кінець кабелю Grove до цифрового роз'єму, позначеного **D5**, на Grove Base Hat, підключеному до Pi. Цей роз'єм є другим зліва в ряду роз'ємів поруч із GPIO-пінами.
 
-![Датчик температури Grove, підключений до роз'єму A0](../../../../../translated_images/pi-temperature-sensor.3ff82fff672c8e56.uk.png)
+![Датчик температури Grove, підключений до роз'єму A0](../../../../../translated_images/uk/pi-temperature-sensor.3ff82fff672c8e56.png)
 
 ## Програмування датчика температури
 

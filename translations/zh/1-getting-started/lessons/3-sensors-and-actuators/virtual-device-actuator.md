@@ -45,11 +45,11 @@ Otherwise
 
     1. 点击 **Add** 按钮，在引脚5上创建LED。
 
-    ![LED设置](../../../../../translated_images/counterfit-create-led.ba9db1c9b8c622a635d6dfae5cdc4e70c2b250635bd4f0601c6cf0bd22b7ba46.zh.png)
+    ![LED设置](../../../../../translated_images/zh/counterfit-create-led.ba9db1c9b8c622a635d6dfae5cdc4e70c2b250635bd4f0601c6cf0bd22b7ba46.png)
 
     LED将被创建并显示在执行器列表中。
 
-    ![创建的LED](../../../../../translated_images/counterfit-led.c0ab02de6d256ad84d9bad4d67a7faa709f0ea83e410cfe9b5561ef0cef30b1c.zh.png)
+    ![创建的LED](../../../../../translated_images/zh/counterfit-led.c0ab02de6d256ad84d9bad4d67a7faa709f0ea83e410cfe9b5561ef0cef30b1c.png)
 
     创建LED后，您可以使用 *Color* 选择器更改颜色。选择颜色后，点击 **Set** 按钮以更改颜色。
 

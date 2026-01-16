@@ -25,13 +25,13 @@ Raspberry Pi 需要一個按鈕來控制音訊捕捉。
 
 #### 任務 - 連接按鈕
 
-![Grove 按鈕](../../../../../translated_images/grove-button.a70cfbb809a8563681003250cf5b06d68cdcc68624f9e2f493d5a534ae2da1e5.tw.png)
+![Grove 按鈕](../../../../../translated_images/tw/grove-button.a70cfbb809a8563681003250cf5b06d68cdcc68624f9e2f493d5a534ae2da1e5.png)
 
 1. 將 Grove 電纜的一端插入按鈕模組上的插座。它只能以一種方式插入。
 
 1. 在 Raspberry Pi 關機的情況下，將 Grove 電纜的另一端連接到 Pi 上 Grove 基座 HAT 的數位插座 **D5**。此插座位於 GPIO 引腳旁邊的一排插座中，從左數第二個。
 
-![Grove 按鈕連接到插座 D5](../../../../../translated_images/pi-button.c7a1a4f55943341ce1baf1057658e9a205804d4131d258e820c93f951df0abf3.tw.png)
+![Grove 按鈕連接到插座 D5](../../../../../translated_images/tw/pi-button.c7a1a4f55943341ce1baf1057658e9a205804d4131d258e820c93f951df0abf3.png)
 
 ## 捕捉音訊
 

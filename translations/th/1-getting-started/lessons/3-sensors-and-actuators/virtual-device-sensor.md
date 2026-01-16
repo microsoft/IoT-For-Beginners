@@ -37,11 +37,11 @@ CO_OP_TRANSLATOR_METADATA:
 
     1. คลิกปุ่ม **Add** เพื่อสร้างเซ็นเซอร์วัดแสงบน Pin 0
 
-    ![การตั้งค่าเซ็นเซอร์วัดแสง](../../../../../translated_images/counterfit-create-light-sensor.9f36a5e0d4458d8d554d54b34d2c806d56093d6e49fddcda2d20f6fef7f5cce1.th.png)
+    ![การตั้งค่าเซ็นเซอร์วัดแสง](../../../../../translated_images/th/counterfit-create-light-sensor.9f36a5e0d4458d8d554d54b34d2c806d56093d6e49fddcda2d20f6fef7f5cce1.png)
 
     เซ็นเซอร์วัดแสงจะถูกสร้างขึ้นและปรากฏในรายการเซ็นเซอร์
 
-    ![เซ็นเซอร์วัดแสงที่ถูกสร้างขึ้น](../../../../../translated_images/counterfit-light-sensor.5d0f5584df56b90f6b2561910d9cb20dfbd73eeff2177c238d38f4de54aefae1.th.png)
+    ![เซ็นเซอร์วัดแสงที่ถูกสร้างขึ้น](../../../../../translated_images/th/counterfit-light-sensor.5d0f5584df56b90f6b2561910d9cb20dfbd73eeff2177c238d38f4de54aefae1.png)
 
 ## เขียนโปรแกรมเซ็นเซอร์วัดแสง
 

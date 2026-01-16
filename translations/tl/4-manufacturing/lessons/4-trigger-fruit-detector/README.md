@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # I-trigger ang pagtukoy ng kalidad ng prutas mula sa isang sensor
 
-![Isang sketchnote na buod ng araling ito](../../../../../translated_images/lesson-18.92c32ed1d354caa5a54baa4032cf0b172d4655e8e326ad5d46c558a0def15365.tl.jpg)
+![Isang sketchnote na buod ng araling ito](../../../../../translated_images/tl/lesson-18.92c32ed1d354caa5a54baa4032cf0b172d4655e8e326ad5d46c558a0def15365.jpg)
 
 > Sketchnote ni [Nitya Narasimhan](https://github.com/nitya). I-click ang imahe para sa mas malaking bersyon.
 
@@ -48,7 +48,7 @@ Ang mga IoT application ay maaaring ilarawan bilang *mga bagay* (devices) na nag
 
 ### Reference IoT architecture
 
-![Isang reference na IoT architecture](../../../../../translated_images/iot-reference-architecture.2278b98b55c6d4e89bde18eada3688d893861d43507641804dd2f9d3079cfaa0.tl.png)
+![Isang reference na IoT architecture](../../../../../translated_images/tl/iot-reference-architecture.2278b98b55c6d4e89bde18eada3688d893861d43507641804dd2f9d3079cfaa0.png)
 
 Ang diagram sa itaas ay nagpapakita ng isang reference na IoT architecture.
 
@@ -58,7 +58,7 @@ Ang diagram sa itaas ay nagpapakita ng isang reference na IoT architecture.
 * **Mga Insight** ay nagmumula sa mga serverless applications, o mula sa analytics na tumatakbo sa nakaimbak na data.
 * **Mga Aksyon** ay maaaring mga utos na ipinapadala sa mga device, o visualization ng data na nagpapahintulot sa mga tao na gumawa ng mga desisyon.
 
-![Isang reference na IoT architecture](../../../../../translated_images/iot-reference-architecture-azure.0b8d2161af924cb18ae48a8558a19541cca47f27264851b5b7e56d7b8bb372ac.tl.png)
+![Isang reference na IoT architecture](../../../../../translated_images/tl/iot-reference-architecture-azure.0b8d2161af924cb18ae48a8558a19541cca47f27264851b5b7e56d7b8bb372ac.png)
 
 Ang diagram sa itaas ay nagpapakita ng ilan sa mga bahagi at serbisyo na natalakay na sa mga araling ito at kung paano sila nag-uugnay sa isang reference na IoT architecture.
 
@@ -98,7 +98,7 @@ Kailangan mong bumuo ng isang sistema kung saan ang prutas ay natutukoy habang d
 
 ### Pag-prototype ng iyong application
 
-![Isang reference na IoT architecture para sa pagsusuri ng kalidad ng prutas](../../../../../translated_images/iot-reference-architecture-fruit-quality.cc705f121c3b6fa71c800d9630935ac34bc08223a04601e35f41d5e9b5dd5207.tl.png)
+![Isang reference na IoT architecture para sa pagsusuri ng kalidad ng prutas](../../../../../translated_images/tl/iot-reference-architecture-fruit-quality.cc705f121c3b6fa71c800d9630935ac34bc08223a04601e35f41d5e9b5dd5207.png)
 
 Ang diagram sa itaas ay nagpapakita ng isang reference na arkitektura para sa prototype application na ito.
 
@@ -115,7 +115,7 @@ Para sa prototype, ipapatupad mo ang lahat ng ito sa isang solong device. Kung g
 
 Ang IoT device ay nangangailangan ng isang uri ng trigger upang ipahiwatig kung kailan handa na ang prutas na ma-classify. Ang isang trigger para dito ay ang pagsukat kung kailan ang prutas ay nasa tamang lokasyon sa conveyor belt sa pamamagitan ng pagsukat ng distansya sa isang sensor.
 
-![Ang mga proximity sensor ay nagpapadala ng laser beams sa mga bagay tulad ng saging at sinusukat ang oras bago bumalik ang beam](../../../../../translated_images/proximity-sensor.f5cd752c77fb62fe.tl.png)
+![Ang mga proximity sensor ay nagpapadala ng laser beams sa mga bagay tulad ng saging at sinusukat ang oras bago bumalik ang beam](../../../../../translated_images/tl/proximity-sensor.f5cd752c77fb62fe.png)
 
 Ang mga proximity sensor ay maaaring gamitin upang sukatin ang distansya mula sa sensor patungo sa isang bagay. Karaniwan silang nagpapadala ng isang beam ng electromagnetic radiation tulad ng laser beam o infra-red light, pagkatapos ay natutukoy ang radiation na bumabalik mula sa isang bagay. Ang oras sa pagitan ng pagpapadala ng laser beam at pagbabalik ng signal ay maaaring gamitin upang kalkulahin ang distansya sa sensor.
 
@@ -133,7 +133,7 @@ Sundin ang kaukulang gabay upang gumamit ng proximity sensor upang matukoy ang i
 
 Ang prototype fruit detector ay may maraming bahagi na nakikipag-ugnayan sa isa't isa.
 
-![Ang mga bahagi na nakikipag-ugnayan sa isa't isa](../../../../../translated_images/fruit-quality-detector-message-flow.adf2a65da8fd8741ac7af11361574de89adc126785d67606bb4d2ec00467e380.tl.png)
+![Ang mga bahagi na nakikipag-ugnayan sa isa't isa](../../../../../translated_images/tl/fruit-quality-detector-message-flow.adf2a65da8fd8741ac7af11361574de89adc126785d67606bb4d2ec00467e380.png)
 
 * Isang proximity sensor na sumusukat sa distansya sa isang piraso ng prutas at nagpapadala nito sa IoT Hub
 * Ang utos upang kontrolin ang camera na nagmumula sa IoT Hub patungo sa camera device

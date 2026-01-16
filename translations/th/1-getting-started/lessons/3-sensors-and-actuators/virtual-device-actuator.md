@@ -45,11 +45,11 @@ Otherwise
 
     1. เลือกปุ่ม **Add** เพื่อสร้าง LED บน Pin 5
 
-    ![การตั้งค่า LED](../../../../../translated_images/counterfit-create-led.ba9db1c9b8c622a635d6dfae5cdc4e70c2b250635bd4f0601c6cf0bd22b7ba46.th.png)
+    ![การตั้งค่า LED](../../../../../translated_images/th/counterfit-create-led.ba9db1c9b8c622a635d6dfae5cdc4e70c2b250635bd4f0601c6cf0bd22b7ba46.png)
 
     LED จะถูกสร้างขึ้นและปรากฏในรายการตัวกระตุ้น
 
-    ![LED ที่ถูกสร้างขึ้น](../../../../../translated_images/counterfit-led.c0ab02de6d256ad84d9bad4d67a7faa709f0ea83e410cfe9b5561ef0cef30b1c.th.png)
+    ![LED ที่ถูกสร้างขึ้น](../../../../../translated_images/th/counterfit-led.c0ab02de6d256ad84d9bad4d67a7faa709f0ea83e410cfe9b5561ef0cef30b1c.png)
 
     เมื่อ LED ถูกสร้างขึ้นแล้ว คุณสามารถเปลี่ยนสีได้โดยใช้ตัวเลือก *Color* เลือกปุ่ม **Set** เพื่อเปลี่ยนสีหลังจากที่คุณเลือกแล้ว
 

@@ -35,7 +35,7 @@ Grove LED మాడ్యూల్ రూపంలో వస్తుంది, 
 
 LED ని కనెక్ట్ చేయండి.
 
-![A grove LED](../../../../../translated_images/grove-led.6c853be93f473cf2.te.png)
+![A grove LED](../../../../../translated_images/te/grove-led.6c853be93f473cf2.png)
 
 1. మీ ఇష్టమైన LED ఎంచుకుని LED మాడ్యూల్ లోని రెండు రంధ్రాల్లో గుండ్రని లెగ్స్ ని సులభంగా ఇన్సర్ట్ చేయండి.
 
@@ -51,7 +51,7 @@ LED ని కనెక్ట్ చేయండి.
 
     > 💁 కుడి వైపు Grove సోకెట్ అనలాగ్ లేదా డిజిటల్ సెన్సర్లు, యాక్చువేటర్లు కోసం ఉపయోగించవచ్చు. ఎడమ వైపు సోకెట్ కేవలం I<sup>2</sup>C మరియు డిజిటల్ సెన్సర్లు, యాక్చువేటర్లు కోసం మాత్రమే. I<sup>2</sup>C తరువాతి పాఠంలో బోధింపబడుతుంది.
 
-![The grove LED connected to the right hand socket](../../../../../translated_images/wio-led.265a1897e72d7f21.te.png)
+![The grove LED connected to the right hand socket](../../../../../translated_images/te/wio-led.265a1897e72d7f21.png)
 
 ## రాత్రి లైట్ ప్రోగ్రామింగ్
 

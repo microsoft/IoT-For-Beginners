@@ -19,7 +19,7 @@ Dahili mikrofon, analog bir sinyal yakalar ve bu sinyal, Wio Terminal'in kullana
 
 ✅ DMA hakkında daha fazla bilgi için [Wikipedia'daki doğrudan bellek erişimi sayfasını](https://wikipedia.org/wiki/Direct_memory_access) okuyun.
 
-![Mikrofondan gelen ses ADC'ye, ardından DMAC'ye gider. Bu, bir arabelleğe yazar. Bu arabellek dolduğunda işlenir ve DMAC ikinci bir arabelleğe yazar](../../../../../translated_images/dmac-adc-buffers.4509aee49145c90bc2e1be472b8ed2ddfcb2b6a81ad3e559114aca55f5fff759.tr.png)
+![Mikrofondan gelen ses ADC'ye, ardından DMAC'ye gider. Bu, bir arabelleğe yazar. Bu arabellek dolduğunda işlenir ve DMAC ikinci bir arabelleğe yazar](../../../../../translated_images/tr/dmac-adc-buffers.4509aee49145c90bc2e1be472b8ed2ddfcb2b6a81ad3e559114aca55f5fff759.png)
 
 DMAC, ADC'den sabit aralıklarla ses yakalayabilir, örneğin 16KHz ses için saniyede 16.000 kez. Bu yakalanan verileri önceden ayrılmış bir bellek arabelleğine yazabilir ve bu dolduğunda, işlenmesi için kodunuza sunabilir. Bu belleği kullanmak ses kaydını geciktirebilir, ancak birden fazla arabellek ayarlayabilirsiniz. DMAC, arabellek 1'e yazar, ardından bu dolduğunda, kodunuza arabellek 1'i işlemesi için bildirimde bulunur ve DMAC arabellek 2'ye yazar. Arabellek 2 dolduğunda, kodunuza bildirimde bulunur ve tekrar arabellek 1'e yazmaya başlar. Bu şekilde, her bir arabelleği doldurmak için geçen süreden daha kısa sürede işlerseniz, hiçbir veri kaybetmezsiniz.
 

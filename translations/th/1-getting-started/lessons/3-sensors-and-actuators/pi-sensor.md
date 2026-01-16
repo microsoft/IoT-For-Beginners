@@ -25,13 +25,13 @@ CO_OP_TRANSLATOR_METADATA:
 
 เชื่อมต่อเซ็นเซอร์วัดแสง
 
-![เซ็นเซอร์วัดแสง Grove](../../../../../translated_images/grove-light-sensor.b8127b7c434e632d6bcdb57587a14e9ef69a268a22df95d08628f62b8fa5505c.th.png)
+![เซ็นเซอร์วัดแสง Grove](../../../../../translated_images/th/grove-light-sensor.b8127b7c434e632d6bcdb57587a14e9ef69a268a22df95d08628f62b8fa5505c.png)
 
 1. เสียบปลายสาย Grove ด้านหนึ่งเข้ากับช่องเสียบบนโมดูลเซ็นเซอร์วัดแสง สายจะเสียบได้เพียงด้านเดียวเท่านั้น
 
 1. เมื่อ Raspberry Pi ปิดอยู่ ให้เชื่อมต่อปลายสาย Grove อีกด้านเข้ากับช่องอนาล็อกที่มีเครื่องหมาย **A0** บน Grove Base hat ที่ติดตั้งอยู่บน Pi ช่องนี้เป็นช่องที่สองจากด้านขวาในแถวของช่องเสียบที่อยู่ติดกับ GPIO pins
 
-![เซ็นเซอร์วัดแสง Grove เชื่อมต่อกับช่อง A0](../../../../../translated_images/pi-light-sensor.66cc1e31fa48cd7d5f23400d4b2119aa41508275cb7c778053a7923b4e972d7e.th.png)
+![เซ็นเซอร์วัดแสง Grove เชื่อมต่อกับช่อง A0](../../../../../translated_images/th/pi-light-sensor.66cc1e31fa48cd7d5f23400d4b2119aa41508275cb7c778053a7923b4e972d7e.png)
 
 ## เขียนโปรแกรมเซ็นเซอร์วัดแสง
 

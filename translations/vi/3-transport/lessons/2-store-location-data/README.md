@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Lưu trữ dữ liệu vị trí
 
-![Tổng quan bài học dưới dạng sketchnote](../../../../../translated_images/lesson-12.ca7f53039712a3ec14ad6474d8445361c84adab643edc53fa6269b77895606bb.vi.jpg)
+![Tổng quan bài học dưới dạng sketchnote](../../../../../translated_images/vi/lesson-12.ca7f53039712a3ec14ad6474d8445361c84adab643edc53fa6269b77895606bb.jpg)
 
 > Sketchnote bởi [Nitya Narasimhan](https://github.com/nitya). Nhấn vào hình ảnh để xem phiên bản lớn hơn.
 
@@ -66,7 +66,7 @@ Cơ sở dữ liệu là các dịch vụ cho phép bạn lưu trữ và truy v�
 
 Các cơ sở dữ liệu đầu tiên là Hệ thống Quản lý Cơ sở dữ liệu Quan hệ (RDBMS), hay cơ sở dữ liệu quan hệ. Chúng còn được gọi là cơ sở dữ liệu SQL theo ngôn ngữ Structured Query Language (SQL) được sử dụng để tương tác với chúng nhằm thêm, xóa, cập nhật hoặc truy vấn dữ liệu. Các cơ sở dữ liệu này bao gồm một lược đồ - một tập hợp các bảng dữ liệu được định nghĩa rõ ràng, tương tự như bảng tính. Mỗi bảng có nhiều cột được đặt tên. Khi bạn chèn dữ liệu, bạn thêm một hàng vào bảng, đặt giá trị vào từng cột. Điều này giữ cho dữ liệu có cấu trúc rất cứng nhắc - mặc dù bạn có thể để trống các cột, nếu bạn muốn thêm một cột mới, bạn phải thực hiện điều này trên cơ sở dữ liệu, điền giá trị cho các hàng hiện có. Các cơ sở dữ liệu này có tính quan hệ - nghĩa là một bảng có thể có mối quan hệ với bảng khác.
 
-![Một cơ sở dữ liệu quan hệ với ID của bảng Người dùng liên quan đến cột ID người dùng của bảng mua hàng, và ID của bảng sản phẩm liên quan đến cột ID sản phẩm của bảng mua hàng](../../../../../translated_images/sql-database.be160f12bfccefd3.vi.png)
+![Một cơ sở dữ liệu quan hệ với ID của bảng Người dùng liên quan đến cột ID người dùng của bảng mua hàng, và ID của bảng sản phẩm liên quan đến cột ID sản phẩm của bảng mua hàng](../../../../../translated_images/vi/sql-database.be160f12bfccefd3.png)
 
 Ví dụ, nếu bạn lưu trữ thông tin cá nhân của người dùng trong một bảng, bạn sẽ có một số ID duy nhất nội bộ cho mỗi người dùng được sử dụng trong một hàng trong bảng chứa tên và địa chỉ của người dùng. Nếu bạn muốn lưu trữ các chi tiết khác về người dùng đó, chẳng hạn như các giao dịch mua của họ, trong một bảng khác, bạn sẽ có một cột trong bảng mới cho ID của người dùng đó. Khi bạn tra cứu một người dùng, bạn có thể sử dụng ID của họ để lấy thông tin cá nhân từ một bảng và các giao dịch mua của họ từ bảng khác.
 
@@ -84,7 +84,7 @@ Cơ sở dữ liệu NoSQL được gọi là NoSQL vì chúng không có cấu 
 
 > 💁 Mặc dù tên gọi của chúng, một số cơ sở dữ liệu NoSQL cho phép bạn sử dụng SQL để truy vấn dữ liệu.
 
-![Tài liệu trong các thư mục trong cơ sở dữ liệu NoSQL](../../../../../translated_images/noqsl-database.62d24ccf5b73f60d35c245a8533f1c7147c0928e955b82cb290b2e184bb434df.vi.png)
+![Tài liệu trong các thư mục trong cơ sở dữ liệu NoSQL](../../../../../translated_images/vi/noqsl-database.62d24ccf5b73f60d35c245a8533f1c7147c0928e955b82cb290b2e184bb434df.png)
 
 Cơ sở dữ liệu NoSQL không có lược đồ được định nghĩa trước giới hạn cách dữ liệu được lưu trữ, thay vào đó bạn có thể chèn bất kỳ dữ liệu không có cấu trúc nào, thường sử dụng tài liệu JSON. Các tài liệu này có thể được tổ chức thành các thư mục, tương tự như các tệp trên máy tính của bạn. Mỗi tài liệu có thể có các trường khác nhau so với các tài liệu khác - ví dụ, nếu bạn đang lưu trữ dữ liệu IoT từ các phương tiện nông trại của bạn, một số có thể có các trường cho dữ liệu gia tốc và tốc độ, trong khi các tài liệu khác có thể có các trường cho nhiệt độ trong rơ-moóc. Nếu bạn thêm một loại xe tải mới, chẳng hạn như một loại có cân tích hợp để theo dõi trọng lượng hàng hóa, thì thiết bị IoT của bạn có thể thêm trường mới này và nó có thể được lưu trữ mà không cần thay đổi cơ sở dữ liệu.
 
@@ -98,7 +98,7 @@ Trong bài học này, bạn sẽ sử dụng lưu trữ NoSQL để lưu trữ 
 
 Trong bài học trước, bạn đã thu thập dữ liệu GPS từ cảm biến GPS được kết nối với thiết bị IoT của bạn. Để lưu trữ dữ liệu IoT này trên đám mây, bạn cần gửi nó đến một dịch vụ IoT. Một lần nữa, bạn sẽ sử dụng Azure IoT Hub, cùng dịch vụ IoT trên đám mây mà bạn đã sử dụng trong dự án trước.
 
-![Gửi dữ liệu GPS từ thiết bị IoT đến IoT Hub](../../../../../translated_images/gps-telemetry-iot-hub.8115335d51cd2c1285d20e9d1b18cf685e59a8e093e7797291ef173445af6f3d.vi.png)
+![Gửi dữ liệu GPS từ thiết bị IoT đến IoT Hub](../../../../../translated_images/vi/gps-telemetry-iot-hub.8115335d51cd2c1285d20e9d1b18cf685e59a8e093e7797291ef173445af6f3d.png)
 
 ### Nhiệm vụ - gửi dữ liệu GPS đến IoT Hub
 
@@ -180,7 +180,7 @@ Dữ liệu đường dẫn lạnh được lưu trữ trong các kho dữ liệ
 
 Khi dữ liệu đang chảy vào IoT Hub, bạn có thể viết một số mã không máy chủ để lắng nghe các sự kiện được xuất bản đến điểm cuối tương thích Event-Hub. Đây là đường dẫn ấm - dữ liệu này sẽ được lưu trữ và sử dụng trong bài học tiếp theo để báo cáo về hành trình.
 
-![Gửi dữ liệu GPS từ thiết bị IoT đến IoT Hub, sau đó đến Azure Functions thông qua trình kích hoạt event hub](../../../../../translated_images/gps-telemetry-iot-hub-functions.24d3fa5592455e9f4e2fe73856b40c3915a292b90263c31d652acfd976cfedd8.vi.png)
+![Gửi dữ liệu GPS từ thiết bị IoT đến IoT Hub, sau đó đến Azure Functions thông qua trình kích hoạt event hub](../../../../../translated_images/vi/gps-telemetry-iot-hub-functions.24d3fa5592455e9f4e2fe73856b40c3915a292b90263c31d652acfd976cfedd8.png)
 
 ### Nhiệm vụ - xử lý sự kiện GPS bằng mã không máy chủ
 
@@ -202,7 +202,7 @@ Khi dữ liệu đang chảy vào IoT Hub, bạn có thể viết một số mã
 
 ## Tài khoản lưu trữ Azure
 
-![Logo Azure Storage](../../../../../translated_images/azure-storage-logo.605c0f602c640d482a80f1b35a2629a32d595711b7ab1d7ceea843250615ff32.vi.png)
+![Logo Azure Storage](../../../../../translated_images/vi/azure-storage-logo.605c0f602c640d482a80f1b35a2629a32d595711b7ab1d7ceea843250615ff32.png)
 
 Azure Storage Accounts là một dịch vụ lưu trữ đa năng có thể lưu trữ dữ liệu theo nhiều cách khác nhau. Bạn có thể lưu trữ dữ liệu dưới dạng blob, trong hàng đợi, trong bảng, hoặc dưới dạng tệp, và tất cả cùng một lúc.
 
@@ -241,7 +241,7 @@ Lưu trữ tệp là lưu trữ các tệp trên đám mây, và bất kỳ ứn
 
 Trong bài học này, bạn sẽ sử dụng SDK Python để xem cách tương tác với lưu trữ blob.
 
-![Gửi dữ liệu GPS từ thiết bị IoT đến IoT Hub, sau đó đến Azure Functions qua trình kích hoạt event hub, rồi lưu vào lưu trữ blob](../../../../../translated_images/save-telemetry-to-storage-from-functions.ed3b1820980097f1.vi.png)
+![Gửi dữ liệu GPS từ thiết bị IoT đến IoT Hub, sau đó đến Azure Functions qua trình kích hoạt event hub, rồi lưu vào lưu trữ blob](../../../../../translated_images/vi/save-telemetry-to-storage-from-functions.ed3b1820980097f1.png)
 
 Dữ liệu sẽ được lưu dưới dạng một blob JSON với định dạng sau:
 

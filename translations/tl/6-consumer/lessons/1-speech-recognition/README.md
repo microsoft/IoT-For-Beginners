@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Pagkilala sa boses gamit ang IoT device
 
-![Isang sketchnote overview ng araling ito](../../../../../translated_images/lesson-21.e34de51354d6606fb5ee08d8c89d0222eea0a2a7aaf744a8805ae847c4f69dc4.tl.jpg)
+![Isang sketchnote overview ng araling ito](../../../../../translated_images/tl/lesson-21.e34de51354d6606fb5ee08d8c89d0222eea0a2a7aaf744a8805ae847c4f69dc4.jpg)
 
 > Sketchnote ni [Nitya Narasimhan](https://github.com/nitya). I-click ang imahe para sa mas malaking bersyon.
 
@@ -60,19 +60,19 @@ Ang mga mikropono ay may iba't ibang uri:
 
     Ang dynamic microphones ay hindi nangangailangan ng power upang gumana, ang electrical signal ay nililikha nang buo mula sa mikropono.
 
-    ![Si Patti Smith na kumakanta gamit ang Shure SM58 (dynamic cardioid type) microphone](../../../../../translated_images/dynamic-mic.8babac890a2d80dfb0874b5bf37d4b851fe2aeb9da6fd72945746176978bf3bb.tl.jpg)
+    ![Si Patti Smith na kumakanta gamit ang Shure SM58 (dynamic cardioid type) microphone](../../../../../translated_images/tl/dynamic-mic.8babac890a2d80dfb0874b5bf37d4b851fe2aeb9da6fd72945746176978bf3bb.jpg)
 
 * Ribbon - Ang ribbon microphones ay katulad ng dynamic microphones, maliban na mayroon silang metal ribbon sa halip na diaphragm. Ang ribbon na ito ay gumagalaw sa magnetic field na lumilikha ng electrical current. Tulad ng dynamic microphones, ang ribbon microphones ay hindi nangangailangan ng power upang gumana.
 
-    ![Si Edmund Lowe, Amerikanong aktor, nakatayo sa radio microphone (labeled para sa (NBC) Blue Network), hawak ang script, 1942](../../../../../translated_images/ribbon-mic.eacc8e092c7441ca.tl.jpg)
+    ![Si Edmund Lowe, Amerikanong aktor, nakatayo sa radio microphone (labeled para sa (NBC) Blue Network), hawak ang script, 1942](../../../../../translated_images/tl/ribbon-mic.eacc8e092c7441ca.jpg)
 
 * Condenser - Ang condenser microphones ay may manipis na metal diaphragm at fixed metal backplate. Ang kuryente ay inilalapat sa pareho ng mga ito at habang ang diaphragm ay nag-vibrate, ang static charge sa pagitan ng mga plates ay nagbabago na lumilikha ng signal. Ang condenser microphones ay nangangailangan ng power upang gumana - tinatawag na *Phantom power*.
 
-    ![C451B small-diaphragm condenser microphone ng AKG Acoustics](../../../../../translated_images/condenser-mic.6f6ed5b76ca19e0ec3fd0c544601542d4479a6cb7565db336de49fbbf69f623e.tl.jpg)
+    ![C451B small-diaphragm condenser microphone ng AKG Acoustics](../../../../../translated_images/tl/condenser-mic.6f6ed5b76ca19e0ec3fd0c544601542d4479a6cb7565db336de49fbbf69f623e.jpg)
 
 * MEMS - Ang Microelectromechanical systems microphones, o MEMS, ay mga mikropono sa isang chip. Mayroon silang pressure sensitive diaphragm na naka-etch sa isang silicon chip, at gumagana katulad ng condenser microphone. Ang mga mikroponong ito ay maaaring maging napakaliit, at isinama sa circuitry.
 
-    ![Isang MEMS microphone sa circuit board](../../../../../translated_images/mems-microphone.80574019e1f5e4d9ee72fed720ecd25a39fc2969c91355d17ebb24ba4159e4c4.tl.png)
+    ![Isang MEMS microphone sa circuit board](../../../../../translated_images/tl/mems-microphone.80574019e1f5e4d9ee72fed720ecd25a39fc2969c91355d17ebb24ba4159e4c4.png)
 
     Sa imahe sa itaas, ang chip na may label na **LEFT** ay isang MEMS microphone, na may napakaliit na diaphragm na mas mababa sa isang millimeter ang lapad.
 
@@ -84,7 +84,7 @@ Ang audio ay isang analog signal na nagdadala ng napaka-pinong impormasyon. Upan
 
 > 🎓 Ang sampling ay ang pag-convert ng audio signal sa digital na halaga na kumakatawan sa signal sa puntong iyon ng oras.
 
-![Isang line chart na nagpapakita ng signal, na may discrete points sa fixed intervals](../../../../../translated_images/sampling.6f4fadb3f2d9dfe7.tl.png)
+![Isang line chart na nagpapakita ng signal, na may discrete points sa fixed intervals](../../../../../translated_images/tl/sampling.6f4fadb3f2d9dfe7.png)
 
 Ang digital na audio ay sinasample gamit ang Pulse Code Modulation, o PCM. Ang PCM ay kinabibilangan ng pagbabasa ng boltahe ng signal, at pagpili ng pinakamalapit na discrete value sa boltahe gamit ang isang tinukoy na laki.
 
@@ -168,7 +168,7 @@ Upang maiwasan ang komplikasyon ng pag-train at paggamit ng wake word model, ang
 
 ## Convert speech to text
 
-![Speech services logo](../../../../../translated_images/azure-speech-logo.a1f08c4befb0159f2cb5d692d3baf5b599e7b44759d316da907bda1508f46a4a.tl.png)
+![Speech services logo](../../../../../translated_images/tl/azure-speech-logo.a1f08c4befb0159f2cb5d692d3baf5b599e7b44759d316da907bda1508f46a4a.png)
 
 Katulad ng image classification sa isang naunang proyekto, may mga pre-built AI services na maaaring kumuha ng speech bilang audio file at i-convert ito sa text. Isa sa mga serbisyong ito ay ang Speech Service, bahagi ng Cognitive Services, mga pre-built AI services na maaari mong gamitin sa iyong apps.
 

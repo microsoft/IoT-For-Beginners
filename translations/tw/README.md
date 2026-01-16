@@ -57,7 +57,7 @@ Microsoft 的 Azure Cloud Advocates 很高興提供一套為期 12 週、共 24 
 
 這些專案涵蓋從農場到餐桌的完整過程。包含農業、生產製造、物流、零售和消費等領域——均為物聯網裝置應用的熱門產業。
 
-![課程路線圖，顯示涵蓋入門、農業、運輸、加工、零售及烹飪共24堂課程](../../translated_images/Roadmap.bb1dec285dda0eda.tw.jpg)
+![課程路線圖，顯示涵蓋入門、農業、運輸、加工、零售及烹飪共24堂課程](../../translated_images/tw/Roadmap.bb1dec285dda0eda.jpg)
 
 > 筆記由 [Nitya Narasimhan](https://github.com/nitya) 繪製。點擊圖片可看大圖版本。
 

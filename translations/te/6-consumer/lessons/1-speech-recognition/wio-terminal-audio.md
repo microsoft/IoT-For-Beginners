@@ -19,7 +19,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 ✅ DMA గురించి మరింత సమాచారం కోసం [వికీపీడియా డైరెక్ట్ మెమరీ యాక్సెస్ పేజీ](https://wikipedia.org/wiki/Direct_memory_access) చూడండి.
 
-![Audio from the mic goes to an ADC then to the DMAC. This writes to one buffer. When this buffer is full, it is processed and the DMAC writes to a second buffer](../../../../../translated_images/dmac-adc-buffers.4509aee49145c90b.te.png)
+![Audio from the mic goes to an ADC then to the DMAC. This writes to one buffer. When this buffer is full, it is processed and the DMAC writes to a second buffer](../../../../../translated_images/te/dmac-adc-buffers.4509aee49145c90b.png)
 
 DMAC ADC నుండి ఆడియోను ఖచితం సమయంలో క్యాప్చర్ చేయగలదు, ఉదాహరణకి 16KHz ఆడియోకు సెకనుకు 16,000 సార్లు. ఇది క్యాప్చర్ చేసిన డేటాను ముందు నుంచే కేటాయించిన మెమరీ బఫర్ కు రాయగలదు, ఆ బఫర్ నింపుకుపోయినప్పుడు, మీ కోడ్ కోసం ప్రాసెస్ చేయడానికి అందుబాటులో ఉంచుతుంది. ఈ మెమరీ ఉపయోగించడం ఆడియో క్యాప్చర్ చేయడంలో కొంచెం ఆలస్యం చేయవచ్చు, కాని మీరు బహు బఫర్లను సెట్ చేయవచ్చు. DMAC మొదటగా బఫర్ 1 కి రాస్తుంది, దాన్ని నింపిన తర్వాత మీ కోడ్ కు నోటిఫై చేస్తుంది, అప్పుడిడిఎమ్ఎసీఎస్ బఫర్ 2 కి రాస్తుంది. బఫర్ 2 నింపిన తర్వాత vostra కోడ్ కు నోటిఫై చేస్తుంది, అది మళ్లీ బఫర్ 1 కి రాయడం మొదలు పెడుతుంది. ఈ విధంగా మీరు ప్రతి బఫర్ కొరకు సమయానికి అందుబాటులో ఉంటే, మీరు ఏ డేటాను కోల్పోరు.
 

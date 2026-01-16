@@ -29,7 +29,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 وزنی مٹی کی نمی کا حساب درج ذیل فارمولے سے لگایا جاتا ہے:
 
-![مٹی کی نمی % = گیلی مٹی کا وزن - خشک مٹی کا وزن، تقسیم بر خشک مٹی کا وزن، ضرب 100](../../../../../translated_images/gsm-calculation.6da38c6201eec14e7573bb2647aa18892883193553d23c9d77e5dc681522dfb2.ur.png)
+![مٹی کی نمی % = گیلی مٹی کا وزن - خشک مٹی کا وزن، تقسیم بر خشک مٹی کا وزن، ضرب 100](../../../../../translated_images/ur/gsm-calculation.6da38c6201eec14e7573bb2647aa18892883193553d23c9d77e5dc681522dfb2.png)
 
 * W
 - گیلی مٹی کا وزن
@@ -38,7 +38,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 مثال کے طور پر، فرض کریں کہ آپ کے پاس ایک مٹی کا نمونہ ہے جس کا وزن 212g گیلا اور 197g خشک ہے۔
 
-![فارمولے میں بھرا ہوا حساب](../../../../../translated_images/gsm-calculation-example.99f9803b4f29e97668e7c15412136c0c399ab12dbba0b89596fdae9d8aedb6fb.ur.png)
+![فارمولے میں بھرا ہوا حساب](../../../../../translated_images/ur/gsm-calculation-example.99f9803b4f29e97668e7c15412136c0c399ab12dbba0b89596fdae9d8aedb6fb.png)
 
 * W = 212g
 * W = 197g

@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Panatilihing Ligtas ang Iyong Halaman
 
-![Isang sketchnote overview ng araling ito](../../../../../translated_images/lesson-10.829c86b80b9403bb770929ee553a1d293afe50dc23121aaf9be144673ae012cc.tl.jpg)
+![Isang sketchnote overview ng araling ito](../../../../../translated_images/tl/lesson-10.829c86b80b9403bb770929ee553a1d293afe50dc23121aaf9be144673ae012cc.jpg)
 
 > Sketchnote ni [Nitya Narasimhan](https://github.com/nitya). I-click ang imahe para sa mas malaking bersyon.
 
@@ -61,11 +61,11 @@ Ito ay mga totoong sitwasyon at nangyayari sa lahat ng oras. Ang ilang mga halim
 
 Kapag kumonekta ang isang device sa isang IoT service, gumagamit ito ng ID upang kilalanin ang sarili nito. Ang problema ay ang ID na ito ay maaaring kopyahin - maaaring mag-set up ang isang hacker ng malisyosong device na gumagamit ng parehong ID ng isang tunay na device ngunit nagpapadala ng maling data.
 
-![Parehong valid at malisyosong device ay maaaring gumamit ng parehong ID upang magpadala ng telemetry](../../../../../translated_images/iot-device-and-hacked-device-connecting.e0671675df74d6d99eb1dedb5a670e606f698efa6202b1ad4c8ae548db299cc6.tl.png)
+![Parehong valid at malisyosong device ay maaaring gumamit ng parehong ID upang magpadala ng telemetry](../../../../../translated_images/tl/iot-device-and-hacked-device-connecting.e0671675df74d6d99eb1dedb5a670e606f698efa6202b1ad4c8ae548db299cc6.png)
 
 Ang solusyon dito ay ang pag-convert ng data na ipinapadala sa isang scrambled na format, gamit ang isang halaga na kilala lamang ng device at ng cloud. Ang prosesong ito ay tinatawag na *encryption*, at ang halaga na ginamit upang i-encrypt ang data ay tinatawag na *encryption key*.
 
-![Kung gagamit ng encryption, tanging mga encrypted na mensahe lamang ang tatanggapin, ang iba ay tatanggihan](../../../../../translated_images/iot-device-and-hacked-device-connecting-encryption.5941aff601fc978f979e46f2849b573564eeb4a4dc5b52f669f62745397492fb.tl.png)
+![Kung gagamit ng encryption, tanging mga encrypted na mensahe lamang ang tatanggapin, ang iba ay tatanggihan](../../../../../translated_images/tl/iot-device-and-hacked-device-connecting-encryption.5941aff601fc978f979e46f2849b573564eeb4a4dc5b52f669f62745397492fb.png)
 
 Ang cloud service ay maaaring i-convert ang data pabalik sa nababasang format, gamit ang isang proseso na tinatawag na *decryption*, gamit ang parehong encryption key, o isang *decryption key*. Kung ang encrypted na mensahe ay hindi ma-decrypt ng key, ang device ay na-hack at ang mensahe ay tatanggihan.
 
@@ -97,15 +97,15 @@ Ang encryption ay may dalawang uri - symmetric at asymmetric.
 
 **Symmetric** encryption ay gumagamit ng parehong key upang i-encrypt at i-decrypt ang data. Parehong kailangang malaman ng sender at receiver ang parehong key. Ito ang hindi gaanong secure na uri, dahil ang key ay kailangang maibahagi sa kung anumang paraan. Para sa sender na magpadala ng encrypted na mensahe sa recipient, maaaring kailangang ipadala muna ng sender ang key sa recipient.
 
-![Ang symmetric key encryption ay gumagamit ng parehong key upang i-encrypt at i-decrypt ang mensahe](../../../../../translated_images/send-message-symmetric-key.a2e8ad0d495896ff.tl.png)
+![Ang symmetric key encryption ay gumagamit ng parehong key upang i-encrypt at i-decrypt ang mensahe](../../../../../translated_images/tl/send-message-symmetric-key.a2e8ad0d495896ff.png)
 
 Kung ang key ay nanakaw habang nasa transit, o ang sender o recipient ay na-hack at nahanap ang key, maaaring ma-crack ang encryption.
 
-![Ang symmetric key encryption ay secure lamang kung hindi makuha ng hacker ang key - kung makuha nila, maaari nilang i-intercept at i-decrypt ang mensahe](../../../../../translated_images/send-message-symmetric-key-hacker.e7cb53db1707adfb.tl.png)
+![Ang symmetric key encryption ay secure lamang kung hindi makuha ng hacker ang key - kung makuha nila, maaari nilang i-intercept at i-decrypt ang mensahe](../../../../../translated_images/tl/send-message-symmetric-key-hacker.e7cb53db1707adfb.png)
 
 **Asymmetric** encryption ay gumagamit ng 2 keys - isang encryption key at isang decryption key, na tinutukoy bilang public/private key pair. Ang public key ay ginagamit upang i-encrypt ang mensahe, ngunit hindi maaaring gamitin upang i-decrypt ito, ang private key ay ginagamit upang i-decrypt ang mensahe ngunit hindi maaaring gamitin upang i-encrypt ito.
 
-![Ang asymmetric encryption ay gumagamit ng magkaibang key upang i-encrypt at i-decrypt. Ang encryption key ay ipinapadala sa mga sender ng mensahe upang ma-encrypt nila ang mensahe bago ito ipadala sa recipient na may-ari ng mga keys](../../../../../translated_images/send-message-asymmetric.7abe327c62615b8c.tl.png)
+![Ang asymmetric encryption ay gumagamit ng magkaibang key upang i-encrypt at i-decrypt. Ang encryption key ay ipinapadala sa mga sender ng mensahe upang ma-encrypt nila ang mensahe bago ito ipadala sa recipient na may-ari ng mga keys](../../../../../translated_images/tl/send-message-asymmetric.7abe327c62615b8c.png)
 
 Ibinabahagi ng recipient ang kanilang public key, at ginagamit ito ng sender upang i-encrypt ang mensahe. Kapag naipadala na ang mensahe, i-decrypt ito ng recipient gamit ang kanilang private key. Ang asymmetric encryption ay mas secure dahil ang private key ay pinapanatiling pribado ng recipient at hindi kailanman ibinabahagi. Ang public key ay maaaring ibigay sa kahit sino dahil maaari lamang itong gamitin upang i-encrypt ang mga mensahe.
 
@@ -165,7 +165,7 @@ Ang mga certificate na ito ay may iba't ibang fields, kabilang ang kung sino ang
 
 Kapag gumagamit ng X.509 certificates, parehong ang sender at ang recipient ay magkakaroon ng kanilang sariling public at private keys, pati na rin ang X.509 certificates na naglalaman ng public key. Magpapalitan sila ng X.509 certificates sa anumang paraan, gamit ang public key ng isa't isa upang i-encrypt ang datos na kanilang ipinapadala, at ang kanilang sariling private key upang i-decrypt ang datos na kanilang natatanggap.
 
-![Sa halip na magbahagi ng public key, maaari kang magbahagi ng certificate. Maaaring i-verify ng user ng certificate na ito ay galing sa iyo sa pamamagitan ng pag-check sa certificate authority na nag-sign nito.](../../../../../translated_images/send-message-certificate.9cc576ac1e46b76e.tl.png)
+![Sa halip na magbahagi ng public key, maaari kang magbahagi ng certificate. Maaaring i-verify ng user ng certificate na ito ay galing sa iyo sa pamamagitan ng pag-check sa certificate authority na nag-sign nito.](../../../../../translated_images/tl/send-message-certificate.9cc576ac1e46b76e.png)
 
 Isang malaking bentahe ng paggamit ng X.509 certificates ay maaari itong ibahagi sa pagitan ng mga device. Maaari kang gumawa ng isang certificate, i-upload ito sa IoT Hub, at gamitin ito para sa lahat ng iyong device. Ang bawat device ay kailangan lamang malaman ang private key upang i-decrypt ang mga mensaheng natatanggap nito mula sa IoT Hub.
 

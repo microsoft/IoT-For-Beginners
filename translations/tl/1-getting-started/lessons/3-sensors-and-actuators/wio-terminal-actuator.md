@@ -35,7 +35,7 @@ Ang Grove LED ay may module na may iba't ibang LED, na nagbibigay-daan sa iyo na
 
 Ikonekta ang LED.
 
-![Isang Grove LED](../../../../../translated_images/grove-led.6c853be93f473cf2c439cfc74bb1064732b22251a83cedf66e62f783f9cc1a79.tl.png)
+![Isang Grove LED](../../../../../translated_images/tl/grove-led.6c853be93f473cf2c439cfc74bb1064732b22251a83cedf66e62f783f9cc1a79.png)
 
 1. Pumili ng paborito mong LED at ipasok ang mga paa nito sa dalawang butas sa LED module.
 
@@ -51,7 +51,7 @@ Ikonekta ang LED.
 
     > 💁 Ang kanang Grove socket ay maaaring gamitin sa analog o digital sensors at actuators. Ang kaliwang socket ay para sa I2C at digital sensors at actuators lamang. Ang I2C ay tatalakayin sa susunod na aralin.
 
-![Ang Grove LED na nakakonekta sa kanang socket](../../../../../translated_images/wio-led.265a1897e72d7f21.tl.png)
+![Ang Grove LED na nakakonekta sa kanang socket](../../../../../translated_images/tl/wio-led.265a1897e72d7f21.png)
 
 ## I-program ang nightlight
 

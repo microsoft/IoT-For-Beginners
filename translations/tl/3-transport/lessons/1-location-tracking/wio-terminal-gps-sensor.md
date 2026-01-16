@@ -27,13 +27,13 @@ Maaaring ikonekta ang Grove GPS sensor sa Wio Terminal.
 
 Ikonekta ang GPS sensor.
 
-![Isang Grove GPS sensor](../../../../../translated_images/grove-gps-sensor.247943bf69b03f0d1820ef6ed10c587f9b650e8db55b936851c92412180bd3e2.tl.png)
+![Isang Grove GPS sensor](../../../../../translated_images/tl/grove-gps-sensor.247943bf69b03f0d1820ef6ed10c587f9b650e8db55b936851c92412180bd3e2.png)
 
 1. Ipasok ang isang dulo ng Grove cable sa socket ng GPS sensor. Isang direksyon lamang ang tamang paraan ng pagpasok nito.
 
 1. Habang ang Wio Terminal ay hindi nakakonekta sa iyong computer o iba pang power supply, ikonekta ang kabilang dulo ng Grove cable sa kaliwang Grove socket ng Wio Terminal habang nakaharap ka sa screen. Ito ang socket na pinakamalapit sa power button.
 
-    ![Ang Grove GPS sensor na nakakonekta sa kaliwang socket](../../../../../translated_images/wio-gps-sensor.19fd52b81ce58095.tl.png)
+    ![Ang Grove GPS sensor na nakakonekta sa kaliwang socket](../../../../../translated_images/tl/wio-gps-sensor.19fd52b81ce58095.png)
 
 1. Iposisyon ang GPS sensor upang ang nakakabit na antena ay may malinaw na tanaw sa kalangitan - mas mainam kung malapit sa isang bukas na bintana o sa labas. Mas madali itong makakuha ng malinaw na signal kung walang nakaharang sa antena.
 

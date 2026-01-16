@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Ipakita ang data ng lokasyon
 
-![Isang sketchnote overview ng araling ito](../../../../../translated_images/lesson-13.a259db1485021be7d7c72e90842fbe0ab977529e8684c179b5fb1ea75e92b3ef.tl.jpg)
+![Isang sketchnote overview ng araling ito](../../../../../translated_images/tl/lesson-13.a259db1485021be7d7c72e90842fbe0ab977529e8684c179b5fb1ea75e92b3ef.jpg)
 
 > Sketchnote ni [Nitya Narasimhan](https://github.com/nitya). I-click ang imahe para sa mas malaking bersyon.
 
@@ -73,11 +73,11 @@ Halimbawa - sa farm project, nakakuha ka ng mga soil moisture settings. Ang isan
 
 Bilang tao, mahirap unawain ang data na iyon. Isa itong pader ng mga numero na walang kahulugan. Bilang unang hakbang sa pag-visualize ng data na ito, maaari itong i-plot sa isang line chart:
 
-![Isang line chart ng data sa itaas](../../../../../translated_images/chart-soil-moisture.fd6d9d0cdc0b5f75e78038ecb8945dfc84b38851359de99d84b16e3336d6d7c2.tl.png)
+![Isang line chart ng data sa itaas](../../../../../translated_images/tl/chart-soil-moisture.fd6d9d0cdc0b5f75e78038ecb8945dfc84b38851359de99d84b16e3336d6d7c2.png)
 
 Maaaring mapahusay pa ito sa pamamagitan ng pagdaragdag ng linya upang ipakita kung kailan naka-on ang automated watering system sa isang soil moisture reading na 450:
 
-![Isang line chart ng soil moisture na may linya sa 450](../../../../../translated_images/chart-soil-moisture-relay.fbb391236d34a64d0abf1df396e9197e0a24df14150620b9cc820a64a55c9326.tl.png)
+![Isang line chart ng soil moisture na may linya sa 450](../../../../../translated_images/tl/chart-soil-moisture-relay.fbb391236d34a64d0abf1df396e9197e0a24df14150620b9cc820a64a55c9326.png)
 
 Ang chart na ito ay mabilis na nagpapakita hindi lamang kung ano ang mga antas ng soil moisture, kundi pati na rin ang mga punto kung saan naka-on ang watering system.
 
@@ -93,7 +93,7 @@ Kapag nagtatrabaho sa GPS data, ang pinakamalinaw na visualization ay maaaring i
 
 Ang pagtatrabaho sa mga mapa ay isang kawili-wiling gawain, at maraming pagpipilian tulad ng Bing Maps, Leaflet, Open Street Maps, at Google Maps. Sa araling ito, matututo ka tungkol sa [Azure Maps](https://azure.microsoft.com/services/azure-maps/?WT.mc_id=academic-17441-jabenn) at kung paano nila maipapakita ang iyong GPS data.
 
-![Ang logo ng Azure Maps](../../../../../translated_images/azure-maps-logo.35d01dcfbd81fe6140e94257aaa1538f785a58c91576d14e0ebe7a2f6c694b99.tl.png)
+![Ang logo ng Azure Maps](../../../../../translated_images/tl/azure-maps-logo.35d01dcfbd81fe6140e94257aaa1538f785a58c91576d14e0ebe7a2f6c694b99.png)
 
 Ang Azure Maps ay "isang koleksyon ng mga geospatial services at SDKs na gumagamit ng sariwang mapping data upang magbigay ng geographic context sa mga web at mobile application." Ang mga developer ay binibigyan ng mga tool upang lumikha ng magaganda, interactive na mga mapa na maaaring gumawa ng mga bagay tulad ng magbigay ng mga inirerekomendang ruta ng trapiko, magbigay ng impormasyon tungkol sa mga insidente ng trapiko, indoor navigation, search capabilities, impormasyon sa elevation, mga serbisyo ng panahon, at marami pa.
 
@@ -194,7 +194,7 @@ Ngayon maaari mong gawin ang susunod na hakbang, na ipakita ang iyong mapa sa is
 
     Kung bubuksan mo ang iyong `index.html` page sa isang web browser, dapat mong makita ang isang mapa na naka-load, at nakatuon sa Seattle area.
 
-    ![Isang mapa na nagpapakita ng Seattle, isang lungsod sa Washington State, USA](../../../../../translated_images/map-image.8fb2c53eb23ef39c1c0a4410a5282e879b3b452b707eb066ff04c5488d3d72b7.tl.png)
+    ![Isang mapa na nagpapakita ng Seattle, isang lungsod sa Washington State, USA](../../../../../translated_images/tl/map-image.8fb2c53eb23ef39c1c0a4410a5282e879b3b452b707eb066ff04c5488d3d72b7.png)
 
     ✅ Subukan ang zoom at center parameters upang baguhin ang display ng iyong mapa. Maaari kang magdagdag ng iba't ibang coordinates na tumutugma sa latitude at longitude ng iyong data upang muling i-center ang mapa.
 
@@ -328,7 +328,7 @@ Kapag gumawa ka ng tawag sa iyong storage upang kunin ang data, maaaring magulat
 
 1. I-load ang HTML page sa iyong browser. I-load nito ang mapa, pagkatapos ay i-load ang lahat ng GPS data mula sa storage at i-plot ito sa mapa.
 
-    ![Isang mapa ng Saint Edward State Park malapit sa Seattle, na may mga bilog na nagpapakita ng path sa paligid ng gilid ng parke](../../../../../translated_images/map-path.896832e72dc696ffe20650e4051027d4855442d955f93fdbb80bb417ca8a406f.tl.png)
+    ![Isang mapa ng Saint Edward State Park malapit sa Seattle, na may mga bilog na nagpapakita ng path sa paligid ng gilid ng parke](../../../../../translated_images/tl/map-path.896832e72dc696ffe20650e4051027d4855442d955f93fdbb80bb417ca8a406f.png)
 
 > 💁 Maaari mong makita ang code na ito sa [code](../../../../../3-transport/lessons/3-visualize-location-data/code) folder.
 

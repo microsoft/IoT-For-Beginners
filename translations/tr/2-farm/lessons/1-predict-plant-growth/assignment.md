@@ -42,7 +42,7 @@ Sıcaklık verilerini topladıktan sonra, bu depodaki Jupyter Notebook'u kullana
 
     Jupyter başlatılacak ve notebook'u tarayıcınızda açacaktır. Notebook'taki talimatları takip ederek ölçülen sıcaklıkları görselleştirin ve büyüme derecesi günlerini hesaplayın.
 
-    ![Jupyter notebook](../../../../../translated_images/gdd-jupyter-notebook.c5b52cf21094f158a61f47f455490fd95f1729777ff90861a4521820bf354cdc.tr.png)
+    ![Jupyter notebook](../../../../../translated_images/tr/gdd-jupyter-notebook.c5b52cf21094f158a61f47f455490fd95f1729777ff90861a4521820bf354cdc.png)
 
 ## Değerlendirme Ölçütleri
 

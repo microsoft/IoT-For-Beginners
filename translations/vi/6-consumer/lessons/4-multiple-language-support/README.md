@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Hỗ trợ nhiều ngôn ngữ
 
-![Tóm tắt bài học bằng sketchnote](../../../../../translated_images/lesson-24.4246968ed058510ab275052e87ef9aa89c7b2f938915d103c605c04dc6cd5bb7.vi.jpg)
+![Tóm tắt bài học bằng sketchnote](../../../../../translated_images/vi/lesson-24.4246968ed058510ab275052e87ef9aa89c7b2f938915d103c605c04dc6cd5bb7.jpg)
 
 > Sketchnote bởi [Nitya Narasimhan](https://github.com/nitya). Nhấn vào hình ảnh để xem phiên bản lớn hơn.
 
@@ -83,7 +83,7 @@ Có một số dịch vụ AI có thể được sử dụng từ ứng dụng c
 
 ### Dịch vụ giọng nói của Cognitive Services
 
-![Logo dịch vụ giọng nói](../../../../../translated_images/azure-speech-logo.a1f08c4befb0159f2cb5d692d3baf5b599e7b44759d316da907bda1508f46a4a.vi.png)
+![Logo dịch vụ giọng nói](../../../../../translated_images/vi/azure-speech-logo.a1f08c4befb0159f2cb5d692d3baf5b599e7b44759d316da907bda1508f46a4a.png)
 
 Dịch vụ giọng nói mà bạn đã sử dụng trong các bài học trước có khả năng dịch thuật cho nhận diện giọng nói. Khi bạn nhận diện giọng nói, bạn có thể yêu cầu không chỉ văn bản của giọng nói bằng cùng ngôn ngữ, mà còn bằng các ngôn ngữ khác.
 
@@ -91,7 +91,7 @@ Dịch vụ giọng nói mà bạn đã sử dụng trong các bài học trư�
 
 ### Dịch vụ Translator của Cognitive Services
 
-![Logo dịch vụ Translator](../../../../../translated_images/azure-translator-logo.c6ed3a4a433edfd2f11577eca105412c50b8396b194cbbd730723dd1d0793bcd.vi.png)
+![Logo dịch vụ Translator](../../../../../translated_images/vi/azure-translator-logo.c6ed3a4a433edfd2f11577eca105412c50b8396b194cbbd730723dd1d0793bcd.png)
 
 Dịch vụ Translator là một dịch vụ dịch thuật chuyên dụng có thể dịch văn bản từ một ngôn ngữ sang một hoặc nhiều ngôn ngữ đích. Ngoài việc dịch, nó hỗ trợ một loạt các tính năng bổ sung bao gồm che giấu từ ngữ tục tĩu. Nó cũng cho phép bạn cung cấp một bản dịch cụ thể cho một từ hoặc câu cụ thể, để làm việc với các thuật ngữ bạn không muốn dịch, hoặc có một bản dịch cụ thể đã được biết đến.
 
@@ -130,7 +130,7 @@ Trong bài học này, bạn sẽ cần một tài nguyên Translator. Bạn s�
 
 Trong một thế giới lý tưởng, toàn bộ ứng dụng của bạn nên hiểu càng nhiều ngôn ngữ khác nhau càng tốt, từ việc lắng nghe giọng nói, đến hiểu ngôn ngữ, đến phản hồi bằng giọng nói. Đây là một công việc lớn, vì vậy các dịch vụ dịch thuật có thể tăng tốc thời gian triển khai ứng dụng của bạn.
 
-![Kiến trúc bộ hẹn giờ thông minh dịch tiếng Nhật sang tiếng Anh, xử lý bằng tiếng Anh sau đó dịch ngược lại sang tiếng Nhật](../../../../../translated_images/translated-smart-timer.08ac20057fdc5c37.vi.png)
+![Kiến trúc bộ hẹn giờ thông minh dịch tiếng Nhật sang tiếng Anh, xử lý bằng tiếng Anh sau đó dịch ngược lại sang tiếng Nhật](../../../../../translated_images/vi/translated-smart-timer.08ac20057fdc5c37.png)
 
 Hãy tưởng tượng bạn đang xây dựng một bộ hẹn giờ thông minh sử dụng tiếng Anh từ đầu đến cuối, hiểu giọng nói tiếng Anh và chuyển đổi nó thành văn bản, chạy hiểu ngôn ngữ bằng tiếng Anh, xây dựng các phản hồi bằng tiếng Anh và trả lời bằng giọng nói tiếng Anh. Nếu bạn muốn thêm hỗ trợ cho tiếng Nhật, bạn có thể bắt đầu bằng cách dịch giọng nói tiếng Nhật sang văn bản tiếng Anh, sau đó giữ nguyên lõi của ứng dụng, rồi dịch văn bản phản hồi sang tiếng Nhật trước khi phát âm phản hồi. Điều này sẽ cho phép bạn nhanh chóng thêm hỗ trợ tiếng Nhật, và bạn có thể mở rộng để cung cấp hỗ trợ tiếng Nhật toàn diện sau này.
 

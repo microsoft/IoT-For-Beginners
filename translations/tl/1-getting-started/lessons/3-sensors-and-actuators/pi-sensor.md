@@ -25,13 +25,13 @@ Ang Grove light sensor na ginagamit upang matukoy ang antas ng liwanag ay kailan
 
 Ikonekta ang light sensor.
 
-![Isang Grove light sensor](../../../../../translated_images/grove-light-sensor.b8127b7c434e632d6bcdb57587a14e9ef69a268a22df95d08628f62b8fa5505c.tl.png)
+![Isang Grove light sensor](../../../../../translated_images/tl/grove-light-sensor.b8127b7c434e632d6bcdb57587a14e9ef69a268a22df95d08628f62b8fa5505c.png)
 
 1. Ipasok ang isang dulo ng Grove cable sa socket ng light sensor module. Ito ay papasok lamang sa isang direksyon.
 
 1. Kapag naka-off ang Raspberry Pi, ikonekta ang kabilang dulo ng Grove cable sa analog socket na may markang **A0** sa Grove Base hat na nakakabit sa Pi. Ang socket na ito ay pangalawa mula sa kanan, sa hanay ng mga socket malapit sa GPIO pins.
 
-![Ang Grove light sensor na nakakonekta sa socket A0](../../../../../translated_images/pi-light-sensor.66cc1e31fa48cd7d5f23400d4b2119aa41508275cb7c778053a7923b4e972d7e.tl.png)
+![Ang Grove light sensor na nakakonekta sa socket A0](../../../../../translated_images/tl/pi-light-sensor.66cc1e31fa48cd7d5f23400d4b2119aa41508275cb7c778053a7923b4e972d7e.png)
 
 ## I-program ang light sensor
 

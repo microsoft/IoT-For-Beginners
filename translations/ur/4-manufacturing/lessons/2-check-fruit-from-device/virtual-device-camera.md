@@ -43,11 +43,11 @@ CounterFit ایپ میں کیمرہ شامل کریں۔
 
     1. کیمرہ بنانے کے لیے **Add** بٹن منتخب کریں۔
 
-    ![کیمرہ سیٹنگز](../../../../../translated_images/counterfit-create-camera.a5de97f59c0bd3cbe0416d7e89a3cfe86d19fbae05c641c53a91286412af0a34.ur.png)
+    ![کیمرہ سیٹنگز](../../../../../translated_images/ur/counterfit-create-camera.a5de97f59c0bd3cbe0416d7e89a3cfe86d19fbae05c641c53a91286412af0a34.png)
 
     کیمرہ بنایا جائے گا اور سینسرز کی فہرست میں ظاہر ہوگا۔
 
-    ![بنایا گیا کیمرہ](../../../../../translated_images/counterfit-camera.001ec52194c8ee5d3f617173da2c79e1df903d10882adc625cbfc493525125d4.ur.png)
+    ![بنایا گیا کیمرہ](../../../../../translated_images/ur/counterfit-camera.001ec52194c8ee5d3f617173da2c79e1df903d10882adc625cbfc493525125d4.png)
 
 ## کیمرہ پروگرام کریں
 
@@ -112,7 +112,7 @@ CounterFit ایپ میں کیمرہ شامل کریں۔
 
 1. CounterFit میں کیمرہ کے لیے تصویر کو کنفیگر کریں۔ آپ *Source* کو *File* پر سیٹ کر سکتے ہیں، پھر ایک تصویر اپلوڈ کریں، یا *Source* کو *WebCam* پر سیٹ کریں، اور تصاویر آپ کے ویب کیم سے حاصل ہوں گی۔ یقینی بنائیں کہ تصویر منتخب کرنے یا ویب کیم منتخب کرنے کے بعد **Set** بٹن منتخب کریں۔
 
-    ![CounterFit میں فائل کو امیج سورس کے طور پر سیٹ کیا گیا، اور ویب کیم میں ایک شخص کیلے کو پکڑے ہوئے دکھایا گیا](../../../../../translated_images/counterfit-camera-options.eb3bd5150a8e7dffbf24bc5bcaba0cf2cdef95fbe6bbe393695d173817d6b8df.ur.png)
+    ![CounterFit میں فائل کو امیج سورس کے طور پر سیٹ کیا گیا، اور ویب کیم میں ایک شخص کیلے کو پکڑے ہوئے دکھایا گیا](../../../../../translated_images/ur/counterfit-camera-options.eb3bd5150a8e7dffbf24bc5bcaba0cf2cdef95fbe6bbe393695d173817d6b8df.png)
 
 1. ایک تصویر حاصل کی جائے گی اور `image.jpg` کے طور پر موجودہ فولڈر میں محفوظ کی جائے گی۔ آپ یہ فائل VS Code ایکسپلورر میں دیکھیں گے۔ فائل منتخب کریں تاکہ تصویر دیکھ سکیں۔ اگر اسے روٹیشن کی ضرورت ہو، تو `camera.rotation = 0` لائن کو مناسب طریقے سے اپڈیٹ کریں اور دوبارہ تصویر لیں۔
 

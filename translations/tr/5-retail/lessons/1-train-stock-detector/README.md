@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Stok Dedektörü Eğitimi
 
-![Bu dersin genel bir sketchnote görünümü](../../../../../translated_images/lesson-19.cf6973cecadf080c4b526310620dc4d6f5994c80fb0139c6f378cc9ca2d435cd.tr.jpg)
+![Bu dersin genel bir sketchnote görünümü](../../../../../translated_images/tr/lesson-19.cf6973cecadf080c4b526310620dc4d6f5994c80fb0139c6f378cc9ca2d435cd.jpg)
 
 > Sketchnote: [Nitya Narasimhan](https://github.com/nitya). Daha büyük bir versiyon için resme tıklayın.
 
@@ -45,7 +45,7 @@ Nesne tespiti, yapay zeka kullanarak görüntülerdeki nesneleri tespit etmeyi i
 
 Görüntü sınıflandırma, bir görüntüyü bir bütün olarak sınıflandırmakla ilgilidir - tüm görüntünün her etikete ne kadar uyduğuna dair olasılıkları belirler. Modeli eğitmek için kullanılan her etiket için olasılıkları geri alırsınız.
 
-![Kaju fıstığı ve domates salçasının görüntü sınıflandırması](../../../../../translated_images/image-classifier-cashews-tomato.bc2e16ab8f05cf9ac0f59f73e32efc4227f9a5b601b90b2c60f436694547a965.tr.png)
+![Kaju fıstığı ve domates salçasının görüntü sınıflandırması](../../../../../translated_images/tr/image-classifier-cashews-tomato.bc2e16ab8f05cf9ac0f59f73e32efc4227f9a5b601b90b2c60f436694547a965.png)
 
 Yukarıdaki örnekte, iki görüntü, kaju fıstığı kutuları veya domates salçası kutularını sınıflandırmak için eğitilmiş bir model kullanılarak sınıflandırılmıştır. İlk görüntü bir kaju fıstığı kutusudur ve görüntü sınıflandırıcıdan iki sonuç alır:
 
@@ -69,7 +69,7 @@ Sonrasında tahmin yapmak için kullandığınızda, etiketler ve yüzdeler list
 
 > 🎓 *Sınırlayıcı kutular*, bir nesnenin etrafındaki kutulardır.
 
-![Kaju fıstığı ve domates salçasının nesne tespiti](../../../../../translated_images/object-detector-cashews-tomato.1af7c26686b4db0e709754aeb196f4e73271f54e2085db3bcccb70d4a0d84d97.tr.png)
+![Kaju fıstığı ve domates salçasının nesne tespiti](../../../../../translated_images/tr/object-detector-cashews-tomato.1af7c26686b4db0e709754aeb196f4e73271f54e2085db3bcccb70d4a0d84d97.png)
 
 Yukarıdaki görüntüde hem bir kaju fıstığı kutusu hem de üç domates salçası kutusu bulunmaktadır. Nesne dedektörü, kaju fıstığını tespit etmiş ve kaju fıstığını içeren sınırlayıcı kutuyu ve sınırlayıcı kutunun nesneyi içerme olasılığını, bu durumda %97.6 olarak geri döndürmüştür. Nesne dedektörü ayrıca üç domates salçası kutusunu tespit etmiş ve her biri için ayrı sınırlayıcı kutular sağlamıştır. Her biri, sınırlayıcı kutunun bir domates salçası kutusunu içerme olasılığına sahiptir.
 
@@ -120,7 +120,7 @@ Custom Vision kullanarak bir nesne dedektörü eğitebilirsiniz, tıpkı bir gö
 
     Projenizi oluştururken, daha önce oluşturduğunuz `stock-detector-training` kaynağını kullandığınızdan emin olun. *Nesne Tespiti* proje türünü ve *Raflardaki Ürünler* alanını seçin.
 
-    ![Custom Vision projesi ayarları](../../../../../translated_images/custom-vision-create-object-detector-project.32d4fb9aa8e7e7375f8a799bfce517aca970f2cb65e42d4245c5e635c734ab29.tr.png)
+    ![Custom Vision projesi ayarları](../../../../../translated_images/tr/custom-vision-create-object-detector-project.32d4fb9aa8e7e7375f8a799bfce517aca970f2cb65e42d4245c5e635c734ab29.png)
 
     ✅ Raflardaki ürünler alanı, mağaza raflarındaki stokları tespit etmek için özel olarak tasarlanmıştır. Microsoft belgelerindeki [Bir alan seçme dokümantasyonu](https://docs.microsoft.com/azure/cognitive-services/custom-vision-service/select-domain?WT.mc_id=academic-17441-jabenn#object-detection) bölümünde farklı alanlar hakkında daha fazla bilgi edinin.
 
@@ -142,11 +142,11 @@ Modelinizi eğitmek için tespit etmek istediğiniz nesneleri içeren bir dizi g
 
 1. Microsoft belgelerindeki [Bir nesne dedektörü oluşturma hızlı başlangıç bölümündeki Görüntüleri Yükleme ve Etiketleme](https://docs.microsoft.com/azure/cognitive-services/custom-vision-service/get-started-build-detector?WT.mc_id=academic-17441-jabenn#upload-and-tag-images) talimatlarını takip ederek eğitim görüntülerinizi yükleyin. Tespit etmek istediğiniz nesne türlerine bağlı olarak ilgili etiketler oluşturun.
 
-    ![Olgun ve olgunlaşmamış muz resimlerinin yükleme diyalogları](../../../../../translated_images/image-upload-object-detector.77c7892c3093cb59b79018edecd678749a75d71a099bc8a2d2f2f76320f88a5b.tr.png)
+    ![Olgun ve olgunlaşmamış muz resimlerinin yükleme diyalogları](../../../../../translated_images/tr/image-upload-object-detector.77c7892c3093cb59b79018edecd678749a75d71a099bc8a2d2f2f76320f88a5b.png)
 
     Nesneler için sınırlayıcı kutular çizerken, kutuları nesnenin etrafında sıkı tutun. Tüm görüntüleri çevrelemek biraz zaman alabilir, ancak araç, sınırlayıcı kutuların ne olduğunu düşündüğünü tespit eder, bu da işlemi hızlandırır.
 
-    ![Domates salçasını etiketleme](../../../../../translated_images/object-detector-tag-tomato-paste.f47c362fb0f0eb582f3bc68cf3855fb43a805106395358d41896a269c210b7b4.tr.png)
+    ![Domates salçasını etiketleme](../../../../../translated_images/tr/object-detector-tag-tomato-paste.f47c362fb0f0eb582f3bc68cf3855fb43a805106395358d41896a269c210b7b4.png)
 
     > 💁 Her nesne için 15'ten fazla görüntünüz varsa, önce 15 görüntüyle eğitip ardından **Önerilen Etiketler** özelliğini kullanabilirsiniz. Bu, eğitilmiş modeli kullanarak etiketlenmemiş görüntülerdeki nesneleri tespit eder. Algılanan nesneleri onaylayabilir veya reddedip sınırlayıcı kutuları yeniden çizebilirsiniz. Bu, *çok* zaman kazandırabilir.
 
@@ -164,7 +164,7 @@ Nesne dedektörünüz eğitildikten sonra, yeni görüntüler vererek nesneleri 
 
 1. **Hızlı Test** düğmesini kullanarak test görüntülerinizi yükleyin ve nesnelerin tespit edilip edilmediğini doğrulayın. Daha önce oluşturduğunuz test görüntülerini kullanın, eğitim için kullandığınız görüntüleri değil.
 
-    ![3 domates salçası kutusu %38, %35.5 ve %34.6 olasılıklarla tespit edildi](../../../../../translated_images/object-detector-detected-tomato-paste.52656fe87af4c37b4ee540526d63e73ed075da2e54a9a060aa528e0c562fb1b6.tr.png)
+    ![3 domates salçası kutusu %38, %35.5 ve %34.6 olasılıklarla tespit edildi](../../../../../translated_images/tr/object-detector-detected-tomato-paste.52656fe87af4c37b4ee540526d63e73ed075da2e54a9a060aa528e0c562fb1b6.png)
 
 1. Erişiminiz olan tüm test görüntülerini deneyin ve olasılıkları gözlemleyin.
 

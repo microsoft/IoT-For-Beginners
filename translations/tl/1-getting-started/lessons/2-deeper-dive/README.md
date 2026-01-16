@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Mas Malalim na Pagsisid sa IoT
 
-![Isang sketchnote na buod ng araling ito](../../../../../translated_images/lesson-2.324b0580d620c25e0a24fb7fddfc0b29a846dd4b82c08e7a9466d580ee78ce51.tl.jpg)
+![Isang sketchnote na buod ng araling ito](../../../../../translated_images/tl/lesson-2.324b0580d620c25e0a24fb7fddfc0b29a846dd4b82c08e7a9466d580ee78ce51.jpg)
 
 > Sketchnote ni [Nitya Narasimhan](https://github.com/nitya). I-click ang imahe para sa mas malaking bersyon.
 
@@ -41,13 +41,13 @@ Ang dalawang pangunahing bahagi ng isang IoT application ay ang *Internet* at an
 
 ### Ang Bagay (The Thing)
 
-![Isang Raspberry Pi 4](../../../../../translated_images/raspberry-pi-4.fd4590d308c3d456.tl.jpg)
+![Isang Raspberry Pi 4](../../../../../translated_images/tl/raspberry-pi-4.fd4590d308c3d456.jpg)
 
 Ang **Bagay** sa IoT ay tumutukoy sa isang device na maaaring makipag-ugnayan sa pisikal na mundo. Ang mga device na ito ay karaniwang maliliit, murang mga computer na tumatakbo sa mababang bilis at gumagamit ng mababang enerhiya - halimbawa, simpleng microcontrollers na may kilobytes ng RAM (kumpara sa gigabytes sa isang PC) na tumatakbo sa ilang daang megahertz (kumpara sa gigahertz sa isang PC), ngunit minsan ay gumagamit ng napakaliit na enerhiya na maaari silang tumakbo nang ilang linggo, buwan, o kahit taon gamit lamang ang mga baterya.
 
 Ang mga device na ito ay nakikipag-ugnayan sa pisikal na mundo, alinman sa pamamagitan ng paggamit ng mga sensor upang mangolekta ng data mula sa kanilang paligid o sa pamamagitan ng pagkontrol sa mga output o actuators upang gumawa ng mga pisikal na pagbabago. Ang karaniwang halimbawa nito ay isang smart thermostat - isang device na may temperature sensor, isang paraan upang itakda ang nais na temperatura tulad ng dial o touchscreen, at isang koneksyon sa heating o cooling system na maaaring i-on kapag ang natukoy na temperatura ay wala sa nais na saklaw. Ang temperature sensor ay natutukoy na masyadong malamig ang silid at ang actuator ay nagbubukas ng heating.
 
-![Isang diagram na nagpapakita ng temperatura at isang dial bilang mga input sa isang IoT device, at kontrol ng isang heater bilang output](../../../../../translated_images/basic-thermostat.a923217fd1f37e5a6f3390396a65c22a387419ea2dd17e518ec24315ba6ae9a8.tl.png)
+![Isang diagram na nagpapakita ng temperatura at isang dial bilang mga input sa isang IoT device, at kontrol ng isang heater bilang output](../../../../../translated_images/tl/basic-thermostat.a923217fd1f37e5a6f3390396a65c22a387419ea2dd17e518ec24315ba6ae9a8.png)
 
 Mayroong napakaraming iba't ibang bagay na maaaring kumilos bilang IoT devices, mula sa dedikadong hardware na nakakaramdam ng isang bagay, hanggang sa mga general-purpose na device, kahit ang iyong smartphone! Ang isang smartphone ay maaaring gumamit ng mga sensor upang matukoy ang mundo sa paligid nito, at mga actuators upang makipag-ugnayan sa mundo - halimbawa, gamit ang GPS sensor upang matukoy ang iyong lokasyon at isang speaker upang magbigay ng mga direksyon sa isang destinasyon.
 
@@ -63,11 +63,11 @@ Ang mga device ay hindi rin palaging direktang kumokonekta sa Internet sa pamama
 
 Sa halimbawa ng isang smart thermostat, ang thermostat ay kokonekta gamit ang home WiFi sa isang cloud service na tumatakbo sa ulap. Ipapaabot nito ang temperature data sa cloud service na ito, at mula doon ay isusulat ito sa isang database na nagbibigay-daan sa may-ari ng bahay na suriin ang kasalukuyan at nakaraang temperatura gamit ang isang phone app. Ang isa pang serbisyo sa ulap ay malalaman kung anong temperatura ang nais ng may-ari ng bahay, at magpapadala ng mga mensahe pabalik sa IoT device sa pamamagitan ng cloud service upang sabihan ang heating system na mag-on o mag-off.
 
-![Isang diagram na nagpapakita ng temperatura at isang dial bilang mga input sa isang IoT device, ang IoT device na may 2-way na komunikasyon sa ulap, na may 2-way na komunikasyon din sa isang telepono, at kontrol ng isang heater bilang output mula sa IoT device](../../../../../translated_images/mobile-controlled-thermostat.4a994010473d8d6a52ba68c67e5f02dc8928c717e93ca4b9bc55525aa75bbb60.tl.png)
+![Isang diagram na nagpapakita ng temperatura at isang dial bilang mga input sa isang IoT device, ang IoT device na may 2-way na komunikasyon sa ulap, na may 2-way na komunikasyon din sa isang telepono, at kontrol ng isang heater bilang output mula sa IoT device](../../../../../translated_images/tl/mobile-controlled-thermostat.4a994010473d8d6a52ba68c67e5f02dc8928c717e93ca4b9bc55525aa75bbb60.png)
 
 Ang mas matalinong bersyon nito ay maaaring gumamit ng AI sa ulap gamit ang data mula sa iba pang mga sensor na konektado sa iba pang IoT devices tulad ng occupancy sensors na natutukoy kung aling mga silid ang ginagamit, pati na rin ang data tulad ng panahon at kahit ang iyong kalendaryo, upang gumawa ng mga desisyon kung paano itatakda ang temperatura sa isang matalinong paraan. Halimbawa, maaari nitong patayin ang heating kung mababasa mula sa iyong kalendaryo na ikaw ay nasa bakasyon, o patayin ang heating sa bawat silid depende sa kung aling mga silid ang ginagamit mo, natututo mula sa data upang maging mas tumpak sa paglipas ng panahon.
 
-![Isang diagram na nagpapakita ng maraming temperature sensors at isang dial bilang mga input sa isang IoT device, ang IoT device na may 2-way na komunikasyon sa ulap, na may 2-way na komunikasyon din sa isang telepono, isang kalendaryo, at isang weather service, at kontrol ng isang heater bilang output mula sa IoT device](../../../../../translated_images/smarter-thermostat.a75855f15d2d9e63.tl.png)
+![Isang diagram na nagpapakita ng maraming temperature sensors at isang dial bilang mga input sa isang IoT device, ang IoT device na may 2-way na komunikasyon sa ulap, na may 2-way na komunikasyon din sa isang telepono, isang kalendaryo, at isang weather service, at kontrol ng isang heater bilang output mula sa IoT device](../../../../../translated_images/tl/smarter-thermostat.a75855f15d2d9e63.png)
 
 ✅ Anong iba pang data ang maaaring makatulong upang gawing mas matalino ang isang Internet-connected thermostat?
 
@@ -103,7 +103,7 @@ Ang mas mabilis na clock cycle, mas maraming utos ang maaaring iproseso bawat se
 
 > 💁 Ang mga CPU ay nagpapatupad ng mga programa gamit ang [fetch-decode-execute cycle](https://wikipedia.org/wiki/Instruction_cycle). Sa bawat clock tick, kukunin ng CPU ang susunod na utos mula sa memorya, ide-decode ito, pagkatapos ay ipapatupad ito tulad ng paggamit ng arithmetic logic unit (ALU) upang magdagdag ng 2 numero. Ang ilang mga pagpapatupad ay nangangailangan ng maraming tiktik upang tumakbo, kaya ang susunod na cycle ay tatakbo sa susunod na tiktik pagkatapos makumpleto ang utos.
 
-![Ang fetch decode execute cycle na nagpapakita ng pagkuha ng isang utos mula sa program na nakaimbak sa RAM, pagkatapos ay ide-decode at ipapatupad ito sa isang CPU](../../../../../translated_images/fetch-decode-execute.2fd6f150f6280392807f4475382319abd0cee0b90058e1735444d6baa6f2078c.tl.png)
+![Ang fetch decode execute cycle na nagpapakita ng pagkuha ng isang utos mula sa program na nakaimbak sa RAM, pagkatapos ay ide-decode at ipapatupad ito sa isang CPU](../../../../../translated_images/tl/fetch-decode-execute.2fd6f150f6280392807f4475382319abd0cee0b90058e1735444d6baa6f2078c.png)
 
 Ang mga microcontroller ay may mas mababang clock speed kaysa sa mga desktop o laptop computer, o kahit sa karamihan ng mga smartphone. Halimbawa, ang Wio Terminal ay may CPU na tumatakbo sa 120MHz o 120,000,000 cycles bawat segundo.
 
@@ -135,7 +135,7 @@ Tulad ng CPU, ang memorya sa isang microcontroller ay mas maliit nang maraming b
 
 Ang diagram sa ibaba ay nagpapakita ng pagkakaiba sa laki sa pagitan ng 192KB at 8GB - ang maliit na tuldok sa gitna ay kumakatawan sa 192KB.
 
-![Paghahambing sa pagitan ng 192KB at 8GB - higit sa 40,000 beses na mas malaki](../../../../../translated_images/ram-comparison.6beb73541b42ac6f.tl.png)
+![Paghahambing sa pagitan ng 192KB at 8GB - higit sa 40,000 beses na mas malaki](../../../../../translated_images/tl/ram-comparison.6beb73541b42ac6f.png)
 
 Ang imbakan ng programa ay mas maliit din kumpara sa isang PC. Ang karaniwang PC ay maaaring may 500GB na hard drive para sa imbakan ng programa, samantalang ang isang microcontroller ay maaaring may kilobytes o ilang megabytes (MB) lamang ng imbakan (1MB ay 1,000KB, o 1,000,000 bytes). Ang Wio terminal ay may 4MB ng imbakan ng programa.
 
@@ -191,7 +191,7 @@ Ang mga Arduino board ay kino-code gamit ang C o C++. Ang paggamit ng C/C++ ay n
 
 Ang iyong setup code ay isusulat sa `setup` function, tulad ng pagkonekta sa WiFi at cloud services o pag-initialize ng mga pin para sa input at output. Ang iyong loop code naman ay maglalaman ng processing code, tulad ng pagbabasa mula sa isang sensor at pagpapadala ng halaga sa cloud. Karaniwan kang maglalagay ng delay sa bawat loop, halimbawa, kung gusto mo lamang magpadala ng sensor data tuwing 10 segundo, magdadagdag ka ng delay na 10 segundo sa dulo ng loop upang makatulog ang microcontroller, makatipid ng kuryente, at muling patakbuhin ang loop kapag kailangan.
 
-![Isang Arduino sketch na tumatakbo sa setup muna, pagkatapos ay paulit-ulit na tumatakbo sa loop](../../../../../translated_images/arduino-sketch.79590cb837ff7a7c6a68d1afda6cab83fd53d3bb1bd9a8bf2eaf8d693a4d3ea6.tl.png)
+![Isang Arduino sketch na tumatakbo sa setup muna, pagkatapos ay paulit-ulit na tumatakbo sa loop](../../../../../translated_images/tl/arduino-sketch.79590cb837ff7a7c6a68d1afda6cab83fd53d3bb1bd9a8bf2eaf8d693a4d3ea6.png)
 
 ✅ Ang program architecture na ito ay kilala bilang isang *event loop* o *message loop*. Maraming mga application ang gumagamit nito sa ilalim ng hood at ito ang standard para sa karamihan ng desktop applications na tumatakbo sa OSes tulad ng Windows, macOS, o Linux. Ang `loop` ay nakikinig para sa mga mensahe mula sa mga user interface components tulad ng mga button, o mga device tulad ng keyboard, at tumutugon sa mga ito. Maaari kang magbasa pa sa [artikulo tungkol sa event loop](https://wikipedia.org/wiki/Event_loop).
 
@@ -211,17 +211,17 @@ Sa nakaraang aralin, ipinakilala ang single-board computers. Ngayon, tingnan nat
 
 ### Raspberry Pi
 
-![Ang Raspberry Pi logo](../../../../../translated_images/raspberry-pi-logo.4efaa16605cee054.tl.png)
+![Ang Raspberry Pi logo](../../../../../translated_images/tl/raspberry-pi-logo.4efaa16605cee054.png)
 
 Ang [Raspberry Pi Foundation](https://www.raspberrypi.org) ay isang charity mula sa UK na itinatag noong 2009 upang itaguyod ang pag-aaral ng computer science, lalo na sa antas ng paaralan. Bilang bahagi ng misyong ito, nag-develop sila ng isang single-board computer na tinatawag na Raspberry Pi. Ang mga Raspberry Pi ay kasalukuyang available sa 3 variant - isang full-size na bersyon, ang mas maliit na Pi Zero, at isang compute module na maaaring isama sa iyong panghuling IoT device.
 
-![Isang Raspberry Pi 4](../../../../../translated_images/raspberry-pi-4.fd4590d308c3d456.tl.jpg)
+![Isang Raspberry Pi 4](../../../../../translated_images/tl/raspberry-pi-4.fd4590d308c3d456.jpg)
 
 Ang pinakabagong bersyon ng full-size Raspberry Pi ay ang Raspberry Pi 4B. Mayroon itong quad-core (4 core) CPU na tumatakbo sa 1.5GHz, 2, 4, o 8GB ng RAM, gigabit ethernet, WiFi, 2 HDMI ports na sumusuporta sa 4k screens, isang audio at composite video output port, USB ports (2 USB 2.0, 2 USB 3.0), 40 GPIO pins, isang camera connector para sa Raspberry Pi camera module, at isang SD card slot. Ang lahat ng ito ay nasa isang board na 88mm x 58mm x 19.5mm at pinapagana ng 3A USB-C power supply. Ang mga ito ay nagsisimula sa US$35, mas mura kaysa sa isang PC o Mac.
 
 > 💁 Mayroon ding Pi400 all-in-one computer na may Pi4 na naka-built-in sa isang keyboard.
 
-![Isang Raspberry Pi Zero](../../../../../translated_images/raspberry-pi-zero.f7a4133e1e7d54bb.tl.jpg)
+![Isang Raspberry Pi Zero](../../../../../translated_images/tl/raspberry-pi-zero.f7a4133e1e7d54bb.jpg)
 
 Ang Pi Zero ay mas maliit, na may mas mababang power. Mayroon itong single-core 1GHz CPU, 512MB ng RAM, WiFi (sa Zero W model), isang HDMI port, isang micro-USB port, 40 GPIO pins, isang camera connector para sa Raspberry Pi camera module, at isang SD card slot. Ito ay may sukat na 65mm x 30mm x 5mm, at napakaliit ng power consumption. Ang Zero ay US$5, habang ang W version na may WiFi ay US$10.
 

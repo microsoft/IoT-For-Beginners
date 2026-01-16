@@ -25,13 +25,13 @@ Cảm biến nhiệt độ Grove có thể được kết nối với Raspberry 
 
 Kết nối cảm biến nhiệt độ
 
-![Một cảm biến nhiệt độ Grove](../../../../../translated_images/grove-dht11.07f8eafceee170043efbb53e1d15722bd4e00fbaa9ff74290b57e9f66eb82c17.vi.png)
+![Một cảm biến nhiệt độ Grove](../../../../../translated_images/vi/grove-dht11.07f8eafceee170043efbb53e1d15722bd4e00fbaa9ff74290b57e9f66eb82c17.png)
 
 1. Cắm một đầu của cáp Grove vào ổ cắm trên cảm biến độ ẩm và nhiệt độ. Cáp chỉ có thể cắm theo một chiều.
 
 1. Khi Raspberry Pi đã tắt nguồn, kết nối đầu còn lại của cáp Grove vào ổ cắm kỹ thuật số được đánh dấu **D5** trên Grove Base hat gắn vào Pi. Ổ cắm này là ổ thứ hai từ bên trái, nằm trên hàng ổ cắm cạnh các chân GPIO.
 
-![Cảm biến nhiệt độ Grove được kết nối với ổ cắm A0](../../../../../translated_images/pi-temperature-sensor.3ff82fff672c8e56.vi.png)
+![Cảm biến nhiệt độ Grove được kết nối với ổ cắm A0](../../../../../translated_images/vi/pi-temperature-sensor.3ff82fff672c8e56.png)
 
 ## Lập trình cảm biến nhiệt độ
 

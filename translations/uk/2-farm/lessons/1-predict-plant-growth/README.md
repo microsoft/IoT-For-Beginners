@@ -56,7 +56,7 @@ Document your solution and explain how it could help a farmer optimize their cro
 
     
 > 💁 Якщо ви використовуєте віртуальний IoT-пристрій, виберіть випадкову галочку та встановіть діапазон, щоб уникнути отримання однакової температури кожного разу, коли повертається значення температури.
-    ![Виберіть випадкову галочку та встановіть діапазон](../../../../../translated_images/select-the-random-checkbox-and-set-a-range.32cf4bc7c12e797f.uk.png) 
+    ![Виберіть випадкову галочку та встановіть діапазон](../../../../../translated_images/uk/select-the-random-checkbox-and-set-a-range.32cf4bc7c12e797f.png) 
 
     > 💁 Якщо ви хочете запустити це на цілий день, вам потрібно переконатися, що комп'ютер, на якому працює ваш серверний код, не перейде в режим сну, або змінити налаштування живлення, або запустити щось на кшталт [цього скрипту Python для підтримки активності системи](https://github.com/jaqsparow/keep-system-active).
     
@@ -76,7 +76,7 @@ Document your solution and explain how it could help a farmer optimize their cro
 
 Наприклад, якщо найвища температура за день становить 25°C, а найнижча — 12°C:
 
-![GDD = 25 + 12 поділити на 2, потім відняти 10 від результату, отримуючи 8.5](../../../../../translated_images/gdd-calculation-strawberries.59f57db94b22adb8ff6efb951ace33af104a1c6ccca3ffb0f8169c14cb160c90.uk.png)
+![GDD = 25 + 12 поділити на 2, потім відняти 10 від результату, отримуючи 8.5](../../../../../translated_images/uk/gdd-calculation-strawberries.59f57db94b22adb8ff6efb951ace33af104a1c6ccca3ffb0f8169c14cb160c90.png)
 
 * 25 + 12 = 37
 * 37 / 2 = 18.5

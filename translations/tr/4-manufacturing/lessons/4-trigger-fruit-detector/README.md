@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Sensörden Meyve Kalitesi Tespiti Tetikleme
 
-![Bu dersin genel bir sketchnote özeti](../../../../../translated_images/lesson-18.92c32ed1d354caa5a54baa4032cf0b172d4655e8e326ad5d46c558a0def15365.tr.jpg)
+![Bu dersin genel bir sketchnote özeti](../../../../../translated_images/tr/lesson-18.92c32ed1d354caa5a54baa4032cf0b172d4655e8e326ad5d46c558a0def15365.jpg)
 
 > Sketchnote: [Nitya Narasimhan](https://github.com/nitya). Daha büyük bir versiyon için görsele tıklayın.
 
@@ -48,7 +48,7 @@ IoT uygulamaları, *nesnelerin* (cihazların) veri gönderdiği, bu verilerin *i
 
 ### Referans IoT Mimarisi
 
-![Bir referans IoT mimarisi](../../../../../translated_images/iot-reference-architecture.2278b98b55c6d4e89bde18eada3688d893861d43507641804dd2f9d3079cfaa0.tr.png)
+![Bir referans IoT mimarisi](../../../../../translated_images/tr/iot-reference-architecture.2278b98b55c6d4e89bde18eada3688d893861d43507641804dd2f9d3079cfaa0.png)
 
 Yukarıdaki diyagram, bir referans IoT mimarisini göstermektedir.
 
@@ -58,7 +58,7 @@ Yukarıdaki diyagram, bir referans IoT mimarisini göstermektedir.
 * **İçgörüler**, sunucusuz uygulamalardan veya depolanan veriler üzerinde yapılan analizlerden gelir.
 * **Eylemler**, cihazlara gönderilen komutlar veya insanların karar vermesini sağlayan veri görselleştirmeleri olabilir.
 
-![Azure'da bir referans IoT mimarisi](../../../../../translated_images/iot-reference-architecture-azure.0b8d2161af924cb18ae48a8558a19541cca47f27264851b5b7e56d7b8bb372ac.tr.png)
+![Azure'da bir referans IoT mimarisi](../../../../../translated_images/tr/iot-reference-architecture-azure.0b8d2161af924cb18ae48a8558a19541cca47f27264851b5b7e56d7b8bb372ac.png)
 
 Yukarıdaki diyagram, bu derslerde ele alınan bazı bileşenleri ve hizmetleri ve bunların bir referans IoT mimarisinde nasıl bir araya geldiğini göstermektedir.
 
@@ -98,7 +98,7 @@ Bir sistem oluşturmanız gerekiyor: Meyve konveyör bandına geldiğinde algıl
 
 ### Uygulamanızı Prototipleme
 
-![Meyve kalite kontrolü için bir referans IoT mimarisi](../../../../../translated_images/iot-reference-architecture-fruit-quality.cc705f121c3b6fa71c800d9630935ac34bc08223a04601e35f41d5e9b5dd5207.tr.png)
+![Meyve kalite kontrolü için bir referans IoT mimarisi](../../../../../translated_images/tr/iot-reference-architecture-fruit-quality.cc705f121c3b6fa71c800d9630935ac34bc08223a04601e35f41d5e9b5dd5207.png)
 
 Yukarıdaki diyagram, bu prototip uygulama için bir referans mimariyi göstermektedir.
 
@@ -115,7 +115,7 @@ Prototip için, tüm bunları tek bir cihazda uygulayacaksınız. Bir mikrodenet
 
 IoT cihazının, meyvenin sınıflandırılmaya hazır olduğunu belirten bir tür tetikleyiciye ihtiyacı vardır. Bunun bir yolu, bir sensörle mesafeyi ölçerek meyvenin konveyör bandında doğru konumda olup olmadığını belirlemektir.
 
-![Yakınlık sensörleri, muz gibi nesnelere lazer ışınları gönderir ve ışının geri yansıma süresini ölçer](../../../../../translated_images/proximity-sensor.f5cd752c77fb62fe.tr.png)
+![Yakınlık sensörleri, muz gibi nesnelere lazer ışınları gönderir ve ışının geri yansıma süresini ölçer](../../../../../translated_images/tr/proximity-sensor.f5cd752c77fb62fe.png)
 
 Yakınlık sensörleri, sensör ile bir nesne arasındaki mesafeyi ölçmek için kullanılabilir. Genellikle bir lazer ışını veya kızılötesi ışık gibi bir elektromanyetik radyasyon ışını gönderir ve ardından bir nesneden yansıyan radyasyonu algılarlar. Lazer ışınının gönderilmesi ile sinyalin geri yansıması arasındaki süre, sensöre olan mesafeyi hesaplamak için kullanılabilir.
 
@@ -133,7 +133,7 @@ IoT cihazınızı kullanarak bir nesneyi algılamak için bir yakınlık sensör
 
 Prototip meyve dedektörü, birbiriyle iletişim kuran birden fazla bileşene sahiptir.
 
-![Birbiriyle iletişim kuran bileşenler](../../../../../translated_images/fruit-quality-detector-message-flow.adf2a65da8fd8741ac7af11361574de89adc126785d67606bb4d2ec00467e380.tr.png)
+![Birbiriyle iletişim kuran bileşenler](../../../../../translated_images/tr/fruit-quality-detector-message-flow.adf2a65da8fd8741ac7af11361574de89adc126785d67606bb4d2ec00467e380.png)
 
 * Bir meyveye olan mesafeyi ölçen ve bunu IoT Hub'a gönderen bir yakınlık sensörü
 * Kamerayı kontrol etmek için IoT Hub'dan kamera cihazına gelen komut

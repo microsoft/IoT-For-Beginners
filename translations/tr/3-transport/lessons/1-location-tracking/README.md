@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Konum Takibi
 
-![Bu dersin genel bir sketchnote görünümü](../../../../../translated_images/lesson-11.9fddbac4b664c6d50ab7ac9bb32f1fc3f945f03760e72f7f43938073762fb017.tr.jpg)
+![Bu dersin genel bir sketchnote görünümü](../../../../../translated_images/tr/lesson-11.9fddbac4b664c6d50ab7ac9bb32f1fc3f945f03760e72f7f43938073762fb017.jpg)
 
 > Sketchnote: [Nitya Narasimhan](https://github.com/nitya). Daha büyük bir versiyon için görsele tıklayın.
 
@@ -72,13 +72,13 @@ Dünya bir küredir - üç boyutlu bir daire. Bu nedenle, noktalar, dairelerin g
 
 > 💁 Kimse dairelerin neden 360 dereceye bölündüğünün orijinal nedenini tam olarak bilmiyor. [Wikipedia'daki derece (açı) sayfası](https://wikipedia.org/wiki/Degree_(angle)) bazı olası nedenleri ele alıyor.
 
-![Kuzey Kutbu'nda 90°, Kuzey Kutbu ile ekvator arasında yarı yolda 45°, ekvatorda 0°, ekvator ile Güney Kutbu arasında yarı yolda -45° ve Güney Kutbu'nda -90° enlem çizgileri](../../../../../translated_images/latitude-lines.11d8d91dfb2014a57437272d7db7fd6607243098e8685f06e0c5f1ec984cb7eb.tr.png)
+![Kuzey Kutbu'nda 90°, Kuzey Kutbu ile ekvator arasında yarı yolda 45°, ekvatorda 0°, ekvator ile Güney Kutbu arasında yarı yolda -45° ve Güney Kutbu'nda -90° enlem çizgileri](../../../../../translated_images/tr/latitude-lines.11d8d91dfb2014a57437272d7db7fd6607243098e8685f06e0c5f1ec984cb7eb.png)
 
 Enlem, Dünya'yı çevreleyen ve ekvatora paralel olarak uzanan çizgiler kullanılarak ölçülür, Kuzey ve Güney Yarımküreleri her biri 90° olacak şekilde böler. Ekvator 0°'dedir, Kuzey Kutbu 90°'dedir, ayrıca 90° Kuzey olarak da bilinir ve Güney Kutbu -90°'dedir veya 90° Güney olarak bilinir.
 
 Boylam, doğu ve batı yönünde ölçülen derece sayısı olarak ölçülür. Boylamın 0° başlangıcı *Baş Meridyen* olarak adlandırılır ve 1884 yılında [İngiltere'deki Greenwich Kraliyet Gözlemevi](https://wikipedia.org/wiki/Royal_Observatory,_Greenwich) üzerinden geçen Kuzey Kutbu'ndan Güney Kutbu'na uzanan bir çizgi olarak tanımlanmıştır.
 
-![Baş Meridyen'in batısında -180°'den, Baş Meridyen'de 0°'ye, Baş Meridyen'in doğusunda 180°'ye kadar uzanan boylam meridyenleri](../../../../../translated_images/longitude-meridians.ab4ef1c91c064586b0185a3c8d39e585903696c6a7d28c098a93a629cddb5d20.tr.png)
+![Baş Meridyen'in batısında -180°'den, Baş Meridyen'de 0°'ye, Baş Meridyen'in doğusunda 180°'ye kadar uzanan boylam meridyenleri](../../../../../translated_images/tr/longitude-meridians.ab4ef1c91c064586b0185a3c8d39e585903696c6a7d28c098a93a629cddb5d20.png)
 
 > 🎓 Meridyen, Kuzey Kutbu'ndan Güney Kutbu'na uzanan ve bir yarım daire oluşturan hayali bir düz çizgidir.
 
@@ -109,7 +109,7 @@ Bir noktanın koordinatları her zaman `enlem, boylam` olarak verilir, bu nedenl
 * Enlem: 47.6423109 (ekvatordan 47.6423109 derece kuzey)
 * Boylam: -122.1390293 (Baş Meridyen'den 122.1390293 derece batı).
 
-![Microsoft Kampüsü, 47.6423109,-122.117198](../../../../../translated_images/microsoft-gps-location-world.a321d481b010f6adfcca139b2ba0adc53b79f58a540495b8e2ce7f779ea64bfe.tr.png)
+![Microsoft Kampüsü, 47.6423109,-122.117198](../../../../../translated_images/tr/microsoft-gps-location-world.a321d481b010f6adfcca139b2ba0adc53b79f58a540495b8e2ce7f779ea64bfe.png)
 
 ## Global Konumlandırma Sistemleri (GPS)
 
@@ -121,7 +121,7 @@ GPS sistemleri, her bir uydunun mevcut konumunu ve doğru bir zaman damgasını 
 
 > 💁 GPS sensörlerinin radyo dalgalarını algılamak için antenlere ihtiyacı vardır. Yerleşik GPS'e sahip kamyonlar ve arabalarda antenler genellikle ön camda veya çatıda iyi bir sinyal almak için konumlandırılır. Ayrı bir GPS sistemi kullanıyorsanız, örneğin bir akıllı telefon veya bir IoT cihazı, GPS sistemine veya telefona entegre edilmiş antenin gökyüzünü net bir şekilde görebildiğinden emin olmanız gerekir, örneğin ön camınıza monte edilerek.
 
-![Sensörün birden fazla uyduya olan mesafesini bilerek konum hesaplanabilir](../../../../../translated_images/gps-satellites.04acf1148fe25fbf1586bc2e8ba698e8d79b79a50c36824b38417dd13372b90f.tr.png)
+![Sensörün birden fazla uyduya olan mesafesini bilerek konum hesaplanabilir](../../../../../translated_images/tr/gps-satellites.04acf1148fe25fbf1586bc2e8ba698e8d79b79a50c36824b38417dd13372b90f.png)
 
 GPS uyduları Dünya'nın etrafında döner, sensörün üzerinde sabit bir noktada değildir, bu nedenle konum verileri enlem ve boylamın yanı sıra deniz seviyesinden yükseklik içerir.
 

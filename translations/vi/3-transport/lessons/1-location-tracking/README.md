@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Theo dõi vị trí
 
-![Tóm tắt bài học bằng hình vẽ](../../../../../translated_images/lesson-11.9fddbac4b664c6d50ab7ac9bb32f1fc3f945f03760e72f7f43938073762fb017.vi.jpg)
+![Tóm tắt bài học bằng hình vẽ](../../../../../translated_images/vi/lesson-11.9fddbac4b664c6d50ab7ac9bb32f1fc3f945f03760e72f7f43938073762fb017.jpg)
 
 > Hình vẽ minh họa bởi [Nitya Narasimhan](https://github.com/nitya). Nhấp vào hình để xem phiên bản lớn hơn.
 
@@ -72,13 +72,13 @@ Trái Đất là một hình cầu - một vòng tròn ba chiều. Vì vậy, c�
 
 > 💁 Không ai thực sự biết lý do ban đầu tại sao các vòng tròn được chia thành 360 độ. Trang [độ (góc) trên Wikipedia](https://wikipedia.org/wiki/Degree_(angle)) đề cập đến một số lý do có thể.
 
-![Các đường vĩ độ từ 90° tại Bắc Cực, 45° giữa Bắc Cực và xích đạo, 0° tại xích đạo, -45° giữa xích đạo và Nam Cực, và -90° tại Nam Cực](../../../../../translated_images/latitude-lines.11d8d91dfb2014a57437272d7db7fd6607243098e8685f06e0c5f1ec984cb7eb.vi.png)
+![Các đường vĩ độ từ 90° tại Bắc Cực, 45° giữa Bắc Cực và xích đạo, 0° tại xích đạo, -45° giữa xích đạo và Nam Cực, và -90° tại Nam Cực](../../../../../translated_images/vi/latitude-lines.11d8d91dfb2014a57437272d7db7fd6607243098e8685f06e0c5f1ec984cb7eb.png)
 
 Vĩ độ được đo bằng các đường vòng quanh Trái Đất và chạy song song với xích đạo, chia Bắc Bán Cầu và Nam Bán Cầu thành mỗi bên 90°. Xích đạo ở 0°, Bắc Cực ở 90°, còn gọi là 90° Bắc, và Nam Cực ở -90°, hoặc 90° Nam.
 
 Kinh độ được đo bằng số độ từ đông sang tây. Điểm gốc 0° của kinh độ được gọi là *Kinh tuyến gốc*, và được xác định vào năm 1884 là một đường từ Bắc Cực đến Nam Cực đi qua [Đài Thiên văn Hoàng gia Anh ở Greenwich, Anh](https://wikipedia.org/wiki/Royal_Observatory,_Greenwich).
 
-![Các đường kinh độ từ -180° về phía tây của Kinh tuyến gốc, đến 0° trên Kinh tuyến gốc, đến 180° về phía đông của Kinh tuyến gốc](../../../../../translated_images/longitude-meridians.ab4ef1c91c064586b0185a3c8d39e585903696c6a7d28c098a93a629cddb5d20.vi.png)
+![Các đường kinh độ từ -180° về phía tây của Kinh tuyến gốc, đến 0° trên Kinh tuyến gốc, đến 180° về phía đông của Kinh tuyến gốc](../../../../../translated_images/vi/longitude-meridians.ab4ef1c91c064586b0185a3c8d39e585903696c6a7d28c098a93a629cddb5d20.png)
 
 > 🎓 Kinh tuyến là một đường thẳng tưởng tượng đi từ Bắc Cực đến Nam Cực, tạo thành một nửa vòng tròn.
 
@@ -109,7 +109,7 @@ Tọa độ của một điểm luôn được đưa ra dưới dạng `vĩ đ�
 * Vĩ độ là 47.6423109 (47.6423109 độ về phía bắc của xích đạo)
 * Kinh độ là -122.1390293 (122.1390293 độ về phía tây của Kinh tuyến gốc).
 
-![Khuôn viên Microsoft tại 47.6423109,-122.117198](../../../../../translated_images/microsoft-gps-location-world.a321d481b010f6adfcca139b2ba0adc53b79f58a540495b8e2ce7f779ea64bfe.vi.png)
+![Khuôn viên Microsoft tại 47.6423109,-122.117198](../../../../../translated_images/vi/microsoft-gps-location-world.a321d481b010f6adfcca139b2ba0adc53b79f58a540495b8e2ce7f779ea64bfe.png)
 
 ## Hệ thống Định vị Toàn cầu (GPS)
 
@@ -121,7 +121,7 @@ Hệ thống GPS hoạt động bằng cách có một số vệ tinh gửi tín
 
 > 💁 Cảm biến GPS cần ăng-ten để phát hiện sóng radio. Các ăng-ten được tích hợp trong xe tải và xe hơi có GPS trên xe được đặt để nhận tín hiệu tốt, thường là trên kính chắn gió hoặc mái xe. Nếu bạn đang sử dụng hệ thống GPS riêng biệt, chẳng hạn như điện thoại thông minh hoặc thiết bị IoT, thì bạn cần đảm bảo rằng ăng-ten tích hợp trong hệ thống GPS hoặc điện thoại có tầm nhìn rõ ràng đến bầu trời, chẳng hạn như được gắn trên kính chắn gió.
 
-![Bằng cách biết khoảng cách từ cảm biến đến nhiều vệ tinh, vị trí có thể được tính toán](../../../../../translated_images/gps-satellites.04acf1148fe25fbf1586bc2e8ba698e8d79b79a50c36824b38417dd13372b90f.vi.png)
+![Bằng cách biết khoảng cách từ cảm biến đến nhiều vệ tinh, vị trí có thể được tính toán](../../../../../translated_images/vi/gps-satellites.04acf1148fe25fbf1586bc2e8ba698e8d79b79a50c36824b38417dd13372b90f.png)
 
 Các vệ tinh GPS đang quay quanh Trái Đất, không ở một điểm cố định trên cảm biến, vì vậy dữ liệu vị trí bao gồm độ cao so với mực nước biển cũng như vĩ độ và kinh độ.
 

@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Geofences
 
-![Isang sketchnote overview ng aralin na ito](../../../../../translated_images/lesson-14.63980c5150ae3c153e770fb71d044c1845dce79248d86bed9fc525adf3ede73c.tl.jpg)
+![Isang sketchnote overview ng aralin na ito](../../../../../translated_images/tl/lesson-14.63980c5150ae3c153e770fb71d044c1845dce79248d86bed9fc525adf3ede73c.jpg)
 
 > Sketchnote ni [Nitya Narasimhan](https://github.com/nitya). I-click ang imahe para sa mas malaking bersyon.
 
@@ -44,7 +44,7 @@ Sa aralin na ito, tatalakayin natin:
 
 Ang geofence ay isang virtual na perimeter para sa isang tunay na geographic na rehiyon. Ang mga geofence ay maaaring mga bilog na tinukoy bilang isang punto at radius (halimbawa, isang bilog na 100m ang lapad sa paligid ng isang gusali), o isang polygon na sumasaklaw sa isang lugar tulad ng school zone, city limits, o campus ng unibersidad o opisina.
 
-![Ilang halimbawa ng geofence na nagpapakita ng circular geofence sa paligid ng Microsoft company store, at polygon geofence sa paligid ng Microsoft west campus](../../../../../translated_images/geofence-examples.172fbc534665769f6e1a1ddcf75e3b25183cd10354c80cc603ba44b635390e1a.tl.png)
+![Ilang halimbawa ng geofence na nagpapakita ng circular geofence sa paligid ng Microsoft company store, at polygon geofence sa paligid ng Microsoft west campus](../../../../../translated_images/tl/geofence-examples.172fbc534665769f6e1a1ddcf75e3b25183cd10354c80cc603ba44b635390e1a.png)
 
 > 💁 Maaaring nagamit mo na ang geofences nang hindi mo namamalayan. Kung nag-set ka ng reminder gamit ang iOS reminders app o Google Keep base sa lokasyon, gumamit ka ng geofence. Ang mga app na ito ay magse-set up ng geofence base sa ibinigay na lokasyon at mag-aalerto sa iyo kapag ang iyong telepono ay pumasok sa geofence.
 
@@ -110,7 +110,7 @@ Ang bawat punto sa polygon ay tinutukoy bilang isang longitude, latitude pair sa
 
 Ang polygon coordinates array ay palaging may 1 higit pang entry kaysa sa bilang ng mga puntos sa polygon, na ang huling entry ay kapareho ng una, na nagsasara sa polygon. Halimbawa, para sa isang rectangle magkakaroon ng 5 puntos.
 
-![Isang rectangle na may coordinates](../../../../../translated_images/polygon-points.302193da381cb415.tl.png)
+![Isang rectangle na may coordinates](../../../../../translated_images/tl/polygon-points.302193da381cb415.png)
 
 Sa imahe sa itaas, mayroong isang rectangle. Ang polygon coordinates ay nagsisimula sa top-left sa 47,-122, pagkatapos ay gumagalaw pakanan sa 47,-121, pagkatapos pababa sa 46,-121, pagkatapos pakanan sa 46, -122, pagkatapos ay pabalik sa start point sa 47, -122. Ito ay nagbibigay sa polygon ng 5 puntos - top-left, top-right, bottom-right, bottom-left, pagkatapos top-left upang isara ito.
 
@@ -208,7 +208,7 @@ Kapag ginawa mo ang request na ito, maaari ka ring magpasa ng halaga na tinatawa
 
 Kapag bumalik ang mga resulta mula sa API call, isa sa mga bahagi ng resulta ay ang `distance` na sinusukat sa pinakamalapit na punto sa gilid ng geofence, na may positibong halaga kung ang punto ay nasa labas ng geofence, negatibo kung ito ay nasa loob ng geofence. Kung ang distansya na ito ay mas mababa sa search buffer, ang aktwal na distansya ay ibinabalik sa metro, kung hindi, ang halaga ay 999 o -999. Ang 999 ay nangangahulugang ang punto ay nasa labas ng geofence ng higit sa search buffer, -999 ay nangangahulugang ito ay nasa loob ng geofence ng higit sa search buffer.
 
-![Isang geofence na may 50m search buffer sa paligid nito](../../../../../translated_images/search-buffer-and-distance.e6a79af3898183c7.tl.png)
+![Isang geofence na may 50m search buffer sa paligid nito](../../../../../translated_images/tl/search-buffer-and-distance.e6a79af3898183c7.png)
 
 Sa imahe sa itaas, ang geofence ay may 50m search buffer.
 
@@ -221,7 +221,7 @@ Mahalagang malaman ang distansya sa gilid ng geofence, at pagsamahin ito sa iba 
 
 Halimbawa, isipin ang GPS readings na nagpapakita ng sasakyan na nagmamaneho sa kalsada na tumatakbo malapit sa geofence. Kung ang isang GPS value ay hindi tumpak at inilalagay ang sasakyan sa loob ng geofence, sa kabila ng walang access para sa sasakyan, maaari itong balewalain.
 
-![Isang GPS trail na nagpapakita ng sasakyan na dumadaan sa Microsoft campus sa 520, na may GPS readings sa kahabaan ng kalsada maliban sa isa sa campus, sa loob ng geofence](../../../../../translated_images/geofence-crossing-inaccurate-gps.6a3ed911202ad9cabb66d3964888cec03a42c61d5b8f536ad5bdc99716b370f5.tl.png)
+![Isang GPS trail na nagpapakita ng sasakyan na dumadaan sa Microsoft campus sa 520, na may GPS readings sa kahabaan ng kalsada maliban sa isa sa campus, sa loob ng geofence](../../../../../translated_images/tl/geofence-crossing-inaccurate-gps.6a3ed911202ad9cabb66d3964888cec03a42c61d5b8f536ad5bdc99716b370f5.png)
 Sa larawan sa itaas, may geofence sa bahagi ng Microsoft campus. Ang pulang linya ay nagpapakita ng ruta ng isang trak na dumadaan sa 520, na may mga bilog na nagpapakita ng mga GPS readings. Karamihan sa mga ito ay tama at nasa kahabaan ng 520, ngunit may isang maling reading sa loob ng geofence. Walang paraan na ang reading na iyon ay tama - walang mga kalsada para sa trak na biglang liliko mula sa 520 papunta sa campus, at pagkatapos ay bumalik sa 520. Ang code na nagche-check sa geofence na ito ay kailangang isaalang-alang ang mga naunang readings bago kumilos batay sa resulta ng geofence test.
 
 ✅ Anong karagdagang datos ang kailangan mo upang suriin kung ang isang GPS reading ay maituturing na tama?
@@ -293,7 +293,7 @@ Tulad ng natutunan mo sa mga nakaraang aralin, ang IoT Hub ay magpapahintulot sa
 
 Ang sagot ay hindi nito magagawa! Sa halip, maaari kang magtakda ng maraming hiwalay na koneksyon upang basahin ang mga event, at bawat isa ay maaaring pamahalaan ang pag-replay ng mga hindi pa nababasang mensahe. Ang mga ito ay tinatawag na *consumer groups*. Kapag kumonekta ka sa endpoint, maaari mong tukuyin kung aling consumer group ang nais mong kumonekta. Ang bawat bahagi ng iyong application ay kumokonekta sa ibang consumer group.
 
-![Isang IoT Hub na may 3 consumer groups na namamahagi ng parehong mga mensahe sa 3 iba't ibang functions apps](../../../../../translated_images/consumer-groups.a3262e26fc27ba2092863678ad57af15c7223416e388a23f330c058cf4358630.tl.png)
+![Isang IoT Hub na may 3 consumer groups na namamahagi ng parehong mga mensahe sa 3 iba't ibang functions apps](../../../../../translated_images/tl/consumer-groups.a3262e26fc27ba2092863678ad57af15c7223416e388a23f330c058cf4358630.png)
 
 Sa teorya, hanggang 5 application ang maaaring kumonekta sa bawat consumer group, at lahat sila ay makakatanggap ng mga mensahe kapag dumating ang mga ito. Ang pinakamainam na kasanayan ay magkaroon lamang ng isang application na kumokonekta sa bawat consumer group upang maiwasan ang duplicate na pagproseso ng mensahe, at tiyakin na kapag nag-restart, lahat ng nakapila na mga mensahe ay naproseso nang tama. Halimbawa, kung inilunsad mo ang iyong Functions app nang lokal pati na rin ang pagpapatakbo nito sa cloud, pareho silang magpoproseso ng mga mensahe, na magreresulta sa duplicate na blobs na nakaimbak sa storage account.
 

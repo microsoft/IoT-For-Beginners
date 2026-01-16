@@ -21,7 +21,7 @@ Ayrıca, toprak veya bir saksı bitkisi ve meyve veya sebze gibi birkaç teknik 
 
 ## Kitleri Satın Alın
 
-![Seeed Studios logosu](../../translated_images/seeed-logo.74732b6b482b6e8e.tr.png)
+![Seeed Studios logosu](../../translated_images/tr/seeed-logo.74732b6b482b6e8e.png)
 
 Seeed Studios, tüm donanımı kolayca satın alınabilir kitler olarak sunma konusunda çok nazik davrandı:
 
@@ -29,13 +29,13 @@ Seeed Studios, tüm donanımı kolayca satın alınabilir kitler olarak sunma ko
 
 **[Seeed ve Microsoft ile Başlangıç için IoT - Wio Terminal Başlangıç Kiti](https://www.seeedstudio.com/IoT-for-beginners-with-Seeed-and-Microsoft-Wio-Terminal-Starter-Kit-p-5006.html)**
 
-[![Wio Terminal donanım kiti](../../translated_images/wio-hardware-kit.4c70c48b85e4283a.tr.png)](https://www.seeedstudio.com/IoT-for-beginners-with-Seeed-and-Microsoft-Wio-Terminal-Starter-Kit-p-5006.html)
+[![Wio Terminal donanım kiti](../../translated_images/tr/wio-hardware-kit.4c70c48b85e4283a.png)](https://www.seeedstudio.com/IoT-for-beginners-with-Seeed-and-Microsoft-Wio-Terminal-Starter-Kit-p-5006.html)
 
 ### Raspberry Pi
 
 **[Seeed ve Microsoft ile Başlangıç için IoT - Raspberry Pi 4 Başlangıç Kiti](https://www.seeedstudio.com/IoT-for-beginners-with-Seeed-and-Microsoft-Raspberry-Pi-Starter-Kit-p-5004.html)**
 
-[![Raspberry Pi Terminal donanım kiti](../../translated_images/pi-hardware-kit.26dbadaedb7dd44c73b0131d5d68ea29472ed0a9744f90d5866c6d82f2d16380.tr.png)](https://www.seeedstudio.com/IoT-for-beginners-with-Seeed-and-Microsoft-Raspberry-Pi-Starter-Kit-p-5004.html)
+[![Raspberry Pi Terminal donanım kiti](../../translated_images/tr/pi-hardware-kit.26dbadaedb7dd44c73b0131d5d68ea29472ed0a9744f90d5866c6d82f2d16380.png)](https://www.seeedstudio.com/IoT-for-beginners-with-Seeed-and-Microsoft-Raspberry-Pi-Starter-Kit-p-5004.html)
 
 ## Arduino
 

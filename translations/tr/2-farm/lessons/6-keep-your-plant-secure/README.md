@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Bitkinizi Güvende Tutun
 
-![Bu dersin bir skeç notu](../../../../../translated_images/lesson-10.829c86b80b9403bb770929ee553a1d293afe50dc23121aaf9be144673ae012cc.tr.jpg)
+![Bu dersin bir skeç notu](../../../../../translated_images/tr/lesson-10.829c86b80b9403bb770929ee553a1d293afe50dc23121aaf9be144673ae012cc.jpg)
 
 > Skeç notu: [Nitya Narasimhan](https://github.com/nitya). Daha büyük bir versiyon için resme tıklayın.
 
@@ -61,11 +61,11 @@ Bunlar gerçek dünya senaryolarıdır ve sürekli olarak meydana gelir. Daha ö
 
 Bir cihaz bir IoT hizmetine bağlandığında, kendini tanımlamak için bir kimlik kullanır. Sorun şu ki, bu kimlik kopyalanabilir - bir hacker, gerçek bir cihazla aynı kimliği kullanan ancak sahte veri gönderen kötü niyetli bir cihaz kurabilir.
 
-![Hem geçerli hem de kötü niyetli cihazlar aynı kimliği kullanarak telemetri gönderebilir](../../../../../translated_images/iot-device-and-hacked-device-connecting.e0671675df74d6d99eb1dedb5a670e606f698efa6202b1ad4c8ae548db299cc6.tr.png)
+![Hem geçerli hem de kötü niyetli cihazlar aynı kimliği kullanarak telemetri gönderebilir](../../../../../translated_images/tr/iot-device-and-hacked-device-connecting.e0671675df74d6d99eb1dedb5a670e606f698efa6202b1ad4c8ae548db299cc6.png)
 
 Bunun çözümü, gönderilen verileri yalnızca cihaz ve bulut tarafından bilinen bir değer kullanarak şifrelenmiş bir formata dönüştürmektir. Bu işleme *şifreleme* denir ve verileri şifrelemek için kullanılan değere *şifreleme anahtarı* denir.
 
-![Şifreleme kullanılırsa, yalnızca şifrelenmiş mesajlar kabul edilir, diğerleri reddedilir](../../../../../translated_images/iot-device-and-hacked-device-connecting-encryption.5941aff601fc978f979e46f2849b573564eeb4a4dc5b52f669f62745397492fb.tr.png)
+![Şifreleme kullanılırsa, yalnızca şifrelenmiş mesajlar kabul edilir, diğerleri reddedilir](../../../../../translated_images/tr/iot-device-and-hacked-device-connecting-encryption.5941aff601fc978f979e46f2849b573564eeb4a4dc5b52f669f62745397492fb.png)
 
 Bulut hizmeti, verileri *şifre çözme* adı verilen bir işlemle okunabilir bir formata dönüştürebilir. Bu işlem ya aynı şifreleme anahtarını ya da bir *şifre çözme anahtarını* kullanır. Şifrelenmiş mesaj anahtar tarafından çözülemezse, cihaz hacklenmiştir ve mesaj reddedilir.
 
@@ -97,15 +97,15 @@ Ne yazık ki, her şey güvenli değildir. Bazı cihazların hiç güvenliği yo
 
 **Simetrik** şifreleme, verileri şifrelemek ve şifresini çözmek için aynı anahtarı kullanır. Hem gönderici hem de alıcı aynı anahtarı bilmelidir. Bu, en az güvenli türdür çünkü anahtar bir şekilde paylaşılmalıdır. Gönderici, alıcıya şifrelenmiş bir mesaj göndermek için önce anahtarı göndermek zorunda kalabilir.
 
-![Simetrik anahtar şifreleme, bir mesajı şifrelemek ve şifresini çözmek için aynı anahtarı kullanır](../../../../../translated_images/send-message-symmetric-key.a2e8ad0d495896ff.tr.png)
+![Simetrik anahtar şifreleme, bir mesajı şifrelemek ve şifresini çözmek için aynı anahtarı kullanır](../../../../../translated_images/tr/send-message-symmetric-key.a2e8ad0d495896ff.png)
 
 Eğer anahtar aktarım sırasında çalınırsa veya gönderici ya da alıcı hacklenir ve anahtar bulunursa, şifreleme kırılabilir.
 
-![Simetrik anahtar şifreleme, yalnızca bir hacker anahtarı ele geçirmezse güvenlidir - eğer ele geçirirse mesajı yakalayıp şifresini çözebilir](../../../../../translated_images/send-message-symmetric-key-hacker.e7cb53db1707adfb.tr.png)
+![Simetrik anahtar şifreleme, yalnızca bir hacker anahtarı ele geçirmezse güvenlidir - eğer ele geçirirse mesajı yakalayıp şifresini çözebilir](../../../../../translated_images/tr/send-message-symmetric-key-hacker.e7cb53db1707adfb.png)
 
 **Asimetrik** şifreleme, bir şifreleme anahtarı ve bir şifre çözme anahtarı olmak üzere 2 anahtar kullanır, bunlara genel/özel anahtar çifti denir. Genel anahtar mesajı şifrelemek için kullanılır ancak şifresini çözmek için kullanılamaz, özel anahtar ise mesajın şifresini çözmek için kullanılır ancak şifrelemek için kullanılamaz.
 
-![Asimetrik şifreleme, şifrelemek ve şifresini çözmek için farklı anahtarlar kullanır. Şifreleme anahtarı, mesaj gönderenlere gönderilir, böylece mesajı alıcıya göndermeden önce şifreleyebilirler](../../../../../translated_images/send-message-asymmetric.7abe327c62615b8c.tr.png)
+![Asimetrik şifreleme, şifrelemek ve şifresini çözmek için farklı anahtarlar kullanır. Şifreleme anahtarı, mesaj gönderenlere gönderilir, böylece mesajı alıcıya göndermeden önce şifreleyebilirler](../../../../../translated_images/tr/send-message-asymmetric.7abe327c62615b8c.png)
 
 Alıcı, genel anahtarını paylaşır ve gönderici bunu mesajı şifrelemek için kullanır. Mesaj gönderildikten sonra, alıcı özel anahtarıyla şifresini çözer. Asimetrik şifreleme daha güvenlidir çünkü özel anahtar alıcı tarafından gizli tutulur ve asla paylaşılmaz. Genel anahtarı herkes alabilir çünkü yalnızca mesajları şifrelemek için kullanılabilir.
 
@@ -165,7 +165,7 @@ Bu sertifikalarda, genel anahtarın kimden geldiği, sertifikayı veren CA'nın 
 
 X.509 sertifikaları kullanırken, hem gönderici hem de alıcı kendi genel ve özel anahtarlarına, ayrıca genel anahtarı içeren X.509 sertifikalarına sahip olacaktır. Daha sonra X.509 sertifikalarını bir şekilde değiş tokuş ederler, birbirlerinin genel anahtarlarını gönderilen verileri şifrelemek için ve kendi özel anahtarlarını alınan verileri çözmek için kullanırlar.
 
-![Bir genel anahtar paylaşmak yerine, bir sertifika paylaşabilirsiniz. Sertifikayı kullanan kişi, sertifikayı imzalayan sertifika otoritesine danışarak bunun sizden geldiğini doğrulayabilir.](../../../../../translated_images/send-message-certificate.9cc576ac1e46b76e.tr.png)
+![Bir genel anahtar paylaşmak yerine, bir sertifika paylaşabilirsiniz. Sertifikayı kullanan kişi, sertifikayı imzalayan sertifika otoritesine danışarak bunun sizden geldiğini doğrulayabilir.](../../../../../translated_images/tr/send-message-certificate.9cc576ac1e46b76e.png)
 
 X.509 sertifikalarının büyük bir avantajı, cihazlar arasında paylaşılabilmeleridir. Bir sertifika oluşturabilir, bunu IoT Hub'a yükleyebilir ve tüm cihazlarınız için kullanabilirsiniz. Her cihazın, IoT Hub'dan aldığı mesajları çözmek için yalnızca özel anahtarı bilmesi yeterlidir.
 

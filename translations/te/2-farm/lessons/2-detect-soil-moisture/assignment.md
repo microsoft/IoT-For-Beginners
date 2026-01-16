@@ -29,14 +29,14 @@ CO_OP_TRANSLATOR_METADATA:
 
 గ్రావిమెట్రిక్ మట్టి తేమ ఇలా లెక్కించబడుతుంది:
 
-![soil moisture % is weight wet minus weight dry, divided by weight dry, times 100](../../../../../translated_images/gsm-calculation.6da38c6201eec14e.te.png)
+![soil moisture % is weight wet minus weight dry, divided by weight dry, times 100](../../../../../translated_images/te/gsm-calculation.6da38c6201eec14e.png)
 
 * W<sub>wet</sub> - తేమ ఉన్న మట్టితో బరువు
 * W<sub>dry</sub> - పొడి మట్టితో బరువు
 
 ఉదాహరణకు, మీకు తేమ ఉన్న మట్టి సాంపిల్ బరువు 212 గ్రాంలు, పొడి మట్టిది 197 గ్రాంలు ఉంటుందని అనుకుందాం.
 
-![The calculation filled in](../../../../../translated_images/gsm-calculation-example.99f9803b4f29e976.te.png)
+![The calculation filled in](../../../../../translated_images/te/gsm-calculation-example.99f9803b4f29e976.png)
 
 * W<sub>wet</sub> = 212 గ్రా
 * W<sub>dry</sub> = 197 గ్రా

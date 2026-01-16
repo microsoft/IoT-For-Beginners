@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Suriin ang Kalidad ng Prutas gamit ang isang IoT Device
 
-![Isang sketchnote overview ng araling ito](../../../../../translated_images/lesson-16.215daf18b00631fbdfd64c6fc2dc6044dff5d544288825d8076f9fb83d964c23.tl.jpg)
+![Isang sketchnote overview ng araling ito](../../../../../translated_images/tl/lesson-16.215daf18b00631fbdfd64c6fc2dc6044dff5d544288825d8076f9fb83d964c23.jpg)
 
 > Sketchnote ni [Nitya Narasimhan](https://github.com/nitya). I-click ang imahe para sa mas malaking bersyon.
 
@@ -35,7 +35,7 @@ Sa araling ito, tatalakayin natin ang:
 
 Ang mga camera sensor, tulad ng ipinapahiwatig ng pangalan, ay mga kamera na maaari mong ikonekta sa iyong IoT device. Maaari silang kumuha ng mga still image o mag-capture ng streaming video. Ang ilan ay magbibigay ng raw image data, habang ang iba ay nagko-compress ng image data sa isang image file tulad ng JPEG o PNG. Karaniwan, ang mga kamera na gumagana sa IoT devices ay mas maliit at may mas mababang resolution kaysa sa nakasanayan mo, ngunit maaari kang makakuha ng mga high-resolution camera na maihahambing sa mga high-end na telepono. Maaari ka ring makakuha ng iba't ibang interchangeable lenses, multiple camera setups, infra-red thermal cameras, o UV cameras.
 
-![Ang liwanag mula sa isang eksena ay dumadaan sa isang lente at nakatuon sa isang CMOS sensor](../../../../../translated_images/cmos-sensor.75f9cd74decb137149a4c9ea825251a4549497d67c0ae2776159e6102bb53aa9.tl.png)
+![Ang liwanag mula sa isang eksena ay dumadaan sa isang lente at nakatuon sa isang CMOS sensor](../../../../../translated_images/tl/cmos-sensor.75f9cd74decb137149a4c9ea825251a4549497d67c0ae2776159e6102bb53aa9.png)
 
 Karamihan sa mga camera sensor ay gumagamit ng image sensors kung saan ang bawat pixel ay isang photodiode. Ang isang lente ay nagpo-focus ng imahe sa image sensor, at libu-libo o milyun-milyong photodiodes ang nagde-detect ng liwanag na tumatama sa bawat isa at nire-record ito bilang pixel data.
 
@@ -83,7 +83,7 @@ Ang mga iteration ay na-publish mula sa Custom Vision portal.
 
 1. Piliin ang **Publish** button para sa iteration.
 
-    ![Ang publish button](../../../../../translated_images/custom-vision-publish-button.b7174e1977b0c33b8b72d4e5b1326c779e0af196f3849d09985ee2d7d5493a39.tl.png)
+    ![Ang publish button](../../../../../translated_images/tl/custom-vision-publish-button.b7174e1977b0c33b8b72d4e5b1326c779e0af196f3849d09985ee2d7d5493a39.png)
 
 1. Sa *Publish Model* dialog, itakda ang *Prediction resource* sa `fruit-quality-detector-prediction` na resource na ginawa mo sa nakaraang aralin. Iwanan ang pangalan bilang `Iteration2`, at piliin ang **Publish** button.
 
@@ -97,7 +97,7 @@ Ang mga iteration ay na-publish mula sa Custom Vision portal.
 
     Kopyahin din ang *Prediction-Key* value. Ito ay isang secure na key na kailangan mong ipasa kapag tinawag mo ang modelo. Tanging ang mga application na nagpapasa ng key na ito ang pinapayagang gumamit ng modelo, ang iba pang mga application ay tinatanggihan.
 
-    ![Ang prediction API dialog na nagpapakita ng URL at key](../../../../../translated_images/custom-vision-prediction-key-endpoint.30c569ffd0338864f319911f052d5e9b8c5066cb0800a26dd6f7ff5713130ad8.tl.png)
+    ![Ang prediction API dialog na nagpapakita ng URL at key](../../../../../translated_images/tl/custom-vision-prediction-key-endpoint.30c569ffd0338864f319911f052d5e9b8c5066cb0800a26dd6f7ff5713130ad8.png)
 
 ✅ Kapag ang isang bagong iteration ay na-publish, magkakaroon ito ng ibang pangalan. Paano mo sa tingin babaguhin ang iteration na ginagamit ng isang IoT device?
 
@@ -118,7 +118,7 @@ Maaaring mapansin mo na ang mga resulta na nakukuha mo kapag ginagamit ang kamer
 
 Upang makuha ang pinakamahusay na resulta para sa isang image classifier, nais mong sanayin ang modelo gamit ang mga larawang halos kapareho ng mga larawang ginagamit para sa mga prediction. Halimbawa, kung ginamit mo ang camera ng iyong telepono upang kumuha ng mga larawan para sa training, ang kalidad ng imahe, sharpness, at kulay ay magiging iba sa isang kamera na nakakonekta sa isang IoT device.
 
-![2 larawan ng saging, isang mababang resolution na may mahinang ilaw mula sa isang IoT device, at isang mataas na resolution na may magandang ilaw mula sa isang telepono](../../../../../translated_images/banana-picture-compare.174df164dc326a42cf7fb051a7497e6113c620e91552d92ca914220305d47d9a.tl.png)
+![2 larawan ng saging, isang mababang resolution na may mahinang ilaw mula sa isang IoT device, at isang mataas na resolution na may magandang ilaw mula sa isang telepono](../../../../../translated_images/tl/banana-picture-compare.174df164dc326a42cf7fb051a7497e6113c620e91552d92ca914220305d47d9a.png)
 
 Sa larawan sa itaas, ang larawan ng saging sa kaliwa ay kinuha gamit ang isang Raspberry Pi Camera, habang ang nasa kanan ay kinuha ng parehong saging sa parehong lokasyon gamit ang isang iPhone. Mayroong kapansin-pansing pagkakaiba sa kalidad - ang larawan mula sa iPhone ay mas malinaw, may mas matingkad na kulay, at mas mataas ang contrast.
 

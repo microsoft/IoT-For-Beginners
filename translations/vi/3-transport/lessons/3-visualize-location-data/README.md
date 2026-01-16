@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Hình dung dữ liệu vị trí
 
-![Tóm tắt bài học bằng sketchnote](../../../../../translated_images/lesson-13.a259db1485021be7d7c72e90842fbe0ab977529e8684c179b5fb1ea75e92b3ef.vi.jpg)
+![Tóm tắt bài học bằng sketchnote](../../../../../translated_images/vi/lesson-13.a259db1485021be7d7c72e90842fbe0ab977529e8684c179b5fb1ea75e92b3ef.jpg)
 
 > Sketchnote bởi [Nitya Narasimhan](https://github.com/nitya). Nhấn vào hình ảnh để xem phiên bản lớn hơn.
 
@@ -73,11 +73,11 @@ Lấy một ví dụ đơn giản - trong dự án nông trại, bạn đã thu 
 
 Đối với con người, việc hiểu dữ liệu này có thể khó khăn. Nó chỉ là một bức tường số liệu không mang ý nghĩa gì. Bước đầu tiên để hình dung dữ liệu này là vẽ nó trên biểu đồ đường:
 
-![Biểu đồ đường của dữ liệu trên](../../../../../translated_images/chart-soil-moisture.fd6d9d0cdc0b5f75e78038ecb8945dfc84b38851359de99d84b16e3336d6d7c2.vi.png)
+![Biểu đồ đường của dữ liệu trên](../../../../../translated_images/vi/chart-soil-moisture.fd6d9d0cdc0b5f75e78038ecb8945dfc84b38851359de99d84b16e3336d6d7c2.png)
 
 Điều này có thể được cải thiện thêm bằng cách thêm một đường chỉ ra khi hệ thống tưới tự động được bật ở mức độ ẩm đất là 450:
 
-![Biểu đồ đường của độ ẩm đất với một đường ở mức 450](../../../../../translated_images/chart-soil-moisture-relay.fbb391236d34a64d0abf1df396e9197e0a24df14150620b9cc820a64a55c9326.vi.png)
+![Biểu đồ đường của độ ẩm đất với một đường ở mức 450](../../../../../translated_images/vi/chart-soil-moisture-relay.fbb391236d34a64d0abf1df396e9197e0a24df14150620b9cc820a64a55c9326.png)
 
 Biểu đồ này nhanh chóng cho thấy không chỉ mức độ ẩm đất mà còn các điểm mà hệ thống tưới được bật.
 
@@ -93,7 +93,7 @@ Khi làm việc với dữ liệu GPS, cách hình dung rõ ràng nhất có th�
 
 Làm việc với bản đồ là một bài tập thú vị, và có rất nhiều dịch vụ để lựa chọn như Bing Maps, Leaflet, Open Street Maps, và Google Maps. Trong bài học này, bạn sẽ tìm hiểu về [Azure Maps](https://azure.microsoft.com/services/azure-maps/?WT.mc_id=academic-17441-jabenn) và cách chúng có thể hiển thị dữ liệu GPS của bạn.
 
-![Logo Azure Maps](../../../../../translated_images/azure-maps-logo.35d01dcfbd81fe6140e94257aaa1538f785a58c91576d14e0ebe7a2f6c694b99.vi.png)
+![Logo Azure Maps](../../../../../translated_images/vi/azure-maps-logo.35d01dcfbd81fe6140e94257aaa1538f785a58c91576d14e0ebe7a2f6c694b99.png)
 
 Azure Maps là "một tập hợp các dịch vụ không gian địa lý và SDK sử dụng dữ liệu bản đồ mới nhất để cung cấp ngữ cảnh địa lý cho các ứng dụng web và di động." Các nhà phát triển được cung cấp các công cụ để tạo ra các bản đồ đẹp, tương tác có thể làm những việc như cung cấp tuyến đường giao thông được đề xuất, thông tin về sự cố giao thông, điều hướng trong nhà, khả năng tìm kiếm, thông tin độ cao, dịch vụ thời tiết và nhiều hơn nữa.
 
@@ -194,7 +194,7 @@ Bây giờ bạn có thể thực hiện bước tiếp theo là hiển thị b�
 
     Nếu bạn mở tệp `index.html` trong trình duyệt web, bạn sẽ thấy một bản đồ được tải và tập trung vào khu vực Seattle.
 
-    ![Bản đồ hiển thị Seattle, một thành phố ở bang Washington, Mỹ](../../../../../translated_images/map-image.8fb2c53eb23ef39c1c0a4410a5282e879b3b452b707eb066ff04c5488d3d72b7.vi.png)
+    ![Bản đồ hiển thị Seattle, một thành phố ở bang Washington, Mỹ](../../../../../translated_images/vi/map-image.8fb2c53eb23ef39c1c0a4410a5282e879b3b452b707eb066ff04c5488d3d72b7.png)
 
     ✅ Thử nghiệm với các tham số zoom và center để thay đổi hiển thị bản đồ. Bạn có thể thêm các tọa độ khác tương ứng với vĩ độ và kinh độ của dữ liệu để tái định tâm bản đồ.
 
@@ -328,7 +328,7 @@ Nếu bạn thực hiện một yêu cầu đến bộ lưu trữ của mình đ
 
 1. Tải trang HTML trong trình duyệt của bạn. Nó sẽ tải bản đồ, sau đó tải tất cả dữ liệu GPS từ bộ lưu trữ và vẽ nó trên bản đồ.
 
-    ![Bản đồ Công viên Bang Saint Edward gần Seattle, với các vòng tròn hiển thị một đường đi xung quanh rìa công viên](../../../../../translated_images/map-path.896832e72dc696ffe20650e4051027d4855442d955f93fdbb80bb417ca8a406f.vi.png)
+    ![Bản đồ Công viên Bang Saint Edward gần Seattle, với các vòng tròn hiển thị một đường đi xung quanh rìa công viên](../../../../../translated_images/vi/map-path.896832e72dc696ffe20650e4051027d4855442d955f93fdbb80bb417ca8a406f.png)
 
 > 💁 Bạn có thể tìm thấy đoạn mã này trong [thư mục mã](../../../../../3-transport/lessons/3-visualize-location-data/code).
 

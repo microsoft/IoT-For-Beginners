@@ -43,11 +43,11 @@ CounterFit ایپ میں مٹی نمی سینسر شامل کریں۔
 
     1. **Add** بٹن کو منتخب کریں تاکہ Pin 0 پر *Soil Moisture* سینسر بنایا جا سکے۔
 
-    ![مٹی نمی سینسر کی سیٹنگز](../../../../../translated_images/counterfit-create-soil-moisture-sensor.35266135a5e0ae68b29a684d7db0d2933a8098b2307d197f7c71577b724603aa.ur.png)
+    ![مٹی نمی سینسر کی سیٹنگز](../../../../../translated_images/ur/counterfit-create-soil-moisture-sensor.35266135a5e0ae68b29a684d7db0d2933a8098b2307d197f7c71577b724603aa.png)
 
     مٹی نمی سینسر بنایا جائے گا اور سینسرز کی فہرست میں ظاہر ہوگا۔
 
-    ![مٹی نمی سینسر بنایا گیا](../../../../../translated_images/counterfit-soil-moisture-sensor.81742b2de0e9de60a3b3b9a2ff8ecc686d428eb6d71820f27a693be26e5aceee.ur.png)
+    ![مٹی نمی سینسر بنایا گیا](../../../../../translated_images/ur/counterfit-soil-moisture-sensor.81742b2de0e9de60a3b3b9a2ff8ecc686d428eb6d71820f27a693be26e5aceee.png)
 
 ## مٹی نمی سینسر ایپ پروگرام کریں
 

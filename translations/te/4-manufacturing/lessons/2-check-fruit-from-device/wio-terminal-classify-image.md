@@ -217,7 +217,7 @@ HTTPS ఎండ్‌పాయింట్లతో అంతర్రియో�
 
     మీరు తీసిన చిత్రం మరియు ఈ విలువలను Custom Vision లోని **Predictions** ట్యాబ్‌లో చూడవచ్చు.
 
-    ![Custom Visionలో బ‌నానాను 56.8% రిప్ అయినట్లు, 43.1% అన్‌రిప్‌గా ప్రవచించిన చిత్రం](../../../../../translated_images/custom-vision-banana-prediction.30cdff4e1d72db5d.te.png)
+    ![Custom Visionలో బ‌నానాను 56.8% రిప్ అయినట్లు, 43.1% అన్‌రిప్‌గా ప్రవచించిన చిత్రం](../../../../../translated_images/te/custom-vision-banana-prediction.30cdff4e1d72db5d.png)
 
 > 💁 మీరు ఈ కోడ్‌ను [code-classify/wio-terminal](../../../../../4-manufacturing/lessons/2-check-fruit-from-device/code-classify/wio-terminal) ఫోల్డర్‌లో కనుగొనవచ్చు.
 

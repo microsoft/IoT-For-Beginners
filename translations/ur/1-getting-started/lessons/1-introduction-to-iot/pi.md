@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 [راسپبیری پائی](https://raspberrypi.org) ایک سنگل بورڈ کمپیوٹر ہے۔ آپ مختلف قسم کے آلات اور ایکوسسٹمز کا استعمال کرتے ہوئے سینسرز اور ایکچویٹرز شامل کر سکتے ہیں، اور ان اسباق کے لیے ایک ہارڈویئر ایکوسسٹم استعمال کیا جا رہا ہے جسے [Grove](https://www.seeedstudio.com/category/Grove-c-1003.html) کہا جاتا ہے۔ آپ اپنے پائی کو Python کے ذریعے کوڈ کریں گے اور Grove سینسرز تک رسائی حاصل کریں گے۔
 
-![راسپبیری پائی 4](../../../../../translated_images/raspberry-pi-4.fd4590d308c3d456.ur.jpg)
+![راسپبیری پائی 4](../../../../../translated_images/ur/raspberry-pi-4.fd4590d308c3d456.jpg)
 
 ## سیٹ اپ
 
@@ -112,7 +112,7 @@ Grove سینسرز اور ایکچویٹرز کے ساتھ پائی کو پرو�
 
 1. راسپبیری پائی امیجر سے، **CHOOSE OS** بٹن منتخب کریں، پھر *Raspberry Pi OS (Other)* منتخب کریں، اور اس کے بعد *Raspberry Pi OS Lite (32-bit)* منتخب کریں۔
 
-    ![راسپبیری پائی امیجر کے ساتھ Raspberry Pi OS Lite منتخب کیا گیا](../../../../../translated_images/raspberry-pi-imager.24aedeab9e233d84.ur.png)
+    ![راسپبیری پائی امیجر کے ساتھ Raspberry Pi OS Lite منتخب کیا گیا](../../../../../translated_images/ur/raspberry-pi-imager.24aedeab9e233d84.png)
 
     > 💁 Raspberry Pi OS Lite راسپبیری پائی OS کا ایک ورژن ہے جس میں ڈیسک ٹاپ UI یا UI پر مبنی ٹولز شامل نہیں ہیں۔ یہ ہیڈ لیس پائی کے لیے ضروری نہیں ہیں اور انسٹال کو چھوٹا اور بوٹ اپ وقت کو تیز بناتے ہیں۔
 
@@ -243,7 +243,7 @@ Pi کے لیے ہیلو ورلڈ ایپ یہ یقینی بنائے گی کہ آ�
 
 1. اس فولڈر کو VS Code میں کھولیں، *File -> Open...* منتخب کریں اور *nightlight* فولڈر منتخب کریں، پھر **OK** پر کلک کریں۔
 
-    ![VS Code اوپن ڈائیلاگ جو نائٹ لائٹ فولڈر دکھا رہا ہے](../../../../../translated_images/vscode-open-nightlight-remote.d3d2a4011e30d535.ur.png)
+    ![VS Code اوپن ڈائیلاگ جو نائٹ لائٹ فولڈر دکھا رہا ہے](../../../../../translated_images/ur/vscode-open-nightlight-remote.d3d2a4011e30d535.png)
 
 1. VS Code ایکسپلورر سے `app.py` فائل کھولیں اور درج ذیل کوڈ شامل کریں:
 

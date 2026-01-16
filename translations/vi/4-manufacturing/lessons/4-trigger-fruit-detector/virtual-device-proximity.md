@@ -45,11 +45,11 @@ Thêm cảm biến khoảng cách vào ứng dụng CounterFit.
 
     1. Chọn nút **Add** để tạo cảm biến khoảng cách.
 
-    ![Cài đặt cảm biến khoảng cách](../../../../../translated_images/counterfit-create-distance-sensor.967c9fb98f27888d95920c9784d004c972490eb71f70397fe13bd70a79a879a3.vi.png)
+    ![Cài đặt cảm biến khoảng cách](../../../../../translated_images/vi/counterfit-create-distance-sensor.967c9fb98f27888d95920c9784d004c972490eb71f70397fe13bd70a79a879a3.png)
 
     Cảm biến khoảng cách sẽ được tạo và xuất hiện trong danh sách cảm biến.
 
-    ![Cảm biến khoảng cách đã được tạo](../../../../../translated_images/counterfit-distance-sensor.079eefeeea0b68afc36431ce8fcbe2f09a7e4916ed1cd5cb30e696db53bc18fa.vi.png)
+    ![Cảm biến khoảng cách đã được tạo](../../../../../translated_images/vi/counterfit-distance-sensor.079eefeeea0b68afc36431ce8fcbe2f09a7e4916ed1cd5cb30e696db53bc18fa.png)
 
 ## Lập trình cảm biến khoảng cách
 

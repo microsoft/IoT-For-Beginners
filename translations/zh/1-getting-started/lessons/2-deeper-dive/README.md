@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # 深入了解物联网
 
-![本课的手绘笔记概览](../../../../../translated_images/lesson-2.324b0580d620c25e0a24fb7fddfc0b29a846dd4b82c08e7a9466d580ee78ce51.zh.jpg)
+![本课的手绘笔记概览](../../../../../translated_images/zh/lesson-2.324b0580d620c25e0a24fb7fddfc0b29a846dd4b82c08e7a9466d580ee78ce51.jpg)
 
 > 手绘笔记由 [Nitya Narasimhan](https://github.com/nitya) 提供。点击图片查看更大版本。
 
@@ -41,13 +41,13 @@ CO_OP_TRANSLATOR_METADATA:
 
 ### 设备
 
-![树莓派 4](../../../../../translated_images/raspberry-pi-4.fd4590d308c3d456.zh.jpg)
+![树莓派 4](../../../../../translated_images/zh/raspberry-pi-4.fd4590d308c3d456.jpg)
 
 物联网中的 **设备** 指的是能够与物理世界交互的设备。这些设备通常是小型、低成本的计算机，运行速度较低且功耗较低——例如，简单的微控制器，只有几千字节的内存（而不是 PC 的几千兆字节），运行速度只有几百兆赫兹（而不是 PC 的几千兆赫兹），但功耗极低，有时可以用电池运行数周、数月甚至数年。
 
 这些设备通过传感器从周围环境中收集数据，或者通过控制输出或执行器来进行物理改变，从而与物理世界交互。一个典型的例子是智能恒温器——一种具有温度传感器、设置目标温度的方式（如旋钮或触摸屏）以及连接到加热或冷却系统的设备。当检测到的温度超出目标范围时，它可以打开加热或冷却系统。温度传感器检测到房间太冷，执行器则打开加热系统。
 
-![一个图示显示温度和旋钮作为物联网设备的输入，控制加热器作为输出](../../../../../translated_images/basic-thermostat.a923217fd1f37e5a6f3390396a65c22a387419ea2dd17e518ec24315ba6ae9a8.zh.png)
+![一个图示显示温度和旋钮作为物联网设备的输入，控制加热器作为输出](../../../../../translated_images/zh/basic-thermostat.a923217fd1f37e5a6f3390396a65c22a387419ea2dd17e518ec24315ba6ae9a8.png)
 
 可以充当物联网设备的“设备”种类繁多，从专用硬件到通用设备，甚至包括你的智能手机！智能手机可以使用传感器检测周围环境，并使用执行器与世界交互——例如，使用 GPS 传感器检测位置，并通过扬声器提供导航指令。
 
@@ -63,11 +63,11 @@ CO_OP_TRANSLATOR_METADATA:
 
 以智能恒温器为例，恒温器通过家庭 WiFi 连接到云服务。它将温度数据发送到云服务，云服务将数据写入某种数据库，允许房主通过手机应用查看当前和过去的温度。云中的另一个服务知道房主想要的温度，并通过云服务将消息发送回物联网设备，告诉加热系统打开或关闭。
 
-![一个图示显示温度和旋钮作为物联网设备的输入，物联网设备与云之间的双向通信，云与手机之间的双向通信，以及加热器作为物联网设备的输出](../../../../../translated_images/mobile-controlled-thermostat.4a994010473d8d6a52ba68c67e5f02dc8928c717e93ca4b9bc55525aa75bbb60.zh.png)
+![一个图示显示温度和旋钮作为物联网设备的输入，物联网设备与云之间的双向通信，云与手机之间的双向通信，以及加热器作为物联网设备的输出](../../../../../translated_images/zh/mobile-controlled-thermostat.4a994010473d8d6a52ba68c67e5f02dc8928c717e93ca4b9bc55525aa75bbb60.png)
 
 更智能的版本可以使用云中的 AI，结合其他物联网设备（如占用传感器）连接的其他传感器数据，以及天气和日历等数据，智能地设置温度。例如，它可以读取你的日历显示你正在度假时关闭加热，或者根据你使用的房间逐个关闭加热，并从数据中学习以变得越来越准确。
 
-![一个图示显示多个温度传感器和旋钮作为物联网设备的输入，物联网设备与云之间的双向通信，云与手机、日历和天气服务之间的双向通信，以及加热器作为物联网设备的输出](../../../../../translated_images/smarter-thermostat.a75855f15d2d9e63.zh.png)
+![一个图示显示多个温度传感器和旋钮作为物联网设备的输入，物联网设备与云之间的双向通信，云与手机、日历和天气服务之间的双向通信，以及加热器作为物联网设备的输出](../../../../../translated_images/zh/smarter-thermostat.a75855f15d2d9e63.png)
 
 ✅ 还有哪些数据可以帮助使联网恒温器变得更智能？
 
@@ -103,7 +103,7 @@ CPU 依赖时钟以每秒数百万或数十亿次的频率进行计时。每次�
 
 > 💁 CPU 使用[取指-译码-执行周期](https://wikipedia.org/wiki/Instruction_cycle)执行程序。对于每次时钟计时，CPU 会从内存中取指令，译码，然后执行，例如使用算术逻辑单元 (ALU) 加两个数字。一些执行需要多个计时才能完成，因此下一周期将在指令完成后的下一次计时运行。
 
-![取指-译码-执行周期图示，显示取指从存储在 RAM 中的程序中获取指令，然后在 CPU 上译码和执行](../../../../../translated_images/fetch-decode-execute.2fd6f150f6280392807f4475382319abd0cee0b90058e1735444d6baa6f2078c.zh.png)
+![取指-译码-执行周期图示，显示取指从存储在 RAM 中的程序中获取指令，然后在 CPU 上译码和执行](../../../../../translated_images/zh/fetch-decode-execute.2fd6f150f6280392807f4475382319abd0cee0b90058e1735444d6baa6f2078c.png)
 
 微控制器的时钟速度远低于台式机或笔记本电脑，甚至大多数智能手机。例如，Wio Terminal 的 CPU 运行速度为 120MHz，即每秒 120,000,000 次周期。
 
@@ -135,7 +135,7 @@ RAM 是程序运行时使用的内存，包含程序分配的变量和从外设�
 
 下图展示了192KB与8GB之间的相对大小差异——中心的小点代表192KB。
 
-![192KB与8GB的比较——8GB大约是192KB的40,000倍](../../../../../translated_images/ram-comparison.6beb73541b42ac6f.zh.png)
+![192KB与8GB的比较——8GB大约是192KB的40,000倍](../../../../../translated_images/zh/ram-comparison.6beb73541b42ac6f.png)
 
 程序存储空间也比PC小。一个典型的PC可能有500GB的硬盘用于存储程序，而微控制器可能只有几千字节或几兆字节（MB）的存储空间（1MB是1,000KB或1,000,000字节）。Wio Terminal有4MB的程序存储空间。
 
@@ -191,7 +191,7 @@ Arduino板使用C或C++进行编程。使用C/C++可以使代码编译得非常�
 
 你会在`setup`函数中编写初始化代码，例如连接WiFi和云服务或初始化输入和输出引脚。然后在`loop`函数中编写处理代码，例如从传感器读取数据并将值发送到云端。通常会在每个循环中加入一个延迟，例如，如果你只希望每10秒发送一次传感器数据，可以在循环末尾加入10秒的延迟，这样微控制器可以进入休眠状态以节省电力，然后在10秒后再次运行循环。
 
-![一个Arduino草图先运行setup，然后不断运行loop](../../../../../translated_images/arduino-sketch.79590cb837ff7a7c6a68d1afda6cab83fd53d3bb1bd9a8bf2eaf8d693a4d3ea6.zh.png)
+![一个Arduino草图先运行setup，然后不断运行loop](../../../../../translated_images/zh/arduino-sketch.79590cb837ff7a7c6a68d1afda6cab83fd53d3bb1bd9a8bf2eaf8d693a4d3ea6.png)
 
 ✅ 这种程序架构被称为*事件循环*或*消息循环*。许多应用程序在底层使用这种架构，并且是大多数运行在Windows、macOS或Linux等操作系统上的桌面应用程序的标准。`loop`监听来自用户界面组件（如按钮）或设备（如键盘）的消息，并对其作出响应。你可以在这篇[关于事件循环的文章](https://wikipedia.org/wiki/Event_loop)中阅读更多内容。
 
@@ -211,17 +211,17 @@ Arduino还有一个庞大的第三方库生态系统，允许你为Arduino项目
 
 ### 树莓派
 
-![树莓派标志](../../../../../translated_images/raspberry-pi-logo.4efaa16605cee054.zh.png)
+![树莓派标志](../../../../../translated_images/zh/raspberry-pi-logo.4efaa16605cee054.png)
 
 [树莓派基金会](https://www.raspberrypi.org)是一个来自英国的慈善机构，成立于2009年，旨在促进计算机科学的学习，特别是在学校层面。作为这一使命的一部分，他们开发了一种单板计算机，称为树莓派。目前树莓派有3种型号——全尺寸版本、更小的Pi Zero，以及可以嵌入最终IoT设备的计算模块。
 
-![树莓派4](../../../../../translated_images/raspberry-pi-4.fd4590d308c3d456.zh.jpg)
+![树莓派4](../../../../../translated_images/zh/raspberry-pi-4.fd4590d308c3d456.jpg)
 
 最新的全尺寸树莓派是树莓派4B。它拥有一个四核（4核）CPU，运行速度为1.5GHz，2GB、4GB或8GB的RAM，千兆以太网，WiFi，2个支持4K屏幕的HDMI端口，一个音频和复合视频输出端口，USB端口（2个USB 2.0，2个USB 3.0），40个GPIO引脚，一个用于树莓派摄像头模块的摄像头连接器，以及一个SD卡插槽。所有这些都集成在一个88mm x 58mm x 19.5mm的板上，并由一个3A的USB-C电源供电。起售价为35美元，比PC或Mac便宜得多。
 
 > 💁 还有一个Pi400一体机，带有内置键盘的Pi4。
 
-![树莓派Zero](../../../../../translated_images/raspberry-pi-zero.f7a4133e1e7d54bb.zh.jpg)
+![树莓派Zero](../../../../../translated_images/zh/raspberry-pi-zero.f7a4133e1e7d54bb.jpg)
 
 Pi Zero更小，功耗更低。它拥有一个单核1GHz CPU，512MB的RAM，WiFi（在Zero W型号中），一个HDMI端口，一个micro-USB端口，40个GPIO引脚，一个用于树莓派摄像头模块的摄像头连接器，以及一个SD卡插槽。它的尺寸为65mm x 30mm x 5mm，功耗非常低。Zero售价为5美元，带WiFi的W版本售价为10美元。
 

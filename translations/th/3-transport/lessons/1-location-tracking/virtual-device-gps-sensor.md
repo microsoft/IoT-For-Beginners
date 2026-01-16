@@ -47,11 +47,11 @@ CO_OP_TRANSLATOR_METADATA:
 
     1. เลือกปุ่ม **Add** เพื่อสร้างเซ็นเซอร์ GPS บนพอร์ต `/dev/ttyAMA0`
 
-    ![การตั้งค่าเซ็นเซอร์ GPS](../../../../../translated_images/counterfit-create-gps-sensor.6385dc9357d85ad1d47b4abb2525e7651fd498917d25eefc5a72feab09eedc70.th.png)
+    ![การตั้งค่าเซ็นเซอร์ GPS](../../../../../translated_images/th/counterfit-create-gps-sensor.6385dc9357d85ad1d47b4abb2525e7651fd498917d25eefc5a72feab09eedc70.png)
 
     เซ็นเซอร์ GPS จะถูกสร้างและปรากฏในรายการเซ็นเซอร์
 
-    ![เซ็นเซอร์ GPS ที่ถูกสร้าง](../../../../../translated_images/counterfit-gps-sensor.3fbb15af0a5367566f2f11324ef5a6f30861cdf2b497071a5e002b7aa473550e.th.png)
+    ![เซ็นเซอร์ GPS ที่ถูกสร้าง](../../../../../translated_images/th/counterfit-gps-sensor.3fbb15af0a5367566f2f11324ef5a6f30861cdf2b497071a5e002b7aa473550e.png)
 
 ## เขียนโปรแกรมเซ็นเซอร์ GPS
 
@@ -111,17 +111,17 @@ CO_OP_TRANSLATOR_METADATA:
 
     * ตั้งค่า **Source** เป็น `Lat/Lon` และตั้งค่าละติจูด ลองจิจูด และจำนวนดาวเทียมที่ใช้ในการรับค่าตำแหน่ง GPS ค่านี้จะถูกส่งเพียงครั้งเดียว ดังนั้นให้ทำเครื่องหมายที่กล่อง **Repeat** เพื่อให้ข้อมูลส่งซ้ำทุกวินาที
 
-      ![เซ็นเซอร์ GPS ที่ตั้งค่า lat lon](../../../../../translated_images/counterfit-gps-sensor-latlon.008c867d75464fbe7f84107cc57040df565ac07cb57d2f21db37d087d470197d.th.png)
+      ![เซ็นเซอร์ GPS ที่ตั้งค่า lat lon](../../../../../translated_images/th/counterfit-gps-sensor-latlon.008c867d75464fbe7f84107cc57040df565ac07cb57d2f21db37d087d470197d.png)
 
     * ตั้งค่า **Source** เป็น `NMEA` และเพิ่มประโยค NMEA ลงในกล่องข้อความ ค่าทั้งหมดนี้จะถูกส่ง โดยมีการหน่วงเวลา 1 วินาทีก่อนที่ประโยค GGA (ตำแหน่ง) ใหม่จะถูกอ่าน
 
-      ![เซ็นเซอร์ GPS ที่ตั้งค่าประโยค NMEA](../../../../../translated_images/counterfit-gps-sensor-nmea.c62eea442171e17e19528b051b104cfcecdc9cd18db7bc72920f29821ae63f73.th.png)
+      ![เซ็นเซอร์ GPS ที่ตั้งค่าประโยค NMEA](../../../../../translated_images/th/counterfit-gps-sensor-nmea.c62eea442171e17e19528b051b104cfcecdc9cd18db7bc72920f29821ae63f73.png)
 
       คุณสามารถใช้เครื่องมืออย่าง [nmeagen.org](https://www.nmeagen.org) เพื่อสร้างประโยคเหล่านี้โดยการวาดบนแผนที่ ค่าจะถูกส่งเพียงครั้งเดียว ดังนั้นให้ทำเครื่องหมายที่กล่อง **Repeat** เพื่อให้ข้อมูลส่งซ้ำหลังจากส่งทั้งหมดแล้ว
 
     * ตั้งค่า **Source** เป็นไฟล์ GPX และอัปโหลดไฟล์ GPX ที่มีตำแหน่งเส้นทาง คุณสามารถดาวน์โหลดไฟล์ GPX จากเว็บไซต์แผนที่และเดินป่ายอดนิยม เช่น [AllTrails](https://www.alltrails.com/) ไฟล์เหล่านี้มีตำแหน่ง GPS หลายตำแหน่งเป็นเส้นทาง และเซ็นเซอร์ GPS จะส่งคืนตำแหน่งใหม่ทุกๆ 1 วินาที
 
-      ![เซ็นเซอร์ GPS ที่ตั้งค่าไฟล์ GPX](../../../../../translated_images/counterfit-gps-sensor-gpxfile.8310b063ce8a425ccc8ebeec8306aeac5e8e55207f007d52c6e1194432a70cd9.th.png)
+      ![เซ็นเซอร์ GPS ที่ตั้งค่าไฟล์ GPX](../../../../../translated_images/th/counterfit-gps-sensor-gpxfile.8310b063ce8a425ccc8ebeec8306aeac5e8e55207f007d52c6e1194432a70cd9.png)
 
       ค่าจะถูกส่งเพียงครั้งเดียว ดังนั้นให้ทำเครื่องหมายที่กล่อง **Repeat** เพื่อให้ข้อมูลส่งซ้ำหลังจากส่งทั้งหมดแล้ว
 

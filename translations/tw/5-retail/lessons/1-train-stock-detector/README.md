@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # 訓練庫存檢測器
 
-![本課程的手繪筆記概述](../../../../../translated_images/lesson-19.cf6973cecadf080c4b526310620dc4d6f5994c80fb0139c6f378cc9ca2d435cd.tw.jpg)
+![本課程的手繪筆記概述](../../../../../translated_images/tw/lesson-19.cf6973cecadf080c4b526310620dc4d6f5994c80fb0139c6f378cc9ca2d435cd.jpg)
 
 > 手繪筆記由 [Nitya Narasimhan](https://github.com/nitya) 提供。點擊圖片查看更大版本。
 
@@ -45,7 +45,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 影像分類是針對整個影像進行分類——判斷整個影像符合每個標籤的概率。你會得到模型訓練中使用的每個標籤的概率。
 
-![腰果和番茄醬的影像分類](../../../../../translated_images/image-classifier-cashews-tomato.bc2e16ab8f05cf9ac0f59f73e32efc4227f9a5b601b90b2c60f436694547a965.tw.png)
+![腰果和番茄醬的影像分類](../../../../../translated_images/tw/image-classifier-cashews-tomato.bc2e16ab8f05cf9ac0f59f73e32efc4227f9a5b601b90b2c60f436694547a965.png)
 
 在上面的例子中，兩張影像使用了一個訓練來分類腰果罐或番茄醬罐的模型進行分類。第一張影像是一罐腰果，影像分類器的結果如下：
 
@@ -69,7 +69,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 > 🎓 *邊界框* 是物件周圍的框。
 
-![腰果和番茄醬的物件檢測](../../../../../translated_images/object-detector-cashews-tomato.1af7c26686b4db0e709754aeb196f4e73271f54e2085db3bcccb70d4a0d84d97.tw.png)
+![腰果和番茄醬的物件檢測](../../../../../translated_images/tw/object-detector-cashews-tomato.1af7c26686b4db0e709754aeb196f4e73271f54e2085db3bcccb70d4a0d84d97.png)
 
 上面的影像包含一罐腰果和三罐番茄醬。物件檢測器檢測到了腰果，返回了包含腰果的邊界框以及該邊界框包含物件的概率，在此例中為 97.6%。物件檢測器還檢測到了三罐番茄醬，並提供了三個單獨的邊界框，每個檢測到的罐子都有一個邊界框以及該邊界框包含番茄醬罐的概率。
 
@@ -120,7 +120,7 @@ CO_OP_TRANSLATOR_METADATA:
 
     創建專案時，請確保使用你之前創建的 `stock-detector-training` 資源。使用 *物件檢測* 專案類型和 *貨架上的產品* 領域。
 
-    ![Custom Vision 專案的設置，名稱設為 fruit-quality-detector，無描述，資源設為 fruit-quality-detector-training，專案類型設為分類，分類類型設為多類別，領域設為食品](../../../../../translated_images/custom-vision-create-object-detector-project.32d4fb9aa8e7e7375f8a799bfce517aca970f2cb65e42d4245c5e635c734ab29.tw.png)
+    ![Custom Vision 專案的設置，名稱設為 fruit-quality-detector，無描述，資源設為 fruit-quality-detector-training，專案類型設為分類，分類類型設為多類別，領域設為食品](../../../../../translated_images/tw/custom-vision-create-object-detector-project.32d4fb9aa8e7e7375f8a799bfce517aca970f2cb65e42d4245c5e635c734ab29.png)
 
     ✅ 貨架上的產品領域專門用於檢測貨架上的庫存。閱讀更多有關不同領域的資訊，請參考 [Microsoft Docs 上的選擇領域文檔](https://docs.microsoft.com/azure/cognitive-services/custom-vision-service/select-domain?WT.mc_id=academic-17441-jabenn#object-detection)
 
@@ -142,11 +142,11 @@ CO_OP_TRANSLATOR_METADATA:
 
 1. 按照 Microsoft Docs 上 [建立物件檢測器快速入門的上傳和標記影像部分](https://docs.microsoft.com/azure/cognitive-services/custom-vision-service/get-started-build-detector?WT.mc_id=academic-17441-jabenn#upload-and-tag-images) 的指導來上傳你的訓練影像。根據你想檢測的物件類型創建相關標籤。
 
-    ![上傳對話框顯示上傳成熟和未成熟香蕉的圖片](../../../../../translated_images/image-upload-object-detector.77c7892c3093cb59b79018edecd678749a75d71a099bc8a2d2f2f76320f88a5b.tw.png)
+    ![上傳對話框顯示上傳成熟和未成熟香蕉的圖片](../../../../../translated_images/tw/image-upload-object-detector.77c7892c3093cb59b79018edecd678749a75d71a099bc8a2d2f2f76320f88a5b.png)
 
     畫物件的邊界框時，請保持框緊貼物件。標記所有影像可能需要一些時間，但工具會檢測它認為是邊界框的部分，這樣可以加快速度。
 
-    ![標記一些番茄醬](../../../../../translated_images/object-detector-tag-tomato-paste.f47c362fb0f0eb582f3bc68cf3855fb43a805106395358d41896a269c210b7b4.tw.png)
+    ![標記一些番茄醬](../../../../../translated_images/tw/object-detector-tag-tomato-paste.f47c362fb0f0eb582f3bc68cf3855fb43a805106395358d41896a269c210b7b4.png)
 
     > 💁 如果你有超過 15 張影像的每個物件，你可以在 15 張影像後進行訓練，然後使用 **建議標籤** 功能。這將使用訓練的模型檢測未標記影像中的物件。你可以確認檢測到的物件，或者拒絕並重新繪製邊界框。這可以節省大量時間。
 
@@ -164,7 +164,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 1. 使用 **快速測試** 按鈕上傳測試影像並驗證物件是否被檢測到。使用你之前創建的測試影像，而不是任何用於訓練的影像。
 
-    ![檢測到 3 罐番茄醬，概率分別為 38%、35.5% 和 34.6%](../../../../../translated_images/object-detector-detected-tomato-paste.52656fe87af4c37b4ee540526d63e73ed075da2e54a9a060aa528e0c562fb1b6.tw.png)
+    ![檢測到 3 罐番茄醬，概率分別為 38%、35.5% 和 34.6%](../../../../../translated_images/tw/object-detector-detected-tomato-paste.52656fe87af4c37b4ee540526d63e73ed075da2e54a9a060aa528e0c562fb1b6.png)
 
 1. 嘗試所有你擁有的測試影像並觀察概率。
 

@@ -57,7 +57,7 @@ Những người ủng hộ Azure Cloud tại Microsoft vui mừng cung cấp m�
 
 Các dự án bao gồm hành trình của thực phẩm từ trang trại đến bàn ăn. Điều này bao gồm nông nghiệp, hậu cần, sản xuất, bán lẻ và người tiêu dùng - tất cả là những lĩnh vực ngành phổ biến dành cho thiết bị IoT.
 
-![Bản đồ lộ trình cho khóa học gồm 24 bài học bao gồm giới thiệu, nông nghiệp, vận chuyển, chế biến, bán lẻ và nấu ăn](../../translated_images/Roadmap.bb1dec285dda0eda.vi.jpg)
+![Bản đồ lộ trình cho khóa học gồm 24 bài học bao gồm giới thiệu, nông nghiệp, vận chuyển, chế biến, bán lẻ và nấu ăn](../../translated_images/vi/Roadmap.bb1dec285dda0eda.jpg)
 
 > Bản phác thảo bởi [Nitya Narasimhan](https://github.com/nitya). Nhấp vào hình ảnh để xem phiên bản lớn hơn.
 

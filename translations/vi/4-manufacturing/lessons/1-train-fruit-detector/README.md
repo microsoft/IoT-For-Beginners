@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Huấn luyện bộ phát hiện chất lượng trái cây
 
-![Tóm tắt bài học bằng hình vẽ](../../../../../translated_images/lesson-15.843d21afdc6fb2bba70cd9db7b7d2f91598859fafda2078b0bdc44954194b6c0.vi.jpg)
+![Tóm tắt bài học bằng hình vẽ](../../../../../translated_images/vi/lesson-15.843d21afdc6fb2bba70cd9db7b7d2f91598859fafda2078b0bdc44954194b6c0.jpg)
 
 > Hình vẽ minh họa bởi [Nitya Narasimhan](https://github.com/nitya). Nhấp vào hình để xem phiên bản lớn hơn.
 
@@ -47,7 +47,7 @@ Không phải tất cả các loại cây trồng đều chín đều. Ví dụ,
 
 Sự phát triển của thu hoạch tự động đã chuyển việc phân loại nông sản từ giai đoạn thu hoạch sang nhà máy. Thực phẩm sẽ di chuyển trên các băng chuyền dài với các nhóm người nhặt ra những sản phẩm không đạt tiêu chuẩn chất lượng. Việc thu hoạch trở nên rẻ hơn nhờ máy móc, nhưng vẫn có chi phí cho việc phân loại thực phẩm thủ công.
 
-![Nếu phát hiện cà chua đỏ, nó tiếp tục hành trình mà không bị gián đoạn. Nếu phát hiện cà chua xanh, nó sẽ bị gạt vào thùng rác bằng một cần gạt](../../../../../translated_images/optical-tomato-sorting.61aa134bdda4e5b1bfb16a212c1e35a6ef0c426cbb8b1c975f79d7bfbf48d068.vi.png)
+![Nếu phát hiện cà chua đỏ, nó tiếp tục hành trình mà không bị gián đoạn. Nếu phát hiện cà chua xanh, nó sẽ bị gạt vào thùng rác bằng một cần gạt](../../../../../translated_images/vi/optical-tomato-sorting.61aa134bdda4e5b1bfb16a212c1e35a6ef0c426cbb8b1c975f79d7bfbf48d068.png)
 
 Sự phát triển tiếp theo là sử dụng máy móc để phân loại, hoặc được tích hợp vào máy thu hoạch, hoặc trong các nhà máy chế biến. Thế hệ đầu tiên của những máy này sử dụng cảm biến quang học để phát hiện màu sắc, điều khiển các bộ phận đẩy cà chua xanh vào thùng rác bằng cần gạt hoặc luồng khí, để lại cà chua đỏ tiếp tục trên mạng lưới băng chuyền.
 
@@ -61,7 +61,7 @@ Sự phát triển mới nhất của các máy phân loại này tận dụng A
 
 Lập trình truyền thống là khi bạn lấy dữ liệu, áp dụng một thuật toán vào dữ liệu, và nhận được kết quả đầu ra. Ví dụ, trong dự án trước, bạn đã lấy tọa độ GPS và một hàng rào địa lý, áp dụng một thuật toán được cung cấp bởi Azure Maps, và nhận được kết quả liệu điểm đó nằm trong hay ngoài hàng rào địa lý. Bạn nhập thêm dữ liệu, bạn nhận được thêm kết quả đầu ra.
 
-![Phát triển truyền thống lấy đầu vào và thuật toán để cho ra đầu ra. Học máy sử dụng dữ liệu đầu vào và đầu ra đã biết để huấn luyện một mô hình, và mô hình này có thể nhận dữ liệu đầu vào mới để tạo ra đầu ra mới](../../../../../translated_images/traditional-vs-ml.5c20c169621fa539.vi.png)
+![Phát triển truyền thống lấy đầu vào và thuật toán để cho ra đầu ra. Học máy sử dụng dữ liệu đầu vào và đầu ra đã biết để huấn luyện một mô hình, và mô hình này có thể nhận dữ liệu đầu vào mới để tạo ra đầu ra mới](../../../../../translated_images/vi/traditional-vs-ml.5c20c169621fa539.png)
 
 Học máy đảo ngược quy trình này - bạn bắt đầu với dữ liệu và các kết quả đầu ra đã biết, và thuật toán học máy sẽ học từ dữ liệu đó. Sau đó, bạn có thể sử dụng thuật toán đã được huấn luyện, gọi là *mô hình học máy* hoặc *mô hình*, và nhập dữ liệu mới để nhận được kết quả đầu ra mới.
 
@@ -71,7 +71,7 @@ Ví dụ, bạn có thể cung cấp cho một mô hình hàng triệu bức ả
 
 > 🎓 Kết quả của các mô hình ML được gọi là *dự đoán*
 
-![2 quả chuối, một quả chín với dự đoán 99.7% chín, 0.3% chưa chín, và một quả chưa chín với dự đoán 1.4% chín, 98.6% chưa chín](../../../../../translated_images/bananas-ripe-vs-unripe-predictions.8d0e2034014aa50ece4e4589e724b142da0681f35470fe3db3f7d51240f69c85.vi.png)
+![2 quả chuối, một quả chín với dự đoán 99.7% chín, 0.3% chưa chín, và một quả chưa chín với dự đoán 1.4% chín, 98.6% chưa chín](../../../../../translated_images/vi/bananas-ripe-vs-unripe-predictions.8d0e2034014aa50ece4e4589e724b142da0681f35470fe3db3f7d51240f69c85.png)
 
 Các mô hình ML không đưa ra câu trả lời nhị phân, thay vào đó chúng đưa ra xác suất. Ví dụ, một mô hình có thể được cung cấp một bức ảnh của một quả chuối và dự đoán `chín` với 99.7% và `chưa chín` với 0.3%. Mã của bạn sau đó sẽ chọn dự đoán tốt nhất và quyết định rằng quả chuối đã chín.
 
@@ -87,7 +87,7 @@ Mô hình ML được sử dụng để phát hiện hình ảnh như thế này
 
 Khi một bộ phân loại hình ảnh đã được huấn luyện cho một loạt hình ảnh đa dạng, các thành phần bên trong của nó rất giỏi trong việc nhận diện hình dạng, màu sắc và hoa văn. Học chuyển giao cho phép mô hình sử dụng những gì nó đã học được trong việc nhận diện các phần của hình ảnh, và sử dụng điều đó để nhận diện các hình ảnh mới.
 
-![Khi bạn có thể nhận diện các hình dạng, chúng có thể được sắp xếp thành các cấu hình khác nhau để tạo thành một chiếc thuyền hoặc một con mèo](../../../../../translated_images/shapes-to-images.1a309f0ea88dd66f.vi.png)
+![Khi bạn có thể nhận diện các hình dạng, chúng có thể được sắp xếp thành các cấu hình khác nhau để tạo thành một chiếc thuyền hoặc một con mèo](../../../../../translated_images/vi/shapes-to-images.1a309f0ea88dd66f.png)
 
 Bạn có thể nghĩ về điều này giống như sách hình dạng dành cho trẻ em, nơi mà khi bạn có thể nhận diện một nửa hình tròn, một hình chữ nhật và một hình tam giác, bạn có thể nhận diện một chiếc thuyền buồm hoặc một con mèo tùy thuộc vào cách sắp xếp các hình dạng này. Bộ phân loại hình ảnh có thể nhận diện các hình dạng, và học chuyển giao dạy nó cách kết hợp nào tạo thành một chiếc thuyền hoặc một con mèo - hoặc một quả chuối chín.
 
@@ -99,7 +99,7 @@ Có rất nhiều công cụ có thể giúp bạn làm điều này, bao gồm 
 
 Custom Vision là một công cụ dựa trên đám mây để huấn luyện các bộ phân loại hình ảnh. Nó cho phép bạn huấn luyện một bộ phân loại chỉ với một số lượng nhỏ hình ảnh. Bạn có thể tải lên hình ảnh qua cổng web, API web hoặc SDK, gán cho mỗi hình ảnh một *thẻ* đại diện cho phân loại của hình ảnh đó. Sau đó, bạn huấn luyện mô hình và kiểm tra nó để xem hiệu suất của nó. Khi bạn hài lòng với mô hình, bạn có thể xuất bản các phiên bản của nó để truy cập qua API web hoặc SDK.
 
-![Logo Azure Custom Vision](../../../../../translated_images/custom-vision-logo.d3d4e7c8a87ec9daf825e72e210576c3cbf60312577be7a139e22dd97ab7f1e6.vi.png)
+![Logo Azure Custom Vision](../../../../../translated_images/vi/custom-vision-logo.d3d4e7c8a87ec9daf825e72e210576c3cbf60312577be7a139e22dd97ab7f1e6.png)
 
 > 💁 Bạn có thể huấn luyện một mô hình Custom Vision chỉ với 5 hình ảnh cho mỗi phân loại, nhưng càng nhiều càng tốt. Bạn sẽ có kết quả tốt hơn với ít nhất 30 hình ảnh.
 
@@ -155,7 +155,7 @@ Custom Vision là một phần của một loạt các công cụ AI từ Micros
 
     Khi bạn tạo dự án, hãy chắc chắn sử dụng tài nguyên `fruit-quality-detector-training` mà bạn đã tạo trước đó. Sử dụng loại dự án *Classification*, loại phân loại *Multiclass*, và miền *Food*.
 
-    ![Cài đặt cho dự án Custom Vision với tên được đặt là fruit-quality-detector, không có mô tả, tài nguyên được đặt là fruit-quality-detector-training, loại dự án được đặt là classification, loại phân loại được đặt là multi class và miền được đặt là food](../../../../../translated_images/custom-vision-create-project.cf46325b92d8b131089f6647cf5e07b664cb77850e106d66e3c057b6b69756c6.vi.png)
+    ![Cài đặt cho dự án Custom Vision với tên được đặt là fruit-quality-detector, không có mô tả, tài nguyên được đặt là fruit-quality-detector-training, loại dự án được đặt là classification, loại phân loại được đặt là multi class và miền được đặt là food](../../../../../translated_images/vi/custom-vision-create-project.cf46325b92d8b131089f6647cf5e07b664cb77850e106d66e3c057b6b69756c6.png)
 
 ✅ Dành thời gian để khám phá giao diện người dùng Custom Vision cho bộ phân loại hình ảnh của bạn.
 
@@ -173,7 +173,7 @@ Bộ phân loại hình ảnh hoạt động ở độ phân giải rất thấp
 
     * Sử dụng 2 quả chuối chín, chụp một số ảnh của mỗi quả từ các góc độ khác nhau, chụp ít nhất 7 ảnh (5 để huấn luyện, 2 để kiểm tra), nhưng lý tưởng là nhiều hơn.
 
-        ![Ảnh của 2 quả chuối khác nhau](../../../../../translated_images/banana-training-images.530eb203346d73bc23b8b990fb4609470bf4ff7c942ccc13d4cfffeed9be1ad4.vi.png)
+        ![Ảnh của 2 quả chuối khác nhau](../../../../../translated_images/vi/banana-training-images.530eb203346d73bc23b8b990fb4609470bf4ff7c942ccc13d4cfffeed9be1ad4.png)
 
     * Lặp lại quy trình tương tự với 2 quả chuối chưa chín.
 
@@ -183,7 +183,7 @@ Bộ phân loại hình ảnh hoạt động ở độ phân giải rất thấp
 
 1. Thực hiện theo [phần tải lên và gắn thẻ ảnh trong hướng dẫn nhanh xây dựng bộ phân loại trên tài liệu Microsoft](https://docs.microsoft.com/azure/cognitive-services/custom-vision-service/getting-started-build-a-classifier?WT.mc_id=academic-17441-jabenn#upload-and-tag-images) để tải lên ảnh huấn luyện của bạn. Gắn thẻ quả chín là `ripe`, và quả chưa chín là `unripe`.
 
-    ![Hộp thoại tải lên hiển thị việc tải ảnh chuối chín và chưa chín](../../../../../translated_images/image-upload-bananas.0751639f3815e0ec42bdbc6254d1e4357a185834d1ae10c9948a0e7d6d336695.vi.png)
+    ![Hộp thoại tải lên hiển thị việc tải ảnh chuối chín và chưa chín](../../../../../translated_images/vi/image-upload-bananas.0751639f3815e0ec42bdbc6254d1e4357a185834d1ae10c9948a0e7d6d336695.png)
 
 1. Thực hiện theo [phần huấn luyện bộ phân loại trong hướng dẫn nhanh xây dựng bộ phân loại trên tài liệu Microsoft](https://docs.microsoft.com/azure/cognitive-services/custom-vision-service/getting-started-build-a-classifier?WT.mc_id=academic-17441-jabenn#train-the-classifier) để huấn luyện bộ phân loại hình ảnh trên các ảnh đã tải lên.
 
@@ -201,7 +201,7 @@ Khi bộ phân loại của bạn đã được huấn luyện, bạn có thể 
 
 1. Thực hiện theo [tài liệu kiểm tra mô hình trên tài liệu Microsoft](https://docs.microsoft.com/azure/cognitive-services/custom-vision-service/test-your-model?WT.mc_id=academic-17441-jabenn#test-your-model) để kiểm tra bộ phân loại hình ảnh của bạn. Sử dụng các ảnh kiểm tra bạn đã tạo trước đó, không sử dụng bất kỳ ảnh nào bạn đã dùng để huấn luyện.
 
-    ![Một quả chuối chưa chín được dự đoán là chưa chín với xác suất 98.9%, chín với xác suất 1.1%](../../../../../translated_images/banana-unripe-quick-test-prediction.dae9b5e1c4ef7c64886422438850ea14f0be6ac918c217ea3b255c685abfabe7.vi.png)
+    ![Một quả chuối chưa chín được dự đoán là chưa chín với xác suất 98.9%, chín với xác suất 1.1%](../../../../../translated_images/vi/banana-unripe-quick-test-prediction.dae9b5e1c4ef7c64886422438850ea14f0be6ac918c217ea3b255c685abfabe7.png)
 
 1. Thử tất cả các ảnh kiểm tra bạn có và quan sát các xác suất.
 

@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # IoT Cihazından Meyve Kalitesini Kontrol Etme
 
-![Bu dersin genel bir sketchnote'u](../../../../../translated_images/lesson-16.215daf18b00631fbdfd64c6fc2dc6044dff5d544288825d8076f9fb83d964c23.tr.jpg)
+![Bu dersin genel bir sketchnote'u](../../../../../translated_images/tr/lesson-16.215daf18b00631fbdfd64c6fc2dc6044dff5d544288825d8076f9fb83d964c23.jpg)
 
 > Sketchnote: [Nitya Narasimhan](https://github.com/nitya). Daha büyük bir versiyon için görsele tıklayın.
 
@@ -35,7 +35,7 @@ Bu derste şunları ele alacağız:
 
 Kamera sensörleri, adından da anlaşılacağı gibi, IoT cihazınıza bağlayabileceğiniz kameralardır. Bu kameralar sabit görüntüler çekebilir veya akışlı video kaydedebilir. Bazıları ham görüntü verisi dönerken, diğerleri görüntü verisini JPEG veya PNG gibi bir görüntü dosyasına sıkıştırır. Genellikle IoT cihazlarıyla çalışan kameralar, alışık olduğunuz kameralardan çok daha küçük ve düşük çözünürlüklüdür, ancak üst düzey telefonlarla yarışabilecek yüksek çözünürlüklü kameralar da bulabilirsiniz. Değiştirilebilir lensler, çoklu kamera kurulumları, kızılötesi termal kameralar veya UV kameralar gibi birçok seçenek mevcuttur.
 
-![Bir sahneden gelen ışık bir lensin içinden geçer ve bir CMOS sensör üzerinde odaklanır](../../../../../translated_images/cmos-sensor.75f9cd74decb137149a4c9ea825251a4549497d67c0ae2776159e6102bb53aa9.tr.png)
+![Bir sahneden gelen ışık bir lensin içinden geçer ve bir CMOS sensör üzerinde odaklanır](../../../../../translated_images/tr/cmos-sensor.75f9cd74decb137149a4c9ea825251a4549497d67c0ae2776159e6102bb53aa9.png)
 
 Çoğu kamera sensörü, her pikselin bir fotodiyot olduğu görüntü sensörlerini kullanır. Bir lens, görüntüyü görüntü sensörüne odaklar ve binlerce veya milyonlarca fotodiyot, her birine düşen ışığı algılar ve bunu piksel verisi olarak kaydeder.
 
@@ -83,7 +83,7 @@ Bir iterasyondan memnun olduğunuzda, bunu harici uygulamalar tarafından kullan
 
 1. İterasyon için **Yayınla** düğmesini seçin.
 
-    ![Yayınla düğmesi](../../../../../translated_images/custom-vision-publish-button.b7174e1977b0c33b8b72d4e5b1326c779e0af196f3849d09985ee2d7d5493a39.tr.png)
+    ![Yayınla düğmesi](../../../../../translated_images/tr/custom-vision-publish-button.b7174e1977b0c33b8b72d4e5b1326c779e0af196f3849d09985ee2d7d5493a39.png)
 
 1. *Modeli Yayınla* iletişim kutusunda, *Tahmin kaynağı* olarak önceki derste oluşturduğunuz `fruit-quality-detector-prediction` kaynağını seçin. Adı `Iteration2` olarak bırakın ve **Yayınla** düğmesini seçin.
 
@@ -97,7 +97,7 @@ Bir iterasyondan memnun olduğunuzda, bunu harici uygulamalar tarafından kullan
 
     Ayrıca *Tahmin Anahtarı* değerinin bir kopyasını alın. Bu, modeli çağırırken geçirmeniz gereken güvenli bir anahtardır. Sadece bu anahtarı geçen uygulamaların modeli kullanmasına izin verilir, diğer tüm uygulamalar reddedilir.
 
-    ![Tahmin API'si iletişim kutusu, URL ve anahtarı gösteriyor](../../../../../translated_images/custom-vision-prediction-key-endpoint.30c569ffd0338864f319911f052d5e9b8c5066cb0800a26dd6f7ff5713130ad8.tr.png)
+    ![Tahmin API'si iletişim kutusu, URL ve anahtarı gösteriyor](../../../../../translated_images/tr/custom-vision-prediction-key-endpoint.30c569ffd0338864f319911f052d5e9b8c5066cb0800a26dd6f7ff5713130ad8.png)
 
 ✅ Yeni bir iterasyon yayınlandığında, farklı bir adı olacaktır. IoT cihazının kullandığı iterasyonu nasıl değiştirebileceğinizi düşünün.
 
@@ -118,7 +118,7 @@ IoT cihazınıza bağlı kamerayı kullanırken elde ettiğiniz sonuçların bek
 
 Bir görüntü sınıflandırıcıdan en iyi sonuçları almak için, modeli tahminlerde kullanılan görüntülere mümkün olduğunca benzeyen görüntülerle eğitmek istersiniz. Örneğin, eğitmek için telefon kameranızı kullandıysanız, görüntü kalitesi, keskinlik ve renk, bir IoT cihazına bağlı bir kameradan farklı olacaktır.
 
-![2 muz resmi, biri IoT cihazından düşük çözünürlüklü ve kötü aydınlatmalı, diğeri telefondan yüksek çözünürlüklü ve iyi aydınlatmalı](../../../../../translated_images/banana-picture-compare.174df164dc326a42cf7fb051a7497e6113c620e91552d92ca914220305d47d9a.tr.png)
+![2 muz resmi, biri IoT cihazından düşük çözünürlüklü ve kötü aydınlatmalı, diğeri telefondan yüksek çözünürlüklü ve iyi aydınlatmalı](../../../../../translated_images/tr/banana-picture-compare.174df164dc326a42cf7fb051a7497e6113c620e91552d92ca914220305d47d9a.png)
 
 Yukarıdaki görüntüde, soldaki muz resmi bir Raspberry Pi Kamerası kullanılarak çekildi, sağdaki ise aynı muzun aynı konumda bir iPhone kullanılarak çekildi. Kalite açısından belirgin bir fark var - iPhone resmi daha keskin, daha parlak renkler ve daha fazla kontrast içeriyor.
 

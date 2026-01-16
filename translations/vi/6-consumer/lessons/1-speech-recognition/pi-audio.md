@@ -25,13 +25,13 @@ Nút bấm có thể được kết nối với Grove base hat.
 
 #### Nhiệm vụ - kết nối nút bấm
 
-![Một nút Grove](../../../../../translated_images/grove-button.a70cfbb809a8563681003250cf5b06d68cdcc68624f9e2f493d5a534ae2da1e5.vi.png)
+![Một nút Grove](../../../../../translated_images/vi/grove-button.a70cfbb809a8563681003250cf5b06d68cdcc68624f9e2f493d5a534ae2da1e5.png)
 
 1. Cắm một đầu của cáp Grove vào ổ cắm trên module nút bấm. Cáp chỉ có thể cắm theo một chiều.
 
 1. Khi Raspberry Pi đã tắt nguồn, kết nối đầu còn lại của cáp Grove vào ổ cắm kỹ thuật số được đánh dấu **D5** trên Grove Base hat gắn vào Pi. Ổ cắm này là ổ thứ hai từ bên trái, nằm trên hàng ổ cắm cạnh các chân GPIO.
 
-![Nút Grove được kết nối với ổ D5](../../../../../translated_images/pi-button.c7a1a4f55943341ce1baf1057658e9a205804d4131d258e820c93f951df0abf3.vi.png)
+![Nút Grove được kết nối với ổ D5](../../../../../translated_images/vi/pi-button.c7a1a4f55943341ce1baf1057658e9a205804d4131d258e820c93f951df0abf3.png)
 
 ## Ghi âm
 

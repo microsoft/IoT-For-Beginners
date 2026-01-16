@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Konum Verilerini Görselleştirme
 
-![Bu dersin genel bir sketchnote görünümü](../../../../../translated_images/lesson-13.a259db1485021be7d7c72e90842fbe0ab977529e8684c179b5fb1ea75e92b3ef.tr.jpg)
+![Bu dersin genel bir sketchnote görünümü](../../../../../translated_images/tr/lesson-13.a259db1485021be7d7c72e90842fbe0ab977529e8684c179b5fb1ea75e92b3ef.jpg)
 
 > Sketchnote: [Nitya Narasimhan](https://github.com/nitya). Daha büyük bir versiyon için resme tıklayın.
 
@@ -73,11 +73,11 @@ Basit bir örnek alalım - çiftlik projesinde toprak nemi ölçümlerini yakala
 
 Bu veriyi anlamak insan için zor olabilir. Anlamı olmayan bir sayı duvarı gibidir. Bu veriyi görselleştirmek için ilk adım olarak bir çizgi grafiğe dökebiliriz:
 
-![Yukarıdaki verilerin çizgi grafiği](../../../../../translated_images/chart-soil-moisture.fd6d9d0cdc0b5f75e78038ecb8945dfc84b38851359de99d84b16e3336d6d7c2.tr.png)
+![Yukarıdaki verilerin çizgi grafiği](../../../../../translated_images/tr/chart-soil-moisture.fd6d9d0cdc0b5f75e78038ecb8945dfc84b38851359de99d84b16e3336d6d7c2.png)
 
 Bu grafik, otomatik sulama sisteminin 450 nem okumasında açıldığı noktayı gösteren bir çizgi eklenerek daha da geliştirilebilir:
 
-![450 nem okumasında bir çizgi ile toprak nemi grafiği](../../../../../translated_images/chart-soil-moisture-relay.fbb391236d34a64d0abf1df396e9197e0a24df14150620b9cc820a64a55c9326.tr.png)
+![450 nem okumasında bir çizgi ile toprak nemi grafiği](../../../../../translated_images/tr/chart-soil-moisture-relay.fbb391236d34a64d0abf1df396e9197e0a24df14150620b9cc820a64a55c9326.png)
 
 Bu grafik, toprak nemi seviyelerinin ne olduğunu ve sulama sisteminin açıldığı noktaları çok hızlı bir şekilde gösterir.
 
@@ -93,7 +93,7 @@ GPS verileriyle çalışırken, en net görselleştirme veriyi bir haritada çiz
 
 Haritalarla çalışmak ilginç bir egzersizdir ve Bing Maps, Leaflet, Open Street Maps ve Google Maps gibi birçok seçenek vardır. Bu derste, [Azure Maps](https://azure.microsoft.com/services/azure-maps/?WT.mc_id=academic-17441-jabenn) hakkında bilgi edinecek ve GPS verilerinizi nasıl görüntüleyebileceğinizi öğreneceksiniz.
 
-![Azure Maps logosu](../../../../../translated_images/azure-maps-logo.35d01dcfbd81fe6140e94257aaa1538f785a58c91576d14e0ebe7a2f6c694b99.tr.png)
+![Azure Maps logosu](../../../../../translated_images/tr/azure-maps-logo.35d01dcfbd81fe6140e94257aaa1538f785a58c91576d14e0ebe7a2f6c694b99.png)
 
 Azure Maps, "coğrafi bağlamı web ve mobil uygulamalara sağlamak için taze harita verilerini kullanan bir dizi coğrafi hizmet ve SDK'dır." Geliştiricilere, önerilen trafik rotaları sağlama, trafik olayları hakkında bilgi verme, iç mekan navigasyonu, arama yetenekleri, yükseklik bilgisi, hava durumu hizmetleri ve daha fazlasını yapabilen güzel, etkileşimli haritalar oluşturmak için araçlar sunar.
 
@@ -194,7 +194,7 @@ Bu derste, bir harita çizmek ve sensörünüzün GPS konumlarının yolunu gös
 
     `index.html` sayfanızı bir web tarayıcısında açarsanız, bir harita yüklendiğini ve Seattle bölgesine odaklandığını görmelisiniz.
 
-    ![Washington Eyaleti, ABD'deki bir şehir olan Seattle'ı gösteren bir harita](../../../../../translated_images/map-image.8fb2c53eb23ef39c1c0a4410a5282e879b3b452b707eb066ff04c5488d3d72b7.tr.png)
+    ![Washington Eyaleti, ABD'deki bir şehir olan Seattle'ı gösteren bir harita](../../../../../translated_images/tr/map-image.8fb2c53eb23ef39c1c0a4410a5282e879b3b452b707eb066ff04c5488d3d72b7.png)
 
     ✅ Harita görüntünüzü değiştirmek için zoom ve merkez parametreleriyle deney yapın. Haritanın merkezini yeniden ayarlamak için verilerinizin enlem ve boylamına karşılık gelen farklı koordinatlar ekleyebilirsiniz.
 
@@ -328,7 +328,7 @@ Depolamanıza veri almak için bir çağrı yaptığınızda, tarayıcınızın 
 
 1. HTML sayfasını tarayıcınızda yükleyin. Harita yüklenecek, ardından depolamadan tüm GPS verileri yüklenecek ve haritada gösterilecektir.
 
-    ![Seattle yakınlarındaki Saint Edward State Park'ın bir haritası, parkın kenarındaki yolu gösteren daireler](../../../../../translated_images/map-path.896832e72dc696ffe20650e4051027d4855442d955f93fdbb80bb417ca8a406f.tr.png)
+    ![Seattle yakınlarındaki Saint Edward State Park'ın bir haritası, parkın kenarındaki yolu gösteren daireler](../../../../../translated_images/tr/map-path.896832e72dc696ffe20650e4051027d4855442d955f93fdbb80bb417ca8a406f.png)
 
 > 💁 Bu kodu [code](../../../../../3-transport/lessons/3-visualize-location-data/code) klasöründe bulabilirsiniz.
 

@@ -43,7 +43,7 @@ Micro và loa cần được kết nối và cấu hình.
 
 1. Nếu bạn đang sử dụng ReSpeaker 2-Mics Pi HAT, bạn có thể tháo Grove base hat, sau đó gắn ReSpeaker hat vào vị trí của nó.
 
-    ![Một Raspberry Pi với ReSpeaker hat](../../../../../translated_images/pi-respeaker-hat.f00fabe7dd039a93e2e0aa0fc946c9af0c6a9eb17c32fa1ca097fb4e384f69f0.vi.png)
+    ![Một Raspberry Pi với ReSpeaker hat](../../../../../translated_images/vi/pi-respeaker-hat.f00fabe7dd039a93e2e0aa0fc946c9af0c6a9eb17c32fa1ca097fb4e384f69f0.png)
 
     Bạn sẽ cần một nút Grove sau này trong bài học, nhưng một nút đã được tích hợp trong hat này, vì vậy Grove base hat không cần thiết.
 

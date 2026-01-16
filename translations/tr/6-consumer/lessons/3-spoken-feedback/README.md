@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Bir zamanlayıcı ayarlayın ve sesli geri bildirim sağlayın
 
-![Bu dersin bir sketchnote özeti](../../../../../translated_images/lesson-23.f38483e1d4df4828990d3f02d60e46c978b075d384ae7cb4f7bab738e107c850.tr.jpg)
+![Bu dersin bir sketchnote özeti](../../../../../translated_images/tr/lesson-23.f38483e1d4df4828990d3f02d60e46c978b075d384ae7cb4f7bab738e107c850.jpg)
 
 > Sketchnote: [Nitya Narasimhan](https://github.com/nitya). Daha büyük bir versiyon için resme tıklayın.
 
@@ -37,7 +37,7 @@ Bu derste şunları ele alacağız:
 
 Adından da anlaşılacağı gibi, metinden konuşmaya işlemi, metni sesli kelimeler olarak içeren sese dönüştürme sürecidir. Temel prensip, metindeki kelimeleri bileşen seslerine (fonemler olarak bilinir) ayırmak ve bu sesler için sesleri birleştirmek, ya önceden kaydedilmiş sesleri kullanarak ya da yapay zeka modelleri tarafından üretilen sesleri kullanarak gerçekleştirilir.
 
-![Tipik metinden konuşmaya sistemlerinin üç aşaması](../../../../../translated_images/tts-overview.193843cf3f5ee09f.tr.png)
+![Tipik metinden konuşmaya sistemlerinin üç aşaması](../../../../../translated_images/tr/tts-overview.193843cf3f5ee09f.png)
 
 Metinden konuşmaya sistemleri genellikle 3 aşamadan oluşur:
 

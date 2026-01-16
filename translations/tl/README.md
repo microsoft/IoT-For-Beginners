@@ -57,7 +57,7 @@ Ang mga Azure Cloud Advocates sa Microsoft ay natutuwa na mag-alok ng isang 12-l
 
 Saklaw ng mga proyekto ang paglalakbay ng pagkain mula sa bukid hanggang sa mesa. Kabilang dito ang pagsasaka, logistics, pagmamanupaktura, retail at consumer - lahat ng mga tanyag na industriya para sa mga IoT device.
 
-![Isang road map para sa kurso na nagpapakita ng 24 na leksyon na sumasaklaw sa intro, pagsasaka, transportasyon, pagproseso, retail at pagluluto](../../translated_images/Roadmap.bb1dec285dda0eda.tl.jpg)
+![Isang road map para sa kurso na nagpapakita ng 24 na leksyon na sumasaklaw sa intro, pagsasaka, transportasyon, pagproseso, retail at pagluluto](../../translated_images/tl/Roadmap.bb1dec285dda0eda.jpg)
 
 > Sketchnote ni [Nitya Narasimhan](https://github.com/nitya). I-click ang imahe para sa mas malaking bersyon.
 

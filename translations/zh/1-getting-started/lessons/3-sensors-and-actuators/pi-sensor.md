@@ -25,13 +25,13 @@ CO_OP_TRANSLATOR_METADATA:
 
 连接光传感器
 
-![一个 Grove 光传感器](../../../../../translated_images/grove-light-sensor.b8127b7c434e632d6bcdb57587a14e9ef69a268a22df95d08628f62b8fa5505c.zh.png)
+![一个 Grove 光传感器](../../../../../translated_images/zh/grove-light-sensor.b8127b7c434e632d6bcdb57587a14e9ef69a268a22df95d08628f62b8fa5505c.png)
 
 1. 将 Grove 电缆的一端插入光传感器模块上的插座。电缆只能以一种方向插入。
 
 1. 在 Raspberry Pi 断电的情况下，将 Grove 电缆的另一端连接到 Grove Base hat 上标记为 **A0** 的模拟插座。该插座位于 GPIO 引脚旁边插座排的第二个位置。
 
-![连接到 A0 插座的 Grove 光传感器](../../../../../translated_images/pi-light-sensor.66cc1e31fa48cd7d5f23400d4b2119aa41508275cb7c778053a7923b4e972d7e.zh.png)
+![连接到 A0 插座的 Grove 光传感器](../../../../../translated_images/zh/pi-light-sensor.66cc1e31fa48cd7d5f23400d4b2119aa41508275cb7c778053a7923b4e972d7e.png)
 
 ## 编程光传感器
 

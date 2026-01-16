@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Patakbuhin ang iyong fruit detector sa edge
 
-![Isang sketchnote overview ng araling ito](../../../../../translated_images/lesson-17.bc333c3c35ba8e42cce666cfffa82b915f787f455bd94e006aea2b6f2722421a.tl.jpg)
+![Isang sketchnote overview ng araling ito](../../../../../translated_images/tl/lesson-17.bc333c3c35ba8e42cce666cfffa82b915f787f455bd94e006aea2b6f2722421a.jpg)
 
 > Sketchnote ni [Nitya Narasimhan](https://github.com/nitya). I-click ang imahe para sa mas malaking bersyon.
 
@@ -42,11 +42,11 @@ Sa araling ito, tatalakayin natin ang:
 
 Ang edge computing ay tumutukoy sa pagkakaroon ng mga computer na nagpoproseso ng IoT data nang mas malapit hangga't maaari sa lugar kung saan ito nabuo. Sa halip na gawin ang pagpoproseso sa cloud, ito ay inilipat sa edge ng cloud - sa iyong internal network.
 
-![Isang diagram ng arkitektura na nagpapakita ng internet services sa cloud at IoT devices sa lokal na network](../../../../../translated_images/cloud-without-edge.b4da641f6022c95ed6b91fde8b5323abd2f94e0d52073ad54172ae8f5dac90e9.tl.png)
+![Isang diagram ng arkitektura na nagpapakita ng internet services sa cloud at IoT devices sa lokal na network](../../../../../translated_images/tl/cloud-without-edge.b4da641f6022c95ed6b91fde8b5323abd2f94e0d52073ad54172ae8f5dac90e9.png)
 
 Sa mga nakaraang aralin, ang iyong mga device ay nangongolekta ng data at ipinapadala ito sa cloud upang ma-analisa, gamit ang serverless functions o AI models sa cloud.
 
-![Isang diagram ng arkitektura na nagpapakita ng IoT devices sa lokal na network na kumokonekta sa edge devices, at ang mga edge devices na ito ay kumokonekta sa cloud](../../../../../translated_images/cloud-with-edge.1e26462c62c126fe150bd15a5714ddf0be599f09bacbad08b85be02b76ea1ae1.tl.png)
+![Isang diagram ng arkitektura na nagpapakita ng IoT devices sa lokal na network na kumokonekta sa edge devices, at ang mga edge devices na ito ay kumokonekta sa cloud](../../../../../translated_images/tl/cloud-with-edge.1e26462c62c126fe150bd15a5714ddf0be599f09bacbad08b85be02b76ea1ae1.png)
 
 Ang edge computing ay naglalaman ng paglipat ng ilang cloud services mula sa cloud patungo sa mga computer na tumatakbo sa parehong network ng mga IoT device, at nakikipag-ugnayan lamang sa cloud kung kinakailangan. Halimbawa, maaari kang magpatakbo ng AI models sa edge devices upang suriin ang hinog na prutas, at ipadala lamang ang analytics pabalik sa cloud, tulad ng bilang ng hinog na prutas kumpara sa hilaw.
 
@@ -94,7 +94,7 @@ Para sa mga IoT system, madalas mong gugustuhin ang kumbinasyon ng cloud at edge
 
 ## Azure IoT Edge
 
-![Ang Azure IoT Edge logo](../../../../../translated_images/azure-iot-edge-logo.c1c076749b5cba2e8755262fadc2f19ca1146b948d76990b1229199ac2292d79.tl.png)
+![Ang Azure IoT Edge logo](../../../../../translated_images/tl/azure-iot-edge-logo.c1c076749b5cba2e8755262fadc2f19ca1146b948d76990b1229199ac2292d79.png)
 
 Ang Azure IoT Edge ay isang serbisyo na makakatulong sa iyo na ilipat ang workloads mula sa cloud patungo sa edge. Maaari kang mag-set up ng isang device bilang edge device, at mula sa cloud maaari kang mag-deploy ng code sa edge device na iyon. Pinapayagan ka nitong pagsamahin ang mga kakayahan ng cloud at edge.
 
@@ -108,7 +108,7 @@ Ang IoT Edge ay naka-built-in sa IoT Hub, kaya maaari mong pamahalaan ang mga ed
 
 Ang IoT Edge ay nagpapatakbo ng code mula sa *containers* - mga self-contained applications na tumatakbo nang hiwalay mula sa iba pang mga application sa iyong computer. Kapag nagpapatakbo ka ng container, ito ay parang isang hiwalay na computer na tumatakbo sa loob ng iyong computer, na may sariling software, serbisyo, at mga application. Kadalasan, ang mga container ay hindi maaaring ma-access ang anumang bagay sa iyong computer maliban kung pipiliin mong ibahagi ang mga bagay tulad ng isang folder sa container. Ang container ay naglalabas ng mga serbisyo sa pamamagitan ng isang open port na maaari mong i-connect o i-expose sa iyong network.
 
-![Isang web request na na-redirect sa isang container](../../../../../translated_images/container-web-browser.4ee81dd4f0d8838ce622b2a0d600b6a4322b5d4fe43159facd87b7b34f84d66a.tl.png)
+![Isang web request na na-redirect sa isang container](../../../../../translated_images/tl/container-web-browser.4ee81dd4f0d8838ce622b2a0d600b6a4322b5d4fe43159facd87b7b34f84d66a.png)
 
 Halimbawa, maaari kang magkaroon ng isang container na may web site na tumatakbo sa port 80, ang default na HTTP port, at maaari mo itong i-expose mula sa iyong computer din sa port 80.
 
@@ -204,11 +204,11 @@ Kapag na-train na ang model, kailangan itong i-export bilang isang container.
 
 ## Ihanda ang iyong container para sa deployment
 
-![Ang mga containers ay binubuo, pagkatapos ay ipinapadala sa isang container registry, at pagkatapos ay dine-deploy mula sa container registry papunta sa edge device gamit ang IoT Edge](../../../../../translated_images/container-edge-flow.c246050dd60ceefdb6ace026a4ce5c6aa4112bb5898ae23fbb2ab4be29ae3e1b.tl.png)
+![Ang mga containers ay binubuo, pagkatapos ay ipinapadala sa isang container registry, at pagkatapos ay dine-deploy mula sa container registry papunta sa edge device gamit ang IoT Edge](../../../../../translated_images/tl/container-edge-flow.c246050dd60ceefdb6ace026a4ce5c6aa4112bb5898ae23fbb2ab4be29ae3e1b.png)
 
 Kapag na-download mo na ang iyong model, kailangan itong gawing container, pagkatapos ay i-push sa isang container registry - isang online na lokasyon kung saan maaari kang mag-imbak ng containers. Ang IoT Edge ay maaaring mag-download ng container mula sa registry at i-push ito sa iyong device.
 
-![Logo ng Azure Container Registry](../../../../../translated_images/azure-container-registry-logo.09494206991d4b295025ebff7d4e2900325e527a59184ffbc8464b6ab59654be.tl.png)
+![Logo ng Azure Container Registry](../../../../../translated_images/tl/azure-container-registry-logo.09494206991d4b295025ebff7d4e2900325e527a59184ffbc8464b6ab59654be.png)
 
 Ang container registry na gagamitin mo para sa araling ito ay Azure Container Registry. Hindi ito libreng serbisyo, kaya para makatipid, tiyaking [linisin ang iyong proyekto](../../../clean-up.md) kapag natapos ka na.
 

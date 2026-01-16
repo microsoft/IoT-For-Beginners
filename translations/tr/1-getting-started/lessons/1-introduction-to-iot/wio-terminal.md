@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 [Seeed Studios'un Wio Terminal'i](https://www.seeedstudio.com/Wio-Terminal-p-4509.html), WiFi, bazı sensörler ve aktüatörler ile donatılmış, Arduino uyumlu bir mikrodenetleyicidir. Ayrıca, [Grove](https://www.seeedstudio.com/category/Grove-c-1003.html) adlı bir donanım ekosistemi kullanarak daha fazla sensör ve aktüatör eklemek için portlara sahiptir.
 
-![Seeed Studios Wio Terminal](../../../../../translated_images/wio-terminal.b8299ee16587db9a.tr.png)
+![Seeed Studios Wio Terminal](../../../../../translated_images/tr/wio-terminal.b8299ee16587db9a.png)
 
 ## Kurulum
 
@@ -51,15 +51,15 @@ PlatformIO projesini oluşturun.
 
 1. PlatformIO simgesi yan menü çubuğunda görünecektir:
 
-    ![Platform IO menü seçeneği](../../../../../translated_images/vscode-platformio-menu.297be26b9733e5c4.tr.png)
+    ![Platform IO menü seçeneği](../../../../../translated_images/tr/vscode-platformio-menu.297be26b9733e5c4.png)
 
     Bu menü öğesini seçin, ardından *PIO Home -> Open* seçeneğini seçin.
 
-    ![Platform IO açma seçeneği](../../../../../translated_images/vscode-platformio-home-open.3f9a41bfd3f4da1c.tr.png)
+    ![Platform IO açma seçeneği](../../../../../translated_images/tr/vscode-platformio-home-open.3f9a41bfd3f4da1c.png)
 
 1. Hoş geldiniz ekranından **+ New Project** düğmesini seçin.
 
-    ![Yeni proje düğmesi](../../../../../translated_images/vscode-platformio-welcome-new-button.ba6fc8a4c7b78cc8.tr.png)
+    ![Yeni proje düğmesi](../../../../../translated_images/tr/vscode-platformio-welcome-new-button.ba6fc8a4c7b78cc8.png)
 
 1. *Proje Sihirbazı*nda projeyi yapılandırın:
 
@@ -73,7 +73,7 @@ PlatformIO projesini oluşturun.
 
     1. **Finish** düğmesini seçin.
 
-    ![Tamamlanmış proje sihirbazı](../../../../../translated_images/vscode-platformio-nightlight-project-wizard.5c64db4da6037420.tr.png)
+    ![Tamamlanmış proje sihirbazı](../../../../../translated_images/tr/vscode-platformio-nightlight-project-wizard.5c64db4da6037420.png)
 
     PlatformIO, Wio Terminal için kod derlemek için gereken bileşenleri indirir ve projenizi oluşturur. Bu işlem birkaç dakika sürebilir.
 
@@ -179,7 +179,7 @@ Merhaba Dünya uygulamasını yazın.
 
     1. `PlatformIO Upload` yazın ve yükleme seçeneğini arayın, ardından *PlatformIO: Upload* seçeneğini seçin.
 
-        ![Komut paletinde PlatformIO yükleme seçeneği](../../../../../translated_images/vscode-platformio-upload-command-palette.9e0f49cf80d1f1c3.tr.png)
+        ![Komut paletinde PlatformIO yükleme seçeneği](../../../../../translated_images/tr/vscode-platformio-upload-command-palette.9e0f49cf80d1f1c3.png)
 
         PlatformIO, gerekirse kodu otomatik olarak derler ve ardından yükler.
 
@@ -195,7 +195,7 @@ PlatformIO'nun, Wio Terminal'den USB kablosu üzerinden gönderilen verileri izl
 
 1. `PlatformIO Serial` yazın ve Seri Monitör seçeneğini arayın, ardından *PlatformIO: Serial Monitor* seçeneğini seçin.
 
-    ![Komut paletinde PlatformIO Seri Monitör seçeneği](../../../../../translated_images/vscode-platformio-serial-monitor-command-palette.b348ec841b8a1c14.tr.png)
+    ![Komut paletinde PlatformIO Seri Monitör seçeneği](../../../../../translated_images/tr/vscode-platformio-serial-monitor-command-palette.b348ec841b8a1c14.png)
 
     Yeni bir terminal açılacak ve seri port üzerinden gönderilen veriler bu terminale akacaktır:
 

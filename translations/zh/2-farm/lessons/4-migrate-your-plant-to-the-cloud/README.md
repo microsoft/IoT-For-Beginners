@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # 将植物迁移到云端
 
-![本课的手绘笔记概览](../../../../../translated_images/lesson-8.3f21f3c11159e6a0a376351973ea5724d5de68fa23b4288853a174bed9ac48c3.zh.jpg)
+![本课的手绘笔记概览](../../../../../translated_images/zh/lesson-8.3f21f3c11159e6a0a376351973ea5724d5de68fa23b4288853a174bed9ac48c3.jpg)
 
 > 手绘笔记由 [Nitya Narasimhan](https://github.com/nitya) 提供。点击图片查看大图。
 
@@ -55,8 +55,8 @@ IoT 设备通过公共 MQTT broker 进行通信，以演示原理，但这种方
 
 云通常被戏称为“别人的计算机”。最初的想法很简单——与其购买计算机，不如租用别人的计算机。云计算提供商会管理巨大的数据中心。他们负责购买和安装硬件、管理电力和冷却、网络连接、建筑安全、硬件和软件更新等所有事情。作为客户，你可以根据需求租用计算机，需求增加时租用更多，需求减少时减少租用。这些云数据中心分布在全球各地。
 
-![一个微软云数据中心](../../../../../translated_images/azure-region-existing.73f704604f2aa6cb9b5a49ed40e93d4fd81ae3f4e6af4a8ca504023902832f56.zh.png)
-![一个微软云数据中心的计划扩展](../../../../../translated_images/azure-region-planned-expansion.a5074a1e8af74f156a73552d502429e5b126ea5019274d767ecb4b9afdad442b.zh.png)
+![一个微软云数据中心](../../../../../translated_images/zh/azure-region-existing.73f704604f2aa6cb9b5a49ed40e93d4fd81ae3f4e6af4a8ca504023902832f56.png)
+![一个微软云数据中心的计划扩展](../../../../../translated_images/zh/azure-region-planned-expansion.a5074a1e8af74f156a73552d502429e5b126ea5019274d767ecb4b9afdad442b.png)
 
 这些数据中心的面积可以达到数平方公里。上图是几年前拍摄的微软云数据中心，展示了初始规模以及计划扩展。扩展区域的面积超过 5 平方公里。
 
@@ -72,7 +72,7 @@ IoT 设备通过公共 MQTT broker 进行通信，以演示原理，但这种方
 
 Azure 是微软的开发者云，也是你将在这些课程中使用的云服务。以下视频简要介绍了 Azure：
 
-[![Azure 概览视频](../../../../../translated_images/what-is-azure-video-thumbnail.20174db09e03bbb8.zh.png)](https://www.microsoft.com/videoplayer/embed/RE4Ibng?WT.mc_id=academic-17441-jabenn)
+[![Azure 概览视频](../../../../../translated_images/zh/what-is-azure-video-thumbnail.20174db09e03bbb8.png)](https://www.microsoft.com/videoplayer/embed/RE4Ibng?WT.mc_id=academic-17441-jabenn)
 
 ## 创建云订阅
 
@@ -117,11 +117,11 @@ Azure 是微软的开发者云，也是你将在这些课程中使用的云服�
 
 IoT 设备通过设备 SDK（一个提供服务功能代码的库）或直接通过通信协议（如 MQTT 或 HTTP）连接到云服务。设备 SDK 通常是最简单的选择，因为它会处理所有事情，例如知道要发布或订阅哪些主题，以及如何处理安全性。
 
-![设备通过设备 SDK 连接到服务。服务器代码也通过 SDK 连接到服务](../../../../../translated_images/iot-service-connectivity.7e873847921a5d6fd60d0ba3a943210194518cee0d4e362476624316443275c3.zh.png)
+![设备通过设备 SDK 连接到服务。服务器代码也通过 SDK 连接到服务](../../../../../translated_images/zh/iot-service-connectivity.7e873847921a5d6fd60d0ba3a943210194518cee0d4e362476624316443275c3.png)
 
 你的设备随后通过该服务与应用程序的其他部分通信——类似于你通过 MQTT 发送遥测数据和接收命令。通常使用服务 SDK 或类似库。消息从设备发送到服务，应用程序的其他组件可以读取这些消息，然后将消息发送回设备。
 
-![没有有效密钥的设备无法连接到 IoT 服务](../../../../../translated_images/iot-service-allowed-denied-connection.818b0063ac213fb84204a7229303764d9b467ca430fb822b4ac2fca267d56726.zh.png)
+![没有有效密钥的设备无法连接到 IoT 服务](../../../../../translated_images/zh/iot-service-allowed-denied-connection.818b0063ac213fb84204a7229303764d9b467ca430fb822b4ac2fca267d56726.png)
 
 这些服务通过了解所有可以连接并发送数据的设备来实现安全性，方法是预先注册设备，或者为设备提供密钥或证书，使它们能够在首次连接时自行注册到服务。未知设备无法连接，如果尝试连接，服务会拒绝连接并忽略它们发送的消息。
 
@@ -133,7 +133,7 @@ IoT 设备通过设备 SDK（一个提供服务功能代码的库）或直接通
 
 现在您已经拥有了一个 Azure 订阅，您可以注册一个 IoT 服务。微软提供的 IoT 服务叫做 Azure IoT Hub。
 
-![Azure IoT Hub 标志](../../../../../translated_images/azure-iot-hub-logo.28a19de76d0a1932464d858f7558712bcdace3e5ec69c434d482ed7ce41c3a26.zh.png)
+![Azure IoT Hub 标志](../../../../../translated_images/zh/azure-iot-hub-logo.28a19de76d0a1932464d858f7558712bcdace3e5ec69c434d482ed7ce41c3a26.png)
 
 下面的视频简要介绍了 Azure IoT Hub：
 

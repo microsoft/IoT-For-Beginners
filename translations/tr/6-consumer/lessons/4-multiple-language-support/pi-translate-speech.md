@@ -34,7 +34,7 @@ Konuşma hizmeti REST API'si doğrudan çevirileri desteklemez, bunun yerine kon
     >
     > Örneğin, LUIS'i İngilizce olarak eğitirseniz ancak kullanıcı dili olarak Fransızca kullanmak isterseniz, Bing Translate'i kullanarak "2 dakika ve 27 saniyelik bir zamanlayıcı ayarla" gibi cümleleri İngilizceden Fransızcaya çevirebilirsiniz, ardından çeviriyi mikrofonunuza konuşmak için **Dinle çeviri** düğmesini kullanabilirsiniz.
     >
-    > ![Bing Translate'deki dinle çeviri düğmesi](../../../../../translated_images/bing-translate.348aa796d6efe2a92f41ea74a5cf42bb4c63d6faaa08e7f46924e072a35daa48.tr.png)
+    > ![Bing Translate'deki dinle çeviri düğmesi](../../../../../translated_images/tr/bing-translate.348aa796d6efe2a92f41ea74a5cf42bb4c63d6faaa08e7f46924e072a35daa48.png)
 
 1. `speech_api_key` altına çevirmen API anahtarını ekleyin:
 

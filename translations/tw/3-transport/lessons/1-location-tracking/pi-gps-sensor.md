@@ -27,13 +27,13 @@ Grove GPS 感測器可以連接到 Raspberry Pi。
 
 連接 GPS 感測器。
 
-![Grove GPS 感測器](../../../../../translated_images/grove-gps-sensor.247943bf69b03f0d1820ef6ed10c587f9b650e8db55b936851c92412180bd3e2.tw.png)
+![Grove GPS 感測器](../../../../../translated_images/tw/grove-gps-sensor.247943bf69b03f0d1820ef6ed10c587f9b650e8db55b936851c92412180bd3e2.png)
 
 1. 將 Grove 電纜的一端插入 GPS 感測器上的插座。它只能以一種方式插入。
 
 1. 在 Raspberry Pi 關機的情況下，將 Grove 電纜的另一端連接到 Pi 上的 Grove Base Hat 的 **UART** 插座。此插座位於中間排，靠近 SD 卡插槽的一側，遠離 USB 端口和以太網插座。
 
-    ![Grove GPS 感測器連接到 UART 插座](../../../../../translated_images/pi-gps-sensor.1f99ee2b2f6528915047ec78967bd362e0e4ee0ed594368a3837b9cf9cdaca64.tw.png)
+    ![Grove GPS 感測器連接到 UART 插座](../../../../../translated_images/tw/pi-gps-sensor.1f99ee2b2f6528915047ec78967bd362e0e4ee0ed594368a3837b9cf9cdaca64.png)
 
 1. 將 GPS 感測器放置在天線可以看到天空的位置——理想情況下靠近窗戶或在室外。天線周圍沒有障礙物時，信號會更清晰。
 

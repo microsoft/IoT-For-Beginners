@@ -37,11 +37,11 @@ Idagdag ang light sensor sa CounterFit app.
 
     1. Piliin ang **Add** button upang gumawa ng light sensor sa Pin 0.
 
-    ![Ang mga setting ng light sensor](../../../../../translated_images/counterfit-create-light-sensor.9f36a5e0d4458d8d554d54b34d2c806d56093d6e49fddcda2d20f6fef7f5cce1.tl.png)
+    ![Ang mga setting ng light sensor](../../../../../translated_images/tl/counterfit-create-light-sensor.9f36a5e0d4458d8d554d54b34d2c806d56093d6e49fddcda2d20f6fef7f5cce1.png)
 
     Ang light sensor ay malilikha at lilitaw sa listahan ng mga sensor.
 
-    ![Ang light sensor na ginawa](../../../../../translated_images/counterfit-light-sensor.5d0f5584df56b90f6b2561910d9cb20dfbd73eeff2177c238d38f4de54aefae1.tl.png)
+    ![Ang light sensor na ginawa](../../../../../translated_images/tl/counterfit-light-sensor.5d0f5584df56b90f6b2561910d9cb20dfbd73eeff2177c238d38f4de54aefae1.png)
 
 ## I-program ang light sensor
 

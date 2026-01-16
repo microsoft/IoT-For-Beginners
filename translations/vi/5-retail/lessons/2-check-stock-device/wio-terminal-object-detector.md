@@ -104,7 +104,7 @@ Mã bạn sử dụng để phân loại hình ảnh rất giống với mã đ�
 
     Bạn sẽ có thể thấy hình ảnh đã được chụp, và các giá trị này trong tab **Predictions** của Custom Vision.
 
-    ![4 lon sốt cà chua trên kệ với các dự đoán cho 4 phát hiện lần lượt là 35.8%, 33.5%, 25.7% và 16.6%](../../../../../translated_images/custom-vision-stock-prediction.942266ab1bcca3410ecdf23643b9f5f570cfab2345235074e24c51f285777613.vi.png)
+    ![4 lon sốt cà chua trên kệ với các dự đoán cho 4 phát hiện lần lượt là 35.8%, 33.5%, 25.7% và 16.6%](../../../../../translated_images/vi/custom-vision-stock-prediction.942266ab1bcca3410ecdf23643b9f5f570cfab2345235074e24c51f285777613.png)
 
 > 💁 Bạn có thể tìm thấy mã này trong thư mục [code-detect/wio-terminal](../../../../../5-retail/lessons/2-check-stock-device/code-detect/wio-terminal).
 

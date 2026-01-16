@@ -29,14 +29,14 @@ CO_OP_TRANSLATOR_METADATA:
 
 重力土壤湿度的计算公式为：
 
-![土壤湿度百分比等于湿土重量减去干土重量，除以干土重量，再乘以100](../../../../../translated_images/gsm-calculation.6da38c6201eec14e7573bb2647aa18892883193553d23c9d77e5dc681522dfb2.zh.png)
+![土壤湿度百分比等于湿土重量减去干土重量，除以干土重量，再乘以100](../../../../../translated_images/zh/gsm-calculation.6da38c6201eec14e7573bb2647aa18892883193553d23c9d77e5dc681522dfb2.png)
 
 * W - 湿土的重量  
 * W - 干土的重量  
 
 例如，假设您有一个土壤样本，湿重为212克，干重为197克。
 
-![填入计算公式的示例](../../../../../translated_images/gsm-calculation-example.99f9803b4f29e97668e7c15412136c0c399ab12dbba0b89596fdae9d8aedb6fb.zh.png)
+![填入计算公式的示例](../../../../../translated_images/zh/gsm-calculation-example.99f9803b4f29e97668e7c15412136c0c399ab12dbba0b89596fdae9d8aedb6fb.png)
 
 * W = 212克  
 * W = 197克  

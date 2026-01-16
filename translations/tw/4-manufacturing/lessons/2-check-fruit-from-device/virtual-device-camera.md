@@ -43,11 +43,11 @@ CO_OP_TRANSLATOR_METADATA:
 
     1. 選擇 **Add** 按鈕以建立相機。
 
-    ![相機設定](../../../../../translated_images/counterfit-create-camera.a5de97f59c0bd3cbe0416d7e89a3cfe86d19fbae05c641c53a91286412af0a34.tw.png)
+    ![相機設定](../../../../../translated_images/tw/counterfit-create-camera.a5de97f59c0bd3cbe0416d7e89a3cfe86d19fbae05c641c53a91286412af0a34.png)
 
     相機將被建立並顯示在感測器清單中。
 
-    ![已建立的相機](../../../../../translated_images/counterfit-camera.001ec52194c8ee5d3f617173da2c79e1df903d10882adc625cbfc493525125d4.tw.png)
+    ![已建立的相機](../../../../../translated_images/tw/counterfit-camera.001ec52194c8ee5d3f617173da2c79e1df903d10882adc625cbfc493525125d4.png)
 
 ## 程式設計相機
 
@@ -112,7 +112,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 1. 設定 CounterFit 中相機將捕捉的影像。您可以將 *Source* 設定為 *File*，然後上傳一個影像檔案；或者將 *Source* 設定為 *WebCam*，影像將從您的網路攝影機捕捉。確保在選擇圖片或網路攝影機後按下 **Set** 按鈕。
 
-    ![CounterFit 設定為檔案作為影像來源，並顯示網路攝影機預覽中一個人拿著香蕉的畫面](../../../../../translated_images/counterfit-camera-options.eb3bd5150a8e7dffbf24bc5bcaba0cf2cdef95fbe6bbe393695d173817d6b8df.tw.png)
+    ![CounterFit 設定為檔案作為影像來源，並顯示網路攝影機預覽中一個人拿著香蕉的畫面](../../../../../translated_images/tw/counterfit-camera-options.eb3bd5150a8e7dffbf24bc5bcaba0cf2cdef95fbe6bbe393695d173817d6b8df.png)
 
 1. 一張影像將被捕捉並儲存為 `image.jpg`，位於目前的資料夾中。您將在 VS Code 的檔案總管中看到此檔案。選擇該檔案以檢視影像。如果需要旋轉，請根據需要更新 `camera.rotation = 0` 這一行，然後重新拍攝影像。
 

@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # เข้าใจภาษา
 
-![ภาพรวมของบทเรียนนี้ในรูปแบบ Sketchnote](../../../../../translated_images/lesson-22.6148ea28500d9e00c396aaa2649935fb6641362c8f03d8e5e90a676977ab01dd.th.jpg)
+![ภาพรวมของบทเรียนนี้ในรูปแบบ Sketchnote](../../../../../translated_images/th/lesson-22.6148ea28500d9e00c396aaa2649935fb6641362c8f03d8e5e90a676977ab01dd.jpg)
 
 > Sketchnote โดย [Nitya Narasimhan](https://github.com/nitya) คลิกที่ภาพเพื่อดูเวอร์ชันขนาดใหญ่ขึ้น
 
@@ -55,7 +55,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 ## สร้างโมเดลการเข้าใจภาษา
 
-![โลโก้ LUIS](../../../../../translated_images/luis-logo.5cb4f3e88c020ee6df4f614e8831f4a4b6809a7247bf52085fb48d629ef9be52.th.png)
+![โลโก้ LUIS](../../../../../translated_images/th/luis-logo.5cb4f3e88c020ee6df4f614e8831f4a4b6809a7247bf52085fb48d629ef9be52.png)
 
 คุณสามารถสร้างโมเดลการเข้าใจภาษาโดยใช้ LUIS ซึ่งเป็นบริการการเข้าใจภาษาจาก Microsoft ที่เป็นส่วนหนึ่งของ Cognitive Services
 
@@ -126,7 +126,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 จากนั้นคุณจะบอก LUIS ว่าส่วนใดของประโยคเหล่านี้ที่ตรงกับเอนทิตี:
 
-![ประโยค "ตั้งเวลาหนึ่งนาทีสิบสองวินาที" ถูกแบ่งเป็นเอนทิตี](../../../../../translated_images/sentence-as-intent-entities.301401696f992259.th.png)
+![ประโยค "ตั้งเวลาหนึ่งนาทีสิบสองวินาที" ถูกแบ่งเป็นเอนทิตี](../../../../../translated_images/th/sentence-as-intent-entities.301401696f992259.png)
 
 ประโยค `ตั้งเวลาหนึ่งนาทีสิบสองวินาที` มีเจตนาเป็น `ตั้งเวลา` และมีเอนทิตี 2 ตัวพร้อมค่าของแต่ละตัว:
 
@@ -178,7 +178,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 1. เมื่อคุณป้อนตัวอย่างแต่ละตัวอย่าง LUIS จะเริ่มตรวจจับเอนทิตี และจะขีดเส้นใต้และติดป้ายกำกับที่พบ
 
-    ![ตัวอย่างที่มีตัวเลขและหน่วยเวลาถูกขีดเส้นใต้โดย LUIS](../../../../../translated_images/luis-intent-examples.25716580b2d2723cf1bafdf277d015c7f046d8cfa20f27bddf3a0873ec45fab7.th.png)
+    ![ตัวอย่างที่มีตัวเลขและหน่วยเวลาถูกขีดเส้นใต้โดย LUIS](../../../../../translated_images/th/luis-intent-examples.25716580b2d2723cf1bafdf277d015c7f046d8cfa20f27bddf3a0873ec45fab7.png)
 
 ### งาน - ฝึกฝนและทดสอบโมเดล
 

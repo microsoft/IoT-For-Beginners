@@ -17,7 +17,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Датчик світла вбудований у Wio Terminal і видимий через прозоре пластикове віконце на задній частині пристрою.
 
-![Датчик світла на задній частині Wio Terminal](../../../../../translated_images/wio-light-sensor.b1f529f3c95f5165.uk.png)
+![Датчик світла на задній частині Wio Terminal](../../../../../translated_images/uk/wio-light-sensor.b1f529f3c95f5165.png)
 
 ## Програмування датчика світла
 

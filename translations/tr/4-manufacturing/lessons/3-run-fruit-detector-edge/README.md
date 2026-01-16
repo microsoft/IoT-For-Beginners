@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Meyve Dedektörünüzü Uç Cihazda Çalıştırın
 
-![Bu dersin genel bir sketchnote özeti](../../../../../translated_images/lesson-17.bc333c3c35ba8e42cce666cfffa82b915f787f455bd94e006aea2b6f2722421a.tr.jpg)
+![Bu dersin genel bir sketchnote özeti](../../../../../translated_images/tr/lesson-17.bc333c3c35ba8e42cce666cfffa82b915f787f455bd94e006aea2b6f2722421a.jpg)
 
 > Sketchnote: [Nitya Narasimhan](https://github.com/nitya). Daha büyük bir versiyon için resme tıklayın.
 
@@ -42,11 +42,11 @@ Bu derste şunları ele alacağız:
 
 Uç bilişim, IoT verilerini işleyen bilgisayarların, verilerin oluşturulduğu yere mümkün olduğunca yakın olmasını içerir. Bu işlem bulutta yapılmak yerine, bulutun kenarına - yani iç ağınıza - taşınır.
 
-![Bulutta internet hizmetlerini ve yerel ağdaki IoT cihazlarını gösteren bir mimari diyagram](../../../../../translated_images/cloud-without-edge.b4da641f6022c95ed6b91fde8b5323abd2f94e0d52073ad54172ae8f5dac90e9.tr.png)
+![Bulutta internet hizmetlerini ve yerel ağdaki IoT cihazlarını gösteren bir mimari diyagram](../../../../../translated_images/tr/cloud-without-edge.b4da641f6022c95ed6b91fde8b5323abd2f94e0d52073ad54172ae8f5dac90e9.png)
 
 Şimdiye kadarki derslerde, verileri toplayan ve analiz için buluta gönderen cihazlar kullandınız; bu işlemler bulutta sunucusuz işlevler veya AI modelleri çalıştırılarak gerçekleştirildi.
 
-![Yerel ağdaki IoT cihazlarının uç cihazlara bağlandığını ve bu uç cihazların buluta bağlandığını gösteren bir mimari diyagram](../../../../../translated_images/cloud-with-edge.1e26462c62c126fe150bd15a5714ddf0be599f09bacbad08b85be02b76ea1ae1.tr.png)
+![Yerel ağdaki IoT cihazlarının uç cihazlara bağlandığını ve bu uç cihazların buluta bağlandığını gösteren bir mimari diyagram](../../../../../translated_images/tr/cloud-with-edge.1e26462c62c126fe150bd15a5714ddf0be599f09bacbad08b85be02b76ea1ae1.png)
 
 Uç bilişim, bazı bulut hizmetlerini buluttan çıkarıp IoT cihazlarıyla aynı ağda çalışan bilgisayarlara taşımayı içerir. Bulutla yalnızca gerektiğinde iletişim kurulur. Örneğin, olgunluk analizi için meyveleri inceleyen AI modellerini uç cihazlarda çalıştırabilir ve yalnızca olgun ve olgunlaşmamış meyve sayısı gibi analizleri buluta gönderebilirsiniz.
 
@@ -94,7 +94,7 @@ IoT sistemleri için genellikle bulut ve uç bilişimin bir karışımını kull
 
 ## Azure IoT Edge
 
-![Azure IoT Edge logosu](../../../../../translated_images/azure-iot-edge-logo.c1c076749b5cba2e8755262fadc2f19ca1146b948d76990b1229199ac2292d79.tr.png)
+![Azure IoT Edge logosu](../../../../../translated_images/tr/azure-iot-edge-logo.c1c076749b5cba2e8755262fadc2f19ca1146b948d76990b1229199ac2292d79.png)
 
 Azure IoT Edge, iş yüklerini buluttan uca taşımaya yardımcı olabilecek bir hizmettir. Bir cihazı uç cihaz olarak ayarlarsınız ve buluttan bu uç cihaza kod dağıtabilirsiniz. Bu, bulut ve uç yeteneklerini karıştırmanıza olanak tanır.
 
@@ -108,7 +108,7 @@ IoT Edge, IoT Hub'a entegredir, bu nedenle IoT cihazlarını yönetmek için kul
 
 IoT Edge, *konteynerler* adı verilen kodları çalıştırır - bilgisayarınızdaki diğer uygulamalardan izole edilmiş şekilde çalışan kendi kendine yeten uygulamalar. Bir konteyner çalıştırdığınızda, bilgisayarınızda ayrı bir bilgisayar gibi davranır; kendi yazılımı, hizmetleri ve uygulamaları çalışır. Çoğu zaman konteynerler, bir klasör gibi şeyleri paylaşmayı seçmediğiniz sürece bilgisayarınızdaki hiçbir şeye erişemez. Konteyner daha sonra bir açık port üzerinden hizmetleri sunar ve bu porta bağlanabilir veya ağınıza açabilirsiniz.
 
-![Bir web isteğinin bir konteynere yönlendirilmesi](../../../../../translated_images/container-web-browser.4ee81dd4f0d8838ce622b2a0d600b6a4322b5d4fe43159facd87b7b34f84d66a.tr.png)
+![Bir web isteğinin bir konteynere yönlendirilmesi](../../../../../translated_images/tr/container-web-browser.4ee81dd4f0d8838ce622b2a0d600b6a4322b5d4fe43159facd87b7b34f84d66a.png)
 
 Örneğin, bir konteynerde port 80'de (varsayılan HTTP portu) çalışan bir web sitesi olabilir ve bunu bilgisayarınızdan da port 80 üzerinden sunabilirsiniz.
 
@@ -204,11 +204,11 @@ Model eğitildikten sonra bir konteyner olarak dışa aktarılması gerekir.
 
 ## Konteynerinizi dağıtıma hazırlayın
 
-![Konteynerler oluşturulur, bir konteyner kaydına gönderilir ve IoT Edge kullanılarak edge cihazına dağıtılır](../../../../../translated_images/container-edge-flow.c246050dd60ceefdb6ace026a4ce5c6aa4112bb5898ae23fbb2ab4be29ae3e1b.tr.png)
+![Konteynerler oluşturulur, bir konteyner kaydına gönderilir ve IoT Edge kullanılarak edge cihazına dağıtılır](../../../../../translated_images/tr/container-edge-flow.c246050dd60ceefdb6ace026a4ce5c6aa4112bb5898ae23fbb2ab4be29ae3e1b.png)
 
 Modelinizi indirdikten sonra, bir konteyner olarak oluşturulması ve bir konteyner kaydına gönderilmesi gerekir - konteynerleri saklayabileceğiniz çevrimiçi bir yer. IoT Edge daha sonra konteyneri kayıttan indirip cihazınıza gönderebilir.
 
-![Azure Container Registry logosu](../../../../../translated_images/azure-container-registry-logo.09494206991d4b295025ebff7d4e2900325e527a59184ffbc8464b6ab59654be.tr.png)
+![Azure Container Registry logosu](../../../../../translated_images/tr/azure-container-registry-logo.09494206991d4b295025ebff7d4e2900325e527a59184ffbc8464b6ab59654be.png)
 
 Bu ders için kullanacağınız konteyner kaydı Azure Container Registry'dir. Bu ücretsiz bir hizmet değildir, bu yüzden işiniz bittiğinde [projenizi temizleyerek](../../../clean-up.md) para tasarrufu yapmayı unutmayın.
 

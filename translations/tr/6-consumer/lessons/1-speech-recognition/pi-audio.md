@@ -25,13 +25,13 @@ Düğme, Grove tabanlı HAT'e bağlanabilir.
 
 #### Görev - Düğmeyi Bağlayın
 
-![Bir Grove düğmesi](../../../../../translated_images/grove-button.a70cfbb809a8563681003250cf5b06d68cdcc68624f9e2f493d5a534ae2da1e5.tr.png)
+![Bir Grove düğmesi](../../../../../translated_images/tr/grove-button.a70cfbb809a8563681003250cf5b06d68cdcc68624f9e2f493d5a534ae2da1e5.png)
 
 1. Grove kablosunun bir ucunu düğme modülündeki sokete takın. Kablo yalnızca tek bir yönde takılabilir.
 
 1. Raspberry Pi kapalıyken, Grove kablosunun diğer ucunu Pi'ye bağlı Grove Base HAT üzerindeki **D5** işaretli dijital sokete bağlayın. Bu soket, GPIO pinlerinin yanındaki soket sırasının soldan ikinci soketidir.
 
-![Düğme D5 soketine bağlı](../../../../../translated_images/pi-button.c7a1a4f55943341ce1baf1057658e9a205804d4131d258e820c93f951df0abf3.tr.png)
+![Düğme D5 soketine bağlı](../../../../../translated_images/tr/pi-button.c7a1a4f55943341ce1baf1057658e9a205804d4131d258e820c93f951df0abf3.png)
 
 ## Ses Kaydı
 

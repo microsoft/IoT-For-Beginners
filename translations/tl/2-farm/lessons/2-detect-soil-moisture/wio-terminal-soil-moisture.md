@@ -27,17 +27,17 @@ Ang Grove soil moisture sensor ay maaaring ikonekta sa configurable analog/digit
 
 Ikonekta ang soil moisture sensor.
 
-![Isang Grove soil moisture sensor](../../../../../translated_images/grove-capacitive-soil-moisture-sensor.e7f0776cce30e78be5cc5a07839385fd6718857f31b5bf5ad3d0c73c83b2f0ef.tl.png)
+![Isang Grove soil moisture sensor](../../../../../translated_images/tl/grove-capacitive-soil-moisture-sensor.e7f0776cce30e78be5cc5a07839385fd6718857f31b5bf5ad3d0c73c83b2f0ef.png)
 
 1. Ipasok ang isang dulo ng Grove cable sa socket ng soil moisture sensor. Isa lang ang tamang paraan ng pagpasok nito.
 
 1. Kapag ang Wio Terminal ay hindi nakakonekta sa iyong computer o ibang power supply, ikonekta ang kabilang dulo ng Grove cable sa Grove socket sa kanang bahagi ng Wio Terminal habang nakatingin ka sa screen. Ito ang socket na pinakamalayo sa power button.
 
-![Ang Grove soil moisture sensor na nakakonekta sa kanang socket](../../../../../translated_images/wio-soil-moisture-sensor.46919b61c3f6cb74.tl.png)
+![Ang Grove soil moisture sensor na nakakonekta sa kanang socket](../../../../../translated_images/tl/wio-soil-moisture-sensor.46919b61c3f6cb74.png)
 
 1. Ipasok ang soil moisture sensor sa lupa. Mayroon itong 'highest position line' - isang puting linya sa sensor. Ipasok ang sensor hanggang sa linya ngunit huwag lalampas dito.
 
-![Ang Grove soil moisture sensor sa lupa](../../../../../translated_images/soil-moisture-sensor-in-soil.bfad91002bda5e96.tl.png)
+![Ang Grove soil moisture sensor sa lupa](../../../../../translated_images/tl/soil-moisture-sensor-in-soil.bfad91002bda5e96.png)
 
 1. Maaari mo nang ikonekta ang Wio Terminal sa iyong computer.
 

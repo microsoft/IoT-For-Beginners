@@ -35,7 +35,7 @@ Grove LED 是一个模块，包含多种颜色的 LED，您可以选择自己喜
 
 连接 LED。
 
-![一个 Grove LED](../../../../../translated_images/grove-led.6c853be93f473cf2c439cfc74bb1064732b22251a83cedf66e62f783f9cc1a79.zh.png)
+![一个 Grove LED](../../../../../translated_images/zh/grove-led.6c853be93f473cf2c439cfc74bb1064732b22251a83cedf66e62f783f9cc1a79.png)
 
 1. 选择您喜欢的 LED，将其引脚插入 LED 模块上的两个孔中。
 
@@ -51,7 +51,7 @@ Grove LED 是一个模块，包含多种颜色的 LED，您可以选择自己喜
 
     > 💁 右侧的 Grove 插座可以用于模拟或数字传感器和执行器。左侧插座仅用于 I2C 和数字传感器及执行器。
 
-![Grove LED 连接到右侧插座](../../../../../translated_images/wio-led.265a1897e72d7f21.zh.png)
+![Grove LED 连接到右侧插座](../../../../../translated_images/zh/wio-led.265a1897e72d7f21.png)
 
 ## 编程夜灯
 

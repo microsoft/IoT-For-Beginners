@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Huấn luyện bộ phát hiện hàng hóa
 
-![Tóm tắt bài học qua sketchnote](../../../../../translated_images/lesson-19.cf6973cecadf080c4b526310620dc4d6f5994c80fb0139c6f378cc9ca2d435cd.vi.jpg)
+![Tóm tắt bài học qua sketchnote](../../../../../translated_images/vi/lesson-19.cf6973cecadf080c4b526310620dc4d6f5994c80fb0139c6f378cc9ca2d435cd.jpg)
 
 > Sketchnote bởi [Nitya Narasimhan](https://github.com/nitya). Nhấp vào hình ảnh để xem phiên bản lớn hơn.
 
@@ -45,7 +45,7 @@ Phát hiện đối tượng liên quan đến việc phát hiện các đối t
 
 Phân loại hình ảnh là việc phân loại toàn bộ hình ảnh - xác định xác suất rằng toàn bộ hình ảnh khớp với từng thẻ. Bạn nhận được các xác suất cho mỗi thẻ được sử dụng để huấn luyện mô hình.
 
-![Phân loại hình ảnh hạt điều và sốt cà chua](../../../../../translated_images/image-classifier-cashews-tomato.bc2e16ab8f05cf9ac0f59f73e32efc4227f9a5b601b90b2c60f436694547a965.vi.png)
+![Phân loại hình ảnh hạt điều và sốt cà chua](../../../../../translated_images/vi/image-classifier-cashews-tomato.bc2e16ab8f05cf9ac0f59f73e32efc4227f9a5b601b90b2c60f436694547a965.png)
 
 Trong ví dụ trên, hai hình ảnh được phân loại bằng một mô hình được huấn luyện để phân loại hộp hạt điều hoặc lon sốt cà chua. Hình ảnh đầu tiên là một hộp hạt điều và có hai kết quả từ bộ phân loại hình ảnh:
 
@@ -69,7 +69,7 @@ Khi bạn sử dụng nó để dự đoán hình ảnh, thay vì nhận đượ
 
 > 🎓 *Hộp bao quanh* là các hộp xung quanh một đối tượng.
 
-![Phát hiện đối tượng hạt điều và sốt cà chua](../../../../../translated_images/object-detector-cashews-tomato.1af7c26686b4db0e709754aeb196f4e73271f54e2085db3bcccb70d4a0d84d97.vi.png)
+![Phát hiện đối tượng hạt điều và sốt cà chua](../../../../../translated_images/vi/object-detector-cashews-tomato.1af7c26686b4db0e709754aeb196f4e73271f54e2085db3bcccb70d4a0d84d97.png)
 
 Hình ảnh trên chứa cả một hộp hạt điều và ba lon sốt cà chua. Bộ phát hiện đối tượng đã phát hiện hạt điều, trả về hộp bao quanh chứa hạt điều với xác suất rằng hộp bao quanh chứa đối tượng, trong trường hợp này là 97.6%. Bộ phát hiện đối tượng cũng đã phát hiện ba lon sốt cà chua và cung cấp ba hộp bao quanh riêng biệt, mỗi hộp cho một lon được phát hiện, và mỗi hộp có xác suất rằng hộp bao quanh chứa một lon sốt cà chua.
 
@@ -120,7 +120,7 @@ Bạn có thể huấn luyện một bộ phát hiện đối tượng bằng Cu
 
     Khi bạn tạo dự án, hãy đảm bảo sử dụng tài nguyên `stock-detector-training` bạn đã tạo trước đó. Sử dụng loại dự án *Phát hiện đối tượng* và miền *Sản phẩm trên kệ*.
 
-    ![Cài đặt cho dự án Custom Vision với tên được đặt là fruit-quality-detector, không có mô tả, tài nguyên được đặt là fruit-quality-detector-training, loại dự án được đặt là phân loại, loại phân loại được đặt là đa lớp và miền được đặt là thực phẩm](../../../../../translated_images/custom-vision-create-object-detector-project.32d4fb9aa8e7e7375f8a799bfce517aca970f2cb65e42d4245c5e635c734ab29.vi.png)
+    ![Cài đặt cho dự án Custom Vision với tên được đặt là fruit-quality-detector, không có mô tả, tài nguyên được đặt là fruit-quality-detector-training, loại dự án được đặt là phân loại, loại phân loại được đặt là đa lớp và miền được đặt là thực phẩm](../../../../../translated_images/vi/custom-vision-create-object-detector-project.32d4fb9aa8e7e7375f8a799bfce517aca970f2cb65e42d4245c5e635c734ab29.png)
 
     ✅ Miền sản phẩm trên kệ được thiết kế đặc biệt để phát hiện hàng hóa trên kệ cửa hàng. Đọc thêm về các miền khác nhau trong [tài liệu Chọn miền trên Microsoft Docs](https://docs.microsoft.com/azure/cognitive-services/custom-vision-service/select-domain?WT.mc_id=academic-17441-jabenn#object-detection)
 
@@ -142,11 +142,11 @@ Bạn có thể huấn luyện một bộ phát hiện đối tượng bằng Cu
 
 1. Làm theo [phần Tải lên và gắn thẻ hình ảnh trong hướng dẫn nhanh Xây dựng bộ phát hiện đối tượng trên tài liệu Microsoft](https://docs.microsoft.com/azure/cognitive-services/custom-vision-service/get-started-build-detector?WT.mc_id=academic-17441-jabenn#upload-and-tag-images) để tải lên hình ảnh huấn luyện của bạn. Tạo các thẻ phù hợp tùy thuộc vào loại đối tượng bạn muốn phát hiện.
 
-    ![Hộp thoại tải lên hiển thị việc tải lên hình ảnh chuối chín và chưa chín](../../../../../translated_images/image-upload-object-detector.77c7892c3093cb59b79018edecd678749a75d71a099bc8a2d2f2f76320f88a5b.vi.png)
+    ![Hộp thoại tải lên hiển thị việc tải lên hình ảnh chuối chín và chưa chín](../../../../../translated_images/vi/image-upload-object-detector.77c7892c3093cb59b79018edecd678749a75d71a099bc8a2d2f2f76320f88a5b.png)
 
     Khi bạn vẽ các hộp bao quanh cho các đối tượng, hãy giữ chúng chặt chẽ xung quanh đối tượng. Việc này có thể mất một thời gian để vẽ tất cả các hình ảnh, nhưng công cụ sẽ phát hiện những gì nó nghĩ là các hộp bao quanh, làm cho quá trình nhanh hơn.
 
-    ![Gắn thẻ một số sốt cà chua](../../../../../translated_images/object-detector-tag-tomato-paste.f47c362fb0f0eb582f3bc68cf3855fb43a805106395358d41896a269c210b7b4.vi.png)
+    ![Gắn thẻ một số sốt cà chua](../../../../../translated_images/vi/object-detector-tag-tomato-paste.f47c362fb0f0eb582f3bc68cf3855fb43a805106395358d41896a269c210b7b4.png)
 
     > 💁 Nếu bạn có hơn 15 hình ảnh cho mỗi đối tượng, bạn có thể huấn luyện sau 15 hình ảnh rồi sử dụng tính năng **Thẻ được đề xuất**. Tính năng này sẽ sử dụng mô hình đã huấn luyện để phát hiện các đối tượng trong hình ảnh chưa được gắn thẻ. Bạn có thể xác nhận các đối tượng được phát hiện hoặc từ chối và vẽ lại các hộp bao quanh. Điều này có thể tiết kiệm *rất nhiều* thời gian.
 
@@ -164,7 +164,7 @@ Khi bộ phát hiện đối tượng của bạn đã được huấn luyện, 
 
 1. Sử dụng nút **Kiểm tra nhanh** để tải lên hình ảnh kiểm tra và xác minh các đối tượng được phát hiện. Sử dụng các hình ảnh kiểm tra bạn đã tạo trước đó, không sử dụng bất kỳ hình ảnh nào bạn đã sử dụng để huấn luyện.
 
-    ![3 lon sốt cà chua được phát hiện với xác suất lần lượt là 38%, 35.5% và 34.6%](../../../../../translated_images/object-detector-detected-tomato-paste.52656fe87af4c37b4ee540526d63e73ed075da2e54a9a060aa528e0c562fb1b6.vi.png)
+    ![3 lon sốt cà chua được phát hiện với xác suất lần lượt là 38%, 35.5% và 34.6%](../../../../../translated_images/vi/object-detector-detected-tomato-paste.52656fe87af4c37b4ee540526d63e73ed075da2e54a9a060aa528e0c562fb1b6.png)
 
 1. Thử tất cả các hình ảnh kiểm tra bạn có và quan sát các xác suất.
 

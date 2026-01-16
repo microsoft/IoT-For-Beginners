@@ -27,13 +27,13 @@ Grove GPS sensörü Raspberry Pi'ye bağlanabilir.
 
 GPS sensörünü bağlayın.
 
-![Bir Grove GPS sensörü](../../../../../translated_images/grove-gps-sensor.247943bf69b03f0d1820ef6ed10c587f9b650e8db55b936851c92412180bd3e2.tr.png)
+![Bir Grove GPS sensörü](../../../../../translated_images/tr/grove-gps-sensor.247943bf69b03f0d1820ef6ed10c587f9b650e8db55b936851c92412180bd3e2.png)
 
 1. Grove kablosunun bir ucunu GPS sensöründeki sokete takın. Kablo yalnızca tek bir yönde takılabilir.
 
 1. Raspberry Pi kapalıyken, Grove kablosunun diğer ucunu Pi'ye bağlı Grove Base hat üzerindeki **UART** olarak işaretlenmiş UART soketine bağlayın. Bu soket, SD Kart yuvasına en yakın olan tarafta, orta sıradadır ve USB portları ile ethernet soketinin diğer ucundadır.
 
-    ![Grove GPS sensörü UART soketine bağlı](../../../../../translated_images/pi-gps-sensor.1f99ee2b2f6528915047ec78967bd362e0e4ee0ed594368a3837b9cf9cdaca64.tr.png)
+    ![Grove GPS sensörü UART soketine bağlı](../../../../../translated_images/tr/pi-gps-sensor.1f99ee2b2f6528915047ec78967bd362e0e4ee0ed594368a3837b9cf9cdaca64.png)
 
 1. GPS sensörünü, bağlı antenin gökyüzüne görünürlüğü olacak şekilde konumlandırın - ideal olarak açık bir pencerenin yanında veya dışarıda. Antenin önünde hiçbir şey olmadan daha net bir sinyal almak daha kolaydır.
 

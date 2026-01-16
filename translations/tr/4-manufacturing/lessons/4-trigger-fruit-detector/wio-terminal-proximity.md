@@ -29,13 +29,13 @@ Grove Time of Flight sensörü, Wio Terminal'e bağlanabilir.
 
 Time of Flight sensörünü bağlayın.
 
-![Bir Grove Time of Flight sensörü](../../../../../translated_images/grove-time-of-flight-sensor.d82ff2165bfded9f485de54d8d07195a6270a602696825fca19f629ddfe94e86.tr.png)
+![Bir Grove Time of Flight sensörü](../../../../../translated_images/tr/grove-time-of-flight-sensor.d82ff2165bfded9f485de54d8d07195a6270a602696825fca19f629ddfe94e86.png)
 
 1. Grove kablosunun bir ucunu Time of Flight sensöründeki sokete takın. Kablo yalnızca tek bir yönde takılabilir.
 
 2. Wio Terminal'inizi bilgisayarınızdan veya başka bir güç kaynağından ayırarak, Grove kablosunun diğer ucunu Wio Terminal'in ekranına bakarken sol taraftaki Grove soketine bağlayın. Bu soket, güç düğmesine en yakın olan sokettir. Bu soket, dijital ve I²C kombinasyonlu bir sokettir.
 
-![Time of Flight sensörünün sol sokete bağlı hali](../../../../../translated_images/wio-time-of-flight-sensor.c4c182131d2ea73d.tr.png)
+![Time of Flight sensörünün sol sokete bağlı hali](../../../../../translated_images/tr/wio-time-of-flight-sensor.c4c182131d2ea73d.png)
 
 3. Artık Wio Terminal'i bilgisayarınıza bağlayabilirsiniz.
 
@@ -101,7 +101,7 @@ Wio Terminal artık bağlı Time of Flight sensörünü kullanacak şekilde prog
 
     Mesafe ölçer, sensörün arka tarafında yer alır, bu yüzden mesafeyi ölçerken doğru tarafı kullandığınızdan emin olun.
 
-    ![Time of Flight sensörünün arka tarafındaki mesafe ölçer bir muza doğrultulmuş](../../../../../translated_images/time-of-flight-banana.079921ad8b1496e4.tr.png)
+    ![Time of Flight sensörünün arka tarafındaki mesafe ölçer bir muza doğrultulmuş](../../../../../translated_images/tr/time-of-flight-banana.079921ad8b1496e4.png)
 
 > 💁 Bu kodu [code-proximity/wio-terminal](../../../../../4-manufacturing/lessons/4-trigger-fruit-detector/code-proximity/wio-terminal) klasöründe bulabilirsiniz.
 

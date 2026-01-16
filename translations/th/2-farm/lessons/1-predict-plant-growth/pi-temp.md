@@ -25,13 +25,13 @@ CO_OP_TRANSLATOR_METADATA:
 
 เชื่อมต่อเซ็นเซอร์วัดอุณหภูมิ
 
-![เซ็นเซอร์วัดอุณหภูมิ Grove](../../../../../translated_images/grove-dht11.07f8eafceee170043efbb53e1d15722bd4e00fbaa9ff74290b57e9f66eb82c17.th.png)
+![เซ็นเซอร์วัดอุณหภูมิ Grove](../../../../../translated_images/th/grove-dht11.07f8eafceee170043efbb53e1d15722bd4e00fbaa9ff74290b57e9f66eb82c17.png)
 
 1. เสียบปลายด้านหนึ่งของสาย Grove เข้ากับช่องเสียบของเซ็นเซอร์วัดความชื้นและอุณหภูมิ สายจะเสียบได้เพียงด้านเดียวเท่านั้น
 
 1. เมื่อ Raspberry Pi ปิดอยู่ ให้เชื่อมต่อปลายอีกด้านของสาย Grove เข้ากับช่องเสียบดิจิทัลที่มีเครื่องหมาย **D5** บน Grove Base hat ที่ติดตั้งอยู่บน Pi ช่องเสียบนี้เป็นช่องที่สองจากด้านซ้ายในแถวของช่องเสียบที่อยู่ติดกับ GPIO pins
 
-![เซ็นเซอร์วัดอุณหภูมิ Grove เชื่อมต่อกับช่อง A0](../../../../../translated_images/pi-temperature-sensor.3ff82fff672c8e56.th.png)
+![เซ็นเซอร์วัดอุณหภูมิ Grove เชื่อมต่อกับช่อง A0](../../../../../translated_images/th/pi-temperature-sensor.3ff82fff672c8e56.png)
 
 ## เขียนโปรแกรมเซ็นเซอร์วัดอุณหภูมิ
 

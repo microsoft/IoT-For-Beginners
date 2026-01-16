@@ -25,13 +25,13 @@ Işık seviyelerini algılamak için kullanılan Grove ışık sensörünün Ras
 
 Işık sensörünü bağlayın.
 
-![Bir Grove ışık sensörü](../../../../../translated_images/grove-light-sensor.b8127b7c434e632d6bcdb57587a14e9ef69a268a22df95d08628f62b8fa5505c.tr.png)
+![Bir Grove ışık sensörü](../../../../../translated_images/tr/grove-light-sensor.b8127b7c434e632d6bcdb57587a14e9ef69a268a22df95d08628f62b8fa5505c.png)
 
 1. Grove kablosunun bir ucunu ışık sensörü modülündeki sokete takın. Kablo yalnızca tek bir yönde takılabilir.
 
 1. Raspberry Pi kapalıyken, Grove kablosunun diğer ucunu, Pi'ye bağlı Grove Base şapkasındaki **A0** olarak işaretlenmiş analog sokete bağlayın. Bu soket, GPIO pinlerinin yanındaki soket sırasının sağdan ikinci soketidir.
 
-![A0 soketine bağlı Grove ışık sensörü](../../../../../translated_images/pi-light-sensor.66cc1e31fa48cd7d5f23400d4b2119aa41508275cb7c778053a7923b4e972d7e.tr.png)
+![A0 soketine bağlı Grove ışık sensörü](../../../../../translated_images/tr/pi-light-sensor.66cc1e31fa48cd7d5f23400d4b2119aa41508275cb7c778053a7923b4e972d7e.png)
 
 ## Işık sensörünü programlayın
 

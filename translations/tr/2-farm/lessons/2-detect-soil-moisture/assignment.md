@@ -29,14 +29,14 @@ Bu adımları, her seferinde farklı nem seviyelerine sahip toprakla, gerekli ok
 
 Gravimetrik toprak nemi şu şekilde hesaplanır:
 
-![Toprak nemi % = ıslak ağırlık eksi kuru ağırlık, bölü kuru ağırlık, çarpı 100](../../../../../translated_images/gsm-calculation.6da38c6201eec14e7573bb2647aa18892883193553d23c9d77e5dc681522dfb2.tr.png)
+![Toprak nemi % = ıslak ağırlık eksi kuru ağırlık, bölü kuru ağırlık, çarpı 100](../../../../../translated_images/tr/gsm-calculation.6da38c6201eec14e7573bb2647aa18892883193553d23c9d77e5dc681522dfb2.png)
 
 * W - ıslak toprağın ağırlığı  
 * W - kuru toprağın ağırlığı  
 
 Örneğin, ıslak ağırlığı 212g ve kuru ağırlığı 197g olan bir toprak örneğiniz olduğunu varsayalım.
 
-![Doldurulmuş hesaplama](../../../../../translated_images/gsm-calculation-example.99f9803b4f29e97668e7c15412136c0c399ab12dbba0b89596fdae9d8aedb6fb.tr.png)
+![Doldurulmuş hesaplama](../../../../../translated_images/tr/gsm-calculation-example.99f9803b4f29e97668e7c15412136c0c399ab12dbba0b89596fdae9d8aedb6fb.png)
 
 * W = 212g  
 * W = 197g  

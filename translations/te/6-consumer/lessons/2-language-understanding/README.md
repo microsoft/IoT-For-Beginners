@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # భాషను అర్థం చేసుకోండి
 
-![ఈ పాఠం యొక్క స్కెచ్‌నోట్ అవలోకనం](../../../../../translated_images/lesson-22.6148ea28500d9e00.te.jpg)
+![ఈ పాఠం యొక్క స్కెచ్‌నోట్ అవలోకనం](../../../../../translated_images/te/lesson-22.6148ea28500d9e00.jpg)
 
 > స్కెచ్‌నోట్ [నిత్య నరసింహన్](https://github.com/nitya) చేత. పెద్ద పరిమాణం కోసం చిత్రాన్ని క్లిక్ చేయండి.
 
@@ -55,7 +55,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 ## భాష అర్థం చేసుకునే మోడల్ సృష్టించండి
 
-![LUIS లోగో](../../../../../translated_images/luis-logo.5cb4f3e88c020ee6.te.png)
+![LUIS లోగో](../../../../../translated_images/te/luis-logo.5cb4f3e88c020ee6.png)
 
 మీరు LUIS ఉపయోగించి భాష అర్థం చేసుకునే మోడల్స్ సృష్టించవచ్చు, Microsoft యొక్క LUIS అనేది కాగ్నిటివ్ సర్వీసుల భాగమయ్యే భాష అర్థం చేసుకునే సేవ.
 
@@ -126,7 +126,7 @@ LUIS లో శిక్షణ ఇవ్వడానికి, మీరు మ�
 
 LUISకి మీరు ఈ వాక్యాల్లో ఎంటిటీలకు సంబంధించిన భాగాలను గుర్తించి తెలియజేయాలి:
 
-![set a timer for 1 minute and 12 seconds వాక్యం ఎంటిటీలుగా విభజించబడిన చిత్రం](../../../../../translated_images/sentence-as-intent-entities.301401696f992259.te.png)
+![set a timer for 1 minute and 12 seconds వాక్యం ఎంటిటీలుగా విభజించబడిన చిత్రం](../../../../../translated_images/te/sentence-as-intent-entities.301401696f992259.png)
 
 `set a timer for 1 minute and 12 seconds` వాక్యానికి `set timer` అభిరుచి ఉంది. ఇది రెండు ఎంటిటీలతో మరియు రెండు విలువలతో ఉంది:
 
@@ -178,7 +178,7 @@ LUIS పోర్టల్ ఉపయోగించే సూచనలు కొ
 
 1. ప్రతి ఉదాహరణ ఇవ్వగానే, LUIS ఎంటిటీలను గుర్తించడం ప్రారంభిస్తుంది మరియు లేబులు మరియు అండర్‌లైనింగ్ చేస్తుంది.
 
-    ![LUIS ఎంటెంట్ గుర్తింపు తో ఉదాహరణలు](../../../../../translated_images/luis-intent-examples.25716580b2d2723c.te.png)
+    ![LUIS ఎంటెంట్ గుర్తింపు తో ఉదాహరణలు](../../../../../translated_images/te/luis-intent-examples.25716580b2d2723c.png)
 
 ### టాస్క్ - మోడల్ శిక్షణ మరియు పరీక్ష
 

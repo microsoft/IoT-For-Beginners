@@ -27,13 +27,13 @@ Grove ఉష్ణోగ్రత సెన్సార్‌ను Wio టె�
 
 ఉష్ణోగ్రత సెన్సార్ కనెక్ట్ చేయండి.
 
-![A grove temperature sensor](../../../../../translated_images/grove-dht11.07f8eafceee17004.te.png)
+![A grove temperature sensor](../../../../../translated_images/te/grove-dht11.07f8eafceee17004.png)
 
 1. Grove కేబుల్ యొక్క ఒక వైపు తేమ మరియు ఉష్ణోగ్రత సెన్సార్ సాకెట్‌లో చొప్పించండి. ఇది ఒక్క వైపునే సరిపోతుంది.
 
 1. Wio టెర్మినల్ ని మీ కంప్యూటర్ లేదా ఇతర పవర్ సప్లై నుండి విడదీసి, Grove కేబుల్ యొక్క మరొక చివరని Wio టెర్మినల్ స్క్రీన్ వైపు చూస్తున్నప్పుడు కుడివైపు Grove సాకెట్‌ಗೆ కనెక్ట్ చేయండి. ఇది పవర్ బటన్ నుండి ఎక్కువ దూరంలో ఉన్న సాకెట్.
 
-![The grove temperature sensor connected to the right hand socket](../../../../../translated_images/wio-temperature-sensor.2934928f38c7f79a.te.png)
+![The grove temperature sensor connected to the right hand socket](../../../../../translated_images/te/wio-temperature-sensor.2934928f38c7f79a.png)
 
 ## ఉష్ణోగ్రత సెన్సార్ ప్రోగ్రామ్ చేయండి
 

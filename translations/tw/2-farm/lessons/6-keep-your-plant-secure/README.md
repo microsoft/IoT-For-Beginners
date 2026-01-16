@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # 保護您的植物安全
 
-![本課程的手繪筆記概述](../../../../../translated_images/lesson-10.829c86b80b9403bb770929ee553a1d293afe50dc23121aaf9be144673ae012cc.tw.jpg)
+![本課程的手繪筆記概述](../../../../../translated_images/tw/lesson-10.829c86b80b9403bb770929ee553a1d293afe50dc23121aaf9be144673ae012cc.jpg)
 
 > 手繪筆記由 [Nitya Narasimhan](https://github.com/nitya) 提供。點擊圖片查看更大版本。
 
@@ -61,11 +61,11 @@ CO_OP_TRANSLATOR_METADATA:
 
 當設備連接到物聯網服務時，它使用一個 ID 來識別自己。問題是這個 ID 可以被克隆——黑客可以設置一個惡意設備，使用與真實設備相同的 ID，但發送虛假數據。
 
-![有效設備和惡意設備可能使用相同的 ID 發送遙測數據](../../../../../translated_images/iot-device-and-hacked-device-connecting.e0671675df74d6d99eb1dedb5a670e606f698efa6202b1ad4c8ae548db299cc6.tw.png)
+![有效設備和惡意設備可能使用相同的 ID 發送遙測數據](../../../../../translated_images/tw/iot-device-and-hacked-device-connecting.e0671675df74d6d99eb1dedb5a670e606f698efa6202b1ad4c8ae548db299cc6.png)
 
 解決方法是將發送的數據轉換為一種加密格式，使用設備和雲端都知道的某種值來加密數據。這個過程稱為*加密*，用於加密數據的值稱為*加密密鑰*。
 
-![如果使用加密，則只有加密的消息會被接受，其他消息會被拒絕](../../../../../translated_images/iot-device-and-hacked-device-connecting-encryption.5941aff601fc978f979e46f2849b573564eeb4a4dc5b52f669f62745397492fb.tw.png)
+![如果使用加密，則只有加密的消息會被接受，其他消息會被拒絕](../../../../../translated_images/tw/iot-device-and-hacked-device-connecting-encryption.5941aff601fc978f979e46f2849b573564eeb4a4dc5b52f669f62745397492fb.png)
 
 雲端服務可以使用一個稱為*解密*的過程將數據轉換回可讀格式，使用相同的加密密鑰或一個*解密密鑰*。如果加密的消息無法通過密鑰解密，則表明設備已被攻擊，消息會被拒絕。
 
@@ -97,15 +97,15 @@ CO_OP_TRANSLATOR_METADATA:
 
 **對稱**加密使用相同的密鑰來加密和解密數據。發送者和接收者都需要知道相同的密鑰。這是最不安全的類型，因為密鑰需要以某種方式共享。發送者要向接收者發送加密消息，可能首先需要向接收者發送密鑰。
 
-![對稱密鑰加密使用相同的密鑰加密和解密消息](../../../../../translated_images/send-message-symmetric-key.a2e8ad0d495896ff.tw.png)
+![對稱密鑰加密使用相同的密鑰加密和解密消息](../../../../../translated_images/tw/send-message-symmetric-key.a2e8ad0d495896ff.png)
 
 如果密鑰在傳輸過程中被竊取，或者發送者或接收者被黑客攻擊並找到密鑰，加密就可能被破解。
 
-![對稱密鑰加密只有在黑客未獲得密鑰的情況下才安全——如果密鑰被竊取，他們可以攔截並解密消息](../../../../../translated_images/send-message-symmetric-key-hacker.e7cb53db1707adfb.tw.png)
+![對稱密鑰加密只有在黑客未獲得密鑰的情況下才安全——如果密鑰被竊取，他們可以攔截並解密消息](../../../../../translated_images/tw/send-message-symmetric-key-hacker.e7cb53db1707adfb.png)
 
 **非對稱**加密使用兩個密鑰——加密密鑰和解密密鑰，稱為公鑰/私鑰對。公鑰用於加密消息，但不能用於解密；私鑰用於解密消息，但不能用於加密。
 
-![非對稱加密使用不同的密鑰加密和解密。加密密鑰發送給任何消息發送者，以便他們在向擁有密鑰的接收者發送消息之前加密消息](../../../../../translated_images/send-message-asymmetric.7abe327c62615b8c.tw.png)
+![非對稱加密使用不同的密鑰加密和解密。加密密鑰發送給任何消息發送者，以便他們在向擁有密鑰的接收者發送消息之前加密消息](../../../../../translated_images/tw/send-message-asymmetric.7abe327c62615b8c.png)
 
 接收者共享其公鑰，發送者使用此密鑰加密消息。一旦消息被發送，接收者使用其私鑰解密消息。非對稱加密更安全，因為私鑰由接收者保密，永不共享。任何人都可以擁有公鑰，因為它只能用於加密消息。
 
@@ -165,7 +165,7 @@ X.509 證書是包含公鑰部分的數字文件。它們通常由一系列被�
 
 使用 X.509 證書時，發送者和接收者都會擁有自己的公鑰和私鑰，以及包含公鑰的 X.509 證書。他們會以某種方式交換 X.509 證書，使用彼此的公鑰加密發送的數據，並使用自己的私鑰解密接收到的數據。
 
-![與其共享公鑰，您可以共享證書。證書的使用者可以通過檢查簽署證書的授權機構來驗證它是否來自您。](../../../../../translated_images/send-message-certificate.9cc576ac1e46b76e.tw.png)
+![與其共享公鑰，您可以共享證書。證書的使用者可以通過檢查簽署證書的授權機構來驗證它是否來自您。](../../../../../translated_images/tw/send-message-certificate.9cc576ac1e46b76e.png)
 
 使用 X.509 證書的一大優勢是它們可以在設備之間共享。您可以創建一個證書，將其上傳到 IoT Hub，並用於所有設備。每個設備只需要知道私鑰即可解密從 IoT Hub 接收到的消息。
 

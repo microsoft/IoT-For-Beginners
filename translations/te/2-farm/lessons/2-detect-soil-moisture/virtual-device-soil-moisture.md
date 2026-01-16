@@ -43,11 +43,11 @@ CO_OP_TRANSLATOR_METADATA:
 
     1. *Pin 0*పై *Soil Moisture* సెన్సార్ సృష్టించడానికి **Add** బటన్ ను ఎంచుకోండి
 
-    ![The soil moisture sensor settings](../../../../../translated_images/counterfit-create-soil-moisture-sensor.35266135a5e0ae68.te.png)
+    ![The soil moisture sensor settings](../../../../../translated_images/te/counterfit-create-soil-moisture-sensor.35266135a5e0ae68.png)
 
     నేల ఆర్ద్రతా సెన్సార్ సృష్టించి, సెన్సార్ల జాబితాలో కనిపిస్తుంది.
 
-    ![The soil moisture sensor created](../../../../../translated_images/counterfit-soil-moisture-sensor.81742b2de0e9de60.te.png)
+    ![The soil moisture sensor created](../../../../../translated_images/te/counterfit-soil-moisture-sensor.81742b2de0e9de60.png)
 
 ## నేల ఆర్ద్రతా సెన్సార్ యాప్ ను ప్రోగ్రామ్ చేయండి
 

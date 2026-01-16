@@ -25,13 +25,13 @@ CO_OP_TRANSLATOR_METADATA:
 
 連接光線感測器
 
-![Grove 光線感測器](../../../../../translated_images/grove-light-sensor.b8127b7c434e632d6bcdb57587a14e9ef69a268a22df95d08628f62b8fa5505c.tw.png)
+![Grove 光線感測器](../../../../../translated_images/tw/grove-light-sensor.b8127b7c434e632d6bcdb57587a14e9ef69a268a22df95d08628f62b8fa5505c.png)
 
 1. 將 Grove 線纜的一端插入光線感測器模組上的插槽。它只能以一種方向插入。
 
 1. 在 Raspberry Pi 關機的情況下，將 Grove 線纜的另一端連接到 Grove Base hat 上標記為 **A0** 的類比插槽。這個插槽位於 GPIO 引腳旁邊的一排插槽中，從右數第二個。
 
-![Grove 光線感測器連接到 A0 插槽](../../../../../translated_images/pi-light-sensor.66cc1e31fa48cd7d5f23400d4b2119aa41508275cb7c778053a7923b4e972d7e.tw.png)
+![Grove 光線感測器連接到 A0 插槽](../../../../../translated_images/tw/pi-light-sensor.66cc1e31fa48cd7d5f23400d4b2119aa41508275cb7c778053a7923b4e972d7e.png)
 
 ## 編寫光線感測器程式
 

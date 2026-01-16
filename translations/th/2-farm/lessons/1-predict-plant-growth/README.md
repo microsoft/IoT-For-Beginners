@@ -44,7 +44,7 @@ CO_OP_TRANSLATOR_METADATA:
 
     
 > 💁 หากคุณใช้อุปกรณ์ IoT เสมือนจริง ให้เลือกช่องทำเครื่องหมายแบบสุ่มและตั้งค่าช่วงเพื่อหลีกเลี่ยงการได้รับค่าอุณหภูมิเดิมทุกครั้งที่ส่งคืนค่าอุณหภูมิ
-    ![เลือกช่องทำเครื่องหมายแบบสุ่มและตั้งค่าช่วง](../../../../../translated_images/select-the-random-checkbox-and-set-a-range.32cf4bc7c12e797f.th.png) 
+    ![เลือกช่องทำเครื่องหมายแบบสุ่มและตั้งค่าช่วง](../../../../../translated_images/th/select-the-random-checkbox-and-set-a-range.32cf4bc7c12e797f.png) 
 
     > 💁 หากคุณต้องการรันโค้ดนี้ตลอดทั้งวัน คุณต้องตรวจสอบให้แน่ใจว่าคอมพิวเตอร์ที่รันโค้ดเซิร์ฟเวอร์ของคุณจะไม่เข้าสู่โหมดพักเครื่อง โดยการเปลี่ยนการตั้งค่าพลังงาน หรือรันบางอย่างเช่น [สคริปต์ Python เพื่อให้ระบบทำงานต่อเนื่อง](https://github.com/jaqsparow/keep-system-active)
     
@@ -64,7 +64,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 ตัวอย่างเช่น หากอุณหภูมิสูงสุดของวันคือ 25°C และต่ำสุดคือ 12°C:
 
-![GDD = 25 + 12 หารด้วย 2 แล้วลบ 10 จากผลลัพธ์ได้ 8.5](../../../../../translated_images/gdd-calculation-strawberries.59f57db94b22adb8ff6efb951ace33af104a1c6ccca3ffb0f8169c14cb160c90.th.png)
+![GDD = 25 + 12 หารด้วย 2 แล้วลบ 10 จากผลลัพธ์ได้ 8.5](../../../../../translated_images/th/gdd-calculation-strawberries.59f57db94b22adb8ff6efb951ace33af104a1c6ccca3ffb0f8169c14cb160c90.png)
 
 * 25 + 12 = 37
 * 37 / 2 = 18.5

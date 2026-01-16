@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Lokasyon ng Tindahan ng Data
 
-![Isang sketchnote overview ng araling ito](../../../../../translated_images/lesson-12.ca7f53039712a3ec14ad6474d8445361c84adab643edc53fa6269b77895606bb.tl.jpg)
+![Isang sketchnote overview ng araling ito](../../../../../translated_images/tl/lesson-12.ca7f53039712a3ec14ad6474d8445361c84adab643edc53fa6269b77895606bb.jpg)
 
 > Sketchnote ni [Nitya Narasimhan](https://github.com/nitya). I-click ang imahe para sa mas malaking bersyon.
 
@@ -66,7 +66,7 @@ Ang mga database ay mga serbisyo na nagbibigay-daan sa iyo upang mag-imbak at ma
 
 Ang mga unang database ay Relational Database Management Systems (RDBMS), o relational database. Kilala rin ang mga ito bilang SQL databases dahil sa Structured Query Language (SQL) na ginagamit upang makipag-ugnayan sa mga ito upang magdagdag, mag-alis, mag-update, o mag-query ng data. Ang mga database na ito ay binubuo ng isang schema - isang malinaw na tinukoy na hanay ng mga talahanayan ng data, katulad ng isang spreadsheet. Ang bawat talahanayan ay may maraming pinangalanang mga column. Kapag nagpasok ka ng data, nagdaragdag ka ng isang row sa talahanayan, inilalagay ang mga halaga sa bawat column. Pinapanatili nito ang data sa isang napakatibay na istruktura - bagaman maaari mong iwanang walang laman ang mga column, kung nais mong magdagdag ng bagong column, kailangan mong gawin ito sa database, pinupunan ang mga halaga para sa mga umiiral na row. Ang mga database na ito ay relational - kung saan ang isang talahanayan ay maaaring magkaroon ng relasyon sa isa pa.
 
-![Isang relational database kung saan ang ID ng User table ay nauugnay sa user ID column ng purchases table, at ang ID ng products table ay nauugnay sa product ID ng purchases table](../../../../../translated_images/sql-database.be160f12bfccefd3.tl.png)
+![Isang relational database kung saan ang ID ng User table ay nauugnay sa user ID column ng purchases table, at ang ID ng products table ay nauugnay sa product ID ng purchases table](../../../../../translated_images/tl/sql-database.be160f12bfccefd3.png)
 
 Halimbawa, kung iniimbak mo ang mga personal na detalye ng isang user sa isang talahanayan, magkakaroon ka ng isang uri ng internal unique ID bawat user na ginagamit sa isang row sa isang talahanayan na naglalaman ng pangalan at address ng user. Kung nais mong mag-imbak ng iba pang detalye tungkol sa user na iyon, tulad ng kanilang mga binili, sa isa pang talahanayan, magkakaroon ka ng isang column sa bagong talahanayan para sa ID ng user na iyon. Kapag hinanap mo ang isang user, maaari mong gamitin ang kanilang ID upang makuha ang kanilang personal na detalye mula sa isang talahanayan, at ang kanilang mga binili mula sa isa pa.
 
@@ -84,7 +84,7 @@ Ang NoSQL databases ay tinatawag na NoSQL dahil wala silang parehong matibay na 
 
 > 💁 Sa kabila ng kanilang pangalan, ang ilang NoSQL databases ay nagbibigay-daan sa iyo na gumamit ng SQL upang mag-query ng data.
 
-![Mga dokumento sa mga folder sa isang NoSQL database](../../../../../translated_images/noqsl-database.62d24ccf5b73f60d35c245a8533f1c7147c0928e955b82cb290b2e184bb434df.tl.png)
+![Mga dokumento sa mga folder sa isang NoSQL database](../../../../../translated_images/tl/noqsl-database.62d24ccf5b73f60d35c245a8533f1c7147c0928e955b82cb290b2e184bb434df.png)
 
 Ang NoSQL databases ay walang pre-defined na schema na naglilimita kung paano iniimbak ang data, sa halip maaari kang magpasok ng anumang unstructured na data, karaniwang gamit ang JSON documents. Ang mga dokumentong ito ay maaaring ayusin sa mga folder, katulad ng mga file sa iyong computer. Ang bawat dokumento ay maaaring magkaroon ng iba't ibang mga field mula sa ibang mga dokumento - halimbawa kung iniimbak mo ang IoT data mula sa iyong mga sasakyang pang-sakahan, ang ilan ay maaaring magkaroon ng mga field para sa accelerometer at speed data, ang iba ay maaaring magkaroon ng mga field para sa temperatura sa trailer. Kung magdadagdag ka ng bagong uri ng trak, tulad ng isa na may built-in na timbangan upang subaybayan ang timbang ng kargamento, ang iyong IoT device ay maaaring magdagdag ng bagong field na ito at maaari itong maimbak nang walang anumang pagbabago sa database.
 
@@ -98,7 +98,7 @@ Sa araling ito, gagamit ka ng NoSQL storage upang mag-imbak ng IoT data.
 
 Sa nakaraang aralin, nakakuha ka ng GPS data mula sa isang GPS sensor na nakakonekta sa iyong IoT device. Upang maimbak ang IoT data na ito sa cloud, kailangan mo itong ipadala sa isang IoT service. Muli, gagamitin mo ang Azure IoT Hub, ang parehong IoT cloud service na ginamit mo sa nakaraang proyekto.
 
-![Pagpapadala ng GPS telemetry mula sa isang IoT device patungo sa IoT Hub](../../../../../translated_images/gps-telemetry-iot-hub.8115335d51cd2c1285d20e9d1b18cf685e59a8e093e7797291ef173445af6f3d.tl.png)
+![Pagpapadala ng GPS telemetry mula sa isang IoT device patungo sa IoT Hub](../../../../../translated_images/tl/gps-telemetry-iot-hub.8115335d51cd2c1285d20e9d1b18cf685e59a8e093e7797291ef173445af6f3d.png)
 
 ### Gawain - Magpadala ng GPS Data sa isang IoT Hub
 
@@ -180,7 +180,7 @@ Ang cold path data ay iniimbak sa mga data warehouses - mga database na idinisen
 
 Kapag ang data ay dumadaloy na sa iyong IoT Hub, maaari kang magsulat ng serverless code upang makinig sa mga event na inilathala sa Event-Hub compatible endpoint. Ito ang warm path - ang data na ito ay maiimbak at gagamitin sa susunod na aralin para sa pag-uulat sa paglalakbay.
 
-![Pagpapadala ng GPS telemetry mula sa isang IoT device patungo sa IoT Hub, pagkatapos sa Azure Functions sa pamamagitan ng event hub trigger](../../../../../translated_images/gps-telemetry-iot-hub-functions.24d3fa5592455e9f4e2fe73856b40c3915a292b90263c31d652acfd976cfedd8.tl.png)
+![Pagpapadala ng GPS telemetry mula sa isang IoT device patungo sa IoT Hub, pagkatapos sa Azure Functions sa pamamagitan ng event hub trigger](../../../../../translated_images/tl/gps-telemetry-iot-hub-functions.24d3fa5592455e9f4e2fe73856b40c3915a292b90263c31d652acfd976cfedd8.png)
 
 ### Gawain - I-handle ang GPS Events Gamit ang Serverless Code
 
@@ -202,7 +202,7 @@ Kapag ang data ay dumadaloy na sa iyong IoT Hub, maaari kang magsulat ng serverl
 
 ## Azure Storage Accounts
 
-![Ang logo ng Azure Storage](../../../../../translated_images/azure-storage-logo.605c0f602c640d482a80f1b35a2629a32d595711b7ab1d7ceea843250615ff32.tl.png)
+![Ang logo ng Azure Storage](../../../../../translated_images/tl/azure-storage-logo.605c0f602c640d482a80f1b35a2629a32d595711b7ab1d7ceea843250615ff32.png)
 
 Ang Azure Storage Accounts ay isang pangkalahatang serbisyo sa imbakan na maaaring mag-imbak ng data sa iba't ibang paraan. Maaari kang mag-imbak ng data bilang blobs, sa queues, sa tables, o bilang mga files, at lahat ng ito ay sabay-sabay.
 
@@ -241,7 +241,7 @@ Ang iyong function app ay kailangang kumonekta sa blob storage upang mag-imbak n
 
 Sa araling ito, gagamitin mo ang Python SDK upang makita kung paano makipag-ugnayan sa blob storage.
 
-![Pagpapadala ng GPS telemetry mula sa isang IoT device papunta sa IoT Hub, pagkatapos sa Azure Functions sa pamamagitan ng isang event hub trigger, pagkatapos ay sine-save ito sa blob storage](../../../../../translated_images/save-telemetry-to-storage-from-functions.ed3b1820980097f1.tl.png)
+![Pagpapadala ng GPS telemetry mula sa isang IoT device papunta sa IoT Hub, pagkatapos sa Azure Functions sa pamamagitan ng isang event hub trigger, pagkatapos ay sine-save ito sa blob storage](../../../../../translated_images/tl/save-telemetry-to-storage-from-functions.ed3b1820980097f1.png)
 
 Ang data ay mase-save bilang isang JSON blob na may sumusunod na format:
 

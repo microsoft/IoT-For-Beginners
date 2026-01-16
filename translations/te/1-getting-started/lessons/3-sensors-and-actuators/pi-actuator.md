@@ -35,7 +35,7 @@ Grove LED LEDల ఎంపికతో ఒక మాడ్యూల్ వలె
 
 LED ని కనెక్ట్ చేయండి.
 
-![A grove LED](../../../../../translated_images/grove-led.6c853be93f473cf2.te.png)
+![A grove LED](../../../../../translated_images/te/grove-led.6c853be93f473cf2.png)
 
 1. మీ ఇష్టమైన LEDని ఎంచుకొని, LED మాడ్యూల్ పై రెండు రంధ్రాలలో గుమ్మడిని చొప్పండి.
 
@@ -49,7 +49,7 @@ LED ని కనెక్ట్ చేయండి.
 
 1. రాస్ప్బెర్రీ పైని పవర్ ఆఫ్ చేసి, Grove కేబుల్ యొక్క మిగతా చివరని Pi కి అనుసంధానమైన Grove బేస్ హాట్ లో డిజిటల్ సాకెట్ **D5** కు కనెక్ట్ చేయండి. ఈ సాకెట్ ఎడమ వైపు నుండి రెండోది, GPIO పిన్ల పక్కన ఉన్న సాకెట్ల వరుసలో.
 
-![The grove LED connected to socket D5](../../../../../translated_images/pi-led.97f1d474981dc35d.te.png)
+![The grove LED connected to socket D5](../../../../../translated_images/te/pi-led.97f1d474981dc35d.png)
 
 ## నైట్‌లైట్‌ను ప్రోగ్రామ్ చేయండి
 

@@ -46,7 +46,7 @@ Ang speech service ay maaaring kumuha ng pagsasalita at hindi lamang i-convert i
     >
     > Halimbawa, kung sinanay mo ang LUIS sa English, ngunit nais mong gamitin ang French bilang wika ng user, maaari mong isalin ang mga pangungusap tulad ng "set a 2 minute and 27 second timer" mula sa English patungo sa French gamit ang Bing Translate, pagkatapos ay gamitin ang **Listen translation** button upang magsalita ng isinalin na text sa iyong mikropono.
     >
-    > ![Ang listen translation button sa Bing translate](../../../../../translated_images/bing-translate.348aa796d6efe2a92f41ea74a5cf42bb4c63d6faaa08e7f46924e072a35daa48.tl.png)
+    > ![Ang listen translation button sa Bing translate](../../../../../translated_images/tl/bing-translate.348aa796d6efe2a92f41ea74a5cf42bb4c63d6faaa08e7f46924e072a35daa48.png)
 
 1. Palitan ang mga deklarasyon ng `recognizer_config` at `recognizer` ng mga sumusunod:
 

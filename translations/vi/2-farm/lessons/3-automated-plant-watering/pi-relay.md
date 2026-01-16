@@ -27,13 +27,13 @@ Relay Grove có thể được kết nối với Raspberry Pi.
 
 Kết nối relay.
 
-![Một relay Grove](../../../../../translated_images/grove-relay.d426958ca210fbd0fb7983d7edc069d46c73a8b0a099d94797bd756f7b6bb6be.vi.png)
+![Một relay Grove](../../../../../translated_images/vi/grove-relay.d426958ca210fbd0fb7983d7edc069d46c73a8b0a099d94797bd756f7b6bb6be.png)
 
 1. Cắm một đầu của cáp Grove vào ổ cắm trên relay. Cáp chỉ có thể cắm theo một chiều.
 
 1. Khi Raspberry Pi đã tắt nguồn, kết nối đầu còn lại của cáp Grove vào ổ cắm kỹ thuật số được đánh dấu **D5** trên Grove Base Hat gắn vào Pi. Ổ cắm này là ổ thứ hai từ bên trái, nằm trên hàng ổ cắm cạnh các chân GPIO. Để cảm biến độ ẩm đất được kết nối với ổ **A0**.
 
-![Relay Grove được kết nối với ổ D5, và cảm biến độ ẩm đất được kết nối với ổ A0](../../../../../translated_images/pi-relay-and-soil-moisture-sensor.02f3198975b8c53e69ec716cd2719ce117700bd1fc933eaf93476c103c57939b.vi.png)
+![Relay Grove được kết nối với ổ D5, và cảm biến độ ẩm đất được kết nối với ổ A0](../../../../../translated_images/vi/pi-relay-and-soil-moisture-sensor.02f3198975b8c53e69ec716cd2719ce117700bd1fc933eaf93476c103c57939b.png)
 
 1. Cắm cảm biến độ ẩm đất vào đất, nếu nó chưa được cắm từ bài học trước.
 

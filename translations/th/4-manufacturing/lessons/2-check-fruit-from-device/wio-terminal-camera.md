@@ -25,11 +25,11 @@ ArduCam ไม่มี Grove socket แต่จะเชื่อมต่อ�
 
 เชื่อมต่อกล้อง
 
-![เซ็นเซอร์ ArduCam](../../../../../translated_images/arducam.20e4e4cbb268296570b5914e20d6c349fc42ddac9ed4e1b9deba2188204eebae.th.png)
+![เซ็นเซอร์ ArduCam](../../../../../translated_images/th/arducam.20e4e4cbb268296570b5914e20d6c349fc42ddac9ed4e1b9deba2188204eebae.png)
 
 1. ขา (pins) ที่ฐานของ ArduCam ต้องเชื่อมต่อกับ GPIO pins บน Wio Terminal เพื่อให้ง่ายต่อการหาขาที่ถูกต้อง ให้ติดสติกเกอร์ GPIO pin ที่มาพร้อมกับ Wio Terminal รอบๆ ขา:
 
-    ![Wio Terminal พร้อมสติกเกอร์ GPIO pin](../../../../../translated_images/wio-terminal-pin-sticker.b90b1535937b84bd.th.png)
+    ![Wio Terminal พร้อมสติกเกอร์ GPIO pin](../../../../../translated_images/th/wio-terminal-pin-sticker.b90b1535937b84bd.png)
 
 1. ใช้สายจัมเปอร์ (jumper wires) เชื่อมต่อดังนี้:
 
@@ -44,7 +44,7 @@ ArduCam ไม่มี Grove socket แต่จะเชื่อมต่อ�
     | SDA         | 3 (I2C1_SDA)     | I2C Serial Data                         |
     | SCL         | 5 (I2C1_SCL)     | I2C Serial Clock                        |
 
-    ![Wio Terminal เชื่อมต่อกับ ArduCam ด้วยสายจัมเปอร์](../../../../../translated_images/arducam-wio-terminal-connections.a4d5a4049bdb5ab800a2877389fc6ecf5e4ff307e6451ff56c517e6786467d0a.th.png)
+    ![Wio Terminal เชื่อมต่อกับ ArduCam ด้วยสายจัมเปอร์](../../../../../translated_images/th/arducam-wio-terminal-connections.a4d5a4049bdb5ab800a2877389fc6ecf5e4ff307e6451ff56c517e6786467d0a.png)
 
     การเชื่อมต่อ GND และ VCC ให้พลังงาน 5V กับ ArduCam กล้องนี้ทำงานที่ 5V ซึ่งแตกต่างจาก Grove sensors ที่ทำงานที่ 3V พลังงานนี้มาจากการเชื่อมต่อ USB-C ที่จ่ายพลังงานให้กับอุปกรณ์
 
@@ -297,7 +297,7 @@ ArduCam ไม่มี Grove socket แต่จะเชื่อมต่อ�
 
 1. Microcontrollers ทำงานโค้ดของคุณอย่างต่อเนื่อง ดังนั้นจึงไม่ง่ายที่จะเรียกใช้งานบางอย่างเช่นการถ่ายภาพโดยไม่ตอบสนองต่อเซ็นเซอร์ Wio Terminal มีปุ่ม ดังนั้นกล้องสามารถตั้งค่าให้ถูกเรียกใช้งานโดยหนึ่งในปุ่มได้ เพิ่มโค้ดต่อไปนี้ที่ท้ายฟังก์ชัน `setup` เพื่อกำหนดค่าปุ่ม C (หนึ่งในสามปุ่มด้านบน ปุ่มที่ใกล้กับสวิตช์เปิดปิดมากที่สุด)
 
-    ![ปุ่ม C ด้านบนใกล้กับสวิตช์เปิดปิด](../../../../../translated_images/wio-terminal-c-button.73df3cb1c1445ea0.th.png)
+    ![ปุ่ม C ด้านบนใกล้กับสวิตช์เปิดปิด](../../../../../translated_images/th/wio-terminal-c-button.73df3cb1c1445ea0.png)
 
     ```cpp
     pinMode(WIO_KEY_C, INPUT_PULLUP);
@@ -465,7 +465,7 @@ Wio Terminal รองรับ microSD card ขนาดสูงสุด 16GB
 
 1. ปิดเครื่องและถอด microSD card โดยการดันเข้าเล็กน้อยและปล่อย และมันจะเด้งออกมา คุณอาจต้องใช้เครื่องมือบางอย่างเพื่อทำเช่นนี้ เสียบ microSD card เข้ากับคอมพิวเตอร์ของคุณเพื่อดูภาพ
 
-    ![ภาพของกล้วยที่ถ่ายโดยใช้ ArduCam](../../../../../translated_images/banana-arducam.be1b32d4267a8194b0fd042362e56faa431da9cd4af172051b37243ea9be0256.th.jpg)
+    ![ภาพของกล้วยที่ถ่ายโดยใช้ ArduCam](../../../../../translated_images/th/banana-arducam.be1b32d4267a8194b0fd042362e56faa431da9cd4af172051b37243ea9be0256.jpg)
 💁 อาจใช้เวลาสักครู่สำหรับกล้องในการปรับสมดุลแสงสีขาว คุณจะสังเกตเห็นสิ่งนี้จากสีของภาพที่ถ่าย ภาพแรกๆ อาจดูสีผิดเพี้ยน คุณสามารถแก้ไขปัญหานี้ได้โดยการเปลี่ยนโค้ดเพื่อถ่ายภาพบางภาพที่ถูกละเว้นในฟังก์ชัน `setup`
 
 

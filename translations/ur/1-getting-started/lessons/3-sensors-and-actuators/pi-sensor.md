@@ -25,13 +25,13 @@ Grove روشنی سینسر، جو روشنی کی سطح کا پتہ لگانے
 
 روشنی سینسر کو جوڑیں۔
 
-![ایک Grove روشنی سینسر](../../../../../translated_images/grove-light-sensor.b8127b7c434e632d6bcdb57587a14e9ef69a268a22df95d08628f62b8fa5505c.ur.png)
+![ایک Grove روشنی سینسر](../../../../../translated_images/ur/grove-light-sensor.b8127b7c434e632d6bcdb57587a14e9ef69a268a22df95d08628f62b8fa5505c.png)
 
 1. Grove کیبل کے ایک سرے کو روشنی سینسر ماڈیول کے ساکٹ میں ڈالیں۔ یہ صرف ایک ہی سمت میں جائے گا۔
 
 1. راسپبیری پائی کو بند حالت میں رکھتے ہوئے، Grove کیبل کے دوسرے سرے کو Grove Base hat پر موجود اینالاگ ساکٹ **A0** میں جوڑیں۔ یہ ساکٹ GPIO پنز کے ساتھ والی قطار میں دائیں سے دوسرا ہے۔
 
-![Grove روشنی سینسر ساکٹ A0 سے منسلک](../../../../../translated_images/pi-light-sensor.66cc1e31fa48cd7d5f23400d4b2119aa41508275cb7c778053a7923b4e972d7e.ur.png)
+![Grove روشنی سینسر ساکٹ A0 سے منسلک](../../../../../translated_images/ur/pi-light-sensor.66cc1e31fa48cd7d5f23400d4b2119aa41508275cb7c778053a7923b4e972d7e.png)
 
 ## روشنی سینسر کو پروگرام کریں
 

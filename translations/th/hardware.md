@@ -21,7 +21,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 ## ซื้อชุดอุปกรณ์
 
-![โลโก้ Seeed Studios](../../translated_images/seeed-logo.74732b6b482b6e8e.th.png)
+![โลโก้ Seeed Studios](../../translated_images/th/seeed-logo.74732b6b482b6e8e.png)
 
 Seeed Studios ได้จัดเตรียมฮาร์ดแวร์ทั้งหมดไว้ในรูปแบบชุดอุปกรณ์ที่ซื้อได้ง่าย:
 
@@ -29,13 +29,13 @@ Seeed Studios ได้จัดเตรียมฮาร์ดแวร์ท
 
 **[IoT สำหรับผู้เริ่มต้นกับ Seeed และ Microsoft - Wio Terminal Starter Kit](https://www.seeedstudio.com/IoT-for-beginners-with-Seeed-and-Microsoft-Wio-Terminal-Starter-Kit-p-5006.html)**
 
-[![ชุดฮาร์ดแวร์ Wio Terminal](../../translated_images/wio-hardware-kit.4c70c48b85e4283a.th.png)](https://www.seeedstudio.com/IoT-for-beginners-with-Seeed-and-Microsoft-Wio-Terminal-Starter-Kit-p-5006.html)
+[![ชุดฮาร์ดแวร์ Wio Terminal](../../translated_images/th/wio-hardware-kit.4c70c48b85e4283a.png)](https://www.seeedstudio.com/IoT-for-beginners-with-Seeed-and-Microsoft-Wio-Terminal-Starter-Kit-p-5006.html)
 
 ### Raspberry Pi
 
 **[IoT สำหรับผู้เริ่มต้นกับ Seeed และ Microsoft - Raspberry Pi 4 Starter Kit](https://www.seeedstudio.com/IoT-for-beginners-with-Seeed-and-Microsoft-Raspberry-Pi-Starter-Kit-p-5004.html)**
 
-[![ชุดฮาร์ดแวร์ Raspberry Pi Terminal](../../translated_images/pi-hardware-kit.26dbadaedb7dd44c73b0131d5d68ea29472ed0a9744f90d5866c6d82f2d16380.th.png)](https://www.seeedstudio.com/IoT-for-beginners-with-Seeed-and-Microsoft-Raspberry-Pi-Starter-Kit-p-5004.html)
+[![ชุดฮาร์ดแวร์ Raspberry Pi Terminal](../../translated_images/th/pi-hardware-kit.26dbadaedb7dd44c73b0131d5d68ea29472ed0a9744f90d5866c6d82f2d16380.png)](https://www.seeedstudio.com/IoT-for-beginners-with-Seeed-and-Microsoft-Raspberry-Pi-Starter-Kit-p-5004.html)
 
 ## Arduino
 

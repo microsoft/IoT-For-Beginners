@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Зрозуміти мову
 
-![Скетчноут огляд цього уроку](../../../../../translated_images/lesson-22.6148ea28500d9e00c396aaa2649935fb6641362c8f03d8e5e90a676977ab01dd.uk.jpg)
+![Скетчноут огляд цього уроку](../../../../../translated_images/uk/lesson-22.6148ea28500d9e00c396aaa2649935fb6641362c8f03d8e5e90a676977ab01dd.jpg)
 
 > Скетчноут від [Nitya Narasimhan](https://github.com/nitya). Натисніть на зображення, щоб побачити його у більшому розмірі.
 
@@ -55,7 +55,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 ## Створення моделі розуміння мови
 
-![Логотип LUIS](../../../../../translated_images/luis-logo.5cb4f3e88c020ee6df4f614e8831f4a4b6809a7247bf52085fb48d629ef9be52.uk.png)
+![Логотип LUIS](../../../../../translated_images/uk/luis-logo.5cb4f3e88c020ee6df4f614e8831f4a4b6809a7247bf52085fb48d629ef9be52.png)
 
 Ви можете створювати моделі розуміння мови за допомогою LUIS, сервісу розуміння мови від Microsoft, який є частиною Cognitive Services.
 
@@ -126,7 +126,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Потім ви вказуєте LUIS, які частини цих речень відповідають сутностям:
 
-![Речення "установи таймер на 1 хвилину і 12 секунд", розбите на сутності](../../../../../translated_images/sentence-as-intent-entities.301401696f992259.uk.png)
+![Речення "установи таймер на 1 хвилину і 12 секунд", розбите на сутності](../../../../../translated_images/uk/sentence-as-intent-entities.301401696f992259.png)
 
 Речення `установи таймер на 1 хвилину і 12 секунд` має намір `установити таймер`. Воно також має 2 сутності з 2 значеннями кожна:
 
@@ -178,7 +178,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 1. Під час введення кожного прикладу LUIS почне виявляти сутності та підкреслювати й позначати будь-які знайдені.
 
-    ![Приклади з підкресленими числами та одиницями часу, виявленими LUIS](../../../../../translated_images/luis-intent-examples.25716580b2d2723cf1bafdf277d015c7f046d8cfa20f27bddf3a0873ec45fab7.uk.png)
+    ![Приклади з підкресленими числами та одиницями часу, виявленими LUIS](../../../../../translated_images/uk/luis-intent-examples.25716580b2d2723cf1bafdf277d015c7f046d8cfa20f27bddf3a0873ec45fab7.png)
 
 ### Завдання - навчити та протестувати модель
 

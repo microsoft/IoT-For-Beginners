@@ -25,7 +25,7 @@ Camera có thể được kết nối với Raspberry Pi bằng cáp ruy băng.
 
 ### Nhiệm vụ - kết nối camera
 
-![Một Raspberry Pi Camera](../../../../../translated_images/pi-camera-module.4278753c31bd6e757aa2b858be97d72049f71616278cefe4fb5abb485b40a078.vi.png)
+![Một Raspberry Pi Camera](../../../../../translated_images/vi/pi-camera-module.4278753c31bd6e757aa2b858be97d72049f71616278cefe4fb5abb485b40a078.png)
 
 1. Tắt nguồn Pi.
 
@@ -33,17 +33,17 @@ Camera có thể được kết nối với Raspberry Pi bằng cáp ruy băng.
 
     Bạn có thể tìm thấy một hình ảnh động minh họa cách mở kẹp và chèn cáp trong [tài liệu Raspberry Pi Getting Started with the Camera module](https://projects.raspberrypi.org/en/projects/getting-started-with-picamera/2).
 
-    ![Cáp ruy băng được chèn vào module camera](../../../../../translated_images/pi-camera-ribbon-cable.0bf82acd251611c21ac616f082849413e2b322a261d0e4f8fec344248083b07e.vi.png)
+    ![Cáp ruy băng được chèn vào module camera](../../../../../translated_images/vi/pi-camera-ribbon-cable.0bf82acd251611c21ac616f082849413e2b322a261d0e4f8fec344248083b07e.png)
 
 1. Tháo Grove Base Hat khỏi Pi.
 
 1. Luồn cáp ruy băng qua khe camera trong Grove Base Hat. Đảm bảo mặt màu xanh của cáp hướng về phía các cổng analog được gắn nhãn **A0**, **A1**, v.v.
 
-    ![Cáp ruy băng đi qua Grove Base Hat](../../../../../translated_images/grove-base-hat-ribbon-cable.501fed202fcf73b11b2b68f6d246189f7d15d3e4423c572ddee79d77b4632b47.vi.png)
+    ![Cáp ruy băng đi qua Grove Base Hat](../../../../../translated_images/vi/grove-base-hat-ribbon-cable.501fed202fcf73b11b2b68f6d246189f7d15d3e4423c572ddee79d77b4632b47.png)
 
 1. Chèn cáp ruy băng vào cổng camera trên Pi. Một lần nữa, kéo phần kẹp nhựa đen lên, chèn cáp, sau đó đẩy kẹp trở lại. Mặt màu xanh của cáp nên hướng về phía các cổng USB và ethernet.
 
-    ![Cáp ruy băng được kết nối với khe camera trên Pi](../../../../../translated_images/pi-camera-socket-ribbon-cable.a18309920b11800911082ed7aa6fb28e6d9be3a022e4079ff990016cae3fca10.vi.png)
+    ![Cáp ruy băng được kết nối với khe camera trên Pi](../../../../../translated_images/vi/pi-camera-socket-ribbon-cable.a18309920b11800911082ed7aa6fb28e6d9be3a022e4079ff990016cae3fca10.png)
 
 1. Lắp lại Grove Base Hat.
 
@@ -110,7 +110,7 @@ Lập trình thiết bị.
 
     Dòng `camera.rotation = 0` đặt góc xoay của hình ảnh. Cáp ruy băng đi vào từ phía dưới của camera, nhưng nếu camera của bạn được xoay để dễ dàng hướng vào vật thể bạn muốn phân loại, bạn có thể thay đổi dòng này thành số độ xoay.
 
-    ![Camera treo xuống trên một lon nước uống](../../../../../translated_images/pi-camera-upside-down.5376961ba31459883362124152ad6b823d5ac5fc14e85f317e22903bd681c2b6.vi.png)
+    ![Camera treo xuống trên một lon nước uống](../../../../../translated_images/vi/pi-camera-upside-down.5376961ba31459883362124152ad6b823d5ac5fc14e85f317e22903bd681c2b6.png)
 
     Ví dụ, nếu bạn treo cáp ruy băng qua một vật thể để nó nằm ở phía trên của camera, hãy đặt góc xoay thành 180:
 

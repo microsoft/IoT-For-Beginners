@@ -27,13 +27,13 @@ Grove GPS sensörü, Wio Terminal'e bağlanabilir.
 
 GPS sensörünü bağlayın.
 
-![Bir Grove GPS sensörü](../../../../../translated_images/grove-gps-sensor.247943bf69b03f0d1820ef6ed10c587f9b650e8db55b936851c92412180bd3e2.tr.png)
+![Bir Grove GPS sensörü](../../../../../translated_images/tr/grove-gps-sensor.247943bf69b03f0d1820ef6ed10c587f9b650e8db55b936851c92412180bd3e2.png)
 
 1. Grove kablosunun bir ucunu GPS sensöründeki sokete takın. Kablo yalnızca tek bir yönde takılabilir.
 
 1. Wio Terminal'i bilgisayarınızdan veya başka bir güç kaynağından ayırarak, Grove kablosunun diğer ucunu ekranı size dönük şekilde Wio Terminal'in sol tarafındaki Grove soketine bağlayın. Bu soket, güç düğmesine en yakın olan sokettir.
 
-    ![Grove GPS sensörü sol sokete bağlı](../../../../../translated_images/wio-gps-sensor.19fd52b81ce58095.tr.png)
+    ![Grove GPS sensörü sol sokete bağlı](../../../../../translated_images/tr/wio-gps-sensor.19fd52b81ce58095.png)
 
 1. GPS sensörünü, bağlı antenin gökyüzüne görünürlüğü olacak şekilde konumlandırın - ideal olarak açık bir pencere yanında veya dışarıda. Antenin önünde hiçbir engel olmaması, daha net bir sinyal almayı kolaylaştırır.
 

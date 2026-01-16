@@ -27,13 +27,13 @@ Grove rölesi Raspberry Pi'ye bağlanabilir.
 
 Röleyi bağlayın.
 
-![Bir Grove rölesi](../../../../../translated_images/grove-relay.d426958ca210fbd0fb7983d7edc069d46c73a8b0a099d94797bd756f7b6bb6be.tr.png)
+![Bir Grove rölesi](../../../../../translated_images/tr/grove-relay.d426958ca210fbd0fb7983d7edc069d46c73a8b0a099d94797bd756f7b6bb6be.png)
 
 1. Grove kablosunun bir ucunu rölenin üzerindeki sokete takın. Kablo yalnızca tek bir yönde takılabilir.
 
 1. Raspberry Pi kapalıyken, Grove kablosunun diğer ucunu Pi'ye bağlı olan Grove Base Hat üzerindeki **D5** olarak işaretlenmiş dijital sokete bağlayın. Bu soket, GPIO pinlerinin yanındaki soket sırasının soldan ikinci soketidir. Toprak nem sensörünü **A0** soketine bağlı bırakın.
 
-![Grove rölesi D5 soketine ve toprak nem sensörü A0 soketine bağlı](../../../../../translated_images/pi-relay-and-soil-moisture-sensor.02f3198975b8c53e69ec716cd2719ce117700bd1fc933eaf93476c103c57939b.tr.png)
+![Grove rölesi D5 soketine ve toprak nem sensörü A0 soketine bağlı](../../../../../translated_images/tr/pi-relay-and-soil-moisture-sensor.02f3198975b8c53e69ec716cd2719ce117700bd1fc933eaf93476c103c57939b.png)
 
 1. Toprak nem sensörünü toprağa yerleştirin, eğer önceki dersten itibaren zaten yerleştirilmemişse.
 

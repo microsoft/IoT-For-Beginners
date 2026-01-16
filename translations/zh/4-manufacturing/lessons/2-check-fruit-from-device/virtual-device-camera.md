@@ -43,11 +43,11 @@ CO_OP_TRANSLATOR_METADATA:
 
     1. 选择 **Add** 按钮以创建摄像头。
 
-    ![摄像头设置](../../../../../translated_images/counterfit-create-camera.a5de97f59c0bd3cbe0416d7e89a3cfe86d19fbae05c641c53a91286412af0a34.zh.png)
+    ![摄像头设置](../../../../../translated_images/zh/counterfit-create-camera.a5de97f59c0bd3cbe0416d7e89a3cfe86d19fbae05c641c53a91286412af0a34.png)
 
     摄像头将被创建并显示在传感器列表中。
 
-    ![摄像头已创建](../../../../../translated_images/counterfit-camera.001ec52194c8ee5d3f617173da2c79e1df903d10882adc625cbfc493525125d4.zh.png)
+    ![摄像头已创建](../../../../../translated_images/zh/counterfit-camera.001ec52194c8ee5d3f617173da2c79e1df903d10882adc625cbfc493525125d4.png)
 
 ## 编程摄像头
 
@@ -112,7 +112,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 1. 配置 CounterFit 中摄像头将捕获的图像。您可以将 *Source* 设置为 *File*，然后上传一个图像文件，或者将 *Source* 设置为 *WebCam*，图像将从您的网络摄像头捕获。确保在选择图片或网络摄像头后点击 **Set** 按钮。
 
-    ![CounterFit 中设置为文件的图像源，以及设置为网络摄像头显示一个人手持香蕉的预览](../../../../../translated_images/counterfit-camera-options.eb3bd5150a8e7dffbf24bc5bcaba0cf2cdef95fbe6bbe393695d173817d6b8df.zh.png)
+    ![CounterFit 中设置为文件的图像源，以及设置为网络摄像头显示一个人手持香蕉的预览](../../../../../translated_images/zh/counterfit-camera-options.eb3bd5150a8e7dffbf24bc5bcaba0cf2cdef95fbe6bbe393695d173817d6b8df.png)
 
 1. 图像将被捕获并保存为当前文件夹中的 `image.jpg`。您将在 VS Code 的资源管理器中看到此文件。选择该文件以查看图像。如果需要旋转，请根据需要更新 `camera.rotation = 0` 行并重新拍摄图片。
 

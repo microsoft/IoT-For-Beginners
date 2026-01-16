@@ -37,11 +37,11 @@ CounterFit ایپ میں لائٹ سینسر شامل کریں۔
 
     1. **Add** بٹن منتخب کریں تاکہ Pin 0 پر لائٹ سینسر بنایا جا سکے۔
 
-    ![لائٹ سینسر کی سیٹنگز](../../../../../translated_images/counterfit-create-light-sensor.9f36a5e0d4458d8d554d54b34d2c806d56093d6e49fddcda2d20f6fef7f5cce1.ur.png)
+    ![لائٹ سینسر کی سیٹنگز](../../../../../translated_images/ur/counterfit-create-light-sensor.9f36a5e0d4458d8d554d54b34d2c806d56093d6e49fddcda2d20f6fef7f5cce1.png)
 
     لائٹ سینسر بنایا جائے گا اور سینسرز کی فہرست میں ظاہر ہوگا۔
 
-    ![لائٹ سینسر بنایا گیا](../../../../../translated_images/counterfit-light-sensor.5d0f5584df56b90f6b2561910d9cb20dfbd73eeff2177c238d38f4de54aefae1.ur.png)
+    ![لائٹ سینسر بنایا گیا](../../../../../translated_images/ur/counterfit-light-sensor.5d0f5584df56b90f6b2561910d9cb20dfbd73eeff2177c238d38f4de54aefae1.png)
 
 ## لائٹ سینسر پروگرام کریں
 

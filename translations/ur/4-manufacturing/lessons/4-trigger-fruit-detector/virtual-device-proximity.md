@@ -45,11 +45,11 @@ CounterFit ایپ میں ڈسٹنس سینسر شامل کریں۔
 
     1. ڈسٹنس سینسر بنانے کے لیے **Add** بٹن منتخب کریں۔
 
-    ![ڈسٹنس سینسر کی سیٹنگز](../../../../../translated_images/counterfit-create-distance-sensor.967c9fb98f27888d95920c9784d004c972490eb71f70397fe13bd70a79a879a3.ur.png)
+    ![ڈسٹنس سینسر کی سیٹنگز](../../../../../translated_images/ur/counterfit-create-distance-sensor.967c9fb98f27888d95920c9784d004c972490eb71f70397fe13bd70a79a879a3.png)
 
     ڈسٹنس سینسر بنایا جائے گا اور سینسرز کی فہرست میں ظاہر ہوگا۔
 
-    ![ڈسٹنس سینسر بنایا گیا](../../../../../translated_images/counterfit-distance-sensor.079eefeeea0b68afc36431ce8fcbe2f09a7e4916ed1cd5cb30e696db53bc18fa.ur.png)
+    ![ڈسٹنس سینسر بنایا گیا](../../../../../translated_images/ur/counterfit-distance-sensor.079eefeeea0b68afc36431ce8fcbe2f09a7e4916ed1cd5cb30e696db53bc18fa.png)
 
 ## ڈسٹنس سینسر کو پروگرام کریں
 

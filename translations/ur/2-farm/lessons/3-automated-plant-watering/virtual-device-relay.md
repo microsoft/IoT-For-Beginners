@@ -37,11 +37,11 @@ CounterFit ایپ میں ریلے شامل کریں۔
 
     1. **Add** بٹن کو منتخب کریں تاکہ Pin 5 پر ریلے بنایا جا سکے۔
 
-    ![ریلے کی سیٹنگز](../../../../../translated_images/counterfit-create-relay.fa7c40fd0f2f6afc33b35ea94fcb235085be4861e14e3fe6b9b7bcfc82d1c888.ur.png)
+    ![ریلے کی سیٹنگز](../../../../../translated_images/ur/counterfit-create-relay.fa7c40fd0f2f6afc33b35ea94fcb235085be4861e14e3fe6b9b7bcfc82d1c888.png)
 
     ریلے بنایا جائے گا اور ایکچوئیٹرز کی فہرست میں ظاہر ہوگا۔
 
-    ![ریلے بنایا گیا](../../../../../translated_images/counterfit-relay.bbf74c1dbdc8b9acd983367fcbd06703a402aefef6af54ddb28e11307ba8a12c.ur.png)
+    ![ریلے بنایا گیا](../../../../../translated_images/ur/counterfit-relay.bbf74c1dbdc8b9acd983367fcbd06703a402aefef6af54ddb28e11307ba8a12c.png)
 
 ## ریلے کو پروگرام کریں
 

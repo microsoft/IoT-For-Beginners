@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 [Raspberry Pi](https://raspberrypi.org) คือคอมพิวเตอร์บอร์ดเดี่ยว คุณสามารถเพิ่มเซ็นเซอร์และแอคชูเอเตอร์ได้โดยใช้หลากหลายอุปกรณ์และระบบนิเวศ และสำหรับบทเรียนนี้จะใช้ระบบนิเวศฮาร์ดแวร์ที่เรียกว่า [Grove](https://www.seeedstudio.com/category/Grove-c-1003.html) คุณจะเขียนโค้ดบน Pi และเข้าถึงเซ็นเซอร์ Grove โดยใช้ Python
 
-![A Raspberry Pi 4](../../../../../translated_images/raspberry-pi-4.fd4590d308c3d456.th.jpg)
+![A Raspberry Pi 4](../../../../../translated_images/th/raspberry-pi-4.fd4590d308c3d456.jpg)
 
 ## การตั้งค่า
 
@@ -112,7 +112,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 1. จาก Raspberry Pi Imager เลือกปุ่ม **CHOOSE OS** จากนั้นเลือก *Raspberry Pi OS (Other)* และตามด้วย *Raspberry Pi OS Lite (32-bit)*
 
-    ![The Raspberry Pi Imager with Raspberry Pi OS Lite selected](../../../../../translated_images/raspberry-pi-imager.24aedeab9e233d84.th.png)
+    ![The Raspberry Pi Imager with Raspberry Pi OS Lite selected](../../../../../translated_images/th/raspberry-pi-imager.24aedeab9e233d84.png)
 
     > 💁 Raspberry Pi OS Lite เป็นเวอร์ชันของ Raspberry Pi OS ที่ไม่มี UI เดสก์ท็อปหรือเครื่องมือที่ใช้ UI ซึ่งไม่จำเป็นสำหรับ Pi แบบ headless และทำให้การติดตั้งมีขนาดเล็กลงและเวลาเริ่มต้นเร็วขึ้น
 
@@ -251,7 +251,7 @@ OS จะถูกเขียนลงใน SD card และเมื่อ�
 
 1. เปิดโฟลเดอร์นี้ใน VS Code โดยเลือก *File -> Open...* และเลือกโฟลเดอร์ *nightlight* จากนั้นเลือก **OK**
 
-    ![หน้าต่างเปิดไฟล์ของ VS Code ที่แสดงโฟลเดอร์ nightlight](../../../../../translated_images/vscode-open-nightlight-remote.d3d2a4011e30d535.th.png)
+    ![หน้าต่างเปิดไฟล์ของ VS Code ที่แสดงโฟลเดอร์ nightlight](../../../../../translated_images/th/vscode-open-nightlight-remote.d3d2a4011e30d535.png)
 
 1. เปิดไฟล์ `app.py` จากตัวสำรวจของ VS Code และเพิ่มโค้ดต่อไปนี้:
 

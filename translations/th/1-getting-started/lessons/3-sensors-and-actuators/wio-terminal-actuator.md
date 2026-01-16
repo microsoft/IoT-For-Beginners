@@ -35,7 +35,7 @@ Grove LED มาในรูปแบบโมดูลที่มี LED ใ�
 
 เชื่อมต่อ LED
 
-![A grove LED](../../../../../translated_images/grove-led.6c853be93f473cf2c439cfc74bb1064732b22251a83cedf66e62f783f9cc1a79.th.png)
+![A grove LED](../../../../../translated_images/th/grove-led.6c853be93f473cf2c439cfc74bb1064732b22251a83cedf66e62f783f9cc1a79.png)
 
 1. เลือก LED ที่คุณชอบและเสียบขาเข้าไปในสองรูบนโมดูล LED
 
@@ -51,7 +51,7 @@ Grove LED มาในรูปแบบโมดูลที่มี LED ใ�
 
     > 💁 ช่อง Grove ด้านขวาสามารถใช้กับเซ็นเซอร์และตัวกระตุ้นแบบอนาล็อกหรือดิจิทัลได้ ส่วนช่องด้านซ้ายใช้สำหรับเซ็นเซอร์และตัวกระตุ้นแบบดิจิทัลเท่านั้น
 
-![The grove LED connected to the right hand socket](../../../../../translated_images/wio-led.265a1897e72d7f21.th.png)
+![The grove LED connected to the right hand socket](../../../../../translated_images/th/wio-led.265a1897e72d7f21.png)
 
 ## เขียนโปรแกรมไฟกลางคืน
 

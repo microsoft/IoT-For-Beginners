@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # IoT'ye Daha Derin Bir Bakış
 
-![Bu dersin genel bir sketchnote görünümü](../../../../../translated_images/lesson-2.324b0580d620c25e0a24fb7fddfc0b29a846dd4b82c08e7a9466d580ee78ce51.tr.jpg)
+![Bu dersin genel bir sketchnote görünümü](../../../../../translated_images/tr/lesson-2.324b0580d620c25e0a24fb7fddfc0b29a846dd4b82c08e7a9466d580ee78ce51.jpg)
 
 > Sketchnote: [Nitya Narasimhan](https://github.com/nitya). Daha büyük bir versiyon için resme tıklayın.
 
@@ -41,13 +41,13 @@ Bir IoT uygulamasının iki bileşeni vardır: *İnternet* ve *şey*. Şimdi bu 
 
 ### Şey
 
-![Bir Raspberry Pi 4](../../../../../translated_images/raspberry-pi-4.fd4590d308c3d456.tr.jpg)
+![Bir Raspberry Pi 4](../../../../../translated_images/tr/raspberry-pi-4.fd4590d308c3d456.jpg)
 
 IoT'nin **Şey** kısmı, fiziksel dünyayla etkileşim kurabilen bir cihazı ifade eder. Bu cihazlar genellikle küçük, düşük fiyatlı bilgisayarlardır, düşük hızlarda çalışır ve düşük güç kullanır - örneğin, yalnızca birkaç yüz megahertz hızında çalışan ve bazen o kadar az güç tüketen basit mikrokontrolcüler (PC'deki gigabaytlar yerine kilobaytlar RAM ile) ki pillerle haftalar, aylar veya hatta yıllarca çalışabilirler.
 
 Bu cihazlar fiziksel dünyayla etkileşim kurar; ya sensörler kullanarak çevrelerinden veri toplar ya da çıkışlar veya aktüatörler aracılığıyla fiziksel değişiklikler yapar. Bunun tipik bir örneği akıllı bir termostattır - bir sıcaklık sensörüne, bir dokunmatik ekran veya bir düğme gibi istenen sıcaklığı ayarlama yöntemine ve algılanan sıcaklık istenen aralığın dışındaysa açılabilen bir ısıtma veya soğutma sistemine bağlanma yeteneğine sahip bir cihaz. Sıcaklık sensörü odanın çok soğuk olduğunu algılar ve bir aktüatör ısıtmayı açar.
 
-![Bir IoT cihazına giriş olarak sıcaklık ve bir düğme, çıkış olarak bir ısıtıcı kontrolünü gösteren bir diyagram](../../../../../translated_images/basic-thermostat.a923217fd1f37e5a6f3390396a65c22a387419ea2dd17e518ec24315ba6ae9a8.tr.png)
+![Bir IoT cihazına giriş olarak sıcaklık ve bir düğme, çıkış olarak bir ısıtıcı kontrolünü gösteren bir diyagram](../../../../../translated_images/tr/basic-thermostat.a923217fd1f37e5a6f3390396a65c22a387419ea2dd17e518ec24315ba6ae9a8.png)
 
 IoT cihazı olarak hareket edebilecek çok çeşitli şeyler vardır; bir şeyi algılayan özel donanımdan genel amaçlı cihazlara kadar, hatta akıllı telefonunuz bile! Bir akıllı telefon, çevresindeki dünyayı algılamak için sensörler ve dünyayla etkileşim kurmak için aktüatörler kullanabilir - örneğin, bir GPS sensörü kullanarak konumunuzu algılayabilir ve bir hoparlör kullanarak bir hedefe navigasyon talimatları verebilir.
 
@@ -63,11 +63,11 @@ Cihazlar her zaman WiFi veya kablolu bağlantılar üzerinden doğrudan İnterne
 
 Akıllı termostat örneğinde, termostat ev WiFi'sini kullanarak bulutta çalışan bir bulut hizmetine bağlanır. Bu bulut hizmetine sıcaklık verilerini gönderir ve buradan bir tür veritabanına yazılır, böylece ev sahibi bir telefon uygulaması kullanarak mevcut ve geçmiş sıcaklıkları kontrol edebilir. Buluttaki başka bir hizmet, ev sahibinin istediği sıcaklığı bilir ve bulut hizmeti aracılığıyla IoT cihazına mesajlar göndererek ısıtma sistemini açıp kapatmasını söyler.
 
-![Bir IoT cihazına giriş olarak sıcaklık ve bir düğme, IoT cihazının bulutla iki yönlü iletişimi, bulutun telefonla iki yönlü iletişimi ve IoT cihazından bir ısıtıcı kontrolü çıkışı gösteren bir diyagram](../../../../../translated_images/mobile-controlled-thermostat.4a994010473d8d6a52ba68c67e5f02dc8928c717e93ca4b9bc55525aa75bbb60.tr.png)
+![Bir IoT cihazına giriş olarak sıcaklık ve bir düğme, IoT cihazının bulutla iki yönlü iletişimi, bulutun telefonla iki yönlü iletişimi ve IoT cihazından bir ısıtıcı kontrolü çıkışı gösteren bir diyagram](../../../../../translated_images/tr/mobile-controlled-thermostat.4a994010473d8d6a52ba68c67e5f02dc8928c717e93ca4b9bc55525aa75bbb60.png)
 
 Daha akıllı bir versiyon, buluttaki AI'yi diğer IoT cihazlarına bağlı diğer sensörlerden gelen verilerle, örneğin hangi odaların kullanıldığını algılayan doluluk sensörleriyle, hava durumu ve hatta takviminiz gibi verilerle birleştirerek sıcaklığı akıllı bir şekilde ayarlamak için kararlar alabilir. Örneğin, takviminizden tatilde olduğunuzu okursa ısıtmanızı kapatabilir veya hangi odaları kullandığınıza bağlı olarak oda bazında ısıtmayı kapatabilir, zamanla daha doğru olmak için verilerden öğrenebilir.
 
-![Bir IoT cihazına giriş olarak birden fazla sıcaklık sensörü ve bir düğme, IoT cihazının bulutla iki yönlü iletişimi, bulutun telefon, takvim ve hava durumu hizmetiyle iki yönlü iletişimi ve IoT cihazından bir ısıtıcı kontrolü çıkışı gösteren bir diyagram](../../../../../translated_images/smarter-thermostat.a75855f15d2d9e63.tr.png)
+![Bir IoT cihazına giriş olarak birden fazla sıcaklık sensörü ve bir düğme, IoT cihazının bulutla iki yönlü iletişimi, bulutun telefon, takvim ve hava durumu hizmetiyle iki yönlü iletişimi ve IoT cihazından bir ısıtıcı kontrolü çıkışı gösteren bir diyagram](../../../../../translated_images/tr/smarter-thermostat.a75855f15d2d9e63.png)
 
 ✅ İnternet bağlantılı bir termostatı daha akıllı hale getirebilecek başka hangi veriler olabilir?
 
@@ -103,7 +103,7 @@ Saat döngüsü ne kadar hızlı olursa, saniyede o kadar fazla talimat işleneb
 
 > 💁 CPU'lar programları [fetch-decode-execute döngüsü](https://wikipedia.org/wiki/Instruction_cycle) kullanarak çalıştırır. Her saat tikinde, CPU bellekteki bir sonraki talimatı alır, kodunu çözer ve ardından iki sayıyı toplamak gibi bir aritmetik mantık birimi (ALU) kullanarak çalıştırır. Bazı işlemler birden fazla tik gerektirir, bu nedenle bir sonraki döngü, talimat tamamlandıktan sonraki tikte çalışır.
 
-![Fetch decode execute döngüleri, RAM'de depolanan programdan bir talimat almayı, ardından bunu CPU'da kod çözmeyi ve çalıştırmayı gösterir](../../../../../translated_images/fetch-decode-execute.2fd6f150f6280392807f4475382319abd0cee0b90058e1735444d6baa6f2078c.tr.png)
+![Fetch decode execute döngüleri, RAM'de depolanan programdan bir talimat almayı, ardından bunu CPU'da kod çözmeyi ve çalıştırmayı gösterir](../../../../../translated_images/tr/fetch-decode-execute.2fd6f150f6280392807f4475382319abd0cee0b90058e1735444d6baa6f2078c.png)
 
 Mikrokontrolcüler, masaüstü veya dizüstü bilgisayarlar ya da çoğu akıllı telefonlardan çok daha düşük saat hızlarına sahiptir. Örneğin, Wio Terminal'in CPU'su 120MHz veya saniyede 120.000.000 döngü hızında çalışır.
 
@@ -135,7 +135,7 @@ CPU gibi, bir mikrodenetleyicideki bellek, bir PC veya Mac'ten kat kat daha kü�
 
 Aşağıdaki diyagram, 192KB ile 8GB arasındaki boyut farkını göstermektedir - merkezdeki küçük nokta 192KB'yi temsil eder.
 
-![192KB ile 8GB karşılaştırması - 40.000 kat daha büyük](../../../../../translated_images/ram-comparison.6beb73541b42ac6f.tr.png)
+![192KB ile 8GB karşılaştırması - 40.000 kat daha büyük](../../../../../translated_images/tr/ram-comparison.6beb73541b42ac6f.png)
 
 Program depolama alanı da bir PC'den daha küçüktür. Tipik bir PC'de program depolama için 500GB'lık bir sabit disk bulunabilirken, bir mikrodenetleyicide yalnızca kilobayt veya birkaç megabayt (MB) depolama alanı bulunabilir (1MB, 1.000KB veya 1.000.000 bayttır). Wio terminali 4MB program depolama alanına sahiptir.
 
@@ -191,7 +191,7 @@ Arduino kartları C veya C++ ile kodlanır. C/C++ kullanmak, kodunuzun çok kü�
 
 `setup` işlevine WiFi ve bulut hizmetlerine bağlanma veya giriş ve çıkış için pinleri başlatma gibi kurulum kodunuzu yazarsınız. Ardından `loop` işlevine sensörden veri okuma ve bu değeri buluta gönderme gibi işlem kodunuzu yazarsınız. Genellikle her döngüye bir gecikme eklersiniz; örneğin, sensör verilerinin yalnızca her 10 saniyede bir gönderilmesini istiyorsanız, döngünün sonunda 10 saniyelik bir gecikme ekleyerek mikrodenetleyicinin uyumasını, güç tasarrufu yapmasını ve ardından 10 saniye sonra döngüyü yeniden çalıştırmasını sağlarsınız.
 
-![Bir Arduino taslağı önce setup'ı çalıştırır, ardından loop'u tekrar tekrar çalıştırır](../../../../../translated_images/arduino-sketch.79590cb837ff7a7c6a68d1afda6cab83fd53d3bb1bd9a8bf2eaf8d693a4d3ea6.tr.png)
+![Bir Arduino taslağı önce setup'ı çalıştırır, ardından loop'u tekrar tekrar çalıştırır](../../../../../translated_images/tr/arduino-sketch.79590cb837ff7a7c6a68d1afda6cab83fd53d3bb1bd9a8bf2eaf8d693a4d3ea6.png)
 
 ✅ Bu program mimarisi *olay döngüsü* veya *mesaj döngüsü* olarak bilinir. Birçok uygulama bunu temel alır ve Windows, macOS veya Linux gibi işletim sistemlerinde çalışan çoğu masaüstü uygulaması için standarttır. `loop`, düğmeler gibi kullanıcı arayüzü bileşenlerinden veya klavye gibi cihazlardan gelen mesajları dinler ve bunlara yanıt verir. [Olay döngüsü hakkında bu makalede](https://wikipedia.org/wiki/Event_loop) daha fazla bilgi edinebilirsiniz.
 
@@ -211,17 +211,17 @@ Son derste tek kartlı bilgisayarları tanıttık. Şimdi bunlara daha derinleme
 
 ### Raspberry Pi
 
-![Raspberry Pi logosu](../../../../../translated_images/raspberry-pi-logo.4efaa16605cee054.tr.png)
+![Raspberry Pi logosu](../../../../../translated_images/tr/raspberry-pi-logo.4efaa16605cee054.png)
 
 [Raspberry Pi Vakfı](https://www.raspberrypi.org), özellikle okul düzeyinde bilgisayar bilimi eğitimini teşvik etmek amacıyla 2009 yılında Birleşik Krallık'ta kurulan bir hayır kurumudur. Bu misyonun bir parçası olarak Raspberry Pi adlı bir tek kartlı bilgisayar geliştirdiler. Raspberry Pi'ler şu anda 3 varyantta mevcuttur - tam boyutlu bir versiyon, daha küçük Pi Zero ve nihai IoT cihazınıza entegre edilebilecek bir hesaplama modülü.
 
-![Bir Raspberry Pi 4](../../../../../translated_images/raspberry-pi-4.fd4590d308c3d456.tr.jpg)
+![Bir Raspberry Pi 4](../../../../../translated_images/tr/raspberry-pi-4.fd4590d308c3d456.jpg)
 
 Tam boyutlu Raspberry Pi'nin en son versiyonu Raspberry Pi 4B'dir. Bu cihazda 1.5GHz hızında çalışan dört çekirdekli (quad-core) bir CPU, 2, 4 veya 8GB RAM, gigabit ethernet, WiFi, 4k ekranları destekleyen 2 HDMI portu, bir ses ve kompozit video çıkış portu, USB portları (2 USB 2.0, 2 USB 3.0), 40 GPIO pini, bir Raspberry Pi kamera modülü için bir kamera konektörü ve bir SD kart yuvası bulunur. Tüm bunlar 88mm x 58mm x 19.5mm boyutlarında bir kart üzerinde ve 3A USB-C güç kaynağı ile çalışır. Bunlar, bir PC veya Mac'ten çok daha ucuz olan 35 ABD dolarından başlar.
 
 > 💁 Ayrıca bir Pi400, klavyeye entegre edilmiş bir Pi4 içeren hepsi bir arada bir bilgisayar bulunmaktadır.
 
-![Bir Raspberry Pi Zero](../../../../../translated_images/raspberry-pi-zero.f7a4133e1e7d54bb.tr.jpg)
+![Bir Raspberry Pi Zero](../../../../../translated_images/tr/raspberry-pi-zero.f7a4133e1e7d54bb.jpg)
 
 Pi Zero çok daha küçüktür ve daha az güç tüketir. Tek çekirdekli 1GHz CPU, 512MB RAM, WiFi (Zero W modelinde), tek bir HDMI portu, bir mikro-USB portu, 40 GPIO pini, bir Raspberry Pi kamera modülü için bir kamera konektörü ve bir SD kart yuvası bulunur. 65mm x 30mm x 5mm ölçülerindedir ve çok az güç tüketir. Zero 5 ABD dolarıdır, WiFi'li W versiyonu ise 10 ABD dolarıdır.
 

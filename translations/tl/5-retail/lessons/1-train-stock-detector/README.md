@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Mag-train ng stock detector
 
-![Isang sketchnote overview ng araling ito](../../../../../translated_images/lesson-19.cf6973cecadf080c4b526310620dc4d6f5994c80fb0139c6f378cc9ca2d435cd.tl.jpg)
+![Isang sketchnote overview ng araling ito](../../../../../translated_images/tl/lesson-19.cf6973cecadf080c4b526310620dc4d6f5994c80fb0139c6f378cc9ca2d435cd.jpg)
 
 > Sketchnote ni [Nitya Narasimhan](https://github.com/nitya). I-click ang imahe para sa mas malaking bersyon.
 
@@ -45,7 +45,7 @@ Ang object detection ay tumutukoy sa pag-detect ng mga bagay sa mga imahe gamit 
 
 Ang image classification ay tungkol sa pag-classify ng buong imahe - ano ang mga posibilidad na ang buong imahe ay tumutugma sa bawat tag. Makakakuha ka ng mga probabilities para sa bawat tag na ginamit upang i-train ang modelo.
 
-![Image classification ng cashew nuts at tomato paste](../../../../../translated_images/image-classifier-cashews-tomato.bc2e16ab8f05cf9ac0f59f73e32efc4227f9a5b601b90b2c60f436694547a965.tl.png)
+![Image classification ng cashew nuts at tomato paste](../../../../../translated_images/tl/image-classifier-cashews-tomato.bc2e16ab8f05cf9ac0f59f73e32efc4227f9a5b601b90b2c60f436694547a965.png)
 
 Sa halimbawa sa itaas, dalawang imahe ang na-classify gamit ang isang modelong na-train upang i-classify ang mga tub ng cashew nuts o mga lata ng tomato paste. Ang unang imahe ay isang tub ng cashew nuts, at may dalawang resulta mula sa image classifier:
 
@@ -69,7 +69,7 @@ Kapag ginamit mo ito upang mag-predict ng mga imahe, sa halip na makakuha ng lis
 
 > 🎓 *Bounding boxes* ay ang mga kahon sa paligid ng isang bagay.
 
-![Object detection ng cashew nuts at tomato paste](../../../../../translated_images/object-detector-cashews-tomato.1af7c26686b4db0e709754aeb196f4e73271f54e2085db3bcccb70d4a0d84d97.tl.png)
+![Object detection ng cashew nuts at tomato paste](../../../../../translated_images/tl/object-detector-cashews-tomato.1af7c26686b4db0e709754aeb196f4e73271f54e2085db3bcccb70d4a0d84d97.png)
 
 Ang imahe sa itaas ay naglalaman ng parehong tub ng cashew nuts at tatlong lata ng tomato paste. Na-detect ng object detector ang cashew nuts, na nagbalik ng bounding box na naglalaman ng cashew nuts kasama ang porsyento ng posibilidad na ang bounding box ay naglalaman ng bagay, sa kasong ito 97.6%. Na-detect din ng object detector ang tatlong lata ng tomato paste, at nagbibigay ng tatlong magkakahiwalay na bounding boxes, isa para sa bawat na-detect na lata, at bawat isa ay may porsyento ng posibilidad na ang bounding box ay naglalaman ng lata ng tomato paste.
 
@@ -120,7 +120,7 @@ Maaari kang mag-train ng object detector gamit ang Custom Vision, sa katulad na 
 
     Kapag ginawa mo ang iyong proyekto, siguraduhing gamitin ang `stock-detector-training` resource na ginawa mo kanina. Gamitin ang *Object Detection* project type, at ang *Products on Shelves* domain.
 
-    ![Ang mga setting para sa custom vision project na may pangalan na fruit-quality-detector, walang description, ang resource ay nakatakda sa fruit-quality-detector-training, ang project type ay nakatakda sa classification, ang classification types ay nakatakda sa multi class at ang domains ay nakatakda sa food](../../../../../translated_images/custom-vision-create-object-detector-project.32d4fb9aa8e7e7375f8a799bfce517aca970f2cb65e42d4245c5e635c734ab29.tl.png)
+    ![Ang mga setting para sa custom vision project na may pangalan na fruit-quality-detector, walang description, ang resource ay nakatakda sa fruit-quality-detector-training, ang project type ay nakatakda sa classification, ang classification types ay nakatakda sa multi class at ang domains ay nakatakda sa food](../../../../../translated_images/tl/custom-vision-create-object-detector-project.32d4fb9aa8e7e7375f8a799bfce517aca970f2cb65e42d4245c5e635c734ab29.png)
 
     ✅ Ang products on shelves domain ay partikular na nakatuon para sa pag-detect ng stock sa mga store shelves. Basahin ang higit pa tungkol sa iba't ibang domains sa [Select a domain documentation sa Microsoft Docs](https://docs.microsoft.com/azure/cognitive-services/custom-vision-service/select-domain?WT.mc_id=academic-17441-jabenn#object-detection)
 
@@ -142,11 +142,11 @@ Upang i-train ang iyong modelo, kakailanganin mo ng set ng mga imahe na naglalam
 
 1. Sundin ang [Upload and tag images section ng Build an object detector quickstart sa Microsoft docs](https://docs.microsoft.com/azure/cognitive-services/custom-vision-service/get-started-build-detector?WT.mc_id=academic-17441-jabenn#upload-and-tag-images) upang i-upload ang iyong mga training images. Gumawa ng mga kaugnay na tag depende sa mga uri ng mga bagay na nais mong i-detect.
 
-    ![Ang upload dialogs na nagpapakita ng pag-upload ng ripe at unripe banana pictures](../../../../../translated_images/image-upload-object-detector.77c7892c3093cb59b79018edecd678749a75d71a099bc8a2d2f2f76320f88a5b.tl.png)
+    ![Ang upload dialogs na nagpapakita ng pag-upload ng ripe at unripe banana pictures](../../../../../translated_images/tl/image-upload-object-detector.77c7892c3093cb59b79018edecd678749a75d71a099bc8a2d2f2f76320f88a5b.png)
 
     Kapag nag-draw ka ng bounding boxes para sa mga bagay, panatilihin itong masikip sa paligid ng bagay. Maaaring tumagal ng ilang oras upang i-outline ang lahat ng mga imahe, ngunit ang tool ay mag-detect kung ano ang sa tingin nito ay ang mga bounding boxes, na ginagawang mas mabilis.
 
-    ![Pag-tag ng ilang tomato paste](../../../../../translated_images/object-detector-tag-tomato-paste.f47c362fb0f0eb582f3bc68cf3855fb43a805106395358d41896a269c210b7b4.tl.png)
+    ![Pag-tag ng ilang tomato paste](../../../../../translated_images/tl/object-detector-tag-tomato-paste.f47c362fb0f0eb582f3bc68cf3855fb43a805106395358d41896a269c210b7b4.png)
 
     > 💁 Kung mayroon kang higit sa 15 imahe para sa bawat bagay, maaari kang mag-train pagkatapos ng 15 at gamitin ang **Suggested tags** feature. Gagamitin nito ang na-train na modelo upang i-detect ang mga bagay sa untagged image. Maaari mong kumpirmahin ang mga na-detect na bagay, o tanggihan at muling i-draw ang mga bounding boxes. Ito ay maaaring makatipid ng *maraming* oras.
 
@@ -164,7 +164,7 @@ Kapag na-train na ang iyong object detector, maaari mo itong subukan sa pamamagi
 
 1. Gamitin ang **Quick Test** button upang i-upload ang mga testing images at i-verify kung na-detect ang mga bagay. Gamitin ang mga testing images na ginawa mo kanina, hindi ang anumang mga imahe na ginamit mo para sa training.
 
-    ![3 lata ng tomato paste na na-detect na may probabilities na 38%, 35.5% at 34.6%](../../../../../translated_images/object-detector-detected-tomato-paste.52656fe87af4c37b4ee540526d63e73ed075da2e54a9a060aa528e0c562fb1b6.tl.png)
+    ![3 lata ng tomato paste na na-detect na may probabilities na 38%, 35.5% at 34.6%](../../../../../translated_images/tl/object-detector-detected-tomato-paste.52656fe87af4c37b4ee540526d63e73ed075da2e54a9a060aa528e0c562fb1b6.png)
 
 1. Subukan ang lahat ng testing images na mayroon ka at obserbahan ang mga probabilities.
 

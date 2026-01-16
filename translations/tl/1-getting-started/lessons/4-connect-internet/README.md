@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Ikonekta ang Iyong Device sa Internet
 
-![Isang sketchnote overview ng araling ito](../../../../../translated_images/lesson-4.7344e074ea68fa545fd320b12dce36d72dd62d28c3b4596cb26cf315f434b98f.tl.jpg)
+![Isang sketchnote overview ng araling ito](../../../../../translated_images/tl/lesson-4.7344e074ea68fa545fd320b12dce36d72dd62d28c3b4596cb26cf315f434b98f.jpg)
 
 > Sketchnote ni [Nitya Narasimhan](https://github.com/nitya). I-click ang imahe para sa mas malaking bersyon.
 
@@ -46,7 +46,7 @@ Sa araling ito, tatalakayin natin ang:
 
 Mayroong iba't ibang sikat na communication protocol na ginagamit ng mga IoT device upang makipag-ugnayan sa Internet. Ang pinakasikat ay nakabatay sa publish/subscribe messaging sa pamamagitan ng isang uri ng broker. Ang mga IoT device ay kumokonekta sa broker at nagpa-publish ng telemetry at nag-subscribe sa mga utos. Ang mga cloud service ay kumokonekta rin sa broker at nag-subscribe sa lahat ng telemetry messages at nagpa-publish ng mga utos alinman sa mga partikular na device, o sa mga grupo ng device.
 
-![Ang mga IoT device ay kumokonekta sa isang broker at nagpa-publish ng telemetry at nag-subscribe sa mga utos. Ang mga cloud service ay kumokonekta sa broker at nag-subscribe sa lahat ng telemetry at nagpapadala ng mga utos sa mga partikular na device.](../../../../../translated_images/pub-sub.7c7ed43fe9fd15d4.tl.png)
+![Ang mga IoT device ay kumokonekta sa isang broker at nagpa-publish ng telemetry at nag-subscribe sa mga utos. Ang mga cloud service ay kumokonekta sa broker at nag-subscribe sa lahat ng telemetry at nagpapadala ng mga utos sa mga partikular na device.](../../../../../translated_images/tl/pub-sub.7c7ed43fe9fd15d4.png)
 
 Ang MQTT ang pinakasikat na communication protocol para sa mga IoT device at tatalakayin ito sa araling ito. Ang iba pang mga protocol ay kinabibilangan ng AMQP at HTTP/HTTPS.
 
@@ -56,7 +56,7 @@ Ang [MQTT](http://mqtt.org) ay isang magaan, open standard na messaging protocol
 
 Ang MQTT ay may isang broker at maraming kliyente. Lahat ng kliyente ay kumokonekta sa broker, at ang broker ang nagre-route ng mga mensahe sa mga kaukulang kliyente. Ang mga mensahe ay niruruta gamit ang mga tinatawag na topic, sa halip na direktang ipadala sa isang indibidwal na kliyente. Ang isang kliyente ay maaaring mag-publish sa isang topic, at ang anumang kliyente na nag-subscribe sa topic na iyon ay makakatanggap ng mensahe.
 
-![IoT device na nagpa-publish ng telemetry sa /telemetry topic, at ang cloud service na nag-subscribe sa topic na iyon](../../../../../translated_images/mqtt.cbf7f21d9adc3e17548b359444cc11bb4bf2010543e32ece9a47becf54438c23.tl.png)
+![IoT device na nagpa-publish ng telemetry sa /telemetry topic, at ang cloud service na nag-subscribe sa topic na iyon](../../../../../translated_images/tl/mqtt.cbf7f21d9adc3e17548b359444cc11bb4bf2010543e32ece9a47becf54438c23.png)
 
 ✅ Mag-research. Kung marami kang IoT device, paano mo masisiguro na ang iyong MQTT broker ay kayang hawakan ang lahat ng mensahe?
 
@@ -78,7 +78,7 @@ Sa halip na harapin ang mga komplikasyon ng pag-set up ng isang MQTT broker bila
 
 > 💁 Ang test broker na ito ay pampubliko at hindi secure. Maaaring may ibang nakikinig sa iyong mga ipinapublish, kaya't hindi ito dapat gamitin sa anumang data na kailangang panatilihing pribado.
 
-![Isang flow chart ng assignment na nagpapakita ng light levels na binabasa at sinusuri, at ang LED na kinokontrol](../../../../../translated_images/assignment-1-internet-flow.3256feab5f052fd273bf4e331157c574c2c3fa42e479836fc9c3586f41db35a5.tl.png)
+![Isang flow chart ng assignment na nagpapakita ng light levels na binabasa at sinusuri, at ang LED na kinokontrol](../../../../../translated_images/tl/assignment-1-internet-flow.3256feab5f052fd273bf4e331157c574c2c3fa42e479836fc9c3586f41db35a5.png)
 
 Sundin ang kaukulang hakbang sa ibaba upang ikonekta ang iyong device sa MQTT broker:
 
@@ -115,7 +115,7 @@ Ang salitang telemetry ay nagmula sa mga salitang Griyego na nangangahulugang su
 
 Balikan natin ang halimbawa ng smart thermostat mula sa Aralin 1.
 
-![Isang Internet connected thermostat na gumagamit ng maraming room sensor](../../../../../translated_images/telemetry.21e5d8b97649d2eb.tl.png)
+![Isang Internet connected thermostat na gumagamit ng maraming room sensor](../../../../../translated_images/tl/telemetry.21e5d8b97649d2eb.png)
 
 Ang thermostat ay may mga temperature sensor upang mangolekta ng telemetry. Malamang na mayroon itong isang built-in na temperature sensor, at maaaring kumonekta sa maraming external temperature sensor gamit ang isang wireless protocol tulad ng [Bluetooth Low Energy](https://wikipedia.org/wiki/Bluetooth_Low_Energy) (BLE).
 
@@ -267,11 +267,11 @@ Isulat ang server code.
 
 1. Kapag nag-launch ang VS Code, i-activate nito ang Python virtual environment. Ito ay makikita sa ibabang status bar:
 
-    ![VS Code na nagpapakita ng napiling virtual environment](../../../../../translated_images/vscode-virtual-env.8ba42e04c3d533cf.tl.png)
+    ![VS Code na nagpapakita ng napiling virtual environment](../../../../../translated_images/tl/vscode-virtual-env.8ba42e04c3d533cf.png)
 
 1. Kung ang VS Code Terminal ay tumatakbo na kapag nagbukas ang VS Code, hindi nito ma-activate ang virtual environment sa terminal. Ang pinakamadaling gawin ay patayin ang terminal gamit ang **Kill the active terminal instance** button:
 
-    ![VS Code Kill the active terminal instance button](../../../../../translated_images/vscode-kill-terminal.1cc4de7c6f25ee08.tl.png)
+    ![VS Code Kill the active terminal instance button](../../../../../translated_images/tl/vscode-kill-terminal.1cc4de7c6f25ee08.png)
 
 1. Mag-launch ng bagong VS Code Terminal sa pamamagitan ng pagpili sa *Terminal -> New Terminal*, o sa pagpindot ng `` CTRL+` ``. Ang bagong terminal ay maglo-load ng virtual environment, kasama ang tawag upang i-activate ito na makikita sa terminal. Ang pangalan ng virtual environment (`.venv`) ay makikita rin sa prompt:
 
@@ -359,7 +359,7 @@ Para sa mga makina, maaaring gusto mong panatilihin ang data, lalo na kung ito a
 
 Dapat ding isaalang-alang ng mga IoT device designers kung ang IoT device ay maaaring magamit sa panahon ng Internet outage o pagkawala ng signal na dulot ng lokasyon. Ang isang smart thermostat ay dapat na makagawa ng ilang limitadong desisyon upang kontrolin ang heating kung hindi ito makapagpadala ng telemetry sa cloud dahil sa outage.
 
-[![Ang Ferrari na ito ay na-brick dahil sinubukan itong i-upgrade sa ilalim ng lupa kung saan walang cell reception](../../../../../translated_images/bricked-car.dc38f8efadc6c59d76211f981a521efb300939283dee468f79503aae3ec67615.tl.png)](https://twitter.com/internetofshit/status/1315736960082808832)
+[![Ang Ferrari na ito ay na-brick dahil sinubukan itong i-upgrade sa ilalim ng lupa kung saan walang cell reception](../../../../../translated_images/tl/bricked-car.dc38f8efadc6c59d76211f981a521efb300939283dee468f79503aae3ec67615.png)](https://twitter.com/internetofshit/status/1315736960082808832)
 
 Para sa MQTT upang harapin ang pagkawala ng koneksyon, ang device at server code ay kailangang maging responsable sa pagtiyak ng message delivery kung kinakailangan, halimbawa sa pamamagitan ng pag-require na ang lahat ng mga mensaheng ipinadala ay may reply sa pamamagitan ng karagdagang mga mensahe sa reply topic, at kung wala, sila ay manu-manong i-queue upang ma-replay sa ibang pagkakataon.
 
@@ -367,7 +367,7 @@ Para sa MQTT upang harapin ang pagkawala ng koneksyon, ang device at server code
 
 Ang mga command ay mga mensaheng ipinadala ng cloud sa isang device, na nag-uutos dito na gumawa ng isang bagay. Kadalasan, ito ay may kinalaman sa pagbibigay ng output sa pamamagitan ng actuator, ngunit maaari rin itong maging isang utos para sa device mismo, tulad ng pag-reboot, o pagkuha ng karagdagang telemetry at pagbabalik nito bilang tugon sa command.
 
-![Isang Internet-connected thermostat na tumatanggap ng command upang i-on ang heating](../../../../../translated_images/commands.d6c06bbbb3a02cce95f2831a1c331daf6dedd4e470c4aa2b0ae54f332016e504.tl.png)
+![Isang Internet-connected thermostat na tumatanggap ng command upang i-on ang heating](../../../../../translated_images/tl/commands.d6c06bbbb3a02cce95f2831a1c331daf6dedd4e470c4aa2b0ae54f332016e504.png)
 
 Ang thermostat ay maaaring tumanggap ng command mula sa cloud upang i-on ang heating. Batay sa telemetry data mula sa lahat ng sensors, kung napagpasyahan ng cloud service na ang heating ay dapat naka-on, magpapadala ito ng kaukulang command.
 

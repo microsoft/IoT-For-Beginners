@@ -35,7 +35,7 @@ Grove LED是一个模块，提供多种颜色的LED供选择。
 
 连接LED。
 
-![一个Grove LED](../../../../../translated_images/grove-led.6c853be93f473cf2c439cfc74bb1064732b22251a83cedf66e62f783f9cc1a79.zh.png)
+![一个Grove LED](../../../../../translated_images/zh/grove-led.6c853be93f473cf2c439cfc74bb1064732b22251a83cedf66e62f783f9cc1a79.png)
 
 1. 选择你喜欢的LED，将其引脚插入LED模块上的两个孔中。
 
@@ -49,7 +49,7 @@ Grove LED是一个模块，提供多种颜色的LED供选择。
 
 1. 在树莓派断电的情况下，将Grove电缆的另一端连接到树莓派上Grove Base帽的数字插座**D5**。这个插座位于GPIO引脚旁边的一排插座中，从左数第二个。
 
-![连接到D5插座的Grove LED](../../../../../translated_images/pi-led.97f1d474981dc35d1c7996c7b17de355d3d0a6bc9606d79fa5f89df933415122.zh.png)
+![连接到D5插座的Grove LED](../../../../../translated_images/zh/pi-led.97f1d474981dc35d1c7996c7b17de355d3d0a6bc9606d79fa5f89df933415122.png)
 
 ## 编程夜灯
 

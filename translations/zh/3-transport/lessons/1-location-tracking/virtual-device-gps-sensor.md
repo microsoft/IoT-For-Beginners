@@ -47,11 +47,11 @@ CO_OP_TRANSLATOR_METADATA:
 
     1. 点击 **Add** 按钮，在端口 `/dev/ttyAMA0` 上创建 GPS 传感器。
 
-    ![GPS 传感器设置](../../../../../translated_images/counterfit-create-gps-sensor.6385dc9357d85ad1d47b4abb2525e7651fd498917d25eefc5a72feab09eedc70.zh.png)
+    ![GPS 传感器设置](../../../../../translated_images/zh/counterfit-create-gps-sensor.6385dc9357d85ad1d47b4abb2525e7651fd498917d25eefc5a72feab09eedc70.png)
 
     GPS 传感器将被创建并显示在传感器列表中。
 
-    ![已创建的 GPS 传感器](../../../../../translated_images/counterfit-gps-sensor.3fbb15af0a5367566f2f11324ef5a6f30861cdf2b497071a5e002b7aa473550e.zh.png)
+    ![已创建的 GPS 传感器](../../../../../translated_images/zh/counterfit-gps-sensor.3fbb15af0a5367566f2f11324ef5a6f30861cdf2b497071a5e002b7aa473550e.png)
 
 ## 编程 GPS 传感器
 
@@ -111,17 +111,17 @@ CO_OP_TRANSLATOR_METADATA:
 
     * 将 **Source** 设置为 `Lat/Lon`，并设置明确的纬度、经度以及用于获取 GPS 定位的卫星数量。此值将仅发送一次，因此勾选 **Repeat** 复选框以使数据每秒重复发送。
 
-      ![选择纬度和经度的 GPS 传感器](../../../../../translated_images/counterfit-gps-sensor-latlon.008c867d75464fbe7f84107cc57040df565ac07cb57d2f21db37d087d470197d.zh.png)
+      ![选择纬度和经度的 GPS 传感器](../../../../../translated_images/zh/counterfit-gps-sensor-latlon.008c867d75464fbe7f84107cc57040df565ac07cb57d2f21db37d087d470197d.png)
 
     * 将 **Source** 设置为 `NMEA`，并在文本框中添加一些 NMEA 语句。所有这些值将被发送，每个新的 GGA（位置固定）语句之间有 1 秒的延迟。
 
-      ![设置 NMEA 语句的 GPS 传感器](../../../../../translated_images/counterfit-gps-sensor-nmea.c62eea442171e17e19528b051b104cfcecdc9cd18db7bc72920f29821ae63f73.zh.png)
+      ![设置 NMEA 语句的 GPS 传感器](../../../../../translated_images/zh/counterfit-gps-sensor-nmea.c62eea442171e17e19528b051b104cfcecdc9cd18db7bc72920f29821ae63f73.png)
 
       你可以使用类似 [nmeagen.org](https://www.nmeagen.org) 的工具通过在地图上绘制来生成这些语句。这些值将仅发送一次，因此勾选 **Repeat** 复选框以使数据在全部发送后每秒重复一次。
 
     * 将 **Source** 设置为 GPX 文件，并上传一个包含轨迹位置的 GPX 文件。你可以从许多流行的地图和徒步网站（如 [AllTrails](https://www.alltrails.com/)）下载 GPX 文件。这些文件包含多个 GPS 位置作为轨迹，GPS 传感器将以 1 秒间隔返回每个新位置。
 
-      ![设置 GPX 文件的 GPS 传感器](../../../../../translated_images/counterfit-gps-sensor-gpxfile.8310b063ce8a425ccc8ebeec8306aeac5e8e55207f007d52c6e1194432a70cd9.zh.png)
+      ![设置 GPX 文件的 GPS 传感器](../../../../../translated_images/zh/counterfit-gps-sensor-gpxfile.8310b063ce8a425ccc8ebeec8306aeac5e8e55207f007d52c6e1194432a70cd9.png)
 
       这些值将仅发送一次，因此勾选 **Repeat** 复选框以使数据在全部发送后每秒重复一次。
 

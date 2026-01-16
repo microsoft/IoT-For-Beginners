@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Suportahan ang Maraming Wika
 
-![Isang sketchnote na buod ng araling ito](../../../../../translated_images/lesson-24.4246968ed058510ab275052e87ef9aa89c7b2f938915d103c605c04dc6cd5bb7.tl.jpg)
+![Isang sketchnote na buod ng araling ito](../../../../../translated_images/tl/lesson-24.4246968ed058510ab275052e87ef9aa89c7b2f938915d103c605c04dc6cd5bb7.jpg)
 
 > Sketchnote ni [Nitya Narasimhan](https://github.com/nitya). I-click ang imahe para sa mas malaking bersyon.
 
@@ -83,7 +83,7 @@ Mayroong ilang mga AI service na maaaring gamitin mula sa iyong mga aplikasyon u
 
 ### Cognitive services Speech service
 
-![Ang logo ng speech service](../../../../../translated_images/azure-speech-logo.a1f08c4befb0159f2cb5d692d3baf5b599e7b44759d316da907bda1508f46a4a.tl.png)
+![Ang logo ng speech service](../../../../../translated_images/tl/azure-speech-logo.a1f08c4befb0159f2cb5d692d3baf5b599e7b44759d316da907bda1508f46a4a.png)
 
 Ang speech service na ginamit mo sa mga nakaraang aralin ay may kakayahan sa pagsasalin para sa pagkilala sa pananalita. Kapag kinikilala mo ang pananalita, maaari kang humiling hindi lamang ng teksto ng pananalita sa parehong wika, kundi pati na rin sa iba pang mga wika.
 
@@ -91,7 +91,7 @@ Ang speech service na ginamit mo sa mga nakaraang aralin ay may kakayahan sa pag
 
 ### Cognitive services Translator service
 
-![Ang logo ng translator service](../../../../../translated_images/azure-translator-logo.c6ed3a4a433edfd2f11577eca105412c50b8396b194cbbd730723dd1d0793bcd.tl.png)
+![Ang logo ng translator service](../../../../../translated_images/tl/azure-translator-logo.c6ed3a4a433edfd2f11577eca105412c50b8396b194cbbd730723dd1d0793bcd.png)
 
 Ang Translator service ay isang dedikadong serbisyo ng pagsasalin na maaaring magsalin ng teksto mula sa isang wika patungo sa isa o higit pang target na wika. Bukod sa pagsasalin, sinusuportahan nito ang malawak na hanay ng mga karagdagang tampok kabilang ang masking ng mga malaswang salita. Pinapayagan ka rin nitong magbigay ng partikular na pagsasalin para sa isang partikular na salita o pangungusap, upang gumana sa mga terminong ayaw mong isalin, o may partikular na kilalang pagsasalin.
 
@@ -130,7 +130,7 @@ Para sa araling ito, kakailanganin mo ng Translator resource. Gagamitin mo ang R
 
 Sa isang perpektong mundo, ang buong aplikasyon mo ay dapat makaunawa ng maraming iba't ibang wika hangga't maaari, mula sa pakikinig ng pananalita, sa pag-unawa sa wika, hanggang sa pagtugon gamit ang pananalita. Ito ay maraming trabaho, kaya ang mga serbisyo ng pagsasalin ay maaaring pabilisin ang oras ng pag-develop ng iyong aplikasyon.
 
-![Isang arkitektura ng smart timer na nagsasalin ng Japanese patungong English, pinoproseso sa English, pagkatapos ay isinasalin pabalik sa Japanese](../../../../../translated_images/translated-smart-timer.08ac20057fdc5c37.tl.png)
+![Isang arkitektura ng smart timer na nagsasalin ng Japanese patungong English, pinoproseso sa English, pagkatapos ay isinasalin pabalik sa Japanese](../../../../../translated_images/tl/translated-smart-timer.08ac20057fdc5c37.png)
 
 Isipin na gumagawa ka ng isang smart timer na gumagamit ng Ingles mula simula hanggang dulo, nauunawaan ang sinasalitang Ingles at kino-convert ito sa teksto, pinapatakbo ang pag-unawa sa wika sa Ingles, bumubuo ng mga tugon sa Ingles, at tumutugon gamit ang sinasalitang Ingles. Kung nais mong magdagdag ng suporta para sa Japanese, maaari kang magsimula sa pagsasalin ng sinasalitang Japanese patungong English text, pagkatapos ay panatilihin ang core ng aplikasyon na pareho, pagkatapos ay isalin ang response text sa Japanese bago ito bigkasin. Papayagan ka nitong mabilis na magdagdag ng suporta para sa Japanese, at maaari kang magpalawak upang magbigay ng buong end-to-end na suporta para sa Japanese sa hinaharap.
 

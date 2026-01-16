@@ -29,14 +29,14 @@ Kailangan mong ulitin ang mga hakbang na ito nang maraming beses upang makuha an
 
 Ang gravimetric soil moisture ay kinakalkula bilang:
 
-![soil moisture % ay timbang ng basa minus timbang ng tuyo, hinati sa timbang ng tuyo, times 100](../../../../../translated_images/gsm-calculation.6da38c6201eec14e7573bb2647aa18892883193553d23c9d77e5dc681522dfb2.tl.png)
+![soil moisture % ay timbang ng basa minus timbang ng tuyo, hinati sa timbang ng tuyo, times 100](../../../../../translated_images/tl/gsm-calculation.6da38c6201eec14e7573bb2647aa18892883193553d23c9d77e5dc681522dfb2.png)
 
 * W - ang timbang ng basang lupa  
 * W - ang timbang ng tuyong lupa  
 
 Halimbawa, sabihin nating mayroon kang sample ng lupa na may timbang na 212g basa, at 197g tuyo.
 
-![Ang kalkulasyon na may sagot](../../../../../translated_images/gsm-calculation-example.99f9803b4f29e97668e7c15412136c0c399ab12dbba0b89596fdae9d8aedb6fb.tl.png)
+![Ang kalkulasyon na may sagot](../../../../../translated_images/tl/gsm-calculation-example.99f9803b4f29e97668e7c15412136c0c399ab12dbba0b89596fdae9d8aedb6fb.png)
 
 * W = 212g  
 * W = 197g  

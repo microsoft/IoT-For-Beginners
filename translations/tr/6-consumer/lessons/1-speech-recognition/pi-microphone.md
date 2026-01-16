@@ -43,7 +43,7 @@ Mikrofon ve hoparlörlerin bağlanması ve yapılandırılması gerekmektedir.
 
 1. Eğer ReSpeaker 2-Mics Pi HAT kullanıyorsanız, Grove tabanlı hattı çıkarabilir ve yerine ReSpeaker hattını takabilirsiniz.
 
-    ![ReSpeaker hattı takılı bir Raspberry Pi](../../../../../translated_images/pi-respeaker-hat.f00fabe7dd039a93e2e0aa0fc946c9af0c6a9eb17c32fa1ca097fb4e384f69f0.tr.png)
+    ![ReSpeaker hattı takılı bir Raspberry Pi](../../../../../translated_images/tr/pi-respeaker-hat.f00fabe7dd039a93e2e0aa0fc946c9af0c6a9eb17c32fa1ca097fb4e384f69f0.png)
 
     Bu dersin ilerleyen bölümlerinde bir Grove düğmesine ihtiyacınız olacak, ancak bu hattın içine bir düğme yerleştirilmiştir, bu yüzden Grove tabanlı hattı gerekli değildir.
 

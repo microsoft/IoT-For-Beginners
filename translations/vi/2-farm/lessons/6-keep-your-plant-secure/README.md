@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Giữ an toàn cho cây trồng của bạn
 
-![Một bản vẽ tóm tắt bài học này](../../../../../translated_images/lesson-10.829c86b80b9403bb770929ee553a1d293afe50dc23121aaf9be144673ae012cc.vi.jpg)
+![Một bản vẽ tóm tắt bài học này](../../../../../translated_images/vi/lesson-10.829c86b80b9403bb770929ee553a1d293afe50dc23121aaf9be144673ae012cc.jpg)
 
 > Bản vẽ bởi [Nitya Narasimhan](https://github.com/nitya). Nhấp vào hình ảnh để xem phiên bản lớn hơn.
 
@@ -61,11 +61,11 @@ Nếu ứng dụng IoT của bạn không được bảo mật, có một số r
 
 Khi một thiết bị kết nối với một dịch vụ IoT, nó sử dụng một ID để xác định chính nó. Vấn đề là ID này có thể bị sao chép - một hacker có thể thiết lập một thiết bị độc hại sử dụng cùng ID với thiết bị thật nhưng gửi dữ liệu giả mạo.
 
-![Cả thiết bị hợp lệ và thiết bị độc hại đều có thể sử dụng cùng ID để gửi dữ liệu](../../../../../translated_images/iot-device-and-hacked-device-connecting.e0671675df74d6d99eb1dedb5a670e606f698efa6202b1ad4c8ae548db299cc6.vi.png)
+![Cả thiết bị hợp lệ và thiết bị độc hại đều có thể sử dụng cùng ID để gửi dữ liệu](../../../../../translated_images/vi/iot-device-and-hacked-device-connecting.e0671675df74d6d99eb1dedb5a670e606f698efa6202b1ad4c8ae548db299cc6.png)
 
 Cách giải quyết vấn đề này là chuyển đổi dữ liệu được gửi thành một định dạng bị mã hóa, sử dụng một giá trị nào đó để mã hóa dữ liệu mà chỉ thiết bị và đám mây biết. Quá trình này được gọi là *mã hóa*, và giá trị được sử dụng để mã hóa dữ liệu được gọi là *khóa mã hóa*.
 
-![Nếu sử dụng mã hóa, chỉ các tin nhắn được mã hóa mới được chấp nhận, các tin nhắn khác sẽ bị từ chối](../../../../../translated_images/iot-device-and-hacked-device-connecting-encryption.5941aff601fc978f979e46f2849b573564eeb4a4dc5b52f669f62745397492fb.vi.png)
+![Nếu sử dụng mã hóa, chỉ các tin nhắn được mã hóa mới được chấp nhận, các tin nhắn khác sẽ bị từ chối](../../../../../translated_images/vi/iot-device-and-hacked-device-connecting-encryption.5941aff601fc978f979e46f2849b573564eeb4a4dc5b52f669f62745397492fb.png)
 
 Dịch vụ đám mây sau đó có thể chuyển đổi dữ liệu trở lại định dạng có thể đọc được, sử dụng một quá trình gọi là *giải mã*, sử dụng cùng một khóa mã hóa hoặc một *khóa giải mã*. Nếu tin nhắn mã hóa không thể được giải mã bằng khóa, thiết bị đã bị hack và tin nhắn sẽ bị từ chối.
 
@@ -97,15 +97,15 @@ Mã hóa có hai loại - đối xứng và bất đối xứng.
 
 **Mã hóa đối xứng** sử dụng cùng một khóa để mã hóa và giải mã dữ liệu. Cả người gửi và người nhận đều cần biết cùng một khóa. Đây là loại ít an toàn nhất, vì khóa cần được chia sẻ bằng cách nào đó. Để người gửi gửi một tin nhắn mã hóa cho người nhận, người gửi trước tiên có thể phải gửi khóa cho người nhận.
 
-![Mã hóa đối xứng sử dụng cùng một khóa để mã hóa và giải mã tin nhắn](../../../../../translated_images/send-message-symmetric-key.a2e8ad0d495896ff.vi.png)
+![Mã hóa đối xứng sử dụng cùng một khóa để mã hóa và giải mã tin nhắn](../../../../../translated_images/vi/send-message-symmetric-key.a2e8ad0d495896ff.png)
 
 Nếu khóa bị đánh cắp trong quá trình truyền, hoặc người gửi hoặc người nhận bị hack và khóa bị lộ, mã hóa có thể bị phá.
 
-![Mã hóa đối xứng chỉ an toàn nếu hacker không lấy được khóa - nếu có, họ có thể chặn và giải mã tin nhắn](../../../../../translated_images/send-message-symmetric-key-hacker.e7cb53db1707adfb.vi.png)
+![Mã hóa đối xứng chỉ an toàn nếu hacker không lấy được khóa - nếu có, họ có thể chặn và giải mã tin nhắn](../../../../../translated_images/vi/send-message-symmetric-key-hacker.e7cb53db1707adfb.png)
 
 **Mã hóa bất đối xứng** sử dụng 2 khóa - một khóa mã hóa và một khóa giải mã, được gọi là cặp khóa công khai/riêng tư. Khóa công khai được sử dụng để mã hóa tin nhắn, nhưng không thể được sử dụng để giải mã, khóa riêng tư được sử dụng để giải mã tin nhắn nhưng không thể được sử dụng để mã hóa.
 
-![Mã hóa bất đối xứng sử dụng một khóa khác để mã hóa và giải mã. Khóa mã hóa được gửi cho bất kỳ người gửi tin nhắn nào để họ có thể mã hóa tin nhắn trước khi gửi cho người nhận sở hữu các khóa](../../../../../translated_images/send-message-asymmetric.7abe327c62615b8c.vi.png)
+![Mã hóa bất đối xứng sử dụng một khóa khác để mã hóa và giải mã. Khóa mã hóa được gửi cho bất kỳ người gửi tin nhắn nào để họ có thể mã hóa tin nhắn trước khi gửi cho người nhận sở hữu các khóa](../../../../../translated_images/vi/send-message-asymmetric.7abe327c62615b8c.png)
 
 Người nhận chia sẻ khóa công khai của họ, và người gửi sử dụng khóa này để mã hóa tin nhắn. Sau khi tin nhắn được gửi, người nhận giải mã nó bằng khóa riêng tư của họ. Mã hóa bất đối xứng an toàn hơn vì khóa riêng tư được giữ bí mật bởi người nhận và không bao giờ được chia sẻ. Bất kỳ ai cũng có thể có khóa công khai vì nó chỉ có thể được sử dụng để mã hóa tin nhắn.
 
@@ -165,7 +165,7 @@ Các chứng chỉ này có một số trường, bao gồm thông tin về ngư
 
 Khi sử dụng chứng chỉ X.509, cả người gửi và người nhận đều có khóa công khai và khóa riêng của riêng mình, cũng như cả hai đều có chứng chỉ X.509 chứa khóa công khai. Sau đó, họ trao đổi chứng chỉ X.509 bằng cách nào đó, sử dụng khóa công khai của nhau để mã hóa dữ liệu họ gửi và khóa riêng của mình để giải mã dữ liệu họ nhận.
 
-![Thay vì chia sẻ một khóa công khai, bạn có thể chia sẻ một chứng chỉ. Người sử dụng chứng chỉ có thể xác minh rằng nó đến từ bạn bằng cách kiểm tra với cơ quan cấp chứng chỉ đã ký nó.](../../../../../translated_images/send-message-certificate.9cc576ac1e46b76e.vi.png)
+![Thay vì chia sẻ một khóa công khai, bạn có thể chia sẻ một chứng chỉ. Người sử dụng chứng chỉ có thể xác minh rằng nó đến từ bạn bằng cách kiểm tra với cơ quan cấp chứng chỉ đã ký nó.](../../../../../translated_images/vi/send-message-certificate.9cc576ac1e46b76e.png)
 
 Một lợi thế lớn của việc sử dụng chứng chỉ X.509 là chúng có thể được chia sẻ giữa các thiết bị. Bạn có thể tạo một chứng chỉ, tải nó lên IoT Hub và sử dụng nó cho tất cả các thiết bị của mình. Mỗi thiết bị sau đó chỉ cần biết khóa riêng để giải mã các tin nhắn nhận được từ IoT Hub.
 

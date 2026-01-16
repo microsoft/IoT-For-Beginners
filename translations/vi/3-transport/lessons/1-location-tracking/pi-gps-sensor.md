@@ -27,13 +27,13 @@ Cảm biến Grove GPS có thể được kết nối với Raspberry Pi.
 
 Kết nối cảm biến GPS.
 
-![Một cảm biến Grove GPS](../../../../../translated_images/grove-gps-sensor.247943bf69b03f0d1820ef6ed10c587f9b650e8db55b936851c92412180bd3e2.vi.png)
+![Một cảm biến Grove GPS](../../../../../translated_images/vi/grove-gps-sensor.247943bf69b03f0d1820ef6ed10c587f9b650e8db55b936851c92412180bd3e2.png)
 
 1. Cắm một đầu của cáp Grove vào ổ cắm trên cảm biến GPS. Nó chỉ có thể cắm theo một chiều.
 
 1. Khi Raspberry Pi đã tắt nguồn, kết nối đầu còn lại của cáp Grove vào ổ cắm UART được đánh dấu **UART** trên Grove Base hat gắn vào Pi. Ổ cắm này nằm ở hàng giữa, phía gần khe cắm thẻ SD, đầu đối diện với các cổng USB và cổng ethernet.
 
-    ![Cảm biến Grove GPS được kết nối với ổ cắm UART](../../../../../translated_images/pi-gps-sensor.1f99ee2b2f6528915047ec78967bd362e0e4ee0ed594368a3837b9cf9cdaca64.vi.png)
+    ![Cảm biến Grove GPS được kết nối với ổ cắm UART](../../../../../translated_images/vi/pi-gps-sensor.1f99ee2b2f6528915047ec78967bd362e0e4ee0ed594368a3837b9cf9cdaca64.png)
 
 1. Đặt cảm biến GPS sao cho anten gắn kèm có thể nhìn thấy bầu trời - lý tưởng nhất là bên cạnh cửa sổ mở hoặc ngoài trời. Việc nhận tín hiệu rõ ràng hơn sẽ dễ dàng hơn khi không có vật cản nào che anten.
 

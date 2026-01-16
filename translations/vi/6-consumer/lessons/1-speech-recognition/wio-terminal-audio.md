@@ -19,7 +19,7 @@ Micro tích hợp ghi lại tín hiệu analog, sau đó được chuyển đổ
 
 ✅ Đọc thêm về DMA trên [trang truy cập bộ nhớ trực tiếp trên Wikipedia](https://wikipedia.org/wiki/Direct_memory_access).
 
-![Âm thanh từ micro đi qua ADC rồi đến DMAC. DMAC ghi vào một bộ đệm. Khi bộ đệm này đầy, nó được xử lý và DMAC ghi vào bộ đệm thứ hai](../../../../../translated_images/dmac-adc-buffers.4509aee49145c90bc2e1be472b8ed2ddfcb2b6a81ad3e559114aca55f5fff759.vi.png)
+![Âm thanh từ micro đi qua ADC rồi đến DMAC. DMAC ghi vào một bộ đệm. Khi bộ đệm này đầy, nó được xử lý và DMAC ghi vào bộ đệm thứ hai](../../../../../translated_images/vi/dmac-adc-buffers.4509aee49145c90bc2e1be472b8ed2ddfcb2b6a81ad3e559114aca55f5fff759.png)
 
 DMAC có thể ghi âm từ ADC ở các khoảng thời gian cố định, chẳng hạn như 16.000 lần mỗi giây cho âm thanh 16KHz. Nó có thể ghi dữ liệu đã ghi vào một bộ đệm bộ nhớ được phân bổ trước, và khi bộ đệm này đầy, nó sẽ thông báo cho mã của bạn xử lý. Việc sử dụng bộ nhớ này có thể làm chậm quá trình ghi âm, nhưng bạn có thể thiết lập nhiều bộ đệm. DMAC ghi vào bộ đệm 1, sau đó khi bộ đệm này đầy, nó thông báo cho mã của bạn xử lý bộ đệm 1, trong khi DMAC ghi vào bộ đệm 2. Khi bộ đệm 2 đầy, nó thông báo cho mã của bạn và quay lại ghi vào bộ đệm 1. Bằng cách này, miễn là bạn xử lý mỗi bộ đệm trong thời gian ngắn hơn thời gian cần để làm đầy một bộ đệm, bạn sẽ không mất dữ liệu.
 

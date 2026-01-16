@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Sensörler ve Aktüatörlerle Fiziksel Dünya ile Etkileşim
 
-![Bu dersin genel bir sketchnote özeti](../../../../../translated_images/lesson-3.cc3b7b4cd646de598698cce043c0393fd62ef42bac2eaf60e61272cd844250f4.tr.jpg)
+![Bu dersin genel bir sketchnote özeti](../../../../../translated_images/tr/lesson-3.cc3b7b4cd646de598698cce043c0393fd62ef42bac2eaf60e61272cd844250f4.jpg)
 
 > Sketchnote: [Nitya Narasimhan](https://github.com/nitya). Daha büyük bir versiyon için görsele tıklayın.
 
@@ -75,7 +75,7 @@ En temel sensörlerden bazıları analog sensörlerdir. Bu sensörler, IoT cihaz
 
 Bunun bir örneği bir potansiyometredir. Bu, iki pozisyon arasında döndürebileceğiniz bir kadrandır ve sensör dönüşü ölçer.
 
-![5 volt gönderilen ve 3.8 volt dönen orta noktaya ayarlanmış bir potansiyometre](../../../../../translated_images/potentiometer.35a348b9ce22f6ec.tr.png)
+![5 volt gönderilen ve 3.8 volt dönen orta noktaya ayarlanmış bir potansiyometre](../../../../../translated_images/tr/potentiometer.35a348b9ce22f6ec.png)
 
 IoT cihazı, potansiyometreye bir voltajda (örneğin 5 volt) bir elektrik sinyali gönderir. Potansiyometre ayarlandıkça, diğer taraftan çıkan voltaj değişir. Örneğin, bir amplifikatör üzerindeki bir ses düğmesi gibi, 0'dan [11'e](https://wikipedia.org/wiki/Up_to_eleven) kadar bir kadran olarak etiketlenmiş bir potansiyometreniz olduğunu hayal edin. Potansiyometre tamamen kapalı konumda (0) olduğunda, 0V (0 volt) çıkacaktır. Tamamen açık konumda (11) olduğunda, 5V (5 volt) çıkacaktır.
 
@@ -101,7 +101,7 @@ Dijital sensörler, analog sensörler gibi, çevrelerindeki dünyayı elektrik v
 
 En basit dijital sensör bir düğme veya anahtardır. Bu, iki durumu olan bir sensördür: açık veya kapalı.
 
-![Bir düğmeye 5 volt gönderilir. Basılmadığında 0 volt döner, basıldığında 5 volt döner](../../../../../translated_images/button.eadb560b77ac45e56f523d9d8876e40444f63b419e33eb820082d461fa79490b.tr.png)
+![Bir düğmeye 5 volt gönderilir. Basılmadığında 0 volt döner, basıldığında 5 volt döner](../../../../../translated_images/tr/button.eadb560b77ac45e56f523d9d8876e40444f63b419e33eb820082d461fa79490b.png)
 
 IoT cihazlarındaki GPIO pinleri gibi pinler, bu sinyali doğrudan 0 veya 1 olarak ölçebilir. Gönderilen voltaj dönen voltajla aynıysa, okunan değer 1'dir; aksi takdirde okunan değer 0'dır. Sinyali dönüştürmeye gerek yoktur, yalnızca 1 veya 0 olabilir.
 
@@ -112,7 +112,7 @@ IoT cihazlarındaki GPIO pinleri gibi pinler, bu sinyali doğrudan 0 veya 1 olar
 
 Daha gelişmiş dijital sensörler analog değerleri okur ve ardından yerleşik ADC'ler kullanarak bunları dijital sinyallere dönüştürür. Örneğin, dijital bir sıcaklık sensörü, analog bir sensörle aynı şekilde bir termokupl kullanır ve mevcut sıcaklıkta termokuplun direncinden kaynaklanan voltaj değişimini ölçer. Analog bir değer döndürmek ve cihazın veya bağlantı kartının dijital bir sinyale dönüştürmesine güvenmek yerine, sensöre yerleşik bir ADC değeri dönüştürür ve IoT cihazına 0 ve 1'lerden oluşan bir dizi olarak gönderir. Bu 0 ve 1'ler, bir düğme için dijital sinyalde olduğu gibi, 1 tam voltaj ve 0 0V olarak gönderilir.
 
-![Bir dijital sıcaklık sensörü, analog bir okumayı 0 volt için 0 ve 5 volt için 1 ile ikili verilere dönüştürerek IoT cihazına gönderiyor](../../../../../translated_images/temperature-as-digital.85004491b977bae1.tr.png)
+![Bir dijital sıcaklık sensörü, analog bir okumayı 0 volt için 0 ve 5 volt için 1 ile ikili verilere dönüştürerek IoT cihazına gönderiyor](../../../../../translated_images/tr/temperature-as-digital.85004491b977bae1.png)
 
 Dijital veri gönderimi, sensörlerin daha karmaşık hale gelmesine ve daha ayrıntılı veri, hatta güvenli sensörler için şifrelenmiş veri göndermesine olanak tanır. Bir örnek bir kameradır. Bu, bir görüntüyü yakalayan ve genellikle JPEG gibi sıkıştırılmış bir formatta IoT cihazı tarafından okunacak şekilde dijital veri olarak gönderen bir sensördür. Hatta görüntüleri yakalayıp ya kare kare tam görüntü ya da sıkıştırılmış bir video akışı göndererek video akışı yapabilir.
 
@@ -134,7 +134,7 @@ Bazı yaygın aktüatörler şunlardır:
 
 IoT cihazınıza bir aktüatör eklemek için aşağıdaki ilgili kılavuzu takip edin. Bu aktüatör, sensör tarafından kontrol edilerek bir IoT gece lambası oluşturacaktır. Işık seviyelerini ışık sensöründen toplayacak ve algılanan ışık seviyesi çok düşük olduğunda ışık yaymak için bir LED formunda bir aktüatör kullanacaktır.
 
-![Görev akış diyagramı, ışık seviyelerinin okunmasını ve kontrol edilmesini, ardından LED'in kontrol edilmesini gösteriyor](../../../../../translated_images/assignment-1-flow.7552a51acb1a5ec858dca6e855cdbb44206434006df8ba3799a25afcdab1665d.tr.png)
+![Görev akış diyagramı, ışık seviyelerinin okunmasını ve kontrol edilmesini, ardından LED'in kontrol edilmesini gösteriyor](../../../../../translated_images/tr/assignment-1-flow.7552a51acb1a5ec858dca6e855cdbb44206434006df8ba3799a25afcdab1665d.png)
 
 * [Arduino - Wio Terminal](wio-terminal-actuator.md)
 * [Tek kartlı bilgisayar - Raspberry Pi](pi-actuator.md)
@@ -149,7 +149,7 @@ Sensörler gibi, aktüatörler de analog veya dijital olabilir.
 Analog aktüatörler, bir analog sinyali alır ve bunu bir tür etkileşime dönüştürür, bu etkileşim sağlanan voltaja bağlı olarak değişir.
 
 Bir örnek, evinizdeki gibi kısılabilir bir ışıktır. Işığa sağlanan voltaj miktarı, ışığın ne kadar parlak olduğunu belirler.
-![Düşük voltajda kısık, yüksek voltajda parlak bir ışık](../../../../../translated_images/dimmable-light.9ceffeb195dec1a849da718b2d71b32c35171ff7dfea9c07bbf82646a67acf6b.tr.png)
+![Düşük voltajda kısık, yüksek voltajda parlak bir ışık](../../../../../translated_images/tr/dimmable-light.9ceffeb195dec1a849da718b2d71b32c35171ff7dfea9c07bbf82646a67acf6b.png)
 
 Sensörlerde olduğu gibi, gerçek IoT cihazları analog değil, dijital sinyallerle çalışır. Bu, bir analog sinyal göndermek için IoT cihazının bir dijitalden analoğa dönüştürücüye (DAC) ihtiyaç duyduğu anlamına gelir. Bu dönüştürücü ya doğrudan IoT cihazında bulunur ya da bir bağlantı kartında yer alır. Bu, IoT cihazından gelen 0 ve 1'leri aktüatörün kullanabileceği bir analog voltaja dönüştürür.
 
@@ -164,7 +164,7 @@ IoT cihazından gelen dijital sinyalleri analog bir sinyale dönüştürmenin bi
 
 Bir motoru 5V'luk bir güç kaynağıyla kontrol ettiğinizi hayal edin. Motorunuza kısa bir darbe göndererek voltajı iki saliselik (0.02s) bir süre için yüksek (5V) yaparsınız. Bu süre zarfında motorunuz bir dönüşün onda biri kadar, yani 36° dönebilir. Sinyal daha sonra iki saliselik (0.02s) bir süre için duraklar ve düşük bir sinyal (0V) gönderir. Açık ve kapalı her döngü 0.04s sürer. Döngü bu şekilde tekrar eder.
 
-![150 RPM'de bir motorun darbe genişlik modülasyonu ile dönüşü](../../../../../translated_images/pwm-motor-150rpm.83347ac04ca38482.tr.png)
+![150 RPM'de bir motorun darbe genişlik modülasyonu ile dönüşü](../../../../../translated_images/tr/pwm-motor-150rpm.83347ac04ca38482.png)
 
 Bu, bir saniyede motoru döndüren 0.02s'lik 25 adet 5V darbesi ve ardından motoru döndürmeyen 0.02s'lik 0V duraklaması olduğu anlamına gelir. Her darbe motoru bir dönüşün onda biri kadar döndürür, bu da motorun saniyede 2.5 dönüş yapması anlamına gelir. Dijital bir sinyal kullanarak motoru saniyede 2.5 dönüş veya 150 [dakikada devir](https://wikipedia.org/wiki/Revolutions_per_minute) (RPM) hızında döndürmüş olursunuz.
 
@@ -175,7 +175,7 @@ Bu, bir saniyede motoru döndüren 0.02s'lik 25 adet 5V darbesi ve ardından mot
 
 > 🎓 Bir PWM sinyali yarı zaman açık, yarı zaman kapalı olduğunda buna [50% görev döngüsü](https://wikipedia.org/wiki/Duty_cycle) denir. Görev döngüleri, sinyalin açık durumda olduğu sürenin kapalı duruma göre yüzdesi olarak ölçülür.
 
-![75 RPM'de bir motorun darbe genişlik modülasyonu ile dönüşü](../../../../../translated_images/pwm-motor-75rpm.a5e4c939934b6e14.tr.png)
+![75 RPM'de bir motorun darbe genişlik modülasyonu ile dönüşü](../../../../../translated_images/tr/pwm-motor-75rpm.a5e4c939934b6e14.png)
 
 Darbelerin boyutunu değiştirerek motor hızını değiştirebilirsiniz. Örneğin, aynı motorla 0.04s'lik aynı döngü süresini koruyabilir, açık darbe süresini yarıya indirerek 0.01s yapabilir ve kapalı darbe süresini 0.03s'ye çıkarabilirsiniz. Saniyede aynı sayıda darbe (25) olmasına rağmen, her açık darbe yarı uzunluktadır. Yarı uzunlukta bir darbe motoru yalnızca bir dönüşün yirmide biri kadar döndürür ve saniyede 25 darbe ile 1.25 dönüş veya 75 RPM tamamlar. Dijital bir sinyalin darbe hızını değiştirerek analog bir motorun hızını yarıya indirmiş olursunuz.
 
@@ -196,7 +196,7 @@ Dijital aktüatörler, dijital sensörler gibi, ya yüksek veya düşük voltajl
 
 Basit bir dijital aktüatör bir LED'dir. Bir cihaz 1 dijital sinyali gönderdiğinde, LED'i aydınlatan yüksek bir voltaj gönderilir. 0 dijital sinyali gönderildiğinde, voltaj 0V'a düşer ve LED söner.
 
-![0 voltta kapalı ve 5V'da açık bir LED](../../../../../translated_images/led.ec6d94f66676a174ad06d9fa9ea49c2ee89beb18b312d5c6476467c66375b07f.tr.png)
+![0 voltta kapalı ve 5V'da açık bir LED](../../../../../translated_images/tr/led.ec6d94f66676a174ad06d9fa9ea49c2ee89beb18b312d5c6476467c66375b07f.png)
 
 ✅ Başka hangi basit 2 durumlu aktüatörleri düşünebilirsiniz? Bir örnek, bir kapı sürgüsünü hareket ettirerek bir kapıyı kilitleyip açmak gibi şeyler yapabilen bir elektromıknatıs olan solenoiddir.
 

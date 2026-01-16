@@ -27,17 +27,17 @@ Cảm biến độ ẩm đất Grove có thể được kết nối với cổng
 
 Kết nối cảm biến độ ẩm đất.
 
-![Một cảm biến độ ẩm đất Grove](../../../../../translated_images/grove-capacitive-soil-moisture-sensor.e7f0776cce30e78be5cc5a07839385fd6718857f31b5bf5ad3d0c73c83b2f0ef.vi.png)
+![Một cảm biến độ ẩm đất Grove](../../../../../translated_images/vi/grove-capacitive-soil-moisture-sensor.e7f0776cce30e78be5cc5a07839385fd6718857f31b5bf5ad3d0c73c83b2f0ef.png)
 
 1. Cắm một đầu của cáp Grove vào ổ cắm trên cảm biến độ ẩm đất. Nó chỉ có thể cắm theo một chiều.
 
 1. Khi Wio Terminal chưa được kết nối với máy tính hoặc nguồn điện khác, kết nối đầu còn lại của cáp Grove vào ổ cắm Grove bên phải trên Wio Terminal khi bạn nhìn vào màn hình. Đây là ổ cắm xa nhất so với nút nguồn.
 
-![Cảm biến độ ẩm đất Grove được kết nối với ổ cắm bên phải](../../../../../translated_images/wio-soil-moisture-sensor.46919b61c3f6cb74.vi.png)
+![Cảm biến độ ẩm đất Grove được kết nối với ổ cắm bên phải](../../../../../translated_images/vi/wio-soil-moisture-sensor.46919b61c3f6cb74.png)
 
 1. Cắm cảm biến độ ẩm đất vào đất. Nó có một 'đường giới hạn cao nhất' - một đường trắng ngang qua cảm biến. Cắm cảm biến đến đường này nhưng không vượt qua nó.
 
-![Cảm biến độ ẩm đất Grove trong đất](../../../../../translated_images/soil-moisture-sensor-in-soil.bfad91002bda5e96.vi.png)
+![Cảm biến độ ẩm đất Grove trong đất](../../../../../translated_images/vi/soil-moisture-sensor-in-soil.bfad91002bda5e96.png)
 
 1. Bây giờ bạn có thể kết nối Wio Terminal với máy tính của mình.
 

@@ -35,7 +35,7 @@ Grove LED, bir dizi LED içeren bir modül olarak gelir ve size renk seçme imka
 
 LED'i bağlayın.
 
-![Bir Grove LED](../../../../../translated_images/grove-led.6c853be93f473cf2c439cfc74bb1064732b22251a83cedf66e62f783f9cc1a79.tr.png)
+![Bir Grove LED](../../../../../translated_images/tr/grove-led.6c853be93f473cf2c439cfc74bb1064732b22251a83cedf66e62f783f9cc1a79.png)
 
 1. En sevdiğiniz LED'i seçin ve ayaklarını LED modülündeki iki deliğe yerleştirin.
 
@@ -49,7 +49,7 @@ LED'i bağlayın.
 
 1. Raspberry Pi kapalıyken, Grove kablosunun diğer ucunu Pi'ye bağlı Grove Base hatındaki **D5** işaretiyle belirtilen dijital sokete bağlayın. Bu soket, GPIO pinlerinin yanındaki soket sırasının soldan ikinci soketidir.
 
-![Grove LED'in D5 soketine bağlanması](../../../../../translated_images/pi-led.97f1d474981dc35d1c7996c7b17de355d3d0a6bc9606d79fa5f89df933415122.tr.png)
+![Grove LED'in D5 soketine bağlanması](../../../../../translated_images/tr/pi-led.97f1d474981dc35d1c7996c7b17de355d3d0a6bc9606d79fa5f89df933415122.png)
 
 ## Gece lambasını programlayın
 

@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Tương tác với thế giới vật lý bằng cảm biến và bộ truyền động
 
-![Tổng quan bài học dưới dạng sketchnote](../../../../../translated_images/lesson-3.cc3b7b4cd646de598698cce043c0393fd62ef42bac2eaf60e61272cd844250f4.vi.jpg)
+![Tổng quan bài học dưới dạng sketchnote](../../../../../translated_images/vi/lesson-3.cc3b7b4cd646de598698cce043c0393fd62ef42bac2eaf60e61272cd844250f4.jpg)
 
 > Sketchnote bởi [Nitya Narasimhan](https://github.com/nitya). Nhấp vào hình ảnh để xem phiên bản lớn hơn.
 
@@ -75,7 +75,7 @@ Một số cảm biến cơ bản nhất là cảm biến analog. Các cảm bi�
 
 Một ví dụ là chiết áp. Đây là một núm xoay mà bạn có thể điều chỉnh giữa hai vị trí và cảm biến đo lường sự xoay này.
 
-![Một chiết áp được đặt ở điểm giữa, nhận 5 volt và trả về 3.8 volt](../../../../../translated_images/potentiometer.35a348b9ce22f6ec.vi.png)
+![Một chiết áp được đặt ở điểm giữa, nhận 5 volt và trả về 3.8 volt](../../../../../translated_images/vi/potentiometer.35a348b9ce22f6ec.png)
 
 Thiết bị IoT sẽ gửi một tín hiệu điện đến chiết áp với một điện áp, chẳng hạn 5 volt (5V). Khi chiết áp được điều chỉnh, nó thay đổi điện áp đi ra từ phía bên kia. Hãy tưởng tượng bạn có một chiết áp được gắn nhãn như một núm xoay từ 0 đến [11](https://wikipedia.org/wiki/Up_to_eleven), chẳng hạn như núm âm lượng trên một bộ khuếch đại. Khi chiết áp ở vị trí tắt hoàn toàn (0), thì 0V (0 volt) sẽ đi ra. Khi nó ở vị trí bật hoàn toàn (11), thì 5V (5 volt) sẽ đi ra.
 
@@ -101,7 +101,7 @@ Cảm biến kỹ thuật số, giống như cảm biến analog, phát hiện t
 
 Cảm biến kỹ thuật số đơn giản nhất là nút bấm hoặc công tắc. Đây là cảm biến với hai trạng thái, bật hoặc tắt.
 
-![Một nút bấm nhận 5 volt. Khi không được nhấn, nó trả về 0 volt, khi được nhấn, nó trả về 5 volt](../../../../../translated_images/button.eadb560b77ac45e56f523d9d8876e40444f63b419e33eb820082d461fa79490b.vi.png)
+![Một nút bấm nhận 5 volt. Khi không được nhấn, nó trả về 0 volt, khi được nhấn, nó trả về 5 volt](../../../../../translated_images/vi/button.eadb560b77ac45e56f523d9d8876e40444f63b419e33eb820082d461fa79490b.png)
 
 Các chân trên thiết bị IoT như chân GPIO có thể đo tín hiệu này trực tiếp dưới dạng 0 hoặc 1. Nếu điện áp gửi đi giống với điện áp trả về, giá trị đọc là 1, nếu không giá trị đọc là 0. Không cần phải chuyển đổi tín hiệu, nó chỉ có thể là 1 hoặc 0.
 
@@ -112,7 +112,7 @@ Các chân trên thiết bị IoT như chân GPIO có thể đo tín hiệu này
 
 Các cảm biến kỹ thuật số tiên tiến hơn đọc các giá trị analog, sau đó chuyển đổi chúng bằng ADC tích hợp thành tín hiệu kỹ thuật số. Ví dụ, một cảm biến nhiệt độ kỹ thuật số vẫn sử dụng cặp nhiệt điện giống như cảm biến analog, và vẫn đo sự thay đổi điện áp gây ra bởi điện trở của cặp nhiệt điện ở nhiệt độ hiện tại. Thay vì trả về giá trị analog và dựa vào thiết bị hoặc bảng kết nối để chuyển đổi thành tín hiệu kỹ thuật số, một ADC tích hợp trong cảm biến sẽ chuyển đổi giá trị và gửi nó dưới dạng một chuỗi 0 và 1 đến thiết bị IoT. Các 0 và 1 này được gửi theo cách giống như tín hiệu kỹ thuật số cho nút bấm với 1 là điện áp đầy đủ và 0 là 0V.
 
-![Một cảm biến nhiệt độ kỹ thuật số chuyển đổi một giá trị analog thành dữ liệu nhị phân với 0 là 0 volt và 1 là 5 volt trước khi gửi nó đến thiết bị IoT](../../../../../translated_images/temperature-as-digital.85004491b977bae1.vi.png)
+![Một cảm biến nhiệt độ kỹ thuật số chuyển đổi một giá trị analog thành dữ liệu nhị phân với 0 là 0 volt và 1 là 5 volt trước khi gửi nó đến thiết bị IoT](../../../../../translated_images/vi/temperature-as-digital.85004491b977bae1.png)
 
 Việc gửi dữ liệu kỹ thuật số cho phép các cảm biến trở nên phức tạp hơn và gửi dữ liệu chi tiết hơn, thậm chí là dữ liệu được mã hóa cho các cảm biến bảo mật. Một ví dụ là camera. Đây là một cảm biến chụp hình ảnh và gửi nó dưới dạng dữ liệu kỹ thuật số chứa hình ảnh đó, thường ở định dạng nén như JPEG, để được thiết bị IoT đọc. Nó thậm chí có thể truyền video bằng cách chụp hình ảnh và gửi hoặc toàn bộ khung hình từng khung hoặc một luồng video nén.
 
@@ -134,7 +134,7 @@ Một số bộ truyền động phổ biến bao gồm:
 
 Làm theo hướng dẫn phù hợp dưới đây để thêm bộ truyền động vào thiết bị IoT của bạn, được điều khiển bởi cảm biến, để tạo ra một chiếc đèn ngủ IoT. Nó sẽ thu thập mức ánh sáng từ cảm biến ánh sáng và sử dụng bộ truyền động dưới dạng đèn LED để phát sáng khi mức ánh sáng được phát hiện quá thấp.
 
-![Biểu đồ luồng của bài tập cho thấy mức ánh sáng được đọc và kiểm tra, và đèn LED được điều khiển](../../../../../translated_images/assignment-1-flow.7552a51acb1a5ec858dca6e855cdbb44206434006df8ba3799a25afcdab1665d.vi.png)
+![Biểu đồ luồng của bài tập cho thấy mức ánh sáng được đọc và kiểm tra, và đèn LED được điều khiển](../../../../../translated_images/vi/assignment-1-flow.7552a51acb1a5ec858dca6e855cdbb44206434006df8ba3799a25afcdab1665d.png)
 
 * [Arduino - Wio Terminal](wio-terminal-actuator.md)
 * [Máy tính đơn bảng - Raspberry Pi](pi-actuator.md)
@@ -149,7 +149,7 @@ Giống như cảm biến, bộ truyền động có thể là analog hoặc k�
 Bộ truyền động analog nhận tín hiệu analog và chuyển đổi nó thành một loại tương tác nào đó, nơi tương tác thay đổi dựa trên điện áp được cung cấp.
 
 Một ví dụ là đèn có thể điều chỉnh độ sáng, chẳng hạn như những chiếc đèn bạn có thể có trong nhà. Lượng điện áp được cung cấp cho đèn quyết định độ sáng của nó.
-![Một bóng đèn mờ ở điện áp thấp và sáng hơn ở điện áp cao](../../../../../translated_images/dimmable-light.9ceffeb195dec1a849da718b2d71b32c35171ff7dfea9c07bbf82646a67acf6b.vi.png)
+![Một bóng đèn mờ ở điện áp thấp và sáng hơn ở điện áp cao](../../../../../translated_images/vi/dimmable-light.9ceffeb195dec1a849da718b2d71b32c35171ff7dfea9c07bbf82646a67acf6b.png)
 
 Giống như với các cảm biến, thiết bị IoT thực tế hoạt động trên tín hiệu số, không phải tín hiệu analog. Điều này có nghĩa là để gửi một tín hiệu analog, thiết bị IoT cần một bộ chuyển đổi số sang analog (DAC), hoặc trực tiếp trên thiết bị IoT, hoặc trên một bảng kết nối. Bộ chuyển đổi này sẽ chuyển đổi các số 0 và 1 từ thiết bị IoT thành điện áp analog mà bộ truyền động có thể sử dụng.
 
@@ -164,7 +164,7 @@ Ví dụ, bạn có thể sử dụng PWM để điều khiển tốc độ củ
 
 Hãy tưởng tượng bạn đang điều khiển một động cơ với nguồn cung cấp 5V. Bạn gửi một xung ngắn đến động cơ của mình, chuyển điện áp lên cao (5V) trong hai phần trăm giây (0.02s). Trong thời gian đó, động cơ của bạn có thể quay một phần mười vòng, hoặc 36°. Sau đó tín hiệu tạm dừng trong hai phần trăm giây (0.02s), gửi tín hiệu thấp (0V). Mỗi chu kỳ bật rồi tắt kéo dài 0.04s. Chu kỳ sau đó lặp lại.
 
-![Điều chế độ rộng xung quay động cơ ở tốc độ 150 RPM](../../../../../translated_images/pwm-motor-150rpm.83347ac04ca38482.vi.png)
+![Điều chế độ rộng xung quay động cơ ở tốc độ 150 RPM](../../../../../translated_images/vi/pwm-motor-150rpm.83347ac04ca38482.png)
 
 Điều này có nghĩa là trong một giây bạn có 25 xung 5V kéo dài 0.02s để quay động cơ, mỗi xung được theo sau bởi 0.02s tạm dừng ở 0V không quay động cơ. Mỗi xung quay động cơ một phần mười vòng, nghĩa là động cơ hoàn thành 2.5 vòng mỗi giây. Bạn đã sử dụng tín hiệu số để quay động cơ ở tốc độ 2.5 vòng mỗi giây, hoặc 150 [vòng mỗi phút](https://wikipedia.org/wiki/Revolutions_per_minute) (một đơn vị đo tốc độ quay không chuẩn).
 
@@ -175,7 +175,7 @@ Hãy tưởng tượng bạn đang điều khiển một động cơ với ngu�
 
 > 🎓 Khi tín hiệu PWM bật trong một nửa thời gian và tắt trong một nửa thời gian, nó được gọi là [chu kỳ làm việc 50%](https://wikipedia.org/wiki/Duty_cycle). Chu kỳ làm việc được đo bằng phần trăm thời gian tín hiệu ở trạng thái bật so với trạng thái tắt.
 
-![Điều chế độ rộng xung quay động cơ ở tốc độ 75 RPM](../../../../../translated_images/pwm-motor-75rpm.a5e4c939934b6e14.vi.png)
+![Điều chế độ rộng xung quay động cơ ở tốc độ 75 RPM](../../../../../translated_images/vi/pwm-motor-75rpm.a5e4c939934b6e14.png)
 
 Bạn có thể thay đổi tốc độ động cơ bằng cách thay đổi kích thước của các xung. Ví dụ, với cùng một động cơ, bạn có thể giữ thời gian chu kỳ là 0.04s, với xung bật giảm một nửa xuống còn 0.01s, và xung tắt tăng lên 0.03s. Bạn có cùng số lượng xung mỗi giây (25), nhưng mỗi xung bật chỉ bằng một nửa chiều dài. Một xung ngắn chỉ quay động cơ một phần hai mươi vòng, và với 25 xung mỗi giây sẽ hoàn thành 1.25 vòng mỗi giây hoặc 75rpm. Bằng cách thay đổi tốc độ xung của tín hiệu số, bạn đã giảm một nửa tốc độ của động cơ analog.
 
@@ -196,7 +196,7 @@ Bộ truyền động số, giống như cảm biến số, hoặc có hai trạ
 
 Một bộ truyền động số đơn giản là đèn LED. Khi một thiết bị gửi tín hiệu số là 1, một điện áp cao được gửi để làm sáng đèn LED. Khi tín hiệu số là 0 được gửi, điện áp giảm xuống 0V và đèn LED tắt.
 
-![Một đèn LED tắt ở 0 volt và bật ở 5V](../../../../../translated_images/led.ec6d94f66676a174ad06d9fa9ea49c2ee89beb18b312d5c6476467c66375b07f.vi.png)
+![Một đèn LED tắt ở 0 volt và bật ở 5V](../../../../../translated_images/vi/led.ec6d94f66676a174ad06d9fa9ea49c2ee89beb18b312d5c6476467c66375b07f.png)
 
 ✅ Bạn có thể nghĩ đến những bộ truyền động hai trạng thái đơn giản nào khác? Một ví dụ là solenoid, một nam châm điện có thể được kích hoạt để thực hiện các việc như di chuyển chốt cửa để khóa/mở khóa cửa.
 

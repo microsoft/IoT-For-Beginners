@@ -47,11 +47,11 @@ CO_OP_TRANSLATOR_METADATA:
 
     1. Pin 5పై ఈదరగొలుపు సెంసార్ సృష్టించడానికి **Add** బటన్‌ను ఎంచుకోండి
 
-    ![The humidity sensor settings](../../../../../translated_images/counterfit-create-humidity-sensor.2750e27b6f30e09c.te.png)
+    ![The humidity sensor settings](../../../../../translated_images/te/counterfit-create-humidity-sensor.2750e27b6f30e09c.png)
 
     ఈదరగొలుపు సెంసార్ సృష్టించబడుతుంది మరియు సెంసార్ లిస్ట్‌లో కనిపిస్తుంది.
 
-    ![The humidity sensor created](../../../../../translated_images/counterfit-humidity-sensor.7b12f7f339e430cb.te.png)
+    ![The humidity sensor created](../../../../../translated_images/te/counterfit-humidity-sensor.7b12f7f339e430cb.png)
 
 1. ఒక ఉష్ణోగ్రత సెంసార్ సృష్టించండి:
 
@@ -63,11 +63,11 @@ CO_OP_TRANSLATOR_METADATA:
 
     1. Pin 6పై ఉష్ణోగ్రత సెంసార్ సృష్టించడానికి **Add** బటన్‌ను ఎంచుకోండి
 
-    ![The temperature sensor settings](../../../../../translated_images/counterfit-create-temperature-sensor.199350ed34f7343d.te.png)
+    ![The temperature sensor settings](../../../../../translated_images/te/counterfit-create-temperature-sensor.199350ed34f7343d.png)
 
     ఉష్ణోగ్రత సెంసార్ సృష్టించబడుతుంది మరియు సెంసార్ లిస్ట్‌లో కనిపిస్తుంది.
 
-    ![The temperature sensor created](../../../../../translated_images/counterfit-temperature-sensor.f0560236c96a9016.te.png)
+    ![The temperature sensor created](../../../../../translated_images/te/counterfit-temperature-sensor.f0560236c96a9016.png)
 
 ## ఉష్ణోగ్రత సెంసార్ యాప్ ప్రోగ్రామ్ చేయండి
 

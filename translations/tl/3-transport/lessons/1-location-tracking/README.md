@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Pagsubaybay sa Lokasyon
 
-![Isang sketchnote overview ng araling ito](../../../../../translated_images/lesson-11.9fddbac4b664c6d50ab7ac9bb32f1fc3f945f03760e72f7f43938073762fb017.tl.jpg)
+![Isang sketchnote overview ng araling ito](../../../../../translated_images/tl/lesson-11.9fddbac4b664c6d50ab7ac9bb32f1fc3f945f03760e72f7f43938073762fb017.jpg)
 
 > Sketchnote ni [Nitya Narasimhan](https://github.com/nitya). I-click ang imahe para sa mas malaking bersyon.
 
@@ -72,13 +72,13 @@ Ang mundo ay isang globo - isang three-dimensional na bilog. Dahil dito, ang mga
 
 > 💁 Walang tiyak na nakakaalam ng orihinal na dahilan kung bakit ang mga bilog ay hinati sa 360 degrees. Ang [degree (angle) page sa Wikipedia](https://wikipedia.org/wiki/Degree_(angle)) ay sumasaklaw sa ilan sa mga posibleng dahilan.
 
-![Mga linya ng latitude mula 90° sa North Pole, 45° sa pagitan ng North Pole at equator, 0° sa equator, -45° sa pagitan ng equator at South Pole, at -90° sa South Pole](../../../../../translated_images/latitude-lines.11d8d91dfb2014a57437272d7db7fd6607243098e8685f06e0c5f1ec984cb7eb.tl.png)
+![Mga linya ng latitude mula 90° sa North Pole, 45° sa pagitan ng North Pole at equator, 0° sa equator, -45° sa pagitan ng equator at South Pole, at -90° sa South Pole](../../../../../translated_images/tl/latitude-lines.11d8d91dfb2014a57437272d7db7fd6607243098e8685f06e0c5f1ec984cb7eb.png)
 
 Ang latitude ay sinusukat gamit ang mga linya na umiikot sa mundo at tumatakbo nang parallel sa equator, na hinahati ang Northern at Southern Hemispheres sa 90° bawat isa. Ang equator ay nasa 0°, ang North Pole ay 90°, na kilala rin bilang 90° North, at ang South Pole ay nasa -90°, o 90° South.
 
 Ang longitude ay sinusukat bilang bilang ng mga degree na sinusukat silangan at kanluran. Ang 0° origin ng longitude ay tinatawag na *Prime Meridian*, at itinakda noong 1884 bilang isang linya mula sa North hanggang South Pole na dumadaan sa [British Royal Observatory sa Greenwich, England](https://wikipedia.org/wiki/Royal_Observatory,_Greenwich).
 
-![Mga linya ng longitude mula -180° sa kanluran ng Prime Meridian, hanggang 0° sa Prime Meridian, hanggang 180° sa silangan ng Prime Meridian](../../../../../translated_images/longitude-meridians.ab4ef1c91c064586b0185a3c8d39e585903696c6a7d28c098a93a629cddb5d20.tl.png)
+![Mga linya ng longitude mula -180° sa kanluran ng Prime Meridian, hanggang 0° sa Prime Meridian, hanggang 180° sa silangan ng Prime Meridian](../../../../../translated_images/tl/longitude-meridians.ab4ef1c91c064586b0185a3c8d39e585903696c6a7d28c098a93a629cddb5d20.png)
 
 > 🎓 Ang meridian ay isang imahinaryong tuwid na linya na dumadaan mula sa North Pole hanggang South Pole, na bumubuo ng kalahating bilog.
 
@@ -109,7 +109,7 @@ Ang mga coordinates para sa isang punto ay palaging ibinibigay bilang `latitude,
 * Latitude na 47.6423109 (47.6423109 degrees hilaga ng equator)
 * Longitude na -122.1390293 (122.1390293 degrees kanluran ng Prime Meridian).
 
-![Ang Microsoft Campus sa 47.6423109,-122.117198](../../../../../translated_images/microsoft-gps-location-world.a321d481b010f6adfcca139b2ba0adc53b79f58a540495b8e2ce7f779ea64bfe.tl.png)
+![Ang Microsoft Campus sa 47.6423109,-122.117198](../../../../../translated_images/tl/microsoft-gps-location-world.a321d481b010f6adfcca139b2ba0adc53b79f58a540495b8e2ce7f779ea64bfe.png)
 
 ## Global Positioning Systems (GPS)
 
@@ -121,7 +121,7 @@ Ang mga GPS system ay gumagana sa pamamagitan ng pagkakaroon ng ilang satellite 
 
 > 💁 Ang mga GPS sensor ay nangangailangan ng mga antenna upang makita ang mga radio waves. Ang mga antenna na naka-embed sa mga trak at sasakyan na may on-board GPS ay nakaposisyon upang makakuha ng magandang signal, karaniwang sa windshield o bubong. Kung gumagamit ka ng hiwalay na GPS system, tulad ng smartphone o IoT device, kailangan mong tiyakin na ang antenna na naka-embed sa GPS system o telepono ay may malinaw na tanawin ng kalangitan, tulad ng pag-mount sa iyong windshield.
 
-![Sa pamamagitan ng pag-alam sa distansya mula sa sensor patungo sa maraming satellite, maaaring kalkulahin ang lokasyon](../../../../../translated_images/gps-satellites.04acf1148fe25fbf1586bc2e8ba698e8d79b79a50c36824b38417dd13372b90f.tl.png)
+![Sa pamamagitan ng pag-alam sa distansya mula sa sensor patungo sa maraming satellite, maaaring kalkulahin ang lokasyon](../../../../../translated_images/tl/gps-satellites.04acf1148fe25fbf1586bc2e8ba698e8d79b79a50c36824b38417dd13372b90f.png)
 
 Ang mga GPS satellite ay umiikot sa mundo, hindi sa isang nakapirming punto sa itaas ng sensor, kaya ang data ng lokasyon ay kinabibilangan ng altitude sa itaas ng sea level pati na rin ang latitude at longitude.
 

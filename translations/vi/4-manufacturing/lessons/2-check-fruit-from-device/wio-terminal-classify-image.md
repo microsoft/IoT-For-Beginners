@@ -217,7 +217,7 @@ Các chứng chỉ này chứa khóa công khai và không cần được bảo 
 
     Bạn sẽ có thể xem hình ảnh đã chụp và các giá trị này trong tab **Predictions** của Custom Vision.
 
-    ![Một quả chuối trong Custom Vision được dự đoán chín 56.8% và chưa chín 43.1%](../../../../../translated_images/custom-vision-banana-prediction.30cdff4e1d72db5d9a0be0193790a47c2b387da034e12dc1314dd57ca2131b59.vi.png)
+    ![Một quả chuối trong Custom Vision được dự đoán chín 56.8% và chưa chín 43.1%](../../../../../translated_images/vi/custom-vision-banana-prediction.30cdff4e1d72db5d9a0be0193790a47c2b387da034e12dc1314dd57ca2131b59.png)
 
 > 💁 Bạn có thể tìm thấy mã này trong thư mục [code-classify/wio-terminal](../../../../../4-manufacturing/lessons/2-check-fruit-from-device/code-classify/wio-terminal).
 

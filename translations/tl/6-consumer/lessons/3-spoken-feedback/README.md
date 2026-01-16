@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Mag-set ng Timer at Magbigay ng Pasalitang Feedback
 
-![Isang sketchnote na buod ng araling ito](../../../../../translated_images/lesson-23.f38483e1d4df4828990d3f02d60e46c978b075d384ae7cb4f7bab738e107c850.tl.jpg)
+![Isang sketchnote na buod ng araling ito](../../../../../translated_images/tl/lesson-23.f38483e1d4df4828990d3f02d60e46c978b075d384ae7cb4f7bab738e107c850.jpg)
 
 > Sketchnote ni [Nitya Narasimhan](https://github.com/nitya). I-click ang imahe para sa mas malaking bersyon.
 
@@ -37,7 +37,7 @@ Sa araling ito, tatalakayin natin ang:
 
 Ang Teksto sa Boses, tulad ng ipinahihiwatig ng pangalan, ay ang proseso ng pag-convert ng teksto sa audio na naglalaman ng mga salitang binibigkas. Ang pangunahing prinsipyo ay hatiin ang mga salita sa teksto sa kanilang mga tunog (kilala bilang phonemes), at pagsamahin ang audio para sa mga tunog na iyon, gamit ang pre-recorded na audio o audio na ginawa ng mga AI model.
 
-![Ang tatlong yugto ng karaniwang mga sistema ng Teksto sa Boses](../../../../../translated_images/tts-overview.193843cf3f5ee09f.tl.png)
+![Ang tatlong yugto ng karaniwang mga sistema ng Teksto sa Boses](../../../../../translated_images/tl/tts-overview.193843cf3f5ee09f.png)
 
 Karaniwang may 3 yugto ang mga sistema ng Teksto sa Boses:
 

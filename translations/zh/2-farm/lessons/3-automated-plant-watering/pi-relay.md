@@ -27,13 +27,13 @@ Grove 继电器可以连接到树莓派。
 
 连接继电器。
 
-![一个 Grove 继电器](../../../../../translated_images/grove-relay.d426958ca210fbd0fb7983d7edc069d46c73a8b0a099d94797bd756f7b6bb6be.zh.png)
+![一个 Grove 继电器](../../../../../translated_images/zh/grove-relay.d426958ca210fbd0fb7983d7edc069d46c73a8b0a099d94797bd756f7b6bb6be.png)
 
 1. 将 Grove 电缆的一端插入继电器上的插座。它只能以一种方式插入。
 
 1. 在树莓派断电的情况下，将 Grove 电缆的另一端连接到 Grove Base Hat 上标记为 **D5** 的数字插座。这个插座位于 GPIO 引脚旁边的一排插座中，从左数第二个。保持土壤湿度传感器连接到 **A0** 插座。
 
-![Grove 继电器连接到 D5 插座，土壤湿度传感器连接到 A0 插座](../../../../../translated_images/pi-relay-and-soil-moisture-sensor.02f3198975b8c53e69ec716cd2719ce117700bd1fc933eaf93476c103c57939b.zh.png)
+![Grove 继电器连接到 D5 插座，土壤湿度传感器连接到 A0 插座](../../../../../translated_images/zh/pi-relay-and-soil-moisture-sensor.02f3198975b8c53e69ec716cd2719ce117700bd1fc933eaf93476c103c57939b.png)
 
 1. 如果土壤湿度传感器还没有插入土壤，请将其插入土壤中（如果您在上一节课程中已经插入，则无需重复操作）。
 

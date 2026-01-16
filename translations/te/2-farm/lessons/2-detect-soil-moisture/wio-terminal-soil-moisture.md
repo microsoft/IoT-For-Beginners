@@ -27,17 +27,17 @@ Grove నేల తేమ సెన్సార్‌ను Wio టెర్మ�
 
 నేల తేమ సెన్సార్‌ను కనెక్ట్ చేయండి.
 
-![A grove soil moisture sensor](../../../../../translated_images/grove-capacitive-soil-moisture-sensor.e7f0776cce30e78b.te.png)
+![A grove soil moisture sensor](../../../../../translated_images/te/grove-capacitive-soil-moisture-sensor.e7f0776cce30e78b.png)
 
 1. Grove కేబుల్ యొక్క ఒక చివరను నేల తేమ సెన్సార్‌లోని సాకెట్‌లో ఇన్సర్ట్ చేయండి. ఇది ఒక్క దిశలో మాత్రమే ప్రవేశిస్తుంది.
 
 1. Wio టెర్మినల్ ను మీ కంప్యూటర్ లేదా ఇతర పవర్ సరఫరా నుండి డిసి కనెక్ట్ చేసిన తర్వాత, Grove కేబుల్ యొక్క మర друга చివరను Wio టెర్మినల్ స్క్రీన్‌ను చూస్తున్నప్పుడు ఆ వలపు వైపు Grove సాకెట్‌కు కనెక్ట్ చేయండి. ఇది పవర్ బటన్ నుండి అత్యంత దూరమైన సాకెట్.
 
-![The grove soil moisture sensor connected to the right hand socket](../../../../../translated_images/wio-soil-moisture-sensor.46919b61c3f6cb74.te.png)
+![The grove soil moisture sensor connected to the right hand socket](../../../../../translated_images/te/wio-soil-moisture-sensor.46919b61c3f6cb74.png)
 
 1. నేల తేమ సెన్సార్‌ను నేలలో ఇన్సర్ట్ చేయండి. దీనికి 'అత్యధిక స్థానం లైన్' ఉంది - సెన్సార్ మీద తెల్లని రేఖ. ఈ రేఖ దాటకే సెన్సార్‌ని నురకండి.
 
-![The grove soil moisture sensor in soil](../../../../../translated_images/soil-moisture-sensor-in-soil.bfad91002bda5e96.te.png)
+![The grove soil moisture sensor in soil](../../../../../translated_images/te/soil-moisture-sensor-in-soil.bfad91002bda5e96.png)
 
 1. ఇప్పుడు మీరు Wio టెర్మినల్‌ను మీ కంప్యూటర్‌కు కనెక్ట్ చేయవచ్చు.
 

@@ -45,11 +45,11 @@ LED ను కౌంటర్‌ఫిట్ యాప్‌కు జోడి�
 
     1. పిన్ 5 వద్ద LED సృష్టించేందుకు **Add** బటన్‌ను ఎంచుకోండి
 
-    ![The LED settings](../../../../../translated_images/counterfit-create-led.ba9db1c9b8c622a6.te.png)
+    ![The LED settings](../../../../../translated_images/te/counterfit-create-led.ba9db1c9b8c622a6.png)
 
     LED సృష్టించి actuator‌ల జాబితాలో కనిపిస్తుంది.
 
-    ![The LED created](../../../../../translated_images/counterfit-led.c0ab02de6d256ad8.te.png)
+    ![The LED created](../../../../../translated_images/te/counterfit-led.c0ab02de6d256ad8.png)
 
     LED సృష్టించిన తర్వాత, మీరు *Color* పికర్ ద్వారా రంగు మార్చవచ్చు. రంగును ఎంచుకున్న తర్వాత **Set** బటన్‌లో క్లిక్ చేయండి.
 

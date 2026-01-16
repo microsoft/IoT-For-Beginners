@@ -29,13 +29,13 @@ Grove ٹائم آف فلائٹ سینسر کو راسپبیری پائی سے ج
 
 ٹائم آف فلائٹ سینسر کو جوڑیں۔
 
-![ایک Grove ٹائم آف فلائٹ سینسر](../../../../../translated_images/grove-time-of-flight-sensor.d82ff2165bfded9f485de54d8d07195a6270a602696825fca19f629ddfe94e86.ur.png)
+![ایک Grove ٹائم آف فلائٹ سینسر](../../../../../translated_images/ur/grove-time-of-flight-sensor.d82ff2165bfded9f485de54d8d07195a6270a602696825fca19f629ddfe94e86.png)
 
 1. Grove کیبل کے ایک سرے کو ٹائم آف فلائٹ سینسر کے ساکٹ میں ڈالیں۔ یہ صرف ایک ہی سمت میں داخل ہوگا۔
 
 1. راسپبیری پائی کو بند حالت میں رکھتے ہوئے، Grove کیبل کے دوسرے سرے کو Grove Base hat پر موجود I²C ساکٹ میں سے کسی ایک سے جوڑیں۔
 
-![Grove ٹائم آف فلائٹ سینسر I²C ساکٹ سے جڑا ہوا](../../../../../translated_images/pi-time-of-flight-sensor.58c8dc04eb3bfb57.ur.png)
+![Grove ٹائم آف فلائٹ سینسر I²C ساکٹ سے جڑا ہوا](../../../../../translated_images/ur/pi-time-of-flight-sensor.58c8dc04eb3bfb57.png)
 
 ## ٹائم آف فلائٹ سینسر کو پروگرام کریں
 
@@ -106,7 +106,7 @@ Grove ٹائم آف فلائٹ سینسر کو راسپبیری پائی سے ج
 
     رینج فائنڈر سینسر کے پچھلے حصے پر ہے، لہذا فاصلے کی پیمائش کرتے وقت صحیح سمت استعمال کریں۔
 
-    ![ٹائم آف فلائٹ سینسر کے پچھلے حصے پر رینج فائنڈر ایک کیلے کی طرف اشارہ کر رہا ہے](../../../../../translated_images/time-of-flight-banana.079921ad8b1496e4.ur.png)
+    ![ٹائم آف فلائٹ سینسر کے پچھلے حصے پر رینج فائنڈر ایک کیلے کی طرف اشارہ کر رہا ہے](../../../../../translated_images/ur/time-of-flight-banana.079921ad8b1496e4.png)
 
 > 💁 آپ اس کوڈ کو [code-proximity/pi](../../../../../4-manufacturing/lessons/4-trigger-fruit-detector/code-proximity/pi) فولڈر میں تلاش کر سکتے ہیں۔
 

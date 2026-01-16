@@ -25,13 +25,13 @@ Grove sıcaklık sensörü Raspberry Pi'ye bağlanabilir.
 
 Sıcaklık sensörünü bağlayın.
 
-![Bir Grove sıcaklık sensörü](../../../../../translated_images/grove-dht11.07f8eafceee170043efbb53e1d15722bd4e00fbaa9ff74290b57e9f66eb82c17.tr.png)
+![Bir Grove sıcaklık sensörü](../../../../../translated_images/tr/grove-dht11.07f8eafceee170043efbb53e1d15722bd4e00fbaa9ff74290b57e9f66eb82c17.png)
 
 1. Grove kablosunun bir ucunu nem ve sıcaklık sensöründeki sokete takın. Kablo yalnızca tek bir yönde takılabilir.
 
 1. Raspberry Pi kapalıyken, Grove kablosunun diğer ucunu Pi'ye bağlı Grove Base hat üzerindeki **D5** olarak işaretlenmiş dijital sokete bağlayın. Bu soket, GPIO pinlerinin yanındaki soket sırasının soldan ikinci soketidir.
 
-![Grove sıcaklık sensörü A0 soketine bağlı](../../../../../translated_images/pi-temperature-sensor.3ff82fff672c8e56.tr.png)
+![Grove sıcaklık sensörü A0 soketine bağlı](../../../../../translated_images/tr/pi-temperature-sensor.3ff82fff672c8e56.png)
 
 ## Sıcaklık sensörünü programlayın
 

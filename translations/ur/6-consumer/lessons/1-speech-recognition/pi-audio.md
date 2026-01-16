@@ -25,13 +25,13 @@ CO_OP_TRANSLATOR_METADATA:
 
 #### کام - بٹن کو جوڑیں
 
-![ایک Grove بٹن](../../../../../translated_images/grove-button.a70cfbb809a8563681003250cf5b06d68cdcc68624f9e2f493d5a534ae2da1e5.ur.png)
+![ایک Grove بٹن](../../../../../translated_images/ur/grove-button.a70cfbb809a8563681003250cf5b06d68cdcc68624f9e2f493d5a534ae2da1e5.png)
 
 1. Grove کیبل کے ایک سرے کو بٹن ماڈیول کے ساکٹ میں ڈالیں۔ یہ صرف ایک ہی سمت میں جائے گا۔
 
 1. راسپبیری پائی کو بند حالت میں رکھتے ہوئے، Grove کیبل کے دوسرے سرے کو Grove Base HAT پر **D5** کے نشان والے ڈیجیٹل ساکٹ میں جوڑیں۔ یہ ساکٹ GPIO پنز کے ساتھ والی قطار میں بائیں جانب سے دوسرا ہے۔
 
-![Grove بٹن D5 ساکٹ سے جڑا ہوا](../../../../../translated_images/pi-button.c7a1a4f55943341ce1baf1057658e9a205804d4131d258e820c93f951df0abf3.ur.png)
+![Grove بٹن D5 ساکٹ سے جڑا ہوا](../../../../../translated_images/ur/pi-button.c7a1a4f55943341ce1baf1057658e9a205804d4131d258e820c93f951df0abf3.png)
 
 ## آڈیو ریکارڈ کریں
 

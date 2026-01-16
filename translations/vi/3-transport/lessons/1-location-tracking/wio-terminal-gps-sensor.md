@@ -27,13 +27,13 @@ Cảm biến Grove GPS có thể được kết nối với Wio Terminal.
 
 Kết nối cảm biến GPS.
 
-![Một cảm biến Grove GPS](../../../../../translated_images/grove-gps-sensor.247943bf69b03f0d1820ef6ed10c587f9b650e8db55b936851c92412180bd3e2.vi.png)
+![Một cảm biến Grove GPS](../../../../../translated_images/vi/grove-gps-sensor.247943bf69b03f0d1820ef6ed10c587f9b650e8db55b936851c92412180bd3e2.png)
 
 1. Cắm một đầu của cáp Grove vào ổ cắm trên cảm biến GPS. Cáp chỉ có thể cắm theo một chiều.
 
 1. Khi Wio Terminal chưa được kết nối với máy tính hoặc nguồn điện khác, cắm đầu còn lại của cáp Grove vào ổ cắm Grove bên trái trên Wio Terminal khi bạn nhìn vào màn hình. Đây là ổ cắm gần nút nguồn nhất.
 
-    ![Cảm biến Grove GPS được kết nối với ổ cắm bên trái](../../../../../translated_images/wio-gps-sensor.19fd52b81ce58095.vi.png)
+    ![Cảm biến Grove GPS được kết nối với ổ cắm bên trái](../../../../../translated_images/vi/wio-gps-sensor.19fd52b81ce58095.png)
 
 1. Đặt cảm biến GPS sao cho ăng-ten gắn kèm có thể nhìn thấy bầu trời - lý tưởng nhất là gần cửa sổ mở hoặc ngoài trời. Tín hiệu sẽ rõ ràng hơn khi không có vật cản giữa ăng-ten và bầu trời.
 

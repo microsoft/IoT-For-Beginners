@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Hàng rào địa lý
 
-![Tóm tắt bài học bằng hình vẽ](../../../../../translated_images/lesson-14.63980c5150ae3c153e770fb71d044c1845dce79248d86bed9fc525adf3ede73c.vi.jpg)
+![Tóm tắt bài học bằng hình vẽ](../../../../../translated_images/vi/lesson-14.63980c5150ae3c153e770fb71d044c1845dce79248d86bed9fc525adf3ede73c.jpg)
 
 > Hình vẽ minh họa bởi [Nitya Narasimhan](https://github.com/nitya). Nhấp vào hình để xem phiên bản lớn hơn.
 
@@ -44,7 +44,7 @@ Trong bài học này, chúng ta sẽ đề cập:
 
 Hàng rào địa lý là một ranh giới ảo cho một khu vực địa lý thực tế. Hàng rào địa lý có thể là các vòng tròn được định nghĩa bằng một điểm và bán kính (ví dụ: một vòng tròn rộng 100m xung quanh một tòa nhà), hoặc một đa giác bao phủ một khu vực như khu vực trường học, giới hạn thành phố, hoặc khuôn viên trường đại học hoặc văn phòng.
 
-![Một số ví dụ về hàng rào địa lý hiển thị hàng rào hình tròn xung quanh cửa hàng công ty Microsoft, và hàng rào hình đa giác xung quanh khuôn viên phía tây của Microsoft](../../../../../translated_images/geofence-examples.172fbc534665769f6e1a1ddcf75e3b25183cd10354c80cc603ba44b635390e1a.vi.png)
+![Một số ví dụ về hàng rào địa lý hiển thị hàng rào hình tròn xung quanh cửa hàng công ty Microsoft, và hàng rào hình đa giác xung quanh khuôn viên phía tây của Microsoft](../../../../../translated_images/vi/geofence-examples.172fbc534665769f6e1a1ddcf75e3b25183cd10354c80cc603ba44b635390e1a.png)
 
 > 💁 Bạn có thể đã sử dụng hàng rào địa lý mà không biết. Nếu bạn đã đặt lời nhắc bằng ứng dụng nhắc nhở iOS hoặc Google Keep dựa trên vị trí, bạn đã sử dụng hàng rào địa lý. Các ứng dụng này sẽ thiết lập một hàng rào địa lý dựa trên vị trí được cung cấp và thông báo cho bạn khi điện thoại của bạn đi vào hàng rào địa lý.
 
@@ -110,7 +110,7 @@ Mỗi điểm trên đa giác được định nghĩa là một cặp kinh độ
 
 Mảng tọa độ đa giác luôn có 1 mục nhập nhiều hơn số điểm trên đa giác, với mục nhập cuối cùng giống như mục đầu tiên, đóng đa giác. Ví dụ, đối với một hình chữ nhật sẽ có 5 điểm.
 
-![Một hình chữ nhật với các tọa độ](../../../../../translated_images/polygon-points.302193da381cb415.vi.png)
+![Một hình chữ nhật với các tọa độ](../../../../../translated_images/vi/polygon-points.302193da381cb415.png)
 
 Trong hình trên, có một hình chữ nhật. Tọa độ đa giác bắt đầu từ góc trên bên trái tại 47,-122, sau đó di chuyển sang phải đến 47,-121, sau đó xuống dưới đến 46,-121, sau đó sang trái đến 46, -122, sau đó quay lại điểm bắt đầu tại 47, -122. Điều này tạo ra đa giác với 5 điểm - góc trên bên trái, góc trên bên phải, góc dưới bên phải, góc dưới bên trái, sau đó góc trên bên trái để đóng lại.
 
@@ -208,7 +208,7 @@ Khi bạn thực hiện yêu cầu này, bạn cũng có thể truyền một gi
 
 Khi kết quả được trả về từ lệnh gọi API, một trong các phần của kết quả là `distance` được đo đến điểm gần nhất trên cạnh của hàng rào địa lý, với giá trị dương nếu điểm nằm ngoài hàng rào địa lý, giá trị âm nếu nó nằm trong hàng rào địa lý. Nếu khoảng cách này nhỏ hơn search buffer, khoảng cách thực tế được trả về bằng mét, nếu không giá trị là 999 hoặc -999. 999 nghĩa là điểm nằm ngoài hàng rào địa lý hơn search buffer, -999 nghĩa là nó nằm trong hàng rào địa lý hơn search buffer.
 
-![Một hàng rào địa lý với search buffer 50m xung quanh](../../../../../translated_images/search-buffer-and-distance.e6a79af3898183c7.vi.png)
+![Một hàng rào địa lý với search buffer 50m xung quanh](../../../../../translated_images/vi/search-buffer-and-distance.e6a79af3898183c7.png)
 
 Trong hình trên, hàng rào địa lý có search buffer 50m.
 
@@ -221,7 +221,7 @@ Trong hình trên, hàng rào địa lý có search buffer 50m.
 
 Ví dụ, hãy tưởng tượng các lần đọc GPS cho thấy một phương tiện đang lái trên một con đường chạy cạnh hàng rào địa lý. Nếu một giá trị GPS không chính xác và đặt phương tiện trong hàng rào địa lý, mặc dù không có lối vào cho phương tiện, thì nó có thể bị bỏ qua.
 
-![Một đường GPS cho thấy một phương tiện đi qua khuôn viên Microsoft trên đường 520, với các lần đọc GPS dọc theo đường ngoại trừ một lần trong khuôn viên, nằm trong hàng rào địa lý](../../../../../translated_images/geofence-crossing-inaccurate-gps.6a3ed911202ad9cabb66d3964888cec03a42c61d5b8f536ad5bdc99716b370f5.vi.png)
+![Một đường GPS cho thấy một phương tiện đi qua khuôn viên Microsoft trên đường 520, với các lần đọc GPS dọc theo đường ngoại trừ một lần trong khuôn viên, nằm trong hàng rào địa lý](../../../../../translated_images/vi/geofence-crossing-inaccurate-gps.6a3ed911202ad9cabb66d3964888cec03a42c61d5b8f536ad5bdc99716b370f5.png)
 Trong hình trên, có một hàng rào địa lý bao phủ một phần khuôn viên Microsoft. Đường màu đỏ cho thấy một chiếc xe tải đang di chuyển dọc theo đường 520, với các vòng tròn biểu thị các lần đọc GPS. Hầu hết các lần đọc này đều chính xác và nằm dọc theo đường 520, ngoại trừ một lần đọc không chính xác nằm trong hàng rào địa lý. Không có cách nào để lần đọc đó có thể đúng - không có con đường nào để xe tải đột ngột rẽ từ đường 520 vào khuôn viên, rồi quay lại đường 520. Mã kiểm tra hàng rào địa lý này sẽ cần xem xét các lần đọc trước đó trước khi hành động dựa trên kết quả kiểm tra hàng rào địa lý.
 
 ✅ Bạn cần thêm dữ liệu nào để kiểm tra xem một lần đọc GPS có thể được coi là chính xác?
@@ -293,7 +293,7 @@ Như bạn đã nhớ từ các bài học trước, IoT Hub sẽ cho phép bạ
 
 Câu trả lời là nó không thể! Thay vào đó, bạn có thể định nghĩa nhiều kết nối riêng biệt để đọc các sự kiện, và mỗi kết nối có thể quản lý việc phát lại các tin nhắn chưa đọc. Những kết nối này được gọi là *nhóm người tiêu dùng*. Khi bạn kết nối đến endpoint, bạn có thể chỉ định nhóm người tiêu dùng mà bạn muốn kết nối. Mỗi thành phần của ứng dụng của bạn sẽ kết nối đến một nhóm người tiêu dùng khác nhau.
 
-![Một IoT Hub với 3 nhóm người tiêu dùng phân phối cùng một tin nhắn đến 3 ứng dụng Functions khác nhau](../../../../../translated_images/consumer-groups.a3262e26fc27ba2092863678ad57af15c7223416e388a23f330c058cf4358630.vi.png)
+![Một IoT Hub với 3 nhóm người tiêu dùng phân phối cùng một tin nhắn đến 3 ứng dụng Functions khác nhau](../../../../../translated_images/vi/consumer-groups.a3262e26fc27ba2092863678ad57af15c7223416e388a23f330c058cf4358630.png)
 
 Theo lý thuyết, tối đa 5 ứng dụng có thể kết nối đến mỗi nhóm người tiêu dùng, và tất cả sẽ nhận được tin nhắn khi chúng đến. Thực hành tốt nhất là chỉ có một ứng dụng truy cập mỗi nhóm người tiêu dùng để tránh xử lý tin nhắn trùng lặp, và đảm bảo khi khởi động lại tất cả các tin nhắn xếp hàng được xử lý đúng cách. Ví dụ, nếu bạn khởi chạy ứng dụng Functions của mình cục bộ cũng như chạy nó trên đám mây, cả hai sẽ xử lý tin nhắn, dẫn đến các blob trùng lặp được lưu trữ trong tài khoản lưu trữ.
 

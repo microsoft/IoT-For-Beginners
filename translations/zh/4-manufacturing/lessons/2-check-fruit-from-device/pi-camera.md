@@ -25,7 +25,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 ### 任务 - 连接摄像头
 
-![树莓派摄像头](../../../../../translated_images/pi-camera-module.4278753c31bd6e757aa2b858be97d72049f71616278cefe4fb5abb485b40a078.zh.png)
+![树莓派摄像头](../../../../../translated_images/zh/pi-camera-module.4278753c31bd6e757aa2b858be97d72049f71616278cefe4fb5abb485b40a078.png)
 
 1. 关闭树莓派的电源。
 
@@ -33,17 +33,17 @@ CO_OP_TRANSLATOR_METADATA:
 
     你可以在 [树莓派摄像头模块入门文档](https://projects.raspberrypi.org/en/projects/getting-started-with-picamera/2) 中找到一个动画，展示如何打开夹子并插入电缆。
 
-    ![扁平电缆插入摄像头模块](../../../../../translated_images/pi-camera-ribbon-cable.0bf82acd251611c21ac616f082849413e2b322a261d0e4f8fec344248083b07e.zh.png)
+    ![扁平电缆插入摄像头模块](../../../../../translated_images/zh/pi-camera-ribbon-cable.0bf82acd251611c21ac616f082849413e2b322a261d0e4f8fec344248083b07e.png)
 
 1. 从树莓派上移除 Grove Base Hat。
 
 1. 将扁平电缆穿过 Grove Base Hat 的摄像头插槽。确保电缆的蓝色一面朝向标有 **A0**、**A1** 等的模拟端口。
 
-    ![扁平电缆穿过 Grove Base Hat](../../../../../translated_images/grove-base-hat-ribbon-cable.501fed202fcf73b11b2b68f6d246189f7d15d3e4423c572ddee79d77b4632b47.zh.png)
+    ![扁平电缆穿过 Grove Base Hat](../../../../../translated_images/zh/grove-base-hat-ribbon-cable.501fed202fcf73b11b2b68f6d246189f7d15d3e4423c572ddee79d77b4632b47.png)
 
 1. 将扁平电缆插入树莓派上的摄像头端口。同样，拉起黑色塑料夹，插入电缆，然后将夹子推回。电缆的蓝色一面应朝向 USB 和以太网端口。
 
-    ![扁平电缆连接到树莓派的摄像头插座](../../../../../translated_images/pi-camera-socket-ribbon-cable.a18309920b11800911082ed7aa6fb28e6d9be3a022e4079ff990016cae3fca10.zh.png)
+    ![扁平电缆连接到树莓派的摄像头插座](../../../../../translated_images/zh/pi-camera-socket-ribbon-cable.a18309920b11800911082ed7aa6fb28e6d9be3a022e4079ff990016cae3fca10.png)
 
 1. 重新安装 Grove Base Hat。
 
@@ -110,7 +110,7 @@ CO_OP_TRANSLATOR_METADATA:
 
     `camera.rotation = 0` 行设置图像的旋转角度。扁平电缆从摄像头底部进入，但如果你的摄像头旋转过以便更容易对准你想要分类的物品，则可以将此行更改为旋转的角度。
 
-    ![摄像头悬挂在饮料罐上方](../../../../../translated_images/pi-camera-upside-down.5376961ba31459883362124152ad6b823d5ac5fc14e85f317e22903bd681c2b6.zh.png)
+    ![摄像头悬挂在饮料罐上方](../../../../../translated_images/zh/pi-camera-upside-down.5376961ba31459883362124152ad6b823d5ac5fc14e85f317e22903bd681c2b6.png)
 
     例如，如果你将扁平电缆悬挂在某物上，使其位于摄像头顶部，则将旋转设置为 180：
 

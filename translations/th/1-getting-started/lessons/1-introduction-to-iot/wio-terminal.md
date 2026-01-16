@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 [Wio Terminal จาก Seeed Studios](https://www.seeedstudio.com/Wio-Terminal-p-4509.html) เป็นไมโครคอนโทรลเลอร์ที่รองรับ Arduino พร้อม WiFi และเซ็นเซอร์และแอคชูเอเตอร์ในตัว รวมถึงพอร์ตสำหรับเพิ่มเซ็นเซอร์และแอคชูเอเตอร์เพิ่มเติม โดยใช้ระบบฮาร์ดแวร์ที่เรียกว่า [Grove](https://www.seeedstudio.com/category/Grove-c-1003.html)
 
-![Seeed studios Wio Terminal](../../../../../translated_images/wio-terminal.b8299ee16587db9a.th.png)
+![Seeed studios Wio Terminal](../../../../../translated_images/th/wio-terminal.b8299ee16587db9a.png)
 
 ## การตั้งค่า
 
@@ -51,15 +51,15 @@ CO_OP_TRANSLATOR_METADATA:
 
 1. ไอคอน PlatformIO จะอยู่ในแถบเมนูด้านข้าง:
 
-    ![ตัวเลือกเมนู PlatformIO](../../../../../translated_images/vscode-platformio-menu.297be26b9733e5c4.th.png)
+    ![ตัวเลือกเมนู PlatformIO](../../../../../translated_images/th/vscode-platformio-menu.297be26b9733e5c4.png)
 
     เลือกเมนูนี้ จากนั้นเลือก *PIO Home -> Open*
 
-    ![ตัวเลือกเปิด PlatformIO](../../../../../translated_images/vscode-platformio-home-open.3f9a41bfd3f4da1c.th.png)
+    ![ตัวเลือกเปิด PlatformIO](../../../../../translated_images/th/vscode-platformio-home-open.3f9a41bfd3f4da1c.png)
 
 1. จากหน้าจอต้อนรับ เลือกปุ่ม **+ New Project**
 
-    ![ปุ่มสร้างโปรเจกต์ใหม่](../../../../../translated_images/vscode-platformio-welcome-new-button.ba6fc8a4c7b78cc8.th.png)
+    ![ปุ่มสร้างโปรเจกต์ใหม่](../../../../../translated_images/th/vscode-platformio-welcome-new-button.ba6fc8a4c7b78cc8.png)
 
 1. ตั้งค่าโปรเจกต์ใน *Project Wizard*:
 
@@ -73,7 +73,7 @@ CO_OP_TRANSLATOR_METADATA:
 
     1. เลือกปุ่ม **Finish**
 
-    ![Project Wizard ที่เสร็จสมบูรณ์](../../../../../translated_images/vscode-platformio-nightlight-project-wizard.5c64db4da6037420.th.png)
+    ![Project Wizard ที่เสร็จสมบูรณ์](../../../../../translated_images/th/vscode-platformio-nightlight-project-wizard.5c64db4da6037420.png)
 
     PlatformIO จะดาวน์โหลดส่วนประกอบที่จำเป็นสำหรับการคอมไพล์โค้ดสำหรับ Wio Terminal และสร้างโปรเจกต์ของคุณ ซึ่งอาจใช้เวลาสักครู่
 
@@ -179,7 +179,7 @@ CO_OP_TRANSLATOR_METADATA:
 
     1. พิมพ์ `PlatformIO Upload` เพื่อค้นหาตัวเลือกอัปโหลด และเลือก *PlatformIO: Upload*
 
-        ![ตัวเลือกอัปโหลด PlatformIO ใน command palette](../../../../../translated_images/vscode-platformio-upload-command-palette.9e0f49cf80d1f1c3.th.png)
+        ![ตัวเลือกอัปโหลด PlatformIO ใน command palette](../../../../../translated_images/th/vscode-platformio-upload-command-palette.9e0f49cf80d1f1c3.png)
 
         PlatformIO จะสร้างโค้ดโดยอัตโนมัติหากจำเป็นก่อนอัปโหลด
 
@@ -195,7 +195,7 @@ PlatformIO มี Serial Monitor ที่สามารถตรวจสอ�
 
 1. พิมพ์ `PlatformIO Serial` เพื่อค้นหาตัวเลือก Serial Monitor และเลือก *PlatformIO: Serial Monitor*
 
-    ![ตัวเลือก Serial Monitor ของ PlatformIO ใน command palette](../../../../../translated_images/vscode-platformio-serial-monitor-command-palette.b348ec841b8a1c14.th.png)
+    ![ตัวเลือก Serial Monitor ของ PlatformIO ใน command palette](../../../../../translated_images/th/vscode-platformio-serial-monitor-command-palette.b348ec841b8a1c14.png)
 
     เทอร์มินัลใหม่จะเปิดขึ้น และข้อมูลที่ส่งผ่านพอร์ตอนุกรมจะถูกสตรีมเข้าสู่เทอร์มินัลนี้:
 

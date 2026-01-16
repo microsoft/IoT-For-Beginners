@@ -27,13 +27,13 @@ Ang Grove relay ay maaaring ikonekta sa digital port ng Wio Terminal.
 
 Ikonekta ang relay.
 
-![Isang Grove relay](../../../../../translated_images/grove-relay.d426958ca210fbd0fb7983d7edc069d46c73a8b0a099d94797bd756f7b6bb6be.tl.png)
+![Isang Grove relay](../../../../../translated_images/tl/grove-relay.d426958ca210fbd0fb7983d7edc069d46c73a8b0a099d94797bd756f7b6bb6be.png)
 
 1. Ipasok ang isang dulo ng Grove cable sa socket ng relay. Isang paraan lang ito maaaring ipasok.
 
 1. Kapag ang Wio Terminal ay hindi nakakonekta sa iyong computer o ibang power supply, ikonekta ang kabilang dulo ng Grove cable sa kaliwang Grove socket ng Wio Terminal habang nakaharap ka sa screen. Iwanang nakakonekta ang soil moisture sensor sa kanang socket.
 
-![Ang Grove relay na nakakonekta sa kaliwang socket, at ang soil moisture sensor na nakakonekta sa kanang socket](../../../../../translated_images/wio-relay-and-soil-moisture-sensor.ed722202d42babe0.tl.png)
+![Ang Grove relay na nakakonekta sa kaliwang socket, at ang soil moisture sensor na nakakonekta sa kanang socket](../../../../../translated_images/tl/wio-relay-and-soil-moisture-sensor.ed722202d42babe0.png)
 
 1. Ipasok ang soil moisture sensor sa lupa, kung hindi pa ito nakakabit mula sa nakaraang aralin.
 

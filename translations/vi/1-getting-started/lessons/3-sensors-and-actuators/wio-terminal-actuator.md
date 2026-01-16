@@ -35,7 +35,7 @@ Otherwise
 
 Kết nối đèn LED.
 
-![Một đèn LED Grove](../../../../../translated_images/grove-led.6c853be93f473cf2c439cfc74bb1064732b22251a83cedf66e62f783f9cc1a79.vi.png)
+![Một đèn LED Grove](../../../../../translated_images/vi/grove-led.6c853be93f473cf2c439cfc74bb1064732b22251a83cedf66e62f783f9cc1a79.png)
 
 1. Chọn đèn LED yêu thích của bạn và cắm các chân vào hai lỗ trên module LED.
 
@@ -51,7 +51,7 @@ Kết nối đèn LED.
 
     > 💁 Ổ cắm Grove bên phải có thể được sử dụng với các cảm biến và bộ truyền động tương tự hoặc kỹ thuật số. Ổ cắm bên trái chỉ dành cho các cảm biến và bộ truyền động kỹ thuật số.
 
-![Đèn LED Grove được kết nối với ổ cắm bên phải](../../../../../translated_images/wio-led.265a1897e72d7f21.vi.png)
+![Đèn LED Grove được kết nối với ổ cắm bên phải](../../../../../translated_images/vi/wio-led.265a1897e72d7f21.png)
 
 ## Lập trình đèn ngủ
 

@@ -42,7 +42,7 @@ CO_OP_TRANSLATOR_METADATA:
 
     Jupyter ఆరంభమై బ్రౌజర్‌లో నోట్‌బుక్ తెరుస్తుంది. కొలవబడిన ఉష్ణోగ్రతలను ప్రదర్శించడానికి మరియు GDD లెక్కించడానికి నోట్‌బుక్‌లోని సూచనలను అనుసరించండి.
 
-    ![The jupyter notebook](../../../../../translated_images/gdd-jupyter-notebook.c5b52cf21094f158.te.png)
+    ![The jupyter notebook](../../../../../translated_images/te/gdd-jupyter-notebook.c5b52cf21094f158.png)
 
 ## రూబ్రిక్
 

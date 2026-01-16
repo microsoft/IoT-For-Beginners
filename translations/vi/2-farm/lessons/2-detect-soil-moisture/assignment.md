@@ -29,14 +29,14 @@ Bạn sẽ cần lặp lại các bước này nhiều lần để thu thập đ
 
 Độ ẩm đất theo trọng lượng được tính như sau:
 
-![độ ẩm đất % là trọng lượng đất ướt trừ trọng lượng đất khô, chia cho trọng lượng đất khô, nhân với 100](../../../../../translated_images/gsm-calculation.6da38c6201eec14e7573bb2647aa18892883193553d23c9d77e5dc681522dfb2.vi.png)
+![độ ẩm đất % là trọng lượng đất ướt trừ trọng lượng đất khô, chia cho trọng lượng đất khô, nhân với 100](../../../../../translated_images/vi/gsm-calculation.6da38c6201eec14e7573bb2647aa18892883193553d23c9d77e5dc681522dfb2.png)
 
 * W - trọng lượng của đất ướt  
 * W - trọng lượng của đất khô  
 
 Ví dụ, giả sử bạn có một mẫu đất nặng 212g khi ướt và 197g khi khô.
 
-![Phép tính đã được điền](../../../../../translated_images/gsm-calculation-example.99f9803b4f29e97668e7c15412136c0c399ab12dbba0b89596fdae9d8aedb6fb.vi.png)
+![Phép tính đã được điền](../../../../../translated_images/vi/gsm-calculation-example.99f9803b4f29e97668e7c15412136c0c399ab12dbba0b89596fdae9d8aedb6fb.png)
 
 * W = 212g  
 * W = 197g  

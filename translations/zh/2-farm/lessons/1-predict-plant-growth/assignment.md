@@ -42,7 +42,7 @@ CO_OP_TRANSLATOR_METADATA:
 
     Jupyter 将启动并在浏览器中打开 Notebook。按照 Notebook 中的说明操作，可视化测量的温度并计算生长度日（GDD）。
 
-    ![Jupyter Notebook 示例](../../../../../translated_images/gdd-jupyter-notebook.c5b52cf21094f158a61f47f455490fd95f1729777ff90861a4521820bf354cdc.zh.png)
+    ![Jupyter Notebook 示例](../../../../../translated_images/zh/gdd-jupyter-notebook.c5b52cf21094f158a61f47f455490fd95f1729777ff90861a4521820bf354cdc.png)
 
 ## 评分标准
 

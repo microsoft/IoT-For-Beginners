@@ -47,11 +47,11 @@ Idagdag ang GPS sensor sa CounterFit app.
 
     1. Piliin ang **Add** button upang gumawa ng GPS sensor sa port `/dev/ttyAMA0`.
 
-    ![Ang mga setting ng GPS sensor](../../../../../translated_images/counterfit-create-gps-sensor.6385dc9357d85ad1d47b4abb2525e7651fd498917d25eefc5a72feab09eedc70.tl.png)
+    ![Ang mga setting ng GPS sensor](../../../../../translated_images/tl/counterfit-create-gps-sensor.6385dc9357d85ad1d47b4abb2525e7651fd498917d25eefc5a72feab09eedc70.png)
 
     Ang GPS sensor ay gagawin at lilitaw sa listahan ng mga sensor.
 
-    ![Ang GPS sensor na ginawa](../../../../../translated_images/counterfit-gps-sensor.3fbb15af0a5367566f2f11324ef5a6f30861cdf2b497071a5e002b7aa473550e.tl.png)
+    ![Ang GPS sensor na ginawa](../../../../../translated_images/tl/counterfit-gps-sensor.3fbb15af0a5367566f2f11324ef5a6f30861cdf2b497071a5e002b7aa473550e.png)
 
 ## I-program ang GPS sensor
 
@@ -111,17 +111,17 @@ I-program ang GPS sensor app.
 
     * Itakda ang **Source** sa `Lat/Lon`, at mag-set ng tiyak na latitude, longitude, at bilang ng mga satellite na ginamit upang makuha ang GPS fix. Ang halagang ito ay ipapadala nang isang beses lamang, kaya i-check ang **Repeat** box upang ang data ay maulit bawat segundo.
 
-      ![Ang GPS sensor na may lat lon na napili](../../../../../translated_images/counterfit-gps-sensor-latlon.008c867d75464fbe7f84107cc57040df565ac07cb57d2f21db37d087d470197d.tl.png)
+      ![Ang GPS sensor na may lat lon na napili](../../../../../translated_images/tl/counterfit-gps-sensor-latlon.008c867d75464fbe7f84107cc57040df565ac07cb57d2f21db37d087d470197d.png)
 
     * Itakda ang **Source** sa `NMEA` at magdagdag ng ilang NMEA sentences sa text box. Ang lahat ng mga halagang ito ay ipapadala, na may delay na 1 segundo bago mabasa ang bawat bagong GGA (position fix) sentence.
 
-      ![Ang GPS sensor na may NMEA sentences na nakatakda](../../../../../translated_images/counterfit-gps-sensor-nmea.c62eea442171e17e19528b051b104cfcecdc9cd18db7bc72920f29821ae63f73.tl.png)
+      ![Ang GPS sensor na may NMEA sentences na nakatakda](../../../../../translated_images/tl/counterfit-gps-sensor-nmea.c62eea442171e17e19528b051b104cfcecdc9cd18db7bc72920f29821ae63f73.png)
 
       Maaari kang gumamit ng tool tulad ng [nmeagen.org](https://www.nmeagen.org) upang bumuo ng mga sentences sa pamamagitan ng pagguhit sa mapa. Ang mga halagang ito ay ipapadala nang isang beses lamang, kaya i-check ang **Repeat** box upang ang data ay maulit isang segundo pagkatapos maipadala ang lahat.
 
     * Itakda ang **Source** sa GPX file, at mag-upload ng GPX file na may mga track locations. Maaari kang mag-download ng GPX files mula sa iba't ibang sikat na mapping at hiking sites, tulad ng [AllTrails](https://www.alltrails.com/). Ang mga file na ito ay naglalaman ng maraming GPS locations bilang isang trail, at ang GPS sensor ay magbabalik ng bawat bagong lokasyon sa 1 segundo na pagitan.
 
-      ![Ang GPS sensor na may GPX file na nakatakda](../../../../../translated_images/counterfit-gps-sensor-gpxfile.8310b063ce8a425ccc8ebeec8306aeac5e8e55207f007d52c6e1194432a70cd9.tl.png)
+      ![Ang GPS sensor na may GPX file na nakatakda](../../../../../translated_images/tl/counterfit-gps-sensor-gpxfile.8310b063ce8a425ccc8ebeec8306aeac5e8e55207f007d52c6e1194432a70cd9.png)
 
       Ang mga halagang ito ay ipapadala nang isang beses lamang, kaya i-check ang **Repeat** box upang ang data ay maulit isang segundo pagkatapos maipadala ang lahat.
 

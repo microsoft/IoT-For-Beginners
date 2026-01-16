@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Hiểu ngôn ngữ
 
-![Tổng quan bài học dưới dạng sketchnote](../../../../../translated_images/lesson-22.6148ea28500d9e00c396aaa2649935fb6641362c8f03d8e5e90a676977ab01dd.vi.jpg)
+![Tổng quan bài học dưới dạng sketchnote](../../../../../translated_images/vi/lesson-22.6148ea28500d9e00c396aaa2649935fb6641362c8f03d8e5e90a676977ab01dd.jpg)
 
 > Sketchnote bởi [Nitya Narasimhan](https://github.com/nitya). Nhấp vào hình ảnh để xem phiên bản lớn hơn.
 
@@ -55,7 +55,7 @@ Các mô hình hiểu ngôn ngữ là các mô hình AI được huấn luyện 
 
 ## Tạo mô hình hiểu ngôn ngữ
 
-![Logo của LUIS](../../../../../translated_images/luis-logo.5cb4f3e88c020ee6df4f614e8831f4a4b6809a7247bf52085fb48d629ef9be52.vi.png)
+![Logo của LUIS](../../../../../translated_images/vi/luis-logo.5cb4f3e88c020ee6df4f614e8831f4a4b6809a7247bf52085fb48d629ef9be52.png)
 
 Bạn có thể tạo các mô hình hiểu ngôn ngữ bằng LUIS, một dịch vụ hiểu ngôn ngữ từ Microsoft thuộc Cognitive Services.
 
@@ -126,7 +126,7 @@ Sau khi các thực thể được định nghĩa, bạn tạo các ý định. 
 
 Sau đó, bạn nói với LUIS các phần của những câu này ánh xạ đến các thực thể:
 
-![Câu nói "đặt hẹn giờ 1 phút 12 giây" được chia thành các thực thể](../../../../../translated_images/sentence-as-intent-entities.301401696f992259.vi.png)
+![Câu nói "đặt hẹn giờ 1 phút 12 giây" được chia thành các thực thể](../../../../../translated_images/vi/sentence-as-intent-entities.301401696f992259.png)
 
 Câu `đặt hẹn giờ 1 phút 12 giây` có ý định là `đặt hẹn giờ`. Nó cũng có 2 thực thể với 2 giá trị mỗi thực thể:
 
@@ -178,7 +178,7 @@ Bạn có thể tìm thấy hướng dẫn sử dụng cổng LUIS trong [Quicks
 
 1. Khi bạn nhập từng ví dụ, LUIS sẽ bắt đầu phát hiện các thực thể, và sẽ gạch chân và gắn nhãn bất kỳ thực thể nào mà nó tìm thấy.
 
-    ![Các ví dụ với các số và đơn vị thời gian được gạch chân bởi LUIS](../../../../../translated_images/luis-intent-examples.25716580b2d2723cf1bafdf277d015c7f046d8cfa20f27bddf3a0873ec45fab7.vi.png)
+    ![Các ví dụ với các số và đơn vị thời gian được gạch chân bởi LUIS](../../../../../translated_images/vi/luis-intent-examples.25716580b2d2723cf1bafdf277d015c7f046d8cfa20f27bddf3a0873ec45fab7.png)
 
 ### Nhiệm vụ - huấn luyện và kiểm tra mô hình
 

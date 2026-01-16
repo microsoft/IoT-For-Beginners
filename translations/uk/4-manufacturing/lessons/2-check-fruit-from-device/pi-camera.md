@@ -25,7 +25,7 @@ Raspberry Pi потребує камери.
 
 ### Завдання - підключити камеру
 
-![Камера Raspberry Pi](../../../../../translated_images/pi-camera-module.4278753c31bd6e757aa2b858be97d72049f71616278cefe4fb5abb485b40a078.uk.png)
+![Камера Raspberry Pi](../../../../../translated_images/uk/pi-camera-module.4278753c31bd6e757aa2b858be97d72049f71616278cefe4fb5abb485b40a078.png)
 
 1. Вимкніть живлення Raspberry Pi.
 
@@ -33,17 +33,17 @@ Raspberry Pi потребує камери.
 
     Ви можете знайти анімацію, яка показує, як відкрити затискач і вставити кабель, у [документації Raspberry Pi "Початок роботи з модулем камери"](https://projects.raspberrypi.org/en/projects/getting-started-with-picamera/2).
 
-    ![Стрічковий кабель вставлений у модуль камери](../../../../../translated_images/pi-camera-ribbon-cable.0bf82acd251611c21ac616f082849413e2b322a261d0e4f8fec344248083b07e.uk.png)
+    ![Стрічковий кабель вставлений у модуль камери](../../../../../translated_images/uk/pi-camera-ribbon-cable.0bf82acd251611c21ac616f082849413e2b322a261d0e4f8fec344248083b07e.png)
 
 1. Зніміть Grove Base Hat з Raspberry Pi.
 
 1. Пропустіть стрічковий кабель через слот для камери в Grove Base Hat. Переконайтеся, що синя сторона кабелю спрямована до аналогових портів, позначених **A0**, **A1** тощо.
 
-    ![Стрічковий кабель проходить через Grove Base Hat](../../../../../translated_images/grove-base-hat-ribbon-cable.501fed202fcf73b11b2b68f6d246189f7d15d3e4423c572ddee79d77b4632b47.uk.png)
+    ![Стрічковий кабель проходить через Grove Base Hat](../../../../../translated_images/uk/grove-base-hat-ribbon-cable.501fed202fcf73b11b2b68f6d246189f7d15d3e4423c572ddee79d77b4632b47.png)
 
 1. Вставте стрічковий кабель у роз'єм камери на Raspberry Pi. Знову потягніть чорний пластиковий затискач вгору, вставте кабель, а потім поверніть затискач назад. Синя сторона кабелю повинна бути спрямована до USB і Ethernet портів.
 
-    ![Стрічковий кабель підключений до роз'єму камери на Raspberry Pi](../../../../../translated_images/pi-camera-socket-ribbon-cable.a18309920b11800911082ed7aa6fb28e6d9be3a022e4079ff990016cae3fca10.uk.png)
+    ![Стрічковий кабель підключений до роз'єму камери на Raspberry Pi](../../../../../translated_images/uk/pi-camera-socket-ribbon-cable.a18309920b11800911082ed7aa6fb28e6d9be3a022e4079ff990016cae3fca10.png)
 
 1. Встановіть Grove Base Hat назад.
 
@@ -110,7 +110,7 @@ Raspberry Pi потребує камери.
 
     Рядок `camera.rotation = 0` встановлює обертання зображення. Стрічковий кабель входить у нижню частину камери, але якщо ваша камера була повернута для зручнішого спрямування на об'єкт, який ви хочете класифікувати, то ви можете змінити цей рядок на кількість градусів обертання.
 
-    ![Камера, що висить над банкою напою](../../../../../translated_images/pi-camera-upside-down.5376961ba31459883362124152ad6b823d5ac5fc14e85f317e22903bd681c2b6.uk.png)
+    ![Камера, що висить над банкою напою](../../../../../translated_images/uk/pi-camera-upside-down.5376961ba31459883362124152ad6b823d5ac5fc14e85f317e22903bd681c2b6.png)
 
     Наприклад, якщо ви підвісите стрічковий кабель над чимось так, щоб він був у верхній частині камери, то встановіть обертання на 180:
 

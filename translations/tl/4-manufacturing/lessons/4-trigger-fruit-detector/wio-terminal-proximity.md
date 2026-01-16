@@ -29,13 +29,13 @@ Ang Grove time of flight sensor ay maaaring ikonekta sa Wio Terminal.
 
 Ikonekta ang time of flight sensor.
 
-![Isang Grove time of flight sensor](../../../../../translated_images/grove-time-of-flight-sensor.d82ff2165bfded9f485de54d8d07195a6270a602696825fca19f629ddfe94e86.tl.png)
+![Isang Grove time of flight sensor](../../../../../translated_images/tl/grove-time-of-flight-sensor.d82ff2165bfded9f485de54d8d07195a6270a602696825fca19f629ddfe94e86.png)
 
 1. Ipasok ang isang dulo ng Grove cable sa socket ng time of flight sensor. Isang paraan lamang ito maaaring ipasok.
 
 1. Habang ang Wio Terminal ay hindi nakakonekta sa iyong computer o iba pang power supply, ikonekta ang kabilang dulo ng Grove cable sa kaliwang Grove socket ng Wio Terminal habang nakaharap ka sa screen. Ito ang socket na pinakamalapit sa power button. Ito ay isang pinagsamang digital at I²C socket.
 
-![Ang Grove time of flight sensor na nakakonekta sa kaliwang socket](../../../../../translated_images/wio-time-of-flight-sensor.c4c182131d2ea73d.tl.png)
+![Ang Grove time of flight sensor na nakakonekta sa kaliwang socket](../../../../../translated_images/tl/wio-time-of-flight-sensor.c4c182131d2ea73d.png)
 
 1. Maaari mo nang ikonekta ang Wio Terminal sa iyong computer.
 
@@ -101,7 +101,7 @@ Ang Wio Terminal ay maaari nang iprograma upang magamit ang nakakonektang time o
 
     Ang rangefinder ay nasa likod ng sensor, kaya siguraduhing gamitin ang tamang bahagi kapag sumusukat ng distansya.
 
-    ![Ang rangefinder sa likod ng time of flight sensor na nakaturo sa isang saging](../../../../../translated_images/time-of-flight-banana.079921ad8b1496e4.tl.png)
+    ![Ang rangefinder sa likod ng time of flight sensor na nakaturo sa isang saging](../../../../../translated_images/tl/time-of-flight-banana.079921ad8b1496e4.png)
 
 > 💁 Makikita mo ang code na ito sa [code-proximity/wio-terminal](../../../../../4-manufacturing/lessons/4-trigger-fruit-detector/code-proximity/wio-terminal) folder.
 

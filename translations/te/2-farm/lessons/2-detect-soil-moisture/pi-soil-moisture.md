@@ -27,17 +27,17 @@ Grove నేల తేమ సెన్సర్ ను రాస్ప్బె�
 
 నేల తేమ సెన్సర్ ను కనెక్ట్ చేయండి.
 
-![A grove soil moisture sensor](../../../../../translated_images/grove-capacitive-soil-moisture-sensor.e7f0776cce30e78b.te.png)
+![A grove soil moisture sensor](../../../../../translated_images/te/grove-capacitive-soil-moisture-sensor.e7f0776cce30e78b.png)
 
 1. Grove కేబుల్ యొక్క ఒక చివరను నేల తేమ సెన్సర్‌పై ఉన్న సాకెట్‌కి పెట్టండి. ఇది ఒక దిశలో మాత్రమే సరిపోతుంది.
 
 1. రాస్ప్బెర్రీ పై పవర్ ఆఫ్ ఉన్నప్పుడు, Grove కేబుల్ యొక్క మరొక చివరను Pi కు జతచేసిన Grove Base Hat పై **A0** అనే అనలాగ్ సాకెట్‌కు కనెక్ట్ చేయండి. ఈ సాకెట్ GPIO పిన్ల పక్కన ఉన్న సాకెట్ల వరుసలో రెండవది వెనుక నుండి.
 
-![The grove soil moisture sensor connected to the A0 socket](../../../../../translated_images/pi-soil-moisture-sensor.fdd7eb2393792cf6.te.png)
+![The grove soil moisture sensor connected to the A0 socket](../../../../../translated_images/te/pi-soil-moisture-sensor.fdd7eb2393792cf6.png)
 
 1. నేల తేమ సెన్సర్ ను నేలలో చొప్పించండి. దానిపై 'highest position line' అనే గమనార్హమైన పుంత ఉంది - ఇది సెన్సర్ అంతటా ఒక తెలుపు రేఖ. ఈ రేఖ దాటకుండా సెన్సర్ ను చొప్పించండి.
 
-![The grove soil moisture sensor in soil](../../../../../translated_images/soil-moisture-sensor-in-soil.bfad91002bda5e96.te.png)
+![The grove soil moisture sensor in soil](../../../../../translated_images/te/soil-moisture-sensor-in-soil.bfad91002bda5e96.png)
 
 ## నేల తేమ సెన్సర్ ప్రోగ్రాం చేయండి
 

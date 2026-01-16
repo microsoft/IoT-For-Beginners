@@ -35,7 +35,7 @@ Grove LED 是一個模組，內含多種顏色的 LED，讓你可以選擇喜歡
 
 連接 LED。
 
-![一個 Grove LED](../../../../../translated_images/grove-led.6c853be93f473cf2c439cfc74bb1064732b22251a83cedf66e62f783f9cc1a79.tw.png)
+![一個 Grove LED](../../../../../translated_images/tw/grove-led.6c853be93f473cf2c439cfc74bb1064732b22251a83cedf66e62f783f9cc1a79.png)
 
 1. 選擇你喜歡的 LED，將其引腳插入 LED 模組上的兩個孔中。
 
@@ -49,7 +49,7 @@ Grove LED 是一個模組，內含多種顏色的 LED，讓你可以選擇喜歡
 
 1. 在 Raspberry Pi 關機的情況下，將 Grove 電纜的另一端連接到 Grove Base hat 上標有 **D5** 的數位插槽。這個插槽位於 GPIO 引腳旁邊的一排插槽中，從左數第二個。
 
-![Grove LED 連接到 D5 插槽](../../../../../translated_images/pi-led.97f1d474981dc35d1c7996c7b17de355d3d0a6bc9606d79fa5f89df933415122.tw.png)
+![Grove LED 連接到 D5 插槽](../../../../../translated_images/tw/pi-led.97f1d474981dc35d1c7996c7b17de355d3d0a6bc9606d79fa5f89df933415122.png)
 
 ## 編寫夜燈程式
 

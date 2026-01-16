@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Mağaza Konum Verileri
 
-![Bu dersin genel bir sketchnote görünümü](../../../../../translated_images/lesson-12.ca7f53039712a3ec14ad6474d8445361c84adab643edc53fa6269b77895606bb.tr.jpg)
+![Bu dersin genel bir sketchnote görünümü](../../../../../translated_images/tr/lesson-12.ca7f53039712a3ec14ad6474d8445361c84adab643edc53fa6269b77895606bb.jpg)
 
 > Sketchnote: [Nitya Narasimhan](https://github.com/nitya). Daha büyük bir versiyon için resme tıklayın.
 
@@ -66,7 +66,7 @@ Veritabanları, verileri depolamanıza ve sorgulamanıza olanak tanıyan hizmetl
 
 İlk veritabanları İlişkisel Veritabanı Yönetim Sistemleri (RDBMS) veya ilişkisel veritabanlarıydı. Bunlar, Structured Query Language (SQL) kullanılarak veri ekleme, kaldırma, güncelleme veya sorgulama işlemleri yapılan SQL veritabanları olarak bilinir. Bu veritabanları, bir elektronik tabloya benzer şekilde iyi tanımlanmış bir veri tabloları kümesinden oluşur. Her tablo, birden fazla adlandırılmış sütuna sahiptir. Veri eklediğinizde, tabloya bir satır ekler ve her sütuna değerler koyarsınız. Bu, veriyi çok katı bir yapıda tutar - sütunları boş bırakabilirsiniz, ancak yeni bir sütun eklemek isterseniz, bunu veritabanında yapmanız ve mevcut satırlar için değerler doldurmanız gerekir. Bu veritabanları ilişkiseldir - bir tablo başka bir tabloyla ilişki kurabilir.
 
-![Bir kullanıcı tablosunun ID'sinin, satın alımlar tablosundaki kullanıcı ID sütunuyla ve ürünler tablosunun ID'sinin, satın alımlar tablosundaki ürün ID sütunuyla ilişkili olduğu bir ilişkisel veritabanı](../../../../../translated_images/sql-database.be160f12bfccefd3.tr.png)
+![Bir kullanıcı tablosunun ID'sinin, satın alımlar tablosundaki kullanıcı ID sütunuyla ve ürünler tablosunun ID'sinin, satın alımlar tablosundaki ürün ID sütunuyla ilişkili olduğu bir ilişkisel veritabanı](../../../../../translated_images/tr/sql-database.be160f12bfccefd3.png)
 
 Örneğin, bir kullanıcının kişisel bilgilerini bir tabloda depolarsanız, her kullanıcı için bir tür benzersiz iç ID'niz olur ve bu ID, kullanıcının adı ve adresi gibi bilgileri içeren bir tablodaki bir satırda kullanılır. Daha sonra bu kullanıcı hakkında başka ayrıntılar, örneğin satın alımları, başka bir tabloda depolamak isterseniz, yeni tablodaki bir sütun bu kullanıcının ID'si için ayrılır. Bir kullanıcıyı aradığınızda, bir tablodan kişisel bilgilerini ve başka bir tablodan satın alımlarını almak için ID'sini kullanabilirsiniz.
 
@@ -84,7 +84,7 @@ NoSQL veritabanları, SQL veritabanlarının katı yapısına sahip olmadıklar�
 
 > 💁 Adlarına rağmen, bazı NoSQL veritabanları veriyi sorgulamak için SQL kullanılmasına izin verir.
 
-![Bir NoSQL veritabanında klasörlerde belgeler](../../../../../translated_images/noqsl-database.62d24ccf5b73f60d35c245a8533f1c7147c0928e955b82cb290b2e184bb434df.tr.png)
+![Bir NoSQL veritabanında klasörlerde belgeler](../../../../../translated_images/tr/noqsl-database.62d24ccf5b73f60d35c245a8533f1c7147c0928e955b82cb290b2e184bb434df.png)
 
 NoSQL veritabanları, verilerin nasıl depolandığını sınırlayan önceden tanımlanmış bir şemaya sahip değildir; bunun yerine genellikle JSON belgeleri kullanarak herhangi bir yapılandırılmamış veri ekleyebilirsiniz. Bu belgeler, bilgisayarınızdaki dosyalara benzer şekilde klasörlere organize edilebilir. Her belge, diğer belgelerden farklı alanlara sahip olabilir - örneğin, çiftlik araçlarınızdan IoT verilerini depoluyorsanız, bazıları ivmeölçer ve hız verisi alanlarına sahip olabilir, diğerleri römorktaki sıcaklık için alanlara sahip olabilir. Dahili tartılarla donatılmış yeni bir kamyon türü eklemek isterseniz, IoT cihazınız bu yeni alanı ekleyebilir ve veritabanında herhangi bir değişiklik yapmadan depolanabilir.
 
@@ -98,7 +98,7 @@ Bu derste, IoT verilerini depolamak için NoSQL depolama kullanacaksınız.
 
 Son derste, IoT cihazınıza bağlı bir GPS sensöründen GPS verilerini yakaladınız. Bu IoT verilerini bulutta depolamak için bir IoT hizmetine göndermeniz gerekir. Yine, önceki projede kullandığınız aynı IoT bulut hizmeti olan Azure IoT Hub'ı kullanacaksınız.
 
-![Bir IoT cihazından IoT Hub'a GPS telemetri gönderme](../../../../../translated_images/gps-telemetry-iot-hub.8115335d51cd2c1285d20e9d1b18cf685e59a8e093e7797291ef173445af6f3d.tr.png)
+![Bir IoT cihazından IoT Hub'a GPS telemetri gönderme](../../../../../translated_images/tr/gps-telemetry-iot-hub.8115335d51cd2c1285d20e9d1b18cf685e59a8e093e7797291ef173445af6f3d.png)
 
 ### Görev - GPS Verilerini Bir IoT Hub'a Gönderme
 
@@ -180,7 +180,7 @@ Soğuk yol verileri, büyük miktarda değişmeyen veriyi depolamak ve hızlı b
 
 Veriler IoT Hub'a akmaya başladığında, Event-Hub uyumlu uç noktaya yayınlanan olayları dinlemek için sunucusuz kod yazabilirsiniz. Bu, ılık yol olarak adlandırılır - bu veriler depolanacak ve bir sonraki derste yolculuk raporlaması için kullanılacaktır.
 
-![Bir IoT cihazından IoT Hub'a GPS telemetri gönderme, ardından bir olay hub tetikleyicisi aracılığıyla Azure Functions'a](../../../../../translated_images/gps-telemetry-iot-hub-functions.24d3fa5592455e9f4e2fe73856b40c3915a292b90263c31d652acfd976cfedd8.tr.png)
+![Bir IoT cihazından IoT Hub'a GPS telemetri gönderme, ardından bir olay hub tetikleyicisi aracılığıyla Azure Functions'a](../../../../../translated_images/tr/gps-telemetry-iot-hub-functions.24d3fa5592455e9f4e2fe73856b40c3915a292b90263c31d652acfd976cfedd8.png)
 
 ### Görev - GPS Olaylarını Sunucusuz Kod Kullanarak İşleme
 
@@ -202,7 +202,7 @@ Veriler IoT Hub'a akmaya başladığında, Event-Hub uyumlu uç noktaya yayınla
 
 ## Azure Depolama Hesapları
 
-![Azure Depolama logosu](../../../../../translated_images/azure-storage-logo.605c0f602c640d482a80f1b35a2629a32d595711b7ab1d7ceea843250615ff32.tr.png)
+![Azure Depolama logosu](../../../../../translated_images/tr/azure-storage-logo.605c0f602c640d482a80f1b35a2629a32d595711b7ab1d7ceea843250615ff32.png)
 
 Azure Depolama Hesapları, verileri farklı şekillerde depolayabilen genel amaçlı bir depolama hizmetidir. Verileri bloblar, kuyruklar, tablolar veya dosyalar olarak ve aynı anda depolayabilirsiniz.
 
@@ -241,7 +241,7 @@ Artık işlev uygulamanızın, IoT Hub'dan gelen mesajları blob depolamada sakl
 
 Bu derste, blob depolamayla nasıl etkileşimde bulunacağınızı görmek için Python SDK'sını kullanacaksınız.
 
-![IoT cihazından GPS telemetrisini IoT Hub'a, ardından bir olay hub tetikleyicisi aracılığıyla Azure Functions'a gönderme ve blob depolamaya kaydetme](../../../../../translated_images/save-telemetry-to-storage-from-functions.ed3b1820980097f1.tr.png)
+![IoT cihazından GPS telemetrisini IoT Hub'a, ardından bir olay hub tetikleyicisi aracılığıyla Azure Functions'a gönderme ve blob depolamaya kaydetme](../../../../../translated_images/tr/save-telemetry-to-storage-from-functions.ed3b1820980097f1.png)
 
 Veriler, aşağıdaki formatta bir JSON blobu olarak kaydedilecektir:
 

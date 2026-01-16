@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 ## 使用物联网预测植物生长
 
-![本课的概述手绘图](../../../../../translated_images/lesson-5.42b234299279d263143148b88ab4583861a32ddb03110c6c1120e41bb88b2592.zh.jpg)
+![本课的概述手绘图](../../../../../translated_images/zh/lesson-5.42b234299279d263143148b88ab4583861a32ddb03110c6c1120e41bb88b2592.jpg)
 
 > 手绘图由 [Nitya Narasimhan](https://github.com/nitya) 提供。点击图片查看更大版本。
 
@@ -65,7 +65,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 ✅ 做一些研究。对于您花园、学校或当地公园中的植物，看看是否能找到它们的基础温度。
 
-![一张显示植物生长率随温度升高而增加，然后在温度过高时下降的图表](../../../../../translated_images/plant-growth-temp-graph.c6d69c9478e6ca83.zh.png)
+![一张显示植物生长率随温度升高而增加，然后在温度过高时下降的图表](../../../../../translated_images/zh/plant-growth-temp-graph.c6d69c9478e6ca83.png)
 
 上图显示了一个生长率与温度的示例图表。在基础温度以下没有生长。生长率在达到最佳温度之前逐渐增加，然后在达到峰值后下降。在最高温度时，生长停止。
 
@@ -99,7 +99,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 完整的 GDD 公式稍显复杂，但通常使用一个简化的公式作为良好的近似值：
 
-![GDD = T max + T min 除以 2，然后减去 T base](../../../../../translated_images/gdd-calculation.79b3660f9c5757aa92dc2dd2cdde75344e2d2c1565c4b3151640f7887edc0275.zh.png)
+![GDD = T max + T min 除以 2，然后减去 T base](../../../../../translated_images/zh/gdd-calculation.79b3660f9c5757aa92dc2dd2cdde75344e2d2c1565c4b3151640f7887edc0275.png)
 
 * **GDD** - 这是生长度日的数量
 * **T max** - 这是当天的最高温度（摄氏度）
@@ -127,7 +127,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 计算结果为：
 
-![GDD = 16 + 12 除以 2，然后减去 10，结果为 4](../../../../../translated_images/gdd-calculation-corn.64a58b7a7afcd0dfd46ff733996d939f17f4f3feac9f0d1c632be3523e51ebd9.zh.png)
+![GDD = 16 + 12 除以 2，然后减去 10，结果为 4](../../../../../translated_images/zh/gdd-calculation-corn.64a58b7a7afcd0dfd46ff733996d939f17f4f3feac9f0d1c632be3523e51ebd9.png)
 
 当天玉米获得了 4 GDD。假设一种需要 800 GDD 才能成熟的玉米品种，还需要 796 GDD 才能达到成熟。
 
@@ -141,7 +141,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 通过使用物联网设备收集温度数据，农民可以在植物接近成熟时自动收到通知。一个典型的架构是物联网设备测量温度，然后通过类似 MQTT 的方式将这些遥测数据发布到互联网。服务器代码监听这些数据并将其保存到某处，例如数据库。这意味着数据可以稍后进行分析，例如夜间作业计算当天的 GDD，总结每种作物到目前为止的 GDD，并在植物接近成熟时发出警报。
 
-![遥测数据发送到服务器并保存到数据库](../../../../../translated_images/save-telemetry-database.ddc9c6bea0c5ba39.zh.png)
+![遥测数据发送到服务器并保存到数据库](../../../../../translated_images/zh/save-telemetry-database.ddc9c6bea0c5ba39.png)
 
 服务器代码还可以增强数据，例如添加额外信息。物联网设备可以发布一个标识符来指示设备的身份，服务器代码可以使用此标识符查找设备的位置以及它正在监测的作物。它还可以添加基本数据，例如当前时间，因为某些物联网设备没有必要的硬件来准确跟踪时间，或者需要额外的代码通过互联网读取当前时间。
 
@@ -228,7 +228,7 @@ CSV 文件将有两列——*日期* 和 *温度*。*日期* 列设置为服务�
 
     
 > 💁 如果您使用的是虚拟IoT设备，请勾选随机选项框并设置一个范围，以避免每次返回的温度值都相同。
-    ![勾选随机选项框并设置范围](../../../../../translated_images/select-the-random-checkbox-and-set-a-range.32cf4bc7c12e797f.zh.png) 
+    ![勾选随机选项框并设置范围](../../../../../translated_images/zh/select-the-random-checkbox-and-set-a-range.32cf4bc7c12e797f.png) 
 
     > 💁 如果您想运行一整天，那么您需要确保运行服务器代码的计算机不会进入睡眠状态，可以通过更改电源设置或运行类似[这个保持系统活跃的Python脚本](https://github.com/jaqsparow/keep-system-active)来实现。
     
@@ -248,7 +248,7 @@ CSV 文件将有两列——*日期* 和 *温度*。*日期* 列设置为服务�
 
 例如，如果当天的最高温度是25°C，最低温度是12°C：
 
-![GDD = 25 + 12 除以2，然后从结果中减去10，得到8.5](../../../../../translated_images/gdd-calculation-strawberries.59f57db94b22adb8ff6efb951ace33af104a1c6ccca3ffb0f8169c14cb160c90.zh.png)
+![GDD = 25 + 12 除以2，然后从结果中减去10，得到8.5](../../../../../translated_images/zh/gdd-calculation-strawberries.59f57db94b22adb8ff6efb951ace33af104a1c6ccca3ffb0f8169c14cb160c90.png)
 
 * 25 + 12 = 37
 * 37 / 2 = 18.5

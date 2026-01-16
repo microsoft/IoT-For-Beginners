@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Suriin ang stock gamit ang isang IoT device
 
-![Isang sketchnote overview ng araling ito](../../../../../translated_images/lesson-20.0211df9551a8abb300fc8fcf7dc2789468dea2eabe9202273ac077b0ba37f15e.tl.jpg)
+![Isang sketchnote overview ng araling ito](../../../../../translated_images/tl/lesson-20.0211df9551a8abb300fc8fcf7dc2789468dea2eabe9202273ac077b0ba37f15e.jpg)
 
 > Sketchnote ni [Nitya Narasimhan](https://github.com/nitya). I-click ang imahe para sa mas malaking bersyon.
 
@@ -39,7 +39,7 @@ Ang mga object detector ay maaaring gamitin para sa pag-check ng stock, alinman 
 
 Halimbawa, kung ang isang camera ay nakatutok sa isang hanay ng mga istante na maaaring maglaman ng 8 lata ng tomato paste, at ang object detector ay nakakita lamang ng 7 lata, nangangahulugan ito na may nawawala at kailangang muling lagyan ng stock.
 
-![7 lata ng tomato paste sa isang istante, 4 sa itaas na hilera, 3 sa ibaba](../../../../../translated_images/stock-7-cans-tomato-paste.f86059cc573d7bec.tl.png)
+![7 lata ng tomato paste sa isang istante, 4 sa itaas na hilera, 3 sa ibaba](../../../../../translated_images/tl/stock-7-cans-tomato-paste.f86059cc573d7bec.png)
 
 Sa imahe sa itaas, ang object detector ay nakakita ng 7 lata ng tomato paste sa isang istante na maaaring maglaman ng 8 lata. Hindi lamang maaaring magpadala ang IoT device ng abiso tungkol sa pangangailangan ng muling paglalagay ng stock, ngunit maaari rin itong magbigay ng indikasyon ng lokasyon ng nawawalang item, mahalagang impormasyon kung gumagamit ka ng mga robot para sa muling paglalagay ng stock sa mga istante.
 
@@ -51,7 +51,7 @@ Minsan, maling stock ang maaaring mapunta sa mga istante. Maaaring ito ay dahil 
 
 Ang object detection ay maaaring gamitin upang matukoy ang mga hindi inaasahang item, at mag-abiso sa tao o robot upang ibalik ang item sa tamang lokasyon sa lalong madaling panahon.
 
-![Isang maling lata ng baby corn sa istante ng tomato paste](../../../../../translated_images/stock-rogue-corn.be1f3ada8c457854.tl.png)
+![Isang maling lata ng baby corn sa istante ng tomato paste](../../../../../translated_images/tl/stock-rogue-corn.be1f3ada8c457854.png)
 
 Sa imahe sa itaas, isang lata ng baby corn ang inilagay sa istante sa tabi ng tomato paste. Natukoy ito ng object detector, na nagpapahintulot sa IoT device na mag-abiso sa tao o robot upang ibalik ang lata sa tamang lokasyon nito.
 
@@ -71,7 +71,7 @@ Ang mga iteration ay na-publish mula sa Custom Vision portal.
 
 1. Piliin ang **Publish** button para sa iteration.
 
-    ![Ang publish button](../../../../../translated_images/custom-vision-object-detector-publish-button.34ee379fc650ccb9856c3868d0003f413b9529f102fc73c37168c98d721cc293.tl.png)
+    ![Ang publish button](../../../../../translated_images/tl/custom-vision-object-detector-publish-button.34ee379fc650ccb9856c3868d0003f413b9529f102fc73c37168c98d721cc293.png)
 
 1. Sa *Publish Model* dialog, itakda ang *Prediction resource* sa `stock-detector-prediction` resource na ginawa mo sa nakaraang aralin. Iwanan ang pangalan bilang `Iteration2`, at piliin ang **Publish** button.
 
@@ -85,7 +85,7 @@ Ang mga iteration ay na-publish mula sa Custom Vision portal.
 
     Kopyahin din ang *Prediction-Key* value. Ito ay isang secure na key na kailangang ipasa kapag tinawag ang modelo. Tanging ang mga application na nagpapasa ng key na ito ang pinapayagang gumamit ng modelo, ang iba pang mga application ay tinatanggihan.
 
-    ![Ang prediction API dialog na nagpapakita ng URL at key](../../../../../translated_images/custom-vision-prediction-key-endpoint.30c569ffd0338864f319911f052d5e9b8c5066cb0800a26dd6f7ff5713130ad8.tl.png)
+    ![Ang prediction API dialog na nagpapakita ng URL at key](../../../../../translated_images/tl/custom-vision-prediction-key-endpoint.30c569ffd0338864f319911f052d5e9b8c5066cb0800a26dd6f7ff5713130ad8.png)
 
 ✅ Kapag ang isang bagong iteration ay na-publish, magkakaroon ito ng ibang pangalan. Paano mo sa tingin mababago ang iteration na ginagamit ng isang IoT device?
 
@@ -104,7 +104,7 @@ Kapag ginamit mo ang object detector, hindi lamang ang mga natukoy na object na 
 
 Ang mga resulta ng isang prediction sa **Predictions** tab sa Custom Vision ay may mga bounding box na iginuhit sa imahe na ipinadala para sa prediction.
 
-![4 lata ng tomato paste sa isang istante na may mga prediction para sa 4 na detection na 35.8%, 33.5%, 25.7% at 16.6%](../../../../../translated_images/custom-vision-stock-prediction.942266ab1bcca3410ecdf23643b9f5f570cfab2345235074e24c51f285777613.tl.png)
+![4 lata ng tomato paste sa isang istante na may mga prediction para sa 4 na detection na 35.8%, 33.5%, 25.7% at 16.6%](../../../../../translated_images/tl/custom-vision-stock-prediction.942266ab1bcca3410ecdf23643b9f5f570cfab2345235074e24c51f285777613.png)
 
 Sa imahe sa itaas, 4 na lata ng tomato paste ang natukoy. Sa mga resulta, isang pulang parisukat ang inilagay para sa bawat object na natukoy sa imahe, na nagpapahiwatig ng bounding box para sa imahe.
 
@@ -112,7 +112,7 @@ Sa imahe sa itaas, 4 na lata ng tomato paste ang natukoy. Sa mga resulta, isang 
 
 Ang mga bounding box ay tinutukoy gamit ang 4 na halaga - top, left, height, at width. Ang mga halagang ito ay nasa sukat na 0-1, na kumakatawan sa mga posisyon bilang porsyento ng laki ng imahe. Ang origin (ang 0,0 na posisyon) ay ang kaliwang itaas ng imahe, kaya ang top value ay ang distansya mula sa itaas, at ang ibaba ng bounding box ay ang top plus ang height.
 
-![Isang bounding box sa paligid ng isang lata ng tomato paste](../../../../../translated_images/bounding-box.1420a7ea0d3d15f71e1ffb5cf4b2271d184fac051f990abc541975168d163684.tl.png)
+![Isang bounding box sa paligid ng isang lata ng tomato paste](../../../../../translated_images/tl/bounding-box.1420a7ea0d3d15f71e1ffb5cf4b2271d184fac051f990abc541975168d163684.png)
 
 Ang imahe sa itaas ay 600 pixels ang lapad at 800 pixels ang taas. Ang bounding box ay nagsisimula sa 320 pixels pababa, na nagbibigay ng top coordinate na 0.4 (800 x 0.4 = 320). Mula sa kaliwa, ang bounding box ay nagsisimula sa 240 pixels patawid, na nagbibigay ng left coordinate na 0.4 (600 x 0.4 = 240). Ang taas ng bounding box ay 240 pixels, na nagbibigay ng height value na 0.3 (800 x 0.3 = 240). Ang lapad ng bounding box ay 120 pixels, na nagbibigay ng width value na 0.2 (600 x 0.2 = 120).
 
@@ -127,7 +127,7 @@ Ang paggamit ng mga porsyento mula 0-1 ay nangangahulugan na kahit anong laki ng
 
 Maaari mong gamitin ang mga bounding box na pinagsama sa mga posibilidad upang suriin kung gaano katumpak ang isang detection. Halimbawa, ang isang object detector ay maaaring makakita ng maraming object na nag-o-overlap, halimbawa ay nakakakita ng isang lata sa loob ng isa pa. Ang iyong code ay maaaring tumingin sa mga bounding box, maunawaan na ito ay imposible, at balewalain ang anumang mga object na may malaking overlap sa iba pang mga object.
 
-![Dalawang bounding box na nag-o-overlap sa isang lata ng tomato paste](../../../../../translated_images/overlap-object-detection.d431e03cae75072a2760430eca7f2c5fdd43045bfd72dadcbf12711f7cd6c2ae.tl.png)
+![Dalawang bounding box na nag-o-overlap sa isang lata ng tomato paste](../../../../../translated_images/tl/overlap-object-detection.d431e03cae75072a2760430eca7f2c5fdd43045bfd72dadcbf12711f7cd6c2ae.png)
 
 Sa halimbawa sa itaas, isang bounding box ang nagpakita ng isang lata ng tomato paste na may posibilidad na 78.3%. Ang pangalawang bounding box ay bahagyang mas maliit, at nasa loob ng unang bounding box na may posibilidad na 64.3%. Ang iyong code ay maaaring suriin ang mga bounding box, makita na sila ay ganap na nag-o-overlap, at balewalain ang mas mababang posibilidad dahil imposibleng ang isang lata ay nasa loob ng isa pa.
 

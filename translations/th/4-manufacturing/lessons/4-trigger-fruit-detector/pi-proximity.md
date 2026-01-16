@@ -29,13 +29,13 @@ Raspberry Pi ต้องการเซ็นเซอร์ตรวจจั�
 
 เชื่อมต่อเซ็นเซอร์ Time of Flight
 
-![เซ็นเซอร์ Time of Flight ของ Grove](../../../../../translated_images/grove-time-of-flight-sensor.d82ff2165bfded9f485de54d8d07195a6270a602696825fca19f629ddfe94e86.th.png)
+![เซ็นเซอร์ Time of Flight ของ Grove](../../../../../translated_images/th/grove-time-of-flight-sensor.d82ff2165bfded9f485de54d8d07195a6270a602696825fca19f629ddfe94e86.png)
 
 1. เสียบปลายด้านหนึ่งของสาย Grove เข้ากับช่องเสียบของเซ็นเซอร์ Time of Flight สายจะเสียบได้เพียงด้านเดียวเท่านั้น
 
 1. เมื่อ Raspberry Pi ปิดอยู่ ให้เชื่อมต่อปลายอีกด้านของสาย Grove เข้ากับหนึ่งในช่องเสียบ I²C ที่ระบุว่า **I²C** บน Grove Base Hat ที่ติดตั้งอยู่บน Pi ช่องเสียบเหล่านี้อยู่แถวล่างสุด ตรงข้ามกับพิน GPIO และอยู่ใกล้กับช่องเสียบสายกล้อง
 
-![เซ็นเซอร์ Time of Flight ของ Grove เชื่อมต่อกับช่องเสียบ I²C](../../../../../translated_images/pi-time-of-flight-sensor.58c8dc04eb3bfb57.th.png)
+![เซ็นเซอร์ Time of Flight ของ Grove เชื่อมต่อกับช่องเสียบ I²C](../../../../../translated_images/th/pi-time-of-flight-sensor.58c8dc04eb3bfb57.png)
 
 ## เขียนโปรแกรมเซ็นเซอร์ Time of Flight
 
@@ -106,7 +106,7 @@ Raspberry Pi ต้องการเซ็นเซอร์ตรวจจั�
 
     ตัววัดระยะเลเซอร์อยู่ด้านหลังของเซ็นเซอร์ ดังนั้นตรวจสอบให้แน่ใจว่าใช้ด้านที่ถูกต้องเมื่อวัดระยะทาง
 
-    ![ตัววัดระยะเลเซอร์ด้านหลังเซ็นเซอร์ Time of Flight ชี้ไปที่กล้วย](../../../../../translated_images/time-of-flight-banana.079921ad8b1496e4.th.png)
+    ![ตัววัดระยะเลเซอร์ด้านหลังเซ็นเซอร์ Time of Flight ชี้ไปที่กล้วย](../../../../../translated_images/th/time-of-flight-banana.079921ad8b1496e4.png)
 
 > 💁 คุณสามารถหาโค้ดนี้ได้ในโฟลเดอร์ [code-proximity/pi](../../../../../4-manufacturing/lessons/4-trigger-fruit-detector/code-proximity/pi)
 

@@ -17,7 +17,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 光感測器內建於 Wio Terminal 中，可以透過背面的透明塑膠窗看到。
 
-![Wio Terminal 背面的光感測器](../../../../../translated_images/wio-light-sensor.b1f529f3c95f5165.tw.png)
+![Wio Terminal 背面的光感測器](../../../../../translated_images/tw/wio-light-sensor.b1f529f3c95f5165.png)
 
 ## 程式設計光感測器
 

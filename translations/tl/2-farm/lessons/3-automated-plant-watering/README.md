@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Awtomatikong Pagdidilig ng Halaman
 
-![Isang sketchnote overview ng aralin na ito](../../../../../translated_images/lesson-7.30b5f577d3cb8e031238751475cb519c7d6dbaea261b5df4643d086ffb2a03bb.tl.jpg)
+![Isang sketchnote overview ng aralin na ito](../../../../../translated_images/tl/lesson-7.30b5f577d3cb8e031238751475cb519c7d6dbaea261b5df4643d086ffb2a03bb.jpg)
 
 > Sketchnote ni [Nitya Narasimhan](https://github.com/nitya). I-click ang imahe para sa mas malaking bersyon.
 
@@ -41,7 +41,7 @@ Ang mga IoT device ay gumagamit ng mababang boltahe. Bagama't sapat ito para sa 
 
 Ang solusyon dito ay ang pagkonekta ng pump sa isang panlabas na power supply, at paggamit ng actuator upang i-switch ang pump, katulad ng kung paano mo i-switch ang ilaw. Kailangan lamang ng kaunting kuryente (sa anyo ng enerhiya sa iyong katawan) para sa iyong daliri upang i-flip ang switch, at ito ay nagkokonekta sa ilaw sa mains electricity na tumatakbo sa 110v/240v.
 
-![Isang light switch na nagbubukas ng kuryente sa isang ilaw](../../../../../translated_images/light-switch.760317ad6ab8bd6d611da5352dfe9c73a94a0822ccec7df3c8bae35da18e1658.tl.png)
+![Isang light switch na nagbubukas ng kuryente sa isang ilaw](../../../../../translated_images/tl/light-switch.760317ad6ab8bd6d611da5352dfe9c73a94a0822ccec7df3c8bae35da18e1658.png)
 
 > 🎓 [Mains electricity](https://wikipedia.org/wiki/Mains_electricity) ay tumutukoy sa kuryenteng dinadala sa mga tahanan at negosyo sa pamamagitan ng pambansang imprastraktura sa maraming bahagi ng mundo.
 
@@ -55,11 +55,11 @@ Ang relay ay isang electromechanical switch na nagko-convert ng electrical signa
 
 > 🎓 [Electromagnets](https://wikipedia.org/wiki/Electromagnet) ay mga magnet na nilikha sa pamamagitan ng pagpapadaan ng kuryente sa isang coil ng wire. Kapag ang kuryente ay nakabukas, ang coil ay nagiging magnetized. Kapag ang kuryente ay naka-off, ang coil ay nawawala ang magnetismo nito.
 
-![Kapag naka-on, ang electromagnet ay lumilikha ng magnetic field, binubuksan ang switch para sa output circuit](../../../../../translated_images/relay-on.4db16a0fd6b66926.tl.png)
+![Kapag naka-on, ang electromagnet ay lumilikha ng magnetic field, binubuksan ang switch para sa output circuit](../../../../../translated_images/tl/relay-on.4db16a0fd6b66926.png)
 
 Sa isang relay, ang control circuit ay nagpapagana sa electromagnet. Kapag ang electromagnet ay naka-on, hinahatak nito ang isang lever na gumagalaw sa isang switch, isinasara ang isang pares ng mga contact at kinukumpleto ang output circuit.
 
-![Kapag naka-off, ang electromagnet ay hindi lumilikha ng magnetic field, binubuksan ang switch para sa output circuit](../../../../../translated_images/relay-off.c34a178a2960fecd.tl.png)
+![Kapag naka-off, ang electromagnet ay hindi lumilikha ng magnetic field, binubuksan ang switch para sa output circuit](../../../../../translated_images/tl/relay-off.c34a178a2960fecd.png)
 
 Kapag ang control circuit ay naka-off, ang electromagnet ay naka-off, pinakakawalan ang lever at binubuksan ang mga contact, pinapatay ang output circuit. Ang mga relay ay digital actuators - ang mataas na signal sa relay ay binubuksan ito, ang mababang signal ay pinapatay ito.
 
@@ -81,11 +81,11 @@ Kapag gumagalaw ang lever, kadalasan ay maririnig mo itong kumokonekta sa electr
 
 Ang electromagnet ay hindi nangangailangan ng maraming kuryente upang ma-activate at mahila ang lever, maaari itong kontrolin gamit ang 3.3V o 5V output mula sa isang IoT dev kit. Ang output circuit ay maaaring magdala ng mas maraming kuryente, depende sa relay, kabilang ang mains voltage o kahit na mas mataas na antas ng kuryente para sa pang-industriya na paggamit. Sa ganitong paraan, ang isang IoT dev kit ay maaaring kontrolin ang isang sistema ng irigasyon, mula sa isang maliit na pump para sa isang halaman, hanggang sa isang malaking pang-industriya na sistema para sa isang buong komersyal na sakahan.
 
-![Isang grove relay na may control circuit, output circuit at relay na may label](../../../../../translated_images/grove-relay-labelled.293e068f5c3c2a199bd7892f2661fdc9e10c920b535cfed317fbd6d1d4ae1168.tl.png)
+![Isang grove relay na may control circuit, output circuit at relay na may label](../../../../../translated_images/tl/grove-relay-labelled.293e068f5c3c2a199bd7892f2661fdc9e10c920b535cfed317fbd6d1d4ae1168.png)
 
 Ang imahe sa itaas ay nagpapakita ng isang Grove relay. Ang control circuit ay kumokonekta sa isang IoT device at binubuksan o pinapatay ang relay gamit ang 3.3V o 5V. Ang output circuit ay may dalawang terminal, alinman sa isa ay maaaring power o ground. Ang output circuit ay maaaring humawak ng hanggang 250V sa 10A, sapat para sa iba't ibang mains-powered na device. Maaari kang makakuha ng mga relay na maaaring humawak ng mas mataas pang antas ng kuryente.
 
-![Isang pump na naka-wire sa pamamagitan ng relay](../../../../../translated_images/pump-wired-to-relay.66c5cfc0d8918990.tl.png)
+![Isang pump na naka-wire sa pamamagitan ng relay](../../../../../translated_images/tl/pump-wired-to-relay.66c5cfc0d8918990.png)
 
 Sa imahe sa itaas, ang kuryente ay ibinibigay sa isang pump sa pamamagitan ng relay. Mayroong isang pulang wire na kumokonekta sa +5V terminal ng isang USB power supply sa isang terminal ng output circuit ng relay, at isa pang pulang wire na kumokonekta sa ibang terminal ng output circuit sa pump. Ang isang itim na wire ay kumokonekta sa pump sa ground sa USB power supply. Kapag ang relay ay binubuksan, ito ay kumukumpleto sa circuit, nagpapadala ng 5V sa pump, binubuksan ang pump.
 
@@ -135,7 +135,7 @@ Sa lesson 3, gumawa ka ng nightlight - isang LED na nagbubukas kapag mababang an
 
 Kung ginawa mo ang nakaraang aralin sa soil moisture gamit ang isang physical sensor, mapapansin mo na tumagal ng ilang segundo bago bumaba ang soil moisture reading pagkatapos mong diligan ang iyong halaman. Hindi ito dahil mabagal ang sensor, kundi dahil tumatagal ang tubig upang sumipsip sa lupa.
 💁 Kung nagdilig ka nang masyadong malapit sa sensor, maaaring napansin mong bumaba agad ang pagbabasa, tapos bumalik ulit - ito ay sanhi ng tubig na malapit sa sensor na kumakalat sa iba pang bahagi ng lupa, na nagbabawas ng kahalumigmigan ng lupa sa paligid ng sensor.
-![Ang sukat ng soil moisture na 658 ay hindi nagbabago habang dinidiligan, bumababa lamang ito sa 320 pagkatapos ng pagdidilig kapag ang tubig ay sumuot na sa lupa](../../../../../translated_images/soil-moisture-travel.a0e31af222cf1438.tl.png)
+![Ang sukat ng soil moisture na 658 ay hindi nagbabago habang dinidiligan, bumababa lamang ito sa 320 pagkatapos ng pagdidilig kapag ang tubig ay sumuot na sa lupa](../../../../../translated_images/tl/soil-moisture-travel.a0e31af222cf1438.png)
 
 Sa diagram sa itaas, ang sukat ng soil moisture ay nagpapakita ng 658. Diniligan ang halaman, ngunit hindi agad nagbabago ang sukat na ito dahil hindi pa naaabot ng tubig ang sensor. Maaaring matapos ang pagdidilig bago pa maabot ng tubig ang sensor, at saka pa lamang bababa ang halaga upang ipakita ang bagong antas ng moisture.
 
@@ -157,11 +157,11 @@ Gaano katagal dapat naka-on ang relay sa bawat pagkakataon? Mas mabuting mag-ing
 
 > 💁 Ang ganitong uri ng kontrol sa timing ay napaka-espesipiko sa IoT device na iyong binubuo, sa property na iyong sinusukat, at sa mga sensor at actuator na ginagamit.
 
-![Isang tanim na strawberry na konektado sa tubig sa pamamagitan ng pump, na ang pump ay konektado sa relay. Ang relay at isang soil moisture sensor sa tanim ay parehong konektado sa Raspberry Pi](../../../../../translated_images/strawberry-with-pump.b410fc72ac6aabad.tl.png)
+![Isang tanim na strawberry na konektado sa tubig sa pamamagitan ng pump, na ang pump ay konektado sa relay. Ang relay at isang soil moisture sensor sa tanim ay parehong konektado sa Raspberry Pi](../../../../../translated_images/tl/strawberry-with-pump.b410fc72ac6aabad.png)
 
 Halimbawa, mayroon akong tanim na strawberry na may soil moisture sensor at pump na kontrolado ng relay. Napansin ko na kapag nagdagdag ako ng tubig, tumatagal ng humigit-kumulang 20 segundo bago maging stable ang sukat ng soil moisture. Nangangahulugan ito na kailangan kong i-off ang relay at maghintay ng 20 segundo bago sukatin ang antas ng moisture. Mas gugustuhin kong kulang ang tubig kaysa sobra - maaari kong palaging i-on muli ang pump, ngunit hindi ko maaalis ang tubig mula sa tanim.
 
-![Hakbang 1, kumuha ng sukat. Hakbang 2, magdagdag ng tubig. Hakbang 3, maghintay para sa tubig na sumuot sa lupa. Hakbang 4, muling kumuha ng sukat](../../../../../translated_images/soil-moisture-delay.865f3fae206db01d.tl.png)
+![Hakbang 1, kumuha ng sukat. Hakbang 2, magdagdag ng tubig. Hakbang 3, maghintay para sa tubig na sumuot sa lupa. Hakbang 4, muling kumuha ng sukat](../../../../../translated_images/tl/soil-moisture-delay.865f3fae206db01d.png)
 
 Nangangahulugan ito na ang pinakamahusay na proseso ay isang cycle ng pagdidilig na ganito:
 

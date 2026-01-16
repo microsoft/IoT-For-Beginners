@@ -34,7 +34,7 @@ CO_OP_TRANSLATOR_METADATA:
     >
     > 例如，如果你用英文訓練 LUIS，但希望使用法語作為使用者語言，你可以使用 Bing 翻譯將像 "set a 2 minute and 27 second timer" 這樣的句子從英文翻譯成法語，然後使用 **聆聽翻譯** 按鈕將翻譯語音說入麥克風。
     >
-    > ![Bing 翻譯中的聆聽翻譯按鈕](../../../../../translated_images/bing-translate.348aa796d6efe2a92f41ea74a5cf42bb4c63d6faaa08e7f46924e072a35daa48.tw.png)
+    > ![Bing 翻譯中的聆聽翻譯按鈕](../../../../../translated_images/tw/bing-translate.348aa796d6efe2a92f41ea74a5cf42bb4c63d6faaa08e7f46924e072a35daa48.png)
 
 1. 在 `speech_api_key` 下新增翻譯 API 金鑰：
 

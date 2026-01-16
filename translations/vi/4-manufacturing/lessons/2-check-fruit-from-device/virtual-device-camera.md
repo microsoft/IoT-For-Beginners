@@ -43,11 +43,11 @@ Thêm camera vào ứng dụng CounterFit.
 
     1. Chọn nút **Add** để tạo camera.
 
-    ![Cài đặt camera](../../../../../translated_images/counterfit-create-camera.a5de97f59c0bd3cbe0416d7e89a3cfe86d19fbae05c641c53a91286412af0a34.vi.png)
+    ![Cài đặt camera](../../../../../translated_images/vi/counterfit-create-camera.a5de97f59c0bd3cbe0416d7e89a3cfe86d19fbae05c641c53a91286412af0a34.png)
 
     Camera sẽ được tạo và xuất hiện trong danh sách cảm biến.
 
-    ![Camera đã được tạo](../../../../../translated_images/counterfit-camera.001ec52194c8ee5d3f617173da2c79e1df903d10882adc625cbfc493525125d4.vi.png)
+    ![Camera đã được tạo](../../../../../translated_images/vi/counterfit-camera.001ec52194c8ee5d3f617173da2c79e1df903d10882adc625cbfc493525125d4.png)
 
 ## Lập trình camera
 
@@ -112,7 +112,7 @@ Lập trình thiết bị.
 
 1. Cấu hình hình ảnh mà camera trong CounterFit sẽ chụp. Bạn có thể đặt *Source* thành *File*, sau đó tải lên một tệp hình ảnh, hoặc đặt *Source* thành *WebCam*, và hình ảnh sẽ được chụp từ webcam của bạn. Đảm bảo rằng bạn chọn nút **Set** sau khi chọn một hình ảnh hoặc chọn webcam của bạn.
 
-    ![CounterFit với tệp được đặt làm nguồn hình ảnh và webcam hiển thị một người cầm quả chuối trong bản xem trước của webcam](../../../../../translated_images/counterfit-camera-options.eb3bd5150a8e7dffbf24bc5bcaba0cf2cdef95fbe6bbe393695d173817d6b8df.vi.png)
+    ![CounterFit với tệp được đặt làm nguồn hình ảnh và webcam hiển thị một người cầm quả chuối trong bản xem trước của webcam](../../../../../translated_images/vi/counterfit-camera-options.eb3bd5150a8e7dffbf24bc5bcaba0cf2cdef95fbe6bbe393695d173817d6b8df.png)
 
 1. Một hình ảnh sẽ được chụp và lưu dưới dạng `image.jpg` trong thư mục hiện tại. Bạn sẽ thấy tệp này trong trình khám phá của VS Code. Chọn tệp để xem hình ảnh. Nếu cần xoay, cập nhật dòng `camera.rotation = 0` phù hợp và chụp lại hình ảnh.
 

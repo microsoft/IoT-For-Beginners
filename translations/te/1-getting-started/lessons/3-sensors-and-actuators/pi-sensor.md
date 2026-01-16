@@ -25,13 +25,13 @@ CO_OP_TRANSLATOR_METADATA:
 
 లైట్ సెన్సార్‌ను జోడించండి
 
-![A grove light sensor](../../../../../translated_images/grove-light-sensor.b8127b7c434e632d.te.png)
+![A grove light sensor](../../../../../translated_images/te/grove-light-sensor.b8127b7c434e632d.png)
 
 1. Grove కేబుల్ ఒక చివరను లైట్ సెన్సార్ మాడ్యూల్ సాకెట్‌లో చేర్చండి. ఇది ఒక దిశలో మాత్రమే చేర్చబడుతుంది.
 
 1. రాస్బెర్రీ పై పవర్ ఆఫ్ ఉన్నప్పుడు, Grove కేబుల్ యొక్క మరొక చివరను Pi కి సంలగ్నమైన Grove బేస్ హ్యాట్ పై **A0** గుర్తుతో ఉన్న అనలాగ్ సాకెట్‌కు కనెక్ట్ చేయండి. ఈ సాకెట్ రైట్ నుండి రెండోది, GPIO పిన్ల పక్కన ఉన్న సాకెట్స్ వరుసలో.
 
-![The grove light sensor connected to socket A0](../../../../../translated_images/pi-light-sensor.66cc1e31fa48cd7d.te.png)
+![The grove light sensor connected to socket A0](../../../../../translated_images/te/pi-light-sensor.66cc1e31fa48cd7d.png)
 
 ## లైట్ సెన్సార్ ప్రోగ్రామ్ చేయండి
 

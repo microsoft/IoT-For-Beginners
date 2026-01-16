@@ -27,13 +27,13 @@ Maaaring ikonekta ang Grove GPS sensor sa Raspberry Pi.
 
 Ikonekta ang GPS sensor.
 
-![Isang Grove GPS sensor](../../../../../translated_images/grove-gps-sensor.247943bf69b03f0d1820ef6ed10c587f9b650e8db55b936851c92412180bd3e2.tl.png)
+![Isang Grove GPS sensor](../../../../../translated_images/tl/grove-gps-sensor.247943bf69b03f0d1820ef6ed10c587f9b650e8db55b936851c92412180bd3e2.png)
 
 1. Ipasok ang isang dulo ng Grove cable sa socket ng GPS sensor. Isang paraan lamang ang tamang pagpasok nito.
 
 1. Kapag naka-off ang Raspberry Pi, ikonekta ang kabilang dulo ng Grove cable sa UART socket na may markang **UART** sa Grove Base hat na nakakabit sa Pi. Ang socket na ito ay nasa gitnang hilera, sa gilid na pinakamalapit sa SD Card slot, sa kabilang dulo mula sa mga USB port at ethernet socket.
 
-    ![Ang Grove GPS sensor na nakakonekta sa UART socket](../../../../../translated_images/pi-gps-sensor.1f99ee2b2f6528915047ec78967bd362e0e4ee0ed594368a3837b9cf9cdaca64.tl.png)
+    ![Ang Grove GPS sensor na nakakonekta sa UART socket](../../../../../translated_images/tl/pi-gps-sensor.1f99ee2b2f6528915047ec78967bd362e0e4ee0ed594368a3837b9cf9cdaca64.png)
 
 1. Ilagay ang GPS sensor sa posisyon kung saan ang nakakabit na antena ay may malinaw na tanaw sa kalangitan - mas mainam kung malapit sa isang bukas na bintana o sa labas. Mas madali itong makakuha ng malinaw na signal kung walang nakaharang sa antena.
 

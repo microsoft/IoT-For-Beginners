@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Meyve Kalite Dedektörü Eğitimi
 
-![Bu dersin genel bir sketchnote özeti](../../../../../translated_images/lesson-15.843d21afdc6fb2bba70cd9db7b7d2f91598859fafda2078b0bdc44954194b6c0.tr.jpg)
+![Bu dersin genel bir sketchnote özeti](../../../../../translated_images/tr/lesson-15.843d21afdc6fb2bba70cd9db7b7d2f91598859fafda2078b0bdc44954194b6c0.jpg)
 
 > Sketchnote: [Nitya Narasimhan](https://github.com/nitya). Daha büyük bir versiyon için resme tıklayın.
 
@@ -47,7 +47,7 @@ Tüm mahsuller eşit şekilde olgunlaşmaz. Örneğin, domatesler çoğunluğu h
 
 Otomatik hasatın yükselişi, ürünlerin ayıklanmasını hasattan fabrikaya taşıdı. Gıdalar uzun konveyör bantlarında ilerlerken, ekipler ürünleri inceleyip kalite standartlarına uymayanları ayırırdı. Makineler sayesinde hasat daha ucuz hale geldi, ancak gıdaları elle ayırmanın hala bir maliyeti vardı.
 
-![Kırmızı bir domates algılanırsa yoluna devam eder. Yeşil bir domates algılanırsa bir kol tarafından bir atık kutusuna fırlatılır.](../../../../../translated_images/optical-tomato-sorting.61aa134bdda4e5b1bfb16a212c1e35a6ef0c426cbb8b1c975f79d7bfbf48d068.tr.png)
+![Kırmızı bir domates algılanırsa yoluna devam eder. Yeşil bir domates algılanırsa bir kol tarafından bir atık kutusuna fırlatılır.](../../../../../translated_images/tr/optical-tomato-sorting.61aa134bdda4e5b1bfb16a212c1e35a6ef0c426cbb8b1c975f79d7bfbf48d068.png)
 
 Bir sonraki evrim, ayırma işlemini makinelerle yapmak oldu; bu makineler ya hasat makinesine entegre edildi ya da işleme tesislerinde kullanıldı. Bu makinelerin ilk nesli, renkleri algılamak için optik sensörler kullanarak, yeşil domatesleri kollar veya hava püskürtücüleriyle bir atık kutusuna itip, kırmızı domateslerin konveyör bantlarında yoluna devam etmesini sağladı.
 
@@ -61,7 +61,7 @@ Bu ayırma makinelerinin en son evrimi, AI ve ML'den yararlanarak, yalnızca ye�
 
 Geleneksel programlama, verileri alıp bir algoritma uygulayarak çıktı elde ettiğiniz bir yöntemdir. Örneğin, bir önceki projede GPS koordinatlarını ve bir coğrafi çiti alıp, Azure Maps tarafından sağlanan bir algoritmayı uygulayarak, noktanın çitin içinde mi yoksa dışında mı olduğunu belirleyen bir sonuç elde ettiniz. Daha fazla veri girdiniz, daha fazla çıktı aldınız.
 
-![Geleneksel geliştirme, girdiyi ve bir algoritmayı alır ve çıktı verir. Makine öğrenimi, girdiyi ve çıktı verilerini kullanarak bir model eğitir ve bu model yeni girdilerle yeni çıktılar oluşturabilir.](../../../../../translated_images/traditional-vs-ml.5c20c169621fa539.tr.png)
+![Geleneksel geliştirme, girdiyi ve bir algoritmayı alır ve çıktı verir. Makine öğrenimi, girdiyi ve çıktı verilerini kullanarak bir model eğitir ve bu model yeni girdilerle yeni çıktılar oluşturabilir.](../../../../../translated_images/tr/traditional-vs-ml.5c20c169621fa539.png)
 
 Makine öğrenimi bu süreci tersine çevirir - veriler ve bilinen çıktılarla başlarsınız ve makine öğrenimi algoritması verilerden öğrenir. Daha sonra bu eğitilmiş algoritmayı, yani bir *makine öğrenimi modeli* veya *modeli* alabilir, yeni verilerle besleyebilir ve yeni çıktılar elde edebilirsiniz.
 
@@ -71,7 +71,7 @@ Makine öğrenimi bu süreci tersine çevirir - veriler ve bilinen çıktılarla
 
 > 🎓 ML modellerinin sonuçlarına *tahminler* denir.
 
-![2 muz, biri olgun ve tahmini %99.7 olgun, %0.3 olgunlaşmamış; diğeri olgunlaşmamış ve tahmini %1.4 olgun, %98.6 olgunlaşmamış.](../../../../../translated_images/bananas-ripe-vs-unripe-predictions.8d0e2034014aa50ece4e4589e724b142da0681f35470fe3db3f7d51240f69c85.tr.png)
+![2 muz, biri olgun ve tahmini %99.7 olgun, %0.3 olgunlaşmamış; diğeri olgunlaşmamış ve tahmini %1.4 olgun, %98.6 olgunlaşmamış.](../../../../../translated_images/tr/bananas-ripe-vs-unripe-predictions.8d0e2034014aa50ece4e4589e724b142da0681f35470fe3db3f7d51240f69c85.png)
 
 ML modelleri ikili bir cevap vermez, bunun yerine olasılıklar sunar. Örneğin, bir model bir muz fotoğrafı alabilir ve `olgun` için %99.7, `olgunlaşmamış` için %0.3 tahmininde bulunabilir. Kodunuz en iyi tahmini seçer ve muzun olgun olduğunu belirler.
 
@@ -87,7 +87,7 @@ Başarılı bir görüntü sınıflandırıcı eğitmek için milyonlarca görü
 
 Bir görüntü sınıflandırıcı geniş bir yelpazede görüntüler için eğitildiğinde, şekilleri, renkleri ve desenleri tanımada oldukça iyi hale gelir. Transfer öğrenimi, modelin görüntü parçalarını tanımada öğrendiklerini almasına ve yeni görüntüleri tanımak için kullanmasına olanak tanır.
 
-![Bir kez şekilleri tanıyabilirseniz, bunları farklı konfigürasyonlarda bir tekne veya kedi yapmak için kullanabilirsiniz.](../../../../../translated_images/shapes-to-images.1a309f0ea88dd66f.tr.png)
+![Bir kez şekilleri tanıyabilirseniz, bunları farklı konfigürasyonlarda bir tekne veya kedi yapmak için kullanabilirsiniz.](../../../../../translated_images/tr/shapes-to-images.1a309f0ea88dd66f.png)
 
 Bunu, çocukların şekil kitaplarına benzetebilirsiniz; bir yarım daire, bir dikdörtgen ve bir üçgeni tanıyabildiğinizde, bunların bir tekne mi yoksa bir kedi mi olduğunu şekillerin düzenine göre anlayabilirsiniz. Görüntü sınıflandırıcı şekilleri tanıyabilir ve transfer öğrenimi, hangi kombinasyonun bir tekne veya kedi - ya da olgun bir muz - oluşturduğunu öğretir.
 
@@ -99,7 +99,7 @@ Bu işlemi yapmanıza yardımcı olabilecek çok çeşitli araçlar vardır, bun
 
 Custom Vision, görüntü sınıflandırıcıları eğitmek için bulut tabanlı bir araçtır. Sadece az sayıda görüntü kullanarak bir sınıflandırıcı eğitmenize olanak tanır. Görüntüleri bir web portalı, web API veya SDK aracılığıyla yükleyebilir ve her görüntüye o görüntünün sınıflandırmasını belirten bir *etiket* verebilirsiniz. Daha sonra modeli eğitip, performansını test edebilirsiniz. Modelden memnun kaldığınızda, web API veya SDK aracılığıyla erişilebilecek sürümlerini yayınlayabilirsiniz.
 
-![Azure Custom Vision logosu](../../../../../translated_images/custom-vision-logo.d3d4e7c8a87ec9daf825e72e210576c3cbf60312577be7a139e22dd97ab7f1e6.tr.png)
+![Azure Custom Vision logosu](../../../../../translated_images/tr/custom-vision-logo.d3d4e7c8a87ec9daf825e72e210576c3cbf60312577be7a139e22dd97ab7f1e6.png)
 
 > 💁 Custom Vision modeli, her sınıflandırma için sadece 5 görüntüyle eğitilebilir, ancak daha fazla görüntü daha iyidir. En az 30 görüntüyle daha iyi sonuçlar elde edebilirsiniz.
 
@@ -155,7 +155,7 @@ Custom Vision'ı kullanmak için önce Azure CLI kullanarak Azure'da iki cogniti
 
     Projenizi oluştururken, daha önce oluşturduğunuz `fruit-quality-detector-training` kaynağını kullandığınızdan emin olun. *Sınıflandırma* proje türünü, *Çoklu sınıf* sınıflandırma türünü ve *Gıda* alanını seçin.
 
-    ![Custom Vision projesi için ayarlar: isim fruit-quality-detector, açıklama yok, kaynak fruit-quality-detector-training, proje türü sınıflandırma, sınıflandırma türü çoklu sınıf, alan gıda](../../../../../translated_images/custom-vision-create-project.cf46325b92d8b131089f6647cf5e07b664cb77850e106d66e3c057b6b69756c6.tr.png)
+    ![Custom Vision projesi için ayarlar: isim fruit-quality-detector, açıklama yok, kaynak fruit-quality-detector-training, proje türü sınıflandırma, sınıflandırma türü çoklu sınıf, alan gıda](../../../../../translated_images/tr/custom-vision-create-project.cf46325b92d8b131089f6647cf5e07b664cb77850e106d66e3c057b6b69756c6.png)
 
 ✅ Görüntü sınıflandırıcınız için Custom Vision kullanıcı arayüzünü keşfetmek için biraz zaman ayırın.
 
@@ -173,7 +173,7 @@ Görüntü sınıflandırıcılar çok düşük çözünürlükte çalışır. �
 
     * 2 olgun muz kullanarak, her birinin birkaç farklı açıdan en az 7 resmini (5 eğitim, 2 test için) çekin, ancak ideal olarak daha fazla çekin.
 
-        ![2 farklı muzun fotoğrafları](../../../../../translated_images/banana-training-images.530eb203346d73bc23b8b990fb4609470bf4ff7c942ccc13d4cfffeed9be1ad4.tr.png)
+        ![2 farklı muzun fotoğrafları](../../../../../translated_images/tr/banana-training-images.530eb203346d73bc23b8b990fb4609470bf4ff7c942ccc13d4cfffeed9be1ad4.png)
 
     * Aynı işlemi 2 olgunlaşmamış muz için tekrarlayın.
 
@@ -183,7 +183,7 @@ Görüntü sınıflandırıcılar çok düşük çözünürlükte çalışır. �
 
 1. [Microsoft dokümanlarındaki sınıflandırıcı oluşturma hızlı başlangıç rehberinin görüntüleri yükleme ve etiketleme bölümünü](https://docs.microsoft.com/azure/cognitive-services/custom-vision-service/getting-started-build-a-classifier?WT.mc_id=academic-17441-jabenn#upload-and-tag-images) takip ederek eğitim görüntülerinizi yükleyin. Olgun meyveleri `ripe`, olgunlaşmamış meyveleri `unripe` olarak etiketleyin.
 
-    ![Olgun ve olgunlaşmamış muz resimlerinin yüklenmesini gösteren yükleme diyalogları](../../../../../translated_images/image-upload-bananas.0751639f3815e0ec42bdbc6254d1e4357a185834d1ae10c9948a0e7d6d336695.tr.png)
+    ![Olgun ve olgunlaşmamış muz resimlerinin yüklenmesini gösteren yükleme diyalogları](../../../../../translated_images/tr/image-upload-bananas.0751639f3815e0ec42bdbc6254d1e4357a185834d1ae10c9948a0e7d6d336695.png)
 
 1. [Microsoft dokümanlarındaki sınıflandırıcıyı eğitme bölümünü](https://docs.microsoft.com/azure/cognitive-services/custom-vision-service/getting-started-build-a-classifier?WT.mc_id=academic-17441-jabenn#train-the-classifier) takip ederek yüklediğiniz görüntüler üzerinde görüntü sınıflandırıcısını eğitin.
 
@@ -201,7 +201,7 @@ Sınıflandırıcınız eğitildikten sonra, ona sınıflandırması için yeni 
 
 1. [Microsoft dokümanlarındaki modelinizi test etme dokümantasyonunu](https://docs.microsoft.com/azure/cognitive-services/custom-vision-service/test-your-model?WT.mc_id=academic-17441-jabenn#test-your-model) takip ederek görüntü sınıflandırıcınızı test edin. Daha önce oluşturduğunuz test görüntülerini kullanın, eğitim için kullandığınız görüntüleri değil.
 
-    ![Olgunlaşmamış bir muzun %98.9 olasılıkla olgunlaşmamış, %1.1 olasılıkla olgun olarak tahmin edilmesi](../../../../../translated_images/banana-unripe-quick-test-prediction.dae9b5e1c4ef7c64886422438850ea14f0be6ac918c217ea3b255c685abfabe7.tr.png)
+    ![Olgunlaşmamış bir muzun %98.9 olasılıkla olgunlaşmamış, %1.1 olasılıkla olgun olarak tahmin edilmesi](../../../../../translated_images/tr/banana-unripe-quick-test-prediction.dae9b5e1c4ef7c64886422438850ea14f0be6ac918c217ea3b255c685abfabe7.png)
 
 1. Erişebildiğiniz tüm test görüntülerini deneyin ve olasılıkları gözlemleyin.
 

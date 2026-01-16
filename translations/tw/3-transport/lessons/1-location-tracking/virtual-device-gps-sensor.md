@@ -47,11 +47,11 @@ CO_OP_TRANSLATOR_METADATA:
 
     1. 點擊 **Add** 按鈕，在端口 `/dev/ttyAMA0` 上創建 GPS 傳感器。
 
-    ![GPS 傳感器設置](../../../../../translated_images/counterfit-create-gps-sensor.6385dc9357d85ad1d47b4abb2525e7651fd498917d25eefc5a72feab09eedc70.tw.png)
+    ![GPS 傳感器設置](../../../../../translated_images/tw/counterfit-create-gps-sensor.6385dc9357d85ad1d47b4abb2525e7651fd498917d25eefc5a72feab09eedc70.png)
 
     GPS 傳感器將被創建並顯示在傳感器列表中。
 
-    ![已創建的 GPS 傳感器](../../../../../translated_images/counterfit-gps-sensor.3fbb15af0a5367566f2f11324ef5a6f30861cdf2b497071a5e002b7aa473550e.tw.png)
+    ![已創建的 GPS 傳感器](../../../../../translated_images/tw/counterfit-gps-sensor.3fbb15af0a5367566f2f11324ef5a6f30861cdf2b497071a5e002b7aa473550e.png)
 
 ## 編程 GPS 傳感器
 
@@ -111,17 +111,17 @@ CO_OP_TRANSLATOR_METADATA:
 
     * 將 **Source** 設置為 `Lat/Lon`，並設置明確的緯度、經度以及用於獲得 GPS 定位的衛星數量。此值僅會發送一次，因此勾選 **Repeat** 框以使數據每秒重複發送。
 
-      ![選擇緯度和經度的 GPS 傳感器](../../../../../translated_images/counterfit-gps-sensor-latlon.008c867d75464fbe7f84107cc57040df565ac07cb57d2f21db37d087d470197d.tw.png)
+      ![選擇緯度和經度的 GPS 傳感器](../../../../../translated_images/tw/counterfit-gps-sensor-latlon.008c867d75464fbe7f84107cc57040df565ac07cb57d2f21db37d087d470197d.png)
 
     * 將 **Source** 設置為 `NMEA`，並在文本框中添加一些 NMEA 語句。所有這些值將被發送，每個新的 GGA（位置修正）語句可以在 1 秒延遲後被讀取。
 
-      ![設置 NMEA 語句的 GPS 傳感器](../../../../../translated_images/counterfit-gps-sensor-nmea.c62eea442171e17e19528b051b104cfcecdc9cd18db7bc72920f29821ae63f73.tw.png)
+      ![設置 NMEA 語句的 GPS 傳感器](../../../../../translated_images/tw/counterfit-gps-sensor-nmea.c62eea442171e17e19528b051b104cfcecdc9cd18db7bc72920f29821ae63f73.png)
 
       您可以使用像 [nmeagen.org](https://www.nmeagen.org) 這樣的工具通過在地圖上繪製來生成這些語句。這些值僅會發送一次，因此勾選 **Repeat** 框以使數據在全部發送後每秒重複一次。
 
     * 將 **Source** 設置為 GPX 文件，並上傳包含軌跡位置的 GPX 文件。您可以從一些流行的地圖和徒步網站（如 [AllTrails](https://www.alltrails.com/)）下載 GPX 文件。這些文件包含作為軌跡的多個 GPS 位置，GPS 傳感器將以 1 秒間隔返回每個新位置。
 
-      ![設置 GPX 文件的 GPS 傳感器](../../../../../translated_images/counterfit-gps-sensor-gpxfile.8310b063ce8a425ccc8ebeec8306aeac5e8e55207f007d52c6e1194432a70cd9.tw.png)
+      ![設置 GPX 文件的 GPS 傳感器](../../../../../translated_images/tw/counterfit-gps-sensor-gpxfile.8310b063ce8a425ccc8ebeec8306aeac5e8e55207f007d52c6e1194432a70cd9.png)
 
       這些值僅會發送一次，因此勾選 **Repeat** 框以使數據在全部發送後每秒重複一次。
 

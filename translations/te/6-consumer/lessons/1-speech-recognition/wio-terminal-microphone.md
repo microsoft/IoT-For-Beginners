@@ -15,11 +15,11 @@ CO_OP_TRANSLATOR_METADATA:
 
 Wio టెర్మినల్ ఇప్పటికే ఒక మైక్‌తో తీసుకున్నది, దీన్ని స్పీచ్ రికగ్నిషన్ కోసం ఆడియోను క్యాప్చర్ చేయడానికి ఉపయోగించవచ్చు.
 
-![Wio టెర్మినల్‌పై ఉన్న మైక్](../../../../../translated_images/wio-mic.3f8c843dbe8ad917.te.png)
+![Wio టెర్మినల్‌పై ఉన్న మైక్](../../../../../translated_images/te/wio-mic.3f8c843dbe8ad917.png)
 
 స్పీకర్‌ను జోడించడానికి, మీరు [ReSpeaker 2-Mics Pi Hat](https://www.seeedstudio.com/ReSpeaker-2-Mics-Pi-HAT.html) ఉపయోగించవచ్చు. ఇది ఒక బాహ్య బోర్డు, ఇది 2 MEMS మైక్రోఫోన్లను, అలాగే ఒక స్పీకర్ కనెక్టర్ మరియు హెడ్‌ఫోన్ సాకెట్‌ను కలిగి ఉంటుంది.
 
-![ReSpeaker 2-Mics Pi Hat](../../../../../translated_images/respeaker.f5d19d1c6b14ab16.te.png)
+![ReSpeaker 2-Mics Pi Hat](../../../../../translated_images/te/respeaker.f5d19d1c6b14ab16.png)
 
 మీకు కావలసినది లేదా హెడ్‌ఫోన్లు, 3.5mm జాక్ కలిగిన స్పీకర్, లేదా [Mono Enclosed Speaker - 2W 6 Ohm](https://www.seeedstudio.com/Mono-Enclosed-Speaker-2W-6-Ohm-p-2832.html) వంటి JST కనెక్షన్ కలిగిన స్పీకర్ కావాలి.
 
@@ -35,7 +35,7 @@ ReSpeaker 2-Mics Pi Hat కనెక్ట్ చేసుకోవడాని�
 
     పిన్లు ఇలా కనెక్ట్ చేయాలి:
 
-    ![పిన్ డయాగ్రామ్](../../../../../translated_images/wio-respeaker-wiring-0.767f80aa65081038.te.png)
+    ![పిన్ డయాగ్రామ్](../../../../../translated_images/te/wio-respeaker-wiring-0.767f80aa65081038.png)
 
 1. ReSpeaker మరియు Wio టెర్మినల్‌ను GPIO సాకెట్లు ఎత్తుగా మరియు ఎడమ వైపున ఉంచండి.
 
@@ -43,33 +43,33 @@ ReSpeaker 2-Mics Pi Hat కనెక్ట్ చేసుకోవడాని�
 
 1. ఎడమ వైపు ఉన్న GPIO సాకెట్లంతా ఇలా కేపట్టండి. పిన్లు బలంగా ఉండేలా చూసుకోండి.
 
-    ![ReSpeakerతో Wio టెర్మినల్ యొక్క ఎడమ వైపు పిన్లు వైర్ చేయడం](../../../../../translated_images/wio-respeaker-wiring-1.8d894727f2ba2400.te.png)
+    ![ReSpeakerతో Wio టెర్మినల్ యొక్క ఎడమ వైపు పిన్లు వైర్ చేయడం](../../../../../translated_images/te/wio-respeaker-wiring-1.8d894727f2ba2400.png)
 
-    ![ReSpeakerతో Wio టెర్మినల్ యొక్క ఎడమ వైపు పిన్లు వైర్ చేయడం](../../../../../translated_images/wio-respeaker-wiring-2.329e1cbd306e754f.te.png)
+    ![ReSpeakerతో Wio టెర్మినల్ యొక్క ఎడమ వైపు పిన్లు వైర్ చేయడం](../../../../../translated_images/te/wio-respeaker-wiring-2.329e1cbd306e754f.png)
 
     > 💁 మీ జంపర్ కేబుల్స్ రిబ్బన్స్‌గా ఉంటే, వాటిని కూర్చుంచడం సరళంగా ఉంటుంది – అన్ని కేబుల్స్ ని క్రమం తప్పకుండా కనెక్ట్ చేశారని ధృవీకరించుకోవడానికి ఇది సులువు.
 
 1. ReSpeaker మరియు Wio టెర్మినల్ యొక్క కుడి వైపు GPIO సాకెట్లను దోస్మీదమ్ము చేసుకోండి. ఈ కేబుల్స్ ఇప్పటికే ఉన్న కేబుల్స్ చుట్టూ పోవాలి.
 
-    ![ReSpeakerతో Wio టెర్మినల్ యొక్క కుడి వైపు పిన్లు వైర్ చేయడం](../../../../../translated_images/wio-respeaker-wiring-3.75b0be447e2fa930.te.png)
+    ![ReSpeakerతో Wio టెర్మినల్ యొక్క కుడి వైపు పిన్లు వైర్ చేయడం](../../../../../translated_images/te/wio-respeaker-wiring-3.75b0be447e2fa930.png)
 
-    ![ReSpeakerతో Wio టెర్మినల్ యొక్క కుడి వైపు పిన్లు వైర్ చేయడం](../../../../../translated_images/wio-respeaker-wiring-4.aa9cd434d8779437.te.png)
+    ![ReSpeakerతో Wio టెర్మినల్ యొక్క కుడి వైపు పిన్లు వైర్ చేయడం](../../../../../translated_images/te/wio-respeaker-wiring-4.aa9cd434d8779437.png)
 
     > 💁 మీ జంపర్ కేబుల్స్ రిబ్బన్స్‌గా ఉంటే, వాటిని రెండు రిబ్బన్లుగా విభజించండి. ఉన్న కేబుల్స్ ఒక పక్కన, మరో రిబ్బన్ మరొక పక్కన వదిలండి.
 
     > 💁 మీరు పిన్‌లను బ్లాక్‌లో చీమి ఉంచడానికి స్టికీ టేప్ ఉపయోగించవచ్చు, ఇలా చేస్తే కనెక్ట్ చేస్తున్నప్పుడు పిన్‌లు తీసివేయకుండా ఉంచగలుగుతారు.
     >
-    > ![టేపుతో పిన్‌లను స్థిరపరచడం](../../../../../translated_images/wio-respeaker-wiring-5.af117c20acf622f3.te.png)
+    > ![టేపుతో పిన్‌లను స్థిరపరచడం](../../../../../translated_images/te/wio-respeaker-wiring-5.af117c20acf622f3.png)
 
 1. మీరు ఒక స్పీకర్‌ను జోడించాలి.
 
     * మీరు JST కేబుల్ కలిగి ఉన్న స్పీకర్ ఉపయోగిస్తుంటే, దాన్ని ReSpeaker పైని JST పోర్ట్‌కు కనెక్ట్ చేయండి.
 
-      ![JST కేబుల్‌తో ReSpeakerకు కనెక్ట్ చేసిన స్పీకర్](../../../../../translated_images/respeaker-jst-speaker.a441d177809df945.te.png)
+      ![JST కేబుల్‌తో ReSpeakerకు కనెక్ట్ చేసిన స్పీకర్](../../../../../translated_images/te/respeaker-jst-speaker.a441d177809df945.png)
 
     * మీరు 3.5mm జాక్ కలిగి ఉన్న స్పీకర్ లేదా హెడ్‌ఫోన్‌లను ఉపయోగిస్తుంటే, వాటిని 3.5mm జాక్ సాకెట్‌లో చొప్పించండి.
 
-      ![3.5mm జాక్ సాకెట్ ద్వారా ReSpeakerకు కనెక్ట్ చేసిన స్పీకర్](../../../../../translated_images/respeaker-35mm-speaker.ad79ef4f128c7751.te.png)
+      ![3.5mm జాక్ సాకెట్ ద్వారా ReSpeakerకు కనెక్ట్ చేసిన స్పీకర్](../../../../../translated_images/te/respeaker-35mm-speaker.ad79ef4f128c7751.png)
 
 ### టాస్క్ - SD కార్డ్ సెట్ చేయండి
 
@@ -79,7 +79,7 @@ ReSpeaker 2-Mics Pi Hat కనెక్ట్ చేసుకోవడాని�
 
 1. SD కార్డ్‌ను Wio టెర్మినల్ ఎడమ వైపున ఉన్న SD కార్డ్ స్లాట్‌లో, పవర్ బటన్ కింద ఉన్న స్లాట్‌లో చొప్పించండి. కార్డ్ సక్రమంగా మరియు క్లిక్ తో లోపలికి వెళ్ళేలా చూసుకోండి – అవసరమైతే ఒక సన్నని టూల్ లేదా మరొక SD కార్డ్ ఉపయోగించి దాని మొత్తం లోపలికి నెట్టండి.
 
-    ![పవర్ స్విచ్ కింది SD కార్డ్ స్లాట్‌లో SD కార్డ్‌ను చొప్పించడం](../../../../../translated_images/wio-sd-card.acdcbe322fa4ee7f.te.png)
+    ![పవర్ స్విచ్ కింది SD కార్డ్ స్లాట్‌లో SD కార్డ్‌ను చొప్పించడం](../../../../../translated_images/te/wio-sd-card.acdcbe322fa4ee7f.png)
 
     > 💁 SD కార్డ్‌ను ఎజెక్ట్ చేయడానికి, దాన్ని కొంచెం నొక్కాలి, అప్పుడు అది బయటకు వస్తుంది. దీని కొరకు ఫ్లాట్-హెడ్ స్క్రూడ్రైవర్ లేదా మరొక SD కార్డ్ వంటి సన్నని టూల్ అవసరం.
 

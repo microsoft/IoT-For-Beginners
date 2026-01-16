@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # 从物联网设备检查水果质量
 
-![本课的手绘笔记概览](../../../../../translated_images/lesson-16.215daf18b00631fbdfd64c6fc2dc6044dff5d544288825d8076f9fb83d964c23.zh.jpg)
+![本课的手绘笔记概览](../../../../../translated_images/zh/lesson-16.215daf18b00631fbdfd64c6fc2dc6044dff5d544288825d8076f9fb83d964c23.jpg)
 
 > 手绘笔记由 [Nitya Narasimhan](https://github.com/nitya) 提供。点击图片查看大图。
 
@@ -35,7 +35,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 顾名思义，摄像头传感器是可以连接到物联网设备的摄像头。它们可以拍摄静态图像或捕获流媒体视频。有些会返回原始图像数据，而有些会将图像数据压缩成如 JPEG 或 PNG 格式的图像文件。通常，与物联网设备配套的摄像头比你习惯使用的摄像头要小得多，分辨率也较低，但你也可以找到分辨率媲美高端手机的摄像头。你还可以选择各种可更换镜头、多摄像头配置、红外热成像摄像头或紫外线摄像头。
 
-![场景中的光线通过镜头聚焦到 CMOS 传感器上](../../../../../translated_images/cmos-sensor.75f9cd74decb137149a4c9ea825251a4549497d67c0ae2776159e6102bb53aa9.zh.png)
+![场景中的光线通过镜头聚焦到 CMOS 传感器上](../../../../../translated_images/zh/cmos-sensor.75f9cd74decb137149a4c9ea825251a4549497d67c0ae2776159e6102bb53aa9.png)
 
 大多数摄像头传感器使用图像传感器，其中每个像素是一个光电二极管。镜头将图像聚焦到图像传感器上，成千上万个光电二极管检测到落在其上的光线，并将其记录为像素数据。
 
@@ -83,7 +83,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 1. 点击该迭代的 **发布** 按钮。
 
-    ![发布按钮](../../../../../translated_images/custom-vision-publish-button.b7174e1977b0c33b8b72d4e5b1326c779e0af196f3849d09985ee2d7d5493a39.zh.png)
+    ![发布按钮](../../../../../translated_images/zh/custom-vision-publish-button.b7174e1977b0c33b8b72d4e5b1326c779e0af196f3849d09985ee2d7d5493a39.png)
 
 1. 在 *发布模型* 对话框中，将 *预测资源* 设置为你在上一课中创建的 `fruit-quality-detector-prediction` 资源。将名称保留为 `Iteration2`，然后点击 **发布** 按钮。
 
@@ -97,7 +97,7 @@ CO_OP_TRANSLATOR_METADATA:
 
     同时复制 *预测密钥* 值。这是一个安全密钥，调用模型时必须传递。只有传递此密钥的应用程序才被允许使用模型，其他应用程序将被拒绝。
 
-    ![预测 API 对话框显示 URL 和密钥](../../../../../translated_images/custom-vision-prediction-key-endpoint.30c569ffd0338864f319911f052d5e9b8c5066cb0800a26dd6f7ff5713130ad8.zh.png)
+    ![预测 API 对话框显示 URL 和密钥](../../../../../translated_images/zh/custom-vision-prediction-key-endpoint.30c569ffd0338864f319911f052d5e9b8c5066cb0800a26dd6f7ff5713130ad8.png)
 
 ✅ 当一个新迭代被发布时，它会有一个不同的名称。你认为如何更改物联网设备使用的迭代？
 
@@ -118,7 +118,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 为了获得最佳的图像分类器结果，你需要用与预测图像尽可能相似的图像训练模型。例如，如果你用手机摄像头捕获图像进行训练，图像质量、清晰度和颜色会与物联网设备连接的摄像头不同。
 
-![两张香蕉图片，一张是物联网设备拍摄的低分辨率、光线较差的图片，另一张是手机拍摄的高分辨率、光线良好的图片](../../../../../translated_images/banana-picture-compare.174df164dc326a42cf7fb051a7497e6113c620e91552d92ca914220305d47d9a.zh.png)
+![两张香蕉图片，一张是物联网设备拍摄的低分辨率、光线较差的图片，另一张是手机拍摄的高分辨率、光线良好的图片](../../../../../translated_images/zh/banana-picture-compare.174df164dc326a42cf7fb051a7497e6113c620e91552d92ca914220305d47d9a.png)
 
 在上图中，左边的香蕉图片是用树莓派摄像头拍摄的，右边的图片是用 iPhone 在同一位置拍摄的同一香蕉。可以明显看出质量差异——iPhone 的图片更清晰，颜色更鲜艳，对比度更高。
 

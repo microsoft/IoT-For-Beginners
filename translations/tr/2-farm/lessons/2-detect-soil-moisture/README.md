@@ -22,7 +22,7 @@ I²C, 2 ana tel ve 2 güç teli olmak üzere toplam 4 telden oluşan bir veri yo
 | VCC | Ortak Gerilim Toplayıcı | Cihazlar için güç kaynağıdır. Bu tel, SDA ve SCL tellerine bağlanarak bir pull-up direnç üzerinden güç sağlar ve hiçbir cihaz denetleyici olmadığında sinyali kapatır. |
 | GND | Toprak | Elektrik devresi için ortak bir toprak sağlar. |
 
-![I2C veri yolu, SDA ve SCL tellerine bağlı 3 cihaz ile ortak bir toprak teli paylaşır](../../../../../translated_images/i2c.83da845dde02256bdd462dbe0d5145461416b74930571b89d1ae142841eeb584.tr.png)
+![I2C veri yolu, SDA ve SCL tellerine bağlı 3 cihaz ile ortak bir toprak teli paylaşır](../../../../../translated_images/tr/i2c.83da845dde02256bdd462dbe0d5145461416b74930571b89d1ae142841eeb584.png)
 
 Veri göndermek için bir cihaz, veri göndermeye hazır olduğunu göstermek için bir başlangıç durumu oluşturur. Bu cihaz daha sonra denetleyici olur. Denetleyici, iletişim kurmak istediği cihazın adresini ve veri okumak mı yoksa yazmak mı istediğini gönderir. Veri iletimi tamamlandıktan sonra, denetleyici bir bitiş durumu göndererek işlemin bittiğini belirtir. Bundan sonra başka bir cihaz denetleyici olabilir ve veri gönderip alabilir.
 
@@ -37,7 +37,7 @@ UART, iki cihazın iletişim kurmasını sağlayan fiziksel devreleri içerir. H
 * Cihaz 1, Tx pininden veri gönderir, bu veri cihaz 2 tarafından Rx pininde alınır.
 * Cihaz 1, Rx pininde cihaz 2'nin Tx pininden gönderdiği veriyi alır.
 
-![Bir çipin Tx pini diğer çipin Rx pinine ve tam tersi şekilde bağlanmış UART](../../../../../translated_images/uart.d0dbd3fb9e3728c6.tr.png)
+![Bir çipin Tx pini diğer çipin Rx pinine ve tam tersi şekilde bağlanmış UART](../../../../../translated_images/tr/uart.d0dbd3fb9e3728c6.png)
 
 > 🎓 Veriler birer bit olarak gönderilir ve bu *seri* iletişim olarak bilinir. Çoğu işletim sistemi ve mikrodenetleyici, kodunuzun erişebileceği *seri portlar* yani seri veri gönderip alabilen bağlantılara sahiptir.
 
@@ -66,7 +66,7 @@ SPI kontrolcüleri 3 tel kullanır ve her çevre birimi için 1 ekstra tel eklen
 | SCLK | Seri Saat | Bu tel, kontrolcü tarafından ayarlanan bir hızda saat sinyali gönderir. |
 | CS   | Çip Seçimi | Kontrolcünün birden fazla teli vardır, her çevre birimi için bir tel, ve her tel ilgili çevre birimin CS teline bağlanır. |
 
-![Bir kontrolcü ve iki çevre birimi ile SPI](../../../../../translated_images/spi.297431d6f98b386b.tr.png)
+![Bir kontrolcü ve iki çevre birimi ile SPI](../../../../../translated_images/tr/spi.297431d6f98b386b.png)
 
 CS teli, COPI ve CIPO telleri üzerinden bir seferde bir çevre birimini etkinleştirmek için kullanılır. Kontrolcü, çevre birimini değiştirmesi gerektiğinde, şu anda etkin olan çevre birimine bağlı CS telini devre dışı bırakır, ardından bir sonraki iletişim kurmak istediği çevre birimine bağlı teli etkinleştirir.
 
@@ -127,13 +127,13 @@ Toprak nemi, gravimetrik veya hacimsel su içeriği kullanılarak ölçülür.
 
 Toprak nem sensörleri elektriksel direnç veya kapasitansı ölçer - bu sadece toprak nemine değil, aynı zamanda toprak türüne de bağlıdır çünkü topraktaki bileşenler elektriksel özelliklerini değiştirebilir. İdeal olarak sensörler kalibre edilmelidir - yani sensörden alınan ölçümler daha bilimsel bir yaklaşımla bulunan ölçümlerle karşılaştırılmalıdır. Örneğin, bir laboratuvar belirli bir tarladan alınan örneklerle gravimetrik toprak nemini birkaç kez hesaplayabilir ve bu sayılar sensörü kalibre etmek için kullanılabilir, sensör ölçümünü gravimetrik toprak nemiyle eşleştirir.
 
-![Toprak nem içeriğine karşı voltaj grafiği](../../../../../translated_images/soil-moisture-to-voltage.df86d80cda158700.tr.png)
+![Toprak nem içeriğine karşı voltaj grafiği](../../../../../translated_images/tr/soil-moisture-to-voltage.df86d80cda158700.png)
 
 Yukarıdaki grafik bir sensörün nasıl kalibre edileceğini gösterir. Voltaj, nemli ağırlığın kuru ağırlığa (önce nemli ölçüm, ardından fırında kurutulup kuru ölçüm) karşılaştırılarak ölçüldüğü bir laboratuvar tarafından ölçülen bir toprak örneği için yakalanır. Birkaç ölçüm alındıktan sonra, bu bir grafikte çizilir ve noktalara bir çizgi oturtulur. Bu çizgi, bir IoT cihazı tarafından alınan toprak nem sensörü ölçümlerini gerçek toprak nem ölçümlerine dönüştürmek için kullanılabilir.
 
 💁 Dirençli toprak nem sensörleri için, voltaj toprak nemi arttıkça artar. Kapasitif toprak nem sensörleri için, voltaj toprak nemi arttıkça azalır, bu nedenle bu sensörlerin grafikleri yukarı değil aşağı doğru eğilir.
 
-![Grafikten interpolasyonla hesaplanan bir toprak nem değeri](../../../../../translated_images/soil-moisture-to-voltage-with-reading.681cb3e1f8b68caf.tr.png)
+![Grafikten interpolasyonla hesaplanan bir toprak nem değeri](../../../../../translated_images/tr/soil-moisture-to-voltage-with-reading.681cb3e1f8b68caf.png)
 
 Yukarıdaki grafik, bir toprak nem sensöründen alınan bir voltaj ölçümünü gösterir ve grafikteki çizgiye kadar takip edilerek gerçek toprak nemi hesaplanabilir.
 

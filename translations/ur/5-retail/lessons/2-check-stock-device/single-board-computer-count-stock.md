@@ -81,7 +81,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 1. ایپ کو چلائیں اور کیمرے کو شیلف پر موجود اسٹاک کی طرف رکھیں۔ آپ VS Code ایکسپلورر میں `image.jpg` فائل دیکھیں گے، اور آپ اسے منتخب کر کے باؤنڈنگ باکسز دیکھ سکیں گے۔
 
-    ![ٹماٹر پیسٹ کے 4 کین، ہر کین کے ارد گرد باؤنڈنگ باکسز](../../../../../translated_images/rpi-stock-with-bounding-boxes.b5540e2ecb7cd49f.ur.jpg)
+    ![ٹماٹر پیسٹ کے 4 کین، ہر کین کے ارد گرد باؤنڈنگ باکسز](../../../../../translated_images/ur/rpi-stock-with-bounding-boxes.b5540e2ecb7cd49f.jpg)
 
 ## اسٹاک گنیں
 

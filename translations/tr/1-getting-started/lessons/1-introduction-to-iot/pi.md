@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 [Raspberry Pi](https://raspberrypi.org), tek kartlı bir bilgisayardır. Sensörler ve aktüatörler eklemek için geniş bir cihaz ve ekosistem yelpazesi kullanabilirsiniz. Bu derslerde, [Grove](https://www.seeedstudio.com/category/Grove-c-1003.html) adlı bir donanım ekosistemini kullanarak sensörlere erişim sağlayacak ve Raspberry Pi'nizi Python ile kodlayacaksınız.
 
-![Bir Raspberry Pi 4](../../../../../translated_images/raspberry-pi-4.fd4590d308c3d456.tr.jpg)
+![Bir Raspberry Pi 4](../../../../../translated_images/tr/raspberry-pi-4.fd4590d308c3d456.jpg)
 
 ## Kurulum
 
@@ -112,7 +112,7 @@ Headless Pi OS'yi ayarlayın.
 
 1. Raspberry Pi Imager'dan **CHOOSE OS** düğmesini seçin, ardından *Raspberry Pi OS (Other)* ve ardından *Raspberry Pi OS Lite (32-bit)* seçeneğini seçin.
 
-    ![Raspberry Pi Imager ile Raspberry Pi OS Lite seçili](../../../../../translated_images/raspberry-pi-imager.24aedeab9e233d84.tr.png)
+    ![Raspberry Pi Imager ile Raspberry Pi OS Lite seçili](../../../../../translated_images/tr/raspberry-pi-imager.24aedeab9e233d84.png)
 
     > 💁 Raspberry Pi OS Lite, Raspberry Pi OS'nin masaüstü kullanıcı arayüzü veya kullanıcı arayüzü tabanlı araçları içermeyen bir sürümüdür. Bunlar headless bir Pi için gerekli değildir ve kurulumun daha küçük ve açılış süresinin daha hızlı olmasını sağlar.
 
@@ -251,7 +251,7 @@ Merhaba Dünya uygulamasını oluşturun.
 
 1. Bu klasörü VS Code'da açmak için *Dosya -> Aç...* seçeneğini seçin ve *nightlight* klasörünü seçtikten sonra **Tamam**'ı tıklayın.
 
-    ![VS Code açma penceresi nightlight klasörünü gösteriyor](../../../../../translated_images/vscode-open-nightlight-remote.d3d2a4011e30d535.tr.png)
+    ![VS Code açma penceresi nightlight klasörünü gösteriyor](../../../../../translated_images/tr/vscode-open-nightlight-remote.d3d2a4011e30d535.png)
 
 1. VS Code gezgininden `app.py` dosyasını açın ve aşağıdaki kodu ekleyin:
 

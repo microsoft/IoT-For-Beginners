@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Mag-train ng detector ng kalidad ng prutas
 
-![Isang sketchnote overview ng aralin na ito](../../../../../translated_images/lesson-15.843d21afdc6fb2bba70cd9db7b7d2f91598859fafda2078b0bdc44954194b6c0.tl.jpg)
+![Isang sketchnote overview ng aralin na ito](../../../../../translated_images/tl/lesson-15.843d21afdc6fb2bba70cd9db7b7d2f91598859fafda2078b0bdc44954194b6c0.jpg)
 
 > Sketchnote ni [Nitya Narasimhan](https://github.com/nitya). I-click ang imahe para sa mas malaking bersyon.
 
@@ -47,7 +47,7 @@ Hindi lahat ng pananim ay sabay-sabay na hinog. Halimbawa, ang mga kamatis ay ma
 
 Ang pag-usbong ng automated harvesting ay inilipat ang pag-aayos ng produkto mula sa pag-aani patungo sa pabrika. Ang pagkain ay dumadaan sa mahabang conveyor belts na may mga team ng tao na pumipili sa mga produkto upang alisin ang anumang hindi pumasa sa kinakailangang pamantayan ng kalidad. Mas mura ang pag-aani dahil sa makinarya, ngunit may gastos pa rin sa manual na pag-aayos ng pagkain.
 
-![Kapag natukoy ang pulang kamatis, magpapatuloy ito nang walang abala. Kapag natukoy ang berdeng kamatis, ito ay itinatapon sa basurahan gamit ang lever](../../../../../translated_images/optical-tomato-sorting.61aa134bdda4e5b1bfb16a212c1e35a6ef0c426cbb8b1c975f79d7bfbf48d068.tl.png)
+![Kapag natukoy ang pulang kamatis, magpapatuloy ito nang walang abala. Kapag natukoy ang berdeng kamatis, ito ay itinatapon sa basurahan gamit ang lever](../../../../../translated_images/tl/optical-tomato-sorting.61aa134bdda4e5b1bfb16a212c1e35a6ef0c426cbb8b1c975f79d7bfbf48d068.png)
 
 Ang susunod na ebolusyon ay ang paggamit ng mga makina sa pag-aayos, alinman sa built-in sa harvester, o sa mga processing plants. Ang unang henerasyon ng mga makinang ito ay gumamit ng optical sensors upang matukoy ang mga kulay, na kumokontrol sa mga actuator upang itulak ang mga berdeng kamatis sa basurahan gamit ang mga lever o puffs ng hangin, habang ang mga pulang kamatis ay nagpapatuloy sa network ng conveyor belts.
 
@@ -61,7 +61,7 @@ Ang pinakabagong ebolusyon ng mga sorting machine na ito ay gumagamit ng AI at M
 
 Ang tradisyunal na programming ay kung saan kinukuha mo ang data, ina-apply ang algorithm sa data, at nakakakuha ng output. Halimbawa, sa huling proyekto, kinuha mo ang GPS coordinates at isang geofence, ina-apply ang algorithm na ibinigay ng Azure Maps, at nakakuha ng resulta kung ang punto ay nasa loob o labas ng geofence. Mag-input ka ng mas maraming data, makakakuha ka ng mas maraming output.
 
-![Ang tradisyunal na development ay kumukuha ng input at algorithm at nagbibigay ng output. Ang machine learning ay gumagamit ng input at output data upang mag-train ng model, at ang model na ito ay maaaring kumuha ng bagong input data upang makabuo ng bagong output](../../../../../translated_images/traditional-vs-ml.5c20c169621fa539.tl.png)
+![Ang tradisyunal na development ay kumukuha ng input at algorithm at nagbibigay ng output. Ang machine learning ay gumagamit ng input at output data upang mag-train ng model, at ang model na ito ay maaaring kumuha ng bagong input data upang makabuo ng bagong output](../../../../../translated_images/tl/traditional-vs-ml.5c20c169621fa539.png)
 
 Ang machine learning ay binabaliktad ito - nagsisimula ka sa data at kilalang outputs, at ang machine learning algorithm ay natututo mula sa data. Maaari mong kunin ang na-train na algorithm, na tinatawag na *machine learning model* o *model*, at mag-input ng bagong data upang makakuha ng bagong output.
 
@@ -71,7 +71,7 @@ Halimbawa, maaari kang magbigay ng model ng milyon-milyong larawan ng hilaw na s
 
 > 🎓 Ang resulta ng ML models ay tinatawag na *predictions*
 
-![2 saging, isang hinog na may prediction na 99.7% hinog, 0.3% hilaw, at isang hilaw na may prediction na 1.4% hinog, 98.6% hilaw](../../../../../translated_images/bananas-ripe-vs-unripe-predictions.8d0e2034014aa50ece4e4589e724b142da0681f35470fe3db3f7d51240f69c85.tl.png)
+![2 saging, isang hinog na may prediction na 99.7% hinog, 0.3% hilaw, at isang hilaw na may prediction na 1.4% hinog, 98.6% hilaw](../../../../../translated_images/tl/bananas-ripe-vs-unripe-predictions.8d0e2034014aa50ece4e4589e724b142da0681f35470fe3db3f7d51240f69c85.png)
 
 Ang ML models ay hindi nagbibigay ng binary na sagot, sa halip nagbibigay ito ng probabilities. Halimbawa, ang isang model ay maaaring bigyan ng larawan ng saging at mag-predict ng `hinog` sa 99.7% at `hilaw` sa 0.3%. Ang iyong code ay pipili ng pinakamahusay na prediction at magdedesisyon na ang saging ay hinog.
 
@@ -87,7 +87,7 @@ Upang matagumpay na mag-train ng image classifier, kailangan mo ng milyon-milyon
 
 Kapag ang isang image classifier ay na-train para sa malawak na iba't ibang larawan, ang mga internal nito ay mahusay sa pagkilala ng mga hugis, kulay, at pattern. Ang transfer learning ay nagbibigay-daan sa model na gamitin ang natutunan nito sa pagkilala ng mga bahagi ng larawan, at gamitin ito upang makilala ang mga bagong larawan.
 
-![Kapag kaya mong kilalanin ang mga hugis, maaari itong ilagay sa iba't ibang configuration upang makabuo ng bangka o pusa](../../../../../translated_images/shapes-to-images.1a309f0ea88dd66f.tl.png)
+![Kapag kaya mong kilalanin ang mga hugis, maaari itong ilagay sa iba't ibang configuration upang makabuo ng bangka o pusa](../../../../../translated_images/tl/shapes-to-images.1a309f0ea88dd66f.png)
 
 Maaari mong isipin ito na parang mga libro ng hugis para sa mga bata, kung saan kapag kaya mong kilalanin ang semi-circle, rectangle, at triangle, maaari mong kilalanin ang isang sailboat o pusa depende sa configuration ng mga hugis na ito. Ang image classifier ay maaaring kilalanin ang mga hugis, at ang transfer learning ang nagtuturo dito kung anong kombinasyon ang bumubuo ng bangka o pusa - o hinog na saging.
 
@@ -99,7 +99,7 @@ Mayroong malawak na hanay ng mga tool na makakatulong sa iyo na gawin ito, kabil
 
 Ang Custom Vision ay isang cloud-based tool para sa pag-train ng image classifiers. Pinapayagan ka nitong mag-train ng classifier gamit lamang ang maliit na bilang ng mga larawan. Maaari kang mag-upload ng mga larawan sa pamamagitan ng web portal, web API, o SDK, na binibigyan ang bawat larawan ng *tag* na may classification ng larawan. Pagkatapos ay i-train mo ang model, at subukan ito upang makita kung gaano ito kahusay. Kapag nasiyahan ka na sa model, maaari mong i-publish ang mga bersyon nito na maaaring ma-access sa pamamagitan ng web API o SDK.
 
-![Ang Azure Custom Vision logo](../../../../../translated_images/custom-vision-logo.d3d4e7c8a87ec9daf825e72e210576c3cbf60312577be7a139e22dd97ab7f1e6.tl.png)
+![Ang Azure Custom Vision logo](../../../../../translated_images/tl/custom-vision-logo.d3d4e7c8a87ec9daf825e72e210576c3cbf60312577be7a139e22dd97ab7f1e6.png)
 
 > 💁 Maaari kang mag-train ng custom vision model gamit ang hindi bababa sa 5 larawan bawat classification, ngunit mas marami ay mas maganda. Mas maganda ang resulta kung may hindi bababa sa 30 larawan.
 
@@ -155,7 +155,7 @@ Upang magamit ang Custom Vision, kailangan mo munang gumawa ng dalawang cognitiv
 
     Kapag ginawa mo ang iyong project, siguraduhing gamitin ang `fruit-quality-detector-training` resource na ginawa mo kanina. Gumamit ng *Classification* project type, isang *Multiclass* classification type, at ang *Food* domain.
 
-    ![Ang mga settings para sa custom vision project na may pangalan na fruit-quality-detector, walang description, ang resource na nakatakda sa fruit-quality-detector-training, ang project type na nakatakda sa classification, ang classification types na nakatakda sa multi class at ang domains na nakatakda sa food](../../../../../translated_images/custom-vision-create-project.cf46325b92d8b131089f6647cf5e07b664cb77850e106d66e3c057b6b69756c6.tl.png)
+    ![Ang mga settings para sa custom vision project na may pangalan na fruit-quality-detector, walang description, ang resource na nakatakda sa fruit-quality-detector-training, ang project type na nakatakda sa classification, ang classification types na nakatakda sa multi class at ang domains na nakatakda sa food](../../../../../translated_images/tl/custom-vision-create-project.cf46325b92d8b131089f6647cf5e07b664cb77850e106d66e3c057b6b69756c6.png)
 
 ✅ Maglaan ng oras upang galugarin ang Custom Vision UI para sa iyong image classifier.
 
@@ -173,7 +173,7 @@ Ang mga image classifier ay tumatakbo sa napakababang resolusyon. Halimbawa, ang
 
     * Gamit ang 2 hinog na saging, kumuha ng ilang larawan ng bawat isa mula sa iba't ibang anggulo, kumuha ng hindi bababa sa 7 larawan (5 para sa training, 2 para sa testing), ngunit mas mainam kung mas marami.
 
-        ![Mga larawan ng 2 magkaibang saging](../../../../../translated_images/banana-training-images.530eb203346d73bc23b8b990fb4609470bf4ff7c942ccc13d4cfffeed9be1ad4.tl.png)
+        ![Mga larawan ng 2 magkaibang saging](../../../../../translated_images/tl/banana-training-images.530eb203346d73bc23b8b990fb4609470bf4ff7c942ccc13d4cfffeed9be1ad4.png)
 
     * Ulitin ang parehong proseso gamit ang 2 hilaw na saging.
 
@@ -183,7 +183,7 @@ Ang mga image classifier ay tumatakbo sa napakababang resolusyon. Halimbawa, ang
 
 1. Sundin ang [upload and tag images section ng build a classifier quickstart sa Microsoft docs](https://docs.microsoft.com/azure/cognitive-services/custom-vision-service/getting-started-build-a-classifier?WT.mc_id=academic-17441-jabenn#upload-and-tag-images) upang i-upload ang iyong mga training images. I-tag ang hinog na prutas bilang `ripe`, at ang hilaw na prutas bilang `unripe`.
 
-    ![Ang upload dialogs na nagpapakita ng pag-upload ng mga larawan ng hinog at hilaw na saging](../../../../../translated_images/image-upload-bananas.0751639f3815e0ec42bdbc6254d1e4357a185834d1ae10c9948a0e7d6d336695.tl.png)
+    ![Ang upload dialogs na nagpapakita ng pag-upload ng mga larawan ng hinog at hilaw na saging](../../../../../translated_images/tl/image-upload-bananas.0751639f3815e0ec42bdbc6254d1e4357a185834d1ae10c9948a0e7d6d336695.png)
 
 1. Sundin ang [train the classifier section ng build a classifier quickstart sa Microsoft docs](https://docs.microsoft.com/azure/cognitive-services/custom-vision-service/getting-started-build-a-classifier?WT.mc_id=academic-17441-jabenn#train-the-classifier) upang sanayin ang image classifier gamit ang iyong mga na-upload na larawan.
 
@@ -201,7 +201,7 @@ Kapag natapos ang training ng iyong classifier, maaari mo itong subukan gamit an
 
 1. Sundin ang [test your model documentation sa Microsoft docs](https://docs.microsoft.com/azure/cognitive-services/custom-vision-service/test-your-model?WT.mc_id=academic-17441-jabenn#test-your-model) upang subukan ang iyong image classifier. Gamitin ang mga testing images na ginawa mo kanina, hindi ang mga larawang ginamit mo para sa training.
 
-    ![Isang hilaw na saging na na-predict bilang hilaw na may 98.9% probability, hinog na may 1.1% probability](../../../../../translated_images/banana-unripe-quick-test-prediction.dae9b5e1c4ef7c64886422438850ea14f0be6ac918c217ea3b255c685abfabe7.tl.png)
+    ![Isang hilaw na saging na na-predict bilang hilaw na may 98.9% probability, hinog na may 1.1% probability](../../../../../translated_images/tl/banana-unripe-quick-test-prediction.dae9b5e1c4ef7c64886422438850ea14f0be6ac918c217ea3b255c685abfabe7.png)
 
 1. Subukan ang lahat ng testing images na mayroon ka at obserbahan ang mga probabilities.
 

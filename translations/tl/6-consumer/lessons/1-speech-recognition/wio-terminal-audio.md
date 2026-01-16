@@ -19,7 +19,7 @@ Ang built-in na mikropono ay nagre-record ng analog signal, na kino-convert sa d
 
 ✅ Basahin pa ang tungkol sa DMA sa [direct memory access page sa Wikipedia](https://wikipedia.org/wiki/Direct_memory_access).
 
-![Ang audio mula sa mikropono ay dumadaan sa ADC papunta sa DMAC. Isinusulat ito sa isang buffer. Kapag puno na ang buffer na ito, ito ay pinoproseso at ang DMAC ay nagsusulat sa pangalawang buffer](../../../../../translated_images/dmac-adc-buffers.4509aee49145c90bc2e1be472b8ed2ddfcb2b6a81ad3e559114aca55f5fff759.tl.png)
+![Ang audio mula sa mikropono ay dumadaan sa ADC papunta sa DMAC. Isinusulat ito sa isang buffer. Kapag puno na ang buffer na ito, ito ay pinoproseso at ang DMAC ay nagsusulat sa pangalawang buffer](../../../../../translated_images/tl/dmac-adc-buffers.4509aee49145c90bc2e1be472b8ed2ddfcb2b6a81ad3e559114aca55f5fff759.png)
 
 Ang DMAC ay maaaring mag-record ng audio mula sa ADC sa mga nakatakdang pagitan, tulad ng 16,000 beses bawat segundo para sa 16KHz na audio. Maaari nitong isulat ang na-record na data sa isang pre-allocated na memory buffer, at kapag puno na ito, gagawin itong available sa iyong code upang iproseso. Ang paggamit ng memoryang ito ay maaaring magdulot ng pagkaantala sa pag-record ng audio, ngunit maaari kang mag-set up ng maraming buffer. Ang DMAC ay nagsusulat sa buffer 1, pagkatapos kapag puno na ito, ipinaalam nito sa iyong code upang iproseso ang buffer 1, habang ang DMAC ay nagsusulat sa buffer 2. Kapag puno na ang buffer 2, ipinaalam nito sa iyong code, at bumabalik sa pagsusulat sa buffer 1. Sa ganitong paraan, hangga't napoproseso mo ang bawat buffer nang mas mabilis kaysa sa oras na kinakailangan upang mapuno ang isa, hindi ka mawawalan ng data.
 

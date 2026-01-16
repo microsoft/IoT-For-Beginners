@@ -37,11 +37,11 @@ CO_OP_TRANSLATOR_METADATA:
 
     1. Натисніть кнопку **Add**, щоб створити датчик світла на контакті 0.
 
-    ![Налаштування датчика світла](../../../../../translated_images/counterfit-create-light-sensor.9f36a5e0d4458d8d554d54b34d2c806d56093d6e49fddcda2d20f6fef7f5cce1.uk.png)
+    ![Налаштування датчика світла](../../../../../translated_images/uk/counterfit-create-light-sensor.9f36a5e0d4458d8d554d54b34d2c806d56093d6e49fddcda2d20f6fef7f5cce1.png)
 
     Датчик світла буде створено і з'явиться у списку датчиків.
 
-    ![Створений датчик світла](../../../../../translated_images/counterfit-light-sensor.5d0f5584df56b90f6b2561910d9cb20dfbd73eeff2177c238d38f4de54aefae1.uk.png)
+    ![Створений датчик світла](../../../../../translated_images/uk/counterfit-light-sensor.5d0f5584df56b90f6b2561910d9cb20dfbd73eeff2177c238d38f4de54aefae1.png)
 
 ## Програмування датчика світла
 

@@ -27,17 +27,17 @@ CO_OP_TRANSLATOR_METADATA:
 
 Підключіть датчик вологості ґрунту.
 
-![Датчик вологості ґрунту Grove](../../../../../translated_images/grove-capacitive-soil-moisture-sensor.e7f0776cce30e78be5cc5a07839385fd6718857f31b5bf5ad3d0c73c83b2f0ef.uk.png)
+![Датчик вологості ґрунту Grove](../../../../../translated_images/uk/grove-capacitive-soil-moisture-sensor.e7f0776cce30e78be5cc5a07839385fd6718857f31b5bf5ad3d0c73c83b2f0ef.png)
 
 1. Вставте один кінець кабелю Grove у роз'єм на датчику вологості ґрунту. Він вставляється лише в одному напрямку.
 
 1. З вимкненим Raspberry Pi підключіть інший кінець кабелю Grove до аналогового роз'єму, позначеного **A0**, на Grove Base Hat, підключеному до Pi. Цей роз'єм є другим справа в ряду роз'ємів поруч із GPIO-пінами.
 
-![Датчик вологості ґрунту Grove, підключений до роз'єму A0](../../../../../translated_images/pi-soil-moisture-sensor.fdd7eb2393792cf6739cacf1985d9f55beda16d372f30d0b5a51d586f978a870.uk.png)
+![Датчик вологості ґрунту Grove, підключений до роз'єму A0](../../../../../translated_images/uk/pi-soil-moisture-sensor.fdd7eb2393792cf6739cacf1985d9f55beda16d372f30d0b5a51d586f978a870.png)
 
 1. Вставте датчик вологості ґрунту в ґрунт. На ньому є "лінія максимальної глибини" — біла лінія через датчик. Вставте датчик до цієї лінії, але не глибше.
 
-![Датчик вологості ґрунту Grove у ґрунті](../../../../../translated_images/soil-moisture-sensor-in-soil.bfad91002bda5e96.uk.png)
+![Датчик вологості ґрунту Grove у ґрунті](../../../../../translated_images/uk/soil-moisture-sensor-in-soil.bfad91002bda5e96.png)
 
 ## Програмування датчика вологості ґрунту
 

@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Panimula sa IoT
 
-![Isang sketchnote overview ng araling ito](../../../../../translated_images/lesson-1.2606670fa61ee904687da5d6fa4e726639d524d064c895117da1b95b9ff6251d.tl.jpg)
+![Isang sketchnote overview ng araling ito](../../../../../translated_images/tl/lesson-1.2606670fa61ee904687da5d6fa4e726639d524d064c895117da1b95b9ff6251d.jpg)
 
 > Sketchnote ni [Nitya Narasimhan](https://github.com/nitya). I-click ang imahe para sa mas malaking bersyon.
 
@@ -79,7 +79,7 @@ Ang microcontroller (tinatawag ding MCU, maikli para sa microcontroller unit) ay
 
 Ang mga microcontroller ay karaniwang mababa ang halaga, na may average na presyo para sa mga ginagamit sa custom hardware na bumababa sa humigit-kumulang US$0.50, at ang ilan ay kasing mura ng US$0.03. Ang mga developer kit ay maaaring magsimula sa halagang US$4, na tumataas habang nadaragdagan ang mga tampok. Ang [Wio Terminal](https://www.seeedstudio.com/Wio-Terminal-p-4509.html), isang microcontroller developer kit mula sa [Seeed studios](https://www.seeedstudio.com) na may mga sensor, actuator, WiFi, at screen ay nagkakahalaga ng humigit-kumulang US$30.
 
-![Isang Wio Terminal](../../../../../translated_images/wio-terminal.b8299ee16587db9a.tl.png)
+![Isang Wio Terminal](../../../../../translated_images/tl/wio-terminal.b8299ee16587db9a.png)
 
 > 💁 Kapag naghahanap sa Internet ng mga microcontroller, mag-ingat sa paghahanap gamit ang terminong **MCU** dahil maaaring magbalik ito ng maraming resulta tungkol sa Marvel Cinematic Universe, hindi microcontrollers.
 
@@ -93,7 +93,7 @@ Ang mga microcontroller developer kit ay karaniwang may kasamang karagdagang mga
 
 Ang single-board computer ay isang maliit na computing device na may lahat ng elemento ng isang kumpletong computer na nakapaloob sa isang maliit na board. Ang mga ito ay mga device na may mga specification na malapit sa isang desktop o laptop PC o Mac, nagpapatakbo ng isang buong operating system, ngunit maliit, mas mababa ang konsumo sa kuryente, at mas mura.
 
-![Isang Raspberry Pi 4](../../../../../translated_images/raspberry-pi-4.fd4590d308c3d456.tl.jpg)
+![Isang Raspberry Pi 4](../../../../../translated_images/tl/raspberry-pi-4.fd4590d308c3d456.jpg)
 
 Ang Raspberry Pi ay isa sa mga pinakasikat na single-board computers.
 

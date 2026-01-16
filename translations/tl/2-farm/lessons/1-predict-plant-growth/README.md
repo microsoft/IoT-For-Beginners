@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 ## Hulaan ang paglago ng halaman gamit ang IoT
 
-![Isang sketchnote overview ng aralin na ito](../../../../../translated_images/lesson-5.42b234299279d263143148b88ab4583861a32ddb03110c6c1120e41bb88b2592.tl.jpg)
+![Isang sketchnote overview ng aralin na ito](../../../../../translated_images/tl/lesson-5.42b234299279d263143148b88ab4583861a32ddb03110c6c1120e41bb88b2592.jpg)
 
 > Sketchnote ni [Nitya Narasimhan](https://github.com/nitya). I-click ang imahe para sa mas malaking bersyon.
 
@@ -65,7 +65,7 @@ Ang bawat uri ng halaman ay may iba't ibang halaga para sa kanilang base, optima
 
 ✅ Mag-research. Para sa anumang mga halaman na mayroon ka sa iyong hardin, paaralan, o lokal na parke, tingnan kung maaari mong mahanap ang base temperature.
 
-![Isang graph na nagpapakita ng bilis ng paglago na tumataas habang tumataas ang temperatura, pagkatapos ay bumababa kapag masyadong mataas ang temperatura](../../../../../translated_images/plant-growth-temp-graph.c6d69c9478e6ca83.tl.png)
+![Isang graph na nagpapakita ng bilis ng paglago na tumataas habang tumataas ang temperatura, pagkatapos ay bumababa kapag masyadong mataas ang temperatura](../../../../../translated_images/tl/plant-growth-temp-graph.c6d69c9478e6ca83.png)
 
 Ang graph sa itaas ay nagpapakita ng isang halimbawa ng graph ng bilis ng paglago sa temperatura. Hanggang sa base temperature, walang paglago. Ang bilis ng paglago ay tumataas hanggang sa optimum temperature, pagkatapos ay bumababa pagkatapos maabot ang peak na ito. 
 
@@ -91,7 +91,7 @@ Ang code na ito ay nagbubukas ng CSV file, pagkatapos ay nagdaragdag ng bagong r
 
     
 > 💁 Kung gumagamit ka ng Virtual IoT Device, piliin ang random checkbox at magtakda ng saklaw upang maiwasan ang pagkuha ng parehong temperatura tuwing ibinabalik ang halaga ng temperatura.
-    ![Piliin ang random checkbox at magtakda ng saklaw](../../../../../translated_images/select-the-random-checkbox-and-set-a-range.32cf4bc7c12e797f.tl.png) 
+    ![Piliin ang random checkbox at magtakda ng saklaw](../../../../../translated_images/tl/select-the-random-checkbox-and-set-a-range.32cf4bc7c12e797f.png) 
 
     > 💁 Kung nais mong patakbuhin ito nang buong araw, siguraduhin na ang computer kung saan tumatakbo ang iyong server code ay hindi mag-sleep, alinman sa pamamagitan ng pagbabago ng iyong power settings, o paggamit ng isang bagay tulad ng [this keep system active Python script](https://github.com/jaqsparow/keep-system-active).
     
@@ -111,7 +111,7 @@ Ang mga hakbang upang gawin ito nang manu-mano ay:
 
 Halimbawa, kung ang pinakamataas na temperatura para sa araw ay 25°C, at ang pinakamababa ay 12°C:
 
-![GDD = 25 + 12 divided by 2, pagkatapos ay ibawas ang 10 mula sa resulta na nagbibigay ng 8.5](../../../../../translated_images/gdd-calculation-strawberries.59f57db94b22adb8ff6efb951ace33af104a1c6ccca3ffb0f8169c14cb160c90.tl.png)
+![GDD = 25 + 12 divided by 2, pagkatapos ay ibawas ang 10 mula sa resulta na nagbibigay ng 8.5](../../../../../translated_images/tl/gdd-calculation-strawberries.59f57db94b22adb8ff6efb951ace33af104a1c6ccca3ffb0f8169c14cb160c90.png)
 
 * 25 + 12 = 37
 * 37 / 2 = 18.5

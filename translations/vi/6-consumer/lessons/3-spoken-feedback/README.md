@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Đặt hẹn giờ và cung cấp phản hồi bằng giọng nói
 
-![Tóm tắt bài học dưới dạng sketchnote](../../../../../translated_images/lesson-23.f38483e1d4df4828990d3f02d60e46c978b075d384ae7cb4f7bab738e107c850.vi.jpg)
+![Tóm tắt bài học dưới dạng sketchnote](../../../../../translated_images/vi/lesson-23.f38483e1d4df4828990d3f02d60e46c978b075d384ae7cb4f7bab738e107c850.jpg)
 
 > Sketchnote bởi [Nitya Narasimhan](https://github.com/nitya). Nhấp vào hình ảnh để xem phiên bản lớn hơn.
 
@@ -37,7 +37,7 @@ Trong bài học này, chúng ta sẽ đề cập đến:
 
 Chuyển văn bản thành giọng nói, như tên gọi, là quá trình chuyển đổi văn bản thành âm thanh chứa các từ được nói. Nguyên tắc cơ bản là phân tích các từ trong văn bản thành các âm vị (phoneme) cấu thành, và ghép nối âm thanh cho các âm vị đó, hoặc sử dụng âm thanh đã được ghi sẵn hoặc âm thanh được tạo bởi các mô hình AI.
 
-![Ba giai đoạn của hệ thống chuyển văn bản thành giọng nói điển hình](../../../../../translated_images/tts-overview.193843cf3f5ee09f.vi.png)
+![Ba giai đoạn của hệ thống chuyển văn bản thành giọng nói điển hình](../../../../../translated_images/vi/tts-overview.193843cf3f5ee09f.png)
 
 Hệ thống chuyển văn bản thành giọng nói thường có 3 giai đoạn:
 

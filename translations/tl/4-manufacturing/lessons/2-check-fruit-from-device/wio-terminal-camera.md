@@ -25,11 +25,11 @@ Ang ArduCam ay walang Grove socket, sa halip ito ay kumokonekta sa parehong SPI 
 
 Ikonekta ang kamera.
 
-![Isang ArduCam sensor](../../../../../translated_images/arducam.20e4e4cbb268296570b5914e20d6c349fc42ddac9ed4e1b9deba2188204eebae.tl.png)
+![Isang ArduCam sensor](../../../../../translated_images/tl/arducam.20e4e4cbb268296570b5914e20d6c349fc42ddac9ed4e1b9deba2188204eebae.png)
 
 1. Ang mga pin sa base ng ArduCam ay kailangang ikonekta sa GPIO pins ng Wio Terminal. Upang mas madali mong mahanap ang tamang mga pin, ilagay ang GPIO pin sticker na kasama ng Wio Terminal sa paligid ng mga pin:
 
-    ![Ang Wio Terminal na may GPIO pin sticker](../../../../../translated_images/wio-terminal-pin-sticker.b90b1535937b84bd.tl.png)
+    ![Ang Wio Terminal na may GPIO pin sticker](../../../../../translated_images/tl/wio-terminal-pin-sticker.b90b1535937b84bd.png)
 
 1. Gamit ang jumper wires, gawin ang mga sumusunod na koneksyon:
 
@@ -44,7 +44,7 @@ Ikonekta ang kamera.
     | SDA         | 3 (I2C1_SDA)     | I2C Serial Data                          |
     | SCL         | 5 (I2C1_SCL)     | I2C Serial Clock                         |
 
-    ![Ang Wio Terminal na nakakonekta sa ArduCam gamit ang jumper wires](../../../../../translated_images/arducam-wio-terminal-connections.a4d5a4049bdb5ab800a2877389fc6ecf5e4ff307e6451ff56c517e6786467d0a.tl.png)
+    ![Ang Wio Terminal na nakakonekta sa ArduCam gamit ang jumper wires](../../../../../translated_images/tl/arducam-wio-terminal-connections.a4d5a4049bdb5ab800a2877389fc6ecf5e4ff307e6451ff56c517e6786467d0a.png)
 
     Ang GND at VCC connections ay nagbibigay ng 5V power supply sa ArduCam. Ito ay tumatakbo sa 5V, hindi tulad ng Grove sensors na tumatakbo sa 3V. Ang power na ito ay direktang nanggagaling sa USB-C connection na nagpapagana sa device.
 
@@ -297,7 +297,7 @@ Ang Wio Terminal ay maaari nang i-program upang kumuha ng larawan kapag pinindot
 
 1. Ang mga microcontroller ay patuloy na pinapatakbo ang iyong code, kaya hindi madaling mag-trigger ng isang bagay tulad ng pagkuha ng larawan nang hindi tumutugon sa isang sensor. Ang Wio Terminal ay may mga button, kaya ang kamera ay maaaring i-setup upang ma-trigger ng isa sa mga button. Idagdag ang sumusunod na code sa dulo ng `setup` function upang i-configure ang C button (isa sa tatlong button sa itaas, ang pinakamalapit sa power switch).
 
-    ![Ang C button sa itaas na pinakamalapit sa power switch](../../../../../translated_images/wio-terminal-c-button.73df3cb1c1445ea0.tl.png)
+    ![Ang C button sa itaas na pinakamalapit sa power switch](../../../../../translated_images/tl/wio-terminal-c-button.73df3cb1c1445ea0.png)
 
     ```cpp
     pinMode(WIO_KEY_C, INPUT_PULLUP);
@@ -465,7 +465,7 @@ Ang Wio Terminal ay sumusuporta lamang sa microSD cards na hanggang 16GB ang lak
 
 1. I-power off ang microSD card at i-eject ito sa pamamagitan ng bahagyang pagtulak at pag-release, at ito ay lalabas. Maaaring kailanganin mong gumamit ng manipis na tool upang gawin ito. I-plug ang microSD card sa iyong computer upang makita ang mga larawan.
 
-    ![Isang larawan ng saging na nakuha gamit ang ArduCam](../../../../../translated_images/banana-arducam.be1b32d4267a8194b0fd042362e56faa431da9cd4af172051b37243ea9be0256.tl.jpg)
+    ![Isang larawan ng saging na nakuha gamit ang ArduCam](../../../../../translated_images/tl/banana-arducam.be1b32d4267a8194b0fd042362e56faa431da9cd4af172051b37243ea9be0256.jpg)
 💁 Maaaring kailanganin ng ilang larawan para maayos ng white balance ng kamera ang sarili nito. Mapapansin mo ito batay sa kulay ng mga larawang nakunan, ang unang ilang larawan ay maaaring mukhang may maling kulay. Maaari mo itong iwasan sa pamamagitan ng pagbabago ng code upang kumuha ng ilang larawan na hindi isasama sa `setup` function.
 
 

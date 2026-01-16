@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # 位置追踪
 
-![本课的手绘笔记概览](../../../../../translated_images/lesson-11.9fddbac4b664c6d50ab7ac9bb32f1fc3f945f03760e72f7f43938073762fb017.zh.jpg)
+![本课的手绘笔记概览](../../../../../translated_images/zh/lesson-11.9fddbac4b664c6d50ab7ac9bb32f1fc3f945f03760e72f7f43938073762fb017.jpg)
 
 > 手绘笔记由 [Nitya Narasimhan](https://github.com/nitya) 提供。点击图片查看大图。
 
@@ -72,13 +72,13 @@ CO_OP_TRANSLATOR_METADATA:
 
 > 💁 没有人确切知道为什么圆被分为 360 度。[维基百科上的“角度 (度)”页面](https://wikipedia.org/wiki/Degree_(angle))介绍了一些可能的原因。
 
-![纬度线从北极的 90°，到北极和赤道之间的中点 45°，到赤道的 0°，到赤道和南极之间的中点 -45°，到南极的 -90°](../../../../../translated_images/latitude-lines.11d8d91dfb2014a57437272d7db7fd6607243098e8685f06e0c5f1ec984cb7eb.zh.png)
+![纬度线从北极的 90°，到北极和赤道之间的中点 45°，到赤道的 0°，到赤道和南极之间的中点 -45°，到南极的 -90°](../../../../../translated_images/zh/latitude-lines.11d8d91dfb2014a57437272d7db7fd6607243098e8685f06e0c5f1ec984cb7eb.png)
 
 纬度是通过围绕地球的线测量的，这些线与赤道平行，将北半球和南半球分别分为 90°。赤道为 0°，北极为 90°，也称为北纬 90°，南极为 -90°，或南纬 90°。
 
 经度是测量东西方向的度数。经度的 0° 起点称为*本初子午线*，1884 年定义为穿过[英国格林威治皇家天文台](https://wikipedia.org/wiki/Royal_Observatory,_Greenwich)的一条从北极到南极的线。
 
-![经度线从本初子午线以西的 -180°，到本初子午线的 0°，到本初子午线以东的 180°](../../../../../translated_images/longitude-meridians.ab4ef1c91c064586b0185a3c8d39e585903696c6a7d28c098a93a629cddb5d20.zh.png)
+![经度线从本初子午线以西的 -180°，到本初子午线的 0°，到本初子午线以东的 180°](../../../../../translated_images/zh/longitude-meridians.ab4ef1c91c064586b0185a3c8d39e585903696c6a7d28c098a93a629cddb5d20.png)
 
 > 🎓 子午线是从北极到南极的一条假想直线，形成一个半圆。
 
@@ -109,7 +109,7 @@ CO_OP_TRANSLATOR_METADATA:
 * 纬度为 47.6423109（北纬 47.6423109 度）
 * 经度为 -122.1390293（西经 122.1390293 度）。
 
-![微软园区位于 47.6423109,-122.117198](../../../../../translated_images/microsoft-gps-location-world.a321d481b010f6adfcca139b2ba0adc53b79f58a540495b8e2ce7f779ea64bfe.zh.png)
+![微软园区位于 47.6423109,-122.117198](../../../../../translated_images/zh/microsoft-gps-location-world.a321d481b010f6adfcca139b2ba0adc53b79f58a540495b8e2ce7f779ea64bfe.png)
 
 ## 全球定位系统 (GPS)
 
@@ -121,7 +121,7 @@ GPS 系统通过多个卫星发送信号，每个卫星包含其当前位置和�
 
 > 💁 GPS 传感器需要天线来检测无线电波。内置 GPS 的卡车和汽车的天线通常安装在挡风玻璃或车顶上，以获得良好的信号。如果您使用单独的 GPS 系统，例如智能手机或物联网设备，则需要确保 GPS 系统或手机内置的天线能够清晰地看到天空，例如安装在挡风玻璃上。
 
-![通过知道传感器与多个卫星的距离，可以计算出位置](../../../../../translated_images/gps-satellites.04acf1148fe25fbf1586bc2e8ba698e8d79b79a50c36824b38417dd13372b90f.zh.png)
+![通过知道传感器与多个卫星的距离，可以计算出位置](../../../../../translated_images/zh/gps-satellites.04acf1148fe25fbf1586bc2e8ba698e8d79b79a50c36824b38417dd13372b90f.png)
 
 GPS 卫星绕地球运行，并非固定在传感器上方，因此位置数据包括海拔高度以及纬度和经度。
 

@@ -154,11 +154,11 @@ Gumawa ng Python application upang i-print ang `"Hello World"` sa console.
 
 1. Kapag nag-launch ang VS Code, i-aactivate nito ang Python virtual environment. Ang napiling virtual environment ay lilitaw sa ibabang status bar:
 
-    ![VS Code na nagpapakita ng napiling virtual environment](../../../../../translated_images/vscode-virtual-env.8ba42e04c3d533cf.tl.png)
+    ![VS Code na nagpapakita ng napiling virtual environment](../../../../../translated_images/tl/vscode-virtual-env.8ba42e04c3d533cf.png)
 
 1. Kung ang VS Code Terminal ay tumatakbo na kapag nag-launch ang VS Code, hindi nito maa-activate ang virtual environment dito. Ang pinakamadaling gawin ay patayin ang terminal gamit ang **Kill the active terminal instance** button:
 
-    ![VS Code Kill the active terminal instance button](../../../../../translated_images/vscode-kill-terminal.1cc4de7c6f25ee08.tl.png)
+    ![VS Code Kill the active terminal instance button](../../../../../translated_images/tl/vscode-kill-terminal.1cc4de7c6f25ee08.png)
 
     Malalaman mo kung ang terminal ay may naka-activate na virtual environment dahil ang pangalan ng virtual environment ay magiging prefix sa terminal prompt. Halimbawa, maaaring ito ay:
 
@@ -212,7 +212,7 @@ Bilang pangalawang hakbang ng 'Hello World', patakbuhin mo ang CounterFit app at
 
     Ang app ay magsisimulang tumakbo at magbubukas sa iyong web browser:
 
-    ![Ang Counter Fit app na tumatakbo sa browser](../../../../../translated_images/counterfit-first-run.433326358b669b31d0e99c3513cb01bfbb13724d162c99cdcc8f51ecf5f9c779.tl.png)
+    ![Ang Counter Fit app na tumatakbo sa browser](../../../../../translated_images/tl/counterfit-first-run.433326358b669b31d0e99c3513cb01bfbb13724d162c99cdcc8f51ecf5f9c779.png)
 
     Ito ay mamarkahan bilang *Disconnected*, na may LED sa kanang-itaas na sulok na naka-off.
 
@@ -229,11 +229,11 @@ Bilang pangalawang hakbang ng 'Hello World', patakbuhin mo ang CounterFit app at
 
 1. Kakailanganin mong mag-launch ng bagong VS Code terminal sa pamamagitan ng pagpili sa **Create a new integrated terminal** button. Ito ay dahil ang CounterFit app ay tumatakbo sa kasalukuyang terminal.
 
-    ![VS Code Create a new integrated terminal button](../../../../../translated_images/vscode-new-terminal.77db8fc0f9cd3182.tl.png)
+    ![VS Code Create a new integrated terminal button](../../../../../translated_images/tl/vscode-new-terminal.77db8fc0f9cd3182.png)
 
 1. Sa bagong terminal na ito, patakbuhin ang `app.py` file tulad ng dati. Ang status ng CounterFit ay magbabago sa **Connected** at ang LED ay iilaw.
 
-    ![Counter Fit na nagpapakita ng konektado](../../../../../translated_images/counterfit-connected.ed30b46d8f79b0921f3fc70be10366e596a89dca3f80c2224a9d9fc98fccf884.tl.png)
+    ![Counter Fit na nagpapakita ng konektado](../../../../../translated_images/tl/counterfit-connected.ed30b46d8f79b0921f3fc70be10366e596a89dca3f80c2224a9d9fc98fccf884.png)
 
 > 💁 Maaari mong mahanap ang code na ito sa [code/virtual-device](../../../../../1-getting-started/lessons/1-introduction-to-iot/code/virtual-device) folder.
 

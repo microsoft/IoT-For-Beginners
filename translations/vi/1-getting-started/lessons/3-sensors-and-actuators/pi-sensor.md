@@ -25,13 +25,13 @@ Cảm biến ánh sáng Grove được sử dụng để phát hiện mức đ�
 
 Kết nối cảm biến ánh sáng
 
-![Một cảm biến ánh sáng Grove](../../../../../translated_images/grove-light-sensor.b8127b7c434e632d6bcdb57587a14e9ef69a268a22df95d08628f62b8fa5505c.vi.png)
+![Một cảm biến ánh sáng Grove](../../../../../translated_images/vi/grove-light-sensor.b8127b7c434e632d6bcdb57587a14e9ef69a268a22df95d08628f62b8fa5505c.png)
 
 1. Cắm một đầu của cáp Grove vào ổ cắm trên module cảm biến ánh sáng. Cáp chỉ có thể cắm theo một chiều.
 
 1. Khi Raspberry Pi đã tắt nguồn, kết nối đầu còn lại của cáp Grove vào ổ cắm analog được đánh dấu **A0** trên Grove Base hat gắn vào Pi. Ổ cắm này là ổ thứ hai từ bên phải, nằm trên hàng ổ cắm cạnh các chân GPIO.
 
-![Cảm biến ánh sáng Grove được kết nối với ổ A0](../../../../../translated_images/pi-light-sensor.66cc1e31fa48cd7d5f23400d4b2119aa41508275cb7c778053a7923b4e972d7e.vi.png)
+![Cảm biến ánh sáng Grove được kết nối với ổ A0](../../../../../translated_images/vi/pi-light-sensor.66cc1e31fa48cd7d5f23400d4b2119aa41508275cb7c778053a7923b4e972d7e.png)
 
 ## Lập trình cảm biến ánh sáng
 

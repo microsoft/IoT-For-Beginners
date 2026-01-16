@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Makipag-ugnayan sa pisikal na mundo gamit ang mga sensor at actuator
 
-![Isang sketchnote overview ng araling ito](../../../../../translated_images/lesson-3.cc3b7b4cd646de598698cce043c0393fd62ef42bac2eaf60e61272cd844250f4.tl.jpg)
+![Isang sketchnote overview ng araling ito](../../../../../translated_images/tl/lesson-3.cc3b7b4cd646de598698cce043c0393fd62ef42bac2eaf60e61272cd844250f4.jpg)
 
 > Sketchnote ni [Nitya Narasimhan](https://github.com/nitya). I-click ang imahe para sa mas malaking bersyon.
 
@@ -75,7 +75,7 @@ Ang ilan sa mga pinaka-basic na sensor ay analog sensor. Ang mga sensor na ito a
 
 Isang halimbawa nito ay ang potentiometer. Ito ay isang dial na maaari mong paikutin sa pagitan ng dalawang posisyon at sinusukat ng sensor ang pag-ikot.
 
-![Isang potentiometer na nakatakda sa mid point na pinapadalhan ng 5 volts na nagbabalik ng 3.8 volts](../../../../../translated_images/potentiometer.35a348b9ce22f6ec.tl.png)
+![Isang potentiometer na nakatakda sa mid point na pinapadalhan ng 5 volts na nagbabalik ng 3.8 volts](../../../../../translated_images/tl/potentiometer.35a348b9ce22f6ec.png)
 
 Ang IoT device ay magpapadala ng electrical signal sa potentiometer sa isang boltahe, tulad ng 5 volts (5V). Habang ina-adjust ang potentiometer, binabago nito ang boltahe na lumalabas sa kabilang panig. Halimbawa, isipin mo na mayroon kang potentiometer na may label bilang isang dial na mula 0 hanggang [11](https://wikipedia.org/wiki/Up_to_eleven), tulad ng volume knob sa isang amplifier. Kapag ang potentiometer ay nasa full off position (0), 0V (0 volts) ang lalabas. Kapag ito ay nasa full on position (11), 5V (5 volts) ang lalabas.
 
@@ -101,7 +101,7 @@ Ang mga digital sensor, tulad ng analog sensor, ay nakakakita sa mundo sa paligi
 
 Ang pinakasimpleng digital sensor ay isang button o switch. Ito ay isang sensor na may dalawang estado, on o off.
 
-![Isang button na pinapadalhan ng 5 volts. Kapag hindi pinindot, nagbabalik ito ng 0 volts, kapag pinindot, nagbabalik ito ng 5 volts](../../../../../translated_images/button.eadb560b77ac45e56f523d9d8876e40444f63b419e33eb820082d461fa79490b.tl.png)
+![Isang button na pinapadalhan ng 5 volts. Kapag hindi pinindot, nagbabalik ito ng 0 volts, kapag pinindot, nagbabalik ito ng 5 volts](../../../../../translated_images/tl/button.eadb560b77ac45e56f523d9d8876e40444f63b419e33eb820082d461fa79490b.png)
 
 Ang mga pin sa IoT device tulad ng GPIO pins ay maaaring direktang sukatin ang signal na ito bilang 0 o 1. Kung ang boltahe na ipinadala ay pareho sa boltahe na ibinalik, ang halaga na nabasa ay 1, kung hindi, ang halaga na nabasa ay 0. Walang pangangailangan na i-convert ang signal, maaari lamang itong maging 1 o 0.
 
@@ -112,7 +112,7 @@ Ang mga pin sa IoT device tulad ng GPIO pins ay maaaring direktang sukatin ang s
 
 Ang mas advanced na digital sensor ay nagbabasa ng analog na mga halaga, pagkatapos ay kino-convert ang mga ito gamit ang on-board ADCs sa digital signal. Halimbawa, ang isang digital temperature sensor ay gagamit pa rin ng thermocouple sa parehong paraan tulad ng analog sensor, at susukatin pa rin ang pagbabago sa boltahe na dulot ng resistance ng thermocouple sa kasalukuyang temperatura. Sa halip na magbalik ng analog na halaga at umasa sa device o connector board upang i-convert sa digital signal, ang ADC na built-in sa sensor ay iko-convert ang halaga at ipapadala ito bilang serye ng 0s at 1s sa IoT device. Ang mga 0s at 1s na ito ay ipinapadala sa parehong paraan tulad ng digital signal para sa button na may 1 bilang full voltage at 0 bilang 0v.
 
-![Isang digital temperature sensor na nagko-convert ng analog reading sa binary data na may 0 bilang 0 volts at 1 bilang 5 volts bago ipadala ito sa IoT device](../../../../../translated_images/temperature-as-digital.85004491b977bae1.tl.png)
+![Isang digital temperature sensor na nagko-convert ng analog reading sa binary data na may 0 bilang 0 volts at 1 bilang 5 volts bago ipadala ito sa IoT device](../../../../../translated_images/tl/temperature-as-digital.85004491b977bae1.png)
 
 Ang pagpapadala ng digital na data ay nagpapahintulot sa mga sensor na maging mas kumplikado at magpadala ng mas detalyadong data, kahit na encrypted na data para sa mga secure na sensor. Isang halimbawa ay ang camera. Ito ay isang sensor na kumukuha ng imahe at ipinapadala ito bilang digital na data na naglalaman ng imahe, kadalasan sa compressed format tulad ng JPEG, upang mabasa ng IoT device. Maaari rin itong mag-stream ng video sa pamamagitan ng pagkuha ng mga imahe at pagpapadala ng alinman sa kumpletong imahe frame by frame o isang compressed video stream.
 
@@ -134,7 +134,7 @@ Ilan sa mga karaniwang actuator ay:
 
 Sundin ang kaukulang gabay sa ibaba upang magdagdag ng actuator sa iyong IoT device, na kontrolado ng sensor, upang bumuo ng IoT nightlight. Kukunin nito ang light levels mula sa light sensor, at gagamit ng actuator sa anyo ng LED upang maglabas ng liwanag kapag masyadong mababa ang natukoy na light level.
 
-![Isang flow chart ng assignment na nagpapakita ng light levels na binabasa at sinusuri, at ang LED na kinokontrol](../../../../../translated_images/assignment-1-flow.7552a51acb1a5ec858dca6e855cdbb44206434006df8ba3799a25afcdab1665d.tl.png)
+![Isang flow chart ng assignment na nagpapakita ng light levels na binabasa at sinusuri, at ang LED na kinokontrol](../../../../../translated_images/tl/assignment-1-flow.7552a51acb1a5ec858dca6e855cdbb44206434006df8ba3799a25afcdab1665d.png)
 
 * [Arduino - Wio Terminal](wio-terminal-actuator.md)
 * [Single-board computer - Raspberry Pi](pi-actuator.md)
@@ -149,7 +149,7 @@ Tulad ng mga sensor, ang mga actuator ay maaaring analog o digital.
 Ang mga analog actuator ay tumatanggap ng analog signal at kino-convert ito sa isang uri ng interaksyon, kung saan ang interaksyon ay nagbabago batay sa boltahe na ibinibigay.
 
 Isang halimbawa ay ang dimmable light, tulad ng mga ilaw na maaaring mayroon ka sa iyong bahay. Ang dami ng boltahe na ibinibigay sa ilaw ang nagtatakda kung gaano ito kaliwanag.
-![Isang ilaw na dimmed sa mababang boltahe at mas maliwanag sa mas mataas na boltahe](../../../../../translated_images/dimmable-light.9ceffeb195dec1a849da718b2d71b32c35171ff7dfea9c07bbf82646a67acf6b.tl.png)
+![Isang ilaw na dimmed sa mababang boltahe at mas maliwanag sa mas mataas na boltahe](../../../../../translated_images/tl/dimmable-light.9ceffeb195dec1a849da718b2d71b32c35171ff7dfea9c07bbf82646a67acf6b.png)
 
 Tulad ng mga sensor, ang aktwal na IoT device ay gumagana gamit ang digital na signal, hindi analog. Ibig sabihin, upang magpadala ng analog na signal, kailangan ng IoT device ng digital to analog converter (DAC), alinman direkta sa IoT device o sa isang connector board. Ito ang magko-convert ng mga 0s at 1s mula sa IoT device patungo sa analog na boltahe na magagamit ng actuator.
 
@@ -164,7 +164,7 @@ Halimbawa, maaari mong gamitin ang PWM upang kontrolin ang bilis ng isang motor.
 
 Isipin mong kinokontrol mo ang isang motor na may 5V na supply. Magpapadala ka ng maikling pulso sa iyong motor, na nagbabago ng boltahe sa mataas (5V) sa loob ng dalawang daang bahagi ng isang segundo (0.02s). Sa panahong iyon, maaaring umikot ang iyong motor ng isang ikasampung bahagi ng isang ikot, o 36°. Pagkatapos ay titigil ang signal sa loob ng dalawang daang bahagi ng isang segundo (0.02s), nagpapadala ng mababang signal (0V). Ang bawat cycle ng on at off ay tumatagal ng 0.04s. Pagkatapos ay inuulit ang cycle.
 
-![Pulse width modulation rotation ng isang motor sa 150 RPM](../../../../../translated_images/pwm-motor-150rpm.83347ac04ca38482.tl.png)
+![Pulse width modulation rotation ng isang motor sa 150 RPM](../../../../../translated_images/tl/pwm-motor-150rpm.83347ac04ca38482.png)
 
 Ibig sabihin, sa isang segundo mayroon kang 25 5V pulses na may tagal na 0.02s na umiikot sa motor, bawat isa ay sinusundan ng 0.02s na pause na 0V na hindi umiikot ang motor. Ang bawat pulso ay umiikot sa motor ng isang ikasampung bahagi ng isang ikot, ibig sabihin ang motor ay nakakumpleto ng 2.5 ikot bawat segundo. Ginamit mo ang isang digital na signal upang paikutin ang motor sa 2.5 ikot bawat segundo, o 150 [revolutions per minute](https://wikipedia.org/wiki/Revolutions_per_minute) (isang hindi karaniwang sukat ng bilis ng pag-ikot).
 
@@ -175,7 +175,7 @@ Ibig sabihin, sa isang segundo mayroon kang 25 5V pulses na may tagal na 0.02s n
 
 > 🎓 Kapag ang isang PWM signal ay naka-on sa kalahati ng oras, at naka-off sa kalahati, ito ay tinatawag na [50% duty cycle](https://wikipedia.org/wiki/Duty_cycle). Ang mga duty cycle ay sinusukat bilang porsyento ng oras na ang signal ay nasa on state kumpara sa off state.
 
-![Pulse width modulation rotation ng isang motor sa 75 RPM](../../../../../translated_images/pwm-motor-75rpm.a5e4c939934b6e14.tl.png)
+![Pulse width modulation rotation ng isang motor sa 75 RPM](../../../../../translated_images/tl/pwm-motor-75rpm.a5e4c939934b6e14.png)
 
 Maaari mong baguhin ang bilis ng motor sa pamamagitan ng pagbabago ng laki ng mga pulso. Halimbawa, gamit ang parehong motor, maaari mong panatilihin ang parehong cycle time na 0.04s, na may on pulse na kalahati (0.01s), at ang off pulse ay tataas sa 0.03s. Mayroon kang parehong bilang ng mga pulso bawat segundo (25), ngunit ang bawat on pulse ay kalahati ng haba. Ang kalahating haba ng pulso ay umiikot lamang sa motor ng isang ikadalawampung bahagi ng isang ikot, at sa 25 pulso bawat segundo ay makukumpleto ang 1.25 ikot bawat segundo o 75rpm. Sa pamamagitan ng pagbabago ng bilis ng pulso ng isang digital na signal, nabawasan mo ang bilis ng isang analog na motor sa kalahati.
 
@@ -196,7 +196,7 @@ Ang mga digital na actuator, tulad ng mga digital na sensor, ay may dalawang est
 
 Isang simpleng digital na actuator ay isang LED. Kapag ang isang device ay nagpadala ng digital na signal na 1, isang mataas na boltahe ang ipinapadala na nagpapailaw sa LED. Kapag ang isang digital na signal na 0 ay ipinadala, ang boltahe ay bumababa sa 0V at ang LED ay namamatay.
 
-![Isang LED na naka-off sa 0 volts at naka-on sa 5V](../../../../../translated_images/led.ec6d94f66676a174ad06d9fa9ea49c2ee89beb18b312d5c6476467c66375b07f.tl.png)
+![Isang LED na naka-off sa 0 volts at naka-on sa 5V](../../../../../translated_images/tl/led.ec6d94f66676a174ad06d9fa9ea49c2ee89beb18b312d5c6476467c66375b07f.png)
 
 ✅ Ano pang ibang simpleng 2-state actuator ang naiisip mo? Isang halimbawa ay isang solenoid, na isang electromagnet na maaaring i-activate upang gumawa ng mga bagay tulad ng paggalaw ng bolt ng pinto para sa pag-lock/pag-unlock ng pinto.
 

@@ -114,7 +114,7 @@ API REST của dịch vụ giọng nói không hỗ trợ dịch trực tiếp, 
     >
     > Ví dụ, nếu bạn huấn luyện LUIS bằng tiếng Anh, nhưng muốn sử dụng tiếng Pháp làm ngôn ngữ người dùng, bạn có thể dịch các câu như "set a 2 minute and 27 second timer" từ tiếng Anh sang tiếng Pháp bằng Bing Translate, sau đó sử dụng nút **Nghe bản dịch** để nói bản dịch vào micro của bạn.
     >
-    > ![Nút nghe bản dịch trên Bing Translate](../../../../../translated_images/bing-translate.348aa796d6efe2a92f41ea74a5cf42bb4c63d6faaa08e7f46924e072a35daa48.vi.png)
+    > ![Nút nghe bản dịch trên Bing Translate](../../../../../translated_images/vi/bing-translate.348aa796d6efe2a92f41ea74a5cf42bb4c63d6faaa08e7f46924e072a35daa48.png)
 
 1. Thêm khóa API và vị trí của dịch vụ dịch thuật bên dưới `SPEECH_LOCATION`:
 

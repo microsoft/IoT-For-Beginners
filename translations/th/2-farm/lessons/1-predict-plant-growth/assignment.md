@@ -42,7 +42,7 @@ CO_OP_TRANSLATOR_METADATA:
 
     Jupyter จะเริ่มต้นและเปิด Notebook ในเบราว์เซอร์ของคุณ ทำตามคำแนะนำใน Notebook เพื่อแสดงผลอุณหภูมิที่วัดได้ และคำนวณ Growing Degree Days
 
-    ![The jupyter notebook](../../../../../translated_images/gdd-jupyter-notebook.c5b52cf21094f158a61f47f455490fd95f1729777ff90861a4521820bf354cdc.th.png)
+    ![The jupyter notebook](../../../../../translated_images/th/gdd-jupyter-notebook.c5b52cf21094f158a61f47f455490fd95f1729777ff90861a4521820bf354cdc.png)
 
 ## เกณฑ์การประเมิน
 

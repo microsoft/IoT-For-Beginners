@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # IoT ile Bitki Büyümesini Tahmin Et
 
-![Bu dersin genel bir sketchnote'u](../../../../../translated_images/lesson-5.42b234299279d263143148b88ab4583861a32ddb03110c6c1120e41bb88b2592.tr.jpg)
+![Bu dersin genel bir sketchnote'u](../../../../../translated_images/tr/lesson-5.42b234299279d263143148b88ab4583861a32ddb03110c6c1120e41bb88b2592.jpg)
 
 > Sketchnote [Nitya Narasimhan](https://github.com/nitya) tarafından hazırlanmıştır. Daha büyük bir versiyon için görsele tıklayın.
 
@@ -65,7 +65,7 @@ Her bitki türünün taban, optimum ve maksimum sıcaklık değerleri farklıdı
 
 ✅ Araştırma yapın. Bahçenizde, okulunuzda veya yerel parkınızda bulunan herhangi bir bitki için taban sıcaklığını bulabilir misiniz?
 
-![Büyüme oranının sıcaklık arttıkça arttığını, ardından sıcaklık çok yükseldiğinde düştüğünü gösteren bir grafik](../../../../../translated_images/plant-growth-temp-graph.c6d69c9478e6ca83.tr.png)
+![Büyüme oranının sıcaklık arttıkça arttığını, ardından sıcaklık çok yükseldiğinde düştüğünü gösteren bir grafik](../../../../../translated_images/tr/plant-growth-temp-graph.c6d69c9478e6ca83.png)
 
 Yukarıdaki grafik, büyüme oranı ile sıcaklık arasındaki ilişkiyi gösteren bir örnek grafiktir. Taban sıcaklığa kadar büyüme olmaz. Büyüme oranı, optimum sıcaklığa kadar artar, ardından bu zirveye ulaştıktan sonra düşer. 
 
@@ -91,7 +91,7 @@ Bu kod, CSV dosyasını açar ve sonuna yeni bir satır ekler. Satır, insan tar
 
     
 > 💁 Sanal IoT Cihazı kullanıyorsanız, rastgele kutucuğunu işaretleyin ve sıcaklık değeri her döndüğünde aynı sıcaklığı almamak için bir aralık belirleyin.
-    ![Rastgele kutucuğunu işaretleyin ve bir aralık belirleyin](../../../../../translated_images/select-the-random-checkbox-and-set-a-range.32cf4bc7c12e797f.tr.png) 
+    ![Rastgele kutucuğunu işaretleyin ve bir aralık belirleyin](../../../../../translated_images/tr/select-the-random-checkbox-and-set-a-range.32cf4bc7c12e797f.png) 
 
     > 💁 Bunu bir gün boyunca çalıştırmak istiyorsanız, sunucu kodunuzun çalıştığı bilgisayarın uyku moduna geçmeyeceğinden emin olmalısınız. Bunun için güç ayarlarınızı değiştirebilir veya [bu sistemi aktif tutan Python scripti](https://github.com/jaqsparow/keep-system-active) gibi bir şey çalıştırabilirsiniz.
     
@@ -111,7 +111,7 @@ Bunu manuel olarak yapmak için adımlar:
 
 Örneğin, günün en yüksek sıcaklığı 25°C ve en düşük sıcaklığı 12°C ise:
 
-![GDD = 25 + 12 bölü 2, ardından sonuçtan 10 çıkarılarak 8.5 elde edilir](../../../../../translated_images/gdd-calculation-strawberries.59f57db94b22adb8ff6efb951ace33af104a1c6ccca3ffb0f8169c14cb160c90.tr.png)
+![GDD = 25 + 12 bölü 2, ardından sonuçtan 10 çıkarılarak 8.5 elde edilir](../../../../../translated_images/tr/gdd-calculation-strawberries.59f57db94b22adb8ff6efb951ace33af104a1c6ccca3ffb0f8169c14cb160c90.png)
 
 * 25 + 12 = 37
 * 37 / 2 = 18.5

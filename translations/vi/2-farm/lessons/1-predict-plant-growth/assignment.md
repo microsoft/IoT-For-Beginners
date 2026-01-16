@@ -42,7 +42,7 @@ Khi đã có dữ liệu nhiệt độ, bạn có thể sử dụng Jupyter Note
 
     Jupyter sẽ khởi động và mở notebook trong trình duyệt của bạn. Làm theo các hướng dẫn trong notebook để hình dung nhiệt độ đã đo và tính toán số ngày độ tăng trưởng.
 
-    ![Jupyter notebook](../../../../../translated_images/gdd-jupyter-notebook.c5b52cf21094f158a61f47f455490fd95f1729777ff90861a4521820bf354cdc.vi.png)
+    ![Jupyter notebook](../../../../../translated_images/vi/gdd-jupyter-notebook.c5b52cf21094f158a61f47f455490fd95f1729777ff90861a4521820bf354cdc.png)
 
 ## Tiêu chí đánh giá
 

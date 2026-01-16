@@ -27,13 +27,13 @@ Ang Grove relay ay maaaring ikonekta sa Raspberry Pi.
 
 Ikonekta ang relay.
 
-![Isang Grove relay](../../../../../translated_images/grove-relay.d426958ca210fbd0fb7983d7edc069d46c73a8b0a099d94797bd756f7b6bb6be.tl.png)
+![Isang Grove relay](../../../../../translated_images/tl/grove-relay.d426958ca210fbd0fb7983d7edc069d46c73a8b0a099d94797bd756f7b6bb6be.png)
 
 1. Ipasok ang isang dulo ng Grove cable sa socket ng relay. Isang paraan lang ito maaaring ipasok.
 
 1. Kapag naka-off ang Raspberry Pi, ikonekta ang kabilang dulo ng Grove cable sa digital socket na may markang **D5** sa Grove Base Hat na nakakabit sa Pi. Ang socket na ito ay ang pangalawa mula sa kaliwa, sa hanay ng mga socket na malapit sa GPIO pins. Iwanang nakakonekta ang soil moisture sensor sa **A0** socket.
 
-![Ang Grove relay na nakakonekta sa D5 socket, at ang soil moisture sensor na nakakonekta sa A0 socket](../../../../../translated_images/pi-relay-and-soil-moisture-sensor.02f3198975b8c53e69ec716cd2719ce117700bd1fc933eaf93476c103c57939b.tl.png)
+![Ang Grove relay na nakakonekta sa D5 socket, at ang soil moisture sensor na nakakonekta sa A0 socket](../../../../../translated_images/tl/pi-relay-and-soil-moisture-sensor.02f3198975b8c53e69ec716cd2719ce117700bd1fc933eaf93476c103c57939b.png)
 
 1. Ipasok ang soil moisture sensor sa lupa, kung hindi pa ito nakakabit mula sa nakaraang aralin.
 

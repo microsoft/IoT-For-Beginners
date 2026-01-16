@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # IoT'ye Giriş
 
-![Bu dersin genel bir sketchnote özeti](../../../../../translated_images/lesson-1.2606670fa61ee904687da5d6fa4e726639d524d064c895117da1b95b9ff6251d.tr.jpg)
+![Bu dersin genel bir sketchnote özeti](../../../../../translated_images/tr/lesson-1.2606670fa61ee904687da5d6fa4e726639d524d064c895117da1b95b9ff6251d.jpg)
 
 > Sketchnote: [Nitya Narasimhan](https://github.com/nitya). Daha büyük bir versiyon için görsele tıklayın.
 
@@ -79,7 +79,7 @@ Bir mikrodenetleyici (kısaca MCU olarak da adlandırılır, mikrodenetleyici bi
 
 Mikrodenetleyiciler genellikle düşük maliyetli bilgi işlem cihazlarıdır ve özel donanımlarda kullanılanların ortalama fiyatları yaklaşık 0,50 ABD dolarına kadar düşmektedir ve bazı cihazlar 0,03 ABD doları kadar ucuzdur. Geliştirici kitleri 4 ABD dolarından başlayabilir ve daha fazla özellik ekledikçe maliyet artar. [Wio Terminal](https://www.seeedstudio.com/Wio-Terminal-p-4509.html), sensörler, aktüatörler, WiFi ve bir ekrana sahip bir mikrodenetleyici geliştirici kiti, yaklaşık 30 ABD dolarıdır.
 
-![Bir Wio Terminal](../../../../../translated_images/wio-terminal.b8299ee16587db9a.tr.png)
+![Bir Wio Terminal](../../../../../translated_images/tr/wio-terminal.b8299ee16587db9a.png)
 
 > 💁 İnternette mikrodenetleyiciler ararken, **MCU** terimini aramaya dikkat edin, çünkü bu, mikrodenetleyiciler yerine Marvel Sinematik Evreni ile ilgili birçok sonuç getirebilir.
 
@@ -93,7 +93,7 @@ Mikrodenetleyici geliştirici kitleri genellikle yerleşik sensörler ve aktüat
 
 Tek kartlı bir bilgisayar, tüm bir bilgisayarın unsurlarını tek bir küçük kart üzerinde barındıran küçük bir bilgi işlem cihazıdır. Bunlar, bir masaüstü veya dizüstü bilgisayarın özelliklerine yakın, tam bir işletim sistemi çalıştıran, ancak daha küçük, daha az güç kullanan ve önemli ölçüde daha ucuz olan cihazlardır.
 
-![Bir Raspberry Pi 4](../../../../../translated_images/raspberry-pi-4.fd4590d308c3d456.tr.jpg)
+![Bir Raspberry Pi 4](../../../../../translated_images/tr/raspberry-pi-4.fd4590d308c3d456.jpg)
 
 Raspberry Pi, en popüler tek kartlı bilgisayarlardan biridir.
 

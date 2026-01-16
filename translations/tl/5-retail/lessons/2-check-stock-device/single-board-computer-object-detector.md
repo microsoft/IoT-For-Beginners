@@ -76,7 +76,7 @@ Ang code na ginamit mo upang mag-classify ng mga larawan ay halos pareho sa code
 
     Makikita mo ang larawang kinuha, at ang mga value na ito sa **Predictions** tab sa Custom Vision.
 
-    ![4 na lata ng tomato paste sa isang shelf na may mga prediction para sa 4 na detection na 35.8%, 33.5%, 25.7% at 16.6%](../../../../../translated_images/custom-vision-stock-prediction.942266ab1bcca3410ecdf23643b9f5f570cfab2345235074e24c51f285777613.tl.png)
+    ![4 na lata ng tomato paste sa isang shelf na may mga prediction para sa 4 na detection na 35.8%, 33.5%, 25.7% at 16.6%](../../../../../translated_images/tl/custom-vision-stock-prediction.942266ab1bcca3410ecdf23643b9f5f570cfab2345235074e24c51f285777613.png)
 
 > 💁 Makikita mo ang code na ito sa [code-detect/pi](../../../../../5-retail/lessons/2-check-stock-device/code-detect/pi) o [code-detect/virtual-iot-device](../../../../../5-retail/lessons/2-check-stock-device/code-detect/virtual-iot-device) folder.
 

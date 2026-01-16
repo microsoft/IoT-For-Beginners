@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Tìm hiểu sâu hơn về IoT
 
-![Tổng quan bài học dưới dạng sketchnote](../../../../../translated_images/lesson-2.324b0580d620c25e0a24fb7fddfc0b29a846dd4b82c08e7a9466d580ee78ce51.vi.jpg)
+![Tổng quan bài học dưới dạng sketchnote](../../../../../translated_images/vi/lesson-2.324b0580d620c25e0a24fb7fddfc0b29a846dd4b82c08e7a9466d580ee78ce51.jpg)
 
 > Sketchnote bởi [Nitya Narasimhan](https://github.com/nitya). Nhấn vào hình để xem phiên bản lớn hơn.
 
@@ -41,13 +41,13 @@ Hai thành phần chính của một ứng dụng IoT là *Internet* và *thiế
 
 ### Thiết bị
 
-![Một Raspberry Pi 4](../../../../../translated_images/raspberry-pi-4.fd4590d308c3d456.vi.jpg)
+![Một Raspberry Pi 4](../../../../../translated_images/vi/raspberry-pi-4.fd4590d308c3d456.jpg)
 
 Phần **Thiết bị** trong IoT đề cập đến một thiết bị có thể tương tác với thế giới vật lý. Những thiết bị này thường là các máy tính nhỏ, giá rẻ, hoạt động ở tốc độ thấp và tiêu thụ ít năng lượng - ví dụ, các vi điều khiển đơn giản với bộ nhớ RAM chỉ vài kilobyte (so với gigabyte trên PC), chạy ở tốc độ chỉ vài trăm megahertz (so với gigahertz trên PC), nhưng tiêu thụ năng lượng ít đến mức có thể hoạt động trong nhiều tuần, tháng hoặc thậm chí nhiều năm chỉ với pin.
 
 Những thiết bị này tương tác với thế giới vật lý, hoặc bằng cách sử dụng cảm biến để thu thập dữ liệu từ môi trường xung quanh, hoặc bằng cách điều khiển các đầu ra hoặc bộ truyền động để tạo ra các thay đổi vật lý. Ví dụ điển hình là một bộ điều nhiệt thông minh - một thiết bị có cảm biến nhiệt độ, một phương tiện để đặt nhiệt độ mong muốn như núm xoay hoặc màn hình cảm ứng, và một kết nối với hệ thống sưởi hoặc làm mát có thể được bật khi nhiệt độ phát hiện nằm ngoài phạm vi mong muốn. Cảm biến nhiệt độ phát hiện rằng phòng quá lạnh và một bộ truyền động sẽ bật hệ thống sưởi.
 
-![Sơ đồ hiển thị nhiệt độ và núm xoay làm đầu vào cho thiết bị IoT, và điều khiển hệ thống sưởi làm đầu ra](../../../../../translated_images/basic-thermostat.a923217fd1f37e5a6f3390396a65c22a387419ea2dd17e518ec24315ba6ae9a8.vi.png)
+![Sơ đồ hiển thị nhiệt độ và núm xoay làm đầu vào cho thiết bị IoT, và điều khiển hệ thống sưởi làm đầu ra](../../../../../translated_images/vi/basic-thermostat.a923217fd1f37e5a6f3390396a65c22a387419ea2dd17e518ec24315ba6ae9a8.png)
 
 Có rất nhiều loại thiết bị khác nhau có thể hoạt động như thiết bị IoT, từ phần cứng chuyên dụng chỉ cảm nhận một thứ, đến các thiết bị đa năng, thậm chí cả điện thoại thông minh của bạn! Một chiếc điện thoại thông minh có thể sử dụng cảm biến để phát hiện thế giới xung quanh và bộ truyền động để tương tác với thế giới - ví dụ, sử dụng cảm biến GPS để phát hiện vị trí của bạn và loa để cung cấp hướng dẫn điều hướng đến một điểm đến.
 
@@ -63,11 +63,11 @@ Các thiết bị cũng không phải lúc nào cũng kết nối trực tiếp 
 
 Với ví dụ về bộ điều nhiệt thông minh, bộ điều nhiệt sẽ kết nối qua WiFi gia đình đến một dịch vụ đám mây chạy trên đám mây. Nó sẽ gửi dữ liệu nhiệt độ đến dịch vụ đám mây này, và từ đó dữ liệu sẽ được ghi vào một cơ sở dữ liệu nào đó, cho phép chủ nhà kiểm tra nhiệt độ hiện tại và quá khứ qua một ứng dụng điện thoại. Một dịch vụ khác trên đám mây sẽ biết nhiệt độ mà chủ nhà mong muốn và gửi tin nhắn trở lại thiết bị IoT qua dịch vụ đám mây để yêu cầu hệ thống sưởi bật hoặc tắt.
 
-![Sơ đồ hiển thị nhiệt độ và núm xoay làm đầu vào cho thiết bị IoT, thiết bị IoT có kết nối hai chiều với đám mây, đám mây có kết nối hai chiều với điện thoại, và điều khiển hệ thống sưởi làm đầu ra từ thiết bị IoT](../../../../../translated_images/mobile-controlled-thermostat.4a994010473d8d6a52ba68c67e5f02dc8928c717e93ca4b9bc55525aa75bbb60.vi.png)
+![Sơ đồ hiển thị nhiệt độ và núm xoay làm đầu vào cho thiết bị IoT, thiết bị IoT có kết nối hai chiều với đám mây, đám mây có kết nối hai chiều với điện thoại, và điều khiển hệ thống sưởi làm đầu ra từ thiết bị IoT](../../../../../translated_images/vi/mobile-controlled-thermostat.4a994010473d8d6a52ba68c67e5f02dc8928c717e93ca4b9bc55525aa75bbb60.png)
 
 Một phiên bản thông minh hơn có thể sử dụng AI trên đám mây với dữ liệu từ các cảm biến khác kết nối với các thiết bị IoT khác như cảm biến phát hiện phòng nào đang được sử dụng, cũng như dữ liệu như thời tiết và thậm chí cả lịch của bạn, để đưa ra quyết định về cách đặt nhiệt độ một cách thông minh. Ví dụ, nó có thể tắt hệ thống sưởi nếu đọc từ lịch của bạn rằng bạn đang đi nghỉ, hoặc tắt hệ thống sưởi theo từng phòng tùy thuộc vào phòng nào bạn sử dụng, học hỏi từ dữ liệu để ngày càng chính xác hơn theo thời gian.
 
-![Sơ đồ hiển thị nhiều cảm biến nhiệt độ và núm xoay làm đầu vào cho thiết bị IoT, thiết bị IoT có kết nối hai chiều với đám mây, đám mây có kết nối hai chiều với điện thoại, lịch và dịch vụ thời tiết, và điều khiển hệ thống sưởi làm đầu ra từ thiết bị IoT](../../../../../translated_images/smarter-thermostat.a75855f15d2d9e63.vi.png)
+![Sơ đồ hiển thị nhiều cảm biến nhiệt độ và núm xoay làm đầu vào cho thiết bị IoT, thiết bị IoT có kết nối hai chiều với đám mây, đám mây có kết nối hai chiều với điện thoại, lịch và dịch vụ thời tiết, và điều khiển hệ thống sưởi làm đầu ra từ thiết bị IoT](../../../../../translated_images/vi/smarter-thermostat.a75855f15d2d9e63.png)
 
 ✅ Những dữ liệu nào khác có thể giúp làm cho bộ điều nhiệt kết nối Internet trở nên thông minh hơn?
 
@@ -103,7 +103,7 @@ Tốc độ chu kỳ đồng hồ càng nhanh, càng nhiều lệnh có thể đ
 
 > 💁 CPU thực thi chương trình bằng [chu trình lấy-gỡ-thực thi](https://wikipedia.org/wiki/Instruction_cycle). Với mỗi lần đánh dấu đồng hồ, CPU sẽ lấy lệnh tiếp theo từ bộ nhớ, giải mã nó, sau đó thực thi nó, chẳng hạn như sử dụng đơn vị logic số học (ALU) để cộng 2 số. Một số lệnh thực thi sẽ mất nhiều lần đánh dấu để chạy, vì vậy chu trình tiếp theo sẽ chạy ở lần đánh dấu tiếp theo sau khi lệnh đã hoàn thành.
 
-![Chu trình lấy-gỡ-thực thi hiển thị việc lấy lệnh từ chương trình được lưu trữ trong RAM, sau đó giải mã và thực thi nó trên CPU](../../../../../translated_images/fetch-decode-execute.2fd6f150f6280392807f4475382319abd0cee0b90058e1735444d6baa6f2078c.vi.png)
+![Chu trình lấy-gỡ-thực thi hiển thị việc lấy lệnh từ chương trình được lưu trữ trong RAM, sau đó giải mã và thực thi nó trên CPU](../../../../../translated_images/vi/fetch-decode-execute.2fd6f150f6280392807f4475382319abd0cee0b90058e1735444d6baa6f2078c.png)
 
 Vi điều khiển có tốc độ đồng hồ thấp hơn nhiều so với máy tính để bàn hoặc laptop, hoặc thậm chí hầu hết các điện thoại thông minh. Ví dụ, Wio Terminal có CPU chạy ở tốc độ 120MHz hoặc 120.000.000 chu kỳ mỗi giây.
 
@@ -135,7 +135,7 @@ Giống như CPU, bộ nhớ trên vi điều khiển nhỏ hơn rất nhiều s
 
 Biểu đồ dưới đây cho thấy sự khác biệt về kích thước tương đối giữa 192KB và 8GB - dấu chấm nhỏ ở trung tâm đại diện cho 192KB.
 
-![So sánh giữa 192KB và 8GB - lớn hơn 40.000 lần](../../../../../translated_images/ram-comparison.6beb73541b42ac6f.vi.png)
+![So sánh giữa 192KB và 8GB - lớn hơn 40.000 lần](../../../../../translated_images/vi/ram-comparison.6beb73541b42ac6f.png)
 
 Dung lượng lưu trữ chương trình cũng nhỏ hơn so với PC. Một PC thông thường có thể có ổ cứng 500GB để lưu trữ chương trình, trong khi một vi điều khiển có thể chỉ có kilobyte hoặc vài megabyte (MB) dung lượng lưu trữ (1MB là 1.000KB, hoặc 1.000.000 byte). Wio Terminal có 4MB dung lượng lưu trữ chương trình.
 
@@ -191,7 +191,7 @@ Các bo mạch Arduino được lập trình bằng C hoặc C++. Sử dụng C/
 
 Bạn sẽ viết mã khởi tạo của mình trong hàm `setup`, chẳng hạn như kết nối với WiFi và dịch vụ đám mây hoặc khởi tạo các chân cho đầu vào và đầu ra. Mã vòng lặp của bạn sau đó sẽ chứa mã xử lý, chẳng hạn như đọc từ cảm biến và gửi giá trị lên đám mây. Bạn thường thêm một khoảng thời gian chờ trong mỗi vòng lặp, ví dụ, nếu bạn chỉ muốn dữ liệu cảm biến được gửi mỗi 10 giây, bạn sẽ thêm một khoảng thời gian chờ 10 giây ở cuối vòng lặp để vi điều khiển có thể ngủ, tiết kiệm năng lượng, sau đó chạy lại vòng lặp khi cần sau 10 giây.
 
-![Một sketch Arduino chạy setup trước, sau đó chạy loop liên tục](../../../../../translated_images/arduino-sketch.79590cb837ff7a7c6a68d1afda6cab83fd53d3bb1bd9a8bf2eaf8d693a4d3ea6.vi.png)
+![Một sketch Arduino chạy setup trước, sau đó chạy loop liên tục](../../../../../translated_images/vi/arduino-sketch.79590cb837ff7a7c6a68d1afda6cab83fd53d3bb1bd9a8bf2eaf8d693a4d3ea6.png)
 
 ✅ Kiến trúc chương trình này được gọi là *vòng lặp sự kiện* hoặc *vòng lặp thông điệp*. Nhiều ứng dụng sử dụng điều này dưới nền và đây là tiêu chuẩn cho hầu hết các ứng dụng máy tính để bàn chạy trên các hệ điều hành như Windows, macOS hoặc Linux. Hàm `loop` lắng nghe các thông điệp từ các thành phần giao diện người dùng như nút bấm, hoặc các thiết bị như bàn phím, và phản hồi chúng. Bạn có thể đọc thêm trong [bài viết về vòng lặp sự kiện](https://wikipedia.org/wiki/Event_loop).
 
@@ -211,17 +211,17 @@ Trong bài học trước, chúng ta đã giới thiệu về máy tính bo mạ
 
 ### Raspberry Pi
 
-![Logo Raspberry Pi](../../../../../translated_images/raspberry-pi-logo.4efaa16605cee054.vi.png)
+![Logo Raspberry Pi](../../../../../translated_images/vi/raspberry-pi-logo.4efaa16605cee054.png)
 
 [Raspberry Pi Foundation](https://www.raspberrypi.org) là một tổ chức từ thiện tại Anh được thành lập vào năm 2009 nhằm thúc đẩy việc học tập khoa học máy tính, đặc biệt ở cấp độ trường học. Là một phần của sứ mệnh này, họ đã phát triển một máy tính bo mạch đơn, gọi là Raspberry Pi. Raspberry Pi hiện có 3 biến thể - phiên bản đầy đủ kích thước, phiên bản nhỏ hơn Pi Zero, và một module tính toán có thể được tích hợp vào thiết bị IoT cuối cùng của bạn.
 
-![Raspberry Pi 4](../../../../../translated_images/raspberry-pi-4.fd4590d308c3d456.vi.jpg)
+![Raspberry Pi 4](../../../../../translated_images/vi/raspberry-pi-4.fd4590d308c3d456.jpg)
 
 Phiên bản mới nhất của Raspberry Pi đầy đủ kích thước là Raspberry Pi 4B. Nó có CPU lõi tứ (4 lõi) chạy ở tốc độ 1.5GHz, RAM 2, 4 hoặc 8GB, ethernet gigabit, WiFi, 2 cổng HDMI hỗ trợ màn hình 4k, một cổng âm thanh và video composite, các cổng USB (2 USB 2.0, 2 USB 3.0), 40 chân GPIO, một cổng kết nối camera cho module camera Raspberry Pi, và một khe cắm thẻ SD. Tất cả điều này trên một bo mạch có kích thước 88mm x 58mm x 19.5mm và được cấp nguồn bởi nguồn USB-C 3A. Giá khởi điểm là 35 USD, rẻ hơn nhiều so với PC hoặc Mac.
 
 > 💁 Cũng có một Pi400, một máy tính tất cả trong một với Pi4 được tích hợp vào bàn phím.
 
-![Raspberry Pi Zero](../../../../../translated_images/raspberry-pi-zero.f7a4133e1e7d54bb.vi.jpg)
+![Raspberry Pi Zero](../../../../../translated_images/vi/raspberry-pi-zero.f7a4133e1e7d54bb.jpg)
 
 Pi Zero nhỏ hơn nhiều, với công suất thấp hơn. Nó có CPU lõi đơn 1GHz, RAM 512MB, WiFi (trong model Zero W), một cổng HDMI duy nhất, một cổng micro-USB, 40 chân GPIO, một cổng kết nối camera cho module camera Raspberry Pi, và một khe cắm thẻ SD. Nó có kích thước 65mm x 30mm x 5mm, và tiêu thụ rất ít năng lượng. Pi Zero có giá 5 USD, với phiên bản W có WiFi giá 10 USD.
 

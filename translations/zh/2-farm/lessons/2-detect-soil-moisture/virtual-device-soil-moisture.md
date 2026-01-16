@@ -43,11 +43,11 @@ CO_OP_TRANSLATOR_METADATA:
 
     1. 点击 **Add** 按钮，在 Pin 0 上创建 *Soil Moisture* 传感器。
 
-    ![土壤湿度传感器设置](../../../../../translated_images/counterfit-create-soil-moisture-sensor.35266135a5e0ae68b29a684d7db0d2933a8098b2307d197f7c71577b724603aa.zh.png)
+    ![土壤湿度传感器设置](../../../../../translated_images/zh/counterfit-create-soil-moisture-sensor.35266135a5e0ae68b29a684d7db0d2933a8098b2307d197f7c71577b724603aa.png)
 
     土壤湿度传感器将被创建并显示在传感器列表中。
 
-    ![已创建的土壤湿度传感器](../../../../../translated_images/counterfit-soil-moisture-sensor.81742b2de0e9de60a3b3b9a2ff8ecc686d428eb6d71820f27a693be26e5aceee.zh.png)
+    ![已创建的土壤湿度传感器](../../../../../translated_images/zh/counterfit-soil-moisture-sensor.81742b2de0e9de60a3b3b9a2ff8ecc686d428eb6d71820f27a693be26e5aceee.png)
 
 ## 编写土壤湿度传感器应用程序
 

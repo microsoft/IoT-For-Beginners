@@ -25,13 +25,13 @@ Ang button ay maaaring ikonekta sa Grove base hat.
 
 #### Gawain - Ikonekta ang Button
 
-![Isang Grove button](../../../../../translated_images/grove-button.a70cfbb809a8563681003250cf5b06d68cdcc68624f9e2f493d5a534ae2da1e5.tl.png)
+![Isang Grove button](../../../../../translated_images/tl/grove-button.a70cfbb809a8563681003250cf5b06d68cdcc68624f9e2f493d5a534ae2da1e5.png)
 
 1. Ipasok ang isang dulo ng Grove cable sa socket ng button module. Isa lang ang tamang paraan para maipasok ito.
 
 1. Kapag naka-off ang Raspberry Pi, ikonekta ang kabilang dulo ng Grove cable sa digital socket na may markang **D5** sa Grove Base hat na nakakabit sa Pi. Ang socket na ito ay pangalawa mula sa kaliwa, sa hanay ng mga socket malapit sa GPIO pins.
 
-![Ang Grove button na nakakonekta sa socket D5](../../../../../translated_images/pi-button.c7a1a4f55943341ce1baf1057658e9a205804d4131d258e820c93f951df0abf3.tl.png)
+![Ang Grove button na nakakonekta sa socket D5](../../../../../translated_images/tl/pi-button.c7a1a4f55943341ce1baf1057658e9a205804d4131d258e820c93f951df0abf3.png)
 
 ## Pagkuha ng Audio
 

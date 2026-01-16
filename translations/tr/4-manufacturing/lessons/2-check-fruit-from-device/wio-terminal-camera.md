@@ -25,11 +25,11 @@ ArduCam bir Grove soketine sahip değildir, bunun yerine SPI ve I2C veri yollar�
 
 Kamerayı bağlayın.
 
-![Bir ArduCam sensörü](../../../../../translated_images/arducam.20e4e4cbb268296570b5914e20d6c349fc42ddac9ed4e1b9deba2188204eebae.tr.png)
+![Bir ArduCam sensörü](../../../../../translated_images/tr/arducam.20e4e4cbb268296570b5914e20d6c349fc42ddac9ed4e1b9deba2188204eebae.png)
 
 1. ArduCam'in altındaki pinler, Wio Terminal'in GPIO pinlerine bağlanmalıdır. Doğru pinleri bulmayı kolaylaştırmak için, Wio Terminal ile birlikte gelen GPIO pin etiketini pinlerin etrafına yapıştırın:
 
-    ![GPIO pin etiketi takılmış Wio Terminal](../../../../../translated_images/wio-terminal-pin-sticker.b90b1535937b84bd.tr.png)
+    ![GPIO pin etiketi takılmış Wio Terminal](../../../../../translated_images/tr/wio-terminal-pin-sticker.b90b1535937b84bd.png)
 
 1. Jumper kabloları kullanarak aşağıdaki bağlantıları yapın:
 
@@ -44,7 +44,7 @@ Kamerayı bağlayın.
     | SDA          | 3 (I2C1_SDA)      | I2C Seri Veri                           |
     | SCL          | 5 (I2C1_SCL)      | I2C Seri Saat                           |
 
-    ![Jumper kablolarla ArduCam'e bağlanmış Wio Terminal](../../../../../translated_images/arducam-wio-terminal-connections.a4d5a4049bdb5ab800a2877389fc6ecf5e4ff307e6451ff56c517e6786467d0a.tr.png)
+    ![Jumper kablolarla ArduCam'e bağlanmış Wio Terminal](../../../../../translated_images/tr/arducam-wio-terminal-connections.a4d5a4049bdb5ab800a2877389fc6ecf5e4ff307e6451ff56c517e6786467d0a.png)
 
     GND ve VCC bağlantıları, ArduCam'e 5V güç sağlar. Bu, 3V ile çalışan Grove sensörlerinden farklı olarak 5V ile çalışır. Bu güç, cihazı besleyen USB-C bağlantısından gelir.
 
@@ -297,7 +297,7 @@ Wio Terminal artık bir düğmeye basıldığında bir görüntü yakalayacak ş
 
 1. Mikrodenetleyiciler kodunuzu sürekli çalıştırır, bu nedenle bir fotoğraf çekmek gibi bir işlemi tetiklemek için bir sensöre tepki vermek gerekir. Wio Terminal'in düğmeleri vardır, bu nedenle kamera, düğmelerden biriyle tetiklenecek şekilde ayarlanabilir. Güç anahtarına en yakın olan üstteki üç düğmeden biri olan C düğmesini yapılandırmak için `setup` fonksiyonunun sonuna şu kodu ekleyin:
 
-    ![Güç anahtarına en yakın C düğmesi](../../../../../translated_images/wio-terminal-c-button.73df3cb1c1445ea0.tr.png)
+    ![Güç anahtarına en yakın C düğmesi](../../../../../translated_images/tr/wio-terminal-c-button.73df3cb1c1445ea0.png)
 
     ```cpp
     pinMode(WIO_KEY_C, INPUT_PULLUP);
@@ -465,7 +465,7 @@ Wio Terminal yalnızca 16GB'a kadar microSD kartları destekler. Daha büyük bi
 
 1. MicroSD kartı kapatın ve hafifçe içeri itip serbest bırakarak çıkarın, kart dışarı fırlayacaktır. Bunu yapmak için ince bir araç kullanmanız gerekebilir. MicroSD kartı bilgisayarınıza takarak görüntüleri görüntüleyin.
 
-    ![ArduCam kullanılarak çekilmiş bir muz resmi](../../../../../translated_images/banana-arducam.be1b32d4267a8194b0fd042362e56faa431da9cd4af172051b37243ea9be0256.tr.jpg)
+    ![ArduCam kullanılarak çekilmiş bir muz resmi](../../../../../translated_images/tr/banana-arducam.be1b32d4267a8194b0fd042362e56faa431da9cd4af172051b37243ea9be0256.jpg)
 💁 Kameranın beyaz dengesinin kendini ayarlaması birkaç görüntü alabilir. Bunu, çekilen görüntülerin renginden fark edeceksiniz, ilk birkaç görüntü renk açısından farklı görünebilir. Bunu her zaman `setup` fonksiyonunda birkaç görüntü yakalayıp bunları görmezden gelecek şekilde kodu değiştirerek aşabilirsiniz.
 
 

@@ -27,17 +27,17 @@ Raspberry Pi ต้องการเซ็นเซอร์วัดควา�
 
 เชื่อมต่อเซ็นเซอร์วัดความชื้นในดิน
 
-![เซ็นเซอร์วัดความชื้นในดินแบบ Grove](../../../../../translated_images/grove-capacitive-soil-moisture-sensor.e7f0776cce30e78be5cc5a07839385fd6718857f31b5bf5ad3d0c73c83b2f0ef.th.png)
+![เซ็นเซอร์วัดความชื้นในดินแบบ Grove](../../../../../translated_images/th/grove-capacitive-soil-moisture-sensor.e7f0776cce30e78be5cc5a07839385fd6718857f31b5bf5ad3d0c73c83b2f0ef.png)
 
 1. เสียบปลายด้านหนึ่งของสาย Grove เข้ากับช่องเสียบบนเซ็นเซอร์วัดความชื้นในดิน สายจะเสียบได้เพียงด้านเดียวเท่านั้น
 
 1. ปิดการจ่ายไฟให้ Raspberry Pi แล้วเชื่อมต่อปลายอีกด้านของสาย Grove เข้ากับช่องอนาล็อกที่มีเครื่องหมาย **A0** บน Grove Base Hat ที่ติดตั้งอยู่บน Pi ช่องนี้เป็นช่องที่สองจากขวาในแถวของช่องเสียบที่อยู่ติดกับ GPIO pins
 
-![เซ็นเซอร์วัดความชื้นในดินแบบ Grove เชื่อมต่อกับช่อง A0](../../../../../translated_images/pi-soil-moisture-sensor.fdd7eb2393792cf6739cacf1985d9f55beda16d372f30d0b5a51d586f978a870.th.png)
+![เซ็นเซอร์วัดความชื้นในดินแบบ Grove เชื่อมต่อกับช่อง A0](../../../../../translated_images/th/pi-soil-moisture-sensor.fdd7eb2393792cf6739cacf1985d9f55beda16d372f30d0b5a51d586f978a870.png)
 
 1. เสียบเซ็นเซอร์วัดความชื้นในดินลงในดิน โดยมีเส้นสีขาวที่เรียกว่า 'highest position line' เป็นตัวกำหนดระดับสูงสุด เสียบเซ็นเซอร์จนถึงเส้นนี้แต่ไม่เกินเส้นนี้
 
-![เซ็นเซอร์วัดความชื้นในดินแบบ Grove ในดิน](../../../../../translated_images/soil-moisture-sensor-in-soil.bfad91002bda5e96.th.png)
+![เซ็นเซอร์วัดความชื้นในดินแบบ Grove ในดิน](../../../../../translated_images/th/soil-moisture-sensor-in-soil.bfad91002bda5e96.png)
 
 ## เขียนโปรแกรมสำหรับเซ็นเซอร์วัดความชื้นในดิน
 

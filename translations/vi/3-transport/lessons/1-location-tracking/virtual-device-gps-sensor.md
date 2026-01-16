@@ -47,11 +47,11 @@ Thêm cảm biến GPS vào ứng dụng CounterFit.
 
     1. Chọn nút **Add** để tạo cảm biến GPS trên cổng `/dev/ttyAMA0`.
 
-    ![Cài đặt cảm biến GPS](../../../../../translated_images/counterfit-create-gps-sensor.6385dc9357d85ad1d47b4abb2525e7651fd498917d25eefc5a72feab09eedc70.vi.png)
+    ![Cài đặt cảm biến GPS](../../../../../translated_images/vi/counterfit-create-gps-sensor.6385dc9357d85ad1d47b4abb2525e7651fd498917d25eefc5a72feab09eedc70.png)
 
     Cảm biến GPS sẽ được tạo và xuất hiện trong danh sách cảm biến.
 
-    ![Cảm biến GPS đã được tạo](../../../../../translated_images/counterfit-gps-sensor.3fbb15af0a5367566f2f11324ef5a6f30861cdf2b497071a5e002b7aa473550e.vi.png)
+    ![Cảm biến GPS đã được tạo](../../../../../translated_images/vi/counterfit-gps-sensor.3fbb15af0a5367566f2f11324ef5a6f30861cdf2b497071a5e002b7aa473550e.png)
 
 ## Lập trình cảm biến GPS
 
@@ -111,17 +111,17 @@ Lập trình ứng dụng cảm biến GPS.
 
     * Đặt **Source** thành `Lat/Lon`, và đặt vĩ độ, kinh độ cụ thể cùng số lượng vệ tinh được sử dụng để lấy tín hiệu GPS. Giá trị này sẽ chỉ được gửi một lần, vì vậy hãy đánh dấu vào ô **Repeat** để dữ liệu lặp lại mỗi giây.
 
-      ![Cảm biến GPS với Lat/Lon được chọn](../../../../../translated_images/counterfit-gps-sensor-latlon.008c867d75464fbe7f84107cc57040df565ac07cb57d2f21db37d087d470197d.vi.png)
+      ![Cảm biến GPS với Lat/Lon được chọn](../../../../../translated_images/vi/counterfit-gps-sensor-latlon.008c867d75464fbe7f84107cc57040df565ac07cb57d2f21db37d087d470197d.png)
 
     * Đặt **Source** thành `NMEA` và thêm một số câu NMEA vào hộp văn bản. Tất cả các giá trị này sẽ được gửi, với độ trễ 1 giây trước mỗi câu GGA (định vị) mới có thể được đọc.
 
-      ![Cảm biến GPS với các câu NMEA được đặt](../../../../../translated_images/counterfit-gps-sensor-nmea.c62eea442171e17e19528b051b104cfcecdc9cd18db7bc72920f29821ae63f73.vi.png)
+      ![Cảm biến GPS với các câu NMEA được đặt](../../../../../translated_images/vi/counterfit-gps-sensor-nmea.c62eea442171e17e19528b051b104cfcecdc9cd18db7bc72920f29821ae63f73.png)
 
       Bạn có thể sử dụng công cụ như [nmeagen.org](https://www.nmeagen.org) để tạo các câu này bằng cách vẽ trên bản đồ. Các giá trị này sẽ chỉ được gửi một lần, vì vậy hãy đánh dấu vào ô **Repeat** để dữ liệu lặp lại sau mỗi giây khi tất cả đã được gửi.
 
     * Đặt **Source** thành tệp GPX, và tải lên một tệp GPX với các vị trí đường đi. Bạn có thể tải xuống các tệp GPX từ một số trang web bản đồ và đi bộ phổ biến, chẳng hạn như [AllTrails](https://www.alltrails.com/). Các tệp này chứa nhiều vị trí GPS dưới dạng đường đi, và cảm biến GPS sẽ trả về mỗi vị trí mới sau mỗi giây.
 
-      ![Cảm biến GPS với tệp GPX được đặt](../../../../../translated_images/counterfit-gps-sensor-gpxfile.8310b063ce8a425ccc8ebeec8306aeac5e8e55207f007d52c6e1194432a70cd9.vi.png)
+      ![Cảm biến GPS với tệp GPX được đặt](../../../../../translated_images/vi/counterfit-gps-sensor-gpxfile.8310b063ce8a425ccc8ebeec8306aeac5e8e55207f007d52c6e1194432a70cd9.png)
 
       Các giá trị này sẽ chỉ được gửi một lần, vì vậy hãy đánh dấu vào ô **Repeat** để dữ liệu lặp lại sau mỗi giây khi tất cả đã được gửi.
 

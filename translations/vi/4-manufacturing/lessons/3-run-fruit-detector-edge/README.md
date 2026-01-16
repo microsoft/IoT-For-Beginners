@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Chạy trình phát hiện trái cây của bạn trên thiết bị biên
 
-![Tóm tắt bài học bằng sketchnote](../../../../../translated_images/lesson-17.bc333c3c35ba8e42cce666cfffa82b915f787f455bd94e006aea2b6f2722421a.vi.jpg)
+![Tóm tắt bài học bằng sketchnote](../../../../../translated_images/vi/lesson-17.bc333c3c35ba8e42cce666cfffa82b915f787f455bd94e006aea2b6f2722421a.jpg)
 
 > Sketchnote bởi [Nitya Narasimhan](https://github.com/nitya). Nhấp vào hình ảnh để xem phiên bản lớn hơn.
 
@@ -42,11 +42,11 @@ Trong bài học này, chúng ta sẽ đề cập đến:
 
 Điện toán biên liên quan đến việc sử dụng các máy tính để xử lý dữ liệu IoT gần nhất có thể với nơi dữ liệu được tạo ra. Thay vì xử lý dữ liệu trên đám mây, nó được chuyển đến biên của đám mây - mạng nội bộ của bạn.
 
-![Sơ đồ kiến trúc hiển thị các dịch vụ internet trên đám mây và các thiết bị IoT trên mạng nội bộ](../../../../../translated_images/cloud-without-edge.b4da641f6022c95ed6b91fde8b5323abd2f94e0d52073ad54172ae8f5dac90e9.vi.png)
+![Sơ đồ kiến trúc hiển thị các dịch vụ internet trên đám mây và các thiết bị IoT trên mạng nội bộ](../../../../../translated_images/vi/cloud-without-edge.b4da641f6022c95ed6b91fde8b5323abd2f94e0d52073ad54172ae8f5dac90e9.png)
 
 Trong các bài học trước, bạn đã có các thiết bị thu thập dữ liệu và gửi dữ liệu đến đám mây để phân tích, chạy các hàm serverless hoặc mô hình AI trên đám mây.
 
-![Sơ đồ kiến trúc hiển thị các thiết bị IoT trên mạng nội bộ kết nối với các thiết bị biên, và các thiết bị biên này kết nối với đám mây](../../../../../translated_images/cloud-with-edge.1e26462c62c126fe150bd15a5714ddf0be599f09bacbad08b85be02b76ea1ae1.vi.png)
+![Sơ đồ kiến trúc hiển thị các thiết bị IoT trên mạng nội bộ kết nối với các thiết bị biên, và các thiết bị biên này kết nối với đám mây](../../../../../translated_images/vi/cloud-with-edge.1e26462c62c126fe150bd15a5714ddf0be599f09bacbad08b85be02b76ea1ae1.png)
 
 Điện toán biên liên quan đến việc chuyển một số dịch vụ đám mây ra khỏi đám mây và lên các máy tính chạy trên cùng mạng với các thiết bị IoT, chỉ giao tiếp với đám mây khi cần thiết. Ví dụ, bạn có thể chạy các mô hình AI trên các thiết bị biên để phân tích độ chín của trái cây, và chỉ gửi phân tích trở lại đám mây, chẳng hạn như số lượng trái cây chín so với chưa chín.
 
@@ -94,7 +94,7 @@ Một số rủi ro được giảm thiểu bởi chính bản chất của đi�
 
 ## Azure IoT Edge
 
-![Logo Azure IoT Edge](../../../../../translated_images/azure-iot-edge-logo.c1c076749b5cba2e8755262fadc2f19ca1146b948d76990b1229199ac2292d79.vi.png)
+![Logo Azure IoT Edge](../../../../../translated_images/vi/azure-iot-edge-logo.c1c076749b5cba2e8755262fadc2f19ca1146b948d76990b1229199ac2292d79.png)
 
 Azure IoT Edge là một dịch vụ có thể giúp bạn chuyển các khối lượng công việc ra khỏi đám mây và đến thiết bị biên. Bạn thiết lập một thiết bị làm thiết bị biên, và từ đám mây bạn có thể triển khai mã lên thiết bị biên đó. Điều này cho phép bạn kết hợp khả năng của đám mây và thiết bị biên.
 
@@ -108,7 +108,7 @@ IoT Edge được tích hợp vào IoT Hub, vì vậy bạn có thể quản lý
 
 IoT Edge chạy mã từ *container* - các ứng dụng tự chứa được chạy cách ly với các ứng dụng khác trên máy tính của bạn. Khi bạn chạy một container, nó hoạt động như một máy tính riêng biệt chạy bên trong máy tính của bạn, với phần mềm, dịch vụ và ứng dụng riêng của nó. Hầu hết thời gian, các container không thể truy cập bất cứ thứ gì trên máy tính của bạn trừ khi bạn chọn chia sẻ, chẳng hạn như một thư mục với container. Container sau đó cung cấp các dịch vụ thông qua một cổng mở mà bạn có thể kết nối hoặc cung cấp cho mạng của mình.
 
-![Một yêu cầu web được chuyển hướng đến một container](../../../../../translated_images/container-web-browser.4ee81dd4f0d8838ce622b2a0d600b6a4322b5d4fe43159facd87b7b34f84d66a.vi.png)
+![Một yêu cầu web được chuyển hướng đến một container](../../../../../translated_images/vi/container-web-browser.4ee81dd4f0d8838ce622b2a0d600b6a4322b5d4fe43159facd87b7b34f84d66a.png)
 
 Ví dụ, bạn có thể có một container với một trang web chạy trên cổng 80, cổng HTTP mặc định, và sau đó bạn có thể cung cấp nó từ máy tính của mình cũng trên cổng 80.
 
@@ -205,11 +205,11 @@ Sau khi mô hình đã được huấn luyện, cần xuất nó dưới dạng 
 
 ## Chuẩn bị container của bạn để triển khai
 
-![Containers được xây dựng sau đó đẩy lên container registry, rồi triển khai từ container registry đến thiết bị edge bằng IoT Edge](../../../../../translated_images/container-edge-flow.c246050dd60ceefdb6ace026a4ce5c6aa4112bb5898ae23fbb2ab4be29ae3e1b.vi.png)
+![Containers được xây dựng sau đó đẩy lên container registry, rồi triển khai từ container registry đến thiết bị edge bằng IoT Edge](../../../../../translated_images/vi/container-edge-flow.c246050dd60ceefdb6ace026a4ce5c6aa4112bb5898ae23fbb2ab4be29ae3e1b.png)
 
 Sau khi bạn đã tải xuống mô hình của mình, nó cần được xây dựng thành container, sau đó đẩy lên container registry - một vị trí trực tuyến nơi bạn có thể lưu trữ container. IoT Edge sau đó có thể tải container từ registry và đẩy nó đến thiết bị của bạn.
 
-![Logo Azure Container Registry](../../../../../translated_images/azure-container-registry-logo.09494206991d4b295025ebff7d4e2900325e527a59184ffbc8464b6ab59654be.vi.png)
+![Logo Azure Container Registry](../../../../../translated_images/vi/azure-container-registry-logo.09494206991d4b295025ebff7d4e2900325e527a59184ffbc8464b6ab59654be.png)
 
 Container registry mà bạn sẽ sử dụng cho bài học này là Azure Container Registry. Đây không phải là dịch vụ miễn phí, vì vậy để tiết kiệm chi phí, hãy đảm bảo [dọn dẹp dự án của bạn](../../../clean-up.md) sau khi hoàn thành.
 
