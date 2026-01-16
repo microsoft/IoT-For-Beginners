@@ -35,7 +35,7 @@ Connect di time of flight sensor.
 
 1. When di Raspberry Pi dey off, connect di other end of di Grove cable to one of di I<sup>2</sup>C sockets wey dem mark **I<sup>2</sup>C** for di Grove Base hat wey dey attach to di Pi. Dis sockets dey for di bottom row, di opposite side to di GPI pins and near di camera cable slot.
 
-![Di grove time of flight sensor wey dem connect to di I squared C socket](../../../../../translated_images/pi-time-of-flight-sensor.58c8dc04eb3bfb57.pcm.png)
+![Di grove time of flight sensor wey dem connect to di I squared C socket](../../../../../translated_images/pcm/pi-time-of-flight-sensor.58c8dc04eb3bfb57.webp)
 
 ## Program di time of flight sensor
 
@@ -106,7 +106,7 @@ Program di device.
 
     Di rangefinder dey for di back of di sensor, so make sure say you dey use di correct side when you dey measure distance.
 
-    ![Di rangefinder for di back of di time of flight sensor wey dey point at one banana](../../../../../translated_images/time-of-flight-banana.079921ad8b1496e4.pcm.png)
+    ![Di rangefinder for di back of di time of flight sensor wey dey point at one banana](../../../../../translated_images/pcm/time-of-flight-banana.079921ad8b1496e4.webp)
 
 > 💁 You fit find dis code for di [code-proximity/pi](../../../../../4-manufacturing/lessons/4-trigger-fruit-detector/code-proximity/pi) folder.
 

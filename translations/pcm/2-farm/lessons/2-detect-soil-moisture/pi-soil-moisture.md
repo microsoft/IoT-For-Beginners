@@ -37,7 +37,7 @@ Connect di soil moisture sensor.
 
 1. Put di soil moisture sensor inside soil. E get one 'highest position line' - na white line wey dey across di sensor. Put di sensor reach di line but no pass am.
 
-![Di grove soil moisture sensor inside soil](../../../../../translated_images/soil-moisture-sensor-in-soil.bfad91002bda5e96.pcm.png)
+![Di grove soil moisture sensor inside soil](../../../../../translated_images/pcm/soil-moisture-sensor-in-soil.bfad91002bda5e96.webp)
 
 ## Program di soil moisture sensor
 

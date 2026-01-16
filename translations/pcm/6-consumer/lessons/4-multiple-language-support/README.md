@@ -130,7 +130,7 @@ For dis lesson, you go need Translator resource. You go use di REST API to trans
 
 For ideal world, your whole app suppose sabi plenty languages as e fit, from listening to speech, to language understanding, to responding with speech. Dis na plenty work, so translation services fit help you deliver your app faster.
 
-![One smart timer architecture wey dey translate Japanese to English, process am for English then translate back to Japanese](../../../../../translated_images/translated-smart-timer.08ac20057fdc5c37.pcm.png)
+![One smart timer architecture wey dey translate Japanese to English, process am for English then translate back to Japanese](../../../../../translated_images/pcm/translated-smart-timer.08ac20057fdc5c37.webp)
 
 Imagine say you dey build one smart timer wey dey use English from start to finish, e dey understand spoken English and change am to text, e dey run di language understanding for English, e dey build responses for English and reply with English speech. If you wan add support for Japanese, you fit start by translating spoken Japanese to English text, then keep di main part of di app di same, then translate di response text to Japanese before e talk di response. Dis go allow you add Japanese support fast, and you fit expand am later to provide full Japanese support.
 

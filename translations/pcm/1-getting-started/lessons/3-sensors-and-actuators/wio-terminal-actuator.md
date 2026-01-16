@@ -51,7 +51,7 @@ Connect di LED.
 
     > 💁 Di right-hand Grove socket fit work with analog or digital sensors and actuators. Di left-hand socket na for I<sup>2</sup>C and digital sensors and actuators only. I<sup>2</sup>C go dey explain for later lesson.
 
-![Di grove LED wey connect to di right hand socket](../../../../../translated_images/wio-led.265a1897e72d7f21.pcm.png)
+![Di grove LED wey connect to di right hand socket](../../../../../translated_images/pcm/wio-led.265a1897e72d7f21.webp)
 
 ## Program di nightlight
 

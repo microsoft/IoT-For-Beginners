@@ -15,11 +15,11 @@ For dis part of di lesson, you go add speaker to your Wio Terminal. Di Wio Termi
 
 Di Wio Terminal don already get mic inside, and you fit use am to capture sound for talk recognition.
 
-![Di mic wey dey Wio Terminal](../../../../../translated_images/wio-mic.3f8c843dbe8ad917.pcm.png)
+![Di mic wey dey Wio Terminal](../../../../../translated_images/pcm/wio-mic.3f8c843dbe8ad917.webp)
 
 To add speaker, you fit use di [ReSpeaker 2-Mics Pi Hat](https://www.seeedstudio.com/ReSpeaker-2-Mics-Pi-HAT.html). Dis na external board wey get 2 MEMS microphones, plus speaker connector and headphone socket.
 
-![Di ReSpeaker 2-Mics Pi Hat](../../../../../translated_images/respeaker.f5d19d1c6b14ab16.pcm.png)
+![Di ReSpeaker 2-Mics Pi Hat](../../../../../translated_images/pcm/respeaker.f5d19d1c6b14ab16.webp)
 
 You go need add either headphone, speaker wey get 3.5mm jack, or speaker wey get JST connection like di [Mono Enclosed Speaker - 2W 6 Ohm](https://www.seeedstudio.com/Mono-Enclosed-Speaker-2W-6-Ohm-p-2832.html).
 
@@ -35,7 +35,7 @@ You go also need SD card to download and play sound. Di Wio Terminal dey support
 
     Di pins go need connect like dis:
 
-    ![Pin diagram](../../../../../translated_images/wio-respeaker-wiring-0.767f80aa65081038.pcm.png)
+    ![Pin diagram](../../../../../translated_images/pcm/wio-respeaker-wiring-0.767f80aa65081038.webp)
 
 1. Arrange di ReSpeaker and Wio Terminal make di GPIO sockets dey face up, and dey left-hand side.
 
@@ -43,33 +43,33 @@ You go also need SD card to download and play sound. Di Wio Terminal dey support
 
 1. Do am like dat go reach di bottom for di GPIO sockets wey dey left-hand side. Make sure say di pins dey enter well.
 
-    ![ReSpeaker wey di left-hand pins don connect to di left-hand pins of di Wio Terminal](../../../../../translated_images/wio-respeaker-wiring-1.8d894727f2ba2400.pcm.png)
+    ![ReSpeaker wey di left-hand pins don connect to di left-hand pins of di Wio Terminal](../../../../../translated_images/pcm/wio-respeaker-wiring-1.8d894727f2ba2400.webp)
 
-    ![ReSpeaker wey di left-hand pins don connect to di left-hand pins of di Wio Terminal](../../../../../translated_images/wio-respeaker-wiring-2.329e1cbd306e754f.pcm.png)
+    ![ReSpeaker wey di left-hand pins don connect to di left-hand pins of di Wio Terminal](../../../../../translated_images/pcm/wio-respeaker-wiring-2.329e1cbd306e754f.webp)
 
     > 💁 If your jumper cables dey together as ribbon, leave dem like dat - e go make am easy to confirm say you don connect all di cables well.
 
 1. Do di same process for di right-hand GPIO sockets for di ReSpeaker and Wio Terminal. Di cables go need pass around di cables wey don dey already.
 
-    ![ReSpeaker wey di right-hand pins don connect to di right-hand pins of di Wio Terminal](../../../../../translated_images/wio-respeaker-wiring-3.75b0be447e2fa930.pcm.png)
+    ![ReSpeaker wey di right-hand pins don connect to di right-hand pins of di Wio Terminal](../../../../../translated_images/pcm/wio-respeaker-wiring-3.75b0be447e2fa930.webp)
 
-    ![ReSpeaker wey di right-hand pins don connect to di right-hand pins of di Wio Terminal](../../../../../translated_images/wio-respeaker-wiring-4.aa9cd434d8779437.pcm.png)
+    ![ReSpeaker wey di right-hand pins don connect to di right-hand pins of di Wio Terminal](../../../../../translated_images/pcm/wio-respeaker-wiring-4.aa9cd434d8779437.webp)
 
     > 💁 If your jumper cables dey as ribbon, divide dem into two ribbons. Pass one each side of di cables wey don dey already.
 
     > 💁 You fit use sticky tape to hold di pins together make dem no commot as you dey connect dem.
     >
-    > ![Di pins wey dem don hold with tape](../../../../../translated_images/wio-respeaker-wiring-5.af117c20acf622f3.pcm.png)
+    > ![Di pins wey dem don hold with tape](../../../../../translated_images/pcm/wio-respeaker-wiring-5.af117c20acf622f3.webp)
 
 1. You go need add speaker.
 
     * If you dey use speaker wey get JST cable, connect am to di JST port for di ReSpeaker.
 
-      ![Speaker wey dem connect to di ReSpeaker with JST cable](../../../../../translated_images/respeaker-jst-speaker.a441d177809df945.pcm.png)
+      ![Speaker wey dem connect to di ReSpeaker with JST cable](../../../../../translated_images/pcm/respeaker-jst-speaker.a441d177809df945.webp)
 
     * If you dey use speaker wey get 3.5mm jack, or headphone, put am inside di 3.5mm jack socket.
 
-      ![Speaker wey dem connect to di ReSpeaker through di 3.5mm jack socket](../../../../../translated_images/respeaker-35mm-speaker.ad79ef4f128c7751.pcm.png)
+      ![Speaker wey dem connect to di ReSpeaker through di 3.5mm jack socket](../../../../../translated_images/pcm/respeaker-35mm-speaker.ad79ef4f128c7751.webp)
 
 ### Task - set up di SD card
 
@@ -79,7 +79,7 @@ You go also need SD card to download and play sound. Di Wio Terminal dey support
 
 1. Put di SD card inside di SD Card slot wey dey left-hand side of di Wio Terminal, just under di power button. Make sure say di card enter well and click - you fit need thin tool or another SD Card to help push am enter.
 
-    ![Di SD card wey dem dey put inside di SD card slot under di power switch](../../../../../translated_images/wio-sd-card.acdcbe322fa4ee7f.pcm.png)
+    ![Di SD card wey dem dey put inside di SD card slot under di power switch](../../../../../translated_images/pcm/wio-sd-card.acdcbe322fa4ee7f.webp)
 
     > 💁 To commot di SD Card, you go need push am small and e go commot. You go need thin tool like flat-head screwdriver or another SD Card to do dis.
 

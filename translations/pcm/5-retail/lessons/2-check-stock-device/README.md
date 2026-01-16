@@ -39,7 +39,7 @@ Object detectors fit dey useful for stock checking, whether na to count stock or
 
 For example, if camera dey look one shelf wey fit carry 8 cans of tomato paste, and di object detector only detect 7 cans, e mean say one don miss and dem need to restock am.
 
-![7 cans of tomato paste on a shelf, 4 on the top row, 3 on top](../../../../../translated_images/stock-7-cans-tomato-paste.f86059cc573d7bec.pcm.png)
+![7 cans of tomato paste on a shelf, 4 on the top row, 3 on top](../../../../../translated_images/pcm/stock-7-cans-tomato-paste.f86059cc573d7bec.webp)
 
 For di image wey dey up, di object detector don detect 7 cans of tomato paste for shelf wey fit carry 8 cans. Di IoT device fit send notification say dem need to restock, and e fit even show di location of di missing item, wey go be important data if you dey use robots to restock shelves.
 
@@ -51,7 +51,7 @@ Sometimes, wrong stock fit dey for di shelves. E fit be human error when dem dey
 
 Object detection fit help detect items wey no suppose dey there, and e go alert human or robot to return di item as dem detect am.
 
-![A rogue can of baby corn on the tomato paste shelf](../../../../../translated_images/stock-rogue-corn.be1f3ada8c457854.pcm.png)
+![A rogue can of baby corn on the tomato paste shelf](../../../../../translated_images/pcm/stock-rogue-corn.be1f3ada8c457854.webp)
 
 For di image wey dey up, one can of baby corn don dey put for di shelf wey tomato paste suppose dey. Di object detector don detect am, so di IoT device fit notify human or robot to return di can go di correct place.
 

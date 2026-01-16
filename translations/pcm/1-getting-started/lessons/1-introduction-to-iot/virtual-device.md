@@ -154,11 +154,11 @@ Create Python app wey go print `"Hello World"` for the console.
 
 1. When VS Code open, e go activate the Python virtual environment. The selected virtual environment go show for the bottom status bar:
 
-    ![VS Code showing the selected virtual environment](../../../../../translated_images/vscode-virtual-env.8ba42e04c3d533cf.pcm.png)
+    ![VS Code showing the selected virtual environment](../../../../../translated_images/pcm/vscode-virtual-env.8ba42e04c3d533cf.webp)
 
 1. If the VS Code Terminal dey already open when VS Code start, e no go activate the virtual environment for the terminal. The easiest way na to kill the terminal using the **Kill the active terminal instance** button:
 
-    ![VS Code Kill the active terminal instance button](../../../../../translated_images/vscode-kill-terminal.1cc4de7c6f25ee08.pcm.png)
+    ![VS Code Kill the active terminal instance button](../../../../../translated_images/pcm/vscode-kill-terminal.1cc4de7c6f25ee08.webp)
 
     You fit know if the terminal don activate the virtual environment as the name of the virtual environment go dey as prefix for the terminal prompt. For example, e fit be:
 
@@ -229,7 +229,7 @@ As second 'Hello World' step, you go run the CounterFit app and connect your cod
 
 1. You go need open new VS Code terminal by selecting the **Create a new integrated terminal** button. This na because the CounterFit app dey run for the current terminal.
 
-    ![VS Code Create a new integrated terminal button](../../../../../translated_images/vscode-new-terminal.77db8fc0f9cd3182.pcm.png)
+    ![VS Code Create a new integrated terminal button](../../../../../translated_images/pcm/vscode-new-terminal.77db8fc0f9cd3182.webp)
 
 1. For this new terminal, run the `app.py` file like before. The status of CounterFit go change to **Connected** and the LED go light up.
 

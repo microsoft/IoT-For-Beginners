@@ -46,7 +46,7 @@ For dis lesson, we go talk about:
 
 Plenty popular communication protocols dey wey IoT devices dey use to talk with di Internet. Di most popular ones dey use publish/subscribe messaging through broker. Di IoT devices go connect to di broker, publish telemetry, and subscribe to commands. Di cloud services go also connect to di broker, subscribe to all di telemetry messages, and publish commands to specific devices or groups of devices.
 
-![IoT devices connect to a broker and publish telemetry and subscribe to commands. Cloud services connect to di broker and subscribe to all telemetry and send commands to specific devices.](../../../../../translated_images/pub-sub.7c7ed43fe9fd15d4.pcm.png)
+![IoT devices connect to a broker and publish telemetry and subscribe to commands. Cloud services connect to di broker and subscribe to all telemetry and send commands to specific devices.](../../../../../translated_images/pcm/pub-sub.7c7ed43fe9fd15d4.webp)
 
 MQTT na di most popular communication protocol for IoT devices and we go talk about am for dis lesson. Other protocols include AMQP and HTTP/HTTPS.
 
@@ -115,7 +115,7 @@ Di word telemetry come from Greek roots wey mean to measure remotely. Telemetry 
 
 Make we look di example of di smart thermostat from Lesson 1.
 
-![An Internet connected thermostat using multiple room sensors](../../../../../translated_images/telemetry.21e5d8b97649d2eb.pcm.png)
+![An Internet connected thermostat using multiple room sensors](../../../../../translated_images/pcm/telemetry.21e5d8b97649d2eb.webp)
 
 Di thermostat get temperature sensors to gather telemetry. E go most likely get one temperature sensor inside, and e fit connect to plenty external temperature sensors through wireless protocol like [Bluetooth Low Energy](https://wikipedia.org/wiki/Bluetooth_Low_Energy) (BLE).
 
@@ -268,11 +268,11 @@ Write server code.
 
 1. When VS Code open, e go activate the Python virtual environment. You go see am for the bottom status bar:
 
-    ![VS Code dey show selected virtual environment](../../../../../translated_images/vscode-virtual-env.8ba42e04c3d533cf.pcm.png)
+    ![VS Code dey show selected virtual environment](../../../../../translated_images/pcm/vscode-virtual-env.8ba42e04c3d533cf.webp)
 
 1. If VS Code Terminal dey already run when VS Code start, e no go activate the virtual environment for am. The easiest way na to kill the terminal using **Kill the active terminal instance** button:
 
-    ![VS Code Kill the active terminal instance button](../../../../../translated_images/vscode-kill-terminal.1cc4de7c6f25ee08.pcm.png)
+    ![VS Code Kill the active terminal instance button](../../../../../translated_images/pcm/vscode-kill-terminal.1cc4de7c6f25ee08.webp)
 
 1. Open new VS Code Terminal by selecting *Terminal -> New Terminal, or pressing `` CTRL+` ``. The new terminal go load the virtual environment, and you go see the activate command for the terminal. The name of the virtual environment (`.venv`) go dey for the prompt:
 

@@ -65,7 +65,7 @@ Each type of plant get different values for their base, optimal and maximum temp
 
 ✅ Do small research. For di plants wey dey your garden, school, or local park, try find di base temperature.
 
-![A graph showing growth rate rising as temperature rises, then dropping as the temperature goes too high](../../../../../translated_images/plant-growth-temp-graph.c6d69c9478e6ca83.pcm.png)
+![A graph showing growth rate rising as temperature rises, then dropping as the temperature goes too high](../../../../../translated_images/pcm/plant-growth-temp-graph.c6d69c9478e6ca83.webp)
 
 Di graph wey dey above dey show example of growth rate to temperature graph. Up to di base temperature, di plant no go grow. Di growth rate go increase until e reach di optimum temperature, then e go drop after e reach di peak. For di maximum temperature, growth go stop.
 
@@ -141,7 +141,7 @@ Dis dey cause plenty work for big farm, and e fit make farmer miss crops wey don
 
 By gathering temperature data using IoT device, farmer fit get automatic notification when plants don near maturity. Di normal way na to make di IoT devices measure temperature, then send di telemetry data over Internet using something like MQTT. Server code go dey listen to dis data and save am somewhere, like database. Dis go make di data fit dey analyzed later, like nightly job to calculate di GDD for di day, total di GDD for each crop so far and alert if plant don near maturity.
 
-![Telemetry data is sent to a server and then saved to a database](../../../../../translated_images/save-telemetry-database.ddc9c6bea0c5ba39.pcm.png)
+![Telemetry data is sent to a server and then saved to a database](../../../../../translated_images/pcm/save-telemetry-database.ddc9c6bea0c5ba39.webp)
 
 Di server code fit also add extra information. For example, di IoT device fit send identifier to show which device e be, and di server code fit use am to find di location of di device, and di crops wey e dey monitor. E fit also add basic data like di current time as some IoT devices no get di hardware to keep track of accurate time, or dem need extra code to read di current time from Internet.
 
@@ -228,7 +228,7 @@ Dis code dey open di CSV file, den e go add new row for di end. Di row get di cu
 1. Run dis code for some time to collect data. E go better make you run am for one full day to gather enough data for GDD calculations.
 
     > 💁 If you dey use Virtual IoT Device, select di random checkbox and set range so you no go dey get di same temperature every time di temperature value dey return.
-    ![Select di random checkbox and set range](../../../../../translated_images/select-the-random-checkbox-and-set-a-range.32cf4bc7c12e797f.pcm.png) 
+    ![Select di random checkbox and set range](../../../../../translated_images/pcm/select-the-random-checkbox-and-set-a-range.32cf4bc7c12e797f.webp) 
 
     > 💁 If you wan run dis code for one full day, you go need make sure say di computer wey your server code dey run on no go sleep. You fit change di power settings or run something like [dis keep system active Python script](https://github.com/jaqsparow/keep-system-active).
     

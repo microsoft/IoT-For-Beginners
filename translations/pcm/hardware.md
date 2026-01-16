@@ -21,7 +21,7 @@ You go also need some non-technical things like soil or pot plant, and fruit or 
 
 ## Buy di kits
 
-![Di Seeed studios logo](../../translated_images/seeed-logo.74732b6b482b6e8e.pcm.png)
+![Di Seeed studios logo](../../translated_images/pcm/seeed-logo.74732b6b482b6e8e.webp)
 
 Seeed Studios don help us make all di hardware easy to buy as kits:
 
@@ -29,7 +29,7 @@ Seeed Studios don help us make all di hardware easy to buy as kits:
 
 **[IoT for beginners wit Seeed and Microsoft - Wio Terminal Starter Kit](https://www.seeedstudio.com/IoT-for-beginners-with-Seeed-and-Microsoft-Wio-Terminal-Starter-Kit-p-5006.html)**
 
-[![Di Wio Terminal hardware kit](../../translated_images/wio-hardware-kit.4c70c48b85e4283a.pcm.png)](https://www.seeedstudio.com/IoT-for-beginners-with-Seeed-and-Microsoft-Wio-Terminal-Starter-Kit-p-5006.html)
+[![Di Wio Terminal hardware kit](../../translated_images/pcm/wio-hardware-kit.4c70c48b85e4283a.webp)](https://www.seeedstudio.com/IoT-for-beginners-with-Seeed-and-Microsoft-Wio-Terminal-Starter-Kit-p-5006.html)
 
 ### Raspberry Pi
 

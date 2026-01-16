@@ -33,7 +33,7 @@ Connect di GPS sensor.
 
 1. Make sure say di Wio Terminal no dey connect to your computer or any power source, then connect di other end of di Grove cable to di left-hand side Grove socket for di Wio Terminal as you dey look di screen. Na di socket wey near di power button.
 
-    ![The grove GPS sensor connected to the left hand socket](../../../../../translated_images/wio-gps-sensor.19fd52b81ce58095.pcm.png)
+    ![The grove GPS sensor connected to the left hand socket](../../../../../translated_images/pcm/wio-gps-sensor.19fd52b81ce58095.webp)
 
 1. Arrange di GPS sensor so di antenna wey dey attach fit see di sky well - e go better if e dey near open window or outside. E go easy to get clear signal if nothing dey block di antenna.
 

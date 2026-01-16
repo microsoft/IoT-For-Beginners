@@ -31,7 +31,7 @@ Connect di temperature sensor
 
 1. When di Raspberry Pi dey off, connect di other end of di Grove cable to di digital socket wey dem mark **D5** for di Grove Base hat wey dey attach to di Pi. Dis socket na di second one from di left, for di row of sockets wey dey near di GPIO pins.
 
-![Di grove temperature sensor wey dem connect to socket A0](../../../../../translated_images/pi-temperature-sensor.3ff82fff672c8e56.pcm.png)
+![Di grove temperature sensor wey dem connect to socket A0](../../../../../translated_images/pcm/pi-temperature-sensor.3ff82fff672c8e56.webp)
 
 ## Program di temperature sensor
 

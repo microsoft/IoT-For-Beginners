@@ -37,7 +37,7 @@ For dis lesson we go cover:
 
 Text to speech, as di name talk, na di process to turn text to audio wey go talk di text as spoken words. Di basic idea na to break di words for di text into di sounds wey dem dey made up of (dem dey call am phonemes), then join di audio for those sounds together, either with pre-recorded audio or audio wey AI models generate.
 
-![The three stages of typical text to speech systems](../../../../../translated_images/tts-overview.193843cf3f5ee09f.pcm.png)
+![The three stages of typical text to speech systems](../../../../../translated_images/pcm/tts-overview.193843cf3f5ee09f.webp)
 
 Text to speech systems dey usually get 3 stages:
 

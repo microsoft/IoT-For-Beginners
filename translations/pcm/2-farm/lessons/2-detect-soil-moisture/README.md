@@ -44,7 +44,7 @@ Plants need water to grow. Dem dey absorb water through di whole plant, but na d
 * [Transpiration](https://wikipedia.org/wiki/Transpiration) - Plants dey use water to carry nutrients around di plant, cool di plant, and help carbon dioxide enter di plant through di leaf pores. E dey similar to how humans dey sweat.
 * Structure - Plants need water to maintain their structure. Dem be 90% water (humans na only 60%), and di water dey keep di cells strong. If plant no get enough water, e go bend (wilt) and fit die.
 
-![Water is absorbed through plant roots then carried around the plant, being used for photosynthesis and plant structure](../../../../../translated_images/transpiration.b735aa34e4372e65.pcm.png)
+![Water is absorbed through plant roots then carried around the plant, being used for photosynthesis and plant structure](../../../../../translated_images/pcm/transpiration.b735aa34e4372e65.webp)
 
 ✅ Do some research: how much water dey lost through transpiration?
 
@@ -58,7 +58,7 @@ Plenty sensors dey wey fit measure soil moisture:
 
 * Resistive - Resistive sensor get two probes wey dem go put for soil. Electric current go pass one probe and di other probe go receive am. Di sensor go measure di resistance of di soil - how much di current drop for di second probe. Water dey conduct electricity well, so di more water dey di soil, di less resistance e go get.
 
-    ![A resistive soil moisture sensor](../../../../../translated_images/resistive-soil-moisture-sensor.728a138a3d109e06.pcm.png)
+    ![A resistive soil moisture sensor](../../../../../translated_images/pcm/resistive-soil-moisture-sensor.728a138a3d109e06.webp)
 
     > 💁 You fit build resistive soil moisture sensor with two metal pieces, like nails, wey you go separate by small space, then measure di resistance between dem with multimeter.
 
@@ -147,7 +147,7 @@ UART na physical circuit wey dey allow two device to communicate. Each device ge
 * Device 1 dey send data from e Tx pin, wey device 2 go receive for e Rx pin
 * Device 1 dey receive data for e Rx pin wey device 2 dey send from e Tx pin
 
-![UART with di Tx pin for one chip wey connect to di Rx pin for another, and vice versa](../../../../../translated_images/uart.d0dbd3fb9e3728c6.pcm.png)
+![UART with di Tx pin for one chip wey connect to di Rx pin for another, and vice versa](../../../../../translated_images/pcm/uart.d0dbd3fb9e3728c6.webp)
 
 > 🎓 Di data dey send one bit at a time, and dem dey call dis one *serial* communication. Most operating system and microcontroller get *serial port*, wey be connection wey fit send and receive serial data wey your code fit use.
 
@@ -176,7 +176,7 @@ SPI controller dey use 3 wire, plus 1 extra wire for each peripheral. Peripheral
 | SCLK | Serial Clock | Dis wire dey send clock signal for rate wey di controller set. |
 | CS   | Chip Select | Di controller get plenty wire, one for each peripheral, and each wire dey connect to di CS wire for di peripheral wey e dey correspond to. |
 
-![SPI with one controller and two peripherals](../../../../../translated_images/spi.297431d6f98b386b.pcm.png)
+![SPI with one controller and two peripherals](../../../../../translated_images/pcm/spi.297431d6f98b386b.webp)
 
 Di CS wire dey activate one peripheral at a time, dey communicate through di COPI and CIPO wire. When di controller wan change peripheral, e go deactivate di CS wire wey connect to di active peripheral, then e go activate di wire wey connect to di next peripheral wey e wan communicate with.
 
@@ -237,13 +237,13 @@ Soil moisture dey measure using gravimetric or volumetric water content.
 
 Soil moisture sensors dey measure electrical resistance or capacitance - dis one no dey only vary by soil moisture, but also soil type because di component for di soil fit change e electrical characteristic. Ideally sensors suppose calibrate - dat na taking reading from di sensor and comparing dem to measurement wey dem find using more scientific method. Example, lab fit calculate di gravimetric soil moisture using sample from specific field wey dem take few times for di year, and dis number go dey use to calibrate di sensor, matching di sensor reading to di gravimetric soil moisture.
 
-![A graph of voltage vs soil moisture content](../../../../../translated_images/soil-moisture-to-voltage.df86d80cda158700.pcm.png)
+![A graph of voltage vs soil moisture content](../../../../../translated_images/pcm/soil-moisture-to-voltage.df86d80cda158700.webp)
 
 Di graph wey dey up show how to calibrate sensor. Di voltage go dey capture for soil sample wey dem go measure for lab by comparing di moist weight to di dry weight (by measuring di weight wet, then drying am for oven and measuring di dry weight). Once dem don take few readings, dem fit plot am for graph and fit line to di points. Dis line fit dey use to convert soil moisture sensor reading wey IoT device dey take to actual soil moisture measurement.
 
 💁 For resistive soil moisture sensors, di voltage dey increase as soil moisture dey increase. For capacitive soil moisture sensors, di voltage dey reduce as soil moisture dey increase, so di graph for dis one go dey slope down, no be up.
 
-![A soil moisture value interpolated from di graph](../../../../../translated_images/soil-moisture-to-voltage-with-reading.681cb3e1f8b68caf.pcm.png)
+![A soil moisture value interpolated from di graph](../../../../../translated_images/pcm/soil-moisture-to-voltage-with-reading.681cb3e1f8b68caf.webp)
 
 Di graph wey dey up show voltage reading from soil moisture sensor, and by following dat one go di line for di graph, di actual soil moisture fit dey calculate.
 
