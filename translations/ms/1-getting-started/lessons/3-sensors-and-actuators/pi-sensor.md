@@ -25,13 +25,13 @@ Sensor cahaya Grove yang digunakan untuk mengesan tahap cahaya perlu disambungka
 
 Sambungkan sensor cahaya
 
-![Sensor cahaya Grove](../../../../../translated_images/grove-light-sensor.b8127b7c434e632d6bcdb57587a14e9ef69a268a22df95d08628f62b8fa5505c.ms.png)
+![Sensor cahaya Grove](../../../../../translated_images/ms/grove-light-sensor.b8127b7c434e632d6bcdb57587a14e9ef69a268a22df95d08628f62b8fa5505c.png)
 
 1. Masukkan satu hujung kabel Grove ke soket pada modul sensor cahaya. Ia hanya boleh dimasukkan dalam satu arah sahaja.
 
 1. Dengan Raspberry Pi dimatikan, sambungkan hujung lain kabel Grove ke soket analog yang ditandakan **A0** pada Grove Base hat yang disambungkan ke Pi. Soket ini adalah yang kedua dari kanan, pada barisan soket bersebelahan pin GPIO.
 
-![Sensor cahaya Grove disambungkan ke soket A0](../../../../../translated_images/pi-light-sensor.66cc1e31fa48cd7d5f23400d4b2119aa41508275cb7c778053a7923b4e972d7e.ms.png)
+![Sensor cahaya Grove disambungkan ke soket A0](../../../../../translated_images/ms/pi-light-sensor.66cc1e31fa48cd7d5f23400d4b2119aa41508275cb7c778053a7923b4e972d7e.png)
 
 ## Programkan sensor cahaya
 

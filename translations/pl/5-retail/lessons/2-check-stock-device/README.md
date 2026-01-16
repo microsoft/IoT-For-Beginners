@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Sprawdź zapasy za pomocą urządzenia IoT
 
-![Szkicowy przegląd tej lekcji](../../../../../translated_images/lesson-20.0211df9551a8abb300fc8fcf7dc2789468dea2eabe9202273ac077b0ba37f15e.pl.jpg)
+![Szkicowy przegląd tej lekcji](../../../../../translated_images/pl/lesson-20.0211df9551a8abb300fc8fcf7dc2789468dea2eabe9202273ac077b0ba37f15e.jpg)
 
 > Szkic autorstwa [Nitya Narasimhan](https://github.com/nitya). Kliknij obrazek, aby zobaczyć większą wersję.
 
@@ -39,7 +39,7 @@ Detektory obiektów mogą być używane do sprawdzania zapasów, zarówno do ich
 
 Na przykład, jeśli kamera skierowana jest na półki, które mogą pomieścić 8 puszek koncentratu pomidorowego, a detektor obiektów wykrywa tylko 7 puszek, oznacza to, że jedna brakuje i należy ją uzupełnić.
 
-![7 puszek koncentratu pomidorowego na półce, 4 na górnym rzędzie, 3 na dolnym](../../../../../translated_images/stock-7-cans-tomato-paste.f86059cc573d7bec.pl.png)
+![7 puszek koncentratu pomidorowego na półce, 4 na górnym rzędzie, 3 na dolnym](../../../../../translated_images/pl/stock-7-cans-tomato-paste.f86059cc573d7bec.png)
 
 Na powyższym obrazku detektor obiektów wykrył 7 puszek koncentratu pomidorowego na półce, która może pomieścić 8 puszek. Urządzenie IoT może nie tylko wysłać powiadomienie o konieczności uzupełnienia zapasów, ale także wskazać lokalizację brakującego produktu, co jest istotne, jeśli używasz robotów do uzupełniania półek.
 
@@ -51,7 +51,7 @@ Czasami na półkach może znajdować się niewłaściwy towar. Może to być wy
 
 Detekcja obiektów może być używana do wykrywania nieoczekiwanych produktów, ponownie informując człowieka lub robota o konieczności ich zwrócenia na właściwe miejsce.
 
-![Niepasująca puszka kukurydzy na półce z koncentratem pomidorowym](../../../../../translated_images/stock-rogue-corn.be1f3ada8c457854.pl.png)
+![Niepasująca puszka kukurydzy na półce z koncentratem pomidorowym](../../../../../translated_images/pl/stock-rogue-corn.be1f3ada8c457854.png)
 
 Na powyższym obrazku puszka kukurydzy została umieszczona na półce obok koncentratu pomidorowego. Detektor obiektów wykrył to, umożliwiając urządzeniu IoT powiadomienie człowieka lub robota o konieczności zwrócenia puszki na właściwe miejsce.
 
@@ -71,7 +71,7 @@ Iteracje są publikowane z portalu Custom Vision.
 
 1. Kliknij przycisk **Publish** dla tej iteracji.
 
-    ![Przycisk publikacji](../../../../../translated_images/custom-vision-object-detector-publish-button.34ee379fc650ccb9856c3868d0003f413b9529f102fc73c37168c98d721cc293.pl.png)
+    ![Przycisk publikacji](../../../../../translated_images/pl/custom-vision-object-detector-publish-button.34ee379fc650ccb9856c3868d0003f413b9529f102fc73c37168c98d721cc293.png)
 
 1. W oknie dialogowym *Publish Model* ustaw *Prediction resource* na zasób `stock-detector-prediction`, który utworzyłeś w poprzedniej lekcji. Pozostaw nazwę jako `Iteration2` i kliknij przycisk **Publish**.
 
@@ -85,7 +85,7 @@ Iteracje są publikowane z portalu Custom Vision.
 
     Skopiuj również wartość *Prediction-Key*. Jest to klucz zabezpieczający, który musisz przekazać podczas wywoływania modelu. Tylko aplikacje, które przekazują ten klucz, mogą korzystać z modelu, inne aplikacje zostaną odrzucone.
 
-    ![Okno dialogowe API predykcji pokazujące URL i klucz](../../../../../translated_images/custom-vision-prediction-key-endpoint.30c569ffd0338864f319911f052d5e9b8c5066cb0800a26dd6f7ff5713130ad8.pl.png)
+    ![Okno dialogowe API predykcji pokazujące URL i klucz](../../../../../translated_images/pl/custom-vision-prediction-key-endpoint.30c569ffd0338864f319911f052d5e9b8c5066cb0800a26dd6f7ff5713130ad8.png)
 
 ✅ Gdy nowa iteracja zostanie opublikowana, będzie miała inną nazwę. Jak myślisz, jak zmienić iterację używaną przez urządzenie IoT?
 
@@ -104,7 +104,7 @@ Kiedy używasz detektora obiektów, otrzymujesz nie tylko wykryte obiekty z ich 
 
 Wyniki predykcji w zakładce **Predictions** w Custom Vision mają ramki ograniczające narysowane na obrazie przesłanym do predykcji.
 
-![4 puszki koncentratu pomidorowego na półce z predykcjami dla 4 wykryć: 35.8%, 33.5%, 25.7% i 16.6%](../../../../../translated_images/custom-vision-stock-prediction.942266ab1bcca3410ecdf23643b9f5f570cfab2345235074e24c51f285777613.pl.png)
+![4 puszki koncentratu pomidorowego na półce z predykcjami dla 4 wykryć: 35.8%, 33.5%, 25.7% i 16.6%](../../../../../translated_images/pl/custom-vision-stock-prediction.942266ab1bcca3410ecdf23643b9f5f570cfab2345235074e24c51f285777613.png)
 
 Na powyższym obrazku wykryto 4 puszki koncentratu pomidorowego. W wynikach nałożono czerwony kwadrat na każdy obiekt wykryty na obrazie, wskazując ramkę ograniczającą dla obrazu.
 
@@ -112,7 +112,7 @@ Na powyższym obrazku wykryto 4 puszki koncentratu pomidorowego. W wynikach nał
 
 Ramki ograniczające są definiowane za pomocą 4 wartości - top, left, height i width. Wartości te są w skali od 0 do 1, reprezentując pozycje jako procent rozmiaru obrazu. Punkt początkowy (pozycja 0,0) znajduje się w lewym górnym rogu obrazu, więc wartość top to odległość od góry, a dolna granica ramki ograniczającej to wartość top plus height.
 
-![Ramka ograniczająca wokół puszki koncentratu pomidorowego](../../../../../translated_images/bounding-box.1420a7ea0d3d15f71e1ffb5cf4b2271d184fac051f990abc541975168d163684.pl.png)
+![Ramka ograniczająca wokół puszki koncentratu pomidorowego](../../../../../translated_images/pl/bounding-box.1420a7ea0d3d15f71e1ffb5cf4b2271d184fac051f990abc541975168d163684.png)
 
 Powyższy obrazek ma szerokość 600 pikseli i wysokość 800 pikseli. Ramka ograniczająca zaczyna się 320 pikseli w dół, co daje współrzędną top równą 0.4 (800 x 0.4 = 320). Od lewej ramka zaczyna się 240 pikseli w prawo, co daje współrzędną left równą 0.4 (600 x 0.4 = 240). Wysokość ramki wynosi 240 pikseli, co daje wartość height równą 0.3 (800 x 0.3 = 240). Szerokość ramki wynosi 120 pikseli, co daje wartość width równą 0.2 (600 x 0.2 = 120).
 
@@ -127,7 +127,7 @@ Używanie wartości procentowych od 0 do 1 oznacza, że niezależnie od rozmiaru
 
 Możesz używać ramek ograniczających w połączeniu z prawdopodobieństwami, aby ocenić, jak dokładne jest wykrycie. Na przykład detektor obiektów może wykrywać wiele obiektów, które się nakładają, na przykład wykrywając jedną puszkę wewnątrz drugiej. Twój kod może sprawdzić ramki ograniczające, zrozumieć, że jest to niemożliwe, i zignorować obiekty, które mają znaczące nakładanie się z innymi obiektami.
 
-![Dwie nakładające się ramki ograniczające wokół puszki koncentratu pomidorowego](../../../../../translated_images/overlap-object-detection.d431e03cae75072a2760430eca7f2c5fdd43045bfd72dadcbf12711f7cd6c2ae.pl.png)
+![Dwie nakładające się ramki ograniczające wokół puszki koncentratu pomidorowego](../../../../../translated_images/pl/overlap-object-detection.d431e03cae75072a2760430eca7f2c5fdd43045bfd72dadcbf12711f7cd6c2ae.png)
 
 W powyższym przykładzie jedna ramka ograniczająca wskazuje przewidywaną puszkę koncentratu pomidorowego z prawdopodobieństwem 78.3%. Druga ramka ograniczająca jest nieco mniejsza i znajduje się wewnątrz pierwszej ramki z prawdopodobieństwem 64.3%. Twój kod może sprawdzić ramki ograniczające, zauważyć, że całkowicie się nakładają, i zignorować niższe prawdopodobieństwo, ponieważ nie ma możliwości, aby jedna puszka znajdowała się wewnątrz drugiej.
 

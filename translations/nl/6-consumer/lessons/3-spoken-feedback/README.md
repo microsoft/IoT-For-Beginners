@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Stel een timer in en geef gesproken feedback
 
-![Een schetsmatige samenvatting van deze les](../../../../../translated_images/lesson-23.f38483e1d4df4828990d3f02d60e46c978b075d384ae7cb4f7bab738e107c850.nl.jpg)
+![Een schetsmatige samenvatting van deze les](../../../../../translated_images/nl/lesson-23.f38483e1d4df4828990d3f02d60e46c978b075d384ae7cb4f7bab738e107c850.jpg)
 
 > Sketchnote door [Nitya Narasimhan](https://github.com/nitya). Klik op de afbeelding voor een grotere versie.
 
@@ -37,7 +37,7 @@ In deze les behandelen we:
 
 Tekst naar spraak, zoals de naam al aangeeft, is het proces van het omzetten van tekst in audio die de tekst als gesproken woorden bevat. Het basisprincipe is om de woorden in de tekst op te splitsen in hun samenstellende klanken (bekend als fonemen) en audio voor die klanken samen te voegen, hetzij met vooraf opgenomen audio, hetzij met audio die door AI-modellen wordt gegenereerd.
 
-![De drie fasen van typische tekst-naar-spraak-systemen](../../../../../translated_images/tts-overview.193843cf3f5ee09f.nl.png)
+![De drie fasen van typische tekst-naar-spraak-systemen](../../../../../translated_images/nl/tts-overview.193843cf3f5ee09f.png)
 
 Tekst-naar-spraak-systemen hebben doorgaans 3 fasen:
 

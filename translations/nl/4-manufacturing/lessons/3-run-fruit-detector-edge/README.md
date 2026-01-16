@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Voer je fruitdetector uit aan de rand
 
-![Een schetsmatige samenvatting van deze les](../../../../../translated_images/lesson-17.bc333c3c35ba8e42cce666cfffa82b915f787f455bd94e006aea2b6f2722421a.nl.jpg)
+![Een schetsmatige samenvatting van deze les](../../../../../translated_images/nl/lesson-17.bc333c3c35ba8e42cce666cfffa82b915f787f455bd94e006aea2b6f2722421a.jpg)
 
 > Sketchnote door [Nitya Narasimhan](https://github.com/nitya). Klik op de afbeelding voor een grotere versie.
 
@@ -42,11 +42,11 @@ In deze les behandelen we:
 
 Edge computing houdt in dat computers IoT-gegevens zo dicht mogelijk bij de plaats waar de gegevens worden gegenereerd verwerken. In plaats van deze verwerking in de cloud te laten plaatsvinden, wordt deze verplaatst naar de rand van de cloud - je interne netwerk.
 
-![Een architectuurdiagram dat internetdiensten in de cloud en IoT-apparaten op een lokaal netwerk toont](../../../../../translated_images/cloud-without-edge.b4da641f6022c95ed6b91fde8b5323abd2f94e0d52073ad54172ae8f5dac90e9.nl.png)
+![Een architectuurdiagram dat internetdiensten in de cloud en IoT-apparaten op een lokaal netwerk toont](../../../../../translated_images/nl/cloud-without-edge.b4da641f6022c95ed6b91fde8b5323abd2f94e0d52073ad54172ae8f5dac90e9.png)
 
 In de lessen tot nu toe heb je apparaten gehad die gegevens verzamelen en naar de cloud sturen om te worden geanalyseerd, waarbij serverloze functies of AI-modellen in de cloud worden uitgevoerd.
 
-![Een architectuurdiagram dat IoT-apparaten op een lokaal netwerk toont die verbinding maken met edge-apparaten, en die edge-apparaten maken verbinding met de cloud](../../../../../translated_images/cloud-with-edge.1e26462c62c126fe150bd15a5714ddf0be599f09bacbad08b85be02b76ea1ae1.nl.png)
+![Een architectuurdiagram dat IoT-apparaten op een lokaal netwerk toont die verbinding maken met edge-apparaten, en die edge-apparaten maken verbinding met de cloud](../../../../../translated_images/nl/cloud-with-edge.1e26462c62c126fe150bd15a5714ddf0be599f09bacbad08b85be02b76ea1ae1.png)
 
 Edge computing houdt in dat sommige clouddiensten van de cloud worden verplaatst naar computers die op hetzelfde netwerk draaien als de IoT-apparaten, en alleen communiceren met de cloud indien nodig. Bijvoorbeeld, je kunt AI-modellen op edge-apparaten uitvoeren om fruit te analyseren op rijpheid, en alleen analyses naar de cloud sturen, zoals het aantal rijpe stukken fruit versus onrijpe.
 
@@ -94,7 +94,7 @@ Voor IoT-systemen wil je vaak een mix van cloud- en edge computing, waarbij je e
 
 ## Azure IoT Edge
 
-![Het Azure IoT Edge-logo](../../../../../translated_images/azure-iot-edge-logo.c1c076749b5cba2e8755262fadc2f19ca1146b948d76990b1229199ac2292d79.nl.png)
+![Het Azure IoT Edge-logo](../../../../../translated_images/nl/azure-iot-edge-logo.c1c076749b5cba2e8755262fadc2f19ca1146b948d76990b1229199ac2292d79.png)
 
 Azure IoT Edge is een dienst die je kan helpen om werkbelastingen uit de cloud naar de rand te verplaatsen. Je stelt een apparaat in als een edge-apparaat, en vanuit de cloud kun je code naar dat edge-apparaat implementeren. Dit stelt je in staat om de mogelijkheden van de cloud en de rand te combineren.
 
@@ -108,7 +108,7 @@ IoT Edge is ingebouwd in IoT Hub, zodat je edge-apparaten kunt beheren met dezel
 
 IoT Edge draait code vanuit *containers* - zelfstandige applicaties die geïsoleerd worden uitgevoerd van de rest van de applicaties op je computer. Wanneer je een container uitvoert, gedraagt deze zich als een aparte computer die binnen je computer draait, met zijn eigen software, diensten en applicaties. Meestal kunnen containers niets op je computer benaderen, tenzij je ervoor kiest om bijvoorbeeld een map te delen met de container. De container biedt vervolgens diensten aan via een open poort die je kunt verbinden of blootstellen aan je netwerk.
 
-![Een webverzoek omgeleid naar een container](../../../../../translated_images/container-web-browser.4ee81dd4f0d8838ce622b2a0d600b6a4322b5d4fe43159facd87b7b34f84d66a.nl.png)
+![Een webverzoek omgeleid naar een container](../../../../../translated_images/nl/container-web-browser.4ee81dd4f0d8838ce622b2a0d600b6a4322b5d4fe43159facd87b7b34f84d66a.png)
 
 Bijvoorbeeld, je kunt een container hebben met een website die draait op poort 80, de standaard HTTP-poort, en je kunt deze vervolgens blootstellen vanaf je computer ook op poort 80.
 
@@ -204,11 +204,11 @@ Zodra het model is getraind, moet het worden geëxporteerd als een container.
 
 ## Bereid je container voor op implementatie
 
-![Containers worden gebouwd, vervolgens naar een containerregister gepusht, en daarna vanaf het register naar een edge-apparaat geïmplementeerd met IoT Edge](../../../../../translated_images/container-edge-flow.c246050dd60ceefdb6ace026a4ce5c6aa4112bb5898ae23fbb2ab4be29ae3e1b.nl.png)
+![Containers worden gebouwd, vervolgens naar een containerregister gepusht, en daarna vanaf het register naar een edge-apparaat geïmplementeerd met IoT Edge](../../../../../translated_images/nl/container-edge-flow.c246050dd60ceefdb6ace026a4ce5c6aa4112bb5898ae23fbb2ab4be29ae3e1b.png)
 
 Nadat je je model hebt gedownload, moet het worden opgebouwd in een container en vervolgens worden gepusht naar een containerregister - een online locatie waar je containers kunt opslaan. IoT Edge kan de container vervolgens downloaden van het register en naar je apparaat pushen.
 
-![Het Azure Container Registry-logo](../../../../../translated_images/azure-container-registry-logo.09494206991d4b295025ebff7d4e2900325e527a59184ffbc8464b6ab59654be.nl.png)
+![Het Azure Container Registry-logo](../../../../../translated_images/nl/azure-container-registry-logo.09494206991d4b295025ebff7d4e2900325e527a59184ffbc8464b6ab59654be.png)
 
 Het containerregister dat je in deze les gebruikt, is Azure Container Registry. Dit is geen gratis service, dus om kosten te besparen, zorg ervoor dat je [je project opruimt](../../../clean-up.md) zodra je klaar bent.
 

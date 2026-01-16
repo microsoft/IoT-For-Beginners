@@ -17,7 +17,7 @@ Czujnik używany w tej lekcji to **czujnik światła**, który wykorzystuje [fot
 
 Czujnik światła jest wbudowany w Wio Terminal i widoczny przez przezroczyste plastikowe okienko z tyłu urządzenia.
 
-![Czujnik światła z tyłu Wio Terminal](../../../../../translated_images/wio-light-sensor.b1f529f3c95f5165.pl.png)
+![Czujnik światła z tyłu Wio Terminal](../../../../../translated_images/pl/wio-light-sensor.b1f529f3c95f5165.png)
 
 ## Programowanie czujnika światła
 

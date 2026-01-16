@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # IoT အကြောင်းအကျဉ်း
 
-![ဒီသင်ခန်းစာအတွက် အကျဉ်းချုပ်ပုံ](../../../../../translated_images/lesson-1.2606670fa61ee904687da5d6fa4e726639d524d064c895117da1b95b9ff6251d.my.jpg)
+![ဒီသင်ခန်းစာအတွက် အကျဉ်းချုပ်ပုံ](../../../../../translated_images/my/lesson-1.2606670fa61ee904687da5d6fa4e726639d524d064c895117da1b95b9ff6251d.jpg)
 
 > ပုံရေးသူ [Nitya Narasimhan](https://github.com/nitya)။ ပုံကို နှိပ်ပြီး ပိုကြီးတဲ့ဗားရှင်းကိုကြည့်ပါ။
 
@@ -79,7 +79,7 @@ Developer kit တွေဟာ မိုက်ခရိုကွန်ထရိ�
 
 မိုက်ခရိုကွန်ထရိုလာတွေဟာ အလွန်စျေးသက်သာတဲ့ computing device တွေဖြစ်ပြီး၊ custom hardware တွေမှာ အသုံးပြုတဲ့ မိုက်ခရိုကွန်ထရိုလာတွေဟာ US$0.50 လောက်အထိ စျေးကျလာပါတယ်။ Developer kit တွေဟာ US$4 ကနေ စတင်ပြီး၊ feature တွေ ပေါင်းထည့်သလို စျေးနှုန်းတက်လာပါတယ်။ [Wio Terminal](https://www.seeedstudio.com/Wio-Terminal-p-4509.html) ဆိုတဲ့ Seeed Studios မှထုတ်လုပ်တဲ့ microcontroller developer kit ဟာ sensor, actuator, WiFi, screen ပါဝင်ပြီး US$30 လောက်ကျသင့်ပါတယ်။
 
-![Wio Terminal](../../../../../translated_images/wio-terminal.b8299ee16587db9a.my.png)
+![Wio Terminal](../../../../../translated_images/my/wio-terminal.b8299ee16587db9a.png)
 
 > 💁 မိုက်ခရိုကွန်ထရိုလာတွေကို အင်တာနက်မှာ ရှာဖွေတဲ့အခါ **MCU** ဆိုတဲ့စကားလုံးကို ရှာဖွေပါက Marvel Cinematic Universe (MCU) နဲ့ဆိုင်တဲ့ ရလဒ်တွေကို အများကြီးတွေ့နိုင်ပါတယ်။
 
@@ -87,7 +87,7 @@ Developer kit တွေဟာ မိုက်ခရိုကွန်ထရိ�
 
 Single-board computer ဆိုတာ -
 
-![Raspberry Pi 4](../../../../../translated_images/raspberry-pi-4.fd4590d308c3d456.my.jpg)
+![Raspberry Pi 4](../../../../../translated_images/my/raspberry-pi-4.fd4590d308c3d456.jpg)
 
 Raspberry Pi ဟာ single-board computer တွေထဲမှာ အလွန်လူကြိုက်များတဲ့ device တစ်ခုဖြစ်ပါတယ်။
 

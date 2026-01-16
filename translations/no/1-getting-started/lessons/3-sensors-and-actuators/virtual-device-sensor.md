@@ -37,11 +37,11 @@ Legg til lyssensoren i CounterFit-appen.
 
     1. Velg **Add**-knappen for å opprette lyssensoren på Pin 0.
 
-    ![Innstillingene for lyssensoren](../../../../../translated_images/counterfit-create-light-sensor.9f36a5e0d4458d8d554d54b34d2c806d56093d6e49fddcda2d20f6fef7f5cce1.no.png)
+    ![Innstillingene for lyssensoren](../../../../../translated_images/no/counterfit-create-light-sensor.9f36a5e0d4458d8d554d54b34d2c806d56093d6e49fddcda2d20f6fef7f5cce1.png)
 
     Lyssensoren vil bli opprettet og vises i sensorlisten.
 
-    ![Lyssensoren opprettet](../../../../../translated_images/counterfit-light-sensor.5d0f5584df56b90f6b2561910d9cb20dfbd73eeff2177c238d38f4de54aefae1.no.png)
+    ![Lyssensoren opprettet](../../../../../translated_images/no/counterfit-light-sensor.5d0f5584df56b90f6b2561910d9cb20dfbd73eeff2177c238d38f4de54aefae1.png)
 
 ## Programmer lyssensoren
 

@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # သီးအရည်အသွေးကို ဆင်ဆာမှတစ်ဆင့် စစ်ဆေးခြင်းကို စတင်ပါ
 
-![ဒီသင်ခန်းစာ၏ အကျဉ်းချုပ်ကို ဖော်ပြသော ရေးမှတ်ပုံ](../../../../../translated_images/lesson-18.92c32ed1d354caa5a54baa4032cf0b172d4655e8e326ad5d46c558a0def15365.my.jpg)
+![ဒီသင်ခန်းစာ၏ အကျဉ်းချုပ်ကို ဖော်ပြသော ရေးမှတ်ပုံ](../../../../../translated_images/my/lesson-18.92c32ed1d354caa5a54baa4032cf0b172d4655e8e326ad5d46c558a0def15365.jpg)
 
 > [Nitya Narasimhan](https://github.com/nitya) မှ ရေးမှတ်ပုံ။ ပုံကို နှိပ်ပြီး အကြီးအကျယ်ကြည့်ရှုနိုင်ပါသည်။
 
@@ -48,7 +48,7 @@ IoT အက်ပလီကေးရှင်းများကို *အရာ�
 
 ### IoT architecture ကို ကိုးကားခြင်း
 
-![IoT architecture ကို ကိုးကားခြင်း](../../../../../translated_images/iot-reference-architecture.2278b98b55c6d4e89bde18eada3688d893861d43507641804dd2f9d3079cfaa0.my.png)
+![IoT architecture ကို ကိုးကားခြင်း](../../../../../translated_images/my/iot-reference-architecture.2278b98b55c6d4e89bde18eada3688d893861d43507641804dd2f9d3079cfaa0.png)
 
 အထက်ပါ ပုံသည် IoT architecture ကို ကိုးကားထားသော ပုံစံတစ်ခုကို ဖော်ပြသည်။
 
@@ -58,7 +58,7 @@ IoT အက်ပလီကေးရှင်းများကို *အရာ�
 * **သိမြင်မှုများ** - serverless applications များမှ သို့မဟုတ် သိမ်းဆည်းထားသော ဒေတာအပေါ် analytics များမှ ရရှိသည်။
 * **လုပ်ဆောင်မှုများ** - devices များသို့ command များ ပေးပို့ခြင်း၊ ဒေတာကို visualization လုပ်ခြင်းတို့ဖြင့် လူသားများကို ဆုံးဖြတ်ချက်ချရန် အခွင့်အရေးပေးခြင်း။
 
-![Azure IoT architecture ကို ကိုးကားခြင်း](../../../../../translated_images/iot-reference-architecture-azure.0b8d2161af924cb18ae48a8558a19541cca47f27264851b5b7e56d7b8bb372ac.my.png)
+![Azure IoT architecture ကို ကိုးကားခြင်း](../../../../../translated_images/my/iot-reference-architecture-azure.0b8d2161af924cb18ae48a8558a19541cca47f27264851b5b7e56d7b8bb372ac.png)
 
 အထက်ပါ ပုံသည် ဒီသင်ခန်းစာများတွင် ဖော်ပြထားသော အစိတ်အပိုင်းများနှင့် services များကို IoT architecture ကို ကိုးကားထားသော ပုံစံတွင် ဘယ်လိုချိတ်ဆက်ထားသည်ကို ဖော်ပြသည်။
 
@@ -98,7 +98,7 @@ IoT အက်ပလီကေးရှင်းများကို *အရာ�
 
 ### သင့် application ကို prototype လုပ်ခြင်း
 
-![သီးအရည်အသွေး စစ်ဆေးမှုအတွက် IoT architecture ကို ကိုးကားခြင်း](../../../../../translated_images/iot-reference-architecture-fruit-quality.cc705f121c3b6fa71c800d9630935ac34bc08223a04601e35f41d5e9b5dd5207.my.png)
+![သီးအရည်အသွေး စစ်ဆေးမှုအတွက် IoT architecture ကို ကိုးကားခြင်း](../../../../../translated_images/my/iot-reference-architecture-fruit-quality.cc705f121c3b6fa71c800d9630935ac34bc08223a04601e35f41d5e9b5dd5207.png)
 
 အထက်ပါ ပုံသည် prototype application အတွက် IoT architecture ကို ကိုးကားထားသော ပုံစံကို ဖော်ပြသည်။
 
@@ -115,7 +115,7 @@ prototype အတွက် သင်သည် ဤအရာအားလုံး�
 
 IoT device သည် သီးကို classify လုပ်ရန် အချက်ပြ trigger တစ်ခုလိုအပ်သည်။ ဤ trigger တစ်ခုမှာ conveyor belt ပေါ်တွင် သီးသည် သင့်တော်သောနေရာတွင် ရောက်ရှိသည်ကို detect လုပ်ရန် sensor မှ အကွာအဝေးကို တိုင်းတာခြင်းဖြစ်နိုင်သည်။
 
-![Proximity sensor များသည် laser beam များကို သီးများကဲ့သို့သော objects များသို့ ပို့ပြီး၊ beam ပြန်လည်ပေါ်လာရန် ကြာချိန်ကို တိုင်းတာသည်](../../../../../translated_images/proximity-sensor.f5cd752c77fb62fe.my.png)
+![Proximity sensor များသည် laser beam များကို သီးများကဲ့သို့သော objects များသို့ ပို့ပြီး၊ beam ပြန်လည်ပေါ်လာရန် ကြာချိန်ကို တိုင်းတာသည်](../../../../../translated_images/my/proximity-sensor.f5cd752c77fb62fe.png)
 
 Proximity sensor များကို sensor နှင့် object အကြား အကွာအဝေးကို တိုင်းတာရန် အသုံးပြုနိုင်သည်။ ၎င်းများသည် laser beam သို့မဟုတ် infra-red light ကဲ့သို့သော electromagnetic radiation ကို ပို့ပြီး၊ object မှ radiation ပြန်လည်ပေါ်လာသည်ကို detect လုပ်သည်။ laser beam ပို့ခြင်းနှင့် signal ပြန်လည်ပေါ်လာခြင်းအကြား ကြာချိန်ကို sensor နှင့် object အကြား အကွာအဝေးကို တွက်ချက်ရန် အသုံးပြုနိုင်သည်။
 

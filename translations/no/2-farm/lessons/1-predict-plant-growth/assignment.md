@@ -42,7 +42,7 @@ Når du har temperaturdata, kan du bruke Jupyter Notebook i dette repoet til å 
 
     Jupyter vil starte opp og åpne notebooken i nettleseren din. Arbeid deg gjennom instruksjonene i notebooken for å visualisere de målte temperaturene og beregne vekstgrad-dagene.
 
-    ![Jupyter-notebooken](../../../../../translated_images/gdd-jupyter-notebook.c5b52cf21094f158a61f47f455490fd95f1729777ff90861a4521820bf354cdc.no.png)
+    ![Jupyter-notebooken](../../../../../translated_images/no/gdd-jupyter-notebook.c5b52cf21094f158a61f47f455490fd95f1729777ff90861a4521820bf354cdc.png)
 
 ## Vurderingskriterier
 

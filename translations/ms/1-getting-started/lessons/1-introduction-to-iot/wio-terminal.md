@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 [Wio Terminal dari Seeed Studios](https://www.seeedstudio.com/Wio-Terminal-p-4509.html) adalah mikrokontroler yang serasi dengan Arduino, dilengkapi dengan WiFi serta beberapa sensor dan aktuator terbina, serta port untuk menambah lebih banyak sensor dan aktuator menggunakan ekosistem perkakasan yang dipanggil [Grove](https://www.seeedstudio.com/category/Grove-c-1003.html).
 
-![Wio Terminal dari Seeed Studios](../../../../../translated_images/wio-terminal.b8299ee16587db9a.ms.png)
+![Wio Terminal dari Seeed Studios](../../../../../translated_images/ms/wio-terminal.b8299ee16587db9a.png)
 
 ## Persediaan
 
@@ -51,15 +51,15 @@ Cipta projek PlatformIO.
 
 1. Ikon PlatformIO akan berada di bar menu sisi:
 
-    ![Pilihan menu PlatformIO](../../../../../translated_images/vscode-platformio-menu.297be26b9733e5c4.ms.png)
+    ![Pilihan menu PlatformIO](../../../../../translated_images/ms/vscode-platformio-menu.297be26b9733e5c4.png)
 
     Pilih item menu ini, kemudian pilih *PIO Home -> Open*
 
-    ![Pilihan buka PlatformIO](../../../../../translated_images/vscode-platformio-home-open.3f9a41bfd3f4da1c.ms.png)
+    ![Pilihan buka PlatformIO](../../../../../translated_images/ms/vscode-platformio-home-open.3f9a41bfd3f4da1c.png)
 
 1. Dari skrin selamat datang, pilih butang **+ New Project**
 
-    ![Butang projek baru](../../../../../translated_images/vscode-platformio-welcome-new-button.ba6fc8a4c7b78cc8.ms.png)
+    ![Butang projek baru](../../../../../translated_images/ms/vscode-platformio-welcome-new-button.ba6fc8a4c7b78cc8.png)
 
 1. Konfigurasikan projek dalam *Project Wizard*:
 
@@ -73,7 +73,7 @@ Cipta projek PlatformIO.
 
     1. Pilih butang **Finish**
 
-    ![Wizard projek yang lengkap](../../../../../translated_images/vscode-platformio-nightlight-project-wizard.5c64db4da6037420.ms.png)
+    ![Wizard projek yang lengkap](../../../../../translated_images/ms/vscode-platformio-nightlight-project-wizard.5c64db4da6037420.png)
 
     PlatformIO akan memuat turun komponen yang diperlukan untuk menyusun kod untuk Wio Terminal dan mencipta projek anda. Ini mungkin mengambil masa beberapa minit.
 
@@ -179,7 +179,7 @@ Tulis aplikasi Hello World.
 
     1. Taip `PlatformIO Upload` untuk mencari pilihan muat naik, dan pilih *PlatformIO: Upload*
 
-        ![Pilihan muat naik PlatformIO dalam palet arahan](../../../../../translated_images/vscode-platformio-upload-command-palette.9e0f49cf80d1f1c3.ms.png)
+        ![Pilihan muat naik PlatformIO dalam palet arahan](../../../../../translated_images/ms/vscode-platformio-upload-command-palette.9e0f49cf80d1f1c3.png)
 
         PlatformIO akan secara automatik membina kod jika diperlukan sebelum memuat naik.
 
@@ -195,7 +195,7 @@ PlatformIO mempunyai Serial Monitor yang boleh memantau data yang dihantar melal
 
 1. Taip `PlatformIO Serial` untuk mencari pilihan Serial Monitor, dan pilih *PlatformIO: Serial Monitor*
 
-    ![Pilihan Serial Monitor PlatformIO dalam palet arahan](../../../../../translated_images/vscode-platformio-serial-monitor-command-palette.b348ec841b8a1c14.ms.png)
+    ![Pilihan Serial Monitor PlatformIO dalam palet arahan](../../../../../translated_images/ms/vscode-platformio-serial-monitor-command-palette.b348ec841b8a1c14.png)
 
     Terminal baru akan dibuka, dan data yang dihantar melalui port serial akan disiarkan ke terminal ini:
 

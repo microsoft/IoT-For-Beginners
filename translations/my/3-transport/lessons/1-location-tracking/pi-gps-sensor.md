@@ -27,13 +27,13 @@ Grove GPS ဆင်ဆာကို Raspberry Pi နှင့် ချိတ်�
 
 GPS ဆင်ဆာကို ချိတ်ဆက်ပါ။
 
-![A grove GPS sensor](../../../../../translated_images/grove-gps-sensor.247943bf69b03f0d1820ef6ed10c587f9b650e8db55b936851c92412180bd3e2.my.png)
+![A grove GPS sensor](../../../../../translated_images/my/grove-gps-sensor.247943bf69b03f0d1820ef6ed10c587f9b650e8db55b936851c92412180bd3e2.png)
 
 1. Grove ကေဘယ်လ်တစ်ဖက်ကို GPS ဆင်ဆာပေါ်ရှိ ဆော့ကက်ထဲသို့ ထည့်ပါ။ ၎င်းသည် တစ်ဖက်သာ အလွယ်တကူသွားပါမည်။
 
 1. Raspberry Pi ကို မီးပိတ်ထားသောအခြေအနေတွင် Grove ကေဘယ်လ်၏ အခြားဖက်ကို Pi တွင်တပ်ဆင်ထားသော Grove Base Hat ပေါ်ရှိ **UART** ဟုအမှတ်အသားပြုထားသော UART ဆော့ကက်ထဲသို့ ချိတ်ဆက်ပါ။ ဒီဆော့ကက်သည် အလယ်တန်းတန်းတွင်ရှိပြီး SD Card slot အနီး၊ USB port နှင့် ethernet socket ၏ အခြားဖက်တွင်ရှိသည်။
 
-    ![The grove GPS sensor connected to the UART socket](../../../../../translated_images/pi-gps-sensor.1f99ee2b2f6528915047ec78967bd362e0e4ee0ed594368a3837b9cf9cdaca64.my.png)
+    ![The grove GPS sensor connected to the UART socket](../../../../../translated_images/my/pi-gps-sensor.1f99ee2b2f6528915047ec78967bd362e0e4ee0ed594368a3837b9cf9cdaca64.png)
 
 1. GPS ဆင်ဆာကို အင်တင်နာတပ်ဆင်ထားသောနေရာမှ မိုးကောင်းကင်ကို မြင်နိုင်သောနေရာတွင်ထားပါ - အကောင်းဆုံးအနေဖြင့် ပြတင်းပေါက်အနီး သို့မဟုတ် အပြင်ဘက်တွင်ထားပါ။ အင်တင်နာကို အတားအဆီးမရှိဘဲထားခြင်းဖြင့် သင့်ရဲ့အချက်အလက်ကို ပိုမိုရှင်းလင်းစွာရယူနိုင်သည်။
 

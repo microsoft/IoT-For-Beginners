@@ -29,14 +29,14 @@ CO_OP_TRANSLATOR_METADATA:
 
 ग्राभिमेट्रिक माटोको चिस्यान यसरी गणना गरिन्छ:
 
-![माटोको चिस्यान % भनेको तौल भिजेको माटो माइनस तौल सुक्खा माटो, विभाजित तौल सुक्खा माटो, गुणा 100](../../../../../translated_images/gsm-calculation.6da38c6201eec14e7573bb2647aa18892883193553d23c9d77e5dc681522dfb2.ne.png)
+![माटोको चिस्यान % भनेको तौल भिजेको माटो माइनस तौल सुक्खा माटो, विभाजित तौल सुक्खा माटो, गुणा 100](../../../../../translated_images/ne/gsm-calculation.6da38c6201eec14e7573bb2647aa18892883193553d23c9d77e5dc681522dfb2.png)
 
 * W - भिजेको माटोको तौल
 * W - सुक्खा माटोको तौल
 
 उदाहरणका लागि, मानौं तपाईंसँग 212g भिजेको र 197g सुक्खा तौल भएको माटोको नमूना छ।
 
-![गणना भरेको](../../../../../translated_images/gsm-calculation-example.99f9803b4f29e97668e7c15412136c0c399ab12dbba0b89596fdae9d8aedb6fb.ne.png)
+![गणना भरेको](../../../../../translated_images/ne/gsm-calculation-example.99f9803b4f29e97668e7c15412136c0c399ab12dbba0b89596fdae9d8aedb6fb.png)
 
 * W = 212g
 * W = 197g

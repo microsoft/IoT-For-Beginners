@@ -81,7 +81,7 @@ Sebagai langkah penyahpepijatan yang berguna, anda bukan sahaja boleh mencetak k
 
 1. Jalankan aplikasi dengan kamera menghala ke beberapa stok di rak. Anda akan melihat fail `image.jpg` dalam penjelajah VS Code, dan anda boleh memilihnya untuk melihat kotak sempadan.
 
-    ![4 tin pes tomato dengan kotak sempadan di sekeliling setiap tin](../../../../../translated_images/rpi-stock-with-bounding-boxes.b5540e2ecb7cd49f.ms.jpg)
+    ![4 tin pes tomato dengan kotak sempadan di sekeliling setiap tin](../../../../../translated_images/ms/rpi-stock-with-bounding-boxes.b5540e2ecb7cd49f.jpg)
 
 ## Kira stok
 

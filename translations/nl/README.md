@@ -57,7 +57,7 @@ Azure Cloud Advocates bij Microsoft bieden met plezier een 12 weken durend curri
 
 De projecten bestrijken de reis van voedsel van boerderij tot tafel. Dit omvat landbouw, logistiek, productie, retail en consument - allemaal populaire industrieën voor IoT-apparaten.
 
-![Een routekaart voor de cursus met 24 lessen die intro, landbouw, transport, verwerking, retail en koken behandelen](../../translated_images/Roadmap.bb1dec285dda0eda.nl.jpg)
+![Een routekaart voor de cursus met 24 lessen die intro, landbouw, transport, verwerking, retail en koken behandelen](../../translated_images/nl/Roadmap.bb1dec285dda0eda.jpg)
 
 > Sketchnote door [Nitya Narasimhan](https://github.com/nitya). Klik op de afbeelding voor een grotere versie.
 

@@ -25,13 +25,13 @@ Przycisk można podłączyć do podstawowego HAT-a Grove.
 
 #### Zadanie - podłącz przycisk
 
-![Przycisk Grove](../../../../../translated_images/grove-button.a70cfbb809a8563681003250cf5b06d68cdcc68624f9e2f493d5a534ae2da1e5.pl.png)
+![Przycisk Grove](../../../../../translated_images/pl/grove-button.a70cfbb809a8563681003250cf5b06d68cdcc68624f9e2f493d5a534ae2da1e5.png)
 
 1. Włóż jeden koniec kabla Grove do gniazda na module przycisku. Kabel wejdzie tylko w jeden sposób.
 
 1. Przy wyłączonym Raspberry Pi podłącz drugi koniec kabla Grove do cyfrowego gniazda oznaczonego **D5** na podstawowym HAT-cie Grove przymocowanym do Pi. To gniazdo jest drugie od lewej, w rzędzie gniazd obok pinów GPIO.
 
-![Przycisk Grove podłączony do gniazda D5](../../../../../translated_images/pi-button.c7a1a4f55943341ce1baf1057658e9a205804d4131d258e820c93f951df0abf3.pl.png)
+![Przycisk Grove podłączony do gniazda D5](../../../../../translated_images/pl/pi-button.c7a1a4f55943341ce1baf1057658e9a205804d4131d258e820c93f951df0abf3.png)
 
 ## Przechwytywanie dźwięku
 

@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # IoT အကြောင်းပိုမိုနက်ရှိုင်းစွာလေ့လာခြင်း
 
-![ဒီသင်ခန်းစာအတွက် Sketchnote အကျဉ်းချုပ်](../../../../../translated_images/lesson-2.324b0580d620c25e0a24fb7fddfc0b29a846dd4b82c08e7a9466d580ee78ce51.my.jpg)
+![ဒီသင်ခန်းစာအတွက် Sketchnote အကျဉ်းချုပ်](../../../../../translated_images/my/lesson-2.324b0580d620c25e0a24fb7fddfc0b29a846dd4b82c08e7a9466d580ee78ce51.jpg)
 
 > Sketchnote ကို [Nitya Narasimhan](https://github.com/nitya) မှရေးသားထားသည်။ ပုံကိုနှိပ်ပြီး ပိုမိုကြီးမားသောဗားရှင်းကိုကြည့်ပါ။
 
@@ -41,13 +41,13 @@ IoT အက်ပလီကေးရှင်း၏အစိတ်အပိုင�
 
 ### အရာဝတ္ထု
 
-![Raspberry Pi 4](../../../../../translated_images/raspberry-pi-4.fd4590d308c3d456.my.jpg)
+![Raspberry Pi 4](../../../../../translated_images/my/raspberry-pi-4.fd4590d308c3d456.jpg)
 
 IoT ၏ **အရာဝတ္ထု** အပိုင်းသည် ရုပ်ပိုင်းဆိုင်ရာကမ္ဘာနှင့်အပြန်အလှန်ဆက်သွယ်နိုင်သော စက်ကိုဆိုလိုသည်။ ဒီစက်များသည် သေးငယ်ပြီး စျေးနှုန်းသက်သာသောကွန်ပျူတာများဖြစ်ပြီး အမြန်နှုန်းနည်းပြီး အားသုံးမှုနည်းပါသည်။ ဥပမာအားဖြင့် RAM ကီလိုဘိုက်များသာရှိသောရိုးရှင်းသော microcontrollers (PC တွင်ရှိသောဂီဂါဘိုက်များမဟုတ်)၊ PC တွင်ရှိသောဂီဂါဟတ်ဇ်များမဟုတ်ပဲ မီဂါဟတ်ဇ်အနည်းငယ်သာရှိသောအမြန်နှုန်းဖြင့် လည်ပတ်ပြီး ဘက်ထရီများဖြင့် ရက်ပေါင်းများစွာ၊ လများစွာ သို့မဟုတ် နှစ်များစွာအထိ လည်ပတ်နိုင်သောအားသုံးမှုနည်းသောစက်များဖြစ်သည်။
 
 ဒီစက်များသည် ရုပ်ပိုင်းဆိုင်ရာကမ္ဘာနှင့်ဆက်သွယ်ပြီး အနီးအနားမှဒေတာများကို စနစ်တကျစုဆောင်းရန် sensor များကိုအသုံးပြုခြင်း သို့မဟုတ် actuator များကိုထိန်းချုပ်ခြင်းဖြင့် ရုပ်ပိုင်းဆိုင်ရာပြောင်းလဲမှုများကိုလုပ်ဆောင်ခြင်းဖြင့် ဆက်သွယ်သည်။ ဥပမာအားဖြင့် smart thermostat တစ်ခုသည် temperature sensor တစ်ခု၊ dial သို့မဟုတ် touchscreen ကဲ့သို့သော temperature ကိုသတ်မှတ်ရန်နည်းလမ်းတစ်ခုနှင့် အပူချိန်သည်လိုအပ်သောအကွာအဝေးအပြင်မှာရှိနေသောအခါ heating သို့မဟုတ် cooling system ကိုဖွင့်နိုင်သော connection တစ်ခုပါရှိသည်။ Temperature sensor သည် အခန်းအေးနေသည်ကို detect လုပ်ပြီး actuator သည် heating ကိုဖွင့်သည်။
 
-![Temperature နှင့် dial ကို IoT စက်၏ input အဖြစ်ပြသပြီး heater ကိုထိန်းချုပ်သော output အဖြစ်ပြသသော diagram](../../../../../translated_images/basic-thermostat.a923217fd1f37e5a6f3390396a65c22a387419ea2dd17e518ec24315ba6ae9a8.my.png)
+![Temperature နှင့် dial ကို IoT စက်၏ input အဖြစ်ပြသပြီး heater ကိုထိန်းချုပ်သော output အဖြစ်ပြသသော diagram](../../../../../translated_images/my/basic-thermostat.a923217fd1f37e5a6f3390396a65c22a387419ea2dd17e518ec24315ba6ae9a8.png)
 
 IoT စက်များအဖြစ် လုပ်ဆောင်နိုင်သောအရာဝတ္ထုများသည် အမျိုးအစားအများကြီးရှိပြီး တစ်ခုတည်းသောအရာကို detect လုပ်သော dedicated hardware မှ smartphone အထိပါဝင်သည်။ Smartphone တစ်လုံးသည် sensor များကိုအသုံးပြု၍ အနီးအနားကမ္ဘာကို detect လုပ်နိုင်ပြီး actuator များကိုအသုံးပြု၍ ကမ္ဘာနှင့်ဆက်သွယ်နိုင်သည် - ဥပမာအားဖြင့် GPS sensor ကိုအသုံးပြု၍ သင့်တည်နေရာကို detect လုပ်ခြင်းနှင့် speaker ကိုအသုံးပြု၍ သွားရောက်ရန်နေရာအတွက် navigation အညွှန်းများပေးခြင်း။
 
@@ -63,11 +63,11 @@ IoT အက်ပလီကေးရှင်း၏ **အင်တာနက်** �
 
 Smart thermostat ၏ဥပမာတွင် thermostat သည် home WiFi ကိုအသုံးပြု၍ cloud service တစ်ခုနှင့်ဆက်သွယ်သည်။ အပူချိန်ဒေတာကို cloud service သို့ပို့ပြီး homeowner သည် phone app ကိုအသုံးပြု၍ လက်ရှိနှင့်အတိတ်အပူချိန်များကိုစစ်ဆေးနိုင်ရန် database တစ်ခုသို့ရေးသားသည်။ Cloud service တွင် homeowner သည်လိုအပ်သောအပူချိန်ကိုသိပြီး IoT စက်၏ actuator ကို heating system ကိုဖွင့်ရန် သို့မဟုတ်ပိတ်ရန်ပြောဆိုသော message များကို cloud service မှတဆင့် IoT စက်သို့ပြန်ပို့သည်။
 
-![Temperature နှင့် dial ကို IoT စက်၏ input အဖြစ်ပြသပြီး IoT စက်သည် cloud နှင့် ၂ မျက်နှာတစ်ပြင်ဆက်သွယ်ခြင်း၊ cloud သည် phone နှင့် ၂ မျက်နှာတစ်ပြင်ဆက်သွယ်ခြင်း၊ heater ကိုထိန်းချုပ်သော output အဖြစ် IoT စက်မှပြသသော diagram](../../../../../translated_images/mobile-controlled-thermostat.4a994010473d8d6a52ba68c67e5f02dc8928c717e93ca4b9bc55525aa75bbb60.my.png)
+![Temperature နှင့် dial ကို IoT စက်၏ input အဖြစ်ပြသပြီး IoT စက်သည် cloud နှင့် ၂ မျက်နှာတစ်ပြင်ဆက်သွယ်ခြင်း၊ cloud သည် phone နှင့် ၂ မျက်နှာတစ်ပြင်ဆက်သွယ်ခြင်း၊ heater ကိုထိန်းချုပ်သော output အဖြစ် IoT စက်မှပြသသော diagram](../../../../../translated_images/my/mobile-controlled-thermostat.4a994010473d8d6a52ba68c67e5f02dc8928c717e93ca4b9bc55525aa75bbb60.png)
 
 ပိုမို smart ဖြစ်သော version တစ်ခုမှာ cloud တွင် AI ကိုအသုံးပြု၍ occupancy sensor ကဲ့သို့သော IoT စက်များနှင့်ဆက်သွယ်သော sensor များမှဒေတာများ၊ weather နှင့် calendar ကဲ့သို့သောဒေတာများကိုအသုံးပြု၍ temperature ကို smart ဖြစ်အောင်သတ်မှတ်ရန်ဆုံးဖြတ်ချက်များကိုလုပ်ဆောင်သည်။ ဥပမာအားဖြင့် calendar မှ vacation သွားနေသည်ကိုဖတ်ပြီး heating ကိုပိတ်နိုင်သည် သို့မဟုတ် သင့်အသုံးပြုသောအခန်းများပေါ်မူတည်၍ room by room အပူချိန်ကိုပိတ်နိုင်သည်။ ဒေတာမှတဆင့်ပိုမိုတိကျစွာလေ့လာနိုင်ရန်အချိန်ကြာလာသည်နှင့်အမျှပိုမိုတိုးတက်လာသည်။
 
-![Temperature sensor များနှင့် dial ကို IoT စက်၏ input အဖြစ်ပြသပြီး IoT စက်သည် cloud နှင့် ၂ မျက်နှာတစ်ပြင်ဆက်သွယ်ခြင်း၊ cloud သည် phone, calendar နှင့် weather service နှင့် ၂ မျက်နှာတစ်ပြင်ဆက်သွယ်ခြင်း၊ heater ကိုထိန်းချုပ်သော output အဖြစ် IoT စက်မှပြသသော diagram](../../../../../translated_images/smarter-thermostat.a75855f15d2d9e63.my.png)
+![Temperature sensor များနှင့် dial ကို IoT စက်၏ input အဖြစ်ပြသပြီး IoT စက်သည် cloud နှင့် ၂ မျက်နှာတစ်ပြင်ဆက်သွယ်ခြင်း၊ cloud သည် phone, calendar နှင့် weather service နှင့် ၂ မျက်နှာတစ်ပြင်ဆက်သွယ်ခြင်း၊ heater ကိုထိန်းချုပ်သော output အဖြစ် IoT စက်မှပြသသော diagram](../../../../../translated_images/my/smarter-thermostat.a75855f15d2d9e63.png)
 
 ✅ အင်တာနက်နှင့်ဆက်သွယ်သော thermostat ကိုပိုမို smart ဖြစ်အောင်လုပ်ဆောင်ရန်အခြားဒေတာများကူညီနိုင်မည်ကဲ့သို့ဖြစ်မည်ကိုစဉ်းစားပါ။
 
@@ -105,7 +105,7 @@ CPU နဲ့တူတူပဲ၊ microcontroller ရဲ့ memory ဟာ PC �
 
 အောက်မှာပါတဲ့ အကြမ်းဖျင်းပုံစံက 192KB နဲ့ 8GB ရဲ့ အရွယ်အစားကွာခြားမှုကို ပြထားပါတယ်။ အလယ်မှာပါတဲ့ သေးငယ်တဲ့ dot က 192KB ကို ကိုယ်စားပြုပါတယ်။
 
-![192KB နဲ့ 8GB ရဲ့ အရွယ်အစားကွာခြားမှု - 40,000 ဆကြီး](../../../../../translated_images/ram-comparison.6beb73541b42ac6f.my.png)
+![192KB နဲ့ 8GB ရဲ့ အရွယ်အစားကွာခြားမှု - 40,000 ဆကြီး](../../../../../translated_images/my/ram-comparison.6beb73541b42ac6f.png)
 
 ပရိုဂရမ်ကို သိမ်းဆည်းဖို့နေရာလည်း PC ထက် သေးငယ်ပါတယ်။ ပုံမှန် PC တစ်ခုမှာ 500GB hard drive ရှိပြီး၊ microcontroller တစ်ခုမှာတော့ kilobytes သို့မဟုတ် megabytes (MB) အနည်းငယ်သာရှိနိုင်ပါတယ်။ (1MB = 1,000KB = 1,000,000 bytes) Wio terminal မှာ 4MB program storage ရှိပါတယ်။
 
@@ -161,7 +161,7 @@ Arduino boards တွေကို C သို့မဟုတ် C++ နဲ့ co
 
 `setup` function မှာ WiFi နဲ့ cloud services တွေကို connect လုပ်တာ၊ input/output pins တွေကို initialize လုပ်တာတွေကိုရေးနိုင်ပါတယ်။ `loop` function မှာ sensor ကနေ data ဖတ်ပြီး cloud ကို value ပို့တာတွေကိုရေးနိုင်ပါတယ်။ Loop တစ်ခုစီမှာ delay ထည့်သွင်းရပါမယ်၊ ဥပမာ sensor data ကို 10 စက္ကန့်တစ်ကြိမ်ပို့ချင်ရင် loop ရဲ့အဆုံးမှာ 10 စက္ကန့် delay ထည့်ပြီး၊ microcontroller ကို power save mode မှာထားပြီး၊ 10 စက္ကန့်အကြာမှာ loop ကို ပြန် run လုပ်နိုင်ပါတယ်။
 
-![Arduino sketch - setup function ကို run လုပ်ပြီး၊ loop function ကို အမြဲတမ်း run လုပ်နေ](../../../../../translated_images/arduino-sketch.79590cb837ff7a7c6a68d1afda6cab83fd53d3bb1bd9a8bf2eaf8d693a4d3ea6.my.png)
+![Arduino sketch - setup function ကို run လုပ်ပြီး၊ loop function ကို အမြဲတမ်း run လုပ်နေ](../../../../../translated_images/my/arduino-sketch.79590cb837ff7a7c6a68d1afda6cab83fd53d3bb1bd9a8bf2eaf8d693a4d3ea6.png)
 
 ✅ ဒီ program architecture ကို *event loop* သို့မဟုတ် *message loop* လို့ခေါ်ပါတယ်။ Desktop applications အများစုမှာ ဒီပုံစံကို အသုံးပြုထားပြီး၊ Windows, macOS, Linux OS တွေမှာ run လုပ်တဲ့ application တွေမှာ standard ဖြစ်ပါတယ်။ `loop` function က user interface components (button, keyboard) သို့မဟုတ် device တွေကနေ message တွေကို နားထောင်ပြီး၊ အဲဒီ message တွေကို တုံ့ပြန်ပါတယ်။ [event loop](https://wikipedia.org/wiki/Event_loop) အကြောင်းကို ဒီ article မှာ ပိုမိုဖတ်ရှုနိုင်ပါတယ်။
 
@@ -181,17 +181,17 @@ Wio Terminal ကို စူးစမ်းလေ့လာပါ။
 
 ### Raspberry Pi
 
-![Raspberry Pi logo](../../../../../translated_images/raspberry-pi-logo.4efaa16605cee054.my.png)
+![Raspberry Pi logo](../../../../../translated_images/my/raspberry-pi-logo.4efaa16605cee054.png)
 
 [Raspberry Pi Foundation](https://www.raspberrypi.org) ဟာ UK မှ charity တစ်ခုဖြစ်ပြီး၊ 2009 ခုနှစ်မှာ ကျောင်းတွေရဲ့ computer science ပညာသင်ကြားမှုကို မြှင့်တင်ဖို့ ရည်ရွယ်ပြီး စတင်တည်ထောင်ခဲ့ပါတယ်။ ဒီရည်ရွယ်ချက်အတွက် Raspberry Pi ဆိုတဲ့ single-board computer ကို ဖန်တီးခဲ့ပါတယ်။ Raspberry Pi တွေဟာ full size version, Pi Zero, compute module ဆိုပြီး 3 မျိုးရှိပါတယ်။
 
-![Raspberry Pi 4](../../../../../translated_images/raspberry-pi-4.fd4590d308c3d456.my.jpg)
+![Raspberry Pi 4](../../../../../translated_images/my/raspberry-pi-4.fd4590d308c3d456.jpg)
 
 Raspberry Pi ရဲ့ နောက်ဆုံးပေါ် full size version က Raspberry Pi 4B ဖြစ်ပါတယ်။ Quad-core (4 core) CPU 1.5GHz, 2, 4, 8GB RAM, gigabit ethernet, WiFi, 2 HDMI ports (4k screen support), audio/composite video output port, USB ports (2 USB 2.0, 2 USB 3.0), 40 GPIO pins, camera connector, SD card slot ပါဝင်ပြီး၊ အရွယ်အစား 88mm x 58mm x 19.5mm ဖြစ်ပါတယ်။ USB-C power supply 3A အသုံးပြုပြီး၊ US$35 ကနေ စတင်ရောင်းချပါတယ်။
 
 > 💁 Pi400 ဟာ keyboard ထဲမှာ Pi4 ကို ထည့်ထားတဲ့ all-in-one computer ဖြစ်ပါတယ်။
 
-![Raspberry Pi Zero](../../../../../translated_images/raspberry-pi-zero.f7a4133e1e7d54bb.my.jpg)
+![Raspberry Pi Zero](../../../../../translated_images/my/raspberry-pi-zero.f7a4133e1e7d54bb.jpg)
 
 Pi Zero ဟာ ပိုသေးငယ်ပြီး၊ power နည်းပါတယ်။ Single-core 1GHz CPU, 512MB RAM, WiFi (Zero W model), single HDMI port, micro-USB port, 40 GPIO pins, camera connector, SD card slot ပါဝင်ပြီး၊ အရွယ်အစား 65mm x 30mm x 5mm ဖြစ်ပါတယ်။ Zero ဟာ US$5 ဖြစ်ပြီး၊ WiFi ပါတဲ့ Zero W version ဟာ US$10 ဖြစ်ပါတယ်။
 

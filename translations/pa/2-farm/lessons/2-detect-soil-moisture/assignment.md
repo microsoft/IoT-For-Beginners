@@ -29,14 +29,14 @@ CO_OP_TRANSLATOR_METADATA:
 
 ਗ੍ਰੈਵੀਮੈਟ੍ਰਿਕ ਮਿੱਟੀ ਨਮੀ ਦੀ ਗਣਨਾ ਇਸ ਤਰ੍ਹਾਂ ਕੀਤੀ ਜਾਂਦੀ ਹੈ:
 
-![soil moisture % is weight wet minus weight dry, divided by weight dry, times 100](../../../../../translated_images/gsm-calculation.6da38c6201eec14e7573bb2647aa18892883193553d23c9d77e5dc681522dfb2.pa.png)
+![soil moisture % is weight wet minus weight dry, divided by weight dry, times 100](../../../../../translated_images/pa/gsm-calculation.6da38c6201eec14e7573bb2647aa18892883193553d23c9d77e5dc681522dfb2.png)
 
 * W - ਗੀਲੀ ਮਿੱਟੀ ਦਾ ਵਜ਼ਨ  
 * W - ਸੁੱਕੀ ਮਿੱਟੀ ਦਾ ਵਜ਼ਨ  
 
 ਉਦਾਹਰਨ ਲਈ, ਮੰਨੋ ਤੁਹਾਡੇ ਕੋਲ ਇੱਕ ਮਿੱਟੀ ਦਾ ਨਮੂਨਾ ਹੈ ਜੋ 212g ਗੀਲਾ ਅਤੇ 197g ਸੁੱਕਾ ਹੈ।
 
-![The calculation filled in](../../../../../translated_images/gsm-calculation-example.99f9803b4f29e97668e7c15412136c0c399ab12dbba0b89596fdae9d8aedb6fb.pa.png)
+![The calculation filled in](../../../../../translated_images/pa/gsm-calculation-example.99f9803b4f29e97668e7c15412136c0c399ab12dbba0b89596fdae9d8aedb6fb.png)
 
 * W = 212g  
 * W = 197g  

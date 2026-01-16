@@ -25,13 +25,13 @@ De knop kan worden aangesloten op de Grove Base Hat.
 
 #### Taak - sluit de knop aan
 
-![Een Grove-knop](../../../../../translated_images/grove-button.a70cfbb809a8563681003250cf5b06d68cdcc68624f9e2f493d5a534ae2da1e5.nl.png)
+![Een Grove-knop](../../../../../translated_images/nl/grove-button.a70cfbb809a8563681003250cf5b06d68cdcc68624f9e2f493d5a534ae2da1e5.png)
 
 1. Steek één uiteinde van een Grove-kabel in de aansluiting op de knopmodule. Het past maar op één manier.
 
 1. Met de Raspberry Pi uitgeschakeld, sluit je het andere uiteinde van de Grove-kabel aan op de digitale aansluiting gemarkeerd als **D5** op de Grove Base Hat die op de Pi is aangesloten. Deze aansluiting is de tweede van links, op de rij aansluitingen naast de GPIO-pinnen.
 
-![De Grove-knop aangesloten op aansluiting D5](../../../../../translated_images/pi-button.c7a1a4f55943341ce1baf1057658e9a205804d4131d258e820c93f951df0abf3.nl.png)
+![De Grove-knop aangesloten op aansluiting D5](../../../../../translated_images/nl/pi-button.c7a1a4f55943341ce1baf1057658e9a205804d4131d258e820c93f951df0abf3.png)
 
 ## Audio opnemen
 

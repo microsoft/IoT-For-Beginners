@@ -27,13 +27,13 @@ De Grove GPS-sensor kan worden aangesloten op de Raspberry Pi.
 
 Verbind de GPS-sensor.
 
-![Een Grove GPS-sensor](../../../../../translated_images/grove-gps-sensor.247943bf69b03f0d1820ef6ed10c587f9b650e8db55b936851c92412180bd3e2.nl.png)
+![Een Grove GPS-sensor](../../../../../translated_images/nl/grove-gps-sensor.247943bf69b03f0d1820ef6ed10c587f9b650e8db55b936851c92412180bd3e2.png)
 
 1. Steek één uiteinde van een Grove-kabel in de aansluiting op de GPS-sensor. De kabel past maar op één manier.
 
 1. Met de Raspberry Pi uitgeschakeld, verbind je het andere uiteinde van de Grove-kabel met de UART-aansluiting gemarkeerd als **UART** op de Grove Base Hat die op de Pi is bevestigd. Deze aansluiting bevindt zich op de middelste rij, aan de kant die het dichtst bij de SD-kaartsleuf ligt, tegenover de USB-poorten en ethernet-aansluiting.
 
-    ![De Grove GPS-sensor verbonden met de UART-aansluiting](../../../../../translated_images/pi-gps-sensor.1f99ee2b2f6528915047ec78967bd362e0e4ee0ed594368a3837b9cf9cdaca64.nl.png)
+    ![De Grove GPS-sensor verbonden met de UART-aansluiting](../../../../../translated_images/nl/pi-gps-sensor.1f99ee2b2f6528915047ec78967bd362e0e4ee0ed594368a3837b9cf9cdaca64.png)
 
 1. Plaats de GPS-sensor zo dat de aangesloten antenne zicht heeft op de lucht - bij voorkeur naast een open raam of buiten. Het is gemakkelijker om een duidelijker signaal te krijgen zonder obstakels voor de antenne.
 

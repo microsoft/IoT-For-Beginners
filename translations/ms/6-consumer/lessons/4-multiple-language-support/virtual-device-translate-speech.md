@@ -46,7 +46,7 @@ Perkhidmatan ucapan boleh mengambil ucapan dan bukan sahaja menukarnya kepada te
     >
     > Sebagai contoh, jika anda melatih LUIS dalam Bahasa Inggeris, tetapi ingin menggunakan Bahasa Perancis sebagai bahasa pengguna, anda boleh menterjemah ayat seperti "set a 2 minute and 27 second timer" daripada Bahasa Inggeris ke Bahasa Perancis menggunakan Bing Translate, kemudian gunakan butang **Listen translation** untuk bercakap terjemahan ke dalam mikrofon anda.
     >
-    > ![Butang listen translation pada Bing translate](../../../../../translated_images/bing-translate.348aa796d6efe2a92f41ea74a5cf42bb4c63d6faaa08e7f46924e072a35daa48.ms.png)
+    > ![Butang listen translation pada Bing translate](../../../../../translated_images/ms/bing-translate.348aa796d6efe2a92f41ea74a5cf42bb4c63d6faaa08e7f46924e072a35daa48.png)
 
 1. Gantikan deklarasi `recognizer_config` dan `recognizer` dengan yang berikut:
 

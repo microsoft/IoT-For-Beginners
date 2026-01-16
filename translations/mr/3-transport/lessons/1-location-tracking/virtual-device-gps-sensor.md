@@ -47,11 +47,11 @@ CounterFit अॅपमध्ये GPS सेन्सर जोडा.
 
     1. **Add** बटण निवडा जेणेकरून `/dev/ttyAMA0` पोर्टवर GPS सेन्सर तयार होईल.
 
-    ![GPS सेन्सर सेटिंग्ज](../../../../../translated_images/counterfit-create-gps-sensor.6385dc9357d85ad1d47b4abb2525e7651fd498917d25eefc5a72feab09eedc70.mr.png)
+    ![GPS सेन्सर सेटिंग्ज](../../../../../translated_images/mr/counterfit-create-gps-sensor.6385dc9357d85ad1d47b4abb2525e7651fd498917d25eefc5a72feab09eedc70.png)
 
     GPS सेन्सर तयार केला जाईल आणि सेन्सर्सच्या यादीत दिसेल.
 
-    ![GPS सेन्सर तयार झाला](../../../../../translated_images/counterfit-gps-sensor.3fbb15af0a5367566f2f11324ef5a6f30861cdf2b497071a5e002b7aa473550e.mr.png)
+    ![GPS सेन्सर तयार झाला](../../../../../translated_images/mr/counterfit-gps-sensor.3fbb15af0a5367566f2f11324ef5a6f30861cdf2b497071a5e002b7aa473550e.png)
 
 ## GPS सेन्सर प्रोग्राम करा
 
@@ -111,17 +111,17 @@ GPS सेन्सर अॅप प्रोग्राम करा.
 
     * **Source** `Lat/Lon` वर सेट करा आणि GPS फिक्स मिळवण्यासाठी वापरलेल्या उपग्रहांची स्पष्ट अक्षांश, रेखांश आणि संख्या सेट करा. हे मूल्य फक्त एकदाच पाठवले जाईल, त्यामुळे **Repeat** बॉक्स तपासा जेणेकरून डेटा प्रत्येक सेकंदाला पुन्हा पाठवला जाईल.
 
-      ![GPS सेन्सर lat lon निवडलेला](../../../../../translated_images/counterfit-gps-sensor-latlon.008c867d75464fbe7f84107cc57040df565ac07cb57d2f21db37d087d470197d.mr.png)
+      ![GPS सेन्सर lat lon निवडलेला](../../../../../translated_images/mr/counterfit-gps-sensor-latlon.008c867d75464fbe7f84107cc57040df565ac07cb57d2f21db37d087d470197d.png)
 
     * **Source** `NMEA` वर सेट करा आणि काही NMEA वाक्ये टेक्स्ट बॉक्समध्ये जोडा. ही सर्व मूल्ये पाठवली जातील, प्रत्येक नवीन GGA (स्थिती फिक्स) वाक्य वाचण्यापूर्वी 1 सेकंदाचा विलंब होईल.
 
-      ![GPS सेन्सर NMEA वाक्ये सेट केलेली](../../../../../translated_images/counterfit-gps-sensor-nmea.c62eea442171e17e19528b051b104cfcecdc9cd18db7bc72920f29821ae63f73.mr.png)
+      ![GPS सेन्सर NMEA वाक्ये सेट केलेली](../../../../../translated_images/mr/counterfit-gps-sensor-nmea.c62eea442171e17e19528b051b104cfcecdc9cd18db7bc72920f29821ae63f73.png)
 
       तुम्ही [nmeagen.org](https://www.nmeagen.org) सारख्या टूलचा वापर करून नकाशावर रेखाटन करून ही वाक्ये तयार करू शकता. ही मूल्ये फक्त एकदाच पाठवली जातील, त्यामुळे **Repeat** बॉक्स तपासा जेणेकरून सर्व पाठवल्यानंतर एक सेकंदाने डेटा पुन्हा पाठवला जाईल.
 
     * **Source** GPX फाइलवर सेट करा आणि ट्रॅक स्थानांसह GPX फाइल अपलोड करा. तुम्ही [AllTrails](https://www.alltrails.com/) सारख्या लोकप्रिय मॅपिंग आणि हायकिंग साइट्समधून GPX फाइल्स डाउनलोड करू शकता. या फाइल्समध्ये ट्रेल म्हणून अनेक GPS स्थान असतात आणि GPS सेन्सर प्रत्येक नवीन स्थान 1 सेकंदाच्या अंतराने परत करतो.
 
-      ![GPS सेन्सर GPX फाइल सेट केलेली](../../../../../translated_images/counterfit-gps-sensor-gpxfile.8310b063ce8a425ccc8ebeec8306aeac5e8e55207f007d52c6e1194432a70cd9.mr.png)
+      ![GPS सेन्सर GPX फाइल सेट केलेली](../../../../../translated_images/mr/counterfit-gps-sensor-gpxfile.8310b063ce8a425ccc8ebeec8306aeac5e8e55207f007d52c6e1194432a70cd9.png)
 
       ही मूल्ये फक्त एकदाच पाठवली जातील, त्यामुळे **Repeat** बॉक्स तपासा जेणेकरून सर्व पाठवल्यानंतर एक सेकंदाने डेटा पुन्हा पाठवला जाईल.
 

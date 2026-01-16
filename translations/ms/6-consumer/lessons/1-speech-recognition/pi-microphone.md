@@ -43,7 +43,7 @@ Mikrofon dan pembesar suara perlu disambungkan dan dikonfigurasi.
 
 1. Jika anda menggunakan ReSpeaker 2-Mics Pi HAT, anda boleh menanggalkan Grove base hat, kemudian pasangkan ReSpeaker hat di tempatnya.
 
-    ![Raspberry Pi dengan ReSpeaker hat](../../../../../translated_images/pi-respeaker-hat.f00fabe7dd039a93e2e0aa0fc946c9af0c6a9eb17c32fa1ca097fb4e384f69f0.ms.png)
+    ![Raspberry Pi dengan ReSpeaker hat](../../../../../translated_images/ms/pi-respeaker-hat.f00fabe7dd039a93e2e0aa0fc946c9af0c6a9eb17c32fa1ca097fb4e384f69f0.png)
 
     Anda akan memerlukan butang Grove kemudian dalam pelajaran ini, tetapi satu butang sudah terbina dalam hat ini, jadi Grove base hat tidak diperlukan.
 

@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Støtte for flere språk
 
-![En sketchnote-oversikt over denne leksjonen](../../../../../translated_images/lesson-24.4246968ed058510ab275052e87ef9aa89c7b2f938915d103c605c04dc6cd5bb7.no.jpg)
+![En sketchnote-oversikt over denne leksjonen](../../../../../translated_images/no/lesson-24.4246968ed058510ab275052e87ef9aa89c7b2f938915d103c605c04dc6cd5bb7.jpg)
 
 > Sketchnote av [Nitya Narasimhan](https://github.com/nitya). Klikk på bildet for en større versjon.
 
@@ -83,7 +83,7 @@ Det finnes en rekke AI-tjenester som kan brukes fra applikasjonene dine for å o
 
 ### Cognitive Services Speech Service
 
-![Logoen til tale-tjenesten](../../../../../translated_images/azure-speech-logo.a1f08c4befb0159f2cb5d692d3baf5b599e7b44759d316da907bda1508f46a4a.no.png)
+![Logoen til tale-tjenesten](../../../../../translated_images/no/azure-speech-logo.a1f08c4befb0159f2cb5d692d3baf5b599e7b44759d316da907bda1508f46a4a.png)
 
 Tale-tjenesten du har brukt i de siste leksjonene, har oversettelsesmuligheter for talegjenkjenning. Når du gjenkjenner tale, kan du be om ikke bare teksten til talen på samme språk, men også på andre språk.
 
@@ -91,7 +91,7 @@ Tale-tjenesten du har brukt i de siste leksjonene, har oversettelsesmuligheter f
 
 ### Cognitive Services Translator Service
 
-![Logoen til oversettertjenesten](../../../../../translated_images/azure-translator-logo.c6ed3a4a433edfd2f11577eca105412c50b8396b194cbbd730723dd1d0793bcd.no.png)
+![Logoen til oversettertjenesten](../../../../../translated_images/no/azure-translator-logo.c6ed3a4a433edfd2f11577eca105412c50b8396b194cbbd730723dd1d0793bcd.png)
 
 Oversettertjenesten er en dedikert oversettelsestjeneste som kan oversette tekst fra ett språk til ett eller flere målspråk. I tillegg til å oversette, støtter den et bredt spekter av ekstra funksjoner, inkludert maskering av banning. Den lar deg også spesifisere en bestemt oversettelse for et bestemt ord eller en setning, for å håndtere termer du ikke vil oversette, eller som har en spesifikk, velkjent oversettelse.
 
@@ -130,7 +130,7 @@ For denne leksjonen trenger du en oversetterressurs. Du vil bruke REST API-en ti
 
 I en ideell verden bør hele applikasjonen din forstå så mange forskjellige språk som mulig, fra å lytte til tale, til språkforståelse, til å svare med tale. Dette er mye arbeid, så oversettelsestjenester kan fremskynde leveringstiden for applikasjonen din.
 
-![En smart timer-arkitektur som oversetter japansk til engelsk, behandler på engelsk og deretter oversetter tilbake til japansk](../../../../../translated_images/translated-smart-timer.08ac20057fdc5c37.no.png)
+![En smart timer-arkitektur som oversetter japansk til engelsk, behandler på engelsk og deretter oversetter tilbake til japansk](../../../../../translated_images/no/translated-smart-timer.08ac20057fdc5c37.png)
 
 Tenk deg at du bygger en smart timer som bruker engelsk fra ende til ende, forstår talt engelsk og konverterer det til tekst, kjører språkforståelse på engelsk, bygger opp svar på engelsk og svarer med engelsk tale. Hvis du ønsket å legge til støtte for japansk, kunne du starte med å oversette talt japansk til engelsk tekst, deretter holde kjernen i applikasjonen den samme, og deretter oversette svarteksten til japansk før du snakker svaret. Dette ville tillate deg å raskt legge til støtte for japansk, og du kan senere utvide til å tilby fullstendig ende-til-ende-støtte for japansk.
 

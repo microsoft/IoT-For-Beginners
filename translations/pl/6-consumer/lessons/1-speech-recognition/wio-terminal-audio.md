@@ -19,7 +19,7 @@ Wbudowany mikrofon przechwytuje sygnał analogowy, który jest konwertowany na s
 
 ✅ Przeczytaj więcej o DMA na [stronie o bezpośrednim dostępie do pamięci na Wikipedii](https://wikipedia.org/wiki/Direct_memory_access).
 
-![Dźwięk z mikrofonu trafia do ADC, a następnie do DMAC. DMAC zapisuje dane do jednego bufora. Gdy bufor jest pełny, dane są przetwarzane, a DMAC zapisuje do drugiego bufora](../../../../../translated_images/dmac-adc-buffers.4509aee49145c90bc2e1be472b8ed2ddfcb2b6a81ad3e559114aca55f5fff759.pl.png)
+![Dźwięk z mikrofonu trafia do ADC, a następnie do DMAC. DMAC zapisuje dane do jednego bufora. Gdy bufor jest pełny, dane są przetwarzane, a DMAC zapisuje do drugiego bufora](../../../../../translated_images/pl/dmac-adc-buffers.4509aee49145c90bc2e1be472b8ed2ddfcb2b6a81ad3e559114aca55f5fff759.png)
 
 DMAC może przechwytywać dźwięk z ADC w stałych odstępach czasu, na przykład 16 000 razy na sekundę dla dźwięku o częstotliwości 16 kHz. Może zapisywać te dane do wcześniej przydzielonego bufora pamięci, a gdy bufor jest pełny, udostępnia go kodowi do przetworzenia. Korzystanie z tej pamięci może opóźnić przechwytywanie dźwięku, ale można skonfigurować wiele buforów. DMAC zapisuje dane do bufora 1, a gdy ten jest pełny, powiadamia kod o konieczności przetworzenia bufora 1, podczas gdy DMAC zapisuje dane do bufora 2. Gdy bufor 2 jest pełny, powiadamia kod, a następnie wraca do zapisywania danych do bufora 1. Dzięki temu, jeśli przetwarzanie każdego bufora zajmuje mniej czasu niż jego wypełnienie, dane nie zostaną utracone.
 

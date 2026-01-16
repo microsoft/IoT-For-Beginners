@@ -114,7 +114,7 @@ REST API-et for taletjenesten støtter ikke direkte oversettelser. I stedet kan 
     >
     > For eksempel, hvis du trener LUIS på engelsk, men ønsker å bruke fransk som brukerspråk, kan du oversette setninger som "set a 2 minute and 27 second timer" fra engelsk til fransk ved hjelp av Bing Translate, og deretter bruke **Listen translation**-knappen for å snakke oversettelsen inn i mikrofonen din.
     >
-    > ![Knappen for å lytte til oversettelse på Bing Translate](../../../../../translated_images/bing-translate.348aa796d6efe2a92f41ea74a5cf42bb4c63d6faaa08e7f46924e072a35daa48.no.png)
+    > ![Knappen for å lytte til oversettelse på Bing Translate](../../../../../translated_images/no/bing-translate.348aa796d6efe2a92f41ea74a5cf42bb4c63d6faaa08e7f46924e072a35daa48.png)
 
 1. Legg til API-nøkkelen og plasseringen til oversettertjenesten under `SPEECH_LOCATION`:
 

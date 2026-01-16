@@ -13,7 +13,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 ## စတော့အရေအတွက်တွက်ခြင်း
 
-![တစ်ခုချင်းစီကို bounding boxes ဖြင့်ပတ်ထားသော ခရမ်းချဉ်သီးပေါင်း ၄ ကန်](../../../../../translated_images/rpi-stock-with-bounding-boxes.b5540e2ecb7cd49f.my.jpg)
+![တစ်ခုချင်းစီကို bounding boxes ဖြင့်ပတ်ထားသော ခရမ်းချဉ်သီးပေါင်း ၄ ကန်](../../../../../translated_images/my/rpi-stock-with-bounding-boxes.b5540e2ecb7cd49f.jpg)
 
 အထက်ပါပုံတွင် bounding boxes တွေမှာ အနည်းငယ်တစ်ခုနှင့်တစ်ခုကျော်လွှားမှုရှိပါတယ်။ ကျော်လွှားမှုက ပိုများလာခဲ့ရင် bounding boxes တွေဟာ တစ်ခုတည်းသောအရာကိုပြသနိုင်ပါတယ်။ အရာဝတ္ထုများကိုမှန်ကန်စွာတွက်ရန် ကျော်လွှားမှုများသော boxes တွေကို မထည့်သွင်းစဉ်းစားရပါမည်။
 

@@ -25,7 +25,7 @@ Kamera może być podłączona do Raspberry Pi za pomocą taśmy.
 
 ### Zadanie - podłącz kamerę
 
-![Kamera Raspberry Pi](../../../../../translated_images/pi-camera-module.4278753c31bd6e757aa2b858be97d72049f71616278cefe4fb5abb485b40a078.pl.png)
+![Kamera Raspberry Pi](../../../../../translated_images/pl/pi-camera-module.4278753c31bd6e757aa2b858be97d72049f71616278cefe4fb5abb485b40a078.png)
 
 1. Wyłącz zasilanie Raspberry Pi.
 
@@ -33,17 +33,17 @@ Kamera może być podłączona do Raspberry Pi za pomocą taśmy.
 
    Możesz znaleźć animację pokazującą, jak otworzyć klips i włożyć taśmę w [dokumentacji Raspberry Pi dotyczącej rozpoczęcia pracy z modułem kamery](https://projects.raspberrypi.org/en/projects/getting-started-with-picamera/2).
 
-   ![Taśma włożona do modułu kamery](../../../../../translated_images/pi-camera-ribbon-cable.0bf82acd251611c21ac616f082849413e2b322a261d0e4f8fec344248083b07e.pl.png)
+   ![Taśma włożona do modułu kamery](../../../../../translated_images/pl/pi-camera-ribbon-cable.0bf82acd251611c21ac616f082849413e2b322a261d0e4f8fec344248083b07e.png)
 
 1. Zdejmij Grove Base Hat z Raspberry Pi.
 
 1. Przełóż taśmę przez otwór na kamerę w Grove Base Hat. Upewnij się, że niebieska strona taśmy jest skierowana w stronę portów analogowych oznaczonych jako **A0**, **A1** itd.
 
-   ![Taśma przechodząca przez Grove Base Hat](../../../../../translated_images/grove-base-hat-ribbon-cable.501fed202fcf73b11b2b68f6d246189f7d15d3e4423c572ddee79d77b4632b47.pl.png)
+   ![Taśma przechodząca przez Grove Base Hat](../../../../../translated_images/pl/grove-base-hat-ribbon-cable.501fed202fcf73b11b2b68f6d246189f7d15d3e4423c572ddee79d77b4632b47.png)
 
 1. Włóż taśmę do portu kamery na Raspberry Pi. Ponownie, podnieś czarny plastikowy klips, włóż taśmę, a następnie wciśnij klips z powrotem. Niebieska strona taśmy powinna być skierowana w stronę portów USB i Ethernet.
 
-   ![Taśma podłączona do gniazda kamery na Raspberry Pi](../../../../../translated_images/pi-camera-socket-ribbon-cable.a18309920b11800911082ed7aa6fb28e6d9be3a022e4079ff990016cae3fca10.pl.png)
+   ![Taśma podłączona do gniazda kamery na Raspberry Pi](../../../../../translated_images/pl/pi-camera-socket-ribbon-cable.a18309920b11800911082ed7aa6fb28e6d9be3a022e4079ff990016cae3fca10.png)
 
 1. Załóż ponownie Grove Base Hat.
 
@@ -110,7 +110,7 @@ Zaprogramuj urządzenie.
 
     Linia `camera.rotation = 0` ustawia obrót obrazu. Taśma wchodzi do dolnej części kamery, ale jeśli kamera została obrócona, aby łatwiej skierować ją na obiekt, który chcesz sklasyfikować, możesz zmienić tę linię na liczbę stopni obrotu.
 
-    ![Kamera zawieszona nad puszką napoju](../../../../../translated_images/pi-camera-upside-down.5376961ba31459883362124152ad6b823d5ac5fc14e85f317e22903bd681c2b6.pl.png)
+    ![Kamera zawieszona nad puszką napoju](../../../../../translated_images/pl/pi-camera-upside-down.5376961ba31459883362124152ad6b823d5ac5fc14e85f317e22903bd681c2b6.png)
 
     Na przykład, jeśli zawiesisz taśmę nad czymś, tak że znajduje się na górze kamery, ustaw obrót na 180:
 

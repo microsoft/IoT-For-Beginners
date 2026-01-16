@@ -25,13 +25,13 @@ Grove အပူချိန်အာရုံခံကိရိယာကို R
 
 အပူချိန်အာရုံခံကိရိယာကို ချိတ်ဆက်ပါ
 
-![A grove temperature sensor](../../../../../translated_images/grove-dht11.07f8eafceee170043efbb53e1d15722bd4e00fbaa9ff74290b57e9f66eb82c17.my.png)
+![A grove temperature sensor](../../../../../translated_images/my/grove-dht11.07f8eafceee170043efbb53e1d15722bd4e00fbaa9ff74290b57e9f66eb82c17.png)
 
 1. Grove cable တစ်ဖက်ကို စိုထိုင်းဆနှင့် အပူချိန်အာရုံခံကိရိယာ၏ socket တွင် ထည့်ပါ။ ၎င်းသည် တစ်ဖက်ဘက်သာ ထည့်နိုင်ပါသည်။
 
 1. Raspberry Pi ကို ပိတ်ထားပြီး၊ Grove cable ၏ တစ်ဖက်ကို Pi တွင် တပ်ထားသော Grove Base hat ၏ **D5** ဟု အမှတ်အသားပြထားသော digital socket တွင် ချိတ်ဆက်ပါ။ ဒီ socket သည် GPIO pin အနီးရှိ socket အတန်းတွင် ဘယ်ဘက်မှ ဒုတိယဖြစ်သည်။
 
-![The grove temperature sensor connected to socket A0](../../../../../translated_images/pi-temperature-sensor.3ff82fff672c8e56.my.png)
+![The grove temperature sensor connected to socket A0](../../../../../translated_images/my/pi-temperature-sensor.3ff82fff672c8e56.png)
 
 ## အပူချိန်အာရုံခံကိရိယာကို အစီအစဉ်ရေးဆွဲပါ
 

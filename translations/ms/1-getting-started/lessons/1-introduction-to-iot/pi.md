@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 [Raspberry Pi](https://raspberrypi.org) adalah komputer papan tunggal. Anda boleh menambah sensor dan aktuator menggunakan pelbagai jenis peranti dan ekosistem, dan untuk pelajaran ini, kita akan menggunakan ekosistem perkakasan yang dipanggil [Grove](https://www.seeedstudio.com/category/Grove-c-1003.html). Anda akan menulis kod untuk Pi anda dan mengakses sensor Grove menggunakan Python.
 
-![Raspberry Pi 4](../../../../../translated_images/raspberry-pi-4.fd4590d308c3d456.ms.jpg)
+![Raspberry Pi 4](../../../../../translated_images/ms/raspberry-pi-4.fd4590d308c3d456.jpg)
 
 ## Persediaan
 
@@ -112,7 +112,7 @@ Sediakan Pi OS dalam mod headless.
 
 1. Dari Raspberry Pi Imager, pilih butang **CHOOSE OS**, kemudian pilih *Raspberry Pi OS (Other)*, diikuti oleh *Raspberry Pi OS Lite (32-bit)*.
 
-    ![Raspberry Pi Imager dengan Raspberry Pi OS Lite dipilih](../../../../../translated_images/raspberry-pi-imager.24aedeab9e233d84.ms.png)
+    ![Raspberry Pi Imager dengan Raspberry Pi OS Lite dipilih](../../../../../translated_images/ms/raspberry-pi-imager.24aedeab9e233d84.png)
 
     > 💁 Raspberry Pi OS Lite adalah versi Raspberry Pi OS yang tidak mempunyai UI desktop atau alat berasaskan UI. Ini tidak diperlukan untuk Pi dalam mod headless dan menjadikan pemasangan lebih kecil serta masa boot lebih cepat.
 
@@ -251,7 +251,7 @@ Cipta aplikasi Hello World.
 
 1. Buka folder ini dalam VS Code dengan memilih *File -> Open...* dan memilih folder *nightlight*, kemudian pilih **OK**.
 
-    ![Dialog buka VS Code menunjukkan folder nightlight](../../../../../translated_images/vscode-open-nightlight-remote.d3d2a4011e30d535.ms.png)
+    ![Dialog buka VS Code menunjukkan folder nightlight](../../../../../translated_images/ms/vscode-open-nightlight-remote.d3d2a4011e30d535.png)
 
 1. Buka fail `app.py` dari penjelajah VS Code dan tambahkan kod berikut:
 

@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Locatietracking
 
-![Een schetsnotitie-overzicht van deze les](../../../../../translated_images/lesson-11.9fddbac4b664c6d50ab7ac9bb32f1fc3f945f03760e72f7f43938073762fb017.nl.jpg)
+![Een schetsnotitie-overzicht van deze les](../../../../../translated_images/nl/lesson-11.9fddbac4b664c6d50ab7ac9bb32f1fc3f945f03760e72f7f43938073762fb017.jpg)
 
 > Schetsnotitie door [Nitya Narasimhan](https://github.com/nitya). Klik op de afbeelding voor een grotere versie.
 
@@ -72,13 +72,13 @@ De aarde is een bol - een driedimensionale cirkel. Hierdoor worden punten gedefi
 
 > 💁 Niemand weet echt de oorspronkelijke reden waarom cirkels in 360 graden zijn verdeeld. De [pagina over graden (hoek) op Wikipedia](https://wikipedia.org/wiki/Degree_(angle)) behandelt enkele van de mogelijke redenen.
 
-![Lijnen van breedtegraad van 90° op de Noordpool, 45° halverwege tussen de Noordpool en de evenaar, 0° op de evenaar, -45° halverwege tussen de evenaar en de Zuidpool, en -90° op de Zuidpool](../../../../../translated_images/latitude-lines.11d8d91dfb2014a57437272d7db7fd6607243098e8685f06e0c5f1ec984cb7eb.nl.png)
+![Lijnen van breedtegraad van 90° op de Noordpool, 45° halverwege tussen de Noordpool en de evenaar, 0° op de evenaar, -45° halverwege tussen de evenaar en de Zuidpool, en -90° op de Zuidpool](../../../../../translated_images/nl/latitude-lines.11d8d91dfb2014a57437272d7db7fd6607243098e8685f06e0c5f1ec984cb7eb.png)
 
 Breedtegraad wordt gemeten met lijnen die de aarde omcirkelen en parallel lopen aan de evenaar, waarbij het noordelijk en zuidelijk halfrond elk in 90° worden verdeeld. De evenaar ligt op 0°, de Noordpool op 90°, ook wel 90° Noord genoemd, en de Zuidpool op -90°, of 90° Zuid.
 
 Lengtegraad wordt gemeten als het aantal graden gemeten van oost naar west. De oorsprong van 0° lengtegraad wordt de *Prime Meridian* genoemd en werd in 1884 gedefinieerd als een lijn van de Noordpool naar de Zuidpool die door het [British Royal Observatory in Greenwich, Engeland](https://wikipedia.org/wiki/Royal_Observatory,_Greenwich) loopt.
 
-![Lijnen van lengtegraad die gaan van -180° ten westen van de Prime Meridian, naar 0° op de Prime Meridian, tot 180° ten oosten van de Prime Meridian](../../../../../translated_images/longitude-meridians.ab4ef1c91c064586b0185a3c8d39e585903696c6a7d28c098a93a629cddb5d20.nl.png)
+![Lijnen van lengtegraad die gaan van -180° ten westen van de Prime Meridian, naar 0° op de Prime Meridian, tot 180° ten oosten van de Prime Meridian](../../../../../translated_images/nl/longitude-meridians.ab4ef1c91c064586b0185a3c8d39e585903696c6a7d28c098a93a629cddb5d20.png)
 
 > 🎓 Een meridiaan is een denkbeeldige rechte lijn die van de Noordpool naar de Zuidpool loopt en een halve cirkel vormt.
 
@@ -109,7 +109,7 @@ Coördinaten voor een punt worden altijd gegeven als `breedtegraad, lengtegraad`
 * Een breedtegraad van 47.6423109 (47.6423109 graden ten noorden van de evenaar)
 * Een lengtegraad van -122.1390293 (122.1390293 graden ten westen van de Prime Meridian).
 
-![De Microsoft Campus op 47.6423109,-122.117198](../../../../../translated_images/microsoft-gps-location-world.a321d481b010f6adfcca139b2ba0adc53b79f58a540495b8e2ce7f779ea64bfe.nl.png)
+![De Microsoft Campus op 47.6423109,-122.117198](../../../../../translated_images/nl/microsoft-gps-location-world.a321d481b010f6adfcca139b2ba0adc53b79f58a540495b8e2ce7f779ea64bfe.png)
 
 ## Global Positioning Systems (GPS)
 
@@ -121,7 +121,7 @@ GPS-systemen werken door een aantal satellieten die een signaal uitzenden met de
 
 > 💁 GPS-sensoren hebben antennes nodig om radiogolven te detecteren. De antennes die zijn ingebouwd in vrachtwagens en auto's met ingebouwde GPS zijn zo geplaatst dat ze een goed signaal krijgen, meestal op de voorruit of het dak. Als je een apart GPS-systeem gebruikt, zoals een smartphone of een IoT-apparaat, moet je ervoor zorgen dat de antenne die in het GPS-systeem of de telefoon is ingebouwd een vrij zicht op de lucht heeft, bijvoorbeeld door deze op je voorruit te monteren.
 
-![Door de afstand van de sensor tot meerdere satellieten te kennen, kan de locatie worden berekend](../../../../../translated_images/gps-satellites.04acf1148fe25fbf1586bc2e8ba698e8d79b79a50c36824b38417dd13372b90f.nl.png)
+![Door de afstand van de sensor tot meerdere satellieten te kennen, kan de locatie worden berekend](../../../../../translated_images/nl/gps-satellites.04acf1148fe25fbf1586bc2e8ba698e8d79b79a50c36824b38417dd13372b90f.png)
 
 GPS-satellieten draaien rond de aarde en bevinden zich niet op een vaste plek boven de sensor, dus locatiegegevens omvatten hoogte boven zeeniveau naast breedte- en lengtegraad.
 

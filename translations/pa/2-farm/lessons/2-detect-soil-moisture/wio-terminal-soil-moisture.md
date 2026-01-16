@@ -27,17 +27,17 @@ Grove ਮਿੱਟੀ ਨਮੀ ਸੈਂਸਰ ਨੂੰ Wio ਟਰਮੀਨਲ
 
 ਮਿੱਟੀ ਨਮੀ ਸੈਂਸਰ ਨੂੰ ਜੁੜੋ।
 
-![Grove ਮਿੱਟੀ ਨਮੀ ਸੈਂਸਰ](../../../../../translated_images/grove-capacitive-soil-moisture-sensor.e7f0776cce30e78be5cc5a07839385fd6718857f31b5bf5ad3d0c73c83b2f0ef.pa.png)
+![Grove ਮਿੱਟੀ ਨਮੀ ਸੈਂਸਰ](../../../../../translated_images/pa/grove-capacitive-soil-moisture-sensor.e7f0776cce30e78be5cc5a07839385fd6718857f31b5bf5ad3d0c73c83b2f0ef.png)
 
 1. Grove ਕੇਬਲ ਦੇ ਇੱਕ ਸਿਰੇ ਨੂੰ ਮਿੱਟੀ ਨਮੀ ਸੈਂਸਰ ਦੇ ਸਾਕਟ ਵਿੱਚ ਪਾਓ। ਇਹ ਸਿਰਫ ਇੱਕ ਹੀ ਦਿਸ਼ਾ ਵਿੱਚ ਜਾਵੇਗਾ।
 
 1. Wio ਟਰਮੀਨਲ ਨੂੰ ਆਪਣੇ ਕੰਪਿਊਟਰ ਜਾਂ ਹੋਰ ਪਾਵਰ ਸਪਲਾਈ ਤੋਂ ਡਿਸਕਨੈਕਟ ਕਰਕੇ ਰੱਖੋ। ਫਿਰ Grove ਕੇਬਲ ਦੇ ਦੂਜੇ ਸਿਰੇ ਨੂੰ Wio ਟਰਮੀਨਲ ਦੇ ਸਕ੍ਰੀਨ ਵੱਲ ਦੇਖਦੇ ਹੋਏ ਸੱਜੇ ਪਾਸੇ ਵਾਲੇ Grove ਸਾਕਟ ਵਿੱਚ ਪਾਓ। ਇਹ ਸਾਕਟ ਪਾਵਰ ਬਟਨ ਤੋਂ ਸਭ ਤੋਂ ਦੂਰ ਹੈ।
 
-![ਸੱਜੇ ਪਾਸੇ ਵਾਲੇ ਸਾਕਟ ਨਾਲ ਜੁੜਿਆ Grove ਮਿੱਟੀ ਨਮੀ ਸੈਂਸਰ](../../../../../translated_images/wio-soil-moisture-sensor.46919b61c3f6cb74.pa.png)
+![ਸੱਜੇ ਪਾਸੇ ਵਾਲੇ ਸਾਕਟ ਨਾਲ ਜੁੜਿਆ Grove ਮਿੱਟੀ ਨਮੀ ਸੈਂਸਰ](../../../../../translated_images/pa/wio-soil-moisture-sensor.46919b61c3f6cb74.png)
 
 1. ਮਿੱਟੀ ਨਮੀ ਸੈਂਸਰ ਨੂੰ ਮਿੱਟੀ ਵਿੱਚ ਪਾਓ। ਇਸ 'ਤੇ ਇੱਕ 'ਸਭ ਤੋਂ ਉੱਚੀ ਪੋਜ਼ੀਸ਼ਨ ਲਾਈਨ' ਹੈ - ਸੈਂਸਰ 'ਤੇ ਇੱਕ ਚਿੱਟੀ ਲਾਈਨ। ਸੈਂਸਰ ਨੂੰ ਇਸ ਲਾਈਨ ਤੱਕ ਪਾਓ ਪਰ ਇਸ ਤੋਂ ਪਾਰ ਨਾ ਕਰੋ।
 
-![ਮਿੱਟੀ ਵਿੱਚ Grove ਮਿੱਟੀ ਨਮੀ ਸੈਂਸਰ](../../../../../translated_images/soil-moisture-sensor-in-soil.bfad91002bda5e96.pa.png)
+![ਮਿੱਟੀ ਵਿੱਚ Grove ਮਿੱਟੀ ਨਮੀ ਸੈਂਸਰ](../../../../../translated_images/pa/soil-moisture-sensor-in-soil.bfad91002bda5e96.png)
 
 1. ਹੁਣ ਤੁਸੀਂ Wio ਟਰਮੀਨਲ ਨੂੰ ਆਪਣੇ ਕੰਪਿਊਟਰ ਨਾਲ ਜੁੜ ਸਕਦੇ ਹੋ।
 

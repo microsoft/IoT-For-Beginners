@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # IoT Device မှ စတော့စစ်ဆေးခြင်း
 
-![ဒီသင်ခန်းစာ၏ အကျဉ်းချုပ်ကို ဖော်ပြထားသော ပုံ](../../../../../translated_images/lesson-20.0211df9551a8abb300fc8fcf7dc2789468dea2eabe9202273ac077b0ba37f15e.my.jpg)
+![ဒီသင်ခန်းစာ၏ အကျဉ်းချုပ်ကို ဖော်ပြထားသော ပုံ](../../../../../translated_images/my/lesson-20.0211df9551a8abb300fc8fcf7dc2789468dea2eabe9202273ac077b0ba37f15e.jpg)
 
 > [Nitya Narasimhan](https://github.com/nitya) မှရေးသားထားသော Sketchnote။ ပုံကို click လုပ်ပြီး ပိုမိုကြီးမားသော ဗားရှင်းကို ကြည့်ပါ။
 
@@ -39,7 +39,7 @@ Object detectors များကို stock စစ်ဆေးရန် အသ�
 
 ဥပမာအားဖြင့် ကင်မရာတစ်ခုသည် 8 ကန်အထိ tomato paste ကို ထည့်နိုင်သော စင်တစ်ခုကို ဦးတည်ထားပြီး object detector သည် 7 ကန်သာ ရှာဖွေတွေ့ရှိခဲ့ပါက တစ်ခုပျောက်နေပြီး ပြန်လည်ဖြည့်ရန် လိုအပ်သည်။
 
-![စင်ပေါ်တွင် 7 ကန်ရှိသော tomato paste - အပေါ်တန်းတွင် 4, အောက်တွင် 3](../../../../../translated_images/stock-7-cans-tomato-paste.f86059cc573d7bec.my.png)
+![စင်ပေါ်တွင် 7 ကန်ရှိသော tomato paste - အပေါ်တန်းတွင် 4, အောက်တွင် 3](../../../../../translated_images/my/stock-7-cans-tomato-paste.f86059cc573d7bec.png)
 
 အထက်ပါပုံတွင် object detector သည် 8 ကန်ထည့်နိုင်သော စင်ပေါ်တွင် 7 ကန်ရှိသော tomato paste ကို ရှာဖွေတွေ့ရှိခဲ့သည်။ IoT device သည် stock ပြန်လည်ဖြည့်ရန် အချက်ပေးနိုင်သလို ပျောက်နေသော item ၏ တည်နေရာကိုလည်း ဖော်ပြနိုင်သည်။ ဒါသည် စင်များကို ပြန်လည်ဖြည့်ရန် robots အသုံးပြုနေပါက အရေးကြီးသော ဒေတာဖြစ်သည်။
 
@@ -51,7 +51,7 @@ Object detectors များကို stock စစ်ဆေးရန် အသ�
 
 Object detection ကို မမျှော်လင့်ထားသော item များကို ရှာဖွေဖော်ထုတ်ရန် အသုံးပြုနိုင်ပြီး item ကို ပြန်ထားရန် လူတစ်ဦး သို့မဟုတ် robot ကို အချက်ပေးနိုင်သည်။
 
-![Tomato paste စင်ပေါ်တွင် baby corn ကန်တစ်ခု](../../../../../translated_images/stock-rogue-corn.be1f3ada8c457854.my.png)
+![Tomato paste စင်ပေါ်တွင် baby corn ကန်တစ်ခု](../../../../../translated_images/my/stock-rogue-corn.be1f3ada8c457854.png)
 
 အထက်ပါပုံတွင် baby corn ကန်တစ်ခုသည် tomato paste အနီးတွင် စင်ပေါ်တွင်ထားရှိထားသည်။ Object detector သည် ဒါကို ရှာဖွေတွေ့ရှိပြီး IoT device သည် လူတစ်ဦး သို့မဟုတ် robot ကို အချက်ပေးနိုင်သည်။
 
@@ -71,7 +71,7 @@ Iterations များကို Custom Vision portal မှ publish လုပ�
 
 1. Iteration ၏ **Publish** ခလုတ်ကို ရွေးပါ။
 
-    ![Publish ခလုတ်](../../../../../translated_images/custom-vision-object-detector-publish-button.34ee379fc650ccb9856c3868d0003f413b9529f102fc73c37168c98d721cc293.my.png)
+    ![Publish ခလုတ်](../../../../../translated_images/my/custom-vision-object-detector-publish-button.34ee379fc650ccb9856c3868d0003f413b9529f102fc73c37168c98d721cc293.png)
 
 1. *Publish Model* dialog တွင် *Prediction resource* ကို `stock-detector-prediction` resource သို့ ပြောင်းပါ။ Name ကို `Iteration2` အဖြစ်ထားပြီး **Publish** ခလုတ်ကို ရွေးပါ။
 
@@ -85,7 +85,7 @@ Iterations များကို Custom Vision portal မှ publish လုပ�
 
     *Prediction-Key* တန်ဖိုးကိုလည်း ကူးယူပါ။ ဒါသည် secure key ဖြစ်ပြီး model ကို ခေါ်သည့်အခါ pass လုပ်ရန် လိုအပ်သည်။ ဒီ key ကို pass လုပ်သော application များသာ model ကို အသုံးပြုခွင့်ရမည်ဖြစ်ပြီး အခြား application များကို ပယ်ချမည်။
 
-    ![Prediction API dialog](../../../../../translated_images/custom-vision-prediction-key-endpoint.30c569ffd0338864f319911f052d5e9b8c5066cb0800a26dd6f7ff5713130ad8.my.png)
+    ![Prediction API dialog](../../../../../translated_images/my/custom-vision-prediction-key-endpoint.30c569ffd0338864f319911f052d5e9b8c5066cb0800a26dd6f7ff5713130ad8.png)
 
 ✅ အသစ်သော iteration ကို publish လုပ်သောအခါ name သည် ကွဲပြားနေမည်။ IoT device သည် အသုံးပြုနေသော iteration ကို ပြောင်းလဲရန် သင်ဘယ်လိုလုပ်မည်ဟု ထင်ပါသလဲ?
 
@@ -104,7 +104,7 @@ Object detector ကို အသုံးပြုသောအခါ tag နှ�
 
 Custom Vision ၏ **Predictions** tab တွင် prediction ရလဒ်များတွင် bounding boxes များကို ပုံပေါ်တွင် ရှာဖွေတွေ့ရှိထားသော object များအပေါ်တွင် ရေးဆွဲထားသည်။
 
-![စင်ပေါ်တွင် 4 ကန်ရှိသော tomato paste - 35.8%, 33.5%, 25.7% နှင့် 16.6%](../../../../../translated_images/custom-vision-stock-prediction.942266ab1bcca3410ecdf23643b9f5f570cfab2345235074e24c51f285777613.my.png)
+![စင်ပေါ်တွင် 4 ကန်ရှိသော tomato paste - 35.8%, 33.5%, 25.7% နှင့် 16.6%](../../../../../translated_images/my/custom-vision-stock-prediction.942266ab1bcca3410ecdf23643b9f5f570cfab2345235074e24c51f285777613.png)
 
 အထက်ပါပုံတွင် tomato paste 4 ကန်ကို ရှာဖွေတွေ့ရှိခဲ့သည်။ ရလဒ်များတွင် object တစ်ခုစီအပေါ်တွင် bounding box များကို ရေးဆွဲထားသည်။
 
@@ -112,7 +112,7 @@ Custom Vision ၏ **Predictions** tab တွင် prediction ရလဒ်မျ
 
 Bounding boxes များကို top, left, height နှင့် width တန်ဖိုး 4 ခုဖြင့် သတ်မှတ်သည်။ ဒီတန်ဖိုးများသည် 0-1 scale တွင်ရှိပြီး ပုံ၏ အရွယ်အစား၏ ရာခိုင်နှုန်းအနေဖြင့် သတ်မှတ်ထားသည်။ Origin (0,0) သည် ပုံ၏ အပေါ်ဘက် ဘယ်ဘက်ဖြစ်ပြီး top တန်ဖိုးသည် အပေါ်ဘက်မှ အကွာအဝေးကို ဖော်ပြသည်၊ bounding box ၏ အောက်ဘက်သည် top နှင့် height တန်ဖိုးကို ပေါင်းထားသည်။
 
-![Tomato paste ကန်တစ်ခု၏ bounding box](../../../../../translated_images/bounding-box.1420a7ea0d3d15f71e1ffb5cf4b2271d184fac051f990abc541975168d163684.my.png)
+![Tomato paste ကန်တစ်ခု၏ bounding box](../../../../../translated_images/my/bounding-box.1420a7ea0d3d15f71e1ffb5cf4b2271d184fac051f990abc541975168d163684.png)
 
 အထက်ပါပုံသည် 600 pixels အကျယ်နှင့် 800 pixels အမြင့်ရှိသည်။ Bounding box သည် 320 pixels အောက်တွင် စတင်ပြီး top coordinate သည် 0.4 (800 x 0.4 = 320) ဖြစ်သည်။ Bounding box သည် 240 pixels ဘယ်ဘက်တွင် စတင်ပြီး left coordinate သည် 0.4 (600 x 0.4 = 240) ဖြစ်သည်။ Bounding box ၏ height သည် 240 pixels ဖြစ်ပြီး height value သည် 0.3 (800 x 0.3 = 240) ဖြစ်သည်။ Bounding box ၏ width သည် 120 pixels ဖြစ်ပြီး width value သည် 0.2 (600 x 0.2 = 120) ဖြစ်သည်။
 
@@ -127,7 +127,7 @@ Percentage values (0-1) ကို အသုံးပြုခြင်းသည�
 
 Bounding boxes များကို probabilities နှင့် ပေါင်းစပ်၍ detection ၏ တိကျမှုကို အကဲဖြတ်နိုင်သည်။ ဥပမာအားဖြင့် object detector သည် တစ်ခုနှင့် တစ်ခု အပြိုင်ရှိသော object များကို detect လုပ်နိုင်သည်၊ ဥပမာအားဖြင့် တစ်ခု၏ bounding box အတွင်းတွင် တစ်ခုရှိနေသည်။ သင်၏ code သည် bounding boxes များကို စစ်ဆေးပြီး ဒါသည် မဖြစ်နိုင်ကြောင်းနားလည်ပြီး overlap အများကြီးရှိသော object များကို ပယ်ချနိုင်သည်။
 
-![Tomato paste ကန်တစ်ခုကို overlap လုပ်ထားသော bounding boxes နှစ်ခု](../../../../../translated_images/overlap-object-detection.d431e03cae75072a2760430eca7f2c5fdd43045bfd72dadcbf12711f7cd6c2ae.my.png)
+![Tomato paste ကန်တစ်ခုကို overlap လုပ်ထားသော bounding boxes နှစ်ခု](../../../../../translated_images/my/overlap-object-detection.d431e03cae75072a2760430eca7f2c5fdd43045bfd72dadcbf12711f7cd6c2ae.png)
 
 အထက်ပါဥပမာတွင် bounding box တစ်ခုသည် tomato paste ကန်တစ်ခုကို 78.3% probability ဖြင့် detect လုပ်ထားသည်။ ဒုတိယ bounding box သည် ပိုမိုသေးငယ်ပြီး ပထမ bounding box ၏ အတွင်းရှိနေပြီး probability သည် 64.3% ဖြစ်သည်။ သင်၏ code သည် bounding boxes များကို စစ်ဆေးပြီး overlap ဖြစ်နေကြောင်း တွေ့ရှိပြီး အနိမ့်ဆုံး probability ကို ပယ်ချနိုင်သည်။
 

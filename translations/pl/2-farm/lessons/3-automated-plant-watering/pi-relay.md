@@ -27,13 +27,13 @@ Przekaźnik Grove można podłączyć do Raspberry Pi.
 
 Podłącz przekaźnik.
 
-![Przekaźnik Grove](../../../../../translated_images/grove-relay.d426958ca210fbd0fb7983d7edc069d46c73a8b0a099d94797bd756f7b6bb6be.pl.png)
+![Przekaźnik Grove](../../../../../translated_images/pl/grove-relay.d426958ca210fbd0fb7983d7edc069d46c73a8b0a099d94797bd756f7b6bb6be.png)
 
 1. Włóż jeden koniec kabla Grove do gniazda w przekaźniku. Kabel wejdzie tylko w jednym kierunku.
 
 1. Przy wyłączonym Raspberry Pi podłącz drugi koniec kabla Grove do cyfrowego gniazda oznaczonego **D5** na Grove Base Hat zamontowanym na Pi. To gniazdo znajduje się drugie od lewej, w rzędzie gniazd obok pinów GPIO. Pozostaw czujnik wilgotności gleby podłączony do gniazda **A0**.
 
-![Przekaźnik Grove podłączony do gniazda D5, a czujnik wilgotności gleby podłączony do gniazda A0](../../../../../translated_images/pi-relay-and-soil-moisture-sensor.02f3198975b8c53e69ec716cd2719ce117700bd1fc933eaf93476c103c57939b.pl.png)
+![Przekaźnik Grove podłączony do gniazda D5, a czujnik wilgotności gleby podłączony do gniazda A0](../../../../../translated_images/pl/pi-relay-and-soil-moisture-sensor.02f3198975b8c53e69ec716cd2719ce117700bd1fc933eaf93476c103c57939b.png)
 
 1. Włóż czujnik wilgotności gleby do gleby, jeśli nie jest już tam z poprzedniej lekcji.
 

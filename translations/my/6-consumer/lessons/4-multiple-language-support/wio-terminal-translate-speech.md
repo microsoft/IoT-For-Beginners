@@ -114,7 +114,7 @@ Speech service REST API သည် တိုက်ရိုက် ဘာသာပ
     >
     > ဥပမာအားဖြင့် LUIS ကို အင်္ဂလိပ်ဘာသာဖြင့် သင်ကြားပြီး အသုံးပြုသူ ဘာသာစကားအဖြစ် ပြင်သစ်ကို အသုံးပြုလိုပါက Bing Translate ကို အသုံးပြု၍ "set a 2 minute and 27 second timer" ကဲ့သို့သော စာကြောင်းများကို အင်္ဂလိပ်မှ ပြင်သစ်သို့ ဘာသာပြန်နိုင်ပါသည်။ ထို့နောက် **Listen translation** ခလုတ်ကို အသုံးပြု၍ ဘာသာပြန်ထားသော စာသားကို သင့်မိုက်ခရိုဖုန်းထဲသို့ ပြောနိုင်ပါသည်။
     >
-    > ![Bing Translate တွင် Listen translation ခလုတ်](../../../../../translated_images/bing-translate.348aa796d6efe2a92f41ea74a5cf42bb4c63d6faaa08e7f46924e072a35daa48.my.png)
+    > ![Bing Translate တွင် Listen translation ခလုတ်](../../../../../translated_images/my/bing-translate.348aa796d6efe2a92f41ea74a5cf42bb4c63d6faaa08e7f46924e072a35daa48.png)
 
 1. `SPEECH_LOCATION` အောက်တွင် translator API key နှင့် location ကို ထည့်ပါ။
 

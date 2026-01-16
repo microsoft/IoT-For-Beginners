@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Interactie met de fysieke wereld met sensoren en actuatoren
 
-![Een schetsmatige samenvatting van deze les](../../../../../translated_images/lesson-3.cc3b7b4cd646de598698cce043c0393fd62ef42bac2eaf60e61272cd844250f4.nl.jpg)
+![Een schetsmatige samenvatting van deze les](../../../../../translated_images/nl/lesson-3.cc3b7b4cd646de598698cce043c0393fd62ef42bac2eaf60e61272cd844250f4.jpg)
 
 > Sketchnote door [Nitya Narasimhan](https://github.com/nitya). Klik op de afbeelding voor een grotere versie.
 
@@ -75,7 +75,7 @@ Sommige van de meest eenvoudige sensoren zijn analoge sensoren. Deze sensoren on
 
 Een voorbeeld hiervan is een potentiometer. Dit is een draaiknop die je kunt draaien tussen twee posities en de sensor meet de rotatie.
 
-![Een potentiometer ingesteld op een middenpositie die 5 volt ontvangt en 3,8 volt terugstuurt](../../../../../translated_images/potentiometer.35a348b9ce22f6ec.nl.png)
+![Een potentiometer ingesteld op een middenpositie die 5 volt ontvangt en 3,8 volt terugstuurt](../../../../../translated_images/nl/potentiometer.35a348b9ce22f6ec.png)
 
 Het IoT-apparaat stuurt een elektrisch signaal naar de potentiometer met een spanning, bijvoorbeeld 5 volt (5V). Naarmate de potentiometer wordt aangepast, verandert de spanning die aan de andere kant uitkomt. Stel je voor dat je een potentiometer hebt die is gelabeld als een draaiknop die gaat van 0 tot [11](https://wikipedia.org/wiki/Up_to_eleven), zoals een volumeknop op een versterker. Wanneer de potentiometer in de volledig uit-positie (0) staat, komt er 0V (0 volt) uit. Wanneer deze in de volledig aan-positie (11) staat, komt er 5V (5 volt) uit.
 
@@ -101,7 +101,7 @@ Digitale sensoren, net als analoge sensoren, detecteren de wereld om hen heen do
 
 De eenvoudigste digitale sensor is een knop of schakelaar. Dit is een sensor met twee toestanden, aan of uit.
 
-![Een knop ontvangt 5 volt. Wanneer niet ingedrukt, stuurt deze 0 volt terug; wanneer ingedrukt, stuurt deze 5 volt terug](../../../../../translated_images/button.eadb560b77ac45e56f523d9d8876e40444f63b419e33eb820082d461fa79490b.nl.png)
+![Een knop ontvangt 5 volt. Wanneer niet ingedrukt, stuurt deze 0 volt terug; wanneer ingedrukt, stuurt deze 5 volt terug](../../../../../translated_images/nl/button.eadb560b77ac45e56f523d9d8876e40444f63b419e33eb820082d461fa79490b.png)
 
 Pinnen op IoT-apparaten zoals GPIO-pinnen kunnen dit signaal direct meten als een 0 of 1. Als de spanning die wordt verzonden hetzelfde is als de spanning die wordt teruggestuurd, wordt de waarde gelezen als 1, anders wordt de waarde gelezen als 0. Er is geen noodzaak om het signaal te converteren, het kan alleen 1 of 0 zijn.
 
@@ -112,7 +112,7 @@ Pinnen op IoT-apparaten zoals GPIO-pinnen kunnen dit signaal direct meten als ee
 
 Meer geavanceerde digitale sensoren lezen analoge waarden en zetten deze vervolgens om met ingebouwde ADC's naar digitale signalen. Bijvoorbeeld, een digitale temperatuursensor zal nog steeds een thermokoppel gebruiken op dezelfde manier als een analoge sensor, en zal nog steeds de verandering in spanning meten die wordt veroorzaakt door de weerstand van het thermokoppel bij de huidige temperatuur. In plaats van een analoge waarde terug te sturen en te vertrouwen op het apparaat of connectorbord om deze om te zetten naar een digitaal signaal, zal een ADC ingebouwd in de sensor de waarde omzetten en deze als een reeks 0's en 1's naar het IoT-apparaat sturen. Deze 0's en 1's worden op dezelfde manier verzonden als het digitale signaal voor een knop, waarbij 1 volledige spanning is en 0 0V.
 
-![Een digitale temperatuursensor die een analoge meting omzet naar binaire gegevens met 0 als 0 volt en 1 als 5 volt voordat deze naar een IoT-apparaat wordt gestuurd](../../../../../translated_images/temperature-as-digital.85004491b977bae1.nl.png)
+![Een digitale temperatuursensor die een analoge meting omzet naar binaire gegevens met 0 als 0 volt en 1 als 5 volt voordat deze naar een IoT-apparaat wordt gestuurd](../../../../../translated_images/nl/temperature-as-digital.85004491b977bae1.png)
 
 Het verzenden van digitale gegevens stelt sensoren in staat om complexer te worden en meer gedetailleerde gegevens te verzenden, zelfs versleutelde gegevens voor beveiligde sensoren. Een voorbeeld hiervan is een camera. Dit is een sensor die een afbeelding vastlegt en deze verzendt als digitale gegevens die die afbeelding bevatten, meestal in een gecomprimeerd formaat zoals JPEG, om te worden gelezen door het IoT-apparaat. Het kan zelfs video streamen door afbeeldingen vast te leggen en ofwel het volledige beeld frame voor frame te verzenden of een gecomprimeerde videostream.
 
@@ -134,7 +134,7 @@ Enkele veelvoorkomende actuatoren zijn:
 
 Volg de relevante handleiding hieronder om een actuator toe te voegen aan je IoT-apparaat, aangestuurd door de sensor, om een IoT-nachtlampje te bouwen. Het zal lichtniveaus verzamelen van de lichtsensor en een actuator in de vorm van een LED gebruiken om licht uit te zenden wanneer het gedetecteerde lichtniveau te laag is.
 
-![Een stroomdiagram van de opdracht die laat zien hoe lichtniveaus worden gelezen en gecontroleerd, en de LED wordt aangestuurd](../../../../../translated_images/assignment-1-flow.7552a51acb1a5ec858dca6e855cdbb44206434006df8ba3799a25afcdab1665d.nl.png)
+![Een stroomdiagram van de opdracht die laat zien hoe lichtniveaus worden gelezen en gecontroleerd, en de LED wordt aangestuurd](../../../../../translated_images/nl/assignment-1-flow.7552a51acb1a5ec858dca6e855cdbb44206434006df8ba3799a25afcdab1665d.png)
 
 * [Arduino - Wio Terminal](wio-terminal-actuator.md)
 * [Single-board computer - Raspberry Pi](pi-actuator.md)
@@ -149,7 +149,7 @@ Net als sensoren zijn actuatoren ofwel analoog of digitaal.
 Analoge actuatoren nemen een analoog signaal en zetten dit om in een soort interactie, waarbij de interactie verandert afhankelijk van de spanning die wordt geleverd.
 
 Een voorbeeld hiervan is een dimbaar licht, zoals de lampen die je misschien in huis hebt. De hoeveelheid spanning die aan het licht wordt geleverd, bepaalt hoe helder het is.
-![Een licht gedimd bij een lage spanning en helderder bij een hogere spanning](../../../../../translated_images/dimmable-light.9ceffeb195dec1a849da718b2d71b32c35171ff7dfea9c07bbf82646a67acf6b.nl.png)
+![Een licht gedimd bij een lage spanning en helderder bij een hogere spanning](../../../../../translated_images/nl/dimmable-light.9ceffeb195dec1a849da718b2d71b32c35171ff7dfea9c07bbf82646a67acf6b.png)
 
 Net als bij sensoren werken IoT-apparaten met digitale signalen, niet met analoge. Dit betekent dat om een analoog signaal te verzenden, het IoT-apparaat een digitaal-naar-analoog converter (DAC) nodig heeft, ofwel direct op het IoT-apparaat, of op een aansluitbord. Dit converteert de 0'en en 1'en van het IoT-apparaat naar een analoge spanning die de actuator kan gebruiken.
 
@@ -164,7 +164,7 @@ Bijvoorbeeld, je kunt PWM gebruiken om de snelheid van een motor te regelen.
 
 Stel je voor dat je een motor bestuurt met een 5V voeding. Je stuurt een korte puls naar je motor, waarbij de spanning hoog wordt gezet (5V) gedurende twee honderdsten van een seconde (0,02s). In die tijd kan je motor een tiende van een rotatie maken, of 36°. Het signaal pauzeert vervolgens gedurende twee honderdsten van een seconde (0,02s), waarbij een laag signaal (0V) wordt verzonden. Elke cyclus van aan en uit duurt 0,04s. De cyclus herhaalt zich vervolgens.
 
-![Pulsbreedtemodulatie rotatie van een motor bij 150 RPM](../../../../../translated_images/pwm-motor-150rpm.83347ac04ca38482.nl.png)
+![Pulsbreedtemodulatie rotatie van een motor bij 150 RPM](../../../../../translated_images/nl/pwm-motor-150rpm.83347ac04ca38482.png)
 
 Dit betekent dat je in één seconde 25 pulsen van 5V hebt van 0,02s die de motor laten draaien, elk gevolgd door een pauze van 0,02s van 0V waarbij de motor niet draait. Elke puls draait de motor een tiende van een rotatie, wat betekent dat de motor 2,5 rotaties per seconde voltooit. Je hebt een digitaal signaal gebruikt om de motor te laten draaien met 2,5 rotaties per seconde, of 150 [omwentelingen per minuut](https://wikipedia.org/wiki/Revolutions_per_minute) (een niet-standaard maat voor rotatiesnelheid).
 
@@ -175,7 +175,7 @@ Dit betekent dat je in één seconde 25 pulsen van 5V hebt van 0,02s die de moto
 
 > 🎓 Wanneer een PWM-signaal de helft van de tijd aan is en de helft van de tijd uit, wordt dit een [50% duty cycle](https://wikipedia.org/wiki/Duty_cycle) genoemd. Duty cycles worden gemeten als het percentage tijd dat het signaal in de aan-stand is vergeleken met de uit-stand.
 
-![Pulsbreedtemodulatie rotatie van een motor bij 75 RPM](../../../../../translated_images/pwm-motor-75rpm.a5e4c939934b6e14.nl.png)
+![Pulsbreedtemodulatie rotatie van een motor bij 75 RPM](../../../../../translated_images/nl/pwm-motor-75rpm.a5e4c939934b6e14.png)
 
 Je kunt de motorsnelheid veranderen door de grootte van de pulsen te wijzigen. Bijvoorbeeld, met dezelfde motor kun je dezelfde cyclustijd van 0,04s behouden, waarbij de aan-puls wordt gehalveerd tot 0,01s en de uit-puls toeneemt tot 0,03s. Je hebt hetzelfde aantal pulsen per seconde (25), maar elke aan-puls is de helft zo lang. Een halve lengte puls draait de motor slechts een twintigste van een rotatie, en bij 25 pulsen per seconde voltooit de motor 1,25 rotaties per seconde of 75rpm. Door de pulsduur van een digitaal signaal te veranderen, heb je de snelheid van een analoge motor gehalveerd.
 
@@ -196,7 +196,7 @@ Digitale actuatoren, net als digitale sensoren, hebben ofwel twee toestanden die
 
 Een eenvoudige digitale actuator is een LED. Wanneer een apparaat een digitaal signaal van 1 verzendt, wordt een hoge spanning verzonden die de LED laat oplichten. Wanneer een digitaal signaal van 0 wordt verzonden, daalt de spanning naar 0V en gaat de LED uit.
 
-![Een LED is uit bij 0 volt en aan bij 5V](../../../../../translated_images/led.ec6d94f66676a174ad06d9fa9ea49c2ee89beb18b312d5c6476467c66375b07f.nl.png)
+![Een LED is uit bij 0 volt en aan bij 5V](../../../../../translated_images/nl/led.ec6d94f66676a174ad06d9fa9ea49c2ee89beb18b312d5c6476467c66375b07f.png)
 
 ✅ Welke andere eenvoudige 2-toestandsactuatoren kun je bedenken? Een voorbeeld is een solenoïde, een elektromagneet die kan worden geactiveerd om dingen te doen zoals een deurgrendel verplaatsen om een deur te vergrendelen/ontgrendelen.
 

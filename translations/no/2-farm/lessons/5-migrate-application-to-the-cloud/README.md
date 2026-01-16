@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Flytt applikasjonslogikken din til skyen
 
-![En sketchnote-oversikt over denne leksjonen](../../../../../translated_images/lesson-9.dfe99c8e891f48e179724520da9f5794392cf9a625079281ccdcbf09bd85e1b6.no.jpg)
+![En sketchnote-oversikt over denne leksjonen](../../../../../translated_images/no/lesson-9.dfe99c8e891f48e179724520da9f5794392cf9a625079281ccdcbf09bd85e1b6.jpg)
 
 > Sketchnote av [Nitya Narasimhan](https://github.com/nitya). Klikk på bildet for en større versjon.
 
@@ -37,11 +37,11 @@ I denne leksjonen dekker vi:
 
 Serverløst, eller serverløs databehandling, innebærer å lage små kodeblokker som kjøres i skyen som respons på ulike typer hendelser. Når hendelsen oppstår, kjøres koden din, og den får data om hendelsen. Disse hendelsene kan komme fra mange forskjellige kilder, inkludert webforespørsler, meldinger lagt på en kø, endringer i data i en database, eller meldinger sendt til en IoT-tjeneste av IoT-enheter.
 
-![Hendelser som sendes fra en IoT-tjeneste til en serverløs tjeneste, alle behandles samtidig av flere funksjoner som kjøres](../../../../../translated_images/iot-messages-to-serverless.0194da1cc0732bb7d0f823aed3fce54735c6b1ad3bf36089804d8aaefc0a774f.no.png)
+![Hendelser som sendes fra en IoT-tjeneste til en serverløs tjeneste, alle behandles samtidig av flere funksjoner som kjøres](../../../../../translated_images/no/iot-messages-to-serverless.0194da1cc0732bb7d0f823aed3fce54735c6b1ad3bf36089804d8aaefc0a774f.png)
 
 > 💁 Hvis du har brukt databasetriggere før, kan du tenke på dette som det samme: kode som trigges av en hendelse, som å sette inn en rad.
 
-![Når mange hendelser sendes samtidig, skalerer den serverløse tjenesten opp for å kjøre dem alle samtidig](../../../../../translated_images/serverless-scaling.f8c769adf0413fd1.no.png)
+![Når mange hendelser sendes samtidig, skalerer den serverløse tjenesten opp for å kjøre dem alle samtidig](../../../../../translated_images/no/serverless-scaling.f8c769adf0413fd1.png)
 
 Koden din kjøres kun når hendelsen oppstår, og det er ingenting som holder koden din aktiv på andre tidspunkter. Hendelsen oppstår, koden din lastes og kjøres. Dette gjør serverløst svært skalerbart – hvis mange hendelser oppstår samtidig, kan skyleverandøren kjøre funksjonen din så mange ganger som nødvendig samtidig på tvers av tilgjengelige servere. Ulempen med dette er at hvis du trenger å dele informasjon mellom hendelser, må du lagre den et sted, som i en database, i stedet for å lagre den i minnet.
 
@@ -63,7 +63,7 @@ Som IoT-utvikler er den serverløse modellen ideell. Du kan skrive en funksjon s
 
 Den serverløse databehandlingstjenesten fra Microsoft kalles Azure Functions.
 
-![Azure Functions-logoen](../../../../../translated_images/azure-functions-logo.1cfc8e3204c9c44aaf80fcf406fc8544d80d7f00f8d3e8ed6fed764563e17564.no.png)
+![Azure Functions-logoen](../../../../../translated_images/no/azure-functions-logo.1cfc8e3204c9c44aaf80fcf406fc8544d80d7f00f8d3e8ed6fed764563e17564.png)
 
 Den korte videoen nedenfor gir en oversikt over Azure Functions.
 
@@ -244,7 +244,7 @@ Azure Functions CLI kan brukes til å opprette en ny funksjonsapp.
     VS Code. Initialize for optimal use with VS Code?
     ```
 
-    ![Varslingen](../../../../../translated_images/vscode-azure-functions-init-notification.bd19b49229963edb.no.png)
+    ![Varslingen](../../../../../translated_images/no/vscode-azure-functions-init-notification.bd19b49229963edb.png)
 
     Velg **Yes** fra denne varslingen.
 

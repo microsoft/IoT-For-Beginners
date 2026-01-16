@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Ondersteuning voor meerdere talen
 
-![Een schetsnotitie-overzicht van deze les](../../../../../translated_images/lesson-24.4246968ed058510ab275052e87ef9aa89c7b2f938915d103c605c04dc6cd5bb7.nl.jpg)
+![Een schetsnotitie-overzicht van deze les](../../../../../translated_images/nl/lesson-24.4246968ed058510ab275052e87ef9aa89c7b2f938915d103c605c04dc6cd5bb7.jpg)
 
 > Schetsnotitie door [Nitya Narasimhan](https://github.com/nitya). Klik op de afbeelding voor een grotere versie.
 
@@ -83,7 +83,7 @@ Er zijn een aantal AI-diensten die vanuit je applicaties kunnen worden gebruikt 
 
 ### Cognitive Services Spraakservice
 
-![Het logo van de spraakservice](../../../../../translated_images/azure-speech-logo.a1f08c4befb0159f2cb5d692d3baf5b599e7b44759d316da907bda1508f46a4a.nl.png)
+![Het logo van de spraakservice](../../../../../translated_images/nl/azure-speech-logo.a1f08c4befb0159f2cb5d692d3baf5b599e7b44759d316da907bda1508f46a4a.png)
 
 De spraakservice die je in de afgelopen lessen hebt gebruikt, heeft vertaalmogelijkheden voor spraakherkenning. Wanneer je spraak herkent, kun je niet alleen de tekst van de spraak in dezelfde taal opvragen, maar ook in andere talen.
 
@@ -91,7 +91,7 @@ De spraakservice die je in de afgelopen lessen hebt gebruikt, heeft vertaalmogel
 
 ### Cognitive Services Vertaler-service
 
-![Het logo van de vertaler-service](../../../../../translated_images/azure-translator-logo.c6ed3a4a433edfd2f11577eca105412c50b8396b194cbbd730723dd1d0793bcd.nl.png)
+![Het logo van de vertaler-service](../../../../../translated_images/nl/azure-translator-logo.c6ed3a4a433edfd2f11577eca105412c50b8396b194cbbd730723dd1d0793bcd.png)
 
 De Vertaler-service is een speciale vertaaldienst die tekst van de ene taal naar een of meer doeltalen kan vertalen. Naast vertalen ondersteunt het een breed scala aan extra functies, waaronder het maskeren van ongepaste taal. Het stelt je ook in staat om een specifieke vertaling voor een bepaald woord of een bepaalde zin te leveren, om te werken met termen die je niet wilt vertalen, of om een specifieke, bekende vertaling te gebruiken.
 
@@ -130,7 +130,7 @@ Voor deze les heb je een Vertaler-resource nodig. Je zult de REST API gebruiken 
 
 In een ideale wereld zou je hele applicatie zoveel mogelijk verschillende talen moeten begrijpen, van luisteren naar spraak, tot taalbegrip, tot reageren met spraak. Dit is veel werk, dus vertaaldiensten kunnen de tijd tot levering van je applicatie versnellen.
 
-![Een slimme timer-architectuur die Japans naar Engels vertaalt, verwerkt in Engels en vervolgens terug vertaalt naar Japans](../../../../../translated_images/translated-smart-timer.08ac20057fdc5c37.nl.png)
+![Een slimme timer-architectuur die Japans naar Engels vertaalt, verwerkt in Engels en vervolgens terug vertaalt naar Japans](../../../../../translated_images/nl/translated-smart-timer.08ac20057fdc5c37.png)
 
 Stel je voor dat je een slimme timer bouwt die volledig in het Engels werkt, waarbij gesproken Engels wordt begrepen en omgezet in tekst, taalbegrip in het Engels wordt uitgevoerd, reacties in het Engels worden opgebouwd en wordt gereageerd met Engelse spraak. Als je ondersteuning voor Japans wilt toevoegen, kun je beginnen met het vertalen van gesproken Japans naar Engelse tekst, vervolgens de kern van de applicatie hetzelfde houden, en dan de reactietekst naar Japans vertalen voordat je de reactie uitspreekt. Dit zou je in staat stellen om snel ondersteuning voor Japans toe te voegen, en je kunt later uitbreiden naar volledige end-to-end ondersteuning voor Japans.
 

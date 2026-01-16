@@ -13,7 +13,7 @@ En kombinasjon av prediksjonene og deres avgrensningsbokser kan brukes til å te
 
 ## Tell varer
 
-![4 bokser med tomatpuré med avgrensningsbokser rundt hver boks](../../../../../translated_images/rpi-stock-with-bounding-boxes.b5540e2ecb7cd49f.no.jpg)
+![4 bokser med tomatpuré med avgrensningsbokser rundt hver boks](../../../../../translated_images/no/rpi-stock-with-bounding-boxes.b5540e2ecb7cd49f.jpg)
 
 I bildet vist ovenfor har avgrensningsboksene en liten overlapping. Hvis denne overlappingen var mye større, kunne avgrensningsboksene indikert det samme objektet. For å telle objektene riktig, må du ignorere bokser med betydelig overlapping.
 

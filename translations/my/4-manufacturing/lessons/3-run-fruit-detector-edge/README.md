@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # သင့်အသီးရှာဖွေစက်ကို Edge ပေါ်တွင် အလုပ်လုပ်စေပါ
 
-![ဒီသင်ခန်းစာ၏ အကျဉ်းချုပ်ကို Sketchnote](../../../../../translated_images/lesson-17.bc333c3c35ba8e42cce666cfffa82b915f787f455bd94e006aea2b6f2722421a.my.jpg)
+![ဒီသင်ခန်းစာ၏ အကျဉ်းချုပ်ကို Sketchnote](../../../../../translated_images/my/lesson-17.bc333c3c35ba8e42cce666cfffa82b915f787f455bd94e006aea2b6f2722421a.jpg)
 
 > Sketchnote ကို [Nitya Narasimhan](https://github.com/nitya) မှရေးသားထားသည်။ ပုံကို click လုပ်ပြီး အကြီးအရွယ်ကို ကြည့်ပါ။
 
@@ -42,11 +42,11 @@ CO_OP_TRANSLATOR_METADATA:
 
 Edge computing သည် IoT ဒေတာကို ဒေတာထွက်ရှိသောနေရာအနီးဆုံးတွင် process လုပ်ခြင်းဖြစ်သည်။ Cloud တွင် အလုပ်လုပ်စေခြင်းမဟုတ်ဘဲ၊ cloud edge - သင့် internal network ပေါ်သို့ ပြောင်းရွှေ့ခြင်းဖြစ်သည်။
 
-![Cloud တွင် internet services နှင့် local network ပေါ်ရှိ IoT စက်ပစ္စည်းများကို ဖော်ပြထားသော architecture diagram](../../../../../translated_images/cloud-without-edge.b4da641f6022c95ed6b91fde8b5323abd2f94e0d52073ad54172ae8f5dac90e9.my.png)
+![Cloud တွင် internet services နှင့် local network ပေါ်ရှိ IoT စက်ပစ္စည်းများကို ဖော်ပြထားသော architecture diagram](../../../../../translated_images/my/cloud-without-edge.b4da641f6022c95ed6b91fde8b5323abd2f94e0d52073ad54172ae8f5dac90e9.png)
 
 ယခင်သင်ခန်းစာများတွင် သင်သည် စက်ပစ္စည်းများမှ ဒေတာကို စုဆောင်းပြီး cloud သို့ ပို့ကာ serverless functions သို့မဟုတ် AI မော်ဒယ်များကို cloud တွင် အလုပ်လုပ်စေခဲ့ပါသည်။
 
-![Local network ပေါ်ရှိ IoT စက်ပစ္စည်းများသည် edge စက်ပစ္စည်းများနှင့် ချိတ်ဆက်ထားပြီး၊ edge စက်ပစ္စည်းများသည် cloud နှင့် ချိတ်ဆက်ထားသော architecture diagram](../../../../../translated_images/cloud-with-edge.1e26462c62c126fe150bd15a5714ddf0be599f09bacbad08b85be02b76ea1ae1.my.png)
+![Local network ပေါ်ရှိ IoT စက်ပစ္စည်းများသည် edge စက်ပစ္စည်းများနှင့် ချိတ်ဆက်ထားပြီး၊ edge စက်ပစ္စည်းများသည် cloud နှင့် ချိတ်ဆက်ထားသော architecture diagram](../../../../../translated_images/my/cloud-with-edge.1e26462c62c126fe150bd15a5714ddf0be599f09bacbad08b85be02b76ea1ae1.png)
 
 Edge computing သည် cloud services အချို့ကို cloud မှ ပြောင်းရွှေ့ကာ IoT စက်ပစ္စည်းများနှင့် network တူသော စက်ပစ္စည်းများပေါ်တွင် အလုပ်လုပ်စေခြင်းဖြစ်သည်။ ဥပမာအားဖြင့်၊ သင်သည် AI မော်ဒယ်များကို edge စက်ပစ္စည်းများပေါ်တွင် အလုပ်လုပ်စေကာ အသီးအနုစိတ်ကို ခွဲခြားနိုင်ပြီး၊ cloud သို့ analytics ပို့ရန်သာ လိုအပ်သည်။
 
@@ -88,7 +88,7 @@ IoT စနစ်များအတွက် Cloud နှင့် Edge computing
 
 ## Azure IoT Edge
 
-![Azure IoT Edge logo](../../../../../translated_images/azure-iot-edge-logo.c1c076749b5cba2e8755262fadc2f19ca1146b948d76990b1229199ac2292d79.my.png)
+![Azure IoT Edge logo](../../../../../translated_images/my/azure-iot-edge-logo.c1c076749b5cba2e8755262fadc2f19ca1146b948d76990b1229199ac2292d79.png)
 
 Azure IoT Edge သည် workload များကို cloud မှ edge သို့ ပြောင်းရွှေ့ရန် ကူညီပေးသော service ဖြစ်သည်။ Edge device တစ်ခုကို setup လုပ်ပြီး cloud မှ code ကို edge device သို့ deploy လုပ်နိုင်သည်။
 
@@ -102,7 +102,7 @@ IoT Edge သည် IoT Hub တွင် built-in ဖြစ်ပြီး၊ IoT
 
 IoT Edge သည် *containers* မှ code ကို run လုပ်သည်။ Container သည် computer ပေါ်တွင် အခြား application များနှင့် isolation ဖြစ်စေသော self-contained application ဖြစ်သည်။
 
-![Container ပေါ်ရှိ web request](../../../../../translated_images/container-web-browser.4ee81dd4f0d8838ce622b2a0d600b6a4322b5d4fe43159facd87b7b34f84d66a.my.png)
+![Container ပေါ်ရှိ web request](../../../../../translated_images/my/container-web-browser.4ee81dd4f0d8838ce622b2a0d600b6a4322b5d4fe43159facd87b7b34f84d66a.png)
 
 ဥပမာအားဖြင့်၊ port 80 ပေါ်တွင် web site တစ်ခုကို container မှ run လုပ်နိုင်ပြီး၊ computer ပေါ်တွင် port 80 ကို expose လုပ်နိုင်သည်။
 
@@ -196,11 +196,11 @@ Model ကိုလေ့ကျင့်ပြီးပါက container အဖြ
 
 ## Container ကို deployment အတွက် ပြင်ဆင်ပါ
 
-![Containers are built then pushed to a container registry, then deployed from the container registry to an edge device using IoT Edge](../../../../../translated_images/container-edge-flow.c246050dd60ceefdb6ace026a4ce5c6aa4112bb5898ae23fbb2ab4be29ae3e1b.my.png)
+![Containers are built then pushed to a container registry, then deployed from the container registry to an edge device using IoT Edge](../../../../../translated_images/my/container-edge-flow.c246050dd60ceefdb6ace026a4ce5c6aa4112bb5898ae23fbb2ab4be29ae3e1b.png)
 
 Model ကို download လုပ်ပြီးပါက container အဖြစ် build လုပ်ပြီး container registry သို့ push လုပ်ရန်လိုအပ်ပါသည်။ Container registry သည် container များကိုသိမ်းဆည်းထားနိုင်သော online location ဖြစ်သည်။ IoT Edge သည် registry မှ container ကို download လုပ်ပြီး device သို့ push လုပ်နိုင်ပါသည်။
 
-![Azure Container Registry logo](../../../../../translated_images/azure-container-registry-logo.09494206991d4b295025ebff7d4e2900325e527a59184ffbc8464b6ab59654be.my.png)
+![Azure Container Registry logo](../../../../../translated_images/my/azure-container-registry-logo.09494206991d4b295025ebff7d4e2900325e527a59184ffbc8464b6ab59654be.png)
 
 ဒီသင်ခန်းစာအတွက် အသုံးပြုမည့် container registry သည် Azure Container Registry ဖြစ်သည်။ ဒါဟာ အခမဲ့ဝန်ဆောင်မှုမဟုတ်သောကြောင့် သင့်ရဲ့ project ကိုပြီးဆုံးပြီးပါက [clean up your project](../../../clean-up.md) လုပ်ရန် သေချာပါစေ။
 

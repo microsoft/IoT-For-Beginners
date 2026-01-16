@@ -25,13 +25,13 @@ CO_OP_TRANSLATOR_METADATA:
 
 အလင်း sensor ကို ချိတ်ဆက်ပါ။
 
-![A grove light sensor](../../../../../translated_images/grove-light-sensor.b8127b7c434e632d6bcdb57587a14e9ef69a268a22df95d08628f62b8fa5505c.my.png)
+![A grove light sensor](../../../../../translated_images/my/grove-light-sensor.b8127b7c434e632d6bcdb57587a14e9ef69a268a22df95d08628f62b8fa5505c.png)
 
 1. Grove cable ရဲ့ တစ်ဖက်အဆုံးကို အလင်း sensor module ရဲ့ socket ထဲသို့ ထည့်ပါ။ ဒီ cable က တစ်ဖက်ဘက်သာ အဆင်ပြေစွာ ထည့်နိုင်ပါမယ်။
 
 1. Raspberry Pi ကို power ပိတ်ထားပြီး Grove cable ရဲ့ တစ်ဖက်အဆုံးကို Grove Base hat ရဲ့ analog socket **A0** မှာ ချိတ်ဆက်ပါ။ ဒီ socket က GPIO pins အနီးမှာရှိတဲ့ socket row ရဲ့ ညာဘက် ဒုတိယ socket ဖြစ်ပါတယ်။
 
-![The grove light sensor connected to socket A0](../../../../../translated_images/pi-light-sensor.66cc1e31fa48cd7d5f23400d4b2119aa41508275cb7c778053a7923b4e972d7e.my.png)
+![The grove light sensor connected to socket A0](../../../../../translated_images/my/pi-light-sensor.66cc1e31fa48cd7d5f23400d4b2119aa41508275cb7c778053a7923b4e972d7e.png)
 
 ## အလင်း sensor ကို အစီအစဉ်ရေးဆွဲပါ
 

@@ -47,11 +47,11 @@ Voeg de GPS-sensor toe aan de CounterFit-app.
 
     1. Selecteer de knop **Add** om de GPS-sensor aan te maken op poort `/dev/ttyAMA0`.
 
-    ![De GPS-sensorinstellingen](../../../../../translated_images/counterfit-create-gps-sensor.6385dc9357d85ad1d47b4abb2525e7651fd498917d25eefc5a72feab09eedc70.nl.png)
+    ![De GPS-sensorinstellingen](../../../../../translated_images/nl/counterfit-create-gps-sensor.6385dc9357d85ad1d47b4abb2525e7651fd498917d25eefc5a72feab09eedc70.png)
 
     De GPS-sensor wordt aangemaakt en verschijnt in de sensorenlijst.
 
-    ![De GPS-sensor aangemaakt](../../../../../translated_images/counterfit-gps-sensor.3fbb15af0a5367566f2f11324ef5a6f30861cdf2b497071a5e002b7aa473550e.nl.png)
+    ![De GPS-sensor aangemaakt](../../../../../translated_images/nl/counterfit-gps-sensor.3fbb15af0a5367566f2f11324ef5a6f30861cdf2b497071a5e002b7aa473550e.png)
 
 ## Programmeer de GPS-sensor
 
@@ -111,17 +111,17 @@ Programmeur de GPS-sensor-app.
 
     * Stel de **Source** in op `Lat/Lon` en stel een specifieke breedtegraad, lengtegraad en aantal satellieten in die worden gebruikt om de GPS-fix te krijgen. Deze waarde wordt slechts één keer verzonden, dus vink het vakje **Repeat** aan om de gegevens elke seconde te herhalen.
 
-      ![De GPS-sensor met lat lon geselecteerd](../../../../../translated_images/counterfit-gps-sensor-latlon.008c867d75464fbe7f84107cc57040df565ac07cb57d2f21db37d087d470197d.nl.png)
+      ![De GPS-sensor met lat lon geselecteerd](../../../../../translated_images/nl/counterfit-gps-sensor-latlon.008c867d75464fbe7f84107cc57040df565ac07cb57d2f21db37d087d470197d.png)
 
     * Stel de **Source** in op `NMEA` en voeg enkele NMEA-zinnen toe in het tekstvak. Al deze waarden worden verzonden, met een vertraging van 1 seconde voordat elke nieuwe GGA (positie-fix) zin kan worden gelezen.
 
-      ![De GPS-sensor met NMEA-zinnen ingesteld](../../../../../translated_images/counterfit-gps-sensor-nmea.c62eea442171e17e19528b051b104cfcecdc9cd18db7bc72920f29821ae63f73.nl.png)
+      ![De GPS-sensor met NMEA-zinnen ingesteld](../../../../../translated_images/nl/counterfit-gps-sensor-nmea.c62eea442171e17e19528b051b104cfcecdc9cd18db7bc72920f29821ae63f73.png)
 
       Je kunt een tool zoals [nmeagen.org](https://www.nmeagen.org) gebruiken om deze zinnen te genereren door op een kaart te tekenen. Deze waarden worden slechts één keer verzonden, dus vink het vakje **Repeat** aan om de gegevens één seconde na verzending opnieuw te laten herhalen.
 
     * Stel de **Source** in op GPX-bestand en upload een GPX-bestand met tracklocaties. Je kunt GPX-bestanden downloaden van een aantal populaire kaart- en wandelwebsites, zoals [AllTrails](https://www.alltrails.com/). Deze bestanden bevatten meerdere GPS-locaties als een route, en de GPS-sensor retourneert elke nieuwe locatie met intervallen van 1 seconde.
 
-      ![De GPS-sensor met een GPX-bestand ingesteld](../../../../../translated_images/counterfit-gps-sensor-gpxfile.8310b063ce8a425ccc8ebeec8306aeac5e8e55207f007d52c6e1194432a70cd9.nl.png)
+      ![De GPS-sensor met een GPX-bestand ingesteld](../../../../../translated_images/nl/counterfit-gps-sensor-gpxfile.8310b063ce8a425ccc8ebeec8306aeac5e8e55207f007d52c6e1194432a70cd9.png)
 
       Deze waarden worden slechts één keer verzonden, dus vink het vakje **Repeat** aan om de gegevens één seconde na verzending opnieuw te laten herhalen.
 

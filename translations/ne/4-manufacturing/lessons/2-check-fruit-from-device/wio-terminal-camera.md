@@ -25,11 +25,11 @@ ArduCam सँग Grove सकेट छैन, यसको सट्टा य
 
 क्यामेरा जडान गर्नुहोस्।
 
-![ArduCam सेन्सर](../../../../../translated_images/arducam.20e4e4cbb268296570b5914e20d6c349fc42ddac9ed4e1b9deba2188204eebae.ne.png)
+![ArduCam सेन्सर](../../../../../translated_images/ne/arducam.20e4e4cbb268296570b5914e20d6c349fc42ddac9ed4e1b9deba2188204eebae.png)
 
 1. ArduCam को आधारमा रहेका पिनहरू Wio Terminal का GPIO पिनहरूसँग जडान गर्नुपर्छ। सही पिनहरू पत्ता लगाउन सजिलो बनाउन, Wio Terminal सँग आउने GPIO पिन स्टिकरलाई पिनहरूको वरिपरि टाँस्नुहोस्:
 
-    ![GPIO पिन स्टिकर भएको Wio Terminal](../../../../../translated_images/wio-terminal-pin-sticker.b90b1535937b84bd.ne.png)
+    ![GPIO पिन स्टिकर भएको Wio Terminal](../../../../../translated_images/ne/wio-terminal-pin-sticker.b90b1535937b84bd.png)
 
 1. जम्पर तारहरूको प्रयोग गरेर, निम्न जडानहरू गर्नुहोस्:
 
@@ -44,7 +44,7 @@ ArduCam सँग Grove सकेट छैन, यसको सट्टा य
     | SDA         | 3 (I2C1_SDA)     | I2C सिरियल डाटा                        |
     | SCL         | 5 (I2C1_SCL)     | I2C सिरियल क्लक                        |
 
-    ![जम्पर तारहरूसँग Wio Terminal र ArduCam जडान गरिएको](../../../../../translated_images/arducam-wio-terminal-connections.a4d5a4049bdb5ab800a2877389fc6ecf5e4ff307e6451ff56c517e6786467d0a.ne.png)
+    ![जम्पर तारहरूसँग Wio Terminal र ArduCam जडान गरिएको](../../../../../translated_images/ne/arducam-wio-terminal-connections.a4d5a4049bdb5ab800a2877389fc6ecf5e4ff307e6451ff56c517e6786467d0a.png)
 
     GND र VCC जडानहरूले ArduCam लाई 5V पावर सप्लाई प्रदान गर्छ। यो 5V मा चल्छ, जबकि Grove सेन्सरहरू 3V मा चल्छन्। यो पावर USB-C जडानबाट सिधै आउँछ जसले उपकरणलाई पावर दिन्छ।
 
@@ -297,7 +297,7 @@ ArduCam सँग Grove सकेट छैन, यसको सट्टा य
 
 1. माइक्रोकन्ट्रोलरहरूले तपाईंको कोड निरन्तर चलाउँछन्, त्यसैले तस्बिर खिच्ने जस्तो कार्य ट्रिगर गर्न सेन्सरको प्रतिक्रिया आवश्यक पर्छ। Wio Terminal सँग बटनहरू छन्, त्यसैले क्यामेरालाई यी बटनहरूमध्ये एकले ट्रिगर गर्न सकिन्छ। `setup` फंक्शनको अन्त्यमा निम्न कोड थप्नुहोस्:
 
-    ![पावर स्विच नजिकको C बटन](../../../../../translated_images/wio-terminal-c-button.73df3cb1c1445ea0.ne.png)
+    ![पावर स्विच नजिकको C बटन](../../../../../translated_images/ne/wio-terminal-c-button.73df3cb1c1445ea0.png)
 
     ```cpp
     pinMode(WIO_KEY_C, INPUT_PULLUP);
@@ -465,7 +465,7 @@ Wio Terminal ले 16GB सम्मका माइक्रोSD कार्
 
 1. माइक्रोSD कार्डलाई पावर अफ गर्नुहोस् र यसलाई हल्का धकेल्दै र छोडेर बाहिर निकाल्नुहोस्। यसले बाहिर निस्कनेछ। तपाईंलाई यसलाई निकाल्न पातलो उपकरणको आवश्यकता पर्न सक्छ। माइक्रोSD कार्डलाई आफ्नो कम्प्युटरमा प्लग गरेर तस्बिरहरू हेर्नुहोस्।
 
-    ![ArduCam प्रयोग गरेर खिचिएको केरा](../../../../../translated_images/banana-arducam.be1b32d4267a8194b0fd042362e56faa431da9cd4af172051b37243ea9be0256.ne.jpg)
+    ![ArduCam प्रयोग गरेर खिचिएको केरा](../../../../../translated_images/ne/banana-arducam.be1b32d4267a8194b0fd042362e56faa431da9cd4af172051b37243ea9be0256.jpg)
 💁 क्यामेराको सेतो सन्तुलन समायोजन गर्न केही तस्वीरहरू लाग्न सक्छ। तपाईंले यो समायोजन तस्वीरहरूको रंगको आधारमा देख्न सक्नुहुन्छ, पहिलो केही तस्वीरहरू रंगमा फरक देखिन सक्छ। तपाईंले सधैं यसलाई समायोजन गर्न कोड परिवर्तन गरेर `setup` फङ्सनमा केही तस्वीरहरू कैद गर्न सक्नुहुन्छ जुन बेवास्ता गरिन्छ।
 
 

@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 [Seeed Studios ਦਾ ਵਾਇਓ ਟਰਮੀਨਲ](https://www.seeedstudio.com/Wio-Terminal-p-4509.html) ਇੱਕ Arduino-ਅਨੁਕੂਲ ਮਾਈਕ੍ਰੋਕੰਟਰੋਲਰ ਹੈ, ਜਿਸ ਵਿੱਚ WiFi ਅਤੇ ਕੁਝ ਸੈਂਸਰ ਅਤੇ ਐਕਚੁਏਟਰ ਬਣੇ ਹੋਏ ਹਨ। ਇਸ ਵਿੱਚ ਹੋਰ ਸੈਂਸਰ ਅਤੇ ਐਕਚੁਏਟਰ ਜੋੜਨ ਲਈ ਪੋਰਟ ਹਨ, ਜੋ ਕਿ [Grove](https://www.seeedstudio.com/category/Grove-c-1003.html) ਨਾਂਕ ਦੇ ਹਾਰਡਵੇਅਰ ਈਕੋਸਿਸਟਮ ਦੀ ਵਰਤੋਂ ਕਰਦੇ ਹਨ।
 
-![Seeed Studios ਦਾ ਵਾਇਓ ਟਰਮੀਨਲ](../../../../../translated_images/wio-terminal.b8299ee16587db9a.pa.png)
+![Seeed Studios ਦਾ ਵਾਇਓ ਟਰਮੀਨਲ](../../../../../translated_images/pa/wio-terminal.b8299ee16587db9a.png)
 
 ## ਸੈਟਅਪ
 
@@ -51,15 +51,15 @@ PlatformIO ਪ੍ਰੋਜੈਕਟ ਬਣਾਓ।
 
 1. PlatformIO ਆਈਕਨ ਸਾਈਡ ਮੈਨੂ ਬਾਰ 'ਤੇ ਹੋਵੇਗਾ:
 
-    ![Platform IO ਮੈਨੂ ਵਿਕਲਪ](../../../../../translated_images/vscode-platformio-menu.297be26b9733e5c4.pa.png)
+    ![Platform IO ਮੈਨੂ ਵਿਕਲਪ](../../../../../translated_images/pa/vscode-platformio-menu.297be26b9733e5c4.png)
 
     ਇਸ ਮੈਨੂ ਆਈਟਮ ਨੂੰ ਚੁਣੋ, ਫਿਰ *PIO Home -> Open* ਚੁਣੋ
 
-    ![Platform IO ਓਪਨ ਵਿਕਲਪ](../../../../../translated_images/vscode-platformio-home-open.3f9a41bfd3f4da1c.pa.png)
+    ![Platform IO ਓਪਨ ਵਿਕਲਪ](../../../../../translated_images/pa/vscode-platformio-home-open.3f9a41bfd3f4da1c.png)
 
 1. ਵੈਲਕਮ ਸਕ੍ਰੀਨ ਤੋਂ **+ New Project** ਬਟਨ ਚੁਣੋ
 
-    ![ਨਵਾਂ ਪ੍ਰੋਜੈਕਟ ਬਟਨ](../../../../../translated_images/vscode-platformio-welcome-new-button.ba6fc8a4c7b78cc8.pa.png)
+    ![ਨਵਾਂ ਪ੍ਰੋਜੈਕਟ ਬਟਨ](../../../../../translated_images/pa/vscode-platformio-welcome-new-button.ba6fc8a4c7b78cc8.png)
 
 1. *Project Wizard* ਵਿੱਚ ਪ੍ਰੋਜੈਕਟ ਨੂੰ ਕਨਫਿਗਰ ਕਰੋ:
 
@@ -73,7 +73,7 @@ PlatformIO ਪ੍ਰੋਜੈਕਟ ਬਣਾਓ।
 
     1. **Finish** ਬਟਨ ਚੁਣੋ
 
-    ![ਪੂਰਾ ਕੀਤਾ ਪ੍ਰੋਜੈਕਟ ਵਿਜ਼ਾਰਡ](../../../../../translated_images/vscode-platformio-nightlight-project-wizard.5c64db4da6037420.pa.png)
+    ![ਪੂਰਾ ਕੀਤਾ ਪ੍ਰੋਜੈਕਟ ਵਿਜ਼ਾਰਡ](../../../../../translated_images/pa/vscode-platformio-nightlight-project-wizard.5c64db4da6037420.png)
 
     PlatformIO ਉਹ ਕੰਪੋਨੈਂਟ ਡਾਊਨਲੋਡ ਕਰੇਗਾ ਜੋ ਵਾਇਓ ਟਰਮੀਨਲ ਲਈ ਕੋਡ ਕੰਪਾਇਲ ਕਰਨ ਲਈ ਲੋੜੀਂਦੇ ਹਨ ਅਤੇ ਤੁਹਾਡੇ ਪ੍ਰੋਜੈਕਟ ਨੂੰ ਬਣਾਏਗਾ। ਇਸ ਵਿੱਚ ਕੁਝ ਮਿੰਟ ਲੱਗ ਸਕਦੇ ਹਨ।
 
@@ -179,7 +179,7 @@ VS Code ਐਕਸਪਲੋਰਰ ਉਹ ਫੋਲਡਰ ਅਤੇ ਫਾਈਲ�
 
     1. ਅਪਲੋਡ ਵਿਕਲਪ ਦੀ ਖੋਜ ਕਰਨ ਲਈ `PlatformIO Upload` ਟਾਈਪ ਕਰੋ, ਅਤੇ *PlatformIO: Upload* ਚੁਣੋ
 
-        ![VS Code ਕਮਾਂਡ ਪੈਲੇਟ ਵਿੱਚ PlatformIO ਅਪਲੋਡ ਵਿਕਲਪ](../../../../../translated_images/vscode-platformio-upload-command-palette.9e0f49cf80d1f1c3.pa.png)
+        ![VS Code ਕਮਾਂਡ ਪੈਲੇਟ ਵਿੱਚ PlatformIO ਅਪਲੋਡ ਵਿਕਲਪ](../../../../../translated_images/pa/vscode-platformio-upload-command-palette.9e0f49cf80d1f1c3.png)
 
         ਜੇ ਲੋੜ ਹੋਵੇ ਤਾਂ PlatformIO ਅਪਲੋਡ ਕਰਨ ਤੋਂ ਪਹਿਲਾਂ ਆਟੋਮੈਟਿਕ ਤੌਰ 'ਤੇ ਕੋਡ ਬਣਾਏਗਾ।
 

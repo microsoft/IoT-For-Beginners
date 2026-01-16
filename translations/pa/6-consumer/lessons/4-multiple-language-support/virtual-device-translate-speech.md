@@ -46,7 +46,7 @@ CO_OP_TRANSLATOR_METADATA:
     >
     > ਉਦਾਹਰਨ ਲਈ, ਜੇ ਤੁਸੀਂ LUIS ਨੂੰ ਅੰਗਰੇਜ਼ੀ ਵਿੱਚ ਟ੍ਰੇਨ ਕਰਦੇ ਹੋ, ਪਰ ਉਪਭੋਗਤਾ ਭਾਸ਼ਾ ਵਜੋਂ ਫਰੈਂਚ ਦੀ ਵਰਤੋਂ ਕਰਨਾ ਚਾਹੁੰਦੇ ਹੋ, ਤਾਂ ਤੁਸੀਂ "set a 2 minute and 27 second timer" ਵਰਗੇ ਵਾਕਾਂਸ਼ਾਂ ਨੂੰ Bing Translate ਦੀ ਵਰਤੋਂ ਕਰਕੇ ਅੰਗਰੇਜ਼ੀ ਤੋਂ ਫਰੈਂਚ ਵਿੱਚ ਅਨੁਵਾਦ ਕਰ ਸਕਦੇ ਹੋ, ਫਿਰ **Listen translation** ਬਟਨ ਦੀ ਵਰਤੋਂ ਕਰਕੇ ਅਨੁਵਾਦ ਨੂੰ ਆਪਣੇ ਮਾਈਕਰੋਫੋਨ ਵਿੱਚ ਬੋਲ ਸਕਦੇ ਹੋ।
     >
-    > ![Bing Translate 'Listen translation' ਬਟਨ](../../../../../translated_images/bing-translate.348aa796d6efe2a92f41ea74a5cf42bb4c63d6faaa08e7f46924e072a35daa48.pa.png)
+    > ![Bing Translate 'Listen translation' ਬਟਨ](../../../../../translated_images/pa/bing-translate.348aa796d6efe2a92f41ea74a5cf42bb4c63d6faaa08e7f46924e072a35daa48.png)
 
 1. `recognizer_config` ਅਤੇ `recognizer` ਡਿਕਲੇਰੇਸ਼ਨ ਨੂੰ ਹੇਠਾਂ ਦਿੱਤੇ ਨਾਲ ਬਦਲੋ:
 

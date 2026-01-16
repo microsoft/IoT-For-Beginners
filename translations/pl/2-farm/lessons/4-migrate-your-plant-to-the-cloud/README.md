@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Przenieś swoją roślinę do chmury
 
-![Szkicowy przegląd tej lekcji](../../../../../translated_images/lesson-8.3f21f3c11159e6a0a376351973ea5724d5de68fa23b4288853a174bed9ac48c3.pl.jpg)
+![Szkicowy przegląd tej lekcji](../../../../../translated_images/pl/lesson-8.3f21f3c11159e6a0a376351973ea5724d5de68fa23b4288853a174bed9ac48c3.jpg)
 
 > Szkic autorstwa [Nitya Narasimhan](https://github.com/nitya). Kliknij obraz, aby zobaczyć większą wersję.
 
@@ -55,8 +55,8 @@ Było to bardzo kosztowne, wymagało szerokiego zakresu umiejętności od pracow
 
 Chmura jest często żartobliwie nazywana „komputerem kogoś innego”. Początkowy pomysł był prosty - zamiast kupować komputery, wynajmujesz je od kogoś innego. Dostawca usług chmurowych zarządza ogromnymi centrami danych. To on odpowiada za zakup i instalację sprzętu, zarządzanie zasilaniem i chłodzeniem, siecią, bezpieczeństwem budynku, aktualizacjami sprzętu i oprogramowania. Jako klient wynajmujesz potrzebne komputery, zwiększając ich liczbę w razie wzrostu zapotrzebowania i zmniejszając, gdy zapotrzebowanie spada. Centra danych chmurowych znajdują się na całym świecie.
 
-![Centrum danych Microsoft w chmurze](../../../../../translated_images/azure-region-existing.73f704604f2aa6cb9b5a49ed40e93d4fd81ae3f4e6af4a8ca504023902832f56.pl.png)
-![Planowana rozbudowa centrum danych Microsoft w chmurze](../../../../../translated_images/azure-region-planned-expansion.a5074a1e8af74f156a73552d502429e5b126ea5019274d767ecb4b9afdad442b.pl.png)
+![Centrum danych Microsoft w chmurze](../../../../../translated_images/pl/azure-region-existing.73f704604f2aa6cb9b5a49ed40e93d4fd81ae3f4e6af4a8ca504023902832f56.png)
+![Planowana rozbudowa centrum danych Microsoft w chmurze](../../../../../translated_images/pl/azure-region-planned-expansion.a5074a1e8af74f156a73552d502429e5b126ea5019274d767ecb4b9afdad442b.png)
 
 Te centra danych mogą zajmować powierzchnię kilku kilometrów kwadratowych. Powyższe zdjęcia przedstawiają centrum danych Microsoft sprzed kilku lat, pokazując jego początkowy rozmiar oraz planowaną rozbudowę. Obszar przeznaczony na rozbudowę ma ponad 5 kilometrów kwadratowych.
 
@@ -72,7 +72,7 @@ Dostawca chmury może wykorzystać efekt skali, aby obniżyć koszty, kupując s
 
 Azure to chmura dla programistów od Microsoft, której będziesz używać w tych lekcjach. Poniższy film przedstawia krótki przegląd Azure:
 
-[![Film o Azure](../../../../../translated_images/what-is-azure-video-thumbnail.20174db09e03bbb8.pl.png)](https://www.microsoft.com/videoplayer/embed/RE4Ibng?WT.mc_id=academic-17441-jabenn)
+[![Film o Azure](../../../../../translated_images/pl/what-is-azure-video-thumbnail.20174db09e03bbb8.png)](https://www.microsoft.com/videoplayer/embed/RE4Ibng?WT.mc_id=academic-17441-jabenn)
 
 ## Tworzenie subskrypcji chmurowej
 
@@ -117,11 +117,11 @@ Usługi IoT w chmurze rozwiązują te problemy. Są utrzymywane przez dużych do
 
 Urządzenia IoT łączą się z usługą chmurową za pomocą SDK urządzenia (biblioteki, która dostarcza kod do pracy z funkcjami usługi) lub bezpośrednio za pomocą protokołu komunikacyjnego, takiego jak MQTT lub HTTP. SDK urządzenia jest zazwyczaj najłatwiejszą opcją, ponieważ obsługuje wszystko za Ciebie, np. wie, jakie tematy publikować lub subskrybować i jak obsługiwać bezpieczeństwo.
 
-![Urządzenia łączą się z usługą za pomocą SDK urządzenia. Kod serwera również łączy się z usługą za pomocą SDK](../../../../../translated_images/iot-service-connectivity.7e873847921a5d6fd60d0ba3a943210194518cee0d4e362476624316443275c3.pl.png)
+![Urządzenia łączą się z usługą za pomocą SDK urządzenia. Kod serwera również łączy się z usługą za pomocą SDK](../../../../../translated_images/pl/iot-service-connectivity.7e873847921a5d6fd60d0ba3a943210194518cee0d4e362476624316443275c3.png)
 
 Twoje urządzenie komunikuje się z innymi częściami aplikacji za pośrednictwem tej usługi - podobnie jak przesyłałeś dane telemetryczne i odbierałeś polecenia za pomocą MQTT. Zazwyczaj odbywa się to za pomocą SDK usługi lub podobnej biblioteki. Wiadomości są przesyłane z urządzenia do usługi, gdzie inne komponenty aplikacji mogą je odczytać, a następnie wysyłać wiadomości z powrotem do urządzenia.
 
-![Urządzenia bez ważnego klucza tajnego nie mogą połączyć się z usługą IoT](../../../../../translated_images/iot-service-allowed-denied-connection.818b0063ac213fb84204a7229303764d9b467ca430fb822b4ac2fca267d56726.pl.png)
+![Urządzenia bez ważnego klucza tajnego nie mogą połączyć się z usługą IoT](../../../../../translated_images/pl/iot-service-allowed-denied-connection.818b0063ac213fb84204a7229303764d9b467ca430fb822b4ac2fca267d56726.png)
 
 Te usługi implementują bezpieczeństwo, znając wszystkie urządzenia, które mogą się połączyć i przesyłać dane, albo poprzez wcześniejszą rejestrację urządzeń w usłudze, albo poprzez nadanie urządzeniom kluczy tajnych lub certyfikatów, które mogą wykorzystać do samodzielnej rejestracji przy pierwszym połączeniu. Nieznane urządzenia nie mogą się połączyć - jeśli spróbują, usługa odrzuci połączenie i zignoruje wysyłane przez nie wiadomości.
 
@@ -133,7 +133,7 @@ Inne komponenty Twojej aplikacji mogą łączyć się z usługą IoT, dowiadywa�
 
 Teraz, gdy masz subskrypcję Azure, możesz zarejestrować się w usłudze IoT. Usługa IoT od Microsoftu nazywa się Azure IoT Hub.
 
-![Logo Azure IoT Hub](../../../../../translated_images/azure-iot-hub-logo.28a19de76d0a1932464d858f7558712bcdace3e5ec69c434d482ed7ce41c3a26.pl.png)
+![Logo Azure IoT Hub](../../../../../translated_images/pl/azure-iot-hub-logo.28a19de76d0a1932464d858f7558712bcdace3e5ec69c434d482ed7ce41c3a26.png)
 
 Poniższy film przedstawia krótki przegląd Azure IoT Hub:
 

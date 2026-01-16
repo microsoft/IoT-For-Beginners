@@ -34,7 +34,7 @@ REST API usługi mowy nie obsługuje bezpośrednich tłumaczeń, zamiast tego mo
     >
     > Na przykład, jeśli trenujesz LUIS w języku angielskim, ale chcesz używać francuskiego jako języka użytkownika, możesz przetłumaczyć zdania takie jak "ustaw timer na 2 minuty i 27 sekund" z angielskiego na francuski za pomocą Bing Translate, a następnie użyć przycisku **Listen translation**, aby wypowiedzieć tłumaczenie do mikrofonu.
     >
-    > ![Przycisk Listen translation w Bing Translate](../../../../../translated_images/bing-translate.348aa796d6efe2a92f41ea74a5cf42bb4c63d6faaa08e7f46924e072a35daa48.pl.png)
+    > ![Przycisk Listen translation w Bing Translate](../../../../../translated_images/pl/bing-translate.348aa796d6efe2a92f41ea74a5cf42bb4c63d6faaa08e7f46924e072a35daa48.png)
 
 1. Dodaj klucz API tłumacza poniżej `speech_api_key`:
 

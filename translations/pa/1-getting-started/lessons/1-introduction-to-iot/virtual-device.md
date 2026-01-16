@@ -154,11 +154,11 @@ Python ਵਰਚੁਅਲ ਐਨਵਾਇਰਨਮੈਂਟ ਕਨਫਿਗਰ �
 
 1. ਜਦੋਂ VS Code ਲਾਂਚ ਹੁੰਦਾ ਹੈ, ਤਾਂ ਇਹ Python ਵਰਚੁਅਲ ਐਨਵਾਇਰਨਮੈਂਟ ਨੂੰ ਐਕਟੀਵੇਟ ਕਰੇਗਾ। ਚੁਣਿਆ ਗਿਆ ਵਰਚੁਅਲ ਐਨਵਾਇਰਨਮੈਂਟ ਹੇਠਾਂ ਸਟੇਟਸ ਬਾਰ ਵਿੱਚ ਦਿਖਾਈ ਦੇਵੇਗਾ:
 
-    ![VS Code ਵਿੱਚ ਚੁਣਿਆ ਗਿਆ ਵਰਚੁਅਲ ਐਨਵਾਇਰਨਮੈਂਟ](../../../../../translated_images/vscode-virtual-env.8ba42e04c3d533cf.pa.png)
+    ![VS Code ਵਿੱਚ ਚੁਣਿਆ ਗਿਆ ਵਰਚੁਅਲ ਐਨਵਾਇਰਨਮੈਂਟ](../../../../../translated_images/pa/vscode-virtual-env.8ba42e04c3d533cf.png)
 
 1. ਜੇ VS Code ਟਰਮੀਨਲ ਪਹਿਲਾਂ ਹੀ ਚੱਲ ਰਿਹਾ ਹੈ ਜਦੋਂ VS Code ਸ਼ੁਰੂ ਹੁੰਦਾ ਹੈ, ਤਾਂ ਇਸ ਵਿੱਚ ਵਰਚੁਅਲ ਐਨਵਾਇਰਨਮੈਂਟ ਐਕਟੀਵੇਟ ਨਹੀਂ ਹੋਵੇਗਾ। ਸਭ ਤੋਂ ਆਸਾਨ ਗੱਲ ਇਹ ਹੈ ਕਿ **Kill the active terminal instance** ਬਟਨ ਦੀ ਵਰਤੋਂ ਕਰਕੇ ਟਰਮੀਨਲ ਨੂੰ ਬੰਦ ਕਰ ਦਿਓ:
 
-    ![VS Code Kill the active terminal instance ਬਟਨ](../../../../../translated_images/vscode-kill-terminal.1cc4de7c6f25ee08.pa.png)
+    ![VS Code Kill the active terminal instance ਬਟਨ](../../../../../translated_images/pa/vscode-kill-terminal.1cc4de7c6f25ee08.png)
 
     ਤੁਸੀਂ ਇਹ ਪਤਾ ਲਗਾ ਸਕਦੇ ਹੋ ਕਿ ਟਰਮੀਨਲ ਵਿੱਚ ਵਰਚੁਅਲ ਐਨਵਾਇਰਨਮੈਂਟ ਐਕਟੀਵੇਟ ਹੈ ਜਾਂ ਨਹੀਂ ਕਿਉਂਕਿ ਟਰਮੀਨਲ ਪ੍ਰਾਂਪਟ 'ਤੇ ਵਰਚੁਅਲ ਐਨਵਾਇਰਨਮੈਂਟ ਦਾ ਨਾਮ ਇੱਕ ਪ੍ਰੀਫਿਕਸ ਵਜੋਂ ਹੋਵੇਗਾ। ਉਦਾਹਰਣ ਲਈ, ਇਹ ਹੋ ਸਕਦਾ ਹੈ:
 

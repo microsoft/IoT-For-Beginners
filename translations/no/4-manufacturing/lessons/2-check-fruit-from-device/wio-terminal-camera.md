@@ -25,11 +25,11 @@ ArduCam har ikke en Grove-kontakt, men kobles i stedet til både SPI- og I2C-bus
 
 Koble til kameraet.
 
-![En ArduCam-sensor](../../../../../translated_images/arducam.20e4e4cbb268296570b5914e20d6c349fc42ddac9ed4e1b9deba2188204eebae.no.png)
+![En ArduCam-sensor](../../../../../translated_images/no/arducam.20e4e4cbb268296570b5914e20d6c349fc42ddac9ed4e1b9deba2188204eebae.png)
 
 1. Pinnene på bunnen av ArduCam må kobles til GPIO-pinnene på Wio Terminal. For å gjøre det enklere å finne de riktige pinnene, fest GPIO-pinneklistremerket som følger med Wio Terminal rundt pinnene:
 
-    ![Wio Terminal med GPIO-pinneklistremerket på](../../../../../translated_images/wio-terminal-pin-sticker.b90b1535937b84bd.no.png)
+    ![Wio Terminal med GPIO-pinneklistremerket på](../../../../../translated_images/no/wio-terminal-pin-sticker.b90b1535937b84bd.png)
 
 1. Bruk hoppkabler for å lage følgende tilkoblinger:
 
@@ -44,7 +44,7 @@ Koble til kameraet.
     | SDA         | 3 (I2C1_SDA)     | I2C Serial Data                         |
     | SCL         | 5 (I2C1_SCL)     | I2C Serial Clock                        |
 
-    ![Wio Terminal koblet til ArduCam med hoppkabler](../../../../../translated_images/arducam-wio-terminal-connections.a4d5a4049bdb5ab800a2877389fc6ecf5e4ff307e6451ff56c517e6786467d0a.no.png)
+    ![Wio Terminal koblet til ArduCam med hoppkabler](../../../../../translated_images/no/arducam-wio-terminal-connections.a4d5a4049bdb5ab800a2877389fc6ecf5e4ff307e6451ff56c517e6786467d0a.png)
 
     GND- og VCC-tilkoblingene gir en 5V strømforsyning til ArduCam. Den kjører på 5V, i motsetning til Grove-sensorer som kjører på 3V. Denne strømmen kommer direkte fra USB-C-tilkoblingen som driver enheten.
 
@@ -297,7 +297,7 @@ Wio Terminal kan nå programmeres til å ta et bilde når en knapp trykkes.
 
 1. Mikrokontrollere kjører koden din kontinuerlig, så det er ikke lett å utløse noe som å ta et bilde uten å reagere på en sensor. Wio Terminal har knapper, så kameraet kan settes opp til å utløses av en av knappene. Legg til følgende kode på slutten av `setup`-funksjonen for å konfigurere C-knappen (en av de tre knappene på toppen, den nærmest strømbryteren).
 
-    ![C-knappen på toppen nærmest strømbryteren](../../../../../translated_images/wio-terminal-c-button.73df3cb1c1445ea0.no.png)
+    ![C-knappen på toppen nærmest strømbryteren](../../../../../translated_images/no/wio-terminal-c-button.73df3cb1c1445ea0.png)
 
     ```cpp
     pinMode(WIO_KEY_C, INPUT_PULLUP);
@@ -465,7 +465,7 @@ Wio Terminal støtter kun microSD-kort på opptil 16GB. Hvis du har et større S
 
 1. Slå av Wio Terminal og ta ut microSD-kortet ved å trykke det litt inn og slippe, så vil det sprette ut. Du må kanskje bruke et tynt verktøy for å gjøre dette. Sett microSD-kortet inn i datamaskinen din for å se bildene.
 
-    ![Et bilde av en banan tatt med ArduCam](../../../../../translated_images/banana-arducam.be1b32d4267a8194b0fd042362e56faa431da9cd4af172051b37243ea9be0256.no.jpg)
+    ![Et bilde av en banan tatt med ArduCam](../../../../../translated_images/no/banana-arducam.be1b32d4267a8194b0fd042362e56faa431da9cd4af172051b37243ea9be0256.jpg)
 💁 Det kan ta noen bilder før hvitbalansen til kameraet justerer seg. Du vil merke dette basert på fargen på bildene som tas, de første kan se ut til å ha feil farge. Du kan alltid omgå dette ved å endre koden til å ta noen bilder som ignoreres i `setup`-funksjonen.
 
 

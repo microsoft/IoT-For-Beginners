@@ -19,7 +19,7 @@ Mikrofon terbina dalam menangkap isyarat analog, yang kemudian ditukar kepada is
 
 ✅ Baca lebih lanjut tentang DMA di [halaman akses memori langsung di Wikipedia](https://wikipedia.org/wiki/Direct_memory_access).
 
-![Audio dari mikrofon pergi ke ADC kemudian ke DMAC. DMAC menulis ke satu penimbal. Apabila penimbal ini penuh, ia diproses dan DMAC menulis ke penimbal kedua](../../../../../translated_images/dmac-adc-buffers.4509aee49145c90bc2e1be472b8ed2ddfcb2b6a81ad3e559114aca55f5fff759.ms.png)
+![Audio dari mikrofon pergi ke ADC kemudian ke DMAC. DMAC menulis ke satu penimbal. Apabila penimbal ini penuh, ia diproses dan DMAC menulis ke penimbal kedua](../../../../../translated_images/ms/dmac-adc-buffers.4509aee49145c90bc2e1be472b8ed2ddfcb2b6a81ad3e559114aca55f5fff759.png)
 
 DMAC boleh menangkap audio dari ADC pada selang masa tetap, seperti 16,000 kali sesaat untuk audio 16KHz. Ia boleh menulis data yang ditangkap ini ke penimbal memori yang telah diperuntukkan, dan apabila penuh, menjadikannya tersedia untuk kod anda untuk diproses. Menggunakan memori ini boleh melambatkan penangkapan audio, tetapi anda boleh menyediakan beberapa penimbal. DMAC menulis ke penimbal 1, kemudian apabila ia penuh, memberitahu kod anda untuk memproses penimbal 1, sementara DMAC menulis ke penimbal 2. Apabila penimbal 2 penuh, ia memberitahu kod anda, dan kembali menulis ke penimbal 1. Dengan cara ini, selagi anda memproses setiap penimbal dalam masa yang lebih singkat daripada masa yang diperlukan untuk mengisi satu, anda tidak akan kehilangan sebarang data.
 

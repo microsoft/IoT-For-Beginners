@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # စတော့ရှယ်ယာရှာဖွေမှုစက်ကိုလေ့ကျင့်ပါ
 
-![ဒီသင်ခန်းစာ၏အကျဉ်းချုပ်ကိုဖော်ပြသောပုံ](../../../../../translated_images/lesson-19.cf6973cecadf080c4b526310620dc4d6f5994c80fb0139c6f378cc9ca2d435cd.my.jpg)
+![ဒီသင်ခန်းစာ၏အကျဉ်းချုပ်ကိုဖော်ပြသောပုံ](../../../../../translated_images/my/lesson-19.cf6973cecadf080c4b526310620dc4d6f5994c80fb0139c6f378cc9ca2d435cd.jpg)
 
 > [Nitya Narasimhan](https://github.com/nitya) မှရေးဆွဲထားသောပုံ။ ပုံကိုနှိပ်ပြီး ပိုမိုကြီးမားသောဗားရှင်းကိုကြည့်ပါ။
 
@@ -45,7 +45,7 @@ Object detection သည် AI ကိုအသုံးပြုပြီး ပ�
 
 Image classification သည် ပုံတစ်ခုလုံးကို tag များဖြင့်ခွဲခြားခြင်းဖြစ်သည်။ ပုံတစ်ခုလုံးသည် tag တစ်ခုနှင့်တစ်ခုကိုတူညီမှုရှိမရှိကိုကိန်းဂဏန်းများဖြင့်ပြန်လည်ပေးသည်။
 
-![Cashew nuts နှင့် Tomato paste ကို image classification ဖြင့်ခွဲခြားထားသောပုံ](../../../../../translated_images/image-classifier-cashews-tomato.bc2e16ab8f05cf9ac0f59f73e32efc4227f9a5b601b90b2c60f436694547a965.my.png)
+![Cashew nuts နှင့် Tomato paste ကို image classification ဖြင့်ခွဲခြားထားသောပုံ](../../../../../translated_images/my/image-classifier-cashews-tomato.bc2e16ab8f05cf9ac0f59f73e32efc4227f9a5b601b90b2c60f436694547a965.png)
 
 အထက်ပါပုံတွင် Cashew nuts နှင့် Tomato paste ကိုခွဲခြားထားသောပုံများကိုပြထားသည်။ ပထမပုံသည် Cashew nuts ဖြစ်ပြီး image classifier မှရရှိသောရလဒ်မှာ -
 
@@ -69,7 +69,7 @@ Object detection သည် ပုံတွင်ရှိသောအရာဝ�
 
 > 🎓 *Bounding boxes* သည် အရာဝတ္ထုကိုဝိုင်းထားသော box များဖြစ်သည်။
 
-![Cashew nuts နှင့် Tomato paste ကို Object detection ဖြင့်ရှာဖွေထားသောပုံ](../../../../../translated_images/object-detector-cashews-tomato.1af7c26686b4db0e709754aeb196f4e73271f54e2085db3bcccb70d4a0d84d97.my.png)
+![Cashew nuts နှင့် Tomato paste ကို Object detection ဖြင့်ရှာဖွေထားသောပုံ](../../../../../translated_images/my/object-detector-cashews-tomato.1af7c26686b4db0e709754aeb196f4e73271f54e2085db3bcccb70d4a0d84d97.png)
 
 အထက်ပါပုံတွင် Cashew nuts တစ်ခုနှင့် Tomato paste သုံးခုရှိသည်။ Object detector သည် Cashew nuts ကိုရှာဖွေပြီး bounding box နှင့် percentage ကိုပြန်ပေးသည်။ Tomato paste သုံးခုကိုလည်း bounding box သုံးခုနှင့် percentage များဖြင့်ပြန်ပေးသည်။
 
@@ -120,7 +120,7 @@ Custom Vision ကိုအသုံးပြုပြီး Object detector က�
 
     Project ဖန်တီးသောအခါ `stock-detector-training` resource ကိုအသုံးပြုပါ။ *Object Detection* project type နှင့် *Products on Shelves* domain ကိုရွေးပါ။
 
-    ![Custom Vision project settings](../../../../../translated_images/custom-vision-create-object-detector-project.32d4fb9aa8e7e7375f8a799bfce517aca970f2cb65e42d4245c5e635c734ab29.my.png)
+    ![Custom Vision project settings](../../../../../translated_images/my/custom-vision-create-object-detector-project.32d4fb9aa8e7e7375f8a799bfce517aca970f2cb65e42d4245c5e635c734ab29.png)
 
     ✅ Products on shelves domain သည် စတိုးဆိုင်တွင်ရှိသောစတော့ရှယ်ယာကိုရှာဖွေရန်အထူးသင့်လျော်သည်။ [Microsoft Docs တွင် Select a domain documentation](https://docs.microsoft.com/azure/cognitive-services/custom-vision-service/select-domain?WT.mc_id=academic-17441-jabenn#object-detection) ကိုဖတ်ရှုပါ။
 
@@ -140,11 +140,11 @@ Custom Vision ကိုအသုံးပြုပြီး Object detector က�
 
 1. [Microsoft Docs တွင် Build an object detector quickstart ၏ Upload and tag images အပိုင်း](https://docs.microsoft.com/azure/cognitive-services/custom-vision-service/get-started-build-detector?WT.mc_id=academic-17441-jabenn#upload-and-tag-images) ကိုလိုက်နာပြီး training images ကို upload လုပ်ပါ။ အရာဝတ္ထုအမျိုးအစားများအလိုက် tag များဖန်တီးပါ။
 
-    ![ပုံများကို upload လုပ်နေသော dialog](../../../../../translated_images/image-upload-object-detector.77c7892c3093cb59b79018edecd678749a75d71a099bc8a2d2f2f76320f88a5b.my.png)
+    ![ပုံများကို upload လုပ်နေသော dialog](../../../../../translated_images/my/image-upload-object-detector.77c7892c3093cb59b79018edecd678749a75d71a099bc8a2d2f2f76320f88a5b.png)
 
     Bounding boxes ကို tight လုပ်ထားပါ။ Tool သည် bounding boxes ကိုအလိုအလျောက် detect လုပ်မည်။
 
-    ![Tomato paste ကို tag လုပ်နေသောပုံ](../../../../../translated_images/object-detector-tag-tomato-paste.f47c362fb0f0eb582f3bc68cf3855fb43a805106395358d41896a269c210b7b4.my.png)
+    ![Tomato paste ကို tag လုပ်နေသောပုံ](../../../../../translated_images/my/object-detector-tag-tomato-paste.f47c362fb0f0eb582f3bc68cf3855fb43a805106395358d41896a269c210b7b4.png)
 
     > 💁 အရာဝတ္ထုတစ်ခုစီအတွက် 15 ပုံထက်ပိုရှိပါက training ပြီး Suggested tags ကိုအသုံးပြုနိုင်သည်။ ဒီ feature သည် untagged images တွင်အရာဝတ္ထုများကို detect လုပ်ပြီး bounding boxes ကို confirm သို့မဟုတ် reject လုပ်နိုင်သည်။
 
@@ -162,7 +162,7 @@ Object detector ကို training ပြီးစီးသောအခါ testi
 
 1. **Quick Test** button ကိုအသုံးပြုပြီး testing images များကို upload လုပ်ပါ။ Training images မဟုတ်သော testing images များကိုအသုံးပြုပါ။
 
-    ![Tomato paste သုံးခုကို detect လုပ်ထားသောပုံ](../../../../../translated_images/object-detector-detected-tomato-paste.52656fe87af4c37b4ee540526d63e73ed075da2e54a9a060aa528e0c562fb1b6.my.png)
+    ![Tomato paste သုံးခုကို detect လုပ်ထားသောပုံ](../../../../../translated_images/my/object-detector-detected-tomato-paste.52656fe87af4c37b4ee540526d63e73ed075da2e54a9a060aa528e0c562fb1b6.png)
 
 1. Testing images များအားလုံးကိုစမ်းသပ်ပြီး probabilities ကိုကြည့်ရှုပါ။
 

@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # တည်နေရာခြေရာခံခြင်း
 
-![ဒီသင်ခန်းစာအတွက် Sketchnote အကျဉ်းချုပ်](../../../../../translated_images/lesson-11.9fddbac4b664c6d50ab7ac9bb32f1fc3f945f03760e72f7f43938073762fb017.my.jpg)
+![ဒီသင်ခန်းစာအတွက် Sketchnote အကျဉ်းချုပ်](../../../../../translated_images/my/lesson-11.9fddbac4b664c6d50ab7ac9bb32f1fc3f945f03760e72f7f43938073762fb017.jpg)
 
 > Sketchnote ကို [Nitya Narasimhan](https://github.com/nitya) မှရေးသားထားသည်။ ပုံကိုနှိပ်ပြီး အကြီးအကျယ်ကြည့်ရှုနိုင်ပါသည်။
 
@@ -72,13 +72,13 @@ Geospatial Coordinates သည် ကမ္ဘာ့မျက်နှာပြ�
 
 > 💁 Circle များကို 360 ဒီဂရီအဖြစ်ခွဲခြားရသည့်မူလအကြောင်းရင်းကိုတိတိကျကျမသိပါ။ [Wikipedia ၏ Degree (angle) စာမျက်နှာ](https://wikipedia.org/wiki/Degree_(angle)) တွင်ဖြစ်နိုင်သောအကြောင်းရင်းများကိုဖော်ပြထားသည်။
 
-![Latitude လိုင်းများသည် မြောက်ဘက် 90° မှ Equator နှင့်တောင်ဘက် 90° အထိရှိသည်](../../../../../translated_images/latitude-lines.11d8d91dfb2014a57437272d7db7fd6607243098e8685f06e0c5f1ec984cb7eb.my.png)
+![Latitude လိုင်းများသည် မြောက်ဘက် 90° မှ Equator နှင့်တောင်ဘက် 90° အထိရှိသည်](../../../../../translated_images/my/latitude-lines.11d8d91dfb2014a57437272d7db7fd6607243098e8685f06e0c5f1ec984cb7eb.png)
 
 Latitude ကို Equator နှင့် Parallel ဖြစ်သော Circle လိုင်းများကိုအသုံးပြု၍ တောင်ဘက်နှင့်မြောက်ဘက် Hemisphere များကို 90° အဖြစ်ခွဲခြားကာတိုင်းတာသည်။ Equator သည် 0° တွင်ရှိပြီး မြောက်ဘက် 90° သည် 90° North ဟုခေါ်သည်။ တောင်ဘက် 90° သည် -90° သို့မဟုတ် 90° South ဖြစ်သည်။
 
 Longitude ကို အရှေ့နှင့်အနောက်တိုင်းတာသောဒီဂရီအရေအတွက်အဖြစ်တိုင်းတာသည်။ Longitude ၏ 0° Origin ကို *Prime Meridian* ဟုခေါ်ပြီး 1884 ခုနှစ်တွင် [British Royal Observatory in Greenwich, England](https://wikipedia.org/wiki/Royal_Observatory,_Greenwich) မှတောင်ဘက်မှမြောက်ဘက်သို့သွားသောလိုင်းအဖြစ်သတ်မှတ်ခဲ့သည်။
 
-![Longitude လိုင်းများသည် Prime Meridian မှ -180° အနောက်ဘက်မှ 180° အရှေ့ဘက်အထိရှိသည်](../../../../../translated_images/longitude-meridians.ab4ef1c91c064586b0185a3c8d39e585903696c6a7d28c098a93a629cddb5d20.my.png)
+![Longitude လိုင်းများသည် Prime Meridian မှ -180° အနောက်ဘက်မှ 180° အရှေ့ဘက်အထိရှိသည်](../../../../../translated_images/my/longitude-meridians.ab4ef1c91c064586b0185a3c8d39e585903696c6a7d28c098a93a629cddb5d20.png)
 
 > 🎓 Meridian သည် မြောက်ဘက်မှတောင်ဘက်သို့သွားသော Semicircle ဖြစ်သောစိတ်ကူးယဉ်လိုင်းတစ်ခုဖြစ်သည်။
 

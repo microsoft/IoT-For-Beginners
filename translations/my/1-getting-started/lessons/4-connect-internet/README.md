@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # သင့်စက်ကိုအင်တာနက်နှင့်ချိတ်ဆက်ပါ
 
-![ဒီသင်ခန်းစာ၏အကျဉ်းချုပ်ကိုဖော်ပြသော Sketchnote](../../../../../translated_images/lesson-4.7344e074ea68fa545fd320b12dce36d72dd62d28c3b4596cb26cf315f434b98f.my.jpg)
+![ဒီသင်ခန်းစာ၏အကျဉ်းချုပ်ကိုဖော်ပြသော Sketchnote](../../../../../translated_images/my/lesson-4.7344e074ea68fa545fd320b12dce36d72dd62d28c3b4596cb26cf315f434b98f.jpg)
 
 > Sketchnote ကို [Nitya Narasimhan](https://github.com/nitya) မှရေးသားထားသည်။ ပုံကိုနှိပ်ပြီး ပိုမိုကြီးမားသောဗားရှင်းကိုကြည့်ပါ။
 
@@ -46,7 +46,7 @@ IoT စက်များသည် cloud မှ message များကိုလ
 
 IoT စက်များသည်အင်တာနက်နှင့်ဆက်သွယ်ရန်အသုံးပြုသော communication protocol များစွာရှိသည်။ အများဆုံးအသုံးပြုသော protocol များသည် publish/subscribe messaging ကို broker တစ်ခုခုမှတစ်ဆင့်အခြေခံထားသည်။ IoT စက်များသည် broker နှင့်ချိတ်ဆက်ပြီး telemetry ကို publish လုပ်ပြီး command များကို subscribe လုပ်သည်။ cloud service များသည် broker နှင့်ချိတ်ဆက်ပြီး telemetry message များအားလုံးကို subscribe လုပ်ပြီး command များကိုတစ်ခုတည်းသောစက်များ သို့မဟုတ် စက်အုပ်စုများသို့ publish လုပ်သည်။
 
-![IoT စက်များသည် broker နှင့်ချိတ်ဆက်ပြီး telemetry ကို publish လုပ်ပြီး command များကို subscribe လုပ်သည်။ Cloud service များသည် broker နှင့်ချိတ်ဆက်ပြီး telemetry message များအားလုံးကို subscribe လုပ်ပြီး command များကိုတိကျသောစက်များသို့ပို့သည်။](../../../../../translated_images/pub-sub.7c7ed43fe9fd15d4.my.png)
+![IoT စက်များသည် broker နှင့်ချိတ်ဆက်ပြီး telemetry ကို publish လုပ်ပြီး command များကို subscribe လုပ်သည်။ Cloud service များသည် broker နှင့်ချိတ်ဆက်ပြီး telemetry message များအားလုံးကို subscribe လုပ်ပြီး command များကိုတိကျသောစက်များသို့ပို့သည်။](../../../../../translated_images/my/pub-sub.7c7ed43fe9fd15d4.png)
 
 MQTT သည် IoT စက်များအတွက်အများဆုံးအသုံးပြုသော communication protocol ဖြစ်ပြီး ဒီသင်ခန်းစာတွင်ဖော်ပြထားသည်။ အခြား protocol များတွင် AMQP နှင့် HTTP/HTTPS ပါဝင်သည်။
 
@@ -56,7 +56,7 @@ MQTT သည် IoT စက်များအတွက်အများဆုံ�
 
 MQTT တွင် broker တစ်ခုနှင့် client များစွာရှိသည်။ Client များအားလုံးသည် broker နှင့်ချိတ်ဆက်ပြီး broker သည် message များကိုသက်ဆိုင်ရာ client များသို့ပို့သည်။ Message များကို named topics အသုံးပြု၍ route လုပ်သည်၊ တစ်ခုတည်းသော client သို့တိုက်ရိုက်ပို့ခြင်းမဟုတ်ပါ။ Client တစ်ခုသည် topic တစ်ခုသို့ publish လုပ်နိုင်ပြီး အဆိုပါ topic ကို subscribe လုပ်ထားသော client များအားလုံးသည် message ကိုလက်ခံရရှိမည်ဖြစ်သည်။
 
-![IoT စက်သည် /telemetry topic တွင် telemetry ကို publish လုပ်ပြီး cloud service သည်အဆိုပါ topic ကို subscribe လုပ်သည်](../../../../../translated_images/mqtt.cbf7f21d9adc3e17548b359444cc11bb4bf2010543e32ece9a47becf54438c23.my.png)
+![IoT စက်သည် /telemetry topic တွင် telemetry ကို publish လုပ်ပြီး cloud service သည်အဆိုပါ topic ကို subscribe လုပ်သည်](../../../../../translated_images/my/mqtt.cbf7f21d9adc3e17548b359444cc11bb4bf2010543e32ece9a47becf54438c23.png)
 
 ✅ သုတေသနလုပ်ပါ။ IoT စက်များများစွာရှိပါက သင့် MQTT broker သည် message များအားလုံးကို handle လုပ်နိုင်ရန်ဘယ်လိုလုပ်ဆောင်နိုင်မည်လဲ?
 
@@ -78,7 +78,7 @@ Internet control ကိုသင့် nightlight တွင်ထည့်သွ
 
 > 💁 ဒီ test broker သည် public ဖြစ်ပြီး secure မဟုတ်ပါ။ သင် publish လုပ်သောအရာကိုမည်သူမဆိုနားထောင်နိုင်သောကြောင့် private data များနှင့်အသုံးမပြုသင့်ပါ။
 
-![Light level များကိုဖတ်ပြီးစစ်ဆေးခြင်းနှင့် LED ကိုထိန်းချုပ်ခြင်းကိုဖော်ပြသော assignment ၏ flow chart](../../../../../translated_images/assignment-1-internet-flow.3256feab5f052fd273bf4e331157c574c2c3fa42e479836fc9c3586f41db35a5.my.png)
+![Light level များကိုဖတ်ပြီးစစ်ဆေးခြင်းနှင့် LED ကိုထိန်းချုပ်ခြင်းကိုဖော်ပြသော assignment ၏ flow chart](../../../../../translated_images/my/assignment-1-internet-flow.3256feab5f052fd273bf4e331157c574c2c3fa42e479836fc9c3586f41db35a5.png)
 
 သင့်စက်ကို MQTT broker နှင့်ချိတ်ဆက်ရန်အောက်ပါအဆင့်ကိုလိုက်နာပါ -
 
@@ -115,7 +115,7 @@ Telemetry ဆိုသောစကားလုံးသည် "ဝေးကွ�
 
 Lesson 1 မှ smart thermostat ၏ဥပမာကိုပြန်လည်ကြည့်ပါ။
 
-![အခန်း sensor များစွာကိုအသုံးပြုသော Internet ချိတ်ဆက်ထားသော thermostat](../../../../../translated_images/telemetry.21e5d8b97649d2eb.my.png)
+![အခန်း sensor များစွာကိုအသုံးပြုသော Internet ချိတ်ဆက်ထားသော thermostat](../../../../../translated_images/my/telemetry.21e5d8b97649d2eb.png)
 
 Thermostat တွင် temperature sensor များရှိပြီး telemetry ကိုစုဆောင်းသည်။ ၎င်းတွင် built-in temperature sensor တစ်ခုရှိနိုင်ပြီး wireless protocol တစ်ခုဖြစ်သော [Bluetooth Low Energy](https://wikipedia.org/wiki/Bluetooth_Low_Energy) (BLE) ကိုအသုံးပြု၍ external temperature sensor များစွာနှင့်ချိတ်ဆက်နိုင်သည်။
 
@@ -249,11 +249,11 @@ Server code ကိုရေးပါ။
 
 1. VS Code launch လုပ်တဲ့အခါ Python virtual environment ကို activate လုပ်ပါမယ်။ Status bar ရဲ့အောက်ခြေမှာပြပါမယ်:
 
-    ![VS Code showing the selected virtual environment](../../../../../translated_images/vscode-virtual-env.8ba42e04c3d533cf.my.png)
+    ![VS Code showing the selected virtual environment](../../../../../translated_images/my/vscode-virtual-env.8ba42e04c3d533cf.png)
 
 1. VS Code Terminal က already running ဖြစ်နေတဲ့အခါ virtual environment activate မဖြစ်နိုင်ပါဘူး။ Terminal ကို **Kill the active terminal instance** button ကိုအသုံးပြုပြီးပိတ်ပါ:
 
-    ![VS Code Kill the active terminal instance button](../../../../../translated_images/vscode-kill-terminal.1cc4de7c6f25ee08.my.png)
+    ![VS Code Kill the active terminal instance button](../../../../../translated_images/my/vscode-kill-terminal.1cc4de7c6f25ee08.png)
 
 1. VS Code Terminal အသစ်ကို *Terminal -> New Terminal* ကိုရွေးချယ်ပါ သို့မဟုတ် `` CTRL+` `` ကိုနှိပ်ပါ။ Terminal အသစ်က virtual environment ကို load လုပ်ပါမယ်။ Prompt မှာ virtual environment (`.venv`) ရဲ့နာမည်ကိုလည်းပြပါမယ်:
 
@@ -341,7 +341,7 @@ Machinery monitoring အတွက်တော့ data ကိုသိမ်း�
 
 IoT device designers တွေက Internet outage ဖြစ်တဲ့အခါ device ကိုအသုံးပြုနိုင်ဖို့စဉ်းစားသင့်ပါတယ်။ Smart thermostat က cloud service မရရှိတဲ့အခါမှာတောင် heating control ကိုအနည်းငယ်လုပ်နိုင်ဖို့လိုပါတယ်။
 
-[![Underground မှာ cell reception မရှိလို့ upgrade လုပ်တဲ့အခါ bricked ဖြစ်သွားတဲ့ Ferrari](../../../../../translated_images/bricked-car.dc38f8efadc6c59d76211f981a521efb300939283dee468f79503aae3ec67615.my.png)](https://twitter.com/internetofshit/status/1315736960082808832)
+[![Underground မှာ cell reception မရှိလို့ upgrade လုပ်တဲ့အခါ bricked ဖြစ်သွားတဲ့ Ferrari](../../../../../translated_images/my/bricked-car.dc38f8efadc6c59d76211f981a521efb300939283dee468f79503aae3ec67615.png)](https://twitter.com/internetofshit/status/1315736960082808832)
 
 MQTT က loss of connectivity ကို handle လုပ်ဖို့ device နဲ့ server code က message delivery ကို ensure လုပ်ဖို့လိုပါတယ်။ Reply topic မှာ reply messages တွေကိုပို့ဖို့လိုအပ်ပါတယ်။ Message မရောက်ရင် queue ထဲမှာထားပြီးနောက်ပိုင်း replay လုပ်နိုင်ဖို့လိုပါတယ်။
 
@@ -349,7 +349,7 @@ MQTT က loss of connectivity ကို handle လုပ်ဖို့ device �
 
 Commands ဆိုတာ cloud က device ကိုပို့တဲ့ message တွေဖြစ်ပြီး device ကိုတစ်ခုခုလုပ်ဖို့အမိန့်ပေးပါတယ်။ အများအားဖြင့် actuator ကို output ပေးဖို့အမိန့်ပေးတာဖြစ်ပါတယ်။ Device ကို reboot လုပ်ဖို့ သို့မဟုတ် telemetry data ပိုပေးဖို့အမိန့်ပေးနိုင်ပါတယ်။
 
-![Internet connected thermostat receiving a command to turn on the heating](../../../../../translated_images/commands.d6c06bbbb3a02cce95f2831a1c331daf6dedd4e470c4aa2b0ae54f332016e504.my.png)
+![Internet connected thermostat receiving a command to turn on the heating](../../../../../translated_images/my/commands.d6c06bbbb3a02cce95f2831a1c331daf6dedd4e470c4aa2b0ae54f332016e504.png)
 
 Thermostat က cloud service ကနေ heating ကိုဖွင့်ဖို့ command ကိုရရှိနိုင်ပါတယ်။ Sensor data အပေါ်မူတည်ပြီး cloud service က heating ကိုဖွင့်ဖို့ဆုံးဖြတ်နိုင်ပါတယ်။
 

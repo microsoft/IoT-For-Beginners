@@ -35,7 +35,7 @@ Grove LED က module အနေနဲ့ ရရှိပြီး၊ အရော
 
 LED ကိုချိတ်ဆက်ပါ။
 
-![A grove LED](../../../../../translated_images/grove-led.6c853be93f473cf2c439cfc74bb1064732b22251a83cedf66e62f783f9cc1a79.my.png)
+![A grove LED](../../../../../translated_images/my/grove-led.6c853be93f473cf2c439cfc74bb1064732b22251a83cedf66e62f783f9cc1a79.png)
 
 1. သင်နှစ်သက်ရာ LED ကိုရွေးပြီး၊ LED module ရဲ့ အပေါက် ၂ ခုထဲကို ခြေထောက်တွေထည့်ပါ။
 
@@ -51,7 +51,7 @@ LED ကိုချိတ်ဆက်ပါ။
 
     > 💁 ညာဘက် Grove socket ကို analog သို့မဟုတ် digital sensors နဲ့ actuators တွေအတွက် အသုံးပြုနိုင်ပါတယ်။ ဘယ်ဘက် socket ကတော့ I2C နဲ့ digital sensors နဲ့ actuators တွေအတွက်သာ ဖြစ်ပါတယ်။
 
-![The grove LED connected to the right hand socket](../../../../../translated_images/wio-led.265a1897e72d7f21.my.png)
+![The grove LED connected to the right hand socket](../../../../../translated_images/my/wio-led.265a1897e72d7f21.png)
 
 ## ညဉ့်မီးအိပ်မီးကို အစီအစဉ်ရေးပါ
 

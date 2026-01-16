@@ -37,11 +37,11 @@ Dodaj czujnik światła do aplikacji CounterFit.
 
     1. Wybierz przycisk **Add**, aby utworzyć czujnik światła na Pinie 0.
 
-    ![Ustawienia czujnika światła](../../../../../translated_images/counterfit-create-light-sensor.9f36a5e0d4458d8d554d54b34d2c806d56093d6e49fddcda2d20f6fef7f5cce1.pl.png)
+    ![Ustawienia czujnika światła](../../../../../translated_images/pl/counterfit-create-light-sensor.9f36a5e0d4458d8d554d54b34d2c806d56093d6e49fddcda2d20f6fef7f5cce1.png)
 
     Czujnik światła zostanie utworzony i pojawi się na liście czujników.
 
-    ![Utworzony czujnik światła](../../../../../translated_images/counterfit-light-sensor.5d0f5584df56b90f6b2561910d9cb20dfbd73eeff2177c238d38f4de54aefae1.pl.png)
+    ![Utworzony czujnik światła](../../../../../translated_images/pl/counterfit-light-sensor.5d0f5584df56b90f6b2561910d9cb20dfbd73eeff2177c238d38f4de54aefae1.png)
 
 ## Programowanie czujnika światła
 

@@ -43,7 +43,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 1. जर तुम्ही ReSpeaker 2-Mics Pi HAT वापरत असाल, तर Grove बेस हॅट काढा आणि त्याच्या जागी ReSpeaker हॅट बसवा.
 
-    ![ReSpeaker हॅटसह रास्पबेरी पाय](../../../../../translated_images/pi-respeaker-hat.f00fabe7dd039a93e2e0aa0fc946c9af0c6a9eb17c32fa1ca097fb4e384f69f0.mr.png)
+    ![ReSpeaker हॅटसह रास्पबेरी पाय](../../../../../translated_images/mr/pi-respeaker-hat.f00fabe7dd039a93e2e0aa0fc946c9af0c6a9eb17c32fa1ca097fb4e384f69f0.png)
 
     तुम्हाला या धड्याच्या पुढील भागात Grove बटणाची आवश्यकता असेल, परंतु हे हॅटमध्ये अंगभूत आहे, त्यामुळे Grove बेस हॅटची गरज नाही.
 

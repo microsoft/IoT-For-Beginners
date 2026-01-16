@@ -43,11 +43,11 @@ CO_OP_TRANSLATOR_METADATA:
 
     1. **Add** ਬਟਨ ਚੁਣੋ ਤਾਂ ਜੋ ਕੈਮਰਾ ਬਣਾਇਆ ਜਾ ਸਕੇ।
 
-    ![ਕੈਮਰਾ ਸੈਟਿੰਗ](../../../../../translated_images/counterfit-create-camera.a5de97f59c0bd3cbe0416d7e89a3cfe86d19fbae05c641c53a91286412af0a34.pa.png)
+    ![ਕੈਮਰਾ ਸੈਟਿੰਗ](../../../../../translated_images/pa/counterfit-create-camera.a5de97f59c0bd3cbe0416d7e89a3cfe86d19fbae05c641c53a91286412af0a34.png)
 
     ਕੈਮਰਾ ਬਣਾਇਆ ਜਾਵੇਗਾ ਅਤੇ ਸੈਂਸਰਾਂ ਦੀ ਸੂਚੀ ਵਿੱਚ ਦਿਖਾਈ ਦੇਵੇਗਾ।
 
-    ![ਬਣਾਇਆ ਗਿਆ ਕੈਮਰਾ](../../../../../translated_images/counterfit-camera.001ec52194c8ee5d3f617173da2c79e1df903d10882adc625cbfc493525125d4.pa.png)
+    ![ਬਣਾਇਆ ਗਿਆ ਕੈਮਰਾ](../../../../../translated_images/pa/counterfit-camera.001ec52194c8ee5d3f617173da2c79e1df903d10882adc625cbfc493525125d4.png)
 
 ## ਕੈਮਰੇ ਨੂੰ ਪ੍ਰੋਗਰਾਮ ਕਰੋ
 
@@ -112,7 +112,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 1. ਕਾਊਂਟਰਫਿਟ ਵਿੱਚ ਕੈਮਰੇ ਦੁਆਰਾ ਕੈਪਚਰ ਕੀਤੇ ਜਾਣ ਵਾਲੇ ਚਿੱਤਰ ਨੂੰ ਕਨਫਿਗਰ ਕਰੋ। ਤੁਸੀਂ *Source* ਨੂੰ *File* 'ਤੇ ਸੈਟ ਕਰ ਸਕਦੇ ਹੋ, ਫਿਰ ਇੱਕ ਚਿੱਤਰ ਫਾਈਲ ਅਪਲੋਡ ਕਰੋ, ਜਾਂ *Source* ਨੂੰ *WebCam* 'ਤੇ ਸੈਟ ਕਰੋ, ਅਤੇ ਚਿੱਤਰ ਤੁਹਾਡੇ ਵੈਬਕੈਮ ਤੋਂ ਕੈਪਚਰ ਕੀਤੇ ਜਾਣਗੇ। ਯਕੀਨੀ ਬਣਾਓ ਕਿ ਚਿੱਤਰ ਚੁਣਨ ਜਾਂ ਵੈਬਕੈਮ ਚੁਣਨ ਦੇ ਬਾਅਦ **Set** ਬਟਨ ਚੁਣੋ।
 
-    ![ਕਾਊਂਟਰਫਿਟ ਵਿੱਚ ਫਾਈਲ ਨੂੰ ਚਿੱਤਰ ਸਰੋਤ ਵਜੋਂ ਸੈਟ ਕੀਤਾ ਗਿਆ ਹੈ, ਅਤੇ ਵੈਬਕੈਮ ਵਿੱਚ ਇੱਕ ਵਿਅਕਤੀ ਕੇਲਾ ਫੜੇ ਹੋਏ ਦਿਖਾਈ ਦੇ ਰਿਹਾ ਹੈ](../../../../../translated_images/counterfit-camera-options.eb3bd5150a8e7dffbf24bc5bcaba0cf2cdef95fbe6bbe393695d173817d6b8df.pa.png)
+    ![ਕਾਊਂਟਰਫਿਟ ਵਿੱਚ ਫਾਈਲ ਨੂੰ ਚਿੱਤਰ ਸਰੋਤ ਵਜੋਂ ਸੈਟ ਕੀਤਾ ਗਿਆ ਹੈ, ਅਤੇ ਵੈਬਕੈਮ ਵਿੱਚ ਇੱਕ ਵਿਅਕਤੀ ਕੇਲਾ ਫੜੇ ਹੋਏ ਦਿਖਾਈ ਦੇ ਰਿਹਾ ਹੈ](../../../../../translated_images/pa/counterfit-camera-options.eb3bd5150a8e7dffbf24bc5bcaba0cf2cdef95fbe6bbe393695d173817d6b8df.png)
 
 1. ਇੱਕ ਚਿੱਤਰ ਕੈਪਚਰ ਕੀਤਾ ਜਾਵੇਗਾ ਅਤੇ `image.jpg` ਵਜੋਂ ਮੌਜੂਦਾ ਫੋਲਡਰ ਵਿੱਚ ਸੇਵ ਕੀਤਾ ਜਾਵੇਗਾ। ਤੁਸੀਂ ਇਸ ਫਾਈਲ ਨੂੰ VS Code ਐਕਸਪਲੋਰਰ ਵਿੱਚ ਵੇਖੋਗੇ। ਫਾਈਲ ਨੂੰ ਚੁਣੋ ਤਾਂ ਜੋ ਚਿੱਤਰ ਵੇਖਿਆ ਜਾ ਸਕੇ। ਜੇ ਇਸਨੂੰ ਘੁੰਮਾਉਣ ਦੀ ਲੋੜ ਹੈ, ਤਾਂ `camera.rotation = 0` ਲਾਈਨ ਨੂੰ ਜ਼ਰੂਰਤ ਅਨੁਸਾਰ ਅਪਡੇਟ ਕਰੋ ਅਤੇ ਇੱਕ ਹੋਰ ਚਿੱਤਰ ਲਓ।
 

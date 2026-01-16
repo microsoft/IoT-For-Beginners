@@ -27,13 +27,13 @@ Czujnik temperatury Grove można podłączyć do cyfrowego portu Wio Terminal.
 
 Podłącz czujnik temperatury.
 
-![Czujnik temperatury Grove](../../../../../translated_images/grove-dht11.07f8eafceee170043efbb53e1d15722bd4e00fbaa9ff74290b57e9f66eb82c17.pl.png)
+![Czujnik temperatury Grove](../../../../../translated_images/pl/grove-dht11.07f8eafceee170043efbb53e1d15722bd4e00fbaa9ff74290b57e9f66eb82c17.png)
 
 1. Włóż jeden koniec kabla Grove do gniazda w czujniku wilgotności i temperatury. Kabel pasuje tylko w jednym kierunku.
 
 1. Gdy Wio Terminal jest odłączony od komputera lub innego źródła zasilania, podłącz drugi koniec kabla Grove do prawego gniazda Grove w Wio Terminal, patrząc na ekran. Jest to gniazdo najbardziej oddalone od przycisku zasilania.
 
-![Czujnik temperatury Grove podłączony do prawego gniazda](../../../../../translated_images/wio-temperature-sensor.2934928f38c7f79a.pl.png)
+![Czujnik temperatury Grove podłączony do prawego gniazda](../../../../../translated_images/pl/wio-temperature-sensor.2934928f38c7f79a.png)
 
 ## Programowanie czujnika temperatury
 

@@ -47,11 +47,11 @@ CounterFit အက်ပ်တွင် စိုထိုင်းဆနှင�
 
     1. **Add** ခလုတ်ကိုနှိပ်ပြီး Pin 5 တွင် စိုထိုင်းဆအာရုံခံကိရိယာကို ဖန်တီးပါ။
 
-    ![စိုထိုင်းဆအာရုံခံကိရိယာ၏ ဆက်တင်များ](../../../../../translated_images/counterfit-create-humidity-sensor.2750e27b6f30e09cf4e22101defd5252710717620816ab41ba688f91f757c49a.my.png)
+    ![စိုထိုင်းဆအာရုံခံကိရိယာ၏ ဆက်တင်များ](../../../../../translated_images/my/counterfit-create-humidity-sensor.2750e27b6f30e09cf4e22101defd5252710717620816ab41ba688f91f757c49a.png)
 
     စိုထိုင်းဆအာရုံခံကိရိယာကို ဖန်တီးပြီး အာရုံခံကိရိယာများစာရင်းတွင် ပေါ်လာမည်။
 
-    ![ဖန်တီးပြီးသော စိုထိုင်းဆအာရုံခံကိရိယာ](../../../../../translated_images/counterfit-humidity-sensor.7b12f7f339e430cb26c8211d2dba4ef75261b353a01da0932698b5bebd693f27.my.png)
+    ![ဖန်တီးပြီးသော စိုထိုင်းဆအာရုံခံကိရိယာ](../../../../../translated_images/my/counterfit-humidity-sensor.7b12f7f339e430cb26c8211d2dba4ef75261b353a01da0932698b5bebd693f27.png)
 
 1. အပူချိန်အာရုံခံကိရိယာတစ်ခု ဖန်တီးပါ:
 
@@ -63,11 +63,11 @@ CounterFit အက်ပ်တွင် စိုထိုင်းဆနှင�
 
     1. **Add** ခလုတ်ကိုနှိပ်ပြီး Pin 6 တွင် အပူချိန်အာရုံခံကိရိယာကို ဖန်တီးပါ။
 
-    ![အပူချိန်အာရုံခံကိရိယာ၏ ဆက်တင်များ](../../../../../translated_images/counterfit-create-temperature-sensor.199350ed34f7343d79dccbe95eaf6c11d2121f03d1c35ab9613b330c23f39b29.my.png)
+    ![အပူချိန်အာရုံခံကိရိယာ၏ ဆက်တင်များ](../../../../../translated_images/my/counterfit-create-temperature-sensor.199350ed34f7343d79dccbe95eaf6c11d2121f03d1c35ab9613b330c23f39b29.png)
 
     အပူချိန်အာရုံခံကိရိယာကို ဖန်တီးပြီး အာရုံခံကိရိယာများစာရင်းတွင် ပေါ်လာမည်။
 
-    ![ဖန်တီးပြီးသော အပူချိန်အာရုံခံကိရိယာ](../../../../../translated_images/counterfit-temperature-sensor.f0560236c96a9016bafce7f6f792476fe3367bc6941a1f7d5811d144d4bcbfff.my.png)
+    ![ဖန်တီးပြီးသော အပူချိန်အာရုံခံကိရိယာ](../../../../../translated_images/my/counterfit-temperature-sensor.f0560236c96a9016bafce7f6f792476fe3367bc6941a1f7d5811d144d4bcbfff.png)
 
 ## အပူချိန်အာရုံခံကိရိယာ အက်ပ်ကို ပရိုဂရမ်ရေးခြင်း
 

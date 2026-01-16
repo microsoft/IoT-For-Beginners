@@ -25,13 +25,13 @@ Czujnik temperatury Grove można podłączyć do Raspberry Pi.
 
 Podłącz czujnik temperatury.
 
-![Czujnik temperatury Grove](../../../../../translated_images/grove-dht11.07f8eafceee170043efbb53e1d15722bd4e00fbaa9ff74290b57e9f66eb82c17.pl.png)
+![Czujnik temperatury Grove](../../../../../translated_images/pl/grove-dht11.07f8eafceee170043efbb53e1d15722bd4e00fbaa9ff74290b57e9f66eb82c17.png)
 
 1. Włóż jeden koniec kabla Grove do gniazda na czujniku wilgotności i temperatury. Kabel wejdzie tylko w jednym kierunku.
 
 1. Przy wyłączonym zasilaniu Raspberry Pi, podłącz drugi koniec kabla Grove do gniazda cyfrowego oznaczonego jako **D5** na nakładce Grove Base zamontowanej na Raspberry Pi. To gniazdo znajduje się jako drugie od lewej w rzędzie gniazd obok pinów GPIO.
 
-![Czujnik temperatury Grove podłączony do gniazda A0](../../../../../translated_images/pi-temperature-sensor.3ff82fff672c8e56.pl.png)
+![Czujnik temperatury Grove podłączony do gniazda A0](../../../../../translated_images/pl/pi-temperature-sensor.3ff82fff672c8e56.png)
 
 ## Programowanie czujnika temperatury
 

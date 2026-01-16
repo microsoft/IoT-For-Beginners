@@ -104,7 +104,7 @@ Kod używany do klasyfikacji obrazów jest bardzo podobny do kodu do wykrywania 
 
     Będziesz mógł zobaczyć obraz, który został zrobiony, oraz te wartości w zakładce **Predictions** w Custom Vision.
 
-    ![4 puszki koncentratu pomidorowego na półce z przewidywaniami dla 4 wykryć: 35.8%, 33.5%, 25.7% i 16.6%](../../../../../translated_images/custom-vision-stock-prediction.942266ab1bcca3410ecdf23643b9f5f570cfab2345235074e24c51f285777613.pl.png)
+    ![4 puszki koncentratu pomidorowego na półce z przewidywaniami dla 4 wykryć: 35.8%, 33.5%, 25.7% i 16.6%](../../../../../translated_images/pl/custom-vision-stock-prediction.942266ab1bcca3410ecdf23643b9f5f570cfab2345235074e24c51f285777613.png)
 
 > 💁 Kod ten znajdziesz w folderze [code-detect/wio-terminal](../../../../../5-retail/lessons/2-check-stock-device/code-detect/wio-terminal).
 

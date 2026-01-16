@@ -25,13 +25,13 @@ Knappen kan kobles til Grove base-hatten.
 
 #### Oppgave - koble til knappen
 
-![En Grove-knapp](../../../../../translated_images/grove-button.a70cfbb809a8563681003250cf5b06d68cdcc68624f9e2f493d5a534ae2da1e5.no.png)
+![En Grove-knapp](../../../../../translated_images/no/grove-button.a70cfbb809a8563681003250cf5b06d68cdcc68624f9e2f493d5a534ae2da1e5.png)
 
 1. Sett den ene enden av en Grove-kabel inn i kontakten på knappemodulen. Den vil bare passe på én måte.
 
 1. Med Raspberry Pi slått av, koble den andre enden av Grove-kabelen til den digitale kontakten merket **D5** på Grove Base-hatten som er festet til Pi-en. Denne kontakten er den andre fra venstre, på raden av kontakter ved siden av GPIO-pinnene.
 
-![Grove-knappen koblet til kontakt D5](../../../../../translated_images/pi-button.c7a1a4f55943341ce1baf1057658e9a205804d4131d258e820c93f951df0abf3.no.png)
+![Grove-knappen koblet til kontakt D5](../../../../../translated_images/no/pi-button.c7a1a4f55943341ce1baf1057658e9a205804d4131d258e820c93f951df0abf3.png)
 
 ## Ta opp lyd
 

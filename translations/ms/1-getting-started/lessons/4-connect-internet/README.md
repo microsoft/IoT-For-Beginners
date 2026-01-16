@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Sambungkan peranti anda ke Internet
 
-![Gambaran sketchnote untuk pelajaran ini](../../../../../translated_images/lesson-4.7344e074ea68fa545fd320b12dce36d72dd62d28c3b4596cb26cf315f434b98f.ms.jpg)
+![Gambaran sketchnote untuk pelajaran ini](../../../../../translated_images/ms/lesson-4.7344e074ea68fa545fd320b12dce36d72dd62d28c3b4596cb26cf315f434b98f.jpg)
 
 > Sketchnote oleh [Nitya Narasimhan](https://github.com/nitya). Klik imej untuk versi yang lebih besar.
 
@@ -46,7 +46,7 @@ Dalam pelajaran ini, kita akan membincangkan:
 
 Terdapat beberapa protokol komunikasi popular yang digunakan oleh peranti IoT untuk berkomunikasi dengan Internet. Yang paling popular adalah berdasarkan pemesejan publish/subscribe melalui sejenis broker. Peranti IoT disambungkan ke broker dan menerbitkan telemetri serta melanggan arahan. Perkhidmatan awan juga disambungkan ke broker dan melanggan semua mesej telemetri serta menerbitkan arahan sama ada kepada peranti tertentu, atau kepada kumpulan peranti.
 
-![Peranti IoT disambungkan ke broker dan menerbitkan telemetri serta melanggan arahan. Perkhidmatan awan disambungkan ke broker dan melanggan semua telemetri serta menghantar arahan kepada peranti tertentu.](../../../../../translated_images/pub-sub.7c7ed43fe9fd15d4.ms.png)
+![Peranti IoT disambungkan ke broker dan menerbitkan telemetri serta melanggan arahan. Perkhidmatan awan disambungkan ke broker dan melanggan semua telemetri serta menghantar arahan kepada peranti tertentu.](../../../../../translated_images/ms/pub-sub.7c7ed43fe9fd15d4.png)
 
 MQTT adalah protokol komunikasi paling popular untuk peranti IoT dan akan dibincangkan dalam pelajaran ini. Protokol lain termasuk AMQP dan HTTP/HTTPS.
 
@@ -56,7 +56,7 @@ MQTT adalah protokol komunikasi paling popular untuk peranti IoT dan akan dibinc
 
 MQTT mempunyai satu broker dan pelbagai klien. Semua klien disambungkan ke broker, dan broker mengarahkan mesej kepada klien yang relevan. Mesej diarahkan menggunakan topik yang dinamakan, bukannya dihantar terus kepada klien individu. Klien boleh menerbitkan kepada satu topik, dan mana-mana klien yang melanggan topik itu akan menerima mesej tersebut.
 
-![Peranti IoT menerbitkan telemetri pada topik /telemetry, dan perkhidmatan awan melanggan topik tersebut](../../../../../translated_images/mqtt.cbf7f21d9adc3e17548b359444cc11bb4bf2010543e32ece9a47becf54438c23.ms.png)
+![Peranti IoT menerbitkan telemetri pada topik /telemetry, dan perkhidmatan awan melanggan topik tersebut](../../../../../translated_images/ms/mqtt.cbf7f21d9adc3e17548b359444cc11bb4bf2010543e32ece9a47becf54438c23.png)
 
 ✅ Lakukan penyelidikan. Jika anda mempunyai banyak peranti IoT, bagaimana anda boleh memastikan broker MQTT anda dapat mengendalikan semua mesej?
 
@@ -78,7 +78,7 @@ Daripada menangani kerumitan menyiapkan broker MQTT sebagai sebahagian daripada 
 
 > 💁 Broker ujian ini adalah awam dan tidak selamat. Sesiapa sahaja boleh mendengar apa yang anda terbitkan, jadi ia tidak boleh digunakan dengan data yang perlu dirahsiakan.
 
-![Carta alir tugasan menunjukkan tahap cahaya dibaca dan diperiksa, dan LED dikawal](../../../../../translated_images/assignment-1-internet-flow.3256feab5f052fd273bf4e331157c574c2c3fa42e479836fc9c3586f41db35a5.ms.png)
+![Carta alir tugasan menunjukkan tahap cahaya dibaca dan diperiksa, dan LED dikawal](../../../../../translated_images/ms/assignment-1-internet-flow.3256feab5f052fd273bf4e331157c574c2c3fa42e479836fc9c3586f41db35a5.png)
 
 Ikuti langkah yang relevan di bawah untuk menyambungkan peranti anda ke broker MQTT:
 
@@ -115,7 +115,7 @@ Perkataan telemetri berasal dari akar bahasa Yunani yang bermaksud mengukur dari
 
 Mari kita lihat kembali contoh termostat pintar dari Pelajaran 1.
 
-![Termostat yang disambungkan ke Internet menggunakan pelbagai sensor bilik](../../../../../translated_images/telemetry.21e5d8b97649d2eb.ms.png)
+![Termostat yang disambungkan ke Internet menggunakan pelbagai sensor bilik](../../../../../translated_images/ms/telemetry.21e5d8b97649d2eb.png)
 
 Termostat mempunyai sensor suhu untuk mengumpul telemetri. Ia kemungkinan besar mempunyai satu sensor suhu terbina dalam, dan mungkin disambungkan ke pelbagai sensor suhu luaran melalui protokol tanpa wayar seperti [Bluetooth Low Energy](https://wikipedia.org/wiki/Bluetooth_Low_Energy) (BLE).
 
@@ -267,11 +267,11 @@ Tulis kod pelayan.
 
 1. Apabila VS Code dilancarkan, ia akan mengaktifkan persekitaran maya Python. Ini akan dilaporkan di bar status bawah:
 
-    ![VS Code menunjukkan persekitaran maya yang dipilih](../../../../../translated_images/vscode-virtual-env.8ba42e04c3d533cf.ms.png)
+    ![VS Code menunjukkan persekitaran maya yang dipilih](../../../../../translated_images/ms/vscode-virtual-env.8ba42e04c3d533cf.png)
 
 1. Jika Terminal VS Code sudah berjalan semasa VS Code dimulakan, ia tidak akan mempunyai persekitaran maya yang diaktifkan di dalamnya. Cara paling mudah ialah mematikan terminal menggunakan butang **Kill the active terminal instance**:
 
-    ![Butang VS Code Kill the active terminal instance](../../../../../translated_images/vscode-kill-terminal.1cc4de7c6f25ee08.ms.png)
+    ![Butang VS Code Kill the active terminal instance](../../../../../translated_images/ms/vscode-kill-terminal.1cc4de7c6f25ee08.png)
 
 1. Lancarkan Terminal VS Code baru dengan memilih *Terminal -> New Terminal*, atau menekan `` CTRL+` ``. Terminal baru akan memuatkan persekitaran maya, dengan panggilan untuk mengaktifkannya muncul di terminal. Nama persekitaran maya (`.venv`) juga akan berada dalam prompt:
 
@@ -359,7 +359,7 @@ Untuk mesin, anda mungkin ingin menyimpan data, terutamanya jika ia digunakan un
 
 Pereka peranti IoT juga harus mempertimbangkan sama ada peranti IoT boleh digunakan semasa gangguan Internet atau kehilangan isyarat disebabkan oleh lokasi. Termostat pintar harus dapat membuat beberapa keputusan terhad untuk mengawal pemanasan jika ia tidak dapat menghantar telemetri ke awan disebabkan oleh gangguan.
 
-[![Ferrari ini menjadi tidak berfungsi kerana seseorang cuba menaik tarafnya di bawah tanah di mana tiada isyarat selular](../../../../../translated_images/bricked-car.dc38f8efadc6c59d76211f981a521efb300939283dee468f79503aae3ec67615.ms.png)](https://twitter.com/internetofshit/status/1315736960082808832)
+[![Ferrari ini menjadi tidak berfungsi kerana seseorang cuba menaik tarafnya di bawah tanah di mana tiada isyarat selular](../../../../../translated_images/ms/bricked-car.dc38f8efadc6c59d76211f981a521efb300939283dee468f79503aae3ec67615.png)](https://twitter.com/internetofshit/status/1315736960082808832)
 
 Untuk MQTT menangani kehilangan sambungan, kod peranti dan pelayan perlu bertanggungjawab untuk memastikan penghantaran mesej jika diperlukan, contohnya dengan memerlukan semua mesej yang dihantar dijawab oleh mesej tambahan pada topik balasan, dan jika tidak, ia diletakkan dalam barisan secara manual untuk dihantar semula kemudian.
 
@@ -367,7 +367,7 @@ Untuk MQTT menangani kehilangan sambungan, kod peranti dan pelayan perlu bertang
 
 Arahan adalah mesej yang dihantar oleh awan kepada peranti, mengarahkannya untuk melakukan sesuatu. Kebanyakan masa ini melibatkan memberikan beberapa jenis output melalui aktuator, tetapi ia juga boleh menjadi arahan untuk peranti itu sendiri, seperti untuk memulakan semula, atau mengumpulkan telemetri tambahan dan mengembalikannya sebagai respons kepada arahan.
 
-![Termostat yang disambungkan ke Internet menerima arahan untuk menghidupkan pemanasan](../../../../../translated_images/commands.d6c06bbbb3a02cce95f2831a1c331daf6dedd4e470c4aa2b0ae54f332016e504.ms.png)
+![Termostat yang disambungkan ke Internet menerima arahan untuk menghidupkan pemanasan](../../../../../translated_images/ms/commands.d6c06bbbb3a02cce95f2831a1c331daf6dedd4e470c4aa2b0ae54f332016e504.png)
 
 Termostat boleh menerima arahan dari awan untuk menghidupkan pemanasan. Berdasarkan data telemetri dari semua sensor, jika perkhidmatan awan telah memutuskan bahawa pemanasan harus dihidupkan, maka ia menghantar arahan yang berkaitan.
 

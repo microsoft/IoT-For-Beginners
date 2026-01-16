@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Begrijp taal
 
-![Een schetsnotitie-overzicht van deze les](../../../../../translated_images/lesson-22.6148ea28500d9e00c396aaa2649935fb6641362c8f03d8e5e90a676977ab01dd.nl.jpg)
+![Een schetsnotitie-overzicht van deze les](../../../../../translated_images/nl/lesson-22.6148ea28500d9e00c396aaa2649935fb6641362c8f03d8e5e90a676977ab01dd.jpg)
 
 > Schetsnotitie door [Nitya Narasimhan](https://github.com/nitya). Klik op de afbeelding voor een grotere versie.
 
@@ -55,7 +55,7 @@ Taalbegripsmodellen zijn AI-modellen die zijn getraind om bepaalde details uit t
 
 ## Een taalbegripsmodel maken
 
-![Het LUIS-logo](../../../../../translated_images/luis-logo.5cb4f3e88c020ee6df4f614e8831f4a4b6809a7247bf52085fb48d629ef9be52.nl.png)
+![Het LUIS-logo](../../../../../translated_images/nl/luis-logo.5cb4f3e88c020ee6df4f614e8831f4a4b6809a7247bf52085fb48d629ef9be52.png)
 
 Je kunt taalbegripsmodellen maken met LUIS, een taalbegripsdienst van Microsoft die deel uitmaakt van Cognitive Services.
 
@@ -126,7 +126,7 @@ Zodra de entiteiten zijn gedefinieerd, maak je intenties. Deze worden geleerd do
 
 Je geeft vervolgens aan welke delen van deze zinnen overeenkomen met de entiteiten:
 
-![De zin "zet een timer voor 1 minuut en 12 seconden" opgesplitst in entiteiten](../../../../../translated_images/sentence-as-intent-entities.301401696f992259.nl.png)
+![De zin "zet een timer voor 1 minuut en 12 seconden" opgesplitst in entiteiten](../../../../../translated_images/nl/sentence-as-intent-entities.301401696f992259.png)
 
 De zin `zet een timer voor 1 minuut en 12 seconden` heeft de intentie `timer instellen`. Het heeft ook 2 entiteiten met elk 2 waarden:
 
@@ -178,7 +178,7 @@ Je kunt instructies vinden voor het gebruik van de LUIS-portal in de [Quickstart
 
 1. Terwijl je elk voorbeeld invoert, zal LUIS beginnen met het detecteren van entiteiten en deze onderstrepen en labelen.
 
-    ![De voorbeelden met de onderstreepte getallen en tijdseenheden door LUIS](../../../../../translated_images/luis-intent-examples.25716580b2d2723cf1bafdf277d015c7f046d8cfa20f27bddf3a0873ec45fab7.nl.png)
+    ![De voorbeelden met de onderstreepte getallen en tijdseenheden door LUIS](../../../../../translated_images/nl/luis-intent-examples.25716580b2d2723cf1bafdf277d015c7f046d8cfa20f27bddf3a0873ec45fab7.png)
 
 ### Taak - het model trainen en testen
 

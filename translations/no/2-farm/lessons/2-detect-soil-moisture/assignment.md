@@ -29,14 +29,14 @@ Du må gjenta disse trinnene flere ganger for å få de nødvendige avlesningene
 
 Den gravimetriske jordfuktigheten beregnes som:
 
-![jordfuktighet % er vekt våt minus vekt tørr, delt på vekt tørr, ganger 100](../../../../../translated_images/gsm-calculation.6da38c6201eec14e7573bb2647aa18892883193553d23c9d77e5dc681522dfb2.no.png)
+![jordfuktighet % er vekt våt minus vekt tørr, delt på vekt tørr, ganger 100](../../../../../translated_images/no/gsm-calculation.6da38c6201eec14e7573bb2647aa18892883193553d23c9d77e5dc681522dfb2.png)
 
 * W - vekten av den våte jorden
 * W - vekten av den tørre jorden
 
 For eksempel, si at du har en jordprøve som veier 212g våt og 197g tørr.
 
-![Beregningen fylt inn](../../../../../translated_images/gsm-calculation-example.99f9803b4f29e97668e7c15412136c0c399ab12dbba0b89596fdae9d8aedb6fb.no.png)
+![Beregningen fylt inn](../../../../../translated_images/no/gsm-calculation-example.99f9803b4f29e97668e7c15412136c0c399ab12dbba0b89596fdae9d8aedb6fb.png)
 
 * W = 212g
 * W = 197g

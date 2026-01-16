@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Store location data
 
-![A sketchnote overview of this lesson](../../../../../translated_images/lesson-12.ca7f53039712a3ec14ad6474d8445361c84adab643edc53fa6269b77895606bb.my.jpg)
+![A sketchnote overview of this lesson](../../../../../translated_images/my/lesson-12.ca7f53039712a3ec14ad6474d8445361c84adab643edc53fa6269b77895606bb.jpg)
 
 > Sketchnote by [Nitya Narasimhan](https://github.com/nitya). Click the image for a larger version.
 
@@ -66,7 +66,7 @@ Database ဆိုတာ ဒေတာကို သိမ်းဆည်းပြ
 
 ပထမဆုံး Database များသည် Relational Database Management Systems (RDBMS) သို့မဟုတ် Relational Database များဖြစ်သည်။ SQL Database များဟုလည်း သိထားကြသည်။ SQL Database များသည် Structured Query Language (SQL) ကို အသုံးပြုပြီး ဒေတာကို ထည့်သွင်း၊ ဖယ်ရှား၊ ပြင်ဆင် သို့မဟုတ် ရှာဖွေနိုင်သည်။ Database များတွင် schema - စာရင်းဇယားများနှင့် ဆက်နွယ်မှုများပါဝင်သော ဖွဲ့စည်းမှုတစ်ခုရှိသည်။ 
 
-![A relational database with the ID of the User table relating to the user ID column of the purchases table, and the ID of the products table relating to the product ID of the purchases table](../../../../../translated_images/sql-database.be160f12bfccefd3.my.png)
+![A relational database with the ID of the User table relating to the user ID column of the purchases table, and the ID of the products table relating to the product ID of the purchases table](../../../../../translated_images/my/sql-database.be160f12bfccefd3.png)
 
 ဥပမာအားဖြင့် သင်သည် အသုံးပြုသူ၏ ကိုယ်ရေးအချက်အလက်များကို စာရင်းဇယားတစ်ခုတွင် သိမ်းဆည်းလိုပါက အသုံးပြုသူတစ်ဦးစီအတွက် ထူးခြားသော ID တစ်ခုရှိပြီး အမည်နှင့် လိပ်စာတို့ပါဝင်သော စာရင်းဇယားတစ်ခုတွင် ထည့်သွင်းထားသည်။ သင်သည် အသုံးပြုသူ၏ ဝယ်ယူမှုများကို သိမ်းဆည်းလိုပါက အသစ်သော စာရင်းဇယားတွင် အသုံးပြုသူ၏ ID ကို ထည့်သွင်းထားသော ကော်လံတစ်ခုရှိသည်။ 
 
@@ -84,7 +84,7 @@ NoSQL Database များသည် SQL Database များ၏ တင်း�
 
 > 💁 NoSQL Database များသည် ၎င်းတို့၏ နာမည်နှင့် မညီဘဲ SQL ကို အသုံးပြုပြီး ဒေတာကို ရှာဖွေနိုင်စေသည်။
 
-![Documents in folders in a NoSQL database](../../../../../translated_images/noqsl-database.62d24ccf5b73f60d35c245a8533f1c7147c0928e955b82cb290b2e184bb434df.my.png)
+![Documents in folders in a NoSQL database](../../../../../translated_images/my/noqsl-database.62d24ccf5b73f60d35c245a8533f1c7147c0928e955b82cb290b2e184bb434df.png)
 
 NoSQL Database များတွင် schema မရှိသောကြောင့် Unstructured ဒေတာကို သိမ်းဆည်းနိုင်သည်။ JSON document များကို အသုံးပြုပြီး သိမ်းဆည်းနိုင်သည်။ 
 
@@ -100,7 +100,7 @@ Azure CosmosDB, MongoDB, CouchDB တို့သည် NoSQL Database မျာ�
 
 ပြီးခဲ့တဲ့ သင်ခန်းစာမှာ သင်သည် GPS sensor ကို အသုံးပြုပြီး GPS ဒေတာကို ဖမ်းယူခဲ့သည်။ Cloud-based IoT service တွင် ဒေတာကို သိမ်းဆည်းရန် IoT Hub သို့ ပေးပို့ရန် လိုအပ်သည်။
 
-![Sending GPS telemetry from an IoT device to IoT Hub](../../../../../translated_images/gps-telemetry-iot-hub.8115335d51cd2c1285d20e9d1b18cf685e59a8e093e7797291ef173445af6f3d.my.png)
+![Sending GPS telemetry from an IoT device to IoT Hub](../../../../../translated_images/my/gps-telemetry-iot-hub.8115335d51cd2c1285d20e9d1b18cf685e59a8e093e7797291ef173445af6f3d.png)
 
 ### Task - send GPS data to an IoT Hub
 
@@ -174,7 +174,7 @@ Cold path သည် ရှေးဟောင်းဒေတာကို သိ�
 
 IoT Hub သို့ ဒေတာရောက်ရှိပြီးနောက် serverless code ကို အသုံးပြုပြီး event များကို လိုက်နာနိုင်သည်။ 
 
-![Sending GPS telemetry from an IoT device to IoT Hub, then to Azure Functions via an event hub trigger](../../../../../translated_images/gps-telemetry-iot-hub-functions.24d3fa5592455e9f4e2fe73856b40c3915a292b90263c31d652acfd976cfedd8.my.png)
+![Sending GPS telemetry from an IoT device to IoT Hub, then to Azure Functions via an event hub trigger](../../../../../translated_images/my/gps-telemetry-iot-hub-functions.24d3fa5592455e9f4e2fe73856b40c3915a292b90263c31d652acfd976cfedd8.png)
 
 ### Task - handle GPS events using serverless code
 
@@ -196,7 +196,7 @@ IoT Hub သို့ ဒေတာရောက်ရှိပြီးနော�
 
 ## Azure Storage Accounts
 
-![Azure Storage logo](../../../../../translated_images/azure-storage-logo.605c0f602c640d482a80f1b35a2629a32d595711b7ab1d7ceea843250615ff32.my.png)
+![Azure Storage logo](../../../../../translated_images/my/azure-storage-logo.605c0f602c640d482a80f1b35a2629a32d595711b7ab1d7ceea843250615ff32.png)
 
 Azure Storage Accounts သည် အမျိုးမျိုးသောနည်းလမ်းများဖြင့် data ကို သိမ်းဆည်းနိုင်သော အထွေထွေ storage service ဖြစ်သည်။ Blob, queue, table, file အဖြစ် data ကို သိမ်းဆည်းနိုင်ပြီး တစ်ချိန်တည်းတွင် အားလုံးကို သိမ်းဆည်းနိုင်သည်။
 
@@ -235,7 +235,7 @@ File storage သည် cloud တွင် file များကို သိမ�
 
 ဒီ lesson တွင် Python SDK ကို အသုံးပြု၍ blob storage နှင့် အလုပ်လုပ်ပုံကို လေ့လာမည်။
 
-![IoT device မှ GPS telemetry ကို IoT Hub သို့ ပို့ပြီး၊ Azure Functions မှ event hub trigger ဖြင့် blob storage တွင် သိမ်းဆည်းခြင်း](../../../../../translated_images/save-telemetry-to-storage-from-functions.ed3b1820980097f1.my.png)
+![IoT device မှ GPS telemetry ကို IoT Hub သို့ ပို့ပြီး၊ Azure Functions မှ event hub trigger ဖြင့် blob storage တွင် သိမ်းဆည်းခြင်း](../../../../../translated_images/my/save-telemetry-to-storage-from-functions.ed3b1820980097f1.png)
 
 Data ကို JSON blob အဖြစ် သိမ်းဆည်းမည်၊ format သည် အောက်ပါအတိုင်းဖြစ်သည်-
 

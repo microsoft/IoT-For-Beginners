@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Zabezpiecz swoją roślinę
 
-![Szkicowy przegląd tej lekcji](../../../../../translated_images/lesson-10.829c86b80b9403bb770929ee553a1d293afe50dc23121aaf9be144673ae012cc.pl.jpg)
+![Szkicowy przegląd tej lekcji](../../../../../translated_images/pl/lesson-10.829c86b80b9403bb770929ee553a1d293afe50dc23121aaf9be144673ae012cc.jpg)
 
 > Szkic autorstwa [Nitya Narasimhan](https://github.com/nitya). Kliknij obraz, aby zobaczyć większą wersję.
 
@@ -61,11 +61,11 @@ To są scenariusze z prawdziwego życia i zdarzają się cały czas. Niektóre p
 
 Kiedy urządzenie łączy się z usługą IoT, używa identyfikatora, aby się zidentyfikować. Problem polega na tym, że ten identyfikator można sklonować – haker mógłby skonfigurować złośliwe urządzenie, które używa tego samego identyfikatora co prawdziwe urządzenie, ale wysyła fałszywe dane.
 
-![Zarówno prawidłowe, jak i złośliwe urządzenia mogą używać tego samego identyfikatora do wysyłania telemetrii](../../../../../translated_images/iot-device-and-hacked-device-connecting.e0671675df74d6d99eb1dedb5a670e606f698efa6202b1ad4c8ae548db299cc6.pl.png)
+![Zarówno prawidłowe, jak i złośliwe urządzenia mogą używać tego samego identyfikatora do wysyłania telemetrii](../../../../../translated_images/pl/iot-device-and-hacked-device-connecting.e0671675df74d6d99eb1dedb5a670e606f698efa6202b1ad4c8ae548db299cc6.png)
 
 Rozwiązaniem tego problemu jest przekształcenie wysyłanych danych w zaszyfrowany format, używając wartości znanej tylko urządzeniu i chmurze. Proces ten nazywa się *szyfrowaniem*, a wartość używana do szyfrowania danych to *klucz szyfrujący*.
 
-![Jeśli używane jest szyfrowanie, akceptowane są tylko zaszyfrowane wiadomości, inne są odrzucane](../../../../../translated_images/iot-device-and-hacked-device-connecting-encryption.5941aff601fc978f979e46f2849b573564eeb4a4dc5b52f669f62745397492fb.pl.png)
+![Jeśli używane jest szyfrowanie, akceptowane są tylko zaszyfrowane wiadomości, inne są odrzucane](../../../../../translated_images/pl/iot-device-and-hacked-device-connecting-encryption.5941aff601fc978f979e46f2849b573564eeb4a4dc5b52f669f62745397492fb.png)
 
 Usługa w chmurze może następnie przekształcić dane z powrotem w czytelny format, używając procesu zwanego *odszyfrowaniem*, korzystając z tego samego klucza szyfrującego lub *klucza deszyfrującego*. Jeśli zaszyfrowana wiadomość nie może zostać odszyfrowana za pomocą klucza, oznacza to, że urządzenie zostało zhakowane, a wiadomość jest odrzucana.
 
@@ -97,15 +97,15 @@ Szyfrowanie występuje w dwóch rodzajach – symetrycznym i asymetrycznym.
 
 **Symetryczne** szyfrowanie używa tego samego klucza do szyfrowania i odszyfrowywania danych. Zarówno nadawca, jak i odbiorca muszą znać ten sam klucz. Jest to najmniej bezpieczny rodzaj szyfrowania, ponieważ klucz musi zostać w jakiś sposób udostępniony. Aby nadawca mógł wysłać zaszyfrowaną wiadomość odbiorcy, nadawca najpierw musi przesłać odbiorcy klucz.
 
-![Szyfrowanie symetryczne używa tego samego klucza do szyfrowania i odszyfrowywania wiadomości](../../../../../translated_images/send-message-symmetric-key.a2e8ad0d495896ff.pl.png)
+![Szyfrowanie symetryczne używa tego samego klucza do szyfrowania i odszyfrowywania wiadomości](../../../../../translated_images/pl/send-message-symmetric-key.a2e8ad0d495896ff.png)
 
 Jeśli klucz zostanie przechwycony podczas przesyłania lub jeśli nadawca lub odbiorca zostaną zhakowani i klucz zostanie znaleziony, szyfrowanie można złamać.
 
-![Szyfrowanie symetryczne jest bezpieczne tylko wtedy, gdy haker nie przechwyci klucza – jeśli tak się stanie, może przechwycić i odszyfrować wiadomość](../../../../../translated_images/send-message-symmetric-key-hacker.e7cb53db1707adfb.pl.png)
+![Szyfrowanie symetryczne jest bezpieczne tylko wtedy, gdy haker nie przechwyci klucza – jeśli tak się stanie, może przechwycić i odszyfrować wiadomość](../../../../../translated_images/pl/send-message-symmetric-key-hacker.e7cb53db1707adfb.png)
 
 **Asymetryczne** szyfrowanie używa dwóch kluczy – klucza szyfrującego i klucza deszyfrującego, nazywanych parą kluczy publicznego i prywatnego. Klucz publiczny służy do szyfrowania wiadomości, ale nie można go użyć do jej odszyfrowania, natomiast klucz prywatny służy do odszyfrowania wiadomości, ale nie można go użyć do jej zaszyfrowania.
 
-![Szyfrowanie asymetryczne używa różnych kluczy do szyfrowania i odszyfrowywania. Klucz szyfrujący jest wysyłany do nadawców wiadomości, aby mogli zaszyfrować wiadomość przed wysłaniem jej do odbiorcy, który posiada klucze](../../../../../translated_images/send-message-asymmetric.7abe327c62615b8c.pl.png)
+![Szyfrowanie asymetryczne używa różnych kluczy do szyfrowania i odszyfrowywania. Klucz szyfrujący jest wysyłany do nadawców wiadomości, aby mogli zaszyfrować wiadomość przed wysłaniem jej do odbiorcy, który posiada klucze](../../../../../translated_images/pl/send-message-asymmetric.7abe327c62615b8c.png)
 
 Odbiorca udostępnia swój klucz publiczny, a nadawca używa go do zaszyfrowania wiadomości. Po wysłaniu wiadomości odbiorca odszyfrowuje ją za pomocą swojego klucza prywatnego. Szyfrowanie asymetryczne jest bardziej bezpieczne, ponieważ klucz prywatny jest przechowywany w tajemnicy przez odbiorcę i nigdy nie jest udostępniany. Klucz publiczny może być dostępny dla każdego, ponieważ można go użyć tylko do szyfrowania wiadomości.
 
@@ -163,7 +163,7 @@ Te certyfikaty zawierają szereg pól, w tym informacje o tym, od kogo pochodzi 
 
 Podczas korzystania z certyfikatów X.509 zarówno nadawca, jak i odbiorca będą mieli swoje własne klucze publiczne i prywatne, a także certyfikaty X.509 zawierające klucz publiczny. Następnie wymieniają się certyfikatami X.509 w jakiś sposób, używając kluczy publicznych drugiej strony do szyfrowania danych, które wysyłają, oraz swoich własnych kluczy prywatnych do odszyfrowywania danych, które otrzymują.
 
-![Zamiast udostępniać klucz publiczny, możesz udostępnić certyfikat. Użytkownik certyfikatu może zweryfikować, że pochodzi on od ciebie, sprawdzając u urzędu certyfikacji, który go podpisał.](../../../../../translated_images/send-message-certificate.9cc576ac1e46b76e.pl.png)
+![Zamiast udostępniać klucz publiczny, możesz udostępnić certyfikat. Użytkownik certyfikatu może zweryfikować, że pochodzi on od ciebie, sprawdzając u urzędu certyfikacji, który go podpisał.](../../../../../translated_images/pl/send-message-certificate.9cc576ac1e46b76e.png)
 
 Jedną z dużych zalet korzystania z certyfikatów X.509 jest to, że mogą być one współdzielone między urządzeniami. Możesz stworzyć jeden certyfikat, przesłać go do IoT Hub i używać go dla wszystkich swoich urządzeń. Każde urządzenie musi wtedy znać tylko klucz prywatny, aby odszyfrować wiadomości, które otrzymuje z IoT Hub.
 

@@ -35,7 +35,7 @@ Grove LED ਇੱਕ ਮੋਡਿਊਲ ਦੇ ਰੂਪ ਵਿੱਚ ਆਉਂ�
 
 LED ਨੂੰ ਜੋੜੋ।
 
-![A grove LED](../../../../../translated_images/grove-led.6c853be93f473cf2c439cfc74bb1064732b22251a83cedf66e62f783f9cc1a79.pa.png)
+![A grove LED](../../../../../translated_images/pa/grove-led.6c853be93f473cf2c439cfc74bb1064732b22251a83cedf66e62f783f9cc1a79.png)
 
 1. ਆਪਣੀ ਮਨਪਸੰਦ LED ਚੁਣੋ ਅਤੇ LED ਮੋਡਿਊਲ ਦੇ ਦੋ ਛੇਦਾਂ ਵਿੱਚ ਲੱਤਾਂ ਦਾਖਲ ਕਰੋ।
 
@@ -51,7 +51,7 @@ LED ਨੂੰ ਜੋੜੋ।
 
     > 💁 ਸੱਜੇ ਪਾਸੇ ਵਾਲਾ Grove ਸਾਕਟ ਐਨਾਲੌਗ ਜਾਂ ਡਿਜੀਟਲ ਸੈਂਸਰ ਅਤੇ ਐਕਚੁਏਟਰ ਨਾਲ ਵਰਤਿਆ ਜਾ ਸਕਦਾ ਹੈ। ਖੱਬੇ ਪਾਸੇ ਵਾਲਾ ਸਾਕਟ ਸਿਰਫ I2C ਅਤੇ ਡਿਜੀਟਲ ਸੈਂਸਰ ਅਤੇ ਐਕਚੁਏਟਰ ਲਈ ਹੈ। I2C ਨੂੰ ਅਗਲੇ ਪਾਠ ਵਿੱਚ ਕਵਰ ਕੀਤਾ ਜਾਵੇਗਾ।
 
-![The grove LED connected to the right hand socket](../../../../../translated_images/wio-led.265a1897e72d7f21.pa.png)
+![The grove LED connected to the right hand socket](../../../../../translated_images/pa/wio-led.265a1897e72d7f21.png)
 
 ## ਰਾਤ ਦੀ ਲਾਈਟ ਪ੍ਰੋਗਰਾਮ ਕਰੋ
 

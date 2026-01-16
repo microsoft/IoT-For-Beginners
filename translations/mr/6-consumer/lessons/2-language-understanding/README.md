@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # भाषा समजून घेणे
 
-![या धड्याचा स्केच नोट](../../../../../translated_images/lesson-22.6148ea28500d9e00c396aaa2649935fb6641362c8f03d8e5e90a676977ab01dd.mr.jpg)
+![या धड्याचा स्केच नोट](../../../../../translated_images/mr/lesson-22.6148ea28500d9e00c396aaa2649935fb6641362c8f03d8e5e90a676977ab01dd.jpg)
 
 > स्केच नोट [नित्या नरसिंहन](https://github.com/nitya) यांनी तयार केले आहे. मोठ्या आवृत्तीसाठी प्रतिमेवर क्लिक करा.
 
@@ -55,7 +55,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 ## भाषा समजून घेण्याचे मॉडेल तयार करणे
 
-![LUIS लोगो](../../../../../translated_images/luis-logo.5cb4f3e88c020ee6df4f614e8831f4a4b6809a7247bf52085fb48d629ef9be52.mr.png)
+![LUIS लोगो](../../../../../translated_images/mr/luis-logo.5cb4f3e88c020ee6df4f614e8831f4a4b6809a7247bf52085fb48d629ef9be52.png)
 
 तुम्ही LUIS (Language Understanding Intelligent Service) चा वापर करून भाषा समजून घेण्याची मॉडेल्स तयार करू शकता. LUIS हा मायक्रोसॉफ्टचा एक भाषा समजून घेण्याचा सेवा आहे, जो Cognitive Services चा भाग आहे.
 
@@ -126,7 +126,7 @@ LUIS ला प्रशिक्षण देण्यासाठी, प्�
 
 त्यानंतर तुम्ही LUIS ला या वाक्यांमधील घटक कोणत्या भागाशी संबंधित आहेत ते सांगता:
 
-![1 मिनिट आणि 12 सेकंदांसाठी टाइमर सेट करा वाक्य घटकांमध्ये विभागलेले](../../../../../translated_images/sentence-as-intent-entities.301401696f992259.mr.png)
+![1 मिनिट आणि 12 सेकंदांसाठी टाइमर सेट करा वाक्य घटकांमध्ये विभागलेले](../../../../../translated_images/mr/sentence-as-intent-entities.301401696f992259.png)
 
 `set a timer for 1 minute and 12 seconds` या वाक्याचा उद्देश `set timer` आहे. त्यात 2 घटक आहेत, प्रत्येकाचे 2 मूल्ये:
 
@@ -178,7 +178,7 @@ LUIS पोर्टल वापरण्याच्या सूचनां�
 
 1. प्रत्येक उदाहरण लिहिताना, LUIS घटक शोधण्यास सुरुवात करेल आणि सापडलेल्या घटकांना अधोरेखित करून लेबल लावेल.
 
-    ![उदाहरणांमध्ये LUIS ने अधोरेखित केलेले संख्या आणि वेळेचे युनिट](../../../../../translated_images/luis-intent-examples.25716580b2d2723cf1bafdf277d015c7f046d8cfa20f27bddf3a0873ec45fab7.mr.png)
+    ![उदाहरणांमध्ये LUIS ने अधोरेखित केलेले संख्या आणि वेळेचे युनिट](../../../../../translated_images/mr/luis-intent-examples.25716580b2d2723cf1bafdf277d015c7f046d8cfa20f27bddf3a0873ec45fab7.png)
 
 ### कार्य - मॉडेलला प्रशिक्षण द्या आणि चाचणी करा
 

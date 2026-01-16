@@ -29,14 +29,14 @@ CO_OP_TRANSLATOR_METADATA:
 
 गुरुत्वीय मातीतील ओलसरपणाचे प्रमाण खालीलप्रमाणे मोजले जाते:
 
-![मातीतील ओलसरपण % = ओले वजन - कोरडे वजन, विभागलेले कोरड्या वजनाने, नंतर 100 ने गुणिले](../../../../../translated_images/gsm-calculation.6da38c6201eec14e7573bb2647aa18892883193553d23c9d77e5dc681522dfb2.mr.png)
+![मातीतील ओलसरपण % = ओले वजन - कोरडे वजन, विभागलेले कोरड्या वजनाने, नंतर 100 ने गुणिले](../../../../../translated_images/mr/gsm-calculation.6da38c6201eec14e7573bb2647aa18892883193553d23c9d77e5dc681522dfb2.png)
 
 * W - ओल्या मातीचे वजन  
 * W - कोरड्या मातीचे वजन  
 
 उदाहरणार्थ, समजा तुमच्याकडे 212 ग्रॅम ओल्या वजनाचा मातीचा नमुना आहे आणि 197 ग्रॅम कोरड्या वजनाचा आहे.
 
-![भरलेली गणना](../../../../../translated_images/gsm-calculation-example.99f9803b4f29e97668e7c15412136c0c399ab12dbba0b89596fdae9d8aedb6fb.mr.png)
+![भरलेली गणना](../../../../../translated_images/mr/gsm-calculation-example.99f9803b4f29e97668e7c15412136c0c399ab12dbba0b89596fdae9d8aedb6fb.png)
 
 * W = 212g  
 * W = 197g  

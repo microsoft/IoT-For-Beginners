@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Berinteraksi dengan Dunia Fizikal Menggunakan Sensor dan Aktuator
 
-![Gambaran sketchnote untuk pelajaran ini](../../../../../translated_images/lesson-3.cc3b7b4cd646de598698cce043c0393fd62ef42bac2eaf60e61272cd844250f4.ms.jpg)
+![Gambaran sketchnote untuk pelajaran ini](../../../../../translated_images/ms/lesson-3.cc3b7b4cd646de598698cce043c0393fd62ef42bac2eaf60e61272cd844250f4.jpg)
 
 > Sketchnote oleh [Nitya Narasimhan](https://github.com/nitya). Klik gambar untuk versi yang lebih besar.
 
@@ -75,7 +75,7 @@ Beberapa sensor yang paling asas adalah sensor analog. Sensor ini menerima volta
 
 Satu contoh ialah potensiometer. Ini adalah dail yang boleh anda putar antara dua kedudukan dan sensor mengukur putaran tersebut.
 
-![Potensiometer yang diset pada titik tengah dihantar 5 volt mengembalikan 3.8 volt](../../../../../translated_images/potentiometer.35a348b9ce22f6ec.ms.png)
+![Potensiometer yang diset pada titik tengah dihantar 5 volt mengembalikan 3.8 volt](../../../../../translated_images/ms/potentiometer.35a348b9ce22f6ec.png)
 
 Peranti IoT akan menghantar isyarat elektrik kepada potensiometer pada voltan tertentu, seperti 5 volt (5V). Apabila potensiometer disesuaikan, ia mengubah voltan yang keluar dari sisi lain. Bayangkan anda mempunyai potensiometer yang dilabelkan sebagai dail dari 0 hingga [11](https://wikipedia.org/wiki/Up_to_eleven), seperti tombol kelantangan pada penguat. Apabila potensiometer berada dalam kedudukan mati sepenuhnya (0), maka 0V (0 volt) akan keluar. Apabila ia berada dalam kedudukan hidup sepenuhnya (11), 5V (5 volt) akan keluar.
 
@@ -101,7 +101,7 @@ Sensor digital, seperti sensor analog, mengesan dunia di sekeliling mereka mengg
 
 Sensor digital yang paling mudah ialah butang atau suis. Ini adalah sensor dengan dua keadaan, hidup atau mati.
 
-![Butang dihantar 5 volt. Apabila tidak ditekan ia mengembalikan 0 volt, apabila ditekan ia mengembalikan 5 volt](../../../../../translated_images/button.eadb560b77ac45e56f523d9d8876e40444f63b419e33eb820082d461fa79490b.ms.png)
+![Butang dihantar 5 volt. Apabila tidak ditekan ia mengembalikan 0 volt, apabila ditekan ia mengembalikan 5 volt](../../../../../translated_images/ms/button.eadb560b77ac45e56f523d9d8876e40444f63b419e33eb820082d461fa79490b.png)
 
 Pin pada peranti IoT seperti pin GPIO boleh mengukur isyarat ini secara langsung sebagai 0 atau 1. Jika voltan yang dihantar sama dengan voltan yang dikembalikan, nilai yang dibaca ialah 1, jika tidak nilai yang dibaca ialah 0. Tidak perlu menukar isyarat, ia hanya boleh menjadi 1 atau 0.
 
@@ -112,7 +112,7 @@ Pin pada peranti IoT seperti pin GPIO boleh mengukur isyarat ini secara langsung
 
 Sensor digital yang lebih maju membaca nilai analog, kemudian menukarnya menggunakan ADC terbina dalam kepada isyarat digital. Sebagai contoh, sensor suhu digital masih menggunakan termokopel dengan cara yang sama seperti sensor analog, dan masih mengukur perubahan voltan yang disebabkan oleh rintangan termokopel pada suhu semasa. Daripada mengembalikan nilai analog dan bergantung pada peranti atau papan penyambung untuk menukar kepada isyarat digital, ADC yang dibina dalam sensor akan menukar nilai dan menghantarnya sebagai siri 0 dan 1 kepada peranti IoT. 0 dan 1 ini dihantar dengan cara yang sama seperti isyarat digital untuk butang dengan 1 sebagai voltan penuh dan 0 sebagai 0v.
 
-![Sensor suhu digital menukar bacaan analog kepada data binari dengan 0 sebagai 0 volt dan 1 sebagai 5 volt sebelum menghantarnya ke peranti IoT](../../../../../translated_images/temperature-as-digital.85004491b977bae1.ms.png)
+![Sensor suhu digital menukar bacaan analog kepada data binari dengan 0 sebagai 0 volt dan 1 sebagai 5 volt sebelum menghantarnya ke peranti IoT](../../../../../translated_images/ms/temperature-as-digital.85004491b977bae1.png)
 
 Menghantar data digital membolehkan sensor menjadi lebih kompleks dan menghantar data yang lebih terperinci, malah data yang disulitkan untuk sensor yang selamat. Satu contoh ialah kamera. Ini adalah sensor yang menangkap imej dan menghantarnya sebagai data digital yang mengandungi imej tersebut, biasanya dalam format termampat seperti JPEG, untuk dibaca oleh peranti IoT. Ia juga boleh menstrim video dengan menangkap imej dan menghantar sama ada imej lengkap bingkai demi bingkai atau aliran video termampat.
 
@@ -134,7 +134,7 @@ Beberapa aktuator biasa termasuk:
 
 Ikuti panduan yang berkaitan di bawah untuk menambah aktuator pada peranti IoT anda, yang dikawal oleh sensor, untuk membina lampu malam IoT. Ia akan mengumpul tahap cahaya daripada sensor cahaya, dan menggunakan aktuator dalam bentuk LED untuk memancarkan cahaya apabila tahap cahaya yang dikesan terlalu rendah.
 
-![Carta alir tugasan menunjukkan tahap cahaya dibaca dan diperiksa, dan LED dikawal](../../../../../translated_images/assignment-1-flow.7552a51acb1a5ec858dca6e855cdbb44206434006df8ba3799a25afcdab1665d.ms.png)
+![Carta alir tugasan menunjukkan tahap cahaya dibaca dan diperiksa, dan LED dikawal](../../../../../translated_images/ms/assignment-1-flow.7552a51acb1a5ec858dca6e855cdbb44206434006df8ba3799a25afcdab1665d.png)
 
 * [Arduino - Wio Terminal](wio-terminal-actuator.md)
 * [Komputer papan tunggal - Raspberry Pi](pi-actuator.md)
@@ -149,7 +149,7 @@ Seperti sensor, aktuator boleh menjadi analog atau digital.
 Aktuator analog mengambil isyarat analog dan menukarnya kepada beberapa jenis interaksi, di mana interaksi berubah berdasarkan voltan yang dibekalkan.
 
 Satu contoh ialah lampu boleh dimalapkan, seperti yang mungkin anda ada di rumah anda. Jumlah voltan yang dibekalkan kepada lampu menentukan kecerahannya.
-![Cahaya malap pada voltan rendah dan lebih terang pada voltan tinggi](../../../../../translated_images/dimmable-light.9ceffeb195dec1a849da718b2d71b32c35171ff7dfea9c07bbf82646a67acf6b.ms.png)
+![Cahaya malap pada voltan rendah dan lebih terang pada voltan tinggi](../../../../../translated_images/ms/dimmable-light.9ceffeb195dec1a849da718b2d71b32c35171ff7dfea9c07bbf82646a67acf6b.png)
 
 Seperti sensor, peranti IoT sebenar berfungsi dengan isyarat digital, bukan analog. Ini bermakna untuk menghantar isyarat analog, peranti IoT memerlukan penukar digital ke analog (DAC), sama ada secara langsung pada peranti IoT atau pada papan penyambung. Penukar ini akan menukar 0 dan 1 daripada peranti IoT kepada voltan analog yang boleh digunakan oleh penggerak.
 
@@ -164,7 +164,7 @@ Sebagai contoh, anda boleh menggunakan PWM untuk mengawal kelajuan motor.
 
 Bayangkan anda mengawal motor dengan bekalan 5V. Anda menghantar denyutan pendek kepada motor anda, menukar voltan kepada tinggi (5V) selama dua peratus saat (0.02s). Dalam masa itu, motor anda boleh berputar satu persepuluh putaran, atau 36°. Isyarat kemudian berhenti selama dua peratus saat (0.02s), menghantar isyarat rendah (0V). Setiap kitaran hidup kemudian mati berlangsung selama 0.04s. Kitaran kemudian berulang.
 
-![Modulasi lebar denyutan putaran motor pada 150 RPM](../../../../../translated_images/pwm-motor-150rpm.83347ac04ca38482.ms.png)
+![Modulasi lebar denyutan putaran motor pada 150 RPM](../../../../../translated_images/ms/pwm-motor-150rpm.83347ac04ca38482.png)
 
 Ini bermakna dalam satu saat anda mempunyai 25 denyutan 5V selama 0.02s yang memutar motor, setiap satu diikuti oleh jeda 0.02s pada 0V yang tidak memutar motor. Setiap denyutan memutar motor satu persepuluh putaran, bermakna motor melengkapkan 2.5 putaran sesaat. Anda telah menggunakan isyarat digital untuk memutar motor pada 2.5 putaran sesaat, atau 150 [putaran per minit](https://wikipedia.org/wiki/Revolutions_per_minute) (ukuran kelajuan putaran yang tidak standard).
 
@@ -175,7 +175,7 @@ Ini bermakna dalam satu saat anda mempunyai 25 denyutan 5V selama 0.02s yang mem
 
 > 🎓 Apabila isyarat PWM hidup separuh masa, dan mati separuh masa, ia dirujuk sebagai [kitaran tugas 50%](https://wikipedia.org/wiki/Duty_cycle). Kitaran tugas diukur sebagai peratusan masa isyarat berada dalam keadaan hidup berbanding keadaan mati.
 
-![Modulasi lebar denyutan putaran motor pada 75 RPM](../../../../../translated_images/pwm-motor-75rpm.a5e4c939934b6e14.ms.png)
+![Modulasi lebar denyutan putaran motor pada 75 RPM](../../../../../translated_images/ms/pwm-motor-75rpm.a5e4c939934b6e14.png)
 
 Anda boleh mengubah kelajuan motor dengan mengubah saiz denyutan. Sebagai contoh, dengan motor yang sama, anda boleh mengekalkan masa kitaran yang sama iaitu 0.04s, dengan denyutan hidup dikurangkan kepada 0.01s, dan denyutan mati meningkat kepada 0.03s. Anda mempunyai jumlah denyutan yang sama setiap saat (25), tetapi setiap denyutan hidup adalah separuh panjang. Denyutan separuh panjang hanya memutar motor satu perdua puluh putaran, dan pada 25 denyutan sesaat akan melengkapkan 1.25 putaran sesaat atau 75rpm. Dengan mengubah kelajuan denyutan isyarat digital, anda telah mengurangkan separuh kelajuan motor analog.
 
@@ -196,7 +196,7 @@ Penggerak digital, seperti sensor digital, sama ada mempunyai dua keadaan yang d
 
 Satu penggerak digital yang mudah ialah LED. Apabila peranti menghantar isyarat digital 1, voltan tinggi dihantar yang menyalakan LED. Apabila isyarat digital 0 dihantar, voltan turun kepada 0V dan LED padam.
 
-![LED padam pada 0 volt dan menyala pada 5V](../../../../../translated_images/led.ec6d94f66676a174ad06d9fa9ea49c2ee89beb18b312d5c6476467c66375b07f.ms.png)
+![LED padam pada 0 volt dan menyala pada 5V](../../../../../translated_images/ms/led.ec6d94f66676a174ad06d9fa9ea49c2ee89beb18b312d5c6476467c66375b07f.png)
 
 ✅ Apakah penggerak 2-keadaan mudah lain yang boleh anda fikirkan? Satu contoh ialah solenoid, iaitu elektromagnet yang boleh diaktifkan untuk melakukan perkara seperti menggerakkan bolt pintu untuk mengunci/membuka kunci pintu.
 

@@ -93,7 +93,7 @@ Perkhidmatan Custom Vision mempunyai SDK Python yang boleh anda gunakan untuk me
 
     Anda akan dapat melihat imej yang diambil, dan nilai-nilai ini dalam tab **Predictions** di Custom Vision.
 
-    ![Sebuah pisang dalam Custom Vision diramalkan matang pada 56.8% dan tidak matang pada 43.1%](../../../../../translated_images/custom-vision-banana-prediction.30cdff4e1d72db5d9a0be0193790a47c2b387da034e12dc1314dd57ca2131b59.ms.png)
+    ![Sebuah pisang dalam Custom Vision diramalkan matang pada 56.8% dan tidak matang pada 43.1%](../../../../../translated_images/ms/custom-vision-banana-prediction.30cdff4e1d72db5d9a0be0193790a47c2b387da034e12dc1314dd57ca2131b59.png)
 
 > 💁 Anda boleh menemui kod ini dalam folder [code-classify/pi](../../../../../4-manufacturing/lessons/2-check-fruit-from-device/code-classify/pi) atau [code-classify/virtual-iot-device](../../../../../4-manufacturing/lessons/2-check-fruit-from-device/code-classify/virtual-iot-device).
 

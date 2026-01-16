@@ -43,11 +43,11 @@ Dodaj czujnik wilgotności gleby do aplikacji CounterFit.
 
     1. Wybierz przycisk **Add**, aby utworzyć czujnik *Soil Moisture* na pinie 0.
 
-    ![Ustawienia czujnika wilgotności gleby](../../../../../translated_images/counterfit-create-soil-moisture-sensor.35266135a5e0ae68b29a684d7db0d2933a8098b2307d197f7c71577b724603aa.pl.png)
+    ![Ustawienia czujnika wilgotności gleby](../../../../../translated_images/pl/counterfit-create-soil-moisture-sensor.35266135a5e0ae68b29a684d7db0d2933a8098b2307d197f7c71577b724603aa.png)
 
     Czujnik wilgotności gleby zostanie utworzony i pojawi się na liście czujników.
 
-    ![Utworzony czujnik wilgotności gleby](../../../../../translated_images/counterfit-soil-moisture-sensor.81742b2de0e9de60a3b3b9a2ff8ecc686d428eb6d71820f27a693be26e5aceee.pl.png)
+    ![Utworzony czujnik wilgotności gleby](../../../../../translated_images/pl/counterfit-soil-moisture-sensor.81742b2de0e9de60a3b3b9a2ff8ecc686d428eb6d71820f27a693be26e5aceee.png)
 
 ## Programowanie aplikacji czujnika wilgotności gleby
 

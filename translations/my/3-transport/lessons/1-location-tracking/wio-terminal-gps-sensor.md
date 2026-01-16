@@ -27,13 +27,13 @@ Grove GPS ဆင်ဆာကို Wio Terminal နှင့် ချိတ်�
 
 GPS ဆင်ဆာကို ချိတ်ဆက်ပါ။
 
-![A grove GPS sensor](../../../../../translated_images/grove-gps-sensor.247943bf69b03f0d1820ef6ed10c587f9b650e8db55b936851c92412180bd3e2.my.png)
+![A grove GPS sensor](../../../../../translated_images/my/grove-gps-sensor.247943bf69b03f0d1820ef6ed10c587f9b650e8db55b936851c92412180bd3e2.png)
 
 1. Grove ကေဘယ်တစ်ခု၏ တစ်ဖက်အဆုံးကို GPS ဆင်ဆာရှိ ဆော့ကက်ထဲသို့ ထည့်ပါ။ ၎င်းသည် တစ်ဖက်ဘက်သာ အလွယ်တကူ ထည့်နိုင်ပါမည်။
 
 1. Wio Terminal ကို သင့်ကွန်ပျူတာ သို့မဟုတ် အခြားပါဝါထောက်ပံ့မှုမှ ဖြုတ်ထားပြီးဖြစ်ပါက၊ Grove ကေဘယ်၏ အခြားဖက်အဆုံးကို Wio Terminal ၏ ဘယ်ဖက်ရှိ Grove ဆော့ကက် (မော်နီတာကိုကြည့်နေစဉ်) တွင် ချိတ်ဆက်ပါ။ ၎င်းသည် ပါဝါခလုတ်အနီးရှိ ဆော့ကက်ဖြစ်သည်။
 
-    ![The grove GPS sensor connected to the left hand socket](../../../../../translated_images/wio-gps-sensor.19fd52b81ce58095.my.png)
+    ![The grove GPS sensor connected to the left hand socket](../../../../../translated_images/my/wio-gps-sensor.19fd52b81ce58095.png)
 
 1. GPS ဆင်ဆာကို အင်တင်နာတပ်ဆင်ထားသောနေရာသည် ကောင်းကင်ကို မြင်နိုင်သောနေရာတွင်ထားပါ - အကောင်းဆုံးအနေဖြင့် ပြတင်းပေါက်အနီး သို့မဟုတ် အပြင်ဘက်တွင်ထားပါ။ အင်တင်နာကို အတားအဆီးမရှိသောနေရာတွင်ထားခြင်းဖြင့် သင့်အတွက် ပိုမိုကောင်းမွန်သော သင်္ကေတကို ရယူနိုင်ပါမည်။
 

@@ -29,13 +29,13 @@ Sensor Grove time of flight boleh disambungkan ke Raspberry Pi.
 
 Sambungkan sensor time of flight.
 
-![Sensor Grove time of flight](../../../../../translated_images/grove-time-of-flight-sensor.d82ff2165bfded9f485de54d8d07195a6270a602696825fca19f629ddfe94e86.ms.png)
+![Sensor Grove time of flight](../../../../../translated_images/ms/grove-time-of-flight-sensor.d82ff2165bfded9f485de54d8d07195a6270a602696825fca19f629ddfe94e86.png)
 
 1. Masukkan satu hujung kabel Grove ke dalam soket pada sensor time of flight. Ia hanya boleh dimasukkan dalam satu arah sahaja.
 
 1. Dengan Raspberry Pi dimatikan, sambungkan hujung lain kabel Grove ke salah satu soket I²C yang ditandakan **I²C** pada Grove Base hat yang dipasang pada Pi. Soket ini berada di baris bawah, bertentangan dengan pin GPIO dan bersebelahan dengan slot kabel kamera.
 
-![Sensor Grove time of flight disambungkan ke soket I²C](../../../../../translated_images/pi-time-of-flight-sensor.58c8dc04eb3bfb57.ms.png)
+![Sensor Grove time of flight disambungkan ke soket I²C](../../../../../translated_images/ms/pi-time-of-flight-sensor.58c8dc04eb3bfb57.png)
 
 ## Programkan sensor time of flight
 
@@ -106,7 +106,7 @@ Programkan peranti.
 
     Pencari jarak terletak di bahagian belakang sensor, jadi pastikan anda menggunakan bahagian yang betul semasa mengukur jarak.
 
-    ![Pencari jarak di bahagian belakang sensor time of flight menghala ke pisang](../../../../../translated_images/time-of-flight-banana.079921ad8b1496e4.ms.png)
+    ![Pencari jarak di bahagian belakang sensor time of flight menghala ke pisang](../../../../../translated_images/ms/time-of-flight-banana.079921ad8b1496e4.png)
 
 > 💁 Anda boleh menemui kod ini dalam folder [code-proximity/pi](../../../../../4-manufacturing/lessons/4-trigger-fruit-detector/code-proximity/pi).
 

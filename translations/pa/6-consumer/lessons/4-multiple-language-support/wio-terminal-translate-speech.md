@@ -114,7 +114,7 @@ Speech service REST API ਸਿੱਧੇ ਅਨੁਵਾਦਾਂ ਦਾ ਸਮ�
     >
     > ਉਦਾਹਰਨ ਲਈ, ਜੇਕਰ ਤੁਸੀਂ LUIS ਨੂੰ English ਵਿੱਚ train ਕਰਦੇ ਹੋ, ਪਰ user language ਵਜੋਂ French ਦੀ ਵਰਤੋਂ ਕਰਨਾ ਚਾਹੁੰਦੇ ਹੋ, ਤਾਂ ਤੁਸੀਂ Bing Translate ਦੀ ਵਰਤੋਂ ਕਰਕੇ "set a 2 minute and 27 second timer" ਵਰਗੇ sentences ਨੂੰ English ਤੋਂ French ਵਿੱਚ translate ਕਰ ਸਕਦੇ ਹੋ, ਫਿਰ **Listen translation** ਬਟਨ ਦੀ ਵਰਤੋਂ ਕਰਕੇ translation ਨੂੰ ਆਪਣੇ microphone ਵਿੱਚ ਬੋਲ ਸਕਦੇ ਹੋ।
     >
-    > ![Bing translate ਵਿੱਚ Listen translation ਬਟਨ](../../../../../translated_images/bing-translate.348aa796d6efe2a92f41ea74a5cf42bb4c63d6faaa08e7f46924e072a35daa48.pa.png)
+    > ![Bing translate ਵਿੱਚ Listen translation ਬਟਨ](../../../../../translated_images/pa/bing-translate.348aa796d6efe2a92f41ea74a5cf42bb4c63d6faaa08e7f46924e072a35daa48.png)
 
 1. `SPEECH_LOCATION` ਦੇ ਹੇਠਾਂ translator API key ਅਤੇ location ਸ਼ਾਮਲ ਕਰੋ:
 

@@ -25,7 +25,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 ### कार्य - क्यामेरा जडान गर्नुहोस्
 
-![रास्पबेरी पाई क्यामेरा](../../../../../translated_images/pi-camera-module.4278753c31bd6e757aa2b858be97d72049f71616278cefe4fb5abb485b40a078.ne.png)
+![रास्पबेरी पाई क्यामेरा](../../../../../translated_images/ne/pi-camera-module.4278753c31bd6e757aa2b858be97d72049f71616278cefe4fb5abb485b40a078.png)
 
 1. पाईलाई पावर अफ गर्नुहोस्।
 
@@ -33,17 +33,17 @@ CO_OP_TRANSLATOR_METADATA:
 
     [रास्पबेरी पाई क्यामेरा मोड्युलको दस्तावेजमा](https://projects.raspberrypi.org/en/projects/getting-started-with-picamera/2) क्लिप खोल्ने र केबल जडान गर्ने तरिका देखाउने एनिमेसन फेला पार्न सकिन्छ।
 
-    ![रिबन केबल क्यामेरा मोड्युलमा जडान गरिएको](../../../../../translated_images/pi-camera-ribbon-cable.0bf82acd251611c21ac616f082849413e2b322a261d0e4f8fec344248083b07e.ne.png)
+    ![रिबन केबल क्यामेरा मोड्युलमा जडान गरिएको](../../../../../translated_images/ne/pi-camera-ribbon-cable.0bf82acd251611c21ac616f082849413e2b322a261d0e4f8fec344248083b07e.png)
 
 1. पाईबाट Grove Base Hat हटाउनुहोस्।
 
 1. रिबन केबललाई Grove Base Hat को क्यामेरा स्लटबाट पास गर्नुहोस्। सुनिश्चित गर्नुहोस् कि केबलको निलो पक्ष एनालग पोर्टहरू **A0**, **A1** आदि तर्फ फर्किएको छ।
 
-    ![रिबन केबल Grove Base Hat मार्फत पास हुँदै](../../../../../translated_images/grove-base-hat-ribbon-cable.501fed202fcf73b11b2b68f6d246189f7d15d3e4423c572ddee79d77b4632b47.ne.png)
+    ![रिबन केबल Grove Base Hat मार्फत पास हुँदै](../../../../../translated_images/ne/grove-base-hat-ribbon-cable.501fed202fcf73b11b2b68f6d246189f7d15d3e4423c572ddee79d77b4632b47.png)
 
 1. रिबन केबललाई पाईको क्यामेरा पोर्टमा जडान गर्नुहोस्। फेरि, कालो प्लास्टिक क्लिपलाई माथि तान्नुहोस्, केबललाई जडान गर्नुहोस्, त्यसपछि क्लिपलाई पुन: ठाउँमा धकेल्नुहोस्। केबलको निलो पक्ष USB र इथरनेट पोर्टतर्फ फर्किएको हुनुपर्छ।
 
-    ![रिबन केबल पाईको क्यामेरा सकेटमा जडान गरिएको](../../../../../translated_images/pi-camera-socket-ribbon-cable.a18309920b11800911082ed7aa6fb28e6d9be3a022e4079ff990016cae3fca10.ne.png)
+    ![रिबन केबल पाईको क्यामेरा सकेटमा जडान गरिएको](../../../../../translated_images/ne/pi-camera-socket-ribbon-cable.a18309920b11800911082ed7aa6fb28e6d9be3a022e4079ff990016cae3fca10.png)
 
 1. Grove Base Hat पुन: फिट गर्नुहोस्।
 
@@ -110,7 +110,7 @@ CO_OP_TRANSLATOR_METADATA:
 
     `camera.rotation = 0` लाइनले छविको रोटेशन सेट गर्दछ। रिबन केबल क्यामेराको तलतर्फ आउँछ, तर यदि तपाईंको क्यामेरा वस्तु वर्गीकरण गर्न सजिलो बनाउन घुमाइएको छ भने, तपाईं यस लाइनलाई रोटेशनको डिग्री अनुसार परिवर्तन गर्न सक्नुहुन्छ।
 
-    ![क्यामेरा पेयको क्यानमाथि झुण्डिएको](../../../../../translated_images/pi-camera-upside-down.5376961ba31459883362124152ad6b823d5ac5fc14e85f317e22903bd681c2b6.ne.png)
+    ![क्यामेरा पेयको क्यानमाथि झुण्डिएको](../../../../../translated_images/ne/pi-camera-upside-down.5376961ba31459883362124152ad6b823d5ac5fc14e85f317e22903bd681c2b6.png)
 
     उदाहरणका लागि, यदि तपाईं रिबन केबललाई माथिबाट झुण्ड्याउनुहुन्छ ताकि यो क्यामेराको माथि होस्, भने रोटेशनलाई 180 मा सेट गर्नुहोस्:
 

@@ -19,7 +19,7 @@ C++ ကုဒ်ကို အသုံးပြုပြီး မိုက်�
 
 ✅ Wikipedia ရဲ့ [direct memory access စာမျက်နှာ](https://wikipedia.org/wiki/Direct_memory_access) မှာ DMA အကြောင်း ပိုမိုဖတ်ရှုနိုင်ပါတယ်။
 
-![မိုက်ခရိုဖုန်းကနေ အသံကို ADC ကနေ DMAC သို့၊ DMAC က buffer တစ်ခုထဲရေး၊ buffer ပြည့်တဲ့အခါ process လုပ်ပြီး buffer နှစ်ခုကို အလှည့်ကျရေး](../../../../../translated_images/dmac-adc-buffers.4509aee49145c90bc2e1be472b8ed2ddfcb2b6a81ad3e559114aca55f5fff759.my.png)
+![မိုက်ခရိုဖုန်းကနေ အသံကို ADC ကနေ DMAC သို့၊ DMAC က buffer တစ်ခုထဲရေး၊ buffer ပြည့်တဲ့အခါ process လုပ်ပြီး buffer နှစ်ခုကို အလှည့်ကျရေး](../../../../../translated_images/my/dmac-adc-buffers.4509aee49145c90bc2e1be472b8ed2ddfcb2b6a81ad3e559114aca55f5fff759.png)
 
 DMAC က ADC ကနေ အသံကို တိကျတဲ့ interval တွေမှာ ဖမ်းယူနိုင်ပါတယ်၊ ဥပမာ 16KHz အသံအတွက် တစ်စက္ကန့်ကို 16,000 ကြိမ်။ ဖမ်းယူထားတဲ့ ဒေတာကို memory buffer တစ်ခုထဲရေးနိုင်ပြီး၊ buffer ပြည့်တဲ့အခါ သင့်ရဲ့ ကုဒ်ကို process လုပ်ဖို့ အသိပေးပါတယ်။ ဒီ memory ကို အသုံးပြုရင် အသံဖမ်းယူမှုကို နှောင့်နှေးစေနိုင်ပါတယ်၊ ဒါပေမယ့် buffer အများအပြားကို စီစဉ်နိုင်ပါတယ်။ DMAC က buffer 1 ထဲရေး၊ ပြီးရင် buffer 1 ပြည့်တဲ့အခါ သင့်ရဲ့ ကုဒ်ကို အသိပေးပြီး buffer 2 ထဲရေး။ buffer 2 ပြည့်တဲ့အခါ buffer 1 ကို ပြန်ရေး။ ဒီလိုနဲ့ buffer တစ်ခု ပြည့်ဖို့ ကြာချိန်ထက် နည်းချိန်အတွင်း process လုပ်နိုင်ရင် ဒေတာမဆုံးရှုံးပါဘူး။
 

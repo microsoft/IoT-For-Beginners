@@ -93,7 +93,7 @@ Custom Vision सेवेसाठी एक Python SDK उपलब्ध आ�
 
     तुम्ही घेतलेली प्रतिमा आणि **Predictions** टॅबमध्ये हे मूल्ये Custom Vision मध्ये पाहू शकाल.
 
-    ![Custom Vision मध्ये एक केळे, 56.8% पिकलेले आणि 43.1% न पिकलेले म्हणून प्रेडिक्ट केलेले](../../../../../translated_images/custom-vision-banana-prediction.30cdff4e1d72db5d9a0be0193790a47c2b387da034e12dc1314dd57ca2131b59.mr.png)
+    ![Custom Vision मध्ये एक केळे, 56.8% पिकलेले आणि 43.1% न पिकलेले म्हणून प्रेडिक्ट केलेले](../../../../../translated_images/mr/custom-vision-banana-prediction.30cdff4e1d72db5d9a0be0193790a47c2b387da034e12dc1314dd57ca2131b59.png)
 
 > 💁 तुम्हाला हा कोड [code-classify/pi](../../../../../4-manufacturing/lessons/2-check-fruit-from-device/code-classify/pi) किंवा [code-classify/virtual-iot-device](../../../../../4-manufacturing/lessons/2-check-fruit-from-device/code-classify/virtual-iot-device) फोल्डरमध्ये सापडेल.
 

@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # आफ्नो एप्लिकेसनको तर्कलाई क्लाउडमा सार्नुहोस्
 
-![यस पाठको स्केच नोट](../../../../../translated_images/lesson-9.dfe99c8e891f48e179724520da9f5794392cf9a625079281ccdcbf09bd85e1b6.ne.jpg)
+![यस पाठको स्केच नोट](../../../../../translated_images/ne/lesson-9.dfe99c8e891f48e179724520da9f5794392cf9a625079281ccdcbf09bd85e1b6.jpg)
 
 > स्केच नोट [नित्या नरसिम्हन](https://github.com/nitya) द्वारा। ठूलो संस्करणको लागि तस्बिरमा क्लिक गर्नुहोस्।
 
@@ -37,11 +37,11 @@ CO_OP_TRANSLATOR_METADATA:
 
 Serverless, वा serverless computing, भनेको साना कोड ब्लकहरू बनाउनु हो, जुन विभिन्न प्रकारका घटनाहरूको प्रतिक्रियामा क्लाउडमा चल्छ। जब घटना हुन्छ, तपाईंको कोड चल्छ, र यसलाई घटनाको बारेमा डेटा पास गरिन्छ। यी घटनाहरू वेब अनुरोधहरू, कतारमा राखिएका सन्देशहरू, डाटाबेसमा भएका परिवर्तनहरू, वा IoT उपकरणहरूले IoT सेवामा पठाएका सन्देशहरू जस्ता धेरै चीजहरूबाट हुन सक्छन्।
 
-![IoT सेवाबाट serverless सेवामा पठाइएका घटनाहरू, सबै एकै समयमा धेरै functions द्वारा प्रशोधन भइरहेको](../../../../../translated_images/iot-messages-to-serverless.0194da1cc0732bb7d0f823aed3fce54735c6b1ad3bf36089804d8aaefc0a774f.ne.png)
+![IoT सेवाबाट serverless सेवामा पठाइएका घटनाहरू, सबै एकै समयमा धेरै functions द्वारा प्रशोधन भइरहेको](../../../../../translated_images/ne/iot-messages-to-serverless.0194da1cc0732bb7d0f823aed3fce54735c6b1ad3bf36089804d8aaefc0a774f.png)
 
 > 💁 यदि तपाईंले पहिले डाटाबेस ट्रिगरहरू प्रयोग गर्नुभएको छ भने, तपाईं यसलाई त्यस्तै सोच्न सक्नुहुन्छ, कोड कुनै घटनाले ट्रिगर गर्दा चल्छ, जस्तै पङ्क्ति थप्दा।
 
-![जब धेरै घटनाहरू एकै समयमा पठाइन्छ, serverless सेवा स्केल हुन्छ र सबैलाई एकै समयमा चलाउँछ](../../../../../translated_images/serverless-scaling.f8c769adf0413fd1.ne.png)
+![जब धेरै घटनाहरू एकै समयमा पठाइन्छ, serverless सेवा स्केल हुन्छ र सबैलाई एकै समयमा चलाउँछ](../../../../../translated_images/ne/serverless-scaling.f8c769adf0413fd1.png)
 
 तपाईंको कोड केवल घटना हुँदा मात्र चल्छ, अन्य समयमा तपाईंको कोड सक्रिय हुँदैन। घटना हुन्छ, तपाईंको कोड लोड हुन्छ र चल्छ। यसले serverless लाई धेरै स्केलेबल बनाउँछ - यदि धेरै घटनाहरू एकै समयमा हुन्छन् भने, क्लाउड प्रदायकले तपाईंको function लाई आवश्यकताअनुसार धेरै पटक चलाउन सक्छ। यसको नकारात्मक पक्ष भनेको यदि तपाईंले घटनाहरू बीच जानकारी साझा गर्न आवश्यक छ भने, तपाईंले यसलाई मेमोरीमा भण्डारण गर्नुको सट्टा डाटाबेसमा सुरक्षित गर्नुपर्ने हुन्छ।
 
@@ -63,7 +63,7 @@ IoT विकासकर्ताको रूपमा, serverless मोड�
 
 Microsoft को serverless computing सेवा Azure Functions हो।
 
-![Azure Functions को लोगो](../../../../../translated_images/azure-functions-logo.1cfc8e3204c9c44aaf80fcf406fc8544d80d7f00f8d3e8ed6fed764563e17564.ne.png)
+![Azure Functions को लोगो](../../../../../translated_images/ne/azure-functions-logo.1cfc8e3204c9c44aaf80fcf406fc8544d80d7f00f8d3e8ed6fed764563e17564.png)
 
 तलको छोटो भिडियोमा Azure Functions को बारेमा एक झलक छ।
 
@@ -244,7 +244,7 @@ Azure Functions CLI लाई नयाँ Functions एप बनाउन प�
     VS Code. Initialize for optimal use with VS Code?
     ```
 
-    ![सूचना](../../../../../translated_images/vscode-azure-functions-init-notification.bd19b49229963edb.ne.png)
+    ![सूचना](../../../../../translated_images/ne/vscode-azure-functions-init-notification.bd19b49229963edb.png)
 
     यस सूचनाबाट **Yes** चयन गर्नुहोस्।
 

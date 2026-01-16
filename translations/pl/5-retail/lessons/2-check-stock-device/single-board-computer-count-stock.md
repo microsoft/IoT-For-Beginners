@@ -81,7 +81,7 @@ Jako pomocny krok debugowania możesz nie tylko wypisać ramki ograniczające, a
 
 1. Uruchom aplikację, kierując kamerę na zapasy na półce. W eksploratorze VS Code zobaczysz plik `image.jpg` i będziesz mógł go wybrać, aby zobaczyć ramki ograniczające.
 
-    ![4 puszki koncentratu pomidorowego z ramkami ograniczającymi wokół każdej puszki](../../../../../translated_images/rpi-stock-with-bounding-boxes.b5540e2ecb7cd49f.pl.jpg)
+    ![4 puszki koncentratu pomidorowego z ramkami ograniczającymi wokół każdej puszki](../../../../../translated_images/pl/rpi-stock-with-bounding-boxes.b5540e2ecb7cd49f.jpg)
 
 ## Liczenie zapasów
 

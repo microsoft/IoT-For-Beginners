@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Fahami Bahasa
 
-![Gambaran sketchnote untuk pelajaran ini](../../../../../translated_images/lesson-22.6148ea28500d9e00c396aaa2649935fb6641362c8f03d8e5e90a676977ab01dd.ms.jpg)
+![Gambaran sketchnote untuk pelajaran ini](../../../../../translated_images/ms/lesson-22.6148ea28500d9e00c396aaa2649935fb6641362c8f03d8e5e90a676977ab01dd.jpg)
 
 > Sketchnote oleh [Nitya Narasimhan](https://github.com/nitya). Klik imej untuk versi yang lebih besar.
 
@@ -55,7 +55,7 @@ Model pemahaman bahasa adalah model AI yang dilatih untuk mengekstrak butiran te
 
 ## Cipta Model Pemahaman Bahasa
 
-![Logo LUIS](../../../../../translated_images/luis-logo.5cb4f3e88c020ee6df4f614e8831f4a4b6809a7247bf52085fb48d629ef9be52.ms.png)
+![Logo LUIS](../../../../../translated_images/ms/luis-logo.5cb4f3e88c020ee6df4f614e8831f4a4b6809a7247bf52085fb48d629ef9be52.png)
 
 Anda boleh mencipta model pemahaman bahasa menggunakan LUIS, perkhidmatan pemahaman bahasa daripada Microsoft yang merupakan sebahagian daripada Cognitive Services.
 
@@ -126,7 +126,7 @@ Setelah entiti ditentukan, anda mencipta niat. Ini dipelajari oleh model berdasa
 
 Anda kemudian memberitahu LUIS bahagian mana dalam ayat ini yang memetakan kepada entiti:
 
-![Ayat "set a timer for 1 minute and 12 seconds" dipecahkan kepada entiti](../../../../../translated_images/sentence-as-intent-entities.301401696f992259.ms.png)
+![Ayat "set a timer for 1 minute and 12 seconds" dipecahkan kepada entiti](../../../../../translated_images/ms/sentence-as-intent-entities.301401696f992259.png)
 
 Ayat `set a timer for 1 minute and 12 seconds` mempunyai niat `set timer`. Ia juga mempunyai 2 entiti dengan 2 nilai setiap satu:
 
@@ -178,7 +178,7 @@ Anda boleh mendapatkan arahan untuk menggunakan portal LUIS dalam [Dokumentasi Q
 
 1. Semasa anda memasukkan setiap contoh, LUIS akan mula mengesan entiti, dan akan menggariskan serta melabelkan mana-mana yang ditemui.
 
-    ![Contoh dengan nombor dan unit masa digariskan oleh LUIS](../../../../../translated_images/luis-intent-examples.25716580b2d2723cf1bafdf277d015c7f046d8cfa20f27bddf3a0873ec45fab7.ms.png)
+    ![Contoh dengan nombor dan unit masa digariskan oleh LUIS](../../../../../translated_images/ms/luis-intent-examples.25716580b2d2723cf1bafdf277d015c7f046d8cfa20f27bddf3a0873ec45fab7.png)
 
 ### Tugas - Latih dan uji model
 

@@ -46,7 +46,7 @@ Speech service သည် စကားပြောကို မူလဘာသာ
     >
     > ဥပမာအားဖြင့် LUIS ကို အင်္ဂလိပ်ဘာသာစကားဖြင့် သင်ကြားပြီး user ဘာသာစကားအဖြစ် ပြင်သစ်ကို အသုံးပြုလိုပါက "set a 2 minute and 27 second timer" ကဲ့သို့သော စာကြောင်းများကို Bing Translate ဖြင့် ပြင်သစ်ဘာသာစကားသို့ ဘာသာပြန်ပြီး **Listen translation** ခလုတ်ကို အသုံးပြု၍ သင့်မိုက်ခရိုဖုန်းထဲသို့ ပြောနိုင်ပါသည်။
     >
-    > ![Bing Translate တွင် Listen translation ခလုတ်](../../../../../translated_images/bing-translate.348aa796d6efe2a92f41ea74a5cf42bb4c63d6faaa08e7f46924e072a35daa48.my.png)
+    > ![Bing Translate တွင် Listen translation ခလုတ်](../../../../../translated_images/my/bing-translate.348aa796d6efe2a92f41ea74a5cf42bb4c63d6faaa08e7f46924e072a35daa48.png)
 
 1. `recognizer_config` နှင့် `recognizer` ကို အောက်ပါအတိုင်း အစားထိုးပါ။
 

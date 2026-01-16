@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Tetapkan pemasa dan berikan maklum balas secara lisan
 
-![Gambaran sketchnote untuk pelajaran ini](../../../../../translated_images/lesson-23.f38483e1d4df4828990d3f02d60e46c978b075d384ae7cb4f7bab738e107c850.ms.jpg)
+![Gambaran sketchnote untuk pelajaran ini](../../../../../translated_images/ms/lesson-23.f38483e1d4df4828990d3f02d60e46c978b075d384ae7cb4f7bab738e107c850.jpg)
 
 > Sketchnote oleh [Nitya Narasimhan](https://github.com/nitya). Klik imej untuk versi yang lebih besar.
 
@@ -37,7 +37,7 @@ Dalam pelajaran ini, kita akan membincangkan:
 
 Teks ke pertuturan, seperti namanya, adalah proses menukar teks kepada audio yang mengandungi teks tersebut sebagai kata-kata yang diucapkan. Prinsip asasnya adalah memecahkan perkataan dalam teks kepada bunyi-bunyi konstituen mereka (dikenali sebagai fonem), dan menyusun audio untuk bunyi-bunyi tersebut, sama ada menggunakan audio yang telah dirakam terlebih dahulu atau menggunakan audio yang dihasilkan oleh model AI.
 
-![Tiga peringkat sistem teks ke pertuturan tipikal](../../../../../translated_images/tts-overview.193843cf3f5ee09f.ms.png)
+![Tiga peringkat sistem teks ke pertuturan tipikal](../../../../../translated_images/ms/tts-overview.193843cf3f5ee09f.png)
 
 Sistem teks ke pertuturan biasanya mempunyai 3 peringkat:
 

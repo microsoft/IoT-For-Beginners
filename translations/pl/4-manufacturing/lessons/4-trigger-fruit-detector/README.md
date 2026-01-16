@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Uruchamianie wykrywania jakości owoców za pomocą czujnika
 
-![Szkicowy przegląd tej lekcji](../../../../../translated_images/lesson-18.92c32ed1d354caa5a54baa4032cf0b172d4655e8e326ad5d46c558a0def15365.pl.jpg)
+![Szkicowy przegląd tej lekcji](../../../../../translated_images/pl/lesson-18.92c32ed1d354caa5a54baa4032cf0b172d4655e8e326ad5d46c558a0def15365.jpg)
 
 > Szkic autorstwa [Nitya Narasimhan](https://github.com/nitya). Kliknij obraz, aby zobaczyć większą wersję.
 
@@ -48,7 +48,7 @@ Aplikacje IoT można opisać jako *urządzenia* (rzeczy) wysyłające dane, któ
 
 ### Referencyjna architektura IoT
 
-![Referencyjna architektura IoT](../../../../../translated_images/iot-reference-architecture.2278b98b55c6d4e89bde18eada3688d893861d43507641804dd2f9d3079cfaa0.pl.png)
+![Referencyjna architektura IoT](../../../../../translated_images/pl/iot-reference-architecture.2278b98b55c6d4e89bde18eada3688d893861d43507641804dd2f9d3079cfaa0.png)
 
 Powyższy diagram przedstawia referencyjną architekturę IoT.
 
@@ -58,7 +58,7 @@ Powyższy diagram przedstawia referencyjną architekturę IoT.
 * **Wnioski** pochodzą z aplikacji bezserwerowych lub z analiz przeprowadzanych na przechowywanych danych.
 * **Działania** mogą obejmować wysyłanie poleceń do urządzeń lub wizualizację danych, aby ludzie mogli podejmować decyzje.
 
-![Referencyjna architektura IoT w Azure](../../../../../translated_images/iot-reference-architecture-azure.0b8d2161af924cb18ae48a8558a19541cca47f27264851b5b7e56d7b8bb372ac.pl.png)
+![Referencyjna architektura IoT w Azure](../../../../../translated_images/pl/iot-reference-architecture-azure.0b8d2161af924cb18ae48a8558a19541cca47f27264851b5b7e56d7b8bb372ac.png)
 
 Powyższy diagram przedstawia niektóre z komponentów i usług omówionych w tych lekcjach oraz ich powiązania w referencyjnej architekturze IoT.
 
@@ -98,7 +98,7 @@ Musisz zbudować system, w którym owoce są wykrywane, gdy docierają na taśm�
 
 ### Prototypowanie aplikacji
 
-![Referencyjna architektura IoT dla sprawdzania jakości owoców](../../../../../translated_images/iot-reference-architecture-fruit-quality.cc705f121c3b6fa71c800d9630935ac34bc08223a04601e35f41d5e9b5dd5207.pl.png)
+![Referencyjna architektura IoT dla sprawdzania jakości owoców](../../../../../translated_images/pl/iot-reference-architecture-fruit-quality.cc705f121c3b6fa71c800d9630935ac34bc08223a04601e35f41d5e9b5dd5207.png)
 
 Powyższy diagram przedstawia referencyjną architekturę dla tego prototypu aplikacji.
 
@@ -115,7 +115,7 @@ W prototypie zaimplementujesz wszystko na jednym urządzeniu. Jeśli używasz mi
 
 Urządzenie IoT potrzebuje jakiegoś wyzwalacza, aby wskazać, kiedy owoc jest gotowy do klasyfikacji. Jednym z takich wyzwalaczy może być pomiar odległości do czujnika, aby sprawdzić, czy owoc znajduje się w odpowiednim miejscu na taśmie.
 
-![Czujniki zbliżeniowe wysyłają wiązki laserowe do obiektów, takich jak banany, i mierzą czas odbicia](../../../../../translated_images/proximity-sensor.f5cd752c77fb62fe.pl.png)
+![Czujniki zbliżeniowe wysyłają wiązki laserowe do obiektów, takich jak banany, i mierzą czas odbicia](../../../../../translated_images/pl/proximity-sensor.f5cd752c77fb62fe.png)
 
 Czujniki zbliżeniowe mogą być używane do pomiaru odległości od czujnika do obiektu. Zazwyczaj wysyłają wiązkę promieniowania elektromagnetycznego, taką jak wiązka laserowa lub światło podczerwone, a następnie wykrywają odbite promieniowanie. Czas między wysłaniem wiązki a odbiciem sygnału może być użyty do obliczenia odległości do czujnika.
 
@@ -133,7 +133,7 @@ Przejdź przez odpowiedni przewodnik, aby użyć czujnika zbliżeniowego do wykr
 
 Prototyp detektora owoców składa się z wielu komponentów komunikujących się ze sobą.
 
-![Komponenty komunikujące się ze sobą](../../../../../translated_images/fruit-quality-detector-message-flow.adf2a65da8fd8741ac7af11361574de89adc126785d67606bb4d2ec00467e380.pl.png)
+![Komponenty komunikujące się ze sobą](../../../../../translated_images/pl/fruit-quality-detector-message-flow.adf2a65da8fd8741ac7af11361574de89adc126785d67606bb4d2ec00467e380.png)
 
 * Czujnik zbliżeniowy mierzący odległość do owocu i wysyłający te dane do IoT Hub
 * Polecenie sterujące kamerą wysyłane z IoT Hub do urządzenia z kamerą

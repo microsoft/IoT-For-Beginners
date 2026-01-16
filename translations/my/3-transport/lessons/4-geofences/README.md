@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Geofences
 
-![ဒီသင်ခန်းစာအတွက် Sketchnote အကျဉ်းချုပ်](../../../../../translated_images/lesson-14.63980c5150ae3c153e770fb71d044c1845dce79248d86bed9fc525adf3ede73c.my.jpg)
+![ဒီသင်ခန်းစာအတွက် Sketchnote အကျဉ်းချုပ်](../../../../../translated_images/my/lesson-14.63980c5150ae3c153e770fb71d044c1845dce79248d86bed9fc525adf3ede73c.jpg)
 
 > Sketchnote by [Nitya Narasimhan](https://github.com/nitya)။ ပုံကိုနှိပ်ပြီး ပိုမိုကြီးမားသောဗားရှင်းကိုကြည့်ပါ။
 
@@ -44,7 +44,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Geofence ဆိုသည်မှာ အမှန်တကယ်ရှိသော ပထဝီဧရိယာတစ်ခုအတွက် အွန်လိုင်းနယ်နိမိတ်တစ်ခုဖြစ်သည်။ Geofences များသည် အချက်တစ်ခုနှင့် အချင်းဝက်ကို သတ်မှတ်ထားသော စက်ဝိုင်းများ (ဥပမာ - အဆောက်အဦးတစ်ခု၏ ၁၀၀ မီတာအကျယ်ရှိ စက်ဝိုင်း) သို့မဟုတ် ကျောင်းဇုန်၊ မြို့နယ်နယ်နိမိတ် သို့မဟုတ် တက္ကသိုလ် သို့မဟုတ် ရုံးစခန်းများကဲ့သို့သော ဧရိယာကို ဖုံးလွှမ်းထားသော ပေါ်လီဂွန်များဖြစ်နိုင်သည်။
 
-![Microsoft ကုမ္ပဏီဆိုင်၏ စက်ဝိုင်း geofence နှင့် Microsoft အနောက် campus ၏ ပေါ်လီဂွန် geofence ကို ပြသထားသော ဥပမာများ](../../../../../translated_images/geofence-examples.172fbc534665769f6e1a1ddcf75e3b25183cd10354c80cc603ba44b635390e1a.my.png)
+![Microsoft ကုမ္ပဏီဆိုင်၏ စက်ဝိုင်း geofence နှင့် Microsoft အနောက် campus ၏ ပေါ်လီဂွန် geofence ကို ပြသထားသော ဥပမာများ](../../../../../translated_images/my/geofence-examples.172fbc534665769f6e1a1ddcf75e3b25183cd10354c80cc603ba44b635390e1a.png)
 
 > 💁 သင်သည် geofences များကို အသုံးပြုခဲ့ပြီးသားဖြစ်နိုင်သည်၊ သို့သော် မသိခဲ့လောက်ပါ။ သင်သည် iOS reminders app သို့မဟုတ် Google Keep တွင် တည်နေရာအခြေပြု သတိပေးချက်တစ်ခုကို သတ်မှတ်ထားခဲ့ပါက၊ သင်သည် geofence တစ်ခုကို အသုံးပြုခဲ့သည်။ ဤ app များသည် သတ်မှတ်ထားသော တည်နေရာအပေါ်မူတည်၍ geofence တစ်ခုကို သတ်မှတ်ကာ သင့်ဖုန်းသည် geofence အတွင်းသို့ရောက်ရှိသောအခါ သတိပေးချက်ပေးမည်။
 
@@ -110,7 +110,7 @@ Polygon ၏ အချက်တစ်ခုစီကို longitude နှင့
 
 Polygon ၏ coordinates အစီအစဉ်သည် polygon ၏ အချက်အရေအတွက်ထက် ၁ ခုပိုပါသည်။ ၎င်းသည် polygon ကို ပိတ်ရန် အစပွင့်နှင့် တူသော နောက်ဆုံးအချက်ကို ထည့်သွင်းထားခြင်းဖြစ်သည်။ ဥပမာအားဖြင့် စတုရန်းတစ်ခုအတွက် အချက် ၅ ခုရှိမည်။
 
-![အချက်များပါရှိသော စတုရန်း](../../../../../translated_images/polygon-points.302193da381cb415.my.png)
+![အချက်များပါရှိသော စတုရန်း](../../../../../translated_images/my/polygon-points.302193da381cb415.png)
 
 အထက်ပါပုံတွင် စတုရန်းတစ်ခုရှိသည်။ Polygon ၏ coordinates သည် 47,-122 တွင် အပေါ်ဘက်-ဘယ်ဘက်မှ စတင်ကာ 47,-121 သို့ ညာဘက်သို့ ရွှေ့ပြီး၊ 46,-121 သို့ အောက်ဘက်သို့ ရွှေ့ကာ၊ 46,-122 သို့ ဘယ်ဘက်သို့ ရွှေ့ပြီး၊ 47,-122 တွင် အစပွင့်သို့ ပြန်လာသည်။ ၎င်းသည် polygon ကို အချက် ၅ ခုဖြစ်စေသည် - အပေါ်ဘက်-ဘယ်ဘက်၊ အပေါ်ဘက်-ညာဘက်၊ အောက်ဘက်-ညာဘက်၊ အောက်ဘက်-ဘယ်ဘက်၊ ထို့နောက် အပေါ်ဘက်-ဘယ်ဘက်သို့ ပြန်လာသည်။
 
@@ -250,7 +250,7 @@ Azure Maps တွင် geofence တစ်ခုကို အသုံးပြ�
 
 အဖြေမှာ မသိနိုင်ပါ! ထို့အတွက် event များကိုဖတ်ရှုရန် connection များစွာကိုသတ်မှတ်နိုင်ပြီး၊ event မဖတ်ရှုရသေးသော message များကို replay လုပ်နိုင်သည်။ ၎င်းတို့ကို *consumer groups* ဟုခေါ်သည်။ Endpoint သို့ချိတ်ဆက်သောအခါ၊ ချိတ်ဆက်လိုသော consumer group ကိုသတ်မှတ်နိုင်သည်။ Application ၏ component တစ်ခုစီသည်ကွဲပြားသော consumer group ကိုချိတ်ဆက်မည်။
 
-![IoT Hub တစ်ခုတွင် 3 consumer groups သည် message တစ်ခုစီကို function apps 3 ခုသို့ဖြန့်ဝေသည်](../../../../../translated_images/consumer-groups.a3262e26fc27ba2092863678ad57af15c7223416e388a23f330c058cf4358630.my.png)
+![IoT Hub တစ်ခုတွင် 3 consumer groups သည် message တစ်ခုစီကို function apps 3 ခုသို့ဖြန့်ဝေသည်](../../../../../translated_images/my/consumer-groups.a3262e26fc27ba2092863678ad57af15c7223416e388a23f330c058cf4358630.png)
 
 သီအိုရီအရ consumer group တစ်ခုစီတွင် application 5 ခုအထိချိတ်ဆက်နိုင်ပြီး၊ message ရောက်ရှိသောအခါ message များကိုလက်ခံရရှိမည်။ Restart လုပ်သောအခါ queued message များကိုမှန်ကန်စွာ process လုပ်ရန်၊ message များကို duplicate ဖြစ်ခြင်းမှရှောင်ရှားရန်၊ application တစ်ခုသာ consumer group တစ်ခုစီကို access လုပ်ရန်အကောင်းဆုံးနည်းလမ်းဖြစ်သည်။ ဥပမာအားဖြင့် Functions app ကို locally launch လုပ်ပြီး cloud တွင်လည်း run လုပ်ပါက၊ message များကို duplicate ဖြစ်စေပြီး storage account တွင် blob များကို duplicate ဖြစ်စေမည်။
 

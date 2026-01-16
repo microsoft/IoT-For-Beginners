@@ -37,11 +37,11 @@ Dodaj przekaźnik do aplikacji CounterFit.
 
     1. Wybierz przycisk **Add**, aby utworzyć przekaźnik na Pinie 5.
 
-    ![Ustawienia przekaźnika](../../../../../translated_images/counterfit-create-relay.fa7c40fd0f2f6afc33b35ea94fcb235085be4861e14e3fe6b9b7bcfc82d1c888.pl.png)
+    ![Ustawienia przekaźnika](../../../../../translated_images/pl/counterfit-create-relay.fa7c40fd0f2f6afc33b35ea94fcb235085be4861e14e3fe6b9b7bcfc82d1c888.png)
 
     Przekaźnik zostanie utworzony i pojawi się na liście aktuatorów.
 
-    ![Utworzony przekaźnik](../../../../../translated_images/counterfit-relay.bbf74c1dbdc8b9acd983367fcbd06703a402aefef6af54ddb28e11307ba8a12c.pl.png)
+    ![Utworzony przekaźnik](../../../../../translated_images/pl/counterfit-relay.bbf74c1dbdc8b9acd983367fcbd06703a402aefef6af54ddb28e11307ba8a12c.png)
 
 ## Programowanie przekaźnika
 

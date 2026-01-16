@@ -27,13 +27,13 @@ Grove အပူချိန်အာရုံခံကိရိယာကို W
 
 အပူချိန်အာရုံခံကိရိယာကို ချိတ်ဆက်ပါ။
 
-![A grove temperature sensor](../../../../../translated_images/grove-dht11.07f8eafceee170043efbb53e1d15722bd4e00fbaa9ff74290b57e9f66eb82c17.my.png)
+![A grove temperature sensor](../../../../../translated_images/my/grove-dht11.07f8eafceee170043efbb53e1d15722bd4e00fbaa9ff74290b57e9f66eb82c17.png)
 
 1. Grove cable ၏ တစ်ဖက်အဆုံးကို စိုထိုင်းဆနှင့် အပူချိန်အာရုံခံကိရိယာ၏ socket တွင် ထည့်ပါ။ ၎င်းသည် တစ်ဖက်ဘက်သာ ထည့်နိုင်ပါမည်။
 
 1. Wio Terminal ကို သင့်ကွန်ပျူတာ သို့မဟုတ် အခြား power supply မှ ချိတ်ဆက်ထားခြင်းမရှိဘဲ၊ Grove cable ၏ အခြားဖက်အဆုံးကို Wio Terminal ၏ screen ကိုကြည့်နေသောအခါ ညာဘက် Grove socket တွင် ချိတ်ဆက်ပါ။ ၎င်းသည် power button မှ အဝေးဆုံးရှိ socket ဖြစ်သည်။
 
-![The grove temperature sensor connected to the right hand socket](../../../../../translated_images/wio-temperature-sensor.2934928f38c7f79a.my.png)
+![The grove temperature sensor connected to the right hand socket](../../../../../translated_images/my/wio-temperature-sensor.2934928f38c7f79a.png)
 
 ## အပူချိန်အာရုံခံကိရိယာကို အစီအစဉ်ရေးဆွဲပါ
 

@@ -47,11 +47,11 @@ Tambah sensor GPS kepada aplikasi CounterFit.
 
     1. Pilih butang **Add** untuk mencipta sensor GPS pada port `/dev/ttyAMA0`.
 
-    ![Tetapan sensor GPS](../../../../../translated_images/counterfit-create-gps-sensor.6385dc9357d85ad1d47b4abb2525e7651fd498917d25eefc5a72feab09eedc70.ms.png)
+    ![Tetapan sensor GPS](../../../../../translated_images/ms/counterfit-create-gps-sensor.6385dc9357d85ad1d47b4abb2525e7651fd498917d25eefc5a72feab09eedc70.png)
 
     Sensor GPS akan dicipta dan muncul dalam senarai sensor.
 
-    ![Sensor GPS yang telah dicipta](../../../../../translated_images/counterfit-gps-sensor.3fbb15af0a5367566f2f11324ef5a6f30861cdf2b497071a5e002b7aa473550e.ms.png)
+    ![Sensor GPS yang telah dicipta](../../../../../translated_images/ms/counterfit-gps-sensor.3fbb15af0a5367566f2f11324ef5a6f30861cdf2b497071a5e002b7aa473550e.png)
 
 ## Memprogram Sensor GPS
 
@@ -111,17 +111,17 @@ Program aplikasi sensor GPS.
 
     * Tetapkan **Source** kepada `Lat/Lon`, dan tetapkan latitud, longitud, dan bilangan satelit yang digunakan untuk mendapatkan GPS fix. Nilai ini akan dihantar hanya sekali, jadi tandakan kotak **Repeat** untuk menghantar data berulang setiap saat.
 
-      ![Sensor GPS dengan lat lon dipilih](../../../../../translated_images/counterfit-gps-sensor-latlon.008c867d75464fbe7f84107cc57040df565ac07cb57d2f21db37d087d470197d.ms.png)
+      ![Sensor GPS dengan lat lon dipilih](../../../../../translated_images/ms/counterfit-gps-sensor-latlon.008c867d75464fbe7f84107cc57040df565ac07cb57d2f21db37d087d470197d.png)
 
     * Tetapkan **Source** kepada `NMEA` dan tambahkan beberapa ayat NMEA ke dalam kotak teks. Semua nilai ini akan dihantar, dengan kelewatan 1 saat sebelum setiap ayat GGA (position fix) baharu boleh dibaca.
 
-      ![Sensor GPS dengan ayat NMEA ditetapkan](../../../../../translated_images/counterfit-gps-sensor-nmea.c62eea442171e17e19528b051b104cfcecdc9cd18db7bc72920f29821ae63f73.ms.png)
+      ![Sensor GPS dengan ayat NMEA ditetapkan](../../../../../translated_images/ms/counterfit-gps-sensor-nmea.c62eea442171e17e19528b051b104cfcecdc9cd18db7bc72920f29821ae63f73.png)
 
       Anda boleh menggunakan alat seperti [nmeagen.org](https://www.nmeagen.org) untuk menjana ayat ini dengan melukis pada peta. Nilai ini akan dihantar hanya sekali, jadi tandakan kotak **Repeat** untuk menghantar data berulang satu saat selepas semuanya dihantar.
 
     * Tetapkan **Source** kepada fail GPX, dan muat naik fail GPX dengan lokasi trek. Anda boleh memuat turun fail GPX daripada beberapa laman web pemetaan dan pendakian popular, seperti [AllTrails](https://www.alltrails.com/). Fail ini mengandungi pelbagai lokasi GPS sebagai laluan, dan sensor GPS akan mengembalikan setiap lokasi baharu pada selang 1 saat.
 
-      ![Sensor GPS dengan fail GPX ditetapkan](../../../../../translated_images/counterfit-gps-sensor-gpxfile.8310b063ce8a425ccc8ebeec8306aeac5e8e55207f007d52c6e1194432a70cd9.ms.png)
+      ![Sensor GPS dengan fail GPX ditetapkan](../../../../../translated_images/ms/counterfit-gps-sensor-gpxfile.8310b063ce8a425ccc8ebeec8306aeac5e8e55207f007d52c6e1194432a70cd9.png)
 
       Nilai ini akan dihantar hanya sekali, jadi tandakan kotak **Repeat** untuk menghantar data berulang satu saat selepas semuanya dihantar.
 

@@ -45,11 +45,11 @@ Adicione o LED à aplicação CounterFit.
 
     1. Selecione o botão **Add** para criar o LED no Pin 5.
 
-    ![As definições do LED](../../../../../translated_images/counterfit-create-led.ba9db1c9b8c622a635d6dfae5cdc4e70c2b250635bd4f0601c6cf0bd22b7ba46.pt.png)
+    ![As definições do LED](../../../../../translated_images/pt/counterfit-create-led.ba9db1c9b8c622a635d6dfae5cdc4e70c2b250635bd4f0601c6cf0bd22b7ba46.png)
 
     O LED será criado e aparecerá na lista de atuadores.
 
-    ![O LED criado](../../../../../translated_images/counterfit-led.c0ab02de6d256ad84d9bad4d67a7faa709f0ea83e410cfe9b5561ef0cef30b1c.pt.png)
+    ![O LED criado](../../../../../translated_images/pt/counterfit-led.c0ab02de6d256ad84d9bad4d67a7faa709f0ea83e410cfe9b5561ef0cef30b1c.png)
 
     Depois de criar o LED, pode alterar a cor utilizando o seletor *Color*. Selecione o botão **Set** para alterar a cor após a sua escolha.
 

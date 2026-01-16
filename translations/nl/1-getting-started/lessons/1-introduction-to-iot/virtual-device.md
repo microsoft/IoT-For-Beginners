@@ -154,11 +154,11 @@ Maak een Python-applicatie om `"Hello World"` naar de console te printen.
 
 1. Wanneer VS Code wordt gestart, activeert het de Python virtuele omgeving. De geselecteerde virtuele omgeving verschijnt in de onderste statusbalk:
 
-    ![VS Code toont de geselecteerde virtuele omgeving](../../../../../translated_images/vscode-virtual-env.8ba42e04c3d533cf.nl.png)
+    ![VS Code toont de geselecteerde virtuele omgeving](../../../../../translated_images/nl/vscode-virtual-env.8ba42e04c3d533cf.png)
 
 1. Als de VS Code Terminal al actief is wanneer VS Code wordt gestart, zal de virtuele omgeving niet geactiveerd zijn in de terminal. Het eenvoudigste is om de terminal te sluiten met de knop **Kill the active terminal instance**:
 
-    ![VS Code Kill the active terminal instance-knop](../../../../../translated_images/vscode-kill-terminal.1cc4de7c6f25ee08.nl.png)
+    ![VS Code Kill the active terminal instance-knop](../../../../../translated_images/nl/vscode-kill-terminal.1cc4de7c6f25ee08.png)
 
     Je kunt zien of de terminal de virtuele omgeving heeft geactiveerd, omdat de naam van de virtuele omgeving een prefix is op de terminalprompt. Bijvoorbeeld, het kan zijn:
 
@@ -212,7 +212,7 @@ Als een tweede 'Hello World'-stap ga je de CounterFit-app uitvoeren en je code e
 
     De app zal starten en openen in je webbrowser:
 
-    ![De CounterFit-app draait in een browser](../../../../../translated_images/counterfit-first-run.433326358b669b31d0e99c3513cb01bfbb13724d162c99cdcc8f51ecf5f9c779.nl.png)
+    ![De CounterFit-app draait in een browser](../../../../../translated_images/nl/counterfit-first-run.433326358b669b31d0e99c3513cb01bfbb13724d162c99cdcc8f51ecf5f9c779.png)
 
     Het zal worden gemarkeerd als *Disconnected*, met de LED in de rechterbovenhoek uitgeschakeld.
 
@@ -229,11 +229,11 @@ Als een tweede 'Hello World'-stap ga je de CounterFit-app uitvoeren en je code e
 
 1. Je moet een nieuwe VS Code-terminal starten door de knop **Create a new integrated terminal** te selecteren. Dit komt omdat de CounterFit-app draait in de huidige terminal.
 
-    ![VS Code Create a new integrated terminal-knop](../../../../../translated_images/vscode-new-terminal.77db8fc0f9cd3182.nl.png)
+    ![VS Code Create a new integrated terminal-knop](../../../../../translated_images/nl/vscode-new-terminal.77db8fc0f9cd3182.png)
 
 1. Voer in deze nieuwe terminal het bestand `app.py` uit zoals eerder. De status van CounterFit zal veranderen naar **Connected** en de LED zal oplichten.
 
-    ![CounterFit toont als verbonden](../../../../../translated_images/counterfit-connected.ed30b46d8f79b0921f3fc70be10366e596a89dca3f80c2224a9d9fc98fccf884.nl.png)
+    ![CounterFit toont als verbonden](../../../../../translated_images/nl/counterfit-connected.ed30b46d8f79b0921f3fc70be10366e596a89dca3f80c2224a9d9fc98fccf884.png)
 
 > 💁 Je kunt deze code vinden in de [code/virtual-device](../../../../../1-getting-started/lessons/1-introduction-to-iot/code/virtual-device)-map.
 

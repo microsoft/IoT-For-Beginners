@@ -25,11 +25,11 @@ ArduCam ਵਿੱਚ Grove ਸਾਕਟ ਨਹੀਂ ਹੈ, ਇਸ ਲਈ ਇ�
 
 ਕੈਮਰੇ ਨੂੰ ਜ਼ੋੜੋ।
 
-![ArduCam ਸੈਂਸਰ](../../../../../translated_images/arducam.20e4e4cbb268296570b5914e20d6c349fc42ddac9ed4e1b9deba2188204eebae.pa.png)
+![ArduCam ਸੈਂਸਰ](../../../../../translated_images/pa/arducam.20e4e4cbb268296570b5914e20d6c349fc42ddac9ed4e1b9deba2188204eebae.png)
 
 1. ArduCam ਦੇ ਬੇਸ ਦੇ ਪਿੰਸ ਨੂੰ Wio ਟਰਮੀਨਲ ਦੇ GPIO ਪਿੰਸ ਨਾਲ ਜ਼ੋੜਨਾ ਲਾਜ਼ਮੀ ਹੈ। ਸਹੀ ਪਿੰਸ ਲੱਭਣ ਲਈ, Wio ਟਰਮੀਨਲ ਨਾਲ ਆਉਣ ਵਾਲੇ GPIO ਪਿੰ ਸਟਿਕਰ ਨੂੰ ਪਿੰਸ ਦੇ ਆਲੇ-ਦੁਆਲੇ ਲਗਾਓ:
 
-    ![GPIO ਪਿੰ ਸਟਿਕਰ ਨਾਲ Wio ਟਰਮੀਨਲ](../../../../../translated_images/wio-terminal-pin-sticker.b90b1535937b84bd.pa.png)
+    ![GPIO ਪਿੰ ਸਟਿਕਰ ਨਾਲ Wio ਟਰਮੀਨਲ](../../../../../translated_images/pa/wio-terminal-pin-sticker.b90b1535937b84bd.png)
 
 1. ਜੰਪਰ ਵਾਇਰਾਂ ਦੀ ਵਰਤੋਂ ਕਰਦੇ ਹੋਏ, ਹੇਠਾਂ ਦਿੱਤੇ ਗਏ ਕਨੈਕਸ਼ਨ ਬਣਾਓ:
 
@@ -44,7 +44,7 @@ ArduCam ਵਿੱਚ Grove ਸਾਕਟ ਨਹੀਂ ਹੈ, ਇਸ ਲਈ ਇ�
     | SDA         | 3 (I2C1_SDA)   | I2C ਸੀਰੀਅਲ ਡਾਟਾ                   |
     | SCL         | 5 (I2C1_SCL)   | I2C ਸੀਰੀਅਲ ਕਲਾਕ                   |
 
-    ![ਜੰਪਰ ਵਾਇਰਾਂ ਨਾਲ ArduCam ਨੂੰ Wio ਟਰਮੀਨਲ ਨਾਲ ਜੁੜਿਆ ਹੋਇਆ](../../../../../translated_images/arducam-wio-terminal-connections.a4d5a4049bdb5ab800a2877389fc6ecf5e4ff307e6451ff56c517e6786467d0a.pa.png)
+    ![ਜੰਪਰ ਵਾਇਰਾਂ ਨਾਲ ArduCam ਨੂੰ Wio ਟਰਮੀਨਲ ਨਾਲ ਜੁੜਿਆ ਹੋਇਆ](../../../../../translated_images/pa/arducam-wio-terminal-connections.a4d5a4049bdb5ab800a2877389fc6ecf5e4ff307e6451ff56c517e6786467d0a.png)
 
     GND ਅਤੇ VCC ਕਨੈਕਸ਼ਨ ArduCam ਨੂੰ 5V ਪਾਵਰ ਸਪਲਾਈ ਪ੍ਰਦਾਨ ਕਰਦੇ ਹਨ। ਇਹ 5V 'ਤੇ ਚਲਦਾ ਹੈ, ਜਿਵੇਂ ਕਿ Grove ਸੈਂਸਰ 3V 'ਤੇ ਚਲਦੇ ਹਨ। ਇਹ ਪਾਵਰ ਸਿੱਧੇ USB-C ਕਨੈਕਸ਼ਨ ਤੋਂ ਆਉਂਦੀ ਹੈ ਜੋ ਡਿਵਾਈਸ ਨੂੰ ਪਾਵਰ ਦਿੰਦੀ ਹੈ।
 
@@ -297,7 +297,7 @@ ArduCam ਵਿੱਚ Grove ਸਾਕਟ ਨਹੀਂ ਹੈ, ਇਸ ਲਈ ਇ�
 
 1. ਮਾਈਕਰੋਕੰਟਰੋਲਰ ਤੁਹਾਡੇ ਕੋਡ ਨੂੰ ਲਗਾਤਾਰ ਚਲਾਉਂਦੇ ਹਨ, ਇਸ ਲਈ ਤਸਵੀਰ ਲੈਣ ਵਰਗੇ ਕੰਮ ਨੂੰ ਟ੍ਰਿਗਰ ਕਰਨਾ ਆਸਾਨ ਨਹੀਂ ਹੈ। Wio ਟਰਮੀਨਲ ਵਿੱਚ ਬਟਨ ਹਨ, ਇਸ ਲਈ ਕੈਮਰੇ ਨੂੰ ਇੱਕ ਬਟਨ ਦੁਆਰਾ ਟ੍ਰਿਗਰ ਕੀਤਾ ਜਾ ਸਕਦਾ ਹੈ। `setup` ਫੰਕਸ਼ਨ ਦੇ ਅੰਤ ਵਿੱਚ ਹੇਠਾਂ ਦਿੱਤਾ ਗਇਆ ਕੋਡ ਸ਼ਾਮਲ ਕਰੋ:
 
-    ![ਪਾਵਰ ਸਵਿੱਚ ਦੇ ਕੋਲ C ਬਟਨ](../../../../../translated_images/wio-terminal-c-button.73df3cb1c1445ea0.pa.png)
+    ![ਪਾਵਰ ਸਵਿੱਚ ਦੇ ਕੋਲ C ਬਟਨ](../../../../../translated_images/pa/wio-terminal-c-button.73df3cb1c1445ea0.png)
 
     ```cpp
     pinMode(WIO_KEY_C, INPUT_PULLUP);
@@ -455,7 +455,7 @@ ArduCam ਵਿੱਚ Grove ਸਾਕਟ ਨਹੀਂ ਹੈ, ਇਸ ਲਈ ਇ�
 
 1. microSD ਕਾਰਡ ਨੂੰ ਬਾਹਰ ਕੱਢੋ ਅਤੇ ਆਪਣੇ ਕੰਪਿਊਟਰ ਵਿੱਚ ਪਾਓ। 
 
-    ![ArduCam ਨਾਲ ਕੈਪਚਰ ਕੀਤੀ ਗਈ ਕੇਲੇ ਦੀ ਤਸਵੀਰ](../../../../../translated_images/banana-arducam.be1b32d4267a8194b0fd042362e56faa431da9cd4af172051b37243ea9be0256.pa.jpg)
+    ![ArduCam ਨਾਲ ਕੈਪਚਰ ਕੀਤੀ ਗਈ ਕੇਲੇ ਦੀ ਤਸਵੀਰ](../../../../../translated_images/pa/banana-arducam.be1b32d4267a8194b0fd042362e56faa431da9cd4af172051b37243ea9be0256.jpg)
 💁 ਕੈਮਰੇ ਦੇ ਵ੍ਹਾਈਟ ਬੈਲੈਂਸ ਨੂੰ ਆਪਣੇ ਆਪ ਠੀਕ ਕਰਨ ਲਈ ਕੁਝ ਚਿੱਤਰ ਲੱਗ ਸਕਦੇ ਹਨ। ਤੁਸੀਂ ਇਸਨੂੰ ਕੈਪਚਰ ਕੀਤੇ ਗਏ ਚਿੱਤਰਾਂ ਦੇ ਰੰਗ ਦੇ ਆਧਾਰ 'ਤੇ ਨੋਟਿਸ ਕਰੋਗੇ, ਪਹਿਲੇ ਕੁਝ ਚਿੱਤਰਾਂ ਦਾ ਰੰਗ ਠੀਕ ਨਹੀਂ ਲੱਗ ਸਕਦਾ। ਤੁਸੀਂ ਹਮੇਸ਼ਾ ਇਸਨੂੰ ਕੋਡ ਨੂੰ ਬਦਲ ਕੇ ਠੀਕ ਕਰ ਸਕਦੇ ਹੋ ਤਾਂ ਕਿ ਕੁਝ ਚਿੱਤਰ ਕੈਪਚਰ ਕੀਤੇ ਜਾਣ ਜੋ `setup` ਫੰਕਸ਼ਨ ਵਿੱਚ ਅਣਡਿੱਠੇ ਰਹਿੰਦੇ ਹਨ।
 
 

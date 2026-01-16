@@ -43,11 +43,11 @@ Dodaj kamerę do aplikacji CounterFit.
 
     1. Wybierz przycisk **Add**, aby utworzyć kamerę.
 
-    ![Ustawienia kamery](../../../../../translated_images/counterfit-create-camera.a5de97f59c0bd3cbe0416d7e89a3cfe86d19fbae05c641c53a91286412af0a34.pl.png)
+    ![Ustawienia kamery](../../../../../translated_images/pl/counterfit-create-camera.a5de97f59c0bd3cbe0416d7e89a3cfe86d19fbae05c641c53a91286412af0a34.png)
 
     Kamera zostanie utworzona i pojawi się na liście czujników.
 
-    ![Utworzona kamera](../../../../../translated_images/counterfit-camera.001ec52194c8ee5d3f617173da2c79e1df903d10882adc625cbfc493525125d4.pl.png)
+    ![Utworzona kamera](../../../../../translated_images/pl/counterfit-camera.001ec52194c8ee5d3f617173da2c79e1df903d10882adc625cbfc493525125d4.png)
 
 ## Programowanie kamery
 
@@ -112,7 +112,7 @@ Zaprogramuj urządzenie.
 
 1. Skonfiguruj obraz, który kamera w CounterFit będzie przechwytywać. Możesz ustawić *Source* na *File*, a następnie przesłać plik obrazu, lub ustawić *Source* na *WebCam*, aby obrazy były przechwytywane z Twojej kamery internetowej. Upewnij się, że wybierasz przycisk **Set** po wybraniu obrazu lub kamery internetowej.
 
-    ![CounterFit z plikiem ustawionym jako źródło obrazu oraz kamerą internetową pokazującą osobę trzymającą banana w podglądzie kamery](../../../../../translated_images/counterfit-camera-options.eb3bd5150a8e7dffbf24bc5bcaba0cf2cdef95fbe6bbe393695d173817d6b8df.pl.png)
+    ![CounterFit z plikiem ustawionym jako źródło obrazu oraz kamerą internetową pokazującą osobę trzymającą banana w podglądzie kamery](../../../../../translated_images/pl/counterfit-camera-options.eb3bd5150a8e7dffbf24bc5bcaba0cf2cdef95fbe6bbe393695d173817d6b8df.png)
 
 1. Obraz zostanie przechwycony i zapisany jako `image.jpg` w bieżącym folderze. Zobaczysz ten plik w eksploratorze VS Code. Wybierz plik, aby wyświetlić obraz. Jeśli wymaga obrotu, zaktualizuj linię `camera.rotation = 0` zgodnie z potrzebami i zrób kolejne zdjęcie.
 

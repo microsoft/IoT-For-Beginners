@@ -29,13 +29,13 @@ De Grove Time of Flight-sensor kan worden aangesloten op de Wio Terminal.
 
 Verbind de Time of Flight-sensor.
 
-![Een Grove Time of Flight-sensor](../../../../../translated_images/grove-time-of-flight-sensor.d82ff2165bfded9f485de54d8d07195a6270a602696825fca19f629ddfe94e86.nl.png)
+![Een Grove Time of Flight-sensor](../../../../../translated_images/nl/grove-time-of-flight-sensor.d82ff2165bfded9f485de54d8d07195a6270a602696825fca19f629ddfe94e86.png)
 
 1. Steek één uiteinde van een Grove-kabel in de aansluiting op de Time of Flight-sensor. De kabel past maar op één manier.
 
 1. Terwijl de Wio Terminal is losgekoppeld van je computer of andere stroombron, verbind je het andere uiteinde van de Grove-kabel met de linker Grove-aansluiting op de Wio Terminal, zoals je naar het scherm kijkt. Dit is de aansluiting die het dichtst bij de aan/uit-knop zit. Dit is een gecombineerde digitale en I²C-aansluiting.
 
-![De Grove Time of Flight-sensor verbonden met de linker aansluiting](../../../../../translated_images/wio-time-of-flight-sensor.c4c182131d2ea73d.nl.png)
+![De Grove Time of Flight-sensor verbonden met de linker aansluiting](../../../../../translated_images/nl/wio-time-of-flight-sensor.c4c182131d2ea73d.png)
 
 1. Je kunt nu de Wio Terminal aansluiten op je computer.
 
@@ -101,7 +101,7 @@ De Wio Terminal kan nu worden geprogrammeerd om de aangesloten Time of Flight-se
 
     De afstandsmeter bevindt zich aan de achterkant van de sensor, dus zorg ervoor dat je de juiste kant gebruikt bij het meten van afstanden.
 
-    ![De afstandsmeter aan de achterkant van de Time of Flight-sensor gericht op een banaan](../../../../../translated_images/time-of-flight-banana.079921ad8b1496e4.nl.png)
+    ![De afstandsmeter aan de achterkant van de Time of Flight-sensor gericht op een banaan](../../../../../translated_images/nl/time-of-flight-banana.079921ad8b1496e4.png)
 
 > 💁 Je kunt deze code vinden in de [code-proximity/wio-terminal](../../../../../4-manufacturing/lessons/4-trigger-fruit-detector/code-proximity/wio-terminal) map.
 

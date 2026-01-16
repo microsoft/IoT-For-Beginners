@@ -27,13 +27,13 @@ Relay Grove boleh disambungkan ke port digital Wio Terminal.
 
 Sambungkan relay.
 
-![Relay Grove](../../../../../translated_images/grove-relay.d426958ca210fbd0fb7983d7edc069d46c73a8b0a099d94797bd756f7b6bb6be.ms.png)
+![Relay Grove](../../../../../translated_images/ms/grove-relay.d426958ca210fbd0fb7983d7edc069d46c73a8b0a099d94797bd756f7b6bb6be.png)
 
 1. Masukkan satu hujung kabel Grove ke soket pada relay. Ia hanya boleh dimasukkan dalam satu arah sahaja.
 
 1. Dengan Wio Terminal tidak disambungkan ke komputer atau bekalan kuasa lain, sambungkan hujung lain kabel Grove ke soket Grove di sebelah kiri Wio Terminal seperti yang dilihat pada skrin. Biarkan sensor kelembapan tanah disambungkan ke soket sebelah kanan.
 
-![Relay Grove disambungkan ke soket kiri, dan sensor kelembapan tanah disambungkan ke soket kanan](../../../../../translated_images/wio-relay-and-soil-moisture-sensor.ed722202d42babe0.ms.png)
+![Relay Grove disambungkan ke soket kiri, dan sensor kelembapan tanah disambungkan ke soket kanan](../../../../../translated_images/ms/wio-relay-and-soil-moisture-sensor.ed722202d42babe0.png)
 
 1. Masukkan sensor kelembapan tanah ke dalam tanah, jika ia belum dimasukkan dari pelajaran sebelumnya.
 

@@ -45,11 +45,11 @@ Dodaj czujnik odległości do aplikacji CounterFit.
 
     1. Wybierz przycisk **Add**, aby utworzyć czujnik odległości.
 
-    ![Ustawienia czujnika odległości](../../../../../translated_images/counterfit-create-distance-sensor.967c9fb98f27888d95920c9784d004c972490eb71f70397fe13bd70a79a879a3.pl.png)
+    ![Ustawienia czujnika odległości](../../../../../translated_images/pl/counterfit-create-distance-sensor.967c9fb98f27888d95920c9784d004c972490eb71f70397fe13bd70a79a879a3.png)
 
     Czujnik odległości zostanie utworzony i pojawi się na liście czujników.
 
-    ![Utworzony czujnik odległości](../../../../../translated_images/counterfit-distance-sensor.079eefeeea0b68afc36431ce8fcbe2f09a7e4916ed1cd5cb30e696db53bc18fa.pl.png)
+    ![Utworzony czujnik odległości](../../../../../translated_images/pl/counterfit-distance-sensor.079eefeeea0b68afc36431ce8fcbe2f09a7e4916ed1cd5cb30e696db53bc18fa.png)
 
 ## Programowanie czujnika odległości
 

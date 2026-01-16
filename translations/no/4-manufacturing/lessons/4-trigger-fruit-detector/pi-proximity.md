@@ -29,13 +29,13 @@ Grove Time of Flight-sensoren kan kobles til Raspberry Pi.
 
 Koble til Time of Flight-sensoren.
 
-![En Grove Time of Flight-sensor](../../../../../translated_images/grove-time-of-flight-sensor.d82ff2165bfded9f485de54d8d07195a6270a602696825fca19f629ddfe94e86.no.png)
+![En Grove Time of Flight-sensor](../../../../../translated_images/no/grove-time-of-flight-sensor.d82ff2165bfded9f485de54d8d07195a6270a602696825fca19f629ddfe94e86.png)
 
 1. Sett den ene enden av en Grove-kabel inn i kontakten på Time of Flight-sensoren. Den vil kun passe én vei.
 
 1. Med Raspberry Pi slått av, koble den andre enden av Grove-kabelen til en av I²C-kontaktene merket **I²C** på Grove Base-hatten som er festet til Pi. Disse kontaktene er på nederste rad, motsatt ende av GPIO-pinnene og ved siden av kamerakabelsporet.
 
-![Grove Time of Flight-sensor koblet til I²C-kontakten](../../../../../translated_images/pi-time-of-flight-sensor.58c8dc04eb3bfb57.no.png)
+![Grove Time of Flight-sensor koblet til I²C-kontakten](../../../../../translated_images/no/pi-time-of-flight-sensor.58c8dc04eb3bfb57.png)
 
 ## Programmer Time of Flight-sensoren
 
@@ -106,7 +106,7 @@ Programmer enheten.
 
     Avstandsmåleren er på baksiden av sensoren, så sørg for å bruke riktig side når du måler avstand.
 
-    ![Avstandsmåleren på baksiden av Time of Flight-sensoren peker mot en banan](../../../../../translated_images/time-of-flight-banana.079921ad8b1496e4.no.png)
+    ![Avstandsmåleren på baksiden av Time of Flight-sensoren peker mot en banan](../../../../../translated_images/no/time-of-flight-banana.079921ad8b1496e4.png)
 
 > 💁 Du finner denne koden i [code-proximity/pi](../../../../../4-manufacturing/lessons/4-trigger-fruit-detector/code-proximity/pi)-mappen.
 

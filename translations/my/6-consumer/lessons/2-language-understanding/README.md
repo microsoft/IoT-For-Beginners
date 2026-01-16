@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # ဘာသာစကားကိုနားလည်ခြင်း
 
-![ဒီသင်ခန်းစာ၏အကျဉ်းချုပ်ကို Sketchnote](../../../../../translated_images/lesson-22.6148ea28500d9e00c396aaa2649935fb6641362c8f03d8e5e90a676977ab01dd.my.jpg)
+![ဒီသင်ခန်းစာ၏အကျဉ်းချုပ်ကို Sketchnote](../../../../../translated_images/my/lesson-22.6148ea28500d9e00c396aaa2649935fb6641362c8f03d8e5e90a676977ab01dd.jpg)
 
 > Sketchnote ကို [Nitya Narasimhan](https://github.com/nitya) မှရေးသားထားသည်။ ပုံကိုနှိပ်ပြီး ပိုကြီးမားသောဗားရှင်းကိုကြည့်ပါ။
 
@@ -55,7 +55,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 ## ဘာသာစကားနားလည်မှုမော်ဒယ်တစ်ခုဖန်တီးခြင်း
 
-![LUIS လိုဂို](../../../../../translated_images/luis-logo.5cb4f3e88c020ee6df4f614e8831f4a4b6809a7247bf52085fb48d629ef9be52.my.png)
+![LUIS လိုဂို](../../../../../translated_images/my/luis-logo.5cb4f3e88c020ee6df4f614e8831f4a4b6809a7247bf52085fb48d629ef9be52.png)
 
 Microsoft ၏ Cognitive Services ၏ အစိတ်အပိုင်းတစ်ခုဖြစ်သော LUIS ကို အသုံးပြု၍ ဘာသာစကားနားလည်မှုမော်ဒယ်များကို ဖန်တီးနိုင်သည်။
 

@@ -25,13 +25,13 @@ Czujnik światła Grove, który służy do wykrywania poziomów światła, musi 
 
 Podłącz czujnik światła.
 
-![Czujnik światła Grove](../../../../../translated_images/grove-light-sensor.b8127b7c434e632d6bcdb57587a14e9ef69a268a22df95d08628f62b8fa5505c.pl.png)
+![Czujnik światła Grove](../../../../../translated_images/pl/grove-light-sensor.b8127b7c434e632d6bcdb57587a14e9ef69a268a22df95d08628f62b8fa5505c.png)
 
 1. Włóż jeden koniec kabla Grove do gniazda na module czujnika światła. Kabel wejdzie tylko w jedną stronę.
 
 1. Przy wyłączonym Raspberry Pi podłącz drugi koniec kabla Grove do analogowego gniazda oznaczonego **A0** na nakładce Grove Base przymocowanej do Pi. To gniazdo znajduje się drugie od prawej strony, w rzędzie gniazd obok pinów GPIO.
 
-![Czujnik światła Grove podłączony do gniazda A0](../../../../../translated_images/pi-light-sensor.66cc1e31fa48cd7d5f23400d4b2119aa41508275cb7c778053a7923b4e972d7e.pl.png)
+![Czujnik światła Grove podłączony do gniazda A0](../../../../../translated_images/pl/pi-light-sensor.66cc1e31fa48cd7d5f23400d4b2119aa41508275cb7c778053a7923b4e972d7e.png)
 
 ## Zaprogramuj czujnik światła
 

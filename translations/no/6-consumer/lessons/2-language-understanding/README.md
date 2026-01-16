@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Forstå språk
 
-![En sketchnote-oversikt over denne leksjonen](../../../../../translated_images/lesson-22.6148ea28500d9e00c396aaa2649935fb6641362c8f03d8e5e90a676977ab01dd.no.jpg)
+![En sketchnote-oversikt over denne leksjonen](../../../../../translated_images/no/lesson-22.6148ea28500d9e00c396aaa2649935fb6641362c8f03d8e5e90a676977ab01dd.jpg)
 
 > Sketchnote av [Nitya Narasimhan](https://github.com/nitya). Klikk på bildet for en større versjon.
 
@@ -55,7 +55,7 @@ Språkforståelsesmodeller er AI-modeller som er trent til å trekke ut visse de
 
 ## Opprett en språkforståelsesmodell
 
-![LUIS-logoen](../../../../../translated_images/luis-logo.5cb4f3e88c020ee6df4f614e8831f4a4b6809a7247bf52085fb48d629ef9be52.no.png)
+![LUIS-logoen](../../../../../translated_images/no/luis-logo.5cb4f3e88c020ee6df4f614e8831f4a4b6809a7247bf52085fb48d629ef9be52.png)
 
 Du kan opprette språkforståelsesmodeller ved hjelp av LUIS, en språkforståelsestjeneste fra Microsoft som er en del av Cognitive Services.
 
@@ -126,7 +126,7 @@ Når enhetene er definert, oppretter du intensjoner. Disse læres av modellen ba
 
 Du forteller deretter LUIS hvilke deler av disse setningene som samsvarer med enhetene:
 
-![Setningen sett en timer for 1 minutt og 12 sekunder delt inn i enheter](../../../../../translated_images/sentence-as-intent-entities.301401696f992259.no.png)
+![Setningen sett en timer for 1 minutt og 12 sekunder delt inn i enheter](../../../../../translated_images/no/sentence-as-intent-entities.301401696f992259.png)
 
 Setningen `sett en timer for 1 minutt og 12 sekunder` har intensjonen `sett timer`. Den har også 2 enheter med 2 verdier hver:
 
@@ -178,7 +178,7 @@ Du finner instruksjoner for bruk av LUIS-portalen i [Quickstart: Build your app 
 
 1. Når du skriver inn hvert eksempel, vil LUIS begynne å oppdage enheter og understreke og merke dem den finner.
 
-    ![Eksemplene med tallene og tidsenhetene understreket av LUIS](../../../../../translated_images/luis-intent-examples.25716580b2d2723cf1bafdf277d015c7f046d8cfa20f27bddf3a0873ec45fab7.no.png)
+    ![Eksemplene med tallene og tidsenhetene understreket av LUIS](../../../../../translated_images/no/luis-intent-examples.25716580b2d2723cf1bafdf277d015c7f046d8cfa20f27bddf3a0873ec45fab7.png)
 
 ### Oppgave - tren og test modellen
 

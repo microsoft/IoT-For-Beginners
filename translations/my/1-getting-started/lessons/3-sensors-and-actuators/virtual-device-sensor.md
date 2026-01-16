@@ -37,11 +37,11 @@ CounterFit app မှာ အလင်းခံစနစ်ကို ထည့်
 
     1. **Add** button ကို ရွေးပြီး Pin 0 မှာ အလင်း sensor ကို ဖန်တီးပါ။
 
-    ![အလင်း sensor ရဲ့ settings](../../../../../translated_images/counterfit-create-light-sensor.9f36a5e0d4458d8d554d54b34d2c806d56093d6e49fddcda2d20f6fef7f5cce1.my.png)
+    ![အလင်း sensor ရဲ့ settings](../../../../../translated_images/my/counterfit-create-light-sensor.9f36a5e0d4458d8d554d54b34d2c806d56093d6e49fddcda2d20f6fef7f5cce1.png)
 
     အလင်း sensor ကို ဖန်တီးပြီး sensor list မှာ ပေါ်လာပါမည်။
 
-    ![ဖန်တီးပြီးသော အလင်း sensor](../../../../../translated_images/counterfit-light-sensor.5d0f5584df56b90f6b2561910d9cb20dfbd73eeff2177c238d38f4de54aefae1.my.png)
+    ![ဖန်တီးပြီးသော အလင်း sensor](../../../../../translated_images/my/counterfit-light-sensor.5d0f5584df56b90f6b2561910d9cb20dfbd73eeff2177c238d38f4de54aefae1.png)
 
 ## အလင်း sensor ကို programming လုပ်ပါ
 

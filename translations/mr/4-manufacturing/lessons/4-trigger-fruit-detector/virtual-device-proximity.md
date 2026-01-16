@@ -45,11 +45,11 @@ CounterFit अॅपमध्ये अंतर सेन्सर जोडा
 
     1. अंतर सेन्सर तयार करण्यासाठी **Add** बटण निवडा.
 
-    ![अंतर सेन्सर सेटिंग्ज](../../../../../translated_images/counterfit-create-distance-sensor.967c9fb98f27888d95920c9784d004c972490eb71f70397fe13bd70a79a879a3.mr.png)
+    ![अंतर सेन्सर सेटिंग्ज](../../../../../translated_images/mr/counterfit-create-distance-sensor.967c9fb98f27888d95920c9784d004c972490eb71f70397fe13bd70a79a879a3.png)
 
     अंतर सेन्सर तयार केला जाईल आणि सेन्सर यादीत दिसेल.
 
-    ![अंतर सेन्सर तयार केला](../../../../../translated_images/counterfit-distance-sensor.079eefeeea0b68afc36431ce8fcbe2f09a7e4916ed1cd5cb30e696db53bc18fa.mr.png)
+    ![अंतर सेन्सर तयार केला](../../../../../translated_images/mr/counterfit-distance-sensor.079eefeeea0b68afc36431ce8fcbe2f09a7e4916ed1cd5cb30e696db53bc18fa.png)
 
 ## अंतर सेन्सर प्रोग्राम करा
 

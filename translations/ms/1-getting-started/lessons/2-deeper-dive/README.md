@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Penyelaman Mendalam ke dalam IoT
 
-![Gambaran sketchnote untuk pelajaran ini](../../../../../translated_images/lesson-2.324b0580d620c25e0a24fb7fddfc0b29a846dd4b82c08e7a9466d580ee78ce51.ms.jpg)
+![Gambaran sketchnote untuk pelajaran ini](../../../../../translated_images/ms/lesson-2.324b0580d620c25e0a24fb7fddfc0b29a846dd4b82c08e7a9466d580ee78ce51.jpg)
 
 > Sketchnote oleh [Nitya Narasimhan](https://github.com/nitya). Klik imej untuk versi yang lebih besar.
 
@@ -41,13 +41,13 @@ Dua komponen utama aplikasi IoT adalah *Internet* dan *peranti*. Mari kita lihat
 
 ### Peranti
 
-![Raspberry Pi 4](../../../../../translated_images/raspberry-pi-4.fd4590d308c3d456.ms.jpg)
+![Raspberry Pi 4](../../../../../translated_images/ms/raspberry-pi-4.fd4590d308c3d456.jpg)
 
 Bahagian **Peranti** dalam IoT merujuk kepada peranti yang boleh berinteraksi dengan dunia fizikal. Peranti ini biasanya adalah komputer kecil, berharga rendah, beroperasi pada kelajuan rendah dan menggunakan kuasa yang rendah - contohnya, mikropengawal mudah dengan RAM dalam kilobyte (berbanding gigabyte dalam PC) yang beroperasi hanya pada beberapa ratus megahertz (berbanding gigahertz dalam PC), tetapi kadang-kadang menggunakan kuasa yang sangat sedikit sehingga boleh beroperasi selama berminggu-minggu, berbulan-bulan atau bahkan bertahun-tahun dengan bateri.
 
 Peranti ini berinteraksi dengan dunia fizikal, sama ada dengan menggunakan sensor untuk mengumpul data dari persekitaran mereka atau dengan mengawal output atau aktuator untuk membuat perubahan fizikal. Contoh biasa adalah termostat pintar - peranti yang mempunyai sensor suhu, cara untuk menetapkan suhu yang diingini seperti dail atau skrin sentuh, dan sambungan kepada sistem pemanasan atau penyejukan yang boleh dihidupkan apabila suhu yang dikesan berada di luar julat yang diingini. Sensor suhu mengesan bahawa bilik terlalu sejuk dan aktuator menghidupkan pemanasan.
 
-![Rajah menunjukkan suhu dan dail sebagai input kepada peranti IoT, dan kawalan pemanas sebagai output](../../../../../translated_images/basic-thermostat.a923217fd1f37e5a6f3390396a65c22a387419ea2dd17e518ec24315ba6ae9a8.ms.png)
+![Rajah menunjukkan suhu dan dail sebagai input kepada peranti IoT, dan kawalan pemanas sebagai output](../../../../../translated_images/ms/basic-thermostat.a923217fd1f37e5a6f3390396a65c22a387419ea2dd17e518ec24315ba6ae9a8.png)
 
 Terdapat pelbagai jenis peranti yang boleh bertindak sebagai peranti IoT, daripada perkakasan khusus yang mengesan satu perkara, kepada peranti tujuan umum, malah telefon pintar anda! Telefon pintar boleh menggunakan sensor untuk mengesan dunia di sekelilingnya, dan aktuator untuk berinteraksi dengan dunia - contohnya menggunakan sensor GPS untuk mengesan lokasi anda dan pembesar suara untuk memberikan arahan navigasi ke destinasi.
 
@@ -63,11 +63,11 @@ Peranti juga tidak selalu bersambung terus ke Internet melalui WiFi atau sambung
 
 Sebagai contoh termostat pintar, termostat akan bersambung menggunakan WiFi rumah kepada perkhidmatan awan yang berjalan di awan. Ia akan menghantar data suhu kepada perkhidmatan awan ini, dan dari situ ia akan ditulis ke pangkalan data yang membolehkan pemilik rumah memeriksa suhu semasa dan suhu lalu menggunakan aplikasi telefon. Perkhidmatan lain di awan akan mengetahui suhu yang diingini oleh pemilik rumah, dan menghantar mesej kembali kepada peranti IoT melalui perkhidmatan awan untuk memberitahu sistem pemanasan untuk dihidupkan atau dimatikan.
 
-![Rajah menunjukkan suhu dan dail sebagai input kepada peranti IoT, peranti IoT dengan komunikasi dua hala ke awan, yang seterusnya mempunyai komunikasi dua hala ke telefon, dan kawalan pemanas sebagai output daripada peranti IoT](../../../../../translated_images/mobile-controlled-thermostat.4a994010473d8d6a52ba68c67e5f02dc8928c717e93ca4b9bc55525aa75bbb60.ms.png)
+![Rajah menunjukkan suhu dan dail sebagai input kepada peranti IoT, peranti IoT dengan komunikasi dua hala ke awan, yang seterusnya mempunyai komunikasi dua hala ke telefon, dan kawalan pemanas sebagai output daripada peranti IoT](../../../../../translated_images/ms/mobile-controlled-thermostat.4a994010473d8d6a52ba68c67e5f02dc8928c717e93ca4b9bc55525aa75bbb60.png)
 
 Versi yang lebih pintar boleh menggunakan AI di awan dengan data daripada sensor lain yang bersambung kepada peranti IoT lain seperti sensor kehadiran yang mengesan bilik mana yang digunakan, serta data seperti cuaca dan juga kalendar anda, untuk membuat keputusan tentang cara menetapkan suhu dengan cara yang pintar. Contohnya, ia boleh mematikan pemanasan jika ia membaca daripada kalendar anda bahawa anda sedang bercuti, atau mematikan pemanasan berdasarkan bilik demi bilik bergantung pada bilik mana yang anda gunakan, belajar daripada data untuk menjadi lebih tepat dari semasa ke semasa.
 
-![Rajah menunjukkan pelbagai sensor suhu dan dail sebagai input kepada peranti IoT, peranti IoT dengan komunikasi dua hala ke awan, yang seterusnya mempunyai komunikasi dua hala ke telefon, kalendar dan perkhidmatan cuaca, dan kawalan pemanas sebagai output daripada peranti IoT](../../../../../translated_images/smarter-thermostat.a75855f15d2d9e63.ms.png)
+![Rajah menunjukkan pelbagai sensor suhu dan dail sebagai input kepada peranti IoT, peranti IoT dengan komunikasi dua hala ke awan, yang seterusnya mempunyai komunikasi dua hala ke telefon, kalendar dan perkhidmatan cuaca, dan kawalan pemanas sebagai output daripada peranti IoT](../../../../../translated_images/ms/smarter-thermostat.a75855f15d2d9e63.png)
 
 ✅ Apakah data lain yang boleh membantu menjadikan termostat bersambung Internet lebih pintar?
 
@@ -103,7 +103,7 @@ Semakin pantas kitaran jam, semakin banyak arahan yang boleh diproses setiap saa
 
 > 💁 CPU melaksanakan program menggunakan [kitaran fetch-decode-execute](https://wikipedia.org/wiki/Instruction_cycle). Untuk setiap detik jam, CPU akan mengambil arahan seterusnya daripada memori, menyahkodnya, kemudian melaksanakannya seperti menggunakan unit logik aritmetik (ALU) untuk menambah 2 nombor. Sesetengah pelaksanaan akan mengambil masa beberapa detik untuk dijalankan, jadi kitaran seterusnya akan berjalan pada detik seterusnya selepas arahan selesai.
 
-![Kitaran fetch decode execute menunjukkan fetch mengambil arahan daripada program yang disimpan dalam RAM, kemudian menyahkod dan melaksanakannya pada CPU](../../../../../translated_images/fetch-decode-execute.2fd6f150f6280392807f4475382319abd0cee0b90058e1735444d6baa6f2078c.ms.png)
+![Kitaran fetch decode execute menunjukkan fetch mengambil arahan daripada program yang disimpan dalam RAM, kemudian menyahkod dan melaksanakannya pada CPU](../../../../../translated_images/ms/fetch-decode-execute.2fd6f150f6280392807f4475382319abd0cee0b90058e1735444d6baa6f2078c.png)
 
 Mikropengawal mempunyai kelajuan jam yang jauh lebih rendah daripada komputer meja atau komputer riba, atau bahkan kebanyakan telefon pintar. Contohnya, Wio Terminal mempunyai CPU yang berjalan pada 120MHz atau 120,000,000 kitaran sesaat.
 
@@ -135,7 +135,7 @@ Seperti CPU, memori pada mikrokontroler jauh lebih kecil berbanding PC atau Mac.
 
 Rajah di bawah menunjukkan perbezaan saiz relatif antara 192KB dan 8GB - titik kecil di tengah mewakili 192KB.
 
-![Perbandingan antara 192KB dan 8GB - lebih besar 40,000 kali ganda](../../../../../translated_images/ram-comparison.6beb73541b42ac6f.ms.png)
+![Perbandingan antara 192KB dan 8GB - lebih besar 40,000 kali ganda](../../../../../translated_images/ms/ram-comparison.6beb73541b42ac6f.png)
 
 Storan program juga lebih kecil berbanding PC. Sebuah PC biasa mungkin mempunyai cakera keras 500GB untuk storan program, manakala mikrokontroler mungkin hanya mempunyai kilobyte atau beberapa megabyte (MB) storan (1MB adalah 1,000KB, atau 1,000,000 bait). Wio terminal mempunyai 4MB storan program.
 
@@ -191,7 +191,7 @@ Papan Arduino dikodkan dalam C atau C++. Menggunakan C/C++ membolehkan kod anda 
 
 Anda akan menulis kod persediaan anda dalam fungsi `setup`, seperti menyambung ke WiFi dan perkhidmatan awan atau memulakan pin untuk input dan output. Kod gelung anda kemudian akan mengandungi kod pemprosesan, seperti membaca dari sensor dan menghantar nilai ke awan. Anda biasanya akan memasukkan kelewatan dalam setiap gelung, contohnya, jika anda hanya mahu data sensor dihantar setiap 10 saat, anda akan menambah kelewatan 10 saat pada akhir gelung supaya mikrokontroler dapat tidur, menjimatkan kuasa, kemudian menjalankan gelung semula apabila diperlukan 10 saat kemudian.
 
-![Sketch Arduino menjalankan setup terlebih dahulu, kemudian menjalankan loop berulang kali](../../../../../translated_images/arduino-sketch.79590cb837ff7a7c6a68d1afda6cab83fd53d3bb1bd9a8bf2eaf8d693a4d3ea6.ms.png)
+![Sketch Arduino menjalankan setup terlebih dahulu, kemudian menjalankan loop berulang kali](../../../../../translated_images/ms/arduino-sketch.79590cb837ff7a7c6a68d1afda6cab83fd53d3bb1bd9a8bf2eaf8d693a4d3ea6.png)
 
 ✅ Seni bina program ini dikenali sebagai *event loop* atau *message loop*. Banyak aplikasi menggunakan ini di belakang tabir dan ia adalah standard untuk kebanyakan aplikasi desktop yang berjalan pada OS seperti Windows, macOS atau Linux. `loop` mendengar mesej daripada komponen antara muka pengguna seperti butang, atau peranti seperti papan kekunci, dan bertindak balas terhadapnya. Anda boleh membaca lebih lanjut dalam [artikel tentang event loop](https://wikipedia.org/wiki/Event_loop).
 
@@ -211,17 +211,17 @@ Dalam pelajaran terakhir, kami memperkenalkan komputer papan tunggal. Sekarang m
 
 ### Raspberry Pi
 
-![Logo Raspberry Pi](../../../../../translated_images/raspberry-pi-logo.4efaa16605cee054.ms.png)
+![Logo Raspberry Pi](../../../../../translated_images/ms/raspberry-pi-logo.4efaa16605cee054.png)
 
 [The Raspberry Pi Foundation](https://www.raspberrypi.org) adalah sebuah badan amal dari UK yang ditubuhkan pada tahun 2009 untuk mempromosikan kajian sains komputer, terutamanya di peringkat sekolah. Sebagai sebahagian daripada misi ini, mereka membangunkan komputer papan tunggal, yang dipanggil Raspberry Pi. Raspberry Pi kini tersedia dalam 3 varian - versi bersaiz penuh, Pi Zero yang lebih kecil, dan modul pengkomputeran yang boleh dibina ke dalam peranti IoT akhir anda.
 
-![Raspberry Pi 4](../../../../../translated_images/raspberry-pi-4.fd4590d308c3d456.ms.jpg)
+![Raspberry Pi 4](../../../../../translated_images/ms/raspberry-pi-4.fd4590d308c3d456.jpg)
 
 Iterasi terbaru Raspberry Pi bersaiz penuh ialah Raspberry Pi 4B. Ia mempunyai CPU quad-core (4 teras) yang berjalan pada 1.5GHz, 2, 4, atau 8GB RAM, gigabit ethernet, WiFi, 2 port HDMI yang menyokong skrin 4k, port audio dan video komposit, port USB (2 USB 2.0, 2 USB 3.0), 40 pin GPIO, penyambung kamera untuk modul kamera Raspberry Pi, dan slot kad SD. Semua ini pada papan yang berukuran 88mm x 58mm x 19.5mm dan dikuasakan oleh bekalan kuasa USB-C 3A. Harga bermula dari US$35, jauh lebih murah daripada PC atau Mac.
 
 > 💁 Terdapat juga Pi400, komputer semua dalam satu dengan Pi4 yang dibina ke dalam papan kekunci.
 
-![Raspberry Pi Zero](../../../../../translated_images/raspberry-pi-zero.f7a4133e1e7d54bb.ms.jpg)
+![Raspberry Pi Zero](../../../../../translated_images/ms/raspberry-pi-zero.f7a4133e1e7d54bb.jpg)
 
 Pi Zero jauh lebih kecil, dengan kuasa yang lebih rendah. Ia mempunyai CPU teras tunggal 1GHz, 512MB RAM, WiFi (dalam model Zero W), satu port HDMI, satu port mikro-USB, 40 pin GPIO, penyambung kamera untuk modul kamera Raspberry Pi, dan slot kad SD. Ia berukuran 65mm x 30mm x 5mm, dan menggunakan kuasa yang sangat sedikit. Zero berharga US$5, dengan versi W yang mempunyai WiFi berharga US$10.
 

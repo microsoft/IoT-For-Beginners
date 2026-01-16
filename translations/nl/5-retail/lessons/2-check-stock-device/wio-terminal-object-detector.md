@@ -104,7 +104,7 @@ De code die je gebruikte om beelden te classificeren lijkt erg op de code om obj
 
     Je zult het beeld dat is genomen kunnen zien, en deze waarden in het tabblad **Predictions** in Custom Vision.
 
-    ![4 blikken tomatenpuree op een plank met voorspellingen voor de 4 detecties van 35,8%, 33,5%, 25,7% en 16,6%](../../../../../translated_images/custom-vision-stock-prediction.942266ab1bcca3410ecdf23643b9f5f570cfab2345235074e24c51f285777613.nl.png)
+    ![4 blikken tomatenpuree op een plank met voorspellingen voor de 4 detecties van 35,8%, 33,5%, 25,7% en 16,6%](../../../../../translated_images/nl/custom-vision-stock-prediction.942266ab1bcca3410ecdf23643b9f5f570cfab2345235074e24c51f285777613.png)
 
 > 💁 Je kunt deze code vinden in de map [code-detect/wio-terminal](../../../../../5-retail/lessons/2-check-stock-device/code-detect/wio-terminal).
 

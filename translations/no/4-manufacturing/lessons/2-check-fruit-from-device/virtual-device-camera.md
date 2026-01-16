@@ -43,11 +43,11 @@ Legg til kameraet i CounterFit-appen.
 
     1. Velg **Add**-knappen for å opprette kameraet.
 
-    ![Kameraoppsett](../../../../../translated_images/counterfit-create-camera.a5de97f59c0bd3cbe0416d7e89a3cfe86d19fbae05c641c53a91286412af0a34.no.png)
+    ![Kameraoppsett](../../../../../translated_images/no/counterfit-create-camera.a5de97f59c0bd3cbe0416d7e89a3cfe86d19fbae05c641c53a91286412af0a34.png)
 
     Kameraet vil bli opprettet og vises i sensorlisten.
 
-    ![Kamera opprettet](../../../../../translated_images/counterfit-camera.001ec52194c8ee5d3f617173da2c79e1df903d10882adc625cbfc493525125d4.no.png)
+    ![Kamera opprettet](../../../../../translated_images/no/counterfit-camera.001ec52194c8ee5d3f617173da2c79e1df903d10882adc625cbfc493525125d4.png)
 
 ## Programmer kameraet
 
@@ -112,7 +112,7 @@ Programmer enheten.
 
 1. Konfigurer bildet som kameraet i CounterFit vil fange. Du kan enten sette *Source* til *File*, deretter laste opp en bildefil, eller sette *Source* til *WebCam*, og bilder vil bli tatt fra webkameraet ditt. Sørg for at du velger **Set**-knappen etter å ha valgt et bilde eller webkameraet ditt.
 
-    ![CounterFit med en fil satt som bildekilde, og et webkamera som viser en person som holder en banan i en forhåndsvisning av webkameraet](../../../../../translated_images/counterfit-camera-options.eb3bd5150a8e7dffbf24bc5bcaba0cf2cdef95fbe6bbe393695d173817d6b8df.no.png)
+    ![CounterFit med en fil satt som bildekilde, og et webkamera som viser en person som holder en banan i en forhåndsvisning av webkameraet](../../../../../translated_images/no/counterfit-camera-options.eb3bd5150a8e7dffbf24bc5bcaba0cf2cdef95fbe6bbe393695d173817d6b8df.png)
 
 1. Et bilde vil bli tatt og lagret som `image.jpg` i den gjeldende mappen. Du vil se denne filen i VS Code-utforskeren. Velg filen for å se bildet. Hvis det trenger rotasjon, oppdater linjen `camera.rotation = 0` etter behov og ta et nytt bilde.
 

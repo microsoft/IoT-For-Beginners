@@ -25,7 +25,7 @@ Kamera boleh disambungkan ke Raspberry Pi menggunakan kabel reben.
 
 ### Tugas - sambungkan kamera
 
-![Kamera Raspberry Pi](../../../../../translated_images/pi-camera-module.4278753c31bd6e757aa2b858be97d72049f71616278cefe4fb5abb485b40a078.ms.png)
+![Kamera Raspberry Pi](../../../../../translated_images/ms/pi-camera-module.4278753c31bd6e757aa2b858be97d72049f71616278cefe4fb5abb485b40a078.png)
 
 1. Matikan kuasa Pi.
 
@@ -33,17 +33,17 @@ Kamera boleh disambungkan ke Raspberry Pi menggunakan kabel reben.
 
    Anda boleh melihat animasi yang menunjukkan cara membuka klip dan memasukkan kabel pada [dokumentasi Raspberry Pi Getting Started with the Camera module](https://projects.raspberrypi.org/en/projects/getting-started-with-picamera/2).
 
-   ![Kabel reben dimasukkan ke dalam modul kamera](../../../../../translated_images/pi-camera-ribbon-cable.0bf82acd251611c21ac616f082849413e2b322a261d0e4f8fec344248083b07e.ms.png)
+   ![Kabel reben dimasukkan ke dalam modul kamera](../../../../../translated_images/ms/pi-camera-ribbon-cable.0bf82acd251611c21ac616f082849413e2b322a261d0e4f8fec344248083b07e.png)
 
 1. Tanggalkan Grove Base Hat dari Pi.
 
 1. Lalukan kabel reben melalui slot kamera di Grove Base Hat. Pastikan bahagian biru kabel menghadap ke arah port analog yang dilabelkan **A0**, **A1** dan sebagainya.
 
-   ![Kabel reben melalui Grove Base Hat](../../../../../translated_images/grove-base-hat-ribbon-cable.501fed202fcf73b11b2b68f6d246189f7d15d3e4423c572ddee79d77b4632b47.ms.png)
+   ![Kabel reben melalui Grove Base Hat](../../../../../translated_images/ms/grove-base-hat-ribbon-cable.501fed202fcf73b11b2b68f6d246189f7d15d3e4423c572ddee79d77b4632b47.png)
 
 1. Masukkan kabel reben ke dalam port kamera pada Pi. Sekali lagi, tarik klip plastik hitam ke atas, masukkan kabel, kemudian tolak klip kembali ke tempatnya. Bahagian biru kabel harus menghadap ke port USB dan ethernet.
 
-   ![Kabel reben disambungkan ke soket kamera pada Pi](../../../../../translated_images/pi-camera-socket-ribbon-cable.a18309920b11800911082ed7aa6fb28e6d9be3a022e4079ff990016cae3fca10.ms.png)
+   ![Kabel reben disambungkan ke soket kamera pada Pi](../../../../../translated_images/ms/pi-camera-socket-ribbon-cable.a18309920b11800911082ed7aa6fb28e6d9be3a022e4079ff990016cae3fca10.png)
 
 1. Pasang semula Grove Base Hat.
 
@@ -110,7 +110,7 @@ Programkan peranti.
 
     Baris `camera.rotation = 0` menetapkan putaran imej. Kabel reben masuk ke bahagian bawah kamera, tetapi jika kamera anda diputar untuk memudahkannya mengarah ke item yang ingin anda klasifikasikan, maka anda boleh menukar baris ini kepada bilangan darjah putaran.
 
-    ![Kamera tergantung di atas tin minuman](../../../../../translated_images/pi-camera-upside-down.5376961ba31459883362124152ad6b823d5ac5fc14e85f317e22903bd681c2b6.ms.png)
+    ![Kamera tergantung di atas tin minuman](../../../../../translated_images/ms/pi-camera-upside-down.5376961ba31459883362124152ad6b823d5ac5fc14e85f317e22903bd681c2b6.png)
 
     Sebagai contoh, jika anda menggantung kabel reben di atas sesuatu supaya ia berada di bahagian atas kamera, maka tetapkan putaran kepada 180:
 

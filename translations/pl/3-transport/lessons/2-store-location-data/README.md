@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Przechowywanie danych o lokalizacji
 
-![Szkicowy przegląd tej lekcji](../../../../../translated_images/lesson-12.ca7f53039712a3ec14ad6474d8445361c84adab643edc53fa6269b77895606bb.pl.jpg)
+![Szkicowy przegląd tej lekcji](../../../../../translated_images/pl/lesson-12.ca7f53039712a3ec14ad6474d8445361c84adab643edc53fa6269b77895606bb.jpg)
 
 > Szkic autorstwa [Nitya Narasimhan](https://github.com/nitya). Kliknij obraz, aby zobaczyć większą wersję.
 
@@ -66,7 +66,7 @@ Bazy danych to usługi umożliwiające przechowywanie i przeszukiwanie danych. B
 
 Pierwsze bazy danych to Relacyjne Systemy Zarządzania Bazami Danych (RDBMS), znane również jako bazy danych SQL, od języka Structured Query Language (SQL), który służy do interakcji z nimi w celu dodawania, usuwania, aktualizowania lub przeszukiwania danych. Te bazy danych składają się ze schematu - dobrze zdefiniowanego zestawu tabel danych, podobnych do arkusza kalkulacyjnego. Każda tabela ma wiele nazwanych kolumn. Wstawiając dane, dodajesz wiersz do tabeli, umieszczając wartości w każdej z kolumn. To utrzymuje dane w bardzo sztywnej strukturze - chociaż możesz pozostawić kolumny puste, jeśli chcesz dodać nową kolumnę, musisz to zrobić w bazie danych, uzupełniając wartości dla istniejących wierszy. Te bazy danych są relacyjne - jedna tabela może mieć relację z inną.
 
-![Relacyjna baza danych z ID tabeli użytkowników powiązanym z kolumną ID użytkownika w tabeli zakupów oraz ID tabeli produktów powiązanym z kolumną ID produktu w tabeli zakupów](../../../../../translated_images/sql-database.be160f12bfccefd3.pl.png)
+![Relacyjna baza danych z ID tabeli użytkowników powiązanym z kolumną ID użytkownika w tabeli zakupów oraz ID tabeli produktów powiązanym z kolumną ID produktu w tabeli zakupów](../../../../../translated_images/pl/sql-database.be160f12bfccefd3.png)
 
 Na przykład, jeśli przechowujesz dane osobowe użytkowników w tabeli, miałbyś jakiś wewnętrzny unikalny identyfikator dla każdego użytkownika, który jest używany w wierszu tabeli zawierającej imię i adres użytkownika. Jeśli chciałbyś przechowywać inne szczegóły dotyczące tego użytkownika, takie jak jego zakupy, w innej tabeli, miałbyś jedną kolumnę w nowej tabeli dla identyfikatora tego użytkownika. Gdy wyszukujesz użytkownika, możesz użyć jego identyfikatora, aby uzyskać jego dane osobowe z jednej tabeli i jego zakupy z innej.
 
@@ -84,7 +84,7 @@ Bazy danych NoSQL nazywane są NoSQL, ponieważ nie mają tej samej sztywnej str
 
 > 💁 Pomimo swojej nazwy, niektóre bazy danych NoSQL pozwalają na użycie SQL do przeszukiwania danych.
 
-![Dokumenty w folderach w bazie danych NoSQL](../../../../../translated_images/noqsl-database.62d24ccf5b73f60d35c245a8533f1c7147c0928e955b82cb290b2e184bb434df.pl.png)
+![Dokumenty w folderach w bazie danych NoSQL](../../../../../translated_images/pl/noqsl-database.62d24ccf5b73f60d35c245a8533f1c7147c0928e955b82cb290b2e184bb434df.png)
 
 Bazy danych NoSQL nie mają z góry zdefiniowanego schematu, który ogranicza sposób przechowywania danych. Możesz wstawiać dowolne dane niestrukturalne, zazwyczaj w formacie JSON. Dokumenty te mogą być organizowane w foldery, podobnie jak pliki na komputerze. Każdy dokument może mieć inne pola niż inne dokumenty - na przykład, jeśli przechowujesz dane IoT z pojazdów rolniczych, niektóre mogą mieć pola dla danych z akcelerometru i prędkości, inne mogą mieć pola dla temperatury w przyczepie. Jeśli dodałbyś nowy typ ciężarówki, na przykład z wbudowanymi wagami do śledzenia wagi przewożonych produktów, urządzenie IoT mogłoby dodać to nowe pole, a dane mogłyby być przechowywane bez żadnych zmian w bazie danych.
 
@@ -98,7 +98,7 @@ W tej lekcji będziesz używać magazynu NoSQL do przechowywania danych IoT.
 
 W poprzedniej lekcji zebrałeś dane GPS z czujnika GPS podłączonego do urządzenia IoT. Aby przechowywać te dane IoT w chmurze, musisz je przesłać do usługi IoT. Ponownie użyjesz Azure IoT Hub, tej samej usługi IoT w chmurze, której używałeś w poprzednim projekcie.
 
-![Wysyłanie telemetrii GPS z urządzenia IoT do IoT Hub](../../../../../translated_images/gps-telemetry-iot-hub.8115335d51cd2c1285d20e9d1b18cf685e59a8e093e7797291ef173445af6f3d.pl.png)
+![Wysyłanie telemetrii GPS z urządzenia IoT do IoT Hub](../../../../../translated_images/pl/gps-telemetry-iot-hub.8115335d51cd2c1285d20e9d1b18cf685e59a8e093e7797291ef173445af6f3d.png)
 
 ### Zadanie - wysyłanie danych GPS do IoT Hub
 
@@ -180,7 +180,7 @@ Dane ze ścieżki zimnej są przechowywane w hurtowniach danych - bazach danych 
 
 Gdy dane trafiają do IoT Hub, możesz napisać kod bezserwerowy, który będzie nasłuchiwał zdarzeń publikowanych na zgodnym z Event-Hub punkcie końcowym. To jest ścieżka ciepła - te dane zostaną przechowane i wykorzystane w następnej lekcji do raportowania trasy.
 
-![Wysyłanie telemetrii GPS z urządzenia IoT do IoT Hub, a następnie do Azure Functions za pomocą wyzwalacza Event Hub](../../../../../translated_images/gps-telemetry-iot-hub-functions.24d3fa5592455e9f4e2fe73856b40c3915a292b90263c31d652acfd976cfedd8.pl.png)
+![Wysyłanie telemetrii GPS z urządzenia IoT do IoT Hub, a następnie do Azure Functions za pomocą wyzwalacza Event Hub](../../../../../translated_images/pl/gps-telemetry-iot-hub-functions.24d3fa5592455e9f4e2fe73856b40c3915a292b90263c31d652acfd976cfedd8.png)
 
 ### Zadanie - obsługa zdarzeń GPS za pomocą kodu bezserwerowego
 
@@ -202,7 +202,7 @@ Gdy dane trafiają do IoT Hub, możesz napisać kod bezserwerowy, który będzie
 
 ## Konta magazynu Azure
 
-![Logo Azure Storage](../../../../../translated_images/azure-storage-logo.605c0f602c640d482a80f1b35a2629a32d595711b7ab1d7ceea843250615ff32.pl.png)
+![Logo Azure Storage](../../../../../translated_images/pl/azure-storage-logo.605c0f602c640d482a80f1b35a2629a32d595711b7ab1d7ceea843250615ff32.png)
 
 Konta magazynu Azure to uniwersalna usługa przechowywania danych, która umożliwia przechowywanie danych na różne sposoby. Możesz przechowywać dane jako obiekty blob, w kolejkach, w tabelach lub jako pliki – wszystko jednocześnie.
 
@@ -241,7 +241,7 @@ Twoja aplikacja funkcji musi teraz połączyć się z magazynem obiektów blob, 
 
 W tej lekcji użyjesz SDK dla Pythona, aby zobaczyć, jak pracować z magazynem obiektów blob.
 
-![Wysyłanie telemetrii GPS z urządzenia IoT do IoT Hub, następnie do Azure Functions za pomocą wyzwalacza Event Hub, a następnie zapisywanie jej w magazynie obiektów blob](../../../../../translated_images/save-telemetry-to-storage-from-functions.ed3b1820980097f1.pl.png)
+![Wysyłanie telemetrii GPS z urządzenia IoT do IoT Hub, następnie do Azure Functions za pomocą wyzwalacza Event Hub, a następnie zapisywanie jej w magazynie obiektów blob](../../../../../translated_images/pl/save-telemetry-to-storage-from-functions.ed3b1820980097f1.png)
 
 Dane zostaną zapisane jako obiekt JSON w następującym formacie:
 

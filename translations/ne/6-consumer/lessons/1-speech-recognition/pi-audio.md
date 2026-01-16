@@ -25,13 +25,13 @@ CO_OP_TRANSLATOR_METADATA:
 
 #### कार्य - बटन जडान गर्नुहोस्
 
-![Grove बटन](../../../../../translated_images/grove-button.a70cfbb809a8563681003250cf5b06d68cdcc68624f9e2f493d5a534ae2da1e5.ne.png)
+![Grove बटन](../../../../../translated_images/ne/grove-button.a70cfbb809a8563681003250cf5b06d68cdcc68624f9e2f493d5a534ae2da1e5.png)
 
 1. Grove केबलको एक छेउ बटन मोड्युलको सकेटमा हाल्नुहोस्। यो केवल एक तरिकाले मात्र जडान गर्न सकिन्छ।
 
 1. रास्पबेरी पाई बन्द अवस्थामा, Grove केबलको अर्को छेउलाई Grove बेस HAT मा GPIO पिनको छेउमा रहेको सकेटको पंक्तिमा **D5** मार्क गरिएको डिजिटल सकेटमा जडान गर्नुहोस्। यो सकेट बाँया तर्फबाट दोस्रो हो।
 
-![D5 सकेटमा जडान गरिएको Grove बटन](../../../../../translated_images/pi-button.c7a1a4f55943341ce1baf1057658e9a205804d4131d258e820c93f951df0abf3.ne.png)
+![D5 सकेटमा जडान गरिएको Grove बटन](../../../../../translated_images/ne/pi-button.c7a1a4f55943341ce1baf1057658e9a205804d4131d258e820c93f951df0abf3.png)
 
 ## अडियो क्याप्चर गर्नुहोस्
 

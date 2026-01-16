@@ -154,11 +154,11 @@ Cipta aplikasi Python untuk mencetak `"Hello World"` ke konsol.
 
 1. Apabila VS Code dilancarkan, ia akan mengaktifkan persekitaran maya Python. Persekitaran maya yang dipilih akan muncul di bar status bawah:
 
-    ![VS Code menunjukkan persekitaran maya yang dipilih](../../../../../translated_images/vscode-virtual-env.8ba42e04c3d533cf.ms.png)
+    ![VS Code menunjukkan persekitaran maya yang dipilih](../../../../../translated_images/ms/vscode-virtual-env.8ba42e04c3d533cf.png)
 
 1. Jika Terminal VS Code sudah berjalan semasa VS Code dimulakan, ia tidak akan mempunyai persekitaran maya yang diaktifkan di dalamnya. Cara paling mudah ialah mematikan terminal menggunakan butang **Kill the active terminal instance**:
 
-    ![Butang VS Code Kill the active terminal instance](../../../../../translated_images/vscode-kill-terminal.1cc4de7c6f25ee08.ms.png)
+    ![Butang VS Code Kill the active terminal instance](../../../../../translated_images/ms/vscode-kill-terminal.1cc4de7c6f25ee08.png)
 
     Anda boleh mengetahui jika terminal mempunyai persekitaran maya yang diaktifkan kerana nama persekitaran maya akan menjadi awalan pada prompt terminal. Sebagai contoh, ia mungkin:
 
@@ -212,7 +212,7 @@ Sebagai langkah kedua 'Hello World', anda akan menjalankan aplikasi CounterFit d
 
     Aplikasi akan mula berjalan dan dibuka dalam pelayar web anda:
 
-    ![Aplikasi Counter Fit berjalan dalam pelayar](../../../../../translated_images/counterfit-first-run.433326358b669b31d0e99c3513cb01bfbb13724d162c99cdcc8f51ecf5f9c779.ms.png)
+    ![Aplikasi Counter Fit berjalan dalam pelayar](../../../../../translated_images/ms/counterfit-first-run.433326358b669b31d0e99c3513cb01bfbb13724d162c99cdcc8f51ecf5f9c779.png)
 
     Ia akan ditandakan sebagai *Disconnected*, dengan LED di sudut kanan atas dimatikan.
 
@@ -229,11 +229,11 @@ Sebagai langkah kedua 'Hello World', anda akan menjalankan aplikasi CounterFit d
 
 1. Anda perlu melancarkan terminal VS Code baru dengan memilih butang **Create a new integrated terminal**. Ini kerana aplikasi CounterFit sedang berjalan dalam terminal semasa.
 
-    ![Butang VS Code Create a new integrated terminal](../../../../../translated_images/vscode-new-terminal.77db8fc0f9cd3182.ms.png)
+    ![Butang VS Code Create a new integrated terminal](../../../../../translated_images/ms/vscode-new-terminal.77db8fc0f9cd3182.png)
 
 1. Dalam terminal baru ini, jalankan fail `app.py` seperti sebelumnya. Status CounterFit akan berubah kepada **Connected** dan LED akan menyala.
 
-    ![Counter Fit menunjukkan sebagai connected](../../../../../translated_images/counterfit-connected.ed30b46d8f79b0921f3fc70be10366e596a89dca3f80c2224a9d9fc98fccf884.ms.png)
+    ![Counter Fit menunjukkan sebagai connected](../../../../../translated_images/ms/counterfit-connected.ed30b46d8f79b0921f3fc70be10366e596a89dca3f80c2224a9d9fc98fccf884.png)
 
 > 💁 Anda boleh menemui kod ini dalam folder [code/virtual-device](../../../../../1-getting-started/lessons/1-introduction-to-iot/code/virtual-device).
 

@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Sett en timer og gi muntlig tilbakemelding
 
-![En sketchnote-oversikt over denne leksjonen](../../../../../translated_images/lesson-23.f38483e1d4df4828990d3f02d60e46c978b075d384ae7cb4f7bab738e107c850.no.jpg)
+![En sketchnote-oversikt over denne leksjonen](../../../../../translated_images/no/lesson-23.f38483e1d4df4828990d3f02d60e46c978b075d384ae7cb4f7bab738e107c850.jpg)
 
 > Sketchnote av [Nitya Narasimhan](https://github.com/nitya). Klikk på bildet for en større versjon.
 
@@ -37,7 +37,7 @@ I denne leksjonen skal vi dekke:
 
 Tekst til tale, som navnet antyder, er prosessen med å konvertere tekst til lyd som inneholder teksten som talte ord. Det grunnleggende prinsippet er å bryte ned ordene i teksten til deres bestanddeler (kjent som fonemer), og sette sammen lyd for disse lydene, enten ved å bruke forhåndsinnspilt lyd eller lyd generert av AI-modeller.
 
-![De tre stadiene i typiske tekst-til-tale-systemer](../../../../../translated_images/tts-overview.193843cf3f5ee09f.no.png)
+![De tre stadiene i typiske tekst-til-tale-systemer](../../../../../translated_images/no/tts-overview.193843cf3f5ee09f.png)
 
 Tekst-til-tale-systemer har vanligvis 3 stadier:
 

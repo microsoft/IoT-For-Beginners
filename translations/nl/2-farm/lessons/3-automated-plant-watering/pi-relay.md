@@ -27,13 +27,13 @@ Het Grove relais kan worden aangesloten op de Raspberry Pi.
 
 Verbind het relais.
 
-![Een Grove relais](../../../../../translated_images/grove-relay.d426958ca210fbd0fb7983d7edc069d46c73a8b0a099d94797bd756f7b6bb6be.nl.png)
+![Een Grove relais](../../../../../translated_images/nl/grove-relay.d426958ca210fbd0fb7983d7edc069d46c73a8b0a099d94797bd756f7b6bb6be.png)
 
 1. Steek één uiteinde van een Grove-kabel in de aansluiting op het relais. Het past maar op één manier.
 
 1. Schakel de Raspberry Pi uit en verbind het andere uiteinde van de Grove-kabel met de digitale aansluiting gemarkeerd als **D5** op de Grove Base Hat die aan de Pi is bevestigd. Deze aansluiting is de tweede van links, op de rij aansluitingen naast de GPIO-pinnen. Laat de bodemvochtigheidssensor aangesloten op de **A0**-aansluiting.
 
-![Het Grove relais aangesloten op de D5-aansluiting en de bodemvochtigheidssensor aangesloten op de A0-aansluiting](../../../../../translated_images/pi-relay-and-soil-moisture-sensor.02f3198975b8c53e69ec716cd2719ce117700bd1fc933eaf93476c103c57939b.nl.png)
+![Het Grove relais aangesloten op de D5-aansluiting en de bodemvochtigheidssensor aangesloten op de A0-aansluiting](../../../../../translated_images/nl/pi-relay-and-soil-moisture-sensor.02f3198975b8c53e69ec716cd2719ce117700bd1fc933eaf93476c103c57939b.png)
 
 1. Steek de bodemvochtigheidssensor in de grond, als dit nog niet is gedaan in de vorige les.
 

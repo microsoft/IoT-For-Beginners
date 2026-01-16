@@ -27,17 +27,17 @@ Grove माटोको चिस्यान सेन्सर Raspberry Pi �
 
 माटोको चिस्यान सेन्सर जडान गर्नुहोस्।
 
-![Grove माटोको चिस्यान सेन्सर](../../../../../translated_images/grove-capacitive-soil-moisture-sensor.e7f0776cce30e78be5cc5a07839385fd6718857f31b5bf5ad3d0c73c83b2f0ef.ne.png)
+![Grove माटोको चिस्यान सेन्सर](../../../../../translated_images/ne/grove-capacitive-soil-moisture-sensor.e7f0776cce30e78be5cc5a07839385fd6718857f31b5bf5ad3d0c73c83b2f0ef.png)
 
 1. Grove केबलको एक छेउ माटोको चिस्यान सेन्सरको सकेटमा राख्नुहोस्। यो केवल एक तरिकामा मात्र जडान हुन्छ।
 
 1. Raspberry Pi बन्द अवस्थामा हुँदा, Grove केबलको अर्को छेउ Pi मा Grove Base Hat मा रहेको **A0** भनेर चिन्हित एनालग सकेटमा जडान गर्नुहोस्। यो सकेट GPIO पिनहरूको छेउमा रहेको सकेटहरूको पङ्क्तिमा दायाँबाट दोस्रो हो।
 
-![A0 सकेटमा जडान गरिएको Grove माटोको चिस्यान सेन्सर](../../../../../translated_images/pi-soil-moisture-sensor.fdd7eb2393792cf6739cacf1985d9f55beda16d372f30d0b5a51d586f978a870.ne.png)
+![A0 सकेटमा जडान गरिएको Grove माटोको चिस्यान सेन्सर](../../../../../translated_images/ne/pi-soil-moisture-sensor.fdd7eb2393792cf6739cacf1985d9f55beda16d372f30d0b5a51d586f978a870.png)
 
 1. माटोमा माटोको चिस्यान सेन्सर राख्नुहोस्। यसमा 'सबभन्दा माथिल्लो स्थान रेखा' छ - सेन्सरमा सेतो रेखा। सेन्सरलाई यस रेखासम्म तर यसलाई पार नगरी राख्नुहोस्।
 
-![माटोमा Grove माटोको चिस्यान सेन्सर](../../../../../translated_images/soil-moisture-sensor-in-soil.bfad91002bda5e96.ne.png)
+![माटोमा Grove माटोको चिस्यान सेन्सर](../../../../../translated_images/ne/soil-moisture-sensor-in-soil.bfad91002bda5e96.png)
 
 ## माटोको चिस्यान सेन्सर प्रोग्राम गर्नुहोस्
 

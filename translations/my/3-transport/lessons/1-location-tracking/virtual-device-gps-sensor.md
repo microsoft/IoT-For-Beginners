@@ -47,11 +47,11 @@ CounterFit app တွင် GPS အာရုံခံကိရိယာကို
 
     1. **Add** button ကို ရွေးပြီး `/dev/ttyAMA0` port တွင် GPS အာရုံခံကိရိယာကို ဖန်တီးပါ။
 
-    ![GPS အာရုံခံကိရိယာ၏ settings](../../../../../translated_images/counterfit-create-gps-sensor.6385dc9357d85ad1d47b4abb2525e7651fd498917d25eefc5a72feab09eedc70.my.png)
+    ![GPS အာရုံခံကိရိယာ၏ settings](../../../../../translated_images/my/counterfit-create-gps-sensor.6385dc9357d85ad1d47b4abb2525e7651fd498917d25eefc5a72feab09eedc70.png)
 
     GPS အာရုံခံကိရိယာကို ဖန်တီးပြီး sensor list တွင် ပေါ်လာမည်။
 
-    ![GPS အာရုံခံကိရိယာ ဖန်တီးပြီး](../../../../../translated_images/counterfit-gps-sensor.3fbb15af0a5367566f2f11324ef5a6f30861cdf2b497071a5e002b7aa473550e.my.png)
+    ![GPS အာရုံခံကိရိယာ ဖန်တီးပြီး](../../../../../translated_images/my/counterfit-gps-sensor.3fbb15af0a5367566f2f11324ef5a6f30861cdf2b497071a5e002b7aa473550e.png)
 
 ## GPS အာရုံခံကိရိယာကို အစီအစဉ်ရေးဆွဲခြင်း
 
@@ -111,17 +111,17 @@ GPS အာရုံခံကိရိယာ app ကို အစီအစဉ်�
 
     * **Source** ကို `Lat/Lon` သို့ ပြောင်းပြီး latitude, longitude နှင့် GPS fix ရရှိရန် satellites အရေအတွက်ကို သတ်မှတ်ပါ။ ဒီ value သည် တစ်ခါသာ ပို့မည်ဖြစ်သည်။ **Repeat** box ကို check လုပ်ပါက ဒေတာကို တစ်စက္ကန့်တိုင်း ထပ်ပို့မည်။
 
-      ![Lat/Lon ရွေးထားသော GPS အာရုံခံကိရိယာ](../../../../../translated_images/counterfit-gps-sensor-latlon.008c867d75464fbe7f84107cc57040df565ac07cb57d2f21db37d087d470197d.my.png)
+      ![Lat/Lon ရွေးထားသော GPS အာရုံခံကိရိယာ](../../../../../translated_images/my/counterfit-gps-sensor-latlon.008c867d75464fbe7f84107cc57040df565ac07cb57d2f21db37d087d470197d.png)
 
     * **Source** ကို `NMEA` သို့ ပြောင်းပြီး NMEA စာကြောင်းများကို text box တွင် ထည့်ပါ။ ဒီ value များကို ပို့မည်ဖြစ်ပြီး တစ်စက္ကန့် delay ရှိပြီး position fix sentence တစ်ခုစီကို ဖတ်နိုင်သည်။
 
-      ![NMEA စာကြောင်းများ ရွေးထားသော GPS အာရုံခံကိရိယာ](../../../../../translated_images/counterfit-gps-sensor-nmea.c62eea442171e17e19528b051b104cfcecdc9cd18db7bc72920f29821ae63f73.my.png)
+      ![NMEA စာကြောင်းများ ရွေးထားသော GPS အာရုံခံကိရိယာ](../../../../../translated_images/my/counterfit-gps-sensor-nmea.c62eea442171e17e19528b051b104cfcecdc9cd18db7bc72920f29821ae63f73.png)
 
       [nmeagen.org](https://www.nmeagen.org) ကဲ့သို့သော tool ကို အသုံးပြု၍ map ပေါ်တွင် ရေးဆွဲပြီး ဒီစာကြောင်းများကို ဖန်တီးနိုင်သည်။ ဒီ value များကို တစ်ခါသာ ပို့မည်ဖြစ်သည်။ **Repeat** box ကို check လုပ်ပါက ဒေတာကို တစ်စက္ကန့်အကြာတွင် ထပ်ပို့မည်။
 
     * **Source** ကို GPX file သို့ ပြောင်းပြီး GPX ဖိုင်တစ်ခုကို upload လုပ်ပါ။ [AllTrails](https://www.alltrails.com/) ကဲ့သို့သော mapping နှင့် hiking site များမှ GPX ဖိုင်များကို download လုပ်နိုင်သည်။ ဒီဖိုင်များတွင် trail အနေဖြင့် GPS နေရာများစွာပါဝင်ပြီး GPS အာရုံခံကိရိယာသည် 1 စက္ကန့်အကြာတွင် နေရာအသစ်တစ်ခုကို ပြန်ပေးမည်။
 
-      ![GPX ဖိုင် ရွေးထားသော GPS အာရုံခံကိရိယာ](../../../../../translated_images/counterfit-gps-sensor-gpxfile.8310b063ce8a425ccc8ebeec8306aeac5e8e55207f007d52c6e1194432a70cd9.my.png)
+      ![GPX ဖိုင် ရွေးထားသော GPS အာရုံခံကိရိယာ](../../../../../translated_images/my/counterfit-gps-sensor-gpxfile.8310b063ce8a425ccc8ebeec8306aeac5e8e55207f007d52c6e1194432a70cd9.png)
 
       ဒီ value များကို တစ်ခါသာ ပို့မည်ဖြစ်သည်။ **Repeat** box ကို check လုပ်ပါက ဒေတာကို တစ်စက္ကန့်အကြာတွင် ထပ်ပို့မည်။
 

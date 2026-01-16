@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Kenali Ucapan dengan Peranti IoT
 
-![Gambaran sketchnote untuk pelajaran ini](../../../../../translated_images/lesson-21.e34de51354d6606fb5ee08d8c89d0222eea0a2a7aaf744a8805ae847c4f69dc4.ms.jpg)
+![Gambaran sketchnote untuk pelajaran ini](../../../../../translated_images/ms/lesson-21.e34de51354d6606fb5ee08d8c89d0222eea0a2a7aaf744a8805ae847c4f69dc4.jpg)
 
 > Sketchnote oleh [Nitya Narasimhan](https://github.com/nitya). Klik imej untuk versi yang lebih besar.
 
@@ -60,19 +60,19 @@ Mikrofon datang dalam pelbagai jenis:
 
     Mikrofon dinamik tidak memerlukan kuasa untuk berfungsi, isyarat elektrik dihasilkan sepenuhnya oleh mikrofon.
 
-    ![Patti Smith menyanyi menggunakan mikrofon jenis dinamik cardioid Shure SM58](../../../../../translated_images/dynamic-mic.8babac890a2d80dfb0874b5bf37d4b851fe2aeb9da6fd72945746176978bf3bb.ms.jpg)
+    ![Patti Smith menyanyi menggunakan mikrofon jenis dinamik cardioid Shure SM58](../../../../../translated_images/ms/dynamic-mic.8babac890a2d80dfb0874b5bf37d4b851fe2aeb9da6fd72945746176978bf3bb.jpg)
 
 * Reben - Mikrofon reben serupa dengan mikrofon dinamik, kecuali ia mempunyai reben logam dan bukannya diafragma. Reben ini bergerak dalam medan magnet menghasilkan arus elektrik. Seperti mikrofon dinamik, mikrofon reben tidak memerlukan kuasa untuk berfungsi.
 
-    ![Edmund Lowe, pelakon Amerika, berdiri di mikrofon radio (berlabel untuk (NBC) Blue Network), memegang skrip, 1942](../../../../../translated_images/ribbon-mic.eacc8e092c7441ca.ms.jpg)
+    ![Edmund Lowe, pelakon Amerika, berdiri di mikrofon radio (berlabel untuk (NBC) Blue Network), memegang skrip, 1942](../../../../../translated_images/ms/ribbon-mic.eacc8e092c7441ca.jpg)
 
 * Kondensor - Mikrofon kondensor mempunyai diafragma logam nipis dan plat belakang logam tetap. Elektrik digunakan pada kedua-duanya dan apabila diafragma bergetar, cas statik antara plat berubah menghasilkan isyarat. Mikrofon kondensor memerlukan kuasa untuk berfungsi - dipanggil *Phantom power*.
 
-    ![Mikrofon kondensor diafragma kecil C451B oleh AKG Acoustics](../../../../../translated_images/condenser-mic.6f6ed5b76ca19e0ec3fd0c544601542d4479a6cb7565db336de49fbbf69f623e.ms.jpg)
+    ![Mikrofon kondensor diafragma kecil C451B oleh AKG Acoustics](../../../../../translated_images/ms/condenser-mic.6f6ed5b76ca19e0ec3fd0c544601542d4479a6cb7565db336de49fbbf69f623e.jpg)
 
 * MEMS - Mikrofon sistem mikroelektromekanikal, atau MEMS, adalah mikrofon pada cip. Ia mempunyai diafragma sensitif tekanan yang diukir pada cip silikon, dan berfungsi serupa dengan mikrofon kondensor. Mikrofon ini boleh menjadi sangat kecil, dan diintegrasikan ke dalam litar.
 
-    ![Mikrofon MEMS pada papan litar](../../../../../translated_images/mems-microphone.80574019e1f5e4d9ee72fed720ecd25a39fc2969c91355d17ebb24ba4159e4c4.ms.png)
+    ![Mikrofon MEMS pada papan litar](../../../../../translated_images/ms/mems-microphone.80574019e1f5e4d9ee72fed720ecd25a39fc2969c91355d17ebb24ba4159e4c4.png)
 
     Dalam imej di atas, cip yang dilabelkan **LEFT** adalah mikrofon MEMS, dengan diafragma kecil kurang daripada satu milimeter lebar.
 
@@ -84,7 +84,7 @@ Audio adalah isyarat analog yang membawa maklumat yang sangat terperinci. Untuk 
 
 > 🎓 Pensampelan adalah menukar isyarat audio kepada nilai digital yang mewakili isyarat pada masa itu.
 
-![Carta garis menunjukkan isyarat, dengan titik diskret pada selang tetap](../../../../../translated_images/sampling.6f4fadb3f2d9dfe7.ms.png)
+![Carta garis menunjukkan isyarat, dengan titik diskret pada selang tetap](../../../../../translated_images/ms/sampling.6f4fadb3f2d9dfe7.png)
 
 Audio digital disampel menggunakan Modulasi Kod Nadi, atau PCM. PCM melibatkan membaca voltan isyarat, dan memilih nilai diskret yang paling hampir dengan voltan itu menggunakan saiz yang ditentukan.
 
@@ -168,7 +168,7 @@ Untuk mengelakkan kerumitan melatih dan menggunakan model wake word, pemasa pint
 
 ## Tukar pertuturan ke teks
 
-![Logo perkhidmatan pertuturan](../../../../../translated_images/azure-speech-logo.a1f08c4befb0159f2cb5d692d3baf5b599e7b44759d316da907bda1508f46a4a.ms.png)
+![Logo perkhidmatan pertuturan](../../../../../translated_images/ms/azure-speech-logo.a1f08c4befb0159f2cb5d692d3baf5b599e7b44759d316da907bda1508f46a4a.png)
 
 Sama seperti klasifikasi imej dalam projek terdahulu, terdapat perkhidmatan AI sedia ada yang boleh mengambil pertuturan sebagai fail audio dan menukarnya kepada teks. Salah satu perkhidmatan tersebut ialah Speech Service, sebahagian daripada Cognitive Services, perkhidmatan AI sedia ada yang boleh anda gunakan dalam aplikasi anda.
 

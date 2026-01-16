@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 ## အပင်များ၏ အဆင့်တိုးတက်မှုကို IoT ဖြင့် ခန့်မှန်းခြေ
 
-![ဒီသင်ခန်းစာ၏ အကျဉ်းချုပ်ကို ဖော်ပြသော ရေးအမှတ်](../../../../../translated_images/lesson-5.42b234299279d263143148b88ab4583861a32ddb03110c6c1120e41bb88b2592.my.jpg)
+![ဒီသင်ခန်းစာ၏ အကျဉ်းချုပ်ကို ဖော်ပြသော ရေးအမှတ်](../../../../../translated_images/my/lesson-5.42b234299279d263143148b88ab4583861a32ddb03110c6c1120e41bb88b2592.jpg)
 
 > [Nitya Narasimhan](https://github.com/nitya) မှ ရေးအမှတ်။ ပုံကို နှိပ်၍ ပိုမိုကြီးမားသော ဗားရှင်းကို ကြည့်ပါ။
 
@@ -65,7 +65,7 @@ CO_OP_TRANSLATOR_METADATA:
 
     
 > 💁 Virtual IoT Device ကို အသုံးပြုနေပါက၊ random checkbox ကို ရွေးချယ်ပြီး အပူချိန်တန်ဖိုးတစ်ခုကို ပြန်ပေးစဉ် အမြဲတူညီသော အပူချိန်မရရှိစေရန် range တစ်ခုကို သတ်မှတ်ပါ။
-    ![random checkbox ကို ရွေးချယ်ပြီး range တစ်ခု သတ်မှတ်ပါ](../../../../../translated_images/select-the-random-checkbox-and-set-a-range.32cf4bc7c12e797f.my.png) 
+    ![random checkbox ကို ရွေးချယ်ပြီး range တစ်ခု သတ်မှတ်ပါ](../../../../../translated_images/my/select-the-random-checkbox-and-set-a-range.32cf4bc7c12e797f.png) 
 
     > 💁 တစ်နေ့လုံး run လုပ်လိုပါက၊ သင့် server code ရှိသော ကွန်ပျူတာသည် အိပ်မသွားစေရန် သို့မဟုတ် power settings ကို ပြောင်းလဲခြင်းဖြင့် သို့မဟုတ် [ဒီ keep system active Python script](https://github.com/jaqsparow/keep-system-active) ကဲ့သို့သော script တစ်ခုကို အသုံးပြုခြင်းဖြင့် စီမံပါ။
     
@@ -85,7 +85,7 @@ Server သည် အပူချိန်ဒေတာကို စုဆော�
 
 ဥပမာအားဖြင့် တစ်နေ့တာအတွက် အပူချိန်အမြင့်ဆုံးသည် 25°C ဖြစ်ပြီး အနိမ့်ဆုံးသည် 12°C ဖြစ်ပါက-
 
-![GDD = 25 + 12 ကို 2 ဖြင့်စားပြီး၊ 10 ကို နုတ်၍ 8.5 ရရှိသည်](../../../../../translated_images/gdd-calculation-strawberries.59f57db94b22adb8ff6efb951ace33af104a1c6ccca3ffb0f8169c14cb160c90.my.png)
+![GDD = 25 + 12 ကို 2 ဖြင့်စားပြီး၊ 10 ကို နုတ်၍ 8.5 ရရှိသည်](../../../../../translated_images/my/gdd-calculation-strawberries.59f57db94b22adb8ff6efb951ace33af104a1c6ccca3ffb0f8169c14cb160c90.png)
 
 * 25 + 12 = 37
 * 37 / 2 = 18.5

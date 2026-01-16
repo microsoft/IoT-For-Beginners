@@ -27,13 +27,13 @@ Sensor Grove GPS boleh disambungkan kepada Raspberry Pi.
 
 Sambungkan sensor GPS.
 
-![Sensor GPS Grove](../../../../../translated_images/grove-gps-sensor.247943bf69b03f0d1820ef6ed10c587f9b650e8db55b936851c92412180bd3e2.ms.png)
+![Sensor GPS Grove](../../../../../translated_images/ms/grove-gps-sensor.247943bf69b03f0d1820ef6ed10c587f9b650e8db55b936851c92412180bd3e2.png)
 
 1. Masukkan satu hujung kabel Grove ke soket pada sensor GPS. Ia hanya boleh dimasukkan dalam satu arah sahaja.
 
 1. Dengan Raspberry Pi dimatikan, sambungkan hujung lain kabel Grove ke soket UART yang ditandakan **UART** pada Grove Base hat yang disambungkan kepada Pi. Soket ini berada di barisan tengah, di sisi yang paling dekat dengan slot kad SD, bertentangan dengan port USB dan soket ethernet.
 
-    ![Sensor GPS Grove disambungkan ke soket UART](../../../../../translated_images/pi-gps-sensor.1f99ee2b2f6528915047ec78967bd362e0e4ee0ed594368a3837b9cf9cdaca64.ms.png)
+    ![Sensor GPS Grove disambungkan ke soket UART](../../../../../translated_images/ms/pi-gps-sensor.1f99ee2b2f6528915047ec78967bd362e0e4ee0ed594368a3837b9cf9cdaca64.png)
 
 1. Letakkan sensor GPS supaya antena yang disambungkan mempunyai pandangan ke langit - sebaiknya di sebelah tingkap terbuka atau di luar. Ia lebih mudah untuk mendapatkan isyarat yang jelas tanpa halangan di hadapan antena.
 

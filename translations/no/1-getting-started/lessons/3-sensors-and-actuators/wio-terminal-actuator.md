@@ -35,7 +35,7 @@ Grove LED-en kommer som en modul med et utvalg av lysdioder, slik at du kan velg
 
 Koble til LED-en.
 
-![En Grove LED](../../../../../translated_images/grove-led.6c853be93f473cf2c439cfc74bb1064732b22251a83cedf66e62f783f9cc1a79.no.png)
+![En Grove LED](../../../../../translated_images/no/grove-led.6c853be93f473cf2c439cfc74bb1064732b22251a83cedf66e62f783f9cc1a79.png)
 
 1. Velg din favoritt-LED og sett bena inn i de to hullene på LED-modulen.
 
@@ -51,7 +51,7 @@ Koble til LED-en.
 
     > 💁 Den høyre Grove-kontakten kan brukes med analoge eller digitale sensorer og aktuatorer. Den venstre kontakten er kun for I2C og digitale sensorer og aktuatorer.
 
-![Grove LED koblet til den høyre kontakten](../../../../../translated_images/wio-led.265a1897e72d7f21.no.png)
+![Grove LED koblet til den høyre kontakten](../../../../../translated_images/no/wio-led.265a1897e72d7f21.png)
 
 ## Programmer nattlampen
 

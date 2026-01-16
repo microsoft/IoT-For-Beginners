@@ -37,11 +37,11 @@ CounterFit अॅपमध्ये रिले जोडा.
 
     1. **Add** बटण निवडा, जेणेकरून Pin 5 वर रिले तयार होईल.
 
-    ![रिले सेटिंग्ज](../../../../../translated_images/counterfit-create-relay.fa7c40fd0f2f6afc33b35ea94fcb235085be4861e14e3fe6b9b7bcfc82d1c888.mr.png)
+    ![रिले सेटिंग्ज](../../../../../translated_images/mr/counterfit-create-relay.fa7c40fd0f2f6afc33b35ea94fcb235085be4861e14e3fe6b9b7bcfc82d1c888.png)
 
     रिले तयार होईल आणि actuators यादीत दिसेल.
 
-    ![तयार केलेला रिले](../../../../../translated_images/counterfit-relay.bbf74c1dbdc8b9acd983367fcbd06703a402aefef6af54ddb28e11307ba8a12c.mr.png)
+    ![तयार केलेला रिले](../../../../../translated_images/mr/counterfit-relay.bbf74c1dbdc8b9acd983367fcbd06703a402aefef6af54ddb28e11307ba8a12c.png)
 
 ## रिले प्रोग्राम करा
 

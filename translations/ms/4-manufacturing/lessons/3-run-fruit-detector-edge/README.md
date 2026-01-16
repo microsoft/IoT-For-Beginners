@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Jalankan pengesan buah anda di tepi
 
-![Gambaran sketchnote untuk pelajaran ini](../../../../../translated_images/lesson-17.bc333c3c35ba8e42cce666cfffa82b915f787f455bd94e006aea2b6f2722421a.ms.jpg)
+![Gambaran sketchnote untuk pelajaran ini](../../../../../translated_images/ms/lesson-17.bc333c3c35ba8e42cce666cfffa82b915f787f455bd94e006aea2b6f2722421a.jpg)
 
 > Sketchnote oleh [Nitya Narasimhan](https://github.com/nitya). Klik imej untuk versi yang lebih besar.
 
@@ -42,11 +42,11 @@ Dalam pelajaran ini, kita akan membincangkan:
 
 Pengkomputeran tepi melibatkan penggunaan komputer yang memproses data IoT sedekat mungkin dengan tempat data itu dihasilkan. Daripada memproses data di awan, ia dipindahkan ke tepi awan - rangkaian dalaman anda.
 
-![Rajah seni bina menunjukkan perkhidmatan internet di awan dan peranti IoT di rangkaian tempatan](../../../../../translated_images/cloud-without-edge.b4da641f6022c95ed6b91fde8b5323abd2f94e0d52073ad54172ae8f5dac90e9.ms.png)
+![Rajah seni bina menunjukkan perkhidmatan internet di awan dan peranti IoT di rangkaian tempatan](../../../../../translated_images/ms/cloud-without-edge.b4da641f6022c95ed6b91fde8b5323abd2f94e0d52073ad54172ae8f5dac90e9.png)
 
 Dalam pelajaran sebelum ini, anda mempunyai peranti yang mengumpul data dan menghantar data ke awan untuk dianalisis, menjalankan fungsi tanpa pelayan atau model AI di awan.
 
-![Rajah seni bina menunjukkan peranti IoT di rangkaian tempatan yang berhubung dengan peranti tepi, dan peranti tepi tersebut berhubung dengan awan](../../../../../translated_images/cloud-with-edge.1e26462c62c126fe150bd15a5714ddf0be599f09bacbad08b85be02b76ea1ae1.ms.png)
+![Rajah seni bina menunjukkan peranti IoT di rangkaian tempatan yang berhubung dengan peranti tepi, dan peranti tepi tersebut berhubung dengan awan](../../../../../translated_images/ms/cloud-with-edge.1e26462c62c126fe150bd15a5714ddf0be599f09bacbad08b85be02b76ea1ae1.png)
 
 Pengkomputeran tepi melibatkan pemindahan beberapa perkhidmatan awan keluar dari awan dan ke komputer yang berjalan di rangkaian yang sama dengan peranti IoT, hanya berkomunikasi dengan awan jika diperlukan. Sebagai contoh, anda boleh menjalankan model AI pada peranti tepi untuk menganalisis kematangan buah, dan hanya menghantar analitik kembali ke awan, seperti jumlah buah yang masak berbanding yang tidak masak.
 
@@ -94,7 +94,7 @@ Untuk sistem IoT, anda sering memerlukan gabungan pengkomputeran awan dan tepi, 
 
 ## Azure IoT Edge
 
-![Logo Azure IoT Edge](../../../../../translated_images/azure-iot-edge-logo.c1c076749b5cba2e8755262fadc2f19ca1146b948d76990b1229199ac2292d79.ms.png)
+![Logo Azure IoT Edge](../../../../../translated_images/ms/azure-iot-edge-logo.c1c076749b5cba2e8755262fadc2f19ca1146b948d76990b1229199ac2292d79.png)
 
 Azure IoT Edge adalah perkhidmatan yang dapat membantu anda memindahkan beban kerja keluar dari awan ke tepi. Anda menyediakan peranti sebagai peranti tepi, dan dari awan anda boleh menyebarkan kod ke peranti tepi tersebut. Ini membolehkan anda menggabungkan keupayaan awan dan tepi.
 
@@ -108,7 +108,7 @@ IoT Edge dibina ke dalam IoT Hub, jadi anda boleh menguruskan peranti tepi mengg
 
 IoT Edge menjalankan kod dari *kontena* - aplikasi yang berdiri sendiri yang dijalankan secara terasing daripada aplikasi lain pada komputer anda. Apabila anda menjalankan kontena, ia bertindak seperti komputer berasingan yang berjalan di dalam komputer anda, dengan perisian, perkhidmatan, dan aplikasi sendiri. Kebanyakan masa kontena tidak dapat mengakses apa-apa pada komputer anda kecuali anda memilih untuk berkongsi perkara seperti folder dengan kontena. Kontena kemudian mendedahkan perkhidmatan melalui port terbuka yang boleh anda sambungkan atau dedahkan kepada rangkaian anda.
 
-![Permintaan web dialihkan ke kontena](../../../../../translated_images/container-web-browser.4ee81dd4f0d8838ce622b2a0d600b6a4322b5d4fe43159facd87b7b34f84d66a.ms.png)
+![Permintaan web dialihkan ke kontena](../../../../../translated_images/ms/container-web-browser.4ee81dd4f0d8838ce622b2a0d600b6a4322b5d4fe43159facd87b7b34f84d66a.png)
 
 Sebagai contoh, anda boleh mempunyai kontena dengan laman web yang berjalan pada port 80, port HTTP lalai, dan anda kemudian boleh mendedahkannya dari komputer anda juga pada port 80.
 
@@ -205,11 +205,11 @@ Setelah model dilatih, ia perlu dieksport sebagai kontena.
 
 ## Sediakan kontena anda untuk deployment
 
-![Kontena dibina kemudian ditolak ke container registry, kemudian dideploy dari container registry ke peranti edge menggunakan IoT Edge](../../../../../translated_images/container-edge-flow.c246050dd60ceefdb6ace026a4ce5c6aa4112bb5898ae23fbb2ab4be29ae3e1b.ms.png)
+![Kontena dibina kemudian ditolak ke container registry, kemudian dideploy dari container registry ke peranti edge menggunakan IoT Edge](../../../../../translated_images/ms/container-edge-flow.c246050dd60ceefdb6ace026a4ce5c6aa4112bb5898ae23fbb2ab4be29ae3e1b.png)
 
 Setelah anda memuat turun model anda, ia perlu dibina menjadi kontena, kemudian ditolak ke container registry - lokasi dalam talian di mana anda boleh menyimpan kontena. IoT Edge kemudian boleh memuat turun kontena dari registry dan menolaknya ke peranti anda.
 
-![Logo Azure Container Registry](../../../../../translated_images/azure-container-registry-logo.09494206991d4b295025ebff7d4e2900325e527a59184ffbc8464b6ab59654be.ms.png)
+![Logo Azure Container Registry](../../../../../translated_images/ms/azure-container-registry-logo.09494206991d4b295025ebff7d4e2900325e527a59184ffbc8464b6ab59654be.png)
 
 Container registry yang akan anda gunakan untuk pelajaran ini adalah Azure Container Registry. Ini bukan perkhidmatan percuma, jadi untuk menjimatkan wang pastikan anda [membersihkan projek anda](../../../clean-up.md) setelah selesai.
 

@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Sokongan Pelbagai Bahasa
 
-![Gambaran sketchnote untuk pelajaran ini](../../../../../translated_images/lesson-24.4246968ed058510ab275052e87ef9aa89c7b2f938915d103c605c04dc6cd5bb7.ms.jpg)
+![Gambaran sketchnote untuk pelajaran ini](../../../../../translated_images/ms/lesson-24.4246968ed058510ab275052e87ef9aa89c7b2f938915d103c605c04dc6cd5bb7.jpg)
 
 > Sketchnote oleh [Nitya Narasimhan](https://github.com/nitya). Klik imej untuk versi yang lebih besar.
 
@@ -83,7 +83,7 @@ Terdapat beberapa perkhidmatan AI yang boleh digunakan dari aplikasi anda untuk 
 
 ### Perkhidmatan Ucapan Cognitive Services
 
-![Logo perkhidmatan ucapan](../../../../../translated_images/azure-speech-logo.a1f08c4befb0159f2cb5d692d3baf5b599e7b44759d316da907bda1508f46a4a.ms.png)
+![Logo perkhidmatan ucapan](../../../../../translated_images/ms/azure-speech-logo.a1f08c4befb0159f2cb5d692d3baf5b599e7b44759d316da907bda1508f46a4a.png)
 
 Perkhidmatan ucapan yang telah anda gunakan dalam beberapa pelajaran lepas mempunyai keupayaan terjemahan untuk pengenalan ucapan. Apabila anda mengenali ucapan, anda boleh meminta bukan sahaja teks ucapan dalam bahasa yang sama, tetapi juga dalam bahasa lain.
 
@@ -91,7 +91,7 @@ Perkhidmatan ucapan yang telah anda gunakan dalam beberapa pelajaran lepas mempu
 
 ### Perkhidmatan Penterjemah Cognitive Services
 
-![Logo perkhidmatan penterjemah](../../../../../translated_images/azure-translator-logo.c6ed3a4a433edfd2f11577eca105412c50b8396b194cbbd730723dd1d0793bcd.ms.png)
+![Logo perkhidmatan penterjemah](../../../../../translated_images/ms/azure-translator-logo.c6ed3a4a433edfd2f11577eca105412c50b8396b194cbbd730723dd1d0793bcd.png)
 
 Perkhidmatan Penterjemah ialah perkhidmatan terjemahan khusus yang boleh menterjemah teks dari satu bahasa, ke satu atau lebih bahasa sasaran. Selain menterjemah, ia menyokong pelbagai ciri tambahan termasuk menyembunyikan kata-kata kesat. Ia juga membolehkan anda memberikan terjemahan tertentu untuk perkataan atau ayat tertentu, untuk bekerja dengan istilah yang anda tidak mahu diterjemahkan, atau mempunyai terjemahan yang terkenal.
 
@@ -130,7 +130,7 @@ Untuk pelajaran ini, anda memerlukan sumber Penterjemah. Anda akan menggunakan A
 
 Dalam dunia yang ideal, keseluruhan aplikasi anda sepatutnya memahami sebanyak mungkin bahasa yang berbeza, dari mendengar ucapan, kepada memahami bahasa, kepada memberi respons dengan ucapan. Ini adalah banyak kerja, jadi perkhidmatan terjemahan boleh mempercepatkan masa penghantaran aplikasi anda.
 
-![Seni bina pemasa pintar menterjemah Bahasa Jepun ke Bahasa Inggeris, memproses dalam Bahasa Inggeris kemudian menterjemah kembali ke Bahasa Jepun](../../../../../translated_images/translated-smart-timer.08ac20057fdc5c37.ms.png)
+![Seni bina pemasa pintar menterjemah Bahasa Jepun ke Bahasa Inggeris, memproses dalam Bahasa Inggeris kemudian menterjemah kembali ke Bahasa Jepun](../../../../../translated_images/ms/translated-smart-timer.08ac20057fdc5c37.png)
 
 Bayangkan anda sedang membina pemasa pintar yang menggunakan Bahasa Inggeris sepenuhnya, memahami ucapan Bahasa Inggeris dan menukarnya kepada teks, menjalankan pemahaman bahasa dalam Bahasa Inggeris, membina respons dalam Bahasa Inggeris dan membalas dengan ucapan Bahasa Inggeris. Jika anda ingin menambah sokongan untuk Bahasa Jepun, anda boleh bermula dengan menterjemah ucapan Bahasa Jepun kepada teks Bahasa Inggeris, kemudian mengekalkan teras aplikasi yang sama, kemudian menterjemah teks respons kepada Bahasa Jepun sebelum menyampaikan respons. Ini akan membolehkan anda menambah sokongan Bahasa Jepun dengan cepat, dan anda boleh berkembang untuk menyediakan sokongan penuh Bahasa Jepun sepenuhnya kemudian.
 

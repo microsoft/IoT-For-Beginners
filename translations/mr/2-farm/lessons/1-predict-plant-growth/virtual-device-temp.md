@@ -47,11 +47,11 @@ CounterFit अॅपमध्ये आर्द्रता आणि ताप
 
     1. **Add** बटण निवडा जेणेकरून Pin 5 वर आर्द्रता सेन्सर तयार होईल.
 
-    ![आर्द्रता सेन्सर सेटिंग्ज](../../../../../translated_images/counterfit-create-humidity-sensor.2750e27b6f30e09cf4e22101defd5252710717620816ab41ba688f91f757c49a.mr.png)
+    ![आर्द्रता सेन्सर सेटिंग्ज](../../../../../translated_images/mr/counterfit-create-humidity-sensor.2750e27b6f30e09cf4e22101defd5252710717620816ab41ba688f91f757c49a.png)
 
     आर्द्रता सेन्सर तयार होईल आणि सेन्सर यादीत दिसेल.
 
-    ![आर्द्रता सेन्सर तयार](../../../../../translated_images/counterfit-humidity-sensor.7b12f7f339e430cb26c8211d2dba4ef75261b353a01da0932698b5bebd693f27.mr.png)
+    ![आर्द्रता सेन्सर तयार](../../../../../translated_images/mr/counterfit-humidity-sensor.7b12f7f339e430cb26c8211d2dba4ef75261b353a01da0932698b5bebd693f27.png)
 
 1. तापमान सेन्सर तयार करा:
 
@@ -63,11 +63,11 @@ CounterFit अॅपमध्ये आर्द्रता आणि ताप
 
     1. **Add** बटण निवडा जेणेकरून Pin 6 वर तापमान सेन्सर तयार होईल.
 
-    ![तापमान सेन्सर सेटिंग्ज](../../../../../translated_images/counterfit-create-temperature-sensor.199350ed34f7343d79dccbe95eaf6c11d2121f03d1c35ab9613b330c23f39b29.mr.png)
+    ![तापमान सेन्सर सेटिंग्ज](../../../../../translated_images/mr/counterfit-create-temperature-sensor.199350ed34f7343d79dccbe95eaf6c11d2121f03d1c35ab9613b330c23f39b29.png)
 
     तापमान सेन्सर तयार होईल आणि सेन्सर यादीत दिसेल.
 
-    ![तापमान सेन्सर तयार](../../../../../translated_images/counterfit-temperature-sensor.f0560236c96a9016bafce7f6f792476fe3367bc6941a1f7d5811d144d4bcbfff.mr.png)
+    ![तापमान सेन्सर तयार](../../../../../translated_images/mr/counterfit-temperature-sensor.f0560236c96a9016bafce7f6f792476fe3367bc6941a1f7d5811d144d4bcbfff.png)
 
 ## तापमान सेन्सर अॅप प्रोग्राम करा
 

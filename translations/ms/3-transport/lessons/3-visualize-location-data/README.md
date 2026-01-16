@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Visualisasi data lokasi
 
-![Gambaran sketchnote untuk pelajaran ini](../../../../../translated_images/lesson-13.a259db1485021be7d7c72e90842fbe0ab977529e8684c179b5fb1ea75e92b3ef.ms.jpg)
+![Gambaran sketchnote untuk pelajaran ini](../../../../../translated_images/ms/lesson-13.a259db1485021be7d7c72e90842fbe0ab977529e8684c179b5fb1ea75e92b3ef.jpg)
 
 > Sketchnote oleh [Nitya Narasimhan](https://github.com/nitya). Klik imej untuk versi yang lebih besar.
 
@@ -73,11 +73,11 @@ Mengambil contoh mudah - dalam projek ladang anda sebelum ini, anda menangkap ba
 
 Sebagai manusia, memahami data ini boleh menjadi sukar. Ia adalah dinding nombor tanpa makna. Sebagai langkah pertama untuk memvisualisasikan data ini, ia boleh diplotkan pada carta garis:
 
-![Carta garis data di atas](../../../../../translated_images/chart-soil-moisture.fd6d9d0cdc0b5f75e78038ecb8945dfc84b38851359de99d84b16e3336d6d7c2.ms.png)
+![Carta garis data di atas](../../../../../translated_images/ms/chart-soil-moisture.fd6d9d0cdc0b5f75e78038ecb8945dfc84b38851359de99d84b16e3336d6d7c2.png)
 
 Ini boleh dipertingkatkan lagi dengan menambah garis untuk menunjukkan bila sistem penyiraman automatik dihidupkan pada bacaan kelembapan tanah 450:
 
-![Carta garis kelembapan tanah dengan garis pada 450](../../../../../translated_images/chart-soil-moisture-relay.fbb391236d34a64d0abf1df396e9197e0a24df14150620b9cc820a64a55c9326.ms.png)
+![Carta garis kelembapan tanah dengan garis pada 450](../../../../../translated_images/ms/chart-soil-moisture-relay.fbb391236d34a64d0abf1df396e9197e0a24df14150620b9cc820a64a55c9326.png)
 
 Carta ini menunjukkan dengan cepat bukan sahaja tahap kelembapan tanah tetapi juga titik di mana sistem penyiraman dihidupkan.
 
@@ -93,7 +93,7 @@ Apabila bekerja dengan data GPS, visualisasi yang paling jelas adalah memplot da
 
 Bekerja dengan peta adalah satu latihan yang menarik, dan terdapat banyak pilihan seperti Bing Maps, Leaflet, Open Street Maps, dan Google Maps. Dalam pelajaran ini, anda akan belajar tentang [Azure Maps](https://azure.microsoft.com/services/azure-maps/?WT.mc_id=academic-17441-jabenn) dan cara ia boleh memaparkan data GPS anda.
 
-![Logo Azure Maps](../../../../../translated_images/azure-maps-logo.35d01dcfbd81fe6140e94257aaa1538f785a58c91576d14e0ebe7a2f6c694b99.ms.png)
+![Logo Azure Maps](../../../../../translated_images/ms/azure-maps-logo.35d01dcfbd81fe6140e94257aaa1538f785a58c91576d14e0ebe7a2f6c694b99.png)
 
 Azure Maps adalah "koleksi perkhidmatan geospatial dan SDK yang menggunakan data peta terkini untuk memberikan konteks geografi kepada aplikasi web dan mudah alih." Pembangun disediakan dengan alat untuk mencipta peta interaktif yang cantik yang boleh melakukan perkara seperti memberikan laluan trafik yang disyorkan, memberikan maklumat tentang insiden trafik, navigasi dalaman, keupayaan carian, maklumat ketinggian, perkhidmatan cuaca, dan banyak lagi.
 
@@ -194,7 +194,7 @@ Sekarang anda boleh mengambil langkah seterusnya iaitu memaparkan peta anda di l
 
     Jika anda membuka halaman `index.html` anda dalam pelayar web, anda sepatutnya melihat peta dimuatkan, dan difokuskan pada kawasan Seattle.
 
-    ![Peta menunjukkan Seattle, sebuah bandar di Negeri Washington, AS](../../../../../translated_images/map-image.8fb2c53eb23ef39c1c0a4410a5282e879b3b452b707eb066ff04c5488d3d72b7.ms.png)
+    ![Peta menunjukkan Seattle, sebuah bandar di Negeri Washington, AS](../../../../../translated_images/ms/map-image.8fb2c53eb23ef39c1c0a4410a5282e879b3b452b707eb066ff04c5488d3d72b7.png)
 
     ✅ Cuba bereksperimen dengan parameter zoom dan center untuk mengubah paparan peta anda. Anda boleh menambah koordinat yang berbeza yang sepadan dengan latitud dan longitud data anda untuk memusatkan semula peta.
 
@@ -328,7 +328,7 @@ Jika anda membuat panggilan ke storan anda untuk mendapatkan data, anda mungkin 
 
 1. Muatkan halaman HTML dalam pelayar anda. Ia akan memuatkan peta, kemudian memuatkan semua data GPS daripada storan dan memplotkannya pada peta.
 
-    ![Peta Saint Edward State Park berhampiran Seattle, dengan bulatan menunjukkan laluan di sekitar tepi taman](../../../../../translated_images/map-path.896832e72dc696ffe20650e4051027d4855442d955f93fdbb80bb417ca8a406f.ms.png)
+    ![Peta Saint Edward State Park berhampiran Seattle, dengan bulatan menunjukkan laluan di sekitar tepi taman](../../../../../translated_images/ms/map-path.896832e72dc696ffe20650e4051027d4855442d955f93fdbb80bb417ca8a406f.png)
 
 > 💁 Anda boleh menemui kod ini dalam [kod](../../../../../3-transport/lessons/3-visualize-location-data/code) folder.
 

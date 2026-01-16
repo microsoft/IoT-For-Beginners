@@ -25,13 +25,13 @@ Sensor suhu Grove boleh disambungkan ke Raspberry Pi.
 
 Sambungkan sensor suhu
 
-![Sensor suhu Grove](../../../../../translated_images/grove-dht11.07f8eafceee170043efbb53e1d15722bd4e00fbaa9ff74290b57e9f66eb82c17.ms.png)
+![Sensor suhu Grove](../../../../../translated_images/ms/grove-dht11.07f8eafceee170043efbb53e1d15722bd4e00fbaa9ff74290b57e9f66eb82c17.png)
 
 1. Masukkan satu hujung kabel Grove ke soket pada sensor kelembapan dan suhu. Ia hanya boleh dimasukkan dalam satu arah sahaja.
 
 1. Dengan Raspberry Pi dimatikan, sambungkan hujung lain kabel Grove ke soket digital yang ditandakan **D5** pada Grove Base hat yang disambungkan ke Pi. Soket ini adalah yang kedua dari kiri, pada barisan soket bersebelahan dengan pin GPIO.
 
-![Sensor suhu Grove disambungkan ke soket A0](../../../../../translated_images/pi-temperature-sensor.3ff82fff672c8e56.ms.png)
+![Sensor suhu Grove disambungkan ke soket A0](../../../../../translated_images/ms/pi-temperature-sensor.3ff82fff672c8e56.png)
 
 ## Programkan sensor suhu
 

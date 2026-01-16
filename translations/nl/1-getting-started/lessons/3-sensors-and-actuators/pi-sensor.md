@@ -25,13 +25,13 @@ De Grove-lichtsensor die wordt gebruikt om de lichtniveaus te detecteren, moet w
 
 Sluit de lichtsensor aan.
 
-![Een Grove-lichtsensor](../../../../../translated_images/grove-light-sensor.b8127b7c434e632d6bcdb57587a14e9ef69a268a22df95d08628f62b8fa5505c.nl.png)
+![Een Grove-lichtsensor](../../../../../translated_images/nl/grove-light-sensor.b8127b7c434e632d6bcdb57587a14e9ef69a268a22df95d08628f62b8fa5505c.png)
 
 1. Steek één uiteinde van een Grove-kabel in de aansluiting op de lichtsensormodule. De kabel past maar op één manier.
 
 1. Met de Raspberry Pi uitgeschakeld, sluit je het andere uiteinde van de Grove-kabel aan op de analoge aansluiting gemarkeerd met **A0** op de Grove Base hat die op de Pi is bevestigd. Deze aansluiting is de tweede van rechts, in de rij aansluitingen naast de GPIO-pinnen.
 
-![De Grove-lichtsensor aangesloten op aansluiting A0](../../../../../translated_images/pi-light-sensor.66cc1e31fa48cd7d5f23400d4b2119aa41508275cb7c778053a7923b4e972d7e.nl.png)
+![De Grove-lichtsensor aangesloten op aansluiting A0](../../../../../translated_images/nl/pi-light-sensor.66cc1e31fa48cd7d5f23400d4b2119aa41508275cb7c778053a7923b4e972d7e.png)
 
 ## Programmeer de lichtsensor
 

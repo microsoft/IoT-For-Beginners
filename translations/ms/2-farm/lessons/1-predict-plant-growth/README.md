@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 ## Ramalkan Pertumbuhan Tumbuhan dengan IoT
 
-![Gambaran sketchnote untuk pelajaran ini](../../../../../translated_images/lesson-5.42b234299279d263143148b88ab4583861a32ddb03110c6c1120e41bb88b2592.ms.jpg)
+![Gambaran sketchnote untuk pelajaran ini](../../../../../translated_images/ms/lesson-5.42b234299279d263143148b88ab4583861a32ddb03110c6c1120e41bb88b2592.jpg)
 
 > Sketchnote oleh [Nitya Narasimhan](https://github.com/nitya). Klik imej untuk versi yang lebih besar.
 
@@ -65,7 +65,7 @@ Setiap spesies tumbuhan mempunyai nilai yang berbeza untuk suhu asas, optimum da
 
 ✅ Lakukan sedikit penyelidikan. Untuk mana-mana tumbuhan yang anda ada di taman, sekolah, atau taman tempatan, lihat jika anda boleh mencari suhu asasnya.
 
-![Graf menunjukkan kadar pertumbuhan meningkat apabila suhu meningkat, kemudian menurun apabila suhu terlalu tinggi](../../../../../translated_images/plant-growth-temp-graph.c6d69c9478e6ca83.ms.png)
+![Graf menunjukkan kadar pertumbuhan meningkat apabila suhu meningkat, kemudian menurun apabila suhu terlalu tinggi](../../../../../translated_images/ms/plant-growth-temp-graph.c6d69c9478e6ca83.png)
 
 Graf di atas menunjukkan contoh graf kadar pertumbuhan terhadap suhu. Sehingga suhu asas, tiada pertumbuhan berlaku. Kadar pertumbuhan meningkat sehingga suhu optimum, kemudian menurun selepas mencapai puncak ini. 
 
@@ -91,7 +91,7 @@ Kod ini membuka fail CSV, kemudian menambah baris baru di hujungnya. Baris terse
 
     
 > 💁 Jika anda menggunakan Peranti IoT Maya, pilih kotak semak rawak dan tetapkan julat untuk mengelakkan mendapatkan suhu yang sama setiap kali nilai suhu dikembalikan.
-    ![Pilih kotak semak rawak dan tetapkan julat](../../../../../translated_images/select-the-random-checkbox-and-set-a-range.32cf4bc7c12e797f.ms.png) 
+    ![Pilih kotak semak rawak dan tetapkan julat](../../../../../translated_images/ms/select-the-random-checkbox-and-set-a-range.32cf4bc7c12e797f.png) 
 
     > 💁 Jika anda ingin menjalankan ini sepanjang hari, maka anda perlu memastikan komputer tempat kod pelayan anda berjalan tidak akan tidur, sama ada dengan menukar tetapan kuasa anda, atau menjalankan sesuatu seperti [skrip Python ini untuk memastikan sistem aktif](https://github.com/jaqsparow/keep-system-active).
     
@@ -111,7 +111,7 @@ Langkah-langkah untuk melakukannya secara manual adalah:
 
 Sebagai contoh, jika suhu tertinggi untuk hari tersebut ialah 25°C, dan terendah ialah 12°C:
 
-![GDD = 25 + 12 dibahagi dengan 2, kemudian tolak 10 daripada hasil memberikan 8.5](../../../../../translated_images/gdd-calculation-strawberries.59f57db94b22adb8ff6efb951ace33af104a1c6ccca3ffb0f8169c14cb160c90.ms.png)
+![GDD = 25 + 12 dibahagi dengan 2, kemudian tolak 10 daripada hasil memberikan 8.5](../../../../../translated_images/ms/gdd-calculation-strawberries.59f57db94b22adb8ff6efb951ace33af104a1c6ccca3ffb0f8169c14cb160c90.png)
 
 * 25 + 12 = 37
 * 37 / 2 = 18.5

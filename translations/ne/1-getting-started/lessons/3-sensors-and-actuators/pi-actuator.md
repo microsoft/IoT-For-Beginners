@@ -35,7 +35,7 @@ Grove LED एउटा मोड्युलको रूपमा आउँछ 
 
 LED जडान गर्नुहोस्।
 
-![A grove LED](../../../../../translated_images/grove-led.6c853be93f473cf2c439cfc74bb1064732b22251a83cedf66e62f783f9cc1a79.ne.png)
+![A grove LED](../../../../../translated_images/ne/grove-led.6c853be93f473cf2c439cfc74bb1064732b22251a83cedf66e62f783f9cc1a79.png)
 
 1. आफ्नो मनपर्ने LED छान्नुहोस् र LED मोड्युलको दुई प्वालहरूमा खुट्टा हाल्नुहोस्।
 
@@ -49,7 +49,7 @@ LED जडान गर्नुहोस्।
 
 1. Raspberry Pi बन्द अवस्थामा हुँदा, Grove केबलको अर्को अन्त Grove Base hat मा **D5** चिन्हित डिजिटल सॉकेटमा जडान गर्नुहोस्। यो सॉकेट GPIO पिनहरूको छेउमा रहेको सॉकेटहरूको पंक्तिमा बाँयाबाट दोस्रो हो।
 
-![The grove LED connected to socket D5](../../../../../translated_images/pi-led.97f1d474981dc35d1c7996c7b17de355d3d0a6bc9606d79fa5f89df933415122.ne.png)
+![The grove LED connected to socket D5](../../../../../translated_images/ne/pi-led.97f1d474981dc35d1c7996c7b17de355d3d0a6bc9606d79fa5f89df933415122.png)
 
 ## रातको बत्ती प्रोग्राम गर्नुहोस्
 

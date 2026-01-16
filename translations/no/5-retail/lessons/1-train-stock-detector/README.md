@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Tren en lagerdetektor
 
-![En sketchnote oversikt over denne leksjonen](../../../../../translated_images/lesson-19.cf6973cecadf080c4b526310620dc4d6f5994c80fb0139c6f378cc9ca2d435cd.no.jpg)
+![En sketchnote oversikt over denne leksjonen](../../../../../translated_images/no/lesson-19.cf6973cecadf080c4b526310620dc4d6f5994c80fb0139c6f378cc9ca2d435cd.jpg)
 
 > Sketchnote av [Nitya Narasimhan](https://github.com/nitya). Klikk på bildet for en større versjon.
 
@@ -45,7 +45,7 @@ Objektdeteksjon innebærer å oppdage objekter i bilder ved hjelp av AI. I motse
 
 Bildekategorisering handler om å klassifisere et bilde som helhet – hva er sannsynligheten for at hele bildet samsvarer med hver merkelapp. Du får tilbake sannsynligheter for hver merkelapp som ble brukt til å trene modellen.
 
-![Bildekategorisering av cashewnøtter og tomatpuré](../../../../../translated_images/image-classifier-cashews-tomato.bc2e16ab8f05cf9ac0f59f73e32efc4227f9a5b601b90b2c60f436694547a965.no.png)
+![Bildekategorisering av cashewnøtter og tomatpuré](../../../../../translated_images/no/image-classifier-cashews-tomato.bc2e16ab8f05cf9ac0f59f73e32efc4227f9a5b601b90b2c60f436694547a965.png)
 
 I eksempelet ovenfor blir to bilder klassifisert ved hjelp av en modell trent til å klassifisere bokser med cashewnøtter eller bokser med tomatpuré. Det første bildet er en boks med cashewnøtter og har to resultater fra bildekategoriseringen:
 
@@ -69,7 +69,7 @@ Når du deretter bruker den til å forutsi bilder, får du ikke tilbake en liste
 
 > 🎓 *Avgrensningsbokser* er boksene rundt et objekt.
 
-![Objektdeteksjon av cashewnøtter og tomatpuré](../../../../../translated_images/object-detector-cashews-tomato.1af7c26686b4db0e709754aeb196f4e73271f54e2085db3bcccb70d4a0d84d97.no.png)
+![Objektdeteksjon av cashewnøtter og tomatpuré](../../../../../translated_images/no/object-detector-cashews-tomato.1af7c26686b4db0e709754aeb196f4e73271f54e2085db3bcccb70d4a0d84d97.png)
 
 Bildet ovenfor inneholder både en boks med cashewnøtter og tre bokser med tomatpuré. Objektdetektoren oppdaget cashewnøttene og returnerte avgrensningsboksen som inneholder cashewnøttene med sannsynligheten for at avgrensningsboksen inneholder objektet, i dette tilfellet 97.6%. Objektdetektoren har også oppdaget tre bokser med tomatpuré og gir tre separate avgrensningsbokser, én for hver oppdaget boks, og hver har en sannsynlighetsprosent for at avgrensningsboksen inneholder en boks med tomatpuré.
 
@@ -120,7 +120,7 @@ Du kan trene en objektdetektor ved hjelp av Custom Vision, på en lignende måte
 
     Når du oppretter prosjektet, sørg for å bruke ressursen `stock-detector-training` som du opprettet tidligere. Bruk prosjekttypen *Objektdeteksjon* og domenet *Produkter på hyller*.
 
-    ![Innstillingene for Custom Vision-prosjektet med navnet satt til fruit-quality-detector, ingen beskrivelse, ressursen satt til fruit-quality-detector-training, prosjekttypen satt til klassifisering, klassifiseringstypene satt til multi class og domenene satt til food](../../../../../translated_images/custom-vision-create-object-detector-project.32d4fb9aa8e7e7375f8a799bfce517aca970f2cb65e42d4245c5e635c734ab29.no.png)
+    ![Innstillingene for Custom Vision-prosjektet med navnet satt til fruit-quality-detector, ingen beskrivelse, ressursen satt til fruit-quality-detector-training, prosjekttypen satt til klassifisering, klassifiseringstypene satt til multi class og domenene satt til food](../../../../../translated_images/no/custom-vision-create-object-detector-project.32d4fb9aa8e7e7375f8a799bfce517aca970f2cb65e42d4245c5e635c734ab29.png)
 
     ✅ Domenet produkter på hyller er spesielt rettet mot å oppdage lager på butikkhyller. Les mer om de forskjellige domenene i [Velg et domene-dokumentasjonen på Microsoft Docs](https://docs.microsoft.com/azure/cognitive-services/custom-vision-service/select-domain?WT.mc_id=academic-17441-jabenn#object-detection)
 
@@ -142,11 +142,11 @@ For å trene modellen din trenger du et sett med bilder som inneholder objektene
 
 1. Følg [seksjonen Last opp og merk bilder i hurtigstarten for å bygge en objektdetektor på Microsoft Docs](https://docs.microsoft.com/azure/cognitive-services/custom-vision-service/get-started-build-detector?WT.mc_id=academic-17441-jabenn#upload-and-tag-images) for å laste opp treningsbildene dine. Opprett relevante merkelapper avhengig av hvilke typer objekter du vil oppdage.
 
-    ![Opplastingsdialogene som viser opplastingen av bilder av modne og umodne bananer](../../../../../translated_images/image-upload-object-detector.77c7892c3093cb59b79018edecd678749a75d71a099bc8a2d2f2f76320f88a5b.no.png)
+    ![Opplastingsdialogene som viser opplastingen av bilder av modne og umodne bananer](../../../../../translated_images/no/image-upload-object-detector.77c7892c3093cb59b79018edecd678749a75d71a099bc8a2d2f2f76320f88a5b.png)
 
     Når du tegner avgrensningsbokser for objekter, hold dem stramme rundt objektet. Det kan ta en stund å markere alle bildene, men verktøyet vil oppdage hva det tror er avgrensningsboksene, noe som gjør det raskere.
 
-    ![Merking av tomatpuré](../../../../../translated_images/object-detector-tag-tomato-paste.f47c362fb0f0eb582f3bc68cf3855fb43a805106395358d41896a269c210b7b4.no.png)
+    ![Merking av tomatpuré](../../../../../translated_images/no/object-detector-tag-tomato-paste.f47c362fb0f0eb582f3bc68cf3855fb43a805106395358d41896a269c210b7b4.png)
 
     > 💁 Hvis du har mer enn 15 bilder for hvert objekt, kan du trene etter 15 og deretter bruke funksjonen **Foreslåtte merkelapper**. Dette vil bruke den trente modellen til å oppdage objektene i det umerkede bildet. Du kan deretter bekrefte de oppdagede objektene, eller avvise og tegne avgrensningsboksene på nytt. Dette kan spare *mye* tid.
 
@@ -164,7 +164,7 @@ Når objektdetektoren din er trent, kan du teste den ved å gi den nye bilder fo
 
 1. Bruk knappen **Rask test** for å laste opp testbilder og verifisere at objektene blir oppdaget. Bruk testbildene du opprettet tidligere, ikke noen av bildene du brukte til trening.
 
-    ![3 bokser med tomatpuré oppdaget med sannsynligheter på 38%, 35.5% og 34.6%](../../../../../translated_images/object-detector-detected-tomato-paste.52656fe87af4c37b4ee540526d63e73ed075da2e54a9a060aa528e0c562fb1b6.no.png)
+    ![3 bokser med tomatpuré oppdaget med sannsynligheter på 38%, 35.5% og 34.6%](../../../../../translated_images/no/object-detector-detected-tomato-paste.52656fe87af4c37b4ee540526d63e73ed075da2e54a9a060aa528e0c562fb1b6.png)
 
 1. Prøv alle testbildene du har tilgang til og observer sannsynlighetene.
 

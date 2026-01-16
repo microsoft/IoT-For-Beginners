@@ -47,11 +47,11 @@ CounterFit ਐਪ ਵਿੱਚ GPS ਸੈਂਸਰ ਸ਼ਾਮਲ ਕਰੋ।
 
     1. **Add** ਬਟਨ ਚੁਣੋ ਤਾਂ ਜੋ `/dev/ttyAMA0` ਪੋਰਟ 'ਤੇ GPS ਸੈਂਸਰ ਬਣਾਇਆ ਜਾ ਸਕੇ।
 
-    ![GPS ਸੈਂਸਰ ਸੈਟਿੰਗ](../../../../../translated_images/counterfit-create-gps-sensor.6385dc9357d85ad1d47b4abb2525e7651fd498917d25eefc5a72feab09eedc70.pa.png)
+    ![GPS ਸੈਂਸਰ ਸੈਟਿੰਗ](../../../../../translated_images/pa/counterfit-create-gps-sensor.6385dc9357d85ad1d47b4abb2525e7651fd498917d25eefc5a72feab09eedc70.png)
 
     GPS ਸੈਂਸਰ ਬਣਾਇਆ ਜਾਵੇਗਾ ਅਤੇ ਸੈਂਸਰਾਂ ਦੀ ਸੂਚੀ ਵਿੱਚ ਦਿਖਾਈ ਦੇਵੇਗਾ।
 
-    ![GPS ਸੈਂਸਰ ਬਣਾਇਆ ਗਿਆ](../../../../../translated_images/counterfit-gps-sensor.3fbb15af0a5367566f2f11324ef5a6f30861cdf2b497071a5e002b7aa473550e.pa.png)
+    ![GPS ਸੈਂਸਰ ਬਣਾਇਆ ਗਿਆ](../../../../../translated_images/pa/counterfit-gps-sensor.3fbb15af0a5367566f2f11324ef5a6f30861cdf2b497071a5e002b7aa473550e.png)
 
 ## GPS ਸੈਂਸਰ ਪ੍ਰੋਗਰਾਮ ਕਰੋ
 
@@ -111,17 +111,17 @@ GPS ਸੈਂਸਰ ਐਪ ਪ੍ਰੋਗਰਾਮ ਕਰੋ।
 
     * **Source** ਨੂੰ `Lat/Lon` 'ਤੇ ਸੈਟ ਕਰੋ ਅਤੇ ਇੱਕ ਸਪਸ਼ਟ ਲੈਟੀਟਿਊਡ, ਲੌਂਗਿਟਿਊਡ ਅਤੇ ਸੈਟੇਲਾਈਟਾਂ ਦੀ ਗਿਣਤੀ ਸੈਟ ਕਰੋ। ਇਹ ਮੁੱਲ ਸਿਰਫ ਇੱਕ ਵਾਰ ਭੇਜਿਆ ਜਾਵੇਗਾ, ਇਸ ਲਈ **Repeat** ਬਾਕਸ ਚੈੱਕ ਕਰੋ ਤਾਂ ਜੋ ਡਾਟਾ ਹਰ ਸਕਿੰਟ ਦੁਹਰਾਇਆ ਜਾਵੇ।
 
-      ![GPS ਸੈਂਸਰ lat lon ਨਾਲ ਚੁਣਿਆ ਗਿਆ](../../../../../translated_images/counterfit-gps-sensor-latlon.008c867d75464fbe7f84107cc57040df565ac07cb57d2f21db37d087d470197d.pa.png)
+      ![GPS ਸੈਂਸਰ lat lon ਨਾਲ ਚੁਣਿਆ ਗਿਆ](../../../../../translated_images/pa/counterfit-gps-sensor-latlon.008c867d75464fbe7f84107cc57040df565ac07cb57d2f21db37d087d470197d.png)
 
     * **Source** ਨੂੰ `NMEA` 'ਤੇ ਸੈਟ ਕਰੋ ਅਤੇ ਕੁਝ NMEA ਵਾਕ ਟੈਕਸਟ ਬਾਕਸ ਵਿੱਚ ਸ਼ਾਮਲ ਕਰੋ। ਇਹ ਸਾਰੇ ਮੁੱਲ ਭੇਜੇ ਜਾਣਗੇ, ਹਰ ਨਵੇਂ GGA (ਸਥਿਤੀ ਫਿਕਸ) ਵਾਕ ਤੋਂ ਪਹਿਲਾਂ 1 ਸਕਿੰਟ ਦੀ ਦੇਰੀ ਨਾਲ।
 
-      ![GPS ਸੈਂਸਰ NMEA ਵਾਕਾਂ ਨਾਲ ਸੈਟ ਕੀਤਾ ਗਿਆ](../../../../../translated_images/counterfit-gps-sensor-nmea.c62eea442171e17e19528b051b104cfcecdc9cd18db7bc72920f29821ae63f73.pa.png)
+      ![GPS ਸੈਂਸਰ NMEA ਵਾਕਾਂ ਨਾਲ ਸੈਟ ਕੀਤਾ ਗਿਆ](../../../../../translated_images/pa/counterfit-gps-sensor-nmea.c62eea442171e17e19528b051b104cfcecdc9cd18db7bc72920f29821ae63f73.png)
 
       ਤੁਸੀਂ [nmeagen.org](https://www.nmeagen.org) ਵਰਗੇ ਟੂਲ ਦੀ ਵਰਤੋਂ ਕਰ ਸਕਦੇ ਹੋ ਮੈਪ 'ਤੇ ਖਿੱਚਣ ਲਈ ਇਹ ਵਾਕ ਬਣਾਉਣ ਲਈ। ਇਹ ਮੁੱਲ ਸਿਰਫ ਇੱਕ ਵਾਰ ਭੇਜੇ ਜਾਣਗੇ, ਇਸ ਲਈ **Repeat** ਬਾਕਸ ਚੈੱਕ ਕਰੋ ਤਾਂ ਜੋ ਸਾਰਾ ਡਾਟਾ ਭੇਜਣ ਤੋਂ ਬਾਅਦ ਇੱਕ ਸਕਿੰਟ ਬਾਅਦ ਦੁਹਰਾਇਆ ਜਾਵੇ।
 
     * **Source** ਨੂੰ GPX ਫਾਈਲ 'ਤੇ ਸੈਟ ਕਰੋ ਅਤੇ ਟਰੈਕ ਸਥਾਨਾਂ ਵਾਲੀ GPX ਫਾਈਲ ਅੱਪਲੋਡ ਕਰੋ। ਤੁਸੀਂ [AllTrails](https://www.alltrails.com/) ਵਰਗੀਆਂ ਮਸ਼ਹੂਰ ਮੈਪਿੰਗ ਅਤੇ ਹਾਈਕਿੰਗ ਸਾਈਟਾਂ ਤੋਂ GPX ਫਾਈਲਾਂ ਡਾਊਨਲੋਡ ਕਰ ਸਕਦੇ ਹੋ। ਇਹ ਫਾਈਲਾਂ ਇੱਕ ਟ੍ਰੇਲ ਵਜੋਂ ਕਈ GPS ਸਥਾਨਾਂ ਨੂੰ ਸ਼ਾਮਲ ਕਰਦੀਆਂ ਹਨ, ਅਤੇ GPS ਸੈਂਸਰ ਹਰ ਨਵੇਂ ਸਥਾਨ ਨੂੰ 1 ਸਕਿੰਟ ਦੇ ਅੰਤਰਾਲ 'ਤੇ ਵਾਪਸ ਕਰੇਗਾ।
 
-      ![GPS ਸੈਂਸਰ GPX ਫਾਈਲ ਨਾਲ ਸੈਟ ਕੀਤਾ ਗਿਆ](../../../../../translated_images/counterfit-gps-sensor-gpxfile.8310b063ce8a425ccc8ebeec8306aeac5e8e55207f007d52c6e1194432a70cd9.pa.png)
+      ![GPS ਸੈਂਸਰ GPX ਫਾਈਲ ਨਾਲ ਸੈਟ ਕੀਤਾ ਗਿਆ](../../../../../translated_images/pa/counterfit-gps-sensor-gpxfile.8310b063ce8a425ccc8ebeec8306aeac5e8e55207f007d52c6e1194432a70cd9.png)
 
       ਇਹ ਮੁੱਲ ਸਿਰਫ ਇੱਕ ਵਾਰ ਭੇਜੇ ਜਾਣਗੇ, ਇਸ ਲਈ **Repeat** ਬਾਕਸ ਚੈੱਕ ਕਰੋ ਤਾਂ ਜੋ ਸਾਰਾ ਡਾਟਾ ਭੇਜਣ ਤੋਂ ਬਾਅਦ ਇੱਕ ਸਕਿੰਟ ਬਾਅਦ ਦੁਹਰਾਇਆ ਜਾਵੇ।
 

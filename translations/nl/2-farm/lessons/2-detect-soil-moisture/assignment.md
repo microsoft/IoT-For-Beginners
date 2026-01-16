@@ -29,14 +29,14 @@ Je zult deze stappen meerdere keren moeten herhalen om de benodigde metingen te 
 
 Het gravimetrische bodemvochtgehalte wordt berekend als:
 
-![bodemvochtigheid % is gewicht nat min gewicht droog, gedeeld door gewicht droog, maal 100](../../../../../translated_images/gsm-calculation.6da38c6201eec14e7573bb2647aa18892883193553d23c9d77e5dc681522dfb2.nl.png)
+![bodemvochtigheid % is gewicht nat min gewicht droog, gedeeld door gewicht droog, maal 100](../../../../../translated_images/nl/gsm-calculation.6da38c6201eec14e7573bb2647aa18892883193553d23c9d77e5dc681522dfb2.png)
 
 * W - het gewicht van de natte grond  
 * W - het gewicht van de droge grond  
 
 Bijvoorbeeld, stel dat je een bodemmonster hebt dat 212g weegt als het nat is, en 197g als het droog is.
 
-![De ingevulde berekening](../../../../../translated_images/gsm-calculation-example.99f9803b4f29e97668e7c15412136c0c399ab12dbba0b89596fdae9d8aedb6fb.nl.png)
+![De ingevulde berekening](../../../../../translated_images/nl/gsm-calculation-example.99f9803b4f29e97668e7c15412136c0c399ab12dbba0b89596fdae9d8aedb6fb.png)
 
 * W = 212g  
 * W = 197g  

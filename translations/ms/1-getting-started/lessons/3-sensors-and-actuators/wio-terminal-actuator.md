@@ -35,7 +35,7 @@ Grove LED datang sebagai modul dengan pilihan LED, membolehkan anda memilih warn
 
 Sambungkan LED.
 
-![LED Grove](../../../../../translated_images/grove-led.6c853be93f473cf2c439cfc74bb1064732b22251a83cedf66e62f783f9cc1a79.ms.png)
+![LED Grove](../../../../../translated_images/ms/grove-led.6c853be93f473cf2c439cfc74bb1064732b22251a83cedf66e62f783f9cc1a79.png)
 
 1. Pilih LED kegemaran anda dan masukkan kaki-kaki LED ke dalam dua lubang pada modul LED.
 
@@ -51,7 +51,7 @@ Sambungkan LED.
 
     > 💁 Soket Grove di sebelah kanan boleh digunakan dengan sensor dan penggerak analog atau digital. Soket di sebelah kiri adalah untuk sensor dan penggerak digital sahaja. C akan dibincangkan dalam pelajaran kemudian.
 
-![LED Grove disambungkan ke soket sebelah kanan](../../../../../translated_images/wio-led.265a1897e72d7f21.ms.png)
+![LED Grove disambungkan ke soket sebelah kanan](../../../../../translated_images/ms/wio-led.265a1897e72d7f21.png)
 
 ## Program lampu malam
 

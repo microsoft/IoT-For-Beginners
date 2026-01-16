@@ -43,11 +43,11 @@ Voeg de bodemvochtigheidssensor toe aan de CounterFit-app.
 
     1. Selecteer de knop **Add** om de *Soil Moisture*-sensor op Pin 0 te maken.
 
-    ![De instellingen van de bodemvochtigheidssensor](../../../../../translated_images/counterfit-create-soil-moisture-sensor.35266135a5e0ae68b29a684d7db0d2933a8098b2307d197f7c71577b724603aa.nl.png)
+    ![De instellingen van de bodemvochtigheidssensor](../../../../../translated_images/nl/counterfit-create-soil-moisture-sensor.35266135a5e0ae68b29a684d7db0d2933a8098b2307d197f7c71577b724603aa.png)
 
     De bodemvochtigheidssensor wordt aangemaakt en verschijnt in de sensorenlijst.
 
-    ![De aangemaakte bodemvochtigheidssensor](../../../../../translated_images/counterfit-soil-moisture-sensor.81742b2de0e9de60a3b3b9a2ff8ecc686d428eb6d71820f27a693be26e5aceee.nl.png)
+    ![De aangemaakte bodemvochtigheidssensor](../../../../../translated_images/nl/counterfit-soil-moisture-sensor.81742b2de0e9de60a3b3b9a2ff8ecc686d428eb6d71820f27a693be26e5aceee.png)
 
 ## Programmeer de bodemvochtigheidssensor-app
 

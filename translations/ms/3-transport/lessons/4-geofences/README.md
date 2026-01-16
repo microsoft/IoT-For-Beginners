@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Geopagar
 
-![Gambaran sketchnote untuk pelajaran ini](../../../../../translated_images/lesson-14.63980c5150ae3c153e770fb71d044c1845dce79248d86bed9fc525adf3ede73c.ms.jpg)
+![Gambaran sketchnote untuk pelajaran ini](../../../../../translated_images/ms/lesson-14.63980c5150ae3c153e770fb71d044c1845dce79248d86bed9fc525adf3ede73c.jpg)
 
 > Sketchnote oleh [Nitya Narasimhan](https://github.com/nitya). Klik gambar untuk versi yang lebih besar.
 
@@ -44,7 +44,7 @@ Dalam pelajaran ini, kita akan membincangkan:
 
 Geopagar adalah perimeter maya untuk kawasan geografi dunia nyata. Geopagar boleh berbentuk bulatan yang ditentukan sebagai titik dan jejari (contohnya bulatan dengan lebar 100m di sekitar bangunan), atau poligon yang meliputi kawasan seperti zon sekolah, sempadan bandar, atau kampus universiti atau pejabat.
 
-![Beberapa contoh geopagar yang menunjukkan geopagar berbentuk bulatan di sekitar kedai syarikat Microsoft, dan geopagar berbentuk poligon di sekitar kampus barat Microsoft](../../../../../translated_images/geofence-examples.172fbc534665769f6e1a1ddcf75e3b25183cd10354c80cc603ba44b635390e1a.ms.png)
+![Beberapa contoh geopagar yang menunjukkan geopagar berbentuk bulatan di sekitar kedai syarikat Microsoft, dan geopagar berbentuk poligon di sekitar kampus barat Microsoft](../../../../../translated_images/ms/geofence-examples.172fbc534665769f6e1a1ddcf75e3b25183cd10354c80cc603ba44b635390e1a.png)
 
 > 💁 Anda mungkin telah menggunakan geopagar tanpa menyedarinya. Jika anda pernah menetapkan peringatan menggunakan aplikasi peringatan iOS atau Google Keep berdasarkan lokasi, anda telah menggunakan geopagar. Aplikasi ini akan menetapkan geopagar berdasarkan lokasi yang diberikan dan memberi amaran kepada anda apabila telefon anda memasuki geopagar.
 
@@ -110,7 +110,7 @@ Setiap titik pada poligon ditentukan sebagai pasangan longitud, latitud dalam ar
 
 Array koordinat poligon sentiasa mempunyai 1 entri lebih banyak daripada bilangan titik pada poligon, dengan entri terakhir sama seperti yang pertama, menutup poligon. Sebagai contoh, untuk segi empat tepat akan ada 5 titik.
 
-![Segi empat tepat dengan koordinat](../../../../../translated_images/polygon-points.302193da381cb415.ms.png)
+![Segi empat tepat dengan koordinat](../../../../../translated_images/ms/polygon-points.302193da381cb415.png)
 
 Dalam gambar di atas, terdapat segi empat tepat. Koordinat poligon bermula di kiri atas pada 47,-122, kemudian bergerak ke kanan ke 47,-121, kemudian ke bawah ke 46,-121, kemudian ke kiri ke 46, -122, kemudian kembali ke titik permulaan di 47, -122. Ini memberikan poligon 5 titik - kiri atas, kanan atas, kanan bawah, kiri bawah, kemudian kiri atas untuk menutupnya.
 
@@ -208,7 +208,7 @@ Apabila anda membuat permintaan ini, anda juga boleh menghantar nilai yang dipan
 
 Apabila hasil dikembalikan dari panggilan API, salah satu bahagian hasil adalah `distance` yang diukur ke titik terdekat di tepi geopagar, dengan nilai positif jika titik berada di luar geopagar, nilai negatif jika ia berada di dalam geopagar. Jika jarak ini kurang daripada penimbal carian, jarak sebenar dikembalikan dalam meter, jika tidak, nilainya adalah 999 atau -999. 999 bermaksud titik berada di luar geopagar lebih daripada penimbal carian, -999 bermaksud ia berada di dalam geopagar lebih daripada penimbal carian.
 
-![Geopagar dengan penimbal carian 50m di sekelilingnya](../../../../../translated_images/search-buffer-and-distance.e6a79af3898183c7.ms.png)
+![Geopagar dengan penimbal carian 50m di sekelilingnya](../../../../../translated_images/ms/search-buffer-and-distance.e6a79af3898183c7.png)
 
 Dalam gambar di atas, geopagar mempunyai penimbal carian 50m.
 
@@ -221,7 +221,7 @@ Adalah penting untuk mengetahui jarak ke tepi geopagar, dan menggabungkannya den
 
 Sebagai contoh, bayangkan bacaan GPS menunjukkan kenderaan sedang memandu di sepanjang jalan yang akhirnya bersebelahan dengan geopagar. Jika satu nilai GPS tidak tepat dan meletakkan kenderaan di dalam geopagar, walaupun tiada akses kenderaan, maka ia boleh diabaikan.
 
-![Jejak GPS menunjukkan kenderaan melalui kampus Microsoft di 520, dengan bacaan GPS di sepanjang jalan kecuali satu di kampus, di dalam geopagar](../../../../../translated_images/geofence-crossing-inaccurate-gps.6a3ed911202ad9cabb66d3964888cec03a42c61d5b8f536ad5bdc99716b370f5.ms.png)
+![Jejak GPS menunjukkan kenderaan melalui kampus Microsoft di 520, dengan bacaan GPS di sepanjang jalan kecuali satu di kampus, di dalam geopagar](../../../../../translated_images/ms/geofence-crossing-inaccurate-gps.6a3ed911202ad9cabb66d3964888cec03a42c61d5b8f536ad5bdc99716b370f5.png)
 Dalam gambar di atas, terdapat geofence yang meliputi sebahagian daripada kampus Microsoft. Garis merah menunjukkan sebuah trak yang memandu di sepanjang 520, dengan bulatan menunjukkan bacaan GPS. Kebanyakan bacaan ini adalah tepat dan berada di sepanjang 520, tetapi terdapat satu bacaan yang tidak tepat di dalam geofence. Bacaan ini tidak mungkin betul - tiada jalan untuk trak tiba-tiba menyimpang dari 520 ke dalam kampus, kemudian kembali ke 520. Kod yang memeriksa geofence ini perlu mengambil kira bacaan sebelumnya sebelum bertindak berdasarkan hasil ujian geofence.
 
 ✅ Apakah data tambahan yang anda perlukan untuk memeriksa sama ada bacaan GPS boleh dianggap betul?
@@ -293,7 +293,7 @@ Seperti yang anda ingat daripada pelajaran sebelumnya, IoT Hub membolehkan anda 
 
 Jawapannya adalah ia tidak boleh! Sebaliknya, anda boleh mentakrifkan beberapa sambungan berasingan untuk membaca acara, dan setiap satu boleh menguruskan pemutaran semula mesej yang belum dibaca. Ini dipanggil *kumpulan pengguna*. Apabila anda menyambung ke titik akhir, anda boleh menentukan kumpulan pengguna mana yang anda mahu sambungkan. Setiap komponen aplikasi anda akan menyambung ke kumpulan pengguna yang berbeza.
 
-![Satu IoT Hub dengan 3 kumpulan pengguna mengedarkan mesej yang sama kepada 3 aplikasi fungsi yang berbeza](../../../../../translated_images/consumer-groups.a3262e26fc27ba2092863678ad57af15c7223416e388a23f330c058cf4358630.ms.png)
+![Satu IoT Hub dengan 3 kumpulan pengguna mengedarkan mesej yang sama kepada 3 aplikasi fungsi yang berbeza](../../../../../translated_images/ms/consumer-groups.a3262e26fc27ba2092863678ad57af15c7223416e388a23f330c058cf4358630.png)
 
 Secara teori, sehingga 5 aplikasi boleh menyambung ke setiap kumpulan pengguna, dan semuanya akan menerima mesej apabila ia tiba. Amalan terbaik adalah hanya satu aplikasi mengakses setiap kumpulan pengguna untuk mengelakkan pemprosesan mesej yang berulang, dan memastikan apabila dimulakan semula semua mesej yang beratur diproses dengan betul. Sebagai contoh, jika anda melancarkan aplikasi Functions anda secara tempatan serta menjalankannya di awan, kedua-duanya akan memproses mesej, menyebabkan blob pendua disimpan dalam akaun storan.
 

@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Data Lokasi Kedai
 
-![Gambaran sketchnote untuk pelajaran ini](../../../../../translated_images/lesson-12.ca7f53039712a3ec14ad6474d8445361c84adab643edc53fa6269b77895606bb.ms.jpg)
+![Gambaran sketchnote untuk pelajaran ini](../../../../../translated_images/ms/lesson-12.ca7f53039712a3ec14ad6474d8445361c84adab643edc53fa6269b77895606bb.jpg)
 
 > Sketchnote oleh [Nitya Narasimhan](https://github.com/nitya). Klik imej untuk versi yang lebih besar.
 
@@ -66,7 +66,7 @@ Pangkalan data ialah perkhidmatan yang membolehkan anda menyimpan dan menyoal da
 
 Pangkalan data pertama ialah Sistem Pengurusan Pangkalan Data Relasi (RDBMS), atau pangkalan data relasi. Ini juga dikenali sebagai pangkalan data SQL kerana Bahasa Pertanyaan Berstruktur (SQL) digunakan untuk berinteraksi dengannya untuk menambah, menghapus, mengemas kini atau menyoal data. Pangkalan data ini terdiri daripada skema - satu set jadual data yang jelas, serupa dengan hamparan. Setiap jadual mempunyai pelbagai lajur bernama. Apabila anda memasukkan data, anda menambah baris ke jadual, meletakkan nilai ke dalam setiap lajur. Ini mengekalkan data dalam struktur yang sangat tegar - walaupun anda boleh meninggalkan lajur kosong, jika anda ingin menambah lajur baru, anda perlu melakukannya pada pangkalan data, mengisi nilai untuk baris yang sedia ada. Pangkalan data ini adalah relasi - di mana satu jadual boleh mempunyai hubungan dengan yang lain.
 
-![Pangkalan data relasi dengan ID jadual Pengguna berkaitan dengan lajur ID pengguna jadual pembelian, dan ID jadual produk berkaitan dengan ID produk jadual pembelian](../../../../../translated_images/sql-database.be160f12bfccefd3.ms.png)
+![Pangkalan data relasi dengan ID jadual Pengguna berkaitan dengan lajur ID pengguna jadual pembelian, dan ID jadual produk berkaitan dengan ID produk jadual pembelian](../../../../../translated_images/ms/sql-database.be160f12bfccefd3.png)
 
 Sebagai contoh, jika anda menyimpan butiran peribadi pengguna dalam jadual, anda akan mempunyai beberapa jenis ID unik dalaman bagi setiap pengguna yang digunakan dalam baris dalam jadual yang mengandungi nama dan alamat pengguna. Jika anda kemudian ingin menyimpan butiran lain tentang pengguna itu, seperti pembelian mereka, dalam jadual lain, anda akan mempunyai satu lajur dalam jadual baru untuk ID pengguna tersebut. Apabila anda mencari pengguna, anda boleh menggunakan ID mereka untuk mendapatkan butiran peribadi mereka daripada satu jadual, dan pembelian mereka daripada yang lain.
 
@@ -84,7 +84,7 @@ Pangkalan data NoSQL dinamakan NoSQL kerana ia tidak mempunyai struktur tegar ya
 
 > 💁 Walaupun namanya, beberapa pangkalan data NoSQL membolehkan anda menggunakan SQL untuk menyoal data.
 
-![Dokumen dalam folder dalam pangkalan data NoSQL](../../../../../translated_images/noqsl-database.62d24ccf5b73f60d35c245a8533f1c7147c0928e955b82cb290b2e184bb434df.ms.png)
+![Dokumen dalam folder dalam pangkalan data NoSQL](../../../../../translated_images/ms/noqsl-database.62d24ccf5b73f60d35c245a8533f1c7147c0928e955b82cb290b2e184bb434df.png)
 
 Pangkalan data NoSQL tidak mempunyai skema yang telah ditetapkan yang mengehadkan cara data disimpan, sebaliknya anda boleh memasukkan sebarang data tidak berstruktur, biasanya menggunakan dokumen JSON. Dokumen ini boleh diatur dalam folder, serupa dengan fail pada komputer anda. Setiap dokumen boleh mempunyai medan yang berbeza daripada dokumen lain - contohnya jika anda menyimpan data IoT daripada kenderaan ladang anda, sesetengahnya mungkin mempunyai medan untuk data pecutan dan kelajuan, yang lain mungkin mempunyai medan untuk suhu dalam treler. Jika anda ingin menambah jenis trak baru, seperti yang mempunyai skala terbina dalam untuk menjejaki berat hasil yang dibawa, maka peranti IoT anda boleh menambah medan baru ini dan ia boleh disimpan tanpa sebarang perubahan pada pangkalan data.
 
@@ -98,7 +98,7 @@ Dalam pelajaran ini, anda akan menggunakan penyimpanan NoSQL untuk menyimpan dat
 
 Dalam pelajaran sebelumnya, anda telah menangkap data GPS daripada sensor GPS yang disambungkan ke peranti IoT anda. Untuk menyimpan data IoT ini di awan, anda perlu menghantarnya ke perkhidmatan IoT. Sekali lagi, anda akan menggunakan Azure IoT Hub, perkhidmatan awan IoT yang sama yang anda gunakan dalam projek sebelumnya.
 
-![Menghantar telemetri GPS daripada peranti IoT ke IoT Hub](../../../../../translated_images/gps-telemetry-iot-hub.8115335d51cd2c1285d20e9d1b18cf685e59a8e093e7797291ef173445af6f3d.ms.png)
+![Menghantar telemetri GPS daripada peranti IoT ke IoT Hub](../../../../../translated_images/ms/gps-telemetry-iot-hub.8115335d51cd2c1285d20e9d1b18cf685e59a8e093e7797291ef173445af6f3d.png)
 
 ### Tugas - Hantar Data GPS ke IoT Hub
 
@@ -180,7 +180,7 @@ Data laluan sejuk disimpan dalam gudang data - pangkalan data yang direka untuk 
 
 Setelah data mengalir ke IoT Hub anda, anda boleh menulis kod tanpa pelayan untuk mendengar acara yang diterbitkan ke titik akhir yang serasi dengan Event-Hub. Ini adalah laluan suam - data ini akan disimpan dan digunakan dalam pelajaran seterusnya untuk pelaporan perjalanan.
 
-![Menghantar telemetri GPS daripada peranti IoT ke IoT Hub, kemudian ke Azure Functions melalui pencetus event hub](../../../../../translated_images/gps-telemetry-iot-hub-functions.24d3fa5592455e9f4e2fe73856b40c3915a292b90263c31d652acfd976cfedd8.ms.png)
+![Menghantar telemetri GPS daripada peranti IoT ke IoT Hub, kemudian ke Azure Functions melalui pencetus event hub](../../../../../translated_images/ms/gps-telemetry-iot-hub-functions.24d3fa5592455e9f4e2fe73856b40c3915a292b90263c31d652acfd976cfedd8.png)
 
 ### Tugas - Kendalikan Acara GPS Menggunakan Kod Tanpa Pelayan
 
@@ -202,7 +202,7 @@ Setelah data mengalir ke IoT Hub anda, anda boleh menulis kod tanpa pelayan untu
 
 ## Akaun Storan Azure
 
-![Logo Storan Azure](../../../../../translated_images/azure-storage-logo.605c0f602c640d482a80f1b35a2629a32d595711b7ab1d7ceea843250615ff32.ms.png)
+![Logo Storan Azure](../../../../../translated_images/ms/azure-storage-logo.605c0f602c640d482a80f1b35a2629a32d595711b7ab1d7ceea843250615ff32.png)
 
 Akaun Storan Azure adalah perkhidmatan storan serba guna yang boleh menyimpan data dalam pelbagai cara. Anda boleh menyimpan data sebagai blob, dalam barisan, dalam jadual, atau sebagai fail, dan semuanya pada masa yang sama.
 
@@ -241,7 +241,7 @@ Aplikasi fungsi anda kini perlu disambungkan ke storan blob untuk menyimpan mese
 
 Dalam pelajaran ini, anda akan menggunakan SDK Python untuk melihat cara berinteraksi dengan storan blob.
 
-![Menghantar telemetri GPS dari peranti IoT ke IoT Hub, kemudian ke Azure Functions melalui pencetus Event Hub, kemudian menyimpannya ke storan blob](../../../../../translated_images/save-telemetry-to-storage-from-functions.ed3b1820980097f1.ms.png)
+![Menghantar telemetri GPS dari peranti IoT ke IoT Hub, kemudian ke Azure Functions melalui pencetus Event Hub, kemudian menyimpannya ke storan blob](../../../../../translated_images/ms/save-telemetry-to-storage-from-functions.ed3b1820980097f1.png)
 
 Data akan disimpan sebagai blob JSON dengan format berikut:
 

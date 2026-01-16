@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # ဘာသာစကားများစွာကို ပံ့ပိုးခြင်း
 
-![ဒီသင်ခန်းစာ၏ အကျဉ်းချုပ်ကို ဖော်ပြထားသော sketchnote](../../../../../translated_images/lesson-24.4246968ed058510ab275052e87ef9aa89c7b2f938915d103c605c04dc6cd5bb7.my.jpg)
+![ဒီသင်ခန်းစာ၏ အကျဉ်းချုပ်ကို ဖော်ပြထားသော sketchnote](../../../../../translated_images/my/lesson-24.4246968ed058510ab275052e87ef9aa89c7b2f938915d103c605c04dc6cd5bb7.jpg)
 
 > Sketchnote ကို [Nitya Narasimhan](https://github.com/nitya) မှရေးသားထားသည်။ ပုံကို နှိပ်ပြီး အကြီးအကျယ်ကြည့်ရှုနိုင်ပါသည်။
 
@@ -71,7 +71,7 @@ AI ဝန်ဆောင်မှုများစွာကို speech နှ
 
 ### Cognitive services Speech service
 
-![Speech service logo](../../../../../translated_images/azure-speech-logo.a1f08c4befb0159f2cb5d692d3baf5b599e7b44759d316da907bda1508f46a4a.my.png)
+![Speech service logo](../../../../../translated_images/my/azure-speech-logo.a1f08c4befb0159f2cb5d692d3baf5b599e7b44759d316da907bda1508f46a4a.png)
 
 ယခင်သင်ခန်းစာများတွင် သင်အသုံးပြုခဲ့သော speech service တွင် speech recognition အတွက် ဘာသာပြန်စွမ်းရည်ရှိသည်။ သင် speech ကို အသိအမှတ်ပြုသောအခါ၊ speech text ကို မူရင်းဘာသာစကားတွင်သာမက အခြားဘာသာစကားများတွင်လည်း တောင်းဆိုနိုင်သည်။
 
@@ -79,7 +79,7 @@ AI ဝန်ဆောင်မှုများစွာကို speech နှ
 
 ### Cognitive services Translator service
 
-![Translator service logo](../../../../../translated_images/azure-translator-logo.c6ed3a4a433edfd2f11577eca105412c50b8396b194cbbd730723dd1d0793bcd.my.png)
+![Translator service logo](../../../../../translated_images/my/azure-translator-logo.c6ed3a4a433edfd2f11577eca105412c50b8396b194cbbd730723dd1d0793bcd.png)
 
 Translator service သည် dedicated translation service ဖြစ်ပြီး၊ စာသားများကို ဘာသာစကားတစ်ခုမှ တစ်ခု သို့မဟုတ် များစွာသော target languages သို့ ဘာသာပြန်နိုင်သည်။ ၎င်းသည် profanity masking ကဲ့သို့သော အပိုဆောင်း features များကိုလည်း ပံ့ပိုးပေးသည်။
 
@@ -118,7 +118,7 @@ Translator service သည် dedicated translation service ဖြစ်ပြီ
 
 အကောင်းဆုံးကမ္ဘာတစ်ခုတွင် သင့်အက်ပလီကေးရှင်းတစ်ခုလုံးသည် ဘာသာစကားများစွာကို နားလည်နိုင်စွမ်းရှိသင့်သည်။ speech ကို နားထောင်ခြင်းမှ language understanding, speech ဖြင့် ပြန်လည်တုံ့ပြန်ခြင်းအထိပါဝင်သည်။ translation services များသည် သင့်အက်ပလီကေးရှင်းကို အမြန်တိုးတက်စေပါသည်။
 
-![Smart timer architecture](../../../../../translated_images/translated-smart-timer.08ac20057fdc5c37.my.png)
+![Smart timer architecture](../../../../../translated_images/my/translated-smart-timer.08ac20057fdc5c37.png)
 
 ဥပမာအားဖြင့် သင်သည် အင်္ဂလိပ်ကို အခြေခံထားသော smart timer တစ်ခုကို တည်ဆောက်နေသည်ဟု ဆိုပါစို့။ အင်္ဂလိပ် speech ကို နားလည်ပြီး၊ အင်္ဂလိပ် text သို့ ပြောင်းပြီး၊ အင်္ဂလိပ် language understanding ကို run လုပ်ပြီး၊ အင်္ဂလိပ် speech ဖြင့် ပြန်လည်တုံ့ပြန်သည်။ ဂျပန်ဘာသာစကားကို ထည့်သွင်းလိုပါက၊ ဂျပန် speech ကို အင်္ဂလိပ် text သို့ ဘာသာပြန်ပြီး၊ အက်ပလီကေးရှင်း core ကို အတူတူထားပြီး၊ ပြန်လည်တုံ့ပြန်မှု text ကို ဂျပန်ဘာသာစကားသို့ ပြောင်းပြီး၊ speech ဖြင့် ပြန်လည်တုံ့ပြန်နိုင်သည်။
 

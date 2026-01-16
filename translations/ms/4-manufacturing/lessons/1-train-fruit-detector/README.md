@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Latih Pengesan Kualiti Buah
 
-![Gambaran sketchnote untuk pelajaran ini](../../../../../translated_images/lesson-15.843d21afdc6fb2bba70cd9db7b7d2f91598859fafda2078b0bdc44954194b6c0.ms.jpg)
+![Gambaran sketchnote untuk pelajaran ini](../../../../../translated_images/ms/lesson-15.843d21afdc6fb2bba70cd9db7b7d2f91598859fafda2078b0bdc44954194b6c0.jpg)
 
 > Sketchnote oleh [Nitya Narasimhan](https://github.com/nitya). Klik imej untuk versi yang lebih besar.
 
@@ -47,7 +47,7 @@ Tidak semua tanaman masak secara seragam. Sebagai contoh, tomato masih boleh mem
 
 Kebangkitan penuaian automatik memindahkan proses penyusunan hasil tanaman dari ladang ke kilang. Makanan akan bergerak di atas tali sawat panjang dengan pasukan pekerja yang memilih hasil tanaman yang tidak memenuhi standard kualiti yang diperlukan. Penuaian menjadi lebih murah berkat mesin, tetapi masih ada kos untuk menyusun makanan secara manual.
 
-![Jika tomato merah dikesan, ia terus bergerak tanpa gangguan. Jika tomato hijau dikesan, ia akan ditolak ke dalam tong sampah oleh tuas](../../../../../translated_images/optical-tomato-sorting.61aa134bdda4e5b1bfb16a212c1e35a6ef0c426cbb8b1c975f79d7bfbf48d068.ms.png)
+![Jika tomato merah dikesan, ia terus bergerak tanpa gangguan. Jika tomato hijau dikesan, ia akan ditolak ke dalam tong sampah oleh tuas](../../../../../translated_images/ms/optical-tomato-sorting.61aa134bdda4e5b1bfb16a212c1e35a6ef0c426cbb8b1c975f79d7bfbf48d068.png)
 
 Evolusi seterusnya adalah menggunakan mesin untuk menyusun, sama ada dibina ke dalam mesin penuaian, atau di kilang pemprosesan. Generasi pertama mesin ini menggunakan sensor optik untuk mengesan warna, mengawal penggerak untuk menolak tomato hijau ke dalam tong sampah menggunakan tuas atau hembusan udara, meninggalkan tomato merah untuk terus bergerak di atas rangkaian tali sawat.
 
@@ -61,7 +61,7 @@ Evolusi terkini mesin penyusunan ini memanfaatkan AI dan ML, menggunakan model y
 
 Pengaturcaraan tradisional adalah di mana anda mengambil data, menggunakan algoritma pada data, dan mendapatkan output. Sebagai contoh, dalam projek terakhir anda mengambil koordinat GPS dan geofence, menggunakan algoritma yang disediakan oleh Azure Maps, dan mendapatkan hasil sama ada titik itu berada di dalam atau di luar geofence. Anda memasukkan lebih banyak data, anda mendapatkan lebih banyak output.
 
-![Pembangunan tradisional mengambil input dan algoritma dan memberikan output. Pembelajaran mesin menggunakan data input dan output untuk melatih model, dan model ini boleh mengambil data input baru untuk menghasilkan output baru](../../../../../translated_images/traditional-vs-ml.5c20c169621fa539.ms.png)
+![Pembangunan tradisional mengambil input dan algoritma dan memberikan output. Pembelajaran mesin menggunakan data input dan output untuk melatih model, dan model ini boleh mengambil data input baru untuk menghasilkan output baru](../../../../../translated_images/ms/traditional-vs-ml.5c20c169621fa539.png)
 
 Pembelajaran mesin membalikkan proses ini - anda bermula dengan data dan output yang diketahui, dan algoritma pembelajaran mesin belajar daripada data tersebut. Anda kemudian boleh mengambil algoritma yang telah dilatih, yang dipanggil *model pembelajaran mesin* atau *model*, dan memasukkan data baru untuk mendapatkan output baru.
 
@@ -71,7 +71,7 @@ Sebagai contoh, anda boleh memberikan model berjuta-juta gambar pisang yang belu
 
 > 🎓 Hasil daripada model ML dipanggil *ramalan*
 
-![2 pisang, satu masak dengan ramalan 99.7% masak, 0.3% belum masak, dan satu belum masak dengan ramalan 1.4% masak, 98.6% belum masak](../../../../../translated_images/bananas-ripe-vs-unripe-predictions.8d0e2034014aa50ece4e4589e724b142da0681f35470fe3db3f7d51240f69c85.ms.png)
+![2 pisang, satu masak dengan ramalan 99.7% masak, 0.3% belum masak, dan satu belum masak dengan ramalan 1.4% masak, 98.6% belum masak](../../../../../translated_images/ms/bananas-ripe-vs-unripe-predictions.8d0e2034014aa50ece4e4589e724b142da0681f35470fe3db3f7d51240f69c85.png)
 
 Model ML tidak memberikan jawapan binari, sebaliknya ia memberikan kebarangkalian. Sebagai contoh, model mungkin diberikan gambar pisang dan meramalkan `masak` pada 99.7% dan `belum masak` pada 0.3%. Kod anda kemudian akan memilih ramalan terbaik dan memutuskan pisang itu masak.
 
@@ -87,7 +87,7 @@ Untuk melatih pengelasan imej dengan berjaya, anda memerlukan berjuta-juta imej.
 
 Setelah pengelasan imej dilatih untuk pelbagai imej, bahagian dalamannya sangat baik dalam mengenali bentuk, warna dan corak. Pembelajaran pemindahan membolehkan model menggunakan apa yang telah dipelajarinya dalam mengenali bahagian imej, dan menggunakannya untuk mengenali imej baru.
 
-![Setelah anda dapat mengenali bentuk, ia boleh disusun dalam konfigurasi yang berbeza untuk membuat bot atau kucing](../../../../../translated_images/shapes-to-images.1a309f0ea88dd66f.ms.png)
+![Setelah anda dapat mengenali bentuk, ia boleh disusun dalam konfigurasi yang berbeza untuk membuat bot atau kucing](../../../../../translated_images/ms/shapes-to-images.1a309f0ea88dd66f.png)
 
 Anda boleh menganggap ini seperti buku bentuk kanak-kanak, di mana setelah anda dapat mengenali separuh bulatan, segi empat tepat dan segi tiga, anda boleh mengenali bot layar atau kucing bergantung pada konfigurasi bentuk ini. Pengelasan imej boleh mengenali bentuk, dan pembelajaran pemindahan mengajarnya konfigurasi apa yang membuat bot atau kucing - atau pisang masak.
 
@@ -99,7 +99,7 @@ Terdapat pelbagai alat yang boleh membantu anda melakukan ini, termasuk perkhidm
 
 Custom Vision adalah alat berasaskan awan untuk melatih pengelasan imej. Ia membolehkan anda melatih pengelasan menggunakan hanya sejumlah kecil imej. Anda boleh memuat naik imej melalui portal web, API web atau SDK, memberikan setiap imej *tag* yang mempunyai klasifikasi imej tersebut. Anda kemudian melatih model, dan mengujinya untuk melihat sejauh mana ia berfungsi. Setelah anda berpuas hati dengan model tersebut, anda boleh menerbitkan versi yang boleh diakses melalui API web atau SDK.
 
-![Logo Azure Custom Vision](../../../../../translated_images/custom-vision-logo.d3d4e7c8a87ec9daf825e72e210576c3cbf60312577be7a139e22dd97ab7f1e6.ms.png)
+![Logo Azure Custom Vision](../../../../../translated_images/ms/custom-vision-logo.d3d4e7c8a87ec9daf825e72e210576c3cbf60312577be7a139e22dd97ab7f1e6.png)
 
 > 💁 Anda boleh melatih model Custom Vision dengan hanya 5 imej setiap klasifikasi, tetapi lebih banyak adalah lebih baik. Anda boleh mendapatkan hasil yang lebih baik dengan sekurang-kurangnya 30 imej.
 
@@ -155,7 +155,7 @@ Untuk menggunakan Custom Vision, anda perlu mencipta dua sumber cognitive servic
 
     Semasa mencipta projek anda, pastikan untuk menggunakan sumber `fruit-quality-detector-training` yang anda cipta sebelum ini. Gunakan jenis projek *Classification*, jenis klasifikasi *Multiclass*, dan domain *Food*.
 
-    ![Tetapan untuk projek Custom Vision dengan nama ditetapkan kepada fruit-quality-detector, tiada deskripsi, sumber ditetapkan kepada fruit-quality-detector-training, jenis projek ditetapkan kepada classification, jenis klasifikasi ditetapkan kepada multi class dan domain ditetapkan kepada food](../../../../../translated_images/custom-vision-create-project.cf46325b92d8b131089f6647cf5e07b664cb77850e106d66e3c057b6b69756c6.ms.png)
+    ![Tetapan untuk projek Custom Vision dengan nama ditetapkan kepada fruit-quality-detector, tiada deskripsi, sumber ditetapkan kepada fruit-quality-detector-training, jenis projek ditetapkan kepada classification, jenis klasifikasi ditetapkan kepada multi class dan domain ditetapkan kepada food](../../../../../translated_images/ms/custom-vision-create-project.cf46325b92d8b131089f6647cf5e07b664cb77850e106d66e3c057b6b69756c6.png)
 
 ✅ Luangkan masa untuk meneroka UI Custom Vision untuk pengelasan imej anda.
 
@@ -173,7 +173,7 @@ Pengklasifikasi imej beroperasi pada resolusi yang sangat rendah. Sebagai contoh
 
     * Gunakan 2 pisang masak, ambil beberapa gambar setiap satu dari pelbagai sudut, sekurang-kurangnya 7 gambar (5 untuk latihan, 2 untuk ujian), tetapi lebih banyak adalah lebih baik.
 
-        ![Gambar 2 pisang yang berbeza](../../../../../translated_images/banana-training-images.530eb203346d73bc23b8b990fb4609470bf4ff7c942ccc13d4cfffeed9be1ad4.ms.png)
+        ![Gambar 2 pisang yang berbeza](../../../../../translated_images/ms/banana-training-images.530eb203346d73bc23b8b990fb4609470bf4ff7c942ccc13d4cfffeed9be1ad4.png)
 
     * Ulangi proses yang sama menggunakan 2 pisang tidak masak.
 
@@ -183,7 +183,7 @@ Pengklasifikasi imej beroperasi pada resolusi yang sangat rendah. Sebagai contoh
 
 1. Ikuti bahagian [muat naik dan tag gambar dalam panduan pantas bina pengklasifikasi di dokumen Microsoft](https://docs.microsoft.com/azure/cognitive-services/custom-vision-service/getting-started-build-a-classifier?WT.mc_id=academic-17441-jabenn#upload-and-tag-images) untuk memuat naik gambar latihan anda. Tag buah masak sebagai `ripe`, dan buah tidak masak sebagai `unripe`.
 
-    ![Dialog muat naik menunjukkan muat naik gambar pisang masak dan tidak masak](../../../../../translated_images/image-upload-bananas.0751639f3815e0ec42bdbc6254d1e4357a185834d1ae10c9948a0e7d6d336695.ms.png)
+    ![Dialog muat naik menunjukkan muat naik gambar pisang masak dan tidak masak](../../../../../translated_images/ms/image-upload-bananas.0751639f3815e0ec42bdbc6254d1e4357a185834d1ae10c9948a0e7d6d336695.png)
 
 1. Ikuti bahagian [latih pengklasifikasi dalam panduan pantas bina pengklasifikasi di dokumen Microsoft](https://docs.microsoft.com/azure/cognitive-services/custom-vision-service/getting-started-build-a-classifier?WT.mc_id=academic-17441-jabenn#train-the-classifier) untuk melatih pengklasifikasi imej menggunakan gambar yang telah dimuat naik.
 
@@ -201,7 +201,7 @@ Setelah pengklasifikasi anda dilatih, anda boleh mengujinya dengan memberikan im
 
 1. Ikuti bahagian [uji model anda dalam dokumentasi Microsoft](https://docs.microsoft.com/azure/cognitive-services/custom-vision-service/test-your-model?WT.mc_id=academic-17441-jabenn#test-your-model) untuk menguji pengklasifikasi imej anda. Gunakan gambar ujian yang anda cipta sebelum ini, bukan mana-mana gambar yang digunakan untuk latihan.
 
-    ![Pisang tidak masak diramalkan sebagai tidak masak dengan kebarangkalian 98.9%, masak dengan kebarangkalian 1.1%](../../../../../translated_images/banana-unripe-quick-test-prediction.dae9b5e1c4ef7c64886422438850ea14f0be6ac918c217ea3b255c685abfabe7.ms.png)
+    ![Pisang tidak masak diramalkan sebagai tidak masak dengan kebarangkalian 98.9%, masak dengan kebarangkalian 1.1%](../../../../../translated_images/ms/banana-unripe-quick-test-prediction.dae9b5e1c4ef7c64886422438850ea14f0be6ac918c217ea3b255c685abfabe7.png)
 
 1. Cuba semua gambar ujian yang anda ada dan perhatikan kebarangkalian yang diberikan.
 

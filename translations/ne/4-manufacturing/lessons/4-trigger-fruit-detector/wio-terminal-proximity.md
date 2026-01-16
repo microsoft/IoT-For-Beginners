@@ -29,13 +29,13 @@ Grove टाइम अफ फ्लाइट सेन्सरलाई Wio Ter
 
 टाइम अफ फ्लाइट सेन्सर जडान गर्नुहोस्।
 
-![एक Grove टाइम अफ फ्लाइट सेन्सर](../../../../../translated_images/grove-time-of-flight-sensor.d82ff2165bfded9f485de54d8d07195a6270a602696825fca19f629ddfe94e86.ne.png)
+![एक Grove टाइम अफ फ्लाइट सेन्सर](../../../../../translated_images/ne/grove-time-of-flight-sensor.d82ff2165bfded9f485de54d8d07195a6270a602696825fca19f629ddfe94e86.png)
 
 1. Grove केबलको एक छेउ टाइम अफ फ्लाइट सेन्सरको सॉकेटमा हाल्नुहोस्। यो केवल एक तरिकामा मात्र जडान हुन्छ।
 
 1. Wio Terminal लाई तपाईंको कम्प्युटर वा अन्य पावर सप्लाईबाट डिस्कनेक्ट गरेर, Grove केबलको अर्को छेउलाई Wio Terminal को स्क्रिनतर्फ हेर्दा बायाँतर्फको Grove सॉकेटमा जडान गर्नुहोस्। यो सॉकेट पावर बटनको नजिक छ। यो डिजिटल र I²C सॉकेट हो।
 
-![Grove टाइम अफ फ्लाइट सेन्सर बायाँ सॉकेटमा जडान गरिएको](../../../../../translated_images/wio-time-of-flight-sensor.c4c182131d2ea73d.ne.png)
+![Grove टाइम अफ फ्लाइट सेन्सर बायाँ सॉकेटमा जडान गरिएको](../../../../../translated_images/ne/wio-time-of-flight-sensor.c4c182131d2ea73d.png)
 
 1. अब तपाईं Wio Terminal लाई आफ्नो कम्प्युटरमा जडान गर्न सक्नुहुन्छ।
 
@@ -101,7 +101,7 @@ Grove टाइम अफ फ्लाइट सेन्सरलाई Wio Ter
 
     रेंजफाइन्डर सेन्सरको पछाडि छ, त्यसैले दूरी मापन गर्दा सही पक्ष प्रयोग गर्न निश्चित गर्नुहोस्।
 
-    ![टाइम अफ फ्लाइट सेन्सरको पछाडि रेंजफाइन्डरले केरा तर्फ इशारा गर्दै](../../../../../translated_images/time-of-flight-banana.079921ad8b1496e4.ne.png)
+    ![टाइम अफ फ्लाइट सेन्सरको पछाडि रेंजफाइन्डरले केरा तर्फ इशारा गर्दै](../../../../../translated_images/ne/time-of-flight-banana.079921ad8b1496e4.png)
 
 > 💁 तपाईं यो कोड [code-proximity/wio-terminal](../../../../../4-manufacturing/lessons/4-trigger-fruit-detector/code-proximity/wio-terminal) फोल्डरमा पाउन सक्नुहुन्छ।
 

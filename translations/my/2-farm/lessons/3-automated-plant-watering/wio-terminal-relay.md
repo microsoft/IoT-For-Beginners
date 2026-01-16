@@ -27,13 +27,13 @@ Grove relay ကို Wio Terminal ရဲ့ digital port မှာ ချိတ
 
 Relay ကိုချိတ်ဆက်ပါ။
 
-![A grove relay](../../../../../translated_images/grove-relay.d426958ca210fbd0fb7983d7edc069d46c73a8b0a099d94797bd756f7b6bb6be.my.png)
+![A grove relay](../../../../../translated_images/my/grove-relay.d426958ca210fbd0fb7983d7edc069d46c73a8b0a099d94797bd756f7b6bb6be.png)
 
 1. Grove cable ရဲ့ တစ်ဖက်အဆုံးကို relay ရဲ့ socket မှာ ထည့်ပါ။ ဒီ cable ကို တစ်ဖက်ဘက်သာ ထည့်နိုင်ပါတယ်။
 
 1. Wio Terminal ကို computer သို့မဟုတ် အခြား power supply မှာ ချိတ်ဆက်ထားမရှိတဲ့အချိန်မှာ Grove cable ရဲ့ အခြားဖက်အဆုံးကို Wio Terminal ရဲ့ screen ကိုကြည့်တဲ့အခါ ဘယ်ဘက် Grove socket မှာ ချိတ်ဆက်ပါ။ Soil moisture sensor ကိုညာဘက် socket မှာ ချိတ်ဆက်ထားပါ။
 
-![The grove relay connected to the left-hand socket, and the soil moisture sensor connected to the right hand socket](../../../../../translated_images/wio-relay-and-soil-moisture-sensor.ed722202d42babe0.my.png)
+![The grove relay connected to the left-hand socket, and the soil moisture sensor connected to the right hand socket](../../../../../translated_images/my/wio-relay-and-soil-moisture-sensor.ed722202d42babe0.png)
 
 1. Soil moisture sensor ကို မြေထဲမှာ ထည့်ပါ၊ အရင်သင်ခန်းမှာ ထည့်ထားပြီးသားမဟုတ်ရင်။
 

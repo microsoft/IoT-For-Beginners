@@ -114,7 +114,7 @@ CO_OP_TRANSLATOR_METADATA:
     >
     > उदाहरणका लागि, यदि तपाईंले LUIS लाई अंग्रेजीमा प्रशिक्षण गर्नुभयो, तर प्रयोगकर्ता भाषा फ्रेन्च प्रयोग गर्न चाहनुहुन्छ भने, तपाईं Bing Translate प्रयोग गरेर "set a 2 minute and 27 second timer" लाई अंग्रेजीबाट फ्रेन्चमा अनुवाद गर्न सक्नुहुन्छ। त्यसपछि **Listen translation** बटन प्रयोग गरेर अनुवादलाई आफ्नो माइक्रोफोनमा बोल्न सक्नुहुन्छ।
     >
-    > ![Bing Translate मा Listen translation बटन](../../../../../translated_images/bing-translate.348aa796d6efe2a92f41ea74a5cf42bb4c63d6faaa08e7f46924e072a35daa48.ne.png)
+    > ![Bing Translate मा Listen translation बटन](../../../../../translated_images/ne/bing-translate.348aa796d6efe2a92f41ea74a5cf42bb4c63d6faaa08e7f46924e072a35daa48.png)
 
 1. `SPEECH_LOCATION` तल अनुवादक API कुञ्जी र स्थान थप्नुहोस्:
 

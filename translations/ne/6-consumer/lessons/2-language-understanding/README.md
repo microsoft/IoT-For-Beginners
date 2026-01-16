@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # भाषा बुझ्ने
 
-![यस पाठको स्केच नोटको झलक](../../../../../translated_images/lesson-22.6148ea28500d9e00c396aaa2649935fb6641362c8f03d8e5e90a676977ab01dd.ne.jpg)
+![यस पाठको स्केच नोटको झलक](../../../../../translated_images/ne/lesson-22.6148ea28500d9e00c396aaa2649935fb6641362c8f03d8e5e90a676977ab01dd.jpg)
 
 > स्केच नोट [नित्या नरसिम्हन](https://github.com/nitya) द्वारा। ठूलो संस्करण हेर्नका लागि तस्बिरमा क्लिक गर्नुहोस्।
 
@@ -55,7 +55,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 ## भाषा बुझ्ने मोडेल बनाउने
 
-![LUIS लोगो](../../../../../translated_images/luis-logo.5cb4f3e88c020ee6df4f614e8831f4a4b6809a7247bf52085fb48d629ef9be52.ne.png)
+![LUIS लोगो](../../../../../translated_images/ne/luis-logo.5cb4f3e88c020ee6df4f614e8831f4a4b6809a7247bf52085fb48d629ef9be52.png)
 
 तपाईं LUIS (भाषा बुझ्ने सेवा) प्रयोग गरेर भाषा बुझ्ने मोडेलहरू बनाउन सक्नुहुन्छ। यो माइक्रोसफ्टको कग्निटिभ सेवाहरूको हिस्सा हो।
 

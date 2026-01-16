@@ -47,11 +47,11 @@ Dodaj czujnik GPS do aplikacji CounterFit.
 
     1. Wybierz przycisk **Add**, aby utworzyć czujnik GPS na porcie `/dev/ttyAMA0`.
 
-    ![Ustawienia czujnika GPS](../../../../../translated_images/counterfit-create-gps-sensor.6385dc9357d85ad1d47b4abb2525e7651fd498917d25eefc5a72feab09eedc70.pl.png)
+    ![Ustawienia czujnika GPS](../../../../../translated_images/pl/counterfit-create-gps-sensor.6385dc9357d85ad1d47b4abb2525e7651fd498917d25eefc5a72feab09eedc70.png)
 
     Czujnik GPS zostanie utworzony i pojawi się na liście czujników.
 
-    ![Utworzony czujnik GPS](../../../../../translated_images/counterfit-gps-sensor.3fbb15af0a5367566f2f11324ef5a6f30861cdf2b497071a5e002b7aa473550e.pl.png)
+    ![Utworzony czujnik GPS](../../../../../translated_images/pl/counterfit-gps-sensor.3fbb15af0a5367566f2f11324ef5a6f30861cdf2b497071a5e002b7aa473550e.png)
 
 ## Programowanie czujnika GPS
 
@@ -111,17 +111,17 @@ Zaprogramuj aplikację czujnika GPS.
 
     * Ustaw **Source** na `Lat/Lon` i wprowadź konkretną szerokość, długość geograficzną oraz liczbę satelitów używanych do uzyskania sygnału GPS. Ta wartość zostanie wysłana tylko raz, więc zaznacz pole **Repeat**, aby dane były powtarzane co sekundę.
 
-      ![Czujnik GPS z wybraną opcją lat lon](../../../../../translated_images/counterfit-gps-sensor-latlon.008c867d75464fbe7f84107cc57040df565ac07cb57d2f21db37d087d470197d.pl.png)
+      ![Czujnik GPS z wybraną opcją lat lon](../../../../../translated_images/pl/counterfit-gps-sensor-latlon.008c867d75464fbe7f84107cc57040df565ac07cb57d2f21db37d087d470197d.png)
 
     * Ustaw **Source** na `NMEA` i dodaj kilka zdań NMEA do pola tekstowego. Wszystkie te wartości zostaną wysłane, z opóźnieniem 1 sekundy przed każdym nowym zdaniem GGA (ustalenie pozycji).
 
-      ![Czujnik GPS z ustawionymi zdaniami NMEA](../../../../../translated_images/counterfit-gps-sensor-nmea.c62eea442171e17e19528b051b104cfcecdc9cd18db7bc72920f29821ae63f73.pl.png)
+      ![Czujnik GPS z ustawionymi zdaniami NMEA](../../../../../translated_images/pl/counterfit-gps-sensor-nmea.c62eea442171e17e19528b051b104cfcecdc9cd18db7bc72920f29821ae63f73.png)
 
       Możesz użyć narzędzia takiego jak [nmeagen.org](https://www.nmeagen.org), aby wygenerować te zdania, rysując na mapie. Te wartości zostaną wysłane tylko raz, więc zaznacz pole **Repeat**, aby dane były powtarzane co sekundę po ich wysłaniu.
 
     * Ustaw **Source** na plik GPX i prześlij plik GPX z lokalizacjami trasy. Możesz pobrać pliki GPX z wielu popularnych stron z mapami i trasami, takich jak [AllTrails](https://www.alltrails.com/). Te pliki zawierają wiele lokalizacji GPS jako trasę, a czujnik GPS będzie zwracał każdą nową lokalizację w odstępach 1 sekundy.
 
-      ![Czujnik GPS z ustawionym plikiem GPX](../../../../../translated_images/counterfit-gps-sensor-gpxfile.8310b063ce8a425ccc8ebeec8306aeac5e8e55207f007d52c6e1194432a70cd9.pl.png)
+      ![Czujnik GPS z ustawionym plikiem GPX](../../../../../translated_images/pl/counterfit-gps-sensor-gpxfile.8310b063ce8a425ccc8ebeec8306aeac5e8e55207f007d52c6e1194432a70cd9.png)
 
       Te wartości zostaną wysłane tylko raz, więc zaznacz pole **Repeat**, aby dane były powtarzane co sekundę po ich wysłaniu.
 

@@ -25,7 +25,7 @@ Raspberry Pi ကို ကင်မရာတစ်ခုလိုအပ်ပါ
 
 ### အလုပ် - ကင်မရာကိုချိတ်ဆက်ပါ
 
-![A Raspberry Pi Camera](../../../../../translated_images/pi-camera-module.4278753c31bd6e757aa2b858be97d72049f71616278cefe4fb5abb485b40a078.my.png)
+![A Raspberry Pi Camera](../../../../../translated_images/my/pi-camera-module.4278753c31bd6e757aa2b858be97d72049f71616278cefe4fb5abb485b40a078.png)
 
 1. Pi ကိုပိတ်ပါ။
 
@@ -33,17 +33,17 @@ Raspberry Pi ကို ကင်မရာတစ်ခုလိုအပ်ပါ
 
     [Raspberry Pi Getting Started with the Camera module documentation](https://projects.raspberrypi.org/en/projects/getting-started-with-picamera/2) မှာ clip ကိုဘယ်လိုဖွင့်ပြီး cable ကိုထည့်ရမယ်ဆိုတာ animation အနေနဲ့တွေ့နိုင်ပါတယ်။
 
-    ![The ribbon cable inserted into the camera module](../../../../../translated_images/pi-camera-ribbon-cable.0bf82acd251611c21ac616f082849413e2b322a261d0e4f8fec344248083b07e.my.png)
+    ![The ribbon cable inserted into the camera module](../../../../../translated_images/my/pi-camera-ribbon-cable.0bf82acd251611c21ac616f082849413e2b322a261d0e4f8fec344248083b07e.png)
 
 1. Grove Base Hat ကို Pi မှာဖယ်ရှားပါ။
 
 1. Ribbon cable ကို Grove Base Hat ရဲ့ camera slot မှတဆင့်ဖြတ်ပါ။ Cable ရဲ့ blue side က **A0**, **A1** စတဲ့ analog ports ကိုကြည့်နေတဲ့အနေအထားဖြစ်ရပါမယ်။
 
-    ![The ribbon cable passing through the grove base hat](../../../../../translated_images/grove-base-hat-ribbon-cable.501fed202fcf73b11b2b68f6d246189f7d15d3e4423c572ddee79d77b4632b47.my.png)
+    ![The ribbon cable passing through the grove base hat](../../../../../translated_images/my/grove-base-hat-ribbon-cable.501fed202fcf73b11b2b68f6d246189f7d15d3e4423c572ddee79d77b4632b47.png)
 
 1. Ribbon cable ကို Pi ရဲ့ camera port မှာထည့်ပါ။ အနက်ရောင် clip ကိုပြန်ဆွဲထုတ်ပြီး cable ကိုထည့်ပါ၊ ပြီးရင် clip ကိုပြန် push လုပ်ပါ။ Cable ရဲ့ blue side က USB နဲ့ ethernet ports ကိုကြည့်နေတဲ့အနေအထားဖြစ်ရပါမယ်။
 
-    ![The ribbon cable connected to the camera socket on the Pi](../../../../../translated_images/pi-camera-socket-ribbon-cable.a18309920b11800911082ed7aa6fb28e6d9be3a022e4079ff990016cae3fca10.my.png)
+    ![The ribbon cable connected to the camera socket on the Pi](../../../../../translated_images/my/pi-camera-socket-ribbon-cable.a18309920b11800911082ed7aa6fb28e6d9be3a022e4079ff990016cae3fca10.png)
 
 1. Grove Base Hat ကိုပြန်တပ်ပါ။
 
@@ -110,7 +110,7 @@ Device ကိုပရိုဂရမ်ရေးပါ။
 
     `camera.rotation = 0` ဆိုတဲ့ line ကရုပ်ပုံရဲ့ rotation ကိုသတ်မှတ်ပါတယ်။ Ribbon cable က ကင်မရာရဲ့အောက်ဘက်ကိုဝင်လာပေမယ့် ကင်မရာကို item ကို classify လုပ်ဖို့အဆင်ပြေစေဖို့လှည့်ထားရင် rotation ကိုလိုအပ်တဲ့အတိုင်းပြောင်းနိုင်ပါတယ်။
 
-    ![The camera hanging down over a drink can](../../../../../translated_images/pi-camera-upside-down.5376961ba31459883362124152ad6b823d5ac5fc14e85f317e22903bd681c2b6.my.png)
+    ![The camera hanging down over a drink can](../../../../../translated_images/my/pi-camera-upside-down.5376961ba31459883362124152ad6b823d5ac5fc14e85f317e22903bd681c2b6.png)
 
     ဥပမာ၊ ribbon cable ကိုအပေါ်ဘက်မှာထားပြီး ကင်မရာကိုအောက်ဘက်ကိုလှည့်ထားရင် rotation ကို 180 အဖြစ်သတ်မှတ်ပါ။
 

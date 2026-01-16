@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # အိုင်အိုတီ (IoT) စက်ပစ္စည်းမှ သစ်သီးအရည်အသွေး စစ်ဆေးခြင်း
 
-![ဒီသင်ခန်းစာ၏ အကျဉ်းချုပ်ကို ဖော်ပြထားသော ရေးမှတ်ပုံ](../../../../../translated_images/lesson-16.215daf18b00631fbdfd64c6fc2dc6044dff5d544288825d8076f9fb83d964c23.my.jpg)
+![ဒီသင်ခန်းစာ၏ အကျဉ်းချုပ်ကို ဖော်ပြထားသော ရေးမှတ်ပုံ](../../../../../translated_images/my/lesson-16.215daf18b00631fbdfd64c6fc2dc6044dff5d544288825d8076f9fb83d964c23.jpg)
 
 > [Nitya Narasimhan](https://github.com/nitya) မှ ရေးမှတ်ပုံ။ ပုံကို နှိပ်ပြီး ပိုကြီးမားသော ဗားရှင်းကို ကြည့်ပါ။
 
@@ -35,7 +35,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 ကင်မရာအာရုံခံစနစ်များသည် အိုင်အိုတီ (IoT) စက်ပစ္စည်းနှင့် ချိတ်ဆက်နိုင်သော ကင်မရာများဖြစ်သည်။ ၎င်းတို့သည် ရုပ်ပုံများကို ဖမ်းယူနိုင်သလို၊ ဗီဒီယိုစီးဆင်းမှုကိုလည်း ဖမ်းယူနိုင်သည်။ တချို့က raw image data ကို ပြန်ပေးသည်၊ တချို့က JPEG သို့မဟုတ် PNG အဖြစ် ဖိုင်ကို ဖိသိပ်ပြီး ပြန်ပေးသည်။ အိုင်အိုတီ (IoT) စက်ပစ္စည်းများနှင့် အလုပ်လုပ်နိုင်သော ကင်မရာများသည် သင်ရိုးရိုးအသုံးပြုနေသော ကင်မရာများထက် သေးငယ်ပြီး resolution ပိုနိမ့်နိုင်သည်။ သို့သော် resolution မြင့်မားသော ကင်မရာများကိုလည်း ရနိုင်ပြီး အဆင့်မြင့်ဖုန်းများနှင့် ယှဉ်နိုင်သည်။ အမျိုးမျိုးသော လှည့်လဲနိုင်သော ကင်မရာလက်နက်များ၊ များစွာသော ကင်မရာစနစ်များ၊ infra-red thermal ကင်မရာများ၊ သို့မဟုတ် UV ကင်မရာများကို ရနိုင်သည်။
 
-![အလင်းသည် ကင်မရာလက်နက်မှ ဖြတ်သွားပြီး CMOS sensor တွင် အာရုံခံသည်](../../../../../translated_images/cmos-sensor.75f9cd74decb137149a4c9ea825251a4549497d67c0ae2776159e6102bb53aa9.my.png)
+![အလင်းသည် ကင်မရာလက်နက်မှ ဖြတ်သွားပြီး CMOS sensor တွင် အာရုံခံသည်](../../../../../translated_images/my/cmos-sensor.75f9cd74decb137149a4c9ea825251a4549497d67c0ae2776159e6102bb53aa9.png)
 
 အများစုသော ကင်မရာအာရုံခံစနစ်များသည် photodiode များဖြင့် ဖွဲ့စည်းထားသော image sensors ကို အသုံးပြုသည်။ ကင်မရာလက်နက်သည် ပုံရိပ်ကို image sensor တွင် အာရုံခံစနစ်အပေါ်တွင် အလင်းကို အာရုံခံပြီး pixel data အဖြစ် မှတ်တမ်းတင်သည်။
 
@@ -83,7 +83,7 @@ Iteration များကို Custom Vision portal မှ ထုတ်ဝေ�
 
 1. Iteration အတွက် **Publish** ခလုတ်ကို ရွေးပါ။
 
-    ![Publish ခလုတ်](../../../../../translated_images/custom-vision-publish-button.b7174e1977b0c33b8b72d4e5b1326c779e0af196f3849d09985ee2d7d5493a39.my.png)
+    ![Publish ခလုတ်](../../../../../translated_images/my/custom-vision-publish-button.b7174e1977b0c33b8b72d4e5b1326c779e0af196f3849d09985ee2d7d5493a39.png)
 
 1. *Publish Model* dialog တွင် *Prediction resource* ကို `fruit-quality-detector-prediction` resource သို့ ရွေးပါ။ နာမည်ကို `Iteration2` အဖြစ်ထားပြီး **Publish** ခလုတ်ကို ရွေးပါ။
 
@@ -97,7 +97,7 @@ Iteration များကို Custom Vision portal မှ ထုတ်ဝေ�
 
     ထို့အပြင် *Prediction-Key* တန်ဖိုးကိုလည်း ကူးယူပါ။ ၎င်းသည် မော်ဒယ်ကို ခေါ်စဉ် ပေးပို့ရမည့် လုံခြုံရေး key ဖြစ်သည်။ ၎င်း key ကို ပေးပို့သော application များသာ မော်ဒယ်ကို အသုံးပြုခွင့်ရရှိမည်၊ အခြား application များကို ပယ်ချမည်။
 
-    ![Prediction API dialog](../../../../../translated_images/custom-vision-prediction-key-endpoint.30c569ffd0338864f319911f052d5e9b8c5066cb0800a26dd6f7ff5713130ad8.my.png)
+    ![Prediction API dialog](../../../../../translated_images/my/custom-vision-prediction-key-endpoint.30c569ffd0338864f319911f052d5e9b8c5066cb0800a26dd6f7ff5713130ad8.png)
 
 ✅ iteration အသစ်ကို ထုတ်ဝေသောအခါ နာမည်က မတူနိုင်သည်။ အိုင်အိုတီ (IoT) စက်ပစ္စည်းမှ အသုံးပြုနေသော iteration ကို ဘယ်လိုပြောင်းနိုင်မလဲ?
 
@@ -118,7 +118,7 @@ Iteration များကို Custom Vision portal မှ ထုတ်ဝေ�
 
 ပုံရိပ်ခွဲခြားစနစ်အတွက် အကောင်းဆုံးရလဒ်ရရှိရန် prediction data နှင့် training data တူညီမှုရှိအောင် သင်ကြားရမည်။ ဥပမာအားဖြင့် သင် training data အတွက် ဖုန်းကင်မရာကို အသုံးပြုခဲ့ပါက အိုင်အိုတီ (IoT) စက်ပစ္စည်းမှ ကင်မရာ၏ image quality, sharpness, နှင့် color မတူနိုင်သည်။
 
-![2 banana pictures](../../../../../translated_images/banana-picture-compare.174df164dc326a42cf7fb051a7497e6113c620e91552d92ca914220305d47d9a.my.png)
+![2 banana pictures](../../../../../translated_images/my/banana-picture-compare.174df164dc326a42cf7fb051a7497e6113c620e91552d92ca914220305d47d9a.png)
 
 အထက်ပါပုံတွင် ဘန်နားပုံရိပ်ကို ဘယ်ဘက်တွင် Raspberry Pi Camera ဖြင့် ရိုက်ကူးထားပြီး ညာဘက်တွင် iPhone ဖြင့် ရိုက်ကူးထားသည်။ quality တွင် ကြီးမားသော ကွာခြားမှုရှိသည် - iPhone ပုံရိပ်သည် ပိုရှင်းလင်းပြီး အရောင်ပိုတောက်ပသည်။
 

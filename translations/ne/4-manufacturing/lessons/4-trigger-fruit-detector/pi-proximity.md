@@ -29,13 +29,13 @@ Grove टाइम अफ फ्लाइट सेन्सरलाई रा�
 
 टाइम अफ फ्लाइट सेन्सर जडान गर्नुहोस्।
 
-![Grove टाइम अफ फ्लाइट सेन्सर](../../../../../translated_images/grove-time-of-flight-sensor.d82ff2165bfded9f485de54d8d07195a6270a602696825fca19f629ddfe94e86.ne.png)
+![Grove टाइम अफ फ्लाइट सेन्सर](../../../../../translated_images/ne/grove-time-of-flight-sensor.d82ff2165bfded9f485de54d8d07195a6270a602696825fca19f629ddfe94e86.png)
 
 1. Grove केबलको एउटा छेउ टाइम अफ फ्लाइट सेन्सरको सकेटमा हाल्नुहोस्। यो केवल एक तरिकाले मात्र जान्छ।
 
 1. रास्पबेरी पाई बन्द भएको अवस्थामा, Grove केबलको अर्को छेउलाई Grove Base Hat मा रहेको I²C सकेटमा जडान गर्नुहोस्। यी सकेटहरू तल्लो पङ्क्तिमा छन्, GPIO पिनहरूको विपरीततिर र क्यामेरा केबल स्लटको छेउमा।
 
-![Grove टाइम अफ फ्लाइट सेन्सर I²C सकेटमा जडान गरिएको](../../../../../translated_images/pi-time-of-flight-sensor.58c8dc04eb3bfb57.ne.png)
+![Grove टाइम अफ फ्लाइट सेन्सर I²C सकेटमा जडान गरिएको](../../../../../translated_images/ne/pi-time-of-flight-sensor.58c8dc04eb3bfb57.png)
 
 ## टाइम अफ फ्लाइट सेन्सर प्रोग्राम गर्नुहोस्
 
@@ -106,7 +106,7 @@ Grove टाइम अफ फ्लाइट सेन्सरलाई रा�
 
     रेंजफाइन्डर सेन्सरको पछाडिको भागमा छ, त्यसैले दूरी मापन गर्दा सही भाग प्रयोग गर्न निश्चित गर्नुहोस्।
 
-    ![टाइम अफ फ्लाइट सेन्सरको पछाडिको भागले केरा तर्फ इङ्गित गर्दै](../../../../../translated_images/time-of-flight-banana.079921ad8b1496e4.ne.png)
+    ![टाइम अफ फ्लाइट सेन्सरको पछाडिको भागले केरा तर्फ इङ्गित गर्दै](../../../../../translated_images/ne/time-of-flight-banana.079921ad8b1496e4.png)
 
 > 💁 तपाईं यो कोड [code-proximity/pi](../../../../../4-manufacturing/lessons/4-trigger-fruit-detector/code-proximity/pi) फोल्डरमा पाउन सक्नुहुन्छ।
 

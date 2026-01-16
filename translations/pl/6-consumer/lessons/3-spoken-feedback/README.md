@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Ustaw timer i udziel odpowiedzi głosowej
 
-![Szkicowy przegląd tej lekcji](../../../../../translated_images/lesson-23.f38483e1d4df4828990d3f02d60e46c978b075d384ae7cb4f7bab738e107c850.pl.jpg)
+![Szkicowy przegląd tej lekcji](../../../../../translated_images/pl/lesson-23.f38483e1d4df4828990d3f02d60e46c978b075d384ae7cb4f7bab738e107c850.jpg)
 
 > Szkic autorstwa [Nitya Narasimhan](https://github.com/nitya). Kliknij obrazek, aby zobaczyć większą wersję.
 
@@ -37,7 +37,7 @@ W tej lekcji omówimy:
 
 Tekst na mowę, jak sama nazwa wskazuje, to proces przekształcania tekstu w dźwięk zawierający wypowiedziane słowa. Podstawowa zasada polega na rozłożeniu słów w tekście na ich składowe dźwięki (zwane fonemami) i połączeniu tych dźwięków w całość, używając nagrań audio lub dźwięków generowanych przez modele AI.
 
-![Trzy etapy typowych systemów tekst na mowę](../../../../../translated_images/tts-overview.193843cf3f5ee09f.pl.png)
+![Trzy etapy typowych systemów tekst na mowę](../../../../../translated_images/pl/tts-overview.193843cf3f5ee09f.png)
 
 Systemy tekst na mowę zazwyczaj składają się z 3 etapów:
 

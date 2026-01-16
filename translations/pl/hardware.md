@@ -21,7 +21,7 @@ Będziesz także potrzebować kilku nietechnicznych przedmiotów, takich jak zie
 
 ## Kup zestawy
 
-![Logo Seeed Studios](../../translated_images/seeed-logo.74732b6b482b6e8e.pl.png)
+![Logo Seeed Studios](../../translated_images/pl/seeed-logo.74732b6b482b6e8e.png)
 
 Seeed Studios uprzejmie udostępniło cały sprzęt w formie łatwych do zakupu zestawów:
 
@@ -29,13 +29,13 @@ Seeed Studios uprzejmie udostępniło cały sprzęt w formie łatwych do zakupu 
 
 **[IoT dla początkujących z Seeed i Microsoft - Zestaw startowy Wio Terminal](https://www.seeedstudio.com/IoT-for-beginners-with-Seeed-and-Microsoft-Wio-Terminal-Starter-Kit-p-5006.html)**
 
-[![Zestaw sprzętowy Wio Terminal](../../translated_images/wio-hardware-kit.4c70c48b85e4283a.pl.png)](https://www.seeedstudio.com/IoT-for-beginners-with-Seeed-and-Microsoft-Wio-Terminal-Starter-Kit-p-5006.html)
+[![Zestaw sprzętowy Wio Terminal](../../translated_images/pl/wio-hardware-kit.4c70c48b85e4283a.png)](https://www.seeedstudio.com/IoT-for-beginners-with-Seeed-and-Microsoft-Wio-Terminal-Starter-Kit-p-5006.html)
 
 ### Raspberry Pi
 
 **[IoT dla początkujących z Seeed i Microsoft - Zestaw startowy Raspberry Pi 4](https://www.seeedstudio.com/IoT-for-beginners-with-Seeed-and-Microsoft-Raspberry-Pi-Starter-Kit-p-5004.html)**
 
-[![Zestaw sprzętowy Raspberry Pi Terminal](../../translated_images/pi-hardware-kit.26dbadaedb7dd44c73b0131d5d68ea29472ed0a9744f90d5866c6d82f2d16380.pl.png)](https://www.seeedstudio.com/IoT-for-beginners-with-Seeed-and-Microsoft-Raspberry-Pi-Starter-Kit-p-5004.html)
+[![Zestaw sprzętowy Raspberry Pi Terminal](../../translated_images/pl/pi-hardware-kit.26dbadaedb7dd44c73b0131d5d68ea29472ed0a9744f90d5866c6d82f2d16380.png)](https://www.seeedstudio.com/IoT-for-beginners-with-Seeed-and-Microsoft-Raspberry-Pi-Starter-Kit-p-5004.html)
 
 ## Arduino
 

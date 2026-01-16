@@ -27,13 +27,13 @@ Grove तापक्रम सेन्सरलाई Wio Terminal को ड�
 
 तापक्रम सेन्सर जडान गर्नुहोस्।
 
-![A grove temperature sensor](../../../../../translated_images/grove-dht11.07f8eafceee170043efbb53e1d15722bd4e00fbaa9ff74290b57e9f66eb82c17.ne.png)
+![A grove temperature sensor](../../../../../translated_images/ne/grove-dht11.07f8eafceee170043efbb53e1d15722bd4e00fbaa9ff74290b57e9f66eb82c17.png)
 
 1. Grove केबलको एउटा छेउ आर्द्रता र तापक्रम सेन्सरको सॉकेटमा राख्नुहोस्। यो केवल एक तरिकाले मात्र जडान गर्न सकिन्छ।
 
 1. Wio Terminal लाई तपाईंको कम्प्युटर वा अन्य पावर सप्लाईबाट डिस्कनेक्ट गरेर, Grove केबलको अर्को छेउलाई Wio Terminal को स्क्रिन हेर्दा दायाँपट्टि रहेको Grove सॉकेटमा जडान गर्नुहोस्। यो पावर बटनबाट सबैभन्दा टाढा रहेको सॉकेट हो।
 
-![The grove temperature sensor connected to the right hand socket](../../../../../translated_images/wio-temperature-sensor.2934928f38c7f79a.ne.png)
+![The grove temperature sensor connected to the right hand socket](../../../../../translated_images/ne/wio-temperature-sensor.2934928f38c7f79a.png)
 
 ## तापक्रम सेन्सर प्रोग्राम गर्नुहोस्
 

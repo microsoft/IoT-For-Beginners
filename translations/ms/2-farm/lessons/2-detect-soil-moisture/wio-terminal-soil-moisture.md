@@ -27,17 +27,17 @@ Sensor kelembapan tanah Grove boleh disambungkan kepada port analog/digital yang
 
 Sambungkan sensor kelembapan tanah.
 
-![Sensor kelembapan tanah Grove](../../../../../translated_images/grove-capacitive-soil-moisture-sensor.e7f0776cce30e78be5cc5a07839385fd6718857f31b5bf5ad3d0c73c83b2f0ef.ms.png)
+![Sensor kelembapan tanah Grove](../../../../../translated_images/ms/grove-capacitive-soil-moisture-sensor.e7f0776cce30e78be5cc5a07839385fd6718857f31b5bf5ad3d0c73c83b2f0ef.png)
 
 1. Masukkan satu hujung kabel Grove ke soket pada sensor kelembapan tanah. Ia hanya boleh dimasukkan dalam satu arah sahaja.
 
 1. Dengan Wio Terminal tidak disambungkan kepada komputer atau bekalan kuasa lain, sambungkan hujung kabel Grove yang lain ke soket Grove di sebelah kanan Wio Terminal apabila anda melihat skrin. Ini adalah soket yang paling jauh dari butang kuasa.
 
-![Sensor kelembapan tanah Grove disambungkan ke soket sebelah kanan](../../../../../translated_images/wio-soil-moisture-sensor.46919b61c3f6cb74.ms.png)
+![Sensor kelembapan tanah Grove disambungkan ke soket sebelah kanan](../../../../../translated_images/ms/wio-soil-moisture-sensor.46919b61c3f6cb74.png)
 
 1. Masukkan sensor kelembapan tanah ke dalam tanah. Ia mempunyai 'garis kedudukan tertinggi' - garis putih melintang pada sensor. Masukkan sensor sehingga garis ini tetapi tidak melebihi garis tersebut.
 
-![Sensor kelembapan tanah Grove dalam tanah](../../../../../translated_images/soil-moisture-sensor-in-soil.bfad91002bda5e96.ms.png)
+![Sensor kelembapan tanah Grove dalam tanah](../../../../../translated_images/ms/soil-moisture-sensor-in-soil.bfad91002bda5e96.png)
 
 1. Anda kini boleh menyambungkan Wio Terminal ke komputer anda.
 

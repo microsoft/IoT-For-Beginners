@@ -29,13 +29,13 @@ Grove ਟਾਈਮ ਆਫ ਫਲਾਈਟ ਸੈਂਸਰ ਨੂੰ ਰਾਸਪ
 
 ਟਾਈਮ ਆਫ ਫਲਾਈਟ ਸੈਂਸਰ ਨੂੰ ਜੋੜੋ।
 
-![A grove time of flight sensor](../../../../../translated_images/grove-time-of-flight-sensor.d82ff2165bfded9f485de54d8d07195a6270a602696825fca19f629ddfe94e86.pa.png)
+![A grove time of flight sensor](../../../../../translated_images/pa/grove-time-of-flight-sensor.d82ff2165bfded9f485de54d8d07195a6270a602696825fca19f629ddfe94e86.png)
 
 1. Grove ਕੇਬਲ ਦੇ ਇੱਕ ਸਿਰੇ ਨੂੰ ਟਾਈਮ ਆਫ ਫਲਾਈਟ ਸੈਂਸਰ ਦੇ ਸਾਕਟ ਵਿੱਚ ਪਾਓ। ਇਹ ਕੇਵਲ ਇੱਕ ਹੀ ਦਿਸ਼ਾ ਵਿੱਚ ਜਾਵੇਗੀ।
 
 1. ਰਾਸਪਬੈਰੀ ਪਾਈ ਨੂੰ ਬੰਦ ਰੱਖਦੇ ਹੋਏ, Grove ਕੇਬਲ ਦੇ ਦੂਜੇ ਸਿਰੇ ਨੂੰ Grove Base hat ਦੇ I²C ਸਾਕਟ ਵਿੱਚ ਜੋੜੋ। ਇਹ ਸਾਕਟ ਹੇਠਲੀ ਲਾਈਨ ਵਿੱਚ ਹਨ, GPIO ਪਿੰਸ ਦੇ ਵਿਰੁੱਧ ਪਾਸੇ ਅਤੇ ਕੈਮਰਾ ਕੇਬਲ ਸਲਾਟ ਦੇ ਨੇੜੇ।
 
-![The grove time of flight sensor connected to the I squared C socket](../../../../../translated_images/pi-time-of-flight-sensor.58c8dc04eb3bfb57.pa.png)
+![The grove time of flight sensor connected to the I squared C socket](../../../../../translated_images/pa/pi-time-of-flight-sensor.58c8dc04eb3bfb57.png)
 
 ## ਟਾਈਮ ਆਫ ਫਲਾਈਟ ਸੈਂਸਰ ਨੂੰ ਪ੍ਰੋਗਰਾਮ ਕਰੋ
 
@@ -106,7 +106,7 @@ Grove ਟਾਈਮ ਆਫ ਫਲਾਈਟ ਸੈਂਸਰ ਨੂੰ ਰਾਸਪ
 
     ਰੇਂਜਫਾਈਂਡਰ ਸੈਂਸਰ ਦੇ ਪਿੱਛੇ ਹੈ, ਇਸ ਲਈ ਦੂਰੀ ਮਾਪਣ ਸਮੇਂ ਸਹੀ ਪਾਸੇ ਦੀ ਵਰਤੋਂ ਯਕੀਨੀ ਬਣਾਓ।
 
-    ![The rangefinder on the back of the time of flight sensor pointing at a banana](../../../../../translated_images/time-of-flight-banana.079921ad8b1496e4.pa.png)
+    ![The rangefinder on the back of the time of flight sensor pointing at a banana](../../../../../translated_images/pa/time-of-flight-banana.079921ad8b1496e4.png)
 
 > 💁 ਤੁਸੀਂ ਇਹ ਕੋਡ [code-proximity/pi](../../../../../4-manufacturing/lessons/4-trigger-fruit-detector/code-proximity/pi) ਫੋਲਡਰ ਵਿੱਚ ਲੱਭ ਸਕਦੇ ਹੋ।
 

@@ -45,11 +45,11 @@ Legg til LED-en i CounterFit-appen.
 
     1. Velg **Add**-knappen for å opprette LED-en på Pin 5.
 
-    ![LED-innstillingene](../../../../../translated_images/counterfit-create-led.ba9db1c9b8c622a635d6dfae5cdc4e70c2b250635bd4f0601c6cf0bd22b7ba46.no.png)
+    ![LED-innstillingene](../../../../../translated_images/no/counterfit-create-led.ba9db1c9b8c622a635d6dfae5cdc4e70c2b250635bd4f0601c6cf0bd22b7ba46.png)
 
     LED-en vil bli opprettet og vises i listen over aktuatorer.
 
-    ![LED-en opprettet](../../../../../translated_images/counterfit-led.c0ab02de6d256ad84d9bad4d67a7faa709f0ea83e410cfe9b5561ef0cef30b1c.no.png)
+    ![LED-en opprettet](../../../../../translated_images/no/counterfit-led.c0ab02de6d256ad84d9bad4d67a7faa709f0ea83e410cfe9b5561ef0cef30b1c.png)
 
     Når LED-en er opprettet, kan du endre fargen ved hjelp av *Color*-velgeren. Velg **Set**-knappen for å endre fargen etter at du har valgt den.
 

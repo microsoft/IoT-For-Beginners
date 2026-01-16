@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Interakcja ze światem fizycznym za pomocą czujników i siłowników
 
-![Szkicowy przegląd tej lekcji](../../../../../translated_images/lesson-3.cc3b7b4cd646de598698cce043c0393fd62ef42bac2eaf60e61272cd844250f4.pl.jpg)
+![Szkicowy przegląd tej lekcji](../../../../../translated_images/pl/lesson-3.cc3b7b4cd646de598698cce043c0393fd62ef42bac2eaf60e61272cd844250f4.jpg)
 
 > Szkic autorstwa [Nitya Narasimhan](https://github.com/nitya). Kliknij obraz, aby zobaczyć większą wersję.
 
@@ -75,7 +75,7 @@ Najprostsze czujniki to czujniki analogowe. Otrzymują napięcie z urządzenia I
 
 Przykładem jest potencjometr – pokrętło, które można obracać między dwoma pozycjami, a czujnik mierzy obrót.
 
-![Potencjometr ustawiony w połowie, otrzymujący 5 woltów i zwracający 3,8 woltów](../../../../../translated_images/potentiometer.35a348b9ce22f6ec.pl.png)
+![Potencjometr ustawiony w połowie, otrzymujący 5 woltów i zwracający 3,8 woltów](../../../../../translated_images/pl/potentiometer.35a348b9ce22f6ec.png)
 
 Urządzenie IoT wysyła sygnał elektryczny do potencjometru o napięciu, np. 5 woltów (5V). W miarę regulacji potencjometru zmienia się napięcie wychodzące z drugiej strony. Wyobraź sobie potencjometr oznaczony jako pokrętło od 0 do [11](https://wikipedia.org/wiki/Up_to_eleven), np. pokrętło głośności w wzmacniaczu. Gdy potencjometr jest w pozycji wyłączonej (0), wychodzi 0V. Gdy jest w pozycji maksymalnej (11), wychodzi 5V.
 
@@ -101,7 +101,7 @@ Cyfrowe czujniki, podobnie jak analogowe, wykrywają świat wokół siebie za po
 
 Najprostszym cyfrowym czujnikiem jest przycisk lub przełącznik. Jest to czujnik z dwoma stanami: włączony lub wyłączony.
 
-![Przycisk otrzymuje 5 woltów. Gdy nie jest wciśnięty, zwraca 0 woltów, gdy jest wciśnięty, zwraca 5 woltów](../../../../../translated_images/button.eadb560b77ac45e56f523d9d8876e40444f63b419e33eb820082d461fa79490b.pl.png)
+![Przycisk otrzymuje 5 woltów. Gdy nie jest wciśnięty, zwraca 0 woltów, gdy jest wciśnięty, zwraca 5 woltów](../../../../../translated_images/pl/button.eadb560b77ac45e56f523d9d8876e40444f63b419e33eb820082d461fa79490b.png)
 
 Piny w urządzeniach IoT, takie jak piny GPIO, mogą bezpośrednio mierzyć ten sygnał jako 0 lub 1. Jeśli napięcie wysłane jest takie samo jak napięcie zwrócone, odczytana wartość to 1, w przeciwnym razie wartość to 0. Nie ma potrzeby konwersji sygnału, może on być tylko 1 lub 0.
 
@@ -112,7 +112,7 @@ Piny w urządzeniach IoT, takie jak piny GPIO, mogą bezpośrednio mierzyć ten 
 
 Bardziej zaawansowane cyfrowe czujniki odczytują wartości analogowe, a następnie konwertują je za pomocą wbudowanych ADC na sygnały cyfrowe. Na przykład cyfrowy czujnik temperatury nadal używa termopary w taki sam sposób jak czujnik analogowy i nadal mierzy zmianę napięcia spowodowaną rezystancją termopary w danej temperaturze. Zamiast zwracać wartość analogową i polegać na urządzeniu lub płytce łączącej w celu konwersji na sygnał cyfrowy, wbudowany w czujnik ADC konwertuje wartość i wysyła ją jako serię 0 i 1 do urządzenia IoT. Te 0 i 1 są wysyłane w taki sam sposób jak sygnał cyfrowy dla przycisku, gdzie 1 oznacza pełne napięcie, a 0 oznacza 0V.
 
-![Cyfrowy czujnik temperatury konwertujący odczyt analogowy na dane binarne z 0 jako 0 woltów i 1 jako 5 woltów przed wysłaniem do urządzenia IoT](../../../../../translated_images/temperature-as-digital.85004491b977bae1.pl.png)
+![Cyfrowy czujnik temperatury konwertujący odczyt analogowy na dane binarne z 0 jako 0 woltów i 1 jako 5 woltów przed wysłaniem do urządzenia IoT](../../../../../translated_images/pl/temperature-as-digital.85004491b977bae1.png)
 
 Wysyłanie danych cyfrowych pozwala czujnikom stać się bardziej zaawansowanymi i przesyłać bardziej szczegółowe dane, a nawet zaszyfrowane dane dla bezpiecznych czujników. Przykładem jest kamera. Jest to czujnik, który rejestruje obraz i przesyła go jako dane cyfrowe zawierające ten obraz, zwykle w skompresowanym formacie, takim jak JPEG, do odczytu przez urządzenie IoT. Może nawet przesyłać strumieniowo wideo, rejestrując obrazy i przesyłając je klatka po klatce lub jako skompresowany strumień wideo.
 
@@ -134,7 +134,7 @@ Niektóre popularne siłowniki to:
 
 Skorzystaj z odpowiedniego przewodnika, aby dodać siłownik do swojego urządzenia IoT, sterowany przez czujnik, aby zbudować lampkę nocną IoT. Będzie ona zbierać poziomy światła z czujnika światła i używać siłownika w postaci diody LED do emitowania światła, gdy wykryty poziom światła będzie zbyt niski.
 
-![Schemat przepływu zadania pokazujący odczyt i sprawdzanie poziomów światła oraz sterowanie diodą LED](../../../../../translated_images/assignment-1-flow.7552a51acb1a5ec858dca6e855cdbb44206434006df8ba3799a25afcdab1665d.pl.png)
+![Schemat przepływu zadania pokazujący odczyt i sprawdzanie poziomów światła oraz sterowanie diodą LED](../../../../../translated_images/pl/assignment-1-flow.7552a51acb1a5ec858dca6e855cdbb44206434006df8ba3799a25afcdab1665d.png)
 
 * [Arduino - Wio Terminal](wio-terminal-actuator.md)
 * [Komputer jednopłytkowy - Raspberry Pi](pi-actuator.md)
@@ -149,7 +149,7 @@ Podobnie jak czujniki, siłowniki mogą być analogowe lub cyfrowe.
 Analogowe siłowniki przyjmują sygnał analogowy i przekształcają go w jakąś interakcję, gdzie interakcja zmienia się w zależności od dostarczonego napięcia.
 
 Przykładem jest ściemnialne światło, takie jak te, które możesz mieć w domu. Ilość dostarczonego napięcia decyduje o jasności światła.
-![Światło przyciemnione przy niskim napięciu i jaśniejsze przy wyższym napięciu](../../../../../translated_images/dimmable-light.9ceffeb195dec1a849da718b2d71b32c35171ff7dfea9c07bbf82646a67acf6b.pl.png)
+![Światło przyciemnione przy niskim napięciu i jaśniejsze przy wyższym napięciu](../../../../../translated_images/pl/dimmable-light.9ceffeb195dec1a849da718b2d71b32c35171ff7dfea9c07bbf82646a67acf6b.png)
 
 Podobnie jak w przypadku czujników, rzeczywiste urządzenie IoT działa na sygnałach cyfrowych, a nie analogowych. Oznacza to, że aby wysłać sygnał analogowy, urządzenie IoT potrzebuje przetwornika cyfrowo-analogowego (DAC), który może być wbudowany bezpośrednio w urządzenie IoT lub znajdować się na płytce połączeniowej. Przetwornik ten zamienia 0 i 1 z urządzenia IoT na napięcie analogowe, które może być używane przez siłownik.
 
@@ -164,7 +164,7 @@ Na przykład PWM można użyć do kontrolowania prędkości silnika.
 
 Wyobraź sobie, że sterujesz silnikiem zasilanym napięciem 5V. Wysyłasz krótki impuls do silnika, przełączając napięcie na wysokie (5V) na dwie setne sekundy (0,02s). W tym czasie silnik może wykonać jedną dziesiątą obrotu, czyli 36°. Następnie sygnał pauzuje na dwie setne sekundy (0,02s), wysyłając niski sygnał (0V). Każdy cykl włączania i wyłączania trwa 0,04s. Cykl ten powtarza się.
 
-![Modulacja szerokości impulsu - obrót silnika z prędkością 150 RPM](../../../../../translated_images/pwm-motor-150rpm.83347ac04ca38482.pl.png)
+![Modulacja szerokości impulsu - obrót silnika z prędkością 150 RPM](../../../../../translated_images/pl/pwm-motor-150rpm.83347ac04ca38482.png)
 
 Oznacza to, że w ciągu jednej sekundy wysyłasz 25 impulsów 5V trwających 0,02s, które obracają silnik, a każdy z nich jest poprzedzony 0,02s przerwy przy 0V, gdy silnik się nie obraca. Każdy impuls obraca silnik o jedną dziesiątą obrotu, co oznacza, że silnik wykonuje 2,5 obrotu na sekundę. Użyłeś sygnału cyfrowego, aby obrócić silnik z prędkością 2,5 obrotu na sekundę, czyli 150 [obrotów na minutę](https://wikipedia.org/wiki/Revolutions_per_minute) (niestandardowa jednostka prędkości obrotowej).
 
@@ -175,7 +175,7 @@ Oznacza to, że w ciągu jednej sekundy wysyłasz 25 impulsów 5V trwających 0,
 
 > 🎓 Gdy sygnał PWM jest włączony przez połowę czasu, a wyłączony przez drugą połowę, nazywa się to [cyklem pracy 50%](https://wikipedia.org/wiki/Duty_cycle). Cykl pracy mierzy się jako procent czasu, w którym sygnał jest w stanie włączonym w porównaniu do stanu wyłączonego.
 
-![Modulacja szerokości impulsu - obrót silnika z prędkością 75 RPM](../../../../../translated_images/pwm-motor-75rpm.a5e4c939934b6e14.pl.png)
+![Modulacja szerokości impulsu - obrót silnika z prędkością 75 RPM](../../../../../translated_images/pl/pwm-motor-75rpm.a5e4c939934b6e14.png)
 
 Możesz zmienić prędkość silnika, zmieniając długość impulsów. Na przykład, przy tym samym silniku możesz zachować ten sam czas cyklu 0,04s, ale skrócić impuls włączony do 0,01s, a impuls wyłączony wydłużyć do 0,03s. Liczba impulsów na sekundę (25) pozostaje taka sama, ale każdy impuls włączony jest o połowę krótszy. Krótszy impuls obraca silnik o jedną dwudziestą obrotu, a przy 25 impulsach na sekundę silnik wykona 1,25 obrotu na sekundę, czyli 75 RPM. Zmieniając prędkość impulsów sygnału cyfrowego, zmniejszyłeś prędkość analogowego silnika o połowę.
 
@@ -196,7 +196,7 @@ Siłowniki cyfrowe, podobnie jak czujniki cyfrowe, mają dwa stany kontrolowane 
 
 Prostym siłownikiem cyfrowym jest dioda LED. Gdy urządzenie wysyła sygnał cyfrowy 1, wysyłane jest wysokie napięcie, które zapala diodę LED. Gdy wysyłany jest sygnał cyfrowy 0, napięcie spada do 0V i dioda LED gaśnie.
 
-![Dioda LED wyłączona przy 0V i włączona przy 5V](../../../../../translated_images/led.ec6d94f66676a174ad06d9fa9ea49c2ee89beb18b312d5c6476467c66375b07f.pl.png)
+![Dioda LED wyłączona przy 0V i włączona przy 5V](../../../../../translated_images/pl/led.ec6d94f66676a174ad06d9fa9ea49c2ee89beb18b312d5c6476467c66375b07f.png)
 
 ✅ Jakie inne proste siłowniki dwustanowe przychodzą Ci do głowy? Jednym z przykładów jest elektromagnes (solenoid), który można aktywować, aby np. przesunąć rygiel drzwi, blokując/odblokowując drzwi.
 

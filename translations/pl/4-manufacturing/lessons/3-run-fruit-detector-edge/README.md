@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Uruchom swój detektor owoców na urządzeniach brzegowych
 
-![Szkicowy przegląd tej lekcji](../../../../../translated_images/lesson-17.bc333c3c35ba8e42cce666cfffa82b915f787f455bd94e006aea2b6f2722421a.pl.jpg)
+![Szkicowy przegląd tej lekcji](../../../../../translated_images/pl/lesson-17.bc333c3c35ba8e42cce666cfffa82b915f787f455bd94e006aea2b6f2722421a.jpg)
 
 > Szkic autorstwa [Nitya Narasimhan](https://github.com/nitya). Kliknij obraz, aby zobaczyć większą wersję.
 
@@ -42,11 +42,11 @@ W tej lekcji omówimy:
 
 Obliczenia brzegowe polegają na przetwarzaniu danych IoT jak najbliżej miejsca ich generowania. Zamiast przetwarzać dane w chmurze, operacje te są przenoszone na krawędź chmury – do Twojej wewnętrznej sieci.
 
-![Schemat architektury pokazujący usługi internetowe w chmurze i urządzenia IoT w lokalnej sieci](../../../../../translated_images/cloud-without-edge.b4da641f6022c95ed6b91fde8b5323abd2f94e0d52073ad54172ae8f5dac90e9.pl.png)
+![Schemat architektury pokazujący usługi internetowe w chmurze i urządzenia IoT w lokalnej sieci](../../../../../translated_images/pl/cloud-without-edge.b4da641f6022c95ed6b91fde8b5323abd2f94e0d52073ad54172ae8f5dac90e9.png)
 
 W dotychczasowych lekcjach urządzenia zbierały dane i przesyłały je do chmury w celu analizy, uruchamiając funkcje bezserwerowe lub modele AI w chmurze.
 
-![Schemat architektury pokazujący urządzenia IoT w lokalnej sieci łączące się z urządzeniami brzegowymi, które z kolei łączą się z chmurą](../../../../../translated_images/cloud-with-edge.1e26462c62c126fe150bd15a5714ddf0be599f09bacbad08b85be02b76ea1ae1.pl.png)
+![Schemat architektury pokazujący urządzenia IoT w lokalnej sieci łączące się z urządzeniami brzegowymi, które z kolei łączą się z chmurą](../../../../../translated_images/pl/cloud-with-edge.1e26462c62c126fe150bd15a5714ddf0be599f09bacbad08b85be02b76ea1ae1.png)
 
 Obliczenia brzegowe polegają na przeniesieniu części usług chmurowych na komputery działające w tej samej sieci co urządzenia IoT, komunikując się z chmurą tylko w razie potrzeby. Na przykład można uruchamiać modele AI na urządzeniach brzegowych, aby analizować dojrzałość owoców, a do chmury przesyłać jedynie dane analityczne, takie jak liczba dojrzałych i niedojrzałych owoców.
 
@@ -94,7 +94,7 @@ W przypadku systemów IoT często będziesz chciał połączyć obliczenia w chm
 
 ## Azure IoT Edge
 
-![Logo Azure IoT Edge](../../../../../translated_images/azure-iot-edge-logo.c1c076749b5cba2e8755262fadc2f19ca1146b948d76990b1229199ac2292d79.pl.png)
+![Logo Azure IoT Edge](../../../../../translated_images/pl/azure-iot-edge-logo.c1c076749b5cba2e8755262fadc2f19ca1146b948d76990b1229199ac2292d79.png)
 
 Azure IoT Edge to usługa, która może pomóc w przeniesieniu obciążeń z chmury na urządzenia brzegowe. Konfigurujesz urządzenie jako urządzenie brzegowe, a z chmury możesz wdrażać kod na to urządzenie brzegowe. Pozwala to na połączenie możliwości chmury i urządzeń brzegowych.
 
@@ -108,7 +108,7 @@ IoT Edge jest wbudowany w IoT Hub, więc możesz zarządzać urządzeniami brzeg
 
 IoT Edge uruchamia kod z *kontenerów* – samodzielnych aplikacji uruchamianych w izolacji od reszty aplikacji na Twoim komputerze. Gdy uruchamiasz kontener, działa on jak oddzielny komputer wewnątrz Twojego komputera, z własnym oprogramowaniem, usługami i aplikacjami. Większość czasu kontenery nie mają dostępu do niczego na Twoim komputerze, chyba że zdecydujesz się udostępnić im coś, na przykład folder. Kontener udostępnia wtedy usługi za pomocą otwartego portu, do którego możesz się podłączyć lub udostępnić go w swojej sieci.
 
-![Żądanie sieciowe przekierowane do kontenera](../../../../../translated_images/container-web-browser.4ee81dd4f0d8838ce622b2a0d600b6a4322b5d4fe43159facd87b7b34f84d66a.pl.png)
+![Żądanie sieciowe przekierowane do kontenera](../../../../../translated_images/pl/container-web-browser.4ee81dd4f0d8838ce622b2a0d600b6a4322b5d4fe43159facd87b7b34f84d66a.png)
 
 Na przykład możesz mieć kontener z witryną internetową działającą na porcie 80, domyślnym porcie HTTP, i możesz go udostępnić ze swojego komputera również na porcie 80.
 
@@ -204,11 +204,11 @@ Po przetrenowaniu modelu należy go wyeksportować jako kontener.
 
 ## Przygotowanie kontenera do wdrożenia
 
-![Kontenery są budowane, a następnie przesyłane do rejestru kontenerów, skąd są wdrażane na urządzenie brzegowe za pomocą IoT Edge](../../../../../translated_images/container-edge-flow.c246050dd60ceefdb6ace026a4ce5c6aa4112bb5898ae23fbb2ab4be29ae3e1b.pl.png)
+![Kontenery są budowane, a następnie przesyłane do rejestru kontenerów, skąd są wdrażane na urządzenie brzegowe za pomocą IoT Edge](../../../../../translated_images/pl/container-edge-flow.c246050dd60ceefdb6ace026a4ce5c6aa4112bb5898ae23fbb2ab4be29ae3e1b.png)
 
 Po pobraniu modelu należy go zbudować jako kontener, a następnie przesłać do rejestru kontenerów - miejsca online, w którym można przechowywać kontenery. IoT Edge może następnie pobrać kontener z rejestru i przesłać go na Twoje urządzenie.
 
-![Logo Azure Container Registry](../../../../../translated_images/azure-container-registry-logo.09494206991d4b295025ebff7d4e2900325e527a59184ffbc8464b6ab59654be.pl.png)
+![Logo Azure Container Registry](../../../../../translated_images/pl/azure-container-registry-logo.09494206991d4b295025ebff7d4e2900325e527a59184ffbc8464b6ab59654be.png)
 
 Rejestr kontenerów, którego użyjesz w tej lekcji, to Azure Container Registry. Nie jest to usługa darmowa, więc aby zaoszczędzić pieniądze, upewnij się, że [posprzątasz swój projekt](../../../clean-up.md) po zakończeniu pracy.
 

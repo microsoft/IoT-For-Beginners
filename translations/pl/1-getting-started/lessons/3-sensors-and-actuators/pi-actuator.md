@@ -35,7 +35,7 @@ Dioda Grove LED jest dostępna jako moduł z wyborem diod LED, co pozwala wybra�
 
 Podłącz diodę LED.
 
-![Dioda Grove LED](../../../../../translated_images/grove-led.6c853be93f473cf2c439cfc74bb1064732b22251a83cedf66e62f783f9cc1a79.pl.png)
+![Dioda Grove LED](../../../../../translated_images/pl/grove-led.6c853be93f473cf2c439cfc74bb1064732b22251a83cedf66e62f783f9cc1a79.png)
 
 1. Wybierz swoją ulubioną diodę LED i włóż jej nóżki do dwóch otworów w module LED.
 
@@ -49,7 +49,7 @@ Podłącz diodę LED.
 
 1. Przy wyłączonym Raspberry Pi podłącz drugi koniec kabla Grove do gniazda cyfrowego oznaczonego **D5** na Grove Base hat podłączonym do Pi. To gniazdo znajduje się jako drugie od lewej, w rzędzie gniazd obok pinów GPIO.
 
-![Dioda Grove LED podłączona do gniazda D5](../../../../../translated_images/pi-led.97f1d474981dc35d1c7996c7b17de355d3d0a6bc9606d79fa5f89df933415122.pl.png)
+![Dioda Grove LED podłączona do gniazda D5](../../../../../translated_images/pl/pi-led.97f1d474981dc35d1c7996c7b17de355d3d0a6bc9606d79fa5f89df933415122.png)
 
 ## Zaprogramuj lampkę nocną
 

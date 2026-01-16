@@ -217,7 +217,7 @@ HTTPS ਐਂਡਪੌਇੰਟਸ ਨਾਲ ਸੰਚਾਰ ਕਰਦੇ ਸਮ�
 
     ਤੁਸੀਂ Custom Vision ਵਿੱਚ **Predictions** ਟੈਬ ਵਿੱਚ ਲਿਆ ਗਿਆ ਚਿੱਤਰ ਅਤੇ ਇਹ ਮੁੱਲ ਦੇਖ ਸਕਦੇ ਹੋ।
 
-    ![Custom Vision ਵਿੱਚ ਇੱਕ ਕੇਲਾ, 56.8% ਪੱਕਾ ਅਤੇ 43.1% ਕੱਚਾ](../../../../../translated_images/custom-vision-banana-prediction.30cdff4e1d72db5d9a0be0193790a47c2b387da034e12dc1314dd57ca2131b59.pa.png)
+    ![Custom Vision ਵਿੱਚ ਇੱਕ ਕੇਲਾ, 56.8% ਪੱਕਾ ਅਤੇ 43.1% ਕੱਚਾ](../../../../../translated_images/pa/custom-vision-banana-prediction.30cdff4e1d72db5d9a0be0193790a47c2b387da034e12dc1314dd57ca2131b59.png)
 
 > 💁 ਤੁਸੀਂ ਇਹ ਕੋਡ [code-classify/wio-terminal](../../../../../4-manufacturing/lessons/2-check-fruit-from-device/code-classify/wio-terminal) ਫੋਲਡਰ ਵਿੱਚ ਲੱਭ ਸਕਦੇ ਹੋ।
 

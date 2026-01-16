@@ -29,13 +29,13 @@ Grove Time of Flight ਸੈਂਸਰ ਨੂੰ Wio Terminal ਨਾਲ ਜੋੜ�
 
 Time of Flight ਸੈਂਸਰ ਨੂੰ ਜੋੜੋ।
 
-![ਇੱਕ Grove Time of Flight ਸੈਂਸਰ](../../../../../translated_images/grove-time-of-flight-sensor.d82ff2165bfded9f485de54d8d07195a6270a602696825fca19f629ddfe94e86.pa.png)
+![ਇੱਕ Grove Time of Flight ਸੈਂਸਰ](../../../../../translated_images/pa/grove-time-of-flight-sensor.d82ff2165bfded9f485de54d8d07195a6270a602696825fca19f629ddfe94e86.png)
 
 1. Grove ਕੇਬਲ ਦੇ ਇੱਕ ਸਿਰੇ ਨੂੰ Time of Flight ਸੈਂਸਰ ਦੇ ਸਾਕਟ ਵਿੱਚ ਪਾਓ। ਇਹ ਸਿਰਫ਼ ਇੱਕ ਹੀ ਦਿਸ਼ਾ ਵਿੱਚ ਜਾਵੇਗਾ।
 
 1. ਆਪਣੇ Wio Terminal ਨੂੰ ਆਪਣੇ ਕੰਪਿਊਟਰ ਜਾਂ ਹੋਰ ਪਾਵਰ ਸਪਲਾਈ ਤੋਂ ਡਿਸਕਨੈਕਟ ਕਰਕੇ ਰੱਖੋ। ਫਿਰ Grove ਕੇਬਲ ਦੇ ਦੂਜੇ ਸਿਰੇ ਨੂੰ Wio Terminal ਦੇ ਖੱਬੇ ਪਾਸੇ ਵਾਲੇ Grove ਸਾਕਟ ਵਿੱਚ ਪਾਓ ਜਦੋਂ ਤੁਸੀਂ ਸਕ੍ਰੀਨ ਵੱਲ ਦੇਖ ਰਹੇ ਹੋ। ਇਹ ਸਾਕਟ ਪਾਵਰ ਬਟਨ ਦੇ ਸਭ ਤੋਂ ਨੇੜੇ ਹੈ। ਇਹ ਇੱਕ ਕਾਂਬਾਈਨਡ ਡਿਜ਼ਿਟਲ ਅਤੇ I²C ਸਾਕਟ ਹੈ।
 
-![Time of Flight ਸੈਂਸਰ Wio Terminal ਦੇ ਖੱਬੇ ਸਾਕਟ ਨਾਲ ਜੁੜਿਆ ਹੋਇਆ](../../../../../translated_images/wio-time-of-flight-sensor.c4c182131d2ea73d.pa.png)
+![Time of Flight ਸੈਂਸਰ Wio Terminal ਦੇ ਖੱਬੇ ਸਾਕਟ ਨਾਲ ਜੁੜਿਆ ਹੋਇਆ](../../../../../translated_images/pa/wio-time-of-flight-sensor.c4c182131d2ea73d.png)
 
 1. ਹੁਣ ਤੁਸੀਂ Wio Terminal ਨੂੰ ਆਪਣੇ ਕੰਪਿਊਟਰ ਨਾਲ ਜੁੜ ਸਕਦੇ ਹੋ।
 
@@ -101,7 +101,7 @@ Time of Flight ਸੈਂਸਰ ਨੂੰ ਜੋੜੋ।
 
     ਰੇਂਜਫਾਈਂਡਰ ਸੈਂਸਰ ਦੇ ਪਿੱਛੇ ਵਾਲੇ ਪਾਸੇ ਹੈ, ਇਸ ਲਈ ਯਕੀਨੀ ਬਣਾਓ ਕਿ ਤੁਸੀਂ ਦੂਰੀ ਮਾਪਣ ਸਮੇਂ ਸਹੀ ਪਾਸੇ ਦੀ ਵਰਤੋਂ ਕਰ ਰਹੇ ਹੋ।
 
-    ![Time of Flight ਸੈਂਸਰ ਦੇ ਪਿੱਛੇ ਵਾਲੇ ਪਾਸੇ ਤੋਂ ਇੱਕ ਕੇਲੇ ਵੱਲ ਇਸ਼ਾਰਾ ਕਰਦਾ ਰੇਂਜਫਾਈਂਡਰ](../../../../../translated_images/time-of-flight-banana.079921ad8b1496e4.pa.png)
+    ![Time of Flight ਸੈਂਸਰ ਦੇ ਪਿੱਛੇ ਵਾਲੇ ਪਾਸੇ ਤੋਂ ਇੱਕ ਕੇਲੇ ਵੱਲ ਇਸ਼ਾਰਾ ਕਰਦਾ ਰੇਂਜਫਾਈਂਡਰ](../../../../../translated_images/pa/time-of-flight-banana.079921ad8b1496e4.png)
 
 > 💁 ਤੁਸੀਂ ਇਹ ਕੋਡ [code-proximity/wio-terminal](../../../../../4-manufacturing/lessons/4-trigger-fruit-detector/code-proximity/wio-terminal) ਫੋਲਡਰ ਵਿੱਚ ਲੱਭ ਸਕਦੇ ਹੋ।
 

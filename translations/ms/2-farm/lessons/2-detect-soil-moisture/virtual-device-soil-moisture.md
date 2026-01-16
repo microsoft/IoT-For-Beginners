@@ -43,11 +43,11 @@ Tambah sensor kelembapan tanah ke aplikasi CounterFit.
 
     1. Pilih butang **Add** untuk mencipta sensor *Soil Moisture* pada Pin 0.
 
-    ![Tetapan sensor kelembapan tanah](../../../../../translated_images/counterfit-create-soil-moisture-sensor.35266135a5e0ae68b29a684d7db0d2933a8098b2307d197f7c71577b724603aa.ms.png)
+    ![Tetapan sensor kelembapan tanah](../../../../../translated_images/ms/counterfit-create-soil-moisture-sensor.35266135a5e0ae68b29a684d7db0d2933a8098b2307d197f7c71577b724603aa.png)
 
     Sensor kelembapan tanah akan dicipta dan muncul dalam senarai sensor.
 
-    ![Sensor kelembapan tanah dicipta](../../../../../translated_images/counterfit-soil-moisture-sensor.81742b2de0e9de60a3b3b9a2ff8ecc686d428eb6d71820f27a693be26e5aceee.ms.png)
+    ![Sensor kelembapan tanah dicipta](../../../../../translated_images/ms/counterfit-soil-moisture-sensor.81742b2de0e9de60a3b3b9a2ff8ecc686d428eb6d71820f27a693be26e5aceee.png)
 
 ## Program aplikasi sensor kelembapan tanah
 

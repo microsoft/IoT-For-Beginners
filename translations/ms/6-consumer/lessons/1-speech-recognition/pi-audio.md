@@ -25,13 +25,13 @@ Butang boleh disambungkan ke Grove base hat.
 
 #### Tugasan - sambungkan butang
 
-![Butang Grove](../../../../../translated_images/grove-button.a70cfbb809a8563681003250cf5b06d68cdcc68624f9e2f493d5a534ae2da1e5.ms.png)
+![Butang Grove](../../../../../translated_images/ms/grove-button.a70cfbb809a8563681003250cf5b06d68cdcc68624f9e2f493d5a534ae2da1e5.png)
 
 1. Masukkan satu hujung kabel Grove ke soket pada modul butang. Ia hanya boleh dimasukkan satu arah sahaja.
 
 1. Dengan Raspberry Pi dimatikan, sambungkan hujung kabel Grove yang lain ke soket digital yang ditandakan **D5** pada Grove Base hat yang disambungkan ke Pi. Soket ini adalah yang kedua dari kiri, pada barisan soket bersebelahan dengan pin GPIO.
 
-![Butang Grove disambungkan ke soket D5](../../../../../translated_images/pi-button.c7a1a4f55943341ce1baf1057658e9a205804d4131d258e820c93f951df0abf3.ms.png)
+![Butang Grove disambungkan ke soket D5](../../../../../translated_images/ms/pi-button.c7a1a4f55943341ce1baf1057658e9a205804d4131d258e820c93f951df0abf3.png)
 
 ## Tangkap audio
 

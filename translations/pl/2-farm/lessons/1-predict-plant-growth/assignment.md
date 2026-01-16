@@ -42,7 +42,7 @@ Gdy już masz dane dotyczące temperatury, możesz użyć Jupyter Notebook z teg
 
     Jupyter uruchomi się i otworzy notatnik w Twojej przeglądarce. Pracuj zgodnie z instrukcjami w notatniku, aby zwizualizować zmierzone temperatury i obliczyć dni stopni wzrostu (GDD).
 
-    ![Notatnik Jupyter](../../../../../translated_images/gdd-jupyter-notebook.c5b52cf21094f158a61f47f455490fd95f1729777ff90861a4521820bf354cdc.pl.png)
+    ![Notatnik Jupyter](../../../../../translated_images/pl/gdd-jupyter-notebook.c5b52cf21094f158a61f47f455490fd95f1729777ff90861a4521820bf354cdc.png)
 
 ## Kryteria oceny
 

@@ -76,7 +76,7 @@ Kod yang anda gunakan untuk mengklasifikasi imej sangat mirip dengan kod untuk m
 
     Anda akan dapat melihat imej yang diambil, dan nilai-nilai ini dalam tab **Predictions** di Custom Vision.
 
-    ![4 tin pes tomato di rak dengan ramalan untuk 4 pengesanan masing-masing 35.8%, 33.5%, 25.7% dan 16.6%](../../../../../translated_images/custom-vision-stock-prediction.942266ab1bcca3410ecdf23643b9f5f570cfab2345235074e24c51f285777613.ms.png)
+    ![4 tin pes tomato di rak dengan ramalan untuk 4 pengesanan masing-masing 35.8%, 33.5%, 25.7% dan 16.6%](../../../../../translated_images/ms/custom-vision-stock-prediction.942266ab1bcca3410ecdf23643b9f5f570cfab2345235074e24c51f285777613.png)
 
 > 💁 Anda boleh menemui kod ini dalam folder [code-detect/pi](../../../../../5-retail/lessons/2-check-stock-device/code-detect/pi) atau [code-detect/virtual-iot-device](../../../../../5-retail/lessons/2-check-stock-device/code-detect/virtual-iot-device).
 

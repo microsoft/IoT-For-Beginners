@@ -43,7 +43,7 @@ Raspberry Pi များတွင် 3.5mm နားကြပ်ဂျက်ပ
 
 1. သင် ReSpeaker 2-Mics Pi HAT ကို အသုံးပြုနေပါက Grove base hat ကို ဖယ်ရှားပြီး ReSpeaker hat ကို အစားထိုးတပ်ဆင်ပါ။
 
-    ![ReSpeaker hat တပ်ဆင်ထားသော Raspberry Pi](../../../../../translated_images/pi-respeaker-hat.f00fabe7dd039a93e2e0aa0fc946c9af0c6a9eb17c32fa1ca097fb4e384f69f0.my.png)
+    ![ReSpeaker hat တပ်ဆင်ထားသော Raspberry Pi](../../../../../translated_images/my/pi-respeaker-hat.f00fabe7dd039a93e2e0aa0fc946c9af0c6a9eb17c32fa1ca097fb4e384f69f0.png)
 
     သင်ဤသင်ခန်းစာတွင် နောက်ပိုင်း Grove ခလုတ်တစ်ခုလိုအပ်မည်ဖြစ်သော်လည်း ဤ hat တွင် built-in ဖြစ်သောကြောင့် Grove base hat မလိုအပ်ပါ။
 

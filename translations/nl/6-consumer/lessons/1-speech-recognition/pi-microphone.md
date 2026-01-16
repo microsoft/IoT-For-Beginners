@@ -43,7 +43,7 @@ De microfoon en luidsprekers moeten worden aangesloten en geconfigureerd.
 
 1. Als je de ReSpeaker 2-Mics Pi HAT gebruikt, kun je de Grove-basisplaat verwijderen en de ReSpeaker-plaat op zijn plaats zetten.
 
-    ![Een Raspberry Pi met een ReSpeaker-plaat](../../../../../translated_images/pi-respeaker-hat.f00fabe7dd039a93e2e0aa0fc946c9af0c6a9eb17c32fa1ca097fb4e384f69f0.nl.png)
+    ![Een Raspberry Pi met een ReSpeaker-plaat](../../../../../translated_images/nl/pi-respeaker-hat.f00fabe7dd039a93e2e0aa0fc946c9af0c6a9eb17c32fa1ca097fb4e384f69f0.png)
 
     Later in deze les heb je een Grove-knop nodig, maar er is er al een ingebouwd in deze plaat, dus de Grove-basisplaat is niet nodig.
 

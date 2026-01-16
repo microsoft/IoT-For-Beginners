@@ -22,7 +22,7 @@ I²C mempunyai bas yang terdiri daripada 2 wayar utama, bersama dengan 2 wayar k
 | VCC | Voltage common collector | Bekalan kuasa untuk peranti. Ini disambungkan ke wayar SDA dan SCL untuk menyediakan kuasa mereka melalui perintang pull-up yang mematikan isyarat apabila tiada peranti menjadi pengawal. |
 | GND | Ground | Memberikan tanah biasa untuk litar elektrik. |
 
-![Bas I2C dengan 3 peranti disambungkan ke wayar SDA dan SCL, berkongsi wayar tanah biasa](../../../../../translated_images/i2c.83da845dde02256bdd462dbe0d5145461416b74930571b89d1ae142841eeb584.ms.png)
+![Bas I2C dengan 3 peranti disambungkan ke wayar SDA dan SCL, berkongsi wayar tanah biasa](../../../../../translated_images/ms/i2c.83da845dde02256bdd462dbe0d5145461416b74930571b89d1ae142841eeb584.png)
 
 Untuk menghantar data, satu peranti akan mengeluarkan keadaan mula untuk menunjukkan ia bersedia menghantar data. Ia kemudian akan menjadi pengawal. Pengawal kemudian menghantar alamat peranti yang ingin dikomunikasikan, bersama-sama dengan sama ada ia ingin membaca atau menulis data. Selepas data dihantar, pengawal menghantar keadaan berhenti untuk menunjukkan bahawa ia telah selesai. Selepas ini, peranti lain boleh menjadi pengawal dan menghantar atau menerima data.
 
@@ -37,7 +37,7 @@ UART melibatkan litar fizikal yang membolehkan dua peranti berkomunikasi. Setiap
 * Peranti 1 menghantar data dari pin Tx-nya, yang diterima oleh peranti 2 pada pin Rx-nya
 * Peranti 1 menerima data pada pin Rx-nya yang dihantar oleh peranti 2 dari pin Tx-nya
 
-![UART dengan pin Tx pada satu cip disambungkan ke pin Rx pada cip lain, dan sebaliknya](../../../../../translated_images/uart.d0dbd3fb9e3728c6.ms.png)
+![UART dengan pin Tx pada satu cip disambungkan ke pin Rx pada cip lain, dan sebaliknya](../../../../../translated_images/ms/uart.d0dbd3fb9e3728c6.png)
 
 > 🎓 Data dihantar satu bit pada satu masa, dan ini dikenali sebagai komunikasi *serial*. Kebanyakan sistem operasi dan mikrokontroler mempunyai *serial ports*, iaitu sambungan yang boleh menghantar dan menerima data serial yang tersedia untuk kod anda.
 
@@ -66,7 +66,7 @@ Pengawal SPI menggunakan 3 wayar, bersama dengan 1 wayar tambahan bagi setiap pe
 | SCLK | Serial Clock | Wayar ini menghantar isyarat jam pada kadar yang ditetapkan oleh pengawal. |
 | CS   | Chip Select | Pengawal mempunyai pelbagai wayar, satu bagi setiap periferal, dan setiap wayar disambungkan ke wayar CS pada periferal yang sepadan. |
 
-![SPI dengan satu pengawal dan dua periferal](../../../../../translated_images/spi.297431d6f98b386b.ms.png)
+![SPI dengan satu pengawal dan dua periferal](../../../../../translated_images/ms/spi.297431d6f98b386b.png)
 
 Wayar CS digunakan untuk mengaktifkan satu periferal pada satu masa, berkomunikasi melalui wayar COPI dan CIPO. Apabila pengawal perlu menukar periferal, ia menyahaktifkan wayar CS yang disambungkan ke periferal yang sedang aktif, kemudian mengaktifkan wayar yang disambungkan ke periferal yang ingin berkomunikasi seterusnya.
 
@@ -127,13 +127,13 @@ Kelembapan tanah diukur menggunakan kandungan air gravimetrik atau volumetrik.
 
 Sensor kelembapan tanah mengukur rintangan elektrik atau kapasitans - ini bukan sahaja berbeza mengikut kelembapan tanah, tetapi juga jenis tanah kerana komponen dalam tanah boleh mengubah ciri elektriknya. Sebaiknya sensor perlu ditentukur - iaitu mengambil bacaan dari sensor dan membandingkannya dengan pengukuran yang diperoleh menggunakan pendekatan yang lebih saintifik. Sebagai contoh, makmal boleh mengira kelembapan tanah gravimetrik menggunakan sampel dari ladang tertentu yang diambil beberapa kali setahun, dan nombor-nombor ini digunakan untuk menentukur sensor, memadankan bacaan sensor kepada kelembapan tanah gravimetrik.
 
-![Graf voltan vs kandungan kelembapan tanah](../../../../../translated_images/soil-moisture-to-voltage.df86d80cda158700.ms.png)
+![Graf voltan vs kandungan kelembapan tanah](../../../../../translated_images/ms/soil-moisture-to-voltage.df86d80cda158700.png)
 
 Graf di atas menunjukkan cara menentukur sensor. Voltan ditangkap untuk sampel tanah yang kemudian diukur di makmal dengan membandingkan berat lembap dengan berat kering (dengan mengukur berat basah, kemudian mengeringkan dalam ketuhar dan mengukur berat kering). Setelah beberapa bacaan diambil, ini boleh diplotkan pada graf dan garis dipasang pada titik-titik tersebut. Garis ini kemudian boleh digunakan untuk menukar bacaan sensor kelembapan tanah yang diambil oleh peranti IoT kepada pengukuran kelembapan tanah sebenar.
 
 💁 Untuk sensor kelembapan tanah resistif, voltan meningkat apabila kelembapan tanah meningkat. Untuk sensor kelembapan tanah kapasitif, voltan menurun apabila kelembapan tanah meningkat, jadi graf untuk ini akan condong ke bawah, bukan ke atas.
 
-![Nilai kelembapan tanah diinterpolasi dari graf](../../../../../translated_images/soil-moisture-to-voltage-with-reading.681cb3e1f8b68caf.ms.png)
+![Nilai kelembapan tanah diinterpolasi dari graf](../../../../../translated_images/ms/soil-moisture-to-voltage-with-reading.681cb3e1f8b68caf.png)
 
 Graf di atas menunjukkan bacaan voltan dari sensor kelembapan tanah, dan dengan mengikuti bacaan tersebut ke garis pada graf, kelembapan tanah sebenar boleh dikira.
 

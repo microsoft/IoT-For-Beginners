@@ -217,7 +217,7 @@ Sijil ini mengandungi kunci awam dan tidak perlu disimpan dengan selamat. Anda b
 
     Anda akan dapat melihat imej yang diambil, dan nilai-nilai ini dalam tab **Predictions** di Custom Vision.
 
-    ![Sebuah pisang dalam Custom Vision diramalkan matang pada 56.8% dan tidak matang pada 43.1%](../../../../../translated_images/custom-vision-banana-prediction.30cdff4e1d72db5d9a0be0193790a47c2b387da034e12dc1314dd57ca2131b59.ms.png)
+    ![Sebuah pisang dalam Custom Vision diramalkan matang pada 56.8% dan tidak matang pada 43.1%](../../../../../translated_images/ms/custom-vision-banana-prediction.30cdff4e1d72db5d9a0be0193790a47c2b387da034e12dc1314dd57ca2131b59.png)
 
 > 💁 Anda boleh mencari kod ini dalam folder [code-classify/wio-terminal](../../../../../4-manufacturing/lessons/2-check-fruit-from-device/code-classify/wio-terminal).
 

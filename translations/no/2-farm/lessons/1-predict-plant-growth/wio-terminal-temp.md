@@ -27,13 +27,13 @@ Grove-temperatursensoren kan kobles til Wio Terminals digitale port.
 
 Koble til temperatursensoren.
 
-![En Grove-temperatursensor](../../../../../translated_images/grove-dht11.07f8eafceee170043efbb53e1d15722bd4e00fbaa9ff74290b57e9f66eb82c17.no.png)
+![En Grove-temperatursensor](../../../../../translated_images/no/grove-dht11.07f8eafceee170043efbb53e1d15722bd4e00fbaa9ff74290b57e9f66eb82c17.png)
 
 1. Sett den ene enden av en Grove-kabel inn i kontakten på fuktighets- og temperatursensoren. Den kan bare settes inn på én måte.
 
 1. Med Wio Terminal frakoblet fra datamaskinen eller annen strømkilde, koble den andre enden av Grove-kabelen til den høyre Grove-kontakten på Wio Terminal når du ser på skjermen. Dette er kontakten som er lengst unna strømknappen.
 
-![Grove-temperatursensoren koblet til den høyre kontakten](../../../../../translated_images/wio-temperature-sensor.2934928f38c7f79a.no.png)
+![Grove-temperatursensoren koblet til den høyre kontakten](../../../../../translated_images/no/wio-temperature-sensor.2934928f38c7f79a.png)
 
 ## Programmer temperatursensoren
 

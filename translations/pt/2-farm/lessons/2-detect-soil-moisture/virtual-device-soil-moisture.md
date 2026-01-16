@@ -43,11 +43,11 @@ Adicione o sensor de humidade do solo à aplicação CounterFit.
 
     1. Selecione o botão **Add** para criar o sensor *Soil Moisture* no Pin 0.
 
-    ![As definições do sensor de humidade do solo](../../../../../translated_images/counterfit-create-soil-moisture-sensor.35266135a5e0ae68b29a684d7db0d2933a8098b2307d197f7c71577b724603aa.pt.png)
+    ![As definições do sensor de humidade do solo](../../../../../translated_images/pt/counterfit-create-soil-moisture-sensor.35266135a5e0ae68b29a684d7db0d2933a8098b2307d197f7c71577b724603aa.png)
 
     O sensor de humidade do solo será criado e aparecerá na lista de sensores.
 
-    ![O sensor de humidade do solo criado](../../../../../translated_images/counterfit-soil-moisture-sensor.81742b2de0e9de60a3b3b9a2ff8ecc686d428eb6d71820f27a693be26e5aceee.pt.png)
+    ![O sensor de humidade do solo criado](../../../../../translated_images/pt/counterfit-soil-moisture-sensor.81742b2de0e9de60a3b3b9a2ff8ecc686d428eb6d71820f27a693be26e5aceee.png)
 
 ## Programar a aplicação do sensor de humidade do solo
 

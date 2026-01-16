@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Opslag van locatiegegevens
 
-![Een schetsmatige samenvatting van deze les](../../../../../translated_images/lesson-12.ca7f53039712a3ec14ad6474d8445361c84adab643edc53fa6269b77895606bb.nl.jpg)
+![Een schetsmatige samenvatting van deze les](../../../../../translated_images/nl/lesson-12.ca7f53039712a3ec14ad6474d8445361c84adab643edc53fa6269b77895606bb.jpg)
 
 > Sketchnote door [Nitya Narasimhan](https://github.com/nitya). Klik op de afbeelding voor een grotere versie.
 
@@ -66,7 +66,7 @@ Databases zijn diensten waarmee je gegevens kunt opslaan en opvragen. Databases 
 
 De eerste databases waren Relationele Database Management Systemen (RDBMS), of relationele databases. Deze worden ook wel SQL-databases genoemd vanwege de Structured Query Language (SQL) die wordt gebruikt om gegevens toe te voegen, te verwijderen, bij te werken of op te vragen. Deze databases bestaan uit een schema - een goed gedefinieerde set tabellen van gegevens, vergelijkbaar met een spreadsheet. Elke tabel heeft meerdere benoemde kolommen. Wanneer je gegevens invoegt, voeg je een rij toe aan de tabel en plaats je waarden in elk van de kolommen. Dit houdt de gegevens in een zeer rigide structuur - hoewel je kolommen leeg kunt laten, moet je, als je een nieuwe kolom wilt toevoegen, dit doen in de database en waarden invullen voor de bestaande rijen. Deze databases zijn relationeel - in die zin dat één tabel een relatie kan hebben met een andere.
 
-![Een relationele database met de ID van de gebruikers tabel die verwijst naar de gebruikers-ID kolom van de aankopen tabel, en de ID van de producten tabel die verwijst naar de product-ID van de aankopen tabel](../../../../../translated_images/sql-database.be160f12bfccefd3.nl.png)
+![Een relationele database met de ID van de gebruikers tabel die verwijst naar de gebruikers-ID kolom van de aankopen tabel, en de ID van de producten tabel die verwijst naar de product-ID van de aankopen tabel](../../../../../translated_images/nl/sql-database.be160f12bfccefd3.png)
 
 Bijvoorbeeld, als je persoonlijke gegevens van een gebruiker opslaat in een tabel, zou je een soort interne unieke ID per gebruiker hebben die wordt gebruikt in een rij in een tabel die de naam en het adres van de gebruiker bevat. Als je vervolgens andere gegevens over die gebruiker wilt opslaan, zoals hun aankopen, in een andere tabel, zou je één kolom in de nieuwe tabel hebben voor de ID van die gebruiker. Wanneer je een gebruiker opzoekt, kun je hun ID gebruiken om hun persoonlijke gegevens uit één tabel te halen en hun aankopen uit een andere.
 
@@ -84,7 +84,7 @@ NoSQL-databases worden NoSQL genoemd omdat ze niet dezelfde rigide structuur heb
 
 > 💁 Ondanks hun naam staan sommige NoSQL-databases toe dat je SQL gebruikt om de gegevens op te vragen.
 
-![Documenten in mappen in een NoSQL-database](../../../../../translated_images/noqsl-database.62d24ccf5b73f60d35c245a8533f1c7147c0928e955b82cb290b2e184bb434df.nl.png)
+![Documenten in mappen in een NoSQL-database](../../../../../translated_images/nl/noqsl-database.62d24ccf5b73f60d35c245a8533f1c7147c0928e955b82cb290b2e184bb434df.png)
 
 NoSQL-databases hebben geen vooraf gedefinieerd schema dat beperkt hoe gegevens worden opgeslagen; in plaats daarvan kun je ongestructureerde gegevens invoegen, meestal met JSON-documenten. Deze documenten kunnen worden georganiseerd in mappen, vergelijkbaar met bestanden op je computer. Elk document kan verschillende velden hebben ten opzichte van andere documenten - bijvoorbeeld, als je IoT-gegevens van je landbouwvoertuigen opslaat, kunnen sommige velden hebben voor versnellingsmeter- en snelheidsgegevens, terwijl andere velden hebben voor de temperatuur in de aanhanger. Als je een nieuw type vrachtwagen toevoegt, zoals een met ingebouwde weegschalen om het gewicht van de vervoerde producten te volgen, kan je IoT-apparaat dit nieuwe veld toevoegen en kan het worden opgeslagen zonder wijzigingen aan de database.
 
@@ -98,7 +98,7 @@ In deze les ga je NoSQL-opslag gebruiken om IoT-gegevens op te slaan.
 
 In de vorige les heb je GPS-gegevens vastgelegd van een GPS-sensor die is aangesloten op je IoT-apparaat. Om deze IoT-gegevens in de cloud op te slaan, moet je ze naar een IoT-service verzenden. Je gebruikt opnieuw Azure IoT Hub, dezelfde IoT-cloudservice die je in het vorige project hebt gebruikt.
 
-![GPS-telemetrie verzenden van een IoT-apparaat naar IoT Hub](../../../../../translated_images/gps-telemetry-iot-hub.8115335d51cd2c1285d20e9d1b18cf685e59a8e093e7797291ef173445af6f3d.nl.png)
+![GPS-telemetrie verzenden van een IoT-apparaat naar IoT Hub](../../../../../translated_images/nl/gps-telemetry-iot-hub.8115335d51cd2c1285d20e9d1b18cf685e59a8e093e7797291ef173445af6f3d.png)
 
 ### Taak - GPS-gegevens verzenden naar een IoT Hub
 
@@ -180,7 +180,7 @@ Koude pad-gegevens worden opgeslagen in datawarehouses - databases die zijn ontw
 
 Zodra gegevens naar je IoT Hub stromen, kun je serverloze code schrijven om te luisteren naar gebeurtenissen die worden gepubliceerd naar het Event-Hub compatibele eindpunt. Dit is het warme pad - deze gegevens worden opgeslagen en gebruikt in de volgende les voor rapportage over de reis.
 
-![GPS-telemetrie verzenden van een IoT-apparaat naar IoT Hub, vervolgens naar Azure Functions via een event hub trigger](../../../../../translated_images/gps-telemetry-iot-hub-functions.24d3fa5592455e9f4e2fe73856b40c3915a292b90263c31d652acfd976cfedd8.nl.png)
+![GPS-telemetrie verzenden van een IoT-apparaat naar IoT Hub, vervolgens naar Azure Functions via een event hub trigger](../../../../../translated_images/nl/gps-telemetry-iot-hub-functions.24d3fa5592455e9f4e2fe73856b40c3915a292b90263c31d652acfd976cfedd8.png)
 
 ### Taak - GPS-evenementen verwerken met serverloze code
 
@@ -202,7 +202,7 @@ Zodra gegevens naar je IoT Hub stromen, kun je serverloze code schrijven om te l
 
 ## Azure Storage Accounts
 
-![Het Azure Storage-logo](../../../../../translated_images/azure-storage-logo.605c0f602c640d482a80f1b35a2629a32d595711b7ab1d7ceea843250615ff32.nl.png)
+![Het Azure Storage-logo](../../../../../translated_images/nl/azure-storage-logo.605c0f602c640d482a80f1b35a2629a32d595711b7ab1d7ceea843250615ff32.png)
 
 Azure Storage Accounts is een algemene opslagservice waarmee je gegevens op verschillende manieren kunt opslaan. Je kunt gegevens opslaan als blobs, in wachtrijen, in tabellen of als bestanden, en dit allemaal tegelijkertijd.
 
@@ -241,7 +241,7 @@ Je Functions-app moet nu verbinding maken met blob-opslag om de berichten van de
 
 In deze les gebruik je de Python SDK om te leren hoe je met blob-opslag kunt werken.
 
-![Het verzenden van GPS-telemetrie van een IoT-apparaat naar IoT Hub, vervolgens naar Azure Functions via een Event Hub-trigger, en het opslaan in blob-opslag](../../../../../translated_images/save-telemetry-to-storage-from-functions.ed3b1820980097f1.nl.png)
+![Het verzenden van GPS-telemetrie van een IoT-apparaat naar IoT Hub, vervolgens naar Azure Functions via een Event Hub-trigger, en het opslaan in blob-opslag](../../../../../translated_images/nl/save-telemetry-to-storage-from-functions.ed3b1820980097f1.png)
 
 De gegevens worden opgeslagen als een JSON-blob met het volgende formaat:
 

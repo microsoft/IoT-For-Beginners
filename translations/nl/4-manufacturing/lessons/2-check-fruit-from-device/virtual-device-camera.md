@@ -43,11 +43,11 @@ Voeg de camera toe aan de CounterFit-app.
 
     1. Selecteer de knop **Add** om de camera aan te maken.
 
-    ![De camera-instellingen](../../../../../translated_images/counterfit-create-camera.a5de97f59c0bd3cbe0416d7e89a3cfe86d19fbae05c641c53a91286412af0a34.nl.png)
+    ![De camera-instellingen](../../../../../translated_images/nl/counterfit-create-camera.a5de97f59c0bd3cbe0416d7e89a3cfe86d19fbae05c641c53a91286412af0a34.png)
 
     De camera wordt aangemaakt en verschijnt in de sensorenlijst.
 
-    ![De aangemaakte camera](../../../../../translated_images/counterfit-camera.001ec52194c8ee5d3f617173da2c79e1df903d10882adc625cbfc493525125d4.nl.png)
+    ![De aangemaakte camera](../../../../../translated_images/nl/counterfit-camera.001ec52194c8ee5d3f617173da2c79e1df903d10882adc625cbfc493525125d4.png)
 
 ## Programmeer de camera
 
@@ -112,7 +112,7 @@ Programmeur het apparaat.
 
 1. Stel de afbeelding in die de camera in CounterFit zal vastleggen. Je kunt de *Source* instellen op *File* en vervolgens een afbeeldingsbestand uploaden, of de *Source* instellen op *WebCam*, waarna afbeeldingen worden vastgelegd vanaf je webcam. Zorg ervoor dat je op de knop **Set** klikt nadat je een afbeelding hebt geselecteerd of je webcam hebt ingesteld.
 
-    ![CounterFit met een bestand ingesteld als afbeeldingsbron en een webcam ingesteld die een persoon toont die een banaan vasthoudt in een voorbeeldweergave van de webcam](../../../../../translated_images/counterfit-camera-options.eb3bd5150a8e7dffbf24bc5bcaba0cf2cdef95fbe6bbe393695d173817d6b8df.nl.png)
+    ![CounterFit met een bestand ingesteld als afbeeldingsbron en een webcam ingesteld die een persoon toont die een banaan vasthoudt in een voorbeeldweergave van de webcam](../../../../../translated_images/nl/counterfit-camera-options.eb3bd5150a8e7dffbf24bc5bcaba0cf2cdef95fbe6bbe393695d173817d6b8df.png)
 
 1. Een afbeelding wordt vastgelegd en opgeslagen als `image.jpg` in de huidige map. Je ziet dit bestand in de VS Code-verkenner. Selecteer het bestand om de afbeelding te bekijken. Als het moet worden gedraaid, pas dan de regel `camera.rotation = 0` aan en maak opnieuw een foto.
 

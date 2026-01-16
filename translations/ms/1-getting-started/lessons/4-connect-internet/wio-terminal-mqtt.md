@@ -64,7 +64,7 @@ Sambungkan Wio Terminal ke WiFi.
 
 1. Cipta fail baru dalam folder `src` bernama `config.h`. Anda boleh melakukannya dengan memilih folder `src`, atau fail `main.cpp` di dalamnya, dan memilih butang **New file** dari penjelajah. Butang ini hanya muncul apabila kursor anda berada di atas penjelajah.
 
-    ![Butang fail baru](../../../../../translated_images/vscode-new-file-button.182702340fe6723c.ms.png)
+    ![Butang fail baru](../../../../../translated_images/ms/vscode-new-file-button.182702340fe6723c.png)
 
 1. Tambahkan kod berikut ke fail ini untuk mentakrifkan pemalar untuk kelayakan WiFi anda:
 

@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Kjør fruktdetektoren din på kanten
 
-![En sketchnote-oversikt over denne leksjonen](../../../../../translated_images/lesson-17.bc333c3c35ba8e42cce666cfffa82b915f787f455bd94e006aea2b6f2722421a.no.jpg)
+![En sketchnote-oversikt over denne leksjonen](../../../../../translated_images/no/lesson-17.bc333c3c35ba8e42cce666cfffa82b915f787f455bd94e006aea2b6f2722421a.jpg)
 
 > Sketchnote av [Nitya Narasimhan](https://github.com/nitya). Klikk på bildet for en større versjon.
 
@@ -42,11 +42,11 @@ I denne leksjonen dekker vi:
 
 Kantberegning innebærer å ha datamaskiner som behandler IoT-data så nær som mulig der dataene genereres. I stedet for å ha denne behandlingen i skyen, flyttes den til kanten av skyen – ditt interne nettverk.
 
-![Et arkitekturdiagram som viser internettjenester i skyen og IoT-enheter på et lokalt nettverk](../../../../../translated_images/cloud-without-edge.b4da641f6022c95ed6b91fde8b5323abd2f94e0d52073ad54172ae8f5dac90e9.no.png)
+![Et arkitekturdiagram som viser internettjenester i skyen og IoT-enheter på et lokalt nettverk](../../../../../translated_images/no/cloud-without-edge.b4da641f6022c95ed6b91fde8b5323abd2f94e0d52073ad54172ae8f5dac90e9.png)
 
 I leksjonene så langt har du hatt enheter som samler inn data og sender data til skyen for å bli analysert, ved å kjøre serverløse funksjoner eller AI-modeller i skyen.
 
-![Et arkitekturdiagram som viser IoT-enheter på et lokalt nettverk som kobler seg til kantenheter, og disse kantenhetene kobler seg til skyen](../../../../../translated_images/cloud-with-edge.1e26462c62c126fe150bd15a5714ddf0be599f09bacbad08b85be02b76ea1ae1.no.png)
+![Et arkitekturdiagram som viser IoT-enheter på et lokalt nettverk som kobler seg til kantenheter, og disse kantenhetene kobler seg til skyen](../../../../../translated_images/no/cloud-with-edge.1e26462c62c126fe150bd15a5714ddf0be599f09bacbad08b85be02b76ea1ae1.png)
 
 Kantberegning innebærer å flytte noen av skytjenestene ut av skyen og over på datamaskiner som kjører på samme nettverk som IoT-enhetene, og kun kommunisere med skyen hvis nødvendig. For eksempel kan du kjøre AI-modeller på kantenheter for å analysere fruktens modenhet, og kun sende analyser tilbake til skyen, som antall modne frukter kontra umodne.
 
@@ -94,7 +94,7 @@ For IoT-systemer vil du ofte ønske en blanding av sky- og kantberegning, og utn
 
 ## Azure IoT Edge
 
-![Azure IoT Edge-logoen](../../../../../translated_images/azure-iot-edge-logo.c1c076749b5cba2e8755262fadc2f19ca1146b948d76990b1229199ac2292d79.no.png)
+![Azure IoT Edge-logoen](../../../../../translated_images/no/azure-iot-edge-logo.c1c076749b5cba2e8755262fadc2f19ca1146b948d76990b1229199ac2292d79.png)
 
 Azure IoT Edge er en tjeneste som kan hjelpe deg med å flytte arbeidsbelastninger ut av skyen og til kanten. Du setter opp en enhet som en kantenhet, og fra skyen kan du distribuere kode til denne kantenheten. Dette lar deg kombinere skyens og kantens kapabiliteter.
 
@@ -108,7 +108,7 @@ IoT Edge er innebygd i IoT Hub, slik at du kan administrere kantenheter ved hjel
 
 IoT Edge kjører kode fra *containere* – selvstendige applikasjoner som kjøres isolert fra resten av applikasjonene på datamaskinen din. Når du kjører en container, fungerer den som en separat datamaskin som kjører inne i datamaskinen din, med sin egen programvare, tjenester og applikasjoner. Som oftest kan containere ikke få tilgang til noe på datamaskinen din med mindre du velger å dele ting som en mappe med containeren. Containeren eksponerer deretter tjenester via en åpen port som du kan koble til eller eksponere for nettverket ditt.
 
-![En nettforespørsel omdirigert til en container](../../../../../translated_images/container-web-browser.4ee81dd4f0d8838ce622b2a0d600b6a4322b5d4fe43159facd87b7b34f84d66a.no.png)
+![En nettforespørsel omdirigert til en container](../../../../../translated_images/no/container-web-browser.4ee81dd4f0d8838ce622b2a0d600b6a4322b5d4fe43159facd87b7b34f84d66a.png)
 
 For eksempel kan du ha en container med et nettsted som kjører på port 80, standard HTTP-port, og du kan deretter eksponere den fra datamaskinen din også på port 80.
 
@@ -204,11 +204,11 @@ Når modellen er trent, må den eksporteres som en container.
 
 ## Forbered containeren din for distribusjon
 
-![Containere bygges, skyves til et containerregister, og distribueres deretter fra registeret til en edge-enhet ved hjelp av IoT Edge](../../../../../translated_images/container-edge-flow.c246050dd60ceefdb6ace026a4ce5c6aa4112bb5898ae23fbb2ab4be29ae3e1b.no.png)
+![Containere bygges, skyves til et containerregister, og distribueres deretter fra registeret til en edge-enhet ved hjelp av IoT Edge](../../../../../translated_images/no/container-edge-flow.c246050dd60ceefdb6ace026a4ce5c6aa4112bb5898ae23fbb2ab4be29ae3e1b.png)
 
 Når du har lastet ned modellen din, må den bygges inn i en container og deretter skyves til et containerregister - et nettbasert sted hvor du kan lagre containere. IoT Edge kan deretter laste ned containeren fra registeret og skyve den til enheten din.
 
-![Azure Container Registry-logoen](../../../../../translated_images/azure-container-registry-logo.09494206991d4b295025ebff7d4e2900325e527a59184ffbc8464b6ab59654be.no.png)
+![Azure Container Registry-logoen](../../../../../translated_images/no/azure-container-registry-logo.09494206991d4b295025ebff7d4e2900325e527a59184ffbc8464b6ab59654be.png)
 
 Containerregisteret du vil bruke for denne leksjonen er Azure Container Registry. Dette er ikke en gratis tjeneste, så for å spare penger må du [rydde opp i prosjektet ditt](../../../clean-up.md) når du er ferdig.
 

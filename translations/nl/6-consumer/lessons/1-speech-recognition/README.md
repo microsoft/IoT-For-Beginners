@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Spraak herkennen met een IoT-apparaat
 
-![Een schetsmatig overzicht van deze les](../../../../../translated_images/lesson-21.e34de51354d6606fb5ee08d8c89d0222eea0a2a7aaf744a8805ae847c4f69dc4.nl.jpg)
+![Een schetsmatig overzicht van deze les](../../../../../translated_images/nl/lesson-21.e34de51354d6606fb5ee08d8c89d0222eea0a2a7aaf744a8805ae847c4f69dc4.jpg)
 
 > Sketchnote door [Nitya Narasimhan](https://github.com/nitya). Klik op de afbeelding voor een grotere versie.
 
@@ -60,19 +60,19 @@ Microfoons zijn er in verschillende soorten:
 
     Dynamische microfoons hebben geen stroom nodig om te werken; het elektrische signaal wordt volledig door de microfoon zelf gegenereerd.
 
-    ![Patti Smith zingt in een Shure SM58 (dynamisch cardioïde type) microfoon](../../../../../translated_images/dynamic-mic.8babac890a2d80dfb0874b5bf37d4b851fe2aeb9da6fd72945746176978bf3bb.nl.jpg)
+    ![Patti Smith zingt in een Shure SM58 (dynamisch cardioïde type) microfoon](../../../../../translated_images/nl/dynamic-mic.8babac890a2d80dfb0874b5bf37d4b851fe2aeb9da6fd72945746176978bf3bb.jpg)
 
 * Ribbon - Ribbon-microfoons lijken op dynamische microfoons, behalve dat ze een metalen lint hebben in plaats van een membraan. Dit lint beweegt in een magnetisch veld en genereert een elektrische stroom. Net als dynamische microfoons hebben ribbon-microfoons geen stroom nodig om te werken.
 
-    ![Edmund Lowe, Amerikaanse acteur, staande bij een radiomicrofoon (gelabeld voor (NBC) Blue Network), met script in hand, 1942](../../../../../translated_images/ribbon-mic.eacc8e092c7441ca.nl.jpg)
+    ![Edmund Lowe, Amerikaanse acteur, staande bij een radiomicrofoon (gelabeld voor (NBC) Blue Network), met script in hand, 1942](../../../../../translated_images/nl/ribbon-mic.eacc8e092c7441ca.jpg)
 
 * Condensator - Condensatormicrofoons hebben een dun metalen membraan en een vaste metalen achterplaat. Elektriciteit wordt toegepast op beide en terwijl het membraan trilt, verandert de statische lading tussen de platen, wat een signaal genereert. Condensatormicrofoons hebben stroom nodig om te werken - dit wordt *Phantom power* genoemd.
 
-    ![C451B klein-diafragma condensatormicrofoon van AKG Acoustics](../../../../../translated_images/condenser-mic.6f6ed5b76ca19e0ec3fd0c544601542d4479a6cb7565db336de49fbbf69f623e.nl.jpg)
+    ![C451B klein-diafragma condensatormicrofoon van AKG Acoustics](../../../../../translated_images/nl/condenser-mic.6f6ed5b76ca19e0ec3fd0c544601542d4479a6cb7565db336de49fbbf69f623e.jpg)
 
 * MEMS - Micro-elektromechanische systemen microfoons, of MEMS, zijn microfoons op een chip. Ze hebben een drukgevoelig membraan dat is geëtst op een siliciumchip en werken vergelijkbaar met een condensatormicrofoon. Deze microfoons kunnen zeer klein zijn en geïntegreerd in schakelingen.
 
-    ![Een MEMS-microfoon op een printplaat](../../../../../translated_images/mems-microphone.80574019e1f5e4d9ee72fed720ecd25a39fc2969c91355d17ebb24ba4159e4c4.nl.png)
+    ![Een MEMS-microfoon op een printplaat](../../../../../translated_images/nl/mems-microphone.80574019e1f5e4d9ee72fed720ecd25a39fc2969c91355d17ebb24ba4159e4c4.png)
 
     In de afbeelding hierboven is de chip met het label **LEFT** een MEMS-microfoon, met een klein membraan van minder dan een millimeter breed.
 
@@ -84,7 +84,7 @@ Audio is een analoog signaal dat zeer gedetailleerde informatie bevat. Om dit si
 
 > 🎓 Bemonstering is het omzetten van het audiosignaal in een digitale waarde die het signaal op dat moment vertegenwoordigt.
 
-![Een lijngrafiek die een signaal toont, met discrete punten op vaste intervallen](../../../../../translated_images/sampling.6f4fadb3f2d9dfe7.nl.png)
+![Een lijngrafiek die een signaal toont, met discrete punten op vaste intervallen](../../../../../translated_images/nl/sampling.6f4fadb3f2d9dfe7.png)
 
 Digitale audio wordt bemonsterd met behulp van Pulse Code Modulation, of PCM. PCM houdt in dat de spanning van het signaal wordt gelezen en de dichtstbijzijnde discrete waarde wordt geselecteerd die overeenkomt met die spanning, met behulp van een gedefinieerde grootte.
 
@@ -168,7 +168,7 @@ Om de complexiteit van het trainen en gebruiken van een wekwoordmodel te vermijd
 
 ## Spraak omzetten naar tekst
 
-![Logo van spraakdiensten](../../../../../translated_images/azure-speech-logo.a1f08c4befb0159f2cb5d692d3baf5b599e7b44759d316da907bda1508f46a4a.nl.png)
+![Logo van spraakdiensten](../../../../../translated_images/nl/azure-speech-logo.a1f08c4befb0159f2cb5d692d3baf5b599e7b44759d316da907bda1508f46a4a.png)
 
 Net zoals bij beeldclassificatie in een eerder project, zijn er vooraf gebouwde AI-diensten die spraak als audiobestand kunnen nemen en omzetten naar tekst. Een van deze diensten is de Speech Service, onderdeel van de Cognitive Services, vooraf gebouwde AI-diensten die je in je apps kunt gebruiken.
 

@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Penyiraman tumbuhan automatik
 
-![Gambaran sketchnote untuk pelajaran ini](../../../../../translated_images/lesson-7.30b5f577d3cb8e031238751475cb519c7d6dbaea261b5df4643d086ffb2a03bb.ms.jpg)
+![Gambaran sketchnote untuk pelajaran ini](../../../../../translated_images/ms/lesson-7.30b5f577d3cb8e031238751475cb519c7d6dbaea261b5df4643d086ffb2a03bb.jpg)
 
 > Sketchnote oleh [Nitya Narasimhan](https://github.com/nitya). Klik gambar untuk versi yang lebih besar.
 
@@ -41,7 +41,7 @@ Peranti IoT menggunakan voltan rendah. Walaupun ini mencukupi untuk sensor dan a
 
 Penyelesaiannya adalah dengan menyambungkan pam kepada bekalan kuasa luaran, dan menggunakan aktuator untuk menghidupkan pam, sama seperti anda menghidupkan lampu. Ia hanya memerlukan sedikit kuasa (dalam bentuk tenaga dari badan anda) untuk jari anda menekan suis, dan ini menyambungkan lampu kepada elektrik utama yang berjalan pada 110v/240v.
 
-![Suis lampu menghidupkan kuasa kepada lampu](../../../../../translated_images/light-switch.760317ad6ab8bd6d611da5352dfe9c73a94a0822ccec7df3c8bae35da18e1658.ms.png)
+![Suis lampu menghidupkan kuasa kepada lampu](../../../../../translated_images/ms/light-switch.760317ad6ab8bd6d611da5352dfe9c73a94a0822ccec7df3c8bae35da18e1658.png)
 
 > 🎓 [Elektrik utama](https://wikipedia.org/wiki/Mains_electricity) merujuk kepada elektrik yang dihantar ke rumah dan perniagaan melalui infrastruktur nasional di banyak bahagian dunia.
 
@@ -55,11 +55,11 @@ Relay adalah suis elektromekanikal yang menukar isyarat elektrik kepada pergerak
 
 > 🎓 [Elektromagnet](https://wikipedia.org/wiki/Electromagnet) adalah magnet yang dicipta dengan mengalirkan elektrik melalui gegelung wayar. Apabila elektrik dihidupkan, gegelung menjadi bermagnet. Apabila elektrik dimatikan, gegelung kehilangan kemagnetannya.
 
-![Apabila dihidupkan, elektromagnet mencipta medan magnet, menghidupkan suis untuk litar output](../../../../../translated_images/relay-on.4db16a0fd6b66926.ms.png)
+![Apabila dihidupkan, elektromagnet mencipta medan magnet, menghidupkan suis untuk litar output](../../../../../translated_images/ms/relay-on.4db16a0fd6b66926.png)
 
 Dalam relay, litar kawalan menghidupkan elektromagnet. Apabila elektromagnet dihidupkan, ia menarik tuil yang menggerakkan suis, menutup sepasang kenalan dan melengkapkan litar output.
 
-![Apabila dimatikan, elektromagnet tidak mencipta medan magnet, mematikan suis untuk litar output](../../../../../translated_images/relay-off.c34a178a2960fecd.ms.png)
+![Apabila dimatikan, elektromagnet tidak mencipta medan magnet, mematikan suis untuk litar output](../../../../../translated_images/ms/relay-off.c34a178a2960fecd.png)
 
 Apabila litar kawalan dimatikan, elektromagnet dimatikan, melepaskan tuil dan membuka kenalan, mematikan litar output. Relay adalah aktuator digital - isyarat tinggi kepada relay menghidupkannya, isyarat rendah mematikannya.
 
@@ -81,11 +81,11 @@ Apabila tuil bergerak, anda biasanya boleh mendengar ia membuat sentuhan dengan 
 
 Elektromagnet tidak memerlukan banyak kuasa untuk diaktifkan dan menarik tuil, ia boleh dikawal menggunakan output 3.3V atau 5V dari kit pembangunan IoT. Litar output boleh membawa kuasa yang jauh lebih tinggi, bergantung pada relay, termasuk voltan utama atau tahap kuasa yang lebih tinggi untuk kegunaan industri. Dengan cara ini, kit pembangunan IoT boleh mengawal sistem pengairan, dari pam kecil untuk satu tumbuhan, hingga sistem industri besar untuk seluruh ladang komersial.
 
-![Relay Grove dengan litar kawalan, litar output dan relay dilabelkan](../../../../../translated_images/grove-relay-labelled.293e068f5c3c2a199bd7892f2661fdc9e10c920b535cfed317fbd6d1d4ae1168.ms.png)
+![Relay Grove dengan litar kawalan, litar output dan relay dilabelkan](../../../../../translated_images/ms/grove-relay-labelled.293e068f5c3c2a199bd7892f2661fdc9e10c920b535cfed317fbd6d1d4ae1168.png)
 
 Gambar di atas menunjukkan relay Grove. Litar kawalan disambungkan kepada peranti IoT dan menghidupkan atau mematikan relay menggunakan 3.3V atau 5V. Litar output mempunyai dua terminal, salah satu daripadanya boleh menjadi kuasa atau tanah. Litar output boleh mengendalikan sehingga 250V pada 10A, mencukupi untuk pelbagai peranti berkuasa utama. Anda boleh mendapatkan relay yang boleh mengendalikan tahap kuasa yang lebih tinggi.
 
-![Pam disambungkan melalui relay](../../../../../translated_images/pump-wired-to-relay.66c5cfc0d8918990.ms.png)
+![Pam disambungkan melalui relay](../../../../../translated_images/ms/pump-wired-to-relay.66c5cfc0d8918990.png)
 
 Dalam gambar di atas, kuasa dibekalkan kepada pam melalui relay. Terdapat wayar merah yang menyambungkan terminal +5V bekalan kuasa USB ke satu terminal litar output relay, dan satu lagi wayar merah menyambungkan terminal lain litar output ke pam. Wayar hitam menyambungkan pam ke tanah pada bekalan kuasa USB. Apabila relay dihidupkan, ia melengkapkan litar, menghantar 5V ke pam, menghidupkan pam.
 
@@ -135,7 +135,7 @@ Dalam pelajaran 3, anda telah membina lampu malam - LED yang menyala sebaik saha
 
 Jika anda telah melakukan pelajaran terakhir tentang kelembapan tanah menggunakan sensor fizikal, anda mungkin perasan bahawa bacaan kelembapan tanah mengambil masa beberapa saat untuk menurun selepas anda menyiram tumbuhan anda. Ini bukan kerana sensor lambat, tetapi kerana air memerlukan masa untuk meresap ke dalam tanah.
 💁 Jika anda menyiram terlalu dekat dengan sensor, anda mungkin melihat bacaan menurun dengan cepat, kemudian naik semula - ini disebabkan oleh air berhampiran sensor yang tersebar ke seluruh tanah, mengurangkan kelembapan tanah di sekitar sensor.
-![Bacaan kelembapan tanah sebanyak 658 tidak berubah semasa penyiraman, ia hanya turun kepada 320 selepas penyiraman apabila air telah meresap ke dalam tanah](../../../../../translated_images/soil-moisture-travel.a0e31af222cf1438.ms.png)
+![Bacaan kelembapan tanah sebanyak 658 tidak berubah semasa penyiraman, ia hanya turun kepada 320 selepas penyiraman apabila air telah meresap ke dalam tanah](../../../../../translated_images/ms/soil-moisture-travel.a0e31af222cf1438.png)
 
 Dalam rajah di atas, bacaan kelembapan tanah menunjukkan 658. Tumbuhan disiram, tetapi bacaan ini tidak berubah dengan segera kerana air belum sampai ke sensor. Penyiraman boleh selesai sebelum air sampai ke sensor dan nilai turun untuk mencerminkan tahap kelembapan yang baru.
 
@@ -157,11 +157,11 @@ Berapa lama relay perlu dihidupkan setiap kali? Lebih baik berhati-hati dan hany
 
 > 💁 Kawalan pemasaan seperti ini sangat khusus untuk peranti IoT yang anda bina, sifat yang anda ukur dan sensor serta penggerak yang digunakan.
 
-![Tumbuhan strawberi disambungkan kepada air melalui pam, dengan pam disambungkan kepada relay. Relay dan sensor kelembapan tanah dalam tumbuhan kedua-duanya disambungkan kepada Raspberry Pi](../../../../../translated_images/strawberry-with-pump.b410fc72ac6aabad.ms.png)
+![Tumbuhan strawberi disambungkan kepada air melalui pam, dengan pam disambungkan kepada relay. Relay dan sensor kelembapan tanah dalam tumbuhan kedua-duanya disambungkan kepada Raspberry Pi](../../../../../translated_images/ms/strawberry-with-pump.b410fc72ac6aabad.png)
 
 Sebagai contoh, saya mempunyai tumbuhan strawberi dengan sensor kelembapan tanah dan pam yang dikawal oleh relay. Saya telah memerhatikan bahawa apabila saya menambah air, ia mengambil masa kira-kira 20 saat untuk bacaan kelembapan tanah stabil. Ini bermakna saya perlu mematikan relay dan menunggu 20 saat sebelum memeriksa tahap kelembapan. Saya lebih suka mempunyai terlalu sedikit air daripada terlalu banyak - saya sentiasa boleh menghidupkan pam semula, tetapi saya tidak boleh mengeluarkan air dari tumbuhan.
 
-![Langkah 1, ambil pengukuran. Langkah 2, tambah air. Langkah 3, tunggu air meresap ke dalam tanah. Langkah 4, ambil pengukuran semula](../../../../../translated_images/soil-moisture-delay.865f3fae206db01d.ms.png)
+![Langkah 1, ambil pengukuran. Langkah 2, tambah air. Langkah 3, tunggu air meresap ke dalam tanah. Langkah 4, ambil pengukuran semula](../../../../../translated_images/ms/soil-moisture-delay.865f3fae206db01d.png)
 
 Ini bermakna proses terbaik ialah kitaran penyiraman yang seperti berikut:
 

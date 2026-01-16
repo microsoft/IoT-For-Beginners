@@ -27,13 +27,13 @@ Czujnik Grove GPS można podłączyć do Wio Terminal.
 
 Podłącz czujnik GPS.
 
-![Czujnik Grove GPS](../../../../../translated_images/grove-gps-sensor.247943bf69b03f0d1820ef6ed10c587f9b650e8db55b936851c92412180bd3e2.pl.png)
+![Czujnik Grove GPS](../../../../../translated_images/pl/grove-gps-sensor.247943bf69b03f0d1820ef6ed10c587f9b650e8db55b936851c92412180bd3e2.png)
 
 1. Włóż jeden koniec kabla Grove do gniazda w czujniku GPS. Kabel wejdzie tylko w jednym kierunku.
 
 1. Gdy Wio Terminal jest odłączony od komputera lub innego źródła zasilania, podłącz drugi koniec kabla Grove do gniazda Grove po lewej stronie Wio Terminal, patrząc na ekran. Jest to gniazdo najbliżej przycisku zasilania.
 
-    ![Czujnik Grove GPS podłączony do lewego gniazda](../../../../../translated_images/wio-gps-sensor.19fd52b81ce58095.pl.png)
+    ![Czujnik Grove GPS podłączony do lewego gniazda](../../../../../translated_images/pl/wio-gps-sensor.19fd52b81ce58095.png)
 
 1. Umieść czujnik GPS tak, aby podłączona antena miała widoczność na niebo - najlepiej obok otwartego okna lub na zewnątrz. Łatwiej uzyskać wyraźny sygnał, gdy nic nie zasłania anteny.
 

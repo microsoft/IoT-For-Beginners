@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Locatiegegevens visualiseren
 
-![Een schetsnotitie-overzicht van deze les](../../../../../translated_images/lesson-13.a259db1485021be7d7c72e90842fbe0ab977529e8684c179b5fb1ea75e92b3ef.nl.jpg)
+![Een schetsnotitie-overzicht van deze les](../../../../../translated_images/nl/lesson-13.a259db1485021be7d7c72e90842fbe0ab977529e8684c179b5fb1ea75e92b3ef.jpg)
 
 > Schetsnotitie door [Nitya Narasimhan](https://github.com/nitya). Klik op de afbeelding voor een grotere versie.
 
@@ -73,11 +73,11 @@ Een eenvoudig voorbeeld: in het landbouwproject heb je vochtigheidsmetingen van 
 
 Voor een mens kan het begrijpen van deze gegevens lastig zijn. Het is een muur van cijfers zonder betekenis. Als eerste stap om deze gegevens te visualiseren, kunnen ze worden uitgezet in een lijndiagram:
 
-![Een lijndiagram van de bovenstaande gegevens](../../../../../translated_images/chart-soil-moisture.fd6d9d0cdc0b5f75e78038ecb8945dfc84b38851359de99d84b16e3336d6d7c2.nl.png)
+![Een lijndiagram van de bovenstaande gegevens](../../../../../translated_images/nl/chart-soil-moisture.fd6d9d0cdc0b5f75e78038ecb8945dfc84b38851359de99d84b16e3336d6d7c2.png)
 
 Dit kan verder worden verbeterd door een lijn toe te voegen die aangeeft wanneer het automatische bewateringssysteem werd ingeschakeld bij een bodemvochtmeting van 450:
 
-![Een lijndiagram van bodemvocht met een lijn bij 450](../../../../../translated_images/chart-soil-moisture-relay.fbb391236d34a64d0abf1df396e9197e0a24df14150620b9cc820a64a55c9326.nl.png)
+![Een lijndiagram van bodemvocht met een lijn bij 450](../../../../../translated_images/nl/chart-soil-moisture-relay.fbb391236d34a64d0abf1df396e9197e0a24df14150620b9cc820a64a55c9326.png)
 
 Dit diagram laat heel snel zien niet alleen wat de bodemvochtigheidsniveaus waren, maar ook de punten waarop het bewateringssysteem werd ingeschakeld.
 
@@ -93,7 +93,7 @@ Bij het werken met GPS-gegevens kan de duidelijkste visualisatie zijn om de gege
 
 Werken met kaarten is een interessante oefening, en er zijn veel opties om uit te kiezen, zoals Bing Maps, Leaflet, Open Street Maps en Google Maps. In deze les leer je over [Azure Maps](https://azure.microsoft.com/services/azure-maps/?WT.mc_id=academic-17441-jabenn) en hoe je hiermee je GPS-gegevens kunt weergeven.
 
-![Het Azure Maps-logo](../../../../../translated_images/azure-maps-logo.35d01dcfbd81fe6140e94257aaa1538f785a58c91576d14e0ebe7a2f6c694b99.nl.png)
+![Het Azure Maps-logo](../../../../../translated_images/nl/azure-maps-logo.35d01dcfbd81fe6140e94257aaa1538f785a58c91576d14e0ebe7a2f6c694b99.png)
 
 Azure Maps is "een verzameling geospatiale services en SDK's die gebruik maken van actuele kaartgegevens om geografische context te bieden aan web- en mobiele applicaties." Ontwikkelaars krijgen tools om prachtige, interactieve kaarten te maken die dingen kunnen doen zoals aanbevolen verkeersroutes bieden, informatie geven over verkeersincidenten, indoor navigatie, zoekmogelijkheden, hoogte-informatie, weerservices en meer.
 
@@ -194,7 +194,7 @@ Nu kun je de volgende stap zetten, namelijk je kaart weergeven op een webpagina.
 
     Als je je `index.html`-pagina opent in een webbrowser, zou je een kaart moeten zien die is geladen en gericht is op het gebied van Seattle.
 
-    ![Een kaart die Seattle toont, een stad in de staat Washington, VS](../../../../../translated_images/map-image.8fb2c53eb23ef39c1c0a4410a5282e879b3b452b707eb066ff04c5488d3d72b7.nl.png)
+    ![Een kaart die Seattle toont, een stad in de staat Washington, VS](../../../../../translated_images/nl/map-image.8fb2c53eb23ef39c1c0a4410a5282e879b3b452b707eb066ff04c5488d3d72b7.png)
 
     ✅ Experimenteer met de zoom- en middenparameters om je kaartweergave te wijzigen. Je kunt verschillende coördinaten toevoegen die overeenkomen met de breedte- en lengtegraad van je gegevens om de kaart opnieuw te centreren.
 
@@ -328,7 +328,7 @@ Als je een oproep doet naar je opslag om de gegevens op te halen, kun je verrast
 
 1. Laad de HTML-pagina in je browser. De kaart wordt geladen, vervolgens worden alle GPS-gegevens uit de opslag geladen en op de kaart geplot.
 
-    ![Een kaart van Saint Edward State Park nabij Seattle, met cirkels die een pad rond de rand van het park tonen](../../../../../translated_images/map-path.896832e72dc696ffe20650e4051027d4855442d955f93fdbb80bb417ca8a406f.nl.png)
+    ![Een kaart van Saint Edward State Park nabij Seattle, met cirkels die een pad rond de rand van het park tonen](../../../../../translated_images/nl/map-path.896832e72dc696ffe20650e4051027d4855442d955f93fdbb80bb417ca8a406f.png)
 
 > 💁 Je kunt deze code vinden in de [code](../../../../../3-transport/lessons/3-visualize-location-data/code) map.
 

@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Pastikan Tumbuhan Anda Selamat
 
-![Gambaran sketchnote untuk pelajaran ini](../../../../../translated_images/lesson-10.829c86b80b9403bb770929ee553a1d293afe50dc23121aaf9be144673ae012cc.ms.jpg)
+![Gambaran sketchnote untuk pelajaran ini](../../../../../translated_images/ms/lesson-10.829c86b80b9403bb770929ee553a1d293afe50dc23121aaf9be144673ae012cc.jpg)
 
 > Sketchnote oleh [Nitya Narasimhan](https://github.com/nitya). Klik imej untuk versi yang lebih besar.
 
@@ -61,11 +61,11 @@ Ini adalah senario dunia sebenar, dan berlaku sepanjang masa. Beberapa contoh te
 
 Apabila peranti menyambung ke perkhidmatan IoT, ia menggunakan ID untuk mengenal pasti dirinya. Masalahnya ialah ID ini boleh digandakan - penggodam boleh menyediakan peranti berniat jahat yang menggunakan ID yang sama seperti peranti sebenar tetapi menghantar data palsu.
 
-![Kedua-dua peranti sah dan berniat jahat boleh menggunakan ID yang sama untuk menghantar telemetri](../../../../../translated_images/iot-device-and-hacked-device-connecting.e0671675df74d6d99eb1dedb5a670e606f698efa6202b1ad4c8ae548db299cc6.ms.png)
+![Kedua-dua peranti sah dan berniat jahat boleh menggunakan ID yang sama untuk menghantar telemetri](../../../../../translated_images/ms/iot-device-and-hacked-device-connecting.e0671675df74d6d99eb1dedb5a670e606f698efa6202b1ad4c8ae548db299cc6.png)
 
 Cara untuk mengatasi masalah ini adalah dengan menukar data yang dihantar ke format yang dikodkan, menggunakan nilai tertentu yang hanya diketahui oleh peranti dan awan. Proses ini dipanggil *penyulitan*, dan nilai yang digunakan untuk menyulitkan data dipanggil *kunci penyulitan*.
 
-![Jika penyulitan digunakan, hanya mesej yang disulitkan akan diterima, yang lain akan ditolak](../../../../../translated_images/iot-device-and-hacked-device-connecting-encryption.5941aff601fc978f979e46f2849b573564eeb4a4dc5b52f669f62745397492fb.ms.png)
+![Jika penyulitan digunakan, hanya mesej yang disulitkan akan diterima, yang lain akan ditolak](../../../../../translated_images/ms/iot-device-and-hacked-device-connecting-encryption.5941aff601fc978f979e46f2849b573564eeb4a4dc5b52f669f62745397492fb.png)
 
 Perkhidmatan awan kemudian boleh menukar data kembali ke format yang boleh dibaca, menggunakan proses yang dipanggil *penyahulitan*, sama ada menggunakan kunci penyulitan yang sama, atau *kunci penyahulitan*. Jika mesej yang disulitkan tidak dapat dinyahulitkan oleh kunci, peranti telah digodam dan mesej ditolak.
 
@@ -97,15 +97,15 @@ Penyulitan datang dalam dua jenis - simetri dan asimetri.
 
 **Simetri** menggunakan kunci yang sama untuk menyulitkan dan menyahulitkan data. Pengirim dan penerima perlu mengetahui kunci yang sama. Ini adalah jenis yang paling kurang selamat, kerana kunci perlu dikongsi dengan cara tertentu. Untuk pengirim menghantar mesej yang disulitkan kepada penerima, pengirim mungkin perlu menghantar kunci kepada penerima terlebih dahulu.
 
-![Penyulitan kunci simetri menggunakan kunci yang sama untuk menyulitkan dan menyahulitkan mesej](../../../../../translated_images/send-message-symmetric-key.a2e8ad0d495896ff.ms.png)
+![Penyulitan kunci simetri menggunakan kunci yang sama untuk menyulitkan dan menyahulitkan mesej](../../../../../translated_images/ms/send-message-symmetric-key.a2e8ad0d495896ff.png)
 
 Jika kunci dicuri semasa penghantaran, atau pengirim atau penerima digodam dan kunci ditemui, penyulitan boleh dipecahkan.
 
-![Penyulitan kunci simetri hanya selamat jika penggodam tidak mendapat kunci - jika ya, mereka boleh memintas dan menyahulitkan mesej](../../../../../translated_images/send-message-symmetric-key-hacker.e7cb53db1707adfb.ms.png)
+![Penyulitan kunci simetri hanya selamat jika penggodam tidak mendapat kunci - jika ya, mereka boleh memintas dan menyahulitkan mesej](../../../../../translated_images/ms/send-message-symmetric-key-hacker.e7cb53db1707adfb.png)
 
 **Asimetri** menggunakan 2 kunci - kunci penyulitan dan kunci penyahulitan, yang dirujuk sebagai pasangan kunci awam/peribadi. Kunci awam digunakan untuk menyulitkan mesej, tetapi tidak boleh digunakan untuk menyahulitkannya, kunci peribadi digunakan untuk menyahulitkan mesej tetapi tidak boleh digunakan untuk menyulitkannya.
 
-![Penyulitan asimetri menggunakan kunci yang berbeza untuk menyulitkan dan menyahulitkan. Kunci penyulitan dihantar kepada pengirim mesej supaya mereka boleh menyulitkan mesej sebelum menghantarnya kepada penerima yang memiliki kunci](../../../../../translated_images/send-message-asymmetric.7abe327c62615b8c.ms.png)
+![Penyulitan asimetri menggunakan kunci yang berbeza untuk menyulitkan dan menyahulitkan. Kunci penyulitan dihantar kepada pengirim mesej supaya mereka boleh menyulitkan mesej sebelum menghantarnya kepada penerima yang memiliki kunci](../../../../../translated_images/ms/send-message-asymmetric.7abe327c62615b8c.png)
 
 Penerima berkongsi kunci awam mereka, dan pengirim menggunakan ini untuk menyulitkan mesej. Setelah mesej dihantar, penerima menyahulitkannya dengan kunci peribadi mereka. Penyulitan asimetri lebih selamat kerana kunci peribadi disimpan secara peribadi oleh penerima dan tidak pernah dikongsi. Sesiapa sahaja boleh memiliki kunci awam kerana ia hanya boleh digunakan untuk menyulitkan mesej.
 
@@ -165,7 +165,7 @@ Sijil-sijil ini mempunyai beberapa medan di dalamnya, termasuk siapa kunci awam 
 
 Apabila menggunakan sijil X.509, kedua-dua penghantar dan penerima akan mempunyai kunci awam dan peribadi mereka sendiri, serta kedua-duanya mempunyai sijil X.509 yang mengandungi kunci awam. Mereka kemudian bertukar sijil X.509 dengan cara tertentu, menggunakan kunci awam masing-masing untuk mengenkripsi data yang mereka hantar, dan kunci peribadi mereka sendiri untuk mendekripsi data yang mereka terima.
 
-![Daripada berkongsi kunci awam, anda boleh berkongsi sijil. Pengguna sijil boleh mengesahkan bahawa ia berasal dari anda dengan memeriksa dengan pihak berkuasa sijil yang menandatanganinya.](../../../../../translated_images/send-message-certificate.9cc576ac1e46b76e.ms.png)
+![Daripada berkongsi kunci awam, anda boleh berkongsi sijil. Pengguna sijil boleh mengesahkan bahawa ia berasal dari anda dengan memeriksa dengan pihak berkuasa sijil yang menandatanganinya.](../../../../../translated_images/ms/send-message-certificate.9cc576ac1e46b76e.png)
 
 Satu kelebihan besar menggunakan sijil X.509 ialah ia boleh dikongsi antara peranti. Anda boleh membuat satu sijil, memuat naiknya ke IoT Hub, dan menggunakannya untuk semua peranti anda. Setiap peranti hanya perlu mengetahui kunci peribadi untuk mendekripsi mesej yang diterima dari IoT Hub.
 

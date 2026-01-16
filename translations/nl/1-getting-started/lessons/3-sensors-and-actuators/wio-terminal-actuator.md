@@ -35,7 +35,7 @@ De Grove LED wordt geleverd als een module met een selectie van LEDs, zodat je d
 
 Sluit de LED aan.
 
-![Een Grove LED](../../../../../translated_images/grove-led.6c853be93f473cf2c439cfc74bb1064732b22251a83cedf66e62f783f9cc1a79.nl.png)
+![Een Grove LED](../../../../../translated_images/nl/grove-led.6c853be93f473cf2c439cfc74bb1064732b22251a83cedf66e62f783f9cc1a79.png)
 
 1. Kies je favoriete LED en steek de pootjes in de twee gaten op de LED-module.
 
@@ -51,7 +51,7 @@ Sluit de LED aan.
 
     > 💁 De rechter Grove-socket kan worden gebruikt met analoge of digitale sensoren en actuatoren. De linker socket is alleen voor I2C en digitale sensoren en actuatoren.
 
-![De Grove LED aangesloten op de rechter socket](../../../../../translated_images/wio-led.265a1897e72d7f21.nl.png)
+![De Grove LED aangesloten op de rechter socket](../../../../../translated_images/nl/wio-led.265a1897e72d7f21.png)
 
 ## Programmeer het nachtlampje
 

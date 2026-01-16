@@ -27,17 +27,17 @@ Grove माटोको चिस्यान सेन्सर Wio Terminal �
 
 माटोको चिस्यान सेन्सर जडान गर्नुहोस्।
 
-![एक Grove माटोको चिस्यान सेन्सर](../../../../../translated_images/grove-capacitive-soil-moisture-sensor.e7f0776cce30e78be5cc5a07839385fd6718857f31b5bf5ad3d0c73c83b2f0ef.ne.png)
+![एक Grove माटोको चिस्यान सेन्सर](../../../../../translated_images/ne/grove-capacitive-soil-moisture-sensor.e7f0776cce30e78be5cc5a07839385fd6718857f31b5bf5ad3d0c73c83b2f0ef.png)
 
 1. Grove केबलको एक छेउ माटोको चिस्यान सेन्सरको सॉकेटमा हाल्नुहोस्। यो केवल एक तरिकामा मात्र जडान हुन्छ।
 
 1. Wio Terminal लाई तपाईंको कम्प्युटर वा अन्य पावर सप्लाईबाट डिस्कनेक्ट गरेर, Grove केबलको अर्को छेउ Wio Terminal को स्क्रिन हेर्दा दायाँपट्टि रहेको Grove सॉकेटमा जडान गर्नुहोस्। यो सॉकेट पावर बटनबाट सबैभन्दा टाढा रहेको छ।
 
-![Grove माटोको चिस्यान सेन्सर दायाँपट्टि रहेको सॉकेटमा जडान गरिएको](../../../../../translated_images/wio-soil-moisture-sensor.46919b61c3f6cb74.ne.png)
+![Grove माटोको चिस्यान सेन्सर दायाँपट्टि रहेको सॉकेटमा जडान गरिएको](../../../../../translated_images/ne/wio-soil-moisture-sensor.46919b61c3f6cb74.png)
 
 1. माटोको चिस्यान सेन्सरलाई माटोमा हाल्नुहोस्। यसमा 'सबभन्दा माथिल्लो स्थान रेखा' छ - सेन्सरमा सेतो रेखा। सेन्सरलाई यस रेखासम्म तर यसलाई पार नगरी हाल्नुहोस्।
 
-![माटोमा Grove माटोको चिस्यान सेन्सर](../../../../../translated_images/soil-moisture-sensor-in-soil.bfad91002bda5e96.ne.png)
+![माटोमा Grove माटोको चिस्यान सेन्सर](../../../../../translated_images/ne/soil-moisture-sensor-in-soil.bfad91002bda5e96.png)
 
 1. अब तपाईं Wio Terminal लाई तपाईंको कम्प्युटरमा जडान गर्न सक्नुहुन्छ।
 

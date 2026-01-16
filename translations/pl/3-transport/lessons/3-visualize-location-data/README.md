@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Wizualizacja danych lokalizacyjnych
 
-![Szkicowy przegląd tej lekcji](../../../../../translated_images/lesson-13.a259db1485021be7d7c72e90842fbe0ab977529e8684c179b5fb1ea75e92b3ef.pl.jpg)
+![Szkicowy przegląd tej lekcji](../../../../../translated_images/pl/lesson-13.a259db1485021be7d7c72e90842fbe0ab977529e8684c179b5fb1ea75e92b3ef.jpg)
 
 > Szkic autorstwa [Nitya Narasimhan](https://github.com/nitya). Kliknij obrazek, aby zobaczyć większą wersję.
 
@@ -73,11 +73,11 @@ Weźmy prosty przykład - w projekcie farmy rejestrowałeś poziomy wilgotności
 
 Dla człowieka zrozumienie tych danych może być trudne. To ściana liczb bez większego znaczenia. Pierwszym krokiem do wizualizacji tych danych może być ich przedstawienie na wykresie liniowym:
 
-![Wykres liniowy powyższych danych](../../../../../translated_images/chart-soil-moisture.fd6d9d0cdc0b5f75e78038ecb8945dfc84b38851359de99d84b16e3336d6d7c2.pl.png)
+![Wykres liniowy powyższych danych](../../../../../translated_images/pl/chart-soil-moisture.fd6d9d0cdc0b5f75e78038ecb8945dfc84b38851359de99d84b16e3336d6d7c2.png)
 
 Można to dodatkowo ulepszyć, dodając linię wskazującą moment włączenia automatycznego systemu nawadniania przy odczycie wilgotności gleby wynoszącym 450:
 
-![Wykres liniowy wilgotności gleby z linią przy wartości 450](../../../../../translated_images/chart-soil-moisture-relay.fbb391236d34a64d0abf1df396e9197e0a24df14150620b9cc820a64a55c9326.pl.png)
+![Wykres liniowy wilgotności gleby z linią przy wartości 450](../../../../../translated_images/pl/chart-soil-moisture-relay.fbb391236d34a64d0abf1df396e9197e0a24df14150620b9cc820a64a55c9326.png)
 
 Ten wykres szybko pokazuje nie tylko poziomy wilgotności gleby, ale także punkty, w których system nawadniania został włączony.
 
@@ -93,7 +93,7 @@ Pracując z danymi GPS, najczytelniejszą wizualizacją może być naniesienie d
 
 Praca z mapami to interesujące zadanie, a dostępnych jest wiele opcji, takich jak Bing Maps, Leaflet, Open Street Maps czy Google Maps. W tej lekcji dowiesz się o [Azure Maps](https://azure.microsoft.com/services/azure-maps/?WT.mc_id=academic-17441-jabenn) i o tym, jak mogą one wyświetlać dane GPS.
 
-![Logo Azure Maps](../../../../../translated_images/azure-maps-logo.35d01dcfbd81fe6140e94257aaa1538f785a58c91576d14e0ebe7a2f6c694b99.pl.png)
+![Logo Azure Maps](../../../../../translated_images/pl/azure-maps-logo.35d01dcfbd81fe6140e94257aaa1538f785a58c91576d14e0ebe7a2f6c694b99.png)
 
 Azure Maps to "zbiór usług geolokalizacyjnych i SDK, które wykorzystują aktualne dane mapowe, aby dostarczyć kontekst geograficzny dla aplikacji internetowych i mobilnych." Programiści otrzymują narzędzia do tworzenia pięknych, interaktywnych map, które mogą oferować takie funkcje jak rekomendowane trasy, informacje o zdarzeniach drogowych, nawigacja wewnętrzna, możliwości wyszukiwania, dane o wysokości terenu, usługi pogodowe i wiele więcej.
 
@@ -194,7 +194,7 @@ Teraz możesz przejść do kolejnego kroku, czyli wyświetlenia mapy na stronie 
 
     Jeśli otworzysz swój plik `index.html` w przeglądarce internetowej, powinieneś zobaczyć załadowaną mapę, skoncentrowaną na obszarze Seattle.
 
-    ![Mapa pokazująca Seattle, miasto w stanie Waszyngton, USA](../../../../../translated_images/map-image.8fb2c53eb23ef39c1c0a4410a5282e879b3b452b707eb066ff04c5488d3d72b7.pl.png)
+    ![Mapa pokazująca Seattle, miasto w stanie Waszyngton, USA](../../../../../translated_images/pl/map-image.8fb2c53eb23ef39c1c0a4410a5282e879b3b452b707eb066ff04c5488d3d72b7.png)
 
     ✅ Eksperymentuj z parametrami zoom i center, aby zmienić wyświetlanie mapy. Możesz dodać różne współrzędne odpowiadające szerokości i długości geograficznej swoich danych, aby zmienić środek mapy.
 
@@ -328,7 +328,7 @@ Jeśli wykonasz zapytanie do swojego magazynu, aby pobrać dane, możesz być za
 
 1. Załaduj stronę HTML w przeglądarce. Załaduje ona mapę, a następnie wszystkie dane GPS z magazynu i wyświetli je na mapie.
 
-    ![Mapa Saint Edward State Park w pobliżu Seattle, z okręgami pokazującymi ścieżkę wokół krawędzi parku](../../../../../translated_images/map-path.896832e72dc696ffe20650e4051027d4855442d955f93fdbb80bb417ca8a406f.pl.png)
+    ![Mapa Saint Edward State Park w pobliżu Seattle, z okręgami pokazującymi ścieżkę wokół krawędzi parku](../../../../../translated_images/pl/map-path.896832e72dc696ffe20650e4051027d4855442d955f93fdbb80bb417ca8a406f.png)
 
 > 💁 Ten kod znajdziesz w folderze [code](../../../../../3-transport/lessons/3-visualize-location-data/code).
 

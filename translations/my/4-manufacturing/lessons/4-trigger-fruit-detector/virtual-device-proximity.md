@@ -45,11 +45,11 @@ CounterFit app တွင် အကွာအဝေးအာရုံခံကိ�
 
     1. **Add** ခလုတ်ကို ရွေးပြီး အကွာအဝေးအာရုံခံကိရိယာကို ဖန်တီးပါ။
 
-    ![အကွာအဝေးအာရုံခံကိရိယာ၏ ဆက်တင်များ](../../../../../translated_images/counterfit-create-distance-sensor.967c9fb98f27888d95920c9784d004c972490eb71f70397fe13bd70a79a879a3.my.png)
+    ![အကွာအဝေးအာရုံခံကိရိယာ၏ ဆက်တင်များ](../../../../../translated_images/my/counterfit-create-distance-sensor.967c9fb98f27888d95920c9784d004c972490eb71f70397fe13bd70a79a879a3.png)
 
     အကွာအဝေးအာရုံခံကိရိယာကို ဖန်တီးပြီး အာရုံခံကိရိယာစာရင်းတွင် ပေါ်လာမည်။
 
-    ![ဖန်တီးပြီးသော အကွာအဝေးအာရုံခံကိရိယာ](../../../../../translated_images/counterfit-distance-sensor.079eefeeea0b68afc36431ce8fcbe2f09a7e4916ed1cd5cb30e696db53bc18fa.my.png)
+    ![ဖန်တီးပြီးသော အကွာအဝေးအာရုံခံကိရိယာ](../../../../../translated_images/my/counterfit-distance-sensor.079eefeeea0b68afc36431ce8fcbe2f09a7e4916ed1cd5cb30e696db53bc18fa.png)
 
 ## အကွာအဝေးအာရုံခံကိရိယာကို အစီအစဉ်ရေးပါ
 

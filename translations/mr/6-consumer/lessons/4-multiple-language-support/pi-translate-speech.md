@@ -34,7 +34,7 @@ CO_OP_TRANSLATOR_METADATA:
     >
     > उदाहरणार्थ, जर तुम्ही LUIS इंग्रजीत प्रशिक्षण दिले असेल, पण वापरकर्ता भाषा म्हणून फ्रेंच वापरायची असेल, तर "set a 2 minute and 27 second timer" हे वाक्य Bing Translate वापरून इंग्रजीतून फ्रेंचमध्ये भाषांतरित करा, आणि नंतर **Listen translation** बटण वापरून भाषांतर तुमच्या मायक्रोफोनमध्ये बोला.
     >
-    > ![Bing Translate वरील Listen translation बटण](../../../../../translated_images/bing-translate.348aa796d6efe2a92f41ea74a5cf42bb4c63d6faaa08e7f46924e072a35daa48.mr.png)
+    > ![Bing Translate वरील Listen translation बटण](../../../../../translated_images/mr/bing-translate.348aa796d6efe2a92f41ea74a5cf42bb4c63d6faaa08e7f46924e072a35daa48.png)
 
 1. `speech_api_key` च्या खाली Translator API की जोडा:
 

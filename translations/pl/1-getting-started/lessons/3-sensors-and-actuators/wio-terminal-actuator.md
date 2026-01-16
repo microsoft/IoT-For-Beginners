@@ -35,7 +35,7 @@ Dioda Grove LED jest dostępna jako moduł z wyborem diod LED, co pozwala wybra�
 
 Podłącz diodę LED.
 
-![Dioda Grove LED](../../../../../translated_images/grove-led.6c853be93f473cf2c439cfc74bb1064732b22251a83cedf66e62f783f9cc1a79.pl.png)
+![Dioda Grove LED](../../../../../translated_images/pl/grove-led.6c853be93f473cf2c439cfc74bb1064732b22251a83cedf66e62f783f9cc1a79.png)
 
 1. Wybierz swoją ulubioną diodę LED i włóż jej nóżki do dwóch otworów w module LED.
 
@@ -51,7 +51,7 @@ Podłącz diodę LED.
 
     > 💁 Prawe gniazdo Grove może być używane z analogowymi lub cyfrowymi czujnikami i aktuatorami. Lewe gniazdo jest przeznaczone tylko dla czujników i aktuatorów cyfrowych. C zostanie omówione w późniejszej lekcji.
 
-![Dioda Grove LED podłączona do prawego gniazda](../../../../../translated_images/wio-led.265a1897e72d7f21.pl.png)
+![Dioda Grove LED podłączona do prawego gniazda](../../../../../translated_images/pl/wio-led.265a1897e72d7f21.png)
 
 ## Zaprogramuj lampkę nocną
 

@@ -43,11 +43,11 @@ CounterFit एपमा माटोको चिस्यान सेन्स
 
     1. **Add** बटन चयन गरेर *Soil Moisture* सेन्सर Pin 0 मा सिर्जना गर्नुहोस्।
 
-    ![माटोको चिस्यान सेन्सर सेटिङहरू](../../../../../translated_images/counterfit-create-soil-moisture-sensor.35266135a5e0ae68b29a684d7db0d2933a8098b2307d197f7c71577b724603aa.ne.png)
+    ![माटोको चिस्यान सेन्सर सेटिङहरू](../../../../../translated_images/ne/counterfit-create-soil-moisture-sensor.35266135a5e0ae68b29a684d7db0d2933a8098b2307d197f7c71577b724603aa.png)
 
     माटोको चिस्यान सेन्सर सिर्जना हुनेछ र सेन्सरहरूको सूचीमा देखा पर्नेछ।
 
-    ![माटोको चिस्यान सेन्सर सिर्जना गरिएको](../../../../../translated_images/counterfit-soil-moisture-sensor.81742b2de0e9de60a3b3b9a2ff8ecc686d428eb6d71820f27a693be26e5aceee.ne.png)
+    ![माटोको चिस्यान सेन्सर सिर्जना गरिएको](../../../../../translated_images/ne/counterfit-soil-moisture-sensor.81742b2de0e9de60a3b3b9a2ff8ecc686d428eb6d71820f27a693be26e5aceee.png)
 
 ## माटोको चिस्यान सेन्सर एप प्रोग्राम गर्नुहोस्
 

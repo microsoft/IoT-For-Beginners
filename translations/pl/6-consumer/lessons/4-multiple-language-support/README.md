@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Obsługa wielu języków
 
-![Szkicowy przegląd tej lekcji](../../../../../translated_images/lesson-24.4246968ed058510ab275052e87ef9aa89c7b2f938915d103c605c04dc6cd5bb7.pl.jpg)
+![Szkicowy przegląd tej lekcji](../../../../../translated_images/pl/lesson-24.4246968ed058510ab275052e87ef9aa89c7b2f938915d103c605c04dc6cd5bb7.jpg)
 
 > Szkic autorstwa [Nitya Narasimhan](https://github.com/nitya). Kliknij obraz, aby zobaczyć większą wersję.
 
@@ -83,7 +83,7 @@ Istnieje wiele usług AI, które można wykorzystać w aplikacjach do tłumaczen
 
 ### Cognitive Services Speech Service
 
-![Logo usługi mowy](../../../../../translated_images/azure-speech-logo.a1f08c4befb0159f2cb5d692d3baf5b599e7b44759d316da907bda1508f46a4a.pl.png)
+![Logo usługi mowy](../../../../../translated_images/pl/azure-speech-logo.a1f08c4befb0159f2cb5d692d3baf5b599e7b44759d316da907bda1508f46a4a.png)
 
 Usługa mowy, z której korzystałeś w ostatnich lekcjach, ma możliwości tłumaczenia w rozpoznawaniu mowy. Podczas rozpoznawania mowy możesz zażądać nie tylko tekstu mowy w tym samym języku, ale także w innych językach.
 
@@ -91,7 +91,7 @@ Usługa mowy, z której korzystałeś w ostatnich lekcjach, ma możliwości tłu
 
 ### Cognitive Services Translator Service
 
-![Logo usługi tłumacza](../../../../../translated_images/azure-translator-logo.c6ed3a4a433edfd2f11577eca105412c50b8396b194cbbd730723dd1d0793bcd.pl.png)
+![Logo usługi tłumacza](../../../../../translated_images/pl/azure-translator-logo.c6ed3a4a433edfd2f11577eca105412c50b8396b194cbbd730723dd1d0793bcd.png)
 
 Usługa Translator to dedykowana usługa tłumaczeniowa, która może tłumaczyć tekst z jednego języka na jeden lub więcej języków docelowych. Oprócz tłumaczenia obsługuje szeroki zakres dodatkowych funkcji, takich jak maskowanie wulgaryzmów. Pozwala także na dostarczenie konkretnego tłumaczenia dla danego słowa lub zdania, aby pracować z terminami, których nie chcesz tłumaczyć, lub które mają określone, dobrze znane tłumaczenie.
 
@@ -130,7 +130,7 @@ Do tej lekcji będziesz potrzebować zasobu Translator. Użyjesz REST API do tł
 
 W idealnym świecie cała Twoja aplikacja powinna rozumieć jak najwięcej różnych języków, od rozpoznawania mowy, przez rozumienie języka, po odpowiedzi w mowie. To jednak wymaga dużo pracy, więc usługi tłumaczeniowe mogą przyspieszyć czas dostarczenia aplikacji.
 
-![Architektura inteligentnego timera tłumaczącego japoński na angielski, przetwarzającego w angielskim, a następnie tłumaczącego z powrotem na japoński](../../../../../translated_images/translated-smart-timer.08ac20057fdc5c37.pl.png)
+![Architektura inteligentnego timera tłumaczącego japoński na angielski, przetwarzającego w angielskim, a następnie tłumaczącego z powrotem na japoński](../../../../../translated_images/pl/translated-smart-timer.08ac20057fdc5c37.png)
 
 Wyobraź sobie, że budujesz inteligentny timer, który używa angielskiego od początku do końca, rozumiejąc mowę po angielsku i konwertując ją na tekst, przetwarzając rozumienie języka w angielskim, budując odpowiedzi w angielskim i odpowiadając mową w angielskim. Jeśli chciałbyś dodać obsługę japońskiego, mógłbyś zacząć od tłumaczenia mówionego japońskiego na tekst w języku angielskim, a następnie pozostawić rdzeń aplikacji bez zmian, a na końcu przetłumaczyć tekst odpowiedzi na japoński przed wygenerowaniem odpowiedzi w mowie. Pozwoliłoby to szybko dodać obsługę japońskiego, a pełną obsługę od początku do końca można by dodać później.
 

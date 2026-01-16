@@ -27,13 +27,13 @@ Grove-reléet kan kobles til Raspberry Pi.
 
 Koble til reléet.
 
-![Et Grove-relé](../../../../../translated_images/grove-relay.d426958ca210fbd0fb7983d7edc069d46c73a8b0a099d94797bd756f7b6bb6be.no.png)
+![Et Grove-relé](../../../../../translated_images/no/grove-relay.d426958ca210fbd0fb7983d7edc069d46c73a8b0a099d94797bd756f7b6bb6be.png)
 
 1. Sett den ene enden av en Grove-kabel inn i kontakten på reléet. Den vil kun gå inn på én måte.
 
 1. Med Raspberry Pi slått av, koble den andre enden av Grove-kabelen til den digitale kontakten merket **D5** på Grove Base Hat som er festet til Pi. Denne kontakten er den andre fra venstre, på raden av kontakter ved siden av GPIO-pinnene. La jordfuktighetssensoren være koblet til **A0**-kontakten.
 
-![Grove-reléet koblet til D5-kontakten, og jordfuktighetssensoren koblet til A0-kontakten](../../../../../translated_images/pi-relay-and-soil-moisture-sensor.02f3198975b8c53e69ec716cd2719ce117700bd1fc933eaf93476c103c57939b.no.png)
+![Grove-reléet koblet til D5-kontakten, og jordfuktighetssensoren koblet til A0-kontakten](../../../../../translated_images/no/pi-relay-and-soil-moisture-sensor.02f3198975b8c53e69ec716cd2719ce117700bd1fc933eaf93476c103c57939b.png)
 
 1. Sett jordfuktighetssensoren inn i jorden, hvis den ikke allerede er det fra forrige leksjon.
 

@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Voorspel plantengroei met IoT
 
-![Een schetsmatige weergave van deze les](../../../../../translated_images/lesson-5.42b234299279d263143148b88ab4583861a32ddb03110c6c1120e41bb88b2592.nl.jpg)
+![Een schetsmatige weergave van deze les](../../../../../translated_images/nl/lesson-5.42b234299279d263143148b88ab4583861a32ddb03110c6c1120e41bb88b2592.jpg)
 
 > Schetsnotitie door [Nitya Narasimhan](https://github.com/nitya). Klik op de afbeelding voor een grotere versie.
 
@@ -65,7 +65,7 @@ Elke plantensoort heeft verschillende waarden voor hun basis-, optimale en maxim
 
 ✅ Doe wat onderzoek. Voor planten in je tuin, school of lokale park, kun je de basistemperatuur vinden?
 
-![Een grafiek die de groeisnelheid toont die stijgt naarmate de temperatuur stijgt, en vervolgens daalt als de temperatuur te hoog wordt](../../../../../translated_images/plant-growth-temp-graph.c6d69c9478e6ca83.nl.png)
+![Een grafiek die de groeisnelheid toont die stijgt naarmate de temperatuur stijgt, en vervolgens daalt als de temperatuur te hoog wordt](../../../../../translated_images/nl/plant-growth-temp-graph.c6d69c9478e6ca83.png)
 
 De bovenstaande grafiek toont een voorbeeld van een groeisnelheid-temperatuur-grafiek. Tot aan de basistemperatuur is er geen groei. De groeisnelheid neemt toe tot de optimale temperatuur, en daalt daarna na het bereiken van deze piek. Bij de maximumtemperatuur stopt de groei.
 
@@ -99,7 +99,7 @@ Groei-graad-dagen, of GDD, worden per dag berekend als de gemiddelde temperatuur
 
 De volledige formule voor GDD is een beetje ingewikkeld, maar er is een vereenvoudigde vergelijking die vaak wordt gebruikt als een goede benadering:
 
-![GDD = T max + T min gedeeld door 2, alles minus T base](../../../../../translated_images/gdd-calculation.79b3660f9c5757aa92dc2dd2cdde75344e2d2c1565c4b3151640f7887edc0275.nl.png)
+![GDD = T max + T min gedeeld door 2, alles minus T base](../../../../../translated_images/nl/gdd-calculation.79b3660f9c5757aa92dc2dd2cdde75344e2d2c1565c4b3151640f7887edc0275.png)
 
 * **GDD** - dit is het aantal groei-graad-dagen
 * **T max** - dit is de dagelijkse maximumtemperatuur in graden Celsius
@@ -127,7 +127,7 @@ Als we deze getallen in onze berekening invoeren:
 
 Geeft dit de volgende berekening:
 
-![GDD = 16 + 12 gedeeld door 2, alles minus 10, geeft een antwoord van 4](../../../../../translated_images/gdd-calculation-corn.64a58b7a7afcd0dfd46ff733996d939f17f4f3feac9f0d1c632be3523e51ebd9.nl.png)
+![GDD = 16 + 12 gedeeld door 2, alles minus 10, geeft een antwoord van 4](../../../../../translated_images/nl/gdd-calculation-corn.64a58b7a7afcd0dfd46ff733996d939f17f4f3feac9f0d1c632be3523e51ebd9.png)
 
 De maïs ontving 4 GDD op die dag. Als we uitgaan van een maïsvariëteit die 800 GDD nodig heeft om te rijpen, heeft het nog 796 GDD nodig om rijpheid te bereiken.
 
@@ -141,7 +141,7 @@ Dit heeft een enorme impact op de arbeidskosten op een grote boerderij en brengt
 
 Door temperatuurgegevens te verzamelen met een IoT-apparaat, kan een boer automatisch een melding krijgen wanneer planten bijna rijp zijn. Een typische architectuur hiervoor is dat de IoT-apparaten de temperatuur meten en deze telemetriegegevens via internet publiceren met iets als MQTT. Servercode luistert vervolgens naar deze gegevens en slaat ze ergens op, bijvoorbeeld in een database. Dit betekent dat de gegevens later kunnen worden geanalyseerd, zoals een nachtelijke taak om de GDD voor de dag te berekenen, de totale GDD voor elk gewas tot nu toe op te tellen en een waarschuwing te geven als een plant bijna rijp is.
 
-![Telemetriegegevens worden naar een server verzonden en vervolgens opgeslagen in een database](../../../../../translated_images/save-telemetry-database.ddc9c6bea0c5ba39.nl.png)
+![Telemetriegegevens worden naar een server verzonden en vervolgens opgeslagen in een database](../../../../../translated_images/nl/save-telemetry-database.ddc9c6bea0c5ba39.png)
 
 De servercode kan de gegevens ook aanvullen door extra informatie toe te voegen. Bijvoorbeeld, het IoT-apparaat kan een identificator publiceren om aan te geven welk apparaat het is, en de servercode kan dit gebruiken om de locatie van het apparaat op te zoeken en welke gewassen het bewaakt. Het kan ook basisgegevens toevoegen zoals de huidige tijd, omdat sommige IoT-apparaten niet over de benodigde hardware beschikken om een nauwkeurige tijd bij te houden, of extra code nodig hebben om de huidige tijd via internet te lezen.
 
@@ -228,7 +228,7 @@ Deze code opent het CSV-bestand en voegt vervolgens een nieuwe rij toe aan het e
 
     
 > 💁 Als je een virtueel IoT-apparaat gebruikt, selecteer dan het willekeurige selectievakje en stel een bereik in om te voorkomen dat je steeds dezelfde temperatuurwaarde krijgt.
-    ![Selecteer het willekeurige selectievakje en stel een bereik in](../../../../../translated_images/select-the-random-checkbox-and-set-a-range.32cf4bc7c12e797f.nl.png) 
+    ![Selecteer het willekeurige selectievakje en stel een bereik in](../../../../../translated_images/nl/select-the-random-checkbox-and-set-a-range.32cf4bc7c12e797f.png) 
 
     > 💁 Als je dit een hele dag wilt laten draaien, zorg er dan voor dat de computer waarop je servercode draait niet in slaapstand gaat, door je energie-instellingen te wijzigen of iets te gebruiken zoals [dit Python-script om het systeem actief te houden](https://github.com/jaqsparow/keep-system-active).
     
@@ -248,7 +248,7 @@ De stappen om dit handmatig te doen zijn:
 
 Bijvoorbeeld, als de hoogste temperatuur van de dag 25°C is en de laagste 12°C:
 
-![GDD = 25 + 12 gedeeld door 2, trek vervolgens 10 af van het resultaat, wat 8,5 oplevert](../../../../../translated_images/gdd-calculation-strawberries.59f57db94b22adb8ff6efb951ace33af104a1c6ccca3ffb0f8169c14cb160c90.nl.png)
+![GDD = 25 + 12 gedeeld door 2, trek vervolgens 10 af van het resultaat, wat 8,5 oplevert](../../../../../translated_images/nl/gdd-calculation-strawberries.59f57db94b22adb8ff6efb951ace33af104a1c6ccca3ffb0f8169c14cb160c90.png)
 
 * 25 + 12 = 37
 * 37 / 2 = 18,5

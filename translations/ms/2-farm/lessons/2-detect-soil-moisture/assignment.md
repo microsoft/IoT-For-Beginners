@@ -29,14 +29,14 @@ Anda perlu mengulangi langkah-langkah ini beberapa kali untuk mendapatkan bacaan
 
 Kelembapan tanah gravimetrik dikira sebagai:
 
-![kelembapan tanah % ialah berat basah tolak berat kering, dibahagi dengan berat kering, darab 100](../../../../../translated_images/gsm-calculation.6da38c6201eec14e7573bb2647aa18892883193553d23c9d77e5dc681522dfb2.ms.png)
+![kelembapan tanah % ialah berat basah tolak berat kering, dibahagi dengan berat kering, darab 100](../../../../../translated_images/ms/gsm-calculation.6da38c6201eec14e7573bb2647aa18892883193553d23c9d77e5dc681522dfb2.png)
 
 * W - berat tanah basah
 * W - berat tanah kering
 
 Sebagai contoh, katakan anda mempunyai sampel tanah yang beratnya 212g basah, dan 197g kering.
 
-![Pengiraan diisi](../../../../../translated_images/gsm-calculation-example.99f9803b4f29e97668e7c15412136c0c399ab12dbba0b89596fdae9d8aedb6fb.ms.png)
+![Pengiraan diisi](../../../../../translated_images/ms/gsm-calculation-example.99f9803b4f29e97668e7c15412136c0c399ab12dbba0b89596fdae9d8aedb6fb.png)
 
 * W = 212g
 * W = 197g

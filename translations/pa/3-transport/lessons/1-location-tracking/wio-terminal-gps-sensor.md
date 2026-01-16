@@ -27,13 +27,13 @@ Grove GPS ਸੈਂਸਰ ਨੂੰ Wio Terminal ਨਾਲ ਜੁੜਿਆ ਜ�
 
 GPS ਸੈਂਸਰ ਨੂੰ ਜੁੜੋ।
 
-![A grove GPS sensor](../../../../../translated_images/grove-gps-sensor.247943bf69b03f0d1820ef6ed10c587f9b650e8db55b936851c92412180bd3e2.pa.png)
+![A grove GPS sensor](../../../../../translated_images/pa/grove-gps-sensor.247943bf69b03f0d1820ef6ed10c587f9b650e8db55b936851c92412180bd3e2.png)
 
 1. Grove ਕੇਬਲ ਦੇ ਇੱਕ ਸਿਰੇ ਨੂੰ GPS ਸੈਂਸਰ ਦੇ ਸਾਕਟ ਵਿੱਚ ਪਾਓ। ਇਹ ਸਿਰਫ ਇੱਕ ਹੀ ਦਿਸ਼ਾ ਵਿੱਚ ਜਾਵੇਗਾ।
 
 1. Wio Terminal ਨੂੰ ਆਪਣੇ ਕੰਪਿਊਟਰ ਜਾਂ ਹੋਰ ਪਾਵਰ ਸਪਲਾਈ ਤੋਂ ਅਲੱਗ ਰੱਖਦੇ ਹੋਏ, Grove ਕੇਬਲ ਦੇ ਦੂਜੇ ਸਿਰੇ ਨੂੰ Wio Terminal ਦੇ ਖੱਬੇ ਪਾਸੇ Grove ਸਾਕਟ ਵਿੱਚ ਪਾਓ ਜਦੋਂ ਤੁਸੀਂ ਸਕ੍ਰੀਨ ਨੂੰ ਦੇਖ ਰਹੇ ਹੋ। ਇਹ ਸਾਕਟ ਪਾਵਰ ਬਟਨ ਦੇ ਸਭ ਤੋਂ ਨੇੜੇ ਹੈ।
 
-    ![The grove GPS sensor connected to the left hand socket](../../../../../translated_images/wio-gps-sensor.19fd52b81ce58095.pa.png)
+    ![The grove GPS sensor connected to the left hand socket](../../../../../translated_images/pa/wio-gps-sensor.19fd52b81ce58095.png)
 
 1. GPS ਸੈਂਸਰ ਨੂੰ ਇਸ ਤਰ੍ਹਾਂ ਸਥਿਤ ਕਰੋ ਕਿ ਜੁੜੇ ਐਂਟੀਨਾ ਨੂੰ ਅਸਮਾਨ ਦੀ ਦ੍ਰਿਸ਼ਟੀ ਹੋਵੇ - ਵਧੀਆ ਤੌਰ 'ਤੇ ਖੁੱਲੇ ਵਿੰਡੋ ਦੇ ਨੇੜੇ ਜਾਂ ਬਾਹਰ। ਐਂਟੀਨਾ ਦੇ ਰਾਹ ਵਿੱਚ ਕੁਝ ਨਾ ਹੋਣ ਨਾਲ ਸਪਸ਼ਟ ਸਿਗਨਲ ਪ੍ਰਾਪਤ ਕਰਨਾ ਆਸਾਨ ਹੈ।
 

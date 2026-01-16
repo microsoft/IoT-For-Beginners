@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Train een voorraad detector
 
-![Een schetsmatig overzicht van deze les](../../../../../translated_images/lesson-19.cf6973cecadf080c4b526310620dc4d6f5994c80fb0139c6f378cc9ca2d435cd.nl.jpg)
+![Een schetsmatig overzicht van deze les](../../../../../translated_images/nl/lesson-19.cf6973cecadf080c4b526310620dc4d6f5994c80fb0139c6f378cc9ca2d435cd.jpg)
 
 > Sketchnote door [Nitya Narasimhan](https://github.com/nitya). Klik op de afbeelding voor een grotere versie.
 
@@ -45,7 +45,7 @@ Objectdetectie houdt in dat objecten in afbeeldingen worden gedetecteerd met beh
 
 Beeldclassificatie draait om het classificeren van een afbeelding als geheel - wat zijn de waarschijnlijkheden dat de hele afbeelding overeenkomt met elke tag. Je krijgt waarschijnlijkheden terug voor elke tag die is gebruikt om het model te trainen.
 
-![Beeldclassificatie van cashewnoten en tomatenpuree](../../../../../translated_images/image-classifier-cashews-tomato.bc2e16ab8f05cf9ac0f59f73e32efc4227f9a5b601b90b2c60f436694547a965.nl.png)
+![Beeldclassificatie van cashewnoten en tomatenpuree](../../../../../translated_images/nl/image-classifier-cashews-tomato.bc2e16ab8f05cf9ac0f59f73e32efc4227f9a5b601b90b2c60f436694547a965.png)
 
 In het bovenstaande voorbeeld worden twee afbeeldingen geclassificeerd met behulp van een model dat is getraind om potten met cashewnoten of blikken tomatenpuree te classificeren. De eerste afbeelding is een pot met cashewnoten en heeft twee resultaten van de beeldclassifier:
 
@@ -69,7 +69,7 @@ Wanneer je het vervolgens gebruikt om afbeeldingen te voorspellen, krijg je in p
 
 > 🎓 *Begrenzingskaders* zijn de kaders rond een object.
 
-![Objectdetectie van cashewnoten en tomatenpuree](../../../../../translated_images/object-detector-cashews-tomato.1af7c26686b4db0e709754aeb196f4e73271f54e2085db3bcccb70d4a0d84d97.nl.png)
+![Objectdetectie van cashewnoten en tomatenpuree](../../../../../translated_images/nl/object-detector-cashews-tomato.1af7c26686b4db0e709754aeb196f4e73271f54e2085db3bcccb70d4a0d84d97.png)
 
 De bovenstaande afbeelding bevat zowel een pot met cashewnoten als drie blikken tomatenpuree. De objectdetector heeft de cashewnoten gedetecteerd en geeft het begrenzingskader dat de cashewnoten bevat terug met de kans dat het begrenzingskader het object bevat, in dit geval 97.6%. De objectdetector heeft ook drie blikken tomatenpuree gedetecteerd en biedt drie afzonderlijke begrenzingskaders, één voor elk gedetecteerd blik, en elk met een percentage waarschijnlijkheid dat het begrenzingskader een blik tomatenpuree bevat.
 
@@ -120,7 +120,7 @@ Je kunt een objectdetector trainen met Custom Vision, op een vergelijkbare manie
 
     Wanneer je je project maakt, zorg ervoor dat je de `stock-detector-training` resource gebruikt die je eerder hebt gemaakt. Gebruik het projecttype *Object Detection* en het domein *Products on Shelves*.
 
-    ![De instellingen voor het Custom Vision-project met de naam ingesteld op fruit-quality-detector, geen beschrijving, de resource ingesteld op fruit-quality-detector-training, het projecttype ingesteld op classificatie, de classificatietypes ingesteld op multi class en de domeinen ingesteld op food](../../../../../translated_images/custom-vision-create-object-detector-project.32d4fb9aa8e7e7375f8a799bfce517aca970f2cb65e42d4245c5e635c734ab29.nl.png)
+    ![De instellingen voor het Custom Vision-project met de naam ingesteld op fruit-quality-detector, geen beschrijving, de resource ingesteld op fruit-quality-detector-training, het projecttype ingesteld op classificatie, de classificatietypes ingesteld op multi class en de domeinen ingesteld op food](../../../../../translated_images/nl/custom-vision-create-object-detector-project.32d4fb9aa8e7e7375f8a799bfce517aca970f2cb65e42d4245c5e635c734ab29.png)
 
     ✅ Het domein 'Products on Shelves' is specifiek gericht op het detecteren van voorraad op winkelplanken. Lees meer over de verschillende domeinen in de [Select a domain documentatie op Microsoft Docs](https://docs.microsoft.com/azure/cognitive-services/custom-vision-service/select-domain?WT.mc_id=academic-17441-jabenn#object-detection)
 
@@ -142,11 +142,11 @@ Om je model te trainen, heb je een set afbeeldingen nodig die de objecten bevatt
 
 1. Volg de [Sectie 'Afbeeldingen uploaden en taggen' van de Build an object detector quickstart op de Microsoft Docs](https://docs.microsoft.com/azure/cognitive-services/custom-vision-service/get-started-build-detector?WT.mc_id=academic-17441-jabenn#upload-and-tag-images) om je trainingsafbeeldingen te uploaden. Maak relevante tags afhankelijk van de soorten objecten die je wilt detecteren.
 
-    ![De uploaddialoogvensters die het uploaden van rijpe en onrijpe bananenfoto's tonen](../../../../../translated_images/image-upload-object-detector.77c7892c3093cb59b79018edecd678749a75d71a099bc8a2d2f2f76320f88a5b.nl.png)
+    ![De uploaddialoogvensters die het uploaden van rijpe en onrijpe bananenfoto's tonen](../../../../../translated_images/nl/image-upload-object-detector.77c7892c3093cb59b79018edecd678749a75d71a099bc8a2d2f2f76320f88a5b.png)
 
     Wanneer je begrenzingskaders tekent voor objecten, houd ze dan strak rond het object. Het kan even duren om alle afbeeldingen te markeren, maar de tool detecteert wat het denkt dat de begrenzingskaders zijn, waardoor het sneller gaat.
 
-    ![Taggen van wat tomatenpuree](../../../../../translated_images/object-detector-tag-tomato-paste.f47c362fb0f0eb582f3bc68cf3855fb43a805106395358d41896a269c210b7b4.nl.png)
+    ![Taggen van wat tomatenpuree](../../../../../translated_images/nl/object-detector-tag-tomato-paste.f47c362fb0f0eb582f3bc68cf3855fb43a805106395358d41896a269c210b7b4.png)
 
     > 💁 Als je meer dan 15 afbeeldingen hebt voor elk object, kun je trainen na 15 en vervolgens de functie **Suggested tags** gebruiken. Dit zal het getrainde model gebruiken om de objecten in de niet-gemarkeerde afbeelding te detecteren. Je kunt vervolgens de gedetecteerde objecten bevestigen of afwijzen en de begrenzingskaders opnieuw tekenen. Dit kan *veel* tijd besparen.
 
@@ -164,7 +164,7 @@ Zodra je objectdetector is getraind, kun je deze testen door hem nieuwe afbeeldi
 
 1. Gebruik de **Quick Test** knop om testafbeeldingen te uploaden en te verifiëren dat de objecten worden gedetecteerd. Gebruik de testafbeeldingen die je eerder hebt gemaakt, niet de afbeeldingen die je hebt gebruikt voor training.
 
-    ![3 blikken tomatenpuree gedetecteerd met waarschijnlijkheden van 38%, 35.5% en 34.6%](../../../../../translated_images/object-detector-detected-tomato-paste.52656fe87af4c37b4ee540526d63e73ed075da2e54a9a060aa528e0c562fb1b6.nl.png)
+    ![3 blikken tomatenpuree gedetecteerd met waarschijnlijkheden van 38%, 35.5% en 34.6%](../../../../../translated_images/nl/object-detector-detected-tomato-paste.52656fe87af4c37b4ee540526d63e73ed075da2e54a9a060aa528e0c562fb1b6.png)
 
 1. Probeer alle testafbeeldingen die je hebt en observeer de waarschijnlijkheden.
 

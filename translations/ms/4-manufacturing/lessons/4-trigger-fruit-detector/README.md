@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Mencetuskan pengesanan kualiti buah dari sensor
 
-![Gambaran sketchnote untuk pelajaran ini](../../../../../translated_images/lesson-18.92c32ed1d354caa5a54baa4032cf0b172d4655e8e326ad5d46c558a0def15365.ms.jpg)
+![Gambaran sketchnote untuk pelajaran ini](../../../../../translated_images/ms/lesson-18.92c32ed1d354caa5a54baa4032cf0b172d4655e8e326ad5d46c558a0def15365.jpg)
 
 > Sketchnote oleh [Nitya Narasimhan](https://github.com/nitya). Klik imej untuk versi yang lebih besar.
 
@@ -48,7 +48,7 @@ Aplikasi IoT boleh digambarkan sebagai *peranti* (things) yang menghantar data y
 
 ### Rujukan seni bina IoT
 
-![Seni bina rujukan IoT](../../../../../translated_images/iot-reference-architecture.2278b98b55c6d4e89bde18eada3688d893861d43507641804dd2f9d3079cfaa0.ms.png)
+![Seni bina rujukan IoT](../../../../../translated_images/ms/iot-reference-architecture.2278b98b55c6d4e89bde18eada3688d893861d43507641804dd2f9d3079cfaa0.png)
 
 Rajah di atas menunjukkan seni bina rujukan IoT.
 
@@ -58,7 +58,7 @@ Rajah di atas menunjukkan seni bina rujukan IoT.
 * **Wawasan** datang dari aplikasi tanpa pelayan, atau dari analisis yang dijalankan pada data yang disimpan.
 * **Tindakan** boleh berupa arahan yang dihantar ke peranti, atau visualisasi data yang membolehkan manusia membuat keputusan.
 
-![Seni bina rujukan IoT](../../../../../translated_images/iot-reference-architecture-azure.0b8d2161af924cb18ae48a8558a19541cca47f27264851b5b7e56d7b8bb372ac.ms.png)
+![Seni bina rujukan IoT](../../../../../translated_images/ms/iot-reference-architecture-azure.0b8d2161af924cb18ae48a8558a19541cca47f27264851b5b7e56d7b8bb372ac.png)
 
 Rajah di atas menunjukkan beberapa komponen dan perkhidmatan yang telah dibincangkan dalam pelajaran ini dan bagaimana ia saling berkaitan dalam seni bina rujukan IoT.
 
@@ -98,7 +98,7 @@ Anda perlu membina sistem di mana buah dikesan semasa tiba di tali sawat, kemudi
 
 ### Membuat prototaip aplikasi anda
 
-![Seni bina rujukan IoT untuk pemeriksaan kualiti buah](../../../../../translated_images/iot-reference-architecture-fruit-quality.cc705f121c3b6fa71c800d9630935ac34bc08223a04601e35f41d5e9b5dd5207.ms.png)
+![Seni bina rujukan IoT untuk pemeriksaan kualiti buah](../../../../../translated_images/ms/iot-reference-architecture-fruit-quality.cc705f121c3b6fa71c800d9630935ac34bc08223a04601e35f41d5e9b5dd5207.png)
 
 Rajah di atas menunjukkan seni bina rujukan untuk aplikasi prototaip ini.
 
@@ -115,7 +115,7 @@ Untuk prototaip, anda akan melaksanakan semua ini pada satu peranti. Jika anda m
 
 Peranti IoT memerlukan sejenis pencetus untuk menunjukkan bila buah sedia untuk diklasifikasikan. Salah satu pencetus untuk ini adalah dengan mengukur bila buah berada di lokasi yang betul pada tali sawat dengan mengukur jarak ke sensor.
 
-![Sensor jarak menghantar pancaran laser ke objek seperti pisang dan mengukur masa pantulan kembali](../../../../../translated_images/proximity-sensor.f5cd752c77fb62fe.ms.png)
+![Sensor jarak menghantar pancaran laser ke objek seperti pisang dan mengukur masa pantulan kembali](../../../../../translated_images/ms/proximity-sensor.f5cd752c77fb62fe.png)
 
 Sensor jarak boleh digunakan untuk mengukur jarak dari sensor ke objek. Biasanya, ia memancarkan pancaran radiasi elektromagnet seperti pancaran laser atau cahaya infra-merah, kemudian mengesan radiasi yang memantul dari objek. Masa antara pancaran laser dihantar dan isyarat yang memantul kembali boleh digunakan untuk mengira jarak ke sensor.
 
@@ -133,7 +133,7 @@ Ikuti panduan yang relevan untuk menggunakan sensor jarak untuk mengesan objek m
 
 Prototaip pengesan buah mempunyai pelbagai komponen yang saling berkomunikasi.
 
-![Komponen yang saling berkomunikasi](../../../../../translated_images/fruit-quality-detector-message-flow.adf2a65da8fd8741ac7af11361574de89adc126785d67606bb4d2ec00467e380.ms.png)
+![Komponen yang saling berkomunikasi](../../../../../translated_images/ms/fruit-quality-detector-message-flow.adf2a65da8fd8741ac7af11361574de89adc126785d67606bb4d2ec00467e380.png)
 
 * Sensor jarak mengukur jarak ke sebiji buah dan menghantarnya ke IoT Hub
 * Arahan untuk mengawal kamera datang dari IoT Hub ke peranti kamera

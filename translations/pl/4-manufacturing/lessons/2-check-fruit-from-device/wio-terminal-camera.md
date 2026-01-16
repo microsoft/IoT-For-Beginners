@@ -25,11 +25,11 @@ ArduCam nie posiada gniazda Grove, zamiast tego łączy się z magistralami SPI 
 
 Podłącz kamerę.
 
-![Czujnik ArduCam](../../../../../translated_images/arducam.20e4e4cbb268296570b5914e20d6c349fc42ddac9ed4e1b9deba2188204eebae.pl.png)
+![Czujnik ArduCam](../../../../../translated_images/pl/arducam.20e4e4cbb268296570b5914e20d6c349fc42ddac9ed4e1b9deba2188204eebae.png)
 
 1. Piny na spodzie ArduCam muszą być podłączone do pinów GPIO na Wio Terminal. Aby łatwiej było znaleźć odpowiednie piny, przyklej naklejkę z oznaczeniami pinów GPIO, która jest dołączona do Wio Terminal:
 
-    ![Wio Terminal z naklejką oznaczającą piny GPIO](../../../../../translated_images/wio-terminal-pin-sticker.b90b1535937b84bd.pl.png)
+    ![Wio Terminal z naklejką oznaczającą piny GPIO](../../../../../translated_images/pl/wio-terminal-pin-sticker.b90b1535937b84bd.png)
 
 1. Używając przewodów połączeniowych, wykonaj następujące połączenia:
 
@@ -44,7 +44,7 @@ Podłącz kamerę.
     | SDA         | 3 (I2C1_SDA)     | Dane szeregowe I2C                      |
     | SCL         | 5 (I2C1_SCL)     | Zegar szeregowy I2C                     |
 
-    ![Wio Terminal podłączony do ArduCam za pomocą przewodów połączeniowych](../../../../../translated_images/arducam-wio-terminal-connections.a4d5a4049bdb5ab800a2877389fc6ecf5e4ff307e6451ff56c517e6786467d0a.pl.png)
+    ![Wio Terminal podłączony do ArduCam za pomocą przewodów połączeniowych](../../../../../translated_images/pl/arducam-wio-terminal-connections.a4d5a4049bdb5ab800a2877389fc6ecf5e4ff307e6451ff56c517e6786467d0a.png)
 
     Połączenia GND i VCC dostarczają zasilanie 5V do ArduCam. Kamera działa na 5V, w przeciwieństwie do czujników Grove, które działają na 3V. Zasilanie pochodzi bezpośrednio z połączenia USB-C, które zasila urządzenie.
 
@@ -297,7 +297,7 @@ Wio Terminal można teraz zaprogramować tak, aby robił zdjęcie po naciśnięc
 
 1. Mikrokontrolery wykonują kod w sposób ciągły, więc trudno jest wywołać coś takiego jak zrobienie zdjęcia bez reakcji na czujnik. Wio Terminal ma przyciski, więc kamerę można skonfigurować tak, aby była wyzwalana jednym z przycisków. Dodaj poniższy kod na końcu funkcji `setup`, aby skonfigurować przycisk C (jeden z trzech przycisków na górze, ten najbliżej przełącznika zasilania).
 
-    ![Przycisk C na górze, najbliżej przełącznika zasilania](../../../../../translated_images/wio-terminal-c-button.73df3cb1c1445ea0.pl.png)
+    ![Przycisk C na górze, najbliżej przełącznika zasilania](../../../../../translated_images/pl/wio-terminal-c-button.73df3cb1c1445ea0.png)
 
     ```cpp
     pinMode(WIO_KEY_C, INPUT_PULLUP);
@@ -465,7 +465,7 @@ Wio Terminal obsługuje tylko karty microSD o pojemności do 16 GB. Jeśli masz 
 
 1. Wyłącz zasilanie karty microSD i wysuń ją, delikatnie wciskając i zwalniając, a karta wyskoczy. Może być konieczne użycie cienkiego narzędzia, aby to zrobić. Podłącz kartę microSD do komputera, aby obejrzeć obrazy.
 
-    ![Zdjęcie banana wykonane za pomocą ArduCam](../../../../../translated_images/banana-arducam.be1b32d4267a8194b0fd042362e56faa431da9cd4af172051b37243ea9be0256.pl.jpg)
+    ![Zdjęcie banana wykonane za pomocą ArduCam](../../../../../translated_images/pl/banana-arducam.be1b32d4267a8194b0fd042362e56faa431da9cd4af172051b37243ea9be0256.jpg)
 💁 Może zająć kilka zdjęć, zanim balans bieli aparatu dostosuje się. Zauważysz to na podstawie kolorów uchwyconych zdjęć, pierwsze kilka może wyglądać na nieprawidłowe. Zawsze możesz obejść ten problem, zmieniając kod tak, aby uchwycić kilka zdjęć, które są ignorowane w funkcji `setup`.
 
 

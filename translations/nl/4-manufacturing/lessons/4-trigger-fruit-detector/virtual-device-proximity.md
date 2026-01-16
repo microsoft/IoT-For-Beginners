@@ -45,11 +45,11 @@ Voeg de afstandssensor toe aan de CounterFit-app.
 
     1. Selecteer de knop **Add** om de afstandssensor aan te maken.
 
-    ![De instellingen van de afstandssensor](../../../../../translated_images/counterfit-create-distance-sensor.967c9fb98f27888d95920c9784d004c972490eb71f70397fe13bd70a79a879a3.nl.png)
+    ![De instellingen van de afstandssensor](../../../../../translated_images/nl/counterfit-create-distance-sensor.967c9fb98f27888d95920c9784d004c972490eb71f70397fe13bd70a79a879a3.png)
 
     De afstandssensor wordt aangemaakt en verschijnt in de sensorenlijst.
 
-    ![De aangemaakte afstandssensor](../../../../../translated_images/counterfit-distance-sensor.079eefeeea0b68afc36431ce8fcbe2f09a7e4916ed1cd5cb30e696db53bc18fa.nl.png)
+    ![De aangemaakte afstandssensor](../../../../../translated_images/nl/counterfit-distance-sensor.079eefeeea0b68afc36431ce8fcbe2f09a7e4916ed1cd5cb30e696db53bc18fa.png)
 
 ## Programmeer de afstandssensor
 

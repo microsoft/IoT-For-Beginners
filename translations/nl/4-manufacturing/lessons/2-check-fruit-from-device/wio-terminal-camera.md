@@ -25,11 +25,11 @@ De ArduCam heeft geen Grove-aansluiting, maar wordt in plaats daarvan verbonden 
 
 Verbind de camera.
 
-![Een ArduCam sensor](../../../../../translated_images/arducam.20e4e4cbb268296570b5914e20d6c349fc42ddac9ed4e1b9deba2188204eebae.nl.png)
+![Een ArduCam sensor](../../../../../translated_images/nl/arducam.20e4e4cbb268296570b5914e20d6c349fc42ddac9ed4e1b9deba2188204eebae.png)
 
 1. De pinnen aan de onderkant van de ArduCam moeten worden verbonden met de GPIO-pinnen op de Wio Terminal. Om het gemakkelijker te maken de juiste pinnen te vinden, plak je de GPIO-pinsticker die bij de Wio Terminal wordt geleverd rond de pinnen:
 
-    ![De Wio Terminal met de GPIO-pinsticker](../../../../../translated_images/wio-terminal-pin-sticker.b90b1535937b84bd.nl.png)
+    ![De Wio Terminal met de GPIO-pinsticker](../../../../../translated_images/nl/wio-terminal-pin-sticker.b90b1535937b84bd.png)
 
 1. Gebruik jumperdraden om de volgende verbindingen te maken:
 
@@ -44,7 +44,7 @@ Verbind de camera.
     | SDA         | 3 (I2C1_SDA)     | I²C Seriële Data                        |
     | SCL         | 5 (I2C1_SCL)     | I²C Seriële Klok                        |
 
-    ![De Wio Terminal verbonden met de ArduCam met jumperdraden](../../../../../translated_images/arducam-wio-terminal-connections.a4d5a4049bdb5ab800a2877389fc6ecf5e4ff307e6451ff56c517e6786467d0a.nl.png)
+    ![De Wio Terminal verbonden met de ArduCam met jumperdraden](../../../../../translated_images/nl/arducam-wio-terminal-connections.a4d5a4049bdb5ab800a2877389fc6ecf5e4ff307e6451ff56c517e6786467d0a.png)
 
     De GND- en VCC-verbindingen leveren een 5V-voeding aan de ArduCam. Deze werkt op 5V, in tegenstelling tot Grove-sensoren die op 3V werken. Deze voeding komt rechtstreeks van de USB-C-aansluiting die het apparaat van stroom voorziet.
 
@@ -297,7 +297,7 @@ De Wio Terminal kan nu worden geprogrammeerd om een foto te maken wanneer een kn
 
 1. Microcontrollers voeren je code continu uit, dus het is niet eenvoudig om iets zoals het maken van een foto te activeren zonder te reageren op een sensor. De Wio Terminal heeft knoppen, dus de camera kan worden ingesteld om te worden geactiveerd door een van de knoppen. Voeg de volgende code toe aan het einde van de `setup`-functie om de C-knop (een van de drie knoppen bovenop, degene die het dichtst bij de aan/uit-schakelaar zit) te configureren.
 
-    ![De C-knop bovenop, dicht bij de aan/uit-schakelaar](../../../../../translated_images/wio-terminal-c-button.73df3cb1c1445ea0.nl.png)
+    ![De C-knop bovenop, dicht bij de aan/uit-schakelaar](../../../../../translated_images/nl/wio-terminal-c-button.73df3cb1c1445ea0.png)
 
     ```cpp
     pinMode(WIO_KEY_C, INPUT_PULLUP);
@@ -465,7 +465,7 @@ De Wio Terminal ondersteunt alleen microSD-kaarten tot 16GB. Als je een grotere 
 
 1. Schakel de microSD-kaart uit en verwijder deze door deze iets in te drukken en los te laten, waarna deze eruit springt. Mogelijk moet je hiervoor een dun gereedschap gebruiken. Steek de microSD-kaart in je computer om de afbeeldingen te bekijken.
 
-    ![Een foto van een banaan gemaakt met de ArduCam](../../../../../translated_images/banana-arducam.be1b32d4267a8194b0fd042362e56faa431da9cd4af172051b37243ea9be0256.nl.jpg)
+    ![Een foto van een banaan gemaakt met de ArduCam](../../../../../translated_images/nl/banana-arducam.be1b32d4267a8194b0fd042362e56faa431da9cd4af172051b37243ea9be0256.jpg)
 💁 Het kan enkele beelden duren voordat de witbalans van de camera zichzelf aanpast. Je zult dit merken aan de kleur van de vastgelegde beelden, de eerste paar kunnen er qua kleur afwijkend uitzien. Je kunt dit altijd omzeilen door de code aan te passen om enkele beelden vast te leggen die worden genegeerd in de `setup`-functie.
 
 

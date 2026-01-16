@@ -154,11 +154,11 @@ Python भर्चुअल वातावरण तयार भएपछि,
 
 1. जब VS Code सुरु हुन्छ, यसले Python भर्चुअल वातावरण सक्रिय गर्नेछ। चयन गरिएको भर्चुअल वातावरण तलको स्टाटस बारमा देखिनेछ:
 
-    ![VS Code मा चयन गरिएको भर्चुअल वातावरण देखाउँदै](../../../../../translated_images/vscode-virtual-env.8ba42e04c3d533cf.ne.png)
+    ![VS Code मा चयन गरिएको भर्चुअल वातावरण देखाउँदै](../../../../../translated_images/ne/vscode-virtual-env.8ba42e04c3d533cf.png)
 
 1. यदि VS Code टर्मिनल VS Code सुरु हुँदा पहिले नै चलिरहेको छ भने, यसमा भर्चुअल वातावरण सक्रिय हुनेछैन। सबैभन्दा सजिलो कुरा भनेको **Kill the active terminal instance** बटन प्रयोग गरेर टर्मिनललाई बन्द गर्नु हो:
 
-    ![VS Code Kill the active terminal instance बटन](../../../../../translated_images/vscode-kill-terminal.1cc4de7c6f25ee08.ne.png)
+    ![VS Code Kill the active terminal instance बटन](../../../../../translated_images/ne/vscode-kill-terminal.1cc4de7c6f25ee08.png)
 
     तपाईं टर्मिनलमा भर्चुअल वातावरण सक्रिय छ कि छैन भनेर थाहा पाउन सक्नुहुन्छ किनभने टर्मिनल प्रम्प्टमा भर्चुअल वातावरणको नाम उपसर्ग हुनेछ। उदाहरणका लागि, यो हुन सक्छ:
 
@@ -212,7 +212,7 @@ Python भर्चुअल वातावरण तयार भएपछि,
 
     एप्लिकेसन चल्न सुरु गर्नेछ र तपाईंको वेब ब्राउजरमा खुल्नेछ:
 
-    ![Counter Fit एप्लिकेसन ब्राउजरमा चलिरहेको देखाउँदै](../../../../../translated_images/counterfit-first-run.433326358b669b31d0e99c3513cb01bfbb13724d162c99cdcc8f51ecf5f9c779.ne.png)
+    ![Counter Fit एप्लिकेसन ब्राउजरमा चलिरहेको देखाउँदै](../../../../../translated_images/ne/counterfit-first-run.433326358b669b31d0e99c3513cb01bfbb13724d162c99cdcc8f51ecf5f9c779.png)
 
     यो *Disconnected* को रूपमा चिन्हित हुनेछ, र माथिल्लो-दायाँ कुनामा रहेको LED बन्द हुनेछ।
 
@@ -229,11 +229,11 @@ Python भर्चुअल वातावरण तयार भएपछि,
 
 1. तपाईंले नयाँ VS Code टर्मिनल सुरु गर्नुपर्नेछ **Create a new integrated terminal** बटन चयन गरेर। यो किनभने CounterFit एप्लिकेसन हालको टर्मिनलमा चलिरहेको छ।
 
-    ![VS Code Create a new integrated terminal बटन](../../../../../translated_images/vscode-new-terminal.77db8fc0f9cd3182.ne.png)
+    ![VS Code Create a new integrated terminal बटन](../../../../../translated_images/ne/vscode-new-terminal.77db8fc0f9cd3182.png)
 
 1. यस नयाँ टर्मिनलमा, पहिलेको जस्तै `app.py` फाइल चलाउनुहोस्। CounterFit को स्थिति **Connected** मा परिवर्तन हुनेछ र LED बत्ती बल्नेछ।
 
-    ![Counter Fit जडान भएको देखाउँदै](../../../../../translated_images/counterfit-connected.ed30b46d8f79b0921f3fc70be10366e596a89dca3f80c2224a9d9fc98fccf884.ne.png)
+    ![Counter Fit जडान भएको देखाउँदै](../../../../../translated_images/ne/counterfit-connected.ed30b46d8f79b0921f3fc70be10366e596a89dca3f80c2224a9d9fc98fccf884.png)
 
 > 💁 तपाईं यो कोड [code/virtual-device](../../../../../1-getting-started/lessons/1-introduction-to-iot/code/virtual-device) फोल्डरमा पाउन सक्नुहुन्छ।
 

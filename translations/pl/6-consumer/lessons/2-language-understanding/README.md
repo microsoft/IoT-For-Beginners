@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Zrozumienie języka
 
-![Szkicowy przegląd tej lekcji](../../../../../translated_images/lesson-22.6148ea28500d9e00c396aaa2649935fb6641362c8f03d8e5e90a676977ab01dd.pl.jpg)
+![Szkicowy przegląd tej lekcji](../../../../../translated_images/pl/lesson-22.6148ea28500d9e00c396aaa2649935fb6641362c8f03d8e5e90a676977ab01dd.jpg)
 
 > Szkic autorstwa [Nitya Narasimhan](https://github.com/nitya). Kliknij obrazek, aby zobaczyć większą wersję.
 
@@ -55,7 +55,7 @@ Modele zrozumienia języka to modele AI, które są trenowane do wyodrębniania 
 
 ## Tworzenie modelu zrozumienia języka
 
-![Logo LUIS](../../../../../translated_images/luis-logo.5cb4f3e88c020ee6df4f614e8831f4a4b6809a7247bf52085fb48d629ef9be52.pl.png)
+![Logo LUIS](../../../../../translated_images/pl/luis-logo.5cb4f3e88c020ee6df4f614e8831f4a4b6809a7247bf52085fb48d629ef9be52.png)
 
 Możesz tworzyć modele zrozumienia języka za pomocą LUIS, usługi zrozumienia języka od Microsoftu, która jest częścią Cognitive Services.
 
@@ -126,7 +126,7 @@ Po zdefiniowaniu jednostek tworzysz intencje. Są one wyuczone przez model na po
 
 Następnie informujesz LUIS, które części tych zdań odpowiadają jednostkom:
 
-![Zdanie ustaw timer na 1 minutę i 12 sekund rozbite na jednostki](../../../../../translated_images/sentence-as-intent-entities.301401696f992259.pl.png)
+![Zdanie ustaw timer na 1 minutę i 12 sekund rozbite na jednostki](../../../../../translated_images/pl/sentence-as-intent-entities.301401696f992259.png)
 
 Zdanie `ustaw timer na 1 minutę i 12 sekund` ma intencję `ustaw timer`. Ma również 2 jednostki z 2 wartościami każda:
 
@@ -178,7 +178,7 @@ Instrukcje dotyczące korzystania z portalu LUIS znajdziesz w [Quickstart: Build
 
 1. Podczas wpisywania każdego przykładu LUIS zacznie wykrywać jednostki i podkreślać oraz oznaczać te, które znajdzie.
 
-    ![Przykłady z podkreślonymi liczbami i jednostkami czasu przez LUIS](../../../../../translated_images/luis-intent-examples.25716580b2d2723cf1bafdf277d015c7f046d8cfa20f27bddf3a0873ec45fab7.pl.png)
+    ![Przykłady z podkreślonymi liczbami i jednostkami czasu przez LUIS](../../../../../translated_images/pl/luis-intent-examples.25716580b2d2723cf1bafdf277d015c7f046d8cfa20f27bddf3a0873ec45fab7.png)
 
 ### Zadanie - wytrenuj i przetestuj model
 

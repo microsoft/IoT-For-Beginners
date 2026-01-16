@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # အသီးအရည်အသွေးကို စစ်ဆေးရန် Detector တစ်ခုကို လေ့ကျင့်ပါ
 
-![ဒီသင်ခန်းစာအတွက် အကျဉ်းချုပ် sketchnote](../../../../../translated_images/lesson-15.843d21afdc6fb2bba70cd9db7b7d2f91598859fafda2078b0bdc44954194b6c0.my.jpg)
+![ဒီသင်ခန်းစာအတွက် အကျဉ်းချုပ် sketchnote](../../../../../translated_images/my/lesson-15.843d21afdc6fb2bba70cd9db7b7d2f91598859fafda2078b0bdc44954194b6c0.jpg)
 
 > Sketchnote ကို [Nitya Narasimhan](https://github.com/nitya) မှရေးသားထားသည်။ ပုံကို နှိပ်ပြီး အကြီးအရွယ်ကို ကြည့်ပါ။
 
@@ -47,7 +47,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 အလိုအလျောက်ရိတ်သိမ်းခြင်းစနစ်များ တိုးတက်လာသည်နှင့်အမျှ သီးနှံများကို စိစစ်ခြင်းဟာ လယ်ယာမှ စက်ရုံသို့ ရွှေ့ပြောင်းသွားခဲ့သည်။ အစားအစာများဟာ ရှည်လျားသော conveyor belt များပေါ်တွင် သွားလာပြီး၊ အရည်အသွေးမကောင်းသော အစားအစာများကို ဖယ်ရှားရန် လူအဖွဲ့များက စိစစ်ရသည်။ စက်ပစ္စည်းများကို အသုံးပြုခြင်းကြောင့် ရိတ်သိမ်းခြင်းဟာ စျေးသက်သာလာသော်လည်း၊ အစားအစာကို လက်ဖြင့် စိစစ်ရခြင်းမှာ အလုပ်ကြီးကုန်ကျစရိတ်ရှိနေဆဲပါသည်။
 
-![အနီရောင် ခရမ်းချဉ်သီးကို တွေ့ရှိပါက အဆင်ပြေစွာ ဆက်လက်သွားပါမည်။ အစိမ်းရောင် ခရမ်းချဉ်သီးကို တွေ့ရှိပါက လက်တံတစ်ခုဖြင့် အမှိုက်ပုံးထဲသို့ ပစ်ချပါမည်](../../../../../translated_images/optical-tomato-sorting.61aa134bdda4e5b1bfb16a212c1e35a6ef0c426cbb8b1c975f79d7bfbf48d068.my.png)
+![အနီရောင် ခရမ်းချဉ်သီးကို တွေ့ရှိပါက အဆင်ပြေစွာ ဆက်လက်သွားပါမည်။ အစိမ်းရောင် ခရမ်းချဉ်သီးကို တွေ့ရှိပါက လက်တံတစ်ခုဖြင့် အမှိုက်ပုံးထဲသို့ ပစ်ချပါမည်](../../../../../translated_images/my/optical-tomato-sorting.61aa134bdda4e5b1bfb16a212c1e35a6ef0c426cbb8b1c975f79d7bfbf48d068.png)
 
 နောက်ဆုံးတိုးတက်မှုမှာ စက်များကို အသုံးပြု၍ စိစစ်ခြင်းဖြစ်ပြီး၊ ရိတ်သိမ်းစက်တွင် တပ်ဆင်ထားခြင်း၊ သို့မဟုတ် စက်ရုံများတွင် တပ်ဆင်ထားခြင်းဖြစ်သည်။ ဒီစက်များ၏ ပထမဆုံးမျိုးဆက်ဟာ optical sensor များကို အသုံးပြုပြီး အရောင်များကို တွေ့ရှိကာ၊ actuator များကို ထိန်းချုပ်ပြီး အစိမ်းရောင် ခရမ်းချဉ်သီးများကို လက်တံ သို့မဟုတ် လေတိုက်မှုများဖြင့် အမှိုက်ပုံးထဲသို့ ပစ်ချကာ၊ အနီရောင် ခရမ်းချဉ်သီးများကို conveyor belt များပေါ်တွင် ဆက်လက်သွားစေသည်။
 
@@ -61,7 +61,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 ရိုးရာ programming ဟာ ဒေတာကို ယူပြီး၊ algorithm ကို ဒေတာပေါ်မှာ အသုံးပြုကာ output ကို ရရှိစေသည်။ ဥပမာအားဖြင့်၊ နောက်ဆုံး project မှာ သင် GPS coordinates နဲ့ geofence ကို ယူပြီး၊ Azure Maps မှ ပေးထားသော algorithm ကို အသုံးပြုကာ၊ point ဟာ geofence အတွင်းမှာလား အပြင်မှာလားဆိုတာကို ရလဒ်အဖြစ် ရရှိခဲ့သည်။ သင်ပိုမိုများသော ဒေတာကို input လုပ်ပါက output ကို ပိုမိုရရှိနိုင်ပါသည်။
 
-![ရိုးရာ development ဟာ input နဲ့ algorithm ကို အသုံးပြုပြီး output ကို ရရှိစေသည်။ Machine learning ဟာ input နဲ့ output ဒေတာကို အသုံးပြုကာ model ကို လေ့ကျင့်ပြီး၊ model ဟာ input data အသစ်များကို အသုံးပြုကာ output အသစ်များကို ဖန်တီးနိုင်သည်](../../../../../translated_images/traditional-vs-ml.5c20c169621fa539.my.png)
+![ရိုးရာ development ဟာ input နဲ့ algorithm ကို အသုံးပြုပြီး output ကို ရရှိစေသည်။ Machine learning ဟာ input နဲ့ output ဒေတာကို အသုံးပြုကာ model ကို လေ့ကျင့်ပြီး၊ model ဟာ input data အသစ်များကို အသုံးပြုကာ output အသစ်များကို ဖန်တီးနိုင်သည်](../../../../../translated_images/my/traditional-vs-ml.5c20c169621fa539.png)
 
 Machine learning ဟာ ဒီစနစ်ကို ပြောင်းလဲစေသည် - သင်ဟာ ဒေတာနဲ့ သိထားသော output များကို စတင်ပေးပြီး၊ machine learning algorithm ဟာ ဒေတာမှ လေ့လာသည်။ ထို့နောက် သင်ဟာ ဒီလေ့လာထားသော algorithm ကို ယူပြီး၊ *machine learning model* သို့မဟုတ် *model* ဟုခေါ်သော trained algorithm ကို အသုံးပြုကာ input data အသစ်များကို ထည့်သွင်းပြီး output အသစ်များကို ရရှိနိုင်သည်။
 
@@ -71,7 +71,7 @@ Machine learning ဟာ ဒီစနစ်ကို ပြောင်းလဲ�
 
 > 🎓 ML မော်ဒယ်များ၏ ရလဒ်များကို *predictions* ဟုခေါ်သည်။
 
-![2 ခွဲသော ငှက်ပျောသီးများ၊ တစ်ခုမှာ ripe ဖြစ်ပြီး prediction ဟာ 99.7% ripe, 0.3% unripe ဖြစ်သည်။ အခြားတစ်ခုမှာ unripe ဖြစ်ပြီး prediction ဟာ 1.4% ripe, 98.6% unripe ဖြစ်သည်](../../../../../translated_images/bananas-ripe-vs-unripe-predictions.8d0e2034014aa50ece4e4589e724b142da0681f35470fe3db3f7d51240f69c85.my.png)
+![2 ခွဲသော ငှက်ပျောသီးများ၊ တစ်ခုမှာ ripe ဖြစ်ပြီး prediction ဟာ 99.7% ripe, 0.3% unripe ဖြစ်သည်။ အခြားတစ်ခုမှာ unripe ဖြစ်ပြီး prediction ဟာ 1.4% ripe, 98.6% unripe ဖြစ်သည်](../../../../../translated_images/my/bananas-ripe-vs-unripe-predictions.8d0e2034014aa50ece4e4589e724b142da0681f35470fe3db3f7d51240f69c85.png)
 
 ML မော်ဒယ်များဟာ binary answer မပေးပါဘူး၊ အစား probability များကို ပေးသည်။ ဥပမာအားဖြင့်၊ model တစ်ခုကို banana ပုံတစ်ပုံကို input ပေးပြီး `ripe` ဟု 99.7% နဲ့ `unripe` ဟု 0.3% ခန့်မှန်းနိုင်သည်။ သင့် code ဟာ အကောင်းဆုံး prediction ကို ရွေးပြီး banana ဟာ ripe ဖြစ်သည်ဟု ဆုံးဖြတ်မည်။
 
@@ -87,7 +87,7 @@ Image classifier ကို အောင်မြင်စွာ လေ့ကျ�
 
 Image classifier တစ်ခုဟာ အမျိုးမျိုးသော ပုံများအတွက် လေ့ကျင့်ပြီးနောက်၊ အတွင်းပိုင်းမှာ shape, color, pattern များကို ခွဲခြားနိုင်စွမ်းရှိသည်။ Transfer learning ဟာ model ကို shape များကို ခွဲခြားနိုင်စွမ်းရှိစေပြီး၊ shape များကို အသုံးပြုကာ အသစ်သော ပုံများကို ခွဲခြားနိုင်စွမ်းရှိစေသည်။
 
-![Shape များကို ခွဲခြားနိုင်ပြီး၊ shape များကို အမျိုးမျိုးသော configuration များတွင် boat သို့မဟုတ် cat တစ်ခုကို ဖန်တီးနိုင်သည်](../../../../../translated_images/shapes-to-images.1a309f0ea88dd66f.my.png)
+![Shape များကို ခွဲခြားနိုင်ပြီး၊ shape များကို အမျိုးမျိုးသော configuration များတွင် boat သို့မဟုတ် cat တစ်ခုကို ဖန်တီးနိုင်သည်](../../../../../translated_images/my/shapes-to-images.1a309f0ea88dd66f.png)
 
 ဒီဟာကို ကလေးများရဲ့ shape book ကဲ့သို့ စဉ်းစားနိုင်သည်။ Semi-circle, rectangle, triangle တို့ကို ခွဲခြားနိုင်ပြီးနောက်၊ shape များကို configuration အမျိုးမျိုးတွင် အသုံးပြုကာ sailboat သို့မဟုတ် cat ကို ဖန်တီးနိုင်သည်။ Image classifier ဟာ shape များကို ခွဲခြားနိုင်ပြီး၊ transfer learning ဟာ shape များကို အသုံးပြုကာ sailboat သို့မဟုတ် cat - သို့မဟုတ် ripe banana ကို ခွဲခြားနိုင်စွမ်းရှိစေသည်။
 

@@ -25,7 +25,7 @@ De camera kan met een lintkabel op de Raspberry Pi worden aangesloten.
 
 ### Taak - sluit de camera aan
 
-![Een Raspberry Pi Camera](../../../../../translated_images/pi-camera-module.4278753c31bd6e757aa2b858be97d72049f71616278cefe4fb5abb485b40a078.nl.png)
+![Een Raspberry Pi Camera](../../../../../translated_images/nl/pi-camera-module.4278753c31bd6e757aa2b858be97d72049f71616278cefe4fb5abb485b40a078.png)
 
 1. Zet de Pi uit.
 
@@ -33,17 +33,17 @@ De camera kan met een lintkabel op de Raspberry Pi worden aangesloten.
 
     Je kunt een animatie bekijken over hoe je de clip opent en de kabel invoert in de [Raspberry Pi Getting Started with the Camera module documentation](https://projects.raspberrypi.org/en/projects/getting-started-with-picamera/2).
 
-    ![De lintkabel ingevoerd in de cameramodule](../../../../../translated_images/pi-camera-ribbon-cable.0bf82acd251611c21ac616f082849413e2b322a261d0e4f8fec344248083b07e.nl.png)
+    ![De lintkabel ingevoerd in de cameramodule](../../../../../translated_images/nl/pi-camera-ribbon-cable.0bf82acd251611c21ac616f082849413e2b322a261d0e4f8fec344248083b07e.png)
 
 1. Verwijder de Grove Base Hat van de Pi.
 
 1. Leid de lintkabel door de camerasleuf in de Grove Base Hat. Zorg ervoor dat de blauwe zijde van de kabel naar de analoge poorten gericht is, gemarkeerd met **A0**, **A1**, enz.
 
-    ![De lintkabel door de Grove Base Hat geleid](../../../../../translated_images/grove-base-hat-ribbon-cable.501fed202fcf73b11b2b68f6d246189f7d15d3e4423c572ddee79d77b4632b47.nl.png)
+    ![De lintkabel door de Grove Base Hat geleid](../../../../../translated_images/nl/grove-base-hat-ribbon-cable.501fed202fcf73b11b2b68f6d246189f7d15d3e4423c572ddee79d77b4632b47.png)
 
 1. Steek de lintkabel in de camera-aansluiting op de Pi. Trek opnieuw het zwarte plastic clipje omhoog, steek de kabel in de aansluiting en duw het clipje weer terug. De blauwe zijde van de kabel moet naar de USB- en ethernetpoorten gericht zijn.
 
-    ![De lintkabel aangesloten op de camera-aansluiting van de Pi](../../../../../translated_images/pi-camera-socket-ribbon-cable.a18309920b11800911082ed7aa6fb28e6d9be3a022e4079ff990016cae3fca10.nl.png)
+    ![De lintkabel aangesloten op de camera-aansluiting van de Pi](../../../../../translated_images/nl/pi-camera-socket-ribbon-cable.a18309920b11800911082ed7aa6fb28e6d9be3a022e4079ff990016cae3fca10.png)
 
 1. Plaats de Grove Base Hat terug.
 
@@ -110,7 +110,7 @@ Programmeur het apparaat.
 
     De regel `camera.rotation = 0` stelt de rotatie van de afbeelding in. De lintkabel komt aan de onderkant van de camera binnen, maar als je de camera hebt gedraaid om deze gemakkelijker te richten op het object dat je wilt classificeren, kun je deze regel aanpassen aan het aantal graden van rotatie.
 
-    ![De camera hangt naar beneden over een frisdrankblikje](../../../../../translated_images/pi-camera-upside-down.5376961ba31459883362124152ad6b823d5ac5fc14e85f317e22903bd681c2b6.nl.png)
+    ![De camera hangt naar beneden over een frisdrankblikje](../../../../../translated_images/nl/pi-camera-upside-down.5376961ba31459883362124152ad6b823d5ac5fc14e85f317e22903bd681c2b6.png)
 
     Als je bijvoorbeeld de lintkabel over iets heen hangt zodat deze aan de bovenkant van de camera zit, stel dan de rotatie in op 180:
 

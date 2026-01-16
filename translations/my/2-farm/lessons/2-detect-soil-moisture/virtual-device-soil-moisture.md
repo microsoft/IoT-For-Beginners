@@ -43,11 +43,11 @@ CounterFit app တွင် မြေစိုထိုင်းဆ အာရု
 
     1. **Add** ခလုတ်ကို ရွေးပြီး *Soil Moisture* sensor ကို Pin 0 တွင် ဖန်တီးပါ။
 
-    ![မြေစိုထိုင်းဆ အာရုံခံကိရိယာ၏ settings](../../../../../translated_images/counterfit-create-soil-moisture-sensor.35266135a5e0ae68b29a684d7db0d2933a8098b2307d197f7c71577b724603aa.my.png)
+    ![မြေစိုထိုင်းဆ အာရုံခံကိရိယာ၏ settings](../../../../../translated_images/my/counterfit-create-soil-moisture-sensor.35266135a5e0ae68b29a684d7db0d2933a8098b2307d197f7c71577b724603aa.png)
 
     မြေစိုထိုင်းဆ အာရုံခံကိရိယာကို ဖန်တီးပြီး sensor list တွင် ပေါ်လာမည်။
 
-    ![ဖန်တီးပြီးသော မြေစိုထိုင်းဆ အာရုံခံကိရိယာ](../../../../../translated_images/counterfit-soil-moisture-sensor.81742b2de0e9de60a3b3b9a2ff8ecc686d428eb6d71820f27a693be26e5aceee.my.png)
+    ![ဖန်တီးပြီးသော မြေစိုထိုင်းဆ အာရုံခံကိရိယာ](../../../../../translated_images/my/counterfit-soil-moisture-sensor.81742b2de0e9de60a3b3b9a2ff8ecc686d428eb6d71820f27a693be26e5aceee.png)
 
 ## မြေစိုထိုင်းဆ အာရုံခံ app ကို အစီအစဉ်ရေးဆွဲပါ
 

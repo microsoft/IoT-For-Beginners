@@ -17,7 +17,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 ਲਾਈਟ ਸੈਂਸਰ Wio Terminal ਵਿੱਚ ਬਣਿਆ ਹੋਇਆ ਹੈ ਅਤੇ ਇਹ ਪਿੱਛੇ ਦੇ ਪਾਰਦਰਸ਼ੀ ਪਲਾਸਟਿਕ ਵਿੰਡੋ ਰਾਹੀਂ ਦਿਖਾਈ ਦਿੰਦਾ ਹੈ।
 
-![Wio Terminal ਦੇ ਪਿੱਛੇ ਲਾਈਟ ਸੈਂਸਰ](../../../../../translated_images/wio-light-sensor.b1f529f3c95f5165.pa.png)
+![Wio Terminal ਦੇ ਪਿੱਛੇ ਲਾਈਟ ਸੈਂਸਰ](../../../../../translated_images/pa/wio-light-sensor.b1f529f3c95f5165.png)
 
 ## ਲਾਈਟ ਸੈਂਸਰ ਨੂੰ ਪ੍ਰੋਗਰਾਮ ਕਰੋ
 

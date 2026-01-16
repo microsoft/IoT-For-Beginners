@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Verbind je apparaat met het internet
 
-![Een schetsnotitie-overzicht van deze les](../../../../../translated_images/lesson-4.7344e074ea68fa545fd320b12dce36d72dd62d28c3b4596cb26cf315f434b98f.nl.jpg)
+![Een schetsnotitie-overzicht van deze les](../../../../../translated_images/nl/lesson-4.7344e074ea68fa545fd320b12dce36d72dd62d28c3b4596cb26cf315f434b98f.jpg)
 
 > Schetsnotitie door [Nitya Narasimhan](https://github.com/nitya). Klik op de afbeelding voor een grotere versie.
 
@@ -46,7 +46,7 @@ In deze les behandelen we:
 
 Er zijn verschillende populaire communicatieprotocollen die door IoT-apparaten worden gebruikt om met het internet te communiceren. De meest gebruikte protocollen zijn gebaseerd op het publiceren/abonneren-model via een soort broker. De IoT-apparaten maken verbinding met de broker en publiceren telemetrie en abonneren zich op opdrachten. De clouddiensten maken ook verbinding met de broker, abonneren zich op alle telemetrieberichten en publiceren opdrachten, hetzij aan specifieke apparaten, hetzij aan groepen apparaten.
 
-![IoT-apparaten maken verbinding met een broker, publiceren telemetrie en abonneren zich op opdrachten. Clouddiensten maken verbinding met de broker, abonneren zich op alle telemetrie en sturen opdrachten naar specifieke apparaten.](../../../../../translated_images/pub-sub.7c7ed43fe9fd15d4.nl.png)
+![IoT-apparaten maken verbinding met een broker, publiceren telemetrie en abonneren zich op opdrachten. Clouddiensten maken verbinding met de broker, abonneren zich op alle telemetrie en sturen opdrachten naar specifieke apparaten.](../../../../../translated_images/nl/pub-sub.7c7ed43fe9fd15d4.png)
 
 MQTT is het meest populaire communicatieprotocol voor IoT-apparaten en wordt in deze les behandeld. Andere protocollen zijn onder andere AMQP en HTTP/HTTPS.
 
@@ -56,7 +56,7 @@ MQTT is het meest populaire communicatieprotocol voor IoT-apparaten en wordt in 
 
 MQTT heeft één broker en meerdere clients. Alle clients maken verbinding met de broker, en de broker stuurt berichten door naar de relevante clients. Berichten worden gerouteerd via benoemde onderwerpen (topics), in plaats van rechtstreeks naar een individuele client te worden verzonden. Een client kan publiceren naar een onderwerp, en alle clients die zich op dat onderwerp hebben geabonneerd, ontvangen het bericht.
 
-![IoT-apparaat publiceert telemetrie op het /telemetry-onderwerp, en de clouddienst abonneert zich op dat onderwerp](../../../../../translated_images/mqtt.cbf7f21d9adc3e17548b359444cc11bb4bf2010543e32ece9a47becf54438c23.nl.png)
+![IoT-apparaat publiceert telemetrie op het /telemetry-onderwerp, en de clouddienst abonneert zich op dat onderwerp](../../../../../translated_images/nl/mqtt.cbf7f21d9adc3e17548b359444cc11bb4bf2010543e32ece9a47becf54438c23.png)
 
 ✅ Doe wat onderzoek. Als je veel IoT-apparaten hebt, hoe kun je ervoor zorgen dat je MQTT-broker alle berichten aankan?
 
@@ -78,7 +78,7 @@ In plaats van de complexiteit van het opzetten van een MQTT-broker als onderdeel
 
 > 💁 Deze testbroker is openbaar en niet beveiligd. Iedereen kan luisteren naar wat je publiceert, dus het mag niet worden gebruikt voor gegevens die privé moeten blijven.
 
-![Een stroomdiagram van de opdracht met lichtniveaus die worden gelezen en gecontroleerd, en de LED die wordt bestuurd](../../../../../translated_images/assignment-1-internet-flow.3256feab5f052fd273bf4e331157c574c2c3fa42e479836fc9c3586f41db35a5.nl.png)
+![Een stroomdiagram van de opdracht met lichtniveaus die worden gelezen en gecontroleerd, en de LED die wordt bestuurd](../../../../../translated_images/nl/assignment-1-internet-flow.3256feab5f052fd273bf4e331157c574c2c3fa42e479836fc9c3586f41db35a5.png)
 
 Volg de relevante stap hieronder om je apparaat te verbinden met de MQTT-broker:
 
@@ -115,7 +115,7 @@ Het woord telemetrie is afgeleid van Griekse wortels die "op afstand meten" bete
 
 Laten we terugkijken naar het voorbeeld van de slimme thermostaat uit Les 1.
 
-![Een internetverbonden thermostaat met meerdere kamertemperatuursensoren](../../../../../translated_images/telemetry.21e5d8b97649d2eb.nl.png)
+![Een internetverbonden thermostaat met meerdere kamertemperatuursensoren](../../../../../translated_images/nl/telemetry.21e5d8b97649d2eb.png)
 
 De thermostaat heeft temperatuursensoren om telemetrie te verzamelen. Het heeft waarschijnlijk één ingebouwde temperatuursensor en kan verbinding maken met meerdere externe temperatuursensoren via een draadloos protocol zoals [Bluetooth Low Energy](https://wikipedia.org/wiki/Bluetooth_Low_Energy) (BLE).
 
@@ -267,11 +267,11 @@ Schrijf de servercode.
 
 1. Wanneer VS Code wordt gestart, zal het de Python virtuele omgeving activeren. Dit wordt weergegeven in de onderste statusbalk:
 
-    ![VS Code toont de geselecteerde virtuele omgeving](../../../../../translated_images/vscode-virtual-env.8ba42e04c3d533cf.nl.png)
+    ![VS Code toont de geselecteerde virtuele omgeving](../../../../../translated_images/nl/vscode-virtual-env.8ba42e04c3d533cf.png)
 
 1. Als de VS Code Terminal al actief is wanneer VS Code wordt gestart, zal de virtuele omgeving niet geactiveerd zijn in de terminal. Het eenvoudigste is om de terminal te sluiten met de knop **Kill the active terminal instance**:
 
-    ![VS Code Kill the active terminal instance-knop](../../../../../translated_images/vscode-kill-terminal.1cc4de7c6f25ee08.nl.png)
+    ![VS Code Kill the active terminal instance-knop](../../../../../translated_images/nl/vscode-kill-terminal.1cc4de7c6f25ee08.png)
 
 1. Start een nieuwe VS Code Terminal door *Terminal -> New Terminal* te selecteren of door `` CTRL+` `` in te drukken. De nieuwe terminal zal de virtuele omgeving laden, waarbij de activeringsopdracht in de terminal verschijnt. De naam van de virtuele omgeving (`.venv`) zal ook in de prompt staan:
 
@@ -359,7 +359,7 @@ Voor machines wil je de gegevens misschien bewaren, vooral als ze worden gebruik
 
 Ontwerpers van IoT-apparaten moeten ook overwegen of het IoT-apparaat kan worden gebruikt tijdens een internetstoring of signaalverlies door locatie. Een slimme thermostaat moet in staat zijn om enkele beperkte beslissingen te nemen om de verwarming te regelen als het geen telemetrie naar de cloud kan verzenden vanwege een storing.
 
-[![Deze Ferrari werd onbruikbaar omdat iemand probeerde hem te upgraden op een plek zonder mobiel bereik](../../../../../translated_images/bricked-car.dc38f8efadc6c59d76211f981a521efb300939283dee468f79503aae3ec67615.nl.png)](https://twitter.com/internetofshit/status/1315736960082808832)
+[![Deze Ferrari werd onbruikbaar omdat iemand probeerde hem te upgraden op een plek zonder mobiel bereik](../../../../../translated_images/nl/bricked-car.dc38f8efadc6c59d76211f981a521efb300939283dee468f79503aae3ec67615.png)](https://twitter.com/internetofshit/status/1315736960082808832)
 
 Voor MQTT om met een verlies van connectiviteit om te gaan, moeten het apparaat en de servercode verantwoordelijk zijn voor het waarborgen van berichtlevering indien nodig. Bijvoorbeeld door te eisen dat alle verzonden berichten worden beantwoord met aanvullende berichten op een antwoordonderwerp. Als dat niet gebeurt, worden ze handmatig in een wachtrij geplaatst om later opnieuw te worden verzonden.
 
@@ -367,7 +367,7 @@ Voor MQTT om met een verlies van connectiviteit om te gaan, moeten het apparaat 
 
 Opdrachten zijn berichten die door de cloud naar een apparaat worden verzonden om het te instrueren iets te doen. Meestal houdt dit in dat er een soort uitvoer wordt gegeven via een actuator, maar het kan ook een instructie zijn voor het apparaat zelf, zoals opnieuw opstarten of extra telemetrie verzamelen en deze als reactie op de opdracht retourneren.
 
-![Een internetverbonden thermostaat die een opdracht ontvangt om de verwarming aan te zetten](../../../../../translated_images/commands.d6c06bbbb3a02cce95f2831a1c331daf6dedd4e470c4aa2b0ae54f332016e504.nl.png)
+![Een internetverbonden thermostaat die een opdracht ontvangt om de verwarming aan te zetten](../../../../../translated_images/nl/commands.d6c06bbbb3a02cce95f2831a1c331daf6dedd4e470c4aa2b0ae54f332016e504.png)
 
 Een thermostaat kan een opdracht van de cloud ontvangen om de verwarming aan te zetten. Op basis van de telemetriegegevens van alle sensoren heeft de cloudservice besloten dat de verwarming aan moet, dus stuurt het de relevante opdracht.
 

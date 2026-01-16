@@ -93,7 +93,7 @@ De Custom Vision-service heeft een Python SDK die je kunt gebruiken om afbeeldin
 
     Je kunt de afbeelding zien die is gemaakt, en deze waarden in het tabblad **Predictions** in Custom Vision.
 
-    ![Een banaan in Custom Vision voorspeld rijp met 56,8% en onrijp met 43,1%](../../../../../translated_images/custom-vision-banana-prediction.30cdff4e1d72db5d9a0be0193790a47c2b387da034e12dc1314dd57ca2131b59.nl.png)
+    ![Een banaan in Custom Vision voorspeld rijp met 56,8% en onrijp met 43,1%](../../../../../translated_images/nl/custom-vision-banana-prediction.30cdff4e1d72db5d9a0be0193790a47c2b387da034e12dc1314dd57ca2131b59.png)
 
 > 💁 Je kunt deze code vinden in de map [code-classify/pi](../../../../../4-manufacturing/lessons/2-check-fruit-from-device/code-classify/pi) of [code-classify/virtual-iot-device](../../../../../4-manufacturing/lessons/2-check-fruit-from-device/code-classify/virtual-iot-device).
 

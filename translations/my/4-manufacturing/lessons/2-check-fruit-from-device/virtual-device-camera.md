@@ -43,11 +43,11 @@ CounterFit app တွင် ကင်မရာထည့်သွင်းပါ�
 
     1. **Add** ခလုတ်ကို ရွေးချယ်ပြီး ကင်မရာကို ဖန်တီးပါ။
 
-    ![ကင်မရာ settings](../../../../../translated_images/counterfit-create-camera.a5de97f59c0bd3cbe0416d7e89a3cfe86d19fbae05c641c53a91286412af0a34.my.png)
+    ![ကင်မရာ settings](../../../../../translated_images/my/counterfit-create-camera.a5de97f59c0bd3cbe0416d7e89a3cfe86d19fbae05c641c53a91286412af0a34.png)
 
     ကင်မရာကို ဖန်တီးပြီး sensors list မှာ ပေါ်လာမည်။
 
-    ![ဖန်တီးပြီးသော ကင်မရာ](../../../../../translated_images/counterfit-camera.001ec52194c8ee5d3f617173da2c79e1df903d10882adc625cbfc493525125d4.my.png)
+    ![ဖန်တီးပြီးသော ကင်မရာ](../../../../../translated_images/my/counterfit-camera.001ec52194c8ee5d3f617173da2c79e1df903d10882adc625cbfc493525125d4.png)
 
 ## ကင်မရာကို အစီအစဉ်ရေးခြင်း
 
@@ -112,7 +112,7 @@ CounterFit app တွင် ကင်မရာထည့်သွင်းပါ�
 
 1. CounterFit တွင် ကင်မရာဖမ်းယူမည့်ပုံကို configure လုပ်ပါ။ *Source* ကို *File* သို့မဟုတ် *WebCam* သတ်မှတ်ပြီး ပုံဖိုင်တစ်ခု upload လုပ်ပါ၊ သို့မဟုတ် webcam မှပုံများကို ဖမ်းယူပါ။ ပုံတစ်ခုကိုရွေးချယ်ပြီး သို့မဟုတ် webcam ကိုရွေးချယ်ပြီးနောက် **Set** ခလုတ်ကို ရွေးချယ်ပါ။
 
-    ![CounterFit တွင် ဖိုင်ကို image source အဖြစ် သတ်မှတ်ထားခြင်းနှင့် webcam preview](../../../../../translated_images/counterfit-camera-options.eb3bd5150a8e7dffbf24bc5bcaba0cf2cdef95fbe6bbe393695d173817d6b8df.my.png)
+    ![CounterFit တွင် ဖိုင်ကို image source အဖြစ် သတ်မှတ်ထားခြင်းနှင့် webcam preview](../../../../../translated_images/my/counterfit-camera-options.eb3bd5150a8e7dffbf24bc5bcaba0cf2cdef95fbe6bbe393695d173817d6b8df.png)
 
 1. ပုံတစ်ပုံကို ဖမ်းယူပြီး `image.jpg` ဟုခေါ်သော ဖိုင်အဖြစ် လက်ရှိဖိုလ်ဒါတွင် သိမ်းဆည်းမည်။ ဒီဖိုင်ကို VS Code explorer တွင် တွေ့မြင်နိုင်မည်။ ဖိုင်ကို ရွေးချယ်ပြီး ပုံကို ကြည့်ရှုပါ။ Rotate လုပ်ရန်လိုအပ်ပါက `camera.rotation = 0` line ကို update လုပ်ပြီး ပုံကို ထပ်မံဖမ်းယူပါ။
 

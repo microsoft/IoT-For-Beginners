@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Śledzenie lokalizacji
 
-![Szkicowy przegląd tej lekcji](../../../../../translated_images/lesson-11.9fddbac4b664c6d50ab7ac9bb32f1fc3f945f03760e72f7f43938073762fb017.pl.jpg)
+![Szkicowy przegląd tej lekcji](../../../../../translated_images/pl/lesson-11.9fddbac4b664c6d50ab7ac9bb32f1fc3f945f03760e72f7f43938073762fb017.jpg)
 
 > Szkic autorstwa [Nitya Narasimhan](https://github.com/nitya). Kliknij obrazek, aby zobaczyć większą wersję.
 
@@ -72,13 +72,13 @@ Ziemia jest kulą – trójwymiarowym okręgiem. Z tego powodu punkty są defini
 
 > 💁 Nikt tak naprawdę nie wie, dlaczego okręgi są podzielone na 360 stopni. [Strona o stopniach (kątach) na Wikipedii](https://wikipedia.org/wiki/Degree_(angle)) omawia niektóre możliwe powody.
 
-![Linie szerokości geograficznej od 90° na biegunie północnym, 45° w połowie drogi między biegunem północnym a równikiem, 0° na równiku, -45° w połowie drogi między równikiem a biegunem południowym oraz -90° na biegunie południowym](../../../../../translated_images/latitude-lines.11d8d91dfb2014a57437272d7db7fd6607243098e8685f06e0c5f1ec984cb7eb.pl.png)
+![Linie szerokości geograficznej od 90° na biegunie północnym, 45° w połowie drogi między biegunem północnym a równikiem, 0° na równiku, -45° w połowie drogi między równikiem a biegunem południowym oraz -90° na biegunie południowym](../../../../../translated_images/pl/latitude-lines.11d8d91dfb2014a57437272d7db7fd6607243098e8685f06e0c5f1ec984cb7eb.png)
 
 Szerokość geograficzna jest mierzona za pomocą linii, które okrążają Ziemię i biegną równolegle do równika, dzieląc półkulę północną i południową na 90° każda. Równik znajduje się na 0°, biegun północny na 90°, znany również jako 90° na północ, a biegun południowy na -90°, czyli 90° na południe.
 
 Długość geograficzna jest mierzona jako liczba stopni na wschód i zachód. Punkt początkowy 0° długości geograficznej nazywany jest *południkiem zerowym* i został zdefiniowany w 1884 roku jako linia biegnąca od bieguna północnego do bieguna południowego, przechodząca przez [Brytyjskie Obserwatorium Królewskie w Greenwich, Anglia](https://wikipedia.org/wiki/Royal_Observatory,_Greenwich).
 
-![Linie długości geograficznej od -180° na zachód od południka zerowego, do 0° na południku zerowym, do 180° na wschód od południka zerowego](../../../../../translated_images/longitude-meridians.ab4ef1c91c064586b0185a3c8d39e585903696c6a7d28c098a93a629cddb5d20.pl.png)
+![Linie długości geograficznej od -180° na zachód od południka zerowego, do 0° na południku zerowym, do 180° na wschód od południka zerowego](../../../../../translated_images/pl/longitude-meridians.ab4ef1c91c064586b0185a3c8d39e585903696c6a7d28c098a93a629cddb5d20.png)
 
 > 🎓 Południk to wyimaginowana prosta linia biegnąca od bieguna północnego do bieguna południowego, tworząca półokrąg.
 
@@ -109,7 +109,7 @@ Współrzędne punktu są zawsze podawane jako `szerokość geograficzna, długo
 * Szerokość geograficzną 47.6423109 (47.6423109 stopni na północ od równika)
 * Długość geograficzną -122.1390293 (122.1390293 stopni na zachód od południka zerowego).
 
-![Kampus Microsoftu na 47.6423109,-122.117198](../../../../../translated_images/microsoft-gps-location-world.a321d481b010f6adfcca139b2ba0adc53b79f58a540495b8e2ce7f779ea64bfe.pl.png)
+![Kampus Microsoftu na 47.6423109,-122.117198](../../../../../translated_images/pl/microsoft-gps-location-world.a321d481b010f6adfcca139b2ba0adc53b79f58a540495b8e2ce7f779ea64bfe.png)
 
 ## Globalne systemy pozycjonowania (GPS)
 
@@ -121,7 +121,7 @@ Systemy GPS działają, mając wiele satelitów, które wysyłają sygnał z akt
 
 > 💁 Czujniki GPS potrzebują anten do wykrywania fal radiowych. Anteny wbudowane w ciężarówki i samochody z wbudowanym GPS są umieszczone tak, aby uzyskać dobry sygnał, zazwyczaj na przedniej szybie lub dachu. Jeśli korzystasz z oddzielnego systemu GPS, takiego jak smartfon lub urządzenie IoT, musisz upewnić się, że antena wbudowana w system GPS lub telefon ma wyraźny widok na niebo, na przykład jest zamontowana na przedniej szybie.
 
-![Znając odległość od czujnika do wielu satelitów, można obliczyć lokalizację](../../../../../translated_images/gps-satellites.04acf1148fe25fbf1586bc2e8ba698e8d79b79a50c36824b38417dd13372b90f.pl.png)
+![Znając odległość od czujnika do wielu satelitów, można obliczyć lokalizację](../../../../../translated_images/pl/gps-satellites.04acf1148fe25fbf1586bc2e8ba698e8d79b79a50c36824b38417dd13372b90f.png)
 
 Satelity GPS krążą wokół Ziemi, a nie są w stałym punkcie nad czujnikiem, więc dane lokalizacyjne obejmują wysokość nad poziomem morza, a także szerokość i długość geograficzną.
 

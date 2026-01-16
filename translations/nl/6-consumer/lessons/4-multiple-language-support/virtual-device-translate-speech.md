@@ -46,7 +46,7 @@ De spraakservice kan spraak niet alleen omzetten naar tekst in dezelfde taal, ma
     >
     > Bijvoorbeeld, als je LUIS in het Engels traint, maar Frans wilt gebruiken als de gebruikers taal, kun je zinnen zoals "stel een timer in van 2 minuten en 27 seconden" van Engels naar Frans vertalen met Bing Translate, en vervolgens de knop **Luister naar vertaling** gebruiken om de vertaling in je microfoon te spreken.
     >
-    > ![De luister naar vertaling-knop op Bing Translate](../../../../../translated_images/bing-translate.348aa796d6efe2a92f41ea74a5cf42bb4c63d6faaa08e7f46924e072a35daa48.nl.png)
+    > ![De luister naar vertaling-knop op Bing Translate](../../../../../translated_images/nl/bing-translate.348aa796d6efe2a92f41ea74a5cf42bb4c63d6faaa08e7f46924e072a35daa48.png)
 
 1. Vervang de declaraties `recognizer_config` en `recognizer` door het volgende:
 

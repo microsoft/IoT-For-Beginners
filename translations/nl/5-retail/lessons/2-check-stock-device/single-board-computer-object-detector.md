@@ -76,7 +76,7 @@ De code die je gebruikte om beelden te classificeren lijkt sterk op de code om o
 
     Je kunt het vastgelegde beeld en deze waarden bekijken in het tabblad **Predictions** in Custom Vision.
 
-    ![4 blikken tomatenpuree op een plank met voorspellingen voor de 4 detecties van 35,8%, 33,5%, 25,7% en 16,6%](../../../../../translated_images/custom-vision-stock-prediction.942266ab1bcca3410ecdf23643b9f5f570cfab2345235074e24c51f285777613.nl.png)
+    ![4 blikken tomatenpuree op een plank met voorspellingen voor de 4 detecties van 35,8%, 33,5%, 25,7% en 16,6%](../../../../../translated_images/nl/custom-vision-stock-prediction.942266ab1bcca3410ecdf23643b9f5f570cfab2345235074e24c51f285777613.png)
 
 > 💁 Je kunt deze code vinden in de map [code-detect/pi](../../../../../5-retail/lessons/2-check-stock-device/code-detect/pi) of [code-detect/virtual-iot-device](../../../../../5-retail/lessons/2-check-stock-device/code-detect/virtual-iot-device).
 

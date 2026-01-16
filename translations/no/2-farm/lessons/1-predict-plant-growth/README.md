@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 ## Forutsi plantevekst med IoT
 
-![En sketchnote-oversikt over denne leksjonen](../../../../../translated_images/lesson-5.42b234299279d263143148b88ab4583861a32ddb03110c6c1120e41bb88b2592.no.jpg)
+![En sketchnote-oversikt over denne leksjonen](../../../../../translated_images/no/lesson-5.42b234299279d263143148b88ab4583861a32ddb03110c6c1120e41bb88b2592.jpg)
 
 > Sketchnote av [Nitya Narasimhan](https://github.com/nitya). Klikk på bildet for en større versjon.
 
@@ -65,7 +65,7 @@ Hver planteart har forskjellige verdier for sin basis-, optimal- og maksimumstem
 
 ✅ Gjør litt research. For planter du har i hagen, på skolen eller i en lokal park, se om du kan finne basistemperaturen.
 
-![En graf som viser vekstraten som øker med temperaturen, og deretter faller når temperaturen blir for høy](../../../../../translated_images/plant-growth-temp-graph.c6d69c9478e6ca83.no.png)
+![En graf som viser vekstraten som øker med temperaturen, og deretter faller når temperaturen blir for høy](../../../../../translated_images/no/plant-growth-temp-graph.c6d69c9478e6ca83.png)
 
 Grafen ovenfor viser et eksempel på en vekstrate til temperatur-graf. Opp til basistemperaturen er det ingen vekst. Vekstraten øker opp til den optimale temperaturen, og faller deretter etter å ha nådd denne toppen. 
 
@@ -91,7 +91,7 @@ Denne koden åpner CSV-filen og legger til en ny rad på slutten. Raden innehold
 
     
 > 💁 Hvis du bruker en virtuell IoT-enhet, velg avkrysningsboksen for tilfeldig og sett et område for å unngå å få samme temperatur hver gang temperaturen returneres.
-    ![Velg avkrysningsboksen for tilfeldig og sett et område](../../../../../translated_images/select-the-random-checkbox-and-set-a-range.32cf4bc7c12e797f.no.png) 
+    ![Velg avkrysningsboksen for tilfeldig og sett et område](../../../../../translated_images/no/select-the-random-checkbox-and-set-a-range.32cf4bc7c12e797f.png) 
 
     > 💁 Hvis du vil kjøre dette i en hel dag, må du sørge for at datamaskinen serverkoden din kjører på ikke går i dvale, enten ved å endre strøminnstillingene dine eller kjøre noe som [dette Python-skriptet for å holde systemet aktivt](https://github.com/jaqsparow/keep-system-active).
     
@@ -111,7 +111,7 @@ Stegene for å gjøre dette manuelt er:
 
 For eksempel, hvis dagens høyeste temperatur er 25°C, og den laveste er 12°C:
 
-![GDD = 25 + 12 delt på 2, deretter trekk 10 fra resultatet som gir 8,5](../../../../../translated_images/gdd-calculation-strawberries.59f57db94b22adb8ff6efb951ace33af104a1c6ccca3ffb0f8169c14cb160c90.no.png)
+![GDD = 25 + 12 delt på 2, deretter trekk 10 fra resultatet som gir 8,5](../../../../../translated_images/no/gdd-calculation-strawberries.59f57db94b22adb8ff6efb951ace33af104a1c6ccca3ffb0f8169c14cb160c90.png)
 
 * 25 + 12 = 37
 * 37 / 2 = 18,5

@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # မင်းရဲ့ အပင်ကို Cloud သို့ ပြောင်းရွှေ့ပါ
 
-![ဒီသင်ခန်းစာအတွက် Sketchnote အကျဉ်းချုပ်](../../../../../translated_images/lesson-8.3f21f3c11159e6a0a376351973ea5724d5de68fa23b4288853a174bed9ac48c3.my.jpg)
+![ဒီသင်ခန်းစာအတွက် Sketchnote အကျဉ်းချုပ်](../../../../../translated_images/my/lesson-8.3f21f3c11159e6a0a376351973ea5724d5de68fa23b4288853a174bed9ac48c3.jpg)
 
 > Sketchnote ကို [Nitya Narasimhan](https://github.com/nitya) မှရေးသားထားသည်။ ပုံကို နှိပ်ပြီး ပိုကြီးမားသော ဗားရှင်းကို ကြည့်ပါ။
 
@@ -55,8 +55,8 @@ Cloud မတိုင်မီမှာ၊ ကုမ္ပဏီတစ်ခု�
 
 Cloud ကို "တစ်ယောက်ယောက်ရဲ့ ကွန်ပျူတာ" လို့ ရယ်စရာအနေနဲ့ ခေါ်ကြသည်။ အစပိုင်းအယူအဆက ရိုးရှင်းသည် - မင်းရဲ့ ကွန်ပျူတာကို ဝယ်မယ့်အစား တစ်ယောက်ယောက်ရဲ့ ကွန်ပျူတာကို ငှားပါ။ Cloud computing provider တစ်ခုက data center ကြီးများကို စီမံခန့်ခွဲမည်။ သူတို့က hardware ဝယ်ယူခြင်း၊ power နှင့် cooling စနစ်များ စီမံခြင်း၊ network စီမံခြင်း၊ လုံခြုံရေး စီမံခြင်း၊ software အပ်ဒိတ်များ စီမံခြင်း စသည်တို့ကို တာဝန်ယူမည်။ Customer အနေနဲ့ မင်းက လိုအပ်သလောက် ကွန်ပျူတာများကို ငှားပြီး၊ လိုအပ်သောအခါ တိုးမြှင့်နိုင်သည်။ 
 
-![Microsoft cloud data center](../../../../../translated_images/azure-region-existing.73f704604f2aa6cb9b5a49ed40e93d4fd81ae3f4e6af4a8ca504023902832f56.my.png)
-![Microsoft cloud data center planned expansion](../../../../../translated_images/azure-region-planned-expansion.a5074a1e8af74f156a73552d502429e5b126ea5019274d767ecb4b9afdad442b.my.png)
+![Microsoft cloud data center](../../../../../translated_images/my/azure-region-existing.73f704604f2aa6cb9b5a49ed40e93d4fd81ae3f4e6af4a8ca504023902832f56.png)
+![Microsoft cloud data center planned expansion](../../../../../translated_images/my/azure-region-planned-expansion.a5074a1e8af74f156a73552d502429e5b126ea5019274d767ecb4b9afdad442b.png)
 
 ဒီ data center တွေဟာ စတုရန်းကီလိုမီတာများစွာ ကျယ်ဝန်းနိုင်သည်။ အထက်ပါပုံတွေက Microsoft cloud data center တစ်ခုမှာ ရှိပြီး၊ စတင်အရွယ်အစားနှင့် အချဲ့အရွယ်အစားကို ပြသထားသည်။ 
 
@@ -70,7 +70,7 @@ Cloud ကို အသုံးပြုခြင်းက ကုန်ကျစ
 
 Azure ဟာ Microsoft ရဲ့ developer cloud ဖြစ်ပြီး၊ ဒီသင်ခန်းစာတွေမှာ မင်းအသုံးပြုမည့် cloud ဖြစ်ပါတယ်။ အောက်ပါဗီဒီယိုက Azure အကြောင်း အကျဉ်းချုပ်ကို ဖော်ပြထားပါတယ် -
 
-[![Azure အကြောင်းဗီဒီယို](../../../../../translated_images/what-is-azure-video-thumbnail.20174db09e03bbb8.my.png)](https://www.microsoft.com/videoplayer/embed/RE4Ibng?WT.mc_id=academic-17441-jabenn)
+[![Azure အကြောင်းဗီဒီယို](../../../../../translated_images/my/what-is-azure-video-thumbnail.20174db09e03bbb8.png)](https://www.microsoft.com/videoplayer/embed/RE4Ibng?WT.mc_id=academic-17441-jabenn)
 
 ## Cloud subscription တစ်ခု ဖန်တီးပါ
 
@@ -114,11 +114,11 @@ Cloud IoT services တွေက ဒီပြဿနာတွေကို ဖြ�
 
 IoT စက်တွေဟာ device SDK သို့မဟုတ် MQTT/HTTP တို့ကို အသုံးပြု၍ Cloud service တွေကို ချိတ်ဆက်နိုင်ပါတယ်။ Device SDK က အလွယ်ဆုံးနည်းလမ်းဖြစ်ပြီး၊ လုံခြုံမှုနှင့် topic management ကို handle လုပ်ပေးသည်။
 
-![Devices connect to a service using a device SDK. Server code also connects to the service via an SDK](../../../../../translated_images/iot-service-connectivity.7e873847921a5d6fd60d0ba3a943210194518cee0d4e362476624316443275c3.my.png)
+![Devices connect to a service using a device SDK. Server code also connects to the service via an SDK](../../../../../translated_images/my/iot-service-connectivity.7e873847921a5d6fd60d0ba3a943210194518cee0d4e362476624316443275c3.png)
 
 စက်တွေဟာ Cloud service ကို အသုံးပြုပြီး၊ အခြား application components တွေနဲ့ ဆက်သွယ်နိုင်ပါတယ်။
 
-![Devices without a valid secret key cannot connect to the IoT service](../../../../../translated_images/iot-service-allowed-denied-connection.818b0063ac213fb84204a7229303764d9b467ca430fb822b4ac2fca267d56726.my.png)
+![Devices without a valid secret key cannot connect to the IoT service](../../../../../translated_images/my/iot-service-allowed-denied-connection.818b0063ac213fb84204a7229303764d9b467ca430fb822b4ac2fca267d56726.png)
 
 Cloud IoT service တွေဟာ device တွေကို pre-register လုပ်ထားခြင်း သို့မဟုတ် secret key/certificate တွေကို အသုံးပြု၍ လုံခြုံမှုကို အာမခံပေးသည်။
 
@@ -128,7 +128,7 @@ Cloud IoT service တွေဟာ device တွေကို pre-register လု�
 
 အခုတော့ သင်မှာ Azure subscription ရှိပြီးဖြစ်တာကြောင့် IoT ဝန်ဆောင်မှုတစ်ခုအတွက် စာရင်းသွင်းနိုင်ပါပြီ။ Microsoft မှပေးသော IoT ဝန်ဆောင်မှုကို Azure IoT Hub ဟုခေါ်သည်။
 
-![Azure IoT Hub အမှတ်တံဆိပ်](../../../../../translated_images/azure-iot-hub-logo.28a19de76d0a1932464d858f7558712bcdace3e5ec69c434d482ed7ce41c3a26.my.png)
+![Azure IoT Hub အမှတ်တံဆိပ်](../../../../../translated_images/my/azure-iot-hub-logo.28a19de76d0a1932464d858f7558712bcdace3e5ec69c434d482ed7ce41c3a26.png)
 
 အောက်ပါဗီဒီယိုသည် Azure IoT Hub အကြောင်းကို အကျဉ်းချုပ်ဖော်ပြထားသည်။
 

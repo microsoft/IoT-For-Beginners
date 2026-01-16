@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Melatih Pengesan Stok
 
-![Gambaran sketchnote untuk pelajaran ini](../../../../../translated_images/lesson-19.cf6973cecadf080c4b526310620dc4d6f5994c80fb0139c6f378cc9ca2d435cd.ms.jpg)
+![Gambaran sketchnote untuk pelajaran ini](../../../../../translated_images/ms/lesson-19.cf6973cecadf080c4b526310620dc4d6f5994c80fb0139c6f378cc9ca2d435cd.jpg)
 
 > Sketchnote oleh [Nitya Narasimhan](https://github.com/nitya). Klik imej untuk versi yang lebih besar.
 
@@ -45,7 +45,7 @@ Pengesanan objek melibatkan pengesanan objek dalam imej menggunakan AI. Tidak se
 
 Pengklasifikasian imej adalah tentang mengklasifikasikan keseluruhan imej - apakah kebarangkalian bahawa keseluruhan imej sepadan dengan setiap tag. Anda akan menerima kebarangkalian untuk setiap tag yang digunakan untuk melatih model.
 
-![Pengklasifikasian imej kacang gajus dan pes tomato](../../../../../translated_images/image-classifier-cashews-tomato.bc2e16ab8f05cf9ac0f59f73e32efc4227f9a5b601b90b2c60f436694547a965.ms.png)
+![Pengklasifikasian imej kacang gajus dan pes tomato](../../../../../translated_images/ms/image-classifier-cashews-tomato.bc2e16ab8f05cf9ac0f59f73e32efc4227f9a5b601b90b2c60f436694547a965.png)
 
 Dalam contoh di atas, dua imej diklasifikasikan menggunakan model yang dilatih untuk mengklasifikasikan bekas kacang gajus atau tin pes tomato. Imej pertama ialah bekas kacang gajus, dan mempunyai dua hasil daripada pengklasifikasi imej:
 
@@ -69,7 +69,7 @@ Apabila anda menggunakannya untuk meramalkan imej, bukannya menerima senarai tag
 
 > 🎓 *Kotak sempadan* ialah kotak di sekitar objek.
 
-![Pengesanan objek kacang gajus dan pes tomato](../../../../../translated_images/object-detector-cashews-tomato.1af7c26686b4db0e709754aeb196f4e73271f54e2085db3bcccb70d4a0d84d97.ms.png)
+![Pengesanan objek kacang gajus dan pes tomato](../../../../../translated_images/ms/object-detector-cashews-tomato.1af7c26686b4db0e709754aeb196f4e73271f54e2085db3bcccb70d4a0d84d97.png)
 
 Imej di atas mengandungi kedua-dua bekas kacang gajus dan tiga tin pes tomato. Pengesan objek mengesan kacang gajus, mengembalikan kotak sempadan yang mengandungi kacang gajus dengan kebarangkalian bahawa kotak sempadan mengandungi objek tersebut, dalam kes ini 97.6%. Pengesan objek juga telah mengesan tiga tin pes tomato, dan menyediakan tiga kotak sempadan yang berasingan, satu untuk setiap tin yang dikesan, dan setiap satu mempunyai kebarangkalian peratusan bahawa kotak sempadan mengandungi tin pes tomato.
 
@@ -120,7 +120,7 @@ Anda boleh melatih pengesan objek menggunakan Custom Vision, dengan cara yang se
 
     Apabila anda mencipta projek anda, pastikan untuk menggunakan sumber `stock-detector-training` yang anda cipta sebelum ini. Gunakan jenis projek *Object Detection*, dan domain *Products on Shelves*.
 
-    ![Tetapan untuk projek Custom Vision dengan nama ditetapkan kepada fruit-quality-detector, tiada deskripsi, sumber ditetapkan kepada fruit-quality-detector-training, jenis projek ditetapkan kepada klasifikasi, jenis klasifikasi ditetapkan kepada multi class dan domain ditetapkan kepada food](../../../../../translated_images/custom-vision-create-object-detector-project.32d4fb9aa8e7e7375f8a799bfce517aca970f2cb65e42d4245c5e635c734ab29.ms.png)
+    ![Tetapan untuk projek Custom Vision dengan nama ditetapkan kepada fruit-quality-detector, tiada deskripsi, sumber ditetapkan kepada fruit-quality-detector-training, jenis projek ditetapkan kepada klasifikasi, jenis klasifikasi ditetapkan kepada multi class dan domain ditetapkan kepada food](../../../../../translated_images/ms/custom-vision-create-object-detector-project.32d4fb9aa8e7e7375f8a799bfce517aca970f2cb65e42d4245c5e635c734ab29.png)
 
     ✅ Domain produk di rak direka khusus untuk mengesan stok di rak kedai. Baca lebih lanjut tentang domain yang berbeza dalam [Dokumentasi Pilih Domain di Microsoft Docs](https://docs.microsoft.com/azure/cognitive-services/custom-vision-service/select-domain?WT.mc_id=academic-17441-jabenn#object-detection)
 
@@ -142,11 +142,11 @@ Untuk melatih model anda, anda memerlukan satu set imej yang mengandungi objek y
 
 1. Ikuti [Bahagian Muat Naik dan Tag Imej dalam panduan pantas Bina pengesan objek di dokumen Microsoft](https://docs.microsoft.com/azure/cognitive-services/custom-vision-service/get-started-build-detector?WT.mc_id=academic-17441-jabenn#upload-and-tag-images) untuk memuat naik imej latihan anda. Cipta tag yang relevan bergantung pada jenis objek yang ingin anda kesan.
 
-    ![Dialog muat naik menunjukkan muat naik gambar pisang masak dan tidak masak](../../../../../translated_images/image-upload-object-detector.77c7892c3093cb59b79018edecd678749a75d71a099bc8a2d2f2f76320f88a5b.ms.png)
+    ![Dialog muat naik menunjukkan muat naik gambar pisang masak dan tidak masak](../../../../../translated_images/ms/image-upload-object-detector.77c7892c3093cb59b79018edecd678749a75d71a099bc8a2d2f2f76320f88a5b.png)
 
     Apabila anda melukis kotak sempadan untuk objek, pastikan ia ketat di sekitar objek. Ia mungkin mengambil masa untuk menggariskan semua imej, tetapi alat ini akan mengesan apa yang dianggap sebagai kotak sempadan, menjadikannya lebih pantas.
 
-    ![Menandai pes tomato](../../../../../translated_images/object-detector-tag-tomato-paste.f47c362fb0f0eb582f3bc68cf3855fb43a805106395358d41896a269c210b7b4.ms.png)
+    ![Menandai pes tomato](../../../../../translated_images/ms/object-detector-tag-tomato-paste.f47c362fb0f0eb582f3bc68cf3855fb43a805106395358d41896a269c210b7b4.png)
 
     > 💁 Jika anda mempunyai lebih daripada 15 imej untuk setiap objek, anda boleh melatih selepas 15 kemudian menggunakan ciri **Suggested tags**. Ini akan menggunakan model yang dilatih untuk mengesan objek dalam imej yang tidak ditandai. Anda kemudian boleh mengesahkan objek yang dikesan, atau menolak dan melukis semula kotak sempadan. Ini boleh menjimatkan *banyak* masa.
 
@@ -164,7 +164,7 @@ Setelah pengesan objek anda dilatih, anda boleh mengujinya dengan memberikan ime
 
 1. Gunakan butang **Quick Test** untuk memuat naik imej ujian dan mengesahkan objek yang dikesan. Gunakan imej ujian yang anda cipta sebelum ini, bukan mana-mana imej yang anda gunakan untuk latihan.
 
-    ![3 tin pes tomato dikesan dengan kebarangkalian 38%, 35.5% dan 34.6%](../../../../../translated_images/object-detector-detected-tomato-paste.52656fe87af4c37b4ee540526d63e73ed075da2e54a9a060aa528e0c562fb1b6.ms.png)
+    ![3 tin pes tomato dikesan dengan kebarangkalian 38%, 35.5% dan 34.6%](../../../../../translated_images/ms/object-detector-detected-tomato-paste.52656fe87af4c37b4ee540526d63e73ed075da2e54a9a060aa528e0c562fb1b6.png)
 
 1. Cuba semua imej ujian yang anda ada dan perhatikan kebarangkalian.
 

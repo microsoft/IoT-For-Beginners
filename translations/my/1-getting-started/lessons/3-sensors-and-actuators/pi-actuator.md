@@ -35,7 +35,7 @@ Grove LED သည် module အနေနှင့် ရရှိနိုင်�
 
 LED ကို ချိတ်ဆက်ပါ။
 
-![A grove LED](../../../../../translated_images/grove-led.6c853be93f473cf2c439cfc74bb1064732b22251a83cedf66e62f783f9cc1a79.my.png)
+![A grove LED](../../../../../translated_images/my/grove-led.6c853be93f473cf2c439cfc74bb1064732b22251a83cedf66e62f783f9cc1a79.png)
 
 1. သင်နှစ်သက်သော LED ကို ရွေးချယ်ပြီး LED module တွင်ရှိသော အပေါက် ၂ ခုထဲသို့ ချိတ်ဆက်ပါ။
 
@@ -49,7 +49,7 @@ LED ကို ချိတ်ဆက်ပါ။
 
 1. Raspberry Pi ကို power ပိတ်ထားပြီး Grove cable ၏ တစ်ဖက်အဆုံးကို Pi တွင်ရှိသော Grove Base hat ၏ **D5** အမှတ်အသားရှိ digital socket တွင် ချိတ်ဆက်ပါ။ ဤ socket သည် GPIO pins အနီးတွင်ရှိသော sockets အတန်း၏ ဘယ်ဘက်မှ ဒုတိယ socket ဖြစ်သည်။
 
-![The grove LED connected to socket D5](../../../../../translated_images/pi-led.97f1d474981dc35d1c7996c7b17de355d3d0a6bc9606d79fa5f89df933415122.my.png)
+![The grove LED connected to socket D5](../../../../../translated_images/my/pi-led.97f1d474981dc35d1c7996c7b17de355d3d0a6bc9606d79fa5f89df933415122.png)
 
 ## ညဉ့်မီးကို အစီအစဉ်ရေးပါ
 

@@ -27,13 +27,13 @@ De Grove temperatuursensor kan worden aangesloten op de digitale poort van de Wi
 
 Verbind de temperatuursensor.
 
-![Een Grove temperatuursensor](../../../../../translated_images/grove-dht11.07f8eafceee170043efbb53e1d15722bd4e00fbaa9ff74290b57e9f66eb82c17.nl.png)
+![Een Grove temperatuursensor](../../../../../translated_images/nl/grove-dht11.07f8eafceee170043efbb53e1d15722bd4e00fbaa9ff74290b57e9f66eb82c17.png)
 
 1. Steek één uiteinde van een Grove-kabel in de aansluiting op de luchtvochtigheid- en temperatuursensor. De kabel past maar op één manier.
 
 1. Terwijl de Wio Terminal niet is aangesloten op je computer of een andere stroombron, verbind je het andere uiteinde van de Grove-kabel met de rechter Grove-aansluiting op de Wio Terminal, zoals je naar het scherm kijkt. Dit is de aansluiting die het verst van de aan/uit-knop verwijderd is.
 
-![De Grove temperatuursensor aangesloten op de rechteraansluiting](../../../../../translated_images/wio-temperature-sensor.2934928f38c7f79a.nl.png)
+![De Grove temperatuursensor aangesloten op de rechteraansluiting](../../../../../translated_images/nl/wio-temperature-sensor.2934928f38c7f79a.png)
 
 ## Programmeer de temperatuursensor
 

@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Migrasikan logik aplikasi anda ke awan
 
-![Gambaran sketchnote untuk pelajaran ini](../../../../../translated_images/lesson-9.dfe99c8e891f48e179724520da9f5794392cf9a625079281ccdcbf09bd85e1b6.ms.jpg)
+![Gambaran sketchnote untuk pelajaran ini](../../../../../translated_images/ms/lesson-9.dfe99c8e891f48e179724520da9f5794392cf9a625079281ccdcbf09bd85e1b6.jpg)
 
 > Sketchnote oleh [Nitya Narasimhan](https://github.com/nitya). Klik imej untuk versi yang lebih besar.
 
@@ -37,11 +37,11 @@ Dalam pelajaran ini, kita akan membincangkan:
 
 Tanpa pelayan, atau pengkomputeran tanpa pelayan, melibatkan penciptaan blok kecil kod yang dijalankan di awan sebagai tindak balas kepada pelbagai jenis acara. Apabila acara berlaku, kod anda dijalankan dan menerima data tentang acara tersebut. Acara ini boleh datang daripada pelbagai sumber, termasuk permintaan web, mesej yang diletakkan dalam barisan, perubahan data dalam pangkalan data, atau mesej yang dihantar ke perkhidmatan IoT oleh peranti IoT.
 
-![Acara dihantar dari perkhidmatan IoT ke perkhidmatan tanpa pelayan, semuanya diproses serentak oleh pelbagai fungsi yang dijalankan](../../../../../translated_images/iot-messages-to-serverless.0194da1cc0732bb7d0f823aed3fce54735c6b1ad3bf36089804d8aaefc0a774f.ms.png)
+![Acara dihantar dari perkhidmatan IoT ke perkhidmatan tanpa pelayan, semuanya diproses serentak oleh pelbagai fungsi yang dijalankan](../../../../../translated_images/ms/iot-messages-to-serverless.0194da1cc0732bb7d0f823aed3fce54735c6b1ad3bf36089804d8aaefc0a774f.png)
 
 > 💁 Jika anda pernah menggunakan pencetus pangkalan data sebelum ini, anda boleh menganggap ini sebagai perkara yang sama, iaitu kod yang dicetuskan oleh acara seperti memasukkan baris.
 
-![Apabila banyak acara dihantar serentak, perkhidmatan tanpa pelayan meningkatkan skala untuk menjalankan semuanya pada masa yang sama](../../../../../translated_images/serverless-scaling.f8c769adf0413fd1.ms.png)
+![Apabila banyak acara dihantar serentak, perkhidmatan tanpa pelayan meningkatkan skala untuk menjalankan semuanya pada masa yang sama](../../../../../translated_images/ms/serverless-scaling.f8c769adf0413fd1.png)
 
 Kod anda hanya dijalankan apabila acara berlaku, dan tidak akan aktif pada masa lain. Apabila acara berlaku, kod anda dimuatkan dan dijalankan. Ini menjadikan tanpa pelayan sangat berskala - jika banyak acara berlaku serentak, penyedia awan boleh menjalankan fungsi anda sebanyak yang diperlukan pada masa yang sama di seluruh pelayan yang tersedia. Kelemahannya ialah jika anda perlu berkongsi maklumat antara acara, anda perlu menyimpannya di tempat lain seperti pangkalan data dan bukannya menyimpannya dalam memori.
 
@@ -63,7 +63,7 @@ Sebagai pembangun IoT, model tanpa pelayan sangat ideal. Anda boleh menulis fung
 
 Perkhidmatan pengkomputeran tanpa pelayan daripada Microsoft dikenali sebagai Azure Functions.
 
-![Logo Azure Functions](../../../../../translated_images/azure-functions-logo.1cfc8e3204c9c44aaf80fcf406fc8544d80d7f00f8d3e8ed6fed764563e17564.ms.png)
+![Logo Azure Functions](../../../../../translated_images/ms/azure-functions-logo.1cfc8e3204c9c44aaf80fcf406fc8544d80d7f00f8d3e8ed6fed764563e17564.png)
 
 Video pendek di bawah memberikan gambaran keseluruhan tentang Azure Functions.
 
@@ -244,7 +244,7 @@ CLI Azure Functions boleh digunakan untuk mencipta aplikasi Functions baru.
     VS Code. Initialize for optimal use with VS Code?
     ```
 
-    ![Notifikasi](../../../../../translated_images/vscode-azure-functions-init-notification.bd19b49229963edb.ms.png)
+    ![Notifikasi](../../../../../translated_images/ms/vscode-azure-functions-init-notification.bd19b49229963edb.png)
 
     Pilih **Yes** dari notifikasi ini.
 

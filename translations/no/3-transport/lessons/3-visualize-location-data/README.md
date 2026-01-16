@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Visualisere stedsdata
 
-![En sketchnote-oversikt over denne leksjonen](../../../../../translated_images/lesson-13.a259db1485021be7d7c72e90842fbe0ab977529e8684c179b5fb1ea75e92b3ef.no.jpg)
+![En sketchnote-oversikt over denne leksjonen](../../../../../translated_images/no/lesson-13.a259db1485021be7d7c72e90842fbe0ab977529e8684c179b5fb1ea75e92b3ef.jpg)
 
 > Sketchnote av [Nitya Narasimhan](https://github.com/nitya). Klikk på bildet for en større versjon.
 
@@ -73,11 +73,11 @@ La oss ta et enkelt eksempel - i gårdsprosjektet samlet du inn data om jordfukt
 
 Som menneske kan det være vanskelig å forstå disse dataene. Det er en vegg av tall uten noen mening. Som et første steg for å visualisere disse dataene, kan de plottes på et linjediagram:
 
-![Et linjediagram av dataene ovenfor](../../../../../translated_images/chart-soil-moisture.fd6d9d0cdc0b5f75e78038ecb8945dfc84b38851359de99d84b16e3336d6d7c2.no.png)
+![Et linjediagram av dataene ovenfor](../../../../../translated_images/no/chart-soil-moisture.fd6d9d0cdc0b5f75e78038ecb8945dfc84b38851359de99d84b16e3336d6d7c2.png)
 
 Dette kan forbedres ytterligere ved å legge til en linje som indikerer når det automatiske vanningssystemet ble slått på ved en jordfuktighetsmåling på 450:
 
-![Et linjediagram av jordfuktighet med en linje ved 450](../../../../../translated_images/chart-soil-moisture-relay.fbb391236d34a64d0abf1df396e9197e0a24df14150620b9cc820a64a55c9326.no.png)
+![Et linjediagram av jordfuktighet med en linje ved 450](../../../../../translated_images/no/chart-soil-moisture-relay.fbb391236d34a64d0abf1df396e9197e0a24df14150620b9cc820a64a55c9326.png)
 
 Dette diagrammet viser raskt ikke bare hva jordfuktighetsnivåene var, men også punktene der vanningssystemet ble slått på.
 
@@ -93,7 +93,7 @@ Når du arbeider med GPS-data, kan den tydeligste visualiseringen være å plott
 
 Å jobbe med kart er en interessant øvelse, og det finnes mange alternativer å velge mellom, som Bing Maps, Leaflet, Open Street Maps og Google Maps. I denne leksjonen vil du lære om [Azure Maps](https://azure.microsoft.com/services/azure-maps/?WT.mc_id=academic-17441-jabenn) og hvordan de kan vise GPS-dataene dine.
 
-![Azure Maps-logoen](../../../../../translated_images/azure-maps-logo.35d01dcfbd81fe6140e94257aaa1538f785a58c91576d14e0ebe7a2f6c694b99.no.png)
+![Azure Maps-logoen](../../../../../translated_images/no/azure-maps-logo.35d01dcfbd81fe6140e94257aaa1538f785a58c91576d14e0ebe7a2f6c694b99.png)
 
 Azure Maps er "en samling av geospatiale tjenester og SDK-er som bruker oppdatert kartdata for å gi geografisk kontekst til web- og mobilapplikasjoner." Utviklere får verktøy for å lage vakre, interaktive kart som kan gjøre ting som å gi anbefalte trafikkruter, gi informasjon om trafikkhendelser, innendørs navigasjon, søkefunksjoner, høydeinformasjon, værdata og mer.
 
@@ -194,7 +194,7 @@ Nå kan du ta neste steg, som er å vise kartet ditt på en nettside. Vi vil bru
 
     Hvis du åpner `index.html`-siden din i en nettleser, bør du se et kart lastet inn, fokusert på Seattle-området.
 
-    ![Et kart som viser Seattle, en by i delstaten Washington, USA](../../../../../translated_images/map-image.8fb2c53eb23ef39c1c0a4410a5282e879b3b452b707eb066ff04c5488d3d72b7.no.png)
+    ![Et kart som viser Seattle, en by i delstaten Washington, USA](../../../../../translated_images/no/map-image.8fb2c53eb23ef39c1c0a4410a5282e879b3b452b707eb066ff04c5488d3d72b7.png)
 
     ✅ Eksperimenter med zoom- og senterparametrene for å endre kartvisningen. Du kan legge til ulike koordinater som tilsvarer dataens breddegrad og lengdegrad for å re-sentrere kartet.
 
@@ -327,7 +327,7 @@ Hvis du prøver å hente data fra lagringen din, kan det hende du blir overraske
 
 1. Last inn HTML-siden i nettleseren din. Den vil laste inn kartet, deretter laste inn all GPS-data fra lagringen og plotte det på kartet.
 
-    ![Et kart over Saint Edward State Park nær Seattle, med sirkler som viser en sti rundt kanten av parken](../../../../../translated_images/map-path.896832e72dc696ffe20650e4051027d4855442d955f93fdbb80bb417ca8a406f.no.png)
+    ![Et kart over Saint Edward State Park nær Seattle, med sirkler som viser en sti rundt kanten av parken](../../../../../translated_images/no/map-path.896832e72dc696ffe20650e4051027d4855442d955f93fdbb80bb417ca8a406f.png)
 
 > 💁 Du finner denne koden i [code](../../../../../3-transport/lessons/3-visualize-location-data/code)-mappen.
 

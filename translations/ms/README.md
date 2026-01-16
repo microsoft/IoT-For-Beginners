@@ -57,7 +57,7 @@ Advokat Azure Cloud di Microsoft dengan sukacita menawarkan kurikulum 12 minggu,
 
 Projek-projek ini merangkumi perjalanan makanan dari ladang ke meja. Ini termasuk pertanian, logistik, pembuatan, peruncitan dan pengguna - semua bidang industri popular untuk peranti IoT.
 
-![Peta jalan untuk kursus yang menunjukkan 24 pelajaran meliputi pengenalan, pertanian, pengangkutan, pemprosesan, peruncitan dan memasak](../../translated_images/Roadmap.bb1dec285dda0eda.ms.jpg)
+![Peta jalan untuk kursus yang menunjukkan 24 pelajaran meliputi pengenalan, pertanian, pengangkutan, pemprosesan, peruncitan dan memasak](../../translated_images/ms/Roadmap.bb1dec285dda0eda.jpg)
 
 > Sketchnote oleh [Nitya Narasimhan](https://github.com/nitya). Klik imej untuk versi lebih besar.
 

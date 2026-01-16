@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # ਭਾਸ਼ਾ ਨੂੰ ਸਮਝਣਾ
 
-![ਇਸ ਪਾਠ ਦਾ ਇੱਕ ਸਕੈਚਨੋਟ ਝਲਕ](../../../../../translated_images/lesson-22.6148ea28500d9e00c396aaa2649935fb6641362c8f03d8e5e90a676977ab01dd.pa.jpg)
+![ਇਸ ਪਾਠ ਦਾ ਇੱਕ ਸਕੈਚਨੋਟ ਝਲਕ](../../../../../translated_images/pa/lesson-22.6148ea28500d9e00c396aaa2649935fb6641362c8f03d8e5e90a676977ab01dd.jpg)
 
 > ਸਕੈਚਨੋਟ [ਨਿਤਿਆ ਨਰਸਿੰਹਨ](https://github.com/nitya) ਦੁਆਰਾ। ਵੱਡੇ ਵਰਜਨ ਲਈ ਚਿੱਤਰ 'ਤੇ ਕਲਿਕ ਕਰੋ।
 
@@ -55,7 +55,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 ## ਭਾਸ਼ਾ ਸਮਝਣ ਵਾਲਾ ਮਾਡਲ ਬਣਾਉਣਾ
 
-![LUIS ਦਾ ਲੋਗੋ](../../../../../translated_images/luis-logo.5cb4f3e88c020ee6df4f614e8831f4a4b6809a7247bf52085fb48d629ef9be52.pa.png)
+![LUIS ਦਾ ਲੋਗੋ](../../../../../translated_images/pa/luis-logo.5cb4f3e88c020ee6df4f614e8831f4a4b6809a7247bf52085fb48d629ef9be52.png)
 
 ਤੁਸੀਂ LUIS ਦੀ ਵਰਤੋਂ ਕਰਕੇ ਭਾਸ਼ਾ ਸਮਝਣ ਵਾਲੇ ਮਾਡਲ ਬਣਾਉਣੇ ਹਨ, ਜੋ ਕਿ Microsoft ਦੀ ਇੱਕ ਭਾਸ਼ਾ ਸਮਝਣ ਵਾਲੀ ਸੇਵਾ ਹੈ ਜੋ Cognitive Services ਦਾ ਹਿੱਸਾ ਹੈ।
 
@@ -126,7 +126,7 @@ LUIS ਨੂੰ ਟ੍ਰੇਨ ਕਰਨ ਲਈ, ਪਹਿਲਾਂ ਤੁਸੀ
 
 ਤੁਸੀਂ LUIS ਨੂੰ ਦੱਸਦੇ ਹੋ ਕਿ ਇਹਨਾਂ ਵਾਕਾਂ ਦੇ ਕਿਹੜੇ ਹਿੱਸੇ ਇਕਾਈਆਂ ਨਾਲ ਮੇਲ ਖਾਂਦੇ ਹਨ:
 
-![ਵਾਕ "1 ਮਿੰਟ ਅਤੇ 12 ਸਕਿੰਟ ਲਈ ਟimer ਸੈਟ ਕਰੋ" ਨੂੰ ਇਕਾਈਆਂ ਵਿੱਚ ਤੋੜਿਆ ਗਿਆ](../../../../../translated_images/sentence-as-intent-entities.301401696f992259.pa.png)
+![ਵਾਕ "1 ਮਿੰਟ ਅਤੇ 12 ਸਕਿੰਟ ਲਈ ਟimer ਸੈਟ ਕਰੋ" ਨੂੰ ਇਕਾਈਆਂ ਵਿੱਚ ਤੋੜਿਆ ਗਿਆ](../../../../../translated_images/pa/sentence-as-intent-entities.301401696f992259.png)
 
 ਵਾਕ `1 ਮਿੰਟ ਅਤੇ 12 ਸਕਿੰਟ ਲਈ ਟimer ਸੈਟ ਕਰੋ` ਦਾ ਇਰਾਦਾ `set timer` ਹੈ। ਇਸ ਵਿੱਚ 2 ਇਕਾਈਆਂ ਹਨ ਜਿਨ੍ਹਾਂ ਵਿੱਚ 2 ਮੁੱਲ ਹਨ:
 

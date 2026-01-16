@@ -19,7 +19,7 @@ De ingebouwde microfoon neemt een analoog signaal op, dat wordt omgezet in een d
 
 ✅ Lees meer over DMA op de [Direct Memory Access-pagina op Wikipedia](https://wikipedia.org/wiki/Direct_memory_access).
 
-![Audio van de microfoon gaat naar een ADC en vervolgens naar de DMAC. Deze schrijft naar een buffer. Wanneer deze buffer vol is, wordt deze verwerkt en schrijft de DMAC naar een tweede buffer](../../../../../translated_images/dmac-adc-buffers.4509aee49145c90bc2e1be472b8ed2ddfcb2b6a81ad3e559114aca55f5fff759.nl.png)
+![Audio van de microfoon gaat naar een ADC en vervolgens naar de DMAC. Deze schrijft naar een buffer. Wanneer deze buffer vol is, wordt deze verwerkt en schrijft de DMAC naar een tweede buffer](../../../../../translated_images/nl/dmac-adc-buffers.4509aee49145c90bc2e1be472b8ed2ddfcb2b6a81ad3e559114aca55f5fff759.png)
 
 De DMAC kan audio van de ADC opnemen op vaste intervallen, zoals 16.000 keer per seconde voor 16KHz audio. Het kan deze opgenomen data schrijven naar een vooraf toegewezen geheugenbuffer, en wanneer deze vol is, beschikbaar maken voor je code om te verwerken. Het gebruik van dit geheugen kan het opnemen van audio vertragen, maar je kunt meerdere buffers instellen. De DMAC schrijft naar buffer 1, en wanneer deze vol is, geeft het een melding aan je code om buffer 1 te verwerken, terwijl de DMAC naar buffer 2 schrijft. Wanneer buffer 2 vol is, geeft het een melding aan je code en gaat terug naar het schrijven naar buffer 1. Op deze manier verlies je geen data zolang je elke buffer sneller verwerkt dan het duurt om er een te vullen.
 

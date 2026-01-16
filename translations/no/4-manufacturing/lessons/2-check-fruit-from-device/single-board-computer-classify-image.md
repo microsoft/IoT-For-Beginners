@@ -93,7 +93,7 @@ Custom Vision-tjenesten har et Python SDK som du kan bruke til å klassifisere b
 
     Du vil kunne se bildet som ble tatt, og disse verdiene i **Predictions**-fanen i Custom Vision.
 
-    ![En banan i Custom Vision forutsagt som moden med 56,8 % og umoden med 43,1 %](../../../../../translated_images/custom-vision-banana-prediction.30cdff4e1d72db5d9a0be0193790a47c2b387da034e12dc1314dd57ca2131b59.no.png)
+    ![En banan i Custom Vision forutsagt som moden med 56,8 % og umoden med 43,1 %](../../../../../translated_images/no/custom-vision-banana-prediction.30cdff4e1d72db5d9a0be0193790a47c2b387da034e12dc1314dd57ca2131b59.png)
 
 > 💁 Du finner denne koden i mappen [code-classify/pi](../../../../../4-manufacturing/lessons/2-check-fruit-from-device/code-classify/pi) eller [code-classify/virtual-iot-device](../../../../../4-manufacturing/lessons/2-check-fruit-from-device/code-classify/virtual-iot-device).
 
