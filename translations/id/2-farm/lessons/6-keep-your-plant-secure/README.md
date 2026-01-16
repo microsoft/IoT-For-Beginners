@@ -97,15 +97,15 @@ Enkripsi terdiri dari dua jenis - simetris dan asimetris.
 
 **Enkripsi simetris** menggunakan kunci yang sama untuk mengenkripsi dan mendekripsi data. Baik pengirim maupun penerima perlu mengetahui kunci yang sama. Ini adalah jenis yang paling tidak aman, karena kunci harus dibagikan dengan cara tertentu. Agar pengirim dapat mengirim pesan terenkripsi ke penerima, pengirim mungkin harus terlebih dahulu mengirimkan kunci kepada penerima.
 
-![Enkripsi kunci simetris menggunakan kunci yang sama untuk mengenkripsi dan mendekripsi pesan](../../../../../translated_images/id/send-message-symmetric-key.a2e8ad0d495896ff.png)
+![Enkripsi kunci simetris menggunakan kunci yang sama untuk mengenkripsi dan mendekripsi pesan](../../../../../translated_images/id/send-message-symmetric-key.a2e8ad0d495896ff.webp)
 
 Jika kunci dicuri selama transit, atau pengirim atau penerima diretas dan kunci ditemukan, enkripsi dapat dipecahkan.
 
-![Enkripsi kunci simetris hanya aman jika peretas tidak mendapatkan kunci - jika ya, mereka dapat mencegat dan mendekripsi pesan](../../../../../translated_images/id/send-message-symmetric-key-hacker.e7cb53db1707adfb.png)
+![Enkripsi kunci simetris hanya aman jika peretas tidak mendapatkan kunci - jika ya, mereka dapat mencegat dan mendekripsi pesan](../../../../../translated_images/id/send-message-symmetric-key-hacker.e7cb53db1707adfb.webp)
 
 **Enkripsi asimetris** menggunakan 2 kunci - kunci enkripsi dan kunci dekripsi, yang disebut sebagai pasangan kunci publik/pribadi. Kunci publik digunakan untuk mengenkripsi pesan, tetapi tidak dapat digunakan untuk mendekripsinya, sedangkan kunci pribadi digunakan untuk mendekripsi pesan tetapi tidak dapat digunakan untuk mengenkripsinya.
 
-![Enkripsi asimetris menggunakan kunci yang berbeda untuk mengenkripsi dan mendekripsi. Kunci enkripsi dikirim ke pengirim pesan sehingga mereka dapat mengenkripsi pesan sebelum mengirimkannya ke penerima yang memiliki kunci](../../../../../translated_images/id/send-message-asymmetric.7abe327c62615b8c.png)
+![Enkripsi asimetris menggunakan kunci yang berbeda untuk mengenkripsi dan mendekripsi. Kunci enkripsi dikirim ke pengirim pesan sehingga mereka dapat mengenkripsi pesan sebelum mengirimkannya ke penerima yang memiliki kunci](../../../../../translated_images/id/send-message-asymmetric.7abe327c62615b8c.webp)
 
 Penerima membagikan kunci publik mereka, dan pengirim menggunakan ini untuk mengenkripsi pesan. Setelah pesan dikirim, penerima mendekripsinya dengan kunci pribadi mereka. Enkripsi asimetris lebih aman karena kunci pribadi disimpan secara pribadi oleh penerima dan tidak pernah dibagikan. Siapa pun dapat memiliki kunci publik karena hanya dapat digunakan untuk mengenkripsi pesan.
 
@@ -165,7 +165,7 @@ Sertifikat ini memiliki sejumlah bidang di dalamnya, termasuk siapa pemilik kunc
 
 Saat menggunakan sertifikat X.509, baik pengirim maupun penerima akan memiliki kunci publik dan kunci pribadi mereka sendiri, serta sertifikat X.509 yang berisi kunci publik. Mereka kemudian saling bertukar sertifikat X.509, menggunakan kunci publik masing-masing untuk mengenkripsi data yang mereka kirim, dan kunci pribadi mereka sendiri untuk mendekripsi data yang mereka terima.
 
-![Alih-alih berbagi kunci publik, kamu dapat berbagi sertifikat. Pengguna sertifikat dapat memverifikasi bahwa sertifikat tersebut berasal darimu dengan memeriksa otoritas sertifikat yang menandatanganinya.](../../../../../translated_images/id/send-message-certificate.9cc576ac1e46b76e.png)
+![Alih-alih berbagi kunci publik, kamu dapat berbagi sertifikat. Pengguna sertifikat dapat memverifikasi bahwa sertifikat tersebut berasal darimu dengan memeriksa otoritas sertifikat yang menandatanganinya.](../../../../../translated_images/id/send-message-certificate.9cc576ac1e46b76e.webp)
 
 Salah satu keuntungan besar menggunakan sertifikat X.509 adalah sertifikat ini dapat dibagikan antar perangkat. Kamu dapat membuat satu sertifikat, mengunggahnya ke IoT Hub, dan menggunakannya untuk semua perangkatmu. Setiap perangkat hanya perlu mengetahui kunci pribadi untuk mendekripsi pesan yang diterima dari IoT Hub.
 

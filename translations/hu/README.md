@@ -57,7 +57,7 @@ A Microsoft Azure Felhőszószólói örömmel kínálnak egy 12 hetes, 24 leck�
 
 A projektek az élelmiszer utazását fedik le a farmtól az asztalig. Ez magában foglalja a mezőgazdaságot, logisztikát, gyártást, kiskereskedelmet és fogyasztót – mind népszerű iparágak az IoT-eszközök számára.
 
-![Az oktatási tananyag térképe, amely 24 leckét fed le, kezdéstől, farmtól, szállítástól, feldolgozásig, kiskereskedelemig és főzésig](../../translated_images/hu/Roadmap.bb1dec285dda0eda.jpg)
+![Az oktatási tananyag térképe, amely 24 leckét fed le, kezdéstől, farmtól, szállítástól, feldolgozásig, kiskereskedelemig és főzésig](../../translated_images/hu/Roadmap.bb1dec285dda0eda.webp)
 
 > Rajzjegyzet: [Nitya Narasimhan](https://github.com/nitya). Kattints a képre a nagyobb verzióért.
 

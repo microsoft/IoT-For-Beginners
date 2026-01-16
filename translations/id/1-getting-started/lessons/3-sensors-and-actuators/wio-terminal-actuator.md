@@ -51,7 +51,7 @@ Hubungkan LED.
 
     > 💁 Soket Grove di sisi kanan dapat digunakan dengan sensor dan aktuator analog atau digital. Soket di sisi kiri hanya untuk sensor dan aktuator digital. C akan dibahas dalam pelajaran berikutnya.
 
-![Grove LED terhubung ke soket kanan](../../../../../translated_images/id/wio-led.265a1897e72d7f21.png)
+![Grove LED terhubung ke soket kanan](../../../../../translated_images/id/wio-led.265a1897e72d7f21.webp)
 
 ## Memprogram Lampu Malam
 

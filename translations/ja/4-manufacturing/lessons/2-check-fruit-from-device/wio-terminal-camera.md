@@ -29,7 +29,7 @@ ArduCamにはGroveソケットがありません。その代わり、GPIOピン�
 
 1. ArduCamの底部のピンをWio TerminalのGPIOピンに接続する必要があります。正しいピンを見つけやすくするために、Wio Terminalに付属しているGPIOピンステッカーをピンの周りに貼り付けます：
 
-    ![GPIOピンステッカーを貼ったWio Terminal](../../../../../translated_images/ja/wio-terminal-pin-sticker.b90b1535937b84bd.png)
+    ![GPIOピンステッカーを貼ったWio Terminal](../../../../../translated_images/ja/wio-terminal-pin-sticker.b90b1535937b84bd.webp)
 
 1. ジャンパーワイヤーを使用して、以下の接続を行います：
 
@@ -297,7 +297,7 @@ Wio Terminalをプログラムして、ボタンが押されたときに画像�
 
 1. マイクロコントローラーはコードを継続的に実行するため、センサーに反応せずに写真を撮るような動作をトリガーするのは簡単ではありません。Wio Terminalにはボタンがあるため、カメラをボタンの1つでトリガーするように設定できます。以下のコードを`setup`関数の最後に追加して、Cボタン（3つのボタンのうち、電源スイッチに最も近いボタン）を設定します。
 
-    ![電源スイッチに最も近いCボタン](../../../../../translated_images/ja/wio-terminal-c-button.73df3cb1c1445ea0.png)
+    ![電源スイッチに最も近いCボタン](../../../../../translated_images/ja/wio-terminal-c-button.73df3cb1c1445ea0.webp)
 
     ```cpp
     pinMode(WIO_KEY_C, INPUT_PULLUP);

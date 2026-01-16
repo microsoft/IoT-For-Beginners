@@ -34,7 +34,7 @@ CO_OP_TRANSLATOR_METADATA:
     >
     > ಉದಾಹರಣೆಗೆ, ನೀವು LUIS ಅನ್ನು ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ ತರಬೇತು ನೀಡಿದಿದ್ದರೆ, ಆದರೆ ಬಳಕೆದಾರ ಭಾಷೆಯಾಗಿ ಫ್ರೆಂಚ್ ಅನ್ನು ಬಳಸಲು ಬಯಸಿದರೆ, ನೀವು "set a 2 minute and 27 second timer" ಎಂಬ ವಾಕ್ಯವನ್ನು ಇಂಗ್ಲಿಷ್‌ನಿಂದ ಫ್ರೆಂಚ್‌ಗೆ Bing Translate ಬಳಸಿ ಭಾಷಾಂತರಿಸಿ, ನಂತರ **Listen translation** ಬಟನ್ ಬಳಸಿ ಆ ಭಾಷಾಂತರವನ್ನು ನಿಮ್ಮ ಮೈಕ್ರೋಫೋನಿಗೆ ಹೇಳಬಹುದು.
     >
-    > ![Bing translate ಮೇಲಿನ listen translation ಬಟನ್](../../../../../translated_images/kn/bing-translate.348aa796d6efe2a9.png)
+    > ![Bing translate ಮೇಲಿನ listen translation ಬಟನ್](../../../../../translated_images/kn/bing-translate.348aa796d6efe2a9.webp)
 
 1. `speech_api_key` ಕೆಳಗೆ ನಿಮ್ಮ ಭಾಷಾಂತರಕರ API ಕೀ ಅನ್ನು ಸೇರಿಸಿ:
 

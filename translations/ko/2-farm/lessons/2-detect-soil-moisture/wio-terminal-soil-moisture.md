@@ -33,11 +33,11 @@ Grove 토양 수분 센서는 Wio Terminal의 설정 가능한 아날로그/디�
 
 1. Wio Terminal을 컴퓨터나 다른 전원 공급 장치에서 분리한 상태에서, Grove 케이블의 다른 쪽 끝을 Wio Terminal 화면 기준 오른쪽에 있는 Grove 소켓에 연결합니다. 이 소켓은 전원 버튼에서 가장 먼 소켓입니다.
 
-![오른쪽 소켓에 연결된 Grove 토양 수분 센서](../../../../../translated_images/ko/wio-soil-moisture-sensor.46919b61c3f6cb74.png)
+![오른쪽 소켓에 연결된 Grove 토양 수분 센서](../../../../../translated_images/ko/wio-soil-moisture-sensor.46919b61c3f6cb74.webp)
 
 1. 토양 수분 센서를 흙에 삽입합니다. 센서에는 '최대 삽입 위치 선'이 있습니다. 센서에 그려진 흰 선까지 삽입하되, 그 선을 넘지 않도록 합니다.
 
-![흙에 삽입된 Grove 토양 수분 센서](../../../../../translated_images/ko/soil-moisture-sensor-in-soil.bfad91002bda5e96.png)
+![흙에 삽입된 Grove 토양 수분 센서](../../../../../translated_images/ko/soil-moisture-sensor-in-soil.bfad91002bda5e96.webp)
 
 1. 이제 Wio Terminal을 컴퓨터에 연결할 수 있습니다.
 

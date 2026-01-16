@@ -57,7 +57,7 @@ Azure Cloud zagovornici iz Microsofta s veseljem nude 12-tjedni, 24-poglavni kur
 
 Projektima se pokriva put hrane od farme do stola. To uključuje poljoprivredu, logistiku, proizvodnju, maloprodaju i krajnjeg potrošača - sve popularna industrijska područja za IoT uređaje.
 
-![Karta puta za tečaj s 24 lekcije koje pokrivaju uvod, poljoprivredu, transport, obradu, maloprodaju i kuhanje](../../translated_images/hr/Roadmap.bb1dec285dda0eda.jpg)
+![Karta puta za tečaj s 24 lekcije koje pokrivaju uvod, poljoprivredu, transport, obradu, maloprodaju i kuhanje](../../translated_images/hr/Roadmap.bb1dec285dda0eda.webp)
 
 > Sketchnote autor [Nitya Narasimhan](https://github.com/nitya). Kliknite sliku za veću verziju.
 

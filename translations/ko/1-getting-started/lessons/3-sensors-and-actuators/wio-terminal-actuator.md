@@ -51,7 +51,7 @@ LED를 연결하세요.
 
     > 💁 오른쪽 Grove 소켓은 아날로그 또는 디지털 센서와 액추에이터에 사용할 수 있습니다. 왼쪽 소켓은 디지털 센서와 액추에이터 전용입니다.
 
-![오른쪽 소켓에 연결된 Grove LED](../../../../../translated_images/ko/wio-led.265a1897e72d7f21.png)
+![오른쪽 소켓에 연결된 Grove LED](../../../../../translated_images/ko/wio-led.265a1897e72d7f21.webp)
 
 ## 야간등 프로그래밍하기
 

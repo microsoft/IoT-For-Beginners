@@ -35,7 +35,7 @@ Time of Flightセンサーを接続します。
 
 1. Wio Terminalをコンピュータや他の電源から切り離した状態で、Groveケーブルのもう一端をWio Terminalの左側のGroveソケットに接続します（画面を見たときの左側）。このソケットは電源ボタンに最も近いソケットで、デジタルとI²Cの両方に対応しています。
 
-![左側のソケットに接続されたGrove Time of Flightセンサー](../../../../../translated_images/ja/wio-time-of-flight-sensor.c4c182131d2ea73d.png)
+![左側のソケットに接続されたGrove Time of Flightセンサー](../../../../../translated_images/ja/wio-time-of-flight-sensor.c4c182131d2ea73d.webp)
 
 1. これでWio Terminalをコンピュータに接続できます。
 
@@ -101,7 +101,7 @@ Time of Flightセンサーを接続します。
 
     測距モジュールはセンサーの背面にあるため、距離を測定する際は正しい側を使用してください。
 
-    ![バナナに向けられたTime of Flightセンサーの背面の測距モジュール](../../../../../translated_images/ja/time-of-flight-banana.079921ad8b1496e4.png)
+    ![バナナに向けられたTime of Flightセンサーの背面の測距モジュール](../../../../../translated_images/ja/time-of-flight-banana.079921ad8b1496e4.webp)
 
 > 💁 このコードは[code-proximity/wio-terminal](../../../../../4-manufacturing/lessons/4-trigger-fruit-detector/code-proximity/wio-terminal)フォルダにあります。
 

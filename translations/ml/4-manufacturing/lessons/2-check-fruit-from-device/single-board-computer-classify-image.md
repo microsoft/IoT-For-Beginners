@@ -93,7 +93,7 @@ Custom Vision സർവിസിന് ചിത്രങ്ങൾ വർഗ്�
 
     നിങ്ങൾ എടുത്ത ചിത്രവും ഇവയും Custom Vision-ലെ **Predictions** ടാബിൽ കാണാം.
 
-    ![Custom Vision-ൽ പുരോഗമനത്തോടെ 56.8% പാകപ്പെട്ടതും 43.1% പാചകം ചെയ്യാത്തതുമായ ഒരു വാഴപ്പഴം](../../../../../translated_images/ml/custom-vision-banana-prediction.30cdff4e1d72db5d.png)
+    ![Custom Vision-ൽ പുരോഗമനത്തോടെ 56.8% പാകപ്പെട്ടതും 43.1% പാചകം ചെയ്യാത്തതുമായ ഒരു വാഴപ്പഴം](../../../../../translated_images/ml/custom-vision-banana-prediction.30cdff4e1d72db5d.webp)
 
 > 💁 ഈ കോഡ് നിങ്ങള്ക്ക് [code-classify/pi](../../../../../4-manufacturing/lessons/2-check-fruit-from-device/code-classify/pi) അല്ലെങ്കിൽ [code-classify/virtual-iot-device](../../../../../4-manufacturing/lessons/2-check-fruit-from-device/code-classify/virtual-iot-device) ഫോൾഡറുകളിൽ ലഭ്യമാണ്.
 

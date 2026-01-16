@@ -27,17 +27,17 @@ Grove മണ്ണ് നനവ് സെൻസർ റാസ്ബെറി പ�
 
 മണ്ണ് നനവ് സെൻസർ കണക്റ്റ് ചെയ്യുക.
 
-![A grove soil moisture sensor](../../../../../translated_images/ml/grove-capacitive-soil-moisture-sensor.e7f0776cce30e78b.png)
+![A grove soil moisture sensor](../../../../../translated_images/ml/grove-capacitive-soil-moisture-sensor.e7f0776cce30e78b.webp)
 
 1. Grove കേബിളിന്റെ ഒരു അറ്റം മണ്ണ് നനവ് സെൻസറിലെ സോക്കറ്റിലേക്ക് ഇട്ടാൽ, അത് ഒരേ ദിശയിൽ മാത്രം കയെയും.
 
 1. റാസ്ബെറി പൈ പവറ്ഡ് ഓഫ് ആയിരിക്കുമ്പോൾ, Grove കേബിളിന്റെ മറുപുറം Grove Base Hat-ലെ അനലോഗ് സോക്കറ്റ് **A0** എന്ന് അടഞ്ഞിരിക്കുന്നത് Pi-യിൽ കണക്റ്റ് ചെയ്യുക. ഈ സോക്കറ്റ് GPIO പിനുകൾ അടുത്ത് ഉള്ള സോക്കറ്റുകളുടെ വരിയിൽ രണ്ടാം രജിയിലാണ്, വലത്തുവശത്തേക്ക് നിന്ന്.
 
-![The grove soil moisture sensor connected to the A0 socket](../../../../../translated_images/ml/pi-soil-moisture-sensor.fdd7eb2393792cf6.png)
+![The grove soil moisture sensor connected to the A0 socket](../../../../../translated_images/ml/pi-soil-moisture-sensor.fdd7eb2393792cf6.webp)
 
 1. മണ്ണിൽ മണ്ണ് നനവ് സെൻസർ ഉള്‍ക്കൂറ്റിരിക്കുക. സെൻസറിനു മുകളില്‍ 'ഉയർന്ന സ്ഥാന രേഖ' ഉണ്ട് - സെൻസർ കടന്ന വെളുത്ത വര. ഈ വര കടക്കാതെ സെൻസർ ഉൾക്കൂറ്റരിക്കുക.
 
-![The grove soil moisture sensor in soil](../../../../../translated_images/ml/soil-moisture-sensor-in-soil.bfad91002bda5e96.png)
+![The grove soil moisture sensor in soil](../../../../../translated_images/ml/soil-moisture-sensor-in-soil.bfad91002bda5e96.webp)
 
 ## മണ്ണ് നനവ് സെൻസർ പ്രോഗ്രാം ചെയ്യുക
 

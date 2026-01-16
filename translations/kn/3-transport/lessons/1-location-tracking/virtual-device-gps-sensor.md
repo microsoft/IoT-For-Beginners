@@ -47,11 +47,11 @@ CO_OP_TRANSLATOR_METADATA:
 
     3. `/dev/ttyAMA0` ಪೋರ್ಟಿನಲ್ಲಿ ಜಿಪಿಎಸ್ ಸಂವೇದಕವನ್ನು ರಚಿಸಲು **Add** ಬಟನ್ ಕ್ಲಿಕ್ ಮಾಡಿರಿ
 
-    ![The GPS sensor settings](../../../../../translated_images/kn/counterfit-create-gps-sensor.6385dc9357d85ad1.png)
+    ![The GPS sensor settings](../../../../../translated_images/kn/counterfit-create-gps-sensor.6385dc9357d85ad1.webp)
 
     ಜಿಪಿಎಸ್ ಸಂವೇದಕ ರಚಿಸಲಾಗಿದ್ದು, ಸಂವೇದಕಗಳ ಪಟ್ಟಿಯಲ್ಲಿ ಕಾಣಿಸುತ್ತದೆ.
 
-    ![The GPS sensor created](../../../../../translated_images/kn/counterfit-gps-sensor.3fbb15af0a536756.png)
+    ![The GPS sensor created](../../../../../translated_images/kn/counterfit-gps-sensor.3fbb15af0a536756.webp)
 
 ## ಜಿಪಿಎಸ್ ಸಂವೇದಕವನ್ನು ಪ್ರೋಗ್ರಾಮ್ ಮಾಡಿ
 
@@ -111,17 +111,17 @@ CO_OP_TRANSLATOR_METADATA:
 
     * **Source** ಅನ್ನು `Lat/Lon` ಆಗಿ ಹೊಂದಿಸಿ, ಮತ್ತು ಸ್ಪಷ್ಟ ಆಕ್ಷಾಂಶ, ರೇಖಾಂಶ ಮತ್ತು ಜಿಪಿಎಸ್ ಫಿಕ್ಸನ್ನು ಪಡೆಯಲು ಉಪಯೋಗಿಸಲಾದ ಉಪಗ್ರಹಗಳ ಸಂಖ್ಯೆಯನ್ನು ಸೆಟ್ ಮಾಡಿ. ಈ ಮೌಲ್ಯವನ್ನು ಒಮ್ಮೆಯಾಗಿ ಕಳುಹಿಸಲಾಗುತ್ತದೆ, ಆದ್ದರಿಂದ **Repeat** ಬಾಕ್ಸ್ ಅನ್ನು ಟೆಸ್ಟ್ ಮಾಡಿ, ಹೀಗಾಗಿ ಡೇಟಾ ಪ್ರತಿ ಸೆಕೆಂಡಿಗೂ ಮರುಪಡೆಯುವುದು.
 
-      ![The GPS sensor with lat lon selected](../../../../../translated_images/kn/counterfit-gps-sensor-latlon.008c867d75464fbe.png)
+      ![The GPS sensor with lat lon selected](../../../../../translated_images/kn/counterfit-gps-sensor-latlon.008c867d75464fbe.webp)
 
     * **Source** ಅನ್ನು `NMEA` ಆಗಿ ಹೊಂದಿಸಿ ಮತ್ತು ಪಠ್ಯದ ಬಾಕ್ಸಿನಲ್ಲಿ ಕೆಲವು NMEA ವಾಕ್ಯಗಳನ್ನು ಸೇರಿಸಿ. ಎಲ್ಲಾ ಈ ಮೌಲ್ಯಗಳು ಕಳುಹಿಸಲಾಗುತ್ತವೆ, ಪ್ರತಿ ಹೊಸ GGA (ಸ್ಥಳ ಫಿಕ್ಸ್) ವಾಕ್ಯ ಓದಲು 1 ಸೆಕೆಂಡಿನ ವಿಳಂಬವಿರುತ್ತದೆ.
 
-      ![The GPS sensor with NMEA sentences set](../../../../../translated_images/kn/counterfit-gps-sensor-nmea.c62eea442171e17e.png)
+      ![The GPS sensor with NMEA sentences set](../../../../../translated_images/kn/counterfit-gps-sensor-nmea.c62eea442171e17e.webp)
 
       ನೀವು ನಕ್ಷೆ ಮೇಲೆ ರೇಖಾಚಿತ್ರ ಮಾಡಿ ಇವುಗಳನ್ನು ರಚಿಸಲು [nmeagen.org](https://www.nmeagen.org) ಜೊತೆಗಿನ ಸಾಧನವನ್ನು ಬಳಸಬಹುದು. ಈ ಮೌಲ್ಯಗಳನ್ನು ಕೇವಲ ಒಮ್ಮೆ ಕಳುಹಿಸಲಾಗುತ್ತದೆ, ಆದ್ದರಿಂದ **Repeat** ಬಾಕ್ಸ್ ಅನ್ನು ಗಮನಿಸಿ, ಡೇಟಾ ಎಲ್ಲಾ ಕಳುಹಿಸಿದ ನಂತರ ಒಂದು ಸೆಕೆಂಡ್ ನಂತರ ಮರುಪಡೆಯುವಂತೆ ಮಾಡುತ್ತದೆ.
 
     * **Source** ಅನ್ನು GPX ಫೈಲ್ ಆಗಿ ಹೊಂದಿಸಿ ಮತ್ತು ಟ್ರಾಕ್ ಸ್ಥಳಗಳೊಂದಿಗೆ GPX ಫೈಲ್ ಅನ್ನು ಅಪ್‌ಲೋಡ್ ಮಾಡಿ. ನೀವು ಹಲವು ಜನಪ್ರಿಯ ನಕ್ಷೆ ಮತ್ತು ಹायकಿಂಗ್ ಸೈಟ್‌ಗಳಿಂದ GPX ಫೈಲ್‌ಗಳನ್ನು ಡೌನ್ಲೋಡ್ ಮಾಡಬಹುದು, ಉದಾಹರಣೆಗೆ [AllTrails](https://www.alltrails.com/). ಇವುಗಳು ಹಲವಾರು GPS ಸ್ಥಳಗಳನ್ನು ಟ್ರೇಲ್ ರೂಪದಲ್ಲಿ ಹೊಂದಿವೆ ಮತ್ತು ಜಿಪಿಎಸ್ ಸೆನ್ಸರ್ ಪ್ರತಿ ಹೊಸ ಸ್ಥಳವನ್ನು 1 ಸೆಕೆಂಡ್ ಅಂತರದಲ್ಲಿ ಮರುಪಡೆಯುತ್ತದೆ.
 
-      ![The GPS sensor with a GPX file set](../../../../../translated_images/kn/counterfit-gps-sensor-gpxfile.8310b063ce8a425c.png)
+      ![The GPS sensor with a GPX file set](../../../../../translated_images/kn/counterfit-gps-sensor-gpxfile.8310b063ce8a425c.webp)
 
       ಈ ಮೌಲ್ಯಗಳನ್ನು ಕೇವಲ ಒಮ್ಮೆ ಕಳುಹಿಸಲಾಗುತ್ತದೆ, ಆದ್ದರಿಂದ **Repeat** ಬಾಕ್ಸ್ ಅನ್ನು ನೋಡಿ, ಡೇಟಾ ಎಲ್ಲವೂ ಕಳುಹಿಸಿದ ನಂತರ 1 ಸೆಕೆಂಡು ಮರುಪಡೆಯುವುದು.
 

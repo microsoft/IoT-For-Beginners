@@ -35,7 +35,7 @@ Grove LED ಒಂದು ಮಾಳಿಗೆ ಮೂಲಕ ಬರುವ LED ಗಳ �
 
 LED ಅನ್ನು ಸಂಪರ್ಕಿಸಿ.
 
-![ಒಂದು Grove LED](../../../../../translated_images/kn/grove-led.6c853be93f473cf2.png)
+![ಒಂದು Grove LED](../../../../../translated_images/kn/grove-led.6c853be93f473cf2.webp)
 
 1. ನಿಮ್ಮ ಇಷ್ಟದ LED ಆಯ್ಕೆ ಮಾಡಿ ಮತ್ತು ಅದರ ಕಾಲುಗಳನ್ನು LED ಮಾಳಿಗೆಯ ಎರಡು ರಂಧ್ರಗಳಲ್ಲಿ ಹಾಕಿ.
 
@@ -51,7 +51,7 @@ LED ಅನ್ನು ಸಂಪರ್ಕಿಸಿ.
 
     > 💁 ಬಲಗೈ Grove ಸಾಕೆಟ್ ಅನ್ನು ಅನಾಲಾಗ್ ಅಥವಾ ಡಿಜಿಟಲ್ ಸೆನ್ಸಾರ್ಗಳು ಮತ್ತು ಕಾರ್ಯಾಚರಕಗಳೊಂದಿಗೆ ಬಳಸಬಹುದು. ಎಡಗೈ ಸAkoಠು I<sup>2</sup>C ಮತ್ತು ಡಿಜಿಟಲ್ ಸೆನ್ಸಾರ್ಗಳಿಗೆ ಮಾತ್ರ. I<sup>2</sup>C ನಂತರದ ಪಾಠದಲ್ಲಿ ಆವರಿಸಲಾಗುತ್ತದೆ.
 
-![ಬಲಗೈ Grove ಸAkoಠಿಗೆ ಸಂಪರ್ಕಿಸಿದ Grove LED](../../../../../translated_images/kn/wio-led.265a1897e72d7f21.png)
+![ಬಲಗೈ Grove ಸAkoಠಿಗೆ ಸಂಪರ್ಕಿಸಿದ Grove LED](../../../../../translated_images/kn/wio-led.265a1897e72d7f21.webp)
 
 ## ನೈಟ್‌ಲೈಟ್ ಪ್ರೋಗ್ರಾಮ್ ಮಾಡಿ
 

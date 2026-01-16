@@ -29,13 +29,13 @@ CO_OP_TRANSLATOR_METADATA:
 
 ಟೈಮ್ ಆಫ್ ಫ್ಲೈಟ್ ಸೆನ್ಸಾರ್ ಅನ್ನು ಸಂಪರ್ಕಿಸಿ.
 
-![A grove time of flight sensor](../../../../../translated_images/kn/grove-time-of-flight-sensor.d82ff2165bfded9f.png)
+![A grove time of flight sensor](../../../../../translated_images/kn/grove-time-of-flight-sensor.d82ff2165bfded9f.webp)
 
 1. ಗ್ರೋವ್ ಕೇಬಲ್ ಒಂದು ಮುಖ್ಯ ತುದಿಯನ್ನು ಟೈಮ್ ಆಫ್ ಫ್ಲೈಟ್ ಸೆನ್ಸಾರ್上的ಸಾಕೆಟ್‌ಗೆ ಹಾಕಿ. ಇದು ಒಂದು ದಿಕ್ಕಿನಲ್ಲಿ ಮಾತ್ರ ಹೋಗುತ್ತದೆ.
 
 1. ರಾಸ್ಬೆರ್ರಿ ಪೈ ಪವರ್ ಆಫ್ ಆಗಿರುವಾಗ, ಗ್ರೋವು ಕೇಬಲ್ ಇತರೆ ತುದಿಯನ್ನು ಪೈಗೆ ಅಟ್ಯಾಚ್ ಆಗಿರುವ ಗ್ರೋವ್ ಬೇಸ್ ಹ್ಯಾಟ್‌ನ I<sup>2</sup>C ಟ್ಯಾಗ್ ಇರುವ ಸಾಕೆಟ್‌ಗೆ ಸೇರಿಸಿ. ಈ ಸಾಕೆಟ್‌ಗಳು ಕೆಳಗಿನ ಸಾಲಿನಲ್ಲಿ, GPI ಪಿನ್ಸ್ ವಿರುದ್ಧದ ತುದಿಯಲ್ಲಿರುವ ಕ್ಯಾಮೆರಾ ಕೇಬಲ್ ಸ್ಲಾಟ್ ಹತ್ತಿರದಲ್ಲಿವೆ.
 
-![The grove time of flight sensor connected to the I squared C socket](../../../../../translated_images/kn/pi-time-of-flight-sensor.58c8dc04eb3bfb57.png)
+![The grove time of flight sensor connected to the I squared C socket](../../../../../translated_images/kn/pi-time-of-flight-sensor.58c8dc04eb3bfb57.webp)
 
 ## ಟೈಮ್ ಆಫ್ ಫ್ಲೈಟ್ ಸೆನ್ಸರ್ ಪ್ರೋಗ್ರಾಮ್ ಮಾಡಿ
 
@@ -106,7 +106,7 @@ CO_OP_TRANSLATOR_METADATA:
 
     ಶ್ರೇಣಾನ್ವೇಷಕ ಸೆನ್ಸರ್ ಬೆನ್ನಭಾಗದಲ್ಲಿದೆ, ಆಯ್ದ ದಿಕ್ಕಿನ ಮೂಲಕ ದೂರವನ್ನು ಅಳೆಯುವುದು ಖಚಿತಪಡಿಸಿಕೊಳ್ಳಿ.
 
-    ![The rangefinder on the back of the time of flight sensor pointing at a banana](../../../../../translated_images/kn/time-of-flight-banana.079921ad8b1496e4.png)
+    ![The rangefinder on the back of the time of flight sensor pointing at a banana](../../../../../translated_images/kn/time-of-flight-banana.079921ad8b1496e4.webp)
 
 > 💁 ನೀವು ಈ ಕೋಡ್ ಅನ್ನು [code-proximity/pi](../../../../../4-manufacturing/lessons/4-trigger-fruit-detector/code-proximity/pi) ಫೋಲ್ಡರ್‌ನಲ್ಲೂ ಹುಡುಕಬಹುದು.
 

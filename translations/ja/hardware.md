@@ -21,7 +21,7 @@ IoTの「T」は「Things（モノ）」を指し、私たちの周囲の世界�
 
 ## キットを購入する
 
-![Seeed Studiosのロゴ](../../translated_images/ja/seeed-logo.74732b6b482b6e8e.png)
+![Seeed Studiosのロゴ](../../translated_images/ja/seeed-logo.74732b6b482b6e8e.webp)
 
 Seeed Studiosは、すべてのハードウェアを簡単に購入できるキットとして提供してくれています。
 
@@ -29,7 +29,7 @@ Seeed Studiosは、すべてのハードウェアを簡単に購入できるキ�
 
 **[SeeedとMicrosoftによる初心者向けIoT - Wio Terminalスターターキット](https://www.seeedstudio.com/IoT-for-beginners-with-Seeed-and-Microsoft-Wio-Terminal-Starter-Kit-p-5006.html)**
 
-[![Wio Terminalハードウェアキット](../../translated_images/ja/wio-hardware-kit.4c70c48b85e4283a.png)](https://www.seeedstudio.com/IoT-for-beginners-with-Seeed-and-Microsoft-Wio-Terminal-Starter-Kit-p-5006.html)
+[![Wio Terminalハードウェアキット](../../translated_images/ja/wio-hardware-kit.4c70c48b85e4283a.webp)](https://www.seeedstudio.com/IoT-for-beginners-with-Seeed-and-Microsoft-Wio-Terminal-Starter-Kit-p-5006.html)
 
 ### Raspberry Pi
 

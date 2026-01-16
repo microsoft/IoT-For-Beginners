@@ -46,7 +46,7 @@ U ovoj lekciji obradit ćemo:
 
 Postoji nekoliko popularnih komunikacijskih protokola koje IoT uređaji koriste za komunikaciju s internetom. Najpopularniji su oni koji se temelje na objavljivanju/pretplati putem posrednika (broker). IoT uređaji povezuju se s posrednikom, objavljuju telemetriju i pretplaćuju se na naredbe. Usluge u oblaku također se povezuju s posrednikom, pretplaćuju se na sve telemetrijske poruke i objavljuju naredbe ili za specifične uređaje ili za grupe uređaja.
 
-![IoT uređaji povezuju se s posrednikom, objavljuju telemetriju i pretplaćuju se na naredbe. Usluge u oblaku povezuju se s posrednikom, pretplaćuju se na sve telemetrijske poruke i šalju naredbe specifičnim uređajima.](../../../../../translated_images/hr/pub-sub.7c7ed43fe9fd15d4.png)
+![IoT uređaji povezuju se s posrednikom, objavljuju telemetriju i pretplaćuju se na naredbe. Usluge u oblaku povezuju se s posrednikom, pretplaćuju se na sve telemetrijske poruke i šalju naredbe specifičnim uređajima.](../../../../../translated_images/hr/pub-sub.7c7ed43fe9fd15d4.webp)
 
 MQTT je najpopularniji komunikacijski protokol za IoT uređaje i obrađen je u ovoj lekciji. Ostali protokoli uključuju AMQP i HTTP/HTTPS.
 
@@ -115,7 +115,7 @@ Riječ telemetrija dolazi od grčkih korijena i znači mjerenje na daljinu. Tele
 
 Pogledajmo ponovno primjer pametnog termostata iz Lekcije 1.
 
-![Internet povezani termostat s više sobnih senzora](../../../../../translated_images/hr/telemetry.21e5d8b97649d2eb.png)
+![Internet povezani termostat s više sobnih senzora](../../../../../translated_images/hr/telemetry.21e5d8b97649d2eb.webp)
 
 Termostat ima senzore temperature za prikupljanje telemetrije. Najvjerojatnije bi imao jedan ugrađeni senzor temperature, a mogao bi se povezati s više vanjskih senzora temperature putem bežičnog protokola poput [Bluetooth Low Energy](https://wikipedia.org/wiki/Bluetooth_Low_Energy) (BLE).
 
@@ -267,11 +267,11 @@ Napišite kod za server.
 
 1. Kada se VS Code pokrene, aktivirat će Python virtualno okruženje. Ovo će biti prikazano u donjoj statusnoj traci:
 
-    ![VS Code prikazuje odabrano virtualno okruženje](../../../../../translated_images/hr/vscode-virtual-env.8ba42e04c3d533cf.png)
+    ![VS Code prikazuje odabrano virtualno okruženje](../../../../../translated_images/hr/vscode-virtual-env.8ba42e04c3d533cf.webp)
 
 1. Ako je VS Code Terminal već pokrenut kada se VS Code pokrene, virtualno okruženje neće biti aktivirano u njemu. Najlakše je ubiti terminal koristeći gumb **Kill the active terminal instance**:
 
-    ![VS Code gumb za ubijanje aktivnog terminal instance](../../../../../translated_images/hr/vscode-kill-terminal.1cc4de7c6f25ee08.png)
+    ![VS Code gumb za ubijanje aktivnog terminal instance](../../../../../translated_images/hr/vscode-kill-terminal.1cc4de7c6f25ee08.webp)
 
 1. Pokrenite novi VS Code Terminal odabirom *Terminal -> New Terminal*, ili pritiskom na `` CTRL+` ``. Novi terminal će učitati virtualno okruženje, s pozivom za aktivaciju koji se pojavljuje u terminalu. Ime virtualnog okruženja (`.venv`) također će biti u promptu:
 

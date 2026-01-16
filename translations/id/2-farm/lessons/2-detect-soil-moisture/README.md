@@ -37,7 +37,7 @@ UART melibatkan sirkuit fisik yang memungkinkan dua perangkat untuk berkomunikas
 * Perangkat 1 mengirimkan data dari pin Tx-nya, yang diterima oleh perangkat 2 di pin Rx-nya
 * Perangkat 1 menerima data di pin Rx-nya yang dikirimkan oleh perangkat 2 dari pin Tx-nya
 
-![UART dengan pin Tx pada satu chip terhubung ke pin Rx pada chip lain, dan sebaliknya](../../../../../translated_images/id/uart.d0dbd3fb9e3728c6.png)
+![UART dengan pin Tx pada satu chip terhubung ke pin Rx pada chip lain, dan sebaliknya](../../../../../translated_images/id/uart.d0dbd3fb9e3728c6.webp)
 
 > 🎓 Data dikirimkan satu bit pada satu waktu, dan ini dikenal sebagai komunikasi *serial*. Sebagian besar sistem operasi dan mikrokontroler memiliki *serial ports*, yaitu koneksi yang dapat mengirim dan menerima data serial yang tersedia untuk kode Anda.
 
@@ -66,7 +66,7 @@ Pengontrol SPI menggunakan 3 kabel, bersama dengan 1 kabel tambahan per perifera
 | SCLK | Serial Clock | Kabel ini mengirimkan sinyal jam pada kecepatan yang diatur oleh pengontrol. |
 | CS   | Chip Select | Pengontrol memiliki beberapa kabel, satu per periferal, dan setiap kabel terhubung ke kabel CS pada periferal yang sesuai. |
 
-![SPI dengan satu pengontrol dan dua periferal](../../../../../translated_images/id/spi.297431d6f98b386b.png)
+![SPI dengan satu pengontrol dan dua periferal](../../../../../translated_images/id/spi.297431d6f98b386b.webp)
 
 Kabel CS digunakan untuk mengaktifkan satu periferal pada satu waktu, berkomunikasi melalui kabel COPI dan CIPO. Ketika pengontrol perlu mengganti periferal, ia menonaktifkan kabel CS yang terhubung ke periferal yang sedang aktif, lalu mengaktifkan kabel yang terhubung ke periferal berikutnya yang ingin diajak berkomunikasi.
 
@@ -127,13 +127,13 @@ Kelembapan tanah diukur menggunakan kandungan air gravimetrik atau volumetrik.
 
 Sensor kelembapan tanah mengukur resistansi atau kapasitansi listrik - ini tidak hanya bervariasi berdasarkan kelembapan tanah, tetapi juga jenis tanah karena komponen dalam tanah dapat mengubah karakteristik listriknya. Idealnya, sensor harus dikalibrasi - yaitu mengambil pembacaan dari sensor dan membandingkannya dengan pengukuran yang ditemukan menggunakan pendekatan yang lebih ilmiah. Misalnya, sebuah laboratorium dapat menghitung kelembapan tanah gravimetrik menggunakan sampel dari ladang tertentu yang diambil beberapa kali dalam setahun, dan angka-angka ini digunakan untuk mengkalibrasi sensor, mencocokkan pembacaan sensor dengan kelembapan tanah gravimetrik.
 
-![Grafik tegangan vs kandungan kelembapan tanah](../../../../../translated_images/id/soil-moisture-to-voltage.df86d80cda158700.png)
+![Grafik tegangan vs kandungan kelembapan tanah](../../../../../translated_images/id/soil-moisture-to-voltage.df86d80cda158700.webp)
 
 Grafik di atas menunjukkan cara mengkalibrasi sensor. Tegangan diambil untuk sampel tanah yang kemudian diukur di laboratorium dengan membandingkan berat basah dengan berat kering (dengan mengukur berat basah, lalu mengeringkannya di oven dan mengukur berat kering). Setelah beberapa pembacaan diambil, ini dapat diplot pada grafik dan garis dipasang pada titik-titik tersebut. Garis ini kemudian dapat digunakan untuk mengonversi pembacaan sensor kelembapan tanah yang diambil oleh perangkat IoT menjadi pengukuran kelembapan tanah yang sebenarnya.
 
 💁 Untuk sensor kelembapan tanah resistif, tegangan meningkat seiring dengan meningkatnya kelembapan tanah. Untuk sensor kelembapan tanah kapasitif, tegangan menurun seiring dengan meningkatnya kelembapan tanah, sehingga grafik untuk sensor ini akan miring ke bawah, bukan ke atas.
 
-![Nilai kelembapan tanah diinterpolasi dari grafik](../../../../../translated_images/id/soil-moisture-to-voltage-with-reading.681cb3e1f8b68caf.png)
+![Nilai kelembapan tanah diinterpolasi dari grafik](../../../../../translated_images/id/soil-moisture-to-voltage-with-reading.681cb3e1f8b68caf.webp)
 
 Grafik di atas menunjukkan pembacaan tegangan dari sensor kelembapan tanah, dan dengan mengikuti garis pada grafik, kelembapan tanah yang sebenarnya dapat dihitung.
 

@@ -81,7 +81,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 1. 카메라를 선반 위의 재고를 향하게 하고 앱을 실행하세요. VS Code 탐색기에서 `image.jpg` 파일을 확인할 수 있으며, 이를 선택하여 경계 상자를 볼 수 있습니다.
 
-    ![4개의 토마토 페이스트 캔에 각각 경계 상자가 표시된 이미지](../../../../../translated_images/ko/rpi-stock-with-bounding-boxes.b5540e2ecb7cd49f.jpg)
+    ![4개의 토마토 페이스트 캔에 각각 경계 상자가 표시된 이미지](../../../../../translated_images/ko/rpi-stock-with-bounding-boxes.b5540e2ecb7cd49f.webp)
 
 ## 재고 계산하기
 

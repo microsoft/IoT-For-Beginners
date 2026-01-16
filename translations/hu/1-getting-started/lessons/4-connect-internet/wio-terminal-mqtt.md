@@ -64,7 +64,7 @@ Csatlakoztasd a Wio Terminalt a WiFi-hez.
 
 1. Hozz létre egy új fájlt a `src` mappában `config.h` néven. Ezt úgy teheted meg, hogy kijelölöd a `src` mappát, vagy a benne lévő `main.cpp` fájlt, majd az **Új fájl** gombra kattintasz az explorerben. Ez a gomb csak akkor jelenik meg, ha az egérkurzor az explorer felett van.
 
-    ![Az új fájl gomb](../../../../../translated_images/hu/vscode-new-file-button.182702340fe6723c.png)
+    ![Az új fájl gomb](../../../../../translated_images/hu/vscode-new-file-button.182702340fe6723c.webp)
 
 1. Add hozzá a következő kódot ehhez a fájlhoz, hogy meghatározd a WiFi hitelesítési adatokat:
 

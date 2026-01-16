@@ -29,7 +29,7 @@ ArduCam 沒有 Grove 插槽，而是通過 Wio Terminal 上的 GPIO 引腳連接
 
 1. ArduCam 底部的引腳需要連接到 Wio Terminal 的 GPIO 引腳。為了更容易找到正確的引腳，將隨 Wio Terminal 附帶的 GPIO 引腳貼紙貼在引腳周圍：
 
-    ![帶有 GPIO 引腳貼紙的 Wio Terminal](../../../../../translated_images/mo/wio-terminal-pin-sticker.b90b1535937b84bd.png)
+    ![帶有 GPIO 引腳貼紙的 Wio Terminal](../../../../../translated_images/mo/wio-terminal-pin-sticker.b90b1535937b84bd.webp)
 
 1. 使用跳線，進行以下連接：
 
@@ -297,7 +297,7 @@ ArduCam 沒有 Grove 插槽，而是通過 Wio Terminal 上的 GPIO 引腳連接
 
 1. 微控制器會不斷運行你的代碼，因此如果不響應感測器，觸發拍照並不容易。Wio Terminal 有按鈕，因此可以設置相機由其中一個按鈕觸發。在 `setup` 函數的末尾添加以下代碼，以配置 C 按鈕（頂部的三個按鈕之一，最靠近電源開關的那個）。
 
-    ![最靠近電源開關的 C 按鈕](../../../../../translated_images/mo/wio-terminal-c-button.73df3cb1c1445ea0.png)
+    ![最靠近電源開關的 C 按鈕](../../../../../translated_images/mo/wio-terminal-c-button.73df3cb1c1445ea0.webp)
 
     ```cpp
     pinMode(WIO_KEY_C, INPUT_PULLUP);

@@ -45,11 +45,11 @@ LED CounterFit ആപ്പിൽ ചേർക്കുക.
 
     1. Pin 5-ൽ LED സൃഷ്ടിക്കാൻ **Add** ബട്ടൺ ക്ലിക്ക് ചെയ്യുക
 
-    ![LED സെറ്റിംഗുകൾ](../../../../../translated_images/ml/counterfit-create-led.ba9db1c9b8c622a6.png)
+    ![LED സെറ്റിംഗുകൾ](../../../../../translated_images/ml/counterfit-create-led.ba9db1c9b8c622a6.webp)
 
     LED സൃഷ്ടിച്ചപ്പോൾ, അത് ആക്ചുവേറ്ററുകളുടെ പട്ടികയിൽ തോന്നും.
 
-    ![LED സൃഷ്ടിച്ചു](../../../../../translated_images/ml/counterfit-led.c0ab02de6d256ad8.png)
+    ![LED സൃഷ്ടിച്ചു](../../../../../translated_images/ml/counterfit-led.c0ab02de6d256ad8.webp)
 
     LED സൃഷ്ടിച്ചതിന് ശേഷമുള്ള *Color* പിക്കർ ഉപയോഗിച്ച് ഫർണിച്ചറിന്റെ നിറം മാറ്റാം. തിരഞ്ഞെടുക്കildതിനു ശേഷം **Set** ബട്ടൺ അമർത്തുക.
 

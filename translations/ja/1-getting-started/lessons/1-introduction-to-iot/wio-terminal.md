@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 [Seeed StudiosのWio Terminal](https://www.seeedstudio.com/Wio-Terminal-p-4509.html)は、Arduino互換のマイクロコントローラーで、WiFiやいくつかのセンサー、アクチュエーターが内蔵されています。また、[Grove](https://www.seeedstudio.com/category/Grove-c-1003.html)というハードウェアエコシステムを使用して、さらに多くのセンサーやアクチュエーターを追加するためのポートも備えています。
 
-![Seeed StudiosのWio Terminal](../../../../../translated_images/ja/wio-terminal.b8299ee16587db9a.png)
+![Seeed StudiosのWio Terminal](../../../../../translated_images/ja/wio-terminal.b8299ee16587db9a.webp)
 
 ## セットアップ
 
@@ -51,15 +51,15 @@ PlatformIOプロジェクトを作成します。
 
 1. PlatformIOアイコンがサイドメニューバーに表示されます：
 
-    ![Platform IOメニューオプション](../../../../../translated_images/ja/vscode-platformio-menu.297be26b9733e5c4.png)
+    ![Platform IOメニューオプション](../../../../../translated_images/ja/vscode-platformio-menu.297be26b9733e5c4.webp)
 
     このメニュー項目を選択し、*PIO Home -> Open*を選択します。
 
-    ![Platform IOオープンオプション](../../../../../translated_images/ja/vscode-platformio-home-open.3f9a41bfd3f4da1c.png)
+    ![Platform IOオープンオプション](../../../../../translated_images/ja/vscode-platformio-home-open.3f9a41bfd3f4da1c.webp)
 
 1. ウェルカム画面から**+ New Project**ボタンを選択します。
 
-    ![新しいプロジェクトボタン](../../../../../translated_images/ja/vscode-platformio-welcome-new-button.ba6fc8a4c7b78cc8.png)
+    ![新しいプロジェクトボタン](../../../../../translated_images/ja/vscode-platformio-welcome-new-button.ba6fc8a4c7b78cc8.webp)
 
 1. *Project Wizard*でプロジェクトを設定します：
 
@@ -73,7 +73,7 @@ PlatformIOプロジェクトを作成します。
 
     1. **Finish**ボタンを選択します。
 
-    ![完成したプロジェクトウィザード](../../../../../translated_images/ja/vscode-platformio-nightlight-project-wizard.5c64db4da6037420.png)
+    ![完成したプロジェクトウィザード](../../../../../translated_images/ja/vscode-platformio-nightlight-project-wizard.5c64db4da6037420.webp)
 
     PlatformIOは、Wio Terminal用のコードをコンパイルするために必要なコンポーネントをダウンロードし、プロジェクトを作成します。これには数分かかる場合があります。
 
@@ -179,7 +179,7 @@ Hello Worldアプリを書きます。
 
     1. `PlatformIO Upload`と入力してアップロードオプションを検索し、*PlatformIO: Upload*を選択します。
 
-        ![コマンドパレット内のPlatformIOアップロードオプション](../../../../../translated_images/ja/vscode-platformio-upload-command-palette.9e0f49cf80d1f1c3.png)
+        ![コマンドパレット内のPlatformIOアップロードオプション](../../../../../translated_images/ja/vscode-platformio-upload-command-palette.9e0f49cf80d1f1c3.webp)
 
         PlatformIOは必要に応じてコードを自動的にビルドしてからアップロードします。
 
@@ -195,7 +195,7 @@ PlatformIOには、Wio TerminalからUSBケーブル経由で送信されるデ�
 
 1. `PlatformIO Serial`と入力してシリアルモニターオプションを検索し、*PlatformIO: Serial Monitor*を選択します。
 
-    ![コマンドパレット内のPlatformIOシリアルモニターオプション](../../../../../translated_images/ja/vscode-platformio-serial-monitor-command-palette.b348ec841b8a1c14.png)
+    ![コマンドパレット内のPlatformIOシリアルモニターオプション](../../../../../translated_images/ja/vscode-platformio-serial-monitor-command-palette.b348ec841b8a1c14.webp)
 
     新しいターミナルが開き、シリアルポート経由で送信されたデータがこのターミナルにストリームされます：
 

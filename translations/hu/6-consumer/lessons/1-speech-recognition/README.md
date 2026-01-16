@@ -64,7 +64,7 @@ A mikrofonok különböző típusokban érhetők el:
 
 * Szalag - A szalagos mikrofonok hasonlóak a dinamikus mikrofonokhoz, de membrán helyett fém szalagot használnak. Ez a szalag egy mágneses mezőben mozogva elektromos áramot generál. A dinamikus mikrofonokhoz hasonlóan a szalagos mikrofonoknak sincs szükségük áramra a működéshez.
 
-    ![Edmund Lowe, amerikai színész, rádiómikrofon előtt áll (NBC Blue Network), kezében forgatókönyv, 1942](../../../../../translated_images/hu/ribbon-mic.eacc8e092c7441ca.jpg)
+    ![Edmund Lowe, amerikai színész, rádiómikrofon előtt áll (NBC Blue Network), kezében forgatókönyv, 1942](../../../../../translated_images/hu/ribbon-mic.eacc8e092c7441ca.webp)
 
 * Kondenzátor - A kondenzátoros mikrofonoknak vékony fém membránjuk és rögzített fém hátlapjuk van. Mindkettőre elektromosságot alkalmaznak, és ahogy a membrán rezeg, a lemezek közötti statikus töltés változik, jelet generálva. A kondenzátoros mikrofonoknak áramra van szükségük a működéshez – ezt *fantomtáplálásnak* nevezik.
 
@@ -84,7 +84,7 @@ A hang analóg jel, amely rendkívül finom részleteket hordoz. Ahhoz, hogy ezt
 
 > 🎓 A mintavételezés a hangjel digitális értékké alakítása, amely az adott időpontban a jelet képviseli.
 
-![Egy vonaldiagram, amely egy jelet mutat, diszkrét pontokkal rögzített időközönként](../../../../../translated_images/hu/sampling.6f4fadb3f2d9dfe7.png)
+![Egy vonaldiagram, amely egy jelet mutat, diszkrét pontokkal rögzített időközönként](../../../../../translated_images/hu/sampling.6f4fadb3f2d9dfe7.webp)
 
 A digitális hangot impulzuskód-modulációval (Pulse Code Modulation, PCM) mintavételezik. A PCM során a jel feszültségét olvassák le, és kiválasztják a legközelebbi diszkrét értéket az adott feszültséghez egy meghatározott méret alapján.
 

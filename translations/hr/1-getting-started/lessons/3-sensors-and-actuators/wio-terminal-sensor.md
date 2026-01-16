@@ -17,7 +17,7 @@ Senzor za ovu lekciju je **senzor svjetla** koji koristi [fotodiodu](https://wik
 
 Senzor svjetla ugrađen je u Wio Terminal i vidljiv je kroz prozirni plastični prozor na stražnjoj strani.
 
-![Senzor svjetla na stražnjoj strani Wio Terminala](../../../../../translated_images/hr/wio-light-sensor.b1f529f3c95f5165.png)
+![Senzor svjetla na stražnjoj strani Wio Terminala](../../../../../translated_images/hr/wio-light-sensor.b1f529f3c95f5165.webp)
 
 ## Programiranje senzora svjetla
 

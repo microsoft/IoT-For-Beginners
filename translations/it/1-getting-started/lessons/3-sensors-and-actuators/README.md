@@ -75,7 +75,7 @@ Alcuni dei sensori più semplici sono analogici. Questi sensori ricevono una ten
 
 Un esempio è un potenziometro. Questo è una manopola che puoi ruotare tra due posizioni e il sensore misura la rotazione.
 
-![Un potenziometro impostato a metà scala riceve 5 volt e restituisce 3,8 volt](../../../../../translated_images/it/potentiometer.35a348b9ce22f6ec.png)
+![Un potenziometro impostato a metà scala riceve 5 volt e restituisce 3,8 volt](../../../../../translated_images/it/potentiometer.35a348b9ce22f6ec.webp)
 
 Il dispositivo IoT invierà un segnale elettrico al potenziometro a una certa tensione, ad esempio 5 volt (5V). Man mano che il potenziometro viene regolato, cambia la tensione che esce dall'altro lato. Immagina di avere un potenziometro etichettato come una manopola che va da 0 a [11](https://wikipedia.org/wiki/Up_to_eleven), come una manopola del volume su un amplificatore. Quando il potenziometro è nella posizione completamente spenta (0), usciranno 0V (0 volt). Quando è nella posizione completamente accesa (11), usciranno 5V (5 volt).
 
@@ -112,7 +112,7 @@ I pin sui dispositivi IoT, come i pin GPIO, possono misurare direttamente questo
 
 Sensori digitali più avanzati leggono valori analogici, poi li convertono utilizzando ADC integrati in segnali digitali. Ad esempio, un sensore di temperatura digitale utilizzerà comunque un termocoppia nello stesso modo di un sensore analogico e misurerà comunque la variazione di tensione causata dalla resistenza del termocoppia alla temperatura corrente. Invece di restituire un valore analogico e fare affidamento sul dispositivo o sulla scheda di connessione per convertirlo in un segnale digitale, un ADC integrato nel sensore convertirà il valore e lo invierà come una serie di 0 e 1 al dispositivo IoT. Questi 0 e 1 vengono inviati nello stesso modo del segnale digitale per un pulsante, con 1 che rappresenta la tensione piena e 0 che rappresenta 0V.
 
-![Un sensore di temperatura digitale che converte una lettura analogica in dati binari con 0 come 0 volt e 1 come 5 volt prima di inviarli a un dispositivo IoT](../../../../../translated_images/it/temperature-as-digital.85004491b977bae1.png)
+![Un sensore di temperatura digitale che converte una lettura analogica in dati binari con 0 come 0 volt e 1 come 5 volt prima di inviarli a un dispositivo IoT](../../../../../translated_images/it/temperature-as-digital.85004491b977bae1.webp)
 
 L'invio di dati digitali consente ai sensori di diventare più complessi e di inviare dati più dettagliati, persino dati crittografati per sensori sicuri. Un esempio è una fotocamera. Questo è un sensore che cattura un'immagine e la invia come dati digitali contenenti quell'immagine, solitamente in un formato compresso come JPEG, per essere letta dal dispositivo IoT. Può persino trasmettere video catturando immagini e inviando o l'immagine completa fotogramma per fotogramma o un flusso video compresso.
 
@@ -164,7 +164,7 @@ Ad esempio, puoi utilizzare il PWM per controllare la velocità di un motore.
 
 Immagina di controllare un motore con un'alimentazione di 5V. Invi un breve impulso al motore, portando la tensione a 5V per due centesimi di secondo (0,02s). In quel tempo, il motore può ruotare di un decimo di giro, ovvero 36°. Il segnale poi si interrompe per due centesimi di secondo (0,02s), inviando un segnale basso (0V). Ogni ciclo di accensione e spegnimento dura 0,04s. Il ciclo si ripete.
 
-![Rotazione di un motore a modulazione di larghezza di impulso a 150 RPM](../../../../../translated_images/it/pwm-motor-150rpm.83347ac04ca38482.png)
+![Rotazione di un motore a modulazione di larghezza di impulso a 150 RPM](../../../../../translated_images/it/pwm-motor-150rpm.83347ac04ca38482.webp)
 
 Ciò significa che in un secondo ci sono 25 impulsi di 5V della durata di 0,02s che fanno ruotare il motore, ciascuno seguito da una pausa di 0,02s a 0V in cui il motore non ruota. Ogni impulso fa ruotare il motore di un decimo di giro, il che significa che il motore completa 2,5 giri al secondo. Hai utilizzato un segnale digitale per far ruotare il motore a 2,5 giri al secondo, ovvero 150 [giri al minuto](https://wikipedia.org/wiki/Revolutions_per_minute) (una misura non standard di velocità di rotazione).
 
@@ -175,7 +175,7 @@ Ciò significa che in un secondo ci sono 25 impulsi di 5V della durata di 0,02s 
 
 > 🎓 Quando un segnale PWM è attivo per metà del tempo e inattivo per l'altra metà, si parla di [ciclo di lavoro al 50%](https://wikipedia.org/wiki/Duty_cycle). I cicli di lavoro sono misurati come la percentuale di tempo in cui il segnale è nello stato attivo rispetto allo stato inattivo.
 
-![Rotazione di un motore a modulazione di larghezza di impulso a 75 RPM](../../../../../translated_images/it/pwm-motor-75rpm.a5e4c939934b6e14.png)
+![Rotazione di un motore a modulazione di larghezza di impulso a 75 RPM](../../../../../translated_images/it/pwm-motor-75rpm.a5e4c939934b6e14.webp)
 
 Puoi modificare la velocità del motore cambiando la durata degli impulsi. Ad esempio, con lo stesso motore puoi mantenere lo stesso tempo di ciclo di 0,04s, dimezzando l'impulso attivo a 0,01s e aumentando l'impulso inattivo a 0,03s. Hai lo stesso numero di impulsi al secondo (25), ma ogni impulso attivo è lungo la metà. Un impulso di lunghezza dimezzata fa ruotare il motore di un ventesimo di giro, e con 25 impulsi al secondo il motore completerà 1,25 giri al secondo o 75rpm. Modificando la velocità degli impulsi di un segnale digitale, hai dimezzato la velocità di un motore analogico.
 

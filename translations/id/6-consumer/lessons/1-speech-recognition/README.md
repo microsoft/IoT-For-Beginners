@@ -64,7 +64,7 @@ Mikrofon tersedia dalam berbagai jenis:
 
 * Pita - Mikrofon pita mirip dengan mikrofon dinamis, kecuali mereka memiliki pita logam alih-alih diafragma. Pita ini bergerak dalam medan magnet, menghasilkan arus listrik. Seperti mikrofon dinamis, mikrofon pita tidak memerlukan daya untuk bekerja.
 
-    ![Edmund Lowe, aktor Amerika, berdiri di mikrofon radio (berlabel untuk (NBC) Blue Network), memegang naskah, 1942](../../../../../translated_images/id/ribbon-mic.eacc8e092c7441ca.jpg)
+    ![Edmund Lowe, aktor Amerika, berdiri di mikrofon radio (berlabel untuk (NBC) Blue Network), memegang naskah, 1942](../../../../../translated_images/id/ribbon-mic.eacc8e092c7441ca.webp)
 
 * Kondensor - Mikrofon kondensor memiliki diafragma logam tipis dan pelat belakang logam tetap. Listrik diterapkan pada keduanya, dan saat diafragma bergetar, muatan statis antara pelat berubah, menghasilkan sinyal. Mikrofon kondensor memerlukan daya untuk bekerja - disebut *Phantom power*.
 
@@ -84,7 +84,7 @@ Audio adalah sinyal analog yang membawa informasi sangat rinci. Untuk mengonvers
 
 > 🎓 Sampling adalah mengonversi sinyal audio menjadi nilai digital yang mewakili sinyal pada titik waktu tertentu.
 
-![Grafik garis yang menunjukkan sinyal, dengan titik-titik diskrit pada interval tetap](../../../../../translated_images/id/sampling.6f4fadb3f2d9dfe7.png)
+![Grafik garis yang menunjukkan sinyal, dengan titik-titik diskrit pada interval tetap](../../../../../translated_images/id/sampling.6f4fadb3f2d9dfe7.webp)
 
 Audio digital diambil sampelnya menggunakan Pulse Code Modulation, atau PCM. PCM melibatkan pembacaan tegangan sinyal, dan memilih nilai diskrit terdekat dengan tegangan tersebut menggunakan ukuran yang telah ditentukan.
 

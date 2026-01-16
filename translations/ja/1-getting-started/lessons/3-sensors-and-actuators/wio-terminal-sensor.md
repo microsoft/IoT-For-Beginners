@@ -17,7 +17,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 光センサーはWio Terminalに内蔵されており、背面の透明なプラスチック窓を通して見ることができます。
 
-![Wio Terminalの背面にある光センサー](../../../../../translated_images/ja/wio-light-sensor.b1f529f3c95f5165.png)
+![Wio Terminalの背面にある光センサー](../../../../../translated_images/ja/wio-light-sensor.b1f529f3c95f5165.webp)
 
 ## 光センサーをプログラムする
 

@@ -126,7 +126,7 @@ LUISを訓練するには、まずエンティティを設定します。これ�
 
 これらの文のどの部分がエンティティに対応するかをLUISに教えます：
 
-![文「set a timer for 1 minute and 12 seconds」をエンティティに分解した図](../../../../../translated_images/ja/sentence-as-intent-entities.301401696f992259.png)
+![文「set a timer for 1 minute and 12 seconds」をエンティティに分解した図](../../../../../translated_images/ja/sentence-as-intent-entities.301401696f992259.webp)
 
 文`set a timer for 1 minute and 12 seconds`のインテントは`set timer`です。また、2つのエンティティがそれぞれ2つの値を持っています：
 

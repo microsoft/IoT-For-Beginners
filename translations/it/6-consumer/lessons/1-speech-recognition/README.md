@@ -64,7 +64,7 @@ I microfoni sono disponibili in una varietà di tipi:
 
 * A nastro - I microfoni a nastro sono simili ai microfoni dinamici, ma hanno un nastro metallico invece di un diaframma. Questo nastro si muove in un campo magnetico generando una corrente elettrica. Come i microfoni dinamici, i microfoni a nastro non necessitano di alimentazione per funzionare.
 
-    ![Edmund Lowe, attore americano, in piedi davanti a un microfono radiofonico (etichettato per la rete Blue Network della NBC), con in mano un copione, 1942](../../../../../translated_images/it/ribbon-mic.eacc8e092c7441ca.jpg)
+    ![Edmund Lowe, attore americano, in piedi davanti a un microfono radiofonico (etichettato per la rete Blue Network della NBC), con in mano un copione, 1942](../../../../../translated_images/it/ribbon-mic.eacc8e092c7441ca.webp)
 
 * Condensatore - I microfoni a condensatore hanno un diaframma metallico sottile e una piastra posteriore metallica fissa. L'elettricità viene applicata a entrambi e, mentre il diaframma vibra, la carica statica tra le piastre cambia generando un segnale. I microfoni a condensatore necessitano di alimentazione per funzionare - chiamata *Phantom power*.
 
@@ -84,7 +84,7 @@ L'audio è un segnale analogico che trasporta informazioni molto dettagliate. Pe
 
 > 🎓 Il campionamento consiste nel convertire il segnale audio in un valore digitale che rappresenta il segnale in quel momento.
 
-![Un grafico a linee che mostra un segnale, con punti discreti a intervalli fissi](../../../../../translated_images/it/sampling.6f4fadb3f2d9dfe7.png)
+![Un grafico a linee che mostra un segnale, con punti discreti a intervalli fissi](../../../../../translated_images/it/sampling.6f4fadb3f2d9dfe7.webp)
 
 L'audio digitale viene campionato utilizzando la modulazione a codice di impulsi, o PCM. PCM consiste nel leggere la tensione del segnale e selezionare il valore discreto più vicino a quella tensione utilizzando una dimensione definita.
 

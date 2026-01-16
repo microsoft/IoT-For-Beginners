@@ -104,7 +104,7 @@ CO_OP_TRANSLATOR_METADATA:
 
     എടുത്ത ചിത്രം, ഈ മൂല്യങ്ങൾ എന്നിവ Custom Vision-ലുള്ള **Predictions** ടാബിൽ കാണാൻ സാധിക്കും.
 
-    ![ഷെൽഫിലെ 4 ടൊമാറ്റോ പേസ്റ്റ് കാൻസുകൾ, നിരീക്ഷണത്തിനുള്ള പ്രവചനങ്ങൾ: 35.8%, 33.5%, 25.7%, 16.6%](../../../../../translated_images/ml/custom-vision-stock-prediction.942266ab1bcca341.png)
+    ![ഷെൽഫിലെ 4 ടൊമാറ്റോ പേസ്റ്റ് കാൻസുകൾ, നിരീക്ഷണത്തിനുള്ള പ്രവചനങ്ങൾ: 35.8%, 33.5%, 25.7%, 16.6%](../../../../../translated_images/ml/custom-vision-stock-prediction.942266ab1bcca341.webp)
 
 > 💁 ഈ കോഡ് [code-detect/wio-terminal](../../../../../5-retail/lessons/2-check-stock-device/code-detect/wio-terminal) ഫോൾഡറിൽ ലഭ്യമാണ്.
 

@@ -57,7 +57,7 @@ Sekite šiuos žingsnius, kad pradėtumėte naudotis šiomis ištekliais:
 
 Projektai apima maisto kelionę nuo ūkio iki stalo. Tai apima žemės ūkį, logistiką, gamybą, mažmeninę prekybą ir vartotojus - visos populiarios IoT įrenginių pramonės sritys.
 
-![Kursų žemėlapis, kuriame pateikiamos 24 pamokos, apimančios įvadą, žemės ūkį, transportą, apdorojimą, mažmeninę prekybą ir maisto gaminimą](../../translated_images/lt/Roadmap.bb1dec285dda0eda.jpg)
+![Kursų žemėlapis, kuriame pateikiamos 24 pamokos, apimančios įvadą, žemės ūkį, transportą, apdorojimą, mažmeninę prekybą ir maisto gaminimą](../../translated_images/lt/Roadmap.bb1dec285dda0eda.webp)
 
 > Sketchnote piešinys [Nitya Narasimhan](https://github.com/nitya). Spustelėkite paveikslėlį, kad pamatytumėte didesnį.
 

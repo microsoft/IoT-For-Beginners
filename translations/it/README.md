@@ -57,7 +57,7 @@ Gli Azure Cloud Advocates di Microsoft sono lieti di offrire un curricolo di 12 
 
 I progetti coprono il percorso del cibo dalla fattoria alla tavola. Questo include agricoltura, logistica, produzione, vendita al dettaglio e consumatori - tutti settori popolari per i dispositivi IoT.
 
-![Una mappa del corso che mostra 24 lezioni che coprono introduzione, agricoltura, trasporti, lavorazione, vendita e cucina](../../translated_images/it/Roadmap.bb1dec285dda0eda.jpg)
+![Una mappa del corso che mostra 24 lezioni che coprono introduzione, agricoltura, trasporti, lavorazione, vendita e cucina](../../translated_images/it/Roadmap.bb1dec285dda0eda.webp)
 
 > Sketchnote di [Nitya Narasimhan](https://github.com/nitya). Clicca l’immagine per la versione ingrandita.
 

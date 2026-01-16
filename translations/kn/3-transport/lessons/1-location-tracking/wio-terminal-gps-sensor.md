@@ -27,13 +27,13 @@ Grove GPS ಸೆನ್ಸಾರ್ Wio ಟರ್ಮಿನಲ್‌ಗೆ ಸಂ�
 
 GPS ಸೆನ್ಸಾರ್ ಅನ್ನು ಸಂಪರ್ಕಿಸಿ.
 
-![A grove GPS sensor](../../../../../translated_images/kn/grove-gps-sensor.247943bf69b03f0d.png)
+![A grove GPS sensor](../../../../../translated_images/kn/grove-gps-sensor.247943bf69b03f0d.webp)
 
 1. Grove ಕೇಬಲ್‌ನ ಒಂದು ಭಾಗವನ್ನು GPS ಸೆನ್ಸಾರ್‌ನ ಸೊಕೆಟ್‌ಗೆ ಸೇರ್ಪಡೆ ಮಾಡಿ. ಇದು ಒಂದೇ ದಿಕ್ಕಿನಲ್ಲಿ ಮಾತ್ರ ಹೋಗುತ್ತದೆ.
 
 1. ನಿಮ್ಮ ಕಂಪ್ಯೂಟರ್ ಅಥವಾ ಇತರ ವಿದ್ಯುತ್ ಸರಬರಾಜಿನಿಂದ Wio ಟರ್ಮಿನಲ್ ಅನ್ನು ತೆಗೆದುಹಾಕಿ, Grove ಕೇಬಲ್‌ನ ಇನ್ನೊಂದು ಮೊದಲು Wio ಟರ್ಮಿನಲ್‌ನ ಎಡಭಾಗದ Grove ಸೊಕೆಟ್ ಗೆ ಸಂಪರ್ಕಿಸಿ, ಸ್ಕ್ರೀನ್ ನೋಡಿ. ಇದು ಪವರ್ ಬಟನ್‌ಗೆ ಸನ್ನಿಧಾನವಾದ ಸೊಕೆಟ್ ಆಗಿದೆ.
 
-    ![The grove GPS sensor connected to the left hand socket](../../../../../translated_images/kn/wio-gps-sensor.19fd52b81ce58095.png)
+    ![The grove GPS sensor connected to the left hand socket](../../../../../translated_images/kn/wio-gps-sensor.19fd52b81ce58095.webp)
 
 1. GPS ಸೆನ್ಸಾರ್ ಅನ್ನು ಅಲ್ಲಿಯ ಚಿಪ್ಪು ಪಂಬು ಆಕಾಶದ ಕಡೆಗೆ ವೀಕ್ಷಿಸುವಂತೆ ಸಿದ್ಧಪಡಿಸಿ - ಸಾಧ್ಯವಾದರೆ ತೆರೆಯಲಾದ ಜಾಗ ಅಥವಾ ಹೊರಗುಡಿಯತ್ತ. ಪಂಬು ಎದುರು ಯಾವುದೂ ಇಲ್ಲದಿದ್ದರೆ ಸ್ಪಷ್ಟವಾದ ಸಿಗ್ನಲ್ ಪಡೆಯುವುದು ಸುಲಭ.
 

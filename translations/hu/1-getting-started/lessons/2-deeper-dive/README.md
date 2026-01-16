@@ -41,7 +41,7 @@ Egy IoT alkalmazás két fő összetevője az *Internet* és a *dolog*. Nézzük
 
 ### A Dolog
 
-![Egy Raspberry Pi 4](../../../../../translated_images/hu/raspberry-pi-4.fd4590d308c3d456.jpg)
+![Egy Raspberry Pi 4](../../../../../translated_images/hu/raspberry-pi-4.fd4590d308c3d456.webp)
 
 Az IoT **Dolog** része egy olyan eszközt jelent, amely képes kölcsönhatásba lépni a fizikai világgal. Ezek az eszközök általában kicsi, alacsony árú számítógépek, amelyek alacsony sebességgel működnek és kevés energiát használnak - például egyszerű mikrokontrollerek, amelyek néhány kilobájt RAM-mal rendelkeznek (szemben a PC-k gigabájtjaival), és csak néhány száz megahertzen működnek (szemben a PC-k gigahertzes sebességével), de olyan kevés energiát fogyasztanak, hogy akár hetekig, hónapokig vagy évekig is működhetnek elemekkel.
 
@@ -67,7 +67,7 @@ Az okos termosztát példájánál maradva, a termosztát otthoni WiFi-n kereszt
 
 Egy még okosabb verzió mesterséges intelligenciát használhatna a felhőben, más IoT eszközökhöz csatlakozó érzékelők, például jelenlétérzékelők adataival, valamint időjárási adatokkal és akár a naptáraddal együtt, hogy intelligens módon állítsa be a hőmérsékletet. Például kikapcsolhatná a fűtést, ha a naptárad szerint nyaralni mész, vagy szobánként kapcsolhatná ki a fűtést attól függően, hogy melyik szobákat használod, az adatokból tanulva egyre pontosabbá válva az idő múlásával.
 
-![Egy diagram, amely bemutatja több hőmérséklet-érzékelőt és egy tárcsát, mint IoT eszköz bemeneteit, az IoT eszköz kétirányú kommunikációját a felhővel, amely szintén kétirányú kommunikációt folytat egy telefonnal, egy naptárral és egy időjárási szolgáltatással, valamint a fűtőberendezés vezérlését, mint az IoT eszköz kimenetét](../../../../../translated_images/hu/smarter-thermostat.a75855f15d2d9e63.png)
+![Egy diagram, amely bemutatja több hőmérséklet-érzékelőt és egy tárcsát, mint IoT eszköz bemeneteit, az IoT eszköz kétirányú kommunikációját a felhővel, amely szintén kétirányú kommunikációt folytat egy telefonnal, egy naptárral és egy időjárási szolgáltatással, valamint a fűtőberendezés vezérlését, mint az IoT eszköz kimenetét](../../../../../translated_images/hu/smarter-thermostat.a75855f15d2d9e63.webp)
 
 ✅ Milyen más adatok segíthetnének egy internethez csatlakozó termosztátot még okosabbá tenni?
 
@@ -117,7 +117,7 @@ A CPU-hoz hasonlóan a mikrokontrollerek memóriája nagyságrendekkel kisebb, m
 
 Az alábbi diagram szemlélteti a méretkülönbséget a 192KB és 8GB között - a középen lévő kis pont jelképezi a 192KB-ot.
 
-![Összehasonlítás a 192KB és 8GB között - több mint 40 000-szer nagyobb](../../../../../translated_images/hu/ram-comparison.6beb73541b42ac6f.png)
+![Összehasonlítás a 192KB és 8GB között - több mint 40 000-szer nagyobb](../../../../../translated_images/hu/ram-comparison.6beb73541b42ac6f.webp)
 
 A programtároló mérete szintén kisebb, mint egy PC esetében. Egy tipikus PC például 500GB-os merevlemezzel rendelkezik a programok tárolására, míg egy mikrokontroller csak kilobájtokkal vagy esetleg néhány megabájttal (MB) rendelkezik (1MB = 1 000KB, vagy 1 000 000 bájt). A Wio terminál 4MB programtárolóval rendelkezik.
 
@@ -193,17 +193,17 @@ Az előző leckében bemutattuk az egylapos számítógépeket. Most nézzük me
 
 ### Raspberry Pi
 
-![A Raspberry Pi logója](../../../../../translated_images/hu/raspberry-pi-logo.4efaa16605cee054.png)
+![A Raspberry Pi logója](../../../../../translated_images/hu/raspberry-pi-logo.4efaa16605cee054.webp)
 
 A [Raspberry Pi Foundation](https://www.raspberrypi.org) egy brit jótékonysági szervezet, amelyet 2009-ben alapítottak az informatika tanulmányozásának előmozdítására, különösen iskolai szinten. Ennek a küldetésnek a részeként kifejlesztettek egy egylapos számítógépet, amelyet Raspberry Pi-nek neveztek el. A Raspberry Pi jelenleg 3 változatban érhető el - egy teljes méretű verzióban, a kisebb Pi Zero-ban, és egy számítási modulban, amely beépíthető a végső IoT eszközbe.
 
-![Egy Raspberry Pi 4](../../../../../translated_images/hu/raspberry-pi-4.fd4590d308c3d456.jpg)
+![Egy Raspberry Pi 4](../../../../../translated_images/hu/raspberry-pi-4.fd4590d308c3d456.webp)
 
 A teljes méretű Raspberry Pi legújabb iterációja a Raspberry Pi 4B. Ez egy négymagos (4 magos) CPU-val rendelkezik, amely 1.5GHz-en fut, 2, 4 vagy 8GB RAM-mal, gigabites ethernettel, WiFi-vel, 2 HDMI porttal, amelyek 4k képernyőket támogatnak, egy audio- és kompozit videó kimeneti porttal, USB portokkal (2 USB 2.0, 2 USB 3.0), 40 GPIO tűvel, egy kamera csatlakozóval a Raspberry Pi kamera modulhoz, és egy SD kártya nyílással. Mindez egy 88mm x 58mm x 19.5mm méretű lapon, amelyet egy 3A USB-C tápegység működtet. Ezek ára 35 USD-tól kezdődik, ami sokkal olcsóbb, mint egy PC vagy Mac.
 
 > 💁 Létezik egy Pi400 all-in-one számítógép, amely egy Pi4-et tartalmaz egy billentyűzetbe építve.
 
-![Egy Raspberry Pi Zero](../../../../../translated_images/hu/raspberry-pi-zero.f7a4133e1e7d54bb.jpg)
+![Egy Raspberry Pi Zero](../../../../../translated_images/hu/raspberry-pi-zero.f7a4133e1e7d54bb.webp)
 
 A Pi Zero sokkal kisebb, alacsonyabb teljesítményű. Egy egymagos 1GHz-es CPU-val, 512MB RAM-mal, WiFi-vel (a Zero W modellben), egyetlen HDMI porttal, egy micro-USB porttal, 40 GPIO tűvel, egy kamera csatlakozóval a Raspberry Pi kamera modulhoz, és egy SD kártya nyílással rendelkezik. Mérete 65mm x 30mm x 5mm, és nagyon kevés energiát fogyaszt. A Zero ára 5 USD, a WiFi-vel rendelkező W verzió pedig 10 USD.
 

@@ -41,7 +41,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 ### 物件
 
-![Raspberry Pi 4](../../../../../translated_images/mo/raspberry-pi-4.fd4590d308c3d456.jpg)
+![Raspberry Pi 4](../../../../../translated_images/mo/raspberry-pi-4.fd4590d308c3d456.webp)
 
 物聯網中的 **物件** 指的是能與物理世界互動的設備。這些設備通常是小型、低成本的電腦，運行速度較低且功耗低。例如，簡單的微控制器僅有幾千字節的 RAM（而非 PC 的幾 GB），運行速度僅有幾百 MHz（而非 PC 的 GHz），但功耗極低，有時甚至可以用電池運行數週、數月甚至數年。
 
@@ -67,7 +67,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 更智能的版本可以使用雲端中的 AI，結合其他物聯網設備（如佔用感測器）連接的其他感測器數據，以及天氣和您的日曆等數據，智能地設置溫度。例如，如果日曆顯示您正在度假，它可以關閉加熱；或者根據您使用的房間逐一關閉加熱，並從數據中學習以越來越準確。
 
-![顯示多個溫度感測器和旋鈕作為物聯網設備輸入，物聯網設備與雲端的雙向通信，雲端與手機、日曆和天氣服務的雙向通信，以及加熱器控制作為物聯網設備輸出的圖示](../../../../../translated_images/mo/smarter-thermostat.a75855f15d2d9e63.png)
+![顯示多個溫度感測器和旋鈕作為物聯網設備輸入，物聯網設備與雲端的雙向通信，雲端與手機、日曆和天氣服務的雙向通信，以及加熱器控制作為物聯網設備輸出的圖示](../../../../../translated_images/mo/smarter-thermostat.a75855f15d2d9e63.webp)
 
 ✅ 還有哪些數據可以幫助使網際網路連接的恆溫器更智能？
 
@@ -135,7 +135,7 @@ RAM 是程序運行時使用的記憶體，包含程序分配的變數以及從�
 
 下圖顯示了 192KB 和 8GB 的相對大小差異——中心的小點代表 192KB。
 
-![192KB 和 8GB 的比較 - 超過 40,000 倍的差距](../../../../../translated_images/mo/ram-comparison.6beb73541b42ac6f.png)
+![192KB 和 8GB 的比較 - 超過 40,000 倍的差距](../../../../../translated_images/mo/ram-comparison.6beb73541b42ac6f.webp)
 
 程式存儲空間也比 PC 小。一台典型的 PC 可能有 500GB 的硬碟用於程式存儲，而微控制器可能只有幾千字節或幾百萬字節 (MB) 的存儲空間 (1MB 等於 1,000KB 或 1,000,000 字節)。Wio Terminal 擁有 4MB 的程式存儲空間。
 
@@ -211,17 +211,17 @@ Arduino 還有一個龐大的第三方函式庫生態系統，允許你為 Ardui
 
 ### Raspberry Pi
 
-![Raspberry Pi 標誌](../../../../../translated_images/mo/raspberry-pi-logo.4efaa16605cee054.png)
+![Raspberry Pi 標誌](../../../../../translated_images/mo/raspberry-pi-logo.4efaa16605cee054.webp)
 
 [Raspberry Pi 基金會](https://www.raspberrypi.org) 是一家來自英國的慈善機構，成立於 2009 年，旨在促進計算機科學的學習，特別是在學校層面。作為這一使命的一部分，他們開發了一款單板電腦，名為 Raspberry Pi。目前 Raspberry Pi 有三種版本——全尺寸版本、較小的 Pi Zero，以及可以嵌入最終 IoT 裝置中的計算模組。
 
-![Raspberry Pi 4](../../../../../translated_images/mo/raspberry-pi-4.fd4590d308c3d456.jpg)
+![Raspberry Pi 4](../../../../../translated_images/mo/raspberry-pi-4.fd4590d308c3d456.webp)
 
 最新的全尺寸 Raspberry Pi 是 Raspberry Pi 4B。它擁有一個四核心 (4 核心) CPU，運行速度為 1.5GHz，2GB、4GB 或 8GB 的 RAM，千兆乙太網、WiFi、2 個支援 4k 螢幕的 HDMI 接口、一個音頻和複合視頻輸出接口、USB 接口 (2 個 USB 2.0 和 2 個 USB 3.0)、40 個 GPIO 接腳、一個 Raspberry Pi 相機模組的相機接口，以及一個 SD 卡插槽。所有這些都集成在一塊 88mm x 58mm x 19.5mm 的電路板上，並由 3A USB-C 電源供電。這些起價為 35 美元，比 PC 或 Mac 便宜得多。
 
 > 💁 還有一款 Pi400 一體式電腦，將 Pi4 集成到鍵盤中。
 
-![Raspberry Pi Zero](../../../../../translated_images/mo/raspberry-pi-zero.f7a4133e1e7d54bb.jpg)
+![Raspberry Pi Zero](../../../../../translated_images/mo/raspberry-pi-zero.f7a4133e1e7d54bb.webp)
 
 Pi Zero 更小，功耗更低。它擁有一個單核心 1GHz CPU，512MB 的 RAM，WiFi (在 Zero W 型號中)，一個 HDMI 接口、一個 micro-USB 接口、40 個 GPIO 接腳、一個 Raspberry Pi 相機模組的相機接口，以及一個 SD 卡插槽。它的尺寸為 65mm x 30mm x 5mm，功耗非常低。Zero 售價 5 美元，帶 WiFi 的 W 型號售價 10 美元。
 

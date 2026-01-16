@@ -126,7 +126,7 @@ Miután az entitásokat definiáltad, létrehozod a szándékokat. Ezeket a mode
 
 Ezután megmondod a LUIS-nak, hogy ezeknek a mondatoknak mely részei felelnek meg az entitásoknak:
 
-![A mondat, állíts be egy időzítőt 1 perc és 12 másodpercre, entitásokra bontva](../../../../../translated_images/hu/sentence-as-intent-entities.301401696f992259.png)
+![A mondat, állíts be egy időzítőt 1 perc és 12 másodpercre, entitásokra bontva](../../../../../translated_images/hu/sentence-as-intent-entities.301401696f992259.webp)
 
 A mondat `állíts be egy időzítőt 1 perc és 12 másodpercre` szándéka `időzítő beállítása`. Emellett 2 entitása van, mindegyik 2 értékkel:
 

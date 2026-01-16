@@ -75,7 +75,7 @@ Neki od najosnovnijih senzora su analogni senzori. Ovi senzori primaju napon od 
 
 Jedan primjer je potenciometar. To je kotačić koji možete rotirati između dvije pozicije, a senzor mjeri rotaciju.
 
-![Potenciometar postavljen na srednju točku, primajući 5 volti i vraćajući 3,8 volti](../../../../../translated_images/hr/potentiometer.35a348b9ce22f6ec.png)
+![Potenciometar postavljen na srednju točku, primajući 5 volti i vraćajući 3,8 volti](../../../../../translated_images/hr/potentiometer.35a348b9ce22f6ec.webp)
 
 IoT uređaj šalje električni signal potenciometru na određenom naponu, poput 5 volti (5V). Kako se potenciometar prilagođava, mijenja napon koji izlazi s druge strane. Zamislite da imate potenciometar označen kao kotačić koji ide od 0 do [11](https://wikipedia.org/wiki/Up_to_eleven), poput gumba za glasnoću na pojačalu. Kada je potenciometar u potpuno isključenom položaju (0), izlazi 0V (0 volti). Kada je u potpuno uključenom položaju (11), izlazi 5V (5 volti).
 
@@ -112,7 +112,7 @@ Pinovi na IoT uređajima poput GPIO pinova mogu izravno mjeriti ovaj signal kao 
 
 Napredniji digitalni senzori očitavaju analogne vrijednosti, a zatim ih pretvaraju pomoću ugrađenih ADC-a u digitalne signale. Na primjer, digitalni senzor temperature i dalje koristi termoelement na isti način kao analogni senzor, i dalje mjeri promjenu napona uzrokovanu otporom termoelementa na trenutnoj temperaturi. Umjesto da vraća analognu vrijednost i oslanja se na uređaj ili konektorsku ploču za pretvorbu u digitalni signal, ADC ugrađen u senzor pretvara vrijednost i šalje je kao niz 0 i 1 IoT uređaju. Ovi 0 i 1 šalju se na isti način kao digitalni signal za tipku, pri čemu je 1 puni napon, a 0 je 0V.
 
-![Digitalni senzor temperature pretvara analogno očitanje u binarne podatke s 0 kao 0 volti i 1 kao 5 volti prije slanja IoT uređaju](../../../../../translated_images/hr/temperature-as-digital.85004491b977bae1.png)
+![Digitalni senzor temperature pretvara analogno očitanje u binarne podatke s 0 kao 0 volti i 1 kao 5 volti prije slanja IoT uređaju](../../../../../translated_images/hr/temperature-as-digital.85004491b977bae1.webp)
 
 Slanje digitalnih podataka omogućuje senzorima da postanu složeniji i šalju detaljnije podatke, čak i šifrirane podatke za sigurne senzore. Jedan primjer je kamera. To je senzor koji snima sliku i šalje je kao digitalne podatke koji sadrže tu sliku, obično u komprimiranom formatu poput JPEG-a, kako bi ih pročitao IoT uređaj. Može čak i streamati video snimanjem slika i slanjem ili kompletne slike okvir po okvir ili komprimiranog video streama.
 
@@ -164,7 +164,7 @@ Na primjer, PWM možete koristiti za kontrolu brzine motora.
 
 Zamislite da kontrolirate motor s napajanjem od 5V. Pošaljete kratki impuls svom motoru, prebacujući napon na visoki (5V) na dvije stotinke sekunde (0,02s). U tom vremenu vaš motor može napraviti jednu desetinu okreta, ili 36°. Signal se zatim pauzira na dvije stotinke sekunde (0,02s), šaljući niski signal (0V). Svaki ciklus uključivanja i isključivanja traje 0,04s. Ciklus se zatim ponavlja.
 
-![Modulacija širine impulsa rotacija motora na 150 RPM](../../../../../translated_images/hr/pwm-motor-150rpm.83347ac04ca38482.png)
+![Modulacija širine impulsa rotacija motora na 150 RPM](../../../../../translated_images/hr/pwm-motor-150rpm.83347ac04ca38482.webp)
 
 To znači da u jednoj sekundi imate 25 impulsa od 5V koji traju 0,02s i rotiraju motor, svaki praćen pauzom od 0,02s na 0V kada motor ne rotira. Svaki impuls rotira motor za jednu desetinu okreta, što znači da motor završi 2,5 okreta u sekundi. Koristili ste digitalni signal za rotaciju motora na 2,5 okreta u sekundi, ili 150 [okreta u minuti](https://wikipedia.org/wiki/Revolutions_per_minute) (ne-standardna mjera brzine rotacije).
 
@@ -175,7 +175,7 @@ To znači da u jednoj sekundi imate 25 impulsa od 5V koji traju 0,02s i rotiraju
 
 > 🎓 Kada je PWM signal uključen pola vremena, a isključen pola vremena, to se naziva [radni ciklus od 50%](https://wikipedia.org/wiki/Duty_cycle). Radni ciklusi se mjere kao postotak vremena kada je signal u stanju uključen u odnosu na stanje isključen.
 
-![Modulacija širine impulsa rotacija motora na 75 RPM](../../../../../translated_images/hr/pwm-motor-75rpm.a5e4c939934b6e14.png)
+![Modulacija širine impulsa rotacija motora na 75 RPM](../../../../../translated_images/hr/pwm-motor-75rpm.a5e4c939934b6e14.webp)
 
 Brzinu motora možete promijeniti promjenom veličine impulsa. Na primjer, s istim motorom možete zadržati isto vrijeme ciklusa od 0,04s, s impulsom uključenim prepolovljenim na 0,01s, dok se impuls isključen povećava na 0,03s. Imate isti broj impulsa po sekundi (25), ali svaki impuls uključen je upola kraći. Impuls upola kraći okreće motor za jednu dvadesetinu okreta, a pri 25 impulsa u sekundi motor će završiti 1,25 okreta u sekundi ili 75 okreta u minuti. Promjenom brzine impulsa digitalnog signala prepolovili ste brzinu analognog motora.
 

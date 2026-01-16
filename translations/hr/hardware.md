@@ -21,7 +21,7 @@ Također će vam trebati nekoliko netehničkih predmeta, poput zemlje ili sobne 
 
 ## Kupnja kompleta
 
-![Logotip Seeed Studios](../../translated_images/hr/seeed-logo.74732b6b482b6e8e.png)
+![Logotip Seeed Studios](../../translated_images/hr/seeed-logo.74732b6b482b6e8e.webp)
 
 Seeed Studios su vrlo ljubazno omogućili da sav hardver bude dostupan u obliku lako dostupnih kompleta:
 
@@ -29,7 +29,7 @@ Seeed Studios su vrlo ljubazno omogućili da sav hardver bude dostupan u obliku 
 
 **[IoT za početnike sa Seeed i Microsoft - Wio Terminal Starter Kit](https://www.seeedstudio.com/IoT-for-beginners-with-Seeed-and-Microsoft-Wio-Terminal-Starter-Kit-p-5006.html)**
 
-[![Komplet hardvera Wio Terminal](../../translated_images/hr/wio-hardware-kit.4c70c48b85e4283a.png)](https://www.seeedstudio.com/IoT-for-beginners-with-Seeed-and-Microsoft-Wio-Terminal-Starter-Kit-p-5006.html)
+[![Komplet hardvera Wio Terminal](../../translated_images/hr/wio-hardware-kit.4c70c48b85e4283a.webp)](https://www.seeedstudio.com/IoT-for-beginners-with-Seeed-and-Microsoft-Wio-Terminal-Starter-Kit-p-5006.html)
 
 ### Raspberry Pi
 

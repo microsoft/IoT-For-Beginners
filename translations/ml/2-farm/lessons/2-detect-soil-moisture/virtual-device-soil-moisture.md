@@ -43,11 +43,11 @@ CO_OP_TRANSLATOR_METADATA:
 
     1. *Add* ബട്ടൺ സെലക്റ്റ് ചെയ്ത് Pin 0-ൽ *Soil Moisture* സെൻസർ സൃഷ്ടിക്കുക
 
-    ![The soil moisture sensor settings](../../../../../translated_images/ml/counterfit-create-soil-moisture-sensor.35266135a5e0ae68.png)
+    ![The soil moisture sensor settings](../../../../../translated_images/ml/counterfit-create-soil-moisture-sensor.35266135a5e0ae68.webp)
 
     മൺമാവ് ഈർപ്പം സെൻസർ സൃഷ്ടിക്കപ്പെട്ട് സെൻസറുകളുടെ പട്ടികയിൽ പ്രത്യക്ഷപ്പെടും.
 
-    ![The soil moisture sensor created](../../../../../translated_images/ml/counterfit-soil-moisture-sensor.81742b2de0e9de60.png)
+    ![The soil moisture sensor created](../../../../../translated_images/ml/counterfit-soil-moisture-sensor.81742b2de0e9de60.webp)
 
 ## മൺമാവ് ഈർപ്പം സെൻസർ ആപ്പ് പ്രോഗ്രാം ചെയ്യുക
 

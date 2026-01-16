@@ -13,7 +13,7 @@ Az előrejelzések és a körülöttük lévő határoló dobozok kombinációja
 
 ## Készlet számlálása
 
-![4 paradicsompüré konzerv határoló dobozokkal körülvéve](../../../../../translated_images/hu/rpi-stock-with-bounding-boxes.b5540e2ecb7cd49f.jpg)
+![4 paradicsompüré konzerv határoló dobozokkal körülvéve](../../../../../translated_images/hu/rpi-stock-with-bounding-boxes.b5540e2ecb7cd49f.webp)
 
 A fenti képen a határoló dobozok kissé átfedik egymást. Ha ez az átfedés sokkal nagyobb lenne, akkor a határoló dobozok ugyanarra az objektumra utalhatnának. Az objektumok helyes megszámlálásához figyelmen kívül kell hagyni azokat a dobozokat, amelyek jelentős átfedéssel rendelkeznek.
 

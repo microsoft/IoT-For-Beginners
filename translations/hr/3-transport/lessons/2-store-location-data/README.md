@@ -66,7 +66,7 @@ Baze podataka su usluge koje omogućuju pohranu i upite podataka. Baze podataka 
 
 Prve baze podataka bile su sustavi za upravljanje relacijskim bazama podataka (RDBMS), ili relacijske baze podataka. Također su poznate kao SQL baze podataka prema jeziku Structured Query Language (SQL) koji se koristi za interakciju s njima radi dodavanja, uklanjanja, ažuriranja ili upita podataka. Ove baze podataka sastoje se od sheme - dobro definiranog skupa tablica podataka, sličnog proračunskoj tablici. Svaka tablica ima više imenovanih stupaca. Kada unosite podatke, dodajete redak u tablicu, stavljajući vrijednosti u svaki od stupaca. To održava podatke u vrlo krutoj strukturi - iako možete ostaviti stupce prazne, ako želite dodati novi stupac, morate to učiniti na bazi podataka, popunjavajući vrijednosti za postojeće retke. Ove baze podataka su relacijske - u smislu da jedna tablica može imati odnos prema drugoj.
 
-![Relacijska baza podataka s ID-om tablice korisnika koji se odnosi na stupac ID korisnika tablice kupovina, i ID-om tablice proizvoda koji se odnosi na ID proizvoda tablice kupovina](../../../../../translated_images/hr/sql-database.be160f12bfccefd3.png)
+![Relacijska baza podataka s ID-om tablice korisnika koji se odnosi na stupac ID korisnika tablice kupovina, i ID-om tablice proizvoda koji se odnosi na ID proizvoda tablice kupovina](../../../../../translated_images/hr/sql-database.be160f12bfccefd3.webp)
 
 Na primjer, ako pohranjujete osobne podatke korisnika u tablicu, imali biste neku vrstu internog jedinstvenog ID-a po korisniku koji se koristi u retku u tablici koja sadrži ime i adresu korisnika. Ako zatim želite pohraniti druge detalje o tom korisniku, poput njegovih kupovina, u drugu tablicu, imali biste jedan stupac u novoj tablici za ID tog korisnika. Kada tražite korisnika, možete koristiti njegov ID za dobivanje osobnih podataka iz jedne tablice i njegovih kupovina iz druge.
 
@@ -241,7 +241,7 @@ Vaša funkcijska aplikacija sada treba povezati blob pohranu kako bi pohranjival
 
 U ovoj lekciji koristit ćete Python SDK kako biste vidjeli kako raditi s blob pohranom.
 
-![Slanje GPS telemetrije s IoT uređaja na IoT Hub, zatim na Azure Functions putem okidača Event Hub-a, pa spremanje u blob pohranu](../../../../../translated_images/hr/save-telemetry-to-storage-from-functions.ed3b1820980097f1.png)
+![Slanje GPS telemetrije s IoT uređaja na IoT Hub, zatim na Azure Functions putem okidača Event Hub-a, pa spremanje u blob pohranu](../../../../../translated_images/hr/save-telemetry-to-storage-from-functions.ed3b1820980097f1.webp)
 
 Podaci će biti pohranjeni kao JSON blob u sljedećem formatu:
 

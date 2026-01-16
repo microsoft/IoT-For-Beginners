@@ -15,11 +15,11 @@ CO_OP_TRANSLATOR_METADATA:
 
 Wio Terminal jau turi įmontuotą mikrofoną, kuris gali būti naudojamas garso įrašymui ir kalbos atpažinimui.
 
-![Mikrofonas Wio Terminal](../../../../../translated_images/lt/wio-mic.3f8c843dbe8ad917.png)
+![Mikrofonas Wio Terminal](../../../../../translated_images/lt/wio-mic.3f8c843dbe8ad917.webp)
 
 Norėdami pridėti garsiakalbį, galite naudoti [ReSpeaker 2-Mics Pi Hat](https://www.seeedstudio.com/ReSpeaker-2-Mics-Pi-HAT.html). Tai yra išorinė plokštė, kurioje yra 2 MEMS mikrofonai, taip pat garsiakalbio jungtis ir ausinių lizdas.
 
-![ReSpeaker 2-Mics Pi Hat](../../../../../translated_images/lt/respeaker.f5d19d1c6b14ab16.png)
+![ReSpeaker 2-Mics Pi Hat](../../../../../translated_images/lt/respeaker.f5d19d1c6b14ab16.webp)
 
 Jums reikės prijungti ausines, garsiakalbį su 3,5 mm jungtimi arba garsiakalbį su JST jungtimi, pavyzdžiui, [Mono Enclosed Speaker - 2W 6 Ohm](https://www.seeedstudio.com/Mono-Enclosed-Speaker-2W-6-Ohm-p-2832.html).
 
@@ -35,7 +35,7 @@ Jums taip pat reikės SD kortelės, kad galėtumėte atsisiųsti ir atkurti gars
 
     Pinai turi būti prijungti taip:
 
-    ![Pinų diagrama](../../../../../translated_images/lt/wio-respeaker-wiring-0.767f80aa65081038.png)
+    ![Pinų diagrama](../../../../../translated_images/lt/wio-respeaker-wiring-0.767f80aa65081038.webp)
 
 1. Padėkite ReSpeaker ir Wio Terminal taip, kad GPIO lizdai būtų nukreipti į viršų ir būtų kairėje pusėje.
 
@@ -43,33 +43,33 @@ Jums taip pat reikės SD kortelės, kad galėtumėte atsisiųsti ir atkurti gars
 
 1. Kartokite šį veiksmą per visus GPIO lizdus kairėje pusėje. Įsitikinkite, kad pinai tvirtai įstatyti.
 
-    ![ReSpeaker su prijungtais kairiaisiais GPIO lizdais prie Wio Terminal kairiųjų GPIO lizdų](../../../../../translated_images/lt/wio-respeaker-wiring-1.8d894727f2ba2400.png)
+    ![ReSpeaker su prijungtais kairiaisiais GPIO lizdais prie Wio Terminal kairiųjų GPIO lizdų](../../../../../translated_images/lt/wio-respeaker-wiring-1.8d894727f2ba2400.webp)
 
-    ![ReSpeaker su prijungtais kairiaisiais GPIO lizdais prie Wio Terminal kairiųjų GPIO lizdų](../../../../../translated_images/lt/wio-respeaker-wiring-2.329e1cbd306e754f.png)
+    ![ReSpeaker su prijungtais kairiaisiais GPIO lizdais prie Wio Terminal kairiųjų GPIO lizdų](../../../../../translated_images/lt/wio-respeaker-wiring-2.329e1cbd306e754f.webp)
 
     > 💁 Jei jūsų jungiamieji laidai yra sujungti į juosteles, laikykite juos kartu - tai padės užtikrinti, kad visi laidai būtų prijungti teisinga tvarka.
 
 1. Pakartokite procesą naudodami dešiniuosius GPIO lizdus ReSpeaker ir Wio Terminal. Šie laidai turi būti pervesti aplink jau prijungtus laidus.
 
-    ![ReSpeaker su prijungtais dešiniaisiais GPIO lizdais prie Wio Terminal dešiniųjų GPIO lizdų](../../../../../translated_images/lt/wio-respeaker-wiring-3.75b0be447e2fa930.png)
+    ![ReSpeaker su prijungtais dešiniaisiais GPIO lizdais prie Wio Terminal dešiniųjų GPIO lizdų](../../../../../translated_images/lt/wio-respeaker-wiring-3.75b0be447e2fa930.webp)
 
-    ![ReSpeaker su prijungtais dešiniaisiais GPIO lizdais prie Wio Terminal dešiniųjų GPIO lizdų](../../../../../translated_images/lt/wio-respeaker-wiring-4.aa9cd434d8779437.png)
+    ![ReSpeaker su prijungtais dešiniaisiais GPIO lizdais prie Wio Terminal dešiniųjų GPIO lizdų](../../../../../translated_images/lt/wio-respeaker-wiring-4.aa9cd434d8779437.webp)
 
     > 💁 Jei jūsų jungiamieji laidai yra sujungti į juosteles, padalykite juos į dvi juosteles. Vieną perveskite per vieną pusę, kitą - per kitą.
 
     > 💁 Galite naudoti lipnią juostą, kad pritvirtintumėte pinus į bloką ir išvengtumėte jų iškritimo jungiant.
 
-    > ![Pinai pritvirtinti lipnia juosta](../../../../../translated_images/lt/wio-respeaker-wiring-5.af117c20acf622f3.png)
+    > ![Pinai pritvirtinti lipnia juosta](../../../../../translated_images/lt/wio-respeaker-wiring-5.af117c20acf622f3.webp)
 
 1. Jums reikės pridėti garsiakalbį.
 
     * Jei naudojate garsiakalbį su JST kabeliu, prijunkite jį prie JST lizdo ReSpeaker.
 
-      ![Garsiakalbis prijungtas prie ReSpeaker su JST kabeliu](../../../../../translated_images/lt/respeaker-jst-speaker.a441d177809df945.png)
+      ![Garsiakalbis prijungtas prie ReSpeaker su JST kabeliu](../../../../../translated_images/lt/respeaker-jst-speaker.a441d177809df945.webp)
 
     * Jei naudojate garsiakalbį su 3,5 mm jungtimi arba ausines, įstatykite jas į 3,5 mm lizdą.
 
-      ![Garsiakalbis prijungtas prie ReSpeaker per 3,5 mm lizdą](../../../../../translated_images/lt/respeaker-35mm-speaker.ad79ef4f128c7751.png)
+      ![Garsiakalbis prijungtas prie ReSpeaker per 3,5 mm lizdą](../../../../../translated_images/lt/respeaker-35mm-speaker.ad79ef4f128c7751.webp)
 
 ### Užduotis - paruoškite SD kortelę
 
@@ -79,7 +79,7 @@ Jums taip pat reikės SD kortelės, kad galėtumėte atsisiųsti ir atkurti gars
 
 1. Įstatykite SD kortelę į SD kortelės lizdą Wio Terminal kairėje pusėje, tiesiai po įjungimo mygtuku. Įsitikinkite, kad kortelė visiškai įstatyta ir spragtelėjo - jums gali prireikti plono įrankio arba kitos SD kortelės, kad ją visiškai įstumtumėte.
 
-    ![SD kortelės įstatymas į SD kortelės lizdą po įjungimo mygtuku](../../../../../translated_images/lt/wio-sd-card.acdcbe322fa4ee7f.png)
+    ![SD kortelės įstatymas į SD kortelės lizdą po įjungimo mygtuku](../../../../../translated_images/lt/wio-sd-card.acdcbe322fa4ee7f.webp)
 
     > 💁 Norėdami išimti SD kortelę, turite ją šiek tiek įstumti, kad ji iššoktų. Tam gali prireikti plono įrankio, pavyzdžiui, plokščio atsuktuvo arba kitos SD kortelės.
 

@@ -41,7 +41,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 > 💁 以前にデータベーストリガーを使用したことがある場合、これは同じようなものと考えられます。例えば、行を挿入するなどのイベントによってコードがトリガーされます。
 
-![多くのイベントが同時に送信されると、サーバーレスサービスがスケールアップしてすべてを同時に実行する様子](../../../../../translated_images/ja/serverless-scaling.f8c769adf0413fd1.png)
+![多くのイベントが同時に送信されると、サーバーレスサービスがスケールアップしてすべてを同時に実行する様子](../../../../../translated_images/ja/serverless-scaling.f8c769adf0413fd1.webp)
 
 コードはイベントが発生したときにのみ実行され、それ以外の時間はコードがアクティブではありません。イベントが発生するとコードがロードされて実行されます。この仕組みにより、サーバーレスは非常にスケーラブルです。同時に多くのイベントが発生した場合、クラウドプロバイダーは必要な数だけ関数を同時に実行し、利用可能なサーバーで処理します。ただし、イベント間で情報を共有する必要がある場合は、メモリではなくデータベースなどに保存する必要があります。
 
@@ -244,7 +244,7 @@ Azure Functions CLIを使用して、新しいFunctionsアプリを作成でき�
     VS Code. Initialize for optimal use with VS Code?
     ```
 
-    ![通知](../../../../../translated_images/ja/vscode-azure-functions-init-notification.bd19b49229963edb.png)
+    ![通知](../../../../../translated_images/ja/vscode-azure-functions-init-notification.bd19b49229963edb.webp)
 
     この通知から**Yes**を選択してください。
 

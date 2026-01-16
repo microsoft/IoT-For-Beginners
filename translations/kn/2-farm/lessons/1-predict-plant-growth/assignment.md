@@ -42,7 +42,7 @@ CO_OP_TRANSLATOR_METADATA:
 
     Jupyter ಪ್ರಾರಂಭವಾಗುತ್ತದೆ ಮತ್ತು ನಿಮ್ಮ ಬ್ರೌಸರ್‌ನಲ್ಲಿ ನೋಟುಬುಕ್ ತೆರೆಯುತ್ತದೆ. ನೋಟುಬುಕ್‌ನ ಸೂಚನೆಗಳನ್ನು ಅನುಸರಿಸಿ ತಾಪಮಾನಗಳನ್ನು ದೃಶ್ಯೀಕರಿಸಿ, ಫಳವಂತೆ ಜವಾಬ್ದಾರಿಯಾಗಿರುವ ಹೆಚ್ಚುವರಿ ಗಿಡದ ದಿನಗಳನ್ನು ಲೆಕ್ಕಿಸಿ.
 
-    ![The jupyter notebook](../../../../../translated_images/kn/gdd-jupyter-notebook.c5b52cf21094f158.png)
+    ![The jupyter notebook](../../../../../translated_images/kn/gdd-jupyter-notebook.c5b52cf21094f158.webp)
 
 ## ಮೌಲ્યાંಕನ ಮಾಗ್ದರ್ಶನ
 

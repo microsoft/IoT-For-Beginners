@@ -115,7 +115,7 @@ Prototipui įgyvendinsite viską viename įrenginyje. Jei naudojate mikrovaldikl
 
 IoT įrenginiui reikia tam tikro paleidimo mechanizmo, kuris nurodytų, kada vaisius yra pasiruošęs klasifikacijai. Vienas iš paleidimo mechanizmų galėtų būti vaisiaus vietos ant konvejerio juostos matavimas naudojant atstumo jutiklį.
 
-![Artumo jutikliai siunčia lazerio spindulius į objektus, tokius kaip bananai, ir matuoja laiką, per kurį spindulys atsispindi](../../../../../translated_images/lt/proximity-sensor.f5cd752c77fb62fe.png)
+![Artumo jutikliai siunčia lazerio spindulius į objektus, tokius kaip bananai, ir matuoja laiką, per kurį spindulys atsispindi](../../../../../translated_images/lt/proximity-sensor.f5cd752c77fb62fe.webp)
 
 Artumo jutikliai gali būti naudojami atstumui nuo jutiklio iki objekto matavimui. Jie paprastai perduoda elektromagnetinės spinduliuotės, tokios kaip lazerio spindulys ar infraraudonųjų spindulių šviesa, pluoštą, tada aptinka spinduliuotę, atsispindėjusią nuo objekto. Laikas tarp lazerio spindulio siuntimo ir signalo atsispindėjimo gali būti naudojamas atstumui iki jutiklio apskaičiuoti.
 

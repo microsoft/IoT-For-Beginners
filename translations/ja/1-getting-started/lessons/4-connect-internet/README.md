@@ -46,7 +46,7 @@ IoTデバイスはクラウドからメッセージを受信することもで�
 
 IoTデバイスがインターネットと通信するために使用する一般的な通信プロトコルはいくつかあります。最も一般的なのは、ブローカーを介したパブリッシュ/サブスクライブ型のメッセージングに基づいています。IoTデバイスはブローカーに接続し、テレメトリを公開（パブリッシュ）し、コマンドを購読（サブスクライブ）します。クラウドサービスもブローカーに接続し、すべてのテレメトリメッセージを購読し、特定のデバイスまたはデバイスグループにコマンドを公開します。
 
-![IoTデバイスがブローカーに接続し、テレメトリを公開し、コマンドを購読する。クラウドサービスがブローカーに接続し、すべてのテレメトリを購読し、特定のデバイスにコマンドを送信する。](../../../../../translated_images/ja/pub-sub.7c7ed43fe9fd15d4.png)
+![IoTデバイスがブローカーに接続し、テレメトリを公開し、コマンドを購読する。クラウドサービスがブローカーに接続し、すべてのテレメトリを購読し、特定のデバイスにコマンドを送信する。](../../../../../translated_images/ja/pub-sub.7c7ed43fe9fd15d4.webp)
 
 MQTTはIoTデバイスに最も人気のある通信プロトコルであり、このレッスンで取り上げます。他のプロトコルにはAMQPやHTTP/HTTPSがあります。
 
@@ -115,7 +115,7 @@ MQTT接続は公開されてオープンなもの、またはユーザー名と�
 
 レッスン1で紹介したスマートサーモスタットの例を振り返ってみましょう。
 
-![複数の部屋センサーを使用するインターネット接続サーモスタット](../../../../../translated_images/ja/telemetry.21e5d8b97649d2eb.png)
+![複数の部屋センサーを使用するインターネット接続サーモスタット](../../../../../translated_images/ja/telemetry.21e5d8b97649d2eb.webp)
 
 サーモスタットには、テレメトリを収集するための温度センサーがあります。おそらく1つの温度センサーが内蔵されており、[Bluetooth Low Energy](https://wikipedia.org/wiki/Bluetooth_Low_Energy)（BLE）などの無線プロトコルを介して複数の外部温度センサーに接続する可能性があります。
 
@@ -261,11 +261,11 @@ Python仮想環境を設定し、MQTT用のpipパッケージをインストー�
 
 1. VS Codeが起動すると、Python仮想環境が有効化されます。これは、下部のステータスバーに表示されます：
 
-    ![VS Code showing the selected virtual environment](../../../../../translated_images/ja/vscode-virtual-env.8ba42e04c3d533cf.png)
+    ![VS Code showing the selected virtual environment](../../../../../translated_images/ja/vscode-virtual-env.8ba42e04c3d533cf.webp)
 
 1. VS Codeのターミナルがすでに起動している場合、仮想環境が有効化されていないことがあります。この場合、**Kill the active terminal instance**ボタンを使用してターミナルを終了するのが最も簡単です：
 
-    ![VS Code Kill the active terminal instance button](../../../../../translated_images/ja/vscode-kill-terminal.1cc4de7c6f25ee08.png)
+    ![VS Code Kill the active terminal instance button](../../../../../translated_images/ja/vscode-kill-terminal.1cc4de7c6f25ee08.webp)
 
 1. *Terminal -> New Terminal*を選択するか、`` CTRL+` ``を押して新しいVS Codeターミナルを起動します。新しいターミナルでは仮想環境がロードされ、ターミナルに有効化コマンドが表示されます。プロンプトには仮想環境の名前（`.venv`）も表示されます：
 

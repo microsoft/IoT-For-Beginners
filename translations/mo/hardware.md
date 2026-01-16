@@ -21,7 +21,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 ## 購買套件
 
-![Seeed Studios 標誌](../../translated_images/mo/seeed-logo.74732b6b482b6e8e.png)
+![Seeed Studios 標誌](../../translated_images/mo/seeed-logo.74732b6b482b6e8e.webp)
 
 Seeed Studios 非常貼心地將所有硬體整合成易於購買的套件：
 
@@ -29,7 +29,7 @@ Seeed Studios 非常貼心地將所有硬體整合成易於購買的套件：
 
 **[適用於初學者的 IoT：Seeed 與 Microsoft 合作推出的 Wio Terminal 入門套件](https://www.seeedstudio.com/IoT-for-beginners-with-Seeed-and-Microsoft-Wio-Terminal-Starter-Kit-p-5006.html)**
 
-[![Wio Terminal 硬體套件](../../translated_images/mo/wio-hardware-kit.4c70c48b85e4283a.png)](https://www.seeedstudio.com/IoT-for-beginners-with-Seeed-and-Microsoft-Wio-Terminal-Starter-Kit-p-5006.html)
+[![Wio Terminal 硬體套件](../../translated_images/mo/wio-hardware-kit.4c70c48b85e4283a.webp)](https://www.seeedstudio.com/IoT-for-beginners-with-Seeed-and-Microsoft-Wio-Terminal-Starter-Kit-p-5006.html)
 
 ### Raspberry Pi
 

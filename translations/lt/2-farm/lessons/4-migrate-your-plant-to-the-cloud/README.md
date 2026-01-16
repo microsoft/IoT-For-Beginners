@@ -72,7 +72,7 @@ Debesų teikėjas gali naudoti masto ekonomiją, kad sumažintų išlaidas, pirk
 
 Azure yra Microsoft debesų platforma, kurią naudosite šiose pamokose. Žemiau pateiktas trumpas Azure apžvalgos vaizdo įrašas:
 
-[![Azure apžvalgos vaizdo įrašas](../../../../../translated_images/lt/what-is-azure-video-thumbnail.20174db09e03bbb8.png)](https://www.microsoft.com/videoplayer/embed/RE4Ibng?WT.mc_id=academic-17441-jabenn)
+[![Azure apžvalgos vaizdo įrašas](../../../../../translated_images/lt/what-is-azure-video-thumbnail.20174db09e03bbb8.webp)](https://www.microsoft.com/videoplayer/embed/RE4Ibng?WT.mc_id=academic-17441-jabenn)
 
 ## Sukurkite debesies prenumeratą
 

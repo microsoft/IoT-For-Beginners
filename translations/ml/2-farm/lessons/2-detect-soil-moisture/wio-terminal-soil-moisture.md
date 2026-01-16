@@ -27,17 +27,17 @@ Grove മണ്ണ് ഈർപ്പം സെൻസർ Wio ടെർമിന�
 
 മണ്ണ് ഈർപ്പം സെൻസർ ബന്ധിപ്പിക്കുക.
 
-![A grove soil moisture sensor](../../../../../translated_images/ml/grove-capacitive-soil-moisture-sensor.e7f0776cce30e78b.png)
+![A grove soil moisture sensor](../../../../../translated_images/ml/grove-capacitive-soil-moisture-sensor.e7f0776cce30e78b.webp)
 
 1. Grove കേബിളിന്റെ ഒരു ആخيൾ മണ്ണ് ഈർപ്പം സെൻസറിലെ സോക്കറ്റിലേക്ക് സെർത്ത് കൊള്ളുക. ഇത് ഒരു ദിശയിൽ മാത്രമേ പോയിപ്പോകൂ.
 
 1. Wio ടെർമിനൽ നിങ്ങളുടെ കമ്പ്യൂട്ടറിലോ മറ്റേതെങ്കിലും പവർ സപ്ലൈയിലോ നിന്ന് വേർപെടുത്തിയിരിക്കുമ്പോൾ, Grove കേബിളിന്റെ മറുപുറം Wio ടെർമിനലിന്റെ സ്ക്രീനിനെ കാണുമ്പോൾ വലത് വശത്തുള്ള Grove സോക്കറ്റിലേക്ക് ബന്ധിപ്പിക്കുക. ഇത് പവർ ബട്ടണിൽനിന്ന് ഏറ്റവും ദൂരത്തുള്ള സോക്കറ്റാണ്.
 
-![The grove soil moisture sensor connected to the right hand socket](../../../../../translated_images/ml/wio-soil-moisture-sensor.46919b61c3f6cb74.png)
+![The grove soil moisture sensor connected to the right hand socket](../../../../../translated_images/ml/wio-soil-moisture-sensor.46919b61c3f6cb74.webp)
 
 1. മണ്ണിൽ സെൻസർ ചേർക്കുക. അതിനൊരു 'ഉയർന്ന സ്ഥാനം രേഖ' ഉണ്ട് - സെൻസറിനാകെയുള്ള വെളുപ്പുള്ള ഒരു രേഖ. ഈ രേഖയ്ക്ക് മുകളിൽ അല്ലാതെ രേഖ വരെ മാത്രം സെൻസർ ചേർക്കുക.
 
-![The grove soil moisture sensor in soil](../../../../../translated_images/ml/soil-moisture-sensor-in-soil.bfad91002bda5e96.png)
+![The grove soil moisture sensor in soil](../../../../../translated_images/ml/soil-moisture-sensor-in-soil.bfad91002bda5e96.webp)
 
 1. ഇപ്പോൾ Wio ടെർമിനൽ നിങ്ങളുടെ കമ്പ്യൂട്ടറിലേക്ക് ബന്ധിപ്പിക്കാം.
 

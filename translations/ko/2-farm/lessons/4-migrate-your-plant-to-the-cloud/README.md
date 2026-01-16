@@ -72,7 +72,7 @@ IoT 디바이스는 원리를 설명하기 위해 공용 MQTT 브로커와 통�
 
 Azure는 Microsoft의 개발자 클라우드로, 이번 강의에서 사용할 클라우드입니다. 아래 영상은 Azure에 대한 간단한 개요를 제공합니다:
 
-[![Azure 개요 영상](../../../../../translated_images/ko/what-is-azure-video-thumbnail.20174db09e03bbb8.png)](https://www.microsoft.com/videoplayer/embed/RE4Ibng?WT.mc_id=academic-17441-jabenn)
+[![Azure 개요 영상](../../../../../translated_images/ko/what-is-azure-video-thumbnail.20174db09e03bbb8.webp)](https://www.microsoft.com/videoplayer/embed/RE4Ibng?WT.mc_id=academic-17441-jabenn)
 
 ## 클라우드 구독 생성하기
 

@@ -33,11 +33,11 @@ Hubungkan sensor kelembapan tanah.
 
 1. Dengan Wio Terminal tidak terhubung ke komputer atau sumber daya lainnya, hubungkan ujung lain kabel Grove ke soket Grove di sisi kanan Wio Terminal saat Anda melihat layar. Ini adalah soket yang paling jauh dari tombol daya.
 
-![Sensor kelembapan tanah Grove terhubung ke soket kanan](../../../../../translated_images/id/wio-soil-moisture-sensor.46919b61c3f6cb74.png)
+![Sensor kelembapan tanah Grove terhubung ke soket kanan](../../../../../translated_images/id/wio-soil-moisture-sensor.46919b61c3f6cb74.webp)
 
 1. Masukkan sensor kelembapan tanah ke dalam tanah. Sensor memiliki 'garis posisi tertinggi' - garis putih melintang pada sensor. Masukkan sensor hingga garis ini, tetapi jangan melewati garis tersebut.
 
-![Sensor kelembapan tanah Grove di dalam tanah](../../../../../translated_images/id/soil-moisture-sensor-in-soil.bfad91002bda5e96.png)
+![Sensor kelembapan tanah Grove di dalam tanah](../../../../../translated_images/id/soil-moisture-sensor-in-soil.bfad91002bda5e96.webp)
 
 1. Sekarang Anda dapat menghubungkan Wio Terminal ke komputer Anda.
 

@@ -25,13 +25,13 @@ CO_OP_TRANSLATOR_METADATA:
 
 ಲೈಟ್ ಸೆನ್ಸರ್ ಅನ್ನು ಸಂಪರ್ಕಿಸಿ
 
-![A grove light sensor](../../../../../translated_images/kn/grove-light-sensor.b8127b7c434e632d.png)
+![A grove light sensor](../../../../../translated_images/kn/grove-light-sensor.b8127b7c434e632d.webp)
 
 1. Grove ಕೇಬಲಿನ ಒಂದು ಅಂಚನ್ನು ಲೈಟ್ ಸೆನ್ಸರ್ ಮಾಗ್ಡ್ಯೂಲ್‌ನ ಸಾಕೆಟ್ನಲ್ಲಿ ಹಾಕಿ. ಅದು ಒಂದೇ ದಿಕ್ಕಿನಲ್ಲಿ ಮಾತ್ರ ಹೋಗುತ್ತದೆ.
 
 1. ರಾಸ್ಪ್ಬೆರ್ರಿ ಪೈ ಪವರ್ ಆಫ್ ಮಾಡಿರುವಾಗ, Grove ಕೇಬಲಿನ ಇನ್ನೊಬ್ಬ ಅಂಚನ್ನು Grove ಬೇಸ್ ಹ್ಯಾಟ್ ಮೇಲೆ ಮಾರ್ಕ್ ಮಾಡಲಾದ **A0** అనಾಲೋಗ್ ಸಾಕೆಟ್ಗೆ ನೆಟ್ಟಗೆ. ಈ ಸಾಕೆಟ್ GPIO ಪಿನ್ಸ್ ಬಳಿ ಇರುವ ಸಾಲಿನಲ್ಲಿ ಬಲದಿಂದ ಎರಡನೆದು.
 
-![The grove light sensor connected to socket A0](../../../../../translated_images/kn/pi-light-sensor.66cc1e31fa48cd7d.png)
+![The grove light sensor connected to socket A0](../../../../../translated_images/kn/pi-light-sensor.66cc1e31fa48cd7d.webp)
 
 ## ಲೈಟ್ ಸೆನ್ಸರ್ ಪ್ರೋಗ್ರಾಮ್ ಮಾಡಿ
 

@@ -55,11 +55,11 @@ Relė yra elektromagnetinis jungiklis, kuris elektrinį signalą paverčia mecha
 
 > 🎓 [Elektromagnetai](https://wikipedia.org/wiki/Electromagnet) yra magnetai, kurie sukuriami leidžiant elektrą per vielos ritę. Kai elektra įjungiama, ritė tampa magnetinė. Kai elektra išjungiama, ritė praranda magnetizmą.
 
-![Kai įjungta, elektromagnetas sukuria magnetinį lauką, įjungdamas jungiklį išvesties grandinei](../../../../../translated_images/lt/relay-on.4db16a0fd6b66926.png)
+![Kai įjungta, elektromagnetas sukuria magnetinį lauką, įjungdamas jungiklį išvesties grandinei](../../../../../translated_images/lt/relay-on.4db16a0fd6b66926.webp)
 
 Relėje valdymo grandinė maitina elektromagnetą. Kai elektromagnetas įjungtas, jis traukia svirtį, kuri perkelia jungiklį, uždarydama kontaktus ir užbaigdama išvesties grandinę.
 
-![Kai išjungta, elektromagnetas nesukuria magnetinio lauko, išjungdamas jungiklį išvesties grandinei](../../../../../translated_images/lt/relay-off.c34a178a2960fecd.png)
+![Kai išjungta, elektromagnetas nesukuria magnetinio lauko, išjungdamas jungiklį išvesties grandinei](../../../../../translated_images/lt/relay-off.c34a178a2960fecd.webp)
 
 Kai valdymo grandinė išjungta, elektromagnetas išsijungia, atleidžia svirtį ir atidaro kontaktus, išjungdamas išvesties grandinę. Relės yra skaitmeniniai aktuatoriai – aukštas signalas į relę ją įjungia, žemas signalas ją išjungia.
 
@@ -85,7 +85,7 @@ Elektromagnetui nereikia daug energijos, kad aktyvuotų ir trauktų svirtį, jis
 
 Paveikslėlyje aukščiau parodyta Grove relė. Valdymo grandinė jungiasi prie IoT įrenginio ir įjungia arba išjungia relę naudojant 3.3V arba 5V. Išvesties grandinė turi du terminalus, bet kuris iš jų gali būti maitinimas arba žemė. Išvesties grandinė gali valdyti iki 250V ir 10A, pakankamai įvairiems elektros tinklo įrenginiams. Galite gauti relės, kurios gali valdyti dar didesnės galios lygius.
 
-![Siurblys prijungtas per relę](../../../../../translated_images/lt/pump-wired-to-relay.66c5cfc0d8918990.png)
+![Siurblys prijungtas per relę](../../../../../translated_images/lt/pump-wired-to-relay.66c5cfc0d8918990.webp)
 
 Paveikslėlyje aukščiau energija tiekiama siurbliui per relę. Raudonas laidas jungia +5V terminalą USB maitinimo šaltinio su vienu išvesties grandinės terminalu relėje, o kitas raudonas laidas jungia kitą išvesties grandinės terminalą su siurbliu. Juodas laidas jungia siurblį su USB maitinimo šaltinio žeme. Kai relė įjungiama, ji užbaigia grandinę, siunčia 5V į siurblį, įjungia siurblį.
 
@@ -135,7 +135,7 @@ Trečioje pamokoje sukūrėte naktinę lemputę – LED, kuris įsijungia, kai �
 
 Jei atlikote paskutinę pamoką apie dirvožemio drėgmę, naudodami fizinį jutiklį, pastebėjote, kad dirvožemio drėgmės rodmenims prireikė kelių sekundžių, kad sumažėtų po to, kai palaistėte augalą. Taip yra ne dėl to, kad jutiklis yra lėtas, bet dėl to, kad vandeniui reikia laiko įsigerti į dirvožemį.
 💁 Jei laistėte per arti jutiklio, galėjote pastebėti, kad rodmenys greitai sumažėjo, o vėliau vėl pakilo – tai įvyksta dėl vandens, esančio šalia jutiklio, kuris pasklinda po likusį dirvožemį ir sumažina drėgmę ties jutikliu.
-![Dirvožemio drėgmės matavimas, rodantis 658, nesikeičia laistant, tačiau sumažėja iki 320 po laistymo, kai vanduo įsigeria į dirvožemį](../../../../../translated_images/lt/soil-moisture-travel.a0e31af222cf1438.png)
+![Dirvožemio drėgmės matavimas, rodantis 658, nesikeičia laistant, tačiau sumažėja iki 320 po laistymo, kai vanduo įsigeria į dirvožemį](../../../../../translated_images/lt/soil-moisture-travel.a0e31af222cf1438.webp)
 
 Aukščiau pateiktame diagramoje dirvožemio drėgmės matavimas rodo 658. Augalas yra laistomas, tačiau šis rodmuo iš karto nesikeičia, nes vanduo dar nepasiekė jutiklio. Laistymas gali baigtis dar prieš tai, kai vanduo pasiekia jutiklį, o vertė sumažėja, atspindėdama naują drėgmės lygį.
 
@@ -157,11 +157,11 @@ Kiek laiko relė turėtų būti įjungta kiekvieną kartą? Geriau būti atsargi
 
 > 💁 Tokio tipo laiko valdymas yra labai specifinis IoT įrenginiui, kurį kuriate, matuojamai savybei ir naudojamiems jutikliams bei vykdikliams.
 
-![Braškių augalas, prijungtas prie vandens per siurblį, siurblys prijungtas prie relės. Relė ir dirvožemio drėgmės jutiklis augale abu prijungti prie Raspberry Pi](../../../../../translated_images/lt/strawberry-with-pump.b410fc72ac6aabad.png)
+![Braškių augalas, prijungtas prie vandens per siurblį, siurblys prijungtas prie relės. Relė ir dirvožemio drėgmės jutiklis augale abu prijungti prie Raspberry Pi](../../../../../translated_images/lt/strawberry-with-pump.b410fc72ac6aabad.webp)
 
 Pavyzdžiui, turiu braškių augalą su dirvožemio drėgmės jutikliu ir siurbliu, valdomu per relę. Pastebėjau, kad kai pridedu vandens, dirvožemio drėgmės rodmuo stabilizuojasi maždaug per 20 sekundžių. Tai reiškia, kad turiu išjungti relę ir palaukti 20 sekundžių prieš tikrindamas drėgmės lygį. Verčiau turėti per mažai vandens nei per daug – visada galiu vėl įjungti siurblį, tačiau negaliu pašalinti vandens iš augalo.
 
-![1 žingsnis: atlikti matavimą. 2 žingsnis: pridėti vandens. 3 žingsnis: palaukti, kol vanduo įsigers į dirvožemį. 4 žingsnis: pakartoti matavimą](../../../../../translated_images/lt/soil-moisture-delay.865f3fae206db01d.png)
+![1 žingsnis: atlikti matavimą. 2 žingsnis: pridėti vandens. 3 žingsnis: palaukti, kol vanduo įsigers į dirvožemį. 4 žingsnis: pakartoti matavimą](../../../../../translated_images/lt/soil-moisture-delay.865f3fae206db01d.webp)
 
 Tai reiškia, kad geriausias procesas būtų laistymo ciklas, kuris atrodytų maždaug taip:
 

@@ -35,7 +35,7 @@ Grove LED ലെഡുകൾ തിരഞ്ഞെടുക്കാനാകു
 
 LED കണക്ട് ചെയ്യുക.
 
-![A grove LED](../../../../../translated_images/ml/grove-led.6c853be93f473cf2.png)
+![A grove LED](../../../../../translated_images/ml/grove-led.6c853be93f473cf2.webp)
 
 1. നിങ്ങൾ ഇഷ്ടമുള്ള LED തിരഞ്ഞെടുക്കുക, LED മോഡ്യൂളിലെ രണ്ട് തുളസുകളിലേക്കാണ് കാൽ സ്ക്രൂവുകൾ ചേർക്കുക.
 
@@ -49,7 +49,7 @@ LED കണക്ട് ചെയ്യുക.
 
 1. റാസ്‌പ്ബെറി പൈ ഓഫായിരിക്കുമ്പോൾ, Grove കേബിളിന്റെ മറ്റു ഒരു അറ്റം Grove Base ഹാറ്റിലെ **D5** എന്ന് അടയാളപ്പെടുത്തിയ ഡിജിറ്റൽ സോക്കറ്റിലേക്ക് കണക്ട് ചെയ്യുക. GPIO പിനുകളുടെ അടുത്തുള്ള സോക്കറ്റിന്റെ ഇടത്തരം രണ്ടാം സോക്കറ്റാണ് ഇത്.
 
-![The grove LED connected to socket D5](../../../../../translated_images/ml/pi-led.97f1d474981dc35d.png)
+![The grove LED connected to socket D5](../../../../../translated_images/ml/pi-led.97f1d474981dc35d.webp)
 
 ## നൈറ്റ്‌ലൈറ്റ് പ്രോഗ്രാം ചെയ്യുക
 

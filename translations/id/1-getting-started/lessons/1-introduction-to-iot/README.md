@@ -79,7 +79,7 @@ Mikrokontroler (juga disebut sebagai MCU, singkatan dari microcontroller unit) a
 
 Mikrokontroler biasanya merupakan perangkat komputasi berbiaya rendah, dengan harga rata-rata untuk yang digunakan dalam perangkat keras khusus turun hingga sekitar US$0,50, dan beberapa perangkat semurah US$0,03. Kit pengembang dapat dimulai dari harga US$4, dengan biaya meningkat seiring penambahan fitur. [Wio Terminal](https://www.seeedstudio.com/Wio-Terminal-p-4509.html), sebuah kit pengembang mikrokontroler dari [Seeed studios](https://www.seeedstudio.com) yang memiliki sensor, aktuator, WiFi, dan layar, harganya sekitar US$30.
 
-![Wio Terminal](../../../../../translated_images/id/wio-terminal.b8299ee16587db9a.png)
+![Wio Terminal](../../../../../translated_images/id/wio-terminal.b8299ee16587db9a.webp)
 
 > 💁 Saat mencari mikrokontroler di Internet, berhati-hatilah saat mencari istilah **MCU** karena ini akan menghasilkan banyak hasil tentang Marvel Cinematic Universe, bukan mikrokontroler.
 
@@ -93,7 +93,7 @@ Kit pengembang mikrokontroler biasanya dilengkapi dengan sensor dan aktuator tam
 
 Komputer papan tunggal adalah perangkat komputasi kecil yang memiliki semua elemen komputer lengkap yang terkandung dalam satu papan kecil. Perangkat ini memiliki spesifikasi yang mendekati PC atau Mac desktop atau laptop, menjalankan sistem operasi penuh, tetapi berukuran kecil, menggunakan daya lebih sedikit, dan jauh lebih murah.
 
-![Raspberry Pi 4](../../../../../translated_images/id/raspberry-pi-4.fd4590d308c3d456.jpg)
+![Raspberry Pi 4](../../../../../translated_images/id/raspberry-pi-4.fd4590d308c3d456.webp)
 
 Raspberry Pi adalah salah satu komputer papan tunggal yang paling populer.
 

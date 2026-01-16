@@ -21,7 +21,7 @@ Szükséged lesz néhány nem technikai elemre is, például földre vagy egy cs
 
 ## Készletek vásárlása
 
-![A Seeed Studios logója](../../translated_images/hu/seeed-logo.74732b6b482b6e8e.png)
+![A Seeed Studios logója](../../translated_images/hu/seeed-logo.74732b6b482b6e8e.webp)
 
 A Seeed Studios nagyon kedvesen elérhetővé tette az összes hardvert könnyen megvásárolható készletek formájában:
 
@@ -29,7 +29,7 @@ A Seeed Studios nagyon kedvesen elérhetővé tette az összes hardvert könnyen
 
 **[IoT kezdőknek a Seeed és a Microsoft segítségével - Wio Terminal Starter Kit](https://www.seeedstudio.com/IoT-for-beginners-with-Seeed-and-Microsoft-Wio-Terminal-Starter-Kit-p-5006.html)**
 
-[![A Wio Terminal hardverkészlet](../../translated_images/hu/wio-hardware-kit.4c70c48b85e4283a.png)](https://www.seeedstudio.com/IoT-for-beginners-with-Seeed-and-Microsoft-Wio-Terminal-Starter-Kit-p-5006.html)
+[![A Wio Terminal hardverkészlet](../../translated_images/hu/wio-hardware-kit.4c70c48b85e4283a.webp)](https://www.seeedstudio.com/IoT-for-beginners-with-Seeed-and-Microsoft-Wio-Terminal-Starter-Kit-p-5006.html)
 
 ### Raspberry Pi
 

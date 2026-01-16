@@ -35,7 +35,7 @@ Hubungkan sensor time of flight.
 
 1. Dengan Raspberry Pi dalam keadaan mati, hubungkan ujung lain kabel Grove ke salah satu soket I²C yang ditandai **I²C** pada Grove Base hat yang terpasang pada Pi. Soket ini berada di baris bawah, di ujung yang berlawanan dengan pin GPIO dan di sebelah slot kabel kamera.
 
-![Sensor time of flight Grove terhubung ke soket I²C](../../../../../translated_images/id/pi-time-of-flight-sensor.58c8dc04eb3bfb57.png)
+![Sensor time of flight Grove terhubung ke soket I²C](../../../../../translated_images/id/pi-time-of-flight-sensor.58c8dc04eb3bfb57.webp)
 
 ## Program Sensor Time of Flight
 
@@ -106,7 +106,7 @@ Program perangkatnya.
 
     Pengukur jarak berada di bagian belakang sensor, jadi pastikan Anda menggunakan sisi yang benar saat mengukur jarak.
 
-    ![Pengukur jarak di bagian belakang sensor time of flight mengarah ke pisang](../../../../../translated_images/id/time-of-flight-banana.079921ad8b1496e4.png)
+    ![Pengukur jarak di bagian belakang sensor time of flight mengarah ke pisang](../../../../../translated_images/id/time-of-flight-banana.079921ad8b1496e4.webp)
 
 > 💁 Anda dapat menemukan kode ini di folder [code-proximity/pi](../../../../../4-manufacturing/lessons/4-trigger-fruit-detector/code-proximity/pi).
 

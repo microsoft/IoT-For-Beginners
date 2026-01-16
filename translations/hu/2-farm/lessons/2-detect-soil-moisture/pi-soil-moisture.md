@@ -37,7 +37,7 @@ Csatlakoztasd a talajnedvesség-érzékelőt.
 
 1. Helyezd az érzékelőt a talajba. Az érzékelőn van egy "legmagasabb pozíció vonal" - egy fehér vonal. Helyezd az érzékelőt a vonalig, de ne azon túl.
 
-![A Grove talajnedvesség-érzékelő a talajban](../../../../../translated_images/hu/soil-moisture-sensor-in-soil.bfad91002bda5e96.png)
+![A Grove talajnedvesség-érzékelő a talajban](../../../../../translated_images/hu/soil-moisture-sensor-in-soil.bfad91002bda5e96.webp)
 
 ## Programozd a talajnedvesség-érzékelőt
 

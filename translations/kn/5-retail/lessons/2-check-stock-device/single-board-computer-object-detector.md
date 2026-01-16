@@ -76,7 +76,7 @@ CO_OP_TRANSLATOR_METADATA:
 
     ನೀವು ತೆಗೆದ ಚಿತ್ರವನ್ನು ಮತ್ತು Custom Vision ನಲ್ಲಿ **Predictions** ಟ್ಯಾಬ್‌ನಲ್ಲಿ ಈ ಮೌಲ್ಯಗಳನ್ನು ಕಾಣಬಹುದು.
 
-    ![ಒಂದು ಶೆಲ್ಫ್‌上的 4 ಟೊಮ್ಯಾಟೋ ಪೇಸ್ಟ್ ಕ್ಯಾಂಸ್‌ಗಳೊಂದಿಗೆ 35.8%, 33.5%, 25.7% ಮತ್ತು 16.6% ಪತ್ತೆಗಳಿಗಾಗಿ ಭವಿಷ್ಯವಾಣಿಗಳು](../../../../../translated_images/kn/custom-vision-stock-prediction.942266ab1bcca341.png)
+    ![ಒಂದು ಶೆಲ್ಫ್‌上的 4 ಟೊಮ್ಯಾಟೋ ಪೇಸ್ಟ್ ಕ್ಯಾಂಸ್‌ಗಳೊಂದಿಗೆ 35.8%, 33.5%, 25.7% ಮತ್ತು 16.6% ಪತ್ತೆಗಳಿಗಾಗಿ ಭವಿಷ್ಯವಾಣಿಗಳು](../../../../../translated_images/kn/custom-vision-stock-prediction.942266ab1bcca341.webp)
 
 > 💁 ನೀವು ಈ ಕೋಡ್ ಅನ್ನು [code-detect/pi](../../../../../5-retail/lessons/2-check-stock-device/code-detect/pi) ಅಥವಾ [code-detect/virtual-iot-device](../../../../../5-retail/lessons/2-check-stock-device/code-detect/virtual-iot-device) ಫೋಲ್ಡರ್‌ನಲ್ಲಿ ಕಂಡುಹಿಡಿಯಬಹುದು.
 

@@ -65,7 +65,7 @@ Minden növényfajnak különböző értékei vannak az alap-, optimális és ma
 
 ✅ Kutass egy kicsit! A kertedben, iskoládban vagy helyi parkodban található növények esetében próbáld meg megtalálni az alap hőmérsékletet.
 
-![Egy grafikon, amely a növekedési ütemet mutatja a hőmérséklet emelkedésével, majd csökkenésével, amikor a hőmérséklet túl magas lesz](../../../../../translated_images/hu/plant-growth-temp-graph.c6d69c9478e6ca83.png)
+![Egy grafikon, amely a növekedési ütemet mutatja a hőmérséklet emelkedésével, majd csökkenésével, amikor a hőmérséklet túl magas lesz](../../../../../translated_images/hu/plant-growth-temp-graph.c6d69c9478e6ca83.webp)
 
 A fenti grafikon egy példát mutat a növekedési ütem és a hőmérséklet közötti összefüggésre. Az alap hőmérsékletig nincs növekedés. A növekedési ütem az optimális hőmérsékletig növekszik, majd a csúcs elérése után csökken. 
 
@@ -91,7 +91,7 @@ Ez a kód megnyitja a CSV fájlt, majd hozzáfűz egy új sort a végéhez. A so
 
     
 > 💁 Ha Virtuális IoT Eszközt használ, jelölje be a véletlenszerű jelölőnégyzetet, és állítson be egy tartományt, hogy elkerülje ugyanazon hőmérséklet visszatérését minden alkalommal, amikor a hőmérsékleti érték megjelenik.
-    ![Jelölje be a véletlenszerű jelölőnégyzetet, és állítson be egy tartományt](../../../../../translated_images/hu/select-the-random-checkbox-and-set-a-range.32cf4bc7c12e797f.png) 
+    ![Jelölje be a véletlenszerű jelölőnégyzetet, és állítson be egy tartományt](../../../../../translated_images/hu/select-the-random-checkbox-and-set-a-range.32cf4bc7c12e797f.webp) 
 
     > 💁 Ha egy teljes napig szeretné futtatni, akkor győződjön meg arról, hogy a számítógép, amelyen a szerver kódja fut, nem megy alvó módba, akár az energia-beállítások megváltoztatásával, akár valami hasonló futtatásával, mint [ez a Python script, amely aktívan tartja a rendszert](https://github.com/jaqsparow/keep-system-active).
     

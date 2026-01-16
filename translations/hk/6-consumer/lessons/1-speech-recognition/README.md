@@ -64,7 +64,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 * 緞帶式 - 緞帶式麥克風與動圈式麥克風類似，但它使用金屬緞帶代替振膜。該緞帶在磁場中移動時會產生電流。與動圈式麥克風一樣，緞帶式麥克風不需要電源。
 
-    ![美國演員 Edmund Lowe 站在標有 (NBC) Blue Network 的廣播麥克風前，手持劇本，1942年](../../../../../translated_images/hk/ribbon-mic.eacc8e092c7441ca.jpg)
+    ![美國演員 Edmund Lowe 站在標有 (NBC) Blue Network 的廣播麥克風前，手持劇本，1942年](../../../../../translated_images/hk/ribbon-mic.eacc8e092c7441ca.webp)
 
 * 電容式 - 電容式麥克風有一個薄金屬振膜和一個固定的金屬背板。電流被施加到這兩者上，當振膜振動時，板之間的靜電荷發生變化，產生信號。電容式麥克風需要電源才能工作，稱為 *幻象電源*。
 
@@ -84,7 +84,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 > 🎓 採樣是將音頻信號轉換為代表該時刻信號的數字值。
 
-![顯示信號的折線圖，具有固定間隔的離散點](../../../../../translated_images/hk/sampling.6f4fadb3f2d9dfe7.png)
+![顯示信號的折線圖，具有固定間隔的離散點](../../../../../translated_images/hk/sampling.6f4fadb3f2d9dfe7.webp)
 
 數字音頻使用脈衝編碼調製（Pulse Code Modulation，PCM）進行採樣。PCM 涉及讀取信號的電壓，並使用定義的大小選擇最接近該電壓的離散值。
 

@@ -217,7 +217,7 @@ HTTPS എൻഡ്‌പോയിന്റുകളുമായി ഇടപഴ�
 
     എടുത്ത ചിത്രം കാണാനും, Custom Vision-ൽ **Predictions** ടാബിൽ ഈ മൂല്യങ്ങളും കാണാനാകും.
 
-    ![A banana in custom vision predicted ripe at 56.8% and unripe at 43.1%](../../../../../translated_images/ml/custom-vision-banana-prediction.30cdff4e1d72db5d.png)
+    ![A banana in custom vision predicted ripe at 56.8% and unripe at 43.1%](../../../../../translated_images/ml/custom-vision-banana-prediction.30cdff4e1d72db5d.webp)
 
 > 💁 ഈ കോഡ് [code-classify/wio-terminal](../../../../../4-manufacturing/lessons/2-check-fruit-from-device/code-classify/wio-terminal) ഫോളഡറിൽ കണ്ടെത്താവുന്നതാണ്.
 

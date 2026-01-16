@@ -65,7 +65,7 @@ Setiap spesies tanaman memiliki nilai yang berbeda untuk suhu dasar, optimal, da
 
 ✅ Lakukan penelitian. Untuk tanaman apa pun yang Anda miliki di taman, sekolah, atau taman lokal, coba cari tahu suhu dasarnya.
 
-![Grafik yang menunjukkan tingkat pertumbuhan meningkat seiring suhu meningkat, lalu menurun saat suhu terlalu tinggi](../../../../../translated_images/id/plant-growth-temp-graph.c6d69c9478e6ca83.png)
+![Grafik yang menunjukkan tingkat pertumbuhan meningkat seiring suhu meningkat, lalu menurun saat suhu terlalu tinggi](../../../../../translated_images/id/plant-growth-temp-graph.c6d69c9478e6ca83.webp)
 
 Grafik di atas menunjukkan contoh grafik tingkat pertumbuhan terhadap suhu. Hingga suhu dasar, tidak ada pertumbuhan. Tingkat pertumbuhan meningkat hingga suhu optimal, lalu menurun setelah mencapai puncaknya. Pada suhu maksimum, pertumbuhan berhenti.
 
@@ -141,7 +141,7 @@ Hal ini memiliki dampak besar pada tenaga kerja di ladang besar, dan berisiko pe
 
 Dengan mengumpulkan data suhu menggunakan perangkat IoT, seorang petani dapat diberi tahu secara otomatis ketika tanaman mendekati kematangan. Arsitektur tipikal untuk ini adalah perangkat IoT mengukur suhu, lalu mengirimkan data telemetri ini melalui Internet menggunakan sesuatu seperti MQTT. Kode server kemudian mendengarkan data ini dan menyimpannya di suatu tempat, seperti ke dalam database. Ini berarti data dapat dianalisis nanti, seperti pekerjaan malam untuk menghitung GDD untuk hari itu, menjumlahkan GDD untuk setiap tanaman sejauh ini, dan memberi peringatan jika tanaman mendekati kematangan.
 
-![Data telemetri dikirim ke server dan kemudian disimpan ke database](../../../../../translated_images/id/save-telemetry-database.ddc9c6bea0c5ba39.png)
+![Data telemetri dikirim ke server dan kemudian disimpan ke database](../../../../../translated_images/id/save-telemetry-database.ddc9c6bea0c5ba39.webp)
 
 Kode server juga dapat menambahkan informasi tambahan ke data. Misalnya, perangkat IoT dapat mengirimkan pengenal untuk menunjukkan perangkat mana yang digunakan, dan kode server dapat menggunakan ini untuk mencari lokasi perangkat, serta tanaman apa yang sedang dipantau. Kode server juga dapat menambahkan data dasar seperti waktu saat ini karena beberapa perangkat IoT tidak memiliki perangkat keras yang diperlukan untuk melacak waktu yang akurat, atau memerlukan kode tambahan untuk membaca waktu saat ini melalui Internet.
 
@@ -228,7 +228,7 @@ Kode ini membuka file CSV, lalu menambahkan baris baru di akhir. Baris tersebut 
 
     
 > 💁 Jika Anda menggunakan Perangkat IoT Virtual, pilih kotak centang acak dan tetapkan rentang untuk menghindari mendapatkan suhu yang sama setiap kali nilai suhu dikembalikan.
-    ![Pilih kotak centang acak dan tetapkan rentang](../../../../../translated_images/id/select-the-random-checkbox-and-set-a-range.32cf4bc7c12e797f.png) 
+    ![Pilih kotak centang acak dan tetapkan rentang](../../../../../translated_images/id/select-the-random-checkbox-and-set-a-range.32cf4bc7c12e797f.webp) 
 
     > 💁 Jika Anda ingin menjalankan ini selama satu hari penuh, maka Anda perlu memastikan komputer tempat kode server Anda berjalan tidak akan tidur, baik dengan mengubah pengaturan daya Anda, atau menjalankan sesuatu seperti [skrip Python untuk menjaga sistem tetap aktif](https://github.com/jaqsparow/keep-system-active).
     

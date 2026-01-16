@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 [Raspberry Pi](https://raspberrypi.org) ಒಂದು ಸಿಂಗಲ್-ಬೋರ್ಡ್ ಕಂಪ್ಯೂಟರ್ ಆಗಿದೆ. ನೀವು ವಿಸ್ತೃತವಾದ ಸಾಧನಗಳು ಮತ್ತು ಪರಿಸರಗಳನ್ನು ಬಳಸಿ ಸೆನ್ಸರ್‌ಗಳು ಮತ್ತು ಆಕ್ಟ್ಯುಯೇಟರ್‌ಗಳನ್ನು ಸೇರಿಸಬಹುದು, ಮತ್ತು ಈ ಪಾಠಗಳಿಗೆ Grove ಎಂಬ हार್ಡ್‌ವೇರ್ ಇಕೋಸಿಸ್ಟಂ ಬಳಸಿ. ನೀವು ಪೈಯಲ್ಲಿ Python ಬಳಸಿ Grove ಸೆನ್ಸರ್‌ಗಳನ್ನು ಪ್ರೋಗ್ರಾಂ ಮಾಡಲಿದ್ದೀರಿ.
 
-![A Raspberry Pi 4](../../../../../translated_images/kn/raspberry-pi-4.fd4590d308c3d456.jpg)
+![A Raspberry Pi 4](../../../../../translated_images/kn/raspberry-pi-4.fd4590d308c3d456.webp)
 
 ## ಸೆಟ್‌ಅಪ್
 
@@ -112,7 +112,7 @@ Grove ಸೆನ್ಸರ್‌ಗಳು ಮತ್ತು ಆಕ್ಟ್ಯುಯ
 
 1. Raspberry Pi Imager ನಲ್ಲಿ **CHOOSE OS** ಬಟನ್ ಕ್ಲಿಕ್ ಮಾಡಿ, ನಂತರ *Raspberry Pi OS (Other)* ಆಯ್ಕೆ ಮಾಡಿ, ನಂತರ *Raspberry Pi OS Lite (32-bit)* ಆಯ್ಕೆ ಮಾಡಿ
 
-    ![The Raspberry Pi Imager with Raspberry Pi OS Lite selected](../../../../../translated_images/kn/raspberry-pi-imager.24aedeab9e233d84.png)
+    ![The Raspberry Pi Imager with Raspberry Pi OS Lite selected](../../../../../translated_images/kn/raspberry-pi-imager.24aedeab9e233d84.webp)
 
     > 💁 Raspberry Pi OS Lite ಒಂದು ಆವೃತ್ತಿ ಆಗಿದ್ದು ಇಲ್ಲಿ ಡೆಸ್ಕ್‌ಟಾಪ್ UI ಅಥವಾ UI ಆಧಾರಿತ ಸಾಧನಗಳಿಲ್ಲ. ಹೆಡ್‌ಲೆಸ್ ಪೈಸಿಗೆ ಅವುಗಳ ಅಗತ್ಯವಿಲ್ಲ ಮತ್ತು ಇದು install ಗಾತ್ರವೂ ಚಿಕ್ಕದು ಮತ್ತು ಬೂಟ್ ಸಮಯವೂ ಕಡಿಮೆ ಮಾಡುತ್ತದೆ.
 
@@ -251,7 +251,7 @@ Pi ಗೆ ಹಲೋ ವರ್ಲ್ಡ್ ಅಪ್ಲಿಕೇಶನ�
 
 1. ಈ ಫೋಲ್ಡರ್ ಅನ್ನು VS ಕೋಡ್‌ನಲ್ಲಿ *File -> Open...* ಆಯ್ಕೆ ಮಾಡಿ *nightlight* ಫೋಲ್ಡರ್ ಆಯ್ಕೆಮಾಡಿ, ನಂತರ **OK** ಆಯ್ಕೆಮಾಡಿ
 
-    ![The VS Code open dialog showing the nightlight folder](../../../../../translated_images/kn/vscode-open-nightlight-remote.d3d2a4011e30d535.png)
+    ![The VS Code open dialog showing the nightlight folder](../../../../../translated_images/kn/vscode-open-nightlight-remote.d3d2a4011e30d535.webp)
 
 1. VS ಕೋಡ್ ಎಕ್ಸ್‌ಪ್ಲೋರರ್‌ನಿಂದ `app.py` ಫೈಲ್ ತೆರೆಯಿರಿ ಮತ್ತು ಕೆಳಗಿನ ಕೋಡ್ ಸೇರಿಸಿ:
 

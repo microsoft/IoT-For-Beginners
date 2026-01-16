@@ -20,7 +20,7 @@ Az UART fizikai áramköröket használ, amelyek lehetővé teszik két eszköz 
 * Az 1. eszköz az adatokat az Tx tűjén keresztül küldi, amelyet a 2. eszköz az Rx tűjén fogad
 * Az 1. eszköz az Rx tűjén keresztül fogadja az adatokat, amelyeket a 2. eszköz az Tx tűjén keresztül küld
 
-![UART az egyik chip Tx tűje a másik chip Rx tűjéhez csatlakozik, és fordítva](../../../../../translated_images/hu/uart.d0dbd3fb9e3728c6.png)
+![UART az egyik chip Tx tűje a másik chip Rx tűjéhez csatlakozik, és fordítva](../../../../../translated_images/hu/uart.d0dbd3fb9e3728c6.webp)
 
 > 🎓 Az adatokat egy bitenként küldik, ezt *soros* kommunikációnak nevezik. A legtöbb operációs rendszer és mikrokontroller rendelkezik *soros portokkal*, amelyek olyan csatlakozások, amelyek soros adatokat tudnak küldeni és fogadni, és elérhetők a kód számára.
 
@@ -49,7 +49,7 @@ Az SPI vezérlők 3 vezetéket használnak, valamint perifériánként egy extra
 | SCLK | Soros órajel | Ez a vezeték órajelet küld a vezérlő által beállított sebességgel. |
 | CS   | Chip kiválasztás | A vezérlőnek több vezetéke van, perifériánként egy, és minden vezeték a megfelelő periféria CS vezetékéhez csatlakozik. |
 
-![SPI egy vezérlővel és két perifériával](../../../../../translated_images/hu/spi.297431d6f98b386b.png)
+![SPI egy vezérlővel és két perifériával](../../../../../translated_images/hu/spi.297431d6f98b386b.webp)
 
 A CS vezeték egy periféria aktiválására szolgál, amely a COPI és CIPO vezetékeken keresztül kommunikál. Amikor a vezérlő perifériát akar váltani, deaktiválja a jelenleg aktív perifériához csatlakozó CS vezetéket, majd aktiválja a következő perifériához csatlakozó vezetéket.
 
@@ -110,13 +110,13 @@ A talajnedvességet gravimetrikus vagy térfogati víztartalommal mérik.
 
 A talajnedvesség-érzékelők elektromos ellenállást vagy kapacitást mérnek - ez nemcsak a talajnedvességtől, hanem a talajtípustól is függ, mivel a talaj összetevői megváltoztathatják az elektromos tulajdonságait. Ideális esetben a szenzorokat kalibrálni kell - azaz a szenzor által mért értékeket össze kell hasonlítani tudományos módszerekkel kapott mérésekkel. Például egy laboratórium kiszámíthatja a gravimetrikus talajnedvességet egy adott mező mintáiból, amelyeket évente néhányszor vesznek, és ezek az értékek felhasználhatók a szenzor kalibrálására, a szenzor által mért értékek összehangolására a gravimetrikus talajnedvességgel.
 
-![Feszültség vs talajnedvesség-tartalom grafikon](../../../../../translated_images/hu/soil-moisture-to-voltage.df86d80cda158700.png)
+![Feszültség vs talajnedvesség-tartalom grafikon](../../../../../translated_images/hu/soil-moisture-to-voltage.df86d80cda158700.webp)
 
 A fenti grafikon bemutatja, hogyan lehet kalibrálni egy szenzort. A feszültséget rögzítik egy talajmintánál, amelyet aztán laboratóriumban mérnek, összehasonlítva a nedves súlyt a száraz súllyal (nedvesen mérve, majd sütőben szárítva és szárazon mérve). Miután néhány mérést elvégeztek, ezeket grafikonon ábrázolják, és egy vonalat illesztenek a pontokhoz. Ez a vonal használható arra, hogy az IoT eszköz által mért talajnedvesség-érzékelő értékeket tényleges talajnedvesség-mérésekké alakítsák.
 
 💁 A rezisztív talajnedvesség-érzékelők esetében a feszültség növekszik, ahogy a talajnedvesség növekszik. A kapacitív talajnedvesség-érzékelők esetében a feszültség csökken, ahogy a talajnedvesség növekszik, így ezek grafikonjai lefelé lejtőek lennének, nem felfelé.
 
-![Egy talajnedvesség-érték interpolálva a grafikonról](../../../../../translated_images/hu/soil-moisture-to-voltage-with-reading.681cb3e1f8b68caf.png)
+![Egy talajnedvesség-érték interpolálva a grafikonról](../../../../../translated_images/hu/soil-moisture-to-voltage-with-reading.681cb3e1f8b68caf.webp)
 
 A fenti grafikon egy talajnedvesség-érzékelő feszültségértékét mutatja, és követve azt a grafikon vonaláig, a tényleges talajnedvesség kiszámítható.
 

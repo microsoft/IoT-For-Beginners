@@ -93,7 +93,7 @@ CO_OP_TRANSLATOR_METADATA:
 
     ನೀವು ತೆಗೆಸಿದ ಚಿತ್ರವನ್ನು ಮತ್ತು ಈ ಮೌಲ್ಯಗಳನ್ನು **Predictions** ಟ್ಯಾಬ್ ನಲ್ಲಿ ಕಸ್ಟಮ್ ವಿಜೆನ್ ನಲ್ಲಿ ನೋಡಬಹುದು.
 
-    ![A banana in custom vision predicted ripe at 56.8% and unripe at 43.1%](../../../../../translated_images/kn/custom-vision-banana-prediction.30cdff4e1d72db5d.png)
+    ![A banana in custom vision predicted ripe at 56.8% and unripe at 43.1%](../../../../../translated_images/kn/custom-vision-banana-prediction.30cdff4e1d72db5d.webp)
 
 > 💁 ನೀವು ಈ ಕೋಡ್ ಅನ್ನು [code-classify/pi](../../../../../4-manufacturing/lessons/2-check-fruit-from-device/code-classify/pi) ಅಥವಾ [code-classify/virtual-iot-device](../../../../../4-manufacturing/lessons/2-check-fruit-from-device/code-classify/virtual-iot-device) ಫೋಲ್ಡರ್‌ನಲ್ಲಿ ಹುಡುಕಬಹುದು.
 

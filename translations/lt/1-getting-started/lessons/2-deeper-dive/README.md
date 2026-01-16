@@ -41,7 +41,7 @@ IoT programą sudaro du pagrindiniai komponentai: *Internetas* ir *daiktas*. Pa�
 
 ### Daiktas
 
-![Raspberry Pi 4](../../../../../translated_images/lt/raspberry-pi-4.fd4590d308c3d456.jpg)
+![Raspberry Pi 4](../../../../../translated_images/lt/raspberry-pi-4.fd4590d308c3d456.webp)
 
 **Daikto** dalis IoT reiškia įrenginį, kuris gali sąveikauti su fiziniu pasauliu. Šie įrenginiai paprastai yra maži, nebrangūs kompiuteriai, veikiantys lėtu greičiu ir naudojantys mažai energijos – pavyzdžiui, paprasti mikrovaldikliai su keliais kilobaitais RAM (palyginimui, asmeniniuose kompiuteriuose RAM matuojama gigabaitais), veikiantys tik kelių šimtų megahercų dažniu (palyginimui, asmeniniuose kompiuteriuose dažnis matuojamas gigahercais), tačiau sunaudojantys tiek mažai energijos, kad gali veikti savaites, mėnesius ar net metus su baterijomis.
 
@@ -67,7 +67,7 @@ Pavyzdžiui, išmanusis termostatas jungiasi prie debesų paslaugos per namų Wi
 
 Dar išmanesnė versija galėtų naudoti dirbtinį intelektą debesyje, kartu su duomenimis iš kitų jutiklių, prijungtų prie kitų IoT įrenginių, pvz., judesio jutiklių, aptinkančių, kurie kambariai naudojami, taip pat duomenis apie orą ar net jūsų kalendorių, kad išmaniai nustatytų temperatūrą. Pavyzdžiui, ji galėtų išjungti šildymą, jei iš jūsų kalendoriaus matyti, kad esate atostogose, arba išjungti šildymą atskiruose kambariuose, priklausomai nuo to, kuriuos kambarius naudojate, mokydamasi iš duomenų, kad laikui bėgant taptų vis tikslesnė.
 
-![Diagrama, rodanti kelis temperatūros jutiklius ir ratuką kaip IoT įrenginio įvestis, IoT įrenginį su dvikrypčiu ryšiu su debesimi, kuris savo ruožtu turi dvikryptį ryšį su telefonu, kalendoriumi ir orų paslauga, ir šildytuvo valdymą kaip išvestį iš IoT įrenginio](../../../../../translated_images/lt/smarter-thermostat.a75855f15d2d9e63.png)
+![Diagrama, rodanti kelis temperatūros jutiklius ir ratuką kaip IoT įrenginio įvestis, IoT įrenginį su dvikrypčiu ryšiu su debesimi, kuris savo ruožtu turi dvikryptį ryšį su telefonu, kalendoriumi ir orų paslauga, ir šildytuvo valdymą kaip išvestį iš IoT įrenginio](../../../../../translated_images/lt/smarter-thermostat.a75855f15d2d9e63.webp)
 
 ✅ Kokie kiti duomenys galėtų padėti padaryti interneto prijungtą termostatą išmanesnį?
 
@@ -127,7 +127,7 @@ Kaip ir su CPU, mikrovaldiklio atmintis yra daug mažesnė nei PC ar Mac kompiut
 
 Žemiau pateikta diagrama parodo santykinį dydžio skirtumą tarp 192KB ir 8GB – mažas taškas centre atspindi 192KB.
 
-![Palyginimas tarp 192KB ir 8GB – daugiau nei 40,000 kartų didesnis](../../../../../translated_images/lt/ram-comparison.6beb73541b42ac6f.png)
+![Palyginimas tarp 192KB ir 8GB – daugiau nei 40,000 kartų didesnis](../../../../../translated_images/lt/ram-comparison.6beb73541b42ac6f.webp)
 
 Programų saugykla taip pat yra mažesnė nei PC. Tipinis PC gali turėti 500GB kietąjį diską programų saugojimui, tuo tarpu mikrovaldiklis gali turėti tik kelis kilobaitus arba galbūt kelis megabaitus (MB) saugyklos (1MB yra 1,000KB, arba 1,000,000 baitų). Wio terminalas turi 4MB programų saugyklos.
 
@@ -203,17 +203,17 @@ Paskutinėje pamokoje pristatėme vienos plokštės kompiuterius. Dabar pažvelk
 
 ### Raspberry Pi
 
-![Raspberry Pi logotipas](../../../../../translated_images/lt/raspberry-pi-logo.4efaa16605cee054.png)
+![Raspberry Pi logotipas](../../../../../translated_images/lt/raspberry-pi-logo.4efaa16605cee054.webp)
 
 [Raspberry Pi Foundation](https://www.raspberrypi.org) yra JK labdaros organizacija, įkurta 2009 m., siekiant skatinti kompiuterių mokslo studijas, ypač mokyklose. Kaip šios misijos dalį, jie sukūrė vienos plokštės kompiuterį, vadinamą Raspberry Pi. Raspberry Pi šiuo metu yra prieinami 3 variantais – pilno dydžio versija, mažesnė Pi Zero ir kompiuterio modulis, kurį galima integruoti į galutinį IoT įrenginį.
 
-![Raspberry Pi 4](../../../../../translated_images/lt/raspberry-pi-4.fd4590d308c3d456.jpg)
+![Raspberry Pi 4](../../../../../translated_images/lt/raspberry-pi-4.fd4590d308c3d456.webp)
 
 Naujausia pilno dydžio Raspberry Pi versija yra Raspberry Pi 4B. Ji turi keturių branduolių (4 branduoliai) CPU, veikiantį 1.5GHz dažniu, 2, 4 arba 8GB RAM, gigabitinį Ethernet, WiFi, 2 HDMI prievadus, palaikančius 4k ekranus, garso ir kompozitinio vaizdo išvesties prievadą, USB prievadus (2 USB 2.0, 2 USB 3.0), 40 GPIO pinų, kameros jungtį Raspberry Pi kameros moduliui ir SD kortelės lizdą. Visa tai ant plokštės, kurios dydis yra 88mm x 58mm x 19.5mm, ir kurią maitina 3A USB-C maitinimo šaltinis. Šios plokštės kainuoja nuo 35 JAV dolerių, žymiai pigiau nei PC ar Mac.
 
 > 💁 Taip pat yra Pi400 – viskas viename kompiuteris su Pi4, integruotu į klaviatūrą.
 
-![Raspberry Pi Zero](../../../../../translated_images/lt/raspberry-pi-zero.f7a4133e1e7d54bb.jpg)
+![Raspberry Pi Zero](../../../../../translated_images/lt/raspberry-pi-zero.f7a4133e1e7d54bb.webp)
 
 Pi Zero yra daug mažesnis ir mažiau galingas. Jis turi vieno branduolio 1GHz CPU, 512MB RAM, WiFi (Zero W modelyje), vieną HDMI prievadą, mikro-USB prievadą, 40 GPIO pinų, kameros jungtį Raspberry Pi kameros moduliui ir SD kortelės lizdą. Jo matmenys yra 65mm x 30mm x 5mm, ir jis sunaudoja labai mažai energijos. Zero kainuoja 5 JAV dolerius, o W versija su WiFi – 10 JAV dolerių.
 

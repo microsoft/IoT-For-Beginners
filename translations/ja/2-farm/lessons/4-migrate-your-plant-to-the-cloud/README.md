@@ -72,7 +72,7 @@ IoTデバイスは、原則を示すためにパブリックMQTTブローカー�
 
 AzureはMicrosoftの開発者向けクラウドであり、このレッスンで使用するクラウドです。以下のビデオはAzureの概要を簡単に説明しています：
 
-[![Azureの概要ビデオ](../../../../../translated_images/ja/what-is-azure-video-thumbnail.20174db09e03bbb8.png)](https://www.microsoft.com/videoplayer/embed/RE4Ibng?WT.mc_id=academic-17441-jabenn)
+[![Azureの概要ビデオ](../../../../../translated_images/ja/what-is-azure-video-thumbnail.20174db09e03bbb8.webp)](https://www.microsoft.com/videoplayer/embed/RE4Ibng?WT.mc_id=academic-17441-jabenn)
 
 ## クラウドサブスクリプションを作成する
 

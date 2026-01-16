@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 [रास्पबेरी पाय](https://raspberrypi.org) हे एक सिंगल-बोर्ड संगणक आहे. तुम्ही सेन्सर्स आणि अ‍ॅक्ट्युएटर्स जोडण्यासाठी विविध उपकरणे आणि इकोसिस्टम वापरू शकता, आणि या धड्यांसाठी [Grove](https://www.seeedstudio.com/category/Grove-c-1003.html) नावाच्या हार्डवेअर इकोसिस्टमचा वापर केला जात आहे. तुम्ही तुमच्या पायसाठी कोड लिहाल आणि Grove सेन्सर्सना Python वापरून ऍक्सेस कराल.
 
-![रास्पबेरी पाय 4](../../../../../translated_images/mr/raspberry-pi-4.fd4590d308c3d456.jpg)
+![रास्पबेरी पाय 4](../../../../../translated_images/mr/raspberry-pi-4.fd4590d308c3d456.webp)
 
 ## सेटअप
 
@@ -112,7 +112,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 1. रास्पबेरी पाय इमेजरमधून, **CHOOSE OS** बटण निवडा, नंतर *Raspberry Pi OS (Other)* निवडा, त्यानंतर *Raspberry Pi OS Lite (32-bit)* निवडा.
 
-    ![रास्पबेरी पाय इमेजर Raspberry Pi OS Lite निवडलेले](../../../../../translated_images/mr/raspberry-pi-imager.24aedeab9e233d84.png)
+    ![रास्पबेरी पाय इमेजर Raspberry Pi OS Lite निवडलेले](../../../../../translated_images/mr/raspberry-pi-imager.24aedeab9e233d84.webp)
 
     > 💁 Raspberry Pi OS Lite ही Raspberry Pi OS ची आवृत्ती आहे ज्यामध्ये डेस्कटॉप UI किंवा UI आधारित साधने नाहीत. हे हेडलेस पायसाठी आवश्यक नाही आणि इंस्टॉल लहान आणि बूट अप वेळ जलद बनवते.
 
@@ -241,7 +241,7 @@ Hello World अ‍ॅप तयार करा.
 
 1. *File -> Open...* निवडून आणि *nightlight* फोल्डर निवडून, नंतर **OK** निवडून हा फोल्डर VS Code मध्ये उघडा.
 
-    ![VS Code ओपन डायलॉग nightlight फोल्डर दाखवत आहे](../../../../../translated_images/mr/vscode-open-nightlight-remote.d3d2a4011e30d535.png)
+    ![VS Code ओपन डायलॉग nightlight फोल्डर दाखवत आहे](../../../../../translated_images/mr/vscode-open-nightlight-remote.d3d2a4011e30d535.webp)
 
 1. VS Code एक्सप्लोररमधून `app.py` फाइल उघडा आणि खालील कोड जोडा:
 

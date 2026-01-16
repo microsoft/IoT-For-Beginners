@@ -72,7 +72,7 @@ A felhőszolgáltató pedig a méretgazdaságosságot kihasználva csökkentheti
 
 Az Azure a Microsoft fejlesztői felhője, és ez az a felhő, amelyet ezekben a leckékben használni fogsz. Az alábbi videó rövid áttekintést nyújt az Azure-ról:
 
-[![Azure áttekintő videó](../../../../../translated_images/hu/what-is-azure-video-thumbnail.20174db09e03bbb8.png)](https://www.microsoft.com/videoplayer/embed/RE4Ibng?WT.mc_id=academic-17441-jabenn)
+[![Azure áttekintő videó](../../../../../translated_images/hu/what-is-azure-video-thumbnail.20174db09e03bbb8.webp)](https://www.microsoft.com/videoplayer/embed/RE4Ibng?WT.mc_id=academic-17441-jabenn)
 
 ## Felhő előfizetés létrehozása
 

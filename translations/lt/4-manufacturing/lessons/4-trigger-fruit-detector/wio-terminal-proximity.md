@@ -35,7 +35,7 @@ Prijunkite Time of Flight jutiklį.
 
 2. Kai Wio Terminalas yra atjungtas nuo kompiuterio ar kito maitinimo šaltinio, prijunkite kitą Grove kabelio galą prie kairiosios Grove jungties Wio Terminale, žiūrint į ekraną. Tai yra jungtis, esanti arčiausiai maitinimo mygtuko. Tai yra kombinuota skaitmeninė ir I²C jungtis.
 
-![Grove Time of Flight jutiklis prijungtas prie kairiosios jungties](../../../../../translated_images/lt/wio-time-of-flight-sensor.c4c182131d2ea73d.png)
+![Grove Time of Flight jutiklis prijungtas prie kairiosios jungties](../../../../../translated_images/lt/wio-time-of-flight-sensor.c4c182131d2ea73d.webp)
 
 3. Dabar galite prijungti Wio Terminalą prie savo kompiuterio.
 
@@ -101,7 +101,7 @@ Dabar Wio Terminalą galima užprogramuoti naudoti prijungtą Time of Flight jut
 
     Nuotolio matuoklis yra jutiklio gale, todėl įsitikinkite, kad naudojate tinkamą pusę matuodami atstumą.
 
-    ![Nuotolio matuoklis Time of Flight jutiklio gale, nukreiptas į bananą](../../../../../translated_images/lt/time-of-flight-banana.079921ad8b1496e4.png)
+    ![Nuotolio matuoklis Time of Flight jutiklio gale, nukreiptas į bananą](../../../../../translated_images/lt/time-of-flight-banana.079921ad8b1496e4.webp)
 
 > 💁 Šį kodą galite rasti [code-proximity/wio-terminal](../../../../../4-manufacturing/lessons/4-trigger-fruit-detector/code-proximity/wio-terminal) aplanke.
 

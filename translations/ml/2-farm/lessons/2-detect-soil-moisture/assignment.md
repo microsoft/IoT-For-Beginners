@@ -29,14 +29,14 @@ CO_OP_TRANSLATOR_METADATA:
 
 ഗ്രാവിമെട്രിക് മണ്ണിലെ ഈർപ്പം ഇങ്ങനെ കണക്കാക്കപ്പെടുന്നു:
 
-![soil moisture % is weight wet minus weight dry, divided by weight dry, times 100](../../../../../translated_images/ml/gsm-calculation.6da38c6201eec14e.png)
+![soil moisture % is weight wet minus weight dry, divided by weight dry, times 100](../../../../../translated_images/ml/gsm-calculation.6da38c6201eec14e.webp)
 
 * W<sub>wet</sub> - ഈർപ്പം മണ്ണിന്റെ ഭാരമുള്ള അവസ്ഥയിലെ ഭാരം
 * W<sub>dry</sub> - ഉണങ്ങിയ മണ്ണിന്റെ ഭാരം
 
 ഉദാഹരണത്തിന്, മണ്ണ് സാമ്പിൾ ഈർപ്പം മോയിസ്റ്റ് 212 ഗ്രാം, ഉണങ്ങിയഭാരം 197 ഗ്രാം ആണെന്ന് കരുതുക.
 
-![The calculation filled in](../../../../../translated_images/ml/gsm-calculation-example.99f9803b4f29e976.png)
+![The calculation filled in](../../../../../translated_images/ml/gsm-calculation-example.99f9803b4f29e976.webp)
 
 * W<sub>wet</sub> = 212 ഗ്രാം
 * W<sub>dry</sub> = 197 ഗ്രാം

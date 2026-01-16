@@ -41,7 +41,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 > 💁 데이터베이스 트리거를 사용해본 적이 있다면, 이를 이벤트(예: 행 삽입)에 의해 트리거되는 코드와 같은 것으로 생각할 수 있습니다.
 
-![많은 이벤트가 동시에 전송될 때, 서버리스 서비스가 확장되어 모든 이벤트를 동시에 처리하는 모습](../../../../../translated_images/ko/serverless-scaling.f8c769adf0413fd1.png)
+![많은 이벤트가 동시에 전송될 때, 서버리스 서비스가 확장되어 모든 이벤트를 동시에 처리하는 모습](../../../../../translated_images/ko/serverless-scaling.f8c769adf0413fd1.webp)
 
 코드는 이벤트가 발생할 때만 실행되며, 다른 시간에는 코드가 활성 상태로 유지되지 않습니다. 이벤트가 발생하면 코드가 로드되고 실행됩니다. 이는 서버리스가 매우 확장 가능하다는 것을 의미합니다. 많은 이벤트가 동시에 발생하면 클라우드 제공자가 필요한 만큼의 함수를 여러 서버에서 동시에 실행할 수 있습니다. 단점은 이벤트 간에 정보를 공유해야 할 경우, 메모리에 저장하는 대신 데이터베이스와 같은 곳에 저장해야 한다는 점입니다.
 
@@ -244,7 +244,7 @@ Azure Functions CLI를 사용하여 새 Functions 앱을 생성할 수 있습니
     VS Code. Initialize for optimal use with VS Code?
     ```
 
-    ![알림](../../../../../translated_images/ko/vscode-azure-functions-init-notification.bd19b49229963edb.png)
+    ![알림](../../../../../translated_images/ko/vscode-azure-functions-init-notification.bd19b49229963edb.webp)
 
     이 알림에서 **Yes**를 선택합니다.
 

@@ -17,7 +17,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 ಲೈಟ್ ಸೆನ್ಸರ್ Wio ಟರ್ಮಿನಲ್‌ನಲ್ಲಿ ನಿರ್ಮಿತವಾಗಿದ್ದು, ಹಿಂಭಾಗದ ಸ್ಪಷ್ಟ ಪ್ಲಾಸ್ಟಿಕ್ ವಿಂಡೋ ಮೂಲಕ ಕಾಣಸಿಗುತ್ತದೆ.
 
-![The light sensor on the back of the Wio Terminal](../../../../../translated_images/kn/wio-light-sensor.b1f529f3c95f5165.png)
+![The light sensor on the back of the Wio Terminal](../../../../../translated_images/kn/wio-light-sensor.b1f529f3c95f5165.webp)
 
 ## ಲೈಟ್ ಸೆನ್ಸರ್ ಪ್ರೋಗ್ರಾಮ್ ಮಾಡಿ
 

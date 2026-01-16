@@ -27,17 +27,17 @@ CO_OP_TRANSLATOR_METADATA:
 
 ಮಣ್ಣು ತೇವಾಂಶ ಸೆನ್ಸಾರ್ ಅನ್ನು ಸಂಪರ್ಕಿಸಿ.
 
-![A grove soil moisture sensor](../../../../../translated_images/kn/grove-capacitive-soil-moisture-sensor.e7f0776cce30e78b.png)
+![A grove soil moisture sensor](../../../../../translated_images/kn/grove-capacitive-soil-moisture-sensor.e7f0776cce30e78b.webp)
 
 1. ಗ್ರೋವು ಕೇಬಲ್ ನ ಒಂದು ಕೊನೆಯನ್ನು ಮಣ್ಣು ತೇವಾಂಶ ಸೆನ್ಸಾರ್‌ನ ಸಾಕೇಟ್‌ನಲ್ಲಿ ಮುಟ್ಟು. ಇದು ಸರಿ ಕಡೆ ಮಾತ್ರ ಹೋಗುತ್ತದೆ.
 
 1. ರಾಸ್ಬೆರ್ರಿ ಪೈ ಪವರ್ ಆಫ್ ಆಗಿದ್ದಾಗ, ಗ್ರೋವು ಕೇಬಲ್‌ನ ಇನ್ನೊಂದು ಕೊನೆಯನ್ನು Pi ಬಳಿ ಅಂಟಿಕೊಂಡಿರುವ ಗ್ರೋವು ಬೇಸ್ ಹ್ಯಾಟ್‌ನ ಅನಾಲಾಗ್ ಸಾಕೇಟ್ **A0** ಗೆ ಸಂಪರ್ಕಿಸಿ. ಈ ಸಾಕೇಟ್ GPIO ಪಿನ್ ಗಳು ಇರುವ ಸರಣಿಯಲ್ಲಿನ ಎರಡನೇದು ಬಲದಿಂದ.
 
-![The grove soil moisture sensor connected to the A0 socket](../../../../../translated_images/kn/pi-soil-moisture-sensor.fdd7eb2393792cf6.png)
+![The grove soil moisture sensor connected to the A0 socket](../../../../../translated_images/kn/pi-soil-moisture-sensor.fdd7eb2393792cf6.webp)
 
 1. ಮಣ್ಣು ತೇವಾಂಶ ಸೆನ್ಸಾರ್ ಅನ್ನು ಮಣ್ಣಿನಲ್ಲಿ ನೆಲೆಗಿಳಿಸಿ. ಇದರಲ್ಲಿ 'ಉನ್ನತ ಸ್ಥಾನ ರೇಖೆ' ಇರುತ್ತದೆ - ಸೆನ್ಸಾರ್ ಗಡೆಗೂಡಿ ಬಿಳಿ ರೇಖೆಯೊಂದಿದೆ. ಸೆನ್ಸಾರ್ ಅನ್ನು ಈ ರೇಖೆಗೆ ತಲುಪುವಷ್ಟು ಮಾತ್ರ ಎಣಿಸಿ ಮತ್ತು ಮುಂದೆ ಹಾಕಬೇಡಿ.
 
-![The grove soil moisture sensor in soil](../../../../../translated_images/kn/soil-moisture-sensor-in-soil.bfad91002bda5e96.png)
+![The grove soil moisture sensor in soil](../../../../../translated_images/kn/soil-moisture-sensor-in-soil.bfad91002bda5e96.webp)
 
 ## ಮಣ್ಣು ತೇವಾಂಶ ಸೆನ್ಸಾರ್ ಪ್ರೋಗ್ರಾಂ ಮಾಡಿ
 

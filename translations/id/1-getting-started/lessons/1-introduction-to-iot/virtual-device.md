@@ -154,11 +154,11 @@ Buat aplikasi Python untuk mencetak `"Hello World"` ke konsol.
 
 1. Ketika VS Code diluncurkan, itu akan mengaktifkan lingkungan virtual Python. Lingkungan virtual yang dipilih akan muncul di bilah status bawah:
 
-    ![VS Code menunjukkan lingkungan virtual yang dipilih](../../../../../translated_images/id/vscode-virtual-env.8ba42e04c3d533cf.png)
+    ![VS Code menunjukkan lingkungan virtual yang dipilih](../../../../../translated_images/id/vscode-virtual-env.8ba42e04c3d533cf.webp)
 
 1. Jika Terminal VS Code sudah berjalan saat VS Code dimulai, lingkungan virtual tidak akan diaktifkan di dalamnya. Cara termudah untuk mengatasinya adalah dengan menutup terminal menggunakan tombol **Kill the active terminal instance**:
 
-    ![Tombol VS Code Kill the active terminal instance](../../../../../translated_images/id/vscode-kill-terminal.1cc4de7c6f25ee08.png)
+    ![Tombol VS Code Kill the active terminal instance](../../../../../translated_images/id/vscode-kill-terminal.1cc4de7c6f25ee08.webp)
 
     Anda dapat mengetahui apakah terminal memiliki lingkungan virtual yang diaktifkan karena nama lingkungan virtual akan menjadi awalan pada prompt terminal. Misalnya, mungkin:
 
@@ -229,7 +229,7 @@ Sebagai langkah kedua 'Hello World', Anda akan menjalankan aplikasi CounterFit d
 
 1. Anda perlu meluncurkan terminal VS Code baru dengan memilih tombol **Create a new integrated terminal**. Ini karena aplikasi CounterFit sedang berjalan di terminal saat ini.
 
-    ![Tombol VS Code Create a new integrated terminal](../../../../../translated_images/id/vscode-new-terminal.77db8fc0f9cd3182.png)
+    ![Tombol VS Code Create a new integrated terminal](../../../../../translated_images/id/vscode-new-terminal.77db8fc0f9cd3182.webp)
 
 1. Di terminal baru ini, jalankan file `app.py` seperti sebelumnya. Status CounterFit akan berubah menjadi **Connected** dan LED akan menyala.
 

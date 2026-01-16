@@ -33,7 +33,7 @@ Csatlakoztasd a hőmérséklet-érzékelőt.
 
 1. Miután a Wio Terminal nincs csatlakoztatva a számítógéphez vagy más áramforráshoz, csatlakoztasd a Grove kábel másik végét a Wio Terminal jobb oldali Grove aljzatába, ahogy a képernyőre nézel. Ez az aljzat van a legtávolabb a bekapcsológombtól.
 
-![A Grove hőmérséklet-érzékelő csatlakoztatva a jobb oldali aljzathoz](../../../../../translated_images/hu/wio-temperature-sensor.2934928f38c7f79a.png)
+![A Grove hőmérséklet-érzékelő csatlakoztatva a jobb oldali aljzathoz](../../../../../translated_images/hu/wio-temperature-sensor.2934928f38c7f79a.webp)
 
 ## Programozd a hőmérséklet-érzékelőt
 

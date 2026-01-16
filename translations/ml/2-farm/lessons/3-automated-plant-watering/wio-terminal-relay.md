@@ -27,13 +27,13 @@ Grove റീലേ Wio ടെർമിനലിന്റെ ഡിജിറ്�
 
 റീലേ കണക്ട് ചെയ്യുക.
 
-![A grove relay](../../../../../translated_images/ml/grove-relay.d426958ca210fbd0.png)
+![A grove relay](../../../../../translated_images/ml/grove-relay.d426958ca210fbd0.webp)
 
 1. Grove കേബിളിന്റെ ഒരു അറ്റം റീലേയിലെ സോക്കറ്റിലേക്ക് ചേർക്കുക. ഇത് ഒരു മാത്രം വഴിയായി പോകും.
 
 1. നിങ്ങളുടെ കമ്പ്യൂട്ടർ അല്ലെങ്കിൽ മറ്റു പവർ സപ്ലൈയിൽ മുന്നറിയുപ്പ് ഇല്ലാതെ Wio ടെർമിനൽ കണക്ട് ചെയ്യുക, Grove കേബിളിന്റെ മറ്റൊരു അറ്റം സ്ക്രീൻ കാണുമ്പോൾ Wio ടെർമിനലിന്റെ ഇടതുഭാഗത്തെ Grove സോക്കറ്റിൽ കണക്ട് ചെയ്യുക. മണ്ണിലെ ഈർപ്പം സെൻസർ വലതുഭാഗത്തെ സോക്കറ്റിൽ തുടരുക.
 
-![The grove relay connected to the left-hand socket, and the soil moisture sensor connected to the right hand socket](../../../../../translated_images/ml/wio-relay-and-soil-moisture-sensor.ed722202d42babe0.png)
+![The grove relay connected to the left-hand socket, and the soil moisture sensor connected to the right hand socket](../../../../../translated_images/ml/wio-relay-and-soil-moisture-sensor.ed722202d42babe0.webp)
 
 1. മണ്ണിലെ ഈർപ്പം സെൻസർ മണ്ണിൽ ഓർക്കുക, മുമ്പത്തെ പാഠത്തിൽ നിന്ന് നിലവിൽ മണ്ണിൽ ഇല്ലെങ്കിൽ.
 

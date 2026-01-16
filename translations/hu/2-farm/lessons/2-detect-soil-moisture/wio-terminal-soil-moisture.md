@@ -33,11 +33,11 @@ Csatlakoztasd a talajnedvesség-érzékelőt.
 
 1. Amíg a Wio Terminal nincs csatlakoztatva a számítógépedhez vagy más áramforráshoz, csatlakoztasd a Grove kábel másik végét a Wio Terminal jobb oldali Grove aljzatába, ahogy a képernyőre nézel. Ez az aljzat van a legtávolabb a bekapcsológombtól.
 
-![A Grove talajnedvesség-érzékelő csatlakoztatva a jobb oldali aljzathoz](../../../../../translated_images/hu/wio-soil-moisture-sensor.46919b61c3f6cb74.png)
+![A Grove talajnedvesség-érzékelő csatlakoztatva a jobb oldali aljzathoz](../../../../../translated_images/hu/wio-soil-moisture-sensor.46919b61c3f6cb74.webp)
 
 1. Helyezd a talajnedvesség-érzékelőt a talajba. Az érzékelőn van egy "legmagasabb pozíció vonal" - egy fehér vonal az érzékelőn. Helyezd be az érzékelőt eddig a vonalig, de ne tovább.
 
-![A Grove talajnedvesség-érzékelő a talajban](../../../../../translated_images/hu/soil-moisture-sensor-in-soil.bfad91002bda5e96.png)
+![A Grove talajnedvesség-érzékelő a talajban](../../../../../translated_images/hu/soil-moisture-sensor-in-soil.bfad91002bda5e96.webp)
 
 1. Most csatlakoztathatod a Wio Terminalt a számítógépedhez.
 

@@ -64,7 +64,7 @@ Mikrofoni dolaze u raznim vrstama:
 
 * Trakasti - Trakasti mikrofoni slični su dinamičkim mikrofonima, osim što imaju metalnu traku umjesto membrane. Ova traka se pomiče u magnetskom polju stvarajući električnu struju. Kao i dinamički mikrofoni, trakasti mikrofoni ne trebaju napajanje za rad.
 
-    ![Edmund Lowe, američki glumac, stoji uz radijski mikrofon (označen za (NBC) Blue Network), drži skriptu, 1942](../../../../../translated_images/hr/ribbon-mic.eacc8e092c7441ca.jpg)
+    ![Edmund Lowe, američki glumac, stoji uz radijski mikrofon (označen za (NBC) Blue Network), drži skriptu, 1942](../../../../../translated_images/hr/ribbon-mic.eacc8e092c7441ca.webp)
 
 * Kondenzatorski - Kondenzatorski mikrofoni imaju tanku metalnu membranu i fiksnu metalnu stražnju ploču. Elektricitet se primjenjuje na obje ove komponente, a kako membrana vibrira, statički naboj između ploča se mijenja generirajući signal. Kondenzatorski mikrofoni trebaju napajanje za rad - nazvano *Phantom power*.
 
@@ -84,7 +84,7 @@ Zvuk je analogni signal koji nosi vrlo detaljne informacije. Da bi se taj signal
 
 > 🎓 Uzorkovanje je pretvaranje audio signala u digitalnu vrijednost koja predstavlja signal u tom trenutku.
 
-![Grafikon koji prikazuje signal s diskretnim točkama u fiksnim intervalima](../../../../../translated_images/hr/sampling.6f4fadb3f2d9dfe7.png)
+![Grafikon koji prikazuje signal s diskretnim točkama u fiksnim intervalima](../../../../../translated_images/hr/sampling.6f4fadb3f2d9dfe7.webp)
 
 Digitalni zvuk se uzorkuje pomoću Pulse Code Modulation (PCM). PCM uključuje očitavanje napona signala i odabir najbliže diskretne vrijednosti tom naponu koristeći definiranu veličinu.
 

@@ -29,7 +29,7 @@ Collega la fotocamera.
 
 1. I pin alla base dell'ArduCam devono essere collegati ai pin GPIO del Wio Terminal. Per facilitare l'individuazione dei pin corretti, applica l'adesivo dei pin GPIO fornito con il Wio Terminal attorno ai pin:
 
-    ![Il Wio Terminal con l'adesivo dei pin GPIO applicato](../../../../../translated_images/it/wio-terminal-pin-sticker.b90b1535937b84bd.png)
+    ![Il Wio Terminal con l'adesivo dei pin GPIO applicato](../../../../../translated_images/it/wio-terminal-pin-sticker.b90b1535937b84bd.webp)
 
 1. Utilizzando dei cavi jumper, effettua i seguenti collegamenti:
 
@@ -297,7 +297,7 @@ Ora il Wio Terminal può essere programmato per catturare un'immagine quando vie
 
 1. I microcontrollori eseguono il tuo codice continuamente, quindi non è facile attivare qualcosa come scattare una foto senza reagire a un sensore. Il Wio Terminal ha dei pulsanti, quindi la fotocamera può essere configurata per essere attivata da uno di questi pulsanti. Aggiungi il seguente codice alla fine della funzione `setup` per configurare il pulsante C (uno dei tre pulsanti in alto, quello più vicino all'interruttore di accensione).
 
-    ![Il pulsante C in alto vicino all'interruttore di accensione](../../../../../translated_images/it/wio-terminal-c-button.73df3cb1c1445ea0.png)
+    ![Il pulsante C in alto vicino all'interruttore di accensione](../../../../../translated_images/it/wio-terminal-c-button.73df3cb1c1445ea0.webp)
 
     ```cpp
     pinMode(WIO_KEY_C, INPUT_PULLUP);

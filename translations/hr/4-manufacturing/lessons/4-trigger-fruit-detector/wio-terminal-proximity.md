@@ -35,7 +35,7 @@ Povežite senzor Time of Flight.
 
 1. Dok je Wio Terminal isključen s vašeg računala ili drugog izvora napajanja, spojite drugi kraj Grove kabela na lijevi Grove priključak na Wio Terminalu dok gledate u ekran. To je priključak najbliži gumbu za uključivanje. Ovo je kombinirani digitalni i I²C priključak.
 
-![Grove senzor Time of Flight povezan s lijevim priključkom](../../../../../translated_images/hr/wio-time-of-flight-sensor.c4c182131d2ea73d.png)
+![Grove senzor Time of Flight povezan s lijevim priključkom](../../../../../translated_images/hr/wio-time-of-flight-sensor.c4c182131d2ea73d.webp)
 
 1. Sada možete spojiti Wio Terminal na svoje računalo.
 
@@ -101,7 +101,7 @@ Wio Terminal sada se može programirati za korištenje povezanog senzora Time of
 
     Mjerač udaljenosti nalazi se na stražnjoj strani senzora, stoga pazite da koristite ispravnu stranu prilikom mjerenja udaljenosti.
 
-    ![Mjerač udaljenosti na stražnjoj strani senzora Time of Flight usmjeren prema banani](../../../../../translated_images/hr/time-of-flight-banana.079921ad8b1496e4.png)
+    ![Mjerač udaljenosti na stražnjoj strani senzora Time of Flight usmjeren prema banani](../../../../../translated_images/hr/time-of-flight-banana.079921ad8b1496e4.webp)
 
 > 💁 Ovaj kod možete pronaći u mapi [code-proximity/wio-terminal](../../../../../4-manufacturing/lessons/4-trigger-fruit-detector/code-proximity/wio-terminal).
 

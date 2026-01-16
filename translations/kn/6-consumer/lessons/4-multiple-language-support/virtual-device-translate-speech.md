@@ -46,7 +46,7 @@ CO_OP_TRANSLATOR_METADATA:
     >
     > ಉದಾಹರಣೆಗೆ, ನೀವು LUIS ಅನ್ನು ಇಂಗ್ಲಿಷ್ ನಲ್ಲಿ ತರಬೇತಿದೆಯಾದರೂ, ಬಳಕೆದಾರ ಭಾಷೆಯಾಗಿಯೂ ಫ್ರೆಂಚ್ ಬಳಸಬೇಕಾದರೆ, "set a 2 minute and 27 second timer" ಎಂಬ ವಾಕ್ಯವನ್ನು ಇಂಗ್ಲಿಷ್ ನಿಂದ ಫ್ರೆಂಚ್ ಗೆ Bing Translate ಬಳಸಿ ಅನುವಾದಿಸಿ, ನಂತರ **Listen translation** ಬಟನ್ ಬಳಸಿ ಅನುವಾದಿತ ಆಡಿಯೋವನ್ನು ಮೈಕ್ರೋಫೋನ್ ನಲ್ಲಿ ಹೇಳಬಹುದಾಗಿದೆ.
     >
-    > ![Bing translate上的听译按钮](../../../../../translated_images/kn/bing-translate.348aa796d6efe2a9.png)
+    > ![Bing translate上的听译按钮](../../../../../translated_images/kn/bing-translate.348aa796d6efe2a9.webp)
 
 1. `recognizer_config` ಮತ್ತು `recognizer` ಘೋಷಣೆಗಳನ್ನು ಕೆಳಗಿನಂತೆ ಬದಲಿಸಿ:
 

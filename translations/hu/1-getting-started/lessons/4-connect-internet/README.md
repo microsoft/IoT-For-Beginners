@@ -46,7 +46,7 @@ Ebben a leckében a következő témákat tárgyaljuk:
 
 Számos népszerű kommunikációs protokoll létezik, amelyeket az IoT-eszközök használnak az internetes kommunikációhoz. A legnépszerűbbek a publikálás/feliratkozás üzenetküldésen alapulnak valamilyen közvetítőn keresztül. Az IoT-eszközök csatlakoznak a közvetítőhöz, és telemetriát publikálnak, valamint parancsokra iratkoznak fel. A felhőszolgáltatások szintén csatlakoznak a közvetítőhöz, és feliratkoznak az összes telemetriai üzenetre, valamint parancsokat publikálnak, akár konkrét eszközökre, akár eszközcsoportokra.
 
-![Az IoT-eszközök egy közvetítőhöz csatlakoznak, telemetriát publikálnak és parancsokra iratkoznak fel. A felhőszolgáltatások szintén csatlakoznak a közvetítőhöz, feliratkoznak az összes telemetriára, és parancsokat küldenek konkrét eszközökre.](../../../../../translated_images/hu/pub-sub.7c7ed43fe9fd15d4.png)
+![Az IoT-eszközök egy közvetítőhöz csatlakoznak, telemetriát publikálnak és parancsokra iratkoznak fel. A felhőszolgáltatások szintén csatlakoznak a közvetítőhöz, feliratkoznak az összes telemetriára, és parancsokat küldenek konkrét eszközökre.](../../../../../translated_images/hu/pub-sub.7c7ed43fe9fd15d4.webp)
 
 Az MQTT a legnépszerűbb kommunikációs protokoll az IoT-eszközök számára, és ezt a leckében tárgyaljuk. Egyéb protokollok közé tartozik az AMQP és a HTTP/HTTPS.
 
@@ -115,7 +115,7 @@ A telemetria szó görög gyökerekből származik, jelentése távoli mérés. 
 
 Nézzük vissza az 1. leckében bemutatott okos termosztát példáját.
 
-![Egy internethez csatlakoztatott termosztát több szobai érzékelővel](../../../../../translated_images/hu/telemetry.21e5d8b97649d2eb.png)
+![Egy internethez csatlakoztatott termosztát több szobai érzékelővel](../../../../../translated_images/hu/telemetry.21e5d8b97649d2eb.webp)
 
 A termosztát hőmérséklet-érzékelőkkel gyűjti a telemetriát. Valószínűleg egy beépített hőmérséklet-érzékelővel rendelkezik, és több külső hőmérséklet-érzékelőhöz is csatlakozhat egy vezeték nélküli protokoll, például [Bluetooth Low Energy](https://wikipedia.org/wiki/Bluetooth_Low_Energy) (BLE) segítségével.
 
@@ -253,11 +253,11 @@ Most már megírhatja a szerver kódját Pythonban.
 
 1. Amikor a VS Code elindul, aktiválni fogja a Python virtuális környezetet. Ezt az alsó állapotsorban fogja jelezni:
 
-    ![A VS Code a kiválasztott virtuális környezetet mutatja](../../../../../translated_images/hu/vscode-virtual-env.8ba42e04c3d533cf.png)
+    ![A VS Code a kiválasztott virtuális környezetet mutatja](../../../../../translated_images/hu/vscode-virtual-env.8ba42e04c3d533cf.webp)
 
 1. Ha a VS Code Terminál már fut, amikor a VS Code elindul, akkor nem lesz aktiválva benne a virtuális környezet. A legegyszerűbb megoldás az, ha bezárja a terminált az **Aktív terminálpéldány bezárása** gombbal:
 
-    ![A VS Code Aktív terminálpéldány bezárása gomb](../../../../../translated_images/hu/vscode-kill-terminal.1cc4de7c6f25ee08.png)
+    ![A VS Code Aktív terminálpéldány bezárása gomb](../../../../../translated_images/hu/vscode-kill-terminal.1cc4de7c6f25ee08.webp)
 
 1. Indítson egy új VS Code Terminált a *Terminál -> Új terminál* menüpont kiválasztásával, vagy a `` CTRL+` `` billentyűkombináció megnyomásával. Az új terminál betölti a virtuális környezetet, és az aktiválás parancsa megjelenik a terminálban. A virtuális környezet neve (`.venv`) szintén megjelenik a promptban:
 

@@ -154,11 +154,11 @@ Python仮想環境が準備できたら、'Hello World'アプリケーション�
 
 1. VS Codeが起動すると、Python仮想環境が有効化されます。選択された仮想環境は、下部のステータスバーに表示されます：
 
-    ![VS Codeに選択された仮想環境が表示されている](../../../../../translated_images/ja/vscode-virtual-env.8ba42e04c3d533cf.png)
+    ![VS Codeに選択された仮想環境が表示されている](../../../../../translated_images/ja/vscode-virtual-env.8ba42e04c3d533cf.webp)
 
 1. VS Codeターミナルが起動時にすでに実行中の場合、仮想環境がターミナル内で有効化されていない可能性があります。この場合、**Kill the active terminal instance**ボタンを使用してターミナルを終了するのが最も簡単です：
 
-    ![VS CodeのKill the active terminal instanceボタン](../../../../../translated_images/ja/vscode-kill-terminal.1cc4de7c6f25ee08.png)
+    ![VS CodeのKill the active terminal instanceボタン](../../../../../translated_images/ja/vscode-kill-terminal.1cc4de7c6f25ee08.webp)
 
     ターミナルに仮想環境が有効化されているかどうかは、ターミナルプロンプトに仮想環境の名前がプレフィックスとして表示されるかどうかで確認できます。例えば、以下のように表示される場合があります：
 
@@ -229,7 +229,7 @@ Python仮想環境が準備できたら、'Hello World'アプリケーション�
 
 1. CounterFitアプリが現在のターミナルで実行中のため、新しいVS Codeターミナルを起動する必要があります。**Create a new integrated terminal**ボタンを選択してください：
 
-    ![VS CodeのCreate a new integrated terminalボタン](../../../../../translated_images/ja/vscode-new-terminal.77db8fc0f9cd3182.png)
+    ![VS CodeのCreate a new integrated terminalボタン](../../../../../translated_images/ja/vscode-new-terminal.77db8fc0f9cd3182.webp)
 
 1. この新しいターミナルで、先ほどと同じように`app.py`ファイルを実行します。CounterFitのステータスが**Connected**に変わり、LEDが点灯します。
 

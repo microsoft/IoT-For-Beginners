@@ -97,15 +97,15 @@ A titkosításnak két típusa van - szimmetrikus és aszimmetrikus.
 
 **Szimmetrikus** titkosítás ugyanazt a kulcsot használja az adatok titkosítására és dekódolására. Mind a küldőnek, mind a fogadónak ismernie kell ugyanazt a kulcsot. Ez a legkevésbé biztonságos típus, mivel a kulcsot valahogy meg kell osztani. Ahhoz, hogy a küldő titkosított üzenetet küldjön a címzettnek, először el kell küldenie a címzettnek a kulcsot.
 
-![A szimmetrikus kulcs titkosítás ugyanazt a kulcsot használja az üzenet titkosítására és dekódolására](../../../../../translated_images/hu/send-message-symmetric-key.a2e8ad0d495896ff.png)
+![A szimmetrikus kulcs titkosítás ugyanazt a kulcsot használja az üzenet titkosítására és dekódolására](../../../../../translated_images/hu/send-message-symmetric-key.a2e8ad0d495896ff.webp)
 
 Ha a kulcsot ellopják az átvitel során, vagy a küldőt vagy a címzettet feltörik, és megtalálják a kulcsot, a titkosítás feltörhető.
 
-![A szimmetrikus kulcs titkosítás csak akkor biztonságos, ha a hacker nem szerzi meg a kulcsot - ha igen, elfoghatja és dekódolhatja az üzenetet](../../../../../translated_images/hu/send-message-symmetric-key-hacker.e7cb53db1707adfb.png)
+![A szimmetrikus kulcs titkosítás csak akkor biztonságos, ha a hacker nem szerzi meg a kulcsot - ha igen, elfoghatja és dekódolhatja az üzenetet](../../../../../translated_images/hu/send-message-symmetric-key-hacker.e7cb53db1707adfb.webp)
 
 **Aszimmetrikus** titkosítás 2 kulcsot használ - egy titkosítási kulcsot és egy dekódolási kulcsot, amelyeket nyilvános/privát kulcspárnak nevezünk. A nyilvános kulcsot az üzenet titkosítására használják, de nem lehet vele dekódolni, a privát kulcsot az üzenet dekódolására használják, de nem lehet vele titkosítani.
 
-![Az aszimmetrikus titkosítás különböző kulcsot használ az üzenet titkosítására és dekódolására. A titkosítási kulcsot elküldik az üzenetküldőknek, hogy titkosítsák az üzenetet, mielőtt elküldik a címzettnek, aki birtokolja a kulcsokat](../../../../../translated_images/hu/send-message-asymmetric.7abe327c62615b8c.png)
+![Az aszimmetrikus titkosítás különböző kulcsot használ az üzenet titkosítására és dekódolására. A titkosítási kulcsot elküldik az üzenetküldőknek, hogy titkosítsák az üzenetet, mielőtt elküldik a címzettnek, aki birtokolja a kulcsokat](../../../../../translated_images/hu/send-message-asymmetric.7abe327c62615b8c.webp)
 
 A címzett megosztja a nyilvános kulcsát, és a küldő ezt használja az üzenet titkosítására. Miután az üzenetet elküldték, a címzett a privát kulcsával dekódolja azt. Az aszimmetrikus titkosítás biztonságosabb, mivel a privát kulcsot a címzett titokban tartja, és sosem osztja meg. Bárki megkaphatja a nyilvános kulcsot, mivel az csak üzenetek titkosítására használható.
 
@@ -157,7 +157,7 @@ Ezek a tanúsítványok számos mezőt tartalmaznak, például hogy kitől szár
 
 X.509 tanúsítványok használatakor mind a küldőnek, mind a címzettnek megvan a saját nyilvános és magánkulcsa, valamint mindkettőjüknek van X.509 tanúsítványa, amely tartalmazza a nyilvános kulcsot. Ezután valamilyen módon kicserélik az X.509 tanúsítványaikat, egymás nyilvános kulcsait használva titkosítják az általuk küldött adatokat, és a saját magánkulcsukkal dekódolják a kapott adatokat.
 
-![A nyilvános kulcs megosztása helyett megoszthatsz egy tanúsítványt. A tanúsítvány használója ellenőrizheti, hogy az tőled származik-e, a tanúsítványt aláíró tanúsítványkiadó hatóságnál.](../../../../../translated_images/hu/send-message-certificate.9cc576ac1e46b76e.png)
+![A nyilvános kulcs megosztása helyett megoszthatsz egy tanúsítványt. A tanúsítvány használója ellenőrizheti, hogy az tőled származik-e, a tanúsítványt aláíró tanúsítványkiadó hatóságnál.](../../../../../translated_images/hu/send-message-certificate.9cc576ac1e46b76e.webp)
 
 Az X.509 tanúsítványok egyik nagy előnye, hogy megoszthatók az eszközök között. Létrehozhatsz egy tanúsítványt, feltöltheted az IoT Hubba, és ezt használhatod az összes eszközödhöz. Minden eszköznek csak a magánkulcsot kell ismernie, hogy dekódolhassa az IoT Hubtól kapott üzeneteket.
 

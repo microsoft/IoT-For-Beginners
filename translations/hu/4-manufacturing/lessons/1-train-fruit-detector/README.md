@@ -61,7 +61,7 @@ A legújabb válogatógépek az AI és az ML előnyeit használják ki, olyan mo
 
 A hagyományos programozás során adatokat adsz meg, alkalmazol egy algoritmust, és eredményt kapsz. Például az előző projektben GPS koordinátákat és egy geokerítést adtál meg, alkalmaztál egy algoritmust, amelyet az Azure Maps biztosított, és eredményként megkaptad, hogy a pont a geokerítésen belül vagy kívül van. Több adatot adsz meg, több eredményt kapsz.
 
-![A hagyományos fejlesztés bemenetet és algoritmust használ, hogy eredményt adjon. A gépi tanulás bemenetet és ismert eredményeket használ egy modell betanításához, amely új bemenetekből új eredményeket generál.](../../../../../translated_images/hu/traditional-vs-ml.5c20c169621fa539.png)
+![A hagyományos fejlesztés bemenetet és algoritmust használ, hogy eredményt adjon. A gépi tanulás bemenetet és ismert eredményeket használ egy modell betanításához, amely új bemenetekből új eredményeket generál.](../../../../../translated_images/hu/traditional-vs-ml.5c20c169621fa539.webp)
 
 A gépi tanulás ezt megfordítja – az adatokkal és az ismert eredményekkel kezded, és a gépi tanulási algoritmus az adatokból tanul. Ezután a betanított algoritmust, amelyet *gépi tanulási modellnek* vagy egyszerűen *modellnek* nevezünk, új adatokkal használhatod, hogy új eredményeket kapj.
 
@@ -87,7 +87,7 @@ Egy képosztályozó sikeres betanításához milliónyi képre van szükség. A
 
 Ha egy képosztályozót már betanítottak különféle képek széles skáláján, a belső mechanizmusai kiválóan felismerik az alakzatokat, színeket és mintázatokat. A transzfer tanulás lehetővé teszi, hogy a modell az eddig megtanultakat felhasználja új képek felismerésére.
 
-![Ha egyszer felismered az alakzatokat, különböző konfigurációkban felismerheted például egy hajót vagy egy macskát.](../../../../../translated_images/hu/shapes-to-images.1a309f0ea88dd66f.png)
+![Ha egyszer felismered az alakzatokat, különböző konfigurációkban felismerheted például egy hajót vagy egy macskát.](../../../../../translated_images/hu/shapes-to-images.1a309f0ea88dd66f.webp)
 
 Ezt úgy képzelheted el, mint a gyerekek alakzatokat tanító könyveit, ahol ha egyszer felismered a félkört, a téglalapot és a háromszöget, felismerheted egy vitorlás hajót vagy egy macskát az alakzatok elrendezése alapján. A képosztályozó felismeri az alakzatokat, a transzfer tanulás pedig megtanítja, hogy melyik kombináció mit jelent – például egy érett banánt.
 

@@ -51,7 +51,7 @@ Csatlakoztasd a LED-et.
 
     > 💁 A jobb oldali Grove aljzat analóg vagy digitális érzékelőkkel és működtetőkkel használható. A bal oldali aljzat csak digitális érzékelőkkel és működtetőkkel használható.
 
-![A Grove LED csatlakoztatva a jobb oldali aljzathoz](../../../../../translated_images/hu/wio-led.265a1897e72d7f21.png)
+![A Grove LED csatlakoztatva a jobb oldali aljzathoz](../../../../../translated_images/hu/wio-led.265a1897e72d7f21.webp)
 
 ## Programozd az éjjeli fényt
 

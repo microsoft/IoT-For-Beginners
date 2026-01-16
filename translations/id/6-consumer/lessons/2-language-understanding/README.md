@@ -126,7 +126,7 @@ Setelah entitas ditentukan, Anda membuat intensi. Intensi ini dipelajari oleh mo
 
 Kemudian Anda memberi tahu LUIS bagian mana dari kalimat ini yang sesuai dengan entitas:
 
-![Kalimat "setel pengatur waktu selama 1 menit dan 12 detik" dipecah menjadi entitas](../../../../../translated_images/id/sentence-as-intent-entities.301401696f992259.png)
+![Kalimat "setel pengatur waktu selama 1 menit dan 12 detik" dipecah menjadi entitas](../../../../../translated_images/id/sentence-as-intent-entities.301401696f992259.webp)
 
 Kalimat `setel pengatur waktu selama 1 menit dan 12 detik` memiliki intensi `setel pengatur waktu`. Kalimat ini juga memiliki 2 entitas dengan masing-masing 2 nilai:
 

@@ -39,7 +39,7 @@ Detektori objekata mogu se koristiti za provjeru zaliha, bilo za brojanje zaliha
 
 Na primjer, ako kamera gleda na police koje mogu držati 8 konzervi rajčice, a detektor objekata prepozna samo 7 konzervi, tada jedna nedostaje i treba je nadopuniti.
 
-![7 konzervi rajčice na polici, 4 na gornjem redu, 3 na donjem](../../../../../translated_images/hr/stock-7-cans-tomato-paste.f86059cc573d7bec.png)
+![7 konzervi rajčice na polici, 4 na gornjem redu, 3 na donjem](../../../../../translated_images/hr/stock-7-cans-tomato-paste.f86059cc573d7bec.webp)
 
 Na slici iznad, detektor objekata prepoznao je 7 konzervi rajčice na polici koja može držati 8 konzervi. IoT uređaj ne samo da može poslati obavijest o potrebi za nadopunjavanjem, već može i naznačiti lokaciju nedostajućeg artikla, što je važan podatak ako koristite robote za nadopunjavanje polica.
 
@@ -51,7 +51,7 @@ Ponekad se na policama može naći pogrešna roba. To može biti ljudska pogreš
 
 Detekcija objekata može se koristiti za otkrivanje neočekivanih artikala, ponovno upozoravajući čovjeka ili robota da što prije vrati artikl na ispravno mjesto.
 
-![Nepoznata konzerva baby kukuruza na polici s rajčicom](../../../../../translated_images/hr/stock-rogue-corn.be1f3ada8c457854.png)
+![Nepoznata konzerva baby kukuruza na polici s rajčicom](../../../../../translated_images/hr/stock-rogue-corn.be1f3ada8c457854.webp)
 
 Na slici iznad, konzerva baby kukuruza stavljena je na policu pored rajčice. Detektor objekata to je prepoznao, omogućujući IoT uređaju da obavijesti čovjeka ili robota da vrati konzervu na ispravno mjesto.
 

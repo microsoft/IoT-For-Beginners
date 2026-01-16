@@ -57,7 +57,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 這些專案涵蓋食品從農場到餐桌的整個過程，包含農業、物流、製造、零售和消費者──這些都是物聯網裝置非常熱門的產業領域。
 
-![課程路線圖，顯示 24 節課涵蓋入門、農業、運輸、加工、零售與烹飪](../../translated_images/hk/Roadmap.bb1dec285dda0eda.jpg)
+![課程路線圖，顯示 24 節課涵蓋入門、農業、運輸、加工、零售與烹飪](../../translated_images/hk/Roadmap.bb1dec285dda0eda.webp)
 
 > 手繪記錄由 [Nitya Narasimhan](https://github.com/nitya) 製作。點擊圖片可觀看大圖。
 

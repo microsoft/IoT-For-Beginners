@@ -27,13 +27,13 @@ Wio ಟರ್ಮಿನಲ್ ಗೆ ಉಷ್ಣಾಂಶ ಸೆನ್ಸರ್ 
 
 ಉಷ್ಣಾಂಶ ಸೆನ್ಸರ್ ಸಂಪರ್ಕಿಸಿ.
 
-![A grove temperature sensor](../../../../../translated_images/kn/grove-dht11.07f8eafceee17004.png)
+![A grove temperature sensor](../../../../../translated_images/kn/grove-dht11.07f8eafceee17004.webp)
 
 1. ಗ್ರೋವ್ ಕೇಬಲ್‌ನ ಒಂದು ತುದಿಯನ್ನು ತೇವಾಂಶ ಮತ್ತು ಉಷ್ಣಾಂಶ ಸೆನ್ಸರ್‌ನ সকೆಟ್‌ಗೆ ಸೇರಿಸಿ. ಇದು ಒಂದೇ ದಿಕ್ಕಿನಲ್ಲಿ ಮಾತ್ರ ಸೇರಬಹುದು.
 
 1. ನಿಮ್ಮ ಕಂಪ್ಯೂಟರ್ ಅಥವಾ ಇತರ ವಿದ್ಯುತ್ ಸರಬರಾಜಿನಿಂದ Wio ಟರ್ಮಿನಲ್ ಅನ್ನು ಕಳಪೆಮಾಡಿ, ಗ್ರೋವ್ ಕೇಬಲ್‌ನ ಇನ್ನೊಂದು ತುದಿಯನ್ನು Wio ಟರ್ಮಿನಲ್ ನ ಎಡ ಬದಿಯ ಗ್ರೋವ್ সকೆಟ್‌ಗೆ ಸಂಪರ್ಕಿಸಿ. ಇದು ಪವರ್ ಬಟನ್‌ನಿಂದ ಅತ್ಯಂತ ದೂರದಲ್ಲಿದೆ.
 
-![The grove temperature sensor connected to the right hand socket](../../../../../translated_images/kn/wio-temperature-sensor.2934928f38c7f79a.png)
+![The grove temperature sensor connected to the right hand socket](../../../../../translated_images/kn/wio-temperature-sensor.2934928f38c7f79a.webp)
 
 ## ಉಷ್ಣಾಂಶ ಸೆನ್ಸರ್ ಪ್ರೋಗ್ರಾಂ ಮಾಡಿ
 

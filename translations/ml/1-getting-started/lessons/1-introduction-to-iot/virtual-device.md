@@ -154,11 +154,11 @@ Python വിർച്വൽ എൻവയോൺമെന്റ് സജ്ജ�
 
 1. VS Code ഓപ്പൺ ചെയ്തപ്പോൾ, Python വിർച്വൽ എൻവയോൺമെന്റ് സജീവമാകും. തിരഞ്ഞെടുത്ത വിർച്വൽ എൻവയോൺമെന്റ് താഴത്തെ സ്റ്റാറ്റസ് ബാറിൽ കാണാം:
 
-    ![VS Code showing the selected virtual environment](../../../../../translated_images/ml/vscode-virtual-env.8ba42e04c3d533cf.png)
+    ![VS Code showing the selected virtual environment](../../../../../translated_images/ml/vscode-virtual-env.8ba42e04c3d533cf.webp)
 
 1. VS Code ടെർമിനൽ ഇതിനകം ഓപ്പണായിരിക്കുമ്പോൾ, അത് വിർച്വൽ എൻവയോൺമെന്റ് സജീവമാക്കിയിരിക്കില്ല. ഏറ്റവും എളുപ്പം ടെർമിനൽ **Kill the active terminal instance** ബട്ടൺ അമർത്തി ടേർമിനൽ നിന്നെ തലാറാക്കുക:
 
-    ![VS Code Kill the active terminal instance button](../../../../../translated_images/ml/vscode-kill-terminal.1cc4de7c6f25ee08.png)
+    ![VS Code Kill the active terminal instance button](../../../../../translated_images/ml/vscode-kill-terminal.1cc4de7c6f25ee08.webp)
 
     ടെർമിനൽ പ്രോമ്പ്റ്റിൽ വിർച്വൽ എൻവയോൺമെന്റ് സജീവമാണെന്ന് അറിയാൻ, പ്രോംപ്റ്റിന് മുൻപിൽ വാർചുവൽ എൻവയോൺമെന്റിന്റെ പേര് (ഉദാഹരണം: `.venv`) കാണാമാകും.
 
@@ -212,7 +212,7 @@ Python വിർച്വൽ എൻവയോൺമെന്റ് സജ്ജ�
 
     ആപ്പ് പ്രവർത്തനം തുടങ്ങുകയും വെബ് ബ്രൗസറിൽ തുറക്കുകയും ചെയ്യും:
 
-    ![The Counter Fit app running in a browser](../../../../../translated_images/ml/counterfit-first-run.433326358b669b31.png)
+    ![The Counter Fit app running in a browser](../../../../../translated_images/ml/counterfit-first-run.433326358b669b31.webp)
 
     *Disconnected* എന്ന നിലയിലായിരിക്കും, മുകളിൽ വലതു കോണിലുള്ള LED ഓഫ് ആയിരിക്കും.
 
@@ -229,11 +229,11 @@ Python വിർച്വൽ എൻവയോൺമെന്റ് സജ്ജ�
 
 1. CounterFit ആപ്പ് ഇപ്പോഴത്തെ ടെർമിനലിൽ പ്രവർത്തിക്കുന്നതിനാൽ, പുതിയ VS Code ടെർമിനൽ തുറക്കേണ്ടത് ആവശ്യമാണ്. **Create a new integrated terminal** ബട്ടൺ അമർത്തുക.
 
-    ![VS Code Create a new integrated terminal button](../../../../../translated_images/ml/vscode-new-terminal.77db8fc0f9cd3182.png)
+    ![VS Code Create a new integrated terminal button](../../../../../translated_images/ml/vscode-new-terminal.77db8fc0f9cd3182.webp)
 
 1. പുതിയ ടെർമിനലിൽ `app.py` ഫയൽ പ്രവർത്തിപ്പിക്കുക. CounterFit നില **Connected** ആയി മാറുകയും LED ഇലക്ട്രിക് ഓണായി തെളിയുകയും ചെയ്യും.
 
-    ![Counter Fit showing as connected](../../../../../translated_images/ml/counterfit-connected.ed30b46d8f79b092.png)
+    ![Counter Fit showing as connected](../../../../../translated_images/ml/counterfit-connected.ed30b46d8f79b092.webp)
 
 > 💁 ഈ കോഡ് [code/virtual-device](../../../../../1-getting-started/lessons/1-introduction-to-iot/code/virtual-device) ഫോൾഡറിൽ കണ്ടെത്താം.
 

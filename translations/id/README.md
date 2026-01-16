@@ -56,7 +56,7 @@ Azure Cloud Advocates di Microsoft dengan senang hati menawarkan kurikulum selam
 
 Proyek-proyek mencakup perjalanan makanan dari pertanian ke meja makan. Ini termasuk pertanian, logistik, manufaktur, ritel, dan konsumen - semua adalah bidang industri populer untuk perangkat IoT.
 
-![Peta jalan untuk kursus yang menunjukkan 24 pelajaran yang mencakup pengenalan, pertanian, transportasi, pengolahan, ritel dan memasak](../../translated_images/id/Roadmap.bb1dec285dda0eda.jpg)
+![Peta jalan untuk kursus yang menunjukkan 24 pelajaran yang mencakup pengenalan, pertanian, transportasi, pengolahan, ritel dan memasak](../../translated_images/id/Roadmap.bb1dec285dda0eda.webp)
 
 > Sketchnote oleh [Nitya Narasimhan](https://github.com/nitya). Klik gambar untuk versi yang lebih besar.
 

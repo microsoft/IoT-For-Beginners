@@ -33,11 +33,11 @@ Prijunkite dirvožemio drėgmės jutiklį.
 
 1. Kai Wio Terminal atjungtas nuo kompiuterio ar kito maitinimo šaltinio, prijunkite kitą Grove kabelio galą prie dešiniojo Grove lizdo Wio Terminal, žiūrint į ekraną. Tai yra lizdas, esantis toliausiai nuo maitinimo mygtuko.
 
-![Grove dirvožemio drėgmės jutiklis prijungtas prie dešiniojo lizdo](../../../../../translated_images/lt/wio-soil-moisture-sensor.46919b61c3f6cb74.png)
+![Grove dirvožemio drėgmės jutiklis prijungtas prie dešiniojo lizdo](../../../../../translated_images/lt/wio-soil-moisture-sensor.46919b61c3f6cb74.webp)
 
 1. Įstatykite dirvožemio drėgmės jutiklį į dirvožemį. Jutiklis turi „aukščiausios padėties liniją“ – baltą liniją per jutiklį. Įstatykite jutiklį iki šios linijos, bet ne per ją.
 
-![Grove dirvožemio drėgmės jutiklis dirvožemyje](../../../../../translated_images/lt/soil-moisture-sensor-in-soil.bfad91002bda5e96.png)
+![Grove dirvožemio drėgmės jutiklis dirvožemyje](../../../../../translated_images/lt/soil-moisture-sensor-in-soil.bfad91002bda5e96.webp)
 
 1. Dabar galite prijungti Wio Terminal prie savo kompiuterio.
 

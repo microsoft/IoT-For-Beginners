@@ -154,11 +154,11 @@ Hozz létre egy Python alkalmazást, amely kiírja a `"Hello World"` szöveget a
 
 1. Amikor a VS Code elindul, aktiválja a Python virtuális környezetet. A kiválasztott virtuális környezet megjelenik az alsó állapotsávban:
 
-    ![VS Code a kiválasztott virtuális környezettel](../../../../../translated_images/hu/vscode-virtual-env.8ba42e04c3d533cf.png)
+    ![VS Code a kiválasztott virtuális környezettel](../../../../../translated_images/hu/vscode-virtual-env.8ba42e04c3d533cf.webp)
 
 1. Ha a VS Code terminál már fut, amikor a VS Code elindul, akkor nem lesz aktiválva benne a virtuális környezet. A legegyszerűbb megoldás az, ha bezárod a terminált a **Kill the active terminal instance** gombbal:
 
-    ![VS Code Kill the active terminal instance gomb](../../../../../translated_images/hu/vscode-kill-terminal.1cc4de7c6f25ee08.png)
+    ![VS Code Kill the active terminal instance gomb](../../../../../translated_images/hu/vscode-kill-terminal.1cc4de7c6f25ee08.webp)
 
     Megállapíthatod, hogy a terminálban aktiválva van-e a virtuális környezet, ha a terminál promptjának előtagja a virtuális környezet neve. Például lehet:
 
@@ -229,7 +229,7 @@ Második 'Hello World' lépésként futtatni fogod a CounterFit alkalmazást, é
 
 1. Új VS Code terminált kell indítanod a **Create a new integrated terminal** gombbal. Ez azért szükséges, mert a CounterFit alkalmazás a jelenlegi terminálban fut.
 
-    ![VS Code Create a new integrated terminal gomb](../../../../../translated_images/hu/vscode-new-terminal.77db8fc0f9cd3182.png)
+    ![VS Code Create a new integrated terminal gomb](../../../../../translated_images/hu/vscode-new-terminal.77db8fc0f9cd3182.webp)
 
 1. Ebben az új terminálban futtasd az `app.py` fájlt, ahogy korábban. A CounterFit állapota **Connected**-re változik, és a LED világítani fog.
 

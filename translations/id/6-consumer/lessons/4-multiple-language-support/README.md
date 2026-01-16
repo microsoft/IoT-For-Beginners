@@ -130,7 +130,7 @@ Untuk pelajaran ini, Anda akan membutuhkan sumber daya Penerjemah. Anda akan men
 
 Dalam dunia yang ideal, seluruh aplikasi Anda harus memahami sebanyak mungkin bahasa yang berbeda, mulai dari mendengarkan suara, memahami bahasa, hingga merespons dengan suara. Ini adalah banyak pekerjaan, jadi layanan penerjemahan dapat mempercepat waktu pengiriman aplikasi Anda.
 
-![Arsitektur timer pintar menerjemahkan Bahasa Jepang ke Bahasa Inggris, memproses dalam Bahasa Inggris lalu menerjemahkan kembali ke Bahasa Jepang](../../../../../translated_images/id/translated-smart-timer.08ac20057fdc5c37.png)
+![Arsitektur timer pintar menerjemahkan Bahasa Jepang ke Bahasa Inggris, memproses dalam Bahasa Inggris lalu menerjemahkan kembali ke Bahasa Jepang](../../../../../translated_images/id/translated-smart-timer.08ac20057fdc5c37.webp)
 
 Bayangkan Anda sedang membangun timer pintar yang menggunakan Bahasa Inggris dari awal hingga akhir, memahami Bahasa Inggris yang diucapkan dan mengubahnya menjadi teks, menjalankan pemahaman bahasa dalam Bahasa Inggris, membangun respons dalam Bahasa Inggris, dan merespons dengan suara Bahasa Inggris. Jika Anda ingin menambahkan dukungan untuk Bahasa Jepang, Anda dapat memulai dengan menerjemahkan Bahasa Jepang yang diucapkan ke teks Bahasa Inggris, lalu menjaga inti aplikasi tetap sama, lalu menerjemahkan teks respons ke Bahasa Jepang sebelum mengucapkan respons. Ini akan memungkinkan Anda untuk dengan cepat menambahkan dukungan Bahasa Jepang, dan Anda dapat memperluas untuk menyediakan dukungan Bahasa Jepang penuh dari awal hingga akhir nanti.
 

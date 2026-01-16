@@ -33,7 +33,7 @@ Hubungkan sensor suhu.
 
 1. Dengan Wio Terminal terputus dari komputer atau sumber daya lainnya, hubungkan ujung lain kabel Grove ke soket Grove di sisi kanan Wio Terminal saat Anda melihat layar. Ini adalah soket yang paling jauh dari tombol daya.
 
-![Sensor suhu Grove terhubung ke soket sisi kanan](../../../../../translated_images/id/wio-temperature-sensor.2934928f38c7f79a.png)
+![Sensor suhu Grove terhubung ke soket sisi kanan](../../../../../translated_images/id/wio-temperature-sensor.2934928f38c7f79a.webp)
 
 ## Memprogram Sensor Suhu
 

@@ -33,7 +33,7 @@ Prijunkite GPS jutiklį.
 
 1. Kai Wio Terminal atjungtas nuo kompiuterio ar kito maitinimo šaltinio, prijunkite kitą Grove kabelio galą prie kairiojo Grove lizdo Wio Terminal, žiūrint į ekraną. Tai yra lizdas, esantis arčiausiai maitinimo mygtuko.
 
-    ![Grove GPS jutiklis prijungtas prie kairiojo lizdo](../../../../../translated_images/lt/wio-gps-sensor.19fd52b81ce58095.png)
+    ![Grove GPS jutiklis prijungtas prie kairiojo lizdo](../../../../../translated_images/lt/wio-gps-sensor.19fd52b81ce58095.webp)
 
 1. Padėkite GPS jutiklį taip, kad prijungta antena turėtų matomumą į dangų – idealiai šalia atviro lango arba lauke. Antenai lengviau gauti aiškų signalą, kai nėra kliūčių.
 

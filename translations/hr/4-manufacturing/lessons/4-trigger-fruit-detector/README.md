@@ -115,7 +115,7 @@ Za prototip ćete sve implementirati na jednom uređaju. Ako koristite mikrokont
 
 IoT uređaj treba neku vrstu okidača koji će označiti kada je voće spremno za klasifikaciju. Jedan od okidača mogao bi biti mjerenje kada je voće na pravom mjestu na pokretnoj traci mjerenjem udaljenosti do senzora.
 
-![Senzori blizine šalju laserske zrake prema objektima poput banana i mjere vrijeme povratka zrake](../../../../../translated_images/hr/proximity-sensor.f5cd752c77fb62fe.png)
+![Senzori blizine šalju laserske zrake prema objektima poput banana i mjere vrijeme povratka zrake](../../../../../translated_images/hr/proximity-sensor.f5cd752c77fb62fe.webp)
 
 Senzori blizine mogu se koristiti za mjerenje udaljenosti od senzora do objekta. Obično emitiraju zraku elektromagnetskog zračenja, poput laserske zrake ili infracrvenog svjetla, a zatim detektiraju zračenje koje se odbija od objekta. Vrijeme između slanja laserske zrake i povratka signala može se koristiti za izračunavanje udaljenosti do senzora.
 

@@ -217,7 +217,7 @@ HTTPS ಎಂಡ್‌ಪಾಯಿಂಟ್‌ಗಳೊಂದಿಗೆ ಕಾರ�
 
     ತೆಗೆದುಕೊಂಡ ಚಿತ್ರವನ್ನು ಮತ್ತು ಈ ಮೌಲ್ಯಗಳನ್ನು ಕಸ್ಟಮ್ ವಿಷನ್‌ನ **Predictions** ಟ್ಯಾಬ್‌ನಲ್ಲಿ ನೋಡಬಹುದು.
 
-    ![ಕಸ್ಟಮ್ ವಿಷನ್‌ನಲ್ಲಿ ಬ Nonetheless ಬಾಳೆಗೆ 56.8% ಮತ್ತು ಬಾಳೆಪುಷ್ಪ ತಳಿ 43.1% ಎಂದು ಭವಿಷ್ಯದ ಸೂಚನೆ](../../../../../translated_images/kn/custom-vision-banana-prediction.30cdff4e1d72db5d.png)
+    ![ಕಸ್ಟಮ್ ವಿಷನ್‌ನಲ್ಲಿ ಬ Nonetheless ಬಾಳೆಗೆ 56.8% ಮತ್ತು ಬಾಳೆಪುಷ್ಪ ತಳಿ 43.1% ಎಂದು ಭವಿಷ್ಯದ ಸೂಚನೆ](../../../../../translated_images/kn/custom-vision-banana-prediction.30cdff4e1d72db5d.webp)
 
 > 💁 ಈ ಕೋಡ್ ಅನ್ನು [code-classify/wio-terminal](../../../../../4-manufacturing/lessons/2-check-fruit-from-device/code-classify/wio-terminal) ಫೋಲ್ಡರ್‌ನಲ್ಲಿ ಕಾಣಬಹುದು.
 

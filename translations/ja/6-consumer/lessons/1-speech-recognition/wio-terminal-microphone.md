@@ -15,11 +15,11 @@ CO_OP_TRANSLATOR_METADATA:
 
 Wio Terminalにはすでに内蔵マイクが搭載されており、音声認識のための音声を録音することができます。
 
-![Wio Terminalのマイク](../../../../../translated_images/ja/wio-mic.3f8c843dbe8ad917.png)
+![Wio Terminalのマイク](../../../../../translated_images/ja/wio-mic.3f8c843dbe8ad917.webp)
 
 スピーカーを追加するには、[ReSpeaker 2-Mics Pi Hat](https://www.seeedstudio.com/ReSpeaker-2-Mics-Pi-HAT.html)を使用できます。この外部ボードには2つのMEMSマイク、スピーカーコネクタ、ヘッドフォンジャックが含まれています。
 
-![ReSpeaker 2-Mics Pi Hat](../../../../../translated_images/ja/respeaker.f5d19d1c6b14ab16.png)
+![ReSpeaker 2-Mics Pi Hat](../../../../../translated_images/ja/respeaker.f5d19d1c6b14ab16.webp)
 
 スピーカーを追加するには、ヘッドフォン、3.5mmジャック付きスピーカー、または[JST接続のMono Enclosed Speaker - 2W 6 Ohm](https://www.seeedstudio.com/Mono-Enclosed-Speaker-2W-6-Ohm-p-2832.html)のようなスピーカーが必要です。
 
@@ -35,7 +35,7 @@ ReSpeaker 2-Mics Pi Hatを接続するには、40ピンのジャンパーケー�
 
     ピンは以下のように接続する必要があります：
 
-    ![ピンの配線図](../../../../../translated_images/ja/wio-respeaker-wiring-0.767f80aa65081038.png)
+    ![ピンの配線図](../../../../../translated_images/ja/wio-respeaker-wiring-0.767f80aa65081038.webp)
 
 1. GPIOソケットが上向きで左側にある状態で、ReSpeakerとWio Terminalを配置します。
 
@@ -43,33 +43,33 @@ ReSpeaker 2-Mics Pi Hatを接続するには、40ピンのジャンパーケー�
 
 1. 左側のGPIOソケットを下まで順番に接続します。ピンがしっかりと差し込まれていることを確認してください。
 
-    ![左側のピンを接続したReSpeakerとWio Terminal](../../../../../translated_images/ja/wio-respeaker-wiring-1.8d894727f2ba2400.png)
+    ![左側のピンを接続したReSpeakerとWio Terminal](../../../../../translated_images/ja/wio-respeaker-wiring-1.8d894727f2ba2400.webp)
 
-    ![左側のピンを接続したReSpeakerとWio Terminal](../../../../../translated_images/ja/wio-respeaker-wiring-2.329e1cbd306e754f.png)
+    ![左側のピンを接続したReSpeakerとWio Terminal](../../../../../translated_images/ja/wio-respeaker-wiring-2.329e1cbd306e754f.webp)
 
     > 💁 ジャンパーケーブルがリボン状になっている場合は、まとめておくとすべてのケーブルを順番に接続しやすくなります。
 
 1. ReSpeakerとWio Terminalの右側のGPIOソケットを使って同じ手順を繰り返します。これらのケーブルはすでに接続されているケーブルの周りを通す必要があります。
 
-    ![右側のピンを接続したReSpeakerとWio Terminal](../../../../../translated_images/ja/wio-respeaker-wiring-3.75b0be447e2fa930.png)
+    ![右側のピンを接続したReSpeakerとWio Terminal](../../../../../translated_images/ja/wio-respeaker-wiring-3.75b0be447e2fa930.webp)
 
-    ![右側のピンを接続したReSpeakerとWio Terminal](../../../../../translated_images/ja/wio-respeaker-wiring-4.aa9cd434d8779437.png)
+    ![右側のピンを接続したReSpeakerとWio Terminal](../../../../../translated_images/ja/wio-respeaker-wiring-4.aa9cd434d8779437.webp)
 
     > 💁 ジャンパーケーブルがリボン状になっている場合は、2つのリボンに分けて、既存のケーブルの両側に通します。
 
     > 💁 ピンをブロック状に固定するために粘着テープを使用すると、接続中にピンが抜けるのを防ぐことができます。
     >
-    > ![テープで固定されたピン](../../../../../translated_images/ja/wio-respeaker-wiring-5.af117c20acf622f3.png)
+    > ![テープで固定されたピン](../../../../../translated_images/ja/wio-respeaker-wiring-5.af117c20acf622f3.webp)
 
 1. スピーカーを追加する必要があります。
 
     * JSTケーブル付きスピーカーを使用する場合は、ReSpeakerのJSTポートに接続します。
 
-      ![JSTケーブルでReSpeakerに接続されたスピーカー](../../../../../translated_images/ja/respeaker-jst-speaker.a441d177809df945.png)
+      ![JSTケーブルでReSpeakerに接続されたスピーカー](../../../../../translated_images/ja/respeaker-jst-speaker.a441d177809df945.webp)
 
     * 3.5mmジャック付きスピーカーまたはヘッドフォンを使用する場合は、3.5mmジャックソケットに差し込みます。
 
-      ![3.5mmジャックソケットでReSpeakerに接続されたスピーカー](../../../../../translated_images/ja/respeaker-35mm-speaker.ad79ef4f128c7751.png)
+      ![3.5mmジャックソケットでReSpeakerに接続されたスピーカー](../../../../../translated_images/ja/respeaker-35mm-speaker.ad79ef4f128c7751.webp)
 
 ### タスク - SDカードのセットアップ
 
@@ -79,7 +79,7 @@ ReSpeaker 2-Mics Pi Hatを接続するには、40ピンのジャンパーケー�
 
 1. Wio Terminalの左側、電源ボタンのすぐ下にあるSDカードスロットにSDカードを挿入します。カードが完全に挿入され、クリック音がするまで押し込んでください。薄い工具や別のSDカードを使用して完全に押し込む必要がある場合があります。
 
-    ![電源スイッチの下にあるSDカードスロットにSDカードを挿入する様子](../../../../../translated_images/ja/wio-sd-card.acdcbe322fa4ee7f.png)
+    ![電源スイッチの下にあるSDカードスロットにSDカードを挿入する様子](../../../../../translated_images/ja/wio-sd-card.acdcbe322fa4ee7f.webp)
 
     > 💁 SDカードを取り出すには、少し押し込むとカードが取り出されます。これを行うには、平らなドライバーや別のSDカードなどの薄い工具が必要です。
 

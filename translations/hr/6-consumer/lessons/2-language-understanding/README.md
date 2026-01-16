@@ -126,7 +126,7 @@ Nakon što definirate entitete, kreirate namjere. One se uče modelu na temelju 
 
 Zatim LUIS-u kažete koji dijelovi ovih rečenica odgovaraju entitetima:
 
-![Rečenica "postavi timer na 1 minutu i 12 sekundi" razlomljena na entitete](../../../../../translated_images/hr/sentence-as-intent-entities.301401696f992259.png)
+![Rečenica "postavi timer na 1 minutu i 12 sekundi" razlomljena na entitete](../../../../../translated_images/hr/sentence-as-intent-entities.301401696f992259.webp)
 
 Rečenica `postavi timer na 1 minutu i 12 sekundi` ima namjeru `postavi timer`. Također ima 2 entiteta s po 2 vrijednosti:
 

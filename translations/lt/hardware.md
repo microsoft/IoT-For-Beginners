@@ -21,7 +21,7 @@ Jums taip pat reikės kelių ne techninių daiktų, tokių kaip dirvožemis ar v
 
 ## Įsigykite rinkinius
 
-![Seeed Studios logotipas](../../translated_images/lt/seeed-logo.74732b6b482b6e8e.png)
+![Seeed Studios logotipas](../../translated_images/lt/seeed-logo.74732b6b482b6e8e.webp)
 
 Seeed Studios labai maloniai pateikė visą aparatūrą kaip lengvai įsigyjamus rinkinius:
 
@@ -29,7 +29,7 @@ Seeed Studios labai maloniai pateikė visą aparatūrą kaip lengvai įsigyjamus
 
 **[IoT pradedantiesiems su Seeed ir Microsoft - Wio Terminal Starter Kit](https://www.seeedstudio.com/IoT-for-beginners-with-Seeed-and-Microsoft-Wio-Terminal-Starter-Kit-p-5006.html)**
 
-[![Wio Terminal aparatūros rinkinys](../../translated_images/lt/wio-hardware-kit.4c70c48b85e4283a.png)](https://www.seeedstudio.com/IoT-for-beginners-with-Seeed-and-Microsoft-Wio-Terminal-Starter-Kit-p-5006.html)
+[![Wio Terminal aparatūros rinkinys](../../translated_images/lt/wio-hardware-kit.4c70c48b85e4283a.webp)](https://www.seeedstudio.com/IoT-for-beginners-with-Seeed-and-Microsoft-Wio-Terminal-Starter-Kit-p-5006.html)
 
 ### Raspberry Pi
 

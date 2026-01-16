@@ -25,13 +25,13 @@ Grove താപനില സെൻസർ Raspberry Pi-യോടൊപ്പം �
 
 താപനില സെൻസർ കണക്ട് ചെയ്യുക
 
-![A grove temperature sensor](../../../../../translated_images/ml/grove-dht11.07f8eafceee17004.png)
+![A grove temperature sensor](../../../../../translated_images/ml/grove-dht11.07f8eafceee17004.webp)
 
 1. Grove കേബിളിന്റെ ഒരു അന്ത്യവും ഹ്യൂമിഡിറ്റി സന്ദ താപനില സെൻസറിലെ സോക്കറ്റിലേക്ക് ചേര്ക്കുക. അത് ഒരു ദിശയിൽ മാത്രം പോകും.
 
 1. Raspberry Pi ഓഫ് ചെയ്യപ്പെട്ടിരിക്കുമ്പോൾ, Grove Base hat-ൽ Pi-യോടൊപ്പം ബന്ധിപ്പിച്ചിരിക്കുന്ന Grove കേബിളിന്റെ മറ്റുഭാഗം ഡിജിറ്റൽ സോക്കറ്റ് **D5** എന്നതിനോട് കണക്ട് ചെയ്യുക. GPIO പിനുകളുടെ അടുത്ത ഗവ അവിടെ ഇടതുവശത്തുള്ള രണ്ടാം സോക്കറ്റാണ്.
 
-![The grove temperature sensor connected to socket A0](../../../../../translated_images/ml/pi-temperature-sensor.3ff82fff672c8e56.png)
+![The grove temperature sensor connected to socket A0](../../../../../translated_images/ml/pi-temperature-sensor.3ff82fff672c8e56.webp)
 
 ## താപനില സെൻസർ പ്രോഗ്രാം ചെയ്യുക
 

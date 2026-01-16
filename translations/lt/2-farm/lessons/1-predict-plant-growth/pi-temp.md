@@ -31,7 +31,7 @@ Prijunkite temperatūros jutiklį
 
 1. Išjungę Raspberry Pi, prijunkite kitą Grove kabelio galą prie skaitmeninio lizdo, pažymėto **D5**, esančio ant Grove Base hat, prijungto prie Pi. Šis lizdas yra antras iš kairės, eilėje šalia GPIO pinų.
 
-![Grove temperatūros jutiklis prijungtas prie lizdo A0](../../../../../translated_images/lt/pi-temperature-sensor.3ff82fff672c8e56.png)
+![Grove temperatūros jutiklis prijungtas prie lizdo A0](../../../../../translated_images/lt/pi-temperature-sensor.3ff82fff672c8e56.webp)
 
 ## Užprogramuokite temperatūros jutiklį
 

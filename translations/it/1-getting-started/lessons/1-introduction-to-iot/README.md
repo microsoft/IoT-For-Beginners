@@ -79,7 +79,7 @@ Un microcontrollore (spesso chiamato MCU, abbreviazione di microcontroller unit)
 
 I microcontrollori sono dispositivi di calcolo a basso costo, con prezzi medi per quelli utilizzati in hardware personalizzato che scendono a circa 0,50 USD, e alcuni dispositivi che costano solo 0,03 USD. I kit per sviluppatori possono partire da 4 USD, con costi che aumentano aggiungendo più funzionalità. Il [Wio Terminal](https://www.seeedstudio.com/Wio-Terminal-p-4509.html), un kit per sviluppatori di microcontrollori di [Seeed studios](https://www.seeedstudio.com) che include sensori, attuatori, WiFi e uno schermo, costa circa 30 USD.
 
-![Un Wio Terminal](../../../../../translated_images/it/wio-terminal.b8299ee16587db9a.png)
+![Un Wio Terminal](../../../../../translated_images/it/wio-terminal.b8299ee16587db9a.webp)
 
 > 💁 Quando cerchi microcontrollori su Internet, fai attenzione a cercare il termine **MCU**, poiché potrebbe restituire molti risultati relativi al Marvel Cinematic Universe, non ai microcontrollori.
 
@@ -93,7 +93,7 @@ I kit per sviluppatori di microcontrollori di solito includono sensori e attuato
 
 Un computer a scheda singola è un piccolo dispositivo di calcolo che contiene tutti gli elementi di un computer completo su una singola scheda. Questi dispositivi hanno specifiche simili a un PC desktop o laptop, eseguono un sistema operativo completo, ma sono piccoli, consumano meno energia e sono significativamente più economici.
 
-![Un Raspberry Pi 4](../../../../../translated_images/it/raspberry-pi-4.fd4590d308c3d456.jpg)
+![Un Raspberry Pi 4](../../../../../translated_images/it/raspberry-pi-4.fd4590d308c3d456.webp)
 
 Il Raspberry Pi è uno dei computer a scheda singola più popolari.
 

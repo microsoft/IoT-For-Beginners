@@ -66,7 +66,7 @@ Duomenų bazės yra paslaugos, leidžiančios saugoti ir užklausinėti duomenis
 
 Pirmosios duomenų bazės buvo reliacinės duomenų bazių valdymo sistemos (RDBMS), dar vadinamos SQL duomenų bazėmis dėl struktūrizuotos užklausų kalbos (SQL), naudojamos duomenims pridėti, pašalinti, atnaujinti ar užklausinėti. Šios duomenų bazės turi schemą – aiškiai apibrėžtą duomenų lentelių rinkinį, panašų į skaičiuoklę. Kiekviena lentelė turi kelis pavadintus stulpelius. Kai įterpiate duomenis, pridedate eilutę į lentelę, įrašydami reikšmes į kiekvieną stulpelį. Tai užtikrina labai griežtą duomenų struktūrą – nors galite palikti stulpelius tuščius, jei norite pridėti naują stulpelį, turite tai padaryti duomenų bazėje, užpildydami reikšmes esamoms eilutėms. Šios duomenų bazės yra reliacinės – viena lentelė gali turėti ryšį su kita.
 
-![Reliacinė duomenų bazė su vartotojo lentelės ID, susijusiu su pirkimų lentelės vartotojo ID stulpeliu, ir produktų lentelės ID, susijusiu su pirkimų lentelės produkto ID](../../../../../translated_images/lt/sql-database.be160f12bfccefd3.png)
+![Reliacinė duomenų bazė su vartotojo lentelės ID, susijusiu su pirkimų lentelės vartotojo ID stulpeliu, ir produktų lentelės ID, susijusiu su pirkimų lentelės produkto ID](../../../../../translated_images/lt/sql-database.be160f12bfccefd3.webp)
 
 Pavyzdžiui, jei saugote vartotojo asmeninius duomenis lentelėje, turėtumėte tam tikrą unikalų ID kiekvienam vartotojui, kuris naudojamas eilutėje lentelėje, kurioje yra vartotojo vardas ir adresas. Jei norėtumėte saugoti kitus duomenis apie tą vartotoją, pavyzdžiui, jo pirkimus, kitoje lentelėje turėtumėte vieną stulpelį tam vartotojo ID. Kai ieškote vartotojo, galite naudoti jo ID, kad gautumėte asmeninius duomenis iš vienos lentelės ir pirkimus iš kitos.
 
@@ -235,7 +235,7 @@ Dabar jūsų funkcijų programa turi prisijungti prie blob saugyklos, kad galėt
 
 Šioje pamokoje naudosite Python SDK, kad pamatytumėte, kaip sąveikauti su blob saugykla.
 
-![GPS telemetrijos siuntimas iš IoT įrenginio į IoT Hub, tada į Azure Functions per Event Hub trigerį, o vėliau išsaugojimas blob saugykloje](../../../../../translated_images/lt/save-telemetry-to-storage-from-functions.ed3b1820980097f1.png)
+![GPS telemetrijos siuntimas iš IoT įrenginio į IoT Hub, tada į Azure Functions per Event Hub trigerį, o vėliau išsaugojimas blob saugykloje](../../../../../translated_images/lt/save-telemetry-to-storage-from-functions.ed3b1820980097f1.webp)
 
 Duomenys bus išsaugoti kaip JSON blobas su šiuo formatu:
 

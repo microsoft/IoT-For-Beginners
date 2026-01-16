@@ -72,7 +72,7 @@ Penyedia cloud kemudian dapat menggunakan skala ekonomi untuk menekan biaya, mem
 
 Azure adalah cloud untuk pengembang dari Microsoft, dan ini adalah cloud yang akan Anda gunakan untuk pelajaran ini. Video di bawah memberikan gambaran singkat tentang Azure:
 
-[![Video gambaran Azure](../../../../../translated_images/id/what-is-azure-video-thumbnail.20174db09e03bbb8.png)](https://www.microsoft.com/videoplayer/embed/RE4Ibng?WT.mc_id=academic-17441-jabenn)
+[![Video gambaran Azure](../../../../../translated_images/id/what-is-azure-video-thumbnail.20174db09e03bbb8.webp)](https://www.microsoft.com/videoplayer/embed/RE4Ibng?WT.mc_id=academic-17441-jabenn)
 
 ## Buat langganan cloud
 

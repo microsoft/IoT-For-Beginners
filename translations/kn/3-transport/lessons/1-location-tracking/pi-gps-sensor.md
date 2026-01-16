@@ -27,13 +27,13 @@ Grove GPS ಸೆನ್ಸಾರ್ ಅನ್ನು Raspberry Pi ಗೆ ಸಂಪ
 
 GPS ಸೆನ್ಸಾರ್ ಅನ್ನು ಸಂಪರ್ಕಿಸಿ.
 
-![A grove GPS sensor](../../../../../translated_images/kn/grove-gps-sensor.247943bf69b03f0d.png)
+![A grove GPS sensor](../../../../../translated_images/kn/grove-gps-sensor.247943bf69b03f0d.webp)
 
 1. Grove ಕೇಬಲ್‌ನ ಒಂದು ಮುಗುಳ್ನು GPS ಸೆನ್ಸಾರ್‌ನ ಸೊಕೇಟ್‌ಗೆ ಇಳಿಸಿ. ಅದು ಒಂದೇ ದಿಕ್ಕಿನಲ್ಲಿ ಹೋಗುತ್ತದೆ.
 
 1. Raspberry Pi ಅನ್ನು ತಡೆಯುವ ಮೂಲಕ, Grove ಕೇಬಲ್‌ನ ಮತ್ತೊಂದು ಮುಗುಳ್ನು Grove Base ಹ್ಯಾಟ್‌ನಲ್ಲಿ **UART** ಎಂದು ಗುರುತಿಸಲಾದ UART ಸೊಕೇಟ್‌ಗೆ ಸಂಪರ್ಕಿಸಿ. ಈ ಸೊಕೇಟ್ ಮಧ್ಯದ ಸಾಲಿನಲ್ಲಿ, SD ಕಾರ್ಡ್ ಸ್ಲಾಟ್‌ಗೆ ಸಮೀಪವಿರುವ ಬದಿಯಲ್ಲಿ ಇದೆ, USB ಪೋರ್ಟ್‌ಗಳು ಮತ್ತು ಇಥರ್ನೆಟ್ ಸೊಕೇಟ್‌ನ ಮತ್ತೊಂದು ಕೊನೆಯಲ್ಲಿ.
 
-    ![The grove GPS sensor connected to the UART socket](../../../../../translated_images/kn/pi-gps-sensor.1f99ee2b2f652891.png)
+    ![The grove GPS sensor connected to the UART socket](../../../../../translated_images/kn/pi-gps-sensor.1f99ee2b2f652891.webp)
 
 1. GPS ಸೆನ್ಸಾರ್ ಅನ್ನು ಸ್ಥಾನಗೊಳ್ಳಿಸಿ ಆಗ ಆಂಟೆನಾದ ಹವಾ ಮುಗಿಯುವಿಕೆಗೆ ಸ್ಪಷ್ಟ ದೃಷ್ಟಿ ದೊರೆಯುತ್ತದೆ - ಇದ್ದಕ್ಕಿದ್ದಂತೆ ತೆರೆದ ಕಿಟಕಿಯ ಬದಿಯಲ್ಲಿ ಅಥವಾ ಹೊರಗೆ. ಆಂಟೆನಾಗೆ ಯಾವಾಗಲೂ ಅಡ್ಡಿಪಡಿಸುವುದಿಲ್ಲ ಎಂದರೆ ಸ್ಪಷ್ಟವಾದ ಸಂಕೆತ್ ಪಡೆಯುವುದು ಸುಲಭವಿದೆ.
 

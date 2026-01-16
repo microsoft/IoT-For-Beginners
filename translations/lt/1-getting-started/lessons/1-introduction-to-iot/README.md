@@ -79,7 +79,7 @@ Mikrovaldiklis (taip pat vadinamas MCU, trumpinys nuo mikrovaldiklio vieneto) yr
 
 Mikrovaldikliai paprastai yra nebrangūs kompiuteriniai įrenginiai, kurių vidutinė kaina, naudojama specialiai sukurtoje aparatinėje įrangoje, sumažėja iki maždaug 0,50 USD, o kai kurie įrenginiai kainuoja vos 0,03 USD. Kūrėjų rinkiniai gali prasidėti nuo 4 USD, o kaina kyla, kai pridedama daugiau funkcijų. [Wio Terminal](https://www.seeedstudio.com/Wio-Terminal-p-4509.html), mikrovaldiklio kūrėjų rinkinys iš [Seeed studios](https://www.seeedstudio.com), turintis jutiklius, aktuatorius, WiFi ir ekraną, kainuoja apie 30 USD.
 
-![Wio Terminal](../../../../../translated_images/lt/wio-terminal.b8299ee16587db9a.png)
+![Wio Terminal](../../../../../translated_images/lt/wio-terminal.b8299ee16587db9a.webp)
 
 > 💁 Ieškodami mikrovaldiklių internete, būkite atsargūs ieškodami termino **MCU**, nes tai gali grąžinti daug rezultatų apie „Marvel Cinematic Universe“, o ne mikrovaldiklius.
 
@@ -93,7 +93,7 @@ Mikrovaldiklių kūrėjų rinkiniai paprastai turi papildomus įmontuotus jutikl
 
 Vieno plokštės kompiuteris yra mažas kompiuterinis įrenginys, turintis visus pilno kompiuterio elementus vienoje mažoje plokštėje. Tai yra įrenginiai, kurių specifikacijos yra artimos staliniams ar nešiojamiesiems kompiuteriams, veikia pilna operacinė sistema, tačiau yra mažesni, naudoja mažiau energijos ir yra žymiai pigesni.
 
-![Raspberry Pi 4](../../../../../translated_images/lt/raspberry-pi-4.fd4590d308c3d456.jpg)
+![Raspberry Pi 4](../../../../../translated_images/lt/raspberry-pi-4.fd4590d308c3d456.webp)
 
 „Raspberry Pi“ yra vienas populiariausių vieno plokštės kompiuterių.
 

@@ -41,7 +41,7 @@ Serverless, arba serverless kompiuterija, apima mažų kodo blokų kūrimą, kur
 
 > 💁 Jei anksčiau naudojote duomenų bazės paleidiklius, galite tai laikyti panašiu dalyku – kodas paleidžiamas įvykus įvykiui, pvz., įterpiant eilutę.
 
-![Kai daug įvykių siunčiama vienu metu, serverless paslauga plečiasi, kad visus juos apdorotų vienu metu](../../../../../translated_images/lt/serverless-scaling.f8c769adf0413fd1.png)
+![Kai daug įvykių siunčiama vienu metu, serverless paslauga plečiasi, kad visus juos apdorotų vienu metu](../../../../../translated_images/lt/serverless-scaling.f8c769adf0413fd1.webp)
 
 Jūsų kodas vykdomas tik tada, kai įvyksta įvykis, kitu metu jis nėra aktyvus. Įvykis įvyksta, jūsų kodas įkeliamas ir vykdomas. Tai daro serverless labai masteliniu – jei daug įvykių įvyksta vienu metu, debesų paslaugų teikėjas gali vykdyti jūsų funkciją tiek kartų, kiek reikia, vienu metu, naudodamas turimus serverius. Trūkumas yra tas, kad jei reikia dalintis informacija tarp įvykių, ją reikia išsaugoti kažkur, pvz., duomenų bazėje, o ne laikyti atmintyje.
 
@@ -244,7 +244,7 @@ Azure Functions CLI gali būti naudojamas naujai Functions programai sukurti.
     VS Code. Initialize for optimal use with VS Code?
     ```
 
-    ![Pranešimas](../../../../../translated_images/lt/vscode-azure-functions-init-notification.bd19b49229963edb.png)
+    ![Pranešimas](../../../../../translated_images/lt/vscode-azure-functions-init-notification.bd19b49229963edb.webp)
 
     Pasirinkite **Yes** iš šio pranešimo.
 

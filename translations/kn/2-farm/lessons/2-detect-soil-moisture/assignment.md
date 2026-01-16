@@ -29,14 +29,14 @@ CO_OP_TRANSLATOR_METADATA:
 
 ಗುರತ್ವಾಂಶ ಮಣ್ಣು ನಯವಾದಿಕೆ ಲೆಕ್ಕಿಸುವ ವಿಧಾನ:
 
-![soil moisture % is weight wet minus weight dry, divided by weight dry, times 100](../../../../../translated_images/kn/gsm-calculation.6da38c6201eec14e.png)
+![soil moisture % is weight wet minus weight dry, divided by weight dry, times 100](../../../../../translated_images/kn/gsm-calculation.6da38c6201eec14e.webp)
 
 * W<sub>wet</sub> - ತಡಿತ ಮಣ್ಣಿನ ತೂಕ
 * W<sub>dry</sub> - ಒಣಗಿ ಹೋದ ಮಣ್ಣಿನ ತೂಕ
 
 ಉದಾಹರಣೆಗೆ, ನೀವು ತಡಿತ ಮಣ್ಣಿನ ಮಾದರಿಯನ್ನು ಹೊಂದಿದ್ದೀರಿ ಅದು 212 ಗ್ರಾಂ ತೂಕ, ಮತ್ತು ಒಣಗಿ ಹೋದದಾದರೆ 197 ಗ್ರಾಂ.
 
-![The calculation filled in](../../../../../translated_images/kn/gsm-calculation-example.99f9803b4f29e976.png)
+![The calculation filled in](../../../../../translated_images/kn/gsm-calculation-example.99f9803b4f29e976.webp)
 
 * W<sub>wet</sub> = 212 ಗ್ರಾಂ
 * W<sub>dry</sub> = 197 ಗ್ರಾಂ

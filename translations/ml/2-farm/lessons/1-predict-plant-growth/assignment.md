@@ -42,7 +42,7 @@ CO_OP_TRANSLATOR_METADATA:
 
     Jupyter ആരംഭിച്ച് നിങ്ങളുടെ ബ്രൗസറിൽ നോട്ട്ബുക്ക് തുറക്കും. താപനില അളവുകളുടെ ദൃശ്യവൽകരണത്തിനും വളർച്ചാ ഡിഗ്രി ഡേസ് കണക്കാക്കുന്നതിനുമായുള്ള നിർദ്ദേശങ്ങൾ പിന്തുടരുക.
 
-    ![The jupyter notebook](../../../../../translated_images/ml/gdd-jupyter-notebook.c5b52cf21094f158.png)
+    ![The jupyter notebook](../../../../../translated_images/ml/gdd-jupyter-notebook.c5b52cf21094f158.webp)
 
 ## മൂല്യനിർണയം
 

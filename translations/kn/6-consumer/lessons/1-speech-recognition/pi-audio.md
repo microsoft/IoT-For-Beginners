@@ -25,13 +25,13 @@ CO_OP_TRANSLATOR_METADATA:
 
 #### ಕಾರ್ಯ - ಬಟನ್ ಅನ್ನು ಸಂಪರ್ಕಿಸು
 
-![A grove button](../../../../../translated_images/kn/grove-button.a70cfbb809a85636.png)
+![A grove button](../../../../../translated_images/kn/grove-button.a70cfbb809a85636.webp)
 
 1. ಒಂದು ತುದಿಯನ್ನು ಗ್ರೂವ್ ಕೇಬಲ್‌ನಿಂದ ಬಟನ್ ಮಾಡ್ಯೂಳಿನ ಅವಯವದಲ್ಲಿ ಹಾಕಿ. ಇದು ಒಂದು ದಿಕ್ಕಿನಲ್ಲಿ ಮಾತ್ರ ಹಾಕಬಹುದು.
 
 1. ರಾಸ್ಪ್ಬೆರ್ರಿ ಪೈ ನೆಲಗೂರುವಿಕೆಯ ಸ್ಥಿತಿಯಲ್ಲಿ ಇರುತ್ತಿದ್ದಾಗ, ಗ್ರೂವ್ ಕೇಬಲ್‌ನ ಇನ್ನೊಂದು ತುದಿಯನ್ನು ಪೈಗೆ ಹತ್ತಿಸಿರುವ ಗ್ರೂವ್ ಬೇಸ್ ಹ್ಯಾಟ್‌ನ **D5** ಎಂದು ಗುರುತಿಸಲಾಗಿರುವ ಡಿಜಿಟಲ್ ಅವಯವಕ್ಕೆ ಸಂಪರ್ಕಿಸು. ಈ ಅವಯವವು GPIO ಪಿನ್ಗಳ ಹತ್ತಿರದ ಸಾಲಿನಲ್ಲಿ ಎಡದಿಂದ ಎರಡನೆದು.
 
-![The grove button connected to socket D5](../../../../../translated_images/kn/pi-button.c7a1a4f55943341c.png)
+![The grove button connected to socket D5](../../../../../translated_images/kn/pi-button.c7a1a4f55943341c.webp)
 
 ## ಧ್ವನಿಯನ್ನು ಸೆರೆಹಿಡಿಯೋಣ
 

@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # ಭಾಷೆಯನ್ನು ಅರ್ಥಮಾಡಿಕೊಳ್ಳಿ
 
-![ಈ ಪಾಠದ ಸ್ಕೆಚ್‌ನೋಟ್ ಅವಲೋಕನ](../../../../../translated_images/kn/lesson-22.6148ea28500d9e00.jpg)
+![ಈ ಪಾಠದ ಸ್ಕೆಚ್‌ನೋಟ್ ಅವಲೋಕನ](../../../../../translated_images/kn/lesson-22.6148ea28500d9e00.webp)
 
 > ಸ್ಕೆಚ್‌ನೋಟ್ [ನಿತ್ಯ ನರಸಿಂಹನ್](https://github.com/nitya) ಅವರಿಂದ. ದೊಡ್ಡ ಆವೃತ್ತಿಗಾಗಿ ಚಿತ್ರವನ್ನು ಕ್ಲಿಕ್ ಮಾಡಿ.
 
@@ -55,7 +55,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 ## ಭಾಷಾ ಅರ್ಥಮಾಡಿಕೊಳ್ಳುವಿಕೆಯ ಮಾದರಿಯನ್ನು ಸೃಷ್ಟಿಸುವುದು
 
-![LUIS ಲೋಗೋ](../../../../../translated_images/kn/luis-logo.5cb4f3e88c020ee6.png)
+![LUIS ಲೋಗೋ](../../../../../translated_images/kn/luis-logo.5cb4f3e88c020ee6.webp)
 
 ನೀವು LUIS ಅನ್ನು ಬಳಸಿಕೊಂಡು ಭಾಷಾ ಅರ್ಥಮಾಡಿಕೊಳ್ಳುವಿಕೆಯ ಮಾದರಿಗಳನ್ನು ರಚಿಸಬಹುದು, ಇದು Microsoft ನ Cognitive Services ಭಾಗವಾದ ಭಾಷಾ ಅರ್ಥಮಾಡಿಕೊಳ್ಳುವಿಕೆ ಸೇವೆ.
 
@@ -126,7 +126,7 @@ LUIS ತರಬೇತಿಗಾಗಿ, ಮೊದಲು ಘಟಕಗಳನ್ನು
 
 ನೀವು ನಂತರ LUIS ಗೆ ಯಾವ ಭಾಗಗಳು ಘಟಕಗಳಾಗಿ ನಕ್ಷೆವಾಯಿತು ಎಂದು ಹೇಳುತ್ತೀರಿ:
 
-![set a timer for 1 minute and 12 seconds ಎಂಬ ವಾಕ್ಯವನ್ನು ಘಟಕಗಳಾಗಿ ವಿಭಜಿಸಲಾಗಿದೆ](../../../../../translated_images/kn/sentence-as-intent-entities.301401696f992259.png)
+![set a timer for 1 minute and 12 seconds ಎಂಬ ವಾಕ್ಯವನ್ನು ಘಟಕಗಳಾಗಿ ವಿಭಜಿಸಲಾಗಿದೆ](../../../../../translated_images/kn/sentence-as-intent-entities.301401696f992259.webp)
 
 `set a timer for 1 minute and 12 seconds` ಎಂಬ ವಾಕ್ಯದ ಉದ್ದೇಶ `set timer` ಆಗಿದೆ. ಇದರಲ್ಲಿ 2 ಘಟಕಗಳಿವೆ, ಪ್ರತಿಯೊಂದು 2 ಮೌಲ್ಯಗಳು ಗಿಟ್ಟಿದೆ:
 
@@ -178,7 +178,7 @@ LUIS ಪೋರ್ಟಲ್ ಬಳಸಿ ಮಾರ್ಗಸೂಚಿಗಳನ್�
 
 1. ಉದಾಹರಣೆಗಳನ್ನು ನಮೂದಿಸುವಾಗ, LUIS ಘಟಕಗಳ ಕಂಡುಹಿಡಿವನ್ನು ಪ್ರಾರಂಭಿಸುತ್ತದೆ, ಆದರೆ ಕಂಡುಕೊಂಡಿರುವ ಎಲ್ಲವನ್ನು ಅಡಿಕೆಮಾಡಿ ಮತ್ತು ಲೇಬಲ್ ಮಾಡುತ್ತದೆ.
 
-    ![ಸಂಖ್ಯೆಗಳು ಮತ್ತು ಸಮಯ ಘಟಕಗಳನ್ನು LUIS ಅಡಿಗೆಮಾಡಿರುವ ಉದಾಹರಣೆಗಳು](../../../../../translated_images/kn/luis-intent-examples.25716580b2d2723c.png)
+    ![ಸಂಖ್ಯೆಗಳು ಮತ್ತು ಸಮಯ ಘಟಕಗಳನ್ನು LUIS ಅಡಿಗೆಮಾಡಿರುವ ಉದಾಹರಣೆಗಳು](../../../../../translated_images/kn/luis-intent-examples.25716580b2d2723c.webp)
 
 ### ಕಾರ‍್ಯ - ಮಾದರಿಯನ್ನು ತರಬೇತುಮಾಡಿ ಮತ್ತು ಪರೀಕ್ಷಿಸಿ
 

@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 [Seeed Studios‌ನ Wio Terminal](https://www.seeedstudio.com/Wio-Terminal-p-4509.html) ಒಂದು Arduino-ಅನುರೂಪ ಮೈಕ್ರೋಕಾರ್ಯನಿರ್ವಾಹಕ, ಇದರಲ್ಲಿ WiFi ಮತ್ತು ಕೆಲವು ಸೆನ್ಸರ್‌ಗಳು ಮತ್ತು ಕಾರ್ಯಾಂಶಿಗಳು ಒಳಗೊಳ್ಳಿದ್ದು, Grove ಎಂದು ಕರೆಯಲ್ಪಡುವ हार್ಡ್‌ವೇರ್ ಪರಿಸರವನ್ನು ಬಳಸಿ ಹೆಚ್ಚಿನ ಸೆನ್ಸರ್‌ಗಳು ಮತ್ತು ಕಾರ್ಯಾಂಶಿಗಳನ್ನು ಸೇರಿಸಲು ಪೋರ್ಟ್‌ಗಳೂ ಇವೆ.
 
-![Seeed studios ನ Wio Terminal](../../../../../translated_images/kn/wio-terminal.b8299ee16587db9a.png)
+![Seeed studios ನ Wio Terminal](../../../../../translated_images/kn/wio-terminal.b8299ee16587db9a.webp)
 
 ## ಸೆಟಪ್
 
@@ -51,15 +51,15 @@ PlatformIO ಪ್ರಾಜೆಕ್ಟ್ ರಚಿಸಿ.
 
 1. PlatformIO ಐಕಾನ್ ಅಂದ ಅದರ ಪಕ್ಕದ ಮೆನು ಬಾರ್‌ನಲ್ಲಿ ಕಾಣುವದು:
 
-    ![Platform IO ಮೆನು ಆಯ್ಕೆ](../../../../../translated_images/kn/vscode-platformio-menu.297be26b9733e5c4.png)
+    ![Platform IO ಮೆನು ಆಯ್ಕೆ](../../../../../translated_images/kn/vscode-platformio-menu.297be26b9733e5c4.webp)
 
     ಈ ಮೆನು ಆಯ್ಕೆಯನ್ನು ಆರಿಸಿ, ನಂತರ *PIO Home -> Open* ಆರಿಸಿ
 
-    ![Platform IO ಓಪನ್ ಆಯ್ಕೆ](../../../../../translated_images/kn/vscode-platformio-home-open.3f9a41bfd3f4da1c.png)
+    ![Platform IO ಓಪನ್ ಆಯ್ಕೆ](../../../../../translated_images/kn/vscode-platformio-home-open.3f9a41bfd3f4da1c.webp)
 
 1. ಸ್ವಾಗತ ಪರದೆನಿಂದ, **+ New Project** ಬಟನ್ ಆರಿಸಿ
 
-    ![ಹೊಸ ಪ್ರಾಜೆಕ್ಟ್ ಬಟನ್](../../../../../translated_images/kn/vscode-platformio-welcome-new-button.ba6fc8a4c7b78cc8.png)
+    ![ಹೊಸ ಪ್ರಾಜೆಕ್ಟ್ ಬಟನ್](../../../../../translated_images/kn/vscode-platformio-welcome-new-button.ba6fc8a4c7b78cc8.webp)
 
 1. ಪ್ರಾಜೆಕ್ಟ್ ಕಾನ್ಫಿಗರ್ ಮಾಡಿ *Project Wizard*ನಲ್ಲಿ:
 
@@ -73,7 +73,7 @@ PlatformIO ಪ್ರಾಜೆಕ್ಟ್ ರಚಿಸಿ.
 
     1. **Finish** ಬಟನ್ ಆಯ್ಕೆ ಮಾಡಿ
 
-    ![ಪೂರ್ಣಗೊಂಡ ಪ್ರಾಜೆಕ್ಟ್ ವಿಸಾರ್ಡ್](../../../../../translated_images/kn/vscode-platformio-nightlight-project-wizard.5c64db4da6037420.png)
+    ![ಪೂರ್ಣಗೊಂಡ ಪ್ರಾಜೆಕ್ಟ್ ವಿಸಾರ್ಡ್](../../../../../translated_images/kn/vscode-platformio-nightlight-project-wizard.5c64db4da6037420.webp)
 
     PlatformIO Wio Terminal ಗಾಗಿ ಕೋಡ್ ಕಂಪೈಲ್ ಮಾಡಲು ಅಗತ್ಯವಿರುವ घटಕಗಳನ್ನು ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ ಮತ್ತು ನಿಮ್ಮ ಪ್ರಾಜೆಕ್ಟ್ ರಚಿಸುತ್ತದೆ. ಇದಕ್ಕೆ ಕೆಲವು ನಿಮಿಷಗಳು ಬೇಕಾಗಬಹುದು.
 
@@ -179,7 +179,7 @@ Hello World ಅಪ್ಲಿಕೇಶನ್ ಬರೆಯಿರಿ.
 
     1. `PlatformIO Upload` ಟೈಪ್ ಮಾಡಿ ಅಪ್‌ಲೋಡ್ ಆಯ್ಕೆಯನ್ನು ಹುಡುಕಿ, ಮತ್ತು *PlatformIO: Upload* ಆಯ್ಕೆಮಾಡಿ
 
-        ![Command palette ನಲ್ಲಿ PlatformIO ಅಪ್ಲೋಡ್ ಆಯ್ಕೆ](../../../../../translated_images/kn/vscode-platformio-upload-command-palette.9e0f49cf80d1f1c3.png)
+        ![Command palette ನಲ್ಲಿ PlatformIO ಅಪ್ಲೋಡ್ ಆಯ್ಕೆ](../../../../../translated_images/kn/vscode-platformio-upload-command-palette.9e0f49cf80d1f1c3.webp)
 
         ಅಗತ್ಯವಿದ್ದರೆ PlatformIO ಸ್ವಯಂಚಾಲಿತವಾಗಿ ಕೋಡ್ ತಯಾರಿಸಿ ಅಪ್‌ಲೋಡ್ ಮಾಡುತ್ತದೆ.
 
@@ -195,7 +195,7 @@ PlatformIO ನಲ್ಲಿ ಸೀರಿಯಲ್ ಮಾನಿಟರ್ ಇದೆ
 
 1. `PlatformIO Serial` ಟೈಪ್ ಮಾಡಿ ಸೀರಿಯಲ್ ಮಾನಿಟರ್ ಆಯ್ಕೆಯನ್ನು ಹುಡುಕಿ, ಮತ್ತು *PlatformIO: Serial Monitor* ಆಯ್ಕೆಮಾಡಿ
 
-    ![Command palette ನಲ್ಲಿ PlatformIO ಸೀರಿಯಲ್ ಮಾನಿಟರ್ ಆಯ್ಕೆ](../../../../../translated_images/kn/vscode-platformio-serial-monitor-command-palette.b348ec841b8a1c14.png)
+    ![Command palette ನಲ್ಲಿ PlatformIO ಸೀರಿಯಲ್ ಮಾನಿಟರ್ ಆಯ್ಕೆ](../../../../../translated_images/kn/vscode-platformio-serial-monitor-command-palette.b348ec841b8a1c14.webp)
 
     ಹೊಸ ಟರ್ಮಿನಲ್ ತೆರೆಯುತ್ತದೆ ಮತ್ತು ಸರಣಿದರ್ಜೆಯ ಮೂಲಕ ಕಳುಹಿತ ಡೇಟಾ ಈ ಟರ್ಮಿನಲ್‌ಗೆ ಸ್ಟ್ರೀಂ ಆಗಿ ಬರುತ್ತದೆ:
 

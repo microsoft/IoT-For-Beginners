@@ -154,11 +154,11 @@ Python व्हर्च्युअल वातावरण कॉन्फ�
 
 1. जेव्हा VS Code लॉन्च होते, तेव्हा ते Python व्हर्च्युअल वातावरण सक्रिय करेल. निवडलेले व्हर्च्युअल वातावरण तळाच्या स्टेटस बारमध्ये दिसेल:
 
-    ![VS Code निवडलेले व्हर्च्युअल वातावरण दर्शवित आहे](../../../../../translated_images/mr/vscode-virtual-env.8ba42e04c3d533cf.png)
+    ![VS Code निवडलेले व्हर्च्युअल वातावरण दर्शवित आहे](../../../../../translated_images/mr/vscode-virtual-env.8ba42e04c3d533cf.webp)
 
 1. जर VS Code टर्मिनल VS Code सुरू झाल्यावर आधीच चालू असेल, तर त्यात व्हर्च्युअल वातावरण सक्रिय नसेल. सर्वात सोपी गोष्ट म्हणजे **Kill the active terminal instance** बटण वापरून टर्मिनल बंद करणे:
 
-    ![VS Code Kill the active terminal instance बटण](../../../../../translated_images/mr/vscode-kill-terminal.1cc4de7c6f25ee08.png)
+    ![VS Code Kill the active terminal instance बटण](../../../../../translated_images/mr/vscode-kill-terminal.1cc4de7c6f25ee08.webp)
 
     तुम्ही टर्मिनलमध्ये व्हर्च्युअल वातावरण सक्रिय आहे की नाही हे सांगू शकता कारण टर्मिनल प्रॉम्प्टवर व्हर्च्युअल वातावरणाचे नाव उपसर्ग म्हणून असेल. उदाहरणार्थ, ते असे असू शकते:
 
@@ -229,7 +229,7 @@ Python व्हर्च्युअल वातावरण कॉन्फ�
 
 1. तुम्हाला **Create a new integrated terminal** बटण निवडून नवीन VS Code टर्मिनल लॉन्च करावे लागेल. कारण CounterFit अ‍ॅप सध्याच्या टर्मिनलमध्ये चालू आहे.
 
-    ![VS Code नवीन एकत्रित टर्मिनल बटण तयार करा](../../../../../translated_images/mr/vscode-new-terminal.77db8fc0f9cd3182.png)
+    ![VS Code नवीन एकत्रित टर्मिनल बटण तयार करा](../../../../../translated_images/mr/vscode-new-terminal.77db8fc0f9cd3182.webp)
 
 1. या नवीन टर्मिनलमध्ये, पूर्वीप्रमाणे `app.py` फाइल चालवा. CounterFit ची स्थिती **Connected** मध्ये बदलेल आणि LED चालू होईल.
 

@@ -75,7 +75,7 @@ Beberapa sensor paling dasar adalah sensor analog. Sensor ini menerima tegangan 
 
 Salah satu contohnya adalah potensiometer. Ini adalah kenop yang dapat Anda putar di antara dua posisi, dan sensor mengukur rotasi tersebut.
 
-![Potensiometer diatur ke titik tengah, menerima 5 volt, dan mengembalikan 3,8 volt](../../../../../translated_images/id/potentiometer.35a348b9ce22f6ec.png)
+![Potensiometer diatur ke titik tengah, menerima 5 volt, dan mengembalikan 3,8 volt](../../../../../translated_images/id/potentiometer.35a348b9ce22f6ec.webp)
 
 Perangkat IoT akan mengirimkan sinyal listrik ke potensiometer pada tegangan tertentu, misalnya 5 volt (5V). Saat potensiometer disesuaikan, tegangan yang keluar dari sisi lain akan berubah. Bayangkan Anda memiliki potensiometer yang diberi label sebagai kenop yang berkisar dari 0 hingga [11](https://wikipedia.org/wiki/Up_to_eleven), seperti kenop volume pada amplifier. Ketika potensiometer berada di posisi mati penuh (0), maka 0V (0 volt) akan keluar. Ketika berada di posisi nyala penuh (11), 5V (5 volt) akan keluar.
 
@@ -112,7 +112,7 @@ Pin pada perangkat IoT seperti pin GPIO dapat mengukur sinyal ini secara langsun
 
 Sensor digital yang lebih canggih membaca nilai analog, lalu mengonversinya menggunakan ADC bawaan menjadi sinyal digital. Misalnya, sensor suhu digital masih menggunakan termokopel dengan cara yang sama seperti sensor analog, dan masih mengukur perubahan tegangan yang disebabkan oleh resistansi termokopel pada suhu saat ini. Alih-alih mengembalikan nilai analog dan mengandalkan perangkat atau papan konektor untuk mengonversi menjadi sinyal digital, ADC yang dibangun ke dalam sensor akan mengonversi nilai tersebut dan mengirimkannya sebagai serangkaian 0 dan 1 ke perangkat IoT. 0 dan 1 ini dikirim dengan cara yang sama seperti sinyal digital untuk tombol dengan 1 sebagai tegangan penuh dan 0 sebagai 0V.
 
-![Sensor suhu digital mengonversi pembacaan analog menjadi data biner dengan 0 sebagai 0 volt dan 1 sebagai 5 volt sebelum mengirimkannya ke perangkat IoT](../../../../../translated_images/id/temperature-as-digital.85004491b977bae1.png)
+![Sensor suhu digital mengonversi pembacaan analog menjadi data biner dengan 0 sebagai 0 volt dan 1 sebagai 5 volt sebelum mengirimkannya ke perangkat IoT](../../../../../translated_images/id/temperature-as-digital.85004491b977bae1.webp)
 
 Mengirim data digital memungkinkan sensor menjadi lebih kompleks dan mengirimkan data yang lebih rinci, bahkan data terenkripsi untuk sensor yang aman. Salah satu contohnya adalah kamera. Ini adalah sensor yang menangkap gambar dan mengirimkannya sebagai data digital yang berisi gambar tersebut, biasanya dalam format terkompresi seperti JPEG, untuk dibaca oleh perangkat IoT. Kamera bahkan dapat melakukan streaming video dengan menangkap gambar dan mengirimkan gambar lengkap frame demi frame atau aliran video terkompresi.
 
@@ -164,7 +164,7 @@ Sebagai contoh, kamu dapat menggunakan PWM untuk mengontrol kecepatan motor.
 
 Bayangkan kamu mengontrol motor dengan suplai 5V. Kamu mengirimkan pulsa pendek ke motor, mengubah tegangan menjadi tinggi (5V) selama dua per seratus detik (0,02s). Dalam waktu tersebut, motor dapat berputar sepersepuluh putaran, atau 36°. Sinyal kemudian berhenti selama dua per seratus detik (0,02s), mengirimkan sinyal rendah (0V). Setiap siklus nyala lalu mati berlangsung selama 0,04s. Siklus ini kemudian berulang.
 
-![Rotasi motor dengan modulasi lebar pulsa pada 150 RPM](../../../../../translated_images/id/pwm-motor-150rpm.83347ac04ca38482.png)
+![Rotasi motor dengan modulasi lebar pulsa pada 150 RPM](../../../../../translated_images/id/pwm-motor-150rpm.83347ac04ca38482.webp)
 
 Ini berarti dalam satu detik kamu memiliki 25 pulsa 5V selama 0,02s yang memutar motor, masing-masing diikuti oleh jeda 0,02s dengan 0V yang tidak memutar motor. Setiap pulsa memutar motor sepersepuluh putaran, yang berarti motor menyelesaikan 2,5 putaran per detik. Kamu telah menggunakan sinyal digital untuk memutar motor pada 2,5 putaran per detik, atau 150 [putaran per menit](https://wikipedia.org/wiki/Revolutions_per_minute) (ukuran kecepatan rotasi yang tidak standar).
 
@@ -175,7 +175,7 @@ Ini berarti dalam satu detik kamu memiliki 25 pulsa 5V selama 0,02s yang memutar
 
 > 🎓 Ketika sinyal PWM menyala selama setengah waktu, dan mati selama setengah waktu, ini disebut sebagai [siklus tugas 50%](https://wikipedia.org/wiki/Duty_cycle). Siklus tugas diukur sebagai persentase waktu sinyal berada dalam keadaan nyala dibandingkan dengan keadaan mati.
 
-![Rotasi motor dengan modulasi lebar pulsa pada 75 RPM](../../../../../translated_images/id/pwm-motor-75rpm.a5e4c939934b6e14.png)
+![Rotasi motor dengan modulasi lebar pulsa pada 75 RPM](../../../../../translated_images/id/pwm-motor-75rpm.a5e4c939934b6e14.webp)
 
 Kamu dapat mengubah kecepatan motor dengan mengubah ukuran pulsa. Sebagai contoh, dengan motor yang sama kamu dapat mempertahankan waktu siklus yang sama yaitu 0,04s, dengan pulsa nyala dipotong setengah menjadi 0,01s, dan pulsa mati meningkat menjadi 0,03s. Kamu memiliki jumlah pulsa per detik yang sama (25), tetapi setiap pulsa nyala hanya setengah panjangnya. Pulsa setengah panjang hanya memutar motor seperdua puluh putaran, dan pada 25 pulsa per detik akan menyelesaikan 1,25 putaran per detik atau 75rpm. Dengan mengubah kecepatan pulsa sinyal digital, kamu telah mengurangi kecepatan motor analog menjadi setengahnya.
 
