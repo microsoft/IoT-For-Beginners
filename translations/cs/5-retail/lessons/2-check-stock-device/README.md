@@ -39,7 +39,7 @@ Detektory objektů mohou být použity pro kontrolu zásob, ať už pro jejich p
 
 Například pokud kamera míří na regál, který pojme 8 plechovek rajčatového protlaku, a detektor objektů detekuje pouze 7 plechovek, pak jedna chybí a je třeba ji doplnit.
 
-![7 plechovek rajčatového protlaku na regálu, 4 v horní řadě, 3 dole](../../../../../translated_images/cs/stock-7-cans-tomato-paste.f86059cc573d7bec.png)
+![7 plechovek rajčatového protlaku na regálu, 4 v horní řadě, 3 dole](../../../../../translated_images/cs/stock-7-cans-tomato-paste.f86059cc573d7bec.webp)
 
 Na obrázku výše detektor objektů detekoval 7 plechovek rajčatového protlaku na regálu, který pojme 8 plechovek. IoT zařízení může nejen odeslat upozornění na potřebu doplnění, ale dokonce může poskytnout informaci o umístění chybějící položky, což je důležitý údaj, pokud používáte roboty k doplňování regálů.
 
@@ -51,7 +51,7 @@ Někdy se na regálech může objevit nesprávné zboží. Může jít o lidskou
 
 Detekce objektů může být použita k detekci neočekávaných položek, a opět upozornit člověka nebo robota, aby položku co nejdříve vrátil na správné místo.
 
-![Cizí plechovka baby kukuřice na regálu s rajčatovým protlakem](../../../../../translated_images/cs/stock-rogue-corn.be1f3ada8c457854.png)
+![Cizí plechovka baby kukuřice na regálu s rajčatovým protlakem](../../../../../translated_images/cs/stock-rogue-corn.be1f3ada8c457854.webp)
 
 Na obrázku výše byla na regál s rajčatovým protlakem umístěna plechovka baby kukuřice. Detektor objektů ji detekoval, což umožňuje IoT zařízení upozornit člověka nebo robota, aby plechovku vrátil na správné místo.
 

@@ -33,7 +33,7 @@ Grove temperatuurianduri saab ühendada Wio Terminali digitaalsesse porti.
 
 1. Kui Wio Terminal on lahti ühendatud arvutist või muust toiteallikast, ühenda Grove-kaabli teine ots Wio Terminali parempoolse Grove-pistikuga, vaadates ekraani. See on pistik, mis asub kõige kaugemal toitenupust.
 
-![Grove temperatuuriandur ühendatud parempoolse pistikuga](../../../../../translated_images/et/wio-temperature-sensor.2934928f38c7f79a.png)
+![Grove temperatuuriandur ühendatud parempoolse pistikuga](../../../../../translated_images/et/wio-temperature-sensor.2934928f38c7f79a.webp)
 
 ## Programmeeri temperatuuriandur
 

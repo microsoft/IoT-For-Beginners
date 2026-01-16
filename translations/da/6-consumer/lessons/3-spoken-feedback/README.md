@@ -37,7 +37,7 @@ I denne lektion dækker vi:
 
 Tekst til tale, som navnet antyder, er processen med at konvertere tekst til lyd, der indeholder teksten som talte ord. Den grundlæggende idé er at nedbryde ordene i teksten til deres bestanddele lyde (kendt som fonemer) og sy sammen lyd for disse lyde, enten ved hjælp af forudindspillet lyd eller lyd genereret af AI-modeller.
 
-![De tre trin i typiske tekst-til-tale-systemer](../../../../../translated_images/da/tts-overview.193843cf3f5ee09f.png)
+![De tre trin i typiske tekst-til-tale-systemer](../../../../../translated_images/da/tts-overview.193843cf3f5ee09f.webp)
 
 Tekst-til-tale-systemer har typisk 3 trin:
 

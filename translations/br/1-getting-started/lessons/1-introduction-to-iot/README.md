@@ -79,7 +79,7 @@ Um microcontrolador (também chamado de MCU, abreviação de microcontroller uni
 
 Microcontroladores são dispositivos de computação de baixo custo, com preços médios para aqueles usados em hardware personalizado caindo para cerca de US$0,50, e alguns dispositivos custando apenas US$0,03. Kits de desenvolvimento podem começar a partir de US$4, com custos aumentando conforme mais recursos são adicionados. O [Wio Terminal](https://www.seeedstudio.com/Wio-Terminal-p-4509.html), um kit de desenvolvimento de microcontrolador da [Seeed Studios](https://www.seeedstudio.com) que possui sensores, atuadores, WiFi e uma tela, custa cerca de US$30.
 
-![Um Wio Terminal](../../../../../translated_images/br/wio-terminal.b8299ee16587db9a.png)
+![Um Wio Terminal](../../../../../translated_images/br/wio-terminal.b8299ee16587db9a.webp)
 
 > 💁 Ao pesquisar microcontroladores na Internet, tenha cuidado ao procurar pelo termo **MCU**, pois isso pode trazer muitos resultados relacionados ao Universo Cinematográfico da Marvel, e não a microcontroladores.
 
@@ -93,7 +93,7 @@ Kits de desenvolvimento de microcontroladores geralmente vêm com sensores e atu
 
 Um computador de placa única é um pequeno dispositivo de computação que contém todos os elementos de um computador completo em uma única placa pequena. Esses dispositivos possuem especificações próximas às de um PC ou Mac, executam um sistema operacional completo, mas são menores, consomem menos energia e são substancialmente mais baratos.
 
-![Um Raspberry Pi 4](../../../../../translated_images/br/raspberry-pi-4.fd4590d308c3d456.jpg)
+![Um Raspberry Pi 4](../../../../../translated_images/br/raspberry-pi-4.fd4590d308c3d456.webp)
 
 O Raspberry Pi é um dos computadores de placa única mais populares.
 

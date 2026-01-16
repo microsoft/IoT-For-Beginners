@@ -33,7 +33,7 @@ Grove relee saab ühendada Wio Terminali digitaalse pordiga.
 
 1. Kui Wio Terminal on arvutist või muust toiteallikast lahti ühendatud, ühendage Grove kaabli teine ots Wio Terminali vasakpoolse Grove pistikuga, vaadates ekraani. Jätke mulla niiskuse andur ühendatuks parempoolse pistikuga.
 
-![Grove relee ühendatud vasakpoolse pistikuga ja mulla niiskuse andur ühendatud parempoolse pistikuga](../../../../../translated_images/et/wio-relay-and-soil-moisture-sensor.ed722202d42babe0.png)
+![Grove relee ühendatud vasakpoolse pistikuga ja mulla niiskuse andur ühendatud parempoolse pistikuga](../../../../../translated_images/et/wio-relay-and-soil-moisture-sensor.ed722202d42babe0.webp)
 
 1. Sisestage mulla niiskuse andur mulda, kui see pole juba eelmisest õppetunnist seal.
 

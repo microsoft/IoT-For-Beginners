@@ -57,7 +57,7 @@ Os Defensores da Nuvem Azure da Microsoft têm o prazer de oferecer um currícul
 
 Os projetos cobrem a jornada da comida da fazenda à mesa. Isso inclui agricultura, logística, manufatura, varejo e consumidor — todas áreas populares da indústria para dispositivos IoT.
 
-![Um mapa do curso mostrando 24 lições cobrindo introdução, agricultura, transporte, processamento, varejo e cozinha](../../translated_images/br/Roadmap.bb1dec285dda0eda.jpg)
+![Um mapa do curso mostrando 24 lições cobrindo introdução, agricultura, transporte, processamento, varejo e cozinha](../../translated_images/br/Roadmap.bb1dec285dda0eda.webp)
 
 > Sketchnote por [Nitya Narasimhan](https://github.com/nitya). Clique na imagem para uma versão maior.
 

@@ -41,7 +41,7 @@ Die zwei Hauptkomponenten einer IoT-Anwendung sind das *Internet* und das *Ding*
 
 ### Das Ding
 
-![Ein Raspberry Pi 4](../../../../../translated_images/de/raspberry-pi-4.fd4590d308c3d456.jpg)
+![Ein Raspberry Pi 4](../../../../../translated_images/de/raspberry-pi-4.fd4590d308c3d456.webp)
 
 Der **Ding**-Teil von IoT bezieht sich auf ein Gerät, das mit der physischen Welt interagieren kann. Diese Geräte sind normalerweise kleine, kostengünstige Computer, die mit niedrigen Geschwindigkeiten und geringem Stromverbrauch arbeiten – zum Beispiel einfache Mikrocontroller mit Kilobyte RAM (im Gegensatz zu Gigabyte bei einem PC), die nur mit wenigen hundert Megahertz laufen (im Gegensatz zu Gigahertz bei einem PC), aber manchmal so wenig Strom verbrauchen, dass sie wochen-, monate- oder sogar jahrelang mit Batterien betrieben werden können.
 
@@ -67,7 +67,7 @@ Im Beispiel eines intelligenten Thermostats würde sich der Thermostat über das
 
 Eine noch intelligentere Version könnte KI in der Cloud verwenden, die Daten von anderen Sensoren, die mit anderen IoT-Geräten verbunden sind, wie Belegungssensoren, die erkennen, welche Räume genutzt werden, sowie Daten wie Wetter und sogar Ihren Kalender, um Entscheidungen darüber zu treffen, wie die Temperatur intelligent eingestellt werden kann. Zum Beispiel könnte sie Ihre Heizung ausschalten, wenn sie aus Ihrem Kalender liest, dass Sie im Urlaub sind, oder die Heizung raumweise ausschalten, je nachdem, welche Räume Sie nutzen, und aus den Daten lernen, um mit der Zeit immer genauer zu werden.
 
-![Ein Diagramm, das mehrere Temperatursensoren und einen Drehregler als Eingaben für ein IoT-Gerät zeigt, das IoT-Gerät mit bidirektionaler Kommunikation zur Cloud, die wiederum bidirektionale Kommunikation zu einem Telefon, einem Kalender und einem Wetterdienst hat, und die Steuerung einer Heizung als Ausgabe des IoT-Geräts](../../../../../translated_images/de/smarter-thermostat.a75855f15d2d9e63.png)
+![Ein Diagramm, das mehrere Temperatursensoren und einen Drehregler als Eingaben für ein IoT-Gerät zeigt, das IoT-Gerät mit bidirektionaler Kommunikation zur Cloud, die wiederum bidirektionale Kommunikation zu einem Telefon, einem Kalender und einem Wetterdienst hat, und die Steuerung einer Heizung als Ausgabe des IoT-Geräts](../../../../../translated_images/de/smarter-thermostat.a75855f15d2d9e63.webp)
 
 ✅ Welche anderen Daten könnten helfen, einen mit dem Internet verbundenen Thermostat intelligenter zu machen?
 
@@ -135,7 +135,7 @@ Wie bei der CPU ist der Speicher eines Mikrocontrollers um Größenordnungen kle
 
 Das folgende Diagramm zeigt den relativen Größenunterschied zwischen 192KB und 8GB – der kleine Punkt in der Mitte repräsentiert 192KB.
 
-![Ein Vergleich zwischen 192KB und 8GB – mehr als 40.000-mal größer](../../../../../translated_images/de/ram-comparison.6beb73541b42ac6f.png)
+![Ein Vergleich zwischen 192KB und 8GB – mehr als 40.000-mal größer](../../../../../translated_images/de/ram-comparison.6beb73541b42ac6f.webp)
 
 Auch der Programmspeicher ist kleiner als bei einem PC. Ein typischer PC hat möglicherweise eine 500GB-Festplatte für Programmspeicher, während ein Mikrocontroller oft nur Kilobytes oder vielleicht ein paar Megabytes (MB) Speicherplatz hat (1MB entspricht 1.000KB oder 1.000.000 Bytes). Das Wio Terminal verfügt über 4MB Programmspeicher.
 
@@ -211,17 +211,17 @@ In der letzten Lektion haben wir Einplatinencomputer eingeführt. Schauen wir un
 
 ### Raspberry Pi
 
-![Das Raspberry Pi-Logo](../../../../../translated_images/de/raspberry-pi-logo.4efaa16605cee054.png)
+![Das Raspberry Pi-Logo](../../../../../translated_images/de/raspberry-pi-logo.4efaa16605cee054.webp)
 
 Die [Raspberry Pi Foundation](https://www.raspberrypi.org) ist eine Wohltätigkeitsorganisation aus Großbritannien, die 2009 gegründet wurde, um das Studium der Informatik, insbesondere auf Schulebene, zu fördern. Im Rahmen dieser Mission entwickelten sie einen Einplatinencomputer, den Raspberry Pi. Raspberry Pis sind derzeit in drei Varianten erhältlich – einer Vollversion, der kleineren Pi Zero und einem Compute-Modul, das in Ihr finales IoT-Gerät eingebaut werden kann.
 
-![Ein Raspberry Pi 4](../../../../../translated_images/de/raspberry-pi-4.fd4590d308c3d456.jpg)
+![Ein Raspberry Pi 4](../../../../../translated_images/de/raspberry-pi-4.fd4590d308c3d456.webp)
 
 Die neueste Version des vollwertigen Raspberry Pi ist der Raspberry Pi 4B. Dieser verfügt über eine Quad-Core-CPU (4 Kerne) mit 1,5GHz, 2, 4 oder 8GB RAM, Gigabit-Ethernet, WiFi, 2 HDMI-Ports mit Unterstützung für 4k-Bildschirme, einen Audio- und Composite-Videoausgang, USB-Ports (2 USB 2.0, 2 USB 3.0), 40 GPIO-Pins, einen Kamerasteckplatz für ein Raspberry Pi Kameramodul und einen SD-Kartensteckplatz. All das auf einer Platine, die 88mm x 58mm x 19,5mm misst und mit einem 3A USB-C-Netzteil betrieben wird. Diese beginnen bei 35 US-Dollar, deutlich günstiger als ein PC oder Mac.
 
 > 💁 Es gibt auch einen Pi400, einen All-in-One-Computer mit einem Pi4, der in eine Tastatur integriert ist.
 
-![Ein Raspberry Pi Zero](../../../../../translated_images/de/raspberry-pi-zero.f7a4133e1e7d54bb.jpg)
+![Ein Raspberry Pi Zero](../../../../../translated_images/de/raspberry-pi-zero.f7a4133e1e7d54bb.webp)
 
 Der Pi Zero ist viel kleiner und energieeffizienter. Er hat eine Single-Core-CPU mit 1GHz, 512MB RAM, WiFi (im Zero W-Modell), einen einzigen HDMI-Port, einen Micro-USB-Port, 40 GPIO-Pins, einen Kamerasteckplatz für ein Raspberry Pi Kameramodul und einen SD-Kartensteckplatz. Er misst 65mm x 30mm x 5mm und verbraucht sehr wenig Energie. Der Zero kostet 5 US-Dollar, die W-Version mit WiFi 10 US-Dollar.
 

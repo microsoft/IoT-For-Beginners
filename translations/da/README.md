@@ -57,7 +57,7 @@ Azure Cloud Advocates hos Microsoft er glade for at kunne tilbyde et 12-ugers, 2
 
 Projekterne dækker fødevarens rejse fra gård til bord. Det inkluderer landbrug, logistik, produktion, detailhandel og forbruger - alle populære industrisektorer for IoT-enheder.
 
-![Et køreplan for kurset, der viser 24 lektioner, der dækker intro, landbrug, transport, forarbejdning, detailhandel og madlavning](../../translated_images/da/Roadmap.bb1dec285dda0eda.jpg)
+![Et køreplan for kurset, der viser 24 lektioner, der dækker intro, landbrug, transport, forarbejdning, detailhandel og madlavning](../../translated_images/da/Roadmap.bb1dec285dda0eda.webp)
 
 > Sketchnote af [Nitya Narasimhan](https://github.com/nitya). Klik på billedet for en større version.
 

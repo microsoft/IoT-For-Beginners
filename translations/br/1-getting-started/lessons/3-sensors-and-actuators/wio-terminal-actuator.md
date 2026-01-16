@@ -51,7 +51,7 @@ Conecte o LED.
 
     > 💁 O soquete Grove do lado direito pode ser usado com sensores e atuadores analógicos ou digitais. O soquete do lado esquerdo é apenas para sensores e atuadores digitais. O C será abordado em uma lição posterior.
 
-![O Grove LED conectado ao soquete do lado direito](../../../../../translated_images/br/wio-led.265a1897e72d7f21.png)
+![O Grove LED conectado ao soquete do lado direito](../../../../../translated_images/br/wio-led.265a1897e72d7f21.webp)
 
 ## Programe a luz noturna
 

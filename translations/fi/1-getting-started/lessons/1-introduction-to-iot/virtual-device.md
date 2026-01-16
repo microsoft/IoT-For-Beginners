@@ -154,11 +154,11 @@ Luo Python-sovellus, joka tulostaa `"Hello World"` konsoliin.
 
 1. Kun VS Code käynnistyy, se aktivoi Python-virtuaaliympäristön. Valittu virtuaaliympäristö näkyy alareunan tilapalkissa:
 
-    ![VS Code näyttää valitun virtuaaliympäristön](../../../../../translated_images/fi/vscode-virtual-env.8ba42e04c3d533cf.png)
+    ![VS Code näyttää valitun virtuaaliympäristön](../../../../../translated_images/fi/vscode-virtual-env.8ba42e04c3d533cf.webp)
 
 1. Jos VS Coden terminaali on jo käynnissä, kun VS Code käynnistyy, virtuaaliympäristö ei ole aktivoitu siinä. Helpoin tapa on sulkea terminaali käyttämällä **Sulje aktiivinen terminaali** -painiketta:
 
-    ![VS Code Sulje aktiivinen terminaali -painike](../../../../../translated_images/fi/vscode-kill-terminal.1cc4de7c6f25ee08.png)
+    ![VS Code Sulje aktiivinen terminaali -painike](../../../../../translated_images/fi/vscode-kill-terminal.1cc4de7c6f25ee08.webp)
 
     Voit tarkistaa, onko terminaalissa aktivoitu virtuaaliympäristö, sillä virtuaaliympäristön nimi näkyy terminaalin kehotteen etuliitteenä. Esimerkiksi se voi olla:
 
@@ -229,7 +229,7 @@ Toisena 'Hello World' -vaiheena käynnistät CounterFit-sovelluksen ja yhdistät
 
 1. Sinun täytyy käynnistää uusi VS Code -terminaali valitsemalla **Luo uusi integroitu terminaali** -painike. Tämä johtuu siitä, että CounterFit-sovellus on käynnissä nykyisessä terminaalissa.
 
-    ![VS Code Luo uusi integroitu terminaali -painike](../../../../../translated_images/fi/vscode-new-terminal.77db8fc0f9cd3182.png)
+    ![VS Code Luo uusi integroitu terminaali -painike](../../../../../translated_images/fi/vscode-new-terminal.77db8fc0f9cd3182.webp)
 
 1. Aja `app.py`-tiedosto uudessa terminaalissa kuten aiemmin. CounterFitin tila muuttuu **Connected**-tilaan ja LED syttyy.
 

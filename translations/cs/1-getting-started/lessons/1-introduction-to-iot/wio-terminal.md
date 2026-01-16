@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 [Wio Terminal od Seeed Studios](https://www.seeedstudio.com/Wio-Terminal-p-4509.html) je mikrokontrolér kompatibilní s Arduino, který má vestavěné WiFi, několik senzorů a akčních členů, a také porty pro připojení dalších senzorů a akčních členů pomocí hardwarového ekosystému zvaného [Grove](https://www.seeedstudio.com/category/Grove-c-1003.html).
 
-![Wio Terminal od Seeed Studios](../../../../../translated_images/cs/wio-terminal.b8299ee16587db9a.png)
+![Wio Terminal od Seeed Studios](../../../../../translated_images/cs/wio-terminal.b8299ee16587db9a.webp)
 
 ## Nastavení
 
@@ -51,15 +51,15 @@ Vytvořte projekt PlatformIO.
 
 1. Na bočním panelu se zobrazí ikona PlatformIO:
 
-    ![Možnost menu PlatformIO](../../../../../translated_images/cs/vscode-platformio-menu.297be26b9733e5c4.png)
+    ![Možnost menu PlatformIO](../../../../../translated_images/cs/vscode-platformio-menu.297be26b9733e5c4.webp)
 
     Vyberte tuto položku menu a poté vyberte *PIO Home -> Open*.
 
-    ![Možnost otevření PlatformIO](../../../../../translated_images/cs/vscode-platformio-home-open.3f9a41bfd3f4da1c.png)
+    ![Možnost otevření PlatformIO](../../../../../translated_images/cs/vscode-platformio-home-open.3f9a41bfd3f4da1c.webp)
 
 1. Na uvítací obrazovce vyberte tlačítko **+ New Project**.
 
-    ![Tlačítko pro nový projekt](../../../../../translated_images/cs/vscode-platformio-welcome-new-button.ba6fc8a4c7b78cc8.png)
+    ![Tlačítko pro nový projekt](../../../../../translated_images/cs/vscode-platformio-welcome-new-button.ba6fc8a4c7b78cc8.webp)
 
 1. Nakonfigurujte projekt v *Průvodci projektem*:
 
@@ -73,7 +73,7 @@ Vytvořte projekt PlatformIO.
 
     1. Vyberte tlačítko **Finish**.
 
-    ![Dokončený průvodce projektem](../../../../../translated_images/cs/vscode-platformio-nightlight-project-wizard.5c64db4da6037420.png)
+    ![Dokončený průvodce projektem](../../../../../translated_images/cs/vscode-platformio-nightlight-project-wizard.5c64db4da6037420.webp)
 
     PlatformIO stáhne komponenty potřebné ke kompilaci kódu pro Wio Terminal a vytvoří váš projekt. Tento proces může trvat několik minut.
 
@@ -179,7 +179,7 @@ Napište aplikaci Hello World.
 
     1. Zadejte `PlatformIO Upload` pro vyhledání možnosti nahrání a vyberte *PlatformIO: Upload*.
 
-        ![Možnost nahrání PlatformIO v příkazové paletě](../../../../../translated_images/cs/vscode-platformio-upload-command-palette.9e0f49cf80d1f1c3.png)
+        ![Možnost nahrání PlatformIO v příkazové paletě](../../../../../translated_images/cs/vscode-platformio-upload-command-palette.9e0f49cf80d1f1c3.webp)
 
         PlatformIO automaticky zkompiluje kód, pokud je to potřeba, před jeho nahráním.
 
@@ -195,7 +195,7 @@ PlatformIO má Sériový monitor, který může sledovat data odesílaná přes 
 
 1. Zadejte `PlatformIO Serial` pro vyhledání možnosti Sériového monitoru a vyberte *PlatformIO: Serial Monitor*.
 
-    ![Možnost Sériového monitoru PlatformIO v příkazové paletě](../../../../../translated_images/cs/vscode-platformio-serial-monitor-command-palette.b348ec841b8a1c14.png)
+    ![Možnost Sériového monitoru PlatformIO v příkazové paletě](../../../../../translated_images/cs/vscode-platformio-serial-monitor-command-palette.b348ec841b8a1c14.webp)
 
     Otevře se nový terminál a data odesílaná přes sériový port budou streamována do tohoto terminálu:
 

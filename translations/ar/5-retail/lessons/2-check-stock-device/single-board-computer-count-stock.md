@@ -81,7 +81,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 1. قم بتشغيل التطبيق مع توجيه الكاميرا نحو بعض المخزون على رف. سترى ملف `image.jpg` في مستكشف VS Code، وستتمكن من تحديده لرؤية الإطارات المحيطة.
 
-    ![4 علب من معجون الطماطم مع إطارات محيطة حول كل علبة](../../../../../translated_images/ar/rpi-stock-with-bounding-boxes.b5540e2ecb7cd49f.jpg)
+    ![4 علب من معجون الطماطم مع إطارات محيطة حول كل علبة](../../../../../translated_images/ar/rpi-stock-with-bounding-boxes.b5540e2ecb7cd49f.webp)
 
 ## عد المخزون
 

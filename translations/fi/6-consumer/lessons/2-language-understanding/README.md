@@ -126,7 +126,7 @@ Kun entiteetit on määritelty, luodaan aikomukset. Nämä opitaan mallin avulla
 
 Sitten kerrot LUIS:lle, mitkä osat näistä lauseista vastaavat entiteettejä:
 
-![Lause "aseta ajastin 1 minuutiksi ja 12 sekunniksi" jaettuna entiteetteihin](../../../../../translated_images/fi/sentence-as-intent-entities.301401696f992259.png)
+![Lause "aseta ajastin 1 minuutiksi ja 12 sekunniksi" jaettuna entiteetteihin](../../../../../translated_images/fi/sentence-as-intent-entities.301401696f992259.webp)
 
 Lause `aseta ajastin 1 minuutiksi ja 12 sekunniksi` sisältää aikomuksen `aseta ajastin`. Siinä on myös 2 entiteettiä, joilla on 2 arvoa:
 

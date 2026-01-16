@@ -35,7 +35,7 @@ Připojte senzor Time of Flight.
 
 1. S vypnutým Raspberry Pi připojte druhý konec Grove kabelu do jednoho z I²C konektorů označených **I²C** na Grove Base hat připojeném k Pi. Tyto konektory se nacházejí na spodní řadě, na opačné straně než GPIO piny a vedle slotu pro kamerový kabel.
 
-![Senzor Grove Time of Flight připojený k I²C konektoru](../../../../../translated_images/cs/pi-time-of-flight-sensor.58c8dc04eb3bfb57.png)
+![Senzor Grove Time of Flight připojený k I²C konektoru](../../../../../translated_images/cs/pi-time-of-flight-sensor.58c8dc04eb3bfb57.webp)
 
 ## Naprogramování senzoru Time of Flight
 
@@ -106,7 +106,7 @@ Naprogramujte zařízení.
 
     Dálkoměr se nachází na zadní straně senzoru, takže při měření vzdálenosti používejte správnou stranu.
 
-    ![Dálkoměr na zadní straně senzoru Time of Flight mířící na banán](../../../../../translated_images/cs/time-of-flight-banana.079921ad8b1496e4.png)
+    ![Dálkoměr na zadní straně senzoru Time of Flight mířící na banán](../../../../../translated_images/cs/time-of-flight-banana.079921ad8b1496e4.webp)
 
 > 💁 Tento kód najdete ve složce [code-proximity/pi](../../../../../4-manufacturing/lessons/4-trigger-fruit-detector/code-proximity/pi).
 

@@ -13,7 +13,7 @@ Ennustuste ja nende piirdekastide kombinatsiooni saab kasutada varude loendamise
 
 ## Varude loendamine
 
-![4 tomatipasta purki, mille ümber on piirdekastid](../../../../../translated_images/et/rpi-stock-with-bounding-boxes.b5540e2ecb7cd49f.jpg)
+![4 tomatipasta purki, mille ümber on piirdekastid](../../../../../translated_images/et/rpi-stock-with-bounding-boxes.b5540e2ecb7cd49f.webp)
 
 Ülaltoodud pildil on piirdekastid veidi kattuvad. Kui see kattumine oleks palju suurem, siis võivad piirdekastid viidata samale objektile. Objektide korrektseks loendamiseks tuleb ignoreerida kaste, mille kattumine on märkimisväärne.
 

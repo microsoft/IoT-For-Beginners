@@ -37,7 +37,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 1. حسگر رطوبت خاک را در خاک قرار دهید. این حسگر دارای یک "خط بالاترین موقعیت" است - یک خط سفید روی حسگر. حسگر را تا این خط وارد کنید اما از آن عبور نکنید.
 
-![حسگر رطوبت خاک Grove در خاک](../../../../../translated_images/fa/soil-moisture-sensor-in-soil.bfad91002bda5e96.png)
+![حسگر رطوبت خاک Grove در خاک](../../../../../translated_images/fa/soil-moisture-sensor-in-soil.bfad91002bda5e96.webp)
 
 ## برنامه‌نویسی حسگر رطوبت خاک
 

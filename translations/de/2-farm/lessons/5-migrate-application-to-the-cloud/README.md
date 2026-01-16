@@ -41,7 +41,7 @@ Serverless, oder serverloses Computing, bedeutet, kleine Codeblöcke zu erstelle
 
 > 💁 Wenn Sie zuvor Datenbank-Trigger verwendet haben, können Sie sich dies ähnlich vorstellen: Code wird durch ein Ereignis wie das Einfügen einer Zeile ausgelöst.
 
-![Wenn viele Ereignisse gleichzeitig gesendet werden, skaliert der serverlose Dienst, um sie alle gleichzeitig auszuführen](../../../../../translated_images/de/serverless-scaling.f8c769adf0413fd1.png)
+![Wenn viele Ereignisse gleichzeitig gesendet werden, skaliert der serverlose Dienst, um sie alle gleichzeitig auszuführen](../../../../../translated_images/de/serverless-scaling.f8c769adf0413fd1.webp)
 
 Ihr Code wird nur ausgeführt, wenn das Ereignis eintritt; zu anderen Zeiten bleibt er inaktiv. Das Ereignis tritt ein, Ihr Code wird geladen und ausgeführt. Dies macht Serverless sehr skalierbar – wenn viele Ereignisse gleichzeitig auftreten, kann der Cloud-Anbieter Ihre Funktion so oft wie nötig gleichzeitig auf beliebigen verfügbaren Servern ausführen. Der Nachteil ist, dass Sie, wenn Sie Informationen zwischen Ereignissen teilen müssen, diese irgendwo speichern müssen, z. B. in einer Datenbank, anstatt sie im Speicher zu halten.
 
@@ -244,7 +244,7 @@ Die Azure Functions CLI kann verwendet werden, um eine neue Functions-App zu ers
     VS Code. Initialize for optimal use with VS Code?
     ```
 
-    ![Die Benachrichtigung](../../../../../translated_images/de/vscode-azure-functions-init-notification.bd19b49229963edb.png)
+    ![Die Benachrichtigung](../../../../../translated_images/de/vscode-azure-functions-init-notification.bd19b49229963edb.webp)
 
     Wählen Sie **Ja** in dieser Benachrichtigung aus.
 

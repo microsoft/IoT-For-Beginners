@@ -46,7 +46,7 @@ In dieser Lektion behandeln wir:
 
 Es gibt eine Reihe beliebter Kommunikationsprotokolle, die von IoT-Geräten verwendet werden, um mit dem Internet zu kommunizieren. Die beliebtesten basieren auf Publish/Subscribe-Messaging über eine Art Broker. Die IoT-Geräte verbinden sich mit dem Broker und veröffentlichen Telemetrie und abonnieren Befehle. Die Cloud-Dienste verbinden sich ebenfalls mit dem Broker, abonnieren alle Telemetrie-Nachrichten und veröffentlichen Befehle entweder an bestimmte Geräte oder an Gruppen von Geräten.
 
-![IoT-Geräte verbinden sich mit einem Broker, veröffentlichen Telemetrie und abonnieren Befehle. Cloud-Dienste verbinden sich mit dem Broker, abonnieren alle Telemetrie und senden Befehle an bestimmte Geräte.](../../../../../translated_images/de/pub-sub.7c7ed43fe9fd15d4.png)
+![IoT-Geräte verbinden sich mit einem Broker, veröffentlichen Telemetrie und abonnieren Befehle. Cloud-Dienste verbinden sich mit dem Broker, abonnieren alle Telemetrie und senden Befehle an bestimmte Geräte.](../../../../../translated_images/de/pub-sub.7c7ed43fe9fd15d4.webp)
 
 MQTT ist das beliebteste Kommunikationsprotokoll für IoT-Geräte und wird in dieser Lektion behandelt. Andere Protokolle umfassen AMQP und HTTP/HTTPS.
 
@@ -115,7 +115,7 @@ Das Wort Telemetrie stammt aus griechischen Wurzeln und bedeutet "fernmessen". T
 
 Schauen wir uns das Beispiel des intelligenten Thermostats aus Lektion 1 an.
 
-![Ein internetverbundener Thermostat mit mehreren Raumsensoren](../../../../../translated_images/de/telemetry.21e5d8b97649d2eb.png)
+![Ein internetverbundener Thermostat mit mehreren Raumsensoren](../../../../../translated_images/de/telemetry.21e5d8b97649d2eb.webp)
 
 Der Thermostat verfügt über Temperatursensoren zur Erfassung von Telemetrie. Höchstwahrscheinlich hat er einen eingebauten Temperatursensor und könnte sich mit mehreren externen Temperatursensoren über ein drahtloses Protokoll wie [Bluetooth Low Energy](https://wikipedia.org/wiki/Bluetooth_Low_Energy) (BLE) verbinden.
 
@@ -267,11 +267,11 @@ Schreiben Sie den Servercode.
 
 1. Wenn VS Code startet, wird die Python-virtuelle Umgebung aktiviert. Dies wird in der unteren Statusleiste angezeigt:
 
-    ![VS Code zeigt die ausgewählte virtuelle Umgebung an](../../../../../translated_images/de/vscode-virtual-env.8ba42e04c3d533cf.png)
+    ![VS Code zeigt die ausgewählte virtuelle Umgebung an](../../../../../translated_images/de/vscode-virtual-env.8ba42e04c3d533cf.webp)
 
 1. Wenn das VS Code-Terminal bereits läuft, wenn VS Code gestartet wird, wird die virtuelle Umgebung darin nicht aktiviert. Am einfachsten ist es, das Terminal mit der Schaltfläche **Aktives Terminal schließen** zu beenden:
 
-    ![VS Code-Schaltfläche zum Schließen des aktiven Terminals](../../../../../translated_images/de/vscode-kill-terminal.1cc4de7c6f25ee08.png)
+    ![VS Code-Schaltfläche zum Schließen des aktiven Terminals](../../../../../translated_images/de/vscode-kill-terminal.1cc4de7c6f25ee08.webp)
 
 1. Starten Sie ein neues VS Code-Terminal, indem Sie *Terminal -> Neues Terminal* auswählen oder `` CTRL+` `` drücken. Das neue Terminal lädt die virtuelle Umgebung, wobei der Aktivierungsaufruf im Terminal erscheint. Der Name der virtuellen Umgebung (`.venv`) wird ebenfalls in der Eingabeaufforderung angezeigt:
 

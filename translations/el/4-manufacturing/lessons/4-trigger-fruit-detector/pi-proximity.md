@@ -35,7 +35,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 1. Με το Raspberry Pi απενεργοποιημένο, συνδέστε το άλλο άκρο του καλωδίου Grove σε μία από τις υποδοχές I²C που είναι σημειωμένες ως **I²C** στο Grove Base hat που είναι συνδεδεμένο στο Pi. Αυτές οι υποδοχές βρίσκονται στην κάτω σειρά, στην αντίθετη πλευρά από τις ακίδες GPIO και δίπλα στην υποδοχή του καλωδίου της κάμερας.
 
-![Ο αισθητήρας Grove Time of Flight συνδεδεμένος στην υποδοχή I²C](../../../../../translated_images/el/pi-time-of-flight-sensor.58c8dc04eb3bfb57.png)
+![Ο αισθητήρας Grove Time of Flight συνδεδεμένος στην υποδοχή I²C](../../../../../translated_images/el/pi-time-of-flight-sensor.58c8dc04eb3bfb57.webp)
 
 ## Προγραμματισμός του αισθητήρα Time of Flight
 
@@ -106,7 +106,7 @@ CO_OP_TRANSLATOR_METADATA:
 
     Ο ανιχνευτής βρίσκεται στο πίσω μέρος του αισθητήρα, οπότε βεβαιωθείτε ότι χρησιμοποιείτε τη σωστή πλευρά όταν μετράτε αποστάσεις.
 
-    ![Ο ανιχνευτής στο πίσω μέρος του αισθητήρα Time of Flight δείχνει προς μια μπανάνα](../../../../../translated_images/el/time-of-flight-banana.079921ad8b1496e4.png)
+    ![Ο ανιχνευτής στο πίσω μέρος του αισθητήρα Time of Flight δείχνει προς μια μπανάνα](../../../../../translated_images/el/time-of-flight-banana.079921ad8b1496e4.webp)
 
 > 💁 Μπορείτε να βρείτε αυτόν τον κώδικα στον φάκελο [code-proximity/pi](../../../../../4-manufacturing/lessons/4-trigger-fruit-detector/code-proximity/pi).
 

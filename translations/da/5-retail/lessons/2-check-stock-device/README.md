@@ -39,7 +39,7 @@ Objektdetektorer kan bruges til lagerkontrol, enten til at tælle lager eller si
 
 For eksempel, hvis et kamera peger på en hylde, der kan rumme 8 dåser tomatpuré, og en objektdetektor kun registrerer 7 dåser, mangler der én, som skal genopfyldes.
 
-![7 dåser tomatpuré på en hylde, 4 på øverste række, 3 på nederste række](../../../../../translated_images/da/stock-7-cans-tomato-paste.f86059cc573d7bec.png)
+![7 dåser tomatpuré på en hylde, 4 på øverste række, 3 på nederste række](../../../../../translated_images/da/stock-7-cans-tomato-paste.f86059cc573d7bec.webp)
 
 I billedet ovenfor har en objektdetektor registreret 7 dåser tomatpuré på en hylde, der kan rumme 8 dåser. Ikke alene kan IoT-enheden sende en notifikation om behovet for genopfyldning, men den kan også give en indikation af, hvor den manglende vare befinder sig, hvilket er vigtig information, hvis du bruger robotter til at genopfylde hylder.
 
@@ -51,7 +51,7 @@ Nogle gange kan det forkerte lager være på hylderne. Dette kan skyldes mennesk
 
 Objektdetektion kan bruges til at opdage uventede varer og igen advare en person eller robot om at returnere varen, så snart den opdages.
 
-![En vildfaren dåse babymajs på tomatpuréhylden](../../../../../translated_images/da/stock-rogue-corn.be1f3ada8c457854.png)
+![En vildfaren dåse babymajs på tomatpuréhylden](../../../../../translated_images/da/stock-rogue-corn.be1f3ada8c457854.webp)
 
 I billedet ovenfor er en dåse babymajs blevet placeret på hylden ved siden af tomatpuréen. Objektdetektoren har registreret dette, hvilket gør det muligt for IoT-enheden at give besked til en person eller robot om at returnere dåsen til dens korrekte placering.
 

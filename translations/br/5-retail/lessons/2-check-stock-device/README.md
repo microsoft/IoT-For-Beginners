@@ -39,7 +39,7 @@ Detectores de objetos podem ser usados para verificar estoque, seja contando ite
 
 Por exemplo, se uma câmera estiver apontada para uma prateleira que pode conter 8 latas de extrato de tomate, e um detector de objetos identificar apenas 7 latas, então uma está faltando e precisa ser reabastecida.
 
-![7 latas de extrato de tomate em uma prateleira, 4 na fileira superior, 3 na inferior](../../../../../translated_images/br/stock-7-cans-tomato-paste.f86059cc573d7bec.png)
+![7 latas de extrato de tomate em uma prateleira, 4 na fileira superior, 3 na inferior](../../../../../translated_images/br/stock-7-cans-tomato-paste.f86059cc573d7bec.webp)
 
 Na imagem acima, um detector de objetos identificou 7 latas de extrato de tomate em uma prateleira que pode conter 8 latas. O dispositivo IoT não apenas pode enviar uma notificação sobre a necessidade de reabastecimento, mas também pode indicar a localização do item faltante, um dado importante se você estiver usando robôs para reabastecer prateleiras.
 
@@ -51,7 +51,7 @@ Na imagem acima, um detector de objetos identificou 7 latas de extrato de tomate
 
 A detecção de objetos pode ser usada para identificar itens inesperados, alertando um humano ou robô para devolver o item assim que for detectado.
 
-![Uma lata de milho em conserva fora do lugar na prateleira de extrato de tomate](../../../../../translated_images/br/stock-rogue-corn.be1f3ada8c457854.png)
+![Uma lata de milho em conserva fora do lugar na prateleira de extrato de tomate](../../../../../translated_images/br/stock-rogue-corn.be1f3ada8c457854.webp)
 
 Na imagem acima, uma lata de milho em conserva foi colocada na prateleira ao lado do extrato de tomate. O detector de objetos identificou isso, permitindo que o dispositivo IoT notificasse um humano ou robô para devolver a lata ao local correto.
 

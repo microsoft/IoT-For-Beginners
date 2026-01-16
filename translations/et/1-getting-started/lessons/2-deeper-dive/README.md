@@ -41,7 +41,7 @@ IoT rakenduse kaks peamist komponenti on *Internet* ja *asi*. Vaatame neid kompo
 
 ### Asi
 
-![Raspberry Pi 4](../../../../../translated_images/et/raspberry-pi-4.fd4590d308c3d456.jpg)
+![Raspberry Pi 4](../../../../../translated_images/et/raspberry-pi-4.fd4590d308c3d456.webp)
 
 IoT **asi** viitab seadmele, mis suudab suhelda füüsilise maailmaga. Need seadmed on tavaliselt väikesed, odavad arvutid, mis töötavad madalatel kiirustel ja kasutavad vähe energiat – näiteks lihtsad mikroprotsessorid, millel on vaid kilobaidid RAM-i (võrreldes PC-de gigabaitidega), töötades vaid mõnesaja megahertsi juures (võrreldes PC-de gigahertsiga), kuid tarbides nii vähe energiat, et võivad töötada nädalate, kuude või isegi aastate jooksul patareide abil.
 
@@ -67,7 +67,7 @@ Näiteks nutika termostaadi puhul ühendub termostaat koduse WiFi kaudu pilvetee
 
 Veelgi nutikam versioon võiks kasutada pilves AI-d koos andmetega teistelt IoT seadmetelt, näiteks liikumisanduritelt, mis tuvastavad, millised ruumid on kasutuses, samuti andmeid nagu ilm ja isegi teie kalender, et teha otsuseid temperatuuri nutikaks seadmiseks. Näiteks võiks see lülitada kütte välja, kui teie kalendrist loeb, et olete puhkusel, või lülitada kütte välja ruumipõhiselt sõltuvalt sellest, milliseid ruume te kasutate, õppides andmetest aja jooksul üha täpsemaks.
 
-![Diagram, mis näitab mitut temperatuuriandurit ja ketast IoT seadme sisenditena, IoT seadet kahepoolse suhtlusega pilvega, mis omakorda suhtleb kahepoolse suhtlusega telefoniga, kalendri ja ilmateenusega, ja kütte juhtimist IoT seadme väljundina](../../../../../translated_images/et/smarter-thermostat.a75855f15d2d9e63.png)
+![Diagram, mis näitab mitut temperatuuriandurit ja ketast IoT seadme sisenditena, IoT seadet kahepoolse suhtlusega pilvega, mis omakorda suhtleb kahepoolse suhtlusega telefoniga, kalendri ja ilmateenusega, ja kütte juhtimist IoT seadme väljundina](../../../../../translated_images/et/smarter-thermostat.a75855f15d2d9e63.webp)
 
 ✅ Millised muud andmed võiksid aidata Internetiga ühendatud termostaati nutikamaks muuta?
 
@@ -136,7 +136,7 @@ Nagu protsessoriga, on mikrokontrolleri mälu suurus võrreldes PC või Maciga m
 
 Allolev diagramm näitab suhtelist suuruse erinevust 192KB ja 8GB vahel – väike täpp keskel esindab 192KB.
 
-![Võrdlus 192KB ja 8GB vahel - üle 40 000 korra suurem](../../../../../translated_images/et/ram-comparison.6beb73541b42ac6f.png)
+![Võrdlus 192KB ja 8GB vahel - üle 40 000 korra suurem](../../../../../translated_images/et/ram-comparison.6beb73541b42ac6f.webp)
 
 Programmi salvestusruum on samuti väiksem kui arvutil. Tüüpilisel arvutil võib olla 500GB kõvaketas programmide salvestamiseks, samas kui mikrokontrolleril võib olla ainult kilobaite või mõni megabait (MB) salvestusruumi (1MB on 1000KB ehk 1 000 000 baiti). Wio terminalil on 4MB programmi salvestusruumi.
 
@@ -212,17 +212,17 @@ Eelmises õppetunnis tutvustasime üheplaadi arvuteid. Vaatame nüüd neid süga
 
 ### Raspberry Pi
 
-![Raspberry Pi logo](../../../../../translated_images/et/raspberry-pi-logo.4efaa16605cee054.png)
+![Raspberry Pi logo](../../../../../translated_images/et/raspberry-pi-logo.4efaa16605cee054.webp)
 
 [Raspberry Pi Foundation](https://www.raspberrypi.org) on Ühendkuningriigi heategevusorganisatsioon, mis asutati 2009. aastal, et edendada arvutiteaduse õppimist, eriti koolitasemel. Osana sellest missioonist arendasid nad välja üheplaadi arvuti, mida nimetatakse Raspberry Pi-ks. Raspberry Pi-d on praegu saadaval kolmes variandis – täissuuruses versioon, väiksem Pi Zero ja arvutimoodul, mida saab integreerida lõplikku IoT seadmesse.
 
-![Raspberry Pi 4](../../../../../translated_images/et/raspberry-pi-4.fd4590d308c3d456.jpg)
+![Raspberry Pi 4](../../../../../translated_images/et/raspberry-pi-4.fd4590d308c3d456.webp)
 
 Viimane täissuuruses Raspberry Pi iteratsioon on Raspberry Pi 4B. Sellel on neljatuumaline (4 tuuma) protsessor, mis töötab 1.5GHz sagedusel, 2, 4 või 8GB RAM-i, gigabitine Ethernet, WiFi, 2 HDMI porti, mis toetavad 4k ekraane, audio- ja komposiitvideo väljundport, USB-pordid (2 USB 2.0, 2 USB 3.0), 40 GPIO kontakti, kaameraühendus Raspberry Pi kaameramooduli jaoks ja SD-kaardi pesa. Kõik see plaadil, mille mõõtmed on 88mm x 58mm x 19.5mm ja mida toidab 3A USB-C toiteallikas. Need algavad hinnast 35 USA dollarit, mis on palju odavam kui PC või Mac.
 
 > 💁 On olemas ka Pi400, kõik-ühes arvuti, millel on Pi4 integreeritud klaviatuuri sisse.
 
-![Raspberry Pi Zero](../../../../../translated_images/et/raspberry-pi-zero.f7a4133e1e7d54bb.jpg)
+![Raspberry Pi Zero](../../../../../translated_images/et/raspberry-pi-zero.f7a4133e1e7d54bb.webp)
 
 Pi Zero on palju väiksem ja madalama võimsusega. Sellel on ühetuumaline 1GHz protsessor, 512MB RAM-i, WiFi (Zero W mudelis), üks HDMI port, üks mikro-USB port, 40 GPIO kontakti, kaameraühendus Raspberry Pi kaameramooduli jaoks ja SD-kaardi pesa. Selle mõõtmed on 65mm x 30mm x 5mm ja see tarbib väga vähe energiat. Zero maksab 5 USA dollarit, WiFi-ga W versioon maksab 10 USA dollarit.
 

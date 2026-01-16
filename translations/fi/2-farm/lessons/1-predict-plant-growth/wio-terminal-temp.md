@@ -33,7 +33,7 @@ Yhdistä lämpötila-anturi.
 
 1. Kun Wio Terminal ei ole kytketty tietokoneeseen tai muuhun virtalähteeseen, yhdistä Grove-kaapelin toinen pää Wio Terminalin oikeanpuoleiseen Grove-liittimeen, kun katsot näyttöä. Tämä on liitin, joka on kauimpana virtapainikkeesta.
 
-![Grove-lämpötila-anturi yhdistetty oikeanpuoleiseen liittimeen](../../../../../translated_images/fi/wio-temperature-sensor.2934928f38c7f79a.png)
+![Grove-lämpötila-anturi yhdistetty oikeanpuoleiseen liittimeen](../../../../../translated_images/fi/wio-temperature-sensor.2934928f38c7f79a.webp)
 
 ## Ohjelmoi lämpötila-anturi
 

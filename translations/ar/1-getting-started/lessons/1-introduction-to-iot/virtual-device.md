@@ -154,11 +154,11 @@ CO_OP_TRANSLATOR_METADATA:
 
 1. عند تشغيل VS Code، سيتم تفعيل البيئة الافتراضية لـ Python. ستظهر البيئة الافتراضية المحددة في شريط الحالة السفلي:
 
-    ![VS Code showing the selected virtual environment](../../../../../translated_images/ar/vscode-virtual-env.8ba42e04c3d533cf.png)
+    ![VS Code showing the selected virtual environment](../../../../../translated_images/ar/vscode-virtual-env.8ba42e04c3d533cf.webp)
 
 1. إذا كانت طرفية VS Code تعمل بالفعل عند بدء تشغيل VS Code، فلن يتم تفعيل البيئة الافتراضية فيها. أسهل شيء يمكنك القيام به هو إنهاء الطرفية باستخدام زر **Kill the active terminal instance**:
 
-    ![VS Code Kill the active terminal instance button](../../../../../translated_images/ar/vscode-kill-terminal.1cc4de7c6f25ee08.png)
+    ![VS Code Kill the active terminal instance button](../../../../../translated_images/ar/vscode-kill-terminal.1cc4de7c6f25ee08.webp)
 
     يمكنك معرفة ما إذا كانت الطرفية تحتوي على البيئة الافتراضية مفعلة حيث سيكون اسم البيئة الافتراضية عبارة عن بادئة على موجه الطرفية. على سبيل المثال، قد يكون:
 
@@ -229,7 +229,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 1. ستحتاج إلى تشغيل طرفية جديدة في VS Code عن طريق تحديد زر **Create a new integrated terminal**. هذا لأن تطبيق CounterFit يعمل في الطرفية الحالية.
 
-    ![VS Code Create a new integrated terminal button](../../../../../translated_images/ar/vscode-new-terminal.77db8fc0f9cd3182.png)
+    ![VS Code Create a new integrated terminal button](../../../../../translated_images/ar/vscode-new-terminal.77db8fc0f9cd3182.webp)
 
 1. في هذه الطرفية الجديدة، قم بتشغيل ملف `app.py` كما كان من قبل. ستتغير حالة CounterFit إلى **Connected** وسيضيء LED.
 

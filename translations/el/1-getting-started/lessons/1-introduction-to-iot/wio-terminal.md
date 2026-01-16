@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Το [Wio Terminal από την Seeed Studios](https://www.seeedstudio.com/Wio-Terminal-p-4509.html) είναι ένας μικροελεγκτής συμβατός με Arduino, με ενσωματωμένο WiFi, αισθητήρες και ενεργοποιητές, καθώς και θύρες για την προσθήκη περισσότερων αισθητήρων και ενεργοποιητών, χρησιμοποιώντας ένα οικοσύστημα υλικού που ονομάζεται [Grove](https://www.seeedstudio.com/category/Grove-c-1003.html).
 
-![Ένα Wio Terminal από την Seeed Studios](../../../../../translated_images/el/wio-terminal.b8299ee16587db9a.png)
+![Ένα Wio Terminal από την Seeed Studios](../../../../../translated_images/el/wio-terminal.b8299ee16587db9a.webp)
 
 ## Ρύθμιση
 
@@ -51,15 +51,15 @@ CO_OP_TRANSLATOR_METADATA:
 
 1. Το εικονίδιο του PlatformIO θα βρίσκεται στη γραμμή μενού στο πλάι:
 
-    ![Η επιλογή μενού του PlatformIO](../../../../../translated_images/el/vscode-platformio-menu.297be26b9733e5c4.png)
+    ![Η επιλογή μενού του PlatformIO](../../../../../translated_images/el/vscode-platformio-menu.297be26b9733e5c4.webp)
 
     Επιλέξτε αυτό το στοιχείο μενού και στη συνέχεια επιλέξτε *PIO Home -> Open*.
 
-    ![Η επιλογή ανοίγματος του PlatformIO](../../../../../translated_images/el/vscode-platformio-home-open.3f9a41bfd3f4da1c.png)
+    ![Η επιλογή ανοίγματος του PlatformIO](../../../../../translated_images/el/vscode-platformio-home-open.3f9a41bfd3f4da1c.webp)
 
 1. Από την οθόνη υποδοχής, επιλέξτε το κουμπί **+ New Project**.
 
-    ![Το κουμπί νέου έργου](../../../../../translated_images/el/vscode-platformio-welcome-new-button.ba6fc8a4c7b78cc8.png)
+    ![Το κουμπί νέου έργου](../../../../../translated_images/el/vscode-platformio-welcome-new-button.ba6fc8a4c7b78cc8.webp)
 
 1. Ρυθμίστε το έργο στον *Οδηγό Έργου*:
 
@@ -73,7 +73,7 @@ CO_OP_TRANSLATOR_METADATA:
 
     1. Επιλέξτε το κουμπί **Finish**.
 
-    ![Ο ολοκληρωμένος οδηγός έργου](../../../../../translated_images/el/vscode-platformio-nightlight-project-wizard.5c64db4da6037420.png)
+    ![Ο ολοκληρωμένος οδηγός έργου](../../../../../translated_images/el/vscode-platformio-nightlight-project-wizard.5c64db4da6037420.webp)
 
     Το PlatformIO θα κατεβάσει τα απαραίτητα στοιχεία για τη μεταγλώττιση κώδικα για το Wio Terminal και θα δημιουργήσει το έργο σας. Αυτό μπορεί να διαρκέσει μερικά λεπτά.
 
@@ -179,7 +179,7 @@ CO_OP_TRANSLATOR_METADATA:
 
     1. Πληκτρολογήστε `PlatformIO Upload` για να αναζητήσετε την επιλογή μεταφόρτωσης και επιλέξτε *PlatformIO: Upload*.
 
-        ![Η επιλογή μεταφόρτωσης του PlatformIO στο command palette](../../../../../translated_images/el/vscode-platformio-upload-command-palette.9e0f49cf80d1f1c3.png)
+        ![Η επιλογή μεταφόρτωσης του PlatformIO στο command palette](../../../../../translated_images/el/vscode-platformio-upload-command-palette.9e0f49cf80d1f1c3.webp)
 
         Το PlatformIO θα μεταγλωττίσει αυτόματα τον κώδικα αν χρειάζεται πριν τον ανεβάσει.
 
@@ -195,7 +195,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 1. Πληκτρολογήστε `PlatformIO Serial` για να αναζητήσετε την επιλογή Serial Monitor και επιλέξτε *PlatformIO: Serial Monitor*.
 
-    ![Η επιλογή Serial Monitor του PlatformIO στο command palette](../../../../../translated_images/el/vscode-platformio-serial-monitor-command-palette.b348ec841b8a1c14.png)
+    ![Η επιλογή Serial Monitor του PlatformIO στο command palette](../../../../../translated_images/el/vscode-platformio-serial-monitor-command-palette.b348ec841b8a1c14.webp)
 
     Ένα νέο τερματικό θα ανοίξει και τα δεδομένα που αποστέλλονται μέσω της σειριακής θύρας θα εμφανίζονται σε αυτό το τερματικό:
 

@@ -72,7 +72,7 @@ Poskytovatel cloudových služeb pak může využít úspory z rozsahu ke sníž
 
 Azure je cloud pro vývojáře od Microsoftu a je to cloud, který budete používat v těchto lekcích. Video níže poskytuje krátký přehled o Azure:
 
-[![Video přehled Azure](../../../../../translated_images/cs/what-is-azure-video-thumbnail.20174db09e03bbb8.png)](https://www.microsoft.com/videoplayer/embed/RE4Ibng?WT.mc_id=academic-17441-jabenn)
+[![Video přehled Azure](../../../../../translated_images/cs/what-is-azure-video-thumbnail.20174db09e03bbb8.webp)](https://www.microsoft.com/videoplayer/embed/RE4Ibng?WT.mc_id=academic-17441-jabenn)
 
 ## Vytvoření cloudového předplatného
 

@@ -37,7 +37,7 @@ C است.
 1. با قطع اتصال Wio Terminal از کامپیوتر یا منبع تغذیه دیگر، سر دیگر کابل Grove را به سوکت Grove سمت چپ Wio Terminal متصل کنید. این سوکت نزدیک‌ترین سوکت به دکمه پاور است. این یک سوکت ترکیبی دیجیتال و I  
 C است.
 
-![حسگر Grove Time of Flight متصل به سوکت سمت چپ](../../../../../translated_images/fa/wio-time-of-flight-sensor.c4c182131d2ea73d.png)
+![حسگر Grove Time of Flight متصل به سوکت سمت چپ](../../../../../translated_images/fa/wio-time-of-flight-sensor.c4c182131d2ea73d.webp)
 
 1. اکنون می‌توانید Wio Terminal را به کامپیوتر خود متصل کنید.
 
@@ -103,7 +103,7 @@ C است.
 
     محدوده‌یاب در پشت حسگر قرار دارد، بنابراین هنگام اندازه‌گیری فاصله از سمت درست استفاده کنید.
 
-    ![محدوده‌یاب در پشت حسگر Time of Flight که به سمت یک موز اشاره می‌کند](../../../../../translated_images/fa/time-of-flight-banana.079921ad8b1496e4.png)
+    ![محدوده‌یاب در پشت حسگر Time of Flight که به سمت یک موز اشاره می‌کند](../../../../../translated_images/fa/time-of-flight-banana.079921ad8b1496e4.webp)
 
 > 💁 می‌توانید این کد را در پوشه [code-proximity/wio-terminal](../../../../../4-manufacturing/lessons/4-trigger-fruit-detector/code-proximity/wio-terminal) پیدا کنید.
 

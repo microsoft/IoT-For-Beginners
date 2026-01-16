@@ -35,7 +35,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 1. Με το Wio Terminal αποσυνδεδεμένο από τον υπολογιστή σας ή άλλη πηγή τροφοδοσίας, συνδέστε το άλλο άκρο του καλωδίου Grove στην αριστερή υποδοχή Grove του Wio Terminal, όπως κοιτάτε την οθόνη. Αυτή είναι η υποδοχή που βρίσκεται πιο κοντά στο κουμπί τροφοδοσίας. Αυτή είναι μια συνδυασμένη ψηφιακή και I²C υποδοχή.
 
-![Ο αισθητήρας Grove Time of Flight συνδεδεμένος στην αριστερή υποδοχή](../../../../../translated_images/el/wio-time-of-flight-sensor.c4c182131d2ea73d.png)
+![Ο αισθητήρας Grove Time of Flight συνδεδεμένος στην αριστερή υποδοχή](../../../../../translated_images/el/wio-time-of-flight-sensor.c4c182131d2ea73d.webp)
 
 1. Τώρα μπορείτε να συνδέσετε το Wio Terminal στον υπολογιστή σας.
 
@@ -101,7 +101,7 @@ CO_OP_TRANSLATOR_METADATA:
 
     Ο ανιχνευτής βρίσκεται στο πίσω μέρος του αισθητήρα, οπότε βεβαιωθείτε ότι χρησιμοποιείτε τη σωστή πλευρά όταν μετράτε την απόσταση.
 
-    ![Ο ανιχνευτής στο πίσω μέρος του αισθητήρα Time of Flight δείχνει σε μια μπανάνα](../../../../../translated_images/el/time-of-flight-banana.079921ad8b1496e4.png)
+    ![Ο ανιχνευτής στο πίσω μέρος του αισθητήρα Time of Flight δείχνει σε μια μπανάνα](../../../../../translated_images/el/time-of-flight-banana.079921ad8b1496e4.webp)
 
 > 💁 Μπορείτε να βρείτε αυτόν τον κώδικα στον φάκελο [code-proximity/wio-terminal](../../../../../4-manufacturing/lessons/4-trigger-fruit-detector/code-proximity/wio-terminal).
 

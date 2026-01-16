@@ -126,7 +126,7 @@ Jakmile jsou entity definovány, vytvoříte záměry. Ty se model učí na zák
 
 Poté LUISu označíte, které části těchto vět odpovídají entitám:
 
-![Věta „nastav časovač na 1 minutu a 12 sekund“ rozdělená na entity](../../../../../translated_images/cs/sentence-as-intent-entities.301401696f992259.png)
+![Věta „nastav časovač na 1 minutu a 12 sekund“ rozdělená na entity](../../../../../translated_images/cs/sentence-as-intent-entities.301401696f992259.webp)
 
 Věta `nastav časovač na 1 minutu a 12 sekund` má záměr `nastavit časovač`. Obsahuje také 2 entity, každou se 2 hodnotami:
 

@@ -65,7 +65,7 @@ Jokaisella kasvilajilla on erilaiset arvot perus-, optimaalisen ja maksimilämp�
 
 ✅ Tee tutkimusta. Selvitä, mikä on peruslämpötila puutarhassasi, koulussasi tai paikallisessa puistossa oleville kasveille.
 
-![Kaavio, joka näyttää kasvunopeuden nousevan lämpötilan noustessa ja laskevan, kun lämpötila nousee liian korkeaksi](../../../../../translated_images/fi/plant-growth-temp-graph.c6d69c9478e6ca83.png)
+![Kaavio, joka näyttää kasvunopeuden nousevan lämpötilan noustessa ja laskevan, kun lämpötila nousee liian korkeaksi](../../../../../translated_images/fi/plant-growth-temp-graph.c6d69c9478e6ca83.webp)
 
 Yllä oleva kaavio näyttää esimerkin kasvunopeuden ja lämpötilan välisestä suhteesta. Peruslämpötilaan asti ei ole kasvua. Kasvunopeus kasvaa optimaaliseen lämpötilaan asti ja laskee sen jälkeen. Maksimilämpötilassa kasvu pysähtyy.
 
@@ -141,7 +141,7 @@ Tällä on suuri työvoimavaikutus suurella tilalla, ja viljelijä voi missata s
 
 Keräämällä lämpötiladataa IoT-laitteella viljelijä voi saada automaattisen ilmoituksen, kun kasvit ovat lähellä kypsyyttä. Tyypillinen arkkitehtuuri tähän on, että IoT-laitteet mittaavat lämpötilaa ja lähettävät tämän telemetriadatan Internetin kautta esimerkiksi MQTT:n avulla. Palvelinkoodi kuuntelee tätä dataa ja tallentaa sen jonnekin, kuten tietokantaan. Näin dataa voidaan analysoida myöhemmin, esimerkiksi yöllä tehtävässä työssä, jossa lasketaan päivän GDD:t, summataan kunkin sadon tähän mennessä saadut GDD:t ja ilmoitetaan, jos kasvi on lähellä kypsyyttä.
 
-![Telemetriadata lähetetään palvelimelle ja tallennetaan tietokantaan](../../../../../translated_images/fi/save-telemetry-database.ddc9c6bea0c5ba39.png)
+![Telemetriadata lähetetään palvelimelle ja tallennetaan tietokantaan](../../../../../translated_images/fi/save-telemetry-database.ddc9c6bea0c5ba39.webp)
 
 Palvelinkoodi voi myös täydentää dataa lisäämällä lisätietoja. Esimerkiksi IoT-laite voi lähettää tunnisteen, joka kertoo, mikä laite on kyseessä, ja palvelinkoodi voi käyttää tätä tunnistetta laitteen sijainnin ja valvottavien kasvien selvittämiseen. Se voi myös lisätä perustietoja, kuten nykyisen ajan, koska jotkut IoT-laitteet eivät sisällä tarvittavaa laitteistoa tarkan ajan seuraamiseen tai vaativat lisäkoodia nykyisen ajan lukemiseen Internetistä.
 
@@ -228,7 +228,7 @@ Tämä koodi avaa CSV-tiedoston ja lisää uuden rivin sen loppuun. Rivi sisält
 
     
 > 💁 Jos käytät virtuaalista IoT-laitetta, valitse satunnaisuus-valintaruutu ja aseta vaihteluväli välttääksesi saman lämpötilan saamisen joka kerta, kun lämpötila-arvo palautetaan.
-    ![Valitse satunnaisuus-valintaruutu ja aseta vaihteluväli](../../../../../translated_images/fi/select-the-random-checkbox-and-set-a-range.32cf4bc7c12e797f.png) 
+    ![Valitse satunnaisuus-valintaruutu ja aseta vaihteluväli](../../../../../translated_images/fi/select-the-random-checkbox-and-set-a-range.32cf4bc7c12e797f.webp) 
 
     > 💁 Jos haluat ajaa tätä koko päivän ajan, sinun täytyy varmistaa, että tietokone, jossa palvelinkoodisi pyörii, ei mene lepotilaan. Voit tehdä tämän muuttamalla virta-asetuksia tai käyttämällä esimerkiksi [tätä Python-skriptiä, joka pitää järjestelmän aktiivisena](https://github.com/jaqsparow/keep-system-active).
     

@@ -154,11 +154,11 @@ Python वर्चुअल एनवायरनमेंट कॉन्फ�
 
 1. जब VS Code लॉन्च होता है, तो यह Python वर्चुअल एनवायरनमेंट को सक्रिय करेगा। चयनित वर्चुअल एनवायरनमेंट नीचे की स्टेटस बार में दिखाई देगा:
 
-    ![VS Code में चयनित वर्चुअल एनवायरनमेंट दिखा रहा है](../../../../../translated_images/hi/vscode-virtual-env.8ba42e04c3d533cf.png)
+    ![VS Code में चयनित वर्चुअल एनवायरनमेंट दिखा रहा है](../../../../../translated_images/hi/vscode-virtual-env.8ba42e04c3d533cf.webp)
 
 1. यदि VS Code टर्मिनल पहले से चल रहा है जब VS Code शुरू होता है, तो इसमें वर्चुअल एनवायरनमेंट सक्रिय नहीं होगा। सबसे आसान तरीका है टर्मिनल को **Kill the active terminal instance** बटन का उपयोग करके बंद करना:
 
-    ![VS Code Kill the active terminal instance बटन](../../../../../translated_images/hi/vscode-kill-terminal.1cc4de7c6f25ee08.png)
+    ![VS Code Kill the active terminal instance बटन](../../../../../translated_images/hi/vscode-kill-terminal.1cc4de7c6f25ee08.webp)
 
     आप यह बता सकते हैं कि टर्मिनल में वर्चुअल एनवायरनमेंट सक्रिय है क्योंकि टर्मिनल प्रॉम्प्ट पर वर्चुअल एनवायरनमेंट का नाम एक प्रीफिक्स होगा। उदाहरण के लिए, यह हो सकता है:
 
@@ -229,7 +229,7 @@ Python वर्चुअल एनवायरनमेंट कॉन्फ�
 
 1. आपको **Create a new integrated terminal** बटन चुनकर एक नया VS Code टर्मिनल लॉन्च करना होगा। ऐसा इसलिए है क्योंकि वर्तमान टर्मिनल में CounterFit ऐप चल रहा है।
 
-    ![VS Code Create a new integrated terminal बटन](../../../../../translated_images/hi/vscode-new-terminal.77db8fc0f9cd3182.png)
+    ![VS Code Create a new integrated terminal बटन](../../../../../translated_images/hi/vscode-new-terminal.77db8fc0f9cd3182.webp)
 
 1. इस नए टर्मिनल में, पहले की तरह `app.py` फ़ाइल चलाएं। CounterFit की स्थिति **Connected** में बदल जाएगी और LED जल उठेगा।
 

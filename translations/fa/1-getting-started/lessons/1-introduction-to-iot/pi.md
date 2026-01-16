@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 [رزبری پای](https://raspberrypi.org) یک کامپیوتر تک‌برد است. شما می‌توانید با استفاده از طیف گسترده‌ای از دستگاه‌ها و اکوسیستم‌ها، حسگرها و عملگرها را به آن اضافه کنید. در این درس‌ها از یک اکوسیستم سخت‌افزاری به نام [Grove](https://www.seeedstudio.com/category/Grove-c-1003.html) استفاده می‌کنیم. شما با استفاده از زبان پایتون، رزبری پای خود را برنامه‌نویسی کرده و به حسگرهای Grove دسترسی پیدا خواهید کرد.
 
-![یک رزبری پای ۴](../../../../../translated_images/fa/raspberry-pi-4.fd4590d308c3d456.jpg)
+![یک رزبری پای ۴](../../../../../translated_images/fa/raspberry-pi-4.fd4590d308c3d456.webp)
 
 ## راه‌اندازی
 
@@ -112,7 +112,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 1. در Raspberry Pi Imager، دکمه **CHOOSE OS** را انتخاب کنید، سپس *Raspberry Pi OS (Other)* و در نهایت *Raspberry Pi OS Lite (32-bit)* را انتخاب کنید.
 
-    ![Raspberry Pi Imager با انتخاب Raspberry Pi OS Lite](../../../../../translated_images/fa/raspberry-pi-imager.24aedeab9e233d84.png)
+    ![Raspberry Pi Imager با انتخاب Raspberry Pi OS Lite](../../../../../translated_images/fa/raspberry-pi-imager.24aedeab9e233d84.webp)
 
     > 💁 Raspberry Pi OS Lite نسخه‌ای از سیستم‌عامل رزبری پای است که رابط کاربری دسکتاپ یا ابزارهای مبتنی بر رابط کاربری را ندارد. این موارد برای یک رزبری پای بدون رابط کاربری لازم نیست و نصب را کوچک‌تر و زمان بوت شدن را سریع‌تر می‌کند.
 
@@ -251,7 +251,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 1. این پوشه را در VS Code باز کنید با انتخاب *File -> Open...* و انتخاب پوشه‌ی *nightlight*، سپس **OK** را انتخاب کنید.
 
-    ![دیالوگ باز کردن VS Code که پوشه‌ی nightlight را نشان می‌دهد](../../../../../translated_images/fa/vscode-open-nightlight-remote.d3d2a4011e30d535.png)
+    ![دیالوگ باز کردن VS Code که پوشه‌ی nightlight را نشان می‌دهد](../../../../../translated_images/fa/vscode-open-nightlight-remote.d3d2a4011e30d535.webp)
 
 1. فایل `app.py` را از بخش اکسپلورر VS Code باز کنید و کد زیر را به آن اضافه کنید:
 

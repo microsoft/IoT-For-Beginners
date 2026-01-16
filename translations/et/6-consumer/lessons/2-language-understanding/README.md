@@ -126,7 +126,7 @@ Kui entiteedid on m채채ratud, lood intentsioonid. Need 천pitakse mudeli poolt n�
 
 Seej채rel 체tled LUIS-ile, millised osad nendest lausetest vastavad entiteetidele:
 
-![Lause "sea taimer 1 minutiks ja 12 sekundiks" jagatud entiteetideks](../../../../../translated_images/et/sentence-as-intent-entities.301401696f992259.png)
+![Lause "sea taimer 1 minutiks ja 12 sekundiks" jagatud entiteetideks](../../../../../translated_images/et/sentence-as-intent-entities.301401696f992259.webp)
 
 Lause `sea taimer 1 minutiks ja 12 sekundiks` intentsioon on `sea taimer`. Sellel on ka 2 entiteeti, millel on 2 v채채rtust:
 

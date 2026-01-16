@@ -37,7 +37,7 @@ In dieser Lektion behandeln wir:
 
 Text-zu-Sprache, wie der Name schon sagt, ist der Prozess, Text in Audio umzuwandeln, das die Wörter als gesprochene Sprache enthält. Das Grundprinzip besteht darin, die Wörter im Text in ihre Bestandteile (sogenannte Phoneme) zu zerlegen und Audio für diese Laute zusammenzusetzen, entweder mit vorab aufgezeichnetem Audio oder mit Audio, das von KI-Modellen generiert wird.
 
-![Die drei Phasen typischer Text-zu-Sprache-Systeme](../../../../../translated_images/de/tts-overview.193843cf3f5ee09f.png)
+![Die drei Phasen typischer Text-zu-Sprache-Systeme](../../../../../translated_images/de/tts-overview.193843cf3f5ee09f.webp)
 
 Text-zu-Sprache-Systeme haben typischerweise 3 Phasen:
 

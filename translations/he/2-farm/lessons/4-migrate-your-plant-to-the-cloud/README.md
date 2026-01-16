@@ -72,7 +72,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Azure הוא הענן למפתחים של Microsoft, וזהו הענן שבו תשתמשו בשיעורים הללו. הסרטון הבא מציג סקירה קצרה של Azure:
 
-[![סקירה של Azure](../../../../../translated_images/he/what-is-azure-video-thumbnail.20174db09e03bbb8.png)](https://www.microsoft.com/videoplayer/embed/RE4Ibng?WT.mc_id=academic-17441-jabenn)
+[![סקירה של Azure](../../../../../translated_images/he/what-is-azure-video-thumbnail.20174db09e03bbb8.webp)](https://www.microsoft.com/videoplayer/embed/RE4Ibng?WT.mc_id=academic-17441-jabenn)
 
 ## יצירת מנוי ענן
 

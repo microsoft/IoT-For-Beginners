@@ -37,7 +37,7 @@ Grove mulla niiskuse sensorit saab ühendada Raspberry Pi-ga.
 
 1. Sisesta mulla niiskuse sensor mulda. Sellel on "kõrgeima positsiooni joon" – valge joon sensori peal. Sisesta sensor kuni selle jooneni, kuid mitte üle selle.
 
-![Grove mulla niiskuse sensor mullas](../../../../../translated_images/et/soil-moisture-sensor-in-soil.bfad91002bda5e96.png)
+![Grove mulla niiskuse sensor mullas](../../../../../translated_images/et/soil-moisture-sensor-in-soil.bfad91002bda5e96.webp)
 
 ## Programmeeri mulla niiskuse sensor
 

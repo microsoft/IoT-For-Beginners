@@ -126,7 +126,7 @@ Nachdem die Entitäten definiert sind, erstellen Sie Absichten. Diese werden vom
 
 Dann sagen Sie LUIS, welche Teile dieser Sätze den Entitäten zugeordnet sind:
 
-![Der Satz „stelle einen Timer für 1 Minute und 12 Sekunden ein“, aufgeteilt in Entitäten](../../../../../translated_images/de/sentence-as-intent-entities.301401696f992259.png)
+![Der Satz „stelle einen Timer für 1 Minute und 12 Sekunden ein“, aufgeteilt in Entitäten](../../../../../translated_images/de/sentence-as-intent-entities.301401696f992259.webp)
 
 Der Satz `stelle einen Timer für 1 Minute und 12 Sekunden ein` hat die Absicht `Timer einstellen`. Er hat auch 2 Entitäten mit jeweils 2 Werten:
 

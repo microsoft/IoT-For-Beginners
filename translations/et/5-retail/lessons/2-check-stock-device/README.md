@@ -39,7 +39,7 @@ Objektidetektoreid saab kasutada laoseisu kontrollimiseks, kas loendades laoseis
 
 Näiteks, kui kaamera on suunatud riiulitele, mis mahutavad 8 purki tomatipastat, ja objektidetektor tuvastab ainult 7 purki, siis üks on puudu ja vajab täiendamist.
 
-![7 purki tomatipastat riiulil, 4 ülemisel real, 3 alumisel](../../../../../translated_images/et/stock-7-cans-tomato-paste.f86059cc573d7bec.png)
+![7 purki tomatipastat riiulil, 4 ülemisel real, 3 alumisel](../../../../../translated_images/et/stock-7-cans-tomato-paste.f86059cc573d7bec.webp)
 
 Ülaltoodud pildil on objektidetektor tuvastanud 7 purki tomatipastat riiulil, mis mahutab 8 purki. IoT-seade ei saa mitte ainult saata teavitust täiendamise vajadusest, vaid võib anda ka vihje puuduva eseme asukoha kohta, mis on oluline, kui kasutate riiulite täiendamiseks roboteid.
 
@@ -51,7 +51,7 @@ Mõnikord võib riiulitel olla vale laoseis. See võib olla inimlik eksitus täi
 
 Objektituvastust saab kasutada ootamatute esemete tuvastamiseks, teavitades taas inimest või robotit, et ese tagastataks niipea, kui see tuvastatakse.
 
-![Tomatipasta riiulil eksinud purk beebimaisi](../../../../../translated_images/et/stock-rogue-corn.be1f3ada8c457854.png)
+![Tomatipasta riiulil eksinud purk beebimaisi](../../../../../translated_images/et/stock-rogue-corn.be1f3ada8c457854.webp)
 
 Ülaltoodud pildil on tomatipasta riiulile pandud beebimaisi purk. Objektidetektor on selle tuvastanud, võimaldades IoT-seadmel teavitada inimest või robotit, et purk tagastataks õigesse asukohta.
 

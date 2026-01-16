@@ -35,7 +35,7 @@ Grove টাইম অফ ফ্লাইট সেন্সরটি Wio Termin
 
 1. Wio Terminal-টি আপনার কম্পিউটার বা অন্য পাওয়ার সাপ্লাই থেকে সংযোগ বিচ্ছিন্ন অবস্থায়, Grove কেবলের অন্য প্রান্তটি Wio Terminal-এর স্ক্রিনের দিকে তাকালে বাম দিকের Grove সকেটে সংযুক্ত করুন। এটি পাওয়ার বোতামের কাছাকাছি সকেট। এটি একটি সম্মিলিত ডিজিটাল এবং I²C সকেট।
 
-![বাম দিকের সকেটে সংযুক্ত Grove টাইম অফ ফ্লাইট সেন্সর](../../../../../translated_images/bn/wio-time-of-flight-sensor.c4c182131d2ea73d.png)
+![বাম দিকের সকেটে সংযুক্ত Grove টাইম অফ ফ্লাইট সেন্সর](../../../../../translated_images/bn/wio-time-of-flight-sensor.c4c182131d2ea73d.webp)
 
 1. এখন আপনি Wio Terminal-টি আপনার কম্পিউটারে সংযুক্ত করতে পারেন।
 
@@ -101,7 +101,7 @@ Grove টাইম অফ ফ্লাইট সেন্সরটি Wio Termin
 
     রেঞ্জফাইন্ডারটি সেন্সরের পিছনের দিকে থাকে, তাই দূরত্ব পরিমাপ করার সময় সঠিক দিকটি ব্যবহার করুন।
 
-    ![টাইম অফ ফ্লাইট সেন্সরের পিছনের রেঞ্জফাইন্ডার একটি কলার দিকে নির্দেশ করছে](../../../../../translated_images/bn/time-of-flight-banana.079921ad8b1496e4.png)
+    ![টাইম অফ ফ্লাইট সেন্সরের পিছনের রেঞ্জফাইন্ডার একটি কলার দিকে নির্দেশ করছে](../../../../../translated_images/bn/time-of-flight-banana.079921ad8b1496e4.webp)
 
 > 💁 আপনি এই কোডটি [code-proximity/wio-terminal](../../../../../4-manufacturing/lessons/4-trigger-fruit-detector/code-proximity/wio-terminal) ফোল্ডারে খুঁজে পেতে পারেন।
 

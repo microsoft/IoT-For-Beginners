@@ -37,7 +37,7 @@ Selles õppetunnis käsitleme:
 
 Teksti teisendamine kõneks tähendab teksti muutmist heliks, mis sisaldab sõnu kõneldud kujul. Põhimõte seisneb sõnade jaotamises nende koostisosadeks (fonemideks) ning nende helide ühendamises, kas eelnevalt salvestatud helide või AI-mudelite abil genereeritud helide kaudu.
 
-![Tüüpiliste teksti kõneks süsteemide kolm etappi](../../../../../translated_images/et/tts-overview.193843cf3f5ee09f.png)
+![Tüüpiliste teksti kõneks süsteemide kolm etappi](../../../../../translated_images/et/tts-overview.193843cf3f5ee09f.webp)
 
 Teksti kõneks süsteemid koosnevad tavaliselt kolmest etapist:
 

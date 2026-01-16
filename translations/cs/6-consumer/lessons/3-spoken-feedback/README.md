@@ -37,7 +37,7 @@ V této lekci se zaměříme na:
 
 Převod textu na řeč, jak název napovídá, je proces převodu textu na zvuk obsahující text jako mluvená slova. Základní princip spočívá v rozložení slov v textu na jejich základní zvuky (známé jako fonémy) a spojení zvuků dohromady, buď pomocí předem nahraného zvuku, nebo zvuku generovaného modely AI.
 
-![Tři fáze typických systémů pro převod textu na řeč](../../../../../translated_images/cs/tts-overview.193843cf3f5ee09f.png)
+![Tři fáze typických systémů pro převod textu na řeč](../../../../../translated_images/cs/tts-overview.193843cf3f5ee09f.webp)
 
 Systémy pro převod textu na řeč obvykle zahrnují 3 fáze:
 

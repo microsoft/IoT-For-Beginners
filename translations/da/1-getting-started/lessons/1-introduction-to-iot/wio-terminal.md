@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 [Wio Terminal fra Seeed Studios](https://www.seeedstudio.com/Wio-Terminal-p-4509.html) er en Arduino-kompatibel mikrocontroller med indbygget WiFi, sensorer og aktuatorer samt porte til at tilføje flere sensorer og aktuatorer via et hardwareøkosystem kaldet [Grove](https://www.seeedstudio.com/category/Grove-c-1003.html).
 
-![En Seeed Studios Wio Terminal](../../../../../translated_images/da/wio-terminal.b8299ee16587db9a.png)
+![En Seeed Studios Wio Terminal](../../../../../translated_images/da/wio-terminal.b8299ee16587db9a.webp)
 
 ## Opsætning
 
@@ -51,15 +51,15 @@ Opret PlatformIO-projektet.
 
 1. PlatformIO-ikonet vil være på sidemenuen:
 
-    ![PlatformIO-menuvalgmuligheden](../../../../../translated_images/da/vscode-platformio-menu.297be26b9733e5c4.png)
+    ![PlatformIO-menuvalgmuligheden](../../../../../translated_images/da/vscode-platformio-menu.297be26b9733e5c4.webp)
 
     Vælg dette menuemne, og vælg derefter *PIO Home -> Open*
 
-    ![PlatformIO-åbningsvalgmuligheden](../../../../../translated_images/da/vscode-platformio-home-open.3f9a41bfd3f4da1c.png)
+    ![PlatformIO-åbningsvalgmuligheden](../../../../../translated_images/da/vscode-platformio-home-open.3f9a41bfd3f4da1c.webp)
 
 1. Fra velkomstskærmen skal du vælge knappen **+ New Project**
 
-    ![Knappen til nyt projekt](../../../../../translated_images/da/vscode-platformio-welcome-new-button.ba6fc8a4c7b78cc8.png)
+    ![Knappen til nyt projekt](../../../../../translated_images/da/vscode-platformio-welcome-new-button.ba6fc8a4c7b78cc8.webp)
 
 1. Konfigurer projektet i *Project Wizard*:
 
@@ -73,7 +73,7 @@ Opret PlatformIO-projektet.
 
     1. Vælg knappen **Finish**
 
-    ![Den færdige projektguide](../../../../../translated_images/da/vscode-platformio-nightlight-project-wizard.5c64db4da6037420.png)
+    ![Den færdige projektguide](../../../../../translated_images/da/vscode-platformio-nightlight-project-wizard.5c64db4da6037420.webp)
 
     PlatformIO vil downloade de komponenter, der er nødvendige for at kompilere kode til Wio Terminal og oprette dit projekt. Dette kan tage et par minutter.
 
@@ -179,7 +179,7 @@ Skriv Hello World-appen.
 
     1. Skriv `PlatformIO Upload` for at søge efter upload-muligheden, og vælg *PlatformIO: Upload*
 
-        ![PlatformIO-upload-muligheden i kommandopaletten](../../../../../translated_images/da/vscode-platformio-upload-command-palette.9e0f49cf80d1f1c3.png)
+        ![PlatformIO-upload-muligheden i kommandopaletten](../../../../../translated_images/da/vscode-platformio-upload-command-palette.9e0f49cf80d1f1c3.webp)
 
         PlatformIO vil automatisk bygge koden, hvis det er nødvendigt, før den uploades.
 
@@ -195,7 +195,7 @@ PlatformIO har en Serial Monitor, der kan overvåge data sendt over USB-kablet f
 
 1. Skriv `PlatformIO Serial` for at søge efter Serial Monitor-muligheden, og vælg *PlatformIO: Serial Monitor*
 
-    ![PlatformIO Serial Monitor-muligheden i kommandopaletten](../../../../../translated_images/da/vscode-platformio-serial-monitor-command-palette.b348ec841b8a1c14.png)
+    ![PlatformIO Serial Monitor-muligheden i kommandopaletten](../../../../../translated_images/da/vscode-platformio-serial-monitor-command-palette.b348ec841b8a1c14.webp)
 
     Et nyt terminalvindue åbnes, og data sendt over den serielle port vil blive streamet ind i dette terminalvindue:
 

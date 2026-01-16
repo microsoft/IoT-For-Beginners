@@ -154,11 +154,11 @@ Looge Pythoni rakendus, mis kuvab konsoolile `"Tere maailm"`.
 
 1. Kui VS Code käivitub, aktiveerib see Pythoni virtuaalse keskkonna. Valitud virtuaalne keskkond kuvatakse alumises olekuribal:
 
-    ![VS Code näitab valitud virtuaalset keskkonda](../../../../../translated_images/et/vscode-virtual-env.8ba42e04c3d533cf.png)
+    ![VS Code näitab valitud virtuaalset keskkonda](../../../../../translated_images/et/vscode-virtual-env.8ba42e04c3d533cf.webp)
 
 1. Kui VS Code Terminal on juba käivitunud, kui VS Code käivitub, ei ole virtuaalne keskkond selles aktiveeritud. Kõige lihtsam on terminal sulgeda, kasutades nuppu **Kill the active terminal instance**:
 
-    ![VS Code nupp Kill the active terminal instance](../../../../../translated_images/et/vscode-kill-terminal.1cc4de7c6f25ee08.png)
+    ![VS Code nupp Kill the active terminal instance](../../../../../translated_images/et/vscode-kill-terminal.1cc4de7c6f25ee08.webp)
 
     Saate aru, kas terminalis on virtuaalne keskkond aktiveeritud, kui terminali promptil on virtuaalse keskkonna nimi eesliitena. Näiteks võib see olla:
 
@@ -229,7 +229,7 @@ Teise "Tere maailm" sammuna käivitate CounterFiti rakenduse ja ühendate oma ko
 
 1. Peate käivitama uue VS Code'i terminali, valides **Create a new integrated terminal** nupu. Seda seetõttu, et CounterFiti rakendus töötab praeguses terminalis.
 
-    ![VS Code nupp Create a new integrated terminal](../../../../../translated_images/et/vscode-new-terminal.77db8fc0f9cd3182.png)
+    ![VS Code nupp Create a new integrated terminal](../../../../../translated_images/et/vscode-new-terminal.77db8fc0f9cd3182.webp)
 
 1. Käivitage selles uues terminalis `app.py` fail nagu varem. CounterFiti olek muutub **Connected** ja LED süttib.
 

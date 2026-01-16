@@ -13,7 +13,7 @@ Eine Kombination aus den Vorhersagen und ihren Begrenzungsrahmen kann verwendet 
 
 ## Lagerbestand zählen
 
-![4 Dosen Tomatenmark mit Begrenzungsrahmen um jede Dose](../../../../../translated_images/de/rpi-stock-with-bounding-boxes.b5540e2ecb7cd49f.jpg)
+![4 Dosen Tomatenmark mit Begrenzungsrahmen um jede Dose](../../../../../translated_images/de/rpi-stock-with-bounding-boxes.b5540e2ecb7cd49f.webp)
 
 Im oben gezeigten Bild haben die Begrenzungsrahmen eine kleine Überlappung. Wenn diese Überlappung viel größer wäre, könnten die Begrenzungsrahmen dasselbe Objekt anzeigen. Um die Objekte korrekt zu zählen, müssen Sie Rahmen mit einer signifikanten Überlappung ignorieren.
 

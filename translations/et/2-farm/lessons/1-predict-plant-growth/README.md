@@ -65,7 +65,7 @@ Igal taimeliigil on erinevad väärtused oma baas-, optimaalse ja maksimaalse te
 
 ✅ Tee veidi uurimistööd. Uuri oma aias, koolis või kohalikus pargis kasvavate taimede baastemperatuuri.
 
-![Graafik, mis näitab kasvu kiiruse tõusu temperatuuri tõustes ja langust, kui temperatuur muutub liiga kõrgeks](../../../../../translated_images/et/plant-growth-temp-graph.c6d69c9478e6ca83.png)
+![Graafik, mis näitab kasvu kiiruse tõusu temperatuuri tõustes ja langust, kui temperatuur muutub liiga kõrgeks](../../../../../translated_images/et/plant-growth-temp-graph.c6d69c9478e6ca83.webp)
 
 Ülaltoodud graafik näitab näidet kasvu kiiruse ja temperatuuri graafikust. Baastemperatuurini ei toimu kasvu. Kasvu kiirus suureneb kuni optimaalse temperatuurini ja langeb pärast selle tipu saavutamist. Maksimaalse temperatuuri juures kasv peatub.
 
@@ -141,7 +141,7 @@ See avaldab suurt tööjõumõju suurel farmil ja riskib, et põllumees jääb o
 
 Temperatuuriandmeid kogudes IoT seadme abil saab põllumeest automaatselt teavitada, kui taimed on küpsusele lähedal. Tüüpiline arhitektuur selleks on IoT seadmete temperatuuri mõõtmine ja nende telemeetriaandmete Interneti kaudu avaldamine, näiteks MQTT abil. Serveri kood kuulab neid andmeid ja salvestab need kuhugi, näiteks andmebaasi. See tähendab, et andmeid saab hiljem analüüsida, näiteks öine töö, et arvutada päeva GDD, summeerida iga saagi GDD seni ja teavitada, kui taim on küpsusele lähedal.
 
-![Telemeetriaandmed saadetakse serverisse ja salvestatakse andmebaasi](../../../../../translated_images/et/save-telemetry-database.ddc9c6bea0c5ba39.png)
+![Telemeetriaandmed saadetakse serverisse ja salvestatakse andmebaasi](../../../../../translated_images/et/save-telemetry-database.ddc9c6bea0c5ba39.webp)
 
 Serveri kood võib andmeid ka täiendada, lisades lisainformatsiooni. Näiteks võib IoT seade avaldada identifikaatori, mis näitab, milline seade see on, ja serveri kood võib kasutada seda seadme asukoha ja jälgitavate taimede leidmiseks. Samuti võib see lisada põhiandmeid, nagu praegune aeg, kuna mõned IoT seadmed ei ole varustatud täpse aja jälgimiseks vajaliku riistvaraga või vajavad täiendavat koodi, et lugeda praegust aega Interneti kaudu.
 
@@ -228,7 +228,7 @@ See kood avab CSV-faili ja lisab lõppu uue rea. Reas on praegune kuupäev ja ke
 1. Käivitage see kood mõnda aega, et andmeid koguda. Ideaalis peaksite seda käivitama terve päeva, et koguda piisavalt andmeid GDD arvutamiseks.
 
     > 💁 Kui kasutate virtuaalset IoT-seadet, valige juhuslikkuse märkeruut ja määrake vahemik, et vältida sama temperatuuri saamist iga kord, kui temperatuuriväärtus tagastatakse.
-    ![Valige juhuslikkuse märkeruut ja määrake vahemik](../../../../../translated_images/et/select-the-random-checkbox-and-set-a-range.32cf4bc7c12e797f.png) 
+    ![Valige juhuslikkuse märkeruut ja määrake vahemik](../../../../../translated_images/et/select-the-random-checkbox-and-set-a-range.32cf4bc7c12e797f.webp) 
 
     > 💁 Kui soovite seda terve päeva jooksul käivitada, peate veenduma, et arvuti, millel teie serverikood töötab, ei läheks unerežiimi. Seda saab teha kas toitesätete muutmisega või käivitades midagi sellist nagu [see süsteemi aktiivsena hoidmise Python skript](https://github.com/jaqsparow/keep-system-active).
     

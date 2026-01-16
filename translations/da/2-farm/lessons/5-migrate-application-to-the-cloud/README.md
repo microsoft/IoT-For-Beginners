@@ -41,7 +41,7 @@ Serverløs, eller serverløs computing, indebærer at oprette små kodeblokke, d
 
 > 💁 Hvis du tidligere har brugt database-triggere, kan du tænke på dette som noget lignende: kode, der udløses af en hændelse som f.eks. indsættelse af en række.
 
-![Når mange hændelser sendes samtidig, skalerer den serverløse tjeneste op for at køre dem alle på samme tid](../../../../../translated_images/da/serverless-scaling.f8c769adf0413fd1.png)
+![Når mange hændelser sendes samtidig, skalerer den serverløse tjeneste op for at køre dem alle på samme tid](../../../../../translated_images/da/serverless-scaling.f8c769adf0413fd1.webp)
 
 Din kode køres kun, når hændelsen opstår; der er intet, der holder din kode aktiv på andre tidspunkter. Hændelsen opstår, din kode indlæses og køres. Dette gør serverløs meget skalerbar – hvis mange hændelser opstår samtidig, kan cloud-udbyderen køre din funktion så mange gange, som det er nødvendigt, på tværs af de tilgængelige servere. Ulempen er, at hvis du har brug for at dele information mellem hændelser, skal du gemme det et sted som en database i stedet for at opbevare det i hukommelsen.
 
@@ -244,7 +244,7 @@ Azure Functions CLI kan bruges til at oprette en ny Functions-app.
     VS Code. Initialize for optimal use with VS Code?
     ```
 
-    ![Notifikationen](../../../../../translated_images/da/vscode-azure-functions-init-notification.bd19b49229963edb.png)
+    ![Notifikationen](../../../../../translated_images/da/vscode-azure-functions-init-notification.bd19b49229963edb.webp)
 
     Vælg **Yes** i denne notifikation.
 

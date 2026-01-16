@@ -72,7 +72,7 @@ IoT устройството комуникира с публичен MQTT бр�
 
 Azure е облак за разработчици от Microsoft и това е облакът, който ще използвате за тези уроци. Видеото по-долу дава кратък преглед на Azure:
 
-[![Видео за преглед на Azure](../../../../../translated_images/bg/what-is-azure-video-thumbnail.20174db09e03bbb8.png)](https://www.microsoft.com/videoplayer/embed/RE4Ibng?WT.mc_id=academic-17441-jabenn)
+[![Видео за преглед на Azure](../../../../../translated_images/bg/what-is-azure-video-thumbnail.20174db09e03bbb8.webp)](https://www.microsoft.com/videoplayer/embed/RE4Ibng?WT.mc_id=academic-17441-jabenn)
 
 ## Създаване на облачен абонамент
 

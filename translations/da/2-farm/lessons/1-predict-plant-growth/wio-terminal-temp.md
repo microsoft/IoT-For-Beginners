@@ -33,7 +33,7 @@ Tilslut temperatursensoren.
 
 1. Med Wio Terminalen frakoblet fra din computer eller anden strømkilde, tilslut den anden ende af Grove-kablet til den højre Grove-port på Wio Terminalen, når du ser på skærmen. Dette er porten længst væk fra tænd/sluk-knappen.
 
-![Grove-temperatursensoren tilsluttet den højre port](../../../../../translated_images/da/wio-temperature-sensor.2934928f38c7f79a.png)
+![Grove-temperatursensoren tilsluttet den højre port](../../../../../translated_images/da/wio-temperature-sensor.2934928f38c7f79a.webp)
 
 ## Programmer temperatursensoren
 

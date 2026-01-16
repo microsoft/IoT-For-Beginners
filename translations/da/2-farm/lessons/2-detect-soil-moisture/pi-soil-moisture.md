@@ -37,7 +37,7 @@ Tilslut jordfugtighedssensoren.
 
 1. Sæt jordfugtighedssensoren i jorden. Den har en 'højeste positionslinje' - en hvid linje på tværs af sensoren. Sæt sensoren i jorden op til, men ikke over, denne linje.
 
-![Grove jordfugtighedssensor i jord](../../../../../translated_images/da/soil-moisture-sensor-in-soil.bfad91002bda5e96.png)
+![Grove jordfugtighedssensor i jord](../../../../../translated_images/da/soil-moisture-sensor-in-soil.bfad91002bda5e96.webp)
 
 ## Programmer jordfugtighedssensoren
 

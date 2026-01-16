@@ -72,7 +72,7 @@ IoT ডিভাইসটি একটি পাবলিক MQTT ব্রো�
 
 Azure হল Microsoft এর ডেভেলপার ক্লাউড, এবং এই পাঠগুলির জন্য আপনি যে ক্লাউডটি ব্যবহার করবেন। নিচের ভিডিওটি Azure এর একটি সংক্ষিপ্ত বিবরণ দেয়:
 
-[![Azure ভিডিও সংক্ষিপ্ত বিবরণ](../../../../../translated_images/bn/what-is-azure-video-thumbnail.20174db09e03bbb8.png)](https://www.microsoft.com/videoplayer/embed/RE4Ibng?WT.mc_id=academic-17441-jabenn)
+[![Azure ভিডিও সংক্ষিপ্ত বিবরণ](../../../../../translated_images/bn/what-is-azure-video-thumbnail.20174db09e03bbb8.webp)](https://www.microsoft.com/videoplayer/embed/RE4Ibng?WT.mc_id=academic-17441-jabenn)
 
 ## ক্লাউড সাবস্ক্রিপশন তৈরি করুন
 

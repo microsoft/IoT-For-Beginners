@@ -33,11 +33,11 @@ CO_OP_TRANSLATOR_METADATA:
 
 1. با Wio Terminal که از کامپیوتر یا منبع تغذیه دیگر جدا شده است، سر دیگر کابل Grove را به سوکت سمت راست Wio Terminal متصل کنید (وقتی به صفحه نمایش نگاه می‌کنید). این سوکت دورترین سوکت از دکمه پاور است.
 
-![حسگر رطوبت خاک Grove متصل به سوکت سمت راست](../../../../../translated_images/fa/wio-soil-moisture-sensor.46919b61c3f6cb74.png)
+![حسگر رطوبت خاک Grove متصل به سوکت سمت راست](../../../../../translated_images/fa/wio-soil-moisture-sensor.46919b61c3f6cb74.webp)
 
 1. حسگر رطوبت خاک را در خاک قرار دهید. این حسگر یک "خط بالاترین موقعیت" دارد - یک خط سفید روی حسگر. حسگر را تا این خط وارد کنید اما از آن عبور نکنید.
 
-![حسگر رطوبت خاک Grove در خاک](../../../../../translated_images/fa/soil-moisture-sensor-in-soil.bfad91002bda5e96.png)
+![حسگر رطوبت خاک Grove در خاک](../../../../../translated_images/fa/soil-moisture-sensor-in-soil.bfad91002bda5e96.webp)
 
 1. اکنون می‌توانید Wio Terminal را به کامپیوتر خود متصل کنید.
 

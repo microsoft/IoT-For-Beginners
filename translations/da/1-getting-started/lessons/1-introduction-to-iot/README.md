@@ -79,7 +79,7 @@ En mikrocontroller (ofte kaldet MCU, kort for microcontroller unit) er en lille 
 
 Mikrocontrollere er typisk lavpris computerenheder, med gennemsnitspriser for dem, der bruges i specialfremstillet hardware, der falder til omkring US$0.50, og nogle enheder så billige som US$0.03. Udviklersæt kan starte så lavt som US$4, med omkostninger, der stiger, når du tilføjer flere funktioner. [Wio Terminal](https://www.seeedstudio.com/Wio-Terminal-p-4509.html), et mikrocontroller-udviklersæt fra [Seeed studios](https://www.seeedstudio.com), der har sensorer, aktuatorer, WiFi og en skærm, koster omkring US$30.
 
-![En Wio Terminal](../../../../../translated_images/da/wio-terminal.b8299ee16587db9a.png)
+![En Wio Terminal](../../../../../translated_images/da/wio-terminal.b8299ee16587db9a.webp)
 
 > 💁 Når du søger på internettet efter mikrocontrollere, skal du være opmærksom på at søge efter termen **MCU**, da dette vil give mange resultater for Marvel Cinematic Universe, ikke mikrocontrollere.
 
@@ -93,7 +93,7 @@ Udviklersæt til mikrocontrollere kommer normalt med ekstra sensorer og aktuator
 
 En single-board computer er en lille computerenhed, der har alle elementerne i en komplet computer samlet på et enkelt lille board. Disse enheder har specifikationer, der minder om en desktop eller laptop PC eller Mac, kører et fuldt operativsystem, men er små, bruger mindre strøm og er betydeligt billigere.
 
-![En Raspberry Pi 4](../../../../../translated_images/da/raspberry-pi-4.fd4590d308c3d456.jpg)
+![En Raspberry Pi 4](../../../../../translated_images/da/raspberry-pi-4.fd4590d308c3d456.webp)
 
 Raspberry Pi er en af de mest populære single-board computere.
 

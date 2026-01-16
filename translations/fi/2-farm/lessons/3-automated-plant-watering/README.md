@@ -55,11 +55,11 @@ Rele on sähkömekaaninen kytkin, joka muuntaa sähköisen signaalin mekaaniseks
 
 > 🎓 [Sähkömagneetit](https://wikipedia.org/wiki/Electromagnet) ovat magneetteja, jotka syntyvät, kun sähkö kulkee käämin läpi. Kun sähkö kytketään päälle, käämi magnetisoituu. Kun sähkö kytketään pois päältä, käämi menettää magnetisminsa.
 
-![Kun rele on päällä, sähkömagneetti luo magneettikentän, joka kytkee ulostulopiirin päälle](../../../../../translated_images/fi/relay-on.4db16a0fd6b66926.png)
+![Kun rele on päällä, sähkömagneetti luo magneettikentän, joka kytkee ulostulopiirin päälle](../../../../../translated_images/fi/relay-on.4db16a0fd6b66926.webp)
 
 Releessä ohjauspiiri syöttää sähkömagneetille virtaa. Kun sähkömagneetti on päällä, se vetää vivun, joka liikuttaa kytkintä, sulkee kontaktit ja täydentää ulostulopiirin.
 
-![Kun rele on pois päältä, sähkömagneetti ei luo magneettikenttää, joka kytkisi ulostulopiirin päälle](../../../../../translated_images/fi/relay-off.c34a178a2960fecd.png)
+![Kun rele on pois päältä, sähkömagneetti ei luo magneettikenttää, joka kytkisi ulostulopiirin päälle](../../../../../translated_images/fi/relay-off.c34a178a2960fecd.webp)
 
 Kun ohjauspiiri on pois päältä, sähkömagneetti sammuu, vapauttaa vivun ja avaa kontaktit, katkaisten ulostulopiirin. Releet ovat digitaalisia toimilaitteita – korkea signaali kytkee releen päälle, matala signaali kytkee sen pois päältä.
 
@@ -85,7 +85,7 @@ Sähkömagneetti ei tarvitse paljon virtaa aktivoituakseen ja vetääkseen vivun
 
 Yllä olevassa kuvassa näkyy Grove-rele. Ohjauspiiri yhdistetään IoT-laitteeseen ja kytkee releen päälle tai pois päältä 3.3V tai 5V avulla. Ulostulopiirissä on kaksi liitintä, joista kumpi tahansa voi olla virtalähde tai maa. Ulostulopiiri voi käsitellä jopa 250V ja 10A, mikä riittää monille kotitaloussähköllä toimiville laitteille. Saatavilla on myös releitä, jotka kestävät vielä suurempia tehoja.
 
-![Pumppu kytketty releen kautta](../../../../../translated_images/fi/pump-wired-to-relay.66c5cfc0d8918990.png)
+![Pumppu kytketty releen kautta](../../../../../translated_images/fi/pump-wired-to-relay.66c5cfc0d8918990.webp)
 
 Yllä olevassa kuvassa pumppu saa virtansa releen kautta. Punainen johto yhdistää USB-virtalähteen +5V-liittimen releen ulostulopiirin yhteen liittimeen, ja toinen punainen johto yhdistää ulostulopiirin toisen liittimen pumppuun. Musta johto yhdistää pumpun USB-virtalähteen maahan. Kun rele kytketään päälle, se täydentää piirin, lähettää 5V pumpulle ja käynnistää pumpun.
 
@@ -135,7 +135,7 @@ Oppitunnissa 3 rakensit yövalon – LED-valon, joka syttyy heti, kun valotason 
 
 Jos teit edellisen oppitunnin maaperän kosteudesta fyysisellä sensorilla, huomasit, että maaperän kosteuslukeman laskeminen kesti muutaman sekunnin sen jälkeen, kun kastelit kasvia. Tämä ei johdu sensorin hitaudesta, vaan siitä, että veden imeytyminen maaperään vie aikaa.
 💁 Jos kastelit liian lähelle anturia, saatat huomata lukeman laskevan nopeasti ja sitten nousevan takaisin – tämä johtuu siitä, että vesi anturin lähellä leviää muualle maaperään, mikä vähentää anturin havaitsemaa maaperän kosteutta.
-![Maaperän kosteusmittaus, joka näyttää lukeman 658, ei muutu kastelun aikana. Lukema laskee vasta 320:een, kun vesi on imeytynyt maaperään](../../../../../translated_images/fi/soil-moisture-travel.a0e31af222cf1438.png)
+![Maaperän kosteusmittaus, joka näyttää lukeman 658, ei muutu kastelun aikana. Lukema laskee vasta 320:een, kun vesi on imeytynyt maaperään](../../../../../translated_images/fi/soil-moisture-travel.a0e31af222cf1438.webp)
 
 Yllä olevassa kaaviossa maaperän kosteusmittari näyttää lukeman 658. Kasvia kastellaan, mutta lukema ei muutu heti, koska vesi ei ole vielä saavuttanut anturia. Kastelu voi jopa päättyä ennen kuin vesi saavuttaa anturin ja lukema laskee heijastamaan uutta kosteustasoa.
 
@@ -157,11 +157,11 @@ Kuinka kauan releen pitäisi olla päällä kerrallaan? On parempi olla varovain
 
 > 💁 Tällainen ajoituksen hallinta on hyvin spesifistä IoT-laitteelle, jota rakennat, mitattavalle ominaisuudelle sekä käytetyille antureille ja toimilaitteille.
 
-![Mansikkakasvi, joka on yhdistetty veteen pumpun kautta. Pumppu on kytketty releeseen, ja sekä rele että maaperän kosteusanturi ovat kytketty Raspberry Pi:hin](../../../../../translated_images/fi/strawberry-with-pump.b410fc72ac6aabad.png)
+![Mansikkakasvi, joka on yhdistetty veteen pumpun kautta. Pumppu on kytketty releeseen, ja sekä rele että maaperän kosteusanturi ovat kytketty Raspberry Pi:hin](../../../../../translated_images/fi/strawberry-with-pump.b410fc72ac6aabad.webp)
 
 Esimerkiksi minulla on mansikkakasvi, jossa on maaperän kosteusanturi ja pumppu, jota ohjataan releellä. Olen havainnut, että kun lisään vettä, kestää noin 20 sekuntia, ennen kuin maaperän kosteuslukema vakiintuu. Tämä tarkoittaa, että minun täytyy kytkeä rele pois päältä ja odottaa 20 sekuntia ennen kosteustasojen tarkistamista. Mieluummin liian vähän vettä kuin liikaa - voin aina kytkeä pumpun uudelleen päälle, mutta en voi poistaa vettä kasvista.
 
-![Vaihe 1: ota mittaus. Vaihe 2: lisää vettä. Vaihe 3: odota veden imeytymistä maaperään. Vaihe 4: ota uusi mittaus](../../../../../translated_images/fi/soil-moisture-delay.865f3fae206db01d.png)
+![Vaihe 1: ota mittaus. Vaihe 2: lisää vettä. Vaihe 3: odota veden imeytymistä maaperään. Vaihe 4: ota uusi mittaus](../../../../../translated_images/fi/soil-moisture-delay.865f3fae206db01d.webp)
 
 Tämä tarkoittaa, että paras prosessi olisi kastelusykli, joka on jotakuinkin seuraava:
 

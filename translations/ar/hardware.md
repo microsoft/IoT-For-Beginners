@@ -21,7 +21,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 ## شراء المجموعات
 
-![شعار Seeed Studios](../../translated_images/ar/seeed-logo.74732b6b482b6e8e.png)
+![شعار Seeed Studios](../../translated_images/ar/seeed-logo.74732b6b482b6e8e.webp)
 
 قامت Seeed Studios بتوفير جميع الأجهزة كمجموعات سهلة الشراء:
 
@@ -29,7 +29,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 **[إنترنت الأشياء للمبتدئين مع Seeed وMicrosoft - مجموعة البداية لـ Wio Terminal](https://www.seeedstudio.com/IoT-for-beginners-with-Seeed-and-Microsoft-Wio-Terminal-Starter-Kit-p-5006.html)**
 
-[![مجموعة أجهزة Wio Terminal](../../translated_images/ar/wio-hardware-kit.4c70c48b85e4283a.png)](https://www.seeedstudio.com/IoT-for-beginners-with-Seeed-and-Microsoft-Wio-Terminal-Starter-Kit-p-5006.html)
+[![مجموعة أجهزة Wio Terminal](../../translated_images/ar/wio-hardware-kit.4c70c48b85e4283a.webp)](https://www.seeedstudio.com/IoT-for-beginners-with-Seeed-and-Microsoft-Wio-Terminal-Starter-Kit-p-5006.html)
 
 ### Raspberry Pi
 

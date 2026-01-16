@@ -33,7 +33,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 1. مع فصل Wio Terminal عن جهاز الكمبيوتر أو أي مصدر طاقة آخر، قم بتوصيل الطرف الآخر من كابل Grove بالمقبس الموجود على الجانب الأيمن من Wio Terminal أثناء النظر إلى الشاشة. هذا هو المقبس الأبعد عن زر الطاقة.
 
-![مستشعر درجة الحرارة Grove متصل بالمقبس الأيمن](../../../../../translated_images/ar/wio-temperature-sensor.2934928f38c7f79a.png)
+![مستشعر درجة الحرارة Grove متصل بالمقبس الأيمن](../../../../../translated_images/ar/wio-temperature-sensor.2934928f38c7f79a.webp)
 
 ## برمجة مستشعر درجة الحرارة
 

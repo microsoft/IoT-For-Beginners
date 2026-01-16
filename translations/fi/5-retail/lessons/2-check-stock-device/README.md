@@ -39,7 +39,7 @@ Objektintunnistimia voidaan käyttää varaston tarkistamiseen, joko laskemalla 
 
 Esimerkiksi, jos kamera osoittaa hyllyyn, joka voi pitää 8 tomaattipyreen purkkia, ja objektintunnistin havaitsee vain 7 purkkia, yksi puuttuu ja se täytyy täydentää.
 
-![7 tomaattipyreen purkkia hyllyllä, 4 ylhäällä ja 3 alhaalla](../../../../../translated_images/fi/stock-7-cans-tomato-paste.f86059cc573d7bec.png)
+![7 tomaattipyreen purkkia hyllyllä, 4 ylhäällä ja 3 alhaalla](../../../../../translated_images/fi/stock-7-cans-tomato-paste.f86059cc573d7bec.webp)
 
 Yllä olevassa kuvassa objektintunnistin on havainnut 7 tomaattipyreen purkkia hyllyllä, joka voi pitää 8 purkkia. IoT-laite ei ainoastaan voi lähettää ilmoitusta täydennystarpeesta, vaan se voi myös antaa tiedon puuttuvan tuotteen sijainnista, mikä on tärkeää, jos käytät robotteja hyllyjen täydennykseen.
 
@@ -51,7 +51,7 @@ Joskus hyllyillä voi olla väärää varastoa. Tämä voi johtua inhimillisest�
 
 Objektintunnistusta voidaan käyttää havaitsemaan odottamattomia tuotteita, ja taas IoT-laite voi ilmoittaa ihmiselle tai robotille tuotteen palauttamisesta heti, kun se havaitaan.
 
-![Väärä maissipurkki tomaattipyreen hyllyllä](../../../../../translated_images/fi/stock-rogue-corn.be1f3ada8c457854.png)
+![Väärä maissipurkki tomaattipyreen hyllyllä](../../../../../translated_images/fi/stock-rogue-corn.be1f3ada8c457854.webp)
 
 Yllä olevassa kuvassa maissipurkki on laitettu hyllylle tomaattipyreen viereen. Objektintunnistin on havainnut tämän, jolloin IoT-laite voi ilmoittaa ihmiselle tai robotille purkin palauttamisesta oikeaan paikkaan.
 

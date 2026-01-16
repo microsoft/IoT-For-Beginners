@@ -51,7 +51,7 @@ Verbinde die LED.
 
     > 💁 Die rechte Grove-Buchse kann mit analogen oder digitalen Sensoren und Aktoren verwendet werden. Die linke Buchse ist nur für I2C- und digitale Sensoren und Aktoren.
 
-![Die Grove-LED, verbunden mit der rechten Buchse](../../../../../translated_images/de/wio-led.265a1897e72d7f21.png)
+![Die Grove-LED, verbunden mit der rechten Buchse](../../../../../translated_images/de/wio-led.265a1897e72d7f21.webp)
 
 ## Programmiere das Nachtlicht
 

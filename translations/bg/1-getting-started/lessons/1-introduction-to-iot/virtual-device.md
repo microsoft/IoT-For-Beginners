@@ -154,11 +154,11 @@ CO_OP_TRANSLATOR_METADATA:
 
 1. Когато VS Code се стартира, той ще активира виртуалната среда за Python. Избраната виртуална среда ще се появи в долната статусна лента:
 
-    ![VS Code показва избраната виртуална среда](../../../../../translated_images/bg/vscode-virtual-env.8ba42e04c3d533cf.png)
+    ![VS Code показва избраната виртуална среда](../../../../../translated_images/bg/vscode-virtual-env.8ba42e04c3d533cf.webp)
 
 1. Ако терминалът на VS Code вече работи, когато VS Code се стартира, той няма да има активирана виртуална среда в него. Най-лесното решение е да затворите терминала, като използвате бутона **Kill the active terminal instance**:
 
-    ![VS Code бутон за затваряне на активния терминал](../../../../../translated_images/bg/vscode-kill-terminal.1cc4de7c6f25ee08.png)
+    ![VS Code бутон за затваряне на активния терминал](../../../../../translated_images/bg/vscode-kill-terminal.1cc4de7c6f25ee08.webp)
 
     Можете да разберете дали терминалът има активирана виртуална среда, като проверите дали името на виртуалната среда е префикс на подканата на терминала. Например, това може да бъде:
 
@@ -229,7 +229,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 1. Ще трябва да стартирате нов терминал във VS Code, като изберете бутона **Create a new integrated terminal**. Това е, защото приложението CounterFit работи в текущия терминал.
 
-    ![VS Code бутон за създаване на нов интегриран терминал](../../../../../translated_images/bg/vscode-new-terminal.77db8fc0f9cd3182.png)
+    ![VS Code бутон за създаване на нов интегриран терминал](../../../../../translated_images/bg/vscode-new-terminal.77db8fc0f9cd3182.webp)
 
 1. В този нов терминал стартирайте файла `app.py`, както преди. Статусът на CounterFit ще се промени на **Connected**, и светодиодът ще светне.
 

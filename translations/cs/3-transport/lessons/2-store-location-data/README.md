@@ -66,7 +66,7 @@ Databáze jsou služby, které umožňují ukládat a dotazovat se na data. Data
 
 První databáze byly relační databázové systémy (RDBMS), známé také jako SQL databáze podle jazyka Structured Query Language (SQL), který se používá k interakci s nimi pro přidávání, odstraňování, aktualizaci nebo dotazování na data. Tyto databáze mají schéma - dobře definovanou sadu tabulek dat, podobnou tabulce v Excelu. Každá tabulka má více pojmenovaných sloupců. Při vkládání dat přidáváte řádek do tabulky a vkládáte hodnoty do jednotlivých sloupců. To udržuje data v pevné struktuře - i když můžete nechat sloupce prázdné, pokud chcete přidat nový sloupec, musíte to udělat v databázi a vyplnit hodnoty pro stávající řádky. Tyto databáze jsou relační - jedna tabulka může mít vztah k jiné.
 
-![Relační databáze s ID tabulky uživatelů, které se vztahuje k ID uživatele ve sloupci tabulky nákupů, a ID tabulky produktů, které se vztahuje k ID produktu v tabulce nákupů](../../../../../translated_images/cs/sql-database.be160f12bfccefd3.png)
+![Relační databáze s ID tabulky uživatelů, které se vztahuje k ID uživatele ve sloupci tabulky nákupů, a ID tabulky produktů, které se vztahuje k ID produktu v tabulce nákupů](../../../../../translated_images/cs/sql-database.be160f12bfccefd3.webp)
 
 Například pokud byste ukládali osobní údaje uživatelů do tabulky, měli byste pro každého uživatele nějaké interní jedinečné ID, které se používá v řádku tabulky obsahující jméno a adresu uživatele. Pokud byste pak chtěli uložit další údaje o tomto uživateli, například jeho nákupy, do jiné tabulky, měli byste v nové tabulce jeden sloupec pro ID tohoto uživatele. Při vyhledávání uživatele můžete použít jeho ID k získání osobních údajů z jedné tabulky a jeho nákupů z jiné.
 
@@ -241,7 +241,7 @@ Vaše aplikace funkcí nyní potřebuje připojit blob úložiště, aby mohla u
 
 V této lekci použijete Python SDK, abyste viděli, jak pracovat s blob úložištěm.
 
-![Odesílání GPS telemetrie z IoT zařízení do IoT Hubu, poté do Azure Functions přes trigger Event Hubu, a následné ukládání do blob úložiště](../../../../../translated_images/cs/save-telemetry-to-storage-from-functions.ed3b1820980097f1.png)
+![Odesílání GPS telemetrie z IoT zařízení do IoT Hubu, poté do Azure Functions přes trigger Event Hubu, a následné ukládání do blob úložiště](../../../../../translated_images/cs/save-telemetry-to-storage-from-functions.ed3b1820980097f1.webp)
 
 Data budou uložena jako JSON blob s následujícím formátem:
 

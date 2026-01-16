@@ -35,7 +35,7 @@ Raspberry Pi се нуждае от сензор за близост.
 
 1. С изключен Raspberry Pi, свържете другия край на Grove кабела към един от I²C конекторите, маркирани **I²C**, на Grove Base hat, прикрепен към Pi. Тези конектори са на долния ред, противоположния край на GPIO пиновете и до слота за камерата.
 
-![Сензор Grove Time of Flight, свързан към I²C конектор](../../../../../translated_images/bg/pi-time-of-flight-sensor.58c8dc04eb3bfb57.png)
+![Сензор Grove Time of Flight, свързан към I²C конектор](../../../../../translated_images/bg/pi-time-of-flight-sensor.58c8dc04eb3bfb57.webp)
 
 ## Програмиране на сензора за измерване на разстояние
 
@@ -106,7 +106,7 @@ Raspberry Pi се нуждае от сензор за близост.
 
     Далекомерът е на задната страна на сензора, така че се уверете, че използвате правилната страна при измерване на разстояние.
 
-    ![Далекомерът на задната страна на сензора за измерване на разстояние, насочен към банан](../../../../../translated_images/bg/time-of-flight-banana.079921ad8b1496e4.png)
+    ![Далекомерът на задната страна на сензора за измерване на разстояние, насочен към банан](../../../../../translated_images/bg/time-of-flight-banana.079921ad8b1496e4.webp)
 
 > 💁 Можете да намерите този код в папката [code-proximity/pi](../../../../../4-manufacturing/lessons/4-trigger-fruit-detector/code-proximity/pi).
 

@@ -64,7 +64,7 @@ Mikrofony existují v různých typech:
 
 * Páskové – Páskové mikrofony jsou podobné dynamickým mikrofonům, ale místo membrány mají kovovou pásku. Tato páska se pohybuje v magnetickém poli a generuje elektrický proud. Stejně jako dynamické mikrofony, páskové mikrofony nepotřebují napájení.
 
-    ![Edmund Lowe, americký herec, stojící u rozhlasového mikrofonu (označeného jako (NBC) Blue Network), držící scénář, 1942](../../../../../translated_images/cs/ribbon-mic.eacc8e092c7441ca.jpg)
+    ![Edmund Lowe, americký herec, stojící u rozhlasového mikrofonu (označeného jako (NBC) Blue Network), držící scénář, 1942](../../../../../translated_images/cs/ribbon-mic.eacc8e092c7441ca.webp)
 
 * Kondenzátorové – Kondenzátorové mikrofony mají tenkou kovovou membránu a pevnou kovovou zadní desku. Elektrický proud je aplikován na obě tyto části a jak membrána vibruje, statický náboj mezi deskami se mění a generuje signál. Kondenzátorové mikrofony potřebují napájení – nazývané *Phantom power*.
 
@@ -84,7 +84,7 @@ Zvuk je analogový signál nesoucí velmi jemné informace. Aby byl tento signá
 
 > 🎓 Vzorkování je proces převodu zvukového signálu na digitální hodnotu, která reprezentuje signál v daném okamžiku.
 
-![Graf zobrazující signál s diskrétními body v pevných intervalech](../../../../../translated_images/cs/sampling.6f4fadb3f2d9dfe7.png)
+![Graf zobrazující signál s diskrétními body v pevných intervalech](../../../../../translated_images/cs/sampling.6f4fadb3f2d9dfe7.webp)
 
 Digitální zvuk je vzorkován pomocí Pulzní kódové modulace (PCM). PCM zahrnuje čtení napětí signálu a výběr nejbližší diskrétní hodnoty k tomuto napětí pomocí definované velikosti.
 

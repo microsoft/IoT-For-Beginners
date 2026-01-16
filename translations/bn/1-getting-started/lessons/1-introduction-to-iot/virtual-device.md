@@ -154,11 +154,11 @@ Python ভার্চুয়াল এনভায়রনমেন্ট �
 
 1. যখন VS Code চালু হবে, এটি Python ভার্চুয়াল এনভায়রনমেন্ট সক্রিয় করবে। নির্বাচিত ভার্চুয়াল এনভায়রনমেন্টটি নিচের স্ট্যাটাস বারে প্রদর্শিত হবে:
 
-    ![VS Code ভার্চুয়াল এনভায়রনমেন্ট দেখাচ্ছে](../../../../../translated_images/bn/vscode-virtual-env.8ba42e04c3d533cf.png)
+    ![VS Code ভার্চুয়াল এনভায়রনমেন্ট দেখাচ্ছে](../../../../../translated_images/bn/vscode-virtual-env.8ba42e04c3d533cf.webp)
 
 1. যদি VS Code টার্মিনাল VS Code চালু হওয়ার সময় ইতিমধ্যে চালু থাকে, তাহলে এতে ভার্চুয়াল এনভায়রনমেন্ট সক্রিয় থাকবে না। সবচেয়ে সহজ উপায় হলো **Kill the active terminal instance** বোতাম ব্যবহার করে টার্মিনাল বন্ধ করা:
 
-    ![VS Code Kill the active terminal instance বোতাম](../../../../../translated_images/bn/vscode-kill-terminal.1cc4de7c6f25ee08.png)
+    ![VS Code Kill the active terminal instance বোতাম](../../../../../translated_images/bn/vscode-kill-terminal.1cc4de7c6f25ee08.webp)
 
     আপনি টার্মিনালে ভার্চুয়াল এনভায়রনমেন্ট সক্রিয় আছে কিনা তা জানতে পারেন, কারণ টার্মিনাল প্রম্পটে ভার্চুয়াল এনভায়রনমেন্টের নাম একটি প্রিফিক্স হিসেবে থাকবে। উদাহরণস্বরূপ, এটি হতে পারে:
 
@@ -229,7 +229,7 @@ Python ভার্চুয়াল এনভায়রনমেন্ট �
 
 1. আপনাকে একটি নতুন VS Code টার্মিনাল চালু করতে হবে **Create a new integrated terminal** বোতাম নির্বাচন করে। কারণ বর্তমান টার্মিনালে CounterFit অ্যাপ চালু রয়েছে।
 
-    ![VS Code Create a new integrated terminal বোতাম](../../../../../translated_images/bn/vscode-new-terminal.77db8fc0f9cd3182.png)
+    ![VS Code Create a new integrated terminal বোতাম](../../../../../translated_images/bn/vscode-new-terminal.77db8fc0f9cd3182.webp)
 
 1. এই নতুন টার্মিনালে, আগের মতো `app.py` ফাইল চালান। CounterFit-এর স্ট্যাটাস **Connected**-এ পরিবর্তিত হবে এবং LED জ্বলে উঠবে।
 

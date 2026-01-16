@@ -17,7 +17,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Светлинният сензор е вграден в Wio Terminal и е видим през прозрачния пластмасов прозорец на гърба.
 
-![Светлинният сензор на гърба на Wio Terminal](../../../../../translated_images/bg/wio-light-sensor.b1f529f3c95f5165.png)
+![Светлинният сензор на гърба на Wio Terminal](../../../../../translated_images/bg/wio-light-sensor.b1f529f3c95f5165.webp)
 
 ## Програмиране на светлинния сензор
 

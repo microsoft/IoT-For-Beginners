@@ -110,7 +110,7 @@ Jeder Punkt des Polygons wird als Längen- und Breitengradpaar in einem Array de
 
 Das Polygon-Koordinaten-Array hat immer einen Eintrag mehr als die Anzahl der Punkte des Polygons, wobei der letzte Eintrag derselbe ist wie der erste, um das Polygon zu schließen. Zum Beispiel hätte ein Rechteck 5 Punkte.
 
-![Ein Rechteck mit Koordinaten](../../../../../translated_images/de/polygon-points.302193da381cb415.png)
+![Ein Rechteck mit Koordinaten](../../../../../translated_images/de/polygon-points.302193da381cb415.webp)
 
 Im obigen Bild gibt es ein Rechteck. Die Polygon-Koordinaten beginnen oben links bei 47,-122, bewegen sich dann nach rechts zu 47,-121, dann nach unten zu 46,-121, dann nach links zu 46,-122 und schließlich wieder nach oben zum Startpunkt bei 47,-122. Dies ergibt 5 Punkte für das Polygon – oben links, oben rechts, unten rechts, unten links und dann oben links, um es zu schließen.
 
@@ -208,7 +208,7 @@ Wenn Sie diese Anfrage stellen, können Sie auch einen Wert namens `searchBuffer
 
 Wenn Ergebnisse von der API-Anfrage zurückgegeben werden, ist einer der Teile des Ergebnisses eine `distance`, die bis zum nächstgelegenen Punkt am Rand des Geofence gemessen wird, mit einem positiven Wert, wenn der Punkt außerhalb des Geofence liegt, und einem negativen Wert, wenn er innerhalb des Geofence liegt. Wenn diese Entfernung kleiner als der Suchpuffer ist, wird die tatsächliche Entfernung in Metern zurückgegeben, andernfalls beträgt der Wert 999 oder -999. 999 bedeutet, dass der Punkt mehr als den Suchpuffer außerhalb des Geofence liegt, -999 bedeutet, dass er mehr als den Suchpuffer innerhalb des Geofence liegt.
 
-![Ein Geofence mit einem 50m-Suchpuffer darum](../../../../../translated_images/de/search-buffer-and-distance.e6a79af3898183c7.png)
+![Ein Geofence mit einem 50m-Suchpuffer darum](../../../../../translated_images/de/search-buffer-and-distance.e6a79af3898183c7.webp)
 
 Im obigen Bild hat der Geofence einen 50m-Suchpuffer.
 

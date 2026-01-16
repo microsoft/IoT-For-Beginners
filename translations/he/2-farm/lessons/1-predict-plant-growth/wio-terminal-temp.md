@@ -33,7 +33,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 1. כאשר ה-Wio Terminal מנותק מהמחשב או ממקור כוח אחר, חבר את הקצה השני של כבל Grove לשקע הימני ביותר ב-Wio Terminal כשאתה מסתכל על המסך. זהו השקע הרחוק ביותר מכפתור ההפעלה.
 
-![חיישן הטמפרטורה מחובר לשקע הימני](../../../../../translated_images/he/wio-temperature-sensor.2934928f38c7f79a.png)
+![חיישן הטמפרטורה מחובר לשקע הימני](../../../../../translated_images/he/wio-temperature-sensor.2934928f38c7f79a.webp)
 
 ## תכנות חיישן הטמפרטורה
 

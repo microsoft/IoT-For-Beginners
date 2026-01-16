@@ -65,7 +65,7 @@ Cada espécie de planta tem valores diferentes para sua temperatura base, ótima
 
 ✅ Faça uma pesquisa. Para qualquer planta que você tenha em seu jardim, escola ou parque local, veja se consegue encontrar a temperatura base.
 
-![Um gráfico mostrando a taxa de crescimento aumentando conforme a temperatura sobe, depois caindo quando a temperatura fica muito alta](../../../../../translated_images/br/plant-growth-temp-graph.c6d69c9478e6ca83.png)
+![Um gráfico mostrando a taxa de crescimento aumentando conforme a temperatura sobe, depois caindo quando a temperatura fica muito alta](../../../../../translated_images/br/plant-growth-temp-graph.c6d69c9478e6ca83.webp)
 
 O gráfico acima mostra um exemplo de taxa de crescimento em relação à temperatura. Até a temperatura base, não há crescimento. A taxa de crescimento aumenta até a temperatura ótima e depois cai após atingir esse pico. Na temperatura máxima, o crescimento para.
 
@@ -141,7 +141,7 @@ Isso tem um grande impacto no trabalho em uma grande fazenda e corre o risco de 
 
 Ao coletar dados de temperatura usando um dispositivo IoT, um agricultor pode ser notificado automaticamente quando as plantas estiverem próximas da maturidade. Uma arquitetura típica para isso é ter os dispositivos IoT medindo a temperatura e publicando esses dados de telemetria pela Internet usando algo como MQTT. O código do servidor então escuta esses dados e os salva em algum lugar, como em um banco de dados. Isso significa que os dados podem ser analisados posteriormente, como em uma tarefa noturna para calcular os GDD do dia, somar os GDD totais para cada cultura até o momento e alertar se uma planta estiver próxima da maturidade.
 
-![Os dados de telemetria são enviados para um servidor e depois salvos em um banco de dados](../../../../../translated_images/br/save-telemetry-database.ddc9c6bea0c5ba39.png)
+![Os dados de telemetria são enviados para um servidor e depois salvos em um banco de dados](../../../../../translated_images/br/save-telemetry-database.ddc9c6bea0c5ba39.webp)
 
 O código do servidor também pode complementar os dados adicionando informações extras. Por exemplo, o dispositivo IoT pode publicar um identificador para indicar qual dispositivo está enviando os dados, e o código do servidor pode usar isso para buscar a localização do dispositivo e quais culturas ele está monitorando. Ele também pode adicionar dados básicos, como a hora atual, já que alguns dispositivos IoT não possuem o hardware necessário para manter um horário preciso ou exigem código adicional para ler a hora atual pela Internet.
 
@@ -228,7 +228,7 @@ Este código abre o arquivo CSV e adiciona uma nova linha no final. A linha cont
 
     
 > 💁 Se você estiver usando um Dispositivo IoT Virtual, selecione a caixa de seleção aleatória e defina um intervalo para evitar obter a mesma temperatura toda vez que o valor de temperatura for retornado.
-    ![Selecione a caixa de seleção aleatória e defina um intervalo](../../../../../translated_images/br/select-the-random-checkbox-and-set-a-range.32cf4bc7c12e797f.png) 
+    ![Selecione a caixa de seleção aleatória e defina um intervalo](../../../../../translated_images/br/select-the-random-checkbox-and-set-a-range.32cf4bc7c12e797f.webp) 
 
     > 💁 Se você quiser executar isso por um dia inteiro, então você precisa garantir que o computador onde seu código de servidor está rodando não entre em modo de suspensão, seja alterando as configurações de energia ou executando algo como [este script Python para manter o sistema ativo](https://github.com/jaqsparow/keep-system-active).
     

@@ -51,7 +51,7 @@ Liitä LED.
 
     > 💁 Oikeanpuoleista Grove-liitintä voidaan käyttää analogisten tai digitaalisten antureiden ja toimilaitteiden kanssa. Vasemmanpuoleinen liitin on tarkoitettu vain digitaalisten antureiden ja toimilaitteiden käyttöön. C käsitellään myöhemmässä oppitunnissa.
 
-![Grove LED liitetty oikeanpuoleiseen liittimeen](../../../../../translated_images/fi/wio-led.265a1897e72d7f21.png)
+![Grove LED liitetty oikeanpuoleiseen liittimeen](../../../../../translated_images/fi/wio-led.265a1897e72d7f21.webp)
 
 ## Ohjelmoi yövalo
 

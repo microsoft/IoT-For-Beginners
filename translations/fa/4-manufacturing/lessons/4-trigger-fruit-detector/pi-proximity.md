@@ -35,7 +35,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 1. با خاموش بودن رزبری پای، سر دیگر کابل Grove را به یکی از سوکت‌های I²C که با **I²C** علامت‌گذاری شده‌اند، روی Grove Base Hat متصل به پای وصل کنید. این سوکت‌ها در ردیف پایین قرار دارند، در سمت مخالف پین‌های GPIO و کنار شکاف کابل دوربین.
 
-![حسگر Time of Flight Grove متصل به سوکت I²C](../../../../../translated_images/fa/pi-time-of-flight-sensor.58c8dc04eb3bfb57.png)
+![حسگر Time of Flight Grove متصل به سوکت I²C](../../../../../translated_images/fa/pi-time-of-flight-sensor.58c8dc04eb3bfb57.webp)
 
 ## برنامه‌نویسی حسگر Time of Flight
 
@@ -106,7 +106,7 @@ CO_OP_TRANSLATOR_METADATA:
 
     ردیاب فاصله در پشت حسگر قرار دارد، بنابراین هنگام اندازه‌گیری فاصله مطمئن شوید که از سمت درست استفاده می‌کنید.
 
-    ![ردیاب فاصله در پشت حسگر Time of Flight که به سمت یک موز اشاره دارد](../../../../../translated_images/fa/time-of-flight-banana.079921ad8b1496e4.png)
+    ![ردیاب فاصله در پشت حسگر Time of Flight که به سمت یک موز اشاره دارد](../../../../../translated_images/fa/time-of-flight-banana.079921ad8b1496e4.webp)
 
 > 💁 شما می‌توانید این کد را در پوشه [code-proximity/pi](../../../../../4-manufacturing/lessons/4-trigger-fruit-detector/code-proximity/pi) پیدا کنید.
 

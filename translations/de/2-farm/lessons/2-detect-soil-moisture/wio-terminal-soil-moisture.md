@@ -33,11 +33,11 @@ Schließen Sie den Bodenfeuchtigkeitssensor an.
 
 1. Verbinden Sie, während das Wio Terminal von Ihrem Computer oder einer anderen Stromquelle getrennt ist, das andere Ende des Grove-Kabels mit der rechten Grove-Buchse des Wio Terminals, wenn Sie auf den Bildschirm schauen. Dies ist die Buchse, die am weitesten vom Netzschalter entfernt ist.
 
-![Der Grove Bodenfeuchtigkeitssensor ist mit der rechten Buchse verbunden](../../../../../translated_images/de/wio-soil-moisture-sensor.46919b61c3f6cb74.png)
+![Der Grove Bodenfeuchtigkeitssensor ist mit der rechten Buchse verbunden](../../../../../translated_images/de/wio-soil-moisture-sensor.46919b61c3f6cb74.webp)
 
 1. Stecken Sie den Bodenfeuchtigkeitssensor in die Erde. Er hat eine „höchste Position“-Markierung – eine weiße Linie quer über den Sensor. Stecken Sie den Sensor bis zu dieser Linie, aber nicht darüber hinaus, in die Erde.
 
-![Der Grove Bodenfeuchtigkeitssensor in der Erde](../../../../../translated_images/de/soil-moisture-sensor-in-soil.bfad91002bda5e96.png)
+![Der Grove Bodenfeuchtigkeitssensor in der Erde](../../../../../translated_images/de/soil-moisture-sensor-in-soil.bfad91002bda5e96.webp)
 
 1. Sie können das Wio Terminal jetzt mit Ihrem Computer verbinden.
 

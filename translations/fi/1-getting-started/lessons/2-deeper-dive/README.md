@@ -41,7 +41,7 @@ IoT-sovelluksen kaksi pääkomponenttia ovat *Internet* ja *laite*. Tarkastellaa
 
 ### Laite
 
-![Raspberry Pi 4](../../../../../translated_images/fi/raspberry-pi-4.fd4590d308c3d456.jpg)
+![Raspberry Pi 4](../../../../../translated_images/fi/raspberry-pi-4.fd4590d308c3d456.webp)
 
 IoT:n **laite**-osa viittaa laitteeseen, joka voi olla vuorovaikutuksessa fyysisen maailman kanssa. Nämä laitteet ovat yleensä pieniä, edullisia tietokoneita, jotka toimivat alhaisilla nopeuksilla ja kuluttavat vähän virtaa – esimerkiksi yksinkertaisia mikrokontrollereita, joissa on vain kilotavuja RAM-muistia (verrattuna PC:n gigatavuihin) ja jotka toimivat vain muutamilla sadoilla megahertseillä (verrattuna PC:n gigahertseihin). Ne voivat kuluttaa niin vähän virtaa, että ne voivat toimia viikkoja, kuukausia tai jopa vuosia paristoilla.
 
@@ -67,7 +67,7 @@ Esimerkkinä älykkäästä termostaatista, termostaatti yhdistyy kodin WiFi-ver
 
 Älykkäämpi versio voisi käyttää pilvessä olevaa tekoälyä ja tietoja muista IoT-laitteisiin liitetyistä antureista, kuten tilan käyttöä havaitsevista antureista, sekä tietoja, kuten säätietoja ja jopa kalenteriasi, tehdäkseen päätöksiä lämpötilan asettamisesta älykkäästi. Esimerkiksi se voisi kytkeä lämmityksen pois päältä, jos kalenterisi mukaan olet lomalla, tai säätää lämmitystä huonekohtaisesti sen mukaan, mitä huoneita käytät, oppien datasta ajan myötä tarkemmaksi.
 
-![Kaavio, jossa useita lämpötila-antureita ja säädin ovat IoT-laitteen syötteitä, IoT-laite on kaksisuuntaisessa yhteydessä pilveen, joka puolestaan on kaksisuuntaisessa yhteydessä puhelimeen, kalenteriin ja säätietopalveluun, ja lämmittimen ohjaus on ulostulo IoT-laitteesta](../../../../../translated_images/fi/smarter-thermostat.a75855f15d2d9e63.png)
+![Kaavio, jossa useita lämpötila-antureita ja säädin ovat IoT-laitteen syötteitä, IoT-laite on kaksisuuntaisessa yhteydessä pilveen, joka puolestaan on kaksisuuntaisessa yhteydessä puhelimeen, kalenteriin ja säätietopalveluun, ja lämmittimen ohjaus on ulostulo IoT-laitteesta](../../../../../translated_images/fi/smarter-thermostat.a75855f15d2d9e63.webp)
 
 ✅ Mitä muita tietoja voisi käyttää tekemään Internet-yhdistetyistä termostaateista älykkäämpiä?
 
@@ -135,7 +135,7 @@ Kuten CPU:ssa, mikro-ohjaimen muisti on moninkertaisesti pienempi kuin PC:ssä t
 
 Alla oleva kaavio näyttää suhteellisen kokoeron 192KB:n ja 8GB:n välillä – pieni piste keskellä edustaa 192KB:tä.
 
-![Vertailu 192KB:n ja 8GB:n välillä – yli 40 000 kertaa suurempi](../../../../../translated_images/fi/ram-comparison.6beb73541b42ac6f.png)
+![Vertailu 192KB:n ja 8GB:n välillä – yli 40 000 kertaa suurempi](../../../../../translated_images/fi/ram-comparison.6beb73541b42ac6f.webp)
 
 Ohjelman tallennustila on myös pienempi kuin PC:ssä. Tyypillisessä PC:ssä voi olla 500GB:n kiintolevy ohjelmien tallennusta varten, kun taas mikro-ohjaimessa tallennustilaa on vain kilotavuja tai ehkä muutama megatavu (MB) (1MB on 1 000KB, eli 1 000 000 tavua). Wio Terminalissa on 4MB ohjelman tallennustilaa.
 
@@ -211,17 +211,17 @@ Edellisessä oppitunnissa esiteltiin yhden piirilevyn tietokoneet. Tarkastellaan
 
 ### Raspberry Pi
 
-![Raspberry Pi -logo](../../../../../translated_images/fi/raspberry-pi-logo.4efaa16605cee054.png)
+![Raspberry Pi -logo](../../../../../translated_images/fi/raspberry-pi-logo.4efaa16605cee054.webp)
 
 [Raspberry Pi Foundation](https://www.raspberrypi.org) on brittiläinen hyväntekeväisyysjärjestö, joka perustettiin vuonna 2009 edistämään tietojenkäsittelytieteen opiskelua erityisesti kouluissa. Osana tätä tehtävää he kehittivät yhden piirilevyn tietokoneen, nimeltään Raspberry Pi. Raspberry Pi:t ovat tällä hetkellä saatavilla kolmessa versiossa – täysikokoinen versio, pienempi Pi Zero ja laskentamoduuli, joka voidaan rakentaa lopulliseen IoT-laitteeseen.
 
-![Raspberry Pi 4](../../../../../translated_images/fi/raspberry-pi-4.fd4590d308c3d456.jpg)
+![Raspberry Pi 4](../../../../../translated_images/fi/raspberry-pi-4.fd4590d308c3d456.webp)
 
 Viimeisin täysikokoisen Raspberry Pi:n versio on Raspberry Pi 4B. Siinä on neliytiminen (4 ydintä) CPU, joka toimii 1.5GHz:n nopeudella, 2, 4 tai 8GB RAM-muistia, gigabitin ethernet, WiFi, 2 HDMI-porttia, jotka tukevat 4k-näyttöjä, ääni- ja komposiittivideolähtöportti, USB-portit (2 USB 2.0, 2 USB 3.0), 40 GPIO-pinniä, kameraliitin Raspberry Pi -kameramoduulille ja SD-korttipaikka. Kaikki tämä piirilevyllä, joka on kooltaan 88mm x 58mm x 19.5mm ja saa virtansa 3A USB-C-virtalähteestä. Näiden hinta alkaa 35 Yhdysvaltain dollarista, mikä on paljon halvempi kuin PC tai Mac.
 
 > 💁 Saatavilla on myös Pi400, joka on all-in-one-tietokone, jossa Pi4 on rakennettu näppäimistöön.
 
-![Raspberry Pi Zero](../../../../../translated_images/fi/raspberry-pi-zero.f7a4133e1e7d54bb.jpg)
+![Raspberry Pi Zero](../../../../../translated_images/fi/raspberry-pi-zero.f7a4133e1e7d54bb.webp)
 
 Pi Zero on paljon pienempi ja vähävirtaisempi. Siinä on yksiytiminen 1GHz CPU, 512MB RAM-muistia, WiFi (Zero W -mallissa), yksi HDMI-portti, yksi micro-USB-portti, 40 GPIO-pinniä, kameraliitin Raspberry Pi -kameramoduulille ja SD-korttipaikka. Sen mitat ovat 65mm x 30mm x 5mm, ja se kuluttaa hyvin vähän virtaa. Zero maksaa 5 Yhdysvaltain dollaria, ja W-versio, jossa on WiFi, maksaa 10 dollaria.
 

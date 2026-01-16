@@ -37,7 +37,7 @@ Tässä oppitunnissa käsitellään:
 
 Teksti puheeksi -prosessi tarkoittaa tekstin muuntamista ääneksi, joka sisältää tekstin puhuttuna. Perusperiaate on jakaa tekstin sanat niiden osasävelmiin (fonemeihin) ja yhdistää näiden äänien audiot joko ennalta nauhoitetuista äänistä tai tekoälymallien tuottamasta audiosta.
 
-![Tyypillisten teksti puheeksi -järjestelmien kolme vaihetta](../../../../../translated_images/fi/tts-overview.193843cf3f5ee09f.png)
+![Tyypillisten teksti puheeksi -järjestelmien kolme vaihetta](../../../../../translated_images/fi/tts-overview.193843cf3f5ee09f.webp)
 
 Teksti puheeksi -järjestelmät koostuvat yleensä kolmesta vaiheesta:
 

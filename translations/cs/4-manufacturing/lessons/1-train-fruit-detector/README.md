@@ -61,7 +61,7 @@ Nejnovější evoluce těchto třídicích strojů využívají AI a ML, použí
 
 Tradiční programování spočívá v tom, že vezmete data, aplikujete na ně algoritmus a získáte výstup. Například v posledním projektu jste vzali GPS souřadnice a geofenci, aplikovali algoritmus poskytovaný Azure Maps a získali výsledek, zda bod je uvnitř nebo vně geofence. Zadáte více dat, získáte více výstupů.
 
-![Tradiční vývoj bere vstup a algoritmus a dává výstup. Strojové učení používá vstupní a výstupní data k trénování modelu, a tento model může brát nová vstupní data k vytvoření nových výstupů.](../../../../../translated_images/cs/traditional-vs-ml.5c20c169621fa539.png)
+![Tradiční vývoj bere vstup a algoritmus a dává výstup. Strojové učení používá vstupní a výstupní data k trénování modelu, a tento model může brát nová vstupní data k vytvoření nových výstupů.](../../../../../translated_images/cs/traditional-vs-ml.5c20c169621fa539.webp)
 
 Strojové učení to obrací – začínáte s daty a známými výstupy a algoritmus strojového učení se z dat učí. Poté můžete vzít tento trénovaný algoritmus, nazývaný *model strojového učení* nebo *model*, a zadat nová data a získat nové výstupy.
 
@@ -87,7 +87,7 @@ Pro úspěšný trénink klasifikátoru obrázků potřebujete miliony obrázků
 
 Jakmile je klasifikátor obrázků trénován na širokou škálu obrázků, jeho vnitřní mechanismy jsou skvělé v rozpoznávání tvarů, barev a vzorů. Transfer learning umožňuje modelu využít to, co se již naučil při rozpoznávání částí obrázků, a použít to k rozpoznávání nových obrázků.
 
-![Jakmile rozpoznáte tvary, mohou být uspořádány do různých konfigurací, aby vytvořily loď nebo kočku.](../../../../../translated_images/cs/shapes-to-images.1a309f0ea88dd66f.png)
+![Jakmile rozpoznáte tvary, mohou být uspořádány do různých konfigurací, aby vytvořily loď nebo kočku.](../../../../../translated_images/cs/shapes-to-images.1a309f0ea88dd66f.webp)
 
 Můžete si to představit jako dětské knížky s tvary, kde jakmile rozpoznáte půlkruh, obdélník a trojúhelník, můžete rozpoznat plachetnici nebo kočku v závislosti na konfiguraci těchto tvarů. Klasifikátor obrázků dokáže rozpoznat tvary a transfer learning ho naučí, jaká kombinace tvoří loď nebo kočku – nebo zralý banán.
 

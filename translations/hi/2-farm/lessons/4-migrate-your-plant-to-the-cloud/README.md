@@ -72,7 +72,7 @@ IoT डिवाइस ने एक सार्वजनिक MQTT ब्र�
 
 Azure Microsoft का डेवलपर क्लाउड है, और यही क्लाउड आप इन पाठों के लिए उपयोग करेंगे। नीचे दिया गया वीडियो Azure का एक छोटा सा अवलोकन देता है:
 
-[![Azure वीडियो का अवलोकन](../../../../../translated_images/hi/what-is-azure-video-thumbnail.20174db09e03bbb8.png)](https://www.microsoft.com/videoplayer/embed/RE4Ibng?WT.mc_id=academic-17441-jabenn)
+[![Azure वीडियो का अवलोकन](../../../../../translated_images/hi/what-is-azure-video-thumbnail.20174db09e03bbb8.webp)](https://www.microsoft.com/videoplayer/embed/RE4Ibng?WT.mc_id=academic-17441-jabenn)
 
 ## क्लाउड सब्सक्रिप्शन बनाएं
 

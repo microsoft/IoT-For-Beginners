@@ -37,7 +37,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 1. أدخل مستشعر رطوبة التربة في التربة. يحتوي المستشعر على "خط أعلى موضع" - وهو خط أبيض عبر المستشعر. أدخل المستشعر حتى هذا الخط ولكن لا تتجاوزه.
 
-![مستشعر رطوبة التربة في التربة](../../../../../translated_images/ar/soil-moisture-sensor-in-soil.bfad91002bda5e96.png)
+![مستشعر رطوبة التربة في التربة](../../../../../translated_images/ar/soil-moisture-sensor-in-soil.bfad91002bda5e96.webp)
 
 ## برمجة مستشعر رطوبة التربة
 

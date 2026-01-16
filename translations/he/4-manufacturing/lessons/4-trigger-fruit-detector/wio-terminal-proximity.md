@@ -35,7 +35,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 1. כאשר ה-Wio Terminal מנותק מהמחשב או ממקור כוח אחר, חבר את הקצה השני של כבל Grove לשקע Grove בצד השמאלי של ה-Wio Terminal כשאתה מסתכל על המסך. זהו השקע הקרוב ביותר לכפתור ההפעלה. זהו שקע משולב דיגיטלי ו-I2C.
 
-![חיישן Grove Time of Flight מחובר לשקע השמאלי](../../../../../translated_images/he/wio-time-of-flight-sensor.c4c182131d2ea73d.png)
+![חיישן Grove Time of Flight מחובר לשקע השמאלי](../../../../../translated_images/he/wio-time-of-flight-sensor.c4c182131d2ea73d.webp)
 
 1. כעת תוכל לחבר את ה-Wio Terminal למחשב שלך.
 
@@ -101,7 +101,7 @@ CO_OP_TRANSLATOR_METADATA:
 
     מד המרחק נמצא בצד האחורי של החיישן, אז וודא שאתה משתמש בצד הנכון בעת מדידת מרחק.
 
-    ![מד המרחק בצד האחורי של חיישן Time of Flight מכוון לבננה](../../../../../translated_images/he/time-of-flight-banana.079921ad8b1496e4.png)
+    ![מד המרחק בצד האחורי של חיישן Time of Flight מכוון לבננה](../../../../../translated_images/he/time-of-flight-banana.079921ad8b1496e4.webp)
 
 > 💁 תוכל למצוא את הקוד הזה בתיקיית [code-proximity/wio-terminal](../../../../../4-manufacturing/lessons/4-trigger-fruit-detector/code-proximity/wio-terminal).
 

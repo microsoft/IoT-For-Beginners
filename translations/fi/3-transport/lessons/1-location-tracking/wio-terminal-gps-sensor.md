@@ -33,7 +33,7 @@ Yhdistä GPS-anturi.
 
 1. Kun Wio Terminal ei ole kytketty tietokoneeseen tai muuhun virtalähteeseen, liitä Grove-kaapelin toinen pää Wio Terminalin vasemmanpuoleiseen Grove-liittimeen, kun katsot näyttöä. Tämä liitin on lähimpänä virtapainiketta.
 
-    ![Grove GPS -anturi liitetty vasempaan liittimeen](../../../../../translated_images/fi/wio-gps-sensor.19fd52b81ce58095.png)
+    ![Grove GPS -anturi liitetty vasempaan liittimeen](../../../../../translated_images/fi/wio-gps-sensor.19fd52b81ce58095.webp)
 
 1. Aseta GPS-anturi niin, että siihen liitetty antenni on näkyvissä taivaalle - mieluiten avoimen ikkunan vieressä tai ulkona. On helpompi saada selkeä signaali, kun antennin edessä ei ole esteitä.
 

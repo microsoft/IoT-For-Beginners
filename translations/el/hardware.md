@@ -21,7 +21,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 ## Αγοράστε τα κιτ
 
-![Το λογότυπο των Seeed studios](../../translated_images/el/seeed-logo.74732b6b482b6e8e.png)
+![Το λογότυπο των Seeed studios](../../translated_images/el/seeed-logo.74732b6b482b6e8e.webp)
 
 Τα Seeed Studios έχουν ευγενικά διαθέσει όλο το υλικό ως εύκολα προσβάσιμα κιτ:
 
@@ -29,7 +29,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 **[IoT για αρχάριους με Seeed και Microsoft - Wio Terminal Starter Kit](https://www.seeedstudio.com/IoT-for-beginners-with-Seeed-and-Microsoft-Wio-Terminal-Starter-Kit-p-5006.html)**
 
-[![Το κιτ υλικού Wio Terminal](../../translated_images/el/wio-hardware-kit.4c70c48b85e4283a.png)](https://www.seeedstudio.com/IoT-for-beginners-with-Seeed-and-Microsoft-Wio-Terminal-Starter-Kit-p-5006.html)
+[![Το κιτ υλικού Wio Terminal](../../translated_images/el/wio-hardware-kit.4c70c48b85e4283a.webp)](https://www.seeedstudio.com/IoT-for-beginners-with-Seeed-and-Microsoft-Wio-Terminal-Starter-Kit-p-5006.html)
 
 ### Raspberry Pi
 

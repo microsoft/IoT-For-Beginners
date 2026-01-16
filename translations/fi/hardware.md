@@ -21,7 +21,7 @@ Tarvitset myös muutamia ei-teknisiä tarvikkeita, kuten multaa tai huonekasvin 
 
 ## Osta paketit
 
-![Seeed Studiosin logo](../../translated_images/fi/seeed-logo.74732b6b482b6e8e.png)
+![Seeed Studiosin logo](../../translated_images/fi/seeed-logo.74732b6b482b6e8e.webp)
 
 Seeed Studios on ystävällisesti koonnut kaikki laitteistot helposti ostettaviksi paketeiksi:
 
@@ -29,7 +29,7 @@ Seeed Studios on ystävällisesti koonnut kaikki laitteistot helposti ostettavik
 
 **[IoT aloittelijoille Seeedin ja Microsoftin kanssa - Wio Terminal Starter Kit](https://www.seeedstudio.com/IoT-for-beginners-with-Seeed-and-Microsoft-Wio-Terminal-Starter-Kit-p-5006.html)**
 
-[![Wio Terminal -laitteistopaketti](../../translated_images/fi/wio-hardware-kit.4c70c48b85e4283a.png)](https://www.seeedstudio.com/IoT-for-beginners-with-Seeed-and-Microsoft-Wio-Terminal-Starter-Kit-p-5006.html)
+[![Wio Terminal -laitteistopaketti](../../translated_images/fi/wio-hardware-kit.4c70c48b85e4283a.webp)](https://www.seeedstudio.com/IoT-for-beginners-with-Seeed-and-Microsoft-Wio-Terminal-Starter-Kit-p-5006.html)
 
 ### Raspberry Pi
 

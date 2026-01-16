@@ -29,7 +29,7 @@ ArduCamil ei ole Grove-pesa, selle asemel ühendatakse see nii SPI kui ka I<sup>
 
 1. ArduCami alumised pistikud tuleb ühendada Wio Terminali GPIO-pistikutesse. Õigete pistikute leidmise hõlbustamiseks kinnitage Wio Terminaliga kaasas olev GPIO-pistiku kleebis pistikute ümber:
 
-    ![Wio Terminal koos GPIO-pistiku kleebisega](../../../../../translated_images/et/wio-terminal-pin-sticker.b90b1535937b84bd.png)
+    ![Wio Terminal koos GPIO-pistiku kleebisega](../../../../../translated_images/et/wio-terminal-pin-sticker.b90b1535937b84bd.webp)
 
 1. Kasutades hüppajajuhtmeid, tehke järgmised ühendused:
 
@@ -297,7 +297,7 @@ Wio Terminali saab nüüd programmeerida jäädvustama pilti, kui nuppu vajutata
 
 1. Mikroprotsessorid käitavad teie koodi pidevalt, seega pole lihtne käivitada midagi, näiteks foto tegemist, ilma sensorile reageerimata. Wio Terminalil on nupud, seega saab kaamera seadistada ühe nupu vajutamisega käivituma. Lisage järgmine kood `setup` funktsiooni lõppu, et konfigureerida C nupp (üks kolmest nupust ülaosas, kõige lähemal toitelülitile).
 
-    ![C nupp ülaosas, kõige lähemal toitelülitile](../../../../../translated_images/et/wio-terminal-c-button.73df3cb1c1445ea0.png)
+    ![C nupp ülaosas, kõige lähemal toitelülitile](../../../../../translated_images/et/wio-terminal-c-button.73df3cb1c1445ea0.webp)
 
     ```cpp
     pinMode(WIO_KEY_C, INPUT_PULLUP);

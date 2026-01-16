@@ -81,7 +81,7 @@ Jako užitečný krok při ladění můžete nejen vytisknout ohraničující r�
 
 1. Spusťte aplikaci s kamerou namířenou na nějaké zásoby na polici. V průzkumníku VS Code uvidíte soubor `image.jpg` a budete jej moci otevřít a zobrazit ohraničující rámečky.
 
-    ![4 plechovky rajčatového protlaku s ohraničujícími rámečky kolem každé plechovky](../../../../../translated_images/cs/rpi-stock-with-bounding-boxes.b5540e2ecb7cd49f.jpg)
+    ![4 plechovky rajčatového protlaku s ohraničujícími rámečky kolem každé plechovky](../../../../../translated_images/cs/rpi-stock-with-bounding-boxes.b5540e2ecb7cd49f.webp)
 
 ## Počítání zásob
 

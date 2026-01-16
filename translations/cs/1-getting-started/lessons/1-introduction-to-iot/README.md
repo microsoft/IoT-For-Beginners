@@ -79,7 +79,7 @@ Mikrokontrolér (také označovaný jako MCU, což je zkratka pro microcontrolle
 
 Mikrokontroléry jsou obvykle nízkonákladová výpočetní zařízení, přičemž průměrné ceny těch, které se používají v zakázkovém hardwaru, klesají na přibližně 0,50 USD, a některá zařízení jsou tak levná jako 0,03 USD. Vývojářské sady mohou začínat na ceně 4 USD, přičemž náklady rostou s přidáváním dalších funkcí. [Wio Terminal](https://www.seeedstudio.com/Wio-Terminal-p-4509.html), vývojářská sada mikrokontroléru od [Seeed studios](https://www.seeedstudio.com), která má senzory, aktuátory, WiFi a obrazovku, stojí přibližně 30 USD.
 
-![Wio Terminal](../../../../../translated_images/cs/wio-terminal.b8299ee16587db9a.png)
+![Wio Terminal](../../../../../translated_images/cs/wio-terminal.b8299ee16587db9a.webp)
 
 > 💁 Při hledání mikrokontrolérů na internetu buďte opatrní při hledání termínu **MCU**, protože vám to může přinést mnoho výsledků týkajících se Marvel Cinematic Universe, nikoliv mikrokontrolérů.
 
@@ -93,7 +93,7 @@ Vývojářské sady mikrokontrolérů obvykle přicházejí s dalšími vestavě
 
 Jednodeskový počítač je malé výpočetní zařízení, které má všechny prvky kompletního počítače obsažené na jedné malé desce. Tato zařízení mají specifikace blízké stolnímu nebo přenosnému PC nebo Macu, běží na plnohodnotném operačním systému, ale jsou malá, spotřebovávají méně energie a jsou podstatně levnější.
 
-![Raspberry Pi 4](../../../../../translated_images/cs/raspberry-pi-4.fd4590d308c3d456.jpg)
+![Raspberry Pi 4](../../../../../translated_images/cs/raspberry-pi-4.fd4590d308c3d456.webp)
 
 Raspberry Pi je jedním z nejoblíbenějších jednodeskových počítačů.
 

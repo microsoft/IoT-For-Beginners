@@ -17,7 +17,7 @@ Selle õppetunni sensor on **valgussensor**, mis kasutab [fotodioodi](https://wi
 
 Valgussensor on Wio Terminalisse sisse ehitatud ja nähtav läbi läbipaistva plastakna seadme tagaküljel.
 
-![Valgussensor Wio Terminali tagaküljel](../../../../../translated_images/et/wio-light-sensor.b1f529f3c95f5165.png)
+![Valgussensor Wio Terminali tagaküljel](../../../../../translated_images/et/wio-light-sensor.b1f529f3c95f5165.webp)
 
 ## Programmeeri valgussensor
 

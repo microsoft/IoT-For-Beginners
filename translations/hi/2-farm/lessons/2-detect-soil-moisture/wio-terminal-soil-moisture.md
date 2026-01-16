@@ -33,11 +33,11 @@ Grove मिट्टी नमी सेंसर को Wio Terminal के �
 
 1. Wio Terminal को अपने कंप्यूटर या अन्य पावर स्रोत से डिस्कनेक्ट करके रखें, और Grove केबल के दूसरे सिरे को Wio Terminal के स्क्रीन की ओर देखते हुए दाईं ओर के Grove सॉकेट में कनेक्ट करें। यह सॉकेट पावर बटन से सबसे दूर है।
 
-![Grove मिट्टी नमी सेंसर दाएं सॉकेट से जुड़ा हुआ](../../../../../translated_images/hi/wio-soil-moisture-sensor.46919b61c3f6cb74.png)
+![Grove मिट्टी नमी सेंसर दाएं सॉकेट से जुड़ा हुआ](../../../../../translated_images/hi/wio-soil-moisture-sensor.46919b61c3f6cb74.webp)
 
 1. मिट्टी नमी सेंसर को मिट्टी में डालें। इसमें एक 'उच्चतम स्थिति रेखा' होती है - सेंसर पर एक सफेद रेखा। सेंसर को इस रेखा तक डालें लेकिन इसे पार न करें।
 
-![मिट्टी में Grove मिट्टी नमी सेंसर](../../../../../translated_images/hi/soil-moisture-sensor-in-soil.bfad91002bda5e96.png)
+![मिट्टी में Grove मिट्टी नमी सेंसर](../../../../../translated_images/hi/soil-moisture-sensor-in-soil.bfad91002bda5e96.webp)
 
 1. अब आप Wio Terminal को अपने कंप्यूटर से कनेक्ट कर सकते हैं।
 

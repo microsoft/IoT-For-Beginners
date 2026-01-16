@@ -44,7 +44,7 @@ Taimed vajavad kasvamiseks vett. Nad imavad vett kogu taime ulatuses, kusjuures 
 * [Transpiratsioon](https://wikipedia.org/wiki/Transpiration) – taimed kasutavad vett süsinikdioksiidi difusiooniks õhust taime lehtede pooride kaudu. See protsess kannab ka toitaineid taime sees ja jahutab taime, sarnaselt inimeste higistamisele.
 * Struktuur – taimed vajavad vett ka oma struktuuri säilitamiseks – nad koosnevad 90% ulatuses veest (inimesed ainult 60%), ja see vesi hoiab rakud jäigana. Kui taimel pole piisavalt vett, hakkab ta närbuma ja lõpuks sureb.
 
-![Vesi imendub taime juurte kaudu ja kantakse taime sees, kasutades seda fotosünteesiks ja struktuuri säilitamiseks](../../../../../translated_images/et/transpiration.b735aa34e4372e65.png)
+![Vesi imendub taime juurte kaudu ja kantakse taime sees, kasutades seda fotosünteesiks ja struktuuri säilitamiseks](../../../../../translated_images/et/transpiration.b735aa34e4372e65.webp)
 
 ✅ Uuri: kui palju vett kaotatakse transpiratsiooni käigus?
 
@@ -58,7 +58,7 @@ Mulla niiskuse mõõtmiseks on mitmeid erinevaid sensoreid:
 
 * Takistuslik – takistuslik sensor sisaldab kahte sondi, mis sisestatakse mulda. Elektrivool saadetakse ühele sondile ja võetakse vastu teise poolt. Sensor mõõdab mulla takistust – kui palju vool väheneb teisel sondil. Vesi juhib elektrit hästi, seega mida suurem on mulla veesisaldus, seda väiksem on takistus.
 
-    ![Takistuslik mulla niiskuse sensor](../../../../../translated_images/et/resistive-soil-moisture-sensor.728a138a3d109e06.png)
+    ![Takistuslik mulla niiskuse sensor](../../../../../translated_images/et/resistive-soil-moisture-sensor.728a138a3d109e06.webp)
 
     > 💁 Takistusliku mulla niiskuse sensori saab ehitada, kasutades kahte metalltükki, näiteks naelu, mis on paigutatud paar sentimeetrit üksteisest, ja mõõtes nende vahel takistust multimeetriga.
 
@@ -147,7 +147,7 @@ UART hõlmab füüsilist vooluringi, mis võimaldab kahel seadmel suhelda. Igal 
 * Seade 1 saadab andmeid oma Tx-pesast, mida seade 2 võtab vastu oma Rx-pesaga
 * Seade 1 võtab vastu andmeid oma Rx-pesast, mida seade 2 saadab oma Tx-pesast
 
-![UART, kus ühe kiibi Tx-pesa on ühendatud teise kiibi Rx-pesaga ja vastupidi](../../../../../translated_images/et/uart.d0dbd3fb9e3728c6.png)
+![UART, kus ühe kiibi Tx-pesa on ühendatud teise kiibi Rx-pesaga ja vastupidi](../../../../../translated_images/et/uart.d0dbd3fb9e3728c6.webp)
 
 > 🎓 Andmed saadetakse üks bitt korraga, mida nimetatakse *järjestikuseks* suhtluseks. Enamik operatsioonisüsteeme ja mikrokontrollereid omavad *järjestikpesi*, st ühendusi, mis suudavad saata ja vastu võtta järjestikandmeid, mis on teie koodile kättesaadavad.
 
@@ -176,7 +176,7 @@ SPI kontrollerid kasutavad 3 juhtme, koos ühe lisajuhtmega perifeeria kohta. Pe
 | SCLK | Järjestikkell | See juhe saadab kellasignaali kiirusel, mille määrab kontroller. |
 | CS   | Kiibi valik | Kontrolleril on mitu juhet, üks perifeeria kohta, ja iga juhe ühendub vastava perifeeria CS juhtmega. |
 
-![SPI ühe kontrolleri ja kahe perifeeriaga](../../../../../translated_images/et/spi.297431d6f98b386b.png)
+![SPI ühe kontrolleri ja kahe perifeeriaga](../../../../../translated_images/et/spi.297431d6f98b386b.webp)
 
 CS juhet kasutatakse ühe perifeeria korraga aktiveerimiseks, suheldes COPI ja CIPO juhtmete kaudu. Kui kontroller peab perifeeriat vahetama, deaktiveerib ta CS juhtme, mis on ühendatud praegu aktiivse perifeeriaga, ja seejärel aktiveerib juhtme, mis on ühendatud perifeeriaga, millega ta soovib järgmisena suhelda.
 
@@ -237,13 +237,13 @@ Pinnase niiskust mõõdetakse gravimeetrilise või mahulise veesisalduse abil.
 
 Pinnase niiskuse sensorid mõõdavad elektrilist takistust või mahtuvust - see varieerub mitte ainult pinnase niiskuse, vaid ka pinnase tüübi järgi, kuna pinnase komponendid võivad muuta selle elektrilisi omadusi. Ideaalis tuleks sensorid kalibreerida - see tähendab sensori näitude võrdlemist teaduslikuma lähenemisviisi abil saadud mõõtmistega. Näiteks labor võib arvutada gravimeetrilise pinnase niiskuse, kasutades konkreetse põllu proove paar korda aastas, ja neid numbreid kasutatakse sensori kalibreerimiseks, sobitades sensori näidu gravimeetrilise pinnase niiskusega.
 
-![Graafik pingest vs pinnase niiskusesisaldus](../../../../../translated_images/et/soil-moisture-to-voltage.df86d80cda158700.png)
+![Graafik pingest vs pinnase niiskusesisaldus](../../../../../translated_images/et/soil-moisture-to-voltage.df86d80cda158700.webp)
 
 Ülaltoodud graafik näitab, kuidas sensorit kalibreerida. Pinge salvestatakse pinnaseproovi jaoks, mida seejärel mõõdetakse laboris, võrreldes niisket kaalu kuiva kaaluga (mõõtes kaalu märjana, seejärel kuivatades ahjus ja mõõtes kuivana). Kui on tehtud mõned mõõtmised, saab need graafikule joonistada ja punktidele sobitada joone. Seda joont saab seejärel kasutada pinnase niiskuse sensori näitude teisendamiseks IoT-seadme abil tegelikeks pinnase niiskuse mõõtmisteks.
 
 💁 Resistiivsete pinnase niiskuse sensorite puhul pinge suureneb, kui pinnase niiskus suureneb. Mahtuvuslike pinnase niiskuse sensorite puhul pinge väheneb, kui pinnase niiskus suureneb, seega nende graafikud kalduksid allapoole, mitte ülespoole.
 
-![Pinnase niiskuse väärtus, mis on graafikult interpoleeritud](../../../../../translated_images/et/soil-moisture-to-voltage-with-reading.681cb3e1f8b68caf.png)
+![Pinnase niiskuse väärtus, mis on graafikult interpoleeritud](../../../../../translated_images/et/soil-moisture-to-voltage-with-reading.681cb3e1f8b68caf.webp)
 
 Ülaltoodud graafik näitab pinnase niiskuse sensori pingemõõtmist ja järgides seda graafiku joonele, saab arvutada tegeliku pinnase niiskuse.
 

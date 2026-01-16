@@ -35,7 +35,7 @@ Schließen Sie den Time of Flight Sensor an.
 
 1. Verbinden Sie, während das Wio Terminal nicht mit Ihrem Computer oder einer anderen Stromquelle verbunden ist, das andere Ende des Grove-Kabels mit der linken Grove-Buchse des Wio Terminals, wenn Sie auf den Bildschirm schauen. Dies ist die Buchse, die sich am nächsten zum Ein-/Ausschalter befindet. Es handelt sich um eine kombinierte digitale und I²C-Buchse.
 
-![Der Grove Time of Flight Sensor, angeschlossen an die linke Buchse](../../../../../translated_images/de/wio-time-of-flight-sensor.c4c182131d2ea73d.png)
+![Der Grove Time of Flight Sensor, angeschlossen an die linke Buchse](../../../../../translated_images/de/wio-time-of-flight-sensor.c4c182131d2ea73d.webp)
 
 1. Sie können das Wio Terminal nun mit Ihrem Computer verbinden.
 
@@ -101,7 +101,7 @@ Das Wio Terminal kann jetzt so programmiert werden, dass es den angeschlossenen 
 
     Der Entfernungsmesser befindet sich auf der Rückseite des Sensors. Achten Sie also darauf, die richtige Seite zu verwenden, wenn Sie die Entfernung messen.
 
-    ![Der Entfernungsmesser auf der Rückseite des Time of Flight Sensors, der auf eine Banane zeigt](../../../../../translated_images/de/time-of-flight-banana.079921ad8b1496e4.png)
+    ![Der Entfernungsmesser auf der Rückseite des Time of Flight Sensors, der auf eine Banane zeigt](../../../../../translated_images/de/time-of-flight-banana.079921ad8b1496e4.webp)
 
 > 💁 Sie finden diesen Code im Ordner [code-proximity/wio-terminal](../../../../../4-manufacturing/lessons/4-trigger-fruit-detector/code-proximity/wio-terminal).
 

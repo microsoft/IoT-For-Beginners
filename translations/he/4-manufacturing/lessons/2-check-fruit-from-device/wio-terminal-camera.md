@@ -29,7 +29,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 1. הפינים בבסיס ה-ArduCam צריכים להיות מחוברים לפיני GPIO ב-Wio Terminal. כדי להקל על מציאת הפינים הנכונים, הצמד את מדבקת פיני GPIO שמגיעה עם ה-Wio Terminal סביב הפינים:
 
-    ![ה-Wio Terminal עם מדבקת פיני GPIO](../../../../../translated_images/he/wio-terminal-pin-sticker.b90b1535937b84bd.png)
+    ![ה-Wio Terminal עם מדבקת פיני GPIO](../../../../../translated_images/he/wio-terminal-pin-sticker.b90b1535937b84bd.webp)
 
 1. באמצעות חוטי ג'אמפר, בצע את החיבורים הבאים:
 
@@ -297,7 +297,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 1. מיקרו-בקרים מריצים את הקוד שלך ברציפות, כך שלא קל להפעיל משהו כמו צילום תמונה מבלי להגיב לחיישן. ל-Wio Terminal יש כפתורים, כך שניתן להגדיר את המצלמה להיות מופעלת על ידי אחד הכפתורים. הוסף את הקוד הבא לסוף פונקציית `setup` כדי להגדיר את כפתור C (אחד משלושת הכפתורים בחלק העליון, הקרוב ביותר למתג ההפעלה).
 
-    ![כפתור C בחלק העליון הקרוב ביותר למתג ההפעלה](../../../../../translated_images/he/wio-terminal-c-button.73df3cb1c1445ea0.png)
+    ![כפתור C בחלק העליון הקרוב ביותר למתג ההפעלה](../../../../../translated_images/he/wio-terminal-c-button.73df3cb1c1445ea0.webp)
 
     ```cpp
     pinMode(WIO_KEY_C, INPUT_PULLUP);

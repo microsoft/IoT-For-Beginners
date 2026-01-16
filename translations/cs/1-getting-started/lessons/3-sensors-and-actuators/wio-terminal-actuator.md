@@ -51,7 +51,7 @@ Připojte LED.
 
     > 💁 Pravá Grove zásuvka může být použita s analogovými nebo digitálními senzory a akčními členy. Levá zásuvka je pouze pro digitální senzory a akční členy.
 
-![Grove LED připojená k pravé zásuvce](../../../../../translated_images/cs/wio-led.265a1897e72d7f21.png)
+![Grove LED připojená k pravé zásuvce](../../../../../translated_images/cs/wio-led.265a1897e72d7f21.webp)
 
 ## Naprogramujte noční světlo
 

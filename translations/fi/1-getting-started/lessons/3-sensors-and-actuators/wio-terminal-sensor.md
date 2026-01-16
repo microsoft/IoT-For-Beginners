@@ -17,7 +17,7 @@ Tämän oppitunnin sensori on **valosensori**, joka käyttää [valodiodia](http
 
 Valosensori on sisäänrakennettu Wio Terminaliin ja näkyy laitteen takana olevan kirkkaan muovi-ikkunan läpi.
 
-![Valosensori Wio Terminalin takana](../../../../../translated_images/fi/wio-light-sensor.b1f529f3c95f5165.png)
+![Valosensori Wio Terminalin takana](../../../../../translated_images/fi/wio-light-sensor.b1f529f3c95f5165.webp)
 
 ## Ohjelmoi valosensori
 
