@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # 使用物联网设备进行语音识别
 
-![本课的手绘笔记概览](../../../../../translated_images/lesson-21.e34de51354d6606fb5ee08d8c89d0222eea0a2a7aaf744a8805ae847c4f69dc4.zh.jpg)
+![本课的手绘笔记概览](../../../../../translated_images/zh/lesson-21.e34de51354d6606fb5ee08d8c89d0222eea0a2a7aaf744a8805ae847c4f69dc4.jpg)
 
 > 手绘笔记由 [Nitya Narasimhan](https://github.com/nitya) 提供。点击图片查看更大版本。
 
@@ -60,19 +60,19 @@ CO_OP_TRANSLATOR_METADATA:
 
     动圈麦克风无需电源即可工作，电信号完全由麦克风生成。
 
-    ![Patti Smith 使用 Shure SM58（动圈心形类型）麦克风演唱](../../../../../translated_images/dynamic-mic.8babac890a2d80dfb0874b5bf37d4b851fe2aeb9da6fd72945746176978bf3bb.zh.jpg)
+    ![Patti Smith 使用 Shure SM58（动圈心形类型）麦克风演唱](../../../../../translated_images/zh/dynamic-mic.8babac890a2d80dfb0874b5bf37d4b851fe2aeb9da6fd72945746176978bf3bb.jpg)
 
 * 带状麦克风 - 带状麦克风与动圈麦克风类似，但它们使用金属带代替振膜。金属带在磁场中移动时会产生电流。与动圈麦克风一样，带状麦克风无需电源即可工作。
 
-    ![美国演员 Edmund Lowe 在广播麦克风（标有 NBC 蓝网）前站立，手持剧本，1942年](../../../../../translated_images/ribbon-mic.eacc8e092c7441ca.zh.jpg)
+    ![美国演员 Edmund Lowe 在广播麦克风（标有 NBC 蓝网）前站立，手持剧本，1942年](../../../../../translated_images/zh/ribbon-mic.eacc8e092c7441ca.jpg)
 
 * 电容麦克风 - 电容麦克风有一个薄金属振膜和一个固定的金属背板。电流会施加到这两个部件上，当振膜振动时，板之间的静电荷发生变化，从而生成信号。电容麦克风需要电源才能工作，这种电源被称为 *幻象电源*。
 
-    ![AKG Acoustics 的 C451B 小振膜电容麦克风](../../../../../translated_images/condenser-mic.6f6ed5b76ca19e0ec3fd0c544601542d4479a6cb7565db336de49fbbf69f623e.zh.jpg)
+    ![AKG Acoustics 的 C451B 小振膜电容麦克风](../../../../../translated_images/zh/condenser-mic.6f6ed5b76ca19e0ec3fd0c544601542d4479a6cb7565db336de49fbbf69f623e.jpg)
 
 * MEMS 麦克风 - 微机电系统麦克风，简称 MEMS，是芯片上的麦克风。它们在硅芯片上蚀刻了一个压力敏感的振膜，工作原理类似于电容麦克风。这些麦克风可以非常小，并集成到电路中。
 
-    ![电路板上的 MEMS 麦克风](../../../../../translated_images/mems-microphone.80574019e1f5e4d9ee72fed720ecd25a39fc2969c91355d17ebb24ba4159e4c4.zh.png)
+    ![电路板上的 MEMS 麦克风](../../../../../translated_images/zh/mems-microphone.80574019e1f5e4d9ee72fed720ecd25a39fc2969c91355d17ebb24ba4159e4c4.png)
 
     在上图中，标有 **LEFT** 的芯片是一个 MEMS 麦克风，其振膜宽度不到一毫米。
 
@@ -84,7 +84,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 > 🎓 采样是将音频信号转换为数字值，表示该时刻的信号。
 
-![显示信号的折线图，固定间隔处有离散点](../../../../../translated_images/sampling.6f4fadb3f2d9dfe7.zh.png)
+![显示信号的折线图，固定间隔处有离散点](../../../../../translated_images/zh/sampling.6f4fadb3f2d9dfe7.png)
 
 数字音频使用脉冲编码调制（PCM）进行采样。PCM 通过读取信号的电压，并根据定义的大小选择最接近该电压的离散值。
 
@@ -168,7 +168,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 ## 将语音转换为文字
 
-![语音服务标志](../../../../../translated_images/azure-speech-logo.a1f08c4befb0159f2cb5d692d3baf5b599e7b44759d316da907bda1508f46a4a.zh.png)
+![语音服务标志](../../../../../translated_images/zh/azure-speech-logo.a1f08c4befb0159f2cb5d692d3baf5b599e7b44759d316da907bda1508f46a4a.png)
 
 就像之前项目中的图像分类一样，有一些预构建的AI服务可以将音频文件中的语音转换为文字。其中一个服务是语音服务，它是认知服务的一部分，你可以在应用程序中使用这些预构建的AI服务。
 

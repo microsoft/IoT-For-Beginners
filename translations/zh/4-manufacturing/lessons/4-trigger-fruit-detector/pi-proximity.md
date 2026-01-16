@@ -29,13 +29,13 @@ Grove 飞行时间传感器可以连接到树莓派。
 
 连接飞行时间传感器。
 
-![一个 Grove 飞行时间传感器](../../../../../translated_images/grove-time-of-flight-sensor.d82ff2165bfded9f485de54d8d07195a6270a602696825fca19f629ddfe94e86.zh.png)
+![一个 Grove 飞行时间传感器](../../../../../translated_images/zh/grove-time-of-flight-sensor.d82ff2165bfded9f485de54d8d07195a6270a602696825fca19f629ddfe94e86.png)
 
 1. 将 Grove 电缆的一端插入飞行时间传感器上的插座。电缆只能以一种方向插入。
 
 1. 在树莓派断电的情况下，将 Grove 电缆的另一端连接到 Grove Base Hat 上标有 **I²C** 的插座之一。这些插座位于底部一排，与 GPIO 引脚相对的一端，靠近摄像头电缆插槽。
 
-![Grove 飞行时间传感器连接到 I²C 插座](../../../../../translated_images/pi-time-of-flight-sensor.58c8dc04eb3bfb57.zh.png)
+![Grove 飞行时间传感器连接到 I²C 插座](../../../../../translated_images/zh/pi-time-of-flight-sensor.58c8dc04eb3bfb57.png)
 
 ## 编程飞行时间传感器
 
@@ -106,7 +106,7 @@ Grove 飞行时间传感器可以连接到树莓派。
 
     测距仪位于传感器背面，因此在测量距离时请确保使用正确的一侧。
 
-    ![飞行时间传感器背面的测距仪对准一根香蕉](../../../../../translated_images/time-of-flight-banana.079921ad8b1496e4.zh.png)
+    ![飞行时间传感器背面的测距仪对准一根香蕉](../../../../../translated_images/zh/time-of-flight-banana.079921ad8b1496e4.png)
 
 > 💁 你可以在 [code-proximity/pi](../../../../../4-manufacturing/lessons/4-trigger-fruit-detector/code-proximity/pi) 文件夹中找到这段代码。
 

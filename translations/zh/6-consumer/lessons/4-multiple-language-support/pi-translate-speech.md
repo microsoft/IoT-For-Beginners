@@ -34,7 +34,7 @@ CO_OP_TRANSLATOR_METADATA:
     >
     > 例如，如果您用英语训练 LUIS，但希望使用法语作为用户语言，您可以使用必应翻译将像“设置一个2分27秒的计时器”这样的句子从英语翻译成法语，然后使用 **听翻译** 按钮将翻译内容通过麦克风说出。
     >
-    > ![必应翻译上的听翻译按钮](../../../../../translated_images/bing-translate.348aa796d6efe2a92f41ea74a5cf42bb4c63d6faaa08e7f46924e072a35daa48.zh.png)
+    > ![必应翻译上的听翻译按钮](../../../../../translated_images/zh/bing-translate.348aa796d6efe2a92f41ea74a5cf42bb4c63d6faaa08e7f46924e072a35daa48.png)
 
 1. 在 `speech_api_key` 下添加翻译 API 密钥：
 

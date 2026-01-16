@@ -81,7 +81,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 1. 运行应用程序，并将摄像头对准货架上的一些库存。您将在 VS Code 的资源管理器中看到 `image.jpg` 文件，并可以选择它查看边界框。
 
-    ![4 罐番茄酱，每罐周围都有边界框](../../../../../translated_images/rpi-stock-with-bounding-boxes.b5540e2ecb7cd49f.zh.jpg)
+    ![4 罐番茄酱，每罐周围都有边界框](../../../../../translated_images/zh/rpi-stock-with-bounding-boxes.b5540e2ecb7cd49f.jpg)
 
 ## 统计库存
 

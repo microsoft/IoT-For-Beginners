@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # 设置计时器并提供语音反馈
 
-![本课的手绘笔记概览](../../../../../translated_images/lesson-23.f38483e1d4df4828990d3f02d60e46c978b075d384ae7cb4f7bab738e107c850.zh.jpg)
+![本课的手绘笔记概览](../../../../../translated_images/zh/lesson-23.f38483e1d4df4828990d3f02d60e46c978b075d384ae7cb4f7bab738e107c850.jpg)
 
 > 手绘笔记由 [Nitya Narasimhan](https://github.com/nitya) 提供。点击图片查看更大版本。
 
@@ -37,7 +37,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 文本转语音，顾名思义，是将文本转换为包含该文本的语音的过程。其基本原理是将文本中的单词分解为构成声音的基本单位（称为音素），然后通过预录音频或AI模型生成音频，将这些声音拼接起来。
 
-![典型文本转语音系统的三个阶段](../../../../../translated_images/tts-overview.193843cf3f5ee09f.zh.png)
+![典型文本转语音系统的三个阶段](../../../../../translated_images/zh/tts-overview.193843cf3f5ee09f.png)
 
 文本转语音系统通常分为三个阶段：
 

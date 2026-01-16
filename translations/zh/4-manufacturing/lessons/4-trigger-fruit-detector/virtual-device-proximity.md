@@ -45,11 +45,11 @@ CO_OP_TRANSLATOR_METADATA:
 
     1. 点击 **Add** 按钮以创建距离传感器。
 
-    ![距离传感器设置](../../../../../translated_images/counterfit-create-distance-sensor.967c9fb98f27888d95920c9784d004c972490eb71f70397fe13bd70a79a879a3.zh.png)
+    ![距离传感器设置](../../../../../translated_images/zh/counterfit-create-distance-sensor.967c9fb98f27888d95920c9784d004c972490eb71f70397fe13bd70a79a879a3.png)
 
     距离传感器将被创建并显示在传感器列表中。
 
-    ![已创建的距离传感器](../../../../../translated_images/counterfit-distance-sensor.079eefeeea0b68afc36431ce8fcbe2f09a7e4916ed1cd5cb30e696db53bc18fa.zh.png)
+    ![已创建的距离传感器](../../../../../translated_images/zh/counterfit-distance-sensor.079eefeeea0b68afc36431ce8fcbe2f09a7e4916ed1cd5cb30e696db53bc18fa.png)
 
 ## 编程距离传感器
 

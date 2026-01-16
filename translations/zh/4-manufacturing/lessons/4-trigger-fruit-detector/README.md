@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # 从传感器触发水果质量检测
 
-![本课的手绘笔记概览](../../../../../translated_images/lesson-18.92c32ed1d354caa5a54baa4032cf0b172d4655e8e326ad5d46c558a0def15365.zh.jpg)
+![本课的手绘笔记概览](../../../../../translated_images/zh/lesson-18.92c32ed1d354caa5a54baa4032cf0b172d4655e8e326ad5d46c558a0def15365.jpg)
 
 > 手绘笔记由 [Nitya Narasimhan](https://github.com/nitya) 提供。点击图片查看更大版本。
 
@@ -48,7 +48,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 ### 参考物联网架构
 
-![参考物联网架构](../../../../../translated_images/iot-reference-architecture.2278b98b55c6d4e89bde18eada3688d893861d43507641804dd2f9d3079cfaa0.zh.png)
+![参考物联网架构](../../../../../translated_images/zh/iot-reference-architecture.2278b98b55c6d4e89bde18eada3688d893861d43507641804dd2f9d3079cfaa0.png)
 
 上图展示了一个参考物联网架构。
 
@@ -58,7 +58,7 @@ CO_OP_TRANSLATOR_METADATA:
 * **洞察** 来自无服务器应用程序，或存储数据上的分析。
 * **行动** 可以是发送给设备的命令，或数据的可视化以帮助人类做出决策。
 
-![参考物联网架构](../../../../../translated_images/iot-reference-architecture-azure.0b8d2161af924cb18ae48a8558a19541cca47f27264851b5b7e56d7b8bb372ac.zh.png)
+![参考物联网架构](../../../../../translated_images/zh/iot-reference-architecture-azure.0b8d2161af924cb18ae48a8558a19541cca47f27264851b5b7e56d7b8bb372ac.png)
 
 上图展示了这些课程中涉及的一些组件和服务，以及它们如何在参考物联网架构中链接在一起。
 
@@ -98,7 +98,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 ### 应用原型设计
 
-![水果质量检测的参考物联网架构](../../../../../translated_images/iot-reference-architecture-fruit-quality.cc705f121c3b6fa71c800d9630935ac34bc08223a04601e35f41d5e9b5dd5207.zh.png)
+![水果质量检测的参考物联网架构](../../../../../translated_images/zh/iot-reference-architecture-fruit-quality.cc705f121c3b6fa71c800d9630935ac34bc08223a04601e35f41d5e9b5dd5207.png)
 
 上图展示了该原型应用的参考架构。
 
@@ -115,7 +115,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 物联网设备需要某种触发器来指示水果准备好进行分类。一个触发器可以是通过测量传感器到水果的距离来判断水果是否在传送带上的正确位置。
 
-![接近传感器通过激光束测量到物体（如香蕉）的距离，并计算光束反射回来的时间](../../../../../translated_images/proximity-sensor.f5cd752c77fb62fe.zh.png)
+![接近传感器通过激光束测量到物体（如香蕉）的距离，并计算光束反射回来的时间](../../../../../translated_images/zh/proximity-sensor.f5cd752c77fb62fe.png)
 
 接近传感器可以用来测量传感器到物体的距离。它们通常发射电磁辐射束，例如激光束或红外光，然后检测从物体反射回来的辐射。发送激光束和信号反射回来的时间间隔可以用来计算到传感器的距离。
 
@@ -133,7 +133,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 原型水果检测器有多个组件相互通信。
 
-![组件之间的通信](../../../../../translated_images/fruit-quality-detector-message-flow.adf2a65da8fd8741ac7af11361574de89adc126785d67606bb4d2ec00467e380.zh.png)
+![组件之间的通信](../../../../../translated_images/zh/fruit-quality-detector-message-flow.adf2a65da8fd8741ac7af11361574de89adc126785d67606bb4d2ec00467e380.png)
 
 * 接近传感器测量到水果的距离并将数据发送到 IoT Hub
 * 控制摄像头的命令从 IoT Hub 发送到摄像头设备

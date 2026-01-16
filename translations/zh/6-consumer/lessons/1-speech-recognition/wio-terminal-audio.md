@@ -19,7 +19,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 ✅ 在 [Wikipedia 的直接内存访问页面](https://wikipedia.org/wiki/Direct_memory_access) 上了解更多关于 DMA 的信息。
 
-![音频从麦克风进入 ADC，然后到 DMAC。DMAC 将数据写入一个缓冲区。当该缓冲区满时，数据被处理，DMAC 写入第二个缓冲区](../../../../../translated_images/dmac-adc-buffers.4509aee49145c90bc2e1be472b8ed2ddfcb2b6a81ad3e559114aca55f5fff759.zh.png)
+![音频从麦克风进入 ADC，然后到 DMAC。DMAC 将数据写入一个缓冲区。当该缓冲区满时，数据被处理，DMAC 写入第二个缓冲区](../../../../../translated_images/zh/dmac-adc-buffers.4509aee49145c90bc2e1be472b8ed2ddfcb2b6a81ad3e559114aca55f5fff759.png)
 
 DMAC 可以以固定间隔从 ADC 捕获音频，例如以每秒 16,000 次的速率捕获 16KHz 音频。它可以将捕获的数据写入预分配的内存缓冲区，当缓冲区满时，通知您的代码进行处理。使用此内存可能会延迟音频捕获，但您可以设置多个缓冲区。DMAC 写入缓冲区 1，当缓冲区 1 满时，通知您的代码处理缓冲区 1，同时 DMAC 写入缓冲区 2。当缓冲区 2 满时，它通知您的代码，然后返回写入缓冲区 1。这样，只要您在填满一个缓冲区所需的时间内处理每个缓冲区，就不会丢失任何数据。
 

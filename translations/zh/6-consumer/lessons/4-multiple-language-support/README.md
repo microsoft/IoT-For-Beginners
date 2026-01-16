@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # 支持多语言
 
-![本课的手绘笔记概览](../../../../../translated_images/lesson-24.4246968ed058510ab275052e87ef9aa89c7b2f938915d103c605c04dc6cd5bb7.zh.jpg)
+![本课的手绘笔记概览](../../../../../translated_images/zh/lesson-24.4246968ed058510ab275052e87ef9aa89c7b2f938915d103c605c04dc6cd5bb7.jpg)
 
 > 手绘笔记由 [Nitya Narasimhan](https://github.com/nitya) 提供。点击图片查看大图。
 
@@ -83,7 +83,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 ### 认知服务语音服务
 
-![语音服务标志](../../../../../translated_images/azure-speech-logo.a1f08c4befb0159f2cb5d692d3baf5b599e7b44759d316da907bda1508f46a4a.zh.png)
+![语音服务标志](../../../../../translated_images/zh/azure-speech-logo.a1f08c4befb0159f2cb5d692d3baf5b599e7b44759d316da907bda1508f46a4a.png)
 
 你在过去几课中使用的语音服务具有语音识别的翻译功能。当你识别语音时，可以请求不仅以相同语言显示的文本，还可以请求其他语言的文本。
 
@@ -91,7 +91,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 ### 认知服务翻译器服务
 
-![翻译器服务标志](../../../../../translated_images/azure-translator-logo.c6ed3a4a433edfd2f11577eca105412c50b8396b194cbbd730723dd1d0793bcd.zh.png)
+![翻译器服务标志](../../../../../translated_images/zh/azure-translator-logo.c6ed3a4a433edfd2f11577eca105412c50b8396b194cbbd730723dd1d0793bcd.png)
 
 翻译器服务是一个专门的翻译服务，可以将文本从一种语言翻译成一种或多种目标语言。除了翻译，它还支持许多额外功能，包括屏蔽不雅词汇。它还允许你为特定单词或句子提供特定翻译，以处理你不希望翻译的术语，或具有特定公认翻译的术语。
 
@@ -130,7 +130,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 在理想情况下，你的整个应用程序应该能够理解尽可能多的语言，从语音识别到语言理解，再到语音响应。这需要大量工作，而翻译服务可以加快应用程序的交付时间。
 
-![一个智能计时器架构，将日语翻译成英语，在英语中处理，然后再翻译回日语](../../../../../translated_images/translated-smart-timer.08ac20057fdc5c37.zh.png)
+![一个智能计时器架构，将日语翻译成英语，在英语中处理，然后再翻译回日语](../../../../../translated_images/zh/translated-smart-timer.08ac20057fdc5c37.png)
 
 想象你正在构建一个智能计时器，它从头到尾使用英语，理解英语语音并将其转换为文本，在英语中运行语言理解，用英语构建响应并用英语语音回复。如果你想添加日语支持，可以先将日语语音翻译成英语文本，然后保持应用程序的核心部分不变，再将响应文本翻译成日语，最后用日语语音回复。这将使你能够快速添加日语支持，之后可以扩展为提供完整的端到端日语支持。
 

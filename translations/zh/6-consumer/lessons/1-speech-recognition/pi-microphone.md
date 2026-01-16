@@ -43,7 +43,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 1. 如果您使用的是ReSpeaker 2-Mics Pi HAT，可以移除Grove基座帽，然后将ReSpeaker帽安装到位。
 
-    ![带有ReSpeaker帽的树莓派](../../../../../translated_images/pi-respeaker-hat.f00fabe7dd039a93e2e0aa0fc946c9af0c6a9eb17c32fa1ca097fb4e384f69f0.zh.png)
+    ![带有ReSpeaker帽的树莓派](../../../../../translated_images/zh/pi-respeaker-hat.f00fabe7dd039a93e2e0aa0fc946c9af0c6a9eb17c32fa1ca097fb4e384f69f0.png)
 
     在本课程后续部分，您将需要一个Grove按钮，但此帽子内置了一个按钮，因此不需要Grove基座帽。
 

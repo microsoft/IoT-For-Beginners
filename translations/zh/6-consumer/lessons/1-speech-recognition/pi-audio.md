@@ -25,13 +25,13 @@ CO_OP_TRANSLATOR_METADATA:
 
 #### 任务 - 连接按钮
 
-![一个 Grove 按钮](../../../../../translated_images/grove-button.a70cfbb809a8563681003250cf5b06d68cdcc68624f9e2f493d5a534ae2da1e5.zh.png)
+![一个 Grove 按钮](../../../../../translated_images/zh/grove-button.a70cfbb809a8563681003250cf5b06d68cdcc68624f9e2f493d5a534ae2da1e5.png)
 
 1. 将 Grove 电缆的一端插入按钮模块上的插座。它只能以一种方式插入。
 
 1. 在树莓派断电的情况下，将 Grove 电缆的另一端连接到 Grove 基座 HAT 上标记为 **D5** 的数字插座。这个插座位于 GPIO 引脚旁边的一排插座中，从左数第二个。
 
-![Grove 按钮连接到 D5 插座](../../../../../translated_images/pi-button.c7a1a4f55943341ce1baf1057658e9a205804d4131d258e820c93f951df0abf3.zh.png)
+![Grove 按钮连接到 D5 插座](../../../../../translated_images/zh/pi-button.c7a1a4f55943341ce1baf1057658e9a205804d4131d258e820c93f951df0abf3.png)
 
 ## 捕捉音频
 

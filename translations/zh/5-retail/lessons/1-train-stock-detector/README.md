@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # 训练库存检测器
 
-![本课的手绘笔记概览](../../../../../translated_images/lesson-19.cf6973cecadf080c4b526310620dc4d6f5994c80fb0139c6f378cc9ca2d435cd.zh.jpg)
+![本课的手绘笔记概览](../../../../../translated_images/zh/lesson-19.cf6973cecadf080c4b526310620dc4d6f5994c80fb0139c6f378cc9ca2d435cd.jpg)
 
 > 手绘笔记由 [Nitya Narasimhan](https://github.com/nitya) 提供。点击图片查看大图。
 
@@ -45,7 +45,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 图像分类是对整个图像进行分类——判断整个图像与每个标签匹配的概率。你会得到模型训练时使用的每个标签的概率。
 
-![腰果和番茄酱的图像分类](../../../../../translated_images/image-classifier-cashews-tomato.bc2e16ab8f05cf9ac0f59f73e32efc4227f9a5b601b90b2c60f436694547a965.zh.png)
+![腰果和番茄酱的图像分类](../../../../../translated_images/zh/image-classifier-cashews-tomato.bc2e16ab8f05cf9ac0f59f73e32efc4227f9a5b601b90b2c60f436694547a965.png)
 
 在上面的例子中，两个图像使用一个训练过的模型进行分类，该模型可以分类腰果罐或番茄酱罐。第一个图像是一个腰果罐，图像分类器的结果如下：
 
@@ -69,7 +69,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 > 🎓 *边界框* 是围绕对象的框。
 
-![腰果和番茄酱的对象检测](../../../../../translated_images/object-detector-cashews-tomato.1af7c26686b4db0e709754aeb196f4e73271f54e2085db3bcccb70d4a0d84d97.zh.png)
+![腰果和番茄酱的对象检测](../../../../../translated_images/zh/object-detector-cashews-tomato.1af7c26686b4db0e709754aeb196f4e73271f54e2085db3bcccb70d4a0d84d97.png)
 
 上图中包含一个腰果罐和三个番茄酱罐。对象检测器检测到了腰果罐，返回了包含腰果罐的边界框以及该边界框包含该对象的概率（此处为97.6%）。对象检测器还检测到了三个番茄酱罐，并提供了三个单独的边界框，每个检测到的罐子都有一个概率，表示该边界框包含一个番茄酱罐。
 
@@ -120,7 +120,7 @@ CO_OP_TRANSLATOR_METADATA:
 
     创建项目时，请确保使用之前创建的 `stock-detector-training` 资源。选择 *对象检测* 项目类型，并选择 *货架上的商品* 域。
 
-    ![Custom Vision 项目设置，名称设置为 fruit-quality-detector，无描述，资源设置为 fruit-quality-detector-training，项目类型设置为分类，分类类型设置为多类，域设置为食品](../../../../../translated_images/custom-vision-create-object-detector-project.32d4fb9aa8e7e7375f8a799bfce517aca970f2cb65e42d4245c5e635c734ab29.zh.png)
+    ![Custom Vision 项目设置，名称设置为 fruit-quality-detector，无描述，资源设置为 fruit-quality-detector-training，项目类型设置为分类，分类类型设置为多类，域设置为食品](../../../../../translated_images/zh/custom-vision-create-object-detector-project.32d4fb9aa8e7e7375f8a799bfce517aca970f2cb65e42d4245c5e635c734ab29.png)
 
     ✅ *货架上的商品* 域专门用于检测货架上的库存。阅读更多关于不同域的信息，请参阅 [Microsoft Docs 中的选择域文档](https://docs.microsoft.com/azure/cognitive-services/custom-vision-service/select-domain?WT.mc_id=academic-17441-jabenn#object-detection)。
 
@@ -142,11 +142,11 @@ CO_OP_TRANSLATOR_METADATA:
 
 1. 按照 Microsoft 文档中 [构建对象检测器快速入门的上传和标记图像部分](https://docs.microsoft.com/azure/cognitive-services/custom-vision-service/get-started-build-detector?WT.mc_id=academic-17441-jabenn#upload-and-tag-images) 的说明上传你的训练图像。根据你想检测的对象类型创建相关标签。
 
-    ![上传对成熟和未成熟香蕉图片的对话框](../../../../../translated_images/image-upload-object-detector.77c7892c3093cb59b79018edecd678749a75d71a099bc8a2d2f2f76320f88a5b.zh.png)
+    ![上传对成熟和未成熟香蕉图片的对话框](../../../../../translated_images/zh/image-upload-object-detector.77c7892c3093cb59b79018edecd678749a75d71a099bc8a2d2f2f76320f88a5b.png)
 
     绘制对象的边界框时，请尽量紧贴对象。标记所有图像可能需要一些时间，但工具会检测它认为是边界框的部分，从而加快速度。
 
-    ![标记一些番茄酱](../../../../../translated_images/object-detector-tag-tomato-paste.f47c362fb0f0eb582f3bc68cf3855fb43a805106395358d41896a269c210b7b4.zh.png)
+    ![标记一些番茄酱](../../../../../translated_images/zh/object-detector-tag-tomato-paste.f47c362fb0f0eb582f3bc68cf3855fb43a805106395358d41896a269c210b7b4.png)
 
     > 💁 如果你每个对象有超过15张图像，你可以在15张图像后进行训练，然后使用 **建议标签** 功能。此功能将使用训练过的模型检测未标记图像中的对象。你可以确认检测到的对象，或者拒绝并重新绘制边界框。这可以节省大量时间。
 
@@ -164,7 +164,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 1. 使用 **快速测试** 按钮上传测试图像并验证对象是否被检测到。使用你之前创建的测试图像，而不是任何用于训练的图像。
 
-    ![检测到3个番茄酱罐，概率分别为38%、35.5%和34.6%](../../../../../translated_images/object-detector-detected-tomato-paste.52656fe87af4c37b4ee540526d63e73ed075da2e54a9a060aa528e0c562fb1b6.zh.png)
+    ![检测到3个番茄酱罐，概率分别为38%、35.5%和34.6%](../../../../../translated_images/zh/object-detector-detected-tomato-paste.52656fe87af4c37b4ee540526d63e73ed075da2e54a9a060aa528e0c562fb1b6.png)
 
 1. 尝试所有你能获得的测试图像并观察概率。
 
