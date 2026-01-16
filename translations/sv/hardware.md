@@ -21,7 +21,7 @@ Du kommer också att behöva några icke-tekniska föremål, som jord eller en k
 
 ## Köp kit
 
-![Seeed studios logotyp](../../translated_images/sv/seeed-logo.74732b6b482b6e8e.png)
+![Seeed studios logotyp](../../translated_images/sv/seeed-logo.74732b6b482b6e8e.webp)
 
 Seeed Studios har vänligen gjort all hårdvara tillgänglig som lättköpta kit:
 
@@ -29,7 +29,7 @@ Seeed Studios har vänligen gjort all hårdvara tillgänglig som lättköpta kit
 
 **[IoT för nybörjare med Seeed och Microsoft - Wio Terminal Starter Kit](https://www.seeedstudio.com/IoT-for-beginners-with-Seeed-and-Microsoft-Wio-Terminal-Starter-Kit-p-5006.html)**
 
-[![Wio Terminal hårdvarukit](../../translated_images/sv/wio-hardware-kit.4c70c48b85e4283a.png)](https://www.seeedstudio.com/IoT-for-beginners-with-Seeed-and-Microsoft-Wio-Terminal-Starter-Kit-p-5006.html)
+[![Wio Terminal hårdvarukit](../../translated_images/sv/wio-hardware-kit.4c70c48b85e4283a.webp)](https://www.seeedstudio.com/IoT-for-beginners-with-Seeed-and-Microsoft-Wio-Terminal-Starter-Kit-p-5006.html)
 
 ### Raspberry Pi
 

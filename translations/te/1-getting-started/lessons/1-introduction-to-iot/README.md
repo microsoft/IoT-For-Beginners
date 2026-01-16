@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # IoT పరిచయం
 
-![ఈ పాఠం యొక్క స్కెచ్‌నోట్ సమీక్ష](../../../../../translated_images/te/lesson-1.2606670fa61ee904.jpg)
+![ఈ పాఠం యొక్క స్కెచ్‌నోట్ సమీక్ష](../../../../../translated_images/te/lesson-1.2606670fa61ee904.webp)
 
 > స్కెచ్‌నోట్ [నిత్య నరసింహన్](https://github.com/nitya)చే. పెద్దదిగా చూడాలని చిత్రాన్ని క్లిక్ చేయండి.
 
@@ -79,7 +79,7 @@ IoT లోని **T** అంటే **Things** - sensorల ద్వారా �
 
 మైక్రోకంట్రోలర్లు సాధారణంగా తక్కువ ఖర్చు కలిగిన కంప్యూటింగ్ పరికరాలు. కస్టమ్ హార్డువేర్‌లో వాడే వాటి ధర సగటున సుమారు US$0.50 వరకు పడుతుంది, కొన్ని US$0.03 వరకు తక్కువ. developer kits US$4 నుండి మొదలవుతాయి, ఫీచర్లు పెరిగేకొద్దీ ధర పెరుగుతుంది. [Seeed studios](https://www.seeedstudio.com) నుండి ఒక మైక్రోకంట్రోలర్ డెవలపర్ కిట్ [Wio Terminal](https://www.seeedstudio.com/Wio-Terminal-p-4509.html) సెన్సార్లు, actuatorలు, WiFi, స్క్రీన్ కలిగి సుమారు US$30 ఖర్చవుతుంది.
 
-![ఒక Wio Terminal](../../../../../translated_images/te/wio-terminal.b8299ee16587db9a.png)
+![ఒక Wio Terminal](../../../../../translated_images/te/wio-terminal.b8299ee16587db9a.webp)
 
 > 💁 ఇంటర్నెట్‌లో MCU కోసం శోధిస్తున్నప్పుడు జాగ్రత్త! MCU అని అంటే చాలా సందర్భాల్లో Marvel Cinematic Universe గురించి వస్తుంది, మైక్రోకంట్రోలర్లు కాదు.
 
@@ -93,7 +93,7 @@ IoT లోని **T** అంటే **Things** - sensorల ద్వారా �
 
 సింగిల్-బోర్డ్ కంప్యూటర్ ఒక చిన్న కంప్యూటింగ్ పరికరం, ఇందులో డెస్క్‌టాప్ లేదా లాప్‌టాప్ PC/మాక్ మాదిరిగా CPU, మెమొరీ, ఇన్‌పుట్/ఔట్‌పుట్ అందుబాటులో ఉంటాయి కానీ చిన్న సైజు, తక్కువ విద్యుత్ వినియోగం, తక్కువ ధర ఉంటుంది.
 
-![ఒక Raspberry Pi 4](../../../../../translated_images/te/raspberry-pi-4.fd4590d308c3d456.jpg)
+![ఒక Raspberry Pi 4](../../../../../translated_images/te/raspberry-pi-4.fd4590d308c3d456.webp)
 
 రాజ్‌బెర్రీ పై అత్యంత ప్రాచుర్యం పొందిన సింగిల్-బోర్డ్ కంప్యూటర్.
 

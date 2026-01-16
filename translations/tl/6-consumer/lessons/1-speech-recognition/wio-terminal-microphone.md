@@ -15,11 +15,11 @@ Sa bahaging ito ng aralin, magdadagdag ka ng mga speaker sa iyong Wio Terminal. 
 
 Ang Wio Terminal ay may built-in na mikropono na maaaring gamitin upang makuha ang audio para sa speech recognition.
 
-![Ang mikropono sa Wio Terminal](../../../../../translated_images/tl/wio-mic.3f8c843dbe8ad917.png)
+![Ang mikropono sa Wio Terminal](../../../../../translated_images/tl/wio-mic.3f8c843dbe8ad917.webp)
 
 Upang magdagdag ng speaker, maaari mong gamitin ang [ReSpeaker 2-Mics Pi Hat](https://www.seeedstudio.com/ReSpeaker-2-Mics-Pi-HAT.html). Isa itong external na board na may 2 MEMS microphones, pati na rin ang konektor para sa speaker at headphone socket.
 
-![Ang ReSpeaker 2-Mics Pi Hat](../../../../../translated_images/tl/respeaker.f5d19d1c6b14ab16.png)
+![Ang ReSpeaker 2-Mics Pi Hat](../../../../../translated_images/tl/respeaker.f5d19d1c6b14ab16.webp)
 
 Kakailanganin mo ng headphones, isang speaker na may 3.5mm jack, o isang speaker na may JST connection tulad ng [Mono Enclosed Speaker - 2W 6 Ohm](https://www.seeedstudio.com/Mono-Enclosed-Speaker-2W-6-Ohm-p-2832.html).
 
@@ -35,7 +35,7 @@ Kakailanganin mo rin ng SD card upang mag-download at mag-playback ng audio. Ang
 
     Kailangang ikonekta ang mga pin sa ganitong paraan:
 
-    ![Isang diagram ng mga pin](../../../../../translated_images/tl/wio-respeaker-wiring-0.767f80aa65081038.png)
+    ![Isang diagram ng mga pin](../../../../../translated_images/tl/wio-respeaker-wiring-0.767f80aa65081038.webp)
 
 1. Iposisyon ang ReSpeaker at Wio Terminal na ang GPIO sockets ay nakaharap pataas, at nasa kaliwang bahagi.
 
@@ -43,33 +43,33 @@ Kakailanganin mo rin ng SD card upang mag-download at mag-playback ng audio. Ang
 
 1. Ulitin ito pababa sa GPIO sockets sa kaliwang bahagi. Siguraduhing maayos ang pagkakakabit ng mga pin.
 
-    ![Isang ReSpeaker na ang kaliwang mga pin ay nakakonekta sa kaliwang mga pin ng Wio Terminal](../../../../../translated_images/tl/wio-respeaker-wiring-1.8d894727f2ba2400.png)
+    ![Isang ReSpeaker na ang kaliwang mga pin ay nakakonekta sa kaliwang mga pin ng Wio Terminal](../../../../../translated_images/tl/wio-respeaker-wiring-1.8d894727f2ba2400.webp)
 
-    ![Isang ReSpeaker na ang kaliwang mga pin ay nakakonekta sa kaliwang mga pin ng Wio Terminal](../../../../../translated_images/tl/wio-respeaker-wiring-2.329e1cbd306e754f.png)
+    ![Isang ReSpeaker na ang kaliwang mga pin ay nakakonekta sa kaliwang mga pin ng Wio Terminal](../../../../../translated_images/tl/wio-respeaker-wiring-2.329e1cbd306e754f.webp)
 
     > 💁 Kung ang iyong jumper cables ay magkakadikit bilang ribbons, panatilihin silang magkasama - mas madali itong masigurado na lahat ng cables ay nakakonekta nang maayos.
 
 1. Ulitin ang proseso gamit ang mga GPIO sockets sa kanang bahagi ng ReSpeaker at Wio Terminal. Kailangang dumaan ang mga cable na ito sa paligid ng mga cable na nakakonekta na.
 
-    ![Isang ReSpeaker na ang kanang mga pin ay nakakonekta sa kanang mga pin ng Wio Terminal](../../../../../translated_images/tl/wio-respeaker-wiring-3.75b0be447e2fa930.png)
+    ![Isang ReSpeaker na ang kanang mga pin ay nakakonekta sa kanang mga pin ng Wio Terminal](../../../../../translated_images/tl/wio-respeaker-wiring-3.75b0be447e2fa930.webp)
 
-    ![Isang ReSpeaker na ang kanang mga pin ay nakakonekta sa kanang mga pin ng Wio Terminal](../../../../../translated_images/tl/wio-respeaker-wiring-4.aa9cd434d8779437.png)
+    ![Isang ReSpeaker na ang kanang mga pin ay nakakonekta sa kanang mga pin ng Wio Terminal](../../../../../translated_images/tl/wio-respeaker-wiring-4.aa9cd434d8779437.webp)
 
     > 💁 Kung ang iyong jumper cables ay magkakadikit bilang ribbons, hatiin ito sa dalawang ribbons. Ipaikot ang isa sa bawat gilid ng mga existing cables.
 
     > 💁 Maaari kang gumamit ng sticky tape upang hawakan ang mga pin sa isang block upang maiwasang matanggal habang ikinakabit ang lahat ng ito.
     >
-    > ![Ang mga pin na naka-fix gamit ang tape](../../../../../translated_images/tl/wio-respeaker-wiring-5.af117c20acf622f3.png)
+    > ![Ang mga pin na naka-fix gamit ang tape](../../../../../translated_images/tl/wio-respeaker-wiring-5.af117c20acf622f3.webp)
 
 1. Kakailanganin mong magdagdag ng speaker.
 
     * Kung gumagamit ka ng speaker na may JST cable, ikonekta ito sa JST port ng ReSpeaker.
 
-      ![Isang speaker na nakakonekta sa ReSpeaker gamit ang JST cable](../../../../../translated_images/tl/respeaker-jst-speaker.a441d177809df945.png)
+      ![Isang speaker na nakakonekta sa ReSpeaker gamit ang JST cable](../../../../../translated_images/tl/respeaker-jst-speaker.a441d177809df945.webp)
 
     * Kung gumagamit ka ng speaker na may 3.5mm jack, o headphones, isaksak ito sa 3.5mm jack socket.
 
-      ![Isang speaker na nakakonekta sa ReSpeaker gamit ang 3.5mm jack socket](../../../../../translated_images/tl/respeaker-35mm-speaker.ad79ef4f128c7751.png)
+      ![Isang speaker na nakakonekta sa ReSpeaker gamit ang 3.5mm jack socket](../../../../../translated_images/tl/respeaker-35mm-speaker.ad79ef4f128c7751.webp)
 
 ### Gawain - i-setup ang SD card
 
@@ -79,7 +79,7 @@ Kakailanganin mo rin ng SD card upang mag-download at mag-playback ng audio. Ang
 
 1. Ipasok ang SD card sa SD Card slot sa kaliwang bahagi ng Wio Terminal, sa ibaba lamang ng power button. Siguraduhing maipasok ito nang buo at mag-click - maaaring kailanganin mo ng manipis na tool o isa pang SD Card upang maitulak ito nang buo.
 
-    ![Pagpasok ng SD card sa SD card slot sa ibaba ng power switch](../../../../../translated_images/tl/wio-sd-card.acdcbe322fa4ee7f.png)
+    ![Pagpasok ng SD card sa SD card slot sa ibaba ng power switch](../../../../../translated_images/tl/wio-sd-card.acdcbe322fa4ee7f.webp)
 
     > 💁 Upang alisin ang SD Card, kailangan mo itong bahagyang itulak papasok at ito ay lalabas. Kakailanganin mo ng manipis na tool tulad ng flat-head screwdriver o isa pang SD Card.
 

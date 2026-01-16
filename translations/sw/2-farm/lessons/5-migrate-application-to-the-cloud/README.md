@@ -41,7 +41,7 @@ Serverless, au kompyuta isiyo na seva, inahusisha kuunda vizuizi vidogo vya msim
 
 > 💁 Ikiwa umewahi kutumia vichocheo vya hifadhidata, unaweza kufikiria hili kama kitu sawa, msimbo unaochochewa na tukio kama kuingiza safu.
 
-![Wakati matukio mengi yanatumwa kwa wakati mmoja, huduma isiyo na seva inapanuka ili kuyashughulikia yote kwa wakati mmoja](../../../../../translated_images/sw/serverless-scaling.f8c769adf0413fd1.png)
+![Wakati matukio mengi yanatumwa kwa wakati mmoja, huduma isiyo na seva inapanuka ili kuyashughulikia yote kwa wakati mmoja](../../../../../translated_images/sw/serverless-scaling.f8c769adf0413fd1.webp)
 
 Msimbo wako unaendeshwa tu tukio linapotokea, hakuna kitu kinachohifadhi msimbo wako ukiwa hai nyakati nyingine. Tukio linatokea, msimbo wako unapakiwa na kuendeshwa. Hii inafanya serverless kuwa na uwezo mkubwa wa kupanuka - ikiwa matukio mengi yanatokea kwa wakati mmoja, mtoa huduma wa wingu anaweza kuendesha kazi yako mara nyingi kadri unavyohitaji kwa wakati mmoja kwenye seva zozote walizonazo. Hasara ya hili ni kwamba ikiwa unahitaji kushiriki taarifa kati ya matukio, unahitaji kuziokoa mahali fulani kama hifadhidata badala ya kuzihifadhi kwenye kumbukumbu.
 
@@ -244,7 +244,7 @@ CLI ya Azure Functions inaweza kutumika kuunda programu mpya ya Functions.
     VS Code. Initialize for optimal use with VS Code?
     ```
 
-    ![Arifa](../../../../../translated_images/sw/vscode-azure-functions-init-notification.bd19b49229963edb.png)
+    ![Arifa](../../../../../translated_images/sw/vscode-azure-functions-init-notification.bd19b49229963edb.webp)
 
     Chagua **Yes** kutoka kwenye arifa hii.
 

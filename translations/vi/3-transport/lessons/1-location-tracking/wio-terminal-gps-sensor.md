@@ -33,7 +33,7 @@ Kết nối cảm biến GPS.
 
 1. Khi Wio Terminal chưa được kết nối với máy tính hoặc nguồn điện khác, cắm đầu còn lại của cáp Grove vào ổ cắm Grove bên trái trên Wio Terminal khi bạn nhìn vào màn hình. Đây là ổ cắm gần nút nguồn nhất.
 
-    ![Cảm biến Grove GPS được kết nối với ổ cắm bên trái](../../../../../translated_images/vi/wio-gps-sensor.19fd52b81ce58095.png)
+    ![Cảm biến Grove GPS được kết nối với ổ cắm bên trái](../../../../../translated_images/vi/wio-gps-sensor.19fd52b81ce58095.webp)
 
 1. Đặt cảm biến GPS sao cho ăng-ten gắn kèm có thể nhìn thấy bầu trời - lý tưởng nhất là gần cửa sổ mở hoặc ngoài trời. Tín hiệu sẽ rõ ràng hơn khi không có vật cản giữa ăng-ten và bầu trời.
 

@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 [سیڈ اسٹوڈیوز کا وائیو ٹرمینل](https://www.seeedstudio.com/Wio-Terminal-p-4509.html) ایک آرڈوینو کے ساتھ مطابقت رکھنے والا مائیکرو کنٹرولر ہے، جس میں وائی فائی، کچھ سینسرز اور ایکچیویٹرز شامل ہیں، اور اضافی سینسرز اور ایکچیویٹرز شامل کرنے کے لیے پورٹس موجود ہیں، جو ایک ہارڈویئر ایکوسسٹم [گروو](https://www.seeedstudio.com/category/Grove-c-1003.html) کے ذریعے کام کرتا ہے۔
 
-![سیڈ اسٹوڈیوز کا وائیو ٹرمینل](../../../../../translated_images/ur/wio-terminal.b8299ee16587db9a.png)
+![سیڈ اسٹوڈیوز کا وائیو ٹرمینل](../../../../../translated_images/ur/wio-terminal.b8299ee16587db9a.webp)
 
 ## سیٹ اپ
 
@@ -51,15 +51,15 @@ PlatformIO پروجیکٹ بنائیں۔
 
 1. PlatformIO آئیکن سائیڈ مینو بار پر ہوگا:
 
-    ![PlatformIO مینو آپشن](../../../../../translated_images/ur/vscode-platformio-menu.297be26b9733e5c4.png)
+    ![PlatformIO مینو آپشن](../../../../../translated_images/ur/vscode-platformio-menu.297be26b9733e5c4.webp)
 
     اس مینو آئٹم کو منتخب کریں، پھر *PIO Home -> Open* منتخب کریں۔
 
-    ![PlatformIO اوپن آپشن](../../../../../translated_images/ur/vscode-platformio-home-open.3f9a41bfd3f4da1c.png)
+    ![PlatformIO اوپن آپشن](../../../../../translated_images/ur/vscode-platformio-home-open.3f9a41bfd3f4da1c.webp)
 
 1. ویلکم اسکرین سے، **+ نیا پروجیکٹ** بٹن منتخب کریں۔
 
-    ![نیا پروجیکٹ بٹن](../../../../../translated_images/ur/vscode-platformio-welcome-new-button.ba6fc8a4c7b78cc8.png)
+    ![نیا پروجیکٹ بٹن](../../../../../translated_images/ur/vscode-platformio-welcome-new-button.ba6fc8a4c7b78cc8.webp)
 
 1. پروجیکٹ کو *پروجیکٹ وزرڈ* میں ترتیب دیں:
 
@@ -73,7 +73,7 @@ PlatformIO پروجیکٹ بنائیں۔
 
     1. **فنش** بٹن منتخب کریں۔
 
-    ![مکمل پروجیکٹ وزرڈ](../../../../../translated_images/ur/vscode-platformio-nightlight-project-wizard.5c64db4da6037420.png)
+    ![مکمل پروجیکٹ وزرڈ](../../../../../translated_images/ur/vscode-platformio-nightlight-project-wizard.5c64db4da6037420.webp)
 
     PlatformIO ان اجزاء کو ڈاؤن لوڈ کرے گا جن کی اسے وائیو ٹرمینل کے لیے کوڈ کمپائل کرنے اور آپ کے پروجیکٹ کو بنانے کے لیے ضرورت ہے۔ اس میں کچھ منٹ لگ سکتے ہیں۔
 
@@ -179,7 +179,7 @@ VS Code ایکسپلورر PlatformIO وزرڈ کے ذریعے بنائی گئی
 
     1. اپ لوڈ آپشن تلاش کرنے کے لیے `PlatformIO Upload` ٹائپ کریں، اور *PlatformIO: Upload* منتخب کریں۔
 
-        ![کمانڈ پیلیٹ میں PlatformIO اپ لوڈ آپشن](../../../../../translated_images/ur/vscode-platformio-upload-command-palette.9e0f49cf80d1f1c3.png)
+        ![کمانڈ پیلیٹ میں PlatformIO اپ لوڈ آپشن](../../../../../translated_images/ur/vscode-platformio-upload-command-palette.9e0f49cf80d1f1c3.webp)
 
         PlatformIO اپ لوڈ کرنے سے پہلے ضرورت پڑنے پر کوڈ کو خود بخود بنائے گا۔
 
@@ -195,7 +195,7 @@ PlatformIO میں ایک سیریل مانیٹر ہے جو USB کیبل کے ذ�
 
 1. سیریل مانیٹر آپشن تلاش کرنے کے لیے `PlatformIO Serial` ٹائپ کریں، اور *PlatformIO: Serial Monitor* منتخب کریں۔
 
-    ![کمانڈ پیلیٹ میں PlatformIO سیریل مانیٹر آپشن](../../../../../translated_images/ur/vscode-platformio-serial-monitor-command-palette.b348ec841b8a1c14.png)
+    ![کمانڈ پیلیٹ میں PlatformIO سیریل مانیٹر آپشن](../../../../../translated_images/ur/vscode-platformio-serial-monitor-command-palette.b348ec841b8a1c14.webp)
 
     ایک نیا ٹرمینل کھلے گا، اور سیریل پورٹ کے ذریعے بھیجا گیا ڈیٹا اس ٹرمینل میں اسٹریم ہوگا:
 

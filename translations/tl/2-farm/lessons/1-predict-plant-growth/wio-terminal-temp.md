@@ -33,7 +33,7 @@ Ikonekta ang temperature sensor.
 
 1. Kapag ang Wio Terminal ay hindi nakakonekta sa iyong computer o ibang power supply, ikonekta ang kabilang dulo ng Grove cable sa Grove socket sa kanang bahagi ng Wio Terminal habang nakatingin ka sa screen. Ito ang socket na pinakamalayo sa power button.
 
-![Ang Grove temperature sensor na nakakonekta sa kanang socket](../../../../../translated_images/tl/wio-temperature-sensor.2934928f38c7f79a.png)
+![Ang Grove temperature sensor na nakakonekta sa kanang socket](../../../../../translated_images/tl/wio-temperature-sensor.2934928f38c7f79a.webp)
 
 ## I-program ang temperature sensor
 

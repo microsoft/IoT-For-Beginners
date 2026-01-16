@@ -46,7 +46,7 @@ I denna lektion kommer vi att gå igenom:
 
 Det finns flera populära kommunikationsprotokoll som används av IoT-enheter för att kommunicera med Internet. De mest populära är baserade på publicera/prenumerera-meddelanden via någon form av broker. IoT-enheter ansluter till brokern och publicerar telemetri och prenumererar på kommandon. Molntjänster ansluter också till brokern och prenumererar på alla telemetrimeddelanden och publicerar kommandon antingen till specifika enheter eller till grupper av enheter.
 
-![IoT-enheter ansluter till en broker och publicerar telemetri och prenumererar på kommandon. Molntjänster ansluter till brokern och prenumererar på all telemetri och skickar kommandon till specifika enheter.](../../../../../translated_images/sv/pub-sub.7c7ed43fe9fd15d4.png)
+![IoT-enheter ansluter till en broker och publicerar telemetri och prenumererar på kommandon. Molntjänster ansluter till brokern och prenumererar på all telemetri och skickar kommandon till specifika enheter.](../../../../../translated_images/sv/pub-sub.7c7ed43fe9fd15d4.webp)
 
 MQTT är det mest populära kommunikationsprotokollet för IoT-enheter och behandlas i denna lektion. Andra protokoll inkluderar AMQP och HTTP/HTTPS.
 
@@ -115,7 +115,7 @@ Ordet telemetri kommer från grekiska rötter och betyder att mäta på distans.
 
 Låt oss återgå till exemplet med den smarta termostaten från Lektion 1.
 
-![En internetansluten termostat som använder flera rumssensorer](../../../../../translated_images/sv/telemetry.21e5d8b97649d2eb.png)
+![En internetansluten termostat som använder flera rumssensorer](../../../../../translated_images/sv/telemetry.21e5d8b97649d2eb.webp)
 
 Termostaten har temperatursensorer för att samla in telemetri. Den skulle troligen ha en inbyggd temperatursensor och kanske ansluta till flera externa temperatursensorer via ett trådlöst protokoll som [Bluetooth Low Energy](https://wikipedia.org/wiki/Bluetooth_Low_Energy) (BLE).
 
@@ -267,11 +267,11 @@ Skriv serverkoden.
 
 1. När VS Code startar kommer det att aktivera den virtuella Python-miljön. Detta kommer att rapporteras i den nedre statusfältet:
 
-    ![VS Code visar den valda virtuella miljön](../../../../../translated_images/sv/vscode-virtual-env.8ba42e04c3d533cf.png)
+    ![VS Code visar den valda virtuella miljön](../../../../../translated_images/sv/vscode-virtual-env.8ba42e04c3d533cf.webp)
 
 1. Om VS Code-terminalen redan körs när VS Code startar kommer den inte att ha den virtuella miljön aktiverad i sig. Det enklaste är att stänga terminalen med knappen **Kill the active terminal instance**:
 
-    ![VS Code-knappen för att stänga aktiv terminalinstans](../../../../../translated_images/sv/vscode-kill-terminal.1cc4de7c6f25ee08.png)
+    ![VS Code-knappen för att stänga aktiv terminalinstans](../../../../../translated_images/sv/vscode-kill-terminal.1cc4de7c6f25ee08.webp)
 
 1. Starta en ny VS Code-terminal genom att välja *Terminal -> New Terminal*, eller trycka på `` CTRL+` ``. Den nya terminalen kommer att ladda den virtuella miljön, med anropet för att aktivera detta som visas i terminalen. Namnet på den virtuella miljön (`.venv`) kommer också att finnas i prompten:
 

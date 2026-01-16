@@ -114,7 +114,7 @@ CO_OP_TRANSLATOR_METADATA:
     >
     > ఉదాహరణకి, మీరు ఇంగ్లీష్‌లో LUIS నిలిపినట్లయితే కానీ యూజర్ భాష ఫ్రెంచ్ అయితే, "set a 2 minute and 27 second timer" వాక్యాన్ని Bing Translate ఉపయోగించి ఇంగ్లీష్ నుండి ఫ్రెంచ్‌కు అనువదించండి, తరువాత **Listen translation** బటన్ పైన క్లిక్ చేసి మీ మైక్రోఫోన్‌కి అనువాదాన్ని పలకరించండి.
     >
-    > ![The listen translation button on Bing translate](../../../../../translated_images/te/bing-translate.348aa796d6efe2a9.png)
+    > ![The listen translation button on Bing translate](../../../../../translated_images/te/bing-translate.348aa796d6efe2a9.webp)
 
 1. `SPEECH_LOCATION` కింద ట్రాన్స్లేటర్ API కీ మరియు ప్రాంతం జోడించండి:
 

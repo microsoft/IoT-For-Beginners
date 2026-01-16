@@ -35,7 +35,7 @@ Ikonekta ang time of flight sensor.
 
 1. Kapag naka-off ang Raspberry Pi, ikonekta ang kabilang dulo ng Grove cable sa isa sa mga I²C socket na may markang **I²C** sa Grove Base hat na nakakabit sa Pi. Ang mga socket na ito ay nasa ibabang hilera, sa kabaligtaran ng GPI pins at malapit sa camera cable slot.
 
-![Ang Grove time of flight sensor na nakakonekta sa I squared C socket](../../../../../translated_images/tl/pi-time-of-flight-sensor.58c8dc04eb3bfb57.png)
+![Ang Grove time of flight sensor na nakakonekta sa I squared C socket](../../../../../translated_images/tl/pi-time-of-flight-sensor.58c8dc04eb3bfb57.webp)
 
 ## Iprograma ang Time of Flight Sensor
 
@@ -106,7 +106,7 @@ Iprograma ang device.
 
     Ang rangefinder ay nasa likod ng sensor, kaya siguraduhing gamitin ang tamang bahagi kapag sumusukat ng distansya.
 
-    ![Ang rangefinder sa likod ng time of flight sensor na nakatutok sa isang saging](../../../../../translated_images/tl/time-of-flight-banana.079921ad8b1496e4.png)
+    ![Ang rangefinder sa likod ng time of flight sensor na nakatutok sa isang saging](../../../../../translated_images/tl/time-of-flight-banana.079921ad8b1496e4.webp)
 
 > 💁 Matatagpuan mo ang code na ito sa [code-proximity/pi](../../../../../4-manufacturing/lessons/4-trigger-fruit-detector/code-proximity/pi) folder.
 

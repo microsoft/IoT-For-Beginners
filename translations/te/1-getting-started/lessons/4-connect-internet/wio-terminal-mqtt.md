@@ -64,7 +64,7 @@ Wio Terminal ను WiFi కి కనెక్ట్ చేయండి.
 
 1. `src` ఫోల్డర్ లో `config.h` అనే కొత్త ఫైల్ క్రియేట్ చేయండి. మీరు `src` ఫోల్డర్ లేదా దంతొ లో ఉన్న `main.cpp` ఫైల్ ఎంచుకొని ఎక్స్‌ప్లోరర్ నుండి **New file** బటన్ క్లిక్ చేయవచ్చు. ఇది కర్సర్ ఎక్స్‌ప్లోరర్ పై ఉండగానే కనిపిస్తుంది.
 
-    ![The new file button](../../../../../translated_images/te/vscode-new-file-button.182702340fe6723c.png)
+    ![The new file button](../../../../../translated_images/te/vscode-new-file-button.182702340fe6723c.webp)
 
 1. మీ WiFi క్రెడెన్షియల్స్ కోసం కాంస్టెంట్లను నిర్వచించడానికి ఈ ఫైల్ లో క్రింది కోడ్ జోడించండి:
 

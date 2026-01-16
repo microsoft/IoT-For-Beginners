@@ -72,7 +72,7 @@ Bulut sağlayıcısı, maliyetleri düşürmek için ölçek ekonomilerinden yar
 
 Azure, Microsoft'un geliştiriciler için sunduğu buluttur ve bu derslerde kullanacağınız bulut hizmetidir. Aşağıdaki video, Azure hakkında kısa bir genel bakış sunar:
 
-[![Azure videosunun genel bakışı](../../../../../translated_images/tr/what-is-azure-video-thumbnail.20174db09e03bbb8.png)](https://www.microsoft.com/videoplayer/embed/RE4Ibng?WT.mc_id=academic-17441-jabenn)
+[![Azure videosunun genel bakışı](../../../../../translated_images/tr/what-is-azure-video-thumbnail.20174db09e03bbb8.webp)](https://www.microsoft.com/videoplayer/embed/RE4Ibng?WT.mc_id=academic-17441-jabenn)
 
 ## Bir Bulut Aboneliği Oluşturun
 

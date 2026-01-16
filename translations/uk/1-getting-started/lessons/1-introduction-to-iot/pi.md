@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 [Raspberry Pi](https://raspberrypi.org) — це одноплатний комп'ютер. Ви можете додавати датчики та виконавчі пристрої, використовуючи широкий спектр пристроїв та екосистем. У цих уроках ми будемо використовувати апаратну екосистему під назвою [Grove](https://www.seeedstudio.com/category/Grove-c-1003.html). Ви будете програмувати ваш Pi та отримувати доступ до датчиків Grove за допомогою Python.
 
-![Raspberry Pi 4](../../../../../translated_images/uk/raspberry-pi-4.fd4590d308c3d456.jpg)
+![Raspberry Pi 4](../../../../../translated_images/uk/raspberry-pi-4.fd4590d308c3d456.webp)
 
 ## Налаштування
 
@@ -112,7 +112,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 1. У Raspberry Pi Imager виберіть кнопку **CHOOSE OS**, потім виберіть *Raspberry Pi OS (Other)*, а потім *Raspberry Pi OS Lite (32-bit)*.
 
-    ![Raspberry Pi Imager з вибраним Raspberry Pi OS Lite](../../../../../translated_images/uk/raspberry-pi-imager.24aedeab9e233d84.png)
+    ![Raspberry Pi Imager з вибраним Raspberry Pi OS Lite](../../../../../translated_images/uk/raspberry-pi-imager.24aedeab9e233d84.webp)
 
     > 💁 Raspberry Pi OS Lite — це версія Raspberry Pi OS без графічного інтерфейсу або інструментів на основі інтерфейсу. Вони не потрібні для "безголового" Pi, що робить установку меншою та швидшою для завантаження.
 
@@ -251,7 +251,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 1. Відкрийте цю папку у VS Code, вибравши *File -> Open...* і вибравши папку *nightlight*, потім натисніть **OK**.
 
-    ![Діалогове вікно відкриття VS Code, що показує папку nightlight](../../../../../translated_images/uk/vscode-open-nightlight-remote.d3d2a4011e30d535.png)
+    ![Діалогове вікно відкриття VS Code, що показує папку nightlight](../../../../../translated_images/uk/vscode-open-nightlight-remote.d3d2a4011e30d535.webp)
 
 1. Відкрийте файл `app.py` у провіднику VS Code і додайте наступний код:
 

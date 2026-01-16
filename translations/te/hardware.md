@@ -21,7 +21,7 @@ IoT లో **T** అంటే **Things** అంటే మన చుట్టు�
 
 ## కిట్స్ కొనడం
 
-![The Seeed studios logo](../../translated_images/te/seeed-logo.74732b6b482b6e8e.png)
+![The Seeed studios logo](../../translated_images/te/seeed-logo.74732b6b482b6e8e.webp)
 
 Seeed స్టూడియోస్ ఎంతో అనుకూలంగా అన్ని హార్డ్వేర్ సులభంగా కొనుగోలుకు కిట్స్ రూపంలో అందుబాటులో ఉంచింది:
 
@@ -29,13 +29,13 @@ Seeed స్టూడియోస్ ఎంతో అనుకూలంగా �
 
 **[IoT for beginners with Seeed and Microsoft - Wio Terminal Starter Kit](https://www.seeedstudio.com/IoT-for-beginners-with-Seeed-and-Microsoft-Wio-Terminal-Starter-Kit-p-5006.html)**
 
-[![The Wio Terminal hardware kit](../../translated_images/te/wio-hardware-kit.4c70c48b85e4283a.png)](https://www.seeedstudio.com/IoT-for-beginners-with-Seeed-and-Microsoft-Wio-Terminal-Starter-Kit-p-5006.html)
+[![The Wio Terminal hardware kit](../../translated_images/te/wio-hardware-kit.4c70c48b85e4283a.webp)](https://www.seeedstudio.com/IoT-for-beginners-with-Seeed-and-Microsoft-Wio-Terminal-Starter-Kit-p-5006.html)
 
 ### Raspberry Pi
 
 **[IoT for beginners with Seeed and Microsoft - Raspberry Pi 4 Starter Kit](https://www.seeedstudio.com/IoT-for-beginners-with-Seeed-and-Microsoft-Raspberry-Pi-Starter-Kit-p-5004.html)**
 
-[![The Raspberry Pi Terminal hardware kit](../../translated_images/te/pi-hardware-kit.26dbadaedb7dd44c.png)](https://www.seeedstudio.com/IoT-for-beginners-with-Seeed-and-Microsoft-Raspberry-Pi-Starter-Kit-p-5004.html)
+[![The Raspberry Pi Terminal hardware kit](../../translated_images/te/pi-hardware-kit.26dbadaedb7dd44c.webp)](https://www.seeedstudio.com/IoT-for-beginners-with-Seeed-and-Microsoft-Raspberry-Pi-Starter-Kit-p-5004.html)
 
 ## Arduino
 

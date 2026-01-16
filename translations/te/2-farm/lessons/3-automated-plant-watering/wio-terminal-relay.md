@@ -27,13 +27,13 @@ Grove రీలే Wio టెర్మినల్ డిజిటల్ పో�
 
 రీలే కనెక్ట్ చేయండి.
 
-![A grove relay](../../../../../translated_images/te/grove-relay.d426958ca210fbd0.png)
+![A grove relay](../../../../../translated_images/te/grove-relay.d426958ca210fbd0.webp)
 
 1. Grove కేబుల్ ఒక చివరని రీలే上的 సాకెట్ లో నెట్టండి. అది ఒకదానితో మాత్రమే సరిపోతుంది.
 
 1. Wio టెర్మినల్ ను మీ కంప్యూటర్ లేదా ఇతర పవర్ సరఫరా నుండి డిస్కనెక్ట్ చేసి, కేబుల్ యొక్క మరో చివరని Wio టెర్మినల్ స్క్రీన్ వైపు చూసినప్పుడు ఎడమ వైపు ఉన్న Grove సాకెట్ కు కనెక్ట్ చేయండి. నేల తేమ సెన్సార్ ను కుడి వైపు సాకెట్ లో ఉంచి ఉంచండి.
 
-![The grove relay connected to the left-hand socket, and the soil moisture sensor connected to the right hand socket](../../../../../translated_images/te/wio-relay-and-soil-moisture-sensor.ed722202d42babe0.png)
+![The grove relay connected to the left-hand socket, and the soil moisture sensor connected to the right hand socket](../../../../../translated_images/te/wio-relay-and-soil-moisture-sensor.ed722202d42babe0.webp)
 
 1. నేల తేమ సెన్సార్ ను నేలలో పోసుకోండి, అది పూర్వ పాఠం నుండీ ఇలుగా ఇప్పటికే లేకపోతే.
 

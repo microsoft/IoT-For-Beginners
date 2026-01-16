@@ -66,7 +66,7 @@ Veritabanları, verileri depolamanıza ve sorgulamanıza olanak tanıyan hizmetl
 
 İlk veritabanları İlişkisel Veritabanı Yönetim Sistemleri (RDBMS) veya ilişkisel veritabanlarıydı. Bunlar, Structured Query Language (SQL) kullanılarak veri ekleme, kaldırma, güncelleme veya sorgulama işlemleri yapılan SQL veritabanları olarak bilinir. Bu veritabanları, bir elektronik tabloya benzer şekilde iyi tanımlanmış bir veri tabloları kümesinden oluşur. Her tablo, birden fazla adlandırılmış sütuna sahiptir. Veri eklediğinizde, tabloya bir satır ekler ve her sütuna değerler koyarsınız. Bu, veriyi çok katı bir yapıda tutar - sütunları boş bırakabilirsiniz, ancak yeni bir sütun eklemek isterseniz, bunu veritabanında yapmanız ve mevcut satırlar için değerler doldurmanız gerekir. Bu veritabanları ilişkiseldir - bir tablo başka bir tabloyla ilişki kurabilir.
 
-![Bir kullanıcı tablosunun ID'sinin, satın alımlar tablosundaki kullanıcı ID sütunuyla ve ürünler tablosunun ID'sinin, satın alımlar tablosundaki ürün ID sütunuyla ilişkili olduğu bir ilişkisel veritabanı](../../../../../translated_images/tr/sql-database.be160f12bfccefd3.png)
+![Bir kullanıcı tablosunun ID'sinin, satın alımlar tablosundaki kullanıcı ID sütunuyla ve ürünler tablosunun ID'sinin, satın alımlar tablosundaki ürün ID sütunuyla ilişkili olduğu bir ilişkisel veritabanı](../../../../../translated_images/tr/sql-database.be160f12bfccefd3.webp)
 
 Örneğin, bir kullanıcının kişisel bilgilerini bir tabloda depolarsanız, her kullanıcı için bir tür benzersiz iç ID'niz olur ve bu ID, kullanıcının adı ve adresi gibi bilgileri içeren bir tablodaki bir satırda kullanılır. Daha sonra bu kullanıcı hakkında başka ayrıntılar, örneğin satın alımları, başka bir tabloda depolamak isterseniz, yeni tablodaki bir sütun bu kullanıcının ID'si için ayrılır. Bir kullanıcıyı aradığınızda, bir tablodan kişisel bilgilerini ve başka bir tablodan satın alımlarını almak için ID'sini kullanabilirsiniz.
 
@@ -241,7 +241,7 @@ Artık işlev uygulamanızın, IoT Hub'dan gelen mesajları blob depolamada sakl
 
 Bu derste, blob depolamayla nasıl etkileşimde bulunacağınızı görmek için Python SDK'sını kullanacaksınız.
 
-![IoT cihazından GPS telemetrisini IoT Hub'a, ardından bir olay hub tetikleyicisi aracılığıyla Azure Functions'a gönderme ve blob depolamaya kaydetme](../../../../../translated_images/tr/save-telemetry-to-storage-from-functions.ed3b1820980097f1.png)
+![IoT cihazından GPS telemetrisini IoT Hub'a, ardından bir olay hub tetikleyicisi aracılığıyla Azure Functions'a gönderme ve blob depolamaya kaydetme](../../../../../translated_images/tr/save-telemetry-to-storage-from-functions.ed3b1820980097f1.webp)
 
 Veriler, aşağıdaki formatta bir JSON blobu olarak kaydedilecektir:
 

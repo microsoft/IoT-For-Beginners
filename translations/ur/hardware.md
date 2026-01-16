@@ -21,7 +21,7 @@ IoT میں **T** کا مطلب **چیزیں** ہے، اور یہ ان آلات �
 
 ## کٹس خریدیں
 
-![Seeed Studios کا لوگو](../../translated_images/ur/seeed-logo.74732b6b482b6e8e.png)
+![Seeed Studios کا لوگو](../../translated_images/ur/seeed-logo.74732b6b482b6e8e.webp)
 
 Seeed Studios نے بہت مہربانی سے تمام ہارڈویئر کو آسانی سے خریدنے کے لیے کٹس کی شکل میں دستیاب کر دیا ہے:
 
@@ -29,7 +29,7 @@ Seeed Studios نے بہت مہربانی سے تمام ہارڈویئر کو آ�
 
 **[Seeed اور Microsoft کے ساتھ ابتدائی IoT - Wio ٹرمینل اسٹارٹر کٹ](https://www.seeedstudio.com/IoT-for-beginners-with-Seeed-and-Microsoft-Wio-Terminal-Starter-Kit-p-5006.html)**
 
-[![Wio ٹرمینل ہارڈویئر کٹ](../../translated_images/ur/wio-hardware-kit.4c70c48b85e4283a.png)](https://www.seeedstudio.com/IoT-for-beginners-with-Seeed-and-Microsoft-Wio-Terminal-Starter-Kit-p-5006.html)
+[![Wio ٹرمینل ہارڈویئر کٹ](../../translated_images/ur/wio-hardware-kit.4c70c48b85e4283a.webp)](https://www.seeedstudio.com/IoT-for-beginners-with-Seeed-and-Microsoft-Wio-Terminal-Starter-Kit-p-5006.html)
 
 ### Raspberry Pi
 

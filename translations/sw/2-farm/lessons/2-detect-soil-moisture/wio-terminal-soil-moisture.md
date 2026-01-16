@@ -33,11 +33,11 @@ Unganisha kihisi cha unyevu wa udongo.
 
 1. Ukiwa na Wio Terminal imekatwa kutoka kwa kompyuta yako au chanzo kingine cha nguvu, unganisha mwisho mwingine wa kebo ya Grove kwenye soketi ya kulia ya Grove kwenye Wio Terminal unapoangalia skrini. Hii ni soketi iliyo mbali zaidi na kitufe cha nguvu.
 
-![Kihisi cha unyevu wa udongo cha Grove kimeunganishwa kwenye soketi ya kulia](../../../../../translated_images/sw/wio-soil-moisture-sensor.46919b61c3f6cb74.png)
+![Kihisi cha unyevu wa udongo cha Grove kimeunganishwa kwenye soketi ya kulia](../../../../../translated_images/sw/wio-soil-moisture-sensor.46919b61c3f6cb74.webp)
 
 1. Ingiza kihisi cha unyevu wa udongo kwenye udongo. Kina mstari wa 'kiwango cha juu zaidi' - mstari mweupe kwenye kihisi. Ingiza kihisi hadi mstari huo lakini usivuke mstari huo.
 
-![Kihisi cha unyevu wa udongo cha Grove kwenye udongo](../../../../../translated_images/sw/soil-moisture-sensor-in-soil.bfad91002bda5e96.png)
+![Kihisi cha unyevu wa udongo cha Grove kwenye udongo](../../../../../translated_images/sw/soil-moisture-sensor-in-soil.bfad91002bda5e96.webp)
 
 1. Sasa unaweza kuunganisha Wio Terminal kwenye kompyuta yako.
 

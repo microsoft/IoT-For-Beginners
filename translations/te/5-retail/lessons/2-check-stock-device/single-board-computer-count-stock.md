@@ -81,7 +81,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 1. క్యామెరాను షెల్ఫ్ లోని స్టాక్ పైన ఉంచి యాప్ నడపండి. VS కోడ్ ఎక్స్ప్లోరర్ లో `image.jpg` ఫైల్ కనపడుతుంది, దానిని ఎంచుకొని బౌండింగ్ బాక్స్‌లను చూడవచ్చు.
 
-    ![4 cans of tomato paste with bounding boxes around each can](../../../../../translated_images/te/rpi-stock-with-bounding-boxes.b5540e2ecb7cd49f.jpg)
+    ![4 cans of tomato paste with bounding boxes around each can](../../../../../translated_images/te/rpi-stock-with-bounding-boxes.b5540e2ecb7cd49f.webp)
 
 ## స్టాక్ లెక్కించండి
 

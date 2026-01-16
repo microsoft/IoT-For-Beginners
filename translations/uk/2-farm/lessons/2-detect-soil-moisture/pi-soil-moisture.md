@@ -37,7 +37,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 1. Вставте датчик вологості ґрунту в ґрунт. На ньому є "лінія максимальної глибини" — біла лінія через датчик. Вставте датчик до цієї лінії, але не глибше.
 
-![Датчик вологості ґрунту Grove у ґрунті](../../../../../translated_images/uk/soil-moisture-sensor-in-soil.bfad91002bda5e96.png)
+![Датчик вологості ґрунту Grove у ґрунті](../../../../../translated_images/uk/soil-moisture-sensor-in-soil.bfad91002bda5e96.webp)
 
 ## Програмування датчика вологості ґрунту
 

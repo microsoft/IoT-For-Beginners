@@ -37,7 +37,7 @@ UART involverar fysisk kretsdesign som gör det möjligt för två enheter att k
 * Enhet 1 skickar data från sin Tx-pinne, som tas emot av enhet 2 på dess Rx-pinne
 * Enhet 1 tar emot data på sin Rx-pinne som skickas av enhet 2 från dess Tx-pinne
 
-![UART med Tx-pinnen på ett chip ansluten till Rx-pinnen på ett annat, och vice versa](../../../../../translated_images/sv/uart.d0dbd3fb9e3728c6.png)
+![UART med Tx-pinnen på ett chip ansluten till Rx-pinnen på ett annat, och vice versa](../../../../../translated_images/sv/uart.d0dbd3fb9e3728c6.webp)
 
 > 🎓 Data skickas en bit i taget, och detta kallas *seriell* kommunikation. De flesta operativsystem och mikrokontroller har *seriella portar*, det vill säga anslutningar som kan skicka och ta emot seriell data som är tillgängliga för din kod.
 
@@ -66,7 +66,7 @@ SPI-controllrar använder tre kablar, tillsammans med en extra kabel per perifer
 | SCLK | Serial Clock | Denna kabel skickar en klocksignal med en hastighet som ställs in av controllern. |
 | CS   | Chip Select | Controllern har flera kablar, en per periferienhet, och varje kabel ansluts till CS-kabeln på motsvarande periferienhet. |
 
-![SPI med en controller och två periferienheter](../../../../../translated_images/sv/spi.297431d6f98b386b.png)
+![SPI med en controller och två periferienheter](../../../../../translated_images/sv/spi.297431d6f98b386b.webp)
 
 CS-kabeln används för att aktivera en periferienhet åt gången, och kommunicerar över COPI- och CIPO-kablarna. När controllern behöver byta periferienhet, inaktiverar den CS-kabeln som är ansluten till den aktuellt aktiva periferienheten, och aktiverar sedan kabeln som är ansluten till den periferienhet den vill kommunicera med nästa gång.
 
@@ -127,13 +127,13 @@ Jordfuktighet mäts med gravimetriskt eller volymetriskt vatteninnehåll.
 
 Jordfuktighetssensorer mäter elektrisk resistans eller kapacitans - detta varierar inte bara med jordfuktighet, utan också med jordtyp eftersom komponenterna i jorden kan förändra dess elektriska egenskaper. Idealiskt bör sensorer kalibreras - det vill säga ta avläsningar från sensorn och jämföra dem med mätningar som hittas med en mer vetenskaplig metod. Till exempel kan ett laboratorium beräkna den gravimetriska jordfuktigheten med hjälp av prover från ett specifikt fält som tas några gånger per år, och dessa siffror används för att kalibrera sensorn, matcha sensoravläsningen till den gravimetriska jordfuktigheten.
 
-![En graf över spänning vs jordfuktighetsinnehåll](../../../../../translated_images/sv/soil-moisture-to-voltage.df86d80cda158700.png)
+![En graf över spänning vs jordfuktighetsinnehåll](../../../../../translated_images/sv/soil-moisture-to-voltage.df86d80cda158700.webp)
 
 Grafen ovan visar hur man kalibrerar en sensor. Spänningen fångas för ett jordprov som sedan mäts i ett laboratorium genom att jämföra den fuktiga vikten med den torra vikten (genom att mäta vikten våt, sedan torka i en ugn och mäta torr). När några avläsningar har tagits kan detta plottas på en graf och en linje anpassas till punkterna. Denna linje kan sedan användas för att konvertera jordfuktighetssensoravläsningar tagna av en IoT-enhet till faktiska jordfuktighetsmätningar.
 
 💁 För resistiva jordfuktighetssensorer ökar spänningen när jordfuktigheten ökar. För kapacitiva jordfuktighetssensorer minskar spänningen när jordfuktigheten ökar, så graferna för dessa skulle luta nedåt, inte uppåt.
 
-![Ett jordfuktighetsvärde interpolerat från grafen](../../../../../translated_images/sv/soil-moisture-to-voltage-with-reading.681cb3e1f8b68caf.png)
+![Ett jordfuktighetsvärde interpolerat från grafen](../../../../../translated_images/sv/soil-moisture-to-voltage-with-reading.681cb3e1f8b68caf.webp)
 
 Grafen ovan visar en spänningsavläsning från en jordfuktighetssensor, och genom att följa den till linjen på grafen kan den faktiska jordfuktigheten beräknas.
 

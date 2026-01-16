@@ -29,7 +29,7 @@ Unganisha kamera.
 
 1. Pini kwenye msingi wa ArduCam zinahitaji kuunganishwa kwenye pini za GPIO za Wio Terminal. Ili iwe rahisi kupata pini sahihi, weka stika ya pini ya GPIO inayokuja na Wio Terminal kuzunguka pini:
 
-    ![Wio Terminal ikiwa na stika ya pini ya GPIO](../../../../../translated_images/sw/wio-terminal-pin-sticker.b90b1535937b84bd.png)
+    ![Wio Terminal ikiwa na stika ya pini ya GPIO](../../../../../translated_images/sw/wio-terminal-pin-sticker.b90b1535937b84bd.webp)
 
 1. Kwa kutumia nyaya za kuruka, fanya miunganisho ifuatayo:
 
@@ -297,7 +297,7 @@ Wio Terminal sasa inaweza kupangwa kupiga picha wakati kitufe kinapobonyezwa.
 
 1. Microcontrollers huendesha msimbo wako mfululizo, kwa hivyo si rahisi kuanzisha kitu kama kupiga picha bila kujibu kihisi. Wio Terminal ina vitufe, kwa hivyo kamera inaweza kusanidiwa kuanzishwa na moja ya vitufe. Ongeza msimbo ufuatao mwishoni mwa kazi ya `setup` ili kusanidi kitufe cha C (kimoja kati ya vitufe vitatu juu, kilicho karibu zaidi na swichi ya nguvu).
 
-    ![Kitufe cha C juu karibu na swichi ya nguvu](../../../../../translated_images/sw/wio-terminal-c-button.73df3cb1c1445ea0.png)
+    ![Kitufe cha C juu karibu na swichi ya nguvu](../../../../../translated_images/sw/wio-terminal-c-button.73df3cb1c1445ea0.webp)
 
     ```cpp
     pinMode(WIO_KEY_C, INPUT_PULLUP);

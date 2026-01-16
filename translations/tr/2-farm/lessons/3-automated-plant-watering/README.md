@@ -55,11 +55,11 @@ Bir röle, bir elektrik sinyalini mekanik bir harekete dönüştüren ve bir ana
 
 > 🎓 [Elektromıknatıslar](https://wikipedia.org/wiki/Electromagnet), bir tel bobininden elektrik geçirilerek oluşturulan mıknatıslardır. Elektrik açıldığında, bobin manyetize olur. Elektrik kapatıldığında, bobin manyetizmasını kaybeder.
 
-![Açık olduğunda, elektromıknatıs bir manyetik alan oluşturur ve çıkış devresinin anahtarını açar](../../../../../translated_images/tr/relay-on.4db16a0fd6b66926.png)
+![Açık olduğunda, elektromıknatıs bir manyetik alan oluşturur ve çıkış devresinin anahtarını açar](../../../../../translated_images/tr/relay-on.4db16a0fd6b66926.webp)
 
 Bir rölede, bir kontrol devresi elektromıknatısı besler. Elektromıknatıs açık olduğunda, bir kolu çeker ve bir anahtarı hareket ettirir, bir çift kontağı kapatır ve bir çıkış devresini tamamlar.
 
-![Kapalı olduğunda, elektromıknatıs bir manyetik alan oluşturmaz ve çıkış devresinin anahtarını kapatır](../../../../../translated_images/tr/relay-off.c34a178a2960fecd.png)
+![Kapalı olduğunda, elektromıknatıs bir manyetik alan oluşturmaz ve çıkış devresinin anahtarını kapatır](../../../../../translated_images/tr/relay-off.c34a178a2960fecd.webp)
 
 Kontrol devresi kapalı olduğunda, elektromıknatıs kapanır, kolu serbest bırakır ve kontakları açar, çıkış devresini kapatır. Röleler dijital aktüatörlerdir - röleye yüksek bir sinyal gönderildiğinde açılır, düşük bir sinyal gönderildiğinde kapanır.
 
@@ -85,7 +85,7 @@ Elektromıknatısın kolu çekmek için çok fazla güce ihtiyacı yoktur, 3.3V 
 
 Yukarıdaki görselde bir Grove rölesi gösterilmektedir. Kontrol devresi, bir IoT cihazına bağlanır ve röleyi 3.3V veya 5V kullanarak açar veya kapatır. Çıkış devresinin iki terminali vardır, herhangi biri güç veya toprak olabilir. Çıkış devresi, 250V'da 10A'ya kadar dayanabilir, bu da bir dizi ana elektrikle çalışan cihaz için yeterlidir. Daha yüksek güç seviyelerine dayanabilen röleler de mevcuttur.
 
-![Bir röle üzerinden bağlanmış bir pompa](../../../../../translated_images/tr/pump-wired-to-relay.66c5cfc0d8918990.png)
+![Bir röle üzerinden bağlanmış bir pompa](../../../../../translated_images/tr/pump-wired-to-relay.66c5cfc0d8918990.webp)
 
 Yukarıdaki görselde, bir röle üzerinden bir pompaya güç sağlanmaktadır. Bir kırmızı kablo, bir USB güç kaynağının +5V terminalini rölenin çıkış devresinin bir terminaline bağlar ve başka bir kırmızı kablo, çıkış devresinin diğer terminalini pompaya bağlar. Siyah bir kablo, pompayı USB güç kaynağının toprak terminaline bağlar. Röle açıldığında, devre tamamlanır, pompaya 5V gönderilir ve pompa çalışır.
 
@@ -135,7 +135,7 @@ Ders 3'te bir gece lambası yapmıştınız - bir ışık sensörü tarafından 
 
 Eğer önceki derste fiziksel bir sensör kullanarak toprak nemini ölçtüyseniz, bitkinizi suladıktan sonra toprak nemi ölçümünün düşmesinin birkaç saniye sürdüğünü fark etmiş olabilirsiniz. Bu, sensörün yavaş olmasından değil, suyun toprağa nüfuz etmesinin zaman almasından kaynaklanır.
 💁 Sensöre çok yakın bir şekilde sulama yaptıysanız, ölçümün hızla düştüğünü ve ardından tekrar yükseldiğini görmüş olabilirsiniz - bu, sensörün yakınındaki suyun toprağın geri kalanına yayılması ve sensörün bulunduğu bölgedeki toprak nemini azaltmasından kaynaklanır.
-![Sulama sırasında 658 olan bir toprak nem ölçümü değişmez, su toprağa nüfuz ettiğinde sulamadan sonra yalnızca 320'ye düşer](../../../../../translated_images/tr/soil-moisture-travel.a0e31af222cf1438.png)
+![Sulama sırasında 658 olan bir toprak nem ölçümü değişmez, su toprağa nüfuz ettiğinde sulamadan sonra yalnızca 320'ye düşer](../../../../../translated_images/tr/soil-moisture-travel.a0e31af222cf1438.webp)
 
 Yukarıdaki diyagramda, bir toprak nem ölçümü 658 değerini gösteriyor. Bitki sulanıyor, ancak bu ölçüm hemen değişmiyor çünkü su henüz sensöre ulaşmamış. Su sensöre ulaşmadan sulama işlemi tamamlanabilir ve değer, yeni nem seviyesini yansıtacak şekilde düşer.
 
@@ -157,11 +157,11 @@ Röle her seferinde ne kadar süre açık kalmalı? Daha temkinli olmak ve röle
 
 > 💁 Bu tür zamanlama kontrolü, oluşturduğunuz IoT cihazına, ölçülen özelliğe ve kullanılan sensörler ve aktüatörlere çok özeldir.
 
-![Bir çilek bitkisi, bir pompa aracılığıyla suya bağlı, pompa bir röleye bağlı. Röle ve bitkideki bir toprak nem sensörü, bir Raspberry Pi'ye bağlı](../../../../../translated_images/tr/strawberry-with-pump.b410fc72ac6aabad.png)
+![Bir çilek bitkisi, bir pompa aracılığıyla suya bağlı, pompa bir röleye bağlı. Röle ve bitkideki bir toprak nem sensörü, bir Raspberry Pi'ye bağlı](../../../../../translated_images/tr/strawberry-with-pump.b410fc72ac6aabad.webp)
 
 Örneğin, bir toprak nem sensörü ve bir röle tarafından kontrol edilen bir pompa ile bir çilek bitkim var. Su eklediğimde, toprak nem okumasının stabilize olması yaklaşık 20 saniye sürüyor. Bu, röleyi kapatmam ve nem seviyelerini kontrol etmeden önce 20 saniye beklemem gerektiği anlamına geliyor. Çok az su olmasını çok fazla suya tercih ederim - pompayı her zaman tekrar açabilirim, ancak bitkiden suyu çıkaramam.
 
-![Adım 1, ölçüm al. Adım 2, su ekle. Adım 3, suyun toprağa nüfuz etmesini bekle. Adım 4, ölçümü tekrar al](../../../../../translated_images/tr/soil-moisture-delay.865f3fae206db01d.png)
+![Adım 1, ölçüm al. Adım 2, su ekle. Adım 3, suyun toprağa nüfuz etmesini bekle. Adım 4, ölçümü tekrar al](../../../../../translated_images/tr/soil-moisture-delay.865f3fae206db01d.webp)
 
 Bu, en iyi sürecin şu şekilde bir sulama döngüsü olacağı anlamına gelir:
 

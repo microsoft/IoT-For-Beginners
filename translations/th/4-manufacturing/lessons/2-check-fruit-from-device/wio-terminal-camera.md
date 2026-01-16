@@ -29,7 +29,7 @@ ArduCam ไม่มี Grove socket แต่จะเชื่อมต่อ�
 
 1. ขา (pins) ที่ฐานของ ArduCam ต้องเชื่อมต่อกับ GPIO pins บน Wio Terminal เพื่อให้ง่ายต่อการหาขาที่ถูกต้อง ให้ติดสติกเกอร์ GPIO pin ที่มาพร้อมกับ Wio Terminal รอบๆ ขา:
 
-    ![Wio Terminal พร้อมสติกเกอร์ GPIO pin](../../../../../translated_images/th/wio-terminal-pin-sticker.b90b1535937b84bd.png)
+    ![Wio Terminal พร้อมสติกเกอร์ GPIO pin](../../../../../translated_images/th/wio-terminal-pin-sticker.b90b1535937b84bd.webp)
 
 1. ใช้สายจัมเปอร์ (jumper wires) เชื่อมต่อดังนี้:
 
@@ -297,7 +297,7 @@ ArduCam ไม่มี Grove socket แต่จะเชื่อมต่อ�
 
 1. Microcontrollers ทำงานโค้ดของคุณอย่างต่อเนื่อง ดังนั้นจึงไม่ง่ายที่จะเรียกใช้งานบางอย่างเช่นการถ่ายภาพโดยไม่ตอบสนองต่อเซ็นเซอร์ Wio Terminal มีปุ่ม ดังนั้นกล้องสามารถตั้งค่าให้ถูกเรียกใช้งานโดยหนึ่งในปุ่มได้ เพิ่มโค้ดต่อไปนี้ที่ท้ายฟังก์ชัน `setup` เพื่อกำหนดค่าปุ่ม C (หนึ่งในสามปุ่มด้านบน ปุ่มที่ใกล้กับสวิตช์เปิดปิดมากที่สุด)
 
-    ![ปุ่ม C ด้านบนใกล้กับสวิตช์เปิดปิด](../../../../../translated_images/th/wio-terminal-c-button.73df3cb1c1445ea0.png)
+    ![ปุ่ม C ด้านบนใกล้กับสวิตช์เปิดปิด](../../../../../translated_images/th/wio-terminal-c-button.73df3cb1c1445ea0.webp)
 
     ```cpp
     pinMode(WIO_KEY_C, INPUT_PULLUP);

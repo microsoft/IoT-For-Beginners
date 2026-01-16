@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 [Raspberry Pi](https://raspberrypi.org) ni kompyuta ya bodi moja. Unaweza kuongeza vihisi na vihisishi kwa kutumia vifaa na mifumo mbalimbali, na kwa masomo haya utatumia mfumo wa vifaa unaoitwa [Grove](https://www.seeedstudio.com/category/Grove-c-1003.html). Utatumia Python kuandika programu yako ya Pi na kufikia vihisi vya Grove.
 
-![Raspberry Pi 4](../../../../../translated_images/sw/raspberry-pi-4.fd4590d308c3d456.jpg)
+![Raspberry Pi 4](../../../../../translated_images/sw/raspberry-pi-4.fd4590d308c3d456.webp)
 
 ## Usanidi
 
@@ -112,7 +112,7 @@ Sanidi Pi OS isiyo na kichwa.
 
 1. Kutoka Raspberry Pi Imager, chagua kitufe cha **CHOOSE OS**, kisha chagua *Raspberry Pi OS (Other)*, ikifuatiwa na *Raspberry Pi OS Lite (32-bit)*
 
-    ![Raspberry Pi Imager na Raspberry Pi OS Lite iliyochaguliwa](../../../../../translated_images/sw/raspberry-pi-imager.24aedeab9e233d84.png)
+    ![Raspberry Pi Imager na Raspberry Pi OS Lite iliyochaguliwa](../../../../../translated_images/sw/raspberry-pi-imager.24aedeab9e233d84.webp)
 
     > 💁 Raspberry Pi OS Lite ni toleo la Raspberry Pi OS ambalo halina UI ya desktop au zana za UI. Hizi hazihitajiki kwa Pi isiyo na kichwa na hufanya usakinishaji kuwa mdogo na muda wa kuwasha haraka.
 
@@ -251,7 +251,7 @@ Unda programu ya Hello World.
 
 1. Fungua folda hii kwenye VS Code kwa kuchagua *File -> Open...* na kuchagua folda *nightlight*, kisha chagua **OK**.
 
-    ![Kidirisha cha kufungua cha VS Code kinachoonyesha folda ya nightlight](../../../../../translated_images/sw/vscode-open-nightlight-remote.d3d2a4011e30d535.png)
+    ![Kidirisha cha kufungua cha VS Code kinachoonyesha folda ya nightlight](../../../../../translated_images/sw/vscode-open-nightlight-remote.d3d2a4011e30d535.webp)
 
 1. Fungua faili `app.py` kutoka kwa kivinjari cha VS Code na ongeza msimbo ufuatao:
 

@@ -110,7 +110,7 @@ Coğrafi çitler, önceki derste haritaya eklenen noktalarla aynı şekilde GeoJ
 
 Çokgen koordinatları dizisi, çokgendeki nokta sayısından her zaman 1 fazla girişe sahiptir. Son giriş, çokgeni kapatmak için ilk girişle aynıdır. Örneğin, bir dikdörtgen için 5 nokta olacaktır.
 
-![Koordinatları olan bir dikdörtgen](../../../../../translated_images/tr/polygon-points.302193da381cb415.png)
+![Koordinatları olan bir dikdörtgen](../../../../../translated_images/tr/polygon-points.302193da381cb415.webp)
 
 Yukarıdaki resimde bir dikdörtgen var. Çokgen koordinatları, sol üstteki 47,-122'den başlar, sonra sağa 47,-121'e gider, sonra aşağıya 46,-121'e, sonra sola 46,-122'ye ve sonra başlangıç noktasına, yani 47,-122'ye geri döner. Bu, çokgene 5 nokta verir - sol üst, sağ üst, sağ alt, sol alt ve sonra sol üst noktayı kapatmak için.
 
@@ -208,7 +208,7 @@ Bu isteği yaparken, `searchBuffer` adlı bir değer de geçirebilirsiniz. Bu, s
 
 API çağrısından dönen sonuçlarda, sonuçlardan biri coğrafi çitin kenarına en yakın noktaya ölçülen bir `distance` değeridir. Bu değer, nokta coğrafi çitin dışındaysa pozitif, içindeyse negatif olur. Bu mesafe arama tamponundan küçükse, gerçek mesafe metre cinsinden döndürülür. Aksi takdirde değer 999 veya -999 olur. 999, noktanın coğrafi çitin dışında arama tamponundan daha fazla olduğu anlamına gelir. -999, noktanın coğrafi çitin içinde arama tamponundan daha fazla olduğu anlamına gelir.
 
-![Etrafında 50m arama tamponu olan bir coğrafi çit](../../../../../translated_images/tr/search-buffer-and-distance.e6a79af3898183c7.png)
+![Etrafında 50m arama tamponu olan bir coğrafi çit](../../../../../translated_images/tr/search-buffer-and-distance.e6a79af3898183c7.webp)
 
 Yukarıdaki resimde, coğrafi çitin etrafında 50m arama tamponu var.
 

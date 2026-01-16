@@ -66,7 +66,7 @@ Databaser är tjänster som gör det möjligt att lagra och söka i data. Databa
 
 De första databaserna var relationsdatabashanteringssystem (RDBMS), eller relationsdatabaser. Dessa är också kända som SQL-databaser efter Structured Query Language (SQL) som används för att interagera med dem för att lägga till, ta bort, uppdatera eller söka i data. Dessa databaser består av ett schema - en väldefinierad uppsättning datatabeller, liknande ett kalkylblad. Varje tabell har flera namngivna kolumner. När du lägger till data lägger du till en rad i tabellen och fyller i värden i varje kolumn. Detta håller data i en mycket rigid struktur - även om du kan lämna kolumner tomma, måste du lägga till en ny kolumn i databasen och fylla i värden för de befintliga raderna om du vill lägga till en ny kolumn. Dessa databaser är relationella - en tabell kan ha en relation till en annan.
 
-![En relationsdatabas där ID:t i användartabellen relaterar till användar-ID-kolumnen i köp-tabellen, och ID:t i produkttabellen relaterar till produkt-ID:t i köp-tabellen](../../../../../translated_images/sv/sql-database.be160f12bfccefd3.png)
+![En relationsdatabas där ID:t i användartabellen relaterar till användar-ID-kolumnen i köp-tabellen, och ID:t i produkttabellen relaterar till produkt-ID:t i köp-tabellen](../../../../../translated_images/sv/sql-database.be160f12bfccefd3.webp)
 
 Till exempel, om du lagrade en användares personliga uppgifter i en tabell, skulle du ha någon form av internt unikt ID per användare som används i en rad i en tabell som innehåller användarens namn och adress. Om du sedan ville lagra andra detaljer om den användaren, som deras köp, i en annan tabell, skulle du ha en kolumn i den nya tabellen för användarens ID. När du söker upp en användare kan du använda deras ID för att få deras personliga uppgifter från en tabell och deras köp från en annan.
 
@@ -241,7 +241,7 @@ Din Functions-app behöver nu ansluta till blob-lagring för att lagra meddeland
 
 I denna lektion kommer du att använda Python SDK för att se hur man interagerar med blob-lagring.
 
-![Skicka GPS-telemetri från en IoT-enhet till IoT Hub, sedan till Azure Functions via en Event Hub-utlösare, och sedan spara det till blob-lagring](../../../../../translated_images/sv/save-telemetry-to-storage-from-functions.ed3b1820980097f1.png)
+![Skicka GPS-telemetri från en IoT-enhet till IoT Hub, sedan till Azure Functions via en Event Hub-utlösare, och sedan spara det till blob-lagring](../../../../../translated_images/sv/save-telemetry-to-storage-from-functions.ed3b1820980097f1.webp)
 
 Data kommer att sparas som en JSON-blob med följande format:
 

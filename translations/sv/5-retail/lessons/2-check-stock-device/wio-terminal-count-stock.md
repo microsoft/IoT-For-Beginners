@@ -13,7 +13,7 @@ En kombination av förutsägelser och deras begränsningsramar kan användas fö
 
 ## Räkna lager
 
-![4 burkar tomatpuré med begränsningsramar runt varje burk](../../../../../translated_images/sv/rpi-stock-with-bounding-boxes.b5540e2ecb7cd49f.jpg)
+![4 burkar tomatpuré med begränsningsramar runt varje burk](../../../../../translated_images/sv/rpi-stock-with-bounding-boxes.b5540e2ecb7cd49f.webp)
 
 I bilden ovan har begränsningsramarna en liten överlappning. Om denna överlappning var mycket större, kan begränsningsramarna indikera samma objekt. För att räkna objekten korrekt behöver du ignorera ramar med en betydande överlappning.
 

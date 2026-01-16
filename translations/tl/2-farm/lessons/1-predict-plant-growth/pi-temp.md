@@ -31,7 +31,7 @@ Ikonekta ang temperature sensor
 
 1. Kapag naka-off ang Raspberry Pi, ikonekta ang kabilang dulo ng Grove cable sa digital socket na may markang **D5** sa Grove Base hat na nakakabit sa Pi. Ang socket na ito ay pangalawa mula sa kaliwa, sa hanay ng mga socket malapit sa GPIO pins.
 
-![Ang Grove temperature sensor na nakakonekta sa socket A0](../../../../../translated_images/tl/pi-temperature-sensor.3ff82fff672c8e56.png)
+![Ang Grove temperature sensor na nakakonekta sa socket A0](../../../../../translated_images/tl/pi-temperature-sensor.3ff82fff672c8e56.webp)
 
 ## Iprograma ang temperature sensor
 

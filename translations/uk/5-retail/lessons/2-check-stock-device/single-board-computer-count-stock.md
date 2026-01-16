@@ -81,7 +81,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 1. Запустіть додаток, направивши камеру на запаси на полиці. Ви побачите файл `image.jpg` у провіднику VS Code і зможете вибрати його, щоб побачити рамки.
 
-    ![4 банки томатної пасти з рамками навколо кожної банки](../../../../../translated_images/uk/rpi-stock-with-bounding-boxes.b5540e2ecb7cd49f.jpg)
+    ![4 банки томатної пасти з рамками навколо кожної банки](../../../../../translated_images/uk/rpi-stock-with-bounding-boxes.b5540e2ecb7cd49f.webp)
 
 ## Підрахунок запасів
 

@@ -65,7 +65,7 @@ Ang bawat uri ng halaman ay may iba't ibang halaga para sa kanilang base, optima
 
 ✅ Mag-research. Para sa anumang mga halaman na mayroon ka sa iyong hardin, paaralan, o lokal na parke, tingnan kung maaari mong mahanap ang base temperature.
 
-![Isang graph na nagpapakita ng bilis ng paglago na tumataas habang tumataas ang temperatura, pagkatapos ay bumababa kapag masyadong mataas ang temperatura](../../../../../translated_images/tl/plant-growth-temp-graph.c6d69c9478e6ca83.png)
+![Isang graph na nagpapakita ng bilis ng paglago na tumataas habang tumataas ang temperatura, pagkatapos ay bumababa kapag masyadong mataas ang temperatura](../../../../../translated_images/tl/plant-growth-temp-graph.c6d69c9478e6ca83.webp)
 
 Ang graph sa itaas ay nagpapakita ng isang halimbawa ng graph ng bilis ng paglago sa temperatura. Hanggang sa base temperature, walang paglago. Ang bilis ng paglago ay tumataas hanggang sa optimum temperature, pagkatapos ay bumababa pagkatapos maabot ang peak na ito. 
 
@@ -91,7 +91,7 @@ Ang code na ito ay nagbubukas ng CSV file, pagkatapos ay nagdaragdag ng bagong r
 
     
 > 💁 Kung gumagamit ka ng Virtual IoT Device, piliin ang random checkbox at magtakda ng saklaw upang maiwasan ang pagkuha ng parehong temperatura tuwing ibinabalik ang halaga ng temperatura.
-    ![Piliin ang random checkbox at magtakda ng saklaw](../../../../../translated_images/tl/select-the-random-checkbox-and-set-a-range.32cf4bc7c12e797f.png) 
+    ![Piliin ang random checkbox at magtakda ng saklaw](../../../../../translated_images/tl/select-the-random-checkbox-and-set-a-range.32cf4bc7c12e797f.webp) 
 
     > 💁 Kung nais mong patakbuhin ito nang buong araw, siguraduhin na ang computer kung saan tumatakbo ang iyong server code ay hindi mag-sleep, alinman sa pamamagitan ng pagbabago ng iyong power settings, o paggamit ng isang bagay tulad ng [this keep system active Python script](https://github.com/jaqsparow/keep-system-active).
     

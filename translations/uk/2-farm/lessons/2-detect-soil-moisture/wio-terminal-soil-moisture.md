@@ -33,11 +33,11 @@ CO_OP_TRANSLATOR_METADATA:
 
 1. З відключеним Wio Terminal від комп'ютера або іншого джерела живлення підключіть інший кінець кабелю Grove до правого роз'єму Grove на Wio Terminal, якщо дивитися на екран. Це роз'єм, який знаходиться найдалі від кнопки живлення.
 
-![Датчик вологості ґрунту Grove, підключений до правого роз'єму](../../../../../translated_images/uk/wio-soil-moisture-sensor.46919b61c3f6cb74.png)
+![Датчик вологості ґрунту Grove, підключений до правого роз'єму](../../../../../translated_images/uk/wio-soil-moisture-sensor.46919b61c3f6cb74.webp)
 
 1. Вставте датчик вологості ґрунту в ґрунт. На ньому є «лінія найвищого положення» — біла лінія через датчик. Вставте датчик до цієї лінії, але не глибше.
 
-![Датчик вологості ґрунту Grove у ґрунті](../../../../../translated_images/uk/soil-moisture-sensor-in-soil.bfad91002bda5e96.png)
+![Датчик вологості ґрунту Grove у ґрунті](../../../../../translated_images/uk/soil-moisture-sensor-in-soil.bfad91002bda5e96.webp)
 
 1. Тепер ви можете підключити Wio Terminal до комп'ютера.
 

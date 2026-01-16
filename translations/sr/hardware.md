@@ -21,7 +21,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 ## Куповина комплета
 
-![Лого Seeed студија](../../translated_images/sr/seeed-logo.74732b6b482b6e8e.png)
+![Лого Seeed студија](../../translated_images/sr/seeed-logo.74732b6b482b6e8e.webp)
 
 Seeed Studios су љубазно обезбедили сав хардвер у облику лако доступних комплета:
 
@@ -29,7 +29,7 @@ Seeed Studios су љубазно обезбедили сав хардвер у 
 
 **[IoT за почетнике са Seeed и Microsoft - Wio Terminal Starter Kit](https://www.seeedstudio.com/IoT-for-beginners-with-Seeed-and-Microsoft-Wio-Terminal-Starter-Kit-p-5006.html)**
 
-[![Wio Terminal хардверски комплет](../../translated_images/sr/wio-hardware-kit.4c70c48b85e4283a.png)](https://www.seeedstudio.com/IoT-for-beginners-with-Seeed-and-Microsoft-Wio-Terminal-Starter-Kit-p-5006.html)
+[![Wio Terminal хардверски комплет](../../translated_images/sr/wio-hardware-kit.4c70c48b85e4283a.webp)](https://www.seeedstudio.com/IoT-for-beginners-with-Seeed-and-Microsoft-Wio-Terminal-Starter-Kit-p-5006.html)
 
 ### Raspberry Pi
 

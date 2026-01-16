@@ -17,7 +17,7 @@ Sensorn för den här lektionen är en **ljussensor** som använder en [fotodiod
 
 Ljussensorn är inbyggd i Wio Terminal och syns genom det genomskinliga plastfönstret på baksidan.
 
-![Ljussensorn på baksidan av Wio Terminal](../../../../../translated_images/sv/wio-light-sensor.b1f529f3c95f5165.png)
+![Ljussensorn på baksidan av Wio Terminal](../../../../../translated_images/sv/wio-light-sensor.b1f529f3c95f5165.webp)
 
 ## Programmera ljussensorn
 

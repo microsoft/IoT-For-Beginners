@@ -29,13 +29,13 @@ Grove టైమ్ ఆఫ్ ఫ్లైట్ సెన్సార్‌న�
 
 టైమ్ ఆఫ్ ఫ్లైట్ సెన్సార్ కనెక్ట్ చేయండి.
 
-![A grove time of flight sensor](../../../../../translated_images/te/grove-time-of-flight-sensor.d82ff2165bfded9f.png)
+![A grove time of flight sensor](../../../../../translated_images/te/grove-time-of-flight-sensor.d82ff2165bfded9f.webp)
 
 1. Grove కేబుల్ ఒక అంచుని టైమ్ ఆఫ్ ఫ్లైట్ సెన్సార్ సాకెట్‌లో ఇన్సర్ట్ చేయండి. ఇది ఒక దిశలో మాత్రమే పోతుంది.
 
 1. Wio టెర్మినల్ మీ కంప్యూటర్ లేదా ఇతర విద్యుత్ సరఫరా నుండి తొలగించినప్పుడు, Grove కేబుల్ యొక్క మరొక అంచుని Wio టెర్మినల్ స్క్రీన్ చూస్తున్నప్పుడు ఎడమవైపు Grove సాకెట్‌లో కనెక్ట్ చేయండి. ఇది పవర్ బటన్ కు దగ్గరగా ఉన్న సాకెట్. ఇది డిజిటల్ మరియు I<sup>2</sup>C సాకెట్ కలిపి ఉంది.
 
-![The grove time of flight sensor connected to the left hand socket](../../../../../translated_images/te/wio-time-of-flight-sensor.c4c182131d2ea73d.png)
+![The grove time of flight sensor connected to the left hand socket](../../../../../translated_images/te/wio-time-of-flight-sensor.c4c182131d2ea73d.webp)
 
 1. ఇప్పుడు మీరు Wio టెర్మినల్‌ను మీ కంప్యూటర్‌కు కనెక్ట్ చేయవచ్చు.
 
@@ -101,7 +101,7 @@ Wio టెర్మినల్ ఇప్పుడు కనెక్ట్ చ�
 
     రేంజర్ సెన్సార్ వెనుక భాగంలో ఉన్నందున, దూరం కొలవేటప్పుడు సరైన వైపు ఉపయోగించండి.
 
-    ![The rangefinder on the back of the time of flight sensor pointing at a banana](../../../../../translated_images/te/time-of-flight-banana.079921ad8b1496e4.png)
+    ![The rangefinder on the back of the time of flight sensor pointing at a banana](../../../../../translated_images/te/time-of-flight-banana.079921ad8b1496e4.webp)
 
 > 💁 మీరు ఈ కోడ్‌ను [code-proximity/wio-terminal](../../../../../4-manufacturing/lessons/4-trigger-fruit-detector/code-proximity/wio-terminal) ఫోల్డర్‌లో కనుగొనవచ్చు.
 

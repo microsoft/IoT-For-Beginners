@@ -66,7 +66,7 @@ Cơ sở dữ liệu là các dịch vụ cho phép bạn lưu trữ và truy v�
 
 Các cơ sở dữ liệu đầu tiên là Hệ thống Quản lý Cơ sở dữ liệu Quan hệ (RDBMS), hay cơ sở dữ liệu quan hệ. Chúng còn được gọi là cơ sở dữ liệu SQL theo ngôn ngữ Structured Query Language (SQL) được sử dụng để tương tác với chúng nhằm thêm, xóa, cập nhật hoặc truy vấn dữ liệu. Các cơ sở dữ liệu này bao gồm một lược đồ - một tập hợp các bảng dữ liệu được định nghĩa rõ ràng, tương tự như bảng tính. Mỗi bảng có nhiều cột được đặt tên. Khi bạn chèn dữ liệu, bạn thêm một hàng vào bảng, đặt giá trị vào từng cột. Điều này giữ cho dữ liệu có cấu trúc rất cứng nhắc - mặc dù bạn có thể để trống các cột, nếu bạn muốn thêm một cột mới, bạn phải thực hiện điều này trên cơ sở dữ liệu, điền giá trị cho các hàng hiện có. Các cơ sở dữ liệu này có tính quan hệ - nghĩa là một bảng có thể có mối quan hệ với bảng khác.
 
-![Một cơ sở dữ liệu quan hệ với ID của bảng Người dùng liên quan đến cột ID người dùng của bảng mua hàng, và ID của bảng sản phẩm liên quan đến cột ID sản phẩm của bảng mua hàng](../../../../../translated_images/vi/sql-database.be160f12bfccefd3.png)
+![Một cơ sở dữ liệu quan hệ với ID của bảng Người dùng liên quan đến cột ID người dùng của bảng mua hàng, và ID của bảng sản phẩm liên quan đến cột ID sản phẩm của bảng mua hàng](../../../../../translated_images/vi/sql-database.be160f12bfccefd3.webp)
 
 Ví dụ, nếu bạn lưu trữ thông tin cá nhân của người dùng trong một bảng, bạn sẽ có một số ID duy nhất nội bộ cho mỗi người dùng được sử dụng trong một hàng trong bảng chứa tên và địa chỉ của người dùng. Nếu bạn muốn lưu trữ các chi tiết khác về người dùng đó, chẳng hạn như các giao dịch mua của họ, trong một bảng khác, bạn sẽ có một cột trong bảng mới cho ID của người dùng đó. Khi bạn tra cứu một người dùng, bạn có thể sử dụng ID của họ để lấy thông tin cá nhân từ một bảng và các giao dịch mua của họ từ bảng khác.
 
@@ -241,7 +241,7 @@ Lưu trữ tệp là lưu trữ các tệp trên đám mây, và bất kỳ ứn
 
 Trong bài học này, bạn sẽ sử dụng SDK Python để xem cách tương tác với lưu trữ blob.
 
-![Gửi dữ liệu GPS từ thiết bị IoT đến IoT Hub, sau đó đến Azure Functions qua trình kích hoạt event hub, rồi lưu vào lưu trữ blob](../../../../../translated_images/vi/save-telemetry-to-storage-from-functions.ed3b1820980097f1.png)
+![Gửi dữ liệu GPS từ thiết bị IoT đến IoT Hub, sau đó đến Azure Functions qua trình kích hoạt event hub, rồi lưu vào lưu trữ blob](../../../../../translated_images/vi/save-telemetry-to-storage-from-functions.ed3b1820980097f1.webp)
 
 Dữ liệu sẽ được lưu dưới dạng một blob JSON với định dạng sau:
 

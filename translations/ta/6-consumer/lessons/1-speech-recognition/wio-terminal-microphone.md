@@ -15,11 +15,11 @@ CO_OP_TRANSLATOR_METADATA:
 
 Wio Terminal-ல் ஏற்கனவே ஒரு மைக்ரோஃபோன் உள்ளதால், இது பேச்சு அடையாளம் காணும் ஆடியோவை பதிவு செய்ய பயன்படுத்தப்படலாம்.
 
-![Wio Terminal-ல் உள்ள மைக்ரோஃபோன்](../../../../../translated_images/ta/wio-mic.3f8c843dbe8ad917.png)
+![Wio Terminal-ல் உள்ள மைக்ரோஃபோன்](../../../../../translated_images/ta/wio-mic.3f8c843dbe8ad917.webp)
 
 ஸ்பீக்கரை சேர்க்க, நீங்கள் [ReSpeaker 2-Mics Pi Hat](https://www.seeedstudio.com/ReSpeaker-2-Mics-Pi-HAT.html) பயன்படுத்தலாம். இது 2 MEMS மைக்ரோஃபோன்களையும், ஸ்பீக்கர் இணைப்பையும், ஹெட்போன் சாக்கெட்டையும் கொண்ட ஒரு வெளிப்புற போர்டு.
 
-![ReSpeaker 2-Mics Pi Hat](../../../../../translated_images/ta/respeaker.f5d19d1c6b14ab16.png)
+![ReSpeaker 2-Mics Pi Hat](../../../../../translated_images/ta/respeaker.f5d19d1c6b14ab16.webp)
 
 நீங்கள் ஹெட்போன்கள், 3.5mm ஜாக் கொண்ட ஸ்பீக்கர், அல்லது [Mono Enclosed Speaker - 2W 6 Ohm](https://www.seeedstudio.com/Mono-Enclosed-Speaker-2W-6-Ohm-p-2832.html) போன்ற JST இணைப்புடன் ஸ்பீக்கரை சேர்க்க வேண்டும்.
 
@@ -35,7 +35,7 @@ ReSpeaker 2-Mics Pi Hat-ஐ இணைக்க, 40 பின்-டூ-பின
 
     பின்கள் இந்த முறையில் இணைக்கப்பட வேண்டும்:
 
-    ![பின் வரைபடம்](../../../../../translated_images/ta/wio-respeaker-wiring-0.767f80aa65081038.png)
+    ![பின் வரைபடம்](../../../../../translated_images/ta/wio-respeaker-wiring-0.767f80aa65081038.webp)
 
 1. GPIO சாக்கெட்டுகள் மேலே நோக்கி இருக்கும் வகையில் ReSpeaker மற்றும் Wio Terminal-ஐ இடமாற்றம் செய்யவும், மேலும் இடது பக்கம் இருக்கும்.
 
@@ -43,33 +43,33 @@ ReSpeaker 2-Mics Pi Hat-ஐ இணைக்க, 40 பின்-டூ-பின
 
 1. இடது பக்கம் முழுவதும் GPIO சாக்கெட்டுகளை இணைக்கவும். பின்கள் உறுதியாக உள்ளதா என்பதை உறுதிப்படுத்தவும்.
 
-    ![ReSpeaker-ன் இடது பின்கள் Wio Terminal-ன் இடது பின்களுடன் இணைக்கப்பட்டுள்ளன](../../../../../translated_images/ta/wio-respeaker-wiring-1.8d894727f2ba2400.png)
+    ![ReSpeaker-ன் இடது பின்கள் Wio Terminal-ன் இடது பின்களுடன் இணைக்கப்பட்டுள்ளன](../../../../../translated_images/ta/wio-respeaker-wiring-1.8d894727f2ba2400.webp)
 
-    ![ReSpeaker-ன் இடது பின்கள் Wio Terminal-ன் இடது பின்களுடன் இணைக்கப்பட்டுள்ளன](../../../../../translated_images/ta/wio-respeaker-wiring-2.329e1cbd306e754f.png)
+    ![ReSpeaker-ன் இடது பின்கள் Wio Terminal-ன் இடது பின்களுடன் இணைக்கப்பட்டுள்ளன](../../../../../translated_images/ta/wio-respeaker-wiring-2.329e1cbd306e754f.webp)
 
     > 💁 உங்கள் ஜம்பர் கேபிள்கள் ரிப்பன்களாக இணைக்கப்பட்டிருந்தால், அவற்றை ஒன்றாக வைத்திருங்கள் - இது அனைத்து கேபிள்களையும் சரியான வரிசையில் இணைக்க உதவும்.
 
 1. ReSpeaker மற்றும் Wio Terminal-ன் வலது பக்கம் GPIO சாக்கெட்டுகளைப் பயன்படுத்தி செயல்முறையை மீண்டும் செய்யவும். இந்த கேபிள்கள் ஏற்கனவே உள்ள கேபிள்களின் சுற்றிலும் செல்ல வேண்டும்.
 
-    ![ReSpeaker-ன் வலது பின்கள் Wio Terminal-ன் வலது பின்களுடன் இணைக்கப்பட்டுள்ளன](../../../../../translated_images/ta/wio-respeaker-wiring-3.75b0be447e2fa930.png)
+    ![ReSpeaker-ன் வலது பின்கள் Wio Terminal-ன் வலது பின்களுடன் இணைக்கப்பட்டுள்ளன](../../../../../translated_images/ta/wio-respeaker-wiring-3.75b0be447e2fa930.webp)
 
-    ![ReSpeaker-ன் வலது பின்கள் Wio Terminal-ன் வலது பின்களுடன் இணைக்கப்பட்டுள்ளன](../../../../../translated_images/ta/wio-respeaker-wiring-4.aa9cd434d8779437.png)
+    ![ReSpeaker-ன் வலது பின்கள் Wio Terminal-ன் வலது பின்களுடன் இணைக்கப்பட்டுள்ளன](../../../../../translated_images/ta/wio-respeaker-wiring-4.aa9cd434d8779437.webp)
 
     > 💁 உங்கள் ஜம்பர் கேபிள்கள் ரிப்பன்களாக இணைக்கப்பட்டிருந்தால், அவற்றை இரண்டு ரிப்பன்களாகப் பிரிக்கவும். ஏற்கனவே உள்ள கேபிள்களின் இரு பக்கங்களிலும் ஒவ்வொன்றைச் செலுத்தவும்.
 
     > 💁 அனைத்து பின்களையும் இணைக்கும் போது அவை வெளியேறாமல் இருக்க உதவ, பின்களை ஒரு தொகுதியாக ஒட்டுவதற்கு ஸ்டிக்கி டேப் பயன்படுத்தலாம்.
     >
-    > ![டேப்பால் பின்கள் ஒட்டப்பட்டுள்ளன](../../../../../translated_images/ta/wio-respeaker-wiring-5.af117c20acf622f3.png)
+    > ![டேப்பால் பின்கள் ஒட்டப்பட்டுள்ளன](../../../../../translated_images/ta/wio-respeaker-wiring-5.af117c20acf622f3.webp)
 
 1. நீங்கள் ஒரு ஸ்பீக்கரை சேர்க்க வேண்டும்.
 
     * JST கேபிள் கொண்ட ஸ்பீக்கரைப் பயன்படுத்தினால், அதை ReSpeaker-ன் JST போர்டுக்கு இணைக்கவும்.
 
-      ![JST கேபிள் மூலம் ReSpeaker-க்கு இணைக்கப்பட்டுள்ள ஸ்பீக்கர்](../../../../../translated_images/ta/respeaker-jst-speaker.a441d177809df945.png)
+      ![JST கேபிள் மூலம் ReSpeaker-க்கு இணைக்கப்பட்டுள்ள ஸ்பீக்கர்](../../../../../translated_images/ta/respeaker-jst-speaker.a441d177809df945.webp)
 
     * 3.5mm ஜாக் கொண்ட ஸ்பீக்கர் அல்லது ஹெட்போன்களைப் பயன்படுத்தினால், அவற்றை 3.5mm ஜாக் சாக்கெட்டில் செருகவும்.
 
-      ![3.5mm ஜாக் சாக்கெட் மூலம் ReSpeaker-க்கு இணைக்கப்பட்டுள்ள ஸ்பீக்கர்](../../../../../translated_images/ta/respeaker-35mm-speaker.ad79ef4f128c7751.png)
+      ![3.5mm ஜாக் சாக்கெட் மூலம் ReSpeaker-க்கு இணைக்கப்பட்டுள்ள ஸ்பீக்கர்](../../../../../translated_images/ta/respeaker-35mm-speaker.ad79ef4f128c7751.webp)
 
 ### பணிகள் - SD கார்டை அமைக்க
 
@@ -79,7 +79,7 @@ ReSpeaker 2-Mics Pi Hat-ஐ இணைக்க, 40 பின்-டூ-பின
 
 1. SD கார்டை Wio Terminal-ன் இடது பக்கம், பவர் பொத்தானின் கீழே உள்ள SD கார்டு ஸ்லாட்டில் செருகவும். கார்டு முழுவதும் உள்ளே சென்று கிளிக் செய்ய வேண்டும் - இதைச் செய்ய ஒரு மெல்லிய கருவி அல்லது மற்றொரு SD கார்டு தேவைப்படலாம்.
 
-    ![SD கார்டை பவர் சுவிட்சின் கீழே உள்ள SD கார்டு ஸ்லாட்டில் செருகுவது](../../../../../translated_images/ta/wio-sd-card.acdcbe322fa4ee7f.png)
+    ![SD கார்டை பவர் சுவிட்சின் கீழே உள்ள SD கார்டு ஸ்லாட்டில் செருகுவது](../../../../../translated_images/ta/wio-sd-card.acdcbe322fa4ee7f.webp)
 
     > 💁 SD கார்டை வெளியேற்ற, அதை சிறிது தள்ளி அழுத்த வேண்டும், பின்னர் அது வெளியேறும். இதைச் செய்ய ஒரு மெல்லிய கருவி, உதாரணமாக ஒரு பிளாட்-ஹெட் ஸ்க்ரூ டிரைவர் அல்லது மற்றொரு SD கார்டு தேவைப்படும்.
 

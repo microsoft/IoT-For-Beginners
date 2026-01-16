@@ -65,7 +65,7 @@ Her bitki türünün taban, optimum ve maksimum sıcaklık değerleri farklıdı
 
 ✅ Araştırma yapın. Bahçenizde, okulunuzda veya yerel parkınızda bulunan herhangi bir bitki için taban sıcaklığını bulabilir misiniz?
 
-![Büyüme oranının sıcaklık arttıkça arttığını, ardından sıcaklık çok yükseldiğinde düştüğünü gösteren bir grafik](../../../../../translated_images/tr/plant-growth-temp-graph.c6d69c9478e6ca83.png)
+![Büyüme oranının sıcaklık arttıkça arttığını, ardından sıcaklık çok yükseldiğinde düştüğünü gösteren bir grafik](../../../../../translated_images/tr/plant-growth-temp-graph.c6d69c9478e6ca83.webp)
 
 Yukarıdaki grafik, büyüme oranı ile sıcaklık arasındaki ilişkiyi gösteren bir örnek grafiktir. Taban sıcaklığa kadar büyüme olmaz. Büyüme oranı, optimum sıcaklığa kadar artar, ardından bu zirveye ulaştıktan sonra düşer. 
 
@@ -91,7 +91,7 @@ Bu kod, CSV dosyasını açar ve sonuna yeni bir satır ekler. Satır, insan tar
 
     
 > 💁 Sanal IoT Cihazı kullanıyorsanız, rastgele kutucuğunu işaretleyin ve sıcaklık değeri her döndüğünde aynı sıcaklığı almamak için bir aralık belirleyin.
-    ![Rastgele kutucuğunu işaretleyin ve bir aralık belirleyin](../../../../../translated_images/tr/select-the-random-checkbox-and-set-a-range.32cf4bc7c12e797f.png) 
+    ![Rastgele kutucuğunu işaretleyin ve bir aralık belirleyin](../../../../../translated_images/tr/select-the-random-checkbox-and-set-a-range.32cf4bc7c12e797f.webp) 
 
     > 💁 Bunu bir gün boyunca çalıştırmak istiyorsanız, sunucu kodunuzun çalıştığı bilgisayarın uyku moduna geçmeyeceğinden emin olmalısınız. Bunun için güç ayarlarınızı değiştirebilir veya [bu sistemi aktif tutan Python scripti](https://github.com/jaqsparow/keep-system-active) gibi bir şey çalıştırabilirsiniz.
     

@@ -57,7 +57,7 @@ Microsoft'taki Azure Bulut Savunucuları olarak IoT temelleri hakkında 12 hafta
 
 Projeler, çiftlikten masaya olan yemek yolculuğunu kapsamaktadır. Bu, tarım, lojistik, üretim, perakende ve tüketici - IoT cihazları için popüler endüstri alanlarının tümünü içerir.
 
-![Giriş, tarım, taşıma, işleme, perakende ve pişirme konularını kapsayan 24 dersi gösteren yol haritası](../../translated_images/tr/Roadmap.bb1dec285dda0eda.jpg)
+![Giriş, tarım, taşıma, işleme, perakende ve pişirme konularını kapsayan 24 dersi gösteren yol haritası](../../translated_images/tr/Roadmap.bb1dec285dda0eda.webp)
 
 > Sketchnote: [Nitya Narasimhan](https://github.com/nitya). Daha büyük versiyonu için görsele tıklayın.
 

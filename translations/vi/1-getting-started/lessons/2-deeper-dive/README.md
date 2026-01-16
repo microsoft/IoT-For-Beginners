@@ -41,7 +41,7 @@ Hai thành phần chính của một ứng dụng IoT là *Internet* và *thiế
 
 ### Thiết bị
 
-![Một Raspberry Pi 4](../../../../../translated_images/vi/raspberry-pi-4.fd4590d308c3d456.jpg)
+![Một Raspberry Pi 4](../../../../../translated_images/vi/raspberry-pi-4.fd4590d308c3d456.webp)
 
 Phần **Thiết bị** trong IoT đề cập đến một thiết bị có thể tương tác với thế giới vật lý. Những thiết bị này thường là các máy tính nhỏ, giá rẻ, hoạt động ở tốc độ thấp và tiêu thụ ít năng lượng - ví dụ, các vi điều khiển đơn giản với bộ nhớ RAM chỉ vài kilobyte (so với gigabyte trên PC), chạy ở tốc độ chỉ vài trăm megahertz (so với gigahertz trên PC), nhưng tiêu thụ năng lượng ít đến mức có thể hoạt động trong nhiều tuần, tháng hoặc thậm chí nhiều năm chỉ với pin.
 
@@ -67,7 +67,7 @@ Với ví dụ về bộ điều nhiệt thông minh, bộ điều nhiệt sẽ 
 
 Một phiên bản thông minh hơn có thể sử dụng AI trên đám mây với dữ liệu từ các cảm biến khác kết nối với các thiết bị IoT khác như cảm biến phát hiện phòng nào đang được sử dụng, cũng như dữ liệu như thời tiết và thậm chí cả lịch của bạn, để đưa ra quyết định về cách đặt nhiệt độ một cách thông minh. Ví dụ, nó có thể tắt hệ thống sưởi nếu đọc từ lịch của bạn rằng bạn đang đi nghỉ, hoặc tắt hệ thống sưởi theo từng phòng tùy thuộc vào phòng nào bạn sử dụng, học hỏi từ dữ liệu để ngày càng chính xác hơn theo thời gian.
 
-![Sơ đồ hiển thị nhiều cảm biến nhiệt độ và núm xoay làm đầu vào cho thiết bị IoT, thiết bị IoT có kết nối hai chiều với đám mây, đám mây có kết nối hai chiều với điện thoại, lịch và dịch vụ thời tiết, và điều khiển hệ thống sưởi làm đầu ra từ thiết bị IoT](../../../../../translated_images/vi/smarter-thermostat.a75855f15d2d9e63.png)
+![Sơ đồ hiển thị nhiều cảm biến nhiệt độ và núm xoay làm đầu vào cho thiết bị IoT, thiết bị IoT có kết nối hai chiều với đám mây, đám mây có kết nối hai chiều với điện thoại, lịch và dịch vụ thời tiết, và điều khiển hệ thống sưởi làm đầu ra từ thiết bị IoT](../../../../../translated_images/vi/smarter-thermostat.a75855f15d2d9e63.webp)
 
 ✅ Những dữ liệu nào khác có thể giúp làm cho bộ điều nhiệt kết nối Internet trở nên thông minh hơn?
 
@@ -135,7 +135,7 @@ Giống như CPU, bộ nhớ trên vi điều khiển nhỏ hơn rất nhiều s
 
 Biểu đồ dưới đây cho thấy sự khác biệt về kích thước tương đối giữa 192KB và 8GB - dấu chấm nhỏ ở trung tâm đại diện cho 192KB.
 
-![So sánh giữa 192KB và 8GB - lớn hơn 40.000 lần](../../../../../translated_images/vi/ram-comparison.6beb73541b42ac6f.png)
+![So sánh giữa 192KB và 8GB - lớn hơn 40.000 lần](../../../../../translated_images/vi/ram-comparison.6beb73541b42ac6f.webp)
 
 Dung lượng lưu trữ chương trình cũng nhỏ hơn so với PC. Một PC thông thường có thể có ổ cứng 500GB để lưu trữ chương trình, trong khi một vi điều khiển có thể chỉ có kilobyte hoặc vài megabyte (MB) dung lượng lưu trữ (1MB là 1.000KB, hoặc 1.000.000 byte). Wio Terminal có 4MB dung lượng lưu trữ chương trình.
 
@@ -211,17 +211,17 @@ Trong bài học trước, chúng ta đã giới thiệu về máy tính bo mạ
 
 ### Raspberry Pi
 
-![Logo Raspberry Pi](../../../../../translated_images/vi/raspberry-pi-logo.4efaa16605cee054.png)
+![Logo Raspberry Pi](../../../../../translated_images/vi/raspberry-pi-logo.4efaa16605cee054.webp)
 
 [Raspberry Pi Foundation](https://www.raspberrypi.org) là một tổ chức từ thiện tại Anh được thành lập vào năm 2009 nhằm thúc đẩy việc học tập khoa học máy tính, đặc biệt ở cấp độ trường học. Là một phần của sứ mệnh này, họ đã phát triển một máy tính bo mạch đơn, gọi là Raspberry Pi. Raspberry Pi hiện có 3 biến thể - phiên bản đầy đủ kích thước, phiên bản nhỏ hơn Pi Zero, và một module tính toán có thể được tích hợp vào thiết bị IoT cuối cùng của bạn.
 
-![Raspberry Pi 4](../../../../../translated_images/vi/raspberry-pi-4.fd4590d308c3d456.jpg)
+![Raspberry Pi 4](../../../../../translated_images/vi/raspberry-pi-4.fd4590d308c3d456.webp)
 
 Phiên bản mới nhất của Raspberry Pi đầy đủ kích thước là Raspberry Pi 4B. Nó có CPU lõi tứ (4 lõi) chạy ở tốc độ 1.5GHz, RAM 2, 4 hoặc 8GB, ethernet gigabit, WiFi, 2 cổng HDMI hỗ trợ màn hình 4k, một cổng âm thanh và video composite, các cổng USB (2 USB 2.0, 2 USB 3.0), 40 chân GPIO, một cổng kết nối camera cho module camera Raspberry Pi, và một khe cắm thẻ SD. Tất cả điều này trên một bo mạch có kích thước 88mm x 58mm x 19.5mm và được cấp nguồn bởi nguồn USB-C 3A. Giá khởi điểm là 35 USD, rẻ hơn nhiều so với PC hoặc Mac.
 
 > 💁 Cũng có một Pi400, một máy tính tất cả trong một với Pi4 được tích hợp vào bàn phím.
 
-![Raspberry Pi Zero](../../../../../translated_images/vi/raspberry-pi-zero.f7a4133e1e7d54bb.jpg)
+![Raspberry Pi Zero](../../../../../translated_images/vi/raspberry-pi-zero.f7a4133e1e7d54bb.webp)
 
 Pi Zero nhỏ hơn nhiều, với công suất thấp hơn. Nó có CPU lõi đơn 1GHz, RAM 512MB, WiFi (trong model Zero W), một cổng HDMI duy nhất, một cổng micro-USB, 40 chân GPIO, một cổng kết nối camera cho module camera Raspberry Pi, và một khe cắm thẻ SD. Nó có kích thước 65mm x 30mm x 5mm, và tiêu thụ rất ít năng lượng. Pi Zero có giá 5 USD, với phiên bản W có WiFi giá 10 USD.
 

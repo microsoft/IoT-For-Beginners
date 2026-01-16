@@ -72,7 +72,7 @@ IoT-пристрій спілкувався з публічним брокеро
 
 Azure — це хмарна платформа для розробників від Microsoft, і саме її ви будете використовувати для цих уроків. Відео нижче дає короткий огляд Azure:
 
-[![Відео огляд Azure](../../../../../translated_images/uk/what-is-azure-video-thumbnail.20174db09e03bbb8.png)](https://www.microsoft.com/videoplayer/embed/RE4Ibng?WT.mc_id=academic-17441-jabenn)
+[![Відео огляд Azure](../../../../../translated_images/uk/what-is-azure-video-thumbnail.20174db09e03bbb8.webp)](https://www.microsoft.com/videoplayer/embed/RE4Ibng?WT.mc_id=academic-17441-jabenn)
 
 ## Створення хмарної підписки
 

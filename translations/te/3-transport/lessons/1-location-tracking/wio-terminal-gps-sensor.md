@@ -27,13 +27,13 @@ Grove GPS సెన్సార్‌ను Wio టెర్మినల్‌�
 
 GPS సెన్సార్‌ను కనెక్ట్ చేయండి.
 
-![A grove GPS sensor](../../../../../translated_images/te/grove-gps-sensor.247943bf69b03f0d.png)
+![A grove GPS sensor](../../../../../translated_images/te/grove-gps-sensor.247943bf69b03f0d.webp)
 
 1. Grove కేబుల్ యొక్క ఒక‌టిని GPS సెన్సార్‌పైని సాకెట్‌లో ఇన్సర్ట్ చేయండి. ఇది ఒక దిశలో మాత్రమే ఫిట్ అవుతుంది.
 
 1. Wio టెర్మినల్‌ను మీ కంప్యూటర్ లేదా ఇతర పవర్ సరఫరా నుండి డిస్కనెక్ట్ చేసి ఉండగా, Grove కేబుల్ మరొక చివరని Wio టెర్మినల్ స్క్రీన్ వైపుగా చూస్తున్నపుడు ఎడమవైపు Grove సాకెట్‌కు కనెక్ట్ చేయండి. ఇది పవర్ బటన్‌కి దగ్గరలో ఉన్న సాకెట్.
 
-    ![The grove GPS sensor connected to the left hand socket](../../../../../translated_images/te/wio-gps-sensor.19fd52b81ce58095.png)
+    ![The grove GPS sensor connected to the left hand socket](../../../../../translated_images/te/wio-gps-sensor.19fd52b81ce58095.webp)
 
 1. GPS సెన్సార్‌ను అంసంధించిన యాంటెనా ఆకాశం దర్శనమించేలా ఉంచండి - సాధారణంగా ఓపెన్ విండోకు పక్కలో లేదా బయట. యాంటెనా దారిమీద ఎలాంటి అడ్డుపడకుండా ఉంటే క్లియర్ సిగ్నల్ పొందడం అనుకూలం.
 

@@ -72,7 +72,7 @@ IoT 設備通過公共 MQTT broker 進行通信，以展示原理，但這並不
 
 Azure 是 Microsoft 的開發者雲端，您將在這些課程中使用它。以下視頻提供了 Azure 的簡短概述：
 
-[![Azure 概述視頻](../../../../../translated_images/tw/what-is-azure-video-thumbnail.20174db09e03bbb8.png)](https://www.microsoft.com/videoplayer/embed/RE4Ibng?WT.mc_id=academic-17441-jabenn)
+[![Azure 概述視頻](../../../../../translated_images/tw/what-is-azure-video-thumbnail.20174db09e03bbb8.webp)](https://www.microsoft.com/videoplayer/embed/RE4Ibng?WT.mc_id=academic-17441-jabenn)
 
 ## 創建雲端訂閱
 

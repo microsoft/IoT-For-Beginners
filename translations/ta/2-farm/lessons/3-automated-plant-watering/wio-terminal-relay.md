@@ -33,7 +33,7 @@ Grove relay Wio Terminal-இன் டிஜிட்டல் port-இல் �
 
 1. Wio Terminal உங்கள் கணினி அல்லது பிற power supply-இல் இருந்து துண்டிக்கப்பட்ட நிலையில், Grove cable-இன் மற்ற முனையை Wio Terminal-இன் திரையைப் பார்க்கும் போது இடது பக்க Grove socket-இல் இணைக்கவும். மண் ஈரப்பதம் சென்சார் வலது பக்க socket-இல் இணைக்கப்பட்ட நிலையில் இருக்கட்டும்.
 
-![இடது பக்க socket-இல் Grove relay மற்றும் வலது பக்க socket-இல் மண் ஈரப்பதம் சென்சார்](../../../../../translated_images/ta/wio-relay-and-soil-moisture-sensor.ed722202d42babe0.png)
+![இடது பக்க socket-இல் Grove relay மற்றும் வலது பக்க socket-இல் மண் ஈரப்பதம் சென்சார்](../../../../../translated_images/ta/wio-relay-and-soil-moisture-sensor.ed722202d42babe0.webp)
 
 1. மண் ஈரப்பதம் சென்சாரை மண்ணில் செருகவும், இது முந்தைய பாடத்தில் இருந்து ஏற்கனவே செருகப்பட்டிருக்காவிட்டால்.
 

@@ -37,11 +37,11 @@ CO_OP_TRANSLATOR_METADATA:
 
     1. Pin 5 మీద రిలేను సృష్టించడానికి **Add** బటన్‌ను ఎంచుకోండి
 
-    ![The relay settings](../../../../../translated_images/te/counterfit-create-relay.fa7c40fd0f2f6afc.png)
+    ![The relay settings](../../../../../translated_images/te/counterfit-create-relay.fa7c40fd0f2f6afc.webp)
 
     రిలే సృష్టించబడుతుంది మరియు actuators జాబితాలో కనిపిస్తుంది.
 
-    ![The relay created](../../../../../translated_images/te/counterfit-relay.bbf74c1dbdc8b9ac.png)
+    ![The relay created](../../../../../translated_images/te/counterfit-relay.bbf74c1dbdc8b9ac.webp)
 
 ## రిలేను ప్రోగ్రామింగ్ చేయండి
 

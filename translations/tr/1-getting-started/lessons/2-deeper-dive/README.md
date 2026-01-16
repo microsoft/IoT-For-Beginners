@@ -41,7 +41,7 @@ Bir IoT uygulamasının iki bileşeni vardır: *İnternet* ve *şey*. Şimdi bu 
 
 ### Şey
 
-![Bir Raspberry Pi 4](../../../../../translated_images/tr/raspberry-pi-4.fd4590d308c3d456.jpg)
+![Bir Raspberry Pi 4](../../../../../translated_images/tr/raspberry-pi-4.fd4590d308c3d456.webp)
 
 IoT'nin **Şey** kısmı, fiziksel dünyayla etkileşim kurabilen bir cihazı ifade eder. Bu cihazlar genellikle küçük, düşük fiyatlı bilgisayarlardır, düşük hızlarda çalışır ve düşük güç kullanır - örneğin, yalnızca birkaç yüz megahertz hızında çalışan ve bazen o kadar az güç tüketen basit mikrokontrolcüler (PC'deki gigabaytlar yerine kilobaytlar RAM ile) ki pillerle haftalar, aylar veya hatta yıllarca çalışabilirler.
 
@@ -67,7 +67,7 @@ Akıllı termostat örneğinde, termostat ev WiFi'sini kullanarak bulutta çalı
 
 Daha akıllı bir versiyon, buluttaki AI'yi diğer IoT cihazlarına bağlı diğer sensörlerden gelen verilerle, örneğin hangi odaların kullanıldığını algılayan doluluk sensörleriyle, hava durumu ve hatta takviminiz gibi verilerle birleştirerek sıcaklığı akıllı bir şekilde ayarlamak için kararlar alabilir. Örneğin, takviminizden tatilde olduğunuzu okursa ısıtmanızı kapatabilir veya hangi odaları kullandığınıza bağlı olarak oda bazında ısıtmayı kapatabilir, zamanla daha doğru olmak için verilerden öğrenebilir.
 
-![Bir IoT cihazına giriş olarak birden fazla sıcaklık sensörü ve bir düğme, IoT cihazının bulutla iki yönlü iletişimi, bulutun telefon, takvim ve hava durumu hizmetiyle iki yönlü iletişimi ve IoT cihazından bir ısıtıcı kontrolü çıkışı gösteren bir diyagram](../../../../../translated_images/tr/smarter-thermostat.a75855f15d2d9e63.png)
+![Bir IoT cihazına giriş olarak birden fazla sıcaklık sensörü ve bir düğme, IoT cihazının bulutla iki yönlü iletişimi, bulutun telefon, takvim ve hava durumu hizmetiyle iki yönlü iletişimi ve IoT cihazından bir ısıtıcı kontrolü çıkışı gösteren bir diyagram](../../../../../translated_images/tr/smarter-thermostat.a75855f15d2d9e63.webp)
 
 ✅ İnternet bağlantılı bir termostatı daha akıllı hale getirebilecek başka hangi veriler olabilir?
 
@@ -135,7 +135,7 @@ CPU gibi, bir mikrodenetleyicideki bellek, bir PC veya Mac'ten kat kat daha kü�
 
 Aşağıdaki diyagram, 192KB ile 8GB arasındaki boyut farkını göstermektedir - merkezdeki küçük nokta 192KB'yi temsil eder.
 
-![192KB ile 8GB karşılaştırması - 40.000 kat daha büyük](../../../../../translated_images/tr/ram-comparison.6beb73541b42ac6f.png)
+![192KB ile 8GB karşılaştırması - 40.000 kat daha büyük](../../../../../translated_images/tr/ram-comparison.6beb73541b42ac6f.webp)
 
 Program depolama alanı da bir PC'den daha küçüktür. Tipik bir PC'de program depolama için 500GB'lık bir sabit disk bulunabilirken, bir mikrodenetleyicide yalnızca kilobayt veya birkaç megabayt (MB) depolama alanı bulunabilir (1MB, 1.000KB veya 1.000.000 bayttır). Wio terminali 4MB program depolama alanına sahiptir.
 
@@ -211,17 +211,17 @@ Son derste tek kartlı bilgisayarları tanıttık. Şimdi bunlara daha derinleme
 
 ### Raspberry Pi
 
-![Raspberry Pi logosu](../../../../../translated_images/tr/raspberry-pi-logo.4efaa16605cee054.png)
+![Raspberry Pi logosu](../../../../../translated_images/tr/raspberry-pi-logo.4efaa16605cee054.webp)
 
 [Raspberry Pi Vakfı](https://www.raspberrypi.org), özellikle okul düzeyinde bilgisayar bilimi eğitimini teşvik etmek amacıyla 2009 yılında Birleşik Krallık'ta kurulan bir hayır kurumudur. Bu misyonun bir parçası olarak Raspberry Pi adlı bir tek kartlı bilgisayar geliştirdiler. Raspberry Pi'ler şu anda 3 varyantta mevcuttur - tam boyutlu bir versiyon, daha küçük Pi Zero ve nihai IoT cihazınıza entegre edilebilecek bir hesaplama modülü.
 
-![Bir Raspberry Pi 4](../../../../../translated_images/tr/raspberry-pi-4.fd4590d308c3d456.jpg)
+![Bir Raspberry Pi 4](../../../../../translated_images/tr/raspberry-pi-4.fd4590d308c3d456.webp)
 
 Tam boyutlu Raspberry Pi'nin en son versiyonu Raspberry Pi 4B'dir. Bu cihazda 1.5GHz hızında çalışan dört çekirdekli (quad-core) bir CPU, 2, 4 veya 8GB RAM, gigabit ethernet, WiFi, 4k ekranları destekleyen 2 HDMI portu, bir ses ve kompozit video çıkış portu, USB portları (2 USB 2.0, 2 USB 3.0), 40 GPIO pini, bir Raspberry Pi kamera modülü için bir kamera konektörü ve bir SD kart yuvası bulunur. Tüm bunlar 88mm x 58mm x 19.5mm boyutlarında bir kart üzerinde ve 3A USB-C güç kaynağı ile çalışır. Bunlar, bir PC veya Mac'ten çok daha ucuz olan 35 ABD dolarından başlar.
 
 > 💁 Ayrıca bir Pi400, klavyeye entegre edilmiş bir Pi4 içeren hepsi bir arada bir bilgisayar bulunmaktadır.
 
-![Bir Raspberry Pi Zero](../../../../../translated_images/tr/raspberry-pi-zero.f7a4133e1e7d54bb.jpg)
+![Bir Raspberry Pi Zero](../../../../../translated_images/tr/raspberry-pi-zero.f7a4133e1e7d54bb.webp)
 
 Pi Zero çok daha küçüktür ve daha az güç tüketir. Tek çekirdekli 1GHz CPU, 512MB RAM, WiFi (Zero W modelinde), tek bir HDMI portu, bir mikro-USB portu, 40 GPIO pini, bir Raspberry Pi kamera modülü için bir kamera konektörü ve bir SD kart yuvası bulunur. 65mm x 30mm x 5mm ölçülerindedir ve çok az güç tüketir. Zero 5 ABD dolarıdır, WiFi'li W versiyonu ise 10 ABD dolarıdır.
 

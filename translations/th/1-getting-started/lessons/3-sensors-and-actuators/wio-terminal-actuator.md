@@ -51,7 +51,7 @@ Grove LED มาในรูปแบบโมดูลที่มี LED ใ�
 
     > 💁 ช่อง Grove ด้านขวาสามารถใช้กับเซ็นเซอร์และตัวกระตุ้นแบบอนาล็อกหรือดิจิทัลได้ ส่วนช่องด้านซ้ายใช้สำหรับเซ็นเซอร์และตัวกระตุ้นแบบดิจิทัลเท่านั้น
 
-![The grove LED connected to the right hand socket](../../../../../translated_images/th/wio-led.265a1897e72d7f21.png)
+![The grove LED connected to the right hand socket](../../../../../translated_images/th/wio-led.265a1897e72d7f21.webp)
 
 ## เขียนโปรแกรมไฟกลางคืน
 

@@ -51,7 +51,7 @@ Grove LED 是一個模組，包含多種 LED，您可以選擇喜歡的顏色。
 
     > 💁 右側的 Grove 插座可用於類比或數位感測器和執行器。左側插座僅用於 I2C 和數位感測器及執行器。
 
-![Grove LED 連接到右側插座](../../../../../translated_images/tw/wio-led.265a1897e72d7f21.png)
+![Grove LED 連接到右側插座](../../../../../translated_images/tw/wio-led.265a1897e72d7f21.webp)
 
 ## 程式設計夜燈
 

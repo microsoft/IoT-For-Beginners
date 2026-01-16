@@ -154,11 +154,11 @@ Python வேர்ச்சுவல் சூழல் தயாராக இ�
 
 1. VS Code தொடங்கும்போது, Python வேர்ச்சுவல் சூழலை செயல்படுத்தும். தேர்ந்தெடுக்கப்பட்ட வேர்ச்சுவல் சூழல் கீழே உள்ள நிலை பட்டியில் தோன்றும்:
 
-    ![VS Code தேர்ந்தெடுக்கப்பட்ட வேர்ச்சுவல் சூழலைக் காட்டுகிறது](../../../../../translated_images/ta/vscode-virtual-env.8ba42e04c3d533cf.png)
+    ![VS Code தேர்ந்தெடுக்கப்பட்ட வேர்ச்சுவல் சூழலைக் காட்டுகிறது](../../../../../translated_images/ta/vscode-virtual-env.8ba42e04c3d533cf.webp)
 
 1. VS Code Terminal VS Code தொடங்கும்போது ஏற்கனவே இயங்கினால், அதில் வேர்ச்சுவல் சூழல் செயல்படுத்தப்படாது. எளிதானது, **Kill the active terminal instance** பொத்தானை பயன்படுத்தி டெர்மினலை முடிக்கவும்:
 
-    ![VS Code Kill the active terminal instance பொத்தான்](../../../../../translated_images/ta/vscode-kill-terminal.1cc4de7c6f25ee08.png)
+    ![VS Code Kill the active terminal instance பொத்தான்](../../../../../translated_images/ta/vscode-kill-terminal.1cc4de7c6f25ee08.webp)
 
     டெர்மினலில் வேர்ச்சுவல் சூழல் செயல்படுத்தப்பட்டுள்ளதா என்பதை `.venv` என்ற பெயர் டெர்மினல் ப்ராம்ப்ட்டில் முன்னொட்டாக இருக்கும். உதாரணமாக, இது இருக்கலாம்:
 
@@ -229,7 +229,7 @@ Python வேர்ச்சுவல் சூழல் தயாராக இ�
 
 1. CounterFit செயலி தற்போதைய டெர்மினலில் இயங்குவதால், புதிய VS Code டெர்மினலை தொடங்க **Create a new integrated terminal** பொத்தானைத் தேர்ந்தெடுக்க வேண்டும்.
 
-    ![VS Code Create a new integrated terminal பொத்தான்](../../../../../translated_images/ta/vscode-new-terminal.77db8fc0f9cd3182.png)
+    ![VS Code Create a new integrated terminal பொத்தான்](../../../../../translated_images/ta/vscode-new-terminal.77db8fc0f9cd3182.webp)
 
 1. புதிய டெர்மினலில், முன்பு போல `app.py` கோப்பை இயக்கவும். CounterFit-இன் நிலை **Connected** ஆக மாறும் மற்றும் LED ஒளிரும்.
 

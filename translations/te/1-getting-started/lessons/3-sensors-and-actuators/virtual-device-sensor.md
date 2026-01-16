@@ -37,11 +37,11 @@ CO_OP_TRANSLATOR_METADATA:
 
     1. పిన్ 0 లో లైట్ సెన్సార్ సృష్టించడానికి **Add** బటన్‌ను ఎంచుకోండి
 
-    ![The light sensor settings](../../../../../translated_images/te/counterfit-create-light-sensor.9f36a5e0d4458d8d.png)
+    ![The light sensor settings](../../../../../translated_images/te/counterfit-create-light-sensor.9f36a5e0d4458d8d.webp)
 
     లైట్ సెన్సార్ సృష్టించబడుతుంది మరియు సెన్సార్ల జాబితాలో కనిపిస్తుంది.
 
-    ![The light sensor created](../../../../../translated_images/te/counterfit-light-sensor.5d0f5584df56b90f.png)
+    ![The light sensor created](../../../../../translated_images/te/counterfit-light-sensor.5d0f5584df56b90f.webp)
 
 ## లైట్ సెన్సార్‌ను ప్రోగ్రామ్ చేయండి
 

@@ -33,11 +33,11 @@ Toprak nem sensörünü bağlayın.
 
 1. Wio Terminal'inizi bilgisayarınızdan veya başka bir güç kaynağından ayırarak, Grove kablosunun diğer ucunu ekranı size dönük şekilde sağ taraftaki Grove soketine bağlayın. Bu, güç düğmesinden en uzak olan sokettir.
 
-![Grove toprak nem sensörü sağ sokete bağlı](../../../../../translated_images/tr/wio-soil-moisture-sensor.46919b61c3f6cb74.png)
+![Grove toprak nem sensörü sağ sokete bağlı](../../../../../translated_images/tr/wio-soil-moisture-sensor.46919b61c3f6cb74.webp)
 
 1. Toprak nem sensörünü toprağa yerleştirin. Sensör üzerinde bir 'en yüksek pozisyon çizgisi' vardır - sensör boyunca uzanan beyaz bir çizgi. Sensörü bu çizgiye kadar, ancak çizgiyi geçmeyecek şekilde yerleştirin.
 
-![Topraktaki Grove toprak nem sensörü](../../../../../translated_images/tr/soil-moisture-sensor-in-soil.bfad91002bda5e96.png)
+![Topraktaki Grove toprak nem sensörü](../../../../../translated_images/tr/soil-moisture-sensor-in-soil.bfad91002bda5e96.webp)
 
 1. Artık Wio Terminal'inizi bilgisayarınıza bağlayabilirsiniz.
 

@@ -25,13 +25,13 @@ CO_OP_TRANSLATOR_METADATA:
 
 ఉష్ణోగ్రత సెన్సార్‌ను కనెక్ట్ చేయండి
 
-![A grove temperature sensor](../../../../../translated_images/te/grove-dht11.07f8eafceee17004.png)
+![A grove temperature sensor](../../../../../translated_images/te/grove-dht11.07f8eafceee17004.webp)
 
 1. గ్రోవ్ కేబుల్ యొక్క ఒక చివరిని తేమ మరియు ఉష్ణోగ్రత సెన్సార్‌లోని సాకెట్‌లో ఉంచండి. ఇది ఒక్క దిశలో మాత్రమే సరి సరుకు అవుతుంది.
 
 1. రాస్ప్బెర్రీ పై విద్యుత్ ఆఫ్ చేసిన తర్వాత, గ్రోవ్ కేబుల్ యొక్క మరొక చివరిని Piకి జతచేయబడిన గ్రోవ్ బేస్ హాట్ లో ఉన్న డిజిటల్ సాకెట్ **D5** కు కనెక్ట్ చేయండి. ఈ సాకెట్ ఎడమవైపు నుండి రెండవది, GPIO పిన్ల పక్కన ఉన్న సాకెట్ సరసన ఉన్న వరుసలో.
 
-![The grove temperature sensor connected to socket A0](../../../../../translated_images/te/pi-temperature-sensor.3ff82fff672c8e56.png)
+![The grove temperature sensor connected to socket A0](../../../../../translated_images/te/pi-temperature-sensor.3ff82fff672c8e56.webp)
 
 ## ఉష్ణోగ్రత సెన్సార్ ప్రోగ్రామ్ చేయండి
 

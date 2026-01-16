@@ -64,7 +64,7 @@ Mikrofoner finns i olika typer:
 
 * Band - Bandmikrofoner liknar dynamiska mikrofoner, förutom att de har ett metallband istället för ett membran. Detta band rör sig i ett magnetfält och genererar en elektrisk ström. Precis som dynamiska mikrofoner behöver bandmikrofoner ingen ström för att fungera.
 
-    ![Edmund Lowe, amerikansk skådespelare, står vid radiomikrofon (märkt för (NBC) Blue Network), håller manus, 1942](../../../../../translated_images/sv/ribbon-mic.eacc8e092c7441ca.jpg)
+    ![Edmund Lowe, amerikansk skådespelare, står vid radiomikrofon (märkt för (NBC) Blue Network), håller manus, 1942](../../../../../translated_images/sv/ribbon-mic.eacc8e092c7441ca.webp)
 
 * Kondensator - Kondensatormikrofoner har ett tunt metallmembran och en fast metallbakplatta. Elektricitet appliceras på båda dessa och när membranet vibrerar ändras den statiska laddningen mellan plattorna och genererar en signal. Kondensatormikrofoner behöver ström för att fungera - kallad *Phantom power*.
 
@@ -84,7 +84,7 @@ Ljud är en analog signal som bär mycket finfördelad information. För att kon
 
 > 🎓 Sampling innebär att konvertera ljudsignalen till ett digitalt värde som representerar signalen vid den tidpunkten.
 
-![Ett linjediagram som visar en signal, med diskreta punkter vid fasta intervaller](../../../../../translated_images/sv/sampling.6f4fadb3f2d9dfe7.png)
+![Ett linjediagram som visar en signal, med diskreta punkter vid fasta intervaller](../../../../../translated_images/sv/sampling.6f4fadb3f2d9dfe7.webp)
 
 Digitalt ljud samplas med hjälp av Pulse Code Modulation, eller PCM. PCM innebär att läsa spänningen i signalen och välja det närmaste diskreta värdet till den spänningen med en definierad storlek.
 

@@ -27,13 +27,13 @@ Grove relay ని Raspberry Piకి కనెక్ట్ చేయవచ్�
 
 రీలేను కనెక్ట్ చేయండి.
 
-![A grove relay](../../../../../translated_images/te/grove-relay.d426958ca210fbd0.png)
+![A grove relay](../../../../../translated_images/te/grove-relay.d426958ca210fbd0.webp)
 
 1. Grove కేబుల్ యొక్క ఒక ముడి relay లో సాకెట్‌లోకి చొప్పించండి. అది ఒక దిక్కులో మాత్రమే సరిపోతుంది.
 
 1. Raspberry Pi పవర్ ఆఫ్ చేసినప్పుడు, Grove కేబుల్ యొక్క మరొక ముడిని Pi కి కనెక్ట్ చేయబడిన Grove Base hat పై **D5** అనే డిజిటల్ సాకెట్ కి కనెక్ట్ చేయండి. ఈ సాకెట్ ఎడమ నుండి రెండవది, GPIO పిన్స్ సమీపంలో ఉన్న సాకెట్ల వరుసలో. నేల ఆర్ద్రత సెన్సార్ ఇంకా **A0** సాకెట్ కు కనెక్ట్ చేయబడింది.
 
-![The grove relay connected to the D5 socket, and the soil moisture sensor connected to the A0 socket](../../../../../translated_images/te/pi-relay-and-soil-moisture-sensor.02f3198975b8c53e.png)
+![The grove relay connected to the D5 socket, and the soil moisture sensor connected to the A0 socket](../../../../../translated_images/te/pi-relay-and-soil-moisture-sensor.02f3198975b8c53e.webp)
 
 1. నేల ఆర్ద్రత సెన్సార్ నేలలో చొప్పించండి, గత పాఠం నుండి అది లేకపోతే.
 

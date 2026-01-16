@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 [ராஸ்பெர்ரி பை](https://raspberrypi.org) என்பது ஒரு சிங்கிள்-போர்டு கணினி. நீங்கள் பல்வேறு சாதனங்கள் மற்றும் எகோசிஸ்டம்களைப் பயன்படுத்தி சென்சார்கள் மற்றும் ஆக்டுவேட்டர்களைச் சேர்க்கலாம், மேலும் இந்த பாடங்களுக்காக [Grove](https://www.seeedstudio.com/category/Grove-c-1003.html) எனப்படும் ஒரு ஹார்ட்வேரின் எகோசிஸ்டத்தைப் பயன்படுத்துகிறோம். Python மூலம் உங்கள் பையை நிரலாக்கி Grove சென்சார்கள் அணுகலாம்.
 
-![ராஸ்பெர்ரி பை 4](../../../../../translated_images/ta/raspberry-pi-4.fd4590d308c3d456.jpg)
+![ராஸ்பெர்ரி பை 4](../../../../../translated_images/ta/raspberry-pi-4.fd4590d308c3d456.webp)
 
 ## அமைப்பு
 
@@ -112,7 +112,7 @@ Headless பை OS-ஐ அமைக்கவும்.
 
 1. ராஸ்பெர்ரி பை இமேஜரில் **CHOOSE OS** பொத்தானைத் தேர்ந்தெடுக்கவும், பின்னர் *Raspberry Pi OS (Other)*, அதன்பின் *Raspberry Pi OS Lite (32-bit)* ஐத் தேர்ந்தெடுக்கவும்
 
-    ![ராஸ்பெர்ரி பை இமேஜர் Raspberry Pi OS Lite தேர்ந்தெடுக்கப்பட்டது](../../../../../translated_images/ta/raspberry-pi-imager.24aedeab9e233d84.png)
+    ![ராஸ்பெர்ரி பை இமேஜர் Raspberry Pi OS Lite தேர்ந்தெடுக்கப்பட்டது](../../../../../translated_images/ta/raspberry-pi-imager.24aedeab9e233d84.webp)
 
     > 💁 Raspberry Pi OS Lite என்பது Raspberry Pi OS-இன் ஒரு பதிப்பு, இது டெஸ்க்டாப் UI அல்லது UI அடிப்படையிலான கருவிகளை கொண்டிருக்காது. இவை headless பைக்கு தேவையில்லை மற்றும் நிறுவலை சிறியதாகவும், boot up நேரத்தை வேகமாகவும் மாற்றுகிறது.
 
@@ -251,7 +251,7 @@ Pi-க்கான ஹலோ வேர்ல்ட் பயன்பாடு P
 
 1. *File -> Open...* ஐ தேர்வு செய்து *nightlight* கோப்புறையைத் தேர்வு செய்து, **OK** ஐ தேர்வு செய்வதன் மூலம் இந்த கோப்புறையை VS Code-ல் திறக்கவும்.
 
-    ![VS Code திறந்த உரையாடல் சாளரத்தில் nightlight கோப்புறை காட்டப்படுகிறது](../../../../../translated_images/ta/vscode-open-nightlight-remote.d3d2a4011e30d535.png)
+    ![VS Code திறந்த உரையாடல் சாளரத்தில் nightlight கோப்புறை காட்டப்படுகிறது](../../../../../translated_images/ta/vscode-open-nightlight-remote.d3d2a4011e30d535.webp)
 
 1. VS Code explorer-ல் இருந்து `app.py` கோப்பைத் திறந்து, கீழே உள்ள குறியீட்டை சேர்க்கவும்:
 

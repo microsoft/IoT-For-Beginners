@@ -31,7 +31,7 @@ Kết nối cảm biến nhiệt độ
 
 1. Khi Raspberry Pi đã tắt nguồn, kết nối đầu còn lại của cáp Grove vào ổ cắm kỹ thuật số được đánh dấu **D5** trên Grove Base hat gắn vào Pi. Ổ cắm này là ổ thứ hai từ bên trái, nằm trên hàng ổ cắm cạnh các chân GPIO.
 
-![Cảm biến nhiệt độ Grove được kết nối với ổ cắm A0](../../../../../translated_images/vi/pi-temperature-sensor.3ff82fff672c8e56.png)
+![Cảm biến nhiệt độ Grove được kết nối với ổ cắm A0](../../../../../translated_images/vi/pi-temperature-sensor.3ff82fff672c8e56.webp)
 
 ## Lập trình cảm biến nhiệt độ
 

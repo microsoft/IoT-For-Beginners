@@ -154,11 +154,11 @@ Gumawa ng Python application upang i-print ang `"Hello World"` sa console.
 
 1. Kapag nag-launch ang VS Code, i-aactivate nito ang Python virtual environment. Ang napiling virtual environment ay lilitaw sa ibabang status bar:
 
-    ![VS Code na nagpapakita ng napiling virtual environment](../../../../../translated_images/tl/vscode-virtual-env.8ba42e04c3d533cf.png)
+    ![VS Code na nagpapakita ng napiling virtual environment](../../../../../translated_images/tl/vscode-virtual-env.8ba42e04c3d533cf.webp)
 
 1. Kung ang VS Code Terminal ay tumatakbo na kapag nag-launch ang VS Code, hindi nito maa-activate ang virtual environment dito. Ang pinakamadaling gawin ay patayin ang terminal gamit ang **Kill the active terminal instance** button:
 
-    ![VS Code Kill the active terminal instance button](../../../../../translated_images/tl/vscode-kill-terminal.1cc4de7c6f25ee08.png)
+    ![VS Code Kill the active terminal instance button](../../../../../translated_images/tl/vscode-kill-terminal.1cc4de7c6f25ee08.webp)
 
     Malalaman mo kung ang terminal ay may naka-activate na virtual environment dahil ang pangalan ng virtual environment ay magiging prefix sa terminal prompt. Halimbawa, maaaring ito ay:
 
@@ -229,7 +229,7 @@ Bilang pangalawang hakbang ng 'Hello World', patakbuhin mo ang CounterFit app at
 
 1. Kakailanganin mong mag-launch ng bagong VS Code terminal sa pamamagitan ng pagpili sa **Create a new integrated terminal** button. Ito ay dahil ang CounterFit app ay tumatakbo sa kasalukuyang terminal.
 
-    ![VS Code Create a new integrated terminal button](../../../../../translated_images/tl/vscode-new-terminal.77db8fc0f9cd3182.png)
+    ![VS Code Create a new integrated terminal button](../../../../../translated_images/tl/vscode-new-terminal.77db8fc0f9cd3182.webp)
 
 1. Sa bagong terminal na ito, patakbuhin ang `app.py` file tulad ng dati. Ang status ng CounterFit ay magbabago sa **Connected** at ang LED ay iilaw.
 

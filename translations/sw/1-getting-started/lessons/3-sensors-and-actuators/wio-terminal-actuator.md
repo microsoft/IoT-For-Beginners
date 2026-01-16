@@ -51,7 +51,7 @@ Unganisha LED.
 
     > 💁 Soketi ya Grove ya upande wa kulia inaweza kutumika na sensa za analogi au kidijitali na vifaa vya kutenda. Soketi ya upande wa kushoto ni kwa sensa za analogi pekee. C itafundishwa katika somo la baadaye.
 
-![LED ya Grove imeunganishwa na soketi ya upande wa kulia](../../../../../translated_images/sw/wio-led.265a1897e72d7f21.png)
+![LED ya Grove imeunganishwa na soketi ya upande wa kulia](../../../../../translated_images/sw/wio-led.265a1897e72d7f21.webp)
 
 ## Programu ya taa ya usiku
 

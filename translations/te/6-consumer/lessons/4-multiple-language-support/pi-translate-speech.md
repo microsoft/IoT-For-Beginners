@@ -34,7 +34,7 @@ CO_OP_TRANSLATOR_METADATA:
     >
     > ఉదాహరణకు, మీరు LUIS ను ఇంగ్లీష్‌లో శిక్షణ ఇచ్చి ఉంటే, కానీ వాడుకరి భాషగా ఫ్రెంచ్‌ని ఉపయోగించాలని కోరుకుంటే, మీరు "set a 2 minute and 27 second timer" వంటి వాక్యాలను Bing Translate ఉపయోగించి ఇంగ్లీష్ నుండి ఫ్రెంచ్ కు అనువదించి, **Listen translation** బటన్ ఉపయోగించి మీ మైక్రోఫోన్‌లో అనువాదాన్ని చెప్పవచ్చు.
     >
-    > ![The listen translation button on Bing translate](../../../../../translated_images/te/bing-translate.348aa796d6efe2a9.png)
+    > ![The listen translation button on Bing translate](../../../../../translated_images/te/bing-translate.348aa796d6efe2a9.webp)
 
 1. `speech_api_key` కింద అనువాదక API కీని జోడించండి:
 

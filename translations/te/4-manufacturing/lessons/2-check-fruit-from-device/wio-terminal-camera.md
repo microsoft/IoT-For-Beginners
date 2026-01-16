@@ -25,11 +25,11 @@ ArduCamకి Grove సాకెట్ లేదు, దాని బదుల�
 
 కెమెరాను కనెక్ట్ చేయండి.
 
-![An ArduCam sensor](../../../../../translated_images/te/arducam.20e4e4cbb2682965.png)
+![An ArduCam sensor](../../../../../translated_images/te/arducam.20e4e4cbb2682965.webp)
 
 1. ArduCam ఆధారంలోని పిన్లు Wio Terminal పైని GPIO పిన్లకు కనెక్ట్ చేయాలి. సరైన పిన్లను కనుగొనడానికి సులభం గా చేయడానికి, Wio Terminal తో వస్తు GPIO పిన్ స్టికర్‌ను పిన్ల చుట్టూ జతచేయండి:
 
-    ![The wio terminal with the GPIO pin sticker on](../../../../../translated_images/te/wio-terminal-pin-sticker.b90b1535937b84bd.png)
+    ![The wio terminal with the GPIO pin sticker on](../../../../../translated_images/te/wio-terminal-pin-sticker.b90b1535937b84bd.webp)
 
 1. జంపర్ వైర్స్ ఉపయోగించి, క్రింది కనెక్షన్లు చేయండి:
 
@@ -44,7 +44,7 @@ ArduCamకి Grove సాకెట్ లేదు, దాని బదుల�
     | SDA         | 3 (I2C1_SDA)     | I<sup>2</sup>C సీరియల్ డేటా               |
     | SCL         | 5 (I2C1_SCL)     | I<sup>2</sup>C సీరియల్ క్లాక్              |
 
-    ![The wio terminal connected to the ArduCam with jumper wires](../../../../../translated_images/te/arducam-wio-terminal-connections.a4d5a4049bdb5ab8.png)
+    ![The wio terminal connected to the ArduCam with jumper wires](../../../../../translated_images/te/arducam-wio-terminal-connections.a4d5a4049bdb5ab8.webp)
 
     GND మరియు VCC కనెక్షన్లు ArduCamకి 5V పవర్ సరఫరా చేస్తాయి. ఇది Grove సెన్సార్ల వారిగా 3V వద్ద కాకుండా 5V వద్ద పని చేస్తుంది. ఈ పవర్ డివైస్ కి పవర్ ఇస్తున్న USB-C కనెక్షన్ నుండి నేరుగా వస్తుంది.
 
@@ -297,7 +297,7 @@ Wio Terminal ఇప్పుడు బటన్ నొక్కినప్ప�
 
 1. మైక్రోకంట్రోలర్లు మీ కోడ్‌ను నిరంతరం నడుపుతుంటాయి, కాబట్టి ఫోటో తీసుకోడానికి సెన్సార్ వంటి టiggers లేని ప్రాసెస్‌ను ట్రిగర్‌ చేయడం సులభం కాదు. Wio Terminal బటన్‌లను కలిగి ఉంది, కాబట్టి కెమెరా ఒక బటన్ తో ట్రిగర్ అయ్యేలా సెట్ చేయవచ్చు. క్రింది కో드를 `setup` ఫంక్షన్ చివర జోడించి C బటన్ (ముప్పై మూడు బటన్లలోకి ఒకటి, పవర్ స్విచ్ కు అత్యంత సమీపంలో ఉన్నది) ని కాన్ఫిగర్ చేయండి.
 
-    ![The C button on the top closest to the power switch](../../../../../translated_images/te/wio-terminal-c-button.73df3cb1c1445ea0.png)
+    ![The C button on the top closest to the power switch](../../../../../translated_images/te/wio-terminal-c-button.73df3cb1c1445ea0.webp)
 
     ```cpp
     pinMode(WIO_KEY_C, INPUT_PULLUP);
@@ -465,7 +465,7 @@ Wio Terminal 16GB పరిమితితో మైక్రోSD కార్�
 
 1. మైక్రోSD కార్డును పవర్ ఆఫ్ చేసి, దాని సన్నని పిడుగుతో కొంచెం దింపి వదిలి, అది బయటకు వస్తుంది. దీన్ని చేయడానికి మీకు పలుచని సాధనం అవసరం కావచ్చు. తర్వాత మైక్రోSD కార్డును మీ కంప్యూటర్లో ప్లగ్ చేసి చిత్రాలను చూడండి.
 
-    ![A picture of a banana captured using the ArduCam](../../../../../translated_images/te/banana-arducam.be1b32d4267a8194.jpg)
+    ![A picture of a banana captured using the ArduCam](../../../../../translated_images/te/banana-arducam.be1b32d4267a8194.webp)
 
     > 💁 కెమెరా వైట్ బ్యాలెన్స్ సర్దుబాటు చేసుకోవడానికి కొన్ని చిత్రం తీసుకోవడానికి కొంత సమయం పడుతుంది. మీరు మొదటి కొన్ని చిత్రాలు రంగు పరిస్థితులు తేడాగా ఉంటాయని గమనిస్తారు. దీనిని మీరు కోడ్‌ను మార్చుకొని `setup` లో స్థానికంగా వీక్షించకుండా కొన్ని చిత్రం తీసి నవికారించవచ్చు.
 

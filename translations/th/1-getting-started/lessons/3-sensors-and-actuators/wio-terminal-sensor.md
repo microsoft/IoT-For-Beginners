@@ -17,7 +17,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 เซ็นเซอร์วัดแสงนี้ถูกติดตั้งอยู่ในตัว Wio Terminal และสามารถมองเห็นได้ผ่านหน้าต่างพลาสติกใสที่ด้านหลัง
 
-![เซ็นเซอร์วัดแสงที่ด้านหลังของ Wio Terminal](../../../../../translated_images/th/wio-light-sensor.b1f529f3c95f5165.png)
+![เซ็นเซอร์วัดแสงที่ด้านหลังของ Wio Terminal](../../../../../translated_images/th/wio-light-sensor.b1f529f3c95f5165.webp)
 
 ## เขียนโปรแกรมสำหรับเซ็นเซอร์วัดแสง
 

@@ -79,7 +79,7 @@ En mikrokontroller (även kallad MCU, kort för microcontroller unit) är en lit
 
 Mikrokontroller är vanligtvis billiga datorenheter, med genomsnittliga priser för de som används i specialtillverkad hårdvara som sjunker till cirka 0,50 USD, och vissa enheter är så billiga som 0,03 USD. Utvecklingskit kan börja så lågt som 4 USD, med kostnader som ökar när fler funktioner läggs till. [Wio Terminal](https://www.seeedstudio.com/Wio-Terminal-p-4509.html), ett mikrokontrollerutvecklingskit från [Seeed studios](https://www.seeedstudio.com) som har sensorer, aktuatorer, WiFi och en skärm, kostar cirka 30 USD.
 
-![En Wio Terminal](../../../../../translated_images/sv/wio-terminal.b8299ee16587db9a.png)
+![En Wio Terminal](../../../../../translated_images/sv/wio-terminal.b8299ee16587db9a.webp)
 
 > 💁 När du söker på Internet efter mikrokontroller, var försiktig med att söka efter termen **MCU**, eftersom detta kan ge många resultat för Marvel Cinematic Universe istället för mikrokontroller.
 
@@ -93,7 +93,7 @@ Utvecklingskit för mikrokontroller har vanligtvis ytterligare sensorer och aktu
 
 En enkortsdator är en liten datorenhet som har alla element av en komplett dator på ett enda litet kort. Dessa enheter har specifikationer som liknar en stationär eller bärbar dator, kör ett fullständigt operativsystem, men är små, använder mindre ström och är betydligt billigare.
 
-![En Raspberry Pi 4](../../../../../translated_images/sv/raspberry-pi-4.fd4590d308c3d456.jpg)
+![En Raspberry Pi 4](../../../../../translated_images/sv/raspberry-pi-4.fd4590d308c3d456.webp)
 
 Raspberry Pi är en av de mest populära enkortsdatorerna.
 

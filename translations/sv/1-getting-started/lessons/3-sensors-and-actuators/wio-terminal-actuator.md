@@ -51,7 +51,7 @@ Anslut LED-lampan.
 
     > 💁 Den högra Grove-sockeln kan användas med analoga eller digitala sensorer och aktuatorer. Den vänstra sockeln är för I2C och digitala sensorer och aktuatorer endast. C kommer att behandlas i en senare lektion.
 
-![Grove LED ansluten till den högra sockeln](../../../../../translated_images/sv/wio-led.265a1897e72d7f21.png)
+![Grove LED ansluten till den högra sockeln](../../../../../translated_images/sv/wio-led.265a1897e72d7f21.webp)
 
 ## Programmera nattlampan
 

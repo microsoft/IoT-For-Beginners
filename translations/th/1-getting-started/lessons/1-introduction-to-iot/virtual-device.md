@@ -154,11 +154,11 @@ CO_OP_TRANSLATOR_METADATA:
 
 1. เมื่อ VS Code เปิดขึ้น มันจะเปิดใช้งานสภาพแวดล้อมเสมือน Python สภาพแวดล้อมเสมือนที่เลือกจะปรากฏในแถบสถานะด้านล่าง:
 
-    ![VS Code showing the selected virtual environment](../../../../../translated_images/th/vscode-virtual-env.8ba42e04c3d533cf.png)
+    ![VS Code showing the selected virtual environment](../../../../../translated_images/th/vscode-virtual-env.8ba42e04c3d533cf.webp)
 
 1. หากเทอร์มินัลของ VS Code กำลังทำงานอยู่เมื่อ VS Code เริ่มต้นขึ้น มันจะไม่มีสภาพแวดล้อมเสมือนเปิดใช้งานในนั้น วิธีที่ง่ายที่สุดคือปิดเทอร์มินัลโดยใช้ปุ่ม **Kill the active terminal instance**:
 
-    ![VS Code Kill the active terminal instance button](../../../../../translated_images/th/vscode-kill-terminal.1cc4de7c6f25ee08.png)
+    ![VS Code Kill the active terminal instance button](../../../../../translated_images/th/vscode-kill-terminal.1cc4de7c6f25ee08.webp)
 
     คุณสามารถบอกได้ว่าเทอร์มินัลมีสภาพแวดล้อมเสมือนเปิดใช้งานหรือไม่จากชื่อของสภาพแวดล้อมเสมือนที่จะแสดงเป็นคำนำหน้าบนพรอมต์ของเทอร์มินัล ตัวอย่างเช่น อาจเป็น:
 
@@ -229,7 +229,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 1. คุณจะต้องเปิดเทอร์มินัลใหม่ใน VS Code โดยเลือกปุ่ม **Create a new integrated terminal** เนื่องจากแอป CounterFit กำลังรันอยู่ในเทอร์มินัลปัจจุบัน
 
-    ![VS Code Create a new integrated terminal button](../../../../../translated_images/th/vscode-new-terminal.77db8fc0f9cd3182.png)
+    ![VS Code Create a new integrated terminal button](../../../../../translated_images/th/vscode-new-terminal.77db8fc0f9cd3182.webp)
 
 1. ในเทอร์มินัลใหม่นี้ รันไฟล์ `app.py` เหมือนเดิม สถานะของ CounterFit จะเปลี่ยนเป็น **Connected** และไฟ LED จะสว่างขึ้น
 

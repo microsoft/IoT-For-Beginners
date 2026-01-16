@@ -72,7 +72,7 @@ Ang cloud provider naman ay maaaring gumamit ng economies of scale upang mapabab
 
 Ang Azure ay ang developer cloud mula sa Microsoft, at ito ang cloud na gagamitin mo para sa mga araling ito. Ang video sa ibaba ay nagbibigay ng maikling buod ng Azure:
 
-[![Buod ng Azure video](../../../../../translated_images/tl/what-is-azure-video-thumbnail.20174db09e03bbb8.png)](https://www.microsoft.com/videoplayer/embed/RE4Ibng?WT.mc_id=academic-17441-jabenn)
+[![Buod ng Azure video](../../../../../translated_images/tl/what-is-azure-video-thumbnail.20174db09e03bbb8.webp)](https://www.microsoft.com/videoplayer/embed/RE4Ibng?WT.mc_id=academic-17441-jabenn)
 
 ## Gumawa ng cloud subscription
 

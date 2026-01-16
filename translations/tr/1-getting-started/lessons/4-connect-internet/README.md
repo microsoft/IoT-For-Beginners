@@ -46,7 +46,7 @@ Bu derste şunları ele alacağız:
 
 IoT cihazlarının İnternet ile iletişim kurmak için kullandığı birçok popüler iletişim protokolü vardır. En popüler olanlar, bir tür aracı üzerinden yayınla/abone ol mesajlaşmasına dayanır. IoT cihazları aracıya bağlanır, telemetri yayınlar ve komutlara abone olur. Bulut hizmetleri de aracıya bağlanır, tüm telemetri mesajlarına abone olur ve belirli cihazlara veya cihaz gruplarına komutlar yayınlar.
 
-![IoT cihazları bir aracıya bağlanır, telemetri yayınlar ve komutlara abone olur. Bulut hizmetleri aracıya bağlanır, tüm telemetri mesajlarına abone olur ve belirli cihazlara komut gönderir.](../../../../../translated_images/tr/pub-sub.7c7ed43fe9fd15d4.png)
+![IoT cihazları bir aracıya bağlanır, telemetri yayınlar ve komutlara abone olur. Bulut hizmetleri aracıya bağlanır, tüm telemetri mesajlarına abone olur ve belirli cihazlara komut gönderir.](../../../../../translated_images/tr/pub-sub.7c7ed43fe9fd15d4.webp)
 
 MQTT, IoT cihazları için en popüler iletişim protokolüdür ve bu derste ele alınacaktır. Diğer protokoller arasında AMQP ve HTTP/HTTPS bulunur.
 
@@ -115,7 +115,7 @@ Telemetri kelimesi, uzaktan ölçüm anlamına gelen Yunanca köklerden türetil
 
 1. Dersteki akıllı termostat örneğine geri dönelim.
 
-![Birden fazla oda sensörü kullanan internet bağlantılı bir termostat](../../../../../translated_images/tr/telemetry.21e5d8b97649d2eb.png)
+![Birden fazla oda sensörü kullanan internet bağlantılı bir termostat](../../../../../translated_images/tr/telemetry.21e5d8b97649d2eb.webp)
 
 Termostat, telemetri toplamak için sıcaklık sensörlerine sahiptir. Muhtemelen bir sıcaklık sensörü yerleşik olarak bulunur ve birden fazla harici sıcaklık sensörüne [Bluetooth Low Energy](https://wikipedia.org/wiki/Bluetooth_Low_Energy) (BLE) gibi bir kablosuz protokol üzerinden bağlanabilir.
 
@@ -267,11 +267,11 @@ Sunucu kodunu yazın.
 
 1. VS Code başlatıldığında, Python sanal ortamını etkinleştirecektir. Bu, alt durum çubuğunda rapor edilecektir:
 
-    ![VS Code seçilen sanal ortamı gösteriyor](../../../../../translated_images/tr/vscode-virtual-env.8ba42e04c3d533cf.png)
+    ![VS Code seçilen sanal ortamı gösteriyor](../../../../../translated_images/tr/vscode-virtual-env.8ba42e04c3d533cf.webp)
 
 1. VS Code Terminali, VS Code başlatıldığında zaten çalışıyorsa, sanal ortam terminalde etkinleştirilmez. En kolay çözüm, **Aktif terminal örneğini sonlandır** düğmesini kullanarak terminali kapatmaktır:
 
-    ![VS Code Aktif terminal örneğini sonlandır düğmesi](../../../../../translated_images/tr/vscode-kill-terminal.1cc4de7c6f25ee08.png)
+    ![VS Code Aktif terminal örneğini sonlandır düğmesi](../../../../../translated_images/tr/vscode-kill-terminal.1cc4de7c6f25ee08.webp)
 
 1. *Terminal -> Yeni Terminal* seçeneğini seçerek veya `` CTRL+` `` tuşlarına basarak yeni bir VS Code Terminali başlatın. Yeni terminal sanal ortamı yükleyecek ve bu, terminalde görünecektir. Sanal ortamın adı (`.venv`) istemde de görünecektir:
 

@@ -37,7 +37,7 @@ Kết nối cảm biến độ ẩm đất.
 
 1. Cắm cảm biến độ ẩm đất vào đất. Nó có một 'đường giới hạn cao nhất' - một đường trắng ngang qua cảm biến. Cắm cảm biến đến nhưng không vượt qua đường này.
 
-![Cảm biến độ ẩm đất Grove trong đất](../../../../../translated_images/vi/soil-moisture-sensor-in-soil.bfad91002bda5e96.png)
+![Cảm biến độ ẩm đất Grove trong đất](../../../../../translated_images/vi/soil-moisture-sensor-in-soil.bfad91002bda5e96.webp)
 
 ## Lập trình cảm biến độ ẩm đất
 

@@ -64,7 +64,7 @@ Wio Terminal'i WiFi'ye bağlayın.
 
 1. `src` klasöründe `config.h` adlı yeni bir dosya oluşturun. Bunu, `src` klasörünü veya içindeki `main.cpp` dosyasını seçerek ve gezgin üzerinde beliren **Yeni dosya** düğmesini seçerek yapabilirsiniz. Bu düğme yalnızca imleciniz gezgin üzerindeyken görünür.
 
-    ![Yeni dosya düğmesi](../../../../../translated_images/tr/vscode-new-file-button.182702340fe6723c.png)
+    ![Yeni dosya düğmesi](../../../../../translated_images/tr/vscode-new-file-button.182702340fe6723c.webp)
 
 1. WiFi kimlik bilgilerinizi tanımlamak için bu dosyaya aşağıdaki kodu ekleyin:
 

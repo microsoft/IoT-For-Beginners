@@ -35,7 +35,7 @@ Wio Terminal ต้องการเซ็นเซอร์วัดระย�
 
 1. เมื่อ Wio Terminal ไม่ได้เชื่อมต่อกับคอมพิวเตอร์หรือแหล่งจ่ายไฟอื่น ๆ ให้เชื่อมต่อปลายอีกด้านของสาย Grove เข้ากับช่องเสียบ Grove ด้านซ้ายของ Wio Terminal เมื่อมองที่หน้าจอ ช่องนี้อยู่ใกล้กับปุ่มเปิด/ปิดเครื่องมากที่สุด และเป็นช่องที่รองรับทั้งดิจิทัลและ I2C
 
-![เซ็นเซอร์ Grove Time of Flight เชื่อมต่อกับช่องเสียบด้านซ้าย](../../../../../translated_images/th/wio-time-of-flight-sensor.c4c182131d2ea73d.png)
+![เซ็นเซอร์ Grove Time of Flight เชื่อมต่อกับช่องเสียบด้านซ้าย](../../../../../translated_images/th/wio-time-of-flight-sensor.c4c182131d2ea73d.webp)
 
 1. ตอนนี้คุณสามารถเชื่อมต่อ Wio Terminal กับคอมพิวเตอร์ของคุณได้แล้ว
 
@@ -101,7 +101,7 @@ Wio Terminal ต้องการเซ็นเซอร์วัดระย�
 
     เครื่องวัดระยะด้วยเลเซอร์อยู่ด้านหลังของเซ็นเซอร์ ดังนั้นให้แน่ใจว่าคุณใช้ด้านที่ถูกต้องเมื่อวัดระยะทาง
 
-    ![เครื่องวัดระยะบนด้านหลังของเซ็นเซอร์ Time of Flight ชี้ไปที่กล้วย](../../../../../translated_images/th/time-of-flight-banana.079921ad8b1496e4.png)
+    ![เครื่องวัดระยะบนด้านหลังของเซ็นเซอร์ Time of Flight ชี้ไปที่กล้วย](../../../../../translated_images/th/time-of-flight-banana.079921ad8b1496e4.webp)
 
 > 💁 คุณสามารถหาโค้ดนี้ได้ในโฟลเดอร์ [code-proximity/wio-terminal](../../../../../4-manufacturing/lessons/4-trigger-fruit-detector/code-proximity/wio-terminal)
 

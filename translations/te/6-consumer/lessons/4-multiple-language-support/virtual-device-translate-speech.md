@@ -46,7 +46,7 @@ CO_OP_TRANSLATOR_METADATA:
     >
     > ఉదాహరణకి, మీరు LUISని ఇంగ్లీష్‌లో శిక్షణ ఇచ్చి ఉంటే, కానీ వినియోగదారు భాషగా ఫ్రెంచ్ ఉపయోగిస్తే, Bing Translate ఉపయోగించి "set a 2 minute and 27 second timer" వాక్యాన్ని ఇంగ్లీష్ నుంచి ఫ్రెంచ్‌కు అనువదించి, **Listen translation** బటన్ ఉపయోగించి మీ మైక్రోఫోన్‌లో అనువాదాన్ని మాట్లాడించవచ్చు.
     >
-    > ![Bing translateలో Listen translation బటన్](../../../../../translated_images/te/bing-translate.348aa796d6efe2a9.png)
+    > ![Bing translateలో Listen translation బటన్](../../../../../translated_images/te/bing-translate.348aa796d6efe2a9.webp)
 
 1. `recognizer_config` మరియు `recognizer` డిక్లరేషన్లను క్రింద ఇవ్వబడిన రీతిగా మార్చండి:
 

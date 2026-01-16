@@ -126,7 +126,7 @@ Varlıklar tanımlandıktan sonra niyetler oluşturursunuz. Bunlar, sağladığ�
 
 Daha sonra LUIS'e bu cümlelerin hangi bölümlerinin varlıklarla eşleştiğini söylersiniz:
 
-![1 dakika 12 saniyelik bir zamanlayıcı ayarla cümlesi varlıklara bölünmüş](../../../../../translated_images/tr/sentence-as-intent-entities.301401696f992259.png)
+![1 dakika 12 saniyelik bir zamanlayıcı ayarla cümlesi varlıklara bölünmüş](../../../../../translated_images/tr/sentence-as-intent-entities.301401696f992259.webp)
 
 `1 dakika 12 saniyelik bir zamanlayıcı ayarla` cümlesi `zamanlayıcı ayarla` niyetine sahiptir. Ayrıca 2 varlık ve her biri için 2 değer içerir:
 

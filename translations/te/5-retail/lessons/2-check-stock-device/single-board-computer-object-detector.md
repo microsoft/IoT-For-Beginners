@@ -76,7 +76,7 @@ CO_OP_TRANSLATOR_METADATA:
 
     మీరు తీయబడిన చిత్రాన్ని మరియు ఈ విలువలను Custom Vision లో **Predictions** ట్యాబ్ లో చూడగలుగుతారు.
 
-    ![షెల్ఫ్ పై 4 ట‌మాటో పేస్ట్ కెన్లు, 35.8%, 33.5%, 25.7% మరియు 16.6% డిటెక్షన్ ప్రిడిక్షన్స్ తో](../../../../../translated_images/te/custom-vision-stock-prediction.942266ab1bcca341.png)
+    ![షెల్ఫ్ పై 4 ట‌మాటో పేస్ట్ కెన్లు, 35.8%, 33.5%, 25.7% మరియు 16.6% డిటెక్షన్ ప్రిడిక్షన్స్ తో](../../../../../translated_images/te/custom-vision-stock-prediction.942266ab1bcca341.webp)
 
 > 💁 ఈ కోడ్‌ను మీరు [code-detect/pi](../../../../../5-retail/lessons/2-check-stock-device/code-detect/pi) లేదా [code-detect/virtual-iot-device](../../../../../5-retail/lessons/2-check-stock-device/code-detect/virtual-iot-device) ఫోల్డర్‌లో పొందవచ్చు.
 

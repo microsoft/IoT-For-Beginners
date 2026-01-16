@@ -61,7 +61,7 @@ Bu ayırma makinelerinin en son evrimi, AI ve ML'den yararlanarak, yalnızca ye�
 
 Geleneksel programlama, verileri alıp bir algoritma uygulayarak çıktı elde ettiğiniz bir yöntemdir. Örneğin, bir önceki projede GPS koordinatlarını ve bir coğrafi çiti alıp, Azure Maps tarafından sağlanan bir algoritmayı uygulayarak, noktanın çitin içinde mi yoksa dışında mı olduğunu belirleyen bir sonuç elde ettiniz. Daha fazla veri girdiniz, daha fazla çıktı aldınız.
 
-![Geleneksel geliştirme, girdiyi ve bir algoritmayı alır ve çıktı verir. Makine öğrenimi, girdiyi ve çıktı verilerini kullanarak bir model eğitir ve bu model yeni girdilerle yeni çıktılar oluşturabilir.](../../../../../translated_images/tr/traditional-vs-ml.5c20c169621fa539.png)
+![Geleneksel geliştirme, girdiyi ve bir algoritmayı alır ve çıktı verir. Makine öğrenimi, girdiyi ve çıktı verilerini kullanarak bir model eğitir ve bu model yeni girdilerle yeni çıktılar oluşturabilir.](../../../../../translated_images/tr/traditional-vs-ml.5c20c169621fa539.webp)
 
 Makine öğrenimi bu süreci tersine çevirir - veriler ve bilinen çıktılarla başlarsınız ve makine öğrenimi algoritması verilerden öğrenir. Daha sonra bu eğitilmiş algoritmayı, yani bir *makine öğrenimi modeli* veya *modeli* alabilir, yeni verilerle besleyebilir ve yeni çıktılar elde edebilirsiniz.
 
@@ -87,7 +87,7 @@ Başarılı bir görüntü sınıflandırıcı eğitmek için milyonlarca görü
 
 Bir görüntü sınıflandırıcı geniş bir yelpazede görüntüler için eğitildiğinde, şekilleri, renkleri ve desenleri tanımada oldukça iyi hale gelir. Transfer öğrenimi, modelin görüntü parçalarını tanımada öğrendiklerini almasına ve yeni görüntüleri tanımak için kullanmasına olanak tanır.
 
-![Bir kez şekilleri tanıyabilirseniz, bunları farklı konfigürasyonlarda bir tekne veya kedi yapmak için kullanabilirsiniz.](../../../../../translated_images/tr/shapes-to-images.1a309f0ea88dd66f.png)
+![Bir kez şekilleri tanıyabilirseniz, bunları farklı konfigürasyonlarda bir tekne veya kedi yapmak için kullanabilirsiniz.](../../../../../translated_images/tr/shapes-to-images.1a309f0ea88dd66f.webp)
 
 Bunu, çocukların şekil kitaplarına benzetebilirsiniz; bir yarım daire, bir dikdörtgen ve bir üçgeni tanıyabildiğinizde, bunların bir tekne mi yoksa bir kedi mi olduğunu şekillerin düzenine göre anlayabilirsiniz. Görüntü sınıflandırıcı şekilleri tanıyabilir ve transfer öğrenimi, hangi kombinasyonun bir tekne veya kedi - ya da olgun bir muz - oluşturduğunu öğretir.
 

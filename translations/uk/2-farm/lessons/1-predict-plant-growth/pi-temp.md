@@ -31,7 +31,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 1. З вимкненим Raspberry Pi підключіть інший кінець кабелю Grove до цифрового роз'єму, позначеного **D5**, на Grove Base Hat, підключеному до Pi. Цей роз'єм є другим зліва в ряду роз'ємів поруч із GPIO-пінами.
 
-![Датчик температури Grove, підключений до роз'єму A0](../../../../../translated_images/uk/pi-temperature-sensor.3ff82fff672c8e56.png)
+![Датчик температури Grove, підключений до роз'єму A0](../../../../../translated_images/uk/pi-temperature-sensor.3ff82fff672c8e56.webp)
 
 ## Програмування датчика температури
 

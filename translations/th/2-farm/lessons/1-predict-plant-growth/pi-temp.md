@@ -31,7 +31,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 1. เมื่อ Raspberry Pi ปิดอยู่ ให้เชื่อมต่อปลายอีกด้านของสาย Grove เข้ากับช่องเสียบดิจิทัลที่มีเครื่องหมาย **D5** บน Grove Base hat ที่ติดตั้งอยู่บน Pi ช่องเสียบนี้เป็นช่องที่สองจากด้านซ้ายในแถวของช่องเสียบที่อยู่ติดกับ GPIO pins
 
-![เซ็นเซอร์วัดอุณหภูมิ Grove เชื่อมต่อกับช่อง A0](../../../../../translated_images/th/pi-temperature-sensor.3ff82fff672c8e56.png)
+![เซ็นเซอร์วัดอุณหภูมิ Grove เชื่อมต่อกับช่อง A0](../../../../../translated_images/th/pi-temperature-sensor.3ff82fff672c8e56.webp)
 
 ## เขียนโปรแกรมเซ็นเซอร์วัดอุณหภูมิ
 

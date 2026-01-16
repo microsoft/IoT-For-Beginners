@@ -33,7 +33,7 @@ Grove GPS 感測器可以連接到 Wio Terminal。
 
 1. 在 Wio Terminal 未連接到電腦或其他電源的情況下，將 Grove 線纜的另一端連接到 Wio Terminal 左側的 Grove 插槽（面向螢幕時）。這是靠近電源按鈕的插槽。
 
-    ![Grove GPS 感測器連接到左側插槽](../../../../../translated_images/tw/wio-gps-sensor.19fd52b81ce58095.png)
+    ![Grove GPS 感測器連接到左側插槽](../../../../../translated_images/tw/wio-gps-sensor.19fd52b81ce58095.webp)
 
 1. 將 GPS 感測器放置在附帶的天線可以看到天空的位置——理想情況下靠近窗戶或在室外。天線周圍沒有障礙物時，信號會更清晰。
 

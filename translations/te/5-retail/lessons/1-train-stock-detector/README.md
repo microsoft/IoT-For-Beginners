@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # స్టాక్ డిటెక్టర్ ను శిక్షణ ఇవ్వండి
 
-![ఈ పాఠం యొక్క స్కెచ్నోట్ అవలోకనం](../../../../../translated_images/te/lesson-19.cf6973cecadf080c.jpg)
+![ఈ పాఠం యొక్క స్కెచ్నోట్ అవలోకనం](../../../../../translated_images/te/lesson-19.cf6973cecadf080c.webp)
 
 > స్కెచ్నోట్ [నిత్య నరసింహన్](https://github.com/nitya) ద్వారా. పెద్ద వెర్షన్ కోసం చిత్రంపై క్లిక్ చేయండి.
 
@@ -45,7 +45,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 ఇమేజ్ క్లాసిఫికేషన్ అంటే ఒక చిత్రం మొత్తం ఏ ట్యాగ్ కి సరిపోతుందో అంచనా వేయడం. ప్రతి ట్యాగ్ కి సంబందించిన శాతం పొందుతారు.
 
-![కాజూనట్స్ మరియు టమోటో పేస్ట్ యొక్క ఇమేజ్ క్లాసిఫికేషన్](../../../../../translated_images/te/image-classifier-cashews-tomato.bc2e16ab8f05cf9a.png)
+![కాజూనట్స్ మరియు టమోటో పేస్ట్ యొక్క ఇమేజ్ క్లాసిఫికేషన్](../../../../../translated_images/te/image-classifier-cashews-tomato.bc2e16ab8f05cf9a.webp)
 
 పై ఉదాహరణలో, రెండు చిత్రాలు ఒక మోడల్ తో వర్గీకరించబడ్డాయి, ఇది కాజూనట్స్ టబ్ లేదా టమోటో పేస్ట్ క్యాన్ వర్గీకరిస్తుంది. మొదటి చిత్రం కాజూనట్స్ టబ్, దీని ఫలితాలు:
 
@@ -69,7 +69,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 > 🎓 *బౌండింగ్ బాక్సులు* అనేది వస్తువుల చుట్టూ ఉన్న బాక్సులు.
 
-![కాజూనట్స్ మరియు టమోటో పేస్టు ఆబ్జెక్ట్ డిటెక్షన్](../../../../../translated_images/te/object-detector-cashews-tomato.1af7c26686b4db0e.png)
+![కాజూనట్స్ మరియు టమోటో పేస్టు ఆబ్జెక్ట్ డిటెక్షన్](../../../../../translated_images/te/object-detector-cashews-tomato.1af7c26686b4db0e.webp)
 
 పై చిత్రంలో కాజూనట్స్ మరియు మూడు టమోటో పేస్ట్ కేన్లు ఉన్నాయి. ఆబ్జెక్ట్ డిటెక్టర్ 97.6% శాతం ఛాన్స్ తో కాజూనట్స్ బాక్స్ చూపిస్తుంది. ఇంకా మూడు టమోటో క్యాన్ల బాక్సులు చూపిస్తుంది వైవిధ్య శాతం తో.
 
@@ -120,7 +120,7 @@ Custom Vision ఉపయోగించి, మీరు ఇమేజ్ క్�
 
     ప్రాజెక్ట్ సృష్టించే సమయంలో, ముందుగా సృష్టించిన `stock-detector-training` రిసోర్స్ ఉపయోగించండి. *Object Detection* ప్రాజెక్ట్ టైపును ఎంచుకోండి, మరియు *Products on Shelves* డొమైన్ ఉపయోగించండి.
 
-    ![ఫ్రూట్-క్వాలిటీ-డిటెక్టర్ పేరుతో కస్టమ్ విజన్ ప్రాజెక్ట్ సెట్టింగులు చూపింపు](../../../../../translated_images/te/custom-vision-create-object-detector-project.32d4fb9aa8e7e737.png)
+    ![ఫ్రూట్-క్వాలిటీ-డిటెక్టర్ పేరుతో కస్టమ్ విజన్ ప్రాజెక్ట్ సెట్టింగులు చూపింపు](../../../../../translated_images/te/custom-vision-create-object-detector-project.32d4fb9aa8e7e737.webp)
 
     ✅ Products on shelves డొమైన్ స్టోర్ షెల్ఫ్‌లలో స్టాక్ గుర్తించడానికి ప్రత్యేకంగా రూపొందించబడింది. వివిధ డొమైలను Microsoft Docs లో [Select a domain డాక్యుమెంటేషన్](https://docs.microsoft.com/azure/cognitive-services/custom-vision-service/select-domain?WT.mc_id=academic-17441-jabenn#object-detection) చదవండి.
 
@@ -142,11 +142,11 @@ Custom Vision ఉపయోగించి, మీరు ఇమేజ్ క్�
 
 1. [Build an object detector quickstart Microsoft docs లో Upload and tag images విభాగం](https://docs.microsoft.com/azure/cognitive-services/custom-vision-service/get-started-build-detector?WT.mc_id=academic-17441-jabenn#upload-and-tag-images) ను అనుసరించి శిక్షణ చిత్రాలు అప్‌లోడ్ చేయండి. మీరు గుర్తించాలనుకునే వస్తువుల ఆధారంగా సరైన ట్యాగ్లు సృష్టించండి.
 
-    ![పండిన మరియు పండని అరటిపండ్లు అప్‌లోడ్ డైలాగ్](../../../../../translated_images/te/image-upload-object-detector.77c7892c3093cb59.png)
+    ![పండిన మరియు పండని అరటిపండ్లు అప్‌లోడ్ డైలాగ్](../../../../../translated_images/te/image-upload-object-detector.77c7892c3093cb59.webp)
 
     వస్తువులకు బౌండింగ్ బాక్స్ గీయండి, వాటి చుట్టూ సన్నగా ఉండేలా చేయండి. ప్రతి చిత్రం కోసం బాక్స్ గీయడం కొంత సమయం పట్టొచ్చు, కానీ సాధనం బౌండింగ్ బాక్సులను గుర్తించి వేగవంతం చేస్తుంది.
 
-    ![టమోటో పేస్ట్ ట్యాగ్ చేయడం](../../../../../translated_images/te/object-detector-tag-tomato-paste.f47c362fb0f0eb58.png)
+    ![టమోటో పేస్ట్ ట్యాగ్ చేయడం](../../../../../translated_images/te/object-detector-tag-tomato-paste.f47c362fb0f0eb58.webp)
 
     > 💁 15 కన్నా ఎక్కువ చిత్రాలు ఉన్నట్లయితే, 15 తర్వాత శిక్షణ ఇస్తే, **Suggested tags** ఫీచర్ ఉపయోగించవచ్చు. ఇది శిక్షిత మోడల్ తో అనట్యాగ్ చిత్రం లో వస్తువులను గుర్తిస్తుంది. మీరు అవి సరిగ్గా ఉన్నాయో లేక కొత్తగా బాక్స్ చెయ్యాలి అనేది నిర్ణయించవచ్చు. ఇది సమయం సంరక్షిస్తుంది.
 
@@ -164,7 +164,7 @@ Custom Vision ఉపయోగించి, మీరు ఇమేజ్ క్�
 
 1. **Quick Test** బటన్ ఉపయోగించి పరీక్షా చిత్రాలు అప్‌లోడ్ చేసి వస్తువులు గుర్తించబడుతున్నాయో చూడండి. పూర్వంలా సృష్టించిన పరీక్షా చిత్రాలు మాత్రమే ఉపయోగించండి, శిక్షణ చిత్రాలు కాదు.
 
-    ![3 టమోటో పేస్ట్ క్యాన్లు 38%, 35.5%, 34.6% శాతం దొరికినట్లు చూపింపు](../../../../../translated_images/te/object-detector-detected-tomato-paste.52656fe87af4c37b.png)
+    ![3 టమోటో పేస్ట్ క్యాన్లు 38%, 35.5%, 34.6% శాతం దొరికినట్లు చూపింపు](../../../../../translated_images/te/object-detector-detected-tomato-paste.52656fe87af4c37b.webp)
 
 1. మీకు అందుబాటులో ఉన్న అన్ని పరీక్షా చిత్రాలను ప్రయత్నించి శాతాలు గమనించండి.
 

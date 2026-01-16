@@ -35,7 +35,7 @@ Time of flight sensörünü bağlayın.
 
 1. Raspberry Pi kapalıyken, Grove kablosunun diğer ucunu, Pi'ye bağlı Grove Base şapkasındaki **I²C** olarak işaretlenmiş soketlerden birine bağlayın. Bu soketler, GPIO pinlerinin karşı ucunda, alt sırada ve kamera kablosu yuvasının yanındadır.
 
-![Grove time of flight sensörünün I²C soketine bağlı hali](../../../../../translated_images/tr/pi-time-of-flight-sensor.58c8dc04eb3bfb57.png)
+![Grove time of flight sensörünün I²C soketine bağlı hali](../../../../../translated_images/tr/pi-time-of-flight-sensor.58c8dc04eb3bfb57.webp)
 
 ## Time of Flight Sensörünü Programlama
 
@@ -106,7 +106,7 @@ Cihazı programlayın.
 
     Mesafe ölçer, sensörün arka tarafındadır, bu yüzden mesafeyi ölçerken doğru tarafı kullandığınızdan emin olun.
 
-    ![Time of flight sensörünün arka tarafındaki mesafe ölçer bir muza doğrultulmuş](../../../../../translated_images/tr/time-of-flight-banana.079921ad8b1496e4.png)
+    ![Time of flight sensörünün arka tarafındaki mesafe ölçer bir muza doğrultulmuş](../../../../../translated_images/tr/time-of-flight-banana.079921ad8b1496e4.webp)
 
 > 💁 Bu kodu [code-proximity/pi](../../../../../4-manufacturing/lessons/4-trigger-fruit-detector/code-proximity/pi) klasöründe bulabilirsiniz.
 

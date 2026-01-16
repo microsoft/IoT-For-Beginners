@@ -37,7 +37,7 @@ I denna lektion kommer vi att täcka:
 
 Text till tal, som namnet antyder, är processen att konvertera text till ljud som innehåller texten som talade ord. Den grundläggande principen är att bryta ner orden i texten till deras beståndsdelar (kända som fonem) och sätta ihop ljud för dessa ljud, antingen med förinspelat ljud eller med ljud som genereras av AI-modeller.
 
-![De tre stegen i typiska text-till-tal-system](../../../../../translated_images/sv/tts-overview.193843cf3f5ee09f.png)
+![De tre stegen i typiska text-till-tal-system](../../../../../translated_images/sv/tts-overview.193843cf3f5ee09f.webp)
 
 Text-till-tal-system har vanligtvis tre steg:
 

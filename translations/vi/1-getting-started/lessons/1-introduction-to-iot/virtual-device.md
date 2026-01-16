@@ -154,11 +154,11 @@ Tạo một ứng dụng Python để in `"Hello World"` ra console.
 
 1. Khi VS Code khởi chạy, nó sẽ kích hoạt môi trường ảo Python. Môi trường ảo được chọn sẽ xuất hiện trong thanh trạng thái dưới cùng:
 
-    ![VS Code hiển thị môi trường ảo được chọn](../../../../../translated_images/vi/vscode-virtual-env.8ba42e04c3d533cf.png)
+    ![VS Code hiển thị môi trường ảo được chọn](../../../../../translated_images/vi/vscode-virtual-env.8ba42e04c3d533cf.webp)
 
 1. Nếu Terminal của VS Code đã chạy khi VS Code khởi động, nó sẽ không có môi trường ảo được kích hoạt. Cách dễ nhất là tắt terminal bằng nút **Kill the active terminal instance**:
 
-    ![Nút Kill the active terminal instance của VS Code](../../../../../translated_images/vi/vscode-kill-terminal.1cc4de7c6f25ee08.png)
+    ![Nút Kill the active terminal instance của VS Code](../../../../../translated_images/vi/vscode-kill-terminal.1cc4de7c6f25ee08.webp)
 
     Bạn có thể biết terminal đã kích hoạt môi trường ảo hay chưa bằng cách kiểm tra tên của môi trường ảo có xuất hiện làm tiền tố trên prompt của terminal hay không. Ví dụ, nó có thể là:
 
@@ -229,7 +229,7 @@ Như một bước 'Hello World' thứ hai, bạn sẽ chạy ứng dụng Count
 
 1. Bạn sẽ cần khởi chạy một terminal mới trong VS Code bằng cách chọn nút **Create a new integrated terminal**. Điều này là do ứng dụng CounterFit đang chạy trong terminal hiện tại.
 
-    ![Nút Create a new integrated terminal của VS Code](../../../../../translated_images/vi/vscode-new-terminal.77db8fc0f9cd3182.png)
+    ![Nút Create a new integrated terminal của VS Code](../../../../../translated_images/vi/vscode-new-terminal.77db8fc0f9cd3182.webp)
 
 1. Trong terminal mới này, chạy tệp `app.py` như trước. Trạng thái của CounterFit sẽ thay đổi thành **Connected** và đèn LED sẽ sáng lên.
 

@@ -37,7 +37,7 @@ Toprak nem sensörünü bağlayın.
 
 1. Toprak nem sensörünü toprağa yerleştirin. Sensör üzerinde bir 'en yüksek pozisyon çizgisi' - beyaz bir çizgi bulunur. Sensörü bu çizgiye kadar, ancak çizgiyi geçmeyecek şekilde yerleştirin.
 
-![Toprakta Grove toprak nem sensörü](../../../../../translated_images/tr/soil-moisture-sensor-in-soil.bfad91002bda5e96.png)
+![Toprakta Grove toprak nem sensörü](../../../../../translated_images/tr/soil-moisture-sensor-in-soil.bfad91002bda5e96.webp)
 
 ## Toprak nem sensörünü programlayın
 

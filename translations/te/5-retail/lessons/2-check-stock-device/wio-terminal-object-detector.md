@@ -104,7 +104,7 @@ CO_OP_TRANSLATOR_METADATA:
 
     మీరు తీసుకున్న చిత్రం అలాగే ఈ విలువలను Custom Vision లో **Predictions** ట్యాబ్ లో చూడగలరు.
 
-    ![4 క్యాన్లు టమోటో పేస్ట్ షెల్ఫ్ పై, వాటి 35.8%, 33.5%, 25.7% మరియు 16.6% గుర్తింపులతో](../../../../../translated_images/te/custom-vision-stock-prediction.942266ab1bcca341.png)
+    ![4 క్యాన్లు టమోటో పేస్ట్ షెల్ఫ్ పై, వాటి 35.8%, 33.5%, 25.7% మరియు 16.6% గుర్తింపులతో](../../../../../translated_images/te/custom-vision-stock-prediction.942266ab1bcca341.webp)
 
 > 💁 ఈ కోడ్‌ను మీరు [code-detect/wio-terminal](../../../../../5-retail/lessons/2-check-stock-device/code-detect/wio-terminal) ఫోల్డర్ లో కనుగొనవచ్చు.
 

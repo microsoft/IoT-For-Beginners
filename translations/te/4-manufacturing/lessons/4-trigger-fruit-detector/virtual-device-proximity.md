@@ -45,11 +45,11 @@ CO_OP_TRANSLATOR_METADATA:
 
     1. దూరం సెన్సార్ సృష్టించడానికి **Add** బటన్ ను ఎంచుకోండి
 
-    ![The distance sensor settings](../../../../../translated_images/te/counterfit-create-distance-sensor.967c9fb98f27888d.png)
+    ![The distance sensor settings](../../../../../translated_images/te/counterfit-create-distance-sensor.967c9fb98f27888d.webp)
 
     దూరం సెన్సార్ సృష్టించబడుతుంది మరియు సెన్సార్‌ల జాబితాలో కనిపిస్తుంది.
 
-    ![The distance sensor created](../../../../../translated_images/te/counterfit-distance-sensor.079eefeeea0b68af.png)
+    ![The distance sensor created](../../../../../translated_images/te/counterfit-distance-sensor.079eefeeea0b68af.webp)
 
 ## దూరం సెన్సార్ ప్రోగ్రామ్ చేయండి
 

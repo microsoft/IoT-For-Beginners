@@ -25,13 +25,13 @@ CO_OP_TRANSLATOR_METADATA:
 
 #### టాస్క్ - బటన్ కనెక్ట్ చేయండి
 
-![A grove button](../../../../../translated_images/te/grove-button.a70cfbb809a85636.png)
+![A grove button](../../../../../translated_images/te/grove-button.a70cfbb809a85636.webp)
 
 1. గ్రోవ్ కేబుల్ యొక్క ఒక చివరని బటన్ మాడ్యూల్ మీద ఉన్న సాకెట్‌లో ఎక్కించండి. ఇది ఒక దిశలోనే ప్రవేశిస్తుంది.
 
 1. రాస్ప్బెర్రీ పైని పవర్ ఆఫ్ చేసినప్పుడు, గ్రోవ్ కేబుల్ యొక్క మరొక చివరని Piకి ఉన్న గ్రోవ్ బేస్ HATలోని డిజిటల్ సాకెట్ **D5** (GPIO పిన్ల పక్కన ఉన్న సాకెట్‌ల వరుసలో ఎడమ నుండి రెండవది)కి కనెక్ట్ చేయండి.
 
-![The grove button connected to socket D5](../../../../../translated_images/te/pi-button.c7a1a4f55943341c.png)
+![The grove button connected to socket D5](../../../../../translated_images/te/pi-button.c7a1a4f55943341c.webp)
 
 ## ఆడియో క్యాప్చర్ చేయండి
 

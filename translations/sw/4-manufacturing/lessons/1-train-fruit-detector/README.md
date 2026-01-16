@@ -61,7 +61,7 @@ Mageuzi ya hivi karibuni ya mashine hizi za kuchagua yanatumia AI na ML, kwa kut
 
 Programu za jadi ni pale unapochukua data, kutumia algorithimu kwenye data hiyo, na kupata matokeo. Kwa mfano, katika mradi uliopita ulitumia viwianishi vya GPS na geofence, ukatumia algorithimu iliyotolewa na Azure Maps, na ukapata matokeo ya kama sehemu hiyo ilikuwa ndani au nje ya geofence. Ukiingiza data zaidi, unapata matokeo zaidi.
 
-![Maendeleo ya jadi yanachukua data ya kuingiza na algorithimu na kutoa matokeo. Kujifunza kwa mashine hutumia data ya kuingiza na matokeo yanayojulikana kufundisha mfano, na mfano huu unaweza kuchukua data mpya ya kuingiza kutoa matokeo mapya](../../../../../translated_images/sw/traditional-vs-ml.5c20c169621fa539.png)
+![Maendeleo ya jadi yanachukua data ya kuingiza na algorithimu na kutoa matokeo. Kujifunza kwa mashine hutumia data ya kuingiza na matokeo yanayojulikana kufundisha mfano, na mfano huu unaweza kuchukua data mpya ya kuingiza kutoa matokeo mapya](../../../../../translated_images/sw/traditional-vs-ml.5c20c169621fa539.webp)
 
 Kujifunza kwa mashine kunabadilisha hili - unaanza na data na matokeo yanayojulikana, na algorithimu ya kujifunza kwa mashine inajifunza kutoka kwa data hiyo. Unaweza kisha kuchukua algorithimu hiyo iliyofundishwa, inayoitwa *mfano wa kujifunza kwa mashine* au *mfano*, na kuingiza data mpya na kupata matokeo mapya.
 
@@ -87,7 +87,7 @@ Ili kufundisha kifaa cha uainishaji wa picha kwa mafanikio, unahitaji mamilioni 
 
 Mara tu kifaa cha uainishaji wa picha kinapofundishwa kwa picha mbalimbali, sehemu zake za ndani ni nzuri katika kutambua maumbo, rangi, na mifumo. Kujifunza kwa uhamisho kunaruhusu mfano kutumia kile ambacho tayari kimejifunza katika kutambua sehemu za picha, na kutumia maarifa hayo kutambua picha mpya.
 
-![Mara tu unapoweza kutambua maumbo, yanaweza kuwekwa katika mipangilio tofauti kutengeneza mashua au paka](../../../../../translated_images/sw/shapes-to-images.1a309f0ea88dd66f.png)
+![Mara tu unapoweza kutambua maumbo, yanaweza kuwekwa katika mipangilio tofauti kutengeneza mashua au paka](../../../../../translated_images/sw/shapes-to-images.1a309f0ea88dd66f.webp)
 
 Unaweza kufikiria hili kama vitabu vya maumbo ya watoto, ambapo mara tu unapoweza kutambua nusu duara, mstatili, na pembetatu, unaweza kutambua mashua au paka kulingana na mpangilio wa maumbo haya. Kifaa cha uainishaji wa picha kinaweza kutambua maumbo, na kujifunza kwa uhamisho kunakifundisha mchanganyiko gani unafanya mashua au paka - au ndizi iliyokomaa.
 

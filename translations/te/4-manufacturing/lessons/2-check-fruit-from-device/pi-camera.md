@@ -25,7 +25,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 ### పని - కెమెరాను కనెక్ట్ చేయండి
 
-![A Raspberry Pi Camera](../../../../../translated_images/te/pi-camera-module.4278753c31bd6e75.png)
+![A Raspberry Pi Camera](../../../../../translated_images/te/pi-camera-module.4278753c31bd6e75.webp)
 
 1. పై పవర్ ఆఫ్ చేయండి.
 
@@ -33,17 +33,17 @@ CO_OP_TRANSLATOR_METADATA:
 
     మీరు క్లిప్ ఎలా తెరిచి కేబుల్ ఎలా ఇన్సర్ట్ చేయాలి అనేదాన్ని చూపించే యానిమేషన్‌ను [రాస్బెర్రీ పై Getting Started with the Camera module డాక్యుమెంటేషన్](https://projects.raspberrypi.org/en/projects/getting-started-with-picamera/2) లో చూడవచ్చు.
 
-    ![The ribbon cable inserted into the camera module](../../../../../translated_images/te/pi-camera-ribbon-cable.0bf82acd251611c2.png)
+    ![The ribbon cable inserted into the camera module](../../../../../translated_images/te/pi-camera-ribbon-cable.0bf82acd251611c2.webp)
 
 1. పై నుండి Grove Base Hat తీసివేయండి.
 
 1. రిబ్బన్ కేబుల్‌ను Grove Base Hat లోని కెమెరా స్లాట్ ద్వారా తీసిపోగండి. కేబుల్ యొక్క నీలం వైపు అనలాగ్ పోర్ట్ల వైపు **A0**, **A1** లాంటి లేబుల్స్ వైపు ఉండాలి.
 
-    ![The ribbon cable passing through the grove base hat](../../../../../translated_images/te/grove-base-hat-ribbon-cable.501fed202fcf73b1.png)
+    ![The ribbon cable passing through the grove base hat](../../../../../translated_images/te/grove-base-hat-ribbon-cable.501fed202fcf73b1.webp)
 
 1. రిబ్బన్ కేబుల్‌ను పై పై కెమెరా పోర్టులో చొప్పించండి. మరలా బ్లాక్ ప్లాస్టిక్ క్లిప్‌ను లాగి, కేబుల్‌ను డాల్చి, క్లిప్‌ని తిరిగి గట్టిగా పెట్టండి. కేబుల్ యొక్క నీలం వైపు USB మరియు ఈథర్నెట్ పోర్టుల వైపు ఉండాలి.
 
-    ![The ribbon cable connected to the camera socket on the Pi](../../../../../translated_images/te/pi-camera-socket-ribbon-cable.a18309920b118009.png)
+    ![The ribbon cable connected to the camera socket on the Pi](../../../../../translated_images/te/pi-camera-socket-ribbon-cable.a18309920b118009.webp)
 
 1. Grove Base Hat మళ్ళీ ఇన్సర్ట్ చేయండి.
 
@@ -110,7 +110,7 @@ CO_OP_TRANSLATOR_METADATA:
 
     `camera.rotation = 0` లైన్ చిత్రం యొక్క తిరుగుబాటును సెట్ చేస్తుంది. రిబ్బన్ కేబుల్ కెమెరా క్రింద నుంచి వస్తుంది, కానీ మీరు క్లాస్ చేయవలసిన వస్తువు వైపు చెయ్యడానికి కెమెరాను తిప్పితే, ఈ లైన్‌లో తిరుగుబాటు కోణాన్నివారుసేవో మార్చవచ్చు.
 
-    ![The camera hanging down over a drink can](../../../../../translated_images/te/pi-camera-upside-down.5376961ba3145988.png)
+    ![The camera hanging down over a drink can](../../../../../translated_images/te/pi-camera-upside-down.5376961ba3145988.webp)
 
     ఉదాహరణకి, మీరు రిబ్బన్ కేబుల్‌ను ఏదైన వస్తువు మీద ఉంచి కెమెరా టాప్‌లో ఉందని భావించి తిరుగుబాటును 180 గా సెట్ చేయండి:
 

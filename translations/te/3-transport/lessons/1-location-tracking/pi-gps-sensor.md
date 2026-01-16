@@ -27,13 +27,13 @@ Grove GPS సెన్సార్‌ను రాస్ప్బెర్రీ
 
 GPS సెన్సార్‌ని కనెక్ట్ చేయండి.
 
-![A grove GPS sensor](../../../../../translated_images/te/grove-gps-sensor.247943bf69b03f0d.png)
+![A grove GPS sensor](../../../../../translated_images/te/grove-gps-sensor.247943bf69b03f0d.webp)
 
 1. Grove కేబుల్ ఒక చివరను GPS సెన్సార్上的 సాకెట్ లో పెట్టండి. అది ఒక్క దిశలోనే పోతుంది.
 
 1. రాస్ప్బెర్రీ పై పవర్ ఆఫ్ చేసిన తర్వాత, Grove కేబుల్ యొక్క మార్చి చివరని Piకి జతచేసిన Grove Base హాట్上的 **UART** సాకెట్‌కు కనెక్ట్ చేయండి. ఈ సాకెట్ మధ్య వరుసలో ఉంటుంది, SD కార్డ్ స్లాట్ సమీప బదులు, USB పోర్ట్స్ మరియు ఇథర్నెట్ సాకెట్ పక్కన ఉంటది.
 
-    ![The grove GPS sensor connected to the UART socket](../../../../../translated_images/te/pi-gps-sensor.1f99ee2b2f652891.png)
+    ![The grove GPS sensor connected to the UART socket](../../../../../translated_images/te/pi-gps-sensor.1f99ee2b2f652891.webp)
 
 1. GPS సెన్సార్‌ను అటువంటి విధంగా పెట్టండి, యాంటెన్నా ఆకాశాన్ని చూడగలగడం - ఇలాకా ఓపెన్ విన్‌డో లేదా బయట. యాంటెన్నాకు మార్గంలో ఏదీ లేకపోతే క్లియర్ సిగ్నల్ పొందడం సులభం.
 

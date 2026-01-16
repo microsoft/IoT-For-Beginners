@@ -17,7 +17,7 @@ Bu ders için kullanılan sensör, ışığı bir elektrik sinyaline dönüştü
 
 Işık sensörü, Wio Terminal'in içine yerleştirilmiştir ve cihazın arkasındaki şeffaf plastik pencere aracılığıyla görülebilir.
 
-![Wio Terminal'in arkasındaki ışık sensörü](../../../../../translated_images/tr/wio-light-sensor.b1f529f3c95f5165.png)
+![Wio Terminal'in arkasındaki ışık sensörü](../../../../../translated_images/tr/wio-light-sensor.b1f529f3c95f5165.webp)
 
 ## Işık Sensörünü Programlayın
 

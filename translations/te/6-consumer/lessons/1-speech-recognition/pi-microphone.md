@@ -43,7 +43,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 1. మీరు ReSpeaker 2-Mics Pi HAT ఉపయోగిస్తుంటే, Grove బేస్ హాట్‌ని తొలగించి, ReSpeaker హాట్‌ని దాని స్థలంలో ఉంచవచ్చు.
 
-    ![A raspberry pi with a ReSpeaker hat](../../../../../translated_images/te/pi-respeaker-hat.f00fabe7dd039a93.png)
+    ![A raspberry pi with a ReSpeaker hat](../../../../../translated_images/te/pi-respeaker-hat.f00fabe7dd039a93.webp)
 
     మీరు ఈ పాఠంలో తర్వాత Grove బటన్ అవసరం అవుతుంది, కానీ ఇది ఈ హాట్‌లో అంతర్గతంగా ఉంటుంది, కాబట్టి Grove బేస్ హాట్ అవసరం లేదు.
 

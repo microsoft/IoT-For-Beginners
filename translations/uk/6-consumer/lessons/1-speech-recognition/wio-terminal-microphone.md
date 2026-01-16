@@ -15,11 +15,11 @@ CO_OP_TRANSLATOR_METADATA:
 
 Wio Terminal вже має вбудований мікрофон, який можна використовувати для запису звуку для розпізнавання мови.
 
-![Мікрофон на Wio Terminal](../../../../../translated_images/uk/wio-mic.3f8c843dbe8ad917.png)
+![Мікрофон на Wio Terminal](../../../../../translated_images/uk/wio-mic.3f8c843dbe8ad917.webp)
 
 Щоб додати динамік, ви можете використовувати [ReSpeaker 2-Mics Pi Hat](https://www.seeedstudio.com/ReSpeaker-2-Mics-Pi-HAT.html). Це зовнішня плата, яка містить 2 MEMS-мікрофони, а також роз'єм для динаміка і гніздо для навушників.
 
-![ReSpeaker 2-Mics Pi Hat](../../../../../translated_images/uk/respeaker.f5d19d1c6b14ab16.png)
+![ReSpeaker 2-Mics Pi Hat](../../../../../translated_images/uk/respeaker.f5d19d1c6b14ab16.webp)
 
 Вам знадобляться або навушники, або динамік із роз'ємом 3.5 мм, або динамік із підключенням JST, наприклад, [Mono Enclosed Speaker - 2W 6 Ohm](https://www.seeedstudio.com/Mono-Enclosed-Speaker-2W-6-Ohm-p-2832.html).
 
@@ -35,7 +35,7 @@ Wio Terminal вже має вбудований мікрофон, який мо�
 
     Піни потрібно підключити таким чином:
 
-    ![Схема підключення пінів](../../../../../translated_images/uk/wio-respeaker-wiring-0.767f80aa65081038.png)
+    ![Схема підключення пінів](../../../../../translated_images/uk/wio-respeaker-wiring-0.767f80aa65081038.webp)
 
 1. Розташуйте ReSpeaker і Wio Terminal так, щоб GPIO-роз'єми були спрямовані вгору і знаходилися з лівого боку.
 
@@ -43,33 +43,33 @@ Wio Terminal вже має вбудований мікрофон, який мо�
 
 1. Повторіть це для всіх роз'ємів на лівій стороні GPIO. Переконайтеся, що піни надійно закріплені.
 
-    ![ReSpeaker з підключеними лівими пінами до лівих пінів Wio Terminal](../../../../../translated_images/uk/wio-respeaker-wiring-1.8d894727f2ba2400.png)
+    ![ReSpeaker з підключеними лівими пінами до лівих пінів Wio Terminal](../../../../../translated_images/uk/wio-respeaker-wiring-1.8d894727f2ba2400.webp)
 
-    ![ReSpeaker з підключеними лівими пінами до лівих пінів Wio Terminal](../../../../../translated_images/uk/wio-respeaker-wiring-2.329e1cbd306e754f.png)
+    ![ReSpeaker з підключеними лівими пінами до лівих пінів Wio Terminal](../../../../../translated_images/uk/wio-respeaker-wiring-2.329e1cbd306e754f.webp)
 
     > 💁 Якщо ваші джампери з'єднані у стрічки, залиште їх разом — це полегшить підключення всіх кабелів у правильному порядку.
 
 1. Повторіть процес для правих GPIO-роз'ємів на ReSpeaker і Wio Terminal. Ці кабелі потрібно прокласти навколо вже підключених кабелів.
 
-    ![ReSpeaker з підключеними правими пінами до правих пінів Wio Terminal](../../../../../translated_images/uk/wio-respeaker-wiring-3.75b0be447e2fa930.png)
+    ![ReSpeaker з підключеними правими пінами до правих пінів Wio Terminal](../../../../../translated_images/uk/wio-respeaker-wiring-3.75b0be447e2fa930.webp)
 
-    ![ReSpeaker з підключеними правими пінами до правих пінів Wio Terminal](../../../../../translated_images/uk/wio-respeaker-wiring-4.aa9cd434d8779437.png)
+    ![ReSpeaker з підключеними правими пінами до правих пінів Wio Terminal](../../../../../translated_images/uk/wio-respeaker-wiring-4.aa9cd434d8779437.webp)
 
     > 💁 Якщо ваші джампери з'єднані у стрічки, розділіть їх на дві стрічки. Пропустіть кожну з боків існуючих кабелів.
 
     > 💁 Ви можете використовувати клейку стрічку, щоб зафіксувати піни у блоці, щоб вони не випадали під час підключення.
     >
-    > ![Піни зафіксовані стрічкою](../../../../../translated_images/uk/wio-respeaker-wiring-5.af117c20acf622f3.png)
+    > ![Піни зафіксовані стрічкою](../../../../../translated_images/uk/wio-respeaker-wiring-5.af117c20acf622f3.webp)
 
 1. Вам потрібно буде додати динамік.
 
     * Якщо ви використовуєте динамік із кабелем JST, підключіть його до порту JST на ReSpeaker.
 
-      ![Динамік, підключений до ReSpeaker за допомогою кабелю JST](../../../../../translated_images/uk/respeaker-jst-speaker.a441d177809df945.png)
+      ![Динамік, підключений до ReSpeaker за допомогою кабелю JST](../../../../../translated_images/uk/respeaker-jst-speaker.a441d177809df945.webp)
 
     * Якщо ви використовуєте динамік із роз'ємом 3.5 мм або навушники, вставте їх у гніздо 3.5 мм.
 
-      ![Динамік, підключений до ReSpeaker через гніздо 3.5 мм](../../../../../translated_images/uk/respeaker-35mm-speaker.ad79ef4f128c7751.png)
+      ![Динамік, підключений до ReSpeaker через гніздо 3.5 мм](../../../../../translated_images/uk/respeaker-35mm-speaker.ad79ef4f128c7751.webp)
 
 ### Завдання - налаштування SD-карти
 
@@ -79,7 +79,7 @@ Wio Terminal вже має вбудований мікрофон, який мо�
 
 1. Вставте SD-карту у слот для SD-карт на лівій стороні Wio Terminal, трохи нижче кнопки живлення. Переконайтеся, що карта вставлена до кінця і клацнула — можливо, вам знадобиться тонкий інструмент або інша SD-карта, щоб допомогти її вставити.
 
-    ![Вставлення SD-карти у слот для SD-карт під кнопкою живлення](../../../../../translated_images/uk/wio-sd-card.acdcbe322fa4ee7f.png)
+    ![Вставлення SD-карти у слот для SD-карт під кнопкою живлення](../../../../../translated_images/uk/wio-sd-card.acdcbe322fa4ee7f.webp)
 
     > 💁 Щоб вийняти SD-карту, потрібно трохи натиснути на неї, і вона вийде. Для цього вам знадобиться тонкий інструмент, наприклад, плоска викрутка або інша SD-карта.
 
