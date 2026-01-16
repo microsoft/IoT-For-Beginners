@@ -39,7 +39,7 @@ Bộ phát hiện đối tượng có thể được sử dụng để kiểm tr
 
 Ví dụ, nếu một camera hướng vào một kệ có thể chứa 8 lon sốt cà chua, và bộ phát hiện đối tượng chỉ phát hiện được 7 lon, thì một lon đã bị thiếu và cần được bổ sung.
 
-![7 lon sốt cà chua trên kệ, 4 ở hàng trên, 3 ở hàng dưới](../../../../../translated_images/vi/stock-7-cans-tomato-paste.f86059cc573d7bec.png)
+![7 lon sốt cà chua trên kệ, 4 ở hàng trên, 3 ở hàng dưới](../../../../../translated_images/vi/stock-7-cans-tomato-paste.f86059cc573d7bec.webp)
 
 Trong hình trên, bộ phát hiện đối tượng đã phát hiện 7 lon sốt cà chua trên một kệ có thể chứa 8 lon. Không chỉ thiết bị IoT có thể gửi thông báo về nhu cầu bổ sung hàng, mà nó còn có thể cung cấp thông tin về vị trí của mặt hàng bị thiếu, dữ liệu quan trọng nếu bạn đang sử dụng robot để bổ sung hàng.
 
@@ -51,7 +51,7 @@ Trong hình trên, bộ phát hiện đối tượng đã phát hiện 7 lon s�
 
 Phát hiện đối tượng có thể được sử dụng để phát hiện các mặt hàng không mong muốn, từ đó cảnh báo con người hoặc robot để trả lại mặt hàng ngay khi nó được phát hiện.
 
-![Một lon ngô non lạc chỗ trên kệ sốt cà chua](../../../../../translated_images/vi/stock-rogue-corn.be1f3ada8c457854.png)
+![Một lon ngô non lạc chỗ trên kệ sốt cà chua](../../../../../translated_images/vi/stock-rogue-corn.be1f3ada8c457854.webp)
 
 Trong hình trên, một lon ngô non đã được đặt trên kệ cạnh sốt cà chua. Bộ phát hiện đối tượng đã phát hiện điều này, cho phép thiết bị IoT thông báo cho con người hoặc robot để trả lon ngô về đúng vị trí.
 

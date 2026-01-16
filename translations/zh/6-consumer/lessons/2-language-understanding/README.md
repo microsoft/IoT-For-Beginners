@@ -126,7 +126,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 然后你需要告诉LUIS这些句子的哪些部分映射到实体：
 
-![句子“设置一个计时器，时间为1分12秒”分解为实体](../../../../../translated_images/zh/sentence-as-intent-entities.301401696f992259.png)
+![句子“设置一个计时器，时间为1分12秒”分解为实体](../../../../../translated_images/zh/sentence-as-intent-entities.301401696f992259.webp)
 
 句子`设置一个计时器，时间为1分12秒`的意图是`设置计时器`。它还有2个实体，每个实体有2个值：
 

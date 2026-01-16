@@ -64,7 +64,7 @@ Micro có nhiều loại khác nhau:
 
 * Ribbon - Micro ribbon tương tự như micro dynamic, nhưng thay vì màng rung, chúng có một dải kim loại. Dải này di chuyển trong trường từ tạo ra dòng điện. Giống như micro dynamic, micro ribbon không cần nguồn điện để hoạt động.
 
-    ![Edmund Lowe, diễn viên người Mỹ, đứng trước micro radio (gắn nhãn cho mạng Blue của NBC), cầm kịch bản, năm 1942](../../../../../translated_images/vi/ribbon-mic.eacc8e092c7441ca.jpg)
+    ![Edmund Lowe, diễn viên người Mỹ, đứng trước micro radio (gắn nhãn cho mạng Blue của NBC), cầm kịch bản, năm 1942](../../../../../translated_images/vi/ribbon-mic.eacc8e092c7441ca.webp)
 
 * Condenser - Micro condenser có màng kim loại mỏng và một tấm kim loại cố định phía sau. Điện được áp dụng cho cả hai và khi màng rung, điện tích tĩnh giữa các tấm thay đổi tạo ra tín hiệu. Micro condenser cần nguồn điện để hoạt động - gọi là *Phantom power*.
 
@@ -84,7 +84,7 @@ Micro có nhiều loại khác nhau:
 
 > 🎓 Lấy mẫu là quá trình chuyển đổi tín hiệu âm thanh thành giá trị kỹ thuật số đại diện cho tín hiệu tại thời điểm đó.
 
-![Biểu đồ đường hiển thị tín hiệu, với các điểm rời rạc tại các khoảng cố định](../../../../../translated_images/vi/sampling.6f4fadb3f2d9dfe7.png)
+![Biểu đồ đường hiển thị tín hiệu, với các điểm rời rạc tại các khoảng cố định](../../../../../translated_images/vi/sampling.6f4fadb3f2d9dfe7.webp)
 
 Âm thanh kỹ thuật số được lấy mẫu bằng cách sử dụng Điều chế Mã Xung (Pulse Code Modulation - PCM). PCM liên quan đến việc đọc điện áp của tín hiệu và chọn giá trị rời rạc gần nhất với điện áp đó theo kích thước được định nghĩa.
 

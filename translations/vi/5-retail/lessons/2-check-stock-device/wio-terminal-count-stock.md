@@ -13,7 +13,7 @@ Kết hợp giữa các dự đoán và hộp giới hạn của chúng có th�
 
 ## Đếm hàng tồn kho
 
-![4 lon sốt cà chua với các hộp giới hạn xung quanh mỗi lon](../../../../../translated_images/vi/rpi-stock-with-bounding-boxes.b5540e2ecb7cd49f.jpg)
+![4 lon sốt cà chua với các hộp giới hạn xung quanh mỗi lon](../../../../../translated_images/vi/rpi-stock-with-bounding-boxes.b5540e2ecb7cd49f.webp)
 
 Trong hình ảnh trên, các hộp giới hạn có một chút chồng lấn. Nếu sự chồng lấn này lớn hơn nhiều, thì các hộp giới hạn có thể chỉ ra cùng một đối tượng. Để đếm các đối tượng một cách chính xác, bạn cần bỏ qua các hộp có sự chồng lấn đáng kể.
 

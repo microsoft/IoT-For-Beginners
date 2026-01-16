@@ -130,7 +130,7 @@ Trong bài học này, bạn sẽ cần một tài nguyên Translator. Bạn s�
 
 Trong một thế giới lý tưởng, toàn bộ ứng dụng của bạn nên hiểu càng nhiều ngôn ngữ khác nhau càng tốt, từ việc lắng nghe giọng nói, đến hiểu ngôn ngữ, đến phản hồi bằng giọng nói. Đây là một công việc lớn, vì vậy các dịch vụ dịch thuật có thể tăng tốc thời gian triển khai ứng dụng của bạn.
 
-![Kiến trúc bộ hẹn giờ thông minh dịch tiếng Nhật sang tiếng Anh, xử lý bằng tiếng Anh sau đó dịch ngược lại sang tiếng Nhật](../../../../../translated_images/vi/translated-smart-timer.08ac20057fdc5c37.png)
+![Kiến trúc bộ hẹn giờ thông minh dịch tiếng Nhật sang tiếng Anh, xử lý bằng tiếng Anh sau đó dịch ngược lại sang tiếng Nhật](../../../../../translated_images/vi/translated-smart-timer.08ac20057fdc5c37.webp)
 
 Hãy tưởng tượng bạn đang xây dựng một bộ hẹn giờ thông minh sử dụng tiếng Anh từ đầu đến cuối, hiểu giọng nói tiếng Anh và chuyển đổi nó thành văn bản, chạy hiểu ngôn ngữ bằng tiếng Anh, xây dựng các phản hồi bằng tiếng Anh và trả lời bằng giọng nói tiếng Anh. Nếu bạn muốn thêm hỗ trợ cho tiếng Nhật, bạn có thể bắt đầu bằng cách dịch giọng nói tiếng Nhật sang văn bản tiếng Anh, sau đó giữ nguyên lõi của ứng dụng, rồi dịch văn bản phản hồi sang tiếng Nhật trước khi phát âm phản hồi. Điều này sẽ cho phép bạn nhanh chóng thêm hỗ trợ tiếng Nhật, và bạn có thể mở rộng để cung cấp hỗ trợ tiếng Nhật toàn diện sau này.
 

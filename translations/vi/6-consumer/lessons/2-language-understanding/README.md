@@ -126,7 +126,7 @@ Sau khi các thực thể được định nghĩa, bạn tạo các ý định. 
 
 Sau đó, bạn nói với LUIS các phần của những câu này ánh xạ đến các thực thể:
 
-![Câu nói "đặt hẹn giờ 1 phút 12 giây" được chia thành các thực thể](../../../../../translated_images/vi/sentence-as-intent-entities.301401696f992259.png)
+![Câu nói "đặt hẹn giờ 1 phút 12 giây" được chia thành các thực thể](../../../../../translated_images/vi/sentence-as-intent-entities.301401696f992259.webp)
 
 Câu `đặt hẹn giờ 1 phút 12 giây` có ý định là `đặt hẹn giờ`. Nó cũng có 2 thực thể với 2 giá trị mỗi thực thể:
 

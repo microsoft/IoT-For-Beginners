@@ -15,11 +15,11 @@ CO_OP_TRANSLATOR_METADATA:
 
 Wio Terminal 已内置麦克风，可用于捕捉音频以进行语音识别。
 
-![Wio Terminal 上的麦克风](../../../../../translated_images/zh/wio-mic.3f8c843dbe8ad917.png)
+![Wio Terminal 上的麦克风](../../../../../translated_images/zh/wio-mic.3f8c843dbe8ad917.webp)
 
 要添加扬声器，您可以使用 [ReSpeaker 2-Mics Pi Hat](https://www.seeedstudio.com/ReSpeaker-2-Mics-Pi-HAT.html)。这是一个外部板，包含两个 MEMS 麦克风，以及一个扬声器连接器和耳机插孔。
 
-![ReSpeaker 2-Mics Pi Hat](../../../../../translated_images/zh/respeaker.f5d19d1c6b14ab16.png)
+![ReSpeaker 2-Mics Pi Hat](../../../../../translated_images/zh/respeaker.f5d19d1c6b14ab16.webp)
 
 您需要添加耳机、带有 3.5mm 插头的扬声器，或者带有 JST 接口的扬声器，例如 [Mono Enclosed Speaker - 2W 6 Ohm](https://www.seeedstudio.com/Mono-Enclosed-Speaker-2W-6-Ohm-p-2832.html)。
 
@@ -35,7 +35,7 @@ Wio Terminal 已内置麦克风，可用于捕捉音频以进行语音识别。
 
     引脚需要按以下方式连接：
 
-    ![引脚图](../../../../../translated_images/zh/wio-respeaker-wiring-0.767f80aa65081038.png)
+    ![引脚图](../../../../../translated_images/zh/wio-respeaker-wiring-0.767f80aa65081038.webp)
 
 1. 将 ReSpeaker 和 Wio Terminal 放置好，使 GPIO 插座面朝上，并位于左侧。
 
@@ -43,33 +43,33 @@ Wio Terminal 已内置麦克风，可用于捕捉音频以进行语音识别。
 
 1. 按此方式连接左侧 GPIO 插座的所有插孔。确保引脚牢固插入。
 
-    ![左侧引脚连接到 Wio Terminal 左侧引脚的 ReSpeaker](../../../../../translated_images/zh/wio-respeaker-wiring-1.8d894727f2ba2400.png)
+    ![左侧引脚连接到 Wio Terminal 左侧引脚的 ReSpeaker](../../../../../translated_images/zh/wio-respeaker-wiring-1.8d894727f2ba2400.webp)
 
-    ![左侧引脚连接到 Wio Terminal 左侧引脚的 ReSpeaker](../../../../../translated_images/zh/wio-respeaker-wiring-2.329e1cbd306e754f.png)
+    ![左侧引脚连接到 Wio Terminal 左侧引脚的 ReSpeaker](../../../../../translated_images/zh/wio-respeaker-wiring-2.329e1cbd306e754f.webp)
 
     > 💁 如果您的跳线是连接成带状的，请保持它们整齐排列——这样可以更容易确保所有线缆按顺序连接。
 
 1. 使用 ReSpeaker 和 Wio Terminal 的右侧 GPIO 插座重复上述过程。这些线缆需要绕过已经连接的线缆。
 
-    ![右侧引脚连接到 Wio Terminal 右侧引脚的 ReSpeaker](../../../../../translated_images/zh/wio-respeaker-wiring-3.75b0be447e2fa930.png)
+    ![右侧引脚连接到 Wio Terminal 右侧引脚的 ReSpeaker](../../../../../translated_images/zh/wio-respeaker-wiring-3.75b0be447e2fa930.webp)
 
-    ![右侧引脚连接到 Wio Terminal 右侧引脚的 ReSpeaker](../../../../../translated_images/zh/wio-respeaker-wiring-4.aa9cd434d8779437.png)
+    ![右侧引脚连接到 Wio Terminal 右侧引脚的 ReSpeaker](../../../../../translated_images/zh/wio-respeaker-wiring-4.aa9cd434d8779437.webp)
 
     > 💁 如果您的跳线是连接成带状的，请将它们分成两组带状线缆。分别从现有线缆的两侧通过。
 
     > 💁 您可以使用胶带将引脚固定成一个块，以防止在连接过程中引脚脱落。
     >
-    > ![用胶带固定的引脚](../../../../../translated_images/zh/wio-respeaker-wiring-5.af117c20acf622f3.png)
+    > ![用胶带固定的引脚](../../../../../translated_images/zh/wio-respeaker-wiring-5.af117c20acf622f3.webp)
 
 1. 您需要添加一个扬声器。
 
     * 如果您使用的是带有 JST 线缆的扬声器，请将其连接到 ReSpeaker 的 JST 接口。
 
-      ![通过 JST 线缆连接到 ReSpeaker 的扬声器](../../../../../translated_images/zh/respeaker-jst-speaker.a441d177809df945.png)
+      ![通过 JST 线缆连接到 ReSpeaker 的扬声器](../../../../../translated_images/zh/respeaker-jst-speaker.a441d177809df945.webp)
 
     * 如果您使用的是带有 3.5mm 插头的扬声器或耳机，请将其插入 3.5mm 插孔。
 
-      ![通过 3.5mm 插孔连接到 ReSpeaker 的扬声器](../../../../../translated_images/zh/respeaker-35mm-speaker.ad79ef4f128c7751.png)
+      ![通过 3.5mm 插孔连接到 ReSpeaker 的扬声器](../../../../../translated_images/zh/respeaker-35mm-speaker.ad79ef4f128c7751.webp)
 
 ### 任务 - 设置 SD 卡
 
@@ -79,7 +79,7 @@ Wio Terminal 已内置麦克风，可用于捕捉音频以进行语音识别。
 
 1. 将 SD 卡插入 Wio Terminal 左侧的 SD 卡插槽，插槽位于电源按钮下方。确保卡完全插入并卡住——您可能需要使用薄工具或另一张 SD 卡帮助将其完全推入。
 
-    ![将 SD 卡插入电源开关下方的 SD 卡插槽](../../../../../translated_images/zh/wio-sd-card.acdcbe322fa4ee7f.png)
+    ![将 SD 卡插入电源开关下方的 SD 卡插槽](../../../../../translated_images/zh/wio-sd-card.acdcbe322fa4ee7f.webp)
 
     > 💁 要弹出 SD 卡，您需要稍微按压卡片，它会弹出。您可能需要使用薄工具，例如平头螺丝刀或另一张 SD 卡。
 

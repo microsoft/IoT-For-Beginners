@@ -51,7 +51,7 @@ Grove LED 是一个模块，包含多种颜色的 LED，您可以选择自己喜
 
     > 💁 右侧的 Grove 插座可以用于模拟或数字传感器和执行器。左侧插座仅用于 I2C 和数字传感器及执行器。
 
-![Grove LED 连接到右侧插座](../../../../../translated_images/zh/wio-led.265a1897e72d7f21.png)
+![Grove LED 连接到右侧插座](../../../../../translated_images/zh/wio-led.265a1897e72d7f21.webp)
 
 ## 编程夜灯
 

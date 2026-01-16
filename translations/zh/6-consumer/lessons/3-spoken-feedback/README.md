@@ -37,7 +37,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 文本转语音，顾名思义，是将文本转换为包含该文本的语音的过程。其基本原理是将文本中的单词分解为构成声音的基本单位（称为音素），然后通过预录音频或AI模型生成音频，将这些声音拼接起来。
 
-![典型文本转语音系统的三个阶段](../../../../../translated_images/zh/tts-overview.193843cf3f5ee09f.png)
+![典型文本转语音系统的三个阶段](../../../../../translated_images/zh/tts-overview.193843cf3f5ee09f.webp)
 
 文本转语音系统通常分为三个阶段：
 

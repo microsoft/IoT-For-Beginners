@@ -21,7 +21,7 @@ Bạn cũng sẽ cần một số vật dụng không mang tính kỹ thuật, c
 
 ## Mua bộ kit
 
-![Logo của Seeed Studios](../../translated_images/vi/seeed-logo.74732b6b482b6e8e.png)
+![Logo của Seeed Studios](../../translated_images/vi/seeed-logo.74732b6b482b6e8e.webp)
 
 Seeed Studios đã rất hào phóng cung cấp tất cả phần cứng dưới dạng các bộ kit dễ mua:
 
@@ -29,7 +29,7 @@ Seeed Studios đã rất hào phóng cung cấp tất cả phần cứng dưới
 
 **[IoT cho người mới bắt đầu với Seeed và Microsoft - Bộ khởi động Wio Terminal](https://www.seeedstudio.com/IoT-for-beginners-with-Seeed-and-Microsoft-Wio-Terminal-Starter-Kit-p-5006.html)**
 
-[![Bộ phần cứng Wio Terminal](../../translated_images/vi/wio-hardware-kit.4c70c48b85e4283a.png)](https://www.seeedstudio.com/IoT-for-beginners-with-Seeed-and-Microsoft-Wio-Terminal-Starter-Kit-p-5006.html)
+[![Bộ phần cứng Wio Terminal](../../translated_images/vi/wio-hardware-kit.4c70c48b85e4283a.webp)](https://www.seeedstudio.com/IoT-for-beginners-with-Seeed-and-Microsoft-Wio-Terminal-Starter-Kit-p-5006.html)
 
 ### Raspberry Pi
 

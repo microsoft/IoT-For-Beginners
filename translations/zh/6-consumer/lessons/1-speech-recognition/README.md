@@ -64,7 +64,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 * 带状麦克风 - 带状麦克风与动圈麦克风类似，但它们使用金属带代替振膜。金属带在磁场中移动时会产生电流。与动圈麦克风一样，带状麦克风无需电源即可工作。
 
-    ![美国演员 Edmund Lowe 在广播麦克风（标有 NBC 蓝网）前站立，手持剧本，1942年](../../../../../translated_images/zh/ribbon-mic.eacc8e092c7441ca.jpg)
+    ![美国演员 Edmund Lowe 在广播麦克风（标有 NBC 蓝网）前站立，手持剧本，1942年](../../../../../translated_images/zh/ribbon-mic.eacc8e092c7441ca.webp)
 
 * 电容麦克风 - 电容麦克风有一个薄金属振膜和一个固定的金属背板。电流会施加到这两个部件上，当振膜振动时，板之间的静电荷发生变化，从而生成信号。电容麦克风需要电源才能工作，这种电源被称为 *幻象电源*。
 
@@ -84,7 +84,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 > 🎓 采样是将音频信号转换为数字值，表示该时刻的信号。
 
-![显示信号的折线图，固定间隔处有离散点](../../../../../translated_images/zh/sampling.6f4fadb3f2d9dfe7.png)
+![显示信号的折线图，固定间隔处有离散点](../../../../../translated_images/zh/sampling.6f4fadb3f2d9dfe7.webp)
 
 数字音频使用脉冲编码调制（PCM）进行采样。PCM 通过读取信号的电压，并根据定义的大小选择最接近该电压的离散值。
 
