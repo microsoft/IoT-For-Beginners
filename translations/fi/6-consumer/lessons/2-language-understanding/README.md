@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Ymmärrä kieli
 
-![Tämän oppitunnin yhteenveto sketchnotena](../../../../../translated_images/lesson-22.6148ea28500d9e00c396aaa2649935fb6641362c8f03d8e5e90a676977ab01dd.fi.jpg)
+![Tämän oppitunnin yhteenveto sketchnotena](../../../../../translated_images/fi/lesson-22.6148ea28500d9e00c396aaa2649935fb6641362c8f03d8e5e90a676977ab01dd.jpg)
 
 > Sketchnote: [Nitya Narasimhan](https://github.com/nitya). Klikkaa kuvaa nähdäksesi suuremman version.
 
@@ -55,7 +55,7 @@ Kielentunnistusmallit ovat tekoälymalleja, jotka on koulutettu poimimaan tietty
 
 ## Kielentunnistusmallin luominen
 
-![LUIS-logo](../../../../../translated_images/luis-logo.5cb4f3e88c020ee6df4f614e8831f4a4b6809a7247bf52085fb48d629ef9be52.fi.png)
+![LUIS-logo](../../../../../translated_images/fi/luis-logo.5cb4f3e88c020ee6df4f614e8831f4a4b6809a7247bf52085fb48d629ef9be52.png)
 
 Voit luoda kielentunnistusmalleja LUIS-palvelulla, joka on Microsoftin kielentunnistuspalvelu ja osa Cognitive Services -palveluita.
 
@@ -126,7 +126,7 @@ Kun entiteetit on määritelty, luodaan aikomukset. Nämä opitaan mallin avulla
 
 Sitten kerrot LUIS:lle, mitkä osat näistä lauseista vastaavat entiteettejä:
 
-![Lause "aseta ajastin 1 minuutiksi ja 12 sekunniksi" jaettuna entiteetteihin](../../../../../translated_images/sentence-as-intent-entities.301401696f992259.fi.png)
+![Lause "aseta ajastin 1 minuutiksi ja 12 sekunniksi" jaettuna entiteetteihin](../../../../../translated_images/fi/sentence-as-intent-entities.301401696f992259.png)
 
 Lause `aseta ajastin 1 minuutiksi ja 12 sekunniksi` sisältää aikomuksen `aseta ajastin`. Siinä on myös 2 entiteettiä, joilla on 2 arvoa:
 
@@ -178,7 +178,7 @@ Voit löytää ohjeet LUIS-portaalin käyttämiseen [Microsoft Docsin LUIS-porta
 
 1. Kun syötät jokaisen esimerkin, LUIS alkaa tunnistaa entiteettejä ja alleviivaa ja merkitsee ne.
 
-    ![Esimerkit, joissa numerot ja ajan yksiköt alleviivattu LUIS:n toimesta](../../../../../translated_images/luis-intent-examples.25716580b2d2723cf1bafdf277d015c7f046d8cfa20f27bddf3a0873ec45fab7.fi.png)
+    ![Esimerkit, joissa numerot ja ajan yksiköt alleviivattu LUIS:n toimesta](../../../../../translated_images/fi/luis-intent-examples.25716580b2d2723cf1bafdf277d015c7f046d8cfa20f27bddf3a0873ec45fab7.png)
 
 ### Tehtävä - kouluta ja testaa malli
 

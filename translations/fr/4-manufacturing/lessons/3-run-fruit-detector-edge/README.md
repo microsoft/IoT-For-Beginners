@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Exécutez votre détecteur de fruits en périphérie
 
-![Un aperçu illustré de cette leçon](../../../../../translated_images/lesson-17.bc333c3c35ba8e42cce666cfffa82b915f787f455bd94e006aea2b6f2722421a.fr.jpg)
+![Un aperçu illustré de cette leçon](../../../../../translated_images/fr/lesson-17.bc333c3c35ba8e42cce666cfffa82b915f787f455bd94e006aea2b6f2722421a.jpg)
 
 > Illustration par [Nitya Narasimhan](https://github.com/nitya). Cliquez sur l'image pour une version agrandie.
 
@@ -42,11 +42,11 @@ Dans cette leçon, nous aborderons :
 
 L'informatique en périphérie consiste à traiter les données IoT aussi près que possible de l'endroit où elles sont générées. Au lieu de traiter ces données dans le cloud, ce traitement est déplacé à la périphérie du cloud - sur votre réseau interne.
 
-![Un diagramme d'architecture montrant des services Internet dans le cloud et des appareils IoT sur un réseau local](../../../../../translated_images/cloud-without-edge.b4da641f6022c95ed6b91fde8b5323abd2f94e0d52073ad54172ae8f5dac90e9.fr.png)
+![Un diagramme d'architecture montrant des services Internet dans le cloud et des appareils IoT sur un réseau local](../../../../../translated_images/fr/cloud-without-edge.b4da641f6022c95ed6b91fde8b5323abd2f94e0d52073ad54172ae8f5dac90e9.png)
 
 Dans les leçons précédentes, vos appareils collectaient des données et les envoyaient au cloud pour analyse, en exécutant des fonctions sans serveur ou des modèles d'IA dans le cloud.
 
-![Un diagramme d'architecture montrant des appareils IoT sur un réseau local se connectant à des appareils en périphérie, et ces appareils en périphérie se connectant au cloud](../../../../../translated_images/cloud-with-edge.1e26462c62c126fe150bd15a5714ddf0be599f09bacbad08b85be02b76ea1ae1.fr.png)
+![Un diagramme d'architecture montrant des appareils IoT sur un réseau local se connectant à des appareils en périphérie, et ces appareils en périphérie se connectant au cloud](../../../../../translated_images/fr/cloud-with-edge.1e26462c62c126fe150bd15a5714ddf0be599f09bacbad08b85be02b76ea1ae1.png)
 
 L'informatique en périphérie consiste à déplacer certains services cloud hors du cloud et sur des ordinateurs fonctionnant sur le même réseau que les appareils IoT, ne communiquant avec le cloud que si nécessaire. Par exemple, vous pouvez exécuter des modèles d'IA sur des appareils en périphérie pour analyser la maturité des fruits, et n'envoyer que des analyses au cloud, comme le nombre de fruits mûrs par rapport aux fruits non mûrs.
 
@@ -94,7 +94,7 @@ Pour les systèmes IoT, vous voudrez souvent un mélange d'informatique en péri
 
 ## Azure IoT Edge
 
-![Le logo Azure IoT Edge](../../../../../translated_images/azure-iot-edge-logo.c1c076749b5cba2e8755262fadc2f19ca1146b948d76990b1229199ac2292d79.fr.png)
+![Le logo Azure IoT Edge](../../../../../translated_images/fr/azure-iot-edge-logo.c1c076749b5cba2e8755262fadc2f19ca1146b948d76990b1229199ac2292d79.png)
 
 Azure IoT Edge est un service qui peut vous aider à déplacer des charges de travail hors du cloud vers la périphérie. Vous configurez un appareil comme appareil en périphérie, et depuis le cloud, vous pouvez déployer du code sur cet appareil. Cela vous permet de combiner les capacités du cloud et de la périphérie.
 
@@ -108,7 +108,7 @@ IoT Edge est intégré à IoT Hub, vous permettant de gérer les appareils en p�
 
 IoT Edge exécute du code à partir de *conteneurs* - des applications autonomes exécutées en isolation des autres applications sur votre ordinateur. Lorsqu'un conteneur est exécuté, il agit comme un ordinateur distinct fonctionnant à l'intérieur de votre ordinateur, avec ses propres logiciels, services et applications. La plupart du temps, les conteneurs ne peuvent accéder à rien sur votre ordinateur, sauf si vous choisissez de partager des éléments comme un dossier avec le conteneur. Le conteneur expose ensuite des services via un port ouvert auquel vous pouvez vous connecter ou exposer à votre réseau.
 
-![Une requête web redirigée vers un conteneur](../../../../../translated_images/container-web-browser.4ee81dd4f0d8838ce622b2a0d600b6a4322b5d4fe43159facd87b7b34f84d66a.fr.png)
+![Une requête web redirigée vers un conteneur](../../../../../translated_images/fr/container-web-browser.4ee81dd4f0d8838ce622b2a0d600b6a4322b5d4fe43159facd87b7b34f84d66a.png)
 
 Par exemple, vous pouvez avoir un conteneur avec un site web fonctionnant sur le port 80, le port HTTP par défaut, et vous pouvez ensuite l'exposer depuis votre ordinateur également sur le port 80.
 
@@ -205,11 +205,11 @@ Une fois le modèle entraîné, il doit être exporté sous forme de conteneur.
 
 ## Préparer votre conteneur pour le déploiement
 
-![Les conteneurs sont construits puis poussés vers un registre de conteneurs, puis déployés depuis le registre vers un appareil edge à l'aide de IoT Edge](../../../../../translated_images/container-edge-flow.c246050dd60ceefdb6ace026a4ce5c6aa4112bb5898ae23fbb2ab4be29ae3e1b.fr.png)
+![Les conteneurs sont construits puis poussés vers un registre de conteneurs, puis déployés depuis le registre vers un appareil edge à l'aide de IoT Edge](../../../../../translated_images/fr/container-edge-flow.c246050dd60ceefdb6ace026a4ce5c6aa4112bb5898ae23fbb2ab4be29ae3e1b.png)
 
 Une fois que vous avez téléchargé votre modèle, il doit être construit dans un conteneur, puis poussé vers un registre de conteneurs - un emplacement en ligne où vous pouvez stocker des conteneurs. IoT Edge peut ensuite télécharger le conteneur depuis le registre et le pousser vers votre appareil.
 
-![Logo du registre de conteneurs Azure](../../../../../translated_images/azure-container-registry-logo.09494206991d4b295025ebff7d4e2900325e527a59184ffbc8464b6ab59654be.fr.png)
+![Logo du registre de conteneurs Azure](../../../../../translated_images/fr/azure-container-registry-logo.09494206991d4b295025ebff7d4e2900325e527a59184ffbc8464b6ab59654be.png)
 
 Le registre de conteneurs que vous utiliserez pour cette leçon est Azure Container Registry. Ce n'est pas un service gratuit, donc pour économiser de l'argent, assurez-vous de [nettoyer votre projet](../../../clean-up.md) une fois terminé.
 

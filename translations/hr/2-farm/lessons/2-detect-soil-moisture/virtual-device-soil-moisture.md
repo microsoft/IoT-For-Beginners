@@ -43,11 +43,11 @@ Dodajte senzor vlažnosti tla u CounterFit aplikaciju.
 
     1. Kliknite gumb **Add** za kreiranje senzora *Soil Moisture* na pinu 0.
 
-    ![Postavke senzora vlažnosti tla](../../../../../translated_images/counterfit-create-soil-moisture-sensor.35266135a5e0ae68b29a684d7db0d2933a8098b2307d197f7c71577b724603aa.hr.png)
+    ![Postavke senzora vlažnosti tla](../../../../../translated_images/hr/counterfit-create-soil-moisture-sensor.35266135a5e0ae68b29a684d7db0d2933a8098b2307d197f7c71577b724603aa.png)
 
     Senzor vlažnosti tla bit će kreiran i pojavit će se na popisu senzora.
 
-    ![Kreirani senzor vlažnosti tla](../../../../../translated_images/counterfit-soil-moisture-sensor.81742b2de0e9de60a3b3b9a2ff8ecc686d428eb6d71820f27a693be26e5aceee.hr.png)
+    ![Kreirani senzor vlažnosti tla](../../../../../translated_images/hr/counterfit-soil-moisture-sensor.81742b2de0e9de60a3b3b9a2ff8ecc686d428eb6d71820f27a693be26e5aceee.png)
 
 ## Programiranje aplikacije za senzor vlažnosti tla
 

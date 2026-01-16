@@ -43,7 +43,7 @@ El micrófono y los altavoces necesitan ser conectados y configurados.
 
 1. Si estás utilizando el ReSpeaker 2-Mics Pi HAT, puedes quitar el Grove base hat y luego colocar el ReSpeaker hat en su lugar.
 
-    ![Una Raspberry Pi con un ReSpeaker hat](../../../../../translated_images/pi-respeaker-hat.f00fabe7dd039a93e2e0aa0fc946c9af0c6a9eb17c32fa1ca097fb4e384f69f0.es.png)
+    ![Una Raspberry Pi con un ReSpeaker hat](../../../../../translated_images/es/pi-respeaker-hat.f00fabe7dd039a93e2e0aa0fc946c9af0c6a9eb17c32fa1ca097fb4e384f69f0.png)
 
     Necesitarás un botón Grove más adelante en esta lección, pero uno está integrado en este hat, por lo que el Grove base hat no es necesario.
 

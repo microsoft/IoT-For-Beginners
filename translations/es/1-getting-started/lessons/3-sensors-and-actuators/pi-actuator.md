@@ -35,7 +35,7 @@ El LED Grove viene como un módulo con una selección de LEDs, lo que te permite
 
 Conecta el LED.
 
-![Un LED Grove](../../../../../translated_images/grove-led.6c853be93f473cf2c439cfc74bb1064732b22251a83cedf66e62f783f9cc1a79.es.png)
+![Un LED Grove](../../../../../translated_images/es/grove-led.6c853be93f473cf2c439cfc74bb1064732b22251a83cedf66e62f783f9cc1a79.png)
 
 1. Elige tu LED favorito e inserta las patas en los dos agujeros del módulo LED.
 
@@ -49,7 +49,7 @@ Conecta el LED.
 
 1. Con la Raspberry Pi apagada, conecta el otro extremo del cable Grove al enchufe digital marcado como **D5** en el Grove Base hat conectado a la Pi. Este enchufe es el segundo desde la izquierda, en la fila de enchufes junto a los pines GPIO.
 
-![El LED Grove conectado al enchufe D5](../../../../../translated_images/pi-led.97f1d474981dc35d1c7996c7b17de355d3d0a6bc9606d79fa5f89df933415122.es.png)
+![El LED Grove conectado al enchufe D5](../../../../../translated_images/es/pi-led.97f1d474981dc35d1c7996c7b17de355d3d0a6bc9606d79fa5f89df933415122.png)
 
 ## Programa la luz nocturna
 

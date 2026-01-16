@@ -35,7 +35,7 @@ A Grove LED egy modul formájában érkezik, amely több LED-et tartalmaz, így 
 
 Csatlakoztasd a LED-et.
 
-![Egy Grove LED](../../../../../translated_images/grove-led.6c853be93f473cf2c439cfc74bb1064732b22251a83cedf66e62f783f9cc1a79.hu.png)
+![Egy Grove LED](../../../../../translated_images/hu/grove-led.6c853be93f473cf2c439cfc74bb1064732b22251a83cedf66e62f783f9cc1a79.png)
 
 1. Válaszd ki a kedvenc LED-edet, és helyezd be a lábait a LED modul két lyukába.
 
@@ -49,7 +49,7 @@ Csatlakoztasd a LED-et.
 
 1. Kapcsold ki a Raspberry Pi-t, és csatlakoztasd a Grove kábel másik végét a Grove Base hat-on lévő **D5** jelzésű digitális aljzathoz, amely a Pi-hez van csatlakoztatva. Ez az aljzat a második balról, a GPIO csatlakozók melletti aljzatsoron.
 
-![A Grove LED csatlakoztatva a D5 aljzathoz](../../../../../translated_images/pi-led.97f1d474981dc35d1c7996c7b17de355d3d0a6bc9606d79fa5f89df933415122.hu.png)
+![A Grove LED csatlakoztatva a D5 aljzathoz](../../../../../translated_images/hu/pi-led.97f1d474981dc35d1c7996c7b17de355d3d0a6bc9606d79fa5f89df933415122.png)
 
 ## Programozd az éjjeli fényt
 

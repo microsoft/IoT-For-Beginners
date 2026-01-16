@@ -25,13 +25,13 @@ Grove temperatuurianduri saab ühendada Raspberry Piga.
 
 Ühenda temperatuuriandur
 
-![Grove temperatuuriandur](../../../../../translated_images/grove-dht11.07f8eafceee170043efbb53e1d15722bd4e00fbaa9ff74290b57e9f66eb82c17.et.png)
+![Grove temperatuuriandur](../../../../../translated_images/et/grove-dht11.07f8eafceee170043efbb53e1d15722bd4e00fbaa9ff74290b57e9f66eb82c17.png)
 
 1. Sisesta Grove kaabli üks ots niiskuse ja temperatuuri anduri pistikusse. Kaabel läheb sisse ainult ühel viisil.
 
 1. Kui Raspberry Pi on välja lülitatud, ühenda Grove kaabli teine ots Grove Base hatti digitaalsesse pistikusse, mis on märgitud **D5**. See pistik asub GPIO pinide kõrval olevate pistikute reas, vasakult teine.
 
-![Grove temperatuuriandur ühendatud pistikuga A0](../../../../../translated_images/pi-temperature-sensor.3ff82fff672c8e565ef25a39d26d111de006b825a7e0867227ef4e7fbff8553c.et.png)
+![Grove temperatuuriandur ühendatud pistikuga A0](../../../../../translated_images/et/pi-temperature-sensor.3ff82fff672c8e565ef25a39d26d111de006b825a7e0867227ef4e7fbff8553c.png)
 
 ## Programmeeri temperatuuriandur
 

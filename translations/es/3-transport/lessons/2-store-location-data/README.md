@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Datos de ubicación de la tienda
 
-![Una vista general en sketchnote de esta lección](../../../../../translated_images/lesson-12.ca7f53039712a3ec14ad6474d8445361c84adab643edc53fa6269b77895606bb.es.jpg)
+![Una vista general en sketchnote de esta lección](../../../../../translated_images/es/lesson-12.ca7f53039712a3ec14ad6474d8445361c84adab643edc53fa6269b77895606bb.jpg)
 
 > Sketchnote por [Nitya Narasimhan](https://github.com/nitya). Haz clic en la imagen para una versión más grande.
 
@@ -66,7 +66,7 @@ Las bases de datos son servicios que permiten almacenar y consultar datos. Las b
 
 Las primeras bases de datos fueron Sistemas de Gestión de Bases de Datos Relacionales (RDBMS), o bases de datos relacionales. También se conocen como bases de datos SQL debido al Lenguaje de Consulta Estructurado (SQL) utilizado para interactuar con ellas para agregar, eliminar, actualizar o consultar datos. Estas bases de datos consisten en un esquema: un conjunto bien definido de tablas de datos, similar a una hoja de cálculo. Cada tabla tiene múltiples columnas con nombres. Cuando insertas datos, agregas una fila a la tabla, colocando valores en cada una de las columnas. Esto mantiene los datos en una estructura muy rígida: aunque puedes dejar columnas vacías, si deseas agregar una nueva columna, debes hacerlo en la base de datos, rellenando valores para las filas existentes. Estas bases de datos son relacionales, en el sentido de que una tabla puede tener una relación con otra.
 
-![Una base de datos relacional con el ID de la tabla de usuarios relacionado con la columna de ID de usuario de la tabla de compras, y el ID de la tabla de productos relacionado con el ID de producto de la tabla de compras](../../../../../translated_images/sql-database.be160f12bfccefd3.es.png)
+![Una base de datos relacional con el ID de la tabla de usuarios relacionado con la columna de ID de usuario de la tabla de compras, y el ID de la tabla de productos relacionado con el ID de producto de la tabla de compras](../../../../../translated_images/es/sql-database.be160f12bfccefd3.webp)
 
 Por ejemplo, si almacenas los detalles personales de un usuario en una tabla, tendrías algún tipo de ID único interno por usuario que se utiliza en una fila de una tabla que contiene el nombre y la dirección del usuario. Si luego quisieras almacenar otros detalles sobre ese usuario, como sus compras, en otra tabla, tendrías una columna en la nueva tabla para el ID de ese usuario. Cuando buscas un usuario, puedes usar su ID para obtener sus detalles personales de una tabla y sus compras de otra.
 
@@ -84,7 +84,7 @@ Las bases de datos NoSQL se llaman NoSQL porque no tienen la misma estructura r�
 
 > 💁 A pesar de su nombre, algunas bases de datos NoSQL permiten usar SQL para consultar los datos.
 
-![Documentos en carpetas en una base de datos NoSQL](../../../../../translated_images/noqsl-database.62d24ccf5b73f60d35c245a8533f1c7147c0928e955b82cb290b2e184bb434df.es.png)
+![Documentos en carpetas en una base de datos NoSQL](../../../../../translated_images/es/noqsl-database.62d24ccf5b73f60d35c245a8533f1c7147c0928e955b82cb290b2e184bb434df.png)
 
 Las bases de datos NoSQL no tienen un esquema predefinido que limite cómo se almacenan los datos; en cambio, puedes insertar cualquier dato no estructurado, generalmente utilizando documentos JSON. Estos documentos pueden organizarse en carpetas, similar a los archivos en tu computadora. Cada documento puede tener diferentes campos en comparación con otros documentos. Por ejemplo, si estuvieras almacenando datos IoT de tus vehículos agrícolas, algunos podrían tener campos para datos de acelerómetro y velocidad, mientras que otros podrían tener campos para la temperatura en el remolque. Si agregaras un nuevo tipo de camión, como uno con básculas integradas para rastrear el peso de los productos transportados, entonces tu dispositivo IoT podría agregar este nuevo campo y podría almacenarse sin cambios en la base de datos.
 
@@ -98,7 +98,7 @@ En esta lección, usarás almacenamiento NoSQL para guardar datos IoT.
 
 En la última lección capturaste datos GPS de un sensor GPS conectado a tu dispositivo IoT. Para almacenar estos datos IoT en la nube, necesitas enviarlos a un servicio IoT. Una vez más, usarás Azure IoT Hub, el mismo servicio IoT en la nube que utilizaste en el proyecto anterior.
 
-![Enviando telemetría GPS desde un dispositivo IoT a IoT Hub](../../../../../translated_images/gps-telemetry-iot-hub.8115335d51cd2c1285d20e9d1b18cf685e59a8e093e7797291ef173445af6f3d.es.png)
+![Enviando telemetría GPS desde un dispositivo IoT a IoT Hub](../../../../../translated_images/es/gps-telemetry-iot-hub.8115335d51cd2c1285d20e9d1b18cf685e59a8e093e7797291ef173445af6f3d.png)
 
 ### Tarea - enviar datos GPS a un IoT Hub
 
@@ -180,7 +180,7 @@ Los datos de ruta fría se almacenan en almacenes de datos: bases de datos dise�
 
 Una vez que los datos están fluyendo hacia tu IoT Hub, puedes escribir código sin servidor para escuchar eventos publicados en el punto de conexión compatible con Event-Hub. Esta es la ruta templada: estos datos serán almacenados y utilizados en la próxima lección para informes sobre el recorrido.
 
-![Enviando telemetría GPS desde un dispositivo IoT a IoT Hub, luego a Azure Functions mediante un disparador de Event Hub](../../../../../translated_images/gps-telemetry-iot-hub-functions.24d3fa5592455e9f4e2fe73856b40c3915a292b90263c31d652acfd976cfedd8.es.png)
+![Enviando telemetría GPS desde un dispositivo IoT a IoT Hub, luego a Azure Functions mediante un disparador de Event Hub](../../../../../translated_images/es/gps-telemetry-iot-hub-functions.24d3fa5592455e9f4e2fe73856b40c3915a292b90263c31d652acfd976cfedd8.png)
 
 ### Tarea - manejar eventos GPS usando código sin servidor
 
@@ -202,7 +202,7 @@ Una vez que los datos están fluyendo hacia tu IoT Hub, puedes escribir código 
 
 ## Cuentas de Almacenamiento de Azure
 
-![El logotipo de Azure Storage](../../../../../translated_images/azure-storage-logo.605c0f602c640d482a80f1b35a2629a32d595711b7ab1d7ceea843250615ff32.es.png)
+![El logotipo de Azure Storage](../../../../../translated_images/es/azure-storage-logo.605c0f602c640d482a80f1b35a2629a32d595711b7ab1d7ceea843250615ff32.png)
 
 Las Cuentas de Almacenamiento de Azure son un servicio de almacenamiento de propósito general que puede almacenar datos de diversas maneras. Puedes almacenar datos como blobs, en colas, en tablas o como archivos, y todo al mismo tiempo.
 
@@ -241,7 +241,7 @@ Tu aplicación de funciones ahora necesita conectarse al almacenamiento de blobs
 
 En esta lección, usarás el SDK de Python para ver cómo interactuar con el almacenamiento de blobs.
 
-![Enviando telemetría GPS desde un dispositivo IoT a IoT Hub, luego a Azure Functions a través de un desencadenador de Event Hub, y luego guardándolo en el almacenamiento de blobs](../../../../../translated_images/save-telemetry-to-storage-from-functions.ed3b1820980097f1.es.png)
+![Enviando telemetría GPS desde un dispositivo IoT a IoT Hub, luego a Azure Functions a través de un desencadenador de Event Hub, y luego guardándolo en el almacenamiento de blobs](../../../../../translated_images/es/save-telemetry-to-storage-from-functions.ed3b1820980097f1.webp)
 
 Los datos se guardarán como un blob JSON con el siguiente formato:
 

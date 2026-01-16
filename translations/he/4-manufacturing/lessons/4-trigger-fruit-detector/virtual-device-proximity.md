@@ -45,11 +45,11 @@ CO_OP_TRANSLATOR_METADATA:
 
     1. לחצו על כפתור **Add** כדי ליצור את חיישן המרחק.
 
-    ![הגדרות חיישן המרחק](../../../../../translated_images/counterfit-create-distance-sensor.967c9fb98f27888d95920c9784d004c972490eb71f70397fe13bd70a79a879a3.he.png)
+    ![הגדרות חיישן המרחק](../../../../../translated_images/he/counterfit-create-distance-sensor.967c9fb98f27888d95920c9784d004c972490eb71f70397fe13bd70a79a879a3.png)
 
     חיישן המרחק ייווצר ויופיע ברשימת החיישנים.
 
-    ![חיישן המרחק שנוצר](../../../../../translated_images/counterfit-distance-sensor.079eefeeea0b68afc36431ce8fcbe2f09a7e4916ed1cd5cb30e696db53bc18fa.he.png)
+    ![חיישן המרחק שנוצר](../../../../../translated_images/he/counterfit-distance-sensor.079eefeeea0b68afc36431ce8fcbe2f09a7e4916ed1cd5cb30e696db53bc18fa.png)
 
 ## תכנות חיישן המרחק
 

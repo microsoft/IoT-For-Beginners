@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Mõista keelt
 
-![Selle õppetunni visuaalne ülevaade](../../../../../translated_images/lesson-22.6148ea28500d9e00c396aaa2649935fb6641362c8f03d8e5e90a676977ab01dd.et.jpg)
+![Selle õppetunni visuaalne ülevaade](../../../../../translated_images/et/lesson-22.6148ea28500d9e00c396aaa2649935fb6641362c8f03d8e5e90a676977ab01dd.jpg)
 
 > Visuaalne märkmik: [Nitya Narasimhan](https://github.com/nitya). Klõpsa pildil, et näha suuremat versiooni.
 
@@ -55,7 +55,7 @@ Keele mõistmise mudelid on AI-mudelid, mis on treenitud teatud detailide välja
 
 ## Keele mõistmise mudeli loomine
 
-![LUIS logo](../../../../../translated_images/luis-logo.5cb4f3e88c020ee6df4f614e8831f4a4b6809a7247bf52085fb48d629ef9be52.et.png)
+![LUIS logo](../../../../../translated_images/et/luis-logo.5cb4f3e88c020ee6df4f614e8831f4a4b6809a7247bf52085fb48d629ef9be52.png)
 
 Saad luua keele mõistmise mudeleid, kasutades LUIS-i, Microsofti keele mõistmise teenust, mis on osa Cognitive Services'ist.
 
@@ -126,7 +126,7 @@ Kui entiteedid on määratud, lood intentsioonid. Need õpitakse mudeli poolt n�
 
 Seejärel ütled LUIS-ile, millised osad nendest lausetest vastavad entiteetidele:
 
-![Lause "sea taimer 1 minutiks ja 12 sekundiks" jagatud entiteetideks](../../../../../translated_images/sentence-as-intent-entities.301401696f992259.et.png)
+![Lause "sea taimer 1 minutiks ja 12 sekundiks" jagatud entiteetideks](../../../../../translated_images/et/sentence-as-intent-entities.301401696f992259.png)
 
 Lause `sea taimer 1 minutiks ja 12 sekundiks` intentsioon on `sea taimer`. Sellel on ka 2 entiteeti, millel on 2 väärtust:
 
@@ -178,7 +178,7 @@ LUIS portaali kasutamise juhised leiad [Microsofti dokumentatsioonist: Quickstar
 
 1. Kui sisestate iga näite, hakkab LUIS tuvastama entiteete ja allajoonima ning märgistama kõik, mida ta leiab.
 
-    ![Näited, kus LUIS on allajooninud numbrid ja ajaühikud](../../../../../translated_images/luis-intent-examples.25716580b2d2723cf1bafdf277d015c7f046d8cfa20f27bddf3a0873ec45fab7.et.png)
+    ![Näited, kus LUIS on allajooninud numbrid ja ajaühikud](../../../../../translated_images/et/luis-intent-examples.25716580b2d2723cf1bafdf277d015c7f046d8cfa20f27bddf3a0873ec45fab7.png)
 
 ### Ülesanne – mudeli treenimine ja testimine
 

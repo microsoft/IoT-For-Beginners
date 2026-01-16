@@ -81,7 +81,7 @@ Hyödyllisenä virheenkorjausvaiheena voit paitsi tulostaa rajauslaatikot, myös
 
 1. Suorita sovellus niin, että kamera osoittaa hyllyllä olevaan varastoon. Näet `image.jpg`-tiedoston VS Coden tiedostoselaimessa ja voit avata sen nähdäksesi rajauslaatikot.
 
-    ![4 tomaattipyre-purkkia, joiden ympärillä on rajauslaatikot](../../../../../translated_images/rpi-stock-with-bounding-boxes.b5540e2ecb7cd49f.fi.jpg)
+    ![4 tomaattipyre-purkkia, joiden ympärillä on rajauslaatikot](../../../../../translated_images/fi/rpi-stock-with-bounding-boxes.b5540e2ecb7cd49f.jpg)
 
 ## Laske varasto
 

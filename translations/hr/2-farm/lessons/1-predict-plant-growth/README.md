@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 ## Predvidite rast biljaka pomoću IoT-a
 
-![Sketchnote pregled ove lekcije](../../../../../translated_images/lesson-5.42b234299279d263143148b88ab4583861a32ddb03110c6c1120e41bb88b2592.hr.jpg)
+![Sketchnote pregled ove lekcije](../../../../../translated_images/hr/lesson-5.42b234299279d263143148b88ab4583861a32ddb03110c6c1120e41bb88b2592.jpg)
 
 > Sketchnote od [Nitya Narasimhan](https://github.com/nitya). Kliknite na sliku za veću verziju.
 
@@ -65,7 +65,7 @@ Svaka vrsta biljke ima različite vrijednosti za osnovnu, optimalnu i maksimalnu
 
 ✅ Istražite. Za bilo koje biljke koje imate u svom vrtu, školi ili lokalnom parku, pokušajte pronaći osnovnu temperaturu.
 
-![Grafikon koji prikazuje stopu rasta koja raste s porastom temperature, a zatim opada kada temperatura postane previsoka](../../../../../translated_images/plant-growth-temp-graph.c6d69c9478e6ca83.hr.png)
+![Grafikon koji prikazuje stopu rasta koja raste s porastom temperature, a zatim opada kada temperatura postane previsoka](../../../../../translated_images/hr/plant-growth-temp-graph.c6d69c9478e6ca83.png)
 
 Gornji grafikon prikazuje primjer stope rasta u odnosu na temperaturu. Do osnovne temperature nema rasta. Stopa rasta povećava se do optimalne temperature, a zatim opada nakon što dosegne vrhunac. 
 
@@ -91,7 +91,7 @@ Ovaj kod otvara CSV datoteku, a zatim dodaje novi redak na kraju. Redak sadrži 
 
     
 > 💁 Ako koristite virtualni IoT uređaj, označite opciju za nasumične vrijednosti i postavite raspon kako biste izbjegli dobivanje iste temperature svaki put kada se vrati vrijednost temperature.
-    ![Označite opciju za nasumične vrijednosti i postavite raspon](../../../../../translated_images/select-the-random-checkbox-and-set-a-range.32cf4bc7c12e797f.hr.png) 
+    ![Označite opciju za nasumične vrijednosti i postavite raspon](../../../../../translated_images/hr/select-the-random-checkbox-and-set-a-range.32cf4bc7c12e797f.png) 
 
     > 💁 Ako želite pokrenuti ovo cijeli dan, trebate osigurati da računalo na kojem se izvršava vaš serverski kod neće prijeći u stanje mirovanja, bilo promjenom postavki napajanja ili pokretanjem nečega poput [ovog Python skripta za održavanje sustava aktivnim](https://github.com/jaqsparow/keep-system-active).
     
@@ -111,7 +111,7 @@ Koraci za ručni izračun su:
 
 Na primjer, ako je najviša temperatura za dan 25°C, a najniža 12°C:
 
-![GDD = 25 + 12 podijeljeno s 2, zatim oduzmite 10 iz rezultata, što daje 8.5](../../../../../translated_images/gdd-calculation-strawberries.59f57db94b22adb8ff6efb951ace33af104a1c6ccca3ffb0f8169c14cb160c90.hr.png)
+![GDD = 25 + 12 podijeljeno s 2, zatim oduzmite 10 iz rezultata, što daje 8.5](../../../../../translated_images/hr/gdd-calculation-strawberries.59f57db94b22adb8ff6efb951ace33af104a1c6ccca3ffb0f8169c14cb160c90.png)
 
 * 25 + 12 = 37
 * 37 / 2 = 18.5

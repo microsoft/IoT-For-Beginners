@@ -27,13 +27,13 @@ Le relais Grove peut être connecté au Raspberry Pi.
 
 Connectez le relais.
 
-![Un relais Grove](../../../../../translated_images/grove-relay.d426958ca210fbd0fb7983d7edc069d46c73a8b0a099d94797bd756f7b6bb6be.fr.png)
+![Un relais Grove](../../../../../translated_images/fr/grove-relay.d426958ca210fbd0fb7983d7edc069d46c73a8b0a099d94797bd756f7b6bb6be.png)
 
 1. Insérez une extrémité d'un câble Grove dans la prise du relais. Il ne peut être inséré que dans un seul sens.
 
 1. Avec le Raspberry Pi éteint, connectez l'autre extrémité du câble Grove à la prise numérique marquée **D5** sur le Grove Base Hat attaché au Pi. Cette prise est la deuxième à partir de la gauche, sur la rangée de prises à côté des broches GPIO. Laissez le capteur d'humidité du sol connecté à la prise **A0**.
 
-![Le relais Grove connecté à la prise D5, et le capteur d'humidité du sol connecté à la prise A0](../../../../../translated_images/pi-relay-and-soil-moisture-sensor.02f3198975b8c53e69ec716cd2719ce117700bd1fc933eaf93476c103c57939b.fr.png)
+![Le relais Grove connecté à la prise D5, et le capteur d'humidité du sol connecté à la prise A0](../../../../../translated_images/fr/pi-relay-and-soil-moisture-sensor.02f3198975b8c53e69ec716cd2719ce117700bd1fc933eaf93476c103c57939b.png)
 
 1. Insérez le capteur d'humidité du sol dans le sol, s'il n'est pas déjà en place depuis la leçon précédente.
 

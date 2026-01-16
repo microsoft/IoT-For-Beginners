@@ -21,7 +21,7 @@ Sul on vaja ka mõningaid mitte-tehnilisi esemeid, nagu muld või potitaim ning 
 
 ## Komplektide ostmine
 
-![Seeed Studios logo](../../translated_images/seeed-logo.74732b6b482b6e8e.et.png)
+![Seeed Studios logo](../../translated_images/et/seeed-logo.74732b6b482b6e8e.png)
 
 Seeed Studios on lahkelt teinud kogu riistvara kättesaadavaks lihtsasti ostetavate komplektidena:
 
@@ -29,13 +29,13 @@ Seeed Studios on lahkelt teinud kogu riistvara kättesaadavaks lihtsasti ostetav
 
 **[IoT algajatele koos Seeediga ja Microsoftiga - Wio Terminal Starter Kit](https://www.seeedstudio.com/IoT-for-beginners-with-Seeed-and-Microsoft-Wio-Terminal-Starter-Kit-p-5006.html)**
 
-[![Wio Terminal riistvarakomplekt](../../translated_images/wio-hardware-kit.4c70c48b85e4283a.et.png)](https://www.seeedstudio.com/IoT-for-beginners-with-Seeed-and-Microsoft-Wio-Terminal-Starter-Kit-p-5006.html)
+[![Wio Terminal riistvarakomplekt](../../translated_images/et/wio-hardware-kit.4c70c48b85e4283a.png)](https://www.seeedstudio.com/IoT-for-beginners-with-Seeed-and-Microsoft-Wio-Terminal-Starter-Kit-p-5006.html)
 
 ### Raspberry Pi
 
 **[IoT algajatele koos Seeediga ja Microsoftiga - Raspberry Pi 4 Starter Kit](https://www.seeedstudio.com/IoT-for-beginners-with-Seeed-and-Microsoft-Raspberry-Pi-Starter-Kit-p-5004.html)**
 
-[![Raspberry Pi Terminal riistvarakomplekt](../../translated_images/pi-hardware-kit.26dbadaedb7dd44c73b0131d5d68ea29472ed0a9744f90d5866c6d82f2d16380.et.png)](https://www.seeedstudio.com/IoT-for-beginners-with-Seeed-and-Microsoft-Raspberry-Pi-Starter-Kit-p-5004.html)
+[![Raspberry Pi Terminal riistvarakomplekt](../../translated_images/et/pi-hardware-kit.26dbadaedb7dd44c73b0131d5d68ea29472ed0a9744f90d5866c6d82f2d16380.png)](https://www.seeedstudio.com/IoT-for-beginners-with-Seeed-and-Microsoft-Raspberry-Pi-Starter-Kit-p-5004.html)
 
 ## Arduino
 

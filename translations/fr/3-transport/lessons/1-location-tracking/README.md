@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Suivi de localisation
 
-![Un aperçu en sketchnote de cette leçon](../../../../../translated_images/lesson-11.9fddbac4b664c6d50ab7ac9bb32f1fc3f945f03760e72f7f43938073762fb017.fr.jpg)
+![Un aperçu en sketchnote de cette leçon](../../../../../translated_images/fr/lesson-11.9fddbac4b664c6d50ab7ac9bb32f1fc3f945f03760e72f7f43938073762fb017.jpg)
 
 > Sketchnote par [Nitya Narasimhan](https://github.com/nitya). Cliquez sur l'image pour une version agrandie.
 
@@ -72,13 +72,13 @@ La Terre est une sphère - un cercle tridimensionnel. En raison de cela, les poi
 
 > 💁 Personne ne sait vraiment pourquoi les cercles sont divisés en 360 degrés. La [page sur le degré (angle) sur Wikipédia](https://wikipedia.org/wiki/Degree_(angle)) couvre certaines des raisons possibles.
 
-![Lignes de latitude allant de 90° au pôle Nord, 45° à mi-chemin entre le pôle Nord et l'équateur, 0° à l'équateur, -45° à mi-chemin entre l'équateur et le pôle Sud, et -90° au pôle Sud](../../../../../translated_images/latitude-lines.11d8d91dfb2014a57437272d7db7fd6607243098e8685f06e0c5f1ec984cb7eb.fr.png)
+![Lignes de latitude allant de 90° au pôle Nord, 45° à mi-chemin entre le pôle Nord et l'équateur, 0° à l'équateur, -45° à mi-chemin entre l'équateur et le pôle Sud, et -90° au pôle Sud](../../../../../translated_images/fr/latitude-lines.11d8d91dfb2014a57437272d7db7fd6607243098e8685f06e0c5f1ec984cb7eb.png)
 
 La latitude est mesurée à l'aide de lignes qui entourent la Terre et sont parallèles à l'équateur, divisant les hémisphères Nord et Sud en 90° chacun. L'équateur est à 0°, le pôle Nord est à 90°, également connu sous le nom de 90° Nord, et le pôle Sud est à -90°, ou 90° Sud.
 
 La longitude est mesurée comme le nombre de degrés mesurés d'est en ouest. L'origine 0° de la longitude est appelée le *méridien de Greenwich*, et a été définie en 1884 comme une ligne allant du pôle Nord au pôle Sud qui passe par l'[Observatoire royal britannique de Greenwich, Angleterre](https://wikipedia.org/wiki/Royal_Observatory,_Greenwich).
 
-![Lignes de longitude allant de -180° à l'ouest du méridien de Greenwich, à 0° sur le méridien de Greenwich, à 180° à l'est du méridien de Greenwich](../../../../../translated_images/longitude-meridians.ab4ef1c91c064586b0185a3c8d39e585903696c6a7d28c098a93a629cddb5d20.fr.png)
+![Lignes de longitude allant de -180° à l'ouest du méridien de Greenwich, à 0° sur le méridien de Greenwich, à 180° à l'est du méridien de Greenwich](../../../../../translated_images/fr/longitude-meridians.ab4ef1c91c064586b0185a3c8d39e585903696c6a7d28c098a93a629cddb5d20.png)
 
 > 🎓 Un méridien est une ligne imaginaire droite qui va du pôle Nord au pôle Sud, formant un demi-cercle.
 
@@ -109,7 +109,7 @@ Les coordonnées d'un point sont toujours données sous la forme `latitude, long
 * Une latitude de 47.6423109 (47.6423109 degrés au nord de l'équateur)
 * Une longitude de -122.1390293 (122.1390293 degrés à l'ouest du méridien de Greenwich).
 
-![Le campus de Microsoft à 47.6423109,-122.117198](../../../../../translated_images/microsoft-gps-location-world.a321d481b010f6adfcca139b2ba0adc53b79f58a540495b8e2ce7f779ea64bfe.fr.png)
+![Le campus de Microsoft à 47.6423109,-122.117198](../../../../../translated_images/fr/microsoft-gps-location-world.a321d481b010f6adfcca139b2ba0adc53b79f58a540495b8e2ce7f779ea64bfe.png)
 
 ## Systèmes de Positionnement Global (GPS)
 
@@ -121,7 +121,7 @@ Les systèmes GPS fonctionnent en ayant un certain nombre de satellites qui envo
 
 > 💁 Les capteurs GPS ont besoin d'antennes pour détecter les ondes radio. Les antennes intégrées aux camions et voitures équipés de GPS embarqué sont positionnées pour obtenir un bon signal, généralement sur le pare-brise ou le toit. Si vous utilisez un système GPS séparé, comme un smartphone ou un dispositif IoT, vous devez vous assurer que l'antenne intégrée au système GPS ou au téléphone a une vue dégagée du ciel, comme être montée sur votre pare-brise.
 
-![En connaissant la distance entre le capteur et plusieurs satellites, la localisation peut être calculée](../../../../../translated_images/gps-satellites.04acf1148fe25fbf1586bc2e8ba698e8d79b79a50c36824b38417dd13372b90f.fr.png)
+![En connaissant la distance entre le capteur et plusieurs satellites, la localisation peut être calculée](../../../../../translated_images/fr/gps-satellites.04acf1148fe25fbf1586bc2e8ba698e8d79b79a50c36824b38417dd13372b90f.png)
 
 Les satellites GPS tournent autour de la Terre, et ne sont pas à un point fixe au-dessus du capteur, donc les données de localisation incluent l'altitude au-dessus du niveau de la mer ainsi que la latitude et la longitude.
 

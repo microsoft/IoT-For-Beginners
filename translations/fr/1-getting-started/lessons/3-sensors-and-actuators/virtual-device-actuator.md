@@ -45,11 +45,11 @@ Ajoutez la LED à l'application CounterFit.
 
     1. Sélectionnez le bouton **Ajouter** pour créer la LED sur la broche 5.
 
-    ![Les paramètres de la LED](../../../../../translated_images/counterfit-create-led.ba9db1c9b8c622a635d6dfae5cdc4e70c2b250635bd4f0601c6cf0bd22b7ba46.fr.png)
+    ![Les paramètres de la LED](../../../../../translated_images/fr/counterfit-create-led.ba9db1c9b8c622a635d6dfae5cdc4e70c2b250635bd4f0601c6cf0bd22b7ba46.png)
 
     La LED sera créée et apparaîtra dans la liste des actionneurs.
 
-    ![La LED créée](../../../../../translated_images/counterfit-led.c0ab02de6d256ad84d9bad4d67a7faa709f0ea83e410cfe9b5561ef0cef30b1c.fr.png)
+    ![La LED créée](../../../../../translated_images/fr/counterfit-led.c0ab02de6d256ad84d9bad4d67a7faa709f0ea83e410cfe9b5561ef0cef30b1c.png)
 
     Une fois la LED créée, vous pouvez changer sa couleur en utilisant le sélecteur *Couleur*. Sélectionnez le bouton **Définir** pour changer la couleur après l'avoir choisie.
 

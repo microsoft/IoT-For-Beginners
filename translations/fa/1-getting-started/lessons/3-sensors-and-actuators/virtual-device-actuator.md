@@ -45,11 +45,11 @@ LED را به برنامه CounterFit اضافه کنید.
 
     1. دکمه **Add** را انتخاب کنید تا LED روی پین 5 ایجاد شود.
 
-    ![تنظیمات LED](../../../../../translated_images/counterfit-create-led.ba9db1c9b8c622a635d6dfae5cdc4e70c2b250635bd4f0601c6cf0bd22b7ba46.fa.png)
+    ![تنظیمات LED](../../../../../translated_images/fa/counterfit-create-led.ba9db1c9b8c622a635d6dfae5cdc4e70c2b250635bd4f0601c6cf0bd22b7ba46.png)
 
     LED ایجاد شده و در لیست عملگرها ظاهر می‌شود.
 
-    ![LED ایجاد شده](../../../../../translated_images/counterfit-led.c0ab02de6d256ad84d9bad4d67a7faa709f0ea83e410cfe9b5561ef0cef30b1c.fa.png)
+    ![LED ایجاد شده](../../../../../translated_images/fa/counterfit-led.c0ab02de6d256ad84d9bad4d67a7faa709f0ea83e410cfe9b5561ef0cef30b1c.png)
 
     پس از ایجاد LED، می‌توانید رنگ آن را با استفاده از انتخابگر *Color* تغییر دهید. دکمه **Set** را انتخاب کنید تا پس از انتخاب رنگ، آن را تغییر دهید.
 

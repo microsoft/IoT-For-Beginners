@@ -47,11 +47,11 @@ CO_OP_TRANSLATOR_METADATA:
 
     1. בחרו בכפתור **Add** כדי ליצור את חיישן ה-GPS על פורט `/dev/ttyAMA0`.
 
-    ![הגדרות חיישן ה-GPS](../../../../../translated_images/counterfit-create-gps-sensor.6385dc9357d85ad1d47b4abb2525e7651fd498917d25eefc5a72feab09eedc70.he.png)
+    ![הגדרות חיישן ה-GPS](../../../../../translated_images/he/counterfit-create-gps-sensor.6385dc9357d85ad1d47b4abb2525e7651fd498917d25eefc5a72feab09eedc70.png)
 
     חיישן ה-GPS ייווצר ויופיע ברשימת החיישנים.
 
-    ![חיישן ה-GPS נוצר](../../../../../translated_images/counterfit-gps-sensor.3fbb15af0a5367566f2f11324ef5a6f30861cdf2b497071a5e002b7aa473550e.he.png)
+    ![חיישן ה-GPS נוצר](../../../../../translated_images/he/counterfit-gps-sensor.3fbb15af0a5367566f2f11324ef5a6f30861cdf2b497071a5e002b7aa473550e.png)
 
 ## תכנות חיישן ה-GPS
 
@@ -111,17 +111,17 @@ CO_OP_TRANSLATOR_METADATA:
 
     * הגדירו את **Source** ל-`Lat/Lon`, והגדירו קו רוחב, קו אורך ומספר לוויינים ששימשו לקבלת תיקון GPS. ערך זה יישלח רק פעם אחת, לכן סמנו את תיבת **Repeat** כדי שהנתונים יחזרו כל שנייה.
 
-      ![חיישן ה-GPS עם lat lon נבחר](../../../../../translated_images/counterfit-gps-sensor-latlon.008c867d75464fbe7f84107cc57040df565ac07cb57d2f21db37d087d470197d.he.png)
+      ![חיישן ה-GPS עם lat lon נבחר](../../../../../translated_images/he/counterfit-gps-sensor-latlon.008c867d75464fbe7f84107cc57040df565ac07cb57d2f21db37d087d470197d.png)
 
     * הגדירו את **Source** ל-`NMEA` והוסיפו כמה משפטי NMEA לתיבת הטקסט. כל הערכים הללו יישלחו, עם עיכוב של שנייה אחת לפני כל משפט GGA (תיקון מיקום) חדש שניתן לקרוא.
 
-      ![חיישן ה-GPS עם משפטי NMEA מוגדרים](../../../../../translated_images/counterfit-gps-sensor-nmea.c62eea442171e17e19528b051b104cfcecdc9cd18db7bc72920f29821ae63f73.he.png)
+      ![חיישן ה-GPS עם משפטי NMEA מוגדרים](../../../../../translated_images/he/counterfit-gps-sensor-nmea.c62eea442171e17e19528b051b104cfcecdc9cd18db7bc72920f29821ae63f73.png)
 
       תוכלו להשתמש בכלי כמו [nmeagen.org](https://www.nmeagen.org) כדי ליצור את המשפטים הללו על ידי ציור על מפה. ערכים אלו יישלחו רק פעם אחת, לכן סמנו את תיבת **Repeat** כדי שהנתונים יחזרו שנייה אחת לאחר שכל הנתונים נשלחו.
 
     * הגדירו את **Source** לקובץ GPX, והעלו קובץ GPX עם מיקומי מסלול. תוכלו להוריד קבצי GPX ממספר אתרי מפות וטיולים פופולריים, כמו [AllTrails](https://www.alltrails.com/). קבצים אלו מכילים מיקומי GPS מרובים כנתיב, וחיישן ה-GPS יחזיר כל מיקום חדש במרווחים של שנייה אחת.
 
-      ![חיישן ה-GPS עם קובץ GPX מוגדר](../../../../../translated_images/counterfit-gps-sensor-gpxfile.8310b063ce8a425ccc8ebeec8306aeac5e8e55207f007d52c6e1194432a70cd9.he.png)
+      ![חיישן ה-GPS עם קובץ GPX מוגדר](../../../../../translated_images/he/counterfit-gps-sensor-gpxfile.8310b063ce8a425ccc8ebeec8306aeac5e8e55207f007d52c6e1194432a70cd9.png)
 
       ערכים אלו יישלחו רק פעם אחת, לכן סמנו את תיבת **Repeat** כדי שהנתונים יחזרו שנייה אחת לאחר שכל הנתונים נשלחו.
 

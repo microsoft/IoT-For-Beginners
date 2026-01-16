@@ -29,13 +29,13 @@ Grove टाइम ऑफ फ्लाइट सेंसर को रास्
 
 टाइम ऑफ फ्लाइट सेंसर को कनेक्ट करें।
 
-![एक Grove टाइम ऑफ फ्लाइट सेंसर](../../../../../translated_images/grove-time-of-flight-sensor.d82ff2165bfded9f485de54d8d07195a6270a602696825fca19f629ddfe94e86.hi.png)
+![एक Grove टाइम ऑफ फ्लाइट सेंसर](../../../../../translated_images/hi/grove-time-of-flight-sensor.d82ff2165bfded9f485de54d8d07195a6270a602696825fca19f629ddfe94e86.png)
 
 1. Grove केबल के एक सिरे को टाइम ऑफ फ्लाइट सेंसर के सॉकेट में डालें। यह केवल एक ही दिशा में जाएगा।
 
 1. रास्पबेरी पाई को बंद करके, Grove केबल के दूसरे सिरे को Grove बेस हैट पर **I²C** सॉकेट में कनेक्ट करें। ये सॉकेट निचली पंक्ति में हैं, GPIO पिन्स के विपरीत छोर पर और कैमरा केबल स्लॉट के पास हैं।
 
-![Grove टाइम ऑफ फ्लाइट सेंसर I²C सॉकेट से जुड़ा हुआ](../../../../../translated_images/pi-time-of-flight-sensor.58c8dc04eb3bfb57.hi.png)
+![Grove टाइम ऑफ फ्लाइट सेंसर I²C सॉकेट से जुड़ा हुआ](../../../../../translated_images/hi/pi-time-of-flight-sensor.58c8dc04eb3bfb57.png)
 
 ## टाइम ऑफ फ्लाइट सेंसर प्रोग्राम करें
 
@@ -106,7 +106,7 @@ Grove टाइम ऑफ फ्लाइट सेंसर को रास्
 
     रेंजफाइंडर सेंसर के पीछे की तरफ है, इसलिए दूरी मापते समय सही दिशा का उपयोग करना सुनिश्चित करें।
 
-    ![टाइम ऑफ फ्लाइट सेंसर के पीछे का रेंजफाइंडर एक केले की ओर इशारा करते हुए](../../../../../translated_images/time-of-flight-banana.079921ad8b1496e4.hi.png)
+    ![टाइम ऑफ फ्लाइट सेंसर के पीछे का रेंजफाइंडर एक केले की ओर इशारा करते हुए](../../../../../translated_images/hi/time-of-flight-banana.079921ad8b1496e4.png)
 
 > 💁 आप इस कोड को [code-proximity/pi](../../../../../4-manufacturing/lessons/4-trigger-fruit-detector/code-proximity/pi) फोल्डर में पा सकते हैं।
 

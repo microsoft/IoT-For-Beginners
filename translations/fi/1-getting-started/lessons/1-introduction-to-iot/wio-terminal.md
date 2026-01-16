@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 [Wio Terminal Seeed Studiosilta](https://www.seeedstudio.com/Wio-Terminal-p-4509.html) on Arduino-yhteensopiva mikrokontrolleri, jossa on WiFi sekä sisäänrakennettuja sensoreita ja toimilaitteita. Lisäksi siinä on liitäntöjä, joiden avulla voit lisätä enemmän sensoreita ja toimilaitteita käyttäen laitteistoekosysteemiä nimeltä [Grove](https://www.seeedstudio.com/category/Grove-c-1003.html).
 
-![Seeed Studiosin Wio Terminal](../../../../../translated_images/wio-terminal.b8299ee16587db9a.fi.png)
+![Seeed Studiosin Wio Terminal](../../../../../translated_images/fi/wio-terminal.b8299ee16587db9a.png)
 
 ## Asennus
 
@@ -51,15 +51,15 @@ Luo PlatformIO-projekti.
 
 1. PlatformIO-kuvake löytyy sivupalkista:
 
-    ![PlatformIO-valikkovaihtoehto](../../../../../translated_images/vscode-platformio-menu.297be26b9733e5c4.fi.png)
+    ![PlatformIO-valikkovaihtoehto](../../../../../translated_images/fi/vscode-platformio-menu.297be26b9733e5c4.png)
 
     Valitse tämä valikkovaihtoehto ja valitse *PIO Home -> Open*.
 
-    ![PlatformIO:n avausvaihtoehto](../../../../../translated_images/vscode-platformio-home-open.3f9a41bfd3f4da1c.fi.png)
+    ![PlatformIO:n avausvaihtoehto](../../../../../translated_images/fi/vscode-platformio-home-open.3f9a41bfd3f4da1c.png)
 
 1. Tervetulonäytöstä valitse **+ New Project** -painike.
 
-    ![Uuden projektin painike](../../../../../translated_images/vscode-platformio-welcome-new-button.ba6fc8a4c7b78cc8.fi.png)
+    ![Uuden projektin painike](../../../../../translated_images/fi/vscode-platformio-welcome-new-button.ba6fc8a4c7b78cc8.png)
 
 1. Konfiguroi projekti *Project Wizardissa*:
 
@@ -73,7 +73,7 @@ Luo PlatformIO-projekti.
 
     1. Valitse **Finish**-painike.
 
-    ![Valmis projektin ohjattu toiminto](../../../../../translated_images/vscode-platformio-nightlight-project-wizard.5c64db4da6037420.fi.png)
+    ![Valmis projektin ohjattu toiminto](../../../../../translated_images/fi/vscode-platformio-nightlight-project-wizard.5c64db4da6037420.png)
 
     PlatformIO lataa tarvittavat komponentit koodin kääntämiseksi Wio Terminalille ja luo projektisi. Tämä voi kestää muutaman minuutin.
 
@@ -179,7 +179,7 @@ Kirjoita Hello World -sovellus.
 
     1. Kirjoita `PlatformIO Upload` etsiäksesi latausvaihtoehdon ja valitse *PlatformIO: Upload*.
 
-        ![PlatformIO:n latausvaihtoehto komentopaletissa](../../../../../translated_images/vscode-platformio-upload-command-palette.9e0f49cf80d1f1c3.fi.png)
+        ![PlatformIO:n latausvaihtoehto komentopaletissa](../../../../../translated_images/fi/vscode-platformio-upload-command-palette.9e0f49cf80d1f1c3.png)
 
         PlatformIO kääntää koodin automaattisesti tarvittaessa ennen lataamista.
 
@@ -195,7 +195,7 @@ PlatformIO:ssa on sarjaportin monitori, joka voi seurata USB-kaapelin kautta lä
 
 1. Kirjoita `PlatformIO Serial` etsiäksesi sarjaportin monitorivaihtoehdon ja valitse *PlatformIO: Serial Monitor*.
 
-    ![PlatformIO:n sarjaportin monitorivaihtoehto komentopaletissa](../../../../../translated_images/vscode-platformio-serial-monitor-command-palette.b348ec841b8a1c14.fi.png)
+    ![PlatformIO:n sarjaportin monitorivaihtoehto komentopaletissa](../../../../../translated_images/fi/vscode-platformio-serial-monitor-command-palette.b348ec841b8a1c14.png)
 
     Uusi terminaali avautuu, ja sarjaportin kautta lähetetty data striimataan tähän terminaaliin:
 

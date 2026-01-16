@@ -43,11 +43,11 @@ CO_OP_TRANSLATOR_METADATA:
 
     1. 點擊 **Add** 按鈕，在 Pin 0 上創建 *Soil Moisture* 傳感器。
 
-    ![土壤濕度傳感器設置](../../../../../translated_images/counterfit-create-soil-moisture-sensor.35266135a5e0ae68b29a684d7db0d2933a8098b2307d197f7c71577b724603aa.hk.png)
+    ![土壤濕度傳感器設置](../../../../../translated_images/hk/counterfit-create-soil-moisture-sensor.35266135a5e0ae68b29a684d7db0d2933a8098b2307d197f7c71577b724603aa.png)
 
     土壤濕度傳感器將被創建並顯示在傳感器列表中。
 
-    ![已創建的土壤濕度傳感器](../../../../../translated_images/counterfit-soil-moisture-sensor.81742b2de0e9de60a3b3b9a2ff8ecc686d428eb6d71820f27a693be26e5aceee.hk.png)
+    ![已創建的土壤濕度傳感器](../../../../../translated_images/hk/counterfit-soil-moisture-sensor.81742b2de0e9de60a3b3b9a2ff8ecc686d428eb6d71820f27a693be26e5aceee.png)
 
 ## 編程土壤濕度傳感器應用
 

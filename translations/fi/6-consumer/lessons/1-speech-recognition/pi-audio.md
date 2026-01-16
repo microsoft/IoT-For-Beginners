@@ -25,13 +25,13 @@ Painike voidaan liittää Grove Base HAT:iin.
 
 #### Tehtävä - liitä painike
 
-![Grove-painike](../../../../../translated_images/grove-button.a70cfbb809a8563681003250cf5b06d68cdcc68624f9e2f493d5a534ae2da1e5.fi.png)
+![Grove-painike](../../../../../translated_images/fi/grove-button.a70cfbb809a8563681003250cf5b06d68cdcc68624f9e2f493d5a534ae2da1e5.png)
 
 1. Työnnä Grove-kaapelin toinen pää painikemoduulin liittimeen. Se menee sisään vain yhdellä tavalla.
 
 1. Kun Raspberry Pi on sammutettu, liitä Grove-kaapelin toinen pää digitaaliseen liittimeen, joka on merkitty **D5** Grove Base HAT:ssa, joka on kiinnitetty Pi:hin. Tämä liitin on toinen vasemmalta GPIO-pinnien vieressä olevassa rivissä.
 
-![Grove-painike liitettynä liittimeen D5](../../../../../translated_images/pi-button.c7a1a4f55943341ce1baf1057658e9a205804d4131d258e820c93f951df0abf3.fi.png)
+![Grove-painike liitettynä liittimeen D5](../../../../../translated_images/fi/pi-button.c7a1a4f55943341ce1baf1057658e9a205804d4131d258e820c93f951df0abf3.png)
 
 ## Tallenna ääntä
 

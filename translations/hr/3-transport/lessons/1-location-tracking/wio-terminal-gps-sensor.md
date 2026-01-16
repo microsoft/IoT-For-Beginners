@@ -27,13 +27,13 @@ Grove GPS senzor može se povezati s Wio Terminalom.
 
 Povežite GPS senzor.
 
-![Grove GPS senzor](../../../../../translated_images/grove-gps-sensor.247943bf69b03f0d1820ef6ed10c587f9b650e8db55b936851c92412180bd3e2.hr.png)
+![Grove GPS senzor](../../../../../translated_images/hr/grove-gps-sensor.247943bf69b03f0d1820ef6ed10c587f9b650e8db55b936851c92412180bd3e2.png)
 
 1. Umetnite jedan kraj Grove kabela u utičnicu na GPS senzoru. Kabel će ući samo na jedan način.
 
 1. Dok je Wio Terminal isključen s vašeg računala ili drugog izvora napajanja, spojite drugi kraj Grove kabela na lijevu Grove utičnicu na Wio Terminalu, gledajući prema zaslonu. To je utičnica najbliža gumbu za uključivanje.
 
-    ![Grove GPS senzor povezan s lijevom utičnicom](../../../../../translated_images/wio-gps-sensor.19fd52b81ce58095.hr.png)
+    ![Grove GPS senzor povezan s lijevom utičnicom](../../../../../translated_images/hr/wio-gps-sensor.19fd52b81ce58095.png)
 
 1. Postavite GPS senzor tako da priložena antena ima vidljivost prema nebu - idealno pored otvorenog prozora ili vani. Signal će biti jasniji ako ništa ne ometa antenu.
 

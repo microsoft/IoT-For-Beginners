@@ -64,7 +64,7 @@ Nüüd saab Wio Terminal ühendada WiFi-ga.
 
 1. Loo `src` kaustas uus fail nimega `config.h`. Seda saab teha, valides `src` kausta või `main.cpp` faili ja klõpsates **Uus fail** nuppu failihalduris. See nupp ilmub ainult siis, kui kursor on failihalduri kohal.
 
-    ![Uue faili nupp](../../../../../translated_images/vscode-new-file-button.182702340fe6723c.et.png)
+    ![Uue faili nupp](../../../../../translated_images/et/vscode-new-file-button.182702340fe6723c.png)
 
 1. Lisa sellele failile järgmine kood, et määrata WiFi mandaadi konstandid:
 

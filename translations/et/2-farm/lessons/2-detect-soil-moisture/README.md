@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Tuvasta mulla niiskus
 
-![Selle õppetunni visuaalne ülevaade](../../../../../translated_images/lesson-6.3e493b60eee85adc8c74dfeaaec3a3a6cfba61fedbcb84aa0146e7e80603a5dd.et.jpg)
+![Selle õppetunni visuaalne ülevaade](../../../../../translated_images/et/lesson-6.3e493b60eee85adc8c74dfeaaec3a3a6cfba61fedbcb84aa0146e7e80603a5dd.jpg)
 
 > Visuaalne ülevaade: [Nitya Narasimhan](https://github.com/nitya). Klõpsa pildil, et näha suuremat versiooni.
 
@@ -25,7 +25,7 @@ See õppetund oli osa [IoT algajatele: Projekt 2 - Digitaalne põllumajandus](ht
 
 Eelmises õppetunnis uurisime, kuidas mõõta keskkonna omadusi ja kasutada neid taimede kasvu ennustamiseks. Temperatuuri saab kontrollida, kuid see on kulukas, kuna nõuab kontrollitud keskkonda. Lihtsaim keskkonna omadus, mida taimede jaoks kontrollida, on vesi – midagi, mida hallatakse igapäevaselt, alates suurtest niisutussüsteemidest kuni väikeste laste kastmiskannudeni.
 
-![Laps kastab aeda](../../../../../translated_images/child-watering-garden.9a5d3f1bfe6d0d8d488291e8189899b2c59f82abaa487f18d404217a25e671e7.et.jpg)
+![Laps kastab aeda](../../../../../translated_images/et/child-watering-garden.9a5d3f1bfe6d0d8d488291e8189899b2c59f82abaa487f18d404217a25e671e7.jpg)
 
 Selles õppetunnis õpid, kuidas mõõta mulla niiskust, ja järgmises õppetunnis, kuidas automatiseeritud kastmissüsteemi juhtida. See õppetund tutvustab kolmandat sensorit – oled juba kasutanud valgusandurit ja temperatuuriandurit, ning nüüd õpid, kuidas sensorid ja aktuaatorid suhtlevad IoT seadmetega, et mõista, kuidas mulla niiskuse sensor saadab andmeid IoT seadmele.
 
@@ -44,7 +44,7 @@ Taimed vajavad kasvamiseks vett. Nad imavad vett kogu taime ulatuses, kusjuures 
 * [Transpiratsioon](https://wikipedia.org/wiki/Transpiration) – taimed kasutavad vett süsinikdioksiidi difusiooniks õhust taime lehtede pooride kaudu. See protsess kannab ka toitaineid taime sees ja jahutab taime, sarnaselt inimeste higistamisele.
 * Struktuur – taimed vajavad vett ka oma struktuuri säilitamiseks – nad koosnevad 90% ulatuses veest (inimesed ainult 60%), ja see vesi hoiab rakud jäigana. Kui taimel pole piisavalt vett, hakkab ta närbuma ja lõpuks sureb.
 
-![Vesi imendub taime juurte kaudu ja kantakse taime sees, kasutades seda fotosünteesiks ja struktuuri säilitamiseks](../../../../../translated_images/transpiration.b735aa34e4372e65.et.png)
+![Vesi imendub taime juurte kaudu ja kantakse taime sees, kasutades seda fotosünteesiks ja struktuuri säilitamiseks](../../../../../translated_images/et/transpiration.b735aa34e4372e65.png)
 
 ✅ Uuri: kui palju vett kaotatakse transpiratsiooni käigus?
 
@@ -58,13 +58,13 @@ Mulla niiskuse mõõtmiseks on mitmeid erinevaid sensoreid:
 
 * Takistuslik – takistuslik sensor sisaldab kahte sondi, mis sisestatakse mulda. Elektrivool saadetakse ühele sondile ja võetakse vastu teise poolt. Sensor mõõdab mulla takistust – kui palju vool väheneb teisel sondil. Vesi juhib elektrit hästi, seega mida suurem on mulla veesisaldus, seda väiksem on takistus.
 
-    ![Takistuslik mulla niiskuse sensor](../../../../../translated_images/resistive-soil-moisture-sensor.728a138a3d109e06.et.png)
+    ![Takistuslik mulla niiskuse sensor](../../../../../translated_images/et/resistive-soil-moisture-sensor.728a138a3d109e06.png)
 
     > 💁 Takistusliku mulla niiskuse sensori saab ehitada, kasutades kahte metalltükki, näiteks naelu, mis on paigutatud paar sentimeetrit üksteisest, ja mõõtes nende vahel takistust multimeetriga.
 
 * Mahtuvuslik – mahtuvuslik niiskuse sensor mõõdab elektrilaengu hulka, mida saab salvestada positiivse ja negatiivse elektriplaadi vahel ehk [mahtuvust](https://wikipedia.org/wiki/Capacitance). Mulla mahtuvus muutub niiskustaseme muutudes ja seda saab teisendada pingeks, mida IoT seade saab mõõta. Mida niiskem muld, seda madalam pinge sensorist väljub.
 
-    ![Mahtuvuslik mulla niiskuse sensor](../../../../../translated_images/grove-capacitive-soil-moisture-sensor.e7f0776cce30e78be5cc5a07839385fd6718857f31b5bf5ad3d0c73c83b2f0ef.et.png)
+    ![Mahtuvuslik mulla niiskuse sensor](../../../../../translated_images/et/grove-capacitive-soil-moisture-sensor.e7f0776cce30e78be5cc5a07839385fd6718857f31b5bf5ad3d0c73c83b2f0ef.png)
 
 Mõlemad sensorid on analoogsensorid, mis tagastavad pinge, et näidata mulla niiskust. Aga kuidas see pinge jõuab sinu koodini? Enne nende sensoritega edasi minemist vaatame, kuidas sensorid ja aktuaatorid suhtlevad IoT seadmetega.
 
@@ -92,11 +92,11 @@ Sa saad kasutada GPIO pinne otse mõne digitaalse sensori ja aktuaatoriga, kui s
 
 * Nupp. Sa saad ühendada nupu 5V pinni ja sisendiks seadistatud pinni vahel. Kui vajutad nuppu, lõpetab see vooluringi 5V pinni, nupu ja sisendpinni vahel. Koodist saad lugeda sisendpinni pinget ja kui see on kõrge (5V), siis nupp on vajutatud; kui see on madal (0V), siis nupp pole vajutatud. Pidage meeles, et tegelikku pinget ennast ei loeta, selle asemel saad digitaalse signaali 1 või 0, sõltuvalt sellest, kas pinge ületab läve või mitte.
 
-    ![Nupp saadab 5 volti. Kui seda ei vajutata, tagastab see 0 volti ehk 0; kui vajutatakse, tagastab see 5 volti ehk 1](../../../../../translated_images/button-with-digital.3749edea8eb885af0303f7ea29e2389d704661c0ca3225b08ff0cbc22f332059.et.png)
+    ![Nupp saadab 5 volti. Kui seda ei vajutata, tagastab see 0 volti ehk 0; kui vajutatakse, tagastab see 5 volti ehk 1](../../../../../translated_images/et/button-with-digital.3749edea8eb885af0303f7ea29e2389d704661c0ca3225b08ff0cbc22f332059.png)
 
 * LED. Sa saad ühendada LED-i väljundpinni ja maanduspinni vahel (kasutades takistit, muidu põletad LED-i läbi). Koodist saad seadistada väljundpinni kõrgeks ja see saadab 3,3V, luues vooluringi 3,3V pinni, LED-i ja maanduspinni vahel. See süütab LED-i.
 
-    ![LED-i saadetakse signaal 1 (3,3V), mis süütab LED-i. Kui saadetakse 0 (0V), LED ei sütti.](../../../../../translated_images/led-digital-control.13b9be14077ea49f883c2ec52e1ce1c587804f2ed653f4061661e6a8783dd8c7.et.png)
+    ![LED-i saadetakse signaal 1 (3,3V), mis süütab LED-i. Kui saadetakse 0 (0V), LED ei sütti.](../../../../../translated_images/et/led-digital-control.13b9be14077ea49f883c2ec52e1ce1c587804f2ed653f4061661e6a8783dd8c7.png)
 
 Täpsemate sensorite jaoks saad kasutada GPIO pinne digitaalsete andmete saatmiseks ja vastuvõtmiseks otse digitaalsete sensorite ja aktuaatoritega või kontrollerplaatide kaudu, millel on ADC-d ja DAC-d analoogsensorite ja -aktuaatoritega suhtlemiseks.
 
@@ -110,7 +110,7 @@ Mõned seadmed, nagu Arduino, pakuvad analoogpinne. Need on samad kui GPIO pinni
 
 Näiteks 3,3V plaadil, kui sensor tagastab 3,3V, siis tagastatav väärtus oleks 1,023. Kui tagastatav pinge on 1,65V, siis tagastatav väärtus on 511.
 
-![Mulla niiskuse sensor saadab 3,3V ja tagastab 1,65V ehk lugemise 511](../../../../../translated_images/analog-sensor-voltage.3b6f3153922473997cae6f71a6110d89a020a8a1838a83fba4f97e8fa6cef3ac.et.png)
+![Mulla niiskuse sensor saadab 3,3V ja tagastab 1,65V ehk lugemise 511](../../../../../translated_images/et/analog-sensor-voltage.3b6f3153922473997cae6f71a6110d89a020a8a1838a83fba4f97e8fa6cef3ac.png)
 
 > 💁 Tagasi öölambi juurde – õppetund 3, valgusandur tagastas väärtuse vahemikus 0–1,023. Kui kasutad Wio Terminali, oli sensor ühendatud analoogpinniga. Kui kasutad Raspberry Pi-d, siis oli sensor ühendatud analoogpinniga baasmütsil, millel on integreeritud ADC, et suhelda GPIO pinne kaudu. Virtuaalne seade oli seadistatud saatma väärtust vahemikus 0–1,023, et simuleerida analoogpinni.
 
@@ -133,7 +133,7 @@ I<sup>2</sup>C sisaldab siini, mis koosneb kahest peamisest juhtmest, koos kahe 
 | VCC | Voltage common collector | Seadmete toiteallikas. See on ühendatud SDA ja SCL juhtmetega, et tagada nende toide tõmbetakisti kaudu, mis lülitab signaali välja, kui ükski seade pole kontroller. |
 | GND | Ground | Tagab elektriahela ühise maanduse. |
 
-![I2C siin, millele on ühendatud 3 seadet SDA ja SCL juhtmetega, jagades ühist maandusjuhet](../../../../../translated_images/i2c.83da845dde02256bdd462dbe0d5145461416b74930571b89d1ae142841eeb584.et.png)
+![I2C siin, millele on ühendatud 3 seadet SDA ja SCL juhtmetega, jagades ühist maandusjuhet](../../../../../translated_images/et/i2c.83da845dde02256bdd462dbe0d5145461416b74930571b89d1ae142841eeb584.png)
 
 Andmete saatmiseks annab üks seade käivitusseisundi, et näidata, et see on valmis andmeid saatma. Seejärel muutub see kontrolleriks. Kontroller saadab seadme aadressi, kellega ta soovib suhelda, koos teatega, kas ta soovib andmeid lugeda või kirjutada. Pärast andmete edastamist saadab kontroller lõpetamisseisundi, et näidata, et ta on lõpetanud. Pärast seda võib teine seade muutuda kontrolleriks ja andmeid saata või vastu võtta.
 I<sup>2</sup>C-l on kiiruspiirangud, kus on kolm erinevat režiimi, mis töötavad fikseeritud kiirustel. Kõige kiirem on High Speed režiim, mille maksimaalne kiirus on 3,4 Mbps (megabitti sekundis), kuigi väga vähesed seadmed toetavad seda kiirust. Näiteks Raspberry Pi on piiratud kiirusega Fast Mode, mille kiirus on 400 Kbps (kilobitti sekundis). Standard Mode töötab kiirusega 100 Kbps.
@@ -147,7 +147,7 @@ UART hõlmab füüsilist vooluringi, mis võimaldab kahel seadmel suhelda. Igal 
 * Seade 1 saadab andmeid oma Tx-pesast, mida seade 2 võtab vastu oma Rx-pesaga
 * Seade 1 võtab vastu andmeid oma Rx-pesast, mida seade 2 saadab oma Tx-pesast
 
-![UART, kus ühe kiibi Tx-pesa on ühendatud teise kiibi Rx-pesaga ja vastupidi](../../../../../translated_images/uart.d0dbd3fb9e3728c6.et.png)
+![UART, kus ühe kiibi Tx-pesa on ühendatud teise kiibi Rx-pesaga ja vastupidi](../../../../../translated_images/et/uart.d0dbd3fb9e3728c6.png)
 
 > 🎓 Andmed saadetakse üks bitt korraga, mida nimetatakse *järjestikuseks* suhtluseks. Enamik operatsioonisüsteeme ja mikrokontrollereid omavad *järjestikpesi*, st ühendusi, mis suudavad saata ja vastu võtta järjestikandmeid, mis on teie koodile kättesaadavad.
 
@@ -176,7 +176,7 @@ SPI kontrollerid kasutavad 3 juhtme, koos ühe lisajuhtmega perifeeria kohta. Pe
 | SCLK | Järjestikkell | See juhe saadab kellasignaali kiirusel, mille määrab kontroller. |
 | CS   | Kiibi valik | Kontrolleril on mitu juhet, üks perifeeria kohta, ja iga juhe ühendub vastava perifeeria CS juhtmega. |
 
-![SPI ühe kontrolleri ja kahe perifeeriaga](../../../../../translated_images/spi.297431d6f98b386b.et.png)
+![SPI ühe kontrolleri ja kahe perifeeriaga](../../../../../translated_images/et/spi.297431d6f98b386b.png)
 
 CS juhet kasutatakse ühe perifeeria korraga aktiveerimiseks, suheldes COPI ja CIPO juhtmete kaudu. Kui kontroller peab perifeeriat vahetama, deaktiveerib ta CS juhtme, mis on ühendatud praegu aktiivse perifeeriaga, ja seejärel aktiveerib juhtme, mis on ühendatud perifeeriaga, millega ta soovib järgmisena suhelda.
 
@@ -237,13 +237,13 @@ Pinnase niiskust mõõdetakse gravimeetrilise või mahulise veesisalduse abil.
 
 Pinnase niiskuse sensorid mõõdavad elektrilist takistust või mahtuvust - see varieerub mitte ainult pinnase niiskuse, vaid ka pinnase tüübi järgi, kuna pinnase komponendid võivad muuta selle elektrilisi omadusi. Ideaalis tuleks sensorid kalibreerida - see tähendab sensori näitude võrdlemist teaduslikuma lähenemisviisi abil saadud mõõtmistega. Näiteks labor võib arvutada gravimeetrilise pinnase niiskuse, kasutades konkreetse põllu proove paar korda aastas, ja neid numbreid kasutatakse sensori kalibreerimiseks, sobitades sensori näidu gravimeetrilise pinnase niiskusega.
 
-![Graafik pingest vs pinnase niiskusesisaldus](../../../../../translated_images/soil-moisture-to-voltage.df86d80cda158700.et.png)
+![Graafik pingest vs pinnase niiskusesisaldus](../../../../../translated_images/et/soil-moisture-to-voltage.df86d80cda158700.png)
 
 Ülaltoodud graafik näitab, kuidas sensorit kalibreerida. Pinge salvestatakse pinnaseproovi jaoks, mida seejärel mõõdetakse laboris, võrreldes niisket kaalu kuiva kaaluga (mõõtes kaalu märjana, seejärel kuivatades ahjus ja mõõtes kuivana). Kui on tehtud mõned mõõtmised, saab need graafikule joonistada ja punktidele sobitada joone. Seda joont saab seejärel kasutada pinnase niiskuse sensori näitude teisendamiseks IoT-seadme abil tegelikeks pinnase niiskuse mõõtmisteks.
 
 💁 Resistiivsete pinnase niiskuse sensorite puhul pinge suureneb, kui pinnase niiskus suureneb. Mahtuvuslike pinnase niiskuse sensorite puhul pinge väheneb, kui pinnase niiskus suureneb, seega nende graafikud kalduksid allapoole, mitte ülespoole.
 
-![Pinnase niiskuse väärtus, mis on graafikult interpoleeritud](../../../../../translated_images/soil-moisture-to-voltage-with-reading.681cb3e1f8b68caf.et.png)
+![Pinnase niiskuse väärtus, mis on graafikult interpoleeritud](../../../../../translated_images/et/soil-moisture-to-voltage-with-reading.681cb3e1f8b68caf.png)
 
 Ülaltoodud graafik näitab pinnase niiskuse sensori pingemõõtmist ja järgides seda graafiku joonele, saab arvutada tegeliku pinnase niiskuse.
 

@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # 位置追蹤
 
-![本課程的手繪筆記概覽](../../../../../translated_images/lesson-11.9fddbac4b664c6d50ab7ac9bb32f1fc3f945f03760e72f7f43938073762fb017.hk.jpg)
+![本課程的手繪筆記概覽](../../../../../translated_images/hk/lesson-11.9fddbac4b664c6d50ab7ac9bb32f1fc3f945f03760e72f7f43938073762fb017.jpg)
 
 > 手繪筆記由 [Nitya Narasimhan](https://github.com/nitya) 提供。點擊圖片查看更大版本。
 
@@ -72,13 +72,13 @@ CO_OP_TRANSLATOR_METADATA:
 
 > 💁 沒有人真正知道為什麼圓被分為 360 度。[維基百科上的角度頁面](https://wikipedia.org/wiki/Degree_(angle))介紹了一些可能的原因。
 
-![緯度線從北極的 90°，到赤道的 0°，再到南極的 -90°](../../../../../translated_images/latitude-lines.11d8d91dfb2014a57437272d7db7fd6607243098e8685f06e0c5f1ec984cb7eb.hk.png)
+![緯度線從北極的 90°，到赤道的 0°，再到南極的 -90°](../../../../../translated_images/hk/latitude-lines.11d8d91dfb2014a57437272d7db7fd6607243098e8685f06e0c5f1ec984cb7eb.png)
 
 緯度是通過圍繞地球並與赤道平行的線來測量的，將北半球和南半球分為各 90°。赤道為 0°，北極為 90°，也稱為北緯 90°，南極為 -90°，或南緯 90°。
 
 經度是測量東西方向的度數。經度的 0° 起點稱為*本初子午線*，於 1884 年被定義為一條從北極到南極的線，通過[英國格林威治皇家天文台](https://wikipedia.org/wiki/Royal_Observatory,_Greenwich)。
 
-![經度線從本初子午線以西的 -180°，到本初子午線的 0°，再到以東的 180°](../../../../../translated_images/longitude-meridians.ab4ef1c91c064586b0185a3c8d39e585903696c6a7d28c098a93a629cddb5d20.hk.png)
+![經度線從本初子午線以西的 -180°，到本初子午線的 0°，再到以東的 180°](../../../../../translated_images/hk/longitude-meridians.ab4ef1c91c064586b0185a3c8d39e585903696c6a7d28c098a93a629cddb5d20.png)
 
 > 🎓 子午線是一條從北極到南極的假想直線，形成一個半圓。
 
@@ -109,7 +109,7 @@ CO_OP_TRANSLATOR_METADATA:
 * 緯度為 47.6423109（赤道以北 47.6423109 度）
 * 經度為 -122.1390293（本初子午線以西 122.1390293 度）。
 
-![微軟總部位於 47.6423109,-122.117198](../../../../../translated_images/microsoft-gps-location-world.a321d481b010f6adfcca139b2ba0adc53b79f58a540495b8e2ce7f779ea64bfe.hk.png)
+![微軟總部位於 47.6423109,-122.117198](../../../../../translated_images/hk/microsoft-gps-location-world.a321d481b010f6adfcca139b2ba0adc53b79f58a540495b8e2ce7f779ea64bfe.png)
 
 ## 全球定位系統（GPS）
 
@@ -121,7 +121,7 @@ GPS 系統的工作原理是多顆衛星發送信號，包含每顆衛星的當�
 
 > 💁 GPS 感應器需要天線來檢測無線電波。內建於卡車和汽車的 GPS 天線通常安裝在擋風玻璃或車頂，以獲得良好的信號。如果您使用的是單獨的 GPS 系統，例如智能手機或物聯網設備，則需要確保內建於 GPS 系統或手機中的天線能夠清晰地看到天空，例如安裝在擋風玻璃上。
 
-![通過知道感應器與多顆衛星的距離，可以計算出位置](../../../../../translated_images/gps-satellites.04acf1148fe25fbf1586bc2e8ba698e8d79b79a50c36824b38417dd13372b90f.hk.png)
+![通過知道感應器與多顆衛星的距離，可以計算出位置](../../../../../translated_images/hk/gps-satellites.04acf1148fe25fbf1586bc2e8ba698e8d79b79a50c36824b38417dd13372b90f.png)
 
 GPS 衛星環繞地球運行，並非固定在感應器上方，因此位置數據包括海拔高度（相對於海平面）以及緯度和經度。
 

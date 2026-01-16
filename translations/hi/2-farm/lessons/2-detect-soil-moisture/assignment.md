@@ -29,14 +29,14 @@ CO_OP_TRANSLATOR_METADATA:
 
 ग्रेविमेट्रिक मिट्टी की नमी की गणना इस प्रकार की जाती है:
 
-![मिट्टी की नमी % = गीली मिट्टी का वजन - सूखी मिट्टी का वजन, ÷ सूखी मिट्टी का वजन, × 100](../../../../../translated_images/gsm-calculation.6da38c6201eec14e7573bb2647aa18892883193553d23c9d77e5dc681522dfb2.hi.png)
+![मिट्टी की नमी % = गीली मिट्टी का वजन - सूखी मिट्टी का वजन, ÷ सूखी मिट्टी का वजन, × 100](../../../../../translated_images/hi/gsm-calculation.6da38c6201eec14e7573bb2647aa18892883193553d23c9d77e5dc681522dfb2.png)
 
 * W - गीली मिट्टी का वजन  
 * W - सूखी मिट्टी का वजन  
 
 उदाहरण के लिए, मान लें कि आपके पास एक मिट्टी का नमूना है जिसका वजन गीला होने पर 212g और सूखा होने पर 197g है।
 
-![गणना भरी हुई](../../../../../translated_images/gsm-calculation-example.99f9803b4f29e97668e7c15412136c0c399ab12dbba0b89596fdae9d8aedb6fb.hi.png)
+![गणना भरी हुई](../../../../../translated_images/hi/gsm-calculation-example.99f9803b4f29e97668e7c15412136c0c399ab12dbba0b89596fdae9d8aedb6fb.png)
 
 * W = 212g  
 * W = 197g  

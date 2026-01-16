@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Verificar inventario desde un dispositivo IoT
 
-![Una vista general en sketchnote de esta lección](../../../../../translated_images/lesson-20.0211df9551a8abb300fc8fcf7dc2789468dea2eabe9202273ac077b0ba37f15e.es.jpg)
+![Una vista general en sketchnote de esta lección](../../../../../translated_images/es/lesson-20.0211df9551a8abb300fc8fcf7dc2789468dea2eabe9202273ac077b0ba37f15e.jpg)
 
 > Sketchnote por [Nitya Narasimhan](https://github.com/nitya). Haz clic en la imagen para una versión más grande.
 
@@ -39,7 +39,7 @@ Los detectores de objetos pueden ser utilizados para verificar inventario, ya se
 
 Por ejemplo, si una cámara apunta a un conjunto de estantes que pueden contener 8 latas de pasta de tomate, y un detector de objetos solo detecta 7 latas, entonces falta una y necesita ser reabastecida.
 
-![7 latas de pasta de tomate en un estante, 4 en la fila superior, 3 en la inferior](../../../../../translated_images/stock-7-cans-tomato-paste.f86059cc573d7bec.es.png)
+![7 latas de pasta de tomate en un estante, 4 en la fila superior, 3 en la inferior](../../../../../translated_images/es/stock-7-cans-tomato-paste.f86059cc573d7bec.webp)
 
 En la imagen anterior, un detector de objetos ha detectado 7 latas de pasta de tomate en un estante que puede contener 8 latas. No solo puede el dispositivo IoT enviar una notificación de la necesidad de reabastecer, sino que incluso puede dar una indicación de la ubicación del artículo faltante, información importante si estás utilizando robots para reabastecer estantes.
 
@@ -51,7 +51,7 @@ A veces el inventario incorrecto puede estar en los estantes. Esto podría ser u
 
 La detección de objetos puede ser utilizada para detectar artículos inesperados, alertando nuevamente a un humano o robot para devolver el artículo tan pronto como sea detectado.
 
-![Una lata de maíz bebé fuera de lugar en el estante de pasta de tomate](../../../../../translated_images/stock-rogue-corn.be1f3ada8c457854.es.png)
+![Una lata de maíz bebé fuera de lugar en el estante de pasta de tomate](../../../../../translated_images/es/stock-rogue-corn.be1f3ada8c457854.webp)
 
 En la imagen anterior, una lata de maíz bebé ha sido colocada en el estante junto a la pasta de tomate. El detector de objetos ha detectado esto, permitiendo que el dispositivo IoT notifique a un humano o robot para devolver la lata a su ubicación correcta.
 
@@ -71,7 +71,7 @@ Las iteraciones se publican desde el portal de Custom Vision.
 
 1. Haz clic en el botón **Publish** para la iteración.
 
-    ![El botón de publicar](../../../../../translated_images/custom-vision-object-detector-publish-button.34ee379fc650ccb9856c3868d0003f413b9529f102fc73c37168c98d721cc293.es.png)
+    ![El botón de publicar](../../../../../translated_images/es/custom-vision-object-detector-publish-button.34ee379fc650ccb9856c3868d0003f413b9529f102fc73c37168c98d721cc293.png)
 
 1. En el cuadro de diálogo *Publish Model*, configura el *Prediction resource* al recurso `stock-detector-prediction` que creaste en la última lección. Deja el nombre como `Iteration2`, y selecciona el botón **Publish**.
 
@@ -85,7 +85,7 @@ Las iteraciones se publican desde el portal de Custom Vision.
 
     También toma una copia del valor *Prediction-Key*. Esta es una clave segura que debes pasar cuando llames al modelo. Solo las aplicaciones que pasen esta clave pueden usar el modelo, cualquier otra aplicación será rechazada.
 
-    ![El cuadro de diálogo de la API de predicción mostrando la URL y la clave](../../../../../translated_images/custom-vision-prediction-key-endpoint.30c569ffd0338864f319911f052d5e9b8c5066cb0800a26dd6f7ff5713130ad8.es.png)
+    ![El cuadro de diálogo de la API de predicción mostrando la URL y la clave](../../../../../translated_images/es/custom-vision-prediction-key-endpoint.30c569ffd0338864f319911f052d5e9b8c5066cb0800a26dd6f7ff5713130ad8.png)
 
 ✅ Cuando se publica una nueva iteración, tendrá un nombre diferente. ¿Cómo crees que podrías cambiar la iteración que está utilizando un dispositivo IoT?
 
@@ -104,7 +104,7 @@ Cuando usas el detector de objetos, no solo obtienes los objetos detectados con 
 
 Los resultados de una predicción en la pestaña **Predictions** en Custom Vision tienen las cajas delimitadoras dibujadas en la imagen que se envió para la predicción.
 
-![4 latas de pasta de tomate en un estante con predicciones para las 4 detecciones de 35.8%, 33.5%, 25.7% y 16.6%](../../../../../translated_images/custom-vision-stock-prediction.942266ab1bcca3410ecdf23643b9f5f570cfab2345235074e24c51f285777613.es.png)
+![4 latas de pasta de tomate en un estante con predicciones para las 4 detecciones de 35.8%, 33.5%, 25.7% y 16.6%](../../../../../translated_images/es/custom-vision-stock-prediction.942266ab1bcca3410ecdf23643b9f5f570cfab2345235074e24c51f285777613.png)
 
 En la imagen anterior, se detectaron 4 latas de pasta de tomate. En los resultados, se superpone un cuadro rojo para cada objeto que fue detectado en la imagen, indicando la caja delimitadora para la imagen.
 
@@ -112,7 +112,7 @@ En la imagen anterior, se detectaron 4 latas de pasta de tomate. En los resultad
 
 Las cajas delimitadoras se definen con 4 valores: top, left, height y width. Estos valores están en una escala de 0-1, representando las posiciones como un porcentaje del tamaño de la imagen. El origen (la posición 0,0) es la esquina superior izquierda de la imagen, por lo que el valor top es la distancia desde la parte superior, y la parte inferior de la caja delimitadora es el top más la height.
 
-![Una caja delimitadora alrededor de una lata de pasta de tomate](../../../../../translated_images/bounding-box.1420a7ea0d3d15f71e1ffb5cf4b2271d184fac051f990abc541975168d163684.es.png)
+![Una caja delimitadora alrededor de una lata de pasta de tomate](../../../../../translated_images/es/bounding-box.1420a7ea0d3d15f71e1ffb5cf4b2271d184fac051f990abc541975168d163684.png)
 
 La imagen anterior tiene 600 píxeles de ancho y 800 píxeles de alto. La caja delimitadora comienza a 320 píxeles hacia abajo, dando un valor top de 0.4 (800 x 0.4 = 320). Desde la izquierda, la caja delimitadora comienza a 240 píxeles hacia adentro, dando un valor left de 0.4 (600 x 0.4 = 240). La altura de la caja delimitadora es de 240 píxeles, dando un valor height de 0.3 (800 x 0.3 = 240). El ancho de la caja delimitadora es de 120 píxeles, dando un valor width de 0.2 (600 x 0.2 = 120).
 
@@ -127,7 +127,7 @@ Usar valores porcentuales de 0-1 significa que, sin importar el tamaño al que s
 
 Puedes usar las cajas delimitadoras combinadas con las probabilidades para evaluar qué tan precisa es una detección. Por ejemplo, un detector de objetos puede detectar múltiples objetos que se superponen, por ejemplo, detectando una lata dentro de otra. Tu código podría revisar las cajas delimitadoras, entender que esto es imposible, y ignorar cualquier objeto que tenga una superposición significativa con otros objetos.
 
-![Dos cajas delimitadoras superpuestas en una lata de pasta de tomate](../../../../../translated_images/overlap-object-detection.d431e03cae75072a2760430eca7f2c5fdd43045bfd72dadcbf12711f7cd6c2ae.es.png)
+![Dos cajas delimitadoras superpuestas en una lata de pasta de tomate](../../../../../translated_images/es/overlap-object-detection.d431e03cae75072a2760430eca7f2c5fdd43045bfd72dadcbf12711f7cd6c2ae.png)
 
 En el ejemplo anterior, una caja delimitadora indicó una lata de pasta de tomate predicha con un 78.3%. Una segunda caja delimitadora es ligeramente más pequeña y está dentro de la primera caja delimitadora con una probabilidad de 64.3%. Tu código puede revisar las cajas delimitadoras, ver que se superponen completamente, e ignorar la probabilidad más baja ya que no hay forma de que una lata esté dentro de otra.
 

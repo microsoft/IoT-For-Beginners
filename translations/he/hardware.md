@@ -21,7 +21,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 ## רכישת הערכות
 
-![לוגו של Seeed Studios](../../translated_images/seeed-logo.74732b6b482b6e8e.he.png)
+![לוגו של Seeed Studios](../../translated_images/he/seeed-logo.74732b6b482b6e8e.png)
 
 Seeed Studios באדיבותם סיפקו את כל החומרה כערכות קלות לרכישה:
 
@@ -29,13 +29,13 @@ Seeed Studios באדיבותם סיפקו את כל החומרה כערכות ק
 
 **[IoT למתחילים עם Seeed ו-Microsoft - ערכת התחלה של Wio Terminal](https://www.seeedstudio.com/IoT-for-beginners-with-Seeed-and-Microsoft-Wio-Terminal-Starter-Kit-p-5006.html)**
 
-[![ערכת החומרה של Wio Terminal](../../translated_images/wio-hardware-kit.4c70c48b85e4283a.he.png)](https://www.seeedstudio.com/IoT-for-beginners-with-Seeed-and-Microsoft-Wio-Terminal-Starter-Kit-p-5006.html)
+[![ערכת החומרה של Wio Terminal](../../translated_images/he/wio-hardware-kit.4c70c48b85e4283a.png)](https://www.seeedstudio.com/IoT-for-beginners-with-Seeed-and-Microsoft-Wio-Terminal-Starter-Kit-p-5006.html)
 
 ### Raspberry Pi
 
 **[IoT למתחילים עם Seeed ו-Microsoft - ערכת התחלה של Raspberry Pi 4](https://www.seeedstudio.com/IoT-for-beginners-with-Seeed-and-Microsoft-Raspberry-Pi-Starter-Kit-p-5004.html)**
 
-[![ערכת החומרה של Raspberry Pi Terminal](../../translated_images/pi-hardware-kit.26dbadaedb7dd44c73b0131d5d68ea29472ed0a9744f90d5866c6d82f2d16380.he.png)](https://www.seeedstudio.com/IoT-for-beginners-with-Seeed-and-Microsoft-Raspberry-Pi-Starter-Kit-p-5004.html)
+[![ערכת החומרה של Raspberry Pi Terminal](../../translated_images/he/pi-hardware-kit.26dbadaedb7dd44c73b0131d5d68ea29472ed0a9744f90d5866c6d82f2d16380.png)](https://www.seeedstudio.com/IoT-for-beginners-with-Seeed-and-Microsoft-Raspberry-Pi-Starter-Kit-p-5004.html)
 
 ## Arduino
 

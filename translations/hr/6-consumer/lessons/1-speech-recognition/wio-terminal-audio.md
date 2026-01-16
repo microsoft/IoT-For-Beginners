@@ -19,7 +19,7 @@ Ugrađeni mikrofon snima analogni signal, koji se zatim pretvara u digitalni sig
 
 ✅ Pročitajte više o DMA na [stranici o izravnom pristupu memoriji na Wikipediji](https://wikipedia.org/wiki/Direct_memory_access).
 
-![Zvuk s mikrofona ide u ADC, zatim u DMAC. DMAC zapisuje u jedan međuspremnik. Kada se taj međuspremnik napuni, obrađuje se, a DMAC zapisuje u drugi međuspremnik](../../../../../translated_images/dmac-adc-buffers.4509aee49145c90bc2e1be472b8ed2ddfcb2b6a81ad3e559114aca55f5fff759.hr.png)
+![Zvuk s mikrofona ide u ADC, zatim u DMAC. DMAC zapisuje u jedan međuspremnik. Kada se taj međuspremnik napuni, obrađuje se, a DMAC zapisuje u drugi međuspremnik](../../../../../translated_images/hr/dmac-adc-buffers.4509aee49145c90bc2e1be472b8ed2ddfcb2b6a81ad3e559114aca55f5fff759.png)
 
 DMAC može snimati zvuk s ADC-a u fiksnim intervalima, primjerice 16.000 puta u sekundi za zvuk od 16 kHz. Može zapisivati te snimljene podatke u unaprijed dodijeljeni memorijski međuspremnik, a kada se on napuni, obavještava vaš kod da ga obradi. Korištenje ovog međuspremnika može odgoditi snimanje zvuka, ali možete postaviti više međuspremnika. DMAC zapisuje u međuspremnik 1, a kada se on napuni, obavještava vaš kod da obradi međuspremnik 1, dok DMAC zapisuje u međuspremnik 2. Kada se međuspremnik 2 napuni, obavještava vaš kod i vraća se na zapisivanje u međuspremnik 1. Na taj način, sve dok obrađujete svaki međuspremnik u kraćem vremenu nego što je potrebno da se jedan napuni, nećete izgubiti podatke.
 

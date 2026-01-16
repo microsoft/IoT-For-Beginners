@@ -47,11 +47,11 @@ Add hozzá a páratartalom- és hőmérséklet-érzékelőket a CounterFit alkal
 
     1. Válaszd ki az **Add** gombot, hogy létrehozd a páratartalom-érzékelőt az 5-ös lábon.
 
-    ![A páratartalom-érzékelő beállításai](../../../../../translated_images/counterfit-create-humidity-sensor.2750e27b6f30e09cf4e22101defd5252710717620816ab41ba688f91f757c49a.hu.png)
+    ![A páratartalom-érzékelő beállításai](../../../../../translated_images/hu/counterfit-create-humidity-sensor.2750e27b6f30e09cf4e22101defd5252710717620816ab41ba688f91f757c49a.png)
 
     A páratartalom-érzékelő létrejön, és megjelenik az érzékelők listájában.
 
-    ![A páratartalom-érzékelő létrehozva](../../../../../translated_images/counterfit-humidity-sensor.7b12f7f339e430cb26c8211d2dba4ef75261b353a01da0932698b5bebd693f27.hu.png)
+    ![A páratartalom-érzékelő létrehozva](../../../../../translated_images/hu/counterfit-humidity-sensor.7b12f7f339e430cb26c8211d2dba4ef75261b353a01da0932698b5bebd693f27.png)
 
 1. Hozz létre egy hőmérséklet-érzékelőt:
 
@@ -63,11 +63,11 @@ Add hozzá a páratartalom- és hőmérséklet-érzékelőket a CounterFit alkal
 
     1. Válaszd ki az **Add** gombot, hogy létrehozd a hőmérséklet-érzékelőt a 6-os lábon.
 
-    ![A hőmérséklet-érzékelő beállításai](../../../../../translated_images/counterfit-create-temperature-sensor.199350ed34f7343d79dccbe95eaf6c11d2121f03d1c35ab9613b330c23f39b29.hu.png)
+    ![A hőmérséklet-érzékelő beállításai](../../../../../translated_images/hu/counterfit-create-temperature-sensor.199350ed34f7343d79dccbe95eaf6c11d2121f03d1c35ab9613b330c23f39b29.png)
 
     A hőmérséklet-érzékelő létrejön, és megjelenik az érzékelők listájában.
 
-    ![A hőmérséklet-érzékelő létrehozva](../../../../../translated_images/counterfit-temperature-sensor.f0560236c96a9016bafce7f6f792476fe3367bc6941a1f7d5811d144d4bcbfff.hu.png)
+    ![A hőmérséklet-érzékelő létrehozva](../../../../../translated_images/hu/counterfit-temperature-sensor.f0560236c96a9016bafce7f6f792476fe3367bc6941a1f7d5811d144d4bcbfff.png)
 
 ## A hőmérséklet-érzékelő alkalmazás programozása
 

@@ -57,7 +57,7 @@ Microsoftin Azure Cloud Advocates tarjoaa mielellään 12 viikon, 24 oppitunnin 
 
 Projektit kattavat ruoan matkan tilalta pöytään. Tämä sisältää viljelyn, logistiikan, valmistuksen, vähittäiskaupan ja kuluttajan - kaikki suosittuja teollisuudenaloja IoT-laitteille.
 
-![Kurssin tiekartta, jossa 24 oppituntia kattaen johdannon, viljelyn, kuljetuksen, prosessoinnin, vähittäiskaupan ja ruoanlaiton](../../translated_images/Roadmap.bb1dec285dda0eda.fi.jpg)
+![Kurssin tiekartta, jossa 24 oppituntia kattaen johdannon, viljelyn, kuljetuksen, prosessoinnin, vähittäiskaupan ja ruoanlaiton](../../translated_images/fi/Roadmap.bb1dec285dda0eda.jpg)
 
 > Sketchnote [Nitya Narasimhanilta](https://github.com/nitya). Klikkaa kuvaa nähdäksesi suuremman version.
 

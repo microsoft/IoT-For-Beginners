@@ -25,13 +25,13 @@ A Grove hőmérséklet-érzékelő csatlakoztatható a Raspberry Pi-hoz.
 
 Csatlakoztasd a hőmérséklet-érzékelőt.
 
-![Egy Grove hőmérséklet-érzékelő](../../../../../translated_images/grove-dht11.07f8eafceee170043efbb53e1d15722bd4e00fbaa9ff74290b57e9f66eb82c17.hu.png)
+![Egy Grove hőmérséklet-érzékelő](../../../../../translated_images/hu/grove-dht11.07f8eafceee170043efbb53e1d15722bd4e00fbaa9ff74290b57e9f66eb82c17.png)
 
 1. Illeszd be a Grove kábel egyik végét a páratartalom- és hőmérséklet-érzékelő aljzatába. Csak egyféleképpen illeszkedik.
 
 1. Kapcsold ki a Raspberry Pi-t, majd csatlakoztasd a Grove kábel másik végét a Grove Base hat-on található **D5** jelzésű digitális aljzathoz, amely a Pi-hoz van csatlakoztatva. Ez az aljzat a második balról, a GPIO tüskék melletti aljzatsoron.
 
-![A Grove hőmérséklet-érzékelő az A0 aljzathoz csatlakoztatva](../../../../../translated_images/pi-temperature-sensor.3ff82fff672c8e565ef25a39d26d111de006b825a7e0867227ef4e7fbff8553c.hu.png)
+![A Grove hőmérséklet-érzékelő az A0 aljzathoz csatlakoztatva](../../../../../translated_images/hu/pi-temperature-sensor.3ff82fff672c8e565ef25a39d26d111de006b825a7e0867227ef4e7fbff8553c.png)
 
 ## Programozd a hőmérséklet-érzékelőt
 

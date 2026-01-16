@@ -25,13 +25,13 @@ CO_OP_TRANSLATOR_METADATA:
 
 लाइट सेंसर को कनेक्ट करें।
 
-![एक Grove लाइट सेंसर](../../../../../translated_images/grove-light-sensor.b8127b7c434e632d6bcdb57587a14e9ef69a268a22df95d08628f62b8fa5505c.hi.png)
+![एक Grove लाइट सेंसर](../../../../../translated_images/hi/grove-light-sensor.b8127b7c434e632d6bcdb57587a14e9ef69a268a22df95d08628f62b8fa5505c.png)
 
 1. Grove केबल के एक सिरे को लाइट सेंसर मॉड्यूल के सॉकेट में डालें। यह केवल एक ही दिशा में जाएगा।
 
 1. रास्पबेरी पाई को बंद करके, Grove केबल के दूसरे सिरे को Grove Base हैट पर **A0** नामक एनालॉग सॉकेट में कनेक्ट करें। यह सॉकेट GPIO पिन के पास वाले सॉकेट की पंक्ति में दाईं ओर से दूसरा है।
 
-![सॉकेट A0 से जुड़ा Grove लाइट सेंसर](../../../../../translated_images/pi-light-sensor.66cc1e31fa48cd7d5f23400d4b2119aa41508275cb7c778053a7923b4e972d7e.hi.png)
+![सॉकेट A0 से जुड़ा Grove लाइट सेंसर](../../../../../translated_images/hi/pi-light-sensor.66cc1e31fa48cd7d5f23400d4b2119aa41508275cb7c778053a7923b4e972d7e.png)
 
 ## लाइट सेंसर को प्रोग्राम करें
 

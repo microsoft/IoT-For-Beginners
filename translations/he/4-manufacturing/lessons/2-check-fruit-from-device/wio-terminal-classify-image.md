@@ -217,7 +217,7 @@ CO_OP_TRANSLATOR_METADATA:
 
     תוכלו לראות את התמונה שצולמה, ואת הערכים הללו בלשונית **Predictions** ב-Custom Vision.
 
-    ![בננה ב-Custom Vision עם תחזית של 56.8% בשלה ו-43.1% לא בשלה](../../../../../translated_images/custom-vision-banana-prediction.30cdff4e1d72db5d9a0be0193790a47c2b387da034e12dc1314dd57ca2131b59.he.png)
+    ![בננה ב-Custom Vision עם תחזית של 56.8% בשלה ו-43.1% לא בשלה](../../../../../translated_images/he/custom-vision-banana-prediction.30cdff4e1d72db5d9a0be0193790a47c2b387da034e12dc1314dd57ca2131b59.png)
 
 > 💁 תוכלו למצוא את הקוד הזה בתיקייה [code-classify/wio-terminal](../../../../../4-manufacturing/lessons/2-check-fruit-from-device/code-classify/wio-terminal).
 

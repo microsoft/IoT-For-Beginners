@@ -25,7 +25,7 @@ Kaamera saab Raspberry Pi-ga ühendada lintkaabli abil.
 
 ### Ülesanne - kaamera ühendamine
 
-![Raspberry Pi kaamera](../../../../../translated_images/pi-camera-module.4278753c31bd6e757aa2b858be97d72049f71616278cefe4fb5abb485b40a078.et.png)
+![Raspberry Pi kaamera](../../../../../translated_images/et/pi-camera-module.4278753c31bd6e757aa2b858be97d72049f71616278cefe4fb5abb485b40a078.png)
 
 1. Lülitage Pi välja.
 
@@ -33,17 +33,17 @@ Kaamera saab Raspberry Pi-ga ühendada lintkaabli abil.
 
     Animatsiooni, mis näitab, kuidas klambrit avada ja kaablit sisestada, leiate [Raspberry Pi kaameramooduli dokumentatsioonist](https://projects.raspberrypi.org/en/projects/getting-started-with-picamera/2).
 
-    ![Lintkaabel sisestatud kaameramoodulisse](../../../../../translated_images/pi-camera-ribbon-cable.0bf82acd251611c21ac616f082849413e2b322a261d0e4f8fec344248083b07e.et.png)
+    ![Lintkaabel sisestatud kaameramoodulisse](../../../../../translated_images/et/pi-camera-ribbon-cable.0bf82acd251611c21ac616f082849413e2b322a261d0e4f8fec344248083b07e.png)
 
 1. Eemaldage Grove Base Hat Pi-lt.
 
 1. Viige lintkaabel läbi Grove Base Hat kaamera ava. Veenduge, et kaabli sinine külg oleks suunatud analoogportide **A0**, **A1** jne poole.
 
-    ![Lintkaabel läbimas Grove Base Hat'i](../../../../../translated_images/grove-base-hat-ribbon-cable.501fed202fcf73b11b2b68f6d246189f7d15d3e4423c572ddee79d77b4632b47.et.png)
+    ![Lintkaabel läbimas Grove Base Hat'i](../../../../../translated_images/et/grove-base-hat-ribbon-cable.501fed202fcf73b11b2b68f6d246189f7d15d3e4423c572ddee79d77b4632b47.png)
 
 1. Sisestage lintkaabel Pi kaamerapistikusse. Tõmmake jälle must plastklamber üles, sisestage kaabel ja lükake klamber tagasi. Kaabli sinine külg peaks olema suunatud USB- ja Ethernet-pistikute poole.
 
-    ![Lintkaabel ühendatud Pi kaamerapistikuga](../../../../../translated_images/pi-camera-socket-ribbon-cable.a18309920b11800911082ed7aa6fb28e6d9be3a022e4079ff990016cae3fca10.et.png)
+    ![Lintkaabel ühendatud Pi kaamerapistikuga](../../../../../translated_images/et/pi-camera-socket-ribbon-cable.a18309920b11800911082ed7aa6fb28e6d9be3a022e4079ff990016cae3fca10.png)
 
 1. Paigaldage Grove Base Hat tagasi.
 
@@ -110,7 +110,7 @@ Programmeerige seade.
 
     Rida `camera.rotation = 0` määrab pildi pööramise. Lintkaabel tuleb kaamera alt, kuid kui teie kaamera on pööratud, et hõlbustada objekti suunamist, mida soovite klassifitseerida, saate seda rida muuta vastavalt pöördenurkadele.
 
-    ![Kaamera rippumas joogipurgi kohal](../../../../../translated_images/pi-camera-upside-down.5376961ba31459883362124152ad6b823d5ac5fc14e85f317e22903bd681c2b6.et.png)
+    ![Kaamera rippumas joogipurgi kohal](../../../../../translated_images/et/pi-camera-upside-down.5376961ba31459883362124152ad6b823d5ac5fc14e85f317e22903bd681c2b6.png)
 
     Näiteks, kui riputate lintkaabli üle millegi nii, et see on kaamera ülaosas, määrake pööramine väärtuseks 180:
 

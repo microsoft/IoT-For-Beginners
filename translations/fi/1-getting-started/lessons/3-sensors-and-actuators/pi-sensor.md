@@ -25,13 +25,13 @@ Grove-valosensori, jota käytetään valotason havaitsemiseen, täytyy liittää
 
 Liitä valosensori
 
-![Grove-valosensori](../../../../../translated_images/grove-light-sensor.b8127b7c434e632d6bcdb57587a14e9ef69a268a22df95d08628f62b8fa5505c.fi.png)
+![Grove-valosensori](../../../../../translated_images/fi/grove-light-sensor.b8127b7c434e632d6bcdb57587a14e9ef69a268a22df95d08628f62b8fa5505c.png)
 
 1. Työnnä Grove-kaapelin toinen pää valosensorimoduulin liittimeen. Se menee sisään vain yhdellä tavalla.
 
 1. Kun Raspberry Pi on sammutettu, liitä Grove-kaapelin toinen pää Grove Base -hatun analogiseen liittimeen, joka on merkitty **A0**. Tämä liitin on toinen oikealta GPIO-pinnien vieressä olevassa liitinrivissä.
 
-![Grove-valosensori liitettynä liittimeen A0](../../../../../translated_images/pi-light-sensor.66cc1e31fa48cd7d5f23400d4b2119aa41508275cb7c778053a7923b4e972d7e.fi.png)
+![Grove-valosensori liitettynä liittimeen A0](../../../../../translated_images/fi/pi-light-sensor.66cc1e31fa48cd7d5f23400d4b2119aa41508275cb7c778053a7923b4e972d7e.png)
 
 ## Ohjelmoi valosensori
 

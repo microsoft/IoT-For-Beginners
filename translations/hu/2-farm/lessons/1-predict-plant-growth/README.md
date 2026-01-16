@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 ## Növényi növekedés előrejelzése IoT segítségével
 
-![A lecke áttekintése sketchnote formában](../../../../../translated_images/lesson-5.42b234299279d263143148b88ab4583861a32ddb03110c6c1120e41bb88b2592.hu.jpg)
+![A lecke áttekintése sketchnote formában](../../../../../translated_images/hu/lesson-5.42b234299279d263143148b88ab4583861a32ddb03110c6c1120e41bb88b2592.jpg)
 
 > Sketchnote készítette: [Nitya Narasimhan](https://github.com/nitya). Kattints a képre a nagyobb verzióért.
 
@@ -65,7 +65,7 @@ Minden növényfajnak különböző értékei vannak az alap-, optimális és ma
 
 ✅ Kutass egy kicsit! A kertedben, iskoládban vagy helyi parkodban található növények esetében próbáld meg megtalálni az alap hőmérsékletet.
 
-![Egy grafikon, amely a növekedési ütemet mutatja a hőmérséklet emelkedésével, majd csökkenésével, amikor a hőmérséklet túl magas lesz](../../../../../translated_images/plant-growth-temp-graph.c6d69c9478e6ca83.hu.png)
+![Egy grafikon, amely a növekedési ütemet mutatja a hőmérséklet emelkedésével, majd csökkenésével, amikor a hőmérséklet túl magas lesz](../../../../../translated_images/hu/plant-growth-temp-graph.c6d69c9478e6ca83.png)
 
 A fenti grafikon egy példát mutat a növekedési ütem és a hőmérséklet közötti összefüggésre. Az alap hőmérsékletig nincs növekedés. A növekedési ütem az optimális hőmérsékletig növekszik, majd a csúcs elérése után csökken. 
 
@@ -91,7 +91,7 @@ Ez a kód megnyitja a CSV fájlt, majd hozzáfűz egy új sort a végéhez. A so
 
     
 > 💁 Ha Virtuális IoT Eszközt használ, jelölje be a véletlenszerű jelölőnégyzetet, és állítson be egy tartományt, hogy elkerülje ugyanazon hőmérséklet visszatérését minden alkalommal, amikor a hőmérsékleti érték megjelenik.
-    ![Jelölje be a véletlenszerű jelölőnégyzetet, és állítson be egy tartományt](../../../../../translated_images/select-the-random-checkbox-and-set-a-range.32cf4bc7c12e797f.hu.png) 
+    ![Jelölje be a véletlenszerű jelölőnégyzetet, és állítson be egy tartományt](../../../../../translated_images/hu/select-the-random-checkbox-and-set-a-range.32cf4bc7c12e797f.png) 
 
     > 💁 Ha egy teljes napig szeretné futtatni, akkor győződjön meg arról, hogy a számítógép, amelyen a szerver kódja fut, nem megy alvó módba, akár az energia-beállítások megváltoztatásával, akár valami hasonló futtatásával, mint [ez a Python script, amely aktívan tartja a rendszert](https://github.com/jaqsparow/keep-system-active).
     
@@ -111,7 +111,7 @@ A lépések ehhez manuálisan:
 
 Például, ha a napi legmagasabb hőmérséklet 25°C, a legalacsonyabb pedig 12°C:
 
-![GDD = 25 + 12 osztva 2-vel, majd az eredményből kivonva 10, ami 8.5](../../../../../translated_images/gdd-calculation-strawberries.59f57db94b22adb8ff6efb951ace33af104a1c6ccca3ffb0f8169c14cb160c90.hu.png)
+![GDD = 25 + 12 osztva 2-vel, majd az eredményből kivonva 10, ami 8.5](../../../../../translated_images/hu/gdd-calculation-strawberries.59f57db94b22adb8ff6efb951ace33af104a1c6ccca3ffb0f8169c14cb160c90.png)
 
 * 25 + 12 = 37
 * 37 / 2 = 18.5

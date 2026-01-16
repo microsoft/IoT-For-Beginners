@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # הפעלת זיהוי איכות פירות באמצעות חיישן
 
-![סקיצה של השיעור](../../../../../translated_images/lesson-18.92c32ed1d354caa5a54baa4032cf0b172d4655e8e326ad5d46c558a0def15365.he.jpg)
+![סקיצה של השיעור](../../../../../translated_images/he/lesson-18.92c32ed1d354caa5a54baa4032cf0b172d4655e8e326ad5d46c558a0def15365.jpg)
 
 > סקיצה מאת [ניטיה נאראסימן](https://github.com/nitya). לחצו על התמונה לגרסה גדולה יותר.
 
@@ -48,7 +48,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 ### ארכיטקטורת IoT לדוגמה
 
-![ארכיטקטורת IoT לדוגמה](../../../../../translated_images/iot-reference-architecture.2278b98b55c6d4e89bde18eada3688d893861d43507641804dd2f9d3079cfaa0.he.png)
+![ארכיטקטורת IoT לדוגמה](../../../../../translated_images/he/iot-reference-architecture.2278b98b55c6d4e89bde18eada3688d893861d43507641804dd2f9d3079cfaa0.png)
 
 התרשים לעיל מציג ארכיטקטורת IoT לדוגמה.
 
@@ -58,7 +58,7 @@ CO_OP_TRANSLATOR_METADATA:
 * **תובנות** מגיעות מיישומים ללא שרת או מניתוחים על נתונים מאוחסנים.
 * **פעולות** יכולות להיות פקודות שנשלחות למכשירים או ויזואליזציה של נתונים שמאפשרת לבני אדם לקבל החלטות.
 
-![ארכיטקטורת IoT לדוגמה](../../../../../translated_images/iot-reference-architecture-azure.0b8d2161af924cb18ae48a8558a19541cca47f27264851b5b7e56d7b8bb372ac.he.png)
+![ארכיטקטורת IoT לדוגמה](../../../../../translated_images/he/iot-reference-architecture-azure.0b8d2161af924cb18ae48a8558a19541cca47f27264851b5b7e56d7b8bb372ac.png)
 
 התרשים לעיל מציג כמה מהרכיבים והשירותים שנלמדו בשיעורים אלו וכיצד הם מתחברים יחד בארכיטקטורת IoT לדוגמה.
 
@@ -98,7 +98,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 ### יצירת אב-טיפוס לאפליקציה שלכם
 
-![ארכיטקטורת IoT לדוגמה לבדיקת איכות פירות](../../../../../translated_images/iot-reference-architecture-fruit-quality.cc705f121c3b6fa71c800d9630935ac34bc08223a04601e35f41d5e9b5dd5207.he.png)
+![ארכיטקטורת IoT לדוגמה לבדיקת איכות פירות](../../../../../translated_images/he/iot-reference-architecture-fruit-quality.cc705f121c3b6fa71c800d9630935ac34bc08223a04601e35f41d5e9b5dd5207.png)
 
 התרשים לעיל מציג ארכיטקטורה לדוגמה לאפליקציה זו.
 
@@ -115,7 +115,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 מכשיר ה-IoT זקוק לאיזשהו טריגר שיציין מתי הפירות מוכנים לסיווג. טריגר אחד לכך יכול להיות מדידת המרחק של הפירות מהמכשיר באמצעות חיישן קרבה.
 
-![חיישני קרבה שולחים קרני לייזר לאובייקטים כמו בננות ומודדים את הזמן עד שהקרן חוזרת](../../../../../translated_images/proximity-sensor.f5cd752c77fb62fe.he.png)
+![חיישני קרבה שולחים קרני לייזר לאובייקטים כמו בננות ומודדים את הזמן עד שהקרן חוזרת](../../../../../translated_images/he/proximity-sensor.f5cd752c77fb62fe.png)
 
 חיישני קרבה יכולים לשמש למדידת המרחק בין החיישן לאובייקט. הם בדרך כלל משדרים קרן של קרינה אלקטרומגנטית כמו קרן לייזר או אור אינפרה-אדום, ואז מזהים את הקרינה שמוחזרת מהאובייקט. הזמן בין שליחת הקרן לבין החזרת האות יכול לשמש לחישוב המרחק לחיישן.
 
@@ -133,7 +133,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 לגלאי הפירות באב-טיפוס יש רכיבים מרובים שמתקשרים זה עם זה.
 
-![הרכיבים מתקשרים זה עם זה](../../../../../translated_images/fruit-quality-detector-message-flow.adf2a65da8fd8741ac7af11361574de89adc126785d67606bb4d2ec00467e380.he.png)
+![הרכיבים מתקשרים זה עם זה](../../../../../translated_images/he/fruit-quality-detector-message-flow.adf2a65da8fd8741ac7af11361574de89adc126785d67606bb4d2ec00467e380.png)
 
 * חיישן קרבה שמודד את המרחק לפירות ושולח זאת ל-IoT Hub
 * הפקודה לשלוט במצלמה שמגיעה מ-IoT Hub למכשיר המצלמה

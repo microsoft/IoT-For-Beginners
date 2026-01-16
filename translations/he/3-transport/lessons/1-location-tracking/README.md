@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # מעקב מיקום
 
-![סקיצה של סקירה כללית של השיעור](../../../../../translated_images/lesson-11.9fddbac4b664c6d50ab7ac9bb32f1fc3f945f03760e72f7f43938073762fb017.he.jpg)
+![סקיצה של סקירה כללית של השיעור](../../../../../translated_images/he/lesson-11.9fddbac4b664c6d50ab7ac9bb32f1fc3f945f03760e72f7f43938073762fb017.jpg)
 
 > סקיצה מאת [ניטיה נאראסימהאן](https://github.com/nitya). לחצו על התמונה לגרסה גדולה יותר.
 
@@ -72,13 +72,13 @@ IoT משנה את הדרך שבה סחורות מועברות על ידי יצי
 
 > 💁 אף אחד לא באמת יודע את הסיבה המקורית לכך שמעגלים מחולקים ל-360 מעלות. [עמוד הוויקיפדיה על מעלה (זווית)](https://wikipedia.org/wiki/Degree_(angle)) מכסה כמה מהסיבות האפשריות.
 
-![קווי רוחב מ-90° בקוטב הצפוני, 45° באמצע הדרך בין הקוטב הצפוני לקו המשווה, 0° בקו המשווה, -45° באמצע הדרך בין קו המשווה לקוטב הדרומי, ו-90° בקוטב הדרומי](../../../../../translated_images/latitude-lines.11d8d91dfb2014a57437272d7db7fd6607243098e8685f06e0c5f1ec984cb7eb.he.png)
+![קווי רוחב מ-90° בקוטב הצפוני, 45° באמצע הדרך בין הקוטב הצפוני לקו המשווה, 0° בקו המשווה, -45° באמצע הדרך בין קו המשווה לקוטב הדרומי, ו-90° בקוטב הדרומי](../../../../../translated_images/he/latitude-lines.11d8d91dfb2014a57437272d7db7fd6607243098e8685f06e0c5f1ec984cb7eb.png)
 
 קו רוחב נמדד באמצעות קווים שמקיפים את כדור הארץ ורצים במקביל לקו המשווה, ומחלקים את ההמיספרות הצפונית והדרומית ל-90° כל אחת. קו המשווה נמצא ב-0°, הקוטב הצפוני ב-90°, הידוע גם כ-90° צפון, והקוטב הדרומי ב--90°, או 90° דרום.
 
 קו אורך נמדד כמספר המעלות ממזרח למערב. נקודת ה-0° של קו האורך נקראת *מרידיאן הראשי*, והיא הוגדרה בשנת 1884 כקו מהקוטב הצפוני לקוטב הדרומי שעובר דרך [מצפה הכוכבים המלכותי בגריניץ', אנגליה](https://wikipedia.org/wiki/Royal_Observatory,_Greenwich).
 
-![קווי אורך שנעים מ--180° מערבית למרידיאן הראשי, ל-0° במרידיאן הראשי, ל-180° מזרחית למרידיאן הראשי](../../../../../translated_images/longitude-meridians.ab4ef1c91c064586b0185a3c8d39e585903696c6a7d28c098a93a629cddb5d20.he.png)
+![קווי אורך שנעים מ--180° מערבית למרידיאן הראשי, ל-0° במרידיאן הראשי, ל-180° מזרחית למרידיאן הראשי](../../../../../translated_images/he/longitude-meridians.ab4ef1c91c064586b0185a3c8d39e585903696c6a7d28c098a93a629cddb5d20.png)
 
 > 🎓 מרידיאן הוא קו דמיוני ישר שעובר מהקוטב הצפוני לקוטב הדרומי, ויוצר חצי מעגל.
 
@@ -109,7 +109,7 @@ IoT משנה את הדרך שבה סחורות מועברות על ידי יצי
 * רוחב של 47.6423109 (47.6423109 מעלות צפונית לקו המשווה)
 * אורך של -122.1390293 (122.1390293 מעלות מערבית למרידיאן הראשי).
 
-![הקמפוס של מיקרוסופט ב-47.6423109,-122.117198](../../../../../translated_images/microsoft-gps-location-world.a321d481b010f6adfcca139b2ba0adc53b79f58a540495b8e2ce7f779ea64bfe.he.png)
+![הקמפוס של מיקרוסופט ב-47.6423109,-122.117198](../../../../../translated_images/he/microsoft-gps-location-world.a321d481b010f6adfcca139b2ba0adc53b79f58a540495b8e2ce7f779ea64bfe.png)
 
 ## מערכות מיקום גלובליות (GPS)
 
@@ -121,7 +121,7 @@ IoT משנה את הדרך שבה סחורות מועברות על ידי יצי
 
 > 💁 חיישני GPS זקוקים לאנטנות כדי לזהות גלי רדיו. האנטנות המובנות במשאיות וברכבים עם GPS מובנה ממוקמות כך שיקבלו אות טוב, בדרך כלל על השמשה הקדמית או הגג. אם אתם משתמשים במערכת GPS נפרדת, כמו סמארטפון או מכשיר IoT, עליכם לוודא שהאנטנה המובנית במערכת ה-GPS או בטלפון נראית לשמיים, כמו התקנה על השמשה הקדמית.
 
-![על ידי ידיעת המרחק מהחיישן למספר לוויינים, ניתן לחשב את המיקום](../../../../../translated_images/gps-satellites.04acf1148fe25fbf1586bc2e8ba698e8d79b79a50c36824b38417dd13372b90f.he.png)
+![על ידי ידיעת המרחק מהחיישן למספר לוויינים, ניתן לחשב את המיקום](../../../../../translated_images/he/gps-satellites.04acf1148fe25fbf1586bc2e8ba698e8d79b79a50c36824b38417dd13372b90f.png)
 
 לווייני GPS מקיפים את כדור הארץ, ולא נמצאים בנקודה קבועה מעל החיישן, ולכן נתוני מיקום כוללים גובה מעל פני הים בנוסף לרוחב ואורך.
 

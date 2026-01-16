@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Connectez votre appareil à Internet
 
-![Un aperçu illustré de cette leçon](../../../../../translated_images/lesson-4.7344e074ea68fa545fd320b12dce36d72dd62d28c3b4596cb26cf315f434b98f.fr.jpg)
+![Un aperçu illustré de cette leçon](../../../../../translated_images/fr/lesson-4.7344e074ea68fa545fd320b12dce36d72dd62d28c3b4596cb26cf315f434b98f.jpg)
 
 > Illustration par [Nitya Narasimhan](https://github.com/nitya). Cliquez sur l'image pour une version agrandie.
 
@@ -46,7 +46,7 @@ Dans cette leçon, nous aborderons :
 
 Il existe plusieurs protocoles de communication populaires utilisés par les appareils IoT pour communiquer avec Internet. Les plus courants reposent sur la messagerie de type publication/abonnement via un courtier. Les appareils IoT se connectent au courtier pour publier des données de télémétrie et s'abonner aux commandes. Les services cloud se connectent également au courtier pour s'abonner à tous les messages de télémétrie et publier des commandes, soit pour des appareils spécifiques, soit pour des groupes d'appareils.
 
-![Les appareils IoT se connectent à un courtier pour publier des données de télémétrie et s'abonner aux commandes. Les services cloud se connectent au courtier pour s'abonner à toutes les données de télémétrie et envoyer des commandes à des appareils spécifiques.](../../../../../translated_images/pub-sub.7c7ed43fe9fd15d4.fr.png)
+![Les appareils IoT se connectent à un courtier pour publier des données de télémétrie et s'abonner aux commandes. Les services cloud se connectent au courtier pour s'abonner à toutes les données de télémétrie et envoyer des commandes à des appareils spécifiques.](../../../../../translated_images/fr/pub-sub.7c7ed43fe9fd15d4.webp)
 
 MQTT est le protocole de communication le plus populaire pour les appareils IoT et sera abordé dans cette leçon. D'autres protocoles incluent AMQP et HTTP/HTTPS.
 
@@ -56,7 +56,7 @@ MQTT est le protocole de communication le plus populaire pour les appareils IoT 
 
 MQTT fonctionne avec un courtier unique et plusieurs clients. Tous les clients se connectent au courtier, qui achemine les messages vers les clients concernés. Les messages sont acheminés à l'aide de sujets nommés, plutôt que d'être envoyés directement à un client individuel. Un client peut publier sur un sujet, et tous les clients abonnés à ce sujet recevront le message.
 
-![Un appareil IoT publiant des données de télémétrie sur le sujet /telemetry, et le service cloud s'abonnant à ce sujet](../../../../../translated_images/mqtt.cbf7f21d9adc3e17548b359444cc11bb4bf2010543e32ece9a47becf54438c23.fr.png)
+![Un appareil IoT publiant des données de télémétrie sur le sujet /telemetry, et le service cloud s'abonnant à ce sujet](../../../../../translated_images/fr/mqtt.cbf7f21d9adc3e17548b359444cc11bb4bf2010543e32ece9a47becf54438c23.png)
 
 ✅ Faites des recherches. Si vous avez de nombreux appareils IoT, comment pouvez-vous vous assurer que votre courtier MQTT peut gérer tous les messages ?
 
@@ -78,7 +78,7 @@ Plutôt que de gérer les complexités de la configuration d'un courtier MQTT da
 
 > 💁 Ce courtier de test est public et non sécurisé. N'importe qui pourrait écouter ce que vous publiez, il ne doit donc pas être utilisé pour des données devant rester privées.
 
-![Un diagramme de flux de l'exercice montrant les niveaux de lumière mesurés et vérifiés, et la LED contrôlée](../../../../../translated_images/assignment-1-internet-flow.3256feab5f052fd273bf4e331157c574c2c3fa42e479836fc9c3586f41db35a5.fr.png)
+![Un diagramme de flux de l'exercice montrant les niveaux de lumière mesurés et vérifiés, et la LED contrôlée](../../../../../translated_images/fr/assignment-1-internet-flow.3256feab5f052fd273bf4e331157c574c2c3fa42e479836fc9c3586f41db35a5.png)
 
 Suivez l'étape correspondante ci-dessous pour connecter votre appareil au courtier MQTT :
 
@@ -115,7 +115,7 @@ Le mot télémétrie est dérivé de racines grecques signifiant mesurer à dist
 
 Reprenons l'exemple du thermostat intelligent de la leçon 1.
 
-![Un thermostat connecté à Internet utilisant plusieurs capteurs de pièce](../../../../../translated_images/telemetry.21e5d8b97649d2eb.fr.png)
+![Un thermostat connecté à Internet utilisant plusieurs capteurs de pièce](../../../../../translated_images/fr/telemetry.21e5d8b97649d2eb.webp)
 
 Le thermostat dispose de capteurs de température pour collecter des données de télémétrie. Il aurait probablement un capteur de température intégré et pourrait se connecter à plusieurs capteurs de température externes via un protocole sans fil tel que [Bluetooth Low Energy](https://wikipedia.org/wiki/Bluetooth_Low_Energy) (BLE).
 
@@ -267,11 +267,11 @@ Le code du serveur peut maintenant être écrit en Python.
 
 1. Lorsque VS Code se lance, il activera l'environnement virtuel Python. Cela sera indiqué dans la barre d'état en bas :
 
-    ![VS Code montrant l'environnement virtuel sélectionné](../../../../../translated_images/vscode-virtual-env.8ba42e04c3d533cf.fr.png)
+    ![VS Code montrant l'environnement virtuel sélectionné](../../../../../translated_images/fr/vscode-virtual-env.8ba42e04c3d533cf.webp)
 
 1. Si le terminal de VS Code est déjà ouvert au démarrage de VS Code, l'environnement virtuel ne sera pas activé dans celui-ci. Le plus simple est de fermer le terminal en utilisant le bouton **Kill the active terminal instance** :
 
-    ![Bouton de fermeture du terminal actif dans VS Code](../../../../../translated_images/vscode-kill-terminal.1cc4de7c6f25ee08.fr.png)
+    ![Bouton de fermeture du terminal actif dans VS Code](../../../../../translated_images/fr/vscode-kill-terminal.1cc4de7c6f25ee08.webp)
 
 1. Lancez un nouveau terminal VS Code en sélectionnant *Terminal -> New Terminal*, ou en appuyant sur `` CTRL+` ``. Le nouveau terminal chargera l'environnement virtuel, avec l'appel à l'activation apparaissant dans le terminal. Le nom de l'environnement virtuel (`.venv`) sera également dans l'invite :
 
@@ -359,7 +359,7 @@ Pour des machines, vous pourriez vouloir conserver les données, surtout si elle
 
 Les concepteurs d'appareils IoT devraient également envisager si l'appareil IoT peut être utilisé pendant une panne Internet ou une perte de signal due à l'emplacement. Un thermostat intelligent devrait pouvoir prendre des décisions limitées pour contrôler le chauffage s'il ne peut pas envoyer de télémétrie au cloud en raison d'une panne.
 
-[![Cette Ferrari est devenue inutilisable parce que quelqu'un a essayé de la mettre à jour sous terre où il n'y a pas de réception cellulaire](../../../../../translated_images/bricked-car.dc38f8efadc6c59d76211f981a521efb300939283dee468f79503aae3ec67615.fr.png)](https://twitter.com/internetofshit/status/1315736960082808832)
+[![Cette Ferrari est devenue inutilisable parce que quelqu'un a essayé de la mettre à jour sous terre où il n'y a pas de réception cellulaire](../../../../../translated_images/fr/bricked-car.dc38f8efadc6c59d76211f981a521efb300939283dee468f79503aae3ec67615.png)](https://twitter.com/internetofshit/status/1315736960082808832)
 
 Pour que MQTT gère une perte de connectivité, le code de l'appareil et du serveur devra être responsable de garantir la livraison des messages si nécessaire, par exemple en exigeant que tous les messages envoyés soient confirmés par des messages supplémentaires sur un sujet de réponse, et si ce n'est pas le cas, ils sont mis en file d'attente manuellement pour être rejoués plus tard.
 
@@ -367,7 +367,7 @@ Pour que MQTT gère une perte de connectivité, le code de l'appareil et du serv
 
 Les commandes sont des messages envoyés par le cloud à un appareil, lui demandant de faire quelque chose. La plupart du temps, cela implique de donner une sorte de sortie via un actionneur, mais cela peut être une instruction pour l'appareil lui-même, comme redémarrer ou collecter des données supplémentaires de télémétrie et les renvoyer en réponse à la commande.
 
-![Un thermostat connecté à Internet recevant une commande pour allumer le chauffage](../../../../../translated_images/commands.d6c06bbbb3a02cce95f2831a1c331daf6dedd4e470c4aa2b0ae54f332016e504.fr.png)
+![Un thermostat connecté à Internet recevant une commande pour allumer le chauffage](../../../../../translated_images/fr/commands.d6c06bbbb3a02cce95f2831a1c331daf6dedd4e470c4aa2b0ae54f332016e504.png)
 
 Un thermostat pourrait recevoir une commande du cloud pour allumer le chauffage. Sur la base des données de télémétrie de tous les capteurs, si le service cloud a décidé que le chauffage doit être allumé, il envoie la commande correspondante.
 

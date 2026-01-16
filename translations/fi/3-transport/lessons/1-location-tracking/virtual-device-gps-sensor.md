@@ -47,11 +47,11 @@ Lisää GPS-anturi CounterFit-sovellukseen.
 
     1. Valitse **Add**-painike luodaksesi GPS-anturin porttiin `/dev/ttyAMA0`.
 
-    ![GPS-anturin asetukset](../../../../../translated_images/counterfit-create-gps-sensor.6385dc9357d85ad1d47b4abb2525e7651fd498917d25eefc5a72feab09eedc70.fi.png)
+    ![GPS-anturin asetukset](../../../../../translated_images/fi/counterfit-create-gps-sensor.6385dc9357d85ad1d47b4abb2525e7651fd498917d25eefc5a72feab09eedc70.png)
 
     GPS-anturi luodaan ja se näkyy anturilistassa.
 
-    ![Luotu GPS-anturi](../../../../../translated_images/counterfit-gps-sensor.3fbb15af0a5367566f2f11324ef5a6f30861cdf2b497071a5e002b7aa473550e.fi.png)
+    ![Luotu GPS-anturi](../../../../../translated_images/fi/counterfit-gps-sensor.3fbb15af0a5367566f2f11324ef5a6f30861cdf2b497071a5e002b7aa473550e.png)
 
 ## Ohjelmoi GPS-anturi
 
@@ -111,17 +111,17 @@ Ohjelmoi GPS-anturisovellus.
 
     * Aseta **Source** arvoksi `Lat/Lon` ja määritä tarkka leveyspiiri, pituuspiiri ja satelliittien määrä, joita käytetään GPS-paikannukseen. Tämä arvo lähetetään vain kerran, joten valitse **Repeat**-ruutu, jotta data toistuu joka sekunti.
 
-      ![GPS-anturi, jossa lat lon valittuna](../../../../../translated_images/counterfit-gps-sensor-latlon.008c867d75464fbe7f84107cc57040df565ac07cb57d2f21db37d087d470197d.fi.png)
+      ![GPS-anturi, jossa lat lon valittuna](../../../../../translated_images/fi/counterfit-gps-sensor-latlon.008c867d75464fbe7f84107cc57040df565ac07cb57d2f21db37d087d470197d.png)
 
     * Aseta **Source** arvoksi `NMEA` ja lisää NMEA-lauseita tekstikenttään. Kaikki nämä arvot lähetetään, ja uuden GGA (paikannus) -lauseen lukemisen välillä on 1 sekunnin viive.
 
-      ![GPS-anturi, jossa NMEA-lauseet asetettu](../../../../../translated_images/counterfit-gps-sensor-nmea.c62eea442171e17e19528b051b104cfcecdc9cd18db7bc72920f29821ae63f73.fi.png)
+      ![GPS-anturi, jossa NMEA-lauseet asetettu](../../../../../translated_images/fi/counterfit-gps-sensor-nmea.c62eea442171e17e19528b051b104cfcecdc9cd18db7bc72920f29821ae63f73.png)
 
       Voit käyttää työkaluja, kuten [nmeagen.org](https://www.nmeagen.org), näiden lauseiden luomiseen piirtämällä kartalle. Nämä arvot lähetetään vain kerran, joten valitse **Repeat**-ruutu, jotta data toistuu sekunnin kuluttua siitä, kun kaikki on lähetetty.
 
     * Aseta **Source** arvoksi GPX-tiedosto ja lataa GPX-tiedosto, jossa on reittisijainteja. Voit ladata GPX-tiedostoja useilta suosituilla kartta- ja retkeilysivustoilta, kuten [AllTrails](https://www.alltrails.com/). Nämä tiedostot sisältävät useita GPS-sijainteja reittinä, ja GPS-anturi palauttaa jokaisen uuden sijainnin 1 sekunnin välein.
 
-      ![GPS-anturi, jossa GPX-tiedosto asetettu](../../../../../translated_images/counterfit-gps-sensor-gpxfile.8310b063ce8a425ccc8ebeec8306aeac5e8e55207f007d52c6e1194432a70cd9.fi.png)
+      ![GPS-anturi, jossa GPX-tiedosto asetettu](../../../../../translated_images/fi/counterfit-gps-sensor-gpxfile.8310b063ce8a425ccc8ebeec8306aeac5e8e55207f007d52c6e1194432a70cd9.png)
 
       Nämä arvot lähetetään vain kerran, joten valitse **Repeat**-ruutu, jotta data toistuu sekunnin kuluttua siitä, kun kaikki on lähetetty.
 

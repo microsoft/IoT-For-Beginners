@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Trenirajte detektor zaliha
 
-![Sketchnote pregled ove lekcije](../../../../../translated_images/lesson-19.cf6973cecadf080c4b526310620dc4d6f5994c80fb0139c6f378cc9ca2d435cd.hr.jpg)
+![Sketchnote pregled ove lekcije](../../../../../translated_images/hr/lesson-19.cf6973cecadf080c4b526310620dc4d6f5994c80fb0139c6f378cc9ca2d435cd.jpg)
 
 > Sketchnote autorice [Nitya Narasimhan](https://github.com/nitya). Kliknite na sliku za veću verziju.
 
@@ -45,7 +45,7 @@ Prepoznavanje objekata uključuje detekciju objekata na slikama pomoću AI-a. Za
 
 Klasifikacija slika odnosi se na klasifikaciju cijele slike - koje su vjerojatnosti da cijela slika odgovara svakoj oznaci. Dobivate natrag vjerojatnosti za svaku oznaku korištenu za treniranje modela.
 
-![Klasifikacija slika indijskih oraščića i paste od rajčice](../../../../../translated_images/image-classifier-cashews-tomato.bc2e16ab8f05cf9ac0f59f73e32efc4227f9a5b601b90b2c60f436694547a965.hr.png)
+![Klasifikacija slika indijskih oraščića i paste od rajčice](../../../../../translated_images/hr/image-classifier-cashews-tomato.bc2e16ab8f05cf9ac0f59f73e32efc4227f9a5b601b90b2c60f436694547a965.png)
 
 U gornjem primjeru, dvije slike su klasificirane pomoću modela treniranog za klasifikaciju posuda s indijskim oraščićima ili konzervi paste od rajčice. Prva slika prikazuje posudu s indijskim oraščićima i ima dva rezultata iz klasifikatora slika:
 
@@ -69,7 +69,7 @@ Kada ga zatim koristite za predviđanje slika, umjesto da dobijete popis oznaka 
 
 > 🎓 *Okviri* su pravokutnici oko objekta.
 
-![Prepoznavanje objekata indijskih oraščića i paste od rajčice](../../../../../translated_images/object-detector-cashews-tomato.1af7c26686b4db0e709754aeb196f4e73271f54e2085db3bcccb70d4a0d84d97.hr.png)
+![Prepoznavanje objekata indijskih oraščića i paste od rajčice](../../../../../translated_images/hr/object-detector-cashews-tomato.1af7c26686b4db0e709754aeb196f4e73271f54e2085db3bcccb70d4a0d84d97.png)
 
 Gornja slika sadrži i posudu s indijskim oraščićima i tri konzerve paste od rajčice. Detektor objekata detektirao je indijske oraščiće, vraćajući okvir koji sadrži indijske oraščiće s postotkom vjerojatnosti da okvir sadrži objekt, u ovom slučaju 97.6%. Detektor objekata također je detektirao tri konzerve paste od rajčice i pruža tri odvojena okvira, po jedan za svaku detektiranu konzervu, a svaki ima postotak vjerojatnosti da okvir sadrži konzervu paste od rajčice.
 
@@ -118,7 +118,7 @@ Možete trenirati detektor objekata koristeći Custom Vision, na sličan način 
 
     Kada kreirate svoj projekt, obavezno koristite resurs `stock-detector-training` koji ste ranije kreirali. Koristite tip projekta *Object Detection* i domenu *Products on Shelves*.
 
-    ![Postavke za Custom Vision projekt s nazivom postavljenim na fruit-quality-detector, bez opisa, resursom postavljenim na fruit-quality-detector-training, tipom projekta postavljenim na classification, vrstama klasifikacije postavljenim na multi class i domenama postavljenim na food](../../../../../translated_images/custom-vision-create-object-detector-project.32d4fb9aa8e7e7375f8a799bfce517aca970f2cb65e42d4245c5e635c734ab29.hr.png)
+    ![Postavke za Custom Vision projekt s nazivom postavljenim na fruit-quality-detector, bez opisa, resursom postavljenim na fruit-quality-detector-training, tipom projekta postavljenim na classification, vrstama klasifikacije postavljenim na multi class i domenama postavljenim na food](../../../../../translated_images/hr/custom-vision-create-object-detector-project.32d4fb9aa8e7e7375f8a799bfce517aca970f2cb65e42d4245c5e635c734ab29.png)
 
     ✅ Domena *Products on Shelves* posebno je usmjerena na detekciju zaliha na policama trgovina. Pročitajte više o različitim domenama u [dokumentaciji o odabiru domena na Microsoft Docs](https://docs.microsoft.com/azure/cognitive-services/custom-vision-service/select-domain?WT.mc_id=academic-17441-jabenn#object-detection).
 
@@ -140,11 +140,11 @@ Za treniranje modela trebat će vam skup slika koje sadrže objekte koje želite
 
 1. Slijedite [odjeljak Upload i označavanje slika u vodiču za brzi početak na Microsoft dokumentaciji](https://docs.microsoft.com/azure/cognitive-services/custom-vision-service/get-started-build-detector?WT.mc_id=academic-17441-jabenn#upload-and-tag-images) kako biste učitali svoje slike za treniranje. Kreirajte relevantne oznake ovisno o vrstama objekata koje želite detektirati.
 
-    ![Dijalozi za upload koji prikazuju upload slika zrelih i nezrelih banana](../../../../../translated_images/image-upload-object-detector.77c7892c3093cb59b79018edecd678749a75d71a099bc8a2d2f2f76320f88a5b.hr.png)
+    ![Dijalozi za upload koji prikazuju upload slika zrelih i nezrelih banana](../../../../../translated_images/hr/image-upload-object-detector.77c7892c3093cb59b79018edecd678749a75d71a099bc8a2d2f2f76320f88a5b.png)
 
     Kada crtate okvire za objekte, držite ih čvrsto oko objekta. Može potrajati neko vrijeme da označite sve slike, ali alat će detektirati ono što misli da su okviri, čineći proces bržim.
 
-    ![Označavanje paste od rajčice](../../../../../translated_images/object-detector-tag-tomato-paste.f47c362fb0f0eb582f3bc68cf3855fb43a805106395358d41896a269c210b7b4.hr.png)
+    ![Označavanje paste od rajčice](../../../../../translated_images/hr/object-detector-tag-tomato-paste.f47c362fb0f0eb582f3bc68cf3855fb43a805106395358d41896a269c210b7b4.png)
 
     > 💁 Ako imate više od 15 slika za svaki objekt, možete trenirati nakon 15, a zatim koristiti značajku **Predložene oznake**. Ovo će koristiti trenirani model za detekciju objekata na neoznačenim slikama. Zatim možete potvrditi detektirane objekte ili odbaciti i ponovno nacrtati okvire. Ovo može uštedjeti *puno* vremena.
 
@@ -162,7 +162,7 @@ Kada je vaš detektor objekata treniran, možete ga testirati dajući mu nove sl
 
 1. Koristite gumb **Quick Test** za upload testnih slika i provjeru jesu li objekti detektirani. Koristite testne slike koje ste ranije kreirali, a ne bilo koju od slika koje ste koristili za treniranje.
 
-    ![3 konzerve paste od rajčice detektirane s vjerojatnostima od 38%, 35.5% i 34.6%](../../../../../translated_images/object-detector-detected-tomato-paste.52656fe87af4c37b4ee540526d63e73ed075da2e54a9a060aa528e0c562fb1b6.hr.png)
+    ![3 konzerve paste od rajčice detektirane s vjerojatnostima od 38%, 35.5% i 34.6%](../../../../../translated_images/hr/object-detector-detected-tomato-paste.52656fe87af4c37b4ee540526d63e73ed075da2e54a9a060aa528e0c562fb1b6.png)
 
 1. Isprobajte sve testne slike koje imate i promatrajte vjerojatnosti.
 

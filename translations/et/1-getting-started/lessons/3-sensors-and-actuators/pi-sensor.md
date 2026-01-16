@@ -25,13 +25,13 @@ Grove valgusandur, mida kasutatakse valguse taseme tuvastamiseks, tuleb ühendad
 
 Ühenda valgusandur.
 
-![Grove valgusandur](../../../../../translated_images/grove-light-sensor.b8127b7c434e632d6bcdb57587a14e9ef69a268a22df95d08628f62b8fa5505c.et.png)
+![Grove valgusandur](../../../../../translated_images/et/grove-light-sensor.b8127b7c434e632d6bcdb57587a14e9ef69a268a22df95d08628f62b8fa5505c.png)
 
 1. Sisestage Grove kaabli üks ots valgusanduri mooduli pistikusse. Kaabel läheb sisse ainult ühel viisil.
 
 1. Kui Raspberry Pi on välja lülitatud, ühendage Grove kaabli teine ots analoogpistikusse, mis on märgitud **A0** Grove Base hat-il, mis on Pi külge kinnitatud. See pistik asub GPIO pin-ide kõrval, teises pesas paremalt.
 
-![Grove valgusandur ühendatud pistikuga A0](../../../../../translated_images/pi-light-sensor.66cc1e31fa48cd7d5f23400d4b2119aa41508275cb7c778053a7923b4e972d7e.et.png)
+![Grove valgusandur ühendatud pistikuga A0](../../../../../translated_images/et/pi-light-sensor.66cc1e31fa48cd7d5f23400d4b2119aa41508275cb7c778053a7923b4e972d7e.png)
 
 ## Programmeeri valgusandur
 

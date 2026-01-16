@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Provjera zaliha s IoT uređajem
 
-![Sketchnote pregled ove lekcije](../../../../../translated_images/lesson-20.0211df9551a8abb300fc8fcf7dc2789468dea2eabe9202273ac077b0ba37f15e.hr.jpg)
+![Sketchnote pregled ove lekcije](../../../../../translated_images/hr/lesson-20.0211df9551a8abb300fc8fcf7dc2789468dea2eabe9202273ac077b0ba37f15e.jpg)
 
 > Sketchnote autorice [Nitya Narasimhan](https://github.com/nitya). Kliknite na sliku za veću verziju.
 
@@ -39,7 +39,7 @@ Detektori objekata mogu se koristiti za provjeru zaliha, bilo za brojanje zaliha
 
 Na primjer, ako kamera gleda na police koje mogu držati 8 konzervi rajčice, a detektor objekata prepozna samo 7 konzervi, tada jedna nedostaje i treba je nadopuniti.
 
-![7 konzervi rajčice na polici, 4 na gornjem redu, 3 na donjem](../../../../../translated_images/stock-7-cans-tomato-paste.f86059cc573d7bec.hr.png)
+![7 konzervi rajčice na polici, 4 na gornjem redu, 3 na donjem](../../../../../translated_images/hr/stock-7-cans-tomato-paste.f86059cc573d7bec.png)
 
 Na slici iznad, detektor objekata prepoznao je 7 konzervi rajčice na polici koja može držati 8 konzervi. IoT uređaj ne samo da može poslati obavijest o potrebi za nadopunjavanjem, već može i naznačiti lokaciju nedostajućeg artikla, što je važan podatak ako koristite robote za nadopunjavanje polica.
 
@@ -51,7 +51,7 @@ Ponekad se na policama može naći pogrešna roba. To može biti ljudska pogreš
 
 Detekcija objekata može se koristiti za otkrivanje neočekivanih artikala, ponovno upozoravajući čovjeka ili robota da što prije vrati artikl na ispravno mjesto.
 
-![Nepoznata konzerva baby kukuruza na polici s rajčicom](../../../../../translated_images/stock-rogue-corn.be1f3ada8c457854.hr.png)
+![Nepoznata konzerva baby kukuruza na polici s rajčicom](../../../../../translated_images/hr/stock-rogue-corn.be1f3ada8c457854.png)
 
 Na slici iznad, konzerva baby kukuruza stavljena je na policu pored rajčice. Detektor objekata to je prepoznao, omogućujući IoT uređaju da obavijesti čovjeka ili robota da vrati konzervu na ispravno mjesto.
 
@@ -71,7 +71,7 @@ Iteracije se objavljuju putem Custom Vision portala.
 
 1. Kliknite gumb **Publish** za iteraciju.
 
-    ![Gumb za objavu](../../../../../translated_images/custom-vision-object-detector-publish-button.34ee379fc650ccb9856c3868d0003f413b9529f102fc73c37168c98d721cc293.hr.png)
+    ![Gumb za objavu](../../../../../translated_images/hr/custom-vision-object-detector-publish-button.34ee379fc650ccb9856c3868d0003f413b9529f102fc73c37168c98d721cc293.png)
 
 1. U dijaloškom okviru *Publish Model*, postavite *Prediction resource* na resurs `stock-detector-prediction` koji ste stvorili u prethodnoj lekciji. Ostavite naziv kao `Iteration2` i kliknite gumb **Publish**.
 
@@ -85,7 +85,7 @@ Iteracije se objavljuju putem Custom Vision portala.
 
     Također kopirajte vrijednost *Prediction-Key*. Ovo je sigurnosni ključ koji morate proslijediti prilikom pozivanja modela. Samo aplikacije koje proslijede ovaj ključ mogu koristiti model, sve ostale aplikacije bit će odbijene.
 
-    ![Dijaloški okvir za API predikcije koji prikazuje URL i ključ](../../../../../translated_images/custom-vision-prediction-key-endpoint.30c569ffd0338864f319911f052d5e9b8c5066cb0800a26dd6f7ff5713130ad8.hr.png)
+    ![Dijaloški okvir za API predikcije koji prikazuje URL i ključ](../../../../../translated_images/hr/custom-vision-prediction-key-endpoint.30c569ffd0338864f319911f052d5e9b8c5066cb0800a26dd6f7ff5713130ad8.png)
 
 ✅ Kada se objavi nova iteracija, imat će drugačiji naziv. Kako mislite da biste promijenili iteraciju koju koristi IoT uređaj?
 
@@ -104,7 +104,7 @@ Kada koristite detektor objekata, ne dobivate samo prepoznate objekte s njihovim
 
 Rezultati predikcije u kartici **Predictions** u Custom Visionu imaju ograničavajuće okvire nacrtane na slici koja je poslana na predikciju.
 
-![4 konzerve rajčice na polici s predikcijama za 4 detekcije od 35.8%, 33.5%, 25.7% i 16.6%](../../../../../translated_images/custom-vision-stock-prediction.942266ab1bcca3410ecdf23643b9f5f570cfab2345235074e24c51f285777613.hr.png)
+![4 konzerve rajčice na polici s predikcijama za 4 detekcije od 35.8%, 33.5%, 25.7% i 16.6%](../../../../../translated_images/hr/custom-vision-stock-prediction.942266ab1bcca3410ecdf23643b9f5f570cfab2345235074e24c51f285777613.png)
 
 Na slici iznad, prepoznate su 4 konzerve rajčice. U rezultatima je crveni kvadrat prekriven za svaki objekt koji je prepoznat na slici, označavajući ograničavajući okvir za sliku.
 
@@ -112,7 +112,7 @@ Na slici iznad, prepoznate su 4 konzerve rajčice. U rezultatima je crveni kvadr
 
 Ograničavajući okviri definirani su s 4 vrijednosti - top, left, height i width. Ove vrijednosti su na skali od 0-1, predstavljajući pozicije kao postotak veličine slike. Ishodište (pozicija 0,0) je gornji lijevi kut slike, tako da je top vrijednost udaljenost od vrha, a dno ograničavajućeg okvira je top plus height.
 
-![Ograničavajući okvir oko konzerve rajčice](../../../../../translated_images/bounding-box.1420a7ea0d3d15f71e1ffb5cf4b2271d184fac051f990abc541975168d163684.hr.png)
+![Ograničavajući okvir oko konzerve rajčice](../../../../../translated_images/hr/bounding-box.1420a7ea0d3d15f71e1ffb5cf4b2271d184fac051f990abc541975168d163684.png)
 
 Slika iznad je široka 600 piksela i visoka 800 piksela. Ograničavajući okvir počinje na 320 piksela od vrha, dajući top koordinatu od 0.4 (800 x 0.4 = 320). S lijeve strane, okvir počinje na 240 piksela, dajući left koordinatu od 0.4 (600 x 0.4 = 240). Visina okvira je 240 piksela, dajući height vrijednost od 0.3 (800 x 0.3 = 240). Širina okvira je 120 piksela, dajući width vrijednost od 0.2 (600 x 0.2 = 120).
 
@@ -127,7 +127,7 @@ Korištenje postotnih vrijednosti od 0-1 znači da bez obzira na veličinu slike
 
 Možete koristiti ograničavajuće okvire u kombinaciji s vjerojatnostima za procjenu točnosti detekcije. Na primjer, detektor objekata može prepoznati više objekata koji se preklapaju, primjerice prepoznati jednu konzervu unutar druge. Vaš kod može provjeriti ograničavajuće okvire, shvatiti da je to nemoguće, i ignorirati sve objekte koji se značajno preklapaju s drugim objektima.
 
-![Dva ograničavajuća okvira preklapaju konzervu rajčice](../../../../../translated_images/overlap-object-detection.d431e03cae75072a2760430eca7f2c5fdd43045bfd72dadcbf12711f7cd6c2ae.hr.png)
+![Dva ograničavajuća okvira preklapaju konzervu rajčice](../../../../../translated_images/hr/overlap-object-detection.d431e03cae75072a2760430eca7f2c5fdd43045bfd72dadcbf12711f7cd6c2ae.png)
 
 U primjeru iznad, jedan ograničavajući okvir označava predviđenu konzervu rajčice s 78.3%. Drugi okvir je nešto manji i nalazi se unutar prvog okvira s vjerojatnošću od 64.3%. Vaš kod može provjeriti ograničavajuće okvire, vidjeti da se potpuno preklapaju i ignorirati nižu vjerojatnost jer nije moguće da jedna konzerva bude unutar druge.
 

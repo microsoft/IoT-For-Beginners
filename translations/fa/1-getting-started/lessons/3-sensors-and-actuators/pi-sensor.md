@@ -25,13 +25,13 @@ CO_OP_TRANSLATOR_METADATA:
 
 حسگر نور را متصل کنید.
 
-![یک حسگر نور Grove](../../../../../translated_images/grove-light-sensor.b8127b7c434e632d6bcdb57587a14e9ef69a268a22df95d08628f62b8fa5505c.fa.png)
+![یک حسگر نور Grove](../../../../../translated_images/fa/grove-light-sensor.b8127b7c434e632d6bcdb57587a14e9ef69a268a22df95d08628f62b8fa5505c.png)
 
 1. یک سر کابل Grove را به سوکت روی ماژول حسگر نور وارد کنید. این کابل فقط از یک جهت وارد می‌شود.
 
 1. با خاموش بودن رزبری پای، سر دیگر کابل Grove را به سوکت آنالوگ با علامت **A0** روی کلاهک پایه Grove که به رزبری پای متصل است، وصل کنید. این سوکت دومین سوکت از سمت راست در ردیف سوکت‌های کنار پین‌های GPIO است.
 
-![حسگر نور Grove متصل به سوکت A0](../../../../../translated_images/pi-light-sensor.66cc1e31fa48cd7d5f23400d4b2119aa41508275cb7c778053a7923b4e972d7e.fa.png)
+![حسگر نور Grove متصل به سوکت A0](../../../../../translated_images/fa/pi-light-sensor.66cc1e31fa48cd7d5f23400d4b2119aa41508275cb7c778053a7923b4e972d7e.png)
 
 ## برنامه‌نویسی حسگر نور
 

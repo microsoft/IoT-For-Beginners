@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Hoia oma taim turvalisena
 
-![Selle õppetunni visuaalne ülevaade](../../../../../translated_images/lesson-10.829c86b80b9403bb770929ee553a1d293afe50dc23121aaf9be144673ae012cc.et.jpg)
+![Selle õppetunni visuaalne ülevaade](../../../../../translated_images/et/lesson-10.829c86b80b9403bb770929ee553a1d293afe50dc23121aaf9be144673ae012cc.jpg)
 
 > Visuaalne märkmik: [Nitya Narasimhan](https://github.com/nitya). Klõpsa pildil, et näha suuremat versiooni.
 
@@ -61,11 +61,11 @@ Need on reaalsed olukorrad, mis juhtuvad pidevalt. Mõned näited toodi varasema
 
 Kui seade ühendub IoT-teenusega, kasutab see ID-d enda tuvastamiseks. Probleem on selles, et seda ID-d saab kloonida - häkker võib seadistada pahatahtliku seadme, mis kasutab sama ID-d kui päris seade, kuid saadab valeandmeid.
 
-![Nii kehtivad kui pahatahtlikud seadmed võivad kasutada sama ID-d telemeetria saatmiseks](../../../../../translated_images/iot-device-and-hacked-device-connecting.e0671675df74d6d99eb1dedb5a670e606f698efa6202b1ad4c8ae548db299cc6.et.png)
+![Nii kehtivad kui pahatahtlikud seadmed võivad kasutada sama ID-d telemeetria saatmiseks](../../../../../translated_images/et/iot-device-and-hacked-device-connecting.e0671675df74d6d99eb1dedb5a670e606f698efa6202b1ad4c8ae548db299cc6.png)
 
 Lahendus sellele probleemile on andmete muutmine krüpteeritud vormingusse, kasutades mingit väärtust, mida teavad ainult seade ja pilv. Seda protsessi nimetatakse *krüpteerimiseks*, ja väärtust, mida kasutatakse andmete krüpteerimiseks, nimetatakse *krüpteerimisvõtmeks*.
 
-![Kui kasutatakse krüpteerimist, siis aktsepteeritakse ainult krüpteeritud sõnumeid, teised lükatakse tagasi](../../../../../translated_images/iot-device-and-hacked-device-connecting-encryption.5941aff601fc978f979e46f2849b573564eeb4a4dc5b52f669f62745397492fb.et.png)
+![Kui kasutatakse krüpteerimist, siis aktsepteeritakse ainult krüpteeritud sõnumeid, teised lükatakse tagasi](../../../../../translated_images/et/iot-device-and-hacked-device-connecting-encryption.5941aff601fc978f979e46f2849b573564eeb4a4dc5b52f669f62745397492fb.png)
 
 Pilveteenus saab seejärel andmed tagasi loetavasse vormingusse muuta, kasutades protsessi, mida nimetatakse *dekrüpteerimiseks*, kas sama krüpteerimisvõtme või *dekrüpteerimisvõtme* abil. Kui krüpteeritud sõnumit ei saa võtmega dekrüpteerida, on seade häkitud ja sõnum lükatakse tagasi.
 
@@ -97,15 +97,15 @@ Krüpteerimine jaguneb kahte tüüpi - sümeetriline ja asümeetriline.
 
 **Sümeetriline** krüpteerimine kasutab sama võtit andmete krüpteerimiseks ja dekrüpteerimiseks. Nii saatja kui ka vastuvõtja peavad teadma sama võtit. See on kõige vähem turvaline tüüp, kuna võti tuleb kuidagi jagada. Et saatja saaks saata krüpteeritud sõnumi vastuvõtjale, võib saatja kõigepealt pidada vajalikuks saata vastuvõtjale võti.
 
-![Sümeetriline võtmekrüpteerimine kasutab sama võtit sõnumi krüpteerimiseks ja dekrüpteerimiseks](../../../../../translated_images/send-message-symmetric-key.a2e8ad0d495896ff.et.png)
+![Sümeetriline võtmekrüpteerimine kasutab sama võtit sõnumi krüpteerimiseks ja dekrüpteerimiseks](../../../../../translated_images/et/send-message-symmetric-key.a2e8ad0d495896ff.png)
 
 Kui võti varastatakse transiidil või saatja või vastuvõtja häkitakse ja võti leitakse, saab krüpteeringu murda.
 
-![Sümeetriline võtmekrüpteerimine on turvaline ainult siis, kui häkker ei saa võtit - kui see juhtub, saab ta sõnumi pealt kuulata ja dekrüpteerida](../../../../../translated_images/send-message-symmetric-key-hacker.e7cb53db1707adfb.et.png)
+![Sümeetriline võtmekrüpteerimine on turvaline ainult siis, kui häkker ei saa võtit - kui see juhtub, saab ta sõnumi pealt kuulata ja dekrüpteerida](../../../../../translated_images/et/send-message-symmetric-key-hacker.e7cb53db1707adfb.png)
 
 **Asümeetriline** krüpteerimine kasutab 2 võtit - krüpteerimisvõtit ja dekrüpteerimisvõtit, mida nimetatakse avaliku/privaatse võtme paariks. Avalikku võtit kasutatakse sõnumi krüpteerimiseks, kuid seda ei saa kasutada dekrüpteerimiseks, privaatset võtit kasutatakse sõnumi dekrüpteerimiseks, kuid seda ei saa kasutada krüpteerimiseks.
 
-![Asümeetriline krüpteerimine kasutab erinevat võtit krüpteerimiseks ja dekrüpteerimiseks. Krüpteerimisvõti saadetakse kõigile sõnumi saatjatele, et nad saaksid sõnumi krüpteerida enne selle saatmist võtmete omanikule](../../../../../translated_images/send-message-asymmetric.7abe327c62615b8c.et.png)
+![Asümeetriline krüpteerimine kasutab erinevat võtit krüpteerimiseks ja dekrüpteerimiseks. Krüpteerimisvõti saadetakse kõigile sõnumi saatjatele, et nad saaksid sõnumi krüpteerida enne selle saatmist võtmete omanikule](../../../../../translated_images/et/send-message-asymmetric.7abe327c62615b8c.png)
 
 Vastuvõtja jagab oma avaliku võtme ja saatja kasutab seda sõnumi krüpteerimiseks. Kui sõnum on saadetud, dekrüpteerib vastuvõtja selle oma privaatse võtmega. Asümeetriline krüpteerimine on turvalisem, kuna privaatne võti hoitakse vastuvõtja poolt privaatsena ja seda ei jagata kunagi. Avaliku võtme võib saada igaüks, kuna seda saab kasutada ainult sõnumite krüpteerimiseks.
 
@@ -166,7 +166,7 @@ Need sertifikaadid sisaldavad mitmeid välju, sealhulgas teavet selle kohta, kel
 
 X.509 sertifikaate kasutades on nii saatjal kui ka saajal oma avalikud ja privaatsed võtmed, samuti X.509 sertifikaadid, mis sisaldavad avalikku võtit. Nad vahetavad kuidagi X.509 sertifikaate, kasutades üksteise avalikke võtmeid andmete krüpteerimiseks, mida nad saadavad, ja oma privaatset võtit andmete dekrüpteerimiseks, mida nad vastu võtavad.
 
-![Selle asemel, et jagada avalikku võtit, saate jagada sertifikaati. Sertifikaadi kasutaja saab kontrollida, et see pärineb teilt, kontrollides sertifitseerimisasutust, kes selle allkirjastas.](../../../../../translated_images/send-message-certificate.9cc576ac1e46b76e.et.png)
+![Selle asemel, et jagada avalikku võtit, saate jagada sertifikaati. Sertifikaadi kasutaja saab kontrollida, et see pärineb teilt, kontrollides sertifitseerimisasutust, kes selle allkirjastas.](../../../../../translated_images/et/send-message-certificate.9cc576ac1e46b76e.png)
 
 Üks suur eelis X.509 sertifikaatide kasutamisel on see, et neid saab jagada seadmete vahel. Saate luua ühe sertifikaadi, laadida selle IoT Hubi ja kasutada seda kõigi oma seadmete jaoks. Iga seade peab siis teadma ainult privaatset võtit, et dekrüpteerida sõnumeid, mida ta IoT Hubilt saab.
 

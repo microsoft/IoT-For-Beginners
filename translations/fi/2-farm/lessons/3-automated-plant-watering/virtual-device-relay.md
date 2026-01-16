@@ -37,11 +37,11 @@ Lisää rele CounterFit-sovellukseen.
 
     1. Valitse **Add**-painike luodaksesi releen Pin 5:lle.
 
-    ![Releen asetukset](../../../../../translated_images/counterfit-create-relay.fa7c40fd0f2f6afc33b35ea94fcb235085be4861e14e3fe6b9b7bcfc82d1c888.fi.png)
+    ![Releen asetukset](../../../../../translated_images/fi/counterfit-create-relay.fa7c40fd0f2f6afc33b35ea94fcb235085be4861e14e3fe6b9b7bcfc82d1c888.png)
 
     Rele luodaan ja se näkyy aktuaattorilistassa.
 
-    ![Luotu rele](../../../../../translated_images/counterfit-relay.bbf74c1dbdc8b9acd983367fcbd06703a402aefef6af54ddb28e11307ba8a12c.fi.png)
+    ![Luotu rele](../../../../../translated_images/fi/counterfit-relay.bbf74c1dbdc8b9acd983367fcbd06703a402aefef6af54ddb28e11307ba8a12c.png)
 
 ## Ohjelmoi rele
 

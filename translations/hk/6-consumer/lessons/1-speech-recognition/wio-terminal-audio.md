@@ -19,7 +19,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 ✅ 在 [維基百科的直接記憶體存取頁面](https://wikipedia.org/wiki/Direct_memory_access) 上了解更多關於 DMA 的資訊。
 
-![音頻從麥克風進入 ADC，然後進入 DMAC。這會寫入一個緩衝區。當這個緩衝區滿了之後，它會被處理，DMAC 會寫入第二個緩衝區](../../../../../translated_images/dmac-adc-buffers.4509aee49145c90bc2e1be472b8ed2ddfcb2b6a81ad3e559114aca55f5fff759.hk.png)
+![音頻從麥克風進入 ADC，然後進入 DMAC。這會寫入一個緩衝區。當這個緩衝區滿了之後，它會被處理，DMAC 會寫入第二個緩衝區](../../../../../translated_images/hk/dmac-adc-buffers.4509aee49145c90bc2e1be472b8ed2ddfcb2b6a81ad3e559114aca55f5fff759.png)
 
 DMAC 可以以固定的間隔從 ADC 捕捉音頻，例如每秒 16,000 次以捕捉 16KHz 的音頻。它可以將捕捉到的數據寫入預先分配的記憶體緩衝區，當緩衝區滿了之後，將其提供給程式碼進行處理。使用這些記憶體可能會延遲音頻捕捉，但你可以設置多個緩衝區。DMAC 會先寫入緩衝區 1，當緩衝區 1 滿了之後，通知程式碼處理緩衝區 1，然後 DMAC 會寫入緩衝區 2。當緩衝區 2 滿了之後，它會通知程式碼，然後回到寫入緩衝區 1。這樣，只要你在填滿一個緩衝區的時間內處理完數據，就不會丟失任何數據。
 

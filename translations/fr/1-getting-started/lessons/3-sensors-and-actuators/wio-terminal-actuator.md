@@ -35,7 +35,7 @@ La LED Grove est fournie sous forme de module avec une sélection de LEDs, vous 
 
 Connectez la LED.
 
-![Une LED Grove](../../../../../translated_images/grove-led.6c853be93f473cf2c439cfc74bb1064732b22251a83cedf66e62f783f9cc1a79.fr.png)
+![Une LED Grove](../../../../../translated_images/fr/grove-led.6c853be93f473cf2c439cfc74bb1064732b22251a83cedf66e62f783f9cc1a79.png)
 
 1. Choisissez votre LED préférée et insérez ses pattes dans les deux trous du module LED.
 
@@ -51,7 +51,7 @@ Connectez la LED.
 
     > 💁 La prise Grove de droite peut être utilisée avec des capteurs et actionneurs analogiques ou numériques. La prise de gauche est réservée aux capteurs et actionneurs numériques uniquement. C
 
-![La LED Grove connectée à la prise de droite](../../../../../translated_images/wio-led.265a1897e72d7f21.fr.png)
+![La LED Grove connectée à la prise de droite](../../../../../translated_images/fr/wio-led.265a1897e72d7f21.webp)
 
 ## Programmer la veilleuse
 

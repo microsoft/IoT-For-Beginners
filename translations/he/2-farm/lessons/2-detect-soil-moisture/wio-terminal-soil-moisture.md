@@ -27,17 +27,17 @@ CO_OP_TRANSLATOR_METADATA:
 
 חברו את חיישן לחות הקרקע.
 
-![חיישן לחות קרקע מסוג Grove](../../../../../translated_images/grove-capacitive-soil-moisture-sensor.e7f0776cce30e78be5cc5a07839385fd6718857f31b5bf5ad3d0c73c83b2f0ef.he.png)
+![חיישן לחות קרקע מסוג Grove](../../../../../translated_images/he/grove-capacitive-soil-moisture-sensor.e7f0776cce30e78be5cc5a07839385fd6718857f31b5bf5ad3d0c73c83b2f0ef.png)
 
 1. הכניסו קצה אחד של כבל Grove לשקע שבחיישן לחות הקרקע. הכבל ייכנס רק בכיוון אחד.
 
 1. כאשר ה-Wio Terminal מנותק מהמחשב או ממקור כוח אחר, חברו את הקצה השני של כבל ה-Grove לשקע הימני ביותר ב-Wio Terminal כאשר אתם מביטים במסך. זהו השקע הרחוק ביותר מכפתור ההפעלה.
 
-![חיישן לחות הקרקע מחובר לשקע הימני](../../../../../translated_images/wio-soil-moisture-sensor.46919b61c3f6cb74.he.png)
+![חיישן לחות הקרקע מחובר לשקע הימני](../../../../../translated_images/he/wio-soil-moisture-sensor.46919b61c3f6cb74.png)
 
 1. הכניסו את חיישן לחות הקרקע לתוך האדמה. יש לו "קו מיקום מקסימלי" - קו לבן שחוצה את החיישן. הכניסו את החיישן עד לקו זה אך לא מעבר לו.
 
-![חיישן לחות הקרקע בתוך האדמה](../../../../../translated_images/soil-moisture-sensor-in-soil.bfad91002bda5e96.he.png)
+![חיישן לחות הקרקע בתוך האדמה](../../../../../translated_images/he/soil-moisture-sensor-in-soil.bfad91002bda5e96.png)
 
 1. כעת תוכלו לחבר את ה-Wio Terminal למחשב שלכם.
 

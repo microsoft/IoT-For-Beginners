@@ -43,11 +43,11 @@ CO_OP_TRANSLATOR_METADATA:
 
     1. دکمه **Add** را انتخاب کنید تا حسگر *Soil Moisture* روی پین ۰ ایجاد شود.
 
-    ![تنظیمات حسگر رطوبت خاک](../../../../../translated_images/counterfit-create-soil-moisture-sensor.35266135a5e0ae68b29a684d7db0d2933a8098b2307d197f7c71577b724603aa.fa.png)
+    ![تنظیمات حسگر رطوبت خاک](../../../../../translated_images/fa/counterfit-create-soil-moisture-sensor.35266135a5e0ae68b29a684d7db0d2933a8098b2307d197f7c71577b724603aa.png)
 
     حسگر رطوبت خاک ایجاد شده و در لیست حسگرها ظاهر می‌شود.
 
-    ![حسگر رطوبت خاک ایجاد شده](../../../../../translated_images/counterfit-soil-moisture-sensor.81742b2de0e9de60a3b3b9a2ff8ecc686d428eb6d71820f27a693be26e5aceee.fa.png)
+    ![حسگر رطوبت خاک ایجاد شده](../../../../../translated_images/fa/counterfit-soil-moisture-sensor.81742b2de0e9de60a3b3b9a2ff8ecc686d428eb6d71820f27a693be26e5aceee.png)
 
 ## برنامه‌نویسی برنامه حسگر رطوبت خاک
 

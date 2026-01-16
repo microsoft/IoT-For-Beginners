@@ -64,7 +64,7 @@ Yhdistä Wio Terminal WiFi-verkkoon.
 
 1. Luo uusi tiedosto `src`-kansioon nimeltä `config.h`. Voit tehdä tämän valitsemalla `src`-kansion tai sen sisällä olevan `main.cpp`-tiedoston ja napsauttamalla **Uusi tiedosto** -painiketta resurssienhallinnassa. Tämä painike näkyy vain, kun hiiren osoitin on resurssienhallinnan päällä.
 
-    ![Uuden tiedoston painike](../../../../../translated_images/vscode-new-file-button.182702340fe6723c.fi.png)
+    ![Uuden tiedoston painike](../../../../../translated_images/fi/vscode-new-file-button.182702340fe6723c.png)
 
 1. Lisää tähän tiedostoon seuraava koodi määrittääksesi WiFi-tunnistetietojen vakioarvot:
 

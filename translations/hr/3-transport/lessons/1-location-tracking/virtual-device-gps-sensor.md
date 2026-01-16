@@ -47,11 +47,11 @@ Dodajte GPS senzor u CounterFit aplikaciju.
 
     1. Odaberite gumb **Add** za kreiranje GPS senzora na portu `/dev/ttyAMA0`.
 
-    ![Postavke GPS senzora](../../../../../translated_images/counterfit-create-gps-sensor.6385dc9357d85ad1d47b4abb2525e7651fd498917d25eefc5a72feab09eedc70.hr.png)
+    ![Postavke GPS senzora](../../../../../translated_images/hr/counterfit-create-gps-sensor.6385dc9357d85ad1d47b4abb2525e7651fd498917d25eefc5a72feab09eedc70.png)
 
     GPS senzor će biti kreiran i pojavit će se na popisu senzora.
 
-    ![Kreirani GPS senzor](../../../../../translated_images/counterfit-gps-sensor.3fbb15af0a5367566f2f11324ef5a6f30861cdf2b497071a5e002b7aa473550e.hr.png)
+    ![Kreirani GPS senzor](../../../../../translated_images/hr/counterfit-gps-sensor.3fbb15af0a5367566f2f11324ef5a6f30861cdf2b497071a5e002b7aa473550e.png)
 
 ## Programiranje GPS senzora
 
@@ -111,17 +111,17 @@ Programirajte aplikaciju za GPS senzor.
 
     * Postavite **Source** na `Lat/Lon`, i postavite eksplicitnu geografsku širinu, dužinu i broj satelita korištenih za GPS fiks. Ova vrijednost će biti poslana samo jednom, pa označite **Repeat** okvir kako bi se podaci ponavljali svake sekunde.
 
-      ![GPS senzor s odabranim lat lon](../../../../../translated_images/counterfit-gps-sensor-latlon.008c867d75464fbe7f84107cc57040df565ac07cb57d2f21db37d087d470197d.hr.png)
+      ![GPS senzor s odabranim lat lon](../../../../../translated_images/hr/counterfit-gps-sensor-latlon.008c867d75464fbe7f84107cc57040df565ac07cb57d2f21db37d087d470197d.png)
 
     * Postavite **Source** na `NMEA` i dodajte neke NMEA rečenice u tekstualni okvir. Sve ove vrijednosti će biti poslane, s odgodom od 1 sekunde prije svake nove GGA (pozicijski fiks) rečenice koja se može pročitati.
 
-      ![GPS senzor s postavljenim NMEA rečenicama](../../../../../translated_images/counterfit-gps-sensor-nmea.c62eea442171e17e19528b051b104cfcecdc9cd18db7bc72920f29821ae63f73.hr.png)
+      ![GPS senzor s postavljenim NMEA rečenicama](../../../../../translated_images/hr/counterfit-gps-sensor-nmea.c62eea442171e17e19528b051b104cfcecdc9cd18db7bc72920f29821ae63f73.png)
 
       Možete koristiti alat poput [nmeagen.org](https://www.nmeagen.org) za generiranje ovih rečenica crtanjem na karti. Ove vrijednosti će biti poslane samo jednom, pa označite **Repeat** okvir kako bi se podaci ponavljali jednu sekundu nakon što su svi poslani.
 
     * Postavite **Source** na GPX datoteku i učitajte GPX datoteku s lokacijama staza. GPX datoteke možete preuzeti s brojnih popularnih stranica za kartografiju i planinarenje, poput [AllTrails](https://www.alltrails.com/). Ove datoteke sadrže više GPS lokacija kao stazu, a GPS senzor će vraćati svaku novu lokaciju u intervalima od 1 sekunde.
 
-      ![GPS senzor s postavljenom GPX datotekom](../../../../../translated_images/counterfit-gps-sensor-gpxfile.8310b063ce8a425ccc8ebeec8306aeac5e8e55207f007d52c6e1194432a70cd9.hr.png)
+      ![GPS senzor s postavljenom GPX datotekom](../../../../../translated_images/hr/counterfit-gps-sensor-gpxfile.8310b063ce8a425ccc8ebeec8306aeac5e8e55207f007d52c6e1194432a70cd9.png)
 
       Ove vrijednosti će biti poslane samo jednom, pa označite **Repeat** okvir kako bi se podaci ponavljali jednu sekundu nakon što su svi poslani.
 

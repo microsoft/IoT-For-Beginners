@@ -45,11 +45,11 @@ Otherwise
 
     1. 選擇 **Add** 按鈕，在 Pin 5 上創建 LED。
 
-    ![LED 設置](../../../../../translated_images/counterfit-create-led.ba9db1c9b8c622a635d6dfae5cdc4e70c2b250635bd4f0601c6cf0bd22b7ba46.hk.png)
+    ![LED 設置](../../../../../translated_images/hk/counterfit-create-led.ba9db1c9b8c622a635d6dfae5cdc4e70c2b250635bd4f0601c6cf0bd22b7ba46.png)
 
     LED 將被創建並顯示在執行器列表中。
 
-    ![已創建的 LED](../../../../../translated_images/counterfit-led.c0ab02de6d256ad84d9bad4d67a7faa709f0ea83e410cfe9b5561ef0cef30b1c.hk.png)
+    ![已創建的 LED](../../../../../translated_images/hk/counterfit-led.c0ab02de6d256ad84d9bad4d67a7faa709f0ea83e410cfe9b5561ef0cef30b1c.png)
 
     LED 創建後，你可以使用 *Color* 選擇器更改顏色。選擇顏色後，點擊 **Set** 按鈕即可更改顏色。
 

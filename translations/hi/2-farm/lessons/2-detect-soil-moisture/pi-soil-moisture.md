@@ -27,17 +27,17 @@ Grove मिट्टी नमी सेंसर को रास्पबे�
 
 मिट्टी नमी सेंसर को कनेक्ट करें।
 
-![एक Grove मिट्टी नमी सेंसर](../../../../../translated_images/grove-capacitive-soil-moisture-sensor.e7f0776cce30e78be5cc5a07839385fd6718857f31b5bf5ad3d0c73c83b2f0ef.hi.png)
+![एक Grove मिट्टी नमी सेंसर](../../../../../translated_images/hi/grove-capacitive-soil-moisture-sensor.e7f0776cce30e78be5cc5a07839385fd6718857f31b5bf5ad3d0c73c83b2f0ef.png)
 
 1. Grove केबल के एक सिरे को मिट्टी नमी सेंसर के सॉकेट में डालें। यह केवल एक ही दिशा में जाएगा।
 
 1. रास्पबेरी पाई को बंद करके, Grove केबल के दूसरे सिरे को Grove Base Hat पर **A0** चिह्नित एनालॉग सॉकेट में कनेक्ट करें। यह सॉकेट GPIO पिन्स के पास वाली पंक्ति में दाईं ओर से दूसरा है।
 
-![A0 सॉकेट से जुड़ा Grove मिट्टी नमी सेंसर](../../../../../translated_images/pi-soil-moisture-sensor.fdd7eb2393792cf6739cacf1985d9f55beda16d372f30d0b5a51d586f978a870.hi.png)
+![A0 सॉकेट से जुड़ा Grove मिट्टी नमी सेंसर](../../../../../translated_images/hi/pi-soil-moisture-sensor.fdd7eb2393792cf6739cacf1985d9f55beda16d372f30d0b5a51d586f978a870.png)
 
 1. मिट्टी नमी सेंसर को मिट्टी में डालें। इसमें एक 'उच्चतम स्थिति रेखा' होती है - सेंसर पर एक सफेद रेखा। सेंसर को इस रेखा तक, लेकिन इससे आगे नहीं डालें।
 
-![मिट्टी में Grove मिट्टी नमी सेंसर](../../../../../translated_images/soil-moisture-sensor-in-soil.bfad91002bda5e96.hi.png)
+![मिट्टी में Grove मिट्टी नमी सेंसर](../../../../../translated_images/hi/soil-moisture-sensor-in-soil.bfad91002bda5e96.png)
 
 ## मिट्टी नमी सेंसर को प्रोग्राम करें
 

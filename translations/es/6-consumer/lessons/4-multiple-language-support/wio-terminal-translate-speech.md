@@ -114,7 +114,7 @@ La API REST del servicio de discurso no admite traducciones directas. En su luga
     >
     > Por ejemplo, si entrenas LUIS en inglés pero deseas usar francés como idioma del usuario, puedes traducir frases como "set a 2 minute and 27 second timer" de inglés a francés utilizando Bing Translate, luego usar el botón **Escuchar traducción** para hablar la traducción en tu micrófono.
     >
-    > ![El botón escuchar traducción en Bing Translate](../../../../../translated_images/bing-translate.348aa796d6efe2a92f41ea74a5cf42bb4c63d6faaa08e7f46924e072a35daa48.es.png)
+    > ![El botón escuchar traducción en Bing Translate](../../../../../translated_images/es/bing-translate.348aa796d6efe2a92f41ea74a5cf42bb4c63d6faaa08e7f46924e072a35daa48.png)
 
 1. Agrega la clave de API del traductor y la ubicación debajo de `SPEECH_LOCATION`:
 

@@ -27,13 +27,13 @@ Grove relej može se povezati s Raspberry Pi-jem.
 
 Povežite relej.
 
-![Grove relej](../../../../../translated_images/grove-relay.d426958ca210fbd0fb7983d7edc069d46c73a8b0a099d94797bd756f7b6bb6be.hr.png)
+![Grove relej](../../../../../translated_images/hr/grove-relay.d426958ca210fbd0fb7983d7edc069d46c73a8b0a099d94797bd756f7b6bb6be.png)
 
 1. Umetnite jedan kraj Grove kabela u utičnicu na releju. Kabel će ući samo na jedan način.
 
 1. Dok je Raspberry Pi isključen, spojite drugi kraj Grove kabela na digitalnu utičnicu označenu **D5** na Grove Base Hat-u pričvršćenom na Pi. Ova utičnica je druga s lijeva, u redu utičnica pored GPIO pinova. Ostavite senzor vlažnosti tla povezan na utičnicu **A0**.
 
-![Grove relej povezan na utičnicu D5, a senzor vlažnosti tla povezan na utičnicu A0](../../../../../translated_images/pi-relay-and-soil-moisture-sensor.02f3198975b8c53e69ec716cd2719ce117700bd1fc933eaf93476c103c57939b.hr.png)
+![Grove relej povezan na utičnicu D5, a senzor vlažnosti tla povezan na utičnicu A0](../../../../../translated_images/hr/pi-relay-and-soil-moisture-sensor.02f3198975b8c53e69ec716cd2719ce117700bd1fc933eaf93476c103c57939b.png)
 
 1. Umetnite senzor vlažnosti tla u tlo, ako već nije iz prethodne lekcije.
 

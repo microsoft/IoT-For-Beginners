@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Migra tu planta a la nube
 
-![Un resumen visual de esta lección](../../../../../translated_images/lesson-8.3f21f3c11159e6a0a376351973ea5724d5de68fa23b4288853a174bed9ac48c3.es.jpg)
+![Un resumen visual de esta lección](../../../../../translated_images/es/lesson-8.3f21f3c11159e6a0a376351973ea5724d5de68fa23b4288853a174bed9ac48c3.jpg)
 
 > Resumen visual por [Nitya Narasimhan](https://github.com/nitya). Haz clic en la imagen para una versión más grande.
 
@@ -55,8 +55,8 @@ Esto podía ser muy costoso, requerir una amplia gama de empleados especializado
 
 La nube a menudo se describe en broma como "el ordenador de otra persona". La idea inicial era simple: en lugar de comprar ordenadores, alquilas los de otra persona. Un proveedor de computación en la nube se encargaría de gestionar enormes centros de datos. Ellos serían responsables de comprar e instalar el hardware, gestionar la energía y la refrigeración, las redes, la seguridad del edificio, las actualizaciones de hardware y software, todo. Como cliente, alquilas los ordenadores que necesitas, aumentando el alquiler cuando la demanda sube y reduciéndolo cuando la demanda baja. Estos centros de datos en la nube están distribuidos por todo el mundo.
 
-![Un centro de datos en la nube de Microsoft](../../../../../translated_images/azure-region-existing.73f704604f2aa6cb9b5a49ed40e93d4fd81ae3f4e6af4a8ca504023902832f56.es.png)
-![Expansión planificada de un centro de datos en la nube de Microsoft](../../../../../translated_images/azure-region-planned-expansion.a5074a1e8af74f156a73552d502429e5b126ea5019274d767ecb4b9afdad442b.es.png)
+![Un centro de datos en la nube de Microsoft](../../../../../translated_images/es/azure-region-existing.73f704604f2aa6cb9b5a49ed40e93d4fd81ae3f4e6af4a8ca504023902832f56.png)
+![Expansión planificada de un centro de datos en la nube de Microsoft](../../../../../translated_images/es/azure-region-planned-expansion.a5074a1e8af74f156a73552d502429e5b126ea5019274d767ecb4b9afdad442b.png)
 
 Estos centros de datos pueden tener varios kilómetros cuadrados de tamaño. Las imágenes anteriores fueron tomadas hace algunos años en un centro de datos en la nube de Microsoft y muestran el tamaño inicial, junto con una expansión planificada. El área despejada para la expansión tiene más de 5 kilómetros cuadrados.
 
@@ -72,7 +72,7 @@ El proveedor de la nube puede entonces aprovechar las economías de escala para 
 
 Azure es la nube para desarrolladores de Microsoft, y es la nube que usarás en estas lecciones. El siguiente video ofrece una breve descripción de Azure:
 
-[![Video de introducción a Azure](../../../../../translated_images/what-is-azure-video-thumbnail.20174db09e03bbb8.es.png)](https://www.microsoft.com/videoplayer/embed/RE4Ibng?WT.mc_id=academic-17441-jabenn)
+[![Video de introducción a Azure](../../../../../translated_images/es/what-is-azure-video-thumbnail.20174db09e03bbb8.webp)](https://www.microsoft.com/videoplayer/embed/RE4Ibng?WT.mc_id=academic-17441-jabenn)
 
 ## Crear una suscripción en la nube
 
@@ -117,11 +117,11 @@ Los servicios de IoT en la nube resuelven estos problemas. Son mantenidos por gr
 
 Los dispositivos IoT se conectan a un servicio en la nube ya sea utilizando un SDK de dispositivo (una biblioteca que proporciona código para trabajar con las características del servicio) o directamente a través de un protocolo de comunicación como MQTT o HTTP. El SDK de dispositivo suele ser la ruta más fácil, ya que maneja todo por ti, como saber a qué temas publicar o suscribirse y cómo manejar la seguridad.
 
-![Los dispositivos se conectan a un servicio usando un SDK de dispositivo. El código del servidor también se conecta al servicio a través de un SDK](../../../../../translated_images/iot-service-connectivity.7e873847921a5d6fd60d0ba3a943210194518cee0d4e362476624316443275c3.es.png)
+![Los dispositivos se conectan a un servicio usando un SDK de dispositivo. El código del servidor también se conecta al servicio a través de un SDK](../../../../../translated_images/es/iot-service-connectivity.7e873847921a5d6fd60d0ba3a943210194518cee0d4e362476624316443275c3.png)
 
 Tu dispositivo luego se comunica con otras partes de tu aplicación a través de este servicio, de manera similar a cómo enviaste telemetría y recibiste comandos a través de MQTT. Esto generalmente se hace utilizando un SDK de servicio o una biblioteca similar. Los mensajes van desde tu dispositivo al servicio, donde otros componentes de tu aplicación pueden leerlos, y los mensajes pueden enviarse de vuelta a tu dispositivo.
 
-![Los dispositivos sin una clave secreta válida no pueden conectarse al servicio IoT](../../../../../translated_images/iot-service-allowed-denied-connection.818b0063ac213fb84204a7229303764d9b467ca430fb822b4ac2fca267d56726.es.png)
+![Los dispositivos sin una clave secreta válida no pueden conectarse al servicio IoT](../../../../../translated_images/es/iot-service-allowed-denied-connection.818b0063ac213fb84204a7229303764d9b467ca430fb822b4ac2fca267d56726.png)
 
 Estos servicios implementan seguridad al conocer todos los dispositivos que pueden conectarse y enviar datos, ya sea registrando previamente los dispositivos en el servicio o proporcionando a los dispositivos claves secretas o certificados que pueden usar para registrarse en el servicio la primera vez que se conectan. Los dispositivos desconocidos no pueden conectarse; si lo intentan, el servicio rechaza la conexión e ignora los mensajes enviados por ellos.
 
@@ -133,7 +133,7 @@ Otros componentes de tu aplicación pueden conectarse al servicio IoT y obtener 
 
 Ahora que tienes una suscripción a Azure, puedes registrarte en un servicio IoT. El servicio IoT de Microsoft se llama Azure IoT Hub.
 
-![El logo de Azure IoT Hub](../../../../../translated_images/azure-iot-hub-logo.28a19de76d0a1932464d858f7558712bcdace3e5ec69c434d482ed7ce41c3a26.es.png)
+![El logo de Azure IoT Hub](../../../../../translated_images/es/azure-iot-hub-logo.28a19de76d0a1932464d858f7558712bcdace3e5ec69c434d482ed7ce41c3a26.png)
 
 El siguiente video ofrece una breve descripción general de Azure IoT Hub:
 

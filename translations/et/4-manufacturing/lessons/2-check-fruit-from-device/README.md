@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Kontrolli puuviljade kvaliteeti IoT-seadmest
 
-![Selle õppetunni ülevaade sketšina](../../../../../translated_images/lesson-16.215daf18b00631fbdfd64c6fc2dc6044dff5d544288825d8076f9fb83d964c23.et.jpg)
+![Selle õppetunni ülevaade sketšina](../../../../../translated_images/et/lesson-16.215daf18b00631fbdfd64c6fc2dc6044dff5d544288825d8076f9fb83d964c23.jpg)
 
 > Sketš: [Nitya Narasimhan](https://github.com/nitya). Klõpsa pildil, et näha suuremat versiooni.
 
@@ -35,7 +35,7 @@ Selles õppetunnis käsitleme:
 
 Kaamerasensorid, nagu nimigi ütleb, on kaamerad, mida saab ühendada IoT-seadmega. Need võivad teha nii üksikuid pilte kui ka salvestada voogedastusega videot. Mõned tagastavad toorpildi andmeid, teised aga tihendavad pildiandmed pildifailiks, näiteks JPEG või PNG. Tavaliselt on IoT-seadmetega töötavad kaamerad palju väiksemad ja madalama resolutsiooniga, kui te olete harjunud, kuid on olemas ka kõrge resolutsiooniga kaameraid, mis võivad konkureerida tippklassi telefonidega. Saadaval on erinevaid vahetatavaid läätsi, mitme kaamera seadistusi, infrapuna termokaameraid või UV-kaameraid.
 
-![Valgus stseenist läbib läätse ja fokuseeritakse CMOS-sensorile](../../../../../translated_images/cmos-sensor.75f9cd74decb137149a4c9ea825251a4549497d67c0ae2776159e6102bb53aa9.et.png)
+![Valgus stseenist läbib läätse ja fokuseeritakse CMOS-sensorile](../../../../../translated_images/et/cmos-sensor.75f9cd74decb137149a4c9ea825251a4549497d67c0ae2776159e6102bb53aa9.png)
 
 Enamik kaamerasensoreid kasutab pildisensoreid, kus iga piksel on fotodiood. Lääts fokuseerib pildi pildisensorile ja tuhanded või miljonid fotodioodid tuvastavad igaühele langeva valguse ning salvestavad selle pikslite andmetena.
 
@@ -83,7 +83,7 @@ Iteratsioone avaldatakse Custom Vision portaalist.
 
 1. Valige iteratsiooni jaoks **Publish** nupp.
 
-    ![Avaldamise nupp](../../../../../translated_images/custom-vision-publish-button.b7174e1977b0c33b8b72d4e5b1326c779e0af196f3849d09985ee2d7d5493a39.et.png)
+    ![Avaldamise nupp](../../../../../translated_images/et/custom-vision-publish-button.b7174e1977b0c33b8b72d4e5b1326c779e0af196f3849d09985ee2d7d5493a39.png)
 
 1. *Publish Model* dialoogis määrake *Prediction resource* väärtuseks `fruit-quality-detector-prediction` ressurss, mille lõite eelmises õppetunnis. Jätke nimi `Iteration2` ja valige **Publish** nupp.
 
@@ -97,7 +97,7 @@ Iteratsioone avaldatakse Custom Vision portaalist.
 
     Samuti kopeerige *Prediction-Key* väärtus. See on turvaline võti, mida peate mudeli kutsumisel edastama. Ainult rakendused, mis edastavad selle võtme, saavad mudelit kasutada, kõik teised rakendused lükatakse tagasi.
 
-    ![Ennustuse API dialoog, mis näitab URL-i ja võtit](../../../../../translated_images/custom-vision-prediction-key-endpoint.30c569ffd0338864f319911f052d5e9b8c5066cb0800a26dd6f7ff5713130ad8.et.png)
+    ![Ennustuse API dialoog, mis näitab URL-i ja võtit](../../../../../translated_images/et/custom-vision-prediction-key-endpoint.30c569ffd0338864f319911f052d5e9b8c5066cb0800a26dd6f7ff5713130ad8.png)
 
 ✅ Kui uus iteratsioon avaldatakse, on sellel erinev nimi. Kuidas arvate, et muudaksite iteratsiooni, mida IoT-seade kasutab?
 
@@ -118,7 +118,7 @@ Võite avastada, et tulemused, mida saate kaameraga ühendatud IoT-seadmest, ei 
 
 Parimate tulemuste saavutamiseks pildiklassifikaatoriga soovite treenida mudelit piltidega, mis on võimalikult sarnased ennustamiseks kasutatavate piltidega. Kui kasutasite oma telefoni kaamerat piltide jäädvustamiseks treenimiseks, on näiteks pildikvaliteet, teravus ja värvid erinevad IoT-seadmega ühendatud kaamerast.
 
-![2 banaanipilti, üks madala resolutsiooniga ja halva valgustusega IoT-seadmest ning teine kõrge resolutsiooniga ja hea valgustusega telefonist](../../../../../translated_images/banana-picture-compare.174df164dc326a42cf7fb051a7497e6113c620e91552d92ca914220305d47d9a.et.png)
+![2 banaanipilti, üks madala resolutsiooniga ja halva valgustusega IoT-seadmest ning teine kõrge resolutsiooniga ja hea valgustusega telefonist](../../../../../translated_images/et/banana-picture-compare.174df164dc326a42cf7fb051a7497e6113c620e91552d92ca914220305d47d9a.png)
 
 Ülaltoodud pildil on vasakpoolne banaanipilt tehtud Raspberry Pi kaameraga, parempoolne aga sama banaani pilt samas kohas iPhone'iga. Kvaliteedis on märgatav erinevus - iPhone'i pilt on teravam, heledamate värvide ja suurema kontrastsusega.
 

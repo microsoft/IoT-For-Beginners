@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Configura un temporizador y proporciona retroalimentación hablada
 
-![Un resumen visual de esta lección](../../../../../translated_images/lesson-23.f38483e1d4df4828990d3f02d60e46c978b075d384ae7cb4f7bab738e107c850.es.jpg)
+![Un resumen visual de esta lección](../../../../../translated_images/es/lesson-23.f38483e1d4df4828990d3f02d60e46c978b075d384ae7cb4f7bab738e107c850.jpg)
 
 > Boceto por [Nitya Narasimhan](https://github.com/nitya). Haz clic en la imagen para una versión más grande.
 
@@ -37,7 +37,7 @@ En esta lección cubriremos:
 
 Texto a voz, como su nombre lo indica, es el proceso de convertir texto en audio que contiene las palabras habladas. El principio básico es descomponer las palabras del texto en sus sonidos constituyentes (conocidos como fonemas) y unir el audio de esos sonidos, ya sea utilizando audio pregrabado o generado por modelos de inteligencia artificial.
 
-![Las tres etapas de los sistemas típicos de texto a voz](../../../../../translated_images/tts-overview.193843cf3f5ee09f.es.png)
+![Las tres etapas de los sistemas típicos de texto a voz](../../../../../translated_images/es/tts-overview.193843cf3f5ee09f.webp)
 
 Los sistemas de texto a voz generalmente tienen 3 etapas:
 

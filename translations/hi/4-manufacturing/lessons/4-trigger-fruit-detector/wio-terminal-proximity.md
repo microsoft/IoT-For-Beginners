@@ -29,13 +29,13 @@ Grove टाइम ऑफ फ्लाइट सेंसर को Wio Terminal
 
 टाइम ऑफ फ्लाइट सेंसर को कनेक्ट करें।
 
-![एक Grove टाइम ऑफ फ्लाइट सेंसर](../../../../../translated_images/grove-time-of-flight-sensor.d82ff2165bfded9f485de54d8d07195a6270a602696825fca19f629ddfe94e86.hi.png)
+![एक Grove टाइम ऑफ फ्लाइट सेंसर](../../../../../translated_images/hi/grove-time-of-flight-sensor.d82ff2165bfded9f485de54d8d07195a6270a602696825fca19f629ddfe94e86.png)
 
 1. Grove केबल के एक सिरे को टाइम ऑफ फ्लाइट सेंसर के सॉकेट में डालें। यह केवल एक ही दिशा में जाएगा।
 
 1. Wio Terminal को अपने कंप्यूटर या किसी अन्य पावर सप्लाई से डिस्कनेक्ट करें। Grove केबल के दूसरे सिरे को Wio Terminal के स्क्रीन की ओर देखते हुए बाईं ओर के Grove सॉकेट में कनेक्ट करें। यह सॉकेट पावर बटन के सबसे करीब है। यह एक संयुक्त डिजिटल और I²C सॉकेट है।
 
-![टाइम ऑफ फ्लाइट सेंसर को बाईं ओर के सॉकेट से जोड़ा गया](../../../../../translated_images/wio-time-of-flight-sensor.c4c182131d2ea73d.hi.png)
+![टाइम ऑफ फ्लाइट सेंसर को बाईं ओर के सॉकेट से जोड़ा गया](../../../../../translated_images/hi/wio-time-of-flight-sensor.c4c182131d2ea73d.png)
 
 1. अब आप Wio Terminal को अपने कंप्यूटर से कनेक्ट कर सकते हैं।
 
@@ -101,7 +101,7 @@ Grove टाइम ऑफ फ्लाइट सेंसर को Wio Terminal
 
     रेंजफाइंडर सेंसर के पीछे की तरफ है, इसलिए दूरी मापते समय सही दिशा का उपयोग करना सुनिश्चित करें।
 
-    ![टाइम ऑफ फ्लाइट सेंसर के पीछे का रेंजफाइंडर एक केले की ओर इशारा करते हुए](../../../../../translated_images/time-of-flight-banana.079921ad8b1496e4.hi.png)
+    ![टाइम ऑफ फ्लाइट सेंसर के पीछे का रेंजफाइंडर एक केले की ओर इशारा करते हुए](../../../../../translated_images/hi/time-of-flight-banana.079921ad8b1496e4.png)
 
 > 💁 आप इस कोड को [code-proximity/wio-terminal](../../../../../4-manufacturing/lessons/4-trigger-fruit-detector/code-proximity/wio-terminal) फोल्डर में पा सकते हैं।
 

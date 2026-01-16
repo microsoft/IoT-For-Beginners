@@ -114,7 +114,7 @@ CO_OP_TRANSLATOR_METADATA:
     >
     > برای مثال، اگر LUIS را به زبان انگلیسی آموزش داده‌اید اما می‌خواهید از زبان فرانسوی به‌عنوان زبان کاربر استفاده کنید، می‌توانید جملاتی مانند "set a 2 minute and 27 second timer" را از انگلیسی به فرانسوی با استفاده از Bing Translate ترجمه کنید، سپس از دکمه **Listen translation** برای گفتن ترجمه به میکروفون خود استفاده کنید.
     >
-    > ![دکمه Listen translation در Bing Translate](../../../../../translated_images/bing-translate.348aa796d6efe2a92f41ea74a5cf42bb4c63d6faaa08e7f46924e072a35daa48.fa.png)
+    > ![دکمه Listen translation در Bing Translate](../../../../../translated_images/fa/bing-translate.348aa796d6efe2a92f41ea74a5cf42bb4c63d6faaa08e7f46924e072a35daa48.png)
 
 1. کلید API مترجم و مکان آن را زیر `SPEECH_LOCATION` اضافه کنید:
 

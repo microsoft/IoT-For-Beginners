@@ -45,11 +45,11 @@ Lisage kaugusandur CounterFit rakendusse.
 
     1. Valige **Add** nupp, et luua kaugusandur.
 
-    ![Kaugusanduri seaded](../../../../../translated_images/counterfit-create-distance-sensor.967c9fb98f27888d95920c9784d004c972490eb71f70397fe13bd70a79a879a3.et.png)
+    ![Kaugusanduri seaded](../../../../../translated_images/et/counterfit-create-distance-sensor.967c9fb98f27888d95920c9784d004c972490eb71f70397fe13bd70a79a879a3.png)
 
     Kaugusandur luuakse ja ilmub andurite loendisse.
 
-    ![Loodud kaugusandur](../../../../../translated_images/counterfit-distance-sensor.079eefeeea0b68afc36431ce8fcbe2f09a7e4916ed1cd5cb30e696db53bc18fa.et.png)
+    ![Loodud kaugusandur](../../../../../translated_images/et/counterfit-distance-sensor.079eefeeea0b68afc36431ce8fcbe2f09a7e4916ed1cd5cb30e696db53bc18fa.png)
 
 ## Programmeerige kaugusandur
 

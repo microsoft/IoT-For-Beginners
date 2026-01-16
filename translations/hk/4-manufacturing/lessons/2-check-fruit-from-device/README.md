@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # 從 IoT 裝置檢查水果品質
 
-![本課程的手繪筆記概覽](../../../../../translated_images/lesson-16.215daf18b00631fbdfd64c6fc2dc6044dff5d544288825d8076f9fb83d964c23.hk.jpg)
+![本課程的手繪筆記概覽](../../../../../translated_images/hk/lesson-16.215daf18b00631fbdfd64c6fc2dc6044dff5d544288825d8076f9fb83d964c23.jpg)
 
 > 手繪筆記由 [Nitya Narasimhan](https://github.com/nitya) 提供。點擊圖片以查看更大版本。
 
@@ -35,7 +35,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 顧名思義，攝影機感測器是可以連接到 IoT 裝置的攝影機。它們可以拍攝靜態影像或錄製串流影片。有些會返回原始影像數據，而另一些則會將影像數據壓縮成 JPEG 或 PNG 等影像檔案。通常，與 IoT 裝置配合使用的攝影機比你習慣使用的攝影機要小得多，解析度也較低，但你也可以找到解析度高到可以媲美高端手機的攝影機。你還可以選擇各種可更換鏡頭、多攝影機配置、紅外線熱成像攝影機或紫外線攝影機。
 
-![場景中的光線通過鏡頭並聚焦在 CMOS 感測器上](../../../../../translated_images/cmos-sensor.75f9cd74decb137149a4c9ea825251a4549497d67c0ae2776159e6102bb53aa9.hk.png)
+![場景中的光線通過鏡頭並聚焦在 CMOS 感測器上](../../../../../translated_images/hk/cmos-sensor.75f9cd74decb137149a4c9ea825251a4549497d67c0ae2776159e6102bb53aa9.png)
 
 大多數攝影機感測器使用影像感測器，其中每個像素都是一個光電二極管。鏡頭將影像聚焦到影像感測器上，數千或數百萬個光電二極管檢測落在每個二極管上的光線，並將其記錄為像素數據。
 
@@ -83,7 +83,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 1. 選擇該迭代版本的 **Publish** 按鈕。
 
-    ![發佈按鈕](../../../../../translated_images/custom-vision-publish-button.b7174e1977b0c33b8b72d4e5b1326c779e0af196f3849d09985ee2d7d5493a39.hk.png)
+    ![發佈按鈕](../../../../../translated_images/hk/custom-vision-publish-button.b7174e1977b0c33b8b72d4e5b1326c779e0af196f3849d09985ee2d7d5493a39.png)
 
 1. 在 *Publish Model* 對話框中，將 *Prediction resource* 設置為你在上一課中創建的 `fruit-quality-detector-prediction` 資源。將名稱保留為 `Iteration2`，然後選擇 **Publish** 按鈕。
 
@@ -97,7 +97,7 @@ CO_OP_TRANSLATOR_METADATA:
 
     同時複製 *Prediction-Key* 值。這是一個安全密鑰，當你呼叫模型時必須傳遞該密鑰。只有傳遞此密鑰的應用程式才能使用該模型，其他應用程式將被拒絕。
 
-    ![預測 API 對話框顯示 URL 和密鑰](../../../../../translated_images/custom-vision-prediction-key-endpoint.30c569ffd0338864f319911f052d5e9b8c5066cb0800a26dd6f7ff5713130ad8.hk.png)
+    ![預測 API 對話框顯示 URL 和密鑰](../../../../../translated_images/hk/custom-vision-prediction-key-endpoint.30c569ffd0338864f319911f052d5e9b8c5066cb0800a26dd6f7ff5713130ad8.png)
 
 ✅ 當發佈一個新迭代版本時，它會有一個不同的名稱。你認為應該如何更改 IoT 裝置使用的迭代版本？
 
@@ -118,7 +118,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 為了讓影像分類器獲得最佳結果，你需要使用與預測影像盡可能相似的影像來訓練模型。例如，如果你使用手機攝影機捕捉影像進行訓練，那麼影像的質量、清晰度和顏色將與連接到 IoT 裝置的攝影機不同。
 
-![兩張香蕉圖片，一張是 IoT 裝置拍攝的低解析度影像，另一張是手機拍攝的高解析度影像](../../../../../translated_images/banana-picture-compare.174df164dc326a42cf7fb051a7497e6113c620e91552d92ca914220305d47d9a.hk.png)
+![兩張香蕉圖片，一張是 IoT 裝置拍攝的低解析度影像，另一張是手機拍攝的高解析度影像](../../../../../translated_images/hk/banana-picture-compare.174df164dc326a42cf7fb051a7497e6113c620e91552d92ca914220305d47d9a.png)
 
 在上圖中，左側的香蕉圖片是使用 Raspberry Pi 攝影機拍攝的，右側的圖片是使用 iPhone 在相同位置拍攝的同一根香蕉。兩者的質量有明顯差異——iPhone 的圖片更清晰，顏色更鮮豔，對比度更高。
 

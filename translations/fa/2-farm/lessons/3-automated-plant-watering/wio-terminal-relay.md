@@ -27,13 +27,13 @@ Wio Terminal به یک رله نیاز دارد.
 
 رله را متصل کنید.
 
-![یک رله Grove](../../../../../translated_images/grove-relay.d426958ca210fbd0fb7983d7edc069d46c73a8b0a099d94797bd756f7b6bb6be.fa.png)
+![یک رله Grove](../../../../../translated_images/fa/grove-relay.d426958ca210fbd0fb7983d7edc069d46c73a8b0a099d94797bd756f7b6bb6be.png)
 
 1. یک سر کابل Grove را به سوکت روی رله وارد کنید. این کابل فقط از یک جهت وارد می‌شود.
 
 2. با قطع اتصال Wio Terminal از کامپیوتر یا منبع تغذیه دیگر، سر دیگر کابل Grove را به سوکت سمت چپ Wio Terminal متصل کنید (وقتی به صفحه نمایش نگاه می‌کنید). حسگر رطوبت خاک را به سوکت سمت راست متصل نگه دارید.
 
-![رله Grove متصل به سوکت سمت چپ و حسگر رطوبت خاک متصل به سوکت سمت راست](../../../../../translated_images/wio-relay-and-soil-moisture-sensor.ed722202d42babe0.fa.png)
+![رله Grove متصل به سوکت سمت چپ و حسگر رطوبت خاک متصل به سوکت سمت راست](../../../../../translated_images/fa/wio-relay-and-soil-moisture-sensor.ed722202d42babe0.png)
 
 3. حسگر رطوبت خاک را در خاک قرار دهید، اگر از درس قبلی هنوز در خاک قرار نگرفته است.
 

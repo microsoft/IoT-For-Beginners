@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Osigurajte svoju biljku
 
-![Pregled lekcije u obliku sketchnotea](../../../../../translated_images/lesson-10.829c86b80b9403bb770929ee553a1d293afe50dc23121aaf9be144673ae012cc.hr.jpg)
+![Pregled lekcije u obliku sketchnotea](../../../../../translated_images/hr/lesson-10.829c86b80b9403bb770929ee553a1d293afe50dc23121aaf9be144673ae012cc.jpg)
 
 > Sketchnote autor [Nitya Narasimhan](https://github.com/nitya). Kliknite na sliku za veću verziju.
 
@@ -61,11 +61,11 @@ Ovo su scenariji iz stvarnog svijeta i događaju se stalno. Neki primjeri su nav
 
 Kada se uređaj povezuje s IoT uslugom, koristi ID za identifikaciju. Problem je što se taj ID može klonirati - haker bi mogao postaviti zlonamjerni uređaj koji koristi isti ID kao pravi uređaj, ali šalje lažne podatke.
 
-![I pravi i zlonamjerni uređaji mogli bi koristiti isti ID za slanje telemetrije](../../../../../translated_images/iot-device-and-hacked-device-connecting.e0671675df74d6d99eb1dedb5a670e606f698efa6202b1ad4c8ae548db299cc6.hr.png)
+![I pravi i zlonamjerni uređaji mogli bi koristiti isti ID za slanje telemetrije](../../../../../translated_images/hr/iot-device-and-hacked-device-connecting.e0671675df74d6d99eb1dedb5a670e606f698efa6202b1ad4c8ae548db299cc6.png)
 
 Rješenje za ovo je pretvaranje podataka koji se šalju u šifrirani format, koristeći neku vrijednost poznatu samo uređaju i oblaku. Ovaj proces se naziva *šifriranje*, a vrijednost koja se koristi za šifriranje podataka naziva se *ključ za šifriranje*.
 
-![Ako se koristi šifriranje, tada će biti prihvaćene samo šifrirane poruke, ostale će biti odbijene](../../../../../translated_images/iot-device-and-hacked-device-connecting-encryption.5941aff601fc978f979e46f2849b573564eeb4a4dc5b52f669f62745397492fb.hr.png)
+![Ako se koristi šifriranje, tada će biti prihvaćene samo šifrirane poruke, ostale će biti odbijene](../../../../../translated_images/hr/iot-device-and-hacked-device-connecting-encryption.5941aff601fc978f979e46f2849b573564eeb4a4dc5b52f669f62745397492fb.png)
 
 Usluga u oblaku tada može pretvoriti podatke natrag u čitljiv format, koristeći proces nazvan *dešifriranje*, koristeći ili isti ključ za šifriranje ili *ključ za dešifriranje*. Ako se šifrirana poruka ne može dešifrirati pomoću ključa, uređaj je hakiran i poruka se odbija.
 
@@ -97,15 +97,15 @@ Nažalost, nije sve sigurno. Neki uređaji nemaju nikakvu sigurnost, drugi su os
 
 **Simetrično** šifriranje koristi isti ključ za šifriranje i dešifriranje podataka. I pošiljatelj i primatelj moraju znati isti ključ. Ovo je najmanje siguran tip, jer se ključ mora nekako podijeliti. Da bi pošiljatelj poslao šifriranu poruku primatelju, pošiljatelj prvo mora poslati primatelju ključ.
 
-![Simetrično šifriranje koristi isti ključ za šifriranje i dešifriranje poruke](../../../../../translated_images/send-message-symmetric-key.a2e8ad0d495896ff.hr.png)
+![Simetrično šifriranje koristi isti ključ za šifriranje i dešifriranje poruke](../../../../../translated_images/hr/send-message-symmetric-key.a2e8ad0d495896ff.png)
 
 Ako se ključ ukrade tijekom prijenosa, ili ako pošiljatelj ili primatelj budu hakirani i ključ se pronađe, šifriranje se može razbiti.
 
-![Simetrično šifriranje je sigurno samo ako haker ne dobije ključ - ako ga dobije, može presresti i dešifrirati poruku](../../../../../translated_images/send-message-symmetric-key-hacker.e7cb53db1707adfb.hr.png)
+![Simetrično šifriranje je sigurno samo ako haker ne dobije ključ - ako ga dobije, može presresti i dešifrirati poruku](../../../../../translated_images/hr/send-message-symmetric-key-hacker.e7cb53db1707adfb.png)
 
 **Asimetrično** šifriranje koristi 2 ključa - ključ za šifriranje i ključ za dešifriranje, poznate kao javno/privatni par ključeva. Javni ključ se koristi za šifriranje poruke, ali se ne može koristiti za dešifriranje, dok se privatni ključ koristi za dešifriranje poruke, ali se ne može koristiti za šifriranje.
 
-![Asimetrično šifriranje koristi različite ključeve za šifriranje i dešifriranje. Ključ za šifriranje se šalje pošiljateljima poruka kako bi mogli šifrirati poruku prije slanja primatelju koji posjeduje ključeve](../../../../../translated_images/send-message-asymmetric.7abe327c62615b8c.hr.png)
+![Asimetrično šifriranje koristi različite ključeve za šifriranje i dešifriranje. Ključ za šifriranje se šalje pošiljateljima poruka kako bi mogli šifrirati poruku prije slanja primatelju koji posjeduje ključeve](../../../../../translated_images/hr/send-message-asymmetric.7abe327c62615b8c.png)
 
 Primatelj dijeli svoj javni ključ, a pošiljatelj koristi ovaj ključ za šifriranje poruke. Nakon što je poruka poslana, primatelj je dešifrira svojim privatnim ključem. Asimetrično šifriranje je sigurnije jer se privatni ključ čuva privatnim od strane primatelja i nikada se ne dijeli. Javni ključ može imati bilo tko jer se može koristiti samo za šifriranje poruka.
 
@@ -165,7 +165,7 @@ Ovi certifikati sadrže niz polja, uključujući od koga je javni ključ, detalj
 
 Kada koristite X.509 certifikate, i pošiljatelj i primatelj imaju svoje javne i privatne ključeve, kao i X.509 certifikate koji sadrže javni ključ. Zatim razmjenjuju X.509 certifikate na neki način, koristeći javne ključeve jedni drugih za šifriranje podataka koje šalju, i svoje privatne ključeve za dešifriranje podataka koje primaju.
 
-![Umjesto dijeljenja javnog ključa, možete podijeliti certifikat. Korisnik certifikata može provjeriti dolazi li od vas provjerom kod certifikacijske vlasti koja ga je potpisala.](../../../../../translated_images/send-message-certificate.9cc576ac1e46b76e.hr.png)
+![Umjesto dijeljenja javnog ključa, možete podijeliti certifikat. Korisnik certifikata može provjeriti dolazi li od vas provjerom kod certifikacijske vlasti koja ga je potpisala.](../../../../../translated_images/hr/send-message-certificate.9cc576ac1e46b76e.png)
 
 Jedna velika prednost korištenja X.509 certifikata je što se mogu dijeliti između uređaja. Možete stvoriti jedan certifikat, učitati ga na IoT Hub i koristiti ga za sve svoje uređaje. Svaki uređaj tada samo treba znati privatni ključ kako bi dešifrirao poruke koje prima od IoT Huba.
 

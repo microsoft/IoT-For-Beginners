@@ -25,13 +25,13 @@ Gumb se može spojiti na Grove bazni HAT.
 
 #### Zadatak - spojite gumb
 
-![Grove gumb](../../../../../translated_images/grove-button.a70cfbb809a8563681003250cf5b06d68cdcc68624f9e2f493d5a534ae2da1e5.hr.png)
+![Grove gumb](../../../../../translated_images/hr/grove-button.a70cfbb809a8563681003250cf5b06d68cdcc68624f9e2f493d5a534ae2da1e5.png)
 
 1. Umetnite jedan kraj Grove kabela u utičnicu na modulu gumba. Kabel će ući samo na jedan način.
 
 1. S isključenim Raspberry Pi uređajem, spojite drugi kraj Grove kabela na digitalnu utičnicu označenu **D5** na Grove baznom HAT-u pričvršćenom na Pi. Ova utičnica je druga s lijeva, u redu utičnica pored GPIO pinova.
 
-![Grove gumb spojen na utičnicu D5](../../../../../translated_images/pi-button.c7a1a4f55943341ce1baf1057658e9a205804d4131d258e820c93f951df0abf3.hr.png)
+![Grove gumb spojen na utičnicu D5](../../../../../translated_images/hr/pi-button.c7a1a4f55943341ce1baf1057658e9a205804d4131d258e820c93f951df0abf3.png)
 
 ## Snimanje zvuka
 

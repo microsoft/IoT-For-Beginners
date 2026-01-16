@@ -37,11 +37,11 @@ CounterFit ऐप में लाइट सेंसर जोड़ें।
 
     1. **Add** बटन चुनें ताकि Pin 0 पर लाइट सेंसर बनाया जा सके।
 
-    ![लाइट सेंसर सेटिंग्स](../../../../../translated_images/counterfit-create-light-sensor.9f36a5e0d4458d8d554d54b34d2c806d56093d6e49fddcda2d20f6fef7f5cce1.hi.png)
+    ![लाइट सेंसर सेटिंग्स](../../../../../translated_images/hi/counterfit-create-light-sensor.9f36a5e0d4458d8d554d54b34d2c806d56093d6e49fddcda2d20f6fef7f5cce1.png)
 
     लाइट सेंसर बनाया जाएगा और सेंसर सूची में दिखाई देगा।
 
-    ![लाइट सेंसर बनाया गया](../../../../../translated_images/counterfit-light-sensor.5d0f5584df56b90f6b2561910d9cb20dfbd73eeff2177c238d38f4de54aefae1.hi.png)
+    ![लाइट सेंसर बनाया गया](../../../../../translated_images/hi/counterfit-light-sensor.5d0f5584df56b90f6b2561910d9cb20dfbd73eeff2177c238d38f4de54aefae1.png)
 
 ## लाइट सेंसर को प्रोग्राम करें
 

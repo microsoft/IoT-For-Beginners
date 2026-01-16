@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Suhtle füüsilise maailmaga sensorite ja täiturmehhanismide abil
 
-![Selle õppetunni visand](../../../../../translated_images/lesson-3.cc3b7b4cd646de598698cce043c0393fd62ef42bac2eaf60e61272cd844250f4.et.jpg)
+![Selle õppetunni visand](../../../../../translated_images/et/lesson-3.cc3b7b4cd646de598698cce043c0393fd62ef42bac2eaf60e61272cd844250f4.jpg)
 
 > Visandi autor [Nitya Narasimhan](https://github.com/nitya). Klõpsa pildil, et näha suuremat versiooni.
 
@@ -75,7 +75,7 @@ Mõned kõige lihtsamad sensorid on analoogsensorid. Need sensorid saavad IoT-se
 
 Üks näide on potentsiomeeter. See on nupp, mida saab pöörata kahe positsiooni vahel ja sensor mõõdab pööramist.
 
-![Potentsiomeeter, mis on seatud keskmisele punktile, saades 5 volti ja tagastades 3,8 volti](../../../../../translated_images/potentiometer.35a348b9ce22f6ec.et.png)
+![Potentsiomeeter, mis on seatud keskmisele punktile, saades 5 volti ja tagastades 3,8 volti](../../../../../translated_images/et/potentiometer.35a348b9ce22f6ec.png)
 
 IoT-seade saadab potentsiomeetrile elektrisignaali teatud pingega, näiteks 5 volti (5V). Kui potentsiomeetrit reguleeritakse, muutub pinge, mis teiselt poolt välja tuleb. Kujutage ette, et teil on potentsiomeeter, millel on skaala 0-st [11-ni](https://wikipedia.org/wiki/Up_to_eleven), näiteks helitugevuse nupp võimendil. Kui potentsiomeeter on täielikult välja lülitatud asendis (0), siis tuleb välja 0V (0 volti). Kui see on täielikult sisse lülitatud asendis (11), siis tuleb välja 5V (5 volti).
 
@@ -101,7 +101,7 @@ Digitaalsed sensorid, nagu analoogsensorid, tuvastavad ümbritsevat maailma elek
 
 Lihtsaim digitaalne sensor on nupp või lüliti. See on sensor, millel on kaks olekut, sisse või välja.
 
-![Nuppu saadetakse 5 volti. Kui seda ei vajutata, tagastab see 0 volti, kui vajutatakse, tagastab see 5 volti](../../../../../translated_images/button.eadb560b77ac45e56f523d9d8876e40444f63b419e33eb820082d461fa79490b.et.png)
+![Nuppu saadetakse 5 volti. Kui seda ei vajutata, tagastab see 0 volti, kui vajutatakse, tagastab see 5 volti](../../../../../translated_images/et/button.eadb560b77ac45e56f523d9d8876e40444f63b419e33eb820082d461fa79490b.png)
 
 IoT-seadme GPIO-pinnid võivad seda signaali otse mõõta kui 0 või 1. Kui saadetud pinge on sama, mis tagastatud pinge, loetakse väärtuseks 1, vastasel juhul loetakse väärtuseks 0. Signaali ei ole vaja teisendada, see võib olla ainult 1 või 0.
 
@@ -112,7 +112,7 @@ IoT-seadme GPIO-pinnid võivad seda signaali otse mõõta kui 0 või 1. Kui saad
 
 Rohkem arenenud digitaalsed sensorid loevad analoogväärtusi ja seejärel teisendavad need sisseehitatud ADC-de abil digitaalseks signaaliks. Näiteks digitaalne temperatuuriandur kasutab endiselt termopaari samamoodi nagu analoogsensor ja mõõdab endiselt pingemuutust, mis on põhjustatud termopaari takistusest praegusel temperatuuril. Selle asemel, et tagastada analoogväärtus ja tugineda seadmele või ühendusplaadile, et see digitaalseks signaaliks teisendada, teisendab sensorisse sisseehitatud ADC väärtuse ja saadab selle IoT-seadmele 0-de ja 1-de jadana. Need 0-d ja 1-d saadetakse samamoodi nagu nupu digitaalne signaal, kus 1 on täispinge ja 0 on 0V.
 
-![Digitaalne temperatuuriandur, mis teisendab analooglugemise binaarandmeteks, kus 0 on 0 volti ja 1 on 5 volti, enne kui see IoT-seadmele saadetakse](../../../../../translated_images/temperature-as-digital.85004491b977bae1.et.png)
+![Digitaalne temperatuuriandur, mis teisendab analooglugemise binaarandmeteks, kus 0 on 0 volti ja 1 on 5 volti, enne kui see IoT-seadmele saadetakse](../../../../../translated_images/et/temperature-as-digital.85004491b977bae1.png)
 
 Digitaalandmete saatmine võimaldab sensoritel muutuda keerukamaks ja edastada üksikasjalikumaid andmeid, isegi krüpteeritud andmeid turvaliste sensorite jaoks. Üks näide on kaamera. See on sensor, mis jäädvustab pildi ja saadab selle digitaalandmetena, mis sisaldavad seda pilti, tavaliselt tihendatud vormingus nagu JPEG, et IoT-seade saaks seda lugeda. Kaamera võib isegi videot voogesitada, jäädvustades pilte ja saates kas täieliku pildiraami kaadri kaupa või tihendatud videovoogu.
 
@@ -134,7 +134,7 @@ Mõned levinumad täiturmehhanismid on:
 
 Järgi allolevaid juhiseid, et lisada täiturmehhanism oma IoT-seadmele, mida juhib sensor, et ehitada IoT öölamp. See kogub valguse tasemeid valgussensorilt ja kasutab täiturmehhanismina LED-i, et kiirata valgust, kui tuvastatud valguse tase on liiga madal.
 
-![Ülesande vooskeem, mis näitab valguse taseme lugemist ja kontrollimist ning LED-i juhtimist](../../../../../translated_images/assignment-1-flow.7552a51acb1a5ec858dca6e855cdbb44206434006df8ba3799a25afcdab1665d.et.png)
+![Ülesande vooskeem, mis näitab valguse taseme lugemist ja kontrollimist ning LED-i juhtimist](../../../../../translated_images/et/assignment-1-flow.7552a51acb1a5ec858dca6e855cdbb44206434006df8ba3799a25afcdab1665d.png)
 
 * [Arduino - Wio Terminal](wio-terminal-actuator.md)
 * [Üheplaadiarvuti - Raspberry Pi](pi-actuator.md)
@@ -149,7 +149,7 @@ Nagu sensorid, võivad täiturmehhanismid olla kas analoog- või digitaalsed.
 Analoogtäiturmehhanismid võtavad vastu analoogsignaali ja muudavad selle mingiks interaktsiooniks, kus interaktsioon muutub vastavalt saadud pingele.
 Üks näide on reguleeritava heledusega lamp, nagu need, mis võivad olla teie kodus. Lambi heledust määrab sellele antava pinge suurus.
 
-![Lamp madala pingega hämaras ja kõrge pingega eredam](../../../../../translated_images/dimmable-light.9ceffeb195dec1a849da718b2d71b32c35171ff7dfea9c07bbf82646a67acf6b.et.png)
+![Lamp madala pingega hämaras ja kõrge pingega eredam](../../../../../translated_images/et/dimmable-light.9ceffeb195dec1a849da718b2d71b32c35171ff7dfea9c07bbf82646a67acf6b.png)
 
 Nagu sensorite puhul, töötavad tegelikud IoT-seadmed digitaalsete signaalidega, mitte analoogsignaalidega. See tähendab, et analoogsignaali saatmiseks vajab IoT-seade digitaal-analoogmuundurit (DAC), kas otse IoT-seadmel või ühendusplaadil. See muundab IoT-seadme 0-d ja 1-d analoogpingeks, mida aktuaator saab kasutada.
 
@@ -164,7 +164,7 @@ Näiteks saab PWM-i kasutada mootori kiiruse reguleerimiseks.
 
 Kujutage ette, et juhite mootorit 5V toiteallikaga. Saadate mootorile lühikese impulsi, lülitades pinge kõrgeks (5V) kahe sajandiku sekundi (0,02s) jooksul. Selle aja jooksul suudab mootor pöörata ühe kümnendiku pöördest ehk 36°. Seejärel signaal peatub kahe sajandiku sekundi (0,02s) jooksul, saates madala signaali (0V). Iga tsükkel sisse ja välja kestab 0,04s. Tsükkel kordub.
 
-![Impulsi laiuse modulatsioon mootori pöörlemine kiirusel 150 RPM](../../../../../translated_images/pwm-motor-150rpm.83347ac04ca38482.et.png)
+![Impulsi laiuse modulatsioon mootori pöörlemine kiirusel 150 RPM](../../../../../translated_images/et/pwm-motor-150rpm.83347ac04ca38482.png)
 
 See tähendab, et ühe sekundi jooksul saadate 25 5V impulssi, mis kestavad 0,02s ja pööravad mootorit, millele järgneb 0,02s paus 0V-ga, kus mootor ei pöörle. Iga impulss pöörab mootorit ühe kümnendiku pöördest, mis tähendab, et mootor teeb 2,5 pöördet sekundis. Olete kasutanud digitaalset signaali, et pöörata mootorit kiirusel 2,5 pöördet sekundis ehk 150 [pööret minutis](https://wikipedia.org/wiki/Revolutions_per_minute) (mittestandardne pöörlemiskiiruse mõõtühik).
 
@@ -175,7 +175,7 @@ See tähendab, et ühe sekundi jooksul saadate 25 5V impulssi, mis kestavad 0,02
   
 > 🎓 Kui PWM-signaal on poole ajast sees ja poole ajast väljas, nimetatakse seda [50% töötsükliks](https://wikipedia.org/wiki/Duty_cycle). Töötsüklit mõõdetakse protsendina ajast, mil signaal on seesolekus võrreldes väljasolekuga.
 
-![Impulsi laiuse modulatsioon mootori pöörlemine kiirusel 75 RPM](../../../../../translated_images/pwm-motor-75rpm.a5e4c939934b6e14.et.png)
+![Impulsi laiuse modulatsioon mootori pöörlemine kiirusel 75 RPM](../../../../../translated_images/et/pwm-motor-75rpm.a5e4c939934b6e14.png)
 
 Mootori kiirust saab muuta impulsside suurust muutes. Näiteks sama mootori puhul saate hoida tsükli aja samana (0,04s), kuid vähendada sisse lülitatud impulssi poole võrra (0,01s) ja suurendada väljalülitatud impulssi (0,03s). Teil on sama arv impulsse sekundis (25), kuid iga sisse lülitatud impulss on poole lühem. Pool pikkusega impulss pöörab mootorit ühe kahekümnendiku pöördest ja 25 impulsi sekundis teeb mootor 1,25 pöördet sekundis ehk 75 pööret minutis. Muutes digitaalse signaali impulsi kiirust, olete analoogmootori kiiruse poole võrra vähendanud.
 
@@ -196,7 +196,7 @@ Digitaalsed aktuaatorid, nagu digitaalsed sensorid, on kas kahes olekus, mida ju
 
 Üks lihtne digitaalne aktuaator on LED. Kui seade saadab digitaalse signaali 1, saadetakse kõrge pinge, mis süütab LED-i. Kui saadetakse digitaalse signaali 0, langeb pinge 0V-ni ja LED kustub.
 
-![LED on 0 voldi juures kustunud ja 5V juures süttinud](../../../../../translated_images/led.ec6d94f66676a174ad06d9fa9ea49c2ee89beb18b312d5c6476467c66375b07f.et.png)
+![LED on 0 voldi juures kustunud ja 5V juures süttinud](../../../../../translated_images/et/led.ec6d94f66676a174ad06d9fa9ea49c2ee89beb18b312d5c6476467c66375b07f.png)
 
 ✅ Milliseid teisi lihtsaid kahe olekuga aktuaatoreid oskate välja mõelda? Üks näide on solenoid, mis on elektromagnet, mida saab aktiveerida, et teha asju nagu uksepolti liigutamine ukse lukustamiseks/avamiseks.
 

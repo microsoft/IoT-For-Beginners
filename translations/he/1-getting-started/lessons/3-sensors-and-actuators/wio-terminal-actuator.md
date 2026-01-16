@@ -35,7 +35,7 @@ Otherwise
 
 חבר את ה-LED.
 
-![נורת Grove LED](../../../../../translated_images/grove-led.6c853be93f473cf2c439cfc74bb1064732b22251a83cedf66e62f783f9cc1a79.he.png)
+![נורת Grove LED](../../../../../translated_images/he/grove-led.6c853be93f473cf2c439cfc74bb1064732b22251a83cedf66e62f783f9cc1a79.png)
 
 1. בחר את ה-LED המועדף עליך והכנס את הרגליים לשני החורים במודול ה-LED.
 
@@ -51,7 +51,7 @@ Otherwise
 
     > 💁 השקע הימני של Grove יכול לשמש עם חיישנים ומפעילים אנלוגיים או דיגיטליים. השקע השמאלי מיועד לחיישנים ומפעילים דיגיטליים בלבד. C יכוסה בשיעור מאוחר יותר.
 
-![ה-LED של Grove מחובר לשקע הימני](../../../../../translated_images/wio-led.265a1897e72d7f21.he.png)
+![ה-LED של Grove מחובר לשקע הימני](../../../../../translated_images/he/wio-led.265a1897e72d7f21.png)
 
 ## תכנת את מנורת הלילה
 

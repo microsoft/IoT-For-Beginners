@@ -47,11 +47,11 @@ CO_OP_TRANSLATOR_METADATA:
 
     1. دکمه **Add** را انتخاب کنید تا حسگر رطوبت روی پین 5 ایجاد شود.
 
-    ![تنظیمات حسگر رطوبت](../../../../../translated_images/counterfit-create-humidity-sensor.2750e27b6f30e09cf4e22101defd5252710717620816ab41ba688f91f757c49a.fa.png)
+    ![تنظیمات حسگر رطوبت](../../../../../translated_images/fa/counterfit-create-humidity-sensor.2750e27b6f30e09cf4e22101defd5252710717620816ab41ba688f91f757c49a.png)
 
     حسگر رطوبت ایجاد شده و در لیست حسگرها ظاهر خواهد شد.
 
-    ![حسگر رطوبت ایجاد شده](../../../../../translated_images/counterfit-humidity-sensor.7b12f7f339e430cb26c8211d2dba4ef75261b353a01da0932698b5bebd693f27.fa.png)
+    ![حسگر رطوبت ایجاد شده](../../../../../translated_images/fa/counterfit-humidity-sensor.7b12f7f339e430cb26c8211d2dba4ef75261b353a01da0932698b5bebd693f27.png)
 
 1. یک حسگر دما ایجاد کنید:
 
@@ -63,11 +63,11 @@ CO_OP_TRANSLATOR_METADATA:
 
     1. دکمه **Add** را انتخاب کنید تا حسگر دما روی پین 6 ایجاد شود.
 
-    ![تنظیمات حسگر دما](../../../../../translated_images/counterfit-create-temperature-sensor.199350ed34f7343d79dccbe95eaf6c11d2121f03d1c35ab9613b330c23f39b29.fa.png)
+    ![تنظیمات حسگر دما](../../../../../translated_images/fa/counterfit-create-temperature-sensor.199350ed34f7343d79dccbe95eaf6c11d2121f03d1c35ab9613b330c23f39b29.png)
 
     حسگر دما ایجاد شده و در لیست حسگرها ظاهر خواهد شد.
 
-    ![حسگر دما ایجاد شده](../../../../../translated_images/counterfit-temperature-sensor.f0560236c96a9016bafce7f6f792476fe3367bc6941a1f7d5811d144d4bcbfff.fa.png)
+    ![حسگر دما ایجاد شده](../../../../../translated_images/fa/counterfit-temperature-sensor.f0560236c96a9016bafce7f6f792476fe3367bc6941a1f7d5811d144d4bcbfff.png)
 
 ## برنامه‌نویسی برنامه حسگر دما
 

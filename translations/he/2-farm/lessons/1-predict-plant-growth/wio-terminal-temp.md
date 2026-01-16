@@ -27,13 +27,13 @@ CO_OP_TRANSLATOR_METADATA:
 
 חבר את חיישן הטמפרטורה.
 
-![חיישן טמפרטורה מסוג Grove](../../../../../translated_images/grove-dht11.07f8eafceee170043efbb53e1d15722bd4e00fbaa9ff74290b57e9f66eb82c17.he.png)
+![חיישן טמפרטורה מסוג Grove](../../../../../translated_images/he/grove-dht11.07f8eafceee170043efbb53e1d15722bd4e00fbaa9ff74290b57e9f66eb82c17.png)
 
 1. הכנס קצה אחד של כבל Grove לשקע בחיישן הלחות והטמפרטורה. הכבל ייכנס רק בכיוון אחד.
 
 1. כאשר ה-Wio Terminal מנותק מהמחשב או ממקור כוח אחר, חבר את הקצה השני של כבל Grove לשקע הימני ביותר ב-Wio Terminal כשאתה מסתכל על המסך. זהו השקע הרחוק ביותר מכפתור ההפעלה.
 
-![חיישן הטמפרטורה מחובר לשקע הימני](../../../../../translated_images/wio-temperature-sensor.2934928f38c7f79a.he.png)
+![חיישן הטמפרטורה מחובר לשקע הימני](../../../../../translated_images/he/wio-temperature-sensor.2934928f38c7f79a.png)
 
 ## תכנות חיישן הטמפרטורה
 

@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Interactúa con el mundo físico con sensores y actuadores
 
-![Una vista general de esta lección en formato sketchnote](../../../../../translated_images/lesson-3.cc3b7b4cd646de598698cce043c0393fd62ef42bac2eaf60e61272cd844250f4.es.jpg)
+![Una vista general de esta lección en formato sketchnote](../../../../../translated_images/es/lesson-3.cc3b7b4cd646de598698cce043c0393fd62ef42bac2eaf60e61272cd844250f4.jpg)
 
 > Sketchnote por [Nitya Narasimhan](https://github.com/nitya). Haz clic en la imagen para una versión más grande.
 
@@ -75,7 +75,7 @@ Algunos de los sensores más básicos son analógicos. Estos sensores reciben un
 
 Un ejemplo de esto es un potenciómetro. Este es un dial que puedes girar entre dos posiciones y el sensor mide la rotación.
 
-![Un potenciómetro ajustado a un punto medio siendo enviado 5 voltios y devolviendo 3.8 voltios](../../../../../translated_images/potentiometer.35a348b9ce22f6ec.es.png)
+![Un potenciómetro ajustado a un punto medio siendo enviado 5 voltios y devolviendo 3.8 voltios](../../../../../translated_images/es/potentiometer.35a348b9ce22f6ec.webp)
 
 El dispositivo IoT enviará una señal eléctrica al potenciómetro a un voltaje, como 5 voltios (5V). A medida que se ajusta el potenciómetro, cambia el voltaje que sale del otro lado. Imagina que tienes un potenciómetro etiquetado como un dial que va de 0 a [11](https://wikipedia.org/wiki/Up_to_eleven), como un control de volumen en un amplificador. Cuando el potenciómetro está en la posición completamente apagada (0), entonces saldrán 0V (0 voltios). Cuando está en la posición completamente encendida (11), saldrán 5V (5 voltios).
 
@@ -101,7 +101,7 @@ Los sensores digitales, al igual que los sensores analógicos, detectan el mundo
 
 El sensor digital más simple es un botón o interruptor. Este es un sensor con dos estados: encendido o apagado.
 
-![Un botón recibe 5 voltios. Cuando no se presiona devuelve 0 voltios, cuando se presiona devuelve 5 voltios](../../../../../translated_images/button.eadb560b77ac45e56f523d9d8876e40444f63b419e33eb820082d461fa79490b.es.png)
+![Un botón recibe 5 voltios. Cuando no se presiona devuelve 0 voltios, cuando se presiona devuelve 5 voltios](../../../../../translated_images/es/button.eadb560b77ac45e56f523d9d8876e40444f63b419e33eb820082d461fa79490b.png)
 
 Los pines en dispositivos IoT como los pines GPIO pueden medir esta señal directamente como un 0 o 1. Si el voltaje enviado es el mismo que el voltaje devuelto, el valor leído es 1; de lo contrario, el valor leído es 0. No hay necesidad de convertir la señal, solo puede ser 1 o 0.
 
@@ -112,7 +112,7 @@ Los pines en dispositivos IoT como los pines GPIO pueden medir esta señal direc
 
 Los sensores digitales más avanzados leen valores analógicos y luego los convierten utilizando ADCs integrados en señales digitales. Por ejemplo, un sensor de temperatura digital aún utilizará un termopar de la misma manera que un sensor analógico y aún medirá el cambio en el voltaje causado por la resistencia del termopar a la temperatura actual. En lugar de devolver un valor analógico y depender del dispositivo o placa conectora para convertirlo en una señal digital, un ADC incorporado en el sensor convertirá el valor y lo enviará como una serie de 0s y 1s al dispositivo IoT. Estos 0s y 1s se envían de la misma manera que la señal digital de un botón, con 1 siendo el voltaje completo y 0 siendo 0V.
 
-![Un sensor de temperatura digital convierte una lectura analógica en datos binarios con 0 como 0 voltios y 1 como 5 voltios antes de enviarlo a un dispositivo IoT](../../../../../translated_images/temperature-as-digital.85004491b977bae1.es.png)
+![Un sensor de temperatura digital convierte una lectura analógica en datos binarios con 0 como 0 voltios y 1 como 5 voltios antes de enviarlo a un dispositivo IoT](../../../../../translated_images/es/temperature-as-digital.85004491b977bae1.webp)
 
 Enviar datos digitales permite que los sensores sean más complejos y envíen datos más detallados, incluso datos encriptados para sensores seguros. Un ejemplo es una cámara. Este es un sensor que captura una imagen y la envía como datos digitales que contienen esa imagen, generalmente en un formato comprimido como JPEG, para ser leído por el dispositivo IoT. Incluso puede transmitir video capturando imágenes y enviando ya sea el marco completo imagen por imagen o una transmisión de video comprimida.
 
@@ -134,7 +134,7 @@ Algunos actuadores comunes incluyen:
 
 Sigue la guía correspondiente a continuación para añadir un actuador a tu dispositivo IoT, controlado por el sensor, para construir una luz nocturna IoT. Recogerá niveles de luz del sensor de luz y usará un actuador en forma de LED para emitir luz cuando el nivel de luz detectado sea demasiado bajo.
 
-![Un diagrama de flujo de la tarea que muestra los niveles de luz siendo leídos y verificados, y el LED siendo controlado](../../../../../translated_images/assignment-1-flow.7552a51acb1a5ec858dca6e855cdbb44206434006df8ba3799a25afcdab1665d.es.png)
+![Un diagrama de flujo de la tarea que muestra los niveles de luz siendo leídos y verificados, y el LED siendo controlado](../../../../../translated_images/es/assignment-1-flow.7552a51acb1a5ec858dca6e855cdbb44206434006df8ba3799a25afcdab1665d.png)
 
 * [Arduino - Wio Terminal](wio-terminal-actuator.md)
 * [Computadora de placa única - Raspberry Pi](pi-actuator.md)
@@ -149,7 +149,7 @@ Al igual que los sensores, los actuadores pueden ser analógicos o digitales.
 Los actuadores analógicos toman una señal analógica y la convierten en algún tipo de interacción, donde la interacción cambia según el voltaje suministrado.
 
 Un ejemplo es una luz regulable, como las que podrías tener en tu casa. La cantidad de voltaje suministrado a la luz determina qué tan brillante es.
-![Una luz atenuada con un voltaje bajo y más brillante con un voltaje más alto](../../../../../translated_images/dimmable-light.9ceffeb195dec1a849da718b2d71b32c35171ff7dfea9c07bbf82646a67acf6b.es.png)
+![Una luz atenuada con un voltaje bajo y más brillante con un voltaje más alto](../../../../../translated_images/es/dimmable-light.9ceffeb195dec1a849da718b2d71b32c35171ff7dfea9c07bbf82646a67acf6b.png)
 
 Al igual que con los sensores, el dispositivo IoT real funciona con señales digitales, no analógicas. Esto significa que, para enviar una señal analógica, el dispositivo IoT necesita un convertidor digital a analógico (DAC), ya sea directamente en el dispositivo IoT o en una placa de conexión. Esto convertirá los 0s y 1s del dispositivo IoT en un voltaje analógico que el actuador pueda usar.
 
@@ -164,7 +164,7 @@ Por ejemplo, puedes usar PWM para controlar la velocidad de un motor.
 
 Imagina que estás controlando un motor con un suministro de 5V. Envías un pulso corto a tu motor, cambiando el voltaje a alto (5V) durante dos centésimas de segundo (0.02s). En ese tiempo, tu motor puede girar una décima de vuelta, o 36°. Luego, la señal se detiene durante dos centésimas de segundo (0.02s), enviando una señal baja (0V). Cada ciclo de encendido y apagado dura 0.04s. El ciclo se repite.
 
-![Rotación de un motor con modulación por ancho de pulso a 150 RPM](../../../../../translated_images/pwm-motor-150rpm.83347ac04ca38482.es.png)
+![Rotación de un motor con modulación por ancho de pulso a 150 RPM](../../../../../translated_images/es/pwm-motor-150rpm.83347ac04ca38482.webp)
 
 Esto significa que en un segundo tienes 25 pulsos de 5V de 0.02s que hacen girar el motor, seguidos de 0.02s de pausa de 0V en los que el motor no gira. Cada pulso hace que el motor gire una décima de vuelta, lo que significa que el motor completa 2.5 vueltas por segundo. Has usado una señal digital para hacer girar el motor a 2.5 vueltas por segundo, o 150 [revoluciones por minuto](https://wikipedia.org/wiki/Revolutions_per_minute) (una medida no estándar de velocidad de rotación).
 
@@ -175,7 +175,7 @@ Esto significa que en un segundo tienes 25 pulsos de 5V de 0.02s que hacen girar
 
 > 🎓 Cuando una señal PWM está activa la mitad del tiempo y desactivada la otra mitad, se le llama [ciclo de trabajo del 50%](https://wikipedia.org/wiki/Duty_cycle). Los ciclos de trabajo se miden como el porcentaje de tiempo que la señal está en estado activo en comparación con el estado inactivo.
 
-![Rotación de un motor con modulación por ancho de pulso a 75 RPM](../../../../../translated_images/pwm-motor-75rpm.a5e4c939934b6e14.es.png)
+![Rotación de un motor con modulación por ancho de pulso a 75 RPM](../../../../../translated_images/es/pwm-motor-75rpm.a5e4c939934b6e14.webp)
 
 Puedes cambiar la velocidad del motor ajustando el tamaño de los pulsos. Por ejemplo, con el mismo motor puedes mantener el mismo tiempo de ciclo de 0.04s, pero reducir el pulso activo a la mitad (0.01s) y aumentar el pulso inactivo a 0.03s. Tienes el mismo número de pulsos por segundo (25), pero cada pulso activo dura la mitad. Un pulso de la mitad de duración solo hace girar el motor una vigésima parte de una vuelta, y con 25 pulsos por segundo completará 1.25 vueltas por segundo o 75rpm. Al cambiar la duración de los pulsos de una señal digital, has reducido a la mitad la velocidad de un motor analógico.
 
@@ -196,7 +196,7 @@ Los actuadores digitales, al igual que los sensores digitales, tienen dos estado
 
 Un actuador digital simple es un LED. Cuando un dispositivo envía una señal digital de 1, se envía un voltaje alto que enciende el LED. Cuando se envía una señal digital de 0, el voltaje cae a 0V y el LED se apaga.
 
-![Un LED está apagado a 0 voltios y encendido a 5V](../../../../../translated_images/led.ec6d94f66676a174ad06d9fa9ea49c2ee89beb18b312d5c6476467c66375b07f.es.png)
+![Un LED está apagado a 0 voltios y encendido a 5V](../../../../../translated_images/es/led.ec6d94f66676a174ad06d9fa9ea49c2ee89beb18b312d5c6476467c66375b07f.png)
 
 ✅ ¿Qué otros actuadores simples de dos estados se te ocurren? Un ejemplo es un solenoide, que es un electroimán que puede activarse para hacer cosas como mover un cerrojo de puerta para bloquear/desbloquear una puerta.
 

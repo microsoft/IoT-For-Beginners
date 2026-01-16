@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Tarkista hedelmien laatu IoT-laitteella
 
-![Tämän oppitunnin luonnoskuva](../../../../../translated_images/lesson-16.215daf18b00631fbdfd64c6fc2dc6044dff5d544288825d8076f9fb83d964c23.fi.jpg)
+![Tämän oppitunnin luonnoskuva](../../../../../translated_images/fi/lesson-16.215daf18b00631fbdfd64c6fc2dc6044dff5d544288825d8076f9fb83d964c23.jpg)
 
 > Luonnoskuva: [Nitya Narasimhan](https://github.com/nitya). Klikkaa kuvaa nähdäksesi suuremman version.
 
@@ -35,7 +35,7 @@ Tässä oppitunnissa käsitellään:
 
 Kameran sensorit, kuten nimi kertoo, ovat kameroita, jotka voit liittää IoT-laitteeseesi. Ne voivat ottaa still-kuvia tai tallentaa videota. Jotkut sensorit palauttavat raakakuvaa, kun taas toiset pakkaavat kuvan esimerkiksi JPEG- tai PNG-tiedostoksi. Yleensä IoT-laitteiden kanssa käytettävät kamerat ovat paljon pienempiä ja matalamman resoluution kuin mihin olet tottunut, mutta saatavilla on myös korkearesoluutioisia kameroita, jotka kilpailevat huippupuhelimien kanssa. Voit hankkia vaihdettavia linssejä, usean kameran kokoonpanoja, infrapunalämpökameroita tai UV-kameroita.
 
-![Valo kulkee linssin läpi ja tarkentuu CMOS-sensorille](../../../../../translated_images/cmos-sensor.75f9cd74decb137149a4c9ea825251a4549497d67c0ae2776159e6102bb53aa9.fi.png)
+![Valo kulkee linssin läpi ja tarkentuu CMOS-sensorille](../../../../../translated_images/fi/cmos-sensor.75f9cd74decb137149a4c9ea825251a4549497d67c0ae2776159e6102bb53aa9.png)
 
 Useimmat kameran sensorit käyttävät kuvakennoja, joissa jokainen pikseli on valodiodi. Linssi tarkentaa kuvan kuvakennolle, ja tuhannet tai miljoonat valodiodit havaitsevat niihin osuvan valon ja tallentavat sen pikselidatana.
 
@@ -83,7 +83,7 @@ Iteroinnit julkaistaan Custom Vision -portaalista.
 
 1. Valitse **Julkaise**-painike kyseiselle iteroinnille.
 
-    ![Julkaise-painike](../../../../../translated_images/custom-vision-publish-button.b7174e1977b0c33b8b72d4e5b1326c779e0af196f3849d09985ee2d7d5493a39.fi.png)
+    ![Julkaise-painike](../../../../../translated_images/fi/custom-vision-publish-button.b7174e1977b0c33b8b72d4e5b1326c779e0af196f3849d09985ee2d7d5493a39.png)
 
 1. *Julkaise malli* -valintaikkunassa aseta *Ennusteresurssi* `fruit-quality-detector-prediction`-resurssiksi, jonka loit edellisessä oppitunnissa. Jätä nimi `Iteration2`:ksi ja valitse **Julkaise**-painike.
 
@@ -97,7 +97,7 @@ Iteroinnit julkaistaan Custom Vision -portaalista.
 
     Kopioi myös *Ennusteavain*-arvo. Tämä on turvallinen avain, joka täytyy välittää, kun kutsut mallia. Vain sovellukset, jotka välittävät tämän avaimen, voivat käyttää mallia, muut sovellukset hylätään.
 
-    ![Ennuste-API-valintaikkuna, joka näyttää URL:n ja avaimen](../../../../../translated_images/custom-vision-prediction-key-endpoint.30c569ffd0338864f319911f052d5e9b8c5066cb0800a26dd6f7ff5713130ad8.fi.png)
+    ![Ennuste-API-valintaikkuna, joka näyttää URL:n ja avaimen](../../../../../translated_images/fi/custom-vision-prediction-key-endpoint.30c569ffd0338864f319911f052d5e9b8c5066cb0800a26dd6f7ff5713130ad8.png)
 
 ✅ Kun uusi iterointi julkaistaan, sillä on eri nimi. Miten luulet, että IoT-laitteessa vaihdetaan käytettävä iterointi?
 
@@ -118,7 +118,7 @@ Saatat huomata, että kameran avulla IoT-laitteella otettujen kuvien tulokset ei
 
 Parhaiden tulosten saavuttamiseksi kuvien luokittelijassa haluat kouluttaa mallin kuvilla, jotka ovat mahdollisimman samanlaisia kuin ennusteisiin käytetyt kuvat. Jos esimerkiksi käytit puhelimen kameraa koulutuskuvien ottamiseen, kuvan laatu, terävyys ja värit eroavat IoT-laitteeseen liitetyn kameran kuvista.
 
-![2 banaanikuvaa, toinen matalaresoluutioinen ja huonosti valaistu IoT-laitteelta, toinen korkearesoluutioinen ja hyvin valaistu puhelimesta](../../../../../translated_images/banana-picture-compare.174df164dc326a42cf7fb051a7497e6113c620e91552d92ca914220305d47d9a.fi.png)
+![2 banaanikuvaa, toinen matalaresoluutioinen ja huonosti valaistu IoT-laitteelta, toinen korkearesoluutioinen ja hyvin valaistu puhelimesta](../../../../../translated_images/fi/banana-picture-compare.174df164dc326a42cf7fb051a7497e6113c620e91552d92ca914220305d47d9a.png)
 
 Yllä olevassa kuvassa vasemmanpuoleinen banaanikuva otettiin Raspberry Pi -kameralla, oikeanpuoleinen kuva otettiin samasta banaanista samassa paikassa iPhonella. Kuvien laadussa on selkeä ero – iPhonen kuva on terävämpi, värikkäämpi ja kontrastikkaampi.
 

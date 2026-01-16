@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Sea taimer ja anna kõne tagasisidet
 
-![Selle õppetunni visuaalne ülevaade](../../../../../translated_images/lesson-23.f38483e1d4df4828990d3f02d60e46c978b075d384ae7cb4f7bab738e107c850.et.jpg)
+![Selle õppetunni visuaalne ülevaade](../../../../../translated_images/et/lesson-23.f38483e1d4df4828990d3f02d60e46c978b075d384ae7cb4f7bab738e107c850.jpg)
 
 > Visuaal autorilt [Nitya Narasimhan](https://github.com/nitya). Klõpsa pildil, et näha suuremat versiooni.
 
@@ -37,7 +37,7 @@ Selles õppetunnis käsitleme:
 
 Teksti teisendamine kõneks tähendab teksti muutmist heliks, mis sisaldab sõnu kõneldud kujul. Põhimõte seisneb sõnade jaotamises nende koostisosadeks (fonemideks) ning nende helide ühendamises, kas eelnevalt salvestatud helide või AI-mudelite abil genereeritud helide kaudu.
 
-![Tüüpiliste teksti kõneks süsteemide kolm etappi](../../../../../translated_images/tts-overview.193843cf3f5ee09f.et.png)
+![Tüüpiliste teksti kõneks süsteemide kolm etappi](../../../../../translated_images/et/tts-overview.193843cf3f5ee09f.png)
 
 Teksti kõneks süsteemid koosnevad tavaliselt kolmest etapist:
 

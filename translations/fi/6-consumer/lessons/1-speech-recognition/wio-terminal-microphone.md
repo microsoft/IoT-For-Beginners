@@ -15,11 +15,11 @@ Tässä oppitunnin osassa lisäät kaiuttimet Wio Terminal -laitteeseesi. Wio Te
 
 Wio Terminalissa on jo sisäänrakennettu mikrofoni, jota voidaan käyttää äänen tallentamiseen puheentunnistusta varten.
 
-![Wio Terminalin mikrofoni](../../../../../translated_images/wio-mic.3f8c843dbe8ad917.fi.png)
+![Wio Terminalin mikrofoni](../../../../../translated_images/fi/wio-mic.3f8c843dbe8ad917.png)
 
 Kaiuttimen lisäämiseksi voit käyttää [ReSpeaker 2-Mics Pi Hat](https://www.seeedstudio.com/ReSpeaker-2-Mics-Pi-HAT.html) -lisäosaa. Tämä on ulkoinen piirilevy, joka sisältää 2 MEMS-mikrofonia, kaiutinliitännän ja kuulokeliitännän.
 
-![ReSpeaker 2-Mics Pi Hat](../../../../../translated_images/respeaker.f5d19d1c6b14ab16.fi.png)
+![ReSpeaker 2-Mics Pi Hat](../../../../../translated_images/fi/respeaker.f5d19d1c6b14ab16.png)
 
 Tarvitset joko kuulokkeet, kaiuttimen 3,5 mm liittimellä tai kaiuttimen JST-liitännällä, kuten [Mono Enclosed Speaker - 2W 6 Ohm](https://www.seeedstudio.com/Mono-Enclosed-Speaker-2W-6-Ohm-p-2832.html).
 
@@ -35,7 +35,7 @@ Tarvitset myös SD-kortin äänen lataamiseen ja toistamiseen. Wio Terminal tuke
 
     Nämä pinnit tulee liittää seuraavasti:
 
-    ![Pinnien kaavio](../../../../../translated_images/wio-respeaker-wiring-0.767f80aa65081038.fi.png)
+    ![Pinnien kaavio](../../../../../translated_images/fi/wio-respeaker-wiring-0.767f80aa65081038.png)
 
 1. Aseta ReSpeaker ja Wio Terminal siten, että GPIO-liitännät ovat ylöspäin ja vasemmalla puolella.
 
@@ -43,33 +43,33 @@ Tarvitset myös SD-kortin äänen lataamiseen ja toistamiseen. Wio Terminal tuke
 
 1. Toista tämä prosessi koko vasemman puolen GPIO-liitäntöjen osalta. Varmista, että pinnit ovat tiukasti kiinni.
 
-    ![ReSpeaker, jonka vasemman puolen pinnit on kytketty Wio Terminalin vasemman puolen pinneihin](../../../../../translated_images/wio-respeaker-wiring-1.8d894727f2ba2400.fi.png)
+    ![ReSpeaker, jonka vasemman puolen pinnit on kytketty Wio Terminalin vasemman puolen pinneihin](../../../../../translated_images/fi/wio-respeaker-wiring-1.8d894727f2ba2400.png)
 
-    ![ReSpeaker, jonka vasemman puolen pinnit on kytketty Wio Terminalin vasemman puolen pinneihin](../../../../../translated_images/wio-respeaker-wiring-2.329e1cbd306e754f.fi.png)
+    ![ReSpeaker, jonka vasemman puolen pinnit on kytketty Wio Terminalin vasemman puolen pinneihin](../../../../../translated_images/fi/wio-respeaker-wiring-2.329e1cbd306e754f.png)
 
     > 💁 Jos hyppylankasi ovat nauhoina, pidä ne yhdessä - tämä helpottaa kaikkien kaapeleiden järjestyksessä liittämistä.
 
 1. Toista prosessi oikean puolen GPIO-liitäntöjen osalta ReSpeakerissä ja Wio Terminalissa. Nämä kaapelit tulee kiertää jo olemassa olevien kaapeleiden ympärille.
 
-    ![ReSpeaker, jonka oikean puolen pinnit on kytketty Wio Terminalin oikean puolen pinneihin](../../../../../translated_images/wio-respeaker-wiring-3.75b0be447e2fa930.fi.png)
+    ![ReSpeaker, jonka oikean puolen pinnit on kytketty Wio Terminalin oikean puolen pinneihin](../../../../../translated_images/fi/wio-respeaker-wiring-3.75b0be447e2fa930.png)
 
-    ![ReSpeaker, jonka oikean puolen pinnit on kytketty Wio Terminalin oikean puolen pinneihin](../../../../../translated_images/wio-respeaker-wiring-4.aa9cd434d8779437.fi.png)
+    ![ReSpeaker, jonka oikean puolen pinnit on kytketty Wio Terminalin oikean puolen pinneihin](../../../../../translated_images/fi/wio-respeaker-wiring-4.aa9cd434d8779437.png)
 
     > 💁 Jos hyppylankasi ovat nauhoina, jaa ne kahteen nauhaan. Vie yksi nauha kummallekin puolelle olemassa olevia kaapeleita.
 
     > 💁 Voit käyttää teippiä pitämään pinnit yhdessä estääksesi niiden irtoamisen liittämisen aikana.
     >
-    > ![Pinnit kiinnitetty teipillä](../../../../../translated_images/wio-respeaker-wiring-5.af117c20acf622f3.fi.png)
+    > ![Pinnit kiinnitetty teipillä](../../../../../translated_images/fi/wio-respeaker-wiring-5.af117c20acf622f3.png)
 
 1. Sinun täytyy lisätä kaiutin.
 
     * Jos käytät kaiutinta JST-kaapelilla, liitä se ReSpeakerin JST-porttiin.
 
-      ![Kaiutin liitetty ReSpeakeriin JST-kaapelilla](../../../../../translated_images/respeaker-jst-speaker.a441d177809df945.fi.png)
+      ![Kaiutin liitetty ReSpeakeriin JST-kaapelilla](../../../../../translated_images/fi/respeaker-jst-speaker.a441d177809df945.png)
 
     * Jos käytät kaiutinta 3,5 mm liittimellä tai kuulokkeita, liitä ne 3,5 mm liitäntään.
 
-      ![Kaiutin liitetty ReSpeakeriin 3,5 mm liittimen kautta](../../../../../translated_images/respeaker-35mm-speaker.ad79ef4f128c7751.fi.png)
+      ![Kaiutin liitetty ReSpeakeriin 3,5 mm liittimen kautta](../../../../../translated_images/fi/respeaker-35mm-speaker.ad79ef4f128c7751.png)
 
 ### Tehtävä - SD-kortin asettaminen
 
@@ -79,7 +79,7 @@ Tarvitset myös SD-kortin äänen lataamiseen ja toistamiseen. Wio Terminal tuke
 
 1. Aseta SD-kortti Wio Terminalin vasemmalla puolella olevaan SD-korttipaikkaan, juuri virtapainikkeen alapuolelle. Varmista, että kortti menee kokonaan sisään ja napsahtaa paikalleen - saatat tarvita ohutta työkalua tai toista SD-korttia auttamaan sen työntämisessä kokonaan sisään.
 
-    ![SD-kortin asettaminen SD-korttipaikkaan virtakytkimen alapuolella](../../../../../translated_images/wio-sd-card.acdcbe322fa4ee7f.fi.png)
+    ![SD-kortin asettaminen SD-korttipaikkaan virtakytkimen alapuolella](../../../../../translated_images/fi/wio-sd-card.acdcbe322fa4ee7f.png)
 
     > 💁 SD-kortin poistamiseksi sinun täytyy painaa sitä hieman sisään, jolloin se ponnahtaa ulos. Tarvitset tähän ohutta työkalua, kuten litteäpäistä ruuvimeisseliä tai toista SD-korttia.
 

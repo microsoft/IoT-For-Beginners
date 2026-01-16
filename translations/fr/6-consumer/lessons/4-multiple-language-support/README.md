@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Prise en charge de plusieurs langues
 
-![Un aperçu en sketchnote de cette leçon](../../../../../translated_images/lesson-24.4246968ed058510ab275052e87ef9aa89c7b2f938915d103c605c04dc6cd5bb7.fr.jpg)
+![Un aperçu en sketchnote de cette leçon](../../../../../translated_images/fr/lesson-24.4246968ed058510ab275052e87ef9aa89c7b2f938915d103c605c04dc6cd5bb7.jpg)
 
 > Sketchnote par [Nitya Narasimhan](https://github.com/nitya). Cliquez sur l'image pour une version agrandie.
 
@@ -83,7 +83,7 @@ Il existe un certain nombre de services d'IA que vous pouvez utiliser dans vos a
 
 ### Service vocal des services cognitifs
 
-![Le logo du service vocal](../../../../../translated_images/azure-speech-logo.a1f08c4befb0159f2cb5d692d3baf5b599e7b44759d316da907bda1508f46a4a.fr.png)
+![Le logo du service vocal](../../../../../translated_images/fr/azure-speech-logo.a1f08c4befb0159f2cb5d692d3baf5b599e7b44759d316da907bda1508f46a4a.png)
 
 Le service vocal que vous avez utilisé au cours des dernières leçons dispose de capacités de traduction pour la reconnaissance vocale. Lorsque vous reconnaissez la parole, vous pouvez demander non seulement le texte de la parole dans la même langue, mais aussi dans d'autres langues.
 
@@ -91,7 +91,7 @@ Le service vocal que vous avez utilisé au cours des dernières leçons dispose 
 
 ### Service de traduction des services cognitifs
 
-![Le logo du service de traduction](../../../../../translated_images/azure-translator-logo.c6ed3a4a433edfd2f11577eca105412c50b8396b194cbbd730723dd1d0793bcd.fr.png)
+![Le logo du service de traduction](../../../../../translated_images/fr/azure-translator-logo.c6ed3a4a433edfd2f11577eca105412c50b8396b194cbbd730723dd1d0793bcd.png)
 
 Le service Translator est un service de traduction dédié qui peut traduire du texte d'une langue vers une ou plusieurs langues cibles. En plus de traduire, il prend en charge un large éventail de fonctionnalités supplémentaires, y compris le masquage des propos injurieux. Il vous permet également de fournir une traduction spécifique pour un mot ou une phrase particulière, afin de travailler avec des termes que vous ne souhaitez pas traduire ou qui ont une traduction bien connue.
 
@@ -130,7 +130,7 @@ Pour cette leçon, vous aurez besoin d'une ressource Translator. Vous utiliserez
 
 Dans un monde idéal, toute votre application devrait comprendre autant de langues différentes que possible, de l'écoute de la parole à la compréhension du langage, en passant par la réponse avec la parole. Cela représente beaucoup de travail, donc les services de traduction peuvent accélérer le temps de livraison de votre application.
 
-![Une architecture de minuteur intelligent traduisant le japonais en anglais, traitant en anglais puis traduisant en japonais](../../../../../translated_images/translated-smart-timer.08ac20057fdc5c37.fr.png)
+![Une architecture de minuteur intelligent traduisant le japonais en anglais, traitant en anglais puis traduisant en japonais](../../../../../translated_images/fr/translated-smart-timer.08ac20057fdc5c37.webp)
 
 Imaginez que vous construisez un minuteur intelligent qui utilise l'anglais de bout en bout, comprenant l'anglais parlé et le convertissant en texte, exécutant la compréhension du langage en anglais, construisant des réponses en anglais et répondant avec une parole en anglais. Si vous vouliez ajouter la prise en charge du japonais, vous pourriez commencer par traduire le japonais parlé en texte anglais, puis garder le cœur de l'application identique, puis traduire le texte de réponse en japonais avant de prononcer la réponse. Cela vous permettrait d'ajouter rapidement la prise en charge du japonais, et vous pourriez étendre cela pour fournir une prise en charge complète du japonais de bout en bout plus tard.
 

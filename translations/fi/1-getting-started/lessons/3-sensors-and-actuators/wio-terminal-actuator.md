@@ -35,7 +35,7 @@ Grove LED tulee moduulina, jossa on valikoima LED-valoja, joten voit valita halu
 
 Liitä LED.
 
-![Grove LED](../../../../../translated_images/grove-led.6c853be93f473cf2c439cfc74bb1064732b22251a83cedf66e62f783f9cc1a79.fi.png)
+![Grove LED](../../../../../translated_images/fi/grove-led.6c853be93f473cf2c439cfc74bb1064732b22251a83cedf66e62f783f9cc1a79.png)
 
 1. Valitse suosikkisi LED-valo ja aseta sen jalat LED-moduulin kahteen reikään.
 
@@ -51,7 +51,7 @@ Liitä LED.
 
     > 💁 Oikeanpuoleista Grove-liitintä voidaan käyttää analogisten tai digitaalisten antureiden ja toimilaitteiden kanssa. Vasemmanpuoleinen liitin on tarkoitettu vain digitaalisten antureiden ja toimilaitteiden käyttöön. C käsitellään myöhemmässä oppitunnissa.
 
-![Grove LED liitetty oikeanpuoleiseen liittimeen](../../../../../translated_images/wio-led.265a1897e72d7f21.fi.png)
+![Grove LED liitetty oikeanpuoleiseen liittimeen](../../../../../translated_images/fi/wio-led.265a1897e72d7f21.png)
 
 ## Ohjelmoi yövalo
 

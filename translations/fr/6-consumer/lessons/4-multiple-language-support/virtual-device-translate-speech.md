@@ -46,7 +46,7 @@ Le service de reconnaissance vocale peut non seulement convertir la parole en te
     >
     > Par exemple, si vous entraînez LUIS en anglais mais souhaitez utiliser le français comme langue utilisateur, vous pouvez traduire des phrases comme "set a 2 minute and 27 second timer" de l'anglais au français en utilisant Bing Translate, puis utiliser le bouton **Écouter la traduction** pour prononcer la traduction dans votre microphone.
     >
-    > ![Le bouton écouter la traduction sur Bing Translate](../../../../../translated_images/bing-translate.348aa796d6efe2a92f41ea74a5cf42bb4c63d6faaa08e7f46924e072a35daa48.fr.png)
+    > ![Le bouton écouter la traduction sur Bing Translate](../../../../../translated_images/fr/bing-translate.348aa796d6efe2a92f41ea74a5cf42bb4c63d6faaa08e7f46924e072a35daa48.png)
 
 1. Remplacez les déclarations `recognizer_config` et `recognizer` par ce qui suit :
 

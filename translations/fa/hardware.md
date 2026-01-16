@@ -21,7 +21,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 ## خرید کیت‌ها
 
-![لوگوی Seeed Studios](../../translated_images/seeed-logo.74732b6b482b6e8e.fa.png)
+![لوگوی Seeed Studios](../../translated_images/fa/seeed-logo.74732b6b482b6e8e.png)
 
 Seeed Studios به‌طور سخاوتمندانه‌ای تمام سخت‌افزارها را به صورت کیت‌های آسان برای خرید در دسترس قرار داده است:
 
@@ -29,13 +29,13 @@ Seeed Studios به‌طور سخاوتمندانه‌ای تمام سخت‌اف
 
 **[IoT برای مبتدیان با Seeed و Microsoft - کیت شروع Wio Terminal](https://www.seeedstudio.com/IoT-for-beginners-with-Seeed-and-Microsoft-Wio-Terminal-Starter-Kit-p-5006.html)**
 
-[![کیت سخت‌افزاری Wio Terminal](../../translated_images/wio-hardware-kit.4c70c48b85e4283a.fa.png)](https://www.seeedstudio.com/IoT-for-beginners-with-Seeed-and-Microsoft-Wio-Terminal-Starter-Kit-p-5006.html)
+[![کیت سخت‌افزاری Wio Terminal](../../translated_images/fa/wio-hardware-kit.4c70c48b85e4283a.png)](https://www.seeedstudio.com/IoT-for-beginners-with-Seeed-and-Microsoft-Wio-Terminal-Starter-Kit-p-5006.html)
 
 ### Raspberry Pi
 
 **[IoT برای مبتدیان با Seeed و Microsoft - کیت شروع Raspberry Pi 4](https://www.seeedstudio.com/IoT-for-beginners-with-Seeed-and-Microsoft-Raspberry-Pi-Starter-Kit-p-5004.html)**
 
-[![کیت سخت‌افزاری Raspberry Pi Terminal](../../translated_images/pi-hardware-kit.26dbadaedb7dd44c73b0131d5d68ea29472ed0a9744f90d5866c6d82f2d16380.fa.png)](https://www.seeedstudio.com/IoT-for-beginners-with-Seeed-and-Microsoft-Raspberry-Pi-Starter-Kit-p-5004.html)
+[![کیت سخت‌افزاری Raspberry Pi Terminal](../../translated_images/fa/pi-hardware-kit.26dbadaedb7dd44c73b0131d5d68ea29472ed0a9744f90d5866c6d82f2d16380.png)](https://www.seeedstudio.com/IoT-for-beginners-with-Seeed-and-Microsoft-Raspberry-Pi-Starter-Kit-p-5004.html)
 
 ## Arduino
 

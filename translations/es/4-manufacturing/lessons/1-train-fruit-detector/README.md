@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Entrena un detector de calidad de frutas
 
-![Una vista general ilustrada de esta lección](../../../../../translated_images/lesson-15.843d21afdc6fb2bba70cd9db7b7d2f91598859fafda2078b0bdc44954194b6c0.es.jpg)
+![Una vista general ilustrada de esta lección](../../../../../translated_images/es/lesson-15.843d21afdc6fb2bba70cd9db7b7d2f91598859fafda2078b0bdc44954194b6c0.jpg)
 
 > Ilustración por [Nitya Narasimhan](https://github.com/nitya). Haz clic en la imagen para una versión más grande.
 
@@ -47,7 +47,7 @@ No todos los cultivos maduran de manera uniforme. Los tomates, por ejemplo, pued
 
 El auge de la cosecha automatizada trasladó la clasificación de productos de la cosecha a la fábrica. Los alimentos viajarían en largas cintas transportadoras con equipos de personas revisando los productos y eliminando cualquier cosa que no cumpliera con el estándar de calidad requerido. La cosecha era más barata gracias a la maquinaria, pero todavía había un costo asociado con la clasificación manual de los alimentos.
 
-![Si se detecta un tomate rojo, continúa su trayecto sin interrupciones. Si se detecta un tomate verde, se lanza a un contenedor de desechos mediante una palanca](../../../../../translated_images/optical-tomato-sorting.61aa134bdda4e5b1bfb16a212c1e35a6ef0c426cbb8b1c975f79d7bfbf48d068.es.png)
+![Si se detecta un tomate rojo, continúa su trayecto sin interrupciones. Si se detecta un tomate verde, se lanza a un contenedor de desechos mediante una palanca](../../../../../translated_images/es/optical-tomato-sorting.61aa134bdda4e5b1bfb16a212c1e35a6ef0c426cbb8b1c975f79d7bfbf48d068.png)
 
 La siguiente evolución fue usar máquinas para clasificar, ya sea integradas en la cosechadora o en las plantas de procesamiento. La primera generación de estas máquinas usaba sensores ópticos para detectar colores, controlando actuadores para empujar tomates verdes a un contenedor de desechos usando palancas o ráfagas de aire, dejando que los tomates rojos continuaran en una red de cintas transportadoras.
 
@@ -61,7 +61,7 @@ Las últimas evoluciones de estas máquinas de clasificación aprovechan la IA y
 
 La programación tradicional consiste en tomar datos, aplicar un algoritmo a los datos y obtener un resultado. Por ejemplo, en el último proyecto tomaste coordenadas GPS y una geocerca, aplicaste un algoritmo proporcionado por Azure Maps y obtuviste un resultado sobre si el punto estaba dentro o fuera de la geocerca. Introduces más datos, obtienes más resultados.
 
-![El desarrollo tradicional toma datos de entrada y un algoritmo y da un resultado. El aprendizaje automático usa datos de entrada y salida para entrenar un modelo, y este modelo puede tomar nuevos datos de entrada para generar nuevos resultados](../../../../../translated_images/traditional-vs-ml.5c20c169621fa539.es.png)
+![El desarrollo tradicional toma datos de entrada y un algoritmo y da un resultado. El aprendizaje automático usa datos de entrada y salida para entrenar un modelo, y este modelo puede tomar nuevos datos de entrada para generar nuevos resultados](../../../../../translated_images/es/traditional-vs-ml.5c20c169621fa539.webp)
 
 El aprendizaje automático cambia esto: comienzas con datos y resultados conocidos, y el algoritmo de aprendizaje automático aprende de los datos. Luego puedes tomar ese algoritmo entrenado, llamado *modelo de aprendizaje automático* o *modelo*, e introducir nuevos datos para obtener nuevos resultados.
 
@@ -71,7 +71,7 @@ Por ejemplo, podrías darle a un modelo millones de imágenes de plátanos inmad
 
 > 🎓 Los resultados de los modelos de ML se llaman *predicciones*
 
-![2 plátanos, uno maduro con una predicción de 99.7% maduro, 0.3% inmaduro, y uno inmaduro con una predicción de 1.4% maduro, 98.6% inmaduro](../../../../../translated_images/bananas-ripe-vs-unripe-predictions.8d0e2034014aa50ece4e4589e724b142da0681f35470fe3db3f7d51240f69c85.es.png)
+![2 plátanos, uno maduro con una predicción de 99.7% maduro, 0.3% inmaduro, y uno inmaduro con una predicción de 1.4% maduro, 98.6% inmaduro](../../../../../translated_images/es/bananas-ripe-vs-unripe-predictions.8d0e2034014aa50ece4e4589e724b142da0681f35470fe3db3f7d51240f69c85.png)
 
 Los modelos de ML no dan una respuesta binaria, en cambio, dan probabilidades. Por ejemplo, un modelo puede recibir una imagen de un plátano y predecir `maduro` con un 99.7% y `inmaduro` con un 0.3%. Tu código luego elegiría la mejor predicción y decidiría que el plátano está maduro.
 
@@ -87,7 +87,7 @@ Para entrenar con éxito un clasificador de imágenes necesitas millones de imá
 
 Una vez que un clasificador de imágenes ha sido entrenado para una amplia variedad de imágenes, sus componentes internos son excelentes para reconocer formas, colores y patrones. El aprendizaje por transferencia permite que el modelo tome lo que ya ha aprendido al reconocer partes de imágenes y lo use para reconocer nuevas imágenes.
 
-![Una vez que puedes reconocer formas, pueden colocarse en diferentes configuraciones para formar un barco o un gato](../../../../../translated_images/shapes-to-images.1a309f0ea88dd66f.es.png)
+![Una vez que puedes reconocer formas, pueden colocarse en diferentes configuraciones para formar un barco o un gato](../../../../../translated_images/es/shapes-to-images.1a309f0ea88dd66f.webp)
 
 Puedes pensar en esto como los libros de formas para niños, donde una vez que puedes reconocer un semicírculo, un rectángulo y un triángulo, puedes reconocer un velero o un gato dependiendo de la configuración de estas formas. El clasificador de imágenes puede reconocer las formas, y el aprendizaje por transferencia le enseña qué combinación forma un barco o un gato, o un plátano maduro.
 
@@ -99,7 +99,7 @@ Hay una amplia gama de herramientas que pueden ayudarte a hacer esto, incluyendo
 
 Custom Vision es una herramienta basada en la nube para entrenar clasificadores de imágenes. Te permite entrenar un clasificador usando solo un pequeño número de imágenes. Puedes subir imágenes a través de un portal web, una API web o un SDK, dando a cada imagen una *etiqueta* que clasifique esa imagen. Luego entrenas el modelo y lo pruebas para ver qué tan bien funciona. Una vez que estés satisfecho con el modelo, puedes publicar versiones de este que pueden ser accesibles a través de una API web o un SDK.
 
-![El logo de Azure Custom Vision](../../../../../translated_images/custom-vision-logo.d3d4e7c8a87ec9daf825e72e210576c3cbf60312577be7a139e22dd97ab7f1e6.es.png)
+![El logo de Azure Custom Vision](../../../../../translated_images/es/custom-vision-logo.d3d4e7c8a87ec9daf825e72e210576c3cbf60312577be7a139e22dd97ab7f1e6.png)
 
 > 💁 Puedes entrenar un modelo de Custom Vision con tan solo 5 imágenes por clasificación, pero más es mejor. Puedes obtener mejores resultados con al menos 30 imágenes.
 
@@ -155,7 +155,7 @@ Para usar Custom Vision, primero necesitas crear dos recursos de servicios cogni
 
     Cuando crees tu proyecto, asegúrate de usar el recurso `fruit-quality-detector-training` que creaste anteriormente. Usa un tipo de proyecto *Clasificación*, un tipo de clasificación *Multiclase* y el dominio *Alimentos*.
 
-    ![La configuración para el proyecto de Custom Vision con el nombre configurado como fruit-quality-detector, sin descripción, el recurso configurado como fruit-quality-detector-training, el tipo de proyecto configurado como clasificación, el tipo de clasificación configurado como multiclase y el dominio configurado como alimentos](../../../../../translated_images/custom-vision-create-project.cf46325b92d8b131089f6647cf5e07b664cb77850e106d66e3c057b6b69756c6.es.png)
+    ![La configuración para el proyecto de Custom Vision con el nombre configurado como fruit-quality-detector, sin descripción, el recurso configurado como fruit-quality-detector-training, el tipo de proyecto configurado como clasificación, el tipo de clasificación configurado como multiclase y el dominio configurado como alimentos](../../../../../translated_images/es/custom-vision-create-project.cf46325b92d8b131089f6647cf5e07b664cb77850e106d66e3c057b6b69756c6.png)
 
 ✅ Tómate un tiempo para explorar la interfaz de usuario de Custom Vision para tu clasificador de imágenes.
 
@@ -173,7 +173,7 @@ Los clasificadores de imágenes funcionan con resoluciones muy bajas. Por ejempl
 
     * Usando 2 plátanos maduros, toma algunas fotos de cada uno desde diferentes ángulos, tomando al menos 7 fotos (5 para entrenar, 2 para probar), pero idealmente más.
 
-        ![Fotos de 2 plátanos diferentes](../../../../../translated_images/banana-training-images.530eb203346d73bc23b8b990fb4609470bf4ff7c942ccc13d4cfffeed9be1ad4.es.png)
+        ![Fotos de 2 plátanos diferentes](../../../../../translated_images/es/banana-training-images.530eb203346d73bc23b8b990fb4609470bf4ff7c942ccc13d4cfffeed9be1ad4.png)
 
     * Repite el mismo proceso usando 2 plátanos inmaduros.
 
@@ -183,7 +183,7 @@ Los clasificadores de imágenes funcionan con resoluciones muy bajas. Por ejempl
 
 1. Sigue la [sección de subir y etiquetar imágenes del tutorial rápido para construir un clasificador en la documentación de Microsoft](https://docs.microsoft.com/azure/cognitive-services/custom-vision-service/getting-started-build-a-classifier?WT.mc_id=academic-17441-jabenn#upload-and-tag-images) para subir tus imágenes de entrenamiento. Etiqueta las frutas maduras como `ripe` y las inmaduras como `unripe`.
 
-    ![Los diálogos de subida mostrando la carga de imágenes de plátanos maduros e inmaduros](../../../../../translated_images/image-upload-bananas.0751639f3815e0ec42bdbc6254d1e4357a185834d1ae10c9948a0e7d6d336695.es.png)
+    ![Los diálogos de subida mostrando la carga de imágenes de plátanos maduros e inmaduros](../../../../../translated_images/es/image-upload-bananas.0751639f3815e0ec42bdbc6254d1e4357a185834d1ae10c9948a0e7d6d336695.png)
 
 1. Sigue la [sección de entrenar el clasificador del tutorial rápido para construir un clasificador en la documentación de Microsoft](https://docs.microsoft.com/azure/cognitive-services/custom-vision-service/getting-started-build-a-classifier?WT.mc_id=academic-17441-jabenn#train-the-classifier) para entrenar el clasificador de imágenes con tus imágenes subidas.
 
@@ -201,7 +201,7 @@ Una vez que tu clasificador esté entrenado, puedes probarlo dándole una nueva 
 
 1. Sigue la [documentación para probar tu modelo en los documentos de Microsoft](https://docs.microsoft.com/azure/cognitive-services/custom-vision-service/test-your-model?WT.mc_id=academic-17441-jabenn#test-your-model) para probar tu clasificador de imágenes. Usa las imágenes de prueba que creaste anteriormente, no ninguna de las imágenes que usaste para entrenar.
 
-    ![Un plátano inmaduro predicho como inmaduro con una probabilidad del 98.9%, maduro con una probabilidad del 1.1%](../../../../../translated_images/banana-unripe-quick-test-prediction.dae9b5e1c4ef7c64886422438850ea14f0be6ac918c217ea3b255c685abfabe7.es.png)
+    ![Un plátano inmaduro predicho como inmaduro con una probabilidad del 98.9%, maduro con una probabilidad del 1.1%](../../../../../translated_images/es/banana-unripe-quick-test-prediction.dae9b5e1c4ef7c64886422438850ea14f0be6ac918c217ea3b255c685abfabe7.png)
 
 1. Prueba todas las imágenes de prueba que tengas y observa las probabilidades.
 

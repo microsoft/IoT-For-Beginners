@@ -47,11 +47,11 @@ GPS सेंसर को CounterFit ऐप में जोड़ें।
 
     1. **Add** बटन चुनें ताकि `/dev/ttyAMA0` पोर्ट पर GPS सेंसर बनाया जा सके।
 
-    ![GPS सेंसर सेटिंग्स](../../../../../translated_images/counterfit-create-gps-sensor.6385dc9357d85ad1d47b4abb2525e7651fd498917d25eefc5a72feab09eedc70.hi.png)
+    ![GPS सेंसर सेटिंग्स](../../../../../translated_images/hi/counterfit-create-gps-sensor.6385dc9357d85ad1d47b4abb2525e7651fd498917d25eefc5a72feab09eedc70.png)
 
     GPS सेंसर बनाया जाएगा और सेंसर सूची में दिखाई देगा।
 
-    ![GPS सेंसर बनाया गया](../../../../../translated_images/counterfit-gps-sensor.3fbb15af0a5367566f2f11324ef5a6f30861cdf2b497071a5e002b7aa473550e.hi.png)
+    ![GPS सेंसर बनाया गया](../../../../../translated_images/hi/counterfit-gps-sensor.3fbb15af0a5367566f2f11324ef5a6f30861cdf2b497071a5e002b7aa473550e.png)
 
 ## GPS सेंसर को प्रोग्राम करें
 
@@ -111,17 +111,17 @@ GPS सेंसर ऐप को प्रोग्राम करें।
 
     * **Source** को `Lat/Lon` पर सेट करें, और एक स्पष्ट लैटिट्यूड, लॉन्गिट्यूड और GPS फिक्स प्राप्त करने के लिए उपयोग किए गए सैटेलाइट्स की संख्या सेट करें। यह मान केवल एक बार भेजा जाएगा, इसलिए **Repeat** बॉक्स को चेक करें ताकि डेटा हर सेकंड दोहराया जा सके।
 
-      ![GPS सेंसर लैट लॉन के साथ चुना गया](../../../../../translated_images/counterfit-gps-sensor-latlon.008c867d75464fbe7f84107cc57040df565ac07cb57d2f21db37d087d470197d.hi.png)
+      ![GPS सेंसर लैट लॉन के साथ चुना गया](../../../../../translated_images/hi/counterfit-gps-sensor-latlon.008c867d75464fbe7f84107cc57040df565ac07cb57d2f21db37d087d470197d.png)
 
     * **Source** को `NMEA` पर सेट करें और कुछ NMEA वाक्य टेक्स्ट बॉक्स में जोड़ें। ये सभी मान भेजे जाएंगे, प्रत्येक नए GGA (पोजिशन फिक्स) वाक्य को पढ़ने से पहले 1 सेकंड की देरी होगी।
 
-      ![GPS सेंसर NMEA वाक्य के साथ सेट किया गया](../../../../../translated_images/counterfit-gps-sensor-nmea.c62eea442171e17e19528b051b104cfcecdc9cd18db7bc72920f29821ae63f73.hi.png)
+      ![GPS सेंसर NMEA वाक्य के साथ सेट किया गया](../../../../../translated_images/hi/counterfit-gps-sensor-nmea.c62eea442171e17e19528b051b104cfcecdc9cd18db7bc72920f29821ae63f73.png)
 
       आप [nmeagen.org](https://www.nmeagen.org) जैसे टूल का उपयोग करके इन वाक्यों को मैप पर ड्रॉ करके जनरेट कर सकते हैं। ये मान केवल एक बार भेजे जाएंगे, इसलिए **Repeat** बॉक्स को चेक करें ताकि डेटा एक सेकंड बाद फिर से भेजा जा सके।
 
     * **Source** को GPX फ़ाइल पर सेट करें और ट्रैक लोकेशन के साथ एक GPX फ़ाइल अपलोड करें। आप [AllTrails](https://www.alltrails.com/) जैसे लोकप्रिय मैपिंग और हाइकिंग साइट्स से GPX फ़ाइलें डाउनलोड कर सकते हैं। इन फ़ाइलों में एक ट्रेल के रूप में कई GPS लोकेशन होती हैं, और GPS सेंसर प्रत्येक नई लोकेशन को 1 सेकंड के अंतराल पर लौटाएगा।
 
-      ![GPS सेंसर GPX फ़ाइल के साथ सेट किया गया](../../../../../translated_images/counterfit-gps-sensor-gpxfile.8310b063ce8a425ccc8ebeec8306aeac5e8e55207f007d52c6e1194432a70cd9.hi.png)
+      ![GPS सेंसर GPX फ़ाइल के साथ सेट किया गया](../../../../../translated_images/hi/counterfit-gps-sensor-gpxfile.8310b063ce8a425ccc8ebeec8306aeac5e8e55207f007d52c6e1194432a70cd9.png)
 
       ये मान केवल एक बार भेजे जाएंगे, इसलिए **Repeat** बॉक्स को चेक करें ताकि डेटा एक सेकंड बाद फिर से भेजा जा सके।
 

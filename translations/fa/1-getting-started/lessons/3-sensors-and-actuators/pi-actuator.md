@@ -35,7 +35,7 @@ LED Grove به صورت یک ماژول با مجموعه‌ای از LED‌ها
 
 LED را وصل کنید.
 
-![یک LED Grove](../../../../../translated_images/grove-led.6c853be93f473cf2c439cfc74bb1064732b22251a83cedf66e62f783f9cc1a79.fa.png)
+![یک LED Grove](../../../../../translated_images/fa/grove-led.6c853be93f473cf2c439cfc74bb1064732b22251a83cedf66e62f783f9cc1a79.png)
 
 1. LED مورد علاقه خود را انتخاب کنید و پایه‌های آن را در دو سوراخ روی ماژول LED قرار دهید.
 
@@ -49,7 +49,7 @@ LED را وصل کنید.
 
 1. با خاموش بودن رزبری پای، سر دیگر کابل Grove را به سوکت دیجیتال علامت‌گذاری شده **D5** روی Grove Base hat متصل به پای وصل کنید. این سوکت دومین سوکت از سمت چپ در ردیف سوکت‌های کنار پین‌های GPIO است.
 
-![LED Grove متصل به سوکت D5](../../../../../translated_images/pi-led.97f1d474981dc35d1c7996c7b17de355d3d0a6bc9606d79fa5f89df933415122.fa.png)
+![LED Grove متصل به سوکت D5](../../../../../translated_images/fa/pi-led.97f1d474981dc35d1c7996c7b17de355d3d0a6bc9606d79fa5f89df933415122.png)
 
 ## برنامه‌نویسی چراغ خواب
 

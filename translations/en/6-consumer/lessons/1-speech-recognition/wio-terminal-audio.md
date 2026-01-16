@@ -19,7 +19,7 @@ The built-in microphone captures an analog signal, which is converted into a dig
 
 ✅ Learn more about DMA on the [direct memory access page on Wikipedia](https://wikipedia.org/wiki/Direct_memory_access).
 
-![Audio from the mic goes to an ADC then to the DMAC. This writes to one buffer. When this buffer is full, it is processed and the DMAC writes to a second buffer](../../../../../translated_images/dmac-adc-buffers.4509aee49145c90bc2e1be472b8ed2ddfcb2b6a81ad3e559114aca55f5fff759.en.png)
+![Audio from the mic goes to an ADC then to the DMAC. This writes to one buffer. When this buffer is full, it is processed and the DMAC writes to a second buffer](../../../../../translated_images/en/dmac-adc-buffers.4509aee49145c90bc2e1be472b8ed2ddfcb2b6a81ad3e559114aca55f5fff759.png)
 
 The DMAC can record audio from the ADC at fixed intervals, such as 16,000 times per second for 16KHz audio. It writes this data to a pre-allocated memory buffer, and when the buffer is full, it notifies your code to process the data. Using a single buffer can cause delays in recording, but you can set up multiple buffers. The DMAC writes to buffer 1, and when it’s full, it notifies your code to process buffer 1 while it writes to buffer 2. When buffer 2 is full, it notifies your code and switches back to buffer 1. As long as you process each buffer faster than the time it takes to fill one, no data will be lost.
 

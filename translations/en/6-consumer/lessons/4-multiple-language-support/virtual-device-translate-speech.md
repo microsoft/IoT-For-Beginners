@@ -46,7 +46,7 @@ The speech service can process speech and not only convert it into text in the s
     >
     > For example, if you train LUIS in English but want to use French as the user language, you can translate sentences like "set a 2 minute and 27 second timer" from English into French using Bing Translate, then use the **Listen translation** button to speak the translation into your microphone.
     >
-    > ![The listen translation button on Bing translate](../../../../../translated_images/bing-translate.348aa796d6efe2a92f41ea74a5cf42bb4c63d6faaa08e7f46924e072a35daa48.en.png)
+    > ![The listen translation button on Bing translate](../../../../../translated_images/en/bing-translate.348aa796d6efe2a92f41ea74a5cf42bb4c63d6faaa08e7f46924e072a35daa48.png)
 
 1. Replace the `recognizer_config` and `recognizer` declarations with the following:
 

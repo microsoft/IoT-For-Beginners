@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # העבר את לוגיקת האפליקציה שלך לענן
 
-![סקיצה של סקירה כללית של השיעור הזה](../../../../../translated_images/lesson-9.dfe99c8e891f48e179724520da9f5794392cf9a625079281ccdcbf09bd85e1b6.he.jpg)
+![סקיצה של סקירה כללית של השיעור הזה](../../../../../translated_images/he/lesson-9.dfe99c8e891f48e179724520da9f5794392cf9a625079281ccdcbf09bd85e1b6.jpg)
 
 > סקיצה מאת [ניטיה נאראסימן](https://github.com/nitya). לחץ על התמונה לגרסה גדולה יותר.
 
@@ -37,11 +37,11 @@ CO_OP_TRANSLATOR_METADATA:
 
 ללא שרת, או מחשוב ללא שרת, כולל יצירת בלוקים קטנים של קוד שמופעלים בענן בתגובה לסוגים שונים של אירועים. כאשר האירוע מתרחש, הקוד שלך מופעל ומועבר אליו מידע על האירוע. אירועים אלו יכולים להגיע ממגוון מקורות, כולל בקשות אינטרנט, הודעות בתור, שינויים בנתונים בבסיס נתונים, או הודעות שנשלחות לשירות IoT על ידי מכשירי IoT.
 
-![אירועים שנשלחים משירות IoT לשירות ללא שרת, כולם מעובדים בו זמנית על ידי פונקציות מרובות](../../../../../translated_images/iot-messages-to-serverless.0194da1cc0732bb7d0f823aed3fce54735c6b1ad3bf36089804d8aaefc0a774f.he.png)
+![אירועים שנשלחים משירות IoT לשירות ללא שרת, כולם מעובדים בו זמנית על ידי פונקציות מרובות](../../../../../translated_images/he/iot-messages-to-serverless.0194da1cc0732bb7d0f823aed3fce54735c6b1ad3bf36089804d8aaefc0a774f.png)
 
 > 💁 אם השתמשת בעבר בטריגרים של בסיס נתונים, תוכל לחשוב על זה כמשהו דומה - קוד שמופעל על ידי אירוע כמו הכנסת שורה.
 
-![כאשר אירועים רבים נשלחים בו זמנית, שירות ללא שרת מתרחב כדי להפעיל את כולם בו זמנית](../../../../../translated_images/serverless-scaling.f8c769adf0413fd1.he.png)
+![כאשר אירועים רבים נשלחים בו זמנית, שירות ללא שרת מתרחב כדי להפעיל את כולם בו זמנית](../../../../../translated_images/he/serverless-scaling.f8c769adf0413fd1.png)
 
 הקוד שלך מופעל רק כאשר האירוע מתרחש, ואין שום דבר שמחזיק את הקוד שלך פעיל בזמנים אחרים. האירוע מתרחש, הקוד שלך נטען ומופעל. זה הופך את המודל ללא שרת למאוד ניתן להרחבה - אם אירועים רבים מתרחשים בו זמנית, ספק הענן יכול להפעיל את הפונקציה שלך כמה פעמים שצריך בו זמנית על פני כל השרתים הזמינים. החיסרון הוא שאם אתה צריך לשתף מידע בין אירועים, תצטרך לשמור אותו במקום כלשהו כמו בסיס נתונים במקום בזיכרון.
 
@@ -63,7 +63,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 שירות המחשוב ללא שרת של מיקרוסופט נקרא Azure Functions.
 
-![לוגו של Azure Functions](../../../../../translated_images/azure-functions-logo.1cfc8e3204c9c44aaf80fcf406fc8544d80d7f00f8d3e8ed6fed764563e17564.he.png)
+![לוגו של Azure Functions](../../../../../translated_images/he/azure-functions-logo.1cfc8e3204c9c44aaf80fcf406fc8544d80d7f00f8d3e8ed6fed764563e17564.png)
 
 הסרטון הקצר למטה מציג סקירה כללית של Azure Functions.
 
@@ -244,7 +244,7 @@ CO_OP_TRANSLATOR_METADATA:
     VS Code. Initialize for optimal use with VS Code?
     ```
 
-    ![ההודעה](../../../../../translated_images/vscode-azure-functions-init-notification.bd19b49229963edb.he.png)
+    ![ההודעה](../../../../../translated_images/he/vscode-azure-functions-init-notification.bd19b49229963edb.png)
 
     בחר **כן** מההודעה הזו.
 

@@ -27,13 +27,13 @@ CO_OP_TRANSLATOR_METADATA:
 
 حسگر GPS را متصل کنید.
 
-![حسگر Grove GPS](../../../../../translated_images/grove-gps-sensor.247943bf69b03f0d1820ef6ed10c587f9b650e8db55b936851c92412180bd3e2.fa.png)
+![حسگر Grove GPS](../../../../../translated_images/fa/grove-gps-sensor.247943bf69b03f0d1820ef6ed10c587f9b650e8db55b936851c92412180bd3e2.png)
 
 1. یک سر کابل Grove را به سوکت حسگر GPS وارد کنید. کابل فقط از یک جهت وارد می‌شود.
 
 1. با خاموش بودن رزبری پای، سر دیگر کابل Grove را به سوکت UART که با **UART** روی Grove Base hat متصل به رزبری پای مشخص شده است، وصل کنید. این سوکت در ردیف وسط، در سمت نزدیک به شیار کارت SD قرار دارد، در طرف مقابل پورت‌های USB و سوکت اترنت.
 
-    ![حسگر Grove GPS متصل به سوکت UART](../../../../../translated_images/pi-gps-sensor.1f99ee2b2f6528915047ec78967bd362e0e4ee0ed594368a3837b9cf9cdaca64.fa.png)
+    ![حسگر Grove GPS متصل به سوکت UART](../../../../../translated_images/fa/pi-gps-sensor.1f99ee2b2f6528915047ec78967bd362e0e4ee0ed594368a3837b9cf9cdaca64.png)
 
 1. حسگر GPS را در موقعیتی قرار دهید که آنتن متصل به آن دید به آسمان داشته باشد - ترجیحاً کنار یک پنجره باز یا در فضای باز. دریافت سیگنال واضح‌تر زمانی آسان‌تر است که چیزی جلوی آنتن نباشد.
 

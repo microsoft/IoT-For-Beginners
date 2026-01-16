@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Visualiseeri asukohaandmeid
 
-![Selle õppetunni visuaalne ülevaade](../../../../../translated_images/lesson-13.a259db1485021be7d7c72e90842fbe0ab977529e8684c179b5fb1ea75e92b3ef.et.jpg)
+![Selle õppetunni visuaalne ülevaade](../../../../../translated_images/et/lesson-13.a259db1485021be7d7c72e90842fbe0ab977529e8684c179b5fb1ea75e92b3ef.jpg)
 
 > Visuaalne ülevaade: [Nitya Narasimhan](https://github.com/nitya). Klõpsa pildil, et näha suuremat versiooni.
 
@@ -73,11 +73,11 @@ Lihtsa näitena - farmiprojektis salvestasid mulla niiskuse näidud. Tabel mulla
 
 Inimesena võib sellise andmestiku mõistmine olla keeruline. See on lihtsalt numbrite sein ilma tähenduseta. Esimese sammuna selle andmestiku visualiseerimiseks saab selle kujutada joondiagrammil:
 
-![Ülaltoodud andmete joondiagramm](../../../../../translated_images/chart-soil-moisture.fd6d9d0cdc0b5f75e78038ecb8945dfc84b38851359de99d84b16e3336d6d7c2.et.png)
+![Ülaltoodud andmete joondiagramm](../../../../../translated_images/et/chart-soil-moisture.fd6d9d0cdc0b5f75e78038ecb8945dfc84b38851359de99d84b16e3336d6d7c2.png)
 
 Seda saab veelgi täiustada, lisades joone, mis näitab, millal automaatne kastmissüsteem käivitati mulla niiskuse näidu 450 juures:
 
-![Mulla niiskuse joondiagramm koos joonega näidul 450](../../../../../translated_images/chart-soil-moisture-relay.fbb391236d34a64d0abf1df396e9197e0a24df14150620b9cc820a64a55c9326.et.png)
+![Mulla niiskuse joondiagramm koos joonega näidul 450](../../../../../translated_images/et/chart-soil-moisture-relay.fbb391236d34a64d0abf1df396e9197e0a24df14150620b9cc820a64a55c9326.png)
 
 See diagramm näitab kiiresti mitte ainult mulla niiskuse tasemeid, vaid ka punkte, kus kastmissüsteem käivitati.
 
@@ -93,7 +93,7 @@ GPS-andmetega töötamisel võib kõige selgem visualiseerimine olla andmete kaa
 
 Kaartidega töötamine on huvitav ülesanne ja valikuid on palju, näiteks Bing Maps, Leaflet, Open Street Maps ja Google Maps. Selles õppetunnis õpid tundma [Azure Maps](https://azure.microsoft.com/services/azure-maps/?WT.mc_id=academic-17441-jabenn) ja kuidas need saavad kuvada sinu GPS-andmeid.
 
-![Azure Maps logo](../../../../../translated_images/azure-maps-logo.35d01dcfbd81fe6140e94257aaa1538f785a58c91576d14e0ebe7a2f6c694b99.et.png)
+![Azure Maps logo](../../../../../translated_images/et/azure-maps-logo.35d01dcfbd81fe6140e94257aaa1538f785a58c91576d14e0ebe7a2f6c694b99.png)
 
 Azure Maps on "georuumiliste teenuste ja SDK-de kogum, mis kasutab värskeid kaardiandmeid, et pakkuda geograafilist konteksti veebirakendustele ja mobiilirakendustele." Arendajatele pakutakse tööriistu, et luua kauneid, interaktiivseid kaarte, mis suudavad teha asju nagu soovitada liiklusmarsruute, anda teavet liiklusõnnetuste kohta, siseruumide navigeerimine, otsinguvõimalused, kõrgusteave, ilmateenused ja palju muud.
 
@@ -194,7 +194,7 @@ Nüüd saad astuda järgmise sammu, mis on kaardi kuvamine veebilehel. Kasutame 
 
     Kui avad oma `index.html` lehe veebibrauseris, peaksid nägema kaarti, mis on keskendunud Seattle'i piirkonnale.
 
-    ![Kaart, mis näitab Seattle'i, linna Washingtoni osariigis, USA-s](../../../../../translated_images/map-image.8fb2c53eb23ef39c1c0a4410a5282e879b3b452b707eb066ff04c5488d3d72b7.et.png)
+    ![Kaart, mis näitab Seattle'i, linna Washingtoni osariigis, USA-s](../../../../../translated_images/et/map-image.8fb2c53eb23ef39c1c0a4410a5282e879b3b452b707eb066ff04c5488d3d72b7.png)
 
     ✅ Katseta suumi ja keskpunkti parameetreid, et muuta oma kaardi kuvamist. Saad lisada erinevaid koordinaate, mis vastavad sinu andmete laius- ja pikkuskraadile, et kaarti ümber keskendada.
 
@@ -328,7 +328,7 @@ Kui teete salvestusele päringu, et andmeid hankida, võite üllatusega näha om
 
 1. Laadige HTML-leht oma brauserisse. See laadib kaardi, seejärel laadib kõik GPS-andmed salvestusest ja kuvab need kaardil.
 
-    ![Saint Edward State Parki kaart Seattle'i lähedal, kus ringid näitavad teekonda pargi serva ümber](../../../../../translated_images/map-path.896832e72dc696ffe20650e4051027d4855442d955f93fdbb80bb417ca8a406f.et.png)
+    ![Saint Edward State Parki kaart Seattle'i lähedal, kus ringid näitavad teekonda pargi serva ümber](../../../../../translated_images/et/map-path.896832e72dc696ffe20650e4051027d4855442d955f93fdbb80bb417ca8a406f.png)
 
 > 💁 Selle koodi leiate [koodi](../../../../../3-transport/lessons/3-visualize-location-data/code) kaustast.
 

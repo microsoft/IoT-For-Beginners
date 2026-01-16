@@ -45,11 +45,11 @@ Add hozzá a LED-et a CounterFit alkalmazáshoz.
 
     1. Válaszd ki az **Add** gombot, hogy létrehozd a LED-et az 5-ös lábon.
 
-    ![A LED beállításai](../../../../../translated_images/counterfit-create-led.ba9db1c9b8c622a635d6dfae5cdc4e70c2b250635bd4f0601c6cf0bd22b7ba46.hu.png)
+    ![A LED beállításai](../../../../../translated_images/hu/counterfit-create-led.ba9db1c9b8c622a635d6dfae5cdc4e70c2b250635bd4f0601c6cf0bd22b7ba46.png)
 
     A LED létrejön, és megjelenik a működtetők listájában.
 
-    ![A létrehozott LED](../../../../../translated_images/counterfit-led.c0ab02de6d256ad84d9bad4d67a7faa709f0ea83e410cfe9b5561ef0cef30b1c.hu.png)
+    ![A létrehozott LED](../../../../../translated_images/hu/counterfit-led.c0ab02de6d256ad84d9bad4d67a7faa709f0ea83e410cfe9b5561ef0cef30b1c.png)
 
     Miután a LED létrejött, megváltoztathatod a színét a *Color* színválasztóval. A szín kiválasztása után nyomd meg a **Set** gombot a szín megváltoztatásához.
 

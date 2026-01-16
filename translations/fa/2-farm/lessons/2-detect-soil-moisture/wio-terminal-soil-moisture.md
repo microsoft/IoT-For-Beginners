@@ -27,17 +27,17 @@ CO_OP_TRANSLATOR_METADATA:
 
 حسگر رطوبت خاک را متصل کنید.
 
-![یک حسگر رطوبت خاک Grove](../../../../../translated_images/grove-capacitive-soil-moisture-sensor.e7f0776cce30e78be5cc5a07839385fd6718857f31b5bf5ad3d0c73c83b2f0ef.fa.png)
+![یک حسگر رطوبت خاک Grove](../../../../../translated_images/fa/grove-capacitive-soil-moisture-sensor.e7f0776cce30e78be5cc5a07839385fd6718857f31b5bf5ad3d0c73c83b2f0ef.png)
 
 1. یک سر کابل Grove را به سوکت روی حسگر رطوبت خاک وارد کنید. کابل فقط از یک جهت وارد می‌شود.
 
 1. با Wio Terminal که از کامپیوتر یا منبع تغذیه دیگر جدا شده است، سر دیگر کابل Grove را به سوکت سمت راست Wio Terminal متصل کنید (وقتی به صفحه نمایش نگاه می‌کنید). این سوکت دورترین سوکت از دکمه پاور است.
 
-![حسگر رطوبت خاک Grove متصل به سوکت سمت راست](../../../../../translated_images/wio-soil-moisture-sensor.46919b61c3f6cb74.fa.png)
+![حسگر رطوبت خاک Grove متصل به سوکت سمت راست](../../../../../translated_images/fa/wio-soil-moisture-sensor.46919b61c3f6cb74.png)
 
 1. حسگر رطوبت خاک را در خاک قرار دهید. این حسگر یک "خط بالاترین موقعیت" دارد - یک خط سفید روی حسگر. حسگر را تا این خط وارد کنید اما از آن عبور نکنید.
 
-![حسگر رطوبت خاک Grove در خاک](../../../../../translated_images/soil-moisture-sensor-in-soil.bfad91002bda5e96.fa.png)
+![حسگر رطوبت خاک Grove در خاک](../../../../../translated_images/fa/soil-moisture-sensor-in-soil.bfad91002bda5e96.png)
 
 1. اکنون می‌توانید Wio Terminal را به کامپیوتر خود متصل کنید.
 

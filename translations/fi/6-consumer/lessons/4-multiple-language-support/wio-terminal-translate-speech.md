@@ -114,7 +114,7 @@ Puhepalvelun REST API ei tue suoria käännöksiä, mutta voit käyttää Transl
     >
     > Esimerkiksi, jos koulutat LUIS:n englanniksi, mutta haluat käyttää ranskaa käyttäjän kielenä, voit kääntää lauseita kuten "set a 2 minute and 27 second timer" englannista ranskaksi Bing Translaten avulla ja käyttää **Kuuntele käännös**-painiketta puhuaksesi käännöksen mikrofoniin.
     >
-    > ![Kuuntele käännös -painike Bing Translatessa](../../../../../translated_images/bing-translate.348aa796d6efe2a92f41ea74a5cf42bb4c63d6faaa08e7f46924e072a35daa48.fi.png)
+    > ![Kuuntele käännös -painike Bing Translatessa](../../../../../translated_images/fi/bing-translate.348aa796d6efe2a92f41ea74a5cf42bb4c63d6faaa08e7f46924e072a35daa48.png)
 
 1. Lisää käännöspalvelun API-avain ja sijainti `SPEECH_LOCATION`-kohdan alle:
 

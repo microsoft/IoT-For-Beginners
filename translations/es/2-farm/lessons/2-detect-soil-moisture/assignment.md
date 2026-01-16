@@ -29,14 +29,14 @@ Necesitarás repetir estos pasos varias veces para obtener las lecturas necesari
 
 La humedad gravimétrica del suelo se calcula como:
 
-![La humedad del suelo % es el peso húmedo menos el peso seco, dividido por el peso seco, multiplicado por 100](../../../../../translated_images/gsm-calculation.6da38c6201eec14e7573bb2647aa18892883193553d23c9d77e5dc681522dfb2.es.png)
+![La humedad del suelo % es el peso húmedo menos el peso seco, dividido por el peso seco, multiplicado por 100](../../../../../translated_images/es/gsm-calculation.6da38c6201eec14e7573bb2647aa18892883193553d23c9d77e5dc681522dfb2.png)
 
 * W - el peso del suelo húmedo  
 * W - el peso del suelo seco  
 
 Por ejemplo, supongamos que tienes una muestra de suelo que pesa 212g húmeda y 197g seca.
 
-![El cálculo completado](../../../../../translated_images/gsm-calculation-example.99f9803b4f29e97668e7c15412136c0c399ab12dbba0b89596fdae9d8aedb6fb.es.png)
+![El cálculo completado](../../../../../translated_images/es/gsm-calculation-example.99f9803b4f29e97668e7c15412136c0c399ab12dbba0b89596fdae9d8aedb6fb.png)
 
 * W = 212g  
 * W = 197g  

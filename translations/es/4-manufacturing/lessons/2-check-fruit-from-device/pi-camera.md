@@ -25,7 +25,7 @@ La cámara se puede conectar a la Raspberry Pi utilizando un cable plano.
 
 ### Tarea - conectar la cámara
 
-![Una cámara Raspberry Pi](../../../../../translated_images/pi-camera-module.4278753c31bd6e757aa2b858be97d72049f71616278cefe4fb5abb485b40a078.es.png)
+![Una cámara Raspberry Pi](../../../../../translated_images/es/pi-camera-module.4278753c31bd6e757aa2b858be97d72049f71616278cefe4fb5abb485b40a078.png)
 
 1. Apaga la Raspberry Pi.
 
@@ -33,17 +33,17 @@ La cámara se puede conectar a la Raspberry Pi utilizando un cable plano.
 
     Puedes encontrar una animación que muestra cómo abrir el clip e insertar el cable en la [documentación de Raspberry Pi para comenzar con el módulo de cámara](https://projects.raspberrypi.org/en/projects/getting-started-with-picamera/2).
 
-    ![El cable plano insertado en el módulo de cámara](../../../../../translated_images/pi-camera-ribbon-cable.0bf82acd251611c21ac616f082849413e2b322a261d0e4f8fec344248083b07e.es.png)
+    ![El cable plano insertado en el módulo de cámara](../../../../../translated_images/es/pi-camera-ribbon-cable.0bf82acd251611c21ac616f082849413e2b322a261d0e4f8fec344248083b07e.png)
 
 1. Retira el Grove Base Hat de la Raspberry Pi.
 
 1. Pasa el cable plano a través de la ranura para cámara en el Grove Base Hat. Asegúrate de que el lado azul del cable mire hacia los puertos analógicos etiquetados como **A0**, **A1**, etc.
 
-    ![El cable plano pasando a través del Grove Base Hat](../../../../../translated_images/grove-base-hat-ribbon-cable.501fed202fcf73b11b2b68f6d246189f7d15d3e4423c572ddee79d77b4632b47.es.png)
+    ![El cable plano pasando a través del Grove Base Hat](../../../../../translated_images/es/grove-base-hat-ribbon-cable.501fed202fcf73b11b2b68f6d246189f7d15d3e4423c572ddee79d77b4632b47.png)
 
 1. Inserta el cable plano en el puerto de cámara de la Raspberry Pi. Una vez más, tira del clip de plástico negro hacia arriba, inserta el cable y luego empuja el clip hacia abajo. El lado azul del cable debe mirar hacia los puertos USB y Ethernet.
 
-    ![El cable plano conectado al puerto de cámara en la Raspberry Pi](../../../../../translated_images/pi-camera-socket-ribbon-cable.a18309920b11800911082ed7aa6fb28e6d9be3a022e4079ff990016cae3fca10.es.png)
+    ![El cable plano conectado al puerto de cámara en la Raspberry Pi](../../../../../translated_images/es/pi-camera-socket-ribbon-cable.a18309920b11800911082ed7aa6fb28e6d9be3a022e4079ff990016cae3fca10.png)
 
 1. Vuelve a colocar el Grove Base Hat.
 
@@ -110,7 +110,7 @@ Programa el dispositivo.
 
     La línea `camera.rotation = 0` establece la rotación de la imagen. El cable plano entra por la parte inferior de la cámara, pero si tu cámara está girada para apuntar más fácilmente al objeto que deseas clasificar, puedes cambiar esta línea al número de grados de rotación.
 
-    ![La cámara colgando sobre una lata de bebida](../../../../../translated_images/pi-camera-upside-down.5376961ba31459883362124152ad6b823d5ac5fc14e85f317e22903bd681c2b6.es.png)
+    ![La cámara colgando sobre una lata de bebida](../../../../../translated_images/es/pi-camera-upside-down.5376961ba31459883362124152ad6b823d5ac5fc14e85f317e22903bd681c2b6.png)
 
     Por ejemplo, si suspendes el cable plano sobre algo para que esté en la parte superior de la cámara, entonces establece la rotación en 180:
 

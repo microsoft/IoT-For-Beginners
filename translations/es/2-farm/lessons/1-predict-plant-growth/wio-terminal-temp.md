@@ -27,13 +27,13 @@ El sensor de temperatura Grove se puede conectar al puerto digital del Wio Termi
 
 Conecta el sensor de temperatura.
 
-![Un sensor de temperatura Grove](../../../../../translated_images/grove-dht11.07f8eafceee170043efbb53e1d15722bd4e00fbaa9ff74290b57e9f66eb82c17.es.png)
+![Un sensor de temperatura Grove](../../../../../translated_images/es/grove-dht11.07f8eafceee170043efbb53e1d15722bd4e00fbaa9ff74290b57e9f66eb82c17.png)
 
 1. Inserta un extremo de un cable Grove en el conector del sensor de humedad y temperatura. Solo encajará de una manera.
 
 1. Con el Wio Terminal desconectado de tu computadora u otra fuente de alimentación, conecta el otro extremo del cable Grove al conector Grove del lado derecho del Wio Terminal, mirando la pantalla. Este es el conector más alejado del botón de encendido.
 
-![El sensor de temperatura Grove conectado al conector derecho](../../../../../translated_images/wio-temperature-sensor.2934928f38c7f79a.es.png)
+![El sensor de temperatura Grove conectado al conector derecho](../../../../../translated_images/es/wio-temperature-sensor.2934928f38c7f79a.webp)
 
 ## Programar el sensor de temperatura
 

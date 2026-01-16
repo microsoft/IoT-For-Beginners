@@ -43,7 +43,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 1. यदि आप ReSpeaker 2-Mics Pi HAT का उपयोग कर रहे हैं, तो आप Grove बेस हैट को हटा सकते हैं और उसकी जगह ReSpeaker हैट को फिट कर सकते हैं।
 
-    ![ReSpeaker हैट के साथ एक रास्पबेरी पाई](../../../../../translated_images/pi-respeaker-hat.f00fabe7dd039a93e2e0aa0fc946c9af0c6a9eb17c32fa1ca097fb4e384f69f0.hi.png)
+    ![ReSpeaker हैट के साथ एक रास्पबेरी पाई](../../../../../translated_images/hi/pi-respeaker-hat.f00fabe7dd039a93e2e0aa0fc946c9af0c6a9eb17c32fa1ca097fb4e384f69f0.png)
 
     आपको इस पाठ में बाद में एक Grove बटन की आवश्यकता होगी, लेकिन यह इस हैट में पहले से ही बिल्ट-इन है, इसलिए Grove बेस हैट की आवश्यकता नहीं है।
 

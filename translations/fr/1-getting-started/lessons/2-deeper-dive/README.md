@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Une exploration approfondie de l'IoT
 
-![Un aperçu en sketchnote de cette leçon](../../../../../translated_images/lesson-2.324b0580d620c25e0a24fb7fddfc0b29a846dd4b82c08e7a9466d580ee78ce51.fr.jpg)
+![Un aperçu en sketchnote de cette leçon](../../../../../translated_images/fr/lesson-2.324b0580d620c25e0a24fb7fddfc0b29a846dd4b82c08e7a9466d580ee78ce51.jpg)
 
 > Sketchnote par [Nitya Narasimhan](https://github.com/nitya). Cliquez sur l'image pour une version agrandie.
 
@@ -41,13 +41,13 @@ Les deux composants d'une application IoT sont l'*Internet* et l'*objet*. Examin
 
 ### L'objet
 
-![Un Raspberry Pi 4](../../../../../translated_images/raspberry-pi-4.fd4590d308c3d456.fr.jpg)
+![Un Raspberry Pi 4](../../../../../translated_images/fr/raspberry-pi-4.fd4590d308c3d456.webp)
 
 La partie **objet** de l'IoT fait référence à un appareil capable d'interagir avec le monde physique. Ces appareils sont généralement de petits ordinateurs peu coûteux, fonctionnant à faible vitesse et consommant peu d'énergie - par exemple, des microcontrôleurs simples avec quelques kilooctets de RAM (par opposition aux gigaoctets d'un PC) fonctionnant à seulement quelques centaines de mégahertz (par opposition aux gigahertz d'un PC), mais consommant parfois si peu d'énergie qu'ils peuvent fonctionner pendant des semaines, des mois, voire des années sur des batteries.
 
 Ces appareils interagissent avec le monde physique, soit en utilisant des capteurs pour recueillir des données de leur environnement, soit en contrôlant des sorties ou des actionneurs pour effectuer des changements physiques. L'exemple typique est un thermostat intelligent - un appareil doté d'un capteur de température, d'un moyen de définir une température souhaitée comme un cadran ou un écran tactile, et d'une connexion à un système de chauffage ou de refroidissement qui peut être activé lorsque la température détectée est en dehors de la plage souhaitée. Le capteur de température détecte que la pièce est trop froide et un actionneur allume le chauffage.
 
-![Un diagramme montrant la température et un cadran comme entrées d'un appareil IoT, et le contrôle d'un chauffage comme sortie](../../../../../translated_images/basic-thermostat.a923217fd1f37e5a6f3390396a65c22a387419ea2dd17e518ec24315ba6ae9a8.fr.png)
+![Un diagramme montrant la température et un cadran comme entrées d'un appareil IoT, et le contrôle d'un chauffage comme sortie](../../../../../translated_images/fr/basic-thermostat.a923217fd1f37e5a6f3390396a65c22a387419ea2dd17e518ec24315ba6ae9a8.png)
 
 Il existe une grande variété d'objets pouvant agir comme appareils IoT, allant du matériel dédié à la détection d'un seul élément à des appareils polyvalents, même votre smartphone ! Un smartphone peut utiliser des capteurs pour détecter le monde qui l'entoure et des actionneurs pour interagir avec celui-ci - par exemple, en utilisant un capteur GPS pour détecter votre position et un haut-parleur pour vous donner des instructions de navigation vers une destination.
 
@@ -63,11 +63,11 @@ Les appareils ne se connectent pas toujours directement à Internet via WiFi ou 
 
 Dans l'exemple d'un thermostat intelligent, le thermostat se connecterait via le WiFi domestique à un service cloud. Il enverrait les données de température à ce service cloud, qui les écrirait ensuite dans une base de données permettant au propriétaire de vérifier les températures actuelles et passées via une application téléphonique. Un autre service dans le cloud saurait quelle température le propriétaire souhaite et enverrait des messages à l'appareil IoT via le service cloud pour indiquer au système de chauffage de s'allumer ou de s'éteindre.
 
-![Un diagramme montrant la température et un cadran comme entrées d'un appareil IoT, l'appareil IoT avec une communication bidirectionnelle avec le cloud, qui à son tour a une communication bidirectionnelle avec un téléphone, et le contrôle d'un chauffage comme sortie de l'appareil IoT](../../../../../translated_images/mobile-controlled-thermostat.4a994010473d8d6a52ba68c67e5f02dc8928c717e93ca4b9bc55525aa75bbb60.fr.png)
+![Un diagramme montrant la température et un cadran comme entrées d'un appareil IoT, l'appareil IoT avec une communication bidirectionnelle avec le cloud, qui à son tour a une communication bidirectionnelle avec un téléphone, et le contrôle d'un chauffage comme sortie de l'appareil IoT](../../../../../translated_images/fr/mobile-controlled-thermostat.4a994010473d8d6a52ba68c67e5f02dc8928c717e93ca4b9bc55525aa75bbb60.png)
 
 Une version encore plus intelligente pourrait utiliser l'IA dans le cloud avec des données provenant d'autres capteurs connectés à d'autres appareils IoT, tels que des capteurs de présence détectant les pièces utilisées, ainsi que des données telles que la météo et même votre calendrier, pour prendre des décisions sur la manière de régler la température de manière intelligente. Par exemple, elle pourrait éteindre votre chauffage si elle lit dans votre calendrier que vous êtes en vacances, ou éteindre le chauffage pièce par pièce en fonction des pièces que vous utilisez, apprenant des données pour devenir de plus en plus précise au fil du temps.
 
-![Un diagramme montrant plusieurs capteurs de température et un cadran comme entrées d'un appareil IoT, l'appareil IoT avec une communication bidirectionnelle avec le cloud, qui à son tour a une communication bidirectionnelle avec un téléphone, un calendrier et un service météo, et le contrôle d'un chauffage comme sortie de l'appareil IoT](../../../../../translated_images/smarter-thermostat.a75855f15d2d9e63.fr.png)
+![Un diagramme montrant plusieurs capteurs de température et un cadran comme entrées d'un appareil IoT, l'appareil IoT avec une communication bidirectionnelle avec le cloud, qui à son tour a une communication bidirectionnelle avec un téléphone, un calendrier et un service météo, et le contrôle d'un chauffage comme sortie de l'appareil IoT](../../../../../translated_images/fr/smarter-thermostat.a75855f15d2d9e63.webp)
 
 ✅ Quelles autres données pourraient aider à rendre un thermostat connecté à Internet plus intelligent ?
 
@@ -103,7 +103,7 @@ Plus le cycle de l'horloge est rapide, plus d'instructions peuvent être traité
 
 > 💁 Les CPU exécutent des programmes en utilisant le [cycle de récupération-décodage-exécution](https://wikipedia.org/wiki/Instruction_cycle). À chaque battement d'horloge, le CPU récupère la prochaine instruction de la mémoire, la décode, puis l'exécute, par exemple en utilisant une unité logique arithmétique (ALU) pour additionner deux nombres. Certaines exécutions nécessitent plusieurs battements pour s'exécuter, donc le cycle suivant s'exécutera au battement suivant après que l'instruction soit terminée.
 
-![Les cycles de récupération-décodage-exécution montrant la récupération d'une instruction du programme stocké dans la RAM, puis son décodage et son exécution sur un CPU](../../../../../translated_images/fetch-decode-execute.2fd6f150f6280392807f4475382319abd0cee0b90058e1735444d6baa6f2078c.fr.png)
+![Les cycles de récupération-décodage-exécution montrant la récupération d'une instruction du programme stocké dans la RAM, puis son décodage et son exécution sur un CPU](../../../../../translated_images/fr/fetch-decode-execute.2fd6f150f6280392807f4475382319abd0cee0b90058e1735444d6baa6f2078c.png)
 
 Les microcontrôleurs ont des vitesses d'horloge bien inférieures à celles des ordinateurs de bureau ou portables, ou même de la plupart des smartphones. Par exemple, le Wio Terminal a un CPU fonctionnant à 120MHz, soit 120 000 000 cycles par seconde.
 
@@ -135,7 +135,7 @@ Comme pour le CPU, la mémoire d'un microcontrôleur est infiniment plus petite 
 
 Le schéma ci-dessous illustre la différence de taille relative entre 192 Ko et 8 Go - le petit point au centre représente 192 Ko.
 
-![Une comparaison entre 192 Ko et 8 Go - plus de 40 000 fois plus grand](../../../../../translated_images/ram-comparison.6beb73541b42ac6f.fr.png)
+![Une comparaison entre 192 Ko et 8 Go - plus de 40 000 fois plus grand](../../../../../translated_images/fr/ram-comparison.6beb73541b42ac6f.webp)
 
 L'espace de stockage des programmes est également plus petit que celui d'un PC. Un PC typique peut avoir un disque dur de 500 Go pour le stockage des programmes, tandis qu'un microcontrôleur peut n'avoir que quelques kilooctets ou, au mieux, quelques mégaoctets (Mo) de stockage (1 Mo équivaut à 1 000 Ko, soit 1 000 000 octets). Le terminal Wio dispose de 4 Mo de stockage pour les programmes.
 
@@ -191,7 +191,7 @@ Les cartes Arduino sont programmées en C ou C++. L'utilisation de C/C++ permet 
 
 Vous écririez votre code d'initialisation dans la fonction `setup`, comme la connexion au WiFi et aux services cloud ou l'initialisation des broches pour l'entrée et la sortie. Votre code de traitement serait ensuite placé dans la fonction `loop`, comme la lecture d'un capteur et l'envoi de la valeur au cloud. Vous incluriez normalement un délai dans chaque boucle, par exemple, si vous souhaitez envoyer des données de capteur toutes les 10 secondes, vous ajouteriez un délai de 10 secondes à la fin de la boucle pour que le microcontrôleur puisse dormir, économisant ainsi de l'énergie, puis exécuter la boucle à nouveau 10 secondes plus tard.
 
-![Un sketch Arduino exécutant d'abord setup, puis loop en continu](../../../../../translated_images/arduino-sketch.79590cb837ff7a7c6a68d1afda6cab83fd53d3bb1bd9a8bf2eaf8d693a4d3ea6.fr.png)
+![Un sketch Arduino exécutant d'abord setup, puis loop en continu](../../../../../translated_images/fr/arduino-sketch.79590cb837ff7a7c6a68d1afda6cab83fd53d3bb1bd9a8bf2eaf8d693a4d3ea6.png)
 
 ✅ Cette architecture de programme est connue sous le nom de *boucle d'événements* ou *boucle de messages*. De nombreuses applications utilisent ce modèle en arrière-plan, et c'est la norme pour la plupart des applications de bureau fonctionnant sur des OS comme Windows, macOS ou Linux. La fonction `loop` écoute les messages provenant de composants d'interface utilisateur tels que des boutons, ou d'appareils comme le clavier, et y répond. Vous pouvez en lire davantage dans cet [article sur la boucle d'événements](https://wikipedia.org/wiki/Event_loop).
 
@@ -211,17 +211,17 @@ Dans la leçon précédente, nous avons introduit les ordinateurs monocartes. Re
 
 ### Raspberry Pi
 
-![Le logo Raspberry Pi](../../../../../translated_images/raspberry-pi-logo.4efaa16605cee054.fr.png)
+![Le logo Raspberry Pi](../../../../../translated_images/fr/raspberry-pi-logo.4efaa16605cee054.webp)
 
 La [Raspberry Pi Foundation](https://www.raspberrypi.org) est une organisation caritative basée au Royaume-Uni, fondée en 2009 pour promouvoir l'étude de l'informatique, en particulier au niveau scolaire. Dans le cadre de cette mission, ils ont développé un ordinateur monocarte, appelé Raspberry Pi. Les Raspberry Pi sont actuellement disponibles en 3 variantes : une version pleine taille, le plus petit Pi Zero, et un module de calcul qui peut être intégré dans votre appareil IoT final.
 
-![Un Raspberry Pi 4](../../../../../translated_images/raspberry-pi-4.fd4590d308c3d456.fr.jpg)
+![Un Raspberry Pi 4](../../../../../translated_images/fr/raspberry-pi-4.fd4590d308c3d456.webp)
 
 La dernière version du Raspberry Pi pleine taille est le Raspberry Pi 4B. Il dispose d'un processeur quad-core (4 cœurs) fonctionnant à 1,5 GHz, de 2, 4 ou 8 Go de RAM, d'un port Ethernet gigabit, du WiFi, de 2 ports HDMI prenant en charge des écrans 4K, d'une sortie audio et vidéo composite, de ports USB (2 USB 2.0, 2 USB 3.0), de 40 broches GPIO, d'un connecteur pour module caméra Raspberry Pi, et d'un emplacement pour carte SD. Tout cela sur une carte de 88 mm x 58 mm x 19,5 mm, alimentée par un adaptateur USB-C de 3A. Ces cartes commencent à 35 USD, bien moins cher qu'un PC ou un Mac.
 
 > 💁 Il existe également un Pi400, un ordinateur tout-en-un avec un Pi4 intégré dans un clavier.
 
-![Un Raspberry Pi Zero](../../../../../translated_images/raspberry-pi-zero.f7a4133e1e7d54bb.fr.jpg)
+![Un Raspberry Pi Zero](../../../../../translated_images/fr/raspberry-pi-zero.f7a4133e1e7d54bb.webp)
 
 Le Pi Zero est beaucoup plus petit et moins puissant. Il dispose d'un processeur monocœur de 1 GHz, de 512 Mo de RAM, du WiFi (dans le modèle Zero W), d'un seul port HDMI, d'un port micro-USB, de 40 broches GPIO, d'un connecteur pour module caméra Raspberry Pi, et d'un emplacement pour carte SD. Il mesure 65 mm x 30 mm x 5 mm et consomme très peu d'énergie. Le Zero coûte 5 USD, et la version W avec WiFi coûte 10 USD.
 

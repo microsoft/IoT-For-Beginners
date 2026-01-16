@@ -20,7 +20,7 @@ L’UART implique un circuit physique permettant à deux appareils de communique
 * L'appareil 1 transmet des données depuis sa broche Tx, qui sont reçues par l'appareil 2 sur sa broche Rx
 * L'appareil 1 reçoit des données sur sa broche Rx transmises par l'appareil 2 depuis sa broche Tx
 
-![UART avec la broche Tx d'une puce connectée à la broche Rx d'une autre, et vice versa](../../../../../translated_images/uart.d0dbd3fb9e3728c6.fr.png)
+![UART avec la broche Tx d'une puce connectée à la broche Rx d'une autre, et vice versa](../../../../../translated_images/fr/uart.d0dbd3fb9e3728c6.webp)
 
 > 🎓 Les données sont envoyées un bit à la fois, ce qui est connu sous le nom de communication *série*. La plupart des systèmes d'exploitation et des microcontrôleurs disposent de *ports série*, c'est-à-dire de connexions capables d'envoyer et de recevoir des données série accessibles à votre code.
 
@@ -49,7 +49,7 @@ Les contrôleurs SPI utilisent 3 fils, ainsi qu’un fil supplémentaire par pé
 | SCLK | Horloge série | Ce fil envoie un signal d'horloge à une vitesse définie par le contrôleur. |
 | CS   | Sélection de puce | Le contrôleur dispose de plusieurs fils, un par périphérique, et chaque fil est connecté au fil CS du périphérique correspondant. |
 
-![SPI avec un contrôleur et deux périphériques](../../../../../translated_images/spi.297431d6f98b386b.fr.png)
+![SPI avec un contrôleur et deux périphériques](../../../../../translated_images/fr/spi.297431d6f98b386b.webp)
 
 Le fil CS est utilisé pour activer un périphérique à la fois, en communiquant via les fils COPI et CIPO. Lorsque le contrôleur doit changer de périphérique, il désactive le fil CS connecté au périphérique actuellement actif, puis active le fil connecté au périphérique avec lequel il souhaite communiquer ensuite.
 
@@ -110,13 +110,13 @@ L'humidité du sol est mesurée en utilisant la teneur en eau gravimétrique ou 
 
 Les capteurs d'humidité du sol mesurent la résistance ou la capacitance électrique - cela varie non seulement en fonction de l'humidité du sol, mais aussi du type de sol, car les composants du sol peuvent modifier ses caractéristiques électriques. Idéalement, les capteurs devraient être calibrés - c'est-à-dire en prenant des lectures du capteur et en les comparant à des mesures obtenues par une méthode plus scientifique. Par exemple, un laboratoire peut calculer l'humidité gravimétrique du sol à l'aide d'échantillons d'un champ spécifique prélevés plusieurs fois par an, et ces chiffres peuvent être utilisés pour calibrer le capteur, en faisant correspondre la lecture du capteur à l'humidité gravimétrique du sol.
 
-![Un graphique de la tension par rapport à la teneur en humidité du sol](../../../../../translated_images/soil-moisture-to-voltage.df86d80cda158700.fr.png)
+![Un graphique de la tension par rapport à la teneur en humidité du sol](../../../../../translated_images/fr/soil-moisture-to-voltage.df86d80cda158700.webp)
 
 Le graphique ci-dessus montre comment calibrer un capteur. La tension est capturée pour un échantillon de sol qui est ensuite mesuré en laboratoire en comparant le poids humide au poids sec (en mesurant le poids humide, puis en le séchant dans un four et en mesurant le poids sec). Une fois quelques lectures effectuées, elles peuvent être tracées sur un graphique et une ligne ajustée aux points. Cette ligne peut ensuite être utilisée pour convertir les lectures du capteur d'humidité du sol prises par un appareil IoT en mesures réelles d'humidité du sol.
 
 💁 Pour les capteurs d'humidité du sol résistifs, la tension augmente à mesure que l'humidité du sol augmente. Pour les capteurs d'humidité du sol capacitifs, la tension diminue à mesure que l'humidité du sol augmente, donc les graphiques pour ces derniers auraient une pente descendante, et non ascendante.
 
-![Une valeur d'humidité du sol interpolée à partir du graphique](../../../../../translated_images/soil-moisture-to-voltage-with-reading.681cb3e1f8b68caf.fr.png)
+![Une valeur d'humidité du sol interpolée à partir du graphique](../../../../../translated_images/fr/soil-moisture-to-voltage-with-reading.681cb3e1f8b68caf.webp)
 
 Le graphique ci-dessus montre une lecture de tension d'un capteur d'humidité du sol, et en suivant cette lecture jusqu'à la ligne sur le graphique, l'humidité réelle du sol peut être calculée.
 

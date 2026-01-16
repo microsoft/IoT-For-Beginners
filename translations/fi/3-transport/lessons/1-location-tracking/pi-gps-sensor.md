@@ -27,13 +27,13 @@ Grove GPS -anturi voidaan yhdistää Raspberry Pi:hin.
 
 Yhdistä GPS-anturi.
 
-![Grove GPS -anturi](../../../../../translated_images/grove-gps-sensor.247943bf69b03f0d1820ef6ed10c587f9b650e8db55b936851c92412180bd3e2.fi.png)
+![Grove GPS -anturi](../../../../../translated_images/fi/grove-gps-sensor.247943bf69b03f0d1820ef6ed10c587f9b650e8db55b936851c92412180bd3e2.png)
 
 1. Työnnä Grove-kaapelin toinen pää GPS-anturin liittimeen. Se menee sisään vain yhdellä tavalla.
 
 1. Kun Raspberry Pi on sammutettu, yhdistä Grove-kaapelin toinen pää UART-liittimeen, joka on merkitty **UART** Grove Base -hatissa, joka on kiinnitetty Pi:hin. Tämä liitin sijaitsee keskimmäisellä rivillä, SD-korttipaikan puolella, USB-porttien ja Ethernet-liittimen vastakkaisella puolella.
 
-    ![Grove GPS -anturi yhdistetty UART-liittimeen](../../../../../translated_images/pi-gps-sensor.1f99ee2b2f6528915047ec78967bd362e0e4ee0ed594368a3837b9cf9cdaca64.fi.png)
+    ![Grove GPS -anturi yhdistetty UART-liittimeen](../../../../../translated_images/fi/pi-gps-sensor.1f99ee2b2f6528915047ec78967bd362e0e4ee0ed594368a3837b9cf9cdaca64.png)
 
 1. Aseta GPS-anturi niin, että siihen kiinnitetty antenni on näkyvissä taivaalle - mieluiten avoimen ikkunan vieressä tai ulkona. On helpompi saada selkeämpi signaali, kun antennin edessä ei ole esteitä.
 

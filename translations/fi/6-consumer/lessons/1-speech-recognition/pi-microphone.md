@@ -43,7 +43,7 @@ Mikrofoni ja kaiuttimet täytyy liittää ja määrittää.
 
 1. Jos käytät ReSpeaker 2-Mics Pi HAT:ia, voit poistaa Grove-pohjahatun ja asentaa ReSpeaker-hatun sen tilalle.
 
-    ![Raspberry Pi, jossa on ReSpeaker-hattu](../../../../../translated_images/pi-respeaker-hat.f00fabe7dd039a93e2e0aa0fc946c9af0c6a9eb17c32fa1ca097fb4e384f69f0.fi.png)
+    ![Raspberry Pi, jossa on ReSpeaker-hattu](../../../../../translated_images/fi/pi-respeaker-hat.f00fabe7dd039a93e2e0aa0fc946c9af0c6a9eb17c32fa1ca097fb4e384f69f0.png)
 
     Tarvitset Grove-painikkeen myöhemmin tässä oppitunnissa, mutta sellainen on sisäänrakennettuna tässä hatussa, joten Grove-pohjahattua ei tarvita.
 

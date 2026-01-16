@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Gardez votre plante en sécurité
 
-![Un aperçu en sketchnote de cette leçon](../../../../../translated_images/lesson-10.829c86b80b9403bb770929ee553a1d293afe50dc23121aaf9be144673ae012cc.fr.jpg)
+![Un aperçu en sketchnote de cette leçon](../../../../../translated_images/fr/lesson-10.829c86b80b9403bb770929ee553a1d293afe50dc23121aaf9be144673ae012cc.jpg)
 
 > Sketchnote par [Nitya Narasimhan](https://github.com/nitya). Cliquez sur l'image pour une version agrandie.
 
@@ -61,11 +61,11 @@ Ce sont des scénarios réels qui se produisent fréquemment. Certains exemples 
 
 Lorsqu'un appareil se connecte à un service IoT, il utilise un identifiant pour s'identifier. Le problème est que cet identifiant peut être cloné - un hacker pourrait configurer un appareil malveillant utilisant le même identifiant qu'un appareil réel mais envoyant des données erronées.
 
-![Les appareils valides et malveillants pourraient utiliser le même identifiant pour envoyer des télémétries](../../../../../translated_images/iot-device-and-hacked-device-connecting.e0671675df74d6d99eb1dedb5a670e606f698efa6202b1ad4c8ae548db299cc6.fr.png)
+![Les appareils valides et malveillants pourraient utiliser le même identifiant pour envoyer des télémétries](../../../../../translated_images/fr/iot-device-and-hacked-device-connecting.e0671675df74d6d99eb1dedb5a670e606f698efa6202b1ad4c8ae548db299cc6.png)
 
 La solution consiste à convertir les données envoyées en un format brouillé, en utilisant une valeur connue uniquement de l'appareil et du cloud pour brouiller les données. Ce processus est appelé *chiffrement*, et la valeur utilisée pour chiffrer les données est appelée une *clé de chiffrement*.
 
-![Si le chiffrement est utilisé, seuls les messages chiffrés seront acceptés, les autres seront rejetés](../../../../../translated_images/iot-device-and-hacked-device-connecting-encryption.5941aff601fc978f979e46f2849b573564eeb4a4dc5b52f669f62745397492fb.fr.png)
+![Si le chiffrement est utilisé, seuls les messages chiffrés seront acceptés, les autres seront rejetés](../../../../../translated_images/fr/iot-device-and-hacked-device-connecting-encryption.5941aff601fc978f979e46f2849b573564eeb4a4dc5b52f669f62745397492fb.png)
 
 Le service cloud peut ensuite convertir les données en un format lisible, en utilisant un processus appelé *déchiffrement*, soit avec la même clé de chiffrement, soit avec une *clé de déchiffrement*. Si le message chiffré ne peut pas être déchiffré par la clé, l'appareil a été piraté et le message est rejeté.
 
@@ -97,15 +97,15 @@ Le chiffrement existe en deux types : symétrique et asymétrique.
 
 **Symétrique** utilise la même clé pour chiffrer et déchiffrer les données. L'expéditeur et le destinataire doivent connaître la même clé. Ce type est le moins sécurisé, car la clé doit être partagée d'une manière ou d'une autre. Pour qu'un expéditeur envoie un message chiffré à un destinataire, l'expéditeur doit d'abord envoyer la clé au destinataire.
 
-![Le chiffrement symétrique utilise la même clé pour chiffrer et déchiffrer un message](../../../../../translated_images/send-message-symmetric-key.a2e8ad0d495896ff.fr.png)
+![Le chiffrement symétrique utilise la même clé pour chiffrer et déchiffrer un message](../../../../../translated_images/fr/send-message-symmetric-key.a2e8ad0d495896ff.webp)
 
 Si la clé est volée en transit, ou si l'expéditeur ou le destinataire sont piratés et que la clé est découverte, le chiffrement peut être cassé.
 
-![Le chiffrement symétrique n'est sécurisé que si un hacker ne récupère pas la clé - sinon il peut intercepter et déchiffrer le message](../../../../../translated_images/send-message-symmetric-key-hacker.e7cb53db1707adfb.fr.png)
+![Le chiffrement symétrique n'est sécurisé que si un hacker ne récupère pas la clé - sinon il peut intercepter et déchiffrer le message](../../../../../translated_images/fr/send-message-symmetric-key-hacker.e7cb53db1707adfb.webp)
 
 **Asymétrique** utilise deux clés : une clé de chiffrement et une clé de déchiffrement, appelées paire de clés publique/privée. La clé publique est utilisée pour chiffrer le message, mais ne peut pas être utilisée pour le déchiffrer, tandis que la clé privée est utilisée pour déchiffrer le message mais ne peut pas être utilisée pour le chiffrer.
 
-![Le chiffrement asymétrique utilise une clé différente pour chiffrer et déchiffrer. La clé de chiffrement est envoyée aux expéditeurs de messages pour qu'ils puissent chiffrer un message avant de l'envoyer au destinataire qui possède les clés](../../../../../translated_images/send-message-asymmetric.7abe327c62615b8c.fr.png)
+![Le chiffrement asymétrique utilise une clé différente pour chiffrer et déchiffrer. La clé de chiffrement est envoyée aux expéditeurs de messages pour qu'ils puissent chiffrer un message avant de l'envoyer au destinataire qui possède les clés](../../../../../translated_images/fr/send-message-asymmetric.7abe327c62615b8c.webp)
 
 Le destinataire partage sa clé publique, et l'expéditeur l'utilise pour chiffrer le message. Une fois le message envoyé, le destinataire le déchiffre avec sa clé privée. Le chiffrement asymétrique est plus sécurisé car la clé privée est conservée privée par le destinataire et n'est jamais partagée. Tout le monde peut avoir la clé publique car elle ne peut être utilisée que pour chiffrer des messages.
 
@@ -165,7 +165,7 @@ Ces certificats contiennent plusieurs champs, notamment l'identité de la clé p
 
 Lors de l'utilisation de certificats X.509, l'expéditeur et le destinataire disposent chacun de leurs propres clés publique et privée, ainsi que de certificats X.509 contenant leurs clés publiques. Ils échangent ensuite leurs certificats X.509, utilisent les clés publiques de l'autre pour chiffrer les données qu'ils envoient, et leurs propres clés privées pour déchiffrer les données qu'ils reçoivent.
 
-![Au lieu de partager une clé publique, vous pouvez partager un certificat. L'utilisateur du certificat peut vérifier qu'il provient bien de vous en consultant l'autorité de certification qui l'a signé.](../../../../../translated_images/send-message-certificate.9cc576ac1e46b76e.fr.png)
+![Au lieu de partager une clé publique, vous pouvez partager un certificat. L'utilisateur du certificat peut vérifier qu'il provient bien de vous en consultant l'autorité de certification qui l'a signé.](../../../../../translated_images/fr/send-message-certificate.9cc576ac1e46b76e.webp)
 
 Un grand avantage des certificats X.509 est qu'ils peuvent être partagés entre plusieurs appareils. Vous pouvez créer un certificat, le télécharger sur IoT Hub, et l'utiliser pour tous vos appareils. Chaque appareil n'a alors besoin que de connaître la clé privée pour déchiffrer les messages qu'il reçoit de l'IoT Hub.
 

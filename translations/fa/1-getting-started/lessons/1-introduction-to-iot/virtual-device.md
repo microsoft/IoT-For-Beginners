@@ -154,11 +154,11 @@ CO_OP_TRANSLATOR_METADATA:
 
 1. وقتی VS Code راه‌اندازی شد، محیط مجازی پایتون را فعال می‌کند. محیط مجازی انتخاب شده در نوار وضعیت پایین ظاهر خواهد شد:
 
-    ![VS Code showing the selected virtual environment](../../../../../translated_images/vscode-virtual-env.8ba42e04c3d533cf.fa.png)
+    ![VS Code showing the selected virtual environment](../../../../../translated_images/fa/vscode-virtual-env.8ba42e04c3d533cf.png)
 
 1. اگر ترمینال VS Code هنگام راه‌اندازی VS Code در حال اجرا باشد، محیط مجازی در آن فعال نخواهد بود. ساده‌ترین کار این است که ترمینال را با استفاده از دکمه **Kill the active terminal instance** ببندید:
 
-    ![VS Code Kill the active terminal instance button](../../../../../translated_images/vscode-kill-terminal.1cc4de7c6f25ee08.fa.png)
+    ![VS Code Kill the active terminal instance button](../../../../../translated_images/fa/vscode-kill-terminal.1cc4de7c6f25ee08.png)
 
     می‌توانید تشخیص دهید که آیا ترمینال محیط مجازی را فعال کرده است یا نه، زیرا نام محیط مجازی به عنوان پیشوند روی اعلان ترمینال ظاهر می‌شود. برای مثال، ممکن است:
 
@@ -212,7 +212,7 @@ CO_OP_TRANSLATOR_METADATA:
 
     اپلیکیشن شروع به اجرا می‌کند و در مرورگر وب شما باز می‌شود:
 
-    ![The Counter Fit app running in a browser](../../../../../translated_images/counterfit-first-run.433326358b669b31d0e99c3513cb01bfbb13724d162c99cdcc8f51ecf5f9c779.fa.png)
+    ![The Counter Fit app running in a browser](../../../../../translated_images/fa/counterfit-first-run.433326358b669b31d0e99c3513cb01bfbb13724d162c99cdcc8f51ecf5f9c779.png)
 
     این اپلیکیشن به عنوان *Disconnected* علامت‌گذاری شده است و LED در گوشه بالا-راست خاموش است.
 
@@ -229,11 +229,11 @@ CO_OP_TRANSLATOR_METADATA:
 
 1. باید یک ترمینال جدید در VS Code راه‌اندازی کنید با انتخاب دکمه **Create a new integrated terminal**. این به این دلیل است که اپلیکیشن CounterFit در ترمینال فعلی در حال اجرا است.
 
-    ![VS Code Create a new integrated terminal button](../../../../../translated_images/vscode-new-terminal.77db8fc0f9cd3182.fa.png)
+    ![VS Code Create a new integrated terminal button](../../../../../translated_images/fa/vscode-new-terminal.77db8fc0f9cd3182.png)
 
 1. در این ترمینال جدید، فایل `app.py` را همانند قبل اجرا کنید. وضعیت CounterFit به **Connected** تغییر خواهد کرد و LED روشن خواهد شد.
 
-    ![Counter Fit showing as connected](../../../../../translated_images/counterfit-connected.ed30b46d8f79b0921f3fc70be10366e596a89dca3f80c2224a9d9fc98fccf884.fa.png)
+    ![Counter Fit showing as connected](../../../../../translated_images/fa/counterfit-connected.ed30b46d8f79b0921f3fc70be10366e596a89dca3f80c2224a9d9fc98fccf884.png)
 
 > 💁 می‌توانید این کد را در پوشه [code/virtual-device](../../../../../1-getting-started/lessons/1-introduction-to-iot/code/virtual-device) پیدا کنید.
 

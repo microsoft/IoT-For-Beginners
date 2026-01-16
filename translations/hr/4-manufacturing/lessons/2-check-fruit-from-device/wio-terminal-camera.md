@@ -25,11 +25,11 @@ ArduCam nema Grove priključak, već se povezuje na SPI i I2C sabirnice putem GP
 
 Povežite kameru.
 
-![Senzor ArduCam](../../../../../translated_images/arducam.20e4e4cbb268296570b5914e20d6c349fc42ddac9ed4e1b9deba2188204eebae.hr.png)
+![Senzor ArduCam](../../../../../translated_images/hr/arducam.20e4e4cbb268296570b5914e20d6c349fc42ddac9ed4e1b9deba2188204eebae.png)
 
 1. Pinovi na bazi ArduCam-a trebaju biti povezani na GPIO pinove na Wio Terminalu. Kako biste lakše pronašli odgovarajuće pinove, zalijepite naljepnicu s GPIO pinovima koja dolazi uz Wio Terminal oko pinova:
 
-    ![Wio Terminal s naljepnicom GPIO pinova](../../../../../translated_images/wio-terminal-pin-sticker.b90b1535937b84bd.hr.png)
+    ![Wio Terminal s naljepnicom GPIO pinova](../../../../../translated_images/hr/wio-terminal-pin-sticker.b90b1535937b84bd.png)
 
 1. Koristeći žice za povezivanje, napravite sljedeće veze:
 
@@ -44,7 +44,7 @@ Povežite kameru.
     | SDA           | 3 (I2C1_SDA)      | I2C serijski podaci                     |
     | SCL           | 5 (I2C1_SCL)      | I2C serijski sat                        |
 
-    ![Wio Terminal povezan s ArduCam-om pomoću žica](../../../../../translated_images/arducam-wio-terminal-connections.a4d5a4049bdb5ab800a2877389fc6ecf5e4ff307e6451ff56c517e6786467d0a.hr.png)
+    ![Wio Terminal povezan s ArduCam-om pomoću žica](../../../../../translated_images/hr/arducam-wio-terminal-connections.a4d5a4049bdb5ab800a2877389fc6ecf5e4ff307e6451ff56c517e6786467d0a.png)
 
     GND i VCC veze osiguravaju napajanje od 5V za ArduCam. Kamera radi na 5V, za razliku od Grove senzora koji rade na 3V. Ovo napajanje dolazi direktno iz USB-C priključka koji napaja uređaj.
 
@@ -297,7 +297,7 @@ Wio Terminal sada može biti programiran za snimanje slike kada se pritisne gumb
 
 1. Mikrokontroleri kontinuirano izvršavaju vaš kod, tako da nije lako pokrenuti nešto poput snimanja fotografije bez reagiranja na senzor. Wio Terminal ima gumbe, pa se kamera može postaviti da se aktivira jednim od gumba. Dodajte sljedeći kod na kraj funkcije `setup` za konfiguraciju gumba C (jednog od tri gumba na vrhu, onog najbližeg prekidaču za napajanje).
 
-    ![Gumb C na vrhu najbliži prekidaču za napajanje](../../../../../translated_images/wio-terminal-c-button.73df3cb1c1445ea0.hr.png)
+    ![Gumb C na vrhu najbliži prekidaču za napajanje](../../../../../translated_images/hr/wio-terminal-c-button.73df3cb1c1445ea0.png)
 
     ```cpp
     pinMode(WIO_KEY_C, INPUT_PULLUP);
@@ -465,7 +465,7 @@ Wio Terminal podržava samo microSD kartice do 16GB. Ako imate veću SD karticu,
 
 1. Isključite microSD karticu i izvadite je laganim pritiskom i otpuštanjem, te će iskočiti. Možda ćete morati koristiti tanki alat za ovo. Priključite microSD karticu na svoje računalo kako biste pregledali slike.
 
-    ![Slika banane snimljena pomoću ArduCam-a](../../../../../translated_images/banana-arducam.be1b32d4267a8194b0fd042362e56faa431da9cd4af172051b37243ea9be0256.hr.jpg)
+    ![Slika banane snimljena pomoću ArduCam-a](../../../../../translated_images/hr/banana-arducam.be1b32d4267a8194b0fd042362e56faa431da9cd4af172051b37243ea9be0256.jpg)
 💁 Možda će biti potrebno nekoliko slika da se bijela ravnoteža kamere prilagodi. Primijetit ćete to na temelju boje snimljenih slika, prve nekoliko mogu izgledati neispravno u boji. Uvijek možete zaobići ovo promjenom koda kako biste snimili nekoliko slika koje se ignoriraju u funkciji `setup`.
 
 

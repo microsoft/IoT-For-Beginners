@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Set a timer and provide spoken feedback
 
-![A sketchnote overview of this lesson](../../../../../translated_images/lesson-23.f38483e1d4df4828990d3f02d60e46c978b075d384ae7cb4f7bab738e107c850.en.jpg)
+![A sketchnote overview of this lesson](../../../../../translated_images/en/lesson-23.f38483e1d4df4828990d3f02d60e46c978b075d384ae7cb4f7bab738e107c850.jpg)
 
 > Sketchnote by [Nitya Narasimhan](https://github.com/nitya). Click the image for a larger version.
 
@@ -37,7 +37,7 @@ In this lesson, we’ll cover:
 
 Text to speech, as the name suggests, is the process of turning text into audio that represents spoken words. The basic idea is to break the text into its individual sounds (called phonemes) and then create audio for those sounds, either using pre-recorded clips or AI-generated audio.
 
-![The three stages of typical text to speech systems](../../../../../translated_images/tts-overview.193843cf3f5ee09f.en.png)
+![The three stages of typical text to speech systems](../../../../../translated_images/en/tts-overview.193843cf3f5ee09f.webp)
 
 Text to speech systems generally have three stages:
 

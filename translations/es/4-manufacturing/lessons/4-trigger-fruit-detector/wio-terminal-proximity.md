@@ -29,13 +29,13 @@ El sensor Grove Time of Flight puede conectarse al Wio Terminal.
 
 Conecta el sensor de tiempo de vuelo.
 
-![Un sensor Grove Time of Flight](../../../../../translated_images/grove-time-of-flight-sensor.d82ff2165bfded9f485de54d8d07195a6270a602696825fca19f629ddfe94e86.es.png)
+![Un sensor Grove Time of Flight](../../../../../translated_images/es/grove-time-of-flight-sensor.d82ff2165bfded9f485de54d8d07195a6270a602696825fca19f629ddfe94e86.png)
 
 1. Inserta un extremo del cable Grove en el conector del sensor de tiempo de vuelo. Solo encajará de una manera.
 
 1. Con el Wio Terminal desconectado de tu computadora u otra fuente de alimentación, conecta el otro extremo del cable Grove al conector Grove del lado izquierdo del Wio Terminal, mirando la pantalla. Este es el conector más cercano al botón de encendido. Este es un socket combinado digital e I²C.
 
-![El sensor Grove Time of Flight conectado al conector izquierdo](../../../../../translated_images/wio-time-of-flight-sensor.c4c182131d2ea73d.es.png)
+![El sensor Grove Time of Flight conectado al conector izquierdo](../../../../../translated_images/es/wio-time-of-flight-sensor.c4c182131d2ea73d.webp)
 
 1. Ahora puedes conectar el Wio Terminal a tu computadora.
 
@@ -101,7 +101,7 @@ El Wio Terminal ahora puede ser programado para usar el sensor de tiempo de vuel
 
     El telémetro está en la parte trasera del sensor, así que asegúrate de usar el lado correcto al medir la distancia.
 
-    ![El telémetro en la parte trasera del sensor de tiempo de vuelo apuntando a un plátano](../../../../../translated_images/time-of-flight-banana.079921ad8b1496e4.es.png)
+    ![El telémetro en la parte trasera del sensor de tiempo de vuelo apuntando a un plátano](../../../../../translated_images/es/time-of-flight-banana.079921ad8b1496e4.webp)
 
 > 💁 Puedes encontrar este código en la carpeta [code-proximity/wio-terminal](../../../../../4-manufacturing/lessons/4-trigger-fruit-detector/code-proximity/wio-terminal).
 

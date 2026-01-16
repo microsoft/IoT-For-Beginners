@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Conecta tu dispositivo a Internet
 
-![Un resumen visual de esta lección](../../../../../translated_images/lesson-4.7344e074ea68fa545fd320b12dce36d72dd62d28c3b4596cb26cf315f434b98f.es.jpg)
+![Un resumen visual de esta lección](../../../../../translated_images/es/lesson-4.7344e074ea68fa545fd320b12dce36d72dd62d28c3b4596cb26cf315f434b98f.jpg)
 
 > Resumen visual por [Nitya Narasimhan](https://github.com/nitya). Haz clic en la imagen para verla en tamaño completo.
 
@@ -46,7 +46,7 @@ En esta lección cubriremos:
 
 Existen varios protocolos de comunicación populares que los dispositivos IoT utilizan para comunicarse con Internet. Los más comunes se basan en la mensajería de publicación/suscripción a través de algún tipo de intermediario. Los dispositivos IoT se conectan al intermediario, publican telemetría y se suscriben a comandos. Los servicios en la nube también se conectan al intermediario, se suscriben a todos los mensajes de telemetría y publican comandos, ya sea para dispositivos específicos o para grupos de dispositivos.
 
-![Los dispositivos IoT se conectan a un intermediario, publican telemetría y se suscriben a comandos. Los servicios en la nube se conectan al intermediario, se suscriben a toda la telemetría y envían comandos a dispositivos específicos.](../../../../../translated_images/pub-sub.7c7ed43fe9fd15d4.es.png)
+![Los dispositivos IoT se conectan a un intermediario, publican telemetría y se suscriben a comandos. Los servicios en la nube se conectan al intermediario, se suscriben a toda la telemetría y envían comandos a dispositivos específicos.](../../../../../translated_images/es/pub-sub.7c7ed43fe9fd15d4.webp)
 
 MQTT es el protocolo de comunicación más popular para dispositivos IoT y se cubre en esta lección. Otros protocolos incluyen AMQP y HTTP/HTTPS.
 
@@ -56,7 +56,7 @@ MQTT es el protocolo de comunicación más popular para dispositivos IoT y se cu
 
 MQTT tiene un único intermediario y múltiples clientes. Todos los clientes se conectan al intermediario, y este enruta los mensajes a los clientes relevantes. Los mensajes se enrutan utilizando temas nombrados, en lugar de enviarse directamente a un cliente individual. Un cliente puede publicar en un tema, y cualquier cliente que se suscriba a ese tema recibirá el mensaje.
 
-![Dispositivo IoT publicando telemetría en el tema /telemetry, y el servicio en la nube suscribiéndose a ese tema](../../../../../translated_images/mqtt.cbf7f21d9adc3e17548b359444cc11bb4bf2010543e32ece9a47becf54438c23.es.png)
+![Dispositivo IoT publicando telemetría en el tema /telemetry, y el servicio en la nube suscribiéndose a ese tema](../../../../../translated_images/es/mqtt.cbf7f21d9adc3e17548b359444cc11bb4bf2010543e32ece9a47becf54438c23.png)
 
 ✅ Investiga. Si tienes muchos dispositivos IoT, ¿cómo puedes asegurarte de que tu intermediario MQTT pueda manejar todos los mensajes?
 
@@ -78,7 +78,7 @@ En lugar de lidiar con las complejidades de configurar un intermediario MQTT com
 
 > 💁 Este intermediario de prueba es público y no seguro. Cualquiera podría estar escuchando lo que publicas, por lo que no debe usarse con datos que necesiten mantenerse privados.
 
-![Un diagrama de flujo de la tarea mostrando los niveles de luz siendo leídos y verificados, y el LED siendo controlado](../../../../../translated_images/assignment-1-internet-flow.3256feab5f052fd273bf4e331157c574c2c3fa42e479836fc9c3586f41db35a5.es.png)
+![Un diagrama de flujo de la tarea mostrando los niveles de luz siendo leídos y verificados, y el LED siendo controlado](../../../../../translated_images/es/assignment-1-internet-flow.3256feab5f052fd273bf4e331157c574c2c3fa42e479836fc9c3586f41db35a5.png)
 
 Sigue el paso relevante a continuación para conectar tu dispositivo al intermediario MQTT:
 
@@ -115,7 +115,7 @@ La palabra telemetría proviene de raíces griegas que significan medir de forma
 
 Volvamos al ejemplo del termostato inteligente de la Lección 1.
 
-![Un termostato conectado a Internet utilizando múltiples sensores de habitación](../../../../../translated_images/telemetry.21e5d8b97649d2eb.es.png)
+![Un termostato conectado a Internet utilizando múltiples sensores de habitación](../../../../../translated_images/es/telemetry.21e5d8b97649d2eb.webp)
 
 El termostato tiene sensores de temperatura para recopilar telemetría. Lo más probable es que tenga un sensor de temperatura incorporado, y podría conectarse a múltiples sensores de temperatura externos a través de un protocolo inalámbrico como [Bluetooth Low Energy](https://wikipedia.org/wiki/Bluetooth_Low_Energy) (BLE).
 
@@ -267,11 +267,11 @@ Escribe el código del servidor.
 
 1. Cuando VS Code se inicie, activará el entorno virtual de Python. Esto se mostrará en la barra de estado inferior:
 
-    ![VS Code mostrando el entorno virtual seleccionado](../../../../../translated_images/vscode-virtual-env.8ba42e04c3d533cf.es.png)
+    ![VS Code mostrando el entorno virtual seleccionado](../../../../../translated_images/es/vscode-virtual-env.8ba42e04c3d533cf.webp)
 
 1. Si el terminal de VS Code ya está ejecutándose cuando VS Code se inicia, no tendrá el entorno virtual activado. Lo más fácil es cerrar el terminal usando el botón **Kill the active terminal instance**:
 
-    ![Botón de cerrar terminal activo en VS Code](../../../../../translated_images/vscode-kill-terminal.1cc4de7c6f25ee08.es.png)
+    ![Botón de cerrar terminal activo en VS Code](../../../../../translated_images/es/vscode-kill-terminal.1cc4de7c6f25ee08.webp)
 
 1. Lanza un nuevo terminal en VS Code seleccionando *Terminal -> New Terminal*, o presionando `` CTRL+` ``. El nuevo terminal cargará el entorno virtual, con la llamada para activarlo apareciendo en el terminal. El nombre del entorno virtual (`.venv`) también estará en el prompt:
 
@@ -359,7 +359,7 @@ Para maquinaria, podrías querer conservar los datos, especialmente si se usan p
 
 Los diseñadores de dispositivos IoT también deberían considerar si el dispositivo IoT puede usarse durante un corte de Internet o pérdida de señal causada por la ubicación. Un termostato inteligente debería poder tomar algunas decisiones limitadas para controlar la calefacción si no puede enviar telemetría a la nube debido a un corte.
 
-[![Este Ferrari quedó inutilizado porque alguien intentó actualizarlo bajo tierra donde no hay recepción celular](../../../../../translated_images/bricked-car.dc38f8efadc6c59d76211f981a521efb300939283dee468f79503aae3ec67615.es.png)](https://twitter.com/internetofshit/status/1315736960082808832)
+[![Este Ferrari quedó inutilizado porque alguien intentó actualizarlo bajo tierra donde no hay recepción celular](../../../../../translated_images/es/bricked-car.dc38f8efadc6c59d76211f981a521efb300939283dee468f79503aae3ec67615.png)](https://twitter.com/internetofshit/status/1315736960082808832)
 
 Para que MQTT maneje una pérdida de conectividad, el código del dispositivo y del servidor deberá ser responsable de garantizar la entrega de mensajes si es necesario, por ejemplo, exigiendo que todos los mensajes enviados sean respondidos con mensajes adicionales en un tema de respuesta, y si no lo son, se coloquen en cola manualmente para reproducirlos más tarde.
 
@@ -367,7 +367,7 @@ Para que MQTT maneje una pérdida de conectividad, el código del dispositivo y 
 
 Los comandos son mensajes enviados desde la nube a un dispositivo, instruyéndolo para que haga algo. La mayoría de las veces esto implica dar algún tipo de salida a través de un actuador, pero también puede ser una instrucción para el propio dispositivo, como reiniciarse o recopilar telemetría adicional y devolverla como respuesta al comando.
 
-![Un termostato conectado a Internet recibiendo un comando para encender la calefacción](../../../../../translated_images/commands.d6c06bbbb3a02cce95f2831a1c331daf6dedd4e470c4aa2b0ae54f332016e504.es.png)
+![Un termostato conectado a Internet recibiendo un comando para encender la calefacción](../../../../../translated_images/es/commands.d6c06bbbb3a02cce95f2831a1c331daf6dedd4e470c4aa2b0ae54f332016e504.png)
 
 Un termostato podría recibir un comando desde la nube para encender la calefacción. Basándose en los datos de telemetría de todos los sensores, si el servicio en la nube ha decidido que la calefacción debe estar encendida, enviará el comando correspondiente.
 

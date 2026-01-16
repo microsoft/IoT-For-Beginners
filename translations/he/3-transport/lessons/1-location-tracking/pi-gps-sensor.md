@@ -27,13 +27,13 @@ CO_OP_TRANSLATOR_METADATA:
 
 חבר את חיישן ה-GPS.
 
-![חיישן Grove GPS](../../../../../translated_images/grove-gps-sensor.247943bf69b03f0d1820ef6ed10c587f9b650e8db55b936851c92412180bd3e2.he.png)
+![חיישן Grove GPS](../../../../../translated_images/he/grove-gps-sensor.247943bf69b03f0d1820ef6ed10c587f9b650e8db55b936851c92412180bd3e2.png)
 
 1. הכנס קצה אחד של כבל Grove לשקע בחיישן ה-GPS. הכבל ייכנס רק בכיוון אחד.
 
 1. כאשר ה-Raspberry Pi כבוי, חבר את הקצה השני של כבל Grove לשקע UART המסומן **UART** על כובע הבסיס של Grove המחובר ל-Pi. שקע זה נמצא בשורה האמצעית, בצד הקרוב לחריץ כרטיס ה-SD, בצד השני מהשקעים של ה-USB והאת'רנט.
 
-    ![חיישן Grove GPS מחובר לשקע UART](../../../../../translated_images/pi-gps-sensor.1f99ee2b2f6528915047ec78967bd362e0e4ee0ed594368a3837b9cf9cdaca64.he.png)
+    ![חיישן Grove GPS מחובר לשקע UART](../../../../../translated_images/he/pi-gps-sensor.1f99ee2b2f6528915047ec78967bd362e0e4ee0ed594368a3837b9cf9cdaca64.png)
 
 1. מקם את חיישן ה-GPS כך שהאנטנה המחוברת תהיה עם ראות לשמיים - רצוי ליד חלון פתוח או בחוץ. קל יותר לקבל אות ברור כאשר אין מכשולים בדרך של האנטנה.
 

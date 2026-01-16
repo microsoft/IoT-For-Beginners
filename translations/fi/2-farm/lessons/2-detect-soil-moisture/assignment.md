@@ -29,14 +29,14 @@ Sinun täytyy toistaa nämä vaiheet useita kertoja saadaksesi tarvittavat lukem
 
 Gravimetrinen maankosteus lasketaan seuraavasti:
 
-![maankosteus % on märän paino miinus kuivan paino, jaettuna kuivan painolla, kerrottuna 100](../../../../../translated_images/gsm-calculation.6da38c6201eec14e7573bb2647aa18892883193553d23c9d77e5dc681522dfb2.fi.png)
+![maankosteus % on märän paino miinus kuivan paino, jaettuna kuivan painolla, kerrottuna 100](../../../../../translated_images/fi/gsm-calculation.6da38c6201eec14e7573bb2647aa18892883193553d23c9d77e5dc681522dfb2.png)
 
 * W - märän maaperän paino  
 * W - kuivan maaperän paino  
 
 Esimerkiksi, jos sinulla on maaperänäyte, joka painaa 212 g märkänä ja 197 g kuivana:
 
-![Täytetty laskelma](../../../../../translated_images/gsm-calculation-example.99f9803b4f29e97668e7c15412136c0c399ab12dbba0b89596fdae9d8aedb6fb.fi.png)
+![Täytetty laskelma](../../../../../translated_images/fi/gsm-calculation-example.99f9803b4f29e97668e7c15412136c0c399ab12dbba0b89596fdae9d8aedb6fb.png)
 
 * W = 212 g  
 * W = 197 g  

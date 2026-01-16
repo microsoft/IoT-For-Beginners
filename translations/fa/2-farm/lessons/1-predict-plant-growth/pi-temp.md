@@ -25,13 +25,13 @@ CO_OP_TRANSLATOR_METADATA:
 
 حسگر دما را وصل کنید.
 
-![یک حسگر دمای Grove](../../../../../translated_images/grove-dht11.07f8eafceee170043efbb53e1d15722bd4e00fbaa9ff74290b57e9f66eb82c17.fa.png)
+![یک حسگر دمای Grove](../../../../../translated_images/fa/grove-dht11.07f8eafceee170043efbb53e1d15722bd4e00fbaa9ff74290b57e9f66eb82c17.png)
 
 1. یک سر کابل Grove را به سوکت روی حسگر رطوبت و دما وارد کنید. این کابل فقط به یک جهت وارد می‌شود.
 
 1. با خاموش بودن رزبری پای، سر دیگر کابل Grove را به سوکت دیجیتال با علامت **D5** روی کلاهک پایه Grove که به پای متصل است، وصل کنید. این سوکت دومین سوکت از سمت چپ در ردیف سوکت‌های کنار پین‌های GPIO است.
 
-![حسگر دمای Grove متصل به سوکت A0](../../../../../translated_images/pi-temperature-sensor.3ff82fff672c8e565ef25a39d26d111de006b825a7e0867227ef4e7fbff8553c.fa.png)
+![حسگر دمای Grove متصل به سوکت A0](../../../../../translated_images/fa/pi-temperature-sensor.3ff82fff672c8e565ef25a39d26d111de006b825a7e0867227ef4e7fbff8553c.png)
 
 ## برنامه‌نویسی حسگر دما
 

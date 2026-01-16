@@ -47,11 +47,11 @@ Lisage GPS-andur CounterFit rakendusse.
 
     1. Valige **Add** nupp, et luua GPS-andur pordil `/dev/ttyAMA0`.
 
-    ![GPS-anduri seaded](../../../../../translated_images/counterfit-create-gps-sensor.6385dc9357d85ad1d47b4abb2525e7651fd498917d25eefc5a72feab09eedc70.et.png)
+    ![GPS-anduri seaded](../../../../../translated_images/et/counterfit-create-gps-sensor.6385dc9357d85ad1d47b4abb2525e7651fd498917d25eefc5a72feab09eedc70.png)
 
     GPS-andur luuakse ja ilmub andurite loendisse.
 
-    ![Loodud GPS-andur](../../../../../translated_images/counterfit-gps-sensor.3fbb15af0a5367566f2f11324ef5a6f30861cdf2b497071a5e002b7aa473550e.et.png)
+    ![Loodud GPS-andur](../../../../../translated_images/et/counterfit-gps-sensor.3fbb15af0a5367566f2f11324ef5a6f30861cdf2b497071a5e002b7aa473550e.png)
 
 ## Programmeerige GPS-andur
 
@@ -111,17 +111,17 @@ Programmeeri GPS-anduri rakendus.
 
     * Määrake **Source** väärtuseks `Lat/Lon` ja määrake konkreetne laiuskraad, pikkuskraad ja satelliitide arv, mida GPS-fiksi saamiseks kasutatakse. See väärtus saadetakse ainult üks kord, seega kontrollige **Repeat** kasti, et andmed korduksid iga sekundi järel.
 
-      ![GPS-andur, millel on valitud lat lon](../../../../../translated_images/counterfit-gps-sensor-latlon.008c867d75464fbe7f84107cc57040df565ac07cb57d2f21db37d087d470197d.et.png)
+      ![GPS-andur, millel on valitud lat lon](../../../../../translated_images/et/counterfit-gps-sensor-latlon.008c867d75464fbe7f84107cc57040df565ac07cb57d2f21db37d087d470197d.png)
 
     * Määrake **Source** väärtuseks `NMEA` ja lisage mõned NMEA laused tekstikasti. Kõik need väärtused saadetakse, kusjuures iga uue GGA (asukoha fikseerimise) lause lugemise vahel on 1-sekundiline viivitus.
 
-      ![GPS-andur, millel on määratud NMEA laused](../../../../../translated_images/counterfit-gps-sensor-nmea.c62eea442171e17e19528b051b104cfcecdc9cd18db7bc72920f29821ae63f73.et.png)
+      ![GPS-andur, millel on määratud NMEA laused](../../../../../translated_images/et/counterfit-gps-sensor-nmea.c62eea442171e17e19528b051b104cfcecdc9cd18db7bc72920f29821ae63f73.png)
 
       Võite kasutada tööriista nagu [nmeagen.org](https://www.nmeagen.org), et genereerida neid lauseid kaardil joonistades. Need väärtused saadetakse ainult üks kord, seega kontrollige **Repeat** kasti, et andmed korduksid üks sekund pärast nende kõigi saatmist.
 
     * Määrake **Source** väärtuseks GPX-fail ja laadige üles GPX-fail rajakohtadega. GPX-faile saab alla laadida mitmetelt populaarsetelt kaardistamis- ja matkamissaitidelt, nagu [AllTrails](https://www.alltrails.com/). Need failid sisaldavad mitmeid GPS-asukohti rajana ja GPS-andur tagastab iga uue asukoha 1-sekundiliste intervallidega.
 
-      ![GPS-andur, millel on määratud GPX-fail](../../../../../translated_images/counterfit-gps-sensor-gpxfile.8310b063ce8a425ccc8ebeec8306aeac5e8e55207f007d52c6e1194432a70cd9.et.png)
+      ![GPS-andur, millel on määratud GPX-fail](../../../../../translated_images/et/counterfit-gps-sensor-gpxfile.8310b063ce8a425ccc8ebeec8306aeac5e8e55207f007d52c6e1194432a70cd9.png)
 
       Need väärtused saadetakse ainult üks kord, seega kontrollige **Repeat** kasti, et andmed korduksid üks sekund pärast nende kõigi saatmist.
 

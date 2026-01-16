@@ -27,13 +27,13 @@ Le capteur Grove GPS peut être connecté au Wio Terminal.
 
 Connectez le capteur GPS.
 
-![Un capteur Grove GPS](../../../../../translated_images/grove-gps-sensor.247943bf69b03f0d1820ef6ed10c587f9b650e8db55b936851c92412180bd3e2.fr.png)
+![Un capteur Grove GPS](../../../../../translated_images/fr/grove-gps-sensor.247943bf69b03f0d1820ef6ed10c587f9b650e8db55b936851c92412180bd3e2.png)
 
 1. Insérez une extrémité d'un câble Grove dans le connecteur du capteur GPS. Il ne peut être inséré que dans un seul sens.
 
 1. Avec le Wio Terminal déconnecté de votre ordinateur ou de toute autre source d'alimentation, connectez l'autre extrémité du câble Grove au connecteur Grove situé à gauche sur le Wio Terminal, en regardant l'écran. C'est le connecteur le plus proche du bouton d'alimentation.
 
-    ![Le capteur Grove GPS connecté au connecteur gauche](../../../../../translated_images/wio-gps-sensor.19fd52b81ce58095.fr.png)
+    ![Le capteur Grove GPS connecté au connecteur gauche](../../../../../translated_images/fr/wio-gps-sensor.19fd52b81ce58095.webp)
 
 1. Positionnez le capteur GPS de manière à ce que l'antenne attachée ait une visibilité vers le ciel - idéalement près d'une fenêtre ouverte ou à l'extérieur. Il est plus facile d'obtenir un signal clair sans obstacle devant l'antenne.
 

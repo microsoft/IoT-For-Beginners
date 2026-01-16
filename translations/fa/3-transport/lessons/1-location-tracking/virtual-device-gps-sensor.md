@@ -47,11 +47,11 @@ CO_OP_TRANSLATOR_METADATA:
 
     1. دکمه **Add** را انتخاب کنید تا حسگر GPS در پورت `/dev/ttyAMA0` ایجاد شود.
 
-    ![تنظیمات حسگر GPS](../../../../../translated_images/counterfit-create-gps-sensor.6385dc9357d85ad1d47b4abb2525e7651fd498917d25eefc5a72feab09eedc70.fa.png)
+    ![تنظیمات حسگر GPS](../../../../../translated_images/fa/counterfit-create-gps-sensor.6385dc9357d85ad1d47b4abb2525e7651fd498917d25eefc5a72feab09eedc70.png)
 
     حسگر GPS ایجاد شده و در لیست حسگرها ظاهر می‌شود.
 
-    ![حسگر GPS ایجاد شده](../../../../../translated_images/counterfit-gps-sensor.3fbb15af0a5367566f2f11324ef5a6f30861cdf2b497071a5e002b7aa473550e.fa.png)
+    ![حسگر GPS ایجاد شده](../../../../../translated_images/fa/counterfit-gps-sensor.3fbb15af0a5367566f2f11324ef5a6f30861cdf2b497071a5e002b7aa473550e.png)
 
 ## برنامه‌نویسی حسگر GPS
 
@@ -111,17 +111,17 @@ CO_OP_TRANSLATOR_METADATA:
 
     * مقدار **Source** را روی `Lat/Lon` تنظیم کنید و یک عرض جغرافیایی، طول جغرافیایی و تعداد ماهواره‌های استفاده‌شده برای دریافت موقعیت GPS مشخص کنید. این مقدار فقط یک بار ارسال می‌شود، بنابراین گزینه **Repeat** را علامت بزنید تا داده‌ها هر ثانیه تکرار شوند.
 
-      ![حسگر GPS با Lat/Lon تنظیم شده](../../../../../translated_images/counterfit-gps-sensor-latlon.008c867d75464fbe7f84107cc57040df565ac07cb57d2f21db37d087d470197d.fa.png)
+      ![حسگر GPS با Lat/Lon تنظیم شده](../../../../../translated_images/fa/counterfit-gps-sensor-latlon.008c867d75464fbe7f84107cc57040df565ac07cb57d2f21db37d087d470197d.png)
 
     * مقدار **Source** را روی `NMEA` تنظیم کنید و چند جمله NMEA در کادر متن وارد کنید. تمام این مقادیر ارسال می‌شوند، با تأخیری ۱ ثانیه‌ای قبل از هر جمله GGA (موقعیت‌یابی).
 
-      ![حسگر GPS با جملات NMEA تنظیم شده](../../../../../translated_images/counterfit-gps-sensor-nmea.c62eea442171e17e19528b051b104cfcecdc9cd18db7bc72920f29821ae63f73.fa.png)
+      ![حسگر GPS با جملات NMEA تنظیم شده](../../../../../translated_images/fa/counterfit-gps-sensor-nmea.c62eea442171e17e19528b051b104cfcecdc9cd18db7bc72920f29821ae63f73.png)
 
       می‌توانید از ابزاری مانند [nmeagen.org](https://www.nmeagen.org) برای تولید این جملات با کشیدن روی نقشه استفاده کنید. این مقادیر فقط یک بار ارسال می‌شوند، بنابراین گزینه **Repeat** را علامت بزنید تا داده‌ها یک ثانیه پس از ارسال کامل تکرار شوند.
 
     * مقدار **Source** را روی فایل GPX تنظیم کنید و یک فایل GPX با موقعیت‌های مسیر بارگذاری کنید. می‌توانید فایل‌های GPX را از سایت‌های محبوب نقشه‌برداری و کوهنوردی مانند [AllTrails](https://www.alltrails.com/) دانلود کنید. این فایل‌ها شامل چندین موقعیت GPS به صورت یک مسیر هستند و حسگر GPS هر موقعیت جدید را با فاصله ۱ ثانیه بازمی‌گرداند.
 
-      ![حسگر GPS با فایل GPX تنظیم شده](../../../../../translated_images/counterfit-gps-sensor-gpxfile.8310b063ce8a425ccc8ebeec8306aeac5e8e55207f007d52c6e1194432a70cd9.fa.png)
+      ![حسگر GPS با فایل GPX تنظیم شده](../../../../../translated_images/fa/counterfit-gps-sensor-gpxfile.8310b063ce8a425ccc8ebeec8306aeac5e8e55207f007d52c6e1194432a70cd9.png)
 
       این مقادیر فقط یک بار ارسال می‌شوند، بنابراین گزینه **Repeat** را علامت بزنید تا داده‌ها یک ثانیه پس از ارسال کامل تکرار شوند.
 

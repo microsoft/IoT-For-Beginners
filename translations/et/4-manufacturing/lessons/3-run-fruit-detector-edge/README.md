@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Käivita oma puuviljatuvastaja servas
 
-![Selle õppetunni visuaalne ülevaade](../../../../../translated_images/lesson-17.bc333c3c35ba8e42cce666cfffa82b915f787f455bd94e006aea2b6f2722421a.et.jpg)
+![Selle õppetunni visuaalne ülevaade](../../../../../translated_images/et/lesson-17.bc333c3c35ba8e42cce666cfffa82b915f787f455bd94e006aea2b6f2722421a.jpg)
 
 > Visuaalne ülevaade: [Nitya Narasimhan](https://github.com/nitya). Klõpsa pildil, et näha suuremat versiooni.
 
@@ -42,11 +42,11 @@ Selles õppetunnis käsitleme:
 
 Serva-arvutus tähendab IoT-andmete töötlemist võimalikult lähedal andmete genereerimise kohale. Selle asemel, et andmeid pilves töödelda, viiakse töötlemine pilve serva – sinu sisemisse võrku.
 
-![Arhitektuuri diagramm, mis näitab pilveteenuseid ja IoT-seadmeid kohalikus võrgus](../../../../../translated_images/cloud-without-edge.b4da641f6022c95ed6b91fde8b5323abd2f94e0d52073ad54172ae8f5dac90e9.et.png)
+![Arhitektuuri diagramm, mis näitab pilveteenuseid ja IoT-seadmeid kohalikus võrgus](../../../../../translated_images/et/cloud-without-edge.b4da641f6022c95ed6b91fde8b5323abd2f94e0d52073ad54172ae8f5dac90e9.png)
 
 Senistes õppetundides kogusid seadmed andmeid ja saatsid need pilve analüüsimiseks, kus käitati serverivabasid funktsioone või AI-mudeleid.
 
-![Arhitektuuri diagramm, mis näitab IoT-seadmeid kohalikus võrgus, mis ühenduvad servaseadmetega, ja need servaseadmed ühenduvad pilvega](../../../../../translated_images/cloud-with-edge.1e26462c62c126fe150bd15a5714ddf0be599f09bacbad08b85be02b76ea1ae1.et.png)
+![Arhitektuuri diagramm, mis näitab IoT-seadmeid kohalikus võrgus, mis ühenduvad servaseadmetega, ja need servaseadmed ühenduvad pilvega](../../../../../translated_images/et/cloud-with-edge.1e26462c62c126fe150bd15a5714ddf0be599f09bacbad08b85be02b76ea1ae1.png)
 
 Serva-arvutus tähendab, et osa pilveteenustest viiakse pilvest välja ja arvutitesse, mis töötavad samas võrgus kui IoT-seadmed, suheldes pilvega ainult vajadusel. Näiteks saab servaseadmetes käitada AI-mudeleid, et analüüsida puuviljade küpsust, ja saata pilve ainult analüüsitulemused, nagu küpsete ja toorete puuviljade arv.
 
@@ -94,7 +94,7 @@ IoT-süsteemide puhul soovid sageli kasutada pilve- ja serva-arvutuse kombinatsi
 
 ## Azure IoT Edge
 
-![Azure IoT Edge logo](../../../../../translated_images/azure-iot-edge-logo.c1c076749b5cba2e8755262fadc2f19ca1146b948d76990b1229199ac2292d79.et.png)
+![Azure IoT Edge logo](../../../../../translated_images/et/azure-iot-edge-logo.c1c076749b5cba2e8755262fadc2f19ca1146b948d76990b1229199ac2292d79.png)
 
 Azure IoT Edge on teenus, mis aitab sul viia töökoormused pilvest serva. Sa seadistad seadme servaseadmeks ja pilvest saad sellele servaseadmele koodi juurutada. See võimaldab sul kombineerida pilve ja serva võimalusi.
 
@@ -108,7 +108,7 @@ IoT Edge on IoT Hubi sisse ehitatud, nii et saad servaseadmeid hallata sama teen
 
 IoT Edge käitab koodi *konteineritest* – iseseisvatest rakendustest, mis töötavad eraldatult ülejäänud rakendustest sinu arvutis. Kui sa käitad konteinerit, toimib see nagu eraldi arvuti sinu arvutis, oma tarkvara, teenuste ja rakendustega. Enamasti ei saa konteinerid sinu arvutis midagi juurde pääseda, kui sa ei otsusta jagada näiteks kausta konteineriga. Konteiner avab teenused avatud pordi kaudu, millele saab ligi pääseda või võrku avada.
 
-![Veebipäring suunatakse konteinerisse](../../../../../translated_images/container-web-browser.4ee81dd4f0d8838ce622b2a0d600b6a4322b5d4fe43159facd87b7b34f84d66a.et.png)
+![Veebipäring suunatakse konteinerisse](../../../../../translated_images/et/container-web-browser.4ee81dd4f0d8838ce622b2a0d600b6a4322b5d4fe43159facd87b7b34f84d66a.png)
 
 Näiteks saad konteineris käitada veebisaiti, mis töötab pordil 80, vaikimisi HTTP-port, ja seejärel avada selle oma arvutis samuti pordil 80.
 
@@ -204,11 +204,11 @@ Kui mudel on treenitud, tuleb see eksportida konteinerina.
 
 ## Valmistage oma konteiner juurutamiseks ette
 
-![Konteinerid luuakse ja lükatakse seejärel konteineriregistrisse, kust need IoT Edge abil servaseadmesse juurutatakse](../../../../../translated_images/container-edge-flow.c246050dd60ceefdb6ace026a4ce5c6aa4112bb5898ae23fbb2ab4be29ae3e1b.et.png)
+![Konteinerid luuakse ja lükatakse seejärel konteineriregistrisse, kust need IoT Edge abil servaseadmesse juurutatakse](../../../../../translated_images/et/container-edge-flow.c246050dd60ceefdb6ace026a4ce5c6aa4112bb5898ae23fbb2ab4be29ae3e1b.png)
 
 Kui olete oma mudeli alla laadinud, tuleb see ehitada konteineriks ja lükata konteineriregistrisse - veebipõhisesse asukohta, kus saate konteinerid salvestada. Seejärel saab IoT Edge konteineri registrist alla laadida ja teie seadmesse lükata.
 
-![Azure Container Registry logo](../../../../../translated_images/azure-container-registry-logo.09494206991d4b295025ebff7d4e2900325e527a59184ffbc8464b6ab59654be.et.png)
+![Azure Container Registry logo](../../../../../translated_images/et/azure-container-registry-logo.09494206991d4b295025ebff7d4e2900325e527a59184ffbc8464b6ab59654be.png)
 
 Selles õppetükis kasutatav konteineriregister on Azure Container Registry. See ei ole tasuta teenus, seega raha säästmiseks veenduge, et [puhastate oma projekti](../../../clean-up.md), kui olete lõpetanud.
 

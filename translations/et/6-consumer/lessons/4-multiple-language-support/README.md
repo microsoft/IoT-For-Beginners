@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Toeta mitut keelt
 
-![Selle õppetunni visandmärkmete ülevaade](../../../../../translated_images/lesson-24.4246968ed058510ab275052e87ef9aa89c7b2f938915d103c605c04dc6cd5bb7.et.jpg)
+![Selle õppetunni visandmärkmete ülevaade](../../../../../translated_images/et/lesson-24.4246968ed058510ab275052e87ef9aa89c7b2f938915d103c605c04dc6cd5bb7.jpg)
 
 > Visandmärkmed: [Nitya Narasimhan](https://github.com/nitya). Klõpsa pildil, et näha suuremat versiooni.
 
@@ -83,7 +83,7 @@ On mitmeid AI-teenuseid, mida saab kasutada rakendustes kõne ja teksti tõlkimi
 
 ### Cognitive services kõneteenus
 
-![Kõneteenuse logo](../../../../../translated_images/azure-speech-logo.a1f08c4befb0159f2cb5d692d3baf5b599e7b44759d316da907bda1508f46a4a.et.png)
+![Kõneteenuse logo](../../../../../translated_images/et/azure-speech-logo.a1f08c4befb0159f2cb5d692d3baf5b599e7b44759d316da907bda1508f46a4a.png)
 
 Kõneteenus, mida olete kasutanud viimastes õppetundides, sisaldab tõlkimisvõimalusi kõnetuvastuseks. Kui tuvastate kõnet, saate taotleda mitte ainult kõne teksti samas keeles, vaid ka teistes keeltes.
 
@@ -91,7 +91,7 @@ Kõneteenus, mida olete kasutanud viimastes õppetundides, sisaldab tõlkimisvõ
 
 ### Cognitive services Translator teenus
 
-![Tõlketeenuse logo](../../../../../translated_images/azure-translator-logo.c6ed3a4a433edfd2f11577eca105412c50b8396b194cbbd730723dd1d0793bcd.et.png)
+![Tõlketeenuse logo](../../../../../translated_images/et/azure-translator-logo.c6ed3a4a433edfd2f11577eca105412c50b8396b194cbbd730723dd1d0793bcd.png)
 
 Translator teenus on spetsiaalne tõlketeenus, mis suudab tõlkida teksti ühest keelest ühte või mitmesse sihtkeelde. Lisaks tõlkimisele toetab see laia valikut lisafunktsioone, sealhulgas roppuste maskeerimist. Samuti võimaldab see pakkuda konkreetset tõlget teatud sõna või lause jaoks, et töötada terminitega, mida ei soovita tõlkida, või millel on konkreetne tuntud tõlge.
 
@@ -130,7 +130,7 @@ Selle õppetunni jaoks vajate Translator ressurssi. Kasutate REST API-d teksti t
 
 Ideaalis peaks teie kogu rakendus mõistma võimalikult palju erinevaid keeli, alates kõne kuulamisest kuni keele mõistmiseni ja vastamiseni kõnega. See on palju tööd, seega tõlketeenused võivad kiirendada rakenduse valmimise aega.
 
-![Nutika taimeri arhitektuur, mis tõlgib jaapani keelt inglise keelde, töötleb inglise keeles ja tõlgib tagasi jaapani keelde](../../../../../translated_images/translated-smart-timer.08ac20057fdc5c37.et.png)
+![Nutika taimeri arhitektuur, mis tõlgib jaapani keelt inglise keelde, töötleb inglise keeles ja tõlgib tagasi jaapani keelde](../../../../../translated_images/et/translated-smart-timer.08ac20057fdc5c37.png)
 
 Kujutage ette, et ehitate nutikat taimerit, mis kasutab inglise keelt algusest lõpuni, mõistes räägitud inglise keelt ja teisendades selle tekstiks, töötades keele mõistmisega inglise keeles, koostades vastuseid inglise keeles ja vastates inglise kõnega. Kui soovite lisada jaapani keele toe, võite alustada jaapani keele kõne tõlkimisest inglise keele tekstiks, hoida rakenduse tuuma samana ja seejärel tõlkida vastuse teksti jaapani keelde enne vastuse kõneks muutmist. See võimaldaks teil kiiresti lisada jaapani keele toe ja hiljem laiendada täieliku jaapani keele toe pakkumiseks.
 

@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 [रास्पबेरी पाई](https://raspberrypi.org) एक सिंगल-बोर्ड कंप्यूटर है। आप विभिन्न उपकरणों और इकोसिस्टम का उपयोग करके सेंसर और एक्टुएटर्स जोड़ सकते हैं, और इन पाठों के लिए [Grove](https://www.seeedstudio.com/category/Grove-c-1003.html) नामक हार्डवेयर इकोसिस्टम का उपयोग करेंगे। आप अपने पाई को कोड करेंगे और Grove सेंसर का उपयोग Python के माध्यम से करेंगे।
 
-![रास्पबेरी पाई 4](../../../../../translated_images/raspberry-pi-4.fd4590d308c3d456.hi.jpg)
+![रास्पबेरी पाई 4](../../../../../translated_images/hi/raspberry-pi-4.fd4590d308c3d456.jpg)
 
 ## सेटअप
 
@@ -112,7 +112,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 1. रास्पबेरी पाई इमेजर से **CHOOSE OS** बटन चुनें, फिर *Raspberry Pi OS (Other)* और उसके बाद *Raspberry Pi OS Lite (32-bit)* चुनें।
 
-    ![रास्पबेरी पाई इमेजर में Raspberry Pi OS Lite चयनित](../../../../../translated_images/raspberry-pi-imager.24aedeab9e233d84.hi.png)
+    ![रास्पबेरी पाई इमेजर में Raspberry Pi OS Lite चयनित](../../../../../translated_images/hi/raspberry-pi-imager.24aedeab9e233d84.png)
 
     > 💁 Raspberry Pi OS Lite रास्पबेरी पाई OS का एक संस्करण है जिसमें डेस्कटॉप UI या UI आधारित टूल्स नहीं होते हैं। ये हेडलैस पाई के लिए आवश्यक नहीं हैं और इंस्टॉल को छोटा और बूट अप समय को तेज बनाते हैं।
 
@@ -249,7 +249,7 @@ Hello World ऐप बनाएं।
 
 1. इस फ़ोल्डर को VS Code में खोलें *File -> Open...* चुनकर और *nightlight* फ़ोल्डर को चुनें, फिर **OK** पर क्लिक करें।
 
-    ![VS Code ओपन डायलॉग जो nightlight फ़ोल्डर दिखा रहा है](../../../../../translated_images/vscode-open-nightlight-remote.d3d2a4011e30d535.hi.png)
+    ![VS Code ओपन डायलॉग जो nightlight फ़ोल्डर दिखा रहा है](../../../../../translated_images/hi/vscode-open-nightlight-remote.d3d2a4011e30d535.png)
 
 1. VS Code एक्सप्लोरर से `app.py` फ़ाइल खोलें और निम्नलिखित कोड जोड़ें:
 

@@ -27,13 +27,13 @@ Le capteur GPS Grove peut être connecté au Raspberry Pi.
 
 Connectez le capteur GPS.
 
-![Un capteur GPS Grove](../../../../../translated_images/grove-gps-sensor.247943bf69b03f0d1820ef6ed10c587f9b650e8db55b936851c92412180bd3e2.fr.png)
+![Un capteur GPS Grove](../../../../../translated_images/fr/grove-gps-sensor.247943bf69b03f0d1820ef6ed10c587f9b650e8db55b936851c92412180bd3e2.png)
 
 1. Insérez une extrémité d'un câble Grove dans la prise du capteur GPS. Il ne peut être inséré que dans un seul sens.
 
 1. Avec le Raspberry Pi éteint, connectez l'autre extrémité du câble Grove à la prise UART marquée **UART** sur le Grove Base Hat attaché au Pi. Cette prise se trouve sur la rangée du milieu, du côté le plus proche du slot pour carte SD, à l'opposé des ports USB et de la prise Ethernet.
 
-    ![Le capteur GPS Grove connecté à la prise UART](../../../../../translated_images/pi-gps-sensor.1f99ee2b2f6528915047ec78967bd362e0e4ee0ed594368a3837b9cf9cdaca64.fr.png)
+    ![Le capteur GPS Grove connecté à la prise UART](../../../../../translated_images/fr/pi-gps-sensor.1f99ee2b2f6528915047ec78967bd362e0e4ee0ed594368a3837b9cf9cdaca64.png)
 
 1. Positionnez le capteur GPS de manière à ce que l'antenne attachée ait une visibilité sur le ciel - idéalement près d'une fenêtre ouverte ou à l'extérieur. Il est plus facile d'obtenir un signal clair sans obstacle devant l'antenne.
 

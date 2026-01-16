@@ -29,13 +29,13 @@ Grove Time of Flight -sensori voidaan liittää Raspberry Pi:hin.
 
 Yhdistä Time of Flight -sensori.
 
-![Grove Time of Flight -sensori](../../../../../translated_images/grove-time-of-flight-sensor.d82ff2165bfded9f485de54d8d07195a6270a602696825fca19f629ddfe94e86.fi.png)
+![Grove Time of Flight -sensori](../../../../../translated_images/fi/grove-time-of-flight-sensor.d82ff2165bfded9f485de54d8d07195a6270a602696825fca19f629ddfe94e86.png)
 
 1. Työnnä Grove-kaapelin toinen pää Time of Flight -sensorin liittimeen. Se menee sisään vain yhdellä tavalla.
 
 1. Kun Raspberry Pi on sammutettu, yhdistä Grove-kaapelin toinen pää yhteen I²C-liittimistä, jotka on merkitty **I²C** Grove Base -hatissa, joka on kiinnitetty Pi:hin. Nämä liittimet sijaitsevat alarivissä, vastakkaisessa päässä GPIO-pinneistä ja kamerakaapelin liittimen vieressä.
 
-![Grove Time of Flight -sensori yhdistettynä I²C-liittimeen](../../../../../translated_images/pi-time-of-flight-sensor.58c8dc04eb3bfb57.fi.png)
+![Grove Time of Flight -sensori yhdistettynä I²C-liittimeen](../../../../../translated_images/fi/pi-time-of-flight-sensor.58c8dc04eb3bfb57.png)
 
 ## Ohjelmoi Time of Flight -sensori
 
@@ -106,7 +106,7 @@ Ohjelmoi laite.
 
     Etäisyysmittari sijaitsee sensorin takapuolella, joten varmista, että käytät oikeaa puolta etäisyyden mittaamiseen.
 
-    ![Etäisyysmittari Time of Flight -sensorin takapuolella osoittaa banaania](../../../../../translated_images/time-of-flight-banana.079921ad8b1496e4.fi.png)
+    ![Etäisyysmittari Time of Flight -sensorin takapuolella osoittaa banaania](../../../../../translated_images/fi/time-of-flight-banana.079921ad8b1496e4.png)
 
 > 💁 Löydät tämän koodin [code-proximity/pi](../../../../../4-manufacturing/lessons/4-trigger-fruit-detector/code-proximity/pi) -kansiosta.
 

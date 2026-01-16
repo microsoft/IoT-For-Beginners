@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Prédire la croissance des plantes avec l'IoT
 
-![Un aperçu illustré de cette leçon](../../../../../translated_images/lesson-5.42b234299279d263143148b88ab4583861a32ddb03110c6c1120e41bb88b2592.fr.jpg)
+![Un aperçu illustré de cette leçon](../../../../../translated_images/fr/lesson-5.42b234299279d263143148b88ab4583861a32ddb03110c6c1120e41bb88b2592.jpg)
 
 > Illustration par [Nitya Narasimhan](https://github.com/nitya). Cliquez sur l'image pour une version agrandie.
 
@@ -65,7 +65,7 @@ Chaque espèce de plante a des valeurs différentes pour sa température de base
 
 ✅ Faites des recherches. Pour les plantes que vous avez dans votre jardin, école ou parc local, pouvez-vous trouver leur température de base ?
 
-![Un graphique montrant le taux de croissance augmentant avec la température, puis diminuant lorsque la température devient trop élevée](../../../../../translated_images/plant-growth-temp-graph.c6d69c9478e6ca83.fr.png)
+![Un graphique montrant le taux de croissance augmentant avec la température, puis diminuant lorsque la température devient trop élevée](../../../../../translated_images/fr/plant-growth-temp-graph.c6d69c9478e6ca83.webp)
 
 Le graphique ci-dessus montre un exemple de courbe de croissance en fonction de la température. Jusqu'à la température de base, il n'y a pas de croissance. Le taux de croissance augmente jusqu'à la température optimale, puis diminue après avoir atteint ce pic. À la température maximale, la croissance s'arrête.
 
@@ -91,7 +91,7 @@ Ce code ouvre le fichier CSV, puis ajoute une nouvelle ligne à la fin. La ligne
 
     
 > 💁 Si vous utilisez un appareil IoT virtuel, cochez la case aléatoire et définissez une plage pour éviter d'obtenir la même température à chaque fois que la valeur de température est renvoyée.
-    ![Cochez la case aléatoire et définissez une plage](../../../../../translated_images/select-the-random-checkbox-and-set-a-range.32cf4bc7c12e797f.fr.png) 
+    ![Cochez la case aléatoire et définissez une plage](../../../../../translated_images/fr/select-the-random-checkbox-and-set-a-range.32cf4bc7c12e797f.webp) 
 
     > 💁 Si vous souhaitez exécuter cela pendant une journée entière, vous devez vous assurer que l'ordinateur sur lequel votre code serveur s'exécute ne se mettra pas en veille, soit en modifiant vos paramètres d'alimentation, soit en exécutant quelque chose comme [ce script Python pour garder le système actif](https://github.com/jaqsparow/keep-system-active).
     
@@ -111,7 +111,7 @@ Les étapes pour le faire manuellement sont :
 
 Par exemple, si la température la plus élevée de la journée est de 25°C, et la plus basse est de 12°C :
 
-![GDD = 25 + 12 divisé par 2, puis soustrayez 10 du résultat pour obtenir 8,5](../../../../../translated_images/gdd-calculation-strawberries.59f57db94b22adb8ff6efb951ace33af104a1c6ccca3ffb0f8169c14cb160c90.fr.png)
+![GDD = 25 + 12 divisé par 2, puis soustrayez 10 du résultat pour obtenir 8,5](../../../../../translated_images/fr/gdd-calculation-strawberries.59f57db94b22adb8ff6efb951ace33af104a1c6ccca3ffb0f8169c14cb160c90.png)
 
 * 25 + 12 = 37
 * 37 / 2 = 18,5

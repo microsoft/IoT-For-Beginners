@@ -19,7 +19,7 @@ Le microphone intégré capture un signal analogique, qui est ensuite converti e
 
 ✅ En savoir plus sur le DMA sur la [page d'accès direct à la mémoire sur Wikipedia](https://wikipedia.org/wiki/Direct_memory_access).
 
-![L'audio du micro passe par un ADC puis par le DMAC. Celui-ci écrit dans un buffer. Lorsque ce buffer est plein, il est traité et le DMAC écrit dans un second buffer](../../../../../translated_images/dmac-adc-buffers.4509aee49145c90bc2e1be472b8ed2ddfcb2b6a81ad3e559114aca55f5fff759.fr.png)
+![L'audio du micro passe par un ADC puis par le DMAC. Celui-ci écrit dans un buffer. Lorsque ce buffer est plein, il est traité et le DMAC écrit dans un second buffer](../../../../../translated_images/fr/dmac-adc-buffers.4509aee49145c90bc2e1be472b8ed2ddfcb2b6a81ad3e559114aca55f5fff759.png)
 
 Le DMAC peut capturer de l'audio depuis l'ADC à des intervalles fixes, comme 16 000 fois par seconde pour un audio à 16KHz. Il peut écrire ces données capturées dans un buffer mémoire pré-alloué, et lorsque celui-ci est plein, le rendre disponible pour que votre code le traite. L'utilisation de cette mémoire peut retarder la capture audio, mais vous pouvez configurer plusieurs buffers. Le DMAC écrit dans le buffer 1, puis lorsqu'il est plein, il notifie votre code pour traiter le buffer 1, tandis que le DMAC écrit dans le buffer 2. Lorsque le buffer 2 est plein, il notifie votre code et revient à l'écriture dans le buffer 1. Ainsi, tant que vous traitez chaque buffer en moins de temps qu'il ne faut pour en remplir un, vous ne perdrez aucune donnée.
 

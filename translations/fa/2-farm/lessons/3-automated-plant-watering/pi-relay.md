@@ -27,13 +27,13 @@ CO_OP_TRANSLATOR_METADATA:
 
 رله را وصل کنید.
 
-![یک رله Grove](../../../../../translated_images/grove-relay.d426958ca210fbd0fb7983d7edc069d46c73a8b0a099d94797bd756f7b6bb6be.fa.png)
+![یک رله Grove](../../../../../translated_images/fa/grove-relay.d426958ca210fbd0fb7983d7edc069d46c73a8b0a099d94797bd756f7b6bb6be.png)
 
 1. یک سر کابل Grove را به سوکت روی رله وارد کنید. کابل فقط از یک جهت وارد می‌شود.
 
 1. با خاموش بودن رزبری پای، سر دیگر کابل Grove را به سوکت دیجیتال با علامت **D5** روی Grove Base Hat که به پای متصل است وصل کنید. این سوکت دومین سوکت از سمت چپ در ردیف سوکت‌های کنار پین‌های GPIO است. سنسور رطوبت خاک را به سوکت **A0** متصل نگه دارید.
 
-![رله Grove متصل به سوکت D5 و سنسور رطوبت خاک متصل به سوکت A0](../../../../../translated_images/pi-relay-and-soil-moisture-sensor.02f3198975b8c53e69ec716cd2719ce117700bd1fc933eaf93476c103c57939b.fa.png)
+![رله Grove متصل به سوکت D5 و سنسور رطوبت خاک متصل به سوکت A0](../../../../../translated_images/fa/pi-relay-and-soil-moisture-sensor.02f3198975b8c53e69ec716cd2719ce117700bd1fc933eaf93476c103c57939b.png)
 
 1. سنسور رطوبت خاک را در خاک قرار دهید، اگر قبلاً از درس قبلی در خاک قرار داده نشده است.
 

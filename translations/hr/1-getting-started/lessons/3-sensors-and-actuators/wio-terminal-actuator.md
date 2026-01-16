@@ -35,7 +35,7 @@ Grove LED dolazi kao modul s izborom LED-ova, omogućujući vam da odaberete boj
 
 Spojite LED.
 
-![Grove LED](../../../../../translated_images/grove-led.6c853be93f473cf2c439cfc74bb1064732b22251a83cedf66e62f783f9cc1a79.hr.png)
+![Grove LED](../../../../../translated_images/hr/grove-led.6c853be93f473cf2c439cfc74bb1064732b22251a83cedf66e62f783f9cc1a79.png)
 
 1. Odaberite svoj omiljeni LED i umetnite njegove nožice u dvije rupe na LED modulu.
 
@@ -51,7 +51,7 @@ Spojite LED.
 
     > 💁 Desna Grove utičnica može se koristiti s analognim ili digitalnim senzorima i aktuatorima. Lijeva utičnica je samo za I2C i digitalne senzore i aktuatore. O tome će biti riječi u kasnijoj lekciji.
 
-![Grove LED spojen na desnu utičnicu](../../../../../translated_images/wio-led.265a1897e72d7f21.hr.png)
+![Grove LED spojen na desnu utičnicu](../../../../../translated_images/hr/wio-led.265a1897e72d7f21.png)
 
 ## Programirajte noćno svjetlo
 

@@ -35,7 +35,7 @@ Otherwise
 
 חבר את ה-LED.
 
-![נורת LED מסוג Grove](../../../../../translated_images/grove-led.6c853be93f473cf2c439cfc74bb1064732b22251a83cedf66e62f783f9cc1a79.he.png)
+![נורת LED מסוג Grove](../../../../../translated_images/he/grove-led.6c853be93f473cf2c439cfc74bb1064732b22251a83cedf66e62f783f9cc1a79.png)
 
 1. בחר את ה-LED המועדף עליך והכנס את הרגליים לשני החורים שבמודול ה-LED.
 
@@ -49,7 +49,7 @@ Otherwise
 
 1. כאשר ה-Raspberry Pi כבוי, חבר את הקצה השני של כבל Grove לשקע הדיגיטלי המסומן **D5** על כובע הבסיס של Grove שמחובר ל-Pi. שקע זה הוא השני משמאל, בשורה של השקעים ליד פיני GPIO.
 
-![ה-LED של Grove מחובר לשקע D5](../../../../../translated_images/pi-led.97f1d474981dc35d1c7996c7b17de355d3d0a6bc9606d79fa5f89df933415122.he.png)
+![ה-LED של Grove מחובר לשקע D5](../../../../../translated_images/he/pi-led.97f1d474981dc35d1c7996c7b17de355d3d0a6bc9606d79fa5f89df933415122.png)
 
 ## תכנת את מנורת הלילה
 

@@ -27,13 +27,13 @@ CO_OP_TRANSLATOR_METADATA:
 
 חבר את הריליי.
 
-![ריליי Grove](../../../../../translated_images/grove-relay.d426958ca210fbd0fb7983d7edc069d46c73a8b0a099d94797bd756f7b6bb6be.he.png)
+![ריליי Grove](../../../../../translated_images/he/grove-relay.d426958ca210fbd0fb7983d7edc069d46c73a8b0a099d94797bd756f7b6bb6be.png)
 
 1. הכנס קצה אחד של כבל Grove לשקע על הריליי. הוא ייכנס רק בכיוון אחד.
 
 1. כאשר ה-Raspberry Pi כבוי, חבר את הקצה השני של כבל Grove לשקע הדיגיטלי המסומן **D5** על ה-Grove Base Hat המחובר ל-Pi. שקע זה הוא השני משמאל, בשורה של השקעים ליד פיני ה-GPIO. השאר את חיישן לחות הקרקע מחובר לשקע **A0**.
 
-![הריליי Grove מחובר לשקע D5, וחיישן לחות הקרקע מחובר לשקע A0](../../../../../translated_images/pi-relay-and-soil-moisture-sensor.02f3198975b8c53e69ec716cd2719ce117700bd1fc933eaf93476c103c57939b.he.png)
+![הריליי Grove מחובר לשקע D5, וחיישן לחות הקרקע מחובר לשקע A0](../../../../../translated_images/he/pi-relay-and-soil-moisture-sensor.02f3198975b8c53e69ec716cd2719ce117700bd1fc933eaf93476c103c57939b.png)
 
 1. הכנס את חיישן לחות הקרקע לאדמה, אם הוא לא כבר מחובר מהשיעור הקודם.
 

@@ -27,13 +27,13 @@ Grove GPS-sensorit saab ühendada Raspberry Piga.
 
 Ühendage GPS-sensor.
 
-![Grove GPS-sensor](../../../../../translated_images/grove-gps-sensor.247943bf69b03f0d1820ef6ed10c587f9b650e8db55b936851c92412180bd3e2.et.png)
+![Grove GPS-sensor](../../../../../translated_images/et/grove-gps-sensor.247943bf69b03f0d1820ef6ed10c587f9b650e8db55b936851c92412180bd3e2.png)
 
 1. Sisestage Grove-kaabli üks ots GPS-sensori pistikusse. Kaabel läheb sisse ainult ühes suunas.
 
 1. Kui Raspberry Pi on välja lülitatud, ühendage Grove-kaabli teine ots Grove Base hatisse, UART-pistikusse, mis on tähistatud **UART**. See pistik asub keskmises reas, SD-kaardi pesa lähedal, USB-portide ja Etherneti pesa vastaspoolel.
 
-    ![Grove GPS-sensor ühendatud UART-pistikuga](../../../../../translated_images/pi-gps-sensor.1f99ee2b2f6528915047ec78967bd362e0e4ee0ed594368a3837b9cf9cdaca64.et.png)
+    ![Grove GPS-sensor ühendatud UART-pistikuga](../../../../../translated_images/et/pi-gps-sensor.1f99ee2b2f6528915047ec78967bd362e0e4ee0ed594368a3837b9cf9cdaca64.png)
 
 1. Paigutage GPS-sensor nii, et ühendatud antennil oleks nähtavus taeva suunas - ideaalis avatud akna lähedal või väljas. Selgem signaal on kergemini saadaval, kui antenni ees pole takistusi.
 

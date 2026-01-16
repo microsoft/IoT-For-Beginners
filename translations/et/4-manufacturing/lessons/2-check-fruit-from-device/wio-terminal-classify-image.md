@@ -217,7 +217,7 @@ Need sertifikaadid sisaldavad avalikke võtmeid ja neid ei ole vaja turvaliselt 
 
     Saad näha tehtud pilti ja neid väärtusi Custom Visioni **Predictions** vahekaardil.
 
-    ![Banaan Custom Visionis, ennustatud küps 56,8% ja toore 43,1% tõenäosusega](../../../../../translated_images/custom-vision-banana-prediction.30cdff4e1d72db5d9a0be0193790a47c2b387da034e12dc1314dd57ca2131b59.et.png)
+    ![Banaan Custom Visionis, ennustatud küps 56,8% ja toore 43,1% tõenäosusega](../../../../../translated_images/et/custom-vision-banana-prediction.30cdff4e1d72db5d9a0be0193790a47c2b387da034e12dc1314dd57ca2131b59.png)
 
 > 💁 Selle koodi leiad kaustast [code-classify/wio-terminal](../../../../../4-manufacturing/lessons/2-check-fruit-from-device/code-classify/wio-terminal).
 

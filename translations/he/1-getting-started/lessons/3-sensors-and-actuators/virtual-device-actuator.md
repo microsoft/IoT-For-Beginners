@@ -45,11 +45,11 @@ Otherwise
 
     1. בחר בכפתור **Add** כדי ליצור את ה-LED על Pin 5.
 
-    ![הגדרות ה-LED](../../../../../translated_images/counterfit-create-led.ba9db1c9b8c622a635d6dfae5cdc4e70c2b250635bd4f0601c6cf0bd22b7ba46.he.png)
+    ![הגדרות ה-LED](../../../../../translated_images/he/counterfit-create-led.ba9db1c9b8c622a635d6dfae5cdc4e70c2b250635bd4f0601c6cf0bd22b7ba46.png)
 
     ה-LED ייווצר ויופיע ברשימת האקטואטורים.
 
-    ![ה-LED נוצר](../../../../../translated_images/counterfit-led.c0ab02de6d256ad84d9bad4d67a7faa709f0ea83e410cfe9b5561ef0cef30b1c.he.png)
+    ![ה-LED נוצר](../../../../../translated_images/he/counterfit-led.c0ab02de6d256ad84d9bad4d67a7faa709f0ea83e410cfe9b5561ef0cef30b1c.png)
 
     לאחר שה-LED נוצר, תוכל לשנות את הצבע באמצעות בוחר הצבעים *Color*. בחר בכפתור **Set** כדי לשנות את הצבע לאחר שבחרת אותו.
 

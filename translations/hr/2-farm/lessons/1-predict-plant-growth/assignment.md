@@ -42,7 +42,7 @@ Kada imate temperaturne podatke, možete koristiti Jupyter Notebook u ovom repoz
 
     Jupyter će se pokrenuti i otvoriti notebook u vašem pregledniku. Prođite kroz upute u notebooku kako biste vizualizirali izmjerene temperature i izračunali dane rasta (GDD).
 
-    ![Jupyter notebook](../../../../../translated_images/gdd-jupyter-notebook.c5b52cf21094f158a61f47f455490fd95f1729777ff90861a4521820bf354cdc.hr.png)
+    ![Jupyter notebook](../../../../../translated_images/hr/gdd-jupyter-notebook.c5b52cf21094f158a61f47f455490fd95f1729777ff90861a4521820bf354cdc.png)
 
 ## Rubrika
 

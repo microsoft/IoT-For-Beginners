@@ -25,11 +25,11 @@ ArduCam سوکت Grove ندارد و به جای آن از طریق پین‌ه�
 
 دوربین را متصل کنید.
 
-![یک حسگر ArduCam](../../../../../translated_images/arducam.20e4e4cbb268296570b5914e20d6c349fc42ddac9ed4e1b9deba2188204eebae.fa.png)
+![یک حسگر ArduCam](../../../../../translated_images/fa/arducam.20e4e4cbb268296570b5914e20d6c349fc42ddac9ed4e1b9deba2188204eebae.png)
 
 1. پین‌های پایه ArduCam باید به پین‌های GPIO روی Wio Terminal متصل شوند. برای راحت‌تر پیدا کردن پین‌های درست، برچسب پین GPIO که همراه Wio Terminal است را دور پین‌ها بچسبانید:
 
-    ![Wio Terminal با برچسب پین GPIO](../../../../../translated_images/wio-terminal-pin-sticker.b90b1535937b84bd.fa.png)
+    ![Wio Terminal با برچسب پین GPIO](../../../../../translated_images/fa/wio-terminal-pin-sticker.b90b1535937b84bd.png)
 
 1. با استفاده از سیم‌های جامپر، اتصالات زیر را انجام دهید:
 
@@ -44,7 +44,7 @@ ArduCam سوکت Grove ندارد و به جای آن از طریق پین‌ه�
     | SDA         | 3 (I2C1_SDA)     | داده سریال I2C                           |
     | SCL         | 5 (I2C1_SCL)     | ساعت سریال I2C                           |
 
-    ![Wio Terminal متصل به ArduCam با سیم‌های جامپر](../../../../../translated_images/arducam-wio-terminal-connections.a4d5a4049bdb5ab800a2877389fc6ecf5e4ff307e6451ff56c517e6786467d0a.fa.png)
+    ![Wio Terminal متصل به ArduCam با سیم‌های جامپر](../../../../../translated_images/fa/arducam-wio-terminal-connections.a4d5a4049bdb5ab800a2877389fc6ecf5e4ff307e6451ff56c517e6786467d0a.png)
 
     اتصالات GND و VCC منبع تغذیه ۵ ولت را به ArduCam ارائه می‌دهند. این دوربین با ۵ ولت کار می‌کند، برخلاف حسگرهای Grove که با ۳ ولت کار می‌کنند. این توان مستقیماً از اتصال USB-C که دستگاه را تغذیه می‌کند تأمین می‌شود.
 
@@ -297,7 +297,7 @@ ArduCam سوکت Grove ندارد و به جای آن از طریق پین‌ه�
 
 1. میکروکنترلرها کد شما را به طور مداوم اجرا می‌کنند، بنابراین راه آسانی برای انجام عملی مانند گرفتن عکس بدون واکنش به یک حسگر وجود ندارد. Wio Terminal دکمه‌هایی دارد، بنابراین می‌توان دوربین را طوری تنظیم کرد که با یکی از دکمه‌ها فعال شود. کد زیر را به انتهای تابع `setup` اضافه کنید تا دکمه C (یکی از سه دکمه بالایی، نزدیک‌ترین دکمه به کلید پاور) پیکربندی شود.
 
-    ![دکمه C در بالای دستگاه نزدیک کلید پاور](../../../../../translated_images/wio-terminal-c-button.73df3cb1c1445ea0.fa.png)
+    ![دکمه C در بالای دستگاه نزدیک کلید پاور](../../../../../translated_images/fa/wio-terminal-c-button.73df3cb1c1445ea0.png)
 
     ```cpp
     pinMode(WIO_KEY_C, INPUT_PULLUP);
@@ -465,7 +465,7 @@ Wio Terminal فقط از کارت‌های microSD با حداکثر ظرفیت 
 
 1. کارت microSD را خاموش کرده و با فشار دادن کمی و رها کردن آن را خارج کنید، و کارت بیرون می‌آید. ممکن است نیاز باشد از یک ابزار نازک برای این کار استفاده کنید. کارت microSD را به کامپیوتر خود متصل کنید تا تصاویر را مشاهده کنید.
 
-    ![تصویری از یک موز که با استفاده از ArduCam ثبت شده است](../../../../../translated_images/banana-arducam.be1b32d4267a8194b0fd042362e56faa431da9cd4af172051b37243ea9be0256.fa.jpg)
+    ![تصویری از یک موز که با استفاده از ArduCam ثبت شده است](../../../../../translated_images/fa/banana-arducam.be1b32d4267a8194b0fd042362e56faa431da9cd4af172051b37243ea9be0256.jpg)
 💁 ممکن است چند تصویر طول بکشد تا تراز سفیدی دوربین تنظیم شود. شما این را بر اساس رنگ تصاویر گرفته شده متوجه خواهید شد، چند تصویر اول ممکن است رنگ غیرعادی داشته باشند. شما همیشه می‌توانید با تغییر کد برای گرفتن چند تصویر که در تابع `setup` نادیده گرفته می‌شوند، این مشکل را حل کنید.
 
 

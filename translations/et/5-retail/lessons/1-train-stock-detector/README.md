@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Treeni varude detektorit
 
-![Selle õppetunni visuaalne ülevaade](../../../../../translated_images/lesson-19.cf6973cecadf080c4b526310620dc4d6f5994c80fb0139c6f378cc9ca2d435cd.et.jpg)
+![Selle õppetunni visuaalne ülevaade](../../../../../translated_images/et/lesson-19.cf6973cecadf080c4b526310620dc4d6f5994c80fb0139c6f378cc9ca2d435cd.jpg)
 
 > Visuaalne ülevaade: [Nitya Narasimhan](https://github.com/nitya). Klõpsa pildil, et näha suuremat versiooni.
 
@@ -45,7 +45,7 @@ Objektide tuvastamine hõlmab objektide tuvastamist piltidel tehisintellekti abi
 
 Pildiklassifikatsioon seisneb pildi tervikuna klassifitseerimises – millised on tõenäosused, et kogu pilt vastab igale sildile. Tagastatakse tõenäosused iga sildi kohta, mida mudeli treenimiseks kasutati.
 
-![Pildiklassifikatsioon india pähklite ja tomatipasta kohta](../../../../../translated_images/image-classifier-cashews-tomato.bc2e16ab8f05cf9ac0f59f73e32efc4227f9a5b601b90b2c60f436694547a965.et.png)
+![Pildiklassifikatsioon india pähklite ja tomatipasta kohta](../../../../../translated_images/et/image-classifier-cashews-tomato.bc2e16ab8f05cf9ac0f59f73e32efc4227f9a5b601b90b2c60f436694547a965.png)
 
 Ülaltoodud näites klassifitseeritakse kaks pilti mudeli abil, mis on treenitud klassifitseerima india pähklite karpe või tomatipasta purke. Esimene pilt on india pähklite karp ja sellel on kaks tulemust pildiklassifikaatorist:
 
@@ -69,7 +69,7 @@ Kui kasutate seda piltide ennustamiseks, ei saa te tagasi siltide ja protsentide
 
 > 🎓 *Piirdekastid* on kastid objekti ümber.
 
-![Objektide tuvastamine india pähklite ja tomatipasta kohta](../../../../../translated_images/object-detector-cashews-tomato.1af7c26686b4db0e709754aeb196f4e73271f54e2085db3bcccb70d4a0d84d97.et.png)
+![Objektide tuvastamine india pähklite ja tomatipasta kohta](../../../../../translated_images/et/object-detector-cashews-tomato.1af7c26686b4db0e709754aeb196f4e73271f54e2085db3bcccb70d4a0d84d97.png)
 
 Ülaltoodud pilt sisaldab nii india pähklite karpi kui ka kolme tomatipasta purki. Objektide detektor tuvastas india pähklid, tagastades piirdekasti, mis sisaldab india pähkleid koos protsendilise tõenäosusega, et piirdekast sisaldab objekti, antud juhul 97.6%. Objektide detektor tuvastas ka kolm tomatipasta purki ja annab kolm eraldi piirdekasti, üks iga tuvastatud purgi kohta, ning igaühel on protsendiline tõenäosus, et piirdekast sisaldab tomatipasta purki.
 
@@ -120,7 +120,7 @@ Objektide detektorit saab treenida Custom Visioni abil, sarnaselt sellele, kuida
 
     Projekti loomisel veenduge, et kasutate varem loodud `stock-detector-training` ressurssi. Kasutage *Object Detection* projekti tüüpi ja *Products on Shelves* domeeni.
 
-    ![Custom Vision projekti seaded, kus nimi on fruit-quality-detector, kirjeldust pole, ressurss on fruit-quality-detector-training, projekti tüüp on klassifikatsioon, klassifikatsiooni tüübid on multi class ja domeenid on food](../../../../../translated_images/custom-vision-create-object-detector-project.32d4fb9aa8e7e7375f8a799bfce517aca970f2cb65e42d4245c5e635c734ab29.et.png)
+    ![Custom Vision projekti seaded, kus nimi on fruit-quality-detector, kirjeldust pole, ressurss on fruit-quality-detector-training, projekti tüüp on klassifikatsioon, klassifikatsiooni tüübid on multi class ja domeenid on food](../../../../../translated_images/et/custom-vision-create-object-detector-project.32d4fb9aa8e7e7375f8a799bfce517aca970f2cb65e42d4245c5e635c734ab29.png)
 
     ✅ *Products on Shelves* domeen on spetsiaalselt suunatud varude tuvastamiseks poe riiulitel. Lugege rohkem erinevate domeenide kohta [Microsofti dokumentatsiooni domeeni valimise jaotisest](https://docs.microsoft.com/azure/cognitive-services/custom-vision-service/select-domain?WT.mc_id=academic-17441-jabenn#object-detection).
 
@@ -142,11 +142,11 @@ Mudeli treenimiseks vajate pilte, mis sisaldavad tuvastatavaid objekte.
 
 1. Järgige [Microsofti dokumentatsiooni kiirjuhendi "Piltide üleslaadimine ja märgistamine" jaotist](https://docs.microsoft.com/azure/cognitive-services/custom-vision-service/get-started-build-detector?WT.mc_id=academic-17441-jabenn#upload-and-tag-images), et laadida üles oma treeningpildid. Looge asjakohased sildid sõltuvalt tuvastatavate objektide tüübist.
 
-    ![Üleslaadimise dialoogid, mis näitavad küpsete ja toorete banaanipiltide üleslaadimist](../../../../../translated_images/image-upload-object-detector.77c7892c3093cb59b79018edecd678749a75d71a099bc8a2d2f2f76320f88a5b.et.png)
+    ![Üleslaadimise dialoogid, mis näitavad küpsete ja toorete banaanipiltide üleslaadimist](../../../../../translated_images/et/image-upload-object-detector.77c7892c3093cb59b79018edecd678749a75d71a099bc8a2d2f2f76320f88a5b.png)
 
     Kui joonistate objektide piirdekaste, hoidke need tihedalt objekti ümber. Kõigi piltide kontuuride joonistamine võib võtta aega, kuid tööriist tuvastab, mida ta arvab olevat piirdekastid, muutes selle kiiremaks.
 
-    ![Tomatipasta märgistamine](../../../../../translated_images/object-detector-tag-tomato-paste.f47c362fb0f0eb582f3bc68cf3855fb43a805106395358d41896a269c210b7b4.et.png)
+    ![Tomatipasta märgistamine](../../../../../translated_images/et/object-detector-tag-tomato-paste.f47c362fb0f0eb582f3bc68cf3855fb43a805106395358d41896a269c210b7b4.png)
 
     > 💁 Kui teil on iga objekti jaoks rohkem kui 15 pilti, saate treenida pärast 15 pilti ja kasutada **Suggested tags** funktsiooni. See kasutab treenitud mudelit objektide tuvastamiseks märgistamata pildil. Seejärel saate tuvastatud objektid kinnitada või tagasi lükata ja piirdekastid uuesti joonistada. See võib säästa *palju* aega.
 
@@ -164,7 +164,7 @@ Kui teie objektide detektor on treenitud, saate seda testida, andes sellele uusi
 
 1. Kasutage **Quick Test** nuppu, et üles laadida testimispildid ja kontrollida, kas objektid tuvastatakse. Kasutage varem loodud testimispilte, mitte treeningpilte.
 
-    ![3 tomatipasta purki tuvastatud tõenäosustega 38%, 35.5% ja 34.6%](../../../../../translated_images/object-detector-detected-tomato-paste.52656fe87af4c37b4ee540526d63e73ed075da2e54a9a060aa528e0c562fb1b6.et.png)
+    ![3 tomatipasta purki tuvastatud tõenäosustega 38%, 35.5% ja 34.6%](../../../../../translated_images/et/object-detector-detected-tomato-paste.52656fe87af4c37b4ee540526d63e73ed075da2e54a9a060aa528e0c562fb1b6.png)
 
 1. Proovige kõiki testimispilte, mis teil on, ja jälgige tõenäosusi.
 

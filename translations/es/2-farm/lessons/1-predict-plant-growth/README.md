@@ -59,7 +59,7 @@ Cada especie de planta tiene valores diferentes para su temperatura base, óptim
 
 ✅ Investiga. Para las plantas que tengas en tu jardín, escuela o parque local, ¿puedes encontrar la temperatura base?
 
-![Un gráfico que muestra la tasa de crecimiento aumentando a medida que la temperatura sube, y luego disminuyendo cuando la temperatura es demasiado alta](../../../../../translated_images/plant-growth-temp-graph.c6d69c9478e6ca83.es.png)
+![Un gráfico que muestra la tasa de crecimiento aumentando a medida que la temperatura sube, y luego disminuyendo cuando la temperatura es demasiado alta](../../../../../translated_images/es/plant-growth-temp-graph.c6d69c9478e6ca83.webp)
 
 El gráfico anterior muestra un ejemplo de la relación entre la tasa de crecimiento y la temperatura. Hasta la temperatura base no hay crecimiento. La tasa de crecimiento aumenta hasta la temperatura óptima y luego disminuye después de alcanzar este pico. A la temperatura máxima, el crecimiento se detiene.
 
@@ -93,7 +93,7 @@ Los días grado de crecimiento, o GDD, se calculan por día como la temperatura 
 
 La fórmula completa para calcular GDD es un poco complicada, pero hay una ecuación simplificada que a menudo se utiliza como una buena aproximación:
 
-![GDD = T max + T min dividido por 2, todo menos T base](../../../../../translated_images/gdd-calculation.79b3660f9c5757aa92dc2dd2cdde75344e2d2c1565c4b3151640f7887edc0275.es.png)
+![GDD = T max + T min dividido por 2, todo menos T base](../../../../../translated_images/es/gdd-calculation.79b3660f9c5757aa92dc2dd2cdde75344e2d2c1565c4b3151640f7887edc0275.png)
 
 * **GDD** - este es el número de días grado de crecimiento
 * **T max** - esta es la temperatura máxima diaria en grados Celsius
@@ -121,7 +121,7 @@ Usando estos números en nuestra fórmula:
 
 Esto da un cálculo de:
 
-![GDD = 16 + 12 dividido por 2, todo menos 10, dando un resultado de 4](../../../../../translated_images/gdd-calculation-corn.64a58b7a7afcd0dfd46ff733996d939f17f4f3feac9f0d1c632be3523e51ebd9.es.png)
+![GDD = 16 + 12 dividido por 2, todo menos 10, dando un resultado de 4](../../../../../translated_images/es/gdd-calculation-corn.64a58b7a7afcd0dfd46ff733996d939f17f4f3feac9f0d1c632be3523e51ebd9.png)
 
 El maíz recibió 4 GDD ese día. Suponiendo una variedad de maíz que necesita 800 GDD para madurar, necesitará otros 796 GDD para alcanzar la madurez.
 
@@ -135,7 +135,7 @@ Esto tiene un gran impacto en la mano de obra en una granja y corre el riesgo de
 
 Al recopilar datos de temperatura usando un dispositivo IoT, un agricultor puede ser notificado automáticamente cuando las plantas están cerca de la madurez. Una arquitectura típica para esto es que los dispositivos IoT midan la temperatura y luego publiquen estos datos de telemetría a través de Internet usando algo como MQTT. El código del servidor escucha estos datos y los guarda en algún lugar, como en una base de datos. Esto significa que los datos pueden analizarse más tarde, como un trabajo nocturno para calcular los GDD del día, sumar los GDD totales para cada cultivo hasta ahora y alertar si una planta está cerca de la madurez.
 
-![Los datos de telemetría se envían a un servidor y luego se guardan en una base de datos](../../../../../translated_images/save-telemetry-database.ddc9c6bea0c5ba39.es.png)
+![Los datos de telemetría se envían a un servidor y luego se guardan en una base de datos](../../../../../translated_images/es/save-telemetry-database.ddc9c6bea0c5ba39.webp)
 
 El código del servidor también puede complementar los datos agregando información adicional. Por ejemplo, el dispositivo IoT puede publicar un identificador para indicar qué dispositivo es, y el código del servidor puede usar esto para buscar la ubicación del dispositivo y qué cultivos está monitoreando. También puede agregar datos básicos como la hora actual, ya que algunos dispositivos IoT no tienen el hardware necesario para llevar un registro preciso del tiempo o requieren código adicional para leer la hora actual a través de Internet.
 
@@ -222,7 +222,7 @@ Este código abre el archivo CSV y luego agrega una nueva fila al final. La fila
 
     
 > 💁 Si estás utilizando un dispositivo IoT virtual, selecciona la casilla de aleatoriedad y establece un rango para evitar obtener la misma temperatura cada vez que se devuelva el valor de temperatura.
-    ![Selecciona la casilla de aleatoriedad y establece un rango](../../../../../translated_images/select-the-random-checkbox-and-set-a-range.32cf4bc7c12e797f.es.png) 
+    ![Selecciona la casilla de aleatoriedad y establece un rango](../../../../../translated_images/es/select-the-random-checkbox-and-set-a-range.32cf4bc7c12e797f.webp) 
 
     > 💁 Si deseas ejecutarlo durante todo un día, debes asegurarte de que la computadora donde se ejecuta tu código de servidor no entre en modo de suspensión, ya sea cambiando la configuración de energía o ejecutando algo como [este script de Python para mantener el sistema activo](https://github.com/jaqsparow/keep-system-active).
     
@@ -242,7 +242,7 @@ Los pasos para hacerlo manualmente son:
 
 Por ejemplo, si la temperatura más alta del día es 25°C y la más baja es 12°C:
 
-![GDD = 25 + 12 dividido por 2, luego resta 10 del resultado dando 8.5](../../../../../translated_images/gdd-calculation-strawberries.59f57db94b22adb8ff6efb951ace33af104a1c6ccca3ffb0f8169c14cb160c90.es.png)
+![GDD = 25 + 12 dividido por 2, luego resta 10 del resultado dando 8.5](../../../../../translated_images/es/gdd-calculation-strawberries.59f57db94b22adb8ff6efb951ace33af104a1c6ccca3ffb0f8169c14cb160c90.png)
 
 * 25 + 12 = 37
 * 37 / 2 = 18.5

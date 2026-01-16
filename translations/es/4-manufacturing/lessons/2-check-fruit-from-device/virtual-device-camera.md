@@ -43,11 +43,11 @@ Agrega la cámara a la aplicación CounterFit.
 
     1. Selecciona el botón **Add** para crear la cámara.
 
-    ![La configuración de la cámara](../../../../../translated_images/counterfit-create-camera.a5de97f59c0bd3cbe0416d7e89a3cfe86d19fbae05c641c53a91286412af0a34.es.png)
+    ![La configuración de la cámara](../../../../../translated_images/es/counterfit-create-camera.a5de97f59c0bd3cbe0416d7e89a3cfe86d19fbae05c641c53a91286412af0a34.png)
 
     La cámara será creada y aparecerá en la lista de sensores.
 
-    ![La cámara creada](../../../../../translated_images/counterfit-camera.001ec52194c8ee5d3f617173da2c79e1df903d10882adc625cbfc493525125d4.es.png)
+    ![La cámara creada](../../../../../translated_images/es/counterfit-camera.001ec52194c8ee5d3f617173da2c79e1df903d10882adc625cbfc493525125d4.png)
 
 ## Programar la cámara
 
@@ -112,7 +112,7 @@ Programa el dispositivo.
 
 1. Configura la imagen que la cámara en CounterFit capturará. Puedes establecer la *Source* como *File*, luego subir un archivo de imagen, o establecer la *Source* como *WebCam*, y las imágenes se capturarán desde tu cámara web. Asegúrate de seleccionar el botón **Set** después de elegir una imagen o tu cámara web.
 
-    ![CounterFit con un archivo configurado como fuente de imagen y una cámara web mostrando a una persona sosteniendo un plátano en la vista previa de la cámara](../../../../../translated_images/counterfit-camera-options.eb3bd5150a8e7dffbf24bc5bcaba0cf2cdef95fbe6bbe393695d173817d6b8df.es.png)
+    ![CounterFit con un archivo configurado como fuente de imagen y una cámara web mostrando a una persona sosteniendo un plátano en la vista previa de la cámara](../../../../../translated_images/es/counterfit-camera-options.eb3bd5150a8e7dffbf24bc5bcaba0cf2cdef95fbe6bbe393695d173817d6b8df.png)
 
 1. Se capturará una imagen y se guardará como `image.jpg` en la carpeta actual. Verás este archivo en el explorador de VS Code. Selecciona el archivo para ver la imagen. Si necesita rotación, actualiza la línea `camera.rotation = 0` según sea necesario y toma otra foto.
 

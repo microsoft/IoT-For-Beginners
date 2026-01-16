@@ -45,11 +45,11 @@ Lisää LED CounterFit-sovellukseen.
 
     1. Valitse **Add**-painike luodaksesi LED Pin 5:lle.
 
-    ![LED-asetukset](../../../../../translated_images/counterfit-create-led.ba9db1c9b8c622a635d6dfae5cdc4e70c2b250635bd4f0601c6cf0bd22b7ba46.fi.png)
+    ![LED-asetukset](../../../../../translated_images/fi/counterfit-create-led.ba9db1c9b8c622a635d6dfae5cdc4e70c2b250635bd4f0601c6cf0bd22b7ba46.png)
 
     LED luodaan ja se ilmestyy toimilaitteiden listaan.
 
-    ![Luotu LED](../../../../../translated_images/counterfit-led.c0ab02de6d256ad84d9bad4d67a7faa709f0ea83e410cfe9b5561ef0cef30b1c.fi.png)
+    ![Luotu LED](../../../../../translated_images/fi/counterfit-led.c0ab02de6d256ad84d9bad4d67a7faa709f0ea83e410cfe9b5561ef0cef30b1c.png)
 
     Kun LED on luotu, voit muuttaa sen väriä *Color*-valitsimella. Valitse **Set**-painike muuttaaksesi väriä valinnan jälkeen.
 

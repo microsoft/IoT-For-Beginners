@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Tartsd biztonságban a növényedet
 
-![A lecke vázlatos áttekintése](../../../../../translated_images/lesson-10.829c86b80b9403bb770929ee553a1d293afe50dc23121aaf9be144673ae012cc.hu.jpg)
+![A lecke vázlatos áttekintése](../../../../../translated_images/hu/lesson-10.829c86b80b9403bb770929ee553a1d293afe50dc23121aaf9be144673ae012cc.jpg)
 
 > Vázlatrajz: [Nitya Narasimhan](https://github.com/nitya). Kattints a képre a nagyobb verzióért.
 
@@ -61,11 +61,11 @@ Ezek valós életbeli forgatókönyvek, és gyakran előfordulnak. Néhány pél
 
 Amikor egy eszköz csatlakozik egy IoT szolgáltatáshoz, egy azonosítót használ, hogy azonosítsa magát. A probléma az, hogy ez az azonosító klónozható - egy hacker beállíthat egy rosszindulatú eszközt, amely ugyanazt az azonosítót használja, mint egy valódi eszköz, de hamis adatokat küld.
 
-![Mind a valódi, mind a rosszindulatú eszköz ugyanazt az azonosítót használhatja telemetria küldésére](../../../../../translated_images/iot-device-and-hacked-device-connecting.e0671675df74d6d99eb1dedb5a670e606f698efa6202b1ad4c8ae548db299cc6.hu.png)
+![Mind a valódi, mind a rosszindulatú eszköz ugyanazt az azonosítót használhatja telemetria küldésére](../../../../../translated_images/hu/iot-device-and-hacked-device-connecting.e0671675df74d6d99eb1dedb5a670e606f698efa6202b1ad4c8ae548db299cc6.png)
 
 A megoldás az, hogy az elküldött adatokat egy kódolt formátumba alakítjuk, egy olyan érték segítségével, amelyet csak az eszköz és a felhő ismer. Ezt a folyamatot *titkosításnak* nevezzük, és az adat titkosításához használt értéket *titkosítási kulcsnak* hívjuk.
 
-![Ha titkosítást használunk, akkor csak a titkosított üzeneteket fogadják el, a többit elutasítják](../../../../../translated_images/iot-device-and-hacked-device-connecting-encryption.5941aff601fc978f979e46f2849b573564eeb4a4dc5b52f669f62745397492fb.hu.png)
+![Ha titkosítást használunk, akkor csak a titkosított üzeneteket fogadják el, a többit elutasítják](../../../../../translated_images/hu/iot-device-and-hacked-device-connecting-encryption.5941aff601fc978f979e46f2849b573564eeb4a4dc5b52f669f62745397492fb.png)
 
 A felhőszolgáltatás ezután visszaalakítja az adatokat olvasható formátumba, egy *dekódolási kulcs* segítségével. Ha a titkosított üzenetet nem lehet dekódolni a kulccsal, az eszközt feltörték, és az üzenetet elutasítják.
 
@@ -97,15 +97,15 @@ A titkosításnak két típusa van - szimmetrikus és aszimmetrikus.
 
 **Szimmetrikus** titkosítás ugyanazt a kulcsot használja az adatok titkosítására és dekódolására. Mind a küldőnek, mind a fogadónak ismernie kell ugyanazt a kulcsot. Ez a legkevésbé biztonságos típus, mivel a kulcsot valahogy meg kell osztani. Ahhoz, hogy a küldő titkosított üzenetet küldjön a címzettnek, először el kell küldenie a címzettnek a kulcsot.
 
-![A szimmetrikus kulcs titkosítás ugyanazt a kulcsot használja az üzenet titkosítására és dekódolására](../../../../../translated_images/send-message-symmetric-key.a2e8ad0d495896ff.hu.png)
+![A szimmetrikus kulcs titkosítás ugyanazt a kulcsot használja az üzenet titkosítására és dekódolására](../../../../../translated_images/hu/send-message-symmetric-key.a2e8ad0d495896ff.png)
 
 Ha a kulcsot ellopják az átvitel során, vagy a küldőt vagy a címzettet feltörik, és megtalálják a kulcsot, a titkosítás feltörhető.
 
-![A szimmetrikus kulcs titkosítás csak akkor biztonságos, ha a hacker nem szerzi meg a kulcsot - ha igen, elfoghatja és dekódolhatja az üzenetet](../../../../../translated_images/send-message-symmetric-key-hacker.e7cb53db1707adfb.hu.png)
+![A szimmetrikus kulcs titkosítás csak akkor biztonságos, ha a hacker nem szerzi meg a kulcsot - ha igen, elfoghatja és dekódolhatja az üzenetet](../../../../../translated_images/hu/send-message-symmetric-key-hacker.e7cb53db1707adfb.png)
 
 **Aszimmetrikus** titkosítás 2 kulcsot használ - egy titkosítási kulcsot és egy dekódolási kulcsot, amelyeket nyilvános/privát kulcspárnak nevezünk. A nyilvános kulcsot az üzenet titkosítására használják, de nem lehet vele dekódolni, a privát kulcsot az üzenet dekódolására használják, de nem lehet vele titkosítani.
 
-![Az aszimmetrikus titkosítás különböző kulcsot használ az üzenet titkosítására és dekódolására. A titkosítási kulcsot elküldik az üzenetküldőknek, hogy titkosítsák az üzenetet, mielőtt elküldik a címzettnek, aki birtokolja a kulcsokat](../../../../../translated_images/send-message-asymmetric.7abe327c62615b8c.hu.png)
+![Az aszimmetrikus titkosítás különböző kulcsot használ az üzenet titkosítására és dekódolására. A titkosítási kulcsot elküldik az üzenetküldőknek, hogy titkosítsák az üzenetet, mielőtt elküldik a címzettnek, aki birtokolja a kulcsokat](../../../../../translated_images/hu/send-message-asymmetric.7abe327c62615b8c.png)
 
 A címzett megosztja a nyilvános kulcsát, és a küldő ezt használja az üzenet titkosítására. Miután az üzenetet elküldték, a címzett a privát kulcsával dekódolja azt. Az aszimmetrikus titkosítás biztonságosabb, mivel a privát kulcsot a címzett titokban tartja, és sosem osztja meg. Bárki megkaphatja a nyilvános kulcsot, mivel az csak üzenetek titkosítására használható.
 
@@ -157,7 +157,7 @@ Ezek a tanúsítványok számos mezőt tartalmaznak, például hogy kitől szár
 
 X.509 tanúsítványok használatakor mind a küldőnek, mind a címzettnek megvan a saját nyilvános és magánkulcsa, valamint mindkettőjüknek van X.509 tanúsítványa, amely tartalmazza a nyilvános kulcsot. Ezután valamilyen módon kicserélik az X.509 tanúsítványaikat, egymás nyilvános kulcsait használva titkosítják az általuk küldött adatokat, és a saját magánkulcsukkal dekódolják a kapott adatokat.
 
-![A nyilvános kulcs megosztása helyett megoszthatsz egy tanúsítványt. A tanúsítvány használója ellenőrizheti, hogy az tőled származik-e, a tanúsítványt aláíró tanúsítványkiadó hatóságnál.](../../../../../translated_images/send-message-certificate.9cc576ac1e46b76e.hu.png)
+![A nyilvános kulcs megosztása helyett megoszthatsz egy tanúsítványt. A tanúsítvány használója ellenőrizheti, hogy az tőled származik-e, a tanúsítványt aláíró tanúsítványkiadó hatóságnál.](../../../../../translated_images/hu/send-message-certificate.9cc576ac1e46b76e.png)
 
 Az X.509 tanúsítványok egyik nagy előnye, hogy megoszthatók az eszközök között. Létrehozhatsz egy tanúsítványt, feltöltheted az IoT Hubba, és ezt használhatod az összes eszközödhöz. Minden eszköznek csak a magánkulcsot kell ismernie, hogy dekódolhassa az IoT Hubtól kapott üzeneteket.
 

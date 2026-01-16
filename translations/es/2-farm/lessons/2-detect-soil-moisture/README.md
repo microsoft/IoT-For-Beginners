@@ -22,7 +22,7 @@ I²C tiene un bus compuesto por 2 cables principales, junto con 2 cables de alim
 | VCC | Colector común de voltaje | La fuente de alimentación para los dispositivos. Este cable está conectado a los cables SDA y SCL para proporcionarles energía a través de una resistencia pull-up que apaga la señal cuando ningún dispositivo actúa como controlador. |
 | GND | Tierra | Proporciona una tierra común para el circuito eléctrico. |
 
-![Bus I2C con 3 dispositivos conectados a los cables SDA y SCL, compartiendo un cable de tierra común](../../../../../translated_images/i2c.83da845dde02256bdd462dbe0d5145461416b74930571b89d1ae142841eeb584.es.png)
+![Bus I2C con 3 dispositivos conectados a los cables SDA y SCL, compartiendo un cable de tierra común](../../../../../translated_images/es/i2c.83da845dde02256bdd462dbe0d5145461416b74930571b89d1ae142841eeb584.png)
 
 Para enviar datos, un dispositivo emitirá una condición de inicio para indicar que está listo para enviar datos. Luego se convertirá en el controlador. El controlador envía la dirección del dispositivo con el que desea comunicarse, junto con la indicación de si quiere leer o escribir datos. Después de que los datos han sido transmitidos, el controlador envía una condición de parada para indicar que ha terminado. Después de esto, otro dispositivo puede convertirse en el controlador y enviar o recibir datos.
 
@@ -37,7 +37,7 @@ UART implica circuitos físicos que permiten que dos dispositivos se comuniquen.
 * El dispositivo 1 transmite datos desde su pin Tx, que son recibidos por el dispositivo 2 en su pin Rx.
 * El dispositivo 1 recibe datos en su pin Rx que son transmitidos por el dispositivo 2 desde su pin Tx.
 
-![UART con el pin Tx de un chip conectado al pin Rx de otro, y viceversa](../../../../../translated_images/uart.d0dbd3fb9e3728c6.es.png)
+![UART con el pin Tx de un chip conectado al pin Rx de otro, y viceversa](../../../../../translated_images/es/uart.d0dbd3fb9e3728c6.webp)
 
 > 🎓 Los datos se envían un bit a la vez, y esto se conoce como comunicación *serial*. La mayoría de los sistemas operativos y microcontroladores tienen *puertos seriales*, es decir, conexiones que pueden enviar y recibir datos seriales disponibles para tu código.
 
@@ -66,7 +66,7 @@ Los controladores SPI utilizan 3 cables, junto con 1 cable adicional por perifé
 | SCLK | Reloj serial | Este cable envía una señal de reloj a una velocidad establecida por el controlador. |
 | CS   | Selección de chip | El controlador tiene múltiples cables, uno por periférico, y cada cable se conecta al cable CS en el periférico correspondiente. |
 
-![SPI con un controlador y dos periféricos](../../../../../translated_images/spi.297431d6f98b386b.es.png)
+![SPI con un controlador y dos periféricos](../../../../../translated_images/es/spi.297431d6f98b386b.webp)
 
 El cable CS se utiliza para activar un periférico a la vez, comunicándose a través de los cables COPI y CIPO. Cuando el controlador necesita cambiar de periférico, desactiva el cable CS conectado al periférico actualmente activo, y luego activa el cable conectado al periférico con el que desea comunicarse a continuación.
 
@@ -127,13 +127,13 @@ La humedad del suelo se mide utilizando contenido de agua gravimétrico o volum�
 
 Los sensores de humedad del suelo miden resistencia eléctrica o capacitancia: esto no solo varía según la humedad del suelo, sino también según el tipo de suelo, ya que los componentes en el suelo pueden cambiar sus características eléctricas. Idealmente, los sensores deben calibrarse, es decir, tomar lecturas del sensor y compararlas con mediciones obtenidas utilizando un enfoque más científico. Por ejemplo, un laboratorio puede calcular la humedad gravimétrica del suelo utilizando muestras de un campo específico tomadas unas pocas veces al año, y estos números se utilizan para calibrar el sensor, igualando la lectura del sensor con la humedad gravimétrica del suelo.
 
-![Un gráfico de voltaje vs contenido de humedad del suelo](../../../../../translated_images/soil-moisture-to-voltage.df86d80cda158700.es.png)
+![Un gráfico de voltaje vs contenido de humedad del suelo](../../../../../translated_images/es/soil-moisture-to-voltage.df86d80cda158700.webp)
 
 El gráfico anterior muestra cómo calibrar un sensor. El voltaje se captura para una muestra de suelo que luego se mide en un laboratorio comparando el peso húmedo con el peso seco (midiendo el peso húmedo, luego secándolo en un horno y midiendo el peso seco). Una vez que se han tomado algunas lecturas, esto puede graficarse y ajustarse una línea a los puntos. Esta línea luego puede usarse para convertir las lecturas del sensor de humedad del suelo tomadas por un dispositivo IoT en mediciones reales de humedad del suelo.
 
 💁 Para los sensores de humedad del suelo resistivos, el voltaje aumenta a medida que aumenta la humedad del suelo. Para los sensores de humedad del suelo capacitivos, el voltaje disminuye a medida que aumenta la humedad del suelo, por lo que los gráficos para estos se inclinarían hacia abajo, no hacia arriba.
 
-![Un valor de humedad del suelo interpolado desde el gráfico](../../../../../translated_images/soil-moisture-to-voltage-with-reading.681cb3e1f8b68caf.es.png)
+![Un valor de humedad del suelo interpolado desde el gráfico](../../../../../translated_images/es/soil-moisture-to-voltage-with-reading.681cb3e1f8b68caf.webp)
 
 El gráfico anterior muestra una lectura de voltaje de un sensor de humedad del suelo, y al seguir esa lectura hasta la línea en el gráfico, se puede calcular la humedad real del suelo.
 

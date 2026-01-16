@@ -15,11 +15,11 @@ CO_OP_TRANSLATOR_METADATA:
 
 Wio Terminal به‌طور پیش‌فرض دارای یک میکروفون داخلی است که می‌توان از آن برای ضبط صدا جهت تشخیص گفتار استفاده کرد.
 
-![میکروفون در Wio Terminal](../../../../../translated_images/wio-mic.3f8c843dbe8ad917.fa.png)
+![میکروفون در Wio Terminal](../../../../../translated_images/fa/wio-mic.3f8c843dbe8ad917.png)
 
 برای اضافه کردن بلندگو، می‌توانید از [ReSpeaker 2-Mics Pi Hat](https://www.seeedstudio.com/ReSpeaker-2-Mics-Pi-HAT.html) استفاده کنید. این یک برد خارجی است که شامل دو میکروفون MEMS، یک اتصال‌دهنده بلندگو و یک سوکت هدفون است.
 
-![ReSpeaker 2-Mics Pi Hat](../../../../../translated_images/respeaker.f5d19d1c6b14ab16.fa.png)
+![ReSpeaker 2-Mics Pi Hat](../../../../../translated_images/fa/respeaker.f5d19d1c6b14ab16.png)
 
 شما نیاز دارید که یا هدفون، یک بلندگو با جک 3.5 میلی‌متری، یا یک بلندگو با اتصال JST مانند [Mono Enclosed Speaker - 2W 6 Ohm](https://www.seeedstudio.com/Mono-Enclosed-Speaker-2W-6-Ohm-p-2832.html) اضافه کنید.
 
@@ -35,7 +35,7 @@ Wio Terminal به‌طور پیش‌فرض دارای یک میکروفون دا
 
     پین‌ها باید به این صورت متصل شوند:
 
-    ![یک دیاگرام پین](../../../../../translated_images/wio-respeaker-wiring-0.767f80aa65081038.fa.png)
+    ![یک دیاگرام پین](../../../../../translated_images/fa/wio-respeaker-wiring-0.767f80aa65081038.png)
 
 1. ReSpeaker و Wio Terminal را با سوکت‌های GPIO رو به بالا و در سمت چپ قرار دهید.
 
@@ -43,33 +43,33 @@ Wio Terminal به‌طور پیش‌فرض دارای یک میکروفون دا
 
 1. این کار را تا انتهای سوکت‌های GPIO در سمت چپ ادامه دهید. مطمئن شوید که پین‌ها به‌طور محکم متصل شده‌اند.
 
-    ![ReSpeaker با پین‌های سمت چپ متصل به پین‌های سمت چپ Wio Terminal](../../../../../translated_images/wio-respeaker-wiring-1.8d894727f2ba2400.fa.png)
+    ![ReSpeaker با پین‌های سمت چپ متصل به پین‌های سمت چپ Wio Terminal](../../../../../translated_images/fa/wio-respeaker-wiring-1.8d894727f2ba2400.png)
 
-    ![ReSpeaker با پین‌های سمت چپ متصل به پین‌های سمت چپ Wio Terminal](../../../../../translated_images/wio-respeaker-wiring-2.329e1cbd306e754f.fa.png)
+    ![ReSpeaker با پین‌های سمت چپ متصل به پین‌های سمت چپ Wio Terminal](../../../../../translated_images/fa/wio-respeaker-wiring-2.329e1cbd306e754f.png)
 
     > 💁 اگر کابل‌های جامپر شما به صورت روبان متصل هستند، همه را کنار هم نگه دارید - این کار اتصال کابل‌ها به ترتیب را آسان‌تر می‌کند.
 
 1. این فرآیند را با استفاده از سوکت‌های GPIO سمت راست در ReSpeaker و Wio Terminal تکرار کنید. این کابل‌ها باید از اطراف کابل‌های موجود عبور کنند.
 
-    ![ReSpeaker با پین‌های سمت راست متصل به پین‌های سمت راست Wio Terminal](../../../../../translated_images/wio-respeaker-wiring-3.75b0be447e2fa930.fa.png)
+    ![ReSpeaker با پین‌های سمت راست متصل به پین‌های سمت راست Wio Terminal](../../../../../translated_images/fa/wio-respeaker-wiring-3.75b0be447e2fa930.png)
 
-    ![ReSpeaker با پین‌های سمت راست متصل به پین‌های سمت راست Wio Terminal](../../../../../translated_images/wio-respeaker-wiring-4.aa9cd434d8779437.fa.png)
+    ![ReSpeaker با پین‌های سمت راست متصل به پین‌های سمت راست Wio Terminal](../../../../../translated_images/fa/wio-respeaker-wiring-4.aa9cd434d8779437.png)
 
     > 💁 اگر کابل‌های جامپر شما به صورت روبان متصل هستند، آن‌ها را به دو روبان تقسیم کنید. یکی را از هر طرف کابل‌های موجود عبور دهید.
 
     > 💁 می‌توانید از نوار چسب برای نگه داشتن پین‌ها در یک بلوک استفاده کنید تا از بیرون آمدن آن‌ها هنگام اتصال جلوگیری کنید.
     >
-    > ![پین‌ها با نوار چسب ثابت شده‌اند](../../../../../translated_images/wio-respeaker-wiring-5.af117c20acf622f3.fa.png)
+    > ![پین‌ها با نوار چسب ثابت شده‌اند](../../../../../translated_images/fa/wio-respeaker-wiring-5.af117c20acf622f3.png)
 
 1. شما نیاز دارید که یک بلندگو اضافه کنید.
 
     * اگر از بلندگویی با کابل JST استفاده می‌کنید، آن را به پورت JST در ReSpeaker متصل کنید.
 
-      ![یک بلندگو که با کابل JST به ReSpeaker متصل شده است](../../../../../translated_images/respeaker-jst-speaker.a441d177809df945.fa.png)
+      ![یک بلندگو که با کابل JST به ReSpeaker متصل شده است](../../../../../translated_images/fa/respeaker-jst-speaker.a441d177809df945.png)
 
     * اگر از بلندگویی با جک 3.5 میلی‌متری یا هدفون استفاده می‌کنید، آن را به سوکت جک 3.5 میلی‌متری وارد کنید.
 
-      ![یک بلندگو که از طریق سوکت جک 3.5 میلی‌متری به ReSpeaker متصل شده است](../../../../../translated_images/respeaker-35mm-speaker.ad79ef4f128c7751.fa.png)
+      ![یک بلندگو که از طریق سوکت جک 3.5 میلی‌متری به ReSpeaker متصل شده است](../../../../../translated_images/fa/respeaker-35mm-speaker.ad79ef4f128c7751.png)
 
 ### وظیفه - تنظیم کارت SD
 
@@ -79,7 +79,7 @@ Wio Terminal به‌طور پیش‌فرض دارای یک میکروفون دا
 
 1. کارت SD را در اسلات کارت SD در سمت چپ Wio Terminal، درست زیر دکمه پاور وارد کنید. مطمئن شوید که کارت کاملاً وارد شده و کلیک می‌کند - ممکن است به یک ابزار نازک یا یک کارت SD دیگر برای فشار دادن کامل آن نیاز داشته باشید.
 
-    ![وارد کردن کارت SD به اسلات کارت SD زیر کلید پاور](../../../../../translated_images/wio-sd-card.acdcbe322fa4ee7f.fa.png)
+    ![وارد کردن کارت SD به اسلات کارت SD زیر کلید پاور](../../../../../translated_images/fa/wio-sd-card.acdcbe322fa4ee7f.png)
 
     > 💁 برای خارج کردن کارت SD، باید کمی آن را فشار دهید تا خارج شود. برای این کار به یک ابزار نازک مانند پیچ‌گوشتی تخت یا یک کارت SD دیگر نیاز دارید.
 

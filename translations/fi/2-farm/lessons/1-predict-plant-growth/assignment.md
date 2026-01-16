@@ -42,7 +42,7 @@ Kun sinulla on lämpötiladataa, voit käyttää tämän repositorion Jupyter No
 
     Jupyter käynnistyy ja avaa notebookin selaimessasi. Käy läpi notebookin ohjeet visualisoidaksesi mitatut lämpötilat ja laskeaksesi kasvukauden astepäivät (GDD).
 
-    ![Jupyter Notebook](../../../../../translated_images/gdd-jupyter-notebook.c5b52cf21094f158a61f47f455490fd95f1729777ff90861a4521820bf354cdc.fi.png)
+    ![Jupyter Notebook](../../../../../translated_images/fi/gdd-jupyter-notebook.c5b52cf21094f158a61f47f455490fd95f1729777ff90861a4521820bf354cdc.png)
 
 ## Arviointikriteerit
 

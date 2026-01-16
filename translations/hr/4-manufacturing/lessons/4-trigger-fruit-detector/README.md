@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Pokretanje detekcije kvalitete voća pomoću senzora
 
-![Pregled lekcije u obliku sketchnotea](../../../../../translated_images/lesson-18.92c32ed1d354caa5a54baa4032cf0b172d4655e8e326ad5d46c558a0def15365.hr.jpg)
+![Pregled lekcije u obliku sketchnotea](../../../../../translated_images/hr/lesson-18.92c32ed1d354caa5a54baa4032cf0b172d4655e8e326ad5d46c558a0def15365.jpg)
 
 > Sketchnote autorice [Nitya Narasimhan](https://github.com/nitya). Kliknite na sliku za veću verziju.
 
@@ -48,7 +48,7 @@ IoT aplikacije mogu se opisati kao *stvari* (uređaji) koje šalju podatke koji 
 
 ### Referentna IoT arhitektura
 
-![Referentna IoT arhitektura](../../../../../translated_images/iot-reference-architecture.2278b98b55c6d4e89bde18eada3688d893861d43507641804dd2f9d3079cfaa0.hr.png)
+![Referentna IoT arhitektura](../../../../../translated_images/hr/iot-reference-architecture.2278b98b55c6d4e89bde18eada3688d893861d43507641804dd2f9d3079cfaa0.png)
 
 Gornji dijagram prikazuje referentnu IoT arhitekturu.
 
@@ -58,7 +58,7 @@ Gornji dijagram prikazuje referentnu IoT arhitekturu.
 * **Uvidi** dolaze iz serverless aplikacija ili iz analize pohranjenih podataka.
 * **Akcije** mogu biti naredbe poslane uređajima ili vizualizacija podataka koja omogućuje ljudima donošenje odluka.
 
-![Referentna IoT arhitektura](../../../../../translated_images/iot-reference-architecture-azure.0b8d2161af924cb18ae48a8558a19541cca47f27264851b5b7e56d7b8bb372ac.hr.png)
+![Referentna IoT arhitektura](../../../../../translated_images/hr/iot-reference-architecture-azure.0b8d2161af924cb18ae48a8558a19541cca47f27264851b5b7e56d7b8bb372ac.png)
 
 Gornji dijagram prikazuje neke od komponenti i usluga obrađenih u ovim lekcijama i kako se povezuju u referentnoj IoT arhitekturi.
 
@@ -98,7 +98,7 @@ Morate izgraditi sustav gdje se voće detektira čim stigne na pokretnu traku, z
 
 ### Prototipiranje aplikacije
 
-![Referentna IoT arhitektura za provjeru kvalitete voća](../../../../../translated_images/iot-reference-architecture-fruit-quality.cc705f121c3b6fa71c800d9630935ac34bc08223a04601e35f41d5e9b5dd5207.hr.png)
+![Referentna IoT arhitektura za provjeru kvalitete voća](../../../../../translated_images/hr/iot-reference-architecture-fruit-quality.cc705f121c3b6fa71c800d9630935ac34bc08223a04601e35f41d5e9b5dd5207.png)
 
 Gornji dijagram prikazuje referentnu arhitekturu za ovu prototip aplikaciju.
 
@@ -115,7 +115,7 @@ Za prototip ćete sve implementirati na jednom uređaju. Ako koristite mikrokont
 
 IoT uređaj treba neku vrstu okidača koji će označiti kada je voće spremno za klasifikaciju. Jedan od okidača mogao bi biti mjerenje kada je voće na pravom mjestu na pokretnoj traci mjerenjem udaljenosti do senzora.
 
-![Senzori blizine šalju laserske zrake prema objektima poput banana i mjere vrijeme povratka zrake](../../../../../translated_images/proximity-sensor.f5cd752c77fb62fe.hr.png)
+![Senzori blizine šalju laserske zrake prema objektima poput banana i mjere vrijeme povratka zrake](../../../../../translated_images/hr/proximity-sensor.f5cd752c77fb62fe.png)
 
 Senzori blizine mogu se koristiti za mjerenje udaljenosti od senzora do objekta. Obično emitiraju zraku elektromagnetskog zračenja, poput laserske zrake ili infracrvenog svjetla, a zatim detektiraju zračenje koje se odbija od objekta. Vrijeme između slanja laserske zrake i povratka signala može se koristiti za izračunavanje udaljenosti do senzora.
 
@@ -133,7 +133,7 @@ Prođite kroz odgovarajući vodič za korištenje senzora blizine za detekciju o
 
 Prototip detektora voća ima više komponenti koje međusobno komuniciraju.
 
-![Komponente koje međusobno komuniciraju](../../../../../translated_images/fruit-quality-detector-message-flow.adf2a65da8fd8741ac7af11361574de89adc126785d67606bb4d2ec00467e380.hr.png)
+![Komponente koje međusobno komuniciraju](../../../../../translated_images/hr/fruit-quality-detector-message-flow.adf2a65da8fd8741ac7af11361574de89adc126785d67606bb4d2ec00467e380.png)
 
 * Senzor blizine mjeri udaljenost do komada voća i šalje to u IoT Hub
 * Naredba za upravljanje kamerom dolazi iz IoT Hub-a prema uređaju s kamerom

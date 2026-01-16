@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Support multiple languages
 
-![A sketchnote overview of this lesson](../../../../../translated_images/lesson-24.4246968ed058510ab275052e87ef9aa89c7b2f938915d103c605c04dc6cd5bb7.en.jpg)
+![A sketchnote overview of this lesson](../../../../../translated_images/en/lesson-24.4246968ed058510ab275052e87ef9aa89c7b2f938915d103c605c04dc6cd5bb7.jpg)
 
 > Sketchnote by [Nitya Narasimhan](https://github.com/nitya). Click the image for a larger version.
 
@@ -83,7 +83,7 @@ Several AI services can be integrated into applications to translate speech and 
 
 ### Cognitive services Speech service
 
-![The speech service logo](../../../../../translated_images/azure-speech-logo.a1f08c4befb0159f2cb5d692d3baf5b599e7b44759d316da907bda1508f46a4a.en.png)
+![The speech service logo](../../../../../translated_images/en/azure-speech-logo.a1f08c4befb0159f2cb5d692d3baf5b599e7b44759d316da907bda1508f46a4a.png)
 
 The speech service you've used in previous lessons includes translation capabilities for speech recognition. When recognizing speech, you can request the text in the original language and other languages.
 
@@ -91,7 +91,7 @@ The speech service you've used in previous lessons includes translation capabili
 
 ### Cognitive services Translator service
 
-![The translator service logo](../../../../../translated_images/azure-translator-logo.c6ed3a4a433edfd2f11577eca105412c50b8396b194cbbd730723dd1d0793bcd.en.png)
+![The translator service logo](../../../../../translated_images/en/azure-translator-logo.c6ed3a4a433edfd2f11577eca105412c50b8396b194cbbd730723dd1d0793bcd.png)
 
 The Translator service is a dedicated translation tool that can translate text from one language to one or more target languages. It offers additional features like profanity masking and custom translations for specific terms or phrases.
 
@@ -130,7 +130,7 @@ For this lesson, you'll need a Translator resource. You'll use the REST API to t
 
 Ideally, your application should support as many languages as possible, from speech recognition to language understanding to responding with speech. Translation services can significantly speed up development.
 
-![A smart timer architecture translating Japanese to English, processing in English then translating back to Japanese](../../../../../translated_images/translated-smart-timer.08ac20057fdc5c37.en.png)
+![A smart timer architecture translating Japanese to English, processing in English then translating back to Japanese](../../../../../translated_images/en/translated-smart-timer.08ac20057fdc5c37.webp)
 
 Imagine building a smart timer that operates entirely in English—understanding spoken English, processing it, and responding in English. To add support for Japanese, you could translate spoken Japanese to English text, process it in English, and then translate the response back to Japanese before speaking it. This approach allows you to quickly add Japanese support while planning for full end-to-end support later.
 

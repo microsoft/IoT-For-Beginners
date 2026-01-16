@@ -76,7 +76,7 @@ CO_OP_TRANSLATOR_METADATA:
 
     תוכל לראות את התמונה שצולמה ואת הערכים הללו בלשונית **Predictions** ב-Custom Vision.
 
-    ![4 קופסאות של רסק עגבניות על מדף עם תחזיות של 35.8%, 33.5%, 25.7% ו-16.6%](../../../../../translated_images/custom-vision-stock-prediction.942266ab1bcca3410ecdf23643b9f5f570cfab2345235074e24c51f285777613.he.png)
+    ![4 קופסאות של רסק עגבניות על מדף עם תחזיות של 35.8%, 33.5%, 25.7% ו-16.6%](../../../../../translated_images/he/custom-vision-stock-prediction.942266ab1bcca3410ecdf23643b9f5f570cfab2345235074e24c51f285777613.png)
 
 > 💁 תוכל למצוא את הקוד הזה בתיקיות [code-detect/pi](../../../../../5-retail/lessons/2-check-stock-device/code-detect/pi) או [code-detect/virtual-iot-device](../../../../../5-retail/lessons/2-check-stock-device/code-detect/virtual-iot-device).
 

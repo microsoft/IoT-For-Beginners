@@ -43,11 +43,11 @@ Dodajte kameru u aplikaciju CounterFit.
 
     1. Odaberite gumb **Add** za kreiranje kamere.
 
-    ![Postavke kamere](../../../../../translated_images/counterfit-create-camera.a5de97f59c0bd3cbe0416d7e89a3cfe86d19fbae05c641c53a91286412af0a34.hr.png)
+    ![Postavke kamere](../../../../../translated_images/hr/counterfit-create-camera.a5de97f59c0bd3cbe0416d7e89a3cfe86d19fbae05c641c53a91286412af0a34.png)
 
     Kamera će biti kreirana i pojavit će se na popisu senzora.
 
-    ![Kreirana kamera](../../../../../translated_images/counterfit-camera.001ec52194c8ee5d3f617173da2c79e1df903d10882adc625cbfc493525125d4.hr.png)
+    ![Kreirana kamera](../../../../../translated_images/hr/counterfit-camera.001ec52194c8ee5d3f617173da2c79e1df903d10882adc625cbfc493525125d4.png)
 
 ## Programiranje kamere
 
@@ -112,7 +112,7 @@ Programirajte uređaj.
 
 1. Konfigurirajte sliku koju će kamera u CounterFit snimiti. Možete postaviti *Source* na *File*, zatim učitati datoteku slike, ili postaviti *Source* na *WebCam*, i slike će se snimati s vaše web kamere. Pobrinite se da odaberete gumb **Set** nakon odabira slike ili web kamere.
 
-    ![CounterFit s datotekom postavljenom kao izvor slike i web kamerom koja prikazuje osobu koja drži bananu u pregledu web kamere](../../../../../translated_images/counterfit-camera-options.eb3bd5150a8e7dffbf24bc5bcaba0cf2cdef95fbe6bbe393695d173817d6b8df.hr.png)
+    ![CounterFit s datotekom postavljenom kao izvor slike i web kamerom koja prikazuje osobu koja drži bananu u pregledu web kamere](../../../../../translated_images/hr/counterfit-camera-options.eb3bd5150a8e7dffbf24bc5bcaba0cf2cdef95fbe6bbe393695d173817d6b8df.png)
 
 1. Slika će biti snimljena i spremljena kao `image.jpg` u trenutnoj mapi. Vidjet ćete ovu datoteku u exploreru VS Code-a. Odaberite datoteku za pregled slike. Ako je potrebna rotacija, ažurirajte liniju `camera.rotation = 0` prema potrebi i snimite novu sliku.
 

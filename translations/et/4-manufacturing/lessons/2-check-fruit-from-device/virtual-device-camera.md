@@ -43,11 +43,11 @@ Lisage kaamera CounterFit rakendusse.
 
     1. Valige **Add** nupp, et kaamera luua.
 
-    ![Kaamera seaded](../../../../../translated_images/counterfit-create-camera.a5de97f59c0bd3cbe0416d7e89a3cfe86d19fbae05c641c53a91286412af0a34.et.png)
+    ![Kaamera seaded](../../../../../translated_images/et/counterfit-create-camera.a5de97f59c0bd3cbe0416d7e89a3cfe86d19fbae05c641c53a91286412af0a34.png)
 
     Kaamera luuakse ja ilmub sensorite loendisse.
 
-    ![Loodud kaamera](../../../../../translated_images/counterfit-camera.001ec52194c8ee5d3f617173da2c79e1df903d10882adc625cbfc493525125d4.et.png)
+    ![Loodud kaamera](../../../../../translated_images/et/counterfit-camera.001ec52194c8ee5d3f617173da2c79e1df903d10882adc625cbfc493525125d4.png)
 
 ## Kaamera programmeerimine
 
@@ -112,7 +112,7 @@ Programmeerige seade.
 
 1. Konfigureerige pilt, mida CounterFit kaamera jäädvustab. Võite määrata *Source* väärtuseks *File* ja üles laadida pildifaili või määrata *Source* väärtuseks *WebCam*, et pilte jäädvustataks teie veebikaamerast. Veenduge, et valite **Set** nupu pärast pildi valimist või veebikaamera seadistamist.
 
-    ![CounterFit, kus pildi allikaks on määratud fail, ja veebikaamera, mis näitab inimest, kes hoiab banaani veebikaamera eelvaates](../../../../../translated_images/counterfit-camera-options.eb3bd5150a8e7dffbf24bc5bcaba0cf2cdef95fbe6bbe393695d173817d6b8df.et.png)
+    ![CounterFit, kus pildi allikaks on määratud fail, ja veebikaamera, mis näitab inimest, kes hoiab banaani veebikaamera eelvaates](../../../../../translated_images/et/counterfit-camera-options.eb3bd5150a8e7dffbf24bc5bcaba0cf2cdef95fbe6bbe393695d173817d6b8df.png)
 
 1. Pilt jäädvustatakse ja salvestatakse failina `image.jpg` praeguses kaustas. Näete seda faili VS Code'i failihalduris. Valige fail, et pilti vaadata. Kui see vajab pööramist, uuendage rida `camera.rotation = 0` vastavalt ja tehke uus pilt.
 

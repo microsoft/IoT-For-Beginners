@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Érzékelők és működtetők használata a fizikai világban
 
-![A lecke vázlatos áttekintése](../../../../../translated_images/lesson-3.cc3b7b4cd646de598698cce043c0393fd62ef42bac2eaf60e61272cd844250f4.hu.jpg)
+![A lecke vázlatos áttekintése](../../../../../translated_images/hu/lesson-3.cc3b7b4cd646de598698cce043c0393fd62ef42bac2eaf60e61272cd844250f4.jpg)
 
 > Vázlatrajz: [Nitya Narasimhan](https://github.com/nitya). Kattints a képre a nagyobb verzióért.
 
@@ -75,7 +75,7 @@ A legegyszerűbb érzékelők közé tartoznak az analóg érzékelők. Ezek az 
 
 Egy példa erre a potenciométer. Ez egy forgatható tárcsa, amelyet két pozíció között lehet elforgatni, és az érzékelő méri a forgást.
 
-![Egy potenciométer középső állásban, amely 5 voltot kap, és 3,8 voltot ad vissza](../../../../../translated_images/potentiometer.35a348b9ce22f6ec.hu.png)
+![Egy potenciométer középső állásban, amely 5 voltot kap, és 3,8 voltot ad vissza](../../../../../translated_images/hu/potentiometer.35a348b9ce22f6ec.png)
 
 Az IoT eszköz elektromos jelet küld a potenciométernek egy adott feszültségen, például 5 volton (5V). Ahogy a potenciométert állítod, az megváltoztatja a másik oldalon kijövő feszültséget. Képzeld el, hogy van egy potenciométered, amelyet egy 0-tól [11-ig](https://wikipedia.org/wiki/Up_to_eleven) terjedő skálán jelöltek, például egy hangerőszabályzó gombot egy erősítőn. Amikor a potenciométer teljesen kikapcsolt állásban van (0), akkor 0V (0 volt) jön ki. Amikor teljesen bekapcsolt állásban van (11), akkor 5V (5 volt) jön ki.
 
@@ -101,7 +101,7 @@ A digitális érzékelők, az analóg érzékelőkhöz hasonlóan, az elektromos
 
 A legegyszerűbb digitális érzékelő egy gomb vagy kapcsoló. Ez egy olyan érzékelő, amelynek két állapota van: be vagy ki.
 
-![Egy gomb 5 voltot kap. Ha nincs lenyomva, 0 voltot ad vissza, ha lenyomva van, 5 voltot ad vissza](../../../../../translated_images/button.eadb560b77ac45e56f523d9d8876e40444f63b419e33eb820082d461fa79490b.hu.png)
+![Egy gomb 5 voltot kap. Ha nincs lenyomva, 0 voltot ad vissza, ha lenyomva van, 5 voltot ad vissza](../../../../../translated_images/hu/button.eadb560b77ac45e56f523d9d8876e40444f63b419e33eb820082d461fa79490b.png)
 
 Az IoT eszközök, például a GPIO tüskék, közvetlenül mérhetik ezt a jelet 0-ként vagy 1-ként. Ha a küldött feszültség megegyezik a visszaküldött feszültséggel, az olvasott érték 1, különben az olvasott érték 0. Nincs szükség a jel átalakítására, az csak 1 vagy 0 lehet.
 
@@ -112,7 +112,7 @@ Az IoT eszközök, például a GPIO tüskék, közvetlenül mérhetik ezt a jele
 
 Fejlettebb digitális érzékelők analóg értékeket olvasnak, majd beépített ADC-kkel digitális jelekké alakítják azokat. Például egy digitális hőmérsékletérzékelő továbbra is használ egy hőelemet, ugyanúgy, mint egy analóg érzékelő, és továbbra is méri a hőelem ellenállásának változását az aktuális hőmérsékleten. Ahelyett, hogy analóg értéket adna vissza, és az eszközre vagy a csatlakozópanelre bízná a digitális jellé alakítást, az érzékelőbe épített ADC átalakítja az értéket, és 0-k és 1-ek sorozataként küldi el az IoT eszköznek. Ezek a 0-k és 1-ek ugyanúgy kerülnek továbbításra, mint egy gomb digitális jele, ahol az 1 a teljes feszültséget, a 0 pedig a 0V-ot jelenti.
 
-![Egy digitális hőmérsékletérzékelő, amely egy analóg értéket bináris adatokra alakít, ahol 0 a 0 voltot, 1 az 5 voltot jelenti, mielőtt elküldi az IoT eszköznek](../../../../../translated_images/temperature-as-digital.85004491b977bae1.hu.png)
+![Egy digitális hőmérsékletérzékelő, amely egy analóg értéket bináris adatokra alakít, ahol 0 a 0 voltot, 1 az 5 voltot jelenti, mielőtt elküldi az IoT eszköznek](../../../../../translated_images/hu/temperature-as-digital.85004491b977bae1.png)
 
 A digitális adatok küldése lehetővé teszi, hogy az érzékelők bonyolultabbá váljanak, és részletesebb adatokat, akár titkosított adatokat is küldjenek biztonságos érzékelők esetén. Egy példa erre egy kamera. Ez egy olyan érzékelő, amely képet rögzít, és digitális adatként küldi el az IoT eszköznek, általában tömörített formátumban, például JPEG-ben. Akár videót is streamelhet, képkockánként teljes képet vagy tömörített videófolyamot küldve.
 
@@ -131,7 +131,7 @@ Néhány gyakori működtető:
 ✅ Kutass egy kicsit! Milyen működtetők vannak a telefonodban?
 
 ## Működt
-![Egy fény alacsony feszültségen halványan, magasabb feszültségen pedig fényesen világít](../../../../../translated_images/dimmable-light.9ceffeb195dec1a849da718b2d71b32c35171ff7dfea9c07bbf82646a67acf6b.hu.png)
+![Egy fény alacsony feszültségen halványan, magasabb feszültségen pedig fényesen világít](../../../../../translated_images/hu/dimmable-light.9ceffeb195dec1a849da718b2d71b32c35171ff7dfea9c07bbf82646a67acf6b.png)
 
 Akárcsak az érzékelők esetében, a tényleges IoT eszköz digitális jelekkel működik, nem analóg jelekkel. Ez azt jelenti, hogy analóg jel küldéséhez az IoT eszköznek szüksége van egy digitális-analóg átalakítóra (DAC), amely lehet közvetlenül az IoT eszközön vagy egy csatlakozópanelen. Ez átalakítja az IoT eszköz 0 és 1 értékeit olyan analóg feszültséggé, amelyet az aktuátor használni tud.
 
@@ -146,7 +146,7 @@ Például PWM segítségével vezérelheted egy motor sebességét.
 
 Képzeld el, hogy egy motort vezérlesz 5V-os táppal. Rövid impulzust küldesz a motorodnak, amely 0,02 másodpercre (0,02s) magas feszültségre (5V) kapcsol. Ez idő alatt a motor egy tized fordulatot, azaz 36°-ot tesz meg. Ezután a jel szünetel 0,02 másodpercre (0,02s), alacsony jelet (0V) küldve. Minden be- és kikapcsolási ciklus 0,04 másodpercig tart. A ciklus ismétlődik.
 
-![Impulzusszélesség-modulációval egy motor forgása 150 RPM sebességgel](../../../../../translated_images/pwm-motor-150rpm.83347ac04ca38482.hu.png)
+![Impulzusszélesség-modulációval egy motor forgása 150 RPM sebességgel](../../../../../translated_images/hu/pwm-motor-150rpm.83347ac04ca38482.png)
 
 Ez azt jelenti, hogy egy másodperc alatt 25 darab 0,02 másodperces 5V-os impulzust küldesz a motor forgatására, amelyeket 0,02 másodperces 0V-os szünet követ, amikor a motor nem forog. Minden impulzus egy tized fordulatot eredményez, így a motor másodpercenként 2,5 fordulatot tesz meg. Digitális jelet használtál arra, hogy a motort másodpercenként 2,5 fordulatra, vagy 150 [fordulat/perc](https://wikipedia.org/wiki/Revolutions_per_minute) sebességre állítsd (egy nem szabványos forgási sebesség mértékegység).
 
@@ -157,7 +157,7 @@ Ez azt jelenti, hogy egy másodperc alatt 25 darab 0,02 másodperces 5V-os impul
 
 > 🎓 Amikor egy PWM jel az idő felében be van kapcsolva, a másik felében pedig ki, azt [50%-os kitöltési tényezőnek](https://wikipedia.org/wiki/Duty_cycle) nevezzük. A kitöltési tényezőt az idő százalékában mérik, amely alatt a jel be van kapcsolva a kikapcsolt állapothoz képest.
 
-![Impulzusszélesség-modulációval egy motor forgása 75 RPM sebességgel](../../../../../translated_images/pwm-motor-75rpm.a5e4c939934b6e14.hu.png)
+![Impulzusszélesség-modulációval egy motor forgása 75 RPM sebességgel](../../../../../translated_images/hu/pwm-motor-75rpm.a5e4c939934b6e14.png)
 
 A motor sebességét az impulzusok méretének változtatásával tudod szabályozni. Például ugyanazzal a motorral megtarthatod a ciklusidőt 0,04 másodpercen, miközben a bekapcsolási impulzust felére csökkented, 0,01 másodpercre, és a kikapcsolási impulzust 0,03 másodpercre növeled. Ugyanannyi impulzus van másodpercenként (25), de minden bekapcsolási impulzus fele olyan hosszú. Egy fele hosszú impulzus csak egy huszad fordulatot eredményez, és 25 impulzus másodpercenként 1,25 fordulatot, vagy 75 RPM-et eredményez. A digitális jel impulzussebességének változtatásával felére csökkentetted az analóg motor sebességét.
 
@@ -178,7 +178,7 @@ A digitális aktuátorok, akárcsak a digitális érzékelők, vagy két állapo
 
 Egy egyszerű digitális aktuátor például egy LED. Amikor az eszköz digitális 1 jelet küld, magas feszültséget küld, amely bekapcsolja a LED-et. Amikor digitális 0 jelet küld, a feszültség 0V-ra csökken, és a LED kikapcsol.
 
-![Egy LED 0 voltnál kikapcsolva, 5V-nál bekapcsolva](../../../../../translated_images/led.ec6d94f66676a174ad06d9fa9ea49c2ee89beb18b312d5c6476467c66375b07f.hu.png)
+![Egy LED 0 voltnál kikapcsolva, 5V-nál bekapcsolva](../../../../../translated_images/hu/led.ec6d94f66676a174ad06d9fa9ea49c2ee89beb18b312d5c6476467c66375b07f.png)
 
 ✅ Milyen más egyszerű, kétállapotú aktuátorokat tudsz elképzelni? Egy példa lehet egy szolenoid, amely egy elektromágnes, amely aktiválható például egy ajtózár reteszének mozgatására, az ajtó nyitására/zárására.
 

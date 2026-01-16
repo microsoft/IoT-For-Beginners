@@ -27,17 +27,17 @@ El sensor de humedad del suelo Grove puede conectarse al puerto analógico/digit
 
 Conecta el sensor de humedad del suelo.
 
-![Un sensor Grove de humedad del suelo](../../../../../translated_images/grove-capacitive-soil-moisture-sensor.e7f0776cce30e78be5cc5a07839385fd6718857f31b5bf5ad3d0c73c83b2f0ef.es.png)
+![Un sensor Grove de humedad del suelo](../../../../../translated_images/es/grove-capacitive-soil-moisture-sensor.e7f0776cce30e78be5cc5a07839385fd6718857f31b5bf5ad3d0c73c83b2f0ef.png)
 
 1. Inserta un extremo de un cable Grove en el conector del sensor de humedad del suelo. Solo encajará de una manera.
 
 1. Con el Wio Terminal desconectado de tu computadora u otra fuente de alimentación, conecta el otro extremo del cable Grove al conector Grove del lado derecho del Wio Terminal, mirando la pantalla. Este es el conector más alejado del botón de encendido.
 
-![El sensor Grove de humedad del suelo conectado al conector derecho](../../../../../translated_images/wio-soil-moisture-sensor.46919b61c3f6cb74.es.png)
+![El sensor Grove de humedad del suelo conectado al conector derecho](../../../../../translated_images/es/wio-soil-moisture-sensor.46919b61c3f6cb74.webp)
 
 1. Inserta el sensor de humedad del suelo en la tierra. Tiene una 'línea de posición máxima' - una línea blanca a través del sensor. Inserta el sensor hasta esta línea, pero no más allá.
 
-![El sensor Grove de humedad del suelo en la tierra](../../../../../translated_images/soil-moisture-sensor-in-soil.bfad91002bda5e96.es.png)
+![El sensor Grove de humedad del suelo en la tierra](../../../../../translated_images/es/soil-moisture-sensor-in-soil.bfad91002bda5e96.webp)
 
 1. Ahora puedes conectar el Wio Terminal a tu computadora.
 

@@ -42,7 +42,7 @@ CO_OP_TRANSLATOR_METADATA:
 
     Jupyter شروع به کار می‌کند و دفترچه را در مرورگر شما باز می‌کند. دستورالعمل‌های موجود در دفترچه را دنبال کنید تا دماهای اندازه‌گیری شده را نمایش دهید و روزهای درجه رشد را محاسبه کنید.
 
-    ![دفترچه Jupyter](../../../../../translated_images/gdd-jupyter-notebook.c5b52cf21094f158a61f47f455490fd95f1729777ff90861a4521820bf354cdc.fa.png)
+    ![دفترچه Jupyter](../../../../../translated_images/fa/gdd-jupyter-notebook.c5b52cf21094f158a61f47f455490fd95f1729777ff90861a4521820bf354cdc.png)
 
 ## معیارها
 

@@ -35,7 +35,7 @@ La LED Grove est livrée sous forme de module avec une sélection de LEDs, vous 
 
 Connectez la LED.
 
-![Une LED Grove](../../../../../translated_images/grove-led.6c853be93f473cf2c439cfc74bb1064732b22251a83cedf66e62f783f9cc1a79.fr.png)
+![Une LED Grove](../../../../../translated_images/fr/grove-led.6c853be93f473cf2c439cfc74bb1064732b22251a83cedf66e62f783f9cc1a79.png)
 
 1. Choisissez votre LED préférée et insérez les pattes dans les deux trous du module LED.
 
@@ -49,7 +49,7 @@ Connectez la LED.
 
 1. Avec le Raspberry Pi éteint, connectez l'autre extrémité du câble Grove à la prise numérique marquée **D5** sur le Grove Base Hat attaché au Pi. Cette prise est la deuxième à partir de la gauche, sur la rangée de prises à côté des broches GPIO.
 
-![La LED Grove connectée à la prise D5](../../../../../translated_images/pi-led.97f1d474981dc35d1c7996c7b17de355d3d0a6bc9606d79fa5f89df933415122.fr.png)
+![La LED Grove connectée à la prise D5](../../../../../translated_images/fr/pi-led.97f1d474981dc35d1c7996c7b17de355d3d0a6bc9606d79fa5f89df933415122.png)
 
 ## Programmer la veilleuse
 

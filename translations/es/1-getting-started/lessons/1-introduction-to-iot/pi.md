@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 El [Raspberry Pi](https://raspberrypi.org) es un ordenador de placa única. Puedes añadir sensores y actuadores utilizando una amplia gama de dispositivos y ecosistemas. Para estas lecciones, utilizaremos un ecosistema de hardware llamado [Grove](https://www.seeedstudio.com/category/Grove-c-1003.html). Programarás tu Pi y accederás a los sensores Grove usando Python.
 
-![Un Raspberry Pi 4](../../../../../translated_images/raspberry-pi-4.fd4590d308c3d456.es.jpg)
+![Un Raspberry Pi 4](../../../../../translated_images/es/raspberry-pi-4.fd4590d308c3d456.webp)
 
 ## Configuración
 
@@ -112,7 +112,7 @@ Configura el sistema operativo sin cabeza del Pi.
 
 1. Desde el Raspberry Pi Imager, selecciona el botón **CHOOSE OS**, luego selecciona *Raspberry Pi OS (Other)*, seguido de *Raspberry Pi OS Lite (32-bit)*.
 
-    ![El Raspberry Pi Imager con Raspberry Pi OS Lite seleccionado](../../../../../translated_images/raspberry-pi-imager.24aedeab9e233d84.es.png)
+    ![El Raspberry Pi Imager con Raspberry Pi OS Lite seleccionado](../../../../../translated_images/es/raspberry-pi-imager.24aedeab9e233d84.webp)
 
     > 💁 Raspberry Pi OS Lite es una versión de Raspberry Pi OS que no tiene la interfaz de usuario de escritorio ni herramientas basadas en interfaz gráfica. Estas no son necesarias para un Pi sin cabeza y hacen que la instalación sea más pequeña y el tiempo de arranque más rápido.
 
@@ -251,7 +251,7 @@ Crea la aplicación Hola Mundo.
 
 1. Abre esta carpeta en VS Code seleccionando *Archivo -> Abrir...* y seleccionando la carpeta *nightlight*, luego selecciona **OK**.
 
-    ![El cuadro de diálogo de apertura de VS Code mostrando la carpeta nightlight](../../../../../translated_images/vscode-open-nightlight-remote.d3d2a4011e30d535.es.png)
+    ![El cuadro de diálogo de apertura de VS Code mostrando la carpeta nightlight](../../../../../translated_images/es/vscode-open-nightlight-remote.d3d2a4011e30d535.webp)
 
 1. Abre el archivo `app.py` desde el explorador de VS Code y agrega el siguiente código:
 

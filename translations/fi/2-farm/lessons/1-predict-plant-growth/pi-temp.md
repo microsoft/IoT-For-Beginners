@@ -25,13 +25,13 @@ Grove-lämpötila-anturi voidaan liittää Raspberry Pi:hin.
 
 Yhdistä lämpötila-anturi
 
-![Grove-lämpötila-anturi](../../../../../translated_images/grove-dht11.07f8eafceee170043efbb53e1d15722bd4e00fbaa9ff74290b57e9f66eb82c17.fi.png)
+![Grove-lämpötila-anturi](../../../../../translated_images/fi/grove-dht11.07f8eafceee170043efbb53e1d15722bd4e00fbaa9ff74290b57e9f66eb82c17.png)
 
 1. Työnnä Grove-kaapelin toinen pää kosteus- ja lämpötila-anturin liittimeen. Se menee sisään vain yhdellä tavalla.
 
 1. Kun Raspberry Pi on sammutettu, liitä Grove-kaapelin toinen pää digitaaliseen liittimeen, joka on merkitty **D5** Grove Base hatissa, joka on kiinnitetty Pi:hin. Tämä liitin on toinen vasemmalta rivissä, joka on GPIO-pinnien vieressä.
 
-![Grove-lämpötila-anturi liitettynä liittimeen A0](../../../../../translated_images/pi-temperature-sensor.3ff82fff672c8e565ef25a39d26d111de006b825a7e0867227ef4e7fbff8553c.fi.png)
+![Grove-lämpötila-anturi liitettynä liittimeen A0](../../../../../translated_images/fi/pi-temperature-sensor.3ff82fff672c8e565ef25a39d26d111de006b825a7e0867227ef4e7fbff8553c.png)
 
 ## Ohjelmoi lämpötila-anturi
 

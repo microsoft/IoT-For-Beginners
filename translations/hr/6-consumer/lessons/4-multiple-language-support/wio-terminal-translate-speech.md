@@ -114,7 +114,7 @@ REST API usluge govora ne podržava izravna prevođenja, no možete koristiti us
     >
     > Na primjer, ako trenirate LUIS na engleskom, ali želite koristiti francuski kao jezik korisnika, možete prevesti rečenice poput "set a 2 minute and 27 second timer" s engleskog na francuski koristeći Bing Translate, a zatim koristiti gumb **Listen translation** za izgovaranje prijevoda u mikrofon.
     >
-    > ![Gumb za slušanje prijevoda na Bing Translate](../../../../../translated_images/bing-translate.348aa796d6efe2a92f41ea74a5cf42bb4c63d6faaa08e7f46924e072a35daa48.hr.png)
+    > ![Gumb za slušanje prijevoda na Bing Translate](../../../../../translated_images/hr/bing-translate.348aa796d6efe2a92f41ea74a5cf42bb4c63d6faaa08e7f46924e072a35daa48.png)
 
 1. Dodajte API ključ i lokaciju prevoditelja ispod `SPEECH_LOCATION`:
 

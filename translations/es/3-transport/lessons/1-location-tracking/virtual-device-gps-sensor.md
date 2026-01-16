@@ -47,11 +47,11 @@ Agrega el sensor GPS a la aplicación CounterFit.
 
     1. Selecciona el botón **Add** para crear el sensor GPS en el puerto `/dev/ttyAMA0`.
 
-    ![Configuración del sensor GPS](../../../../../translated_images/counterfit-create-gps-sensor.6385dc9357d85ad1d47b4abb2525e7651fd498917d25eefc5a72feab09eedc70.es.png)
+    ![Configuración del sensor GPS](../../../../../translated_images/es/counterfit-create-gps-sensor.6385dc9357d85ad1d47b4abb2525e7651fd498917d25eefc5a72feab09eedc70.png)
 
     El sensor GPS será creado y aparecerá en la lista de sensores.
 
-    ![Sensor GPS creado](../../../../../translated_images/counterfit-gps-sensor.3fbb15af0a5367566f2f11324ef5a6f30861cdf2b497071a5e002b7aa473550e.es.png)
+    ![Sensor GPS creado](../../../../../translated_images/es/counterfit-gps-sensor.3fbb15af0a5367566f2f11324ef5a6f30861cdf2b497071a5e002b7aa473550e.png)
 
 ## Programar el sensor GPS
 
@@ -111,17 +111,17 @@ Programa la aplicación del sensor GPS.
 
     * Configura la **Source** como `Lat/Lon` y establece una latitud, longitud y número de satélites utilizados para obtener la posición GPS. Este valor se enviará solo una vez, así que marca la casilla **Repeat** para que los datos se repitan cada segundo.
 
-      ![El sensor GPS con lat lon seleccionado](../../../../../translated_images/counterfit-gps-sensor-latlon.008c867d75464fbe7f84107cc57040df565ac07cb57d2f21db37d087d470197d.es.png)
+      ![El sensor GPS con lat lon seleccionado](../../../../../translated_images/es/counterfit-gps-sensor-latlon.008c867d75464fbe7f84107cc57040df565ac07cb57d2f21db37d087d470197d.png)
 
     * Configura la **Source** como `NMEA` y agrega algunas sentencias NMEA en el cuadro de texto. Todos estos valores se enviarán, con un retraso de 1 segundo antes de que se pueda leer cada nueva sentencia GGA (posición fija).
 
-      ![El sensor GPS con sentencias NMEA configuradas](../../../../../translated_images/counterfit-gps-sensor-nmea.c62eea442171e17e19528b051b104cfcecdc9cd18db7bc72920f29821ae63f73.es.png)
+      ![El sensor GPS con sentencias NMEA configuradas](../../../../../translated_images/es/counterfit-gps-sensor-nmea.c62eea442171e17e19528b051b104cfcecdc9cd18db7bc72920f29821ae63f73.png)
 
       Puedes usar una herramienta como [nmeagen.org](https://www.nmeagen.org) para generar estas sentencias dibujando en un mapa. Estos valores se enviarán solo una vez, así que marca la casilla **Repeat** para que los datos se repitan un segundo después de que se hayan enviado todos.
 
     * Configura la **Source** como archivo GPX y carga un archivo GPX con ubicaciones de ruta. Puedes descargar archivos GPX de varios sitios populares de mapas y senderismo, como [AllTrails](https://www.alltrails.com/). Estos archivos contienen múltiples ubicaciones GPS como un recorrido, y el sensor GPS devolverá cada nueva ubicación en intervalos de 1 segundo.
 
-      ![El sensor GPS con un archivo GPX configurado](../../../../../translated_images/counterfit-gps-sensor-gpxfile.8310b063ce8a425ccc8ebeec8306aeac5e8e55207f007d52c6e1194432a70cd9.es.png)
+      ![El sensor GPS con un archivo GPX configurado](../../../../../translated_images/es/counterfit-gps-sensor-gpxfile.8310b063ce8a425ccc8ebeec8306aeac5e8e55207f007d52c6e1194432a70cd9.png)
 
       Estos valores se enviarán solo una vez, así que marca la casilla **Repeat** para que los datos se repitan un segundo después de que se hayan enviado todos.
 

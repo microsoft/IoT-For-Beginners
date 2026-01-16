@@ -25,7 +25,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 ### وظیفه - اتصال دوربین
 
-![یک دوربین رزبری پای](../../../../../translated_images/pi-camera-module.4278753c31bd6e757aa2b858be97d72049f71616278cefe4fb5abb485b40a078.fa.png)
+![یک دوربین رزبری پای](../../../../../translated_images/fa/pi-camera-module.4278753c31bd6e757aa2b858be97d72049f71616278cefe4fb5abb485b40a078.png)
 
 1. رزبری پای را خاموش کنید.
 
@@ -33,17 +33,17 @@ CO_OP_TRANSLATOR_METADATA:
 
     می‌توانید یک انیمیشن که نحوه باز کردن گیره و قرار دادن کابل را نشان می‌دهد در [مستندات شروع کار با ماژول دوربین رزبری پای](https://projects.raspberrypi.org/en/projects/getting-started-with-picamera/2) پیدا کنید.
 
-    ![کابل نواری وارد شده به ماژول دوربین](../../../../../translated_images/pi-camera-ribbon-cable.0bf82acd251611c21ac616f082849413e2b322a261d0e4f8fec344248083b07e.fa.png)
+    ![کابل نواری وارد شده به ماژول دوربین](../../../../../translated_images/fa/pi-camera-ribbon-cable.0bf82acd251611c21ac616f082849413e2b322a261d0e4f8fec344248083b07e.png)
 
 1. کلاهک Grove Base را از رزبری پای جدا کنید.
 
 1. کابل نواری را از شکاف دوربین در کلاهک Grove Base عبور دهید. مطمئن شوید که سمت آبی کابل به سمت پورت‌های آنالوگ با برچسب **A0**، **A1** و غیره باشد.
 
-    ![کابل نواری عبور کرده از کلاهک Grove Base](../../../../../translated_images/grove-base-hat-ribbon-cable.501fed202fcf73b11b2b68f6d246189f7d15d3e4423c572ddee79d77b4632b47.fa.png)
+    ![کابل نواری عبور کرده از کلاهک Grove Base](../../../../../translated_images/fa/grove-base-hat-ribbon-cable.501fed202fcf73b11b2b68f6d246189f7d15d3e4423c572ddee79d77b4632b47.png)
 
 1. کابل نواری را در پورت دوربین روی رزبری پای قرار دهید. دوباره، گیره پلاستیکی مشکی را بالا بکشید، کابل را وارد کنید، سپس گیره را به جای خود فشار دهید. سمت آبی کابل باید به سمت پورت‌های USB و اترنت باشد.
 
-    ![کابل نواری متصل به سوکت دوربین روی رزبری پای](../../../../../translated_images/pi-camera-socket-ribbon-cable.a18309920b11800911082ed7aa6fb28e6d9be3a022e4079ff990016cae3fca10.fa.png)
+    ![کابل نواری متصل به سوکت دوربین روی رزبری پای](../../../../../translated_images/fa/pi-camera-socket-ribbon-cable.a18309920b11800911082ed7aa6fb28e6d9be3a022e4079ff990016cae3fca10.png)
 
 1. کلاهک Grove Base را دوباره نصب کنید.
 
@@ -110,7 +110,7 @@ CO_OP_TRANSLATOR_METADATA:
 
     خط `camera.rotation = 0` چرخش تصویر را تنظیم می‌کند. کابل نواری از پایین دوربین وارد می‌شود، اما اگر دوربین شما برای راحت‌تر نشانه‌گیری به سمت شیء مورد نظر چرخانده شده باشد، می‌توانید این خط را به تعداد درجه‌های چرخش تغییر دهید.
 
-    ![دوربین آویزان شده بر روی یک قوطی نوشیدنی](../../../../../translated_images/pi-camera-upside-down.5376961ba31459883362124152ad6b823d5ac5fc14e85f317e22903bd681c2b6.fa.png)
+    ![دوربین آویزان شده بر روی یک قوطی نوشیدنی](../../../../../translated_images/fa/pi-camera-upside-down.5376961ba31459883362124152ad6b823d5ac5fc14e85f317e22903bd681c2b6.png)
 
     برای مثال، اگر کابل نواری را از بالای چیزی آویزان کنید تا در بالای دوربین قرار گیرد، چرخش را به 180 تنظیم کنید:
 

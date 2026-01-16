@@ -47,11 +47,11 @@ Agrega los sensores de humedad y temperatura a la aplicación CounterFit.
 
     1. Selecciona el botón **Add** para crear el sensor de humedad en el Pin 5.
 
-    ![Configuración del sensor de humedad](../../../../../translated_images/counterfit-create-humidity-sensor.2750e27b6f30e09cf4e22101defd5252710717620816ab41ba688f91f757c49a.es.png)
+    ![Configuración del sensor de humedad](../../../../../translated_images/es/counterfit-create-humidity-sensor.2750e27b6f30e09cf4e22101defd5252710717620816ab41ba688f91f757c49a.png)
 
     El sensor de humedad será creado y aparecerá en la lista de sensores.
 
-    ![Sensor de humedad creado](../../../../../translated_images/counterfit-humidity-sensor.7b12f7f339e430cb26c8211d2dba4ef75261b353a01da0932698b5bebd693f27.es.png)
+    ![Sensor de humedad creado](../../../../../translated_images/es/counterfit-humidity-sensor.7b12f7f339e430cb26c8211d2dba4ef75261b353a01da0932698b5bebd693f27.png)
 
 1. Crea un sensor de temperatura:
 
@@ -63,11 +63,11 @@ Agrega los sensores de humedad y temperatura a la aplicación CounterFit.
 
     1. Selecciona el botón **Add** para crear el sensor de temperatura en el Pin 6.
 
-    ![Configuración del sensor de temperatura](../../../../../translated_images/counterfit-create-temperature-sensor.199350ed34f7343d79dccbe95eaf6c11d2121f03d1c35ab9613b330c23f39b29.es.png)
+    ![Configuración del sensor de temperatura](../../../../../translated_images/es/counterfit-create-temperature-sensor.199350ed34f7343d79dccbe95eaf6c11d2121f03d1c35ab9613b330c23f39b29.png)
 
     El sensor de temperatura será creado y aparecerá en la lista de sensores.
 
-    ![Sensor de temperatura creado](../../../../../translated_images/counterfit-temperature-sensor.f0560236c96a9016bafce7f6f792476fe3367bc6941a1f7d5811d144d4bcbfff.es.png)
+    ![Sensor de temperatura creado](../../../../../translated_images/es/counterfit-temperature-sensor.f0560236c96a9016bafce7f6f792476fe3367bc6941a1f7d5811d144d4bcbfff.png)
 
 ## Programar la aplicación del sensor de temperatura
 

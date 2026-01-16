@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # 支援多語言
 
-![本課程的手繪筆記概覽](../../../../../translated_images/lesson-24.4246968ed058510ab275052e87ef9aa89c7b2f938915d103c605c04dc6cd5bb7.hk.jpg)
+![本課程的手繪筆記概覽](../../../../../translated_images/hk/lesson-24.4246968ed058510ab275052e87ef9aa89c7b2f938915d103c605c04dc6cd5bb7.jpg)
 
 > 手繪筆記由 [Nitya Narasimhan](https://github.com/nitya) 提供。點擊圖片查看更大版本。
 
@@ -83,7 +83,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 ### 認知服務語音服務
 
-![語音服務標誌](../../../../../translated_images/azure-speech-logo.a1f08c4befb0159f2cb5d692d3baf5b599e7b44759d316da907bda1508f46a4a.hk.png)
+![語音服務標誌](../../../../../translated_images/hk/azure-speech-logo.a1f08c4befb0159f2cb5d692d3baf5b599e7b44759d316da907bda1508f46a4a.png)
 
 你在過去幾課中使用的語音服務具有語音識別的翻譯功能。當你進行語音識別時，可以請求不僅獲取相同語言的文字，還可以獲取其他語言的翻譯文字。
 
@@ -91,7 +91,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 ### 認知服務翻譯服務
 
-![翻譯服務標誌](../../../../../translated_images/azure-translator-logo.c6ed3a4a433edfd2f11577eca105412c50b8396b194cbbd730723dd1d0793bcd.hk.png)
+![翻譯服務標誌](../../../../../translated_images/hk/azure-translator-logo.c6ed3a4a433edfd2f11577eca105412c50b8396b194cbbd730723dd1d0793bcd.png)
 
 翻譯服務是一個專門的翻譯服務，可以將文字從一種語言翻譯成一種或多種目標語言。除了翻譯，它還支援許多額外功能，例如屏蔽不雅詞語。它還允許你為特定單詞或句子提供特定翻譯，以處理不希望翻譯的術語或具有特定知名翻譯的術語。
 
@@ -130,7 +130,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 在理想情況下，你的整個應用程式應該能理解盡可能多的語言，從語音識別到語言理解，再到語音回應。這需要大量工作，而翻譯服務可以加速應用程式的交付時間。
 
-![智慧計時器架構：將日語翻譯成英語，處理後再翻譯回日語](../../../../../translated_images/translated-smart-timer.08ac20057fdc5c37.hk.png)
+![智慧計時器架構：將日語翻譯成英語，處理後再翻譯回日語](../../../../../translated_images/hk/translated-smart-timer.08ac20057fdc5c37.png)
 
 假設你正在構建一個智慧計時器，該計時器從頭到尾使用英語，理解英語語音並將其轉換為文字，用英語進行語言理解，生成英語回應，並以英語語音回應。如果你想添加日語支援，可以先將日語語音翻譯成英語文字，然後保持應用程式的核心部分不變，最後將回應文字翻譯成日語，並以日語語音回應。這樣可以快速添加日語支援，並在以後擴展到提供完整的日語端到端支援。
 

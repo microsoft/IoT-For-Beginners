@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Mantén tu planta segura
 
-![Un resumen visual de esta lección](../../../../../translated_images/lesson-10.829c86b80b9403bb770929ee553a1d293afe50dc23121aaf9be144673ae012cc.es.jpg)
+![Un resumen visual de esta lección](../../../../../translated_images/es/lesson-10.829c86b80b9403bb770929ee553a1d293afe50dc23121aaf9be144673ae012cc.jpg)
 
 > Dibujo por [Nitya Narasimhan](https://github.com/nitya). Haz clic en la imagen para verla en mayor tamaño.
 
@@ -61,11 +61,11 @@ Estos son escenarios del mundo real y ocurren todo el tiempo. Algunos ejemplos s
 
 Cuando un dispositivo se conecta a un servicio IoT, utiliza un ID para identificarse. El problema es que este ID puede ser clonado: un hacker podría configurar un dispositivo malicioso que use el mismo ID que un dispositivo real pero que envíe datos falsos.
 
-![Tanto dispositivos válidos como maliciosos podrían usar el mismo ID para enviar telemetría](../../../../../translated_images/iot-device-and-hacked-device-connecting.e0671675df74d6d99eb1dedb5a670e606f698efa6202b1ad4c8ae548db299cc6.es.png)
+![Tanto dispositivos válidos como maliciosos podrían usar el mismo ID para enviar telemetría](../../../../../translated_images/es/iot-device-and-hacked-device-connecting.e0671675df74d6d99eb1dedb5a670e606f698efa6202b1ad4c8ae548db299cc6.png)
 
 La solución a esto es convertir los datos enviados en un formato codificado, utilizando un valor conocido solo por el dispositivo y la nube para codificar los datos. Este proceso se llama *encriptación*, y el valor utilizado para encriptar los datos se llama *clave de encriptación*.
 
-![Si se usa encriptación, solo se aceptarán mensajes encriptados; los demás serán rechazados](../../../../../translated_images/iot-device-and-hacked-device-connecting-encryption.5941aff601fc978f979e46f2849b573564eeb4a4dc5b52f669f62745397492fb.es.png)
+![Si se usa encriptación, solo se aceptarán mensajes encriptados; los demás serán rechazados](../../../../../translated_images/es/iot-device-and-hacked-device-connecting-encryption.5941aff601fc978f979e46f2849b573564eeb4a4dc5b52f669f62745397492fb.png)
 
 El servicio en la nube puede luego convertir los datos a un formato legible, utilizando un proceso llamado *desencriptación*, ya sea con la misma clave de encriptación o con una *clave de desencriptación*. Si el mensaje encriptado no puede ser desencriptado con la clave, el dispositivo ha sido hackeado y el mensaje es rechazado.
 
@@ -97,15 +97,15 @@ La encriptación puede ser de dos tipos: simétrica y asimétrica.
 
 La encriptación **simétrica** utiliza la misma clave para encriptar y desencriptar los datos. Tanto el remitente como el receptor necesitan conocer la misma clave. Este es el tipo menos seguro, ya que la clave debe compartirse de alguna manera. Para que un remitente envíe un mensaje encriptado a un receptor, el remitente primero podría tener que enviarle la clave al receptor.
 
-![La encriptación simétrica utiliza la misma clave para encriptar y desencriptar un mensaje](../../../../../translated_images/send-message-symmetric-key.a2e8ad0d495896ff.es.png)
+![La encriptación simétrica utiliza la misma clave para encriptar y desencriptar un mensaje](../../../../../translated_images/es/send-message-symmetric-key.a2e8ad0d495896ff.webp)
 
 Si la clave es robada durante la transmisión, o si el remitente o receptor son hackeados y la clave es encontrada, la encriptación puede ser descifrada.
 
-![La encriptación simétrica solo es segura si un hacker no obtiene la clave; si lo hace, puede interceptar y desencriptar el mensaje](../../../../../translated_images/send-message-symmetric-key-hacker.e7cb53db1707adfb.es.png)
+![La encriptación simétrica solo es segura si un hacker no obtiene la clave; si lo hace, puede interceptar y desencriptar el mensaje](../../../../../translated_images/es/send-message-symmetric-key-hacker.e7cb53db1707adfb.webp)
 
 La encriptación **asimétrica** utiliza 2 claves: una clave de encriptación y una clave de desencriptación, conocidas como un par de claves pública/privada. La clave pública se utiliza para encriptar el mensaje, pero no puede usarse para desencriptarlo; la clave privada se utiliza para desencriptar el mensaje, pero no puede usarse para encriptarlo.
 
-![La encriptación asimétrica utiliza una clave diferente para encriptar y desencriptar. La clave de encriptación se envía a los remitentes para que puedan encriptar un mensaje antes de enviarlo al receptor que posee las claves](../../../../../translated_images/send-message-asymmetric.7abe327c62615b8c.es.png)
+![La encriptación asimétrica utiliza una clave diferente para encriptar y desencriptar. La clave de encriptación se envía a los remitentes para que puedan encriptar un mensaje antes de enviarlo al receptor que posee las claves](../../../../../translated_images/es/send-message-asymmetric.7abe327c62615b8c.webp)
 
 El receptor comparte su clave pública, y el remitente la utiliza para encriptar el mensaje. Una vez enviado el mensaje, el receptor lo desencripta con su clave privada. La encriptación asimétrica es más segura porque la clave privada se mantiene privada por el receptor y nunca se comparte. Cualquiera puede tener la clave pública, ya que solo puede usarse para encriptar mensajes.
 
@@ -165,7 +165,7 @@ Estos certificados tienen varios campos, incluyendo quién es el propietario de 
 
 Cuando usas certificados X.509, tanto el remitente como el receptor tendrán sus propias claves públicas y privadas, así como certificados X.509 que contienen la clave pública. Luego intercambian los certificados X.509 de alguna manera, utilizando las claves públicas del otro para cifrar los datos que envían y sus propias claves privadas para descifrar los datos que reciben.
 
-![En lugar de compartir una clave pública, puedes compartir un certificado. El usuario del certificado puede verificar que proviene de ti comprobando con la autoridad de certificación que lo firmó.](../../../../../translated_images/send-message-certificate.9cc576ac1e46b76e.es.png)
+![En lugar de compartir una clave pública, puedes compartir un certificado. El usuario del certificado puede verificar que proviene de ti comprobando con la autoridad de certificación que lo firmó.](../../../../../translated_images/es/send-message-certificate.9cc576ac1e46b76e.webp)
 
 Una gran ventaja de usar certificados X.509 es que pueden compartirse entre dispositivos. Puedes crear un certificado, subirlo al IoT Hub y usarlo para todos tus dispositivos. Cada dispositivo solo necesita conocer la clave privada para descifrar los mensajes que recibe del IoT Hub.
 

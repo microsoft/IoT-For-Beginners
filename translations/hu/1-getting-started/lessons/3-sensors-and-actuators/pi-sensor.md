@@ -25,13 +25,13 @@ A Grove fényérzékelőt, amelyet a fény szintjeinek érzékelésére használ
 
 Csatlakoztasd a fényérzékelőt.
 
-![Egy Grove fényérzékelő](../../../../../translated_images/grove-light-sensor.b8127b7c434e632d6bcdb57587a14e9ef69a268a22df95d08628f62b8fa5505c.hu.png)
+![Egy Grove fényérzékelő](../../../../../translated_images/hu/grove-light-sensor.b8127b7c434e632d6bcdb57587a14e9ef69a268a22df95d08628f62b8fa5505c.png)
 
 1. Helyezd be a Grove kábel egyik végét a fényérzékelő modul aljzatába. Csak egy irányban illeszkedik.
 
 1. Kapcsold ki a Raspberry Pi-t, majd csatlakoztasd a Grove kábel másik végét a Grove Base hat analóg aljzatába, amelyet **A0** jelöléssel látsz. Ez az aljzat a második a jobb oldalon, a GPIO pin-ek melletti aljzatsoron.
 
-![A Grove fényérzékelő az A0 aljzathoz csatlakoztatva](../../../../../translated_images/pi-light-sensor.66cc1e31fa48cd7d5f23400d4b2119aa41508275cb7c778053a7923b4e972d7e.hu.png)
+![A Grove fényérzékelő az A0 aljzathoz csatlakoztatva](../../../../../translated_images/hu/pi-light-sensor.66cc1e31fa48cd7d5f23400d4b2119aa41508275cb7c778053a7923b4e972d7e.png)
 
 ## Programozd a fényérzékelőt
 

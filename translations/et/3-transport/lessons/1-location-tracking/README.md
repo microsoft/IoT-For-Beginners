@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Asukoha jälgimine
 
-![Selle õppetunni visuaalne ülevaade](../../../../../translated_images/lesson-11.9fddbac4b664c6d50ab7ac9bb32f1fc3f945f03760e72f7f43938073762fb017.et.jpg)
+![Selle õppetunni visuaalne ülevaade](../../../../../translated_images/et/lesson-11.9fddbac4b664c6d50ab7ac9bb32f1fc3f945f03760e72f7f43938073762fb017.jpg)
 
 > Visuaal autorilt [Nitya Narasimhan](https://github.com/nitya). Klõpsa pildil, et näha suuremat versiooni.
 
@@ -72,13 +72,13 @@ Maa on sfäär – kolmemõõtmeline ring. Seetõttu määratakse punktid, jagad
 
 > 💁 Keegi ei tea täpselt, miks ringid jagatakse 360 kraadiks. [Kraad (nurk) Wikipedia leht](https://wikipedia.org/wiki/Degree_(angle)) käsitleb mõningaid võimalikke põhjuseid.
 
-![Laiuskraadide jooned: 90° põhjapoolusel, 45° põhjapooluse ja ekvaatori vahel, 0° ekvaatoril, -45° ekvaatori ja lõunapooluse vahel ning -90° lõunapoolusel](../../../../../translated_images/latitude-lines.11d8d91dfb2014a57437272d7db7fd6607243098e8685f06e0c5f1ec984cb7eb.et.png)
+![Laiuskraadide jooned: 90° põhjapoolusel, 45° põhjapooluse ja ekvaatori vahel, 0° ekvaatoril, -45° ekvaatori ja lõunapooluse vahel ning -90° lõunapoolusel](../../../../../translated_images/et/latitude-lines.11d8d91dfb2014a57437272d7db7fd6607243098e8685f06e0c5f1ec984cb7eb.png)
 
 Laiuskraadi mõõdetakse joontega, mis ümbritsevad Maad ja kulgevad paralleelselt ekvaatoriga, jagades põhjapoolkera ja lõunapoolkera 90° osadeks. Ekvaator on 0°, põhjapoolus on 90°, tuntud ka kui 90° põhja, ja lõunapoolus on -90°, ehk 90° lõuna.
 
 Pikkuskraadi mõõdetakse kraadide arvuna idast ja läänest. Pikkuskraadi 0° alguspunkti nimetatakse *nullmeridiaaniks* ja see määrati 1884. aastal joonena, mis kulgeb põhjapoolusest lõunapooluseni läbi [Briti Kuningliku Observatooriumi Greenwichis, Inglismaal](https://wikipedia.org/wiki/Royal_Observatory,_Greenwich).
 
-![Pikkuskraadi jooned: -180° nullmeridiaanist läänes, 0° nullmeridiaanil, 180° nullmeridiaanist idas](../../../../../translated_images/longitude-meridians.ab4ef1c91c064586b0185a3c8d39e585903696c6a7d28c098a93a629cddb5d20.et.png)
+![Pikkuskraadi jooned: -180° nullmeridiaanist läänes, 0° nullmeridiaanil, 180° nullmeridiaanist idas](../../../../../translated_images/et/longitude-meridians.ab4ef1c91c064586b0185a3c8d39e585903696c6a7d28c098a93a629cddb5d20.png)
 
 > 🎓 Meridiaan on kujuteldav sirgjoon, mis kulgeb põhjapoolusest lõunapooluseni, moodustades poolringi.
 
@@ -109,7 +109,7 @@ Punkti koordinaadid antakse alati kujul `laiuskraad, pikkuskraad`, seega varasem
 * Laiuskraadi 47.6423109 (47.6423109 kraadi põhja ekvaatorist)
 * Pikkuskraadi -122.1390293 (122.1390293 kraadi lääne nullmeridiaanist).
 
-![Microsofti kampus koordinaatidel 47.6423109,-122.117198](../../../../../translated_images/microsoft-gps-location-world.a321d481b010f6adfcca139b2ba0adc53b79f58a540495b8e2ce7f779ea64bfe.et.png)
+![Microsofti kampus koordinaatidel 47.6423109,-122.117198](../../../../../translated_images/et/microsoft-gps-location-world.a321d481b010f6adfcca139b2ba0adc53b79f58a540495b8e2ce7f779ea64bfe.png)
 
 ## Globaalne positsioneerimissüsteem (GPS)
 
@@ -121,7 +121,7 @@ GPS-süsteemid töötavad nii, et mitmed satelliidid saadavad signaali, mis sisa
 
 > 💁 GPS-andurid vajavad antenne raadiosageduste tuvastamiseks. Veoautodes ja autodes sisseehitatud GPS-antenne paigutatakse hea signaali saamiseks tavaliselt esiklaasile või katusele. Kui kasutate eraldi GPS-süsteemi, näiteks nutitelefoni või IoT-seadet, peate tagama, et GPS-süsteemi või telefoni sisseehitatud antennil oleks selge vaade taevasse, näiteks esiklaasil.
 
-![Teades anduri kaugust mitmest satelliidist, saab asukoha arvutada](../../../../../translated_images/gps-satellites.04acf1148fe25fbf1586bc2e8ba698e8d79b79a50c36824b38417dd13372b90f.et.png)
+![Teades anduri kaugust mitmest satelliidist, saab asukoha arvutada](../../../../../translated_images/et/gps-satellites.04acf1148fe25fbf1586bc2e8ba698e8d79b79a50c36824b38417dd13372b90f.png)
 
 GPS-satelliidid tiirlevad ümber Maa, mitte ei ole fikseeritud punktis anduri kohal, seega sisaldavad asukohaandmed ka kõrgust merepinnast lisaks laius- ja pikkuskraadidele.
 

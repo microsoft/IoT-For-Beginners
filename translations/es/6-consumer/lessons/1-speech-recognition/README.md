@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Reconocer voz con un dispositivo IoT
 
-![Una visión general ilustrada de esta lección](../../../../../translated_images/lesson-21.e34de51354d6606fb5ee08d8c89d0222eea0a2a7aaf744a8805ae847c4f69dc4.es.jpg)
+![Una visión general ilustrada de esta lección](../../../../../translated_images/es/lesson-21.e34de51354d6606fb5ee08d8c89d0222eea0a2a7aaf744a8805ae847c4f69dc4.jpg)
 
 > Ilustración por [Nitya Narasimhan](https://github.com/nitya). Haz clic en la imagen para una versión más grande.
 
@@ -60,19 +60,19 @@ Los micrófonos vienen en una variedad de tipos:
 
     Los micrófonos dinámicos no necesitan energía para funcionar, la señal eléctrica se genera completamente desde el micrófono.
 
-    ![Patti Smith cantando en un micrófono Shure SM58 (tipo cardioide dinámico)](../../../../../translated_images/dynamic-mic.8babac890a2d80dfb0874b5bf37d4b851fe2aeb9da6fd72945746176978bf3bb.es.jpg)
+    ![Patti Smith cantando en un micrófono Shure SM58 (tipo cardioide dinámico)](../../../../../translated_images/es/dynamic-mic.8babac890a2d80dfb0874b5bf37d4b851fe2aeb9da6fd72945746176978bf3bb.jpg)
 
 * De cinta - Los micrófonos de cinta son similares a los dinámicos, excepto que tienen una cinta metálica en lugar de un diafragma. Esta cinta se mueve en un campo magnético generando una corriente eléctrica. Al igual que los micrófonos dinámicos, los de cinta no necesitan energía para funcionar.
 
-    ![Edmund Lowe, actor estadounidense, de pie frente a un micrófono de radio (etiquetado para la Red Azul de NBC), sosteniendo un guion, 1942](../../../../../translated_images/ribbon-mic.eacc8e092c7441ca.es.jpg)
+    ![Edmund Lowe, actor estadounidense, de pie frente a un micrófono de radio (etiquetado para la Red Azul de NBC), sosteniendo un guion, 1942](../../../../../translated_images/es/ribbon-mic.eacc8e092c7441ca.webp)
 
 * Condensador - Los micrófonos de condensador tienen un diafragma metálico delgado y una placa trasera metálica fija. Se aplica electricidad a ambos, y a medida que el diafragma vibra, la carga estática entre las placas cambia generando una señal. Los micrófonos de condensador necesitan energía para funcionar, llamada *Phantom power*.
 
-    ![Micrófono de condensador de diafragma pequeño C451B de AKG Acoustics](../../../../../translated_images/condenser-mic.6f6ed5b76ca19e0ec3fd0c544601542d4479a6cb7565db336de49fbbf69f623e.es.jpg)
+    ![Micrófono de condensador de diafragma pequeño C451B de AKG Acoustics](../../../../../translated_images/es/condenser-mic.6f6ed5b76ca19e0ec3fd0c544601542d4479a6cb7565db336de49fbbf69f623e.jpg)
 
 * MEMS - Los micrófonos de sistemas microelectromecánicos, o MEMS, son micrófonos en un chip. Tienen un diafragma sensible a la presión grabado en un chip de silicio, y funcionan de manera similar a un micrófono de condensador. Estos micrófonos pueden ser diminutos e integrarse en circuitos.
 
-    ![Un micrófono MEMS en una placa de circuito](../../../../../translated_images/mems-microphone.80574019e1f5e4d9ee72fed720ecd25a39fc2969c91355d17ebb24ba4159e4c4.es.png)
+    ![Un micrófono MEMS en una placa de circuito](../../../../../translated_images/es/mems-microphone.80574019e1f5e4d9ee72fed720ecd25a39fc2969c91355d17ebb24ba4159e4c4.png)
 
     En la imagen de arriba, el chip etiquetado como **LEFT** es un micrófono MEMS, con un diafragma diminuto de menos de un milímetro de ancho.
 
@@ -84,7 +84,7 @@ El audio es una señal analógica que transporta información muy detallada. Par
 
 > 🎓 Muestrear significa convertir la señal de audio en un valor digital que representa la señal en ese momento.
 
-![Un gráfico de líneas que muestra una señal, con puntos discretos en intervalos fijos](../../../../../translated_images/sampling.6f4fadb3f2d9dfe7.es.png)
+![Un gráfico de líneas que muestra una señal, con puntos discretos en intervalos fijos](../../../../../translated_images/es/sampling.6f4fadb3f2d9dfe7.webp)
 
 El audio digital se muestrea utilizando Modulación por Código de Pulsos, o PCM. PCM implica leer el voltaje de la señal y seleccionar el valor discreto más cercano a ese voltaje utilizando un tamaño definido.
 
@@ -168,7 +168,7 @@ Para evitar la complejidad de entrenar y usar un modelo de palabras de activaci�
 
 ## Convertir voz a texto
 
-![Logotipo de servicios de voz](../../../../../translated_images/azure-speech-logo.a1f08c4befb0159f2cb5d692d3baf5b599e7b44759d316da907bda1508f46a4a.es.png)
+![Logotipo de servicios de voz](../../../../../translated_images/es/azure-speech-logo.a1f08c4befb0159f2cb5d692d3baf5b599e7b44759d316da907bda1508f46a4a.png)
 
 Al igual que con la clasificación de imágenes en un proyecto anterior, existen servicios de IA preconstruidos que pueden tomar voz como archivo de audio y convertirla en texto. Uno de estos servicios es el Servicio de Voz, parte de los Servicios Cognitivos, servicios de IA preconstruidos que puedes usar en tus aplicaciones.
 

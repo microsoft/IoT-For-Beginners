@@ -19,7 +19,7 @@ Sisäänrakennettu mikrofoni tallentaa analogisen signaalin, joka muunnetaan dig
 
 ✅ Lue lisää DMA:sta [Wikipedia-artikkelista suorasta muistin pääsystä](https://wikipedia.org/wiki/Direct_memory_access).
 
-![Ääni mikrofonista menee ADC:n kautta DMAC:lle. Tämä kirjoittaa yhteen puskuriin. Kun tämä puskuri on täynnä, se käsitellään ja DMAC kirjoittaa toiseen puskuriin](../../../../../translated_images/dmac-adc-buffers.4509aee49145c90bc2e1be472b8ed2ddfcb2b6a81ad3e559114aca55f5fff759.fi.png)
+![Ääni mikrofonista menee ADC:n kautta DMAC:lle. Tämä kirjoittaa yhteen puskuriin. Kun tämä puskuri on täynnä, se käsitellään ja DMAC kirjoittaa toiseen puskuriin](../../../../../translated_images/fi/dmac-adc-buffers.4509aee49145c90bc2e1be472b8ed2ddfcb2b6a81ad3e559114aca55f5fff759.png)
 
 DMAC voi tallentaa ääntä ADC:ltä kiintein välein, esimerkiksi 16 000 kertaa sekunnissa 16 kHz:n ääntä varten. Se voi kirjoittaa nämä tallennetut tiedot ennalta varattuun muistipuskuriin, ja kun tämä on täynnä, se ilmoittaa koodillesi, että puskuri on valmis käsiteltäväksi. Tämän muistin käyttö voi viivästyttää äänen tallennusta, mutta voit asettaa useita puskureita. DMAC kirjoittaa puskuriin 1, ja kun se on täynnä, se ilmoittaa koodillesi käsitellä puskuri 1, samalla kun DMAC kirjoittaa puskuriin 2. Kun puskuri 2 on täynnä, se ilmoittaa koodillesi ja palaa kirjoittamaan puskuriin 1. Näin kauan kuin käsittelet jokaisen puskurin nopeammin kuin sen täyttymiseen kuluva aika, et menetä mitään tietoja.
 

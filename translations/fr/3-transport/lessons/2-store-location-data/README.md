@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Stocker des données de localisation
 
-![Un aperçu en sketchnote de cette leçon](../../../../../translated_images/lesson-12.ca7f53039712a3ec14ad6474d8445361c84adab643edc53fa6269b77895606bb.fr.jpg)
+![Un aperçu en sketchnote de cette leçon](../../../../../translated_images/fr/lesson-12.ca7f53039712a3ec14ad6474d8445361c84adab643edc53fa6269b77895606bb.jpg)
 
 > Sketchnote par [Nitya Narasimhan](https://github.com/nitya). Cliquez sur l'image pour une version agrandie.
 
@@ -66,7 +66,7 @@ Les bases de données sont des services qui permettent de stocker et de interrog
 
 Les premières bases de données étaient des systèmes de gestion de bases de données relationnelles (RDBMS), ou bases de données relationnelles. Elles sont également connues sous le nom de bases de données SQL en raison du langage de requête structuré (SQL) utilisé pour interagir avec elles afin d'ajouter, supprimer, mettre à jour ou interroger des données. Ces bases de données consistent en un schéma - un ensemble bien défini de tableaux de données, similaire à une feuille de calcul. Chaque tableau possède plusieurs colonnes nommées. Lorsque vous insérez des données, vous ajoutez une ligne au tableau, en mettant des valeurs dans chacune des colonnes. Cela maintient les données dans une structure très rigide - bien que vous puissiez laisser des colonnes vides, si vous souhaitez ajouter une nouvelle colonne, vous devez le faire sur la base de données, en remplissant les valeurs pour les lignes existantes. Ces bases de données sont relationnelles - c'est-à-dire qu'un tableau peut avoir une relation avec un autre.
 
-![Une base de données relationnelle où l'ID du tableau Utilisateur est lié à la colonne ID utilisateur du tableau Achats, et l'ID du tableau Produits est lié à l'ID produit du tableau Achats](../../../../../translated_images/sql-database.be160f12bfccefd3.fr.png)
+![Une base de données relationnelle où l'ID du tableau Utilisateur est lié à la colonne ID utilisateur du tableau Achats, et l'ID du tableau Produits est lié à l'ID produit du tableau Achats](../../../../../translated_images/fr/sql-database.be160f12bfccefd3.webp)
 
 Par exemple, si vous stockiez les informations personnelles d'un utilisateur dans un tableau, vous auriez un ID unique interne par utilisateur utilisé dans une ligne d'un tableau contenant le nom et l'adresse de l'utilisateur. Si vous souhaitiez ensuite stocker d'autres détails sur cet utilisateur, comme ses achats, dans un autre tableau, vous auriez une colonne dans le nouveau tableau pour l'ID de cet utilisateur. Lorsque vous recherchez un utilisateur, vous pouvez utiliser son ID pour obtenir ses informations personnelles dans un tableau, et ses achats dans un autre.
 
@@ -84,7 +84,7 @@ Les bases de données NoSQL sont appelées NoSQL car elles n'ont pas la même st
 
 > 💁 Malgré leur nom, certaines bases de données NoSQL permettent d'utiliser SQL pour interroger les données.
 
-![Documents dans des dossiers dans une base de données NoSQL](../../../../../translated_images/noqsl-database.62d24ccf5b73f60d35c245a8533f1c7147c0928e955b82cb290b2e184bb434df.fr.png)
+![Documents dans des dossiers dans une base de données NoSQL](../../../../../translated_images/fr/noqsl-database.62d24ccf5b73f60d35c245a8533f1c7147c0928e955b82cb290b2e184bb434df.png)
 
 Les bases de données NoSQL n'ont pas de schéma prédéfini qui limite la manière dont les données sont stockées. Vous pouvez insérer des données non structurées, généralement sous forme de documents JSON. Ces documents peuvent être organisés en dossiers, similaires aux fichiers sur votre ordinateur. Chaque document peut avoir des champs différents des autres documents - par exemple, si vous stockiez des données IoT provenant de vos véhicules agricoles, certains pourraient avoir des champs pour les données d'accéléromètre et de vitesse, d'autres pourraient avoir des champs pour la température dans la remorque. Si vous ajoutiez un nouveau type de camion, comme un camion avec des balances intégrées pour suivre le poids des produits transportés, alors votre dispositif IoT pourrait ajouter ce nouveau champ et il pourrait être stocké sans aucun changement à la base de données.
 
@@ -98,7 +98,7 @@ Dans cette leçon, vous utiliserez un stockage NoSQL pour stocker des données I
 
 Dans la dernière leçon, vous avez capturé des données GPS à partir d'un capteur GPS connecté à votre dispositif IoT. Pour stocker ces données IoT dans le cloud, vous devez les envoyer à un service IoT. Une fois de plus, vous utiliserez Azure IoT Hub, le même service IoT cloud que vous avez utilisé dans le projet précédent.
 
-![Envoi de télémétrie GPS d'un dispositif IoT à IoT Hub](../../../../../translated_images/gps-telemetry-iot-hub.8115335d51cd2c1285d20e9d1b18cf685e59a8e093e7797291ef173445af6f3d.fr.png)
+![Envoi de télémétrie GPS d'un dispositif IoT à IoT Hub](../../../../../translated_images/fr/gps-telemetry-iot-hub.8115335d51cd2c1285d20e9d1b18cf685e59a8e093e7797291ef173445af6f3d.png)
 
 ### Tâche - envoyer des données GPS à un IoT Hub
 
@@ -180,7 +180,7 @@ Les données du chemin froid sont stockées dans des entrepôts de données - de
 
 Une fois que les données arrivent dans votre IoT Hub, vous pouvez écrire du code sans serveur pour écouter les événements publiés sur le point de terminaison compatible Event-Hub. Il s'agit du chemin tiède - ces données seront stockées et utilisées dans la prochaine leçon pour établir un rapport sur le trajet.
 
-![Envoi de télémétrie GPS d'un dispositif IoT à IoT Hub, puis à Azure Functions via un déclencheur Event Hub](../../../../../translated_images/gps-telemetry-iot-hub-functions.24d3fa5592455e9f4e2fe73856b40c3915a292b90263c31d652acfd976cfedd8.fr.png)
+![Envoi de télémétrie GPS d'un dispositif IoT à IoT Hub, puis à Azure Functions via un déclencheur Event Hub](../../../../../translated_images/fr/gps-telemetry-iot-hub-functions.24d3fa5592455e9f4e2fe73856b40c3915a292b90263c31d652acfd976cfedd8.png)
 
 ### Tâche - gérer les événements GPS avec du code sans serveur
 
@@ -202,7 +202,7 @@ Une fois que les données arrivent dans votre IoT Hub, vous pouvez écrire du co
 
 ## Comptes de stockage Azure
 
-![Le logo Azure Storage](../../../../../translated_images/azure-storage-logo.605c0f602c640d482a80f1b35a2629a32d595711b7ab1d7ceea843250615ff32.fr.png)
+![Le logo Azure Storage](../../../../../translated_images/fr/azure-storage-logo.605c0f602c640d482a80f1b35a2629a32d595711b7ab1d7ceea843250615ff32.png)
 
 Les comptes de stockage Azure sont un service de stockage polyvalent qui peut stocker des données de différentes manières. Vous pouvez stocker des données sous forme de blobs, dans des files d'attente, dans des tables ou sous forme de fichiers, et tout cela simultanément.
 
@@ -241,7 +241,7 @@ Votre application de fonctions doit maintenant se connecter au stockage blob pou
 
 Dans cette leçon, vous utiliserez le SDK Python pour voir comment interagir avec le stockage blob.
 
-![Envoi de télémétrie GPS depuis un appareil IoT vers IoT Hub, puis vers Azure Functions via un déclencheur Event Hub, puis enregistrement dans le stockage blob](../../../../../translated_images/save-telemetry-to-storage-from-functions.ed3b1820980097f1.fr.png)
+![Envoi de télémétrie GPS depuis un appareil IoT vers IoT Hub, puis vers Azure Functions via un déclencheur Event Hub, puis enregistrement dans le stockage blob](../../../../../translated_images/fr/save-telemetry-to-storage-from-functions.ed3b1820980097f1.webp)
 
 Les données seront enregistrées sous forme de blob JSON avec le format suivant :
 

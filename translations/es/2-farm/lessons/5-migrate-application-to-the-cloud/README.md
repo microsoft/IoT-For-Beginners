@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Migra la lógica de tu aplicación a la nube
 
-![Una ilustración resumen de esta lección](../../../../../translated_images/lesson-9.dfe99c8e891f48e179724520da9f5794392cf9a625079281ccdcbf09bd85e1b6.es.jpg)
+![Una ilustración resumen de esta lección](../../../../../translated_images/es/lesson-9.dfe99c8e891f48e179724520da9f5794392cf9a625079281ccdcbf09bd85e1b6.jpg)
 
 > Ilustración por [Nitya Narasimhan](https://github.com/nitya). Haz clic en la imagen para una versión más grande.
 
@@ -37,11 +37,11 @@ En esta lección cubriremos:
 
 Sin servidor, o computación sin servidor, implica crear pequeños bloques de código que se ejecutan en la nube en respuesta a diferentes tipos de eventos. Cuando ocurre el evento, tu código se ejecuta y recibe datos sobre el evento. Estos eventos pueden provenir de muchas fuentes, como solicitudes web, mensajes en una cola, cambios en datos de una base de datos o mensajes enviados a un servicio IoT por dispositivos IoT.
 
-![Eventos enviados desde un servicio IoT a un servicio sin servidor, todos procesados al mismo tiempo por múltiples funciones en ejecución](../../../../../translated_images/iot-messages-to-serverless.0194da1cc0732bb7d0f823aed3fce54735c6b1ad3bf36089804d8aaefc0a774f.es.png)
+![Eventos enviados desde un servicio IoT a un servicio sin servidor, todos procesados al mismo tiempo por múltiples funciones en ejecución](../../../../../translated_images/es/iot-messages-to-serverless.0194da1cc0732bb7d0f823aed3fce54735c6b1ad3bf36089804d8aaefc0a774f.png)
 
 > 💁 Si has usado disparadores de bases de datos antes, puedes pensar en esto como algo similar: código que se activa por un evento como insertar una fila.
 
-![Cuando se envían muchos eventos al mismo tiempo, el servicio sin servidor escala para ejecutarlos todos simultáneamente](../../../../../translated_images/serverless-scaling.f8c769adf0413fd1.es.png)
+![Cuando se envían muchos eventos al mismo tiempo, el servicio sin servidor escala para ejecutarlos todos simultáneamente](../../../../../translated_images/es/serverless-scaling.f8c769adf0413fd1.webp)
 
 Tu código solo se ejecuta cuando ocurre el evento; no hay nada manteniendo tu código activo en otros momentos. El evento ocurre, tu código se carga y se ejecuta. Esto hace que el modelo sin servidor sea muy escalable: si muchos eventos ocurren al mismo tiempo, el proveedor de la nube puede ejecutar tu función tantas veces como sea necesario simultáneamente en los servidores disponibles. La desventaja de esto es que si necesitas compartir información entre eventos, debes guardarla en algún lugar como una base de datos en lugar de almacenarla en memoria.
 
@@ -63,7 +63,7 @@ Como desarrollador de IoT, el modelo sin servidor es ideal. Puedes escribir una 
 
 El servicio de computación sin servidor de Microsoft se llama Azure Functions.
 
-![El logo de Azure Functions](../../../../../translated_images/azure-functions-logo.1cfc8e3204c9c44aaf80fcf406fc8544d80d7f00f8d3e8ed6fed764563e17564.es.png)
+![El logo de Azure Functions](../../../../../translated_images/es/azure-functions-logo.1cfc8e3204c9c44aaf80fcf406fc8544d80d7f00f8d3e8ed6fed764563e17564.png)
 
 El siguiente video corto ofrece una visión general de Azure Functions.
 
@@ -244,7 +244,7 @@ La CLI de Azure Functions puede usarse para crear una nueva aplicación de funci
     VS Code. Initialize for optimal use with VS Code?
     ```
 
-    ![La notificación](../../../../../translated_images/vscode-azure-functions-init-notification.bd19b49229963edb.es.png)
+    ![La notificación](../../../../../translated_images/es/vscode-azure-functions-init-notification.bd19b49229963edb.webp)
 
     Selecciona **Sí** en esta notificación.
 

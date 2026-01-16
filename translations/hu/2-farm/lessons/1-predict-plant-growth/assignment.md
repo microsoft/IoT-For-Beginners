@@ -42,7 +42,7 @@ Miután megvannak a hőmérsékleti adatok, használhatod a Jupyter Notebookot e
 
     A Jupyter elindul, és megnyitja a notebookot a böngésződben. Kövesd a notebookban található utasításokat, hogy vizualizáld a mért hőmérsékleteket, és kiszámítsd a növekedési foknapokat (GDD).
 
-    ![A jupyter notebook](../../../../../translated_images/gdd-jupyter-notebook.c5b52cf21094f158a61f47f455490fd95f1729777ff90861a4521820bf354cdc.hu.png)
+    ![A jupyter notebook](../../../../../translated_images/hu/gdd-jupyter-notebook.c5b52cf21094f158a61f47f455490fd95f1729777ff90861a4521820bf354cdc.png)
 
 ## Értékelési szempontok
 

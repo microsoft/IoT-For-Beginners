@@ -42,7 +42,7 @@ Une fois que vous avez des données de température, vous pouvez utiliser le Jup
 
     Jupyter démarrera et ouvrira le notebook dans votre navigateur. Suivez les instructions dans le notebook pour visualiser les températures mesurées et calculer les jours degrés de croissance.
 
-    ![Le notebook Jupyter](../../../../../translated_images/gdd-jupyter-notebook.c5b52cf21094f158a61f47f455490fd95f1729777ff90861a4521820bf354cdc.fr.png)
+    ![Le notebook Jupyter](../../../../../translated_images/fr/gdd-jupyter-notebook.c5b52cf21094f158a61f47f455490fd95f1729777ff90861a4521820bf354cdc.png)
 
 ## Grille d'évaluation
 

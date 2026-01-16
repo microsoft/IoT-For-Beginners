@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Riego automatizado de plantas
 
-![Una vista general en sketchnote de esta lección](../../../../../translated_images/lesson-7.30b5f577d3cb8e031238751475cb519c7d6dbaea261b5df4643d086ffb2a03bb.es.jpg)
+![Una vista general en sketchnote de esta lección](../../../../../translated_images/es/lesson-7.30b5f577d3cb8e031238751475cb519c7d6dbaea261b5df4643d086ffb2a03bb.jpg)
 
 > Sketchnote por [Nitya Narasimhan](https://github.com/nitya). Haz clic en la imagen para una versión más grande.
 
@@ -41,7 +41,7 @@ Los dispositivos IoT utilizan un voltaje bajo. Aunque esto es suficiente para se
 
 La solución a esto es conectar una bomba a una fuente de alimentación externa y usar un actuador para encender la bomba, similar a cómo encenderías una luz. Se necesita una pequeña cantidad de energía (en forma de energía en tu cuerpo) para que tu dedo accione un interruptor, y esto conecta la luz a la electricidad de red que funciona a 110v/240v.
 
-![Un interruptor de luz enciende la luz](../../../../../translated_images/light-switch.760317ad6ab8bd6d611da5352dfe9c73a94a0822ccec7df3c8bae35da18e1658.es.png)
+![Un interruptor de luz enciende la luz](../../../../../translated_images/es/light-switch.760317ad6ab8bd6d611da5352dfe9c73a94a0822ccec7df3c8bae35da18e1658.png)
 
 > 🎓 [Electricidad de red](https://wikipedia.org/wiki/Mains_electricity) se refiere a la electricidad entregada a hogares y negocios a través de infraestructura nacional en muchas partes del mundo.
 
@@ -55,11 +55,11 @@ Un relé es un interruptor electromecánico que convierte una señal eléctrica 
 
 > 🎓 [Electroimanes](https://wikipedia.org/wiki/Electromagnet) son imanes que se crean al pasar electricidad a través de una bobina de alambre. Cuando la electricidad está encendida, la bobina se magnetiza. Cuando la electricidad está apagada, la bobina pierde su magnetismo.
 
-![Cuando está encendido, el electroimán crea un campo magnético, activando el interruptor del circuito de salida](../../../../../translated_images/relay-on.4db16a0fd6b66926.es.png)
+![Cuando está encendido, el electroimán crea un campo magnético, activando el interruptor del circuito de salida](../../../../../translated_images/es/relay-on.4db16a0fd6b66926.webp)
 
 En un relé, un circuito de control alimenta el electroimán. Cuando el electroimán está encendido, tira de una palanca que mueve un interruptor, cerrando un par de contactos y completando un circuito de salida.
 
-![Cuando está apagado, el electroimán no crea un campo magnético, desactivando el interruptor del circuito de salida](../../../../../translated_images/relay-off.c34a178a2960fecd.es.png)
+![Cuando está apagado, el electroimán no crea un campo magnético, desactivando el interruptor del circuito de salida](../../../../../translated_images/es/relay-off.c34a178a2960fecd.webp)
 
 Cuando el circuito de control está apagado, el electroimán se apaga, liberando la palanca y abriendo los contactos, apagando el circuito de salida. Los relés son actuadores digitales: una señal alta al relé lo enciende, una señal baja lo apaga.
 
@@ -81,11 +81,11 @@ Cuando la palanca se mueve, generalmente puedes escucharla hacer contacto con el
 
 El electroimán no necesita mucha energía para activarse y tirar de la palanca, puede controlarse utilizando la salida de 3.3V o 5V de un kit de desarrollo IoT. El circuito de salida puede transportar mucha más energía, dependiendo del relé, incluyendo voltaje de red o incluso niveles de energía más altos para uso industrial. De esta manera, un kit de desarrollo IoT puede controlar un sistema de riego, desde una pequeña bomba para una sola planta, hasta un sistema industrial masivo para toda una granja comercial.
 
-![Un relé Grove con el circuito de control, circuito de salida y relé etiquetados](../../../../../translated_images/grove-relay-labelled.293e068f5c3c2a199bd7892f2661fdc9e10c920b535cfed317fbd6d1d4ae1168.es.png)
+![Un relé Grove con el circuito de control, circuito de salida y relé etiquetados](../../../../../translated_images/es/grove-relay-labelled.293e068f5c3c2a199bd7892f2661fdc9e10c920b535cfed317fbd6d1d4ae1168.png)
 
 La imagen anterior muestra un relé Grove. El circuito de control se conecta a un dispositivo IoT y enciende o apaga el relé utilizando 3.3V o 5V. El circuito de salida tiene dos terminales, cualquiera de ellos puede ser alimentación o tierra. El circuito de salida puede manejar hasta 250V a 10A, suficiente para una variedad de dispositivos alimentados por red. Puedes obtener relés que pueden manejar incluso niveles de energía más altos.
 
-![Una bomba conectada a través de un relé](../../../../../translated_images/pump-wired-to-relay.66c5cfc0d8918990.es.png)
+![Una bomba conectada a través de un relé](../../../../../translated_images/es/pump-wired-to-relay.66c5cfc0d8918990.webp)
 
 En la imagen anterior, la energía se suministra a una bomba a través de un relé. Hay un cable rojo que conecta el terminal +5V de una fuente de alimentación USB a un terminal del circuito de salida del relé, y otro cable rojo que conecta el otro terminal del circuito de salida a la bomba. Un cable negro conecta la bomba a la tierra de la fuente de alimentación USB. Cuando el relé se enciende, completa el circuito, enviando 5V a la bomba y activándola.
 
@@ -135,7 +135,7 @@ En la lección 3 construiste una luz nocturna: un LED que se enciende tan pronto
 
 Si realizaste la última lección sobre humedad del suelo utilizando un sensor físico, habrás notado que tomó unos segundos para que la lectura de humedad del suelo bajara después de regar tu planta. Esto no se debe a que el sensor sea lento, sino a que el agua tarda en filtrarse a través del suelo.
 💁 Si regaste demasiado cerca del sensor, es posible que hayas notado que la lectura bajó rápidamente y luego volvió a subir. Esto ocurre porque el agua cerca del sensor se dispersa por el resto del suelo, reduciendo la humedad del suelo alrededor del sensor.
-![Una medición de humedad del suelo de 658 no cambia durante el riego, solo baja a 320 después de que el agua ha empapado el suelo](../../../../../translated_images/soil-moisture-travel.a0e31af222cf1438.es.png)
+![Una medición de humedad del suelo de 658 no cambia durante el riego, solo baja a 320 después de que el agua ha empapado el suelo](../../../../../translated_images/es/soil-moisture-travel.a0e31af222cf1438.webp)
 
 En el diagrama anterior, una lectura de humedad del suelo muestra 658. La planta es regada, pero esta lectura no cambia inmediatamente, ya que el agua aún no ha llegado al sensor. Incluso el riego puede terminar antes de que el agua alcance el sensor y el valor baje para reflejar el nuevo nivel de humedad.
 
@@ -157,11 +157,11 @@ La mejor solución es entender que hay un retraso entre el momento en que el act
 
 > 💁 Este tipo de control de temporización es muy específico para el dispositivo IoT que estás construyendo, la propiedad que estás midiendo y los sensores y actuadores utilizados.
 
-![Una planta de fresa conectada al agua mediante una bomba, con la bomba conectada a un relé. El relé y un sensor de humedad del suelo en la planta están conectados a un Raspberry Pi](../../../../../translated_images/strawberry-with-pump.b410fc72ac6aabad.es.png)
+![Una planta de fresa conectada al agua mediante una bomba, con la bomba conectada a un relé. El relé y un sensor de humedad del suelo en la planta están conectados a un Raspberry Pi](../../../../../translated_images/es/strawberry-with-pump.b410fc72ac6aabad.webp)
 
 Por ejemplo, tengo una planta de fresa con un sensor de humedad del suelo y una bomba controlada por un relé. He observado que cuando agrego agua, tarda unos 20 segundos en estabilizarse la lectura de humedad del suelo. Esto significa que necesito apagar el relé y esperar 20 segundos antes de verificar los niveles de humedad. Prefiero tener poca agua que demasiada: siempre puedo encender la bomba nuevamente, pero no puedo quitar agua de la planta.
 
-![Paso 1, tomar medición. Paso 2, agregar agua. Paso 3, esperar a que el agua empape el suelo. Paso 4, volver a tomar medición](../../../../../translated_images/soil-moisture-delay.865f3fae206db01d.es.png)
+![Paso 1, tomar medición. Paso 2, agregar agua. Paso 3, esperar a que el agua empape el suelo. Paso 4, volver a tomar medición](../../../../../translated_images/es/soil-moisture-delay.865f3fae206db01d.webp)
 
 Esto significa que el mejor proceso sería un ciclo de riego que sea algo como:
 

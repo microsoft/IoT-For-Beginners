@@ -25,7 +25,7 @@ Kamera voidaan liittää Raspberry Pi:hin nauhakaapelilla.
 
 ### Tehtävä - liitä kamera
 
-![Raspberry Pi -kamera](../../../../../translated_images/pi-camera-module.4278753c31bd6e757aa2b858be97d72049f71616278cefe4fb5abb485b40a078.fi.png)
+![Raspberry Pi -kamera](../../../../../translated_images/fi/pi-camera-module.4278753c31bd6e757aa2b858be97d72049f71616278cefe4fb5abb485b40a078.png)
 
 1. Sammuta Pi.
 
@@ -33,17 +33,17 @@ Kamera voidaan liittää Raspberry Pi:hin nauhakaapelilla.
 
     Voit katsoa animaation, joka näyttää, miten klipsi avataan ja kaapeli asetetaan, [Raspberry Pi:n Getting Started with the Camera module -dokumentaatiosta](https://projects.raspberrypi.org/en/projects/getting-started-with-picamera/2).
 
-    ![Nauhakaapeli liitetty kameramoduuliin](../../../../../translated_images/pi-camera-ribbon-cable.0bf82acd251611c21ac616f082849413e2b322a261d0e4f8fec344248083b07e.fi.png)
+    ![Nauhakaapeli liitetty kameramoduuliin](../../../../../translated_images/fi/pi-camera-ribbon-cable.0bf82acd251611c21ac616f082849413e2b322a261d0e4f8fec344248083b07e.png)
 
 1. Poista Grove Base Hat Pi:stä.
 
 1. Vie nauhakaapeli Grove Base Hatin kameran aukon läpi. Varmista, että kaapelin sininen puoli on kohti analogisia portteja, jotka on merkitty **A0**, **A1** jne.
 
-    ![Nauhakaapeli kulkee Grove Base Hatin läpi](../../../../../translated_images/grove-base-hat-ribbon-cable.501fed202fcf73b11b2b68f6d246189f7d15d3e4423c572ddee79d77b4632b47.fi.png)
+    ![Nauhakaapeli kulkee Grove Base Hatin läpi](../../../../../translated_images/fi/grove-base-hat-ribbon-cable.501fed202fcf73b11b2b68f6d246189f7d15d3e4423c572ddee79d77b4632b47.png)
 
 1. Aseta nauhakaapeli Pi:n kameraliitäntään. Vedä jälleen mustaa muoviklipsiä ylös, aseta kaapeli ja työnnä klipsi takaisin paikalleen. Kaapelin sininen puoli tulisi olla kohti USB- ja Ethernet-portteja.
 
-    ![Nauhakaapeli liitetty Pi:n kameraliitäntään](../../../../../translated_images/pi-camera-socket-ribbon-cable.a18309920b11800911082ed7aa6fb28e6d9be3a022e4079ff990016cae3fca10.fi.png)
+    ![Nauhakaapeli liitetty Pi:n kameraliitäntään](../../../../../translated_images/fi/pi-camera-socket-ribbon-cable.a18309920b11800911082ed7aa6fb28e6d9be3a022e4079ff990016cae3fca10.png)
 
 1. Kiinnitä Grove Base Hat takaisin paikalleen.
 
@@ -110,7 +110,7 @@ Ohjelmoi laite.
 
     Rivi `camera.rotation = 0` asettaa kuvan kierron. Nauhakaapeli tulee kameran alapuolelta, mutta jos kamera on käännetty helpottamaan kohteen suuntaamista, voit muuttaa tätä riviä kierron asteiden mukaan.
 
-    ![Kamera roikkuu juomatölkin yläpuolella](../../../../../translated_images/pi-camera-upside-down.5376961ba31459883362124152ad6b823d5ac5fc14e85f317e22903bd681c2b6.fi.png)
+    ![Kamera roikkuu juomatölkin yläpuolella](../../../../../translated_images/fi/pi-camera-upside-down.5376961ba31459883362124152ad6b823d5ac5fc14e85f317e22903bd681c2b6.png)
 
     Esimerkiksi, jos ripustat nauhakaapelin kameran yläpuolelle, aseta kierto 180 asteeseen:
 

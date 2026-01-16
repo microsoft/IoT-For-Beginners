@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Pidä kasvisi turvassa
 
-![Tämän oppitunnin luonnoskuva](../../../../../translated_images/lesson-10.829c86b80b9403bb770929ee553a1d293afe50dc23121aaf9be144673ae012cc.fi.jpg)
+![Tämän oppitunnin luonnoskuva](../../../../../translated_images/fi/lesson-10.829c86b80b9403bb770929ee553a1d293afe50dc23121aaf9be144673ae012cc.jpg)
 
 > Luonnoskuva: [Nitya Narasimhan](https://github.com/nitya). Klikkaa kuvaa nähdäksesi suuremman version.
 
@@ -61,11 +61,11 @@ Nämä ovat todellisia tilanteita, joita tapahtuu jatkuvasti. Joitakin esimerkke
 
 Kun laite yhdistää IoT-palveluun, se käyttää tunnistetta itsensä tunnistamiseen. Ongelma on, että tämä tunniste voidaan kopioida – hakkeri voisi asettaa haitallisen laitteen käyttämään samaa tunnistetta kuin oikea laite, mutta lähettämään vääriä tietoja.
 
-![Sekä oikea että haitallinen laite voivat käyttää samaa tunnistetta telemetrian lähettämiseen](../../../../../translated_images/iot-device-and-hacked-device-connecting.e0671675df74d6d99eb1dedb5a670e606f698efa6202b1ad4c8ae548db299cc6.fi.png)
+![Sekä oikea että haitallinen laite voivat käyttää samaa tunnistetta telemetrian lähettämiseen](../../../../../translated_images/fi/iot-device-and-hacked-device-connecting.e0671675df74d6d99eb1dedb5a670e606f698efa6202b1ad4c8ae548db299cc6.png)
 
 Ratkaisu tähän on muuntaa lähetettävät tiedot salattuun muotoon käyttämällä arvoa, joka tunnetaan vain laitteelle ja pilvelle. Tätä prosessia kutsutaan *salaamiseksi*, ja arvoa, jota käytetään tietojen salaamiseen, kutsutaan *salausavaimeksi*.
 
-![Jos salaus on käytössä, vain salatut viestit hyväksytään, muut hylätään](../../../../../translated_images/iot-device-and-hacked-device-connecting-encryption.5941aff601fc978f979e46f2849b573564eeb4a4dc5b52f669f62745397492fb.fi.png)
+![Jos salaus on käytössä, vain salatut viestit hyväksytään, muut hylätään](../../../../../translated_images/fi/iot-device-and-hacked-device-connecting-encryption.5941aff601fc978f979e46f2849b573564eeb4a4dc5b52f669f62745397492fb.png)
 
 Pilvipalvelu voi sitten muuntaa tiedot takaisin luettavaan muotoon prosessilla, jota kutsutaan *purkamiseksi*, käyttäen joko samaa salausavainta tai *purkuavainta*. Jos salattua viestiä ei voida purkaa avaimella, laite on hakkeroitu ja viesti hylätään.
 
@@ -97,15 +97,15 @@ Salaus jaetaan kahteen tyyppiin – symmetrinen ja epäsymmetrinen.
 
 **Symmetrinen** salaus käyttää samaa avainta tietojen salaamiseen ja purkamiseen. Sekä lähettäjän että vastaanottajan on tiedettävä sama avain. Tämä on vähiten turvallinen tyyppi, koska avain on jaettava jollain tavalla. Jotta lähettäjä voisi lähettää salatun viestin vastaanottajalle, lähettäjän on ensin ehkä lähetettävä avain vastaanottajalle.
 
-![Symmetrinen salaus käyttää samaa avainta viestin salaamiseen ja purkamiseen](../../../../../translated_images/send-message-symmetric-key.a2e8ad0d495896ff.fi.png)
+![Symmetrinen salaus käyttää samaa avainta viestin salaamiseen ja purkamiseen](../../../../../translated_images/fi/send-message-symmetric-key.a2e8ad0d495896ff.png)
 
 Jos avain varastetaan siirron aikana tai lähettäjä tai vastaanottaja hakkeroidaan ja avain löydetään, salaus voidaan murtaa.
 
-![Symmetrinen salaus on turvallinen vain, jos hakkeri ei saa avainta – jos saa, hän voi siepata ja purkaa viestin](../../../../../translated_images/send-message-symmetric-key-hacker.e7cb53db1707adfb.fi.png)
+![Symmetrinen salaus on turvallinen vain, jos hakkeri ei saa avainta – jos saa, hän voi siepata ja purkaa viestin](../../../../../translated_images/fi/send-message-symmetric-key-hacker.e7cb53db1707adfb.png)
 
 **Epäsymmetrinen** salaus käyttää kahta avainta – salausavainta ja purkuavainta, joita kutsutaan julkisen ja yksityisen avaimen pariksi. Julkista avainta käytetään viestin salaamiseen, mutta sitä ei voida käyttää sen purkamiseen. Yksityistä avainta käytetään viestin purkamiseen, mutta sitä ei voida käyttää sen salaamiseen.
 
-![Epäsymmetrinen salaus käyttää eri avainta viestin salaamiseen ja purkamiseen. Salausavain jaetaan viestin lähettäjille, jotta he voivat salata viestin ennen sen lähettämistä vastaanottajalle, joka omistaa avaimet](../../../../../translated_images/send-message-asymmetric.7abe327c62615b8c.fi.png)
+![Epäsymmetrinen salaus käyttää eri avainta viestin salaamiseen ja purkamiseen. Salausavain jaetaan viestin lähettäjille, jotta he voivat salata viestin ennen sen lähettämistä vastaanottajalle, joka omistaa avaimet](../../../../../translated_images/fi/send-message-asymmetric.7abe327c62615b8c.png)
 
 Vastaanottaja jakaa julkisen avaimensa, ja lähettäjä käyttää sitä viestin salaamiseen. Kun viesti on lähetetty, vastaanottaja purkaa sen yksityisellä avaimellaan. Epäsymmetrinen salaus on turvallisempi, koska yksityinen avain pidetään vastaanottajan hallussa eikä sitä koskaan jaeta. Julkisen avaimen voi antaa kenelle tahansa, koska sitä voidaan käyttää vain viestien salaamiseen.
 
@@ -165,7 +165,7 @@ Näissä sertifikaateissa on useita kenttiä, mukaan lukien keneltä julkinen av
 
 Kun käytät X.509-sertifikaatteja, sekä lähettäjällä että vastaanottajalla on omat julkiset ja yksityiset avaimensa, sekä X.509-sertifikaatit, jotka sisältävät julkisen avaimen. He vaihtavat X.509-sertifikaatteja jollain tavalla, käyttäen toistensa julkisia avaimia salatakseen lähettämänsä datan ja omia yksityisiä avaimiaan purkaakseen vastaanottamansa datan.
 
-![Sen sijaan, että jakaisit julkisen avaimen, voit jakaa sertifikaatin. Sertifikaatin käyttäjä voi varmistaa, että se tulee sinulta tarkistamalla sertifikaattiviranomaiselta, joka on allekirjoittanut sen.](../../../../../translated_images/send-message-certificate.9cc576ac1e46b76e.fi.png)
+![Sen sijaan, että jakaisit julkisen avaimen, voit jakaa sertifikaatin. Sertifikaatin käyttäjä voi varmistaa, että se tulee sinulta tarkistamalla sertifikaattiviranomaiselta, joka on allekirjoittanut sen.](../../../../../translated_images/fi/send-message-certificate.9cc576ac1e46b76e.png)
 
 Yksi suuri etu X.509-sertifikaattien käytössä on, että niitä voidaan jakaa laitteiden välillä. Voit luoda yhden sertifikaatin, ladata sen IoT Hubiin ja käyttää sitä kaikille laitteillesi. Jokaisen laitteen tarvitsee vain tietää yksityinen avain purkaakseen IoT Hubista vastaanottamansa viestit.
 

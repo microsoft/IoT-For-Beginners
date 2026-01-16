@@ -45,11 +45,11 @@ CounterFit ऐप में LED जोड़ें।
 
     1. **Add** बटन चुनें ताकि Pin 5 पर LED बनाई जा सके।
 
-    ![LED सेटिंग्स](../../../../../translated_images/counterfit-create-led.ba9db1c9b8c622a635d6dfae5cdc4e70c2b250635bd4f0601c6cf0bd22b7ba46.hi.png)
+    ![LED सेटिंग्स](../../../../../translated_images/hi/counterfit-create-led.ba9db1c9b8c622a635d6dfae5cdc4e70c2b250635bd4f0601c6cf0bd22b7ba46.png)
 
     LED बनाई जाएगी और एक्टुएटर्स की सूची में दिखाई देगी।
 
-    ![बनी हुई LED](../../../../../translated_images/counterfit-led.c0ab02de6d256ad84d9bad4d67a7faa709f0ea83e410cfe9b5561ef0cef30b1c.hi.png)
+    ![बनी हुई LED](../../../../../translated_images/hi/counterfit-led.c0ab02de6d256ad84d9bad4d67a7faa709f0ea83e410cfe9b5561ef0cef30b1c.png)
 
     LED बनने के बाद, आप *Color* पिकर का उपयोग करके रंग बदल सकते हैं। रंग चुनने के बाद **Set** बटन चुनें।
 

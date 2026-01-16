@@ -43,11 +43,11 @@ Lisää kamera CounterFit-sovellukseen.
 
     1. Valitse **Add**-painike luodaksesi kameran.
 
-    ![Kameran asetukset](../../../../../translated_images/counterfit-create-camera.a5de97f59c0bd3cbe0416d7e89a3cfe86d19fbae05c641c53a91286412af0a34.fi.png)
+    ![Kameran asetukset](../../../../../translated_images/fi/counterfit-create-camera.a5de97f59c0bd3cbe0416d7e89a3cfe86d19fbae05c641c53a91286412af0a34.png)
 
     Kamera luodaan ja näkyy sensorilistassa.
 
-    ![Luotu kamera](../../../../../translated_images/counterfit-camera.001ec52194c8ee5d3f617173da2c79e1df903d10882adc625cbfc493525125d4.fi.png)
+    ![Luotu kamera](../../../../../translated_images/fi/counterfit-camera.001ec52194c8ee5d3f617173da2c79e1df903d10882adc625cbfc493525125d4.png)
 
 ## Ohjelmoi kamera
 
@@ -112,7 +112,7 @@ Ohjelmoi laite.
 
 1. Määritä kuva, jonka kamera CounterFitissä tallentaa. Voit joko asettaa *Source*-asetuksen *File*-tilaan ja ladata kuvatiedoston, tai asettaa *Source*-asetuksen *WebCam*-tilaan, jolloin kuvat tallennetaan verkkokamerastasi. Varmista, että valitset **Set**-painikkeen kuvan valitsemisen tai verkkokameran valitsemisen jälkeen.
 
-    ![CounterFit, jossa tiedosto on asetettu kuvalähteeksi, ja verkkokamera näyttää henkilön, joka pitää banaania verkkokameran esikatselussa](../../../../../translated_images/counterfit-camera-options.eb3bd5150a8e7dffbf24bc5bcaba0cf2cdef95fbe6bbe393695d173817d6b8df.fi.png)
+    ![CounterFit, jossa tiedosto on asetettu kuvalähteeksi, ja verkkokamera näyttää henkilön, joka pitää banaania verkkokameran esikatselussa](../../../../../translated_images/fi/counterfit-camera-options.eb3bd5150a8e7dffbf24bc5bcaba0cf2cdef95fbe6bbe393695d173817d6b8df.png)
 
 1. Kuva tallennetaan ja tallennetaan nimellä `image.jpg` nykyiseen kansioon. Näet tämän tiedoston VS Code -tiedostonhallinnassa. Valitse tiedosto nähdäksesi kuvan. Jos se tarvitsee kiertoa, päivitä rivi `camera.rotation = 0` tarpeen mukaan ja ota uusi kuva.
 

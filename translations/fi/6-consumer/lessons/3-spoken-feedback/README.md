@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Aseta ajastin ja anna puhepalautetta
 
-![Tämän oppitunnin luonnoskuva](../../../../../translated_images/lesson-23.f38483e1d4df4828990d3f02d60e46c978b075d384ae7cb4f7bab738e107c850.fi.jpg)
+![Tämän oppitunnin luonnoskuva](../../../../../translated_images/fi/lesson-23.f38483e1d4df4828990d3f02d60e46c978b075d384ae7cb4f7bab738e107c850.jpg)
 
 > Luonnoskuva: [Nitya Narasimhan](https://github.com/nitya). Klikkaa kuvaa nähdäksesi suuremman version.
 
@@ -37,7 +37,7 @@ Tässä oppitunnissa käsitellään:
 
 Teksti puheeksi -prosessi tarkoittaa tekstin muuntamista ääneksi, joka sisältää tekstin puhuttuna. Perusperiaate on jakaa tekstin sanat niiden osasävelmiin (fonemeihin) ja yhdistää näiden äänien audiot joko ennalta nauhoitetuista äänistä tai tekoälymallien tuottamasta audiosta.
 
-![Tyypillisten teksti puheeksi -järjestelmien kolme vaihetta](../../../../../translated_images/tts-overview.193843cf3f5ee09f.fi.png)
+![Tyypillisten teksti puheeksi -järjestelmien kolme vaihetta](../../../../../translated_images/fi/tts-overview.193843cf3f5ee09f.png)
 
 Teksti puheeksi -järjestelmät koostuvat yleensä kolmesta vaiheesta:
 

@@ -57,7 +57,7 @@ Les Azure Cloud Advocates chez Microsoft ont le plaisir de proposer un programme
 
 Les projets couvrent le parcours de la nourriture de la ferme à la table. Cela inclut l’agriculture, la logistique, la fabrication, le commerce de détail et le consommateur – toutes des industries populaires pour les dispositifs IoT.
 
-![Une feuille de route du cours montrant 24 leçons couvrant introduction, agriculture, transport, transformation, commerce de détail et cuisine](../../translated_images/Roadmap.bb1dec285dda0eda.fr.jpg)
+![Une feuille de route du cours montrant 24 leçons couvrant introduction, agriculture, transport, transformation, commerce de détail et cuisine](../../translated_images/fr/Roadmap.bb1dec285dda0eda.webp)
 
 > Schéma réalisé par [Nitya Narasimhan](https://github.com/nitya). Cliquez sur l’image pour une version agrandie.
 

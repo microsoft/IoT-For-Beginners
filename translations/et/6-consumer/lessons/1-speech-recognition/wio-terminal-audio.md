@@ -19,7 +19,7 @@ Sisseehitatud mikrofon salvestab analoogsignaali, mis muundatakse digitaalseks s
 
 ✅ Loe rohkem DMA kohta [Wikipedia otsemälujuurdepääsu lehelt](https://wikipedia.org/wiki/Direct_memory_access).
 
-![Heli mikrofonist läheb ADC-sse ja seejärel DMAC-i. See kirjutab ühte puhvrit. Kui see puhver on täis, töödeldakse seda ja DMAC kirjutab teise puhvri](../../../../../translated_images/dmac-adc-buffers.4509aee49145c90bc2e1be472b8ed2ddfcb2b6a81ad3e559114aca55f5fff759.et.png)
+![Heli mikrofonist läheb ADC-sse ja seejärel DMAC-i. See kirjutab ühte puhvrit. Kui see puhver on täis, töödeldakse seda ja DMAC kirjutab teise puhvri](../../../../../translated_images/et/dmac-adc-buffers.4509aee49145c90bc2e1be472b8ed2ddfcb2b6a81ad3e559114aca55f5fff759.png)
 
 DMAC suudab salvestada heli ADC-st kindlate intervallidega, näiteks 16 000 korda sekundis 16 kHz heli jaoks. See saab kirjutada need salvestatud andmed eelnevalt eraldatud mälupuhvrisse ja kui see on täis, teeb see andmed koodile kättesaadavaks töötlemiseks. Selle mälu kasutamine võib heli salvestamist edasi lükata, kuid saad seadistada mitu puhvrit. DMAC kirjutab puhvrit 1, siis kui see on täis, teavitab see sinu koodi puhvri 1 töötlemiseks, samal ajal kui DMAC kirjutab puhvrit 2. Kui puhver 2 on täis, teavitab see sinu koodi ja läheb tagasi puhvri 1 kirjutamisele. Nii kaua, kui töötled iga puhvrit kiiremini, kui kulub ühe täitmiseks, ei kaota sa andmeid.
 

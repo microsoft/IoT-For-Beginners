@@ -13,7 +13,7 @@ Una combinación de las predicciones y sus cuadros delimitadores puede ser utili
 
 ## Contar inventario
 
-![4 latas de pasta de tomate con cuadros delimitadores alrededor de cada lata](../../../../../translated_images/rpi-stock-with-bounding-boxes.b5540e2ecb7cd49f.es.jpg)
+![4 latas de pasta de tomate con cuadros delimitadores alrededor de cada lata](../../../../../translated_images/es/rpi-stock-with-bounding-boxes.b5540e2ecb7cd49f.webp)
 
 En la imagen mostrada arriba, los cuadros delimitadores tienen un pequeño solapamiento. Si este solapamiento fuera mucho mayor, entonces los cuadros delimitadores podrían indicar el mismo objeto. Para contar los objetos correctamente, necesitas ignorar los cuadros con un solapamiento significativo.
 

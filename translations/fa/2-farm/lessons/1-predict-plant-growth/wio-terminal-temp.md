@@ -27,13 +27,13 @@ Wio Terminal به یک حسگر دما نیاز دارد.
 
 حسگر دما را متصل کنید.
 
-![یک حسگر دمای Grove](../../../../../translated_images/grove-dht11.07f8eafceee170043efbb53e1d15722bd4e00fbaa9ff74290b57e9f66eb82c17.fa.png)
+![یک حسگر دمای Grove](../../../../../translated_images/fa/grove-dht11.07f8eafceee170043efbb53e1d15722bd4e00fbaa9ff74290b57e9f66eb82c17.png)
 
 1. یک سر کابل Grove را به سوکت روی حسگر رطوبت و دما وارد کنید. این کابل فقط از یک جهت وارد می‌شود.
 
 1. با قطع اتصال Wio Terminal از کامپیوتر یا منبع تغذیه دیگر، سر دیگر کابل Grove را به سوکت سمت راست Grove روی Wio Terminal متصل کنید (وقتی به صفحه نمایش نگاه می‌کنید). این سوکت دورترین سوکت از دکمه پاور است.
 
-![حسگر دمای Grove متصل به سوکت سمت راست](../../../../../translated_images/wio-temperature-sensor.2934928f38c7f79a.fa.png)
+![حسگر دمای Grove متصل به سوکت سمت راست](../../../../../translated_images/fa/wio-temperature-sensor.2934928f38c7f79a.png)
 
 ## برنامه‌نویسی حسگر دما
 

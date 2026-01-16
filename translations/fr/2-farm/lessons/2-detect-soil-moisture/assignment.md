@@ -29,14 +29,14 @@ Vous devrez répéter ces étapes plusieurs fois pour obtenir les relevés néce
 
 L'humidité gravimétrique du sol se calcule comme suit :
 
-![l'humidité du sol % est le poids humide moins le poids sec, divisé par le poids sec, multiplié par 100](../../../../../translated_images/gsm-calculation.6da38c6201eec14e7573bb2647aa18892883193553d23c9d77e5dc681522dfb2.fr.png)
+![l'humidité du sol % est le poids humide moins le poids sec, divisé par le poids sec, multiplié par 100](../../../../../translated_images/fr/gsm-calculation.6da38c6201eec14e7573bb2647aa18892883193553d23c9d77e5dc681522dfb2.png)
 
 * W - le poids du sol humide  
 * W - le poids du sol sec  
 
 Par exemple, supposons que vous avez un échantillon de sol pesant 212 g humide et 197 g sec.
 
-![Le calcul rempli](../../../../../translated_images/gsm-calculation-example.99f9803b4f29e97668e7c15412136c0c399ab12dbba0b89596fdae9d8aedb6fb.fr.png)
+![Le calcul rempli](../../../../../translated_images/fr/gsm-calculation-example.99f9803b4f29e97668e7c15412136c0c399ab12dbba0b89596fdae9d8aedb6fb.png)
 
 * W = 212 g  
 * W = 197 g  

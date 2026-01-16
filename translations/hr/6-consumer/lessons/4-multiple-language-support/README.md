@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Podrška za više jezika
 
-![Sketchnote pregled ove lekcije](../../../../../translated_images/lesson-24.4246968ed058510ab275052e87ef9aa89c7b2f938915d103c605c04dc6cd5bb7.hr.jpg)
+![Sketchnote pregled ove lekcije](../../../../../translated_images/hr/lesson-24.4246968ed058510ab275052e87ef9aa89c7b2f938915d103c605c04dc6cd5bb7.jpg)
 
 > Sketchnote autor [Nitya Narasimhan](https://github.com/nitya). Kliknite na sliku za veću verziju.
 
@@ -83,7 +83,7 @@ Postoji niz AI usluga koje se mogu koristiti iz vaših aplikacija za prevođenje
 
 ### Cognitive services Speech service
 
-![Logo govorne usluge](../../../../../translated_images/azure-speech-logo.a1f08c4befb0159f2cb5d692d3baf5b599e7b44759d316da907bda1508f46a4a.hr.png)
+![Logo govorne usluge](../../../../../translated_images/hr/azure-speech-logo.a1f08c4befb0159f2cb5d692d3baf5b599e7b44759d316da907bda1508f46a4a.png)
 
 Govorna usluga koju ste koristili u proteklim lekcijama ima mogućnosti prevođenja za prepoznavanje govora. Kada prepoznate govor, možete zatražiti ne samo tekst govora na istom jeziku, već i na drugim jezicima.
 
@@ -91,7 +91,7 @@ Govorna usluga koju ste koristili u proteklim lekcijama ima mogućnosti prevođe
 
 ### Cognitive services Translator service
 
-![Logo usluge prevoditelja](../../../../../translated_images/azure-translator-logo.c6ed3a4a433edfd2f11577eca105412c50b8396b194cbbd730723dd1d0793bcd.hr.png)
+![Logo usluge prevoditelja](../../../../../translated_images/hr/azure-translator-logo.c6ed3a4a433edfd2f11577eca105412c50b8396b194cbbd730723dd1d0793bcd.png)
 
 Usluga Translator je posvećena usluga prevođenja koja može prevesti tekst s jednog jezika na jedan ili više ciljanih jezika. Osim prevođenja, podržava širok raspon dodatnih značajki, uključujući maskiranje vulgarnosti. Također vam omogućuje da pružite specifičan prijevod za određenu riječ ili rečenicu, kako biste radili s pojmovima koje ne želite prevesti ili imate specifičan poznati prijevod.
 
@@ -130,7 +130,7 @@ Za ovu lekciju trebat će vam resurs za prevoditelja. Koristit ćete REST API za
 
 U idealnom svijetu, cijela vaša aplikacija trebala bi razumjeti što više različitih jezika, od slušanja govora, do razumijevanja jezika, do odgovaranja govorom. Ovo je puno posla, pa usluge prevođenja mogu ubrzati vrijeme isporuke vaše aplikacije.
 
-![Arhitektura pametnog mjerača vremena koja prevodi japanski na engleski, obrađuje na engleskom, a zatim prevodi natrag na japanski](../../../../../translated_images/translated-smart-timer.08ac20057fdc5c37.hr.png)
+![Arhitektura pametnog mjerača vremena koja prevodi japanski na engleski, obrađuje na engleskom, a zatim prevodi natrag na japanski](../../../../../translated_images/hr/translated-smart-timer.08ac20057fdc5c37.png)
 
 Zamislite da gradite pametni mjerač vremena koji koristi engleski od početka do kraja, razumijevanje govornog engleskog i pretvaranje toga u tekst, provođenje razumijevanja jezika na engleskom, stvaranje odgovora na engleskom i odgovaranje engleskim govorom. Ako želite dodati podršku za japanski, mogli biste započeti s prevođenjem govornog japanskog u engleski tekst, zatim zadržati jezgru aplikacije istom, a zatim prevesti tekst odgovora na japanski prije nego što odgovorite govorom. Ovo bi vam omogućilo brzo dodavanje podrške za japanski, a kasnije možete proširiti na pružanje potpune podrške za japanski od početka do kraja.
 

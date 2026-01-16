@@ -57,7 +57,7 @@ Los Azure Cloud Advocates de Microsoft tienen el placer de ofrecer un plan de es
 
 Los proyectos cubren el viaje de los alimentos desde la granja hasta la mesa. Esto incluye agricultura, logística, manufactura, venta minorista y consumidor, todas áreas industriales populares para dispositivos IoT.
 
-![Un mapa del curso mostrando 24 lecciones que cubren introducción, agricultura, transporte, procesamiento, venta minorista y cocina](../../translated_images/Roadmap.bb1dec285dda0eda.es.jpg)
+![Un mapa del curso mostrando 24 lecciones que cubren introducción, agricultura, transporte, procesamiento, venta minorista y cocina](../../translated_images/es/Roadmap.bb1dec285dda0eda.webp)
 
 > Sketchnote por [Nitya Narasimhan](https://github.com/nitya). Haz clic en la imagen para una versión más grande.
 

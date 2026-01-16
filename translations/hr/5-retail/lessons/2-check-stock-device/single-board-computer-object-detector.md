@@ -76,7 +76,7 @@ Kod koji ste koristili za klasifikaciju slika vrlo je sličan kodu za detekciju 
 
     Moći ćete vidjeti sliku koja je snimljena i ove vrijednosti u kartici **Predictions** u Custom Vision.
 
-    ![4 limenke paste od rajčice na polici s predikcijama za 4 detekcije od 35.8%, 33.5%, 25.7% i 16.6%](../../../../../translated_images/custom-vision-stock-prediction.942266ab1bcca3410ecdf23643b9f5f570cfab2345235074e24c51f285777613.hr.png)
+    ![4 limenke paste od rajčice na polici s predikcijama za 4 detekcije od 35.8%, 33.5%, 25.7% i 16.6%](../../../../../translated_images/hr/custom-vision-stock-prediction.942266ab1bcca3410ecdf23643b9f5f570cfab2345235074e24c51f285777613.png)
 
 > 💁 Ovaj kod možete pronaći u mapi [code-detect/pi](../../../../../5-retail/lessons/2-check-stock-device/code-detect/pi) ili [code-detect/virtual-iot-device](../../../../../5-retail/lessons/2-check-stock-device/code-detect/virtual-iot-device).
 

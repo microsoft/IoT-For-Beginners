@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Régler un minuteur et fournir un retour vocal
 
-![Un aperçu illustré de cette leçon](../../../../../translated_images/lesson-23.f38483e1d4df4828990d3f02d60e46c978b075d384ae7cb4f7bab738e107c850.fr.jpg)
+![Un aperçu illustré de cette leçon](../../../../../translated_images/fr/lesson-23.f38483e1d4df4828990d3f02d60e46c978b075d384ae7cb4f7bab738e107c850.jpg)
 
 > Illustration par [Nitya Narasimhan](https://github.com/nitya). Cliquez sur l'image pour une version agrandie.
 
@@ -37,7 +37,7 @@ Dans cette leçon, nous aborderons :
 
 La synthèse vocale, comme son nom l'indique, est le processus de conversion de texte en audio contenant les mots prononcés. Le principe de base consiste à décomposer les mots du texte en leurs sons constitutifs (appelés phonèmes) et à assembler des fichiers audio pour ces sons, soit en utilisant des enregistrements préexistants, soit en générant l'audio à l'aide de modèles d'IA.
 
-![Les trois étapes des systèmes typiques de synthèse vocale](../../../../../translated_images/tts-overview.193843cf3f5ee09f.fr.png)
+![Les trois étapes des systèmes typiques de synthèse vocale](../../../../../translated_images/fr/tts-overview.193843cf3f5ee09f.webp)
 
 Les systèmes de synthèse vocale comportent généralement 3 étapes :
 

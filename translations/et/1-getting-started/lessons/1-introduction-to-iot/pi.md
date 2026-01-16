@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 [Raspberry Pi](https://raspberrypi.org) on üheplaadiline arvuti. Saad lisada sensoreid ja täitureid, kasutades mitmesuguseid seadmeid ja ökosüsteeme. Nendes õppetundides kasutatakse riistvara ökosüsteemi nimega [Grove](https://www.seeedstudio.com/category/Grove-c-1003.html). Sa programmeerid oma Pi-d ja pääsed Grove sensoritele ligi Pythonis.
 
-![Raspberry Pi 4](../../../../../translated_images/raspberry-pi-4.fd4590d308c3d456.et.jpg)
+![Raspberry Pi 4](../../../../../translated_images/et/raspberry-pi-4.fd4590d308c3d456.jpg)
 
 ## Seadistamine
 
@@ -112,7 +112,7 @@ Seadista peata Pi OS.
 
 1. Raspberry Pi Imageris vali **CHOOSE OS** nupp, seejärel vali *Raspberry Pi OS (Other)* ja *Raspberry Pi OS Lite (32-bit)*.
 
-    ![Raspberry Pi Imager koos valitud Raspberry Pi OS Lite-ga](../../../../../translated_images/raspberry-pi-imager.24aedeab9e233d84.et.png)
+    ![Raspberry Pi Imager koos valitud Raspberry Pi OS Lite-ga](../../../../../translated_images/et/raspberry-pi-imager.24aedeab9e233d84.png)
 
     > 💁 Raspberry Pi OS Lite on Raspberry Pi OS-i versioon, millel puudub töölaua kasutajaliides ja UI-põhised tööriistad. Need pole peata Pi jaoks vajalikud, teevad paigalduse väiksemaks ja käivitamise kiiremaks.
 
@@ -251,7 +251,7 @@ Loo "Tere maailm" rakendus.
 
 1. Ava see kaust VS Code'is, valides *File -> Open...* ja valides *nightlight* kausta, seejärel vali **OK**.
 
-    ![VS Code avamise dialoog, mis näitab nightlight kausta](../../../../../translated_images/vscode-open-nightlight-remote.d3d2a4011e30d535.et.png)
+    ![VS Code avamise dialoog, mis näitab nightlight kausta](../../../../../translated_images/et/vscode-open-nightlight-remote.d3d2a4011e30d535.png)
 
 1. Ava `app.py` fail VS Code exploreris ja lisa järgmine kood:
 

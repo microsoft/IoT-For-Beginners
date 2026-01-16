@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Syvällisempi katsaus IoT:hen
 
-![Tämän oppitunnin sketchnote](../../../../../translated_images/lesson-2.324b0580d620c25e0a24fb7fddfc0b29a846dd4b82c08e7a9466d580ee78ce51.fi.jpg)
+![Tämän oppitunnin sketchnote](../../../../../translated_images/fi/lesson-2.324b0580d620c25e0a24fb7fddfc0b29a846dd4b82c08e7a9466d580ee78ce51.jpg)
 
 > Sketchnote: [Nitya Narasimhan](https://github.com/nitya). Klikkaa kuvaa nähdäksesi suuremman version.
 
@@ -41,13 +41,13 @@ IoT-sovelluksen kaksi pääkomponenttia ovat *Internet* ja *laite*. Tarkastellaa
 
 ### Laite
 
-![Raspberry Pi 4](../../../../../translated_images/raspberry-pi-4.fd4590d308c3d456.fi.jpg)
+![Raspberry Pi 4](../../../../../translated_images/fi/raspberry-pi-4.fd4590d308c3d456.jpg)
 
 IoT:n **laite**-osa viittaa laitteeseen, joka voi olla vuorovaikutuksessa fyysisen maailman kanssa. Nämä laitteet ovat yleensä pieniä, edullisia tietokoneita, jotka toimivat alhaisilla nopeuksilla ja kuluttavat vähän virtaa – esimerkiksi yksinkertaisia mikrokontrollereita, joissa on vain kilotavuja RAM-muistia (verrattuna PC:n gigatavuihin) ja jotka toimivat vain muutamilla sadoilla megahertseillä (verrattuna PC:n gigahertseihin). Ne voivat kuluttaa niin vähän virtaa, että ne voivat toimia viikkoja, kuukausia tai jopa vuosia paristoilla.
 
 Nämä laitteet ovat vuorovaikutuksessa fyysisen maailman kanssa joko käyttämällä antureita ympäristönsä tietojen keräämiseen tai ohjaamalla ulostuloja tai toimilaitteita fyysisten muutosten tekemiseksi. Tyypillinen esimerkki on älykäs termostaatti – laite, jossa on lämpötila-anturi, tapa asettaa haluttu lämpötila, kuten säädin tai kosketusnäyttö, ja yhteys lämmitys- tai jäähdytysjärjestelmään, joka voidaan kytkeä päälle, kun havaittu lämpötila on halutun alueen ulkopuolella. Lämpötila-anturi havaitsee, että huone on liian kylmä, ja toimilaite kytkee lämmityksen päälle.
 
-![Kaavio, jossa lämpötila ja säädin ovat IoT-laitteen syötteitä, ja lämmittimen ohjaus on ulostulo](../../../../../translated_images/basic-thermostat.a923217fd1f37e5a6f3390396a65c22a387419ea2dd17e518ec24315ba6ae9a8.fi.png)
+![Kaavio, jossa lämpötila ja säädin ovat IoT-laitteen syötteitä, ja lämmittimen ohjaus on ulostulo](../../../../../translated_images/fi/basic-thermostat.a923217fd1f37e5a6f3390396a65c22a387419ea2dd17e518ec24315ba6ae9a8.png)
 
 IoT-laitteina voi toimia valtava määrä erilaisia laitteita, yksinkertaisista antureista yleiskäyttöisiin laitteisiin, jopa älypuhelimeesi! Älypuhelin voi käyttää antureita ympäristönsä havaitsemiseen ja toimilaitteita vuorovaikutukseen maailman kanssa – esimerkiksi GPS-anturia sijaintisi havaitsemiseen ja kaiutinta navigointiohjeiden antamiseen määränpäähän.
 
@@ -63,11 +63,11 @@ Laitteet eivät myöskään aina yhdistä suoraan Internetiin WiFi- tai langalli
 
 Esimerkkinä älykkäästä termostaatista, termostaatti yhdistyy kodin WiFi-verkon kautta pilvipalveluun. Se lähettää lämpötilatiedot tähän pilvipalveluun, josta ne tallennetaan jonkinlaiseen tietokantaan, jolloin kodinomistaja voi tarkistaa nykyiset ja aiemmat lämpötilat puhelinsovelluksella. Toinen pilvipalvelu tietää, mikä lämpötila kodinomistajaa miellyttää, ja lähettää viestejä IoT-laitteelle pilvipalvelun kautta kertoakseen lämmitysjärjestelmälle, milloin se kytketään päälle tai pois päältä.
 
-![Kaavio, jossa lämpötila ja säädin ovat IoT-laitteen syötteitä, IoT-laite on kaksisuuntaisessa yhteydessä pilveen, joka puolestaan on kaksisuuntaisessa yhteydessä puhelimeen, ja lämmittimen ohjaus on ulostulo IoT-laitteesta](../../../../../translated_images/mobile-controlled-thermostat.4a994010473d8d6a52ba68c67e5f02dc8928c717e93ca4b9bc55525aa75bbb60.fi.png)
+![Kaavio, jossa lämpötila ja säädin ovat IoT-laitteen syötteitä, IoT-laite on kaksisuuntaisessa yhteydessä pilveen, joka puolestaan on kaksisuuntaisessa yhteydessä puhelimeen, ja lämmittimen ohjaus on ulostulo IoT-laitteesta](../../../../../translated_images/fi/mobile-controlled-thermostat.4a994010473d8d6a52ba68c67e5f02dc8928c717e93ca4b9bc55525aa75bbb60.png)
 
 Älykkäämpi versio voisi käyttää pilvessä olevaa tekoälyä ja tietoja muista IoT-laitteisiin liitetyistä antureista, kuten tilan käyttöä havaitsevista antureista, sekä tietoja, kuten säätietoja ja jopa kalenteriasi, tehdäkseen päätöksiä lämpötilan asettamisesta älykkäästi. Esimerkiksi se voisi kytkeä lämmityksen pois päältä, jos kalenterisi mukaan olet lomalla, tai säätää lämmitystä huonekohtaisesti sen mukaan, mitä huoneita käytät, oppien datasta ajan myötä tarkemmaksi.
 
-![Kaavio, jossa useita lämpötila-antureita ja säädin ovat IoT-laitteen syötteitä, IoT-laite on kaksisuuntaisessa yhteydessä pilveen, joka puolestaan on kaksisuuntaisessa yhteydessä puhelimeen, kalenteriin ja säätietopalveluun, ja lämmittimen ohjaus on ulostulo IoT-laitteesta](../../../../../translated_images/smarter-thermostat.a75855f15d2d9e63.fi.png)
+![Kaavio, jossa useita lämpötila-antureita ja säädin ovat IoT-laitteen syötteitä, IoT-laite on kaksisuuntaisessa yhteydessä pilveen, joka puolestaan on kaksisuuntaisessa yhteydessä puhelimeen, kalenteriin ja säätietopalveluun, ja lämmittimen ohjaus on ulostulo IoT-laitteesta](../../../../../translated_images/fi/smarter-thermostat.a75855f15d2d9e63.png)
 
 ✅ Mitä muita tietoja voisi käyttää tekemään Internet-yhdistetyistä termostaateista älykkäämpiä?
 
@@ -103,7 +103,7 @@ Mitä nopeampi kellosykli, sitä enemmän käskyjä voidaan käsitellä sekunnis
 
 > 💁 Suorittimet suorittavat ohjelmia käyttäen [fetch-decode-execute-sykliä](https://wikipedia.org/wiki/Instruction_cycle). Jokaisella kellotikillä suoritin hakee seuraavan käskyn muistista, dekoodaa sen ja suorittaa sen, esimerkiksi käyttämällä aritmeettis-loogista yksikköä (ALU) kahden luvun yhteenlaskuun. Jotkut suoritukset vievät useita tikkejä, joten seuraava sykli alkaa seuraavalla tikillä, kun käsky on suoritettu.
 
-![Fetch-decode-execute-syklit, joissa fetch hakee käskyn ohjelmasta RAM-muistista, dekoodaa ja suorittaa sen suorittimessa](../../../../../translated_images/fetch-decode-execute.2fd6f150f6280392807f4475382319abd0cee0b90058e1735444d6baa6f2078c.fi.png)
+![Fetch-decode-execute-syklit, joissa fetch hakee käskyn ohjelmasta RAM-muistista, dekoodaa ja suorittaa sen suorittimessa](../../../../../translated_images/fi/fetch-decode-execute.2fd6f150f6280392807f4475382319abd0cee0b90058e1735444d6baa6f2078c.png)
 
 Mikrokontrollereiden kellonopeudet ovat paljon alhaisempia kuin pöytätietokoneiden, kannettavien tietokoneiden tai useimpien älypuhelimien. Esimerkiksi Wio Terminalin suoritin toimii 120 MHz:n nopeudella eli 120 000 000 sykliä sekunnissa.
 
@@ -135,7 +135,7 @@ Kuten CPU:ssa, mikro-ohjaimen muisti on moninkertaisesti pienempi kuin PC:ssä t
 
 Alla oleva kaavio näyttää suhteellisen kokoeron 192KB:n ja 8GB:n välillä – pieni piste keskellä edustaa 192KB:tä.
 
-![Vertailu 192KB:n ja 8GB:n välillä – yli 40 000 kertaa suurempi](../../../../../translated_images/ram-comparison.6beb73541b42ac6f.fi.png)
+![Vertailu 192KB:n ja 8GB:n välillä – yli 40 000 kertaa suurempi](../../../../../translated_images/fi/ram-comparison.6beb73541b42ac6f.png)
 
 Ohjelman tallennustila on myös pienempi kuin PC:ssä. Tyypillisessä PC:ssä voi olla 500GB:n kiintolevy ohjelmien tallennusta varten, kun taas mikro-ohjaimessa tallennustilaa on vain kilotavuja tai ehkä muutama megatavu (MB) (1MB on 1 000KB, eli 1 000 000 tavua). Wio Terminalissa on 4MB ohjelman tallennustilaa.
 
@@ -191,7 +191,7 @@ Arduino-kortit ohjelmoidaan C- tai C++-kielellä. C/C++:n käyttö mahdollistaa 
 
 Kirjoittaisit alustuslogiikkasi `setup`-funktioon, kuten WiFi-yhteyden muodostamisen ja pilvipalveluihin yhdistämisen tai pinnejä syötölle ja lähdölle alustettaessa. `loop`-funktioon sisältyisi prosessointikoodi, kuten sensorin lukeminen ja arvon lähettäminen pilveen. Lisäisit yleensä viiveen jokaiseen silmukkaan, esimerkiksi jos haluat sensoridatan lähetettävän vain 10 sekunnin välein, lisäisit 10 sekunnin viiveen silmukan loppuun, jotta mikro-ohjain voi nukkua, säästää virtaa ja suorittaa silmukan uudelleen tarvittaessa 10 sekunnin kuluttua.
 
-![Arduino-sketch, joka suorittaa ensin setupin ja sitten loopin toistuvasti](../../../../../translated_images/arduino-sketch.79590cb837ff7a7c6a68d1afda6cab83fd53d3bb1bd9a8bf2eaf8d693a4d3ea6.fi.png)
+![Arduino-sketch, joka suorittaa ensin setupin ja sitten loopin toistuvasti](../../../../../translated_images/fi/arduino-sketch.79590cb837ff7a7c6a68d1afda6cab83fd53d3bb1bd9a8bf2eaf8d693a4d3ea6.png)
 
 ✅ Tämä ohjelma-arkkitehtuuri tunnetaan nimellä *tapahtumasilmukka* tai *viestisilmukka*. Monet sovellukset käyttävät tätä taustalla, ja se on standardi useimmille työpöytäsovelluksille, jotka toimivat käyttöjärjestelmissä kuten Windows, macOS tai Linux. `loop` kuuntelee viestejä käyttöliittymäkomponenteilta, kuten painikkeilta, tai laitteilta, kuten näppäimistöltä, ja reagoi niihin. Voit lukea lisää tästä [artikkelista tapahtumasilmukasta](https://wikipedia.org/wiki/Event_loop).
 
@@ -211,17 +211,17 @@ Edellisessä oppitunnissa esiteltiin yhden piirilevyn tietokoneet. Tarkastellaan
 
 ### Raspberry Pi
 
-![Raspberry Pi -logo](../../../../../translated_images/raspberry-pi-logo.4efaa16605cee054.fi.png)
+![Raspberry Pi -logo](../../../../../translated_images/fi/raspberry-pi-logo.4efaa16605cee054.png)
 
 [Raspberry Pi Foundation](https://www.raspberrypi.org) on brittiläinen hyväntekeväisyysjärjestö, joka perustettiin vuonna 2009 edistämään tietojenkäsittelytieteen opiskelua erityisesti kouluissa. Osana tätä tehtävää he kehittivät yhden piirilevyn tietokoneen, nimeltään Raspberry Pi. Raspberry Pi:t ovat tällä hetkellä saatavilla kolmessa versiossa – täysikokoinen versio, pienempi Pi Zero ja laskentamoduuli, joka voidaan rakentaa lopulliseen IoT-laitteeseen.
 
-![Raspberry Pi 4](../../../../../translated_images/raspberry-pi-4.fd4590d308c3d456.fi.jpg)
+![Raspberry Pi 4](../../../../../translated_images/fi/raspberry-pi-4.fd4590d308c3d456.jpg)
 
 Viimeisin täysikokoisen Raspberry Pi:n versio on Raspberry Pi 4B. Siinä on neliytiminen (4 ydintä) CPU, joka toimii 1.5GHz:n nopeudella, 2, 4 tai 8GB RAM-muistia, gigabitin ethernet, WiFi, 2 HDMI-porttia, jotka tukevat 4k-näyttöjä, ääni- ja komposiittivideolähtöportti, USB-portit (2 USB 2.0, 2 USB 3.0), 40 GPIO-pinniä, kameraliitin Raspberry Pi -kameramoduulille ja SD-korttipaikka. Kaikki tämä piirilevyllä, joka on kooltaan 88mm x 58mm x 19.5mm ja saa virtansa 3A USB-C-virtalähteestä. Näiden hinta alkaa 35 Yhdysvaltain dollarista, mikä on paljon halvempi kuin PC tai Mac.
 
 > 💁 Saatavilla on myös Pi400, joka on all-in-one-tietokone, jossa Pi4 on rakennettu näppäimistöön.
 
-![Raspberry Pi Zero](../../../../../translated_images/raspberry-pi-zero.f7a4133e1e7d54bb.fi.jpg)
+![Raspberry Pi Zero](../../../../../translated_images/fi/raspberry-pi-zero.f7a4133e1e7d54bb.jpg)
 
 Pi Zero on paljon pienempi ja vähävirtaisempi. Siinä on yksiytiminen 1GHz CPU, 512MB RAM-muistia, WiFi (Zero W -mallissa), yksi HDMI-portti, yksi micro-USB-portti, 40 GPIO-pinniä, kameraliitin Raspberry Pi -kameramoduulille ja SD-korttipaikka. Sen mitat ovat 65mm x 30mm x 5mm, ja se kuluttaa hyvin vähän virtaa. Zero maksaa 5 Yhdysvaltain dollaria, ja W-versio, jossa on WiFi, maksaa 10 dollaria.
 

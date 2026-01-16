@@ -35,7 +35,7 @@ LED Grove به صورت یک ماژول با مجموعه‌ای از LEDها ا
 
 LED را متصل کنید.
 
-![یک LED Grove](../../../../../translated_images/grove-led.6c853be93f473cf2c439cfc74bb1064732b22251a83cedf66e62f783f9cc1a79.fa.png)
+![یک LED Grove](../../../../../translated_images/fa/grove-led.6c853be93f473cf2c439cfc74bb1064732b22251a83cedf66e62f783f9cc1a79.png)
 
 1. LED مورد علاقه خود را انتخاب کرده و پایه‌های آن را در دو سوراخ روی ماژول LED قرار دهید.
 
@@ -51,7 +51,7 @@ LED را متصل کنید.
 
    > 💁 سوکت سمت راست Grove می‌تواند با حسگرها و عملگرهای آنالوگ یا دیجیتال استفاده شود. سوکت سمت چپ فقط برای حسگرها و عملگرهای دیجیتال است.
 
-![LED Grove متصل به سوکت سمت راست](../../../../../translated_images/wio-led.265a1897e72d7f21.fa.png)
+![LED Grove متصل به سوکت سمت راست](../../../../../translated_images/fa/wio-led.265a1897e72d7f21.png)
 
 ## برنامه‌نویسی چراغ خواب
 

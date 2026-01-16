@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Käynnistä hedelmien laadunvalvonta sensorista
 
-![Tämän oppitunnin yleiskuvaus sketchnotena](../../../../../translated_images/lesson-18.92c32ed1d354caa5a54baa4032cf0b172d4655e8e326ad5d46c558a0def15365.fi.jpg)
+![Tämän oppitunnin yleiskuvaus sketchnotena](../../../../../translated_images/fi/lesson-18.92c32ed1d354caa5a54baa4032cf0b172d4655e8e326ad5d46c558a0def15365.jpg)
 
 > Sketchnote: [Nitya Narasimhan](https://github.com/nitya). Klikkaa kuvaa nähdäksesi suuremman version.
 
@@ -48,7 +48,7 @@ IoT-sovelluksia voidaan kuvata *asioina* (laitteet), jotka lähettävät dataa, 
 
 ### Viitearkkitehtuuri IoT-sovelluksille
 
-![Viitearkkitehtuuri IoT-sovelluksille](../../../../../translated_images/iot-reference-architecture.2278b98b55c6d4e89bde18eada3688d893861d43507641804dd2f9d3079cfaa0.fi.png)
+![Viitearkkitehtuuri IoT-sovelluksille](../../../../../translated_images/fi/iot-reference-architecture.2278b98b55c6d4e89bde18eada3688d893861d43507641804dd2f9d3079cfaa0.png)
 
 Yllä oleva kaavio esittää viitearkkitehtuurin IoT-sovelluksille.
 
@@ -58,7 +58,7 @@ Yllä oleva kaavio esittää viitearkkitehtuurin IoT-sovelluksille.
 * **Oivallukset** syntyvät palveluttomista sovelluksista tai analytiikasta, joka suoritetaan tallennetulle datalle.
 * **Toimet** voivat olla komentoja, jotka lähetetään laitteille, tai datan visualisointia, joka mahdollistaa päätöksenteon ihmisille.
 
-![Viitearkkitehtuuri Azure IoT:lle](../../../../../translated_images/iot-reference-architecture-azure.0b8d2161af924cb18ae48a8558a19541cca47f27264851b5b7e56d7b8bb372ac.fi.png)
+![Viitearkkitehtuuri Azure IoT:lle](../../../../../translated_images/fi/iot-reference-architecture-azure.0b8d2161af924cb18ae48a8558a19541cca47f27264851b5b7e56d7b8bb372ac.png)
 
 Yllä oleva kaavio näyttää joitakin näissä oppitunneissa käsiteltyjä komponentteja ja palveluita sekä niiden yhteydet viitearkkitehtuurissa.
 
@@ -98,7 +98,7 @@ Sinun täytyy rakentaa järjestelmä, jossa hedelmä havaitaan sen saapuessa kul
 
 ### Sovelluksen prototyyppi
 
-![Viitearkkitehtuuri hedelmälaadun tarkistukseen](../../../../../translated_images/iot-reference-architecture-fruit-quality.cc705f121c3b6fa71c800d9630935ac34bc08223a04601e35f41d5e9b5dd5207.fi.png)
+![Viitearkkitehtuuri hedelmälaadun tarkistukseen](../../../../../translated_images/fi/iot-reference-architecture-fruit-quality.cc705f121c3b6fa71c800d9630935ac34bc08223a04601e35f41d5e9b5dd5207.png)
 
 Yllä oleva kaavio esittää viitearkkitehtuurin tälle prototyyppisovellukselle.
 
@@ -115,7 +115,7 @@ Prototyypissä toteutat kaiken yhdellä laitteella. Jos käytät mikro-ohjainta,
 
 IoT-laitteessa tarvitaan jonkinlainen laukaisin, joka ilmoittaa, milloin hedelmä on valmis luokiteltavaksi. Yksi laukaisin voisi olla hedelmän sijainnin mittaaminen kuljetinhihnalla etäisyyden perusteella.
 
-![Läheisyysanturit lähettävät laser- tai infrapunasäteitä kohteisiin, kuten banaaneihin, ja mittaavat ajan, joka kuluu säteen heijastumiseen takaisin](../../../../../translated_images/proximity-sensor.f5cd752c77fb62fe.fi.png)
+![Läheisyysanturit lähettävät laser- tai infrapunasäteitä kohteisiin, kuten banaaneihin, ja mittaavat ajan, joka kuluu säteen heijastumiseen takaisin](../../../../../translated_images/fi/proximity-sensor.f5cd752c77fb62fe.png)
 
 Läheisyysantureita voidaan käyttää mittaamaan etäisyyttä anturin ja kohteen välillä. Ne lähettävät yleensä sähkömagneettista säteilyä, kuten laser- tai infrapunasäteitä, ja havaitsevat säteilyn heijastumisen kohteesta. Aika, joka kuluu säteen lähettämisestä signaalin heijastumiseen, voidaan käyttää etäisyyden laskemiseen.
 
@@ -133,7 +133,7 @@ Käy läpi asiaankuuluva opas läheisyysanturin käyttämiseksi IoT-laitteellasi
 
 Prototyyppinen hedelmälaadun tarkistin sisältää useita toisiinsa kommunikoivia komponentteja.
 
-![Komponentit kommunikoivat keskenään](../../../../../translated_images/fruit-quality-detector-message-flow.adf2a65da8fd8741ac7af11361574de89adc126785d67606bb4d2ec00467e380.fi.png)
+![Komponentit kommunikoivat keskenään](../../../../../translated_images/fi/fruit-quality-detector-message-flow.adf2a65da8fd8741ac7af11361574de89adc126785d67606bb4d2ec00467e380.png)
 
 * Läheisyysanturi mittaa etäisyyttä hedelmään ja lähettää tämän IoT Hubiin.
 * Kameraa ohjaava komento lähetetään IoT Hubista kameralle.

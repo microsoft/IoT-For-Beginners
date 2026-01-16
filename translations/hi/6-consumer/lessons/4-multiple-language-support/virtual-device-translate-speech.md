@@ -46,7 +46,7 @@ CO_OP_TRANSLATOR_METADATA:
     >
     > उदाहरण के लिए, यदि आप LUIS को अंग्रेजी में प्रशिक्षित करते हैं, लेकिन उपयोगकर्ता भाषा के रूप में फ्रेंच का उपयोग करना चाहते हैं, तो आप "set a 2 minute and 27 second timer" जैसे वाक्यों को Bing Translate का उपयोग करके अंग्रेजी से फ्रेंच में अनुवाद कर सकते हैं, फिर **Listen translation** बटन का उपयोग करके अनुवाद को अपने माइक्रोफोन में बोल सकते हैं।
     >
-    > ![Bing Translate पर Listen translation बटन](../../../../../translated_images/bing-translate.348aa796d6efe2a92f41ea74a5cf42bb4c63d6faaa08e7f46924e072a35daa48.hi.png)
+    > ![Bing Translate पर Listen translation बटन](../../../../../translated_images/hi/bing-translate.348aa796d6efe2a92f41ea74a5cf42bb4c63d6faaa08e7f46924e072a35daa48.png)
 
 1. `recognizer_config` और `recognizer` घोषणाओं को निम्नलिखित से बदलें:
 

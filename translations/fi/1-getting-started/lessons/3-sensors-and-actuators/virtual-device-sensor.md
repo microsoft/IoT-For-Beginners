@@ -37,11 +37,11 @@ Lisää valosensori CounterFit-sovellukseen.
 
     1. Valitse **Add**-painike luodaksesi valosensorin Pin 0:aan.
 
-    ![Valosensorin asetukset](../../../../../translated_images/counterfit-create-light-sensor.9f36a5e0d4458d8d554d54b34d2c806d56093d6e49fddcda2d20f6fef7f5cce1.fi.png)
+    ![Valosensorin asetukset](../../../../../translated_images/fi/counterfit-create-light-sensor.9f36a5e0d4458d8d554d54b34d2c806d56093d6e49fddcda2d20f6fef7f5cce1.png)
 
     Valosensori luodaan ja se ilmestyy sensorilistaan.
 
-    ![Luotu valosensori](../../../../../translated_images/counterfit-light-sensor.5d0f5584df56b90f6b2561910d9cb20dfbd73eeff2177c238d38f4de54aefae1.fi.png)
+    ![Luotu valosensori](../../../../../translated_images/fi/counterfit-light-sensor.5d0f5584df56b90f6b2561910d9cb20dfbd73eeff2177c238d38f4de54aefae1.png)
 
 ## Ohjelmoi valosensori
 

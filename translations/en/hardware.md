@@ -21,7 +21,7 @@ You will also need a few non-technical items, such as soil or a potted plant, an
 
 ## Buy the kits
 
-![The Seeed studios logo](../../translated_images/seeed-logo.74732b6b482b6e8e.en.png)
+![The Seeed studios logo](../../translated_images/en/seeed-logo.74732b6b482b6e8e.webp)
 
 Seeed Studios has kindly made all the hardware available as easy-to-purchase kits:
 
@@ -29,13 +29,13 @@ Seeed Studios has kindly made all the hardware available as easy-to-purchase kit
 
 **[IoT for beginners with Seeed and Microsoft - Wio Terminal Starter Kit](https://www.seeedstudio.com/IoT-for-beginners-with-Seeed-and-Microsoft-Wio-Terminal-Starter-Kit-p-5006.html)**
 
-[![The Wio Terminal hardware kit](../../translated_images/wio-hardware-kit.4c70c48b85e4283a.en.png)](https://www.seeedstudio.com/IoT-for-beginners-with-Seeed-and-Microsoft-Wio-Terminal-Starter-Kit-p-5006.html)
+[![The Wio Terminal hardware kit](../../translated_images/en/wio-hardware-kit.4c70c48b85e4283a.webp)](https://www.seeedstudio.com/IoT-for-beginners-with-Seeed-and-Microsoft-Wio-Terminal-Starter-Kit-p-5006.html)
 
 ### Raspberry Pi
 
 **[IoT for beginners with Seeed and Microsoft - Raspberry Pi 4 Starter Kit](https://www.seeedstudio.com/IoT-for-beginners-with-Seeed-and-Microsoft-Raspberry-Pi-Starter-Kit-p-5004.html)**
 
-[![The Raspberry Pi Terminal hardware kit](../../translated_images/pi-hardware-kit.26dbadaedb7dd44c73b0131d5d68ea29472ed0a9744f90d5866c6d82f2d16380.en.png)](https://www.seeedstudio.com/IoT-for-beginners-with-Seeed-and-Microsoft-Raspberry-Pi-Starter-Kit-p-5004.html)
+[![The Raspberry Pi Terminal hardware kit](../../translated_images/en/pi-hardware-kit.26dbadaedb7dd44c73b0131d5d68ea29472ed0a9744f90d5866c6d82f2d16380.png)](https://www.seeedstudio.com/IoT-for-beginners-with-Seeed-and-Microsoft-Raspberry-Pi-Starter-Kit-p-5004.html)
 
 ## Arduino
 

@@ -29,13 +29,13 @@ Le capteur Grove Time of Flight peut être connecté au Wio Terminal.
 
 Connectez le capteur Time of Flight.
 
-![Un capteur Grove Time of Flight](../../../../../translated_images/grove-time-of-flight-sensor.d82ff2165bfded9f485de54d8d07195a6270a602696825fca19f629ddfe94e86.fr.png)
+![Un capteur Grove Time of Flight](../../../../../translated_images/fr/grove-time-of-flight-sensor.d82ff2165bfded9f485de54d8d07195a6270a602696825fca19f629ddfe94e86.png)
 
 1. Insérez une extrémité d'un câble Grove dans la prise du capteur Time of Flight. Il ne peut être inséré que dans un seul sens.
 
 1. Avec le Wio Terminal déconnecté de votre ordinateur ou de toute autre source d'alimentation, connectez l'autre extrémité du câble Grove à la prise Grove située sur le côté gauche du Wio Terminal lorsque vous regardez l'écran. C'est la prise la plus proche du bouton d'alimentation. Il s'agit d'une prise combinée numérique et I2C.
 
-![Le capteur Grove Time of Flight connecté à la prise de gauche](../../../../../translated_images/wio-time-of-flight-sensor.c4c182131d2ea73d.fr.png)
+![Le capteur Grove Time of Flight connecté à la prise de gauche](../../../../../translated_images/fr/wio-time-of-flight-sensor.c4c182131d2ea73d.webp)
 
 1. Vous pouvez maintenant connecter le Wio Terminal à votre ordinateur.
 
@@ -101,7 +101,7 @@ Le Wio Terminal peut maintenant être programmé pour utiliser le capteur Time o
 
     Le télémètre se trouve à l'arrière du capteur, alors assurez-vous d'utiliser le bon côté pour mesurer la distance.
 
-    ![Le télémètre à l'arrière du capteur Time of Flight pointant vers une banane](../../../../../translated_images/time-of-flight-banana.079921ad8b1496e4.fr.png)
+    ![Le télémètre à l'arrière du capteur Time of Flight pointant vers une banane](../../../../../translated_images/fr/time-of-flight-banana.079921ad8b1496e4.webp)
 
 > 💁 Vous pouvez trouver ce code dans le dossier [code-proximity/wio-terminal](../../../../../4-manufacturing/lessons/4-trigger-fruit-detector/code-proximity/wio-terminal).
 

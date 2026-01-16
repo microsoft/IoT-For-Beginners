@@ -27,13 +27,13 @@ CO_OP_TRANSLATOR_METADATA:
 
 חבר את חיישן ה-GPS.
 
-![חיישן GPS מסוג Grove](../../../../../translated_images/grove-gps-sensor.247943bf69b03f0d1820ef6ed10c587f9b650e8db55b936851c92412180bd3e2.he.png)
+![חיישן GPS מסוג Grove](../../../../../translated_images/he/grove-gps-sensor.247943bf69b03f0d1820ef6ed10c587f9b650e8db55b936851c92412180bd3e2.png)
 
 1. הכנס קצה אחד של כבל Grove לשקע שבחיישן ה-GPS. הכבל ייכנס רק בכיוון אחד.
 
 1. כאשר ה-Wio Terminal מנותק מהמחשב שלך או מכל מקור כוח אחר, חבר את הקצה השני של כבל ה-Grove לשקע ה-Grove שבצד השמאלי של ה-Wio Terminal (כאשר המסך פונה אליך). זהו השקע הקרוב ביותר לכפתור ההפעלה.
 
-    ![חיישן ה-GPS מחובר לשקע השמאלי](../../../../../translated_images/wio-gps-sensor.19fd52b81ce58095.he.png)
+    ![חיישן ה-GPS מחובר לשקע השמאלי](../../../../../translated_images/he/wio-gps-sensor.19fd52b81ce58095.png)
 
 1. מקם את חיישן ה-GPS כך שהאנטנה המחוברת אליו תהיה חשופה לשמיים - רצוי ליד חלון פתוח או מחוץ לבית. קל יותר לקבל אות ברור כאשר אין מכשולים בין האנטנה לשמיים.
 

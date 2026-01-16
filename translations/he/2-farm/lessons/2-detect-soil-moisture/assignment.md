@@ -29,14 +29,14 @@ CO_OP_TRANSLATOR_METADATA:
 
 תכולת הלחות הגרבימטרית של הקרקע מחושבת כך:
 
-![אחוז לחות הקרקע הוא משקל הקרקע הרטובה פחות משקל הקרקע היבשה, מחולק במשקל הקרקע היבשה, כפול 100](../../../../../translated_images/gsm-calculation.6da38c6201eec14e7573bb2647aa18892883193553d23c9d77e5dc681522dfb2.he.png)
+![אחוז לחות הקרקע הוא משקל הקרקע הרטובה פחות משקל הקרקע היבשה, מחולק במשקל הקרקע היבשה, כפול 100](../../../../../translated_images/he/gsm-calculation.6da38c6201eec14e7573bb2647aa18892883193553d23c9d77e5dc681522dfb2.png)
 
 * W - משקל הקרקע הרטובה  
 * W - משקל הקרקע היבשה  
 
 לדוגמה, נניח שיש לכם דגימת קרקע שמשקלה 212 גרם כשהיא רטובה, ו-197 גרם כשהיא יבשה.
 
-![החישוב ממולא](../../../../../translated_images/gsm-calculation-example.99f9803b4f29e97668e7c15412136c0c399ab12dbba0b89596fdae9d8aedb6fb.he.png)
+![החישוב ממולא](../../../../../translated_images/he/gsm-calculation-example.99f9803b4f29e97668e7c15412136c0c399ab12dbba0b89596fdae9d8aedb6fb.png)
 
 * W = 212 גרם  
 * W = 197 גרם  

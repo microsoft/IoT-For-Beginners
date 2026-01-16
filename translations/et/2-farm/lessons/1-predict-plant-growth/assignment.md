@@ -42,7 +42,7 @@ Kui sul on temperatuuriandmed olemas, saad kasutada selle repo Jupyter Notebooki
 
     Jupyter käivitub ja avab notebooki sinu brauseris. Järgi notebookis olevaid juhiseid, et visualiseerida mõõdetud temperatuurid ja arvutada kasvukraadipäevad.
 
-    ![Jupyter notebook](../../../../../translated_images/gdd-jupyter-notebook.c5b52cf21094f158a61f47f455490fd95f1729777ff90861a4521820bf354cdc.et.png)
+    ![Jupyter notebook](../../../../../translated_images/et/gdd-jupyter-notebook.c5b52cf21094f158a61f47f455490fd95f1729777ff90861a4521820bf354cdc.png)
 
 ## Hindamiskriteeriumid
 

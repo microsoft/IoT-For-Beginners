@@ -154,11 +154,11 @@ Looge Pythoni rakendus, mis kuvab konsoolile `"Tere maailm"`.
 
 1. Kui VS Code käivitub, aktiveerib see Pythoni virtuaalse keskkonna. Valitud virtuaalne keskkond kuvatakse alumises olekuribal:
 
-    ![VS Code näitab valitud virtuaalset keskkonda](../../../../../translated_images/vscode-virtual-env.8ba42e04c3d533cf.et.png)
+    ![VS Code näitab valitud virtuaalset keskkonda](../../../../../translated_images/et/vscode-virtual-env.8ba42e04c3d533cf.png)
 
 1. Kui VS Code Terminal on juba käivitunud, kui VS Code käivitub, ei ole virtuaalne keskkond selles aktiveeritud. Kõige lihtsam on terminal sulgeda, kasutades nuppu **Kill the active terminal instance**:
 
-    ![VS Code nupp Kill the active terminal instance](../../../../../translated_images/vscode-kill-terminal.1cc4de7c6f25ee08.et.png)
+    ![VS Code nupp Kill the active terminal instance](../../../../../translated_images/et/vscode-kill-terminal.1cc4de7c6f25ee08.png)
 
     Saate aru, kas terminalis on virtuaalne keskkond aktiveeritud, kui terminali promptil on virtuaalse keskkonna nimi eesliitena. Näiteks võib see olla:
 
@@ -212,7 +212,7 @@ Teise "Tere maailm" sammuna käivitate CounterFiti rakenduse ja ühendate oma ko
 
     Rakendus hakkab tööle ja avaneb teie veebibrauseris:
 
-    ![CounterFit rakendus töötab brauseris](../../../../../translated_images/counterfit-first-run.433326358b669b31d0e99c3513cb01bfbb13724d162c99cdcc8f51ecf5f9c779.et.png)
+    ![CounterFit rakendus töötab brauseris](../../../../../translated_images/et/counterfit-first-run.433326358b669b31d0e99c3513cb01bfbb13724d162c99cdcc8f51ecf5f9c779.png)
 
     See on märgitud kui *Disconnected* ja paremas ülanurgas olev LED on välja lülitatud.
 
@@ -229,11 +229,11 @@ Teise "Tere maailm" sammuna käivitate CounterFiti rakenduse ja ühendate oma ko
 
 1. Peate käivitama uue VS Code'i terminali, valides **Create a new integrated terminal** nupu. Seda seetõttu, et CounterFiti rakendus töötab praeguses terminalis.
 
-    ![VS Code nupp Create a new integrated terminal](../../../../../translated_images/vscode-new-terminal.77db8fc0f9cd3182.et.png)
+    ![VS Code nupp Create a new integrated terminal](../../../../../translated_images/et/vscode-new-terminal.77db8fc0f9cd3182.png)
 
 1. Käivitage selles uues terminalis `app.py` fail nagu varem. CounterFiti olek muutub **Connected** ja LED süttib.
 
-    ![CounterFit näitab ühendatud olekut](../../../../../translated_images/counterfit-connected.ed30b46d8f79b0921f3fc70be10366e596a89dca3f80c2224a9d9fc98fccf884.et.png)
+    ![CounterFit näitab ühendatud olekut](../../../../../translated_images/et/counterfit-connected.ed30b46d8f79b0921f3fc70be10366e596a89dca3f80c2224a9d9fc98fccf884.png)
 
 > 💁 Selle koodi leiate kaustast [code/virtual-device](../../../../../1-getting-started/lessons/1-introduction-to-iot/code/virtual-device).
 

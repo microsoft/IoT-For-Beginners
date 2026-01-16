@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 ה-[Wio Terminal מבית Seeed Studios](https://www.seeedstudio.com/Wio-Terminal-p-4509.html) הוא מיקרו-בקר תואם Arduino, עם WiFi וחיישנים ומפעילים מובנים, וכן יציאות להוספת חיישנים ומפעילים נוספים, באמצעות מערכת חומרה הנקראת [Grove](https://www.seeedstudio.com/category/Grove-c-1003.html).
 
-![Wio Terminal מבית Seeed Studios](../../../../../translated_images/wio-terminal.b8299ee16587db9a.he.png)
+![Wio Terminal מבית Seeed Studios](../../../../../translated_images/he/wio-terminal.b8299ee16587db9a.png)
 
 ## הגדרה
 
@@ -51,15 +51,15 @@ CO_OP_TRANSLATOR_METADATA:
 
 1. סמל PlatformIO יופיע בסרגל התפריט הצדדי:
 
-    ![אפשרות התפריט של PlatformIO](../../../../../translated_images/vscode-platformio-menu.297be26b9733e5c4.he.png)
+    ![אפשרות התפריט של PlatformIO](../../../../../translated_images/he/vscode-platformio-menu.297be26b9733e5c4.png)
 
     בחרו באפשרות זו, ואז בחרו *PIO Home -> Open*
 
-    ![אפשרות הפתיחה של PlatformIO](../../../../../translated_images/vscode-platformio-home-open.3f9a41bfd3f4da1c.he.png)
+    ![אפשרות הפתיחה של PlatformIO](../../../../../translated_images/he/vscode-platformio-home-open.3f9a41bfd3f4da1c.png)
 
 1. במסך הפתיחה, בחרו בכפתור **+ New Project**
 
-    ![כפתור הפרויקט החדש](../../../../../translated_images/vscode-platformio-welcome-new-button.ba6fc8a4c7b78cc8.he.png)
+    ![כפתור הפרויקט החדש](../../../../../translated_images/he/vscode-platformio-welcome-new-button.ba6fc8a4c7b78cc8.png)
 
 1. הגדירו את הפרויקט ב-*Project Wizard*:
 
@@ -73,7 +73,7 @@ CO_OP_TRANSLATOR_METADATA:
 
     1. לחצו על כפתור **Finish**
 
-    ![אשף הפרויקט המושלם](../../../../../translated_images/vscode-platformio-nightlight-project-wizard.5c64db4da6037420.he.png)
+    ![אשף הפרויקט המושלם](../../../../../translated_images/he/vscode-platformio-nightlight-project-wizard.5c64db4da6037420.png)
 
     PlatformIO יוריד את הרכיבים הדרושים לו כדי לקמפל קוד עבור ה-Wio Terminal ויצור את הפרויקט שלכם. זה עשוי לקחת כמה דקות.
 
@@ -179,7 +179,7 @@ CO_OP_TRANSLATOR_METADATA:
 
     1. הקלידו `PlatformIO Upload` כדי לחפש את אפשרות ההעלאה, ובחרו *PlatformIO: Upload*
 
-        ![אפשרות ההעלאה של PlatformIO בתפריט הפקודות](../../../../../translated_images/vscode-platformio-upload-command-palette.9e0f49cf80d1f1c3.he.png)
+        ![אפשרות ההעלאה של PlatformIO בתפריט הפקודות](../../../../../translated_images/he/vscode-platformio-upload-command-palette.9e0f49cf80d1f1c3.png)
 
         PlatformIO יקומפל את הקוד באופן אוטומטי אם יש צורך לפני ההעלאה.
 
@@ -195,7 +195,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 1. הקלידו `PlatformIO Serial` כדי לחפש את אפשרות המוניטור הסריאלי, ובחרו *PlatformIO: Serial Monitor*
 
-    ![אפשרות המוניטור הסריאלי של PlatformIO בתפריט הפקודות](../../../../../translated_images/vscode-platformio-serial-monitor-command-palette.b348ec841b8a1c14.he.png)
+    ![אפשרות המוניטור הסריאלי של PlatformIO בתפריט הפקודות](../../../../../translated_images/he/vscode-platformio-serial-monitor-command-palette.b348ec841b8a1c14.png)
 
     ייפתח טרמינל חדש, והנתונים שנשלחים דרך יציאת הסריאל יוזרמו לטרמינל הזה:
 

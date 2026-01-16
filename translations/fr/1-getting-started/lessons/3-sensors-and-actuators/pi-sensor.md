@@ -25,13 +25,13 @@ Le capteur de lumière Grove utilisé pour détecter les niveaux de lumière doi
 
 Connectez le capteur de lumière.
 
-![Un capteur de lumière Grove](../../../../../translated_images/grove-light-sensor.b8127b7c434e632d6bcdb57587a14e9ef69a268a22df95d08628f62b8fa5505c.fr.png)
+![Un capteur de lumière Grove](../../../../../translated_images/fr/grove-light-sensor.b8127b7c434e632d6bcdb57587a14e9ef69a268a22df95d08628f62b8fa5505c.png)
 
 1. Insérez une extrémité d'un câble Grove dans la prise du module du capteur de lumière. Il ne peut être inséré que dans un seul sens.
 
 1. Avec le Raspberry Pi éteint, connectez l'autre extrémité du câble Grove à la prise analogique marquée **A0** sur le Grove Base Hat attaché au Pi. Cette prise est la deuxième à partir de la droite, sur la rangée de prises à côté des broches GPIO.
 
-![Le capteur de lumière Grove connecté à la prise A0](../../../../../translated_images/pi-light-sensor.66cc1e31fa48cd7d5f23400d4b2119aa41508275cb7c778053a7923b4e972d7e.fr.png)
+![Le capteur de lumière Grove connecté à la prise A0](../../../../../translated_images/fr/pi-light-sensor.66cc1e31fa48cd7d5f23400d4b2119aa41508275cb7c778053a7923b4e972d7e.png)
 
 ## Programmer le capteur de lumière
 

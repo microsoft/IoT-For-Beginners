@@ -29,14 +29,14 @@ Ezeket a lépéseket többször meg kell ismételned, hogy elegendő adatot gyű
 
 A gravimetrikus talajnedvesség-tartalom kiszámítása:
 
-![A talajnedvesség % kiszámítása: nedves súly mínusz száraz súly, osztva száraz súllyal, szorozva 100-zal](../../../../../translated_images/gsm-calculation.6da38c6201eec14e7573bb2647aa18892883193553d23c9d77e5dc681522dfb2.hu.png)
+![A talajnedvesség % kiszámítása: nedves súly mínusz száraz súly, osztva száraz súllyal, szorozva 100-zal](../../../../../translated_images/hu/gsm-calculation.6da38c6201eec14e7573bb2647aa18892883193553d23c9d77e5dc681522dfb2.png)
 
 * W - a nedves talaj súlya  
 * W - a száraz talaj súlya  
 
 Például, ha van egy talajmintád, amely nedvesen 212g, szárazon pedig 197g.
 
-![A kitöltött számítás](../../../../../translated_images/gsm-calculation-example.99f9803b4f29e97668e7c15412136c0c399ab12dbba0b89596fdae9d8aedb6fb.hu.png)
+![A kitöltött számítás](../../../../../translated_images/hu/gsm-calculation-example.99f9803b4f29e97668e7c15412136c0c399ab12dbba0b89596fdae9d8aedb6fb.png)
 
 * W = 212g  
 * W = 197g  

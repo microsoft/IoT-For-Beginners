@@ -15,11 +15,11 @@ CO_OP_TRANSLATOR_METADATA:
 
 ל-Wio Terminal כבר יש מיקרופון מובנה, שניתן להשתמש בו כדי להקליט שמע לצורך זיהוי דיבור.
 
-![המיקרופון ב-Wio Terminal](../../../../../translated_images/wio-mic.3f8c843dbe8ad917.he.png)
+![המיקרופון ב-Wio Terminal](../../../../../translated_images/he/wio-mic.3f8c843dbe8ad917.png)
 
 כדי להוסיף רמקול, ניתן להשתמש ב-[ReSpeaker 2-Mics Pi Hat](https://www.seeedstudio.com/ReSpeaker-2-Mics-Pi-HAT.html). מדובר בלוח חיצוני שמכיל שני מיקרופונים MEMS, כמו גם חיבור לרמקול ושקע לאוזניות.
 
-![ReSpeaker 2-Mics Pi Hat](../../../../../translated_images/respeaker.f5d19d1c6b14ab16.he.png)
+![ReSpeaker 2-Mics Pi Hat](../../../../../translated_images/he/respeaker.f5d19d1c6b14ab16.png)
 
 תצטרך להוסיף אוזניות, רמקול עם חיבור 3.5 מ"מ, או רמקול עם חיבור JST כמו [Mono Enclosed Speaker - 2W 6 Ohm](https://www.seeedstudio.com/Mono-Enclosed-Speaker-2W-6-Ohm-p-2832.html).
 
@@ -35,7 +35,7 @@ CO_OP_TRANSLATOR_METADATA:
 
     יש לחבר את הפינים בצורה הבאה:
 
-    ![תרשים פינים](../../../../../translated_images/wio-respeaker-wiring-0.767f80aa65081038.he.png)
+    ![תרשים פינים](../../../../../translated_images/he/wio-respeaker-wiring-0.767f80aa65081038.png)
 
 1. מקם את ה-ReSpeaker ואת ה-Wio Terminal כך ששקעי ה-GPIO פונים כלפי מעלה, ובצד השמאלי.
 
@@ -43,33 +43,33 @@ CO_OP_TRANSLATOR_METADATA:
 
 1. חזור על הפעולה לאורך כל שקעי ה-GPIO בצד השמאלי. ודא שהפינים מחוברים היטב.
 
-    ![ReSpeaker עם הפינים השמאליים מחוברים לפינים השמאליים של ה-Wio Terminal](../../../../../translated_images/wio-respeaker-wiring-1.8d894727f2ba2400.he.png)
+    ![ReSpeaker עם הפינים השמאליים מחוברים לפינים השמאליים של ה-Wio Terminal](../../../../../translated_images/he/wio-respeaker-wiring-1.8d894727f2ba2400.png)
 
-    ![ReSpeaker עם הפינים השמאליים מחוברים לפינים השמאליים של ה-Wio Terminal](../../../../../translated_images/wio-respeaker-wiring-2.329e1cbd306e754f.he.png)
+    ![ReSpeaker עם הפינים השמאליים מחוברים לפינים השמאליים של ה-Wio Terminal](../../../../../translated_images/he/wio-respeaker-wiring-2.329e1cbd306e754f.png)
 
     > 💁 אם כבלי הג'אמפר שלך מחוברים ברצועות, שמור אותם יחד - זה מקל על הבטחת חיבור כל הכבלים בסדר הנכון.
 
 1. חזור על התהליך באמצעות שקעי ה-GPIO בצד הימני של ה-ReSpeaker וה-Wio Terminal. הכבלים הללו צריכים לעבור מסביב לכבלים שכבר מחוברים.
 
-    ![ReSpeaker עם הפינים הימניים מחוברים לפינים הימניים של ה-Wio Terminal](../../../../../translated_images/wio-respeaker-wiring-3.75b0be447e2fa930.he.png)
+    ![ReSpeaker עם הפינים הימניים מחוברים לפינים הימניים של ה-Wio Terminal](../../../../../translated_images/he/wio-respeaker-wiring-3.75b0be447e2fa930.png)
 
-    ![ReSpeaker עם הפינים הימניים מחוברים לפינים הימניים של ה-Wio Terminal](../../../../../translated_images/wio-respeaker-wiring-4.aa9cd434d8779437.he.png)
+    ![ReSpeaker עם הפינים הימניים מחוברים לפינים הימניים של ה-Wio Terminal](../../../../../translated_images/he/wio-respeaker-wiring-4.aa9cd434d8779437.png)
 
     > 💁 אם כבלי הג'אמפר שלך מחוברים ברצועות, חלק אותם לשתי רצועות. העבר אחת מכל צד של הכבלים הקיימים.
 
     > 💁 ניתן להשתמש בנייר דבק כדי להחזיק את הפינים כבלוק ולמנוע יציאה שלהם בזמן החיבור.
     >
-    > ![הפינים מקובעים עם נייר דבק](../../../../../translated_images/wio-respeaker-wiring-5.af117c20acf622f3.he.png)
+    > ![הפינים מקובעים עם נייר דבק](../../../../../translated_images/he/wio-respeaker-wiring-5.af117c20acf622f3.png)
 
 1. תצטרך להוסיף רמקול.
 
     * אם אתה משתמש ברמקול עם כבל JST, חבר אותו ליציאת ה-JST ב-ReSpeaker.
 
-      ![רמקול מחובר ל-ReSpeaker עם כבל JST](../../../../../translated_images/respeaker-jst-speaker.a441d177809df945.he.png)
+      ![רמקול מחובר ל-ReSpeaker עם כבל JST](../../../../../translated_images/he/respeaker-jst-speaker.a441d177809df945.png)
 
     * אם אתה משתמש ברמקול עם חיבור 3.5 מ"מ או אוזניות, הכנס אותם לשקע 3.5 מ"מ.
 
-      ![רמקול מחובר ל-ReSpeaker דרך שקע 3.5 מ"מ](../../../../../translated_images/respeaker-35mm-speaker.ad79ef4f128c7751.he.png)
+      ![רמקול מחובר ל-ReSpeaker דרך שקע 3.5 מ"מ](../../../../../translated_images/he/respeaker-35mm-speaker.ad79ef4f128c7751.png)
 
 ### משימה - הגדרת כרטיס ה-SD
 
@@ -79,7 +79,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 1. הכנס את כרטיס ה-SD לחריץ ה-SD בצד השמאלי של ה-Wio Terminal, ממש מתחת לכפתור ההפעלה. ודא שהכרטיס נכנס עד הסוף ונלחץ פנימה - ייתכן שתצטרך כלי דק או כרטיס SD נוסף כדי לדחוף אותו עד הסוף.
 
-    ![הכנסת כרטיס ה-SD לחריץ ה-SD מתחת למתג ההפעלה](../../../../../translated_images/wio-sd-card.acdcbe322fa4ee7f.he.png)
+    ![הכנסת כרטיס ה-SD לחריץ ה-SD מתחת למתג ההפעלה](../../../../../translated_images/he/wio-sd-card.acdcbe322fa4ee7f.png)
 
     > 💁 כדי להוציא את כרטיס ה-SD, יש ללחוץ עליו מעט והוא ייצא. תצטרך כלי דק כמו מברג שטוח או כרטיס SD נוסף כדי לעשות זאת.
 

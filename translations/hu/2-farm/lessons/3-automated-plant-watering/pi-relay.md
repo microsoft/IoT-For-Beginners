@@ -27,13 +27,13 @@ A Grove relé csatlakoztatható a Raspberry Pi-hez.
 
 Csatlakoztasd a relét.
 
-![Egy Grove relé](../../../../../translated_images/grove-relay.d426958ca210fbd0fb7983d7edc069d46c73a8b0a099d94797bd756f7b6bb6be.hu.png)
+![Egy Grove relé](../../../../../translated_images/hu/grove-relay.d426958ca210fbd0fb7983d7edc069d46c73a8b0a099d94797bd756f7b6bb6be.png)
 
 1. Dugj be egy Grove kábelt a relé aljzatába. Csak egyféleképpen illeszkedik.
 
 1. Kapcsold ki a Raspberry Pi-t, majd csatlakoztasd a Grove kábel másik végét a **D5** jelzésű digitális aljzathoz a Pi-hez csatlakoztatott Grove Base Hat-on. Ez az aljzat a második balról, a GPIO csatlakozók melletti aljzatsoron. Hagyd a talajnedvesség-érzékelőt az **A0** aljzathoz csatlakoztatva.
 
-![A Grove relé a D5 aljzathoz csatlakoztatva, és a talajnedvesség-érzékelő az A0 aljzathoz csatlakoztatva](../../../../../translated_images/pi-relay-and-soil-moisture-sensor.02f3198975b8c53e69ec716cd2719ce117700bd1fc933eaf93476c103c57939b.hu.png)
+![A Grove relé a D5 aljzathoz csatlakoztatva, és a talajnedvesség-érzékelő az A0 aljzathoz csatlakoztatva](../../../../../translated_images/hu/pi-relay-and-soil-moisture-sensor.02f3198975b8c53e69ec716cd2719ce117700bd1fc933eaf93476c103c57939b.png)
 
 1. Helyezd a talajnedvesség-érzékelőt a talajba, ha az előző leckéből még nem tetted meg.
 

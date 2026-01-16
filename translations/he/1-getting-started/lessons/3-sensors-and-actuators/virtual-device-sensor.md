@@ -37,11 +37,11 @@ CO_OP_TRANSLATOR_METADATA:
 
     1. לחץ על כפתור **Add** כדי ליצור את חיישן האור על Pin 0.
 
-    ![הגדרות חיישן האור](../../../../../translated_images/counterfit-create-light-sensor.9f36a5e0d4458d8d554d54b34d2c806d56093d6e49fddcda2d20f6fef7f5cce1.he.png)
+    ![הגדרות חיישן האור](../../../../../translated_images/he/counterfit-create-light-sensor.9f36a5e0d4458d8d554d54b34d2c806d56093d6e49fddcda2d20f6fef7f5cce1.png)
 
     חיישן האור ייווצר ויופיע ברשימת החיישנים.
 
-    ![חיישן האור נוצר](../../../../../translated_images/counterfit-light-sensor.5d0f5584df56b90f6b2561910d9cb20dfbd73eeff2177c238d38f4de54aefae1.he.png)
+    ![חיישן האור נוצר](../../../../../translated_images/he/counterfit-light-sensor.5d0f5584df56b90f6b2561910d9cb20dfbd73eeff2177c238d38f4de54aefae1.png)
 
 ## תכנת את חיישן האור
 

@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Visualiser des données de localisation
 
-![Un aperçu illustré de cette leçon](../../../../../translated_images/lesson-13.a259db1485021be7d7c72e90842fbe0ab977529e8684c179b5fb1ea75e92b3ef.fr.jpg)
+![Un aperçu illustré de cette leçon](../../../../../translated_images/fr/lesson-13.a259db1485021be7d7c72e90842fbe0ab977529e8684c179b5fb1ea75e92b3ef.jpg)
 
 > Illustration par [Nitya Narasimhan](https://github.com/nitya). Cliquez sur l'image pour une version agrandie.
 
@@ -73,11 +73,11 @@ Prenons un exemple simple : dans le projet agricole, vous avez capturé des mesu
 
 Pour un humain, comprendre ces données peut être difficile. C'est une masse de chiffres sans signification apparente. Une première étape pour visualiser ces données consiste à les tracer sur un graphique en courbes :
 
-![Un graphique en courbes des données ci-dessus](../../../../../translated_images/chart-soil-moisture.fd6d9d0cdc0b5f75e78038ecb8945dfc84b38851359de99d84b16e3336d6d7c2.fr.png)
+![Un graphique en courbes des données ci-dessus](../../../../../translated_images/fr/chart-soil-moisture.fd6d9d0cdc0b5f75e78038ecb8945dfc84b38851359de99d84b16e3336d6d7c2.png)
 
 Cela peut être encore amélioré en ajoutant une ligne indiquant quand le système d'arrosage automatique a été activé à une lecture d'humidité du sol de 450 :
 
-![Un graphique en courbes de l'humidité du sol avec une ligne à 450](../../../../../translated_images/chart-soil-moisture-relay.fbb391236d34a64d0abf1df396e9197e0a24df14150620b9cc820a64a55c9326.fr.png)
+![Un graphique en courbes de l'humidité du sol avec une ligne à 450](../../../../../translated_images/fr/chart-soil-moisture-relay.fbb391236d34a64d0abf1df396e9197e0a24df14150620b9cc820a64a55c9326.png)
 
 Ce graphique montre très rapidement non seulement les niveaux d'humidité du sol, mais aussi les points où le système d'arrosage a été activé.
 
@@ -93,7 +93,7 @@ Lorsqu'on travaille avec des données GPS, la visualisation la plus claire peut 
 
 Travailler avec des cartes est un exercice intéressant, et il existe de nombreuses options comme Bing Maps, Leaflet, Open Street Maps et Google Maps. Dans cette leçon, vous apprendrez à utiliser [Azure Maps](https://azure.microsoft.com/services/azure-maps/?WT.mc_id=academic-17441-jabenn) et comment ils peuvent afficher vos données GPS.
 
-![Le logo Azure Maps](../../../../../translated_images/azure-maps-logo.35d01dcfbd81fe6140e94257aaa1538f785a58c91576d14e0ebe7a2f6c694b99.fr.png)
+![Le logo Azure Maps](../../../../../translated_images/fr/azure-maps-logo.35d01dcfbd81fe6140e94257aaa1538f785a58c91576d14e0ebe7a2f6c694b99.png)
 
 Azure Maps est "une collection de services géospatiaux et de SDK qui utilisent des données cartographiques actualisées pour fournir un contexte géographique aux applications web et mobiles." Les développeurs disposent d'outils pour créer de belles cartes interactives capables de fournir des itinéraires recommandés, des informations sur les incidents de circulation, une navigation intérieure, des capacités de recherche, des informations sur l'altitude, des services météorologiques et bien plus encore.
 
@@ -194,7 +194,7 @@ Vous pouvez maintenant passer à l'étape suivante, qui consiste à afficher vot
 
     Si vous ouvrez votre page `index.html` dans un navigateur web, vous devriez voir une carte chargée, centrée sur la région de Seattle.
 
-    ![Une carte montrant Seattle, une ville de l'État de Washington, aux États-Unis](../../../../../translated_images/map-image.8fb2c53eb23ef39c1c0a4410a5282e879b3b452b707eb066ff04c5488d3d72b7.fr.png)
+    ![Une carte montrant Seattle, une ville de l'État de Washington, aux États-Unis](../../../../../translated_images/fr/map-image.8fb2c53eb23ef39c1c0a4410a5282e879b3b452b707eb066ff04c5488d3d72b7.png)
 
     ✅ Expérimentez avec les paramètres de zoom et de centre pour modifier l'affichage de votre carte. Vous pouvez ajouter différentes coordonnées correspondant à la latitude et à la longitude de vos données pour recentrer la carte.
 
@@ -327,7 +327,7 @@ Si vous appelez votre stockage pour récupérer les données, vous pourriez êtr
 
 1. Chargez la page HTML dans votre navigateur. Elle chargera la carte, puis toutes les données GPS depuis le stockage et les tracera sur la carte.
 
-    ![Une carte du parc d'État Saint Edward près de Seattle, avec des cercles montrant un chemin autour du parc](../../../../../translated_images/map-path.896832e72dc696ffe20650e4051027d4855442d955f93fdbb80bb417ca8a406f.fr.png)
+    ![Une carte du parc d'État Saint Edward près de Seattle, avec des cercles montrant un chemin autour du parc](../../../../../translated_images/fr/map-path.896832e72dc696ffe20650e4051027d4855442d955f93fdbb80bb417ca8a406f.png)
 
 > 💁 Vous pouvez trouver ce code dans le dossier [code](../../../../../3-transport/lessons/3-visualize-location-data/code).
 

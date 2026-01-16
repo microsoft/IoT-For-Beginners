@@ -43,11 +43,11 @@ CO_OP_TRANSLATOR_METADATA:
 
     1. دکمه **Add** را برای ایجاد دوربین انتخاب کنید.
 
-    ![تنظیمات دوربین](../../../../../translated_images/counterfit-create-camera.a5de97f59c0bd3cbe0416d7e89a3cfe86d19fbae05c641c53a91286412af0a34.fa.png)
+    ![تنظیمات دوربین](../../../../../translated_images/fa/counterfit-create-camera.a5de97f59c0bd3cbe0416d7e89a3cfe86d19fbae05c641c53a91286412af0a34.png)
 
     دوربین ایجاد شده و در لیست حسگرها ظاهر می‌شود.
 
-    ![دوربین ایجاد شده](../../../../../translated_images/counterfit-camera.001ec52194c8ee5d3f617173da2c79e1df903d10882adc625cbfc493525125d4.fa.png)
+    ![دوربین ایجاد شده](../../../../../translated_images/fa/counterfit-camera.001ec52194c8ee5d3f617173da2c79e1df903d10882adc625cbfc493525125d4.png)
 
 ## برنامه‌نویسی دوربین
 
@@ -112,7 +112,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 1. تصویری که دوربین در CounterFit می‌گیرد را پیکربندی کنید. می‌توانید *Source* را به *File* تنظیم کنید، سپس یک فایل تصویر آپلود کنید، یا *Source* را به *WebCam* تنظیم کنید و تصاویر از وب‌کم شما گرفته شوند. مطمئن شوید که پس از انتخاب تصویر یا وب‌کم، دکمه **Set** را انتخاب کنید.
 
-    ![CounterFit با یک فایل به‌عنوان منبع تصویر تنظیم شده و یک وب‌کم که شخصی را در حال نگه داشتن یک موز نشان می‌دهد](../../../../../translated_images/counterfit-camera-options.eb3bd5150a8e7dffbf24bc5bcaba0cf2cdef95fbe6bbe393695d173817d6b8df.fa.png)
+    ![CounterFit با یک فایل به‌عنوان منبع تصویر تنظیم شده و یک وب‌کم که شخصی را در حال نگه داشتن یک موز نشان می‌دهد](../../../../../translated_images/fa/counterfit-camera-options.eb3bd5150a8e7dffbf24bc5bcaba0cf2cdef95fbe6bbe393695d173817d6b8df.png)
 
 1. یک تصویر گرفته شده و به‌عنوان `image.jpg` در پوشه فعلی ذخیره می‌شود. این فایل را در کاوشگر VS Code خواهید دید. فایل را انتخاب کنید تا تصویر را مشاهده کنید. اگر نیاز به چرخش دارد، خط `camera.rotation = 0` را به‌طور مناسب به‌روزرسانی کنید و دوباره عکس بگیرید.
 

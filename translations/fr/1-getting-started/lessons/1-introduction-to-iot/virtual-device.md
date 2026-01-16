@@ -154,11 +154,11 @@ Créez une application Python pour afficher `"Hello World"` dans la console.
 
 1. Lorsque VS Code se lance, il activera l'environnement virtuel Python. L'environnement virtuel sélectionné apparaîtra dans la barre d'état en bas :
 
-    ![VS Code montrant l'environnement virtuel sélectionné](../../../../../translated_images/vscode-virtual-env.8ba42e04c3d533cf.fr.png)
+    ![VS Code montrant l'environnement virtuel sélectionné](../../../../../translated_images/fr/vscode-virtual-env.8ba42e04c3d533cf.webp)
 
 1. Si le terminal VS Code est déjà en cours d'exécution lorsque VS Code démarre, il n'aura pas l'environnement virtuel activé. La solution la plus simple est de fermer le terminal en utilisant le bouton **Kill the active terminal instance** :
 
-    ![Bouton VS Code Kill the active terminal instance](../../../../../translated_images/vscode-kill-terminal.1cc4de7c6f25ee08.fr.png)
+    ![Bouton VS Code Kill the active terminal instance](../../../../../translated_images/fr/vscode-kill-terminal.1cc4de7c6f25ee08.webp)
 
     Vous pouvez savoir si le terminal a l'environnement virtuel activé car le nom de l'environnement virtuel sera un préfixe sur l'invite du terminal. Par exemple, cela pourrait être :
 
@@ -212,7 +212,7 @@ Comme deuxième étape 'Hello World', vous allez exécuter l'application Counter
 
     L'application commencera à s'exécuter et s'ouvrira dans votre navigateur web :
 
-    ![L'application CounterFit s'exécutant dans un navigateur](../../../../../translated_images/counterfit-first-run.433326358b669b31d0e99c3513cb01bfbb13724d162c99cdcc8f51ecf5f9c779.fr.png)
+    ![L'application CounterFit s'exécutant dans un navigateur](../../../../../translated_images/fr/counterfit-first-run.433326358b669b31d0e99c3513cb01bfbb13724d162c99cdcc8f51ecf5f9c779.png)
 
     Elle sera marquée comme *Disconnected*, avec la LED en haut à droite éteinte.
 
@@ -229,11 +229,11 @@ Comme deuxième étape 'Hello World', vous allez exécuter l'application Counter
 
 1. Vous devrez lancer un nouveau terminal VS Code en sélectionnant le bouton **Create a new integrated terminal**. Cela est dû au fait que l'application CounterFit s'exécute dans le terminal actuel.
 
-    ![Bouton VS Code Create a new integrated terminal](../../../../../translated_images/vscode-new-terminal.77db8fc0f9cd3182.fr.png)
+    ![Bouton VS Code Create a new integrated terminal](../../../../../translated_images/fr/vscode-new-terminal.77db8fc0f9cd3182.webp)
 
 1. Dans ce nouveau terminal, exécutez le fichier `app.py` comme précédemment. Le statut de CounterFit passera à **Connected** et la LED s'allumera.
 
-    ![CounterFit affichant le statut connecté](../../../../../translated_images/counterfit-connected.ed30b46d8f79b0921f3fc70be10366e596a89dca3f80c2224a9d9fc98fccf884.fr.png)
+    ![CounterFit affichant le statut connecté](../../../../../translated_images/fr/counterfit-connected.ed30b46d8f79b0921f3fc70be10366e596a89dca3f80c2224a9d9fc98fccf884.png)
 
 > 💁 Vous pouvez trouver ce code dans le dossier [code/virtual-device](../../../../../1-getting-started/lessons/1-introduction-to-iot/code/virtual-device).
 

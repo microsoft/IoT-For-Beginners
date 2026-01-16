@@ -25,13 +25,13 @@ Grove senzor svjetla koji se koristi za detekciju razine svjetla mora biti povez
 
 Povežite senzor svjetla.
 
-![Grove senzor svjetla](../../../../../translated_images/grove-light-sensor.b8127b7c434e632d6bcdb57587a14e9ef69a268a22df95d08628f62b8fa5505c.hr.png)
+![Grove senzor svjetla](../../../../../translated_images/hr/grove-light-sensor.b8127b7c434e632d6bcdb57587a14e9ef69a268a22df95d08628f62b8fa5505c.png)
 
 1. Umetnite jedan kraj Grove kabela u utičnicu na modulu senzora svjetla. Kabel će ući samo na jedan način.
 
 1. Dok je Raspberry Pi isključen, povežite drugi kraj Grove kabela s analognom utičnicom označenom **A0** na Grove Base hatu pričvršćenom na Pi. Ova utičnica je druga s desna, u redu utičnica pored GPIO pinova.
 
-![Grove senzor svjetla povezan na utičnicu A0](../../../../../translated_images/pi-light-sensor.66cc1e31fa48cd7d5f23400d4b2119aa41508275cb7c778053a7923b4e972d7e.hr.png)
+![Grove senzor svjetla povezan na utičnicu A0](../../../../../translated_images/hr/pi-light-sensor.66cc1e31fa48cd7d5f23400d4b2119aa41508275cb7c778053a7923b4e972d7e.png)
 
 ## Programirajte senzor svjetla
 

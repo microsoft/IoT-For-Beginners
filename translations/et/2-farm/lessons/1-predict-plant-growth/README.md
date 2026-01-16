@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Ennusta taimede kasvu IoT abil
 
-![Selle õppetunni visandmärkmete ülevaade](../../../../../translated_images/lesson-5.42b234299279d263143148b88ab4583861a32ddb03110c6c1120e41bb88b2592.et.jpg)
+![Selle õppetunni visandmärkmete ülevaade](../../../../../translated_images/et/lesson-5.42b234299279d263143148b88ab4583861a32ddb03110c6c1120e41bb88b2592.jpg)
 
 > Visandmärkmed: [Nitya Narasimhan](https://github.com/nitya). Klõpsa pildil, et näha suuremat versiooni.
 
@@ -65,7 +65,7 @@ Igal taimeliigil on erinevad väärtused oma baas-, optimaalse ja maksimaalse te
 
 ✅ Tee veidi uurimistööd. Uuri oma aias, koolis või kohalikus pargis kasvavate taimede baastemperatuuri.
 
-![Graafik, mis näitab kasvu kiiruse tõusu temperatuuri tõustes ja langust, kui temperatuur muutub liiga kõrgeks](../../../../../translated_images/plant-growth-temp-graph.c6d69c9478e6ca83.et.png)
+![Graafik, mis näitab kasvu kiiruse tõusu temperatuuri tõustes ja langust, kui temperatuur muutub liiga kõrgeks](../../../../../translated_images/et/plant-growth-temp-graph.c6d69c9478e6ca83.png)
 
 Ülaltoodud graafik näitab näidet kasvu kiiruse ja temperatuuri graafikust. Baastemperatuurini ei toimu kasvu. Kasvu kiirus suureneb kuni optimaalse temperatuurini ja langeb pärast selle tipu saavutamist. Maksimaalse temperatuuri juures kasv peatub.
 
@@ -99,7 +99,7 @@ Kasvupäevad ehk GDD arvutatakse iga päeva kohta kui päeva keskmine temperatuu
 
 Täielik GDD valem on veidi keeruline, kuid sageli kasutatakse lihtsustatud võrrandit, mis on hea ligikaudne arvutus:
 
-![GDD = T max + T min jagatud 2-ga, kõik miinus T base](../../../../../translated_images/gdd-calculation.79b3660f9c5757aa92dc2dd2cdde75344e2d2c1565c4b3151640f7887edc0275.et.png)
+![GDD = T max + T min jagatud 2-ga, kõik miinus T base](../../../../../translated_images/et/gdd-calculation.79b3660f9c5757aa92dc2dd2cdde75344e2d2c1565c4b3151640f7887edc0275.png)
 
 * **GDD** – kasvupäevade arv
 * **T<sub>max</sub>** – päeva maksimaalne temperatuur kraadides Celsiuse järgi
@@ -127,7 +127,7 @@ Sisestades need arvud meie arvutusse:
 
 See annab arvutuseks:
 
-![GDD = 16 + 12 jagatud 2-ga, kõik miinus 10, tulemuseks 4](../../../../../translated_images/gdd-calculation-corn.64a58b7a7afcd0dfd46ff733996d939f17f4f3feac9f0d1c632be3523e51ebd9.et.png)
+![GDD = 16 + 12 jagatud 2-ga, kõik miinus 10, tulemuseks 4](../../../../../translated_images/et/gdd-calculation-corn.64a58b7a7afcd0dfd46ff733996d939f17f4f3feac9f0d1c632be3523e51ebd9.png)
 
 Mais sai sel päeval 4 GDD. Eeldades maisisorti, mis vajab küpsemiseks 800 GDD, vajab see veel 796 GDD, et küpseda.
 
@@ -141,7 +141,7 @@ See avaldab suurt tööjõumõju suurel farmil ja riskib, et põllumees jääb o
 
 Temperatuuriandmeid kogudes IoT seadme abil saab põllumeest automaatselt teavitada, kui taimed on küpsusele lähedal. Tüüpiline arhitektuur selleks on IoT seadmete temperatuuri mõõtmine ja nende telemeetriaandmete Interneti kaudu avaldamine, näiteks MQTT abil. Serveri kood kuulab neid andmeid ja salvestab need kuhugi, näiteks andmebaasi. See tähendab, et andmeid saab hiljem analüüsida, näiteks öine töö, et arvutada päeva GDD, summeerida iga saagi GDD seni ja teavitada, kui taim on küpsusele lähedal.
 
-![Telemeetriaandmed saadetakse serverisse ja salvestatakse andmebaasi](../../../../../translated_images/save-telemetry-database.ddc9c6bea0c5ba39.et.png)
+![Telemeetriaandmed saadetakse serverisse ja salvestatakse andmebaasi](../../../../../translated_images/et/save-telemetry-database.ddc9c6bea0c5ba39.png)
 
 Serveri kood võib andmeid ka täiendada, lisades lisainformatsiooni. Näiteks võib IoT seade avaldada identifikaatori, mis näitab, milline seade see on, ja serveri kood võib kasutada seda seadme asukoha ja jälgitavate taimede leidmiseks. Samuti võib see lisada põhiandmeid, nagu praegune aeg, kuna mõned IoT seadmed ei ole varustatud täpse aja jälgimiseks vajaliku riistvaraga või vajavad täiendavat koodi, et lugeda praegust aega Interneti kaudu.
 
@@ -228,7 +228,7 @@ See kood avab CSV-faili ja lisab lõppu uue rea. Reas on praegune kuupäev ja ke
 1. Käivitage see kood mõnda aega, et andmeid koguda. Ideaalis peaksite seda käivitama terve päeva, et koguda piisavalt andmeid GDD arvutamiseks.
 
     > 💁 Kui kasutate virtuaalset IoT-seadet, valige juhuslikkuse märkeruut ja määrake vahemik, et vältida sama temperatuuri saamist iga kord, kui temperatuuriväärtus tagastatakse.
-    ![Valige juhuslikkuse märkeruut ja määrake vahemik](../../../../../translated_images/select-the-random-checkbox-and-set-a-range.32cf4bc7c12e797f.et.png) 
+    ![Valige juhuslikkuse märkeruut ja määrake vahemik](../../../../../translated_images/et/select-the-random-checkbox-and-set-a-range.32cf4bc7c12e797f.png) 
 
     > 💁 Kui soovite seda terve päeva jooksul käivitada, peate veenduma, et arvuti, millel teie serverikood töötab, ei läheks unerežiimi. Seda saab teha kas toitesätete muutmisega või käivitades midagi sellist nagu [see süsteemi aktiivsena hoidmise Python skript](https://github.com/jaqsparow/keep-system-active).
     
@@ -248,7 +248,7 @@ Selle käsitsi tegemise sammud on järgmised:
 
 Näiteks, kui päeva kõrgeim temperatuur on 25°C ja madalaim 12°C:
 
-![GDD = 25 + 12 jagatud 2-ga, seejärel lahutatakse tulemusest 10, tulemuseks on 8.5](../../../../../translated_images/gdd-calculation-strawberries.59f57db94b22adb8ff6efb951ace33af104a1c6ccca3ffb0f8169c14cb160c90.et.png)
+![GDD = 25 + 12 jagatud 2-ga, seejärel lahutatakse tulemusest 10, tulemuseks on 8.5](../../../../../translated_images/et/gdd-calculation-strawberries.59f57db94b22adb8ff6efb951ace33af104a1c6ccca3ffb0f8169c14cb160c90.png)
 
 * 25 + 12 = 37
 * 37 / 2 = 18.5

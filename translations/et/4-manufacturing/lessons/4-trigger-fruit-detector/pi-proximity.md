@@ -29,13 +29,13 @@ Grove Time of Flight anduri saab ühendada Raspberry Pi-ga.
 
 Ühenda Time of Flight andur.
 
-![Grove Time of Flight andur](../../../../../translated_images/grove-time-of-flight-sensor.d82ff2165bfded9f485de54d8d07195a6270a602696825fca19f629ddfe94e86.et.png)
+![Grove Time of Flight andur](../../../../../translated_images/et/grove-time-of-flight-sensor.d82ff2165bfded9f485de54d8d07195a6270a602696825fca19f629ddfe94e86.png)
 
 1. Sisesta Grove kaabli üks ots Time of Flight anduri pistikusse. Kaabel läheb sisse ainult ühel viisil.
 
 1. Kui Raspberry Pi on välja lülitatud, ühenda Grove kaabli teine ots ühega I<sup>2</sup>C pistikutest, mis on märgitud **I<sup>2</sup>C** Grove Base hatis, mis on ühendatud Pi-ga. Need pistikud asuvad alumises reas, vastasküljel GPIO pinidest ja kaamera kaabli pesast.
 
-![Grove Time of Flight andur ühendatud I ruudus C pistikuga](../../../../../translated_images/pi-time-of-flight-sensor.58c8dc04eb3bfb57.et.png)
+![Grove Time of Flight andur ühendatud I ruudus C pistikuga](../../../../../translated_images/et/pi-time-of-flight-sensor.58c8dc04eb3bfb57.png)
 
 ## Programmeeri Time of Flight andur
 
@@ -106,7 +106,7 @@ Programmeeri seade.
 
     Kaugusmõõtja asub anduri tagaküljel, seega veendu, et kasutad õiget külge kauguse mõõtmiseks.
 
-    ![Kaugusmõõtja Time of Flight anduri tagaküljel suunatud banaanile](../../../../../translated_images/time-of-flight-banana.079921ad8b1496e4.et.png)
+    ![Kaugusmõõtja Time of Flight anduri tagaküljel suunatud banaanile](../../../../../translated_images/et/time-of-flight-banana.079921ad8b1496e4.png)
 
 > 💁 Selle koodi leiad [code-proximity/pi](../../../../../4-manufacturing/lessons/4-trigger-fruit-detector/code-proximity/pi) kaustast.
 

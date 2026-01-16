@@ -27,13 +27,13 @@ Grove relee saab ühendada Raspberry Pi-ga.
 
 Ühendage relee.
 
-![Grove relee](../../../../../translated_images/grove-relay.d426958ca210fbd0fb7983d7edc069d46c73a8b0a099d94797bd756f7b6bb6be.et.png)
+![Grove relee](../../../../../translated_images/et/grove-relay.d426958ca210fbd0fb7983d7edc069d46c73a8b0a099d94797bd756f7b6bb6be.png)
 
 1. Sisestage Grove kaabli üks ots relee pistikusse. See läheb sisse ainult ühel viisil.
 
 1. Kui Raspberry Pi on välja lülitatud, ühendage Grove kaabli teine ots digitaalse pistikuga, mis on märgitud **D5** Grove Base Hat'il, mis on ühendatud Pi-ga. See pistik on teine vasakult, pistikute reas GPIO pin'ide kõrval. Jätke mulla niiskuse andur ühendatuks **A0** pistikuga.
 
-![Grove relee ühendatud D5 pistikuga ja mulla niiskuse andur ühendatud A0 pistikuga](../../../../../translated_images/pi-relay-and-soil-moisture-sensor.02f3198975b8c53e69ec716cd2719ce117700bd1fc933eaf93476c103c57939b.et.png)
+![Grove relee ühendatud D5 pistikuga ja mulla niiskuse andur ühendatud A0 pistikuga](../../../../../translated_images/et/pi-relay-and-soil-moisture-sensor.02f3198975b8c53e69ec716cd2719ce117700bd1fc933eaf93476c103c57939b.png)
 
 1. Sisestage mulla niiskuse andur mulda, kui see ei ole juba eelmise õppetüki käigus tehtud.
 

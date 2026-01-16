@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Introducción a IoT
 
-![Un resumen visual de esta lección](../../../../../translated_images/lesson-1.2606670fa61ee904687da5d6fa4e726639d524d064c895117da1b95b9ff6251d.es.jpg)
+![Un resumen visual de esta lección](../../../../../translated_images/es/lesson-1.2606670fa61ee904687da5d6fa4e726639d524d064c895117da1b95b9ff6251d.jpg)
 
 > Sketchnote por [Nitya Narasimhan](https://github.com/nitya). Haz clic en la imagen para una versión más grande.
 
@@ -79,7 +79,7 @@ Un microcontrolador (también conocido como MCU, por sus siglas en inglés de mi
 
 Los microcontroladores son dispositivos de computación de bajo costo, con precios promedio para los utilizados en hardware personalizado que bajan a alrededor de US$0.50, y algunos dispositivos tan baratos como US$0.03. Los kits de desarrollo pueden comenzar desde tan solo US$4, con costos que aumentan a medida que se agregan más características. El [Wio Terminal](https://www.seeedstudio.com/Wio-Terminal-p-4509.html), un kit de desarrollo de microcontroladores de [Seeed studios](https://www.seeedstudio.com) que tiene sensores, actuadores, WiFi y una pantalla, cuesta alrededor de US$30.
 
-![Un Wio Terminal](../../../../../translated_images/wio-terminal.b8299ee16587db9a.es.png)
+![Un Wio Terminal](../../../../../translated_images/es/wio-terminal.b8299ee16587db9a.webp)
 
 > 💁 Al buscar microcontroladores en Internet, ten cuidado al buscar el término **MCU**, ya que esto traerá muchos resultados relacionados con el Universo Cinematográfico de Marvel, no con microcontroladores.
 
@@ -93,7 +93,7 @@ Los kits de desarrollo de microcontroladores generalmente vienen con sensores y 
 
 Una computadora de placa única es un pequeño dispositivo de computación que tiene todos los elementos de una computadora completa contenidos en una sola placa pequeña. Estos son dispositivos con especificaciones cercanas a una PC o Mac de escritorio o portátil, ejecutan un sistema operativo completo, pero son pequeños, consumen menos energía y son sustancialmente más baratos.
 
-![Una Raspberry Pi 4](../../../../../translated_images/raspberry-pi-4.fd4590d308c3d456.es.jpg)
+![Una Raspberry Pi 4](../../../../../translated_images/es/raspberry-pi-4.fd4590d308c3d456.webp)
 
 La Raspberry Pi es una de las computadoras de placa única más populares.
 

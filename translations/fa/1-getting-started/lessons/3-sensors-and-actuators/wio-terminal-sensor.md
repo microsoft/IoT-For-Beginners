@@ -17,7 +17,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 حسگر نور در Wio Terminal تعبیه شده و از طریق پنجره شفاف پلاستیکی در پشت دستگاه قابل مشاهده است.
 
-![حسگر نور در پشت Wio Terminal](../../../../../translated_images/wio-light-sensor.b1f529f3c95f5165.fa.png)
+![حسگر نور در پشت Wio Terminal](../../../../../translated_images/fa/wio-light-sensor.b1f529f3c95f5165.png)
 
 ## برنامه‌نویسی حسگر نور
 

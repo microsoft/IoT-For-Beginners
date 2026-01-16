@@ -29,14 +29,14 @@ Ove korake trebate ponoviti više puta kako biste dobili potrebna očitanja, sva
 
 Gravimetrijska vlaga tla izračunava se kao:
 
-![postotak vlage tla je težina mokrog tla minus težina suhog tla, podijeljeno s težinom suhog tla, pomnoženo sa 100](../../../../../translated_images/gsm-calculation.6da38c6201eec14e7573bb2647aa18892883193553d23c9d77e5dc681522dfb2.hr.png)
+![postotak vlage tla je težina mokrog tla minus težina suhog tla, podijeljeno s težinom suhog tla, pomnoženo sa 100](../../../../../translated_images/hr/gsm-calculation.6da38c6201eec14e7573bb2647aa18892883193553d23c9d77e5dc681522dfb2.png)
 
 * W - težina mokrog tla  
 * W - težina suhog tla  
 
 Na primjer, recimo da imate uzorak tla koji teži 212g mokar i 197g suh.
 
-![Primjer izračuna](../../../../../translated_images/gsm-calculation-example.99f9803b4f29e97668e7c15412136c0c399ab12dbba0b89596fdae9d8aedb6fb.hr.png)
+![Primjer izračuna](../../../../../translated_images/hr/gsm-calculation-example.99f9803b4f29e97668e7c15412136c0c399ab12dbba0b89596fdae9d8aedb6fb.png)
 
 * W = 212g  
 * W = 197g  

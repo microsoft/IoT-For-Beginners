@@ -27,13 +27,13 @@ Grove 繼電器可以連接到 Raspberry Pi。
 
 連接繼電器。
 
-![Grove 繼電器](../../../../../translated_images/grove-relay.d426958ca210fbd0fb7983d7edc069d46c73a8b0a099d94797bd756f7b6bb6be.hk.png)
+![Grove 繼電器](../../../../../translated_images/hk/grove-relay.d426958ca210fbd0fb7983d7edc069d46c73a8b0a099d94797bd756f7b6bb6be.png)
 
 1. 將 Grove 電纜的一端插入繼電器上的插座。它只能以一種方式插入。
 
 1. 在 Raspberry Pi 關機的情況下，將 Grove 電纜的另一端連接到 Pi 上 Grove Base Hat 的數字插座 **D5**。此插座位於 GPIO 插腳旁邊插座行的第二個位置。保持土壤濕度感測器連接到 **A0** 插座。
 
-![Grove 繼電器連接到 D5 插座，土壤濕度感測器連接到 A0 插座](../../../../../translated_images/pi-relay-and-soil-moisture-sensor.02f3198975b8c53e69ec716cd2719ce117700bd1fc933eaf93476c103c57939b.hk.png)
+![Grove 繼電器連接到 D5 插座，土壤濕度感測器連接到 A0 插座](../../../../../translated_images/hk/pi-relay-and-soil-moisture-sensor.02f3198975b8c53e69ec716cd2719ce117700bd1fc933eaf93476c103c57939b.png)
 
 1. 如果土壤濕度感測器尚未插入土壤，請將其插入土壤中（從上一課程中）。
 

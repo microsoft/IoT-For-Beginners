@@ -217,7 +217,7 @@ Ces certificats contiennent des clés publiques et n'ont pas besoin d'être gard
 
     Vous pourrez voir l'image capturée et ces valeurs dans l'onglet **Predictions** de Custom Vision.
 
-    ![Une banane dans Custom Vision prédite mûre à 56,8 % et non mûre à 43,1 %](../../../../../translated_images/custom-vision-banana-prediction.30cdff4e1d72db5d9a0be0193790a47c2b387da034e12dc1314dd57ca2131b59.fr.png)
+    ![Une banane dans Custom Vision prédite mûre à 56,8 % et non mûre à 43,1 %](../../../../../translated_images/fr/custom-vision-banana-prediction.30cdff4e1d72db5d9a0be0193790a47c2b387da034e12dc1314dd57ca2131b59.png)
 
 > 💁 Vous pouvez trouver ce code dans le dossier [code-classify/wio-terminal](../../../../../4-manufacturing/lessons/2-check-fruit-from-device/code-classify/wio-terminal).
 

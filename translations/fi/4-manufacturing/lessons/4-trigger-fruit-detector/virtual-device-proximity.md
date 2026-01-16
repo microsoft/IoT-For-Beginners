@@ -45,11 +45,11 @@ Lisää etäisyyssensori CounterFit-sovellukseen.
 
     1. Valitse **Add**-painike luodaksesi etäisyyssensorin.
 
-    ![Etäisyyssensorin asetukset](../../../../../translated_images/counterfit-create-distance-sensor.967c9fb98f27888d95920c9784d004c972490eb71f70397fe13bd70a79a879a3.fi.png)
+    ![Etäisyyssensorin asetukset](../../../../../translated_images/fi/counterfit-create-distance-sensor.967c9fb98f27888d95920c9784d004c972490eb71f70397fe13bd70a79a879a3.png)
 
     Etäisyyssensori luodaan ja se näkyy sensorilistassa.
 
-    ![Luotu etäisyyssensori](../../../../../translated_images/counterfit-distance-sensor.079eefeeea0b68afc36431ce8fcbe2f09a7e4916ed1cd5cb30e696db53bc18fa.fi.png)
+    ![Luotu etäisyyssensori](../../../../../translated_images/fi/counterfit-distance-sensor.079eefeeea0b68afc36431ce8fcbe2f09a7e4916ed1cd5cb30e696db53bc18fa.png)
 
 ## Ohjelmoi etäisyyssensori
 

@@ -37,11 +37,11 @@ Add hozzá a fényérzékelőt a CounterFit alkalmazáshoz.
 
     1. Kattints az **Add** gombra, hogy létrehozd a fényérzékelőt a 0-s tűn.
 
-    ![A fényérzékelő beállításai](../../../../../translated_images/counterfit-create-light-sensor.9f36a5e0d4458d8d554d54b34d2c806d56093d6e49fddcda2d20f6fef7f5cce1.hu.png)
+    ![A fényérzékelő beállításai](../../../../../translated_images/hu/counterfit-create-light-sensor.9f36a5e0d4458d8d554d54b34d2c806d56093d6e49fddcda2d20f6fef7f5cce1.png)
 
     A fényérzékelő létrejön, és megjelenik az érzékelők listájában.
 
-    ![A létrehozott fényérzékelő](../../../../../translated_images/counterfit-light-sensor.5d0f5584df56b90f6b2561910d9cb20dfbd73eeff2177c238d38f4de54aefae1.hu.png)
+    ![A létrehozott fényérzékelő](../../../../../translated_images/hu/counterfit-light-sensor.5d0f5584df56b90f6b2561910d9cb20dfbd73eeff2177c238d38f4de54aefae1.png)
 
 ## A fényérzékelő programozása
 

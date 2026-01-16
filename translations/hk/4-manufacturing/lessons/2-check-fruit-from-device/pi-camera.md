@@ -25,7 +25,7 @@ Raspberry Pi 需要一個相機。
 
 ### 任務 - 連接相機
 
-![Raspberry Pi 相機](../../../../../translated_images/pi-camera-module.4278753c31bd6e757aa2b858be97d72049f71616278cefe4fb5abb485b40a078.hk.png)
+![Raspberry Pi 相機](../../../../../translated_images/hk/pi-camera-module.4278753c31bd6e757aa2b858be97d72049f71616278cefe4fb5abb485b40a078.png)
 
 1. 關閉 Raspberry Pi 的電源。
 
@@ -33,17 +33,17 @@ Raspberry Pi 需要一個相機。
 
     你可以在 [Raspberry Pi 相機模組入門文檔](https://projects.raspberrypi.org/en/projects/getting-started-with-picamera/2) 中找到如何打開夾子並插入排線的動畫。
 
-    ![扁平排線插入相機模組](../../../../../translated_images/pi-camera-ribbon-cable.0bf82acd251611c21ac616f082849413e2b322a261d0e4f8fec344248083b07e.hk.png)
+    ![扁平排線插入相機模組](../../../../../translated_images/hk/pi-camera-ribbon-cable.0bf82acd251611c21ac616f082849413e2b322a261d0e4f8fec344248083b07e.png)
 
 1. 從 Raspberry Pi 上移除 Grove Base Hat。
 
 1. 將扁平排線穿過 Grove Base Hat 上的相機插槽。確保排線的藍色面朝向標有 **A0**、**A1** 等的模擬端口。
 
-    ![扁平排線穿過 Grove Base Hat](../../../../../translated_images/grove-base-hat-ribbon-cable.501fed202fcf73b11b2b68f6d246189f7d15d3e4423c572ddee79d77b4632b47.hk.png)
+    ![扁平排線穿過 Grove Base Hat](../../../../../translated_images/hk/grove-base-hat-ribbon-cable.501fed202fcf73b11b2b68f6d246189f7d15d3e4423c572ddee79d77b4632b47.png)
 
 1. 將扁平排線插入 Raspberry Pi 上的相機端口。同樣，拉起黑色塑料夾，插入排線，然後推回夾子。排線的藍色面應朝向 USB 和以太網端口。
 
-    ![扁平排線連接到 Raspberry Pi 的相機插座](../../../../../translated_images/pi-camera-socket-ribbon-cable.a18309920b11800911082ed7aa6fb28e6d9be3a022e4079ff990016cae3fca10.hk.png)
+    ![扁平排線連接到 Raspberry Pi 的相機插座](../../../../../translated_images/hk/pi-camera-socket-ribbon-cable.a18309920b11800911082ed7aa6fb28e6d9be3a022e4079ff990016cae3fca10.png)
 
 1. 重新安裝 Grove Base Hat。
 
@@ -110,7 +110,7 @@ Raspberry Pi 需要一個相機。
 
     `camera.rotation = 0` 行設置影像的旋轉角度。扁平排線從相機底部進入，但如果你的相機旋轉過以便更容易指向你想要分類的物品，則可以將此行更改為旋轉的角度。
 
-    ![相機懸掛在飲料罐上方](../../../../../translated_images/pi-camera-upside-down.5376961ba31459883362124152ad6b823d5ac5fc14e85f317e22903bd681c2b6.hk.png)
+    ![相機懸掛在飲料罐上方](../../../../../translated_images/hk/pi-camera-upside-down.5376961ba31459883362124152ad6b823d5ac5fc14e85f317e22903bd681c2b6.png)
 
     例如，如果你將扁平排線懸掛在某物上，使其位於相機的頂部，則將旋轉設置為 180：
 

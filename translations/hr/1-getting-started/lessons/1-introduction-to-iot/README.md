@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Uvod u IoT
 
-![Pregled lekcije u obliku sketchnotea](../../../../../translated_images/lesson-1.2606670fa61ee904687da5d6fa4e726639d524d064c895117da1b95b9ff6251d.hr.jpg)
+![Pregled lekcije u obliku sketchnotea](../../../../../translated_images/hr/lesson-1.2606670fa61ee904687da5d6fa4e726639d524d064c895117da1b95b9ff6251d.jpg)
 
 > Sketchnote autorice [Nitya Narasimhan](https://github.com/nitya). Kliknite na sliku za veću verziju.
 
@@ -79,7 +79,7 @@ Mikrokontroler (također poznat kao MCU, skraćeno od microcontroller unit) je m
 
 Mikrokontroleri su obično jeftini računalni uređaji, s prosječnim cijenama za one koji se koriste u prilagođenom hardveru padajući na oko 0,50 USD, a neki uređaji su jeftini i do 0,03 USD. Razvojni kompleti mogu početi od 4 USD, a cijene rastu kako dodajete više funkcija. [Wio Terminal](https://www.seeedstudio.com/Wio-Terminal-p-4509.html), razvojni komplet mikrokontrolera iz [Seeed Studios](https://www.seeedstudio.com) koji ima senzore, aktuatore, WiFi i ekran, košta oko 30 USD.
 
-![Wio Terminal](../../../../../translated_images/wio-terminal.b8299ee16587db9a.hr.png)
+![Wio Terminal](../../../../../translated_images/hr/wio-terminal.b8299ee16587db9a.png)
 
 > 💁 Kada pretražujete Internet za mikrokontrolere, budite oprezni s pretraživanjem pojma **MCU**, jer će vam se vratiti puno rezultata vezanih uz Marvel Cinematic Universe, a ne mikrokontrolere.
 
@@ -93,7 +93,7 @@ Razvojni kompleti mikrokontrolera obično dolaze s dodatnim senzorima i aktuator
 
 Jednopločno računalo je mali računalni uređaj koji ima sve elemente kompletnog računala sadržane na jednoj maloj ploči. To su uređaji koji imaju specifikacije bliske stolnim ili prijenosnim računalima, pokreću puni operativni sustav, ali su mali, troše manje energije i znatno su jeftiniji.
 
-![Raspberry Pi 4](../../../../../translated_images/raspberry-pi-4.fd4590d308c3d456.hr.jpg)
+![Raspberry Pi 4](../../../../../translated_images/hr/raspberry-pi-4.fd4590d308c3d456.jpg)
 
 Raspberry Pi je jedno od najpopularnijih jednopločnih računala.
 

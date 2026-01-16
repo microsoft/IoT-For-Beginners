@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Razumijevanje jezika
 
-![Sketchnote pregled ove lekcije](../../../../../translated_images/lesson-22.6148ea28500d9e00c396aaa2649935fb6641362c8f03d8e5e90a676977ab01dd.hr.jpg)
+![Sketchnote pregled ove lekcije](../../../../../translated_images/hr/lesson-22.6148ea28500d9e00c396aaa2649935fb6641362c8f03d8e5e90a676977ab01dd.jpg)
 
 > Sketchnote autorice [Nitya Narasimhan](https://github.com/nitya). Kliknite na sliku za veću verziju.
 
@@ -55,7 +55,7 @@ Modeli za razumijevanje jezika su AI modeli koji su obučeni za izdvajanje odre�
 
 ## Kreiranje modela za razumijevanje jezika
 
-![LUIS logo](../../../../../translated_images/luis-logo.5cb4f3e88c020ee6df4f614e8831f4a4b6809a7247bf52085fb48d629ef9be52.hr.png)
+![LUIS logo](../../../../../translated_images/hr/luis-logo.5cb4f3e88c020ee6df4f614e8831f4a4b6809a7247bf52085fb48d629ef9be52.png)
 
 Možete kreirati modele za razumijevanje jezika koristeći LUIS, uslugu za razumijevanje jezika od Microsofta koja je dio Cognitive Services.
 
@@ -126,7 +126,7 @@ Nakon što definirate entitete, kreirate namjere. One se uče modelu na temelju 
 
 Zatim LUIS-u kažete koji dijelovi ovih rečenica odgovaraju entitetima:
 
-![Rečenica "postavi timer na 1 minutu i 12 sekundi" razlomljena na entitete](../../../../../translated_images/sentence-as-intent-entities.301401696f992259.hr.png)
+![Rečenica "postavi timer na 1 minutu i 12 sekundi" razlomljena na entitete](../../../../../translated_images/hr/sentence-as-intent-entities.301401696f992259.png)
 
 Rečenica `postavi timer na 1 minutu i 12 sekundi` ima namjeru `postavi timer`. Također ima 2 entiteta s po 2 vrijednosti:
 
@@ -178,7 +178,7 @@ Upute za korištenje LUIS portala možete pronaći u [Quickstart: Build your app
 
 1. Dok unosite svaki primjer, LUIS će početi prepoznavati entitete i podcrtavati te označavati sve što pronađe.
 
-    ![Primjeri s podcrtanim brojevima i jedinicama vremena koje je prepoznao LUIS](../../../../../translated_images/luis-intent-examples.25716580b2d2723cf1bafdf277d015c7f046d8cfa20f27bddf3a0873ec45fab7.hr.png)
+    ![Primjeri s podcrtanim brojevima i jedinicama vremena koje je prepoznao LUIS](../../../../../translated_images/hr/luis-intent-examples.25716580b2d2723cf1bafdf277d015c7f046d8cfa20f27bddf3a0873ec45fab7.png)
 
 ### Zadatak - treniranje i testiranje modela
 

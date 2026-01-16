@@ -17,7 +17,7 @@ Le capteur utilisé dans cette leçon est un **capteur de lumière** qui utilise
 
 Le capteur de lumière est intégré au Wio Terminal et est visible à travers la fenêtre en plastique transparent à l'arrière.
 
-![Le capteur de lumière à l'arrière du Wio Terminal](../../../../../translated_images/wio-light-sensor.b1f529f3c95f5165.fr.png)
+![Le capteur de lumière à l'arrière du Wio Terminal](../../../../../translated_images/fr/wio-light-sensor.b1f529f3c95f5165.webp)
 
 ## Programmer le capteur de lumière
 

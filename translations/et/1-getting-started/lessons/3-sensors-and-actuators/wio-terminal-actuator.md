@@ -35,7 +35,7 @@ Grove LED on moodul, millel on valik erinevaid LED-e, mis võimaldab valida vär
 
 Ühenda LED.
 
-![Grove LED](../../../../../translated_images/grove-led.6c853be93f473cf2c439cfc74bb1064732b22251a83cedf66e62f783f9cc1a79.et.png)
+![Grove LED](../../../../../translated_images/et/grove-led.6c853be93f473cf2c439cfc74bb1064732b22251a83cedf66e62f783f9cc1a79.png)
 
 1. Vali oma lemmik LED ja sisesta selle jalad LED-mooduli kahte auku.
 
@@ -51,7 +51,7 @@ Grove LED on moodul, millel on valik erinevaid LED-e, mis võimaldab valida vär
 
     > 💁 Parempoolset Grove-pistikut saab kasutada analoog- või digitaalsete sensorite ja täiturmehhanismidega. Vasakpoolne pistik on ainult I<sup>2</sup>C ja digitaalsete sensorite ning täiturmehhanismide jaoks. I<sup>2</sup>C käsitletakse hilisemas õppetunnis.
 
-![Grove LED ühendatud parempoolse pistikuga](../../../../../translated_images/wio-led.265a1897e72d7f21.et.png)
+![Grove LED ühendatud parempoolse pistikuga](../../../../../translated_images/et/wio-led.265a1897e72d7f21.png)
 
 ## Öölambi programmeerimine
 

@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # भाषा को समझें
 
-![इस पाठ का एक स्केच नोट अवलोकन](../../../../../translated_images/lesson-22.6148ea28500d9e00c396aaa2649935fb6641362c8f03d8e5e90a676977ab01dd.hi.jpg)
+![इस पाठ का एक स्केच नोट अवलोकन](../../../../../translated_images/hi/lesson-22.6148ea28500d9e00c396aaa2649935fb6641362c8f03d8e5e90a676977ab01dd.jpg)
 
 > स्केच नोट [नित्या नरसिम्हन](https://github.com/nitya) द्वारा। बड़े संस्करण के लिए छवि पर क्लिक करें।
 
@@ -55,7 +55,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 ## भाषा समझने का मॉडल बनाएं
 
-![LUIS लोगो](../../../../../translated_images/luis-logo.5cb4f3e88c020ee6df4f614e8831f4a4b6809a7247bf52085fb48d629ef9be52.hi.png)
+![LUIS लोगो](../../../../../translated_images/hi/luis-logo.5cb4f3e88c020ee6df4f614e8831f4a4b6809a7247bf52085fb48d629ef9be52.png)
 
 आप LUIS (Language Understanding Intelligent Service) का उपयोग करके भाषा समझने वाले मॉडल बना सकते हैं, जो Microsoft की एक सेवा है और Cognitive Services का हिस्सा है।
 
@@ -126,7 +126,7 @@ LUIS को प्रशिक्षित करने के लिए, पह
 
 फिर आप LUIS को बताते हैं कि इन वाक्यों के कौन से हिस्से इकाइयों से मेल खाते हैं:
 
-![वाक्य को इकाइयों में विभाजित करना](../../../../../translated_images/sentence-as-intent-entities.301401696f992259.hi.png)
+![वाक्य को इकाइयों में विभाजित करना](../../../../../translated_images/hi/sentence-as-intent-entities.301401696f992259.png)
 
 वाक्य `1 मिनट और 12 सेकंड के लिए टाइमर सेट करें` का इरादा `टाइमर सेट करें` है। इसमें 2 इकाइयाँ हैं, जिनमें 2 मान हैं:
 
@@ -178,7 +178,7 @@ LUIS पोर्टल का उपयोग करने के निर्�
 
 1. प्रत्येक उदाहरण दर्ज करते समय, LUIS इकाइयों का पता लगाना शुरू कर देगा और किसी भी पाए गए इकाई को रेखांकित और लेबल करेगा।
 
-    ![LUIS द्वारा रेखांकित उदाहरण](../../../../../translated_images/luis-intent-examples.25716580b2d2723cf1bafdf277d015c7f046d8cfa20f27bddf3a0873ec45fab7.hi.png)
+    ![LUIS द्वारा रेखांकित उदाहरण](../../../../../translated_images/hi/luis-intent-examples.25716580b2d2723cf1bafdf277d015c7f046d8cfa20f27bddf3a0873ec45fab7.png)
 
 ### कार्य - मॉडल को प्रशिक्षित और परीक्षण करें
 

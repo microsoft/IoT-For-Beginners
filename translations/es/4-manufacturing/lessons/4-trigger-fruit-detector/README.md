@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Activar la detección de calidad de frutas desde un sensor
 
-![Resumen visual de esta lección](../../../../../translated_images/lesson-18.92c32ed1d354caa5a54baa4032cf0b172d4655e8e326ad5d46c558a0def15365.es.jpg)
+![Resumen visual de esta lección](../../../../../translated_images/es/lesson-18.92c32ed1d354caa5a54baa4032cf0b172d4655e8e326ad5d46c558a0def15365.jpg)
 
 > Resumen visual por [Nitya Narasimhan](https://github.com/nitya). Haz clic en la imagen para una versión más grande.
 
@@ -48,7 +48,7 @@ Las aplicaciones de IoT pueden describirse como *cosas* (dispositivos) que enví
 
 ### Arquitectura de referencia de IoT
 
-![Una arquitectura de referencia de IoT](../../../../../translated_images/iot-reference-architecture.2278b98b55c6d4e89bde18eada3688d893861d43507641804dd2f9d3079cfaa0.es.png)
+![Una arquitectura de referencia de IoT](../../../../../translated_images/es/iot-reference-architecture.2278b98b55c6d4e89bde18eada3688d893861d43507641804dd2f9d3079cfaa0.png)
 
 El diagrama anterior muestra una arquitectura de referencia de IoT.
 
@@ -58,7 +58,7 @@ El diagrama anterior muestra una arquitectura de referencia de IoT.
 * **Insights** provienen de aplicaciones sin servidor o de análisis realizados sobre datos almacenados.
 * **Acciones** pueden ser comandos enviados a dispositivos o visualización de datos que permiten a los humanos tomar decisiones.
 
-![Una arquitectura de referencia de IoT en Azure](../../../../../translated_images/iot-reference-architecture-azure.0b8d2161af924cb18ae48a8558a19541cca47f27264851b5b7e56d7b8bb372ac.es.png)
+![Una arquitectura de referencia de IoT en Azure](../../../../../translated_images/es/iot-reference-architecture-azure.0b8d2161af924cb18ae48a8558a19541cca47f27264851b5b7e56d7b8bb372ac.png)
 
 El diagrama anterior muestra algunos de los componentes y servicios cubiertos hasta ahora en estas lecciones y cómo se vinculan en una arquitectura de referencia de IoT.
 
@@ -98,7 +98,7 @@ Necesitas construir un sistema donde las frutas sean detectadas a medida que lle
 
 ### Prototipar tu aplicación
 
-![Una arquitectura de referencia de IoT para verificar la calidad de frutas](../../../../../translated_images/iot-reference-architecture-fruit-quality.cc705f121c3b6fa71c800d9630935ac34bc08223a04601e35f41d5e9b5dd5207.es.png)
+![Una arquitectura de referencia de IoT para verificar la calidad de frutas](../../../../../translated_images/es/iot-reference-architecture-fruit-quality.cc705f121c3b6fa71c800d9630935ac34bc08223a04601e35f41d5e9b5dd5207.png)
 
 El diagrama anterior muestra una arquitectura de referencia para esta aplicación prototipo.
 
@@ -115,7 +115,7 @@ Para el prototipo, implementarás todo esto en un único dispositivo. Si estás 
 
 El dispositivo IoT necesita algún tipo de activador para indicar cuándo la fruta está lista para ser clasificada. Un activador para esto sería medir cuándo la fruta está en la posición correcta en la cinta transportadora midiendo la distancia a un sensor.
 
-![Los sensores de proximidad envían haces de láser a objetos como plátanos y miden el tiempo hasta que el haz rebota](../../../../../translated_images/proximity-sensor.f5cd752c77fb62fe.es.png)
+![Los sensores de proximidad envían haces de láser a objetos como plátanos y miden el tiempo hasta que el haz rebota](../../../../../translated_images/es/proximity-sensor.f5cd752c77fb62fe.webp)
 
 Los sensores de proximidad pueden usarse para medir la distancia desde el sensor hasta un objeto. Generalmente transmiten un haz de radiación electromagnética, como un láser o luz infrarroja, y luego detectan la radiación que rebota en un objeto. El tiempo entre el envío del haz y el rebote de la señal puede usarse para calcular la distancia al sensor.
 
@@ -133,7 +133,7 @@ Sigue la guía correspondiente para usar un sensor de proximidad y detectar un o
 
 El prototipo del detector de frutas tiene múltiples componentes que se comunican entre sí.
 
-![Los componentes comunicándose entre sí](../../../../../translated_images/fruit-quality-detector-message-flow.adf2a65da8fd8741ac7af11361574de89adc126785d67606bb4d2ec00467e380.es.png)
+![Los componentes comunicándose entre sí](../../../../../translated_images/es/fruit-quality-detector-message-flow.adf2a65da8fd8741ac7af11361574de89adc126785d67606bb4d2ec00467e380.png)
 
 * Un sensor de proximidad mide la distancia a una fruta y envía esta información a IoT Hub.
 * El comando para controlar la cámara proviene de IoT Hub hacia el dispositivo con la cámara.

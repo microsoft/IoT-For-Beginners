@@ -57,7 +57,7 @@ Microsofti Azure Cloud Advocatesil on hea meel pakkuda 12-nädalast, 24-loengut 
 
 Projektid katavad toidu teekonda põllult lauale. See hõlmab põllumajandust, logistikat, tootmist, jaemüüki ning tarbijat – kõik populaarsed tööstusharud IoT seadmete jaoks.
 
-![Kursuskaart, mis näitab 24 loengut tutvustuse, põllumajanduse, transpordi, töötlemise, jaemüügi ja kokanduse teemadel](../../translated_images/Roadmap.bb1dec285dda0eda.et.jpg)
+![Kursuskaart, mis näitab 24 loengut tutvustuse, põllumajanduse, transpordi, töötlemise, jaemüügi ja kokanduse teemadel](../../translated_images/et/Roadmap.bb1dec285dda0eda.jpg)
 
 > Sketchnote autor [Nitya Narasimhan](https://github.com/nitya). Vajuta pildile suurema versiooni jaoks.
 

@@ -25,11 +25,11 @@ La ArduCam no tiene un conector Grove; en su lugar, se conecta tanto a los buses
 
 Conecta la cámara.
 
-![Un sensor ArduCam](../../../../../translated_images/arducam.20e4e4cbb268296570b5914e20d6c349fc42ddac9ed4e1b9deba2188204eebae.es.png)
+![Un sensor ArduCam](../../../../../translated_images/es/arducam.20e4e4cbb268296570b5914e20d6c349fc42ddac9ed4e1b9deba2188204eebae.png)
 
 1. Los pines en la base de la ArduCam deben conectarse a los pines GPIO del Wio Terminal. Para facilitar la identificación de los pines correctos, coloca la etiqueta de pines GPIO que viene con el Wio Terminal alrededor de los pines:
 
-    ![El Wio Terminal con la etiqueta de pines GPIO](../../../../../translated_images/wio-terminal-pin-sticker.b90b1535937b84bd.es.png)
+    ![El Wio Terminal con la etiqueta de pines GPIO](../../../../../translated_images/es/wio-terminal-pin-sticker.b90b1535937b84bd.webp)
 
 1. Usando cables de puente, realiza las siguientes conexiones:
 
@@ -44,7 +44,7 @@ Conecta la cámara.
     | SDA            | 3 (I2C1_SDA)        | Datos seriales I2C                      |
     | SCL            | 5 (I2C1_SCL)        | Reloj serial I2C                        |
 
-    ![El Wio Terminal conectado a la ArduCam con cables de puente](../../../../../translated_images/arducam-wio-terminal-connections.a4d5a4049bdb5ab800a2877389fc6ecf5e4ff307e6451ff56c517e6786467d0a.es.png)
+    ![El Wio Terminal conectado a la ArduCam con cables de puente](../../../../../translated_images/es/arducam-wio-terminal-connections.a4d5a4049bdb5ab800a2877389fc6ecf5e4ff307e6451ff56c517e6786467d0a.png)
 
     Las conexiones GND y VCC proporcionan una fuente de alimentación de 5V a la ArduCam. Funciona a 5V, a diferencia de los sensores Grove que funcionan a 3V. Esta energía proviene directamente de la conexión USB-C que alimenta el dispositivo.
 
@@ -297,7 +297,7 @@ El Wio Terminal ahora puede ser programado para capturar una imagen cuando se pr
 
 1. Los microcontroladores ejecutan tu código continuamente, por lo que no es fácil activar algo como tomar una foto sin reaccionar a un sensor. El Wio Terminal tiene botones, por lo que la cámara puede configurarse para activarse con uno de los botones. Agrega el siguiente código al final de la función `setup` para configurar el botón C (uno de los tres botones en la parte superior, el más cercano al interruptor de encendido).
 
-    ![El botón C en la parte superior, cerca del interruptor de encendido](../../../../../translated_images/wio-terminal-c-button.73df3cb1c1445ea0.es.png)
+    ![El botón C en la parte superior, cerca del interruptor de encendido](../../../../../translated_images/es/wio-terminal-c-button.73df3cb1c1445ea0.webp)
 
     ```cpp
     pinMode(WIO_KEY_C, INPUT_PULLUP);
@@ -465,7 +465,7 @@ El Wio Terminal solo admite tarjetas microSD de hasta 16GB de tamaño. Si tienes
 
 1. Apaga el Wio Terminal y expulsa la tarjeta microSD presionándola ligeramente y soltándola, y saldrá. Es posible que necesites usar una herramienta delgada para hacerlo. Conecta la tarjeta microSD a tu computadora para ver las imágenes.
 
-    ![Una imagen de un plátano capturada con la ArduCam](../../../../../translated_images/banana-arducam.be1b32d4267a8194b0fd042362e56faa431da9cd4af172051b37243ea9be0256.es.jpg)
+    ![Una imagen de un plátano capturada con la ArduCam](../../../../../translated_images/es/banana-arducam.be1b32d4267a8194b0fd042362e56faa431da9cd4af172051b37243ea9be0256.jpg)
 > 💁 Puede que la cámara necesite unas cuantas imágenes para ajustar el balance de blancos. Notarás esto según el color de las imágenes capturadas, las primeras pueden verse descoloridas. Siempre puedes solucionar esto cambiando el código para capturar algunas imágenes que se ignoren en la función `setup`.
 
 

@@ -45,11 +45,11 @@ CounterFit ऐप में दूरी सेंसर जोड़ें।
 
     1. दूरी सेंसर बनाने के लिए **Add** बटन चुनें।
 
-    ![दूरी सेंसर सेटिंग्स](../../../../../translated_images/counterfit-create-distance-sensor.967c9fb98f27888d95920c9784d004c972490eb71f70397fe13bd70a79a879a3.hi.png)
+    ![दूरी सेंसर सेटिंग्स](../../../../../translated_images/hi/counterfit-create-distance-sensor.967c9fb98f27888d95920c9784d004c972490eb71f70397fe13bd70a79a879a3.png)
 
     दूरी सेंसर बनाया जाएगा और सेंसर सूची में दिखाई देगा।
 
-    ![दूरी सेंसर बनाया गया](../../../../../translated_images/counterfit-distance-sensor.079eefeeea0b68afc36431ce8fcbe2f09a7e4916ed1cd5cb30e696db53bc18fa.hi.png)
+    ![दूरी सेंसर बनाया गया](../../../../../translated_images/hi/counterfit-distance-sensor.079eefeeea0b68afc36431ce8fcbe2f09a7e4916ed1cd5cb30e696db53bc18fa.png)
 
 ## दूरी सेंसर प्रोग्राम करें
 

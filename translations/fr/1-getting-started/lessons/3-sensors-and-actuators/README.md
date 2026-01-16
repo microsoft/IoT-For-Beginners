@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Interagir avec le monde physique avec des capteurs et des actionneurs
 
-![Un aperçu en sketchnote de cette leçon](../../../../../translated_images/lesson-3.cc3b7b4cd646de598698cce043c0393fd62ef42bac2eaf60e61272cd844250f4.fr.jpg)
+![Un aperçu en sketchnote de cette leçon](../../../../../translated_images/fr/lesson-3.cc3b7b4cd646de598698cce043c0393fd62ef42bac2eaf60e61272cd844250f4.jpg)
 
 > Sketchnote par [Nitya Narasimhan](https://github.com/nitya). Cliquez sur l'image pour une version agrandie.
 
@@ -75,7 +75,7 @@ Certains des capteurs les plus simples sont analogiques. Ces capteurs reçoivent
 
 Un exemple est un potentiomètre. C'est un cadran que vous pouvez tourner entre deux positions, et le capteur mesure la rotation.
 
-![Un potentiomètre réglé à un point médian recevant 5 volts et retournant 3,8 volts](../../../../../translated_images/potentiometer.35a348b9ce22f6ec.fr.png)
+![Un potentiomètre réglé à un point médian recevant 5 volts et retournant 3,8 volts](../../../../../translated_images/fr/potentiometer.35a348b9ce22f6ec.webp)
 
 L'appareil IoT envoie un signal électrique au potentiomètre à une tension, par exemple 5 volts (5V). Lorsque le potentiomètre est ajusté, il modifie la tension qui sort de l'autre côté. Imaginez un potentiomètre étiqueté comme un cadran allant de 0 à [11](https://wikipedia.org/wiki/Up_to_eleven), comme un bouton de volume sur un amplificateur. Lorsque le potentiomètre est en position complètement éteinte (0), alors 0V (0 volts) sortent. Lorsqu'il est en position complètement allumée (11), 5V (5 volts) sortent.
 
@@ -101,7 +101,7 @@ Les capteurs numériques, comme les capteurs analogiques, détectent le monde qu
 
 Le capteur numérique le plus simple est un bouton ou un interrupteur. C'est un capteur avec deux états : activé ou désactivé.
 
-![Un bouton reçoit 5 volts. Lorsqu'il n'est pas pressé, il retourne 0 volts ; lorsqu'il est pressé, il retourne 5 volts](../../../../../translated_images/button.eadb560b77ac45e56f523d9d8876e40444f63b419e33eb820082d461fa79490b.fr.png)
+![Un bouton reçoit 5 volts. Lorsqu'il n'est pas pressé, il retourne 0 volts ; lorsqu'il est pressé, il retourne 5 volts](../../../../../translated_images/fr/button.eadb560b77ac45e56f523d9d8876e40444f63b419e33eb820082d461fa79490b.png)
 
 Les broches des appareils IoT, comme les broches GPIO, peuvent mesurer ce signal directement comme un 0 ou un 1. Si la tension envoyée est la même que la tension retournée, la valeur lue est 1, sinon la valeur lue est 0. Il n'est pas nécessaire de convertir le signal, il ne peut être que 1 ou 0.
 
@@ -112,7 +112,7 @@ Les broches des appareils IoT, comme les broches GPIO, peuvent mesurer ce signal
 
 Les capteurs numériques plus avancés lisent des valeurs analogiques, puis les convertissent en utilisant des ADC intégrés pour produire des signaux numériques. Par exemple, un capteur de température numérique utilisera toujours un thermocouple de la même manière qu'un capteur analogique, et mesurera toujours la variation de tension causée par la résistance du thermocouple à la température actuelle. Au lieu de retourner une valeur analogique et de compter sur l'appareil ou la carte connecteur pour la convertir en signal numérique, un ADC intégré au capteur convertira la valeur et l'enverra sous forme de série de 0 et de 1 à l'appareil IoT. Ces 0 et 1 sont envoyés de la même manière que le signal numérique d'un bouton, avec 1 correspondant à la tension maximale et 0 à 0V.
 
-![Un capteur de température numérique convertissant une lecture analogique en données binaires avec 0 comme 0 volts et 1 comme 5 volts avant de l'envoyer à un appareil IoT](../../../../../translated_images/temperature-as-digital.85004491b977bae1.fr.png)
+![Un capteur de température numérique convertissant une lecture analogique en données binaires avec 0 comme 0 volts et 1 comme 5 volts avant de l'envoyer à un appareil IoT](../../../../../translated_images/fr/temperature-as-digital.85004491b977bae1.webp)
 
 L'envoi de données numériques permet aux capteurs de devenir plus complexes et d'envoyer des données plus détaillées, voire des données cryptées pour des capteurs sécurisés. Un exemple est une caméra. C'est un capteur qui capture une image et l'envoie sous forme de données numériques contenant cette image, généralement dans un format compressé comme JPEG, pour être lue par l'appareil IoT. Elle peut même diffuser des vidéos en capturant des images et en envoyant soit l'image complète image par image, soit un flux vidéo compressé.
 
@@ -134,7 +134,7 @@ Quelques actionneurs courants incluent :
 
 Suivez le guide correspondant ci-dessous pour ajouter un actionneur à votre appareil IoT, contrôlé par le capteur, afin de créer une veilleuse IoT. Elle recueillera les niveaux de lumière du capteur de lumière et utilisera un actionneur sous forme de LED pour émettre de la lumière lorsque le niveau de lumière détecté est trop faible.
 
-![Un diagramme de flux de l'exercice montrant les niveaux de lumière mesurés et vérifiés, et la LED contrôlée](../../../../../translated_images/assignment-1-flow.7552a51acb1a5ec858dca6e855cdbb44206434006df8ba3799a25afcdab1665d.fr.png)
+![Un diagramme de flux de l'exercice montrant les niveaux de lumière mesurés et vérifiés, et la LED contrôlée](../../../../../translated_images/fr/assignment-1-flow.7552a51acb1a5ec858dca6e855cdbb44206434006df8ba3799a25afcdab1665d.png)
 
 * [Arduino - Wio Terminal](wio-terminal-actuator.md)
 * [Ordinateur monocarte - Raspberry Pi](pi-actuator.md)
@@ -149,7 +149,7 @@ Comme les capteurs, les actionneurs peuvent être analogiques ou numériques.
 Les actionneurs analogiques prennent un signal analogique et le convertissent en une interaction quelconque, où l'interaction varie en fonction de la tension fournie.
 
 Un exemple est une lumière réglable, comme celles que vous pourriez avoir chez vous. La quantité de tension fournie à la lumière détermine sa luminosité.
-![Une lumière atténuée à basse tension et plus lumineuse à haute tension](../../../../../translated_images/dimmable-light.9ceffeb195dec1a849da718b2d71b32c35171ff7dfea9c07bbf82646a67acf6b.fr.png)
+![Une lumière atténuée à basse tension et plus lumineuse à haute tension](../../../../../translated_images/fr/dimmable-light.9ceffeb195dec1a849da718b2d71b32c35171ff7dfea9c07bbf82646a67acf6b.png)
 
 Comme pour les capteurs, le véritable appareil IoT fonctionne avec des signaux numériques, et non analogiques. Cela signifie que pour envoyer un signal analogique, l'appareil IoT a besoin d'un convertisseur numérique-analogique (DAC), soit directement sur l'appareil IoT, soit sur une carte connecteur. Cela convertira les 0 et 1 de l'appareil IoT en une tension analogique que l'actionneur peut utiliser.
 
@@ -164,7 +164,7 @@ Par exemple, vous pouvez utiliser la PWM pour contrôler la vitesse d'un moteur.
 
 Imaginez que vous contrôlez un moteur avec une alimentation de 5V. Vous envoyez une impulsion courte à votre moteur, passant la tension à haute (5V) pendant deux centièmes de seconde (0,02s). Pendant ce temps, votre moteur peut effectuer un dixième de rotation, soit 36°. Le signal s'interrompt ensuite pendant deux centièmes de seconde (0,02s), envoyant un signal bas (0V). Chaque cycle de marche puis d'arrêt dure 0,04s. Le cycle se répète ensuite.
 
-![Rotation d'un moteur à 150 RPM avec modulation de largeur d'impulsion](../../../../../translated_images/pwm-motor-150rpm.83347ac04ca38482.fr.png)
+![Rotation d'un moteur à 150 RPM avec modulation de largeur d'impulsion](../../../../../translated_images/fr/pwm-motor-150rpm.83347ac04ca38482.webp)
 
 Cela signifie qu'en une seconde, vous avez 25 impulsions de 5V de 0,02s qui font tourner le moteur, chacune suivie d'une pause de 0,02s à 0V où le moteur ne tourne pas. Chaque impulsion fait tourner le moteur d'un dixième de rotation, ce qui signifie que le moteur effectue 2,5 rotations par seconde. Vous avez utilisé un signal numérique pour faire tourner le moteur à 2,5 rotations par seconde, soit 150 [tours par minute](https://wikipedia.org/wiki/Revolutions_per_minute) (une mesure non standard de la vitesse de rotation).
 
@@ -175,7 +175,7 @@ Cela signifie qu'en une seconde, vous avez 25 impulsions de 5V de 0,02s qui font
 
 > 🎓 Lorsque le signal PWM est activé pendant la moitié du temps et désactivé pendant l'autre moitié, on parle d'un [cycle de service de 50%](https://wikipedia.org/wiki/Duty_cycle). Les cycles de service sont mesurés en pourcentage du temps où le signal est en état activé par rapport à l'état désactivé.
 
-![Rotation d'un moteur à 75 RPM avec modulation de largeur d'impulsion](../../../../../translated_images/pwm-motor-75rpm.a5e4c939934b6e14.fr.png)
+![Rotation d'un moteur à 75 RPM avec modulation de largeur d'impulsion](../../../../../translated_images/fr/pwm-motor-75rpm.a5e4c939934b6e14.webp)
 
 Vous pouvez modifier la vitesse du moteur en changeant la taille des impulsions. Par exemple, avec le même moteur, vous pouvez conserver le même temps de cycle de 0,04s, avec l'impulsion activée réduite de moitié à 0,01s, et l'impulsion désactivée augmentée à 0,03s. Vous avez le même nombre d'impulsions par seconde (25), mais chaque impulsion activée est deux fois plus courte. Une impulsion réduite de moitié ne fait tourner le moteur que d'un vingtième de rotation, et à 25 impulsions par seconde, il effectuera 1,25 rotation par seconde, soit 75 RPM. En modifiant la vitesse des impulsions d'un signal numérique, vous avez réduit de moitié la vitesse d'un moteur analogique.
 
@@ -196,7 +196,7 @@ Les actionneurs numériques, comme les capteurs numériques, ont soit deux état
 
 Un actionneur numérique simple est une LED. Lorsqu'un appareil envoie un signal numérique de 1, une tension haute est envoyée pour allumer la LED. Lorsqu'un signal numérique de 0 est envoyé, la tension tombe à 0V et la LED s'éteint.
 
-![Une LED éteinte à 0 volts et allumée à 5V](../../../../../translated_images/led.ec6d94f66676a174ad06d9fa9ea49c2ee89beb18b312d5c6476467c66375b07f.fr.png)
+![Une LED éteinte à 0 volts et allumée à 5V](../../../../../translated_images/fr/led.ec6d94f66676a174ad06d9fa9ea49c2ee89beb18b312d5c6476467c66375b07f.png)
 
 ✅ Quels autres actionneurs simples à 2 états pouvez-vous imaginer ? Un exemple est un solénoïde, qui est un électroaimant pouvant être activé pour effectuer des actions comme déplacer un verrou de porte pour la verrouiller/déverrouiller.
 

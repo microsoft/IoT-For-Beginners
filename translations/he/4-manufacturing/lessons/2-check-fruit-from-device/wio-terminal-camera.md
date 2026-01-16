@@ -25,11 +25,11 @@ CO_OP_TRANSLATOR_METADATA:
 
 חבר את המצלמה.
 
-![חיישן ArduCam](../../../../../translated_images/arducam.20e4e4cbb268296570b5914e20d6c349fc42ddac9ed4e1b9deba2188204eebae.he.png)
+![חיישן ArduCam](../../../../../translated_images/he/arducam.20e4e4cbb268296570b5914e20d6c349fc42ddac9ed4e1b9deba2188204eebae.png)
 
 1. הפינים בבסיס ה-ArduCam צריכים להיות מחוברים לפיני GPIO ב-Wio Terminal. כדי להקל על מציאת הפינים הנכונים, הצמד את מדבקת פיני GPIO שמגיעה עם ה-Wio Terminal סביב הפינים:
 
-    ![ה-Wio Terminal עם מדבקת פיני GPIO](../../../../../translated_images/wio-terminal-pin-sticker.b90b1535937b84bd.he.png)
+    ![ה-Wio Terminal עם מדבקת פיני GPIO](../../../../../translated_images/he/wio-terminal-pin-sticker.b90b1535937b84bd.png)
 
 1. באמצעות חוטי ג'אמפר, בצע את החיבורים הבאים:
 
@@ -44,7 +44,7 @@ CO_OP_TRANSLATOR_METADATA:
     | SDA         | 3 (I2C1_SDA)     | נתונים סדרתיים I2C                     |
     | SCL         | 5 (I2C1_SCL)     | שעון סדרתי I2C                          |
 
-    ![ה-Wio Terminal מחובר ל-ArduCam עם חוטי ג'אמפר](../../../../../translated_images/arducam-wio-terminal-connections.a4d5a4049bdb5ab800a2877389fc6ecf5e4ff307e6451ff56c517e6786467d0a.he.png)
+    ![ה-Wio Terminal מחובר ל-ArduCam עם חוטי ג'אמפר](../../../../../translated_images/he/arducam-wio-terminal-connections.a4d5a4049bdb5ab800a2877389fc6ecf5e4ff307e6451ff56c517e6786467d0a.png)
 
     חיבורי GND ו-VCC מספקים ספק כוח של 5V ל-ArduCam. הוא פועל ב-5V, בניגוד לחיישני Grove שפועלים ב-3V. כוח זה מגיע ישירות מחיבור ה-USB-C שמספק כוח למכשיר.
 
@@ -297,7 +297,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 1. מיקרו-בקרים מריצים את הקוד שלך ברציפות, כך שלא קל להפעיל משהו כמו צילום תמונה מבלי להגיב לחיישן. ל-Wio Terminal יש כפתורים, כך שניתן להגדיר את המצלמה להיות מופעלת על ידי אחד הכפתורים. הוסף את הקוד הבא לסוף פונקציית `setup` כדי להגדיר את כפתור C (אחד משלושת הכפתורים בחלק העליון, הקרוב ביותר למתג ההפעלה).
 
-    ![כפתור C בחלק העליון הקרוב ביותר למתג ההפעלה](../../../../../translated_images/wio-terminal-c-button.73df3cb1c1445ea0.he.png)
+    ![כפתור C בחלק העליון הקרוב ביותר למתג ההפעלה](../../../../../translated_images/he/wio-terminal-c-button.73df3cb1c1445ea0.png)
 
     ```cpp
     pinMode(WIO_KEY_C, INPUT_PULLUP);
@@ -465,7 +465,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 1. כבה את כרטיס ה-microSD והוצא אותו על ידי לחיצה קלה ושחרור, והוא יקפוץ החוצה. ייתכן שתצטרך להשתמש בכלי דק כדי לעשות זאת. חבר את כרטיס ה-microSD למחשב שלך כדי לצפות בתמונות.
 
-    ![תמונה של בננה שצולמה באמצעות ArduCam](../../../../../translated_images/banana-arducam.be1b32d4267a8194b0fd042362e56faa431da9cd4af172051b37243ea9be0256.he.jpg)
+    ![תמונה של בננה שצולמה באמצעות ArduCam](../../../../../translated_images/he/banana-arducam.be1b32d4267a8194b0fd042362e56faa431da9cd4af172051b37243ea9be0256.jpg)
 💁 ייתכן שייקח כמה תמונות עד שהאיזון הלבן של המצלמה יתאים את עצמו. תבחינו בכך על סמך הצבע של התמונות שצולמו, הראשונות עשויות להיראות בצבע שגוי. תמיד תוכלו לעקוף זאת על ידי שינוי הקוד כך שיצלם כמה תמונות שמתעלמים מהן בפונקציית `setup`.
 
 

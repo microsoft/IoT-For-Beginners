@@ -154,11 +154,11 @@ Python वर्चुअल एनवायरनमेंट कॉन्फ�
 
 1. जब VS Code लॉन्च होता है, तो यह Python वर्चुअल एनवायरनमेंट को सक्रिय करेगा। चयनित वर्चुअल एनवायरनमेंट नीचे की स्टेटस बार में दिखाई देगा:
 
-    ![VS Code में चयनित वर्चुअल एनवायरनमेंट दिखा रहा है](../../../../../translated_images/vscode-virtual-env.8ba42e04c3d533cf.hi.png)
+    ![VS Code में चयनित वर्चुअल एनवायरनमेंट दिखा रहा है](../../../../../translated_images/hi/vscode-virtual-env.8ba42e04c3d533cf.png)
 
 1. यदि VS Code टर्मिनल पहले से चल रहा है जब VS Code शुरू होता है, तो इसमें वर्चुअल एनवायरनमेंट सक्रिय नहीं होगा। सबसे आसान तरीका है टर्मिनल को **Kill the active terminal instance** बटन का उपयोग करके बंद करना:
 
-    ![VS Code Kill the active terminal instance बटन](../../../../../translated_images/vscode-kill-terminal.1cc4de7c6f25ee08.hi.png)
+    ![VS Code Kill the active terminal instance बटन](../../../../../translated_images/hi/vscode-kill-terminal.1cc4de7c6f25ee08.png)
 
     आप यह बता सकते हैं कि टर्मिनल में वर्चुअल एनवायरनमेंट सक्रिय है क्योंकि टर्मिनल प्रॉम्प्ट पर वर्चुअल एनवायरनमेंट का नाम एक प्रीफिक्स होगा। उदाहरण के लिए, यह हो सकता है:
 
@@ -212,7 +212,7 @@ Python वर्चुअल एनवायरनमेंट कॉन्फ�
 
     ऐप चलना शुरू करेगा और आपके वेब ब्राउज़र में खुलेगा:
 
-    ![ब्राउज़र में चल रहा Counter Fit ऐप](../../../../../translated_images/counterfit-first-run.433326358b669b31d0e99c3513cb01bfbb13724d162c99cdcc8f51ecf5f9c779.hi.png)
+    ![ब्राउज़र में चल रहा Counter Fit ऐप](../../../../../translated_images/hi/counterfit-first-run.433326358b669b31d0e99c3513cb01bfbb13724d162c99cdcc8f51ecf5f9c779.png)
 
     इसे *Disconnected* के रूप में चिह्नित किया जाएगा, और शीर्ष-दाएं कोने में LED बंद होगा।
 
@@ -229,11 +229,11 @@ Python वर्चुअल एनवायरनमेंट कॉन्फ�
 
 1. आपको **Create a new integrated terminal** बटन चुनकर एक नया VS Code टर्मिनल लॉन्च करना होगा। ऐसा इसलिए है क्योंकि वर्तमान टर्मिनल में CounterFit ऐप चल रहा है।
 
-    ![VS Code Create a new integrated terminal बटन](../../../../../translated_images/vscode-new-terminal.77db8fc0f9cd3182.hi.png)
+    ![VS Code Create a new integrated terminal बटन](../../../../../translated_images/hi/vscode-new-terminal.77db8fc0f9cd3182.png)
 
 1. इस नए टर्मिनल में, पहले की तरह `app.py` फ़ाइल चलाएं। CounterFit की स्थिति **Connected** में बदल जाएगी और LED जल उठेगा।
 
-    ![Counter Fit कनेक्टेड दिखा रहा है](../../../../../translated_images/counterfit-connected.ed30b46d8f79b0921f3fc70be10366e596a89dca3f80c2224a9d9fc98fccf884.hi.png)
+    ![Counter Fit कनेक्टेड दिखा रहा है](../../../../../translated_images/hi/counterfit-connected.ed30b46d8f79b0921f3fc70be10366e596a89dca3f80c2224a9d9fc98fccf884.png)
 
 > 💁 आप इस कोड को [code/virtual-device](../../../../../1-getting-started/lessons/1-introduction-to-iot/code/virtual-device) फ़ोल्डर में पा सकते हैं।
 

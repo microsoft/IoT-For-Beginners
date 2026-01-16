@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Johdanto IoT:hen
 
-![Tämän oppitunnin sketchnote-yhteenveto](../../../../../translated_images/lesson-1.2606670fa61ee904687da5d6fa4e726639d524d064c895117da1b95b9ff6251d.fi.jpg)
+![Tämän oppitunnin sketchnote-yhteenveto](../../../../../translated_images/fi/lesson-1.2606670fa61ee904687da5d6fa4e726639d524d064c895117da1b95b9ff6251d.jpg)
 
 > Sketchnoten on tehnyt [Nitya Narasimhan](https://github.com/nitya). Klikkaa kuvaa nähdäksesi suuremman version.
 
@@ -79,7 +79,7 @@ Mikrokontrolleri (tunnetaan myös nimellä MCU, lyhenne sanoista microcontroller
 
 Mikrokontrollerit ovat tyypillisesti edullisia laskentalaitteita, joiden keskimääräiset hinnat mukautetussa laitteistossa ovat noin 0,50 USD, ja jotkut laitteet maksavat vain 0,03 USD. Kehityspaketit voivat maksaa alkaen 4 USD, ja hinnat nousevat ominaisuuksien lisääntyessä. [Wio Terminal](https://www.seeedstudio.com/Wio-Terminal-p-4509.html), mikrokontrollerikehityspaketti [Seeed Studiosilta](https://www.seeedstudio.com), jossa on sensoreita, aktuaattoreita, WiFi ja näyttö, maksaa noin 30 USD.
 
-![Wio Terminal](../../../../../translated_images/wio-terminal.b8299ee16587db9a.fi.png)
+![Wio Terminal](../../../../../translated_images/fi/wio-terminal.b8299ee16587db9a.png)
 
 > 💁 Kun etsit mikrokontrollereita Internetistä, ole varovainen hakusanalla **MCU**, sillä se tuo paljon tuloksia Marvelin elokuvauniversumista, ei mikrokontrollereista.
 
@@ -93,7 +93,7 @@ Mikrokontrollerikehityspaketeissa on yleensä mukana lisäsensoreita ja aktuaatt
 
 Yhden piirilevyn tietokone on pieni laskentalaite, joka sisältää kaikki täysimittaisen tietokoneen osat yhdellä pienellä piirilevyllä. Nämä laitteet ovat ominaisuuksiltaan lähellä pöytätietokonetta tai kannettavaa, käyttävät täysimittaista käyttöjärjestelmää, mutta ovat pienempiä, kuluttavat vähemmän virtaa ja ovat huomattavasti halvempia.
 
-![Raspberry Pi 4](../../../../../translated_images/raspberry-pi-4.fd4590d308c3d456.fi.jpg)
+![Raspberry Pi 4](../../../../../translated_images/fi/raspberry-pi-4.fd4590d308c3d456.jpg)
 
 Raspberry Pi on yksi suosituimmista yhden piirilevyn tietokoneista.
 

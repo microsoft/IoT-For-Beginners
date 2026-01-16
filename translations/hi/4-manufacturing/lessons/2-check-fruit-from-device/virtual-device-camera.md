@@ -43,11 +43,11 @@ CounterFit ऐप में कैमरा जोड़ें।
 
     1. कैमरा बनाने के लिए **Add** बटन चुनें।
 
-    ![कैमरा सेटिंग्स](../../../../../translated_images/counterfit-create-camera.a5de97f59c0bd3cbe0416d7e89a3cfe86d19fbae05c641c53a91286412af0a34.hi.png)
+    ![कैमरा सेटिंग्स](../../../../../translated_images/hi/counterfit-create-camera.a5de97f59c0bd3cbe0416d7e89a3cfe86d19fbae05c641c53a91286412af0a34.png)
 
     कैमरा बनाया जाएगा और सेंसर सूची में दिखाई देगा।
 
-    ![कैमरा बनाया गया](../../../../../translated_images/counterfit-camera.001ec52194c8ee5d3f617173da2c79e1df903d10882adc625cbfc493525125d4.hi.png)
+    ![कैमरा बनाया गया](../../../../../translated_images/hi/counterfit-camera.001ec52194c8ee5d3f617173da2c79e1df903d10882adc625cbfc493525125d4.png)
 
 ## कैमरा प्रोग्राम करें
 
@@ -112,7 +112,7 @@ CounterFit ऐप में कैमरा जोड़ें।
 
 1. उस छवि को कॉन्फ़िगर करें जिसे CounterFit में कैमरा कैप्चर करेगा। आप या तो *Source* को *File* पर सेट कर सकते हैं, फिर एक छवि फाइल अपलोड करें, या *Source* को *WebCam* पर सेट कर सकते हैं, और छवियां आपके वेबकैम से कैप्चर की जाएंगी। सुनिश्चित करें कि आपने एक तस्वीर चुनने या अपने वेबकैम का चयन करने के बाद **Set** बटन चुना है।
 
-    ![CounterFit में एक फाइल को इमेज स्रोत के रूप में सेट किया गया है, और एक वेबकैम सेट किया गया है जिसमें एक व्यक्ति को केले के साथ दिखाया गया है](../../../../../translated_images/counterfit-camera-options.eb3bd5150a8e7dffbf24bc5bcaba0cf2cdef95fbe6bbe393695d173817d6b8df.hi.png)
+    ![CounterFit में एक फाइल को इमेज स्रोत के रूप में सेट किया गया है, और एक वेबकैम सेट किया गया है जिसमें एक व्यक्ति को केले के साथ दिखाया गया है](../../../../../translated_images/hi/counterfit-camera-options.eb3bd5150a8e7dffbf24bc5bcaba0cf2cdef95fbe6bbe393695d173817d6b8df.png)
 
 1. एक छवि कैप्चर की जाएगी और वर्तमान फ़ोल्डर में `image.jpg` के रूप में सेव की जाएगी। आप इस फाइल को VS Code एक्सप्लोरर में देखेंगे। छवि देखने के लिए फाइल का चयन करें। यदि इसे रोटेशन की आवश्यकता है, तो `camera.rotation = 0` लाइन को आवश्यकतानुसार अपडेट करें और एक और तस्वीर लें।
 

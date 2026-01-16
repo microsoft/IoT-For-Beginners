@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Entrena un detector de existencias
 
-![Una vista general ilustrada de esta lección](../../../../../translated_images/lesson-19.cf6973cecadf080c4b526310620dc4d6f5994c80fb0139c6f378cc9ca2d435cd.es.jpg)
+![Una vista general ilustrada de esta lección](../../../../../translated_images/es/lesson-19.cf6973cecadf080c4b526310620dc4d6f5994c80fb0139c6f378cc9ca2d435cd.jpg)
 
 > Ilustración por [Nitya Narasimhan](https://github.com/nitya). Haz clic en la imagen para una versión más grande.
 
@@ -45,7 +45,7 @@ La detección de objetos implica identificar objetos en imágenes utilizando IA.
 
 La clasificación de imágenes se trata de clasificar una imagen en su totalidad: cuáles son las probabilidades de que toda la imagen coincida con cada etiqueta. Obtienes probabilidades para cada etiqueta utilizada para entrenar el modelo.
 
-![Clasificación de imágenes de nueces de marañón y pasta de tomate](../../../../../translated_images/image-classifier-cashews-tomato.bc2e16ab8f05cf9ac0f59f73e32efc4227f9a5b601b90b2c60f436694547a965.es.png)
+![Clasificación de imágenes de nueces de marañón y pasta de tomate](../../../../../translated_images/es/image-classifier-cashews-tomato.bc2e16ab8f05cf9ac0f59f73e32efc4227f9a5b601b90b2c60f436694547a965.png)
 
 En el ejemplo anterior, dos imágenes son clasificadas utilizando un modelo entrenado para clasificar envases de nueces de marañón o latas de pasta de tomate. La primera imagen es un envase de nueces de marañón y tiene dos resultados del clasificador de imágenes:
 
@@ -69,7 +69,7 @@ Cuando lo usas para predecir imágenes, en lugar de obtener una lista de etiquet
 
 > 🎓 *Cuadros delimitadores* son los cuadros alrededor de un objeto.
 
-![Detección de objetos de nueces de marañón y pasta de tomate](../../../../../translated_images/object-detector-cashews-tomato.1af7c26686b4db0e709754aeb196f4e73271f54e2085db3bcccb70d4a0d84d97.es.png)
+![Detección de objetos de nueces de marañón y pasta de tomate](../../../../../translated_images/es/object-detector-cashews-tomato.1af7c26686b4db0e709754aeb196f4e73271f54e2085db3bcccb70d4a0d84d97.png)
 
 La imagen anterior contiene tanto un envase de nueces de marañón como tres latas de pasta de tomate. El detector de objetos detectó las nueces de marañón, devolviendo el cuadro delimitador que contiene las nueces de marañón con el porcentaje de probabilidad de que el cuadro delimitador contenga el objeto, en este caso 97.6%. El detector de objetos también ha detectado tres latas de pasta de tomate y proporciona tres cuadros delimitadores separados, uno para cada lata detectada, y cada uno tiene una probabilidad de que el cuadro delimitador contenga una lata de pasta de tomate.
 
@@ -120,7 +120,7 @@ Puedes entrenar un detector de objetos utilizando Custom Vision, de manera simil
 
     Cuando crees tu proyecto, asegúrate de usar el recurso `stock-detector-training` que creaste anteriormente. Usa el tipo de proyecto *Detección de objetos* y el dominio *Productos en estantes*.
 
-    ![La configuración del proyecto de Custom Vision con el nombre configurado como fruit-quality-detector, sin descripción, el recurso configurado como fruit-quality-detector-training, el tipo de proyecto configurado como clasificación, los tipos de clasificación configurados como multi-clase y los dominios configurados como alimentos](../../../../../translated_images/custom-vision-create-object-detector-project.32d4fb9aa8e7e7375f8a799bfce517aca970f2cb65e42d4245c5e635c734ab29.es.png)
+    ![La configuración del proyecto de Custom Vision con el nombre configurado como fruit-quality-detector, sin descripción, el recurso configurado como fruit-quality-detector-training, el tipo de proyecto configurado como clasificación, los tipos de clasificación configurados como multi-clase y los dominios configurados como alimentos](../../../../../translated_images/es/custom-vision-create-object-detector-project.32d4fb9aa8e7e7375f8a799bfce517aca970f2cb65e42d4245c5e635c734ab29.png)
 
     ✅ El dominio de productos en estantes está específicamente dirigido a detectar existencias en estantes de tiendas. Lee más sobre los diferentes dominios en la [documentación Seleccionar un dominio en Microsoft Docs](https://docs.microsoft.com/azure/cognitive-services/custom-vision-service/select-domain?WT.mc_id=academic-17441-jabenn#object-detection)
 
@@ -142,11 +142,11 @@ Para entrenar tu modelo necesitarás un conjunto de imágenes que contengan los 
 
 1. Sigue la [sección Subir y etiquetar imágenes del inicio rápido para construir un detector de objetos en la documentación de Microsoft](https://docs.microsoft.com/azure/cognitive-services/custom-vision-service/get-started-build-detector?WT.mc_id=academic-17441-jabenn#upload-and-tag-images) para subir tus imágenes de entrenamiento. Crea etiquetas relevantes dependiendo de los tipos de objetos que deseas detectar.
 
-    ![Los cuadros de diálogo de carga muestran la carga de imágenes de plátanos maduros e inmaduros](../../../../../translated_images/image-upload-object-detector.77c7892c3093cb59b79018edecd678749a75d71a099bc8a2d2f2f76320f88a5b.es.png)
+    ![Los cuadros de diálogo de carga muestran la carga de imágenes de plátanos maduros e inmaduros](../../../../../translated_images/es/image-upload-object-detector.77c7892c3093cb59b79018edecd678749a75d71a099bc8a2d2f2f76320f88a5b.png)
 
     Cuando dibujes cuadros delimitadores para los objetos, mantenlos ajustados alrededor del objeto. Puede tomar un tiempo delinear todas las imágenes, pero la herramienta detectará lo que cree que son los cuadros delimitadores, haciéndolo más rápido.
 
-    ![Etiquetando algo de pasta de tomate](../../../../../translated_images/object-detector-tag-tomato-paste.f47c362fb0f0eb582f3bc68cf3855fb43a805106395358d41896a269c210b7b4.es.png)
+    ![Etiquetando algo de pasta de tomate](../../../../../translated_images/es/object-detector-tag-tomato-paste.f47c362fb0f0eb582f3bc68cf3855fb43a805106395358d41896a269c210b7b4.png)
 
     > 💁 Si tienes más de 15 imágenes para cada objeto, puedes entrenar después de 15 y usar la función **Etiquetas sugeridas**. Esto utilizará el modelo entrenado para detectar los objetos en la imagen no etiquetada. Luego puedes confirmar los objetos detectados o rechazar y volver a dibujar los cuadros delimitadores. Esto puede ahorrar *mucho* tiempo.
 
@@ -164,7 +164,7 @@ Una vez que tu detector de objetos esté entrenado, puedes probarlo dándole nue
 
 1. Usa el botón **Prueba rápida** para subir imágenes de prueba y verificar que los objetos sean detectados. Usa las imágenes de prueba que creaste anteriormente, no ninguna de las imágenes que usaste para entrenar.
 
-    ![3 latas de pasta de tomate detectadas con probabilidades de 38%, 35.5% y 34.6%](../../../../../translated_images/object-detector-detected-tomato-paste.52656fe87af4c37b4ee540526d63e73ed075da2e54a9a060aa528e0c562fb1b6.es.png)
+    ![3 latas de pasta de tomate detectadas con probabilidades de 38%, 35.5% y 34.6%](../../../../../translated_images/es/object-detector-detected-tomato-paste.52656fe87af4c37b4ee540526d63e73ed075da2e54a9a060aa528e0c562fb1b6.png)
 
 1. Prueba todas las imágenes de prueba que tengas y observa las probabilidades.
 

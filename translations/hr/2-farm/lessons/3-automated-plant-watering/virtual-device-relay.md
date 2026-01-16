@@ -37,11 +37,11 @@ Dodajte relej u CounterFit aplikaciju.
 
     1. Kliknite gumb **Add** za kreiranje releja na pinu 5.
 
-    ![Postavke releja](../../../../../translated_images/counterfit-create-relay.fa7c40fd0f2f6afc33b35ea94fcb235085be4861e14e3fe6b9b7bcfc82d1c888.hr.png)
+    ![Postavke releja](../../../../../translated_images/hr/counterfit-create-relay.fa7c40fd0f2f6afc33b35ea94fcb235085be4861e14e3fe6b9b7bcfc82d1c888.png)
 
     Relej će biti kreiran i pojavit će se na popisu aktuatora.
 
-    ![Kreirani relej](../../../../../translated_images/counterfit-relay.bbf74c1dbdc8b9acd983367fcbd06703a402aefef6af54ddb28e11307ba8a12c.hr.png)
+    ![Kreirani relej](../../../../../translated_images/hr/counterfit-relay.bbf74c1dbdc8b9acd983367fcbd06703a402aefef6af54ddb28e11307ba8a12c.png)
 
 ## Programiranje releja
 
