@@ -31,7 +31,7 @@ Conectează senzorul de temperatură
 
 1. Cu Raspberry Pi-ul oprit, conectează celălalt capăt al cablului Grove la mufa digitală marcată **D5** de pe Grove Base Hat atașat la Pi. Această mufă este a doua de la stânga, pe rândul de mufe de lângă pini GPIO.
 
-![Senzorul de temperatură Grove conectat la mufa A0](../../../../../translated_images/ro/pi-temperature-sensor.3ff82fff672c8e56.png)
+![Senzorul de temperatură Grove conectat la mufa A0](../../../../../translated_images/ro/pi-temperature-sensor.3ff82fff672c8e56.webp)
 
 ## Programarea senzorului de temperatură
 

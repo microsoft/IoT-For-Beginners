@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 [Распбери Пај](https://raspberrypi.org) је рачунар на једној плочи. Можете додати сензоре и актуаторе користећи широк спектар уређаја и екосистема, а за ове лекције користићемо хардверски екосистем под називом [Grove](https://www.seeedstudio.com/category/Grove-c-1003.html). Програмираћете свој Пај и приступати Grove сензорима користећи Python.
 
-![Распбери Пај 4](../../../../../translated_images/sr/raspberry-pi-4.fd4590d308c3d456.jpg)
+![Распбери Пај 4](../../../../../translated_images/sr/raspberry-pi-4.fd4590d308c3d456.webp)
 
 ## Подешавање
 
@@ -112,7 +112,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 1. У Raspberry Pi Imager-у изаберите дугме **CHOOSE OS**, затим изаберите *Raspberry Pi OS (Other)*, а потом *Raspberry Pi OS Lite (32-bit)*.
 
-    ![Raspberry Pi Imager са изабраним Raspberry Pi OS Lite](../../../../../translated_images/sr/raspberry-pi-imager.24aedeab9e233d84.png)
+    ![Raspberry Pi Imager са изабраним Raspberry Pi OS Lite](../../../../../translated_images/sr/raspberry-pi-imager.24aedeab9e233d84.webp)
 
     > 💁 Raspberry Pi OS Lite је верзија Raspberry Pi OS-а која нема десктоп кориснички интерфејс или алате засноване на интерфејсу. Ови алати нису потребни за "headless" Пај и чине инсталацију мањом и бржим покретањем.
 
@@ -249,7 +249,7 @@ OS ће бити снимљен на SD картицу, а када се зав�
 
 1. Отворите ову фасциклу у VS Code-у тако што ћете изабрати *File -> Open...* и изабрати фасциклу *nightlight*, затим изаберите **OK**.
 
-    ![Дијалог за отварање у VS Code-у који приказује фасциклу nightlight](../../../../../translated_images/sr/vscode-open-nightlight-remote.d3d2a4011e30d535.png)
+    ![Дијалог за отварање у VS Code-у који приказује фасциклу nightlight](../../../../../translated_images/sr/vscode-open-nightlight-remote.d3d2a4011e30d535.webp)
 
 1. Отворите датотеку `app.py` из VS Code explorer-а и додајте следећи код:
 

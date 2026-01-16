@@ -57,7 +57,7 @@ Azure Cloud Advocates v Microsoft s potešením ponúkajú 12-týždňový kurz 
 
 Projekty pokrývajú cestu potravín od farmy po stôl. Zahŕňa to poľnohospodárstvo, logistiku, výrobu, maloobchod a spotrebiteľa - všetky populárne odvetvia pre IoT zariadenia.
 
-![Plán kurzu znázorňujúci 24 lekcií pokrývajúcich úvod, poľnohospodárstvo, dopravu, spracovanie, maloobchod a varenie](../../translated_images/sk/Roadmap.bb1dec285dda0eda.jpg)
+![Plán kurzu znázorňujúci 24 lekcií pokrývajúcich úvod, poľnohospodárstvo, dopravu, spracovanie, maloobchod a varenie](../../translated_images/sk/Roadmap.bb1dec285dda0eda.webp)
 
 > Skicár vytvorený [Nitya Narasimhan](https://github.com/nitya). Kliknite na obrázok pre väčšiu verziu.
 

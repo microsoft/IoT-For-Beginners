@@ -115,7 +115,7 @@ Untuk prototaip, anda akan melaksanakan semua ini pada satu peranti. Jika anda m
 
 Peranti IoT memerlukan sejenis pencetus untuk menunjukkan bila buah sedia untuk diklasifikasikan. Salah satu pencetus untuk ini adalah dengan mengukur bila buah berada di lokasi yang betul pada tali sawat dengan mengukur jarak ke sensor.
 
-![Sensor jarak menghantar pancaran laser ke objek seperti pisang dan mengukur masa pantulan kembali](../../../../../translated_images/ms/proximity-sensor.f5cd752c77fb62fe.png)
+![Sensor jarak menghantar pancaran laser ke objek seperti pisang dan mengukur masa pantulan kembali](../../../../../translated_images/ms/proximity-sensor.f5cd752c77fb62fe.webp)
 
 Sensor jarak boleh digunakan untuk mengukur jarak dari sensor ke objek. Biasanya, ia memancarkan pancaran radiasi elektromagnet seperti pancaran laser atau cahaya infra-merah, kemudian mengesan radiasi yang memantul dari objek. Masa antara pancaran laser dihantar dan isyarat yang memantul kembali boleh digunakan untuk mengira jarak ke sensor.
 

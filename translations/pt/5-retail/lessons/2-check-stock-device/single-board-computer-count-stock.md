@@ -81,7 +81,7 @@ Como um passo útil de depuração, pode não só imprimir as caixas delimitador
 
 1. Execute a aplicação com a câmara apontada para algum stock numa prateleira. Verá o ficheiro `image.jpg` no explorador do VS Code e poderá selecioná-lo para ver as caixas delimitadoras.
 
-    ![4 latas de polpa de tomate com caixas delimitadoras em volta de cada lata](../../../../../translated_images/pt/rpi-stock-with-bounding-boxes.b5540e2ecb7cd49f.jpg)
+    ![4 latas de polpa de tomate com caixas delimitadoras em volta de cada lata](../../../../../translated_images/pt/rpi-stock-with-bounding-boxes.b5540e2ecb7cd49f.webp)
 
 ## Contar stock
 

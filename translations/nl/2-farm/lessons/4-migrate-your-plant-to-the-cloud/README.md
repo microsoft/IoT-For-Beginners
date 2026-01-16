@@ -72,7 +72,7 @@ De cloudprovider kan vervolgens schaalvoordelen gebruiken om de kosten te verlag
 
 Azure is de ontwikkelaarscloud van Microsoft, en dit is de cloud die je zult gebruiken voor deze lessen. De onderstaande video geeft een korte introductie van Azure:
 
-[![Overzicht van Azure video](../../../../../translated_images/nl/what-is-azure-video-thumbnail.20174db09e03bbb8.png)](https://www.microsoft.com/videoplayer/embed/RE4Ibng?WT.mc_id=academic-17441-jabenn)
+[![Overzicht van Azure video](../../../../../translated_images/nl/what-is-azure-video-thumbnail.20174db09e03bbb8.webp)](https://www.microsoft.com/videoplayer/embed/RE4Ibng?WT.mc_id=academic-17441-jabenn)
 
 ## Maak een cloudabonnement aan
 

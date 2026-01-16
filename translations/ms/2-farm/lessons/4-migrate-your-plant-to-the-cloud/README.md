@@ -72,7 +72,7 @@ Penyedia awan kemudian boleh menggunakan skala ekonomi untuk mengurangkan kos, m
 
 Azure ialah awan untuk pembangun dari Microsoft, dan ini adalah awan yang akan anda gunakan untuk pelajaran ini. Video di bawah memberikan gambaran ringkas tentang Azure:
 
-[![Video gambaran Azure](../../../../../translated_images/ms/what-is-azure-video-thumbnail.20174db09e03bbb8.png)](https://www.microsoft.com/videoplayer/embed/RE4Ibng?WT.mc_id=academic-17441-jabenn)
+[![Video gambaran Azure](../../../../../translated_images/ms/what-is-azure-video-thumbnail.20174db09e03bbb8.webp)](https://www.microsoft.com/videoplayer/embed/RE4Ibng?WT.mc_id=academic-17441-jabenn)
 
 ## Cipta langganan awan
 

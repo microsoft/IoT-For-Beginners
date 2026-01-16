@@ -115,7 +115,7 @@ Pentru prototip, veți implementa toate acestea pe un singur dispozitiv. Dacă u
 
 Dispozitivul IoT are nevoie de un fel de declanșator pentru a indica momentul în care fructele sunt gata să fie clasificate. Un astfel de declanșator ar putea fi măsurarea momentului în care fructele sunt în poziția corectă pe banda transportoare, prin măsurarea distanței față de un senzor.
 
-![Senzorii de proximitate trimit fascicule laser către obiecte, cum ar fi bananele, și măsoară timpul până când fasciculul este reflectat înapoi](../../../../../translated_images/ro/proximity-sensor.f5cd752c77fb62fe.png)
+![Senzorii de proximitate trimit fascicule laser către obiecte, cum ar fi bananele, și măsoară timpul până când fasciculul este reflectat înapoi](../../../../../translated_images/ro/proximity-sensor.f5cd752c77fb62fe.webp)
 
 Senzorii de proximitate pot fi utilizați pentru a măsura distanța dintre senzor și un obiect. De obicei, aceștia transmit un fascicul de radiație electromagnetică, cum ar fi un fascicul laser sau lumină infraroșie, apoi detectează radiația reflectată de un obiect. Timpul dintre trimiterea fasciculului laser și semnalul reflectat poate fi utilizat pentru a calcula distanța până la senzor.
 

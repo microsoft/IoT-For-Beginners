@@ -29,7 +29,7 @@ ArduCam ਵਿੱਚ Grove ਸਾਕਟ ਨਹੀਂ ਹੈ, ਇਸ ਲਈ ਇ�
 
 1. ArduCam ਦੇ ਬੇਸ ਦੇ ਪਿੰਸ ਨੂੰ Wio ਟਰਮੀਨਲ ਦੇ GPIO ਪਿੰਸ ਨਾਲ ਜ਼ੋੜਨਾ ਲਾਜ਼ਮੀ ਹੈ। ਸਹੀ ਪਿੰਸ ਲੱਭਣ ਲਈ, Wio ਟਰਮੀਨਲ ਨਾਲ ਆਉਣ ਵਾਲੇ GPIO ਪਿੰ ਸਟਿਕਰ ਨੂੰ ਪਿੰਸ ਦੇ ਆਲੇ-ਦੁਆਲੇ ਲਗਾਓ:
 
-    ![GPIO ਪਿੰ ਸਟਿਕਰ ਨਾਲ Wio ਟਰਮੀਨਲ](../../../../../translated_images/pa/wio-terminal-pin-sticker.b90b1535937b84bd.png)
+    ![GPIO ਪਿੰ ਸਟਿਕਰ ਨਾਲ Wio ਟਰਮੀਨਲ](../../../../../translated_images/pa/wio-terminal-pin-sticker.b90b1535937b84bd.webp)
 
 1. ਜੰਪਰ ਵਾਇਰਾਂ ਦੀ ਵਰਤੋਂ ਕਰਦੇ ਹੋਏ, ਹੇਠਾਂ ਦਿੱਤੇ ਗਏ ਕਨੈਕਸ਼ਨ ਬਣਾਓ:
 
@@ -297,7 +297,7 @@ ArduCam ਵਿੱਚ Grove ਸਾਕਟ ਨਹੀਂ ਹੈ, ਇਸ ਲਈ ਇ�
 
 1. ਮਾਈਕਰੋਕੰਟਰੋਲਰ ਤੁਹਾਡੇ ਕੋਡ ਨੂੰ ਲਗਾਤਾਰ ਚਲਾਉਂਦੇ ਹਨ, ਇਸ ਲਈ ਤਸਵੀਰ ਲੈਣ ਵਰਗੇ ਕੰਮ ਨੂੰ ਟ੍ਰਿਗਰ ਕਰਨਾ ਆਸਾਨ ਨਹੀਂ ਹੈ। Wio ਟਰਮੀਨਲ ਵਿੱਚ ਬਟਨ ਹਨ, ਇਸ ਲਈ ਕੈਮਰੇ ਨੂੰ ਇੱਕ ਬਟਨ ਦੁਆਰਾ ਟ੍ਰਿਗਰ ਕੀਤਾ ਜਾ ਸਕਦਾ ਹੈ। `setup` ਫੰਕਸ਼ਨ ਦੇ ਅੰਤ ਵਿੱਚ ਹੇਠਾਂ ਦਿੱਤਾ ਗਇਆ ਕੋਡ ਸ਼ਾਮਲ ਕਰੋ:
 
-    ![ਪਾਵਰ ਸਵਿੱਚ ਦੇ ਕੋਲ C ਬਟਨ](../../../../../translated_images/pa/wio-terminal-c-button.73df3cb1c1445ea0.png)
+    ![ਪਾਵਰ ਸਵਿੱਚ ਦੇ ਕੋਲ C ਬਟਨ](../../../../../translated_images/pa/wio-terminal-c-button.73df3cb1c1445ea0.webp)
 
     ```cpp
     pinMode(WIO_KEY_C, INPUT_PULLUP);

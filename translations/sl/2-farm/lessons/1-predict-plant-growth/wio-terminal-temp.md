@@ -33,7 +33,7 @@ Povežite temperaturni senzor.
 
 1. Ko je Wio Terminal odklopljen od računalnika ali drugega vira napajanja, povežite drugi konec Grove kabla z desno Grove vtičnico na Wio Terminalu, gledano s sprednje strani zaslona. To je vtičnica, ki je najbolj oddaljena od gumba za vklop.
 
-![Grove temperaturni senzor povezan z desno vtičnico](../../../../../translated_images/sl/wio-temperature-sensor.2934928f38c7f79a.png)
+![Grove temperaturni senzor povezan z desno vtičnico](../../../../../translated_images/sl/wio-temperature-sensor.2934928f38c7f79a.webp)
 
 ## Programiranje temperaturnega senzorja
 

@@ -33,7 +33,7 @@ Verbind de temperatuursensor.
 
 1. Terwijl de Wio Terminal niet is aangesloten op je computer of een andere stroombron, verbind je het andere uiteinde van de Grove-kabel met de rechter Grove-aansluiting op de Wio Terminal, zoals je naar het scherm kijkt. Dit is de aansluiting die het verst van de aan/uit-knop verwijderd is.
 
-![De Grove temperatuursensor aangesloten op de rechteraansluiting](../../../../../translated_images/nl/wio-temperature-sensor.2934928f38c7f79a.png)
+![De Grove temperatuursensor aangesloten op de rechteraansluiting](../../../../../translated_images/nl/wio-temperature-sensor.2934928f38c7f79a.webp)
 
 ## Programmeer de temperatuursensor
 

@@ -15,11 +15,11 @@ I denne delen av leksjonen skal du legge til høyttalere til din Wio Terminal. W
 
 Wio Terminal har allerede en innebygd mikrofon som kan brukes til å fange opp lyd for talegjenkjenning.
 
-![Mikrofonen på Wio Terminal](../../../../../translated_images/no/wio-mic.3f8c843dbe8ad917.png)
+![Mikrofonen på Wio Terminal](../../../../../translated_images/no/wio-mic.3f8c843dbe8ad917.webp)
 
 For å legge til en høyttaler kan du bruke [ReSpeaker 2-Mics Pi Hat](https://www.seeedstudio.com/ReSpeaker-2-Mics-Pi-HAT.html). Dette er et eksternt kort som inneholder 2 MEMS-mikrofoner, samt en høyttalerkontakt og hodetelefonutgang.
 
-![ReSpeaker 2-Mics Pi Hat](../../../../../translated_images/no/respeaker.f5d19d1c6b14ab16.png)
+![ReSpeaker 2-Mics Pi Hat](../../../../../translated_images/no/respeaker.f5d19d1c6b14ab16.webp)
 
 Du må legge til enten hodetelefoner, en høyttaler med en 3,5 mm jack, eller en høyttaler med en JST-tilkobling, som for eksempel [Mono Enclosed Speaker - 2W 6 Ohm](https://www.seeedstudio.com/Mono-Enclosed-Speaker-2W-6-Ohm-p-2832.html).
 
@@ -35,7 +35,7 @@ Du trenger også et SD-kort for å laste ned og spille av lyd. Wio Terminal stø
 
     Pinnene må kobles på denne måten:
 
-    ![Et pin-diagram](../../../../../translated_images/no/wio-respeaker-wiring-0.767f80aa65081038.png)
+    ![Et pin-diagram](../../../../../translated_images/no/wio-respeaker-wiring-0.767f80aa65081038.webp)
 
 1. Plasser ReSpeaker og Wio Terminal med GPIO-kontaktene vendt oppover, og på venstre side.
 
@@ -43,33 +43,33 @@ Du trenger også et SD-kort for å laste ned og spille av lyd. Wio Terminal stø
 
 1. Gjenta dette hele veien nedover GPIO-kontaktene på venstre side. Sørg for at pinnene sitter godt fast.
 
-    ![En ReSpeaker med venstre pinner koblet til venstre pinner på Wio Terminal](../../../../../translated_images/no/wio-respeaker-wiring-1.8d894727f2ba2400.png)
+    ![En ReSpeaker med venstre pinner koblet til venstre pinner på Wio Terminal](../../../../../translated_images/no/wio-respeaker-wiring-1.8d894727f2ba2400.webp)
 
-    ![En ReSpeaker med venstre pinner koblet til venstre pinner på Wio Terminal](../../../../../translated_images/no/wio-respeaker-wiring-2.329e1cbd306e754f.png)
+    ![En ReSpeaker med venstre pinner koblet til venstre pinner på Wio Terminal](../../../../../translated_images/no/wio-respeaker-wiring-2.329e1cbd306e754f.webp)
 
     > 💁 Hvis jumperkablene dine er koblet sammen i bånd, hold dem samlet - det gjør det enklere å sikre at du har koblet alle kablene i riktig rekkefølge.
 
 1. Gjenta prosessen med GPIO-kontaktene på høyre side av ReSpeaker og Wio Terminal. Disse kablene må gå rundt kablene som allerede er på plass.
 
-    ![En ReSpeaker med høyre pinner koblet til høyre pinner på Wio Terminal](../../../../../translated_images/no/wio-respeaker-wiring-3.75b0be447e2fa930.png)
+    ![En ReSpeaker med høyre pinner koblet til høyre pinner på Wio Terminal](../../../../../translated_images/no/wio-respeaker-wiring-3.75b0be447e2fa930.webp)
 
-    ![En ReSpeaker med høyre pinner koblet til høyre pinner på Wio Terminal](../../../../../translated_images/no/wio-respeaker-wiring-4.aa9cd434d8779437.png)
+    ![En ReSpeaker med høyre pinner koblet til høyre pinner på Wio Terminal](../../../../../translated_images/no/wio-respeaker-wiring-4.aa9cd434d8779437.webp)
 
     > 💁 Hvis jumperkablene dine er koblet sammen i bånd, del dem opp i to bånd. Før ett på hver side av de eksisterende kablene.
 
     > 💁 Du kan bruke tape for å holde pinnene samlet i en blokk for å forhindre at noen løsner mens du kobler dem til.
     >
-    > ![Pinnene festet med tape](../../../../../translated_images/no/wio-respeaker-wiring-5.af117c20acf622f3.png)
+    > ![Pinnene festet med tape](../../../../../translated_images/no/wio-respeaker-wiring-5.af117c20acf622f3.webp)
 
 1. Du må legge til en høyttaler.
 
     * Hvis du bruker en høyttaler med en JST-kabel, koble den til JST-porten på ReSpeaker.
 
-      ![En høyttaler koblet til ReSpeaker med en JST-kabel](../../../../../translated_images/no/respeaker-jst-speaker.a441d177809df945.png)
+      ![En høyttaler koblet til ReSpeaker med en JST-kabel](../../../../../translated_images/no/respeaker-jst-speaker.a441d177809df945.webp)
 
     * Hvis du bruker en høyttaler med en 3,5 mm jack eller hodetelefoner, sett dem inn i 3,5 mm jack-kontakten.
 
-      ![En høyttaler koblet til ReSpeaker via 3,5 mm jack-kontakten](../../../../../translated_images/no/respeaker-35mm-speaker.ad79ef4f128c7751.png)
+      ![En høyttaler koblet til ReSpeaker via 3,5 mm jack-kontakten](../../../../../translated_images/no/respeaker-35mm-speaker.ad79ef4f128c7751.webp)
 
 ### Oppgave - sett opp SD-kortet
 
@@ -79,7 +79,7 @@ Du trenger også et SD-kort for å laste ned og spille av lyd. Wio Terminal stø
 
 1. Sett SD-kortet inn i SD-kortsporet på venstre side av Wio Terminal, rett under av/på-knappen. Sørg for at kortet er helt inne og klikker på plass - du kan trenge et tynt verktøy eller et annet SD-kort for å hjelpe til med å trykke det helt inn.
 
-    ![Setter inn SD-kortet i SD-kortsporet under av/på-bryteren](../../../../../translated_images/no/wio-sd-card.acdcbe322fa4ee7f.png)
+    ![Setter inn SD-kortet i SD-kortsporet under av/på-bryteren](../../../../../translated_images/no/wio-sd-card.acdcbe322fa4ee7f.webp)
 
     > 💁 For å ta ut SD-kortet må du trykke det litt inn, og det vil sprette ut. Du trenger et tynt verktøy for dette, som en flat skrutrekker eller et annet SD-kort.
 

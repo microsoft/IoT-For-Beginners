@@ -15,11 +15,11 @@ CO_OP_TRANSLATOR_METADATA:
 
 Wio Terminal मध्ये आधीच एक मायक्रोफोन अंतर्भूत आहे, जो ऑडिओ भाषण ओळखण्यासाठी वापरता येतो.
 
-![Wio Terminal वरील मायक्रोफोन](../../../../../translated_images/mr/wio-mic.3f8c843dbe8ad917.png)
+![Wio Terminal वरील मायक्रोफोन](../../../../../translated_images/mr/wio-mic.3f8c843dbe8ad917.webp)
 
 स्पीकर जोडण्यासाठी, तुम्ही [ReSpeaker 2-Mics Pi Hat](https://www.seeedstudio.com/ReSpeaker-2-Mics-Pi-HAT.html) वापरू शकता. हे एक बाह्य बोर्ड आहे ज्यामध्ये 2 MEMS मायक्रोफोन, स्पीकर कनेक्टर आणि हेडफोन सॉकेट आहे.
 
-![ReSpeaker 2-Mics Pi Hat](../../../../../translated_images/mr/respeaker.f5d19d1c6b14ab16.png)
+![ReSpeaker 2-Mics Pi Hat](../../../../../translated_images/mr/respeaker.f5d19d1c6b14ab16.webp)
 
 तुम्हाला हेडफोन, 3.5mm जॅक असलेला स्पीकर किंवा JST कनेक्शन असलेला स्पीकर जसे की [Mono Enclosed Speaker - 2W 6 Ohm](https://www.seeedstudio.com/Mono-Enclosed-Speaker-2W-6-Ohm-p-2832.html) जोडणे आवश्यक आहे.
 
@@ -35,7 +35,7 @@ ReSpeaker 2-Mics Pi Hat कनेक्ट करण्यासाठी तु
 
     पिन्स खालीलप्रमाणे कनेक्ट करणे आवश्यक आहे:
 
-    ![पिन डायग्राम](../../../../../translated_images/mr/wio-respeaker-wiring-0.767f80aa65081038.png)
+    ![पिन डायग्राम](../../../../../translated_images/mr/wio-respeaker-wiring-0.767f80aa65081038.webp)
 
 1. GPIO सॉकेट्स वरच्या बाजूला ठेवून, ReSpeaker आणि Wio Terminal डाव्या बाजूला ठेवा.
 
@@ -43,33 +43,33 @@ ReSpeaker 2-Mics Pi Hat कनेक्ट करण्यासाठी तु
 
 1. डाव्या बाजूच्या GPIO सॉकेट्ससाठी हे सर्व पिन्स व्यवस्थित कनेक्ट करा. पिन्स घट्ट बसवले आहेत याची खात्री करा.
 
-    ![ReSpeaker च्या डाव्या बाजूचे पिन्स Wio Terminal च्या डाव्या बाजूच्या पिन्सशी जोडलेले](../../../../../translated_images/mr/wio-respeaker-wiring-1.8d894727f2ba2400.png)
+    ![ReSpeaker च्या डाव्या बाजूचे पिन्स Wio Terminal च्या डाव्या बाजूच्या पिन्सशी जोडलेले](../../../../../translated_images/mr/wio-respeaker-wiring-1.8d894727f2ba2400.webp)
 
-    ![ReSpeaker च्या डाव्या बाजूचे पिन्स Wio Terminal च्या डाव्या बाजूच्या पिन्सशी जोडलेले](../../../../../translated_images/mr/wio-respeaker-wiring-2.329e1cbd306e754f.png)
+    ![ReSpeaker च्या डाव्या बाजूचे पिन्स Wio Terminal च्या डाव्या बाजूच्या पिन्सशी जोडलेले](../../../../../translated_images/mr/wio-respeaker-wiring-2.329e1cbd306e754f.webp)
 
     > 💁 जर तुमच्या जंपर केबल्स रिबनमध्ये जोडलेल्या असतील, तर त्यांना एकत्र ठेवा - यामुळे सर्व केबल्स योग्य क्रमाने जोडणे सोपे होईल.
 
 1. ReSpeaker आणि Wio Terminal च्या उजव्या बाजूच्या GPIO सॉकेट्ससाठी ही प्रक्रिया पुन्हा करा. या केबल्स आधीच्या जोडलेल्या केबल्सच्या भोवती जायला हव्यात.
 
-    ![ReSpeaker च्या उजव्या बाजूचे पिन्स Wio Terminal च्या उजव्या बाजूच्या पिन्सशी जोडलेले](../../../../../translated_images/mr/wio-respeaker-wiring-3.75b0be447e2fa930.png)
+    ![ReSpeaker च्या उजव्या बाजूचे पिन्स Wio Terminal च्या उजव्या बाजूच्या पिन्सशी जोडलेले](../../../../../translated_images/mr/wio-respeaker-wiring-3.75b0be447e2fa930.webp)
 
-    ![ReSpeaker च्या उजव्या बाजूचे पिन्स Wio Terminal च्या उजव्या बाजूच्या पिन्सशी जोडलेले](../../../../../translated_images/mr/wio-respeaker-wiring-4.aa9cd434d8779437.png)
+    ![ReSpeaker च्या उजव्या बाजूचे पिन्स Wio Terminal च्या उजव्या बाजूच्या पिन्सशी जोडलेले](../../../../../translated_images/mr/wio-respeaker-wiring-4.aa9cd434d8779437.webp)
 
     > 💁 जर तुमच्या जंपर केबल्स रिबनमध्ये जोडलेल्या असतील, तर त्यांना दोन रिबनमध्ये विभाजित करा. एक रिबन प्रत्येक बाजूला ठेवा.
 
     > 💁 पिन्स एका ब्लॉकमध्ये ठेवण्यासाठी तुम्ही चिकट टेप वापरू शकता, जेणेकरून कनेक्ट करताना पिन्स बाहेर पडणार नाहीत.
     >
-    > ![टेपने पिन्स फिक्स केलेले](../../../../../translated_images/mr/wio-respeaker-wiring-5.af117c20acf622f3.png)
+    > ![टेपने पिन्स फिक्स केलेले](../../../../../translated_images/mr/wio-respeaker-wiring-5.af117c20acf622f3.webp)
 
 1. तुम्हाला स्पीकर जोडणे आवश्यक आहे.
 
     * जर तुम्ही JST केबल असलेला स्पीकर वापरत असाल, तर तो ReSpeaker च्या JST पोर्टमध्ये कनेक्ट करा.
 
-      ![JST केबलद्वारे ReSpeaker शी जोडलेला स्पीकर](../../../../../translated_images/mr/respeaker-jst-speaker.a441d177809df945.png)
+      ![JST केबलद्वारे ReSpeaker शी जोडलेला स्पीकर](../../../../../translated_images/mr/respeaker-jst-speaker.a441d177809df945.webp)
 
     * जर तुम्ही 3.5mm जॅक असलेला स्पीकर किंवा हेडफोन वापरत असाल, तर तो 3.5mm जॅक सॉकेटमध्ये घाला.
 
-      ![3.5mm जॅक सॉकेटद्वारे ReSpeaker शी जोडलेला स्पीकर](../../../../../translated_images/mr/respeaker-35mm-speaker.ad79ef4f128c7751.png)
+      ![3.5mm जॅक सॉकेटद्वारे ReSpeaker शी जोडलेला स्पीकर](../../../../../translated_images/mr/respeaker-35mm-speaker.ad79ef4f128c7751.webp)
 
 ### कार्य - SD कार्ड सेट करा
 
@@ -79,7 +79,7 @@ ReSpeaker 2-Mics Pi Hat कनेक्ट करण्यासाठी तु
 
 1. SD कार्ड Wio Terminal च्या डाव्या बाजूला, पॉवर बटणाच्या खाली असलेल्या SD कार्ड स्लॉटमध्ये घाला. कार्ड पूर्णपणे आत घालून क्लिक होईल याची खात्री करा - तुम्हाला ते पूर्णपणे आत ढकलण्यासाठी पातळ साधन किंवा दुसरे SD कार्ड लागेल.
 
-    ![SD कार्ड पॉवर स्विचच्या खाली असलेल्या SD कार्ड स्लॉटमध्ये घालत आहे](../../../../../translated_images/mr/wio-sd-card.acdcbe322fa4ee7f.png)
+    ![SD कार्ड पॉवर स्विचच्या खाली असलेल्या SD कार्ड स्लॉटमध्ये घालत आहे](../../../../../translated_images/mr/wio-sd-card.acdcbe322fa4ee7f.webp)
 
     > 💁 SD कार्ड काढण्यासाठी, तुम्हाला ते थोडे आत ढकलावे लागेल आणि ते बाहेर येईल. यासाठी तुम्हाला पातळ साधन जसे की फ्लॅट-हेड स्क्रूड्रायव्हर किंवा दुसरे SD कार्ड लागेल.
 

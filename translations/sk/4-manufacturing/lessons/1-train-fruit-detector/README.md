@@ -61,7 +61,7 @@ Najnovšie evolúcie týchto triediacich strojov využívajú AI a ML, používa
 
 Tradičné programovanie spočíva v tom, že vezmete dáta, aplikujete na ne algoritmus a získate výstup. Napríklad v poslednom projekte ste vzali GPS súradnice a geofence, aplikovali algoritmus poskytnutý Azure Maps a dostali výsledok, či bod je vo vnútri alebo mimo geofence. Vložíte viac dát, získate viac výstupov.
 
-![Tradičný vývoj berie vstup a algoritmus a dáva výstup. Strojové učenie používa vstupné a výstupné dáta na trénovanie modelu, a tento model môže brať nové vstupné dáta na generovanie nových výstupov.](../../../../../translated_images/sk/traditional-vs-ml.5c20c169621fa539.png)
+![Tradičný vývoj berie vstup a algoritmus a dáva výstup. Strojové učenie používa vstupné a výstupné dáta na trénovanie modelu, a tento model môže brať nové vstupné dáta na generovanie nových výstupov.](../../../../../translated_images/sk/traditional-vs-ml.5c20c169621fa539.webp)
 
 Strojové učenie to obracia – začínate s dátami a známymi výstupmi a algoritmus strojového učenia sa učí z dát. Potom môžete vziať tento trénovaný algoritmus, nazývaný *model strojového učenia* alebo *model*, a vložiť nové dáta a získať nové výstupy.
 
@@ -87,7 +87,7 @@ Na úspešné trénovanie klasifikátora obrázkov potrebujete milióny obrázko
 
 Keď je klasifikátor obrázkov trénovaný na širokú škálu obrázkov, jeho vnútorné mechanizmy sú skvelé na rozpoznávanie tvarov, farieb a vzorov. Transfer learning umožňuje modelu využiť to, čo sa už naučil pri rozpoznávaní častí obrázkov, a použiť to na rozpoznávanie nových obrázkov.
 
-![Keď už dokážete rozpoznať tvary, môžu byť usporiadané do rôznych konfigurácií na vytvorenie lode alebo mačky.](../../../../../translated_images/sk/shapes-to-images.1a309f0ea88dd66f.png)
+![Keď už dokážete rozpoznať tvary, môžu byť usporiadané do rôznych konfigurácií na vytvorenie lode alebo mačky.](../../../../../translated_images/sk/shapes-to-images.1a309f0ea88dd66f.webp)
 
 Môžete si to predstaviť ako detské knižky s tvarmi, kde keď už dokážete rozpoznať polkruh, obdĺžnik a trojuholník, dokážete rozpoznať plachetnicu alebo mačku v závislosti od konfigurácie týchto tvarov. Klasifikátor obrázkov dokáže rozpoznať tvary a transfer learning ho naučí, aká kombinácia tvorí loď alebo mačku – alebo zrelý banán.
 

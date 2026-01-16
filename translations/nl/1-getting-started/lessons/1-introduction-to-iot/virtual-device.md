@@ -154,11 +154,11 @@ Maak een Python-applicatie om `"Hello World"` naar de console te printen.
 
 1. Wanneer VS Code wordt gestart, activeert het de Python virtuele omgeving. De geselecteerde virtuele omgeving verschijnt in de onderste statusbalk:
 
-    ![VS Code toont de geselecteerde virtuele omgeving](../../../../../translated_images/nl/vscode-virtual-env.8ba42e04c3d533cf.png)
+    ![VS Code toont de geselecteerde virtuele omgeving](../../../../../translated_images/nl/vscode-virtual-env.8ba42e04c3d533cf.webp)
 
 1. Als de VS Code Terminal al actief is wanneer VS Code wordt gestart, zal de virtuele omgeving niet geactiveerd zijn in de terminal. Het eenvoudigste is om de terminal te sluiten met de knop **Kill the active terminal instance**:
 
-    ![VS Code Kill the active terminal instance-knop](../../../../../translated_images/nl/vscode-kill-terminal.1cc4de7c6f25ee08.png)
+    ![VS Code Kill the active terminal instance-knop](../../../../../translated_images/nl/vscode-kill-terminal.1cc4de7c6f25ee08.webp)
 
     Je kunt zien of de terminal de virtuele omgeving heeft geactiveerd, omdat de naam van de virtuele omgeving een prefix is op de terminalprompt. Bijvoorbeeld, het kan zijn:
 
@@ -229,7 +229,7 @@ Als een tweede 'Hello World'-stap ga je de CounterFit-app uitvoeren en je code e
 
 1. Je moet een nieuwe VS Code-terminal starten door de knop **Create a new integrated terminal** te selecteren. Dit komt omdat de CounterFit-app draait in de huidige terminal.
 
-    ![VS Code Create a new integrated terminal-knop](../../../../../translated_images/nl/vscode-new-terminal.77db8fc0f9cd3182.png)
+    ![VS Code Create a new integrated terminal-knop](../../../../../translated_images/nl/vscode-new-terminal.77db8fc0f9cd3182.webp)
 
 1. Voer in deze nieuwe terminal het bestand `app.py` uit zoals eerder. De status van CounterFit zal veranderen naar **Connected** en de LED zal oplichten.
 

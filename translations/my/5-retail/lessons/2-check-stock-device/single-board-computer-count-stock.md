@@ -81,7 +81,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 1. ကင်မရာကို စတော့ရှယ်ယာရှိသော shelf ကိုညွှန်းထားပြီး app ကို run လုပ်ပါ။ `image.jpg` ဖိုင်ကို VS Code explorer မှာတွေ့ရမည်ဖြစ်ပြီး bounding boxes တွေကိုကြည့်နိုင်ပါမည်။
 
-    ![4 cans of tomato paste with bounding boxes around each can](../../../../../translated_images/my/rpi-stock-with-bounding-boxes.b5540e2ecb7cd49f.jpg)
+    ![4 cans of tomato paste with bounding boxes around each can](../../../../../translated_images/my/rpi-stock-with-bounding-boxes.b5540e2ecb7cd49f.webp)
 
 ## စတော့ရှယ်ယာရေတွက်ခြင်း
 

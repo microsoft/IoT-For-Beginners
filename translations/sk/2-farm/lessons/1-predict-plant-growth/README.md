@@ -65,7 +65,7 @@ Každý druh rastliny má rôzne hodnoty pre svoju základnú, optimálnu a maxi
 
 ✅ Urobte si prieskum. Pre akékoľvek rastliny vo vašej záhrade, škole alebo miestnom parku zistite, či môžete nájsť ich základnú teplotu.
 
-![Graf ukazujúci rýchlosť rastu, ktorá stúpa s teplotou, potom klesá, keď teplota stúpne príliš vysoko](../../../../../translated_images/sk/plant-growth-temp-graph.c6d69c9478e6ca83.png)
+![Graf ukazujúci rýchlosť rastu, ktorá stúpa s teplotou, potom klesá, keď teplota stúpne príliš vysoko](../../../../../translated_images/sk/plant-growth-temp-graph.c6d69c9478e6ca83.webp)
 
 Graf vyššie ukazuje príklad grafu rýchlosti rastu voči teplote. Až do základnej teploty nedochádza k rastu. Rýchlosť rastu sa zvyšuje až do optimálnej teploty, potom klesá po dosiahnutí tohto vrcholu. 
 
@@ -91,7 +91,7 @@ Tento kód otvorí súbor CSV a na jeho koniec pridá nový riadok. Riadok obsah
 
     
 > 💁 Ak používate virtuálne IoT zariadenie, zaškrtnite políčko náhodného výberu a nastavte rozsah, aby ste sa vyhli získaniu rovnakej teploty pri každom vrátení hodnoty teploty.
-    ![Zaškrtnite políčko náhodného výberu a nastavte rozsah](../../../../../translated_images/sk/select-the-random-checkbox-and-set-a-range.32cf4bc7c12e797f.png) 
+    ![Zaškrtnite políčko náhodného výberu a nastavte rozsah](../../../../../translated_images/sk/select-the-random-checkbox-and-set-a-range.32cf4bc7c12e797f.webp) 
 
     > 💁 Ak chcete tento kód spustiť počas celého dňa, musíte sa uistiť, že počítač, na ktorom beží váš serverový kód, neprejde do režimu spánku. Môžete to dosiahnuť zmenou nastavení napájania alebo spustením niečoho ako [tento Python skript na udržanie systému aktívneho](https://github.com/jaqsparow/keep-system-active).
     

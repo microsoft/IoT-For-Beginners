@@ -33,7 +33,7 @@ Conectează senzorul de temperatură.
 
 1. Cu Wio Terminal deconectat de la computer sau altă sursă de alimentare, conectează celălalt capăt al cablului Grove la soclul Grove din partea dreaptă a Wio Terminal, așa cum privești ecranul. Acesta este soclul cel mai îndepărtat de butonul de alimentare.
 
-![Senzorul de temperatură Grove conectat la soclul din dreapta](../../../../../translated_images/ro/wio-temperature-sensor.2934928f38c7f79a.png)
+![Senzorul de temperatură Grove conectat la soclul din dreapta](../../../../../translated_images/ro/wio-temperature-sensor.2934928f38c7f79a.webp)
 
 ## Programarea senzorului de temperatură
 

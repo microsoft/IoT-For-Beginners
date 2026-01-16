@@ -33,7 +33,7 @@ Verbind het relais.
 
 1. Koppel de Wio Terminal los van je computer of andere stroombron en verbind het andere uiteinde van de Grove-kabel met de linker Grove-aansluiting op de Wio Terminal (als je naar het scherm kijkt). Laat de bodemvochtigheidssensor aangesloten op de rechteraansluiting.
 
-![Het Grove relais aangesloten op de linker aansluiting, en de bodemvochtigheidssensor aangesloten op de rechteraansluiting](../../../../../translated_images/nl/wio-relay-and-soil-moisture-sensor.ed722202d42babe0.png)
+![Het Grove relais aangesloten op de linker aansluiting, en de bodemvochtigheidssensor aangesloten op de rechteraansluiting](../../../../../translated_images/nl/wio-relay-and-soil-moisture-sensor.ed722202d42babe0.webp)
 
 1. Steek de bodemvochtigheidssensor in de grond, als dit nog niet is gedaan in de vorige les.
 

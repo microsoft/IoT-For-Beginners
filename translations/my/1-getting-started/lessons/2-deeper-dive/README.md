@@ -41,7 +41,7 @@ IoT အက်ပလီကေးရှင်း၏အစိတ်အပိုင�
 
 ### အရာဝတ္ထု
 
-![Raspberry Pi 4](../../../../../translated_images/my/raspberry-pi-4.fd4590d308c3d456.jpg)
+![Raspberry Pi 4](../../../../../translated_images/my/raspberry-pi-4.fd4590d308c3d456.webp)
 
 IoT ၏ **အရာဝတ္ထု** အပိုင်းသည် ရုပ်ပိုင်းဆိုင်ရာကမ္ဘာနှင့်အပြန်အလှန်ဆက်သွယ်နိုင်သော စက်ကိုဆိုလိုသည်။ ဒီစက်များသည် သေးငယ်ပြီး စျေးနှုန်းသက်သာသောကွန်ပျူတာများဖြစ်ပြီး အမြန်နှုန်းနည်းပြီး အားသုံးမှုနည်းပါသည်။ ဥပမာအားဖြင့် RAM ကီလိုဘိုက်များသာရှိသောရိုးရှင်းသော microcontrollers (PC တွင်ရှိသောဂီဂါဘိုက်များမဟုတ်)၊ PC တွင်ရှိသောဂီဂါဟတ်ဇ်များမဟုတ်ပဲ မီဂါဟတ်ဇ်အနည်းငယ်သာရှိသောအမြန်နှုန်းဖြင့် လည်ပတ်ပြီး ဘက်ထရီများဖြင့် ရက်ပေါင်းများစွာ၊ လများစွာ သို့မဟုတ် နှစ်များစွာအထိ လည်ပတ်နိုင်သောအားသုံးမှုနည်းသောစက်များဖြစ်သည်။
 
@@ -67,7 +67,7 @@ Smart thermostat ၏ဥပမာတွင် thermostat သည် home WiFi က�
 
 ပိုမို smart ဖြစ်သော version တစ်ခုမှာ cloud တွင် AI ကိုအသုံးပြု၍ occupancy sensor ကဲ့သို့သော IoT စက်များနှင့်ဆက်သွယ်သော sensor များမှဒေတာများ၊ weather နှင့် calendar ကဲ့သို့သောဒေတာများကိုအသုံးပြု၍ temperature ကို smart ဖြစ်အောင်သတ်မှတ်ရန်ဆုံးဖြတ်ချက်များကိုလုပ်ဆောင်သည်။ ဥပမာအားဖြင့် calendar မှ vacation သွားနေသည်ကိုဖတ်ပြီး heating ကိုပိတ်နိုင်သည် သို့မဟုတ် သင့်အသုံးပြုသောအခန်းများပေါ်မူတည်၍ room by room အပူချိန်ကိုပိတ်နိုင်သည်။ ဒေတာမှတဆင့်ပိုမိုတိကျစွာလေ့လာနိုင်ရန်အချိန်ကြာလာသည်နှင့်အမျှပိုမိုတိုးတက်လာသည်။
 
-![Temperature sensor များနှင့် dial ကို IoT စက်၏ input အဖြစ်ပြသပြီး IoT စက်သည် cloud နှင့် ၂ မျက်နှာတစ်ပြင်ဆက်သွယ်ခြင်း၊ cloud သည် phone, calendar နှင့် weather service နှင့် ၂ မျက်နှာတစ်ပြင်ဆက်သွယ်ခြင်း၊ heater ကိုထိန်းချုပ်သော output အဖြစ် IoT စက်မှပြသသော diagram](../../../../../translated_images/my/smarter-thermostat.a75855f15d2d9e63.png)
+![Temperature sensor များနှင့် dial ကို IoT စက်၏ input အဖြစ်ပြသပြီး IoT စက်သည် cloud နှင့် ၂ မျက်နှာတစ်ပြင်ဆက်သွယ်ခြင်း၊ cloud သည် phone, calendar နှင့် weather service နှင့် ၂ မျက်နှာတစ်ပြင်ဆက်သွယ်ခြင်း၊ heater ကိုထိန်းချုပ်သော output အဖြစ် IoT စက်မှပြသသော diagram](../../../../../translated_images/my/smarter-thermostat.a75855f15d2d9e63.webp)
 
 ✅ အင်တာနက်နှင့်ဆက်သွယ်သော thermostat ကိုပိုမို smart ဖြစ်အောင်လုပ်ဆောင်ရန်အခြားဒေတာများကူညီနိုင်မည်ကဲ့သို့ဖြစ်မည်ကိုစဉ်းစားပါ။
 
@@ -105,7 +105,7 @@ CPU နဲ့တူတူပဲ၊ microcontroller ရဲ့ memory ဟာ PC �
 
 အောက်မှာပါတဲ့ အကြမ်းဖျင်းပုံစံက 192KB နဲ့ 8GB ရဲ့ အရွယ်အစားကွာခြားမှုကို ပြထားပါတယ်။ အလယ်မှာပါတဲ့ သေးငယ်တဲ့ dot က 192KB ကို ကိုယ်စားပြုပါတယ်။
 
-![192KB နဲ့ 8GB ရဲ့ အရွယ်အစားကွာခြားမှု - 40,000 ဆကြီး](../../../../../translated_images/my/ram-comparison.6beb73541b42ac6f.png)
+![192KB နဲ့ 8GB ရဲ့ အရွယ်အစားကွာခြားမှု - 40,000 ဆကြီး](../../../../../translated_images/my/ram-comparison.6beb73541b42ac6f.webp)
 
 ပရိုဂရမ်ကို သိမ်းဆည်းဖို့နေရာလည်း PC ထက် သေးငယ်ပါတယ်။ ပုံမှန် PC တစ်ခုမှာ 500GB hard drive ရှိပြီး၊ microcontroller တစ်ခုမှာတော့ kilobytes သို့မဟုတ် megabytes (MB) အနည်းငယ်သာရှိနိုင်ပါတယ်။ (1MB = 1,000KB = 1,000,000 bytes) Wio terminal မှာ 4MB program storage ရှိပါတယ်။
 
@@ -181,17 +181,17 @@ Wio Terminal ကို စူးစမ်းလေ့လာပါ။
 
 ### Raspberry Pi
 
-![Raspberry Pi logo](../../../../../translated_images/my/raspberry-pi-logo.4efaa16605cee054.png)
+![Raspberry Pi logo](../../../../../translated_images/my/raspberry-pi-logo.4efaa16605cee054.webp)
 
 [Raspberry Pi Foundation](https://www.raspberrypi.org) ဟာ UK မှ charity တစ်ခုဖြစ်ပြီး၊ 2009 ခုနှစ်မှာ ကျောင်းတွေရဲ့ computer science ပညာသင်ကြားမှုကို မြှင့်တင်ဖို့ ရည်ရွယ်ပြီး စတင်တည်ထောင်ခဲ့ပါတယ်။ ဒီရည်ရွယ်ချက်အတွက် Raspberry Pi ဆိုတဲ့ single-board computer ကို ဖန်တီးခဲ့ပါတယ်။ Raspberry Pi တွေဟာ full size version, Pi Zero, compute module ဆိုပြီး 3 မျိုးရှိပါတယ်။
 
-![Raspberry Pi 4](../../../../../translated_images/my/raspberry-pi-4.fd4590d308c3d456.jpg)
+![Raspberry Pi 4](../../../../../translated_images/my/raspberry-pi-4.fd4590d308c3d456.webp)
 
 Raspberry Pi ရဲ့ နောက်ဆုံးပေါ် full size version က Raspberry Pi 4B ဖြစ်ပါတယ်။ Quad-core (4 core) CPU 1.5GHz, 2, 4, 8GB RAM, gigabit ethernet, WiFi, 2 HDMI ports (4k screen support), audio/composite video output port, USB ports (2 USB 2.0, 2 USB 3.0), 40 GPIO pins, camera connector, SD card slot ပါဝင်ပြီး၊ အရွယ်အစား 88mm x 58mm x 19.5mm ဖြစ်ပါတယ်။ USB-C power supply 3A အသုံးပြုပြီး၊ US$35 ကနေ စတင်ရောင်းချပါတယ်။
 
 > 💁 Pi400 ဟာ keyboard ထဲမှာ Pi4 ကို ထည့်ထားတဲ့ all-in-one computer ဖြစ်ပါတယ်။
 
-![Raspberry Pi Zero](../../../../../translated_images/my/raspberry-pi-zero.f7a4133e1e7d54bb.jpg)
+![Raspberry Pi Zero](../../../../../translated_images/my/raspberry-pi-zero.f7a4133e1e7d54bb.webp)
 
 Pi Zero ဟာ ပိုသေးငယ်ပြီး၊ power နည်းပါတယ်။ Single-core 1GHz CPU, 512MB RAM, WiFi (Zero W model), single HDMI port, micro-USB port, 40 GPIO pins, camera connector, SD card slot ပါဝင်ပြီး၊ အရွယ်အစား 65mm x 30mm x 5mm ဖြစ်ပါတယ်။ Zero ဟာ US$5 ဖြစ်ပြီး၊ WiFi ပါတဲ့ Zero W version ဟာ US$10 ဖြစ်ပါတယ်။
 

@@ -15,11 +15,11 @@ Dalam bahagian pelajaran ini, anda akan menambah pembesar suara pada Wio Termina
 
 Wio Terminal sudah mempunyai mikrofon terbina dalam, dan ini boleh digunakan untuk menangkap audio bagi pengecaman suara.
 
-![Mikrofon pada Wio Terminal](../../../../../translated_images/ms/wio-mic.3f8c843dbe8ad917.png)
+![Mikrofon pada Wio Terminal](../../../../../translated_images/ms/wio-mic.3f8c843dbe8ad917.webp)
 
 Untuk menambah pembesar suara, anda boleh menggunakan [ReSpeaker 2-Mics Pi Hat](https://www.seeedstudio.com/ReSpeaker-2-Mics-Pi-HAT.html). Ini adalah papan luaran yang mengandungi 2 mikrofon MEMS, serta penyambung pembesar suara dan soket fon kepala.
 
-![ReSpeaker 2-Mics Pi Hat](../../../../../translated_images/ms/respeaker.f5d19d1c6b14ab16.png)
+![ReSpeaker 2-Mics Pi Hat](../../../../../translated_images/ms/respeaker.f5d19d1c6b14ab16.webp)
 
 Anda perlu menambah sama ada fon kepala, pembesar suara dengan jack 3.5mm, atau pembesar suara dengan sambungan JST seperti [Mono Enclosed Speaker - 2W 6 Ohm](https://www.seeedstudio.com/Mono-Enclosed-Speaker-2W-6-Ohm-p-2832.html).
 
@@ -35,7 +35,7 @@ Anda juga memerlukan kad SD untuk memuat turun dan memainkan audio. Wio Terminal
 
     Pin perlu disambungkan dengan cara ini:
 
-    ![Diagram pin](../../../../../translated_images/ms/wio-respeaker-wiring-0.767f80aa65081038.png)
+    ![Diagram pin](../../../../../translated_images/ms/wio-respeaker-wiring-0.767f80aa65081038.webp)
 
 1. Letakkan ReSpeaker dan Wio Terminal dengan soket GPIO menghadap ke atas, dan di sebelah kiri.
 
@@ -43,33 +43,33 @@ Anda juga memerlukan kad SD untuk memuat turun dan memainkan audio. Wio Terminal
 
 1. Ulangi proses ini sepanjang soket GPIO di sebelah kiri. Pastikan pin dimasukkan dengan kukuh.
 
-    ![ReSpeaker dengan pin sebelah kiri disambungkan ke pin sebelah kiri Wio Terminal](../../../../../translated_images/ms/wio-respeaker-wiring-1.8d894727f2ba2400.png)
+    ![ReSpeaker dengan pin sebelah kiri disambungkan ke pin sebelah kiri Wio Terminal](../../../../../translated_images/ms/wio-respeaker-wiring-1.8d894727f2ba2400.webp)
 
-    ![ReSpeaker dengan pin sebelah kiri disambungkan ke pin sebelah kiri Wio Terminal](../../../../../translated_images/ms/wio-respeaker-wiring-2.329e1cbd306e754f.png)
+    ![ReSpeaker dengan pin sebelah kiri disambungkan ke pin sebelah kiri Wio Terminal](../../../../../translated_images/ms/wio-respeaker-wiring-2.329e1cbd306e754f.webp)
 
     > 💁 Jika kabel jumper anda disambungkan dalam bentuk pita, pastikan semuanya bersama - ini memudahkan anda memastikan semua kabel disambungkan mengikut urutan.
 
 1. Ulangi proses menggunakan soket GPIO sebelah kanan pada ReSpeaker dan Wio Terminal. Kabel ini perlu melalui kabel yang sudah disambungkan.
 
-    ![ReSpeaker dengan pin sebelah kanan disambungkan ke pin sebelah kanan Wio Terminal](../../../../../translated_images/ms/wio-respeaker-wiring-3.75b0be447e2fa930.png)
+    ![ReSpeaker dengan pin sebelah kanan disambungkan ke pin sebelah kanan Wio Terminal](../../../../../translated_images/ms/wio-respeaker-wiring-3.75b0be447e2fa930.webp)
 
-    ![ReSpeaker dengan pin sebelah kanan disambungkan ke pin sebelah kanan Wio Terminal](../../../../../translated_images/ms/wio-respeaker-wiring-4.aa9cd434d8779437.png)
+    ![ReSpeaker dengan pin sebelah kanan disambungkan ke pin sebelah kanan Wio Terminal](../../../../../translated_images/ms/wio-respeaker-wiring-4.aa9cd434d8779437.webp)
 
     > 💁 Jika kabel jumper anda disambungkan dalam bentuk pita, pisahkan menjadi dua pita. Letakkan satu di setiap sisi kabel yang sudah ada.
 
     > 💁 Anda boleh menggunakan pita pelekat untuk memegang pin dalam satu blok untuk membantu mengelakkan pin terkeluar semasa anda menyambungkannya.
     >
-    > ![Pin dipasang dengan pita pelekat](../../../../../translated_images/ms/wio-respeaker-wiring-5.af117c20acf622f3.png)
+    > ![Pin dipasang dengan pita pelekat](../../../../../translated_images/ms/wio-respeaker-wiring-5.af117c20acf622f3.webp)
 
 1. Anda perlu menambah pembesar suara.
 
     * Jika anda menggunakan pembesar suara dengan kabel JST, sambungkan ke port JST pada ReSpeaker.
 
-      ![Pembesar suara disambungkan ke ReSpeaker dengan kabel JST](../../../../../translated_images/ms/respeaker-jst-speaker.a441d177809df945.png)
+      ![Pembesar suara disambungkan ke ReSpeaker dengan kabel JST](../../../../../translated_images/ms/respeaker-jst-speaker.a441d177809df945.webp)
 
     * Jika anda menggunakan pembesar suara dengan jack 3.5mm, atau fon kepala, masukkan ke dalam soket jack 3.5mm.
 
-      ![Pembesar suara disambungkan ke ReSpeaker melalui soket jack 3.5mm](../../../../../translated_images/ms/respeaker-35mm-speaker.ad79ef4f128c7751.png)
+      ![Pembesar suara disambungkan ke ReSpeaker melalui soket jack 3.5mm](../../../../../translated_images/ms/respeaker-35mm-speaker.ad79ef4f128c7751.webp)
 
 ### Tugas - sediakan kad SD
 
@@ -79,7 +79,7 @@ Anda juga memerlukan kad SD untuk memuat turun dan memainkan audio. Wio Terminal
 
 1. Masukkan Kad SD ke dalam slot Kad SD di sebelah kiri Wio Terminal, tepat di bawah butang kuasa. Pastikan kad dimasukkan sepenuhnya dan klik masuk - anda mungkin memerlukan alat nipis atau Kad SD lain untuk membantu menolaknya sepenuhnya.
 
-    ![Memasukkan Kad SD ke dalam slot Kad SD di bawah suis kuasa](../../../../../translated_images/ms/wio-sd-card.acdcbe322fa4ee7f.png)
+    ![Memasukkan Kad SD ke dalam slot Kad SD di bawah suis kuasa](../../../../../translated_images/ms/wio-sd-card.acdcbe322fa4ee7f.webp)
 
     > 💁 Untuk mengeluarkan Kad SD, anda perlu menolaknya sedikit dan ia akan keluar. Anda memerlukan alat nipis seperti pemutar skru kepala rata atau Kad SD lain untuk melakukannya.
 

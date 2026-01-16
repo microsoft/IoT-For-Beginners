@@ -51,7 +51,7 @@ Sluit de LED aan.
 
     > 💁 De rechter Grove-socket kan worden gebruikt met analoge of digitale sensoren en actuatoren. De linker socket is alleen voor I2C en digitale sensoren en actuatoren.
 
-![De Grove LED aangesloten op de rechter socket](../../../../../translated_images/nl/wio-led.265a1897e72d7f21.png)
+![De Grove LED aangesloten op de rechter socket](../../../../../translated_images/nl/wio-led.265a1897e72d7f21.webp)
 
 ## Programmeer het nachtlampje
 

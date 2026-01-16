@@ -29,7 +29,7 @@ Povežite kamero.
 
 1. Pini na spodnji strani ArduCam-a morajo biti povezani z GPIO pini na Wio Terminalu. Da boste lažje našli prave pine, pritrdite nalepko z GPIO pini, ki je priložena Wio Terminalu, okoli pinov:
 
-    ![Wio Terminal z nalepko GPIO pinov](../../../../../translated_images/sl/wio-terminal-pin-sticker.b90b1535937b84bd.png)
+    ![Wio Terminal z nalepko GPIO pinov](../../../../../translated_images/sl/wio-terminal-pin-sticker.b90b1535937b84bd.webp)
 
 1. Z uporabo povezovalnih žic naredite naslednje povezave:
 
@@ -297,7 +297,7 @@ Wio Terminal je zdaj mogoče programirati za zajem slike, ko pritisnete gumb.
 
 1. Mikrokrmilniki izvajajo vašo kodo neprekinjeno, zato ni enostavno sprožiti nekaj, kot je zajem fotografije, brez odziva na senzor. Wio Terminal ima gumbe, zato lahko kamero nastavite tako, da jo sproži eden od gumbov. Dodajte naslednjo kodo na konec funkcije `setup`, da konfigurirate gumb C (eden od treh gumbov na vrhu, najbližji stikalu za vklop).
 
-    ![Gumb C na vrhu, najbližji stikalu za vklop](../../../../../translated_images/sl/wio-terminal-c-button.73df3cb1c1445ea0.png)
+    ![Gumb C na vrhu, najbližji stikalu za vklop](../../../../../translated_images/sl/wio-terminal-c-button.73df3cb1c1445ea0.webp)
 
     ```cpp
     pinMode(WIO_KEY_C, INPUT_PULLUP);

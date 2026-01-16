@@ -37,7 +37,7 @@ Liga o sensor de humidade do solo.
 
 1. Insere o sensor de humidade do solo na terra. O sensor tem uma 'linha de posição máxima' - uma linha branca ao longo do sensor. Insere o sensor até essa linha, mas não ultrapasses.
 
-![O sensor Grove de humidade do solo na terra](../../../../../translated_images/pt/soil-moisture-sensor-in-soil.bfad91002bda5e96.png)
+![O sensor Grove de humidade do solo na terra](../../../../../translated_images/pt/soil-moisture-sensor-in-soil.bfad91002bda5e96.webp)
 
 ## Programar o sensor de humidade do solo
 

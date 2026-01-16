@@ -65,7 +65,7 @@ Każdy gatunek rośliny ma różne wartości dla temperatury bazowej, optymalnej
 
 ✅ Zrób badania. Dla dowolnych roślin w Twoim ogrodzie, szkole lub lokalnym parku sprawdź, czy możesz znaleźć ich temperaturę bazową.
 
-![Wykres pokazujący wzrost tempa wzrostu wraz ze wzrostem temperatury, a następnie spadek, gdy temperatura jest zbyt wysoka](../../../../../translated_images/pl/plant-growth-temp-graph.c6d69c9478e6ca83.png)
+![Wykres pokazujący wzrost tempa wzrostu wraz ze wzrostem temperatury, a następnie spadek, gdy temperatura jest zbyt wysoka](../../../../../translated_images/pl/plant-growth-temp-graph.c6d69c9478e6ca83.webp)
 
 Powyższy wykres pokazuje przykładowy wykres tempa wzrostu w zależności od temperatury. Do temperatury bazowej nie ma wzrostu. Tempo wzrostu wzrasta do temperatury optymalnej, a następnie spada po osiągnięciu szczytu. 
 
@@ -141,7 +141,7 @@ To ma ogromny wpływ na pracę na dużej farmie i ryzyko, że rolnik przegapi pl
 
 Zbierając dane o temperaturze za pomocą urządzenia IoT, rolnik może automatycznie otrzymywać powiadomienia, gdy rośliny są bliskie dojrzałości. Typowa architektura dla tego procesu polega na tym, że urządzenia IoT mierzą temperaturę, a następnie przesyłają te dane telemetryczne przez Internet, używając czegoś takiego jak MQTT. Kod serwera nasłuchuje tych danych i zapisuje je gdzieś, na przykład w bazie danych. Dzięki temu dane mogą być później analizowane, na przykład w ramach nocnego zadania obliczającego GDD dla danego dnia, sumującego GDD dla każdej uprawy i wysyłającego alert, jeśli roślina jest bliska dojrzałości.
 
-![Dane telemetryczne są przesyłane na serwer, a następnie zapisywane w bazie danych](../../../../../translated_images/pl/save-telemetry-database.ddc9c6bea0c5ba39.png)
+![Dane telemetryczne są przesyłane na serwer, a następnie zapisywane w bazie danych](../../../../../translated_images/pl/save-telemetry-database.ddc9c6bea0c5ba39.webp)
 
 Kod serwera może również wzbogacać dane, dodając dodatkowe informacje. Na przykład urządzenie IoT może przesyłać identyfikator wskazujący, które urządzenie to jest, a kod serwera może używać tego identyfikatora do wyszukiwania lokalizacji urządzenia i upraw, które monitoruje. Może również dodawać podstawowe dane, takie jak aktualny czas, ponieważ niektóre urządzenia IoT nie mają niezbędnego sprzętu do śledzenia dokładnego czasu lub wymagają dodatkowego kodu do odczytu aktualnego czasu przez Internet.
 
@@ -228,7 +228,7 @@ Ten kod otwiera plik CSV, a następnie dodaje nowy wiersz na końcu. Wiersz zawi
 
     
 > 💁 Jeśli korzystasz z wirtualnego urządzenia IoT, zaznacz pole wyboru "random" i ustaw zakres, aby uniknąć otrzymywania tej samej temperatury za każdym razem, gdy wartość temperatury jest zwracana.
-    ![Zaznacz pole wyboru "random" i ustaw zakres](../../../../../translated_images/pl/select-the-random-checkbox-and-set-a-range.32cf4bc7c12e797f.png) 
+    ![Zaznacz pole wyboru "random" i ustaw zakres](../../../../../translated_images/pl/select-the-random-checkbox-and-set-a-range.32cf4bc7c12e797f.webp) 
 
     > 💁 Jeśli chcesz uruchomić to przez cały dzień, musisz upewnić się, że komputer, na którym działa Twój kod serwera, nie przejdzie w tryb uśpienia. Możesz to zrobić, zmieniając ustawienia zasilania lub uruchamiając coś takiego jak [ten skrypt Python, który utrzymuje system aktywny](https://github.com/jaqsparow/keep-system-active).
     

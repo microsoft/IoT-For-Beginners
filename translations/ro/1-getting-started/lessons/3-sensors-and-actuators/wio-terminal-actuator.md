@@ -53,7 +53,7 @@ Conectează LED-ul.
 
 C va fi acoperit într-o lecție ulterioară.
 
-![LED-ul Grove conectat la soclul din partea dreaptă](../../../../../translated_images/ro/wio-led.265a1897e72d7f21.png)
+![LED-ul Grove conectat la soclul din partea dreaptă](../../../../../translated_images/ro/wio-led.265a1897e72d7f21.webp)
 
 ## Programează lampa de veghe
 

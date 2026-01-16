@@ -31,7 +31,7 @@ Pripojte teplotný senzor.
 
 1. Pri vypnutom Raspberry Pi pripojte druhý koniec Grove kábla do digitálneho konektora označeného **D5** na Grove Base hat pripojenom k Pi. Tento konektor je druhý zľava v rade konektorov vedľa GPIO pinov.
 
-![Grove teplotný senzor pripojený k zásuvke A0](../../../../../translated_images/sk/pi-temperature-sensor.3ff82fff672c8e56.png)
+![Grove teplotný senzor pripojený k zásuvke A0](../../../../../translated_images/sk/pi-temperature-sensor.3ff82fff672c8e56.webp)
 
 ## Naprogramovanie teplotného senzora
 

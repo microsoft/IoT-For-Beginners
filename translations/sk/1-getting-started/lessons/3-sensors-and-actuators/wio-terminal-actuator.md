@@ -51,7 +51,7 @@ Pripojte LED.
 
     > 💁 Pravý Grove konektor môže byť použitý s analógovými alebo digitálnymi senzormi a aktuátormi. Ľavý konektor je určený len pre I2C a digitálne senzory a aktuátory. I2C bude pokryté v neskoršej lekcii.
 
-![Grove LED pripojená k pravému konektoru](../../../../../translated_images/sk/wio-led.265a1897e72d7f21.png)
+![Grove LED pripojená k pravému konektoru](../../../../../translated_images/sk/wio-led.265a1897e72d7f21.webp)
 
 ## Naprogramujte nočné svetlo
 

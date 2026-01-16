@@ -81,7 +81,7 @@ Ako užitočný krok pri ladení môžete nielen vypísať ohraničujúce rámč
 
 1. Spustite aplikáciu s kamerou namierenou na nejaké zásoby na polici. V prieskumníkovi VS Code uvidíte súbor `image.jpg` a budete ho môcť vybrať, aby ste videli ohraničujúce rámčeky.
 
-    ![4 konzervy paradajkového pretlaku s ohraničujúcimi rámčekmi okolo každej konzervy](../../../../../translated_images/sk/rpi-stock-with-bounding-boxes.b5540e2ecb7cd49f.jpg)
+    ![4 konzervy paradajkového pretlaku s ohraničujúcimi rámčekmi okolo každej konzervy](../../../../../translated_images/sk/rpi-stock-with-bounding-boxes.b5540e2ecb7cd49f.webp)
 
 ## Počítanie zásob
 

@@ -17,7 +17,7 @@ De sensor voor deze les is een **lichtsensor** die een [fotodiode](https://wikip
 
 De lichtsensor is ingebouwd in de Wio Terminal en is zichtbaar door het doorzichtige plastic venster aan de achterkant.
 
-![De lichtsensor aan de achterkant van de Wio Terminal](../../../../../translated_images/nl/wio-light-sensor.b1f529f3c95f5165.png)
+![De lichtsensor aan de achterkant van de Wio Terminal](../../../../../translated_images/nl/wio-light-sensor.b1f529f3c95f5165.webp)
 
 ## Programmeer de lichtsensor
 

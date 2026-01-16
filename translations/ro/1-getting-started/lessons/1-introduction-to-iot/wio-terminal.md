@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 [Wio Terminal de la Seeed Studios](https://www.seeedstudio.com/Wio-Terminal-p-4509.html) este un microcontroller compatibil cu Arduino, care include WiFi, câțiva senzori și actuatori, precum și porturi pentru a adăuga mai mulți senzori și actuatori, utilizând un ecosistem hardware numit [Grove](https://www.seeedstudio.com/category/Grove-c-1003.html).
 
-![Un Wio Terminal de la Seeed Studios](../../../../../translated_images/ro/wio-terminal.b8299ee16587db9a.png)
+![Un Wio Terminal de la Seeed Studios](../../../../../translated_images/ro/wio-terminal.b8299ee16587db9a.webp)
 
 ## Configurare
 
@@ -51,15 +51,15 @@ Creați proiectul PlatformIO.
 
 1. Iconița PlatformIO va fi pe bara de meniu laterală:
 
-    ![Opțiunea de meniu PlatformIO](../../../../../translated_images/ro/vscode-platformio-menu.297be26b9733e5c4.png)
+    ![Opțiunea de meniu PlatformIO](../../../../../translated_images/ro/vscode-platformio-menu.297be26b9733e5c4.webp)
 
     Selectați această opțiune de meniu, apoi selectați *PIO Home -> Open*.
 
-    ![Opțiunea de deschidere PlatformIO](../../../../../translated_images/ro/vscode-platformio-home-open.3f9a41bfd3f4da1c.png)
+    ![Opțiunea de deschidere PlatformIO](../../../../../translated_images/ro/vscode-platformio-home-open.3f9a41bfd3f4da1c.webp)
 
 1. Din ecranul de bun venit, selectați butonul **+ New Project**.
 
-    ![Butonul pentru proiect nou](../../../../../translated_images/ro/vscode-platformio-welcome-new-button.ba6fc8a4c7b78cc8.png)
+    ![Butonul pentru proiect nou](../../../../../translated_images/ro/vscode-platformio-welcome-new-button.ba6fc8a4c7b78cc8.webp)
 
 1. Configurați proiectul în *Project Wizard*:
 
@@ -73,7 +73,7 @@ Creați proiectul PlatformIO.
 
     1. Selectați butonul **Finish**.
 
-    ![Asistentul de configurare completat](../../../../../translated_images/ro/vscode-platformio-nightlight-project-wizard.5c64db4da6037420.png)
+    ![Asistentul de configurare completat](../../../../../translated_images/ro/vscode-platformio-nightlight-project-wizard.5c64db4da6037420.webp)
 
     PlatformIO va descărca componentele necesare pentru a compila codul pentru Wio Terminal și va crea proiectul dvs. Acest proces poate dura câteva minute.
 
@@ -179,7 +179,7 @@ Scrieți aplicația Hello World.
 
     1. Tastați `PlatformIO Upload` pentru a căuta opțiunea de încărcare și selectați *PlatformIO: Upload*.
 
-        ![Opțiunea de încărcare PlatformIO în paleta de comenzi](../../../../../translated_images/ro/vscode-platformio-upload-command-palette.9e0f49cf80d1f1c3.png)
+        ![Opțiunea de încărcare PlatformIO în paleta de comenzi](../../../../../translated_images/ro/vscode-platformio-upload-command-palette.9e0f49cf80d1f1c3.webp)
 
         PlatformIO va compila automat codul dacă este necesar înainte de a-l încărca.
 
@@ -195,7 +195,7 @@ PlatformIO are un Serial Monitor care poate monitoriza datele trimise prin cablu
 
 1. Tastați `PlatformIO Serial` pentru a căuta opțiunea Serial Monitor și selectați *PlatformIO: Serial Monitor*.
 
-    ![Opțiunea PlatformIO Serial Monitor în paleta de comenzi](../../../../../translated_images/ro/vscode-platformio-serial-monitor-command-palette.b348ec841b8a1c14.png)
+    ![Opțiunea PlatformIO Serial Monitor în paleta de comenzi](../../../../../translated_images/ro/vscode-platformio-serial-monitor-command-palette.b348ec841b8a1c14.webp)
 
     Se va deschide un nou terminal, iar datele trimise prin portul serial vor fi transmise în acest terminal:
 

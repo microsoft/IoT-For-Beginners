@@ -115,7 +115,7 @@ prototype အတွက် သင်သည် ဤအရာအားလုံး�
 
 IoT device သည် သီးကို classify လုပ်ရန် အချက်ပြ trigger တစ်ခုလိုအပ်သည်။ ဤ trigger တစ်ခုမှာ conveyor belt ပေါ်တွင် သီးသည် သင့်တော်သောနေရာတွင် ရောက်ရှိသည်ကို detect လုပ်ရန် sensor မှ အကွာအဝေးကို တိုင်းတာခြင်းဖြစ်နိုင်သည်။
 
-![Proximity sensor များသည် laser beam များကို သီးများကဲ့သို့သော objects များသို့ ပို့ပြီး၊ beam ပြန်လည်ပေါ်လာရန် ကြာချိန်ကို တိုင်းတာသည်](../../../../../translated_images/my/proximity-sensor.f5cd752c77fb62fe.png)
+![Proximity sensor များသည် laser beam များကို သီးများကဲ့သို့သော objects များသို့ ပို့ပြီး၊ beam ပြန်လည်ပေါ်လာရန် ကြာချိန်ကို တိုင်းတာသည်](../../../../../translated_images/my/proximity-sensor.f5cd752c77fb62fe.webp)
 
 Proximity sensor များကို sensor နှင့် object အကြား အကွာအဝေးကို တိုင်းတာရန် အသုံးပြုနိုင်သည်။ ၎င်းများသည် laser beam သို့မဟုတ် infra-red light ကဲ့သို့သော electromagnetic radiation ကို ပို့ပြီး၊ object မှ radiation ပြန်လည်ပေါ်လာသည်ကို detect လုပ်သည်။ laser beam ပို့ခြင်းနှင့် signal ပြန်လည်ပေါ်လာခြင်းအကြား ကြာချိန်ကို sensor နှင့် object အကြား အကွာအဝေးကို တွက်ချက်ရန် အသုံးပြုနိုင်သည်။
 

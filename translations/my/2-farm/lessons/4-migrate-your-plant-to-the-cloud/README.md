@@ -70,7 +70,7 @@ Cloud ကို အသုံးပြုခြင်းက ကုန်ကျစ
 
 Azure ဟာ Microsoft ရဲ့ developer cloud ဖြစ်ပြီး၊ ဒီသင်ခန်းစာတွေမှာ မင်းအသုံးပြုမည့် cloud ဖြစ်ပါတယ်။ အောက်ပါဗီဒီယိုက Azure အကြောင်း အကျဉ်းချုပ်ကို ဖော်ပြထားပါတယ် -
 
-[![Azure အကြောင်းဗီဒီယို](../../../../../translated_images/my/what-is-azure-video-thumbnail.20174db09e03bbb8.png)](https://www.microsoft.com/videoplayer/embed/RE4Ibng?WT.mc_id=academic-17441-jabenn)
+[![Azure အကြောင်းဗီဒီယို](../../../../../translated_images/my/what-is-azure-video-thumbnail.20174db09e03bbb8.webp)](https://www.microsoft.com/videoplayer/embed/RE4Ibng?WT.mc_id=academic-17441-jabenn)
 
 ## Cloud subscription တစ်ခု ဖန်တီးပါ
 

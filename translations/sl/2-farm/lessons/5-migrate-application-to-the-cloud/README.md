@@ -41,7 +41,7 @@ Strežniško, ali strežniško računalništvo, vključuje ustvarjanje majhnih b
 
 > 💁 Če ste že uporabljali sprožilce v bazi podatkov, si to lahko predstavljate kot nekaj podobnega - koda, ki se sproži ob dogodku, kot je vstavljanje vrstice.
 
-![Ko se hkrati pošlje veliko dogodkov, se strežniška storitev razširi, da jih vse obdeluje hkrati](../../../../../translated_images/sl/serverless-scaling.f8c769adf0413fd1.png)
+![Ko se hkrati pošlje veliko dogodkov, se strežniška storitev razširi, da jih vse obdeluje hkrati](../../../../../translated_images/sl/serverless-scaling.f8c769adf0413fd1.webp)
 
 Vaša koda se zažene le, ko se dogodek zgodi, sicer ni aktivna. Dogodek se zgodi, vaša koda se naloži in zažene. To naredi strežniško zelo prilagodljivo - če se hkrati zgodi veliko dogodkov, lahko ponudnik oblaka zažene vašo funkcijo tolikokrat, kot je potrebno, hkrati na vseh razpoložljivih strežnikih. Slabost tega je, da če morate deliti informacije med dogodki, jih morate shraniti nekje, na primer v bazi podatkov, namesto da jih hranite v pomnilniku.
 
@@ -244,7 +244,7 @@ CLI za Azure Functions se lahko uporablja za ustvarjanje nove aplikacije funkcij
     VS Code. Initialize for optimal use with VS Code?
     ```
 
-    ![Obvestilo](../../../../../translated_images/sl/vscode-azure-functions-init-notification.bd19b49229963edb.png)
+    ![Obvestilo](../../../../../translated_images/sl/vscode-azure-functions-init-notification.bd19b49229963edb.webp)
 
     Izberite **Yes** v tem obvestilu.
 

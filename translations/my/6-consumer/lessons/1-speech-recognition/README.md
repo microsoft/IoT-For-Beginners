@@ -62,7 +62,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 * **Ribbon** - Ribbon မိုက်ခရိုဖုန်းတွေက Dynamic မိုက်ခရိုဖုန်းတွေနဲ့ ဆင်တူပြီး၊ diaphragm အစား သတ္တုရစ်ဘွန်ကို အသုံးပြုပါတယ်။
 
-    ![Edmund Lowe, 1942 ခုနှစ်တွင် Ribbon မိုက်ခရိုဖုန်းကို အသုံးပြုနေသော ပုံ](../../../../../translated_images/my/ribbon-mic.eacc8e092c7441ca.jpg)
+    ![Edmund Lowe, 1942 ခုနှစ်တွင် Ribbon မိုက်ခရိုဖုန်းကို အသုံးပြုနေသော ပုံ](../../../../../translated_images/my/ribbon-mic.eacc8e092c7441ca.webp)
 
 * **Condenser** - Condenser မိုက်ခရိုဖုန်းတွေမှာ သေးငယ်တဲ့ သတ္တု diaphragm နဲ့ သံလိုက်ပြားတစ်ခုပါဝင်ပါတယ်။ ဒီ diaphragm လှုပ်ရှားမှုကြောင့် လျှပ်စစ်သံစဉ်ကို ဖန်တီးပါတယ်။ Condenser မိုက်ခရိုဖုန်းတွေကို လျှပ်စစ်ဓာတ်အားလိုအပ်ပါတယ်။
 
@@ -82,7 +82,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 > 🎓 Sampling ဆိုတာက အသံသံစဉ်ကို တစ်ချိန်ချိန်မှာရှိတဲ့ ဒစ်ဂျစ်တယ်တန်ဖိုးအဖြစ် ပြောင်းလဲခြင်းဖြစ်ပါတယ်။
 
-![သံစဉ်ကို sampling ပြုလုပ်ထားသော ပုံ](../../../../../translated_images/my/sampling.6f4fadb3f2d9dfe7.png)
+![သံစဉ်ကို sampling ပြုလုပ်ထားသော ပုံ](../../../../../translated_images/my/sampling.6f4fadb3f2d9dfe7.webp)
 
 Digital audio ကို Pulse Code Modulation (PCM) နည်းလမ်းဖြင့် စမ်းသပ်ဖတ်ရှုပါတယ်။ PCM က သံစဉ်ရဲ့ ဗို့အားကို ဖတ်ပြီး၊ သတ်မှတ်ထားတဲ့ discrete တန်ဖိုးနဲ့ အနီးဆုံးတန်ဖိုးကို ရွေးချယ်ပါတယ်။
 

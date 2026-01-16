@@ -15,11 +15,11 @@ CO_OP_TRANSLATOR_METADATA:
 
 Wio Terminal are deja un microfon integrat, care poate fi folosit pentru captarea audio necesară recunoașterii vocale.
 
-![Microfonul de pe Wio Terminal](../../../../../translated_images/ro/wio-mic.3f8c843dbe8ad917.png)
+![Microfonul de pe Wio Terminal](../../../../../translated_images/ro/wio-mic.3f8c843dbe8ad917.webp)
 
 Pentru a adăuga un difuzor, poți folosi [ReSpeaker 2-Mics Pi Hat](https://www.seeedstudio.com/ReSpeaker-2-Mics-Pi-HAT.html). Acesta este o placă externă care conține 2 microfoane MEMS, un conector pentru difuzor și o priză pentru căști.
 
-![ReSpeaker 2-Mics Pi Hat](../../../../../translated_images/ro/respeaker.f5d19d1c6b14ab16.png)
+![ReSpeaker 2-Mics Pi Hat](../../../../../translated_images/ro/respeaker.f5d19d1c6b14ab16.webp)
 
 Va trebui să adaugi fie căști, un difuzor cu jack de 3.5mm, fie un difuzor cu conexiune JST, cum ar fi [Mono Enclosed Speaker - 2W 6 Ohm](https://www.seeedstudio.com/Mono-Enclosed-Speaker-2W-6-Ohm-p-2832.html).
 
@@ -35,7 +35,7 @@ De asemenea, vei avea nevoie de un card SD pentru descărcarea și redarea audio
 
     Pinii trebuie conectați astfel:
 
-    ![Diagrama pinilor](../../../../../translated_images/ro/wio-respeaker-wiring-0.767f80aa65081038.png)
+    ![Diagrama pinilor](../../../../../translated_images/ro/wio-respeaker-wiring-0.767f80aa65081038.webp)
 
 1. Poziționează ReSpeaker și Wio Terminal cu prizele GPIO orientate în sus și pe partea stângă.
 
@@ -43,33 +43,33 @@ De asemenea, vei avea nevoie de un card SD pentru descărcarea și redarea audio
 
 1. Repetă acest proces pe toată lungimea prizelor GPIO de pe partea stângă. Asigură-te că pinii sunt bine fixați.
 
-    ![ReSpeaker cu pinii din partea stângă conectați la pinii din partea stângă a Wio Terminal](../../../../../translated_images/ro/wio-respeaker-wiring-1.8d894727f2ba2400.png)
+    ![ReSpeaker cu pinii din partea stângă conectați la pinii din partea stângă a Wio Terminal](../../../../../translated_images/ro/wio-respeaker-wiring-1.8d894727f2ba2400.webp)
 
-    ![ReSpeaker cu pinii din partea stângă conectați la pinii din partea stângă a Wio Terminal](../../../../../translated_images/ro/wio-respeaker-wiring-2.329e1cbd306e754f.png)
+    ![ReSpeaker cu pinii din partea stângă conectați la pinii din partea stângă a Wio Terminal](../../../../../translated_images/ro/wio-respeaker-wiring-2.329e1cbd306e754f.webp)
 
     > 💁 Dacă cablurile jumper sunt conectate în panglici, păstrează-le împreună - acest lucru face mai ușor să te asiguri că ai conectat toate cablurile în ordine.
 
 1. Repetă procesul folosind prizele GPIO din partea dreaptă a ReSpeaker și Wio Terminal. Aceste cabluri trebuie să treacă pe lângă cablurile deja conectate.
 
-    ![ReSpeaker cu pinii din partea dreaptă conectați la pinii din partea dreaptă a Wio Terminal](../../../../../translated_images/ro/wio-respeaker-wiring-3.75b0be447e2fa930.png)
+    ![ReSpeaker cu pinii din partea dreaptă conectați la pinii din partea dreaptă a Wio Terminal](../../../../../translated_images/ro/wio-respeaker-wiring-3.75b0be447e2fa930.webp)
 
-    ![ReSpeaker cu pinii din partea dreaptă conectați la pinii din partea dreaptă a Wio Terminal](../../../../../translated_images/ro/wio-respeaker-wiring-4.aa9cd434d8779437.png)
+    ![ReSpeaker cu pinii din partea dreaptă conectați la pinii din partea dreaptă a Wio Terminal](../../../../../translated_images/ro/wio-respeaker-wiring-4.aa9cd434d8779437.webp)
 
     > 💁 Dacă cablurile jumper sunt conectate în panglici, împarte-le în două panglici. Trece câte una pe fiecare parte a cablurilor existente.
 
     > 💁 Poți folosi bandă adezivă pentru a fixa pinii într-un bloc, astfel încât să previi ieșirea lor în timp ce îi conectezi.
     >
-    > ![Pinii fixați cu bandă adezivă](../../../../../translated_images/ro/wio-respeaker-wiring-5.af117c20acf622f3.png)
+    > ![Pinii fixați cu bandă adezivă](../../../../../translated_images/ro/wio-respeaker-wiring-5.af117c20acf622f3.webp)
 
 1. Va trebui să adaugi un difuzor.
 
     * Dacă folosești un difuzor cu cablu JST, conectează-l la portul JST de pe ReSpeaker.
 
-      ![Un difuzor conectat la ReSpeaker cu un cablu JST](../../../../../translated_images/ro/respeaker-jst-speaker.a441d177809df945.png)
+      ![Un difuzor conectat la ReSpeaker cu un cablu JST](../../../../../translated_images/ro/respeaker-jst-speaker.a441d177809df945.webp)
 
     * Dacă folosești un difuzor cu jack de 3.5mm sau căști, introdu-le în priza jack de 3.5mm.
 
-      ![Un difuzor conectat la ReSpeaker prin priza jack de 3.5mm](../../../../../translated_images/ro/respeaker-35mm-speaker.ad79ef4f128c7751.png)
+      ![Un difuzor conectat la ReSpeaker prin priza jack de 3.5mm](../../../../../translated_images/ro/respeaker-35mm-speaker.ad79ef4f128c7751.webp)
 
 ### Sarcină - configurează cardul SD
 
@@ -79,7 +79,7 @@ De asemenea, vei avea nevoie de un card SD pentru descărcarea și redarea audio
 
 1. Introdu cardul SD în slotul pentru card SD de pe partea stângă a Wio Terminal, chiar sub butonul de pornire. Asigură-te că cardul este complet introdus și face clic - s-ar putea să ai nevoie de un instrument subțire sau de un alt card SD pentru a-l împinge complet.
 
-    ![Introducerea cardului SD în slotul pentru card SD de sub comutatorul de pornire](../../../../../translated_images/ro/wio-sd-card.acdcbe322fa4ee7f.png)
+    ![Introducerea cardului SD în slotul pentru card SD de sub comutatorul de pornire](../../../../../translated_images/ro/wio-sd-card.acdcbe322fa4ee7f.webp)
 
     > 💁 Pentru a scoate cardul SD, trebuie să-l împingi ușor și acesta va ieși. Vei avea nevoie de un instrument subțire, cum ar fi o șurubelniță cu cap plat sau un alt card SD.
 

@@ -29,7 +29,7 @@ Sambungkan kamera.
 
 1. Pin di bahagian bawah ArduCam perlu disambungkan ke pin GPIO pada Wio Terminal. Untuk memudahkan mencari pin yang betul, pasangkan pelekat pin GPIO yang disertakan dengan Wio Terminal di sekeliling pin:
 
-    ![Wio Terminal dengan pelekat pin GPIO](../../../../../translated_images/ms/wio-terminal-pin-sticker.b90b1535937b84bd.png)
+    ![Wio Terminal dengan pelekat pin GPIO](../../../../../translated_images/ms/wio-terminal-pin-sticker.b90b1535937b84bd.webp)
 
 1. Gunakan wayar jumper untuk membuat sambungan berikut:
 
@@ -297,7 +297,7 @@ Wio Terminal kini boleh diprogramkan untuk menangkap imej apabila butang ditekan
 
 1. Mikropengawal menjalankan kod anda secara berterusan, jadi tidak mudah untuk mencetuskan sesuatu seperti mengambil gambar tanpa bertindak balas kepada sensor. Wio Terminal mempunyai butang, jadi kamera boleh disediakan untuk dicetuskan oleh salah satu butang. Tambahkan kod berikut ke akhir fungsi `setup` untuk mengkonfigurasi butang C (salah satu daripada tiga butang di atas, yang paling dekat dengan suis kuasa).
 
-    ![Butang C di atas paling dekat dengan suis kuasa](../../../../../translated_images/ms/wio-terminal-c-button.73df3cb1c1445ea0.png)
+    ![Butang C di atas paling dekat dengan suis kuasa](../../../../../translated_images/ms/wio-terminal-c-button.73df3cb1c1445ea0.webp)
 
     ```cpp
     pinMode(WIO_KEY_C, INPUT_PULLUP);

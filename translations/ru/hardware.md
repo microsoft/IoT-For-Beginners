@@ -21,7 +21,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 ## Покупка наборов
 
-![Логотип Seeed Studios](../../translated_images/ru/seeed-logo.74732b6b482b6e8e.png)
+![Логотип Seeed Studios](../../translated_images/ru/seeed-logo.74732b6b482b6e8e.webp)
 
 Seeed Studios любезно предоставили всё оборудование в виде удобных для покупки наборов:
 
@@ -29,7 +29,7 @@ Seeed Studios любезно предоставили всё оборудова�
 
 **[IoT для начинающих с Seeed и Microsoft - стартовый набор Wio Terminal](https://www.seeedstudio.com/IoT-for-beginners-with-Seeed-and-Microsoft-Wio-Terminal-Starter-Kit-p-5006.html)**
 
-[![Набор оборудования Wio Terminal](../../translated_images/ru/wio-hardware-kit.4c70c48b85e4283a.png)](https://www.seeedstudio.com/IoT-for-beginners-with-Seeed-and-Microsoft-Wio-Terminal-Starter-Kit-p-5006.html)
+[![Набор оборудования Wio Terminal](../../translated_images/ru/wio-hardware-kit.4c70c48b85e4283a.webp)](https://www.seeedstudio.com/IoT-for-beginners-with-Seeed-and-Microsoft-Wio-Terminal-Starter-Kit-p-5006.html)
 
 ### Raspberry Pi
 

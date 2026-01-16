@@ -39,7 +39,7 @@ Objectdetectors kunnen worden gebruikt voor voorraadcontrole, zowel om voorraad 
 
 Bijvoorbeeld, als een camera gericht is op een set planken die 8 blikken tomatenpuree kunnen bevatten, en een objectdetector detecteert slechts 7 blikken, dan ontbreekt er één en moet deze worden aangevuld.
 
-![7 blikken tomatenpuree op een plank, 4 op de bovenste rij, 3 bovenaan](../../../../../translated_images/nl/stock-7-cans-tomato-paste.f86059cc573d7bec.png)
+![7 blikken tomatenpuree op een plank, 4 op de bovenste rij, 3 bovenaan](../../../../../translated_images/nl/stock-7-cans-tomato-paste.f86059cc573d7bec.webp)
 
 In de bovenstaande afbeelding heeft een objectdetector 7 blikken tomatenpuree gedetecteerd op een plank die 8 blikken kan bevatten. Niet alleen kan het IoT-apparaat een melding sturen dat er moet worden aangevuld, maar het kan zelfs een indicatie geven van de locatie van het ontbrekende item, belangrijke gegevens als je robots gebruikt om planken aan te vullen.
 
@@ -51,7 +51,7 @@ Soms kan de verkeerde voorraad op de planken staan. Dit kan een menselijke fout 
 
 Objectdetectie kan worden gebruikt om onverwachte items te detecteren, en opnieuw een mens of robot te waarschuwen om het item zo snel mogelijk terug te brengen.
 
-![Een verdwaald blikje babymaïs op de tomatenpureeplank](../../../../../translated_images/nl/stock-rogue-corn.be1f3ada8c457854.png)
+![Een verdwaald blikje babymaïs op de tomatenpureeplank](../../../../../translated_images/nl/stock-rogue-corn.be1f3ada8c457854.webp)
 
 In de bovenstaande afbeelding is een blikje babymaïs op de plank naast de tomatenpuree geplaatst. De objectdetector heeft dit gedetecteerd, waardoor het IoT-apparaat een mens of robot kan waarschuwen om het blikje terug te brengen naar de juiste locatie.
 

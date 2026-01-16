@@ -37,7 +37,7 @@ Asistenții inteligenți nu sunt dispozitive de comunicare unidirecțională. Vo
 
 Text în vorbire, așa cum sugerează numele, este procesul de a converti textul în audio care conține cuvintele rostite. Principiul de bază este de a descompune cuvintele din text în sunetele lor componente (cunoscute sub numele de foneme) și de a îmbina audio pentru acele sunete, fie folosind înregistrări audio preexistente, fie audio generat de modele AI.
 
-![Cele trei etape ale sistemelor tipice de text în vorbire](../../../../../translated_images/ro/tts-overview.193843cf3f5ee09f.png)
+![Cele trei etape ale sistemelor tipice de text în vorbire](../../../../../translated_images/ro/tts-overview.193843cf3f5ee09f.webp)
 
 Sistemele de text în vorbire au de obicei 3 etape:
 

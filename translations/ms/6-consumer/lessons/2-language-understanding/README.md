@@ -126,7 +126,7 @@ Setelah entiti ditentukan, anda mencipta niat. Ini dipelajari oleh model berdasa
 
 Anda kemudian memberitahu LUIS bahagian mana dalam ayat ini yang memetakan kepada entiti:
 
-![Ayat "set a timer for 1 minute and 12 seconds" dipecahkan kepada entiti](../../../../../translated_images/ms/sentence-as-intent-entities.301401696f992259.png)
+![Ayat "set a timer for 1 minute and 12 seconds" dipecahkan kepada entiti](../../../../../translated_images/ms/sentence-as-intent-entities.301401696f992259.webp)
 
 Ayat `set a timer for 1 minute and 12 seconds` mempunyai niat `set timer`. Ia juga mempunyai 2 entiti dengan 2 nilai setiap satu:
 

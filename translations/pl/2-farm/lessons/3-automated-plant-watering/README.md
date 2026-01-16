@@ -55,11 +55,11 @@ Przekaźnik to elektromechaniczny przełącznik, który przekształca sygnał el
 
 > 🎓 [Elektromagnesy](https://wikipedia.org/wiki/Electromagnet) to magnesy tworzone przez przepływ prądu przez cewkę drutu. Gdy prąd jest włączony, cewka staje się namagnesowana. Gdy prąd jest wyłączony, cewka traci swoje właściwości magnetyczne.
 
-![Gdy włączony, elektromagnes tworzy pole magnetyczne, włączając przełącznik dla obwodu wyjściowego](../../../../../translated_images/pl/relay-on.4db16a0fd6b66926.png)
+![Gdy włączony, elektromagnes tworzy pole magnetyczne, włączając przełącznik dla obwodu wyjściowego](../../../../../translated_images/pl/relay-on.4db16a0fd6b66926.webp)
 
 W przekaźniku obwód sterujący zasila elektromagnes. Gdy elektromagnes jest włączony, przyciąga dźwignię, która porusza przełącznik, zamykając parę styków i zamykając obwód wyjściowy.
 
-![Gdy wyłączony, elektromagnes nie tworzy pola magnetycznego, wyłączając przełącznik dla obwodu wyjściowego](../../../../../translated_images/pl/relay-off.c34a178a2960fecd.png)
+![Gdy wyłączony, elektromagnes nie tworzy pola magnetycznego, wyłączając przełącznik dla obwodu wyjściowego](../../../../../translated_images/pl/relay-off.c34a178a2960fecd.webp)
 
 Gdy obwód sterujący jest wyłączony, elektromagnes wyłącza się, zwalniając dźwignię i otwierając styki, wyłączając obwód wyjściowy. Przekaźniki są cyfrowymi siłownikami - wysoki sygnał włącza przekaźnik, niski sygnał go wyłącza.
 
@@ -85,7 +85,7 @@ Elektromagnes nie potrzebuje dużo mocy, aby się aktywować i przyciągnąć d�
 
 Na powyższym obrazie pokazano przekaźnik Grove. Obwód sterujący łączy się z urządzeniem IoT i włącza lub wyłącza przekaźnik za pomocą 3,3V lub 5V. Obwód wyjściowy ma dwa terminale, z których każdy może być zasilaniem lub masą. Obwód wyjściowy może obsługiwać do 250V przy 10A, co wystarcza dla szeregu urządzeń zasilanych z sieci. Można również znaleźć przekaźniki obsługujące jeszcze wyższe poziomy mocy.
 
-![Pompa podłączona przez przekaźnik](../../../../../translated_images/pl/pump-wired-to-relay.66c5cfc0d8918990.png)
+![Pompa podłączona przez przekaźnik](../../../../../translated_images/pl/pump-wired-to-relay.66c5cfc0d8918990.webp)
 
 Na powyższym obrazie zasilanie jest dostarczane do pompy przez przekaźnik. Czerwony przewód łączy terminal +5V zasilacza USB z jednym terminalem obwodu wyjściowego przekaźnika, a inny czerwony przewód łączy drugi terminal obwodu wyjściowego z pompą. Czarny przewód łączy pompę z masą zasilacza USB. Gdy przekaźnik się włącza, zamyka obwód, przesyłając 5V do pompy, włączając ją.
 
@@ -135,7 +135,7 @@ W lekcji 3 zbudowałeś lampkę nocną - diodę LED, która włącza się, gdy c
 
 Jeśli wykonałeś poprzednią lekcję dotyczącą wilgotności gleby za pomocą fizycznego czujnika, zauważyłeś, że odczyt wilgotności gleby spadał przez kilka sekund po podlaniu rośliny. Nie wynika to z powolności czujnika, lecz z czasu, jaki woda potrzebuje, aby wsiąknąć w glebę.
 💁 Jeśli podlewałeś zbyt blisko czujnika, mogłeś zauważyć szybki spadek odczytu, a następnie jego powrót do poprzedniego poziomu - dzieje się tak, ponieważ woda w pobliżu czujnika rozprzestrzenia się w pozostałej części gleby, zmniejszając wilgotność gleby w okolicy czujnika.
-![Pomiar wilgotności gleby wynoszący 658 nie zmienia się podczas podlewania, spada dopiero do 320 po podlewaniu, gdy woda przesiąknie przez glebę](../../../../../translated_images/pl/soil-moisture-travel.a0e31af222cf1438.png)
+![Pomiar wilgotności gleby wynoszący 658 nie zmienia się podczas podlewania, spada dopiero do 320 po podlewaniu, gdy woda przesiąknie przez glebę](../../../../../translated_images/pl/soil-moisture-travel.a0e31af222cf1438.webp)
 
 Na powyższym diagramie odczyt wilgotności gleby wynosi 658. Roślina jest podlewana, ale odczyt ten nie zmienia się od razu, ponieważ woda jeszcze nie dotarła do czujnika. Podlewanie może nawet zakończyć się, zanim woda dotrze do czujnika, a wartość spadnie, odzwierciedlając nowy poziom wilgotności.
 
@@ -157,11 +157,11 @@ Jak długo przekaźnik powinien być włączony za każdym razem? Lepiej być os
 
 > 💁 Tego rodzaju sterowanie czasem jest bardzo specyficzne dla urządzenia IoT, które budujesz, właściwości, którą mierzysz, oraz używanych czujników i aktuatorów.
 
-![Roślina truskawki podłączona do wody za pomocą pompy, z pompą podłączoną do przekaźnika. Przekaźnik i czujnik wilgotności gleby w roślinie są podłączone do Raspberry Pi](../../../../../translated_images/pl/strawberry-with-pump.b410fc72ac6aabad.png)
+![Roślina truskawki podłączona do wody za pomocą pompy, z pompą podłączoną do przekaźnika. Przekaźnik i czujnik wilgotności gleby w roślinie są podłączone do Raspberry Pi](../../../../../translated_images/pl/strawberry-with-pump.b410fc72ac6aabad.webp)
 
 Na przykład mam roślinę truskawki z czujnikiem wilgotności gleby i pompą sterowaną przekaźnikiem. Zauważyłem, że gdy dodaję wodę, potrzeba około 20 sekund, aby odczyt wilgotności gleby się ustabilizował. Oznacza to, że muszę wyłączyć przekaźnik i poczekać 20 sekund przed sprawdzeniem poziomu wilgotności. Wolę mieć za mało wody niż za dużo – zawsze mogę włączyć pompę ponownie, ale nie mogę usunąć wody z rośliny.
 
-![Krok 1: wykonaj pomiar. Krok 2: dodaj wodę. Krok 3: poczekaj, aż woda przesiąknie przez glebę. Krok 4: wykonaj ponowny pomiar](../../../../../translated_images/pl/soil-moisture-delay.865f3fae206db01d.png)
+![Krok 1: wykonaj pomiar. Krok 2: dodaj wodę. Krok 3: poczekaj, aż woda przesiąknie przez glebę. Krok 4: wykonaj ponowny pomiar](../../../../../translated_images/pl/soil-moisture-delay.865f3fae206db01d.webp)
 
 Oznacza to, że najlepszy proces podlewania wyglądałby mniej więcej tak:
 

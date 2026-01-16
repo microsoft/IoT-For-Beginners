@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 [Raspberry Pi](https://raspberrypi.org) este un computer pe o singură placă. Poți adăuga senzori și actuatori folosind o gamă largă de dispozitive și ecosisteme, iar pentru aceste lecții vei folosi un ecosistem hardware numit [Grove](https://www.seeedstudio.com/category/Grove-c-1003.html). Vei programa Pi-ul și vei accesa senzorii Grove folosind Python.
 
-![Un Raspberry Pi 4](../../../../../translated_images/ro/raspberry-pi-4.fd4590d308c3d456.jpg)
+![Un Raspberry Pi 4](../../../../../translated_images/ro/raspberry-pi-4.fd4590d308c3d456.webp)
 
 ## Configurare
 
@@ -112,7 +112,7 @@ Configurează sistemul de operare Pi 'headless'.
 
 1. Din Raspberry Pi Imager, selectează butonul **CHOOSE OS**, apoi selectează *Raspberry Pi OS (Other)*, urmat de *Raspberry Pi OS Lite (32-bit)*.
 
-    ![Raspberry Pi Imager cu Raspberry Pi OS Lite selectat](../../../../../translated_images/ro/raspberry-pi-imager.24aedeab9e233d84.png)
+    ![Raspberry Pi Imager cu Raspberry Pi OS Lite selectat](../../../../../translated_images/ro/raspberry-pi-imager.24aedeab9e233d84.webp)
 
     > 💁 Raspberry Pi OS Lite este o versiune a Raspberry Pi OS care nu are interfața desktop sau instrumentele bazate pe interfață grafică. Acestea nu sunt necesare pentru un Pi 'headless' și fac instalarea mai mică și timpul de pornire mai rapid.
 
@@ -251,7 +251,7 @@ Creează aplicația Hello World.
 
 1. Deschide acest folder în VS Code selectând *File -> Open...* și alegând folderul *nightlight*, apoi selectează **OK**.
 
-    ![Dialogul de deschidere din VS Code care arată folderul nightlight](../../../../../translated_images/ro/vscode-open-nightlight-remote.d3d2a4011e30d535.png)
+    ![Dialogul de deschidere din VS Code care arată folderul nightlight](../../../../../translated_images/ro/vscode-open-nightlight-remote.d3d2a4011e30d535.webp)
 
 1. Deschide fișierul `app.py` din explorer-ul VS Code și adaugă următorul cod:
 

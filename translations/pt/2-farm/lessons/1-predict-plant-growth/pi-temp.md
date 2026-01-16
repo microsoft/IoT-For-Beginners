@@ -31,7 +31,7 @@ Liga o sensor de temperatura.
 
 1. Com o Raspberry Pi desligado, liga a outra extremidade do cabo Grove à entrada digital marcada como **D5** no Grove Base Hat conectado ao Pi. Esta entrada é a segunda a contar da esquerda, na fila de entradas ao lado dos pinos GPIO.
 
-![O sensor de temperatura Grove ligado à entrada A0](../../../../../translated_images/pt/pi-temperature-sensor.3ff82fff672c8e56.png)
+![O sensor de temperatura Grove ligado à entrada A0](../../../../../translated_images/pt/pi-temperature-sensor.3ff82fff672c8e56.webp)
 
 ## Programar o sensor de temperatura
 

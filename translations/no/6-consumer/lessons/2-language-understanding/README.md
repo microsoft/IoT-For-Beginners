@@ -126,7 +126,7 @@ Når enhetene er definert, oppretter du intensjoner. Disse læres av modellen ba
 
 Du forteller deretter LUIS hvilke deler av disse setningene som samsvarer med enhetene:
 
-![Setningen sett en timer for 1 minutt og 12 sekunder delt inn i enheter](../../../../../translated_images/no/sentence-as-intent-entities.301401696f992259.png)
+![Setningen sett en timer for 1 minutt og 12 sekunder delt inn i enheter](../../../../../translated_images/no/sentence-as-intent-entities.301401696f992259.webp)
 
 Setningen `sett en timer for 1 minutt og 12 sekunder` har intensjonen `sett timer`. Den har også 2 enheter med 2 verdier hver:
 

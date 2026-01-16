@@ -17,7 +17,7 @@ Sensor untuk pelajaran ini adalah **sensor cahaya** yang menggunakan [fotodiod](
 
 Sensor cahaya ini terbina dalam Wio Terminal dan boleh dilihat melalui tingkap plastik jernih di bahagian belakang.
 
-![Sensor cahaya di bahagian belakang Wio Terminal](../../../../../translated_images/ms/wio-light-sensor.b1f529f3c95f5165.png)
+![Sensor cahaya di bahagian belakang Wio Terminal](../../../../../translated_images/ms/wio-light-sensor.b1f529f3c95f5165.webp)
 
 ## Programkan sensor cahaya
 

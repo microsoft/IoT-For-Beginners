@@ -17,7 +17,7 @@ Senzor pre túto lekciu je **svetelný senzor**, ktorý používa [fotodiódu](h
 
 Svetelný senzor je zabudovaný do Wio Terminal a je viditeľný cez priehľadné plastové okienko na zadnej strane.
 
-![Svetelný senzor na zadnej strane Wio Terminal](../../../../../translated_images/sk/wio-light-sensor.b1f529f3c95f5165.png)
+![Svetelný senzor na zadnej strane Wio Terminal](../../../../../translated_images/sk/wio-light-sensor.b1f529f3c95f5165.webp)
 
 ## Naprogramovanie svetelného senzora
 

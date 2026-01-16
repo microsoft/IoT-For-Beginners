@@ -17,7 +17,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 အလင်းအာရုံခံကိရိယာကို Wio Terminal ထဲမှာ တပ်ဆင်ထားပြီး၊ အနောက်ဘက်ရှိ ပလပ်စတစ်ပြတင်းပေါက်မှ မြင်နိုင်ပါတယ်။
 
-![Wio Terminal အနောက်ဘက်ရှိ အလင်းအာရုံခံကိရိယာ](../../../../../translated_images/my/wio-light-sensor.b1f529f3c95f5165.png)
+![Wio Terminal အနောက်ဘက်ရှိ အလင်းအာရုံခံကိရိယာ](../../../../../translated_images/my/wio-light-sensor.b1f529f3c95f5165.webp)
 
 ## အလင်းအာရုံခံကိရိယာကို ပရိုဂရမ်ရေးခြင်း
 

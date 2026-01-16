@@ -75,7 +75,7 @@ Noen av de mest grunnleggende sensorene er analoge sensorer. Disse sensorene mot
 
 Et eksempel på dette er en potensiometer. Dette er en dreieknapp som du kan rotere mellom to posisjoner, og sensoren måler rotasjonen.
 
-![Et potensiometer satt til et midtpunkt som mottar 5 volt og returnerer 3,8 volt](../../../../../translated_images/no/potentiometer.35a348b9ce22f6ec.png)
+![Et potensiometer satt til et midtpunkt som mottar 5 volt og returnerer 3,8 volt](../../../../../translated_images/no/potentiometer.35a348b9ce22f6ec.webp)
 
 IoT-enheten sender et elektrisk signal til potensiometeret med en spenning, for eksempel 5 volt (5V). Når potensiometeret justeres, endrer det spenningen som kommer ut på den andre siden. Tenk deg at du har et potensiometer merket som en dreieknapp som går fra 0 til [11](https://wikipedia.org/wiki/Up_to_eleven), som en volumknapp på en forsterker. Når potensiometeret er i full av-posisjon (0), vil 0V (0 volt) komme ut. Når det er i full på-posisjon (11), vil 5V (5 volt) komme ut.
 
@@ -112,7 +112,7 @@ Pinner på IoT-enheter, som GPIO-pinner, kan måle dette signalet direkte som en
 
 Mer avanserte digitale sensorer leser analoge verdier, og konverterer dem deretter ved hjelp av innebygde ADC-er til digitale signaler. For eksempel vil en digital temperatursensor fortsatt bruke et termoelement på samme måte som en analog sensor, og vil fortsatt måle endringen i spenning forårsaket av motstanden i termoelementet ved den nåværende temperaturen. I stedet for å returnere en analog verdi og stole på enheten eller tilkoblingsplaten for å konvertere til et digitalt signal, vil en innebygd ADC konvertere verdien og sende den som en serie med 0 og 1 til IoT-enheten. Disse 0 og 1 sendes på samme måte som det digitale signalet for en knapp, der 1 er full spenning og 0 er 0V.
 
-![En digital temperatursensor konverterer en analog avlesning til binære data med 0 som 0 volt og 1 som 5 volt før den sendes til en IoT-enhet](../../../../../translated_images/no/temperature-as-digital.85004491b977bae1.png)
+![En digital temperatursensor konverterer en analog avlesning til binære data med 0 som 0 volt og 1 som 5 volt før den sendes til en IoT-enhet](../../../../../translated_images/no/temperature-as-digital.85004491b977bae1.webp)
 
 Å sende digitale data gjør det mulig for sensorer å bli mer komplekse og sende mer detaljerte data, til og med krypterte data for sikre sensorer. Et eksempel er et kamera. Dette er en sensor som fanger et bilde og sender det som digitale data som inneholder det bildet, vanligvis i et komprimert format som JPEG, for å bli lest av IoT-enheten. Det kan til og med strømme video ved å fange bilder og sende enten hele bildet ramme for ramme eller en komprimert videostrøm.
 
@@ -164,7 +164,7 @@ For eksempel kan du bruke PWM til å kontrollere hastigheten på en motor.
 
 Tenk deg at du styrer en motor med en 5V strømforsyning. Du sender en kort puls til motoren, som bytter spenningen til høy (5V) i to hundredels sekund (0,02s). I løpet av den tiden kan motoren rotere en tidel av en omdreining, eller 36°. Signalet pauser deretter i to hundredels sekund (0,02s), og sender et lavt signal (0V). Hver syklus av på og deretter av varer 0,04s. Syklusen gjentas deretter.
 
-![Pulsbreddemodulasjon som roterer en motor ved 150 RPM](../../../../../translated_images/no/pwm-motor-150rpm.83347ac04ca38482.png)
+![Pulsbreddemodulasjon som roterer en motor ved 150 RPM](../../../../../translated_images/no/pwm-motor-150rpm.83347ac04ca38482.webp)
 
 Dette betyr at du i løpet av ett sekund har 25 pulser på 5V som varer 0,02s og roterer motoren, hver etterfulgt av en pause på 0,02s med 0V som ikke roterer motoren. Hver puls roterer motoren en tidel av en omdreining, noe som betyr at motoren fullfører 2,5 omdreininger per sekund. Du har brukt et digitalt signal til å rotere motoren med 2,5 omdreininger per sekund, eller 150 [omdreininger per minutt](https://wikipedia.org/wiki/Revolutions_per_minute) (en ikke-standard måleenhet for rotasjonshastighet).
 
@@ -175,7 +175,7 @@ Dette betyr at du i løpet av ett sekund har 25 pulser på 5V som varer 0,02s og
 
 > 🎓 Når et PWM-signal er på halvparten av tiden og av halvparten av tiden, kalles det en [50% arbeidscyklus](https://wikipedia.org/wiki/Duty_cycle). Arbeidssykluser måles som prosentandelen av tiden signalet er i på-tilstand sammenlignet med av-tilstand.
 
-![Pulsbreddemodulasjon som roterer en motor ved 75 RPM](../../../../../translated_images/no/pwm-motor-75rpm.a5e4c939934b6e14.png)
+![Pulsbreddemodulasjon som roterer en motor ved 75 RPM](../../../../../translated_images/no/pwm-motor-75rpm.a5e4c939934b6e14.webp)
 
 Du kan endre motorhastigheten ved å endre størrelsen på pulsene. For eksempel, med den samme motoren kan du beholde den samme syklustiden på 0,04s, men halvere på-pulsen til 0,01s og øke av-pulsen til 0,03s. Du har det samme antallet pulser per sekund (25), men hver på-puls er halvparten så lang. En halv lengde-puls roterer motoren bare en tjuendedel av en omdreining, og ved 25 pulser per sekund vil motoren fullføre 1,25 omdreininger per sekund eller 75 RPM. Ved å endre pulsens varighet i et digitalt signal har du halvert hastigheten på en analog motor.
 

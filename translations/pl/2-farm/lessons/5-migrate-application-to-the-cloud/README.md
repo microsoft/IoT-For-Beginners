@@ -41,7 +41,7 @@ Bezserwerowość, czyli przetwarzanie bezserwerowe, polega na tworzeniu małych 
 
 > 💁 Jeśli wcześniej korzystałeś z wyzwalaczy w bazach danych, możesz to porównać do tego samego mechanizmu — kod jest uruchamiany w odpowiedzi na zdarzenie, takie jak wstawienie wiersza.
 
-![Gdy wiele zdarzeń występuje jednocześnie, usługa bezserwerowa skaluje się, aby obsłużyć je wszystkie w tym samym czasie](../../../../../translated_images/pl/serverless-scaling.f8c769adf0413fd1.png)
+![Gdy wiele zdarzeń występuje jednocześnie, usługa bezserwerowa skaluje się, aby obsłużyć je wszystkie w tym samym czasie](../../../../../translated_images/pl/serverless-scaling.f8c769adf0413fd1.webp)
 
 Twój kod jest uruchamiany tylko wtedy, gdy wystąpi zdarzenie, a w innych momentach nie jest aktywny. Zdarzenie występuje, Twój kod jest ładowany i uruchamiany. Dzięki temu bezserwerowość jest bardzo skalowalna — jeśli wiele zdarzeń wystąpi jednocześnie, dostawca chmury może uruchomić Twoją funkcję tyle razy, ile potrzeba, na dostępnych serwerach. Wadą tego podejścia jest to, że jeśli musisz udostępniać informacje między zdarzeniami, musisz je zapisać w miejscu takim jak baza danych, zamiast przechowywać je w pamięci.
 
@@ -244,7 +244,7 @@ Interfejs wiersza poleceń Azure Functions może być używany do tworzenia nowe
     VS Code. Initialize for optimal use with VS Code?
     ```
 
-    ![Powiadomienie](../../../../../translated_images/pl/vscode-azure-functions-init-notification.bd19b49229963edb.png)
+    ![Powiadomienie](../../../../../translated_images/pl/vscode-azure-functions-init-notification.bd19b49229963edb.webp)
 
     Wybierz **Yes** w tym powiadomieniu.
 

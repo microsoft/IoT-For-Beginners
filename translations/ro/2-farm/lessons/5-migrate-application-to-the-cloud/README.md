@@ -41,7 +41,7 @@ Serverless, sau calculul fără server, implică crearea unor blocuri mici de co
 
 > 💁 Dacă ai folosit declanșatoare de baze de date înainte, poți considera acest lucru similar: codul este declanșat de un eveniment, cum ar fi inserarea unui rând.
 
-![Când multe evenimente sunt trimise simultan, serviciul serverless se scalează pentru a le procesa pe toate în același timp](../../../../../translated_images/ro/serverless-scaling.f8c769adf0413fd1.png)
+![Când multe evenimente sunt trimise simultan, serviciul serverless se scalează pentru a le procesa pe toate în același timp](../../../../../translated_images/ro/serverless-scaling.f8c769adf0413fd1.webp)
 
 Codul tău este rulat doar atunci când evenimentul are loc, nu există nimic care să mențină codul activ în alte momente. Evenimentul are loc, codul tău este încărcat și rulat. Acest lucru face ca serverless să fie foarte scalabil - dacă multe evenimente au loc simultan, furnizorul de cloud poate rula funcția ta de câte ori este nevoie, simultan, pe serverele disponibile. Dezavantajul este că, dacă trebuie să partajezi informații între evenimente, trebuie să le salvezi undeva, cum ar fi într-o bază de date, în loc să le stochezi în memorie.
 
@@ -244,7 +244,7 @@ CLI-ul Azure Functions poate fi folosit pentru a crea o nouă aplicație de func
     VS Code. Initialize for optimal use with VS Code?
     ```
 
-    ![Notificarea](../../../../../translated_images/ro/vscode-azure-functions-init-notification.bd19b49229963edb.png)
+    ![Notificarea](../../../../../translated_images/ro/vscode-azure-functions-init-notification.bd19b49229963edb.webp)
 
     Selectați **Yes** din această notificare.
 

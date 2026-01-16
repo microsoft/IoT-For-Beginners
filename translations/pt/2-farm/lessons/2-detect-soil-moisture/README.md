@@ -37,7 +37,7 @@ UART envolve circuitos físicos que permitem a comunicação entre dois disposit
 * O dispositivo 1 transmite dados do seu pino Tx, que são recebidos pelo dispositivo 2 no seu pino Rx.
 * O dispositivo 1 recebe dados no seu pino Rx que são transmitidos pelo dispositivo 2 a partir do seu pino Tx.
 
-![UART com o pino Tx de um chip conectado ao pino Rx de outro, e vice-versa](../../../../../translated_images/pt/uart.d0dbd3fb9e3728c6.png)
+![UART com o pino Tx de um chip conectado ao pino Rx de outro, e vice-versa](../../../../../translated_images/pt/uart.d0dbd3fb9e3728c6.webp)
 
 > 🎓 Os dados são enviados um bit de cada vez, e isto é conhecido como comunicação *serial*. A maioria dos sistemas operativos e microcontroladores têm *portas seriais*, ou seja, conexões que podem enviar e receber dados seriais disponíveis para o seu código.
 
@@ -66,7 +66,7 @@ Os controladores SPI utilizam 3 fios, juntamente com 1 fio extra por periférico
 | SCLK | Relógio Serial | Este fio envia um sinal de relógio a uma taxa definida pelo controlador. |
 | CS   | Seleção de Chip | O controlador tem múltiplos fios, um por periférico, e cada fio conecta-se ao fio CS no periférico correspondente. |
 
-![SPI com um controlador e dois periféricos](../../../../../translated_images/pt/spi.297431d6f98b386b.png)
+![SPI com um controlador e dois periféricos](../../../../../translated_images/pt/spi.297431d6f98b386b.webp)
 
 O fio CS é usado para ativar um periférico de cada vez, comunicando através dos fios COPI e CIPO. Quando o controlador precisa de mudar de periférico, desativa o fio CS conectado ao periférico atualmente ativo e ativa o fio conectado ao periférico com o qual deseja comunicar a seguir.
 
@@ -127,13 +127,13 @@ A humidade do solo é medida usando o conteúdo de água gravimétrico ou volum�
 
 Os sensores de humidade do solo medem resistência elétrica ou capacitância - isto varia não apenas com a humidade do solo, mas também com o tipo de solo, já que os componentes no solo podem alterar as suas características elétricas. Idealmente, os sensores devem ser calibrados - ou seja, fazer leituras do sensor e compará-las com medições obtidas usando uma abordagem mais científica. Por exemplo, um laboratório pode calcular a humidade gravimétrica do solo usando amostras de um campo específico recolhidas algumas vezes por ano, e esses números usados para calibrar o sensor, correspondendo a leitura do sensor à humidade gravimétrica do solo.
 
-![Um gráfico de tensão vs conteúdo de humidade do solo](../../../../../translated_images/pt/soil-moisture-to-voltage.df86d80cda158700.png)
+![Um gráfico de tensão vs conteúdo de humidade do solo](../../../../../translated_images/pt/soil-moisture-to-voltage.df86d80cda158700.webp)
 
 O gráfico acima mostra como calibrar um sensor. A tensão é capturada para uma amostra de solo que é então medida num laboratório, comparando o peso húmido com o peso seco (medindo o peso húmido, depois secando num forno e medindo seco). Depois de algumas leituras serem feitas, estas podem ser plotadas num gráfico e uma linha ajustada aos pontos. Esta linha pode então ser usada para converter leituras de sensores de humidade do solo feitas por um dispositivo IoT em medições reais de humidade do solo.
 
 💁 Para sensores resistivos de humidade do solo, a tensão aumenta à medida que a humidade do solo aumenta. Para sensores capacitivos de humidade do solo, a tensão diminui à medida que a humidade do solo aumenta, por isso os gráficos para estes inclinariam para baixo, não para cima.
 
-![Um valor de humidade do solo interpolado a partir do gráfico](../../../../../translated_images/pt/soil-moisture-to-voltage-with-reading.681cb3e1f8b68caf.png)
+![Um valor de humidade do solo interpolado a partir do gráfico](../../../../../translated_images/pt/soil-moisture-to-voltage-with-reading.681cb3e1f8b68caf.webp)
 
 O gráfico acima mostra uma leitura de tensão de um sensor de humidade do solo, e ao seguir essa leitura até à linha no gráfico, a humidade real do solo pode ser calculada.
 

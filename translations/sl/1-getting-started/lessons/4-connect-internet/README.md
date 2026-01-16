@@ -46,7 +46,7 @@ V tej lekciji bomo obravnavali:
 
 Obstaja več priljubljenih komunikacijskih protokolov, ki jih IoT naprave uporabljajo za komunikacijo z internetom. Najbolj priljubljeni temeljijo na objavi/naročanju prek nekakšnega posrednika. IoT naprave se povežejo s posrednikom, objavljajo telemetrijo in se naročajo na ukaze. Tudi storitve v oblaku se povežejo s posrednikom, naročajo na vsa telemetrijska sporočila in objavljajo ukaze bodisi za določene naprave bodisi za skupine naprav.
 
-![IoT naprave se povežejo s posrednikom, objavljajo telemetrijo in se naročajo na ukaze. Storitve v oblaku se povežejo s posrednikom, naročajo na vso telemetrijo in pošiljajo ukaze določenim napravam.](../../../../../translated_images/sl/pub-sub.7c7ed43fe9fd15d4.png)
+![IoT naprave se povežejo s posrednikom, objavljajo telemetrijo in se naročajo na ukaze. Storitve v oblaku se povežejo s posrednikom, naročajo na vso telemetrijo in pošiljajo ukaze določenim napravam.](../../../../../translated_images/sl/pub-sub.7c7ed43fe9fd15d4.webp)
 
 MQTT je najbolj priljubljen komunikacijski protokol za IoT naprave in je obravnavan v tej lekciji. Drugi protokoli vključujejo AMQP in HTTP/HTTPS.
 
@@ -115,7 +115,7 @@ Beseda telemetrija izhaja iz grških korenin, ki pomenijo merjenje na daljavo. T
 
 Poglejmo primer pametnega termostata iz Lekcije 1.
 
-![Internetno povezan termostat z več senzorji v prostorih](../../../../../translated_images/sl/telemetry.21e5d8b97649d2eb.png)
+![Internetno povezan termostat z več senzorji v prostorih](../../../../../translated_images/sl/telemetry.21e5d8b97649d2eb.webp)
 
 Termostat ima temperaturne senzorje za zbiranje telemetrije. Najverjetneje bi imel en temperaturni senzor vgrajen, poleg tega pa bi se lahko povezal z več zunanjimi temperaturnimi senzorji prek brezžičnega protokola, kot je [Bluetooth Low Energy](https://wikipedia.org/wiki/Bluetooth_Low_Energy) (BLE).
 
@@ -267,11 +267,11 @@ Napišite strežniško kodo.
 
 1. Ko se VS Code zažene, bo aktiviral virtualno okolje za Python. To bo prikazano v spodnji statusni vrstici:
 
-    ![VS Code prikazuje izbrano virtualno okolje](../../../../../translated_images/sl/vscode-virtual-env.8ba42e04c3d533cf.png)
+    ![VS Code prikazuje izbrano virtualno okolje](../../../../../translated_images/sl/vscode-virtual-env.8ba42e04c3d533cf.webp)
 
 1. Če je terminal v VS Code že odprt, ko se VS Code zažene, virtualno okolje v njem ne bo aktivirano. Najlažje je zapreti terminal s klikom na gumb **Kill the active terminal instance**:
 
-    ![Gumb za zapiranje terminala v VS Code](../../../../../translated_images/sl/vscode-kill-terminal.1cc4de7c6f25ee08.png)
+    ![Gumb za zapiranje terminala v VS Code](../../../../../translated_images/sl/vscode-kill-terminal.1cc4de7c6f25ee08.webp)
 
 1. Odprite nov terminal v VS Code z izbiro *Terminal -> New Terminal* ali s pritiskom na `` CTRL+` ``. Novi terminal bo naložil virtualno okolje, kar bo prikazano v terminalu. Ime virtualnega okolja (`.venv`) bo tudi v pozivu:
 

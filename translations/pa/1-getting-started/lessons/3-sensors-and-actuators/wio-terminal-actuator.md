@@ -51,7 +51,7 @@ LED ਨੂੰ ਜੋੜੋ।
 
     > 💁 ਸੱਜੇ ਪਾਸੇ ਵਾਲਾ Grove ਸਾਕਟ ਐਨਾਲੌਗ ਜਾਂ ਡਿਜੀਟਲ ਸੈਂਸਰ ਅਤੇ ਐਕਚੁਏਟਰ ਨਾਲ ਵਰਤਿਆ ਜਾ ਸਕਦਾ ਹੈ। ਖੱਬੇ ਪਾਸੇ ਵਾਲਾ ਸਾਕਟ ਸਿਰਫ I2C ਅਤੇ ਡਿਜੀਟਲ ਸੈਂਸਰ ਅਤੇ ਐਕਚੁਏਟਰ ਲਈ ਹੈ। I2C ਨੂੰ ਅਗਲੇ ਪਾਠ ਵਿੱਚ ਕਵਰ ਕੀਤਾ ਜਾਵੇਗਾ।
 
-![The grove LED connected to the right hand socket](../../../../../translated_images/pa/wio-led.265a1897e72d7f21.png)
+![The grove LED connected to the right hand socket](../../../../../translated_images/pa/wio-led.265a1897e72d7f21.webp)
 
 ## ਰਾਤ ਦੀ ਲਾਈਟ ਪ੍ਰੋਗਰਾਮ ਕਰੋ
 

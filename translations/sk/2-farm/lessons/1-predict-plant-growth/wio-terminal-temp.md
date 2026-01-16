@@ -33,7 +33,7 @@ Pripojte teplotný senzor.
 
 1. S odpojeným Wio Terminalom od počítača alebo iného zdroja napájania pripojte druhý koniec Grove kábla do pravého Grove portu na Wio Terminale, keď sa pozeráte na obrazovku. Ide o port najvzdialenejší od tlačidla napájania.
 
-![Grove teplotný senzor pripojený k pravému portu](../../../../../translated_images/sk/wio-temperature-sensor.2934928f38c7f79a.png)
+![Grove teplotný senzor pripojený k pravému portu](../../../../../translated_images/sk/wio-temperature-sensor.2934928f38c7f79a.webp)
 
 ## Naprogramovanie teplotného senzora
 

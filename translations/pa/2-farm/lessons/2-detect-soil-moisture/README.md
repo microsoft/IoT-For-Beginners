@@ -44,7 +44,7 @@ CO_OP_TRANSLATOR_METADATA:
 * [ਟ੍ਰਾਂਸਪਾਇਰੇਸ਼ਨ](https://wikipedia.org/wiki/Transpiration) - ਪੌਦੇ ਪਾਣੀ ਨੂੰ ਕਾਰਬਨ ਡਾਈਆਕਸਾਈਡ ਨੂੰ ਹਵਾ ਤੋਂ ਪੌਦੇ ਵਿੱਚ ਪਤਿਆਂ ਦੇ ਰਾਹੀਂ ਫੈਲਾਉਣ ਲਈ ਵਰਤਦੇ ਹਨ। ਇਹ ਪ੍ਰਕਿਰਿਆ ਪੌਦੇ ਦੇ ਆਲੇ-ਦੁਆਲੇ ਪੌਸ਼ਟਿਕ ਤੱਤਾਂ ਨੂੰ ਲਿਜਾਣ ਲਈ ਵੀ ਵਰਤਦੀ ਹੈ ਅਤੇ ਪੌਦੇ ਨੂੰ ਠੰਢਾ ਰੱਖਦੀ ਹੈ, ਜਿਵੇਂ ਮਨੁੱਖ ਪਸੀਨਾ ਕਰਦੇ ਹਨ।
 * ਢਾਂਚਾ - ਪੌਦਿਆਂ ਨੂੰ ਆਪਣੇ ਢਾਂਚੇ ਨੂੰ ਕਾਇਮ ਰੱਖਣ ਲਈ ਵੀ ਪਾਣੀ ਦੀ ਲੋੜ ਹੁੰਦੀ ਹੈ - ਉਹ 90% ਪਾਣੀ ਹੁੰਦੇ ਹਨ (ਜਦਕਿ ਮਨੁੱਖ ਸਿਰਫ 60% ਹੁੰਦੇ ਹਨ), ਅਤੇ ਇਹ ਪਾਣੀ ਕੋਸ਼ਿਕਾਵਾਂ ਨੂੰ ਸਖ਼ਤ ਰੱਖਦਾ ਹੈ। ਜੇਕਰ ਪੌਦੇ ਕੋਲ ਕਾਫ਼ੀ ਪਾਣੀ ਨਹੀਂ ਹੈ, ਤਾਂ ਉਹ ਮੁੜ੍ਹ ਜਾਂਦੇ ਹਨ ਅਤੇ ਆਖ਼ਰਕਾਰ ਮਰ ਜਾਂਦੇ ਹਨ।
 
-![ਪਾਣੀ ਜੜਾਂ ਦੁਆਰਾ ਜਜ਼ਬ ਹੁੰਦਾ ਹੈ ਅਤੇ ਫਿਰ ਪੌਦੇ ਦੇ ਆਲੇ-ਦੁਆਲੇ ਲਿਜਾਇਆ ਜਾਂਦਾ ਹੈ, ਫੋਟੋਸਿੰਥੇਸਿਸ ਅਤੇ ਪੌਦੇ ਦੇ ਢਾਂਚੇ ਲਈ ਵਰਤਿਆ ਜਾਂਦਾ ਹੈ](../../../../../translated_images/pa/transpiration.b735aa34e4372e65.png)
+![ਪਾਣੀ ਜੜਾਂ ਦੁਆਰਾ ਜਜ਼ਬ ਹੁੰਦਾ ਹੈ ਅਤੇ ਫਿਰ ਪੌਦੇ ਦੇ ਆਲੇ-ਦੁਆਲੇ ਲਿਜਾਇਆ ਜਾਂਦਾ ਹੈ, ਫੋਟੋਸਿੰਥੇਸਿਸ ਅਤੇ ਪੌਦੇ ਦੇ ਢਾਂਚੇ ਲਈ ਵਰਤਿਆ ਜਾਂਦਾ ਹੈ](../../../../../translated_images/pa/transpiration.b735aa34e4372e65.webp)
 
 ✅ ਕੁਝ ਖੋਜ ਕਰੋ: ਟ੍ਰਾਂਸਪਾਇਰੇਸ਼ਨ ਦੁਆਰਾ ਕਿੰਨਾ ਪਾਣੀ ਖਤਮ ਹੁੰਦਾ ਹੈ?
 
@@ -58,7 +58,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 * ਰੇਜ਼ਿਸਟਿਵ - ਇੱਕ ਰੇਜ਼ਿਸਟਿਵ ਸੈਂਸਰ ਵਿੱਚ 2 ਪ੍ਰੋਬ ਹੁੰਦੇ ਹਨ ਜੋ ਮਿੱਟੀ ਵਿੱਚ ਜਾਂਦੇ ਹਨ। ਇੱਕ ਪ੍ਰੋਬ ਨੂੰ ਬਿਜਲੀ ਦੀ ਧਾਰਾ ਭੇਜੀ ਜਾਂਦੀ ਹੈ, ਅਤੇ ਦੂਜੇ ਦੁਆਰਾ ਪ੍ਰਾਪਤ ਕੀਤੀ ਜਾਂਦੀ ਹੈ। ਸੈਂਸਰ ਫਿਰ ਮਿੱਟੀ ਦੀ ਰੋਧਕਤਾ ਨੂੰ ਮਾਪਦਾ ਹੈ - ਇਹ ਮਾਪਦਾ ਹੈ ਕਿ ਦੂਜੇ ਪ੍ਰੋਬ 'ਤੇ ਧਾਰਾ ਕਿੰਨਾ ਘਟਦਾ ਹੈ। ਪਾਣੀ ਬਿਜਲੀ ਦਾ ਚੰਗਾ ਚਾਲਕ ਹੈ, ਇਸ ਲਈ ਮਿੱਟੀ ਵਿੱਚ ਪਾਣੀ ਦੀ ਸਮੱਗਰੀ ਜਿੰਨੀ ਜ਼ਿਆਦਾ ਹੋਵੇਗੀ, ਰੋਧਕਤਾ ਉੱਨੀ ਘੱਟ ਹੋਵੇਗੀ।
 
-    ![ਇੱਕ ਰੇਜ਼ਿਸਟਿਵ ਮਿੱਟੀ ਦੀ ਨਮੀ ਦਾ ਸੈਂਸਰ](../../../../../translated_images/pa/resistive-soil-moisture-sensor.728a138a3d109e06.png)
+    ![ਇੱਕ ਰੇਜ਼ਿਸਟਿਵ ਮਿੱਟੀ ਦੀ ਨਮੀ ਦਾ ਸੈਂਸਰ](../../../../../translated_images/pa/resistive-soil-moisture-sensor.728a138a3d109e06.webp)
 
     > 💁 ਤੁਸੀਂ ਦੋ ਧਾਤਾਂ ਦੇ ਟੁਕੜਿਆਂ, ਜਿਵੇਂ ਕਿ ਕਿਲਾਂ, ਨੂੰ ਕੁਝ ਸੈਂਟੀਮੀਟਰ ਦੇ ਫਾਸਲੇ 'ਤੇ ਰੱਖ ਕੇ ਅਤੇ ਉਨ੍ਹਾਂ ਦੇ ਵਿਚਕਾਰ ਰੋਧਕਤਾ ਨੂੰ ਮਲਟੀਮੀਟਰ ਦੀ ਵਰਤੋਂ ਨਾਲ ਮਾਪ ਕੇ ਇੱਕ ਰੇਜ਼ਿਸਟਿਵ ਮਿੱਟੀ ਦੀ ਨਮੀ ਦਾ ਸੈਂਸਰ ਬਣਾ ਸਕਦੇ ਹੋ।
 
@@ -79,7 +79,7 @@ UART ਵਿੱਚ physical circuitry ਸ਼ਾਮਲ ਹੁੰਦੀ ਹੈ ਜ�
 * ਡਿਵਾਈਸ 1 ਆਪਣੇ Tx pin ਤੋਂ ਡਾਟਾ ਭੇਜਦਾ ਹੈ, ਜੋ ਡਿਵਾਈਸ 2 ਦੇ Rx pin 'ਤੇ ਪ੍ਰਾਪਤ ਹੁੰਦਾ ਹੈ।
 * ਡਿਵਾਈਸ 1 ਆਪਣੇ Rx pin 'ਤੇ ਡਾਟਾ ਪ੍ਰਾਪਤ ਕਰਦਾ ਹੈ ਜੋ ਡਿਵਾਈਸ 2 ਦੇ Tx pin ਤੋਂ ਭੇਜਿਆ ਜਾਂਦਾ ਹੈ।
 
-![UART ਨਾਲ ਇੱਕ ਚਿਪ ਦੇ Tx pin ਨੂੰ ਦੂਜੇ ਚਿਪ ਦੇ Rx pin ਨਾਲ ਜੁੜਿਆ ਹੋਇਆ ਹੈ, ਅਤੇ ਵਿਰੋਧੀ](../../../../../translated_images/pa/uart.d0dbd3fb9e3728c6.png)
+![UART ਨਾਲ ਇੱਕ ਚਿਪ ਦੇ Tx pin ਨੂੰ ਦੂਜੇ ਚਿਪ ਦੇ Rx pin ਨਾਲ ਜੁੜਿਆ ਹੋਇਆ ਹੈ, ਅਤੇ ਵਿਰੋਧੀ](../../../../../translated_images/pa/uart.d0dbd3fb9e3728c6.webp)
 
 > 🎓 ਡਾਟਾ ਇੱਕ ਸਮੇਂ 'ਤੇ ਇੱਕ ਬਿਟ ਭੇਜਿਆ ਜਾਂਦਾ ਹੈ, ਅਤੇ ਇਸਨੂੰ *serial* ਸੰਚਾਰ ਕਿਹਾ ਜਾਂਦਾ ਹੈ। ਜ਼ਿਆਦਾਤਰ operating systems ਅਤੇ microcontrollers ਦੇ *serial ports* ਹੁੰਦੇ ਹਨ, ਜੋ ਕਿ connections ਹਨ ਜੋ serial ਡਾਟਾ ਭੇਜਣ ਅਤੇ ਪ੍ਰਾਪਤ ਕਰਨ ਦੀ ਆਗਿਆ ਦਿੰਦੇ ਹਨ ਜੋ ਤੁਹਾਡੇ ਕੋਡ ਲਈ ਉਪਲਬਧ ਹੁੰਦੇ ਹਨ।
 
@@ -108,7 +108,7 @@ SPI controllers 3 wires ਵਰਤਦੇ ਹਨ, ਨਾਲ ਹੀ ਹਰ peripher
 | SCLK | Serial Clock | ਇਹ wire controller ਦੁਆਰਾ ਸੈਟ ਕੀਤੀ ਗਤੀ 'ਤੇ clock signal ਭੇਜਦਾ ਹੈ। |
 | CS   | Chip Select | Controller ਦੇ ਕਈ wires ਹੁੰਦੇ ਹਨ, ਹਰ peripheral ਲਈ ਇੱਕ, ਅਤੇ ਹਰ wire ਸੰਬੰਧਿਤ peripheral ਦੇ CS wire ਨਾਲ ਜੁੜਦਾ ਹੈ। |
 
-![SPI ਨਾਲ ਇੱਕ controller ਅਤੇ ਦੋ peripherals](../../../../../translated_images/pa/spi.297431d6f98b386b.png)
+![SPI ਨਾਲ ਇੱਕ controller ਅਤੇ ਦੋ peripherals](../../../../../translated_images/pa/spi.297431d6f98b386b.webp)
 
 CS wire ਇੱਕ ਸਮੇਂ 'ਤੇ ਇੱਕ peripheral ਨੂੰ activate ਕਰਨ ਲਈ ਵਰਤਿਆ ਜਾਂਦਾ ਹੈ, COPI ਅਤੇ CIPO wires ਰਾਹੀਂ ਸੰਚਾਰ ਕਰਦਾ ਹੈ। ਜਦੋਂ controller ਨੂੰ peripheral ਬਦਲਣ ਦੀ ਲੋੜ ਹੁੰਦੀ ਹੈ, ਤਾਂ ਇਹ currently active peripheral ਨਾਲ ਜੁੜੇ CS wire ਨੂੰ deactivate ਕਰਦਾ ਹੈ, ਫਿਰ ਉਸ wire ਨੂੰ activate ਕਰਦਾ ਹੈ ਜੋ ਅਗਲੇ peripheral ਨਾਲ ਸੰਚਾਰ ਕਰਨ ਲਈ ਜੁੜਿਆ ਹੋਇਆ ਹੈ।
 
@@ -169,13 +169,13 @@ Soil moisture ਨੂੰ gravimetric ਜਾਂ volumetric water content ਵਰਤ
 
 Soil moisture sensors electrical resistance ਜਾਂ capacitance ਨੂੰ ਮਾਪਦੇ ਹਨ - ਇਹ ਸਿਰਫ soil moisture 'ਤੇ ਹੀ ਨਹੀਂ, ਸਗੋਂ soil type 'ਤੇ ਵੀ ਨਿਰਭਰ ਕਰਦਾ ਹੈ ਕਿਉਂਕਿ ਮਿੱਟੀ ਦੇ components ਇਸਦੀ electrical characteristics ਨੂੰ ਬਦਲ ਸਕਦੇ ਹਨ। Ideally sensors ਨੂੰ calibrated ਕੀਤਾ ਜਾਣਾ ਚਾਹੀਦਾ ਹੈ - ਇਸਦਾ ਮਤਲਬ ਹੈ sensor ਤੋਂ readings ਲੈਣਾ ਅਤੇ ਇਹਨਾਂ ਨੂੰ ਇੱਕ ਹੋਰ scientific ਤਰੀਕੇ ਨਾਲ ਪਾਈਆਂ ਗਈਆਂ ਮਾਪਾਂ ਨਾਲ ਤੁਲਨਾ ਕਰਨਾ। ਉਦਾਹਰਣ ਵਜੋਂ, ਇੱਕ lab ਖੇਤ ਦੇ ਇੱਕ ਵਿਸ਼ੇਸ਼ ਖੇਤਰ ਦੇ samples ਨੂੰ ਕੁਝ ਵਾਰ ਸਾਲ ਵਿੱਚ ਲੈ ਕੇ gravimetric soil moisture ਨੂੰ calculate ਕਰ ਸਕਦਾ ਹੈ, ਅਤੇ ਇਹ numbers sensor ਨੂੰ calibrated ਕਰਨ ਲਈ ਵਰਤੇ ਜਾ ਸਕਦੇ ਹਨ, sensor reading ਨੂੰ gravimetric soil moisture ਨਾਲ ਮਿਲਾਉਣਾ।
 
-![Voltage vs soil moisture content ਦਾ ਇੱਕ ਗ੍ਰਾਫ](../../../../../translated_images/pa/soil-moisture-to-voltage.df86d80cda158700.png)
+![Voltage vs soil moisture content ਦਾ ਇੱਕ ਗ੍ਰਾਫ](../../../../../translated_images/pa/soil-moisture-to-voltage.df86d80cda158700.webp)
 
 ਉਪਰਲੇ ਗ੍ਰਾਫ ਵਿੱਚ ਦਿਖਾਇਆ ਗਿਆ ਹੈ ਕਿ sensor ਨੂੰ ਕਿਵੇਂ calibrated ਕੀਤਾ ਜਾ ਸਕਦਾ ਹੈ। Voltage ਨੂੰ soil sample ਲਈ capture ਕੀਤਾ ਜਾਂਦਾ ਹੈ ਜਿਸਨੂੰ ਫਿਰ lab ਵਿੱਚ ਮਾਪਿਆ ਜਾਂਦਾ ਹੈ wet weight ਨੂੰ dry weight ਨਾਲ ਤੁਲਨਾ ਕਰਕੇ (wet ਮਾਪਿਆ ਜਾਂਦਾ ਹੈ, ਫਿਰ oven ਵਿੱਚ ਸੁੱਕ ਕੇ dry ਮਾਪਿਆ ਜਾਂਦਾ ਹੈ)। ਜਦੋਂ ਕੁਝ readings ਲਿਆ ਜਾਂਦੇ ਹਨ, ਤਾਂ ਇਹਨਾਂ ਨੂੰ ਗ੍ਰਾਫ 'ਤੇ plot ਕੀਤਾ ਜਾ ਸਕਦਾ ਹੈ ਅਤੇ points 'ਤੇ ਇੱਕ line fit ਕੀਤੀ ਜਾ ਸਕਦੀ ਹੈ। ਇਹ line ਫਿਰ IoT ਡਿਵਾਈਸ ਦੁਆਰਾ soil moisture sensor readings ਨੂੰ actual soil moisture measurements ਵਿੱਚ convert ਕਰਨ ਲਈ ਵਰਤੀ ਜਾ ਸਕਦੀ ਹੈ।
 
 💁 Resistive soil moisture sensors ਲਈ, voltage soil moisture ਵਧਣ ਨਾਲ ਵਧਦਾ ਹੈ। Capacitive soil moisture sensors ਲਈ, voltage soil moisture ਵਧਣ ਨਾਲ ਘਟਦਾ ਹੈ, ਇਸ ਲਈ ਇਹਨਾਂ ਦੇ ਗ੍ਰਾਫ ਉੱਪਰ ਨਹੀਂ, ਸਗੋਂ ਹੇਠਾਂ ਵੱਲ ਝੁਕਦੇ ਹਨ।
 
-![ਗ੍ਰਾਫ ਤੋਂ soil moisture value ਨੂੰ interpolate ਕੀਤਾ ਗਿਆ](../../../../../translated_images/pa/soil-moisture-to-voltage-with-reading.681cb3e1f8b68caf.png)
+![ਗ੍ਰਾਫ ਤੋਂ soil moisture value ਨੂੰ interpolate ਕੀਤਾ ਗਿਆ](../../../../../translated_images/pa/soil-moisture-to-voltage-with-reading.681cb3e1f8b68caf.webp)
 
 ਉਪਰਲੇ ਗ੍ਰਾਫ ਵਿੱਚ soil moisture sensor ਤੋਂ ਇੱਕ voltage reading ਦਿਖਾਈ ਗਈ ਹੈ, ਅਤੇ ਇਸ line ਨੂੰ ਗ੍ਰਾਫ 'ਤੇ follow ਕਰਕੇ, actual soil moisture ਨੂੰ calculate ਕੀਤਾ ਜਾ ਸਕਦਾ ਹੈ।
 

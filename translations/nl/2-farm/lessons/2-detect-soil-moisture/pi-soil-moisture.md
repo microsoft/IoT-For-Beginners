@@ -37,7 +37,7 @@ Verbind de bodemvochtsensor.
 
 1. Steek de bodemvochtsensor in de grond. Hij heeft een 'hoogste positie lijn' - een witte lijn over de sensor. Steek de sensor tot aan, maar niet voorbij deze lijn.
 
-![De grove bodemvochtsensor in de grond](../../../../../translated_images/nl/soil-moisture-sensor-in-soil.bfad91002bda5e96.png)
+![De grove bodemvochtsensor in de grond](../../../../../translated_images/nl/soil-moisture-sensor-in-soil.bfad91002bda5e96.webp)
 
 ## Programmeer de bodemvochtsensor
 

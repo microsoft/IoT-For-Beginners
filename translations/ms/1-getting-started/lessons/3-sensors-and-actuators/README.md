@@ -75,7 +75,7 @@ Beberapa sensor yang paling asas adalah sensor analog. Sensor ini menerima volta
 
 Satu contoh ialah potensiometer. Ini adalah dail yang boleh anda putar antara dua kedudukan dan sensor mengukur putaran tersebut.
 
-![Potensiometer yang diset pada titik tengah dihantar 5 volt mengembalikan 3.8 volt](../../../../../translated_images/ms/potentiometer.35a348b9ce22f6ec.png)
+![Potensiometer yang diset pada titik tengah dihantar 5 volt mengembalikan 3.8 volt](../../../../../translated_images/ms/potentiometer.35a348b9ce22f6ec.webp)
 
 Peranti IoT akan menghantar isyarat elektrik kepada potensiometer pada voltan tertentu, seperti 5 volt (5V). Apabila potensiometer disesuaikan, ia mengubah voltan yang keluar dari sisi lain. Bayangkan anda mempunyai potensiometer yang dilabelkan sebagai dail dari 0 hingga [11](https://wikipedia.org/wiki/Up_to_eleven), seperti tombol kelantangan pada penguat. Apabila potensiometer berada dalam kedudukan mati sepenuhnya (0), maka 0V (0 volt) akan keluar. Apabila ia berada dalam kedudukan hidup sepenuhnya (11), 5V (5 volt) akan keluar.
 
@@ -112,7 +112,7 @@ Pin pada peranti IoT seperti pin GPIO boleh mengukur isyarat ini secara langsung
 
 Sensor digital yang lebih maju membaca nilai analog, kemudian menukarnya menggunakan ADC terbina dalam kepada isyarat digital. Sebagai contoh, sensor suhu digital masih menggunakan termokopel dengan cara yang sama seperti sensor analog, dan masih mengukur perubahan voltan yang disebabkan oleh rintangan termokopel pada suhu semasa. Daripada mengembalikan nilai analog dan bergantung pada peranti atau papan penyambung untuk menukar kepada isyarat digital, ADC yang dibina dalam sensor akan menukar nilai dan menghantarnya sebagai siri 0 dan 1 kepada peranti IoT. 0 dan 1 ini dihantar dengan cara yang sama seperti isyarat digital untuk butang dengan 1 sebagai voltan penuh dan 0 sebagai 0v.
 
-![Sensor suhu digital menukar bacaan analog kepada data binari dengan 0 sebagai 0 volt dan 1 sebagai 5 volt sebelum menghantarnya ke peranti IoT](../../../../../translated_images/ms/temperature-as-digital.85004491b977bae1.png)
+![Sensor suhu digital menukar bacaan analog kepada data binari dengan 0 sebagai 0 volt dan 1 sebagai 5 volt sebelum menghantarnya ke peranti IoT](../../../../../translated_images/ms/temperature-as-digital.85004491b977bae1.webp)
 
 Menghantar data digital membolehkan sensor menjadi lebih kompleks dan menghantar data yang lebih terperinci, malah data yang disulitkan untuk sensor yang selamat. Satu contoh ialah kamera. Ini adalah sensor yang menangkap imej dan menghantarnya sebagai data digital yang mengandungi imej tersebut, biasanya dalam format termampat seperti JPEG, untuk dibaca oleh peranti IoT. Ia juga boleh menstrim video dengan menangkap imej dan menghantar sama ada imej lengkap bingkai demi bingkai atau aliran video termampat.
 
@@ -164,7 +164,7 @@ Sebagai contoh, anda boleh menggunakan PWM untuk mengawal kelajuan motor.
 
 Bayangkan anda mengawal motor dengan bekalan 5V. Anda menghantar denyutan pendek kepada motor anda, menukar voltan kepada tinggi (5V) selama dua peratus saat (0.02s). Dalam masa itu, motor anda boleh berputar satu persepuluh putaran, atau 36°. Isyarat kemudian berhenti selama dua peratus saat (0.02s), menghantar isyarat rendah (0V). Setiap kitaran hidup kemudian mati berlangsung selama 0.04s. Kitaran kemudian berulang.
 
-![Modulasi lebar denyutan putaran motor pada 150 RPM](../../../../../translated_images/ms/pwm-motor-150rpm.83347ac04ca38482.png)
+![Modulasi lebar denyutan putaran motor pada 150 RPM](../../../../../translated_images/ms/pwm-motor-150rpm.83347ac04ca38482.webp)
 
 Ini bermakna dalam satu saat anda mempunyai 25 denyutan 5V selama 0.02s yang memutar motor, setiap satu diikuti oleh jeda 0.02s pada 0V yang tidak memutar motor. Setiap denyutan memutar motor satu persepuluh putaran, bermakna motor melengkapkan 2.5 putaran sesaat. Anda telah menggunakan isyarat digital untuk memutar motor pada 2.5 putaran sesaat, atau 150 [putaran per minit](https://wikipedia.org/wiki/Revolutions_per_minute) (ukuran kelajuan putaran yang tidak standard).
 
@@ -175,7 +175,7 @@ Ini bermakna dalam satu saat anda mempunyai 25 denyutan 5V selama 0.02s yang mem
 
 > 🎓 Apabila isyarat PWM hidup separuh masa, dan mati separuh masa, ia dirujuk sebagai [kitaran tugas 50%](https://wikipedia.org/wiki/Duty_cycle). Kitaran tugas diukur sebagai peratusan masa isyarat berada dalam keadaan hidup berbanding keadaan mati.
 
-![Modulasi lebar denyutan putaran motor pada 75 RPM](../../../../../translated_images/ms/pwm-motor-75rpm.a5e4c939934b6e14.png)
+![Modulasi lebar denyutan putaran motor pada 75 RPM](../../../../../translated_images/ms/pwm-motor-75rpm.a5e4c939934b6e14.webp)
 
 Anda boleh mengubah kelajuan motor dengan mengubah saiz denyutan. Sebagai contoh, dengan motor yang sama, anda boleh mengekalkan masa kitaran yang sama iaitu 0.04s, dengan denyutan hidup dikurangkan kepada 0.01s, dan denyutan mati meningkat kepada 0.03s. Anda mempunyai jumlah denyutan yang sama setiap saat (25), tetapi setiap denyutan hidup adalah separuh panjang. Denyutan separuh panjang hanya memutar motor satu perdua puluh putaran, dan pada 25 denyutan sesaat akan melengkapkan 1.25 putaran sesaat atau 75rpm. Dengan mengubah kelajuan denyutan isyarat digital, anda telah mengurangkan separuh kelajuan motor analog.
 

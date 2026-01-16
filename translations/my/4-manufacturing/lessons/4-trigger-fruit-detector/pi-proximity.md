@@ -35,7 +35,7 @@ Time of Flight Sensor ကို ချိတ်ဆက်ပါ။
 
 1. Raspberry Pi ကို ပိတ်ထားပြီး Grove cable ၏တစ်ဖက်အဆုံးကို Grove Base hat တွင်ရှိသော **I²C** အဆို့များထဲမှ တစ်ခုတွင် ချိတ်ဆက်ပါ။ ဒီအဆို့များသည် အောက်ခြေတန်းတွင်ရှိပြီး GPI pins ၏ဆန့်ဘက်ဘက်နှင့် ကင်မရာ cable slot အနီးတွင်ရှိသည်။
 
-![Grove Time of Flight Sensor ကို I²C socket တွင် ချိတ်ဆက်ထားသောပုံ](../../../../../translated_images/my/pi-time-of-flight-sensor.58c8dc04eb3bfb57.png)
+![Grove Time of Flight Sensor ကို I²C socket တွင် ချိတ်ဆက်ထားသောပုံ](../../../../../translated_images/my/pi-time-of-flight-sensor.58c8dc04eb3bfb57.webp)
 
 ## Time of Flight Sensor ကို အစီအစဉ်ရေးပါ
 
@@ -106,7 +106,7 @@ Raspberry Pi ကို ချိတ်ဆက်ထားသော Time of Flight
 
     Rangefinder သည် Sensor ၏နောက်ဘက်တွင်ရှိသည်၊ အကွာအဝေးတိုင်းတာရာတွင် မှန်ကန်သောဘက်ကို အသုံးပြုပါ။
 
-    ![Time of Flight Sensor ၏နောက်ဘက် Rangefinder သည် ငှက်ပျောသီးကို ငေးကြည့်နေသောပုံ](../../../../../translated_images/my/time-of-flight-banana.079921ad8b1496e4.png)
+    ![Time of Flight Sensor ၏နောက်ဘက် Rangefinder သည် ငှက်ပျောသီးကို ငေးကြည့်နေသောပုံ](../../../../../translated_images/my/time-of-flight-banana.079921ad8b1496e4.webp)
 
 > 💁 ဒီ code ကို [code-proximity/pi](../../../../../4-manufacturing/lessons/4-trigger-fruit-detector/code-proximity/pi) folder တွင် ရှာနိုင်ပါသည်။
 

@@ -37,7 +37,7 @@ Dalam pelajaran ini, kita akan membincangkan:
 
 Teks ke pertuturan, seperti namanya, adalah proses menukar teks kepada audio yang mengandungi teks tersebut sebagai kata-kata yang diucapkan. Prinsip asasnya adalah memecahkan perkataan dalam teks kepada bunyi-bunyi konstituen mereka (dikenali sebagai fonem), dan menyusun audio untuk bunyi-bunyi tersebut, sama ada menggunakan audio yang telah dirakam terlebih dahulu atau menggunakan audio yang dihasilkan oleh model AI.
 
-![Tiga peringkat sistem teks ke pertuturan tipikal](../../../../../translated_images/ms/tts-overview.193843cf3f5ee09f.png)
+![Tiga peringkat sistem teks ke pertuturan tipikal](../../../../../translated_images/ms/tts-overview.193843cf3f5ee09f.webp)
 
 Sistem teks ke pertuturan biasanya mempunyai 3 peringkat:
 

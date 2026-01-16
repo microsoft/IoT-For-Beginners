@@ -51,7 +51,7 @@ Koble til LED-en.
 
     > 💁 Den høyre Grove-kontakten kan brukes med analoge eller digitale sensorer og aktuatorer. Den venstre kontakten er kun for I2C og digitale sensorer og aktuatorer.
 
-![Grove LED koblet til den høyre kontakten](../../../../../translated_images/no/wio-led.265a1897e72d7f21.png)
+![Grove LED koblet til den høyre kontakten](../../../../../translated_images/no/wio-led.265a1897e72d7f21.webp)
 
 ## Programmer nattlampen
 

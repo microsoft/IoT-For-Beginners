@@ -97,15 +97,15 @@ Penyulitan datang dalam dua jenis - simetri dan asimetri.
 
 **Simetri** menggunakan kunci yang sama untuk menyulitkan dan menyahulitkan data. Pengirim dan penerima perlu mengetahui kunci yang sama. Ini adalah jenis yang paling kurang selamat, kerana kunci perlu dikongsi dengan cara tertentu. Untuk pengirim menghantar mesej yang disulitkan kepada penerima, pengirim mungkin perlu menghantar kunci kepada penerima terlebih dahulu.
 
-![Penyulitan kunci simetri menggunakan kunci yang sama untuk menyulitkan dan menyahulitkan mesej](../../../../../translated_images/ms/send-message-symmetric-key.a2e8ad0d495896ff.png)
+![Penyulitan kunci simetri menggunakan kunci yang sama untuk menyulitkan dan menyahulitkan mesej](../../../../../translated_images/ms/send-message-symmetric-key.a2e8ad0d495896ff.webp)
 
 Jika kunci dicuri semasa penghantaran, atau pengirim atau penerima digodam dan kunci ditemui, penyulitan boleh dipecahkan.
 
-![Penyulitan kunci simetri hanya selamat jika penggodam tidak mendapat kunci - jika ya, mereka boleh memintas dan menyahulitkan mesej](../../../../../translated_images/ms/send-message-symmetric-key-hacker.e7cb53db1707adfb.png)
+![Penyulitan kunci simetri hanya selamat jika penggodam tidak mendapat kunci - jika ya, mereka boleh memintas dan menyahulitkan mesej](../../../../../translated_images/ms/send-message-symmetric-key-hacker.e7cb53db1707adfb.webp)
 
 **Asimetri** menggunakan 2 kunci - kunci penyulitan dan kunci penyahulitan, yang dirujuk sebagai pasangan kunci awam/peribadi. Kunci awam digunakan untuk menyulitkan mesej, tetapi tidak boleh digunakan untuk menyahulitkannya, kunci peribadi digunakan untuk menyahulitkan mesej tetapi tidak boleh digunakan untuk menyulitkannya.
 
-![Penyulitan asimetri menggunakan kunci yang berbeza untuk menyulitkan dan menyahulitkan. Kunci penyulitan dihantar kepada pengirim mesej supaya mereka boleh menyulitkan mesej sebelum menghantarnya kepada penerima yang memiliki kunci](../../../../../translated_images/ms/send-message-asymmetric.7abe327c62615b8c.png)
+![Penyulitan asimetri menggunakan kunci yang berbeza untuk menyulitkan dan menyahulitkan. Kunci penyulitan dihantar kepada pengirim mesej supaya mereka boleh menyulitkan mesej sebelum menghantarnya kepada penerima yang memiliki kunci](../../../../../translated_images/ms/send-message-asymmetric.7abe327c62615b8c.webp)
 
 Penerima berkongsi kunci awam mereka, dan pengirim menggunakan ini untuk menyulitkan mesej. Setelah mesej dihantar, penerima menyahulitkannya dengan kunci peribadi mereka. Penyulitan asimetri lebih selamat kerana kunci peribadi disimpan secara peribadi oleh penerima dan tidak pernah dikongsi. Sesiapa sahaja boleh memiliki kunci awam kerana ia hanya boleh digunakan untuk menyulitkan mesej.
 
@@ -165,7 +165,7 @@ Sijil-sijil ini mempunyai beberapa medan di dalamnya, termasuk siapa kunci awam 
 
 Apabila menggunakan sijil X.509, kedua-dua penghantar dan penerima akan mempunyai kunci awam dan peribadi mereka sendiri, serta kedua-duanya mempunyai sijil X.509 yang mengandungi kunci awam. Mereka kemudian bertukar sijil X.509 dengan cara tertentu, menggunakan kunci awam masing-masing untuk mengenkripsi data yang mereka hantar, dan kunci peribadi mereka sendiri untuk mendekripsi data yang mereka terima.
 
-![Daripada berkongsi kunci awam, anda boleh berkongsi sijil. Pengguna sijil boleh mengesahkan bahawa ia berasal dari anda dengan memeriksa dengan pihak berkuasa sijil yang menandatanganinya.](../../../../../translated_images/ms/send-message-certificate.9cc576ac1e46b76e.png)
+![Daripada berkongsi kunci awam, anda boleh berkongsi sijil. Pengguna sijil boleh mengesahkan bahawa ia berasal dari anda dengan memeriksa dengan pihak berkuasa sijil yang menandatanganinya.](../../../../../translated_images/ms/send-message-certificate.9cc576ac1e46b76e.webp)
 
 Satu kelebihan besar menggunakan sijil X.509 ialah ia boleh dikongsi antara peranti. Anda boleh membuat satu sijil, memuat naiknya ke IoT Hub, dan menggunakannya untuk semua peranti anda. Setiap peranti hanya perlu mengetahui kunci peribadi untuk mendekripsi mesej yang diterima dari IoT Hub.
 

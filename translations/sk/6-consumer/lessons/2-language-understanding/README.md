@@ -126,7 +126,7 @@ Keď sú entity definované, vytvoríte zámery. Tie sa model učí na základe 
 
 Potom LUISu poviete, ktoré časti týchto viet zodpovedajú entitám:
 
-![Veta „nastav časovač na 1 minútu a 12 sekúnd“ rozdelená na entity](../../../../../translated_images/sk/sentence-as-intent-entities.301401696f992259.png)
+![Veta „nastav časovač na 1 minútu a 12 sekúnd“ rozdelená na entity](../../../../../translated_images/sk/sentence-as-intent-entities.301401696f992259.webp)
 
 Veta `nastav časovač na 1 minútu a 12 sekúnd` má zámer `nastaviť časovač`. Má tiež 2 entity s 2 hodnotami každá:
 

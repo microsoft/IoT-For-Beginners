@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 De [Raspberry Pi](https://raspberrypi.org) is een single-board computer. Je kunt sensoren en actuatoren toevoegen met behulp van een breed scala aan apparaten en ecosystemen, en voor deze lessen gebruik je een hardware-ecosysteem genaamd [Grove](https://www.seeedstudio.com/category/Grove-c-1003.html). Je programmeert je Pi en hebt toegang tot de Grove-sensoren met Python.
 
-![Een Raspberry Pi 4](../../../../../translated_images/nl/raspberry-pi-4.fd4590d308c3d456.jpg)
+![Een Raspberry Pi 4](../../../../../translated_images/nl/raspberry-pi-4.fd4590d308c3d456.webp)
 
 ## Installatie
 
@@ -112,7 +112,7 @@ Configureer het headless Pi OS.
 
 1. Selecteer in de Raspberry Pi Imager de knop **CHOOSE OS** en kies vervolgens *Raspberry Pi OS (Other)*, gevolgd door *Raspberry Pi OS Lite (32-bit)*.
 
-    ![De Raspberry Pi Imager met Raspberry Pi OS Lite geselecteerd](../../../../../translated_images/nl/raspberry-pi-imager.24aedeab9e233d84.png)
+    ![De Raspberry Pi Imager met Raspberry Pi OS Lite geselecteerd](../../../../../translated_images/nl/raspberry-pi-imager.24aedeab9e233d84.webp)
 
     > 💁 Raspberry Pi OS Lite is een versie van Raspberry Pi OS zonder de desktop-UI of UI-gebaseerde tools. Deze zijn niet nodig voor een headless Pi en maken de installatie kleiner en de opstarttijd sneller.
 
@@ -251,7 +251,7 @@ Maak de Hello World-app.
 
 1. Open deze map in VS Code door *File -> Open...* te selecteren en de *nightlight* map te kiezen, klik vervolgens op **OK**.
 
-    ![De VS Code open dialoog toont de nightlight map](../../../../../translated_images/nl/vscode-open-nightlight-remote.d3d2a4011e30d535.png)
+    ![De VS Code open dialoog toont de nightlight map](../../../../../translated_images/nl/vscode-open-nightlight-remote.d3d2a4011e30d535.webp)
 
 1. Open het bestand `app.py` vanuit de VS Code explorer en voeg de volgende code toe:
 

@@ -65,7 +65,7 @@ Setiap spesies tumbuhan mempunyai nilai yang berbeza untuk suhu asas, optimum da
 
 ✅ Lakukan sedikit penyelidikan. Untuk mana-mana tumbuhan yang anda ada di taman, sekolah, atau taman tempatan, lihat jika anda boleh mencari suhu asasnya.
 
-![Graf menunjukkan kadar pertumbuhan meningkat apabila suhu meningkat, kemudian menurun apabila suhu terlalu tinggi](../../../../../translated_images/ms/plant-growth-temp-graph.c6d69c9478e6ca83.png)
+![Graf menunjukkan kadar pertumbuhan meningkat apabila suhu meningkat, kemudian menurun apabila suhu terlalu tinggi](../../../../../translated_images/ms/plant-growth-temp-graph.c6d69c9478e6ca83.webp)
 
 Graf di atas menunjukkan contoh graf kadar pertumbuhan terhadap suhu. Sehingga suhu asas, tiada pertumbuhan berlaku. Kadar pertumbuhan meningkat sehingga suhu optimum, kemudian menurun selepas mencapai puncak ini. 
 
@@ -91,7 +91,7 @@ Kod ini membuka fail CSV, kemudian menambah baris baru di hujungnya. Baris terse
 
     
 > 💁 Jika anda menggunakan Peranti IoT Maya, pilih kotak semak rawak dan tetapkan julat untuk mengelakkan mendapatkan suhu yang sama setiap kali nilai suhu dikembalikan.
-    ![Pilih kotak semak rawak dan tetapkan julat](../../../../../translated_images/ms/select-the-random-checkbox-and-set-a-range.32cf4bc7c12e797f.png) 
+    ![Pilih kotak semak rawak dan tetapkan julat](../../../../../translated_images/ms/select-the-random-checkbox-and-set-a-range.32cf4bc7c12e797f.webp) 
 
     > 💁 Jika anda ingin menjalankan ini sepanjang hari, maka anda perlu memastikan komputer tempat kod pelayan anda berjalan tidak akan tidur, sama ada dengan menukar tetapan kuasa anda, atau menjalankan sesuatu seperti [skrip Python ini untuk memastikan sistem aktif](https://github.com/jaqsparow/keep-system-active).
     

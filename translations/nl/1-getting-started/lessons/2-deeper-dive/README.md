@@ -41,7 +41,7 @@ De twee componenten van een IoT-toepassing zijn het *Internet* en het *ding*. La
 
 ### Het Ding
 
-![Een Raspberry Pi 4](../../../../../translated_images/nl/raspberry-pi-4.fd4590d308c3d456.jpg)
+![Een Raspberry Pi 4](../../../../../translated_images/nl/raspberry-pi-4.fd4590d308c3d456.webp)
 
 Het **Ding**-gedeelte van IoT verwijst naar een apparaat dat kan communiceren met de fysieke wereld. Deze apparaten zijn meestal kleine, betaalbare computers die op lage snelheid werken en weinig energie verbruiken - bijvoorbeeld eenvoudige microcontrollers met kilobytes RAM (in tegenstelling tot gigabytes in een pc) die slechts enkele honderden megahertz draaien (in tegenstelling tot gigahertz in een pc), maar soms zo weinig energie verbruiken dat ze weken, maanden of zelfs jaren op batterijen kunnen werken.
 
@@ -67,7 +67,7 @@ In het voorbeeld van een slimme thermostaat zou de thermostaat verbinding maken 
 
 Een nog slimmer versie zou AI in de cloud kunnen gebruiken met gegevens van andere sensoren die zijn verbonden met andere IoT-apparaten, zoals bezettingssensoren die detecteren welke kamers in gebruik zijn, evenals gegevens zoals het weer en zelfs je agenda, om beslissingen te nemen over hoe de temperatuur op een slimme manier in te stellen. Bijvoorbeeld, het zou je verwarming kunnen uitschakelen als het uit je agenda leest dat je op vakantie bent, of de verwarming kamer per kamer uitschakelen afhankelijk van welke kamers je gebruikt, waarbij het leert van de gegevens om steeds nauwkeuriger te worden.
 
-![Een diagram dat meerdere temperatuursensoren en een draaiknop toont als inputs voor een IoT-apparaat, het IoT-apparaat met tweerichtingscommunicatie naar de cloud, die op zijn beurt tweerichtingscommunicatie heeft met een telefoon, een agenda en een weerservice, en de bediening van een verwarming als output van het IoT-apparaat](../../../../../translated_images/nl/smarter-thermostat.a75855f15d2d9e63.png)
+![Een diagram dat meerdere temperatuursensoren en een draaiknop toont als inputs voor een IoT-apparaat, het IoT-apparaat met tweerichtingscommunicatie naar de cloud, die op zijn beurt tweerichtingscommunicatie heeft met een telefoon, een agenda en een weerservice, en de bediening van een verwarming als output van het IoT-apparaat](../../../../../translated_images/nl/smarter-thermostat.a75855f15d2d9e63.webp)
 
 ✅ Welke andere gegevens zouden kunnen helpen om een internetverbonden thermostaat slimmer te maken?
 
@@ -135,7 +135,7 @@ Net als bij de CPU is het geheugen op een microcontroller vele malen kleiner dan
 
 Het diagram hieronder toont het relatieve verschil in grootte tussen 192KB en 8GB - de kleine stip in het midden vertegenwoordigt 192KB.
 
-![Een vergelijking tussen 192KB en 8GB - meer dan 40.000 keer groter](../../../../../translated_images/nl/ram-comparison.6beb73541b42ac6f.png)
+![Een vergelijking tussen 192KB en 8GB - meer dan 40.000 keer groter](../../../../../translated_images/nl/ram-comparison.6beb73541b42ac6f.webp)
 
 De opslagruimte voor programma's is ook kleiner dan die van een PC. Een typische PC heeft bijvoorbeeld een harde schijf van 500GB voor programma-opslag, terwijl een microcontroller slechts kilobytes of misschien een paar megabytes (MB) opslagruimte heeft (1MB is 1.000KB, of 1.000.000 bytes). De Wio Terminal heeft 4MB aan programma-opslag.
 
@@ -211,17 +211,17 @@ In de vorige les hebben we single-board computers geïntroduceerd. Laten we nu d
 
 ### Raspberry Pi
 
-![Het Raspberry Pi-logo](../../../../../translated_images/nl/raspberry-pi-logo.4efaa16605cee054.png)
+![Het Raspberry Pi-logo](../../../../../translated_images/nl/raspberry-pi-logo.4efaa16605cee054.webp)
 
 De [Raspberry Pi Foundation](https://www.raspberrypi.org) is een liefdadigheidsinstelling uit het Verenigd Koninkrijk, opgericht in 2009 om de studie van informatica te bevorderen, vooral op schoolniveau. Als onderdeel van deze missie ontwikkelden ze een single-board computer, genaamd de Raspberry Pi. Raspberry Pi's zijn momenteel beschikbaar in 3 varianten - een volledige versie, de kleinere Pi Zero, en een compute module die kan worden ingebouwd in je uiteindelijke IoT-apparaat.
 
-![Een Raspberry Pi 4](../../../../../translated_images/nl/raspberry-pi-4.fd4590d308c3d456.jpg)
+![Een Raspberry Pi 4](../../../../../translated_images/nl/raspberry-pi-4.fd4590d308c3d456.webp)
 
 De nieuwste versie van de volledige Raspberry Pi is de Raspberry Pi 4B. Deze heeft een quad-core (4 core) CPU die draait op 1,5GHz, 2, 4 of 8GB RAM, gigabit ethernet, WiFi, 2 HDMI-poorten die 4k-schermen ondersteunen, een audio- en composiet video-uitgangspoort, USB-poorten (2 USB 2.0, 2 USB 3.0), 40 GPIO-pinnen, een camera-aansluiting voor een Raspberry Pi-camera module, en een SD-kaartsleuf. Dit alles op een board van 88mm x 58mm x 19,5mm en wordt gevoed door een 3A USB-C-voeding. Deze beginnen bij US$35, veel goedkoper dan een PC of Mac.
 
 > 💁 Er is ook een Pi400 alles-in-één computer met een Pi4 ingebouwd in een toetsenbord.
 
-![Een Raspberry Pi Zero](../../../../../translated_images/nl/raspberry-pi-zero.f7a4133e1e7d54bb.jpg)
+![Een Raspberry Pi Zero](../../../../../translated_images/nl/raspberry-pi-zero.f7a4133e1e7d54bb.webp)
 
 De Pi Zero is veel kleiner, met een lager vermogen. Hij heeft een single-core 1GHz CPU, 512MB RAM, WiFi (in het Zero W-model), een enkele HDMI-poort, een micro-USB-poort, 40 GPIO-pinnen, een camera-aansluiting voor een Raspberry Pi-camera module, en een SD-kaartsleuf. Hij meet 65mm x 30mm x 5mm en verbruikt zeer weinig stroom. De Zero kost US$5, met de W-versie met WiFi US$10.
 

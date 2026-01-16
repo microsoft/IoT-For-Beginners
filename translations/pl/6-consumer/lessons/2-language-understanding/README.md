@@ -126,7 +126,7 @@ Po zdefiniowaniu jednostek tworzysz intencje. Są one wyuczone przez model na po
 
 Następnie informujesz LUIS, które części tych zdań odpowiadają jednostkom:
 
-![Zdanie ustaw timer na 1 minutę i 12 sekund rozbite na jednostki](../../../../../translated_images/pl/sentence-as-intent-entities.301401696f992259.png)
+![Zdanie ustaw timer na 1 minutę i 12 sekund rozbite na jednostki](../../../../../translated_images/pl/sentence-as-intent-entities.301401696f992259.webp)
 
 Zdanie `ustaw timer na 1 minutę i 12 sekund` ma intencję `ustaw timer`. Ma również 2 jednostki z 2 wartościami każda:
 

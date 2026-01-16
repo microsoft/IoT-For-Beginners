@@ -35,7 +35,7 @@ Grove टाइम ऑफ फ्लाइट सेन्सर Wio Terminal श
 
 1. Wio Terminal तुमच्या संगणकापासून किंवा इतर पॉवर सप्लायपासून डिस्कनेक्ट केलेला असताना, Grove केबलचे दुसरे टोक Wio Terminal च्या स्क्रीनकडे पाहताना डाव्या बाजूच्या Grove सॉकेटमध्ये कनेक्ट करा. हे सॉकेट पॉवर बटणाजवळ आहे. हे एक संयुक्त डिजिटल आणि I²C सॉकेट आहे.
 
-![डाव्या बाजूच्या सॉकेटमध्ये कनेक्ट केलेला Grove टाइम ऑफ फ्लाइट सेन्सर](../../../../../translated_images/mr/wio-time-of-flight-sensor.c4c182131d2ea73d.png)
+![डाव्या बाजूच्या सॉकेटमध्ये कनेक्ट केलेला Grove टाइम ऑफ फ्लाइट सेन्सर](../../../../../translated_images/mr/wio-time-of-flight-sensor.c4c182131d2ea73d.webp)
 
 1. आता तुम्ही Wio Terminal तुमच्या संगणकाला कनेक्ट करू शकता.
 
@@ -101,7 +101,7 @@ Grove टाइम ऑफ फ्लाइट सेन्सर Wio Terminal श
 
     रेंजफाइंडर सेन्सरच्या मागील बाजूस आहे, त्यामुळे अंतर मोजताना योग्य बाजू वापरा.
 
-    ![टाइम ऑफ फ्लाइट सेन्सरच्या मागील बाजूस रेंजफाइंडर एका केळीकडे निर्देश करत आहे](../../../../../translated_images/mr/time-of-flight-banana.079921ad8b1496e4.png)
+    ![टाइम ऑफ फ्लाइट सेन्सरच्या मागील बाजूस रेंजफाइंडर एका केळीकडे निर्देश करत आहे](../../../../../translated_images/mr/time-of-flight-banana.079921ad8b1496e4.webp)
 
 > 💁 तुम्हाला हा कोड [code-proximity/wio-terminal](../../../../../4-manufacturing/lessons/4-trigger-fruit-detector/code-proximity/wio-terminal) फोल्डरमध्ये सापडेल.
 

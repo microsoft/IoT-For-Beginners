@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 [Wio Terminal из Seeed Studios](https://www.seeedstudio.com/Wio-Terminal-p-4509.html) је микроконтролер компатибилан са Ардуином, са уграђеним WiFi-јем, неким сензорима и актуаторима, као и портовима за додавање додатних сензора и актуатора, користећи хардверски екосистем назван [Grove](https://www.seeedstudio.com/category/Grove-c-1003.html).
 
-![Wio Terminal из Seeed Studios](../../../../../translated_images/sr/wio-terminal.b8299ee16587db9a.png)
+![Wio Terminal из Seeed Studios](../../../../../translated_images/sr/wio-terminal.b8299ee16587db9a.webp)
 
 ## Подешавање
 
@@ -51,15 +51,15 @@ CO_OP_TRANSLATOR_METADATA:
 
 1. PlatformIO икона ће бити на бочној мени траци:
 
-    ![Опција PlatformIO менија](../../../../../translated_images/sr/vscode-platformio-menu.297be26b9733e5c4.png)
+    ![Опција PlatformIO менија](../../../../../translated_images/sr/vscode-platformio-menu.297be26b9733e5c4.webp)
 
     Изаберите ову опцију менија, а затим изаберите *PIO Home -> Open*
 
-    ![Опција PlatformIO отварања](../../../../../translated_images/sr/vscode-platformio-home-open.3f9a41bfd3f4da1c.png)
+    ![Опција PlatformIO отварања](../../../../../translated_images/sr/vscode-platformio-home-open.3f9a41bfd3f4da1c.webp)
 
 1. Са почетног екрана, изаберите дугме **+ New Project**
 
-    ![Дугме за нови пројекат](../../../../../translated_images/sr/vscode-platformio-welcome-new-button.ba6fc8a4c7b78cc8.png)
+    ![Дугме за нови пројекат](../../../../../translated_images/sr/vscode-platformio-welcome-new-button.ba6fc8a4c7b78cc8.webp)
 
 1. Конфигуришите пројекат у *Project Wizard*-у:
 
@@ -73,7 +73,7 @@ CO_OP_TRANSLATOR_METADATA:
 
     1. Изаберите дугме **Finish**
 
-    ![Завршен чаробњак за пројекат](../../../../../translated_images/sr/vscode-platformio-nightlight-project-wizard.5c64db4da6037420.png)
+    ![Завршен чаробњак за пројекат](../../../../../translated_images/sr/vscode-platformio-nightlight-project-wizard.5c64db4da6037420.webp)
 
     PlatformIO ће преузети компоненте које су му потребне за компајлирање кода за Wio Terminal и креирати ваш пројекат. Ово може потрајати неколико минута.
 
@@ -179,7 +179,7 @@ VS Code explorer ће приказати бројне датотеке и фас
 
     1. Укуцајте `PlatformIO Upload` да бисте потражили опцију отпремања, и изаберите *PlatformIO: Upload*
 
-        ![Опција PlatformIO отпремања у командној палети](../../../../../translated_images/sr/vscode-platformio-upload-command-palette.9e0f49cf80d1f1c3.png)
+        ![Опција PlatformIO отпремања у командној палети](../../../../../translated_images/sr/vscode-platformio-upload-command-palette.9e0f49cf80d1f1c3.webp)
 
         PlatformIO ће аутоматски компајлирати код ако је потребно пре отпремања.
 
@@ -195,7 +195,7 @@ PlatformIO има серијски монитор који може пратит
 
 1. Укуцајте `PlatformIO Serial` да бисте потражили опцију серијског монитора, и изаберите *PlatformIO: Serial Monitor*
 
-    ![Опција PlatformIO серијског монитора у командној палети](../../../../../translated_images/sr/vscode-platformio-serial-monitor-command-palette.b348ec841b8a1c14.png)
+    ![Опција PlatformIO серијског монитора у командној палети](../../../../../translated_images/sr/vscode-platformio-serial-monitor-command-palette.b348ec841b8a1c14.webp)
 
     Отвориће се нови терминал, и подаци послати преко серијског порта ће се стримовати у овај терминал:
 

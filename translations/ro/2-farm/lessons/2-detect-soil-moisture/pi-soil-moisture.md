@@ -37,7 +37,7 @@ Conectează senzorul de umiditate a solului.
 
 1. Introdu senzorul de umiditate a solului în pământ. Acesta are o „linie de poziție maximă” - o linie albă trasată pe senzor. Introdu senzorul până la această linie, dar nu mai mult.
 
-![Senzorul Grove de umiditate a solului în pământ](../../../../../translated_images/ro/soil-moisture-sensor-in-soil.bfad91002bda5e96.png)
+![Senzorul Grove de umiditate a solului în pământ](../../../../../translated_images/ro/soil-moisture-sensor-in-soil.bfad91002bda5e96.webp)
 
 ## Programează senzorul de umiditate a solului
 

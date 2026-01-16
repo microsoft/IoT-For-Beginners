@@ -65,7 +65,7 @@ Cada espécie de planta tem valores diferentes para a sua temperatura base, óti
 
 ✅ Faz uma pesquisa. Para qualquer planta que tenhas no teu jardim, escola ou parque local, vê se consegues encontrar a temperatura base.
 
-![Um gráfico mostrando a taxa de crescimento a aumentar com a temperatura, depois a cair quando a temperatura fica demasiado alta](../../../../../translated_images/pt/plant-growth-temp-graph.c6d69c9478e6ca83.png)
+![Um gráfico mostrando a taxa de crescimento a aumentar com a temperatura, depois a cair quando a temperatura fica demasiado alta](../../../../../translated_images/pt/plant-growth-temp-graph.c6d69c9478e6ca83.webp)
 
 O gráfico acima mostra um exemplo de taxa de crescimento em relação à temperatura. Até à temperatura base, não há crescimento. A taxa de crescimento aumenta até à temperatura ótima e depois diminui após atingir este pico. Na temperatura máxima, o crescimento para.
 
@@ -91,7 +91,7 @@ Este código abre o ficheiro CSV e adiciona uma nova linha no final. A linha con
 
     
 > 💁 Se estiver a usar um Dispositivo IoT Virtual, selecione a caixa de verificação aleatória e defina um intervalo para evitar obter sempre a mesma temperatura quando o valor da temperatura for retornado.
-    ![Selecione a caixa de verificação aleatória e defina um intervalo](../../../../../translated_images/pt/select-the-random-checkbox-and-set-a-range.32cf4bc7c12e797f.png) 
+    ![Selecione a caixa de verificação aleatória e defina um intervalo](../../../../../translated_images/pt/select-the-random-checkbox-and-set-a-range.32cf4bc7c12e797f.webp) 
 
     > 💁 Se quiser executar isto durante um dia inteiro, então precisa de garantir que o computador onde o código do servidor está a correr não entra em modo de suspensão, seja alterando as definições de energia ou executando algo como [este script Python para manter o sistema ativo](https://github.com/jaqsparow/keep-system-active).
     

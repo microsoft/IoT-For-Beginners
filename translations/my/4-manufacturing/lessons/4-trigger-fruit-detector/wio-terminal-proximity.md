@@ -35,7 +35,7 @@ Time of Flight Sensor ကို ချိတ်ဆက်ပါ။
 
 1. Wio Terminal ကို သင့်ကွန်ပျူတာ သို့မဟုတ် အခြား power supply မှ ချိတ်ဆက်ထားခြင်းမရှိဘဲ Grove cable ၏တစ်ဖက်အဆုံးကို Wio Terminal ၏ screen ကိုကြည့်နေသောအခါ ဘယ်ဘက် Grove socket (power button အနီးဆုံး socket) ထဲသို့ ချိတ်ဆက်ပါ။ ၎င်းသည် digital နှင့် I²C socket ပေါင်းစပ်ထားသော socket ဖြစ်သည်။
 
-![The grove time of flight sensor connected to the left hand socket](../../../../../translated_images/my/wio-time-of-flight-sensor.c4c182131d2ea73d.png)
+![The grove time of flight sensor connected to the left hand socket](../../../../../translated_images/my/wio-time-of-flight-sensor.c4c182131d2ea73d.webp)
 
 1. Wio Terminal ကို သင့်ကွန်ပျူတာနှင့် ချိတ်ဆက်နိုင်ပါပြီ။
 
@@ -101,7 +101,7 @@ Wio Terminal ကို ချိတ်ဆက်ထားသော Time of Flight
 
     Rangefinder သည် sensor ၏နောက်ဘက်တွင်ရှိသောကြောင့် အကွာအဝေးကိုတိုင်းတာသောအခါ မှန်ကန်သောဘက်ကို အသုံးပြုပါ။
 
-    ![The rangefinder on the back of the time of flight sensor pointing at a banana](../../../../../translated_images/my/time-of-flight-banana.079921ad8b1496e4.png)
+    ![The rangefinder on the back of the time of flight sensor pointing at a banana](../../../../../translated_images/my/time-of-flight-banana.079921ad8b1496e4.webp)
 
 > 💁 ဒီ code ကို [code-proximity/wio-terminal](../../../../../4-manufacturing/lessons/4-trigger-fruit-detector/code-proximity/wio-terminal) folder တွင် ရှာနိုင်ပါသည်။
 

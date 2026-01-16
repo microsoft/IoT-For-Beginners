@@ -55,11 +55,11 @@ Um relé é um interruptor eletromecânico que converte um sinal elétrico num m
 
 > 🎓 [Eletroímanes](https://wikipedia.org/wiki/Electromagnet) são ímanes criados ao passar eletricidade por uma bobina de fio. Quando a eletricidade é ligada, a bobina torna-se magnetizada. Quando a eletricidade é desligada, a bobina perde o magnetismo.
 
-![Quando ligado, o eletroíman cria um campo magnético, ativando o interruptor do circuito de saída](../../../../../translated_images/pt/relay-on.4db16a0fd6b66926.png)
+![Quando ligado, o eletroíman cria um campo magnético, ativando o interruptor do circuito de saída](../../../../../translated_images/pt/relay-on.4db16a0fd6b66926.webp)
 
 Num relé, um circuito de controlo alimenta o eletroíman. Quando o eletroíman está ligado, ele puxa uma alavanca que move um interruptor, fechando um par de contactos e completando um circuito de saída.
 
-![Quando desligado, o eletroíman não cria um campo magnético, desligando o interruptor do circuito de saída](../../../../../translated_images/pt/relay-off.c34a178a2960fecd.png)
+![Quando desligado, o eletroíman não cria um campo magnético, desligando o interruptor do circuito de saída](../../../../../translated_images/pt/relay-off.c34a178a2960fecd.webp)
 
 Quando o circuito de controlo está desligado, o eletroíman desliga-se, libertando a alavanca e abrindo os contactos, desligando o circuito de saída. Os relés são atuadores digitais - um sinal alto liga o relé, um sinal baixo desliga-o.
 
@@ -85,7 +85,7 @@ O eletroíman não precisa de muita energia para ativar e puxar a alavanca; ele 
 
 A imagem acima mostra um relé Grove. O circuito de controlo conecta-se a um dispositivo IoT e liga ou desliga o relé usando 3,3V ou 5V. O circuito de saída tem dois terminais, qualquer um pode ser energia ou terra. O circuito de saída pode lidar com até 250V a 10A, suficiente para uma variedade de dispositivos alimentados pela rede elétrica. Existem relés que podem lidar com níveis de potência ainda mais altos.
 
-![Uma bomba ligada através de um relé](../../../../../translated_images/pt/pump-wired-to-relay.66c5cfc0d8918990.png)
+![Uma bomba ligada através de um relé](../../../../../translated_images/pt/pump-wired-to-relay.66c5cfc0d8918990.webp)
 
 Na imagem acima, a energia é fornecida a uma bomba através de um relé. Há um fio vermelho que conecta o terminal +5V de uma fonte de alimentação USB a um terminal do circuito de saída do relé, e outro fio vermelho que conecta o outro terminal do circuito de saída à bomba. Um fio preto conecta a bomba ao terra da fonte de alimentação USB. Quando o relé é ligado, ele completa o circuito, enviando 5V para a bomba, ligando-a.
 
@@ -135,7 +135,7 @@ Na lição 3, construíste uma luz noturna - um LED que se acende assim que um n
 
 Se fizeste a última lição sobre humidade do solo usando um sensor físico, terás notado que demorava alguns segundos para a leitura de humidade do solo diminuir após regares a tua planta. Isto não acontece porque o sensor é lento, mas porque a água demora a infiltrar-se no solo.
 💁 Se regou muito perto do sensor, pode ter notado que a leitura desceu rapidamente e depois voltou a subir - isto acontece porque a água próxima do sensor se espalha pelo resto do solo, reduzindo a humidade do solo junto ao sensor.
-![Uma medição de humidade do solo de 658 não muda durante a rega, só cai para 320 após a rega quando a água penetra no solo](../../../../../translated_images/pt/soil-moisture-travel.a0e31af222cf1438.png)
+![Uma medição de humidade do solo de 658 não muda durante a rega, só cai para 320 após a rega quando a água penetra no solo](../../../../../translated_images/pt/soil-moisture-travel.a0e31af222cf1438.webp)
 
 No diagrama acima, uma leitura de humidade do solo mostra 658. A planta é regada, mas esta leitura não muda imediatamente, pois a água ainda não chegou ao sensor. A rega pode até terminar antes que a água alcance o sensor e o valor diminua para refletir o novo nível de humidade.
 
@@ -157,11 +157,11 @@ Quanto tempo deve o relé estar ligado de cada vez? É melhor pecar por excesso 
 
 > 💁 Este tipo de controlo de temporização é muito específico para o dispositivo IoT que está a construir, a propriedade que está a medir e os sensores e atuadores utilizados.
 
-![Uma planta de morango conectada a água através de uma bomba, com a bomba ligada a um relé. O relé e um sensor de humidade do solo na planta estão ambos conectados a um Raspberry Pi](../../../../../translated_images/pt/strawberry-with-pump.b410fc72ac6aabad.png)
+![Uma planta de morango conectada a água através de uma bomba, com a bomba ligada a um relé. O relé e um sensor de humidade do solo na planta estão ambos conectados a um Raspberry Pi](../../../../../translated_images/pt/strawberry-with-pump.b410fc72ac6aabad.webp)
 
 Por exemplo, tenho uma planta de morango com um sensor de humidade do solo e uma bomba controlada por um relé. Observei que, quando adiciono água, demora cerca de 20 segundos para a leitura de humidade do solo estabilizar. Isto significa que preciso de desligar o relé e esperar 20 segundos antes de verificar os níveis de humidade. Prefiro ter pouca água do que demasiada - posso sempre ligar a bomba novamente, mas não posso retirar água da planta.
 
-![Passo 1, medir. Passo 2, adicionar água. Passo 3, esperar que a água se infiltre no solo. Passo 4, medir novamente](../../../../../translated_images/pt/soil-moisture-delay.865f3fae206db01d.png)
+![Passo 1, medir. Passo 2, adicionar água. Passo 3, esperar que a água se infiltre no solo. Passo 4, medir novamente](../../../../../translated_images/pt/soil-moisture-delay.865f3fae206db01d.webp)
 
 Isto significa que o melhor processo seria um ciclo de rega semelhante a:
 

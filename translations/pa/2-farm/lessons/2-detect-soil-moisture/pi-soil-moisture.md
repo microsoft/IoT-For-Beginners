@@ -37,7 +37,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 1. ਮਿੱਟੀ ਵਿੱਚ ਮਿੱਟੀ ਨਮੀ ਸੈਂਸਰ ਪਾਓ। ਇਸ 'ਤੇ ਇੱਕ 'ਸਭ ਤੋਂ ਉੱਚੀ ਸਥਿਤੀ ਲਾਈਨ' ਹੈ - ਸੈਂਸਰ 'ਤੇ ਇੱਕ ਚਿੱਟੀ ਲਾਈਨ। ਸੈਂਸਰ ਨੂੰ ਇਸ ਲਾਈਨ ਤੱਕ ਪਾਓ ਪਰ ਇਸ ਤੋਂ ਪਾਰ ਨਾ ਕਰੋ।
 
-![ਮਿੱਟੀ ਵਿੱਚ ਗ੍ਰੋਵ ਮਿੱਟੀ ਨਮੀ ਸੈਂਸਰ](../../../../../translated_images/pa/soil-moisture-sensor-in-soil.bfad91002bda5e96.png)
+![ਮਿੱਟੀ ਵਿੱਚ ਗ੍ਰੋਵ ਮਿੱਟੀ ਨਮੀ ਸੈਂਸਰ](../../../../../translated_images/pa/soil-moisture-sensor-in-soil.bfad91002bda5e96.webp)
 
 ## ਮਿੱਟੀ ਨਮੀ ਸੈਂਸਰ ਨੂੰ ਪ੍ਰੋਗਰਾਮ ਕਰੋ
 

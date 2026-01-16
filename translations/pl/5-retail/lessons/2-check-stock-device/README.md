@@ -39,7 +39,7 @@ Detektory obiektów mogą być używane do sprawdzania zapasów, zarówno do ich
 
 Na przykład, jeśli kamera skierowana jest na półki, które mogą pomieścić 8 puszek koncentratu pomidorowego, a detektor obiektów wykrywa tylko 7 puszek, oznacza to, że jedna brakuje i należy ją uzupełnić.
 
-![7 puszek koncentratu pomidorowego na półce, 4 na górnym rzędzie, 3 na dolnym](../../../../../translated_images/pl/stock-7-cans-tomato-paste.f86059cc573d7bec.png)
+![7 puszek koncentratu pomidorowego na półce, 4 na górnym rzędzie, 3 na dolnym](../../../../../translated_images/pl/stock-7-cans-tomato-paste.f86059cc573d7bec.webp)
 
 Na powyższym obrazku detektor obiektów wykrył 7 puszek koncentratu pomidorowego na półce, która może pomieścić 8 puszek. Urządzenie IoT może nie tylko wysłać powiadomienie o konieczności uzupełnienia zapasów, ale także wskazać lokalizację brakującego produktu, co jest istotne, jeśli używasz robotów do uzupełniania półek.
 
@@ -51,7 +51,7 @@ Czasami na półkach może znajdować się niewłaściwy towar. Może to być wy
 
 Detekcja obiektów może być używana do wykrywania nieoczekiwanych produktów, ponownie informując człowieka lub robota o konieczności ich zwrócenia na właściwe miejsce.
 
-![Niepasująca puszka kukurydzy na półce z koncentratem pomidorowym](../../../../../translated_images/pl/stock-rogue-corn.be1f3ada8c457854.png)
+![Niepasująca puszka kukurydzy na półce z koncentratem pomidorowym](../../../../../translated_images/pl/stock-rogue-corn.be1f3ada8c457854.webp)
 
 Na powyższym obrazku puszka kukurydzy została umieszczona na półce obok koncentratu pomidorowego. Detektor obiektów wykrył to, umożliwiając urządzeniu IoT powiadomienie człowieka lub robota o konieczności zwrócenia puszki na właściwe miejsce.
 

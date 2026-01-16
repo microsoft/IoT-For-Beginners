@@ -46,7 +46,7 @@ Această lecție introduce câteva dintre protocoalele de comunicare pe care dis
 
 Există o serie de protocoale de comunicare populare utilizate de dispozitivele IoT pentru a comunica cu Internetul. Cele mai populare sunt bazate pe mesageria de tip publicare/abonare prin intermediul unui broker. Dispozitivele IoT se conectează la broker și publică telemetrie și se abonează la comenzi. Serviciile cloud se conectează, de asemenea, la broker și se abonează la toate mesajele de telemetrie și publică comenzi fie către dispozitive specifice, fie către grupuri de dispozitive.
 
-![Dispozitivele IoT se conectează la un broker și publică telemetrie și se abonează la comenzi. Serviciile cloud se conectează la broker și se abonează la toată telemetria și trimit comenzi către dispozitive specifice.](../../../../../translated_images/ro/pub-sub.7c7ed43fe9fd15d4.png)
+![Dispozitivele IoT se conectează la un broker și publică telemetrie și se abonează la comenzi. Serviciile cloud se conectează la broker și se abonează la toată telemetria și trimit comenzi către dispozitive specifice.](../../../../../translated_images/ro/pub-sub.7c7ed43fe9fd15d4.webp)
 
 MQTT este cel mai popular protocol de comunicare pentru dispozitivele IoT și este acoperit în această lecție. Alte protocoale includ AMQP și HTTP/HTTPS.
 
@@ -115,7 +115,7 @@ Cuvântul telemetrie provine din rădăcini grecești care înseamnă a măsura 
 
 Să ne uităm înapoi la exemplul termostatului inteligent din Lecția 1.
 
-![Un termostat conectat la Internet folosind senzori multipli de cameră](../../../../../translated_images/ro/telemetry.21e5d8b97649d2eb.png)
+![Un termostat conectat la Internet folosind senzori multipli de cameră](../../../../../translated_images/ro/telemetry.21e5d8b97649d2eb.webp)
 
 Termostatul are senzori de temperatură pentru a colecta telemetrie. Cel mai probabil ar avea un senzor de temperatură încorporat și s-ar putea conecta la mai mulți senzori de temperatură externi printr-un protocol wireless, cum ar fi [Bluetooth Low Energy](https://wikipedia.org/wiki/Bluetooth_Low_Energy) (BLE).
 
@@ -267,11 +267,11 @@ Scrie codul serverului.
 
 1. Când VS Code pornește, acesta va activa mediul virtual Python. Acest lucru va fi raportat în bara de stare de jos:
 
-    ![VS Code arătând mediul virtual selectat](../../../../../translated_images/ro/vscode-virtual-env.8ba42e04c3d533cf.png)
+    ![VS Code arătând mediul virtual selectat](../../../../../translated_images/ro/vscode-virtual-env.8ba42e04c3d533cf.webp)
 
 1. Dacă terminalul VS Code este deja pornit când VS Code se deschide, mediul virtual nu va fi activat în acesta. Cel mai simplu lucru de făcut este să închizi terminalul folosind butonul **Kill the active terminal instance**:
 
-    ![Butonul VS Code Kill the active terminal instance](../../../../../translated_images/ro/vscode-kill-terminal.1cc4de7c6f25ee08.png)
+    ![Butonul VS Code Kill the active terminal instance](../../../../../translated_images/ro/vscode-kill-terminal.1cc4de7c6f25ee08.webp)
 
 1. Lansează un nou terminal VS Code selectând *Terminal -> New Terminal*, sau apăsând `` CTRL+` ``. Noul terminal va încărca mediul virtual, cu apelul de activare apărând în terminal. Numele mediului virtual (`.venv`) va apărea și în prompt:
 

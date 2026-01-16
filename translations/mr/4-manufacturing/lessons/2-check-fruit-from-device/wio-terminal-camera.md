@@ -29,7 +29,7 @@ ArduCam मध्ये Grove सॉकेट नाही, त्याऐव�
 
 1. ArduCam च्या तळाशी असलेल्या पिन्स Wio Terminal च्या GPIO पिन्सशी जोडल्या पाहिजेत. योग्य पिन्स शोधणे सोपे करण्यासाठी, Wio Terminal सोबत येणारा GPIO पिन स्टिकर पिन्सभोवती लावा:
 
-    ![GPIO पिन स्टिकर असलेला Wio Terminal](../../../../../translated_images/mr/wio-terminal-pin-sticker.b90b1535937b84bd.png)
+    ![GPIO पिन स्टिकर असलेला Wio Terminal](../../../../../translated_images/mr/wio-terminal-pin-sticker.b90b1535937b84bd.webp)
 
 1. जंपर वायर वापरून खालील कनेक्शन करा:
 
@@ -297,7 +297,7 @@ ArduCam मध्ये Grove सॉकेट नाही, त्याऐव�
 
 1. मायक्रोकंट्रोलर्स तुमचा कोड सतत चालवतात, त्यामुळे फोटो घेणे जसे काहीतरी ट्रिगर करणे सोपे नाही. Wio Terminal मध्ये बटणे आहेत, त्यामुळे कॅमेरा एका बटणाने ट्रिगर होण्यासाठी सेट केला जाऊ शकतो. `setup` फंक्शनच्या शेवटी खालील कोड जोडा जेणेकरून C बटण (तीन बटणांपैकी एक, पॉवर स्विचजवळचे) कॉन्फिगर केले जाईल.
 
-    ![पॉवर स्विचजवळचे C बटण](../../../../../translated_images/mr/wio-terminal-c-button.73df3cb1c1445ea0.png)
+    ![पॉवर स्विचजवळचे C बटण](../../../../../translated_images/mr/wio-terminal-c-button.73df3cb1c1445ea0.webp)
 
     ```cpp
     pinMode(WIO_KEY_C, INPUT_PULLUP);

@@ -51,7 +51,7 @@ LED ကိုချိတ်ဆက်ပါ။
 
     > 💁 ညာဘက် Grove socket ကို analog သို့မဟုတ် digital sensors နဲ့ actuators တွေအတွက် အသုံးပြုနိုင်ပါတယ်။ ဘယ်ဘက် socket ကတော့ I2C နဲ့ digital sensors နဲ့ actuators တွေအတွက်သာ ဖြစ်ပါတယ်။
 
-![The grove LED connected to the right hand socket](../../../../../translated_images/my/wio-led.265a1897e72d7f21.png)
+![The grove LED connected to the right hand socket](../../../../../translated_images/my/wio-led.265a1897e72d7f21.webp)
 
 ## ညဉ့်မီးအိပ်မီးကို အစီအစဉ်ရေးပါ
 

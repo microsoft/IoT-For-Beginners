@@ -126,7 +126,7 @@ Depois de definir as entidades, crias intenções. Estas são aprendidas pelo mo
 
 Depois, indicas ao LUIS quais partes dessas frases correspondem às entidades:
 
-![A frase definir um temporizador para 1 minuto e 12 segundos dividida em entidades](../../../../../translated_images/pt/sentence-as-intent-entities.301401696f992259.png)
+![A frase definir um temporizador para 1 minuto e 12 segundos dividida em entidades](../../../../../translated_images/pt/sentence-as-intent-entities.301401696f992259.webp)
 
 A frase `definir um temporizador para 1 minuto e 12 segundos` tem a intenção de `definir temporizador`. Também tem 2 entidades com 2 valores cada:
 

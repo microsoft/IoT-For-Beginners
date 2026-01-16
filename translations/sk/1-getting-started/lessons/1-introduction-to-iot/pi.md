@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 [Raspberry Pi](https://raspberrypi.org) je jednodeskový počítač. Môžete k nemu pripojiť senzory a akčné členy pomocou širokej škály zariadení a ekosystémov. Pre tieto lekcie budete používať hardvérový ekosystém nazývaný [Grove](https://www.seeedstudio.com/category/Grove-c-1003.html). Raspberry Pi budete programovať a pristupovať k senzorom Grove pomocou jazyka Python.
 
-![Raspberry Pi 4](../../../../../translated_images/sk/raspberry-pi-4.fd4590d308c3d456.jpg)
+![Raspberry Pi 4](../../../../../translated_images/sk/raspberry-pi-4.fd4590d308c3d456.webp)
 
 ## Nastavenie
 
@@ -112,7 +112,7 @@ Nastavte „headless“ Pi OS.
 
 1. V Raspberry Pi Imager vyberte tlačidlo **CHOOSE OS**, potom vyberte *Raspberry Pi OS (Other)* a následne *Raspberry Pi OS Lite (32-bit)*.
 
-    ![Raspberry Pi Imager s vybraným Raspberry Pi OS Lite](../../../../../translated_images/sk/raspberry-pi-imager.24aedeab9e233d84.png)
+    ![Raspberry Pi Imager s vybraným Raspberry Pi OS Lite](../../../../../translated_images/sk/raspberry-pi-imager.24aedeab9e233d84.webp)
 
     > 💁 Raspberry Pi OS Lite je verzia Raspberry Pi OS, ktorá neobsahuje desktopové používateľské rozhranie ani nástroje založené na rozhraní. Tieto nie sú potrebné pre „headless“ Pi, čo robí inštaláciu menšou a rýchlejšou pri spustení.
 
@@ -251,7 +251,7 @@ Vytvorte aplikáciu Hello World.
 
 1. Otvorte tento priečinok vo VS Code výberom *File -> Open...* a výberom priečinka *nightlight*, potom kliknite na **OK**.
 
-    ![Dialógové okno VS Code zobrazujúce priečinok nightlight](../../../../../translated_images/sk/vscode-open-nightlight-remote.d3d2a4011e30d535.png)
+    ![Dialógové okno VS Code zobrazujúce priečinok nightlight](../../../../../translated_images/sk/vscode-open-nightlight-remote.d3d2a4011e30d535.webp)
 
 1. Otvorte súbor `app.py` v prieskumníkovi VS Code a pridajte nasledujúci kód:
 

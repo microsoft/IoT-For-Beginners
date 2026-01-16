@@ -13,7 +13,7 @@ Połączenie przewidywań i ich ramki ograniczającej może być użyte do licze
 
 ## Liczenie zapasów
 
-![4 puszki koncentratu pomidorowego z ramkami ograniczającymi wokół każdej puszki](../../../../../translated_images/pl/rpi-stock-with-bounding-boxes.b5540e2ecb7cd49f.jpg)
+![4 puszki koncentratu pomidorowego z ramkami ograniczającymi wokół każdej puszki](../../../../../translated_images/pl/rpi-stock-with-bounding-boxes.b5540e2ecb7cd49f.webp)
 
 Na powyższym obrazie ramki ograniczające mają niewielkie nakładanie się. Jeśli to nakładanie byłoby znacznie większe, ramki mogłyby wskazywać na ten sam obiekt. Aby poprawnie policzyć obiekty, należy ignorować ramki z istotnym nakładaniem się.
 

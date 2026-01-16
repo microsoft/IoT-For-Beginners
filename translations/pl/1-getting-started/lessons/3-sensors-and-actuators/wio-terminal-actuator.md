@@ -51,7 +51,7 @@ Podłącz diodę LED.
 
     > 💁 Prawe gniazdo Grove może być używane z analogowymi lub cyfrowymi czujnikami i aktuatorami. Lewe gniazdo jest przeznaczone tylko dla czujników i aktuatorów cyfrowych. C zostanie omówione w późniejszej lekcji.
 
-![Dioda Grove LED podłączona do prawego gniazda](../../../../../translated_images/pl/wio-led.265a1897e72d7f21.png)
+![Dioda Grove LED podłączona do prawego gniazda](../../../../../translated_images/pl/wio-led.265a1897e72d7f21.webp)
 
 ## Zaprogramuj lampkę nocną
 

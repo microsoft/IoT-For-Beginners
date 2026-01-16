@@ -81,7 +81,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 1. ਐਪ ਚਲਾਓ ਅਤੇ ਕੈਮਰਾ ਨੂੰ ਸ਼ੈਲਫ 'ਤੇ ਕੁਝ ਸਟਾਕ ਵੱਲ ਇਸ਼ਾਰਾ ਕਰੋ। ਤੁਸੀਂ VS Code ਐਕਸਪਲੋਰਰ ਵਿੱਚ `image.jpg` ਫਾਈਲ ਦੇਖੋਗੇ ਅਤੇ ਇਸਨੂੰ ਚੁਣ ਕੇ ਬਾਊਂਡਿੰਗ ਬਾਕਸਾਂ ਦੇਖ ਸਕਦੇ ਹੋ।
 
-    ![4 ਟਮਾਟਰ ਪੇਸਟ ਦੇ ਕੈਨ, ਹਰ ਕੈਨ ਦੇ ਆਲੇ-ਦੁਆਲੇ ਬਾਊਂਡਿੰਗ ਬਾਕਸ](../../../../../translated_images/pa/rpi-stock-with-bounding-boxes.b5540e2ecb7cd49f.jpg)
+    ![4 ਟਮਾਟਰ ਪੇਸਟ ਦੇ ਕੈਨ, ਹਰ ਕੈਨ ਦੇ ਆਲੇ-ਦੁਆਲੇ ਬਾਊਂਡਿੰਗ ਬਾਕਸ](../../../../../translated_images/pa/rpi-stock-with-bounding-boxes.b5540e2ecb7cd49f.webp)
 
 ## ਸਟਾਕ ਗਿਣੋ
 

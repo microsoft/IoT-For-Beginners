@@ -39,7 +39,7 @@ Pengesan objek boleh digunakan untuk memeriksa stok, sama ada mengira stok atau 
 
 Sebagai contoh, jika kamera menghala ke rak yang boleh memuatkan 8 tin pes tomato, dan pengesan objek hanya mengesan 7 tin, maka satu tin hilang dan perlu diisi semula.
 
-![7 tin pes tomato di rak, 4 di baris atas, 3 di bawah](../../../../../translated_images/ms/stock-7-cans-tomato-paste.f86059cc573d7bec.png)
+![7 tin pes tomato di rak, 4 di baris atas, 3 di bawah](../../../../../translated_images/ms/stock-7-cans-tomato-paste.f86059cc573d7bec.webp)
 
 Dalam gambar di atas, pengesan objek telah mengesan 7 tin pes tomato di rak yang boleh memuatkan 8 tin. Bukan sahaja peranti IoT boleh menghantar pemberitahuan tentang keperluan untuk mengisi semula, tetapi ia juga boleh memberikan petunjuk tentang lokasi barang yang hilang, data penting jika anda menggunakan robot untuk mengisi semula rak.
 
@@ -51,7 +51,7 @@ Kadang-kadang stok yang salah boleh berada di rak. Ini mungkin disebabkan oleh k
 
 Pengesanan objek boleh digunakan untuk mengesan barang yang tidak dijangka, sekali lagi memberi amaran kepada manusia atau robot untuk mengembalikan barang tersebut sebaik sahaja ia dikesan.
 
-![Satu tin jagung bayi yang salah di rak pes tomato](../../../../../translated_images/ms/stock-rogue-corn.be1f3ada8c457854.png)
+![Satu tin jagung bayi yang salah di rak pes tomato](../../../../../translated_images/ms/stock-rogue-corn.be1f3ada8c457854.webp)
 
 Dalam gambar di atas, satu tin jagung bayi telah diletakkan di rak sebelah pes tomato. Pengesan objek telah mengesan ini, membolehkan peranti IoT memberitahu manusia atau robot untuk mengembalikan tin tersebut ke lokasi yang betul.
 

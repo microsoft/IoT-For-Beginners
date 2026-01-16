@@ -65,7 +65,7 @@ Hver planteart har forskjellige verdier for sin basis-, optimal- og maksimumstem
 
 ✅ Gjør litt research. For planter du har i hagen, på skolen eller i en lokal park, se om du kan finne basistemperaturen.
 
-![En graf som viser vekstraten som øker med temperaturen, og deretter faller når temperaturen blir for høy](../../../../../translated_images/no/plant-growth-temp-graph.c6d69c9478e6ca83.png)
+![En graf som viser vekstraten som øker med temperaturen, og deretter faller når temperaturen blir for høy](../../../../../translated_images/no/plant-growth-temp-graph.c6d69c9478e6ca83.webp)
 
 Grafen ovenfor viser et eksempel på en vekstrate til temperatur-graf. Opp til basistemperaturen er det ingen vekst. Vekstraten øker opp til den optimale temperaturen, og faller deretter etter å ha nådd denne toppen. 
 
@@ -91,7 +91,7 @@ Denne koden åpner CSV-filen og legger til en ny rad på slutten. Raden innehold
 
     
 > 💁 Hvis du bruker en virtuell IoT-enhet, velg avkrysningsboksen for tilfeldig og sett et område for å unngå å få samme temperatur hver gang temperaturen returneres.
-    ![Velg avkrysningsboksen for tilfeldig og sett et område](../../../../../translated_images/no/select-the-random-checkbox-and-set-a-range.32cf4bc7c12e797f.png) 
+    ![Velg avkrysningsboksen for tilfeldig og sett et område](../../../../../translated_images/no/select-the-random-checkbox-and-set-a-range.32cf4bc7c12e797f.webp) 
 
     > 💁 Hvis du vil kjøre dette i en hel dag, må du sørge for at datamaskinen serverkoden din kjører på ikke går i dvale, enten ved å endre strøminnstillingene dine eller kjøre noe som [dette Python-skriptet for å holde systemet aktivt](https://github.com/jaqsparow/keep-system-active).
     

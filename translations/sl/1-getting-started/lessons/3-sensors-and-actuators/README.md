@@ -75,7 +75,7 @@ Nekateri najosnovnejši senzorji so analogni senzorji. Ti senzorji prejmejo nape
 
 Eden od primerov je potenciometer. To je gumb, ki ga lahko zavrtite med dvema položajema, senzor pa meri rotacijo.
 
-![Potenciometer nastavljen na srednjo točko, ki prejema 5 voltov in vrača 3,8 volta](../../../../../translated_images/sl/potentiometer.35a348b9ce22f6ec.png)
+![Potenciometer nastavljen na srednjo točko, ki prejema 5 voltov in vrača 3,8 volta](../../../../../translated_images/sl/potentiometer.35a348b9ce22f6ec.webp)
 
 IoT naprava pošlje električni signal potenciometru z določeno napetostjo, na primer 5 voltov (5V). Ko se potenciometer prilagodi, spremeni napetost, ki pride iz druge strani. Predstavljajte si potenciometer, označen kot gumb, ki gre od 0 do [11](https://wikipedia.org/wiki/Up_to_eleven), na primer gumb za glasnost na ojačevalniku. Ko je potenciometer v popolnoma izklopljenem položaju (0), bo iz njega prišlo 0V (0 voltov). Ko je v popolnoma vklopljenem položaju (11), bo iz njega prišlo 5V (5 voltov).
 
@@ -112,7 +112,7 @@ Pini na IoT napravah, kot so GPIO pini, lahko neposredno merijo ta signal kot 0 
 
 Naprednejši digitalni senzorji berejo analogne vrednosti, nato pa jih pretvorijo z vgrajenimi ADC-ji v digitalne signale. Na primer, digitalni temperaturni senzor bo še vedno uporabljal termoelement na enak način kot analogni senzor in bo še vedno meril spremembo napetosti, ki jo povzroča upornost termoelementa pri trenutni temperaturi. Namesto da bi vrnil analogno vrednost in se zanašal na napravo ali priključno ploščo za pretvorbo v digitalni signal, bo ADC, vgrajen v senzor, pretvoril vrednost in jo poslal kot niz 0 in 1 IoT napravi. Te 0 in 1 se pošljejo na enak način kot digitalni signal za gumb, pri čemer je 1 polna napetost, 0 pa 0V.
 
-![Digitalni temperaturni senzor pretvarja analogno vrednost v binarne podatke, kjer je 0 enako 0 voltov in 1 enako 5 voltov, preden jih pošlje IoT napravi](../../../../../translated_images/sl/temperature-as-digital.85004491b977bae1.png)
+![Digitalni temperaturni senzor pretvarja analogno vrednost v binarne podatke, kjer je 0 enako 0 voltov in 1 enako 5 voltov, preden jih pošlje IoT napravi](../../../../../translated_images/sl/temperature-as-digital.85004491b977bae1.webp)
 
 Pošiljanje digitalnih podatkov omogoča, da senzorji postanejo bolj zapleteni in pošiljajo podrobnejše podatke, celo šifrirane podatke za varne senzorje. Eden od primerov je kamera. To je senzor, ki zajame sliko in jo pošlje kot digitalne podatke, ki vsebujejo to sliko, običajno v stisnjeni obliki, kot je JPEG, da jo prebere IoT naprava. Lahko celo pretaka video z zajemanjem slik in pošiljanjem bodisi celotne slike okvir za okvirjem bodisi stisnjenega video toka.
 
@@ -164,7 +164,7 @@ Na primer, PWM lahko uporabite za nadzor hitrosti motorja.
 
 Predstavljajte si, da upravljate motor s 5V napajanjem. Pošljete kratek impulz motorju, ki za dve stotinki sekunde (0,02s) preklopi napetost na visoko (5V). V tem času se motor lahko zavrti za eno desetino obrata ali 36°. Signal nato za dve stotinki sekunde (0,02s) preklopi na nizko napetost (0V). Vsak cikel vklopa in izklopa traja 0,04s. Cikel se nato ponovi.
 
-![Modulacija širine impulza - rotacija motorja pri 150 RPM](../../../../../translated_images/sl/pwm-motor-150rpm.83347ac04ca38482.png)
+![Modulacija širine impulza - rotacija motorja pri 150 RPM](../../../../../translated_images/sl/pwm-motor-150rpm.83347ac04ca38482.webp)
 
 To pomeni, da v eni sekundi pošljete 25 impulzov 5V, ki trajajo 0,02s in zavrtijo motor, vsakemu pa sledi 0,02s premora pri 0V, ko motor ne vrti. Vsak impulz zavrti motor za eno desetino obrata, kar pomeni, da motor opravi 2,5 obrata na sekundo. Uporabili ste digitalni signal za vrtenje motorja pri 2,5 obratih na sekundo ali 150 [obratov na minuto](https://wikipedia.org/wiki/Revolutions_per_minute) (nestandardna enota za merjenje hitrosti vrtenja).
 
@@ -175,7 +175,7 @@ To pomeni, da v eni sekundi pošljete 25 impulzov 5V, ki trajajo 0,02s in zavrti
 
 > 🎓 Ko je PWM signal vklopljen polovico časa in izklopljen polovico časa, se to imenuje [50% delovni cikel](https://wikipedia.org/wiki/Duty_cycle). Delovni cikli se merijo kot odstotek časa, ko je signal v stanju vklopa v primerjavi s stanjem izklopa.
 
-![Modulacija širine impulza - rotacija motorja pri 75 RPM](../../../../../translated_images/sl/pwm-motor-75rpm.a5e4c939934b6e14.png)
+![Modulacija širine impulza - rotacija motorja pri 75 RPM](../../../../../translated_images/sl/pwm-motor-75rpm.a5e4c939934b6e14.webp)
 
 Hitrost motorja lahko spremenite s spreminjanjem dolžine impulzov. Na primer, pri istem motorju lahko ohranite enak čas cikla 0,04s, pri čemer je impulz vklopa prepolovljen na 0,01s, impulz izklopa pa povečan na 0,03s. Število impulzov na sekundo (25) ostane enako, vendar je vsak impulz vklopa polovične dolžine. Polovični impulz zavrti motor za eno dvajsetino obrata, in pri 25 impulzih na sekundo motor opravi 1,25 obrata na sekundo ali 75 RPM. S spreminjanjem hitrosti impulzov digitalnega signala ste prepolovili hitrost analognega motorja.
 

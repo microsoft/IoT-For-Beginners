@@ -79,7 +79,7 @@ Een microcontroller (ook wel MCU genoemd, wat staat voor microcontroller unit) i
 
 Microcontrollers zijn doorgaans goedkope computerapparaten, met gemiddelde prijzen voor die in aangepaste hardware dalend tot ongeveer US$0,50, en sommige apparaten zo goedkoop als US$0,03. Ontwikkelaarskits beginnen vanaf ongeveer US$4, met stijgende kosten naarmate je meer functies toevoegt. De [Wio Terminal](https://www.seeedstudio.com/Wio-Terminal-p-4509.html), een microcontroller-ontwikkelaarskit van [Seeed studios](https://www.seeedstudio.com) met sensoren, actuatoren, WiFi en een scherm, kost ongeveer US$30.
 
-![Een Wio Terminal](../../../../../translated_images/nl/wio-terminal.b8299ee16587db9a.png)
+![Een Wio Terminal](../../../../../translated_images/nl/wio-terminal.b8299ee16587db9a.webp)
 
 > 💁 Wees voorzichtig bij het zoeken naar microcontrollers op internet met de term **MCU**, omdat dit veel resultaten zal opleveren voor het Marvel Cinematic Universe in plaats van microcontrollers.
 
@@ -93,7 +93,7 @@ Microcontroller-ontwikkelaarskits hebben meestal extra sensoren en actuatoren aa
 
 Een single-board computer is een klein computerapparaat dat alle elementen van een complete computer bevat op één enkele kleine printplaat. Dit zijn apparaten met specificaties die dicht bij een desktop- of laptop-pc of Mac liggen, een volledig besturingssysteem draaien, maar kleiner zijn, minder stroom verbruiken en aanzienlijk goedkoper zijn.
 
-![Een Raspberry Pi 4](../../../../../translated_images/nl/raspberry-pi-4.fd4590d308c3d456.jpg)
+![Een Raspberry Pi 4](../../../../../translated_images/nl/raspberry-pi-4.fd4590d308c3d456.webp)
 
 De Raspberry Pi is een van de populairste single-board computers.
 

@@ -39,7 +39,7 @@ Objektdetektorer kan brukes til lagerkontroll, enten for å telle lagerbeholdnin
 
 For eksempel, hvis et kamera peker mot en hylle som kan holde 8 bokser med tomatpuré, og en objektdetektor bare oppdager 7 bokser, mangler én og må fylles på.
 
-![7 bokser med tomatpuré på en hylle, 4 på øverste rad, 3 på nederste rad](../../../../../translated_images/no/stock-7-cans-tomato-paste.f86059cc573d7bec.png)
+![7 bokser med tomatpuré på en hylle, 4 på øverste rad, 3 på nederste rad](../../../../../translated_images/no/stock-7-cans-tomato-paste.f86059cc573d7bec.webp)
 
 I bildet ovenfor har en objektdetektor oppdaget 7 bokser med tomatpuré på en hylle som kan holde 8 bokser. Ikke bare kan IoT-enheten sende en melding om behovet for påfyll, men den kan også gi en indikasjon på hvor den manglende varen befinner seg, viktig informasjon hvis du bruker roboter til å fylle på hyllene.
 
@@ -51,7 +51,7 @@ Noen ganger kan feil varer havne på hyllene. Dette kan skyldes menneskelige fei
 
 Objektdeteksjon kan brukes til å oppdage uventede varer, og varsle en person eller robot om å returnere varen så snart den oppdages.
 
-![En boks med babymais på tomatpuréhylle](../../../../../translated_images/no/stock-rogue-corn.be1f3ada8c457854.png)
+![En boks med babymais på tomatpuréhylle](../../../../../translated_images/no/stock-rogue-corn.be1f3ada8c457854.webp)
 
 I bildet ovenfor har en boks med babymais blitt plassert på hyllen ved siden av tomatpuréen. Objektdetektoren har oppdaget dette, slik at IoT-enheten kan varsle en person eller robot om å returnere boksen til riktig plass.
 

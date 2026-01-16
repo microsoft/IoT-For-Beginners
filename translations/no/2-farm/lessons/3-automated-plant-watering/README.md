@@ -55,11 +55,11 @@ Et relé er en elektromekanisk bryter som konverterer et elektrisk signal til en
 
 > 🎓 [Elektromagneter](https://wikipedia.org/wiki/Electromagnet) er magneter som skapes ved å sende elektrisitet gjennom en spole av ledning. Når elektrisiteten er slått på, blir spolen magnetisert. Når elektrisiteten er slått av, mister spolen magnetismen.
 
-![Når på, skaper elektromagneten et magnetfelt som slår på bryteren for utgangskretsen](../../../../../translated_images/no/relay-on.4db16a0fd6b66926.png)
+![Når på, skaper elektromagneten et magnetfelt som slår på bryteren for utgangskretsen](../../../../../translated_images/no/relay-on.4db16a0fd6b66926.webp)
 
 I et relé driver en kontrollkrets elektromagneten. Når elektromagneten er på, trekker den en spak som beveger en bryter, lukker et par kontakter og fullfører en utgangskrets.
 
-![Når av, skaper ikke elektromagneten et magnetfelt, og bryteren for utgangskretsen er slått av](../../../../../translated_images/no/relay-off.c34a178a2960fecd.png)
+![Når av, skaper ikke elektromagneten et magnetfelt, og bryteren for utgangskretsen er slått av](../../../../../translated_images/no/relay-off.c34a178a2960fecd.webp)
 
 Når kontrollkretsen er av, slår elektromagneten seg av, slipper spaken og åpner kontaktene, og slår av utgangskretsen. Reléer er digitale aktuatorer – et høyt signal til reléet slår det på, et lavt signal slår det av.
 
@@ -85,7 +85,7 @@ Elektromagneten trenger ikke mye strøm for å aktivere og trekke spaken, den ka
 
 Bildet ovenfor viser et Grove-relé. Kontrollkretsen kobles til en IoT-enhet og slår reléet av eller på med 3,3V eller 5V. Utgangskretsen har to terminaler, hvorav en kan være strøm eller jord. Utgangskretsen kan håndtere opptil 250V ved 10A, nok for en rekke enheter som drives av strømnettet. Du kan få reléer som kan håndtere enda høyere strømnivåer.
 
-![En pumpe koblet via et relé](../../../../../translated_images/no/pump-wired-to-relay.66c5cfc0d8918990.png)
+![En pumpe koblet via et relé](../../../../../translated_images/no/pump-wired-to-relay.66c5cfc0d8918990.webp)
 
 I bildet ovenfor leveres strøm til en pumpe via et relé. Det er en rød ledning som kobler +5V-terminalen på en USB-strømkilde til én terminal på utgangskretsen til reléet, og en annen rød ledning som kobler den andre terminalen på utgangskretsen til pumpen. En svart ledning kobler pumpen til jord på USB-strømkilden. Når reléet slår seg på, fullfører det kretsen, sender 5V til pumpen og slår pumpen på.
 
@@ -135,7 +135,7 @@ Tilbake i leksjon 3 bygde du en nattlampe – en LED som slår seg på så snart
 
 Hvis du gjorde forrige leksjon om jordfuktighet med en fysisk sensor, ville du ha lagt merke til at det tok noen sekunder før jordfuktighetsmålingen sank etter at du vannet planten din. Dette er ikke fordi sensoren er treg, men fordi det tar tid for vannet å trekke gjennom jorden.
 💁 Hvis du vannet for nær sensoren, kan du ha sett at målingen falt raskt og deretter steg igjen – dette skyldes at vannet nær sensoren sprer seg gjennom resten av jorden, noe som reduserer jordfuktigheten ved sensoren.
-![En måling av jordfuktighet på 658 endrer seg ikke under vanning, den faller først til 320 etter vanning når vannet har trukket gjennom jorden](../../../../../translated_images/no/soil-moisture-travel.a0e31af222cf1438.png)
+![En måling av jordfuktighet på 658 endrer seg ikke under vanning, den faller først til 320 etter vanning når vannet har trukket gjennom jorden](../../../../../translated_images/no/soil-moisture-travel.a0e31af222cf1438.webp)
 
 I diagrammet ovenfor viser en måling av jordfuktighet 658. Planten blir vannet, men denne målingen endrer seg ikke umiddelbart, siden vannet ennå ikke har nådd sensoren. Vanningen kan til og med være ferdig før vannet når sensoren og verdien faller for å reflektere det nye fuktighetsnivået.
 
@@ -157,11 +157,11 @@ Hvor lenge bør reléet være på hver gang? Det er bedre å være forsiktig og 
 
 > 💁 Denne typen timingkontroll er veldig spesifikk for IoT-enheten du bygger, egenskapen du måler og sensorene og aktuatorene som brukes.
 
-![En jordbærplante koblet til vann via en pumpe, med pumpen koblet til et relé. Reléet og en jordfuktighetssensor i planten er begge koblet til en Raspberry Pi](../../../../../translated_images/no/strawberry-with-pump.b410fc72ac6aabad.png)
+![En jordbærplante koblet til vann via en pumpe, med pumpen koblet til et relé. Reléet og en jordfuktighetssensor i planten er begge koblet til en Raspberry Pi](../../../../../translated_images/no/strawberry-with-pump.b410fc72ac6aabad.webp)
 
 For eksempel har jeg en jordbærplante med en jordfuktighetssensor og en pumpe kontrollert av et relé. Jeg har observert at når jeg tilfører vann, tar det omtrent 20 sekunder før målingen av jordfuktighet stabiliserer seg. Dette betyr at jeg må slå av reléet og vente 20 sekunder før jeg sjekker fuktighetsnivåene. Jeg foretrekker å ha for lite vann enn for mye – jeg kan alltid slå på pumpen igjen, men jeg kan ikke fjerne vann fra planten.
 
-![Steg 1, ta måling. Steg 2, tilføre vann. Steg 3, vent til vannet har trukket gjennom jorden. Steg 4, ta ny måling](../../../../../translated_images/no/soil-moisture-delay.865f3fae206db01d.png)
+![Steg 1, ta måling. Steg 2, tilføre vann. Steg 3, vent til vannet har trukket gjennom jorden. Steg 4, ta ny måling](../../../../../translated_images/no/soil-moisture-delay.865f3fae206db01d.webp)
 
 Dette betyr at den beste prosessen vil være en vanningssyklus som ser slik ut:
 

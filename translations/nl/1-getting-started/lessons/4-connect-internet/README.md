@@ -46,7 +46,7 @@ In deze les behandelen we:
 
 Er zijn verschillende populaire communicatieprotocollen die door IoT-apparaten worden gebruikt om met het internet te communiceren. De meest gebruikte protocollen zijn gebaseerd op het publiceren/abonneren-model via een soort broker. De IoT-apparaten maken verbinding met de broker en publiceren telemetrie en abonneren zich op opdrachten. De clouddiensten maken ook verbinding met de broker, abonneren zich op alle telemetrieberichten en publiceren opdrachten, hetzij aan specifieke apparaten, hetzij aan groepen apparaten.
 
-![IoT-apparaten maken verbinding met een broker, publiceren telemetrie en abonneren zich op opdrachten. Clouddiensten maken verbinding met de broker, abonneren zich op alle telemetrie en sturen opdrachten naar specifieke apparaten.](../../../../../translated_images/nl/pub-sub.7c7ed43fe9fd15d4.png)
+![IoT-apparaten maken verbinding met een broker, publiceren telemetrie en abonneren zich op opdrachten. Clouddiensten maken verbinding met de broker, abonneren zich op alle telemetrie en sturen opdrachten naar specifieke apparaten.](../../../../../translated_images/nl/pub-sub.7c7ed43fe9fd15d4.webp)
 
 MQTT is het meest populaire communicatieprotocol voor IoT-apparaten en wordt in deze les behandeld. Andere protocollen zijn onder andere AMQP en HTTP/HTTPS.
 
@@ -115,7 +115,7 @@ Het woord telemetrie is afgeleid van Griekse wortels die "op afstand meten" bete
 
 Laten we terugkijken naar het voorbeeld van de slimme thermostaat uit Les 1.
 
-![Een internetverbonden thermostaat met meerdere kamertemperatuursensoren](../../../../../translated_images/nl/telemetry.21e5d8b97649d2eb.png)
+![Een internetverbonden thermostaat met meerdere kamertemperatuursensoren](../../../../../translated_images/nl/telemetry.21e5d8b97649d2eb.webp)
 
 De thermostaat heeft temperatuursensoren om telemetrie te verzamelen. Het heeft waarschijnlijk één ingebouwde temperatuursensor en kan verbinding maken met meerdere externe temperatuursensoren via een draadloos protocol zoals [Bluetooth Low Energy](https://wikipedia.org/wiki/Bluetooth_Low_Energy) (BLE).
 
@@ -267,11 +267,11 @@ Schrijf de servercode.
 
 1. Wanneer VS Code wordt gestart, zal het de Python virtuele omgeving activeren. Dit wordt weergegeven in de onderste statusbalk:
 
-    ![VS Code toont de geselecteerde virtuele omgeving](../../../../../translated_images/nl/vscode-virtual-env.8ba42e04c3d533cf.png)
+    ![VS Code toont de geselecteerde virtuele omgeving](../../../../../translated_images/nl/vscode-virtual-env.8ba42e04c3d533cf.webp)
 
 1. Als de VS Code Terminal al actief is wanneer VS Code wordt gestart, zal de virtuele omgeving niet geactiveerd zijn in de terminal. Het eenvoudigste is om de terminal te sluiten met de knop **Kill the active terminal instance**:
 
-    ![VS Code Kill the active terminal instance-knop](../../../../../translated_images/nl/vscode-kill-terminal.1cc4de7c6f25ee08.png)
+    ![VS Code Kill the active terminal instance-knop](../../../../../translated_images/nl/vscode-kill-terminal.1cc4de7c6f25ee08.webp)
 
 1. Start een nieuwe VS Code Terminal door *Terminal -> New Terminal* te selecteren of door `` CTRL+` `` in te drukken. De nieuwe terminal zal de virtuele omgeving laden, waarbij de activeringsopdracht in de terminal verschijnt. De naam van de virtuele omgeving (`.venv`) zal ook in de prompt staan:
 

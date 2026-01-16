@@ -31,7 +31,7 @@ Sambungkan sensor suhu
 
 1. Dengan Raspberry Pi dimatikan, sambungkan hujung lain kabel Grove ke soket digital yang ditandakan **D5** pada Grove Base hat yang disambungkan ke Pi. Soket ini adalah yang kedua dari kiri, pada barisan soket bersebelahan dengan pin GPIO.
 
-![Sensor suhu Grove disambungkan ke soket A0](../../../../../translated_images/ms/pi-temperature-sensor.3ff82fff672c8e56.png)
+![Sensor suhu Grove disambungkan ke soket A0](../../../../../translated_images/ms/pi-temperature-sensor.3ff82fff672c8e56.webp)
 
 ## Programkan sensor suhu
 

@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 [ਰਾਸਪਬੈਰੀ ਪਾਈ](https://raspberrypi.org) ਇੱਕ ਸਿੰਗਲ-ਬੋਰਡ ਕੰਪਿਊਟਰ ਹੈ। ਤੁਸੀਂ ਸੈਂਸਰ ਅਤੇ ਐਕਚੁਏਟਰ ਨੂੰ ਵੱਖ-ਵੱਖ ਡਿਵਾਈਸ ਅਤੇ ਈਕੋਸਿਸਟਮ ਦੀ ਵਰਤੋਂ ਕਰਕੇ ਜੋੜ ਸਕਦੇ ਹੋ। ਇਸ ਪਾਠ ਵਿੱਚ, ਤੁਸੀਂ ਇੱਕ ਹਾਰਡਵੇਅਰ ਈਕੋਸਿਸਟਮ [Grove](https://www.seeedstudio.com/category/Grove-c-1003.html) ਦੀ ਵਰਤੋਂ ਕਰ ਰਹੇ ਹੋ। ਤੁਸੀਂ Python ਦੀ ਵਰਤੋਂ ਕਰਕੇ ਆਪਣੇ Pi ਨੂੰ ਕੋਡ ਕਰੋਗੇ ਅਤੇ Grove ਸੈਂਸਰਾਂ ਤੱਕ ਪਹੁੰਚ ਹਾਸਲ ਕਰੋਗੇ।
 
-![ਰਾਸਪਬੈਰੀ ਪਾਈ 4](../../../../../translated_images/pa/raspberry-pi-4.fd4590d308c3d456.jpg)
+![ਰਾਸਪਬੈਰੀ ਪਾਈ 4](../../../../../translated_images/pa/raspberry-pi-4.fd4590d308c3d456.webp)
 
 ## ਸੈਟਅਪ
 
@@ -112,7 +112,7 @@ Pi 'ਤੇ ਸਿੱਧੇ ਕੋਡ ਕਰਨ ਦੀ ਬਜਾਏ, ਇਹ 'head
 
 1. ਰਾਸਪਬੈਰੀ ਪਾਈ ਇਮੇਜਰ ਤੋਂ, **CHOOSE OS** ਬਟਨ ਚੁਣੋ, ਫਿਰ *Raspberry Pi OS (Other)* ਚੁਣੋ, ਅਤੇ *Raspberry Pi OS Lite (32-bit)* ਚੁਣੋ।
 
-    ![ਰਾਸਪਬੈਰੀ ਪਾਈ ਇਮੇਜਰ ਜਿਸ ਵਿੱਚ Raspberry Pi OS Lite ਚੁਣਿਆ ਗਿਆ ਹੈ](../../../../../translated_images/pa/raspberry-pi-imager.24aedeab9e233d84.png)
+    ![ਰਾਸਪਬੈਰੀ ਪਾਈ ਇਮੇਜਰ ਜਿਸ ਵਿੱਚ Raspberry Pi OS Lite ਚੁਣਿਆ ਗਿਆ ਹੈ](../../../../../translated_images/pa/raspberry-pi-imager.24aedeab9e233d84.webp)
 
     > 💁 Raspberry Pi OS Lite ਰਾਸਪਬੈਰੀ ਪਾਈ OS ਦਾ ਇੱਕ ਵਰਜਨ ਹੈ ਜਿਸ ਵਿੱਚ ਡੈਸਕਟਾਪ UI ਜਾਂ UI ਅਧਾਰਿਤ ਟੂਲ ਨਹੀਂ ਹਨ। ਇਹ 'headless' Pi ਲਈ ਲੋੜੀਂਦੇ ਨਹੀਂ ਹਨ ਅਤੇ ਇੰਸਟਾਲ ਨੂੰ ਛੋਟਾ ਅਤੇ ਬੂਟ ਅੱਪ ਸਮਾਂ ਤੇਜ਼ ਬਣਾਉਂਦੇ ਹਨ।
 
@@ -191,7 +191,7 @@ Pi ਲਈ ਹੈਲੋ ਵਰਲਡ ਐਪ ਇਹ ਯਕੀਨੀ ਬਣਾਏ�
 
 1. ਇਸ ਫੋਲਡਰ ਨੂੰ VS Code ਵਿੱਚ ਖੋਲ੍ਹੋ *File -> Open...* ਚੁਣ ਕੇ ਅਤੇ *nightlight* ਫੋਲਡਰ ਚੁਣੋ, ਫਿਰ **OK** ਚੁਣੋ।
 
-    ![VS Code ਦਾ ਓਪਨ ਡਾਇਲਾਗ ਜੋ nightlight ਫੋਲਡਰ ਦਿਖਾ ਰਿਹਾ ਹੈ](../../../../../translated_images/pa/vscode-open-nightlight-remote.d3d2a4011e30d535.png)
+    ![VS Code ਦਾ ਓਪਨ ਡਾਇਲਾਗ ਜੋ nightlight ਫੋਲਡਰ ਦਿਖਾ ਰਿਹਾ ਹੈ](../../../../../translated_images/pa/vscode-open-nightlight-remote.d3d2a4011e30d535.webp)
 
 1. VS Code ਐਕਸਪਲੋਰਰ ਤੋਂ `app.py` ਫਾਈਲ ਖੋਲ੍ਹੋ ਅਤੇ ਹੇਠਾਂ ਦਿੱਤਾ ਕੋਡ ਸ਼ਾਮਲ ਕਰੋ:
 

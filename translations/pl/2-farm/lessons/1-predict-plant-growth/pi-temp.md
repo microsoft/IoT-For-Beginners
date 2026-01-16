@@ -31,7 +31,7 @@ Podłącz czujnik temperatury.
 
 1. Przy wyłączonym zasilaniu Raspberry Pi, podłącz drugi koniec kabla Grove do gniazda cyfrowego oznaczonego jako **D5** na nakładce Grove Base zamontowanej na Raspberry Pi. To gniazdo znajduje się jako drugie od lewej w rzędzie gniazd obok pinów GPIO.
 
-![Czujnik temperatury Grove podłączony do gniazda A0](../../../../../translated_images/pl/pi-temperature-sensor.3ff82fff672c8e56.png)
+![Czujnik temperatury Grove podłączony do gniazda A0](../../../../../translated_images/pl/pi-temperature-sensor.3ff82fff672c8e56.webp)
 
 ## Programowanie czujnika temperatury
 

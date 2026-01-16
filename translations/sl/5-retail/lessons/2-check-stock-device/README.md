@@ -39,7 +39,7 @@ Modeli za prepoznavanje objektov se lahko uporabljajo za preverjanje zalog, bodi
 
 Na primer, če kamera kaže na police, ki lahko držijo 8 pločevink paradižnikovega koncentrata, in model za prepoznavanje objektov zazna le 7 pločevink, potem ena manjka in jo je treba ponovno založiti.
 
-![7 pločevink paradižnikovega koncentrata na polici, 4 na zgornji vrsti, 3 na spodnji](../../../../../translated_images/sl/stock-7-cans-tomato-paste.f86059cc573d7bec.png)
+![7 pločevink paradižnikovega koncentrata na polici, 4 na zgornji vrsti, 3 na spodnji](../../../../../translated_images/sl/stock-7-cans-tomato-paste.f86059cc573d7bec.webp)
 
 Na zgornji sliki je model za prepoznavanje objektov zaznal 7 pločevink paradižnikovega koncentrata na polici, ki lahko drži 8 pločevink. IoT naprava ne samo da lahko pošlje obvestilo o potrebi po ponovnem založenju, ampak lahko celo poda informacijo o lokaciji manjkajočega izdelka, kar je pomemben podatek, če uporabljate robote za ponovno založenje polic.
 
@@ -51,7 +51,7 @@ Včasih so na policah napačne zaloge. To je lahko posledica človeške napake p
 
 Prepoznavanje objektov se lahko uporabi za zaznavanje nepričakovanih predmetov, kar omogoča IoT napravi, da opozori človeka ali robota, da izdelek čim prej vrne na pravo mesto.
 
-![Nepovabljena pločevinka baby koruze na polici s paradižnikovim koncentratom](../../../../../translated_images/sl/stock-rogue-corn.be1f3ada8c457854.png)
+![Nepovabljena pločevinka baby koruze na polici s paradižnikovim koncentratom](../../../../../translated_images/sl/stock-rogue-corn.be1f3ada8c457854.webp)
 
 Na zgornji sliki je pločevinka baby koruze postavljena na polico poleg paradižnikovega koncentrata. Model za prepoznavanje objektov je to zaznal, kar omogoča IoT napravi, da obvesti človeka ali robota, da pločevinko vrne na pravo mesto.
 

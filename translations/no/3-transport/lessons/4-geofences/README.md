@@ -110,7 +110,7 @@ Hvert punkt på polygonet defineres som et lengdegrad-, breddegrad-par i en arra
 
 Polygon-koordinatene har alltid én mer oppføring enn antall punkter på polygonet, med den siste oppføringen som den samme som den første, for å lukke polygonet. For eksempel, for et rektangel vil det være 5 punkter.
 
-![Et rektangel med koordinater](../../../../../translated_images/no/polygon-points.302193da381cb415.png)
+![Et rektangel med koordinater](../../../../../translated_images/no/polygon-points.302193da381cb415.webp)
 
 I bildet ovenfor er det et rektangel. Polygon-koordinatene starter øverst til venstre ved 47,-122, deretter beveger seg til høyre til 47,-121, deretter ned til 46,-121, deretter til venstre til 46,-122, og til slutt tilbake til startpunktet ved 47,-122. Dette gir polygonet 5 punkter – øverst til venstre, øverst til høyre, nederst til høyre, nederst til venstre, og til slutt øverst til venstre for å lukke det.
 
@@ -208,7 +208,7 @@ Når du gjør denne forespørselen, kan du også sende en verdi kalt `searchBuff
 
 Når resultater returneres fra API-forespørselen, er en av delene av resultatet en `distance` målt til det nærmeste punktet på kanten av geogjerdet, med en positiv verdi hvis punktet er utenfor geogjerdet, og negativ hvis det er innenfor geogjerdet. Hvis denne avstanden er mindre enn søkebufferen, returneres den faktiske avstanden i meter, ellers er verdien 999 eller -999. 999 betyr at punktet er utenfor geogjerdet med mer enn søkebufferen, -999 betyr at det er innenfor geogjerdet med mer enn søkebufferen.
 
-![Et geogjerde med en 50m søkebuffer rundt det](../../../../../translated_images/no/search-buffer-and-distance.e6a79af3898183c7.png)
+![Et geogjerde med en 50m søkebuffer rundt det](../../../../../translated_images/no/search-buffer-and-distance.e6a79af3898183c7.webp)
 
 I bildet ovenfor har geogjerdet en 50m søkebuffer.
 

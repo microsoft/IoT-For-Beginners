@@ -72,7 +72,7 @@ Dostawca chmury może wykorzystać efekt skali, aby obniżyć koszty, kupując s
 
 Azure to chmura dla programistów od Microsoft, której będziesz używać w tych lekcjach. Poniższy film przedstawia krótki przegląd Azure:
 
-[![Film o Azure](../../../../../translated_images/pl/what-is-azure-video-thumbnail.20174db09e03bbb8.png)](https://www.microsoft.com/videoplayer/embed/RE4Ibng?WT.mc_id=academic-17441-jabenn)
+[![Film o Azure](../../../../../translated_images/pl/what-is-azure-video-thumbnail.20174db09e03bbb8.webp)](https://www.microsoft.com/videoplayer/embed/RE4Ibng?WT.mc_id=academic-17441-jabenn)
 
 ## Tworzenie subskrypcji chmurowej
 

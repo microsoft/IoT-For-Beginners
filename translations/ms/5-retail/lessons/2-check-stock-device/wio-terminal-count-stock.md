@@ -13,7 +13,7 @@ Gabungan ramalan dan kotak sempadan mereka boleh digunakan untuk mengira stok da
 
 ## Kira stok
 
-![4 tin pes tomato dengan kotak sempadan di sekeliling setiap tin](../../../../../translated_images/ms/rpi-stock-with-bounding-boxes.b5540e2ecb7cd49f.jpg)
+![4 tin pes tomato dengan kotak sempadan di sekeliling setiap tin](../../../../../translated_images/ms/rpi-stock-with-bounding-boxes.b5540e2ecb7cd49f.webp)
 
 Dalam imej yang ditunjukkan di atas, kotak sempadan mempunyai sedikit pertindihan. Jika pertindihan ini jauh lebih besar, maka kotak sempadan mungkin menunjukkan objek yang sama. Untuk mengira objek dengan betul, anda perlu mengabaikan kotak dengan pertindihan yang ketara.
 

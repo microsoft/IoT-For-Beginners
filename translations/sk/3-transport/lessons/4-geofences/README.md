@@ -110,7 +110,7 @@ Každý bod na polygóne je definovaný ako dvojica zemepisnej dĺžky a šírky
 
 Pole súradníc polygónu má vždy o 1 záznam viac ako počet bodov na polygóne, pričom posledný záznam je rovnaký ako prvý, čím sa polygón uzavrie. Napríklad pre obdĺžnik by tam bolo 5 bodov.
 
-![Obdĺžnik so súradnicami](../../../../../translated_images/sk/polygon-points.302193da381cb415.png)
+![Obdĺžnik so súradnicami](../../../../../translated_images/sk/polygon-points.302193da381cb415.webp)
 
 Na obrázku vyššie je obdĺžnik. Súradnice polygónu začínajú v ľavom hornom rohu na 47,-122, potom sa posúvajú doprava na 47,-121, potom dole na 46,-121, potom doprava na 46,-122, a nakoniec späť hore na počiatočný bod na 47,-122. To dáva polygónu 5 bodov - ľavý horný, pravý horný, pravý dolný, ľavý dolný a nakoniec ľavý horný na uzavretie.
 
@@ -208,7 +208,7 @@ Pri vykonávaní tejto požiadavky môžete tiež odovzdať hodnotu nazvanú `se
 
 Keď API vráti výsledky, jedna z častí výsledku je `distance`, meraná k najbližšiemu bodu na okraji geofence, s kladnou hodnotou, ak je bod mimo geofence, a zápornou hodnotou, ak je vo vnútri geofence. Ak je táto vzdialenosť menšia ako `searchBuffer`, skutočná vzdialenosť sa vráti v metroch, inak je hodnota 999 alebo -999. 999 znamená, že bod je mimo geofence o viac ako `searchBuffer`, -999 znamená, že je vo vnútri geofence o viac ako `searchBuffer`.
 
-![Geofence s 50m vyhľadávacím bufferom okolo neho](../../../../../translated_images/sk/search-buffer-and-distance.e6a79af3898183c7.png)
+![Geofence s 50m vyhľadávacím bufferom okolo neho](../../../../../translated_images/sk/search-buffer-and-distance.e6a79af3898183c7.webp)
 
 Na obrázku vyššie má geofence 50m vyhľadávací buffer.
 

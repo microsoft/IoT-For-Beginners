@@ -37,7 +37,7 @@ UART zahŕňa fyzické obvody, ktoré umožňujú komunikáciu medzi dvoma zaria
 * Zariadenie 1 vysiela dáta zo svojho Tx pinu, ktoré sú prijaté zariadením 2 na jeho Rx pine
 * Zariadenie 1 prijíma dáta na svojom Rx pine, ktoré sú vysielané zariadením 2 z jeho Tx pinu
 
-![UART s Tx pinom na jednom čipe pripojeným k Rx pinu na druhom čipe a naopak](../../../../../translated_images/sk/uart.d0dbd3fb9e3728c6.png)
+![UART s Tx pinom na jednom čipe pripojeným k Rx pinu na druhom čipe a naopak](../../../../../translated_images/sk/uart.d0dbd3fb9e3728c6.webp)
 
 > 🎓 Dáta sa posielajú po jednom bite, čo sa nazýva *sériová* komunikácia. Väčšina operačných systémov a mikrokontrolérov má *sériové porty*, teda pripojenia, ktoré môžu posielať a prijímať sériové dáta dostupné vášmu kódu.
 
@@ -66,7 +66,7 @@ SPI kontroléry používajú 3 drôty spolu s 1 extra drôtom na perifériu. Per
 | SCLK | Sériový hodinový signál | Tento drôt posiela hodinový signál s rýchlosťou nastavenou kontrolérom. |
 | CS   | Výber čipu | Kontrolér má viac drôtov, jeden na perifériu, a každý drôt je pripojený k CS drôtu na zodpovedajúcej periférii. |
 
-![SPI s jedným kontrolérom a dvoma perifériami](../../../../../translated_images/sk/spi.297431d6f98b386b.png)
+![SPI s jedným kontrolérom a dvoma perifériami](../../../../../translated_images/sk/spi.297431d6f98b386b.webp)
 
 CS drôt sa používa na aktiváciu jednej periférie naraz, komunikáciu cez COPI a CIPO drôty. Keď kontrolér potrebuje zmeniť perifériu, deaktivuje CS drôt pripojený k aktuálne aktívnej periférii, potom aktivuje drôt pripojený k periférii, s ktorou chce komunikovať ďalej.
 
@@ -127,13 +127,13 @@ Vlhkosť pôdy sa meria pomocou gravimetrického alebo objemového obsahu vody.
 
 Senzory vlhkosti pôdy merajú elektrický odpor alebo kapacitu - to sa líši nielen podľa vlhkosti pôdy, ale aj podľa typu pôdy, pretože zložky v pôde môžu meniť jej elektrické vlastnosti. Ideálne by mali byť senzory kalibrované - teda odoberanie údajov zo senzora a porovnávanie ich s meraniami získanými vedeckejším prístupom. Napríklad laboratórium môže vypočítať gravimetrickú vlhkosť pôdy pomocou vzoriek z konkrétneho poľa odobratých niekoľkokrát ročne a tieto čísla použiť na kalibráciu senzora, priradenie údajov zo senzora k gravimetrickej vlhkosti pôdy.
 
-![Graf napätia vs obsah vlhkosti pôdy](../../../../../translated_images/sk/soil-moisture-to-voltage.df86d80cda158700.png)
+![Graf napätia vs obsah vlhkosti pôdy](../../../../../translated_images/sk/soil-moisture-to-voltage.df86d80cda158700.webp)
 
 Graf vyššie ukazuje, ako kalibrovať senzor. Napätie sa zachytí pre vzorku pôdy, ktorá sa potom meria v laboratóriu porovnaním vlhkej hmotnosti so suchou hmotnosťou (meraním hmotnosti vlhkej, potom sušením v peci a meraním suchej). Po odobratí niekoľkých meraní sa tieto môžu vykresliť na grafe a prispôsobiť čiaru bodom. Táto čiara sa potom môže použiť na prevod údajov zo senzora vlhkosti pôdy odobratých IoT zariadením na skutočné merania vlhkosti pôdy.
 
 💁 Pre rezistívne senzory vlhkosti pôdy napätie stúpa, keď vlhkosť pôdy stúpa. Pre kapacitné senzory vlhkosti pôdy napätie klesá, keď vlhkosť pôdy stúpa, takže grafy pre tieto by klesali, nie stúpali.
 
-![Hodnota vlhkosti pôdy interpolovaná z grafu](../../../../../translated_images/sk/soil-moisture-to-voltage-with-reading.681cb3e1f8b68caf.png)
+![Hodnota vlhkosti pôdy interpolovaná z grafu](../../../../../translated_images/sk/soil-moisture-to-voltage-with-reading.681cb3e1f8b68caf.webp)
 
 Graf vyššie ukazuje hodnotu napätia zo senzora vlhkosti pôdy a sledovaním tejto hodnoty na čiaru na grafe je možné vypočítať skutočnú vlhkosť pôdy.
 

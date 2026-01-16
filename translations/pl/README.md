@@ -57,7 +57,7 @@ Zespół Azure Cloud Advocates w Microsoft z przyjemnością oferuje 12-tygodnio
 
 Projekty obejmują drogę jedzenia od farmy do stołu. Obejmuje to rolnictwo, logistykę, produkcję, handel detaliczny i konsumencki - wszystkie popularne obszary przemysłu dla urządzeń IoT.
 
-![Mapa drogowa kursu pokazująca 24 lekcje obejmujące wstęp, rolnictwo, transport, przetwarzanie, handel detaliczny i gotowanie](../../translated_images/pl/Roadmap.bb1dec285dda0eda.jpg)
+![Mapa drogowa kursu pokazująca 24 lekcje obejmujące wstęp, rolnictwo, transport, przetwarzanie, handel detaliczny i gotowanie](../../translated_images/pl/Roadmap.bb1dec285dda0eda.webp)
 
 > Sketchnote autorstwa [Nitya Narasimhan](https://github.com/nitya). Kliknij obraz, aby zobaczyć powiększenie.
 
