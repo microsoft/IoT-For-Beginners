@@ -93,7 +93,7 @@ Custom Visionサービスには、画像を分類するために使用できるP
 
     撮影された画像と、**Predictions**タブでこれらの値をCustom Visionで確認できます。
 
-    ![Custom Visionでバナナが予測され、熟している確率が56.8%、未熟な確率が43.1%と表示されている](../../../../../translated_images/custom-vision-banana-prediction.30cdff4e1d72db5d9a0be0193790a47c2b387da034e12dc1314dd57ca2131b59.ja.png)
+    ![Custom Visionでバナナが予測され、熟している確率が56.8%、未熟な確率が43.1%と表示されている](../../../../../translated_images/ja/custom-vision-banana-prediction.30cdff4e1d72db5d9a0be0193790a47c2b387da034e12dc1314dd57ca2131b59.png)
 
 > 💁 このコードは[code-classify/pi](../../../../../4-manufacturing/lessons/2-check-fruit-from-device/code-classify/pi)または[code-classify/virtual-iot-device](../../../../../4-manufacturing/lessons/2-check-fruit-from-device/code-classify/virtual-iot-device)フォルダーで確認できます。
 

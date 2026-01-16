@@ -29,14 +29,14 @@ CO_OP_TRANSLATOR_METADATA:
 
 Gravimetrinė dirvožemio drėgmė apskaičiuojama taip:
 
-![dirvožemio drėgmės % yra šlapio svorio minus sauso svorio, padalinta iš sauso svorio, padauginta iš 100](../../../../../translated_images/gsm-calculation.6da38c6201eec14e7573bb2647aa18892883193553d23c9d77e5dc681522dfb2.lt.png)
+![dirvožemio drėgmės % yra šlapio svorio minus sauso svorio, padalinta iš sauso svorio, padauginta iš 100](../../../../../translated_images/lt/gsm-calculation.6da38c6201eec14e7573bb2647aa18892883193553d23c9d77e5dc681522dfb2.png)
 
 * W - šlapio dirvožemio svoris  
 * W - sauso dirvožemio svoris  
 
 Pavyzdžiui, tarkime, turite dirvožemio mėginį, kuris sveria 212 g šlapias ir 197 g sausas.
 
-![Užpildytas skaičiavimas](../../../../../translated_images/gsm-calculation-example.99f9803b4f29e97668e7c15412136c0c399ab12dbba0b89596fdae9d8aedb6fb.lt.png)
+![Užpildytas skaičiavimas](../../../../../translated_images/lt/gsm-calculation-example.99f9803b4f29e97668e7c15412136c0c399ab12dbba0b89596fdae9d8aedb6fb.png)
 
 * W = 212 g  
 * W = 197 g  

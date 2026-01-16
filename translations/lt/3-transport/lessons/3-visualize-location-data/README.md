@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Vizualizuokite vietos duomenis
 
-![Šios pamokos apžvalgos eskizas](../../../../../translated_images/lesson-13.a259db1485021be7d7c72e90842fbe0ab977529e8684c179b5fb1ea75e92b3ef.lt.jpg)
+![Šios pamokos apžvalgos eskizas](../../../../../translated_images/lt/lesson-13.a259db1485021be7d7c72e90842fbe0ab977529e8684c179b5fb1ea75e92b3ef.jpg)
 
 > Eskizas sukurtas [Nitya Narasimhan](https://github.com/nitya). Spustelėkite paveikslėlį, kad pamatytumėte didesnę versiją.
 
@@ -73,11 +73,11 @@ Paprastas pavyzdys – ūkininkavimo projekte jūs fiksavote dirvožemio drėgm�
 
 Žmogui suprasti šiuos duomenis gali būti sunku. Tai tiesiog skaičių siena be jokios prasmės. Pirmasis žingsnis vizualizuojant šiuos duomenis – juos pavaizduoti linijiniame grafike:
 
-![Aukščiau pateiktų duomenų linijinis grafikas](../../../../../translated_images/chart-soil-moisture.fd6d9d0cdc0b5f75e78038ecb8945dfc84b38851359de99d84b16e3336d6d7c2.lt.png)
+![Aukščiau pateiktų duomenų linijinis grafikas](../../../../../translated_images/lt/chart-soil-moisture.fd6d9d0cdc0b5f75e78038ecb8945dfc84b38851359de99d84b16e3336d6d7c2.png)
 
 Šį grafiką galima dar labiau patobulinti, pridedant liniją, kuri nurodo, kada automatinė laistymo sistema buvo įjungta esant dirvožemio drėgmės rodmeniui 450:
 
-![Dirvožemio drėgmės grafikas su linija ties 450](../../../../../translated_images/chart-soil-moisture-relay.fbb391236d34a64d0abf1df396e9197e0a24df14150620b9cc820a64a55c9326.lt.png)
+![Dirvožemio drėgmės grafikas su linija ties 450](../../../../../translated_images/lt/chart-soil-moisture-relay.fbb391236d34a64d0abf1df396e9197e0a24df14150620b9cc820a64a55c9326.png)
 
 Šis grafikas greitai parodo ne tik dirvožemio drėgmės lygius, bet ir taškus, kuriuose buvo įjungta laistymo sistema.
 
@@ -93,7 +93,7 @@ Dirbant su GPS duomenimis, aiškiausia vizualizacija gali būti duomenų pateiki
 
 Darbas su žemėlapiais yra įdomus uždavinys, ir yra daug pasirinkimų, tokių kaip „Bing Maps“, „Leaflet“, „Open Street Maps“ ir „Google Maps“. Šioje pamokoje sužinosite apie [Azure Maps](https://azure.microsoft.com/services/azure-maps/?WT.mc_id=academic-17441-jabenn) ir kaip jie gali rodyti jūsų GPS duomenis.
 
-![Azure Maps logotipas](../../../../../translated_images/azure-maps-logo.35d01dcfbd81fe6140e94257aaa1538f785a58c91576d14e0ebe7a2f6c694b99.lt.png)
+![Azure Maps logotipas](../../../../../translated_images/lt/azure-maps-logo.35d01dcfbd81fe6140e94257aaa1538f785a58c91576d14e0ebe7a2f6c694b99.png)
 
 „Azure Maps“ yra „geografinės informacijos paslaugų ir SDK rinkinys, naudojantis naujausius žemėlapių duomenis, kad suteiktų geografinį kontekstą žiniatinklio ir mobiliųjų programų kūrimui.“ Kūrėjams suteikiami įrankiai kurti gražius, interaktyvius žemėlapius, kurie gali atlikti tokius veiksmus kaip rekomenduoti eismo maršrutus, teikti informaciją apie eismo įvykius, vidaus navigaciją, paieškos galimybes, aukščio informaciją, orų paslaugas ir dar daugiau.
 
@@ -194,7 +194,7 @@ Dabar galite pereiti prie kito žingsnio – parodyti savo žemėlapį tinklalap
 
     Jei atidarysite savo `index.html` failą žiniatinklio naršyklėje, turėtumėte pamatyti žemėlapį, sutelktą į Sietlo sritį.
 
-    ![Žemėlapis, rodantis Sietlą, miestą Vašingtono valstijoje, JAV](../../../../../translated_images/map-image.8fb2c53eb23ef39c1c0a4410a5282e879b3b452b707eb066ff04c5488d3d72b7.lt.png)
+    ![Žemėlapis, rodantis Sietlą, miestą Vašingtono valstijoje, JAV](../../../../../translated_images/lt/map-image.8fb2c53eb23ef39c1c0a4410a5282e879b3b452b707eb066ff04c5488d3d72b7.png)
 
     ✅ Eksperimentuokite su mastelio ir centro parametrais, kad pakeistumėte žemėlapio rodymą. Galite pridėti skirtingas koordinates, atitinkančias jūsų duomenų platumą ir ilgumą, kad pakeistumėte žemėlapio centrą.
 
@@ -328,7 +328,7 @@ Jei bandysite gauti duomenis iš savo saugyklos, galite nustebti, pamatę klaida
 
 1. Įkelkite HTML puslapį į savo naršyklę. Jis įkels žemėlapį, tada įkels visus GPS duomenis iš saugyklos ir atvaizduos juos žemėlapyje.
 
-    ![Šv. Edvardo valstijos parko žemėlapis netoli Sietlo, su apskritimais, rodančiais kelią aplink parko kraštą](../../../../../translated_images/map-path.896832e72dc696ffe20650e4051027d4855442d955f93fdbb80bb417ca8a406f.lt.png)
+    ![Šv. Edvardo valstijos parko žemėlapis netoli Sietlo, su apskritimais, rodančiais kelią aplink parko kraštą](../../../../../translated_images/lt/map-path.896832e72dc696ffe20650e4051027d4855442d955f93fdbb80bb417ca8a406f.png)
 
 > 💁 Šį kodą galite rasti [code](../../../../../3-transport/lessons/3-visualize-location-data/code) aplanke.
 

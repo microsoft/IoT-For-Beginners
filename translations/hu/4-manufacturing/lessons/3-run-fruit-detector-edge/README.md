@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Futtasd a gyümölcsdetektorodat az edge-en
 
-![Egy vázlatos áttekintés erről a leckéről](../../../../../translated_images/lesson-17.bc333c3c35ba8e42cce666cfffa82b915f787f455bd94e006aea2b6f2722421a.hu.jpg)
+![Egy vázlatos áttekintés erről a leckéről](../../../../../translated_images/hu/lesson-17.bc333c3c35ba8e42cce666cfffa82b915f787f455bd94e006aea2b6f2722421a.jpg)
 
 > Vázlat: [Nitya Narasimhan](https://github.com/nitya). Kattints a képre a nagyobb verzióért.
 
@@ -42,11 +42,11 @@ Ebben a leckében a következőket tárgyaljuk:
 
 Az edge computing azt jelenti, hogy az IoT-adatokat feldolgozó számítógépek a lehető legközelebb helyezkednek el az adatok keletkezési helyéhez. Ahelyett, hogy ez a feldolgozás a felhőben történne, az a felhő szélére kerül – azaz a belső hálózatodra.
 
-![Egy architektúra diagram, amely a felhőben lévő internetes szolgáltatásokat és a helyi hálózaton lévő IoT-eszközöket mutatja](../../../../../translated_images/cloud-without-edge.b4da641f6022c95ed6b91fde8b5323abd2f94e0d52073ad54172ae8f5dac90e9.hu.png)
+![Egy architektúra diagram, amely a felhőben lévő internetes szolgáltatásokat és a helyi hálózaton lévő IoT-eszközöket mutatja](../../../../../translated_images/hu/cloud-without-edge.b4da641f6022c95ed6b91fde8b5323abd2f94e0d52073ad54172ae8f5dac90e9.png)
 
 Az eddigi leckékben az eszközök adatokat gyűjtöttek és küldtek a felhőbe elemzésre, ahol szerver nélküli funkciók vagy AI modellek futottak.
 
-![Egy architektúra diagram, amely a helyi hálózaton lévő IoT-eszközöket mutatja, amelyek edge-eszközökhöz csatlakoznak, és ezek az edge-eszközök a felhőhöz kapcsolódnak](../../../../../translated_images/cloud-with-edge.1e26462c62c126fe150bd15a5714ddf0be599f09bacbad08b85be02b76ea1ae1.hu.png)
+![Egy architektúra diagram, amely a helyi hálózaton lévő IoT-eszközöket mutatja, amelyek edge-eszközökhöz csatlakoznak, és ezek az edge-eszközök a felhőhöz kapcsolódnak](../../../../../translated_images/hu/cloud-with-edge.1e26462c62c126fe150bd15a5714ddf0be599f09bacbad08b85be02b76ea1ae1.png)
 
 Az edge computing során a felhőszolgáltatások egy részét áthelyezik a felhőről az IoT-eszközökkel azonos hálózaton futó számítógépekre, és csak akkor kommunikálnak a felhővel, ha szükséges. Például AI modelleket futtathatsz edge-eszközökön, hogy elemezd a gyümölcsök érettségét, és csak az elemzéseket küldheted vissza a felhőbe, például az érett és éretlen gyümölcsök számát.
 
@@ -94,7 +94,7 @@ Az IoT-rendszerek esetében gyakran a felhő és az edge computing keverékére 
 
 ## Azure IoT Edge
 
-![Az Azure IoT Edge logója](../../../../../translated_images/azure-iot-edge-logo.c1c076749b5cba2e8755262fadc2f19ca1146b948d76990b1229199ac2292d79.hu.png)
+![Az Azure IoT Edge logója](../../../../../translated_images/hu/azure-iot-edge-logo.c1c076749b5cba2e8755262fadc2f19ca1146b948d76990b1229199ac2292d79.png)
 
 Az Azure IoT Edge egy olyan szolgáltatás, amely segíthet a munkaterheléseket a felhőből az edge-re helyezni. Egy eszközt edge-eszközként állítasz be, és a felhőből kódot telepíthetsz erre az edge-eszközre. Ez lehetővé teszi a felhő és az edge képességeinek keverését.
 
@@ -108,7 +108,7 @@ Az IoT Edge be van építve az IoT Hubba, így az edge-eszközöket ugyanazzal a
 
 Az IoT Edge kódot futtat *konténerekből* – önálló alkalmazásokból, amelyek elkülönítve futnak a számítógéped többi alkalmazásától. Amikor egy konténert futtatsz, az olyan, mintha egy külön számítógép futna a számítógépeden belül, saját szoftverrel, szolgáltatásokkal és alkalmazásokkal. A legtöbb esetben a konténerek nem férnek hozzá semmihez a számítógépeden, hacsak nem osztasz meg velük például egy mappát. A konténer ezután nyitott porton keresztül nyújt szolgáltatásokat, amelyekhez csatlakozhatsz, vagy amelyeket megoszthatsz a hálózatoddal.
 
-![Egy webkérés átirányítása egy konténerbe](../../../../../translated_images/container-web-browser.4ee81dd4f0d8838ce622b2a0d600b6a4322b5d4fe43159facd87b7b34f84d66a.hu.png)
+![Egy webkérés átirányítása egy konténerbe](../../../../../translated_images/hu/container-web-browser.4ee81dd4f0d8838ce622b2a0d600b6a4322b5d4fe43159facd87b7b34f84d66a.png)
 
 Például lehet egy konténered, amely egy weboldalt futtat a 80-as porton, az alapértelmezett HTTP-porton, és ezt a számítógépedről is elérhetővé teheted a 80-as porton.
 
@@ -194,11 +194,11 @@ Miután a modell betanításra került, konténerként kell exportálni.
 
 ## Készítsd elő a konténert a telepítéshez
 
-![A konténerek először létrehozásra kerülnek, majd feltöltésre egy konténer regisztrációs helyre, ahonnan az IoT Edge telepíti őket az edge eszközre](../../../../../translated_images/container-edge-flow.c246050dd60ceefdb6ace026a4ce5c6aa4112bb5898ae23fbb2ab4be29ae3e1b.hu.png)
+![A konténerek először létrehozásra kerülnek, majd feltöltésre egy konténer regisztrációs helyre, ahonnan az IoT Edge telepíti őket az edge eszközre](../../../../../translated_images/hu/container-edge-flow.c246050dd60ceefdb6ace026a4ce5c6aa4112bb5898ae23fbb2ab4be29ae3e1b.png)
 
 Miután letöltötted a modelledet, konténerként kell felépíteni, majd feltölteni egy konténer regisztrációs helyre - egy online helyre, ahol tárolhatod a konténereket. Az IoT Edge ezután letölti a konténert a regisztrációs helyről, és telepíti az eszközödre.
 
-![Az Azure Container Registry logója](../../../../../translated_images/azure-container-registry-logo.09494206991d4b295025ebff7d4e2900325e527a59184ffbc8464b6ab59654be.hu.png)
+![Az Azure Container Registry logója](../../../../../translated_images/hu/azure-container-registry-logo.09494206991d4b295025ebff7d4e2900325e527a59184ffbc8464b6ab59654be.png)
 
 A konténer regisztrációs hely, amelyet ebben a leckében használni fogsz, az Azure Container Registry. Ez nem ingyenes szolgáltatás, ezért pénzt takaríthatsz meg, ha [kitakarítod a projektedet](../../../clean-up.md), miután befejezted.
 

@@ -47,11 +47,11 @@ GPS സെൻസർ CounterFit ആപ്പിൽ ചേർക്കുക.
 
     1. `/dev/ttyAMA0` പോർട്ടിലേക്ക് GPS സെൻസർ സൃഷ്ടിക്കാൻ **Add** ബട്ടൺ അമർത്തുക
 
-    ![The GPS sensor settings](../../../../../translated_images/counterfit-create-gps-sensor.6385dc9357d85ad1.ml.png)
+    ![The GPS sensor settings](../../../../../translated_images/ml/counterfit-create-gps-sensor.6385dc9357d85ad1.png)
 
     GPS സെൻസർ സൃഷ്ടിച്ച ശേഷം സെൻസറുകളുടെ പട്ടികയിൽ കാണിക്കും.
 
-    ![The GPS sensor created](../../../../../translated_images/counterfit-gps-sensor.3fbb15af0a536756.ml.png)
+    ![The GPS sensor created](../../../../../translated_images/ml/counterfit-gps-sensor.3fbb15af0a536756.png)
 
 ## GPS സെൻസർ പ്രോഗ്രാം ചെയ്യുക
 
@@ -111,17 +111,17 @@ GPS സെൻസർ ആപ്പ് പ്രോഗ്രാം ചെയ്യ�
 
     * **Source**-ന് `Lat/Lon` തിരഞ്ഞെടുക്കുക, ശേഷം স্পഷ്ടമായ latitude, longitude, GPS ഫിക്സിന് ഉപയോഗിച്ച ഉപഗ്രഹങ്ങളുടെ എണ്ണം സജ്ജമാക്കുക. ഈ മൂല്യം ഒരിക്കൽ മാത്രം അയയ്ക്കും, അതിനാൽ **Repeat** ബോക്സ് അടയാളപ്പെടുത്തുക, ഡാറ്റ ഓരോ സെക്കൻഡിലും ആവർത്തിക്കപ്പെടാൻ.
 
-      ![The GPS sensor with lat lon selected](../../../../../translated_images/counterfit-gps-sensor-latlon.008c867d75464fbe.ml.png)
+      ![The GPS sensor with lat lon selected](../../../../../translated_images/ml/counterfit-gps-sensor-latlon.008c867d75464fbe.png)
 
     * **Source**-ന് `NMEA` തിരഞ്ഞെടുക്കുക, NMEA വാക്യങ്ങൾ ടെക്സ്റ്റ് ബോക്സിൽ ചേർക്കുക. ഈ മൂല്യങ്ങൾ കാബി പകുതിയോളം അയയ്ക്കും, ഓരോ പുതിയ GGA (പദവി ഫിക്‌സ്) വാക്യം വായിക്കുന്നതിന് മുമ്പ് 1 സെക്കൻഡ് വൈകിപ്പിക്കും.
 
-      ![The GPS sensor with NMEA sentences set](../../../../../translated_images/counterfit-gps-sensor-nmea.c62eea442171e17e.ml.png)
+      ![The GPS sensor with NMEA sentences set](../../../../../translated_images/ml/counterfit-gps-sensor-nmea.c62eea442171e17e.png)
 
       ഈ വാക്യങ്ങൾ ഉണ്ടാക്കാൻ [nmeagen.org](https://www.nmeagen.org) പോലെയുള്ള ഒരു ടൂളിന്റെ സഹായം ഉപയോഗിക്കാം. ഒരു മാപ്പിൽ രേഖപ്പെടുത്തി ഈ വാക്യങ്ങൾ സൃഷ്ടിക്കാം. ഈ മൂല്യങ്ങൾ ഒരിക്കൽ മാത്രം അയയ്ക്കും, അതിനാൽ **Repeat** ബോക്സ് അടയാളപ്പെടുത്തുക, പൂർണ്ണമായ ഡാറ്റ അയച്ച ശേഷം ഓരോ സെക്കൻഡിലും ആവർത്തിക്കും.
 
     * **Source**-ന് GPX ഫയൽ തിരഞ്ഞെടുക്കുക, ട്രാക്ക് ലൊക്കേഷനുകൾ ഉള്ള GPX ഫയൽ അപ്‌ലോഡ് ചെയ്യുക. [AllTrails](https://www.alltrails.com/) പോലെ പ്രശസ്തമായ ഭൂപടം, ട്രക്കിംഗ് സൈറ്റുകളിൽ നിന്ന് GPX ഫയലുകൾ ഡൗൺലോഡ് ചെയ്യാം. ഈ ഫയലുകളിൽ ഒരു ട്രെയിലായി നിരവധി GPS സ്ഥലങ്ങൾ ഉണ്ടാകും, GPS സെൻസർ ഓരോ പുതിയ സ്ഥലം 1 സെക്കൻഡ് ഇടവേളയിൽ തിരികെ നൽകും.
 
-      ![The GPS sensor with a GPX file set](../../../../../translated_images/counterfit-gps-sensor-gpxfile.8310b063ce8a425c.ml.png)
+      ![The GPS sensor with a GPX file set](../../../../../translated_images/ml/counterfit-gps-sensor-gpxfile.8310b063ce8a425c.png)
 
       ഈ മൂല്യങ്ങൾ ഒന്നുപോലും ഒരിക്കൽ മാത്രം അയയ്ക്കും, എന്നാൽ **Repeat** ബോക്സ് സജീവമാക്കി ഒരു സെക്കൻഡ് ഇടവേളയ്ക്ക് ശേഷം ഡാറ്റ ആവർത്തിക്കാൻ കഴിയും.
 

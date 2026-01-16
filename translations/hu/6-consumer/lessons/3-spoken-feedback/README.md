@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Állíts be egy időzítőt és adj szóbeli visszajelzést
 
-![A leckéről készült sketchnote áttekintése](../../../../../translated_images/lesson-23.f38483e1d4df4828990d3f02d60e46c978b075d384ae7cb4f7bab738e107c850.hu.jpg)
+![A leckéről készült sketchnote áttekintése](../../../../../translated_images/hu/lesson-23.f38483e1d4df4828990d3f02d60e46c978b075d384ae7cb4f7bab738e107c850.jpg)
 
 > Sketchnote készítette: [Nitya Narasimhan](https://github.com/nitya). Kattints a képre a nagyobb verzióért.
 
@@ -37,7 +37,7 @@ Ebben a leckében az alábbiakat fogjuk áttekinteni:
 
 A szöveg beszéddé alakítása, ahogy a neve is sugallja, a szöveg hanggá alakításának folyamata, amely tartalmazza a szöveget kimondott szavakként. Az alapelv az, hogy a szövegben lévő szavakat alkotó hangokra (fonémákra) bontjuk, és ezekhez a hangokhoz hanganyagot illesztünk, akár előre rögzített hangokkal, akár mesterséges intelligencia modellek által generált hangokkal.
 
-![A tipikus szöveg-beszéd rendszerek három szakasza](../../../../../translated_images/tts-overview.193843cf3f5ee09f.hu.png)
+![A tipikus szöveg-beszéd rendszerek három szakasza](../../../../../translated_images/hu/tts-overview.193843cf3f5ee09f.png)
 
 A szöveg-beszéd rendszerek általában 3 szakaszból állnak:
 

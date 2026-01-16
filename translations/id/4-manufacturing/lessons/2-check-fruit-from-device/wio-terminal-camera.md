@@ -25,11 +25,11 @@ ArduCam tidak memiliki soket Grove, melainkan terhubung ke bus SPI dan I2C melal
 
 Sambungkan kamera.
 
-![Sensor ArduCam](../../../../../translated_images/arducam.20e4e4cbb268296570b5914e20d6c349fc42ddac9ed4e1b9deba2188204eebae.id.png)
+![Sensor ArduCam](../../../../../translated_images/id/arducam.20e4e4cbb268296570b5914e20d6c349fc42ddac9ed4e1b9deba2188204eebae.png)
 
 1. Pin di bagian bawah ArduCam perlu dihubungkan ke pin GPIO pada Wio Terminal. Untuk mempermudah menemukan pin yang tepat, pasang stiker pin GPIO yang disertakan dengan Wio Terminal di sekitar pin:
 
-    ![Wio Terminal dengan stiker pin GPIO terpasang](../../../../../translated_images/wio-terminal-pin-sticker.b90b1535937b84bd.id.png)
+    ![Wio Terminal dengan stiker pin GPIO terpasang](../../../../../translated_images/id/wio-terminal-pin-sticker.b90b1535937b84bd.png)
 
 1. Gunakan kabel jumper untuk membuat koneksi berikut:
 
@@ -44,7 +44,7 @@ Sambungkan kamera.
     | SDA         | 3 (I2C1_SDA)     | I2C Serial Data                         |
     | SCL         | 5 (I2C1_SCL)     | I2C Serial Clock                        |
 
-    ![Wio Terminal terhubung ke ArduCam dengan kabel jumper](../../../../../translated_images/arducam-wio-terminal-connections.a4d5a4049bdb5ab800a2877389fc6ecf5e4ff307e6451ff56c517e6786467d0a.id.png)
+    ![Wio Terminal terhubung ke ArduCam dengan kabel jumper](../../../../../translated_images/id/arducam-wio-terminal-connections.a4d5a4049bdb5ab800a2877389fc6ecf5e4ff307e6451ff56c517e6786467d0a.png)
 
     Koneksi GND dan VCC menyediakan catu daya 5V ke ArduCam. Kamera ini berjalan pada 5V, berbeda dengan sensor Grove yang berjalan pada 3V. Daya ini berasal langsung dari koneksi USB-C yang memberi daya pada perangkat.
 
@@ -297,7 +297,7 @@ Wio Terminal sekarang dapat diprogram untuk menangkap gambar saat sebuah tombol 
 
 1. Mikrokontroler menjalankan kode Anda secara terus-menerus, sehingga tidak mudah memicu sesuatu seperti mengambil foto tanpa bereaksi terhadap sensor. Wio Terminal memiliki tombol, sehingga kamera dapat diatur untuk dipicu oleh salah satu tombol. Tambahkan kode berikut ke akhir fungsi `setup` untuk mengonfigurasi tombol C (salah satu dari tiga tombol di bagian atas, yang paling dekat dengan sakelar daya).
 
-    ![Tombol C di bagian atas dekat dengan sakelar daya](../../../../../translated_images/wio-terminal-c-button.73df3cb1c1445ea0.id.png)
+    ![Tombol C di bagian atas dekat dengan sakelar daya](../../../../../translated_images/id/wio-terminal-c-button.73df3cb1c1445ea0.png)
 
     ```cpp
     pinMode(WIO_KEY_C, INPUT_PULLUP);
@@ -465,7 +465,7 @@ Wio Terminal hanya mendukung kartu microSD hingga ukuran 16GB. Jika Anda memilik
 
 1. Matikan daya pada kartu microSD dan keluarkan dengan mendorongnya sedikit dan melepaskannya, dan kartu akan keluar. Anda mungkin perlu menggunakan alat tipis untuk melakukannya. Sambungkan kartu microSD ke komputer Anda untuk melihat gambar.
 
-    ![Gambar pisang yang ditangkap menggunakan ArduCam](../../../../../translated_images/banana-arducam.be1b32d4267a8194b0fd042362e56faa431da9cd4af172051b37243ea9be0256.id.jpg)
+    ![Gambar pisang yang ditangkap menggunakan ArduCam](../../../../../translated_images/id/banana-arducam.be1b32d4267a8194b0fd042362e56faa431da9cd4af172051b37243ea9be0256.jpg)
 💁 Mungkin diperlukan beberapa gambar agar keseimbangan putih kamera dapat menyesuaikan dirinya. Anda akan melihat ini berdasarkan warna gambar yang diambil, beberapa gambar pertama mungkin terlihat tidak sesuai warna. Anda selalu dapat mengatasi hal ini dengan mengubah kode untuk mengambil beberapa gambar yang diabaikan dalam fungsi `setup`.
 
 

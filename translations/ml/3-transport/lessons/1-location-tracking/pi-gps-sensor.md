@@ -27,13 +27,13 @@ Grove GPS സെൻസർ Raspberry Pi-യുമായി കണക്റ്റ�
 
 GPS സെൻസർ കണക്റ്റ് ചെയ്യുക.
 
-![A grove GPS sensor](../../../../../translated_images/grove-gps-sensor.247943bf69b03f0d.ml.png)
+![A grove GPS sensor](../../../../../translated_images/ml/grove-gps-sensor.247943bf69b03f0d.png)
 
 1. Grove കേബിളിന്റെ ഒരു അറ്റം GPS സെൻസറിലെ സോക്കറ്റിലേക്ക് ഇറയ്ക്കുക. ഇത് ഒരേയൊരു രീതിയിൽ മാത്രം പോകും.
 
 1. Raspberry Pi പവർ ഓഫ് ചെയ്തിരിക്കുന്നപ്പോൾ, Grove കേബിളിന്റെ മറ്റേ അറ്റം Grove Base ഹാറ്റിൽ Pi-യോട് ചേർന്ന UART സോക്കറ്റിലെ **UART** എന്ന് അടയാളപ്പെടുത്തിയ ഭാഗത്തു കണക്റ്റ് ചെയ്യുക. ഈ സോക്കറ്റ് മധ്യനില റോയിൽ, SD കാർഡ് സ്ലോട്ടിന് ഏറ്റവും അടുത്തുള്ള പക്കിലാണുള്ളത്, USB പോർട്ടുകളും ഇതർനെറ്റ് സോക്കറ്റുകളുമുള്ള മറുവശമല്ല.
 
-    ![The grove GPS sensor connected to the UART socket](../../../../../translated_images/pi-gps-sensor.1f99ee2b2f652891.ml.png)
+    ![The grove GPS sensor connected to the UART socket](../../../../../translated_images/ml/pi-gps-sensor.1f99ee2b2f652891.png)
 
 1. GPS സെൻസറിന്റെ അറ്റേന ആകാശത്തിനായി കാണാൻ കഴിയുന്നിടത്ത്, ഉദാഹരണത്തിന് ഒരു തുറന്ന ജനാലക്കപ്പം അല്ലെങ്കിൽ പുറത്തേക്ക്, വച്ചിടുക. അന്തേനയ്ക്ക് തടസ്സമില്ലാതെ സിഗ്നലുകൾ സ്വീകരിക്കുന്നത് എളുപ്പമാണ്.
 

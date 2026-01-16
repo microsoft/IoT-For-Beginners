@@ -76,7 +76,7 @@ CO_OP_TRANSLATOR_METADATA:
 
     캡처된 이미지를 확인할 수 있으며, Custom Vision의 **Predictions** 탭에서 이러한 값을 볼 수 있습니다.
 
-    ![선반 위에 있는 4개의 토마토 페이스트 캔과 각각 35.8%, 33.5%, 25.7%, 16.6%의 감지 결과](../../../../../translated_images/custom-vision-stock-prediction.942266ab1bcca3410ecdf23643b9f5f570cfab2345235074e24c51f285777613.ko.png)
+    ![선반 위에 있는 4개의 토마토 페이스트 캔과 각각 35.8%, 33.5%, 25.7%, 16.6%의 감지 결과](../../../../../translated_images/ko/custom-vision-stock-prediction.942266ab1bcca3410ecdf23643b9f5f570cfab2345235074e24c51f285777613.png)
 
 > 💁 이 코드는 [code-detect/pi](../../../../../5-retail/lessons/2-check-stock-device/code-detect/pi) 또는 [code-detect/virtual-iot-device](../../../../../5-retail/lessons/2-check-stock-device/code-detect/virtual-iot-device) 폴더에서 찾을 수 있습니다.
 

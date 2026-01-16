@@ -27,13 +27,13 @@ Il Grove relay può essere collegato alla porta digitale del Wio Terminal.
 
 Collega il relè.
 
-![Un Grove relay](../../../../../translated_images/grove-relay.d426958ca210fbd0fb7983d7edc069d46c73a8b0a099d94797bd756f7b6bb6be.it.png)
+![Un Grove relay](../../../../../translated_images/it/grove-relay.d426958ca210fbd0fb7983d7edc069d46c73a8b0a099d94797bd756f7b6bb6be.png)
 
 1. Inserisci un'estremità di un cavo Grove nella presa del relè. Può essere inserito solo in un modo.
 
 1. Con il Wio Terminal scollegato dal computer o da un'altra fonte di alimentazione, collega l'altra estremità del cavo Grove alla presa Grove sul lato sinistro del Wio Terminal, guardando lo schermo. Lascia il sensore di umidità del suolo collegato alla presa destra.
 
-![Il Grove relay collegato alla presa sinistra e il sensore di umidità del suolo collegato alla presa destra](../../../../../translated_images/wio-relay-and-soil-moisture-sensor.ed722202d42babe0.it.png)
+![Il Grove relay collegato alla presa sinistra e il sensore di umidità del suolo collegato alla presa destra](../../../../../translated_images/it/wio-relay-and-soil-moisture-sensor.ed722202d42babe0.png)
 
 1. Inserisci il sensore di umidità del suolo nel terreno, se non è già stato fatto nella lezione precedente.
 

@@ -27,13 +27,13 @@ Sensor suhu Grove dapat dihubungkan ke port digital Wio Terminal.
 
 Hubungkan sensor suhu.
 
-![Sensor suhu Grove](../../../../../translated_images/grove-dht11.07f8eafceee170043efbb53e1d15722bd4e00fbaa9ff74290b57e9f66eb82c17.id.png)
+![Sensor suhu Grove](../../../../../translated_images/id/grove-dht11.07f8eafceee170043efbb53e1d15722bd4e00fbaa9ff74290b57e9f66eb82c17.png)
 
 1. Masukkan salah satu ujung kabel Grove ke soket pada sensor kelembapan dan suhu. Kabel hanya dapat masuk dengan satu arah.
 
 1. Dengan Wio Terminal terputus dari komputer atau sumber daya lainnya, hubungkan ujung lain kabel Grove ke soket Grove di sisi kanan Wio Terminal saat Anda melihat layar. Ini adalah soket yang paling jauh dari tombol daya.
 
-![Sensor suhu Grove terhubung ke soket sisi kanan](../../../../../translated_images/wio-temperature-sensor.2934928f38c7f79a.id.png)
+![Sensor suhu Grove terhubung ke soket sisi kanan](../../../../../translated_images/id/wio-temperature-sensor.2934928f38c7f79a.png)
 
 ## Memprogram Sensor Suhu
 

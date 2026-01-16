@@ -25,7 +25,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 ### ടാസ്ക് - ക്യാമറ ബന്ധിപ്പിക്കുക
 
-![A Raspberry Pi Camera](../../../../../translated_images/pi-camera-module.4278753c31bd6e75.ml.png)
+![A Raspberry Pi Camera](../../../../../translated_images/ml/pi-camera-module.4278753c31bd6e75.png)
 
 1. പൈ പവർ ഓഫ് ചെയ്യുക.
 
@@ -33,17 +33,17 @@ CO_OP_TRANSLATOR_METADATA:
 
     ക്ലിപ്പ് തുറക്കാനും കേബിൾ ഉൾപ്പെടുത്താനും എങ്ങനെ ചെയ്യാമെന്ന് കാണിക്കുന്ന ഒരു അനിമേഷൻ നിങ്ങൾക്ക് [Raspberry Pi Getting Started with the Camera module documentation](https://projects.raspberrypi.org/en/projects/getting-started-with-picamera/2) ൽ കാണാം.
 
-    ![The ribbon cable inserted into the camera module](../../../../../translated_images/pi-camera-ribbon-cable.0bf82acd251611c2.ml.png)
+    ![The ribbon cable inserted into the camera module](../../../../../translated_images/ml/pi-camera-ribbon-cable.0bf82acd251611c2.png)
 
 1. Grove ബേസ് ഹാറ്റ് പൈയിൽ നിന്നും നീക്കം ചെയ്യുക.
 
 1. റിബൺ കേബിൾ Grove ബേസ് ഹാറ്റിലെ ക്യാമറ സ്ലോട്ടിലൂടെ കടത്തുക. കേബിളിന്റെ നീല വശം **A0**, **A1** തുടങ്ങി ലേബൽ ചെയ്ത അനലോഗ് പോർട്ടുകളുടെ ദിശയിലേക്ക് 바라ക്കുകയാണെന്ന് ഉറപ്പാക്കുക.
 
-    ![The ribbon cable passing through the grove base hat](../../../../../translated_images/grove-base-hat-ribbon-cable.501fed202fcf73b1.ml.png)
+    ![The ribbon cable passing through the grove base hat](../../../../../translated_images/ml/grove-base-hat-ribbon-cable.501fed202fcf73b1.png)
 
 1. റിബൺ കേബിൾ പൈയിലെ ക്യാമറ പോർട്ടിലേക്ക് ഉൾപ്പെടുത്തുക. വീണ്ടും, കറുത്ത പ്ലാസ്റ്റിക് ക്ലിപ്പ് ഉയർത്തി, കേബിൾ ചേർക്കുക പിന്നെയത് തിരിച്ചടക്കുക. കേബിളിന്റെ നീല വശം USB ഉം ഇഥർനെറ്റ് പോർട്ടുകളും അഭിമുഖ്യമായിരിക്കണം.
 
-    ![The ribbon cable connected to the camera socket on the Pi](../../../../../translated_images/pi-camera-socket-ribbon-cable.a18309920b118009.ml.png)
+    ![The ribbon cable connected to the camera socket on the Pi](../../../../../translated_images/ml/pi-camera-socket-ribbon-cable.a18309920b118009.png)
 
 1. Grove ബേസ് ഹാറ്റ് വീണ്ടും സജ്ജമാക്കുക
 
@@ -110,7 +110,7 @@ CO_OP_TRANSLATOR_METADATA:
 
     `camera.rotation = 0` ലൈനുൽ ചിത്രത്തിന്റെ ത്രൈധാന്യം സജ്ജമാക്കുന്നു. റിബൺ കേബിൾ ക്യാമറയുടെയും താഴെ ഭാഗത്ത് പ്രവേശിക്കുന്നതാണ്, പക്ഷേ ക്ലാസിഫൈ ചെയ്യേണ്ട വസ്തുവിനെ പറ്റാൻ ക്യാമറ തിരിച്ചത് എളുപ്പമാക്കാൻ നിങ്ങൾ തയ്യാറാക്കിയാൽ ഈ ലൈനിലെ ഡിഗ്രികൾ തിരുത്താം.
 
-    ![The camera hanging down over a drink can](../../../../../translated_images/pi-camera-upside-down.5376961ba3145988.ml.png)
+    ![The camera hanging down over a drink can](../../../../../translated_images/ml/pi-camera-upside-down.5376961ba3145988.png)
 
     ഉദാഹരണത്തിന്, നിങ്ങൾ റിബൺ കേബിൾ ക്യാമരയുടെ മുകളിൽ എത്തിക്കുന്ന വിധത്തിൽ വെയ്ക്കുകയാണെങ്കിൽ, ത്രൈധാന്യം 180 ആക്കി സെറ്റ് ചെയ്യുക:
 

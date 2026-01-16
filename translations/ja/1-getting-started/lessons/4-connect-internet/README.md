@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # デバイスをインターネットに接続する
 
-![このレッスンの概要を示すスケッチノート](../../../../../translated_images/lesson-4.7344e074ea68fa545fd320b12dce36d72dd62d28c3b4596cb26cf315f434b98f.ja.jpg)
+![このレッスンの概要を示すスケッチノート](../../../../../translated_images/ja/lesson-4.7344e074ea68fa545fd320b12dce36d72dd62d28c3b4596cb26cf315f434b98f.jpg)
 
 > スケッチノート作成者: [Nitya Narasimhan](https://github.com/nitya)。画像をクリックすると拡大表示されます。
 
@@ -46,7 +46,7 @@ IoTデバイスはクラウドからメッセージを受信することもで�
 
 IoTデバイスがインターネットと通信するために使用する一般的な通信プロトコルはいくつかあります。最も一般的なのは、ブローカーを介したパブリッシュ/サブスクライブ型のメッセージングに基づいています。IoTデバイスはブローカーに接続し、テレメトリを公開（パブリッシュ）し、コマンドを購読（サブスクライブ）します。クラウドサービスもブローカーに接続し、すべてのテレメトリメッセージを購読し、特定のデバイスまたはデバイスグループにコマンドを公開します。
 
-![IoTデバイスがブローカーに接続し、テレメトリを公開し、コマンドを購読する。クラウドサービスがブローカーに接続し、すべてのテレメトリを購読し、特定のデバイスにコマンドを送信する。](../../../../../translated_images/pub-sub.7c7ed43fe9fd15d4.ja.png)
+![IoTデバイスがブローカーに接続し、テレメトリを公開し、コマンドを購読する。クラウドサービスがブローカーに接続し、すべてのテレメトリを購読し、特定のデバイスにコマンドを送信する。](../../../../../translated_images/ja/pub-sub.7c7ed43fe9fd15d4.png)
 
 MQTTはIoTデバイスに最も人気のある通信プロトコルであり、このレッスンで取り上げます。他のプロトコルにはAMQPやHTTP/HTTPSがあります。
 
@@ -56,7 +56,7 @@ MQTTはIoTデバイスに最も人気のある通信プロトコルであり、�
 
 MQTTは単一のブローカーと複数のクライアントを持ちます。すべてのクライアントはブローカーに接続し、ブローカーは関連するクライアントにメッセージをルーティングします。メッセージは個々のクライアントに直接送信されるのではなく、名前付きトピックを使用してルーティングされます。クライアントはトピックに公開（パブリッシュ）し、そのトピックを購読（サブスクライブ）しているクライアントがメッセージを受信します。
 
-![IoTデバイスが/telemetryトピックでテレメトリを公開し、クラウドサービスがそのトピックを購読する](../../../../../translated_images/mqtt.cbf7f21d9adc3e17548b359444cc11bb4bf2010543e32ece9a47becf54438c23.ja.png)
+![IoTデバイスが/telemetryトピックでテレメトリを公開し、クラウドサービスがそのトピックを購読する](../../../../../translated_images/ja/mqtt.cbf7f21d9adc3e17548b359444cc11bb4bf2010543e32ece9a47becf54438c23.png)
 
 ✅ 調査してみましょう。多くのIoTデバイスがある場合、MQTTブローカーがすべてのメッセージを処理できるようにするにはどうすればよいでしょうか？
 
@@ -78,7 +78,7 @@ MQTTは単一のブローカーと複数のクライアントを持ちます。�
 
 > 💁 このテストブローカーは公開されており、安全ではありません。公開する内容を誰でも聞くことができるため、プライベートに保持する必要があるデータには使用しないでください。
 
-![光レベルを読み取り、チェックし、LEDを制御する課題のフローチャート](../../../../../translated_images/assignment-1-internet-flow.3256feab5f052fd273bf4e331157c574c2c3fa42e479836fc9c3586f41db35a5.ja.png)
+![光レベルを読み取り、チェックし、LEDを制御する課題のフローチャート](../../../../../translated_images/ja/assignment-1-internet-flow.3256feab5f052fd273bf4e331157c574c2c3fa42e479836fc9c3586f41db35a5.png)
 
 以下の手順に従って、デバイスをMQTTブローカーに接続してください：
 
@@ -115,7 +115,7 @@ MQTT接続は公開されてオープンなもの、またはユーザー名と�
 
 レッスン1で紹介したスマートサーモスタットの例を振り返ってみましょう。
 
-![複数の部屋センサーを使用するインターネット接続サーモスタット](../../../../../translated_images/telemetry.21e5d8b97649d2eb.ja.png)
+![複数の部屋センサーを使用するインターネット接続サーモスタット](../../../../../translated_images/ja/telemetry.21e5d8b97649d2eb.png)
 
 サーモスタットには、テレメトリを収集するための温度センサーがあります。おそらく1つの温度センサーが内蔵されており、[Bluetooth Low Energy](https://wikipedia.org/wiki/Bluetooth_Low_Energy)（BLE）などの無線プロトコルを介して複数の外部温度センサーに接続する可能性があります。
 
@@ -261,11 +261,11 @@ Python仮想環境を設定し、MQTT用のpipパッケージをインストー�
 
 1. VS Codeが起動すると、Python仮想環境が有効化されます。これは、下部のステータスバーに表示されます：
 
-    ![VS Code showing the selected virtual environment](../../../../../translated_images/vscode-virtual-env.8ba42e04c3d533cf.ja.png)
+    ![VS Code showing the selected virtual environment](../../../../../translated_images/ja/vscode-virtual-env.8ba42e04c3d533cf.png)
 
 1. VS Codeのターミナルがすでに起動している場合、仮想環境が有効化されていないことがあります。この場合、**Kill the active terminal instance**ボタンを使用してターミナルを終了するのが最も簡単です：
 
-    ![VS Code Kill the active terminal instance button](../../../../../translated_images/vscode-kill-terminal.1cc4de7c6f25ee08.ja.png)
+    ![VS Code Kill the active terminal instance button](../../../../../translated_images/ja/vscode-kill-terminal.1cc4de7c6f25ee08.png)
 
 1. *Terminal -> New Terminal*を選択するか、`` CTRL+` ``を押して新しいVS Codeターミナルを起動します。新しいターミナルでは仮想環境がロードされ、ターミナルに有効化コマンドが表示されます。プロンプトには仮想環境の名前（`.venv`）も表示されます：
 
@@ -353,7 +353,7 @@ MQTTで接続喪失を処理するには、デバイスとサーバーコード�
 
 コマンドは、クラウドからデバイスに送信されるメッセージで、何かを実行するよう指示するものです。多くの場合、アクチュエータを介して何らかの出力を行いますが、デバイス自体に対する指示（例：再起動や追加のテレメトリ収集など）である場合もあります。
 
-![インターネット接続されたサーモスタットが暖房をオンにするコマンドを受信する様子](../../../../../translated_images/commands.d6c06bbbb3a02cce95f2831a1c331daf6dedd4e470c4aa2b0ae54f332016e504.ja.png)
+![インターネット接続されたサーモスタットが暖房をオンにするコマンドを受信する様子](../../../../../translated_images/ja/commands.d6c06bbbb3a02cce95f2831a1c331daf6dedd4e470c4aa2b0ae54f332016e504.png)
 
 例えば、サーモスタットはクラウドから暖房をオンにするコマンドを受信することがあります。すべてのセンサーからのテレメトリデータに基づいて、クラウドサービスが暖房をオンにするべきだと判断した場合、関連するコマンドが送信されます。
 

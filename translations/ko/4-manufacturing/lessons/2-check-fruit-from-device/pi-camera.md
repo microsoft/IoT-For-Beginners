@@ -25,7 +25,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 ### 작업 - 카메라 연결하기
 
-![라즈베리 파이 카메라](../../../../../translated_images/pi-camera-module.4278753c31bd6e757aa2b858be97d72049f71616278cefe4fb5abb485b40a078.ko.png)
+![라즈베리 파이 카메라](../../../../../translated_images/ko/pi-camera-module.4278753c31bd6e757aa2b858be97d72049f71616278cefe4fb5abb485b40a078.png)
 
 1. Pi의 전원을 끕니다.
 
@@ -33,17 +33,17 @@ CO_OP_TRANSLATOR_METADATA:
 
     클립을 열고 케이블을 삽입하는 방법에 대한 애니메이션은 [Raspberry Pi Getting Started with the Camera module documentation](https://projects.raspberrypi.org/en/projects/getting-started-with-picamera/2)에서 확인할 수 있습니다.
 
-    ![카메라 모듈에 삽입된 리본 케이블](../../../../../translated_images/pi-camera-ribbon-cable.0bf82acd251611c21ac616f082849413e2b322a261d0e4f8fec344248083b07e.ko.png)
+    ![카메라 모듈에 삽입된 리본 케이블](../../../../../translated_images/ko/pi-camera-ribbon-cable.0bf82acd251611c21ac616f082849413e2b322a261d0e4f8fec344248083b07e.png)
 
 1. Grove Base Hat을 Pi에서 제거합니다.
 
 1. 리본 케이블을 Grove Base Hat의 카메라 슬롯을 통해 통과시킵니다. 이때 케이블의 파란색 면이 **A0**, **A1** 등으로 표시된 아날로그 포트를 향하도록 합니다.
 
-    ![Grove Base Hat을 통과하는 리본 케이블](../../../../../translated_images/grove-base-hat-ribbon-cable.501fed202fcf73b11b2b68f6d246189f7d15d3e4423c572ddee79d77b4632b47.ko.png)
+    ![Grove Base Hat을 통과하는 리본 케이블](../../../../../translated_images/ko/grove-base-hat-ribbon-cable.501fed202fcf73b11b2b68f6d246189f7d15d3e4423c572ddee79d77b4632b47.png)
 
 1. 리본 케이블을 Pi의 카메라 포트에 삽입합니다. 다시 한 번, 검은색 플라스틱 클립을 위로 당겨 케이블을 삽입한 후 클립을 다시 밀어 넣습니다. 케이블의 파란색 면이 USB 및 이더넷 포트를 향해야 합니다.
 
-    ![Pi의 카메라 소켓에 연결된 리본 케이블](../../../../../translated_images/pi-camera-socket-ribbon-cable.a18309920b11800911082ed7aa6fb28e6d9be3a022e4079ff990016cae3fca10.ko.png)
+    ![Pi의 카메라 소켓에 연결된 리본 케이블](../../../../../translated_images/ko/pi-camera-socket-ribbon-cable.a18309920b11800911082ed7aa6fb28e6d9be3a022e4079ff990016cae3fca10.png)
 
 1. Grove Base Hat을 다시 장착합니다.
 
@@ -110,7 +110,7 @@ CO_OP_TRANSLATOR_METADATA:
 
     `camera.rotation = 0` 줄은 이미지의 회전을 설정합니다. 리본 케이블은 카메라의 아래쪽으로 들어오지만, 카메라를 회전시켜 분류하려는 항목을 더 쉽게 가리키도록 설정한 경우 이 줄을 회전 각도로 변경할 수 있습니다.
 
-    ![음료 캔 위로 매달린 카메라](../../../../../translated_images/pi-camera-upside-down.5376961ba31459883362124152ad6b823d5ac5fc14e85f317e22903bd681c2b6.ko.png)
+    ![음료 캔 위로 매달린 카메라](../../../../../translated_images/ko/pi-camera-upside-down.5376961ba31459883362124152ad6b823d5ac5fc14e85f317e22903bd681c2b6.png)
 
     예를 들어, 리본 케이블을 카메라 상단에 매달아 놓은 경우 회전을 180으로 설정합니다:
 

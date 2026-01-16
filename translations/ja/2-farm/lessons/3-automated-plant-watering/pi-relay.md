@@ -27,13 +27,13 @@ GroveリレーをRaspberry Piに接続します。
 
 リレーを接続します。
 
-![Groveリレー](../../../../../translated_images/grove-relay.d426958ca210fbd0fb7983d7edc069d46c73a8b0a099d94797bd756f7b6bb6be.ja.png)
+![Groveリレー](../../../../../translated_images/ja/grove-relay.d426958ca210fbd0fb7983d7edc069d46c73a8b0a099d94797bd756f7b6bb6be.png)
 
 1. Groveケーブルの片方の端をリレーのソケットに差し込みます。ケーブルは一方向にしか差し込めません。
 
 1. Raspberry Piの電源を切った状態で、Groveケーブルのもう一方の端をPiに接続されたGrove Base Hatのデジタルソケット**D5**に接続します。このソケットは、GPIOピンの隣のソケット列の左から2番目にあります。土壌湿度センサーは**A0**ソケットに接続したままにしておきます。
 
-![D5ソケットに接続されたGroveリレーと、A0ソケットに接続された土壌湿度センサー](../../../../../translated_images/pi-relay-and-soil-moisture-sensor.02f3198975b8c53e69ec716cd2719ce117700bd1fc933eaf93476c103c57939b.ja.png)
+![D5ソケットに接続されたGroveリレーと、A0ソケットに接続された土壌湿度センサー](../../../../../translated_images/ja/pi-relay-and-soil-moisture-sensor.02f3198975b8c53e69ec716cd2719ce117700bd1fc933eaf93476c103c57939b.png)
 
 1. 前のレッスンで既に土壌湿度センサーを土に挿していない場合は、土壌湿度センサーを土に挿します。
 

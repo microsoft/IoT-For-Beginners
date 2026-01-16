@@ -25,13 +25,13 @@ Raspberry Pi-ക്ക് ഓഡിയോ പിടിക്കൽ നിയന�
 
 #### ടാസ്ക് - ബട്ടൺ കണക്ട് ചെയ്യുക
 
-![A grove button](../../../../../translated_images/grove-button.a70cfbb809a85636.ml.png)
+![A grove button](../../../../../translated_images/ml/grove-button.a70cfbb809a85636.png)
 
 1. Grove കേബിളിന്റെ ഒരു端 ബട്ടൺ മോഡ്യൂളിലെ സോകറ്റിൽ ഇട്ടിടുക. ഇത് ഒരു ദിശയിൽ മാത്രമേ നൽകുകയുള്ളു.
 
 1. Raspberry Pi ഓഫ് ചെയ്തിരിക്കുമ്പോൾ, Grove കേബിളിന്റെ മറുവശത്ത് Grove ബേസ് ഹാറ്റിൽ Pi-ക്കു കണക്ട് ചെയ്തിട്ടുള്ള ഡിജിറ്റൽ സോകറ്റായ **D5** എന്ന ലേബലുള്ള സოკറ്റിൽ കണക്ട് ചെയ്യുക. GPIO പിനുകളുടെ അടുത്തുള്ള സോകറ്റുകളുടെ പക്കൽ ഇടതുവശത്തു നിന്നും രണ്ടാമതാണ് ഈ സോക്കറ്റ്.
 
-![The grove button connected to socket D5](../../../../../translated_images/pi-button.c7a1a4f55943341c.ml.png)
+![The grove button connected to socket D5](../../../../../translated_images/ml/pi-button.c7a1a4f55943341c.png)
 
 ## ഓഡിയോ പിടിക്കുക
 

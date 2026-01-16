@@ -35,7 +35,7 @@ Grove LEDは複数のLEDがセットになったモジュールとして提供�
 
 LEDを接続します。
 
-![Grove LED](../../../../../translated_images/grove-led.6c853be93f473cf2c439cfc74bb1064732b22251a83cedf66e62f783f9cc1a79.ja.png)
+![Grove LED](../../../../../translated_images/ja/grove-led.6c853be93f473cf2c439cfc74bb1064732b22251a83cedf66e62f783f9cc1a79.png)
 
 1. 好きな色のLEDを選び、LEDモジュールの2つの穴に足を差し込みます。
 
@@ -51,7 +51,7 @@ LEDを接続します。
 
     > 💁 右側のGroveソケットはアナログまたはデジタルセンサーやアクチュエータに使用できます。左側のソケットはI2Cとデジタルセンサーやアクチュエータ専用です。
 
-![右側のソケットに接続されたGrove LED](../../../../../translated_images/wio-led.265a1897e72d7f21.ja.png)
+![右側のソケットに接続されたGrove LED](../../../../../translated_images/ja/wio-led.265a1897e72d7f21.png)
 
 ## ナイトライトをプログラムする
 

@@ -25,13 +25,13 @@ Grove 온도 센서를 Raspberry Pi에 연결할 수 있습니다.
 
 온도 센서를 연결하세요.
 
-![Grove 온도 센서](../../../../../translated_images/grove-dht11.07f8eafceee170043efbb53e1d15722bd4e00fbaa9ff74290b57e9f66eb82c17.ko.png)
+![Grove 온도 센서](../../../../../translated_images/ko/grove-dht11.07f8eafceee170043efbb53e1d15722bd4e00fbaa9ff74290b57e9f66eb82c17.png)
 
 1. Grove 케이블의 한쪽 끝을 습도 및 온도 센서의 소켓에 삽입합니다. 케이블은 한 방향으로만 들어갑니다.
 
 1. Raspberry Pi의 전원을 끈 상태에서, Grove 케이블의 다른 끝을 Pi에 부착된 Grove Base Hat의 **D5**로 표시된 디지털 소켓에 연결합니다. 이 소켓은 GPIO 핀 옆에 있는 소켓 행에서 왼쪽에서 두 번째입니다.
 
-![소켓 A0에 연결된 Grove 온도 센서](../../../../../translated_images/pi-temperature-sensor.3ff82fff672c8e565ef25a39d26d111de006b825a7e0867227ef4e7fbff8553c.ko.png)
+![소켓 A0에 연결된 Grove 온도 센서](../../../../../translated_images/ko/pi-temperature-sensor.3ff82fff672c8e565ef25a39d26d111de006b825a7e0867227ef4e7fbff8553c.png)
 
 ## 온도 센서 프로그래밍하기
 

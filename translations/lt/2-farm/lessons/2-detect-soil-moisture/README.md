@@ -22,7 +22,7 @@ I²C magistralė turi 2 pagrindinius laidus, kartu su 2 maitinimo laidais:
 | VCC | Bendras įtampos kolektorius | Maitinimo šaltinis įrenginiams. Jis prijungtas prie SDA ir SCL laidų, kad suteiktų jų maitinimą per traukimo rezistorių, kuris išjungia signalą, kai nė vienas įrenginys nėra valdiklis. |
 | GND | Įžeminimas | Užtikrina bendrą įžeminimą elektrinei grandinei. |
 
-![I2C magistralė su 3 įrenginiais, prijungtais prie SDA ir SCL laidų, dalijantis bendru įžeminimo laidu](../../../../../translated_images/i2c.83da845dde02256bdd462dbe0d5145461416b74930571b89d1ae142841eeb584.lt.png)
+![I2C magistralė su 3 įrenginiais, prijungtais prie SDA ir SCL laidų, dalijantis bendru įžeminimo laidu](../../../../../translated_images/lt/i2c.83da845dde02256bdd462dbe0d5145461416b74930571b89d1ae142841eeb584.png)
 
 Norint siųsti duomenis, vienas įrenginys išduoda pradžios sąlygą, nurodydamas, kad yra pasiruošęs siųsti duomenis. Tada jis tampa valdikliu. Valdiklis siunčia įrenginio adresą, su kuriuo nori bendrauti, kartu su informacija, ar jis nori skaityti, ar rašyti duomenis. Po duomenų perdavimo valdiklis siunčia pabaigos sąlygą, nurodydamas, kad baigė. Po to kitas įrenginys gali tapti valdikliu ir siųsti arba gauti duomenis.
 
@@ -37,7 +37,7 @@ UART apima fizinę grandinę, leidžiančią dviem įrenginiams bendrauti. Kiekv
 * Įrenginys 1 siunčia duomenis iš savo Tx kontakto, kuriuos gauna įrenginys 2 per savo Rx kontaktą
 * Įrenginys 1 gauna duomenis per savo Rx kontaktą, kuriuos siunčia įrenginys 2 iš savo Tx kontakto
 
-![UART su Tx kontaktu viename luste, prijungtu prie Rx kontakto kitame, ir atvirkščiai](../../../../../translated_images/uart.d0dbd3fb9e3728c6.lt.png)
+![UART su Tx kontaktu viename luste, prijungtu prie Rx kontakto kitame, ir atvirkščiai](../../../../../translated_images/lt/uart.d0dbd3fb9e3728c6.png)
 
 > 🎓 Duomenys siunčiami po vieną bitą, ir tai vadinama *nuosekliuoju* ryšiu. Dauguma operacinių sistemų ir mikrovaldiklių turi *nuosekliuosius prievadus*, tai yra jungtis, kurios gali siųsti ir priimti nuoseklius duomenis, prieinamus jūsų kodui.
 
@@ -66,7 +66,7 @@ SPI valdikliai naudoja 3 laidus kartu su 1 papildomu laidu kiekvienam periferini
 | SCLK | Nuoseklus laikrodis | Šis laidas siunčia laikrodžio signalą, kurio dažnį nustato valdiklis. |
 | CS   | Lustų pasirinkimas | Valdiklis turi kelis laidus, po vieną kiekvienam periferiniam įrenginiui, ir kiekvienas laidas jungiasi prie atitinkamo periferinio įrenginio CS laido. |
 
-![SPI su vienu valdikliu ir dviem periferiniais įrenginiais](../../../../../translated_images/spi.297431d6f98b386b.lt.png)
+![SPI su vienu valdikliu ir dviem periferiniais įrenginiais](../../../../../translated_images/lt/spi.297431d6f98b386b.png)
 
 CS laidas naudojamas aktyvuoti vieną periferinį įrenginį vienu metu, bendraujant per COPI ir CIPO laidus. Kai valdikliui reikia pakeisti periferinį įrenginį, jis išjungia CS laidą, prijungtą prie šiuo metu aktyvaus periferinio įrenginio, tada įjungia laidą, prijungtą prie kito periferinio įrenginio, su kuriuo nori bendrauti.
 
@@ -127,13 +127,13 @@ Dirvožemio drėgmė matuojama naudojant gravimetrinį arba tūrį matuojantį v
 
 Dirvožemio drėgmės jutikliai matuoja elektrinę varžą arba talpą – tai ne tik priklauso nuo dirvožemio drėgmės, bet ir nuo dirvožemio tipo, nes dirvožemio sudedamosios dalys gali pakeisti jo elektrines savybes. Idealiu atveju jutikliai turėtų būti kalibruoti – tai yra, imant jutiklio rodmenis ir lyginant juos su matavimais, atliktais naudojant mokslinį metodą. Pavyzdžiui, laboratorija gali apskaičiuoti gravimetrinę dirvožemio drėgmę, naudodama konkretaus lauko mėginius, paimtus kelis kartus per metus, ir šie skaičiai gali būti naudojami jutiklio kalibravimui, suderinant jutiklio rodmenis su gravimetrine dirvožemio drėgme.
 
-![Įtampa prieš dirvožemio drėgmės kiekį](../../../../../translated_images/soil-moisture-to-voltage.df86d80cda158700.lt.png)
+![Įtampa prieš dirvožemio drėgmės kiekį](../../../../../translated_images/lt/soil-moisture-to-voltage.df86d80cda158700.png)
 
 Aukščiau pateiktoje diagramoje parodyta, kaip kalibruoti jutiklį. Įtampa užfiksuojama dirvožemio mėginiui, kuris vėliau laboratorijoje matuojamas, lyginant drėgną svorį su sausu svoriu (matuojant svorį drėgną, tada džiovinant orkaitėje ir matuojant sausą). Kai keli matavimai yra atlikti, jie gali būti pavaizduoti diagramoje, o taškams pritaikyta linija. Ši linija gali būti naudojama konvertuoti dirvožemio drėgmės jutiklio rodmenis, gautus IoT įrenginiu, į faktinius dirvožemio drėgmės matavimus.
 
 💁 Rezistyviniams dirvožemio drėgmės jutikliams įtampa didėja, kai dirvožemio drėgmė didėja. Kapacitiviniams dirvožemio drėgmės jutikliams įtampa mažėja, kai dirvožemio drėgmė didėja, todėl jų grafikai būtų nuolydžiai žemyn, o ne aukštyn.
 
-![Dirvožemio drėgmės reikšmė, interpoliuota iš grafiko](../../../../../translated_images/soil-moisture-to-voltage-with-reading.681cb3e1f8b68caf.lt.png)
+![Dirvožemio drėgmės reikšmė, interpoliuota iš grafiko](../../../../../translated_images/lt/soil-moisture-to-voltage-with-reading.681cb3e1f8b68caf.png)
 
 Aukščiau pateiktoje diagramoje parodytas dirvožemio drėgmės jutiklio įtampos rodmuo, ir sekant jį iki linijos diagramoje galima apskaičiuoti faktinę dirvožemio drėgmę.
 

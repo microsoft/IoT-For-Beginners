@@ -27,13 +27,13 @@ A Grove GPS szenzort csatlakoztathatod a Raspberry Pi-hez.
 
 Csatlakoztasd a GPS szenzort.
 
-![Egy Grove GPS szenzor](../../../../../translated_images/grove-gps-sensor.247943bf69b03f0d1820ef6ed10c587f9b650e8db55b936851c92412180bd3e2.hu.png)
+![Egy Grove GPS szenzor](../../../../../translated_images/hu/grove-gps-sensor.247943bf69b03f0d1820ef6ed10c587f9b650e8db55b936851c92412180bd3e2.png)
 
 1. Dugj be egy Grove kábelt a GPS szenzor aljzatába. Csak egy irányban illeszkedik.
 
 1. Kapcsold ki a Raspberry Pi-t, majd csatlakoztasd a Grove kábel másik végét a Grove Base hat **UART** jelzésű aljzatába, amely a Pi-hez van csatlakoztatva. Ez az aljzat a középső sorban található, az SD kártya nyílás közelében, a másik oldalon, mint az USB portok és az ethernet aljzat.
 
-    ![A Grove GPS szenzor csatlakoztatva az UART aljzathoz](../../../../../translated_images/pi-gps-sensor.1f99ee2b2f6528915047ec78967bd362e0e4ee0ed594368a3837b9cf9cdaca64.hu.png)
+    ![A Grove GPS szenzor csatlakoztatva az UART aljzathoz](../../../../../translated_images/hu/pi-gps-sensor.1f99ee2b2f6528915047ec78967bd362e0e4ee0ed594368a3837b9cf9cdaca64.png)
 
 1. Helyezd el a GPS szenzort úgy, hogy a csatlakoztatott antennája látható legyen az ég felé - ideális esetben egy nyitott ablak mellett vagy a szabadban. Az antenna akadálytalan elhelyezése segít tisztább jelet kapni.
 

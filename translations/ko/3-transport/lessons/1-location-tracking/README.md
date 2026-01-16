@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # 위치 추적
 
-![이 강의의 스케치노트 개요](../../../../../translated_images/lesson-11.9fddbac4b664c6d50ab7ac9bb32f1fc3f945f03760e72f7f43938073762fb017.ko.jpg)
+![이 강의의 스케치노트 개요](../../../../../translated_images/ko/lesson-11.9fddbac4b664c6d50ab7ac9bb32f1fc3f945f03760e72f7f43938073762fb017.jpg)
 
 > 스케치노트: [Nitya Narasimhan](https://github.com/nitya). 이미지를 클릭하면 더 큰 버전을 볼 수 있습니다.
 
@@ -71,13 +71,13 @@ IoT는 *연결된 차량*의 무리를 만들어 물품 운송 방식을 혁신�
 
 > 💁 원이 360도로 나뉜 원래 이유는 아무도 정확히 알지 못합니다. [위키백과의 각도 페이지](https://wikipedia.org/wiki/Degree_(angle))에서 몇 가지 가능한 이유를 확인할 수 있습니다.
 
-![북극에서 90°, 적도에서 0°, 남극에서 -90°로 나뉘는 위도선](../../../../../translated_images/latitude-lines.11d8d91dfb2014a57437272d7db7fd6607243098e8685f06e0c5f1ec984cb7eb.ko.png)
+![북극에서 90°, 적도에서 0°, 남극에서 -90°로 나뉘는 위도선](../../../../../translated_images/ko/latitude-lines.11d8d91dfb2014a57437272d7db7fd6607243098e8685f06e0c5f1ec984cb7eb.png)
 
 위도는 적도를 기준으로 지구를 나누는 선으로 측정되며, 북반구와 남반구를 각각 90°로 나눕니다. 적도는 0°, 북극은 90°(90° 북위), 남극은 -90°(90° 남위)입니다.
 
 경도는 동쪽과 서쪽으로 측정된 각도입니다. 경도의 0° 기준점은 *본초 자오선*이라고 하며, 1884년에 [영국 그리니치 왕립 천문대](https://wikipedia.org/wiki/Royal_Observatory,_Greenwich)를 통과하는 북극에서 남극까지의 선으로 정의되었습니다.
 
-![본초 자오선에서 -180° 서쪽부터 0° 본초 자오선, 180° 동쪽까지의 경도선](../../../../../translated_images/longitude-meridians.ab4ef1c91c064586b0185a3c8d39e585903696c6a7d28c098a93a629cddb5d20.ko.png)
+![본초 자오선에서 -180° 서쪽부터 0° 본초 자오선, 180° 동쪽까지의 경도선](../../../../../translated_images/ko/longitude-meridians.ab4ef1c91c064586b0185a3c8d39e585903696c6a7d28c098a93a629cddb5d20.png)
 
 > 🎓 자오선은 북극에서 남극까지의 반원을 형성하는 가상의 직선입니다.
 
@@ -108,7 +108,7 @@ IoT는 *연결된 차량*의 무리를 만들어 물품 운송 방식을 혁신�
 * 위도: 47.6423109 (적도에서 북쪽으로 47.6423109도)
 * 경도: -122.1390293 (본초 자오선에서 서쪽으로 122.1390293도)
 
-![47.6423109,-122.117198에 위치한 마이크로소프트 캠퍼스](../../../../../translated_images/microsoft-gps-location-world.a321d481b010f6adfcca139b2ba0adc53b79f58a540495b8e2ce7f779ea64bfe.ko.png)
+![47.6423109,-122.117198에 위치한 마이크로소프트 캠퍼스](../../../../../translated_images/ko/microsoft-gps-location-world.a321d481b010f6adfcca139b2ba0adc53b79f58a540495b8e2ce7f779ea64bfe.png)
 
 ## 글로벌 포지셔닝 시스템(GPS)
 
@@ -120,7 +120,7 @@ GPS 시스템은 여러 위성이 현재 위치와 정확한 타임스탬프를 
 
 > 💁 GPS 센서는 전파를 감지하기 위해 안테나가 필요합니다. 차량에 내장된 GPS의 안테나는 보통 전파를 잘 수신할 수 있도록 앞유리나 지붕에 위치합니다. 스마트폰이나 IoT 기기와 같은 별도의 GPS 시스템을 사용하는 경우, GPS 시스템이나 스마트폰에 내장된 안테나가 하늘을 잘 볼 수 있는 위치(예: 앞유리)에 있어야 합니다.
 
-![센서와 여러 위성 간의 거리를 알면 위치를 계산할 수 있습니다](../../../../../translated_images/gps-satellites.04acf1148fe25fbf1586bc2e8ba698e8d79b79a50c36824b38417dd13372b90f.ko.png)
+![센서와 여러 위성 간의 거리를 알면 위치를 계산할 수 있습니다](../../../../../translated_images/ko/gps-satellites.04acf1148fe25fbf1586bc2e8ba698e8d79b79a50c36824b38417dd13372b90f.png)
 
 GPS 위성은 지구를 돌고 있으며, 센서 바로 위에 고정된 것이 아니기 때문에 위치 데이터에는 위도와 경도뿐만 아니라 해발 고도도 포함됩니다.
 

@@ -25,11 +25,11 @@ ArduCam-ന് Grove സൊക്കറ്റ് ഇല്ല, പകരം അ�
 
 ക്യാമറ കണക്റ്റ് ചെയ്യുക.
 
-![An ArduCam sensor](../../../../../translated_images/arducam.20e4e4cbb2682965.ml.png)
+![An ArduCam sensor](../../../../../translated_images/ml/arducam.20e4e4cbb2682965.png)
 
 1. ArduCam-ന്റെ അടിത്തറയിലെ പിനുകൾ Wio ടെർമിനലിലെ GPIO പിനുകളിലേക്ക് കണക്റ്റ് ചെയ്യണം. ശരിയായ പിനുകൾ കണ്ടെത്താൻ ഇടത്തരം വയ്ക്കാൻ, Wio ടെർമിനലുമായി ಜೊതിക്കപ്പെട്ട GPIO പിന് സ്റ്റിക്കർ പിനുകൾ ചുറ്റി ഒട്ടിക്കുക:
 
-    ![The wio terminal with the GPIO pin sticker on](../../../../../translated_images/wio-terminal-pin-sticker.b90b1535937b84bd.ml.png)
+    ![The wio terminal with the GPIO pin sticker on](../../../../../translated_images/ml/wio-terminal-pin-sticker.b90b1535937b84bd.png)
 
 1. ജമ്പർ വയറുകൾ ഉപയോഗിച്ച് താഴെയുള്ള കണക്ഷനുകൾ ചെയ്യുക:
 
@@ -44,7 +44,7 @@ ArduCam-ന് Grove സൊക്കറ്റ് ഇല്ല, പകരം അ�
     | SDA         | 3 (I2C1_SDA)     | I<sup>2</sup>C സീരിയൽ ഡാറ്റ              |
     | SCL         | 5 (I2C1_SCL)     | I<sup>2</sup>C സീരിയൽ മണിക്കൂർ             |
 
-    ![The wio terminal connected to the ArduCam with jumper wires](../../../../../translated_images/arducam-wio-terminal-connections.a4d5a4049bdb5ab8.ml.png)
+    ![The wio terminal connected to the ArduCam with jumper wires](../../../../../translated_images/ml/arducam-wio-terminal-connections.a4d5a4049bdb5ab8.png)
 
     GND ഉം VCC ഉം കണക്ഷനുകൾ ArduCam-ലേക്ക് 5V പവർ സപ്ലൈ നൽകുന്നു. ഇത് Grove സെൻസറുകൾ (3V-ൽ പ്രവർത്തിക്കുന്നത്) ലെ വന്നുള്ള 5V-ൽ പ്രവർത്തിക്കുന്നു. ഈ പവർ USB-C കണക്ഷനിൽ നിന്നാണ് നേരിട്ട് നേടുന്നത്, അത് ഉപകരണം പവർ ചെയ്യുന്നു.
 
@@ -297,7 +297,7 @@ Wio ടെർമിനലിനെ ഇനി ഒരു ബട്ടൺ അമർ
 
 1. മൈക്രോക്കൺട്രോളറുകൾ കോഡ് അനന്തം പ്രവർത്തിപ്പിക്കുന്നു, അതിനാൽ ഒരു സെൻസർ ഉണ്ടാകാതെ ഫോട്ടോ എടുക്കുന്നത് മെച്ചപ്പെട്ട രീതിയിൽ ട്രിഗർചെയ്യാൻ പറ്റില്ല. Wio ടെർമിനലിന് അടുക്കിലുള്ള ബട്ടണുകൾ ഉപയോഗിച്ച് ക്യാമറ ഒരു ബട്ടൺ അമർത്തലിലൂടെ ട്രിഗർചെയ്യാം. താഴെ കാണുന്ന കോഡ് `setup` ഫംഗ്ഷൻ അവസാനം ചേർക്കുക, കഴിയും സി ബട്ടൺ (മുകളിൽ മൂന്ന് ബട്ടണുകളിൽ പവർ സ്വിച്ച് അടുത്തതാണത്).
 
-    ![The C button on the top closest to the power switch](../../../../../translated_images/wio-terminal-c-button.73df3cb1c1445ea0.ml.png)
+    ![The C button on the top closest to the power switch](../../../../../translated_images/ml/wio-terminal-c-button.73df3cb1c1445ea0.png)
 
     ```cpp
     pinMode(WIO_KEY_C, INPUT_PULLUP);
@@ -465,7 +465,7 @@ Wio ടെർമിനൽ 16GB വരെ microSD കാർഡുകൾ മാത
 
 1. microSD കാർഡിന്റെ പവർ ഓഫാക്കി ഞെക്കി പുറത്തെടുക്കുക, അത് പിൻവാങ്ങി പുറത്ത് പണഞ്ഞു വരും. ഇത് ചെയ്യാൻ നിങ്ങൾക്ക് ഒരു ചെറു ഉപകരണം ഉപയോഗിക്കാൻ ആവാം. microSD കാർഡ് നിങ്ങളുടെ കമ്പ്യൂട്ടറിൽ കണക്റ്റ് ചെയ്ത് ചിത്രങ്ങൾ കാണുക.
 
-    ![A picture of a banana captured using the ArduCam](../../../../../translated_images/banana-arducam.be1b32d4267a8194.ml.jpg)
+    ![A picture of a banana captured using the ArduCam](../../../../../translated_images/ml/banana-arducam.be1b32d4267a8194.jpg)
 
     > 💁 ക്യാമറ വൈകി വൈറ്റ് ബാലൻസ് ക്രമീകരിക്കാൻ ചില ചിത്രങ്ങൾ എടുക്കേണ്ടി വരാം. ഇതിനുള്ള സൂചനയായി ചിത്രങ്ങളുടെ നിറം ആദ്യമായി സ്വാഭാവികമല്ലാതെ കാണാം. ഈ പ്രശ്‌നം പരാമർശിക്കാൻ നിങ്ങൾക്ക് സജ്ജമാക്കപ്പെട്ട `setup` ഫംഗ്ഷനിൽ ക്യാപ്ചർ ചെയ്ത ചിത്രങ്ങളിൽ ആദ്യ കുറെ(ignore) മാറ്റി പോകാം.
 

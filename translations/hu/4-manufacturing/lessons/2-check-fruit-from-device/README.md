@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Ellenőrizd a gyümölcs minőségét egy IoT eszközzel
 
-![Egy vázlatos áttekintés erről a leckéről](../../../../../translated_images/lesson-16.215daf18b00631fbdfd64c6fc2dc6044dff5d544288825d8076f9fb83d964c23.hu.jpg)
+![Egy vázlatos áttekintés erről a leckéről](../../../../../translated_images/hu/lesson-16.215daf18b00631fbdfd64c6fc2dc6044dff5d544288825d8076f9fb83d964c23.jpg)
 
 > Vázlat: [Nitya Narasimhan](https://github.com/nitya). Kattints a képre a nagyobb verzióért.
 
@@ -35,7 +35,7 @@ Ebben a leckében a következőket tárgyaljuk:
 
 A kamerás szenzorok, ahogy a nevük is sugallja, olyan kamerák, amelyeket csatlakoztathatsz az IoT eszközödhöz. Ezek képesek állóképeket készíteni vagy folyamatos videót rögzíteni. Néhányuk nyers képadatokat ad vissza, míg mások tömörítik az adatokat egy képformátumba, például JPEG vagy PNG fájlba. Az IoT eszközökkel kompatibilis kamerák általában kisebbek és alacsonyabb felbontásúak, mint amit megszokhattál, de léteznek olyan nagy felbontású kamerák is, amelyek vetekednek a csúcskategóriás telefonokkal. Különféle cserélhető lencséket, többkamerás rendszereket, infravörös hőkamerákat vagy UV kamerákat is beszerezhetsz.
 
-![A fény egy jelenetből áthalad egy lencsén, és a CMOS szenzorra fókuszálódik](../../../../../translated_images/cmos-sensor.75f9cd74decb137149a4c9ea825251a4549497d67c0ae2776159e6102bb53aa9.hu.png)
+![A fény egy jelenetből áthalad egy lencsén, és a CMOS szenzorra fókuszálódik](../../../../../translated_images/hu/cmos-sensor.75f9cd74decb137149a4c9ea825251a4549497d67c0ae2776159e6102bb53aa9.png)
 
 A legtöbb kamerás szenzor képszenzorokat használ, ahol minden pixel egy fotodióda. Egy lencse fókuszálja a képet a képszenzorra, és több ezer vagy millió fotodióda érzékeli a rájuk eső fényt, majd ezt pixeladatként rögzíti.
 
@@ -83,7 +83,7 @@ Az iterációkat a Custom Vision portálon lehet publikálni.
 
 1. Kattints az iteráció **Publikálás** gombjára.
 
-    ![A publikálás gomb](../../../../../translated_images/custom-vision-publish-button.b7174e1977b0c33b8b72d4e5b1326c779e0af196f3849d09985ee2d7d5493a39.hu.png)
+    ![A publikálás gomb](../../../../../translated_images/hu/custom-vision-publish-button.b7174e1977b0c33b8b72d4e5b1326c779e0af196f3849d09985ee2d7d5493a39.png)
 
 1. A *Modell publikálása* párbeszédablakban állítsd be a *Predikciós erőforrást* a `fruit-quality-detector-prediction` erőforrásra, amelyet az előző leckében hoztál létre. Hagyd meg a nevet `Iteration2`-ként, majd kattints a **Publikálás** gombra.
 
@@ -97,7 +97,7 @@ Az iterációkat a Custom Vision portálon lehet publikálni.
 
     Másold ki a *Predikciós kulcs* értékét is. Ez egy biztonsági kulcs, amelyet meg kell adnod, amikor meghívod a modellt. Csak azok az alkalmazások használhatják a modellt, amelyek megadják ezt a kulcsot, minden más alkalmazás elutasításra kerül.
 
-    ![A predikciós API párbeszédablak, amely az URL-t és a kulcsot mutatja](../../../../../translated_images/custom-vision-prediction-key-endpoint.30c569ffd0338864f319911f052d5e9b8c5066cb0800a26dd6f7ff5713130ad8.hu.png)
+    ![A predikciós API párbeszédablak, amely az URL-t és a kulcsot mutatja](../../../../../translated_images/hu/custom-vision-prediction-key-endpoint.30c569ffd0338864f319911f052d5e9b8c5066cb0800a26dd6f7ff5713130ad8.png)
 
 ✅ Amikor egy új iterációt publikálnak, annak más neve lesz. Hogyan gondolod, hogy lehetne megváltoztatni az iterációt, amelyet egy IoT eszköz használ?
 
@@ -118,7 +118,7 @@ Előfordulhat, hogy az IoT eszközhöz csatlakoztatott kamerával készített k�
 
 Ahhoz, hogy a képosztályozó a legjobb eredményeket nyújtsa, olyan képekkel kell tanítani a modellt, amelyek a lehető legjobban hasonlítanak a predikciókhoz használt képekre. Ha például a telefonod kamerájával készítettél képeket a tanításhoz, a képminőség, az élesség és a színek eltérhetnek az IoT eszközhöz csatlakoztatott kamera által készített képektől.
 
-![2 banán képe, az egyik alacsony felbontású és rossz megvilágítású IoT eszközről, a másik magas felbontású és jó megvilágítású telefonról](../../../../../translated_images/banana-picture-compare.174df164dc326a42cf7fb051a7497e6113c620e91552d92ca914220305d47d9a.hu.png)
+![2 banán képe, az egyik alacsony felbontású és rossz megvilágítású IoT eszközről, a másik magas felbontású és jó megvilágítású telefonról](../../../../../translated_images/hu/banana-picture-compare.174df164dc326a42cf7fb051a7497e6113c620e91552d92ca914220305d47d9a.png)
 
 A fenti képen a bal oldali banánképet egy Raspberry Pi kamerával készítették, a jobb oldalit pedig ugyanarról a banánról, ugyanazon a helyen egy iPhone-nal. Jól látható a minőségbeli különbség – az iPhone képe élesebb, élénkebb színekkel és nagyobb kontraszttal.
 

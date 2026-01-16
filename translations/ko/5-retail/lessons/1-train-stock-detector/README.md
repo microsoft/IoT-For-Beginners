@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # 주식 감지기 학습하기
 
-![이 강의에 대한 스케치노트 개요](../../../../../translated_images/lesson-19.cf6973cecadf080c4b526310620dc4d6f5994c80fb0139c6f378cc9ca2d435cd.ko.jpg)
+![이 강의에 대한 스케치노트 개요](../../../../../translated_images/ko/lesson-19.cf6973cecadf080c4b526310620dc4d6f5994c80fb0139c6f378cc9ca2d435cd.jpg)
 
 > 스케치노트: [Nitya Narasimhan](https://github.com/nitya). 이미지를 클릭하면 더 큰 버전을 볼 수 있습니다.
 
@@ -45,7 +45,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 이미지 분류는 이미지 전체를 분류하는 것입니다. 즉, 이미지가 각 태그와 일치할 확률을 계산합니다. 모델 학습에 사용된 모든 태그에 대한 확률을 반환합니다.
 
-![캐슈넛과 토마토 페이스트의 이미지 분류](../../../../../translated_images/image-classifier-cashews-tomato.bc2e16ab8f05cf9ac0f59f73e32efc4227f9a5b601b90b2c60f436694547a965.ko.png)
+![캐슈넛과 토마토 페이스트의 이미지 분류](../../../../../translated_images/ko/image-classifier-cashews-tomato.bc2e16ab8f05cf9ac0f59f73e32efc4227f9a5b601b90b2c60f436694547a965.png)
 
 위 예시에서 두 이미지는 캐슈넛 통과 토마토 페이스트 캔을 분류하도록 학습된 모델을 사용하여 분류되었습니다. 첫 번째 이미지는 캐슈넛 통이며, 이미지 분류기의 결과는 다음과 같습니다:
 
@@ -69,7 +69,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 > 🎓 *경계 상자*는 객체 주위의 상자입니다.
 
-![캐슈넛과 토마토 페이스트의 객체 감지](../../../../../translated_images/object-detector-cashews-tomato.1af7c26686b4db0e709754aeb196f4e73271f54e2085db3bcccb70d4a0d84d97.ko.png)
+![캐슈넛과 토마토 페이스트의 객체 감지](../../../../../translated_images/ko/object-detector-cashews-tomato.1af7c26686b4db0e709754aeb196f4e73271f54e2085db3bcccb70d4a0d84d97.png)
 
 위 이미지는 캐슈넛 통과 세 개의 토마토 페이스트 캔을 포함하고 있습니다. 객체 감지기는 캐슈넛을 감지하여 캐슈넛을 포함하는 경계 상자와 해당 객체를 포함할 확률(97.6%)을 반환합니다. 또한 세 개의 토마토 페이스트 캔을 감지하여 각각의 캔에 대해 별도의 경계 상자를 제공합니다. 각 경계 상자는 해당 태그와 일치할 확률을 포함합니다.
 
@@ -120,7 +120,7 @@ Custom Vision을 사용하여 객체 감지기를 학습시킬 수 있습니다.
 
     프로젝트를 생성할 때 이전에 생성한 `stock-detector-training` 리소스를 사용하세요. *객체 감지* 프로젝트 유형과 *선반 위 제품* 도메인을 선택합니다.
 
-    ![Custom Vision 프로젝트 설정](../../../../../translated_images/custom-vision-create-object-detector-project.32d4fb9aa8e7e7375f8a799bfce517aca970f2cb65e42d4245c5e635c734ab29.ko.png)
+    ![Custom Vision 프로젝트 설정](../../../../../translated_images/ko/custom-vision-create-object-detector-project.32d4fb9aa8e7e7375f8a799bfce517aca970f2cb65e42d4245c5e635c734ab29.png)
 
     ✅ 선반 위 제품 도메인은 매장 선반의 재고를 감지하는 데 특화되어 있습니다. Microsoft Docs의 [도메인 선택 문서](https://docs.microsoft.com/azure/cognitive-services/custom-vision-service/select-domain?WT.mc_id=academic-17441-jabenn#object-detection)에서 다른 도메인에 대해 더 읽어보세요.
 
@@ -142,11 +142,11 @@ Custom Vision을 사용하여 객체 감지기를 학습시킬 수 있습니다.
 
 1. Microsoft Docs의 [Build an object detector quickstart의 이미지 업로드 및 태그 지정 섹션](https://docs.microsoft.com/azure/cognitive-services/custom-vision-service/get-started-build-detector?WT.mc_id=academic-17441-jabenn#upload-and-tag-images)을 따라 학습 이미지를 업로드하세요. 감지하려는 객체 유형에 따라 관련 태그를 생성하세요.
 
-    ![익은 바나나와 익지 않은 바나나 사진 업로드](../../../../../translated_images/image-upload-object-detector.77c7892c3093cb59b79018edecd678749a75d71a099bc8a2d2f2f76320f88a5b.ko.png)
+    ![익은 바나나와 익지 않은 바나나 사진 업로드](../../../../../translated_images/ko/image-upload-object-detector.77c7892c3093cb59b79018edecd678749a75d71a099bc8a2d2f2f76320f88a5b.png)
 
     객체에 대한 경계 상자를 그릴 때 객체 주위에 딱 맞게 그리세요. 모든 이미지를 윤곽을 그리는 데 시간이 걸릴 수 있지만, 도구가 경계 상자를 감지하여 작업 속도를 높일 수 있습니다.
 
-    ![토마토 페이스트 태그 지정](../../../../../translated_images/object-detector-tag-tomato-paste.f47c362fb0f0eb582f3bc68cf3855fb43a805106395358d41896a269c210b7b4.ko.png)
+    ![토마토 페이스트 태그 지정](../../../../../translated_images/ko/object-detector-tag-tomato-paste.f47c362fb0f0eb582f3bc68cf3855fb43a805106395358d41896a269c210b7b4.png)
 
     > 💁 각 객체에 대해 15개 이상의 이미지가 있는 경우, 15개로 학습한 후 **제안된 태그** 기능을 사용할 수 있습니다. 이 기능은 학습된 모델을 사용하여 태그가 없는 이미지에서 객체를 감지합니다. 감지된 객체를 확인하거나 거부하고 경계 상자를 다시 그릴 수 있습니다. 이는 시간을 *많이* 절약할 수 있습니다.
 
@@ -164,7 +164,7 @@ Custom Vision을 사용하여 객체 감지기를 학습시킬 수 있습니다.
 
 1. **빠른 테스트** 버튼을 사용하여 테스트 이미지를 업로드하고 객체가 감지되는지 확인하세요. 학습에 사용한 이미지가 아닌, 이전에 준비한 테스트 이미지를 사용하세요.
 
-    ![3개의 토마토 페이스트 캔이 각각 38%, 35.5%, 34.6% 확률로 감지됨](../../../../../translated_images/object-detector-detected-tomato-paste.52656fe87af4c37b4ee540526d63e73ed075da2e54a9a060aa528e0c562fb1b6.ko.png)
+    ![3개의 토마토 페이스트 캔이 각각 38%, 35.5%, 34.6% 확률로 감지됨](../../../../../translated_images/ko/object-detector-detected-tomato-paste.52656fe87af4c37b4ee540526d63e73ed075da2e54a9a060aa528e0c562fb1b6.png)
 
 1. 사용할 수 있는 모든 테스트 이미지를 시도하고 확률을 관찰하세요.
 

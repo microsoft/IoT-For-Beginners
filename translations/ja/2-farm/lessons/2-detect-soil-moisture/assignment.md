@@ -29,14 +29,14 @@ CO_OP_TRANSLATOR_METADATA:
 
 重力式土壌水分は以下の式で計算されます：
 
-![土壌水分%は湿った状態の重さから乾いた状態の重さを引き、乾いた状態の重さで割り、100を掛ける](../../../../../translated_images/gsm-calculation.6da38c6201eec14e7573bb2647aa18892883193553d23c9d77e5dc681522dfb2.ja.png)
+![土壌水分%は湿った状態の重さから乾いた状態の重さを引き、乾いた状態の重さで割り、100を掛ける](../../../../../translated_images/ja/gsm-calculation.6da38c6201eec14e7573bb2647aa18892883193553d23c9d77e5dc681522dfb2.png)
 
 * W - 湿った土壌の重さ  
 * W - 乾いた土壌の重さ  
 
 例えば、湿った状態で212g、乾いた状態で197gの土壌サンプルがあるとします。
 
-![計算例](../../../../../translated_images/gsm-calculation-example.99f9803b4f29e97668e7c15412136c0c399ab12dbba0b89596fdae9d8aedb6fb.ja.png)
+![計算例](../../../../../translated_images/ja/gsm-calculation-example.99f9803b4f29e97668e7c15412136c0c399ab12dbba0b89596fdae9d8aedb6fb.png)
 
 * W = 212g  
 * W = 197g  

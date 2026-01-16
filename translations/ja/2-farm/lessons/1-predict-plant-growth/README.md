@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # IoTで植物の成長を予測する
 
-![このレッスンの概要を示すスケッチノート](../../../../../translated_images/lesson-5.42b234299279d263143148b88ab4583861a32ddb03110c6c1120e41bb88b2592.ja.jpg)
+![このレッスンの概要を示すスケッチノート](../../../../../translated_images/ja/lesson-5.42b234299279d263143148b88ab4583861a32ddb03110c6c1120e41bb88b2592.jpg)
 
 > スケッチノート作成者：[Nitya Narasimhan](https://github.com/nitya)。画像をクリックすると拡大版が表示されます。
 
@@ -65,7 +65,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 ✅ 調査してみましょう。庭や学校、近くの公園にある植物について、基準温度を調べてみてください。
 
-![気温が上昇するにつれて成長率が上がり、気温が高すぎると成長率が下がるグラフ](../../../../../translated_images/plant-growth-temp-graph.c6d69c9478e6ca83.ja.png)
+![気温が上昇するにつれて成長率が上がり、気温が高すぎると成長率が下がるグラフ](../../../../../translated_images/ja/plant-growth-temp-graph.c6d69c9478e6ca83.png)
 
 上のグラフは、成長率と気温の関係を示しています。基準温度までは成長がありません。成長率は最適温度まで上昇し、その後ピークを迎えた後に減少します。最大温度では成長が停止します。
 
@@ -99,7 +99,7 @@ IoTデバイスを使用して温度を監視するための関連ガイドを�
 
 GDDの完全な公式は少し複雑ですが、よく使われる簡略化された式があります：
 
-![GDD = T max + T min divided by 2, all minus T base](../../../../../translated_images/gdd-calculation.79b3660f9c5757aa92dc2dd2cdde75344e2d2c1565c4b3151640f7887edc0275.ja.png)
+![GDD = T max + T min divided by 2, all minus T base](../../../../../translated_images/ja/gdd-calculation.79b3660f9c5757aa92dc2dd2cdde75344e2d2c1565c4b3151640f7887edc0275.png)
 
 * **GDD** - これは成長度日の数です
 * **T max** - これは1日の最高気温（摂氏）です
@@ -127,7 +127,7 @@ GDDの完全な公式は少し複雑ですが、よく使われる簡略化さ�
 
 計算結果は以下の通りです：
 
-![GDD = 16 + 12 divided by 2, all minus 10, giving an answer of 4](../../../../../translated_images/gdd-calculation-corn.64a58b7a7afcd0dfd46ff733996d939f17f4f3feac9f0d1c632be3523e51ebd9.ja.png)
+![GDD = 16 + 12 divided by 2, all minus 10, giving an answer of 4](../../../../../translated_images/ja/gdd-calculation-corn.64a58b7a7afcd0dfd46ff733996d939f17f4f3feac9f0d1c632be3523e51ebd9.png)
 
 この日、トウモロコシは4 GDDを受け取りました。成熟に800 GDDが必要な品種の場合、成熟までにさらに796 GDDが必要です。
 
@@ -141,7 +141,7 @@ GDDの完全な公式は少し複雑ですが、よく使われる簡略化さ�
 
 IoTデバイスを使用して温度データを収集することで、植物が成熟に近づいたときに自動的に通知を受け取ることができます。この典型的なアーキテクチャは、IoTデバイスが温度を測定し、MQTTなどを使用してインターネット経由でこのテレメトリデータを送信することです。サーバーコードはこのデータをリッスンして保存し、例えばデータベースに保存します。これにより、後でデータを分析することができます。例えば、毎晩のジョブでその日のGDDを計算し、これまでの各作物のGDDを合計し、植物が成熟に近づいている場合に通知します。
 
-![テレメトリデータがサーバーに送信され、データベースに保存される](../../../../../translated_images/save-telemetry-database.ddc9c6bea0c5ba39.ja.png)
+![テレメトリデータがサーバーに送信され、データベースに保存される](../../../../../translated_images/ja/save-telemetry-database.ddc9c6bea0c5ba39.png)
 
 サーバーコードはデータに追加情報を付加することもできます。例えば、IoTデバイスがどのデバイスであるかを示す識別子を送信し、サーバーコードがこれを使用してデバイスの場所や監視している作物を調べることができます。また、一部のIoTデバイスは正確な時間を追跡するためのハードウェアを持っていないため、現在の時間を追加することもできます。
 
@@ -228,7 +228,7 @@ CSVファイルには2つの列があります - *date* と *temperature*。*dat
 
     
 > 💁 仮想IoTデバイスを使用している場合は、ランダムチェックボックスを選択し、範囲を設定して、温度値が毎回同じにならないようにしてください。
-    ![ランダムチェックボックスを選択し、範囲を設定](../../../../../translated_images/select-the-random-checkbox-and-set-a-range.32cf4bc7c12e797f.ja.png) 
+    ![ランダムチェックボックスを選択し、範囲を設定](../../../../../translated_images/ja/select-the-random-checkbox-and-set-a-range.32cf4bc7c12e797f.png) 
 
     > 💁 丸一日実行したい場合は、サーバーコードが動作しているコンピュータがスリープ状態にならないようにする必要があります。電源設定を変更するか、[このシステムをアクティブに保つPythonスクリプト](https://github.com/jaqsparow/keep-system-active)のようなものを実行してください。
     
@@ -248,7 +248,7 @@ CSVファイルには2つの列があります - *date* と *temperature*。*dat
 
 例えば、その日の最高温度が25°C、最低温度が12°Cの場合:
 
-![GDD = 25 + 12を2で割り、その結果から10を引くと8.5になる](../../../../../translated_images/gdd-calculation-strawberries.59f57db94b22adb8ff6efb951ace33af104a1c6ccca3ffb0f8169c14cb160c90.ja.png)
+![GDD = 25 + 12を2で割り、その結果から10を引くと8.5になる](../../../../../translated_images/ja/gdd-calculation-strawberries.59f57db94b22adb8ff6efb951ace33af104a1c6ccca3ffb0f8169c14cb160c90.png)
 
 * 25 + 12 = 37
 * 37 / 2 = 18.5

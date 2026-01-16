@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # 타이머 설정 및 음성 피드백 제공
 
-![이 강의의 스케치노트 개요](../../../../../translated_images/lesson-23.f38483e1d4df4828990d3f02d60e46c978b075d384ae7cb4f7bab738e107c850.ko.jpg)
+![이 강의의 스케치노트 개요](../../../../../translated_images/ko/lesson-23.f38483e1d4df4828990d3f02d60e46c978b075d384ae7cb4f7bab738e107c850.jpg)
 
 > 스케치노트: [Nitya Narasimhan](https://github.com/nitya). 이미지를 클릭하면 더 큰 버전을 볼 수 있습니다.
 
@@ -37,7 +37,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 텍스트를 음성으로 변환하는 과정은 이름 그대로 텍스트를 음성으로 변환하는 과정입니다. 기본 원리는 텍스트의 단어를 구성하는 소리(음소)로 나누고, 이 소리에 대한 오디오를 미리 녹음된 파일이나 AI 모델을 사용해 생성하여 결합하는 것입니다.
 
-![일반적인 텍스트 음성 변환 시스템의 세 단계](../../../../../translated_images/tts-overview.193843cf3f5ee09f.ko.png)
+![일반적인 텍스트 음성 변환 시스템의 세 단계](../../../../../translated_images/ko/tts-overview.193843cf3f5ee09f.png)
 
 텍스트 음성 변환 시스템은 일반적으로 세 가지 단계를 거칩니다:
 

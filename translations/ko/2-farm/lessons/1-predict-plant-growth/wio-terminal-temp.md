@@ -27,13 +27,13 @@ Grove 온도 센서는 Wio Terminal의 디지털 포트에 연결할 수 있습�
 
 온도 센서를 연결하세요.
 
-![Grove 온도 센서](../../../../../translated_images/grove-dht11.07f8eafceee170043efbb53e1d15722bd4e00fbaa9ff74290b57e9f66eb82c17.ko.png)
+![Grove 온도 센서](../../../../../translated_images/ko/grove-dht11.07f8eafceee170043efbb53e1d15722bd4e00fbaa9ff74290b57e9f66eb82c17.png)
 
 1. Grove 케이블의 한쪽 끝을 습도 및 온도 센서의 소켓에 삽입하세요. 케이블은 한 방향으로만 삽입됩니다.
 
 1. Wio Terminal이 컴퓨터 또는 다른 전원 공급 장치와 연결되지 않은 상태에서, Grove 케이블의 다른 끝을 Wio Terminal 화면을 바라보았을 때 오른쪽에 있는 Grove 소켓에 연결하세요. 이 소켓은 전원 버튼에서 가장 멀리 떨어진 소켓입니다.
 
-![오른쪽 소켓에 연결된 Grove 온도 센서](../../../../../translated_images/wio-temperature-sensor.2934928f38c7f79a.ko.png)
+![오른쪽 소켓에 연결된 Grove 온도 센서](../../../../../translated_images/ko/wio-temperature-sensor.2934928f38c7f79a.png)
 
 ## 온도 센서 프로그래밍하기
 

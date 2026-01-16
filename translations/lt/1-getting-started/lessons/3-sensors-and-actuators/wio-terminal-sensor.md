@@ -17,7 +17,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Šviesos jutiklis yra integruotas į Wio Terminal ir matomas per skaidrų plastikinį langelį įrenginio gale.
 
-![Šviesos jutiklis Wio Terminal gale](../../../../../translated_images/wio-light-sensor.b1f529f3c95f5165.lt.png)
+![Šviesos jutiklis Wio Terminal gale](../../../../../translated_images/lt/wio-light-sensor.b1f529f3c95f5165.png)
 
 ## Užprogramuokite šviesos jutiklį
 

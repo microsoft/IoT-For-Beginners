@@ -45,11 +45,11 @@ CounterFit 앱에 LED를 추가하세요.
 
     1. **Add** 버튼을 선택하여 핀 5에 LED를 생성하세요.
 
-    ![LED 설정](../../../../../translated_images/counterfit-create-led.ba9db1c9b8c622a635d6dfae5cdc4e70c2b250635bd4f0601c6cf0bd22b7ba46.ko.png)
+    ![LED 설정](../../../../../translated_images/ko/counterfit-create-led.ba9db1c9b8c622a635d6dfae5cdc4e70c2b250635bd4f0601c6cf0bd22b7ba46.png)
 
     LED가 생성되어 액추에이터 목록에 나타납니다.
 
-    ![생성된 LED](../../../../../translated_images/counterfit-led.c0ab02de6d256ad84d9bad4d67a7faa709f0ea83e410cfe9b5561ef0cef30b1c.ko.png)
+    ![생성된 LED](../../../../../translated_images/ko/counterfit-led.c0ab02de6d256ad84d9bad4d67a7faa709f0ea83e410cfe9b5561ef0cef30b1c.png)
 
     LED가 생성된 후에는 *Color* 선택기를 사용해 색상을 변경할 수 있습니다. 색상을 선택한 후 **Set** 버튼을 눌러 색상을 변경하세요.
 

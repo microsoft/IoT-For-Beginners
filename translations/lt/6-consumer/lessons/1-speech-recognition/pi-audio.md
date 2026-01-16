@@ -25,13 +25,13 @@ Mygtukas gali būti prijungtas prie Grove bazinio HAT.
 
 #### Užduotis - prijunkite mygtuką
 
-![Grove mygtukas](../../../../../translated_images/grove-button.a70cfbb809a8563681003250cf5b06d68cdcc68624f9e2f493d5a534ae2da1e5.lt.png)
+![Grove mygtukas](../../../../../translated_images/lt/grove-button.a70cfbb809a8563681003250cf5b06d68cdcc68624f9e2f493d5a534ae2da1e5.png)
 
 1. Įstatykite vieną Grove kabelio galą į lizdą ant mygtuko modulio. Kabelis įsistatys tik viena kryptimi.
 
 1. Kai Raspberry Pi yra išjungtas, prijunkite kitą Grove kabelio galą prie skaitmeninio lizdo, pažymėto **D5**, ant Grove bazinio HAT, prijungto prie Pi. Šis lizdas yra antras iš kairės, eilėje šalia GPIO pinų.
 
-![Grove mygtukas prijungtas prie lizdo D5](../../../../../translated_images/pi-button.c7a1a4f55943341ce1baf1057658e9a205804d4131d258e820c93f951df0abf3.lt.png)
+![Grove mygtukas prijungtas prie lizdo D5](../../../../../translated_images/lt/pi-button.c7a1a4f55943341ce1baf1057658e9a205804d4131d258e820c93f951df0abf3.png)
 
 ## Garso įrašymas
 

@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Mantieni la tua pianta al sicuro
 
-![Una panoramica illustrata di questa lezione](../../../../../translated_images/lesson-10.829c86b80b9403bb770929ee553a1d293afe50dc23121aaf9be144673ae012cc.it.jpg)
+![Una panoramica illustrata di questa lezione](../../../../../translated_images/it/lesson-10.829c86b80b9403bb770929ee553a1d293afe50dc23121aaf9be144673ae012cc.jpg)
 
 > Schizzo di [Nitya Narasimhan](https://github.com/nitya). Clicca sull'immagine per una versione più grande.
 
@@ -61,11 +61,11 @@ Questi sono scenari reali e accadono continuamente. Alcuni esempi sono stati for
 
 Quando un dispositivo si connette a un servizio IoT, utilizza un ID per identificarsi. Il problema è che questo ID può essere clonato: un hacker potrebbe configurare un dispositivo dannoso che utilizza lo stesso ID di un dispositivo reale ma invia dati falsi.
 
-![Sia i dispositivi validi che quelli dannosi potrebbero utilizzare lo stesso ID per inviare telemetria](../../../../../translated_images/iot-device-and-hacked-device-connecting.e0671675df74d6d99eb1dedb5a670e606f698efa6202b1ad4c8ae548db299cc6.it.png)
+![Sia i dispositivi validi che quelli dannosi potrebbero utilizzare lo stesso ID per inviare telemetria](../../../../../translated_images/it/iot-device-and-hacked-device-connecting.e0671675df74d6d99eb1dedb5a670e606f698efa6202b1ad4c8ae548db299cc6.png)
 
 La soluzione è convertire i dati inviati in un formato criptato, utilizzando un valore noto solo al dispositivo e al cloud. Questo processo si chiama *crittografia*, e il valore utilizzato per crittografare i dati è chiamato *chiave di crittografia*.
 
-![Se viene utilizzata la crittografia, solo i messaggi crittografati saranno accettati, gli altri saranno rifiutati](../../../../../translated_images/iot-device-and-hacked-device-connecting-encryption.5941aff601fc978f979e46f2849b573564eeb4a4dc5b52f669f62745397492fb.it.png)
+![Se viene utilizzata la crittografia, solo i messaggi crittografati saranno accettati, gli altri saranno rifiutati](../../../../../translated_images/it/iot-device-and-hacked-device-connecting-encryption.5941aff601fc978f979e46f2849b573564eeb4a4dc5b52f669f62745397492fb.png)
 
 Il servizio cloud può quindi convertire i dati in un formato leggibile, utilizzando un processo chiamato *decrittografia*, utilizzando la stessa chiave di crittografia o una *chiave di decrittografia*. Se il messaggio crittografato non può essere decrittato dalla chiave, il dispositivo è stato hackerato e il messaggio viene rifiutato.
 
@@ -97,15 +97,15 @@ La crittografia si divide in due tipi: simmetrica e asimmetrica.
 
 La crittografia **simmetrica** utilizza la stessa chiave per crittografare e decrittografare i dati. Sia il mittente che il destinatario devono conoscere la stessa chiave. Questo è il tipo meno sicuro, poiché la chiave deve essere condivisa in qualche modo. Per un mittente che invia un messaggio crittografato a un destinatario, il mittente potrebbe prima dover inviare al destinatario la chiave.
 
-![La crittografia con chiave simmetrica utilizza la stessa chiave per crittografare e decrittografare un messaggio](../../../../../translated_images/send-message-symmetric-key.a2e8ad0d495896ff.it.png)
+![La crittografia con chiave simmetrica utilizza la stessa chiave per crittografare e decrittografare un messaggio](../../../../../translated_images/it/send-message-symmetric-key.a2e8ad0d495896ff.png)
 
 Se la chiave viene rubata durante il transito, o il mittente o il destinatario vengono hackerati e la chiave viene trovata, la crittografia può essere violata.
 
-![La crittografia con chiave simmetrica è sicura solo se un hacker non ottiene la chiave - in caso contrario può intercettare e decrittografare il messaggio](../../../../../translated_images/send-message-symmetric-key-hacker.e7cb53db1707adfb.it.png)
+![La crittografia con chiave simmetrica è sicura solo se un hacker non ottiene la chiave - in caso contrario può intercettare e decrittografare il messaggio](../../../../../translated_images/it/send-message-symmetric-key-hacker.e7cb53db1707adfb.png)
 
 La crittografia **asimmetrica** utilizza 2 chiavi: una chiave di crittografia e una chiave di decrittografia, chiamate coppia di chiavi pubblica/privata. La chiave pubblica viene utilizzata per crittografare il messaggio, ma non può essere utilizzata per decrittografarlo; la chiave privata viene utilizzata per decrittografare il messaggio, ma non può essere utilizzata per crittografarlo.
 
-![La crittografia asimmetrica utilizza una chiave diversa per crittografare e decrittografare. La chiave di crittografia viene inviata ai mittenti dei messaggi affinché possano crittografare un messaggio prima di inviarlo al destinatario che possiede le chiavi](../../../../../translated_images/send-message-asymmetric.7abe327c62615b8c.it.png)
+![La crittografia asimmetrica utilizza una chiave diversa per crittografare e decrittografare. La chiave di crittografia viene inviata ai mittenti dei messaggi affinché possano crittografare un messaggio prima di inviarlo al destinatario che possiede le chiavi](../../../../../translated_images/it/send-message-asymmetric.7abe327c62615b8c.png)
 
 Il destinatario condivide la propria chiave pubblica, e il mittente la utilizza per crittografare il messaggio. Una volta inviato il messaggio, il destinatario lo decrittografa con la propria chiave privata. La crittografia asimmetrica è più sicura poiché la chiave privata viene mantenuta privata dal destinatario e non viene mai condivisa. Chiunque può avere la chiave pubblica, poiché può essere utilizzata solo per crittografare i messaggi.
 
@@ -165,7 +165,7 @@ Questi certificati contengono diversi campi, tra cui chi ha emesso la chiave pub
 
 Quando utilizzi certificati X.509, sia il mittente che il destinatario avranno le proprie chiavi pubbliche e private, oltre a certificati X.509 che contengono la chiave pubblica. Scambiano quindi i certificati X.509 in qualche modo, utilizzando le chiavi pubbliche reciproche per crittografare i dati che inviano e le proprie chiavi private per decrittografare i dati che ricevono.
 
-![Invece di condividere una chiave pubblica, puoi condividere un certificato. L'utente del certificato può verificare che provenga da te controllando con l'autorità di certificazione che lo ha firmato.](../../../../../translated_images/send-message-certificate.9cc576ac1e46b76e.it.png)
+![Invece di condividere una chiave pubblica, puoi condividere un certificato. L'utente del certificato può verificare che provenga da te controllando con l'autorità di certificazione che lo ha firmato.](../../../../../translated_images/it/send-message-certificate.9cc576ac1e46b76e.png)
 
 Un grande vantaggio dell'utilizzo dei certificati X.509 è che possono essere condivisi tra dispositivi. Puoi creare un certificato, caricarlo su IoT Hub e utilizzarlo per tutti i tuoi dispositivi. Ogni dispositivo deve solo conoscere la chiave privata per decrittografare i messaggi che riceve da IoT Hub.
 

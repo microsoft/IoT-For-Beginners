@@ -25,13 +25,13 @@ Raspberry Piには、オーディオ録音を制御するためのボタンが�
 
 #### タスク - ボタンを接続する
 
-![Groveボタン](../../../../../translated_images/grove-button.a70cfbb809a8563681003250cf5b06d68cdcc68624f9e2f493d5a534ae2da1e5.ja.png)
+![Groveボタン](../../../../../translated_images/ja/grove-button.a70cfbb809a8563681003250cf5b06d68cdcc68624f9e2f493d5a534ae2da1e5.png)
 
 1. Groveケーブルの片方の端をボタンモジュールのソケットに差し込みます。このケーブルは一方向にしか差し込めません。
 
 1. Raspberry Piの電源をオフにした状態で、Groveケーブルのもう一方の端を、Piに接続されたGroveベースハットのデジタルソケット**D5**に接続します。このソケットは、GPIOピンの隣のソケット列の左から2番目にあります。
 
-![D5ソケットに接続されたGroveボタン](../../../../../translated_images/pi-button.c7a1a4f55943341ce1baf1057658e9a205804d4131d258e820c93f951df0abf3.ja.png)
+![D5ソケットに接続されたGroveボタン](../../../../../translated_images/ja/pi-button.c7a1a4f55943341ce1baf1057658e9a205804d4131d258e820c93f951df0abf3.png)
 
 ## オーディオの録音
 

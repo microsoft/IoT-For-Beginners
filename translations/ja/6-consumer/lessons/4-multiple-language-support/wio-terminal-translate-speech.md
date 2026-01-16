@@ -114,7 +114,7 @@ CO_OP_TRANSLATOR_METADATA:
     >
     > 例えば、LUISを英語でトレーニングし、ユーザー言語としてフランス語を使用したい場合、Bing Translateを使用して英語の文「set a 2 minute and 27 second timer」をフランス語に翻訳し、**Listen translation**ボタンを使用して翻訳された音声をマイクに話すことができます。
     >
-    > ![Bing TranslateのListen translationボタン](../../../../../translated_images/bing-translate.348aa796d6efe2a92f41ea74a5cf42bb4c63d6faaa08e7f46924e072a35daa48.ja.png)
+    > ![Bing TranslateのListen translationボタン](../../../../../translated_images/ja/bing-translate.348aa796d6efe2a92f41ea74a5cf42bb4c63d6faaa08e7f46924e072a35daa48.png)
 
 1. `SPEECH_LOCATION`の下に翻訳APIキーとロケーションを追加します:
 

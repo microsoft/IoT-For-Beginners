@@ -45,11 +45,11 @@ CounterFit ആപ്പിൽ ഡിസ്റ്റൻസ് സെൻസർ ച
 
     1. **Add** ബട്ടൺ തിരഞ്ഞെടുക്കുക ഡിസ്റ്റൻസ് സെൻസർ സൃഷ്ടിക്കാൻ
 
-    ![The distance sensor settings](../../../../../translated_images/counterfit-create-distance-sensor.967c9fb98f27888d.ml.png)
+    ![The distance sensor settings](../../../../../translated_images/ml/counterfit-create-distance-sensor.967c9fb98f27888d.png)
 
     ഡിസ്റ്റൻസ് സെൻസർ സൃഷ്ടിക്കപ്പെടുകയും സെൻസർ ലിസ്റ്റിൽ പ്രത്യക്ഷപ്പെടുകയും ചെയ്യും.
 
-    ![The distance sensor created](../../../../../translated_images/counterfit-distance-sensor.079eefeeea0b68af.ml.png)
+    ![The distance sensor created](../../../../../translated_images/ml/counterfit-distance-sensor.079eefeeea0b68af.png)
 
 ## ഡിസ്റ്റൻസ് സെൻസർ പ്രോഗ്രാം ചെയ്യുക
 

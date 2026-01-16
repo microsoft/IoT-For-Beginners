@@ -76,7 +76,7 @@ CO_OP_TRANSLATOR_METADATA:
 
     撮影された画像とこれらの値をCustom Visionの**Predictions**タブで確認できます。
 
-    ![棚の上に置かれた4つのトマトペースト缶と、それぞれの検出確率（35.8%、33.5%、25.7%、16.6%）](../../../../../translated_images/custom-vision-stock-prediction.942266ab1bcca3410ecdf23643b9f5f570cfab2345235074e24c51f285777613.ja.png)
+    ![棚の上に置かれた4つのトマトペースト缶と、それぞれの検出確率（35.8%、33.5%、25.7%、16.6%）](../../../../../translated_images/ja/custom-vision-stock-prediction.942266ab1bcca3410ecdf23643b9f5f570cfab2345235074e24c51f285777613.png)
 
 > 💁 このコードは[code-detect/pi](../../../../../5-retail/lessons/2-check-stock-device/code-detect/pi)または[code-detect/virtual-iot-device](../../../../../5-retail/lessons/2-check-stock-device/code-detect/virtual-iot-device)フォルダーで見つけることができます。
 

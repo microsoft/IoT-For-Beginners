@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Mengenali Ucapan dengan Perangkat IoT
 
-![Gambaran sketchnote dari pelajaran ini](../../../../../translated_images/lesson-21.e34de51354d6606fb5ee08d8c89d0222eea0a2a7aaf744a8805ae847c4f69dc4.id.jpg)
+![Gambaran sketchnote dari pelajaran ini](../../../../../translated_images/id/lesson-21.e34de51354d6606fb5ee08d8c89d0222eea0a2a7aaf744a8805ae847c4f69dc4.jpg)
 
 > Sketchnote oleh [Nitya Narasimhan](https://github.com/nitya). Klik gambar untuk versi yang lebih besar.
 
@@ -60,19 +60,19 @@ Mikrofon tersedia dalam berbagai jenis:
 
     Mikrofon dinamis tidak memerlukan daya untuk bekerja, sinyal listrik sepenuhnya dihasilkan dari mikrofon.
 
-    ![Patti Smith bernyanyi ke mikrofon Shure SM58 (jenis cardioid dinamis)](../../../../../translated_images/dynamic-mic.8babac890a2d80dfb0874b5bf37d4b851fe2aeb9da6fd72945746176978bf3bb.id.jpg)
+    ![Patti Smith bernyanyi ke mikrofon Shure SM58 (jenis cardioid dinamis)](../../../../../translated_images/id/dynamic-mic.8babac890a2d80dfb0874b5bf37d4b851fe2aeb9da6fd72945746176978bf3bb.jpg)
 
 * Pita - Mikrofon pita mirip dengan mikrofon dinamis, kecuali mereka memiliki pita logam alih-alih diafragma. Pita ini bergerak dalam medan magnet, menghasilkan arus listrik. Seperti mikrofon dinamis, mikrofon pita tidak memerlukan daya untuk bekerja.
 
-    ![Edmund Lowe, aktor Amerika, berdiri di mikrofon radio (berlabel untuk (NBC) Blue Network), memegang naskah, 1942](../../../../../translated_images/ribbon-mic.eacc8e092c7441ca.id.jpg)
+    ![Edmund Lowe, aktor Amerika, berdiri di mikrofon radio (berlabel untuk (NBC) Blue Network), memegang naskah, 1942](../../../../../translated_images/id/ribbon-mic.eacc8e092c7441ca.jpg)
 
 * Kondensor - Mikrofon kondensor memiliki diafragma logam tipis dan pelat belakang logam tetap. Listrik diterapkan pada keduanya, dan saat diafragma bergetar, muatan statis antara pelat berubah, menghasilkan sinyal. Mikrofon kondensor memerlukan daya untuk bekerja - disebut *Phantom power*.
 
-    ![Mikrofon kondensor diafragma kecil C451B oleh AKG Acoustics](../../../../../translated_images/condenser-mic.6f6ed5b76ca19e0ec3fd0c544601542d4479a6cb7565db336de49fbbf69f623e.id.jpg)
+    ![Mikrofon kondensor diafragma kecil C451B oleh AKG Acoustics](../../../../../translated_images/id/condenser-mic.6f6ed5b76ca19e0ec3fd0c544601542d4479a6cb7565db336de49fbbf69f623e.jpg)
 
 * MEMS - Mikrofon sistem mikroelektromekanis, atau MEMS, adalah mikrofon pada chip. Mereka memiliki diafragma sensitif tekanan yang diukir pada chip silikon, dan bekerja mirip dengan mikrofon kondensor. Mikrofon ini bisa sangat kecil dan terintegrasi ke dalam sirkuit.
 
-    ![Mikrofon MEMS pada papan sirkuit](../../../../../translated_images/mems-microphone.80574019e1f5e4d9ee72fed720ecd25a39fc2969c91355d17ebb24ba4159e4c4.id.png)
+    ![Mikrofon MEMS pada papan sirkuit](../../../../../translated_images/id/mems-microphone.80574019e1f5e4d9ee72fed720ecd25a39fc2969c91355d17ebb24ba4159e4c4.png)
 
     Pada gambar di atas, chip berlabel **LEFT** adalah mikrofon MEMS, dengan diafragma kecil kurang dari satu milimeter lebar.
 
@@ -84,7 +84,7 @@ Audio adalah sinyal analog yang membawa informasi sangat rinci. Untuk mengonvers
 
 > 🎓 Sampling adalah mengonversi sinyal audio menjadi nilai digital yang mewakili sinyal pada titik waktu tertentu.
 
-![Grafik garis yang menunjukkan sinyal, dengan titik-titik diskrit pada interval tetap](../../../../../translated_images/sampling.6f4fadb3f2d9dfe7.id.png)
+![Grafik garis yang menunjukkan sinyal, dengan titik-titik diskrit pada interval tetap](../../../../../translated_images/id/sampling.6f4fadb3f2d9dfe7.png)
 
 Audio digital diambil sampelnya menggunakan Pulse Code Modulation, atau PCM. PCM melibatkan pembacaan tegangan sinyal, dan memilih nilai diskrit terdekat dengan tegangan tersebut menggunakan ukuran yang telah ditentukan.
 
@@ -168,7 +168,7 @@ Untuk menghindari kompleksitas pelatihan dan penggunaan model wake word, timer p
 
 ## Mengubah suara menjadi teks
 
-![Logo layanan suara](../../../../../translated_images/azure-speech-logo.a1f08c4befb0159f2cb5d692d3baf5b599e7b44759d316da907bda1508f46a4a.id.png)
+![Logo layanan suara](../../../../../translated_images/id/azure-speech-logo.a1f08c4befb0159f2cb5d692d3baf5b599e7b44759d316da907bda1508f46a4a.png)
 
 Sama seperti klasifikasi gambar dalam proyek sebelumnya, ada layanan AI yang sudah dibuat yang dapat mengambil suara sebagai file audio dan mengubahnya menjadi teks. Salah satu layanan tersebut adalah Speech Service, bagian dari Cognitive Services, layanan AI yang sudah dibuat yang dapat Anda gunakan dalam aplikasi Anda.
 

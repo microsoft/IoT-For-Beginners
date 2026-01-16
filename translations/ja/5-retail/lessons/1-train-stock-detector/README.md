@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # 在庫検出器をトレーニングする
 
-![このレッスンの概要を示すスケッチノート](../../../../../translated_images/lesson-19.cf6973cecadf080c4b526310620dc4d6f5994c80fb0139c6f378cc9ca2d435cd.ja.jpg)
+![このレッスンの概要を示すスケッチノート](../../../../../translated_images/ja/lesson-19.cf6973cecadf080c4b526310620dc4d6f5994c80fb0139c6f378cc9ca2d435cd.jpg)
 
 > スケッチノート作成者: [Nitya Narasimhan](https://github.com/nitya)。画像をクリックすると拡大表示されます。
 
@@ -45,7 +45,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 画像分類は、画像全体を分類することに焦点を当てています。モデルをトレーニングする際に使用した各タグに対する確率を返します。
 
-![カシューナッツとトマトペーストの画像分類](../../../../../translated_images/image-classifier-cashews-tomato.bc2e16ab8f05cf9ac0f59f73e32efc4227f9a5b601b90b2c60f436694547a965.ja.png)
+![カシューナッツとトマトペーストの画像分類](../../../../../translated_images/ja/image-classifier-cashews-tomato.bc2e16ab8f05cf9ac0f59f73e32efc4227f9a5b601b90b2c60f436694547a965.png)
 
 上記の例では、カシューナッツの容器またはトマトペーストの缶を分類するモデルを使用して、2つの画像を分類しています。最初の画像はカシューナッツの容器で、画像分類器から以下の結果が得られます：
 
@@ -69,7 +69,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 > 🎓 *バウンディングボックス*とは、オブジェクトの周りに描かれるボックスのことです。
 
-![カシューナッツとトマトペーストのオブジェクト検出](../../../../../translated_images/object-detector-cashews-tomato.1af7c26686b4db0e709754aeb196f4e73271f54e2085db3bcccb70d4a0d84d97.ja.png)
+![カシューナッツとトマトペーストのオブジェクト検出](../../../../../translated_images/ja/object-detector-cashews-tomato.1af7c26686b4db0e709754aeb196f4e73271f54e2085db3bcccb70d4a0d84d97.png)
 
 上記の画像には、カシューナッツの容器とトマトペーストの缶が3つ含まれています。オブジェクト検出器はカシューナッツを検出し、バウンディングボックスとその確率（この場合は97.6%）を返しました。また、トマトペーストの缶3つも検出し、それぞれの缶に対してバウンディングボックスと確率を提供しました。
 
@@ -120,7 +120,7 @@ Custom Visionを使用して、画像分類器をトレーニングした方法�
 
     プロジェクトを作成する際、先ほど作成した`stock-detector-training`リソースを使用してください。*オブジェクト検出*プロジェクトタイプと*棚の商品*ドメインを選択します。
 
-    ![Custom Visionプロジェクトの設定画面](../../../../../translated_images/custom-vision-create-object-detector-project.32d4fb9aa8e7e7375f8a799bfce517aca970f2cb65e42d4245c5e635c734ab29.ja.png)
+    ![Custom Visionプロジェクトの設定画面](../../../../../translated_images/ja/custom-vision-create-object-detector-project.32d4fb9aa8e7e7375f8a799bfce517aca970f2cb65e42d4245c5e635c734ab29.png)
 
     ✅ 棚の商品ドメインは、店舗の棚にある在庫を検出するために特化されています。Microsoft Docsの[ドメインの選択に関するドキュメント](https://docs.microsoft.com/azure/cognitive-services/custom-vision-service/select-domain?WT.mc_id=academic-17441-jabenn#object-detection)で詳細を確認してください。
 
@@ -142,11 +142,11 @@ Custom Visionを使用して、画像分類器をトレーニングした方法�
 
 1. Microsoft Docsの[オブジェクト検出器を構築するクイックスタートの「画像をアップロードしてタグ付けする」セクション](https://docs.microsoft.com/azure/cognitive-services/custom-vision-service/get-started-build-detector?WT.mc_id=academic-17441-jabenn#upload-and-tag-images)に従って、トレーニング画像をアップロードします。検出したいオブジェクトの種類に応じて適切なタグを作成してください。
 
-    ![熟したバナナと未熟なバナナの画像をアップロードするダイアログ](../../../../../translated_images/image-upload-object-detector.77c7892c3093cb59b79018edecd678749a75d71a099bc8a2d2f2f76320f88a5b.ja.png)
+    ![熟したバナナと未熟なバナナの画像をアップロードするダイアログ](../../../../../translated_images/ja/image-upload-object-detector.77c7892c3093cb59b79018edecd678749a75d71a099bc8a2d2f2f76320f88a5b.png)
 
     オブジェクトのバウンディングボックスを描く際は、オブジェクトの周りをきっちり囲むようにしてください。すべての画像をアウトライン化するのに時間がかかる場合がありますが、ツールがバウンディングボックスを自動検出するため、作業が速くなります。
 
-    ![トマトペーストにタグを付ける様子](../../../../../translated_images/object-detector-tag-tomato-paste.f47c362fb0f0eb582f3bc68cf3855fb43a805106395358d41896a269c210b7b4.ja.png)
+    ![トマトペーストにタグを付ける様子](../../../../../translated_images/ja/object-detector-tag-tomato-paste.f47c362fb0f0eb582f3bc68cf3855fb43a805106395358d41896a269c210b7b4.png)
 
     > 💁 各オブジェクトに15枚以上の画像がある場合、15枚でトレーニングを開始し、その後**推奨タグ**機能を使用できます。この機能は、トレーニング済みモデルを使用してタグ付けされていない画像内のオブジェクトを検出します。その後、検出されたオブジェクトを確認または拒否し、必要に応じてバウンディングボックスを再描画できます。これにより、作業時間を大幅に短縮できます。
 
@@ -164,7 +164,7 @@ Custom Visionを使用して、画像分類器をトレーニングした方法�
 
 1. **クイックテスト**ボタンを使用してテスト画像をアップロードし、オブジェクトが検出されるか確認します。トレーニングに使用した画像ではなく、以前に作成したテスト画像を使用してください。
 
-    ![トマトペーストの缶3つが検出され、それぞれ38%、35.5%、34.6%の確率が表示されている](../../../../../translated_images/object-detector-detected-tomato-paste.52656fe87af4c37b4ee540526d63e73ed075da2e54a9a060aa528e0c562fb1b6.ja.png)
+    ![トマトペーストの缶3つが検出され、それぞれ38%、35.5%、34.6%の確率が表示されている](../../../../../translated_images/ja/object-detector-detected-tomato-paste.52656fe87af4c37b4ee540526d63e73ed075da2e54a9a060aa528e0c562fb1b6.png)
 
 1. 利用可能なすべてのテスト画像を試し、確率を観察してください。
 

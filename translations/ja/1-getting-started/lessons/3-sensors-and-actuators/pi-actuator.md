@@ -35,7 +35,7 @@ Grove LEDは複数のLEDがセットになったモジュールとして提供�
 
 LEDを接続します。
 
-![Grove LED](../../../../../translated_images/grove-led.6c853be93f473cf2c439cfc74bb1064732b22251a83cedf66e62f783f9cc1a79.ja.png)
+![Grove LED](../../../../../translated_images/ja/grove-led.6c853be93f473cf2c439cfc74bb1064732b22251a83cedf66e62f783f9cc1a79.png)
 
 1. 好きな色のLEDを選び、LEDモジュールの2つの穴に足を差し込みます。
 
@@ -49,7 +49,7 @@ LEDを接続します。
 
 1. Raspberry Piの電源を切った状態で、Groveケーブルのもう片方の端をPiに接続されたGrove Base hatのデジタルソケット**D5**に接続します。このソケットはGPIOピンの隣にあるソケット列の左から2番目です。
 
-![D5ソケットに接続されたGrove LED](../../../../../translated_images/pi-led.97f1d474981dc35d1c7996c7b17de355d3d0a6bc9606d79fa5f89df933415122.ja.png)
+![D5ソケットに接続されたGrove LED](../../../../../translated_images/ja/pi-led.97f1d474981dc35d1c7996c7b17de355d3d0a6bc9606d79fa5f89df933415122.png)
 
 ## ナイトライトをプログラムする
 

@@ -27,17 +27,17 @@ Wio ಟರ್ಮಿನಲ್‌ಗೆ ಕ್ಯಾಪಾಸಿಟಿವ್ ಮ�
 
 ಮಣ್ಣು ತೇವತೆ ಸೆನ್ಸಾರ್ ಸಂಪರ್ಕಿಸಿ.
 
-![A grove soil moisture sensor](../../../../../translated_images/grove-capacitive-soil-moisture-sensor.e7f0776cce30e78b.kn.png)
+![A grove soil moisture sensor](../../../../../translated_images/kn/grove-capacitive-soil-moisture-sensor.e7f0776cce30e78b.png)
 
 1. ಗ್ರೋವ್ ಕೇಬಲ್‌ನ ಒಂದು ಕೊನೆಯನ್ನು ಮಣ್ಣು ತೇವತೆ ಸೆನ್ಸಾರ್‌ನ ಸೊಕೆಟ್‌ಗೆ ಹಾಕಿ. ಇದು ಕೇವಲ ಒಂದು ದಿಕ್ಕಿಗೆ ಹಾಸಿಕೊಳ್ಳುತ್ತದೆ.
 
 1. ನಿಮ್ಮ ಕಂಪ್ಯೂಟರ್ ಅಥವಾ ಇತರ ವಿದ್ಯುತ್ ಸರಬರಾಜಿನಿಂದ Wio ಟರ್ಮಿನಲ್ ಅನ್ನು ಡಿಸ್ಕನೆಕ್ಟ್ ಮಾಡಿರುವಾಗ, ಗ್ರೋವ್ ಕೇಬಲ್‌ನ ಇನ್ನೊಂದು ಕೊನೆಯನ್ನು Wio ಟರ್ಮಿನಲ್‌ನ ಬಲಭಾಗದ ಗ್ರೋವ್ ಸೊಕೆಟ್‌ಗೆ ಸಂಪರ್ಕಿಸಿ. ನೀವು ಪರದೆ ನೋಡಿ ಇದ್ದಾಗ, ಇದು ವಿದ್ಯುತ್ ಬಟನ್‌ನಿಂದ ಅತಿದೂರದಲ್ಲಿರುವ ಸೊಕೆಟ್ ಆಗಿದೆ.
 
-![The grove soil moisture sensor connected to the right hand socket](../../../../../translated_images/wio-soil-moisture-sensor.46919b61c3f6cb74.kn.png)
+![The grove soil moisture sensor connected to the right hand socket](../../../../../translated_images/kn/wio-soil-moisture-sensor.46919b61c3f6cb74.png)
 
 1. ಮಣ್ಣು ತೇವತೆ ಸೆನ್ಸಾರ್ ಅನ್ನು ಮಣ್ಣಿಗೆ ಹಾಯಿಸಿ. ಇದರಲ್ಲಿ 'ಅತ್ಯಧಿಕ ಸ್ಥಾನ ಶ್ರೇಣಿ' ಇದ್ದು - ಒಂದು ಬಿಳಿ ರೇಖೆ ಸೆನ್ಸಾರ್ ಮುಖಾಂತರ ಹೋಗುತ್ತದೆ. ಈ ರೇಖೆಯವರೆಗೆ ಮಾತ್ರ ಸೆನ್ಸಾರ್ ಅನ್ನು ಹಾಕಿ, ಅವಳಿ ಅದರ ಪಕ್ಕಕ್ಕೆ ಹೋಗದಿರಲಿ.
 
-![The grove soil moisture sensor in soil](../../../../../translated_images/soil-moisture-sensor-in-soil.bfad91002bda5e96.kn.png)
+![The grove soil moisture sensor in soil](../../../../../translated_images/kn/soil-moisture-sensor-in-soil.bfad91002bda5e96.png)
 
 1. ಈಗ ನೀವು Wio ಟರ್ಮಿನಲ್ ಅನ್ನು ನಿಮ್ಮ ಕಂಪ್ಯೂಟರ್‌ಗೆ ಸಂಪರ್ಕಿಸಬಹುದು.
 

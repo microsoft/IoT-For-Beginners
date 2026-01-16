@@ -37,11 +37,11 @@ CounterFitアプリに光センサーを追加します。
 
     1. **Add**ボタンを選択して、Pin 0に光センサーを作成します。
 
-    ![光センサーの設定](../../../../../translated_images/counterfit-create-light-sensor.9f36a5e0d4458d8d554d54b34d2c806d56093d6e49fddcda2d20f6fef7f5cce1.ja.png)
+    ![光センサーの設定](../../../../../translated_images/ja/counterfit-create-light-sensor.9f36a5e0d4458d8d554d54b34d2c806d56093d6e49fddcda2d20f6fef7f5cce1.png)
 
     光センサーが作成され、センサーリストに表示されます。
 
-    ![作成された光センサー](../../../../../translated_images/counterfit-light-sensor.5d0f5584df56b90f6b2561910d9cb20dfbd73eeff2177c238d38f4de54aefae1.ja.png)
+    ![作成された光センサー](../../../../../translated_images/ja/counterfit-light-sensor.5d0f5584df56b90f6b2561910d9cb20dfbd73eeff2177c238d38f4de54aefae1.png)
 
 ## 光センサーをプログラムする
 

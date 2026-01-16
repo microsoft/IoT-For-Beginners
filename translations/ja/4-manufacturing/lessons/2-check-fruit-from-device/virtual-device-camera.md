@@ -43,11 +43,11 @@ CounterFitアプリにカメラを追加します。
 
     1. **Add**ボタンを選択してカメラを作成します。
 
-    ![カメラ設定](../../../../../translated_images/counterfit-create-camera.a5de97f59c0bd3cbe0416d7e89a3cfe86d19fbae05c641c53a91286412af0a34.ja.png)
+    ![カメラ設定](../../../../../translated_images/ja/counterfit-create-camera.a5de97f59c0bd3cbe0416d7e89a3cfe86d19fbae05c641c53a91286412af0a34.png)
 
     カメラが作成され、センサーリストに表示されます。
 
-    ![作成されたカメラ](../../../../../translated_images/counterfit-camera.001ec52194c8ee5d3f617173da2c79e1df903d10882adc625cbfc493525125d4.ja.png)
+    ![作成されたカメラ](../../../../../translated_images/ja/counterfit-camera.001ec52194c8ee5d3f617173da2c79e1df903d10882adc625cbfc493525125d4.png)
 
 ## カメラをプログラムする
 
@@ -112,7 +112,7 @@ CounterFitアプリにカメラを追加します。
 
 1. CounterFitでカメラがキャプチャする画像を設定します。*Source*を*File*に設定して画像ファイルをアップロードするか、*Source*を*WebCam*に設定してウェブカメラから画像をキャプチャします。画像を選択するかウェブカメラを選択した後、**Set**ボタンを必ず選択してください。
 
-    ![CounterFitで画像ソースをファイルに設定し、ウェブカメラでバナナを持つ人を表示しているプレビュー](../../../../../translated_images/counterfit-camera-options.eb3bd5150a8e7dffbf24bc5bcaba0cf2cdef95fbe6bbe393695d173817d6b8df.ja.png)
+    ![CounterFitで画像ソースをファイルに設定し、ウェブカメラでバナナを持つ人を表示しているプレビュー](../../../../../translated_images/ja/counterfit-camera-options.eb3bd5150a8e7dffbf24bc5bcaba0cf2cdef95fbe6bbe393695d173817d6b8df.png)
 
 1. 画像がキャプチャされ、現在のフォルダーに`image.jpg`として保存されます。このファイルはVS Codeのエクスプローラーに表示されます。ファイルを選択して画像を確認してください。回転が必要な場合は、`camera.rotation = 0`行を適切に更新し、再度撮影してください。
 

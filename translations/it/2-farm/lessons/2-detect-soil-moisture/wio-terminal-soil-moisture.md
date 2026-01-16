@@ -27,17 +27,17 @@ Il sensore Grove di umidità del suolo può essere collegato alla porta analogic
 
 Collega il sensore di umidità del suolo.
 
-![Un sensore Grove di umidità del suolo](../../../../../translated_images/grove-capacitive-soil-moisture-sensor.e7f0776cce30e78be5cc5a07839385fd6718857f31b5bf5ad3d0c73c83b2f0ef.it.png)
+![Un sensore Grove di umidità del suolo](../../../../../translated_images/it/grove-capacitive-soil-moisture-sensor.e7f0776cce30e78be5cc5a07839385fd6718857f31b5bf5ad3d0c73c83b2f0ef.png)
 
 1. Inserisci un'estremità di un cavo Grove nella presa del sensore di umidità del suolo. Può essere inserito solo in un verso.
 
 1. Con il Wio Terminal scollegato dal computer o da altre fonti di alimentazione, collega l'altra estremità del cavo Grove alla presa Grove sul lato destro del Wio Terminal, guardando lo schermo. Questa è la presa più lontana dal pulsante di accensione.
 
-![Il sensore Grove di umidità del suolo collegato alla presa destra](../../../../../translated_images/wio-soil-moisture-sensor.46919b61c3f6cb74.it.png)
+![Il sensore Grove di umidità del suolo collegato alla presa destra](../../../../../translated_images/it/wio-soil-moisture-sensor.46919b61c3f6cb74.png)
 
 1. Inserisci il sensore di umidità del suolo nel terreno. Ha una "linea di posizione massima" - una linea bianca sul sensore. Inserisci il sensore fino a questa linea, ma non oltre.
 
-![Il sensore Grove di umidità del suolo nel terreno](../../../../../translated_images/soil-moisture-sensor-in-soil.bfad91002bda5e96.it.png)
+![Il sensore Grove di umidità del suolo nel terreno](../../../../../translated_images/it/soil-moisture-sensor-in-soil.bfad91002bda5e96.png)
 
 1. Ora puoi collegare il Wio Terminal al tuo computer.
 

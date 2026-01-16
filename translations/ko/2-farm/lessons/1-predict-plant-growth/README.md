@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # IoT를 활용한 식물 성장 예측
 
-![이 강의의 스케치노트 개요](../../../../../translated_images/lesson-5.42b234299279d263143148b88ab4583861a32ddb03110c6c1120e41bb88b2592.ko.jpg)
+![이 강의의 스케치노트 개요](../../../../../translated_images/ko/lesson-5.42b234299279d263143148b88ab4583861a32ddb03110c6c1120e41bb88b2592.jpg)
 
 > 스케치노트 제공: [Nitya Narasimhan](https://github.com/nitya). 이미지를 클릭하면 더 큰 버전을 볼 수 있습니다.
 
@@ -65,7 +65,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 ✅ 조사해 보세요. 정원, 학교 또는 지역 공원에 있는 식물 중 기본 온도를 찾아보세요.
 
-![온도가 상승함에 따라 성장률이 증가하다가 온도가 너무 높아지면 감소하는 그래프](../../../../../translated_images/plant-growth-temp-graph.c6d69c9478e6ca83.ko.png)
+![온도가 상승함에 따라 성장률이 증가하다가 온도가 너무 높아지면 감소하는 그래프](../../../../../translated_images/ko/plant-growth-temp-graph.c6d69c9478e6ca83.png)
 
 위 그래프는 성장률과 온도의 관계를 보여줍니다. 기본 온도까지는 성장이 없습니다. 성장률은 최적 온도까지 증가하다가, 이 정점을 넘으면 감소합니다. 최대 온도에서는 성장이 멈춥니다.
 
@@ -99,7 +99,7 @@ IoT 장치를 사용하여 온도를 모니터링하는 관련 가이드를 따�
 
 GDD의 전체 공식은 약간 복잡하지만, 종종 근사치로 사용되는 간단한 방정식이 있습니다:
 
-![GDD = T max + T min 나누기 2, 전체에서 T base를 뺌](../../../../../translated_images/gdd-calculation.79b3660f9c5757aa92dc2dd2cdde75344e2d2c1565c4b3151640f7887edc0275.ko.png)
+![GDD = T max + T min 나누기 2, 전체에서 T base를 뺌](../../../../../translated_images/ko/gdd-calculation.79b3660f9c5757aa92dc2dd2cdde75344e2d2c1565c4b3151640f7887edc0275.png)
 
 * **GDD** - 생장 적산온도
 * **T max** - 하루 최대 온도(섭씨)
@@ -127,7 +127,7 @@ GDD의 전체 공식은 약간 복잡하지만, 종종 근사치로 사용되는
 
 계산 결과:
 
-![GDD = 16 + 12 나누기 2, 전체에서 10을 빼면 4](../../../../../translated_images/gdd-calculation-corn.64a58b7a7afcd0dfd46ff733996d939f17f4f3feac9f0d1c632be3523e51ebd9.ko.png)
+![GDD = 16 + 12 나누기 2, 전체에서 10을 빼면 4](../../../../../translated_images/ko/gdd-calculation-corn.64a58b7a7afcd0dfd46ff733996d939f17f4f3feac9f0d1c632be3523e51ebd9.png)
 
 이날 옥수수는 4 GDD를 받았습니다. 성숙하기 위해 800 GDD가 필요한 옥수수 품종을 가정하면, 성숙까지 796 GDD가 더 필요합니다.
 
@@ -141,7 +141,7 @@ GDD의 전체 공식은 약간 복잡하지만, 종종 근사치로 사용되는
 
 IoT 장치를 사용하여 온도 데이터를 수집하면, 식물이 성숙에 가까워졌을 때 자동으로 알림을 받을 수 있습니다. 일반적인 아키텍처는 IoT 장치가 온도를 측정한 후 MQTT와 같은 프로토콜을 사용하여 인터넷을 통해 이 원격 데이터를 전송하는 것입니다. 서버 코드는 이 데이터를 수신하고 데이터베이스와 같은 곳에 저장합니다. 이렇게 하면 데이터를 나중에 분석할 수 있습니다. 예를 들어, 매일 밤 GDD를 계산하고, 각 작물의 총 GDD를 합산하며, 식물이 성숙에 가까워졌을 때 알림을 보낼 수 있습니다.
 
-![원격 데이터가 서버로 전송된 후 데이터베이스에 저장됨](../../../../../translated_images/save-telemetry-database.ddc9c6bea0c5ba39.ko.png)
+![원격 데이터가 서버로 전송된 후 데이터베이스에 저장됨](../../../../../translated_images/ko/save-telemetry-database.ddc9c6bea0c5ba39.png)
 
 서버 코드는 데이터에 추가 정보를 첨가할 수도 있습니다. 예를 들어, IoT 장치는 자신을 식별하는 ID를 전송할 수 있으며, 서버 코드는 이를 사용하여 장치의 위치와 모니터링 중인 작물을 조회할 수 있습니다. 또한 일부 IoT 장치에는 정확한 시간을 추적할 하드웨어가 없거나 인터넷을 통해 현재 시간을 읽는 추가 코드가 필요하기 때문에 현재 시간을 추가할 수도 있습니다.
 
@@ -228,7 +228,7 @@ CSV 파일에는 두 개의 열이 있습니다 - *date*와 *temperature*. *date
 
     
 > 💁 가상 IoT 디바이스를 사용하는 경우, 랜덤 체크박스를 선택하고 범위를 설정하여 온도 값이 매번 동일하게 반환되지 않도록 하세요.
-    ![랜덤 체크박스를 선택하고 범위를 설정](../../../../../translated_images/select-the-random-checkbox-and-set-a-range.32cf4bc7c12e797f.ko.png) 
+    ![랜덤 체크박스를 선택하고 범위를 설정](../../../../../translated_images/ko/select-the-random-checkbox-and-set-a-range.32cf4bc7c12e797f.png) 
 
     > 💁 하루 종일 실행하려면 서버 코드가 실행 중인 컴퓨터가 절전 모드로 전환되지 않도록 해야 합니다. 전원 설정을 변경하거나 [이 시스템 활성 유지 Python 스크립트](https://github.com/jaqsparow/keep-system-active)와 같은 것을 실행하세요.
     
@@ -248,7 +248,7 @@ CSV 파일에는 두 개의 열이 있습니다 - *date*와 *temperature*. *date
 
 예를 들어, 하루 동안의 최고 온도가 25°C이고 최저 온도가 12°C인 경우:
 
-![GDD = 25 + 12를 2로 나눈 후, 결과에서 10을 빼면 8.5가 나옵니다](../../../../../translated_images/gdd-calculation-strawberries.59f57db94b22adb8ff6efb951ace33af104a1c6ccca3ffb0f8169c14cb160c90.ko.png)
+![GDD = 25 + 12를 2로 나눈 후, 결과에서 10을 빼면 8.5가 나옵니다](../../../../../translated_images/ko/gdd-calculation-strawberries.59f57db94b22adb8ff6efb951ace33af104a1c6ccca3ffb0f8169c14cb160c90.png)
 
 * 25 + 12 = 37
 * 37 / 2 = 18.5

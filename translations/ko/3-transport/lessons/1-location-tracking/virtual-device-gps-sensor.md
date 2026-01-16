@@ -47,11 +47,11 @@ CounterFit 앱에 GPS 센서를 추가하세요.
 
     1. **Add** 버튼을 선택하여 포트 `/dev/ttyAMA0`에 GPS 센서를 생성하세요.
 
-    ![GPS 센서 설정](../../../../../translated_images/counterfit-create-gps-sensor.6385dc9357d85ad1d47b4abb2525e7651fd498917d25eefc5a72feab09eedc70.ko.png)
+    ![GPS 센서 설정](../../../../../translated_images/ko/counterfit-create-gps-sensor.6385dc9357d85ad1d47b4abb2525e7651fd498917d25eefc5a72feab09eedc70.png)
 
     GPS 센서가 생성되어 센서 목록에 나타납니다.
 
-    ![생성된 GPS 센서](../../../../../translated_images/counterfit-gps-sensor.3fbb15af0a5367566f2f11324ef5a6f30861cdf2b497071a5e002b7aa473550e.ko.png)
+    ![생성된 GPS 센서](../../../../../translated_images/ko/counterfit-gps-sensor.3fbb15af0a5367566f2f11324ef5a6f30861cdf2b497071a5e002b7aa473550e.png)
 
 ## GPS 센서 프로그래밍하기
 
@@ -111,17 +111,17 @@ GPS 센서 앱을 프로그래밍하세요.
 
     * **Source**를 `Lat/Lon`으로 설정하고 명시적인 위도, 경도 및 GPS 고정을 얻는 데 사용된 위성 수를 설정하세요. 이 값은 한 번만 전송되므로 **Repeat** 상자를 체크하여 데이터가 매초 반복되도록 설정하세요.
 
-      ![위도와 경도가 선택된 GPS 센서](../../../../../translated_images/counterfit-gps-sensor-latlon.008c867d75464fbe7f84107cc57040df565ac07cb57d2f21db37d087d470197d.ko.png)
+      ![위도와 경도가 선택된 GPS 센서](../../../../../translated_images/ko/counterfit-gps-sensor-latlon.008c867d75464fbe7f84107cc57040df565ac07cb57d2f21db37d087d470197d.png)
 
     * **Source**를 `NMEA`로 설정하고 텍스트 상자에 NMEA 문장을 추가하세요. 모든 값이 전송되며, 각 새로운 GGA(위치 고정) 문장이 읽히기 전에 1초의 지연이 있습니다.
 
-      ![NMEA 문장이 설정된 GPS 센서](../../../../../translated_images/counterfit-gps-sensor-nmea.c62eea442171e17e19528b051b104cfcecdc9cd18db7bc72920f29821ae63f73.ko.png)
+      ![NMEA 문장이 설정된 GPS 센서](../../../../../translated_images/ko/counterfit-gps-sensor-nmea.c62eea442171e17e19528b051b104cfcecdc9cd18db7bc72920f29821ae63f73.png)
 
       [nmeagen.org](https://www.nmeagen.org)와 같은 도구를 사용하여 지도에서 그리며 이러한 문장을 생성할 수 있습니다. 이 값은 한 번만 전송되므로 **Repeat** 상자를 체크하여 모든 값이 전송된 후 1초 후에 반복되도록 설정하세요.
 
     * **Source**를 GPX 파일로 설정하고 트랙 위치가 포함된 GPX 파일을 업로드하세요. [AllTrails](https://www.alltrails.com/)와 같은 인기 있는 지도 및 하이킹 사이트에서 GPX 파일을 다운로드할 수 있습니다. 이러한 파일은 트레일로서 여러 GPS 위치를 포함하며, GPS 센서는 1초 간격으로 각 새로운 위치를 반환합니다.
 
-      ![GPX 파일이 설정된 GPS 센서](../../../../../translated_images/counterfit-gps-sensor-gpxfile.8310b063ce8a425ccc8ebeec8306aeac5e8e55207f007d52c6e1194432a70cd9.ko.png)
+      ![GPX 파일이 설정된 GPS 센서](../../../../../translated_images/ko/counterfit-gps-sensor-gpxfile.8310b063ce8a425ccc8ebeec8306aeac5e8e55207f007d52c6e1194432a70cd9.png)
 
       이 값은 한 번만 전송되므로 **Repeat** 상자를 체크하여 모든 값이 전송된 후 1초 후에 반복되도록 설정하세요.
 

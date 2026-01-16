@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Sukurkite atsargų detektorių
 
-![Pamokos apžvalga sketchnote formatu](../../../../../translated_images/lesson-19.cf6973cecadf080c4b526310620dc4d6f5994c80fb0139c6f378cc9ca2d435cd.lt.jpg)
+![Pamokos apžvalga sketchnote formatu](../../../../../translated_images/lt/lesson-19.cf6973cecadf080c4b526310620dc4d6f5994c80fb0139c6f378cc9ca2d435cd.jpg)
 
 > Sketchnote sukūrė [Nitya Narasimhan](https://github.com/nitya). Spustelėkite paveikslėlį, kad pamatytumėte didesnę versiją.
 
@@ -45,7 +45,7 @@ Objekto aptikimas apima objektų aptikimą vaizduose naudojant dirbtinį intelek
 
 Vaizdų klasifikavimas susijęs su viso vaizdo klasifikavimu – kokia tikimybė, kad visas vaizdas atitinka kiekvieną žymę. Jūs gaunate tikimybes kiekvienai žymei, kuri buvo naudojama modelio mokymui.
 
-![Vaizdų klasifikavimas anakardžių riešutams ir pomidorų pastai](../../../../../translated_images/image-classifier-cashews-tomato.bc2e16ab8f05cf9ac0f59f73e32efc4227f9a5b601b90b2c60f436694547a965.lt.png)
+![Vaizdų klasifikavimas anakardžių riešutams ir pomidorų pastai](../../../../../translated_images/lt/image-classifier-cashews-tomato.bc2e16ab8f05cf9ac0f59f73e32efc4227f9a5b601b90b2c60f436694547a965.png)
 
 Pavyzdyje aukščiau du vaizdai klasifikuojami naudojant modelį, apmokytą klasifikuoti anakardžių riešutų indelius arba pomidorų pastos skardines. Pirmasis vaizdas yra anakardžių riešutų indelis, ir klasifikatorius pateikia du rezultatus:
 
@@ -69,7 +69,7 @@ Kai vėliau naudojate modelį vaizdų numatymui, vietoj žymių ir procentų są
 
 > 🎓 *Ribojantys langeliai* yra langeliai aplink objektą.
 
-![Objekto aptikimas anakardžių riešutams ir pomidorų pastai](../../../../../translated_images/object-detector-cashews-tomato.1af7c26686b4db0e709754aeb196f4e73271f54e2085db3bcccb70d4a0d84d97.lt.png)
+![Objekto aptikimas anakardžių riešutams ir pomidorų pastai](../../../../../translated_images/lt/object-detector-cashews-tomato.1af7c26686b4db0e709754aeb196f4e73271f54e2085db3bcccb70d4a0d84d97.png)
 
 Vaizde aukščiau yra tiek anakardžių riešutų indelis, tiek trys pomidorų pastos skardinės. Objekto aptikimo modelis aptiko anakardžių riešutus, pateikdamas ribojantį langelį, kuriame yra anakardžių riešutai, su procentine tikimybe, kad ribojantis langelis apima objektą, šiuo atveju 97.6%. Modelis taip pat aptiko tris pomidorų pastos skardines ir pateikia tris atskirus ribojančius langelius, po vieną kiekvienai aptiktai skardinei, ir kiekvienas langelis turi procentinę tikimybę, kad ribojantis langelis apima pomidorų pastos skardinę.
 
@@ -120,7 +120,7 @@ Galite apmokyti objekto aptikimo modelį naudodami Custom Vision, panašiai kaip
 
     Kurdamas projektą, įsitikinkite, kad naudojate anksčiau sukurtą `stock-detector-training` išteklių. Naudokite *Objekto aptikimo* projekto tipą ir *Produktai lentynose* domeną.
 
-    ![Custom Vision projekto nustatymai su pavadinimu fruit-quality-detector, be aprašymo, išteklius nustatytas į fruit-quality-detector-training, projekto tipas nustatytas į klasifikaciją, klasifikacijos tipai nustatyti į multi class ir domenai nustatyti į maistą](../../../../../translated_images/custom-vision-create-object-detector-project.32d4fb9aa8e7e7375f8a799bfce517aca970f2cb65e42d4245c5e635c734ab29.lt.png)
+    ![Custom Vision projekto nustatymai su pavadinimu fruit-quality-detector, be aprašymo, išteklius nustatytas į fruit-quality-detector-training, projekto tipas nustatytas į klasifikaciją, klasifikacijos tipai nustatyti į multi class ir domenai nustatyti į maistą](../../../../../translated_images/lt/custom-vision-create-object-detector-project.32d4fb9aa8e7e7375f8a799bfce517aca970f2cb65e42d4245c5e635c734ab29.png)
 
     ✅ Produktų lentynose domenas yra specialiai pritaikytas atsargų aptikimui parduotuvių lentynose. Daugiau apie skirtingus domenus skaitykite [„Pasirinkti domeną“ dokumentacijoje Microsoft Docs](https://docs.microsoft.com/azure/cognitive-services/custom-vision-service/select-domain?WT.mc_id=academic-17441-jabenn#object-detection)
 
@@ -142,11 +142,11 @@ Norėdami apmokyti savo modelį, jums reikės vaizdų rinkinio, kuriame yra obje
 
 1. Sekite [„Įkelti ir pažymėti vaizdus“ skyrių „Sukurti objekto aptikimo modelį“ greitojoje pradžioje Microsoft dokumentacijoje](https://docs.microsoft.com/azure/cognitive-services/custom-vision-service/get-started-build-detector?WT.mc_id=academic-17441-jabenn#upload-and-tag-images), kad įkeltumėte savo mokymo vaizdus. Sukurkite atitinkamas žymes, priklausomai nuo objektų tipų, kuriuos norite aptikti.
 
-    ![Įkėlimo dialogai, rodantys prinokusių ir neprinokusių bananų vaizdų įkėlimą](../../../../../translated_images/image-upload-object-detector.77c7892c3093cb59b79018edecd678749a75d71a099bc8a2d2f2f76320f88a5b.lt.png)
+    ![Įkėlimo dialogai, rodantys prinokusių ir neprinokusių bananų vaizdų įkėlimą](../../../../../translated_images/lt/image-upload-object-detector.77c7892c3093cb59b79018edecd678749a75d71a099bc8a2d2f2f76320f88a5b.png)
 
     Kai piešiate ribojančius langelius objektams, laikykite juos glaudžiai aplink objektą. Gali užtrukti, kol pažymėsite visus vaizdus, tačiau įrankis aptiks, ką jis mano esant ribojančiais langeliais, todėl procesas bus greitesnis.
 
-    ![Pomidorų pastos žymėjimas](../../../../../translated_images/object-detector-tag-tomato-paste.f47c362fb0f0eb582f3bc68cf3855fb43a805106395358d41896a269c210b7b4.lt.png)
+    ![Pomidorų pastos žymėjimas](../../../../../translated_images/lt/object-detector-tag-tomato-paste.f47c362fb0f0eb582f3bc68cf3855fb43a805106395358d41896a269c210b7b4.png)
 
     > 💁 Jei turite daugiau nei 15 vaizdų kiekvienam objektui, galite mokyti po 15, tada naudoti **Siūlomos žymės** funkciją. Tai naudos apmokytą modelį objektų aptikimui nepažymėtuose vaizduose. Tada galite patvirtinti aptiktus objektus arba atmesti ir perpiešti ribojančius langelius. Tai gali sutaupyti *daug* laiko.
 

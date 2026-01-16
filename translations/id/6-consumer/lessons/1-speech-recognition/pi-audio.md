@@ -25,13 +25,13 @@ Tombol dapat dihubungkan ke Grove base hat.
 
 #### Tugas - Menghubungkan Tombol
 
-![Tombol Grove](../../../../../translated_images/grove-button.a70cfbb809a8563681003250cf5b06d68cdcc68624f9e2f493d5a534ae2da1e5.id.png)
+![Tombol Grove](../../../../../translated_images/id/grove-button.a70cfbb809a8563681003250cf5b06d68cdcc68624f9e2f493d5a534ae2da1e5.png)
 
 1. Masukkan salah satu ujung kabel Grove ke soket pada modul tombol. Kabel hanya dapat masuk dengan satu arah.
 
 1. Dengan Raspberry Pi dalam keadaan mati, hubungkan ujung lain kabel Grove ke soket digital yang diberi tanda **D5** pada Grove Base hat yang terpasang di Pi. Soket ini adalah soket kedua dari kiri, pada baris soket di sebelah pin GPIO.
 
-![Tombol Grove terhubung ke soket D5](../../../../../translated_images/pi-button.c7a1a4f55943341ce1baf1057658e9a205804d4131d258e820c93f951df0abf3.id.png)
+![Tombol Grove terhubung ke soket D5](../../../../../translated_images/id/pi-button.c7a1a4f55943341ce1baf1057658e9a205804d4131d258e820c93f951df0abf3.png)
 
 ## Menangkap Audio
 

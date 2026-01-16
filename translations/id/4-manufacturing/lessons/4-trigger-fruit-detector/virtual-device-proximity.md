@@ -45,11 +45,11 @@ Tambahkan sensor jarak ke aplikasi CounterFit.
 
     1. Pilih tombol **Add** untuk membuat sensor jarak.
 
-    ![Pengaturan sensor jarak](../../../../../translated_images/counterfit-create-distance-sensor.967c9fb98f27888d95920c9784d004c972490eb71f70397fe13bd70a79a879a3.id.png)
+    ![Pengaturan sensor jarak](../../../../../translated_images/id/counterfit-create-distance-sensor.967c9fb98f27888d95920c9784d004c972490eb71f70397fe13bd70a79a879a3.png)
 
     Sensor jarak akan dibuat dan muncul dalam daftar sensor.
 
-    ![Sensor jarak yang dibuat](../../../../../translated_images/counterfit-distance-sensor.079eefeeea0b68afc36431ce8fcbe2f09a7e4916ed1cd5cb30e696db53bc18fa.id.png)
+    ![Sensor jarak yang dibuat](../../../../../translated_images/id/counterfit-distance-sensor.079eefeeea0b68afc36431ce8fcbe2f09a7e4916ed1cd5cb30e696db53bc18fa.png)
 
 ## Program sensor jarak
 

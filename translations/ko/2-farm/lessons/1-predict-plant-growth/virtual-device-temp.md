@@ -47,11 +47,11 @@ CounterFit 앱에 습도 및 온도 센서를 추가합니다.
 
     1. **Add** 버튼을 선택하여 Pin 5에 습도 센서를 생성합니다.
 
-    ![습도 센서 설정](../../../../../translated_images/counterfit-create-humidity-sensor.2750e27b6f30e09cf4e22101defd5252710717620816ab41ba688f91f757c49a.ko.png)
+    ![습도 센서 설정](../../../../../translated_images/ko/counterfit-create-humidity-sensor.2750e27b6f30e09cf4e22101defd5252710717620816ab41ba688f91f757c49a.png)
 
     습도 센서가 생성되어 센서 목록에 나타납니다.
 
-    ![생성된 습도 센서](../../../../../translated_images/counterfit-humidity-sensor.7b12f7f339e430cb26c8211d2dba4ef75261b353a01da0932698b5bebd693f27.ko.png)
+    ![생성된 습도 센서](../../../../../translated_images/ko/counterfit-humidity-sensor.7b12f7f339e430cb26c8211d2dba4ef75261b353a01da0932698b5bebd693f27.png)
 
 1. 온도 센서를 생성합니다:
 
@@ -63,11 +63,11 @@ CounterFit 앱에 습도 및 온도 센서를 추가합니다.
 
     1. **Add** 버튼을 선택하여 Pin 6에 온도 센서를 생성합니다.
 
-    ![온도 센서 설정](../../../../../translated_images/counterfit-create-temperature-sensor.199350ed34f7343d79dccbe95eaf6c11d2121f03d1c35ab9613b330c23f39b29.ko.png)
+    ![온도 센서 설정](../../../../../translated_images/ko/counterfit-create-temperature-sensor.199350ed34f7343d79dccbe95eaf6c11d2121f03d1c35ab9613b330c23f39b29.png)
 
     온도 센서가 생성되어 센서 목록에 나타납니다.
 
-    ![생성된 온도 센서](../../../../../translated_images/counterfit-temperature-sensor.f0560236c96a9016bafce7f6f792476fe3367bc6941a1f7d5811d144d4bcbfff.ko.png)
+    ![생성된 온도 센서](../../../../../translated_images/ko/counterfit-temperature-sensor.f0560236c96a9016bafce7f6f792476fe3367bc6941a1f7d5811d144d4bcbfff.png)
 
 ## 온도 센서 앱 프로그래밍
 

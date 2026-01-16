@@ -27,13 +27,13 @@ Grove relę galima prijungti prie Raspberry Pi.
 
 Prijunkite relę.
 
-![Grove relė](../../../../../translated_images/grove-relay.d426958ca210fbd0fb7983d7edc069d46c73a8b0a099d94797bd756f7b6bb6be.lt.png)
+![Grove relė](../../../../../translated_images/lt/grove-relay.d426958ca210fbd0fb7983d7edc069d46c73a8b0a099d94797bd756f7b6bb6be.png)
 
 1. Įkiškite vieną Grove kabelio galą į relės lizdą. Jis įsistatys tik viena kryptimi.
 
 1. Išjungus Raspberry Pi, prijunkite kitą Grove kabelio galą prie skaitmeninio lizdo, pažymėto **D5**, esančio ant Grove Base Hat, prijungto prie Pi. Šis lizdas yra antras iš kairės, eilėje šalia GPIO kaiščių. Palikite dirvožemio drėgmės jutiklį prijungtą prie **A0** lizdo.
 
-![Grove relė prijungta prie D5 lizdo, o dirvožemio drėgmės jutiklis prijungtas prie A0 lizdo](../../../../../translated_images/pi-relay-and-soil-moisture-sensor.02f3198975b8c53e69ec716cd2719ce117700bd1fc933eaf93476c103c57939b.lt.png)
+![Grove relė prijungta prie D5 lizdo, o dirvožemio drėgmės jutiklis prijungtas prie A0 lizdo](../../../../../translated_images/lt/pi-relay-and-soil-moisture-sensor.02f3198975b8c53e69ec716cd2719ce117700bd1fc933eaf93476c103c57939b.png)
 
 1. Įkiškite dirvožemio drėgmės jutiklį į dirvą, jei jis dar nėra įkištas iš ankstesnės pamokos.
 

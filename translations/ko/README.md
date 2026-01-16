@@ -57,7 +57,7 @@ AI 앱 개발에 대해 막히거나 질문이 있을 경우, MCP에 대해 학�
 
 프로젝트들은 농장에서 식탁까지 음식의 여정을 다룹니다. 여기에는 농업, 물류, 제조, 소매 및 소비자가 포함되며, 모두 IoT 장치의 인기 산업 분야입니다.
 
-![24개의 수업을 소개, 농업, 운송, 가공, 소매 및 요리를 다루는 코스 로드맵](../../translated_images/Roadmap.bb1dec285dda0eda.ko.jpg)
+![24개의 수업을 소개, 농업, 운송, 가공, 소매 및 요리를 다루는 코스 로드맵](../../translated_images/ko/Roadmap.bb1dec285dda0eda.jpg)
 
 > 스케치노트: [Nitya Narasimhan](https://github.com/nitya). 이미지를 클릭하면 큰 버전을 볼 수 있습니다.
 

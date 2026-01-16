@@ -27,13 +27,13 @@ Grove ರಿಲೇ Wio ಟರ್ಮಿನಲ್‌ಗಳ ಡಿಜಿಟಲ್ �
 
 ರಿಲೇ ಅನ್ನು ಸಂಪರ್ಕಿಸಿ.
 
-![A grove relay](../../../../../translated_images/grove-relay.d426958ca210fbd0.kn.png)
+![A grove relay](../../../../../translated_images/kn/grove-relay.d426958ca210fbd0.png)
 
 1. Grove ಕೇಬಲ್‌ನ ಒಂದು ಕೊನೆಯನ್ನು ರಿಲೇ上的 ಸೋಕೆಟ್‌ಗೆ ಹಾಕಿರಿ. ಇದು ಒಂದೇ ದಿಕ್ಕಿನಲ್ಲಿ ಮಾತ್ರ ಸೇರಲಿದೆ.
 
 1. Wio ಟರ್ಮಿನಲ್ ನಿಮ್ಮ ಕಂಪ್ಯೂಟರ್ ಅಥವಾ ಬೇರೆ ಪವರ್ ಸರಬರಾಜಿನಿಂದ ದೂರವಿದ್ದಾಗ, Grove ಕೇಬಲ್‌ನ ಬೇರೆ ಕೊನೆಯನ್ನು Wio ಟರ್ಮಿನಲ್‌ನ ಎಡಭಾಗದ Grove ಸೋಕೆಟ್‌ಗೆ ಸಂಪರ್ಕಿಸಿ, ನೀವು ಪರದೆ ನೋಡುತ್ತಿರುವ ಬಗೆಗೆ. ಮಣ್ಣು ತೇವಾಂಶ ಸೆನ್ಸರ್‌ನ್ನು ಬಲಭಾಗದ ಸೋಕೆಟ್‌ಗೆ ಸಂಪರ್ಕದಲ್ಲಿರಿಸಿ.
 
-![The grove relay connected to the left-hand socket, and the soil moisture sensor connected to the right hand socket](../../../../../translated_images/wio-relay-and-soil-moisture-sensor.ed722202d42babe0.kn.png)
+![The grove relay connected to the left-hand socket, and the soil moisture sensor connected to the right hand socket](../../../../../translated_images/kn/wio-relay-and-soil-moisture-sensor.ed722202d42babe0.png)
 
 1. ಮಣ್ಣು ತೇವಾಂಶ ಸೆನ್ಸರ್ ಈಗಾಗಲೇ ಹಾಕದಿದ್ದರೆ, ಮುಂಚಿನ ಪಾಠದಿಂದಾಗಿ ಮಣ್ಣಿನಲ್ಲಿ ಅದನ್ನು ಹಾಕಿರಿ.
 

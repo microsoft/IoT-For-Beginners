@@ -29,13 +29,13 @@ A Grove Time of Flight érzékelő csatlakoztatható a Wio Terminalhoz.
 
 Csatlakoztasd a Time of Flight érzékelőt.
 
-![Egy Grove Time of Flight érzékelő](../../../../../translated_images/grove-time-of-flight-sensor.d82ff2165bfded9f485de54d8d07195a6270a602696825fca19f629ddfe94e86.hu.png)
+![Egy Grove Time of Flight érzékelő](../../../../../translated_images/hu/grove-time-of-flight-sensor.d82ff2165bfded9f485de54d8d07195a6270a602696825fca19f629ddfe94e86.png)
 
 1. Dugj be egy Grove kábelt az érzékelő csatlakozójába. A kábel csak egy irányban illeszkedik.
 
 1. Amíg a Wio Terminal nincs csatlakoztatva a számítógéphez vagy más áramforráshoz, dugd be a Grove kábel másik végét a Wio Terminal bal oldali Grove csatlakozójába, ahogy a képernyőt nézed. Ez a csatlakozó van legközelebb a bekapcsológombhoz. Ez egy kombinált digitális és I2C csatlakozó.
 
-![A Grove Time of Flight érzékelő csatlakoztatva a bal oldali csatlakozóhoz](../../../../../translated_images/wio-time-of-flight-sensor.c4c182131d2ea73d.hu.png)
+![A Grove Time of Flight érzékelő csatlakoztatva a bal oldali csatlakozóhoz](../../../../../translated_images/hu/wio-time-of-flight-sensor.c4c182131d2ea73d.png)
 
 1. Most csatlakoztathatod a Wio Terminalt a számítógéphez.
 
@@ -101,7 +101,7 @@ Most már programozhatod a Wio Terminalt, hogy használja a csatlakoztatott Time
 
     A távolságmérő az érzékelő hátoldalán található, ezért ügyelj arra, hogy a megfelelő oldalt használd a távolság méréséhez.
 
-    ![A Time of Flight érzékelő hátoldalán lévő távolságmérő egy banánra irányítva](../../../../../translated_images/time-of-flight-banana.079921ad8b1496e4.hu.png)
+    ![A Time of Flight érzékelő hátoldalán lévő távolságmérő egy banánra irányítva](../../../../../translated_images/hu/time-of-flight-banana.079921ad8b1496e4.png)
 
 > 💁 Ezt a kódot megtalálod a [code-proximity/wio-terminal](../../../../../4-manufacturing/lessons/4-trigger-fruit-detector/code-proximity/wio-terminal) mappában.
 

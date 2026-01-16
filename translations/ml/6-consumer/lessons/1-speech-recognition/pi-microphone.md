@@ -43,7 +43,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 1. നിങ്ങൾ ReSpeaker 2-Mics Pi HAT ഉപയോഗിക്കുന്നുവെങ്കിൽ, Grove ബേസ്സ് ഹാറ്റ് നീക്കം ചെയ്ത് ReSpeaker ഹാറ്റ് അതിന്റെ സ്ഥാനത്ത് സജ്ജീകരിക്കാം.
 
-    ![A raspberry pi with a ReSpeaker hat](../../../../../translated_images/pi-respeaker-hat.f00fabe7dd039a93.ml.png)
+    ![A raspberry pi with a ReSpeaker hat](../../../../../translated_images/ml/pi-respeaker-hat.f00fabe7dd039a93.png)
 
     ഈ പാഠത്തിൽ ശേഷം Grove ബട്ടൺ നിങ്ങൾക്കാവണം, എന്നാൽ ഇത് ഈ ഹാറ്റിൽ തന്നെ ഉൾപ്പെടുത്തിയിട്ടുള്ളതിനാൽ Grove ബേസ്സ് ഹാറ്റ് വേണ്ട.
 

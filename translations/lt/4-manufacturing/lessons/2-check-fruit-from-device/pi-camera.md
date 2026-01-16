@@ -25,7 +25,7 @@ Kamera gali būti prijungta prie Raspberry Pi naudojant juostinį kabelį.
 
 ### Užduotis - prijunkite kamerą
 
-![Raspberry Pi kamera](../../../../../translated_images/pi-camera-module.4278753c31bd6e757aa2b858be97d72049f71616278cefe4fb5abb485b40a078.lt.png)
+![Raspberry Pi kamera](../../../../../translated_images/lt/pi-camera-module.4278753c31bd6e757aa2b858be97d72049f71616278cefe4fb5abb485b40a078.png)
 
 1. Išjunkite Pi.
 
@@ -33,17 +33,17 @@ Kamera gali būti prijungta prie Raspberry Pi naudojant juostinį kabelį.
 
     Animaciją, kaip atidaryti klipą ir įstatyti kabelį, galite rasti [Raspberry Pi dokumentacijoje apie kameros modulio naudojimą](https://projects.raspberrypi.org/en/projects/getting-started-with-picamera/2).
 
-    ![Juostinis kabelis įstatytas į kameros modulį](../../../../../translated_images/pi-camera-ribbon-cable.0bf82acd251611c21ac616f082849413e2b322a261d0e4f8fec344248083b07e.lt.png)
+    ![Juostinis kabelis įstatytas į kameros modulį](../../../../../translated_images/lt/pi-camera-ribbon-cable.0bf82acd251611c21ac616f082849413e2b322a261d0e4f8fec344248083b07e.png)
 
 1. Nuimkite Grove Base Hat nuo Pi.
 
 1. Perkiškite juostinį kabelį per kameros angą Grove Base Hat. Įsitikinkite, kad mėlyna kabelio pusė nukreipta link analoginių prievadų, pažymėtų **A0**, **A1** ir pan.
 
-    ![Juostinis kabelis perkištas per Grove Base Hat](../../../../../translated_images/grove-base-hat-ribbon-cable.501fed202fcf73b11b2b68f6d246189f7d15d3e4423c572ddee79d77b4632b47.lt.png)
+    ![Juostinis kabelis perkištas per Grove Base Hat](../../../../../translated_images/lt/grove-base-hat-ribbon-cable.501fed202fcf73b11b2b68f6d246189f7d15d3e4423c572ddee79d77b4632b47.png)
 
 1. Įstatykite juostinį kabelį į kameros jungtį ant Pi. Vėlgi, patraukite juodą plastikinį klipą aukštyn, įstatykite kabelį, tada pastumkite klipą atgal. Mėlyna kabelio pusė turėtų būti nukreipta į USB ir Ethernet prievadus.
 
-    ![Juostinis kabelis prijungtas prie kameros jungties ant Pi](../../../../../translated_images/pi-camera-socket-ribbon-cable.a18309920b11800911082ed7aa6fb28e6d9be3a022e4079ff990016cae3fca10.lt.png)
+    ![Juostinis kabelis prijungtas prie kameros jungties ant Pi](../../../../../translated_images/lt/pi-camera-socket-ribbon-cable.a18309920b11800911082ed7aa6fb28e6d9be3a022e4079ff990016cae3fca10.png)
 
 1. Vėl pritvirtinkite Grove Base Hat.
 
@@ -110,7 +110,7 @@ Programuokite įrenginį.
 
     Eilutė `camera.rotation = 0` nustato vaizdo pasukimą. Juostinis kabelis įeina į kameros apačią, tačiau jei jūsų kamera buvo pasukta, kad būtų lengviau nukreipti į objektą, kurį norite klasifikuoti, galite pakeisti šią eilutę į pasukimo laipsnių skaičių.
 
-    ![Kamera pakabinta virš gėrimo skardinės](../../../../../translated_images/pi-camera-upside-down.5376961ba31459883362124152ad6b823d5ac5fc14e85f317e22903bd681c2b6.lt.png)
+    ![Kamera pakabinta virš gėrimo skardinės](../../../../../translated_images/lt/pi-camera-upside-down.5376961ba31459883362124152ad6b823d5ac5fc14e85f317e22903bd681c2b6.png)
 
     Pavyzdžiui, jei pakabinsite juostinį kabelį virš objekto, kad jis būtų kameros viršuje, nustatykite pasukimą į 180:
 

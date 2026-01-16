@@ -43,11 +43,11 @@ Adja hozzá a kamerát a CounterFit alkalmazáshoz.
 
     1. Válassza ki az **Add** gombot a kamera létrehozásához.
 
-    ![A kamera beállításai](../../../../../translated_images/counterfit-create-camera.a5de97f59c0bd3cbe0416d7e89a3cfe86d19fbae05c641c53a91286412af0a34.hu.png)
+    ![A kamera beállításai](../../../../../translated_images/hu/counterfit-create-camera.a5de97f59c0bd3cbe0416d7e89a3cfe86d19fbae05c641c53a91286412af0a34.png)
 
     A kamera létrejön, és megjelenik az érzékelők listájában.
 
-    ![A létrehozott kamera](../../../../../translated_images/counterfit-camera.001ec52194c8ee5d3f617173da2c79e1df903d10882adc625cbfc493525125d4.hu.png)
+    ![A létrehozott kamera](../../../../../translated_images/hu/counterfit-camera.001ec52194c8ee5d3f617173da2c79e1df903d10882adc625cbfc493525125d4.png)
 
 ## Kamera programozása
 
@@ -112,7 +112,7 @@ Programozza az eszközt.
 
 1. Állítsa be a képet, amelyet a CounterFit kamerája rögzíteni fog. Beállíthatja a *Source*-t *File*-ra, majd feltölthet egy képfájlt, vagy beállíthatja a *Source*-t *WebCam*-ra, és a képek a webkameráról lesznek rögzítve. Győződjön meg róla, hogy a **Set** gombot kiválasztja, miután kiválasztott egy képet vagy a webkamerát.
 
-    ![CounterFit fájllal beállítva képforrásként, és webkamerával, amely egy banánt tartó személyt mutat a webkamera előnézetében](../../../../../translated_images/counterfit-camera-options.eb3bd5150a8e7dffbf24bc5bcaba0cf2cdef95fbe6bbe393695d173817d6b8df.hu.png)
+    ![CounterFit fájllal beállítva képforrásként, és webkamerával, amely egy banánt tartó személyt mutat a webkamera előnézetében](../../../../../translated_images/hu/counterfit-camera-options.eb3bd5150a8e7dffbf24bc5bcaba0cf2cdef95fbe6bbe393695d173817d6b8df.png)
 
 1. Egy kép rögzítésre kerül, és `image.jpg` néven mentésre kerül az aktuális mappába. Ezt a fájlt látni fogja a VS Code felfedezőjében. Válassza ki a fájlt a kép megtekintéséhez. Ha forgatásra van szükség, frissítse a `camera.rotation = 0` sort szükség szerint, és készítsen egy újabb képet.
 

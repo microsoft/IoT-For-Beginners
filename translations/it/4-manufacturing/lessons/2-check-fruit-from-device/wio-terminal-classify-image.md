@@ -217,7 +217,7 @@ Questi certificati contengono chiavi pubbliche e non devono essere mantenuti seg
 
     Sarai in grado di vedere l'immagine catturata e questi valori nella scheda **Predictions** in Custom Vision.
 
-    ![Una banana in Custom Vision prevista matura al 56.8% e acerba al 43.1%](../../../../../translated_images/custom-vision-banana-prediction.30cdff4e1d72db5d9a0be0193790a47c2b387da034e12dc1314dd57ca2131b59.it.png)
+    ![Una banana in Custom Vision prevista matura al 56.8% e acerba al 43.1%](../../../../../translated_images/it/custom-vision-banana-prediction.30cdff4e1d72db5d9a0be0193790a47c2b387da034e12dc1314dd57ca2131b59.png)
 
 > 💁 Puoi trovare questo codice nella cartella [code-classify/wio-terminal](../../../../../4-manufacturing/lessons/2-check-fruit-from-device/code-classify/wio-terminal).
 

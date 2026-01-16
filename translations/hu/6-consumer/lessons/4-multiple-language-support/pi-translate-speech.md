@@ -34,7 +34,7 @@ A beszédszolgáltatás REST API-ja nem támogatja a közvetlen fordítást, ehe
     >
     > Például, ha angolul tanítod be a LUIS-t, de franciát szeretnél használni felhasználói nyelvként, lefordíthatod az olyan mondatokat, mint például "állíts be egy 2 perc és 27 másodperces időzítőt" angolról franciára a Bing Translate segítségével, majd a **Hallgasd meg a fordítást** gombbal mondhatod el a fordítást a mikrofonodba.
     >
-    > ![A Hallgasd meg a fordítást gomb a Bing Translate-en](../../../../../translated_images/bing-translate.348aa796d6efe2a92f41ea74a5cf42bb4c63d6faaa08e7f46924e072a35daa48.hu.png)
+    > ![A Hallgasd meg a fordítást gomb a Bing Translate-en](../../../../../translated_images/hu/bing-translate.348aa796d6efe2a92f41ea74a5cf42bb4c63d6faaa08e7f46924e072a35daa48.png)
 
 1. Add hozzá a fordító API kulcsot a `speech_api_key` alá:
 

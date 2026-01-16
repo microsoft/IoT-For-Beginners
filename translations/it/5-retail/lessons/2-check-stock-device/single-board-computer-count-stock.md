@@ -81,7 +81,7 @@ Come passaggio utile per il debug, puoi non solo stampare i riquadri di delimita
 
 1. Esegui l'app con la fotocamera puntata su alcuni articoli su uno scaffale. Vedrai il file `image.jpg` nell'esploratore di VS Code e potrai selezionarlo per vedere i riquadri di delimitazione.
 
-    ![4 lattine di concentrato di pomodoro con riquadri di delimitazione attorno a ciascuna lattina](../../../../../translated_images/rpi-stock-with-bounding-boxes.b5540e2ecb7cd49f.it.jpg)
+    ![4 lattine di concentrato di pomodoro con riquadri di delimitazione attorno a ciascuna lattina](../../../../../translated_images/it/rpi-stock-with-bounding-boxes.b5540e2ecb7cd49f.jpg)
 
 ## Conta il magazzino
 

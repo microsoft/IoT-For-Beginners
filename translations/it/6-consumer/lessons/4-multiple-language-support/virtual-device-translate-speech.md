@@ -46,7 +46,7 @@ Il servizio di riconoscimento vocale può prendere il parlato e non solo convert
     >
     > Ad esempio, se addestri LUIS in inglese ma vuoi utilizzare il francese come lingua dell'utente, puoi tradurre frasi come "imposta un timer di 2 minuti e 27 secondi" dall'inglese al francese utilizzando Bing Translate, quindi utilizzare il pulsante **Ascolta traduzione** per pronunciare la traduzione nel tuo microfono.
     >
-    > ![Il pulsante ascolta traduzione su Bing Translate](../../../../../translated_images/bing-translate.348aa796d6efe2a92f41ea74a5cf42bb4c63d6faaa08e7f46924e072a35daa48.it.png)
+    > ![Il pulsante ascolta traduzione su Bing Translate](../../../../../translated_images/it/bing-translate.348aa796d6efe2a92f41ea74a5cf42bb4c63d6faaa08e7f46924e072a35daa48.png)
 
 1. Sostituisci le dichiarazioni `recognizer_config` e `recognizer` con le seguenti:
 

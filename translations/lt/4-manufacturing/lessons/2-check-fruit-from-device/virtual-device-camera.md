@@ -43,11 +43,11 @@ Pridėkite kamerą prie CounterFit programos.
 
     1. Pasirinkite mygtuką **Add**, kad sukurtumėte kamerą.
 
-    ![Kameros nustatymai](../../../../../translated_images/counterfit-create-camera.a5de97f59c0bd3cbe0416d7e89a3cfe86d19fbae05c641c53a91286412af0a34.lt.png)
+    ![Kameros nustatymai](../../../../../translated_images/lt/counterfit-create-camera.a5de97f59c0bd3cbe0416d7e89a3cfe86d19fbae05c641c53a91286412af0a34.png)
 
     Kamera bus sukurta ir pasirodys jutiklių sąraše.
 
-    ![Sukurta kamera](../../../../../translated_images/counterfit-camera.001ec52194c8ee5d3f617173da2c79e1df903d10882adc625cbfc493525125d4.lt.png)
+    ![Sukurta kamera](../../../../../translated_images/lt/counterfit-camera.001ec52194c8ee5d3f617173da2c79e1df903d10882adc625cbfc493525125d4.png)
 
 ## Užprogramuokite kamerą
 
@@ -112,7 +112,7 @@ Užprogramuokite įrenginį.
 
 1. Sujunkite vaizdą, kurį CounterFit kamera užfiksuos. Galite nustatyti *Source* kaip *File*, tada įkelti vaizdo failą, arba nustatyti *Source* kaip *WebCam*, ir vaizdai bus užfiksuoti iš jūsų internetinės kameros. Įsitikinkite, kad paspaudėte mygtuką **Set** po paveikslėlio pasirinkimo arba internetinės kameros pasirinkimo.
 
-    ![CounterFit su failu kaip vaizdo šaltiniu ir internetine kamera, rodančia asmenį, laikantį bananą, internetinės kameros peržiūroje](../../../../../translated_images/counterfit-camera-options.eb3bd5150a8e7dffbf24bc5bcaba0cf2cdef95fbe6bbe393695d173817d6b8df.lt.png)
+    ![CounterFit su failu kaip vaizdo šaltiniu ir internetine kamera, rodančia asmenį, laikantį bananą, internetinės kameros peržiūroje](../../../../../translated_images/lt/counterfit-camera-options.eb3bd5150a8e7dffbf24bc5bcaba0cf2cdef95fbe6bbe393695d173817d6b8df.png)
 
 1. Vaizdas bus užfiksuotas ir išsaugotas kaip `image.jpg` dabartiniame aplanke. Šį failą matysite VS Code naršyklėje. Pasirinkite failą, kad peržiūrėtumėte vaizdą. Jei reikia pasukti, atnaujinkite eilutę `camera.rotation = 0` pagal poreikį ir užfiksuokite kitą nuotrauką.
 

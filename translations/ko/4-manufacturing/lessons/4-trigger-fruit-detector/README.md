@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # 센서로 과일 품질 감지 트리거하기
 
-![이 강의의 스케치노트 개요](../../../../../translated_images/lesson-18.92c32ed1d354caa5a54baa4032cf0b172d4655e8e326ad5d46c558a0def15365.ko.jpg)
+![이 강의의 스케치노트 개요](../../../../../translated_images/ko/lesson-18.92c32ed1d354caa5a54baa4032cf0b172d4655e8e326ad5d46c558a0def15365.jpg)
 
 > 스케치노트: [Nitya Narasimhan](https://github.com/nitya). 이미지를 클릭하면 더 큰 버전을 볼 수 있습니다.
 
@@ -48,7 +48,7 @@ IoT 애플리케이션은 데이터를 전송하는 *사물* (장치)로 설명�
 
 ### 참조 IoT 아키텍처
 
-![참조 IoT 아키텍처](../../../../../translated_images/iot-reference-architecture.2278b98b55c6d4e89bde18eada3688d893861d43507641804dd2f9d3079cfaa0.ko.png)
+![참조 IoT 아키텍처](../../../../../translated_images/ko/iot-reference-architecture.2278b98b55c6d4e89bde18eada3688d893861d43507641804dd2f9d3079cfaa0.png)
 
 위 그림은 참조 IoT 아키텍처를 보여줍니다.
 
@@ -58,7 +58,7 @@ IoT 애플리케이션은 데이터를 전송하는 *사물* (장치)로 설명�
 * **인사이트**는 서버리스 애플리케이션이나 저장된 데이터에 대한 분석에서 나옵니다.
 * **행동**은 장치로 전송된 명령이거나, 사람이 결정을 내릴 수 있도록 데이터를 시각화하는 것입니다.
 
-![참조 IoT 아키텍처](../../../../../translated_images/iot-reference-architecture-azure.0b8d2161af924cb18ae48a8558a19541cca47f27264851b5b7e56d7b8bb372ac.ko.png)
+![참조 IoT 아키텍처](../../../../../translated_images/ko/iot-reference-architecture-azure.0b8d2161af924cb18ae48a8558a19541cca47f27264851b5b7e56d7b8bb372ac.png)
 
 위 그림은 이 강의에서 다룬 구성 요소와 서비스가 참조 IoT 아키텍처에서 어떻게 연결되는지 보여줍니다.
 
@@ -98,7 +98,7 @@ IoT 애플리케이션은 데이터를 전송하는 *사물* (장치)로 설명�
 
 ### 애플리케이션 프로토타이핑
 
-![과일 품질 검사에 대한 참조 IoT 아키텍처](../../../../../translated_images/iot-reference-architecture-fruit-quality.cc705f121c3b6fa71c800d9630935ac34bc08223a04601e35f41d5e9b5dd5207.ko.png)
+![과일 품질 검사에 대한 참조 IoT 아키텍처](../../../../../translated_images/ko/iot-reference-architecture-fruit-quality.cc705f121c3b6fa71c800d9630935ac34bc08223a04601e35f41d5e9b5dd5207.png)
 
 위 그림은 이 프로토타입 애플리케이션의 참조 아키텍처를 보여줍니다.
 
@@ -115,7 +115,7 @@ IoT 애플리케이션은 데이터를 전송하는 *사물* (장치)로 설명�
 
 IoT 장치는 과일이 분류될 준비가 되었음을 나타내는 트리거가 필요합니다. 한 가지 트리거는 센서를 통해 컨베이어 벨트에서 과일이 올바른 위치에 있는지 측정하는 것입니다.
 
-![근접 센서는 바나나와 같은 물체에 레이저 빔을 보내고 반사되어 돌아오는 시간을 측정합니다](../../../../../translated_images/proximity-sensor.f5cd752c77fb62fe.ko.png)
+![근접 센서는 바나나와 같은 물체에 레이저 빔을 보내고 반사되어 돌아오는 시간을 측정합니다](../../../../../translated_images/ko/proximity-sensor.f5cd752c77fb62fe.png)
 
 근접 센서는 센서와 물체 사이의 거리를 측정하는 데 사용될 수 있습니다. 일반적으로 레이저 빔이나 적외선과 같은 전자기 방사선을 방출한 후, 물체에서 반사된 방사선을 감지합니다. 레이저 빔이 발사된 시간과 신호가 반사되어 돌아오는 시간의 차이를 사용하여 센서까지의 거리를 계산할 수 있습니다.
 
@@ -133,7 +133,7 @@ IoT 장치를 사용하여 근접 센서를 통해 물체를 감지하는 관련
 
 프로토타입 과일 감지기는 서로 통신하는 여러 구성 요소로 이루어져 있습니다.
 
-![서로 통신하는 구성 요소](../../../../../translated_images/fruit-quality-detector-message-flow.adf2a65da8fd8741ac7af11361574de89adc126785d67606bb4d2ec00467e380.ko.png)
+![서로 통신하는 구성 요소](../../../../../translated_images/ko/fruit-quality-detector-message-flow.adf2a65da8fd8741ac7af11361574de89adc126785d67606bb4d2ec00467e380.png)
 
 * 근접 센서가 과일과의 거리를 측정하고 이를 IoT Hub로 전송
 * 카메라 장치를 제어하는 명령이 IoT Hub에서 카메라 장치로 전송

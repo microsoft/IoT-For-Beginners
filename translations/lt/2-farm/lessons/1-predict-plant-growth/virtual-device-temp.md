@@ -47,11 +47,11 @@ Pridėkite drėgmės ir temperatūros jutiklius prie CounterFit programos.
 
     1. Paspauskite mygtuką **Add**, kad sukurtumėte drėgmės jutiklį ant 5 kaiščio.
 
-    ![Drėgmės jutiklio nustatymai](../../../../../translated_images/counterfit-create-humidity-sensor.2750e27b6f30e09cf4e22101defd5252710717620816ab41ba688f91f757c49a.lt.png)
+    ![Drėgmės jutiklio nustatymai](../../../../../translated_images/lt/counterfit-create-humidity-sensor.2750e27b6f30e09cf4e22101defd5252710717620816ab41ba688f91f757c49a.png)
 
     Drėgmės jutiklis bus sukurtas ir pasirodys jutiklių sąraše.
 
-    ![Sukurtas drėgmės jutiklis](../../../../../translated_images/counterfit-humidity-sensor.7b12f7f339e430cb26c8211d2dba4ef75261b353a01da0932698b5bebd693f27.lt.png)
+    ![Sukurtas drėgmės jutiklis](../../../../../translated_images/lt/counterfit-humidity-sensor.7b12f7f339e430cb26c8211d2dba4ef75261b353a01da0932698b5bebd693f27.png)
 
 1. Sukurkite temperatūros jutiklį:
 
@@ -63,11 +63,11 @@ Pridėkite drėgmės ir temperatūros jutiklius prie CounterFit programos.
 
     1. Paspauskite mygtuką **Add**, kad sukurtumėte temperatūros jutiklį ant 6 kaiščio.
 
-    ![Temperatūros jutiklio nustatymai](../../../../../translated_images/counterfit-create-temperature-sensor.199350ed34f7343d79dccbe95eaf6c11d2121f03d1c35ab9613b330c23f39b29.lt.png)
+    ![Temperatūros jutiklio nustatymai](../../../../../translated_images/lt/counterfit-create-temperature-sensor.199350ed34f7343d79dccbe95eaf6c11d2121f03d1c35ab9613b330c23f39b29.png)
 
     Temperatūros jutiklis bus sukurtas ir pasirodys jutiklių sąraše.
 
-    ![Sukurtas temperatūros jutiklis](../../../../../translated_images/counterfit-temperature-sensor.f0560236c96a9016bafce7f6f792476fe3367bc6941a1f7d5811d144d4bcbfff.lt.png)
+    ![Sukurtas temperatūros jutiklis](../../../../../translated_images/lt/counterfit-temperature-sensor.f0560236c96a9016bafce7f6f792476fe3367bc6941a1f7d5811d144d4bcbfff.png)
 
 ## Programuokite temperatūros jutiklio programą
 

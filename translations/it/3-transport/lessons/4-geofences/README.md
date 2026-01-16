@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Georecinzioni
 
-![Una panoramica illustrata di questa lezione](../../../../../translated_images/lesson-14.63980c5150ae3c153e770fb71d044c1845dce79248d86bed9fc525adf3ede73c.it.jpg)
+![Una panoramica illustrata di questa lezione](../../../../../translated_images/it/lesson-14.63980c5150ae3c153e770fb71d044c1845dce79248d86bed9fc525adf3ede73c.jpg)
 
 > Illustrazione di [Nitya Narasimhan](https://github.com/nitya). Clicca sull'immagine per una versione più grande.
 
@@ -44,7 +44,7 @@ In questa lezione tratteremo:
 
 Una georecinzione è un perimetro virtuale per una regione geografica reale. Le georecinzioni possono essere cerchi definiti come un punto e un raggio (ad esempio un cerchio di 100m intorno a un edificio) o poligoni che coprono un'area come una zona scolastica, i confini di una città o un campus universitario o aziendale.
 
-![Alcuni esempi di georecinzioni che mostrano una georecinzione circolare intorno al negozio aziendale Microsoft e una georecinzione poligonale intorno al campus ovest di Microsoft](../../../../../translated_images/geofence-examples.172fbc534665769f6e1a1ddcf75e3b25183cd10354c80cc603ba44b635390e1a.it.png)
+![Alcuni esempi di georecinzioni che mostrano una georecinzione circolare intorno al negozio aziendale Microsoft e una georecinzione poligonale intorno al campus ovest di Microsoft](../../../../../translated_images/it/geofence-examples.172fbc534665769f6e1a1ddcf75e3b25183cd10354c80cc603ba44b635390e1a.png)
 
 > 💁 Potresti aver già utilizzato le georecinzioni senza saperlo. Se hai impostato un promemoria utilizzando l'app Promemoria di iOS o Google Keep basato su una posizione, hai utilizzato una georecinzione. Queste app configurano una georecinzione basata sulla posizione fornita e ti avvisano quando il tuo telefono entra nella georecinzione.
 
@@ -110,7 +110,7 @@ Ogni punto del poligono è definito come una coppia longitudine, latitudine in u
 
 L'array delle coordinate del poligono ha sempre 1 voce in più rispetto al numero di punti del poligono, con l'ultima voce uguale alla prima, chiudendo il poligono. Ad esempio, per un rettangolo ci sarebbero 5 punti.
 
-![Un rettangolo con coordinate](../../../../../translated_images/polygon-points.302193da381cb415.it.png)
+![Un rettangolo con coordinate](../../../../../translated_images/it/polygon-points.302193da381cb415.png)
 
 Nell'immagine sopra, c'è un rettangolo. Le coordinate del poligono iniziano in alto a sinistra a 47,-122, poi si spostano a destra a 47,-121, poi in basso a 46,-121, poi a sinistra a 46,-122, e infine tornano al punto di partenza a 47,-122. Questo dà al poligono 5 punti: in alto a sinistra, in alto a destra, in basso a destra, in basso a sinistra, e infine in alto a sinistra per chiuderlo.
 
@@ -208,7 +208,7 @@ Quando effettui questa richiesta, puoi anche passare un valore chiamato `searchB
 
 Quando i risultati vengono restituiti dalla chiamata API, una delle parti del risultato è una `distance` misurata fino al punto più vicino sul bordo della georecinzione, con un valore positivo se il punto è all'esterno della georecinzione, negativo se è all'interno. Se questa distanza è inferiore al search buffer, viene restituito il valore effettivo in metri, altrimenti il valore è 999 o -999. 999 significa che il punto è all'esterno della georecinzione di oltre il search buffer, -999 significa che è all'interno della georecinzione di oltre il search buffer.
 
-![Una georecinzione con un search buffer di 50m intorno ad essa](../../../../../translated_images/search-buffer-and-distance.e6a79af3898183c7.it.png)
+![Una georecinzione con un search buffer di 50m intorno ad essa](../../../../../translated_images/it/search-buffer-and-distance.e6a79af3898183c7.png)
 
 Nell'immagine sopra, la georecinzione ha un search buffer di 50m.
 
@@ -221,7 +221,7 @@ Nell'immagine sopra, la georecinzione ha un search buffer di 50m.
 
 Ad esempio, immagina letture GPS che mostrano un veicolo che percorre una strada che finisce per correre accanto a una georecinzione. Se un singolo valore GPS è impreciso e colloca il veicolo all'interno della georecinzione, nonostante non ci sia accesso veicolare, allora può essere ignorato.
 
-![Un percorso GPS che mostra un veicolo che passa accanto al campus Microsoft sulla 520, con letture GPS lungo la strada tranne una sul campus, all'interno di una georecinzione](../../../../../translated_images/geofence-crossing-inaccurate-gps.6a3ed911202ad9cabb66d3964888cec03a42c61d5b8f536ad5bdc99716b370f5.it.png)
+![Un percorso GPS che mostra un veicolo che passa accanto al campus Microsoft sulla 520, con letture GPS lungo la strada tranne una sul campus, all'interno di una georecinzione](../../../../../translated_images/it/geofence-crossing-inaccurate-gps.6a3ed911202ad9cabb66d3964888cec03a42c61d5b8f536ad5bdc99716b370f5.png)
 Nell'immagine sopra, c'è una geofence che copre una parte del campus di Microsoft. La linea rossa mostra un camion che percorre la 520, con cerchi che rappresentano le letture GPS. La maggior parte di queste letture sono accurate e si trovano lungo la 520, ma c'è una lettura imprecisa all'interno della geofence. Non è possibile che questa lettura sia corretta: non ci sono strade che permettano al camion di deviare improvvisamente dalla 520 verso il campus e poi tornare sulla 520. Il codice che verifica questa geofence dovrà considerare le letture precedenti prima di agire sui risultati del test della geofence.
 
 ✅ Quali dati aggiuntivi ti servirebbero per verificare se una lettura GPS può essere considerata corretta?
@@ -293,7 +293,7 @@ Come ricorderai dalle lezioni precedenti, l'IoT Hub ti consente di riprodurre ev
 
 La risposta è che non può! Invece, puoi definire più connessioni separate per leggere gli eventi, e ciascuna può gestire la riproduzione dei messaggi non letti. Questi sono chiamati *gruppi di consumatori*. Quando ti connetti all'endpoint, puoi specificare a quale gruppo di consumatori vuoi connetterti. Ogni componente della tua applicazione si connetterà a un gruppo di consumatori diverso.
 
-![Un IoT Hub con 3 gruppi di consumatori che distribuiscono gli stessi messaggi a 3 diverse app Functions](../../../../../translated_images/consumer-groups.a3262e26fc27ba2092863678ad57af15c7223416e388a23f330c058cf4358630.it.png)
+![Un IoT Hub con 3 gruppi di consumatori che distribuiscono gli stessi messaggi a 3 diverse app Functions](../../../../../translated_images/it/consumer-groups.a3262e26fc27ba2092863678ad57af15c7223416e388a23f330c058cf4358630.png)
 
 In teoria, fino a 5 applicazioni possono connettersi a ciascun gruppo di consumatori, e tutte riceveranno i messaggi quando arrivano. È una buona pratica avere una sola applicazione che accede a ciascun gruppo di consumatori per evitare l'elaborazione duplicata dei messaggi e garantire che, al riavvio, tutti i messaggi in coda vengano elaborati correttamente. Ad esempio, se lanciassi la tua app Functions localmente e la stessi eseguendo anche nel cloud, entrambe elaborerebbero i messaggi, portando a blob duplicati archiviati nell'account di archiviazione.
 

@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # 언어 이해하기
 
-![이 강의의 스케치노트 개요](../../../../../translated_images/lesson-22.6148ea28500d9e00c396aaa2649935fb6641362c8f03d8e5e90a676977ab01dd.ko.jpg)
+![이 강의의 스케치노트 개요](../../../../../translated_images/ko/lesson-22.6148ea28500d9e00c396aaa2649935fb6641362c8f03d8e5e90a676977ab01dd.jpg)
 
 > 스케치노트 제공: [Nitya Narasimhan](https://github.com/nitya). 이미지를 클릭하면 더 큰 버전을 볼 수 있습니다.
 
@@ -55,7 +55,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 ## 언어 이해 모델 생성
 
-![LUIS 로고](../../../../../translated_images/luis-logo.5cb4f3e88c020ee6df4f614e8831f4a4b6809a7247bf52085fb48d629ef9be52.ko.png)
+![LUIS 로고](../../../../../translated_images/ko/luis-logo.5cb4f3e88c020ee6df4f614e8831f4a4b6809a7247bf52085fb48d629ef9be52.png)
 
 LUIS는 Microsoft의 언어 이해 서비스로, Cognitive Services의 일부입니다. 이를 사용해 언어 이해 모델을 생성할 수 있습니다.
 
@@ -126,7 +126,7 @@ LUIS를 훈련시키려면 먼저 엔터티를 설정해야 합니다. 엔터티
 
 이 문장들에서 어떤 부분이 엔터티에 해당하는지 LUIS에 알려줍니다:
 
-![1분 12초 타이머 설정 문장이 엔터티로 나뉜 모습](../../../../../translated_images/sentence-as-intent-entities.301401696f992259.ko.png)
+![1분 12초 타이머 설정 문장이 엔터티로 나뉜 모습](../../../../../translated_images/ko/sentence-as-intent-entities.301401696f992259.png)
 
 문장 `1분 12초 타이머 설정`의 의도는 `타이머 설정`입니다. 또한 2개의 엔터티와 각각의 값이 있습니다:
 
@@ -178,7 +178,7 @@ LUIS 포털 사용 방법에 대한 지침은 [Microsoft Docs의 LUIS 포털에�
 
 1. 각 예제를 입력할 때, LUIS는 엔터티를 감지하기 시작하며, 감지된 엔터티를 밑줄로 표시하고 레이블을 붙입니다.
 
-    ![LUIS가 숫자와 시간 단위를 밑줄로 표시한 예제](../../../../../translated_images/luis-intent-examples.25716580b2d2723cf1bafdf277d015c7f046d8cfa20f27bddf3a0873ec45fab7.ko.png)
+    ![LUIS가 숫자와 시간 단위를 밑줄로 표시한 예제](../../../../../translated_images/ko/luis-intent-examples.25716580b2d2723cf1bafdf277d015c7f046d8cfa20f27bddf3a0873ec45fab7.png)
 
 ### 작업 - 모델 훈련 및 테스트
 

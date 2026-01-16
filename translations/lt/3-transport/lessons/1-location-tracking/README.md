@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Vietos sekimas
 
-![Šios pamokos eskizų užrašų apžvalga](../../../../../translated_images/lesson-11.9fddbac4b664c6d50ab7ac9bb32f1fc3f945f03760e72f7f43938073762fb017.lt.jpg)
+![Šios pamokos eskizų užrašų apžvalga](../../../../../translated_images/lt/lesson-11.9fddbac4b664c6d50ab7ac9bb32f1fc3f945f03760e72f7f43938073762fb017.jpg)
 
 > Eskizų užrašai: [Nitya Narasimhan](https://github.com/nitya). Spustelėkite paveikslėlį, kad pamatytumėte didesnę versiją.
 
@@ -72,13 +72,13 @@ Geografinės koordinatės naudojamos taškams Žemės paviršiuje apibrėžti, p
 
 > 💁 Niekas tiksliai nežino, kodėl apskritimai padalijami į 360 laipsnių. [Laipsnio (kampo) puslapis Vikipedijoje](https://wikipedia.org/wiki/Degree_(angle)) aptaria galimas priežastis.
 
-![Platumos linijos nuo 90° Šiaurės ašigalyje, 45° pusiaukelėje tarp Šiaurės ašigalio ir pusiaujo, 0° pusiaujo, -45° pusiaukelėje tarp pusiaujo ir Pietų ašigalio, ir -90° Pietų ašigalyje](../../../../../translated_images/latitude-lines.11d8d91dfb2014a57437272d7db7fd6607243098e8685f06e0c5f1ec984cb7eb.lt.png)
+![Platumos linijos nuo 90° Šiaurės ašigalyje, 45° pusiaukelėje tarp Šiaurės ašigalio ir pusiaujo, 0° pusiaujo, -45° pusiaukelėje tarp pusiaujo ir Pietų ašigalio, ir -90° Pietų ašigalyje](../../../../../translated_images/lt/latitude-lines.11d8d91dfb2014a57437272d7db7fd6607243098e8685f06e0c5f1ec984cb7eb.png)
 
 Platuma matuojama naudojant linijas, kurios apsupa Žemę ir eina lygiagrečiai pusiaujo, padalijant Šiaurės ir Pietų pusrutulius į po 90°. Pusiaujo platuma yra 0°, Šiaurės ašigalis yra 90°, dar vadinamas 90° šiaurės, o Pietų ašigalis yra -90°, arba 90° pietų.
 
 Ilguma matuojama kaip laipsnių skaičius į rytus ir vakarus. 0° ilgumos pradžia vadinama *Pagrindiniu meridianu*, kuris 1884 m. buvo apibrėžtas kaip linija nuo Šiaurės iki Pietų ašigalio, einanti per [Britų karališkąją observatoriją Grinviče, Anglijoje](https://wikipedia.org/wiki/Royal_Observatory,_Greenwich).
 
-![Ilgumos linijos nuo -180° į vakarus nuo Pagrindinio meridiano, iki 0° Pagrindiniame meridiane, iki 180° į rytus nuo Pagrindinio meridiano](../../../../../translated_images/longitude-meridians.ab4ef1c91c064586b0185a3c8d39e585903696c6a7d28c098a93a629cddb5d20.lt.png)
+![Ilgumos linijos nuo -180° į vakarus nuo Pagrindinio meridiano, iki 0° Pagrindiniame meridiane, iki 180° į rytus nuo Pagrindinio meridiano](../../../../../translated_images/lt/longitude-meridians.ab4ef1c91c064586b0185a3c8d39e585903696c6a7d28c098a93a629cddb5d20.png)
 
 > 🎓 Meridianas yra įsivaizduojama tiesi linija, einanti nuo Šiaurės ašigalio iki Pietų ašigalio, sudaranti puslankį.
 
@@ -109,7 +109,7 @@ Taško koordinatės visada pateikiamos kaip `platuma, ilguma`, todėl ankstesnia
 * Platuma: 47.6423109 (47.6423109 laipsnio į šiaurę nuo pusiaujo)
 * Ilguma: -122.1390293 (122.1390293 laipsnio į vakarus nuo Pagrindinio meridiano).
 
-![„Microsoft“ būstinė 47.6423109,-122.117198](../../../../../translated_images/microsoft-gps-location-world.a321d481b010f6adfcca139b2ba0adc53b79f58a540495b8e2ce7f779ea64bfe.lt.png)
+![„Microsoft“ būstinė 47.6423109,-122.117198](../../../../../translated_images/lt/microsoft-gps-location-world.a321d481b010f6adfcca139b2ba0adc53b79f58a540495b8e2ce7f779ea64bfe.png)
 
 ## Pasaulinės padėties nustatymo sistemos (GPS)
 
@@ -121,7 +121,7 @@ GPS sistemos veikia taip, kad keli palydovai siunčia signalą su kiekvieno paly
 
 > 💁 GPS jutikliams reikia antenų, kad aptiktų radijo bangas. Antenos, įmontuotos sunkvežimiuose ir automobiliuose su įmontuotu GPS, yra išdėstytos taip, kad gautų gerą signalą, paprastai ant priekinio stiklo arba stogo. Jei naudojate atskirą GPS sistemą, pavyzdžiui, išmanųjį telefoną ar IoT įrenginį, turite užtikrinti, kad GPS sistemoje ar telefone įmontuota antena turėtų aiškų vaizdą į dangų, pavyzdžiui, būtų pritvirtinta prie priekinio stiklo.
 
-![Žinant atstumą nuo jutiklio iki kelių palydovų, galima apskaičiuoti buvimo vietą](../../../../../translated_images/gps-satellites.04acf1148fe25fbf1586bc2e8ba698e8d79b79a50c36824b38417dd13372b90f.lt.png)
+![Žinant atstumą nuo jutiklio iki kelių palydovų, galima apskaičiuoti buvimo vietą](../../../../../translated_images/lt/gps-satellites.04acf1148fe25fbf1586bc2e8ba698e8d79b79a50c36824b38417dd13372b90f.png)
 
 GPS palydovai skrieja aplink Žemę, nėra fiksuotoje vietoje virš jutiklio, todėl vietos duomenys apima aukštį virš jūros lygio, taip pat platumą ir ilgumą.
 

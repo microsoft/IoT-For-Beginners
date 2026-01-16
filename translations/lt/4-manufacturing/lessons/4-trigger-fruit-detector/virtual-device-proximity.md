@@ -45,11 +45,11 @@ Pridėkite atstumo jutiklį į CounterFit programą.
 
     1. Pasirinkite **Add** mygtuką, kad sukurtumėte atstumo jutiklį.
 
-    ![Atstumo jutiklio nustatymai](../../../../../translated_images/counterfit-create-distance-sensor.967c9fb98f27888d95920c9784d004c972490eb71f70397fe13bd70a79a879a3.lt.png)
+    ![Atstumo jutiklio nustatymai](../../../../../translated_images/lt/counterfit-create-distance-sensor.967c9fb98f27888d95920c9784d004c972490eb71f70397fe13bd70a79a879a3.png)
 
     Atstumo jutiklis bus sukurtas ir pasirodys jutiklių sąraše.
 
-    ![Sukurtas atstumo jutiklis](../../../../../translated_images/counterfit-distance-sensor.079eefeeea0b68afc36431ce8fcbe2f09a7e4916ed1cd5cb30e696db53bc18fa.lt.png)
+    ![Sukurtas atstumo jutiklis](../../../../../translated_images/lt/counterfit-distance-sensor.079eefeeea0b68afc36431ce8fcbe2f09a7e4916ed1cd5cb30e696db53bc18fa.png)
 
 ## Programuoti atstumo jutiklį
 

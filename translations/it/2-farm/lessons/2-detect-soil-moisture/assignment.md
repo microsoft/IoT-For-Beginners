@@ -29,7 +29,7 @@ Dovrai ripetere questi passaggi più volte per ottenere le letture necessarie, c
 
 L'umidità gravimetrica del suolo si calcola come:
 
-![% di umidità del suolo è il peso del terreno bagnato meno il peso del terreno asciutto, diviso per il peso del terreno asciutto, moltiplicato per 100](../../../../../translated_images/gsm-calculation.6da38c6201eec14e7573bb2647aa18892883193553d23c9d77e5dc681522dfb2.it.png)
+![% di umidità del suolo è il peso del terreno bagnato meno il peso del terreno asciutto, diviso per il peso del terreno asciutto, moltiplicato per 100](../../../../../translated_images/it/gsm-calculation.6da38c6201eec14e7573bb2647aa18892883193553d23c9d77e5dc681522dfb2.png)
 
 * W  
 - il peso del terreno bagnato  
@@ -38,7 +38,7 @@ L'umidità gravimetrica del suolo si calcola come:
 
 Ad esempio, supponiamo di avere un campione di terreno che pesa 212g bagnato e 197g asciutto.
 
-![Calcolo compilato](../../../../../translated_images/gsm-calculation-example.99f9803b4f29e97668e7c15412136c0c399ab12dbba0b89596fdae9d8aedb6fb.it.png)
+![Calcolo compilato](../../../../../translated_images/it/gsm-calculation-example.99f9803b4f29e97668e7c15412136c0c399ab12dbba0b89596fdae9d8aedb6fb.png)
 
 * W = 212g  
 * W = 197g  

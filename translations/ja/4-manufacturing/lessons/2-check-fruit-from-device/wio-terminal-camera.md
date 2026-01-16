@@ -25,11 +25,11 @@ ArduCamにはGroveソケットがありません。その代わり、GPIOピン�
 
 カメラを接続します。
 
-![ArduCamセンサー](../../../../../translated_images/arducam.20e4e4cbb268296570b5914e20d6c349fc42ddac9ed4e1b9deba2188204eebae.ja.png)
+![ArduCamセンサー](../../../../../translated_images/ja/arducam.20e4e4cbb268296570b5914e20d6c349fc42ddac9ed4e1b9deba2188204eebae.png)
 
 1. ArduCamの底部のピンをWio TerminalのGPIOピンに接続する必要があります。正しいピンを見つけやすくするために、Wio Terminalに付属しているGPIOピンステッカーをピンの周りに貼り付けます：
 
-    ![GPIOピンステッカーを貼ったWio Terminal](../../../../../translated_images/wio-terminal-pin-sticker.b90b1535937b84bd.ja.png)
+    ![GPIOピンステッカーを貼ったWio Terminal](../../../../../translated_images/ja/wio-terminal-pin-sticker.b90b1535937b84bd.png)
 
 1. ジャンパーワイヤーを使用して、以下の接続を行います：
 
@@ -44,7 +44,7 @@ ArduCamにはGroveソケットがありません。その代わり、GPIOピン�
     | SDA         | 3 (I2C1_SDA)     | I2Cシリアルデータ                       |
     | SCL         | 5 (I2C1_SCL)     | I2Cシリアルクロック                     |
 
-    ![ジャンパーワイヤーでArduCamを接続したWio Terminal](../../../../../translated_images/arducam-wio-terminal-connections.a4d5a4049bdb5ab800a2877389fc6ecf5e4ff307e6451ff56c517e6786467d0a.ja.png)
+    ![ジャンパーワイヤーでArduCamを接続したWio Terminal](../../../../../translated_images/ja/arducam-wio-terminal-connections.a4d5a4049bdb5ab800a2877389fc6ecf5e4ff307e6451ff56c517e6786467d0a.png)
 
     GNDとVCCの接続はArduCamに5Vの電源を供給します。ArduCamは5Vで動作しますが、Groveセンサーは3Vで動作します。この電源はデバイスを供給するUSB-C接続から直接供給されます。
 
@@ -297,7 +297,7 @@ Wio Terminalをプログラムして、ボタンが押されたときに画像�
 
 1. マイクロコントローラーはコードを継続的に実行するため、センサーに反応せずに写真を撮るような動作をトリガーするのは簡単ではありません。Wio Terminalにはボタンがあるため、カメラをボタンの1つでトリガーするように設定できます。以下のコードを`setup`関数の最後に追加して、Cボタン（3つのボタンのうち、電源スイッチに最も近いボタン）を設定します。
 
-    ![電源スイッチに最も近いCボタン](../../../../../translated_images/wio-terminal-c-button.73df3cb1c1445ea0.ja.png)
+    ![電源スイッチに最も近いCボタン](../../../../../translated_images/ja/wio-terminal-c-button.73df3cb1c1445ea0.png)
 
     ```cpp
     pinMode(WIO_KEY_C, INPUT_PULLUP);
@@ -465,7 +465,7 @@ Wio Terminalは最大16GBのmicroSDカードのみをサポートします。よ
 
 1. microSDカードの電源をオフにして、少し押し込んでリリースすることで取り出します。カードがポップアウトします。これを行うには薄いツールを使用する必要がある場合があります。microSDカードをコンピュータに接続して画像を表示します。
 
-    ![ArduCamで撮影されたバナナの写真](../../../../../translated_images/banana-arducam.be1b32d4267a8194b0fd042362e56faa431da9cd4af172051b37243ea9be0256.ja.jpg)
+    ![ArduCamで撮影されたバナナの写真](../../../../../translated_images/ja/banana-arducam.be1b32d4267a8194b0fd042362e56faa431da9cd4af172051b37243ea9be0256.jpg)
 💁 カメラのホワイトバランスが調整されるまでに、数枚の画像が必要になる場合があります。これは、撮影された画像の色に基づいて気付くことができ、最初の数枚は色がずれて見えるかもしれません。この問題を回避するには、`setup`関数内で無視される数枚の画像を撮影するようにコードを変更することで対処できます。
 
 

@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Hubungkan perangkat Anda ke Internet
 
-![Gambaran sketchnote dari pelajaran ini](../../../../../translated_images/lesson-4.7344e074ea68fa545fd320b12dce36d72dd62d28c3b4596cb26cf315f434b98f.id.jpg)
+![Gambaran sketchnote dari pelajaran ini](../../../../../translated_images/id/lesson-4.7344e074ea68fa545fd320b12dce36d72dd62d28c3b4596cb26cf315f434b98f.jpg)
 
 > Sketchnote oleh [Nitya Narasimhan](https://github.com/nitya). Klik gambar untuk versi yang lebih besar.
 
@@ -46,7 +46,7 @@ Dalam pelajaran ini kita akan membahas:
 
 Ada sejumlah protokol komunikasi populer yang digunakan oleh perangkat IoT untuk berkomunikasi dengan Internet. Yang paling populer berbasis pada pesan publish/subscribe melalui semacam broker. Perangkat IoT terhubung ke broker dan mempublikasikan telemetri serta berlangganan perintah. Layanan cloud juga terhubung ke broker dan berlangganan semua pesan telemetri serta mempublikasikan perintah baik ke perangkat tertentu, atau ke grup perangkat.
 
-![Perangkat IoT terhubung ke broker dan mempublikasikan telemetri serta berlangganan perintah. Layanan cloud terhubung ke broker dan berlangganan semua telemetri serta mengirim perintah ke perangkat tertentu.](../../../../../translated_images/pub-sub.7c7ed43fe9fd15d4.id.png)
+![Perangkat IoT terhubung ke broker dan mempublikasikan telemetri serta berlangganan perintah. Layanan cloud terhubung ke broker dan berlangganan semua telemetri serta mengirim perintah ke perangkat tertentu.](../../../../../translated_images/id/pub-sub.7c7ed43fe9fd15d4.png)
 
 MQTT adalah protokol komunikasi paling populer untuk perangkat IoT dan akan dibahas dalam pelajaran ini. Protokol lainnya termasuk AMQP dan HTTP/HTTPS.
 
@@ -56,7 +56,7 @@ MQTT adalah protokol komunikasi paling populer untuk perangkat IoT dan akan diba
 
 MQTT memiliki satu broker dan beberapa klien. Semua klien terhubung ke broker, dan broker merutekan pesan ke klien yang relevan. Pesan dirutekan menggunakan topik bernama, bukan dikirim langsung ke klien individu. Klien dapat mempublikasikan ke topik, dan klien mana pun yang berlangganan topik tersebut akan menerima pesan.
 
-![Perangkat IoT mempublikasikan telemetri pada topik /telemetry, dan layanan cloud berlangganan topik tersebut](../../../../../translated_images/mqtt.cbf7f21d9adc3e17548b359444cc11bb4bf2010543e32ece9a47becf54438c23.id.png)
+![Perangkat IoT mempublikasikan telemetri pada topik /telemetry, dan layanan cloud berlangganan topik tersebut](../../../../../translated_images/id/mqtt.cbf7f21d9adc3e17548b359444cc11bb4bf2010543e32ece9a47becf54438c23.png)
 
 ✅ Lakukan riset. Jika Anda memiliki banyak perangkat IoT, bagaimana Anda dapat memastikan broker MQTT Anda dapat menangani semua pesan?
 
@@ -78,7 +78,7 @@ Daripada menangani kompleksitas pengaturan broker MQTT sebagai bagian dari tugas
 
 > 💁 Broker uji ini bersifat publik dan tidak aman. Siapa pun dapat mendengarkan apa yang Anda publikasikan, jadi tidak boleh digunakan dengan data apa pun yang perlu dirahasiakan.
 
-![Diagram alur tugas menunjukkan tingkat cahaya yang dibaca dan diperiksa, serta LED yang dikontrol](../../../../../translated_images/assignment-1-internet-flow.3256feab5f052fd273bf4e331157c574c2c3fa42e479836fc9c3586f41db35a5.id.png)
+![Diagram alur tugas menunjukkan tingkat cahaya yang dibaca dan diperiksa, serta LED yang dikontrol](../../../../../translated_images/id/assignment-1-internet-flow.3256feab5f052fd273bf4e331157c574c2c3fa42e479836fc9c3586f41db35a5.png)
 
 Ikuti langkah yang relevan di bawah ini untuk menghubungkan perangkat Anda ke broker MQTT:
 
@@ -115,7 +115,7 @@ Kata telemetri berasal dari akar kata Yunani yang berarti mengukur dari jarak ja
 
 Mari kita lihat kembali contoh termostat pintar dari Pelajaran 1.
 
-![Termostat yang terhubung ke Internet menggunakan beberapa sensor ruangan](../../../../../translated_images/telemetry.21e5d8b97649d2eb.id.png)
+![Termostat yang terhubung ke Internet menggunakan beberapa sensor ruangan](../../../../../translated_images/id/telemetry.21e5d8b97649d2eb.png)
 
 Termostat memiliki sensor suhu untuk mengumpulkan telemetri. Kemungkinan besar, termostat memiliki satu sensor suhu bawaan, dan mungkin terhubung ke beberapa sensor suhu eksternal melalui protokol nirkabel seperti [Bluetooth Low Energy](https://wikipedia.org/wiki/Bluetooth_Low_Energy) (BLE).
 
@@ -267,11 +267,11 @@ Tulis kode server.
 
 1. Ketika VS Code diluncurkan, itu akan mengaktifkan lingkungan virtual Python. Ini akan dilaporkan di bilah status bawah:
 
-    ![VS Code menunjukkan lingkungan virtual yang dipilih](../../../../../translated_images/vscode-virtual-env.8ba42e04c3d533cf.id.png)
+    ![VS Code menunjukkan lingkungan virtual yang dipilih](../../../../../translated_images/id/vscode-virtual-env.8ba42e04c3d533cf.png)
 
 1. Jika Terminal VS Code sudah berjalan saat VS Code dimulai, lingkungan virtual tidak akan diaktifkan di dalamnya. Cara termudah adalah dengan menutup terminal menggunakan tombol **Kill the active terminal instance**:
 
-    ![Tombol Kill the active terminal instance di VS Code](../../../../../translated_images/vscode-kill-terminal.1cc4de7c6f25ee08.id.png)
+    ![Tombol Kill the active terminal instance di VS Code](../../../../../translated_images/id/vscode-kill-terminal.1cc4de7c6f25ee08.png)
 
 1. Luncurkan Terminal VS Code baru dengan memilih *Terminal -> New Terminal*, atau menekan `` CTRL+` ``. Terminal baru akan memuat lingkungan virtual, dengan panggilan untuk mengaktifkannya muncul di terminal. Nama lingkungan virtual (`.venv`) juga akan ada di prompt:
 
@@ -359,7 +359,7 @@ Untuk mesin, Anda mungkin ingin menyimpan data, terutama jika data tersebut digu
 
 Desainer perangkat IoT juga harus mempertimbangkan apakah perangkat IoT dapat digunakan selama gangguan Internet atau kehilangan sinyal yang disebabkan oleh lokasi. Sebuah termostat pintar harus dapat membuat beberapa keputusan terbatas untuk mengontrol pemanasan jika tidak dapat mengirim telemetri ke cloud karena gangguan.
 
-[![Ferrari ini rusak karena seseorang mencoba memperbaruinya di bawah tanah di mana tidak ada sinyal seluler](../../../../../translated_images/bricked-car.dc38f8efadc6c59d76211f981a521efb300939283dee468f79503aae3ec67615.id.png)](https://twitter.com/internetofshit/status/1315736960082808832)
+[![Ferrari ini rusak karena seseorang mencoba memperbaruinya di bawah tanah di mana tidak ada sinyal seluler](../../../../../translated_images/id/bricked-car.dc38f8efadc6c59d76211f981a521efb300939283dee468f79503aae3ec67615.png)](https://twitter.com/internetofshit/status/1315736960082808832)
 
 Untuk MQTT menangani kehilangan konektivitas, kode perangkat dan server harus bertanggung jawab untuk memastikan pengiriman pesan jika diperlukan, misalnya dengan mewajibkan semua pesan yang dikirim dijawab oleh pesan tambahan pada topik balasan, dan jika tidak, pesan tersebut diantrekan secara manual untuk diputar ulang nanti.
 
@@ -367,7 +367,7 @@ Untuk MQTT menangani kehilangan konektivitas, kode perangkat dan server harus be
 
 Perintah adalah pesan yang dikirim oleh cloud ke perangkat, menginstruksikannya untuk melakukan sesuatu. Sebagian besar waktu ini melibatkan memberikan beberapa jenis output melalui aktuator, tetapi bisa juga berupa instruksi untuk perangkat itu sendiri, seperti untuk reboot, atau mengumpulkan telemetri tambahan dan mengembalikannya sebagai respons terhadap perintah.
 
-![Termostat yang terhubung ke Internet menerima perintah untuk menyalakan pemanas](../../../../../translated_images/commands.d6c06bbbb3a02cce95f2831a1c331daf6dedd4e470c4aa2b0ae54f332016e504.id.png)
+![Termostat yang terhubung ke Internet menerima perintah untuk menyalakan pemanas](../../../../../translated_images/id/commands.d6c06bbbb3a02cce95f2831a1c331daf6dedd4e470c4aa2b0ae54f332016e504.png)
 
 Sebuah termostat dapat menerima perintah dari cloud untuk menyalakan pemanas. Berdasarkan data telemetri dari semua sensor, jika layanan cloud memutuskan bahwa pemanas harus menyala, maka ia mengirimkan perintah yang relevan.
 

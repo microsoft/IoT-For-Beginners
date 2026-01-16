@@ -154,11 +154,11 @@ Sukurkite Python programą, kuri išveda `"Sveikas pasauli!"` į konsolę.
 
 1. Kai VS Code paleidžiamas, jis aktyvuoja Python virtualią aplinką. Pasirinkta virtuali aplinka bus rodoma apatiniame būsenos juostoje:
 
-    ![VS Code rodoma pasirinkta virtuali aplinka](../../../../../translated_images/vscode-virtual-env.8ba42e04c3d533cf.lt.png)
+    ![VS Code rodoma pasirinkta virtuali aplinka](../../../../../translated_images/lt/vscode-virtual-env.8ba42e04c3d533cf.png)
 
 1. Jei VS Code terminalas jau veikia, kai VS Code paleidžiamas, jis neturės aktyvuotos virtualios aplinkos. Lengviausias būdas yra uždaryti terminalą naudojant **Kill the active terminal instance** mygtuką:
 
-    ![VS Code Kill the active terminal instance mygtukas](../../../../../translated_images/vscode-kill-terminal.1cc4de7c6f25ee08.lt.png)
+    ![VS Code Kill the active terminal instance mygtukas](../../../../../translated_images/lt/vscode-kill-terminal.1cc4de7c6f25ee08.png)
 
     Galite pasakyti, ar terminalas turi aktyvuotą virtualią aplinką, nes terminalo raginime bus virtualios aplinkos pavadinimas kaip prefiksas. Pavyzdžiui, tai gali būti:
 
@@ -212,7 +212,7 @@ Kaip antrą „Sveikas pasauli!“ žingsnį, paleisite CounterFit programą ir 
 
     Programa pradės veikti ir atsidarys jūsų interneto naršyklėje:
 
-    ![Counter Fit programa veikia naršyklėje](../../../../../translated_images/counterfit-first-run.433326358b669b31d0e99c3513cb01bfbb13724d162c99cdcc8f51ecf5f9c779.lt.png)
+    ![Counter Fit programa veikia naršyklėje](../../../../../translated_images/lt/counterfit-first-run.433326358b669b31d0e99c3513cb01bfbb13724d162c99cdcc8f51ecf5f9c779.png)
 
     Ji bus pažymėta kaip *Disconnected*, o LED viršutiniame dešiniajame kampe bus išjungtas.
 
@@ -229,11 +229,11 @@ Kaip antrą „Sveikas pasauli!“ žingsnį, paleisite CounterFit programą ir 
 
 1. Turėsite paleisti naują VS Code terminalą pasirinkdami **Create a new integrated terminal** mygtuką. Taip yra todėl, kad CounterFit programa veikia dabartiniame terminale.
 
-    ![VS Code Create a new integrated terminal mygtukas](../../../../../translated_images/vscode-new-terminal.77db8fc0f9cd3182.lt.png)
+    ![VS Code Create a new integrated terminal mygtukas](../../../../../translated_images/lt/vscode-new-terminal.77db8fc0f9cd3182.png)
 
 1. Šiame naujame terminale paleiskite `app.py` failą kaip anksčiau. CounterFit būsena pasikeis į **Connected**, o LED užsidegs.
 
-    ![Counter Fit rodo kaip prijungtą](../../../../../translated_images/counterfit-connected.ed30b46d8f79b0921f3fc70be10366e596a89dca3f80c2224a9d9fc98fccf884.lt.png)
+    ![Counter Fit rodo kaip prijungtą](../../../../../translated_images/lt/counterfit-connected.ed30b46d8f79b0921f3fc70be10366e596a89dca3f80c2224a9d9fc98fccf884.png)
 
 > 💁 Šį kodą galite rasti [code/virtual-device](../../../../../1-getting-started/lessons/1-introduction-to-iot/code/virtual-device) aplanke.
 

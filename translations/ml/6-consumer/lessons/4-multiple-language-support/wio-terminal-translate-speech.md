@@ -114,7 +114,7 @@ CO_OP_TRANSLATOR_METADATA:
     >
     > ഉദാഹരണത്തിന്, നിങ്ങൾ LUIS ഇംഗ്ലീഷിൽ പരിശീലിപ്പിച്ചാലും, ഉപയോക്താവിന്റെ ഭാഷ ഫ്രഞ്ചായിരിക്കണമെങ്കിൽ, Bing Translate ഉപയോഗിച്ച് "set a 2 minute and 27 second timer" എന്ന വാചകം ഇംഗ്ലീഷിൽ നിന്ന് ഫ്രഞ്ചിലേക്ക് വിവർത്തനം ചെയ്ത് **Listen translation** ബട്ടൺ ഉപയോഗിച്ച് മൈക്രോഫോണിലേക്ക് സംസാരിപ്പിക്കാം.
     >
-    > ![Bing Translate ലിസ്റ്റൻ വിവർത്തനം ബട്ടണിൻ്റെ ചിത്രം](../../../../../translated_images/bing-translate.348aa796d6efe2a9.ml.png)
+    > ![Bing Translate ലിസ്റ്റൻ വിവർത്തനം ബട്ടണിൻ്റെ ചിത്രം](../../../../../translated_images/ml/bing-translate.348aa796d6efe2a9.png)
 
 1. `SPEECH_LOCATION` ന്റെ താഴെ വിവർത്തകൻ API കീയും ലൊക്കേഷനും ചേർക്കുക:
 

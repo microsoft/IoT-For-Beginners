@@ -43,11 +43,11 @@ CO_OP_TRANSLATOR_METADATA:
 
     1. ಪಿನ್ 0 ನಲ್ಲಿ *Soil Moisture* ಸೆನ್ಸರ್ ರಚಿಸಲು **Add** ಬಟನ್ ಚುನಸಿ
 
-    ![The soil moisture sensor settings](../../../../../translated_images/counterfit-create-soil-moisture-sensor.35266135a5e0ae68.kn.png)
+    ![The soil moisture sensor settings](../../../../../translated_images/kn/counterfit-create-soil-moisture-sensor.35266135a5e0ae68.png)
 
     ಮಣ್ಣು ತೇವಾಂಶ ಸೆನ್ಸರ್ ರಚನೆಗೊಂಡು ಸೆನ್ಸರ್ ಗಳ ಪಟ್ಟಿಯಲ್ಲಿ ಕಾಣಿಸಿಕೊಳ್ಳಲಿರುತ್ತದೆ.
 
-    ![The soil moisture sensor created](../../../../../translated_images/counterfit-soil-moisture-sensor.81742b2de0e9de60.kn.png)
+    ![The soil moisture sensor created](../../../../../translated_images/kn/counterfit-soil-moisture-sensor.81742b2de0e9de60.png)
 
 ## ಮಣ್ಣು ತೇವಾಂಶ ಸೆನ್ಸರ್ ಆಪ್ ಕಾರ್ಯಕ್ರಮ ಬರೆ
 

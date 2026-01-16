@@ -81,7 +81,7 @@ Kaip naudingą derinimo žingsnį, galite ne tik atspausdinti ribines dėžes, b
 
 1. Paleiskite programą, nukreipdami kamerą į lentynoje esančias atsargas. VS Code naršyklėje pamatysite failą `image.jpg`, ir galėsite jį pasirinkti, kad pamatytumėte ribines dėžes.
 
-    ![4 pomidorų pastos skardinės su ribinėmis dėžėmis aplink kiekvieną skardinę](../../../../../translated_images/rpi-stock-with-bounding-boxes.b5540e2ecb7cd49f.lt.jpg)
+    ![4 pomidorų pastos skardinės su ribinėmis dėžėmis aplink kiekvieną skardinę](../../../../../translated_images/lt/rpi-stock-with-bounding-boxes.b5540e2ecb7cd49f.jpg)
 
 ## Skaičiuokite atsargas
 

@@ -43,11 +43,11 @@ CounterFit ആപ്പിലേക്ക് ക്യാമറ ചേർക്�
 
     1. ക്യാമറ സൃഷ്ടിക്കാൻ **Add** ബട്ടൺ തിരഞ്ഞെടുക്കുക
 
-    ![The camera settings](../../../../../translated_images/counterfit-create-camera.a5de97f59c0bd3cb.ml.png)
+    ![The camera settings](../../../../../translated_images/ml/counterfit-create-camera.a5de97f59c0bd3cb.png)
 
     ക്യാമറ സൃഷ്ടിച്ച് സെൻസറുകളുടെ പട്ടികയിൽ കാണിക്കും.
 
-    ![The camera created](../../../../../translated_images/counterfit-camera.001ec52194c8ee5d.ml.png)
+    ![The camera created](../../../../../translated_images/ml/counterfit-camera.001ec52194c8ee5d.png)
 
 ## ക്യാമറ പ്രോഗ്രാം ചെയ്യുക
 
@@ -112,7 +112,7 @@ CounterFit ആപ്പിലേക്ക് ക്യാമറ ചേർക്�
 
 1. CounterFit-ൽ ക്യാമറ പിടിക്കുന്ന ചിത്രം കോൺഫിഗർ ചെയ്യുക. *Source* - *File* ആയി സജ്ജമാക്കി ഒരു ചിത്രം അപ്‌ലോഡ് ചെയ്യമെന്നോ, *Source* - *WebCam* ആയി സജ്ജമാക്കിയാൽ നിങ്ങളുടെ വെബ്‌ക്യാമിൽ നിന്നുള്ള ചിത്രങ്ങൾ പിടിക്കപ്പെടും. ചിത്രം തിരഞ്ഞെടുക്കുകയും വെബ്‌ക്യാം തിരഞ്ഞെടുക്കുകയും ചെയ്തതിന് ശേഷം **Set** ബട്ടൺ വലുതാക്കുക.
 
-    ![CounterFit with a file set as the image source, and a web cam set showing a person holding a banana in a preview of the webcam](../../../../../translated_images/counterfit-camera-options.eb3bd5150a8e7dff.ml.png)
+    ![CounterFit with a file set as the image source, and a web cam set showing a person holding a banana in a preview of the webcam](../../../../../translated_images/ml/counterfit-camera-options.eb3bd5150a8e7dff.png)
 
 1. ഒരു ചിത്രം പിടിച്ച് നിലവിലെ ഫോൾഡറിൽ `image.jpg` എന്ന പേരു നൽകി സേവ് ചെയ്യും. ഈ ഫയൽ VS Codeഫയൽ എക്‌സ്പ്ലോററിൽ കാണും. ചിത്രം കാണാൻ ഫയൽ തിരഞ്ഞെടുക്കുക. ചിത്രം തിരിവ് ആവശ്യമാണ് എങ്കിൽ `camera.rotation = 0` വരി വേണമെങ്കിൽ പുതുക്കി മറ്റൊരു ചിത്രം എടുത്തു നോക്കുക.
 

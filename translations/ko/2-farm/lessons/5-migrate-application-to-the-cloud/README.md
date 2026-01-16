@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # 애플리케이션 로직을 클라우드로 마이그레이션하기
 
-![이 강의의 스케치노트 개요](../../../../../translated_images/lesson-9.dfe99c8e891f48e179724520da9f5794392cf9a625079281ccdcbf09bd85e1b6.ko.jpg)
+![이 강의의 스케치노트 개요](../../../../../translated_images/ko/lesson-9.dfe99c8e891f48e179724520da9f5794392cf9a625079281ccdcbf09bd85e1b6.jpg)
 
 > 스케치노트: [Nitya Narasimhan](https://github.com/nitya). 이미지를 클릭하면 더 큰 버전을 볼 수 있습니다.
 
@@ -37,11 +37,11 @@ CO_OP_TRANSLATOR_METADATA:
 
 서버리스 또는 서버리스 컴퓨팅은 다양한 이벤트에 반응하여 클라우드에서 실행되는 작은 코드 블록을 만드는 것을 포함합니다. 이벤트가 발생하면 코드가 실행되며, 이벤트에 대한 데이터가 전달됩니다. 이러한 이벤트는 웹 요청, 큐에 추가된 메시지, 데이터베이스의 데이터 변경, 또는 IoT 디바이스가 IoT 서비스에 보낸 메시지 등 다양한 것에서 발생할 수 있습니다.
 
-![IoT 서비스에서 서버리스 서비스로 이벤트가 전송되고, 여러 함수가 동시에 처리되는 모습](../../../../../translated_images/iot-messages-to-serverless.0194da1cc0732bb7d0f823aed3fce54735c6b1ad3bf36089804d8aaefc0a774f.ko.png)
+![IoT 서비스에서 서버리스 서비스로 이벤트가 전송되고, 여러 함수가 동시에 처리되는 모습](../../../../../translated_images/ko/iot-messages-to-serverless.0194da1cc0732bb7d0f823aed3fce54735c6b1ad3bf36089804d8aaefc0a774f.png)
 
 > 💁 데이터베이스 트리거를 사용해본 적이 있다면, 이를 이벤트(예: 행 삽입)에 의해 트리거되는 코드와 같은 것으로 생각할 수 있습니다.
 
-![많은 이벤트가 동시에 전송될 때, 서버리스 서비스가 확장되어 모든 이벤트를 동시에 처리하는 모습](../../../../../translated_images/serverless-scaling.f8c769adf0413fd1.ko.png)
+![많은 이벤트가 동시에 전송될 때, 서버리스 서비스가 확장되어 모든 이벤트를 동시에 처리하는 모습](../../../../../translated_images/ko/serverless-scaling.f8c769adf0413fd1.png)
 
 코드는 이벤트가 발생할 때만 실행되며, 다른 시간에는 코드가 활성 상태로 유지되지 않습니다. 이벤트가 발생하면 코드가 로드되고 실행됩니다. 이는 서버리스가 매우 확장 가능하다는 것을 의미합니다. 많은 이벤트가 동시에 발생하면 클라우드 제공자가 필요한 만큼의 함수를 여러 서버에서 동시에 실행할 수 있습니다. 단점은 이벤트 간에 정보를 공유해야 할 경우, 메모리에 저장하는 대신 데이터베이스와 같은 곳에 저장해야 한다는 점입니다.
 
@@ -63,7 +63,7 @@ IoT 개발자로서 서버리스 모델은 이상적입니다. 클라우드에 �
 
 Microsoft의 서버리스 컴퓨팅 서비스는 Azure Functions입니다.
 
-![Azure Functions 로고](../../../../../translated_images/azure-functions-logo.1cfc8e3204c9c44aaf80fcf406fc8544d80d7f00f8d3e8ed6fed764563e17564.ko.png)
+![Azure Functions 로고](../../../../../translated_images/ko/azure-functions-logo.1cfc8e3204c9c44aaf80fcf406fc8544d80d7f00f8d3e8ed6fed764563e17564.png)
 
 아래 짧은 영상은 Azure Functions에 대한 개요를 제공합니다.
 
@@ -244,7 +244,7 @@ Azure Functions CLI를 사용하여 새 Functions 앱을 생성할 수 있습니
     VS Code. Initialize for optimal use with VS Code?
     ```
 
-    ![알림](../../../../../translated_images/vscode-azure-functions-init-notification.bd19b49229963edb.ko.png)
+    ![알림](../../../../../translated_images/ko/vscode-azure-functions-init-notification.bd19b49229963edb.png)
 
     이 알림에서 **Yes**를 선택합니다.
 

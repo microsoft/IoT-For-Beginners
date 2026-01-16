@@ -76,7 +76,7 @@ CO_OP_TRANSLATOR_METADATA:
 
     നിങ്ങൾ എടുത്ത ചിത്രവും ഈ മൂല്യങ്ങളും Custom Vision ന്റെ **Predictions** ടാബിൽ കാണാനാകും.
 
-    ![4 കാൻസ് ടൊമാറ്റോ പേസ്റ്റ് ഒരു ഷെൽഫിൽ, കണ്ടെത്തലുകളുടെ 35.8%, 33.5%, 25.7%, 16.6% പ്രവചനങ്ങൾ](../../../../../translated_images/custom-vision-stock-prediction.942266ab1bcca341.ml.png)
+    ![4 കാൻസ് ടൊമാറ്റോ പേസ്റ്റ് ഒരു ഷെൽഫിൽ, കണ്ടെത്തലുകളുടെ 35.8%, 33.5%, 25.7%, 16.6% പ്രവചനങ്ങൾ](../../../../../translated_images/ml/custom-vision-stock-prediction.942266ab1bcca341.png)
 
 > 💁 ഈ കോഡ് നിങ്ങൾക്ക് [code-detect/pi](../../../../../5-retail/lessons/2-check-stock-device/code-detect/pi) അല്ലെങ്കിൽ [code-detect/virtual-iot-device](../../../../../5-retail/lessons/2-check-stock-device/code-detect/virtual-iot-device) ഫോൾഡറിൽ കാണാം.
 

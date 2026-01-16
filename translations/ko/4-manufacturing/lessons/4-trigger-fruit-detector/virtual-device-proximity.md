@@ -45,11 +45,11 @@ CounterFit 앱에 거리 센서를 추가하세요.
 
     1. **Add** 버튼을 선택하여 거리 센서를 생성하세요.
 
-    ![거리 센서 설정](../../../../../translated_images/counterfit-create-distance-sensor.967c9fb98f27888d95920c9784d004c972490eb71f70397fe13bd70a79a879a3.ko.png)
+    ![거리 센서 설정](../../../../../translated_images/ko/counterfit-create-distance-sensor.967c9fb98f27888d95920c9784d004c972490eb71f70397fe13bd70a79a879a3.png)
 
     거리 센서가 생성되어 센서 목록에 나타납니다.
 
-    ![생성된 거리 센서](../../../../../translated_images/counterfit-distance-sensor.079eefeeea0b68afc36431ce8fcbe2f09a7e4916ed1cd5cb30e696db53bc18fa.ko.png)
+    ![생성된 거리 센서](../../../../../translated_images/ko/counterfit-distance-sensor.079eefeeea0b68afc36431ce8fcbe2f09a7e4916ed1cd5cb30e696db53bc18fa.png)
 
 ## 거리 센서 프로그래밍
 

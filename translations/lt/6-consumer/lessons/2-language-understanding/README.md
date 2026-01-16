@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Supraskite kalbą
 
-![Šios pamokos apžvalga piešinyje](../../../../../translated_images/lesson-22.6148ea28500d9e00c396aaa2649935fb6641362c8f03d8e5e90a676977ab01dd.lt.jpg)
+![Šios pamokos apžvalga piešinyje](../../../../../translated_images/lt/lesson-22.6148ea28500d9e00c396aaa2649935fb6641362c8f03d8e5e90a676977ab01dd.jpg)
 
 > Piešinys sukurtas [Nitya Narasimhan](https://github.com/nitya). Spustelėkite paveikslėlį, kad pamatytumėte didesnę versiją.
 
@@ -55,7 +55,7 @@ Kalbos supratimo modeliai yra dirbtinio intelekto modeliai, kurie yra apmokomi i
 
 ## Kalbos supratimo modelio kūrimas
 
-![LUIS logotipas](../../../../../translated_images/luis-logo.5cb4f3e88c020ee6df4f614e8831f4a4b6809a7247bf52085fb48d629ef9be52.lt.png)
+![LUIS logotipas](../../../../../translated_images/lt/luis-logo.5cb4f3e88c020ee6df4f614e8831f4a4b6809a7247bf52085fb48d629ef9be52.png)
 
 Galite kurti kalbos supratimo modelius naudodami LUIS – „Microsoft“ kalbos supratimo paslaugą, kuri yra „Cognitive Services“ dalis.
 
@@ -126,7 +126,7 @@ Kai esybės yra apibrėžtos, sukuriate ketinimus. Jie yra išmokomi modelio rem
 
 Tada nurodote LUIS, kurios sakinio dalys atitinka esybes:
 
-![Sakinys „nustatyk laikmatį 1 minutei ir 12 sekundžių“ suskaidytas į esybes](../../../../../translated_images/sentence-as-intent-entities.301401696f992259.lt.png)
+![Sakinys „nustatyk laikmatį 1 minutei ir 12 sekundžių“ suskaidytas į esybes](../../../../../translated_images/lt/sentence-as-intent-entities.301401696f992259.png)
 
 Sakinys `nustatyk laikmatį 1 minutei ir 12 sekundžių` turi ketinimą `nustatyti laikmatį`. Jame taip pat yra 2 esybės su 2 reikšmėmis kiekviena:
 
@@ -178,7 +178,7 @@ Instrukcijas, kaip naudoti LUIS portalą, galite rasti [Quickstart: Build your a
 
 1. Kai įvesite kiekvieną pavyzdį, LUIS pradės aptikti esybes ir pabrauks bei pažymės bet kurias rastas.
 
-    ![Pavyzdžiai su pabrauktais skaičiais ir laiko vienetais, kuriuos aptiko LUIS](../../../../../translated_images/luis-intent-examples.25716580b2d2723cf1bafdf277d015c7f046d8cfa20f27bddf3a0873ec45fab7.lt.png)
+    ![Pavyzdžiai su pabrauktais skaičiais ir laiko vienetais, kuriuos aptiko LUIS](../../../../../translated_images/lt/luis-intent-examples.25716580b2d2723cf1bafdf277d015c7f046d8cfa20f27bddf3a0873ec45fab7.png)
 
 ### Užduotis – apmokyti ir išbandyti modelį
 

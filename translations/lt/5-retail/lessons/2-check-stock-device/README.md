@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Patikrinkite atsargas naudodami IoT įrenginį
 
-![Pamokos apžvalga piešiniu](../../../../../translated_images/lesson-20.0211df9551a8abb300fc8fcf7dc2789468dea2eabe9202273ac077b0ba37f15e.lt.jpg)
+![Pamokos apžvalga piešiniu](../../../../../translated_images/lt/lesson-20.0211df9551a8abb300fc8fcf7dc2789468dea2eabe9202273ac077b0ba37f15e.jpg)
 
 > Piešinys sukurtas [Nitya Narasimhan](https://github.com/nitya). Spustelėkite paveikslėlį, kad pamatytumėte didesnę versiją.
 
@@ -39,7 +39,7 @@ Objektų atpažinimo modeliai gali būti naudojami atsargų tikrinimui – tiek 
 
 Pavyzdžiui, jei kamera nukreipta į lentyną, kurioje telpa 8 pomidorų pastos skardinės, o objektų atpažinimo modelis aptinka tik 7 skardines, viena skardinė trūksta ir ją reikia papildyti.
 
-![7 pomidorų pastos skardinės lentynoje, 4 viršutinėje eilėje, 3 apatinėje](../../../../../translated_images/stock-7-cans-tomato-paste.f86059cc573d7bec.lt.png)
+![7 pomidorų pastos skardinės lentynoje, 4 viršutinėje eilėje, 3 apatinėje](../../../../../translated_images/lt/stock-7-cans-tomato-paste.f86059cc573d7bec.png)
 
 Aukščiau pateiktame paveikslėlyje objektų atpažinimo modelis aptiko 7 pomidorų pastos skardines lentynoje, kurioje telpa 8 skardinės. IoT įrenginys ne tik gali siųsti pranešimą apie poreikį papildyti atsargas, bet ir nurodyti trūkstamos prekės vietą, kas yra svarbi informacija, jei naudojate robotus lentynoms papildyti.
 
@@ -51,7 +51,7 @@ Kartais lentynose gali būti netinkamos atsargos. Tai gali būti žmogaus klaida
 
 Objektų atpažinimo modeliai gali būti naudojami netikėtų prekių aptikimui, vėlgi įspėjant žmogų ar robotą, kad prekė būtų grąžinta, kai tik ji aptinkama.
 
-![Netinkama kūdikių kukurūzų skardinė pomidorų pastos lentynoje](../../../../../translated_images/stock-rogue-corn.be1f3ada8c457854.lt.png)
+![Netinkama kūdikių kukurūzų skardinė pomidorų pastos lentynoje](../../../../../translated_images/lt/stock-rogue-corn.be1f3ada8c457854.png)
 
 Aukščiau pateiktame paveikslėlyje kūdikių kukurūzų skardinė buvo padėta lentynoje šalia pomidorų pastos. Objektų atpažinimo modelis tai aptiko, leidžiant IoT įrenginiui pranešti žmogui ar robotui, kad skardinė būtų grąžinta į tinkamą vietą.
 
@@ -71,7 +71,7 @@ Iteracijos skelbiamos iš „Custom Vision“ portalo.
 
 1. Pasirinkite **Publish** mygtuką šiai iteracijai.
 
-    ![Skelbimo mygtukas](../../../../../translated_images/custom-vision-object-detector-publish-button.34ee379fc650ccb9856c3868d0003f413b9529f102fc73c37168c98d721cc293.lt.png)
+    ![Skelbimo mygtukas](../../../../../translated_images/lt/custom-vision-object-detector-publish-button.34ee379fc650ccb9856c3868d0003f413b9529f102fc73c37168c98d721cc293.png)
 
 1. *Publish Model* dialoge nustatykite *Prediction resource* į `stock-detector-prediction` resursą, kurį sukūrėte paskutinėje pamokoje. Palikite pavadinimą kaip `Iteration2` ir pasirinkite **Publish** mygtuką.
 
@@ -85,7 +85,7 @@ Iteracijos skelbiamos iš „Custom Vision“ portalo.
 
     Taip pat nukopijuokite *Prediction-Key* reikšmę. Tai yra saugus raktas, kurį reikia perduoti kviečiant modelį. Tik programos, kurios perduoda šį raktą, gali naudoti modelį, o kitos programos yra atmetamos.
 
-    ![Prognozavimo API dialogas, rodantis URL ir raktą](../../../../../translated_images/custom-vision-prediction-key-endpoint.30c569ffd0338864f319911f052d5e9b8c5066cb0800a26dd6f7ff5713130ad8.lt.png)
+    ![Prognozavimo API dialogas, rodantis URL ir raktą](../../../../../translated_images/lt/custom-vision-prediction-key-endpoint.30c569ffd0338864f319911f052d5e9b8c5066cb0800a26dd6f7ff5713130ad8.png)
 
 ✅ Kai paskelbiama nauja iteracija, ji turės kitokį pavadinimą. Kaip manote, kaip pakeistumėte iteraciją, kurią naudoja IoT įrenginys?
 
@@ -104,7 +104,7 @@ Naudojant objektų atpažinimo modelį, gaunate ne tik aptiktus objektus su jų 
 
 Prognozavimo rezultatai **Predictions** skirtuke „Custom Vision“ turi ribojimo dėžutes, kurios yra uždėtos ant vaizdo, kuris buvo pateiktas prognozavimui.
 
-![4 pomidorų pastos skardinės lentynoje su prognozėmis apie 4 aptikimus: 35.8%, 33.5%, 25.7% ir 16.6%](../../../../../translated_images/custom-vision-stock-prediction.942266ab1bcca3410ecdf23643b9f5f570cfab2345235074e24c51f285777613.lt.png)
+![4 pomidorų pastos skardinės lentynoje su prognozėmis apie 4 aptikimus: 35.8%, 33.5%, 25.7% ir 16.6%](../../../../../translated_images/lt/custom-vision-stock-prediction.942266ab1bcca3410ecdf23643b9f5f570cfab2345235074e24c51f285777613.png)
 
 Aukščiau pateiktame paveikslėlyje aptiktos 4 pomidorų pastos skardinės. Rezultatuose kiekvienam aptiktam objektui vaizde uždėta raudona kvadratinė ribojimo dėžutė, nurodanti aptikimo ribas.
 
@@ -112,7 +112,7 @@ Aukščiau pateiktame paveikslėlyje aptiktos 4 pomidorų pastos skardinės. Rez
 
 Ribojimo dėžutės apibrėžiamos 4 reikšmėmis – viršus, kairė, aukštis ir plotis. Šios reikšmės yra skalėje nuo 0 iki 1, nurodančios pozicijas kaip vaizdo dydžio procentą. Pradžia (0,0 pozicija) yra vaizdo viršutinis kairysis kampas, todėl viršutinė reikšmė yra atstumas nuo viršaus, o ribojimo dėžutės apačia yra viršus plius aukštis.
 
-![Ribojimo dėžutė aplink pomidorų pastos skardinę](../../../../../translated_images/bounding-box.1420a7ea0d3d15f71e1ffb5cf4b2271d184fac051f990abc541975168d163684.lt.png)
+![Ribojimo dėžutė aplink pomidorų pastos skardinę](../../../../../translated_images/lt/bounding-box.1420a7ea0d3d15f71e1ffb5cf4b2271d184fac051f990abc541975168d163684.png)
 
 Aukščiau pateiktas vaizdas yra 600 pikselių pločio ir 800 pikselių aukščio. Ribojimo dėžutė prasideda 320 pikselių žemyn, suteikiant viršutinę koordinatę 0.4 (800 x 0.4 = 320). Nuo kairės ribojimo dėžutė prasideda 240 pikselių į šoną, suteikiant kairę koordinatę 0.4 (600 x 0.4 = 240). Ribojimo dėžutės aukštis yra 240 pikselių, suteikiant aukščio reikšmę 0.3 (800 x 0.3 = 240). Ribojimo dėžutės plotis yra 120 pikselių, suteikiant pločio reikšmę 0.2 (600 x 0.2 = 120).
 
@@ -127,7 +127,7 @@ Naudojant procentines reikšmes nuo 0 iki 1, nesvarbu, kokio dydžio vaizdas yra
 
 Ribojimo dėžutes galima naudoti kartu su tikimybėmis, kad įvertintumėte aptikimo tikslumą. Pavyzdžiui, objektų atpažinimo modelis gali aptikti kelis objektus, kurie persidengia, pavyzdžiui, aptikti vieną skardinę kitoje. Jūsų kodas galėtų peržiūrėti ribojimo dėžutes, suprasti, kad tai neįmanoma, ir ignoruoti bet kokius objektus, kurie reikšmingai persidengia su kitais objektais.
 
-![Dvi ribojimo dėžutės persidengia pomidorų pastos skardinę](../../../../../translated_images/overlap-object-detection.d431e03cae75072a2760430eca7f2c5fdd43045bfd72dadcbf12711f7cd6c2ae.lt.png)
+![Dvi ribojimo dėžutės persidengia pomidorų pastos skardinę](../../../../../translated_images/lt/overlap-object-detection.d431e03cae75072a2760430eca7f2c5fdd43045bfd72dadcbf12711f7cd6c2ae.png)
 
 Pavyzdyje aukščiau viena ribojimo dėžutė nurodo prognozuotą pomidorų pastos skardinę su 78.3% tikimybe. Antra ribojimo dėžutė yra šiek tiek mažesnė ir yra pirmosios ribojimo dėžutės viduje su 64.3% tikimybe. Jūsų kodas gali patikrinti ribojimo dėžutes, pamatyti, kad jos visiškai persidengia, ir ignoruoti mažesnę tikimybę, nes nėra galimybės, kad viena skardinė būtų kitos viduje.
 

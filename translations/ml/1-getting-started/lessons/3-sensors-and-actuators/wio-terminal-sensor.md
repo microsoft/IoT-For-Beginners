@@ -17,7 +17,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 ലൈറ്റ് സെൻസർ Wio ടെർമിനലിൽ നിർമിച്ചിരിക്കുകയാണ്, പിന്നിലെ വഴങ്ങിയ പ്ലാസ്റ്റിക് ജനാല വഴി കാണാൻ കഴിയും.
 
-![The light sensor on the back of the Wio Terminal](../../../../../translated_images/wio-light-sensor.b1f529f3c95f5165.ml.png)
+![The light sensor on the back of the Wio Terminal](../../../../../translated_images/ml/wio-light-sensor.b1f529f3c95f5165.png)
 
 ## ലൈറ്റ് സെൻസർ പ്രോഗ്രാമുചെയ്യുക
 

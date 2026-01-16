@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Prediksi Pertumbuhan Tanaman dengan IoT
 
-![Gambaran sketchnote dari pelajaran ini](../../../../../translated_images/lesson-5.42b234299279d263143148b88ab4583861a32ddb03110c6c1120e41bb88b2592.id.jpg)
+![Gambaran sketchnote dari pelajaran ini](../../../../../translated_images/id/lesson-5.42b234299279d263143148b88ab4583861a32ddb03110c6c1120e41bb88b2592.jpg)
 
 > Sketchnote oleh [Nitya Narasimhan](https://github.com/nitya). Klik gambar untuk versi yang lebih besar.
 
@@ -65,7 +65,7 @@ Setiap spesies tanaman memiliki nilai yang berbeda untuk suhu dasar, optimal, da
 
 ✅ Lakukan penelitian. Untuk tanaman apa pun yang Anda miliki di taman, sekolah, atau taman lokal, coba cari tahu suhu dasarnya.
 
-![Grafik yang menunjukkan tingkat pertumbuhan meningkat seiring suhu meningkat, lalu menurun saat suhu terlalu tinggi](../../../../../translated_images/plant-growth-temp-graph.c6d69c9478e6ca83.id.png)
+![Grafik yang menunjukkan tingkat pertumbuhan meningkat seiring suhu meningkat, lalu menurun saat suhu terlalu tinggi](../../../../../translated_images/id/plant-growth-temp-graph.c6d69c9478e6ca83.png)
 
 Grafik di atas menunjukkan contoh grafik tingkat pertumbuhan terhadap suhu. Hingga suhu dasar, tidak ada pertumbuhan. Tingkat pertumbuhan meningkat hingga suhu optimal, lalu menurun setelah mencapai puncaknya. Pada suhu maksimum, pertumbuhan berhenti.
 
@@ -99,7 +99,7 @@ Hari derajat pertumbuhan, atau GDD dihitung per hari sebagai suhu rata-rata dala
 
 Rumus lengkap untuk GDD sedikit rumit, tetapi ada persamaan yang disederhanakan yang sering digunakan sebagai pendekatan yang baik:
 
-![GDD = T max + T min dibagi 2, semua dikurangi T base](../../../../../translated_images/gdd-calculation.79b3660f9c5757aa92dc2dd2cdde75344e2d2c1565c4b3151640f7887edc0275.id.png)
+![GDD = T max + T min dibagi 2, semua dikurangi T base](../../../../../translated_images/id/gdd-calculation.79b3660f9c5757aa92dc2dd2cdde75344e2d2c1565c4b3151640f7887edc0275.png)
 
 * **GDD** - ini adalah jumlah hari derajat pertumbuhan
 * **T max** - ini adalah suhu maksimum harian dalam derajat Celsius
@@ -127,7 +127,7 @@ Memasukkan angka-angka ini ke dalam perhitungan kita:
 
 Ini memberikan perhitungan:
 
-![GDD = 16 + 12 dibagi 2, semua dikurangi 10, memberikan jawaban 4](../../../../../translated_images/gdd-calculation-corn.64a58b7a7afcd0dfd46ff733996d939f17f4f3feac9f0d1c632be3523e51ebd9.id.png)
+![GDD = 16 + 12 dibagi 2, semua dikurangi 10, memberikan jawaban 4](../../../../../translated_images/id/gdd-calculation-corn.64a58b7a7afcd0dfd46ff733996d939f17f4f3feac9f0d1c632be3523e51ebd9.png)
 
 Jagung menerima 4 GDD pada hari itu. Dengan asumsi varietas jagung yang membutuhkan 800 GDD untuk matang, ia akan membutuhkan 796 GDD lagi untuk mencapai kematangan.
 
@@ -141,7 +141,7 @@ Hal ini memiliki dampak besar pada tenaga kerja di ladang besar, dan berisiko pe
 
 Dengan mengumpulkan data suhu menggunakan perangkat IoT, seorang petani dapat diberi tahu secara otomatis ketika tanaman mendekati kematangan. Arsitektur tipikal untuk ini adalah perangkat IoT mengukur suhu, lalu mengirimkan data telemetri ini melalui Internet menggunakan sesuatu seperti MQTT. Kode server kemudian mendengarkan data ini dan menyimpannya di suatu tempat, seperti ke dalam database. Ini berarti data dapat dianalisis nanti, seperti pekerjaan malam untuk menghitung GDD untuk hari itu, menjumlahkan GDD untuk setiap tanaman sejauh ini, dan memberi peringatan jika tanaman mendekati kematangan.
 
-![Data telemetri dikirim ke server dan kemudian disimpan ke database](../../../../../translated_images/save-telemetry-database.ddc9c6bea0c5ba39.id.png)
+![Data telemetri dikirim ke server dan kemudian disimpan ke database](../../../../../translated_images/id/save-telemetry-database.ddc9c6bea0c5ba39.png)
 
 Kode server juga dapat menambahkan informasi tambahan ke data. Misalnya, perangkat IoT dapat mengirimkan pengenal untuk menunjukkan perangkat mana yang digunakan, dan kode server dapat menggunakan ini untuk mencari lokasi perangkat, serta tanaman apa yang sedang dipantau. Kode server juga dapat menambahkan data dasar seperti waktu saat ini karena beberapa perangkat IoT tidak memiliki perangkat keras yang diperlukan untuk melacak waktu yang akurat, atau memerlukan kode tambahan untuk membaca waktu saat ini melalui Internet.
 
@@ -228,7 +228,7 @@ Kode ini membuka file CSV, lalu menambahkan baris baru di akhir. Baris tersebut 
 
     
 > 💁 Jika Anda menggunakan Perangkat IoT Virtual, pilih kotak centang acak dan tetapkan rentang untuk menghindari mendapatkan suhu yang sama setiap kali nilai suhu dikembalikan.
-    ![Pilih kotak centang acak dan tetapkan rentang](../../../../../translated_images/select-the-random-checkbox-and-set-a-range.32cf4bc7c12e797f.id.png) 
+    ![Pilih kotak centang acak dan tetapkan rentang](../../../../../translated_images/id/select-the-random-checkbox-and-set-a-range.32cf4bc7c12e797f.png) 
 
     > 💁 Jika Anda ingin menjalankan ini selama satu hari penuh, maka Anda perlu memastikan komputer tempat kode server Anda berjalan tidak akan tidur, baik dengan mengubah pengaturan daya Anda, atau menjalankan sesuatu seperti [skrip Python untuk menjaga sistem tetap aktif](https://github.com/jaqsparow/keep-system-active).
     
@@ -248,7 +248,7 @@ Langkah-langkah untuk melakukannya secara manual adalah:
 
 Sebagai contoh, jika suhu tertinggi untuk hari itu adalah 25°C, dan terendah adalah 12°C:
 
-![GDD = 25 + 12 dibagi 2, lalu kurangi 10 dari hasilnya sehingga menghasilkan 8.5](../../../../../translated_images/gdd-calculation-strawberries.59f57db94b22adb8ff6efb951ace33af104a1c6ccca3ffb0f8169c14cb160c90.id.png)
+![GDD = 25 + 12 dibagi 2, lalu kurangi 10 dari hasilnya sehingga menghasilkan 8.5](../../../../../translated_images/id/gdd-calculation-strawberries.59f57db94b22adb8ff6efb951ace33af104a1c6ccca3ffb0f8169c14cb160c90.png)
 
 * 25 + 12 = 37
 * 37 / 2 = 18.5

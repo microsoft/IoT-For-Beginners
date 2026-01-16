@@ -25,13 +25,13 @@ CO_OP_TRANSLATOR_METADATA:
 
 光センサーを接続します。
 
-![Grove光センサー](../../../../../translated_images/grove-light-sensor.b8127b7c434e632d6bcdb57587a14e9ef69a268a22df95d08628f62b8fa5505c.ja.png)
+![Grove光センサー](../../../../../translated_images/ja/grove-light-sensor.b8127b7c434e632d6bcdb57587a14e9ef69a268a22df95d08628f62b8fa5505c.png)
 
 1. Groveケーブルの片方の端を光センサーモジュールのソケットに差し込みます。このケーブルは一方向にしか差し込めません。
 
 1. Raspberry Piの電源を切った状態で、Groveケーブルのもう片方の端をPiに取り付けられたGrove Base hatの**A0**と記されたアナログソケットに接続します。このソケットはGPIOピンの隣のソケット列の右から2番目にあります。
 
-![ソケットA0に接続されたGrove光センサー](../../../../../translated_images/pi-light-sensor.66cc1e31fa48cd7d5f23400d4b2119aa41508275cb7c778053a7923b4e972d7e.ja.png)
+![ソケットA0に接続されたGrove光センサー](../../../../../translated_images/ja/pi-light-sensor.66cc1e31fa48cd7d5f23400d4b2119aa41508275cb7c778053a7923b4e972d7e.png)
 
 ## 光センサーをプログラムする
 

@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Imposta un timer e fornisci feedback vocale
 
-![Una panoramica illustrata di questa lezione](../../../../../translated_images/lesson-23.f38483e1d4df4828990d3f02d60e46c978b075d384ae7cb4f7bab738e107c850.it.jpg)
+![Una panoramica illustrata di questa lezione](../../../../../translated_images/it/lesson-23.f38483e1d4df4828990d3f02d60e46c978b075d384ae7cb4f7bab738e107c850.jpg)
 
 > Illustrazione di [Nitya Narasimhan](https://github.com/nitya). Clicca sull'immagine per una versione più grande.
 
@@ -37,7 +37,7 @@ In questa lezione tratteremo:
 
 La conversione da testo a parlato, come suggerisce il nome, è il processo di trasformazione del testo in audio che contiene le parole pronunciate. Il principio di base è suddividere le parole del testo nei loro suoni costituenti (noti come fonemi) e assemblare l'audio per quei suoni, utilizzando audio pre-registrato o generato da modelli di intelligenza artificiale.
 
-![Le tre fasi dei sistemi tipici di conversione da testo a parlato](../../../../../translated_images/tts-overview.193843cf3f5ee09f.it.png)
+![Le tre fasi dei sistemi tipici di conversione da testo a parlato](../../../../../translated_images/it/tts-overview.193843cf3f5ee09f.png)
 
 I sistemi di conversione da testo a parlato generalmente hanno 3 fasi:
 

@@ -27,13 +27,13 @@ Grove GPS 센서를 라즈베리 파이에 연결할 수 있습니다.
 
 GPS 센서를 연결하세요.
 
-![Grove GPS 센서](../../../../../translated_images/grove-gps-sensor.247943bf69b03f0d1820ef6ed10c587f9b650e8db55b936851c92412180bd3e2.ko.png)
+![Grove GPS 센서](../../../../../translated_images/ko/grove-gps-sensor.247943bf69b03f0d1820ef6ed10c587f9b650e8db55b936851c92412180bd3e2.png)
 
 1. Grove 케이블의 한쪽 끝을 GPS 센서의 소켓에 삽입하세요. 케이블은 한 방향으로만 들어갑니다.
 
 1. 라즈베리 파이의 전원이 꺼진 상태에서 Grove 케이블의 다른 끝을 Pi에 부착된 Grove Base Hat의 **UART**로 표시된 UART 소켓에 연결하세요. 이 소켓은 SD 카드 슬롯 쪽, USB 포트와 이더넷 소켓 반대쪽에 있는 중간 줄에 위치합니다.
 
-    ![UART 소켓에 연결된 Grove GPS 센서](../../../../../translated_images/pi-gps-sensor.1f99ee2b2f6528915047ec78967bd362e0e4ee0ed594368a3837b9cf9cdaca64.ko.png)
+    ![UART 소켓에 연결된 Grove GPS 센서](../../../../../translated_images/ko/pi-gps-sensor.1f99ee2b2f6528915047ec78967bd362e0e4ee0ed594368a3837b9cf9cdaca64.png)
 
 1. GPS 센서를 배치하여 연결된 안테나가 하늘을 볼 수 있도록 하세요 - 이상적으로는 열린 창 옆이나 야외에 배치하세요. 안테나에 장애물이 없을수록 신호가 더 잘 수신됩니다.
 

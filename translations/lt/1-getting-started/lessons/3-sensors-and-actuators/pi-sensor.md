@@ -25,13 +25,13 @@ Grove šviesos jutiklis, naudojamas šviesos lygiams aptikti, turi būti prijung
 
 Prijunkite šviesos jutiklį.
 
-![Grove šviesos jutiklis](../../../../../translated_images/grove-light-sensor.b8127b7c434e632d6bcdb57587a14e9ef69a268a22df95d08628f62b8fa5505c.lt.png)
+![Grove šviesos jutiklis](../../../../../translated_images/lt/grove-light-sensor.b8127b7c434e632d6bcdb57587a14e9ef69a268a22df95d08628f62b8fa5505c.png)
 
 1. Įstatykite vieną Grove kabelio galą į lizdą ant šviesos jutiklio modulio. Jis įsistatys tik viena kryptimi.
 
 1. Išjungus Raspberry Pi, prijunkite kitą Grove kabelio galą prie analoginio lizdo, pažymėto **A0**, esančio ant Grove Base hat, prijungto prie Pi. Šis lizdas yra antras iš dešinės, eilėje šalia GPIO pinų.
 
-![Grove šviesos jutiklis prijungtas prie A0 lizdo](../../../../../translated_images/pi-light-sensor.66cc1e31fa48cd7d5f23400d4b2119aa41508275cb7c778053a7923b4e972d7e.lt.png)
+![Grove šviesos jutiklis prijungtas prie A0 lizdo](../../../../../translated_images/lt/pi-light-sensor.66cc1e31fa48cd7d5f23400d4b2119aa41508275cb7c778053a7923b4e972d7e.png)
 
 ## Užprogramuokite šviesos jutiklį
 

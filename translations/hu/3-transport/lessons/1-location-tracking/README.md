@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Helymeghatározás
 
-![A leckéről készült sketchnote áttekintése](../../../../../translated_images/lesson-11.9fddbac4b664c6d50ab7ac9bb32f1fc3f945f03760e72f7f43938073762fb017.hu.jpg)
+![A leckéről készült sketchnote áttekintése](../../../../../translated_images/hu/lesson-11.9fddbac4b664c6d50ab7ac9bb32f1fc3f945f03760e72f7f43938073762fb017.jpg)
 
 > Sketchnote készítette: [Nitya Narasimhan](https://github.com/nitya). Kattints a képre a nagyobb verzióért.
 
@@ -72,13 +72,13 @@ A Föld egy gömb – egy háromdimenziós kör. Emiatt a pontokat úgy határoz
 
 > 💁 Senki sem tudja pontosan, miért osztják a köröket 360 fokra. A [fok (szög) Wikipedia oldala](https://wikipedia.org/wiki/Degree_(angle)) néhány lehetséges okot ismertet.
 
-![Szélességi vonalak: 90° az Északi-sarknál, 45° félúton az Északi-sark és az Egyenlítő között, 0° az Egyenlítőnél, -45° félúton az Egyenlítő és a Déli-sark között, és -90° a Déli-sarknál](../../../../../translated_images/latitude-lines.11d8d91dfb2014a57437272d7db7fd6607243098e8685f06e0c5f1ec984cb7eb.hu.png)
+![Szélességi vonalak: 90° az Északi-sarknál, 45° félúton az Északi-sark és az Egyenlítő között, 0° az Egyenlítőnél, -45° félúton az Egyenlítő és a Déli-sark között, és -90° a Déli-sarknál](../../../../../translated_images/hu/latitude-lines.11d8d91dfb2014a57437272d7db7fd6607243098e8685f06e0c5f1ec984cb7eb.png)
 
 A szélességet az Egyenlítővel párhuzamosan futó vonalakkal mérik, amelyek az Északi és Déli féltekét 90°-ra osztják. Az Egyenlítő 0°-nál van, az Északi-sark 90°, más néven 90° Észak, a Déli-sark pedig -90°, vagy 90° Dél.
 
 A hosszúságot a kelet-nyugati irányú fokok számával mérik. A hosszúság 0°-os kiindulópontját *Prime Meridian*-nek nevezik, amelyet 1884-ben határoztak meg, hogy az Északi-sarktól a Déli-sarkig húzódó vonal legyen, amely áthalad a [Brit Királyi Obszervatóriumon Greenwichben, Angliában](https://wikipedia.org/wiki/Royal_Observatory,_Greenwich).
 
-![Hosszúsági vonalak: -180° a Prime Meridian nyugati oldalán, 0° a Prime Meridianon, 180° a Prime Meridian keleti oldalán](../../../../../translated_images/longitude-meridians.ab4ef1c91c064586b0185a3c8d39e585903696c6a7d28c098a93a629cddb5d20.hu.png)
+![Hosszúsági vonalak: -180° a Prime Meridian nyugati oldalán, 0° a Prime Meridianon, 180° a Prime Meridian keleti oldalán](../../../../../translated_images/hu/longitude-meridians.ab4ef1c91c064586b0185a3c8d39e585903696c6a7d28c098a93a629cddb5d20.png)
 
 > 🎓 A meridián egy képzeletbeli egyenes vonal, amely az Északi-sarktól a Déli-sarkig húzódik, félkört alkotva.
 
@@ -109,7 +109,7 @@ Egy pont koordinátái mindig `szélesség, hosszúság` formában vannak megadv
 * Szélessége: 47.6423109 (47.6423109 fokkal északra az Egyenlítőtől)
 * Hosszúsága: -122.1390293 (122.1390293 fokkal nyugatra a Prime Meridian-tól).
 
-![A Microsoft Campus a 47.6423109,-122.117198 koordinátán](../../../../../translated_images/microsoft-gps-location-world.a321d481b010f6adfcca139b2ba0adc53b79f58a540495b8e2ce7f779ea64bfe.hu.png)
+![A Microsoft Campus a 47.6423109,-122.117198 koordinátán](../../../../../translated_images/hu/microsoft-gps-location-world.a321d481b010f6adfcca139b2ba0adc53b79f58a540495b8e2ce7f779ea64bfe.png)
 
 ## Globális Helymeghatározó Rendszerek (GPS)
 
@@ -121,7 +121,7 @@ A GPS rendszerek úgy működnek, hogy több műhold jelet küld a műholdak akt
 
 > 💁 A GPS érzékelőknek antennára van szükségük a rádióhullámok érzékeléséhez. A teherautókba és autókba beépített GPS antennák úgy vannak elhelyezve, hogy jó jelet kapjanak, általában a szélvédőn vagy a tetőn. Ha külön GPS rendszert használsz, például okostelefont vagy IoT eszközt, akkor biztosítanod kell, hogy a GPS rendszerbe vagy telefonba beépített antenna tiszta rálátással rendelkezzen az égboltra, például a szélvédőn legyen elhelyezve.
 
-![Az érzékelő és több műhold közötti távolság ismeretében a helyzet kiszámítható](../../../../../translated_images/gps-satellites.04acf1148fe25fbf1586bc2e8ba698e8d79b79a50c36824b38417dd13372b90f.hu.png)
+![Az érzékelő és több műhold közötti távolság ismeretében a helyzet kiszámítható](../../../../../translated_images/hu/gps-satellites.04acf1148fe25fbf1586bc2e8ba698e8d79b79a50c36824b38417dd13372b90f.png)
 
 A GPS műholdak a Föld körül keringenek, nem rögzített ponton az érzékelő felett, így a helyadatok a tengerszint feletti magasságot is tartalmazzák a szélesség és hosszúság mellett.
 

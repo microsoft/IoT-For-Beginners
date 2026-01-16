@@ -217,7 +217,7 @@ HTTPS 엔드포인트와 상호작용할 때, 클라이언트 코드는 접근�
 
     촬영된 이미지를 확인할 수 있으며, Custom Vision의 **Predictions** 탭에서 이러한 값을 볼 수 있습니다.
 
-    ![Custom Vision에서 익은 상태가 56.8%, 익지 않은 상태가 43.1%로 예측된 바나나](../../../../../translated_images/custom-vision-banana-prediction.30cdff4e1d72db5d9a0be0193790a47c2b387da034e12dc1314dd57ca2131b59.ko.png)
+    ![Custom Vision에서 익은 상태가 56.8%, 익지 않은 상태가 43.1%로 예측된 바나나](../../../../../translated_images/ko/custom-vision-banana-prediction.30cdff4e1d72db5d9a0be0193790a47c2b387da034e12dc1314dd57ca2131b59.png)
 
 > 💁 이 코드는 [code-classify/wio-terminal](../../../../../4-manufacturing/lessons/2-check-fruit-from-device/code-classify/wio-terminal) 폴더에서 찾을 수 있습니다.
 

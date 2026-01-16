@@ -45,11 +45,11 @@ LED ಅನ್ನು CounterFit ಅಪ್ಲಿಕೇಶನ್‌ಗೆ ಸೇರ
 
     1. LED ಅನ್ನು Pin 5 ರಲ್ಲಿ ಸೃಷ್ಟಿಸಲು **Add** ಬಟನ್ ಆಯ್ಕೆಮಾಡಿ
 
-    ![The LED settings](../../../../../translated_images/counterfit-create-led.ba9db1c9b8c622a6.kn.png)
+    ![The LED settings](../../../../../translated_images/kn/counterfit-create-led.ba9db1c9b8c622a6.png)
 
     LED ಸೃಷ್ಟಿಯಾಗುತ್ತದೆ ಮತ್ತು ಅದನ್ನು ಕ್ರಿಯಾಪ್ರಣಾಳಿಕೆ ಪಟ್ಟಿ ಹೋಲಿಕೆಯ ಚಿತ್ರಣದಲ್ಲಿ ಕಾಣಿಸಿಕೊಡುತ್ತದೆ.
 
-    ![The LED created](../../../../../translated_images/counterfit-led.c0ab02de6d256ad8.kn.png)
+    ![The LED created](../../../../../translated_images/kn/counterfit-led.c0ab02de6d256ad8.png)
 
     LED ಸೃಷ್ಟಿಯಾದ ಮೇಲೆ, *Color* ಆಯ್ಕೆಕಾರವನ್ನು ಬಳಸಿಕೊಂಡು ಬಣ್ಣವನ್ನು ಬದಲಾಯಿಸಬಹುದು. ಆಯ್ಕೆ ಮಾಡಿದ ನಂತರ ಬಣ್ಣ ಬದಲಿಸಲು **Set** ಬಟನ್ ಆಯ್ಕೆಮಾಡಿ.
 

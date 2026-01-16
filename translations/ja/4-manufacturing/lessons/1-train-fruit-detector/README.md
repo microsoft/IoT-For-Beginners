@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # 果物の品質検出器を訓練する
 
-![このレッスンの概要を示すスケッチノート](../../../../../translated_images/lesson-15.843d21afdc6fb2bba70cd9db7b7d2f91598859fafda2078b0bdc44954194b6c0.ja.jpg)
+![このレッスンの概要を示すスケッチノート](../../../../../translated_images/ja/lesson-15.843d21afdc6fb2bba70cd9db7b7d2f91598859fafda2078b0bdc44954194b6c0.jpg)
 
 > スケッチノート作成者：[Nitya Narasimhan](https://github.com/nitya)。画像をクリックすると拡大版が表示されます。
 
@@ -47,7 +47,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 自動収穫の普及により、農産物の仕分けは収穫から工場へと移行しました。食品は長いコンベアベルトで運ばれ、チームが品質基準を満たさないものを取り除く作業を行います。機械による収穫でコストは削減されましたが、食品を手作業で仕分けるコストは依然として存在しました。
 
-![赤いトマトが検出されるとそのまま進み、緑のトマトが検出されるとレバーで廃棄箱に弾かれる](../../../../../translated_images/optical-tomato-sorting.61aa134bdda4e5b1bfb16a212c1e35a6ef0c426cbb8b1c975f79d7bfbf48d068.ja.png)
+![赤いトマトが検出されるとそのまま進み、緑のトマトが検出されるとレバーで廃棄箱に弾かれる](../../../../../translated_images/ja/optical-tomato-sorting.61aa134bdda4e5b1bfb16a212c1e35a6ef0c426cbb8b1c975f79d7bfbf48d068.png)
 
 次の進化は、収穫機や加工工場に組み込まれた機械を使用して仕分けを行うことでした。これらの機械の第一世代は、光学センサーを使用して色を検出し、アクチュエーターを制御して緑のトマトをレバーや空気の噴射で廃棄箱に押し込み、赤いトマトをコンベアベルトのネットワークにそのまま流す仕組みでした。
 
@@ -61,7 +61,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 従来のプログラミングでは、データを取得し、そのデータにアルゴリズムを適用して出力を得ます。例えば、前回のプロジェクトでは、GPS座標とジオフェンスを取得し、Azure Mapsが提供するアルゴリズムを適用して、そのポイントがジオフェンス内か外かの結果を得ました。より多くのデータを入力すれば、より多くの出力が得られます。
 
-![従来の開発では入力とアルゴリズムから出力を得る。機械学習では入力データと出力データを使ってモデルを訓練し、このモデルが新しい入力データから新しい出力を生成する](../../../../../translated_images/traditional-vs-ml.5c20c169621fa539.ja.png)
+![従来の開発では入力とアルゴリズムから出力を得る。機械学習では入力データと出力データを使ってモデルを訓練し、このモデルが新しい入力データから新しい出力を生成する](../../../../../translated_images/ja/traditional-vs-ml.5c20c169621fa539.png)
 
 機械学習ではこれが逆になります。データと既知の出力から始め、機械学習アルゴリズムがデータから学習します。その後、この訓練されたアルゴリズム（*機械学習モデル*または*モデル*と呼ばれる）を使用して新しいデータを入力し、新しい出力を得ることができます。
 
@@ -71,7 +71,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 > 🎓 MLモデルの結果は*予測*と呼ばれます。
 
-![2本のバナナ。熟したバナナは99.7%熟している、0.3%未熟という予測。未熟なバナナは1.4%熟している、98.6%未熟という予測](../../../../../translated_images/bananas-ripe-vs-unripe-predictions.8d0e2034014aa50ece4e4589e724b142da0681f35470fe3db3f7d51240f69c85.ja.png)
+![2本のバナナ。熟したバナナは99.7%熟している、0.3%未熟という予測。未熟なバナナは1.4%熟している、98.6%未熟という予測](../../../../../translated_images/ja/bananas-ripe-vs-unripe-predictions.8d0e2034014aa50ece4e4589e724b142da0681f35470fe3db3f7d51240f69c85.png)
 
 MLモデルは二択の答えを出すのではなく、確率を提供します。例えば、モデルがバナナの写真を与えられた場合、`熟している`が99.7%、`未熟`が0.3%と予測するかもしれません。コードは最も高い予測を選び、そのバナナが熟していると判断します。
 
@@ -87,7 +87,7 @@ MLモデルは二択の答えを出すのではなく、確率を提供します
 
 一度幅広い画像で訓練された画像分類器は、形状、色、パターンを認識する能力に優れています。転移学習により、画像の部分を認識する能力を活用して、新しい画像を認識することができます。
 
-![形状を認識できれば、それらを組み合わせてボートや猫を作ることができる](../../../../../translated_images/shapes-to-images.1a309f0ea88dd66f.ja.png)
+![形状を認識できれば、それらを組み合わせてボートや猫を作ることができる](../../../../../translated_images/ja/shapes-to-images.1a309f0ea88dd66f.png)
 
 これは、子供向けの形状絵本のようなものです。半円、長方形、三角形を認識できれば、それらの配置によって帆船や猫を認識できるようになります。画像分類器は形状を認識し、転移学習によって帆船や猫、あるいは熟したバナナを構成する組み合わせを学びます。
 
@@ -99,7 +99,7 @@ MLモデルは二択の答えを出すのではなく、確率を提供します
 
 Custom Visionは、画像分類器を訓練するためのクラウドベースのツールです。少量の画像を使用して分類器を訓練することができます。画像をWebポータル、Web API、またはSDKを通じてアップロードし、各画像にその分類を示す*タグ*を付けます。その後、モデルを訓練し、どれだけうまく機能するかをテストします。モデルに満足したら、Web APIやSDKを通じてアクセス可能なバージョンを公開できます。
 
-![Azure Custom Visionのロゴ](../../../../../translated_images/custom-vision-logo.d3d4e7c8a87ec9daf825e72e210576c3cbf60312577be7a139e22dd97ab7f1e6.ja.png)
+![Azure Custom Visionのロゴ](../../../../../translated_images/ja/custom-vision-logo.d3d4e7c8a87ec9daf825e72e210576c3cbf60312577be7a139e22dd97ab7f1e6.png)
 
 > 💁 Custom Visionモデルは、分類ごとに最低5枚の画像で訓練できますが、多い方が良いです。少なくとも30枚の画像があると、より良い結果が得られます。
 
@@ -155,7 +155,7 @@ Custom Visionを使用するには、Azure CLIを使用してAzureに2つのCogn
 
     プロジェクトを作成する際、先ほど作成した`fruit-quality-detector-training`リソースを使用してください。*分類*プロジェクトタイプ、*マルチクラス*分類タイプ、*食品*ドメインを選択します。
 
-    ![Custom Visionプロジェクトの設定。名前はfruit-quality-detector、説明なし、リソースはfruit-quality-detector-training、プロジェクトタイプは分類、分類タイプはマルチクラス、ドメインは食品](../../../../../translated_images/custom-vision-create-project.cf46325b92d8b131089f6647cf5e07b664cb77850e106d66e3c057b6b69756c6.ja.png)
+    ![Custom Visionプロジェクトの設定。名前はfruit-quality-detector、説明なし、リソースはfruit-quality-detector-training、プロジェクトタイプは分類、分類タイプはマルチクラス、ドメインは食品](../../../../../translated_images/ja/custom-vision-create-project.cf46325b92d8b131089f6647cf5e07b664cb77850e106d66e3c057b6b69756c6.png)
 
 ✅ 画像分類器のCustom Vision UIを探索する時間を取ってみてください。
 
@@ -173,7 +173,7 @@ Custom Visionを使用するには、Azure CLIを使用してAzureに2つのCogn
 
     * 熟したバナナ2本を使用し、それぞれを異なる角度から撮影して少なくとも7枚の写真を撮ります（5枚はトレーニング用、2枚はテスト用）。理想的にはもっと多く撮影してください。
 
-        ![異なるバナナ2本の写真](../../../../../translated_images/banana-training-images.530eb203346d73bc23b8b990fb4609470bf4ff7c942ccc13d4cfffeed9be1ad4.ja.png)
+        ![異なるバナナ2本の写真](../../../../../translated_images/ja/banana-training-images.530eb203346d73bc23b8b990fb4609470bf4ff7c942ccc13d4cfffeed9be1ad4.png)
 
     * 同じプロセスを未熟なバナナ2本でも繰り返します。
 
@@ -183,7 +183,7 @@ Custom Visionを使用するには、Azure CLIを使用してAzureに2つのCogn
 
 1. [Microsoft Docsの分類器クイックスタートの画像アップロードとタグ付けセクション](https://docs.microsoft.com/azure/cognitive-services/custom-vision-service/getting-started-build-a-classifier?WT.mc_id=academic-17441-jabenn#upload-and-tag-images)に従い、トレーニング画像をアップロードします。熟した果物には`ripe`、未熟な果物には`unripe`というタグを付けます。
 
-    ![熟したバナナと未熟なバナナの写真をアップロードするダイアログ](../../../../../translated_images/image-upload-bananas.0751639f3815e0ec42bdbc6254d1e4357a185834d1ae10c9948a0e7d6d336695.ja.png)
+    ![熟したバナナと未熟なバナナの写真をアップロードするダイアログ](../../../../../translated_images/ja/image-upload-bananas.0751639f3815e0ec42bdbc6254d1e4357a185834d1ae10c9948a0e7d6d336695.png)
 
 1. [Microsoft Docsの分類器クイックスタートの分類器をトレーニングするセクション](https://docs.microsoft.com/azure/cognitive-services/custom-vision-service/getting-started-build-a-classifier?WT.mc_id=academic-17441-jabenn#train-the-classifier)に従い、アップロードした画像で画像分類器をトレーニングします。
 
@@ -201,7 +201,7 @@ Custom Visionを使用するには、Azure CLIを使用してAzureに2つのCogn
 
 1. [Microsoft Docsのモデルをテストするドキュメント](https://docs.microsoft.com/azure/cognitive-services/custom-vision-service/test-your-model?WT.mc_id=academic-17441-jabenn#test-your-model)に従い、画像分類器をテストします。以前に作成したテスト画像を使用し、トレーニングに使用した画像は使用しないでください。
 
-    ![未熟なバナナが98.9%の確率で未熟、1.1%の確率で熟していると予測された結果](../../../../../translated_images/banana-unripe-quick-test-prediction.dae9b5e1c4ef7c64886422438850ea14f0be6ac918c217ea3b255c685abfabe7.ja.png)
+    ![未熟なバナナが98.9%の確率で未熟、1.1%の確率で熟していると予測された結果](../../../../../translated_images/ja/banana-unripe-quick-test-prediction.dae9b5e1c4ef7c64886422438850ea14f0be6ac918c217ea3b255c685abfabe7.png)
 
 1. 利用可能なすべてのテスト画像を試し、確率を観察してください。
 

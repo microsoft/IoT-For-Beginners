@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # 從物聯網設備檢查水果品質
 
-![本課程的手繪筆記概述](../../../../../translated_images/lesson-16.215daf18b00631fbdfd64c6fc2dc6044dff5d544288825d8076f9fb83d964c23.mo.jpg)
+![本課程的手繪筆記概述](../../../../../translated_images/mo/lesson-16.215daf18b00631fbdfd64c6fc2dc6044dff5d544288825d8076f9fb83d964c23.jpg)
 
 > 手繪筆記由 [Nitya Narasimhan](https://github.com/nitya) 提供。點擊圖片查看更大版本。
 
@@ -35,7 +35,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 相機感測器，顧名思義，是可以連接到物聯網設備的相機。它們可以拍攝靜態影像或捕捉串流視頻。有些會返回原始影像數據，其他則會將影像數據壓縮成如 JPEG 或 PNG 的影像文件。通常，與物聯網設備配合使用的相機比你習慣的相機要小得多，解析度也較低，但你也可以獲得解析度高的相機，媲美高端手機。你可以選擇各種可互換鏡頭、多相機設置、紅外熱成像相機或紫外線相機。
 
-![場景中的光線通過鏡頭並聚焦在 CMOS 感測器上](../../../../../translated_images/cmos-sensor.75f9cd74decb137149a4c9ea825251a4549497d67c0ae2776159e6102bb53aa9.mo.png)
+![場景中的光線通過鏡頭並聚焦在 CMOS 感測器上](../../../../../translated_images/mo/cmos-sensor.75f9cd74decb137149a4c9ea825251a4549497d67c0ae2776159e6102bb53aa9.png)
 
 大多數相機感測器使用影像感測器，其中每個像素都是一個光電二極管。鏡頭將影像聚焦到影像感測器上，數千或數百萬個光電二極管檢測落在每個二極管上的光線，並將其記錄為像素數據。
 
@@ -83,7 +83,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 1. 為該迭代選擇 **Publish** 按鈕。
 
-    ![發布按鈕](../../../../../translated_images/custom-vision-publish-button.b7174e1977b0c33b8b72d4e5b1326c779e0af196f3849d09985ee2d7d5493a39.mo.png)
+    ![發布按鈕](../../../../../translated_images/mo/custom-vision-publish-button.b7174e1977b0c33b8b72d4e5b1326c779e0af196f3849d09985ee2d7d5493a39.png)
 
 1. 在 *Publish Model* 對話框中，將 *Prediction resource* 設置為你在上一課中創建的 `fruit-quality-detector-prediction` 資源。名稱保持為 `Iteration2`，然後選擇 **Publish** 按鈕。
 
@@ -97,7 +97,7 @@ CO_OP_TRANSLATOR_METADATA:
 
     同時複製 *Prediction-Key* 值。這是一個安全密鑰，當你調用模型時必須傳遞。只有傳遞此密鑰的應用可以使用模型，其他應用將被拒絕。
 
-    ![預測 API 對話框顯示 URL 和密鑰](../../../../../translated_images/custom-vision-prediction-key-endpoint.30c569ffd0338864f319911f052d5e9b8c5066cb0800a26dd6f7ff5713130ad8.mo.png)
+    ![預測 API 對話框顯示 URL 和密鑰](../../../../../translated_images/mo/custom-vision-prediction-key-endpoint.30c569ffd0338864f319911f052d5e9b8c5066cb0800a26dd6f7ff5713130ad8.png)
 
 ✅ 當新迭代發布時，它會有不同的名稱。你認為如何更改物聯網設備使用的迭代？
 
@@ -118,7 +118,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 要獲得影像分類器的最佳結果，你需要使用與預測影像盡可能相似的影像來訓練模型。例如，如果你使用手機相機捕捉影像進行訓練，影像的質量、清晰度和顏色會與連接到物聯網設備的相機不同。
 
-![兩張香蕉圖片，一張是物聯網設備拍攝的低解析度影像，光線較差；另一張是手機拍攝的高解析度影像，光線良好](../../../../../translated_images/banana-picture-compare.174df164dc326a42cf7fb051a7497e6113c620e91552d92ca914220305d47d9a.mo.png)
+![兩張香蕉圖片，一張是物聯網設備拍攝的低解析度影像，光線較差；另一張是手機拍攝的高解析度影像，光線良好](../../../../../translated_images/mo/banana-picture-compare.174df164dc326a42cf7fb051a7497e6113c620e91552d92ca914220305d47d9a.png)
 
 在上圖中，左邊的香蕉圖片是使用 Raspberry Pi 相機拍攝的，右邊的圖片是使用 iPhone 在相同位置拍攝的同一香蕉。可以明顯看到質量差異——iPhone 的圖片更清晰，顏色更亮，對比度更高。
 

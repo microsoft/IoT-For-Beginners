@@ -104,7 +104,7 @@ CO_OP_TRANSLATOR_METADATA:
 
     你將能看到拍攝的影像，以及這些值在 Custom Vision 的 **Predictions** 標籤中。
 
-    ![架子上的4罐番茄醬，預測結果分別為35.8%、33.5%、25.7%和16.6%](../../../../../translated_images/custom-vision-stock-prediction.942266ab1bcca3410ecdf23643b9f5f570cfab2345235074e24c51f285777613.mo.png)
+    ![架子上的4罐番茄醬，預測結果分別為35.8%、33.5%、25.7%和16.6%](../../../../../translated_images/mo/custom-vision-stock-prediction.942266ab1bcca3410ecdf23643b9f5f570cfab2345235074e24c51f285777613.png)
 
 > 💁 你可以在 [code-detect/wio-terminal](../../../../../5-retail/lessons/2-check-stock-device/code-detect/wio-terminal) 資料夾中找到這段程式碼。
 

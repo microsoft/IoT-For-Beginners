@@ -43,11 +43,11 @@ CounterFit 앱에 토양 수분 센서를 추가하세요.
 
     1. **Add** 버튼을 선택하여 Pin 0에 *Soil Moisture* 센서를 생성하세요.
 
-    ![토양 수분 센서 설정](../../../../../translated_images/counterfit-create-soil-moisture-sensor.35266135a5e0ae68b29a684d7db0d2933a8098b2307d197f7c71577b724603aa.ko.png)
+    ![토양 수분 센서 설정](../../../../../translated_images/ko/counterfit-create-soil-moisture-sensor.35266135a5e0ae68b29a684d7db0d2933a8098b2307d197f7c71577b724603aa.png)
 
     토양 수분 센서가 생성되어 센서 목록에 나타납니다.
 
-    ![생성된 토양 수분 센서](../../../../../translated_images/counterfit-soil-moisture-sensor.81742b2de0e9de60a3b3b9a2ff8ecc686d428eb6d71820f27a693be26e5aceee.ko.png)
+    ![생성된 토양 수분 센서](../../../../../translated_images/ko/counterfit-soil-moisture-sensor.81742b2de0e9de60a3b3b9a2ff8ecc686d428eb6d71820f27a693be26e5aceee.png)
 
 ## 토양 수분 센서 앱 프로그래밍
 

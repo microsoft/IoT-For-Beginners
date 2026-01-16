@@ -27,13 +27,13 @@ Sensor GPS Grove dapat dihubungkan ke Wio Terminal.
 
 Hubungkan sensor GPS.
 
-![Sensor GPS Grove](../../../../../translated_images/grove-gps-sensor.247943bf69b03f0d1820ef6ed10c587f9b650e8db55b936851c92412180bd3e2.id.png)
+![Sensor GPS Grove](../../../../../translated_images/id/grove-gps-sensor.247943bf69b03f0d1820ef6ed10c587f9b650e8db55b936851c92412180bd3e2.png)
 
 1. Masukkan salah satu ujung kabel Grove ke soket pada sensor GPS. Kabel ini hanya dapat dimasukkan dengan satu arah.
 
 1. Dengan Wio Terminal tidak terhubung ke komputer atau sumber daya lainnya, hubungkan ujung lain kabel Grove ke soket Grove di sisi kiri Wio Terminal saat Anda melihat layar. Soket ini adalah yang paling dekat dengan tombol daya.
 
-    ![Sensor GPS Grove terhubung ke soket kiri](../../../../../translated_images/wio-gps-sensor.19fd52b81ce58095.id.png)
+    ![Sensor GPS Grove terhubung ke soket kiri](../../../../../translated_images/id/wio-gps-sensor.19fd52b81ce58095.png)
 
 1. Posisikan sensor GPS sehingga antena yang terpasang memiliki visibilitas ke langit - idealnya di dekat jendela yang terbuka atau di luar ruangan. Sinyal akan lebih jelas jika tidak ada penghalang di sekitar antena.
 

@@ -29,13 +29,13 @@ A Grove Time of Flight érzékelő csatlakoztatható a Raspberry Pi-hez.
 
 Csatlakoztasd a Time of Flight érzékelőt.
 
-![Egy Grove Time of Flight érzékelő](../../../../../translated_images/grove-time-of-flight-sensor.d82ff2165bfded9f485de54d8d07195a6270a602696825fca19f629ddfe94e86.hu.png)
+![Egy Grove Time of Flight érzékelő](../../../../../translated_images/hu/grove-time-of-flight-sensor.d82ff2165bfded9f485de54d8d07195a6270a602696825fca19f629ddfe94e86.png)
 
 1. Helyezd be a Grove kábel egyik végét a Time of Flight érzékelő aljzatába. Csak egyféleképpen illeszkedik.
 
 1. Kapcsold ki a Raspberry Pi-t, majd csatlakoztasd a Grove kábel másik végét a Grove Base hat-on található egyik **I²C** aljzathoz, amely a Pi-hez van csatlakoztatva. Ezek az aljzatok az alsó sorban találhatók, a GPIO pinekkel ellentétes oldalon, a kamera kábel nyílása mellett.
 
-![A Grove Time of Flight érzékelő csatlakoztatva az I²C aljzathoz](../../../../../translated_images/pi-time-of-flight-sensor.58c8dc04eb3bfb57.hu.png)
+![A Grove Time of Flight érzékelő csatlakoztatva az I²C aljzathoz](../../../../../translated_images/hu/pi-time-of-flight-sensor.58c8dc04eb3bfb57.png)
 
 ## Programozd a Time of Flight érzékelőt
 
@@ -106,7 +106,7 @@ Programozd az eszközt.
 
     A távolságmérő az érzékelő hátoldalán található, ezért ügyelj arra, hogy a megfelelő oldalt használd a távolság méréséhez.
 
-    ![A Time of Flight érzékelő hátoldalán lévő távolságmérő egy banánra irányítva](../../../../../translated_images/time-of-flight-banana.079921ad8b1496e4.hu.png)
+    ![A Time of Flight érzékelő hátoldalán lévő távolságmérő egy banánra irányítva](../../../../../translated_images/hu/time-of-flight-banana.079921ad8b1496e4.png)
 
 > 💁 Ezt a kódot megtalálod a [code-proximity/pi](../../../../../4-manufacturing/lessons/4-trigger-fruit-detector/code-proximity/pi) mappában.
 

@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Controlla la qualità della frutta con un dispositivo IoT
 
-![Una panoramica illustrata di questa lezione](../../../../../translated_images/lesson-16.215daf18b00631fbdfd64c6fc2dc6044dff5d544288825d8076f9fb83d964c23.it.jpg)
+![Una panoramica illustrata di questa lezione](../../../../../translated_images/it/lesson-16.215daf18b00631fbdfd64c6fc2dc6044dff5d544288825d8076f9fb83d964c23.jpg)
 
 > Sketchnote di [Nitya Narasimhan](https://github.com/nitya). Clicca sull'immagine per una versione più grande.
 
@@ -35,7 +35,7 @@ In questa lezione tratteremo:
 
 I sensori delle fotocamere, come suggerisce il nome, sono fotocamere che puoi collegare al tuo dispositivo IoT. Possono scattare immagini statiche o catturare video in streaming. Alcuni restituiscono dati grezzi dell'immagine, altri comprimono i dati in un file immagine come JPEG o PNG. Di solito, le fotocamere che funzionano con dispositivi IoT sono molto più piccole e a bassa risoluzione rispetto a quelle a cui potresti essere abituato, ma puoi ottenere fotocamere ad alta risoluzione che competono con i migliori telefoni. Puoi trovare una vasta gamma di obiettivi intercambiabili, configurazioni con più fotocamere, fotocamere termiche a infrarossi o fotocamere UV.
 
-![La luce di una scena passa attraverso un obiettivo e viene focalizzata su un sensore CMOS](../../../../../translated_images/cmos-sensor.75f9cd74decb137149a4c9ea825251a4549497d67c0ae2776159e6102bb53aa9.it.png)
+![La luce di una scena passa attraverso un obiettivo e viene focalizzata su un sensore CMOS](../../../../../translated_images/it/cmos-sensor.75f9cd74decb137149a4c9ea825251a4549497d67c0ae2776159e6102bb53aa9.png)
 
 La maggior parte dei sensori delle fotocamere utilizza sensori di immagine in cui ogni pixel è un fotodiodo. Un obiettivo focalizza l'immagine sul sensore di immagine, e migliaia o milioni di fotodiodi rilevano la luce che cade su ciascuno di essi, registrandola come dati pixel.
 
@@ -83,7 +83,7 @@ Le iterazioni vengono pubblicate dal portale Custom Vision.
 
 1. Seleziona il pulsante **Publish** per l'iterazione.
 
-    ![Il pulsante di pubblicazione](../../../../../translated_images/custom-vision-publish-button.b7174e1977b0c33b8b72d4e5b1326c779e0af196f3849d09985ee2d7d5493a39.it.png)
+    ![Il pulsante di pubblicazione](../../../../../translated_images/it/custom-vision-publish-button.b7174e1977b0c33b8b72d4e5b1326c779e0af196f3849d09985ee2d7d5493a39.png)
 
 1. Nella finestra di dialogo *Publish Model*, imposta la *Prediction resource* sulla risorsa `fruit-quality-detector-prediction` che hai creato nella lezione precedente. Lascia il nome come `Iteration2` e seleziona il pulsante **Publish**.
 
@@ -97,7 +97,7 @@ Le iterazioni vengono pubblicate dal portale Custom Vision.
 
     Prendi anche una copia del valore *Prediction-Key*. Questa è una chiave sicura che devi passare quando chiami il modello. Solo le applicazioni che passano questa chiave sono autorizzate a utilizzare il modello, tutte le altre applicazioni vengono rifiutate.
 
-    ![La finestra di dialogo dell'API di previsione che mostra l'URL e la chiave](../../../../../translated_images/custom-vision-prediction-key-endpoint.30c569ffd0338864f319911f052d5e9b8c5066cb0800a26dd6f7ff5713130ad8.it.png)
+    ![La finestra di dialogo dell'API di previsione che mostra l'URL e la chiave](../../../../../translated_images/it/custom-vision-prediction-key-endpoint.30c569ffd0338864f319911f052d5e9b8c5066cb0800a26dd6f7ff5713130ad8.png)
 
 ✅ Quando viene pubblicata una nuova iterazione, avrà un nome diverso. Come pensi che potresti cambiare l'iterazione che un dispositivo IoT sta utilizzando?
 
@@ -118,7 +118,7 @@ Potresti scoprire che i risultati che ottieni utilizzando la fotocamera collegat
 
 Per ottenere i migliori risultati da un classificatore di immagini, è necessario addestrare il modello con immagini il più simili possibile a quelle utilizzate per le previsioni. Se, ad esempio, hai utilizzato la fotocamera del tuo telefono per catturare immagini per l'addestramento, la qualità dell'immagine, la nitidezza e il colore saranno diversi rispetto a una fotocamera collegata a un dispositivo IoT.
 
-![2 immagini di banane, una a bassa risoluzione con scarsa illuminazione da un dispositivo IoT e una ad alta risoluzione con buona illuminazione da un telefono](../../../../../translated_images/banana-picture-compare.174df164dc326a42cf7fb051a7497e6113c620e91552d92ca914220305d47d9a.it.png)
+![2 immagini di banane, una a bassa risoluzione con scarsa illuminazione da un dispositivo IoT e una ad alta risoluzione con buona illuminazione da un telefono](../../../../../translated_images/it/banana-picture-compare.174df164dc326a42cf7fb051a7497e6113c620e91552d92ca914220305d47d9a.png)
 
 Nell'immagine sopra, la foto della banana a sinistra è stata scattata utilizzando una fotocamera Raspberry Pi, quella a destra è stata scattata della stessa banana nello stesso luogo utilizzando un iPhone. C'è una differenza evidente nella qualità: la foto dell'iPhone è più nitida, con colori più brillanti e maggiore contrasto.
 

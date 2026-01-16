@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 ## 使用物聯網預測植物生長
 
-![本課程概述的手繪筆記](../../../../../translated_images/lesson-5.42b234299279d263143148b88ab4583861a32ddb03110c6c1120e41bb88b2592.mo.jpg)
+![本課程概述的手繪筆記](../../../../../translated_images/mo/lesson-5.42b234299279d263143148b88ab4583861a32ddb03110c6c1120e41bb88b2592.jpg)
 
 > 手繪筆記由 [Nitya Narasimhan](https://github.com/nitya) 提供。點擊圖片查看更大版本。
 
@@ -65,7 +65,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 ✅ 做一些研究。看看您花園、學校或當地公園中的植物，是否能找到它們的基礎溫度。
 
-![一個顯示溫度與生長率關係的圖表，溫度升高時生長率上升，溫度過高時生長率下降](../../../../../translated_images/plant-growth-temp-graph.c6d69c9478e6ca83.mo.png)
+![一個顯示溫度與生長率關係的圖表，溫度升高時生長率上升，溫度過高時生長率下降](../../../../../translated_images/mo/plant-growth-temp-graph.c6d69c9478e6ca83.png)
 
 上圖顯示了一個生長率與溫度的關係示例圖表。在基礎溫度以下，植物不會生長。生長率在最佳溫度時達到峰值，然後在超過此溫度後下降。在最高溫度時，生長停止。
 
@@ -99,7 +99,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 完整的 GDD 計算公式稍微複雜，但通常使用簡化公式作為良好的近似值：
 
-![GDD = T max + T min 除以 2，減去 T base](../../../../../translated_images/gdd-calculation.79b3660f9c5757aa92dc2dd2cdde75344e2d2c1565c4b3151640f7887edc0275.mo.png)
+![GDD = T max + T min 除以 2，減去 T base](../../../../../translated_images/mo/gdd-calculation.79b3660f9c5757aa92dc2dd2cdde75344e2d2c1565c4b3151640f7887edc0275.png)
 
 * **GDD** - 生長度日的數量
 * **T max** - 每日最高溫度（攝氏度）
@@ -127,7 +127,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 計算結果為：
 
-![GDD = 16 + 12 除以 2，減去 10，結果為 4](../../../../../translated_images/gdd-calculation-corn.64a58b7a7afcd0dfd46ff733996d939f17f4f3feac9f0d1c632be3523e51ebd9.mo.png)
+![GDD = 16 + 12 除以 2，減去 10，結果為 4](../../../../../translated_images/mo/gdd-calculation-corn.64a58b7a7afcd0dfd46ff733996d939f17f4f3feac9f0d1c632be3523e51ebd9.png)
 
 玉米在那一天獲得了 4 GDD。假設一種需要 800 GDD 才能成熟的玉米品種，它還需要 796 GDD 才能達到成熟。
 
@@ -141,7 +141,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 通過使用物聯網設備收集溫度數據，農民可以在植物接近成熟時自動收到通知。典型的架構是物聯網設備測量溫度，然後使用類似 MQTT 的技術通過互聯網發布這些遙測數據。服務器代碼會監聽這些數據並將其保存到某個地方，例如數據庫。這樣，數據可以稍後進行分析，例如每天晚上計算當天的 GDD，累計每種作物的 GDD，並在植物接近成熟時發出警報。
 
-![遙測數據被發送到服務器並保存到數據庫](../../../../../translated_images/save-telemetry-database.ddc9c6bea0c5ba39.mo.png)
+![遙測數據被發送到服務器並保存到數據庫](../../../../../translated_images/mo/save-telemetry-database.ddc9c6bea0c5ba39.png)
 
 服務器代碼還可以增強數據，添加額外的信息。例如，物聯網設備可以發布一個標識符來指示是哪個設備，服務器代碼可以使用此標識符查找設備的位置以及它正在監測的作物。它還可以添加基本數據，例如當前時間，因為某些物聯網設備沒有必要的硬件來準確跟蹤時間，或者需要額外的代碼通過互聯網讀取當前時間。
 
@@ -228,7 +228,7 @@ CSV 文件將有兩列——*日期* 和 *溫度*。*日期* 列設置為服務�
 
     
 > 💁 如果你使用的是虛擬 IoT 裝置，請勾選隨機選項並設定一個範圍，以避免每次返回的溫度值都相同。
-    ![勾選隨機選項並設定範圍](../../../../../translated_images/select-the-random-checkbox-and-set-a-range.32cf4bc7c12e797f.mo.png) 
+    ![勾選隨機選項並設定範圍](../../../../../translated_images/mo/select-the-random-checkbox-and-set-a-range.32cf4bc7c12e797f.png) 
 
     > 💁 如果你想執行一整天，請確保執行伺服器程式的電腦不會進入睡眠模式，可以透過更改電源設定，或者執行類似 [這個保持系統活躍的 Python 腳本](https://github.com/jaqsparow/keep-system-active) 來實現。
     
@@ -248,7 +248,7 @@ CSV 文件將有兩列——*日期* 和 *溫度*。*日期* 列設置為服務�
 
 例如，如果當天的最高溫度是 25°C，最低溫度是 12°C：
 
-![GDD = 25 + 12 除以 2，然後從結果中減去 10，得到 8.5](../../../../../translated_images/gdd-calculation-strawberries.59f57db94b22adb8ff6efb951ace33af104a1c6ccca3ffb0f8169c14cb160c90.mo.png)
+![GDD = 25 + 12 除以 2，然後從結果中減去 10，得到 8.5](../../../../../translated_images/mo/gdd-calculation-strawberries.59f57db94b22adb8ff6efb951ace33af104a1c6ccca3ffb0f8169c14cb160c90.png)
 
 * 25 + 12 = 37
 * 37 / 2 = 18.5

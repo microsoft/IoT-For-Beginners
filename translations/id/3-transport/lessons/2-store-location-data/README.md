@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Data Lokasi Toko
 
-![Gambaran sketchnote dari pelajaran ini](../../../../../translated_images/lesson-12.ca7f53039712a3ec14ad6474d8445361c84adab643edc53fa6269b77895606bb.id.jpg)
+![Gambaran sketchnote dari pelajaran ini](../../../../../translated_images/id/lesson-12.ca7f53039712a3ec14ad6474d8445361c84adab643edc53fa6269b77895606bb.jpg)
 
 > Sketchnote oleh [Nitya Narasimhan](https://github.com/nitya). Klik gambar untuk versi yang lebih besar.
 
@@ -66,7 +66,7 @@ Database adalah layanan yang memungkinkan Anda menyimpan dan melakukan kueri dat
 
 Database pertama adalah Sistem Manajemen Database Relasional (RDBMS), atau database relasional. Database ini juga dikenal sebagai database SQL karena menggunakan Structured Query Language (SQL) untuk menambahkan, menghapus, memperbarui, atau melakukan kueri data. Database ini terdiri dari skema - serangkaian tabel data yang terdefinisi dengan baik, mirip dengan spreadsheet. Setiap tabel memiliki beberapa kolom bernama. Ketika Anda memasukkan data, Anda menambahkan baris ke tabel, menempatkan nilai ke dalam setiap kolom. Ini menjaga data dalam struktur yang sangat kaku - meskipun Anda dapat membiarkan kolom kosong, jika Anda ingin menambahkan kolom baru, Anda harus melakukannya di database, mengisi nilai untuk baris yang sudah ada. Database ini bersifat relasional - di mana satu tabel dapat memiliki hubungan dengan tabel lain.
 
-![Database relasional dengan ID tabel Pengguna yang berhubungan dengan kolom ID pengguna di tabel pembelian, dan ID tabel produk yang berhubungan dengan ID produk di tabel pembelian](../../../../../translated_images/sql-database.be160f12bfccefd3.id.png)
+![Database relasional dengan ID tabel Pengguna yang berhubungan dengan kolom ID pengguna di tabel pembelian, dan ID tabel produk yang berhubungan dengan ID produk di tabel pembelian](../../../../../translated_images/id/sql-database.be160f12bfccefd3.png)
 
 Sebagai contoh, jika Anda menyimpan detail pribadi pengguna dalam tabel, Anda akan memiliki semacam ID unik internal per pengguna yang digunakan dalam baris di tabel yang berisi nama dan alamat pengguna. Jika Anda kemudian ingin menyimpan detail lain tentang pengguna tersebut, seperti pembelian mereka, dalam tabel lain, Anda akan memiliki satu kolom di tabel baru untuk ID pengguna tersebut. Ketika Anda mencari pengguna, Anda dapat menggunakan ID mereka untuk mendapatkan detail pribadi dari satu tabel, dan pembelian mereka dari tabel lain.
 
@@ -84,7 +84,7 @@ Database NoSQL disebut NoSQL karena tidak memiliki struktur kaku seperti databas
 
 > 💁 Meskipun namanya NoSQL, beberapa database NoSQL memungkinkan Anda menggunakan SQL untuk melakukan kueri data.
 
-![Dokumen dalam folder di database NoSQL](../../../../../translated_images/noqsl-database.62d24ccf5b73f60d35c245a8533f1c7147c0928e955b82cb290b2e184bb434df.id.png)
+![Dokumen dalam folder di database NoSQL](../../../../../translated_images/id/noqsl-database.62d24ccf5b73f60d35c245a8533f1c7147c0928e955b82cb290b2e184bb434df.png)
 
 Database NoSQL tidak memiliki skema yang telah ditentukan sebelumnya yang membatasi cara data disimpan, melainkan Anda dapat memasukkan data tidak terstruktur apa pun, biasanya menggunakan dokumen JSON. Dokumen-dokumen ini dapat diatur ke dalam folder, mirip dengan file di komputer Anda. Setiap dokumen dapat memiliki bidang yang berbeda dari dokumen lainnya - misalnya jika Anda menyimpan data IoT dari kendaraan pertanian Anda, beberapa mungkin memiliki bidang untuk data akselerometer dan kecepatan, sementara yang lain mungkin memiliki bidang untuk suhu di trailer. Jika Anda menambahkan jenis truk baru, seperti yang memiliki timbangan bawaan untuk melacak berat hasil panen yang dibawa, maka perangkat IoT Anda dapat menambahkan bidang baru ini dan dapat disimpan tanpa perubahan pada database.
 
@@ -98,7 +98,7 @@ Dalam pelajaran ini, Anda akan menggunakan penyimpanan NoSQL untuk menyimpan dat
 
 Pada pelajaran sebelumnya, Anda telah menangkap data GPS dari sensor GPS yang terhubung ke perangkat IoT Anda. Untuk menyimpan data IoT ini di cloud, Anda perlu mengirimkannya ke layanan IoT. Sekali lagi, Anda akan menggunakan Azure IoT Hub, layanan IoT cloud yang sama yang Anda gunakan dalam proyek sebelumnya.
 
-![Mengirim telemetri GPS dari perangkat IoT ke IoT Hub](../../../../../translated_images/gps-telemetry-iot-hub.8115335d51cd2c1285d20e9d1b18cf685e59a8e093e7797291ef173445af6f3d.id.png)
+![Mengirim telemetri GPS dari perangkat IoT ke IoT Hub](../../../../../translated_images/id/gps-telemetry-iot-hub.8115335d51cd2c1285d20e9d1b18cf685e59a8e093e7797291ef173445af6f3d.png)
 
 ### Tugas - Mengirim Data GPS ke IoT Hub
 
@@ -180,7 +180,7 @@ Data jalur dingin disimpan di gudang data - database yang dirancang untuk menyim
 
 Setelah data mengalir ke IoT Hub Anda, Anda dapat menulis beberapa kode tanpa server untuk mendengarkan peristiwa yang diterbitkan ke endpoint yang kompatibel dengan Event Hub. Ini adalah jalur hangat - data ini akan disimpan dan digunakan dalam pelajaran berikutnya untuk pelaporan perjalanan.
 
-![Mengirim telemetri GPS dari perangkat IoT ke IoT Hub, lalu ke Azure Functions melalui pemicu event hub](../../../../../translated_images/gps-telemetry-iot-hub-functions.24d3fa5592455e9f4e2fe73856b40c3915a292b90263c31d652acfd976cfedd8.id.png)
+![Mengirim telemetri GPS dari perangkat IoT ke IoT Hub, lalu ke Azure Functions melalui pemicu event hub](../../../../../translated_images/id/gps-telemetry-iot-hub-functions.24d3fa5592455e9f4e2fe73856b40c3915a292b90263c31d652acfd976cfedd8.png)
 
 ### Tugas - Menangani Peristiwa GPS Menggunakan Kode Tanpa Server
 
@@ -202,7 +202,7 @@ Setelah data mengalir ke IoT Hub Anda, Anda dapat menulis beberapa kode tanpa se
 
 ## Akun Penyimpanan Azure
 
-![Logo Azure Storage](../../../../../translated_images/azure-storage-logo.605c0f602c640d482a80f1b35a2629a32d595711b7ab1d7ceea843250615ff32.id.png)
+![Logo Azure Storage](../../../../../translated_images/id/azure-storage-logo.605c0f602c640d482a80f1b35a2629a32d595711b7ab1d7ceea843250615ff32.png)
 
 Akun Penyimpanan Azure adalah layanan penyimpanan serbaguna yang dapat menyimpan data dalam berbagai cara. Anda dapat menyimpan data sebagai blob, dalam antrean, dalam tabel, atau sebagai file, dan semuanya dapat dilakukan secara bersamaan.
 
@@ -241,7 +241,7 @@ Aplikasi fungsi Anda sekarang perlu terhubung ke penyimpanan blob untuk menyimpa
 
 Dalam pelajaran ini, Anda akan menggunakan SDK Python untuk melihat cara berinteraksi dengan penyimpanan blob.
 
-![Mengirim telemetri GPS dari perangkat IoT ke IoT Hub, lalu ke Azure Functions melalui pemicu event hub, kemudian menyimpannya ke penyimpanan blob](../../../../../translated_images/save-telemetry-to-storage-from-functions.ed3b1820980097f1.id.png)
+![Mengirim telemetri GPS dari perangkat IoT ke IoT Hub, lalu ke Azure Functions melalui pemicu event hub, kemudian menyimpannya ke penyimpanan blob](../../../../../translated_images/id/save-telemetry-to-storage-from-functions.ed3b1820980097f1.png)
 
 Data akan disimpan sebagai blob JSON dengan format berikut:
 

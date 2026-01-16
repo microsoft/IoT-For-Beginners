@@ -19,7 +19,7 @@ A beépített mikrofon analóg jelet rögzít, amelyet digitális jellé alakít
 
 ✅ Olvass többet a DMA-ról a [közvetlen memória-hozzáférés Wikipedia oldalán](https://wikipedia.org/wiki/Direct_memory_access).
 
-![A mikrofonból érkező hang az ADC-n keresztül a DMAC-hoz jut. Ez egy pufferbe ír. Amikor ez a puffer megtelik, feldolgozásra kerül, és a DMAC egy második pufferbe ír](../../../../../translated_images/dmac-adc-buffers.4509aee49145c90bc2e1be472b8ed2ddfcb2b6a81ad3e559114aca55f5fff759.hu.png)
+![A mikrofonból érkező hang az ADC-n keresztül a DMAC-hoz jut. Ez egy pufferbe ír. Amikor ez a puffer megtelik, feldolgozásra kerül, és a DMAC egy második pufferbe ír](../../../../../translated_images/hu/dmac-adc-buffers.4509aee49145c90bc2e1be472b8ed2ddfcb2b6a81ad3e559114aca55f5fff759.png)
 
 A DMAC képes hangot rögzíteni az ADC-től fix időközönként, például 16,000-szer másodpercenként 16KHz-es hang esetén. A rögzített adatokat egy előre lefoglalt memória pufferbe írja, és amikor ez megtelik, elérhetővé teszi a kódod számára feldolgozásra. A memória használata késleltetheti a hangrögzítést, de több puffert is beállíthatsz. A DMAC az 1-es pufferbe ír, majd amikor ez megtelik, értesíti a kódodat, hogy dolgozza fel az 1-es puffert, miközben a DMAC a 2-es pufferbe ír. Amikor a 2-es puffer megtelik, értesíti a kódodat, és visszatér az 1-es pufferbe íráshoz. Így, amíg minden puffert gyorsabban dolgozol fel, mint amennyi idő alatt megtelik, nem veszítesz adatot.
 

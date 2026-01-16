@@ -37,11 +37,11 @@ CounterFit ಅಪ್ಲಿಕೇಶನ್‌ಗೆ ರಿಲೇ ಸೇರಿಸ�
 
     1. ಪಿನ್ 5 ರಲ್ಲಿ ರಿಲೇ ರಚಿಸಲು **Add** ಬಟನ್ ಆಯ್ಕೆಮಾಡಿ.
 
-    ![ರಿಲೇ ಸೆಟ್ಟಿಂಗ್‌ಗಳು](../../../../../translated_images/counterfit-create-relay.fa7c40fd0f2f6afc.kn.png)
+    ![ರಿಲೇ ಸೆಟ್ಟಿಂಗ್‌ಗಳು](../../../../../translated_images/kn/counterfit-create-relay.fa7c40fd0f2f6afc.png)
 
     ರಿಲೇ ರಚನೆಯಾಗಿ actuators ಪಟ್ಟಿಕೆಯಲ್ಲಿ ಕಾಣಿಸಿಕೊಳ್ಳುತ್ತದೆ.
 
-    ![ರಿಲೇ ರಚಿಸಲಾಗಿದೆ](../../../../../translated_images/counterfit-relay.bbf74c1dbdc8b9ac.kn.png)
+    ![ರಿಲೇ ರಚಿಸಲಾಗಿದೆ](../../../../../translated_images/kn/counterfit-relay.bbf74c1dbdc8b9ac.png)
 
 ## ರಿಲೇ ಪ್ರೋಗ್ರಾಂ ಮಾಡಿ
 

@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 [Raspberry Pi](https://raspberrypi.org) yra vienos plokštės kompiuteris. Naudodami įvairius įrenginius ir ekosistemas galite pridėti jutiklius ir pavaras, o šiose pamokose naudosime aparatinės įrangos ekosistemą, vadinamą [Grove](https://www.seeedstudio.com/category/Grove-c-1003.html). Jūs programuosite savo Pi ir pasieksite Grove jutiklius naudodami Python.
 
-![Raspberry Pi 4](../../../../../translated_images/raspberry-pi-4.fd4590d308c3d456.lt.jpg)
+![Raspberry Pi 4](../../../../../translated_images/lt/raspberry-pi-4.fd4590d308c3d456.jpg)
 
 ## Paruošimas
 
@@ -112,7 +112,7 @@ Nustatykite „be galvos“ Pi OS.
 
 1. Raspberry Pi Imager pasirinkite mygtuką **CHOOSE OS**, tada pasirinkite *Raspberry Pi OS (Other)*, po to *Raspberry Pi OS Lite (32-bit)*.
 
-    ![Raspberry Pi Imager su pasirinktu Raspberry Pi OS Lite](../../../../../translated_images/raspberry-pi-imager.24aedeab9e233d84.lt.png)
+    ![Raspberry Pi Imager su pasirinktu Raspberry Pi OS Lite](../../../../../translated_images/lt/raspberry-pi-imager.24aedeab9e233d84.png)
 
     > 💁 Raspberry Pi OS Lite yra Raspberry Pi OS versija, kuri neturi darbalaukio vartotojo sąsajos ar vartotojo sąsajos pagrįstų įrankių. Jie nėra reikalingi „be galvos“ Pi ir sumažina diegimo dydį bei pagreitina paleidimo laiką.
 
@@ -249,7 +249,7 @@ Sukurkite „Hello World“ programėlę.
 
 1. Atidarykite šį aplanką VS Code programoje pasirinkdami *File -> Open...* ir pasirinkdami *nightlight* aplanką, tada spustelėkite **OK**.
 
-    ![VS Code atidarymo dialogas, rodantis nightlight aplanką](../../../../../translated_images/vscode-open-nightlight-remote.d3d2a4011e30d535.lt.png)
+    ![VS Code atidarymo dialogas, rodantis nightlight aplanką](../../../../../translated_images/lt/vscode-open-nightlight-remote.d3d2a4011e30d535.png)
 
 1. Atidarykite `app.py` failą iš VS Code naršyklės ir pridėkite šį kodą:
 

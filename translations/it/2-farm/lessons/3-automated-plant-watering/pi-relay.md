@@ -27,13 +27,13 @@ Il relè Grove può essere collegato al Raspberry Pi.
 
 Collega il relè.
 
-![Un relè Grove](../../../../../translated_images/grove-relay.d426958ca210fbd0fb7983d7edc069d46c73a8b0a099d94797bd756f7b6bb6be.it.png)
+![Un relè Grove](../../../../../translated_images/it/grove-relay.d426958ca210fbd0fb7983d7edc069d46c73a8b0a099d94797bd756f7b6bb6be.png)
 
 1. Inserisci un'estremità di un cavo Grove nella presa del relè. Entrerà solo in un verso.
 
 1. Con il Raspberry Pi spento, collega l'altra estremità del cavo Grove alla presa digitale contrassegnata **D5** sul Grove Base Hat collegato al Pi. Questa presa è la seconda da sinistra, nella fila di prese accanto ai pin GPIO. Lascia il sensore di umidità del suolo collegato alla presa **A0**.
 
-![Il relè Grove collegato alla presa D5 e il sensore di umidità del suolo collegato alla presa A0](../../../../../translated_images/pi-relay-and-soil-moisture-sensor.02f3198975b8c53e69ec716cd2719ce117700bd1fc933eaf93476c103c57939b.it.png)
+![Il relè Grove collegato alla presa D5 e il sensore di umidità del suolo collegato alla presa A0](../../../../../translated_images/it/pi-relay-and-soil-moisture-sensor.02f3198975b8c53e69ec716cd2719ce117700bd1fc933eaf93476c103c57939b.png)
 
 1. Inserisci il sensore di umidità del suolo nel terreno, se non lo hai già fatto dalla lezione precedente.
 

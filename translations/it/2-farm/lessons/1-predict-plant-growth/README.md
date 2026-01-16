@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Prevedere la crescita delle piante con IoT
 
-![Una panoramica illustrata di questa lezione](../../../../../translated_images/lesson-5.42b234299279d263143148b88ab4583861a32ddb03110c6c1120e41bb88b2592.it.jpg)
+![Una panoramica illustrata di questa lezione](../../../../../translated_images/it/lesson-5.42b234299279d263143148b88ab4583861a32ddb03110c6c1120e41bb88b2592.jpg)
 
 > Illustrazione di [Nitya Narasimhan](https://github.com/nitya). Clicca sull'immagine per una versione più grande.
 
@@ -65,7 +65,7 @@ Ogni specie di pianta ha valori diversi per la temperatura base, ottimale e mass
 
 ✅ Fai una ricerca. Per le piante che hai nel tuo giardino, scuola o parco locale, cerca di trovare la temperatura base.
 
-![Un grafico che mostra il tasso di crescita aumentare con l'aumento della temperatura, per poi diminuire quando la temperatura diventa troppo alta](../../../../../translated_images/plant-growth-temp-graph.c6d69c9478e6ca83.it.png)
+![Un grafico che mostra il tasso di crescita aumentare con l'aumento della temperatura, per poi diminuire quando la temperatura diventa troppo alta](../../../../../translated_images/it/plant-growth-temp-graph.c6d69c9478e6ca83.png)
 
 Il grafico sopra mostra un esempio di relazione tra tasso di crescita e temperatura. Fino alla temperatura base non c'è crescita. Il tasso di crescita aumenta fino alla temperatura ottimale, poi diminuisce dopo aver raggiunto il picco. Alla temperatura massima la crescita si interrompe.
 
@@ -91,7 +91,7 @@ Questo codice apre il file CSV e aggiunge una nuova riga alla fine. La riga cont
 
     
 > 💁 Se stai utilizzando un dispositivo IoT virtuale, seleziona la casella di controllo casuale e imposta un intervallo per evitare di ottenere sempre la stessa temperatura ogni volta che viene restituito il valore della temperatura.
-    ![Seleziona la casella di controllo casuale e imposta un intervallo](../../../../../translated_images/select-the-random-checkbox-and-set-a-range.32cf4bc7c12e797f.it.png) 
+    ![Seleziona la casella di controllo casuale e imposta un intervallo](../../../../../translated_images/it/select-the-random-checkbox-and-set-a-range.32cf4bc7c12e797f.png) 
 
     > 💁 Se vuoi eseguirlo per un'intera giornata, devi assicurarti che il computer su cui gira il codice del server non vada in sospensione, modificando le impostazioni di alimentazione o eseguendo qualcosa come [questo script Python per mantenere il sistema attivo](https://github.com/jaqsparow/keep-system-active).
     
@@ -111,7 +111,7 @@ I passaggi per farlo manualmente sono:
 
 Ad esempio, se la temperatura massima della giornata è 25°C e la minima è 12°C:
 
-![GDD = 25 + 12 diviso per 2, poi sottrai 10 dal risultato ottenendo 8.5](../../../../../translated_images/gdd-calculation-strawberries.59f57db94b22adb8ff6efb951ace33af104a1c6ccca3ffb0f8169c14cb160c90.it.png)
+![GDD = 25 + 12 diviso per 2, poi sottrai 10 dal risultato ottenendo 8.5](../../../../../translated_images/it/gdd-calculation-strawberries.59f57db94b22adb8ff6efb951ace33af104a1c6ccca3ffb0f8169c14cb160c90.png)
 
 * 25 + 12 = 37
 * 37 / 2 = 18.5

@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Migrasikan Logika Aplikasi Anda ke Cloud
 
-![Gambaran sketchnote dari pelajaran ini](../../../../../translated_images/lesson-9.dfe99c8e891f48e179724520da9f5794392cf9a625079281ccdcbf09bd85e1b6.id.jpg)
+![Gambaran sketchnote dari pelajaran ini](../../../../../translated_images/id/lesson-9.dfe99c8e891f48e179724520da9f5794392cf9a625079281ccdcbf09bd85e1b6.jpg)
 
 > Sketchnote oleh [Nitya Narasimhan](https://github.com/nitya). Klik gambar untuk versi yang lebih besar.
 
@@ -37,11 +37,11 @@ Dalam pelajaran ini kita akan membahas:
 
 Tanpa server, atau komputasi tanpa server, melibatkan pembuatan blok kode kecil yang dijalankan di cloud sebagai respons terhadap berbagai jenis acara. Ketika acara terjadi, kode Anda dijalankan dan diberikan data tentang acara tersebut. Acara ini dapat berasal dari berbagai hal, termasuk permintaan web, pesan yang dimasukkan ke dalam antrean, perubahan data dalam database, atau pesan yang dikirim ke layanan IoT oleh perangkat IoT.
 
-![Acara yang dikirim dari layanan IoT ke layanan tanpa server, semuanya diproses secara bersamaan oleh beberapa fungsi yang dijalankan](../../../../../translated_images/iot-messages-to-serverless.0194da1cc0732bb7d0f823aed3fce54735c6b1ad3bf36089804d8aaefc0a774f.id.png)
+![Acara yang dikirim dari layanan IoT ke layanan tanpa server, semuanya diproses secara bersamaan oleh beberapa fungsi yang dijalankan](../../../../../translated_images/id/iot-messages-to-serverless.0194da1cc0732bb7d0f823aed3fce54735c6b1ad3bf36089804d8aaefc0a774f.png)
 
 > 💁 Jika Anda pernah menggunakan pemicu database sebelumnya, Anda dapat menganggap ini sebagai hal yang sama, yaitu kode yang dipicu oleh acara seperti memasukkan baris.
 
-![Ketika banyak acara dikirim secara bersamaan, layanan tanpa server meningkat untuk menjalankan semuanya secara bersamaan](../../../../../translated_images/serverless-scaling.f8c769adf0413fd1.id.png)
+![Ketika banyak acara dikirim secara bersamaan, layanan tanpa server meningkat untuk menjalankan semuanya secara bersamaan](../../../../../translated_images/id/serverless-scaling.f8c769adf0413fd1.png)
 
 Kode Anda hanya dijalankan ketika acara terjadi, tidak ada yang menjaga kode Anda tetap aktif di waktu lain. Acara terjadi, kode Anda dimuat dan dijalankan. Ini membuat tanpa server sangat skalabel - jika banyak acara terjadi secara bersamaan, penyedia cloud dapat menjalankan fungsi Anda sebanyak yang Anda butuhkan secara bersamaan di berbagai server yang tersedia. Kekurangannya adalah jika Anda perlu berbagi informasi antar acara, Anda harus menyimpannya di tempat lain seperti database daripada menyimpannya di memori.
 
@@ -63,7 +63,7 @@ Sebagai pengembang IoT, model tanpa server sangat ideal. Anda dapat menulis fung
 
 Layanan komputasi tanpa server dari Microsoft disebut Azure Functions.
 
-![Logo Azure Functions](../../../../../translated_images/azure-functions-logo.1cfc8e3204c9c44aaf80fcf406fc8544d80d7f00f8d3e8ed6fed764563e17564.id.png)
+![Logo Azure Functions](../../../../../translated_images/id/azure-functions-logo.1cfc8e3204c9c44aaf80fcf406fc8544d80d7f00f8d3e8ed6fed764563e17564.png)
 
 Video pendek di bawah ini memberikan gambaran tentang Azure Functions.
 
@@ -244,7 +244,7 @@ CLI Azure Functions dapat digunakan untuk membuat aplikasi Functions baru.
     VS Code. Initialize for optimal use with VS Code?
     ```
 
-    ![Notifikasi](../../../../../translated_images/vscode-azure-functions-init-notification.bd19b49229963edb.id.png)
+    ![Notifikasi](../../../../../translated_images/id/vscode-azure-functions-init-notification.bd19b49229963edb.png)
 
     Pilih **Yes** dari notifikasi ini.
 

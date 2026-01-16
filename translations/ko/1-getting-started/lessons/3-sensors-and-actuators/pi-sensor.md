@@ -25,13 +25,13 @@ CO_OP_TRANSLATOR_METADATA:
 
 조도 센서를 연결하세요.
 
-![Grove 조도 센서](../../../../../translated_images/grove-light-sensor.b8127b7c434e632d6bcdb57587a14e9ef69a268a22df95d08628f62b8fa5505c.ko.png)
+![Grove 조도 센서](../../../../../translated_images/ko/grove-light-sensor.b8127b7c434e632d6bcdb57587a14e9ef69a268a22df95d08628f62b8fa5505c.png)
 
 1. Grove 케이블의 한쪽 끝을 조도 센서 모듈의 소켓에 삽입합니다. 케이블은 한 방향으로만 들어갑니다.
 
 1. Raspberry Pi의 전원을 끈 상태에서, Grove 케이블의 다른 쪽 끝을 Pi에 부착된 Grove Base Hat의 **A0**로 표시된 아날로그 소켓에 연결합니다. 이 소켓은 GPIO 핀 옆의 소켓 줄에서 오른쪽에서 두 번째에 위치합니다.
 
-![A0 소켓에 연결된 Grove 조도 센서](../../../../../translated_images/pi-light-sensor.66cc1e31fa48cd7d5f23400d4b2119aa41508275cb7c778053a7923b4e972d7e.ko.png)
+![A0 소켓에 연결된 Grove 조도 센서](../../../../../translated_images/ko/pi-light-sensor.66cc1e31fa48cd7d5f23400d4b2119aa41508275cb7c778053a7923b4e972d7e.png)
 
 ## 조도 센서 프로그래밍하기
 

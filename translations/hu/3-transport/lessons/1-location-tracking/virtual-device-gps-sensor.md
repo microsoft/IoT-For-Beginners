@@ -47,11 +47,11 @@ Adja hozzá a GPS-érzékelőt a CounterFit alkalmazáshoz.
 
     1. Válassza ki az **Add** gombot, hogy létrehozza a GPS-érzékelőt a `/dev/ttyAMA0` porton.
 
-    ![A GPS-érzékelő beállításai](../../../../../translated_images/counterfit-create-gps-sensor.6385dc9357d85ad1d47b4abb2525e7651fd498917d25eefc5a72feab09eedc70.hu.png)
+    ![A GPS-érzékelő beállításai](../../../../../translated_images/hu/counterfit-create-gps-sensor.6385dc9357d85ad1d47b4abb2525e7651fd498917d25eefc5a72feab09eedc70.png)
 
     A GPS-érzékelő létrejön, és megjelenik az érzékelők listájában.
 
-    ![A létrehozott GPS-érzékelő](../../../../../translated_images/counterfit-gps-sensor.3fbb15af0a5367566f2f11324ef5a6f30861cdf2b497071a5e002b7aa473550e.hu.png)
+    ![A létrehozott GPS-érzékelő](../../../../../translated_images/hu/counterfit-gps-sensor.3fbb15af0a5367566f2f11324ef5a6f30861cdf2b497071a5e002b7aa473550e.png)
 
 ## A GPS-érzékelő programozása
 
@@ -111,17 +111,17 @@ Programozza be a GPS-érzékelő alkalmazást.
 
     * Állítsa a **Source** mezőt `Lat/Lon` értékre, és adjon meg egy konkrét szélességi, hosszúsági fokot, valamint a GPS-jel rögzítéséhez használt műholdak számát. Ez az érték csak egyszer kerül elküldésre, ezért jelölje be a **Repeat** mezőt, hogy az adat minden másodpercben ismétlődjön.
 
-      ![A GPS-érzékelő lat/lon beállítással](../../../../../translated_images/counterfit-gps-sensor-latlon.008c867d75464fbe7f84107cc57040df565ac07cb57d2f21db37d087d470197d.hu.png)
+      ![A GPS-érzékelő lat/lon beállítással](../../../../../translated_images/hu/counterfit-gps-sensor-latlon.008c867d75464fbe7f84107cc57040df565ac07cb57d2f21db37d087d470197d.png)
 
     * Állítsa a **Source** mezőt `NMEA` értékre, és adjon hozzá néhány NMEA mondatot a szövegdobozba. Ezek az értékek mind elküldésre kerülnek, 1 másodperces késleltetéssel minden új GGA (pozíció rögzítési) mondat előtt.
 
-      ![A GPS-érzékelő NMEA mondatokkal](../../../../../translated_images/counterfit-gps-sensor-nmea.c62eea442171e17e19528b051b104cfcecdc9cd18db7bc72920f29821ae63f73.hu.png)
+      ![A GPS-érzékelő NMEA mondatokkal](../../../../../translated_images/hu/counterfit-gps-sensor-nmea.c62eea442171e17e19528b051b104cfcecdc9cd18db7bc72920f29821ae63f73.png)
 
       Használhat olyan eszközt, mint például a [nmeagen.org](https://www.nmeagen.org), hogy ezeket a mondatokat térképen rajzolva generálja. Ezek az értékek csak egyszer kerülnek elküldésre, ezért jelölje be a **Repeat** mezőt, hogy az adatok egy másodperccel az elküldésük után ismétlődjenek.
 
     * Állítsa a **Source** mezőt GPX fájlra, és töltsön fel egy GPX fájlt nyomvonal helyszínekkel. GPX fájlokat letölthet számos népszerű térképes és túrázós weboldalról, például az [AllTrails](https://www.alltrails.com/) oldalról. Ezek a fájlok több GPS-helyszínt tartalmaznak egy útvonal formájában, és a GPS-érzékelő minden új helyszínt 1 másodperces időközönként ad vissza.
 
-      ![A GPS-érzékelő GPX fájllal](../../../../../translated_images/counterfit-gps-sensor-gpxfile.8310b063ce8a425ccc8ebeec8306aeac5e8e55207f007d52c6e1194432a70cd9.hu.png)
+      ![A GPS-érzékelő GPX fájllal](../../../../../translated_images/hu/counterfit-gps-sensor-gpxfile.8310b063ce8a425ccc8ebeec8306aeac5e8e55207f007d52c6e1194432a70cd9.png)
 
       Ezek az értékek csak egyszer kerülnek elküldésre, ezért jelölje be a **Repeat** mezőt, hogy az adatok egy másodperccel az elküldésük után ismétlődjenek.
 

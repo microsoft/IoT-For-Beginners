@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # IoTデバイスで音声を認識する
 
-![このレッスンの概要を示すスケッチノート](../../../../../translated_images/lesson-21.e34de51354d6606fb5ee08d8c89d0222eea0a2a7aaf744a8805ae847c4f69dc4.ja.jpg)
+![このレッスンの概要を示すスケッチノート](../../../../../translated_images/ja/lesson-21.e34de51354d6606fb5ee08d8c89d0222eea0a2a7aaf744a8805ae847c4f69dc4.jpg)
 
 > スケッチノート作成者：[Nitya Narasimhan](https://github.com/nitya)。画像をクリックすると拡大版が表示されます。
 
@@ -60,19 +60,19 @@ CO_OP_TRANSLATOR_METADATA:
 
     ダイナミックマイクロフォンは動作に電力を必要としません。電気信号は完全にマイクロフォンから生成されます。
 
-    ![Shure SM58（ダイナミックカーディオイド型）マイクロフォンに向かって歌うPatti Smith](../../../../../translated_images/dynamic-mic.8babac890a2d80dfb0874b5bf37d4b851fe2aeb9da6fd72945746176978bf3bb.ja.jpg)
+    ![Shure SM58（ダイナミックカーディオイド型）マイクロフォンに向かって歌うPatti Smith](../../../../../translated_images/ja/dynamic-mic.8babac890a2d80dfb0874b5bf37d4b851fe2aeb9da6fd72945746176978bf3bb.jpg)
 
 * リボン - リボンマイクロフォンはダイナミックマイクロフォンに似ていますが、ダイアフラムの代わりに金属製のリボンを使用します。このリボンが磁場内で動き、電流を生成します。ダイナミックマイクロフォンと同様に、リボンマイクロフォンも動作に電力を必要としません。
 
-    ![NBCブルーネットワークのラジオマイクロフォンの前に立つEdmund Lowe（1942年）](../../../../../translated_images/ribbon-mic.eacc8e092c7441ca.ja.jpg)
+    ![NBCブルーネットワークのラジオマイクロフォンの前に立つEdmund Lowe（1942年）](../../../../../translated_images/ja/ribbon-mic.eacc8e092c7441ca.jpg)
 
 * コンデンサー - コンデンサーマイクロフォンは、薄い金属製のダイアフラムと固定された金属製のバックプレートを持っています。これらの両方に電力が供給され、ダイアフラムが振動すると、プレート間の静電荷が変化して信号を生成します。コンデンサーマイクロフォンは動作に電力を必要とします。この電力は*ファンタム電源*と呼ばれます。
 
-    ![AKG AcousticsのC451B小型ダイアフラムコンデンサーマイクロフォン](../../../../../translated_images/condenser-mic.6f6ed5b76ca19e0ec3fd0c544601542d4479a6cb7565db336de49fbbf69f623e.ja.jpg)
+    ![AKG AcousticsのC451B小型ダイアフラムコンデンサーマイクロフォン](../../../../../translated_images/ja/condenser-mic.6f6ed5b76ca19e0ec3fd0c544601542d4479a6cb7565db336de49fbbf69f623e.jpg)
 
 * MEMS - マイクロエレクトロメカニカルシステムマイクロフォン、またはMEMSは、チップ上のマイクロフォンです。シリコンチップにエッチングされた圧力感知ダイアフラムを持ち、コンデンサーマイクロフォンに似た仕組みで動作します。これらのマイクロフォンは非常に小型で、回路に統合することができます。
 
-    ![回路基板上のMEMSマイクロフォン](../../../../../translated_images/mems-microphone.80574019e1f5e4d9ee72fed720ecd25a39fc2969c91355d17ebb24ba4159e4c4.ja.png)
+    ![回路基板上のMEMSマイクロフォン](../../../../../translated_images/ja/mems-microphone.80574019e1f5e4d9ee72fed720ecd25a39fc2969c91355d17ebb24ba4159e4c4.png)
 
     上の画像では、**LEFT**とラベル付けされたチップがMEMSマイクロフォンで、幅1ミリ未満の小さなダイアフラムを持っています。
 
@@ -84,7 +84,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 > 🎓 サンプリングとは、オーディオ信号をその時点のデジタル値に変換することです。
 
-![信号を示す折れ線グラフと、固定間隔での離散的な点](../../../../../translated_images/sampling.6f4fadb3f2d9dfe7.ja.png)
+![信号を示す折れ線グラフと、固定間隔での離散的な点](../../../../../translated_images/ja/sampling.6f4fadb3f2d9dfe7.png)
 
 デジタルオーディオはパルス符号変調（PCM）を使用してサンプリングされます。PCMでは信号の電圧を読み取り、その電圧に最も近い離散値を定義されたサイズで選択します。
 
@@ -168,7 +168,7 @@ MLモデルは常に同じサイズのデータを受け入れます。以前の
 
 ## 音声をテキストに変換する
 
-![Speech services logo](../../../../../translated_images/azure-speech-logo.a1f08c4befb0159f2cb5d692d3baf5b599e7b44759d316da907bda1508f46a4a.ja.png)
+![Speech services logo](../../../../../translated_images/ja/azure-speech-logo.a1f08c4befb0159f2cb5d692d3baf5b599e7b44759d316da907bda1508f46a4a.png)
 
 以前のプロジェクトで画像分類を行ったように、音声を音声ファイルとして受け取り、テキストに変換する事前構築済みのAIサービスがあります。その一つがSpeech Serviceで、Cognitive Servicesの一部として提供される事前構築済みのAIサービスです。
 

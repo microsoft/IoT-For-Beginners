@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Nyelv megértése
 
-![A lecke áttekintése sketchnote formában](../../../../../translated_images/lesson-22.6148ea28500d9e00c396aaa2649935fb6641362c8f03d8e5e90a676977ab01dd.hu.jpg)
+![A lecke áttekintése sketchnote formában](../../../../../translated_images/hu/lesson-22.6148ea28500d9e00c396aaa2649935fb6641362c8f03d8e5e90a676977ab01dd.jpg)
 
 > Sketchnote készítette: [Nitya Narasimhan](https://github.com/nitya). Kattints a képre a nagyobb verzióért.
 
@@ -55,7 +55,7 @@ A nyelvmegértési modellek olyan AI modellek, amelyeket arra képeznek ki, hogy
 
 ## Nyelvmegértési modell létrehozása
 
-![A LUIS logója](../../../../../translated_images/luis-logo.5cb4f3e88c020ee6df4f614e8831f4a4b6809a7247bf52085fb48d629ef9be52.hu.png)
+![A LUIS logója](../../../../../translated_images/hu/luis-logo.5cb4f3e88c020ee6df4f614e8831f4a4b6809a7247bf52085fb48d629ef9be52.png)
 
 Nyelvmegértési modelleket hozhatsz létre a LUIS segítségével, amely a Microsoft egyik nyelvmegértési szolgáltatása, és a Cognitive Services része.
 
@@ -126,7 +126,7 @@ Miután az entitásokat definiáltad, létrehozod a szándékokat. Ezeket a mode
 
 Ezután megmondod a LUIS-nak, hogy ezeknek a mondatoknak mely részei felelnek meg az entitásoknak:
 
-![A mondat, állíts be egy időzítőt 1 perc és 12 másodpercre, entitásokra bontva](../../../../../translated_images/sentence-as-intent-entities.301401696f992259.hu.png)
+![A mondat, állíts be egy időzítőt 1 perc és 12 másodpercre, entitásokra bontva](../../../../../translated_images/hu/sentence-as-intent-entities.301401696f992259.png)
 
 A mondat `állíts be egy időzítőt 1 perc és 12 másodpercre` szándéka `időzítő beállítása`. Emellett 2 entitása van, mindegyik 2 értékkel:
 
@@ -178,7 +178,7 @@ A LUIS portál használatára vonatkozó utasításokat megtalálod a [Quickstar
 
 1. Ahogy minden példát megadsz, a LUIS elkezdi felismerni az entitásokat, és aláhúzza és címkézi azokat, amelyeket talál.
 
-    ![A példák, ahol a számok és időegységek alá vannak húzva a LUIS által](../../../../../translated_images/luis-intent-examples.25716580b2d2723cf1bafdf277d015c7f046d8cfa20f27bddf3a0873ec45fab7.hu.png)
+    ![A példák, ahol a számok és időegységek alá vannak húzva a LUIS által](../../../../../translated_images/hu/luis-intent-examples.25716580b2d2723cf1bafdf277d015c7f046d8cfa20f27bddf3a0873ec45fab7.png)
 
 ### Feladat - a modell tanítása és tesztelése
 

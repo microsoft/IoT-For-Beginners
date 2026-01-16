@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 [Seeed Studios ൽ നിന്നും Wio Terminal](https://www.seeedstudio.com/Wio-Terminal-p-4509.html) WiFi ഉള്ള, ചില സെൻസറുകളും ആക്‌ചുവേറ്ററുകളും ഉൾപ്പെടുത്തിയ, Arduino-ഉം പൊരുത്തപ്പെടുന്ന ഒരു മൈക്രോ കണ്ട്രോളറാണ്, കൂടാതെ [Grove](https://www.seeedstudio.com/category/Grove-c-1003.html) എന്നു പേരായ ഒരു ഹാർഡ്‌വെയർ ഇക്കോസിസ്റ്റം ഉപയോഗിച്ച് കൂടുതൽ സെൻസറുകളും ആക്‌ചുവേറ്ററുകളും ചേർക്കാനുള്ള പോർട്ടുകളും ഇതിൽ ഉണ്ട്.
 
-![A Seeed studios Wio Terminal](../../../../../translated_images/wio-terminal.b8299ee16587db9a.ml.png)
+![A Seeed studios Wio Terminal](../../../../../translated_images/ml/wio-terminal.b8299ee16587db9a.png)
 
 ## ക്രമീകരണം
 
@@ -51,15 +51,15 @@ PlatformIO പ്രോജക്‌ട് സൃഷ്ടിക്കുക.
 
 1. PlatformIO ഐകോൺ സൈഡ് മെനു ബാറിൽ കാണും:
 
-    ![The Platform IO menu option](../../../../../translated_images/vscode-platformio-menu.297be26b9733e5c4.ml.png)
+    ![The Platform IO menu option](../../../../../translated_images/ml/vscode-platformio-menu.297be26b9733e5c4.png)
 
     ഈ മെനു ഐറ്റം തിരഞ്ഞെടുക്കുക, പിന്നീട് *PIO Home -> Open* തിരഞ്ഞെടുക്കുക
 
-    ![The Platform IO open option](../../../../../translated_images/vscode-platformio-home-open.3f9a41bfd3f4da1c.ml.png)
+    ![The Platform IO open option](../../../../../translated_images/ml/vscode-platformio-home-open.3f9a41bfd3f4da1c.png)
 
 1. വരവിന്റെ സ്ക്രീനിൽ നിന്നു **+ New Project** ബട്ടൺ തിരഞ്ഞെടുക്കുക
 
-    ![The new project button](../../../../../translated_images/vscode-platformio-welcome-new-button.ba6fc8a4c7b78cc8.ml.png)
+    ![The new project button](../../../../../translated_images/ml/vscode-platformio-welcome-new-button.ba6fc8a4c7b78cc8.png)
 
 1. പ്രോജക്‌ട് *Project Wizard*ൽ ക്രമീകരിക്കുക:
 
@@ -73,7 +73,7 @@ PlatformIO പ്രോജക്‌ട് സൃഷ്ടിക്കുക.
 
     1. **Finish** ബട്ടൺ ക്ലിക്ക് ചെയ്യുക
 
-    ![The completed project wizard](../../../../../translated_images/vscode-platformio-nightlight-project-wizard.5c64db4da6037420.ml.png)
+    ![The completed project wizard](../../../../../translated_images/ml/vscode-platformio-nightlight-project-wizard.5c64db4da6037420.png)
 
     PlatformIO Wio Terminal-നായി കോഡ് കോമ്പൈലിൽ ആവശ്യമായ ഘടകങ്ങൾ ഡൗൺലോഡ് ചെയ്തു പ്രോജക്‌ട് സൃഷ്ടിക്കും. ഇത് കുറച്ച് മിനിറ്റുകൾ എടുക്കാം.
 
@@ -179,7 +179,7 @@ VS Code എക്സ്പ്ലോറർ PlatformIO വിസാർഡ് സ�
 
     1. `PlatformIO Upload` ടൈപ്പ് ചെയ്ത് അപ്‌ലോഡ് ഓപ്ഷൻ തിരയുക, പിന്നെ *PlatformIO: Upload* തിരഞ്ഞെടുക്കുക
 
-        ![The PlatformIO upload option in the command palette](../../../../../translated_images/vscode-platformio-upload-command-palette.9e0f49cf80d1f1c3.ml.png)
+        ![The PlatformIO upload option in the command palette](../../../../../translated_images/ml/vscode-platformio-upload-command-palette.9e0f49cf80d1f1c3.png)
 
         ആവശ്യമായാൽ PlatformIO സ്വയം കോഡ് ബിൽഡ് ചെയ്യും, പിന്നീട് അപ്‌ലോഡ് ചെയ്യും.
 
@@ -195,7 +195,7 @@ PlatformIO-യ്ക്ക് സീരിയൽ മോണിറ്റർ ഉണ
 
 1. `PlatformIO Serial` ടൈപ്പ് ചെയ്ത് സീരിയൽ മോണിറ്റർ ഓപ്ഷൻ തെരഞ്ഞെടുക്കുക, *PlatformIO: Serial Monitor* തിരഞ്ഞെടുക്കുക
 
-    ![The PlatformIO Serial Monitor option in the command palette](../../../../../translated_images/vscode-platformio-serial-monitor-command-palette.b348ec841b8a1c14.ml.png)
+    ![The PlatformIO Serial Monitor option in the command palette](../../../../../translated_images/ml/vscode-platformio-serial-monitor-command-palette.b348ec841b8a1c14.png)
 
     പുതിയ ടർമിനൽ തുറക്കും, സീരിയൽ പോർട്ട് വഴി അയക്കുന്ന ഡാറ്റ ഇവിടെ സ്ട്രീംചെയ്യുന്നു:
 

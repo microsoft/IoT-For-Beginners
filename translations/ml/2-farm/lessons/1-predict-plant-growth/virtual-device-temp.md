@@ -47,11 +47,11 @@ CO_OP_TRANSLATOR_METADATA:
 
     4. Pin 5-ൽ ഉലർദ്രത സെൻസർ സൃഷ്ടിക്കാൻ **Add** ബട്ടൺ തെരഞ്ഞെടുത്ത് അമർത്തുക
 
-    ![The humidity sensor settings](../../../../../translated_images/counterfit-create-humidity-sensor.2750e27b6f30e09c.ml.png)
+    ![The humidity sensor settings](../../../../../translated_images/ml/counterfit-create-humidity-sensor.2750e27b6f30e09c.png)
 
     ഉലർദ്രത സെൻസർ സൃഷ്ടിച്ച് സെൻസർ ലിസ്റ്റിൽ പ്രദർശിപ്പിക്കും.
 
-    ![The humidity sensor created](../../../../../translated_images/counterfit-humidity-sensor.7b12f7f339e430cb.ml.png)
+    ![The humidity sensor created](../../../../../translated_images/ml/counterfit-humidity-sensor.7b12f7f339e430cb.png)
 
 5. താപനില സെൻസർ സൃഷ്ടിക്കുക:
 
@@ -63,11 +63,11 @@ CO_OP_TRANSLATOR_METADATA:
 
     4. Pin 6-ൽ താപനില സെൻസർ സൃഷ്ടിക്കാൻ **Add** ബട്ടൺ അമർത്തുക
 
-    ![The temperature sensor settings](../../../../../translated_images/counterfit-create-temperature-sensor.199350ed34f7343d.ml.png)
+    ![The temperature sensor settings](../../../../../translated_images/ml/counterfit-create-temperature-sensor.199350ed34f7343d.png)
 
     താപനില സെൻസർ സൃഷ്ടിച്ച് സെൻസർ ലിസ്റ്റിൽ പ്രദർശിപ്പിക്കും.
 
-    ![The temperature sensor created](../../../../../translated_images/counterfit-temperature-sensor.f0560236c96a9016.ml.png)
+    ![The temperature sensor created](../../../../../translated_images/ml/counterfit-temperature-sensor.f0560236c96a9016.png)
 
 ## താപനില സെൻസർ ആപ്പ് പ്രോഗ്രാം ചെയ്യുക
 

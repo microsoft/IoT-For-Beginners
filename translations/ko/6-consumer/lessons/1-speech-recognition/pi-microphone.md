@@ -43,7 +43,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 1. ReSpeaker 2-Mics Pi HAT을 사용하는 경우, Grove 베이스 HAT을 제거한 후 ReSpeaker HAT을 그 자리에 장착합니다.
 
-    ![ReSpeaker HAT이 장착된 라즈베리 파이](../../../../../translated_images/pi-respeaker-hat.f00fabe7dd039a93e2e0aa0fc946c9af0c6a9eb17c32fa1ca097fb4e384f69f0.ko.png)
+    ![ReSpeaker HAT이 장착된 라즈베리 파이](../../../../../translated_images/ko/pi-respeaker-hat.f00fabe7dd039a93e2e0aa0fc946c9af0c6a9eb17c32fa1ca097fb4e384f69f0.png)
 
     이 수업의 나중 단계에서 Grove 버튼이 필요하지만, 이 HAT에는 버튼이 내장되어 있으므로 Grove 베이스 HAT은 필요하지 않습니다.
 

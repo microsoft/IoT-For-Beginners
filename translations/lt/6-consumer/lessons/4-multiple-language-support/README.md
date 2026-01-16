@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Palaikykite kelias kalbas
 
-![Šios pamokos apžvalga sketchnote formatu](../../../../../translated_images/lesson-24.4246968ed058510ab275052e87ef9aa89c7b2f938915d103c605c04dc6cd5bb7.lt.jpg)
+![Šios pamokos apžvalga sketchnote formatu](../../../../../translated_images/lt/lesson-24.4246968ed058510ab275052e87ef9aa89c7b2f938915d103c605c04dc6cd5bb7.jpg)
 
 > Sketchnote sukūrė [Nitya Narasimhan](https://github.com/nitya). Spustelėkite paveikslėlį, kad pamatytumėte didesnę versiją.
 
@@ -83,7 +83,7 @@ Yra keletas dirbtinio intelekto paslaugų, kurias galima naudoti jūsų programo
 
 ### „Cognitive Services“ kalbos paslauga
 
-![Kalbos paslaugos logotipas](../../../../../translated_images/azure-speech-logo.a1f08c4befb0159f2cb5d692d3baf5b599e7b44759d316da907bda1508f46a4a.lt.png)
+![Kalbos paslaugos logotipas](../../../../../translated_images/lt/azure-speech-logo.a1f08c4befb0159f2cb5d692d3baf5b599e7b44759d316da907bda1508f46a4a.png)
 
 Kalbos paslauga, kurią naudojote per pastarąsias pamokas, turi vertimo galimybes kalbos atpažinimui. Kai atpažįstate kalbą, galite prašyti ne tik kalbos teksto ta pačia kalba, bet ir kitomis kalbomis.
 
@@ -91,7 +91,7 @@ Kalbos paslauga, kurią naudojote per pastarąsias pamokas, turi vertimo galimyb
 
 ### „Cognitive Services“ vertėjo paslauga
 
-![Vertėjo paslaugos logotipas](../../../../../translated_images/azure-translator-logo.c6ed3a4a433edfd2f11577eca105412c50b8396b194cbbd730723dd1d0793bcd.lt.png)
+![Vertėjo paslaugos logotipas](../../../../../translated_images/lt/azure-translator-logo.c6ed3a4a433edfd2f11577eca105412c50b8396b194cbbd730723dd1d0793bcd.png)
 
 Vertėjo paslauga yra specializuota vertimo paslauga, kuri gali versti tekstą iš vienos kalbos į vieną ar daugiau tikslinių kalbų. Be vertimo, ji palaiko daugybę papildomų funkcijų, įskaitant keiksmažodžių maskavimą. Ji taip pat leidžia jums pateikti konkretų vertimą tam tikram žodžiui ar sakiniui, kad galėtumėte dirbti su terminais, kurių nenorite versti, arba turėti konkretų gerai žinomą vertimą.
 
@@ -130,7 +130,7 @@ Pavyzdžiui, verčiant sakinį „Aš turiu Raspberry Pi“, nurodant vieno plok
 
 Idealiame pasaulyje visa jūsų programa turėtų suprasti kuo daugiau skirtingų kalbų – nuo kalbos klausymo iki kalbos supratimo ir atsakymo kalba. Tai reikalauja daug darbo, todėl vertimo paslaugos gali pagreitinti jūsų programos pristatymo laiką.
 
-![Išmaniojo laikmačio architektūra, verčianti japonų kalbą į anglų, apdorojanti anglų kalba, o tada verčianti atgal į japonų](../../../../../translated_images/translated-smart-timer.08ac20057fdc5c37.lt.png)
+![Išmaniojo laikmačio architektūra, verčianti japonų kalbą į anglų, apdorojanti anglų kalba, o tada verčianti atgal į japonų](../../../../../translated_images/lt/translated-smart-timer.08ac20057fdc5c37.png)
 
 Įsivaizduokite, kad kuriate išmanųjį laikmatį, kuris naudoja anglų kalbą nuo pradžios iki pabaigos, supranta sakomą anglų kalbą ir paverčia ją tekstu, vykdo kalbos supratimą anglų kalba, kuria atsakymus anglų kalba ir atsako anglų kalbos kalba. Jei norėtumėte pridėti japonų kalbos palaikymą, galėtumėte pradėti nuo sakomos japonų kalbos vertimo į anglų tekstą, tada palikti pagrindinę programos dalį tokią pačią, o tada išversti atsakymo tekstą į japonų kalbą prieš sakant atsakymą. Tai leistų greitai pridėti japonų kalbos palaikymą, o vėliau galėtumėte išplėsti iki pilno japonų kalbos palaikymo nuo pradžios iki pabaigos.
 

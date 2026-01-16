@@ -25,13 +25,13 @@ A gomb csatlakoztatható a Grove alaplaphoz.
 
 #### Feladat - a gomb csatlakoztatása
 
-![Egy Grove gomb](../../../../../translated_images/grove-button.a70cfbb809a8563681003250cf5b06d68cdcc68624f9e2f493d5a534ae2da1e5.hu.png)
+![Egy Grove gomb](../../../../../translated_images/hu/grove-button.a70cfbb809a8563681003250cf5b06d68cdcc68624f9e2f493d5a534ae2da1e5.png)
 
 1. Illeszd be a Grove kábel egyik végét a gombmodul aljzatába. Csak egyféleképpen illeszkedik.
 
 1. Kapcsold ki a Raspberry Pi-t, majd csatlakoztasd a Grove kábel másik végét a **D5** jelzésű digitális aljzathoz a Grove alaplapon, amely a Pi-hez van csatlakoztatva. Ez az aljzat a második balról, a GPIO tüskék melletti aljzatsoron.
 
-![A Grove gomb csatlakoztatva a D5 aljzathoz](../../../../../translated_images/pi-button.c7a1a4f55943341ce1baf1057658e9a205804d4131d258e820c93f951df0abf3.hu.png)
+![A Grove gomb csatlakoztatva a D5 aljzathoz](../../../../../translated_images/hu/pi-button.c7a1a4f55943341ce1baf1057658e9a205804d4131d258e820c93f951df0abf3.png)
 
 ## Hang rögzítése
 

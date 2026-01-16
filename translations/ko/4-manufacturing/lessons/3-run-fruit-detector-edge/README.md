@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # 엣지에서 과일 감지기 실행하기
 
-![이 강의의 스케치노트 개요](../../../../../translated_images/lesson-17.bc333c3c35ba8e42cce666cfffa82b915f787f455bd94e006aea2b6f2722421a.ko.jpg)
+![이 강의의 스케치노트 개요](../../../../../translated_images/ko/lesson-17.bc333c3c35ba8e42cce666cfffa82b915f787f455bd94e006aea2b6f2722421a.jpg)
 
 > 스케치노트: [Nitya Narasimhan](https://github.com/nitya). 이미지를 클릭하면 더 큰 버전을 볼 수 있습니다.
 
@@ -42,11 +42,11 @@ CO_OP_TRANSLATOR_METADATA:
 
 엣지 컴퓨팅은 IoT 데이터가 생성되는 위치에 최대한 가까운 곳에서 데이터를 처리하는 것을 의미합니다. 클라우드에서 처리하는 대신, 클라우드의 엣지, 즉 내부 네트워크로 처리 위치를 이동합니다.
 
-![클라우드에서 인터넷 서비스를 제공하고 로컬 네트워크에서 IoT 디바이스가 작동하는 아키텍처 다이어그램](../../../../../translated_images/cloud-without-edge.b4da641f6022c95ed6b91fde8b5323abd2f94e0d52073ad54172ae8f5dac90e9.ko.png)
+![클라우드에서 인터넷 서비스를 제공하고 로컬 네트워크에서 IoT 디바이스가 작동하는 아키텍처 다이어그램](../../../../../translated_images/ko/cloud-without-edge.b4da641f6022c95ed6b91fde8b5323abd2f94e0d52073ad54172ae8f5dac90e9.png)
 
 지금까지의 강의에서는 디바이스가 데이터를 수집하고 클라우드로 전송하여 서버리스 함수나 AI 모델을 실행해 분석하는 방식을 사용했습니다.
 
-![로컬 네트워크에서 IoT 디바이스가 엣지 디바이스에 연결되고, 엣지 디바이스가 클라우드에 연결되는 아키텍처 다이어그램](../../../../../translated_images/cloud-with-edge.1e26462c62c126fe150bd15a5714ddf0be599f09bacbad08b85be02b76ea1ae1.ko.png)
+![로컬 네트워크에서 IoT 디바이스가 엣지 디바이스에 연결되고, 엣지 디바이스가 클라우드에 연결되는 아키텍처 다이어그램](../../../../../translated_images/ko/cloud-with-edge.1e26462c62c126fe150bd15a5714ddf0be599f09bacbad08b85be02b76ea1ae1.png)
 
 엣지 컴퓨팅은 일부 클라우드 서비스를 클라우드에서 제거하고 IoT 디바이스와 동일한 네트워크에서 실행되는 컴퓨터로 이동하는 것을 포함합니다. 예를 들어, 엣지 디바이스에서 AI 모델을 실행하여 과일의 익은 정도를 분석하고, 익은 과일과 덜 익은 과일의 개수와 같은 분석 결과만 클라우드로 전송할 수 있습니다.
 
@@ -94,7 +94,7 @@ IoT 시스템에서는 시스템, 고객, 유지보수자의 요구에 따라 �
 
 ## Azure IoT Edge
 
-![Azure IoT Edge 로고](../../../../../translated_images/azure-iot-edge-logo.c1c076749b5cba2e8755262fadc2f19ca1146b948d76990b1229199ac2292d79.ko.png)
+![Azure IoT Edge 로고](../../../../../translated_images/ko/azure-iot-edge-logo.c1c076749b5cba2e8755262fadc2f19ca1146b948d76990b1229199ac2292d79.png)
 
 Azure IoT Edge는 작업 부하를 클라우드에서 엣지로 이동하는 데 도움을 줄 수 있는 서비스입니다. 디바이스를 엣지 디바이스로 설정하고, 클라우드에서 해당 엣지 디바이스로 코드를 배포할 수 있습니다. 이를 통해 클라우드와 엣지의 기능을 혼합할 수 있습니다.
 
@@ -108,7 +108,7 @@ IoT Edge는 IoT Hub에 내장되어 있으므로 IoT 디바이스를 관리하�
 
 IoT Edge는 *컨테이너*에서 코드를 실행합니다. 컨테이너는 컴퓨터의 다른 애플리케이션과 격리된 상태로 실행되는 독립적인 애플리케이션입니다. 컨테이너를 실행하면 컴퓨터 내부에서 별도의 컴퓨터처럼 작동하며, 자체 소프트웨어, 서비스 및 애플리케이션을 실행합니다. 대부분의 경우 컨테이너는 사용자가 폴더와 같은 항목을 공유하도록 선택하지 않는 한 컴퓨터의 다른 항목에 액세스할 수 없습니다. 컨테이너는 네트워크에 연결하거나 노출할 수 있는 열린 포트를 통해 서비스를 제공합니다.
 
-![컨테이너로 리디렉션된 웹 요청](../../../../../translated_images/container-web-browser.4ee81dd4f0d8838ce622b2a0d600b6a4322b5d4fe43159facd87b7b34f84d66a.ko.png)
+![컨테이너로 리디렉션된 웹 요청](../../../../../translated_images/ko/container-web-browser.4ee81dd4f0d8838ce622b2a0d600b6a4322b5d4fe43159facd87b7b34f84d66a.png)
 
 예를 들어, 포트 80(기본 HTTP 포트)에서 실행되는 웹 사이트가 있는 컨테이너를 생성하고, 이를 컴퓨터에서도 포트 80으로 노출할 수 있습니다.
 
@@ -203,11 +203,11 @@ IoT Edge 디바이스를 사용하려면 IoT Hub에 등록해야 합니다.
 
 ## 배포를 위한 컨테이너 준비
 
-![컨테이너는 빌드된 후 컨테이너 레지스트리에 푸시되고, IoT Edge를 사용하여 엣지 디바이스로 배포됩니다.](../../../../../translated_images/container-edge-flow.c246050dd60ceefdb6ace026a4ce5c6aa4112bb5898ae23fbb2ab4be29ae3e1b.ko.png)
+![컨테이너는 빌드된 후 컨테이너 레지스트리에 푸시되고, IoT Edge를 사용하여 엣지 디바이스로 배포됩니다.](../../../../../translated_images/ko/container-edge-flow.c246050dd60ceefdb6ace026a4ce5c6aa4112bb5898ae23fbb2ab4be29ae3e1b.png)
 
 모델을 다운로드한 후, 컨테이너로 빌드한 다음 컨테이너 레지스트리에 푸시해야 합니다. 컨테이너 레지스트리는 컨테이너를 저장할 수 있는 온라인 위치입니다. IoT Edge는 레지스트리에서 컨테이너를 다운로드한 후 디바이스로 푸시할 수 있습니다.
 
-![Azure Container Registry 로고](../../../../../translated_images/azure-container-registry-logo.09494206991d4b295025ebff7d4e2900325e527a59184ffbc8464b6ab59654be.ko.png)
+![Azure Container Registry 로고](../../../../../translated_images/ko/azure-container-registry-logo.09494206991d4b295025ebff7d4e2900325e527a59184ffbc8464b6ab59654be.png)
 
 이 레슨에서 사용할 컨테이너 레지스트리는 Azure Container Registry입니다. 이 서비스는 무료가 아니므로, 완료 후 [프로젝트 정리](../../../clean-up.md)를 통해 비용을 절약하세요.
 

@@ -37,11 +37,11 @@ CounterFit 앱에 조도 센서를 추가하세요.
 
     1. **Add** 버튼을 선택하여 Pin 0에 조도 센서를 생성하세요.
 
-    ![조도 센서 설정](../../../../../translated_images/counterfit-create-light-sensor.9f36a5e0d4458d8d554d54b34d2c806d56093d6e49fddcda2d20f6fef7f5cce1.ko.png)
+    ![조도 센서 설정](../../../../../translated_images/ko/counterfit-create-light-sensor.9f36a5e0d4458d8d554d54b34d2c806d56093d6e49fddcda2d20f6fef7f5cce1.png)
 
     조도 센서가 생성되어 센서 목록에 나타납니다.
 
-    ![생성된 조도 센서](../../../../../translated_images/counterfit-light-sensor.5d0f5584df56b90f6b2561910d9cb20dfbd73eeff2177c238d38f4de54aefae1.ko.png)
+    ![생성된 조도 센서](../../../../../translated_images/ko/counterfit-light-sensor.5d0f5584df56b90f6b2561910d9cb20dfbd73eeff2177c238d38f4de54aefae1.png)
 
 ## 조도 센서 프로그래밍
 

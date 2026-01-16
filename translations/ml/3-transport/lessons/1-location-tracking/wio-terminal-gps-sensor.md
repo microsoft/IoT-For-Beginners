@@ -27,13 +27,13 @@ Grove GPS സെന്‍സർ Wio Terminal ല്‍ കണക്ട് ചെ
 
 GPS സെന്‍സർ കണക്ട് ചെയ്യുക.
 
-![A grove GPS sensor](../../../../../translated_images/grove-gps-sensor.247943bf69b03f0d.ml.png)
+![A grove GPS sensor](../../../../../translated_images/ml/grove-gps-sensor.247943bf69b03f0d.png)
 
 1. ഒരു Grove കേബിളിന്റെ ഒരു അറ്റം GPS സെന്‍സറിന്റെ സോക്കറ്റിലേക്ക് പ്രവേശിപ്പിക്കുക. അത് ഒരു മാത്രം ദിശയിലേയ്ക്ക് കണക്ട് ചെയ്യപ്പെട്ടിരിക്കും.
 
 1. Wio Terminal നിങ്ങളുടെ കമ്പ്യൂട്ടറില്‍ നിന്നും അല്ലെങ്കിൽ മറ്റ് പവറിനെകിൾ നിന്ന് അൺകണക്ട് ചെയ്തിരിക്കുമ്പോൾ, Grove കേബിളിന്റെ മറു അറ്റം Wio Terminal ന്റെ സ്ക്രീന്‍ കാണുമ്പോൾ ഇടതുവശത്തുള്ള Grove സോക്കറ്റിലേക്കുനിൽക്കൂ. ഇത് പവർ ബട്ടണിനടുത്തുള്ള സോക്കറ്റാണ്.
 
-    ![The grove GPS sensor connected to the left hand socket](../../../../../translated_images/wio-gps-sensor.19fd52b81ce58095.ml.png)
+    ![The grove GPS sensor connected to the left hand socket](../../../../../translated_images/ml/wio-gps-sensor.19fd52b81ce58095.png)
 
 1. GPS സെന്‍സര്‍ ആന്റിന കത്തിയുള്ള ഭാഗം ആകാശത്തേക്ക് കാണുന്ന വിധത്തില്‍ സ്ഥിതി ചെയ്യുക - ആശയവിനിമയം പൂർത്തിയാകാൻ തുറന്ന കിടപ്പുമുറിവീടോ പുറത്തോ ഉയർന്ന സ്ഥിതിയോ ഉത്തമമാണ്. ആന്റിനയ്ക്ക് മുന്നിൽ ഒന്നും ഇല്ലാതിരിക്കുകയാണെങ്കിൽ സിഗ്നൽ കൂടുതല്‍ വ്യക്തമാണ്.
 

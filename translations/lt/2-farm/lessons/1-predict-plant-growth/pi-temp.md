@@ -25,13 +25,13 @@ Grove temperatūros jutiklį galima prijungti prie Raspberry Pi.
 
 Prijunkite temperatūros jutiklį
 
-![Grove temperatūros jutiklis](../../../../../translated_images/grove-dht11.07f8eafceee170043efbb53e1d15722bd4e00fbaa9ff74290b57e9f66eb82c17.lt.png)
+![Grove temperatūros jutiklis](../../../../../translated_images/lt/grove-dht11.07f8eafceee170043efbb53e1d15722bd4e00fbaa9ff74290b57e9f66eb82c17.png)
 
 1. Įstatykite vieną Grove kabelio galą į lizdą ant drėgmės ir temperatūros jutiklio. Jis įsistatys tik viena kryptimi.
 
 1. Išjungę Raspberry Pi, prijunkite kitą Grove kabelio galą prie skaitmeninio lizdo, pažymėto **D5**, esančio ant Grove Base hat, prijungto prie Pi. Šis lizdas yra antras iš kairės, eilėje šalia GPIO pinų.
 
-![Grove temperatūros jutiklis prijungtas prie lizdo A0](../../../../../translated_images/pi-temperature-sensor.3ff82fff672c8e56.lt.png)
+![Grove temperatūros jutiklis prijungtas prie lizdo A0](../../../../../translated_images/lt/pi-temperature-sensor.3ff82fff672c8e56.png)
 
 ## Užprogramuokite temperatūros jutiklį
 

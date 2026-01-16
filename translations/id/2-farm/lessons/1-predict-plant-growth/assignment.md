@@ -42,7 +42,7 @@ Setelah Anda memiliki data suhu, Anda dapat menggunakan Jupyter Notebook dalam r
 
     Jupyter akan mulai dan membuka notebook di browser Anda. Ikuti instruksi dalam notebook untuk memvisualisasikan suhu yang diukur, dan menghitung growing degree days.
 
-    ![The jupyter notebook](../../../../../translated_images/gdd-jupyter-notebook.c5b52cf21094f158a61f47f455490fd95f1729777ff90861a4521820bf354cdc.id.png)
+    ![The jupyter notebook](../../../../../translated_images/id/gdd-jupyter-notebook.c5b52cf21094f158a61f47f455490fd95f1729777ff90861a4521820bf354cdc.png)
 
 ## Rubrik
 

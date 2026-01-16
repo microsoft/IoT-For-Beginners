@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Berinteraksi dengan Dunia Fisik Menggunakan Sensor dan Aktuator
 
-![Gambaran sketchnote dari pelajaran ini](../../../../../translated_images/lesson-3.cc3b7b4cd646de598698cce043c0393fd62ef42bac2eaf60e61272cd844250f4.id.jpg)
+![Gambaran sketchnote dari pelajaran ini](../../../../../translated_images/id/lesson-3.cc3b7b4cd646de598698cce043c0393fd62ef42bac2eaf60e61272cd844250f4.jpg)
 
 > Sketchnote oleh [Nitya Narasimhan](https://github.com/nitya). Klik gambar untuk versi yang lebih besar.
 
@@ -75,7 +75,7 @@ Beberapa sensor paling dasar adalah sensor analog. Sensor ini menerima tegangan 
 
 Salah satu contohnya adalah potensiometer. Ini adalah kenop yang dapat Anda putar di antara dua posisi, dan sensor mengukur rotasi tersebut.
 
-![Potensiometer diatur ke titik tengah, menerima 5 volt, dan mengembalikan 3,8 volt](../../../../../translated_images/potentiometer.35a348b9ce22f6ec.id.png)
+![Potensiometer diatur ke titik tengah, menerima 5 volt, dan mengembalikan 3,8 volt](../../../../../translated_images/id/potentiometer.35a348b9ce22f6ec.png)
 
 Perangkat IoT akan mengirimkan sinyal listrik ke potensiometer pada tegangan tertentu, misalnya 5 volt (5V). Saat potensiometer disesuaikan, tegangan yang keluar dari sisi lain akan berubah. Bayangkan Anda memiliki potensiometer yang diberi label sebagai kenop yang berkisar dari 0 hingga [11](https://wikipedia.org/wiki/Up_to_eleven), seperti kenop volume pada amplifier. Ketika potensiometer berada di posisi mati penuh (0), maka 0V (0 volt) akan keluar. Ketika berada di posisi nyala penuh (11), 5V (5 volt) akan keluar.
 
@@ -101,7 +101,7 @@ Sensor digital, seperti sensor analog, mendeteksi dunia di sekitar mereka menggu
 
 Sensor digital paling sederhana adalah tombol atau saklar. Ini adalah sensor dengan dua keadaan, hidup atau mati.
 
-![Tombol menerima 5 volt. Saat tidak ditekan, mengembalikan 0 volt; saat ditekan, mengembalikan 5 volt](../../../../../translated_images/button.eadb560b77ac45e56f523d9d8876e40444f63b419e33eb820082d461fa79490b.id.png)
+![Tombol menerima 5 volt. Saat tidak ditekan, mengembalikan 0 volt; saat ditekan, mengembalikan 5 volt](../../../../../translated_images/id/button.eadb560b77ac45e56f523d9d8876e40444f63b419e33eb820082d461fa79490b.png)
 
 Pin pada perangkat IoT seperti pin GPIO dapat mengukur sinyal ini secara langsung sebagai 0 atau 1. Jika tegangan yang dikirim sama dengan tegangan yang dikembalikan, nilai yang dibaca adalah 1, jika tidak nilai yang dibaca adalah 0. Tidak perlu mengonversi sinyal, sinyal hanya bisa berupa 1 atau 0.
 
@@ -112,7 +112,7 @@ Pin pada perangkat IoT seperti pin GPIO dapat mengukur sinyal ini secara langsun
 
 Sensor digital yang lebih canggih membaca nilai analog, lalu mengonversinya menggunakan ADC bawaan menjadi sinyal digital. Misalnya, sensor suhu digital masih menggunakan termokopel dengan cara yang sama seperti sensor analog, dan masih mengukur perubahan tegangan yang disebabkan oleh resistansi termokopel pada suhu saat ini. Alih-alih mengembalikan nilai analog dan mengandalkan perangkat atau papan konektor untuk mengonversi menjadi sinyal digital, ADC yang dibangun ke dalam sensor akan mengonversi nilai tersebut dan mengirimkannya sebagai serangkaian 0 dan 1 ke perangkat IoT. 0 dan 1 ini dikirim dengan cara yang sama seperti sinyal digital untuk tombol dengan 1 sebagai tegangan penuh dan 0 sebagai 0V.
 
-![Sensor suhu digital mengonversi pembacaan analog menjadi data biner dengan 0 sebagai 0 volt dan 1 sebagai 5 volt sebelum mengirimkannya ke perangkat IoT](../../../../../translated_images/temperature-as-digital.85004491b977bae1.id.png)
+![Sensor suhu digital mengonversi pembacaan analog menjadi data biner dengan 0 sebagai 0 volt dan 1 sebagai 5 volt sebelum mengirimkannya ke perangkat IoT](../../../../../translated_images/id/temperature-as-digital.85004491b977bae1.png)
 
 Mengirim data digital memungkinkan sensor menjadi lebih kompleks dan mengirimkan data yang lebih rinci, bahkan data terenkripsi untuk sensor yang aman. Salah satu contohnya adalah kamera. Ini adalah sensor yang menangkap gambar dan mengirimkannya sebagai data digital yang berisi gambar tersebut, biasanya dalam format terkompresi seperti JPEG, untuk dibaca oleh perangkat IoT. Kamera bahkan dapat melakukan streaming video dengan menangkap gambar dan mengirimkan gambar lengkap frame demi frame atau aliran video terkompresi.
 
@@ -134,7 +134,7 @@ Beberapa aktuator umum meliputi:
 
 Ikuti panduan yang relevan di bawah ini untuk menambahkan aktuator ke perangkat IoT Anda, yang dikendalikan oleh sensor, untuk membangun lampu malam IoT. Lampu ini akan mengumpulkan tingkat cahaya dari sensor cahaya, dan menggunakan aktuator berupa LED untuk memancarkan cahaya saat tingkat cahaya yang terdeteksi terlalu rendah.
 
-![Diagram alur tugas menunjukkan tingkat cahaya yang dibaca dan diperiksa, serta LED yang dikendalikan](../../../../../translated_images/assignment-1-flow.7552a51acb1a5ec858dca6e855cdbb44206434006df8ba3799a25afcdab1665d.id.png)
+![Diagram alur tugas menunjukkan tingkat cahaya yang dibaca dan diperiksa, serta LED yang dikendalikan](../../../../../translated_images/id/assignment-1-flow.7552a51acb1a5ec858dca6e855cdbb44206434006df8ba3799a25afcdab1665d.png)
 
 * [Arduino - Wio Terminal](wio-terminal-actuator.md)
 * [Komputer papan tunggal - Raspberry Pi](pi-actuator.md)
@@ -149,7 +149,7 @@ Seperti sensor, aktuator dapat berupa analog atau digital.
 Aktuator analog menerima sinyal analog dan mengubahnya menjadi semacam interaksi, di mana interaksi tersebut berubah berdasarkan tegangan yang diberikan.
 
 Salah satu contohnya adalah lampu yang dapat diredupkan, seperti yang mungkin Anda miliki di rumah Anda. Jumlah tegangan yang diberikan ke lampu menentukan seberapa terang lampu tersebut.
-![Cahaya redup pada tegangan rendah dan lebih terang pada tegangan tinggi](../../../../../translated_images/dimmable-light.9ceffeb195dec1a849da718b2d71b32c35171ff7dfea9c07bbf82646a67acf6b.id.png)
+![Cahaya redup pada tegangan rendah dan lebih terang pada tegangan tinggi](../../../../../translated_images/id/dimmable-light.9ceffeb195dec1a849da718b2d71b32c35171ff7dfea9c07bbf82646a67acf6b.png)
 
 Seperti halnya sensor, perangkat IoT sebenarnya bekerja dengan sinyal digital, bukan analog. Ini berarti untuk mengirimkan sinyal analog, perangkat IoT memerlukan konverter digital ke analog (DAC), baik langsung pada perangkat IoT atau pada papan konektor. Konverter ini akan mengubah 0 dan 1 dari perangkat IoT menjadi tegangan analog yang dapat digunakan oleh aktuator.
 
@@ -164,7 +164,7 @@ Sebagai contoh, kamu dapat menggunakan PWM untuk mengontrol kecepatan motor.
 
 Bayangkan kamu mengontrol motor dengan suplai 5V. Kamu mengirimkan pulsa pendek ke motor, mengubah tegangan menjadi tinggi (5V) selama dua per seratus detik (0,02s). Dalam waktu tersebut, motor dapat berputar sepersepuluh putaran, atau 36°. Sinyal kemudian berhenti selama dua per seratus detik (0,02s), mengirimkan sinyal rendah (0V). Setiap siklus nyala lalu mati berlangsung selama 0,04s. Siklus ini kemudian berulang.
 
-![Rotasi motor dengan modulasi lebar pulsa pada 150 RPM](../../../../../translated_images/pwm-motor-150rpm.83347ac04ca38482.id.png)
+![Rotasi motor dengan modulasi lebar pulsa pada 150 RPM](../../../../../translated_images/id/pwm-motor-150rpm.83347ac04ca38482.png)
 
 Ini berarti dalam satu detik kamu memiliki 25 pulsa 5V selama 0,02s yang memutar motor, masing-masing diikuti oleh jeda 0,02s dengan 0V yang tidak memutar motor. Setiap pulsa memutar motor sepersepuluh putaran, yang berarti motor menyelesaikan 2,5 putaran per detik. Kamu telah menggunakan sinyal digital untuk memutar motor pada 2,5 putaran per detik, atau 150 [putaran per menit](https://wikipedia.org/wiki/Revolutions_per_minute) (ukuran kecepatan rotasi yang tidak standar).
 
@@ -175,7 +175,7 @@ Ini berarti dalam satu detik kamu memiliki 25 pulsa 5V selama 0,02s yang memutar
 
 > 🎓 Ketika sinyal PWM menyala selama setengah waktu, dan mati selama setengah waktu, ini disebut sebagai [siklus tugas 50%](https://wikipedia.org/wiki/Duty_cycle). Siklus tugas diukur sebagai persentase waktu sinyal berada dalam keadaan nyala dibandingkan dengan keadaan mati.
 
-![Rotasi motor dengan modulasi lebar pulsa pada 75 RPM](../../../../../translated_images/pwm-motor-75rpm.a5e4c939934b6e14.id.png)
+![Rotasi motor dengan modulasi lebar pulsa pada 75 RPM](../../../../../translated_images/id/pwm-motor-75rpm.a5e4c939934b6e14.png)
 
 Kamu dapat mengubah kecepatan motor dengan mengubah ukuran pulsa. Sebagai contoh, dengan motor yang sama kamu dapat mempertahankan waktu siklus yang sama yaitu 0,04s, dengan pulsa nyala dipotong setengah menjadi 0,01s, dan pulsa mati meningkat menjadi 0,03s. Kamu memiliki jumlah pulsa per detik yang sama (25), tetapi setiap pulsa nyala hanya setengah panjangnya. Pulsa setengah panjang hanya memutar motor seperdua puluh putaran, dan pada 25 pulsa per detik akan menyelesaikan 1,25 putaran per detik atau 75rpm. Dengan mengubah kecepatan pulsa sinyal digital, kamu telah mengurangi kecepatan motor analog menjadi setengahnya.
 
@@ -196,7 +196,7 @@ Aktuator digital, seperti sensor digital, memiliki dua keadaan yang dikontrol ol
 
 Salah satu aktuator digital sederhana adalah LED. Ketika perangkat mengirimkan sinyal digital 1, tegangan tinggi dikirimkan yang menyalakan LED. Ketika sinyal digital 0 dikirimkan, tegangan turun menjadi 0V dan LED mati.
 
-![LED mati pada 0 volt dan menyala pada 5V](../../../../../translated_images/led.ec6d94f66676a174ad06d9fa9ea49c2ee89beb18b312d5c6476467c66375b07f.id.png)
+![LED mati pada 0 volt dan menyala pada 5V](../../../../../translated_images/id/led.ec6d94f66676a174ad06d9fa9ea49c2ee89beb18b312d5c6476467c66375b07f.png)
 
 ✅ Aktuator 2-keadaan sederhana apa lagi yang bisa kamu pikirkan? Salah satu contohnya adalah solenoid, yang merupakan elektromagnet yang dapat diaktifkan untuk melakukan hal-hal seperti menggerakkan baut pintu untuk mengunci/membuka kunci pintu.
 

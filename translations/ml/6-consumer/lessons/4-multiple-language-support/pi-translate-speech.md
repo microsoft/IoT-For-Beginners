@@ -34,7 +34,7 @@ The speech service REST API doesn't support direct translations, instead you can
     >
     > ഉദാഹരണത്തിന്, നിങ്ങൾ LUIS ഇംഗ്ലീഷിൽ പരിശീലിപ്പിച്ചിട്ടുണ്ടെങ്കിലും ഉപഭോക്താവിന്റെ ഭാഷ ഫ്രഞ്ചായി തിരഞ്ഞെടുക്കാൻ ആഗ്രഹിക്കുന്നുവെങ്കിൽ, Bing Translate ഉപയോഗിച്ച് "set a 2 minute and 27 second timer" എന്ന വാചകത്തെ ഇംഗ്ലീഷിൽ നിന്ന് ഫ്രഞ്ചിലേക്കു തന്നെ പരിഭാഷപ്പെടുത്താം, തുടർന്ന് **Listen translation** ബട്ടൺ ഉപയോഗിച്ച് മൈക്രോഫോൺ വഴി ആ പരിഭാഷ പറയാൻ കഴിയും.
     >
-    > ![The listen translation button on Bing translate](../../../../../translated_images/bing-translate.348aa796d6efe2a9.ml.png)
+    > ![The listen translation button on Bing translate](../../../../../translated_images/ml/bing-translate.348aa796d6efe2a9.png)
 
 1. Add the translator API key below the `speech_api_key`:
 

@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # アプリケーションロジックをクラウドに移行する
 
-![このレッスンの概要を示すスケッチノート](../../../../../translated_images/lesson-9.dfe99c8e891f48e179724520da9f5794392cf9a625079281ccdcbf09bd85e1b6.ja.jpg)
+![このレッスンの概要を示すスケッチノート](../../../../../translated_images/ja/lesson-9.dfe99c8e891f48e179724520da9f5794392cf9a625079281ccdcbf09bd85e1b6.jpg)
 
 > スケッチノート作成者：[Nitya Narasimhan](https://github.com/nitya)。画像をクリックすると拡大版が表示されます。
 
@@ -37,11 +37,11 @@ CO_OP_TRANSLATOR_METADATA:
 
 サーバーレス、またはサーバーレスコンピューティングとは、さまざまな種類のイベントに応じてクラウドで実行される小さなコードブロックを作成することを指します。イベントが発生するとコードが実行され、そのイベントに関するデータが渡されます。これらのイベントは、Webリクエスト、キューに置かれたメッセージ、データベース内のデータの変更、またはIoTデバイスからIoTサービスに送信されたメッセージなど、さまざまなものから発生します。
 
-![IoTサービスからサーバーレスサービスに送信されるイベントが、複数の関数によって同時に処理される様子](../../../../../translated_images/iot-messages-to-serverless.0194da1cc0732bb7d0f823aed3fce54735c6b1ad3bf36089804d8aaefc0a774f.ja.png)
+![IoTサービスからサーバーレスサービスに送信されるイベントが、複数の関数によって同時に処理される様子](../../../../../translated_images/ja/iot-messages-to-serverless.0194da1cc0732bb7d0f823aed3fce54735c6b1ad3bf36089804d8aaefc0a774f.png)
 
 > 💁 以前にデータベーストリガーを使用したことがある場合、これは同じようなものと考えられます。例えば、行を挿入するなどのイベントによってコードがトリガーされます。
 
-![多くのイベントが同時に送信されると、サーバーレスサービスがスケールアップしてすべてを同時に実行する様子](../../../../../translated_images/serverless-scaling.f8c769adf0413fd1.ja.png)
+![多くのイベントが同時に送信されると、サーバーレスサービスがスケールアップしてすべてを同時に実行する様子](../../../../../translated_images/ja/serverless-scaling.f8c769adf0413fd1.png)
 
 コードはイベントが発生したときにのみ実行され、それ以外の時間はコードがアクティブではありません。イベントが発生するとコードがロードされて実行されます。この仕組みにより、サーバーレスは非常にスケーラブルです。同時に多くのイベントが発生した場合、クラウドプロバイダーは必要な数だけ関数を同時に実行し、利用可能なサーバーで処理します。ただし、イベント間で情報を共有する必要がある場合は、メモリではなくデータベースなどに保存する必要があります。
 
@@ -63,7 +63,7 @@ IoT開発者にとって、サーバーレスモデルは理想的です。ク�
 
 MicrosoftのサーバーレスコンピューティングサービスはAzure Functionsと呼ばれます。
 
-![Azure Functionsのロゴ](../../../../../translated_images/azure-functions-logo.1cfc8e3204c9c44aaf80fcf406fc8544d80d7f00f8d3e8ed6fed764563e17564.ja.png)
+![Azure Functionsのロゴ](../../../../../translated_images/ja/azure-functions-logo.1cfc8e3204c9c44aaf80fcf406fc8544d80d7f00f8d3e8ed6fed764563e17564.png)
 
 以下の短いビデオでは、Azure Functionsの概要を説明しています。
 
@@ -244,7 +244,7 @@ Azure Functions CLIを使用して、新しいFunctionsアプリを作成でき�
     VS Code. Initialize for optimal use with VS Code?
     ```
 
-    ![通知](../../../../../translated_images/vscode-azure-functions-init-notification.bd19b49229963edb.ja.png)
+    ![通知](../../../../../translated_images/ja/vscode-azure-functions-init-notification.bd19b49229963edb.png)
 
     この通知から**Yes**を選択してください。
 

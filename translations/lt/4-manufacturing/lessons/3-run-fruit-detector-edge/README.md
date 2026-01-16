@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Paleiskite vaisių detektorių krašte
 
-![Pamokos apžvalga piešiniu](../../../../../translated_images/lesson-17.bc333c3c35ba8e42cce666cfffa82b915f787f455bd94e006aea2b6f2722421a.lt.jpg)
+![Pamokos apžvalga piešiniu](../../../../../translated_images/lt/lesson-17.bc333c3c35ba8e42cce666cfffa82b915f787f455bd94e006aea2b6f2722421a.jpg)
 
 > Piešinys sukurtas [Nitya Narasimhan](https://github.com/nitya). Spustelėkite paveikslėlį, kad pamatytumėte didesnę versiją.
 
@@ -42,11 +42,11 @@ Praeitoje pamokoje jūs naudojote vaizdų klasifikatorių, kad atskirtumėte pri
 
 Kraštinis skaičiavimas apima kompiuterius, kurie apdoroja IoT duomenis kuo arčiau vietos, kurioje tie duomenys generuojami. Vietoj to, kad apdorojimas vyktų debesyje, jis perkeliamas į debesies kraštą – jūsų vidinį tinklą.
 
-![Architektūros diagrama, rodanti interneto paslaugas debesyje ir IoT įrenginius vietiniame tinkle](../../../../../translated_images/cloud-without-edge.b4da641f6022c95ed6b91fde8b5323abd2f94e0d52073ad54172ae8f5dac90e9.lt.png)
+![Architektūros diagrama, rodanti interneto paslaugas debesyje ir IoT įrenginius vietiniame tinkle](../../../../../translated_images/lt/cloud-without-edge.b4da641f6022c95ed6b91fde8b5323abd2f94e0d52073ad54172ae8f5dac90e9.png)
 
 Iki šiol pamokose jūsų įrenginiai rinko duomenis ir siuntė juos į debesį analizei, vykdydami serverless funkcijas arba AI modelius debesyje.
 
-![Architektūros diagrama, rodanti IoT įrenginius vietiniame tinkle, jungiančius prie kraštinių įrenginių, kurie jungiasi prie debesies](../../../../../translated_images/cloud-with-edge.1e26462c62c126fe150bd15a5714ddf0be599f09bacbad08b85be02b76ea1ae1.lt.png)
+![Architektūros diagrama, rodanti IoT įrenginius vietiniame tinkle, jungiančius prie kraštinių įrenginių, kurie jungiasi prie debesies](../../../../../translated_images/lt/cloud-with-edge.1e26462c62c126fe150bd15a5714ddf0be599f09bacbad08b85be02b76ea1ae1.png)
 
 Kraštinis skaičiavimas apima dalies debesų paslaugų perkėlimą iš debesies į kompiuterius, veikiančius tame pačiame tinkle kaip IoT įrenginiai, tik bendraujant su debesiu, jei reikia. Pavyzdžiui, galite paleisti AI modelius kraštiniuose įrenginiuose, kad analizuotumėte vaisių prinokimą, ir tik siųsti analizės duomenis į debesį, pvz., prinokusių ir neprinokusių vaisių skaičių.
 
@@ -94,7 +94,7 @@ IoT sistemoms dažnai norėsite derinti debesų ir kraštinio skaičiavimo pasla
 
 ## Azure IoT Edge
 
-![Azure IoT Edge logotipas](../../../../../translated_images/azure-iot-edge-logo.c1c076749b5cba2e8755262fadc2f19ca1146b948d76990b1229199ac2292d79.lt.png)
+![Azure IoT Edge logotipas](../../../../../translated_images/lt/azure-iot-edge-logo.c1c076749b5cba2e8755262fadc2f19ca1146b948d76990b1229199ac2292d79.png)
 
 Azure IoT Edge yra paslauga, kuri gali padėti perkelti darbo krūvius iš debesies į kraštą. Jūs nustatote įrenginį kaip kraštinį įrenginį, o iš debesies galite diegti kodą į tą kraštinį įrenginį. Tai leidžia derinti debesies ir krašto galimybes.
 
@@ -108,7 +108,7 @@ IoT Edge yra integruotas į IoT Hub, todėl galite valdyti kraštinius įrengini
 
 IoT Edge vykdo kodą iš *konteinerių* – savarankiškų programų, kurios veikia izoliuotai nuo kitų programų jūsų kompiuteryje. Kai paleidžiate konteinerį, jis veikia kaip atskiras kompiuteris jūsų kompiuteryje, turintis savo programinę įrangą, paslaugas ir programas. Daugeliu atvejų konteineriai negali pasiekti nieko jūsų kompiuteryje, nebent nuspręsite pasidalinti, pvz., aplanku su konteineriu. Konteineris tada atveria paslaugas per atvirą prievadą, kurį galite prijungti arba atverti savo tinklui.
 
-![Žiniatinklio užklausa nukreipta į konteinerį](../../../../../translated_images/container-web-browser.4ee81dd4f0d8838ce622b2a0d600b6a4322b5d4fe43159facd87b7b34f84d66a.lt.png)
+![Žiniatinklio užklausa nukreipta į konteinerį](../../../../../translated_images/lt/container-web-browser.4ee81dd4f0d8838ce622b2a0d600b6a4322b5d4fe43159facd87b7b34f84d66a.png)
 
 Pavyzdžiui, galite turėti konteinerį su tinklalapiu, veikiančiu 80 prievade, numatytame HTTP prievade, ir tada jį atverti iš savo kompiuterio taip pat 80 prievade.
 
@@ -196,11 +196,11 @@ Kai modelis bus apmokytas, jį reikia eksportuoti kaip konteinerį.
 
 ## Paruoškite savo konteinerį diegimui
 
-![Konteineriai yra kuriami, tada įkeliami į konteinerių registrą, o iš registro diegiami į kraštinį įrenginį naudojant IoT Edge](../../../../../translated_images/container-edge-flow.c246050dd60ceefdb6ace026a4ce5c6aa4112bb5898ae23fbb2ab4be29ae3e1b.lt.png)
+![Konteineriai yra kuriami, tada įkeliami į konteinerių registrą, o iš registro diegiami į kraštinį įrenginį naudojant IoT Edge](../../../../../translated_images/lt/container-edge-flow.c246050dd60ceefdb6ace026a4ce5c6aa4112bb5898ae23fbb2ab4be29ae3e1b.png)
 
 Kai atsisiųsite savo modelį, jį reikia sukurti kaip konteinerį, tada įkelti į konteinerių registrą - internetinę vietą, kurioje galite saugoti konteinerius. IoT Edge gali atsisiųsti konteinerį iš registro ir perkelti jį į jūsų įrenginį.
 
-![Azure Container Registry logotipas](../../../../../translated_images/azure-container-registry-logo.09494206991d4b295025ebff7d4e2900325e527a59184ffbc8464b6ab59654be.lt.png)
+![Azure Container Registry logotipas](../../../../../translated_images/lt/azure-container-registry-logo.09494206991d4b295025ebff7d4e2900325e527a59184ffbc8464b6ab59654be.png)
 
 Šioje pamokoje naudojamas konteinerių registras yra Azure Container Registry. Tai nėra nemokama paslauga, todėl norėdami sutaupyti pinigų, įsitikinkite, kad [išvalėte savo projektą](../../../clean-up.md), kai baigsite.
 

@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Atur Timer dan Berikan Umpan Balik Lisan
 
-![Sketchnote ringkasan pelajaran ini](../../../../../translated_images/lesson-23.f38483e1d4df4828990d3f02d60e46c978b075d384ae7cb4f7bab738e107c850.id.jpg)
+![Sketchnote ringkasan pelajaran ini](../../../../../translated_images/id/lesson-23.f38483e1d4df4828990d3f02d60e46c978b075d384ae7cb4f7bab738e107c850.jpg)
 
 > Sketchnote oleh [Nitya Narasimhan](https://github.com/nitya). Klik gambar untuk versi yang lebih besar.
 
@@ -37,7 +37,7 @@ Dalam pelajaran ini, kita akan membahas:
 
 Teks ke ucapan, seperti namanya, adalah proses mengonversi teks menjadi audio yang berisi kata-kata yang diucapkan. Prinsip dasarnya adalah memecah kata-kata dalam teks menjadi bunyi-bunyi penyusunnya (dikenal sebagai fonem), dan menyatukan audio untuk bunyi-bunyi tersebut, baik menggunakan audio yang telah direkam sebelumnya atau menggunakan audio yang dihasilkan oleh model AI.
 
-![Tiga tahap sistem teks ke ucapan](../../../../../translated_images/tts-overview.193843cf3f5ee09f.id.png)
+![Tiga tahap sistem teks ke ucapan](../../../../../translated_images/id/tts-overview.193843cf3f5ee09f.png)
 
 Sistem teks ke ucapan biasanya memiliki 3 tahap:
 

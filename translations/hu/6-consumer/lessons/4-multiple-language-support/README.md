@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Többnyelvű támogatás
 
-![A leckéről készült vázlatrajz](../../../../../translated_images/lesson-24.4246968ed058510ab275052e87ef9aa89c7b2f938915d103c605c04dc6cd5bb7.hu.jpg)
+![A leckéről készült vázlatrajz](../../../../../translated_images/hu/lesson-24.4246968ed058510ab275052e87ef9aa89c7b2f938915d103c605c04dc6cd5bb7.jpg)
 
 > Vázlatrajz: [Nitya Narasimhan](https://github.com/nitya). Kattints a képre a nagyobb verzióért.
 
@@ -83,7 +83,7 @@ Számos MI szolgáltatás érhető el, amelyeket alkalmazásaidból használhats
 
 ### Cognitive Services Beszédszolgáltatás
 
-![A beszédszolgáltatás logója](../../../../../translated_images/azure-speech-logo.a1f08c4befb0159f2cb5d692d3baf5b599e7b44759d316da907bda1508f46a4a.hu.png)
+![A beszédszolgáltatás logója](../../../../../translated_images/hu/azure-speech-logo.a1f08c4befb0159f2cb5d692d3baf5b599e7b44759d316da907bda1508f46a4a.png)
 
 Az elmúlt néhány leckében használt beszédszolgáltatás fordítási képességekkel is rendelkezik a beszédfelismeréshez. Amikor beszédet ismersz fel, nemcsak az adott nyelvű szöveget kérheted, hanem más nyelveken is.
 
@@ -91,7 +91,7 @@ Az elmúlt néhány leckében használt beszédszolgáltatás fordítási képes
 
 ### Cognitive Services Fordító szolgáltatás
 
-![A fordító szolgáltatás logója](../../../../../translated_images/azure-translator-logo.c6ed3a4a433edfd2f11577eca105412c50b8396b194cbbd730723dd1d0793bcd.hu.png)
+![A fordító szolgáltatás logója](../../../../../translated_images/hu/azure-translator-logo.c6ed3a4a433edfd2f11577eca105412c50b8396b194cbbd730723dd1d0793bcd.png)
 
 A Fordító szolgáltatás egy dedikált fordítási szolgáltatás, amely szöveget tud fordítani egyik nyelvről egy vagy több célnyelvre. A fordításon kívül számos extra funkciót is támogat, például a trágárság maszkolását. Lehetővé teszi továbbá, hogy egy adott szó vagy mondat számára konkrét fordítást adj meg, hogy olyan kifejezésekkel dolgozz, amelyeket nem akarsz lefordítani, vagy amelyeknek van egy jól ismert fordítása.
 
@@ -130,7 +130,7 @@ Ehhez a leckéhez szükséged lesz egy Fordító erőforrásra. A REST API-t fog
 
 Egy ideális világban az egész alkalmazásodnak annyi különböző nyelvet kellene értenie, amennyit csak lehet, a beszéd felismerésétől kezdve a nyelv megértésén át a válaszadásig beszéd formájában. Ez rengeteg munka, ezért a fordítási szolgáltatások felgyorsíthatják az alkalmazásod szállítási idejét.
 
-![Egy okos időzítő architektúrája, amely japánról angolra fordít, angolul dolgozik, majd visszafordít japánra](../../../../../translated_images/translated-smart-timer.08ac20057fdc5c37.hu.png)
+![Egy okos időzítő architektúrája, amely japánról angolra fordít, angolul dolgozik, majd visszafordít japánra](../../../../../translated_images/hu/translated-smart-timer.08ac20057fdc5c37.png)
 
 Képzeld el, hogy egy okos időzítőt építesz, amely angolul működik végig, felismeri az angol beszédet, szöveggé alakítja, angolul végzi a nyelv megértését, angolul építi fel a válaszokat, és angol beszéddel válaszol. Ha japán támogatást szeretnél hozzáadni, kezdheted azzal, hogy a japán beszédet angol szöveggé fordítod, majd az alkalmazás magját változatlanul hagyod, végül a válasz szövegét japánra fordítod, mielőtt beszéddé alakítanád. Ez lehetővé tenné, hogy gyorsan hozzáadd a japán támogatást, és később bővítheted a teljes végponttól végpontig tartó japán támogatással.
 

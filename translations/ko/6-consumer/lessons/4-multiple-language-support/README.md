@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # 여러 언어 지원
 
-![이 강의의 스케치노트 개요](../../../../../translated_images/lesson-24.4246968ed058510ab275052e87ef9aa89c7b2f938915d103c605c04dc6cd5bb7.ko.jpg)
+![이 강의의 스케치노트 개요](../../../../../translated_images/ko/lesson-24.4246968ed058510ab275052e87ef9aa89c7b2f938915d103c605c04dc6cd5bb7.jpg)
 
 > 스케치노트: [Nitya Narasimhan](https://github.com/nitya). 이미지를 클릭하면 더 큰 버전을 볼 수 있습니다.
 
@@ -83,7 +83,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 ### Cognitive Services 음성 서비스
 
-![음성 서비스 로고](../../../../../translated_images/azure-speech-logo.a1f08c4befb0159f2cb5d692d3baf5b599e7b44759d316da907bda1508f46a4a.ko.png)
+![음성 서비스 로고](../../../../../translated_images/ko/azure-speech-logo.a1f08c4befb0159f2cb5d692d3baf5b599e7b44759d316da907bda1508f46a4a.png)
 
 지난 몇 강의 동안 사용한 음성 서비스는 음성 인식을 위한 번역 기능을 제공합니다. 음성을 인식할 때 동일한 언어의 텍스트뿐만 아니라 다른 언어의 텍스트도 요청할 수 있습니다.
 
@@ -91,7 +91,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 ### Cognitive Services 번역기 서비스
 
-![번역기 서비스 로고](../../../../../translated_images/azure-translator-logo.c6ed3a4a433edfd2f11577eca105412c50b8396b194cbbd730723dd1d0793bcd.ko.png)
+![번역기 서비스 로고](../../../../../translated_images/ko/azure-translator-logo.c6ed3a4a433edfd2f11577eca105412c50b8396b194cbbd730723dd1d0793bcd.png)
 
 번역기 서비스는 한 언어에서 하나 이상의 대상 언어로 텍스트를 번역할 수 있는 전용 번역 서비스입니다. 번역 외에도 욕설 마스킹을 포함한 다양한 추가 기능을 지원합니다. 또한 특정 단어 또는 문구에 대해 특정 번역을 제공하여 번역하지 않거나 잘 알려진 번역을 제공할 수 있습니다.
 
@@ -130,7 +130,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 이상적인 상황에서는 애플리케이션 전체가 가능한 한 많은 언어를 이해해야 합니다. 음성을 듣고, 언어를 이해하며, 음성으로 응답하는 것까지 포함됩니다. 이는 많은 작업이 필요하지만 번역 서비스는 애플리케이션의 배포 시간을 단축할 수 있습니다.
 
-![일본어를 영어로 번역하고, 영어로 처리한 후 다시 일본어로 번역하는 스마트 타이머 아키텍처](../../../../../translated_images/translated-smart-timer.08ac20057fdc5c37.ko.png)
+![일본어를 영어로 번역하고, 영어로 처리한 후 다시 일본어로 번역하는 스마트 타이머 아키텍처](../../../../../translated_images/ko/translated-smart-timer.08ac20057fdc5c37.png)
 
 스마트 타이머를 영어로만 사용한다고 가정해 보세요. 영어로 음성을 이해하고 텍스트로 변환하며, 영어로 언어를 이해하고, 영어로 응답을 작성한 후 영어 음성으로 응답합니다. 일본어 지원을 추가하고 싶다면 일본어 음성을 영어 텍스트로 번역하는 것으로 시작할 수 있습니다. 그런 다음 애플리케이션의 핵심은 동일하게 유지하고 응답 텍스트를 일본어로 번역한 후 일본어 음성으로 응답합니다. 이렇게 하면 일본어 지원을 빠르게 추가할 수 있으며, 나중에 전체적으로 일본어를 지원하도록 확장할 수 있습니다.
 

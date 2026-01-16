@@ -29,13 +29,13 @@ Il sensore Grove Time of Flight può essere collegato al Raspberry Pi.
 
 Collega il sensore Time of Flight.
 
-![Un sensore Grove Time of Flight](../../../../../translated_images/grove-time-of-flight-sensor.d82ff2165bfded9f485de54d8d07195a6270a602696825fca19f629ddfe94e86.it.png)
+![Un sensore Grove Time of Flight](../../../../../translated_images/it/grove-time-of-flight-sensor.d82ff2165bfded9f485de54d8d07195a6270a602696825fca19f629ddfe94e86.png)
 
 1. Inserisci un'estremità di un cavo Grove nel connettore del sensore Time of Flight. Può essere inserito solo in un modo.
 
 1. Con il Raspberry Pi spento, collega l'altra estremità del cavo Grove a uno dei connettori I²C contrassegnati **I²C** sul Grove Base Hat collegato al Pi. Questi connettori si trovano nella fila inferiore, all'estremità opposta rispetto ai pin GPIO e accanto alla porta del cavo della fotocamera.
 
-![Il sensore Grove Time of Flight collegato al connettore I²C](../../../../../translated_images/pi-time-of-flight-sensor.58c8dc04eb3bfb57.it.png)
+![Il sensore Grove Time of Flight collegato al connettore I²C](../../../../../translated_images/it/pi-time-of-flight-sensor.58c8dc04eb3bfb57.png)
 
 ## Programma il sensore Time of Flight
 
@@ -106,7 +106,7 @@ Programma il dispositivo.
 
     Il telemetro si trova sul retro del sensore, quindi assicurati di utilizzare il lato corretto quando misuri la distanza.
 
-    ![Il telemetro sul retro del sensore Time of Flight puntato verso una banana](../../../../../translated_images/time-of-flight-banana.079921ad8b1496e4.it.png)
+    ![Il telemetro sul retro del sensore Time of Flight puntato verso una banana](../../../../../translated_images/it/time-of-flight-banana.079921ad8b1496e4.png)
 
 > 💁 Puoi trovare questo codice nella cartella [code-proximity/pi](../../../../../4-manufacturing/lessons/4-trigger-fruit-detector/code-proximity/pi).
 

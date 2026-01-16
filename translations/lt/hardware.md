@@ -21,7 +21,7 @@ Jums taip pat reikės kelių ne techninių daiktų, tokių kaip dirvožemis ar v
 
 ## Įsigykite rinkinius
 
-![Seeed Studios logotipas](../../translated_images/seeed-logo.74732b6b482b6e8e.lt.png)
+![Seeed Studios logotipas](../../translated_images/lt/seeed-logo.74732b6b482b6e8e.png)
 
 Seeed Studios labai maloniai pateikė visą aparatūrą kaip lengvai įsigyjamus rinkinius:
 
@@ -29,13 +29,13 @@ Seeed Studios labai maloniai pateikė visą aparatūrą kaip lengvai įsigyjamus
 
 **[IoT pradedantiesiems su Seeed ir Microsoft - Wio Terminal Starter Kit](https://www.seeedstudio.com/IoT-for-beginners-with-Seeed-and-Microsoft-Wio-Terminal-Starter-Kit-p-5006.html)**
 
-[![Wio Terminal aparatūros rinkinys](../../translated_images/wio-hardware-kit.4c70c48b85e4283a.lt.png)](https://www.seeedstudio.com/IoT-for-beginners-with-Seeed-and-Microsoft-Wio-Terminal-Starter-Kit-p-5006.html)
+[![Wio Terminal aparatūros rinkinys](../../translated_images/lt/wio-hardware-kit.4c70c48b85e4283a.png)](https://www.seeedstudio.com/IoT-for-beginners-with-Seeed-and-Microsoft-Wio-Terminal-Starter-Kit-p-5006.html)
 
 ### Raspberry Pi
 
 **[IoT pradedantiesiems su Seeed ir Microsoft - Raspberry Pi 4 Starter Kit](https://www.seeedstudio.com/IoT-for-beginners-with-Seeed-and-Microsoft-Raspberry-Pi-Starter-Kit-p-5004.html)**
 
-[![Raspberry Pi Terminal aparatūros rinkinys](../../translated_images/pi-hardware-kit.26dbadaedb7dd44c73b0131d5d68ea29472ed0a9744f90d5866c6d82f2d16380.lt.png)](https://www.seeedstudio.com/IoT-for-beginners-with-Seeed-and-Microsoft-Raspberry-Pi-Starter-Kit-p-5004.html)
+[![Raspberry Pi Terminal aparatūros rinkinys](../../translated_images/lt/pi-hardware-kit.26dbadaedb7dd44c73b0131d5d68ea29472ed0a9744f90d5866c6d82f2d16380.png)](https://www.seeedstudio.com/IoT-for-beginners-with-Seeed-and-Microsoft-Raspberry-Pi-Starter-Kit-p-5004.html)
 
 ## Arduino
 

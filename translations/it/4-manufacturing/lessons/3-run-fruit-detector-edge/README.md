@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Esegui il tuo rilevatore di frutta ai margini
 
-![Una panoramica illustrata di questa lezione](../../../../../translated_images/lesson-17.bc333c3c35ba8e42cce666cfffa82b915f787f455bd94e006aea2b6f2722421a.it.jpg)
+![Una panoramica illustrata di questa lezione](../../../../../translated_images/it/lesson-17.bc333c3c35ba8e42cce666cfffa82b915f787f455bd94e006aea2b6f2722421a.jpg)
 
 > Illustrazione di [Nitya Narasimhan](https://github.com/nitya). Clicca sull'immagine per una versione più grande.
 
@@ -42,11 +42,11 @@ In questa lezione tratteremo:
 
 Il calcolo ai margini implica l'utilizzo di computer che elaborano i dati IoT il più vicino possibile al luogo in cui vengono generati. Invece di eseguire questa elaborazione nel cloud, viene spostata ai margini del cloud - sulla tua rete interna.
 
-![Un diagramma architetturale che mostra i servizi internet nel cloud e i dispositivi IoT su una rete locale](../../../../../translated_images/cloud-without-edge.b4da641f6022c95ed6b91fde8b5323abd2f94e0d52073ad54172ae8f5dac90e9.it.png)
+![Un diagramma architetturale che mostra i servizi internet nel cloud e i dispositivi IoT su una rete locale](../../../../../translated_images/it/cloud-without-edge.b4da641f6022c95ed6b91fde8b5323abd2f94e0d52073ad54172ae8f5dac90e9.png)
 
 Nelle lezioni precedenti, i dispositivi raccoglievano dati e li inviavano al cloud per essere analizzati, eseguendo funzioni serverless o modelli AI nel cloud.
 
-![Un diagramma architetturale che mostra dispositivi IoT su una rete locale che si collegano a dispositivi ai margini, e questi dispositivi ai margini si collegano al cloud](../../../../../translated_images/cloud-with-edge.1e26462c62c126fe150bd15a5714ddf0be599f09bacbad08b85be02b76ea1ae1.it.png)
+![Un diagramma architetturale che mostra dispositivi IoT su una rete locale che si collegano a dispositivi ai margini, e questi dispositivi ai margini si collegano al cloud](../../../../../translated_images/it/cloud-with-edge.1e26462c62c126fe150bd15a5714ddf0be599f09bacbad08b85be02b76ea1ae1.png)
 
 Il calcolo ai margini sposta alcuni dei servizi cloud fuori dal cloud e li esegue su computer che operano sulla stessa rete dei dispositivi IoT, comunicando con il cloud solo se necessario. Ad esempio, puoi eseguire modelli AI su dispositivi ai margini per analizzare la maturazione della frutta e inviare al cloud solo analisi, come il numero di frutti maturi rispetto a quelli acerbi.
 
@@ -94,7 +94,7 @@ Per i sistemi IoT, spesso vorrai una combinazione di calcolo nel cloud e ai marg
 
 ## Azure IoT Edge
 
-![Il logo di Azure IoT Edge](../../../../../translated_images/azure-iot-edge-logo.c1c076749b5cba2e8755262fadc2f19ca1146b948d76990b1229199ac2292d79.it.png)
+![Il logo di Azure IoT Edge](../../../../../translated_images/it/azure-iot-edge-logo.c1c076749b5cba2e8755262fadc2f19ca1146b948d76990b1229199ac2292d79.png)
 
 Azure IoT Edge è un servizio che ti aiuta a spostare i carichi di lavoro fuori dal cloud e ai margini. Configuri un dispositivo come dispositivo ai margini e dal cloud puoi distribuire codice a quel dispositivo. Questo ti consente di combinare le capacità del cloud e dei margini.
 
@@ -108,7 +108,7 @@ IoT Edge è integrato in IoT Hub, quindi puoi gestire i dispositivi ai margini u
 
 IoT Edge esegue codice da *contenitori* - applicazioni autonome che vengono eseguite in isolamento rispetto al resto delle applicazioni sul tuo computer. Quando esegui un contenitore, si comporta come un computer separato che opera all'interno del tuo computer, con il proprio software, servizi e applicazioni in esecuzione. La maggior parte delle volte i contenitori non possono accedere a nulla sul tuo computer a meno che tu non scelga di condividere, ad esempio, una cartella con il contenitore. Il contenitore espone quindi i servizi tramite una porta aperta a cui puoi connetterti o esporre alla tua rete.
 
-![Una richiesta web reindirizzata a un contenitore](../../../../../translated_images/container-web-browser.4ee81dd4f0d8838ce622b2a0d600b6a4322b5d4fe43159facd87b7b34f84d66a.it.png)
+![Una richiesta web reindirizzata a un contenitore](../../../../../translated_images/it/container-web-browser.4ee81dd4f0d8838ce622b2a0d600b6a4322b5d4fe43159facd87b7b34f84d66a.png)
 
 Ad esempio, puoi avere un contenitore con un sito web in esecuzione sulla porta 80, la porta HTTP predefinita, e puoi quindi esporlo dal tuo computer sempre sulla porta 80.
 
@@ -204,11 +204,11 @@ Una volta che il modello è stato allenato, deve essere esportato come contenito
 
 ## Prepara il tuo contenitore per il deployment
 
-![I contenitori vengono creati, poi inviati a un registro di contenitori, e successivamente distribuiti dal registro di contenitori a un dispositivo edge utilizzando IoT Edge](../../../../../translated_images/container-edge-flow.c246050dd60ceefdb6ace026a4ce5c6aa4112bb5898ae23fbb2ab4be29ae3e1b.it.png)
+![I contenitori vengono creati, poi inviati a un registro di contenitori, e successivamente distribuiti dal registro di contenitori a un dispositivo edge utilizzando IoT Edge](../../../../../translated_images/it/container-edge-flow.c246050dd60ceefdb6ace026a4ce5c6aa4112bb5898ae23fbb2ab4be29ae3e1b.png)
 
 Una volta scaricato il tuo modello, deve essere costruito in un contenitore e poi inviato a un registro di contenitori - una posizione online dove puoi archiviare i contenitori. IoT Edge può quindi scaricare il contenitore dal registro e inviarlo al tuo dispositivo.
 
-![Logo di Azure Container Registry](../../../../../translated_images/azure-container-registry-logo.09494206991d4b295025ebff7d4e2900325e527a59184ffbc8464b6ab59654be.it.png)
+![Logo di Azure Container Registry](../../../../../translated_images/it/azure-container-registry-logo.09494206991d4b295025ebff7d4e2900325e527a59184ffbc8464b6ab59654be.png)
 
 Il registro di contenitori che utilizzerai per questa lezione è Azure Container Registry. Questo non è un servizio gratuito, quindi per risparmiare denaro assicurati di [pulire il tuo progetto](../../../clean-up.md) una volta terminato.
 

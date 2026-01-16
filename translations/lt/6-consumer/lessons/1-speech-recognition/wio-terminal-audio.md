@@ -19,7 +19,7 @@ Integruotas mikrofonas fiksuoja analoginį signalą, kuris konvertuojamas į ska
 
 ✅ Daugiau apie DMA skaitykite [tiesioginės atminties prieigos puslapyje Vikipedijoje](https://wikipedia.org/wiki/Direct_memory_access).
 
-![Garsas iš mikrofono eina į ADC, tada į DMAC. DMAC rašo į vieną buferį. Kai šis buferis užpildomas, jis apdorojamas, o DMAC rašo į antrą buferį](../../../../../translated_images/dmac-adc-buffers.4509aee49145c90bc2e1be472b8ed2ddfcb2b6a81ad3e559114aca55f5fff759.lt.png)
+![Garsas iš mikrofono eina į ADC, tada į DMAC. DMAC rašo į vieną buferį. Kai šis buferis užpildomas, jis apdorojamas, o DMAC rašo į antrą buferį](../../../../../translated_images/lt/dmac-adc-buffers.4509aee49145c90bc2e1be472b8ed2ddfcb2b6a81ad3e559114aca55f5fff759.png)
 
 DMAC gali fiksuoti garsą iš ADC fiksuotais intervalais, pavyzdžiui, 16 000 kartų per sekundę 16 kHz garsui. Jis gali rašyti šiuos užfiksuotus duomenis į iš anksto paskirtą atminties buferį, o kai šis užpildomas, padaryti jį prieinamą jūsų kodui apdoroti. Naudojant šią atmintį gali būti vėluojama fiksuoti garsą, tačiau galite nustatyti kelis buferius. DMAC rašo į 1 buferį, tada, kai jis užpildomas, praneša jūsų kodui apdoroti 1 buferį, tuo tarpu DMAC rašo į 2 buferį. Kai 2 buferis užpildomas, jis praneša jūsų kodui ir grįžta rašyti į 1 buferį. Tokiu būdu, jei apdorojate kiekvieną buferį greičiau nei užtrunka užpildyti vieną, neprarasite jokių duomenų.
 

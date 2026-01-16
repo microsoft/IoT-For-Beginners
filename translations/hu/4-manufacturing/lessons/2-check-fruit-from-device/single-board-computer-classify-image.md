@@ -93,7 +93,7 @@ A Custom Vision szolgáltatás rendelkezik egy Python SDK-val, amelyet képek os
 
     Látni fogod a készített képet, és ezeket az értékeket a **Predictions** fülön a Custom Vision-ben.
 
-    ![Egy banán a Custom Vision-ben, érettként 56,8%-ra, éretlenként 43,1%-ra becsülve](../../../../../translated_images/custom-vision-banana-prediction.30cdff4e1d72db5d9a0be0193790a47c2b387da034e12dc1314dd57ca2131b59.hu.png)
+    ![Egy banán a Custom Vision-ben, érettként 56,8%-ra, éretlenként 43,1%-ra becsülve](../../../../../translated_images/hu/custom-vision-banana-prediction.30cdff4e1d72db5d9a0be0193790a47c2b387da034e12dc1314dd57ca2131b59.png)
 
 > 💁 Ezt a kódot megtalálod a [code-classify/pi](../../../../../4-manufacturing/lessons/2-check-fruit-from-device/code-classify/pi) vagy [code-classify/virtual-iot-device](../../../../../4-manufacturing/lessons/2-check-fruit-from-device/code-classify/virtual-iot-device) mappában.
 

@@ -19,7 +19,7 @@ Mikrofon bawaan menangkap sinyal analog, yang kemudian dikonversi menjadi sinyal
 
 ✅ Baca lebih lanjut tentang DMA di [halaman akses memori langsung di Wikipedia](https://wikipedia.org/wiki/Direct_memory_access).
 
-![Audio dari mikrofon masuk ke ADC lalu ke DMAC. DMAC menulis ke satu buffer. Ketika buffer ini penuh, data diproses dan DMAC menulis ke buffer kedua](../../../../../translated_images/dmac-adc-buffers.4509aee49145c90bc2e1be472b8ed2ddfcb2b6a81ad3e559114aca55f5fff759.id.png)
+![Audio dari mikrofon masuk ke ADC lalu ke DMAC. DMAC menulis ke satu buffer. Ketika buffer ini penuh, data diproses dan DMAC menulis ke buffer kedua](../../../../../translated_images/id/dmac-adc-buffers.4509aee49145c90bc2e1be472b8ed2ddfcb2b6a81ad3e559114aca55f5fff759.png)
 
 DMAC dapat menangkap audio dari ADC pada interval tetap, seperti 16.000 kali per detik untuk audio 16KHz. DMAC dapat menulis data yang ditangkap ini ke buffer memori yang telah dialokasikan sebelumnya, dan ketika buffer ini penuh, data tersedia untuk diproses oleh kode Anda. Penggunaan memori ini dapat menunda penangkapan audio, tetapi Anda dapat mengatur beberapa buffer. DMAC menulis ke buffer 1, lalu ketika buffer ini penuh, DMAC memberi tahu kode Anda untuk memproses buffer 1, sementara DMAC menulis ke buffer 2. Ketika buffer 2 penuh, DMAC memberi tahu kode Anda, dan kembali menulis ke buffer 1. Dengan cara ini, selama Anda memproses setiap buffer dalam waktu yang lebih singkat daripada waktu yang diperlukan untuk mengisi satu buffer, Anda tidak akan kehilangan data.
 

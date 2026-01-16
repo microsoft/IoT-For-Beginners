@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Memahami Bahasa
 
-![Gambaran sketchnote dari pelajaran ini](../../../../../translated_images/lesson-22.6148ea28500d9e00c396aaa2649935fb6641362c8f03d8e5e90a676977ab01dd.id.jpg)
+![Gambaran sketchnote dari pelajaran ini](../../../../../translated_images/id/lesson-22.6148ea28500d9e00c396aaa2649935fb6641362c8f03d8e5e90a676977ab01dd.jpg)
 
 > Sketchnote oleh [Nitya Narasimhan](https://github.com/nitya). Klik gambar untuk versi yang lebih besar.
 
@@ -55,7 +55,7 @@ Model pemahaman bahasa adalah model AI yang dilatih untuk mengekstrak detail ter
 
 ## Membuat Model Pemahaman Bahasa
 
-![Logo LUIS](../../../../../translated_images/luis-logo.5cb4f3e88c020ee6df4f614e8831f4a4b6809a7247bf52085fb48d629ef9be52.id.png)
+![Logo LUIS](../../../../../translated_images/id/luis-logo.5cb4f3e88c020ee6df4f614e8831f4a4b6809a7247bf52085fb48d629ef9be52.png)
 
 Anda dapat membuat model pemahaman bahasa menggunakan LUIS, layanan pemahaman bahasa dari Microsoft yang merupakan bagian dari Cognitive Services.
 
@@ -126,7 +126,7 @@ Setelah entitas ditentukan, Anda membuat intensi. Intensi ini dipelajari oleh mo
 
 Kemudian Anda memberi tahu LUIS bagian mana dari kalimat ini yang sesuai dengan entitas:
 
-![Kalimat "setel pengatur waktu selama 1 menit dan 12 detik" dipecah menjadi entitas](../../../../../translated_images/sentence-as-intent-entities.301401696f992259.id.png)
+![Kalimat "setel pengatur waktu selama 1 menit dan 12 detik" dipecah menjadi entitas](../../../../../translated_images/id/sentence-as-intent-entities.301401696f992259.png)
 
 Kalimat `setel pengatur waktu selama 1 menit dan 12 detik` memiliki intensi `setel pengatur waktu`. Kalimat ini juga memiliki 2 entitas dengan masing-masing 2 nilai:
 
@@ -178,7 +178,7 @@ Anda dapat menemukan instruksi untuk menggunakan portal LUIS di [Panduan Cepat: 
 
 1. Saat Anda memasukkan setiap contoh, LUIS akan mulai mendeteksi entitas, dan akan menggarisbawahi serta memberi label pada entitas yang ditemukan.
 
-    ![Contoh dengan angka dan satuan waktu yang digarisbawahi oleh LUIS](../../../../../translated_images/luis-intent-examples.25716580b2d2723cf1bafdf277d015c7f046d8cfa20f27bddf3a0873ec45fab7.id.png)
+    ![Contoh dengan angka dan satuan waktu yang digarisbawahi oleh LUIS](../../../../../translated_images/id/luis-intent-examples.25716580b2d2723cf1bafdf277d015c7f046d8cfa20f27bddf3a0873ec45fab7.png)
 
 ### Tugas - melatih dan menguji model
 

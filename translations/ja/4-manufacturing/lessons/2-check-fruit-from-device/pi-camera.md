@@ -25,7 +25,7 @@ Raspberry Piにはカメラが必要です。
 
 ### タスク - カメラを接続する
 
-![Raspberry Pi Camera](../../../../../translated_images/pi-camera-module.4278753c31bd6e757aa2b858be97d72049f71616278cefe4fb5abb485b40a078.ja.png)
+![Raspberry Pi Camera](../../../../../translated_images/ja/pi-camera-module.4278753c31bd6e757aa2b858be97d72049f71616278cefe4fb5abb485b40a078.png)
 
 1. Piの電源を切ります。
 
@@ -33,17 +33,17 @@ Raspberry Piにはカメラが必要です。
 
     クリップを開けてケーブルを挿入する方法を示すアニメーションは[Raspberry Pi Getting Started with the Camera module documentation](https://projects.raspberrypi.org/en/projects/getting-started-with-picamera/2)で確認できます。
 
-    ![リボンケーブルがカメラモジュールに挿入された状態](../../../../../translated_images/pi-camera-ribbon-cable.0bf82acd251611c21ac616f082849413e2b322a261d0e4f8fec344248083b07e.ja.png)
+    ![リボンケーブルがカメラモジュールに挿入された状態](../../../../../translated_images/ja/pi-camera-ribbon-cable.0bf82acd251611c21ac616f082849413e2b322a261d0e4f8fec344248083b07e.png)
 
 1. Grove Base HatをPiから取り外します。
 
 1. Grove Base Hatのカメラスロットを通してリボンケーブルを通します。ケーブルの青い面が**A0**、**A1**などとラベル付けされたアナログポートの方向を向くようにしてください。
 
-    ![Grove Base Hatを通過するリボンケーブル](../../../../../translated_images/grove-base-hat-ribbon-cable.501fed202fcf73b11b2b68f6d246189f7d15d3e4423c572ddee79d77b4632b47.ja.png)
+    ![Grove Base Hatを通過するリボンケーブル](../../../../../translated_images/ja/grove-base-hat-ribbon-cable.501fed202fcf73b11b2b68f6d246189f7d15d3e4423c572ddee79d77b4632b47.png)
 
 1. リボンケーブルをPiのカメラポートに挿入します。再び黒いプラスチッククリップを引き上げ、ケーブルを挿入してクリップを元に戻します。ケーブルの青い面がUSBとイーサネットポートの方向を向くようにしてください。
 
-    ![Piのカメラソケットに接続されたリボンケーブル](../../../../../translated_images/pi-camera-socket-ribbon-cable.a18309920b11800911082ed7aa6fb28e6d9be3a022e4079ff990016cae3fca10.ja.png)
+    ![Piのカメラソケットに接続されたリボンケーブル](../../../../../translated_images/ja/pi-camera-socket-ribbon-cable.a18309920b11800911082ed7aa6fb28e6d9be3a022e4079ff990016cae3fca10.png)
 
 1. Grove Base Hatを再装着します。
 
@@ -110,7 +110,7 @@ Raspberry Piは[PiCamera](https://pypi.org/project/picamera/) Pythonライブラ
 
     `camera.rotation = 0`行は画像の回転を設定します。リボンケーブルはカメラの下部に接続されますが、分類したいアイテムに向けやすくするためにカメラを回転させた場合、この行を回転角度に応じて変更できます。
 
-    ![飲料缶の上に吊り下げられたカメラ](../../../../../translated_images/pi-camera-upside-down.5376961ba31459883362124152ad6b823d5ac5fc14e85f317e22903bd681c2b6.ja.png)
+    ![飲料缶の上に吊り下げられたカメラ](../../../../../translated_images/ja/pi-camera-upside-down.5376961ba31459883362124152ad6b823d5ac5fc14e85f317e22903bd681c2b6.png)
 
     例えば、リボンケーブルをカメラの上部に吊り下げた場合、回転を180に設定します：
 

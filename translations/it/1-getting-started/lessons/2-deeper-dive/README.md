@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Un'immersione più profonda nell'IoT
 
-![Una panoramica illustrata di questa lezione](../../../../../translated_images/lesson-2.324b0580d620c25e0a24fb7fddfc0b29a846dd4b82c08e7a9466d580ee78ce51.it.jpg)
+![Una panoramica illustrata di questa lezione](../../../../../translated_images/it/lesson-2.324b0580d620c25e0a24fb7fddfc0b29a846dd4b82c08e7a9466d580ee78ce51.jpg)
 
 > Illustrazione di [Nitya Narasimhan](https://github.com/nitya). Clicca sull'immagine per una versione più grande.
 
@@ -41,13 +41,13 @@ I due componenti principali di un'applicazione IoT sono *Internet* e *l'oggetto*
 
 ### L'oggetto
 
-![Un Raspberry Pi 4](../../../../../translated_images/raspberry-pi-4.fd4590d308c3d456.it.jpg)
+![Un Raspberry Pi 4](../../../../../translated_images/it/raspberry-pi-4.fd4590d308c3d456.jpg)
 
 La parte **oggetto** dell'IoT si riferisce a un dispositivo che può interagire con il mondo fisico. Questi dispositivi sono solitamente piccoli computer a basso costo, che funzionano a basse velocità e consumano poca energia - ad esempio, semplici microcontrollori con pochi kilobyte di RAM (rispetto ai gigabyte di un PC) che operano a poche centinaia di megahertz (rispetto ai gigahertz di un PC), ma che consumano così poca energia da poter funzionare per settimane, mesi o addirittura anni con batterie.
 
 Questi dispositivi interagiscono con il mondo fisico utilizzando sensori per raccogliere dati dall'ambiente circostante o controllando uscite o attuatori per apportare modifiche fisiche. Un esempio tipico è un termostato intelligente - un dispositivo che ha un sensore di temperatura, un mezzo per impostare una temperatura desiderata come una manopola o un touchscreen, e una connessione a un sistema di riscaldamento o raffreddamento che può essere attivato quando la temperatura rilevata è al di fuori dell'intervallo desiderato. Il sensore di temperatura rileva che la stanza è troppo fredda e un attuatore accende il riscaldamento.
 
-![Un diagramma che mostra la temperatura e una manopola come input per un dispositivo IoT, e il controllo di un riscaldatore come output](../../../../../translated_images/basic-thermostat.a923217fd1f37e5a6f3390396a65c22a387419ea2dd17e518ec24315ba6ae9a8.it.png)
+![Un diagramma che mostra la temperatura e una manopola come input per un dispositivo IoT, e il controllo di un riscaldatore come output](../../../../../translated_images/it/basic-thermostat.a923217fd1f37e5a6f3390396a65c22a387419ea2dd17e518ec24315ba6ae9a8.png)
 
 Esiste una vasta gamma di dispositivi che possono fungere da dispositivi IoT, dall'hardware dedicato che rileva un solo parametro, a dispositivi generici, persino il tuo smartphone! Uno smartphone può utilizzare sensori per rilevare il mondo circostante e attuatori per interagire con esso - ad esempio, utilizzando un sensore GPS per rilevare la tua posizione e un altoparlante per fornire istruzioni di navigazione verso una destinazione.
 
@@ -63,11 +63,11 @@ I dispositivi non si connettono sempre direttamente a Internet tramite WiFi o co
 
 Nel caso di un termostato intelligente, il termostato si connetterebbe utilizzando il WiFi domestico a un servizio cloud. Invierebbe i dati sulla temperatura a questo servizio cloud, che li scriverebbe in un database permettendo al proprietario di casa di controllare le temperature attuali e passate tramite un'app sul telefono. Un altro servizio nel cloud saprebbe quale temperatura desidera il proprietario di casa e invierebbe messaggi al dispositivo IoT tramite il servizio cloud per dire al sistema di riscaldamento di accendersi o spegnersi.
 
-![Un diagramma che mostra la temperatura e una manopola come input per un dispositivo IoT, il dispositivo IoT con comunicazione bidirezionale con il cloud, che a sua volta ha comunicazione bidirezionale con un telefono, e il controllo di un riscaldatore come output dal dispositivo IoT](../../../../../translated_images/mobile-controlled-thermostat.4a994010473d8d6a52ba68c67e5f02dc8928c717e93ca4b9bc55525aa75bbb60.it.png)
+![Un diagramma che mostra la temperatura e una manopola come input per un dispositivo IoT, il dispositivo IoT con comunicazione bidirezionale con il cloud, che a sua volta ha comunicazione bidirezionale con un telefono, e il controllo di un riscaldatore come output dal dispositivo IoT](../../../../../translated_images/it/mobile-controlled-thermostat.4a994010473d8d6a52ba68c67e5f02dc8928c717e93ca4b9bc55525aa75bbb60.png)
 
 Una versione ancora più intelligente potrebbe utilizzare l'AI nel cloud con dati provenienti da altri sensori collegati ad altri dispositivi IoT, come sensori di occupazione che rilevano quali stanze sono in uso, oltre a dati come il meteo e persino il tuo calendario, per prendere decisioni su come impostare la temperatura in modo intelligente. Ad esempio, potrebbe spegnere il riscaldamento se legge dal tuo calendario che sei in vacanza, o spegnere il riscaldamento stanza per stanza a seconda delle stanze che utilizzi, imparando dai dati per essere sempre più preciso nel tempo.
 
-![Un diagramma che mostra più sensori di temperatura e una manopola come input per un dispositivo IoT, il dispositivo IoT con comunicazione bidirezionale con il cloud, che a sua volta ha comunicazione bidirezionale con un telefono, un calendario e un servizio meteo, e il controllo di un riscaldatore come output dal dispositivo IoT](../../../../../translated_images/smarter-thermostat.a75855f15d2d9e63.it.png)
+![Un diagramma che mostra più sensori di temperatura e una manopola come input per un dispositivo IoT, il dispositivo IoT con comunicazione bidirezionale con il cloud, che a sua volta ha comunicazione bidirezionale con un telefono, un calendario e un servizio meteo, e il controllo di un riscaldatore come output dal dispositivo IoT](../../../../../translated_images/it/smarter-thermostat.a75855f15d2d9e63.png)
 
 ✅ Quali altri dati potrebbero aiutare a rendere un termostato connesso a Internet più intelligente?
 
@@ -103,7 +103,7 @@ Più veloce è il ciclo del clock, più istruzioni possono essere elaborate ogni
 
 > 💁 Le CPU eseguono programmi utilizzando il [ciclo fetch-decode-execute](https://wikipedia.org/wiki/Instruction_cycle). Per ogni ticchettio del clock, la CPU recupera la prossima istruzione dalla memoria, la decodifica, quindi la esegue, ad esempio utilizzando un'unità logica aritmetica (ALU) per sommare 2 numeri. Alcune esecuzioni richiedono più ticchettii per essere completate, quindi il ciclo successivo verrà eseguito al ticchettio successivo dopo il completamento dell'istruzione.
 
-![Il ciclo fetch-decode-execute che mostra il recupero di un'istruzione dal programma memorizzato nella RAM, quindi la decodifica e l'esecuzione su una CPU](../../../../../translated_images/fetch-decode-execute.2fd6f150f6280392807f4475382319abd0cee0b90058e1735444d6baa6f2078c.it.png)
+![Il ciclo fetch-decode-execute che mostra il recupero di un'istruzione dal programma memorizzato nella RAM, quindi la decodifica e l'esecuzione su una CPU](../../../../../translated_images/it/fetch-decode-execute.2fd6f150f6280392807f4475382319abd0cee0b90058e1735444d6baa6f2078c.png)
 
 I microcontrollori hanno velocità di clock molto più basse rispetto ai computer desktop o laptop, o persino alla maggior parte degli smartphone. Ad esempio, il Wio Terminal ha una CPU che funziona a 120MHz o 120.000.000 cicli al secondo.
 
@@ -135,7 +135,7 @@ Come per la CPU, la memoria di un microcontrollore è di ordini di grandezza inf
 
 Il diagramma qui sotto mostra la differenza di dimensione relativa tra 192KB e 8GB - il piccolo punto al centro rappresenta 192KB.
 
-![Un confronto tra 192KB e 8GB - più di 40.000 volte più grande](../../../../../translated_images/ram-comparison.6beb73541b42ac6f.it.png)
+![Un confronto tra 192KB e 8GB - più di 40.000 volte più grande](../../../../../translated_images/it/ram-comparison.6beb73541b42ac6f.png)
 
 Anche lo spazio di archiviazione per i programmi è più piccolo rispetto a un PC. Un PC tipico potrebbe avere un disco rigido da 500GB per l'archiviazione dei programmi, mentre un microcontrollore potrebbe avere solo kilobyte o forse pochi megabyte (MB) di spazio di archiviazione (1MB è 1.000KB, ovvero 1.000.000 byte). Il terminale Wio ha 4MB di spazio di archiviazione per i programmi.
 
@@ -191,7 +191,7 @@ Le schede Arduino sono codificate in C o C++. Utilizzare C/C++ consente al tuo c
 
 Scriveresti il tuo codice di configurazione nella funzione `setup`, come la connessione al WiFi e ai servizi cloud o l'inizializzazione dei pin per input e output. Il tuo codice di elaborazione verrebbe poi inserito nella funzione `loop`, come la lettura da un sensore e l'invio del valore al cloud. Normalmente includeresti un ritardo in ogni ciclo, ad esempio, se desideri che i dati del sensore vengano inviati solo ogni 10 secondi, aggiungeresti un ritardo di 10 secondi alla fine del ciclo in modo che il microcontrollore possa dormire, risparmiando energia, quindi eseguire nuovamente il ciclo quando necessario 10 secondi dopo.
 
-![Uno sketch Arduino che esegue prima setup, poi loop ripetutamente](../../../../../translated_images/arduino-sketch.79590cb837ff7a7c6a68d1afda6cab83fd53d3bb1bd9a8bf2eaf8d693a4d3ea6.it.png)
+![Uno sketch Arduino che esegue prima setup, poi loop ripetutamente](../../../../../translated_images/it/arduino-sketch.79590cb837ff7a7c6a68d1afda6cab83fd53d3bb1bd9a8bf2eaf8d693a4d3ea6.png)
 
 ✅ Questa architettura del programma è conosciuta come *event loop* o *message loop*. Molte applicazioni utilizzano questo approccio dietro le quinte ed è lo standard per la maggior parte delle applicazioni desktop che funzionano su OS come Windows, macOS o Linux. Il `loop` ascolta i messaggi dai componenti dell'interfaccia utente come pulsanti, o dispositivi come la tastiera, e risponde a essi. Puoi leggere di più in questo [articolo sul ciclo degli eventi](https://wikipedia.org/wiki/Event_loop).
 
@@ -211,17 +211,17 @@ Nella lezione precedente, abbiamo introdotto i computer a scheda singola. Ora ap
 
 ### Raspberry Pi
 
-![Il logo Raspberry Pi](../../../../../translated_images/raspberry-pi-logo.4efaa16605cee054.it.png)
+![Il logo Raspberry Pi](../../../../../translated_images/it/raspberry-pi-logo.4efaa16605cee054.png)
 
 La [Raspberry Pi Foundation](https://www.raspberrypi.org) è un'organizzazione benefica del Regno Unito fondata nel 2009 per promuovere lo studio dell'informatica, soprattutto a livello scolastico. Come parte di questa missione, hanno sviluppato un computer a scheda singola, chiamato Raspberry Pi. I Raspberry Pi sono attualmente disponibili in 3 varianti - una versione a grandezza naturale, il più piccolo Pi Zero, e un modulo di calcolo che può essere integrato nel tuo dispositivo IoT finale.
 
-![Un Raspberry Pi 4](../../../../../translated_images/raspberry-pi-4.fd4590d308c3d456.it.jpg)
+![Un Raspberry Pi 4](../../../../../translated_images/it/raspberry-pi-4.fd4590d308c3d456.jpg)
 
 L'ultima iterazione del Raspberry Pi a grandezza naturale è il Raspberry Pi 4B. Questo ha una CPU quad-core (4 core) che funziona a 1.5GHz, 2, 4 o 8GB di RAM, gigabit ethernet, WiFi, 2 porte HDMI che supportano schermi 4k, una porta audio e video composito, porte USB (2 USB 2.0, 2 USB 3.0), 40 pin GPIO, un connettore per fotocamera per un modulo fotocamera Raspberry Pi e uno slot per schede SD. Tutto questo su una scheda che misura 88mm x 58mm x 19.5mm ed è alimentata da un alimentatore USB-C da 3A. Questi partono da 35 dollari USA, molto più economici di un PC o Mac.
 
 > 💁 C'è anche un Pi400, un computer all-in-one con un Pi4 integrato in una tastiera.
 
-![Un Raspberry Pi Zero](../../../../../translated_images/raspberry-pi-zero.f7a4133e1e7d54bb.it.jpg)
+![Un Raspberry Pi Zero](../../../../../translated_images/it/raspberry-pi-zero.f7a4133e1e7d54bb.jpg)
 
 Il Pi Zero è molto più piccolo e con un consumo energetico inferiore. Ha una CPU single-core da 1GHz, 512MB di RAM, WiFi (nel modello Zero W), una singola porta HDMI, una porta micro-USB, 40 pin GPIO, un connettore per fotocamera per un modulo fotocamera Raspberry Pi e uno slot per schede SD. Misura 65mm x 30mm x 5mm e consuma pochissima energia. Il Zero costa 5 dollari USA, mentre la versione W con WiFi costa 10 dollari USA.
 

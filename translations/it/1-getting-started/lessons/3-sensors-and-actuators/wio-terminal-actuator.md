@@ -35,7 +35,7 @@ Il Grove LED è fornito come modulo con una selezione di LED, permettendoti di s
 
 Collega il LED.
 
-![Un LED Grove](../../../../../translated_images/grove-led.6c853be93f473cf2c439cfc74bb1064732b22251a83cedf66e62f783f9cc1a79.it.png)
+![Un LED Grove](../../../../../translated_images/it/grove-led.6c853be93f473cf2c439cfc74bb1064732b22251a83cedf66e62f783f9cc1a79.png)
 
 1. Scegli il tuo LED preferito e inserisci i piedini nei due fori del modulo LED.
 
@@ -51,7 +51,7 @@ Collega il LED.
 
     > 💁 La presa Grove sul lato destro può essere utilizzata con sensori e attuatori analogici o digitali. La presa sul lato sinistro è per sensori e attuatori digitali soltanto. C sarà trattato in una lezione successiva.
 
-![Il LED Grove collegato alla presa sul lato destro](../../../../../translated_images/wio-led.265a1897e72d7f21.it.png)
+![Il LED Grove collegato alla presa sul lato destro](../../../../../translated_images/it/wio-led.265a1897e72d7f21.png)
 
 ## Programmare la luce notturna
 

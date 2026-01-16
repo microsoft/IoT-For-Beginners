@@ -37,11 +37,11 @@ CO_OP_TRANSLATOR_METADATA:
 
     1. ಪಿನ್ 0 ನಲ್ಲಿ ಲೈಟ್ ಸೆನ್ಸಾರ್ ರಚಿಸಲು **ಸೇರಿಸಿ** ಬಟನ್ ಆಯ್ಕೆಮಾಡಿ
 
-    ![The light sensor settings](../../../../../translated_images/counterfit-create-light-sensor.9f36a5e0d4458d8d.kn.png)
+    ![The light sensor settings](../../../../../translated_images/kn/counterfit-create-light-sensor.9f36a5e0d4458d8d.png)
 
     ಲೈಟ್ ಸೆನ್ಸಾರ್ ರಚಿಸಲಾಗಿದ್ದು, ಸೆನ್ಸರ್ ಪಟ್ಟಿಯಲ್ಲಿ ಕಾಣಿಸುತ್ತದೆ.
 
-    ![The light sensor created](../../../../../translated_images/counterfit-light-sensor.5d0f5584df56b90f.kn.png)
+    ![The light sensor created](../../../../../translated_images/kn/counterfit-light-sensor.5d0f5584df56b90f.png)
 
 ## ಲೈಟ್ ಸೆನ್ಸಾರ್ ಪ್ರೋಗ್ರಾಮ್ ಮಾಡಿ
 

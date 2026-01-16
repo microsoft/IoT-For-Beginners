@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Memorizzare i dati di localizzazione
 
-![Una panoramica illustrata di questa lezione](../../../../../translated_images/lesson-12.ca7f53039712a3ec14ad6474d8445361c84adab643edc53fa6269b77895606bb.it.jpg)
+![Una panoramica illustrata di questa lezione](../../../../../translated_images/it/lesson-12.ca7f53039712a3ec14ad6474d8445361c84adab643edc53fa6269b77895606bb.jpg)
 
 > Illustrazione di [Nitya Narasimhan](https://github.com/nitya). Clicca sull'immagine per una versione più grande.
 
@@ -66,7 +66,7 @@ I database sono servizi che consentono di archiviare e interrogare i dati. I dat
 
 I primi database erano Sistemi di Gestione di Database Relazionali (RDBMS), o database relazionali. Sono anche noti come database SQL, dal linguaggio Structured Query Language (SQL) utilizzato per interagire con essi per aggiungere, rimuovere, aggiornare o interrogare i dati. Questi database consistono in uno schema: un insieme ben definito di tabelle di dati, simile a un foglio di calcolo. Ogni tabella ha più colonne con nomi specifici. Quando inserisci dati, aggiungi una riga alla tabella, inserendo valori in ciascuna colonna. Questo mantiene i dati in una struttura molto rigida: sebbene tu possa lasciare colonne vuote, se vuoi aggiungere una nuova colonna devi farlo sul database, popolando i valori per le righe esistenti. Questi database sono relazionali, nel senso che una tabella può avere una relazione con un'altra.
 
-![Un database relazionale con l'ID della tabella Utenti che si collega alla colonna ID utente della tabella Acquisti, e l'ID della tabella Prodotti che si collega alla colonna ID prodotto della tabella Acquisti](../../../../../translated_images/sql-database.be160f12bfccefd3.it.png)
+![Un database relazionale con l'ID della tabella Utenti che si collega alla colonna ID utente della tabella Acquisti, e l'ID della tabella Prodotti che si collega alla colonna ID prodotto della tabella Acquisti](../../../../../translated_images/it/sql-database.be160f12bfccefd3.png)
 
 Ad esempio, se memorizzi i dettagli personali di un utente in una tabella, avrai un ID univoco interno per ogni utente utilizzato in una riga della tabella che contiene il nome e l'indirizzo dell'utente. Se poi vuoi memorizzare altri dettagli su quell'utente, come i suoi acquisti, in un'altra tabella, avrai una colonna nella nuova tabella per l'ID dell'utente. Quando cerchi un utente, puoi utilizzare il suo ID per ottenere i dettagli personali da una tabella e i suoi acquisti da un'altra.
 
@@ -84,7 +84,7 @@ I database NoSQL sono chiamati NoSQL perché non hanno la stessa struttura rigid
 
 > 💁 Nonostante il nome, alcuni database NoSQL consentono di utilizzare SQL per interrogare i dati.
 
-![Documenti in cartelle in un database NoSQL](../../../../../translated_images/noqsl-database.62d24ccf5b73f60d35c245a8533f1c7147c0928e955b82cb290b2e184bb434df.it.png)
+![Documenti in cartelle in un database NoSQL](../../../../../translated_images/it/noqsl-database.62d24ccf5b73f60d35c245a8533f1c7147c0928e955b82cb290b2e184bb434df.png)
 
 I database NoSQL non hanno uno schema predefinito che limita il modo in cui i dati vengono memorizzati; puoi invece inserire qualsiasi dato non strutturato, di solito utilizzando documenti JSON. Questi documenti possono essere organizzati in cartelle, simili ai file sul tuo computer. Ogni documento può avere campi diversi rispetto ad altri documenti. Ad esempio, se stai memorizzando dati IoT dai tuoi veicoli agricoli, alcuni potrebbero avere campi per dati di accelerometro e velocità, altri potrebbero avere campi per la temperatura nel rimorchio. Se aggiungessi un nuovo tipo di camion, come uno con bilance integrate per monitorare il peso del carico, il tuo dispositivo IoT potrebbe aggiungere questo nuovo campo e potrebbe essere memorizzato senza modifiche al database.
 
@@ -98,7 +98,7 @@ In questa lezione utilizzerai un'archiviazione NoSQL per memorizzare i dati IoT.
 
 Nella lezione precedente hai acquisito dati GPS da un sensore GPS collegato al tuo dispositivo IoT. Per memorizzare questi dati IoT nel cloud, devi inviarli a un servizio IoT. Ancora una volta, utilizzerai Azure IoT Hub, lo stesso servizio IoT cloud che hai usato nel progetto precedente.
 
-![Invio di telemetria GPS da un dispositivo IoT a IoT Hub](../../../../../translated_images/gps-telemetry-iot-hub.8115335d51cd2c1285d20e9d1b18cf685e59a8e093e7797291ef173445af6f3d.it.png)
+![Invio di telemetria GPS da un dispositivo IoT a IoT Hub](../../../../../translated_images/it/gps-telemetry-iot-hub.8115335d51cd2c1285d20e9d1b18cf685e59a8e093e7797291ef173445af6f3d.png)
 
 ### Attività - inviare dati GPS a un IoT Hub
 
@@ -180,7 +180,7 @@ I dati del percorso cold vengono archiviati in data warehouse, database progetta
 
 Una volta che i dati fluiscono nel tuo IoT Hub, puoi scrivere del codice serverless per ascoltare gli eventi pubblicati sull'endpoint compatibile con Event Hub. Questo è il percorso warm: questi dati verranno archiviati e utilizzati nella prossima lezione per creare report sul percorso.
 
-![Invio di telemetria GPS da un dispositivo IoT a IoT Hub, quindi a Azure Functions tramite un trigger di Event Hub](../../../../../translated_images/gps-telemetry-iot-hub-functions.24d3fa5592455e9f4e2fe73856b40c3915a292b90263c31d652acfd976cfedd8.it.png)
+![Invio di telemetria GPS da un dispositivo IoT a IoT Hub, quindi a Azure Functions tramite un trigger di Event Hub](../../../../../translated_images/it/gps-telemetry-iot-hub-functions.24d3fa5592455e9f4e2fe73856b40c3915a292b90263c31d652acfd976cfedd8.png)
 
 ### Attività - gestire eventi GPS con codice serverless
 
@@ -202,7 +202,7 @@ Una volta che i dati fluiscono nel tuo IoT Hub, puoi scrivere del codice serverl
 
 ## Account di Archiviazione Azure
 
-![Il logo di Azure Storage](../../../../../translated_images/azure-storage-logo.605c0f602c640d482a80f1b35a2629a32d595711b7ab1d7ceea843250615ff32.it.png)
+![Il logo di Azure Storage](../../../../../translated_images/it/azure-storage-logo.605c0f602c640d482a80f1b35a2629a32d595711b7ab1d7ceea843250615ff32.png)
 
 Gli Account di Archiviazione Azure sono un servizio di archiviazione generico che può memorizzare dati in diversi modi. Puoi archiviare dati come blob, in code, in tabelle o come file, e tutto contemporaneamente.
 
@@ -241,7 +241,7 @@ La tua app di funzioni ora deve connettersi all'archiviazione blob per archiviar
 
 In questa lezione, utilizzerai l'SDK Python per vedere come interagire con l'archiviazione blob.
 
-![Invio di telemetria GPS da un dispositivo IoT a IoT Hub, quindi a Azure Functions tramite un trigger di Event Hub, quindi salvataggio nell'archiviazione blob](../../../../../translated_images/save-telemetry-to-storage-from-functions.ed3b1820980097f1.it.png)
+![Invio di telemetria GPS da un dispositivo IoT a IoT Hub, quindi a Azure Functions tramite un trigger di Event Hub, quindi salvataggio nell'archiviazione blob](../../../../../translated_images/it/save-telemetry-to-storage-from-functions.ed3b1820980097f1.png)
 
 I dati verranno salvati come un blob JSON con il seguente formato:
 

@@ -22,7 +22,7 @@ I²C ha un bus composto da 2 fili principali, insieme a 2 fili di alimentazione:
 | VCC | Voltage common collector | L'alimentazione per i dispositivi. Questo è collegato ai fili SDA e SCL per fornire loro energia tramite una resistenza pull-up che spegne il segnale quando nessun dispositivo è il controller. |
 | GND | Ground | Fornisce una massa comune per il circuito elettrico. |
 
-![Bus I2C con 3 dispositivi collegati ai fili SDA e SCL, condividendo un filo di massa comune](../../../../../translated_images/i2c.83da845dde02256bdd462dbe0d5145461416b74930571b89d1ae142841eeb584.it.png)
+![Bus I2C con 3 dispositivi collegati ai fili SDA e SCL, condividendo un filo di massa comune](../../../../../translated_images/it/i2c.83da845dde02256bdd462dbe0d5145461416b74930571b89d1ae142841eeb584.png)
 
 Per inviare dati, un dispositivo emette una condizione di avvio per indicare che è pronto a inviare dati. Diventerà quindi il controller. Il controller invia l'indirizzo del dispositivo con cui vuole comunicare, insieme all'indicazione se vuole leggere o scrivere dati. Dopo che i dati sono stati trasmessi, il controller invia una condizione di stop per indicare che ha terminato. Dopo di ciò, un altro dispositivo può diventare il controller e inviare o ricevere dati.
 
@@ -37,7 +37,7 @@ UART coinvolge circuiti fisici che permettono a due dispositivi di comunicare. O
 * Il dispositivo 1 trasmette dati dal suo pin Tx, che vengono ricevuti dal dispositivo 2 sul suo pin Rx
 * Il dispositivo 1 riceve dati sul suo pin Rx che vengono trasmessi dal dispositivo 2 dal suo pin Tx
 
-![UART con il pin Tx su un chip collegato al pin Rx su un altro, e viceversa](../../../../../translated_images/uart.d0dbd3fb9e3728c6.it.png)
+![UART con il pin Tx su un chip collegato al pin Rx su un altro, e viceversa](../../../../../translated_images/it/uart.d0dbd3fb9e3728c6.png)
 
 > 🎓 I dati vengono inviati un bit alla volta, e questo è noto come comunicazione *seriale*. La maggior parte dei sistemi operativi e microcontrollori ha *porte seriali*, ovvero connessioni che possono inviare e ricevere dati seriali disponibili per il tuo codice.
 
@@ -66,7 +66,7 @@ I controller SPI utilizzano 3 fili, insieme a 1 filo extra per periferica. Le pe
 | SCLK | Serial Clock | Questo filo invia un segnale di clock a una velocità impostata dal controller. |
 | CS   | Chip Select | Il controller ha più fili, uno per periferica, e ogni filo si collega al filo CS sulla periferica corrispondente. |
 
-![SPI con un controller e due periferiche](../../../../../translated_images/spi.297431d6f98b386b.it.png)
+![SPI con un controller e due periferiche](../../../../../translated_images/it/spi.297431d6f98b386b.png)
 
 Il filo CS viene utilizzato per attivare una periferica alla volta, comunicando tramite i fili COPI e CIPO. Quando il controller deve cambiare periferica, disattiva il filo CS collegato alla periferica attualmente attiva, quindi attiva il filo collegato alla periferica con cui vuole comunicare successivamente.
 
@@ -127,13 +127,13 @@ L'umidità del suolo viene misurata utilizzando il contenuto d'acqua gravimetric
 
 I sensori di umidità del suolo misurano la resistenza elettrica o la capacità - questo non varia solo in base all'umidità del suolo, ma anche al tipo di suolo poiché i componenti nel suolo possono cambiare le sue caratteristiche elettriche. Idealmente i sensori dovrebbero essere calibrati - ovvero prendere letture dal sensore e confrontarle con misurazioni ottenute utilizzando un approccio più scientifico. Ad esempio, un laboratorio può calcolare l'umidità gravimetrica del suolo utilizzando campioni di un campo specifico prelevati alcune volte all'anno, e questi numeri utilizzati per calibrare il sensore, abbinando la lettura del sensore all'umidità gravimetrica del suolo.
 
-![Un grafico della tensione rispetto al contenuto di umidità del suolo](../../../../../translated_images/soil-moisture-to-voltage.df86d80cda158700.it.png)
+![Un grafico della tensione rispetto al contenuto di umidità del suolo](../../../../../translated_images/it/soil-moisture-to-voltage.df86d80cda158700.png)
 
 Il grafico sopra mostra come calibrare un sensore. La tensione viene catturata per un campione di suolo che viene poi misurato in laboratorio confrontando il peso umido con il peso secco (misurando il peso umido, poi asciugandolo in un forno e misurando il peso secco). Una volta prese alcune letture, queste possono essere tracciate su un grafico e una linea adattata ai punti. Questa linea può poi essere utilizzata per convertire le letture del sensore di umidità del suolo prese da un dispositivo IoT in misurazioni effettive dell'umidità del suolo.
 
 💁 Per i sensori resistivi di umidità del suolo, la tensione aumenta con l'aumento dell'umidità del suolo. Per i sensori capacitivi di umidità del suolo, la tensione diminuisce con l'aumento dell'umidità del suolo, quindi i grafici per questi avrebbero una pendenza verso il basso, non verso l'alto.
 
-![Un valore di umidità del suolo interpolato dal grafico](../../../../../translated_images/soil-moisture-to-voltage-with-reading.681cb3e1f8b68caf.it.png)
+![Un valore di umidità del suolo interpolato dal grafico](../../../../../translated_images/it/soil-moisture-to-voltage-with-reading.681cb3e1f8b68caf.png)
 
 Il grafico sopra mostra una lettura di tensione da un sensore di umidità del suolo, e seguendo quella linea sul grafico, l'umidità effettiva del suolo può essere calcolata.
 

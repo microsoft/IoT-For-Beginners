@@ -25,13 +25,13 @@ Il pulsante può essere collegato al Grove Base Hat.
 
 #### Attività - collegare il pulsante
 
-![Un pulsante Grove](../../../../../translated_images/grove-button.a70cfbb809a8563681003250cf5b06d68cdcc68624f9e2f493d5a534ae2da1e5.it.png)
+![Un pulsante Grove](../../../../../translated_images/it/grove-button.a70cfbb809a8563681003250cf5b06d68cdcc68624f9e2f493d5a534ae2da1e5.png)
 
 1. Inserisci un'estremità di un cavo Grove nella presa del modulo pulsante. Entrerà solo in un verso.
 
 1. Con il Raspberry Pi spento, collega l'altra estremità del cavo Grove alla presa digitale contrassegnata **D5** sul Grove Base Hat collegato al Pi. Questa presa è la seconda da sinistra, nella fila di prese accanto ai pin GPIO.
 
-![Il pulsante Grove collegato alla presa D5](../../../../../translated_images/pi-button.c7a1a4f55943341ce1baf1057658e9a205804d4131d258e820c93f951df0abf3.it.png)
+![Il pulsante Grove collegato alla presa D5](../../../../../translated_images/it/pi-button.c7a1a4f55943341ce1baf1057658e9a205804d4131d258e820c93f951df0abf3.png)
 
 ## Acquisire audio
 

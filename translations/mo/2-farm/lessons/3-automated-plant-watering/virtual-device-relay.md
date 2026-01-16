@@ -37,11 +37,11 @@ CO_OP_TRANSLATOR_METADATA:
 
     1. 選擇 **Add** 按鈕以在 Pin 5 上創建繼電器。
 
-    ![繼電器設置](../../../../../translated_images/counterfit-create-relay.fa7c40fd0f2f6afc33b35ea94fcb235085be4861e14e3fe6b9b7bcfc82d1c888.mo.png)
+    ![繼電器設置](../../../../../translated_images/mo/counterfit-create-relay.fa7c40fd0f2f6afc33b35ea94fcb235085be4861e14e3fe6b9b7bcfc82d1c888.png)
 
     繼電器將被創建並顯示在致動器列表中。
 
-    ![已創建的繼電器](../../../../../translated_images/counterfit-relay.bbf74c1dbdc8b9acd983367fcbd06703a402aefef6af54ddb28e11307ba8a12c.mo.png)
+    ![已創建的繼電器](../../../../../translated_images/mo/counterfit-relay.bbf74c1dbdc8b9acd983367fcbd06703a402aefef6af54ddb28e11307ba8a12c.png)
 
 ## 編程繼電器
 

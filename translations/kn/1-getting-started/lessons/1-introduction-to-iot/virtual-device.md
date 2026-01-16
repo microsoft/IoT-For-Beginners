@@ -155,11 +155,11 @@ Python virtual environment ಸಿದ್ಧವಾದ ನಂತರ, 'Hello World' 
 
 1. VS Code ಪ್ರಾರಂಭವಾದಾಗ, ಅದು Python virtual environment ಅನ್ನು ಸಕ್ರಿಯಗೊಳಿಸುತ್ತದೆ. ಆಯ್ದ virtual environment VS Code ನಿಧಾನಸ್ಥಿತಿ ಬಾರ್‍ನಲ್ಲಿಇರುತ್ತದೆ:
 
-    ![VS Code showing the selected virtual environment](../../../../../translated_images/vscode-virtual-env.8ba42e04c3d533cf.kn.png)
+    ![VS Code showing the selected virtual environment](../../../../../translated_images/kn/vscode-virtual-env.8ba42e04c3d533cf.png)
 
 1. VS Code ಟರ್ಮಿನಲ್ ಈಗಾಗಲೇ ರನ್ ಆಗಿ ಇದ್ದರೆ, virtual environment ಅದರಲ್ಲಿ ಸಕ್ರಿಯವಾಗಿಲ್ಲ. terminal ಅನ್ನು ಕಾಯ್ದು ಕೊಲ್ಲುವುದು ಸಾಧ್ಯವಾಗುತ್ತದೆ **Kill the active terminal instance** ಬಟನ್ ಬಳಸಿ:
 
-    ![VS Code Kill the active terminal instance button](../../../../../translated_images/vscode-kill-terminal.1cc4de7c6f25ee08.kn.png)
+    ![VS Code Kill the active terminal instance button](../../../../../translated_images/kn/vscode-kill-terminal.1cc4de7c6f25ee08.png)
 
     ನೀವು terminal prompt ನಲ್ಲಿ virtual environment ಹೆಸರು ಪ್ರೀಫಿಕ್ಸ್ ಆಗಿದೆಯೇ ಎಂದು ನೋಡಿ ಗುರುತಿಸಬಹುದು. ಉದಾಹರಣೆಗೆ:
 
@@ -213,7 +213,7 @@ Python virtual environment ಸಿದ್ಧವಾದ ನಂತರ, 'Hello World' 
 
     ಅಪ್ಲಿಕೇಶನ್ ಆರಂಭವಾಗುತ್ತದೆ ಮತ್ತು ನಿಮ್ಮ ವೆಬ್ ಬ್ರೌಸರ್‌ನಲ್ಲಿ ತೆರೆದುಕೊಳ್ಳುತ್ತದೆ:
 
-    ![The Counter Fit app running in a browser](../../../../../translated_images/counterfit-first-run.433326358b669b31.kn.png)
+    ![The Counter Fit app running in a browser](../../../../../translated_images/kn/counterfit-first-run.433326358b669b31.png)
 
     ಅದು *Disconnected* ಎಂದು ಗುರುತಿಸಲಾಗುತ್ತದೆ, ಮೇಲ್ಭಾಗದ ಬಲಗಡ Cris LED ಆನ್ ಆಗಿಲ್ಲ.
 
@@ -230,11 +230,11 @@ Python virtual environment ಸಿದ್ಧವಾದ ನಂತರ, 'Hello World' 
 
 1. CounterFit ಅಪ್ಲಿಕೇಶನ್ ಲಭ್ಯವಿರುವೂ ಟರ್ಮಿನಲ್ ಲಾಕ್ ಮಾಡಲಾಗಿದೆ ಆದ್ದರಿಂದ, ಹೊಸ VS Code ಟರ್ಮಿನಲ್ ಅನ್ನು ತೆರೆಯಿರಿ: **Create a new integrated terminal** ಬಟನ್ ಬಳಸಿರಿ.
 
-    ![VS Code Create a new integrated terminal button](../../../../../translated_images/vscode-new-terminal.77db8fc0f9cd3182.kn.png)
+    ![VS Code Create a new integrated terminal button](../../../../../translated_images/kn/vscode-new-terminal.77db8fc0f9cd3182.png)
 
 1. ಹೊಸ ಟರ್ಮಿನಲ್‌ನಲ್ಲಿ, `app.py` ಫೈಲ್ ಅನ್ನು ಮತ್ತೆ ರನ್ ಮಾಡಿ. CounterFit ಸ್ಥಿತಿ **Connected** ಆಗಿ LED ಬೆಳಗುತ್ತದೆ.
 
-    ![Counter Fit showing as connected](../../../../../translated_images/counterfit-connected.ed30b46d8f79b092.kn.png)
+    ![Counter Fit showing as connected](../../../../../translated_images/kn/counterfit-connected.ed30b46d8f79b092.png)
 
 > 💁 ಈ ಕೋಡ್ ಅನ್ನು ನೀವು [code/virtual-device](../../../../../1-getting-started/lessons/1-introduction-to-iot/code/virtual-device) ಫೋಲ್ಡರ್‌ನಲ್ಲಿ ಹುಡುಕಬಹುದು.
 

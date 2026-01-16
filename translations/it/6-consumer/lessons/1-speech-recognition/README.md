@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Riconoscere il parlato con un dispositivo IoT
 
-![Una panoramica illustrata di questa lezione](../../../../../translated_images/lesson-21.e34de51354d6606fb5ee08d8c89d0222eea0a2a7aaf744a8805ae847c4f69dc4.it.jpg)
+![Una panoramica illustrata di questa lezione](../../../../../translated_images/it/lesson-21.e34de51354d6606fb5ee08d8c89d0222eea0a2a7aaf744a8805ae847c4f69dc4.jpg)
 
 > Sketchnote di [Nitya Narasimhan](https://github.com/nitya). Clicca sull'immagine per una versione più grande.
 
@@ -60,19 +60,19 @@ I microfoni sono disponibili in una varietà di tipi:
 
     I microfoni dinamici non necessitano di alimentazione per funzionare, il segnale elettrico è generato interamente dal microfono.
 
-    ![Patti Smith che canta in un microfono Shure SM58 (tipo cardioide dinamico)](../../../../../translated_images/dynamic-mic.8babac890a2d80dfb0874b5bf37d4b851fe2aeb9da6fd72945746176978bf3bb.it.jpg)
+    ![Patti Smith che canta in un microfono Shure SM58 (tipo cardioide dinamico)](../../../../../translated_images/it/dynamic-mic.8babac890a2d80dfb0874b5bf37d4b851fe2aeb9da6fd72945746176978bf3bb.jpg)
 
 * A nastro - I microfoni a nastro sono simili ai microfoni dinamici, ma hanno un nastro metallico invece di un diaframma. Questo nastro si muove in un campo magnetico generando una corrente elettrica. Come i microfoni dinamici, i microfoni a nastro non necessitano di alimentazione per funzionare.
 
-    ![Edmund Lowe, attore americano, in piedi davanti a un microfono radiofonico (etichettato per la rete Blue Network della NBC), con in mano un copione, 1942](../../../../../translated_images/ribbon-mic.eacc8e092c7441ca.it.jpg)
+    ![Edmund Lowe, attore americano, in piedi davanti a un microfono radiofonico (etichettato per la rete Blue Network della NBC), con in mano un copione, 1942](../../../../../translated_images/it/ribbon-mic.eacc8e092c7441ca.jpg)
 
 * Condensatore - I microfoni a condensatore hanno un diaframma metallico sottile e una piastra posteriore metallica fissa. L'elettricità viene applicata a entrambi e, mentre il diaframma vibra, la carica statica tra le piastre cambia generando un segnale. I microfoni a condensatore necessitano di alimentazione per funzionare - chiamata *Phantom power*.
 
-    ![Microfono a condensatore a piccolo diaframma C451B di AKG Acoustics](../../../../../translated_images/condenser-mic.6f6ed5b76ca19e0ec3fd0c544601542d4479a6cb7565db336de49fbbf69f623e.it.jpg)
+    ![Microfono a condensatore a piccolo diaframma C451B di AKG Acoustics](../../../../../translated_images/it/condenser-mic.6f6ed5b76ca19e0ec3fd0c544601542d4479a6cb7565db336de49fbbf69f623e.jpg)
 
 * MEMS - I microfoni a sistemi microelettromeccanici, o MEMS, sono microfoni su chip. Hanno un diaframma sensibile alla pressione inciso su un chip di silicio e funzionano in modo simile a un microfono a condensatore. Questi microfoni possono essere minuscoli e integrati nei circuiti.
 
-    ![Un microfono MEMS su una scheda elettronica](../../../../../translated_images/mems-microphone.80574019e1f5e4d9ee72fed720ecd25a39fc2969c91355d17ebb24ba4159e4c4.it.png)
+    ![Un microfono MEMS su una scheda elettronica](../../../../../translated_images/it/mems-microphone.80574019e1f5e4d9ee72fed720ecd25a39fc2969c91355d17ebb24ba4159e4c4.png)
 
     Nell'immagine sopra, il chip etichettato **LEFT** è un microfono MEMS, con un diaframma minuscolo largo meno di un millimetro.
 
@@ -84,7 +84,7 @@ L'audio è un segnale analogico che trasporta informazioni molto dettagliate. Pe
 
 > 🎓 Il campionamento consiste nel convertire il segnale audio in un valore digitale che rappresenta il segnale in quel momento.
 
-![Un grafico a linee che mostra un segnale, con punti discreti a intervalli fissi](../../../../../translated_images/sampling.6f4fadb3f2d9dfe7.it.png)
+![Un grafico a linee che mostra un segnale, con punti discreti a intervalli fissi](../../../../../translated_images/it/sampling.6f4fadb3f2d9dfe7.png)
 
 L'audio digitale viene campionato utilizzando la modulazione a codice di impulsi, o PCM. PCM consiste nel leggere la tensione del segnale e selezionare il valore discreto più vicino a quella tensione utilizzando una dimensione definita.
 
@@ -168,7 +168,7 @@ Per evitare la complessità di addestrare e utilizzare un modello di parola di a
 
 ## Convertire voce in testo
 
-![Logo dei servizi vocali](../../../../../translated_images/azure-speech-logo.a1f08c4befb0159f2cb5d692d3baf5b599e7b44759d316da907bda1508f46a4a.it.png)
+![Logo dei servizi vocali](../../../../../translated_images/it/azure-speech-logo.a1f08c4befb0159f2cb5d692d3baf5b599e7b44759d316da907bda1508f46a4a.png)
 
 Proprio come per la classificazione delle immagini in un progetto precedente, esistono servizi di intelligenza artificiale predefiniti che possono prendere la voce come file audio e convertirla in testo. Uno di questi servizi è il Servizio Vocale, parte dei Cognitive Services, servizi di intelligenza artificiale predefiniti che puoi utilizzare nelle tue applicazioni.
 

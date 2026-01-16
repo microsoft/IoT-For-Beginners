@@ -114,7 +114,7 @@ Kalbos paslaugos REST API tiesiogiai nepalaiko vertimų, tačiau galite naudoti 
     >
     > Pavyzdžiui, jei mokote LUIS anglų kalba, bet norite naudoti prancūzų kalbą kaip vartotojo kalbą, galite išversti sakinius, tokius kaip "set a 2 minute and 27 second timer" iš anglų į prancūzų kalbą naudodami Bing Translate, tada naudoti mygtuką **Listen translation**, kad pasakytumėte vertimą į mikrofoną.
     >
-    > ![Mygtukas "Listen translation" Bing Translate](../../../../../translated_images/bing-translate.348aa796d6efe2a92f41ea74a5cf42bb4c63d6faaa08e7f46924e072a35daa48.lt.png)
+    > ![Mygtukas "Listen translation" Bing Translate](../../../../../translated_images/lt/bing-translate.348aa796d6efe2a92f41ea74a5cf42bb4c63d6faaa08e7f46924e072a35daa48.png)
 
 1. Pridėkite vertimo API raktą ir vietą po `SPEECH_LOCATION`:
 

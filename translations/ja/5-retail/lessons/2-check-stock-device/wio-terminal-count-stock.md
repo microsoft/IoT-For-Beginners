@@ -13,7 +13,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 ## 在庫をカウントする
 
-![各缶の周りにバウンディングボックスが描かれたトマトペーストの缶4つ](../../../../../translated_images/rpi-stock-with-bounding-boxes.b5540e2ecb7cd49f.ja.jpg)
+![各缶の周りにバウンディングボックスが描かれたトマトペーストの缶4つ](../../../../../translated_images/ja/rpi-stock-with-bounding-boxes.b5540e2ecb7cd49f.jpg)
 
 上記の画像では、バウンディングボックスが少し重なっています。この重なりがもっと大きい場合、バウンディングボックスが同じオブジェクトを示している可能性があります。オブジェクトを正確にカウントするには、重なりが大きいボックスを無視する必要があります。
 

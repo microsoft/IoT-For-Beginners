@@ -27,13 +27,13 @@ Grove 릴레이를 Raspberry Pi에 연결할 수 있습니다.
 
 릴레이를 연결하세요.
 
-![Grove 릴레이](../../../../../translated_images/grove-relay.d426958ca210fbd0fb7983d7edc069d46c73a8b0a099d94797bd756f7b6bb6be.ko.png)
+![Grove 릴레이](../../../../../translated_images/ko/grove-relay.d426958ca210fbd0fb7983d7edc069d46c73a8b0a099d94797bd756f7b6bb6be.png)
 
 1. Grove 케이블의 한쪽 끝을 릴레이 소켓에 삽입하세요. 케이블은 한 방향으로만 들어갑니다.
 
 1. Raspberry Pi의 전원을 끈 상태에서, Grove 케이블의 다른 쪽 끝을 Pi에 부착된 Grove Base Hat의 **D5**로 표시된 디지털 소켓에 연결하세요. 이 소켓은 GPIO 핀 옆에 있는 소켓 줄에서 왼쪽에서 두 번째입니다. 토양 수분 센서는 **A0** 소켓에 계속 연결된 상태로 둡니다.
 
-![D5 소켓에 연결된 Grove 릴레이와 A0 소켓에 연결된 토양 수분 센서](../../../../../translated_images/pi-relay-and-soil-moisture-sensor.02f3198975b8c53e69ec716cd2719ce117700bd1fc933eaf93476c103c57939b.ko.png)
+![D5 소켓에 연결된 Grove 릴레이와 A0 소켓에 연결된 토양 수분 센서](../../../../../translated_images/ko/pi-relay-and-soil-moisture-sensor.02f3198975b8c53e69ec716cd2719ce117700bd1fc933eaf93476c103c57939b.png)
 
 1. 이전 수업에서 이미 토양에 삽입하지 않았다면, 토양 수분 센서를 토양에 삽입하세요.
 

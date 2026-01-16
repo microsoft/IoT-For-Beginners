@@ -64,7 +64,7 @@ Wio TerminalをWiFiに接続します。
 
 1. `src`フォルダに`config.h`という新しいファイルを作成します。これは、`src`フォルダまたはその中の`main.cpp`ファイルを選択し、エクスプローラーの**新しいファイル**ボタンをクリックすることで行えます。このボタンは、カーソルがエクスプローラー上にあるときにのみ表示されます。
 
-    ![新しいファイルボタン](../../../../../translated_images/vscode-new-file-button.182702340fe6723c.ja.png)
+    ![新しいファイルボタン](../../../../../translated_images/ja/vscode-new-file-button.182702340fe6723c.png)
 
 1. このファイルに以下のコードを追加し、WiFiの認証情報を定義します：
 

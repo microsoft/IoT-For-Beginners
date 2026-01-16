@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 [Raspberry Pi](https://raspberrypi.org) ഒരു സിംഗിൾ-ബോർഡ് കമ്പ്യൂട്ടറാണ്. നിരവധി ഉപകരണങ്ങളും ഇക്കോസിസ്റ്റങ്ങളുമായി സെൻസറുകളും ആക്ചുവേറ്ററുകളും നിങ്ങൾക്ക് കൂട്ടിച്ചേർക്കാനാകും, ഈ പാഠങ്ങൾക്ക് Grove എന്ന ഹാർഡ്‌വെയർ ഇക്കോസിസ്റ്റം ഉപയോഗിക്കുന്നു ([Grove](https://www.seeedstudio.com/category/Grove-c-1003.html)). നിങ്ങളുടെ Pi കോഡ് ചെയ്ത് Grove സെൻസറുകളിലേക്ക് Python ഉപയോഗിച്ച് ആക്സസ് ചെയ്യും.
 
-![A Raspberry Pi 4](../../../../../translated_images/raspberry-pi-4.fd4590d308c3d456.ml.jpg)
+![A Raspberry Pi 4](../../../../../translated_images/ml/raspberry-pi-4.fd4590d308c3d456.jpg)
 
 ## സെറ്റപ്പ്
 
@@ -112,7 +112,7 @@ Grove സെൻസറുകളും ആക്ചുവേറ്ററുകള�
 
 1. Raspberry Pi Imager-ൽ **CHOOSE OS** ബട്ടൺ തിരഞ്ഞെടുക്കുക, തുടർന്ന് *Raspberry Pi OS (Other)*, തുടർന്ന് *Raspberry Pi OS Lite (32-bit)* തിരഞ്ഞെടുക്കുക
 
-    ![The Raspberry Pi Imager with Raspberry Pi OS Lite selected](../../../../../translated_images/raspberry-pi-imager.24aedeab9e233d84.ml.png)
+    ![The Raspberry Pi Imager with Raspberry Pi OS Lite selected](../../../../../translated_images/ml/raspberry-pi-imager.24aedeab9e233d84.png)
 
     > 💁 Raspberry Pi OS Lite, Raspberry Pi OS-ന്റെ ഒരു പതിപ്പാണ്, ഇതിൽ ഡെസ്‌ക്ക്ടോപ്പ് UI അല്ലെങ്കിൽ UI അടിസ്ഥാനമായ ഉപകരണങ്ങൾ ഇല്ല. ഹെഡ്ലെസ് Pi-യ്‌ക്കുണ്ടാകേണ്ട പവർ നഷ്ടപ്പെടാതെ ഇത് ഇൻസ്റ്റാൾ വലുതാകാതെ ബൂട്ട് സമയം വേഗത്തിൽ ആക്കുന്നു.
 
@@ -251,7 +251,7 @@ Pi കോൺഫിഗർ ചെയ്ത ശേഷം, Python-ൽ ഉപകര�
 
 1. ഈ ഫോൾഡർ *File -> Open...* തിരഞ്ഞെടുത്ത് *nightlight* ഫോൾഡർ തിരഞ്ഞെടുക്കുകയും **OK** അമർത്തുകയും ചെയ്ത് VS കോഡിൽ തുറക്കുക
 
-    ![The VS Code open dialog showing the nightlight folder](../../../../../translated_images/vscode-open-nightlight-remote.d3d2a4011e30d535.ml.png)
+    ![The VS Code open dialog showing the nightlight folder](../../../../../translated_images/ml/vscode-open-nightlight-remote.d3d2a4011e30d535.png)
 
 1. VS കോഡ് എക്‌സ്‌പ്ലോററിൽ നിന്നു `app.py` ഫയൽ തുറന്ന് താഴെയുള്ള കോഡ് ചേർക്കുക:
 

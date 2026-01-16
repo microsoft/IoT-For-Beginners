@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # 言語を理解する
 
-![このレッスンのスケッチノート概要](../../../../../translated_images/lesson-22.6148ea28500d9e00c396aaa2649935fb6641362c8f03d8e5e90a676977ab01dd.ja.jpg)
+![このレッスンのスケッチノート概要](../../../../../translated_images/ja/lesson-22.6148ea28500d9e00c396aaa2649935fb6641362c8f03d8e5e90a676977ab01dd.jpg)
 
 > スケッチノート作成者: [Nitya Narasimhan](https://github.com/nitya)。画像をクリックすると拡大表示されます。
 
@@ -55,7 +55,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 ## 言語理解モデルの作成
 
-![LUISのロゴ](../../../../../translated_images/luis-logo.5cb4f3e88c020ee6df4f614e8831f4a4b6809a7247bf52085fb48d629ef9be52.ja.png)
+![LUISのロゴ](../../../../../translated_images/ja/luis-logo.5cb4f3e88c020ee6df4f614e8831f4a4b6809a7247bf52085fb48d629ef9be52.png)
 
 言語理解モデルは、MicrosoftのCognitive Servicesの一部であるLUIS（Language Understanding Intelligent Service）を使用して作成できます。
 
@@ -126,7 +126,7 @@ LUISを訓練するには、まずエンティティを設定します。これ�
 
 これらの文のどの部分がエンティティに対応するかをLUISに教えます：
 
-![文「set a timer for 1 minute and 12 seconds」をエンティティに分解した図](../../../../../translated_images/sentence-as-intent-entities.301401696f992259.ja.png)
+![文「set a timer for 1 minute and 12 seconds」をエンティティに分解した図](../../../../../translated_images/ja/sentence-as-intent-entities.301401696f992259.png)
 
 文`set a timer for 1 minute and 12 seconds`のインテントは`set timer`です。また、2つのエンティティがそれぞれ2つの値を持っています：
 
@@ -178,7 +178,7 @@ LUISポータルの使用方法については、[Microsoft DocsのLUISポータ
 
 1. 各例文を入力すると、LUISがエンティティを検出し始め、検出された部分を下線付きでラベル付けします。
 
-    ![LUISが例文の数字と時間単位を下線付きで表示している図](../../../../../translated_images/luis-intent-examples.25716580b2d2723cf1bafdf277d015c7f046d8cfa20f27bddf3a0873ec45fab7.ja.png)
+    ![LUISが例文の数字と時間単位を下線付きで表示している図](../../../../../translated_images/ja/luis-intent-examples.25716580b2d2723cf1bafdf277d015c7f046d8cfa20f27bddf3a0873ec45fab7.png)
 
 ### タスク - モデルの訓練とテスト
 

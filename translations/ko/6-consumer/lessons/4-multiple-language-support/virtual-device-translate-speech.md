@@ -46,7 +46,7 @@ CO_OP_TRANSLATOR_METADATA:
     >
     > 예를 들어, LUIS를 영어로 학습시키고, 사용자 언어로 프랑스어를 사용하려는 경우, Bing 번역기를 사용하여 "set a 2 minute and 27 second timer"와 같은 문장을 영어에서 프랑스어로 번역한 다음, **번역 듣기** 버튼을 사용하여 번역된 문장을 마이크에 말할 수 있습니다.
     >
-    > ![Bing 번역기의 번역 듣기 버튼](../../../../../translated_images/bing-translate.348aa796d6efe2a92f41ea74a5cf42bb4c63d6faaa08e7f46924e072a35daa48.ko.png)
+    > ![Bing 번역기의 번역 듣기 버튼](../../../../../translated_images/ko/bing-translate.348aa796d6efe2a92f41ea74a5cf42bb4c63d6faaa08e7f46924e072a35daa48.png)
 
 1. `recognizer_config`와 `recognizer` 선언을 다음으로 교체합니다:
 

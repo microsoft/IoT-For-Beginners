@@ -27,13 +27,13 @@ GroveリレーはWio Terminalのデジタルポートに接続できます。
 
 リレーを接続してください。
 
-![Groveリレー](../../../../../translated_images/grove-relay.d426958ca210fbd0fb7983d7edc069d46c73a8b0a099d94797bd756f7b6bb6be.ja.png)
+![Groveリレー](../../../../../translated_images/ja/grove-relay.d426958ca210fbd0fb7983d7edc069d46c73a8b0a099d94797bd756f7b6bb6be.png)
 
 1. Groveケーブルの一端をリレーのソケットに差し込みます。ケーブルは一方向にしか差し込めません。
 
 1. Wio Terminalをコンピュータや他の電源から切断した状態で、Groveケーブルのもう一端をWio Terminalの画面を見たときの左側のGroveソケットに接続します。右側のソケットには土壌湿度センサーを接続したままにしてください。
 
-![左側のソケットに接続されたGroveリレーと、右側のソケットに接続された土壌湿度センサー](../../../../../translated_images/wio-relay-and-soil-moisture-sensor.ed722202d42babe0.ja.png)
+![左側のソケットに接続されたGroveリレーと、右側のソケットに接続された土壌湿度センサー](../../../../../translated_images/ja/wio-relay-and-soil-moisture-sensor.ed722202d42babe0.png)
 
 1. 前のレッスンで土壌湿度センサーを土に挿していない場合は、土に挿してください。
 

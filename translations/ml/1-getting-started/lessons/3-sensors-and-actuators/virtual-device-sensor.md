@@ -37,11 +37,11 @@ CO_OP_TRANSLATOR_METADATA:
 
     1. Pin 0-ൽ ലൈറ്റ് സെൻസർ സൃഷ്ടിക്കാൻ **Add** ബട്ടൺ ക്ലിക്ക് ചെയ്യുക.
 
-    ![The light sensor settings](../../../../../translated_images/counterfit-create-light-sensor.9f36a5e0d4458d8d.ml.png)
+    ![The light sensor settings](../../../../../translated_images/ml/counterfit-create-light-sensor.9f36a5e0d4458d8d.png)
 
     ലൈറ്റ് സെൻസർ സൃഷ്ടിച്ച് സെൻസറുകളുടെ പട്ടികയിൽ കാണിക്കും.
 
-    ![The light sensor created](../../../../../translated_images/counterfit-light-sensor.5d0f5584df56b90f.ml.png)
+    ![The light sensor created](../../../../../translated_images/ml/counterfit-light-sensor.5d0f5584df56b90f.png)
 
 ## ലൈറ്റ് സെൻസർ പ്രോഗ്രാം ചെയ്യുക
 

@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # エッジで果物検出器を実行する
 
-![このレッスンの概要を示すスケッチノート](../../../../../translated_images/lesson-17.bc333c3c35ba8e42cce666cfffa82b915f787f455bd94e006aea2b6f2722421a.ja.jpg)
+![このレッスンの概要を示すスケッチノート](../../../../../translated_images/ja/lesson-17.bc333c3c35ba8e42cce666cfffa82b915f787f455bd94e006aea2b6f2722421a.jpg)
 
 > スケッチノート作成者：[Nitya Narasimhan](https://github.com/nitya)。画像をクリックすると拡大版が表示されます。
 
@@ -42,11 +42,11 @@ CO_OP_TRANSLATOR_METADATA:
 
 エッジコンピューティングとは、IoTデータを生成される場所にできるだけ近いコンピュータで処理することを指します。この処理をクラウドではなく、クラウドのエッジ、つまり内部ネットワークに移動させます。
 
-![クラウドでのインターネットサービスとローカルネットワーク上のIoTデバイスを示すアーキテクチャ図](../../../../../translated_images/cloud-without-edge.b4da641f6022c95ed6b91fde8b5323abd2f94e0d52073ad54172ae8f5dac90e9.ja.png)
+![クラウドでのインターネットサービスとローカルネットワーク上のIoTデバイスを示すアーキテクチャ図](../../../../../translated_images/ja/cloud-without-edge.b4da641f6022c95ed6b91fde8b5323abd2f94e0d52073ad54172ae8f5dac90e9.png)
 
 これまでのレッスンでは、デバイスがデータを収集し、それをクラウドに送信して分析し、サーバーレス関数やAIモデルをクラウドで実行していました。
 
-![ローカルネットワーク上のIoTデバイスがエッジデバイスに接続し、それらのエッジデバイスがクラウドに接続するアーキテクチャ図](../../../../../translated_images/cloud-with-edge.1e26462c62c126fe150bd15a5714ddf0be599f09bacbad08b85be02b76ea1ae1.ja.png)
+![ローカルネットワーク上のIoTデバイスがエッジデバイスに接続し、それらのエッジデバイスがクラウドに接続するアーキテクチャ図](../../../../../translated_images/ja/cloud-with-edge.1e26462c62c126fe150bd15a5714ddf0be599f09bacbad08b85be02b76ea1ae1.png)
 
 エッジコンピューティングでは、クラウドサービスの一部をクラウドから切り離し、IoTデバイスと同じネットワーク上で動作するコンピュータに移動させます。クラウドとの通信は必要な場合にのみ行います。例えば、エッジデバイス上でAIモデルを実行して果物の熟度を分析し、熟した果物と未熟な果物の数などの分析結果だけをクラウドに送信することができます。
 
@@ -94,7 +94,7 @@ IoTシステムでは、クラウドとエッジコンピューティングを�
 
 ## Azure IoT Edge
 
-![Azure IoT Edgeのロゴ](../../../../../translated_images/azure-iot-edge-logo.c1c076749b5cba2e8755262fadc2f19ca1146b948d76990b1229199ac2292d79.ja.png)
+![Azure IoT Edgeのロゴ](../../../../../translated_images/ja/azure-iot-edge-logo.c1c076749b5cba2e8755262fadc2f19ca1146b948d76990b1229199ac2292d79.png)
 
 Azure IoT Edgeは、クラウドからエッジにワークロードを移動するのを支援するサービスです。デバイスをエッジデバイスとして設定し、クラウドからそのエッジデバイスにコードをデプロイできます。これにより、クラウドとエッジの機能を組み合わせることができます。
 
@@ -108,7 +108,7 @@ IoT EdgeはIoT Hubに組み込まれているため、IoTデバイスを管理�
 
 IoT Edgeは*コンテナ*からコードを実行します。コンテナとは、コンピュータ上の他のアプリケーションから隔離された状態で実行される自己完結型のアプリケーションです。コンテナを実行すると、それはコンピュータ内で別のコンピュータのように動作し、独自のソフトウェア、サービス、アプリケーションを実行します。通常、コンテナは共有を選択しない限り、コンピュータ上の何かにアクセスすることはできません。例えば、フォルダをコンテナと共有することができます。その後、コンテナはオープンポートを介してサービスを提供し、ネットワークに接続できます。
 
-![コンテナにリダイレクトされるWebリクエスト](../../../../../translated_images/container-web-browser.4ee81dd4f0d8838ce622b2a0d600b6a4322b5d4fe43159facd87b7b34f84d66a.ja.png)
+![コンテナにリダイレクトされるWebリクエスト](../../../../../translated_images/ja/container-web-browser.4ee81dd4f0d8838ce622b2a0d600b6a4322b5d4fe43159facd87b7b34f84d66a.png)
 
 例えば、ポート80（デフォルトのHTTPポート）で動作するWebサイトを持つコンテナを作成し、それをコンピュータ上でもポート80で公開することができます。
 
@@ -200,11 +200,11 @@ IoT Edgeデバイスを使用するには、IoT Hubに登録する必要があ�
 
 ## コンテナをデプロイ用に準備する
 
-![コンテナはビルドされ、コンテナレジストリにプッシュされ、IoT Edge を使用してエッジデバイスにデプロイされます](../../../../../translated_images/container-edge-flow.c246050dd60ceefdb6ace026a4ce5c6aa4112bb5898ae23fbb2ab4be29ae3e1b.ja.png)
+![コンテナはビルドされ、コンテナレジストリにプッシュされ、IoT Edge を使用してエッジデバイスにデプロイされます](../../../../../translated_images/ja/container-edge-flow.c246050dd60ceefdb6ace026a4ce5c6aa4112bb5898ae23fbb2ab4be29ae3e1b.png)
 
 モデルをダウンロードしたら、それをコンテナにビルドし、コンテナレジストリにプッシュする必要があります。コンテナレジストリは、コンテナを保存するためのオンラインの場所です。その後、IoT Edge がレジストリからコンテナをダウンロードし、デバイスにプッシュします。
 
-![Azure Container Registry のロゴ](../../../../../translated_images/azure-container-registry-logo.09494206991d4b295025ebff7d4e2900325e527a59184ffbc8464b6ab59654be.ja.png)
+![Azure Container Registry のロゴ](../../../../../translated_images/ja/azure-container-registry-logo.09494206991d4b295025ebff7d4e2900325e527a59184ffbc8464b6ab59654be.png)
 
 このレッスンで使用するコンテナレジストリは Azure Container Registry です。これは無料サービスではないため、作業が完了したら[プロジェクトをクリーンアップ](../../../clean-up.md)してコストを節約してください。
 

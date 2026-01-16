@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Supporto per più lingue
 
-![Una panoramica illustrata di questa lezione](../../../../../translated_images/lesson-24.4246968ed058510ab275052e87ef9aa89c7b2f938915d103c605c04dc6cd5bb7.it.jpg)
+![Una panoramica illustrata di questa lezione](../../../../../translated_images/it/lesson-24.4246968ed058510ab275052e87ef9aa89c7b2f938915d103c605c04dc6cd5bb7.jpg)
 
 > Illustrazione di [Nitya Narasimhan](https://github.com/nitya). Clicca sull'immagine per una versione più grande.
 
@@ -83,7 +83,7 @@ Esistono numerosi servizi AI che possono essere utilizzati dalle tue applicazion
 
 ### Servizio vocale di Cognitive Services
 
-![Il logo del servizio vocale](../../../../../translated_images/azure-speech-logo.a1f08c4befb0159f2cb5d692d3baf5b599e7b44759d316da907bda1508f46a4a.it.png)
+![Il logo del servizio vocale](../../../../../translated_images/it/azure-speech-logo.a1f08c4befb0159f2cb5d692d3baf5b599e7b44759d316da907bda1508f46a4a.png)
 
 Il servizio vocale che hai utilizzato nelle lezioni precedenti ha capacità di traduzione per il riconoscimento vocale. Quando riconosci il parlato, puoi richiedere non solo il testo del parlato nella stessa lingua, ma anche in altre lingue.
 
@@ -91,7 +91,7 @@ Il servizio vocale che hai utilizzato nelle lezioni precedenti ha capacità di t
 
 ### Servizio Translator di Cognitive Services
 
-![Il logo del servizio Translator](../../../../../translated_images/azure-translator-logo.c6ed3a4a433edfd2f11577eca105412c50b8396b194cbbd730723dd1d0793bcd.it.png)
+![Il logo del servizio Translator](../../../../../translated_images/it/azure-translator-logo.c6ed3a4a433edfd2f11577eca105412c50b8396b194cbbd730723dd1d0793bcd.png)
 
 Il servizio Translator è un servizio di traduzione dedicato che può tradurre testo da una lingua a una o più lingue di destinazione. Oltre alla traduzione, supporta una vasta gamma di funzionalità extra, tra cui la mascheratura delle volgarità. Ti consente anche di fornire una traduzione specifica per una particolare parola o frase, per lavorare con termini che non vuoi tradurre o che hanno una traduzione specifica ben nota.
 
@@ -130,7 +130,7 @@ Per questa lezione avrai bisogno di una risorsa Translator. Utilizzerai l'API RE
 
 In un mondo ideale, tutta la tua applicazione dovrebbe comprendere il maggior numero possibile di lingue diverse, dall'ascolto del parlato, alla comprensione del linguaggio, fino alla risposta con il parlato. Questo richiede molto lavoro, quindi i servizi di traduzione possono accelerare il tempo di consegna della tua applicazione.
 
-![Un'architettura di timer intelligente che traduce dal giapponese all'inglese, elabora in inglese e poi traduce di nuovo in giapponese](../../../../../translated_images/translated-smart-timer.08ac20057fdc5c37.it.png)
+![Un'architettura di timer intelligente che traduce dal giapponese all'inglese, elabora in inglese e poi traduce di nuovo in giapponese](../../../../../translated_images/it/translated-smart-timer.08ac20057fdc5c37.png)
 
 Immagina di costruire un timer intelligente che utilizza l'inglese end-to-end, comprendendo l'inglese parlato e convertendolo in testo, eseguendo la comprensione del linguaggio in inglese, costruendo risposte in inglese e rispondendo con parlato in inglese. Se volessi aggiungere il supporto per il giapponese, potresti iniziare traducendo il giapponese parlato in testo inglese, mantenendo il nucleo dell'applicazione invariato, poi traducendo il testo di risposta in giapponese prima di pronunciare la risposta. Questo ti permetterebbe di aggiungere rapidamente il supporto per il giapponese, e potresti espandere per fornire un supporto completo end-to-end per il giapponese in seguito.
 

@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # IoT 기기를 사용한 과일 품질 확인
 
-![이 강의의 스케치노트 개요](../../../../../translated_images/lesson-16.215daf18b00631fbdfd64c6fc2dc6044dff5d544288825d8076f9fb83d964c23.ko.jpg)
+![이 강의의 스케치노트 개요](../../../../../translated_images/ko/lesson-16.215daf18b00631fbdfd64c6fc2dc6044dff5d544288825d8076f9fb83d964c23.jpg)
 
 > 스케치노트: [Nitya Narasimhan](https://github.com/nitya). 이미지를 클릭하면 더 큰 버전을 볼 수 있습니다.
 
@@ -35,7 +35,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 카메라 센서는 이름에서 알 수 있듯이 IoT 기기에 연결할 수 있는 카메라입니다. 정지 이미지를 촬영하거나 스트리밍 비디오를 캡처할 수 있습니다. 일부는 원시 이미지 데이터를 반환하고, 다른 일부는 JPEG 또는 PNG와 같은 이미지 파일로 데이터를 압축합니다. 일반적으로 IoT 기기와 함께 사용하는 카메라는 우리가 흔히 사용하는 카메라보다 작고 해상도가 낮지만, 고해상도 카메라도 구할 수 있으며 이는 고급 스마트폰과 견줄 만합니다. 교체 가능한 렌즈, 다중 카메라 설정, 적외선 열화상 카메라, 자외선 카메라 등 다양한 옵션이 있습니다.
 
-![장면의 빛이 렌즈를 통과해 CMOS 센서에 초점이 맞춰지는 모습](../../../../../translated_images/cmos-sensor.75f9cd74decb137149a4c9ea825251a4549497d67c0ae2776159e6102bb53aa9.ko.png)
+![장면의 빛이 렌즈를 통과해 CMOS 센서에 초점이 맞춰지는 모습](../../../../../translated_images/ko/cmos-sensor.75f9cd74decb137149a4c9ea825251a4549497d67c0ae2776159e6102bb53aa9.png)
 
 대부분의 카메라 센서는 각 픽셀이 포토다이오드인 이미지 센서를 사용합니다. 렌즈는 이미지를 이미지 센서에 초점 맞추고, 수천 또는 수백만 개의 포토다이오드가 각 픽셀에 떨어지는 빛을 감지하여 픽셀 데이터로 기록합니다.
 
@@ -83,7 +83,7 @@ IoT 기기를 사용해 분류할 이미지를 캡처할 수 있습니다.
 
 1. 해당 반복의 **게시(Publish)** 버튼을 선택합니다.
 
-    ![게시 버튼](../../../../../translated_images/custom-vision-publish-button.b7174e1977b0c33b8b72d4e5b1326c779e0af196f3849d09985ee2d7d5493a39.ko.png)
+    ![게시 버튼](../../../../../translated_images/ko/custom-vision-publish-button.b7174e1977b0c33b8b72d4e5b1326c779e0af196f3849d09985ee2d7d5493a39.png)
 
 1. *모델 게시(Publish Model)* 대화 상자에서 *예측 리소스(Prediction resource)*를 지난 강의에서 생성한 `fruit-quality-detector-prediction` 리소스로 설정합니다. 이름은 `Iteration2`로 유지하고 **게시(Publish)** 버튼을 선택합니다.
 
@@ -97,7 +97,7 @@ IoT 기기를 사용해 분류할 이미지를 캡처할 수 있습니다.
 
     또한 *예측 키(Prediction-Key)* 값도 복사하세요. 이는 모델을 호출할 때 전달해야 하는 보안 키입니다. 이 키를 전달하는 애플리케이션만 모델을 사용할 수 있으며, 다른 애플리케이션은 거부됩니다.
 
-    ![예측 API 대화 상자에 표시된 URL과 키](../../../../../translated_images/custom-vision-prediction-key-endpoint.30c569ffd0338864f319911f052d5e9b8c5066cb0800a26dd6f7ff5713130ad8.ko.png)
+    ![예측 API 대화 상자에 표시된 URL과 키](../../../../../translated_images/ko/custom-vision-prediction-key-endpoint.30c569ffd0338864f319911f052d5e9b8c5066cb0800a26dd6f7ff5713130ad8.png)
 
 ✅ 새로운 반복이 게시되면 다른 이름을 갖게 됩니다. IoT 기기가 사용하는 반복을 변경하려면 어떻게 해야 할까요?
 
@@ -118,7 +118,7 @@ IoT 기기에 연결된 카메라를 사용할 때 얻는 결과가 기대와 �
 
 이미지 분류기의 최상의 결과를 얻으려면 예측에 사용되는 이미지와 최대한 유사한 이미지로 모델을 훈련시키는 것이 중요합니다. 예를 들어, 휴대폰 카메라를 사용해 훈련용 이미지를 캡처했다면, 이미지 품질, 선명도, 색상이 IoT 기기에 연결된 카메라와 다를 것입니다.
 
-![IoT 기기로 촬영한 저해상도 바나나 사진과 휴대폰으로 촬영한 고해상도 바나나 사진](../../../../../translated_images/banana-picture-compare.174df164dc326a42cf7fb051a7497e6113c620e91552d92ca914220305d47d9a.ko.png)
+![IoT 기기로 촬영한 저해상도 바나나 사진과 휴대폰으로 촬영한 고해상도 바나나 사진](../../../../../translated_images/ko/banana-picture-compare.174df164dc326a42cf7fb051a7497e6113c620e91552d92ca914220305d47d9a.png)
 
 위 이미지에서 왼쪽 바나나 사진은 Raspberry Pi 카메라로 촬영한 것이고, 오른쪽 사진은 동일한 바나나를 동일한 위치에서 iPhone으로 촬영한 것입니다. 품질 차이가 뚜렷합니다. iPhone 사진은 더 선명하고, 색상이 밝으며, 대비가 더 큽니다.
 

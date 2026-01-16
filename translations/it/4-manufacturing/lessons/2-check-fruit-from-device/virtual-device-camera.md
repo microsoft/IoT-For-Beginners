@@ -43,11 +43,11 @@ Aggiungi la fotocamera all'app CounterFit.
 
     1. Seleziona il pulsante **Add** per creare la fotocamera.
 
-    ![Le impostazioni della fotocamera](../../../../../translated_images/counterfit-create-camera.a5de97f59c0bd3cbe0416d7e89a3cfe86d19fbae05c641c53a91286412af0a34.it.png)
+    ![Le impostazioni della fotocamera](../../../../../translated_images/it/counterfit-create-camera.a5de97f59c0bd3cbe0416d7e89a3cfe86d19fbae05c641c53a91286412af0a34.png)
 
     La fotocamera verrà creata e apparirà nell'elenco dei sensori.
 
-    ![La fotocamera creata](../../../../../translated_images/counterfit-camera.001ec52194c8ee5d3f617173da2c79e1df903d10882adc625cbfc493525125d4.it.png)
+    ![La fotocamera creata](../../../../../translated_images/it/counterfit-camera.001ec52194c8ee5d3f617173da2c79e1df903d10882adc625cbfc493525125d4.png)
 
 ## Programmare la fotocamera
 
@@ -112,7 +112,7 @@ Programma il dispositivo.
 
 1. Configura l'immagine che la fotocamera in CounterFit catturerà. Puoi impostare il *Source* su *File*, quindi caricare un file immagine, oppure impostare il *Source* su *WebCam*, e le immagini verranno catturate dalla tua webcam. Assicurati di selezionare il pulsante **Set** dopo aver selezionato un'immagine o la tua webcam.
 
-    ![CounterFit con un file impostato come sorgente immagine e una webcam che mostra una persona che tiene una banana in un'anteprima della webcam](../../../../../translated_images/counterfit-camera-options.eb3bd5150a8e7dffbf24bc5bcaba0cf2cdef95fbe6bbe393695d173817d6b8df.it.png)
+    ![CounterFit con un file impostato come sorgente immagine e una webcam che mostra una persona che tiene una banana in un'anteprima della webcam](../../../../../translated_images/it/counterfit-camera-options.eb3bd5150a8e7dffbf24bc5bcaba0cf2cdef95fbe6bbe393695d173817d6b8df.png)
 
 1. Un'immagine verrà catturata e salvata come `image.jpg` nella cartella corrente. Vedrai questo file nell'esploratore di VS Code. Seleziona il file per visualizzare l'immagine. Se necessita di rotazione, aggiorna la riga `camera.rotation = 0` come necessario e scatta un'altra foto.
 

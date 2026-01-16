@@ -35,7 +35,7 @@ Grove LED hadir sebagai modul dengan beberapa pilihan LED, memungkinkan Anda mem
 
 Hubungkan LED.
 
-![Sebuah Grove LED](../../../../../translated_images/grove-led.6c853be93f473cf2c439cfc74bb1064732b22251a83cedf66e62f783f9cc1a79.id.png)
+![Sebuah Grove LED](../../../../../translated_images/id/grove-led.6c853be93f473cf2c439cfc74bb1064732b22251a83cedf66e62f783f9cc1a79.png)
 
 1. Pilih LED favorit Anda dan masukkan kaki-kakinya ke dalam dua lubang pada modul LED.
 
@@ -49,7 +49,7 @@ Hubungkan LED.
 
 1. Dengan Raspberry Pi dalam keadaan mati, hubungkan ujung lain kabel Grove ke soket digital yang ditandai **D5** pada Grove Base hat yang terpasang pada Pi. Soket ini adalah soket kedua dari kiri, pada baris soket di sebelah pin GPIO.
 
-![Grove LED terhubung ke soket D5](../../../../../translated_images/pi-led.97f1d474981dc35d1c7996c7b17de355d3d0a6bc9606d79fa5f89df933415122.id.png)
+![Grove LED terhubung ke soket D5](../../../../../translated_images/id/pi-led.97f1d474981dc35d1c7996c7b17de355d3d0a6bc9606d79fa5f89df933415122.png)
 
 ## Program Lampu Malam
 

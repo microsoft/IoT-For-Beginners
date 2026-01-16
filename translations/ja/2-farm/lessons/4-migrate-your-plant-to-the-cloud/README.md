@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # 植物をクラウドに移行する
 
-![このレッスンのスケッチノート概要](../../../../../translated_images/lesson-8.3f21f3c11159e6a0a376351973ea5724d5de68fa23b4288853a174bed9ac48c3.ja.jpg)
+![このレッスンのスケッチノート概要](../../../../../translated_images/ja/lesson-8.3f21f3c11159e6a0a376351973ea5724d5de68fa23b4288853a174bed9ac48c3.jpg)
 
 > スケッチノート作成者：[Nitya Narasimhan](https://github.com/nitya)。画像をクリックすると拡大版が表示されます。
 
@@ -55,8 +55,8 @@ IoTデバイスは、原則を示すためにパブリックMQTTブローカー�
 
 クラウドはしばしば「他人のコンピュータ」と冗談めかして呼ばれます。最初のアイデアはシンプルでした。コンピュータを購入する代わりに、他人のコンピュータを借りるのです。クラウドコンピューティングプロバイダーが巨大なデータセンターを管理します。彼らはハードウェアの購入とインストール、電力と冷却の管理、ネットワーキング、建物のセキュリティ、ハードウェアとソフトウェアの更新など、すべてを担当します。顧客としては、必要なコンピュータをレンタルし、需要が急増したときにレンタルを増やし、需要が減少したときにレンタルを減らすことができます。これらのクラウドデータセンターは世界中に存在します。
 
-![Microsoftクラウドデータセンター](../../../../../translated_images/azure-region-existing.73f704604f2aa6cb9b5a49ed40e93d4fd81ae3f4e6af4a8ca504023902832f56.ja.png)
-![Microsoftクラウドデータセンターの計画中の拡張](../../../../../translated_images/azure-region-planned-expansion.a5074a1e8af74f156a73552d502429e5b126ea5019274d767ecb4b9afdad442b.ja.png)
+![Microsoftクラウドデータセンター](../../../../../translated_images/ja/azure-region-existing.73f704604f2aa6cb9b5a49ed40e93d4fd81ae3f4e6af4a8ca504023902832f56.png)
+![Microsoftクラウドデータセンターの計画中の拡張](../../../../../translated_images/ja/azure-region-planned-expansion.a5074a1e8af74f156a73552d502429e5b126ea5019274d767ecb4b9afdad442b.png)
 
 これらのデータセンターは数平方キロメートルの広さになることがあります。上記の画像は数年前にMicrosoftクラウドデータセンターで撮影されたもので、初期の規模と計画中の拡張を示しています。拡張のためにクリアされたエリアは5平方キロメートル以上です。
 
@@ -72,7 +72,7 @@ IoTデバイスは、原則を示すためにパブリックMQTTブローカー�
 
 AzureはMicrosoftの開発者向けクラウドであり、このレッスンで使用するクラウドです。以下のビデオはAzureの概要を簡単に説明しています：
 
-[![Azureの概要ビデオ](../../../../../translated_images/what-is-azure-video-thumbnail.20174db09e03bbb8.ja.png)](https://www.microsoft.com/videoplayer/embed/RE4Ibng?WT.mc_id=academic-17441-jabenn)
+[![Azureの概要ビデオ](../../../../../translated_images/ja/what-is-azure-video-thumbnail.20174db09e03bbb8.png)](https://www.microsoft.com/videoplayer/embed/RE4Ibng?WT.mc_id=academic-17441-jabenn)
 
 ## クラウドサブスクリプションを作成する
 
@@ -117,11 +117,11 @@ AzureはMicrosoftの開発者向けクラウドであり、このレッスンで
 
 IoTデバイスは、デバイスSDK（サービスの機能を操作するためのコードを提供するライブラリ）を使用して、またはMQTTやHTTPなどの通信プロトコルを介して直接クラウドサービスに接続します。デバイスSDKは通常、最も簡単なルートであり、公開するトピックや購読するトピック、セキュリティの処理方法などをすべて自動的に処理します。
 
-![デバイスはデバイスSDKを使用してサービスに接続します。サーバーコードもSDKを介してサービスに接続します](../../../../../translated_images/iot-service-connectivity.7e873847921a5d6fd60d0ba3a943210194518cee0d4e362476624316443275c3.ja.png)
+![デバイスはデバイスSDKを使用してサービスに接続します。サーバーコードもSDKを介してサービスに接続します](../../../../../translated_images/ja/iot-service-connectivity.7e873847921a5d6fd60d0ba3a943210194518cee0d4e362476624316443275c3.png)
 
 デバイスはその後、他のアプリケーションコンポーネントとこのサービスを介して通信します。これは、以前にMQTTを介してテレメトリを送信し、コマンドを受信した方法に似ています。通常、サービスSDKや類似のライブラリを使用します。メッセージはデバイスからサービスに送信され、アプリケーションの他のコンポーネントがそれを読み取ることができ、メッセージをデバイスに送り返すこともできます。
 
-![有効な秘密鍵を持たないデバイスはIoTサービスに接続できません](../../../../../translated_images/iot-service-allowed-denied-connection.818b0063ac213fb84204a7229303764d9b467ca430fb822b4ac2fca267d56726.ja.png)
+![有効な秘密鍵を持たないデバイスはIoTサービスに接続できません](../../../../../translated_images/ja/iot-service-allowed-denied-connection.818b0063ac213fb84204a7229303764d9b467ca430fb822b4ac2fca267d56726.png)
 
 これらのサービスは、接続してデータを送信できるすべてのデバイスを知ることでセキュリティを実現します。これは、デバイスを事前にサービスに登録するか、デバイスに秘密鍵や証明書を与えて、初回接続時にサービスに自分自身を登録できるようにすることで行われます。未知のデバイスは接続できず、接続を試みてもサービスは接続を拒否し、送信されたメッセージを無視します。
 
@@ -133,7 +133,7 @@ IoTデバイスは、デバイスSDK（サービスの機能を操作するた�
 
 Azureサブスクリプションを取得したら、IoTサービスに登録できます。MicrosoftのIoTサービスはAzure IoT Hubと呼ばれています。
 
-![Azure IoT Hubのロゴ](../../../../../translated_images/azure-iot-hub-logo.28a19de76d0a1932464d858f7558712bcdace3e5ec69c434d482ed7ce41c3a26.ja.png)
+![Azure IoT Hubのロゴ](../../../../../translated_images/ja/azure-iot-hub-logo.28a19de76d0a1932464d858f7558712bcdace3e5ec69c434d482ed7ce41c3a26.png)
 
 以下の動画では、Azure IoT Hubの概要を簡単に説明しています：
 

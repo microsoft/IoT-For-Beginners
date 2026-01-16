@@ -27,13 +27,13 @@ Grove GPSセンサーはRaspberry Piに接続できます。
 
 GPSセンサーを接続します。
 
-![Grove GPSセンサー](../../../../../translated_images/grove-gps-sensor.247943bf69b03f0d1820ef6ed10c587f9b650e8db55b936851c92412180bd3e2.ja.png)
+![Grove GPSセンサー](../../../../../translated_images/ja/grove-gps-sensor.247943bf69b03f0d1820ef6ed10c587f9b650e8db55b936851c92412180bd3e2.png)
 
 1. Groveケーブルの片方の端をGPSセンサーのソケットに差し込みます。ケーブルは一方向にしか差し込めません。
 
 1. Raspberry Piの電源を切った状態で、Groveケーブルのもう片方の端を、Piに取り付けられたGrove Base Hatの**UART**と記されたUARTソケットに接続します。このソケットはSDカードスロットに近い側の中央列にあり、USBポートやイーサネットソケットの反対側に位置しています。
 
-    ![UARTソケットに接続されたGrove GPSセンサー](../../../../../translated_images/pi-gps-sensor.1f99ee2b2f6528915047ec78967bd362e0e4ee0ed594368a3837b9cf9cdaca64.ja.png)
+    ![UARTソケットに接続されたGrove GPSセンサー](../../../../../translated_images/ja/pi-gps-sensor.1f99ee2b2f6528915047ec78967bd362e0e4ee0ed594368a3837b9cf9cdaca64.png)
 
 1. GPSセンサーを配置し、接続されたアンテナが空を見渡せる位置に置きます。理想的には窓の近くや屋外に置くと良いです。アンテナに障害物がない方が信号を受信しやすくなります。
 

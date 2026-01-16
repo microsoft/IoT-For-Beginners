@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Periksa Kualitas Buah dari Perangkat IoT
 
-![Gambaran sketchnote dari pelajaran ini](../../../../../translated_images/lesson-16.215daf18b00631fbdfd64c6fc2dc6044dff5d544288825d8076f9fb83d964c23.id.jpg)
+![Gambaran sketchnote dari pelajaran ini](../../../../../translated_images/id/lesson-16.215daf18b00631fbdfd64c6fc2dc6044dff5d544288825d8076f9fb83d964c23.jpg)
 
 > Sketchnote oleh [Nitya Narasimhan](https://github.com/nitya). Klik gambar untuk versi yang lebih besar.
 
@@ -35,7 +35,7 @@ Dalam pelajaran ini, kita akan membahas:
 
 Sensor kamera, seperti namanya, adalah kamera yang dapat Anda hubungkan ke perangkat IoT Anda. Kamera ini dapat mengambil gambar diam atau merekam video streaming. Beberapa kamera akan mengembalikan data gambar mentah, sementara yang lain akan mengompresi data gambar menjadi file gambar seperti JPEG atau PNG. Biasanya, kamera yang digunakan dengan perangkat IoT jauh lebih kecil dan memiliki resolusi lebih rendah dibandingkan yang biasa Anda gunakan, tetapi Anda juga dapat menemukan kamera beresolusi tinggi yang sebanding dengan ponsel kelas atas. Anda juga dapat menemukan berbagai lensa yang dapat diganti, pengaturan kamera ganda, kamera termal infra-merah, atau kamera UV.
 
-![Cahaya dari sebuah adegan melewati lensa dan difokuskan pada sensor CMOS](../../../../../translated_images/cmos-sensor.75f9cd74decb137149a4c9ea825251a4549497d67c0ae2776159e6102bb53aa9.id.png)
+![Cahaya dari sebuah adegan melewati lensa dan difokuskan pada sensor CMOS](../../../../../translated_images/id/cmos-sensor.75f9cd74decb137149a4c9ea825251a4549497d67c0ae2776159e6102bb53aa9.png)
 
 Sebagian besar sensor kamera menggunakan sensor gambar di mana setiap piksel adalah fotodioda. Sebuah lensa memfokuskan gambar ke sensor gambar, dan ribuan atau jutaan fotodioda mendeteksi cahaya yang jatuh pada masing-masing, lalu merekamnya sebagai data piksel.
 
@@ -83,7 +83,7 @@ Iterasi diterbitkan dari portal Custom Vision.
 
 1. Pilih tombol **Publish** untuk iterasi tersebut.
 
-    ![Tombol publish](../../../../../translated_images/custom-vision-publish-button.b7174e1977b0c33b8b72d4e5b1326c779e0af196f3849d09985ee2d7d5493a39.id.png)
+    ![Tombol publish](../../../../../translated_images/id/custom-vision-publish-button.b7174e1977b0c33b8b72d4e5b1326c779e0af196f3849d09985ee2d7d5493a39.png)
 
 1. Dalam dialog *Publish Model*, atur *Prediction resource* ke sumber daya `fruit-quality-detector-prediction` yang Anda buat pada pelajaran sebelumnya. Biarkan nama sebagai `Iteration2`, lalu pilih tombol **Publish**.
 
@@ -97,7 +97,7 @@ Iterasi diterbitkan dari portal Custom Vision.
 
     Juga salin nilai *Prediction-Key*. Ini adalah kunci aman yang harus Anda sertakan saat memanggil model. Hanya aplikasi yang menyertakan kunci ini yang diizinkan menggunakan model, aplikasi lain akan ditolak.
 
-    ![Dialog API prediksi yang menunjukkan URL dan kunci](../../../../../translated_images/custom-vision-prediction-key-endpoint.30c569ffd0338864f319911f052d5e9b8c5066cb0800a26dd6f7ff5713130ad8.id.png)
+    ![Dialog API prediksi yang menunjukkan URL dan kunci](../../../../../translated_images/id/custom-vision-prediction-key-endpoint.30c569ffd0338864f319911f052d5e9b8c5066cb0800a26dd6f7ff5713130ad8.png)
 
 ✅ Ketika iterasi baru diterbitkan, iterasi tersebut akan memiliki nama yang berbeda. Bagaimana menurut Anda cara mengubah iterasi yang digunakan oleh perangkat IoT?
 
@@ -118,7 +118,7 @@ Anda mungkin menemukan bahwa hasil yang Anda dapatkan saat menggunakan kamera ya
 
 Untuk mendapatkan hasil terbaik dari pengklasifikasi gambar, Anda ingin melatih model dengan gambar yang semirip mungkin dengan gambar yang digunakan untuk prediksi. Jika Anda menggunakan kamera ponsel untuk menangkap gambar untuk pelatihan, misalnya, kualitas gambar, ketajaman, dan warnanya akan berbeda dengan kamera yang terhubung ke perangkat IoT.
 
-![2 gambar pisang, satu dengan resolusi rendah dan pencahayaan buruk dari perangkat IoT, dan satu dengan resolusi tinggi dan pencahayaan baik dari ponsel](../../../../../translated_images/banana-picture-compare.174df164dc326a42cf7fb051a7497e6113c620e91552d92ca914220305d47d9a.id.png)
+![2 gambar pisang, satu dengan resolusi rendah dan pencahayaan buruk dari perangkat IoT, dan satu dengan resolusi tinggi dan pencahayaan baik dari ponsel](../../../../../translated_images/id/banana-picture-compare.174df164dc326a42cf7fb051a7497e6113c620e91552d92ca914220305d47d9a.png)
 
 Pada gambar di atas, gambar pisang di sebelah kiri diambil menggunakan Kamera Raspberry Pi, sedangkan gambar di sebelah kanan diambil dari pisang yang sama di lokasi yang sama menggunakan iPhone. Ada perbedaan kualitas yang mencolok - gambar iPhone lebih tajam, dengan warna yang lebih cerah dan kontras yang lebih baik.
 

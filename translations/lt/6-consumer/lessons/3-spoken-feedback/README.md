@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Nustatykite laikmatį ir pateikite garsinį atsakymą
 
-![Pamokos apžvalga piešinyje](../../../../../translated_images/lesson-23.f38483e1d4df4828990d3f02d60e46c978b075d384ae7cb4f7bab738e107c850.lt.jpg)
+![Pamokos apžvalga piešinyje](../../../../../translated_images/lt/lesson-23.f38483e1d4df4828990d3f02d60e46c978b075d384ae7cb4f7bab738e107c850.jpg)
 
 > Piešinys sukurtas [Nitya Narasimhan](https://github.com/nitya). Spustelėkite paveikslėlį, kad pamatytumėte didesnę versiją.
 
@@ -37,7 +37,7 @@ Per paskutines 2 pamokas išmokote, kaip paversti kalbą tekstu, o tada išgauti
 
 Teksto pavertimas kalba, kaip rodo pavadinimas, yra procesas, kai tekstas paverčiamas garsu, kuriame tekstas pateikiamas kaip ištarti žodžiai. Pagrindinis principas yra suskaidyti teksto žodžius į jų sudedamuosius garsus (vadinamus fonemomis) ir sujungti šių garsų garso įrašus, naudojant iš anksto įrašytą garsą arba AI modelių generuotą garsą.
 
-![Tipinių teksto pavertimo kalba sistemų trys etapai](../../../../../translated_images/tts-overview.193843cf3f5ee09f.lt.png)
+![Tipinių teksto pavertimo kalba sistemų trys etapai](../../../../../translated_images/lt/tts-overview.193843cf3f5ee09f.png)
 
 Teksto pavertimo kalba sistemos paprastai turi 3 etapus:
 

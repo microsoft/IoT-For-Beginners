@@ -81,7 +81,7 @@ Sebagai langkah debugging yang berguna, Anda tidak hanya dapat mencetak kotak pe
 
 1. Jalankan aplikasi dengan kamera mengarah ke beberapa stok di rak. Anda akan melihat file `image.jpg` di penjelajah VS Code, dan Anda dapat memilihnya untuk melihat kotak pembatas.
 
-    ![4 kaleng pasta tomat dengan kotak pembatas di sekitar setiap kaleng](../../../../../translated_images/rpi-stock-with-bounding-boxes.b5540e2ecb7cd49f.id.jpg)
+    ![4 kaleng pasta tomat dengan kotak pembatas di sekitar setiap kaleng](../../../../../translated_images/id/rpi-stock-with-bounding-boxes.b5540e2ecb7cd49f.jpg)
 
 ## Hitung stok
 

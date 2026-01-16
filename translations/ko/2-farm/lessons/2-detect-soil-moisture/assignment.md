@@ -29,14 +29,14 @@ CO_OP_TRANSLATOR_METADATA:
 
 중량 토양 수분은 다음과 같이 계산됩니다:
 
-![토양 수분 %는 젖은 토양 무게에서 건조된 토양 무게를 뺀 값을 건조된 토양 무게로 나눈 후, 100을 곱한 값](../../../../../translated_images/gsm-calculation.6da38c6201eec14e7573bb2647aa18892883193553d23c9d77e5dc681522dfb2.ko.png)
+![토양 수분 %는 젖은 토양 무게에서 건조된 토양 무게를 뺀 값을 건조된 토양 무게로 나눈 후, 100을 곱한 값](../../../../../translated_images/ko/gsm-calculation.6da38c6201eec14e7573bb2647aa18892883193553d23c9d77e5dc681522dfb2.png)
 
 * W - 젖은 토양의 무게  
 * W - 건조된 토양의 무게  
 
 예를 들어, 젖은 상태의 토양 샘플이 212g이고 건조된 상태에서 197g이라고 가정해 봅시다.
 
-![계산 예시](../../../../../translated_images/gsm-calculation-example.99f9803b4f29e97668e7c15412136c0c399ab12dbba0b89596fdae9d8aedb6fb.ko.png)
+![계산 예시](../../../../../translated_images/ko/gsm-calculation-example.99f9803b4f29e97668e7c15412136c0c399ab12dbba0b89596fdae9d8aedb6fb.png)
 
 * W = 212g  
 * W = 197g  

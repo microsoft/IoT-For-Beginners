@@ -93,7 +93,7 @@ Custom Vision 서비스는 이미지를 분류하기 위해 사용할 수 있는
 
     촬영된 이미지를 확인할 수 있으며, 이러한 값은 Custom Vision의 **Predictions** 탭에서도 볼 수 있습니다.
 
-    ![Custom Vision에서 바나나가 익었을 확률 56.8%, 익지 않았을 확률 43.1%로 예측된 모습](../../../../../translated_images/custom-vision-banana-prediction.30cdff4e1d72db5d9a0be0193790a47c2b387da034e12dc1314dd57ca2131b59.ko.png)
+    ![Custom Vision에서 바나나가 익었을 확률 56.8%, 익지 않았을 확률 43.1%로 예측된 모습](../../../../../translated_images/ko/custom-vision-banana-prediction.30cdff4e1d72db5d9a0be0193790a47c2b387da034e12dc1314dd57ca2131b59.png)
 
 > 💁 이 코드는 [code-classify/pi](../../../../../4-manufacturing/lessons/2-check-fruit-from-device/code-classify/pi) 또는 [code-classify/virtual-iot-device](../../../../../4-manufacturing/lessons/2-check-fruit-from-device/code-classify/virtual-iot-device) 폴더에서 찾을 수 있습니다.
 

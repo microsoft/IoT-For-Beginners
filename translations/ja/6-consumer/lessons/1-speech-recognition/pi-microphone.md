@@ -43,7 +43,7 @@ Raspberry Piには3.5mmヘッドフォンジャックが付属しています。
 
 1. ReSpeaker 2-Mics Pi HATを使用する場合、Groveベースハットを取り外し、代わりにReSpeakerハットを取り付けます。
 
-    ![ReSpeakerハットを装着したRaspberry Pi](../../../../../translated_images/pi-respeaker-hat.f00fabe7dd039a93e2e0aa0fc946c9af0c6a9eb17c32fa1ca097fb4e384f69f0.ja.png)
+    ![ReSpeakerハットを装着したRaspberry Pi](../../../../../translated_images/ja/pi-respeaker-hat.f00fabe7dd039a93e2e0aa0fc946c9af0c6a9eb17c32fa1ca097fb4e384f69f0.png)
 
     このレッスンの後半でGroveボタンが必要になりますが、このハットにはボタンが内蔵されているため、Groveベースハットは不要です。
 

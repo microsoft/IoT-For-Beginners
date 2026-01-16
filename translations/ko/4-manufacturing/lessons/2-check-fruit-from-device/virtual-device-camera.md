@@ -43,11 +43,11 @@ CounterFit 앱에 카메라를 추가하세요.
 
     1. **Add** 버튼을 선택하여 카메라를 생성하세요.
 
-    ![카메라 설정](../../../../../translated_images/counterfit-create-camera.a5de97f59c0bd3cbe0416d7e89a3cfe86d19fbae05c641c53a91286412af0a34.ko.png)
+    ![카메라 설정](../../../../../translated_images/ko/counterfit-create-camera.a5de97f59c0bd3cbe0416d7e89a3cfe86d19fbae05c641c53a91286412af0a34.png)
 
     카메라가 생성되어 센서 목록에 나타납니다.
 
-    ![생성된 카메라](../../../../../translated_images/counterfit-camera.001ec52194c8ee5d3f617173da2c79e1df903d10882adc625cbfc493525125d4.ko.png)
+    ![생성된 카메라](../../../../../translated_images/ko/counterfit-camera.001ec52194c8ee5d3f617173da2c79e1df903d10882adc625cbfc493525125d4.png)
 
 ## 카메라 프로그래밍
 
@@ -112,7 +112,7 @@ CounterFit 앱에 카메라를 추가하세요.
 
 1. CounterFit에서 카메라가 캡처할 이미지를 설정하세요. *Source*를 *File*로 설정한 후 이미지 파일을 업로드하거나, *Source*를 *WebCam*으로 설정하여 웹캠에서 이미지를 캡처할 수 있습니다. 사진을 선택하거나 웹캠을 선택한 후 **Set** 버튼을 반드시 클릭하세요.
 
-    ![파일을 이미지 소스로 설정한 CounterFit과 웹캠을 설정하여 바나나를 들고 있는 사람을 보여주는 웹캠 미리보기](../../../../../translated_images/counterfit-camera-options.eb3bd5150a8e7dffbf24bc5bcaba0cf2cdef95fbe6bbe393695d173817d6b8df.ko.png)
+    ![파일을 이미지 소스로 설정한 CounterFit과 웹캠을 설정하여 바나나를 들고 있는 사람을 보여주는 웹캠 미리보기](../../../../../translated_images/ko/counterfit-camera-options.eb3bd5150a8e7dffbf24bc5bcaba0cf2cdef95fbe6bbe393695d173817d6b8df.png)
 
 1. 이미지가 캡처되어 현재 폴더에 `image.jpg`로 저장됩니다. 이 파일은 VS Code 탐색기에서 확인할 수 있습니다. 파일을 선택하여 이미지를 확인하세요. 회전이 필요하다면 `camera.rotation = 0` 줄을 적절히 업데이트하고 다시 사진을 찍으세요.
 

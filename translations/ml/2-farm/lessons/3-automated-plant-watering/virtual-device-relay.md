@@ -37,11 +37,11 @@ CounterFit ആപ്പിൽ റിലേ ചേർക്കുക.
 
     1. പിന് 5 ലെ റിലേ സൃഷ്ടിക്കാൻ **Add** ബട്ടൻ തിരഞ്ഞെടുക്കുക
     
-    ![The relay settings](../../../../../translated_images/counterfit-create-relay.fa7c40fd0f2f6afc.ml.png)
+    ![The relay settings](../../../../../translated_images/ml/counterfit-create-relay.fa7c40fd0f2f6afc.png)
 
     റിലേ സൃഷ്ടിക്കപ്പെടുകയും അക്ക്റ്റുവേറ്റർ പട്ടികയിൽ പ്രത്യക്ഷപ്പെടുകയും ചെയ്യും.
 
-    ![The relay created](../../../../../translated_images/counterfit-relay.bbf74c1dbdc8b9ac.ml.png)
+    ![The relay created](../../../../../translated_images/ml/counterfit-relay.bbf74c1dbdc8b9ac.png)
 
 ## റിലേ പ്രോഗ്രാം ചെയ്യുക
 

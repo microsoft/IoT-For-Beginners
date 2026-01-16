@@ -76,7 +76,7 @@ Kode yang Anda gunakan untuk mengklasifikasi gambar sangat mirip dengan kode unt
 
     Anda akan dapat melihat gambar yang diambil, dan nilai-nilai ini di tab **Predictions** di Custom Vision.
 
-    ![4 kaleng pasta tomat di rak dengan prediksi untuk 4 deteksi masing-masing 35.8%, 33.5%, 25.7%, dan 16.6%](../../../../../translated_images/custom-vision-stock-prediction.942266ab1bcca3410ecdf23643b9f5f570cfab2345235074e24c51f285777613.id.png)
+    ![4 kaleng pasta tomat di rak dengan prediksi untuk 4 deteksi masing-masing 35.8%, 33.5%, 25.7%, dan 16.6%](../../../../../translated_images/id/custom-vision-stock-prediction.942266ab1bcca3410ecdf23643b9f5f570cfab2345235074e24c51f285777613.png)
 
 > 💁 Anda dapat menemukan kode ini di folder [code-detect/pi](../../../../../5-retail/lessons/2-check-stock-device/code-detect/pi) atau [code-detect/virtual-iot-device](../../../../../5-retail/lessons/2-check-stock-device/code-detect/virtual-iot-device).
 

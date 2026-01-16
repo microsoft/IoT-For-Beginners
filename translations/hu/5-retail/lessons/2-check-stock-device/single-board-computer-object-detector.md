@@ -76,7 +76,7 @@ A képek osztályozására használt kód nagyon hasonló az objektumok észlel�
 
     Meg fogod tudni nézni a készített képet, és ezeket az értékeket a **Predictions** fülön a Custom Vision-ben.
 
-    ![4 paradicsompüré konzerv egy polcon, az észlelések előrejelzéseivel: 35.8%, 33.5%, 25.7% és 16.6%](../../../../../translated_images/custom-vision-stock-prediction.942266ab1bcca3410ecdf23643b9f5f570cfab2345235074e24c51f285777613.hu.png)
+    ![4 paradicsompüré konzerv egy polcon, az észlelések előrejelzéseivel: 35.8%, 33.5%, 25.7% és 16.6%](../../../../../translated_images/hu/custom-vision-stock-prediction.942266ab1bcca3410ecdf23643b9f5f570cfab2345235074e24c51f285777613.png)
 
 > 💁 Ezt a kódot megtalálod a [code-detect/pi](../../../../../5-retail/lessons/2-check-stock-device/code-detect/pi) vagy a [code-detect/virtual-iot-device](../../../../../5-retail/lessons/2-check-stock-device/code-detect/virtual-iot-device) mappában.
 

@@ -217,7 +217,7 @@ Naudojantis HTTPS galiniais taškais, kliento kodas turi paprašyti viešojo rak
 
     Galėsite matyti užfiksuotą vaizdą ir šias reikšmes **Predictions** skiltyje „Custom Vision“.
 
-    ![Bananas „Custom Vision“ prognozuotas kaip prinokęs 56.8% ir neprinokęs 43.1%](../../../../../translated_images/custom-vision-banana-prediction.30cdff4e1d72db5d9a0be0193790a47c2b387da034e12dc1314dd57ca2131b59.lt.png)
+    ![Bananas „Custom Vision“ prognozuotas kaip prinokęs 56.8% ir neprinokęs 43.1%](../../../../../translated_images/lt/custom-vision-banana-prediction.30cdff4e1d72db5d9a0be0193790a47c2b387da034e12dc1314dd57ca2131b59.png)
 
 > 💁 Šį kodą galite rasti [code-classify/wio-terminal](../../../../../4-manufacturing/lessons/2-check-fruit-from-device/code-classify/wio-terminal) aplanke.
 

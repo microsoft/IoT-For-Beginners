@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Saugokite savo augalą
 
-![Šios pamokos eskizų užrašų apžvalga](../../../../../translated_images/lesson-10.829c86b80b9403bb770929ee553a1d293afe50dc23121aaf9be144673ae012cc.lt.jpg)
+![Šios pamokos eskizų užrašų apžvalga](../../../../../translated_images/lt/lesson-10.829c86b80b9403bb770929ee553a1d293afe50dc23121aaf9be144673ae012cc.jpg)
 
 > Eskizų užrašai: [Nitya Narasimhan](https://github.com/nitya). Spustelėkite paveikslėlį, kad pamatytumėte didesnę versiją.
 
@@ -61,11 +61,11 @@ Tai yra realūs scenarijai, kurie vyksta nuolat. Kai kurie pavyzdžiai buvo pate
 
 Kai įrenginys jungiasi prie IoT paslaugos, jis naudoja ID, kad save identifikuotų. Problema ta, kad šį ID galima nukopijuoti – įsilaužėlis galėtų nustatyti kenkėjišką įrenginį, kuris naudoja tą patį ID kaip ir tikras įrenginys, bet siunčia neteisingus duomenis.
 
-![Tiek tikri, tiek kenkėjiški įrenginiai gali naudoti tą patį ID, kad siųstų telemetriją](../../../../../translated_images/iot-device-and-hacked-device-connecting.e0671675df74d6d99eb1dedb5a670e606f698efa6202b1ad4c8ae548db299cc6.lt.png)
+![Tiek tikri, tiek kenkėjiški įrenginiai gali naudoti tą patį ID, kad siųstų telemetriją](../../../../../translated_images/lt/iot-device-and-hacked-device-connecting.e0671675df74d6d99eb1dedb5a670e606f698efa6202b1ad4c8ae548db299cc6.png)
 
 Sprendimas yra paversti siunčiamus duomenis užkoduotu formatu, naudojant tam tikrą vertę, žinomą tik įrenginiui ir debesijai. Šis procesas vadinamas *šifravimu*, o vertė, naudojama duomenims užšifruoti, vadinama *šifravimo raktu*.
 
-![Jei naudojamas šifravimas, priimami tik užšifruoti pranešimai, kiti atmetami](../../../../../translated_images/iot-device-and-hacked-device-connecting-encryption.5941aff601fc978f979e46f2849b573564eeb4a4dc5b52f669f62745397492fb.lt.png)
+![Jei naudojamas šifravimas, priimami tik užšifruoti pranešimai, kiti atmetami](../../../../../translated_images/lt/iot-device-and-hacked-device-connecting-encryption.5941aff601fc978f979e46f2849b573564eeb4a4dc5b52f669f62745397492fb.png)
 
 Debesijos paslauga gali tada konvertuoti duomenis atgal į skaitomą formatą, naudodama procesą, vadinamą *iššifravimu*, naudodama tą patį šifravimo raktą arba *iššifravimo raktą*. Jei užšifruoto pranešimo negalima iššifruoti naudojant raktą, įrenginys buvo nulaužtas, ir pranešimas atmetamas.
 
@@ -97,15 +97,15 @@ Deja, ne viskas yra saugu. Kai kurie įrenginiai neturi jokio saugumo, kiti yra 
 
 **Simetrinis** šifravimas naudoja tą patį raktą duomenims užšifruoti ir iššifruoti. Tiek siuntėjas, tiek gavėjas turi žinoti tą patį raktą. Tai yra mažiausiai saugus tipas, nes raktą reikia kažkaip perduoti. Kad siuntėjas galėtų išsiųsti užšifruotą pranešimą gavėjui, siuntėjas pirmiausia gali turėti perduoti gavėjui raktą.
 
-![Simetrinis raktas naudoja tą patį raktą pranešimui užšifruoti ir iššifruoti](../../../../../translated_images/send-message-symmetric-key.a2e8ad0d495896ff.lt.png)
+![Simetrinis raktas naudoja tą patį raktą pranešimui užšifruoti ir iššifruoti](../../../../../translated_images/lt/send-message-symmetric-key.a2e8ad0d495896ff.png)
 
 Jei raktas pavogiamas perdavimo metu arba siuntėjas ar gavėjas yra nulaužti ir raktas randamas, šifravimas gali būti nulaužtas.
 
-![Simetrinis raktas yra saugus tik tuo atveju, jei įsilaužėlis negauna rakto – jei taip, jie gali perimti ir iššifruoti pranešimą](../../../../../translated_images/send-message-symmetric-key-hacker.e7cb53db1707adfb.lt.png)
+![Simetrinis raktas yra saugus tik tuo atveju, jei įsilaužėlis negauna rakto – jei taip, jie gali perimti ir iššifruoti pranešimą](../../../../../translated_images/lt/send-message-symmetric-key-hacker.e7cb53db1707adfb.png)
 
 **Asimetrinis** šifravimas naudoja 2 raktus – šifravimo raktą ir iššifravimo raktą, vadinamus viešojo/privačiojo rakto pora. Viešasis raktas naudojamas pranešimui užšifruoti, tačiau negali būti naudojamas jo iššifruoti, o privatusis raktas naudojamas pranešimui iššifruoti, tačiau negali būti naudojamas jo užšifruoti.
 
-![Asimetrinis šifravimas naudoja skirtingus raktus pranešimui užšifruoti ir iššifruoti. Šifravimo raktas siunčiamas bet kokiems pranešimų siuntėjams, kad jie galėtų užšifruoti pranešimą prieš jį išsiųsdami gavėjui, kuris turi raktus](../../../../../translated_images/send-message-asymmetric.7abe327c62615b8c.lt.png)
+![Asimetrinis šifravimas naudoja skirtingus raktus pranešimui užšifruoti ir iššifruoti. Šifravimo raktas siunčiamas bet kokiems pranešimų siuntėjams, kad jie galėtų užšifruoti pranešimą prieš jį išsiųsdami gavėjui, kuris turi raktus](../../../../../translated_images/lt/send-message-asymmetric.7abe327c62615b8c.png)
 
 Gavėjas dalijasi savo viešuoju raktu, o siuntėjas naudoja jį pranešimui užšifruoti. Kai pranešimas išsiunčiamas, gavėjas jį iššifruoja naudodamas savo privatųjį raktą. Asimetrinis šifravimas yra saugesnis, nes privatusis raktas yra laikomas privačiai gavėjo ir niekada nėra dalijamasi. Viešasis raktas gali būti prieinamas visiems, nes jis gali būti naudojamas tik pranešimams užšifruoti.
 
@@ -157,7 +157,7 @@ X.509 sertifikatai yra skaitmeniniai dokumentai, kuriuose yra viešojo/privačio
 
 Naudojant X.509 sertifikatus, tiek siuntėjas, tiek gavėjas turės savo viešuosius ir privačius raktus, taip pat abu turės X.509 sertifikatus, kuriuose yra viešasis raktas. Jie tada kažkokiu būdu apsikeičia X.509 sertifikatais, naudodami vienas kito viešuosius raktus duomenims, kuriuos siunčia, užšifruoti, o savo privačius raktus – duomenims, kuriuos gauna, iššifruoti.
 
-![Vietoj viešojo rakto galite dalintis sertifikatu. Sertifikato naudotojas gali patikrinti, ar jis yra iš jūsų, pasitikrindamas su sertifikavimo institucija, kuri jį pasirašė.](../../../../../translated_images/send-message-certificate.9cc576ac1e46b76e.lt.png)
+![Vietoj viešojo rakto galite dalintis sertifikatu. Sertifikato naudotojas gali patikrinti, ar jis yra iš jūsų, pasitikrindamas su sertifikavimo institucija, kuri jį pasirašė.](../../../../../translated_images/lt/send-message-certificate.9cc576ac1e46b76e.png)
 
 Didelis X.509 sertifikatų privalumas yra tas, kad jie gali būti dalijami tarp įrenginių. Galite sukurti vieną sertifikatą, įkelti jį į IoT Hub ir naudoti jį visiems savo įrenginiams. Kiekvienas įrenginys tada turi žinoti tik privatų raktą, kad iššifruotų pranešimus, kuriuos gauna iš IoT Hub.
 

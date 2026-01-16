@@ -27,13 +27,13 @@ Relay Grove dapat dihubungkan ke Raspberry Pi.
 
 Hubungkan relay.
 
-![Sebuah Grove relay](../../../../../translated_images/grove-relay.d426958ca210fbd0fb7983d7edc069d46c73a8b0a099d94797bd756f7b6bb6be.id.png)
+![Sebuah Grove relay](../../../../../translated_images/id/grove-relay.d426958ca210fbd0fb7983d7edc069d46c73a8b0a099d94797bd756f7b6bb6be.png)
 
 1. Masukkan salah satu ujung kabel Grove ke soket pada relay. Kabel ini hanya dapat masuk dengan satu arah.
 
 1. Dengan Raspberry Pi dalam keadaan mati, hubungkan ujung lain kabel Grove ke soket digital yang ditandai **D5** pada Grove Base Hat yang terpasang pada Pi. Soket ini adalah soket kedua dari kiri, pada baris soket di sebelah pin GPIO. Biarkan sensor kelembapan tanah tetap terhubung ke soket **A0**.
 
-![Relay Grove terhubung ke soket D5, dan sensor kelembapan tanah terhubung ke soket A0](../../../../../translated_images/pi-relay-and-soil-moisture-sensor.02f3198975b8c53e69ec716cd2719ce117700bd1fc933eaf93476c103c57939b.id.png)
+![Relay Grove terhubung ke soket D5, dan sensor kelembapan tanah terhubung ke soket A0](../../../../../translated_images/id/pi-relay-and-soil-moisture-sensor.02f3198975b8c53e69ec716cd2719ce117700bd1fc933eaf93476c103c57939b.png)
 
 1. Masukkan sensor kelembapan tanah ke dalam tanah, jika belum dilakukan dari pelajaran sebelumnya.
 

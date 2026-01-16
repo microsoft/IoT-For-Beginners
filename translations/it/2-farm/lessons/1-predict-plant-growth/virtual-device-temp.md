@@ -47,11 +47,11 @@ Aggiungi i sensori di umidità e temperatura all'app CounterFit.
 
     1. Seleziona il pulsante **Add** per creare il sensore di umidità sul Pin 5.
 
-    ![Impostazioni del sensore di umidità](../../../../../translated_images/counterfit-create-humidity-sensor.2750e27b6f30e09cf4e22101defd5252710717620816ab41ba688f91f757c49a.it.png)
+    ![Impostazioni del sensore di umidità](../../../../../translated_images/it/counterfit-create-humidity-sensor.2750e27b6f30e09cf4e22101defd5252710717620816ab41ba688f91f757c49a.png)
 
     Il sensore di umidità verrà creato e apparirà nella lista dei sensori.
 
-    ![Sensore di umidità creato](../../../../../translated_images/counterfit-humidity-sensor.7b12f7f339e430cb26c8211d2dba4ef75261b353a01da0932698b5bebd693f27.it.png)
+    ![Sensore di umidità creato](../../../../../translated_images/it/counterfit-humidity-sensor.7b12f7f339e430cb26c8211d2dba4ef75261b353a01da0932698b5bebd693f27.png)
 
 1. Crea un sensore di temperatura:
 
@@ -63,11 +63,11 @@ Aggiungi i sensori di umidità e temperatura all'app CounterFit.
 
     1. Seleziona il pulsante **Add** per creare il sensore di temperatura sul Pin 6.
 
-    ![Impostazioni del sensore di temperatura](../../../../../translated_images/counterfit-create-temperature-sensor.199350ed34f7343d79dccbe95eaf6c11d2121f03d1c35ab9613b330c23f39b29.it.png)
+    ![Impostazioni del sensore di temperatura](../../../../../translated_images/it/counterfit-create-temperature-sensor.199350ed34f7343d79dccbe95eaf6c11d2121f03d1c35ab9613b330c23f39b29.png)
 
     Il sensore di temperatura verrà creato e apparirà nella lista dei sensori.
 
-    ![Sensore di temperatura creato](../../../../../translated_images/counterfit-temperature-sensor.f0560236c96a9016bafce7f6f792476fe3367bc6941a1f7d5811d144d4bcbfff.it.png)
+    ![Sensore di temperatura creato](../../../../../translated_images/it/counterfit-temperature-sensor.f0560236c96a9016bafce7f6f792476fe3367bc6941a1f7d5811d144d4bcbfff.png)
 
 ## Programmare l'app del sensore di temperatura
 

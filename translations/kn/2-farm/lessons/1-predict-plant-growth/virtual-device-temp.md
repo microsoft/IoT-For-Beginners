@@ -47,11 +47,11 @@ CO_OP_TRANSLATOR_METADATA:
 
     1. ಹ್ಯೂಮಿಡಿಟಿ ಸೆನ್ಸಾರ್ Pin 5 ನಲ್ಲಿ ರಚಿಸಲು **Add** ಬಟನ್ ಅನ್ನು ಆಯ್ಕೆಮಾಡಿ.
 
-    ![The humidity sensor settings](../../../../../translated_images/counterfit-create-humidity-sensor.2750e27b6f30e09c.kn.png)
+    ![The humidity sensor settings](../../../../../translated_images/kn/counterfit-create-humidity-sensor.2750e27b6f30e09c.png)
 
     ಹ್ಯೂಮಿಡಿಟಿ ಸೆನ್ಸಾರ್ ರಚನೆಯಲ್ಲಿದ್ದು ಸೆನ್ಸಾರ್ ಪಟ್ಟಿ ಯಲ್ಲಿ ಕಾಣಿಸುತ್ತದೆ.
 
-    ![The humidity sensor created](../../../../../translated_images/counterfit-humidity-sensor.7b12f7f339e430cb.kn.png)
+    ![The humidity sensor created](../../../../../translated_images/kn/counterfit-humidity-sensor.7b12f7f339e430cb.png)
 
 1. ತಾಪಮಾನ ಸೆನ್ಸಾರ್ ರಚಿಸಿ:
 
@@ -63,11 +63,11 @@ CO_OP_TRANSLATOR_METADATA:
 
     1. ತಾಪಮಾನ ಸೆನ್ಸಾರ್ Pin 6 ನಲ್ಲಿ ರಚಿಸಲು **Add** ಬಟನ್ ಅನ್ನು ಆಯ್ಕೆಮಾಡಿ.
 
-    ![The temperature sensor settings](../../../../../translated_images/counterfit-create-temperature-sensor.199350ed34f7343d.kn.png)
+    ![The temperature sensor settings](../../../../../translated_images/kn/counterfit-create-temperature-sensor.199350ed34f7343d.png)
 
     ತಾಪಮಾನ ಸೆನ್ಸಾರ್ ರಚನೆಯಲ್ಲಿದ್ದು ಸೆನ್ಸಾರ್ ಪಟ್ಟಿ ಯಲ್ಲಿ ಕಾಣಿಸುತ್ತದೆ.
 
-    ![The temperature sensor created](../../../../../translated_images/counterfit-temperature-sensor.f0560236c96a9016.kn.png)
+    ![The temperature sensor created](../../../../../translated_images/kn/counterfit-temperature-sensor.f0560236c96a9016.png)
 
 ## ತಾಪಮಾನ ಸೆನ್ಸಾರ್ ಅಪ್ಲಿಕೇಶನ್ ಪ್ರೋಗ್ರಾಂ ಮಾಡಿ
 

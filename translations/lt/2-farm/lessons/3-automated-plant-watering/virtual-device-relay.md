@@ -37,11 +37,11 @@ Pridėkite relę prie CounterFit programos.
 
     1. Paspauskite **Add** mygtuką, kad sukurtumėte relę ant 5 kaiščio.
 
-    ![Relės nustatymai](../../../../../translated_images/counterfit-create-relay.fa7c40fd0f2f6afc33b35ea94fcb235085be4861e14e3fe6b9b7bcfc82d1c888.lt.png)
+    ![Relės nustatymai](../../../../../translated_images/lt/counterfit-create-relay.fa7c40fd0f2f6afc33b35ea94fcb235085be4861e14e3fe6b9b7bcfc82d1c888.png)
 
     Relė bus sukurta ir pasirodys aktuatorių sąraše.
 
-    ![Sukurta relė](../../../../../translated_images/counterfit-relay.bbf74c1dbdc8b9acd983367fcbd06703a402aefef6af54ddb28e11307ba8a12c.lt.png)
+    ![Sukurta relė](../../../../../translated_images/lt/counterfit-relay.bbf74c1dbdc8b9acd983367fcbd06703a402aefef6af54ddb28e11307ba8a12c.png)
 
 ## Programuokite relę
 

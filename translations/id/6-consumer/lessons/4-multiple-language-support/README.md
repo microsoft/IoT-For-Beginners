@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Mendukung Banyak Bahasa
 
-![Sketchnote ringkasan pelajaran ini](../../../../../translated_images/lesson-24.4246968ed058510ab275052e87ef9aa89c7b2f938915d103c605c04dc6cd5bb7.id.jpg)
+![Sketchnote ringkasan pelajaran ini](../../../../../translated_images/id/lesson-24.4246968ed058510ab275052e87ef9aa89c7b2f938915d103c605c04dc6cd5bb7.jpg)
 
 > Sketchnote oleh [Nitya Narasimhan](https://github.com/nitya). Klik gambar untuk versi yang lebih besar.
 
@@ -83,7 +83,7 @@ Ada sejumlah layanan AI yang dapat digunakan dari aplikasi Anda untuk menerjemah
 
 ### Layanan Suara Cognitive Services
 
-![Logo layanan suara](../../../../../translated_images/azure-speech-logo.a1f08c4befb0159f2cb5d692d3baf5b599e7b44759d316da907bda1508f46a4a.id.png)
+![Logo layanan suara](../../../../../translated_images/id/azure-speech-logo.a1f08c4befb0159f2cb5d692d3baf5b599e7b44759d316da907bda1508f46a4a.png)
 
 Layanan suara yang telah Anda gunakan selama beberapa pelajaran terakhir memiliki kemampuan penerjemahan untuk pengenalan suara. Ketika Anda mengenali suara, Anda dapat meminta tidak hanya teks dari suara dalam bahasa yang sama, tetapi juga dalam bahasa lain.
 
@@ -91,7 +91,7 @@ Layanan suara yang telah Anda gunakan selama beberapa pelajaran terakhir memilik
 
 ### Layanan Penerjemah Cognitive Services
 
-![Logo layanan penerjemah](../../../../../translated_images/azure-translator-logo.c6ed3a4a433edfd2f11577eca105412c50b8396b194cbbd730723dd1d0793bcd.id.png)
+![Logo layanan penerjemah](../../../../../translated_images/id/azure-translator-logo.c6ed3a4a433edfd2f11577eca105412c50b8396b194cbbd730723dd1d0793bcd.png)
 
 Layanan Penerjemah adalah layanan penerjemahan khusus yang dapat menerjemahkan teks dari satu bahasa, ke satu atau lebih bahasa target. Selain menerjemahkan, layanan ini mendukung berbagai fitur tambahan termasuk menyembunyikan kata-kata kasar. Layanan ini juga memungkinkan Anda memberikan terjemahan khusus untuk kata atau kalimat tertentu, untuk bekerja dengan istilah yang tidak ingin Anda terjemahkan, atau memiliki terjemahan yang terkenal.
 
@@ -130,7 +130,7 @@ Untuk pelajaran ini, Anda akan membutuhkan sumber daya Penerjemah. Anda akan men
 
 Dalam dunia yang ideal, seluruh aplikasi Anda harus memahami sebanyak mungkin bahasa yang berbeda, mulai dari mendengarkan suara, memahami bahasa, hingga merespons dengan suara. Ini adalah banyak pekerjaan, jadi layanan penerjemahan dapat mempercepat waktu pengiriman aplikasi Anda.
 
-![Arsitektur timer pintar menerjemahkan Bahasa Jepang ke Bahasa Inggris, memproses dalam Bahasa Inggris lalu menerjemahkan kembali ke Bahasa Jepang](../../../../../translated_images/translated-smart-timer.08ac20057fdc5c37.id.png)
+![Arsitektur timer pintar menerjemahkan Bahasa Jepang ke Bahasa Inggris, memproses dalam Bahasa Inggris lalu menerjemahkan kembali ke Bahasa Jepang](../../../../../translated_images/id/translated-smart-timer.08ac20057fdc5c37.png)
 
 Bayangkan Anda sedang membangun timer pintar yang menggunakan Bahasa Inggris dari awal hingga akhir, memahami Bahasa Inggris yang diucapkan dan mengubahnya menjadi teks, menjalankan pemahaman bahasa dalam Bahasa Inggris, membangun respons dalam Bahasa Inggris, dan merespons dengan suara Bahasa Inggris. Jika Anda ingin menambahkan dukungan untuk Bahasa Jepang, Anda dapat memulai dengan menerjemahkan Bahasa Jepang yang diucapkan ke teks Bahasa Inggris, lalu menjaga inti aplikasi tetap sama, lalu menerjemahkan teks respons ke Bahasa Jepang sebelum mengucapkan respons. Ini akan memungkinkan Anda untuk dengan cepat menambahkan dukungan Bahasa Jepang, dan Anda dapat memperluas untuk menyediakan dukungan Bahasa Jepang penuh dari awal hingga akhir nanti.
 

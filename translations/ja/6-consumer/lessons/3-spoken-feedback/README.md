@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # タイマーを設定して音声フィードバックを提供する
 
-![このレッスンの概要を示すスケッチノート](../../../../../translated_images/lesson-23.f38483e1d4df4828990d3f02d60e46c978b075d384ae7cb4f7bab738e107c850.ja.jpg)
+![このレッスンの概要を示すスケッチノート](../../../../../translated_images/ja/lesson-23.f38483e1d4df4828990d3f02d60e46c978b075d384ae7cb4f7bab738e107c850.jpg)
 
 > スケッチノート作成者：[Nitya Narasimhan](https://github.com/nitya)。画像をクリックすると拡大表示されます。
 
@@ -37,7 +37,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 テキストから音声への変換は、その名の通り、テキストを音声に変換し、話し言葉として再生するプロセスです。基本的な原理は、テキスト内の単語を構成する音（音素）に分解し、それらの音のオーディオを事前録音またはAIモデルで生成して組み合わせることです。
 
-![典型的なテキストから音声への変換システムの3つの段階](../../../../../translated_images/tts-overview.193843cf3f5ee09f.ja.png)
+![典型的なテキストから音声への変換システムの3つの段階](../../../../../translated_images/ja/tts-overview.193843cf3f5ee09f.png)
 
 テキストから音声への変換システムは通常、以下の3つの段階があります：
 

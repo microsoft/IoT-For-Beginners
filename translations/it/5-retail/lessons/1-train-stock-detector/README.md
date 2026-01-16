@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Addestrare un rilevatore di scorte
 
-![Una panoramica illustrata di questa lezione](../../../../../translated_images/lesson-19.cf6973cecadf080c4b526310620dc4d6f5994c80fb0139c6f378cc9ca2d435cd.it.jpg)
+![Una panoramica illustrata di questa lezione](../../../../../translated_images/it/lesson-19.cf6973cecadf080c4b526310620dc4d6f5994c80fb0139c6f378cc9ca2d435cd.jpg)
 
 > Illustrazione di [Nitya Narasimhan](https://github.com/nitya). Clicca sull'immagine per una versione più grande.
 
@@ -45,7 +45,7 @@ Il rilevamento di oggetti consiste nel rilevare oggetti nelle immagini utilizzan
 
 La classificazione di immagini riguarda la classificazione di un'immagine nel suo complesso - quali sono le probabilità che l'intera immagine corrisponda a ciascun tag. Ottieni indietro le probabilità per ogni tag utilizzato per addestrare il modello.
 
-![Classificazione di immagini di anacardi e concentrato di pomodoro](../../../../../translated_images/image-classifier-cashews-tomato.bc2e16ab8f05cf9ac0f59f73e32efc4227f9a5b601b90b2c60f436694547a965.it.png)
+![Classificazione di immagini di anacardi e concentrato di pomodoro](../../../../../translated_images/it/image-classifier-cashews-tomato.bc2e16ab8f05cf9ac0f59f73e32efc4227f9a5b601b90b2c60f436694547a965.png)
 
 Nell'esempio sopra, due immagini sono classificate utilizzando un modello addestrato per classificare contenitori di anacardi o lattine di concentrato di pomodoro. La prima immagine è un contenitore di anacardi e ha due risultati dal classificatore di immagini:
 
@@ -69,7 +69,7 @@ Quando lo utilizzi per prevedere immagini, invece di ottenere un elenco di tag e
 
 > 🎓 *Riquadri di delimitazione* sono i riquadri intorno a un oggetto.
 
-![Rilevamento di oggetti di anacardi e concentrato di pomodoro](../../../../../translated_images/object-detector-cashews-tomato.1af7c26686b4db0e709754aeb196f4e73271f54e2085db3bcccb70d4a0d84d97.it.png)
+![Rilevamento di oggetti di anacardi e concentrato di pomodoro](../../../../../translated_images/it/object-detector-cashews-tomato.1af7c26686b4db0e709754aeb196f4e73271f54e2085db3bcccb70d4a0d84d97.png)
 
 L'immagine sopra contiene sia un contenitore di anacardi che tre lattine di concentrato di pomodoro. Il rilevatore di oggetti ha rilevato gli anacardi, restituendo il riquadro di delimitazione che contiene gli anacardi con la percentuale di probabilità che il riquadro di delimitazione contenga l'oggetto, in questo caso 97.6%. Il rilevatore di oggetti ha anche rilevato tre lattine di concentrato di pomodoro e fornisce tre riquadri di delimitazione separati, uno per ogni lattina rilevata, e ciascuno ha una probabilità percentuale che il riquadro di delimitazione contenga una lattina di concentrato di pomodoro.
 
@@ -120,7 +120,7 @@ Puoi addestrare un rilevatore di oggetti utilizzando Custom Vision, in modo simi
 
     Quando crei il tuo progetto, assicurati di utilizzare la risorsa `stock-detector-training` che hai creato in precedenza. Usa il tipo di progetto *Object Detection* e il dominio *Products on Shelves*.
 
-    ![Le impostazioni per il progetto Custom Vision con il nome impostato su fruit-quality-detector, nessuna descrizione, la risorsa impostata su fruit-quality-detector-training, il tipo di progetto impostato su classificazione, i tipi di classificazione impostati su multi class e i domini impostati su food](../../../../../translated_images/custom-vision-create-object-detector-project.32d4fb9aa8e7e7375f8a799bfce517aca970f2cb65e42d4245c5e635c734ab29.it.png)
+    ![Le impostazioni per il progetto Custom Vision con il nome impostato su fruit-quality-detector, nessuna descrizione, la risorsa impostata su fruit-quality-detector-training, il tipo di progetto impostato su classificazione, i tipi di classificazione impostati su multi class e i domini impostati su food](../../../../../translated_images/it/custom-vision-create-object-detector-project.32d4fb9aa8e7e7375f8a799bfce517aca970f2cb65e42d4245c5e635c734ab29.png)
 
     ✅ Il dominio "Products on Shelves" è specificamente mirato al rilevamento di scorte sugli scaffali dei negozi. Leggi di più sui diversi domini nella [documentazione Seleziona un dominio su Microsoft Docs](https://docs.microsoft.com/azure/cognitive-services/custom-vision-service/select-domain?WT.mc_id=academic-17441-jabenn#object-detection)
 
@@ -142,11 +142,11 @@ Per addestrare il tuo modello avrai bisogno di un set di immagini contenenti gli
 
 1. Segui la [sezione Carica e tagga immagini del quickstart per costruire un rilevatore di oggetti sulla documentazione Microsoft](https://docs.microsoft.com/azure/cognitive-services/custom-vision-service/get-started-build-detector?WT.mc_id=academic-17441-jabenn#upload-and-tag-images) per caricare le tue immagini di addestramento. Crea tag pertinenti a seconda dei tipi di oggetti che vuoi rilevare.
 
-    ![I dialoghi di caricamento che mostrano il caricamento di immagini di banane mature e acerbe](../../../../../translated_images/image-upload-object-detector.77c7892c3093cb59b79018edecd678749a75d71a099bc8a2d2f2f76320f88a5b.it.png)
+    ![I dialoghi di caricamento che mostrano il caricamento di immagini di banane mature e acerbe](../../../../../translated_images/it/image-upload-object-detector.77c7892c3093cb59b79018edecd678749a75d71a099bc8a2d2f2f76320f88a5b.png)
 
     Quando disegni i riquadri di delimitazione per gli oggetti, tienili ben stretti intorno all'oggetto. Può richiedere del tempo per delineare tutte le immagini, ma lo strumento rileverà ciò che pensa siano i riquadri di delimitazione, rendendo il processo più veloce.
 
-    ![Taggando del concentrato di pomodoro](../../../../../translated_images/object-detector-tag-tomato-paste.f47c362fb0f0eb582f3bc68cf3855fb43a805106395358d41896a269c210b7b4.it.png)
+    ![Taggando del concentrato di pomodoro](../../../../../translated_images/it/object-detector-tag-tomato-paste.f47c362fb0f0eb582f3bc68cf3855fb43a805106395358d41896a269c210b7b4.png)
 
     > 💁 Se hai più di 15 immagini per ciascun oggetto, puoi addestrare dopo 15 e utilizzare la funzione **Tag suggeriti**. Questo utilizzerà il modello addestrato per rilevare gli oggetti nell'immagine non taggata. Puoi quindi confermare gli oggetti rilevati o rifiutare e ridisegnare i riquadri di delimitazione. Questo può risparmiare *molto* tempo.
 
@@ -164,7 +164,7 @@ Una volta che il tuo rilevatore di oggetti è stato addestrato, puoi testarlo fo
 
 1. Usa il pulsante **Quick Test** per caricare immagini di test e verificare che gli oggetti siano rilevati. Usa le immagini di test che hai creato in precedenza, non quelle utilizzate per l'addestramento.
 
-    ![3 lattine di concentrato di pomodoro rilevate con probabilità del 38%, 35.5% e 34.6%](../../../../../translated_images/object-detector-detected-tomato-paste.52656fe87af4c37b4ee540526d63e73ed075da2e54a9a060aa528e0c562fb1b6.it.png)
+    ![3 lattine di concentrato di pomodoro rilevate con probabilità del 38%, 35.5% e 34.6%](../../../../../translated_images/it/object-detector-detected-tomato-paste.52656fe87af4c37b4ee540526d63e73ed075da2e54a9a060aa528e0c562fb1b6.png)
 
 1. Prova tutte le immagini di test a tua disposizione e osserva le probabilità.
 

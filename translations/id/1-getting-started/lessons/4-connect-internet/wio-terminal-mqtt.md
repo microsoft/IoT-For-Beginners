@@ -64,7 +64,7 @@ Hubungkan Wio Terminal ke WiFi.
 
 1. Buat file baru di folder `src` bernama `config.h`. Anda dapat melakukannya dengan memilih folder `src`, atau file `main.cpp` di dalamnya, lalu memilih tombol **New file** dari explorer. Tombol ini hanya muncul saat kursor Anda berada di atas explorer.
 
-    ![Tombol file baru](../../../../../translated_images/vscode-new-file-button.182702340fe6723c.id.png)
+    ![Tombol file baru](../../../../../translated_images/id/vscode-new-file-button.182702340fe6723c.png)
 
 1. Tambahkan kode berikut ke file ini untuk mendefinisikan konstanta untuk kredensial WiFi Anda:
 

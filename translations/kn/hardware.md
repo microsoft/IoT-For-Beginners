@@ -21,7 +21,7 @@ IoT ನಲ್ಲಿ **T** ಅಂದರೆ **Things** ಮತ್ತು ಅದು �
 
 ## ಕಿಟ್‌ಗಳನ್ನು ಖರೀದಿಸಿ
 
-![The Seeed studios logo](../../translated_images/seeed-logo.74732b6b482b6e8e.kn.png)
+![The Seeed studios logo](../../translated_images/kn/seeed-logo.74732b6b482b6e8e.png)
 
 ಸೀಡ್ ಸ್ಟುಡಿಯೋಸ್ ಎಲ್ಲ ಹಾರ್ಡ್‌ವೇರ್‌ಗಳನ್ನು ಸುಲಭವಾಗಿ ಖರೀದಿಸಬಹುದಾದ ಕಿಟ್‌ಗಳಾಗಿ ವಿನಮ್ರವಾಗಿ ಒದಗಿಸಿದ್ದಾರೆ:
 
@@ -29,13 +29,13 @@ IoT ನಲ್ಲಿ **T** ಅಂದರೆ **Things** ಮತ್ತು ಅದು �
 
 **[Seeed ಮತ್ತು Microsoftೊಂದಿಗೆ ಶುರುಮಾಡುವವರಿಗೆ IoT - Wio ಟರ್ಮಿನಲ್ ಸ್ಟಾರ್ಟರ್ ಕಿಟ್](https://www.seeedstudio.com/IoT-for-beginners-with-Seeed-and-Microsoft-Wio-Terminal-Starter-Kit-p-5006.html)**
 
-[![The Wio Terminal hardware kit](../../translated_images/wio-hardware-kit.4c70c48b85e4283a.kn.png)](https://www.seeedstudio.com/IoT-for-beginners-with-Seeed-and-Microsoft-Wio-Terminal-Starter-Kit-p-5006.html)
+[![The Wio Terminal hardware kit](../../translated_images/kn/wio-hardware-kit.4c70c48b85e4283a.png)](https://www.seeedstudio.com/IoT-for-beginners-with-Seeed-and-Microsoft-Wio-Terminal-Starter-Kit-p-5006.html)
 
 ### ರಾಸ್ಪ್ಬೆರಿ ಪೈ
 
 **[Seeed ಮತ್ತು Microsoftೊಂದಿಗೆ ಶುರುಮಾಡುವವರಿಗೆ IoT - ರಾಸ್ಪ್ಬೆರಿ ಪೈ 4 ಸ್ಟಾರ್ಟರ್ ಕಿಟ್](https://www.seeedstudio.com/IoT-for-beginners-with-Seeed-and-Microsoft-Raspberry-Pi-Starter-Kit-p-5004.html)**
 
-[![The Raspberry Pi Terminal hardware kit](../../translated_images/pi-hardware-kit.26dbadaedb7dd44c.kn.png)](https://www.seeedstudio.com/IoT-for-beginners-with-Seeed-and-Microsoft-Raspberry-Pi-Starter-Kit-p-5004.html)
+[![The Raspberry Pi Terminal hardware kit](../../translated_images/kn/pi-hardware-kit.26dbadaedb7dd44c.png)](https://www.seeedstudio.com/IoT-for-beginners-with-Seeed-and-Microsoft-Raspberry-Pi-Starter-Kit-p-5004.html)
 
 ## ಅರುಡಿನೋ
 

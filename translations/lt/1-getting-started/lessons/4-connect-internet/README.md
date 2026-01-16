@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Prijunkite savo įrenginį prie interneto
 
-![Pamokos apžvalga piešinyje](../../../../../translated_images/lesson-4.7344e074ea68fa545fd320b12dce36d72dd62d28c3b4596cb26cf315f434b98f.lt.jpg)
+![Pamokos apžvalga piešinyje](../../../../../translated_images/lt/lesson-4.7344e074ea68fa545fd320b12dce36d72dd62d28c3b4596cb26cf315f434b98f.jpg)
 
 > Piešinys sukurtas [Nitya Narasimhan](https://github.com/nitya). Spustelėkite paveikslėlį, kad pamatytumėte didesnę versiją.
 
@@ -46,7 +46,7 @@ IoT įrenginiai gali gauti pranešimus iš debesies. Dažnai pranešimai yra kom
 
 Yra keletas populiarių ryšio protokolų, kuriuos IoT įrenginiai naudoja bendraudami su internetu. Populiariausi yra pagrįsti publikavimo/prenumeravimo pranešimais per tam tikrą brokerį. IoT įrenginiai jungiasi prie brokerio ir publikuoja telemetriją bei prenumeruoja komandas. Debesų paslaugos taip pat jungiasi prie brokerio, prenumeruoja visus telemetrijos pranešimus ir publikuoja komandas arba konkretiems įrenginiams, arba įrenginių grupėms.
 
-![IoT įrenginiai jungiasi prie brokerio, publikuoja telemetriją ir prenumeruoja komandas. Debesų paslaugos jungiasi prie brokerio, prenumeruoja visą telemetriją ir siunčia komandas konkretiems įrenginiams.](../../../../../translated_images/pub-sub.7c7ed43fe9fd15d4.lt.png)
+![IoT įrenginiai jungiasi prie brokerio, publikuoja telemetriją ir prenumeruoja komandas. Debesų paslaugos jungiasi prie brokerio, prenumeruoja visą telemetriją ir siunčia komandas konkretiems įrenginiams.](../../../../../translated_images/lt/pub-sub.7c7ed43fe9fd15d4.png)
 
 MQTT yra populiariausias ryšio protokolas IoT įrenginiams ir yra aptariamas šioje pamokoje. Kiti protokolai apima AMQP ir HTTP/HTTPS.
 
@@ -56,7 +56,7 @@ MQTT yra populiariausias ryšio protokolas IoT įrenginiams ir yra aptariamas š
 
 MQTT turi vieną brokerį ir kelis klientus. Visi klientai jungiasi prie brokerio, o brokeris nukreipia pranešimus atitinkamiems klientams. Pranešimai nukreipiami naudojant pavadintas temas, o ne siunčiami tiesiogiai konkrečiam klientui. Klientas gali publikuoti temą, o visi klientai, prenumeruojantys tą temą, gaus pranešimą.
 
-![IoT įrenginys publikuoja telemetriją temoje /telemetry, o debesų paslauga prenumeruoja tą temą](../../../../../translated_images/mqtt.cbf7f21d9adc3e17548b359444cc11bb4bf2010543e32ece9a47becf54438c23.lt.png)
+![IoT įrenginys publikuoja telemetriją temoje /telemetry, o debesų paslauga prenumeruoja tą temą](../../../../../translated_images/lt/mqtt.cbf7f21d9adc3e17548b359444cc11bb4bf2010543e32ece9a47becf54438c23.png)
 
 ✅ Atlikite tyrimą. Jei turite daug IoT įrenginių, kaip galite užtikrinti, kad jūsų MQTT brokeris galėtų apdoroti visus pranešimus?
 
@@ -78,7 +78,7 @@ Užuot sprendę MQTT brokerio nustatymo sudėtingumą kaip šios užduoties dal�
 
 > 💁 Šis testavimo brokeris yra viešas ir nesaugus. Bet kas galėtų klausytis, ką publikuojate, todėl jis neturėtų būti naudojamas su duomenimis, kuriuos reikia laikyti privačiais.
 
-![Užduoties srauto diagrama, rodanti šviesos lygių skaitymą ir tikrinimą bei LED valdymą](../../../../../translated_images/assignment-1-internet-flow.3256feab5f052fd273bf4e331157c574c2c3fa42e479836fc9c3586f41db35a5.lt.png)
+![Užduoties srauto diagrama, rodanti šviesos lygių skaitymą ir tikrinimą bei LED valdymą](../../../../../translated_images/lt/assignment-1-internet-flow.3256feab5f052fd273bf4e331157c574c2c3fa42e479836fc9c3586f41db35a5.png)
 
 Sekite atitinkamą žingsnį žemiau, kad prijungtumėte savo įrenginį prie MQTT brokerio:
 
@@ -115,7 +115,7 @@ MQTT ryšiai gali būti vieši ir atviri arba užšifruoti ir apsaugoti naudojan
 
 Pažvelkime atgal į išmaniojo termostato pavyzdį iš 1 pamokos.
 
-![Interneto prijungtas termostatas, naudojantis kelis kambario jutiklius](../../../../../translated_images/telemetry.21e5d8b97649d2eb.lt.png)
+![Interneto prijungtas termostatas, naudojantis kelis kambario jutiklius](../../../../../translated_images/lt/telemetry.21e5d8b97649d2eb.png)
 
 Termostatas turi temperatūros jutiklius telemetrijai rinkti. Labiausiai tikėtina, kad jis turės vieną įmontuotą temperatūros jutiklį, ir jis gali prisijungti prie kelių išorinių temperatūros jutiklių per belaidį protokolą, pvz., [Bluetooth Low Energy](https://wikipedia.org/wiki/Bluetooth_Low_Energy) (BLE).
 
@@ -267,11 +267,11 @@ Parašykite serverio kodą.
 
 1. Kai VS Code paleidžiamas, jis aktyvuos Python virtualią aplinką. Tai bus nurodyta apatinėje būsenos juostoje:
 
-    ![VS Code rodo pasirinktą virtualią aplinką](../../../../../translated_images/vscode-virtual-env.8ba42e04c3d533cf.lt.png)
+    ![VS Code rodo pasirinktą virtualią aplinką](../../../../../translated_images/lt/vscode-virtual-env.8ba42e04c3d533cf.png)
 
 1. Jei VS Code terminalas jau veikia, kai VS Code paleidžiamas, virtuali aplinka jame nebus aktyvuota. Paprasčiausia yra uždaryti terminalą naudojant mygtuką **Kill the active terminal instance**:
 
-    ![VS Code mygtukas Kill the active terminal instance](../../../../../translated_images/vscode-kill-terminal.1cc4de7c6f25ee08.lt.png)
+    ![VS Code mygtukas Kill the active terminal instance](../../../../../translated_images/lt/vscode-kill-terminal.1cc4de7c6f25ee08.png)
 
 1. Paleiskite naują VS Code terminalą pasirinkdami *Terminal -> New Terminal* arba paspausdami `` CTRL+` ``. Naujas terminalas įkels virtualią aplinką, o aktyvavimo komanda bus rodoma terminale. Virtualios aplinkos pavadinimas (`.venv`) taip pat bus matomas eilutėje:
 
@@ -359,7 +359,7 @@ Gamyklos įrenginiams galbūt norėsite išsaugoti duomenis, ypač jei jie naudo
 
 IoT įrenginių kūrėjai taip pat turėtų apsvarstyti, ar IoT įrenginys gali būti naudojamas interneto nutrūkimo ar signalo praradimo dėl vietos sąlygų metu. Išmanusis termostatas turėtų galėti priimti ribotus sprendimus dėl šildymo valdymo, jei jis negali siųsti telemetrijos į debesį dėl nutrūkimo.
 
-[![Šis Ferrari tapo neveiksnus, nes kažkas bandė jį atnaujinti po žeme, kur nėra mobiliojo ryšio](../../../../../translated_images/bricked-car.dc38f8efadc6c59d76211f981a521efb300939283dee468f79503aae3ec67615.lt.png)](https://twitter.com/internetofshit/status/1315736960082808832)
+[![Šis Ferrari tapo neveiksnus, nes kažkas bandė jį atnaujinti po žeme, kur nėra mobiliojo ryšio](../../../../../translated_images/lt/bricked-car.dc38f8efadc6c59d76211f981a521efb300939283dee468f79503aae3ec67615.png)](https://twitter.com/internetofshit/status/1315736960082808832)
 
 Kad MQTT galėtų susidoroti su ryšio praradimu, įrenginio ir serverio kodas turės būti atsakingas už pranešimų pristatymo užtikrinimą, jei to reikia, pavyzdžiui, reikalaujant, kad visi išsiųsti pranešimai būtų atsakyti papildomais pranešimais atsakymo temoje, o jei ne, jie būtų rankiniu būdu eilėje, kad būtų pakartoti vėliau.
 
@@ -367,7 +367,7 @@ Kad MQTT galėtų susidoroti su ryšio praradimu, įrenginio ir serverio kodas t
 
 Komandos yra pranešimai, siunčiami iš debesies į įrenginį, nurodantys jam atlikti tam tikrą veiksmą. Dažniausiai tai apima tam tikrą išvestį per pavarą, tačiau tai gali būti ir nurodymas pačiam įrenginiui, pavyzdžiui, paleisti iš naujo arba surinkti papildomą telemetriją ir grąžinti ją kaip atsakymą į komandą.
 
-![Interneto prijungtas termostatas, gaunantis komandą įjungti šildymą](../../../../../translated_images/commands.d6c06bbbb3a02cce95f2831a1c331daf6dedd4e470c4aa2b0ae54f332016e504.lt.png)
+![Interneto prijungtas termostatas, gaunantis komandą įjungti šildymą](../../../../../translated_images/lt/commands.d6c06bbbb3a02cce95f2831a1c331daf6dedd4e470c4aa2b0ae54f332016e504.png)
 
 Termostatas galėtų gauti komandą iš debesies įjungti šildymą. Remiantis visų jutiklių telemetrijos duomenimis, debesų paslauga nusprendė, kad šildymas turėtų būti įjungtas, todėl siunčia atitinkamą komandą.
 

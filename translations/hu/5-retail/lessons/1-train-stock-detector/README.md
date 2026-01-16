@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Készíts egy készletérzékelőt
 
-![A lecke vázlatos áttekintése](../../../../../translated_images/lesson-19.cf6973cecadf080c4b526310620dc4d6f5994c80fb0139c6f378cc9ca2d435cd.hu.jpg)
+![A lecke vázlatos áttekintése](../../../../../translated_images/hu/lesson-19.cf6973cecadf080c4b526310620dc4d6f5994c80fb0139c6f378cc9ca2d435cd.jpg)
 
 > Vázlatrajz: [Nitya Narasimhan](https://github.com/nitya). Kattints a képre a nagyobb verzióért.
 
@@ -45,7 +45,7 @@ Az objektumfelismerés mesterséges intelligencia segítségével érzékeli az 
 
 A képosztályozás az egész kép osztályozásáról szól - milyen valószínűséggel felel meg az egész kép az egyes címkéknek. Az eredmény egy valószínűségi lista minden címkére, amelyet a modell betanításához használtak.
 
-![Képosztályozás kesudióval és paradicsompürével](../../../../../translated_images/image-classifier-cashews-tomato.bc2e16ab8f05cf9ac0f59f73e32efc4227f9a5b601b90b2c60f436694547a965.hu.png)
+![Képosztályozás kesudióval és paradicsompürével](../../../../../translated_images/hu/image-classifier-cashews-tomato.bc2e16ab8f05cf9ac0f59f73e32efc4227f9a5b601b90b2c60f436694547a965.png)
 
 A fenti példában két képet osztályoznak egy olyan modellel, amelyet kesudiótartók és paradicsompüré konzervdobozok osztályozására tanítottak be. Az első kép egy kesudiótartó, és az osztályozó két eredményt ad:
 
@@ -69,7 +69,7 @@ Amikor ezután előrejelzéseket készítesz képekkel, nem egy címkékből és
 
 > 🎓 *Határoló dobozok* azok a dobozok, amelyek az objektum körül helyezkednek el.
 
-![Objektumfelismerés kesudióval és paradicsompürével](../../../../../translated_images/object-detector-cashews-tomato.1af7c26686b4db0e709754aeb196f4e73271f54e2085db3bcccb70d4a0d84d97.hu.png)
+![Objektumfelismerés kesudióval és paradicsompürével](../../../../../translated_images/hu/object-detector-cashews-tomato.1af7c26686b4db0e709754aeb196f4e73271f54e2085db3bcccb70d4a0d84d97.png)
 
 A fenti képen van egy kesudiótartó és három paradicsompüré konzervdoboz. Az objektumérzékelő felismerte a kesudiót, és visszaadta a határoló dobozt, amely tartalmazza a kesudiót, valamint a százalékos valószínűséget, hogy a határoló doboz tartalmazza az objektumot, ebben az esetben 97.6%. Az objektumérzékelő három paradicsompüré konzervdobozt is érzékelt, és három különálló határoló dobozt biztosít, egyet-egyet az érzékelt dobozokhoz, mindegyikhez százalékos valószínűséggel, hogy a határoló doboz paradicsompüré konzervdobozt tartalmaz.
 
@@ -120,7 +120,7 @@ Az objektumérzékelőt a Custom Vision segítségével lehet betanítani, hason
 
     Amikor létrehozod a projektet, győződj meg róla, hogy a korábban létrehozott `stock-detector-training` erőforrást használod. Használd az *Object Detection* projekt típust, és a *Products on Shelves* domaint.
 
-    ![A Custom Vision projekt beállításai a névvel, leírás nélkül, az erőforrással, a projekt típussal és a domainnel](../../../../../translated_images/custom-vision-create-object-detector-project.32d4fb9aa8e7e7375f8a799bfce517aca970f2cb65e42d4245c5e635c734ab29.hu.png)
+    ![A Custom Vision projekt beállításai a névvel, leírás nélkül, az erőforrással, a projekt típussal és a domainnel](../../../../../translated_images/hu/custom-vision-create-object-detector-project.32d4fb9aa8e7e7375f8a799bfce517aca970f2cb65e42d4245c5e635c734ab29.png)
 
     ✅ A polcokon lévő termékek domainje kifejezetten a bolti polcokon lévő készletek érzékelésére van optimalizálva. Olvass többet a különböző domainekről a [Microsoft Docs Select a domain dokumentációjában](https://docs.microsoft.com/azure/cognitive-services/custom-vision-service/select-domain?WT.mc_id=academic-17441-jabenn#object-detection).
 
@@ -142,11 +142,11 @@ Ahhoz, hogy betanítsd a modelledet, szükséged lesz egy képkészletre, amely 
 
 1. Kövesd a [Képek feltöltése és címkézése szakaszt a Microsoft dokumentációjában található Objektumérzékelő gyorsindításban](https://docs.microsoft.com/azure/cognitive-services/custom-vision-service/get-started-build-detector?WT.mc_id=academic-17441-jabenn#upload-and-tag-images), hogy feltöltsd a tréningképeidet. Hozz létre releváns címkéket az érzékelni kívánt objektumtípusok alapján.
 
-    ![A feltöltési párbeszédablakok érett és éretlen banán képeinek feltöltésével](../../../../../translated_images/image-upload-object-detector.77c7892c3093cb59b79018edecd678749a75d71a099bc8a2d2f2f76320f88a5b.hu.png)
+    ![A feltöltési párbeszédablakok érett és éretlen banán képeinek feltöltésével](../../../../../translated_images/hu/image-upload-object-detector.77c7892c3093cb59b79018edecd678749a75d71a099bc8a2d2f2f76320f88a5b.png)
 
     Amikor határoló dobozokat rajzolsz az objektumokhoz, tartsd őket szorosan az objektum körül. Időbe telhet az összes kép körvonalazása, de az eszköz érzékeli, hogy szerinte hol vannak a határoló dobozok, ami gyorsabbá teszi a folyamatot.
 
-    ![Paradicsompüré címkézése](../../../../../translated_images/object-detector-tag-tomato-paste.f47c362fb0f0eb582f3bc68cf3855fb43a805106395358d41896a269c210b7b4.hu.png)
+    ![Paradicsompüré címkézése](../../../../../translated_images/hu/object-detector-tag-tomato-paste.f47c362fb0f0eb582f3bc68cf3855fb43a805106395358d41896a269c210b7b4.png)
 
     > 💁 Ha több mint 15 képed van minden objektumhoz, akkor 15 után betaníthatod, majd használhatod a **Suggested tags** funkciót. Ez a betanított modellt használja az objektumok érzékelésére a címkézetlen képen. Ezután megerősítheted az érzékelt objektumokat, vagy elutasíthatod és újrarajzolhatod a határoló dobozokat. Ez rengeteg időt takaríthat meg.
 

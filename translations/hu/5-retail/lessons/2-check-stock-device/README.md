@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Készletellenőrzés egy IoT eszközzel
 
-![Egy vázlatos ábra a leckéről](../../../../../translated_images/lesson-20.0211df9551a8abb300fc8fcf7dc2789468dea2eabe9202273ac077b0ba37f15e.hu.jpg)
+![Egy vázlatos ábra a leckéről](../../../../../translated_images/hu/lesson-20.0211df9551a8abb300fc8fcf7dc2789468dea2eabe9202273ac077b0ba37f15e.jpg)
 
 > Vázlat: [Nitya Narasimhan](https://github.com/nitya). Kattints a képre a nagyobb verzióért.
 
@@ -39,7 +39,7 @@ Az objektumfelismerők használhatók készletellenőrzésre, akár a készlet s
 
 Például, ha egy kamera egy olyan polcra néz, amelyen 8 paradicsompüré konzerv fér el, és az objektumfelismerő csak 7 konzervet észlel, akkor egy hiányzik, és újra kell tölteni.
 
-![7 paradicsompüré konzerv egy polcon, 4 a felső sorban, 3 alatta](../../../../../translated_images/stock-7-cans-tomato-paste.f86059cc573d7bec.hu.png)
+![7 paradicsompüré konzerv egy polcon, 4 a felső sorban, 3 alatta](../../../../../translated_images/hu/stock-7-cans-tomato-paste.f86059cc573d7bec.png)
 
 A fenti képen az objektumfelismerő 7 paradicsompüré konzervet észlelt egy polcon, amelyen 8 konzerv fér el. Az IoT eszköz nemcsak értesítést küldhet az újratöltés szükségességéről, hanem még a hiányzó elem helyét is megadhatja, ami fontos adat, ha robotokat használsz a polcok újratöltésére.
 
@@ -51,7 +51,7 @@ Néha rossz áruk kerülhetnek a polcokra. Ez lehet emberi hiba az újratöltés
 
 Az objektumfelismerés használható váratlan áruk észlelésére, és értesítheti az embert vagy a robotot, hogy az árut azonnal visszahelyezze.
 
-![Egy eltévedt bébikukorica konzerv a paradicsompüré polcon](../../../../../translated_images/stock-rogue-corn.be1f3ada8c457854.hu.png)
+![Egy eltévedt bébikukorica konzerv a paradicsompüré polcon](../../../../../translated_images/hu/stock-rogue-corn.be1f3ada8c457854.png)
 
 A fenti képen egy bébikukorica konzerv került a paradicsompüré polcra. Az objektumfelismerő ezt észlelte, lehetővé téve az IoT eszköz számára, hogy értesítse az embert vagy a robotot, hogy helyezze vissza a konzervet a megfelelő helyére.
 
@@ -71,7 +71,7 @@ Az iterációkat a Custom Vision portálról lehet közzétenni.
 
 1. Kattints az iteráció **Publish** gombjára.
 
-    ![A közzététel gomb](../../../../../translated_images/custom-vision-object-detector-publish-button.34ee379fc650ccb9856c3868d0003f413b9529f102fc73c37168c98d721cc293.hu.png)
+    ![A közzététel gomb](../../../../../translated_images/hu/custom-vision-object-detector-publish-button.34ee379fc650ccb9856c3868d0003f413b9529f102fc73c37168c98d721cc293.png)
 
 1. A *Publish Model* párbeszédablakban állítsd be a *Prediction resource*-t az előző leckében létrehozott `stock-detector-prediction` erőforrásra. Hagyd meg a nevet `Iteration2`-ként, majd kattints a **Publish** gombra.
 
@@ -85,7 +85,7 @@ Az iterációkat a Custom Vision portálról lehet közzétenni.
 
     Másold ki a *Prediction-Key* értéket is. Ez egy biztonsági kulcs, amelyet meg kell adnod a modell hívásakor. Csak azok az alkalmazások használhatják a modellt, amelyek megadják ezt a kulcsot, minden más alkalmazást elutasítanak.
 
-    ![Az előrejelzési API párbeszédablak az URL-lel és a kulccsal](../../../../../translated_images/custom-vision-prediction-key-endpoint.30c569ffd0338864f319911f052d5e9b8c5066cb0800a26dd6f7ff5713130ad8.hu.png)
+    ![Az előrejelzési API párbeszédablak az URL-lel és a kulccsal](../../../../../translated_images/hu/custom-vision-prediction-key-endpoint.30c569ffd0338864f319911f052d5e9b8c5066cb0800a26dd6f7ff5713130ad8.png)
 
 ✅ Amikor egy új iterációt közzétesznek, annak más neve lesz. Hogyan gondolod, hogy megváltoztatnád az IoT eszköz által használt iterációt?
 
@@ -104,7 +104,7 @@ Amikor használod az objektumfelismerőt, nemcsak az észlelt objektumokat kapod
 
 A **Predictions** fülön az előrejelzés eredményei tartalmazzák a határoló dobozokat az előrejelzésre küldött képen.
 
-![4 paradicsompüré konzerv egy polcon, az előrejelzések 35.8%, 33.5%, 25.7% és 16.6% valószínűséggel](../../../../../translated_images/custom-vision-stock-prediction.942266ab1bcca3410ecdf23643b9f5f570cfab2345235074e24c51f285777613.hu.png)
+![4 paradicsompüré konzerv egy polcon, az előrejelzések 35.8%, 33.5%, 25.7% és 16.6% valószínűséggel](../../../../../translated_images/hu/custom-vision-stock-prediction.942266ab1bcca3410ecdf23643b9f5f570cfab2345235074e24c51f285777613.png)
 
 A fenti képen 4 paradicsompüré konzervet észleltek. Az eredményekben egy piros négyzet van ráhelyezve minden észlelt objektumra, jelezve a kép határoló dobozát.
 
@@ -112,7 +112,7 @@ A fenti képen 4 paradicsompüré konzervet észleltek. Az eredményekben egy pi
 
 A határoló dobozokat 4 érték határozza meg: top, left, height és width. Ezek az értékek 0-1 skálán vannak, az értékek a kép méretének százalékos arányát képviselik. Az origó (a 0,0 pozíció) a kép bal felső sarka, így a top érték a távolság a tetejétől, az alsó érték pedig a top plusz a height.
 
-![Egy határoló doboz egy paradicsompüré konzerv körül](../../../../../translated_images/bounding-box.1420a7ea0d3d15f71e1ffb5cf4b2271d184fac051f990abc541975168d163684.hu.png)
+![Egy határoló doboz egy paradicsompüré konzerv körül](../../../../../translated_images/hu/bounding-box.1420a7ea0d3d15f71e1ffb5cf4b2271d184fac051f990abc541975168d163684.png)
 
 A fenti kép 600 pixel széles és 800 pixel magas. A határoló doboz 320 pixellel lejjebb kezdődik, ami 0.4-es top koordinátát ad (800 x 0.4 = 320). A bal oldaltól a határoló doboz 240 pixellel kezdődik, ami 0.4-es left koordinátát ad (600 x 0.4 = 240). A határoló doboz magassága 240 pixel, ami 0.3-as height értéket ad (800 x 0.3 = 240). A határoló doboz szélessége 120 pixel, ami 0.2-es width értéket ad (600 x 0.2 = 120).
 
@@ -127,7 +127,7 @@ A 0-1 közötti százalékos értékek használata azt jelenti, hogy független�
 
 A határoló dobozokat a valószínűségekkel kombinálva értékelheted az észlelés pontosságát. Például egy objektumfelismerő több, egymást átfedő objektumot is észlelhet, például egy konzervet egy másik belsejében. A kódod megvizsgálhatja a határoló dobozokat, megértheti, hogy ez lehetetlen, és figyelmen kívül hagyhatja azokat az objektumokat, amelyek jelentős átfedésben vannak más objektumokkal.
 
-![Két átfedő határoló doboz egy paradicsompüré konzerv körül](../../../../../translated_images/overlap-object-detection.d431e03cae75072a2760430eca7f2c5fdd43045bfd72dadcbf12711f7cd6c2ae.hu.png)
+![Két átfedő határoló doboz egy paradicsompüré konzerv körül](../../../../../translated_images/hu/overlap-object-detection.d431e03cae75072a2760430eca7f2c5fdd43045bfd72dadcbf12711f7cd6c2ae.png)
 
 A fenti példában az egyik határoló doboz egy paradicsompüré konzervet jelez 78.3%-os valószínűséggel. Egy másik határoló doboz valamivel kisebb, és az első határoló dobozon belül van, 64.3%-os valószínűséggel. A kódod ellenőrizheti a határoló dobozokat, láthatja, hogy teljesen átfedik egymást, és figyelmen kívül hagyhatja az alacsonyabb valószínűséget, mivel lehetetlen, hogy egy konzerv egy másik belsejében legyen.
 

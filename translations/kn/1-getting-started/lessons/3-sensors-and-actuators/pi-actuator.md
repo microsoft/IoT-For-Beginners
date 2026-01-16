@@ -35,7 +35,7 @@ Grove LED ಮಿನಿ LEDಗಳ ಆಯ್ಕೆಯೊಂದಿಗೆ ಒಂದ�
 
 LED ಅನ್ನು ಜೋಡಿಸಿ.
 
-![A grove LED](../../../../../translated_images/grove-led.6c853be93f473cf2.kn.png)
+![A grove LED](../../../../../translated_images/kn/grove-led.6c853be93f473cf2.png)
 
 1. ನಿಮ್ಮ ಇಷ್ಟದ LED ಆಯ್ದು ಅದರ ಕಾಲುಗಳನ್ನು LED ಮೋಡ್ಯೂಲ್‌ನ ಎರಡು ರಂಧ್ರಗಳಲ್ಲಿ ಇನ್ಸರ್ಟ್ ಮಾಡಿ.
 
@@ -49,7 +49,7 @@ LED ಅನ್ನು ಜೋಡಿಸಿ.
 
 1. ರಾಸ್ಪ್ಬೆರ್ರಿ ಪೈ ಆಫ್ ಇದ್ದಾಗ Grove ಕೇಬಲ್‌ನ ಇನ್ನೊಂದು ಬದಿಯನ್ನು Grove Base hat ನಲ್ಲಿ ಡಿಜಿಟಲ್ ಸಕ್ಕಟ್ **D5** ಗೆ ಜೋಡಿಸಿ. ಇದು ಬೆಲೆಯಾಗಿ ಎಡದಿಂದ ಎರಡನೆಯದು ಮತ್ತು GPIO ಪಿನ್‌ಗಳ ಹತ್ತಿರ ಇರುವ ರೋಗಳಲ್ಲಿದೆ.
 
-![The grove LED connected to socket D5](../../../../../translated_images/pi-led.97f1d474981dc35d.kn.png)
+![The grove LED connected to socket D5](../../../../../translated_images/kn/pi-led.97f1d474981dc35d.png)
 
 ## ನೈಟ್‌ಲೈನ್‌ಟ್ ಪ್ರೋಗ್ರಾಮ್ ಮಾಡಿ
 

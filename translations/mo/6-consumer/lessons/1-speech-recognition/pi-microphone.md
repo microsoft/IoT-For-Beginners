@@ -43,7 +43,7 @@ Raspberry Pi 配備了一個 3.5mm 耳機插孔。您可以使用它來連接耳
 
 1. 如果您使用的是 ReSpeaker 2-Mics Pi HAT，可以移除 Grove 基座帽，然後將 ReSpeaker 帽安裝到其位置。
 
-    ![一個安裝了 ReSpeaker 帽的 Raspberry Pi](../../../../../translated_images/pi-respeaker-hat.f00fabe7dd039a93e2e0aa0fc946c9af0c6a9eb17c32fa1ca097fb4e384f69f0.mo.png)
+    ![一個安裝了 ReSpeaker 帽的 Raspberry Pi](../../../../../translated_images/mo/pi-respeaker-hat.f00fabe7dd039a93e2e0aa0fc946c9af0c6a9eb17c32fa1ca097fb4e384f69f0.png)
 
     在本課程稍後您將需要一個 Grove 按鈕，但此帽已內建一個按鈕，因此不需要 Grove 基座帽。
 

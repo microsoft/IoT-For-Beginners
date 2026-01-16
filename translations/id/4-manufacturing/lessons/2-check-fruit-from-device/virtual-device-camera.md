@@ -43,11 +43,11 @@ Tambahkan kamera ke aplikasi CounterFit.
 
     1. Pilih tombol **Add** untuk membuat kamera.
 
-    ![Pengaturan kamera](../../../../../translated_images/counterfit-create-camera.a5de97f59c0bd3cbe0416d7e89a3cfe86d19fbae05c641c53a91286412af0a34.id.png)
+    ![Pengaturan kamera](../../../../../translated_images/id/counterfit-create-camera.a5de97f59c0bd3cbe0416d7e89a3cfe86d19fbae05c641c53a91286412af0a34.png)
 
     Kamera akan dibuat dan muncul di daftar sensor.
 
-    ![Kamera yang telah dibuat](../../../../../translated_images/counterfit-camera.001ec52194c8ee5d3f617173da2c79e1df903d10882adc625cbfc493525125d4.id.png)
+    ![Kamera yang telah dibuat](../../../../../translated_images/id/counterfit-camera.001ec52194c8ee5d3f617173da2c79e1df903d10882adc625cbfc493525125d4.png)
 
 ## Program Kamera
 
@@ -112,7 +112,7 @@ Program perangkat.
 
 1. Konfigurasikan gambar yang akan ditangkap oleh kamera di CounterFit. Anda dapat mengatur *Source* ke *File*, lalu mengunggah file gambar, atau mengatur *Source* ke *WebCam*, dan gambar akan ditangkap dari webcam Anda. Pastikan Anda memilih tombol **Set** setelah memilih gambar atau memilih webcam Anda.
 
-    ![CounterFit dengan file yang diatur sebagai sumber gambar, dan webcam yang menunjukkan seseorang memegang pisang dalam pratinjau webcam](../../../../../translated_images/counterfit-camera-options.eb3bd5150a8e7dffbf24bc5bcaba0cf2cdef95fbe6bbe393695d173817d6b8df.id.png)
+    ![CounterFit dengan file yang diatur sebagai sumber gambar, dan webcam yang menunjukkan seseorang memegang pisang dalam pratinjau webcam](../../../../../translated_images/id/counterfit-camera-options.eb3bd5150a8e7dffbf24bc5bcaba0cf2cdef95fbe6bbe393695d173817d6b8df.png)
 
 1. Gambar akan ditangkap dan disimpan sebagai `image.jpg` di folder saat ini. Anda akan melihat file ini di penjelajah VS Code. Pilih file untuk melihat gambar. Jika perlu rotasi, perbarui baris `camera.rotation = 0` sesuai kebutuhan dan ambil gambar lagi.
 

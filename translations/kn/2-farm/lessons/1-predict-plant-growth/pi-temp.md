@@ -25,13 +25,13 @@ CO_OP_TRANSLATOR_METADATA:
 
 ತಾಪಮಾನ ಸೆನ್ಸಾರ್ ಸಂಪರ್ಕಿಸಿ
 
-![A grove temperature sensor](../../../../../translated_images/grove-dht11.07f8eafceee17004.kn.png)
+![A grove temperature sensor](../../../../../translated_images/kn/grove-dht11.07f8eafceee17004.png)
 
 1. ಗ್ರೋವ್ ಕೇಬಲ್‌ನ ಒಂದು ತುದಿಯನ್ನು ತೇವಾಂಶ ಮತ್ತು ತಾಪಮಾನ ಸೆನ್ಸರ್ ಸೊಕೆಟ್ನಲ್ಲಿ ಸೇರ್ಪಡೆ ಮಾಡಿ. ಇದು ಮಾತ್ರ ಒಂದು ದಿಕ್ಕಿನಲ್ಲಿ ಹೋಗುತ್ತದೆ.
 
 1. ರಾಸ್ಪಬೆರಿ ಪೈ ಆಫ್ ಆಗಿದ್ದಾಗ, ಗ್ರೋವ್ ಕೇಬಲ್‌ನ ಇನ್ನೊಂದು ತುದಿಯನ್ನು ಪೈಗೆ ಲಗತ್ತಾಯಿಸಿರುವ ಗ್ರೋವ್ ಬೇಸ್ ಹೆಟ್‌ನ **D5** ಎಂದು ಗುರುತಿಸಲಾದ ಡಿಜಿಟಲ್ ಸೊಕೆಟ್ನಿಗೆ ಸಂಪರ್ಕಿಸಿ. ಈ ಸೊಕೆಟಿನು ಎಡಮುರಿ ಬಳಿ ಎರಡನೆಯದು, GPIO ಪಿನ್‌ಗಳ ಬಳಿಯ ಸಾಲಿನಲ್ಲಿ ಇದೆ.
 
-![The grove temperature sensor connected to socket A0](../../../../../translated_images/pi-temperature-sensor.3ff82fff672c8e56.kn.png)
+![The grove temperature sensor connected to socket A0](../../../../../translated_images/kn/pi-temperature-sensor.3ff82fff672c8e56.png)
 
 ## ತಾಪಮಾನ ಸೆನ್ಸಾರ್‌ನ್ನು ಪ್ರೋಗ್ರಾಮ್ ಮಾಡಿ
 

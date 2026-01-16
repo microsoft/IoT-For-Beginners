@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # センサーから果物の品質検査をトリガーする
 
-![このレッスンの概要を示すスケッチノート](../../../../../translated_images/lesson-18.92c32ed1d354caa5a54baa4032cf0b172d4655e8e326ad5d46c558a0def15365.ja.jpg)
+![このレッスンの概要を示すスケッチノート](../../../../../translated_images/ja/lesson-18.92c32ed1d354caa5a54baa4032cf0b172d4655e8e326ad5d46c558a0def15365.jpg)
 
 > スケッチノート作成者：[Nitya Narasimhan](https://github.com/nitya)。画像をクリックすると拡大版が表示されます。
 
@@ -48,7 +48,7 @@ IoTアプリケーションは、デバイス（*things*）がデータを送信
 
 ### IoTリファレンスアーキテクチャ
 
-![IoTリファレンスアーキテクチャ](../../../../../translated_images/iot-reference-architecture.2278b98b55c6d4e89bde18eada3688d893861d43507641804dd2f9d3079cfaa0.ja.png)
+![IoTリファレンスアーキテクチャ](../../../../../translated_images/ja/iot-reference-architecture.2278b98b55c6d4e89bde18eada3688d893861d43507641804dd2f9d3079cfaa0.png)
 
 上の図は、IoTリファレンスアーキテクチャを示しています。
 
@@ -58,7 +58,7 @@ IoTアプリケーションは、デバイス（*things*）がデータを送信
 * **洞察（Insights）**：サーバーレスアプリケーションや保存されたデータの分析から得られます。
 * **アクション（Actions）**：デバイスへのコマンド送信や、データの可視化による意思決定を含みます。
 
-![Azureを使用したIoTリファレンスアーキテクチャ](../../../../../translated_images/iot-reference-architecture-azure.0b8d2161af924cb18ae48a8558a19541cca47f27264851b5b7e56d7b8bb372ac.ja.png)
+![Azureを使用したIoTリファレンスアーキテクチャ](../../../../../translated_images/ja/iot-reference-architecture-azure.0b8d2161af924cb18ae48a8558a19541cca47f27264851b5b7e56d7b8bb372ac.png)
 
 上の図は、これまでのレッスンで取り上げたコンポーネントやサービスが、リファレンスIoTアーキテクチャでどのように連携しているかを示しています。
 
@@ -98,7 +98,7 @@ IoTアプリケーションは、デバイス（*things*）がデータを送信
 
 ### アプリケーションのプロトタイピング
 
-![果物品質検査のリファレンスIoTアーキテクチャ](../../../../../translated_images/iot-reference-architecture-fruit-quality.cc705f121c3b6fa71c800d9630935ac34bc08223a04601e35f41d5e9b5dd5207.ja.png)
+![果物品質検査のリファレンスIoTアーキテクチャ](../../../../../translated_images/ja/iot-reference-architecture-fruit-quality.cc705f121c3b6fa71c800d9630935ac34bc08223a04601e35f41d5e9b5dd5207.png)
 
 上の図は、このプロトタイプアプリケーションのリファレンスアーキテクチャを示しています。
 
@@ -115,7 +115,7 @@ IoTアプリケーションは、デバイス（*things*）がデータを送信
 
 IoTデバイスには、果物が分類の準備ができたことを示す何らかのトリガーが必要です。このトリガーの1つとして、センサーを使用してコンベアベルト上の果物が適切な位置にあるかどうかを測定する方法があります。
 
-![近接センサーはバナナのような物体にレーザービームを送信し、反射して戻るまでの時間を測定します](../../../../../translated_images/proximity-sensor.f5cd752c77fb62fe.ja.png)
+![近接センサーはバナナのような物体にレーザービームを送信し、反射して戻るまでの時間を測定します](../../../../../translated_images/ja/proximity-sensor.f5cd752c77fb62fe.png)
 
 近接センサーは、センサーから物体までの距離を測定するために使用されます。通常、レーザービームや赤外線などの電磁波を送信し、物体から反射して戻ってくる信号を検出します。レーザービームが送信されてから信号が戻るまでの時間を使用して、センサーまでの距離を計算します。
 
@@ -133,7 +133,7 @@ IoTデバイスには、果物が分類の準備ができたことを示す何�
 
 プロトタイプの果物検査システムには、複数のコンポーネントが相互に通信します。
 
-![相互に通信するコンポーネント](../../../../../translated_images/fruit-quality-detector-message-flow.adf2a65da8fd8741ac7af11361574de89adc126785d67606bb4d2ec00467e380.ja.png)
+![相互に通信するコンポーネント](../../../../../translated_images/ja/fruit-quality-detector-message-flow.adf2a65da8fd8741ac7af11361574de89adc126785d67606bb4d2ec00467e380.png)
 
 * 近接センサーが果物までの距離を測定し、IoT Hubに送信
 * カメラデバイスを制御するコマンドがIoT Hubから送信

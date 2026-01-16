@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # 클라우드로 식물 시스템 이전하기
 
-![이 강의의 스케치노트 개요](../../../../../translated_images/lesson-8.3f21f3c11159e6a0a376351973ea5724d5de68fa23b4288853a174bed9ac48c3.ko.jpg)
+![이 강의의 스케치노트 개요](../../../../../translated_images/ko/lesson-8.3f21f3c11159e6a0a376351973ea5724d5de68fa23b4288853a174bed9ac48c3.jpg)
 
 > 스케치노트: [Nitya Narasimhan](https://github.com/nitya). 이미지를 클릭하면 더 큰 버전을 볼 수 있습니다.
 
@@ -55,8 +55,8 @@ IoT 디바이스는 원리를 설명하기 위해 공용 MQTT 브로커와 통�
 
 클라우드는 종종 농담으로 '다른 사람의 컴퓨터'라고 불립니다. 초기 아이디어는 간단했습니다 - 컴퓨터를 구매하는 대신, 다른 사람의 컴퓨터를 임대하는 것입니다. 클라우드 컴퓨팅 제공업체가 거대한 데이터 센터를 관리하며, 하드웨어 구매 및 설치, 전력 및 냉각 관리, 네트워킹, 건물 보안, 하드웨어 및 소프트웨어 업데이트 등을 책임집니다. 고객은 필요에 따라 컴퓨터를 임대하고, 수요가 증가하면 더 많이 임대하며, 수요가 감소하면 임대 수를 줄일 수 있습니다. 이러한 클라우드 데이터 센터는 전 세계에 분포해 있습니다.
 
-![Microsoft 클라우드 데이터 센터](../../../../../translated_images/azure-region-existing.73f704604f2aa6cb9b5a49ed40e93d4fd81ae3f4e6af4a8ca504023902832f56.ko.png)
-![Microsoft 클라우드 데이터 센터 확장 계획](../../../../../translated_images/azure-region-planned-expansion.a5074a1e8af74f156a73552d502429e5b126ea5019274d767ecb4b9afdad442b.ko.png)
+![Microsoft 클라우드 데이터 센터](../../../../../translated_images/ko/azure-region-existing.73f704604f2aa6cb9b5a49ed40e93d4fd81ae3f4e6af4a8ca504023902832f56.png)
+![Microsoft 클라우드 데이터 센터 확장 계획](../../../../../translated_images/ko/azure-region-planned-expansion.a5074a1e8af74f156a73552d502429e5b126ea5019274d767ecb4b9afdad442b.png)
 
 이 데이터 센터는 수 킬로미터에 달하는 크기를 가질 수 있습니다. 위 이미지는 몇 년 전 Microsoft 클라우드 데이터 센터에서 촬영된 것으로, 초기 크기와 확장 계획을 보여줍니다. 확장을 위해 정리된 지역은 5제곱킬로미터가 넘습니다.
 
@@ -72,7 +72,7 @@ IoT 디바이스는 원리를 설명하기 위해 공용 MQTT 브로커와 통�
 
 Azure는 Microsoft의 개발자 클라우드로, 이번 강의에서 사용할 클라우드입니다. 아래 영상은 Azure에 대한 간단한 개요를 제공합니다:
 
-[![Azure 개요 영상](../../../../../translated_images/what-is-azure-video-thumbnail.20174db09e03bbb8.ko.png)](https://www.microsoft.com/videoplayer/embed/RE4Ibng?WT.mc_id=academic-17441-jabenn)
+[![Azure 개요 영상](../../../../../translated_images/ko/what-is-azure-video-thumbnail.20174db09e03bbb8.png)](https://www.microsoft.com/videoplayer/embed/RE4Ibng?WT.mc_id=academic-17441-jabenn)
 
 ## 클라우드 구독 생성하기
 
@@ -117,11 +117,11 @@ Azure 구독에는 두 가지 무료 옵션이 있습니다:
 
 IoT 디바이스는 디바이스 SDK(서비스 기능과 작업하는 코드를 제공하는 라이브러리)를 사용하거나, MQTT 또는 HTTP와 같은 통신 프로토콜을 통해 클라우드 서비스에 연결합니다. 디바이스 SDK는 일반적으로 가장 쉬운 방법으로, 보안 처리, 게시 및 구독할 주제 관리 등을 자동으로 처리합니다.
 
-![디바이스는 디바이스 SDK를 사용해 서비스에 연결합니다. 서버 코드는 SDK를 통해 서비스에 연결합니다.](../../../../../translated_images/iot-service-connectivity.7e873847921a5d6fd60d0ba3a943210194518cee0d4e362476624316443275c3.ko.png)
+![디바이스는 디바이스 SDK를 사용해 서비스에 연결합니다. 서버 코드는 SDK를 통해 서비스에 연결합니다.](../../../../../translated_images/ko/iot-service-connectivity.7e873847921a5d6fd60d0ba3a943210194518cee0d4e362476624316443275c3.png)
 
 디바이스는 이후 서비스와 통신하며, 이는 MQTT를 통해 텔레메트리를 보내고 명령을 받는 방식과 유사합니다. 서비스 SDK 또는 유사한 라이브러리를 사용해 애플리케이션의 다른 구성 요소가 디바이스와 통신합니다. 디바이스에서 서비스로 메시지가 전송되면, 애플리케이션의 다른 구성 요소가 이를 읽고, 다시 디바이스로 메시지를 보낼 수 있습니다.
 
-![유효한 비밀 키가 없는 디바이스는 IoT 서비스에 연결할 수 없습니다.](../../../../../translated_images/iot-service-allowed-denied-connection.818b0063ac213fb84204a7229303764d9b467ca430fb822b4ac2fca267d56726.ko.png)
+![유효한 비밀 키가 없는 디바이스는 IoT 서비스에 연결할 수 없습니다.](../../../../../translated_images/ko/iot-service-allowed-denied-connection.818b0063ac213fb84204a7229303764d9b467ca430fb822b4ac2fca267d56726.png)
 
 이러한 서비스는 연결하거나 데이터를 전송할 수 있는 모든 디바이스를 사전에 등록하거나, 디바이스가 처음 연결할 때 자신을 등록할 수 있는 비밀 키나 인증서를 제공함으로써 보안을 구현합니다. 등록되지 않은 디바이스는 연결할 수 없으며, 서비스는 이들의 연결 시도를 거부하고 보낸 메시지를 무시합니다.
 
@@ -133,7 +133,7 @@ IoT 디바이스는 디바이스 SDK(서비스 기능과 작업하는 코드를 
 
 이제 Azure 구독을 보유하고 있으니, IoT 서비스를 등록할 수 있습니다. Microsoft의 IoT 서비스는 Azure IoT Hub라고 불립니다.
 
-![Azure IoT Hub 로고](../../../../../translated_images/azure-iot-hub-logo.28a19de76d0a1932464d858f7558712bcdace3e5ec69c434d482ed7ce41c3a26.ko.png)
+![Azure IoT Hub 로고](../../../../../translated_images/ko/azure-iot-hub-logo.28a19de76d0a1932464d858f7558712bcdace3e5ec69c434d482ed7ce41c3a26.png)
 
 아래 영상은 Azure IoT Hub에 대한 간단한 개요를 제공합니다:
 

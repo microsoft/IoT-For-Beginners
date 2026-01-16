@@ -21,7 +21,7 @@ IoT에서 **T**는 **사물(Things)**을 의미하며, 우리 주변 환경과 �
 
 ## 키트 구매하기
 
-![Seeed Studios 로고](../../translated_images/seeed-logo.74732b6b482b6e8e.ko.png)
+![Seeed Studios 로고](../../translated_images/ko/seeed-logo.74732b6b482b6e8e.png)
 
 Seeed Studios는 모든 하드웨어를 쉽게 구매할 수 있는 키트로 제공해 주었습니다:
 
@@ -29,13 +29,13 @@ Seeed Studios는 모든 하드웨어를 쉽게 구매할 수 있는 키트로 �
 
 **[Seeed와 Microsoft가 함께하는 초보자를 위한 IoT - Wio 터미널 스타터 키트](https://www.seeedstudio.com/IoT-for-beginners-with-Seeed-and-Microsoft-Wio-Terminal-Starter-Kit-p-5006.html)**
 
-[![Wio 터미널 하드웨어 키트](../../translated_images/wio-hardware-kit.4c70c48b85e4283a.ko.png)](https://www.seeedstudio.com/IoT-for-beginners-with-Seeed-and-Microsoft-Wio-Terminal-Starter-Kit-p-5006.html)
+[![Wio 터미널 하드웨어 키트](../../translated_images/ko/wio-hardware-kit.4c70c48b85e4283a.png)](https://www.seeedstudio.com/IoT-for-beginners-with-Seeed-and-Microsoft-Wio-Terminal-Starter-Kit-p-5006.html)
 
 ### Raspberry Pi
 
 **[Seeed와 Microsoft가 함께하는 초보자를 위한 IoT - Raspberry Pi 4 스타터 키트](https://www.seeedstudio.com/IoT-for-beginners-with-Seeed-and-Microsoft-Raspberry-Pi-Starter-Kit-p-5004.html)**
 
-[![Raspberry Pi 터미널 하드웨어 키트](../../translated_images/pi-hardware-kit.26dbadaedb7dd44c73b0131d5d68ea29472ed0a9744f90d5866c6d82f2d16380.ko.png)](https://www.seeedstudio.com/IoT-for-beginners-with-Seeed-and-Microsoft-Raspberry-Pi-Starter-Kit-p-5004.html)
+[![Raspberry Pi 터미널 하드웨어 키트](../../translated_images/ko/pi-hardware-kit.26dbadaedb7dd44c73b0131d5d68ea29472ed0a9744f90d5866c6d82f2d16380.png)](https://www.seeedstudio.com/IoT-for-beginners-with-Seeed-and-Microsoft-Raspberry-Pi-Starter-Kit-p-5004.html)
 
 ## Arduino
 

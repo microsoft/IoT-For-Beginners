@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Patikrinkite vaisių kokybę naudodami IoT įrenginį
 
-![Šios pamokos eskizų apžvalga](../../../../../translated_images/lesson-16.215daf18b00631fbdfd64c6fc2dc6044dff5d544288825d8076f9fb83d964c23.lt.jpg)
+![Šios pamokos eskizų apžvalga](../../../../../translated_images/lt/lesson-16.215daf18b00631fbdfd64c6fc2dc6044dff5d544288825d8076f9fb83d964c23.jpg)
 
 > Eskizą sukūrė [Nitya Narasimhan](https://github.com/nitya). Spustelėkite paveikslėlį, kad pamatytumėte didesnę versiją.
 
@@ -35,7 +35,7 @@ Praeitoje pamokoje sužinojote apie vaizdų klasifikatorius ir kaip juos apmokyt
 
 Kameros jutikliai, kaip rodo pavadinimas, yra kameros, kurias galite prijungti prie savo IoT įrenginio. Jie gali užfiksuoti statinius vaizdus arba transliuoti vaizdo įrašus. Kai kurie pateikia neapdorotus vaizdo duomenis, kiti suspaudžia juos į vaizdo failus, tokius kaip JPEG ar PNG. Paprastai kameros, kurios veikia su IoT įrenginiais, yra daug mažesnės ir žemesnės raiškos nei tos, prie kurių esate įpratę, tačiau galite įsigyti aukštos raiškos kameras, kurios prilygsta aukščiausios klasės telefonams. Taip pat galite rasti įvairių keičiamų objektyvų, kelių kamerų rinkinių, infraraudonųjų spindulių terminių kamerų ar UV kamerų.
 
-![Šviesa iš scenos praeina pro objektyvą ir fokusuojama į CMOS jutiklį](../../../../../translated_images/cmos-sensor.75f9cd74decb137149a4c9ea825251a4549497d67c0ae2776159e6102bb53aa9.lt.png)
+![Šviesa iš scenos praeina pro objektyvą ir fokusuojama į CMOS jutiklį](../../../../../translated_images/lt/cmos-sensor.75f9cd74decb137149a4c9ea825251a4549497d67c0ae2776159e6102bb53aa9.png)
 
 Dauguma kameros jutiklių naudoja vaizdo jutiklius, kuriuose kiekvienas pikselis yra fotodiodas. Objektyvas fokusuojasi į vaizdo jutiklį, o tūkstančiai ar milijonai fotodiodų aptinka šviesą, krentančią ant kiekvieno iš jų, ir įrašo tai kaip pikselių duomenis.
 
@@ -83,7 +83,7 @@ Iteracijos publikuojamos iš Custom Vision portalo.
 
 1. Paspauskite **Publish** mygtuką šalia iteracijos.
 
-    ![Publikavimo mygtukas](../../../../../translated_images/custom-vision-publish-button.b7174e1977b0c33b8b72d4e5b1326c779e0af196f3849d09985ee2d7d5493a39.lt.png)
+    ![Publikavimo mygtukas](../../../../../translated_images/lt/custom-vision-publish-button.b7174e1977b0c33b8b72d4e5b1326c779e0af196f3849d09985ee2d7d5493a39.png)
 
 1. *Publish Model* dialoge nustatykite *Prediction resource* į `fruit-quality-detector-prediction` resursą, kurį sukūrėte praeitoje pamokoje. Palikite pavadinimą kaip `Iteration2` ir paspauskite **Publish** mygtuką.
 
@@ -97,7 +97,7 @@ Iteracijos publikuojamos iš Custom Vision portalo.
 
     Taip pat nukopijuokite *Prediction-Key* reikšmę. Tai yra saugus raktas, kurį turite perduoti, kai kviečiate modelį. Tik programos, kurios perduoda šį raktą, gali naudoti modelį, o kitos programos bus atmestos.
 
-    ![Prognozavimo API dialogas, rodantis URL ir raktą](../../../../../translated_images/custom-vision-prediction-key-endpoint.30c569ffd0338864f319911f052d5e9b8c5066cb0800a26dd6f7ff5713130ad8.lt.png)
+    ![Prognozavimo API dialogas, rodantis URL ir raktą](../../../../../translated_images/lt/custom-vision-prediction-key-endpoint.30c569ffd0338864f319911f052d5e9b8c5066cb0800a26dd6f7ff5713130ad8.png)
 
 ✅ Kai nauja iteracija publikuojama, ji turės kitą pavadinimą. Kaip manote, kaip pakeistumėte iteraciją, kurią naudoja IoT įrenginys?
 
@@ -118,7 +118,7 @@ Galbūt pastebėsite, kad rezultatai, kuriuos gaunate naudodami kamerą, prijung
 
 Norint gauti geriausius vaizdų klasifikatoriaus rezultatus, reikia apmokyti modelį naudojant vaizdus, kurie yra kuo panašesni į tuos, kurie naudojami prognozėms. Pavyzdžiui, jei mokymui naudojote telefono kamerą, vaizdo kokybė, ryškumas ir spalvos skirsis nuo kameros, prijungtos prie IoT įrenginio.
 
-![2 bananų nuotraukos: žemos raiškos su prastu apšvietimu iš IoT įrenginio ir aukštos raiškos su geru apšvietimu iš telefono](../../../../../translated_images/banana-picture-compare.174df164dc326a42cf7fb051a7497e6113c620e91552d92ca914220305d47d9a.lt.png)
+![2 bananų nuotraukos: žemos raiškos su prastu apšvietimu iš IoT įrenginio ir aukštos raiškos su geru apšvietimu iš telefono](../../../../../translated_images/lt/banana-picture-compare.174df164dc326a42cf7fb051a7497e6113c620e91552d92ca914220305d47d9a.png)
 
 Aukščiau esančiame paveikslėlyje banano nuotrauka kairėje buvo padaryta naudojant Raspberry Pi kamerą, o dešinėje – naudojant iPhone tą patį bananą toje pačioje vietoje. Pastebimas kokybės skirtumas – iPhone nuotrauka yra ryškesnė, su ryškesnėmis spalvomis ir didesniu kontrastu.
 

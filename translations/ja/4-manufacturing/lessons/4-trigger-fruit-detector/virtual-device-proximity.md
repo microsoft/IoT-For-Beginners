@@ -45,11 +45,11 @@ CounterFitアプリに距離センサーを追加します。
 
     1. **Add**ボタンを選択して距離センサーを作成します。
 
-    ![距離センサーの設定](../../../../../translated_images/counterfit-create-distance-sensor.967c9fb98f27888d95920c9784d004c972490eb71f70397fe13bd70a79a879a3.ja.png)
+    ![距離センサーの設定](../../../../../translated_images/ja/counterfit-create-distance-sensor.967c9fb98f27888d95920c9784d004c972490eb71f70397fe13bd70a79a879a3.png)
 
     距離センサーが作成され、センサーリストに表示されます。
 
-    ![作成された距離センサー](../../../../../translated_images/counterfit-distance-sensor.079eefeeea0b68afc36431ce8fcbe2f09a7e4916ed1cd5cb30e696db53bc18fa.ja.png)
+    ![作成された距離センサー](../../../../../translated_images/ja/counterfit-distance-sensor.079eefeeea0b68afc36431ce8fcbe2f09a7e4916ed1cd5cb30e696db53bc18fa.png)
 
 ## 距離センサーをプログラムする
 

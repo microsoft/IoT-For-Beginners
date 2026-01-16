@@ -27,13 +27,13 @@ Grove GPS jutiklį galima prijungti prie Raspberry Pi.
 
 Prijunkite GPS jutiklį.
 
-![Grove GPS jutiklis](../../../../../translated_images/grove-gps-sensor.247943bf69b03f0d1820ef6ed10c587f9b650e8db55b936851c92412180bd3e2.lt.png)
+![Grove GPS jutiklis](../../../../../translated_images/lt/grove-gps-sensor.247943bf69b03f0d1820ef6ed10c587f9b650e8db55b936851c92412180bd3e2.png)
 
 1. Įstatykite vieną Grove kabelio galą į GPS jutiklio lizdą. Kabelis įsistatys tik viena kryptimi.
 
 1. Išjungę Raspberry Pi, prijunkite kitą Grove kabelio galą prie UART lizdo, pažymėto **UART**, esančio Grove Base hat, prijungto prie Pi. Šis lizdas yra vidurinėje eilėje, šalia SD kortelės lizdo, priešingoje pusėje nei USB prievadai ir eterneto lizdas.
 
-    ![Grove GPS jutiklis prijungtas prie UART lizdo](../../../../../translated_images/pi-gps-sensor.1f99ee2b2f6528915047ec78967bd362e0e4ee0ed594368a3837b9cf9cdaca64.lt.png)
+    ![Grove GPS jutiklis prijungtas prie UART lizdo](../../../../../translated_images/lt/pi-gps-sensor.1f99ee2b2f6528915047ec78967bd362e0e4ee0ed594368a3837b9cf9cdaca64.png)
 
 1. Padėkite GPS jutiklį taip, kad prijungta antena turėtų matomumą į dangų – idealiai šalia atviro lango arba lauke. Antenai lengviau gauti aiškų signalą, kai niekas netrukdo.
 

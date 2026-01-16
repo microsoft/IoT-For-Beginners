@@ -57,7 +57,7 @@ AIアプリの構築で行き詰まったり質問がある場合は、MCPにつ
 
 プロジェクトは食品が農場から食卓に届くまでの流れをカバーしています。農業、物流、製造、小売、消費者というIoTデバイスの一般的な産業領域を扱います。
 
-![イントロ、農業、輸送、加工、小売、料理をカバーする24レッスンのコースマップ](../../translated_images/Roadmap.bb1dec285dda0eda.ja.jpg)
+![イントロ、農業、輸送、加工、小売、料理をカバーする24レッスンのコースマップ](../../translated_images/ja/Roadmap.bb1dec285dda0eda.jpg)
 
 > スケッチノートは [Nitya Narasimhan](https://github.com/nitya) によるものです。画像をクリックすると拡大表示されます。
 

@@ -25,13 +25,13 @@ ReSpeaker 2-Mics Pi HAT을 마이크로폰으로 사용하는 경우, 이 HAT에
 
 #### 작업 - 버튼 연결하기
 
-![Grove 버튼](../../../../../translated_images/grove-button.a70cfbb809a8563681003250cf5b06d68cdcc68624f9e2f493d5a534ae2da1e5.ko.png)
+![Grove 버튼](../../../../../translated_images/ko/grove-button.a70cfbb809a8563681003250cf5b06d68cdcc68624f9e2f493d5a534ae2da1e5.png)
 
 1. Grove 케이블의 한쪽 끝을 버튼 모듈의 소켓에 삽입하세요. 케이블은 한 방향으로만 들어갑니다.
 
 1. Raspberry Pi의 전원을 끈 상태에서, Grove 케이블의 다른 쪽 끝을 Pi에 부착된 Grove 베이스 HAT의 **D5**로 표시된 디지털 소켓에 연결하세요. 이 소켓은 GPIO 핀 옆에 있는 소켓 줄에서 왼쪽에서 두 번째에 위치합니다.
 
-![D5 소켓에 연결된 Grove 버튼](../../../../../translated_images/pi-button.c7a1a4f55943341ce1baf1057658e9a205804d4131d258e820c93f951df0abf3.ko.png)
+![D5 소켓에 연결된 Grove 버튼](../../../../../translated_images/ko/pi-button.c7a1a4f55943341ce1baf1057658e9a205804d4131d258e820c93f951df0abf3.png)
 
 ## 오디오 캡처
 

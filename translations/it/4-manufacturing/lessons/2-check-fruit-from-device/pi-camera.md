@@ -25,7 +25,7 @@ La fotocamera può essere collegata al Raspberry Pi utilizzando un cavo a nastro
 
 ### Attività - collegare la fotocamera
 
-![Una fotocamera Raspberry Pi](../../../../../translated_images/pi-camera-module.4278753c31bd6e757aa2b858be97d72049f71616278cefe4fb5abb485b40a078.it.png)
+![Una fotocamera Raspberry Pi](../../../../../translated_images/it/pi-camera-module.4278753c31bd6e757aa2b858be97d72049f71616278cefe4fb5abb485b40a078.png)
 
 1. Spegni il Raspberry Pi.
 
@@ -33,17 +33,17 @@ La fotocamera può essere collegata al Raspberry Pi utilizzando un cavo a nastro
 
     Puoi trovare un'animazione che mostra come aprire la clip e inserire il cavo nella [documentazione introduttiva del modulo fotocamera Raspberry Pi](https://projects.raspberrypi.org/en/projects/getting-started-with-picamera/2).
 
-    ![Il cavo a nastro inserito nel modulo fotocamera](../../../../../translated_images/pi-camera-ribbon-cable.0bf82acd251611c21ac616f082849413e2b322a261d0e4f8fec344248083b07e.it.png)
+    ![Il cavo a nastro inserito nel modulo fotocamera](../../../../../translated_images/it/pi-camera-ribbon-cable.0bf82acd251611c21ac616f082849413e2b322a261d0e4f8fec344248083b07e.png)
 
 1. Rimuovi il Grove Base Hat dal Raspberry Pi.
 
 1. Fai passare il cavo a nastro attraverso lo slot per la fotocamera nel Grove Base Hat. Assicurati che il lato blu del cavo sia rivolto verso le porte analogiche etichettate **A0**, **A1**, ecc.
 
-    ![Il cavo a nastro che passa attraverso il Grove Base Hat](../../../../../translated_images/grove-base-hat-ribbon-cable.501fed202fcf73b11b2b68f6d246189f7d15d3e4423c572ddee79d77b4632b47.it.png)
+    ![Il cavo a nastro che passa attraverso il Grove Base Hat](../../../../../translated_images/it/grove-base-hat-ribbon-cable.501fed202fcf73b11b2b68f6d246189f7d15d3e4423c572ddee79d77b4632b47.png)
 
 1. Inserisci il cavo a nastro nella porta della fotocamera sul Raspberry Pi. Ancora una volta, solleva la clip di plastica nera, inserisci il cavo, quindi spingi la clip per fissarlo. Il lato blu del cavo dovrebbe essere rivolto verso le porte USB ed Ethernet.
 
-    ![Il cavo a nastro collegato alla presa della fotocamera sul Raspberry Pi](../../../../../translated_images/pi-camera-socket-ribbon-cable.a18309920b11800911082ed7aa6fb28e6d9be3a022e4079ff990016cae3fca10.it.png)
+    ![Il cavo a nastro collegato alla presa della fotocamera sul Raspberry Pi](../../../../../translated_images/it/pi-camera-socket-ribbon-cable.a18309920b11800911082ed7aa6fb28e6d9be3a022e4079ff990016cae3fca10.png)
 
 1. Rimonta il Grove Base Hat.
 
@@ -110,7 +110,7 @@ Programma il dispositivo.
 
     La riga `camera.rotation = 0` imposta la rotazione dell'immagine. Il cavo a nastro entra nella parte inferiore della fotocamera, ma se la fotocamera è stata ruotata per puntare meglio verso l'oggetto da classificare, puoi modificare questa riga con il numero di gradi di rotazione.
 
-    ![La fotocamera sospesa sopra una lattina](../../../../../translated_images/pi-camera-upside-down.5376961ba31459883362124152ad6b823d5ac5fc14e85f317e22903bd681c2b6.it.png)
+    ![La fotocamera sospesa sopra una lattina](../../../../../translated_images/it/pi-camera-upside-down.5376961ba31459883362124152ad6b823d5ac5fc14e85f317e22903bd681c2b6.png)
 
     Ad esempio, se sospendi il cavo a nastro sopra qualcosa in modo che si trovi nella parte superiore della fotocamera, imposta la rotazione a 180:
 

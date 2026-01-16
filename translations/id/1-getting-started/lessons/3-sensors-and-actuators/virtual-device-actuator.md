@@ -45,11 +45,11 @@ Tambahkan LED ke aplikasi CounterFit.
 
     1. Pilih tombol **Add** untuk membuat LED pada Pin 5.
 
-    ![Pengaturan LED](../../../../../translated_images/counterfit-create-led.ba9db1c9b8c622a635d6dfae5cdc4e70c2b250635bd4f0601c6cf0bd22b7ba46.id.png)
+    ![Pengaturan LED](../../../../../translated_images/id/counterfit-create-led.ba9db1c9b8c622a635d6dfae5cdc4e70c2b250635bd4f0601c6cf0bd22b7ba46.png)
 
     LED akan dibuat dan muncul di daftar aktuator.
 
-    ![LED yang telah dibuat](../../../../../translated_images/counterfit-led.c0ab02de6d256ad84d9bad4d67a7faa709f0ea83e410cfe9b5561ef0cef30b1c.id.png)
+    ![LED yang telah dibuat](../../../../../translated_images/id/counterfit-led.c0ab02de6d256ad84d9bad4d67a7faa709f0ea83e410cfe9b5561ef0cef30b1c.png)
 
     Setelah LED dibuat, Anda dapat mengubah warnanya menggunakan pemilih *Color*. Pilih tombol **Set** untuk mengubah warna setelah Anda memilihnya.
 

@@ -43,7 +43,7 @@ A mikrofont és a hangszórókat csatlakoztatni és konfigurálni kell.
 
 1. Ha a ReSpeaker 2-Mics Pi HAT-et használod, eltávolíthatod a Grove alaplapot, majd helyére illesztheted a ReSpeaker HAT-et.
 
-    ![Egy Raspberry Pi ReSpeaker HAT-tel](../../../../../translated_images/pi-respeaker-hat.f00fabe7dd039a93e2e0aa0fc946c9af0c6a9eb17c32fa1ca097fb4e384f69f0.hu.png)
+    ![Egy Raspberry Pi ReSpeaker HAT-tel](../../../../../translated_images/hu/pi-respeaker-hat.f00fabe7dd039a93e2e0aa0fc946c9af0c6a9eb17c32fa1ca097fb4e384f69f0.png)
 
     Később szükséged lesz egy Grove gombra ebben a leckében, de ez a HAT már tartalmaz egy beépített gombot, így a Grove alaplap nem szükséges.
 

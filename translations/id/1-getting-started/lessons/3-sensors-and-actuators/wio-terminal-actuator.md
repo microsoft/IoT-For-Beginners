@@ -35,7 +35,7 @@ Grove LED hadir sebagai modul dengan beberapa pilihan LED, memungkinkan Anda mem
 
 Hubungkan LED.
 
-![Sebuah Grove LED](../../../../../translated_images/grove-led.6c853be93f473cf2c439cfc74bb1064732b22251a83cedf66e62f783f9cc1a79.id.png)
+![Sebuah Grove LED](../../../../../translated_images/id/grove-led.6c853be93f473cf2c439cfc74bb1064732b22251a83cedf66e62f783f9cc1a79.png)
 
 1. Pilih LED favorit Anda dan masukkan kaki-kakinya ke dalam dua lubang pada modul LED.
 
@@ -51,7 +51,7 @@ Hubungkan LED.
 
     > 💁 Soket Grove di sisi kanan dapat digunakan dengan sensor dan aktuator analog atau digital. Soket di sisi kiri hanya untuk sensor dan aktuator digital. C akan dibahas dalam pelajaran berikutnya.
 
-![Grove LED terhubung ke soket kanan](../../../../../translated_images/wio-led.265a1897e72d7f21.id.png)
+![Grove LED terhubung ke soket kanan](../../../../../translated_images/id/wio-led.265a1897e72d7f21.png)
 
 ## Memprogram Lampu Malam
 

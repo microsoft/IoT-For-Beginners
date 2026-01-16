@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Paleidžiame vaisių kokybės aptikimą iš jutiklio
 
-![Šios pamokos apžvalga sketchnote formatu](../../../../../translated_images/lesson-18.92c32ed1d354caa5a54baa4032cf0b172d4655e8e326ad5d46c558a0def15365.lt.jpg)
+![Šios pamokos apžvalga sketchnote formatu](../../../../../translated_images/lt/lesson-18.92c32ed1d354caa5a54baa4032cf0b172d4655e8e326ad5d46c558a0def15365.jpg)
 
 > Sketchnote sukūrė [Nitya Narasimhan](https://github.com/nitya). Spustelėkite paveikslėlį, kad pamatytumėte didesnę versiją.
 
@@ -48,7 +48,7 @@ IoT aplikacijas galima apibūdinti kaip *daiktus* (įrenginius), kurie siunčia 
 
 ### IoT architektūros pavyzdys
 
-![IoT architektūros pavyzdys](../../../../../translated_images/iot-reference-architecture.2278b98b55c6d4e89bde18eada3688d893861d43507641804dd2f9d3079cfaa0.lt.png)
+![IoT architektūros pavyzdys](../../../../../translated_images/lt/iot-reference-architecture.2278b98b55c6d4e89bde18eada3688d893861d43507641804dd2f9d3079cfaa0.png)
 
 Aukščiau pateiktame paveikslėlyje parodyta IoT architektūros pavyzdys.
 
@@ -58,7 +58,7 @@ Aukščiau pateiktame paveikslėlyje parodyta IoT architektūros pavyzdys.
 * **Įžvalgos** gaunamos iš serverless aplikacijų arba analizuojant saugomus duomenis.
 * **Veiksmai** gali būti komandos, siunčiamos į įrenginius, arba duomenų vizualizavimas, leidžiantis žmonėms priimti sprendimus.
 
-![IoT architektūros pavyzdys su Azure](../../../../../translated_images/iot-reference-architecture-azure.0b8d2161af924cb18ae48a8558a19541cca47f27264851b5b7e56d7b8bb372ac.lt.png)
+![IoT architektūros pavyzdys su Azure](../../../../../translated_images/lt/iot-reference-architecture-azure.0b8d2161af924cb18ae48a8558a19541cca47f27264851b5b7e56d7b8bb372ac.png)
 
 Aukščiau pateiktame paveikslėlyje parodyti kai kurie komponentai ir paslaugos, aptarti šiose pamokose, ir kaip jie susiję IoT architektūros pavyzdyje.
 
@@ -98,7 +98,7 @@ Jums reikia sukurti sistemą, kurioje vaisiai būtų aptikti, kai jie atvyksta a
 
 ### Jūsų aplikacijos prototipas
 
-![IoT architektūros pavyzdys vaisių kokybės tikrinimui](../../../../../translated_images/iot-reference-architecture-fruit-quality.cc705f121c3b6fa71c800d9630935ac34bc08223a04601e35f41d5e9b5dd5207.lt.png)
+![IoT architektūros pavyzdys vaisių kokybės tikrinimui](../../../../../translated_images/lt/iot-reference-architecture-fruit-quality.cc705f121c3b6fa71c800d9630935ac34bc08223a04601e35f41d5e9b5dd5207.png)
 
 Aukščiau pateiktame paveikslėlyje parodyta šios prototipinės aplikacijos architektūra.
 
@@ -115,7 +115,7 @@ Prototipui įgyvendinsite viską viename įrenginyje. Jei naudojate mikrovaldikl
 
 IoT įrenginiui reikia tam tikro paleidimo mechanizmo, kuris nurodytų, kada vaisius yra pasiruošęs klasifikacijai. Vienas iš paleidimo mechanizmų galėtų būti vaisiaus vietos ant konvejerio juostos matavimas naudojant atstumo jutiklį.
 
-![Artumo jutikliai siunčia lazerio spindulius į objektus, tokius kaip bananai, ir matuoja laiką, per kurį spindulys atsispindi](../../../../../translated_images/proximity-sensor.f5cd752c77fb62fe.lt.png)
+![Artumo jutikliai siunčia lazerio spindulius į objektus, tokius kaip bananai, ir matuoja laiką, per kurį spindulys atsispindi](../../../../../translated_images/lt/proximity-sensor.f5cd752c77fb62fe.png)
 
 Artumo jutikliai gali būti naudojami atstumui nuo jutiklio iki objekto matavimui. Jie paprastai perduoda elektromagnetinės spinduliuotės, tokios kaip lazerio spindulys ar infraraudonųjų spindulių šviesa, pluoštą, tada aptinka spinduliuotę, atsispindėjusią nuo objekto. Laikas tarp lazerio spindulio siuntimo ir signalo atsispindėjimo gali būti naudojamas atstumui iki jutiklio apskaičiuoti.
 
@@ -133,7 +133,7 @@ Atlikite atitinkamą vadovą, kad naudotumėte artumo jutiklį objekto aptikimui
 
 Prototipinis vaisių detektorius turi kelis komponentus, kurie tarpusavyje komunikuoja.
 
-![Komponentai, kurie tarpusavyje komunikuoja](../../../../../translated_images/fruit-quality-detector-message-flow.adf2a65da8fd8741ac7af11361574de89adc126785d67606bb4d2ec00467e380.lt.png)
+![Komponentai, kurie tarpusavyje komunikuoja](../../../../../translated_images/lt/fruit-quality-detector-message-flow.adf2a65da8fd8741ac7af11361574de89adc126785d67606bb4d2ec00467e380.png)
 
 * Artumo jutiklis, matuojantis atstumą iki vaisiaus ir siunčiantis tai į IoT Hub
 * Komanda, valdanti kamerą, siunčiama iš IoT Hub į kamerą turintį įrenginį

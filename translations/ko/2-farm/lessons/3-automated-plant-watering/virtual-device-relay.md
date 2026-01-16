@@ -37,11 +37,11 @@ CounterFit 앱에 릴레이를 추가하세요.
 
     1. **Add** 버튼을 선택하여 Pin 5에 릴레이를 생성합니다.
 
-    ![릴레이 설정](../../../../../translated_images/counterfit-create-relay.fa7c40fd0f2f6afc33b35ea94fcb235085be4861e14e3fe6b9b7bcfc82d1c888.ko.png)
+    ![릴레이 설정](../../../../../translated_images/ko/counterfit-create-relay.fa7c40fd0f2f6afc33b35ea94fcb235085be4861e14e3fe6b9b7bcfc82d1c888.png)
 
     릴레이가 생성되어 액추에이터 목록에 나타납니다.
 
-    ![생성된 릴레이](../../../../../translated_images/counterfit-relay.bbf74c1dbdc8b9acd983367fcbd06703a402aefef6af54ddb28e11307ba8a12c.ko.png)
+    ![생성된 릴레이](../../../../../translated_images/ko/counterfit-relay.bbf74c1dbdc8b9acd983367fcbd06703a402aefef6af54ddb28e11307ba8a12c.png)
 
 ## 릴레이 프로그래밍하기
 

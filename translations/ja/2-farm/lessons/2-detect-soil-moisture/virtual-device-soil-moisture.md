@@ -43,11 +43,11 @@ CounterFitアプリに土壌水分センサーを追加します。
 
     1. **Add**ボタンを選択して、Pin 0に*Soil Moisture*センサーを作成します。
 
-    ![土壌水分センサーの設定](../../../../../translated_images/counterfit-create-soil-moisture-sensor.35266135a5e0ae68b29a684d7db0d2933a8098b2307d197f7c71577b724603aa.ja.png)
+    ![土壌水分センサーの設定](../../../../../translated_images/ja/counterfit-create-soil-moisture-sensor.35266135a5e0ae68b29a684d7db0d2933a8098b2307d197f7c71577b724603aa.png)
 
     土壌水分センサーが作成され、センサーリストに表示されます。
 
-    ![作成された土壌水分センサー](../../../../../translated_images/counterfit-soil-moisture-sensor.81742b2de0e9de60a3b3b9a2ff8ecc686d428eb6d71820f27a693be26e5aceee.ja.png)
+    ![作成された土壌水分センサー](../../../../../translated_images/ja/counterfit-soil-moisture-sensor.81742b2de0e9de60a3b3b9a2ff8ecc686d428eb6d71820f27a693be26e5aceee.png)
 
 ## 土壌水分センサーアプリをプログラムする
 

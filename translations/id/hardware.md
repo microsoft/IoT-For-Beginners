@@ -21,7 +21,7 @@ Anda juga akan membutuhkan beberapa item non-teknis, seperti tanah atau tanaman 
 
 ## Beli Kit
 
-![Logo Seeed Studios](../../translated_images/seeed-logo.74732b6b482b6e8e.id.png)
+![Logo Seeed Studios](../../translated_images/id/seeed-logo.74732b6b482b6e8e.png)
 
 Seeed Studios dengan sangat baik telah menyediakan semua perangkat keras dalam bentuk kit yang mudah dibeli:
 
@@ -29,13 +29,13 @@ Seeed Studios dengan sangat baik telah menyediakan semua perangkat keras dalam b
 
 **[IoT untuk pemula dengan Seeed dan Microsoft - Wio Terminal Starter Kit](https://www.seeedstudio.com/IoT-for-beginners-with-Seeed-and-Microsoft-Wio-Terminal-Starter-Kit-p-5006.html)**
 
-[![Kit perangkat keras Wio Terminal](../../translated_images/wio-hardware-kit.4c70c48b85e4283a.id.png)](https://www.seeedstudio.com/IoT-for-beginners-with-Seeed-and-Microsoft-Wio-Terminal-Starter-Kit-p-5006.html)
+[![Kit perangkat keras Wio Terminal](../../translated_images/id/wio-hardware-kit.4c70c48b85e4283a.png)](https://www.seeedstudio.com/IoT-for-beginners-with-Seeed-and-Microsoft-Wio-Terminal-Starter-Kit-p-5006.html)
 
 ### Raspberry Pi
 
 **[IoT untuk pemula dengan Seeed dan Microsoft - Raspberry Pi 4 Starter Kit](https://www.seeedstudio.com/IoT-for-beginners-with-Seeed-and-Microsoft-Raspberry-Pi-Starter-Kit-p-5004.html)**
 
-[![Kit perangkat keras Raspberry Pi Terminal](../../translated_images/pi-hardware-kit.26dbadaedb7dd44c73b0131d5d68ea29472ed0a9744f90d5866c6d82f2d16380.id.png)](https://www.seeedstudio.com/IoT-for-beginners-with-Seeed-and-Microsoft-Raspberry-Pi-Starter-Kit-p-5004.html)
+[![Kit perangkat keras Raspberry Pi Terminal](../../translated_images/id/pi-hardware-kit.26dbadaedb7dd44c73b0131d5d68ea29472ed0a9744f90d5866c6d82f2d16380.png)](https://www.seeedstudio.com/IoT-for-beginners-with-Seeed-and-Microsoft-Raspberry-Pi-Starter-Kit-p-5004.html)
 
 ## Arduino
 

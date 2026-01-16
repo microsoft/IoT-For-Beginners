@@ -47,11 +47,11 @@ Pridėkite GPS jutiklį prie CounterFit programos.
 
     1. Pasirinkite mygtuką **Add**, kad sukurtumėte GPS jutiklį prievade `/dev/ttyAMA0`.
 
-    ![GPS jutiklio nustatymai](../../../../../translated_images/counterfit-create-gps-sensor.6385dc9357d85ad1d47b4abb2525e7651fd498917d25eefc5a72feab09eedc70.lt.png)
+    ![GPS jutiklio nustatymai](../../../../../translated_images/lt/counterfit-create-gps-sensor.6385dc9357d85ad1d47b4abb2525e7651fd498917d25eefc5a72feab09eedc70.png)
 
     GPS jutiklis bus sukurtas ir pasirodys jutiklių sąraše.
 
-    ![Sukurtas GPS jutiklis](../../../../../translated_images/counterfit-gps-sensor.3fbb15af0a5367566f2f11324ef5a6f30861cdf2b497071a5e002b7aa473550e.lt.png)
+    ![Sukurtas GPS jutiklis](../../../../../translated_images/lt/counterfit-gps-sensor.3fbb15af0a5367566f2f11324ef5a6f30861cdf2b497071a5e002b7aa473550e.png)
 
 ## Užprogramuokite GPS jutiklį
 
@@ -111,17 +111,17 @@ Užprogramuokite GPS jutiklio programą.
 
     * Nustatykite **Source** kaip `Lat/Lon` ir įveskite konkrečią platumą, ilgumą bei palydovų skaičių, naudojamą GPS fiksavimui. Ši reikšmė bus siunčiama tik vieną kartą, todėl pažymėkite **Repeat**, kad duomenys būtų kartojami kas sekundę.
 
-      ![GPS jutiklis su pasirinktu lat lon](../../../../../translated_images/counterfit-gps-sensor-latlon.008c867d75464fbe7f84107cc57040df565ac07cb57d2f21db37d087d470197d.lt.png)
+      ![GPS jutiklis su pasirinktu lat lon](../../../../../translated_images/lt/counterfit-gps-sensor-latlon.008c867d75464fbe7f84107cc57040df565ac07cb57d2f21db37d087d470197d.png)
 
     * Nustatykite **Source** kaip `NMEA` ir pridėkite keletą NMEA eilučių į teksto laukelį. Visos šios reikšmės bus siunčiamos, su 1 sekundės pertrauka prieš kiekvieną naują GGA (vietos fiksavimo) eilutę.
 
-      ![GPS jutiklis su nustatytomis NMEA eilutėmis](../../../../../translated_images/counterfit-gps-sensor-nmea.c62eea442171e17e19528b051b104cfcecdc9cd18db7bc72920f29821ae63f73.lt.png)
+      ![GPS jutiklis su nustatytomis NMEA eilutėmis](../../../../../translated_images/lt/counterfit-gps-sensor-nmea.c62eea442171e17e19528b051b104cfcecdc9cd18db7bc72920f29821ae63f73.png)
 
       Galite naudoti tokius įrankius kaip [nmeagen.org](https://www.nmeagen.org), kad sugeneruotumėte šias eilutes, piešdami žemėlapyje. Šios reikšmės bus siunčiamos tik vieną kartą, todėl pažymėkite **Repeat**, kad duomenys būtų kartojami kas sekundę po to, kai viskas bus išsiųsta.
 
     * Nustatykite **Source** kaip GPX failą ir įkelkite GPX failą su maršruto vietomis. GPX failus galite atsisiųsti iš daugelio populiarių žemėlapių ir žygių svetainių, tokių kaip [AllTrails](https://www.alltrails.com/). Šie failai turi kelias GPS vietas kaip maršrutą, o GPS jutiklis grąžins kiekvieną naują vietą kas 1 sekundę.
 
-      ![GPS jutiklis su nustatytu GPX failu](../../../../../translated_images/counterfit-gps-sensor-gpxfile.8310b063ce8a425ccc8ebeec8306aeac5e8e55207f007d52c6e1194432a70cd9.lt.png)
+      ![GPS jutiklis su nustatytu GPX failu](../../../../../translated_images/lt/counterfit-gps-sensor-gpxfile.8310b063ce8a425ccc8ebeec8306aeac5e8e55207f007d52c6e1194432a70cd9.png)
 
       Šios reikšmės bus siunčiamos tik vieną kartą, todėl pažymėkite **Repeat**, kad duomenys būtų kartojami kas sekundę po to, kai viskas bus išsiųsta.
 

@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Perkelkite savo programos logiką į debesį
 
-![Pamokos apžvalga piešinyje](../../../../../translated_images/lesson-9.dfe99c8e891f48e179724520da9f5794392cf9a625079281ccdcbf09bd85e1b6.lt.jpg)
+![Pamokos apžvalga piešinyje](../../../../../translated_images/lt/lesson-9.dfe99c8e891f48e179724520da9f5794392cf9a625079281ccdcbf09bd85e1b6.jpg)
 
 > Piešinys sukurtas [Nitya Narasimhan](https://github.com/nitya). Spustelėkite paveikslėlį, kad pamatytumėte didesnę versiją.
 
@@ -37,11 +37,11 @@ Praeitoje pamokoje išmokote, kaip prijungti savo augalų dirvožemio drėgmės 
 
 Serverless, arba serverless kompiuterija, apima mažų kodo blokų kūrimą, kurie vykdomi debesyje reaguojant į įvairius įvykius. Kai įvykis įvyksta, jūsų kodas vykdomas ir jam perduodami duomenys apie įvykį. Šie įvykiai gali būti įvairūs, įskaitant interneto užklausas, pranešimus eilėje, duomenų pokyčius duomenų bazėje ar pranešimus, kuriuos IoT įrenginiai siunčia IoT paslaugai.
 
-![Įvykiai siunčiami iš IoT paslaugos į serverless paslaugą, visi apdorojami vienu metu kelių funkcijų](../../../../../translated_images/iot-messages-to-serverless.0194da1cc0732bb7d0f823aed3fce54735c6b1ad3bf36089804d8aaefc0a774f.lt.png)
+![Įvykiai siunčiami iš IoT paslaugos į serverless paslaugą, visi apdorojami vienu metu kelių funkcijų](../../../../../translated_images/lt/iot-messages-to-serverless.0194da1cc0732bb7d0f823aed3fce54735c6b1ad3bf36089804d8aaefc0a774f.png)
 
 > 💁 Jei anksčiau naudojote duomenų bazės paleidiklius, galite tai laikyti panašiu dalyku – kodas paleidžiamas įvykus įvykiui, pvz., įterpiant eilutę.
 
-![Kai daug įvykių siunčiama vienu metu, serverless paslauga plečiasi, kad visus juos apdorotų vienu metu](../../../../../translated_images/serverless-scaling.f8c769adf0413fd1.lt.png)
+![Kai daug įvykių siunčiama vienu metu, serverless paslauga plečiasi, kad visus juos apdorotų vienu metu](../../../../../translated_images/lt/serverless-scaling.f8c769adf0413fd1.png)
 
 Jūsų kodas vykdomas tik tada, kai įvyksta įvykis, kitu metu jis nėra aktyvus. Įvykis įvyksta, jūsų kodas įkeliamas ir vykdomas. Tai daro serverless labai masteliniu – jei daug įvykių įvyksta vienu metu, debesų paslaugų teikėjas gali vykdyti jūsų funkciją tiek kartų, kiek reikia, vienu metu, naudodamas turimus serverius. Trūkumas yra tas, kad jei reikia dalintis informacija tarp įvykių, ją reikia išsaugoti kažkur, pvz., duomenų bazėje, o ne laikyti atmintyje.
 
@@ -63,7 +63,7 @@ Kaip IoT kūrėjas, serverless modelis yra idealus. Galite parašyti funkciją, 
 
 Microsoft serverless kompiuterijos paslauga vadinama Azure Functions.
 
-![Azure Functions logotipas](../../../../../translated_images/azure-functions-logo.1cfc8e3204c9c44aaf80fcf406fc8544d80d7f00f8d3e8ed6fed764563e17564.lt.png)
+![Azure Functions logotipas](../../../../../translated_images/lt/azure-functions-logo.1cfc8e3204c9c44aaf80fcf406fc8544d80d7f00f8d3e8ed6fed764563e17564.png)
 
 Trumpas vaizdo įrašas žemiau pateikia Azure Functions apžvalgą.
 
@@ -244,7 +244,7 @@ Azure Functions CLI gali būti naudojamas naujai Functions programai sukurti.
     VS Code. Initialize for optimal use with VS Code?
     ```
 
-    ![Pranešimas](../../../../../translated_images/vscode-azure-functions-init-notification.bd19b49229963edb.lt.png)
+    ![Pranešimas](../../../../../translated_images/lt/vscode-azure-functions-init-notification.bd19b49229963edb.png)
 
     Pasirinkite **Yes** iš šio pranešimo.
 

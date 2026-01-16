@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Geotvoros
 
-![Šios pamokos apžvalga piešiniu](../../../../../translated_images/lesson-14.63980c5150ae3c153e770fb71d044c1845dce79248d86bed9fc525adf3ede73c.lt.jpg)
+![Šios pamokos apžvalga piešiniu](../../../../../translated_images/lt/lesson-14.63980c5150ae3c153e770fb71d044c1845dce79248d86bed9fc525adf3ede73c.jpg)
 
 > Piešinys sukurtas [Nitya Narasimhan](https://github.com/nitya). Spustelėkite paveikslėlį, kad pamatytumėte didesnę versiją.
 
@@ -44,7 +44,7 @@ Per paskutines tris pamokas naudojote IoT technologijas, kad nustatytumėte sunk
 
 Geotvora yra virtuali realaus pasaulio geografinio regiono perimetro riba. Geotvoros gali būti apskritimai, apibrėžti kaip taškas ir spindulys (pavyzdžiui, 100 m pločio apskritimas aplink pastatą), arba daugiakampiai, apimantys tokias zonas kaip mokyklos teritorija, miesto ribos ar universiteto ar biuro kompleksas.
 
-![Geotvorų pavyzdžiai, rodantys apskritiminę geotvorą aplink Microsoft parduotuvę ir daugiakampę geotvorą aplink Microsoft vakarų kampusą](../../../../../translated_images/geofence-examples.172fbc534665769f6e1a1ddcf75e3b25183cd10354c80cc603ba44b635390e1a.lt.png)
+![Geotvorų pavyzdžiai, rodantys apskritiminę geotvorą aplink Microsoft parduotuvę ir daugiakampę geotvorą aplink Microsoft vakarų kampusą](../../../../../translated_images/lt/geofence-examples.172fbc534665769f6e1a1ddcf75e3b25183cd10354c80cc603ba44b635390e1a.png)
 
 > 💁 Galbūt jau naudojote geotvoras, to nežinodami. Jei naudojote iOS priminimų programėlę ar Google Keep, kad nustatytumėte priminimą pagal vietą, jūs naudojote geotvorą. Šios programėlės nustato geotvorą pagal nurodytą vietą ir praneša, kai jūsų telefonas patenka į geotvorą.
 
@@ -110,7 +110,7 @@ Kiekvienas daugiakampio taškas apibrėžiamas kaip ilgumos ir platumos pora mas
 
 Daugiakampio koordinatės masyvas visada turi 1 įrašą daugiau nei daugiakampio taškų skaičius, nes paskutinis įrašas yra toks pat kaip pirmasis, uždarant daugiakampį. Pavyzdžiui, stačiakampiui būtų 5 taškai.
 
-![Stačiakampis su koordinatėmis](../../../../../translated_images/polygon-points.302193da381cb415.lt.png)
+![Stačiakampis su koordinatėmis](../../../../../translated_images/lt/polygon-points.302193da381cb415.png)
 
 Aukščiau esančiame paveikslėlyje yra stačiakampis. Daugiakampio koordinatės prasideda viršutiniame kairiajame kampe 47,-122, tada juda į dešinę iki 47,-121, tada žemyn iki 46,-121, tada į kairę iki 46,-122, tada grįžta į pradinį tašką 47,-122. Tai suteikia daugiakampiui 5 taškus – viršutinis kairysis, viršutinis dešinysis, apatinis dešinysis, apatinis kairysis ir viršutinis kairysis, kad uždarytų daugiakampį.
 
@@ -208,7 +208,7 @@ Kai atliekate šią užklausą, taip pat galite perduoti reikšmę, vadinamą `s
 
 Kai API užklausa grąžina rezultatus, viena iš rezultatų dalių yra `distance`, matuojamas iki artimiausio taško geotvoros krašte. Jei taškas yra už geotvoros, reikšmė bus teigiama, jei viduje – neigiama. Jei ši reikšmė yra mažesnė už `searchBuffer`, grąžinama tikroji reikšmė metrais, kitaip reikšmė bus 999 arba -999. 999 reiškia, kad taškas yra už geotvoros daugiau nei `searchBuffer`, -999 reiškia, kad jis yra geotvoroje daugiau nei `searchBuffer`.
 
-![Geotvora su 50 m paieškos buferiu](../../../../../translated_images/search-buffer-and-distance.e6a79af3898183c7.lt.png)
+![Geotvora su 50 m paieškos buferiu](../../../../../translated_images/lt/search-buffer-and-distance.e6a79af3898183c7.png)
 
 Aukščiau esančiame paveikslėlyje geotvora turi 50 m paieškos buferį.
 
@@ -293,7 +293,7 @@ Kaip prisimenate iš ankstesnių pamokų, IoT Hub leidžia atkurti įvykius, kur
 
 Atsakymas – jis negali! Vietoj to galite apibrėžti kelis atskirus ryšius, kad skaitytumėte įvykius, ir kiekvienas iš jų gali valdyti neperskaitytų pranešimų atkūrimą. Tai vadinama *vartotojų grupėmis*. Kai prisijungiate prie galinio taško, galite nurodyti, prie kurios vartotojų grupės norite prisijungti. Kiekvienas jūsų programos komponentas prisijungs prie skirtingos vartotojų grupės.
 
-![Vienas IoT Hub su 3 vartotojų grupėmis, paskirstančiomis tuos pačius pranešimus 3 skirtingoms funkcijų programoms](../../../../../translated_images/consumer-groups.a3262e26fc27ba2092863678ad57af15c7223416e388a23f330c058cf4358630.lt.png)
+![Vienas IoT Hub su 3 vartotojų grupėmis, paskirstančiomis tuos pačius pranešimus 3 skirtingoms funkcijų programoms](../../../../../translated_images/lt/consumer-groups.a3262e26fc27ba2092863678ad57af15c7223416e388a23f330c058cf4358630.png)
 
 Teoriškai prie kiekvienos vartotojų grupės gali prisijungti iki 5 programų, ir jos visos gaus pranešimus, kai jie atvyks. Geriausia praktika yra leisti tik vienai programai pasiekti kiekvieną vartotojų grupę, kad būtų išvengta pranešimų dubliavimo ir užtikrinta, kad paleidus iš naujo visi eilėje esantys pranešimai būtų tinkamai apdoroti. Pavyzdžiui, jei paleistumėte savo „Functions“ programą vietoje ir debesyje vienu metu, abi apdorotų pranešimus, todėl saugykloje būtų saugomi dubliuoti blobai.
 

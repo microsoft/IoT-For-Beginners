@@ -25,7 +25,7 @@ A kamerát egy szalagkábel segítségével lehet csatlakoztatni a Raspberry Pi-
 
 ### Feladat - a kamera csatlakoztatása
 
-![Egy Raspberry Pi kamera](../../../../../translated_images/pi-camera-module.4278753c31bd6e757aa2b858be97d72049f71616278cefe4fb5abb485b40a078.hu.png)
+![Egy Raspberry Pi kamera](../../../../../translated_images/hu/pi-camera-module.4278753c31bd6e757aa2b858be97d72049f71616278cefe4fb5abb485b40a078.png)
 
 1. Kapcsolja ki a Pi-t.
 
@@ -33,17 +33,17 @@ A kamerát egy szalagkábel segítségével lehet csatlakoztatni a Raspberry Pi-
 
     Az animáció, amely bemutatja, hogyan kell kinyitni a klipet és behelyezni a kábelt, megtalálható a [Raspberry Pi Getting Started with the Camera module dokumentációban](https://projects.raspberrypi.org/en/projects/getting-started-with-picamera/2).
 
-    ![A szalagkábel behelyezve a kamera modulba](../../../../../translated_images/pi-camera-ribbon-cable.0bf82acd251611c21ac616f082849413e2b322a261d0e4f8fec344248083b07e.hu.png)
+    ![A szalagkábel behelyezve a kamera modulba](../../../../../translated_images/hu/pi-camera-ribbon-cable.0bf82acd251611c21ac616f082849413e2b322a261d0e4f8fec344248083b07e.png)
 
 1. Távolítsa el a Grove Base Hat-et a Pi-ről.
 
 1. Vezesse át a szalagkábelt a Grove Base Hat kamera nyílásán. Ügyeljen arra, hogy a kábel kék oldala az **A0**, **A1** stb. analóg portok felé nézzen.
 
-    ![A szalagkábel áthalad a Grove Base Hat-en](../../../../../translated_images/grove-base-hat-ribbon-cable.501fed202fcf73b11b2b68f6d246189f7d15d3e4423c572ddee79d77b4632b47.hu.png)
+    ![A szalagkábel áthalad a Grove Base Hat-en](../../../../../translated_images/hu/grove-base-hat-ribbon-cable.501fed202fcf73b11b2b68f6d246189f7d15d3e4423c572ddee79d77b4632b47.png)
 
 1. Helyezze be a szalagkábelt a Pi kamera portjába. Ismét húzza fel a fekete műanyag klipet, helyezze be a kábelt, majd nyomja vissza a klipet. A kábel kék oldala az USB és ethernet portok felé nézzen.
 
-    ![A szalagkábel csatlakoztatva a Pi kamera foglalatához](../../../../../translated_images/pi-camera-socket-ribbon-cable.a18309920b11800911082ed7aa6fb28e6d9be3a022e4079ff990016cae3fca10.hu.png)
+    ![A szalagkábel csatlakoztatva a Pi kamera foglalatához](../../../../../translated_images/hu/pi-camera-socket-ribbon-cable.a18309920b11800911082ed7aa6fb28e6d9be3a022e4079ff990016cae3fca10.png)
 
 1. Szerelje vissza a Grove Base Hat-et.
 
@@ -110,7 +110,7 @@ Programozza az eszközt.
 
     A `camera.rotation = 0` sor beállítja a kép forgatását. A szalagkábel a kamera aljába csatlakozik, de ha a kamerát elforgatta, hogy könnyebben ráirányítsa a kívánt tárgyra, akkor ezt a sort a forgatás szögének megfelelően módosíthatja.
 
-    ![A kamera lefelé lóg egy üdítős doboz fölött](../../../../../translated_images/pi-camera-upside-down.5376961ba31459883362124152ad6b823d5ac5fc14e85f317e22903bd681c2b6.hu.png)
+    ![A kamera lefelé lóg egy üdítős doboz fölött](../../../../../translated_images/hu/pi-camera-upside-down.5376961ba31459883362124152ad6b823d5ac5fc14e85f317e22903bd681c2b6.png)
 
     Például, ha a szalagkábelt úgy helyezi el, hogy a kamera tetején legyen, állítsa a forgatást 180 fokra:
 

@@ -47,11 +47,11 @@ CO_OP_TRANSLATOR_METADATA:
 
     1. 點擊 **Add** 按鈕，在 Pin 5 上創建濕度感測器。
 
-    ![濕度感測器設置](../../../../../translated_images/counterfit-create-humidity-sensor.2750e27b6f30e09cf4e22101defd5252710717620816ab41ba688f91f757c49a.mo.png)
+    ![濕度感測器設置](../../../../../translated_images/mo/counterfit-create-humidity-sensor.2750e27b6f30e09cf4e22101defd5252710717620816ab41ba688f91f757c49a.png)
 
     濕度感測器將被創建並顯示在感測器列表中。
 
-    ![已創建的濕度感測器](../../../../../translated_images/counterfit-humidity-sensor.7b12f7f339e430cb26c8211d2dba4ef75261b353a01da0932698b5bebd693f27.mo.png)
+    ![已創建的濕度感測器](../../../../../translated_images/mo/counterfit-humidity-sensor.7b12f7f339e430cb26c8211d2dba4ef75261b353a01da0932698b5bebd693f27.png)
 
 1. 創建一個溫度感測器：
 
@@ -63,11 +63,11 @@ CO_OP_TRANSLATOR_METADATA:
 
     1. 點擊 **Add** 按鈕，在 Pin 6 上創建溫度感測器。
 
-    ![溫度感測器設置](../../../../../translated_images/counterfit-create-temperature-sensor.199350ed34f7343d79dccbe95eaf6c11d2121f03d1c35ab9613b330c23f39b29.mo.png)
+    ![溫度感測器設置](../../../../../translated_images/mo/counterfit-create-temperature-sensor.199350ed34f7343d79dccbe95eaf6c11d2121f03d1c35ab9613b330c23f39b29.png)
 
     溫度感測器將被創建並顯示在感測器列表中。
 
-    ![已創建的溫度感測器](../../../../../translated_images/counterfit-temperature-sensor.f0560236c96a9016bafce7f6f792476fe3367bc6941a1f7d5811d144d4bcbfff.mo.png)
+    ![已創建的溫度感測器](../../../../../translated_images/mo/counterfit-temperature-sensor.f0560236c96a9016bafce7f6f792476fe3367bc6941a1f7d5811d144d4bcbfff.png)
 
 ## 編寫溫度感測器應用程式
 

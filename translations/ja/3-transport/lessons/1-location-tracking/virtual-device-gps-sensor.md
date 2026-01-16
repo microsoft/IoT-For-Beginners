@@ -47,11 +47,11 @@ CounterFitアプリにGPSセンサーを追加します。
 
     1. **Add**ボタンを選択して、ポート`/dev/ttyAMA0`にGPSセンサーを作成します。
 
-    ![GPSセンサーの設定](../../../../../translated_images/counterfit-create-gps-sensor.6385dc9357d85ad1d47b4abb2525e7651fd498917d25eefc5a72feab09eedc70.ja.png)
+    ![GPSセンサーの設定](../../../../../translated_images/ja/counterfit-create-gps-sensor.6385dc9357d85ad1d47b4abb2525e7651fd498917d25eefc5a72feab09eedc70.png)
 
     GPSセンサーが作成され、センサーリストに表示されます。
 
-    ![作成されたGPSセンサー](../../../../../translated_images/counterfit-gps-sensor.3fbb15af0a5367566f2f11324ef5a6f30861cdf2b497071a5e002b7aa473550e.ja.png)
+    ![作成されたGPSセンサー](../../../../../translated_images/ja/counterfit-gps-sensor.3fbb15af0a5367566f2f11324ef5a6f30861cdf2b497071a5e002b7aa473550e.png)
 
 ## GPSセンサーをプログラムする
 
@@ -111,17 +111,17 @@ GPSセンサーアプリをプログラムします。
 
     * **Source**を`Lat/Lon`に設定し、明示的な緯度、経度、およびGPS固定に使用される衛星の数を設定します。この値は一度だけ送信されるため、データを毎秒繰り返すには**Repeat**ボックスをチェックします。
 
-      ![緯度経度が選択されたGPSセンサー](../../../../../translated_images/counterfit-gps-sensor-latlon.008c867d75464fbe7f84107cc57040df565ac07cb57d2f21db37d087d470197d.ja.png)
+      ![緯度経度が選択されたGPSセンサー](../../../../../translated_images/ja/counterfit-gps-sensor-latlon.008c867d75464fbe7f84107cc57040df565ac07cb57d2f21db37d087d470197d.png)
 
     * **Source**を`NMEA`に設定し、NMEA文をテキストボックスに追加します。これらの値はすべて送信され、各新しいGGA（位置固定）文が読み取られる前に1秒の遅延があります。
 
-      ![NMEA文が設定されたGPSセンサー](../../../../../translated_images/counterfit-gps-sensor-nmea.c62eea442171e17e19528b051b104cfcecdc9cd18db7bc72920f29821ae63f73.ja.png)
+      ![NMEA文が設定されたGPSセンサー](../../../../../translated_images/ja/counterfit-gps-sensor-nmea.c62eea442171e17e19528b051b104cfcecdc9cd18db7bc72920f29821ae63f73.png)
 
       [nmeagen.org](https://www.nmeagen.org)のようなツールを使用して、地図上で描画してこれらの文を生成できます。これらの値は一度だけ送信されるため、すべて送信された後に1秒間隔でデータを繰り返すには**Repeat**ボックスをチェックします。
 
     * **Source**をGPXファイルに設定し、トラック位置を含むGPXファイルをアップロードします。[AllTrails](https://www.alltrails.com/)のような人気のある地図やハイキングサイトからGPXファイルをダウンロードできます。これらのファイルにはトレイルとして複数のGPS位置が含まれており、GPSセンサーは1秒間隔で各新しい位置を返します。
 
-      ![GPXファイルが設定されたGPSセンサー](../../../../../translated_images/counterfit-gps-sensor-gpxfile.8310b063ce8a425ccc8ebeec8306aeac5e8e55207f007d52c6e1194432a70cd9.ja.png)
+      ![GPXファイルが設定されたGPSセンサー](../../../../../translated_images/ja/counterfit-gps-sensor-gpxfile.8310b063ce8a425ccc8ebeec8306aeac5e8e55207f007d52c6e1194432a70cd9.png)
 
       これらの値は一度だけ送信されるため、すべて送信された後に1秒間隔でデータを繰り返すには**Repeat**ボックスをチェックします。
 

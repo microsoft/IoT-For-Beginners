@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Pelacakan Lokasi
 
-![Gambaran sketchnote dari pelajaran ini](../../../../../translated_images/lesson-11.9fddbac4b664c6d50ab7ac9bb32f1fc3f945f03760e72f7f43938073762fb017.id.jpg)
+![Gambaran sketchnote dari pelajaran ini](../../../../../translated_images/id/lesson-11.9fddbac4b664c6d50ab7ac9bb32f1fc3f945f03760e72f7f43938073762fb017.jpg)
 
 > Sketchnote oleh [Nitya Narasimhan](https://github.com/nitya). Klik gambar untuk versi yang lebih besar.
 
@@ -72,13 +72,13 @@ Bumi adalah sebuah bola - lingkaran tiga dimensi. Karena itu, titik-titik didefi
 
 > 💁 Tidak ada yang benar-benar tahu alasan asli mengapa lingkaran dibagi menjadi 360 derajat. Halaman [derajat (sudut) di Wikipedia](https://wikipedia.org/wiki/Degree_(angle)) mencakup beberapa kemungkinan alasannya.
 
-![Garis lintang dari 90° di Kutub Utara, 45° di tengah antara Kutub Utara dan ekuator, 0° di ekuator, -45° di tengah antara ekuator dan Kutub Selatan, dan -90° di Kutub Selatan](../../../../../translated_images/latitude-lines.11d8d91dfb2014a57437272d7db7fd6607243098e8685f06e0c5f1ec984cb7eb.id.png)
+![Garis lintang dari 90° di Kutub Utara, 45° di tengah antara Kutub Utara dan ekuator, 0° di ekuator, -45° di tengah antara ekuator dan Kutub Selatan, dan -90° di Kutub Selatan](../../../../../translated_images/id/latitude-lines.11d8d91dfb2014a57437272d7db7fd6607243098e8685f06e0c5f1ec984cb7eb.png)
 
 Lintang diukur menggunakan garis-garis yang melingkari Bumi dan sejajar dengan ekuator, membagi Belahan Bumi Utara dan Selatan menjadi masing-masing 90°. Ekuator berada di 0°, Kutub Utara di 90°, juga dikenal sebagai 90° Utara, dan Kutub Selatan di -90°, atau 90° Selatan.
 
 Bujur diukur sebagai jumlah derajat yang diukur ke timur dan barat. Titik asal 0° bujur disebut *Meridian Utama*, dan didefinisikan pada tahun 1884 sebagai garis dari Kutub Utara ke Kutub Selatan yang melewati [Observatorium Kerajaan Inggris di Greenwich, Inggris](https://wikipedia.org/wiki/Royal_Observatory,_Greenwich).
 
-![Garis bujur yang membentang dari -180° di barat Meridian Utama, ke 0° di Meridian Utama, hingga 180° di timur Meridian Utama](../../../../../translated_images/longitude-meridians.ab4ef1c91c064586b0185a3c8d39e585903696c6a7d28c098a93a629cddb5d20.id.png)
+![Garis bujur yang membentang dari -180° di barat Meridian Utama, ke 0° di Meridian Utama, hingga 180° di timur Meridian Utama](../../../../../translated_images/id/longitude-meridians.ab4ef1c91c064586b0185a3c8d39e585903696c6a7d28c098a93a629cddb5d20.png)
 
 > 🎓 Sebuah meridian adalah garis lurus imajiner yang membentang dari Kutub Utara ke Kutub Selatan, membentuk setengah lingkaran.
 
@@ -109,7 +109,7 @@ Koordinat untuk suatu titik selalu diberikan sebagai `lintang, bujur`, sehingga 
 * Lintang 47.6423109 (47.6423109 derajat di utara ekuator)
 * Bujur -122.1390293 (122.1390293 derajat di barat Meridian Utama).
 
-![Kampus Microsoft di 47.6423109,-122.117198](../../../../../translated_images/microsoft-gps-location-world.a321d481b010f6adfcca139b2ba0adc53b79f58a540495b8e2ce7f779ea64bfe.id.png)
+![Kampus Microsoft di 47.6423109,-122.117198](../../../../../translated_images/id/microsoft-gps-location-world.a321d481b010f6adfcca139b2ba0adc53b79f58a540495b8e2ce7f779ea64bfe.png)
 
 ## Sistem Pemosisian Global (GPS)
 
@@ -121,7 +121,7 @@ Sistem GPS bekerja dengan memiliki sejumlah satelit yang mengirimkan sinyal deng
 
 > 💁 Sensor GPS memerlukan antena untuk mendeteksi gelombang radio. Antena yang terpasang di truk dan mobil dengan GPS bawaan diposisikan untuk mendapatkan sinyal yang baik, biasanya di kaca depan atau atap. Jika Anda menggunakan sistem GPS terpisah, seperti ponsel pintar atau perangkat IoT, maka Anda perlu memastikan bahwa antena yang terpasang di sistem GPS atau ponsel memiliki pandangan yang jelas ke langit, seperti dipasang di kaca depan.
 
-![Dengan mengetahui jarak dari sensor ke beberapa satelit, lokasi dapat dihitung](../../../../../translated_images/gps-satellites.04acf1148fe25fbf1586bc2e8ba698e8d79b79a50c36824b38417dd13372b90f.id.png)
+![Dengan mengetahui jarak dari sensor ke beberapa satelit, lokasi dapat dihitung](../../../../../translated_images/id/gps-satellites.04acf1148fe25fbf1586bc2e8ba698e8d79b79a50c36824b38417dd13372b90f.png)
 
 Satelit GPS mengelilingi Bumi, tidak berada di titik tetap di atas sensor, sehingga data lokasi mencakup ketinggian di atas permukaan laut serta lintang dan bujur.
 

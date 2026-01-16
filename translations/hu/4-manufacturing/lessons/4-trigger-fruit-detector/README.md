@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Gyümölcsminőség-ellenőrzés indítása egy érzékelő segítségével
 
-![A leckéről készült vázlatos áttekintés](../../../../../translated_images/lesson-18.92c32ed1d354caa5a54baa4032cf0b172d4655e8e326ad5d46c558a0def15365.hu.jpg)
+![A leckéről készült vázlatos áttekintés](../../../../../translated_images/hu/lesson-18.92c32ed1d354caa5a54baa4032cf0b172d4655e8e326ad5d46c558a0def15365.jpg)
 
 > Vázlat készítette: [Nitya Narasimhan](https://github.com/nitya). Kattints a képre a nagyobb verzióért.
 
@@ -48,7 +48,7 @@ Az IoT-alkalmazások leírhatók úgy, mint *eszközök* (dolgok), amelyek adato
 
 ### Referencia IoT-architektúra
 
-![Egy referencia IoT-architektúra](../../../../../translated_images/iot-reference-architecture.2278b98b55c6d4e89bde18eada3688d893861d43507641804dd2f9d3079cfaa0.hu.png)
+![Egy referencia IoT-architektúra](../../../../../translated_images/hu/iot-reference-architecture.2278b98b55c6d4e89bde18eada3688d893861d43507641804dd2f9d3079cfaa0.png)
 
 A fenti diagram egy referencia IoT-architektúrát mutat.
 
@@ -58,7 +58,7 @@ A fenti diagram egy referencia IoT-architektúrát mutat.
 * **Információk**: Szerver nélküli alkalmazásokból vagy tárolt adatok elemzéséből származnak.
 * **Cselekvések**: Parancsok küldése eszközöknek, vagy adatok vizualizálása, amely lehetővé teszi az emberek számára a döntéshozatalt.
 
-![Egy referencia IoT-architektúra](../../../../../translated_images/iot-reference-architecture-azure.0b8d2161af924cb18ae48a8558a19541cca47f27264851b5b7e56d7b8bb372ac.hu.png)
+![Egy referencia IoT-architektúra](../../../../../translated_images/hu/iot-reference-architecture-azure.0b8d2161af924cb18ae48a8558a19541cca47f27264851b5b7e56d7b8bb372ac.png)
 
 A fenti diagram az eddig tárgyalt komponenseket és szolgáltatásokat mutatja, valamint azt, hogyan kapcsolódnak össze egy referencia IoT-architektúrában.
 
@@ -98,7 +98,7 @@ Olyan rendszert kell építened, amely érzékeli a gyümölcs érkezését a sz
 
 ### Az alkalmazás prototípusának elkészítése
 
-![Egy referencia IoT-architektúra a gyümölcsminőség-ellenőrzéshez](../../../../../translated_images/iot-reference-architecture-fruit-quality.cc705f121c3b6fa71c800d9630935ac34bc08223a04601e35f41d5e9b5dd5207.hu.png)
+![Egy referencia IoT-architektúra a gyümölcsminőség-ellenőrzéshez](../../../../../translated_images/hu/iot-reference-architecture-fruit-quality.cc705f121c3b6fa71c800d9630935ac34bc08223a04601e35f41d5e9b5dd5207.png)
 
 A fenti diagram egy referencia architektúrát mutat be ehhez a prototípus alkalmazáshoz.
 
@@ -115,7 +115,7 @@ A prototípushoz mindezt egyetlen eszközön fogod megvalósítani. Ha mikrokont
 
 Az IoT-eszköznek szüksége van valamilyen indítóra, amely jelzi, hogy a gyümölcs készen áll az osztályozásra. Egy ilyen indító lehet például a gyümölcs helyzetének mérése a szállítószalagon egy érzékelő távolságának mérésével.
 
-![A közelségérzékelők lézersugarakat küldenek tárgyakra, például banánokra, és mérik, mennyi idő alatt verődik vissza a sugár](../../../../../translated_images/proximity-sensor.f5cd752c77fb62fe.hu.png)
+![A közelségérzékelők lézersugarakat küldenek tárgyakra, például banánokra, és mérik, mennyi idő alatt verődik vissza a sugár](../../../../../translated_images/hu/proximity-sensor.f5cd752c77fb62fe.png)
 
 A közelségérzékelők használhatók az érzékelő és egy tárgy közötti távolság mérésére. Általában elektromágneses sugárzást, például lézersugarat vagy infravörös fényt bocsátanak ki, majd érzékelik a tárgyról visszaverődő sugárzást. A lézersugár kibocsátása és a jel visszaverődése közötti idő alapján kiszámítható az érzékelő távolsága.
 
@@ -133,7 +133,7 @@ Dolgozd végig a megfelelő útmutatót, hogy közelségérzékelőt használj t
 
 A prototípus gyümölcsérzékelő több komponensből áll, amelyek egymással kommunikálnak.
 
-![A komponensek kommunikációja egymással](../../../../../translated_images/fruit-quality-detector-message-flow.adf2a65da8fd8741ac7af11361574de89adc126785d67606bb4d2ec00467e380.hu.png)
+![A komponensek kommunikációja egymással](../../../../../translated_images/hu/fruit-quality-detector-message-flow.adf2a65da8fd8741ac7af11361574de89adc126785d67606bb4d2ec00467e380.png)
 
 * Egy közelségérzékelő, amely méri a gyümölcs távolságát, és elküldi ezt az IoT Hubnak
 * A kamera vezérlésére szolgáló parancs az IoT Hubból érkezik a kamera eszközéhez

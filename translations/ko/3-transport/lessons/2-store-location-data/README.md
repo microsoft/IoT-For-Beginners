@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # 저장 위치 데이터
 
-![이 강의에 대한 스케치노트 개요](../../../../../translated_images/lesson-12.ca7f53039712a3ec14ad6474d8445361c84adab643edc53fa6269b77895606bb.ko.jpg)
+![이 강의에 대한 스케치노트 개요](../../../../../translated_images/ko/lesson-12.ca7f53039712a3ec14ad6474d8445361c84adab643edc53fa6269b77895606bb.jpg)
 
 > 스케치노트 제공: [Nitya Narasimhan](https://github.com/nitya). 이미지를 클릭하면 더 큰 버전을 볼 수 있습니다.
 
@@ -66,7 +66,7 @@ IoT 데이터는 일반적으로 비구조화된 데이터로 간주됩니다.
 
 초기 데이터베이스는 관계형 데이터베이스 관리 시스템(RDBMS) 또는 관계형 데이터베이스로 알려졌습니다. 이러한 데이터베이스는 Structured Query Language(SQL)를 사용하여 데이터를 추가, 제거, 업데이트 또는 쿼리하는 방식으로 작동하며, SQL 데이터베이스로 알려져 있습니다. 이 데이터베이스는 스키마로 구성되며, 이는 스프레드시트와 유사한 잘 정의된 데이터 테이블 세트입니다. 각 테이블에는 여러 개의 이름이 지정된 열이 있습니다. 데이터를 삽입할 때, 테이블에 행을 추가하고 각 열에 값을 입력합니다. 이는 데이터를 매우 고정된 구조로 유지합니다. 열을 비워둘 수는 있지만, 새 열을 추가하려면 데이터베이스에서 이를 추가하고 기존 행에 값을 채워야 합니다. 이러한 데이터베이스는 관계형입니다. 즉, 한 테이블이 다른 테이블과 관계를 맺을 수 있습니다.
 
-![User 테이블의 ID가 Purchases 테이블의 user ID 열과 관계를 맺고, Products 테이블의 ID가 Purchases 테이블의 product ID와 관계를 맺는 관계형 데이터베이스](../../../../../translated_images/sql-database.be160f12bfccefd3.ko.png)
+![User 테이블의 ID가 Purchases 테이블의 user ID 열과 관계를 맺고, Products 테이블의 ID가 Purchases 테이블의 product ID와 관계를 맺는 관계형 데이터베이스](../../../../../translated_images/ko/sql-database.be160f12bfccefd3.png)
 
 예를 들어, 사용자의 개인 정보를 테이블에 저장한다고 가정하면, 각 사용자마다 고유한 내부 ID가 있으며, 이는 사용자의 이름과 주소를 포함하는 테이블의 행에 사용됩니다. 사용자의 구매 내역과 같은 다른 세부 정보를 다른 테이블에 저장하려면, 새 테이블에 사용자의 ID를 나타내는 열이 하나 있어야 합니다. 사용자를 조회할 때, 해당 ID를 사용하여 한 테이블에서 개인 정보를 가져오고, 다른 테이블에서 구매 내역을 가져올 수 있습니다.
 
@@ -84,7 +84,7 @@ NoSQL 데이터베이스는 SQL 데이터베이스의 고정된 구조를 가지
 
 > 💁 이름과는 달리, 일부 NoSQL 데이터베이스는 SQL을 사용하여 데이터를 쿼리할 수 있습니다.
 
-![NoSQL 데이터베이스의 폴더 안에 있는 문서들](../../../../../translated_images/noqsl-database.62d24ccf5b73f60d35c245a8533f1c7147c0928e955b82cb290b2e184bb434df.ko.png)
+![NoSQL 데이터베이스의 폴더 안에 있는 문서들](../../../../../translated_images/ko/noqsl-database.62d24ccf5b73f60d35c245a8533f1c7147c0928e955b82cb290b2e184bb434df.png)
 
 NoSQL 데이터베이스는 데이터가 저장되는 방식을 제한하는 사전 정의된 스키마가 없으며, 일반적으로 JSON 문서를 사용하여 비구조화된 데이터를 삽입할 수 있습니다. 이러한 문서는 컴퓨터의 파일처럼 폴더에 정리될 수 있습니다. 각 문서는 다른 문서와 다른 필드를 가질 수 있습니다. 예를 들어, 농장 차량의 IoT 데이터를 저장한다고 가정하면, 일부 문서에는 가속도계와 속도 데이터 필드가 포함될 수 있고, 다른 문서에는 트레일러의 온도 데이터 필드가 포함될 수 있습니다. 내장된 저울로 운반 중인 농산물의 무게를 추적하는 새로운 트럭 유형을 추가한다고 가정하면, IoT 장치가 이 새로운 필드를 추가하고 데이터베이스를 변경하지 않고도 저장할 수 있습니다.
 
@@ -98,7 +98,7 @@ Azure CosmosDB, MongoDB, CouchDB는 잘 알려진 NoSQL 데이터베이스입니
 
 지난 강의에서는 IoT 장치에 연결된 GPS 센서에서 GPS 데이터를 캡처했습니다. 이 IoT 데이터를 클라우드에 저장하려면 IoT 서비스로 전송해야 합니다. 이번에도 이전 프로젝트에서 사용했던 Azure IoT Hub를 사용합니다.
 
-![IoT 장치에서 IoT Hub로 GPS 텔레메트리 전송](../../../../../translated_images/gps-telemetry-iot-hub.8115335d51cd2c1285d20e9d1b18cf685e59a8e093e7797291ef173445af6f3d.ko.png)
+![IoT 장치에서 IoT Hub로 GPS 텔레메트리 전송](../../../../../translated_images/ko/gps-telemetry-iot-hub.8115335d51cd2c1285d20e9d1b18cf685e59a8e093e7797291ef173445af6f3d.png)
 
 ### 작업 - GPS 데이터를 IoT Hub로 전송하기
 
@@ -180,7 +180,7 @@ IoT 장치에서 클라우드로 흐르는 데이터는 항상 실시간으로 �
 
 데이터가 IoT Hub로 흐르기 시작하면, Event-Hub 호환 엔드포인트에 게시된 이벤트를 수신하기 위해 서버리스 코드를 작성할 수 있습니다. 이는 웜 경로에 해당하며, 이 데이터는 다음 강의에서 여정을 보고하는 데 사용됩니다.
 
-![IoT 장치에서 IoT Hub로 GPS 텔레메트리 전송 후 Event Hub 트리거를 통해 Azure Functions로 전송](../../../../../translated_images/gps-telemetry-iot-hub-functions.24d3fa5592455e9f4e2fe73856b40c3915a292b90263c31d652acfd976cfedd8.ko.png)
+![IoT 장치에서 IoT Hub로 GPS 텔레메트리 전송 후 Event Hub 트리거를 통해 Azure Functions로 전송](../../../../../translated_images/ko/gps-telemetry-iot-hub-functions.24d3fa5592455e9f4e2fe73856b40c3915a292b90263c31d652acfd976cfedd8.png)
 
 ### 작업 - 서버리스 코드를 사용하여 GPS 이벤트 처리하기
 
@@ -202,7 +202,7 @@ IoT 장치에서 클라우드로 흐르는 데이터는 항상 실시간으로 �
 
 ## Azure Storage Accounts
 
-![Azure Storage 로고](../../../../../translated_images/azure-storage-logo.605c0f602c640d482a80f1b35a2629a32d595711b7ab1d7ceea843250615ff32.ko.png)
+![Azure Storage 로고](../../../../../translated_images/ko/azure-storage-logo.605c0f602c640d482a80f1b35a2629a32d595711b7ab1d7ceea843250615ff32.png)
 
 Azure Storage Accounts는 다양한 방식으로 데이터를 저장할 수 있는 범용 스토리지 서비스입니다. 데이터를 Blob, 큐, 테이블 또는 파일 형태로 저장할 수 있으며, 동시에 여러 방식으로 저장할 수 있습니다.
 
@@ -241,7 +241,7 @@ Azure Storage Accounts는 다양한 방식으로 데이터를 저장할 수 있�
 
 이 레슨에서는 Python SDK를 사용하여 Blob 스토리지를 다루는 방법을 배웁니다.
 
-![IoT 장치에서 GPS 텔레메트리를 IoT Hub로 전송한 후, 이벤트 허브 트리거를 통해 Azure Functions로 전달하고 Blob 스토리지에 저장](../../../../../translated_images/save-telemetry-to-storage-from-functions.ed3b1820980097f1.ko.png)
+![IoT 장치에서 GPS 텔레메트리를 IoT Hub로 전송한 후, 이벤트 허브 트리거를 통해 Azure Functions로 전달하고 Blob 스토리지에 저장](../../../../../translated_images/ko/save-telemetry-to-storage-from-functions.ed3b1820980097f1.png)
 
 데이터는 다음 형식의 JSON Blob으로 저장됩니다:
 

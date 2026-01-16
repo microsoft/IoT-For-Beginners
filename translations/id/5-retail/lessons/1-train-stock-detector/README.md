@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Melatih Detektor Stok
 
-![Ikhtisar sketchnote dari pelajaran ini](../../../../../translated_images/lesson-19.cf6973cecadf080c4b526310620dc4d6f5994c80fb0139c6f378cc9ca2d435cd.id.jpg)
+![Ikhtisar sketchnote dari pelajaran ini](../../../../../translated_images/id/lesson-19.cf6973cecadf080c4b526310620dc4d6f5994c80fb0139c6f378cc9ca2d435cd.jpg)
 
 > Sketchnote oleh [Nitya Narasimhan](https://github.com/nitya). Klik gambar untuk versi yang lebih besar.
 
@@ -45,7 +45,7 @@ Deteksi objek melibatkan pendeteksian objek dalam gambar menggunakan AI. Berbeda
 
 Klasifikasi gambar adalah tentang mengklasifikasikan keseluruhan gambar - apa probabilitas bahwa keseluruhan gambar cocok dengan setiap tag. Anda akan mendapatkan kembali probabilitas untuk setiap tag yang digunakan untuk melatih model.
 
-![Klasifikasi gambar kacang mete dan pasta tomat](../../../../../translated_images/image-classifier-cashews-tomato.bc2e16ab8f05cf9ac0f59f73e32efc4227f9a5b601b90b2c60f436694547a965.id.png)
+![Klasifikasi gambar kacang mete dan pasta tomat](../../../../../translated_images/id/image-classifier-cashews-tomato.bc2e16ab8f05cf9ac0f59f73e32efc4227f9a5b601b90b2c60f436694547a965.png)
 
 Dalam contoh di atas, dua gambar diklasifikasikan menggunakan model yang dilatih untuk mengklasifikasikan wadah kacang mete atau kaleng pasta tomat. Gambar pertama adalah wadah kacang mete, dan memiliki dua hasil dari pengklasifikasi gambar:
 
@@ -69,7 +69,7 @@ Ketika Anda kemudian menggunakannya untuk memprediksi gambar, alih-alih mendapat
 
 > 🎓 *Kotak pembatas* adalah kotak di sekitar objek.
 
-![Deteksi objek kacang mete dan pasta tomat](../../../../../translated_images/object-detector-cashews-tomato.1af7c26686b4db0e709754aeb196f4e73271f54e2085db3bcccb70d4a0d84d97.id.png)
+![Deteksi objek kacang mete dan pasta tomat](../../../../../translated_images/id/object-detector-cashews-tomato.1af7c26686b4db0e709754aeb196f4e73271f54e2085db3bcccb70d4a0d84d97.png)
 
 Gambar di atas berisi wadah kacang mete dan tiga kaleng pasta tomat. Detektor objek mendeteksi kacang mete, mengembalikan kotak pembatas yang berisi kacang mete dengan persentase kemungkinan bahwa kotak pembatas berisi objek, dalam hal ini 97.6%. Detektor objek juga mendeteksi tiga kaleng pasta tomat, dan memberikan tiga kotak pembatas terpisah, satu untuk setiap kaleng yang terdeteksi, dan masing-masing memiliki probabilitas persentase bahwa kotak pembatas berisi kaleng pasta tomat.
 
@@ -120,7 +120,7 @@ Anda dapat melatih detektor objek menggunakan Custom Vision, dengan cara yang mi
 
     Saat Anda membuat proyek Anda, pastikan untuk menggunakan sumber daya `stock-detector-training` yang Anda buat sebelumnya. Gunakan tipe proyek *Object Detection*, dan domain *Products on Shelves*.
 
-    ![Pengaturan untuk proyek Custom Vision dengan nama diatur ke fruit-quality-detector, tanpa deskripsi, sumber daya diatur ke fruit-quality-detector-training, tipe proyek diatur ke classification, tipe klasifikasi diatur ke multi class dan domain diatur ke food](../../../../../translated_images/custom-vision-create-object-detector-project.32d4fb9aa8e7e7375f8a799bfce517aca970f2cb65e42d4245c5e635c734ab29.id.png)
+    ![Pengaturan untuk proyek Custom Vision dengan nama diatur ke fruit-quality-detector, tanpa deskripsi, sumber daya diatur ke fruit-quality-detector-training, tipe proyek diatur ke classification, tipe klasifikasi diatur ke multi class dan domain diatur ke food](../../../../../translated_images/id/custom-vision-create-object-detector-project.32d4fb9aa8e7e7375f8a799bfce517aca970f2cb65e42d4245c5e635c734ab29.png)
 
     ✅ Domain produk di rak secara khusus ditargetkan untuk mendeteksi stok di rak toko. Baca lebih lanjut tentang berbagai domain di [Dokumentasi Pilih Domain di Microsoft Docs](https://docs.microsoft.com/azure/cognitive-services/custom-vision-service/select-domain?WT.mc_id=academic-17441-jabenn#object-detection)
 
@@ -142,11 +142,11 @@ Untuk melatih model Anda, Anda akan membutuhkan serangkaian gambar yang berisi o
 
 1. Ikuti [Bagian Unggah dan beri tag gambar dari panduan cepat Membangun detektor objek di dokumen Microsoft](https://docs.microsoft.com/azure/cognitive-services/custom-vision-service/get-started-build-detector?WT.mc_id=academic-17441-jabenn#upload-and-tag-images) untuk mengunggah gambar pelatihan Anda. Buat tag yang relevan tergantung pada jenis objek yang ingin Anda deteksi.
 
-    ![Dialog unggahan menunjukkan unggahan gambar pisang matang dan belum matang](../../../../../translated_images/image-upload-object-detector.77c7892c3093cb59b79018edecd678749a75d71a099bc8a2d2f2f76320f88a5b.id.png)
+    ![Dialog unggahan menunjukkan unggahan gambar pisang matang dan belum matang](../../../../../translated_images/id/image-upload-object-detector.77c7892c3093cb59b79018edecd678749a75d71a099bc8a2d2f2f76320f88a5b.png)
 
     Saat Anda menggambar kotak pembatas untuk objek, buatlah kotak tersebut pas di sekitar objek. Mungkin membutuhkan waktu untuk menggambar semua gambar, tetapi alat ini akan mendeteksi apa yang dianggap sebagai kotak pembatas, membuatnya lebih cepat.
 
-    ![Memberi tag pada beberapa pasta tomat](../../../../../translated_images/object-detector-tag-tomato-paste.f47c362fb0f0eb582f3bc68cf3855fb43a805106395358d41896a269c210b7b4.id.png)
+    ![Memberi tag pada beberapa pasta tomat](../../../../../translated_images/id/object-detector-tag-tomato-paste.f47c362fb0f0eb582f3bc68cf3855fb43a805106395358d41896a269c210b7b4.png)
 
     > 💁 Jika Anda memiliki lebih dari 15 gambar untuk setiap objek, Anda dapat melatih setelah 15 gambar lalu menggunakan fitur **Suggested tags**. Fitur ini akan menggunakan model yang dilatih untuk mendeteksi objek dalam gambar yang belum diberi tag. Anda kemudian dapat mengonfirmasi objek yang terdeteksi, atau menolak dan menggambar ulang kotak pembatas. Ini dapat menghemat *banyak* waktu.
 
@@ -164,7 +164,7 @@ Setelah detektor objek Anda dilatih, Anda dapat mengujinya dengan memberikan gam
 
 1. Gunakan tombol **Quick Test** untuk mengunggah gambar pengujian dan memverifikasi objek yang terdeteksi. Gunakan gambar pengujian yang Anda buat sebelumnya, bukan gambar yang Anda gunakan untuk pelatihan.
 
-    ![3 kaleng pasta tomat terdeteksi dengan probabilitas 38%, 35.5%, dan 34.6%](../../../../../translated_images/object-detector-detected-tomato-paste.52656fe87af4c37b4ee540526d63e73ed075da2e54a9a060aa528e0c562fb1b6.id.png)
+    ![3 kaleng pasta tomat terdeteksi dengan probabilitas 38%, 35.5%, dan 34.6%](../../../../../translated_images/id/object-detector-detected-tomato-paste.52656fe87af4c37b4ee540526d63e73ed075da2e54a9a060aa528e0c562fb1b6.png)
 
 1. Cobalah semua gambar pengujian yang Anda miliki dan amati probabilitasnya.
 

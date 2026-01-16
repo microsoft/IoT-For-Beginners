@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Jalankan Detektor Buah Anda di Perangkat Edge
 
-![Gambaran sketchnote dari pelajaran ini](../../../../../translated_images/lesson-17.bc333c3c35ba8e42cce666cfffa82b915f787f455bd94e006aea2b6f2722421a.id.jpg)
+![Gambaran sketchnote dari pelajaran ini](../../../../../translated_images/id/lesson-17.bc333c3c35ba8e42cce666cfffa82b915f787f455bd94e006aea2b6f2722421a.jpg)
 
 > Sketchnote oleh [Nitya Narasimhan](https://github.com/nitya). Klik gambar untuk versi yang lebih besar.
 
@@ -42,11 +42,11 @@ Dalam pelajaran ini, kita akan membahas:
 
 Komputasi edge melibatkan penggunaan komputer yang memproses data IoT sedekat mungkin dengan tempat data tersebut dihasilkan. Alih-alih memproses data di cloud, proses ini dipindahkan ke tepi cloud - jaringan internal Anda.
 
-![Diagram arsitektur yang menunjukkan layanan internet di cloud dan perangkat IoT di jaringan lokal](../../../../../translated_images/cloud-without-edge.b4da641f6022c95ed6b91fde8b5323abd2f94e0d52073ad54172ae8f5dac90e9.id.png)
+![Diagram arsitektur yang menunjukkan layanan internet di cloud dan perangkat IoT di jaringan lokal](../../../../../translated_images/id/cloud-without-edge.b4da641f6022c95ed6b91fde8b5323abd2f94e0d52073ad54172ae8f5dac90e9.png)
 
 Dalam pelajaran sejauh ini, Anda telah memiliki perangkat yang mengumpulkan data dan mengirimkannya ke cloud untuk dianalisis, menjalankan fungsi serverless atau model AI di cloud.
 
-![Diagram arsitektur yang menunjukkan perangkat IoT di jaringan lokal yang terhubung ke perangkat edge, dan perangkat edge tersebut terhubung ke cloud](../../../../../translated_images/cloud-with-edge.1e26462c62c126fe150bd15a5714ddf0be599f09bacbad08b85be02b76ea1ae1.id.png)
+![Diagram arsitektur yang menunjukkan perangkat IoT di jaringan lokal yang terhubung ke perangkat edge, dan perangkat edge tersebut terhubung ke cloud](../../../../../translated_images/id/cloud-with-edge.1e26462c62c126fe150bd15a5714ddf0be599f09bacbad08b85be02b76ea1ae1.png)
 
 Komputasi edge melibatkan pemindahan beberapa layanan cloud dari cloud ke komputer yang berjalan di jaringan yang sama dengan perangkat IoT, hanya berkomunikasi dengan cloud jika diperlukan. Sebagai contoh, Anda dapat menjalankan model AI pada perangkat edge untuk menganalisis kematangan buah, dan hanya mengirimkan analitik kembali ke cloud, seperti jumlah buah matang dibandingkan buah yang belum matang.
 
@@ -94,7 +94,7 @@ Untuk sistem IoT, Anda sering kali menginginkan kombinasi komputasi cloud dan ed
 
 ## Azure IoT Edge
 
-![Logo Azure IoT Edge](../../../../../translated_images/azure-iot-edge-logo.c1c076749b5cba2e8755262fadc2f19ca1146b948d76990b1229199ac2292d79.id.png)
+![Logo Azure IoT Edge](../../../../../translated_images/id/azure-iot-edge-logo.c1c076749b5cba2e8755262fadc2f19ca1146b948d76990b1229199ac2292d79.png)
 
 Azure IoT Edge adalah layanan yang dapat membantu Anda memindahkan beban kerja dari cloud ke edge. Anda mengatur perangkat sebagai perangkat edge, dan dari cloud Anda dapat menerapkan kode ke perangkat edge tersebut. Ini memungkinkan Anda menggabungkan kemampuan cloud dan edge.
 
@@ -108,7 +108,7 @@ IoT Edge terintegrasi dengan IoT Hub, sehingga Anda dapat mengelola perangkat ed
 
 IoT Edge menjalankan kode dari *kontainer* - aplikasi mandiri yang dijalankan secara terisolasi dari aplikasi lain di komputer Anda. Ketika Anda menjalankan kontainer, itu bertindak seperti komputer terpisah yang berjalan di dalam komputer Anda, dengan perangkat lunak, layanan, dan aplikasi sendiri yang berjalan. Sebagian besar waktu, kontainer tidak dapat mengakses apa pun di komputer Anda kecuali Anda memilih untuk berbagi hal-hal seperti folder dengan kontainer. Kontainer kemudian mengekspos layanan melalui port terbuka yang dapat Anda hubungkan atau ekspos ke jaringan Anda.
 
-![Permintaan web dialihkan ke kontainer](../../../../../translated_images/container-web-browser.4ee81dd4f0d8838ce622b2a0d600b6a4322b5d4fe43159facd87b7b34f84d66a.id.png)
+![Permintaan web dialihkan ke kontainer](../../../../../translated_images/id/container-web-browser.4ee81dd4f0d8838ce622b2a0d600b6a4322b5d4fe43159facd87b7b34f84d66a.png)
 
 Sebagai contoh, Anda dapat memiliki kontainer dengan situs web yang berjalan di port 80, port HTTP default, dan Anda kemudian dapat mengeksposnya dari komputer Anda juga di port 80.
 
@@ -205,11 +205,11 @@ Setelah model dilatih, model tersebut perlu diekspor sebagai container.
 
 ## Persiapkan container Anda untuk deployment
 
-![Container dibuat lalu didorong ke container registry, kemudian diterapkan dari container registry ke perangkat edge menggunakan IoT Edge](../../../../../translated_images/container-edge-flow.c246050dd60ceefdb6ace026a4ce5c6aa4112bb5898ae23fbb2ab4be29ae3e1b.id.png)
+![Container dibuat lalu didorong ke container registry, kemudian diterapkan dari container registry ke perangkat edge menggunakan IoT Edge](../../../../../translated_images/id/container-edge-flow.c246050dd60ceefdb6ace026a4ce5c6aa4112bb5898ae23fbb2ab4be29ae3e1b.png)
 
 Setelah Anda mengunduh model Anda, model tersebut perlu dibangun ke dalam container, lalu didorong ke container registry - lokasi online tempat Anda dapat menyimpan container. IoT Edge kemudian dapat mengunduh container dari registry dan mendorongnya ke perangkat Anda.
 
-![Logo Azure Container Registry](../../../../../translated_images/azure-container-registry-logo.09494206991d4b295025ebff7d4e2900325e527a59184ffbc8464b6ab59654be.id.png)
+![Logo Azure Container Registry](../../../../../translated_images/id/azure-container-registry-logo.09494206991d4b295025ebff7d4e2900325e527a59184ffbc8464b6ab59654be.png)
 
 Container registry yang akan Anda gunakan untuk pelajaran ini adalah Azure Container Registry. Ini bukan layanan gratis, jadi untuk menghemat uang pastikan Anda [membersihkan proyek Anda](../../../clean-up.md) setelah selesai.
 

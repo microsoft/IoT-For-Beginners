@@ -114,7 +114,7 @@ CO_OP_TRANSLATOR_METADATA:
     >
     > ಉದಾಹರಣೆಗೆ, ನೀವು LUIS ಅನ್ನು ಇಂಗ್ಲಿಷಿನಲ್ಲಿ ತರಬೇತುಗೊಳಿಸಿದರೂ, ಬಳಕೆದಾರ ಭಾಷೆಾಗಿ ಫ್ರೆಂಚ್ ಬಳಸಲು ಬಯಸಿದರೆ, ಬಿಂಗ್ ಟ್ರಾನ್ಸ್‌ಲೇಟ್ ಬಳಸಿ "set a 2 minute and 27 second timer" ಇಂಗ್ಲಿಷಿನಿಂದ ಫ್ರೆಂಚ್‌ಗೆ ಭಾಷಾಂತರಿಸಿ, ನಂತರ **Listen translation** ಬಟನ್ ಮೂಲಕ ಆ ಭಾಷಾಂತರವನ್ನು ನಿಮ್ಮ ಮೈಕ್ರೋಫೋನಿಗೆ ಮಾತನಾಡಿಸಬಹುದು.
     >
-    > ![Bing Translate上的“听翻译”按钮](../../../../../translated_images/bing-translate.348aa796d6efe2a9.kn.png)
+    > ![Bing Translate上的“听翻译”按钮](../../../../../translated_images/kn/bing-translate.348aa796d6efe2a9.png)
 
 1. `SPEECH_LOCATION` ಕೆಳಗೆ ಭಾಷಾಂತರಕ API ಕೀ ಮತ್ತು ಸ್ಥಳ ಸೇರಿಸಿ:
 

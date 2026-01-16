@@ -114,7 +114,7 @@ REST API layanan ucapan tidak mendukung terjemahan langsung, tetapi Anda dapat m
     >
     > Misalnya, jika Anda melatih LUIS dalam bahasa Inggris, tetapi ingin menggunakan bahasa Prancis sebagai bahasa pengguna, Anda dapat menerjemahkan kalimat seperti "set a 2 minute and 27 second timer" dari bahasa Inggris ke bahasa Prancis menggunakan Bing Translate, lalu gunakan tombol **Listen translation** untuk mengucapkan terjemahan ke mikrofon Anda.
     >
-    > ![Tombol listen translation di Bing translate](../../../../../translated_images/bing-translate.348aa796d6efe2a92f41ea74a5cf42bb4c63d6faaa08e7f46924e072a35daa48.id.png)
+    > ![Tombol listen translation di Bing translate](../../../../../translated_images/id/bing-translate.348aa796d6efe2a92f41ea74a5cf42bb4c63d6faaa08e7f46924e072a35daa48.png)
 
 1. Tambahkan kunci API penerjemah dan lokasi di bawah `SPEECH_LOCATION`:
 

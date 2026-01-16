@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # ഭാഷ മനസ്സിലാക്കുക
 
-![ഈ പാഠത്തിന്റെ സ്കെച്ച്നോട്ട് അവലോകനം](../../../../../translated_images/lesson-22.6148ea28500d9e00.ml.jpg)
+![ഈ പാഠത്തിന്റെ സ്കെച്ച്നോട്ട് അവലോകനം](../../../../../translated_images/ml/lesson-22.6148ea28500d9e00.jpg)
 
 > സ്കെച്ച്നോട്ട് [Nitya Narasimhan](https://github.com/nitya) രചിച്ചത്. വലിയ പതിപ്പിന് ചിത്രത്തിൽ ക്ലിക്ക് ചെയ്യുക.
 
@@ -55,7 +55,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 ## ഭാഷ മനസ്സിലാക്കൽ മോഡൽ സൃഷ്ടിക്കൽ
 
-![LUIS ലോഗോ](../../../../../translated_images/luis-logo.5cb4f3e88c020ee6.ml.png)
+![LUIS ലോഗോ](../../../../../translated_images/ml/luis-logo.5cb4f3e88c020ee6.png)
 
 LUIS ബാഷാ മനസ്സിലാക്കൽ സേവനമാണ്, മൈക്രോസോഫ്റ്റിന്റെ Cognitive Services-യുടെ ഭാഗമാണ്. LUIS ഉപയോഗിച്ച് ഭാഷ മനസ്സിലാക്കൽ മോഡലുകൾ സൃഷ്ടിക്കാം.
 
@@ -126,7 +126,7 @@ Entity സൂചനകൾ നിശ്ചയിച്ചതിനു ശേഷ�
 
 LUIS-ന് നിങ്ങൾക്ക് entities യെ വാക്യങ്ങളിൽ നിന്നു തിരിച്ചറിയാൻ അറിയിക്കും:
 
-![set a timer for 1 minute and 12 seconds എന്ന വാക്യം entityകളായി വിഭജിച്ചത്](../../../../../translated_images/sentence-as-intent-entities.301401696f992259.ml.png)
+![set a timer for 1 minute and 12 seconds എന്ന വാക്യം entityകളായി വിഭജിച്ചത്](../../../../../translated_images/ml/sentence-as-intent-entities.301401696f992259.png)
 
 `set a timer for 1 minute and 12 seconds` വാക്യത്തിന്റെ intent `set timer` ആണെന്നും, ഇരട്ട entity ഉണ്ട്, ഓരോന്നിലും രണ്ട് മൂല്യങ്ങളുള്ളത്:
 
@@ -178,7 +178,7 @@ LUIS പോർട്ടലിലെ [Quickstart: Build your app in LUIS portal d
 
 1. ഓരോ ഉദാഹരണവും നൽകുമ്പോൾ LUIS entityകൾ വ്യക്തമായി കണ്ടെത്താൻ തുടങ്ങും, അവയെ താഴെ രേഖപ്പെടുത്തും.
 
-    ![LUIS കണ്ട കണക്കുകൾ കൊണ്ട് അക്കങ്ങളും സമയം യൂണിറ്റുകളും അടിവരയായി കാണിക്കുന്നു](../../../../../translated_images/luis-intent-examples.25716580b2d2723c.ml.png)
+    ![LUIS കണ്ട കണക്കുകൾ കൊണ്ട് അക്കങ്ങളും സമയം യൂണിറ്റുകളും അടിവരയായി കാണിക്കുന്നു](../../../../../translated_images/ml/luis-intent-examples.25716580b2d2723c.png)
 
 ### ജോലിയ് - മോഡൽ പരിശീലിപ്പിക്കുകയും പരീക്ഷിക്കുകയും ചെയ്യുക
 

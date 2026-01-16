@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Gilesnis IoT pažinimas
 
-![Šios pamokos apžvalga piešinyje](../../../../../translated_images/lesson-2.324b0580d620c25e0a24fb7fddfc0b29a846dd4b82c08e7a9466d580ee78ce51.lt.jpg)
+![Šios pamokos apžvalga piešinyje](../../../../../translated_images/lt/lesson-2.324b0580d620c25e0a24fb7fddfc0b29a846dd4b82c08e7a9466d580ee78ce51.jpg)
 
 > Piešinys sukurtas [Nitya Narasimhan](https://github.com/nitya). Spustelėkite paveikslėlį, kad pamatytumėte didesnę versiją.
 
@@ -41,13 +41,13 @@ IoT programą sudaro du pagrindiniai komponentai: *Internetas* ir *daiktas*. Pa�
 
 ### Daiktas
 
-![Raspberry Pi 4](../../../../../translated_images/raspberry-pi-4.fd4590d308c3d456.lt.jpg)
+![Raspberry Pi 4](../../../../../translated_images/lt/raspberry-pi-4.fd4590d308c3d456.jpg)
 
 **Daikto** dalis IoT reiškia įrenginį, kuris gali sąveikauti su fiziniu pasauliu. Šie įrenginiai paprastai yra maži, nebrangūs kompiuteriai, veikiantys lėtu greičiu ir naudojantys mažai energijos – pavyzdžiui, paprasti mikrovaldikliai su keliais kilobaitais RAM (palyginimui, asmeniniuose kompiuteriuose RAM matuojama gigabaitais), veikiantys tik kelių šimtų megahercų dažniu (palyginimui, asmeniniuose kompiuteriuose dažnis matuojamas gigahercais), tačiau sunaudojantys tiek mažai energijos, kad gali veikti savaites, mėnesius ar net metus su baterijomis.
 
 Šie įrenginiai sąveikauja su fiziniu pasauliu, naudodami jutiklius duomenų rinkimui iš aplinkos arba valdiklius ir aktuatorius fiziniams pokyčiams atlikti. Tipiškas pavyzdys – išmanusis termostatas, turintis temperatūros jutiklį, priemonę norimai temperatūrai nustatyti, pvz., ratuką ar jutiklinį ekraną, ir jungtį su šildymo ar vėsinimo sistema, kurią galima įjungti, kai aptikta temperatūra yra už norimo diapazono ribų. Temperatūros jutiklis aptinka, kad kambarys yra per šaltas, ir aktuatorius įjungia šildymą.
 
-![Diagrama, rodanti temperatūrą ir ratuką kaip IoT įrenginio įvestis, o šildytuvo valdymą kaip išvestį](../../../../../translated_images/basic-thermostat.a923217fd1f37e5a6f3390396a65c22a387419ea2dd17e518ec24315ba6ae9a8.lt.png)
+![Diagrama, rodanti temperatūrą ir ratuką kaip IoT įrenginio įvestis, o šildytuvo valdymą kaip išvestį](../../../../../translated_images/lt/basic-thermostat.a923217fd1f37e5a6f3390396a65c22a387419ea2dd17e518ec24315ba6ae9a8.png)
 
 Yra daugybė įvairių daiktų, kurie gali veikti kaip IoT įrenginiai – nuo specializuotos įrangos, kuri aptinka vieną dalyką, iki universalių įrenginių, net jūsų išmaniojo telefono! Išmanusis telefonas gali naudoti jutiklius, kad aptiktų aplinką, ir aktuatorius, kad sąveikautų su pasauliu – pavyzdžiui, naudodamas GPS jutiklį jūsų buvimo vietai nustatyti ir garsiakalbį navigacijos instrukcijoms pateikti.
 
@@ -63,11 +63,11 @@ Tipiška konfigūracija būtų debesų paslauga, prie kurios jungiasi IoT įreng
 
 Pavyzdžiui, išmanusis termostatas jungiasi prie debesų paslaugos per namų WiFi. Jis siunčia temperatūros duomenis į šią paslaugą, o iš ten jie įrašomi į duomenų bazę, leidžiančią namų savininkui peržiūrėti dabartinę ir praeities temperatūrą naudojant telefono programėlę. Kita debesų paslauga žino, kokios temperatūros nori savininkas, ir siunčia pranešimus atgal į IoT įrenginį per debesų paslaugą, kad įjungtų arba išjungtų šildymo sistemą.
 
-![Diagrama, rodanti temperatūrą ir ratuką kaip IoT įrenginio įvestis, IoT įrenginį su dvikrypčiu ryšiu su debesimi, kuris savo ruožtu turi dvikryptį ryšį su telefonu, ir šildytuvo valdymą kaip išvestį iš IoT įrenginio](../../../../../translated_images/mobile-controlled-thermostat.4a994010473d8d6a52ba68c67e5f02dc8928c717e93ca4b9bc55525aa75bbb60.lt.png)
+![Diagrama, rodanti temperatūrą ir ratuką kaip IoT įrenginio įvestis, IoT įrenginį su dvikrypčiu ryšiu su debesimi, kuris savo ruožtu turi dvikryptį ryšį su telefonu, ir šildytuvo valdymą kaip išvestį iš IoT įrenginio](../../../../../translated_images/lt/mobile-controlled-thermostat.4a994010473d8d6a52ba68c67e5f02dc8928c717e93ca4b9bc55525aa75bbb60.png)
 
 Dar išmanesnė versija galėtų naudoti dirbtinį intelektą debesyje, kartu su duomenimis iš kitų jutiklių, prijungtų prie kitų IoT įrenginių, pvz., judesio jutiklių, aptinkančių, kurie kambariai naudojami, taip pat duomenis apie orą ar net jūsų kalendorių, kad išmaniai nustatytų temperatūrą. Pavyzdžiui, ji galėtų išjungti šildymą, jei iš jūsų kalendoriaus matyti, kad esate atostogose, arba išjungti šildymą atskiruose kambariuose, priklausomai nuo to, kuriuos kambarius naudojate, mokydamasi iš duomenų, kad laikui bėgant taptų vis tikslesnė.
 
-![Diagrama, rodanti kelis temperatūros jutiklius ir ratuką kaip IoT įrenginio įvestis, IoT įrenginį su dvikrypčiu ryšiu su debesimi, kuris savo ruožtu turi dvikryptį ryšį su telefonu, kalendoriumi ir orų paslauga, ir šildytuvo valdymą kaip išvestį iš IoT įrenginio](../../../../../translated_images/smarter-thermostat.a75855f15d2d9e63.lt.png)
+![Diagrama, rodanti kelis temperatūros jutiklius ir ratuką kaip IoT įrenginio įvestis, IoT įrenginį su dvikrypčiu ryšiu su debesimi, kuris savo ruožtu turi dvikryptį ryšį su telefonu, kalendoriumi ir orų paslauga, ir šildytuvo valdymą kaip išvestį iš IoT įrenginio](../../../../../translated_images/lt/smarter-thermostat.a75855f15d2d9e63.png)
 
 ✅ Kokie kiti duomenys galėtų padėti padaryti interneto prijungtą termostatą išmanesnį?
 
@@ -103,7 +103,7 @@ Kuo greitesnis laikrodžio ciklas, tuo daugiau instrukcijų galima apdoroti per 
 
 > 💁 CPU vykdo programas naudodamas [gavimo-dekodavimo-vykdymo ciklą](https://wikipedia.org/wiki/Instruction_cycle). Kiekvieno laikrodžio tiksėjimo metu CPU gauna kitą instrukciją iš atminties, ją dekoduoja ir vykdo, pvz., naudodamas aritmetinį loginį įrenginį (ALU), kad sudėtų du skaičius. Kai kurios vykdymo operacijos užtrunka kelis tiksėjimus, todėl kitas ciklas prasidės tik po to, kai instrukcija bus užbaigta.
 
-![Gavimo-dekodavimo-vykdymo ciklai, rodantys, kaip instrukcija gaunama iš RAM, dekoduojama ir vykdoma CPU](../../../../../translated_images/fetch-decode-execute.2fd6f150f6280392807f4475382319abd0cee0b90058e1735444d6baa6f2078c.lt.png)
+![Gavimo-dekodavimo-vykdymo ciklai, rodantys, kaip instrukcija gaunama iš RAM, dekoduojama ir vykdoma CPU](../../../../../translated_images/lt/fetch-decode-execute.2fd6f150f6280392807f4475382319abd0cee0b90058e1735444d6baa6f2078c.png)
 
 Mikrovaldikliai turi daug mažesnį laikrodžio greitį nei stalinių ar nešiojamųjų kompiuterių procesoriai ar net dauguma išmaniųjų telefonų. Pavyzdžiui, Wio Terminal CPU veikia 120 MHz arba 120 000 000 ciklų per sekundę greičiu.
 
@@ -127,7 +127,7 @@ Kaip ir su CPU, mikrovaldiklio atmintis yra daug mažesnė nei PC ar Mac kompiut
 
 Žemiau pateikta diagrama parodo santykinį dydžio skirtumą tarp 192KB ir 8GB – mažas taškas centre atspindi 192KB.
 
-![Palyginimas tarp 192KB ir 8GB – daugiau nei 40,000 kartų didesnis](../../../../../translated_images/ram-comparison.6beb73541b42ac6f.lt.png)
+![Palyginimas tarp 192KB ir 8GB – daugiau nei 40,000 kartų didesnis](../../../../../translated_images/lt/ram-comparison.6beb73541b42ac6f.png)
 
 Programų saugykla taip pat yra mažesnė nei PC. Tipinis PC gali turėti 500GB kietąjį diską programų saugojimui, tuo tarpu mikrovaldiklis gali turėti tik kelis kilobaitus arba galbūt kelis megabaitus (MB) saugyklos (1MB yra 1,000KB, arba 1,000,000 baitų). Wio terminalas turi 4MB programų saugyklos.
 
@@ -183,7 +183,7 @@ Arduino plokštės programuojamos C arba C++ kalbomis. Naudojant C/C++ jūsų ko
 
 `Setup` funkcijoje rašytumėte pradinį kodą, pvz., prisijungimą prie WiFi ir debesų paslaugų arba pinų inicializavimą įvesties ir išvesties funkcijoms. `Loop` funkcijoje būtų apdorojimo kodas, pvz., jutiklio reikšmės skaitymas ir siuntimas į debesį. Paprastai pridėtumėte uždelsimą kiekvieno ciklo pabaigoje, pavyzdžiui, jei norite, kad jutiklio duomenys būtų siunčiami kas 10 sekundžių, pridėtumėte 10 sekundžių uždelsimą ciklo pabaigoje, kad mikrovaldiklis galėtų miegoti, taupydamas energiją, ir vėl vykdytų ciklą po 10 sekundžių.
 
-![Arduino eskizas, pirmiausia vykdantis setup, tada nuolat vykdantis loop](../../../../../translated_images/arduino-sketch.79590cb837ff7a7c6a68d1afda6cab83fd53d3bb1bd9a8bf2eaf8d693a4d3ea6.lt.png)
+![Arduino eskizas, pirmiausia vykdantis setup, tada nuolat vykdantis loop](../../../../../translated_images/lt/arduino-sketch.79590cb837ff7a7c6a68d1afda6cab83fd53d3bb1bd9a8bf2eaf8d693a4d3ea6.png)
 
 ✅ Ši programos architektūra vadinama *įvykių ciklu* arba *pranešimų ciklu*. Daugelis programų naudoja šį modelį, ir tai yra standartas daugumai darbalaukio programų, veikiančių OS, kaip Windows, macOS ar Linux. `Loop` stebi pranešimus iš vartotojo sąsajos komponentų, pvz., mygtukų, arba įrenginių, kaip klaviatūra, ir į juos reaguoja. Daugiau galite perskaityti šiame [straipsnyje apie įvykių ciklą](https://wikipedia.org/wiki/Event_loop).
 
@@ -203,17 +203,17 @@ Paskutinėje pamokoje pristatėme vienos plokštės kompiuterius. Dabar pažvelk
 
 ### Raspberry Pi
 
-![Raspberry Pi logotipas](../../../../../translated_images/raspberry-pi-logo.4efaa16605cee054.lt.png)
+![Raspberry Pi logotipas](../../../../../translated_images/lt/raspberry-pi-logo.4efaa16605cee054.png)
 
 [Raspberry Pi Foundation](https://www.raspberrypi.org) yra JK labdaros organizacija, įkurta 2009 m., siekiant skatinti kompiuterių mokslo studijas, ypač mokyklose. Kaip šios misijos dalį, jie sukūrė vienos plokštės kompiuterį, vadinamą Raspberry Pi. Raspberry Pi šiuo metu yra prieinami 3 variantais – pilno dydžio versija, mažesnė Pi Zero ir kompiuterio modulis, kurį galima integruoti į galutinį IoT įrenginį.
 
-![Raspberry Pi 4](../../../../../translated_images/raspberry-pi-4.fd4590d308c3d456.lt.jpg)
+![Raspberry Pi 4](../../../../../translated_images/lt/raspberry-pi-4.fd4590d308c3d456.jpg)
 
 Naujausia pilno dydžio Raspberry Pi versija yra Raspberry Pi 4B. Ji turi keturių branduolių (4 branduoliai) CPU, veikiantį 1.5GHz dažniu, 2, 4 arba 8GB RAM, gigabitinį Ethernet, WiFi, 2 HDMI prievadus, palaikančius 4k ekranus, garso ir kompozitinio vaizdo išvesties prievadą, USB prievadus (2 USB 2.0, 2 USB 3.0), 40 GPIO pinų, kameros jungtį Raspberry Pi kameros moduliui ir SD kortelės lizdą. Visa tai ant plokštės, kurios dydis yra 88mm x 58mm x 19.5mm, ir kurią maitina 3A USB-C maitinimo šaltinis. Šios plokštės kainuoja nuo 35 JAV dolerių, žymiai pigiau nei PC ar Mac.
 
 > 💁 Taip pat yra Pi400 – viskas viename kompiuteris su Pi4, integruotu į klaviatūrą.
 
-![Raspberry Pi Zero](../../../../../translated_images/raspberry-pi-zero.f7a4133e1e7d54bb.lt.jpg)
+![Raspberry Pi Zero](../../../../../translated_images/lt/raspberry-pi-zero.f7a4133e1e7d54bb.jpg)
 
 Pi Zero yra daug mažesnis ir mažiau galingas. Jis turi vieno branduolio 1GHz CPU, 512MB RAM, WiFi (Zero W modelyje), vieną HDMI prievadą, mikro-USB prievadą, 40 GPIO pinų, kameros jungtį Raspberry Pi kameros moduliui ir SD kortelės lizdą. Jo matmenys yra 65mm x 30mm x 5mm, ir jis sunaudoja labai mažai energijos. Zero kainuoja 5 JAV dolerius, o W versija su WiFi – 10 JAV dolerių.
 
