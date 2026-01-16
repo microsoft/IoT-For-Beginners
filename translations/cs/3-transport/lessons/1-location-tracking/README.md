@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Sledování polohy
 
-![Přehled této lekce ve formě sketchnote](../../../../../translated_images/lesson-11.9fddbac4b664c6d50ab7ac9bb32f1fc3f945f03760e72f7f43938073762fb017.cs.jpg)
+![Přehled této lekce ve formě sketchnote](../../../../../translated_images/cs/lesson-11.9fddbac4b664c6d50ab7ac9bb32f1fc3f945f03760e72f7f43938073762fb017.jpg)
 
 > Sketchnote od [Nitya Narasimhan](https://github.com/nitya). Klikněte na obrázek pro větší verzi.
 
@@ -72,13 +72,13 @@ Země je koule – trojrozměrný kruh. Z tohoto důvodu jsou body definovány r
 
 > 💁 Nikdo přesně neví, proč jsou kruhy rozděleny na 360 stupňů. [Stránka o stupních (úhlech) na Wikipedii](https://wikipedia.org/wiki/Degree_(angle)) pokrývá některé možné důvody.
 
-![Čáry zeměpisné šířky od 90° na severním pólu, 45° v polovině mezi severním pólem a rovníkem, 0° na rovníku, -45° v polovině mezi rovníkem a jižním pólem a -90° na jižním pólu](../../../../../translated_images/latitude-lines.11d8d91dfb2014a57437272d7db7fd6607243098e8685f06e0c5f1ec984cb7eb.cs.png)
+![Čáry zeměpisné šířky od 90° na severním pólu, 45° v polovině mezi severním pólem a rovníkem, 0° na rovníku, -45° v polovině mezi rovníkem a jižním pólem a -90° na jižním pólu](../../../../../translated_images/cs/latitude-lines.11d8d91dfb2014a57437272d7db7fd6607243098e8685f06e0c5f1ec984cb7eb.png)
 
 Zeměpisná šířka se měří pomocí čar, které obkružují Zemi a běží paralelně s rovníkem, rozdělují severní a jižní polokouli na 90° každou. Rovník je na 0°, severní pól je na 90°, také známý jako 90° severní šířky, a jižní pól je na -90°, nebo 90° jižní šířky.
 
 Zeměpisná délka se měří jako počet stupňů na východ a západ. Nulový poledník, označovaný jako *Prime Meridian*, byl v roce 1884 definován jako čára od severního k jižnímu pólu, která prochází [Královskou observatoří v Greenwichi, Anglie](https://wikipedia.org/wiki/Royal_Observatory,_Greenwich).
 
-![Čáry zeměpisné délky od -180° západně od Prime Meridian, přes 0° na Prime Meridian, až po 180° východně od Prime Meridian](../../../../../translated_images/longitude-meridians.ab4ef1c91c064586b0185a3c8d39e585903696c6a7d28c098a93a629cddb5d20.cs.png)
+![Čáry zeměpisné délky od -180° západně od Prime Meridian, přes 0° na Prime Meridian, až po 180° východně od Prime Meridian](../../../../../translated_images/cs/longitude-meridians.ab4ef1c91c064586b0185a3c8d39e585903696c6a7d28c098a93a629cddb5d20.png)
 
 > 🎓 Poledník je imaginární přímka, která vede od severního pólu k jižnímu pólu a tvoří půlkruh.
 
@@ -109,7 +109,7 @@ Souřadnice bodu se vždy uvádějí jako `zeměpisná šířka, zeměpisná dé
 * Zeměpisnou šířku 47.6423109 (47.6423109 stupňů severně od rovníku)
 * Zeměpisnou délku -122.1390293 (122.1390293 stupňů západně od Prime Meridian).
 
-![Kampus Microsoftu na 47.6423109,-122.117198](../../../../../translated_images/microsoft-gps-location-world.a321d481b010f6adfcca139b2ba0adc53b79f58a540495b8e2ce7f779ea64bfe.cs.png)
+![Kampus Microsoftu na 47.6423109,-122.117198](../../../../../translated_images/cs/microsoft-gps-location-world.a321d481b010f6adfcca139b2ba0adc53b79f58a540495b8e2ce7f779ea64bfe.png)
 
 ## Globální polohové systémy (GPS)
 
@@ -121,7 +121,7 @@ GPS systémy fungují tak, že mají řadu satelitů, které vysílají signál 
 
 > 💁 GPS senzory potřebují antény k detekci rádiových vln. Antény zabudované do nákladních aut a aut s vestavěným GPS jsou umístěny tak, aby měly dobrý signál, obvykle na čelním skle nebo střeše. Pokud používáte samostatný GPS systém, například chytrý telefon nebo IoT zařízení, musíte zajistit, aby anténa zabudovaná do GPS systému nebo telefonu měla jasný výhled na oblohu, například byla namontována na čelním skle.
 
-![Díky znalosti vzdálenosti od senzoru k více satelitům lze vypočítat polohu](../../../../../translated_images/gps-satellites.04acf1148fe25fbf1586bc2e8ba698e8d79b79a50c36824b38417dd13372b90f.cs.png)
+![Díky znalosti vzdálenosti od senzoru k více satelitům lze vypočítat polohu](../../../../../translated_images/cs/gps-satellites.04acf1148fe25fbf1586bc2e8ba698e8d79b79a50c36824b38417dd13372b90f.png)
 
 GPS satelity obíhají Zemi, nejsou na pevném bodě nad senzorem, takže data o poloze zahrnují nadmořskou výšku nad hladinou moře i zeměpisnou šířku a délku.
 

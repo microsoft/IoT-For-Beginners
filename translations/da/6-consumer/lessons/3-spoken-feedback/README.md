@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Indstil en timer og giv mundtlig feedback
 
-![En sketchnote-oversigt over denne lektion](../../../../../translated_images/lesson-23.f38483e1d4df4828990d3f02d60e46c978b075d384ae7cb4f7bab738e107c850.da.jpg)
+![En sketchnote-oversigt over denne lektion](../../../../../translated_images/da/lesson-23.f38483e1d4df4828990d3f02d60e46c978b075d384ae7cb4f7bab738e107c850.jpg)
 
 > Sketchnote af [Nitya Narasimhan](https://github.com/nitya). Klik på billedet for en større version.
 
@@ -37,7 +37,7 @@ I denne lektion dækker vi:
 
 Tekst til tale, som navnet antyder, er processen med at konvertere tekst til lyd, der indeholder teksten som talte ord. Den grundlæggende idé er at nedbryde ordene i teksten til deres bestanddele lyde (kendt som fonemer) og sy sammen lyd for disse lyde, enten ved hjælp af forudindspillet lyd eller lyd genereret af AI-modeller.
 
-![De tre trin i typiske tekst-til-tale-systemer](../../../../../translated_images/tts-overview.193843cf3f5ee09f.da.png)
+![De tre trin i typiske tekst-til-tale-systemer](../../../../../translated_images/da/tts-overview.193843cf3f5ee09f.png)
 
 Tekst-til-tale-systemer har typisk 3 trin:
 

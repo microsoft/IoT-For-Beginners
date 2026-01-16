@@ -43,7 +43,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 1. যদি আপনি ReSpeaker 2-Mics Pi HAT ব্যবহার করেন, তাহলে Grove বেস হ্যাটটি সরিয়ে ফেলুন এবং তার জায়গায় ReSpeaker হ্যাটটি লাগান।
 
-    ![ReSpeaker হ্যাট সহ একটি রাস্পবেরি পাই](../../../../../translated_images/pi-respeaker-hat.f00fabe7dd039a93e2e0aa0fc946c9af0c6a9eb17c32fa1ca097fb4e384f69f0.bn.png)
+    ![ReSpeaker হ্যাট সহ একটি রাস্পবেরি পাই](../../../../../translated_images/bn/pi-respeaker-hat.f00fabe7dd039a93e2e0aa0fc946c9af0c6a9eb17c32fa1ca097fb4e384f69f0.png)
 
     এই পাঠের পরে একটি Grove বোতাম প্রয়োজন হবে, তবে এই হ্যাটে একটি বিল্ট-ইন বোতাম রয়েছে, তাই Grove বেস হ্যাটটি প্রয়োজন নেই।
 

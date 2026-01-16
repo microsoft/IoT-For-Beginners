@@ -25,7 +25,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 ### Εργασία - σύνδεση της κάμερας
 
-![Μια κάμερα Raspberry Pi](../../../../../translated_images/pi-camera-module.4278753c31bd6e757aa2b858be97d72049f71616278cefe4fb5abb485b40a078.el.png)
+![Μια κάμερα Raspberry Pi](../../../../../translated_images/el/pi-camera-module.4278753c31bd6e757aa2b858be97d72049f71616278cefe4fb5abb485b40a078.png)
 
 1. Απενεργοποιήστε το Pi.
 
@@ -33,17 +33,17 @@ CO_OP_TRANSLATOR_METADATA:
 
     Μπορείτε να βρείτε μια κινούμενη εικόνα που δείχνει πώς να ανοίξετε το κλιπ και να εισάγετε το καλώδιο στην [τεκμηρίωση Raspberry Pi Getting Started with the Camera module](https://projects.raspberrypi.org/en/projects/getting-started-with-picamera/2).
 
-    ![Το καλώδιο κορδέλας εισάγεται στη μονάδα κάμερας](../../../../../translated_images/pi-camera-ribbon-cable.0bf82acd251611c21ac616f082849413e2b322a261d0e4f8fec344248083b07e.el.png)
+    ![Το καλώδιο κορδέλας εισάγεται στη μονάδα κάμερας](../../../../../translated_images/el/pi-camera-ribbon-cable.0bf82acd251611c21ac616f082849413e2b322a261d0e4f8fec344248083b07e.png)
 
 1. Αφαιρέστε το Grove Base Hat από το Pi.
 
 1. Περάστε το καλώδιο κορδέλας μέσα από την υποδοχή κάμερας στο Grove Base Hat. Βεβαιωθείτε ότι η μπλε πλευρά του καλωδίου κοιτάζει προς τις αναλογικές θύρες με την ένδειξη **A0**, **A1** κ.λπ.
 
-    ![Το καλώδιο κορδέλας περνάει μέσα από το Grove Base Hat](../../../../../translated_images/grove-base-hat-ribbon-cable.501fed202fcf73b11b2b68f6d246189f7d15d3e4423c572ddee79d77b4632b47.el.png)
+    ![Το καλώδιο κορδέλας περνάει μέσα από το Grove Base Hat](../../../../../translated_images/el/grove-base-hat-ribbon-cable.501fed202fcf73b11b2b68f6d246189f7d15d3e4423c572ddee79d77b4632b47.png)
 
 1. Εισάγετε το καλώδιο κορδέλας στην υποδοχή κάμερας στο Pi. Και πάλι, τραβήξτε το μαύρο πλαστικό κλιπ προς τα πάνω, εισάγετε το καλώδιο και στη συνέχεια πιέστε το κλιπ πίσω στη θέση του. Η μπλε πλευρά του καλωδίου πρέπει να κοιτάζει προς τις θύρες USB και ethernet.
 
-    ![Το καλώδιο κορδέλας συνδέεται στην υποδοχή κάμερας στο Pi](../../../../../translated_images/pi-camera-socket-ribbon-cable.a18309920b11800911082ed7aa6fb28e6d9be3a022e4079ff990016cae3fca10.el.png)
+    ![Το καλώδιο κορδέλας συνδέεται στην υποδοχή κάμερας στο Pi](../../../../../translated_images/el/pi-camera-socket-ribbon-cable.a18309920b11800911082ed7aa6fb28e6d9be3a022e4079ff990016cae3fca10.png)
 
 1. Επανατοποθετήστε το Grove Base Hat.
 
@@ -110,7 +110,7 @@ CO_OP_TRANSLATOR_METADATA:
 
     Η γραμμή `camera.rotation = 0` ορίζει την περιστροφή της εικόνας. Το καλώδιο κορδέλας εισέρχεται στο κάτω μέρος της κάμερας, αλλά αν η κάμερά σας περιστραφεί για να δείχνει πιο εύκολα το αντικείμενο που θέλετε να ταξινομήσετε, τότε μπορείτε να αλλάξετε αυτή τη γραμμή στον αριθμό των μοιρών περιστροφής.
 
-    ![Η κάμερα κρεμασμένη πάνω από ένα κουτί αναψυκτικού](../../../../../translated_images/pi-camera-upside-down.5376961ba31459883362124152ad6b823d5ac5fc14e85f317e22903bd681c2b6.el.png)
+    ![Η κάμερα κρεμασμένη πάνω από ένα κουτί αναψυκτικού](../../../../../translated_images/el/pi-camera-upside-down.5376961ba31459883362124152ad6b823d5ac5fc14e85f317e22903bd681c2b6.png)
 
     Για παράδειγμα, αν κρεμάσετε το καλώδιο κορδέλας πάνω από κάτι ώστε να βρίσκεται στην κορυφή της κάμερας, τότε ορίστε την περιστροφή να είναι 180:
 

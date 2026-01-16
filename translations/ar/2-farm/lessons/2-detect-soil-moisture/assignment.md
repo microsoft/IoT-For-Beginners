@@ -29,7 +29,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 يتم حساب رطوبة التربة الجاذبية كالتالي:
 
-![نسبة رطوبة التربة هي وزن التربة الرطبة ناقص وزن التربة الجافة، مقسومًا على وزن التربة الجافة، مضروبًا في 100](../../../../../translated_images/gsm-calculation.6da38c6201eec14e7573bb2647aa18892883193553d23c9d77e5dc681522dfb2.ar.png)
+![نسبة رطوبة التربة هي وزن التربة الرطبة ناقص وزن التربة الجافة، مقسومًا على وزن التربة الجافة، مضروبًا في 100](../../../../../translated_images/ar/gsm-calculation.6da38c6201eec14e7573bb2647aa18892883193553d23c9d77e5dc681522dfb2.png)
 
 * W  
 - وزن التربة الرطبة  
@@ -38,7 +38,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 على سبيل المثال، لديك عينة تربة وزنها 212 جرام وهي رطبة، و197 جرام وهي جافة.
 
-![الحساب مكتمل](../../../../../translated_images/gsm-calculation-example.99f9803b4f29e97668e7c15412136c0c399ab12dbba0b89596fdae9d8aedb6fb.ar.png)
+![الحساب مكتمل](../../../../../translated_images/ar/gsm-calculation-example.99f9803b4f29e97668e7c15412136c0c399ab12dbba0b89596fdae9d8aedb6fb.png)
 
 * W = 212g  
 * W = 197g  

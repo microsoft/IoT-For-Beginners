@@ -25,11 +25,11 @@ CO_OP_TRANSLATOR_METADATA:
 
 قم بتوصيل الكاميرا.
 
-![مستشعر ArduCam](../../../../../translated_images/arducam.20e4e4cbb268296570b5914e20d6c349fc42ddac9ed4e1b9deba2188204eebae.ar.png)
+![مستشعر ArduCam](../../../../../translated_images/ar/arducam.20e4e4cbb268296570b5914e20d6c349fc42ddac9ed4e1b9deba2188204eebae.png)
 
 1. يجب توصيل الدبابيس الموجودة في قاعدة ArduCam بدبابيس GPIO على Wio Terminal. لتسهيل العثور على الدبابيس الصحيحة، قم بتثبيت ملصق دبابيس GPIO الذي يأتي مع Wio Terminal حول الدبابيس:
 
-    ![Wio Terminal مع ملصق دبابيس GPIO](../../../../../translated_images/wio-terminal-pin-sticker.b90b1535937b84bd.ar.png)
+    ![Wio Terminal مع ملصق دبابيس GPIO](../../../../../translated_images/ar/wio-terminal-pin-sticker.b90b1535937b84bd.png)
 
 1. باستخدام أسلاك التوصيل، قم بإجراء الاتصالات التالية:
 
@@ -44,7 +44,7 @@ CO_OP_TRANSLATOR_METADATA:
     | SDA          | 3 (I2C1_SDA)      | بيانات تسلسلية I2C                    |
     | SCL          | 5 (I2C1_SCL)      | ساعة تسلسلية I2C                      |
 
-    ![Wio Terminal متصل بـ ArduCam باستخدام أسلاك التوصيل](../../../../../translated_images/arducam-wio-terminal-connections.a4d5a4049bdb5ab800a2877389fc6ecf5e4ff307e6451ff56c517e6786467d0a.ar.png)
+    ![Wio Terminal متصل بـ ArduCam باستخدام أسلاك التوصيل](../../../../../translated_images/ar/arducam-wio-terminal-connections.a4d5a4049bdb5ab800a2877389fc6ecf5e4ff307e6451ff56c517e6786467d0a.png)
 
     توفر اتصالات GND وVCC مصدر طاقة 5 فولت لـ ArduCam. تعمل الكاميرا بجهد 5 فولت، على عكس مستشعرات Grove التي تعمل بجهد 3 فولت. يأتي هذا الطاقة مباشرة من اتصال USB-C الذي يغذي الجهاز.
 
@@ -297,7 +297,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 1. تعمل المتحكمات الدقيقة على تشغيل الكود الخاص بك بشكل مستمر، لذا ليس من السهل تشغيل شيء مثل التقاط صورة دون الاستجابة لمستشعر. يحتوي Wio Terminal على أزرار، لذا يمكن إعداد الكاميرا لتشغيلها بواسطة أحد الأزرار. أضف الكود التالي إلى نهاية وظيفة `setup` لتكوين زر C (أحد الأزرار الثلاثة في الأعلى، الأقرب إلى مفتاح التشغيل).
 
-    ![زر C في الأعلى بالقرب من مفتاح التشغيل](../../../../../translated_images/wio-terminal-c-button.73df3cb1c1445ea0.ar.png)
+    ![زر C في الأعلى بالقرب من مفتاح التشغيل](../../../../../translated_images/ar/wio-terminal-c-button.73df3cb1c1445ea0.png)
 
     ```cpp
     pinMode(WIO_KEY_C, INPUT_PULLUP);
@@ -465,7 +465,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 1. قم بإيقاف تشغيل بطاقة microSD وقم بإخراجها عن طريق دفعها قليلاً وإطلاقها، وستخرج. قد تحتاج إلى استخدام أداة رفيعة للقيام بذلك. قم بتوصيل بطاقة microSD بجهاز الكمبيوتر الخاص بك لعرض الصور.
 
-    ![صورة موزة تم التقاطها باستخدام ArduCam](../../../../../translated_images/banana-arducam.be1b32d4267a8194b0fd042362e56faa431da9cd4af172051b37243ea9be0256.ar.jpg)
+    ![صورة موزة تم التقاطها باستخدام ArduCam](../../../../../translated_images/ar/banana-arducam.be1b32d4267a8194b0fd042362e56faa431da9cd4af172051b37243ea9be0256.jpg)
 > 💁 قد يستغرق الأمر بضع صور حتى يتكيف توازن اللون الأبيض في الكاميرا. ستلاحظ ذلك بناءً على لون الصور الملتقطة، قد تبدو الصور الأولى غير متوازنة في الألوان. يمكنك دائمًا التغلب على ذلك عن طريق تعديل الكود لالتقاط بضع صور يتم تجاهلها في وظيفة `setup`.
 
 

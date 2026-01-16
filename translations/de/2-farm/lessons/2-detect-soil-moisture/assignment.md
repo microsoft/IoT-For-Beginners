@@ -29,7 +29,7 @@ Du musst diese Schritte mehrfach wiederholen, um die benötigten Messwerte zu er
 
 Der gravimetrische Bodenfeuchtigkeitsgehalt wird wie folgt berechnet:
 
-![Bodenfeuchtigkeit % ist Gewicht nass minus Gewicht trocken, geteilt durch Gewicht trocken, mal 100](../../../../../translated_images/gsm-calculation.6da38c6201eec14e7573bb2647aa18892883193553d23c9d77e5dc681522dfb2.de.png)
+![Bodenfeuchtigkeit % ist Gewicht nass minus Gewicht trocken, geteilt durch Gewicht trocken, mal 100](../../../../../translated_images/de/gsm-calculation.6da38c6201eec14e7573bb2647aa18892883193553d23c9d77e5dc681522dfb2.png)
 
 * W
 - das Gewicht des nassen Bodens
@@ -38,7 +38,7 @@ Der gravimetrische Bodenfeuchtigkeitsgehalt wird wie folgt berechnet:
 
 Zum Beispiel: Angenommen, du hast eine Bodenprobe, die 212g nass und 197g trocken wiegt.
 
-![Die ausgefüllte Berechnung](../../../../../translated_images/gsm-calculation-example.99f9803b4f29e97668e7c15412136c0c399ab12dbba0b89596fdae9d8aedb6fb.de.png)
+![Die ausgefüllte Berechnung](../../../../../translated_images/de/gsm-calculation-example.99f9803b4f29e97668e7c15412136c0c399ab12dbba0b89596fdae9d8aedb6fb.png)
 
 * W = 212g
 * W = 197g

@@ -47,11 +47,11 @@ Fügen Sie die Feuchtigkeits- und Temperatursensoren zur CounterFit-App hinzu.
 
     1. Wählen Sie die Schaltfläche **Add**, um den Feuchtigkeitssensor auf Pin 5 zu erstellen.
 
-    ![Die Einstellungen des Feuchtigkeitssensors](../../../../../translated_images/counterfit-create-humidity-sensor.2750e27b6f30e09cf4e22101defd5252710717620816ab41ba688f91f757c49a.de.png)
+    ![Die Einstellungen des Feuchtigkeitssensors](../../../../../translated_images/de/counterfit-create-humidity-sensor.2750e27b6f30e09cf4e22101defd5252710717620816ab41ba688f91f757c49a.png)
 
     Der Feuchtigkeitssensor wird erstellt und erscheint in der Sensorenliste.
 
-    ![Der erstellte Feuchtigkeitssensor](../../../../../translated_images/counterfit-humidity-sensor.7b12f7f339e430cb26c8211d2dba4ef75261b353a01da0932698b5bebd693f27.de.png)
+    ![Der erstellte Feuchtigkeitssensor](../../../../../translated_images/de/counterfit-humidity-sensor.7b12f7f339e430cb26c8211d2dba4ef75261b353a01da0932698b5bebd693f27.png)
 
 1. Erstellen Sie einen Temperatursensor:
 
@@ -63,11 +63,11 @@ Fügen Sie die Feuchtigkeits- und Temperatursensoren zur CounterFit-App hinzu.
 
     1. Wählen Sie die Schaltfläche **Add**, um den Temperatursensor auf Pin 6 zu erstellen.
 
-    ![Die Einstellungen des Temperatursensors](../../../../../translated_images/counterfit-create-temperature-sensor.199350ed34f7343d79dccbe95eaf6c11d2121f03d1c35ab9613b330c23f39b29.de.png)
+    ![Die Einstellungen des Temperatursensors](../../../../../translated_images/de/counterfit-create-temperature-sensor.199350ed34f7343d79dccbe95eaf6c11d2121f03d1c35ab9613b330c23f39b29.png)
 
     Der Temperatursensor wird erstellt und erscheint in der Sensorenliste.
 
-    ![Der erstellte Temperatursensor](../../../../../translated_images/counterfit-temperature-sensor.f0560236c96a9016bafce7f6f792476fe3367bc6941a1f7d5811d144d4bcbfff.de.png)
+    ![Der erstellte Temperatursensor](../../../../../translated_images/de/counterfit-temperature-sensor.f0560236c96a9016bafce7f6f792476fe3367bc6941a1f7d5811d144d4bcbfff.png)
 
 ## Programmieren der Temperatursensor-App
 

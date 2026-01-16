@@ -43,11 +43,11 @@ CO_OP_TRANSLATOR_METADATA:
 
     1. اختر زر **إضافة** لإنشاء الكاميرا.
 
-    ![إعدادات الكاميرا](../../../../../translated_images/counterfit-create-camera.a5de97f59c0bd3cbe0416d7e89a3cfe86d19fbae05c641c53a91286412af0a34.ar.png)
+    ![إعدادات الكاميرا](../../../../../translated_images/ar/counterfit-create-camera.a5de97f59c0bd3cbe0416d7e89a3cfe86d19fbae05c641c53a91286412af0a34.png)
 
     سيتم إنشاء الكاميرا وستظهر في قائمة المستشعرات.
 
-    ![الكاميرا التي تم إنشاؤها](../../../../../translated_images/counterfit-camera.001ec52194c8ee5d3f617173da2c79e1df903d10882adc625cbfc493525125d4.ar.png)
+    ![الكاميرا التي تم إنشاؤها](../../../../../translated_images/ar/counterfit-camera.001ec52194c8ee5d3f617173da2c79e1df903d10882adc625cbfc493525125d4.png)
 
 ## برمجة الكاميرا
 
@@ -112,7 +112,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 1. قم بتكوين الصورة التي ستلتقطها الكاميرا في CounterFit. يمكنك إما تعيين *المصدر* إلى *ملف*، ثم تحميل ملف صورة، أو تعيين *المصدر* إلى *كاميرا ويب*، وسيتم التقاط الصور من كاميرا الويب الخاصة بك. تأكد من اختيار زر **تعيين** بعد اختيار صورة أو تحديد كاميرا الويب.
 
-    ![CounterFit مع ملف تم تعيينه كمصدر للصورة، وكاميرا ويب تعرض شخصًا يحمل موزة في معاينة الكاميرا](../../../../../translated_images/counterfit-camera-options.eb3bd5150a8e7dffbf24bc5bcaba0cf2cdef95fbe6bbe393695d173817d6b8df.ar.png)
+    ![CounterFit مع ملف تم تعيينه كمصدر للصورة، وكاميرا ويب تعرض شخصًا يحمل موزة في معاينة الكاميرا](../../../../../translated_images/ar/counterfit-camera-options.eb3bd5150a8e7dffbf24bc5bcaba0cf2cdef95fbe6bbe393695d173817d6b8df.png)
 
 1. سيتم التقاط صورة وحفظها كـ `image.jpg` في المجلد الحالي. سترى هذا الملف في مستكشف VS Code. اختر الملف لعرض الصورة. إذا كانت بحاجة إلى تدوير، قم بتحديث السطر `camera.rotation = 0` حسب الضرورة والتقط صورة أخرى.
 

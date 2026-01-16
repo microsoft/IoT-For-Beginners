@@ -25,7 +25,7 @@ Raspberry Pi се нуждае от камера.
 
 ### Задача - свържете камерата
 
-![Камера за Raspberry Pi](../../../../../translated_images/pi-camera-module.4278753c31bd6e757aa2b858be97d72049f71616278cefe4fb5abb485b40a078.bg.png)
+![Камера за Raspberry Pi](../../../../../translated_images/bg/pi-camera-module.4278753c31bd6e757aa2b858be97d72049f71616278cefe4fb5abb485b40a078.png)
 
 1. Изключете захранването на Raspberry Pi.
 
@@ -33,17 +33,17 @@ Raspberry Pi се нуждае от камера.
 
    Можете да намерите анимация, показваща как да отворите клипса и да поставите кабела, в [документацията за започване с камерата на Raspberry Pi](https://projects.raspberrypi.org/en/projects/getting-started-with-picamera/2).
 
-   ![Лентовият кабел, поставен в модула на камерата](../../../../../translated_images/pi-camera-ribbon-cable.0bf82acd251611c21ac616f082849413e2b322a261d0e4f8fec344248083b07e.bg.png)
+   ![Лентовият кабел, поставен в модула на камерата](../../../../../translated_images/bg/pi-camera-ribbon-cable.0bf82acd251611c21ac616f082849413e2b322a261d0e4f8fec344248083b07e.png)
 
 1. Свалете Grove Base Hat от Raspberry Pi.
 
 1. Прекарайте лентовия кабел през отвора за камерата в Grove Base Hat. Уверете се, че синята страна на кабела е обърната към аналоговите портове, обозначени като **A0**, **A1** и т.н.
 
-   ![Лентовият кабел, преминаващ през Grove Base Hat](../../../../../translated_images/grove-base-hat-ribbon-cable.501fed202fcf73b11b2b68f6d246189f7d15d3e4423c572ddee79d77b4632b47.bg.png)
+   ![Лентовият кабел, преминаващ през Grove Base Hat](../../../../../translated_images/bg/grove-base-hat-ribbon-cable.501fed202fcf73b11b2b68f6d246189f7d15d3e4423c572ddee79d77b4632b47.png)
 
 1. Поставете лентовия кабел в порта за камерата на Raspberry Pi. Отново издърпайте черния пластмасов клипс нагоре, поставете кабела и след това натиснете клипса обратно. Синята страна на кабела трябва да е обърната към USB и Ethernet портовете.
 
-   ![Лентовият кабел, свързан към порта за камерата на Raspberry Pi](../../../../../translated_images/pi-camera-socket-ribbon-cable.a18309920b11800911082ed7aa6fb28e6d9be3a022e4079ff990016cae3fca10.bg.png)
+   ![Лентовият кабел, свързан към порта за камерата на Raspberry Pi](../../../../../translated_images/bg/pi-camera-socket-ribbon-cable.a18309920b11800911082ed7aa6fb28e6d9be3a022e4079ff990016cae3fca10.png)
 
 1. Поставете отново Grove Base Hat.
 
@@ -110,7 +110,7 @@ Raspberry Pi се нуждае от камера.
 
     Линията `camera.rotation = 0` задава ротацията на изображението. Лентовият кабел влиза в долната част на камерата, но ако камерата ви е завъртяна, за да улесни насочването към обекта, който искате да класифицирате, можете да промените тази линия на броя градуси на ротация.
 
-    ![Камерата, висяща над кенче](../../../../../translated_images/pi-camera-upside-down.5376961ba31459883362124152ad6b823d5ac5fc14e85f317e22903bd681c2b6.bg.png)
+    ![Камерата, висяща над кенче](../../../../../translated_images/bg/pi-camera-upside-down.5376961ba31459883362124152ad6b823d5ac5fc14e85f317e22903bd681c2b6.png)
 
     Например, ако окачите лентовия кабел над нещо, така че да е в горната част на камерата, задайте ротацията на 180:
 

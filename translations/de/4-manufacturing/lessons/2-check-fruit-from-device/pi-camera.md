@@ -25,7 +25,7 @@ Die Kamera kann mit einem Flachbandkabel an den Raspberry Pi angeschlossen werde
 
 ### Aufgabe - Kamera anschließen
 
-![Eine Raspberry Pi Kamera](../../../../../translated_images/pi-camera-module.4278753c31bd6e757aa2b858be97d72049f71616278cefe4fb5abb485b40a078.de.png)
+![Eine Raspberry Pi Kamera](../../../../../translated_images/de/pi-camera-module.4278753c31bd6e757aa2b858be97d72049f71616278cefe4fb5abb485b40a078.png)
 
 1. Schalten Sie den Pi aus.
 
@@ -33,17 +33,17 @@ Die Kamera kann mit einem Flachbandkabel an den Raspberry Pi angeschlossen werde
 
     Eine Animation, die zeigt, wie man den Clip öffnet und das Kabel einsteckt, finden Sie in der [Raspberry Pi Dokumentation zum Einstieg mit dem Kameramodul](https://projects.raspberrypi.org/en/projects/getting-started-with-picamera/2).
 
-    ![Das Flachbandkabel in das Kameramodul eingesteckt](../../../../../translated_images/pi-camera-ribbon-cable.0bf82acd251611c21ac616f082849413e2b322a261d0e4f8fec344248083b07e.de.png)
+    ![Das Flachbandkabel in das Kameramodul eingesteckt](../../../../../translated_images/de/pi-camera-ribbon-cable.0bf82acd251611c21ac616f082849413e2b322a261d0e4f8fec344248083b07e.png)
 
 1. Entfernen Sie das Grove Base Hat vom Pi.
 
 1. Führen Sie das Flachbandkabel durch den Kameraschlitz im Grove Base Hat. Achten Sie darauf, dass die blaue Seite des Kabels zu den analogen Ports mit der Beschriftung **A0**, **A1** usw. zeigt.
 
-    ![Das Flachbandkabel durch das Grove Base Hat geführt](../../../../../translated_images/grove-base-hat-ribbon-cable.501fed202fcf73b11b2b68f6d246189f7d15d3e4423c572ddee79d77b4632b47.de.png)
+    ![Das Flachbandkabel durch das Grove Base Hat geführt](../../../../../translated_images/de/grove-base-hat-ribbon-cable.501fed202fcf73b11b2b68f6d246189f7d15d3e4423c572ddee79d77b4632b47.png)
 
 1. Stecken Sie das Flachbandkabel in den Kameraanschluss am Pi. Ziehen Sie erneut den schwarzen Plastikclip hoch, stecken Sie das Kabel ein und drücken Sie den Clip wieder zurück. Die blaue Seite des Kabels sollte zu den USB- und Ethernet-Anschlüssen zeigen.
 
-    ![Das Flachbandkabel am Kameraanschluss des Pi angeschlossen](../../../../../translated_images/pi-camera-socket-ribbon-cable.a18309920b11800911082ed7aa6fb28e6d9be3a022e4079ff990016cae3fca10.de.png)
+    ![Das Flachbandkabel am Kameraanschluss des Pi angeschlossen](../../../../../translated_images/de/pi-camera-socket-ribbon-cable.a18309920b11800911082ed7aa6fb28e6d9be3a022e4079ff990016cae3fca10.png)
 
 1. Setzen Sie das Grove Base Hat wieder ein.
 
@@ -110,7 +110,7 @@ Programmieren Sie das Gerät.
 
     Die Zeile `camera.rotation = 0` legt die Rotation des Bildes fest. Das Flachbandkabel kommt unten in die Kamera, aber wenn Ihre Kamera gedreht wurde, um besser auf das Objekt zu zeigen, das Sie klassifizieren möchten, können Sie diese Zeile auf die Anzahl der Rotationsgrade ändern.
 
-    ![Die Kamera hängt über einer Getränkedose](../../../../../translated_images/pi-camera-upside-down.5376961ba31459883362124152ad6b823d5ac5fc14e85f317e22903bd681c2b6.de.png)
+    ![Die Kamera hängt über einer Getränkedose](../../../../../translated_images/de/pi-camera-upside-down.5376961ba31459883362124152ad6b823d5ac5fc14e85f317e22903bd681c2b6.png)
 
     Wenn Sie beispielsweise das Flachbandkabel über etwas hängen lassen, sodass es oben an der Kamera ist, setzen Sie die Rotation auf 180:
 

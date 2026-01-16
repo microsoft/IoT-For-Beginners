@@ -43,7 +43,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 1. إذا كنت تستخدم ReSpeaker 2-Mics Pi HAT، يمكنك إزالة قاعدة Grove، ثم تثبيت ReSpeaker HAT مكانها.
 
-    ![Raspberry Pi مع ReSpeaker HAT](../../../../../translated_images/pi-respeaker-hat.f00fabe7dd039a93e2e0aa0fc946c9af0c6a9eb17c32fa1ca097fb4e384f69f0.ar.png)
+    ![Raspberry Pi مع ReSpeaker HAT](../../../../../translated_images/ar/pi-respeaker-hat.f00fabe7dd039a93e2e0aa0fc946c9af0c6a9eb17c32fa1ca097fb4e384f69f0.png)
 
     ستحتاج إلى زر Grove لاحقًا في هذا الدرس، ولكن يوجد زر مدمج في هذا HAT، لذا لا حاجة لقاعدة Grove.
 

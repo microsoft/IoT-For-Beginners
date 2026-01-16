@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Hlubší pohled na IoT
 
-![Přehled lekce ve formě sketchnotu](../../../../../translated_images/lesson-2.324b0580d620c25e0a24fb7fddfc0b29a846dd4b82c08e7a9466d580ee78ce51.cs.jpg)
+![Přehled lekce ve formě sketchnotu](../../../../../translated_images/cs/lesson-2.324b0580d620c25e0a24fb7fddfc0b29a846dd4b82c08e7a9466d580ee78ce51.jpg)
 
 > Sketchnote od [Nitya Narasimhan](https://github.com/nitya). Klikněte na obrázek pro větší verzi.
 
@@ -41,13 +41,13 @@ IoT aplikace se skládá ze dvou hlavních částí: *Internetu* a *zařízení*
 
 ### Zařízení
 
-![Raspberry Pi 4](../../../../../translated_images/raspberry-pi-4.fd4590d308c3d456.cs.jpg)
+![Raspberry Pi 4](../../../../../translated_images/cs/raspberry-pi-4.fd4590d308c3d456.jpg)
 
 **Zařízení** v IoT označuje zařízení, které dokáže interagovat s fyzickým světem. Tato zařízení jsou obvykle malá, cenově dostupná a mají nízkou spotřebu energie. Například jednoduché mikrokontroléry s několika kilobajty RAM (oproti gigabajtům v PC), běžící na několika stovkách megahertzů (oproti gigahertzům v PC), ale s tak nízkou spotřebou energie, že mohou fungovat týdny, měsíce nebo dokonce roky na baterie.
 
 Tato zařízení interagují s fyzickým světem buď pomocí senzorů, které sbírají data z okolí, nebo pomocí výstupů či akčních členů, které provádějí fyzické změny. Typickým příkladem je chytrý termostat – zařízení, které má teplotní senzor, prostředek pro nastavení požadované teploty, jako je otočný knoflík nebo dotyková obrazovka, a připojení k topnému nebo chladicímu systému, který lze zapnout, když je detekovaná teplota mimo požadovaný rozsah. Teplotní senzor zjistí, že je v místnosti příliš chladno, a akční člen zapne topení.
 
-![Schéma ukazující teplotu a otočný knoflík jako vstupy do IoT zařízení a ovládání topení jako výstup](../../../../../translated_images/basic-thermostat.a923217fd1f37e5a6f3390396a65c22a387419ea2dd17e518ec24315ba6ae9a8.cs.png)
+![Schéma ukazující teplotu a otočný knoflík jako vstupy do IoT zařízení a ovládání topení jako výstup](../../../../../translated_images/cs/basic-thermostat.a923217fd1f37e5a6f3390396a65c22a387419ea2dd17e518ec24315ba6ae9a8.png)
 
 Existuje obrovská škála různých zařízení, která mohou fungovat jako IoT zařízení, od specializovaného hardwaru, který snímá jednu věc, až po univerzální zařízení, dokonce i váš chytrý telefon! Chytrý telefon může pomocí senzorů detekovat okolní svět a pomocí akčních členů s ním interagovat – například pomocí GPS senzoru zjistit vaši polohu a pomocí reproduktoru vám poskytnout navigační pokyny k cíli.
 
@@ -63,11 +63,11 @@ Zařízení se také nemusí vždy připojovat přímo k internetu přes WiFi ne
 
 V případě chytrého termostatu by se termostat připojil k domácí WiFi a následně ke cloudové službě. Odesílal by data o teplotě do této služby, kde by byla uložena do databáze, což by umožnilo majiteli domu kontrolovat aktuální a historické teploty pomocí aplikace na telefonu. Jiná služba v cloudu by věděla, jakou teplotu majitel domu požaduje, a posílala by zprávy zpět do IoT zařízení přes cloudovou službu, aby řídila topný systém.
 
-![Schéma ukazující teplotu a otočný knoflík jako vstupy do IoT zařízení, obousměrnou komunikaci mezi IoT zařízením a cloudem, který dále komunikuje s telefonem, a ovládání topení jako výstup z IoT zařízení](../../../../../translated_images/mobile-controlled-thermostat.4a994010473d8d6a52ba68c67e5f02dc8928c717e93ca4b9bc55525aa75bbb60.cs.png)
+![Schéma ukazující teplotu a otočný knoflík jako vstupy do IoT zařízení, obousměrnou komunikaci mezi IoT zařízením a cloudem, který dále komunikuje s telefonem, a ovládání topení jako výstup z IoT zařízení](../../../../../translated_images/cs/mobile-controlled-thermostat.4a994010473d8d6a52ba68c67e5f02dc8928c717e93ca4b9bc55525aa75bbb60.png)
 
 Ještě chytřejší verze by mohla využívat AI v cloudu s daty z dalších senzorů připojených k jiným IoT zařízením, jako jsou senzory obsazenosti, které detekují, které místnosti jsou využívány, stejně jako data o počasí nebo váš kalendář, aby inteligentně nastavovala teplotu. Například by mohla vypnout topení, pokud zjistí z vašeho kalendáře, že jste na dovolené, nebo vypnout topení v jednotlivých místnostech podle toho, které místnosti používáte, a postupně se učit z dat, aby byla stále přesnější.
 
-![Schéma ukazující více teplotních senzorů a otočný knoflík jako vstupy do IoT zařízení, obousměrnou komunikaci mezi IoT zařízením a cloudem, který dále komunikuje s telefonem, kalendářem a službou počasí, a ovládání topení jako výstup z IoT zařízení](../../../../../translated_images/smarter-thermostat.a75855f15d2d9e63.cs.png)
+![Schéma ukazující více teplotních senzorů a otočný knoflík jako vstupy do IoT zařízení, obousměrnou komunikaci mezi IoT zařízením a cloudem, který dále komunikuje s telefonem, kalendářem a službou počasí, a ovládání topení jako výstup z IoT zařízení](../../../../../translated_images/cs/smarter-thermostat.a75855f15d2d9e63.png)
 
 ✅ Jaká další data by mohla pomoci udělat internetově připojený termostat chytřejším?
 
@@ -103,7 +103,7 @@ Rychlost hodin je měřena v [Hertzích (Hz)](https://wikipedia.org/wiki/Hertz),
 
 > 💁 CPU vykonávají programy pomocí [cyklu načtení-dekódování-vykonání](https://wikipedia.org/wiki/Instruction_cycle). Každý tik hodin CPU načte další instrukci z paměti, dekóduje ji a poté ji vykoná, například pomocí aritmeticko-logické jednotky (ALU) k sečtení dvou čísel. Některé instrukce trvají více tiků, takže další cyklus začne po dokončení předchozí instrukce.
 
-![Cyklus načtení-dekódování-vykonání ukazující načtení instrukce z programu uloženého v RAM, její dekódování a vykonání na CPU](../../../../../translated_images/fetch-decode-execute.2fd6f150f6280392807f4475382319abd0cee0b90058e1735444d6baa6f2078c.cs.png)
+![Cyklus načtení-dekódování-vykonání ukazující načtení instrukce z programu uloženého v RAM, její dekódování a vykonání na CPU](../../../../../translated_images/cs/fetch-decode-execute.2fd6f150f6280392807f4475382319abd0cee0b90058e1735444d6baa6f2078c.png)
 
 Mikrokontroléry mají mnohem nižší rychlosti hodin než stolní nebo přenosné počítače, nebo dokonce většina chytrých telefonů. Například Wio Terminal má CPU, který běží na 120 MHz, tedy 120 000 000 cyklů za sekundu.
 
@@ -135,7 +135,7 @@ Stejně jako u CPU je paměť na mikrokontroléru o několik řádů menší ne�
 
 Diagram níže ukazuje relativní rozdíl ve velikosti mezi 192 KB a 8 GB - malá tečka uprostřed představuje 192 KB.
 
-![Porovnání mezi 192 KB a 8 GB - více než 40 000krát větší](../../../../../translated_images/ram-comparison.6beb73541b42ac6f.cs.png)
+![Porovnání mezi 192 KB a 8 GB - více než 40 000krát větší](../../../../../translated_images/cs/ram-comparison.6beb73541b42ac6f.png)
 
 Úložiště pro programy je také menší než u PC. Typický počítač může mít 500GB pevný disk pro ukládání programů, zatímco mikrokontrolér může mít pouze kilobajty nebo možná několik megabajtů (MB) úložiště (1 MB je 1 000 KB, nebo 1 000 000 bajtů). Wio terminál má 4 MB úložiště pro programy.
 
@@ -191,7 +191,7 @@ Desky Arduino se programují v jazycích C nebo C++. Použití C/C++ umožňuje,
 
 Do funkce `setup` byste napsali svůj inicializační kód, například připojení k WiFi a cloudovým službám nebo inicializaci pinů pro vstup a výstup. Do funkce `loop` byste pak napsali zpracovatelský kód, například čtení ze senzoru a odesílání hodnoty do cloudu. Obvykle byste do každé smyčky přidali zpoždění, například pokud chcete, aby se data ze senzoru odesílala každých 10 sekund, přidali byste na konci smyčky zpoždění 10 sekund, aby mikrokontrolér mohl spát, šetřit energii, a poté spustit smyčku znovu, když je potřeba.
 
-![Sketch Arduino spouštějící nejprve setup, poté opakovaně loop](../../../../../translated_images/arduino-sketch.79590cb837ff7a7c6a68d1afda6cab83fd53d3bb1bd9a8bf2eaf8d693a4d3ea6.cs.png)
+![Sketch Arduino spouštějící nejprve setup, poté opakovaně loop](../../../../../translated_images/cs/arduino-sketch.79590cb837ff7a7c6a68d1afda6cab83fd53d3bb1bd9a8bf2eaf8d693a4d3ea6.png)
 
 ✅ Tato architektura programu je známá jako *event loop* nebo *message loop*. Mnoho aplikací ji používá na pozadí a je standardem pro většinu desktopových aplikací, které běží na OS jako Windows, macOS nebo Linux. Funkce `loop` naslouchá zprávám z komponent uživatelského rozhraní, jako jsou tlačítka, nebo zařízení, jako je klávesnice, a na ně reaguje. Více si můžete přečíst v tomto [článku o event loop](https://wikipedia.org/wiki/Event_loop).
 
@@ -211,17 +211,17 @@ V minulé lekci jsme představili jednodeskové počítače. Nyní se na ně pod
 
 ### Raspberry Pi
 
-![Logo Raspberry Pi](../../../../../translated_images/raspberry-pi-logo.4efaa16605cee054.cs.png)
+![Logo Raspberry Pi](../../../../../translated_images/cs/raspberry-pi-logo.4efaa16605cee054.png)
 
 [Nadace Raspberry Pi](https://www.raspberrypi.org) je charitativní organizace z Velké Británie založená v roce 2009 na podporu studia informatiky, zejména na školní úrovni. V rámci této mise vyvinuli jednodeskový počítač nazvaný Raspberry Pi. Raspberry Pi jsou aktuálně dostupné ve 3 variantách - plné velikosti, menší Pi Zero a výpočetní modul, který lze zabudovat do vašeho finálního IoT zařízení.
 
-![Raspberry Pi 4](../../../../../translated_images/raspberry-pi-4.fd4590d308c3d456.cs.jpg)
+![Raspberry Pi 4](../../../../../translated_images/cs/raspberry-pi-4.fd4590d308c3d456.jpg)
 
 Nejnovější iterací plnohodnotného Raspberry Pi je Raspberry Pi 4B. Má čtyřjádrový (4 jádra) CPU běžící na 1,5 GHz, 2, 4 nebo 8 GB RAM, gigabitový ethernet, WiFi, 2 HDMI porty podporující 4k obrazovky, audio a kompozitní video výstupní port, USB porty (2 USB 2.0, 2 USB 3.0), 40 GPIO pinů, konektor pro kameru Raspberry Pi a slot na SD kartu. To vše na desce o rozměrech 88 mm x 58 mm x 19,5 mm, napájené 3A USB-C napájecím zdrojem. Tyto desky začínají na ceně 35 USD, což je mnohem levnější než PC nebo Mac.
 
 > 💁 Existuje také Pi400, vše v jednom počítač s Pi4 zabudovaným do klávesnice.
 
-![Raspberry Pi Zero](../../../../../translated_images/raspberry-pi-zero.f7a4133e1e7d54bb.cs.jpg)
+![Raspberry Pi Zero](../../../../../translated_images/cs/raspberry-pi-zero.f7a4133e1e7d54bb.jpg)
 
 Pi Zero je mnohem menší a má nižší výkon. Má jednojádrový 1GHz CPU, 512 MB RAM, WiFi (v modelu Zero W), jeden HDMI port, micro-USB port, 40 GPIO pinů, konektor pro kameru Raspberry Pi a slot na SD kartu. Měří 65 mm x 30 mm x 5 mm a spotřebovává velmi málo energie. Zero stojí 5 USD, verze W s WiFi 10 USD.
 

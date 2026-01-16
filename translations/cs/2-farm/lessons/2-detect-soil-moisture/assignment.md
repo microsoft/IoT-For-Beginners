@@ -29,7 +29,7 @@ Tyto kroky budete muset opakovat několikrát, pokaždé s různou vlhkostí pů
 
 Gravimetrická vlhkost půdy se vypočítá jako:
 
-![vlhkost půdy % je hmotnost mokré půdy minus hmotnost suché půdy, děleno hmotností suché půdy, krát 100](../../../../../translated_images/gsm-calculation.6da38c6201eec14e7573bb2647aa18892883193553d23c9d77e5dc681522dfb2.cs.png)
+![vlhkost půdy % je hmotnost mokré půdy minus hmotnost suché půdy, děleno hmotností suché půdy, krát 100](../../../../../translated_images/cs/gsm-calculation.6da38c6201eec14e7573bb2647aa18892883193553d23c9d77e5dc681522dfb2.png)
 
 * W  
 - hmotnost mokré půdy  
@@ -38,7 +38,7 @@ Gravimetrická vlhkost půdy se vypočítá jako:
 
 Například, máte vzorek půdy, který váží 212 g mokrý a 197 g suchý.
 
-![Vyplněný výpočet](../../../../../translated_images/gsm-calculation-example.99f9803b4f29e97668e7c15412136c0c399ab12dbba0b89596fdae9d8aedb6fb.cs.png)
+![Vyplněný výpočet](../../../../../translated_images/cs/gsm-calculation-example.99f9803b4f29e97668e7c15412136c0c399ab12dbba0b89596fdae9d8aedb6fb.png)
 
 * W = 212 g  
 * W = 197 g  

@@ -217,7 +217,7 @@ Diese Zertifikate enthalten öffentliche Schlüssel und müssen nicht geheim geh
 
     Sie können das aufgenommene Bild und diese Werte im **Predictions**-Tab in Custom Vision sehen.
 
-    ![Eine Banane in Custom Vision, vorhergesagt als reif mit 56,8% und unreif mit 43,1%](../../../../../translated_images/custom-vision-banana-prediction.30cdff4e1d72db5d9a0be0193790a47c2b387da034e12dc1314dd57ca2131b59.de.png)
+    ![Eine Banane in Custom Vision, vorhergesagt als reif mit 56,8% und unreif mit 43,1%](../../../../../translated_images/de/custom-vision-banana-prediction.30cdff4e1d72db5d9a0be0193790a47c2b387da034e12dc1314dd57ca2131b59.png)
 
 > 💁 Sie finden diesen Code im Ordner [code-classify/wio-terminal](../../../../../4-manufacturing/lessons/2-check-fruit-from-device/code-classify/wio-terminal).
 

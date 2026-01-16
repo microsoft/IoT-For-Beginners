@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Geofences
 
-![Eine Sketchnote-Übersicht dieser Lektion](../../../../../translated_images/lesson-14.63980c5150ae3c153e770fb71d044c1845dce79248d86bed9fc525adf3ede73c.de.jpg)
+![Eine Sketchnote-Übersicht dieser Lektion](../../../../../translated_images/de/lesson-14.63980c5150ae3c153e770fb71d044c1845dce79248d86bed9fc525adf3ede73c.jpg)
 
 > Sketchnote von [Nitya Narasimhan](https://github.com/nitya). Klicken Sie auf das Bild für eine größere Version.
 
@@ -44,7 +44,7 @@ In dieser Lektion behandeln wir:
 
 Ein Geofence ist ein virtueller Umkreis für eine reale geografische Region. Geofences können Kreise sein, die als Punkt und Radius definiert sind (zum Beispiel ein Kreis mit einem Durchmesser von 100 m um ein Gebäude), oder ein Polygon, das einen Bereich wie eine Schulzone, Stadtgrenzen oder einen Universitäts- oder Bürocampus abdeckt.
 
-![Einige Beispiele für Geofences, die einen kreisförmigen Geofence um den Microsoft Company Store und einen polygonalen Geofence um den Microsoft West Campus zeigen](../../../../../translated_images/geofence-examples.172fbc534665769f6e1a1ddcf75e3b25183cd10354c80cc603ba44b635390e1a.de.png)
+![Einige Beispiele für Geofences, die einen kreisförmigen Geofence um den Microsoft Company Store und einen polygonalen Geofence um den Microsoft West Campus zeigen](../../../../../translated_images/de/geofence-examples.172fbc534665769f6e1a1ddcf75e3b25183cd10354c80cc603ba44b635390e1a.png)
 
 > 💁 Möglicherweise haben Sie bereits Geofences verwendet, ohne es zu wissen. Wenn Sie eine Erinnerung mit der iOS-Erinnerungs-App oder Google Keep basierend auf einem Standort eingerichtet haben, haben Sie einen Geofence verwendet. Diese Apps richten basierend auf dem angegebenen Standort einen Geofence ein und benachrichtigen Sie, wenn Ihr Telefon den Geofence betritt.
 
@@ -110,7 +110,7 @@ Jeder Punkt des Polygons wird als Längen- und Breitengradpaar in einem Array de
 
 Das Polygon-Koordinaten-Array hat immer einen Eintrag mehr als die Anzahl der Punkte des Polygons, wobei der letzte Eintrag derselbe ist wie der erste, um das Polygon zu schließen. Zum Beispiel hätte ein Rechteck 5 Punkte.
 
-![Ein Rechteck mit Koordinaten](../../../../../translated_images/polygon-points.302193da381cb415.de.png)
+![Ein Rechteck mit Koordinaten](../../../../../translated_images/de/polygon-points.302193da381cb415.png)
 
 Im obigen Bild gibt es ein Rechteck. Die Polygon-Koordinaten beginnen oben links bei 47,-122, bewegen sich dann nach rechts zu 47,-121, dann nach unten zu 46,-121, dann nach links zu 46,-122 und schließlich wieder nach oben zum Startpunkt bei 47,-122. Dies ergibt 5 Punkte für das Polygon – oben links, oben rechts, unten rechts, unten links und dann oben links, um es zu schließen.
 
@@ -208,7 +208,7 @@ Wenn Sie diese Anfrage stellen, können Sie auch einen Wert namens `searchBuffer
 
 Wenn Ergebnisse von der API-Anfrage zurückgegeben werden, ist einer der Teile des Ergebnisses eine `distance`, die bis zum nächstgelegenen Punkt am Rand des Geofence gemessen wird, mit einem positiven Wert, wenn der Punkt außerhalb des Geofence liegt, und einem negativen Wert, wenn er innerhalb des Geofence liegt. Wenn diese Entfernung kleiner als der Suchpuffer ist, wird die tatsächliche Entfernung in Metern zurückgegeben, andernfalls beträgt der Wert 999 oder -999. 999 bedeutet, dass der Punkt mehr als den Suchpuffer außerhalb des Geofence liegt, -999 bedeutet, dass er mehr als den Suchpuffer innerhalb des Geofence liegt.
 
-![Ein Geofence mit einem 50m-Suchpuffer darum](../../../../../translated_images/search-buffer-and-distance.e6a79af3898183c7.de.png)
+![Ein Geofence mit einem 50m-Suchpuffer darum](../../../../../translated_images/de/search-buffer-and-distance.e6a79af3898183c7.png)
 
 Im obigen Bild hat der Geofence einen 50m-Suchpuffer.
 
@@ -221,7 +221,7 @@ Es ist wichtig, die Entfernung zum Rand des Geofence zu kennen und diese mit and
 
 Zum Beispiel stellen Sie sich GPS-Messungen vor, die zeigen, dass ein Fahrzeug auf einer Straße fährt, die neben einem Geofence verläuft. Wenn ein einzelner GPS-Wert ungenau ist und das Fahrzeug innerhalb des Geofence platziert, obwohl es keinen Fahrzeugzugang gibt, kann dies ignoriert werden.
 
-![Eine GPS-Spur, die zeigt, wie ein Fahrzeug den Microsoft Campus auf der 520 passiert, mit GPS-Messungen entlang der Straße, außer einer auf dem Campus, innerhalb eines Geofence](../../../../../translated_images/geofence-crossing-inaccurate-gps.6a3ed911202ad9cabb66d3964888cec03a42c61d5b8f536ad5bdc99716b370f5.de.png)
+![Eine GPS-Spur, die zeigt, wie ein Fahrzeug den Microsoft Campus auf der 520 passiert, mit GPS-Messungen entlang der Straße, außer einer auf dem Campus, innerhalb eines Geofence](../../../../../translated_images/de/geofence-crossing-inaccurate-gps.6a3ed911202ad9cabb66d3964888cec03a42c61d5b8f536ad5bdc99716b370f5.png)
 Auf dem obigen Bild ist ein Geofence über einem Teil des Microsoft-Campus zu sehen. Die rote Linie zeigt einen LKW, der entlang der 520 fährt, mit Kreisen, die die GPS-Messungen darstellen. Die meisten dieser Messungen sind genau und entlang der 520, mit einer ungenauen Messung innerhalb des Geofence. Es ist unmöglich, dass diese Messung korrekt ist – es gibt keine Straßen, auf denen der LKW plötzlich von der 520 auf den Campus abbiegen und dann wieder zurück auf die 520 fahren könnte. Der Code, der diesen Geofence überprüft, muss die vorherigen Messungen berücksichtigen, bevor er auf die Ergebnisse des Geofence-Tests reagiert.
 
 ✅ Welche zusätzlichen Daten würden Sie benötigen, um zu überprüfen, ob eine GPS-Messung als korrekt angesehen werden kann?
@@ -293,7 +293,7 @@ Wie Sie sich aus früheren Lektionen erinnern, ermöglicht der IoT-Hub das Wiede
 
 Die Antwort lautet: Er weiß es nicht! Stattdessen können Sie mehrere separate Verbindungen definieren, um Ereignisse zu lesen, und jede kann die Wiedergabe von ungelesenen Nachrichten verwalten. Diese werden *Consumer Groups* genannt. Wenn Sie sich mit dem Endpunkt verbinden, können Sie angeben, welche Consumer Group Sie verwenden möchten. Jede Komponente Ihrer Anwendung wird sich mit einer anderen Consumer Group verbinden.
 
-![Ein IoT-Hub mit 3 Consumer Groups, die dieselben Nachrichten an 3 verschiedene Functions-Apps verteilen](../../../../../translated_images/consumer-groups.a3262e26fc27ba2092863678ad57af15c7223416e388a23f330c058cf4358630.de.png)
+![Ein IoT-Hub mit 3 Consumer Groups, die dieselben Nachrichten an 3 verschiedene Functions-Apps verteilen](../../../../../translated_images/de/consumer-groups.a3262e26fc27ba2092863678ad57af15c7223416e388a23f330c058cf4358630.png)
 
 Theoretisch können bis zu 5 Anwendungen mit jeder Consumer Group verbunden werden, und sie erhalten alle Nachrichten, wenn diese eintreffen. Es ist jedoch Best Practice, dass nur eine Anwendung auf jede Consumer Group zugreift, um doppelte Nachrichtenverarbeitung zu vermeiden und sicherzustellen, dass beim Neustart alle wartenden Nachrichten korrekt verarbeitet werden. Wenn Sie beispielsweise Ihre Functions-App lokal starten und gleichzeitig in der Cloud ausführen, würden beide Nachrichten verarbeiten, was zu doppelten Blobs im Speicher führt.
 

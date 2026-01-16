@@ -45,11 +45,11 @@ Otherwise
 
     1. Επιλέξτε το κουμπί **Add** για να δημιουργήσετε το LED στο Pin 5.
 
-    ![Οι ρυθμίσεις του LED](../../../../../translated_images/counterfit-create-led.ba9db1c9b8c622a635d6dfae5cdc4e70c2b250635bd4f0601c6cf0bd22b7ba46.el.png)
+    ![Οι ρυθμίσεις του LED](../../../../../translated_images/el/counterfit-create-led.ba9db1c9b8c622a635d6dfae5cdc4e70c2b250635bd4f0601c6cf0bd22b7ba46.png)
 
     Το LED θα δημιουργηθεί και θα εμφανιστεί στη λίστα των ενεργοποιητών.
 
-    ![Το LED δημιουργήθηκε](../../../../../translated_images/counterfit-led.c0ab02de6d256ad84d9bad4d67a7faa709f0ea83e410cfe9b5561ef0cef30b1c.el.png)
+    ![Το LED δημιουργήθηκε](../../../../../translated_images/el/counterfit-led.c0ab02de6d256ad84d9bad4d67a7faa709f0ea83e410cfe9b5561ef0cef30b1c.png)
 
     Αφού δημιουργηθεί το LED, μπορείτε να αλλάξετε το χρώμα χρησιμοποιώντας τον επιλογέα *Color*. Επιλέξτε το κουμπί **Set** για να αλλάξετε το χρώμα αφού το επιλέξετε.
 

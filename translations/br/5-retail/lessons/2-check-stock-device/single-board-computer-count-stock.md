@@ -81,7 +81,7 @@ Como uma etapa útil de depuração, você pode não apenas imprimir as caixas d
 
 1. Execute o aplicativo com a câmera apontada para algum estoque em uma prateleira. Você verá o arquivo `image.jpg` no explorador do VS Code e poderá selecioná-lo para visualizar as caixas delimitadoras.
 
-    ![4 latas de extrato de tomate com caixas delimitadoras ao redor de cada lata](../../../../../translated_images/rpi-stock-with-bounding-boxes.b5540e2ecb7cd49f.br.jpg)
+    ![4 latas de extrato de tomate com caixas delimitadoras ao redor de cada lata](../../../../../translated_images/br/rpi-stock-with-bounding-boxes.b5540e2ecb7cd49f.jpg)
 
 ## Contar estoque
 

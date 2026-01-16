@@ -93,7 +93,7 @@ Custom Vision পরিষেবার একটি পাইথন SDK রয�
 
     আপনি তোলা ছবিটি দেখতে পারবেন এবং এই মানগুলো Custom Vision-এর **Predictions** ট্যাবে দেখতে পারবেন।
 
-    ![Custom Vision-এ একটি কলা, 56.8% পাকা এবং 43.1% কাঁচা হিসেবে প্রেডিক্ট করা হয়েছে](../../../../../translated_images/custom-vision-banana-prediction.30cdff4e1d72db5d9a0be0193790a47c2b387da034e12dc1314dd57ca2131b59.bn.png)
+    ![Custom Vision-এ একটি কলা, 56.8% পাকা এবং 43.1% কাঁচা হিসেবে প্রেডিক্ট করা হয়েছে](../../../../../translated_images/bn/custom-vision-banana-prediction.30cdff4e1d72db5d9a0be0193790a47c2b387da034e12dc1314dd57ca2131b59.png)
 
 > 💁 আপনি এই কোডটি [code-classify/pi](../../../../../4-manufacturing/lessons/2-check-fruit-from-device/code-classify/pi) অথবা [code-classify/virtual-iot-device](../../../../../4-manufacturing/lessons/2-check-fruit-from-device/code-classify/virtual-iot-device) ফোল্ডারে খুঁজে পেতে পারেন।
 

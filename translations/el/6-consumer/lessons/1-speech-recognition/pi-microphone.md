@@ -43,7 +43,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 1. Αν χρησιμοποιείτε το ReSpeaker 2-Mics Pi HAT, μπορείτε να αφαιρέσετε το Grove base hat και να τοποθετήσετε το ReSpeaker hat στη θέση του.
 
-    ![Ένα Raspberry Pi με το ReSpeaker hat](../../../../../translated_images/pi-respeaker-hat.f00fabe7dd039a93e2e0aa0fc946c9af0c6a9eb17c32fa1ca097fb4e384f69f0.el.png)
+    ![Ένα Raspberry Pi με το ReSpeaker hat](../../../../../translated_images/el/pi-respeaker-hat.f00fabe7dd039a93e2e0aa0fc946c9af0c6a9eb17c32fa1ca097fb4e384f69f0.png)
 
     Θα χρειαστείτε ένα κουμπί Grove αργότερα σε αυτό το μάθημα, αλλά ένα είναι ενσωματωμένο σε αυτό το hat, οπότε το Grove base hat δεν είναι απαραίτητο.
 

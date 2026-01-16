@@ -42,7 +42,7 @@ Når du har temperaturdata, kan du bruge Jupyter Notebook i dette repo til at vi
 
     Jupyter starter op og åbner notebooken i din browser. Arbejd dig igennem instruktionerne i notebooken for at visualisere de målte temperaturer og beregne vækstdage (GDD).
 
-    ![Jupyter Notebook](../../../../../translated_images/gdd-jupyter-notebook.c5b52cf21094f158a61f47f455490fd95f1729777ff90861a4521820bf354cdc.da.png)
+    ![Jupyter Notebook](../../../../../translated_images/da/gdd-jupyter-notebook.c5b52cf21094f158a61f47f455490fd95f1729777ff90861a4521820bf354cdc.png)
 
 ## Vurderingskriterier
 

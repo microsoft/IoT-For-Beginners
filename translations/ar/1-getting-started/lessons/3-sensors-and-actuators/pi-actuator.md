@@ -35,7 +35,7 @@ Otherwise
 
 قم بتوصيل الـ LED.
 
-![مصباح Grove LED](../../../../../translated_images/grove-led.6c853be93f473cf2c439cfc74bb1064732b22251a83cedf66e62f783f9cc1a79.ar.png)
+![مصباح Grove LED](../../../../../translated_images/ar/grove-led.6c853be93f473cf2c439cfc74bb1064732b22251a83cedf66e62f783f9cc1a79.png)
 
 1. اختر مصباح LED المفضل لديك وأدخل الأرجل في الفتحتين الموجودتين على وحدة الـ LED.
 
@@ -49,7 +49,7 @@ Otherwise
 
 1. مع إيقاف تشغيل Raspberry Pi، قم بتوصيل الطرف الآخر من كابل Grove بالمقبس الرقمي المميز بعلامة **D5** على قبعة Grove Base المثبتة على Pi. هذا المقبس هو الثاني من اليسار، في صف المقابس بجانب دبابيس GPIO.
 
-![مصباح Grove LED متصل بالمقبس D5](../../../../../translated_images/pi-led.97f1d474981dc35d1c7996c7b17de355d3d0a6bc9606d79fa5f89df933415122.ar.png)
+![مصباح Grove LED متصل بالمقبس D5](../../../../../translated_images/ar/pi-led.97f1d474981dc35d1c7996c7b17de355d3d0a6bc9606d79fa5f89df933415122.png)
 
 ## برمجة المصباح الليلي
 

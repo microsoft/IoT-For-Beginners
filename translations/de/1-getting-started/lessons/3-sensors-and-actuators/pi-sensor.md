@@ -25,13 +25,13 @@ Der Grove-Lichtsensor, der die Lichtstärke misst, muss mit dem Raspberry Pi ver
 
 Verbinde den Lichtsensor.
 
-![Ein Grove-Lichtsensor](../../../../../translated_images/grove-light-sensor.b8127b7c434e632d6bcdb57587a14e9ef69a268a22df95d08628f62b8fa5505c.de.png)
+![Ein Grove-Lichtsensor](../../../../../translated_images/de/grove-light-sensor.b8127b7c434e632d6bcdb57587a14e9ef69a268a22df95d08628f62b8fa5505c.png)
 
 1. Stecke ein Ende eines Grove-Kabels in die Buchse des Lichtsensormoduls. Es passt nur in einer Richtung.
 
 1. Schalte den Raspberry Pi aus und verbinde das andere Ende des Grove-Kabels mit der analogen Buchse, die mit **A0** auf dem Grove Base Hat markiert ist. Diese Buchse ist die zweite von rechts in der Reihe der Buchsen neben den GPIO-Pins.
 
-![Der Grove-Lichtsensor, verbunden mit Buchse A0](../../../../../translated_images/pi-light-sensor.66cc1e31fa48cd7d5f23400d4b2119aa41508275cb7c778053a7923b4e972d7e.de.png)
+![Der Grove-Lichtsensor, verbunden mit Buchse A0](../../../../../translated_images/de/pi-light-sensor.66cc1e31fa48cd7d5f23400d4b2119aa41508275cb7c778053a7923b4e972d7e.png)
 
 ## Programmiere den Lichtsensor
 

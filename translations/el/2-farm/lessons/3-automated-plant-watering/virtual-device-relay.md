@@ -37,11 +37,11 @@ CO_OP_TRANSLATOR_METADATA:
 
     1. Επιλέξτε το κουμπί **Add** για να δημιουργήσετε το ρελέ στο Pin 5.
 
-    ![Οι ρυθμίσεις του ρελέ](../../../../../translated_images/counterfit-create-relay.fa7c40fd0f2f6afc33b35ea94fcb235085be4861e14e3fe6b9b7bcfc82d1c888.el.png)
+    ![Οι ρυθμίσεις του ρελέ](../../../../../translated_images/el/counterfit-create-relay.fa7c40fd0f2f6afc33b35ea94fcb235085be4861e14e3fe6b9b7bcfc82d1c888.png)
 
     Το ρελέ θα δημιουργηθεί και θα εμφανιστεί στη λίστα των ενεργοποιητών.
 
-    ![Το ρελέ που δημιουργήθηκε](../../../../../translated_images/counterfit-relay.bbf74c1dbdc8b9acd983367fcbd06703a402aefef6af54ddb28e11307ba8a12c.el.png)
+    ![Το ρελέ που δημιουργήθηκε](../../../../../translated_images/el/counterfit-relay.bbf74c1dbdc8b9acd983367fcbd06703a402aefef6af54ddb28e11307ba8a12c.png)
 
 ## Προγραμματισμός του ρελέ
 

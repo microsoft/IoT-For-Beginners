@@ -47,11 +47,11 @@ CO_OP_TRANSLATOR_METADATA:
 
     1. Επιλέξτε το κουμπί **Add** για να δημιουργήσετε τον αισθητήρα GPS στη θύρα `/dev/ttyAMA0`.
 
-    ![Οι ρυθμίσεις του αισθητήρα GPS](../../../../../translated_images/counterfit-create-gps-sensor.6385dc9357d85ad1d47b4abb2525e7651fd498917d25eefc5a72feab09eedc70.el.png)
+    ![Οι ρυθμίσεις του αισθητήρα GPS](../../../../../translated_images/el/counterfit-create-gps-sensor.6385dc9357d85ad1d47b4abb2525e7651fd498917d25eefc5a72feab09eedc70.png)
 
     Ο αισθητήρας GPS θα δημιουργηθεί και θα εμφανιστεί στη λίστα αισθητήρων.
 
-    ![Ο αισθητήρας GPS δημιουργήθηκε](../../../../../translated_images/counterfit-gps-sensor.3fbb15af0a5367566f2f11324ef5a6f30861cdf2b497071a5e002b7aa473550e.el.png)
+    ![Ο αισθητήρας GPS δημιουργήθηκε](../../../../../translated_images/el/counterfit-gps-sensor.3fbb15af0a5367566f2f11324ef5a6f30861cdf2b497071a5e002b7aa473550e.png)
 
 ## Προγραμματισμός του αισθητήρα GPS
 
@@ -111,17 +111,17 @@ CO_OP_TRANSLATOR_METADATA:
 
     * Ορίστε την **Πηγή** σε `Lat/Lon` και ορίστε ένα συγκεκριμένο γεωγραφικό πλάτος, μήκος και αριθμό δορυφόρων που χρησιμοποιούνται για τη λήψη της θέσης GPS. Αυτή η τιμή θα σταλεί μόνο μία φορά, οπότε επιλέξτε το πλαίσιο **Repeat** για να επαναλαμβάνονται τα δεδομένα κάθε δευτερόλεπτο.
 
-      ![Ο αισθητήρας GPS με επιλεγμένο lat lon](../../../../../translated_images/counterfit-gps-sensor-latlon.008c867d75464fbe7f84107cc57040df565ac07cb57d2f21db37d087d470197d.el.png)
+      ![Ο αισθητήρας GPS με επιλεγμένο lat lon](../../../../../translated_images/el/counterfit-gps-sensor-latlon.008c867d75464fbe7f84107cc57040df565ac07cb57d2f21db37d087d470197d.png)
 
     * Ορίστε την **Πηγή** σε `NMEA` και προσθέστε κάποιες προτάσεις NMEA στο πλαίσιο κειμένου. Όλες αυτές οι τιμές θα σταλούν, με καθυστέρηση 1 δευτερολέπτου πριν από κάθε νέα πρόταση GGA (θέση).
 
-      ![Ο αισθητήρας GPS με προτάσεις NMEA](../../../../../translated_images/counterfit-gps-sensor-nmea.c62eea442171e17e19528b051b104cfcecdc9cd18db7bc72920f29821ae63f73.el.png)
+      ![Ο αισθητήρας GPS με προτάσεις NMEA](../../../../../translated_images/el/counterfit-gps-sensor-nmea.c62eea442171e17e19528b051b104cfcecdc9cd18db7bc72920f29821ae63f73.png)
 
       Μπορείτε να χρησιμοποιήσετε ένα εργαλείο όπως το [nmeagen.org](https://www.nmeagen.org) για να δημιουργήσετε αυτές τις προτάσεις σχεδιάζοντας σε έναν χάρτη. Αυτές οι τιμές θα σταλούν μόνο μία φορά, οπότε επιλέξτε το πλαίσιο **Repeat** για να επαναλαμβάνονται ένα δευτερόλεπτο μετά την αποστολή όλων.
 
     * Ορίστε την **Πηγή** σε GPX αρχείο και ανεβάστε ένα αρχείο GPX με τοποθεσίες διαδρομής. Μπορείτε να κατεβάσετε αρχεία GPX από διάφορους δημοφιλείς ιστότοπους χαρτογράφησης και πεζοπορίας, όπως το [AllTrails](https://www.alltrails.com/). Αυτά τα αρχεία περιέχουν πολλαπλές τοποθεσίες GPS ως διαδρομή, και ο αισθητήρας GPS θα επιστρέφει κάθε νέα τοποθεσία σε διαστήματα του 1 δευτερολέπτου.
 
-      ![Ο αισθητήρας GPS με αρχείο GPX](../../../../../translated_images/counterfit-gps-sensor-gpxfile.8310b063ce8a425ccc8ebeec8306aeac5e8e55207f007d52c6e1194432a70cd9.el.png)
+      ![Ο αισθητήρας GPS με αρχείο GPX](../../../../../translated_images/el/counterfit-gps-sensor-gpxfile.8310b063ce8a425ccc8ebeec8306aeac5e8e55207f007d52c6e1194432a70cd9.png)
 
       Αυτές οι τιμές θα σταλούν μόνο μία φορά, οπότε επιλέξτε το πλαίσιο **Repeat** για να επαναλαμβάνονται ένα δευτερόλεπτο μετά την αποστολή όλων.
 

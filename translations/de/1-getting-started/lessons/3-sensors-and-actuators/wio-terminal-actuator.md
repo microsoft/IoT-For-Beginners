@@ -35,7 +35,7 @@ Die Grove-LED wird als Modul mit einer Auswahl an LEDs geliefert, sodass du die 
 
 Verbinde die LED.
 
-![Eine Grove-LED](../../../../../translated_images/grove-led.6c853be93f473cf2c439cfc74bb1064732b22251a83cedf66e62f783f9cc1a79.de.png)
+![Eine Grove-LED](../../../../../translated_images/de/grove-led.6c853be93f473cf2c439cfc74bb1064732b22251a83cedf66e62f783f9cc1a79.png)
 
 1. Wähle deine Lieblings-LED aus und stecke die Beine in die beiden Löcher des LED-Moduls.
 
@@ -51,7 +51,7 @@ Verbinde die LED.
 
     > 💁 Die rechte Grove-Buchse kann mit analogen oder digitalen Sensoren und Aktoren verwendet werden. Die linke Buchse ist nur für I2C- und digitale Sensoren und Aktoren.
 
-![Die Grove-LED, verbunden mit der rechten Buchse](../../../../../translated_images/wio-led.265a1897e72d7f21.de.png)
+![Die Grove-LED, verbunden mit der rechten Buchse](../../../../../translated_images/de/wio-led.265a1897e72d7f21.png)
 
 ## Programmiere das Nachtlicht
 

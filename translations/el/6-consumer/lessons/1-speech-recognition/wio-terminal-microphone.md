@@ -15,11 +15,11 @@ CO_OP_TRANSLATOR_METADATA:
 
 Το Wio Terminal διαθέτει ήδη ενσωματωμένο μικρόφωνο, το οποίο μπορεί να χρησιμοποιηθεί για την καταγραφή ήχου για αναγνώριση ομιλίας.
 
-![Το μικρόφωνο στο Wio Terminal](../../../../../translated_images/wio-mic.3f8c843dbe8ad917.el.png)
+![Το μικρόφωνο στο Wio Terminal](../../../../../translated_images/el/wio-mic.3f8c843dbe8ad917.png)
 
 Για να προσθέσετε ηχείο, μπορείτε να χρησιμοποιήσετε το [ReSpeaker 2-Mics Pi Hat](https://www.seeedstudio.com/ReSpeaker-2-Mics-Pi-HAT.html). Πρόκειται για μια εξωτερική πλακέτα που περιλαμβάνει 2 μικρόφωνα MEMS, καθώς και σύνδεση για ηχείο και υποδοχή ακουστικών.
 
-![Το ReSpeaker 2-Mics Pi Hat](../../../../../translated_images/respeaker.f5d19d1c6b14ab16.el.png)
+![Το ReSpeaker 2-Mics Pi Hat](../../../../../translated_images/el/respeaker.f5d19d1c6b14ab16.png)
 
 Θα χρειαστεί να προσθέσετε είτε ακουστικά, είτε ηχείο με βύσμα 3.5mm, είτε ηχείο με σύνδεση JST όπως το [Mono Enclosed Speaker - 2W 6 Ohm](https://www.seeedstudio.com/Mono-Enclosed-Speaker-2W-6-Ohm-p-2832.html).
 
@@ -35,7 +35,7 @@ CO_OP_TRANSLATOR_METADATA:
 
     Οι ακίδες πρέπει να συνδεθούν με τον εξής τρόπο:
 
-    ![Διάγραμμα ακίδων](../../../../../translated_images/wio-respeaker-wiring-0.767f80aa65081038.el.png)
+    ![Διάγραμμα ακίδων](../../../../../translated_images/el/wio-respeaker-wiring-0.767f80aa65081038.png)
 
 1. Τοποθετήστε το ReSpeaker και το Wio Terminal με τις υποδοχές GPIO στραμμένες προς τα πάνω και στην αριστερή πλευρά.
 
@@ -43,33 +43,33 @@ CO_OP_TRANSLATOR_METADATA:
 
 1. Επαναλάβετε αυτή τη διαδικασία σε όλη την αριστερή πλευρά των υποδοχών GPIO. Βεβαιωθείτε ότι οι ακίδες είναι καλά στερεωμένες.
 
-    ![Ένα ReSpeaker με τις αριστερές ακίδες συνδεδεμένες στις αριστερές ακίδες του Wio Terminal](../../../../../translated_images/wio-respeaker-wiring-1.8d894727f2ba2400.el.png)
+    ![Ένα ReSpeaker με τις αριστερές ακίδες συνδεδεμένες στις αριστερές ακίδες του Wio Terminal](../../../../../translated_images/el/wio-respeaker-wiring-1.8d894727f2ba2400.png)
 
-    ![Ένα ReSpeaker με τις αριστερές ακίδες συνδεδεμένες στις αριστερές ακίδες του Wio Terminal](../../../../../translated_images/wio-respeaker-wiring-2.329e1cbd306e754f.el.png)
+    ![Ένα ReSpeaker με τις αριστερές ακίδες συνδεδεμένες στις αριστερές ακίδες του Wio Terminal](../../../../../translated_images/el/wio-respeaker-wiring-2.329e1cbd306e754f.png)
 
     > 💁 Αν τα καλώδια jumper είναι συνδεδεμένα σε κορδέλες, κρατήστε τα όλα μαζί - αυτό διευκολύνει τη διασφάλιση ότι έχετε συνδέσει όλα τα καλώδια με τη σωστή σειρά.
 
 1. Επαναλάβετε τη διαδικασία χρησιμοποιώντας τις δεξιές υποδοχές GPIO στο ReSpeaker και το Wio Terminal. Αυτά τα καλώδια πρέπει να περάσουν γύρω από τα καλώδια που είναι ήδη στη θέση τους.
 
-    ![Ένα ReSpeaker με τις δεξιές ακίδες συνδεδεμένες στις δεξιές ακίδες του Wio Terminal](../../../../../translated_images/wio-respeaker-wiring-3.75b0be447e2fa930.el.png)
+    ![Ένα ReSpeaker με τις δεξιές ακίδες συνδεδεμένες στις δεξιές ακίδες του Wio Terminal](../../../../../translated_images/el/wio-respeaker-wiring-3.75b0be447e2fa930.png)
 
-    ![Ένα ReSpeaker με τις δεξιές ακίδες συνδεδεμένες στις δεξιές ακίδες του Wio Terminal](../../../../../translated_images/wio-respeaker-wiring-4.aa9cd434d8779437.el.png)
+    ![Ένα ReSpeaker με τις δεξιές ακίδες συνδεδεμένες στις δεξιές ακίδες του Wio Terminal](../../../../../translated_images/el/wio-respeaker-wiring-4.aa9cd434d8779437.png)
 
     > 💁 Αν τα καλώδια jumper είναι συνδεδεμένα σε κορδέλες, χωρίστε τα σε δύο κορδέλες. Περάστε μία από κάθε πλευρά των υπαρχόντων καλωδίων.
 
     > 💁 Μπορείτε να χρησιμοποιήσετε κολλητική ταινία για να κρατήσετε τις ακίδες σε μπλοκ ώστε να μην βγαίνουν καθώς συνδέετε όλα τα καλώδια.
     >
-    > ![Οι ακίδες στερεωμένες με ταινία](../../../../../translated_images/wio-respeaker-wiring-5.af117c20acf622f3.el.png)
+    > ![Οι ακίδες στερεωμένες με ταινία](../../../../../translated_images/el/wio-respeaker-wiring-5.af117c20acf622f3.png)
 
 1. Θα χρειαστεί να προσθέσετε ένα ηχείο.
 
     * Αν χρησιμοποιείτε ηχείο με καλώδιο JST, συνδέστε το στην υποδοχή JST του ReSpeaker.
 
-      ![Ένα ηχείο συνδεδεμένο στο ReSpeaker με καλώδιο JST](../../../../../translated_images/respeaker-jst-speaker.a441d177809df945.el.png)
+      ![Ένα ηχείο συνδεδεμένο στο ReSpeaker με καλώδιο JST](../../../../../translated_images/el/respeaker-jst-speaker.a441d177809df945.png)
 
     * Αν χρησιμοποιείτε ηχείο με βύσμα 3.5mm ή ακουστικά, εισάγετέ τα στην υποδοχή 3.5mm.
 
-      ![Ένα ηχείο συνδεδεμένο στο ReSpeaker μέσω της υποδοχής 3.5mm](../../../../../translated_images/respeaker-35mm-speaker.ad79ef4f128c7751.el.png)
+      ![Ένα ηχείο συνδεδεμένο στο ReSpeaker μέσω της υποδοχής 3.5mm](../../../../../translated_images/el/respeaker-35mm-speaker.ad79ef4f128c7751.png)
 
 ### Εργασία - ρύθμιση της κάρτας SD
 
@@ -79,7 +79,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 1. Εισάγετε την κάρτα SD στην υποδοχή SD στην αριστερή πλευρά του Wio Terminal, ακριβώς κάτω από το κουμπί ενεργοποίησης. Βεβαιωθείτε ότι η κάρτα έχει εισαχθεί πλήρως και κάνει κλικ - μπορεί να χρειαστείτε ένα λεπτό εργαλείο ή άλλη κάρτα SD για να την πιέσετε μέχρι το τέλος.
 
-    ![Εισαγωγή της κάρτας SD στην υποδοχή SD κάτω από τον διακόπτη ενεργοποίησης](../../../../../translated_images/wio-sd-card.acdcbe322fa4ee7f.el.png)
+    ![Εισαγωγή της κάρτας SD στην υποδοχή SD κάτω από τον διακόπτη ενεργοποίησης](../../../../../translated_images/el/wio-sd-card.acdcbe322fa4ee7f.png)
 
     > 💁 Για να εξάγετε την κάρτα SD, πρέπει να την πιέσετε ελαφρώς και θα εξαγάγει. Θα χρειαστείτε ένα λεπτό εργαλείο όπως ένα κατσαβίδι με επίπεδη κεφαλή ή άλλη κάρτα SD.
 

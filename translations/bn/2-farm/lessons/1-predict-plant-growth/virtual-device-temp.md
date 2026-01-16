@@ -47,11 +47,11 @@ CounterFit অ্যাপে আর্দ্রতা এবং তাপমা
 
     1. **Add** বোতামটি নির্বাচন করুন যাতে পিন 5-এ আর্দ্রতা সেন্সর তৈরি হয়।
 
-    ![আর্দ্রতা সেন্সরের সেটিংস](../../../../../translated_images/counterfit-create-humidity-sensor.2750e27b6f30e09cf4e22101defd5252710717620816ab41ba688f91f757c49a.bn.png)
+    ![আর্দ্রতা সেন্সরের সেটিংস](../../../../../translated_images/bn/counterfit-create-humidity-sensor.2750e27b6f30e09cf4e22101defd5252710717620816ab41ba688f91f757c49a.png)
 
     আর্দ্রতা সেন্সর তৈরি হবে এবং সেন্সর তালিকায় প্রদর্শিত হবে।
 
-    ![তৈরি করা আর্দ্রতা সেন্সর](../../../../../translated_images/counterfit-humidity-sensor.7b12f7f339e430cb26c8211d2dba4ef75261b353a01da0932698b5bebd693f27.bn.png)
+    ![তৈরি করা আর্দ্রতা সেন্সর](../../../../../translated_images/bn/counterfit-humidity-sensor.7b12f7f339e430cb26c8211d2dba4ef75261b353a01da0932698b5bebd693f27.png)
 
 1. একটি তাপমাত্রা সেন্সর তৈরি করুন:
 
@@ -63,11 +63,11 @@ CounterFit অ্যাপে আর্দ্রতা এবং তাপমা
 
     1. **Add** বোতামটি নির্বাচন করুন যাতে পিন 6-এ তাপমাত্রা সেন্সর তৈরি হয়।
 
-    ![তাপমাত্রা সেন্সরের সেটিংস](../../../../../translated_images/counterfit-create-temperature-sensor.199350ed34f7343d79dccbe95eaf6c11d2121f03d1c35ab9613b330c23f39b29.bn.png)
+    ![তাপমাত্রা সেন্সরের সেটিংস](../../../../../translated_images/bn/counterfit-create-temperature-sensor.199350ed34f7343d79dccbe95eaf6c11d2121f03d1c35ab9613b330c23f39b29.png)
 
     তাপমাত্রা সেন্সর তৈরি হবে এবং সেন্সর তালিকায় প্রদর্শিত হবে।
 
-    ![তৈরি করা তাপমাত্রা সেন্সর](../../../../../translated_images/counterfit-temperature-sensor.f0560236c96a9016bafce7f6f792476fe3367bc6941a1f7d5811d144d4bcbfff.bn.png)
+    ![তৈরি করা তাপমাত্রা সেন্সর](../../../../../translated_images/bn/counterfit-temperature-sensor.f0560236c96a9016bafce7f6f792476fe3367bc6941a1f7d5811d144d4bcbfff.png)
 
 ## তাপমাত্রা সেন্সর অ্যাপ প্রোগ্রাম করুন
 

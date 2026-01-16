@@ -17,7 +17,7 @@ Sensoren til denne lektion er en **lyssensor**, der bruger en [fotodiode](https:
 
 Lyssensoren er indbygget i Wio Terminal og er synlig gennem det klare plastvindue på bagsiden.
 
-![Lyssensoren på bagsiden af Wio Terminal](../../../../../translated_images/wio-light-sensor.b1f529f3c95f5165.da.png)
+![Lyssensoren på bagsiden af Wio Terminal](../../../../../translated_images/da/wio-light-sensor.b1f529f3c95f5165.png)
 
 ## Programmer lyssensoren
 

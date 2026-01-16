@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Мигрирайте логиката на вашето приложение към облака
 
-![Скица на урока](../../../../../translated_images/lesson-9.dfe99c8e891f48e179724520da9f5794392cf9a625079281ccdcbf09bd85e1b6.bg.jpg)
+![Скица на урока](../../../../../translated_images/bg/lesson-9.dfe99c8e891f48e179724520da9f5794392cf9a625079281ccdcbf09bd85e1b6.jpg)
 
 > Скица от [Nitya Narasimhan](https://github.com/nitya). Кликнете върху изображението за по-голяма версия.
 
@@ -37,11 +37,11 @@ CO_OP_TRANSLATOR_METADATA:
 
 Serverless, или serverless изчисления, включва създаването на малки блокове код, които се изпълняват в облака в отговор на различни видове събития. Когато събитието се случи, вашият код се изпълнява и получава данни за събитието. Тези събития могат да бъдат от различни източници, включително уеб заявки, съобщения в опашка, промени в база данни или съобщения, изпратени към IoT услуга от IoT устройства.
 
-![Събития, изпратени от IoT услуга към serverless услуга, обработвани едновременно от множество функции](../../../../../translated_images/iot-messages-to-serverless.0194da1cc0732bb7d0f823aed3fce54735c6b1ad3bf36089804d8aaefc0a774f.bg.png)
+![Събития, изпратени от IoT услуга към serverless услуга, обработвани едновременно от множество функции](../../../../../translated_images/bg/iot-messages-to-serverless.0194da1cc0732bb7d0f823aed3fce54735c6b1ad3bf36089804d8aaefc0a774f.png)
 
 > 💁 Ако сте използвали тригери в база данни, можете да мислите за това като за нещо подобно – код, който се задейства от събитие, като например добавяне на ред.
 
-![Когато много събития се изпратят едновременно, serverless услугата се мащабира, за да ги обработи всички едновременно](../../../../../translated_images/serverless-scaling.f8c769adf0413fd1.bg.png)
+![Когато много събития се изпратят едновременно, serverless услугата се мащабира, за да ги обработи всички едновременно](../../../../../translated_images/bg/serverless-scaling.f8c769adf0413fd1.png)
 
 Вашият код се изпълнява само когато събитието се случи, а през останалото време не е активен. Това прави serverless много мащабируемо – ако много събития се случат едновременно, облачният доставчик може да изпълни вашата функция толкова пъти, колкото е необходимо, на различни налични сървъри. Недостатъкът е, че ако трябва да споделяте информация между събитията, трябва да я съхранявате някъде, например в база данни, вместо в паметта.
 
@@ -63,7 +63,7 @@ Serverless, или serverless изчисления, включва създав�
 
 Услугата за serverless изчисления от Microsoft се нарича Azure Functions.
 
-![Лого на Azure Functions](../../../../../translated_images/azure-functions-logo.1cfc8e3204c9c44aaf80fcf406fc8544d80d7f00f8d3e8ed6fed764563e17564.bg.png)
+![Лого на Azure Functions](../../../../../translated_images/bg/azure-functions-logo.1cfc8e3204c9c44aaf80fcf406fc8544d80d7f00f8d3e8ed6fed764563e17564.png)
 
 Краткото видео по-долу предоставя преглед на Azure Functions.
 
@@ -240,7 +240,7 @@ CLI за Azure Functions може да се използва за създава
     VS Code. Initialize for optimal use with VS Code?
     ```
 
-    ![Известието](../../../../../translated_images/vscode-azure-functions-init-notification.bd19b49229963edb.bg.png)
+    ![Известието](../../../../../translated_images/bg/vscode-azure-functions-init-notification.bd19b49229963edb.png)
 
     Изберете **Yes** от това известие.
 

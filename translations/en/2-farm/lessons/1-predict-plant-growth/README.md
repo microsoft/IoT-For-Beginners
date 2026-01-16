@@ -77,7 +77,7 @@ This code opens the CSV file and appends a new row at the end. The row includes 
 
     
 > 💁 If you are using a Virtual IoT Device, check the random checkbox and set a range to avoid getting the same temperature every time the temperature value is returned.
-    ![Select the random checkbox and set a range](../../../../../translated_images/select-the-random-checkbox-and-set-a-range.32cf4bc7c12e797f.en.png) 
+    ![Select the random checkbox and set a range](../../../../../translated_images/en/select-the-random-checkbox-and-set-a-range.32cf4bc7c12e797f.webp) 
 
     > 💁 If you want to run this for an entire day, make sure the computer running your server code doesn’t go to sleep. You can do this by adjusting your power settings or using something like [this keep system active Python script](https://github.com/jaqsparow/keep-system-active).
     
@@ -97,7 +97,7 @@ The steps to do this manually are:
 
 For example, if the highest temperature for the day is 25°C and the lowest is 12°C:
 
-![GDD = 25 + 12 divided by 2, then subtract 10 from the result giving 8.5](../../../../../translated_images/gdd-calculation-strawberries.59f57db94b22adb8ff6efb951ace33af104a1c6ccca3ffb0f8169c14cb160c90.en.png)
+![GDD = 25 + 12 divided by 2, then subtract 10 from the result giving 8.5](../../../../../translated_images/en/gdd-calculation-strawberries.59f57db94b22adb8ff6efb951ace33af104a1c6ccca3ffb0f8169c14cb160c90.png)
 
 * 25 + 12 = 37
 * 37 / 2 = 18.5

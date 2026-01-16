@@ -47,11 +47,11 @@ CO_OP_TRANSLATOR_METADATA:
 
     1. Изберете бутона **Add**, за да създадете GPS сензора на порт `/dev/ttyAMA0`.
 
-    ![Настройки на GPS сензора](../../../../../translated_images/counterfit-create-gps-sensor.6385dc9357d85ad1d47b4abb2525e7651fd498917d25eefc5a72feab09eedc70.bg.png)
+    ![Настройки на GPS сензора](../../../../../translated_images/bg/counterfit-create-gps-sensor.6385dc9357d85ad1d47b4abb2525e7651fd498917d25eefc5a72feab09eedc70.png)
 
     GPS сензорът ще бъде създаден и ще се появи в списъка със сензори.
 
-    ![Създаден GPS сензор](../../../../../translated_images/counterfit-gps-sensor.3fbb15af0a5367566f2f11324ef5a6f30861cdf2b497071a5e002b7aa473550e.bg.png)
+    ![Създаден GPS сензор](../../../../../translated_images/bg/counterfit-gps-sensor.3fbb15af0a5367566f2f11324ef5a6f30861cdf2b497071a5e002b7aa473550e.png)
 
 ## Програмиране на GPS сензора
 
@@ -111,17 +111,17 @@ CO_OP_TRANSLATOR_METADATA:
 
     * Задайте **Source** на `Lat/Lon` и задайте конкретна ширина, дължина и брой сателити, използвани за GPS фиксация. Тази стойност ще бъде изпратена само веднъж, така че маркирайте полето **Repeat**, за да се повтаря данните всяка секунда.
 
-      ![GPS сензор с избрани Lat/Lon](../../../../../translated_images/counterfit-gps-sensor-latlon.008c867d75464fbe7f84107cc57040df565ac07cb57d2f21db37d087d470197d.bg.png)
+      ![GPS сензор с избрани Lat/Lon](../../../../../translated_images/bg/counterfit-gps-sensor-latlon.008c867d75464fbe7f84107cc57040df565ac07cb57d2f21db37d087d470197d.png)
 
     * Задайте **Source** на `NMEA` и добавете няколко NMEA изречения в текстовото поле. Всички тези стойности ще бъдат изпратени, като има забавяне от 1 секунда преди всяко ново GGA (позиционна фиксация) изречение да бъде прочетено.
 
-      ![GPS сензор с зададени NMEA изречения](../../../../../translated_images/counterfit-gps-sensor-nmea.c62eea442171e17e19528b051b104cfcecdc9cd18db7bc72920f29821ae63f73.bg.png)
+      ![GPS сензор с зададени NMEA изречения](../../../../../translated_images/bg/counterfit-gps-sensor-nmea.c62eea442171e17e19528b051b104cfcecdc9cd18db7bc72920f29821ae63f73.png)
 
       Можете да използвате инструмент като [nmeagen.org](https://www.nmeagen.org), за да генерирате тези изречения, като рисувате върху карта. Тези стойности ще бъдат изпратени само веднъж, така че маркирайте полето **Repeat**, за да се повтарят данните една секунда след като всички са изпратени.
 
     * Задайте **Source** на GPX файл и качете GPX файл с местоположения на тракове. Можете да изтеглите GPX файлове от редица популярни сайтове за карти и туризъм, като [AllTrails](https://www.alltrails.com/). Тези файлове съдържат множество GPS местоположения като трак, а GPS сензорът ще връща всяко ново местоположение на интервали от 1 секунда.
 
-      ![GPS сензор с зададен GPX файл](../../../../../translated_images/counterfit-gps-sensor-gpxfile.8310b063ce8a425ccc8ebeec8306aeac5e8e55207f007d52c6e1194432a70cd9.bg.png)
+      ![GPS сензор с зададен GPX файл](../../../../../translated_images/bg/counterfit-gps-sensor-gpxfile.8310b063ce8a425ccc8ebeec8306aeac5e8e55207f007d52c6e1194432a70cd9.png)
 
       Тези стойности ще бъдат изпратени само веднъж, така че маркирайте полето **Repeat**, за да се повтарят данните една секунда след като всички са изпратени.
 

@@ -29,13 +29,13 @@ CO_OP_TRANSLATOR_METADATA:
 
 قم بتوصيل مستشعر Time of Flight.
 
-![مستشعر Grove Time of Flight](../../../../../translated_images/grove-time-of-flight-sensor.d82ff2165bfded9f485de54d8d07195a6270a602696825fca19f629ddfe94e86.ar.png)
+![مستشعر Grove Time of Flight](../../../../../translated_images/ar/grove-time-of-flight-sensor.d82ff2165bfded9f485de54d8d07195a6270a602696825fca19f629ddfe94e86.png)
 
 1. أدخل أحد طرفي كابل Grove في المقبس الموجود على مستشعر Time of Flight. لن يدخل إلا بطريقة واحدة.
 
 1. مع فصل Wio Terminal عن جهاز الكمبيوتر الخاص بك أو أي مصدر طاقة آخر، قم بتوصيل الطرف الآخر من كابل Grove بالمقبس الأيسر على Wio Terminal عند النظر إلى الشاشة. هذا هو المقبس الأقرب إلى زر الطاقة. هذا مقبس مشترك بين الرقمي وI2C.
 
-![مستشعر Grove Time of Flight متصل بالمقبس الأيسر](../../../../../translated_images/wio-time-of-flight-sensor.c4c182131d2ea73d.ar.png)
+![مستشعر Grove Time of Flight متصل بالمقبس الأيسر](../../../../../translated_images/ar/wio-time-of-flight-sensor.c4c182131d2ea73d.png)
 
 1. يمكنك الآن توصيل Wio Terminal بجهاز الكمبيوتر الخاص بك.
 
@@ -101,7 +101,7 @@ CO_OP_TRANSLATOR_METADATA:
 
     يقع محدد المدى في الجزء الخلفي من المستشعر، لذا تأكد من استخدام الجانب الصحيح عند قياس المسافة.
 
-    ![محدد المدى في الجزء الخلفي من مستشعر Time of Flight يشير إلى موزة](../../../../../translated_images/time-of-flight-banana.079921ad8b1496e4.ar.png)
+    ![محدد المدى في الجزء الخلفي من مستشعر Time of Flight يشير إلى موزة](../../../../../translated_images/ar/time-of-flight-banana.079921ad8b1496e4.png)
 
 > 💁 يمكنك العثور على هذا الكود في مجلد [code-proximity/wio-terminal](../../../../../4-manufacturing/lessons/4-trigger-fruit-detector/code-proximity/wio-terminal).
 

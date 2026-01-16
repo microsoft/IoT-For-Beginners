@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Tilslut din enhed til internettet
 
-![En sketchnote-oversigt over denne lektion](../../../../../translated_images/lesson-4.7344e074ea68fa545fd320b12dce36d72dd62d28c3b4596cb26cf315f434b98f.da.jpg)
+![En sketchnote-oversigt over denne lektion](../../../../../translated_images/da/lesson-4.7344e074ea68fa545fd320b12dce36d72dd62d28c3b4596cb26cf315f434b98f.jpg)
 
 > Sketchnote af [Nitya Narasimhan](https://github.com/nitya). Klik på billedet for en større version.
 
@@ -46,7 +46,7 @@ I denne lektion dækker vi:
 
 Der findes en række populære kommunikationsprotokoller, som IoT-enheder bruger til at kommunikere med internettet. De mest populære er baseret på publish/subscribe-messaging via en form for broker. IoT-enheder forbinder til brokeren og publicerer telemetri og abonnerer på kommandoer. Cloud-tjenester forbinder også til brokeren og abonnerer på alle telemetribeskeder og publicerer kommandoer enten til specifikke enheder eller til grupper af enheder.
 
-![IoT-enheder forbinder til en broker og publicerer telemetri og abonnerer på kommandoer. Cloud-tjenester forbinder til brokeren og abonnerer på al telemetri og sender kommandoer til specifikke enheder.](../../../../../translated_images/pub-sub.7c7ed43fe9fd15d4.da.png)
+![IoT-enheder forbinder til en broker og publicerer telemetri og abonnerer på kommandoer. Cloud-tjenester forbinder til brokeren og abonnerer på al telemetri og sender kommandoer til specifikke enheder.](../../../../../translated_images/da/pub-sub.7c7ed43fe9fd15d4.png)
 
 MQTT er den mest populære kommunikationsprotokol for IoT-enheder og dækkes i denne lektion. Andre protokoller inkluderer AMQP og HTTP/HTTPS.
 
@@ -56,7 +56,7 @@ MQTT er den mest populære kommunikationsprotokol for IoT-enheder og dækkes i d
 
 MQTT har en enkelt broker og flere klienter. Alle klienter forbinder til brokeren, og brokeren videresender beskeder til de relevante klienter. Beskeder videresendes ved hjælp af navngivne emner (topics) i stedet for at blive sendt direkte til en individuel klient. En klient kan publicere til et emne, og alle klienter, der abonnerer på det emne, vil modtage beskeden.
 
-![IoT-enhed, der publicerer telemetri på /telemetry-emnet, og cloud-tjenesten, der abonnerer på det emne](../../../../../translated_images/mqtt.cbf7f21d9adc3e17548b359444cc11bb4bf2010543e32ece9a47becf54438c23.da.png)
+![IoT-enhed, der publicerer telemetri på /telemetry-emnet, og cloud-tjenesten, der abonnerer på det emne](../../../../../translated_images/da/mqtt.cbf7f21d9adc3e17548b359444cc11bb4bf2010543e32ece9a47becf54438c23.png)
 
 ✅ Lav noget research. Hvis du har mange IoT-enheder, hvordan kan du sikre, at din MQTT-broker kan håndtere alle beskederne?
 
@@ -78,7 +78,7 @@ I stedet for at håndtere kompleksiteten ved at opsætte en MQTT-broker som en d
 
 > 💁 Denne testbroker er offentlig og ikke sikker. Enhver kan lytte til, hvad du publicerer, så den bør ikke bruges til data, der skal holdes private.
 
-![Et flowdiagram over opgaven, der viser lysniveauer, der aflæses og kontrolleres, og LED'en, der styres](../../../../../translated_images/assignment-1-internet-flow.3256feab5f052fd273bf4e331157c574c2c3fa42e479836fc9c3586f41db35a5.da.png)
+![Et flowdiagram over opgaven, der viser lysniveauer, der aflæses og kontrolleres, og LED'en, der styres](../../../../../translated_images/da/assignment-1-internet-flow.3256feab5f052fd273bf4e331157c574c2c3fa42e479836fc9c3586f41db35a5.png)
 
 Følg det relevante trin nedenfor for at forbinde din enhed til MQTT-brokeren:
 
@@ -115,7 +115,7 @@ Ordet telemetri stammer fra græske rødder og betyder at måle på afstand. Tel
 
 Lad os se tilbage på eksemplet med den smarte termostat fra Lektion 1.
 
-![En internetforbundet termostat, der bruger flere rumfølere](../../../../../translated_images/telemetry.21e5d8b97649d2eb.da.png)
+![En internetforbundet termostat, der bruger flere rumfølere](../../../../../translated_images/da/telemetry.21e5d8b97649d2eb.png)
 
 Termostaten har temperatursensorer til at indsamle telemetri. Den vil sandsynligvis have en indbygget temperatursensor og kan forbinde til flere eksterne temperatursensorer via en trådløs protokol som [Bluetooth Low Energy](https://wikipedia.org/wiki/Bluetooth_Low_Energy) (BLE).
 
@@ -269,11 +269,11 @@ Skriv serverkoden.
 
 1. Når VS Code starter, vil det aktivere det virtuelle Python-miljø. Dette vil blive rapporteret i den nederste statuslinje:
 
-    ![VS Code viser det valgte virtuelle miljø](../../../../../translated_images/vscode-virtual-env.8ba42e04c3d533cf.da.png)
+    ![VS Code viser det valgte virtuelle miljø](../../../../../translated_images/da/vscode-virtual-env.8ba42e04c3d533cf.png)
 
 1. Hvis VS Code-terminalen allerede kører, når VS Code starter op, vil den ikke have det virtuelle miljø aktiveret i sig. Det nemmeste er at lukke terminalen ved hjælp af knappen **Kill the active terminal instance**:
 
-    ![VS Code Kill the active terminal instance-knap](../../../../../translated_images/vscode-kill-terminal.1cc4de7c6f25ee08.da.png)
+    ![VS Code Kill the active terminal instance-knap](../../../../../translated_images/da/vscode-kill-terminal.1cc4de7c6f25ee08.png)
 
 1. Start en ny VS Code-terminal ved at vælge *Terminal -> New Terminal* eller ved at trykke på `` CTRL+` ``. Den nye terminal vil indlæse det virtuelle miljø, med kaldet til aktivering, der vises i terminalen. Navnet på det virtuelle miljø (`.venv`) vil også være i prompten:
 
@@ -361,7 +361,7 @@ For maskiner vil du måske beholde dataene, især hvis de bruges til at lede eft
 
 IoT-enhedsdesignere bør også overveje, om IoT-enheden kan bruges under en internetafbrydelse eller tab af signal forårsaget af placering. En smart termostat bør kunne træffe nogle begrænsede beslutninger for at kontrollere opvarmning, hvis den ikke kan sende telemetri til skyen på grund af en afbrydelse.
 
-[![Denne Ferrari blev ubrugelig, fordi nogen forsøgte at opgradere den under jorden, hvor der ikke er mobilsignal](../../../../../translated_images/bricked-car.dc38f8efadc6c59d76211f981a521efb300939283dee468f79503aae3ec67615.da.png)](https://twitter.com/internetofshit/status/1315736960082808832)
+[![Denne Ferrari blev ubrugelig, fordi nogen forsøgte at opgradere den under jorden, hvor der ikke er mobilsignal](../../../../../translated_images/da/bricked-car.dc38f8efadc6c59d76211f981a521efb300939283dee468f79503aae3ec67615.png)](https://twitter.com/internetofshit/status/1315736960082808832)
 
 For MQTT til at håndtere tab af forbindelse skal enheden og serverkoden være ansvarlige for at sikre beskedlevering, hvis det er nødvendigt, f.eks. ved at kræve, at alle beskeder, der sendes, besvares med yderligere beskeder på et svar-emne, og hvis ikke, bliver de manuelt køet til at blive afspillet senere.
 
@@ -369,7 +369,7 @@ For MQTT til at håndtere tab af forbindelse skal enheden og serverkoden være a
 
 Kommandoer er beskeder sendt af skyen til en enhed, der instruerer den i at gøre noget. Det involverer ofte at give en form for output via en aktuator, men det kan også være en instruktion til selve enheden, såsom at genstarte eller indsamle ekstra telemetri og returnere det som svar på kommandoen.
 
-![En internetforbundet termostat modtager en kommando om at tænde for varmen](../../../../../translated_images/commands.d6c06bbbb3a02cce95f2831a1c331daf6dedd4e470c4aa2b0ae54f332016e504.da.png)
+![En internetforbundet termostat modtager en kommando om at tænde for varmen](../../../../../translated_images/da/commands.d6c06bbbb3a02cce95f2831a1c331daf6dedd4e470c4aa2b0ae54f332016e504.png)
 
 En termostat kunne modtage en kommando fra skyen om at tænde for varmen. Baseret på telemetridata fra alle sensorer, hvis cloud-tjenesten har besluttet, at varmen skal være tændt, sender den den relevante kommando.
 

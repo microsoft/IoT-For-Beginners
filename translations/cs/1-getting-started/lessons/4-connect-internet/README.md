@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Připojte své zařízení k internetu
 
-![Přehled lekce ve formě sketchnote](../../../../../translated_images/lesson-4.7344e074ea68fa545fd320b12dce36d72dd62d28c3b4596cb26cf315f434b98f.cs.jpg)
+![Přehled lekce ve formě sketchnote](../../../../../translated_images/cs/lesson-4.7344e074ea68fa545fd320b12dce36d72dd62d28c3b4596cb26cf315f434b98f.jpg)
 
 > Sketchnote od [Nitya Narasimhan](https://github.com/nitya). Klikněte na obrázek pro větší verzi.
 
@@ -46,7 +46,7 @@ V této lekci se zaměříme na:
 
 Existuje několik populárních komunikačních protokolů, které IoT zařízení používají k komunikaci s internetem. Nejpopulárnější jsou založeny na publikování/přihlašování zpráv prostřednictvím nějakého typu brokeru. IoT zařízení se připojují k brokeru, publikují telemetrii a přihlašují se k příkazům. Cloudové služby se také připojují k brokeru, přihlašují se ke všem telemetrickým zprávám a publikují příkazy buď konkrétním zařízením, nebo skupinám zařízení.
 
-![IoT zařízení se připojují k brokeru, publikují telemetrii a přihlašují se k příkazům. Cloudové služby se připojují k brokeru, přihlašují se ke všem telemetrickým zprávám a odesílají příkazy konkrétním zařízením.](../../../../../translated_images/pub-sub.7c7ed43fe9fd15d4.cs.png)
+![IoT zařízení se připojují k brokeru, publikují telemetrii a přihlašují se k příkazům. Cloudové služby se připojují k brokeru, přihlašují se ke všem telemetrickým zprávám a odesílají příkazy konkrétním zařízením.](../../../../../translated_images/cs/pub-sub.7c7ed43fe9fd15d4.png)
 
 MQTT je nejpopulárnější komunikační protokol pro IoT zařízení a je pokryt v této lekci. Mezi další protokoly patří AMQP a HTTP/HTTPS.
 
@@ -56,7 +56,7 @@ MQTT je nejpopulárnější komunikační protokol pro IoT zařízení a je pokr
 
 MQTT má jednoho brokeru a více klientů. Všichni klienti se připojují k brokeru, který směruje zprávy relevantním klientům. Zprávy jsou směrovány pomocí pojmenovaných témat, místo aby byly odesílány přímo jednotlivým klientům. Klient může publikovat do tématu a všichni klienti, kteří se k tomuto tématu přihlásí, obdrží zprávu.
 
-![IoT zařízení publikující telemetrii na téma /telemetry a cloudová služba přihlašující se k tomuto tématu](../../../../../translated_images/mqtt.cbf7f21d9adc3e17548b359444cc11bb4bf2010543e32ece9a47becf54438c23.cs.png)
+![IoT zařízení publikující telemetrii na téma /telemetry a cloudová služba přihlašující se k tomuto tématu](../../../../../translated_images/cs/mqtt.cbf7f21d9adc3e17548b359444cc11bb4bf2010543e32ece9a47becf54438c23.png)
 
 ✅ Udělejte si průzkum. Pokud máte mnoho IoT zařízení, jak zajistíte, že váš MQTT broker zvládne všechny zprávy?
 
@@ -78,7 +78,7 @@ Namísto řešení složitostí nastavení MQTT brokeru jako součást tohoto ú
 
 > 💁 Tento testovací broker je veřejný a není zabezpečený. Kdokoliv může poslouchat, co publikujete, takže by neměl být používán s daty, která je třeba uchovat v soukromí.
 
-![Diagram úkolu ukazující čtení a kontrolu úrovní světla a ovládání LED](../../../../../translated_images/assignment-1-internet-flow.3256feab5f052fd273bf4e331157c574c2c3fa42e479836fc9c3586f41db35a5.cs.png)
+![Diagram úkolu ukazující čtení a kontrolu úrovní světla a ovládání LED](../../../../../translated_images/cs/assignment-1-internet-flow.3256feab5f052fd273bf4e331157c574c2c3fa42e479836fc9c3586f41db35a5.png)
 
 Postupujte podle relevantního kroku níže pro připojení vašeho zařízení k MQTT brokeru:
 
@@ -115,7 +115,7 @@ Slovo telemetrie pochází z řeckých kořenů a znamená měření na dálku. 
 
 Podívejme se zpět na příklad chytrého termostatu z Lekce 1.
 
-![Internetově připojený termostat používající více senzorů v místnostech](../../../../../translated_images/telemetry.21e5d8b97649d2eb.cs.png)
+![Internetově připojený termostat používající více senzorů v místnostech](../../../../../translated_images/cs/telemetry.21e5d8b97649d2eb.png)
 
 Termostat má teplotní senzory pro sběr telemetrie. Pravděpodobně by měl jeden teplotní senzor zabudovaný a mohl by se připojit k více externím teplotním senzorům přes bezdrátový protokol, jako je [Bluetooth Low Energy](https://wikipedia.org/wiki/Bluetooth_Low_Energy) (BLE).
 
@@ -267,11 +267,11 @@ Napište kód serveru.
 
 1. Když se VS Code spustí, aktivuje virtuální prostředí Pythonu. To bude uvedeno ve spodním stavovém řádku:
 
-    ![VS Code ukazuje vybrané virtuální prostředí](../../../../../translated_images/vscode-virtual-env.8ba42e04c3d533cf.cs.png)
+    ![VS Code ukazuje vybrané virtuální prostředí](../../../../../translated_images/cs/vscode-virtual-env.8ba42e04c3d533cf.png)
 
 1. Pokud je terminál VS Code již spuštěn při startu VS Code, virtuální prostředí v něm nebude aktivováno. Nejjednodušší je ukončit terminál pomocí tlačítka **Kill the active terminal instance**:
 
-    ![Tlačítko VS Code Kill the active terminal instance](../../../../../translated_images/vscode-kill-terminal.1cc4de7c6f25ee08.cs.png)
+    ![Tlačítko VS Code Kill the active terminal instance](../../../../../translated_images/cs/vscode-kill-terminal.1cc4de7c6f25ee08.png)
 
 1. Spusťte nový terminál VS Code výběrem *Terminal -> New Terminal* nebo stisknutím `` CTRL+` ``. Nový terminál načte virtuální prostředí, přičemž volání aktivačního příkazu se objeví v terminálu. Název virtuálního prostředí (`.venv`) bude také v promptu:
 
@@ -359,7 +359,7 @@ Pro stroje byste možná chtěli data uchovat, zejména pokud se používají k 
 
 Návrháři IoT zařízení by také měli zvážit, zda lze IoT zařízení používat během výpadku internetu nebo ztráty signálu způsobené lokalitou. Chytrý termostat by měl být schopen provádět některá omezená rozhodnutí o řízení vytápění, pokud nemůže odesílat telemetrii do cloudu kvůli výpadku.
 
-[![Tento Ferrari přestal fungovat, protože někdo zkusil provést aktualizaci pod zemí, kde není signál](../../../../../translated_images/bricked-car.dc38f8efadc6c59d76211f981a521efb300939283dee468f79503aae3ec67615.cs.png)](https://twitter.com/internetofshit/status/1315736960082808832)
+[![Tento Ferrari přestal fungovat, protože někdo zkusil provést aktualizaci pod zemí, kde není signál](../../../../../translated_images/cs/bricked-car.dc38f8efadc6c59d76211f981a521efb300939283dee468f79503aae3ec67615.png)](https://twitter.com/internetofshit/status/1315736960082808832)
 
 Aby MQTT zvládlo ztrátu připojení, musí být zařízení a serverový kód zodpovědné za zajištění doručení zpráv, pokud je to potřeba, například vyžadováním, aby na všechny odeslané zprávy byly odpovězeno dalšími zprávami na odpovědním tématu. Pokud ne, jsou ručně zařazeny do fronty k pozdějšímu přehrání.
 
@@ -367,7 +367,7 @@ Aby MQTT zvládlo ztrátu připojení, musí být zařízení a serverový kód 
 
 Příkazy jsou zprávy odeslané z cloudu do zařízení, které mu nařizují něco udělat. Většinou to zahrnuje nějaký výstup přes akční člen, ale může to být i instrukce pro samotné zařízení, například restartovat nebo shromáždit další telemetrii a vrátit ji jako odpověď na příkaz.
 
-![Internetem připojený termostat přijímá příkaz k zapnutí topení](../../../../../translated_images/commands.d6c06bbbb3a02cce95f2831a1c331daf6dedd4e470c4aa2b0ae54f332016e504.cs.png)
+![Internetem připojený termostat přijímá příkaz k zapnutí topení](../../../../../translated_images/cs/commands.d6c06bbbb3a02cce95f2831a1c331daf6dedd4e470c4aa2b0ae54f332016e504.png)
 
 Termostat by mohl přijmout příkaz z cloudu k zapnutí topení. Na základě telemetrických dat ze všech senzorů cloudová služba rozhodla, že topení by mělo být zapnuto, a tak odešle příslušný příkaz.
 

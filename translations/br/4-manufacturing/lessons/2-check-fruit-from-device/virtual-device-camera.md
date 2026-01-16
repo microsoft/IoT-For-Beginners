@@ -43,11 +43,11 @@ Adicione a câmera ao aplicativo CounterFit.
 
     1. Selecione o botão **Add** para criar a câmera.
 
-    ![As configurações da câmera](../../../../../translated_images/counterfit-create-camera.a5de97f59c0bd3cbe0416d7e89a3cfe86d19fbae05c641c53a91286412af0a34.br.png)
+    ![As configurações da câmera](../../../../../translated_images/br/counterfit-create-camera.a5de97f59c0bd3cbe0416d7e89a3cfe86d19fbae05c641c53a91286412af0a34.png)
 
     A câmera será criada e aparecerá na lista de sensores.
 
-    ![A câmera criada](../../../../../translated_images/counterfit-camera.001ec52194c8ee5d3f617173da2c79e1df903d10882adc625cbfc493525125d4.br.png)
+    ![A câmera criada](../../../../../translated_images/br/counterfit-camera.001ec52194c8ee5d3f617173da2c79e1df903d10882adc625cbfc493525125d4.png)
 
 ## Programar a câmera
 
@@ -112,7 +112,7 @@ Programe o dispositivo.
 
 1. Configure a imagem que a câmera no CounterFit capturará. Você pode definir a *Source* como *File* e fazer upload de um arquivo de imagem, ou definir a *Source* como *WebCam*, e as imagens serão capturadas da sua webcam. Certifique-se de selecionar o botão **Set** após selecionar uma imagem ou sua webcam.
 
-    ![CounterFit com um arquivo definido como fonte de imagem e uma webcam mostrando uma pessoa segurando uma banana em uma pré-visualização da webcam](../../../../../translated_images/counterfit-camera-options.eb3bd5150a8e7dffbf24bc5bcaba0cf2cdef95fbe6bbe393695d173817d6b8df.br.png)
+    ![CounterFit com um arquivo definido como fonte de imagem e uma webcam mostrando uma pessoa segurando uma banana em uma pré-visualização da webcam](../../../../../translated_images/br/counterfit-camera-options.eb3bd5150a8e7dffbf24bc5bcaba0cf2cdef95fbe6bbe393695d173817d6b8df.png)
 
 1. Uma imagem será capturada e salva como `image.jpg` na pasta atual. Você verá este arquivo no explorador do VS Code. Selecione o arquivo para visualizar a imagem. Se precisar de rotação, atualize a linha `camera.rotation = 0` conforme necessário e tire outra foto.
 

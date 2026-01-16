@@ -104,7 +104,7 @@ Den kode, du brugte til at klassificere billeder, ligner meget koden til at dete
 
     Du vil kunne se det billede, der blev taget, og disse værdier i **Predictions**-fanen i Custom Vision.
 
-    ![4 dåser tomatpuré på en hylde med forudsigelser for de 4 detektioner på 35,8%, 33,5%, 25,7% og 16,6%](../../../../../translated_images/custom-vision-stock-prediction.942266ab1bcca3410ecdf23643b9f5f570cfab2345235074e24c51f285777613.da.png)
+    ![4 dåser tomatpuré på en hylde med forudsigelser for de 4 detektioner på 35,8%, 33,5%, 25,7% og 16,6%](../../../../../translated_images/da/custom-vision-stock-prediction.942266ab1bcca3410ecdf23643b9f5f570cfab2345235074e24c51f285777613.png)
 
 > 💁 Du kan finde denne kode i mappen [code-detect/wio-terminal](../../../../../5-retail/lessons/2-check-stock-device/code-detect/wio-terminal).
 

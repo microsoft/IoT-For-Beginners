@@ -93,7 +93,7 @@ The Custom Vision service provides a Python SDK that you can use to classify ima
 
     You will also see the captured image and these values in the **Predictions** tab in Custom Vision.
 
-    ![A banana in custom vision predicted ripe at 56.8% and unripe at 43.1%](../../../../../translated_images/custom-vision-banana-prediction.30cdff4e1d72db5d9a0be0193790a47c2b387da034e12dc1314dd57ca2131b59.en.png)
+    ![A banana in custom vision predicted ripe at 56.8% and unripe at 43.1%](../../../../../translated_images/en/custom-vision-banana-prediction.30cdff4e1d72db5d9a0be0193790a47c2b387da034e12dc1314dd57ca2131b59.png)
 
 > 💁 You can find this code in the [code-classify/pi](../../../../../4-manufacturing/lessons/2-check-fruit-from-device/code-classify/pi) or [code-classify/virtual-iot-device](../../../../../4-manufacturing/lessons/2-check-fruit-from-device/code-classify/virtual-iot-device) folder.
 

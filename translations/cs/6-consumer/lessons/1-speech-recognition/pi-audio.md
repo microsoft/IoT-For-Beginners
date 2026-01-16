@@ -25,13 +25,13 @@ Tlačítko lze připojit k základní desce Grove.
 
 #### Úkol - připojte tlačítko
 
-![Grove tlačítko](../../../../../translated_images/grove-button.a70cfbb809a8563681003250cf5b06d68cdcc68624f9e2f493d5a534ae2da1e5.cs.png)
+![Grove tlačítko](../../../../../translated_images/cs/grove-button.a70cfbb809a8563681003250cf5b06d68cdcc68624f9e2f493d5a534ae2da1e5.png)
 
 1. Zasuňte jeden konec Grove kabelu do konektoru na modulu tlačítka. Kabel lze zasunout pouze jedním způsobem.
 
 1. S vypnutým Raspberry Pi připojte druhý konec Grove kabelu do digitálního konektoru označeného **D5** na základní desce Grove připojené k Pi. Tento konektor je druhý zleva v řadě konektorů vedle GPIO pinů.
 
-![Grove tlačítko připojené ke konektoru D5](../../../../../translated_images/pi-button.c7a1a4f55943341ce1baf1057658e9a205804d4131d258e820c93f951df0abf3.cs.png)
+![Grove tlačítko připojené ke konektoru D5](../../../../../translated_images/cs/pi-button.c7a1a4f55943341ce1baf1057658e9a205804d4131d258e820c93f951df0abf3.png)
 
 ## Zachycení zvuku
 

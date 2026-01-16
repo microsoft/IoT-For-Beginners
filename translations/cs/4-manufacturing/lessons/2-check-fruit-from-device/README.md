@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Kontrola kvality ovoce pomocí IoT zařízení
 
-![Přehled této lekce ve formě sketchnote](../../../../../translated_images/lesson-16.215daf18b00631fbdfd64c6fc2dc6044dff5d544288825d8076f9fb83d964c23.cs.jpg)
+![Přehled této lekce ve formě sketchnote](../../../../../translated_images/cs/lesson-16.215daf18b00631fbdfd64c6fc2dc6044dff5d544288825d8076f9fb83d964c23.jpg)
 
 > Sketchnote od [Nitya Narasimhan](https://github.com/nitya). Klikněte na obrázek pro větší verzi.
 
@@ -35,7 +35,7 @@ V této lekci se zaměříme na:
 
 Kamerové senzory, jak název napovídá, jsou kamery, které můžete připojit k vašemu IoT zařízení. Mohou pořizovat statické obrázky nebo zachytávat streamované video. Některé vracejí surová obrazová data, jiné komprimují obrazová data do souborů, jako je JPEG nebo PNG. Obvykle jsou kamery, které fungují s IoT zařízeními, mnohem menší a mají nižší rozlišení, než na jaké jste zvyklí, ale můžete získat kamery s vysokým rozlišením, které se vyrovnají špičkovým telefonům. Můžete si pořídit různé vyměnitelné objektivy, sestavy s více kamerami, infračervené termální kamery nebo UV kamery.
 
-![Světlo ze scény prochází objektivem a je zaostřeno na CMOS senzor](../../../../../translated_images/cmos-sensor.75f9cd74decb137149a4c9ea825251a4549497d67c0ae2776159e6102bb53aa9.cs.png)
+![Světlo ze scény prochází objektivem a je zaostřeno na CMOS senzor](../../../../../translated_images/cs/cmos-sensor.75f9cd74decb137149a4c9ea825251a4549497d67c0ae2776159e6102bb53aa9.png)
 
 Většina kamerových senzorů používá obrazové senzory, kde každý pixel je fotodioda. Objektiv zaostřuje obraz na obrazový senzor a tisíce nebo miliony fotodiod detekují světlo dopadající na každou z nich a zaznamenávají to jako obrazová data.
 
@@ -83,7 +83,7 @@ Iterace se publikují z portálu Custom Vision.
 
 1. Klikněte na tlačítko **Publikovat** pro danou iteraci.
 
-    ![Tlačítko publikovat](../../../../../translated_images/custom-vision-publish-button.b7174e1977b0c33b8b72d4e5b1326c779e0af196f3849d09985ee2d7d5493a39.cs.png)
+    ![Tlačítko publikovat](../../../../../translated_images/cs/custom-vision-publish-button.b7174e1977b0c33b8b72d4e5b1326c779e0af196f3849d09985ee2d7d5493a39.png)
 
 1. V dialogu *Publikovat model* nastavte *Predikční zdroj* na zdroj `fruit-quality-detector-prediction`, který jste vytvořili v minulé lekci. Název ponechte jako `Iteration2` a klikněte na tlačítko **Publikovat**.
 
@@ -97,7 +97,7 @@ Iterace se publikují z portálu Custom Vision.
 
     Také si zkopírujte hodnotu *Prediction-Key*. Toto je bezpečnostní klíč, který musíte předat při volání modelu. Pouze aplikace, které předají tento klíč, mají povolení používat model, všechny ostatní aplikace jsou odmítnuty.
 
-    ![Dialog predikčního API zobrazující URL a klíč](../../../../../translated_images/custom-vision-prediction-key-endpoint.30c569ffd0338864f319911f052d5e9b8c5066cb0800a26dd6f7ff5713130ad8.cs.png)
+    ![Dialog predikčního API zobrazující URL a klíč](../../../../../translated_images/cs/custom-vision-prediction-key-endpoint.30c569ffd0338864f319911f052d5e9b8c5066cb0800a26dd6f7ff5713130ad8.png)
 
 ✅ Když je publikována nová iterace, bude mít jiný název. Jak si myslíte, že byste změnili iteraci, kterou IoT zařízení používá?
 
@@ -118,7 +118,7 @@ Může se stát, že výsledky, které získáte při použití kamery připojen
 
 Abyste dosáhli nejlepších výsledků u klasifikátoru obrázků, chcete model trénovat na obrázcích, které jsou co nejpodobnější obrázkům používaným pro predikce. Pokud jste například použili kameru telefonu k zachycení obrázků pro trénování, kvalita obrázku, ostrost a barvy budou odlišné od kamery připojené k IoT zařízení.
 
-![2 obrázky banánů, jeden s nízkým rozlišením a špatným osvětlením z IoT zařízení, druhý s vysokým rozlišením a dobrým osvětlením z telefonu](../../../../../translated_images/banana-picture-compare.174df164dc326a42cf7fb051a7497e6113c620e91552d92ca914220305d47d9a.cs.png)
+![2 obrázky banánů, jeden s nízkým rozlišením a špatným osvětlením z IoT zařízení, druhý s vysokým rozlišením a dobrým osvětlením z telefonu](../../../../../translated_images/cs/banana-picture-compare.174df164dc326a42cf7fb051a7497e6113c620e91552d92ca914220305d47d9a.png)
 
 Na obrázku výše byl obrázek banánu vlevo pořízen pomocí kamery Raspberry Pi, zatímco obrázek vpravo byl pořízen stejného banánu na stejném místě pomocí iPhonu. Je zde znatelný rozdíl v kvalitě – obrázek z iPhonu je ostřejší, s jasnějšími barvami a větším kontrastem.
 

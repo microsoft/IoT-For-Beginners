@@ -27,13 +27,13 @@ CO_OP_TRANSLATOR_METADATA:
 
 قم بتوصيل مستشعر درجة الحرارة.
 
-![مستشعر درجة الحرارة Grove](../../../../../translated_images/grove-dht11.07f8eafceee170043efbb53e1d15722bd4e00fbaa9ff74290b57e9f66eb82c17.ar.png)
+![مستشعر درجة الحرارة Grove](../../../../../translated_images/ar/grove-dht11.07f8eafceee170043efbb53e1d15722bd4e00fbaa9ff74290b57e9f66eb82c17.png)
 
 1. أدخل أحد طرفي كابل Grove في المقبس الموجود على مستشعر الرطوبة ودرجة الحرارة. لن يدخل إلا في اتجاه واحد.
 
 1. مع فصل Wio Terminal عن جهاز الكمبيوتر أو أي مصدر طاقة آخر، قم بتوصيل الطرف الآخر من كابل Grove بالمقبس الموجود على الجانب الأيمن من Wio Terminal أثناء النظر إلى الشاشة. هذا هو المقبس الأبعد عن زر الطاقة.
 
-![مستشعر درجة الحرارة Grove متصل بالمقبس الأيمن](../../../../../translated_images/wio-temperature-sensor.2934928f38c7f79a.ar.png)
+![مستشعر درجة الحرارة Grove متصل بالمقبس الأيمن](../../../../../translated_images/ar/wio-temperature-sensor.2934928f38c7f79a.png)
 
 ## برمجة مستشعر درجة الحرارة
 

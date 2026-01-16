@@ -25,7 +25,7 @@ Kameraet kan tilsluttes Raspberry Pi ved hjælp af et fladkabel.
 
 ### Opgave - tilslut kameraet
 
-![Et Raspberry Pi Camera](../../../../../translated_images/pi-camera-module.4278753c31bd6e757aa2b858be97d72049f71616278cefe4fb5abb485b40a078.da.png)
+![Et Raspberry Pi Camera](../../../../../translated_images/da/pi-camera-module.4278753c31bd6e757aa2b858be97d72049f71616278cefe4fb5abb485b40a078.png)
 
 1. Sluk for Pi'en.
 
@@ -33,17 +33,17 @@ Kameraet kan tilsluttes Raspberry Pi ved hjælp af et fladkabel.
 
     Du kan finde en animation, der viser, hvordan man åbner klipsen og indsætter kablet, i [Raspberry Pi Getting Started with the Camera module documentation](https://projects.raspberrypi.org/en/projects/getting-started-with-picamera/2).
 
-    ![Fladkablet indsat i kameramodulet](../../../../../translated_images/pi-camera-ribbon-cable.0bf82acd251611c21ac616f082849413e2b322a261d0e4f8fec344248083b07e.da.png)
+    ![Fladkablet indsat i kameramodulet](../../../../../translated_images/da/pi-camera-ribbon-cable.0bf82acd251611c21ac616f082849413e2b322a261d0e4f8fec344248083b07e.png)
 
 1. Fjern Grove Base Hat fra Pi'en.
 
 1. Før fladkablet gennem kamerahullet i Grove Base Hat. Sørg for, at den blå side af kablet vender mod de analoge porte mærket **A0**, **A1** osv.
 
-    ![Fladkablet føres gennem grove base hat](../../../../../translated_images/grove-base-hat-ribbon-cable.501fed202fcf73b11b2b68f6d246189f7d15d3e4423c572ddee79d77b4632b47.da.png)
+    ![Fladkablet føres gennem grove base hat](../../../../../translated_images/da/grove-base-hat-ribbon-cable.501fed202fcf73b11b2b68f6d246189f7d15d3e4423c572ddee79d77b4632b47.png)
 
 1. Indsæt fladkablet i kamerastikket på Pi'en. Træk igen den sorte plastikklips op, indsæt kablet, og skub derefter klipsen tilbage på plads. Den blå side af kablet skal vende mod USB- og ethernet-portene.
 
-    ![Fladkablet tilsluttet kamerastikket på Pi'en](../../../../../translated_images/pi-camera-socket-ribbon-cable.a18309920b11800911082ed7aa6fb28e6d9be3a022e4079ff990016cae3fca10.da.png)
+    ![Fladkablet tilsluttet kamerastikket på Pi'en](../../../../../translated_images/da/pi-camera-socket-ribbon-cable.a18309920b11800911082ed7aa6fb28e6d9be3a022e4079ff990016cae3fca10.png)
 
 1. Monter Grove Base Hat igen.
 
@@ -110,7 +110,7 @@ Programmer enheden.
 
     Linjen `camera.rotation = 0` angiver rotationen af billedet. Fladkablet kommer ind i bunden af kameraet, men hvis dit kamera blev roteret for at gøre det lettere at pege på det objekt, du vil klassificere, kan du ændre denne linje til antallet af grader af rotation.
 
-    ![Kameraet hænger ned over en sodavandsdåse](../../../../../translated_images/pi-camera-upside-down.5376961ba31459883362124152ad6b823d5ac5fc14e85f317e22903bd681c2b6.da.png)
+    ![Kameraet hænger ned over en sodavandsdåse](../../../../../translated_images/da/pi-camera-upside-down.5376961ba31459883362124152ad6b823d5ac5fc14e85f317e22903bd681c2b6.png)
 
     For eksempel, hvis du hænger fladkablet over noget, så det er øverst på kameraet, skal du sætte rotationen til 180:
 

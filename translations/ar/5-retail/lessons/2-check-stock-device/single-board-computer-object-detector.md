@@ -76,7 +76,7 @@ CO_OP_TRANSLATOR_METADATA:
 
     ستتمكن من رؤية الصورة التي تم التقاطها، وهذه القيم في علامة التبويب **Predictions** في Custom Vision.
 
-    ![4 علب من معجون الطماطم على رف مع توقعات للكشف الأربعة بنسبة 35.8%، 33.5%، 25.7% و16.6%](../../../../../translated_images/custom-vision-stock-prediction.942266ab1bcca3410ecdf23643b9f5f570cfab2345235074e24c51f285777613.ar.png)
+    ![4 علب من معجون الطماطم على رف مع توقعات للكشف الأربعة بنسبة 35.8%، 33.5%، 25.7% و16.6%](../../../../../translated_images/ar/custom-vision-stock-prediction.942266ab1bcca3410ecdf23643b9f5f570cfab2345235074e24c51f285777613.png)
 
 > 💁 يمكنك العثور على هذا الكود في المجلد [code-detect/pi](../../../../../5-retail/lessons/2-check-stock-device/code-detect/pi) أو [code-detect/virtual-iot-device](../../../../../5-retail/lessons/2-check-stock-device/code-detect/virtual-iot-device).
 

@@ -217,7 +217,7 @@ CO_OP_TRANSLATOR_METADATA:
 
     Θα μπορείτε να δείτε την εικόνα που τραβήχτηκε και αυτές τις τιμές στην καρτέλα **Predictions** στο Custom Vision.
 
-    ![Μια μπανάνα στο Custom Vision προβλέπεται ώριμη με 56.8% και άγουρη με 43.1%](../../../../../translated_images/custom-vision-banana-prediction.30cdff4e1d72db5d9a0be0193790a47c2b387da034e12dc1314dd57ca2131b59.el.png)
+    ![Μια μπανάνα στο Custom Vision προβλέπεται ώριμη με 56.8% και άγουρη με 43.1%](../../../../../translated_images/el/custom-vision-banana-prediction.30cdff4e1d72db5d9a0be0193790a47c2b387da034e12dc1314dd57ca2131b59.png)
 
 > 💁 Μπορείτε να βρείτε αυτόν τον κώδικα στον φάκελο [code-classify/wio-terminal](../../../../../4-manufacturing/lessons/2-check-fruit-from-device/code-classify/wio-terminal).
 

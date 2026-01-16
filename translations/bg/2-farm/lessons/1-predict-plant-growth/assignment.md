@@ -42,7 +42,7 @@ CO_OP_TRANSLATOR_METADATA:
 
     Jupyter ще се стартира и ще отвори notebook-а във вашия браузър. Следвайте инструкциите в notebook-а, за да визуализирате измерените температури и да изчислите дните на растеж (GDD).
 
-    ![Jupyter Notebook](../../../../../translated_images/gdd-jupyter-notebook.c5b52cf21094f158a61f47f455490fd95f1729777ff90861a4521820bf354cdc.bg.png)
+    ![Jupyter Notebook](../../../../../translated_images/bg/gdd-jupyter-notebook.c5b52cf21094f158a61f47f455490fd95f1729777ff90861a4521820bf354cdc.png)
 
 ## Критерии за оценка
 

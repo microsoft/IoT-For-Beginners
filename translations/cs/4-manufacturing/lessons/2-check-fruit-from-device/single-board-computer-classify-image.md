@@ -93,7 +93,7 @@ Služba Custom Vision má Python SDK, které můžete použít ke klasifikaci ob
 
     Budete schopni vidět obrázek, který byl pořízen, a tyto hodnoty na záložce **Predictions** v Custom Vision.
 
-    ![Banán v Custom Vision předpovězený jako zralý na 56,8 % a nezralý na 43,1 %](../../../../../translated_images/custom-vision-banana-prediction.30cdff4e1d72db5d9a0be0193790a47c2b387da034e12dc1314dd57ca2131b59.cs.png)
+    ![Banán v Custom Vision předpovězený jako zralý na 56,8 % a nezralý na 43,1 %](../../../../../translated_images/cs/custom-vision-banana-prediction.30cdff4e1d72db5d9a0be0193790a47c2b387da034e12dc1314dd57ca2131b59.png)
 
 > 💁 Tento kód najdete ve složce [code-classify/pi](../../../../../4-manufacturing/lessons/2-check-fruit-from-device/code-classify/pi) nebo [code-classify/virtual-iot-device](../../../../../4-manufacturing/lessons/2-check-fruit-from-device/code-classify/virtual-iot-device).
 

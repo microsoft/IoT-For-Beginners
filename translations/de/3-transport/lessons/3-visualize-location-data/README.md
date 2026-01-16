@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Standortdaten visualisieren
 
-![Eine Sketchnote-Übersicht dieser Lektion](../../../../../translated_images/lesson-13.a259db1485021be7d7c72e90842fbe0ab977529e8684c179b5fb1ea75e92b3ef.de.jpg)
+![Eine Sketchnote-Übersicht dieser Lektion](../../../../../translated_images/de/lesson-13.a259db1485021be7d7c72e90842fbe0ab977529e8684c179b5fb1ea75e92b3ef.jpg)
 
 > Sketchnote von [Nitya Narasimhan](https://github.com/nitya). Klicken Sie auf das Bild für eine größere Version.
 
@@ -73,11 +73,11 @@ Ein einfaches Beispiel: Im Farmprojekt haben Sie Bodenfeuchtigkeitswerte erfasst
 
 Für einen Menschen ist es schwierig, diese Daten zu verstehen. Es ist eine Wand aus Zahlen ohne Bedeutung. Als erster Schritt zur Visualisierung dieser Daten können sie in einem Liniendiagramm dargestellt werden:
 
-![Ein Liniendiagramm der obigen Daten](../../../../../translated_images/chart-soil-moisture.fd6d9d0cdc0b5f75e78038ecb8945dfc84b38851359de99d84b16e3336d6d7c2.de.png)
+![Ein Liniendiagramm der obigen Daten](../../../../../translated_images/de/chart-soil-moisture.fd6d9d0cdc0b5f75e78038ecb8945dfc84b38851359de99d84b16e3336d6d7c2.png)
 
 Dies kann weiter verbessert werden, indem eine Linie hinzugefügt wird, die anzeigt, wann das automatische Bewässerungssystem bei einem Bodenfeuchtigkeitswert von 450 eingeschaltet wurde:
 
-![Ein Liniendiagramm der Bodenfeuchtigkeit mit einer Linie bei 450](../../../../../translated_images/chart-soil-moisture-relay.fbb391236d34a64d0abf1df396e9197e0a24df14150620b9cc820a64a55c9326.de.png)
+![Ein Liniendiagramm der Bodenfeuchtigkeit mit einer Linie bei 450](../../../../../translated_images/de/chart-soil-moisture-relay.fbb391236d34a64d0abf1df396e9197e0a24df14150620b9cc820a64a55c9326.png)
 
 Dieses Diagramm zeigt sehr schnell nicht nur die Bodenfeuchtigkeitswerte, sondern auch die Punkte, an denen das Bewässerungssystem eingeschaltet wurde.
 
@@ -93,7 +93,7 @@ Beim Arbeiten mit GPS-Daten kann die klarste Visualisierung darin bestehen, die 
 
 Die Arbeit mit Karten ist eine interessante Übung, und es gibt viele Optionen wie Bing Maps, Leaflet, Open Street Maps und Google Maps. In dieser Lektion lernen Sie [Azure Maps](https://azure.microsoft.com/services/azure-maps/?WT.mc_id=academic-17441-jabenn) kennen und wie Sie damit Ihre GPS-Daten anzeigen können.
 
-![Das Azure Maps-Logo](../../../../../translated_images/azure-maps-logo.35d01dcfbd81fe6140e94257aaa1538f785a58c91576d14e0ebe7a2f6c694b99.de.png)
+![Das Azure Maps-Logo](../../../../../translated_images/de/azure-maps-logo.35d01dcfbd81fe6140e94257aaa1538f785a58c91576d14e0ebe7a2f6c694b99.png)
 
 Azure Maps ist "eine Sammlung von Geodiensten und SDKs, die aktuelle Kartendaten verwenden, um geografischen Kontext für Web- und mobile Anwendungen bereitzustellen." Entwicklern werden Tools zur Verfügung gestellt, um schöne, interaktive Karten zu erstellen, die Dinge wie empfohlene Verkehrswege, Informationen zu Verkehrsvorfällen, Indoor-Navigation, Suchfunktionen, Höheninformationen, Wetterdienste und mehr bieten können.
 
@@ -194,7 +194,7 @@ Nun können Sie den nächsten Schritt machen, nämlich Ihre Karte auf einer Webs
 
     Wenn Sie Ihre `index.html`-Seite in einem Webbrowser öffnen, sollten Sie eine Karte sehen, die auf den Bereich Seattle fokussiert ist.
 
-    ![Eine Karte, die Seattle, eine Stadt im Bundesstaat Washington, USA, zeigt](../../../../../translated_images/map-image.8fb2c53eb23ef39c1c0a4410a5282e879b3b452b707eb066ff04c5488d3d72b7.de.png)
+    ![Eine Karte, die Seattle, eine Stadt im Bundesstaat Washington, USA, zeigt](../../../../../translated_images/de/map-image.8fb2c53eb23ef39c1c0a4410a5282e879b3b452b707eb066ff04c5488d3d72b7.png)
 
     ✅ Experimentieren Sie mit den Zoom- und Center-Parametern, um Ihre Kartendarstellung zu ändern. Sie können verschiedene Koordinaten entsprechend der Breite und Länge Ihrer Daten hinzufügen, um die Karte neu zu zentrieren.
 
@@ -328,7 +328,7 @@ Wenn du eine Anfrage an deinen Speicher sendest, um die Daten abzurufen, könnte
 
 1. Lade die HTML-Seite in deinem Browser. Sie wird die Karte laden, dann alle GPS-Daten aus dem Speicher abrufen und sie auf der Karte darstellen.
 
-    ![Eine Karte des Saint Edward State Park in der Nähe von Seattle, mit Kreisen, die einen Pfad entlang des Parkrands zeigen](../../../../../translated_images/map-path.896832e72dc696ffe20650e4051027d4855442d955f93fdbb80bb417ca8a406f.de.png)
+    ![Eine Karte des Saint Edward State Park in der Nähe von Seattle, mit Kreisen, die einen Pfad entlang des Parkrands zeigen](../../../../../translated_images/de/map-path.896832e72dc696ffe20650e4051027d4855442d955f93fdbb80bb417ca8a406f.png)
 
 > 💁 Du findest diesen Code im [code](../../../../../3-transport/lessons/3-visualize-location-data/code)-Ordner.
 

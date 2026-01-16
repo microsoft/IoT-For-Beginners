@@ -27,13 +27,13 @@ Das Grove-Relais kann an den digitalen Port des Wio Terminals angeschlossen werd
 
 Schließen Sie das Relais an.
 
-![Ein Grove-Relais](../../../../../translated_images/grove-relay.d426958ca210fbd0fb7983d7edc069d46c73a8b0a099d94797bd756f7b6bb6be.de.png)
+![Ein Grove-Relais](../../../../../translated_images/de/grove-relay.d426958ca210fbd0fb7983d7edc069d46c73a8b0a099d94797bd756f7b6bb6be.png)
 
 1. Stecken Sie ein Ende eines Grove-Kabels in die Buchse des Relais. Es passt nur in einer Richtung hinein.
 
 1. Verbinden Sie, während das Wio Terminal von Ihrem Computer oder einer anderen Stromquelle getrennt ist, das andere Ende des Grove-Kabels mit der linken Grove-Buchse des Wio Terminals, wenn Sie auf den Bildschirm schauen. Lassen Sie den Bodenfeuchtigkeitssensor mit der rechten Buchse verbunden.
 
-![Das Grove-Relais ist mit der linken Buchse verbunden, und der Bodenfeuchtigkeitssensor ist mit der rechten Buchse verbunden](../../../../../translated_images/wio-relay-and-soil-moisture-sensor.ed722202d42babe0.de.png)
+![Das Grove-Relais ist mit der linken Buchse verbunden, und der Bodenfeuchtigkeitssensor ist mit der rechten Buchse verbunden](../../../../../translated_images/de/wio-relay-and-soil-moisture-sensor.ed722202d42babe0.png)
 
 1. Stecken Sie den Bodenfeuchtigkeitssensor in die Erde, falls er nicht bereits aus der vorherigen Lektion dort steckt.
 

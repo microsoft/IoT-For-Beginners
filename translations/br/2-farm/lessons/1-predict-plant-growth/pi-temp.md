@@ -25,13 +25,13 @@ O sensor de temperatura Grove pode ser conectado ao Raspberry Pi.
 
 Conecte o sensor de temperatura
 
-![Um sensor de temperatura Grove](../../../../../translated_images/grove-dht11.07f8eafceee170043efbb53e1d15722bd4e00fbaa9ff74290b57e9f66eb82c17.br.png)
+![Um sensor de temperatura Grove](../../../../../translated_images/br/grove-dht11.07f8eafceee170043efbb53e1d15722bd4e00fbaa9ff74290b57e9f66eb82c17.png)
 
 1. Insira uma extremidade do cabo Grove no conector do sensor de umidade e temperatura. Ele só encaixará de uma maneira.
 
 1. Com o Raspberry Pi desligado, conecte a outra extremidade do cabo Grove ao conector digital marcado como **D5** no Grove Base Hat conectado ao Pi. Este conector é o segundo da esquerda, na fileira de conectores ao lado dos pinos GPIO.
 
-![O sensor de temperatura Grove conectado ao conector A0](../../../../../translated_images/pi-temperature-sensor.3ff82fff672c8e565ef25a39d26d111de006b825a7e0867227ef4e7fbff8553c.br.png)
+![O sensor de temperatura Grove conectado ao conector A0](../../../../../translated_images/br/pi-temperature-sensor.3ff82fff672c8e565ef25a39d26d111de006b825a7e0867227ef4e7fbff8553c.png)
 
 ## Programar o sensor de temperatura
 

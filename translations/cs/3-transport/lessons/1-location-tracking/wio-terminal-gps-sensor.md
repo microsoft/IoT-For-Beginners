@@ -27,13 +27,13 @@ Grove GPS senzor lze připojit k Wio Terminalu.
 
 Připojte GPS senzor.
 
-![Grove GPS senzor](../../../../../translated_images/grove-gps-sensor.247943bf69b03f0d1820ef6ed10c587f9b650e8db55b936851c92412180bd3e2.cs.png)
+![Grove GPS senzor](../../../../../translated_images/cs/grove-gps-sensor.247943bf69b03f0d1820ef6ed10c587f9b650e8db55b936851c92412180bd3e2.png)
 
 1. Zasuňte jeden konec Grove kabelu do konektoru na GPS senzoru. Kabel lze zasunout pouze jedním směrem.
 
 1. S Wio Terminalem odpojeným od počítače nebo jiného zdroje napájení připojte druhý konec Grove kabelu do levého Grove konektoru na Wio Terminalu, když se díváte na obrazovku. Tento konektor je nejblíže k tlačítku napájení.
 
-    ![Grove GPS senzor připojený k levému konektoru](../../../../../translated_images/wio-gps-sensor.19fd52b81ce58095.cs.png)
+    ![Grove GPS senzor připojený k levému konektoru](../../../../../translated_images/cs/wio-gps-sensor.19fd52b81ce58095.png)
 
 1. Umístěte GPS senzor tak, aby připojená anténa měla viditelnost na oblohu - ideálně vedle otevřeného okna nebo venku. Je snazší získat jasnější signál, pokud anténě nic nepřekáží.
 

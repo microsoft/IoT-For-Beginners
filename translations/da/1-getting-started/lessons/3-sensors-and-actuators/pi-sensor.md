@@ -25,13 +25,13 @@ Grove-lyssensoren, der bruges til at registrere lysniveauer, skal forbindes til 
 
 Tilslut lyssensoren.
 
-![En Grove-lyssensor](../../../../../translated_images/grove-light-sensor.b8127b7c434e632d6bcdb57587a14e9ef69a268a22df95d08628f62b8fa5505c.da.png)
+![En Grove-lyssensor](../../../../../translated_images/da/grove-light-sensor.b8127b7c434e632d6bcdb57587a14e9ef69a268a22df95d08628f62b8fa5505c.png)
 
 1. Sæt den ene ende af et Grove-kabel i stikket på lyssensormodulet. Det kan kun sættes i på én måde.
 
 1. Med Raspberry Pi slukket, tilslut den anden ende af Grove-kablet til det analoge stik mærket **A0** på Grove Base-hatten, der er tilsluttet Pi'en. Dette stik er det andet fra højre i rækken af stik ved siden af GPIO-pindene.
 
-![Grove-lyssensoren tilsluttet stik A0](../../../../../translated_images/pi-light-sensor.66cc1e31fa48cd7d5f23400d4b2119aa41508275cb7c778053a7923b4e972d7e.da.png)
+![Grove-lyssensoren tilsluttet stik A0](../../../../../translated_images/da/pi-light-sensor.66cc1e31fa48cd7d5f23400d4b2119aa41508275cb7c778053a7923b4e972d7e.png)
 
 ## Programmer lyssensoren
 

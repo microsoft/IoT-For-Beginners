@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Spusťte detektor ovoce na okraji
 
-![Přehled této lekce ve formě sketchnote](../../../../../translated_images/lesson-17.bc333c3c35ba8e42cce666cfffa82b915f787f455bd94e006aea2b6f2722421a.cs.jpg)
+![Přehled této lekce ve formě sketchnote](../../../../../translated_images/cs/lesson-17.bc333c3c35ba8e42cce666cfffa82b915f787f455bd94e006aea2b6f2722421a.jpg)
 
 > Sketchnote od [Nitya Narasimhan](https://github.com/nitya). Klikněte na obrázek pro větší verzi.
 
@@ -42,11 +42,11 @@ V této lekci se zaměříme na:
 
 Edge computing zahrnuje použití počítačů, které zpracovávají data IoT co nejblíže místu, kde jsou data generována. Místo zpracování v cloudu se přesouvá na okraj cloudu - do vaší interní sítě.
 
-![Diagram architektury zobrazující internetové služby v cloudu a IoT zařízení v lokální síti](../../../../../translated_images/cloud-without-edge.b4da641f6022c95ed6b91fde8b5323abd2f94e0d52073ad54172ae8f5dac90e9.cs.png)
+![Diagram architektury zobrazující internetové služby v cloudu a IoT zařízení v lokální síti](../../../../../translated_images/cs/cloud-without-edge.b4da641f6022c95ed6b91fde8b5323abd2f94e0d52073ad54172ae8f5dac90e9.png)
 
 V dosavadních lekcích jste měli zařízení, která shromažďovala data a odesílala je do cloudu k analýze, kde běžely serverless funkce nebo AI modely.
 
-![Diagram architektury zobrazující IoT zařízení v lokální síti připojená k edge zařízením, která se připojují k cloudu](../../../../../translated_images/cloud-with-edge.1e26462c62c126fe150bd15a5714ddf0be599f09bacbad08b85be02b76ea1ae1.cs.png)
+![Diagram architektury zobrazující IoT zařízení v lokální síti připojená k edge zařízením, která se připojují k cloudu](../../../../../translated_images/cs/cloud-with-edge.1e26462c62c126fe150bd15a5714ddf0be599f09bacbad08b85be02b76ea1ae1.png)
 
 Edge computing zahrnuje přesun některých cloudových služeb z cloudu na počítače běžící ve stejné síti jako IoT zařízení, přičemž komunikace s cloudem probíhá pouze v případě potřeby. Například můžete spouštět AI modely na edge zařízeních pro analýzu zralosti ovoce a do cloudu odesílat pouze analytická data, jako je počet zralých kusů ovoce oproti nezralým.
 
@@ -94,7 +94,7 @@ Pro IoT systémy budete často chtít kombinaci cloudového a edge computingu, v
 
 ## Azure IoT Edge
 
-![Logo Azure IoT Edge](../../../../../translated_images/azure-iot-edge-logo.c1c076749b5cba2e8755262fadc2f19ca1146b948d76990b1229199ac2292d79.cs.png)
+![Logo Azure IoT Edge](../../../../../translated_images/cs/azure-iot-edge-logo.c1c076749b5cba2e8755262fadc2f19ca1146b948d76990b1229199ac2292d79.png)
 
 Azure IoT Edge je služba, která vám může pomoci přesunout pracovní zátěže z cloudu na okraj. Nastavíte zařízení jako edge zařízení a z cloudu můžete na toto edge zařízení nasadit kód. To vám umožňuje kombinovat schopnosti cloudu a okraje.
 
@@ -108,7 +108,7 @@ IoT Edge je součástí IoT Hubu, takže můžete spravovat edge zařízení pom
 
 IoT Edge spouští kód z *kontejnerů* - samostatných aplikací, které běží izolovaně od ostatních aplikací na vašem počítači. Když spustíte kontejner, chová se jako samostatný počítač běžící uvnitř vašeho počítače, se svým vlastním softwarem, službami a aplikacemi. Většinou kontejnery nemohou přistupovat k ničemu na vašem počítači, pokud se nerozhodnete sdílet například složku s kontejnerem. Kontejner pak zpřístupňuje služby prostřednictvím otevřeného portu, ke kterému se můžete připojit nebo jej zpřístupnit vaší síti.
 
-![Webový požadavek přesměrovaný do kontejneru](../../../../../translated_images/container-web-browser.4ee81dd4f0d8838ce622b2a0d600b6a4322b5d4fe43159facd87b7b34f84d66a.cs.png)
+![Webový požadavek přesměrovaný do kontejneru](../../../../../translated_images/cs/container-web-browser.4ee81dd4f0d8838ce622b2a0d600b6a4322b5d4fe43159facd87b7b34f84d66a.png)
 
 Například můžete mít kontejner s webovou stránkou běžící na portu 80, což je výchozí HTTP port, a můžete jej zpřístupnit z vašeho počítače také na portu 80.
 
@@ -204,11 +204,11 @@ Jakmile je model natrénován, je třeba jej exportovat jako kontejner.
 
 ## Příprava kontejneru pro nasazení
 
-![Kontejnery jsou vytvořeny, poté nahrány do registru kontejnerů a nasazeny na edge zařízení pomocí IoT Edge](../../../../../translated_images/container-edge-flow.c246050dd60ceefdb6ace026a4ce5c6aa4112bb5898ae23fbb2ab4be29ae3e1b.cs.png)
+![Kontejnery jsou vytvořeny, poté nahrány do registru kontejnerů a nasazeny na edge zařízení pomocí IoT Edge](../../../../../translated_images/cs/container-edge-flow.c246050dd60ceefdb6ace026a4ce5c6aa4112bb5898ae23fbb2ab4be29ae3e1b.png)
 
 Jakmile stáhnete svůj model, je třeba jej sestavit do kontejneru a poté nahrát do registru kontejnerů – online úložiště, kde můžete kontejnery uchovávat. IoT Edge poté může stáhnout kontejner z registru a nasadit jej na vaše zařízení.
 
-![Logo Azure Container Registry](../../../../../translated_images/azure-container-registry-logo.09494206991d4b295025ebff7d4e2900325e527a59184ffbc8464b6ab59654be.cs.png)
+![Logo Azure Container Registry](../../../../../translated_images/cs/azure-container-registry-logo.09494206991d4b295025ebff7d4e2900325e527a59184ffbc8464b6ab59654be.png)
 
 Registr kontejnerů, který budete používat v této lekci, je Azure Container Registry. Tato služba není zdarma, takže abyste ušetřili peníze, ujistěte se, že [vyčistíte svůj projekt](../../../clean-up.md), jakmile skončíte.
 

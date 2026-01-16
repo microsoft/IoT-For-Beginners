@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Überprüfung der Obstqualität mit einem IoT-Gerät
 
-![Eine Sketchnote-Übersicht dieser Lektion](../../../../../translated_images/lesson-16.215daf18b00631fbdfd64c6fc2dc6044dff5d544288825d8076f9fb83d964c23.de.jpg)
+![Eine Sketchnote-Übersicht dieser Lektion](../../../../../translated_images/de/lesson-16.215daf18b00631fbdfd64c6fc2dc6044dff5d544288825d8076f9fb83d964c23.jpg)
 
 > Sketchnote von [Nitya Narasimhan](https://github.com/nitya). Klicken Sie auf das Bild für eine größere Version.
 
@@ -35,7 +35,7 @@ In dieser Lektion behandeln wir:
 
 Kamerasensoren sind, wie der Name schon sagt, Kameras, die Sie mit Ihrem IoT-Gerät verbinden können. Sie können Standbilder aufnehmen oder Streaming-Videos erfassen. Einige liefern Rohbilddaten, andere komprimieren die Bilddaten in eine Bilddatei wie JPEG oder PNG. Normalerweise sind die Kameras, die mit IoT-Geräten funktionieren, viel kleiner und haben eine geringere Auflösung als die, die Sie vielleicht gewohnt sind. Es gibt jedoch auch hochauflösende Kameras, die mit den besten Smartphones konkurrieren können. Sie können verschiedene Wechselobjektive, Mehrkamerasysteme, Infrarot-Wärmekameras oder UV-Kameras erhalten.
 
-![Das Licht einer Szene passiert eine Linse und wird auf einen CMOS-Sensor fokussiert](../../../../../translated_images/cmos-sensor.75f9cd74decb137149a4c9ea825251a4549497d67c0ae2776159e6102bb53aa9.de.png)
+![Das Licht einer Szene passiert eine Linse und wird auf einen CMOS-Sensor fokussiert](../../../../../translated_images/de/cmos-sensor.75f9cd74decb137149a4c9ea825251a4549497d67c0ae2776159e6102bb53aa9.png)
 
 Die meisten Kamerasensoren verwenden Bildsensoren, bei denen jedes Pixel eine Fotodiode ist. Eine Linse fokussiert das Bild auf den Bildsensor, und Tausende oder Millionen von Fotodioden erfassen das Licht, das auf jede einzelne fällt, und zeichnen dies als Pixeldaten auf.
 
@@ -83,7 +83,7 @@ Iterationen werden über das Custom Vision-Portal veröffentlicht.
 
 1. Wählen Sie die Schaltfläche **Veröffentlichen** für die Iteration aus.
 
-    ![Die Schaltfläche Veröffentlichen](../../../../../translated_images/custom-vision-publish-button.b7174e1977b0c33b8b72d4e5b1326c779e0af196f3849d09985ee2d7d5493a39.de.png)
+    ![Die Schaltfläche Veröffentlichen](../../../../../translated_images/de/custom-vision-publish-button.b7174e1977b0c33b8b72d4e5b1326c779e0af196f3849d09985ee2d7d5493a39.png)
 
 1. Legen Sie im Dialogfeld *Modell veröffentlichen* die *Vorhersageressource* auf die Ressource `fruit-quality-detector-prediction` fest, die Sie in der letzten Lektion erstellt haben. Lassen Sie den Namen als `Iteration2` und wählen Sie die Schaltfläche **Veröffentlichen** aus.
 
@@ -97,7 +97,7 @@ Iterationen werden über das Custom Vision-Portal veröffentlicht.
 
     Kopieren Sie auch den Wert *Vorhersage-Schlüssel*. Dies ist ein sicherer Schlüssel, den Sie übergeben müssen, wenn Sie das Modell aufrufen. Nur Anwendungen, die diesen Schlüssel übergeben, dürfen das Modell verwenden, alle anderen Anwendungen werden abgelehnt.
 
-    ![Das Dialogfeld Vorhersage-API zeigt die URL und den Schlüssel](../../../../../translated_images/custom-vision-prediction-key-endpoint.30c569ffd0338864f319911f052d5e9b8c5066cb0800a26dd6f7ff5713130ad8.de.png)
+    ![Das Dialogfeld Vorhersage-API zeigt die URL und den Schlüssel](../../../../../translated_images/de/custom-vision-prediction-key-endpoint.30c569ffd0338864f319911f052d5e9b8c5066cb0800a26dd6f7ff5713130ad8.png)
 
 ✅ Wenn eine neue Iteration veröffentlicht wird, hat sie einen anderen Namen. Wie würden Sie die Iteration ändern, die ein IoT-Gerät verwendet?
 
@@ -118,7 +118,7 @@ Es kann sein, dass die Ergebnisse, die Sie mit der Kamera Ihres IoT-Geräts erha
 
 Um die besten Ergebnisse für einen Bildklassifikator zu erzielen, sollten Sie das Modell mit Bildern trainieren, die den für Vorhersagen verwendeten Bildern so ähnlich wie möglich sind. Wenn Sie beispielsweise Ihre Handykamera verwendet haben, um Bilder für das Training aufzunehmen, werden die Bildqualität, Schärfe und Farben anders sein als bei einer Kamera, die mit einem IoT-Gerät verbunden ist.
 
-![2 Bananenbilder, eines mit niedriger Auflösung und schlechter Beleuchtung von einem IoT-Gerät, und eines mit hoher Auflösung und guter Beleuchtung von einem Telefon](../../../../../translated_images/banana-picture-compare.174df164dc326a42cf7fb051a7497e6113c620e91552d92ca914220305d47d9a.de.png)
+![2 Bananenbilder, eines mit niedriger Auflösung und schlechter Beleuchtung von einem IoT-Gerät, und eines mit hoher Auflösung und guter Beleuchtung von einem Telefon](../../../../../translated_images/de/banana-picture-compare.174df164dc326a42cf7fb051a7497e6113c620e91552d92ca914220305d47d9a.png)
 
 Im obigen Bild wurde das Bananenbild links mit einer Raspberry Pi-Kamera aufgenommen, das rechts mit einem iPhone von derselben Banane am selben Ort. Es gibt einen deutlichen Unterschied in der Qualität – das iPhone-Bild ist schärfer, mit helleren Farben und mehr Kontrast.
 

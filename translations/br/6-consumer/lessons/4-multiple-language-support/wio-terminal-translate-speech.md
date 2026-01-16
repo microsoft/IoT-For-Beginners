@@ -114,7 +114,7 @@ A API REST do serviço de fala não suporta traduções diretas. Em vez disso, v
     >
     > Por exemplo, se você treinar o LUIS em inglês, mas quiser usar francês como idioma do usuário, pode traduzir frases como "set a 2 minute and 27 second timer" do inglês para o francês usando o Bing Translate e, em seguida, usar o botão **Ouvir tradução** para falar a tradução no seu microfone.
     >
-    > ![O botão ouvir tradução no Bing Translate](../../../../../translated_images/bing-translate.348aa796d6efe2a92f41ea74a5cf42bb4c63d6faaa08e7f46924e072a35daa48.br.png)
+    > ![O botão ouvir tradução no Bing Translate](../../../../../translated_images/br/bing-translate.348aa796d6efe2a92f41ea74a5cf42bb4c63d6faaa08e7f46924e072a35daa48.png)
 
 1. Adicione a chave da API do Translator e a localização abaixo de `SPEECH_LOCATION`:
 

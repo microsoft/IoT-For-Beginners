@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Check fruit quality from an IoT device
 
-![A sketchnote overview of this lesson](../../../../../translated_images/lesson-16.215daf18b00631fbdfd64c6fc2dc6044dff5d544288825d8076f9fb83d964c23.en.jpg)
+![A sketchnote overview of this lesson](../../../../../translated_images/en/lesson-16.215daf18b00631fbdfd64c6fc2dc6044dff5d544288825d8076f9fb83d964c23.jpg)
 
 > Sketchnote by [Nitya Narasimhan](https://github.com/nitya). Click the image for a larger version.
 
@@ -35,7 +35,7 @@ This lesson will cover:
 
 Camera sensors are cameras that can be connected to your IoT device. They can capture still images or streaming video. Some provide raw image data, while others compress the data into formats like JPEG or PNG. IoT-compatible cameras are often smaller and lower resolution than typical cameras, but high-resolution options are available, rivaling top-end smartphones. You can also find cameras with interchangeable lenses, multi-camera setups, infrared thermal imaging, or UV capabilities.
 
-![The light from a scene passes through a lens and is focused on a CMOS sensor](../../../../../translated_images/cmos-sensor.75f9cd74decb137149a4c9ea825251a4549497d67c0ae2776159e6102bb53aa9.en.png)
+![The light from a scene passes through a lens and is focused on a CMOS sensor](../../../../../translated_images/en/cmos-sensor.75f9cd74decb137149a4c9ea825251a4549497d67c0ae2776159e6102bb53aa9.png)
 
 Most camera sensors use image sensors where each pixel is a photodiode. A lens focuses the image onto the sensor, and thousands or millions of photodiodes detect the light hitting them, recording it as pixel data.
 
@@ -83,7 +83,7 @@ Iterations are published through the Custom Vision portal.
 
 1. Click the **Publish** button for the selected iteration.
 
-    ![The publish button](../../../../../translated_images/custom-vision-publish-button.b7174e1977b0c33b8b72d4e5b1326c779e0af196f3849d09985ee2d7d5493a39.en.png)
+    ![The publish button](../../../../../translated_images/en/custom-vision-publish-button.b7174e1977b0c33b8b72d4e5b1326c779e0af196f3849d09985ee2d7d5493a39.png)
 
 1. In the *Publish Model* dialog, set the *Prediction resource* to the `fruit-quality-detector-prediction` resource created in the last lesson. Keep the name as `Iteration2` and click **Publish**.
 
@@ -97,7 +97,7 @@ Iterations are published through the Custom Vision portal.
 
     Also, copy the *Prediction-Key*. This secure key is required to access the model. Only applications with this key can use the model; others will be denied.
 
-    ![The prediction API dialog showing the URL and key](../../../../../translated_images/custom-vision-prediction-key-endpoint.30c569ffd0338864f319911f052d5e9b8c5066cb0800a26dd6f7ff5713130ad8.en.png)
+    ![The prediction API dialog showing the URL and key](../../../../../translated_images/en/custom-vision-prediction-key-endpoint.30c569ffd0338864f319911f052d5e9b8c5066cb0800a26dd6f7ff5713130ad8.png)
 
 ✅ When a new iteration is published, it will have a different name. How would you update the iteration your IoT device is using?
 
@@ -118,7 +118,7 @@ You may notice that predictions from your IoT device's camera differ from what y
 
 For optimal results, train the model with images similar to those used for predictions. For example, if you used a phone camera for training, the image quality, sharpness, and color may differ from those of an IoT device's camera.
 
-![2 banana pictures, a low resolution one with poor lighting from an IoT device, and a high resolution one with good lighting from a phone](../../../../../translated_images/banana-picture-compare.174df164dc326a42cf7fb051a7497e6113c620e91552d92ca914220305d47d9a.en.png)
+![2 banana pictures, a low resolution one with poor lighting from an IoT device, and a high resolution one with good lighting from a phone](../../../../../translated_images/en/banana-picture-compare.174df164dc326a42cf7fb051a7497e6113c620e91552d92ca914220305d47d9a.png)
 
 In the image above, the left banana picture was taken with a Raspberry Pi Camera, while the right one was taken with an iPhone. The iPhone image is sharper, with brighter colors and better contrast.
 

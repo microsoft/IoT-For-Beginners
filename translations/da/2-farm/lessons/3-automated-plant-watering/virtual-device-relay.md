@@ -37,11 +37,11 @@ Tilføj relæet til CounterFit-appen.
 
     1. Vælg **Add**-knappen for at oprette relæet på Pin 5.
 
-    ![Relæindstillingerne](../../../../../translated_images/counterfit-create-relay.fa7c40fd0f2f6afc33b35ea94fcb235085be4861e14e3fe6b9b7bcfc82d1c888.da.png)
+    ![Relæindstillingerne](../../../../../translated_images/da/counterfit-create-relay.fa7c40fd0f2f6afc33b35ea94fcb235085be4861e14e3fe6b9b7bcfc82d1c888.png)
 
     Relæet vil blive oprettet og vises i listen over aktuatorer.
 
-    ![Relæet oprettet](../../../../../translated_images/counterfit-relay.bbf74c1dbdc8b9acd983367fcbd06703a402aefef6af54ddb28e11307ba8a12c.da.png)
+    ![Relæet oprettet](../../../../../translated_images/da/counterfit-relay.bbf74c1dbdc8b9acd983367fcbd06703a402aefef6af54ddb28e11307ba8a12c.png)
 
 ## Programmer relæet
 

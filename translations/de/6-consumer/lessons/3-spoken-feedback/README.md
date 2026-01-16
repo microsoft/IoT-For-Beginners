@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Stelle einen Timer ein und gib mündliches Feedback
 
-![Eine Sketchnote-Übersicht dieser Lektion](../../../../../translated_images/lesson-23.f38483e1d4df4828990d3f02d60e46c978b075d384ae7cb4f7bab738e107c850.de.jpg)
+![Eine Sketchnote-Übersicht dieser Lektion](../../../../../translated_images/de/lesson-23.f38483e1d4df4828990d3f02d60e46c978b075d384ae7cb4f7bab738e107c850.jpg)
 
 > Sketchnote von [Nitya Narasimhan](https://github.com/nitya). Klicke auf das Bild für eine größere Version.
 
@@ -37,7 +37,7 @@ In dieser Lektion behandeln wir:
 
 Text-zu-Sprache, wie der Name schon sagt, ist der Prozess, Text in Audio umzuwandeln, das die Wörter als gesprochene Sprache enthält. Das Grundprinzip besteht darin, die Wörter im Text in ihre Bestandteile (sogenannte Phoneme) zu zerlegen und Audio für diese Laute zusammenzusetzen, entweder mit vorab aufgezeichnetem Audio oder mit Audio, das von KI-Modellen generiert wird.
 
-![Die drei Phasen typischer Text-zu-Sprache-Systeme](../../../../../translated_images/tts-overview.193843cf3f5ee09f.de.png)
+![Die drei Phasen typischer Text-zu-Sprache-Systeme](../../../../../translated_images/de/tts-overview.193843cf3f5ee09f.png)
 
 Text-zu-Sprache-Systeme haben typischerweise 3 Phasen:
 

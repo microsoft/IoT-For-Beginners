@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 O [Raspberry Pi](https://raspberrypi.org) é um computador de placa única. Você pode adicionar sensores e atuadores usando uma ampla variedade de dispositivos e ecossistemas. Para estas lições, utilizaremos um ecossistema de hardware chamado [Grove](https://www.seeedstudio.com/category/Grove-c-1003.html). Você programará seu Pi e acessará os sensores Grove usando Python.
 
-![Um Raspberry Pi 4](../../../../../translated_images/raspberry-pi-4.fd4590d308c3d456.br.jpg)
+![Um Raspberry Pi 4](../../../../../translated_images/br/raspberry-pi-4.fd4590d308c3d456.jpg)
 
 ## Configuração
 
@@ -112,7 +112,7 @@ Configure o sistema operacional do Pi no modo headless.
 
 1. No Raspberry Pi Imager, selecione o botão **CHOOSE OS**, depois escolha *Raspberry Pi OS (Other)* e, em seguida, *Raspberry Pi OS Lite (32-bit)*.
 
-    ![O Raspberry Pi Imager com o Raspberry Pi OS Lite selecionado](../../../../../translated_images/raspberry-pi-imager.24aedeab9e233d84.br.png)
+    ![O Raspberry Pi Imager com o Raspberry Pi OS Lite selecionado](../../../../../translated_images/br/raspberry-pi-imager.24aedeab9e233d84.png)
 
     > 💁 O Raspberry Pi OS Lite é uma versão do sistema operacional que não possui interface gráfica ou ferramentas baseadas em UI. Isso não é necessário para um Pi headless e torna a instalação menor e o tempo de inicialização mais rápido.
 
@@ -251,7 +251,7 @@ Crie o aplicativo Hello World.
 
 1. Abra esta pasta no VS Code selecionando *File -> Open...* e escolhendo a pasta *nightlight*, depois selecione **OK**.
 
-    ![A caixa de diálogo do VS Code mostrando a pasta nightlight](../../../../../translated_images/vscode-open-nightlight-remote.d3d2a4011e30d535.br.png)
+    ![A caixa de diálogo do VS Code mostrando a pasta nightlight](../../../../../translated_images/br/vscode-open-nightlight-remote.d3d2a4011e30d535.png)
 
 1. Abra o arquivo `app.py` no explorador do VS Code e adicione o seguinte código:
 

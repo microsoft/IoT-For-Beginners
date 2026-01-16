@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 [Seeed Studios-এর Wio Terminal](https://www.seeedstudio.com/Wio-Terminal-p-4509.html) একটি Arduino-সামঞ্জস্যপূর্ণ মাইক্রোকন্ট্রোলার, যার মধ্যে WiFi, কিছু সেন্সর এবং অ্যাকচুয়েটর অন্তর্ভুক্ত রয়েছে। এছাড়াও, এটি [Grove](https://www.seeedstudio.com/category/Grove-c-1003.html) নামক হার্ডওয়্যার ইকোসিস্টেম ব্যবহার করে আরও সেন্সর এবং অ্যাকচুয়েটর যোগ করার জন্য পোর্ট সরবরাহ করে।
 
-![Seeed Studios-এর Wio Terminal](../../../../../translated_images/wio-terminal.b8299ee16587db9a.bn.png)
+![Seeed Studios-এর Wio Terminal](../../../../../translated_images/bn/wio-terminal.b8299ee16587db9a.png)
 
 ## সেটআপ
 
@@ -51,15 +51,15 @@ PlatformIO প্রজেক্ট তৈরি করুন।
 
 1. PlatformIO আইকনটি সাইড মেনু বারে থাকবে:
 
-    ![Platform IO মেনু অপশন](../../../../../translated_images/vscode-platformio-menu.297be26b9733e5c4.bn.png)
+    ![Platform IO মেনু অপশন](../../../../../translated_images/bn/vscode-platformio-menu.297be26b9733e5c4.png)
 
     এই মেনু আইটেমটি নির্বাচন করুন, তারপর *PIO Home -> Open* নির্বাচন করুন
 
-    ![Platform IO ওপেন অপশন](../../../../../translated_images/vscode-platformio-home-open.3f9a41bfd3f4da1c.bn.png)
+    ![Platform IO ওপেন অপশন](../../../../../translated_images/bn/vscode-platformio-home-open.3f9a41bfd3f4da1c.png)
 
 1. ওয়েলকাম স্ক্রিন থেকে **+ New Project** বোতামটি নির্বাচন করুন
 
-    ![নতুন প্রজেক্ট বোতাম](../../../../../translated_images/vscode-platformio-welcome-new-button.ba6fc8a4c7b78cc8.bn.png)
+    ![নতুন প্রজেক্ট বোতাম](../../../../../translated_images/bn/vscode-platformio-welcome-new-button.ba6fc8a4c7b78cc8.png)
 
 1. *Project Wizard*-এ প্রজেক্ট কনফিগার করুন:
 
@@ -73,7 +73,7 @@ PlatformIO প্রজেক্ট তৈরি করুন।
 
     1. **Finish** বোতামটি নির্বাচন করুন
 
-    ![সম্পূর্ণ প্রজেক্ট উইজার্ড](../../../../../translated_images/vscode-platformio-nightlight-project-wizard.5c64db4da6037420.bn.png)
+    ![সম্পূর্ণ প্রজেক্ট উইজার্ড](../../../../../translated_images/bn/vscode-platformio-nightlight-project-wizard.5c64db4da6037420.png)
 
     PlatformIO Wio Terminal-এর জন্য কোড কম্পাইল করার জন্য প্রয়োজনীয় কম্পোনেন্টগুলো ডাউনলোড করবে এবং আপনার প্রজেক্ট তৈরি করবে। এটি কয়েক মিনিট সময় নিতে পারে।
 
@@ -179,7 +179,7 @@ VS Code এক্সপ্লোরার PlatformIO উইজার্ড দ�
 
     1. আপলোড অপশনটি খুঁজতে `PlatformIO Upload` টাইপ করুন এবং *PlatformIO: Upload* নির্বাচন করুন
 
-        ![কমান্ড প্যালেটে PlatformIO আপলোড অপশন](../../../../../translated_images/vscode-platformio-upload-command-palette.9e0f49cf80d1f1c3.bn.png)
+        ![কমান্ড প্যালেটে PlatformIO আপলোড অপশন](../../../../../translated_images/bn/vscode-platformio-upload-command-palette.9e0f49cf80d1f1c3.png)
 
         প্রয়োজন হলে PlatformIO স্বয়ংক্রিয়ভাবে কোড বিল্ড করবে এবং তারপর আপলোড করবে।
 
@@ -195,7 +195,7 @@ PlatformIO-এর একটি সিরিয়াল মনিটর রয�
 
 1. সিরিয়াল মনিটর অপশনটি খুঁজতে `PlatformIO Serial` টাইপ করুন এবং *PlatformIO: Serial Monitor* নির্বাচন করুন
 
-    ![কমান্ড প্যালেটে PlatformIO সিরিয়াল মনিটর অপশন](../../../../../translated_images/vscode-platformio-serial-monitor-command-palette.b348ec841b8a1c14.bn.png)
+    ![কমান্ড প্যালেটে PlatformIO সিরিয়াল মনিটর অপশন](../../../../../translated_images/bn/vscode-platformio-serial-monitor-command-palette.b348ec841b8a1c14.png)
 
     একটি নতুন টার্মিনাল খুলবে এবং সিরিয়াল পোর্টের মাধ্যমে পাঠানো ডেটা এই টার্মিনালে স্ট্রিম হবে:
 

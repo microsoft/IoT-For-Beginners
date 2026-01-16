@@ -29,13 +29,13 @@ CO_OP_TRANSLATOR_METADATA:
 
 قم بتوصيل مستشعر Time of Flight.
 
-![مستشعر Time of Flight من نوع Grove](../../../../../translated_images/grove-time-of-flight-sensor.d82ff2165bfded9f485de54d8d07195a6270a602696825fca19f629ddfe94e86.ar.png)
+![مستشعر Time of Flight من نوع Grove](../../../../../translated_images/ar/grove-time-of-flight-sensor.d82ff2165bfded9f485de54d8d07195a6270a602696825fca19f629ddfe94e86.png)
 
 1. أدخل أحد طرفي كابل Grove في المقبس الموجود على مستشعر Time of Flight. لن يدخل إلا بطريقة واحدة.
 
 1. مع إيقاف تشغيل Raspberry Pi، قم بتوصيل الطرف الآخر من كابل Grove بأحد مقابس I²C المميزة بـ **I²C** على قبعة Grove Base المثبتة على Pi. هذه المقابس موجودة في الصف السفلي، على الطرف المقابل لدبابيس GPI وبجوار فتحة كابل الكاميرا.
 
-![مستشعر Time of Flight من نوع Grove متصل بمقبس I²C](../../../../../translated_images/pi-time-of-flight-sensor.58c8dc04eb3bfb57.ar.png)
+![مستشعر Time of Flight من نوع Grove متصل بمقبس I²C](../../../../../translated_images/ar/pi-time-of-flight-sensor.58c8dc04eb3bfb57.png)
 
 ## برمجة مستشعر Time of Flight
 
@@ -106,7 +106,7 @@ CO_OP_TRANSLATOR_METADATA:
 
     محدد المدى موجود في الجزء الخلفي من المستشعر، لذا تأكد من استخدام الجانب الصحيح عند قياس المسافة.
 
-    ![محدد المدى في الجزء الخلفي من مستشعر Time of Flight يشير إلى موزة](../../../../../translated_images/time-of-flight-banana.079921ad8b1496e4.ar.png)
+    ![محدد المدى في الجزء الخلفي من مستشعر Time of Flight يشير إلى موزة](../../../../../translated_images/ar/time-of-flight-banana.079921ad8b1496e4.png)
 
 > 💁 يمكنك العثور على هذا الكود في مجلد [code-proximity/pi](../../../../../4-manufacturing/lessons/4-trigger-fruit-detector/code-proximity/pi).
 

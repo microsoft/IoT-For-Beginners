@@ -27,17 +27,17 @@ CO_OP_TRANSLATOR_METADATA:
 
 قم بتوصيل مستشعر رطوبة التربة.
 
-![مستشعر رطوبة التربة Grove](../../../../../translated_images/grove-capacitive-soil-moisture-sensor.e7f0776cce30e78be5cc5a07839385fd6718857f31b5bf5ad3d0c73c83b2f0ef.ar.png)
+![مستشعر رطوبة التربة Grove](../../../../../translated_images/ar/grove-capacitive-soil-moisture-sensor.e7f0776cce30e78be5cc5a07839385fd6718857f31b5bf5ad3d0c73c83b2f0ef.png)
 
 1. أدخل أحد طرفي كابل Grove في المقبس الموجود على مستشعر رطوبة التربة. يمكن إدخاله في اتجاه واحد فقط.
 
 1. مع فصل Wio Terminal عن الكمبيوتر أو مصدر الطاقة الآخر، قم بتوصيل الطرف الآخر من كابل Grove بالمقبس الموجود على الجانب الأيمن من Wio Terminal كما يظهر على الشاشة. هذا هو المقبس الأبعد عن زر الطاقة.
 
-![مستشعر رطوبة التربة Grove متصل بالمقبس الأيمن](../../../../../translated_images/wio-soil-moisture-sensor.46919b61c3f6cb74.ar.png)
+![مستشعر رطوبة التربة Grove متصل بالمقبس الأيمن](../../../../../translated_images/ar/wio-soil-moisture-sensor.46919b61c3f6cb74.png)
 
 1. أدخل مستشعر رطوبة التربة في التربة. يحتوي على "خط أعلى موضع" - خط أبيض عبر المستشعر. أدخل المستشعر حتى هذا الخط ولكن لا تتجاوزه.
 
-![مستشعر رطوبة التربة Grove في التربة](../../../../../translated_images/soil-moisture-sensor-in-soil.bfad91002bda5e96.ar.png)
+![مستشعر رطوبة التربة Grove في التربة](../../../../../translated_images/ar/soil-moisture-sensor-in-soil.bfad91002bda5e96.png)
 
 1. يمكنك الآن توصيل Wio Terminal بجهاز الكمبيوتر الخاص بك.
 

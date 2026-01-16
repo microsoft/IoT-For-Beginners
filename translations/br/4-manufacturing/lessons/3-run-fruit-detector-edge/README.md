@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Execute seu detector de frutas na borda
 
-![Uma visão geral ilustrada desta lição](../../../../../translated_images/lesson-17.bc333c3c35ba8e42cce666cfffa82b915f787f455bd94e006aea2b6f2722421a.br.jpg)
+![Uma visão geral ilustrada desta lição](../../../../../translated_images/br/lesson-17.bc333c3c35ba8e42cce666cfffa82b915f787f455bd94e006aea2b6f2722421a.jpg)
 
 > Ilustração por [Nitya Narasimhan](https://github.com/nitya). Clique na imagem para uma versão maior.
 
@@ -42,11 +42,11 @@ Nesta lição, abordaremos:
 
 Computação na borda envolve ter computadores que processam dados de IoT o mais próximo possível de onde os dados são gerados. Em vez de realizar esse processamento na nuvem, ele é movido para a borda da nuvem - sua rede interna.
 
-![Um diagrama de arquitetura mostrando serviços de internet na nuvem e dispositivos IoT em uma rede local](../../../../../translated_images/cloud-without-edge.b4da641f6022c95ed6b91fde8b5323abd2f94e0d52073ad54172ae8f5dac90e9.br.png)
+![Um diagrama de arquitetura mostrando serviços de internet na nuvem e dispositivos IoT em uma rede local](../../../../../translated_images/br/cloud-without-edge.b4da641f6022c95ed6b91fde8b5323abd2f94e0d52073ad54172ae8f5dac90e9.png)
 
 Nas lições anteriores, você teve dispositivos coletando dados e enviando-os para a nuvem para serem analisados, executando funções sem servidor ou modelos de IA na nuvem.
 
-![Um diagrama de arquitetura mostrando dispositivos IoT em uma rede local conectando-se a dispositivos de borda, e esses dispositivos de borda conectando-se à nuvem](../../../../../translated_images/cloud-with-edge.1e26462c62c126fe150bd15a5714ddf0be599f09bacbad08b85be02b76ea1ae1.br.png)
+![Um diagrama de arquitetura mostrando dispositivos IoT em uma rede local conectando-se a dispositivos de borda, e esses dispositivos de borda conectando-se à nuvem](../../../../../translated_images/br/cloud-with-edge.1e26462c62c126fe150bd15a5714ddf0be599f09bacbad08b85be02b76ea1ae1.png)
 
 Computação na borda envolve mover alguns dos serviços da nuvem para computadores que operam na mesma rede que os dispositivos IoT, comunicando-se com a nuvem apenas quando necessário. Por exemplo, você pode executar modelos de IA em dispositivos de borda para analisar a maturação de frutas e enviar apenas análises para a nuvem, como o número de frutas maduras versus não maduras.
 
@@ -94,7 +94,7 @@ Para sistemas de IoT, você frequentemente desejará uma combinação de computa
 
 ## Azure IoT Edge
 
-![O logotipo do Azure IoT Edge](../../../../../translated_images/azure-iot-edge-logo.c1c076749b5cba2e8755262fadc2f19ca1146b948d76990b1229199ac2292d79.br.png)
+![O logotipo do Azure IoT Edge](../../../../../translated_images/br/azure-iot-edge-logo.c1c076749b5cba2e8755262fadc2f19ca1146b948d76990b1229199ac2292d79.png)
 
 Azure IoT Edge é um serviço que pode ajudar você a mover cargas de trabalho da nuvem para a borda. Você configura um dispositivo como um dispositivo de borda e, a partir da nuvem, pode implantar código nesse dispositivo de borda. Isso permite misturar as capacidades da nuvem e da borda.
 
@@ -108,7 +108,7 @@ IoT Edge está integrado ao IoT Hub, então você pode gerenciar dispositivos de
 
 IoT Edge executa código a partir de *contêineres* - aplicativos autônomos que são executados isoladamente do restante dos aplicativos no seu computador. Quando você executa um contêiner, ele age como um computador separado operando dentro do seu computador, com seu próprio software, serviços e aplicativos em execução. Na maioria das vezes, os contêineres não podem acessar nada no seu computador, a menos que você escolha compartilhar algo, como uma pasta, com o contêiner. O contêiner então expõe serviços por meio de uma porta aberta que você pode conectar ou expor à sua rede.
 
-![Uma solicitação web redirecionada para um contêiner](../../../../../translated_images/container-web-browser.4ee81dd4f0d8838ce622b2a0d600b6a4322b5d4fe43159facd87b7b34f84d66a.br.png)
+![Uma solicitação web redirecionada para um contêiner](../../../../../translated_images/br/container-web-browser.4ee81dd4f0d8838ce622b2a0d600b6a4322b5d4fe43159facd87b7b34f84d66a.png)
 
 Por exemplo, você pode ter um contêiner com um site operando na porta 80, a porta padrão do HTTP, e pode expô-lo do seu computador também na porta 80.
 
@@ -204,11 +204,11 @@ Depois que o modelo for treinado, ele precisa ser exportado como um contêiner.
 
 ## Preparar seu contêiner para implantação
 
-![Os contêineres são construídos, enviados para um registro de contêiner e, em seguida, implantados do registro para um dispositivo de borda usando o IoT Edge](../../../../../translated_images/container-edge-flow.c246050dd60ceefdb6ace026a4ce5c6aa4112bb5898ae23fbb2ab4be29ae3e1b.br.png)
+![Os contêineres são construídos, enviados para um registro de contêiner e, em seguida, implantados do registro para um dispositivo de borda usando o IoT Edge](../../../../../translated_images/br/container-edge-flow.c246050dd60ceefdb6ace026a4ce5c6aa4112bb5898ae23fbb2ab4be29ae3e1b.png)
 
 Depois de baixar seu modelo, ele precisa ser transformado em um contêiner e enviado para um registro de contêiner - um local online onde você pode armazenar contêineres. O IoT Edge pode então baixar o contêiner do registro e enviá-lo para o seu dispositivo.
 
-![Logotipo do Azure Container Registry](../../../../../translated_images/azure-container-registry-logo.09494206991d4b295025ebff7d4e2900325e527a59184ffbc8464b6ab59654be.br.png)
+![Logotipo do Azure Container Registry](../../../../../translated_images/br/azure-container-registry-logo.09494206991d4b295025ebff7d4e2900325e527a59184ffbc8464b6ab59654be.png)
 
 O registro de contêiner que você usará nesta lição é o Azure Container Registry. Este não é um serviço gratuito, então, para economizar dinheiro, certifique-se de [limpar seu projeto](../../../clean-up.md) quando terminar.
 

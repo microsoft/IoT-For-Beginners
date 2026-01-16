@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Store location data
 
-![A sketchnote overview of this lesson](../../../../../translated_images/lesson-12.ca7f53039712a3ec14ad6474d8445361c84adab643edc53fa6269b77895606bb.en.jpg)
+![A sketchnote overview of this lesson](../../../../../translated_images/en/lesson-12.ca7f53039712a3ec14ad6474d8445361c84adab643edc53fa6269b77895606bb.jpg)
 
 > Sketchnote by [Nitya Narasimhan](https://github.com/nitya). Click the image for a larger version.
 
@@ -66,7 +66,7 @@ Databases are services that store and query data. They come in two types: SQL an
 
 The first databases were Relational Database Management Systems (RDBMS), also known as relational databases or SQL databases. They use Structured Query Language (SQL) to add, remove, update, or query data. These databases consist of a schema—a predefined set of tables, similar to a spreadsheet. Each table has multiple named columns. When inserting data, you add a row to the table, filling in values for each column. This creates a rigid structure. While you can leave columns empty, adding a new column requires modifying the database and populating values for existing rows. These databases are relational, meaning one table can relate to another.
 
-![A relational database with the ID of the User table relating to the user ID column of the purchases table, and the ID of the products table relating to the product ID of the purchases table](../../../../../translated_images/sql-database.be160f12bfccefd3.en.png)
+![A relational database with the ID of the User table relating to the user ID column of the purchases table, and the ID of the products table relating to the product ID of the purchases table](../../../../../translated_images/en/sql-database.be160f12bfccefd3.webp)
 
 For example, if you store a user's personal details in a table, you might assign a unique internal ID to each user. This ID can be used in another table to store details like their purchases. When looking up a user, you can use their ID to retrieve their personal details from one table and their purchases from another.
 
@@ -84,7 +84,7 @@ NoSQL databases are named for their lack of rigid structure compared to SQL data
 
 > 💁 Despite their name, some NoSQL databases allow SQL queries.
 
-![Documents in folders in a NoSQL database](../../../../../translated_images/noqsl-database.62d24ccf5b73f60d35c245a8533f1c7147c0928e955b82cb290b2e184bb434df.en.png)
+![Documents in folders in a NoSQL database](../../../../../translated_images/en/noqsl-database.62d24ccf5b73f60d35c245a8533f1c7147c0928e955b82cb290b2e184bb434df.png)
 
 NoSQL databases don't have a predefined schema, allowing you to insert unstructured data, often in JSON format. These documents can be organized into folders, similar to files on a computer. Each document can have different fields. For instance, if you store IoT data from farm vehicles, some documents might include accelerometer and speed data, while others might include trailer temperature data. Adding a new truck type with built-in scales to track produce weight would allow the IoT device to add this new field without requiring database changes.
 
@@ -98,7 +98,7 @@ In this lesson, you'll use NoSQL storage to store IoT data.
 
 In the previous lesson, you captured GPS data from a sensor connected to your IoT device. To store this data in the cloud, you need to send it to an IoT service. You'll use Azure IoT Hub, the same IoT cloud service from the previous project.
 
-![Sending GPS telemetry from an IoT device to IoT Hub](../../../../../translated_images/gps-telemetry-iot-hub.8115335d51cd2c1285d20e9d1b18cf685e59a8e093e7797291ef173445af6f3d.en.png)
+![Sending GPS telemetry from an IoT device to IoT Hub](../../../../../translated_images/en/gps-telemetry-iot-hub.8115335d51cd2c1285d20e9d1b18cf685e59a8e093e7797291ef173445af6f3d.png)
 
 ### Task - send GPS data to an IoT Hub
 
@@ -180,7 +180,7 @@ Cold path data is stored in data warehouses—databases designed for large, unch
 
 Once data is flowing into your IoT Hub, you can write serverless code to listen for events published to the Event-Hub-compatible endpoint. This represents the warm path, where data will be stored and used in the next lesson for journey reporting.
 
-![Sending GPS telemetry from an IoT device to IoT Hub, then to Azure Functions via an event hub trigger](../../../../../translated_images/gps-telemetry-iot-hub-functions.24d3fa5592455e9f4e2fe73856b40c3915a292b90263c31d652acfd976cfedd8.en.png)
+![Sending GPS telemetry from an IoT device to IoT Hub, then to Azure Functions via an event hub trigger](../../../../../translated_images/en/gps-telemetry-iot-hub-functions.24d3fa5592455e9f4e2fe73856b40c3915a292b90263c31d652acfd976cfedd8.png)
 
 ### Task - handle GPS events using serverless code
 
@@ -202,7 +202,7 @@ Once data is flowing into your IoT Hub, you can write serverless code to listen 
 
 ## Azure Storage Accounts
 
-![The Azure Storage logo](../../../../../translated_images/azure-storage-logo.605c0f602c640d482a80f1b35a2629a32d595711b7ab1d7ceea843250615ff32.en.png)
+![The Azure Storage logo](../../../../../translated_images/en/azure-storage-logo.605c0f602c640d482a80f1b35a2629a32d595711b7ab1d7ceea843250615ff32.png)
 
 Azure Storage Accounts is a general-purpose storage service that can store data in various ways. You can store data as blobs, in queues, in tables, or as files, all at the same time.
 
@@ -241,7 +241,7 @@ Your function app now needs to connect to blob storage to store messages from th
 
 In this lesson, you will use the Python SDK to learn how to interact with blob storage.
 
-![Sending GPS telemetry from an IoT device to IoT Hub, then to Azure Functions via an event hub trigger, then saving it to blob storage](../../../../../translated_images/save-telemetry-to-storage-from-functions.ed3b1820980097f1.en.png)
+![Sending GPS telemetry from an IoT device to IoT Hub, then to Azure Functions via an event hub trigger, then saving it to blob storage](../../../../../translated_images/en/save-telemetry-to-storage-from-functions.ed3b1820980097f1.webp)
 
 The data will be saved as a JSON blob with the following format:
 

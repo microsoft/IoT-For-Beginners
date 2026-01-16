@@ -27,13 +27,13 @@ Grove relé lze připojit k digitálnímu portu Wio Terminalu.
 
 Připojte relé.
 
-![Grove relé](../../../../../translated_images/grove-relay.d426958ca210fbd0fb7983d7edc069d46c73a8b0a099d94797bd756f7b6bb6be.cs.png)
+![Grove relé](../../../../../translated_images/cs/grove-relay.d426958ca210fbd0fb7983d7edc069d46c73a8b0a099d94797bd756f7b6bb6be.png)
 
 1. Zasuňte jeden konec Grove kabelu do zásuvky na relé. Kabel lze zasunout pouze jedním způsobem.
 
 1. S Wio Terminalem odpojeným od počítače nebo jiného zdroje napájení připojte druhý konec Grove kabelu do levé zásuvky Grove na Wio Terminalu, pokud se díváte na obrazovku. Senzor vlhkosti půdy ponechte připojený k pravé zásuvce.
 
-![Grove relé připojené k levé zásuvce a senzor vlhkosti půdy připojený k pravé zásuvce](../../../../../translated_images/wio-relay-and-soil-moisture-sensor.ed722202d42babe0.cs.png)
+![Grove relé připojené k levé zásuvce a senzor vlhkosti půdy připojený k pravé zásuvce](../../../../../translated_images/cs/wio-relay-and-soil-moisture-sensor.ed722202d42babe0.png)
 
 1. Zasuňte senzor vlhkosti půdy do půdy, pokud tam již není z předchozí lekce.
 

@@ -42,7 +42,7 @@ Once you have the temperature data, you can use the Jupyter Notebook provided in
 
     Jupyter will start and open the notebook in your browser. Follow the instructions in the notebook to visualize the recorded temperatures and calculate the growing degree days.
 
-    ![The jupyter notebook](../../../../../translated_images/gdd-jupyter-notebook.c5b52cf21094f158a61f47f455490fd95f1729777ff90861a4521820bf354cdc.en.png)
+    ![The jupyter notebook](../../../../../translated_images/en/gdd-jupyter-notebook.c5b52cf21094f158a61f47f455490fd95f1729777ff90861a4521820bf354cdc.png)
 
 ## Rubric
 

@@ -25,13 +25,13 @@ CO_OP_TRANSLATOR_METADATA:
 
 Свържете температурния сензор
 
-![Температурен сензор Grove](../../../../../translated_images/grove-dht11.07f8eafceee170043efbb53e1d15722bd4e00fbaa9ff74290b57e9f66eb82c17.bg.png)
+![Температурен сензор Grove](../../../../../translated_images/bg/grove-dht11.07f8eafceee170043efbb53e1d15722bd4e00fbaa9ff74290b57e9f66eb82c17.png)
 
 1. Поставете единия край на кабела Grove в гнездото на сензора за влажност и температура. Кабелът може да бъде поставен само в една посока.
 
 1. С изключен Raspberry Pi свържете другия край на кабела Grove към цифровото гнездо, обозначено като **D5** на Grove Base hat, прикрепен към Pi. Това гнездо е второто отляво, в реда от гнезда до GPIO пиновете.
 
-![Температурният сензор Grove, свързан към гнездото A0](../../../../../translated_images/pi-temperature-sensor.3ff82fff672c8e565ef25a39d26d111de006b825a7e0867227ef4e7fbff8553c.bg.png)
+![Температурният сензор Grove, свързан към гнездото A0](../../../../../translated_images/bg/pi-temperature-sensor.3ff82fff672c8e565ef25a39d26d111de006b825a7e0867227ef4e7fbff8553c.png)
 
 ## Програмиране на температурния сензор
 

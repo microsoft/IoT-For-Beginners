@@ -27,13 +27,13 @@ CO_OP_TRANSLATOR_METADATA:
 
 قم بتوصيل مستشعر GPS.
 
-![مستشعر Grove GPS](../../../../../translated_images/grove-gps-sensor.247943bf69b03f0d1820ef6ed10c587f9b650e8db55b936851c92412180bd3e2.ar.png)
+![مستشعر Grove GPS](../../../../../translated_images/ar/grove-gps-sensor.247943bf69b03f0d1820ef6ed10c587f9b650e8db55b936851c92412180bd3e2.png)
 
 1. أدخل أحد طرفي كابل Grove في المقبس الموجود على مستشعر GPS. لن يدخل إلا في اتجاه واحد.
 
 1. مع إيقاف تشغيل Raspberry Pi، قم بتوصيل الطرف الآخر من كابل Grove بمقبس UART المسمى **UART** على قبعة Grove Base المثبتة على Pi. يوجد هذا المقبس في الصف الأوسط، على الجانب الأقرب إلى فتحة بطاقة SD، في الطرف الآخر من منافذ USB ومقبس الإيثرنت.
 
-    ![مستشعر Grove GPS متصل بمقبس UART](../../../../../translated_images/pi-gps-sensor.1f99ee2b2f6528915047ec78967bd362e0e4ee0ed594368a3837b9cf9cdaca64.ar.png)
+    ![مستشعر Grove GPS متصل بمقبس UART](../../../../../translated_images/ar/pi-gps-sensor.1f99ee2b2f6528915047ec78967bd362e0e4ee0ed594368a3837b9cf9cdaca64.png)
 
 1. ضع مستشعر GPS بحيث يكون الهوائي المتصل به مرئيًا للسماء - من الأفضل أن يكون بجانب نافذة مفتوحة أو في الخارج. من الأسهل الحصول على إشارة واضحة بدون وجود عوائق أمام الهوائي.
 

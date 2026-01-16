@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Connect your device to the Internet
 
-![A sketchnote overview of this lesson](../../../../../translated_images/lesson-4.7344e074ea68fa545fd320b12dce36d72dd62d28c3b4596cb26cf315f434b98f.en.jpg)
+![A sketchnote overview of this lesson](../../../../../translated_images/en/lesson-4.7344e074ea68fa545fd320b12dce36d72dd62d28c3b4596cb26cf315f434b98f.jpg)
 
 > Sketchnote by [Nitya Narasimhan](https://github.com/nitya). Click the image for a larger version.
 
@@ -46,7 +46,7 @@ In this lesson, we'll cover:
 
 IoT devices use various communication protocols to connect to the Internet. The most popular ones are based on publish/subscribe messaging via a broker. IoT devices connect to the broker to publish telemetry and subscribe to commands. Cloud services also connect to the broker, subscribing to telemetry messages and publishing commands to specific devices or groups of devices.
 
-![IoT devices connect to a broker and publish telemetry and subscribe to commands. Cloud services connect to the broker and subscribe to all telemetry and send commands to specific devices.](../../../../../translated_images/pub-sub.7c7ed43fe9fd15d4.en.png)
+![IoT devices connect to a broker and publish telemetry and subscribe to commands. Cloud services connect to the broker and subscribe to all telemetry and send commands to specific devices.](../../../../../translated_images/en/pub-sub.7c7ed43fe9fd15d4.webp)
 
 MQTT is the most widely used communication protocol for IoT devices and is the focus of this lesson. Other protocols include AMQP and HTTP/HTTPS.
 
@@ -56,7 +56,7 @@ MQTT is the most widely used communication protocol for IoT devices and is the f
 
 MQTT uses a single broker and multiple clients. Clients connect to the broker, which routes messages to the appropriate recipients. Messages are routed using named topics rather than being sent directly to specific clients. A client can publish to a topic, and any clients subscribed to that topic will receive the message.
 
-![IoT device publishing telemetry on the /telemetry topic, and the cloud service subscribing to that topic](../../../../../translated_images/mqtt.cbf7f21d9adc3e17548b359444cc11bb4bf2010543e32ece9a47becf54438c23.en.png)
+![IoT device publishing telemetry on the /telemetry topic, and the cloud service subscribing to that topic](../../../../../translated_images/en/mqtt.cbf7f21d9adc3e17548b359444cc11bb4bf2010543e32ece9a47becf54438c23.png)
 
 ✅ Do some research. If you have a large number of IoT devices, how can you ensure your MQTT broker can handle all the messages?
 
@@ -78,7 +78,7 @@ To simplify this assignment, you'll use a public test server running [Eclipse Mo
 
 > 💁 This test broker is public and not secure. Anyone can listen to what you publish, so avoid using it for sensitive data.
 
-![A flow chart of the assignment showing light levels being read and checked, and the LED being controlled](../../../../../translated_images/assignment-1-internet-flow.3256feab5f052fd273bf4e331157c574c2c3fa42e479836fc9c3586f41db35a5.en.png)
+![A flow chart of the assignment showing light levels being read and checked, and the LED being controlled](../../../../../translated_images/en/assignment-1-internet-flow.3256feab5f052fd273bf4e331157c574c2c3fa42e479836fc9c3586f41db35a5.png)
 
 Follow the relevant step below to connect your device to the MQTT broker:
 
@@ -115,7 +115,7 @@ The term telemetry comes from Greek roots meaning "remote measurement." It refer
 
 Revisiting the smart thermostat example from Lesson 1:
 
-![An Internet connected thermostat using multiple room sensors](../../../../../translated_images/telemetry.21e5d8b97649d2eb.en.png)
+![An Internet connected thermostat using multiple room sensors](../../../../../translated_images/en/telemetry.21e5d8b97649d2eb.webp)
 
 The thermostat collects temperature data using sensors. It likely has a built-in sensor and connects to external sensors via a wireless protocol like [Bluetooth Low Energy](https://wikipedia.org/wiki/Bluetooth_Low_Energy) (BLE).
 
@@ -267,11 +267,11 @@ Write the server code.
 
 1. When VS Code launches, it will activate the Python virtual environment. This will be indicated in the bottom status bar:
 
-    ![VS Code showing the selected virtual environment](../../../../../translated_images/vscode-virtual-env.8ba42e04c3d533cf.en.png)
+    ![VS Code showing the selected virtual environment](../../../../../translated_images/en/vscode-virtual-env.8ba42e04c3d533cf.webp)
 
 1. If the VS Code Terminal is already open when VS Code starts, the virtual environment might not be activated in it. To fix this, kill the terminal using the **Kill the active terminal instance** button:
 
-    ![VS Code Kill the active terminal instance button](../../../../../translated_images/vscode-kill-terminal.1cc4de7c6f25ee08.en.png)
+    ![VS Code Kill the active terminal instance button](../../../../../translated_images/en/vscode-kill-terminal.1cc4de7c6f25ee08.webp)
 
 1. Open a new VS Code Terminal by selecting *Terminal -> New Terminal* or pressing `` CTRL+` ``. The new terminal will load the virtual environment, and the activation command will appear in the terminal. The virtual environment's name (`.venv`) will also be displayed in the prompt:
 
@@ -359,7 +359,7 @@ For machinery, you might want to retain all data, especially if it's used for tr
 
 IoT devices should also be designed to function during outages. For example, a smart thermostat should still control heating based on local conditions even if it can't send telemetry to the cloud.
 
-[![This Ferrari got bricked because someone tried to upgrade it underground where there's no cell reception](../../../../../translated_images/bricked-car.dc38f8efadc6c59d76211f981a521efb300939283dee468f79503aae3ec67615.en.png)](https://twitter.com/internetofshit/status/1315736960082808832)
+[![This Ferrari got bricked because someone tried to upgrade it underground where there's no cell reception](../../../../../translated_images/en/bricked-car.dc38f8efadc6c59d76211f981a521efb300939283dee468f79503aae3ec67615.png)](https://twitter.com/internetofshit/status/1315736960082808832)
 
 For MQTT, handling connectivity loss requires the device and server code to ensure message delivery. For example, messages could require acknowledgments, and any unacknowledged messages could be queued for later delivery.
 
@@ -367,7 +367,7 @@ For MQTT, handling connectivity loss requires the device and server code to ensu
 
 Commands are messages sent from the cloud to a device, instructing it to perform an action. This could involve controlling an actuator or issuing a device-specific instruction, such as rebooting or collecting additional telemetry.
 
-![An Internet-connected thermostat receiving a command to turn on the heating](../../../../../translated_images/commands.d6c06bbbb3a02cce95f2831a1c331daf6dedd4e470c4aa2b0ae54f332016e504.en.png)
+![An Internet-connected thermostat receiving a command to turn on the heating](../../../../../translated_images/en/commands.d6c06bbbb3a02cce95f2831a1c331daf6dedd4e470c4aa2b0ae54f332016e504.png)
 
 For example, a thermostat might receive a command from the cloud to turn the heating on based on telemetry data from sensors.
 

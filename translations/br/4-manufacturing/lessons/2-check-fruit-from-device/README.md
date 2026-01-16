@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Verifique a qualidade das frutas com um dispositivo IoT
 
-![Uma visão geral ilustrada desta lição](../../../../../translated_images/lesson-16.215daf18b00631fbdfd64c6fc2dc6044dff5d544288825d8076f9fb83d964c23.br.jpg)
+![Uma visão geral ilustrada desta lição](../../../../../translated_images/br/lesson-16.215daf18b00631fbdfd64c6fc2dc6044dff5d544288825d8076f9fb83d964c23.jpg)
 
 > Ilustração por [Nitya Narasimhan](https://github.com/nitya). Clique na imagem para uma versão maior.
 
@@ -35,7 +35,7 @@ Nesta lição, abordaremos:
 
 Sensores de câmera, como o nome sugere, são câmeras que você pode conectar ao seu dispositivo IoT. Eles podem tirar fotos ou capturar vídeos em streaming. Alguns retornam dados de imagem brutos, enquanto outros comprimem os dados em arquivos de imagem, como JPEG ou PNG. Geralmente, as câmeras que funcionam com dispositivos IoT são muito menores e têm resolução mais baixa do que aquelas que você pode estar acostumado, mas é possível obter câmeras de alta resolução que rivalizam com os melhores smartphones. Você pode encontrar lentes intercambiáveis, configurações com múltiplas câmeras, câmeras térmicas infravermelhas ou câmeras UV.
 
-![A luz de uma cena passa por uma lente e é focada em um sensor CMOS](../../../../../translated_images/cmos-sensor.75f9cd74decb137149a4c9ea825251a4549497d67c0ae2776159e6102bb53aa9.br.png)
+![A luz de uma cena passa por uma lente e é focada em um sensor CMOS](../../../../../translated_images/br/cmos-sensor.75f9cd74decb137149a4c9ea825251a4549497d67c0ae2776159e6102bb53aa9.png)
 
 A maioria dos sensores de câmera usa sensores de imagem onde cada pixel é um fotodiodo. Uma lente foca a imagem no sensor de imagem, e milhares ou milhões de fotodiodos detectam a luz que incide sobre cada um, registrando isso como dados de pixel.
 
@@ -83,7 +83,7 @@ As iterações são publicadas no portal Custom Vision.
 
 1. Clique no botão **Publish** para a iteração.
 
-    ![O botão de publicação](../../../../../translated_images/custom-vision-publish-button.b7174e1977b0c33b8b72d4e5b1326c779e0af196f3849d09985ee2d7d5493a39.br.png)
+    ![O botão de publicação](../../../../../translated_images/br/custom-vision-publish-button.b7174e1977b0c33b8b72d4e5b1326c779e0af196f3849d09985ee2d7d5493a39.png)
 
 1. No diálogo *Publish Model*, defina o *Prediction resource* como o recurso `fruit-quality-detector-prediction` que você criou na última lição. Mantenha o nome como `Iteration2` e clique no botão **Publish**.
 
@@ -97,7 +97,7 @@ As iterações são publicadas no portal Custom Vision.
 
     Também copie o valor de *Prediction-Key*. Esta é uma chave segura que você deve passar ao chamar o modelo. Apenas aplicativos que fornecem essa chave podem usar o modelo; qualquer outro aplicativo será rejeitado.
 
-    ![O diálogo da API de previsão mostrando o URL e a chave](../../../../../translated_images/custom-vision-prediction-key-endpoint.30c569ffd0338864f319911f052d5e9b8c5066cb0800a26dd6f7ff5713130ad8.br.png)
+    ![O diálogo da API de previsão mostrando o URL e a chave](../../../../../translated_images/br/custom-vision-prediction-key-endpoint.30c569ffd0338864f319911f052d5e9b8c5066cb0800a26dd6f7ff5713130ad8.png)
 
 ✅ Quando uma nova iteração é publicada, ela terá um nome diferente. Como você acha que poderia alterar a iteração que um dispositivo IoT está usando?
 
@@ -118,7 +118,7 @@ Você pode perceber que os resultados obtidos ao usar a câmera conectada ao seu
 
 Para obter os melhores resultados de um classificador de imagens, você deve treinar o modelo com imagens o mais semelhantes possível às usadas para previsões. Por exemplo, se você usou a câmera do seu celular para capturar imagens para treinamento, a qualidade, nitidez e cor da imagem serão diferentes de uma câmera conectada a um dispositivo IoT.
 
-![2 fotos de banana, uma de baixa resolução com iluminação ruim de um dispositivo IoT, e outra de alta resolução com boa iluminação de um celular](../../../../../translated_images/banana-picture-compare.174df164dc326a42cf7fb051a7497e6113c620e91552d92ca914220305d47d9a.br.png)
+![2 fotos de banana, uma de baixa resolução com iluminação ruim de um dispositivo IoT, e outra de alta resolução com boa iluminação de um celular](../../../../../translated_images/br/banana-picture-compare.174df164dc326a42cf7fb051a7497e6113c620e91552d92ca914220305d47d9a.png)
 
 Na imagem acima, a foto da banana à esquerda foi tirada usando uma câmera Raspberry Pi, enquanto a da direita foi tirada da mesma banana no mesmo local usando um iPhone. Há uma diferença notável na qualidade - a foto do iPhone é mais nítida, com cores mais vibrantes e maior contraste.
 

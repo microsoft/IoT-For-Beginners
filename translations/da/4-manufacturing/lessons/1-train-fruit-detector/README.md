@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Træn en frugtkvalitetsdetektor
 
-![En sketchnote-oversigt over denne lektion](../../../../../translated_images/lesson-15.843d21afdc6fb2bba70cd9db7b7d2f91598859fafda2078b0bdc44954194b6c0.da.jpg)
+![En sketchnote-oversigt over denne lektion](../../../../../translated_images/da/lesson-15.843d21afdc6fb2bba70cd9db7b7d2f91598859fafda2078b0bdc44954194b6c0.jpg)
 
 > Sketchnote af [Nitya Narasimhan](https://github.com/nitya). Klik på billedet for en større version.
 
@@ -47,7 +47,7 @@ Ikke alle afgrøder modnes jævnt. Tomater, for eksempel, kan stadig have nogle 
 
 Den stigende automatisering af høst flyttede sorteringen af produkter fra marken til fabrikken. Mad ville rejse på lange transportbånd med hold af mennesker, der gennemgik produkterne og fjernede alt, der ikke levede op til kvalitetsstandarderne. Høst blev billigere takket være maskiner, men der var stadig en omkostning ved manuelt at sortere mad.
 
-![Hvis en rød tomat registreres, fortsætter den sin rejse uforstyrret. Hvis en grøn tomat registreres, skubbes den i en affaldsbeholder af en arm](../../../../../translated_images/optical-tomato-sorting.61aa134bdda4e5b1bfb16a212c1e35a6ef0c426cbb8b1c975f79d7bfbf48d068.da.png)
+![Hvis en rød tomat registreres, fortsætter den sin rejse uforstyrret. Hvis en grøn tomat registreres, skubbes den i en affaldsbeholder af en arm](../../../../../translated_images/da/optical-tomato-sorting.61aa134bdda4e5b1bfb16a212c1e35a6ef0c426cbb8b1c975f79d7bfbf48d068.png)
 
 Den næste udvikling var at bruge maskiner til at sortere, enten indbygget i høstmaskinen eller i forarbejdningsanlæggene. Den første generation af disse maskiner brugte optiske sensorer til at registrere farver og styrede aktuatorer til at skubbe grønne tomater i en affaldsbeholder ved hjælp af arme eller lufttryk, mens røde tomater fortsatte på et netværk af transportbånd.
 
@@ -61,7 +61,7 @@ De nyeste udviklinger af disse sorteringsmaskiner udnytter AI og ML, ved at brug
 
 Traditionel programmering er, hvor du tager data, anvender en algoritme på dataene og får output. For eksempel, i det sidste projekt tog du GPS-koordinater og en geofence, anvendte en algoritme leveret af Azure Maps og fik et resultat om, hvorvidt punktet var inden for eller uden for geofencen. Du indtaster flere data, du får mere output.
 
-![Traditionel udvikling tager input og en algoritme og giver output. Maskinlæring bruger input og outputdata til at træne en model, og denne model kan tage nye inputdata for at generere nyt output](../../../../../translated_images/traditional-vs-ml.5c20c169621fa539.da.png)
+![Traditionel udvikling tager input og en algoritme og giver output. Maskinlæring bruger input og outputdata til at træne en model, og denne model kan tage nye inputdata for at generere nyt output](../../../../../translated_images/da/traditional-vs-ml.5c20c169621fa539.png)
 
 Maskinlæring vender dette om - du starter med data og kendte outputs, og maskinlæringsalgoritmen lærer af dataene. Du kan derefter tage den trænede algoritme, kaldet en *maskinlæringsmodel* eller *model*, og indtaste nye data og få nyt output.
 
@@ -71,7 +71,7 @@ For eksempel kunne du give en model millioner af billeder af umodne bananer som 
 
 > 🎓 Resultaterne af ML-modeller kaldes *forudsigelser*.
 
-![2 bananer, en moden med en forudsigelse på 99,7% moden, 0,3% umoden, og en umoden med en forudsigelse på 1,4% moden, 98,6% umoden](../../../../../translated_images/bananas-ripe-vs-unripe-predictions.8d0e2034014aa50ece4e4589e724b142da0681f35470fe3db3f7d51240f69c85.da.png)
+![2 bananer, en moden med en forudsigelse på 99,7% moden, 0,3% umoden, og en umoden med en forudsigelse på 1,4% moden, 98,6% umoden](../../../../../translated_images/da/bananas-ripe-vs-unripe-predictions.8d0e2034014aa50ece4e4589e724b142da0681f35470fe3db3f7d51240f69c85.png)
 
 ML-modeller giver ikke et binært svar, men i stedet sandsynligheder. For eksempel kan en model få et billede af en banan og forudsige `moden` med 99,7% og `umoden` med 0,3%. Din kode ville derefter vælge den bedste forudsigelse og beslutte, at bananen er moden.
 
@@ -87,7 +87,7 @@ For at træne en billedklassifikator med succes har du brug for millioner af bil
 
 Når en billedklassifikator er blevet trænet til en bred vifte af billeder, er dens interne funktioner gode til at genkende former, farver og mønstre. Transfer learning gør det muligt for modellen at tage det, den allerede har lært om at genkende billeddele, og bruge det til at genkende nye billeder.
 
-![Når du kan genkende former, kan de sættes sammen i forskellige konfigurationer for at lave en båd eller en kat](../../../../../translated_images/shapes-to-images.1a309f0ea88dd66f.da.png)
+![Når du kan genkende former, kan de sættes sammen i forskellige konfigurationer for at lave en båd eller en kat](../../../../../translated_images/da/shapes-to-images.1a309f0ea88dd66f.png)
 
 Du kan tænke på dette som lidt ligesom børns formbøger, hvor når du først kan genkende en halvcirkel, et rektangel og en trekant, kan du genkende en sejlbåd eller en kat afhængigt af konfigurationen af disse former. Billedklassifikatoren kan genkende formerne, og transfer learning lærer den, hvilken kombination der udgør en båd eller en kat - eller en moden banan.
 
@@ -99,7 +99,7 @@ Der findes en bred vifte af værktøjer, der kan hjælpe dig med dette, herunder
 
 Custom Vision er et cloud-baseret værktøj til træning af billedklassifikatorer. Det giver dig mulighed for at træne en klassifikator ved kun at bruge et lille antal billeder. Du kan uploade billeder via en webportal, web-API eller et SDK og give hvert billede en *tag*, der angiver klassifikationen af det billede. Du træner derefter modellen og tester den for at se, hvor godt den fungerer. Når du er tilfreds med modellen, kan du udgive versioner af den, der kan tilgås via en web-API eller et SDK.
 
-![Azure Custom Vision-logoet](../../../../../translated_images/custom-vision-logo.d3d4e7c8a87ec9daf825e72e210576c3cbf60312577be7a139e22dd97ab7f1e6.da.png)
+![Azure Custom Vision-logoet](../../../../../translated_images/da/custom-vision-logo.d3d4e7c8a87ec9daf825e72e210576c3cbf60312577be7a139e22dd97ab7f1e6.png)
 
 > 💁 Du kan træne en Custom Vision-model med så lidt som 5 billeder pr. klassifikation, men flere er bedre. Du kan opnå bedre resultater med mindst 30 billeder.
 
@@ -155,7 +155,7 @@ For at bruge Custom Vision skal du først oprette to Cognitive Services-ressourc
 
     Når du opretter dit projekt, skal du sørge for at bruge den `fruit-quality-detector-training`-ressource, du oprettede tidligere. Brug en *Classification*-projekttype, en *Multiclass*-klassifikationstype og *Food*-domænet.
 
-    ![Indstillingerne for Custom Vision-projektet med navnet sat til fruit-quality-detector, ingen beskrivelse, ressourcen sat til fruit-quality-detector-training, projekttypen sat til classification, klassifikationstyperne sat til multi class og domænet sat til food](../../../../../translated_images/custom-vision-create-project.cf46325b92d8b131089f6647cf5e07b664cb77850e106d66e3c057b6b69756c6.da.png)
+    ![Indstillingerne for Custom Vision-projektet med navnet sat til fruit-quality-detector, ingen beskrivelse, ressourcen sat til fruit-quality-detector-training, projekttypen sat til classification, klassifikationstyperne sat til multi class og domænet sat til food](../../../../../translated_images/da/custom-vision-create-project.cf46325b92d8b131089f6647cf5e07b664cb77850e106d66e3c057b6b69756c6.png)
 
 ✅ Tag dig tid til at udforske Custom Vision-brugergrænsefladen for din billedklassifikator.
 
@@ -173,7 +173,7 @@ Billedklassificeringsmodeller kører ved meget lav opløsning. For eksempel kan 
 
     * Brug 2 modne bananer, og tag nogle billeder af hver fra forskellige vinkler, mindst 7 billeder (5 til træning, 2 til test), men helst flere.
 
-        ![Fotos af 2 forskellige bananer](../../../../../translated_images/banana-training-images.530eb203346d73bc23b8b990fb4609470bf4ff7c942ccc13d4cfffeed9be1ad4.da.png)
+        ![Fotos af 2 forskellige bananer](../../../../../translated_images/da/banana-training-images.530eb203346d73bc23b8b990fb4609470bf4ff7c942ccc13d4cfffeed9be1ad4.png)
 
     * Gentag samme proces med 2 umodne bananer.
 
@@ -183,7 +183,7 @@ Billedklassificeringsmodeller kører ved meget lav opløsning. For eksempel kan 
 
 1. Følg [upload og tag billeder-sektionen i quickstart-guiden til at bygge en klassificeringsmodel på Microsoft Docs](https://docs.microsoft.com/azure/cognitive-services/custom-vision-service/getting-started-build-a-classifier?WT.mc_id=academic-17441-jabenn#upload-and-tag-images) for at uploade dine træningsbilleder. Tag de modne frugter som `ripe` og de umodne som `unripe`.
 
-    ![Upload-dialoger, der viser upload af billeder af modne og umodne bananer](../../../../../translated_images/image-upload-bananas.0751639f3815e0ec42bdbc6254d1e4357a185834d1ae10c9948a0e7d6d336695.da.png)
+    ![Upload-dialoger, der viser upload af billeder af modne og umodne bananer](../../../../../translated_images/da/image-upload-bananas.0751639f3815e0ec42bdbc6254d1e4357a185834d1ae10c9948a0e7d6d336695.png)
 
 1. Følg [træn klassificeringsmodellen-sektionen i quickstart-guiden til at bygge en klassificeringsmodel på Microsoft Docs](https://docs.microsoft.com/azure/cognitive-services/custom-vision-service/getting-started-build-a-classifier?WT.mc_id=academic-17441-jabenn#train-the-classifier) for at træne billedklassificeringsmodellen med dine uploadede billeder.
 
@@ -201,7 +201,7 @@ Når din model er trænet, kan du teste den ved at give den et nyt billede til k
 
 1. Følg [test din model-dokumentationen på Microsoft Docs](https://docs.microsoft.com/azure/cognitive-services/custom-vision-service/test-your-model?WT.mc_id=academic-17441-jabenn#test-your-model) for at teste din billedklassificeringsmodel. Brug de testbilleder, du oprettede tidligere, ikke nogen af de billeder, du brugte til træning.
 
-    ![En umoden banan forudsagt som umoden med 98,9% sandsynlighed, moden med 1,1% sandsynlighed](../../../../../translated_images/banana-unripe-quick-test-prediction.dae9b5e1c4ef7c64886422438850ea14f0be6ac918c217ea3b255c685abfabe7.da.png)
+    ![En umoden banan forudsagt som umoden med 98,9% sandsynlighed, moden med 1,1% sandsynlighed](../../../../../translated_images/da/banana-unripe-quick-test-prediction.dae9b5e1c4ef7c64886422438850ea14f0be6ac918c217ea3b255c685abfabe7.png)
 
 1. Prøv alle de testbilleder, du har adgang til, og observer sandsynlighederne.
 

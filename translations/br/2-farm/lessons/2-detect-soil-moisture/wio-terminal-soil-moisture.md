@@ -27,17 +27,17 @@ O sensor de umidade do solo Grove pode ser conectado à porta analógica/digital
 
 Conecte o sensor de umidade do solo.
 
-![Um sensor de umidade do solo Grove](../../../../../translated_images/grove-capacitive-soil-moisture-sensor.e7f0776cce30e78be5cc5a07839385fd6718857f31b5bf5ad3d0c73c83b2f0ef.br.png)
+![Um sensor de umidade do solo Grove](../../../../../translated_images/br/grove-capacitive-soil-moisture-sensor.e7f0776cce30e78be5cc5a07839385fd6718857f31b5bf5ad3d0c73c83b2f0ef.png)
 
 1. Insira uma extremidade de um cabo Grove no conector do sensor de umidade do solo. Ele só encaixará de uma maneira.
 
 1. Com o Wio Terminal desconectado do seu computador ou de outra fonte de energia, conecte a outra extremidade do cabo Grove ao conector Grove do lado direito do Wio Terminal, olhando para a tela. Este é o conector mais distante do botão de energia.
 
-![O sensor de umidade do solo Grove conectado ao conector do lado direito](../../../../../translated_images/wio-soil-moisture-sensor.46919b61c3f6cb74.br.png)
+![O sensor de umidade do solo Grove conectado ao conector do lado direito](../../../../../translated_images/br/wio-soil-moisture-sensor.46919b61c3f6cb74.png)
 
 1. Insira o sensor de umidade do solo no solo. Ele possui uma 'linha de posição máxima' - uma linha branca atravessando o sensor. Insira o sensor até essa linha, mas não ultrapasse.
 
-![O sensor de umidade do solo Grove no solo](../../../../../translated_images/soil-moisture-sensor-in-soil.bfad91002bda5e96.br.png)
+![O sensor de umidade do solo Grove no solo](../../../../../translated_images/br/soil-moisture-sensor-in-soil.bfad91002bda5e96.png)
 
 1. Agora você pode conectar o Wio Terminal ao seu computador.
 

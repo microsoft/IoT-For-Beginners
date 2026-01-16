@@ -27,13 +27,13 @@ Grove-relæet kan tilsluttes Wio Terminalens digitale port.
 
 Tilslut relæet.
 
-![Et Grove-relæ](../../../../../translated_images/grove-relay.d426958ca210fbd0fb7983d7edc069d46c73a8b0a099d94797bd756f7b6bb6be.da.png)
+![Et Grove-relæ](../../../../../translated_images/da/grove-relay.d426958ca210fbd0fb7983d7edc069d46c73a8b0a099d94797bd756f7b6bb6be.png)
 
 1. Sæt den ene ende af et Grove-kabel i stikket på relæet. Det kan kun sættes i på én måde.
 
 1. Med Wio Terminalen frakoblet din computer eller anden strømkilde, tilslut den anden ende af Grove-kablet til den venstre Grove-port på Wio Terminalen, når du ser på skærmen. Lad jordfugtighedssensoren være tilsluttet den højre port.
 
-![Grove-relæet tilsluttet venstre port og jordfugtighedssensoren tilsluttet højre port](../../../../../translated_images/wio-relay-and-soil-moisture-sensor.ed722202d42babe0.da.png)
+![Grove-relæet tilsluttet venstre port og jordfugtighedssensoren tilsluttet højre port](../../../../../translated_images/da/wio-relay-and-soil-moisture-sensor.ed722202d42babe0.png)
 
 1. Sæt jordfugtighedssensoren i jorden, hvis den ikke allerede er det fra den forrige lektion.
 

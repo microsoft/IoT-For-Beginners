@@ -13,7 +13,7 @@ A combination of predictions and their bounding boxes can be used to count stock
 
 ## Count stock
 
-![4 cans of tomato paste with bounding boxes around each can](../../../../../translated_images/rpi-stock-with-bounding-boxes.b5540e2ecb7cd49f.en.jpg)
+![4 cans of tomato paste with bounding boxes around each can](../../../../../translated_images/en/rpi-stock-with-bounding-boxes.b5540e2ecb7cd49f.webp)
 
 In the image shown above, the bounding boxes slightly overlap. If this overlap were much larger, the bounding boxes might represent the same object. To count the objects accurately, you need to ignore boxes with significant overlap.
 

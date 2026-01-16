@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Kontrola zásob pomocí IoT zařízení
 
-![Náčrt přehledu této lekce](../../../../../translated_images/lesson-20.0211df9551a8abb300fc8fcf7dc2789468dea2eabe9202273ac077b0ba37f15e.cs.jpg)
+![Náčrt přehledu této lekce](../../../../../translated_images/cs/lesson-20.0211df9551a8abb300fc8fcf7dc2789468dea2eabe9202273ac077b0ba37f15e.jpg)
 
 > Náčrt od [Nitya Narasimhan](https://github.com/nitya). Klikněte na obrázek pro větší verzi.
 
@@ -39,7 +39,7 @@ Detektory objektů mohou být použity pro kontrolu zásob, ať už pro jejich p
 
 Například pokud kamera míří na regál, který pojme 8 plechovek rajčatového protlaku, a detektor objektů detekuje pouze 7 plechovek, pak jedna chybí a je třeba ji doplnit.
 
-![7 plechovek rajčatového protlaku na regálu, 4 v horní řadě, 3 dole](../../../../../translated_images/stock-7-cans-tomato-paste.f86059cc573d7bec.cs.png)
+![7 plechovek rajčatového protlaku na regálu, 4 v horní řadě, 3 dole](../../../../../translated_images/cs/stock-7-cans-tomato-paste.f86059cc573d7bec.png)
 
 Na obrázku výše detektor objektů detekoval 7 plechovek rajčatového protlaku na regálu, který pojme 8 plechovek. IoT zařízení může nejen odeslat upozornění na potřebu doplnění, ale dokonce může poskytnout informaci o umístění chybějící položky, což je důležitý údaj, pokud používáte roboty k doplňování regálů.
 
@@ -51,7 +51,7 @@ Někdy se na regálech může objevit nesprávné zboží. Může jít o lidskou
 
 Detekce objektů může být použita k detekci neočekávaných položek, a opět upozornit člověka nebo robota, aby položku co nejdříve vrátil na správné místo.
 
-![Cizí plechovka baby kukuřice na regálu s rajčatovým protlakem](../../../../../translated_images/stock-rogue-corn.be1f3ada8c457854.cs.png)
+![Cizí plechovka baby kukuřice na regálu s rajčatovým protlakem](../../../../../translated_images/cs/stock-rogue-corn.be1f3ada8c457854.png)
 
 Na obrázku výše byla na regál s rajčatovým protlakem umístěna plechovka baby kukuřice. Detektor objektů ji detekoval, což umožňuje IoT zařízení upozornit člověka nebo robota, aby plechovku vrátil na správné místo.
 
@@ -71,7 +71,7 @@ Iterace se publikují z portálu Custom Vision.
 
 1. Klikněte na tlačítko **Publish** pro danou iteraci.
 
-    ![Tlačítko publikování](../../../../../translated_images/custom-vision-object-detector-publish-button.34ee379fc650ccb9856c3868d0003f413b9529f102fc73c37168c98d721cc293.cs.png)
+    ![Tlačítko publikování](../../../../../translated_images/cs/custom-vision-object-detector-publish-button.34ee379fc650ccb9856c3868d0003f413b9529f102fc73c37168c98d721cc293.png)
 
 1. V dialogu *Publish Model* nastavte *Prediction resource* na zdroj `stock-detector-prediction`, který jste vytvořili v předchozí lekci. Název ponechte jako `Iteration2` a klikněte na tlačítko **Publish**.
 
@@ -85,7 +85,7 @@ Iterace se publikují z portálu Custom Vision.
 
     Také si zkopírujte hodnotu *Prediction-Key*. Jedná se o bezpečnostní klíč, který musíte předat při volání modelu. Pouze aplikace, které tento klíč předají, mohou model používat, ostatní aplikace budou odmítnuty.
 
-    ![Dialog predikčního API zobrazující URL a klíč](../../../../../translated_images/custom-vision-prediction-key-endpoint.30c569ffd0338864f319911f052d5e9b8c5066cb0800a26dd6f7ff5713130ad8.cs.png)
+    ![Dialog predikčního API zobrazující URL a klíč](../../../../../translated_images/cs/custom-vision-prediction-key-endpoint.30c569ffd0338864f319911f052d5e9b8c5066cb0800a26dd6f7ff5713130ad8.png)
 
 ✅ Když je publikována nová iterace, bude mít jiný název. Jak myslíte, že byste změnili iteraci, kterou IoT zařízení používá?
 
@@ -104,7 +104,7 @@ Při použití detektoru objektů získáte nejen detekované objekty s jejich �
 
 Výsledky predikce na kartě **Predictions** v Custom Vision mají ohraničující rámečky nakreslené na obrázku, který byl odeslán k predikci.
 
-![4 plechovky rajčatového protlaku na regálu s predikcemi pro 4 detekce s pravděpodobnostmi 35,8 %, 33,5 %, 25,7 % a 16,6 %](../../../../../translated_images/custom-vision-stock-prediction.942266ab1bcca3410ecdf23643b9f5f570cfab2345235074e24c51f285777613.cs.png)
+![4 plechovky rajčatového protlaku na regálu s predikcemi pro 4 detekce s pravděpodobnostmi 35,8 %, 33,5 %, 25,7 % a 16,6 %](../../../../../translated_images/cs/custom-vision-stock-prediction.942266ab1bcca3410ecdf23643b9f5f570cfab2345235074e24c51f285777613.png)
 
 Na obrázku výše byly detekovány 4 plechovky rajčatového protlaku. Ve výsledcích je na každý detekovaný objekt v obrázku překryt červený čtverec, který označuje ohraničující rámeček.
 
@@ -112,7 +112,7 @@ Na obrázku výše byly detekovány 4 plechovky rajčatového protlaku. Ve výsl
 
 Ohraničující rámečky jsou definovány 4 hodnotami - horní, levá, výška a šířka. Tyto hodnoty jsou na škále 0-1, což představuje pozice jako procento velikosti obrázku. Počátek (pozice 0,0) je v levém horním rohu obrázku, takže horní hodnota je vzdálenost od horního okraje a spodní část ohraničujícího rámečku je horní hodnota plus výška.
 
-![Ohraničující rámeček kolem plechovky rajčatového protlaku](../../../../../translated_images/bounding-box.1420a7ea0d3d15f71e1ffb5cf4b2271d184fac051f990abc541975168d163684.cs.png)
+![Ohraničující rámeček kolem plechovky rajčatového protlaku](../../../../../translated_images/cs/bounding-box.1420a7ea0d3d15f71e1ffb5cf4b2271d184fac051f990abc541975168d163684.png)
 
 Výše uvedený obrázek má šířku 600 pixelů a výšku 800 pixelů. Ohraničující rámeček začíná 320 pixelů dolů, což dává horní souřadnici 0,4 (800 x 0,4 = 320). Zleva začíná ohraničující rámeček 240 pixelů, což dává levou souřadnici 0,4 (600 x 0,4 = 240). Výška ohraničujícího rámečku je 240 pixelů, což dává hodnotu výšky 0,3 (800 x 0,3 = 240). Šířka ohraničujícího rámečku je 120 pixelů, což dává hodnotu šířky 0,2 (600 x 0,2 = 120).
 
@@ -127,7 +127,7 @@ Použití procentuálních hodnot od 0 do 1 znamená, že bez ohledu na to, na j
 
 Můžete použít ohraničující rámečky v kombinaci s pravděpodobnostmi k vyhodnocení, jak přesná je detekce. Například detektor objektů může detekovat více objektů, které se překrývají, například detekovat jednu plechovku uvnitř druhé. Váš kód by mohl zkontrolovat ohraničující rámečky, pochopit, že to není možné, a ignorovat jakékoli objekty, které se významně překrývají s jinými objekty.
 
-![Dva překrývající se ohraničující rámečky kolem plechovky rajčatového protlaku](../../../../../translated_images/overlap-object-detection.d431e03cae75072a2760430eca7f2c5fdd43045bfd72dadcbf12711f7cd6c2ae.cs.png)
+![Dva překrývající se ohraničující rámečky kolem plechovky rajčatového protlaku](../../../../../translated_images/cs/overlap-object-detection.d431e03cae75072a2760430eca7f2c5fdd43045bfd72dadcbf12711f7cd6c2ae.png)
 
 V příkladu výše jeden ohraničující rámeček označuje předpokládanou plechovku rajčatového protlaku s pravděpodobností 78,3 %. Druhý ohraničující rámeček je o něco menší a je uvnitř prvního rámečku s pravděpodobností 64,3 %. Váš kód může zkontrolovat ohraničující rámečky, zjistit, že se zcela překrývají, a ignorovat nižší pravděpodobnost, protože není možné, aby jedna plechovka byla uvnitř druhé.
 

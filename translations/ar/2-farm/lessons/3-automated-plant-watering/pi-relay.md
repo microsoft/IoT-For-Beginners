@@ -27,13 +27,13 @@ CO_OP_TRANSLATOR_METADATA:
 
 قم بتوصيل الريليه.
 
-![ريليه Grove](../../../../../translated_images/grove-relay.d426958ca210fbd0fb7983d7edc069d46c73a8b0a099d94797bd756f7b6bb6be.ar.png)
+![ريليه Grove](../../../../../translated_images/ar/grove-relay.d426958ca210fbd0fb7983d7edc069d46c73a8b0a099d94797bd756f7b6bb6be.png)
 
 1. أدخل أحد طرفي كابل Grove في المقبس الموجود على الريليه. لن يدخل إلا بطريقة واحدة.
 
 1. مع إيقاف تشغيل Raspberry Pi، قم بتوصيل الطرف الآخر من كابل Grove بالمقبس الرقمي المسمى **D5** على قبعة Grove Base المثبتة على Pi. هذا المقبس هو الثاني من اليسار، في صف المقابس بجانب دبابيس GPIO. اترك مستشعر رطوبة التربة متصلاً بالمقبس **A0**.
 
-![ريليه Grove متصل بمقبس D5 ومستشعر رطوبة التربة متصل بمقبس A0](../../../../../translated_images/pi-relay-and-soil-moisture-sensor.02f3198975b8c53e69ec716cd2719ce117700bd1fc933eaf93476c103c57939b.ar.png)
+![ريليه Grove متصل بمقبس D5 ومستشعر رطوبة التربة متصل بمقبس A0](../../../../../translated_images/ar/pi-relay-and-soil-moisture-sensor.02f3198975b8c53e69ec716cd2719ce117700bd1fc933eaf93476c103c57939b.png)
 
 1. أدخل مستشعر رطوبة التربة في التربة، إذا لم يكن بالفعل من الدرس السابق.
 

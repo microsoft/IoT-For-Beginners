@@ -43,11 +43,11 @@ CO_OP_TRANSLATOR_METADATA:
 
     1. Изберете бутона **Add**, за да създадете камерата.
 
-    ![Настройки на камерата](../../../../../translated_images/counterfit-create-camera.a5de97f59c0bd3cbe0416d7e89a3cfe86d19fbae05c641c53a91286412af0a34.bg.png)
+    ![Настройки на камерата](../../../../../translated_images/bg/counterfit-create-camera.a5de97f59c0bd3cbe0416d7e89a3cfe86d19fbae05c641c53a91286412af0a34.png)
 
     Камерата ще бъде създадена и ще се появи в списъка със сензори.
 
-    ![Създадена камера](../../../../../translated_images/counterfit-camera.001ec52194c8ee5d3f617173da2c79e1df903d10882adc625cbfc493525125d4.bg.png)
+    ![Създадена камера](../../../../../translated_images/bg/counterfit-camera.001ec52194c8ee5d3f617173da2c79e1df903d10882adc625cbfc493525125d4.png)
 
 ## Програмиране на камерата
 
@@ -112,7 +112,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 1. Конфигурирайте изображението, което камерата в CounterFit ще заснеме. Можете да зададете *Source* на *File*, след което да качите файл с изображение, или да зададете *Source* на *WebCam*, и изображенията ще бъдат заснемани от вашата уеб камера. Уверете се, че сте избрали бутона **Set**, след като изберете снимка или уеб камера.
 
-    ![CounterFit с файл, зададен като източник на изображение, и уеб камера, показваща човек, държащ банан в предварителен преглед на уеб камерата](../../../../../translated_images/counterfit-camera-options.eb3bd5150a8e7dffbf24bc5bcaba0cf2cdef95fbe6bbe393695d173817d6b8df.bg.png)
+    ![CounterFit с файл, зададен като източник на изображение, и уеб камера, показваща човек, държащ банан в предварителен преглед на уеб камерата](../../../../../translated_images/bg/counterfit-camera-options.eb3bd5150a8e7dffbf24bc5bcaba0cf2cdef95fbe6bbe393695d173817d6b8df.png)
 
 1. Изображение ще бъде заснето и запазено като `image.jpg` в текущата папка. Ще видите този файл в Explorer на VS Code. Изберете файла, за да видите изображението. Ако е необходимо завъртане, актуализирайте реда `camera.rotation = 0`, както е необходимо, и направете нова снимка.
 

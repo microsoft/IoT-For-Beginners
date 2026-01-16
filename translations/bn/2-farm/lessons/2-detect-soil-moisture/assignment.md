@@ -29,7 +29,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 গ্রাভিমেট্রিক মাটির আর্দ্রতা গণনা করার সূত্র হলো:
 
-![মাটির আর্দ্রতা % হল ভেজা ওজন থেকে শুকনো ওজন বিয়োগ, তারপর শুকনো ওজন দ্বারা ভাগ, এবং ১০০ দিয়ে গুণ](../../../../../translated_images/gsm-calculation.6da38c6201eec14e7573bb2647aa18892883193553d23c9d77e5dc681522dfb2.bn.png)
+![মাটির আর্দ্রতা % হল ভেজা ওজন থেকে শুকনো ওজন বিয়োগ, তারপর শুকনো ওজন দ্বারা ভাগ, এবং ১০০ দিয়ে গুণ](../../../../../translated_images/bn/gsm-calculation.6da38c6201eec14e7573bb2647aa18892883193553d23c9d77e5dc681522dfb2.png)
 
 * W  
 - ভেজা মাটির ওজন  
@@ -38,7 +38,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 উদাহরণস্বরূপ, ধরুন আপনার কাছে একটি মাটির নমুনা আছে যার ভেজা ওজন 212g এবং শুকনো ওজন 197g।
 
-![গণনা পূরণ করা হয়েছে](../../../../../translated_images/gsm-calculation-example.99f9803b4f29e97668e7c15412136c0c399ab12dbba0b89596fdae9d8aedb6fb.bn.png)
+![গণনা পূরণ করা হয়েছে](../../../../../translated_images/bn/gsm-calculation-example.99f9803b4f29e97668e7c15412136c0c399ab12dbba0b89596fdae9d8aedb6fb.png)
 
 * W = 212g  
 * W = 197g  

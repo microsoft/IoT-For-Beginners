@@ -47,11 +47,11 @@ Fügen Sie den GPS-Sensor zur CounterFit-App hinzu.
 
     1. Wählen Sie die Schaltfläche **Hinzufügen**, um den GPS-Sensor auf Port `/dev/ttyAMA0` zu erstellen.
 
-    ![Die GPS-Sensoreinstellungen](../../../../../translated_images/counterfit-create-gps-sensor.6385dc9357d85ad1d47b4abb2525e7651fd498917d25eefc5a72feab09eedc70.de.png)
+    ![Die GPS-Sensoreinstellungen](../../../../../translated_images/de/counterfit-create-gps-sensor.6385dc9357d85ad1d47b4abb2525e7651fd498917d25eefc5a72feab09eedc70.png)
 
     Der GPS-Sensor wird erstellt und erscheint in der Sensorenliste.
 
-    ![Der erstellte GPS-Sensor](../../../../../translated_images/counterfit-gps-sensor.3fbb15af0a5367566f2f11324ef5a6f30861cdf2b497071a5e002b7aa473550e.de.png)
+    ![Der erstellte GPS-Sensor](../../../../../translated_images/de/counterfit-gps-sensor.3fbb15af0a5367566f2f11324ef5a6f30861cdf2b497071a5e002b7aa473550e.png)
 
 ## GPS-Sensor programmieren
 
@@ -111,17 +111,17 @@ Programmieren Sie die GPS-Sensor-App.
 
     * Setzen Sie die **Quelle** auf `Lat/Lon` und geben Sie eine explizite Breite, Länge und die Anzahl der Satelliten ein, die für die GPS-Fixierung verwendet werden. Dieser Wert wird nur einmal gesendet, daher aktivieren Sie das Kontrollkästchen **Wiederholen**, damit die Daten jede Sekunde wiederholt werden.
 
-      ![Der GPS-Sensor mit ausgewähltem Lat/Lon](../../../../../translated_images/counterfit-gps-sensor-latlon.008c867d75464fbe7f84107cc57040df565ac07cb57d2f21db37d087d470197d.de.png)
+      ![Der GPS-Sensor mit ausgewähltem Lat/Lon](../../../../../translated_images/de/counterfit-gps-sensor-latlon.008c867d75464fbe7f84107cc57040df565ac07cb57d2f21db37d087d470197d.png)
 
     * Setzen Sie die **Quelle** auf `NMEA` und fügen Sie einige NMEA-Sätze in das Textfeld ein. Alle diese Werte werden gesendet, wobei eine Verzögerung von 1 Sekunde vor jedem neuen GGA-(Positionsfixierungs-)Satz besteht.
 
-      ![Der GPS-Sensor mit NMEA-Sätzen](../../../../../translated_images/counterfit-gps-sensor-nmea.c62eea442171e17e19528b051b104cfcecdc9cd18db7bc72920f29821ae63f73.de.png)
+      ![Der GPS-Sensor mit NMEA-Sätzen](../../../../../translated_images/de/counterfit-gps-sensor-nmea.c62eea442171e17e19528b051b104cfcecdc9cd18db7bc72920f29821ae63f73.png)
 
       Sie können ein Tool wie [nmeagen.org](https://www.nmeagen.org) verwenden, um diese Sätze zu generieren, indem Sie auf einer Karte zeichnen. Diese Werte werden nur einmal gesendet, daher aktivieren Sie das Kontrollkästchen **Wiederholen**, damit die Daten eine Sekunde nach dem Senden aller Werte wiederholt werden.
 
     * Setzen Sie die **Quelle** auf GPX-Datei und laden Sie eine GPX-Datei mit Streckenpositionen hoch. Sie können GPX-Dateien von einer Reihe beliebter Karten- und Wanderseiten wie [AllTrails](https://www.alltrails.com/) herunterladen. Diese Dateien enthalten mehrere GPS-Positionen als Route, und der GPS-Sensor gibt jede neue Position in Intervallen von 1 Sekunde zurück.
 
-      ![Der GPS-Sensor mit einer GPX-Datei](../../../../../translated_images/counterfit-gps-sensor-gpxfile.8310b063ce8a425ccc8ebeec8306aeac5e8e55207f007d52c6e1194432a70cd9.de.png)
+      ![Der GPS-Sensor mit einer GPX-Datei](../../../../../translated_images/de/counterfit-gps-sensor-gpxfile.8310b063ce8a425ccc8ebeec8306aeac5e8e55207f007d52c6e1194432a70cd9.png)
 
       Diese Werte werden nur einmal gesendet, daher aktivieren Sie das Kontrollkästchen **Wiederholen**, damit die Daten eine Sekunde nach dem Senden aller Werte wiederholt werden.
 

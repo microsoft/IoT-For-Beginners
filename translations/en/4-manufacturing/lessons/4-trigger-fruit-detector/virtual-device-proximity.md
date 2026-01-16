@@ -45,11 +45,11 @@ Add the distance sensor to the CounterFit app.
 
     1. Click the **Add** button to create the distance sensor.
 
-    ![The distance sensor settings](../../../../../translated_images/counterfit-create-distance-sensor.967c9fb98f27888d95920c9784d004c972490eb71f70397fe13bd70a79a879a3.en.png)
+    ![The distance sensor settings](../../../../../translated_images/en/counterfit-create-distance-sensor.967c9fb98f27888d95920c9784d004c972490eb71f70397fe13bd70a79a879a3.png)
 
     The distance sensor will be created and appear in the sensors list.
 
-    ![The distance sensor created](../../../../../translated_images/counterfit-distance-sensor.079eefeeea0b68afc36431ce8fcbe2f09a7e4916ed1cd5cb30e696db53bc18fa.en.png)
+    ![The distance sensor created](../../../../../translated_images/en/counterfit-distance-sensor.079eefeeea0b68afc36431ce8fcbe2f09a7e4916ed1cd5cb30e696db53bc18fa.png)
 
 ## Program the distance sensor
 

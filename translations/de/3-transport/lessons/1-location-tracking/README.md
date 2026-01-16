@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Standortverfolgung
 
-![Eine Sketchnote-Übersicht dieser Lektion](../../../../../translated_images/lesson-11.9fddbac4b664c6d50ab7ac9bb32f1fc3f945f03760e72f7f43938073762fb017.de.jpg)
+![Eine Sketchnote-Übersicht dieser Lektion](../../../../../translated_images/de/lesson-11.9fddbac4b664c6d50ab7ac9bb32f1fc3f945f03760e72f7f43938073762fb017.jpg)
 
 > Sketchnote von [Nitya Narasimhan](https://github.com/nitya). Klicken Sie auf das Bild für eine größere Version.
 
@@ -72,13 +72,13 @@ Die Erde ist eine Kugel – ein dreidimensionaler Kreis. Aus diesem Grund werden
 
 > 💁 Niemand weiß wirklich den ursprünglichen Grund, warum Kreise in 360 Grad unterteilt sind. Die [Wikipedia-Seite über Winkelgrad](https://wikipedia.org/wiki/Degree_(angle)) behandelt einige der möglichen Gründe.
 
-![Breitengradlinien von 90° am Nordpol, 45° auf halbem Weg zwischen Nordpol und Äquator, 0° am Äquator, -45° auf halbem Weg zwischen Äquator und Südpol und -90° am Südpol](../../../../../translated_images/latitude-lines.11d8d91dfb2014a57437272d7db7fd6607243098e8685f06e0c5f1ec984cb7eb.de.png)
+![Breitengradlinien von 90° am Nordpol, 45° auf halbem Weg zwischen Nordpol und Äquator, 0° am Äquator, -45° auf halbem Weg zwischen Äquator und Südpol und -90° am Südpol](../../../../../translated_images/de/latitude-lines.11d8d91dfb2014a57437272d7db7fd6607243098e8685f06e0c5f1ec984cb7eb.png)
 
 Der Breitengrad wird mit Linien gemessen, die die Erde umkreisen und parallel zum Äquator verlaufen, wobei die nördliche und südliche Hemisphäre jeweils in 90° unterteilt wird. Der Äquator liegt bei 0°, der Nordpol bei 90°, auch bekannt als 90° Nord, und der Südpol bei -90°, oder 90° Süd.
 
 Der Längengrad wird als Anzahl der Grad gemessen, die nach Osten und Westen gemessen werden. Der Ursprung des Längengrads bei 0° wird als *Nullmeridian* bezeichnet und wurde 1884 als eine Linie vom Nord- zum Südpol definiert, die durch das [Britische Königliche Observatorium in Greenwich, England](https://wikipedia.org/wiki/Royal_Observatory,_Greenwich) verläuft.
 
-![Längengradlinien, die von -180° westlich des Nullmeridians bis 0° am Nullmeridian und bis 180° östlich des Nullmeridians reichen](../../../../../translated_images/longitude-meridians.ab4ef1c91c064586b0185a3c8d39e585903696c6a7d28c098a93a629cddb5d20.de.png)
+![Längengradlinien, die von -180° westlich des Nullmeridians bis 0° am Nullmeridian und bis 180° östlich des Nullmeridians reichen](../../../../../translated_images/de/longitude-meridians.ab4ef1c91c064586b0185a3c8d39e585903696c6a7d28c098a93a629cddb5d20.png)
 
 > 🎓 Ein Meridian ist eine imaginäre gerade Linie, die vom Nordpol zum Südpol verläuft und einen Halbkreis bildet.
 
@@ -109,7 +109,7 @@ Koordinaten für einen Punkt werden immer als `Breitengrad, Längengrad` angegeb
 * Einen Breitengrad von 47.6423109 (47.6423109 Grad nördlich des Äquators)
 * Einen Längengrad von -122.1390293 (122.1390293 Grad westlich des Nullmeridians).
 
-![Der Microsoft Campus bei 47.6423109,-122.117198](../../../../../translated_images/microsoft-gps-location-world.a321d481b010f6adfcca139b2ba0adc53b79f58a540495b8e2ce7f779ea64bfe.de.png)
+![Der Microsoft Campus bei 47.6423109,-122.117198](../../../../../translated_images/de/microsoft-gps-location-world.a321d481b010f6adfcca139b2ba0adc53b79f58a540495b8e2ce7f779ea64bfe.png)
 
 ## Global Positioning Systems (GPS)
 
@@ -121,7 +121,7 @@ GPS-Systeme funktionieren, indem eine Anzahl von Satelliten ein Signal mit der a
 
 > 💁 GPS-Sensoren benötigen Antennen, um Funkwellen zu erkennen. Die Antennen, die in Lastwagen und Autos mit eingebautem GPS verwendet werden, sind so positioniert, dass sie ein gutes Signal empfangen, normalerweise an der Windschutzscheibe oder auf dem Dach. Wenn Sie ein separates GPS-System verwenden, wie ein Smartphone oder ein IoT-Gerät, müssen Sie sicherstellen, dass die Antenne im GPS-System oder Telefon eine klare Sicht auf den Himmel hat, z. B. wenn sie an der Windschutzscheibe montiert ist.
 
-![Durch die Kenntnis der Entfernung vom Sensor zu mehreren Satelliten kann der Standort berechnet werden](../../../../../translated_images/gps-satellites.04acf1148fe25fbf1586bc2e8ba698e8d79b79a50c36824b38417dd13372b90f.de.png)
+![Durch die Kenntnis der Entfernung vom Sensor zu mehreren Satelliten kann der Standort berechnet werden](../../../../../translated_images/de/gps-satellites.04acf1148fe25fbf1586bc2e8ba698e8d79b79a50c36824b38417dd13372b90f.png)
 
 GPS-Satelliten umkreisen die Erde und befinden sich nicht an einem festen Punkt über dem Sensor, sodass Standortdaten auch die Höhe über dem Meeresspiegel sowie Breitengrad und Längengrad umfassen.
 

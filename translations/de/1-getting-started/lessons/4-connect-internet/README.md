@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Verbinden Sie Ihr Gerät mit dem Internet
 
-![Eine Sketchnote-Übersicht dieser Lektion](../../../../../translated_images/lesson-4.7344e074ea68fa545fd320b12dce36d72dd62d28c3b4596cb26cf315f434b98f.de.jpg)
+![Eine Sketchnote-Übersicht dieser Lektion](../../../../../translated_images/de/lesson-4.7344e074ea68fa545fd320b12dce36d72dd62d28c3b4596cb26cf315f434b98f.jpg)
 
 > Sketchnote von [Nitya Narasimhan](https://github.com/nitya). Klicken Sie auf das Bild für eine größere Version.
 
@@ -46,7 +46,7 @@ In dieser Lektion behandeln wir:
 
 Es gibt eine Reihe beliebter Kommunikationsprotokolle, die von IoT-Geräten verwendet werden, um mit dem Internet zu kommunizieren. Die beliebtesten basieren auf Publish/Subscribe-Messaging über eine Art Broker. Die IoT-Geräte verbinden sich mit dem Broker und veröffentlichen Telemetrie und abonnieren Befehle. Die Cloud-Dienste verbinden sich ebenfalls mit dem Broker, abonnieren alle Telemetrie-Nachrichten und veröffentlichen Befehle entweder an bestimmte Geräte oder an Gruppen von Geräten.
 
-![IoT-Geräte verbinden sich mit einem Broker, veröffentlichen Telemetrie und abonnieren Befehle. Cloud-Dienste verbinden sich mit dem Broker, abonnieren alle Telemetrie und senden Befehle an bestimmte Geräte.](../../../../../translated_images/pub-sub.7c7ed43fe9fd15d4.de.png)
+![IoT-Geräte verbinden sich mit einem Broker, veröffentlichen Telemetrie und abonnieren Befehle. Cloud-Dienste verbinden sich mit dem Broker, abonnieren alle Telemetrie und senden Befehle an bestimmte Geräte.](../../../../../translated_images/de/pub-sub.7c7ed43fe9fd15d4.png)
 
 MQTT ist das beliebteste Kommunikationsprotokoll für IoT-Geräte und wird in dieser Lektion behandelt. Andere Protokolle umfassen AMQP und HTTP/HTTPS.
 
@@ -56,7 +56,7 @@ MQTT ist das beliebteste Kommunikationsprotokoll für IoT-Geräte und wird in di
 
 MQTT hat einen einzigen Broker und mehrere Clients. Alle Clients verbinden sich mit dem Broker, und der Broker leitet Nachrichten an die relevanten Clients weiter. Nachrichten werden über benannte Themen (Topics) geroutet, anstatt direkt an einen einzelnen Client gesendet zu werden. Ein Client kann ein Thema veröffentlichen, und alle Clients, die dieses Thema abonniert haben, erhalten die Nachricht.
 
-![IoT-Gerät veröffentlicht Telemetrie auf dem /telemetry-Thema, und der Cloud-Dienst abonniert dieses Thema](../../../../../translated_images/mqtt.cbf7f21d9adc3e17548b359444cc11bb4bf2010543e32ece9a47becf54438c23.de.png)
+![IoT-Gerät veröffentlicht Telemetrie auf dem /telemetry-Thema, und der Cloud-Dienst abonniert dieses Thema](../../../../../translated_images/de/mqtt.cbf7f21d9adc3e17548b359444cc11bb4bf2010543e32ece9a47becf54438c23.png)
 
 ✅ Recherchieren Sie. Wenn Sie viele IoT-Geräte haben, wie können Sie sicherstellen, dass Ihr MQTT-Broker alle Nachrichten verarbeiten kann?
 
@@ -78,7 +78,7 @@ Anstatt sich mit den Komplexitäten der Einrichtung eines MQTT-Brokers im Rahmen
 
 > 💁 Dieser Test-Broker ist öffentlich und nicht sicher. Jeder könnte zuhören, was Sie veröffentlichen, daher sollte er nicht mit Daten verwendet werden, die privat bleiben müssen.
 
-![Ein Flussdiagramm der Aufgabe, das zeigt, wie Lichtpegel gelesen und überprüft werden und die LED gesteuert wird](../../../../../translated_images/assignment-1-internet-flow.3256feab5f052fd273bf4e331157c574c2c3fa42e479836fc9c3586f41db35a5.de.png)
+![Ein Flussdiagramm der Aufgabe, das zeigt, wie Lichtpegel gelesen und überprüft werden und die LED gesteuert wird](../../../../../translated_images/de/assignment-1-internet-flow.3256feab5f052fd273bf4e331157c574c2c3fa42e479836fc9c3586f41db35a5.png)
 
 Folgen Sie dem entsprechenden Schritt unten, um Ihr Gerät mit dem MQTT-Broker zu verbinden:
 
@@ -115,7 +115,7 @@ Das Wort Telemetrie stammt aus griechischen Wurzeln und bedeutet "fernmessen". T
 
 Schauen wir uns das Beispiel des intelligenten Thermostats aus Lektion 1 an.
 
-![Ein internetverbundener Thermostat mit mehreren Raumsensoren](../../../../../translated_images/telemetry.21e5d8b97649d2eb.de.png)
+![Ein internetverbundener Thermostat mit mehreren Raumsensoren](../../../../../translated_images/de/telemetry.21e5d8b97649d2eb.png)
 
 Der Thermostat verfügt über Temperatursensoren zur Erfassung von Telemetrie. Höchstwahrscheinlich hat er einen eingebauten Temperatursensor und könnte sich mit mehreren externen Temperatursensoren über ein drahtloses Protokoll wie [Bluetooth Low Energy](https://wikipedia.org/wiki/Bluetooth_Low_Energy) (BLE) verbinden.
 
@@ -267,11 +267,11 @@ Schreiben Sie den Servercode.
 
 1. Wenn VS Code startet, wird die Python-virtuelle Umgebung aktiviert. Dies wird in der unteren Statusleiste angezeigt:
 
-    ![VS Code zeigt die ausgewählte virtuelle Umgebung an](../../../../../translated_images/vscode-virtual-env.8ba42e04c3d533cf.de.png)
+    ![VS Code zeigt die ausgewählte virtuelle Umgebung an](../../../../../translated_images/de/vscode-virtual-env.8ba42e04c3d533cf.png)
 
 1. Wenn das VS Code-Terminal bereits läuft, wenn VS Code gestartet wird, wird die virtuelle Umgebung darin nicht aktiviert. Am einfachsten ist es, das Terminal mit der Schaltfläche **Aktives Terminal schließen** zu beenden:
 
-    ![VS Code-Schaltfläche zum Schließen des aktiven Terminals](../../../../../translated_images/vscode-kill-terminal.1cc4de7c6f25ee08.de.png)
+    ![VS Code-Schaltfläche zum Schließen des aktiven Terminals](../../../../../translated_images/de/vscode-kill-terminal.1cc4de7c6f25ee08.png)
 
 1. Starten Sie ein neues VS Code-Terminal, indem Sie *Terminal -> Neues Terminal* auswählen oder `` CTRL+` `` drücken. Das neue Terminal lädt die virtuelle Umgebung, wobei der Aktivierungsaufruf im Terminal erscheint. Der Name der virtuellen Umgebung (`.venv`) wird ebenfalls in der Eingabeaufforderung angezeigt:
 
@@ -359,7 +359,7 @@ Für Maschinen möchten Sie möglicherweise die Daten behalten, insbesondere wen
 
 IoT-Geräteentwickler sollten auch berücksichtigen, ob das IoT-Gerät während eines Internetausfalls oder eines Signalverlusts aufgrund des Standorts verwendet werden kann. Ein intelligentes Thermostat sollte in der Lage sein, einige begrenzte Entscheidungen zur Steuerung der Heizung zu treffen, wenn es aufgrund eines Ausfalls keine Telemetrie an die Cloud senden kann.
 
-[![Dieser Ferrari wurde unbrauchbar, weil jemand versucht hat, ihn unterirdisch zu aktualisieren, wo es keinen Mobilfunkempfang gibt](../../../../../translated_images/bricked-car.dc38f8efadc6c59d76211f981a521efb300939283dee468f79503aae3ec67615.de.png)](https://twitter.com/internetofshit/status/1315736960082808832)
+[![Dieser Ferrari wurde unbrauchbar, weil jemand versucht hat, ihn unterirdisch zu aktualisieren, wo es keinen Mobilfunkempfang gibt](../../../../../translated_images/de/bricked-car.dc38f8efadc6c59d76211f981a521efb300939283dee468f79503aae3ec67615.png)](https://twitter.com/internetofshit/status/1315736960082808832)
 
 Damit MQTT einen Verlust der Konnektivität bewältigen kann, müssen das Geräte- und der Servercode dafür verantwortlich sein, die Nachrichtenübermittlung sicherzustellen, falls dies erforderlich ist, beispielsweise durch die Anforderung, dass alle gesendeten Nachrichten durch zusätzliche Nachrichten zu einem Antwortthema beantwortet werden, und falls nicht, werden sie manuell in eine Warteschlange gestellt, um später erneut abgespielt zu werden.
 
@@ -367,7 +367,7 @@ Damit MQTT einen Verlust der Konnektivität bewältigen kann, müssen das Gerät
 
 Befehle sind Nachrichten, die von der Cloud an ein Gerät gesendet werden, um es anzuweisen, etwas zu tun. Meistens geht es darum, eine Art Ausgabe über einen Aktuator zu geben, aber es kann auch eine Anweisung für das Gerät selbst sein, wie z. B. einen Neustart durchzuführen oder zusätzliche Telemetrie zu sammeln und als Antwort auf den Befehl zurückzugeben.
 
-![Ein internetverbundenes Thermostat, das einen Befehl erhält, die Heizung einzuschalten](../../../../../translated_images/commands.d6c06bbbb3a02cce95f2831a1c331daf6dedd4e470c4aa2b0ae54f332016e504.de.png)
+![Ein internetverbundenes Thermostat, das einen Befehl erhält, die Heizung einzuschalten](../../../../../translated_images/de/commands.d6c06bbbb3a02cce95f2831a1c331daf6dedd4e470c4aa2b0ae54f332016e504.png)
 
 Ein Thermostat könnte einen Befehl von der Cloud erhalten, die Heizung einzuschalten. Basierend auf den Telemetriedaten aller Sensoren hat der Cloud-Dienst entschieden, dass die Heizung eingeschaltet werden sollte, und sendet daher den entsprechenden Befehl.
 

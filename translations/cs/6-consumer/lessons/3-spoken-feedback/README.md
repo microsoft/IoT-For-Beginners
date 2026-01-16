@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Nastavte časovač a poskytněte hlasovou zpětnou vazbu
 
-![Přehled této lekce ve formě sketchnote](../../../../../translated_images/lesson-23.f38483e1d4df4828990d3f02d60e46c978b075d384ae7cb4f7bab738e107c850.cs.jpg)
+![Přehled této lekce ve formě sketchnote](../../../../../translated_images/cs/lesson-23.f38483e1d4df4828990d3f02d60e46c978b075d384ae7cb4f7bab738e107c850.jpg)
 
 > Sketchnote od [Nitya Narasimhan](https://github.com/nitya). Klikněte na obrázek pro větší verzi.
 
@@ -37,7 +37,7 @@ V této lekci se zaměříme na:
 
 Převod textu na řeč, jak název napovídá, je proces převodu textu na zvuk obsahující text jako mluvená slova. Základní princip spočívá v rozložení slov v textu na jejich základní zvuky (známé jako fonémy) a spojení zvuků dohromady, buď pomocí předem nahraného zvuku, nebo zvuku generovaného modely AI.
 
-![Tři fáze typických systémů pro převod textu na řeč](../../../../../translated_images/tts-overview.193843cf3f5ee09f.cs.png)
+![Tři fáze typických systémů pro převod textu na řeč](../../../../../translated_images/cs/tts-overview.193843cf3f5ee09f.png)
 
 Systémy pro převod textu na řeč obvykle zahrnují 3 fáze:
 

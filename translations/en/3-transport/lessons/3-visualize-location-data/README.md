@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Visualize location data
 
-![A sketchnote overview of this lesson](../../../../../translated_images/lesson-13.a259db1485021be7d7c72e90842fbe0ab977529e8684c179b5fb1ea75e92b3ef.en.jpg)
+![A sketchnote overview of this lesson](../../../../../translated_images/en/lesson-13.a259db1485021be7d7c72e90842fbe0ab977529e8684c179b5fb1ea75e92b3ef.jpg)
 
 > Sketchnote by [Nitya Narasimhan](https://github.com/nitya). Click the image for a larger version.
 
@@ -73,11 +73,11 @@ For example, in the farm project, you collected soil moisture readings. A table 
 
 For a human, interpreting this data can be challenging—it’s just a wall of numbers. To make it more comprehensible, you could plot it on a line chart:
 
-![A line chart of the above data](../../../../../translated_images/chart-soil-moisture.fd6d9d0cdc0b5f75e78038ecb8945dfc84b38851359de99d84b16e3336d6d7c2.en.png)
+![A line chart of the above data](../../../../../translated_images/en/chart-soil-moisture.fd6d9d0cdc0b5f75e78038ecb8945dfc84b38851359de99d84b16e3336d6d7c2.png)
 
 This visualization can be further improved by adding a line to indicate when the automated watering system was activated at a soil moisture reading of 450:
 
-![A line chart of soil moisture with a line at 450](../../../../../translated_images/chart-soil-moisture-relay.fbb391236d34a64d0abf1df396e9197e0a24df14150620b9cc820a64a55c9326.en.png)
+![A line chart of soil moisture with a line at 450](../../../../../translated_images/en/chart-soil-moisture-relay.fbb391236d34a64d0abf1df396e9197e0a24df14150620b9cc820a64a55c9326.png)
 
 This chart quickly conveys not only the soil moisture levels but also the points where the watering system was triggered.
 
@@ -93,7 +93,7 @@ When working with GPS data, the clearest visualization is often plotting the dat
 
 Working with maps is an exciting challenge, and there are many options to choose from, such as Bing Maps, Leaflet, Open Street Maps, and Google Maps. In this lesson, you'll learn about [Azure Maps](https://azure.microsoft.com/services/azure-maps/?WT.mc_id=academic-17441-jabenn) and how it can display your GPS data.
 
-![The Azure Maps logo](../../../../../translated_images/azure-maps-logo.35d01dcfbd81fe6140e94257aaa1538f785a58c91576d14e0ebe7a2f6c694b99.en.png)
+![The Azure Maps logo](../../../../../translated_images/en/azure-maps-logo.35d01dcfbd81fe6140e94257aaa1538f785a58c91576d14e0ebe7a2f6c694b99.png)
 
 Azure Maps is "a collection of geospatial services and SDKs that use fresh mapping data to provide geographic context to web and mobile applications." It offers developers tools to create interactive maps with features like recommended traffic routes, traffic incident information, indoor navigation, search capabilities, elevation data, weather services, and more.
 
@@ -194,7 +194,7 @@ Next, you'll display your map on a web page. For simplicity, we'll use a single 
 
     If you open your `index.html` file in a web browser, you should see a map centered on the Seattle area.
 
-    ![A map showing Seattle, a city in Washington State, USA](../../../../../translated_images/map-image.8fb2c53eb23ef39c1c0a4410a5282e879b3b452b707eb066ff04c5488d3d72b7.en.png)
+    ![A map showing Seattle, a city in Washington State, USA](../../../../../translated_images/en/map-image.8fb2c53eb23ef39c1c0a4410a5282e879b3b452b707eb066ff04c5488d3d72b7.png)
 
     ✅ Experiment with the zoom and center parameters to adjust your map display. You can use different coordinates corresponding to your data's latitude and longitude to re-center the map.
 
@@ -327,7 +327,7 @@ If you attempt to fetch data from your storage, you might notice errors in your 
 
 1. Open the HTML page in your browser. The map will load, retrieve all the GPS data from storage, and plot it on the map.
 
-    ![A map of Saint Edward State Park near Seattle, with circles showing a path around the edge of the park](../../../../../translated_images/map-path.896832e72dc696ffe20650e4051027d4855442d955f93fdbb80bb417ca8a406f.en.png)
+    ![A map of Saint Edward State Park near Seattle, with circles showing a path around the edge of the park](../../../../../translated_images/en/map-path.896832e72dc696ffe20650e4051027d4855442d955f93fdbb80bb417ca8a406f.png)
 
 > 💁 You can find this code in the [code](../../../../../3-transport/lessons/3-visualize-location-data/code) folder.
 

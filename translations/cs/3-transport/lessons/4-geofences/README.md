@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Geofencing
 
-![Přehled této lekce ve formě sketchnote](../../../../../translated_images/lesson-14.63980c5150ae3c153e770fb71d044c1845dce79248d86bed9fc525adf3ede73c.cs.jpg)
+![Přehled této lekce ve formě sketchnote](../../../../../translated_images/cs/lesson-14.63980c5150ae3c153e770fb71d044c1845dce79248d86bed9fc525adf3ede73c.jpg)
 
 > Sketchnote od [Nitya Narasimhan](https://github.com/nitya). Klikněte na obrázek pro větší verzi.
 
@@ -44,7 +44,7 @@ V této lekci se zaměříme na:
 
 Geofence je virtuální obvod pro geografickou oblast v reálném světě. Geofences mohou být kruhy definované jako bod a poloměr (například kruh o průměru 100 m kolem budovy) nebo polygon pokrývající oblast, jako je školní zóna, hranice města nebo univerzitní či kancelářský kampus.
 
-![Několik příkladů geofencí ukazujících kruhovou geofence kolem obchodu Microsoft a polygonovou geofence kolem západního kampusu Microsoft](../../../../../translated_images/geofence-examples.172fbc534665769f6e1a1ddcf75e3b25183cd10354c80cc603ba44b635390e1a.cs.png)
+![Několik příkladů geofencí ukazujících kruhovou geofence kolem obchodu Microsoft a polygonovou geofence kolem západního kampusu Microsoft](../../../../../translated_images/cs/geofence-examples.172fbc534665769f6e1a1ddcf75e3b25183cd10354c80cc603ba44b635390e1a.png)
 
 > 💁 Možná jste již používali geofences, aniž byste o tom věděli. Pokud jste nastavili připomínku pomocí aplikace iOS Reminders nebo Google Keep na základě polohy, použili jste geofence. Tyto aplikace nastaví geofence na základě zadané polohy a upozorní vás, když váš telefon vstoupí do geofence.
 
@@ -110,7 +110,7 @@ Každý bod na polygonu je definován jako dvojice zeměpisné délky a šířky
 
 Pole souřadnic polygonu vždy obsahuje o 1 více záznamů než počet bodů na polygonu, přičemž poslední záznam je stejný jako první, čímž se polygon uzavírá. Například pro obdélník by bylo 5 bodů.
 
-![Obdélník se souřadnicemi](../../../../../translated_images/polygon-points.302193da381cb415.cs.png)
+![Obdélník se souřadnicemi](../../../../../translated_images/cs/polygon-points.302193da381cb415.png)
 
 Na obrázku výše je obdélník. Souřadnice polygonu začínají vlevo nahoře na 47,-122, poté se posunou doprava na 47,-121, poté dolů na 46,-121, poté doleva na 46,-122, a nakonec zpět na výchozí bod na 47,-122. To dává polygonu 5 bodů – vlevo nahoře, vpravo nahoře, vpravo dole, vlevo dole a nakonec vlevo nahoře pro uzavření.
 
@@ -208,7 +208,7 @@ Při provádění tohoto požadavku můžete také předat hodnotu nazvanou `sea
 
 Když jsou výsledky vráceny z volání API, jedna z částí výsledku je `distance`, měřená k nejbližšímu bodu na okraji geofence, s kladnou hodnotou, pokud je bod vně geofence, a zápornou, pokud je uvnitř geofence. Pokud je tato vzdálenost menší než search buffer, skutečná vzdálenost je vrácena v metrech, jinak je hodnota 999 nebo -999. 999 znamená, že bod je vně geofence o více než search buffer, -999 znamená, že je uvnitř geofence o více než search buffer.
 
-![Geofence s 50m search buffer kolem ní](../../../../../translated_images/search-buffer-and-distance.e6a79af3898183c7.cs.png)
+![Geofence s 50m search buffer kolem ní](../../../../../translated_images/cs/search-buffer-and-distance.e6a79af3898183c7.png)
 
 Na obrázku výše má geofence 50m search buffer.
 
@@ -221,7 +221,7 @@ Je důležité znát vzdálenost k okraji geofence a kombinovat ji s dalšími i
 
 Například si představte GPS záznamy ukazující, že vozidlo jelo po silnici, která končí vedle geofence. Pokud jediná GPS hodnota není přesná a umístí vozidlo uvnitř geofence, přestože tam není žádný přístup pro vozidla, může být ignorována.
 
-![GPS stopa ukazující vozidlo projíždějící kolem kampusu Microsoft na 520, s GPS záznamy podél silnice kromě jednoho na kampusu, uvnitř geofence](../../../../../translated_images/geofence-crossing-inaccurate-gps.6a3ed911202ad9cabb66d3964888cec03a42c61d5b8f536ad5bdc99716b370f5.cs.png)
+![GPS stopa ukazující vozidlo projíždějící kolem kampusu Microsoft na 520, s GPS záznamy podél silnice kromě jednoho na kampusu, uvnitř geofence](../../../../../translated_images/cs/geofence-crossing-inaccurate-gps.6a3ed911202ad9cabb66d3964888cec03a42c61d5b8f536ad5bdc99716b370f5.png)
 Na obrázku je geofence pokrývající část kampusu Microsoftu. Červená čára ukazuje trasu nákladního vozu jedoucího po dálnici 520, s kruhy označujícími GPS záznamy. Většina záznamů je přesná a odpovídá trase po dálnici 520, ale jeden nepřesný záznam se nachází uvnitř geofence. Tento záznam nemůže být správný – neexistují žádné silnice, po kterých by se nákladní vůz mohl náhle odchýlit z dálnice 520 na kampus a poté se vrátit zpět na dálnici 520. Kód, který kontroluje tuto geofence, bude muset vzít v úvahu předchozí záznamy, než začne jednat na základě výsledků testu geofence.
 
 ✅ Jaké další údaje byste potřebovali zkontrolovat, abyste zjistili, zda lze GPS záznam považovat za správný?
@@ -293,7 +293,7 @@ Jak si pamatujete z předchozích lekcí, IoT Hub umožňuje přehrávat událos
 
 Odpověď je, že to nemůže! Místo toho můžete definovat více samostatných připojení pro čtení událostí, a každé z nich může spravovat přehrávání nepřečtených zpráv. Tyto se nazývají *consumer groups*. Když se připojíte k endpointu, můžete specifikovat, ke které consumer group se chcete připojit. Každá komponenta vaší aplikace se připojí k jiné consumer group.
 
-![Jeden IoT Hub se 3 consumer groups distribuující stejné zprávy do 3 různých Functions aplikací](../../../../../translated_images/consumer-groups.a3262e26fc27ba2092863678ad57af15c7223416e388a23f330c058cf4358630.cs.png)
+![Jeden IoT Hub se 3 consumer groups distribuující stejné zprávy do 3 různých Functions aplikací](../../../../../translated_images/cs/consumer-groups.a3262e26fc27ba2092863678ad57af15c7223416e388a23f330c058cf4358630.png)
 
 Teoreticky se může ke každé consumer group připojit až 5 aplikací, a všechny obdrží zprávy, když dorazí. Nejlepší praxí je mít pouze jednu aplikaci přistupující ke každé consumer group, aby se zabránilo duplicitnímu zpracování zpráv a zajistilo, že při restartování budou všechny zařazené zprávy správně zpracovány. Například pokud spustíte svou Functions aplikaci lokálně i v cloudu, obě budou zpracovávat zprávy, což povede k duplicitním blobům uloženým v úložišti.
 

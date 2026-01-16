@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Kontroller frugtkvalitet med en IoT-enhed
 
-![En sketchnote oversigt over denne lektion](../../../../../translated_images/lesson-16.215daf18b00631fbdfd64c6fc2dc6044dff5d544288825d8076f9fb83d964c23.da.jpg)
+![En sketchnote oversigt over denne lektion](../../../../../translated_images/da/lesson-16.215daf18b00631fbdfd64c6fc2dc6044dff5d544288825d8076f9fb83d964c23.jpg)
 
 > Sketchnote af [Nitya Narasimhan](https://github.com/nitya). Klik på billedet for en større version.
 
@@ -35,7 +35,7 @@ I denne lektion dækker vi:
 
 Kamerasensorer, som navnet antyder, er kameraer, du kan tilslutte til din IoT-enhed. De kan tage stillbilleder eller optage streamingvideo. Nogle returnerer rå billeddata, mens andre komprimerer billeddataene til en billedfil som JPEG eller PNG. Normalt er de kameraer, der fungerer med IoT-enheder, meget mindre og har lavere opløsning end dem, du måske er vant til, men du kan få kameraer med høj opløsning, der kan konkurrere med de bedste smartphones. Du kan få alle slags udskiftelige linser, opsætninger med flere kameraer, infrarøde termiske kameraer eller UV-kameraer.
 
-![Lyset fra en scene passerer gennem en linse og fokuseres på en CMOS-sensor](../../../../../translated_images/cmos-sensor.75f9cd74decb137149a4c9ea825251a4549497d67c0ae2776159e6102bb53aa9.da.png)
+![Lyset fra en scene passerer gennem en linse og fokuseres på en CMOS-sensor](../../../../../translated_images/da/cmos-sensor.75f9cd74decb137149a4c9ea825251a4549497d67c0ae2776159e6102bb53aa9.png)
 
 De fleste kamerasensorer bruger billedsensorer, hvor hver pixel er en fotodiode. En linse fokuserer billedet på billedsensoren, og tusinder eller millioner af fotodioder registrerer lyset, der falder på hver enkelt, og gemmer det som pixeldata.
 
@@ -83,7 +83,7 @@ Iterationer publiceres fra Custom Vision-portalen.
 
 1. Vælg knappen **Publish** for iterationen.
 
-    ![Publiceringsknappen](../../../../../translated_images/custom-vision-publish-button.b7174e1977b0c33b8b72d4e5b1326c779e0af196f3849d09985ee2d7d5493a39.da.png)
+    ![Publiceringsknappen](../../../../../translated_images/da/custom-vision-publish-button.b7174e1977b0c33b8b72d4e5b1326c779e0af196f3849d09985ee2d7d5493a39.png)
 
 1. I dialogboksen *Publish Model* skal du indstille *Prediction resource* til den `fruit-quality-detector-prediction`-ressource, du oprettede i den sidste lektion. Lad navnet være `Iteration2`, og vælg knappen **Publish**.
 
@@ -97,7 +97,7 @@ Iterationer publiceres fra Custom Vision-portalen.
 
     Tag også en kopi af værdien *Prediction-Key*. Dette er en sikker nøgle, som du skal sende, når du kalder modellen. Kun applikationer, der sender denne nøgle, har tilladelse til at bruge modellen, alle andre applikationer afvises.
 
-    ![Dialogboksen for forudsigelses-API, der viser URL og nøgle](../../../../../translated_images/custom-vision-prediction-key-endpoint.30c569ffd0338864f319911f052d5e9b8c5066cb0800a26dd6f7ff5713130ad8.da.png)
+    ![Dialogboksen for forudsigelses-API, der viser URL og nøgle](../../../../../translated_images/da/custom-vision-prediction-key-endpoint.30c569ffd0338864f319911f052d5e9b8c5066cb0800a26dd6f7ff5713130ad8.png)
 
 ✅ Når en ny iteration publiceres, vil den have et andet navn. Hvordan tror du, du ville ændre den iteration, en IoT-enhed bruger?
 
@@ -118,7 +118,7 @@ Du kan opleve, at de resultater, du får, når du bruger kameraet tilsluttet din
 
 For at få de bedste resultater for en billedklassifikator vil du gerne træne modellen med billeder, der er så ens som muligt med de billeder, der bruges til forudsigelser. Hvis du for eksempel brugte dit telefonkamera til at tage billeder til træning, vil billedkvaliteten, skarpheden og farverne være anderledes end et kamera tilsluttet en IoT-enhed.
 
-![2 bananbilleder, et lavopløsningsbillede med dårlig belysning fra en IoT-enhed, og et højopløsningsbillede med god belysning fra en telefon](../../../../../translated_images/banana-picture-compare.174df164dc326a42cf7fb051a7497e6113c620e91552d92ca914220305d47d9a.da.png)
+![2 bananbilleder, et lavopløsningsbillede med dårlig belysning fra en IoT-enhed, og et højopløsningsbillede med god belysning fra en telefon](../../../../../translated_images/da/banana-picture-compare.174df164dc326a42cf7fb051a7497e6113c620e91552d92ca914220305d47d9a.png)
 
 På billedet ovenfor blev bananbilledet til venstre taget med et Raspberry Pi-kamera, mens det til højre blev taget af den samme banan på samme sted med en iPhone. Der er en tydelig forskel i kvalitet - iPhone-billedet er skarpere, med lysere farver og mere kontrast.
 

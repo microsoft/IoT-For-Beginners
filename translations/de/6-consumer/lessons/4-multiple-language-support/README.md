@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Unterstützung mehrerer Sprachen
 
-![Eine Sketchnote-Übersicht dieser Lektion](../../../../../translated_images/lesson-24.4246968ed058510ab275052e87ef9aa89c7b2f938915d103c605c04dc6cd5bb7.de.jpg)
+![Eine Sketchnote-Übersicht dieser Lektion](../../../../../translated_images/de/lesson-24.4246968ed058510ab275052e87ef9aa89c7b2f938915d103c605c04dc6cd5bb7.jpg)
 
 > Sketchnote von [Nitya Narasimhan](https://github.com/nitya). Klicken Sie auf das Bild für eine größere Version.
 
@@ -83,7 +83,7 @@ Es gibt eine Reihe von KI-Diensten, die von Ihren Anwendungen genutzt werden kö
 
 ### Cognitive Services Sprachdienst
 
-![Das Logo des Sprachdienstes](../../../../../translated_images/azure-speech-logo.a1f08c4befb0159f2cb5d692d3baf5b599e7b44759d316da907bda1508f46a4a.de.png)
+![Das Logo des Sprachdienstes](../../../../../translated_images/de/azure-speech-logo.a1f08c4befb0159f2cb5d692d3baf5b599e7b44759d316da907bda1508f46a4a.png)
 
 Der Sprachdienst, den Sie in den letzten Lektionen verwendet haben, verfügt über Übersetzungsfunktionen für die Spracherkennung. Wenn Sie Sprache erkennen, können Sie nicht nur den Text der Sprache in derselben Sprache anfordern, sondern auch in anderen Sprachen.
 
@@ -91,7 +91,7 @@ Der Sprachdienst, den Sie in den letzten Lektionen verwendet haben, verfügt üb
 
 ### Cognitive Services Übersetzungsdienst
 
-![Das Logo des Übersetzungsdienstes](../../../../../translated_images/azure-translator-logo.c6ed3a4a433edfd2f11577eca105412c50b8396b194cbbd730723dd1d0793bcd.de.png)
+![Das Logo des Übersetzungsdienstes](../../../../../translated_images/de/azure-translator-logo.c6ed3a4a433edfd2f11577eca105412c50b8396b194cbbd730723dd1d0793bcd.png)
 
 Der Übersetzungsdienst ist ein dedizierter Übersetzungsdienst, der Text von einer Sprache in eine oder mehrere Zielsprachen übersetzen kann. Neben der Übersetzung unterstützt er eine Vielzahl zusätzlicher Funktionen, einschließlich der Maskierung von Obszönitäten. Er ermöglicht es Ihnen auch, eine spezifische Übersetzung für ein bestimmtes Wort oder einen bestimmten Satz bereitzustellen, um mit Begriffen zu arbeiten, die Sie nicht übersetzen möchten, oder eine spezifische, bekannte Übersetzung zu verwenden.
 
@@ -130,7 +130,7 @@ Für diese Lektion benötigen Sie eine Übersetzungsressource. Sie werden die RE
 
 In einer idealen Welt sollte Ihre gesamte Anwendung so viele verschiedene Sprachen wie möglich verstehen, von der Spracherkennung über das Sprachverständnis bis hin zur Antwort mit Sprache. Dies ist viel Arbeit, daher können Übersetzungsdienste die Zeit bis zur Bereitstellung Ihrer Anwendung verkürzen.
 
-![Eine Architektur eines intelligenten Timers, der Japanisch ins Englische übersetzt, die Verarbeitung auf Englisch durchführt und dann zurück ins Japanische übersetzt](../../../../../translated_images/translated-smart-timer.08ac20057fdc5c37.de.png)
+![Eine Architektur eines intelligenten Timers, der Japanisch ins Englische übersetzt, die Verarbeitung auf Englisch durchführt und dann zurück ins Japanische übersetzt](../../../../../translated_images/de/translated-smart-timer.08ac20057fdc5c37.png)
 
 Stellen Sie sich vor, Sie bauen einen intelligenten Timer, der durchgehend Englisch verwendet, gesprochenes Englisch versteht und in Text umwandelt, das Sprachverständnis auf Englisch durchführt, Antworten auf Englisch erstellt und mit englischer Sprache antwortet. Wenn Sie Unterstützung für Japanisch hinzufügen möchten, könnten Sie damit beginnen, gesprochenes Japanisch in englischen Text zu übersetzen, dann den Kern der Anwendung gleich lassen und die Antworttexte ins Japanische übersetzen, bevor Sie die Antwort sprechen. Dies würde es Ihnen ermöglichen, schnell Unterstützung für Japanisch hinzuzufügen, und Sie können später vollständige End-to-End-Unterstützung für Japanisch bereitstellen.
 

@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Visualizar dados de localização
 
-![Uma visão geral ilustrada desta lição](../../../../../translated_images/lesson-13.a259db1485021be7d7c72e90842fbe0ab977529e8684c179b5fb1ea75e92b3ef.br.jpg)
+![Uma visão geral ilustrada desta lição](../../../../../translated_images/br/lesson-13.a259db1485021be7d7c72e90842fbe0ab977529e8684c179b5fb1ea75e92b3ef.jpg)
 
 > Ilustração por [Nitya Narasimhan](https://github.com/nitya). Clique na imagem para uma versão maior.
 
@@ -73,11 +73,11 @@ Tomando um exemplo simples - no projeto da fazenda, você capturou leituras de u
 
 Para um humano, entender esses dados pode ser difícil. É uma parede de números sem significado. Como primeiro passo para visualizar esses dados, eles podem ser plotados em um gráfico de linha:
 
-![Um gráfico de linha dos dados acima](../../../../../translated_images/chart-soil-moisture.fd6d9d0cdc0b5f75e78038ecb8945dfc84b38851359de99d84b16e3336d6d7c2.br.png)
+![Um gráfico de linha dos dados acima](../../../../../translated_images/br/chart-soil-moisture.fd6d9d0cdc0b5f75e78038ecb8945dfc84b38851359de99d84b16e3336d6d7c2.png)
 
 Isso pode ser ainda mais aprimorado adicionando uma linha para indicar quando o sistema de irrigação automatizado foi ativado em uma leitura de umidade do solo de 450:
 
-![Um gráfico de linha de umidade do solo com uma linha em 450](../../../../../translated_images/chart-soil-moisture-relay.fbb391236d34a64d0abf1df396e9197e0a24df14150620b9cc820a64a55c9326.br.png)
+![Um gráfico de linha de umidade do solo com uma linha em 450](../../../../../translated_images/br/chart-soil-moisture-relay.fbb391236d34a64d0abf1df396e9197e0a24df14150620b9cc820a64a55c9326.png)
 
 Este gráfico mostra rapidamente não apenas quais eram os níveis de umidade do solo, mas os pontos onde o sistema de irrigação foi ativado.
 
@@ -93,7 +93,7 @@ Ao trabalhar com dados de GPS, a visualização mais clara pode ser plotar os da
 
 Trabalhar com mapas é um exercício interessante, e há muitos para escolher, como Bing Maps, Leaflet, Open Street Maps e Google Maps. Nesta lição, você aprenderá sobre [Azure Maps](https://azure.microsoft.com/services/azure-maps/?WT.mc_id=academic-17441-jabenn) e como eles podem exibir seus dados de GPS.
 
-![O logotipo do Azure Maps](../../../../../translated_images/azure-maps-logo.35d01dcfbd81fe6140e94257aaa1538f785a58c91576d14e0ebe7a2f6c694b99.br.png)
+![O logotipo do Azure Maps](../../../../../translated_images/br/azure-maps-logo.35d01dcfbd81fe6140e94257aaa1538f785a58c91576d14e0ebe7a2f6c694b99.png)
 
 Azure Maps é "uma coleção de serviços geoespaciais e SDKs que utilizam dados de mapeamento atualizados para fornecer contexto geográfico a aplicativos web e móveis." Os desenvolvedores recebem ferramentas para criar mapas bonitos e interativos que podem fazer coisas como fornecer rotas de tráfego recomendadas, dar informações sobre incidentes de tráfego, navegação interna, capacidades de busca, informações de elevação, serviços meteorológicos e muito mais.
 
@@ -194,7 +194,7 @@ Agora você pode dar o próximo passo, que é exibir seu mapa em uma página da 
 
     Se você abrir sua página `index.html` em um navegador web, deverá ver um mapa carregado, focado na área de Seattle.
 
-    ![Um mapa mostrando Seattle, uma cidade no estado de Washington, EUA](../../../../../translated_images/map-image.8fb2c53eb23ef39c1c0a4410a5282e879b3b452b707eb066ff04c5488d3d72b7.br.png)
+    ![Um mapa mostrando Seattle, uma cidade no estado de Washington, EUA](../../../../../translated_images/br/map-image.8fb2c53eb23ef39c1c0a4410a5282e879b3b452b707eb066ff04c5488d3d72b7.png)
 
     ✅ Experimente os parâmetros de zoom e centro para alterar a exibição do mapa. Você pode adicionar diferentes coordenadas correspondentes à latitude e longitude dos seus dados para re-centralizar o mapa.
 
@@ -328,7 +328,7 @@ Se você fizer uma chamada ao seu armazenamento para buscar os dados, pode se su
 
 1. Carregue a página HTML no seu navegador. Ela carregará o mapa, depois carregará todos os dados de GPS do armazenamento e os exibirá no mapa.
 
-    ![Um mapa do Saint Edward State Park perto de Seattle, com círculos mostrando um caminho ao redor da borda do parque](../../../../../translated_images/map-path.896832e72dc696ffe20650e4051027d4855442d955f93fdbb80bb417ca8a406f.br.png)
+    ![Um mapa do Saint Edward State Park perto de Seattle, com círculos mostrando um caminho ao redor da borda do parque](../../../../../translated_images/br/map-path.896832e72dc696ffe20650e4051027d4855442d955f93fdbb80bb417ca8a406f.png)
 
 > 💁 Você pode encontrar este código na [pasta de código](../../../../../3-transport/lessons/3-visualize-location-data/code).
 

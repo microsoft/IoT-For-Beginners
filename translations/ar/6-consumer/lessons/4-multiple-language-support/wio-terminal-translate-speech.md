@@ -114,7 +114,7 @@ CO_OP_TRANSLATOR_METADATA:
     >
     > على سبيل المثال، إذا قمت بتدريب LUIS باللغة الإنجليزية، ولكنك تريد استخدام الفرنسية كلغة المستخدم، يمكنك ترجمة جمل مثل "اضبط مؤقتًا لمدة دقيقتين و27 ثانية" من الإنجليزية إلى الفرنسية باستخدام Bing Translate، ثم استخدام زر **Listen translation** للتحدث بالترجمة إلى الميكروفون الخاص بك.
     >
-    > ![زر الاستماع للترجمة على Bing Translate](../../../../../translated_images/bing-translate.348aa796d6efe2a92f41ea74a5cf42bb4c63d6faaa08e7f46924e072a35daa48.ar.png)
+    > ![زر الاستماع للترجمة على Bing Translate](../../../../../translated_images/ar/bing-translate.348aa796d6efe2a92f41ea74a5cf42bb4c63d6faaa08e7f46924e072a35daa48.png)
 
 1. أضف مفتاح API الخاص بخدمة الترجمة والموقع أسفل `SPEECH_LOCATION`:
 

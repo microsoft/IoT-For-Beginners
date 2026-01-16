@@ -47,11 +47,11 @@ CO_OP_TRANSLATOR_METADATA:
 
     1. اختر زر **إضافة** لإنشاء مستشعر GPS على المنفذ `/dev/ttyAMA0`.
 
-    ![إعدادات مستشعر GPS](../../../../../translated_images/counterfit-create-gps-sensor.6385dc9357d85ad1d47b4abb2525e7651fd498917d25eefc5a72feab09eedc70.ar.png)
+    ![إعدادات مستشعر GPS](../../../../../translated_images/ar/counterfit-create-gps-sensor.6385dc9357d85ad1d47b4abb2525e7651fd498917d25eefc5a72feab09eedc70.png)
 
     سيتم إنشاء مستشعر GPS وسيظهر في قائمة المستشعرات.
 
-    ![تم إنشاء مستشعر GPS](../../../../../translated_images/counterfit-gps-sensor.3fbb15af0a5367566f2f11324ef5a6f30861cdf2b497071a5e002b7aa473550e.ar.png)
+    ![تم إنشاء مستشعر GPS](../../../../../translated_images/ar/counterfit-gps-sensor.3fbb15af0a5367566f2f11324ef5a6f30861cdf2b497071a5e002b7aa473550e.png)
 
 ## برمجة مستشعر GPS
 
@@ -111,17 +111,17 @@ CO_OP_TRANSLATOR_METADATA:
 
     * ضبط **المصدر** على `Lat/Lon`، وتعيين خط عرض وخط طول وعدد الأقمار الصناعية المستخدمة للحصول على تثبيت GPS. سيتم إرسال هذه القيمة مرة واحدة فقط، لذا تحقق من مربع **التكرار** لتكرار البيانات كل ثانية.
 
-      ![مستشعر GPS مع تحديد lat lon](../../../../../translated_images/counterfit-gps-sensor-latlon.008c867d75464fbe7f84107cc57040df565ac07cb57d2f21db37d087d470197d.ar.png)
+      ![مستشعر GPS مع تحديد lat lon](../../../../../translated_images/ar/counterfit-gps-sensor-latlon.008c867d75464fbe7f84107cc57040df565ac07cb57d2f21db37d087d470197d.png)
 
     * ضبط **المصدر** على `NMEA` وإضافة بعض جمل NMEA في مربع النص. سيتم إرسال جميع هذه القيم، مع تأخير قدره ثانية واحدة قبل قراءة كل جملة GGA (تثبيت الموقع).
 
-      ![مستشعر GPS مع إعداد جمل NMEA](../../../../../translated_images/counterfit-gps-sensor-nmea.c62eea442171e17e19528b051b104cfcecdc9cd18db7bc72920f29821ae63f73.ar.png)
+      ![مستشعر GPS مع إعداد جمل NMEA](../../../../../translated_images/ar/counterfit-gps-sensor-nmea.c62eea442171e17e19528b051b104cfcecdc9cd18db7bc72920f29821ae63f73.png)
 
       يمكنك استخدام أداة مثل [nmeagen.org](https://www.nmeagen.org) لإنشاء هذه الجمل عن طريق الرسم على الخريطة. سيتم إرسال هذه القيم مرة واحدة فقط، لذا تحقق من مربع **التكرار** لتكرار البيانات بعد ثانية واحدة من إرسالها جميعًا.
 
     * ضبط **المصدر** على ملف GPX، وتحميل ملف GPX يحتوي على مواقع المسار. يمكنك تنزيل ملفات GPX من عدد من مواقع الخرائط والمشي الشهيرة، مثل [AllTrails](https://www.alltrails.com/). تحتوي هذه الملفات على مواقع GPS متعددة كمسار، وسيعيد مستشعر GPS كل موقع جديد بفاصل زمني قدره ثانية واحدة.
 
-      ![مستشعر GPS مع إعداد ملف GPX](../../../../../translated_images/counterfit-gps-sensor-gpxfile.8310b063ce8a425ccc8ebeec8306aeac5e8e55207f007d52c6e1194432a70cd9.ar.png)
+      ![مستشعر GPS مع إعداد ملف GPX](../../../../../translated_images/ar/counterfit-gps-sensor-gpxfile.8310b063ce8a425ccc8ebeec8306aeac5e8e55207f007d52c6e1194432a70cd9.png)
 
       سيتم إرسال هذه القيم مرة واحدة فقط، لذا تحقق من مربع **التكرار** لتكرار البيانات بعد ثانية واحدة من إرسالها جميعًا.
 

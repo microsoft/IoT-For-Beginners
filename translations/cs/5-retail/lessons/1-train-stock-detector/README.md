@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Trénujte detektor zásob
 
-![Přehled této lekce ve formě sketchnote](../../../../../translated_images/lesson-19.cf6973cecadf080c4b526310620dc4d6f5994c80fb0139c6f378cc9ca2d435cd.cs.jpg)
+![Přehled této lekce ve formě sketchnote](../../../../../translated_images/cs/lesson-19.cf6973cecadf080c4b526310620dc4d6f5994c80fb0139c6f378cc9ca2d435cd.jpg)
 
 > Sketchnote od [Nitya Narasimhan](https://github.com/nitya). Klikněte na obrázek pro větší verzi.
 
@@ -45,7 +45,7 @@ Detekce objektů zahrnuje rozpoznávání objektů na obrázcích pomocí AI. Na
 
 Klasifikace obrázků se zaměřuje na klasifikaci celého obrázku – jaké jsou pravděpodobnosti, že celý obrázek odpovídá každému štítku. Získáte zpět pravděpodobnosti pro každý štítek použitý při trénování modelu.
 
-![Klasifikace obrázků kešu ořechů a rajčatového protlaku](../../../../../translated_images/image-classifier-cashews-tomato.bc2e16ab8f05cf9ac0f59f73e32efc4227f9a5b601b90b2c60f436694547a965.cs.png)
+![Klasifikace obrázků kešu ořechů a rajčatového protlaku](../../../../../translated_images/cs/image-classifier-cashews-tomato.bc2e16ab8f05cf9ac0f59f73e32efc4227f9a5b601b90b2c60f436694547a965.png)
 
 V příkladu výše jsou dva obrázky klasifikovány pomocí modelu trénovaného na klasifikaci kelímků kešu ořechů nebo plechovek rajčatového protlaku. První obrázek je kelímek kešu ořechů a má dva výsledky z klasifikátoru obrázků:
 
@@ -69,7 +69,7 @@ Když jej pak použijete k předpovědi obrázků, místo seznamu štítků a pr
 
 > 🎓 *Ohraničující rámečky* jsou rámečky kolem objektu.
 
-![Detekce objektů kešu ořechů a rajčatového protlaku](../../../../../translated_images/object-detector-cashews-tomato.1af7c26686b4db0e709754aeb196f4e73271f54e2085db3bcccb70d4a0d84d97.cs.png)
+![Detekce objektů kešu ořechů a rajčatového protlaku](../../../../../translated_images/cs/object-detector-cashews-tomato.1af7c26686b4db0e709754aeb196f4e73271f54e2085db3bcccb70d4a0d84d97.png)
 
 Obrázek výše obsahuje jak kelímek kešu ořechů, tak tři plechovky rajčatového protlaku. Detektor objektů detekoval kešu ořechy, vrací ohraničující rámeček, který obsahuje kešu ořechy, s procentní pravděpodobností, že ohraničující rámeček obsahuje objekt, v tomto případě 97.6%. Detektor objektů také detekoval tři plechovky rajčatového protlaku a poskytuje tři samostatné ohraničující rámečky, jeden pro každou detekovanou plechovku, a každá má procentní pravděpodobnost, že ohraničující rámeček obsahuje plechovku rajčatového protlaku.
 
@@ -120,7 +120,7 @@ Detektor objektů můžete trénovat pomocí Custom Vision, podobně jako jste t
 
     Při vytváření projektu se ujistěte, že používáte trénovací prostředek `stock-detector-training`, který jste vytvořili dříve. Použijte typ projektu *Detekce objektů* a doménu *Produkty na regálech*.
 
-    ![Nastavení projektu Custom Vision s názvem nastaveným na fruit-quality-detector, bez popisu, prostředek nastavený na fruit-quality-detector-training, typ projektu nastavený na klasifikaci, typy klasifikace nastavené na multi class a domény nastavené na food](../../../../../translated_images/custom-vision-create-object-detector-project.32d4fb9aa8e7e7375f8a799bfce517aca970f2cb65e42d4245c5e635c734ab29.cs.png)
+    ![Nastavení projektu Custom Vision s názvem nastaveným na fruit-quality-detector, bez popisu, prostředek nastavený na fruit-quality-detector-training, typ projektu nastavený na klasifikaci, typy klasifikace nastavené na multi class a domény nastavené na food](../../../../../translated_images/cs/custom-vision-create-object-detector-project.32d4fb9aa8e7e7375f8a799bfce517aca970f2cb65e42d4245c5e635c734ab29.png)
 
     ✅ Doména produktů na regálech je specificky zaměřena na detekci zásob na regálech v obchodech. Přečtěte si více o různých doménách v [dokumentaci Výběr domény na Microsoft Docs](https://docs.microsoft.com/azure/cognitive-services/custom-vision-service/select-domain?WT.mc_id=academic-17441-jabenn#object-detection)
 
@@ -142,11 +142,11 @@ K trénování modelu budete potřebovat sadu obrázků obsahujících objekty, 
 
 1. Postupujte podle [sekce Nahrání a označení obrázků v rychlém startu Vytvoření detektoru objektů na Microsoft Docs](https://docs.microsoft.com/azure/cognitive-services/custom-vision-service/get-started-build-detector?WT.mc_id=academic-17441-jabenn#upload-and-tag-images) pro nahrání vašich trénovacích obrázků. Vytvořte relevantní štítky podle typů objektů, které chcete detekovat.
 
-    ![Dialogy nahrávání ukazující nahrávání obrázků zralých a nezralých banánů](../../../../../translated_images/image-upload-object-detector.77c7892c3093cb59b79018edecd678749a75d71a099bc8a2d2f2f76320f88a5b.cs.png)
+    ![Dialogy nahrávání ukazující nahrávání obrázků zralých a nezralých banánů](../../../../../translated_images/cs/image-upload-object-detector.77c7892c3093cb59b79018edecd678749a75d71a099bc8a2d2f2f76320f88a5b.png)
 
     Když kreslíte ohraničující rámečky pro objekty, udržujte je těsně kolem objektu. Může to chvíli trvat, než označíte všechny obrázky, ale nástroj detekuje, co považuje za ohraničující rámečky, což proces urychlí.
 
-    ![Označování rajčatového protlaku](../../../../../translated_images/object-detector-tag-tomato-paste.f47c362fb0f0eb582f3bc68cf3855fb43a805106395358d41896a269c210b7b4.cs.png)
+    ![Označování rajčatového protlaku](../../../../../translated_images/cs/object-detector-tag-tomato-paste.f47c362fb0f0eb582f3bc68cf3855fb43a805106395358d41896a269c210b7b4.png)
 
     > 💁 Pokud máte více než 15 obrázků pro každý objekt, můžete trénovat po 15 a poté použít funkci **Navržené štítky**. Tato funkce použije trénovaný model k detekci objektů na neoznačených obrázcích. Poté můžete potvrdit detekované objekty nebo odmítnout a znovu nakreslit ohraničující rámečky. To může ušetřit *hodně* času.
 
@@ -164,7 +164,7 @@ Jakmile je váš detektor objektů natrénován, můžete jej otestovat tím, ž
 
 1. Použijte tlačítko **Rychlý test** k nahrání testovacích obrázků a ověření, že objekty jsou detekovány. Použijte testovací obrázky, které jste vytvořili dříve, ne žádné z obrázků, které jste použili pro trénování.
 
-    ![Detekovány 3 plechovky rajčatového protlaku s pravděpodobnostmi 38%, 35.5% a 34.6%](../../../../../translated_images/object-detector-detected-tomato-paste.52656fe87af4c37b4ee540526d63e73ed075da2e54a9a060aa528e0c562fb1b6.cs.png)
+    ![Detekovány 3 plechovky rajčatového protlaku s pravděpodobnostmi 38%, 35.5% a 34.6%](../../../../../translated_images/cs/object-detector-detected-tomato-paste.52656fe87af4c37b4ee540526d63e73ed075da2e54a9a060aa528e0c562fb1b6.png)
 
 1. Vyzkoušejte všechny testovací obrázky, které máte k dispozici, a pozorujte pravděpodobnosti.
 

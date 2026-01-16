@@ -25,7 +25,7 @@ Kamera se k Raspberry Pi připojuje pomocí plochého kabelu.
 
 ### Úkol - připojte kameru
 
-![Kamera Raspberry Pi](../../../../../translated_images/pi-camera-module.4278753c31bd6e757aa2b858be97d72049f71616278cefe4fb5abb485b40a078.cs.png)
+![Kamera Raspberry Pi](../../../../../translated_images/cs/pi-camera-module.4278753c31bd6e757aa2b858be97d72049f71616278cefe4fb5abb485b40a078.png)
 
 1. Vypněte Raspberry Pi.
 
@@ -33,17 +33,17 @@ Kamera se k Raspberry Pi připojuje pomocí plochého kabelu.
 
     Animaci, jak otevřít klip a vložit kabel, najdete v [dokumentaci Raspberry Pi Getting Started with the Camera module](https://projects.raspberrypi.org/en/projects/getting-started-with-picamera/2).
 
-    ![Plochý kabel zasunutý do kamerového modulu](../../../../../translated_images/pi-camera-ribbon-cable.0bf82acd251611c21ac616f082849413e2b322a261d0e4f8fec344248083b07e.cs.png)
+    ![Plochý kabel zasunutý do kamerového modulu](../../../../../translated_images/cs/pi-camera-ribbon-cable.0bf82acd251611c21ac616f082849413e2b322a261d0e4f8fec344248083b07e.png)
 
 1. Odstraňte Grove Base Hat z Raspberry Pi.
 
 1. Provlékněte plochý kabel otvorem pro kameru v Grove Base Hat. Ujistěte se, že modrá strana kabelu směřuje k analogovým portům označeným **A0**, **A1** atd.
 
-    ![Plochý kabel procházející Grove Base Hat](../../../../../translated_images/grove-base-hat-ribbon-cable.501fed202fcf73b11b2b68f6d246189f7d15d3e4423c572ddee79d77b4632b47.cs.png)
+    ![Plochý kabel procházející Grove Base Hat](../../../../../translated_images/cs/grove-base-hat-ribbon-cable.501fed202fcf73b11b2b68f6d246189f7d15d3e4423c572ddee79d77b4632b47.png)
 
 1. Zasuňte plochý kabel do kamerového portu na Raspberry Pi. Opět vytáhněte černý plastový klip nahoru, vložte kabel a poté klip zatlačte zpět. Modrá strana kabelu by měla směřovat k USB a ethernetovým portům.
 
-    ![Plochý kabel připojený ke kamerovému portu na Raspberry Pi](../../../../../translated_images/pi-camera-socket-ribbon-cable.a18309920b11800911082ed7aa6fb28e6d9be3a022e4079ff990016cae3fca10.cs.png)
+    ![Plochý kabel připojený ke kamerovému portu na Raspberry Pi](../../../../../translated_images/cs/pi-camera-socket-ribbon-cable.a18309920b11800911082ed7aa6fb28e6d9be3a022e4079ff990016cae3fca10.png)
 
 1. Nasaďte zpět Grove Base Hat.
 
@@ -110,7 +110,7 @@ Naprogramujte zařízení.
 
     Řádek `camera.rotation = 0` nastavuje rotaci obrázku. Plochý kabel vychází ze spodní části kamery, ale pokud je vaše kamera otočena, aby lépe mířila na objekt, který chcete klasifikovat, můžete tento řádek změnit na počet stupňů rotace.
 
-    ![Kamera zavěšená nad plechovkou nápoje](../../../../../translated_images/pi-camera-upside-down.5376961ba31459883362124152ad6b823d5ac5fc14e85f317e22903bd681c2b6.cs.png)
+    ![Kamera zavěšená nad plechovkou nápoje](../../../../../translated_images/cs/pi-camera-upside-down.5376961ba31459883362124152ad6b823d5ac5fc14e85f317e22903bd681c2b6.png)
 
     Například pokud zavěsíte plochý kabel nad něco tak, že je nahoře kamery, nastavte rotaci na 180:
 

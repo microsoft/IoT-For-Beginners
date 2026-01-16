@@ -25,7 +25,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 ### কাজ - ক্যামেরা সংযুক্ত করুন
 
-![একটি রাস্পবেরি পাই ক্যামেরা](../../../../../translated_images/pi-camera-module.4278753c31bd6e757aa2b858be97d72049f71616278cefe4fb5abb485b40a078.bn.png)
+![একটি রাস্পবেরি পাই ক্যামেরা](../../../../../translated_images/bn/pi-camera-module.4278753c31bd6e757aa2b858be97d72049f71616278cefe4fb5abb485b40a078.png)
 
 1. পাই বন্ধ করুন।
 
@@ -33,17 +33,17 @@ CO_OP_TRANSLATOR_METADATA:
 
     [Raspberry Pi Getting Started with the Camera module documentation](https://projects.raspberrypi.org/en/projects/getting-started-with-picamera/2)-এ ক্লিপটি খুলে কেবলটি ঢোকানোর একটি অ্যানিমেশন দেখতে পারেন।
 
-    ![ক্যামেরা মডিউলে রিবন কেবল ঢোকানো](../../../../../translated_images/pi-camera-ribbon-cable.0bf82acd251611c21ac616f082849413e2b322a261d0e4f8fec344248083b07e.bn.png)
+    ![ক্যামেরা মডিউলে রিবন কেবল ঢোকানো](../../../../../translated_images/bn/pi-camera-ribbon-cable.0bf82acd251611c21ac616f082849413e2b322a261d0e4f8fec344248083b07e.png)
 
 1. Grove Base Hat পাই থেকে সরিয়ে ফেলুন।
 
 1. রিবন কেবলটি Grove Base Hat-এর ক্যামেরা স্লটের মধ্য দিয়ে পাস করুন। নিশ্চিত করুন যে কেবলটির নীল দিকটি **A0**, **A1** ইত্যাদি লেবেলযুক্ত অ্যানালগ পোর্টগুলোর দিকে মুখ করে।
 
-    ![Grove Base Hat-এর মধ্য দিয়ে রিবন কেবল পাস করা](../../../../../translated_images/grove-base-hat-ribbon-cable.501fed202fcf73b11b2b68f6d246189f7d15d3e4423c572ddee79d77b4632b47.bn.png)
+    ![Grove Base Hat-এর মধ্য দিয়ে রিবন কেবল পাস করা](../../../../../translated_images/bn/grove-base-hat-ribbon-cable.501fed202fcf73b11b2b68f6d246189f7d15d3e4423c572ddee79d77b4632b47.png)
 
 1. রিবন কেবলটি পাই-এর ক্যামেরা পোর্টে ঢোকান। আবার, কালো প্লাস্টিক ক্লিপটি টেনে তুলুন, কেবলটি ঢোকান, তারপর ক্লিপটি আবার জায়গায় ঠেলে দিন। কেবলটির নীল দিকটি USB এবং ইথারনেট পোর্টগুলোর দিকে মুখ করে থাকবে।
 
-    ![পাই-এর ক্যামেরা সকেটে রিবন কেবল সংযুক্ত](../../../../../translated_images/pi-camera-socket-ribbon-cable.a18309920b11800911082ed7aa6fb28e6d9be3a022e4079ff990016cae3fca10.bn.png)
+    ![পাই-এর ক্যামেরা সকেটে রিবন কেবল সংযুক্ত](../../../../../translated_images/bn/pi-camera-socket-ribbon-cable.a18309920b11800911082ed7aa6fb28e6d9be3a022e4079ff990016cae3fca10.png)
 
 1. Grove Base Hat পুনরায় লাগান।
 
@@ -110,7 +110,7 @@ CO_OP_TRANSLATOR_METADATA:
 
     `camera.rotation = 0` লাইনটি ছবির রোটেশন সেট করে। রিবন কেবলটি ক্যামেরার নিচে আসে, তবে যদি আপনার ক্যামেরাটি এমনভাবে ঘোরানো হয় যাতে এটি সহজে ক্লাসিফাই করতে চাওয়া আইটেমের দিকে নির্দেশ করে, তাহলে আপনি এই লাইনে রোটেশনের ডিগ্রি পরিবর্তন করতে পারেন।
 
-    ![ক্যামেরাটি একটি পানীয় ক্যানের উপর ঝুলছে](../../../../../translated_images/pi-camera-upside-down.5376961ba31459883362124152ad6b823d5ac5fc14e85f317e22903bd681c2b6.bn.png)
+    ![ক্যামেরাটি একটি পানীয় ক্যানের উপর ঝুলছে](../../../../../translated_images/bn/pi-camera-upside-down.5376961ba31459883362124152ad6b823d5ac5fc14e85f317e22903bd681c2b6.png)
 
     উদাহরণস্বরূপ, যদি আপনি রিবন কেবলটি এমনভাবে ঝুলান যাতে এটি ক্যামেরার উপরে থাকে, তাহলে রোটেশন 180 সেট করুন:
 

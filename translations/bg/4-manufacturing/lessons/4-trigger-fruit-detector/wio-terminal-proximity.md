@@ -29,13 +29,13 @@ Grove Time of Flight сензорът може да бъде свързан къ
 
 Свържете сензора за разстояние.
 
-![Grove Time of Flight сензор](../../../../../translated_images/grove-time-of-flight-sensor.d82ff2165bfded9f485de54d8d07195a6270a602696825fca19f629ddfe94e86.bg.png)
+![Grove Time of Flight сензор](../../../../../translated_images/bg/grove-time-of-flight-sensor.d82ff2165bfded9f485de54d8d07195a6270a602696825fca19f629ddfe94e86.png)
 
 1. Поставете единия край на Grove кабела в конектора на сензора за разстояние. Кабелът може да бъде поставен само в една посока.
 
 1. С изключен Wio Terminal от компютъра или друг източник на захранване, свържете другия край на Grove кабела към левия Grove конектор на Wio Terminal, гледайки екрана. Това е конекторът, който е най-близо до бутона за захранване. Това е комбиниран цифров и I²C конектор.
 
-![Grove Time of Flight сензор, свързан към левия конектор](../../../../../translated_images/wio-time-of-flight-sensor.c4c182131d2ea73d.bg.png)
+![Grove Time of Flight сензор, свързан към левия конектор](../../../../../translated_images/bg/wio-time-of-flight-sensor.c4c182131d2ea73d.png)
 
 1. Сега можете да свържете Wio Terminal към вашия компютър.
 
@@ -101,7 +101,7 @@ Wio Terminal вече може да бъде програмиран да изп�
 
     Лазерният измервател е на задната страна на сензора, така че се уверете, че използвате правилната страна при измерване на разстоянието.
 
-    ![Лазерният измервател на задната страна на сензора, насочен към банан](../../../../../translated_images/time-of-flight-banana.079921ad8b1496e4.bg.png)
+    ![Лазерният измервател на задната страна на сензора, насочен към банан](../../../../../translated_images/bg/time-of-flight-banana.079921ad8b1496e4.png)
 
 > 💁 Можете да намерите този код в папката [code-proximity/wio-terminal](../../../../../4-manufacturing/lessons/4-trigger-fruit-detector/code-proximity/wio-terminal).
 

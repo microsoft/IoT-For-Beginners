@@ -27,13 +27,13 @@ CO_OP_TRANSLATOR_METADATA:
 
 قم بتوصيل المرحل.
 
-![مرحل Grove](../../../../../translated_images/grove-relay.d426958ca210fbd0fb7983d7edc069d46c73a8b0a099d94797bd756f7b6bb6be.ar.png)
+![مرحل Grove](../../../../../translated_images/ar/grove-relay.d426958ca210fbd0fb7983d7edc069d46c73a8b0a099d94797bd756f7b6bb6be.png)
 
 1. أدخل أحد طرفي كابل Grove في المقبس الموجود على المرحل. لن يدخل إلا بطريقة واحدة.
 
 1. مع فصل Wio Terminal عن الكمبيوتر أو مصدر الطاقة الآخر، قم بتوصيل الطرف الآخر من كابل Grove بالمقبس الموجود على الجانب الأيسر من Wio Terminal أثناء النظر إلى الشاشة. اترك مستشعر رطوبة التربة متصلًا بالمقبس الموجود على الجانب الأيمن.
 
-![مرحل Grove متصل بالمقبس الأيسر، ومستشعر رطوبة التربة متصل بالمقبس الأيمن](../../../../../translated_images/wio-relay-and-soil-moisture-sensor.ed722202d42babe0.ar.png)
+![مرحل Grove متصل بالمقبس الأيسر، ومستشعر رطوبة التربة متصل بالمقبس الأيمن](../../../../../translated_images/ar/wio-relay-and-soil-moisture-sensor.ed722202d42babe0.png)
 
 1. أدخل مستشعر رطوبة التربة في التربة، إذا لم يكن موجودًا بالفعل من الدرس السابق.
 

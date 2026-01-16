@@ -43,11 +43,11 @@ Fügen Sie die Kamera zur CounterFit-App hinzu.
 
     1. Wählen Sie die Schaltfläche **Hinzufügen**, um die Kamera zu erstellen.
 
-    ![Die Kameraeinstellungen](../../../../../translated_images/counterfit-create-camera.a5de97f59c0bd3cbe0416d7e89a3cfe86d19fbae05c641c53a91286412af0a34.de.png)
+    ![Die Kameraeinstellungen](../../../../../translated_images/de/counterfit-create-camera.a5de97f59c0bd3cbe0416d7e89a3cfe86d19fbae05c641c53a91286412af0a34.png)
 
     Die Kamera wird erstellt und erscheint in der Sensorenliste.
 
-    ![Die erstellte Kamera](../../../../../translated_images/counterfit-camera.001ec52194c8ee5d3f617173da2c79e1df903d10882adc625cbfc493525125d4.de.png)
+    ![Die erstellte Kamera](../../../../../translated_images/de/counterfit-camera.001ec52194c8ee5d3f617173da2c79e1df903d10882adc625cbfc493525125d4.png)
 
 ## Die Kamera programmieren
 
@@ -112,7 +112,7 @@ Programmieren Sie das Gerät.
 
 1. Konfigurieren Sie das Bild, das die Kamera in CounterFit erfassen soll. Sie können entweder die *Quelle* auf *Datei* setzen und eine Bilddatei hochladen, oder die *Quelle* auf *WebCam* setzen, sodass Bilder von Ihrer Webcam erfasst werden. Stellen Sie sicher, dass Sie die Schaltfläche **Setzen** auswählen, nachdem Sie ein Bild oder Ihre Webcam ausgewählt haben.
 
-    ![CounterFit mit einer Datei als Bildquelle und einer Webcam, die eine Person mit einer Banane zeigt, in der Webcam-Vorschau](../../../../../translated_images/counterfit-camera-options.eb3bd5150a8e7dffbf24bc5bcaba0cf2cdef95fbe6bbe393695d173817d6b8df.de.png)
+    ![CounterFit mit einer Datei als Bildquelle und einer Webcam, die eine Person mit einer Banane zeigt, in der Webcam-Vorschau](../../../../../translated_images/de/counterfit-camera-options.eb3bd5150a8e7dffbf24bc5bcaba0cf2cdef95fbe6bbe393695d173817d6b8df.png)
 
 1. Ein Bild wird aufgenommen und als `image.jpg` im aktuellen Ordner gespeichert. Sie sehen diese Datei im Explorer von VS Code. Wählen Sie die Datei aus, um das Bild anzuzeigen. Falls es gedreht werden muss, passen Sie die Zeile `camera.rotation = 0` entsprechend an und machen Sie ein weiteres Bild.
 

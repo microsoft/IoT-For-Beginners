@@ -154,11 +154,11 @@ Create a Python application to print `"Hello World"` to the console.
 
 1. When VS Code launches, it will activate the Python virtual environment. The selected environment will appear in the bottom status bar:
 
-    ![VS Code showing the selected virtual environment](../../../../../translated_images/vscode-virtual-env.8ba42e04c3d533cf.en.png)
+    ![VS Code showing the selected virtual environment](../../../../../translated_images/en/vscode-virtual-env.8ba42e04c3d533cf.webp)
 
 1. If the VS Code Terminal is already running, it won’t have the virtual environment activated. Kill the terminal using the **Kill the active terminal instance** button:
 
-    ![VS Code Kill the active terminal instance button](../../../../../translated_images/vscode-kill-terminal.1cc4de7c6f25ee08.en.png)
+    ![VS Code Kill the active terminal instance button](../../../../../translated_images/en/vscode-kill-terminal.1cc4de7c6f25ee08.webp)
 
     The terminal prompt should include `.venv` when the virtual environment is active.
 
@@ -206,7 +206,7 @@ As a second 'Hello World' step, you’ll run the CounterFit app and connect your
 
     The app will open in your browser:
 
-    ![The Counter Fit app running in a browser](../../../../../translated_images/counterfit-first-run.433326358b669b31d0e99c3513cb01bfbb13724d162c99cdcc8f51ecf5f9c779.en.png)
+    ![The Counter Fit app running in a browser](../../../../../translated_images/en/counterfit-first-run.433326358b669b31d0e99c3513cb01bfbb13724d162c99cdcc8f51ecf5f9c779.png)
 
     It will show as *Disconnected*, with the LED in the top-right corner turned off.
 
@@ -223,11 +223,11 @@ As a second 'Hello World' step, you’ll run the CounterFit app and connect your
 
 1. Open a new VS Code terminal, as the current one is running the CounterFit app:
 
-    ![VS Code Create a new integrated terminal button](../../../../../translated_images/vscode-new-terminal.77db8fc0f9cd3182.en.png)
+    ![VS Code Create a new integrated terminal button](../../../../../translated_images/en/vscode-new-terminal.77db8fc0f9cd3182.webp)
 
 1. Run `app.py` in the new terminal. The CounterFit app will show as **Connected**, and the LED will light up.
 
-    ![Counter Fit showing as connected](../../../../../translated_images/counterfit-connected.ed30b46d8f79b0921f3fc70be10366e596a89dca3f80c2224a9d9fc98fccf884.en.png)
+    ![Counter Fit showing as connected](../../../../../translated_images/en/counterfit-connected.ed30b46d8f79b0921f3fc70be10366e596a89dca3f80c2224a9d9fc98fccf884.png)
 
 > 💁 You can find this code in the [code/virtual-device](../../../../../1-getting-started/lessons/1-introduction-to-iot/code/virtual-device) folder.
 

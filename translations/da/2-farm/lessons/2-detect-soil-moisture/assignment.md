@@ -29,14 +29,14 @@ Du skal gentage disse trin flere gange for at få de nødvendige målinger, med 
 
 Den gravimetriske jordfugtighed beregnes som:
 
-![jordfugtighed % er vægt våd minus vægt tør, divideret med vægt tør, gange 100](../../../../../translated_images/gsm-calculation.6da38c6201eec14e7573bb2647aa18892883193553d23c9d77e5dc681522dfb2.da.png)
+![jordfugtighed % er vægt våd minus vægt tør, divideret med vægt tør, gange 100](../../../../../translated_images/da/gsm-calculation.6da38c6201eec14e7573bb2647aa18892883193553d23c9d77e5dc681522dfb2.png)
 
 * W - vægten af den våde jord
 * W - vægten af den tørre jord
 
 For eksempel, lad os sige, at du har en jordprøve, der vejer 212g våd og 197g tør.
 
-![Beregningen udfyldt](../../../../../translated_images/gsm-calculation-example.99f9803b4f29e97668e7c15412136c0c399ab12dbba0b89596fdae9d8aedb6fb.da.png)
+![Beregningen udfyldt](../../../../../translated_images/da/gsm-calculation-example.99f9803b4f29e97668e7c15412136c0c399ab12dbba0b89596fdae9d8aedb6fb.png)
 
 * W = 212g
 * W = 197g

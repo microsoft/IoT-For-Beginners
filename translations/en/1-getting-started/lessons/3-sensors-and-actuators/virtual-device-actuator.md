@@ -45,11 +45,11 @@ Add the LED to the CounterFit app.
 
     1. Click the **Add** button to create the LED on Pin 5.
 
-    ![The LED settings](../../../../../translated_images/counterfit-create-led.ba9db1c9b8c622a635d6dfae5cdc4e70c2b250635bd4f0601c6cf0bd22b7ba46.en.png)
+    ![The LED settings](../../../../../translated_images/en/counterfit-create-led.ba9db1c9b8c622a635d6dfae5cdc4e70c2b250635bd4f0601c6cf0bd22b7ba46.png)
 
     The LED will be created and will appear in the actuators list.
 
-    ![The LED created](../../../../../translated_images/counterfit-led.c0ab02de6d256ad84d9bad4d67a7faa709f0ea83e410cfe9b5561ef0cef30b1c.en.png)
+    ![The LED created](../../../../../translated_images/en/counterfit-led.c0ab02de6d256ad84d9bad4d67a7faa709f0ea83e410cfe9b5561ef0cef30b1c.png)
 
     Once the LED is created, you can change its color using the *Color* picker. Click the **Set** button to apply the color after selecting it.
 

@@ -27,13 +27,13 @@ The Grove relay can be connected to the Raspberry Pi.
 
 Connect the relay.
 
-![A grove relay](../../../../../translated_images/grove-relay.d426958ca210fbd0fb7983d7edc069d46c73a8b0a099d94797bd756f7b6bb6be.en.png)
+![A grove relay](../../../../../translated_images/en/grove-relay.d426958ca210fbd0fb7983d7edc069d46c73a8b0a099d94797bd756f7b6bb6be.png)
 
 1. Insert one end of a Grove cable into the socket on the relay. It will only fit one way.
 
 1. With the Raspberry Pi powered off, connect the other end of the Grove cable to the digital socket marked **D5** on the Grove Base Hat attached to the Pi. This socket is the second from the left, on the row of sockets next to the GPIO pins. Leave the soil moisture sensor connected to the **A0** socket.
 
-![The grove relay connected to the D5 socket, and the soil moisture sensor connected to the A0 socket](../../../../../translated_images/pi-relay-and-soil-moisture-sensor.02f3198975b8c53e69ec716cd2719ce117700bd1fc933eaf93476c103c57939b.en.png)
+![The grove relay connected to the D5 socket, and the soil moisture sensor connected to the A0 socket](../../../../../translated_images/en/pi-relay-and-soil-moisture-sensor.02f3198975b8c53e69ec716cd2719ce117700bd1fc933eaf93476c103c57939b.png)
 
 1. Insert the soil moisture sensor into soil, if it isn't already from the previous lesson.
 

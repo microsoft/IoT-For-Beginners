@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Ukládání dat o poloze
 
-![Přehled této lekce ve formě sketchnote](../../../../../translated_images/lesson-12.ca7f53039712a3ec14ad6474d8445361c84adab643edc53fa6269b77895606bb.cs.jpg)
+![Přehled této lekce ve formě sketchnote](../../../../../translated_images/cs/lesson-12.ca7f53039712a3ec14ad6474d8445361c84adab643edc53fa6269b77895606bb.jpg)
 
 > Sketchnote od [Nitya Narasimhan](https://github.com/nitya). Klikněte na obrázek pro větší verzi.
 
@@ -66,7 +66,7 @@ Databáze jsou služby, které umožňují ukládat a dotazovat se na data. Data
 
 První databáze byly relační databázové systémy (RDBMS), známé také jako SQL databáze podle jazyka Structured Query Language (SQL), který se používá k interakci s nimi pro přidávání, odstraňování, aktualizaci nebo dotazování na data. Tyto databáze mají schéma - dobře definovanou sadu tabulek dat, podobnou tabulce v Excelu. Každá tabulka má více pojmenovaných sloupců. Při vkládání dat přidáváte řádek do tabulky a vkládáte hodnoty do jednotlivých sloupců. To udržuje data v pevné struktuře - i když můžete nechat sloupce prázdné, pokud chcete přidat nový sloupec, musíte to udělat v databázi a vyplnit hodnoty pro stávající řádky. Tyto databáze jsou relační - jedna tabulka může mít vztah k jiné.
 
-![Relační databáze s ID tabulky uživatelů, které se vztahuje k ID uživatele ve sloupci tabulky nákupů, a ID tabulky produktů, které se vztahuje k ID produktu v tabulce nákupů](../../../../../translated_images/sql-database.be160f12bfccefd3.cs.png)
+![Relační databáze s ID tabulky uživatelů, které se vztahuje k ID uživatele ve sloupci tabulky nákupů, a ID tabulky produktů, které se vztahuje k ID produktu v tabulce nákupů](../../../../../translated_images/cs/sql-database.be160f12bfccefd3.png)
 
 Například pokud byste ukládali osobní údaje uživatelů do tabulky, měli byste pro každého uživatele nějaké interní jedinečné ID, které se používá v řádku tabulky obsahující jméno a adresu uživatele. Pokud byste pak chtěli uložit další údaje o tomto uživateli, například jeho nákupy, do jiné tabulky, měli byste v nové tabulce jeden sloupec pro ID tohoto uživatele. Při vyhledávání uživatele můžete použít jeho ID k získání osobních údajů z jedné tabulky a jeho nákupů z jiné.
 
@@ -84,7 +84,7 @@ NoSQL databáze se nazývají NoSQL, protože nemají stejnou pevnou strukturu j
 
 > 💁 Navzdory svému názvu některé NoSQL databáze umožňují používat SQL k dotazování na data.
 
-![Dokumenty ve složkách v NoSQL databázi](../../../../../translated_images/noqsl-database.62d24ccf5b73f60d35c245a8533f1c7147c0928e955b82cb290b2e184bb434df.cs.png)
+![Dokumenty ve složkách v NoSQL databázi](../../../../../translated_images/cs/noqsl-database.62d24ccf5b73f60d35c245a8533f1c7147c0928e955b82cb290b2e184bb434df.png)
 
 NoSQL databáze nemají předem definované schéma, které by omezovalo způsob ukládání dat. Můžete do nich vkládat jakákoli nestrukturovaná data, obvykle ve formátu JSON. Tyto dokumenty mohou být organizovány do složek, podobně jako soubory na vašem počítači. Každý dokument může mít jiné pole než ostatní dokumenty - například pokud byste ukládali IoT data z vašich zemědělských vozidel, některá mohou mít pole pro data z akcelerometru a rychlosti, jiná mohou mít pole pro teplotu v přívěsu. Pokud byste přidali nový typ nákladního vozu, například s vestavěnými váhami pro sledování hmotnosti přepravovaného zboží, vaše IoT zařízení by mohlo přidat toto nové pole a mohlo by být uloženo bez jakýchkoli změn v databázi.
 
@@ -98,7 +98,7 @@ V této lekci budete používat NoSQL úložiště pro ukládání IoT dat.
 
 V minulé lekci jste zachytili GPS data z GPS senzoru připojeného k vašemu IoT zařízení. Aby bylo možné tato IoT data uložit v cloudu, je potřeba je odeslat do IoT služby. Opět budete používat Azure IoT Hub, stejnou IoT cloudovou službu, kterou jste použili v předchozím projektu.
 
-![Odesílání GPS telemetrie z IoT zařízení do IoT Hubu](../../../../../translated_images/gps-telemetry-iot-hub.8115335d51cd2c1285d20e9d1b18cf685e59a8e093e7797291ef173445af6f3d.cs.png)
+![Odesílání GPS telemetrie z IoT zařízení do IoT Hubu](../../../../../translated_images/cs/gps-telemetry-iot-hub.8115335d51cd2c1285d20e9d1b18cf685e59a8e093e7797291ef173445af6f3d.png)
 
 ### Úkol - odesílání GPS dat do IoT Hubu
 
@@ -180,7 +180,7 @@ Studená data jsou ukládána v datových skladech - databázích navržených p
 
 Jakmile data proudí do vašeho IoT Hubu, můžete napsat serverless kód, který bude naslouchat událostem publikovaným na Event-Hub kompatibilním endpointu. Toto je teplá cesta - tato data budou uložena a použita v další lekci pro reportování cesty.
 
-![Odesílání GPS telemetrie z IoT zařízení do IoT Hubu a poté do Azure Functions pomocí triggeru Event Hub](../../../../../translated_images/gps-telemetry-iot-hub-functions.24d3fa5592455e9f4e2fe73856b40c3915a292b90263c31d652acfd976cfedd8.cs.png)
+![Odesílání GPS telemetrie z IoT zařízení do IoT Hubu a poté do Azure Functions pomocí triggeru Event Hub](../../../../../translated_images/cs/gps-telemetry-iot-hub-functions.24d3fa5592455e9f4e2fe73856b40c3915a292b90263c31d652acfd976cfedd8.png)
 
 ### Úkol - zpracování GPS událostí pomocí serverless kódu
 
@@ -202,7 +202,7 @@ Jakmile data proudí do vašeho IoT Hubu, můžete napsat serverless kód, kter�
 
 ## Účty Azure Storage
 
-![Logo Azure Storage](../../../../../translated_images/azure-storage-logo.605c0f602c640d482a80f1b35a2629a32d595711b7ab1d7ceea843250615ff32.cs.png)
+![Logo Azure Storage](../../../../../translated_images/cs/azure-storage-logo.605c0f602c640d482a80f1b35a2629a32d595711b7ab1d7ceea843250615ff32.png)
 
 Účty Azure Storage jsou univerzální službou úložiště, která umožňuje ukládat data různými způsoby. Data můžete ukládat jako blob, do front, do tabulek nebo jako soubory, a to vše současně.
 
@@ -241,7 +241,7 @@ Vaše aplikace funkcí nyní potřebuje připojit blob úložiště, aby mohla u
 
 V této lekci použijete Python SDK, abyste viděli, jak pracovat s blob úložištěm.
 
-![Odesílání GPS telemetrie z IoT zařízení do IoT Hubu, poté do Azure Functions přes trigger Event Hubu, a následné ukládání do blob úložiště](../../../../../translated_images/save-telemetry-to-storage-from-functions.ed3b1820980097f1.cs.png)
+![Odesílání GPS telemetrie z IoT zařízení do IoT Hubu, poté do Azure Functions přes trigger Event Hubu, a následné ukládání do blob úložiště](../../../../../translated_images/cs/save-telemetry-to-storage-from-functions.ed3b1820980097f1.png)
 
 Data budou uložena jako JSON blob s následujícím formátem:
 

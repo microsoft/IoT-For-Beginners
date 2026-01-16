@@ -27,13 +27,13 @@ Grove teplotní senzor lze připojit k digitálnímu portu Wio Terminalu.
 
 Připojte teplotní senzor.
 
-![Grove teplotní senzor](../../../../../translated_images/grove-dht11.07f8eafceee170043efbb53e1d15722bd4e00fbaa9ff74290b57e9f66eb82c17.cs.png)
+![Grove teplotní senzor](../../../../../translated_images/cs/grove-dht11.07f8eafceee170043efbb53e1d15722bd4e00fbaa9ff74290b57e9f66eb82c17.png)
 
 1. Zasuňte jeden konec Grove kabelu do konektoru na senzoru vlhkosti a teploty. Kabel lze zasunout pouze jedním směrem.
 
 1. S Wio Terminalem odpojeným od počítače nebo jiného zdroje napájení připojte druhý konec Grove kabelu do pravého Grove konektoru na Wio Terminalu, když se díváte na obrazovku. Jedná se o konektor nejdále od tlačítka napájení.
 
-![Grove teplotní senzor připojený k pravému konektoru](../../../../../translated_images/wio-temperature-sensor.2934928f38c7f79a.cs.png)
+![Grove teplotní senzor připojený k pravému konektoru](../../../../../translated_images/cs/wio-temperature-sensor.2934928f38c7f79a.png)
 
 ## Naprogramování teplotního senzoru
 

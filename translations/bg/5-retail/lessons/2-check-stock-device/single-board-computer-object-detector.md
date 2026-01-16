@@ -76,7 +76,7 @@ CO_OP_TRANSLATOR_METADATA:
 
     Ще можете да видите заснетото изображение и тези стойности в раздела **Predictions** в Custom Vision.
 
-    ![4 консерви доматено пюре на рафт с прогнози за 4 открития: 35.8%, 33.5%, 25.7% и 16.6%](../../../../../translated_images/custom-vision-stock-prediction.942266ab1bcca3410ecdf23643b9f5f570cfab2345235074e24c51f285777613.bg.png)
+    ![4 консерви доматено пюре на рафт с прогнози за 4 открития: 35.8%, 33.5%, 25.7% и 16.6%](../../../../../translated_images/bg/custom-vision-stock-prediction.942266ab1bcca3410ecdf23643b9f5f570cfab2345235074e24c51f285777613.png)
 
 > 💁 Можете да намерите този код в папката [code-detect/pi](../../../../../5-retail/lessons/2-check-stock-device/code-detect/pi) или [code-detect/virtual-iot-device](../../../../../5-retail/lessons/2-check-stock-device/code-detect/virtual-iot-device).
 

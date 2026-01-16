@@ -34,7 +34,7 @@ Die REST-API des Sprachdienstes unterstützt keine direkten Übersetzungen. Stat
     >
     > Zum Beispiel, wenn Sie LUIS auf Englisch trainieren, aber Französisch als Benutzersprache verwenden möchten, können Sie Sätze wie "set a 2 minute and 27 second timer" mit Bing Translate von Englisch ins Französische übersetzen und dann die Schaltfläche **Listen translation** verwenden, um die Übersetzung in Ihr Mikrofon zu sprechen.
     >
-    > ![Die Schaltfläche "Listen translation" auf Bing Translate](../../../../../translated_images/bing-translate.348aa796d6efe2a92f41ea74a5cf42bb4c63d6faaa08e7f46924e072a35daa48.de.png)
+    > ![Die Schaltfläche "Listen translation" auf Bing Translate](../../../../../translated_images/de/bing-translate.348aa796d6efe2a92f41ea74a5cf42bb4c63d6faaa08e7f46924e072a35daa48.png)
 
 1. Fügen Sie den API-Schlüssel des Übersetzungsdienstes unterhalb des `speech_api_key` hinzu:
 

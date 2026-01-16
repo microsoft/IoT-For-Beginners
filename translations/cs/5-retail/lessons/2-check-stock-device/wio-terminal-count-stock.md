@@ -13,7 +13,7 @@ Kombinace předpovědí a jejich ohraničujících rámečků může být použi
 
 ## Počítání zásob
 
-![4 plechovky rajčatového protlaku s ohraničujícími rámečky kolem každé plechovky](../../../../../translated_images/rpi-stock-with-bounding-boxes.b5540e2ecb7cd49f.cs.jpg)
+![4 plechovky rajčatového protlaku s ohraničujícími rámečky kolem každé plechovky](../../../../../translated_images/cs/rpi-stock-with-bounding-boxes.b5540e2ecb7cd49f.jpg)
 
 Na obrázku výše mají ohraničující rámečky malý překryv. Pokud by tento překryv byl mnohem větší, rámečky by mohly označovat stejný objekt. Aby bylo možné objekty správně spočítat, je třeba ignorovat rámečky s významným překryvem.
 

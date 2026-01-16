@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Mantenha sua planta segura
 
-![Uma visão geral ilustrada desta lição](../../../../../translated_images/lesson-10.829c86b80b9403bb770929ee553a1d293afe50dc23121aaf9be144673ae012cc.br.jpg)
+![Uma visão geral ilustrada desta lição](../../../../../translated_images/br/lesson-10.829c86b80b9403bb770929ee553a1d293afe50dc23121aaf9be144673ae012cc.jpg)
 
 > Ilustração por [Nitya Narasimhan](https://github.com/nitya). Clique na imagem para uma versão maior.
 
@@ -61,11 +61,11 @@ Esses são cenários do mundo real e acontecem o tempo todo. Alguns exemplos for
 
 Quando um dispositivo se conecta a um serviço IoT, ele usa um ID para se identificar. O problema é que esse ID pode ser clonado - um hacker poderia configurar um dispositivo malicioso que usa o mesmo ID de um dispositivo real, mas envia dados falsos.
 
-![Tanto dispositivos válidos quanto maliciosos poderiam usar o mesmo ID para enviar telemetria](../../../../../translated_images/iot-device-and-hacked-device-connecting.e0671675df74d6d99eb1dedb5a670e606f698efa6202b1ad4c8ae548db299cc6.br.png)
+![Tanto dispositivos válidos quanto maliciosos poderiam usar o mesmo ID para enviar telemetria](../../../../../translated_images/br/iot-device-and-hacked-device-connecting.e0671675df74d6d99eb1dedb5a670e606f698efa6202b1ad4c8ae548db299cc6.png)
 
 A solução para isso é converter os dados enviados em um formato embaralhado, usando algum valor conhecido apenas pelo dispositivo e pela nuvem. Esse processo é chamado de *criptografia*, e o valor usado para criptografar os dados é chamado de *chave de criptografia*.
 
-![Se a criptografia for usada, apenas mensagens criptografadas serão aceitas, outras serão rejeitadas](../../../../../translated_images/iot-device-and-hacked-device-connecting-encryption.5941aff601fc978f979e46f2849b573564eeb4a4dc5b52f669f62745397492fb.br.png)
+![Se a criptografia for usada, apenas mensagens criptografadas serão aceitas, outras serão rejeitadas](../../../../../translated_images/br/iot-device-and-hacked-device-connecting-encryption.5941aff601fc978f979e46f2849b573564eeb4a4dc5b52f669f62745397492fb.png)
 
 O serviço na nuvem pode então converter os dados de volta para um formato legível, usando um processo chamado *descriptografia*, utilizando a mesma chave de criptografia ou uma *chave de descriptografia*. Se a mensagem criptografada não puder ser descriptografada pela chave, o dispositivo foi comprometido e a mensagem é rejeitada.
 
@@ -97,15 +97,15 @@ A criptografia pode ser de dois tipos - simétrica e assimétrica.
 
 A criptografia **simétrica** usa a mesma chave para criptografar e descriptografar os dados. Tanto o remetente quanto o destinatário precisam conhecer a mesma chave. Este é o tipo menos seguro, pois a chave precisa ser compartilhada de alguma forma. Para que um remetente envie uma mensagem criptografada a um destinatário, o remetente pode precisar enviar a chave ao destinatário primeiro.
 
-![A criptografia simétrica usa a mesma chave para criptografar e descriptografar uma mensagem](../../../../../translated_images/send-message-symmetric-key.a2e8ad0d495896ff.br.png)
+![A criptografia simétrica usa a mesma chave para criptografar e descriptografar uma mensagem](../../../../../translated_images/br/send-message-symmetric-key.a2e8ad0d495896ff.png)
 
 Se a chave for roubada durante o envio, ou se o remetente ou destinatário forem hackeados e a chave for descoberta, a criptografia pode ser comprometida.
 
-![A criptografia simétrica é segura apenas se um hacker não obtiver a chave - caso contrário, ele pode interceptar e descriptografar a mensagem](../../../../../translated_images/send-message-symmetric-key-hacker.e7cb53db1707adfb.br.png)
+![A criptografia simétrica é segura apenas se um hacker não obtiver a chave - caso contrário, ele pode interceptar e descriptografar a mensagem](../../../../../translated_images/br/send-message-symmetric-key-hacker.e7cb53db1707adfb.png)
 
 A criptografia **assimétrica** usa 2 chaves - uma chave para criptografar e outra para descriptografar, conhecidas como par de chaves pública/privada. A chave pública é usada para criptografar a mensagem, mas não pode ser usada para descriptografá-la; a chave privada é usada para descriptografar a mensagem, mas não pode ser usada para criptografá-la.
 
-![A criptografia assimétrica usa uma chave diferente para criptografar e descriptografar. A chave pública é enviada aos remetentes para que possam criptografar uma mensagem antes de enviá-la ao destinatário que possui as chaves](../../../../../translated_images/send-message-asymmetric.7abe327c62615b8c.br.png)
+![A criptografia assimétrica usa uma chave diferente para criptografar e descriptografar. A chave pública é enviada aos remetentes para que possam criptografar uma mensagem antes de enviá-la ao destinatário que possui as chaves](../../../../../translated_images/br/send-message-asymmetric.7abe327c62615b8c.png)
 
 O destinatário compartilha sua chave pública, e o remetente a utiliza para criptografar a mensagem. Após o envio, o destinatário descriptografa a mensagem com sua chave privada. A criptografia assimétrica é mais segura, pois a chave privada é mantida em segredo pelo destinatário e nunca é compartilhada. Qualquer pessoa pode ter a chave pública, já que ela só pode ser usada para criptografar mensagens.
 
@@ -165,7 +165,7 @@ Esses certificados possuem vários campos, incluindo quem é o proprietário da 
 
 Ao usar certificados X.509, tanto o remetente quanto o destinatário terão suas próprias chaves públicas e privadas, além de certificados X.509 contendo suas respectivas chaves públicas. Eles então trocam os certificados X.509 de alguma forma, utilizando as chaves públicas um do outro para criptografar os dados enviados e suas próprias chaves privadas para descriptografar os dados recebidos.
 
-![Em vez de compartilhar uma chave pública, você pode compartilhar um certificado. O usuário do certificado pode verificar que ele vem de você consultando a autoridade certificadora que o assinou.](../../../../../translated_images/send-message-certificate.9cc576ac1e46b76e.br.png)
+![Em vez de compartilhar uma chave pública, você pode compartilhar um certificado. O usuário do certificado pode verificar que ele vem de você consultando a autoridade certificadora que o assinou.](../../../../../translated_images/br/send-message-certificate.9cc576ac1e46b76e.png)
 
 Uma grande vantagem de usar certificados X.509 é que eles podem ser compartilhados entre dispositivos. Você pode criar um certificado, carregá-lo no IoT Hub e usá-lo para todos os seus dispositivos. Cada dispositivo só precisa conhecer a chave privada para descriptografar as mensagens recebidas do IoT Hub.
 

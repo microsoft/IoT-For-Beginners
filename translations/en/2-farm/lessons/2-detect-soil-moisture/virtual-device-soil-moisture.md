@@ -43,11 +43,11 @@ Add the soil moisture sensor to the CounterFit app.
 
     1. Click the **Add** button to create the *Soil Moisture* sensor on Pin 0.
 
-    ![The soil moisture sensor settings](../../../../../translated_images/counterfit-create-soil-moisture-sensor.35266135a5e0ae68b29a684d7db0d2933a8098b2307d197f7c71577b724603aa.en.png)
+    ![The soil moisture sensor settings](../../../../../translated_images/en/counterfit-create-soil-moisture-sensor.35266135a5e0ae68b29a684d7db0d2933a8098b2307d197f7c71577b724603aa.png)
 
     The soil moisture sensor will be created and appear in the sensors list.
 
-    ![The soil moisture sensor created](../../../../../translated_images/counterfit-soil-moisture-sensor.81742b2de0e9de60a3b3b9a2ff8ecc686d428eb6d71820f27a693be26e5aceee.en.png)
+    ![The soil moisture sensor created](../../../../../translated_images/en/counterfit-soil-moisture-sensor.81742b2de0e9de60a3b3b9a2ff8ecc686d428eb6d71820f27a693be26e5aceee.png)
 
 ## Program the soil moisture sensor app
 

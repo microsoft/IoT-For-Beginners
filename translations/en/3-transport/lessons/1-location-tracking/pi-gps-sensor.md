@@ -27,13 +27,13 @@ The Grove GPS sensor can be connected to the Raspberry Pi.
 
 Connect the GPS sensor.
 
-![A grove GPS sensor](../../../../../translated_images/grove-gps-sensor.247943bf69b03f0d1820ef6ed10c587f9b650e8db55b936851c92412180bd3e2.en.png)
+![A grove GPS sensor](../../../../../translated_images/en/grove-gps-sensor.247943bf69b03f0d1820ef6ed10c587f9b650e8db55b936851c92412180bd3e2.png)
 
 1. Insert one end of a Grove cable into the socket on the GPS sensor. It will only fit in one way.
 
 1. With the Raspberry Pi powered off, connect the other end of the Grove cable to the UART socket labeled **UART** on the Grove Base Hat attached to the Pi. This socket is located in the middle row, on the side closest to the SD card slot, opposite the USB ports and Ethernet socket.
 
-    ![The grove GPS sensor connected to the UART socket](../../../../../translated_images/pi-gps-sensor.1f99ee2b2f6528915047ec78967bd362e0e4ee0ed594368a3837b9cf9cdaca64.en.png)
+    ![The grove GPS sensor connected to the UART socket](../../../../../translated_images/en/pi-gps-sensor.1f99ee2b2f6528915047ec78967bd362e0e4ee0ed594368a3837b9cf9cdaca64.png)
 
 1. Position the GPS sensor so that the attached antenna has a clear view of the sky—ideally near an open window or outside. A clear signal is easier to achieve with no obstructions around the antenna.
 

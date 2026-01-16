@@ -35,7 +35,7 @@ Grove LED একটি মডিউল হিসেবে আসে যেখা
 
 LED সংযুক্ত করুন।
 
-![একটি Grove LED](../../../../../translated_images/grove-led.6c853be93f473cf2c439cfc74bb1064732b22251a83cedf66e62f783f9cc1a79.bn.png)
+![একটি Grove LED](../../../../../translated_images/bn/grove-led.6c853be93f473cf2c439cfc74bb1064732b22251a83cedf66e62f783f9cc1a79.png)
 
 1. আপনার পছন্দের LED বেছে নিন এবং LED মডিউলের দুটি ছিদ্রে পা ঢোকান।
 
@@ -49,7 +49,7 @@ LED সংযুক্ত করুন।
 
 1. রাস্পবেরি পাই বন্ধ অবস্থায়, Grove কেবলের অন্য প্রান্তটি Grove Base হ্যাটে সংযুক্ত **D5** চিহ্নিত ডিজিটাল সকেটে সংযুক্ত করুন। এই সকেটটি GPIO পিনের পাশে থাকা সকেটের সারিতে বাম দিক থেকে দ্বিতীয়।
 
-![Grove LED D5 সকেটে সংযুক্ত](../../../../../translated_images/pi-led.97f1d474981dc35d1c7996c7b17de355d3d0a6bc9606d79fa5f89df933415122.bn.png)
+![Grove LED D5 সকেটে সংযুক্ত](../../../../../translated_images/bn/pi-led.97f1d474981dc35d1c7996c7b17de355d3d0a6bc9606d79fa5f89df933415122.png)
 
 ## নাইটলাইট প্রোগ্রাম করুন
 

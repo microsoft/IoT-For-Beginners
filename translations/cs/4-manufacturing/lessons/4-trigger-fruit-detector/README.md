@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Spuštění detekce kvality ovoce pomocí senzoru
 
-![Přehled lekce ve formě sketchnote](../../../../../translated_images/lesson-18.92c32ed1d354caa5a54baa4032cf0b172d4655e8e326ad5d46c558a0def15365.cs.jpg)
+![Přehled lekce ve formě sketchnote](../../../../../translated_images/cs/lesson-18.92c32ed1d354caa5a54baa4032cf0b172d4655e8e326ad5d46c558a0def15365.jpg)
 
 > Sketchnote od [Nitya Narasimhan](https://github.com/nitya). Klikněte na obrázek pro větší verzi.
 
@@ -48,7 +48,7 @@ IoT aplikace lze popsat jako *věci* (zařízení), které odesílají data, je�
 
 ### Referenční IoT architektura
 
-![Referenční IoT architektura](../../../../../translated_images/iot-reference-architecture.2278b98b55c6d4e89bde18eada3688d893861d43507641804dd2f9d3079cfaa0.cs.png)
+![Referenční IoT architektura](../../../../../translated_images/cs/iot-reference-architecture.2278b98b55c6d4e89bde18eada3688d893861d43507641804dd2f9d3079cfaa0.png)
 
 Výše uvedený diagram ukazuje referenční IoT architekturu.
 
@@ -58,7 +58,7 @@ Výše uvedený diagram ukazuje referenční IoT architekturu.
 * **Poznatky** pocházejí ze serverless aplikací nebo z analýz prováděných na uložených datech.
 * **Akce** mohou být příkazy odeslané zařízením nebo vizualizace dat umožňující lidem činit rozhodnutí.
 
-![Referenční IoT architektura](../../../../../translated_images/iot-reference-architecture-azure.0b8d2161af924cb18ae48a8558a19541cca47f27264851b5b7e56d7b8bb372ac.cs.png)
+![Referenční IoT architektura](../../../../../translated_images/cs/iot-reference-architecture-azure.0b8d2161af924cb18ae48a8558a19541cca47f27264851b5b7e56d7b8bb372ac.png)
 
 Výše uvedený diagram ukazuje některé komponenty a služby, které byly dosud v těchto lekcích pokryty, a jak se propojují v referenční IoT architektuře.
 
@@ -98,7 +98,7 @@ Musíte vytvořit systém, kde bude ovoce detekováno při příjezdu na dopravn
 
 ### Prototypování vaší aplikace
 
-![Referenční IoT architektura pro kontrolu kvality ovoce](../../../../../translated_images/iot-reference-architecture-fruit-quality.cc705f121c3b6fa71c800d9630935ac34bc08223a04601e35f41d5e9b5dd5207.cs.png)
+![Referenční IoT architektura pro kontrolu kvality ovoce](../../../../../translated_images/cs/iot-reference-architecture-fruit-quality.cc705f121c3b6fa71c800d9630935ac34bc08223a04601e35f41d5e9b5dd5207.png)
 
 Výše uvedený diagram ukazuje referenční architekturu pro tento prototyp aplikace.
 
@@ -115,7 +115,7 @@ Pro prototyp implementujete vše na jednom zařízení. Pokud používáte mikro
 
 IoT zařízení potřebuje nějaký spouštěč, který indikuje, kdy je ovoce připraveno ke klasifikaci. Jedním ze spouštěčů by bylo měření, kdy je ovoce na správném místě na dopravníku, měřením vzdálenosti k senzoru.
 
-![Proximity senzory vysílají laserové paprsky na objekty, jako jsou banány, a měří čas, za který se paprsek odrazí zpět](../../../../../translated_images/proximity-sensor.f5cd752c77fb62fe.cs.png)
+![Proximity senzory vysílají laserové paprsky na objekty, jako jsou banány, a měří čas, za který se paprsek odrazí zpět](../../../../../translated_images/cs/proximity-sensor.f5cd752c77fb62fe.png)
 
 Proximity senzory mohou být použity k měření vzdálenosti od senzoru k objektu. Obvykle vysílají paprsek elektromagnetického záření, jako je laserový paprsek nebo infračervené světlo, a poté detekují záření odražené od objektu. Čas mezi vysláním paprsku a odrazem signálu lze použít k výpočtu vzdálenosti k senzoru.
 
@@ -133,7 +133,7 @@ Projděte si příslušného průvodce, jak použít proximity senzor k detekci 
 
 Prototyp detektoru ovoce má více komponent, které spolu komunikují.
 
-![Komponenty komunikující mezi sebou](../../../../../translated_images/fruit-quality-detector-message-flow.adf2a65da8fd8741ac7af11361574de89adc126785d67606bb4d2ec00467e380.cs.png)
+![Komponenty komunikující mezi sebou](../../../../../translated_images/cs/fruit-quality-detector-message-flow.adf2a65da8fd8741ac7af11361574de89adc126785d67606bb4d2ec00467e380.png)
 
 * Proximity senzor měří vzdálenost k ovoci a odesílá ji do IoT Hubu.
 * Příkaz k ovládání kamery přichází z IoT Hubu do zařízení s kamerou.

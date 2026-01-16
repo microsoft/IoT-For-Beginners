@@ -25,7 +25,7 @@ The camera can be connected to the Raspberry Pi using a ribbon cable.
 
 ### Task - Connect the camera
 
-![A Raspberry Pi Camera](../../../../../translated_images/pi-camera-module.4278753c31bd6e757aa2b858be97d72049f71616278cefe4fb5abb485b40a078.en.png)
+![A Raspberry Pi Camera](../../../../../translated_images/en/pi-camera-module.4278753c31bd6e757aa2b858be97d72049f71616278cefe4fb5abb485b40a078.png)
 
 1. Turn off the Raspberry Pi.
 
@@ -33,17 +33,17 @@ The camera can be connected to the Raspberry Pi using a ribbon cable.
 
     You can find an animation showing how to open the clip and insert the cable in the [Raspberry Pi Getting Started with the Camera module documentation](https://projects.raspberrypi.org/en/projects/getting-started-with-picamera/2).
 
-    ![The ribbon cable inserted into the camera module](../../../../../translated_images/pi-camera-ribbon-cable.0bf82acd251611c21ac616f082849413e2b322a261d0e4f8fec344248083b07e.en.png)
+    ![The ribbon cable inserted into the camera module](../../../../../translated_images/en/pi-camera-ribbon-cable.0bf82acd251611c21ac616f082849413e2b322a261d0e4f8fec344248083b07e.png)
 
 1. Remove the Grove Base Hat from the Raspberry Pi.
 
 1. Pass the ribbon cable through the camera slot in the Grove Base Hat. Ensure the blue side of the cable faces the analog ports labeled **A0**, **A1**, etc.
 
-    ![The ribbon cable passing through the Grove Base Hat](../../../../../translated_images/grove-base-hat-ribbon-cable.501fed202fcf73b11b2b68f6d246189f7d15d3e4423c572ddee79d77b4632b47.en.png)
+    ![The ribbon cable passing through the Grove Base Hat](../../../../../translated_images/en/grove-base-hat-ribbon-cable.501fed202fcf73b11b2b68f6d246189f7d15d3e4423c572ddee79d77b4632b47.png)
 
 1. Insert the ribbon cable into the camera port on the Raspberry Pi. Again, pull the black plastic clip upward, insert the cable, and push the clip back down. The blue side of the cable should face the USB and Ethernet ports.
 
-    ![The ribbon cable connected to the camera socket on the Raspberry Pi](../../../../../translated_images/pi-camera-socket-ribbon-cable.a18309920b11800911082ed7aa6fb28e6d9be3a022e4079ff990016cae3fca10.en.png)
+    ![The ribbon cable connected to the camera socket on the Raspberry Pi](../../../../../translated_images/en/pi-camera-socket-ribbon-cable.a18309920b11800911082ed7aa6fb28e6d9be3a022e4079ff990016cae3fca10.png)
 
 1. Reattach the Grove Base Hat.
 
@@ -110,7 +110,7 @@ Write a program to use the camera.
 
     The `camera.rotation = 0` line sets the image rotation. The ribbon cable connects to the bottom of the camera, but if you rotate the camera to better point at the object you want to classify, you can adjust this line to match the rotation angle.
 
-    ![The camera hanging down over a drink can](../../../../../translated_images/pi-camera-upside-down.5376961ba31459883362124152ad6b823d5ac5fc14e85f317e22903bd681c2b6.en.png)
+    ![The camera hanging down over a drink can](../../../../../translated_images/en/pi-camera-upside-down.5376961ba31459883362124152ad6b823d5ac5fc14e85f317e22903bd681c2b6.png)
 
     For example, if you suspend the ribbon cable above the camera so it enters from the top, set the rotation to 180:
 

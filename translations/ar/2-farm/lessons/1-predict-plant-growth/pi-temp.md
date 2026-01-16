@@ -25,13 +25,13 @@ CO_OP_TRANSLATOR_METADATA:
 
 قم بتوصيل مستشعر درجة الحرارة
 
-![مستشعر درجة الحرارة من نوع Grove](../../../../../translated_images/grove-dht11.07f8eafceee170043efbb53e1d15722bd4e00fbaa9ff74290b57e9f66eb82c17.ar.png)
+![مستشعر درجة الحرارة من نوع Grove](../../../../../translated_images/ar/grove-dht11.07f8eafceee170043efbb53e1d15722bd4e00fbaa9ff74290b57e9f66eb82c17.png)
 
 1. أدخل أحد طرفي كابل Grove في المقبس الموجود على مستشعر الرطوبة ودرجة الحرارة. يمكن إدخاله في اتجاه واحد فقط.
 
 1. مع إيقاف تشغيل Raspberry Pi، قم بتوصيل الطرف الآخر من كابل Grove بالمقبس الرقمي المسمى **D5** على قبعة Grove Base المثبتة على Raspberry Pi. هذا المقبس هو الثاني من اليسار في صف المقابس بجانب دبابيس GPIO.
 
-![مستشعر درجة الحرارة من نوع Grove متصل بالمقبس A0](../../../../../translated_images/pi-temperature-sensor.3ff82fff672c8e565ef25a39d26d111de006b825a7e0867227ef4e7fbff8553c.ar.png)
+![مستشعر درجة الحرارة من نوع Grove متصل بالمقبس A0](../../../../../translated_images/ar/pi-temperature-sensor.3ff82fff672c8e565ef25a39d26d111de006b825a7e0867227ef4e7fbff8553c.png)
 
 ## برمجة مستشعر درجة الحرارة
 

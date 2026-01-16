@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Keep your plant secure
 
-![A sketchnote overview of this lesson](../../../../../translated_images/lesson-10.829c86b80b9403bb770929ee553a1d293afe50dc23121aaf9be144673ae012cc.en.jpg)
+![A sketchnote overview of this lesson](../../../../../translated_images/en/lesson-10.829c86b80b9403bb770929ee553a1d293afe50dc23121aaf9be144673ae012cc.jpg)
 
 > Sketchnote by [Nitya Narasimhan](https://github.com/nitya). Click the image for a larger version.
 
@@ -61,11 +61,11 @@ These scenarios are not hypothetical—they happen frequently. Here are some rea
 
 When a device connects to an IoT service, it uses an ID to identify itself. The problem is that this ID can be cloned—a hacker could set up a malicious device using the same ID as a legitimate device but send false data.
 
-![Both valid and malicious devices could use the same ID to send telemetry](../../../../../translated_images/iot-device-and-hacked-device-connecting.e0671675df74d6d99eb1dedb5a670e606f698efa6202b1ad4c8ae548db299cc6.en.png)
+![Both valid and malicious devices could use the same ID to send telemetry](../../../../../translated_images/en/iot-device-and-hacked-device-connecting.e0671675df74d6d99eb1dedb5a670e606f698efa6202b1ad4c8ae548db299cc6.png)
 
 The solution is to scramble the data being sent using a value known only to the device and the cloud. This process is called *encryption*, and the value used to encrypt the data is called an *encryption key*.
 
-![If encryption is used, then only encrypted messages will be accepted, others will be rejected](../../../../../translated_images/iot-device-and-hacked-device-connecting-encryption.5941aff601fc978f979e46f2849b573564eeb4a4dc5b52f669f62745397492fb.en.png)
+![If encryption is used, then only encrypted messages will be accepted, others will be rejected](../../../../../translated_images/en/iot-device-and-hacked-device-connecting-encryption.5941aff601fc978f979e46f2849b573564eeb4a4dc5b52f669f62745397492fb.png)
 
 The cloud service can then unscramble the data using a process called *decryption*, using either the same encryption key or a *decryption key*. If the encrypted message cannot be decrypted with the key, the device is deemed compromised, and the message is rejected.
 
@@ -97,15 +97,15 @@ Encryption comes in two types: symmetric and asymmetric.
 
 **Symmetric** encryption uses the same key for both encrypting and decrypting data. Both the sender and receiver must know the same key. This method is less secure because the key must be shared. For the sender to send an encrypted message, they first need to share the key with the recipient.
 
-![Symmetric key encryption uses the same key to encrypt and decrypt a message](../../../../../translated_images/send-message-symmetric-key.a2e8ad0d495896ff.en.png)
+![Symmetric key encryption uses the same key to encrypt and decrypt a message](../../../../../translated_images/en/send-message-symmetric-key.a2e8ad0d495896ff.webp)
 
 If the key is intercepted during transmission or if either party is hacked, the encryption can be compromised.
 
-![Symmetric key encryption is only secure if a hacker doesn't get the key - if so they can intercept and decrypt the message](../../../../../translated_images/send-message-symmetric-key-hacker.e7cb53db1707adfb.en.png)
+![Symmetric key encryption is only secure if a hacker doesn't get the key - if so they can intercept and decrypt the message](../../../../../translated_images/en/send-message-symmetric-key-hacker.e7cb53db1707adfb.webp)
 
 **Asymmetric** encryption uses two keys: an encryption key and a decryption key, known as a public/private key pair. The public key encrypts the message but cannot decrypt it, while the private key decrypts the message but cannot encrypt it.
 
-![Asymmetric encryption uses a different key to encrypt and decrypt. The encryption key is sent to any message senders so they can encrypt a message before sending it to the recipient who owns the keys](../../../../../translated_images/send-message-asymmetric.7abe327c62615b8c.en.png)
+![Asymmetric encryption uses a different key to encrypt and decrypt. The encryption key is sent to any message senders so they can encrypt a message before sending it to the recipient who owns the keys](../../../../../translated_images/en/send-message-asymmetric.7abe327c62615b8c.webp)
 
 The recipient shares their public key, which the sender uses to encrypt the message. Once the message is sent, the recipient decrypts it with their private key. Asymmetric encryption is more secure because the private key is kept confidential and never shared. The public key can be freely distributed since it only encrypts messages.
 
@@ -165,7 +165,7 @@ These certificates include various fields, such as the identity of the public ke
 
 When using X.509 certificates, both the sender and the recipient have their own public and private keys, as well as X.509 certificates containing their public keys. They exchange certificates and use each other’s public keys to encrypt the data they send, while using their private keys to decrypt the data they receive.
 
-![Instead of sharing a public key, you can share a certificate. The user of the certificate can verify that it comes from you by checking with the certificate authority who signed it.](../../../../../translated_images/send-message-certificate.9cc576ac1e46b76e.en.png)
+![Instead of sharing a public key, you can share a certificate. The user of the certificate can verify that it comes from you by checking with the certificate authority who signed it.](../../../../../translated_images/en/send-message-certificate.9cc576ac1e46b76e.webp)
 
 One major advantage of using X.509 certificates is that they can be shared across devices. You can create one certificate, upload it to IoT Hub, and use it for all your devices. Each device only needs to know the private key to decrypt messages received from IoT Hub.
 

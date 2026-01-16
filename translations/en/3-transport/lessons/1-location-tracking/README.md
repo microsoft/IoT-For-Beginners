@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Location tracking
 
-![A sketchnote overview of this lesson](../../../../../translated_images/lesson-11.9fddbac4b664c6d50ab7ac9bb32f1fc3f945f03760e72f7f43938073762fb017.en.jpg)
+![A sketchnote overview of this lesson](../../../../../translated_images/en/lesson-11.9fddbac4b664c6d50ab7ac9bb32f1fc3f945f03760e72f7f43938073762fb017.jpg)
 
 > Sketchnote by [Nitya Narasimhan](https://github.com/nitya). Click the image for a larger version.
 
@@ -71,13 +71,13 @@ The Earth is a sphere—a three-dimensional circle. Points on its surface are de
 
 > 💁 The original reason for dividing circles into 360 degrees is unclear. The [degree (angle) page on Wikipedia](https://wikipedia.org/wiki/Degree_(angle)) explores some possible explanations.
 
-![Lines of latitude from 90° at the North Pole, 45° halfway between the North Pole and the equator, 0° at the equator, -45° halfway between the equator and the South Pole, and -90° at the South Pole](../../../../../translated_images/latitude-lines.11d8d91dfb2014a57437272d7db7fd6607243098e8685f06e0c5f1ec984cb7eb.en.png)
+![Lines of latitude from 90° at the North Pole, 45° halfway between the North Pole and the equator, 0° at the equator, -45° halfway between the equator and the South Pole, and -90° at the South Pole](../../../../../translated_images/en/latitude-lines.11d8d91dfb2014a57437272d7db7fd6607243098e8685f06e0c5f1ec984cb7eb.png)
 
 Latitude is measured using lines that encircle the Earth parallel to the equator, dividing the Northern and Southern Hemispheres into 90° each. The equator is at 0°, the North Pole is at 90° (90° North), and the South Pole is at -90° (90° South).
 
 Longitude measures degrees east and west. The 0° origin of longitude is called the *Prime Meridian*, established in 1884 as a line running from the North to the South Pole through the [British Royal Observatory in Greenwich, England](https://wikipedia.org/wiki/Royal_Observatory,_Greenwich).
 
-![Lines of longitude that go from -180° to the west of the Prime Meridian, to 0° on the Prime Meridian, to 180° east of the Prime Meridian](../../../../../translated_images/longitude-meridians.ab4ef1c91c064586b0185a3c8d39e585903696c6a7d28c098a93a629cddb5d20.en.png)
+![Lines of longitude that go from -180° to the west of the Prime Meridian, to 0° on the Prime Meridian, to 180° east of the Prime Meridian](../../../../../translated_images/en/longitude-meridians.ab4ef1c91c064586b0185a3c8d39e585903696c6a7d28c098a93a629cddb5d20.png)
 
 > 🎓 A meridian is an imaginary line running from the North Pole to the South Pole, forming a semicircle.
 
@@ -106,7 +106,7 @@ Coordinates are always given as `latitude, longitude`. For example, the Microsof
 * Latitude: `47.6423109` (47.6423109 degrees north of the equator)
 * Longitude: `-122.1390293` (122.1390293 degrees west of the Prime Meridian).
 
-![The Microsoft Campus at 47.6423109,-122.117198](../../../../../translated_images/microsoft-gps-location-world.a321d481b010f6adfcca139b2ba0adc53b79f58a540495b8e2ce7f779ea64bfe.en.png)
+![The Microsoft Campus at 47.6423109,-122.117198](../../../../../translated_images/en/microsoft-gps-location-world.a321d481b010f6adfcca139b2ba0adc53b79f58a540495b8e2ce7f779ea64bfe.png)
 
 ## Global Positioning Systems (GPS)
 
@@ -118,7 +118,7 @@ GPS works by using satellites that transmit signals containing their position an
 
 > 💁 GPS sensors require antennas to detect radio waves. Built-in antennas in vehicles are typically positioned for optimal signal reception, such as on the windshield or roof. For external GPS systems, like smartphones or IoT devices, ensure the antenna has a clear view of the sky, such as mounting it on the windshield.
 
-![By knowing the distance from the sensor to multiple satellites, the location be calculated](../../../../../translated_images/gps-satellites.04acf1148fe25fbf1586bc2e8ba698e8d79b79a50c36824b38417dd13372b90f.en.png)
+![By knowing the distance from the sensor to multiple satellites, the location be calculated](../../../../../translated_images/en/gps-satellites.04acf1148fe25fbf1586bc2e8ba698e8d79b79a50c36824b38417dd13372b90f.png)
 
 Since GPS satellites orbit the Earth, location data includes altitude above sea level in addition to latitude and longitude.
 

@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 [রাস্পবেরি পাই](https://raspberrypi.org) একটি সিঙ্গেল-বোর্ড কম্পিউটার। আপনি বিভিন্ন ডিভাইস এবং ইকোসিস্টেম ব্যবহার করে সেন্সর এবং অ্যাকচুয়েটর যোগ করতে পারেন, এবং এই পাঠগুলোর জন্য একটি হার্ডওয়্যার ইকোসিস্টেম [Grove](https://www.seeedstudio.com/category/Grove-c-1003.html) ব্যবহার করা হবে। আপনি Python ব্যবহার করে আপনার পাই কোড করবেন এবং Grove সেন্সরগুলোতে অ্যাক্সেস পাবেন।
 
-![রাস্পবেরি পাই ৪](../../../../../translated_images/raspberry-pi-4.fd4590d308c3d456.bn.jpg)
+![রাস্পবেরি পাই ৪](../../../../../translated_images/bn/raspberry-pi-4.fd4590d308c3d456.jpg)
 
 ## সেটআপ
 
@@ -112,7 +112,7 @@ Grove Base Hat আপনার পাই-এ ইনস্টল করুন এ
 
 1. রাস্পবেরি পাই ইমেজার থেকে **CHOOSE OS** বোতামটি নির্বাচন করুন, তারপর *Raspberry Pi OS (Other)* নির্বাচন করুন, এবং *Raspberry Pi OS Lite (32-bit)* নির্বাচন করুন।
 
-    ![রাস্পবেরি পাই ইমেজার Raspberry Pi OS Lite নির্বাচিত](../../../../../translated_images/raspberry-pi-imager.24aedeab9e233d84.bn.png)
+    ![রাস্পবেরি পাই ইমেজার Raspberry Pi OS Lite নির্বাচিত](../../../../../translated_images/bn/raspberry-pi-imager.24aedeab9e233d84.png)
 
     > 💁 Raspberry Pi OS Lite হল Raspberry Pi OS-এর একটি সংস্করণ যেখানে ডেস্কটপ UI বা UI ভিত্তিক টুল নেই। এগুলো একটি হেডলেস পাই-এর জন্য প্রয়োজন হয় না এবং ইনস্টলটিকে ছোট এবং বুট আপ সময়কে দ্রুত করে তোলে।
 
@@ -249,7 +249,7 @@ Hello World অ্যাপ তৈরি করুন।
 
 1. VS Code-এ এই ফোল্ডারটি খুলুন *File -> Open...* নির্বাচন করে এবং *nightlight* ফোল্ডারটি নির্বাচন করুন, তারপর **OK** চাপুন।
 
-    ![VS Code-এর ওপেন ডায়ালগ, যেখানে nightlight ফোল্ডারটি দেখানো হচ্ছে](../../../../../translated_images/vscode-open-nightlight-remote.d3d2a4011e30d535.bn.png)
+    ![VS Code-এর ওপেন ডায়ালগ, যেখানে nightlight ফোল্ডারটি দেখানো হচ্ছে](../../../../../translated_images/bn/vscode-open-nightlight-remote.d3d2a4011e30d535.png)
 
 1. VS Code এক্সপ্লোরার থেকে `app.py` ফাইলটি খুলুন এবং নিচের কোডটি যোগ করুন:
 

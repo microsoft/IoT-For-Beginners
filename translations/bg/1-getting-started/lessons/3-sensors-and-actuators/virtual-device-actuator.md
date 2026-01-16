@@ -45,11 +45,11 @@ Otherwise
 
     1. Натиснете бутона **Add**, за да създадете LED на Pin 5.
 
-    ![Настройки на LED](../../../../../translated_images/counterfit-create-led.ba9db1c9b8c622a635d6dfae5cdc4e70c2b250635bd4f0601c6cf0bd22b7ba46.bg.png)
+    ![Настройки на LED](../../../../../translated_images/bg/counterfit-create-led.ba9db1c9b8c622a635d6dfae5cdc4e70c2b250635bd4f0601c6cf0bd22b7ba46.png)
 
     LED ще бъде създаден и ще се появи в списъка с изпълнителни механизми.
 
-    ![Създаден LED](../../../../../translated_images/counterfit-led.c0ab02de6d256ad84d9bad4d67a7faa709f0ea83e410cfe9b5561ef0cef30b1c.bg.png)
+    ![Създаден LED](../../../../../translated_images/bg/counterfit-led.c0ab02de6d256ad84d9bad4d67a7faa709f0ea83e410cfe9b5561ef0cef30b1c.png)
 
     След като LED е създаден, можете да промените цвета му, използвайки инструмента *Color picker*. Натиснете бутона **Set**, за да промените цвета, след като сте го избрали.
 

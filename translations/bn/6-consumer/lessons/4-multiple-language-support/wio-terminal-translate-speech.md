@@ -114,7 +114,7 @@ CO_OP_TRANSLATOR_METADATA:
     >
     > উদাহরণস্বরূপ, যদি আপনি LUIS-কে ইংরেজিতে প্রশিক্ষণ দেন, কিন্তু ব্যবহারকারীর ভাষা হিসেবে ফরাসি ব্যবহার করতে চান, তাহলে Bing Translate ব্যবহার করে "set a 2 minute and 27 second timer" ইংরেজি থেকে ফরাসিতে অনুবাদ করতে পারেন। এরপর **Listen translation** বোতামটি ব্যবহার করে অনুবাদটি আপনার মাইক্রোফোনে বলতে পারেন।
     >
-    > ![Bing Translate-এ Listen translation বোতাম](../../../../../translated_images/bing-translate.348aa796d6efe2a92f41ea74a5cf42bb4c63d6faaa08e7f46924e072a35daa48.bn.png)
+    > ![Bing Translate-এ Listen translation বোতাম](../../../../../translated_images/bn/bing-translate.348aa796d6efe2a92f41ea74a5cf42bb4c63d6faaa08e7f46924e072a35daa48.png)
 
 1. `SPEECH_LOCATION`-এর নিচে অনুবাদক API কী এবং অবস্থান যোগ করুন:
 

@@ -25,11 +25,11 @@ ArduCam nemá Grove konektor, místo toho se připojuje k SPI a I2C sběrnicím 
 
 Připojte kameru.
 
-![Senzor ArduCam](../../../../../translated_images/arducam.20e4e4cbb268296570b5914e20d6c349fc42ddac9ed4e1b9deba2188204eebae.cs.png)
+![Senzor ArduCam](../../../../../translated_images/cs/arducam.20e4e4cbb268296570b5914e20d6c349fc42ddac9ed4e1b9deba2188204eebae.png)
 
 1. Piny na spodní straně ArduCam musí být připojeny k GPIO pinům na Wio Terminalu. Aby bylo snazší najít správné piny, připevněte kolem pinů nálepku GPIO pinů, která je součástí Wio Terminalu:
 
-    ![Wio Terminal s nálepkou GPIO pinů](../../../../../translated_images/wio-terminal-pin-sticker.b90b1535937b84bd.cs.png)
+    ![Wio Terminal s nálepkou GPIO pinů](../../../../../translated_images/cs/wio-terminal-pin-sticker.b90b1535937b84bd.png)
 
 1. Pomocí propojovacích vodičů proveďte následující připojení:
 
@@ -44,7 +44,7 @@ Připojte kameru.
     | SDA         | 3 (I2C1_SDA)     | I2C Serial Data                         |
     | SCL         | 5 (I2C1_SCL)     | I2C Serial Clock                        |
 
-    ![Wio Terminal připojený k ArduCam pomocí propojovacích vodičů](../../../../../translated_images/arducam-wio-terminal-connections.a4d5a4049bdb5ab800a2877389fc6ecf5e4ff307e6451ff56c517e6786467d0a.cs.png)
+    ![Wio Terminal připojený k ArduCam pomocí propojovacích vodičů](../../../../../translated_images/cs/arducam-wio-terminal-connections.a4d5a4049bdb5ab800a2877389fc6ecf5e4ff307e6451ff56c517e6786467d0a.png)
 
     Připojení GND a VCC poskytuje napájení 5V pro ArduCam. Kamera běží na 5V, na rozdíl od Grove senzorů, které běží na 3V. Toto napájení pochází přímo z USB-C připojení, které napájí zařízení.
 
@@ -297,7 +297,7 @@ Wio Terminal nyní může být naprogramován tak, aby zachytil obrázek, když 
 
 1. Mikrokontroléry spouštějí váš kód nepřetržitě, takže není snadné spustit něco jako pořízení fotografie bez reakce na senzor. Wio Terminal má tlačítka, takže kamera může být nastavena tak, aby byla spuštěna jedním z tlačítek. Přidejte následující kód na konec funkce `setup` pro konfiguraci tlačítka C (jednoho ze tří tlačítek nahoře, toho nejblíže k vypínači).
 
-    ![Tlačítko C nahoře nejblíže k vypínači](../../../../../translated_images/wio-terminal-c-button.73df3cb1c1445ea0.cs.png)
+    ![Tlačítko C nahoře nejblíže k vypínači](../../../../../translated_images/cs/wio-terminal-c-button.73df3cb1c1445ea0.png)
 
     ```cpp
     pinMode(WIO_KEY_C, INPUT_PULLUP);
@@ -465,7 +465,7 @@ Wio Terminal podporuje pouze microSD karty o velikosti až 16GB. Pokud máte vě
 
 1. Vypněte microSD kartu a vysuňte ji mírným zatlačením a uvolněním, a karta vyskočí. Možná budete potřebovat tenký nástroj, abyste to udělali. Připojte microSD kartu k vašemu počítači, abyste si mohli prohlédnout obrázky.
 
-    ![Obrázek banánu zachycený pomocí ArduCam](../../../../../translated_images/banana-arducam.be1b32d4267a8194b0fd042362e56faa431da9cd4af172051b37243ea9be0256.cs.jpg)
+    ![Obrázek banánu zachycený pomocí ArduCam](../../../../../translated_images/cs/banana-arducam.be1b32d4267a8194b0fd042362e56faa431da9cd4af172051b37243ea9be0256.jpg)
 💁 Může trvat několik snímků, než se vyvážení bílé kamery samo upraví. Všimnete si toho podle barvy zachycených snímků, první několik může vypadat barevně nesprávně. Vždy to můžete obejít změnou kódu tak, aby zachytil několik snímků, které jsou ignorovány ve funkci `setup`.
 
 

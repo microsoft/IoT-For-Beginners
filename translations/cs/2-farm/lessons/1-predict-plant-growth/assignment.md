@@ -42,7 +42,7 @@ Jakmile máte teplotní data, můžete použít Jupyter Notebook v tomto repozit
 
     Jupyter se spustí a otevře notebook ve vašem prohlížeči. Projděte si instrukce v notebooku, vizualizujte naměřené teploty a vypočítejte růstové stupně (GDD).
 
-    ![Jupyter notebook](../../../../../translated_images/gdd-jupyter-notebook.c5b52cf21094f158a61f47f455490fd95f1729777ff90861a4521820bf354cdc.cs.png)
+    ![Jupyter notebook](../../../../../translated_images/cs/gdd-jupyter-notebook.c5b52cf21094f158a61f47f455490fd95f1729777ff90861a4521820bf354cdc.png)
 
 ## Hodnocení
 

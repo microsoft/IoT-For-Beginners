@@ -27,17 +27,17 @@ The Grove soil moisture sensor can be connected to the Wio Terminal's configurab
 
 Connect the soil moisture sensor.
 
-![A grove soil moisture sensor](../../../../../translated_images/grove-capacitive-soil-moisture-sensor.e7f0776cce30e78be5cc5a07839385fd6718857f31b5bf5ad3d0c73c83b2f0ef.en.png)
+![A grove soil moisture sensor](../../../../../translated_images/en/grove-capacitive-soil-moisture-sensor.e7f0776cce30e78be5cc5a07839385fd6718857f31b5bf5ad3d0c73c83b2f0ef.png)
 
 1. Insert one end of a Grove cable into the socket on the soil moisture sensor. It will only fit in one way.
 
 1. With the Wio Terminal disconnected from your computer or any other power source, connect the other end of the Grove cable to the right-hand side Grove socket on the Wio Terminal as you face the screen. This is the socket farthest from the power button.
 
-![The grove soil moisture sensor connected to the right hand socket](../../../../../translated_images/wio-soil-moisture-sensor.46919b61c3f6cb74.en.png)
+![The grove soil moisture sensor connected to the right hand socket](../../../../../translated_images/en/wio-soil-moisture-sensor.46919b61c3f6cb74.webp)
 
 1. Insert the soil moisture sensor into the soil. The sensor has a 'highest position line'—a white line across it. Insert the sensor up to, but not beyond, this line.
 
-![The grove soil moisture sensor in soil](../../../../../translated_images/soil-moisture-sensor-in-soil.bfad91002bda5e96.en.png)
+![The grove soil moisture sensor in soil](../../../../../translated_images/en/soil-moisture-sensor-in-soil.bfad91002bda5e96.webp)
 
 1. You can now connect the Wio Terminal to your computer.
 

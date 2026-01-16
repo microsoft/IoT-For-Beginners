@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Migrate your plant to the cloud
 
-![A sketchnote overview of this lesson](../../../../../translated_images/lesson-8.3f21f3c11159e6a0a376351973ea5724d5de68fa23b4288853a174bed9ac48c3.en.jpg)
+![A sketchnote overview of this lesson](../../../../../translated_images/en/lesson-8.3f21f3c11159e6a0a376351973ea5724d5de68fa23b4288853a174bed9ac48c3.jpg)
 
 > Sketchnote by [Nitya Narasimhan](https://github.com/nitya). Click the image for a larger version.
 
@@ -55,8 +55,8 @@ This approach was expensive, required a diverse set of skilled employees, and wa
 
 The cloud is often humorously described as "someone else's computer." The concept is simple: instead of buying computers, you rent them from a cloud computing provider. These providers manage massive data centers and handle everything, including hardware installation, power and cooling, networking, security, updates, and more. As a customer, you rent the computing resources you need, scaling up during high demand and scaling down when demand decreases. These cloud data centers are located all over the world.
 
-![A Microsoft cloud data center](../../../../../translated_images/azure-region-existing.73f704604f2aa6cb9b5a49ed40e93d4fd81ae3f4e6af4a8ca504023902832f56.en.png)
-![A Microsoft cloud data center planned expansion](../../../../../translated_images/azure-region-planned-expansion.a5074a1e8af74f156a73552d502429e5b126ea5019274d767ecb4b9afdad442b.en.png)
+![A Microsoft cloud data center](../../../../../translated_images/en/azure-region-existing.73f704604f2aa6cb9b5a49ed40e93d4fd81ae3f4e6af4a8ca504023902832f56.png)
+![A Microsoft cloud data center planned expansion](../../../../../translated_images/en/azure-region-planned-expansion.a5074a1e8af74f156a73552d502429e5b126ea5019274d767ecb4b9afdad442b.png)
 
 These data centers can span several square kilometers. The images above show a Microsoft cloud data center, including its initial size and planned expansion. The cleared area for expansion covers over 5 square kilometers.
 
@@ -72,7 +72,7 @@ Cloud providers leverage economies of scale to lower costs, buying hardware in b
 
 Azure is Microsoft's developer-focused cloud platform, and it's the cloud you'll use in these lessons. The video below provides a brief overview of Azure:
 
-[![Overview of Azure video](../../../../../translated_images/what-is-azure-video-thumbnail.20174db09e03bbb8.en.png)](https://www.microsoft.com/videoplayer/embed/RE4Ibng?WT.mc_id=academic-17441-jabenn)
+[![Overview of Azure video](../../../../../translated_images/en/what-is-azure-video-thumbnail.20174db09e03bbb8.webp)](https://www.microsoft.com/videoplayer/embed/RE4Ibng?WT.mc_id=academic-17441-jabenn)
 
 ## Create a cloud subscription
 
@@ -117,11 +117,11 @@ Cloud IoT services address these issues. They are maintained by large cloud prov
 
 IoT devices connect to cloud services using either a device SDK (a library that simplifies interaction with the service) or directly through communication protocols like MQTT or HTTP. The device SDK is typically the easiest option, as it handles tasks like topic management and security.
 
-![Devices connect to a service using a device SDK. Server code also connects to the service via an SDK](../../../../../translated_images/iot-service-connectivity.7e873847921a5d6fd60d0ba3a943210194518cee0d4e362476624316443275c3.en.png)
+![Devices connect to a service using a device SDK. Server code also connects to the service via an SDK](../../../../../translated_images/en/iot-service-connectivity.7e873847921a5d6fd60d0ba3a943210194518cee0d4e362476624316443275c3.png)
 
 Your device communicates with other parts of your application through the service, similar to how you sent telemetry and received commands via MQTT. This is usually done using a service SDK or similar library. Messages from your device are sent to the service, where other components of your application can access them, and messages can be sent back to your device.
 
-![Devices without a valid secret key cannot connect to the IoT service](../../../../../translated_images/iot-service-allowed-denied-connection.818b0063ac213fb84204a7229303764d9b467ca430fb822b4ac2fca267d56726.en.png)
+![Devices without a valid secret key cannot connect to the IoT service](../../../../../translated_images/en/iot-service-allowed-denied-connection.818b0063ac213fb84204a7229303764d9b467ca430fb822b4ac2fca267d56726.png)
 
 These services enforce security by recognizing authorized devices, either through pre-registration or by using secret keys or certificates for first-time registration. Unauthorized devices are denied access, and their messages are ignored.
 
@@ -133,7 +133,7 @@ Other components of your application can connect to the IoT service to monitor c
 
 Now that you have an Azure subscription, you can sign up for an IoT service. Microsoft's IoT service is called Azure IoT Hub.
 
-![The Azure IoT Hub logo](../../../../../translated_images/azure-iot-hub-logo.28a19de76d0a1932464d858f7558712bcdace3e5ec69c434d482ed7ce41c3a26.en.png)
+![The Azure IoT Hub logo](../../../../../translated_images/en/azure-iot-hub-logo.28a19de76d0a1932464d858f7558712bcdace3e5ec69c434d482ed7ce41c3a26.png)
 
 The video below provides a brief overview of Azure IoT Hub:
 

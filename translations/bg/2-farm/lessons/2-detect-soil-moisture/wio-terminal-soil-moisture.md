@@ -27,17 +27,17 @@ Grove сензорът за влажност на почвата може да �
 
 Свържете сензора за влажност на почвата.
 
-![Grove сензор за влажност на почвата](../../../../../translated_images/grove-capacitive-soil-moisture-sensor.e7f0776cce30e78be5cc5a07839385fd6718857f31b5bf5ad3d0c73c83b2f0ef.bg.png)
+![Grove сензор за влажност на почвата](../../../../../translated_images/bg/grove-capacitive-soil-moisture-sensor.e7f0776cce30e78be5cc5a07839385fd6718857f31b5bf5ad3d0c73c83b2f0ef.png)
 
 1. Поставете единия край на Grove кабела в гнездото на сензора за влажност на почвата. Той ще влезе само в една посока.
 
 1. С изключен Wio Terminal от компютъра или друг източник на захранване, свържете другия край на Grove кабела към десния Grove порт на Wio Terminal, гледайки екрана. Това е портът, който е най-далеч от бутона за захранване.
 
-![Grove сензор за влажност на почвата, свързан към десния порт](../../../../../translated_images/wio-soil-moisture-sensor.46919b61c3f6cb74.bg.png)
+![Grove сензор за влажност на почвата, свързан към десния порт](../../../../../translated_images/bg/wio-soil-moisture-sensor.46919b61c3f6cb74.png)
 
 1. Поставете сензора за влажност на почвата в почвата. Той има линия за "максимална позиция" – бяла линия, която минава през сензора. Поставете сензора до тази линия, но не я преминавайте.
 
-![Grove сензор за влажност на почвата в почвата](../../../../../translated_images/soil-moisture-sensor-in-soil.bfad91002bda5e96.bg.png)
+![Grove сензор за влажност на почвата в почвата](../../../../../translated_images/bg/soil-moisture-sensor-in-soil.bfad91002bda5e96.png)
 
 1. Сега можете да свържете Wio Terminal към вашия компютър.
 

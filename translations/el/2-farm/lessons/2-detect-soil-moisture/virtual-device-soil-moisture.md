@@ -43,11 +43,11 @@ CO_OP_TRANSLATOR_METADATA:
 
     1. Επιλέξτε το κουμπί **Add** για να δημιουργήσετε τον αισθητήρα *Soil Moisture* στο Pin 0.
 
-    ![Οι ρυθμίσεις του αισθητήρα υγρασίας εδάφους](../../../../../translated_images/counterfit-create-soil-moisture-sensor.35266135a5e0ae68b29a684d7db0d2933a8098b2307d197f7c71577b724603aa.el.png)
+    ![Οι ρυθμίσεις του αισθητήρα υγρασίας εδάφους](../../../../../translated_images/el/counterfit-create-soil-moisture-sensor.35266135a5e0ae68b29a684d7db0d2933a8098b2307d197f7c71577b724603aa.png)
 
     Ο αισθητήρας υγρασίας εδάφους θα δημιουργηθεί και θα εμφανιστεί στη λίστα αισθητήρων.
 
-    ![Ο αισθητήρας υγρασίας εδάφους δημιουργήθηκε](../../../../../translated_images/counterfit-soil-moisture-sensor.81742b2de0e9de60a3b3b9a2ff8ecc686d428eb6d71820f27a693be26e5aceee.el.png)
+    ![Ο αισθητήρας υγρασίας εδάφους δημιουργήθηκε](../../../../../translated_images/el/counterfit-soil-moisture-sensor.81742b2de0e9de60a3b3b9a2ff8ecc686d428eb6d71820f27a693be26e5aceee.png)
 
 ## Προγραμματισμός της εφαρμογής του αισθητήρα υγρασίας εδάφους
 

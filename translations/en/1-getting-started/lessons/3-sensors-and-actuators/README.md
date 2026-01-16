@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Interact with the physical world using sensors and actuators
 
-![A sketchnote overview of this lesson](../../../../../translated_images/lesson-3.cc3b7b4cd646de598698cce043c0393fd62ef42bac2eaf60e61272cd844250f4.en.jpg)
+![A sketchnote overview of this lesson](../../../../../translated_images/en/lesson-3.cc3b7b4cd646de598698cce043c0393fd62ef42bac2eaf60e61272cd844250f4.jpg)
 
 > Sketchnote by [Nitya Narasimhan](https://github.com/nitya). Click the image for a larger version.
 
@@ -75,7 +75,7 @@ Analog sensors are among the simplest types. They receive a voltage from the IoT
 
 A potentiometer is an example of an analog sensor. It’s a dial that can be rotated between two positions, and the sensor measures the rotation.
 
-![A potentiometer set to a mid point being sent 5 volts returning 3.8 volts](../../../../../translated_images/potentiometer.35a348b9ce22f6ec.en.png)
+![A potentiometer set to a mid point being sent 5 volts returning 3.8 volts](../../../../../translated_images/en/potentiometer.35a348b9ce22f6ec.webp)
 
 The IoT device sends an electrical signal to the potentiometer, such as 5 volts (5V). As the potentiometer is adjusted, it changes the voltage that comes out. For example, if the potentiometer is set to the "off" position, 0V will come out. If it’s set to the "on" position, 5V will come out.
 
@@ -101,7 +101,7 @@ Digital sensors also detect changes in electrical voltage but output a digital s
 
 The simplest digital sensor is a button or switch, which has two states: on or off.
 
-![A button is sent 5 volts. When not pressed it returns 0 volts, when pressed it returns 5 volts](../../../../../translated_images/button.eadb560b77ac45e56f523d9d8876e40444f63b419e33eb820082d461fa79490b.en.png)
+![A button is sent 5 volts. When not pressed it returns 0 volts, when pressed it returns 5 volts](../../../../../translated_images/en/button.eadb560b77ac45e56f523d9d8876e40444f63b419e33eb820082d461fa79490b.png)
 
 IoT devices can directly measure this signal as 0 or 1. If the voltage sent matches the voltage returned, the value is 1; otherwise, it’s 0.
 
@@ -112,7 +112,7 @@ IoT devices can directly measure this signal as 0 or 1. If the voltage sent matc
 
 More advanced digital sensors measure analog values and convert them to digital signals using built-in ADCs. For example, a digital temperature sensor uses a thermocouple to measure voltage changes caused by temperature. Instead of returning an analog value, it converts the reading to digital data and sends it to the IoT device.
 
-![A digital temperature sensor converting an analog reading to binary data with 0 as 0 volts and 1 as 5 volts before sending it to an IoT device](../../../../../translated_images/temperature-as-digital.85004491b977bae1.en.png)
+![A digital temperature sensor converting an analog reading to binary data with 0 as 0 volts and 1 as 5 volts before sending it to an IoT device](../../../../../translated_images/en/temperature-as-digital.85004491b977bae1.webp)
 
 Digital sensors can send more detailed or even encrypted data. For example, a camera captures images and sends them as digital data, often in a compressed format like JPEG. It can also stream video by sending frames or compressed video streams.
 
@@ -134,7 +134,7 @@ Common types of actuators include:
 
 Follow the appropriate guide below to add an actuator to your IoT device. You'll use a sensor to control an actuator, creating an IoT nightlight that turns on an LED when light levels are too low.
 
-![A flow chart of the assignment showing light levels being read and checked, and the LED begin controlled](../../../../../translated_images/assignment-1-flow.7552a51acb1a5ec858dca6e855cdbb44206434006df8ba3799a25afcdab1665d.en.png)
+![A flow chart of the assignment showing light levels being read and checked, and the LED begin controlled](../../../../../translated_images/en/assignment-1-flow.7552a51acb1a5ec858dca6e855cdbb44206434006df8ba3799a25afcdab1665d.png)
 
 * [Arduino - Wio Terminal](wio-terminal-actuator.md)
 * [Single-board computer - Raspberry Pi](pi-actuator.md)
@@ -149,7 +149,7 @@ Like sensors, actuators can be analog or digital.
 Analog actuators take an analog signal and convert it into a physical action, with the action varying based on the voltage supplied.
 
 One example is a dimmable light, where the brightness depends on the voltage provided.
-![A light dimmed at a low voltage and brighter at a higher voltage](../../../../../translated_images/dimmable-light.9ceffeb195dec1a849da718b2d71b32c35171ff7dfea9c07bbf82646a67acf6b.en.png)
+![A light dimmed at a low voltage and brighter at a higher voltage](../../../../../translated_images/en/dimmable-light.9ceffeb195dec1a849da718b2d71b32c35171ff7dfea9c07bbf82646a67acf6b.png)
 
 Just like with sensors, IoT devices operate using digital signals, not analog. To send an analog signal, the IoT device requires a digital-to-analog converter (DAC), which can either be built into the IoT device itself or included on a connector board. This converter transforms the 0s and 1s from the IoT device into an analog voltage that the actuator can use.
 
@@ -164,7 +164,7 @@ For instance, PWM can be used to control the speed of a motor.
 
 Imagine controlling a motor powered by a 5V supply. You send a short pulse to the motor, switching the voltage to high (5V) for 0.02 seconds. During this time, the motor rotates one-tenth of a turn, or 36°. The signal then pauses for 0.02 seconds, sending a low signal (0V). Each on-off cycle lasts 0.04 seconds, and the cycle repeats.
 
-![Pulse width modulation rotation of a motor at 150 RPM](../../../../../translated_images/pwm-motor-150rpm.83347ac04ca38482.en.png)
+![Pulse width modulation rotation of a motor at 150 RPM](../../../../../translated_images/en/pwm-motor-150rpm.83347ac04ca38482.webp)
 
 This means that in one second, you send 25 pulses of 5V, each lasting 0.02 seconds, causing the motor to rotate. Each pulse is followed by a 0.02-second pause at 0V, during which the motor does not rotate. Since each pulse rotates the motor by one-tenth of a turn, the motor completes 2.5 rotations per second. Using a digital signal, you've made the motor rotate at 2.5 rotations per second, or 150 [revolutions per minute](https://wikipedia.org/wiki/Revolutions_per_minute) (a common measure of rotational speed).
 
@@ -175,7 +175,7 @@ This means that in one second, you send 25 pulses of 5V, each lasting 0.02 secon
 
 > 🎓 When a PWM signal is on for half the time and off for the other half, it is called a [50% duty cycle](https://wikipedia.org/wiki/Duty_cycle). Duty cycles are expressed as the percentage of time the signal is in the "on" state compared to the "off" state.
 
-![Pulse width modulation rotation of a motor at 75 RPM](../../../../../translated_images/pwm-motor-75rpm.a5e4c939934b6e14.en.png)
+![Pulse width modulation rotation of a motor at 75 RPM](../../../../../translated_images/en/pwm-motor-75rpm.a5e4c939934b6e14.webp)
 
 You can adjust the motor speed by changing the duration of the pulses. For example, using the same motor, you can keep the cycle time at 0.04 seconds but reduce the "on" pulse to 0.01 seconds and increase the "off" pulse to 0.03 seconds. This results in the same number of pulses per second (25), but each "on" pulse is half as long. A shorter pulse rotates the motor by one-twentieth of a turn, and at 25 pulses per second, the motor completes 1.25 rotations per second, or 75 RPM. By modifying the pulse duration of a digital signal, you've halved the speed of an analog motor.
 
@@ -196,7 +196,7 @@ Digital actuators, like digital sensors, either have two states controlled by a 
 
 A simple example of a digital actuator is an LED. When the device sends a digital signal of 1, a high voltage is applied, lighting up the LED. When the device sends a digital signal of 0, the voltage drops to 0V, and the LED turns off.
 
-![An LED is off at 0 volts and on at 5V](../../../../../translated_images/led.ec6d94f66676a174ad06d9fa9ea49c2ee89beb18b312d5c6476467c66375b07f.en.png)
+![An LED is off at 0 volts and on at 5V](../../../../../translated_images/en/led.ec6d94f66676a174ad06d9fa9ea49c2ee89beb18b312d5c6476467c66375b07f.png)
 
 ✅ Can you think of other simple two-state actuators? One example is a solenoid, which is an electromagnet that can be activated to perform tasks like moving a door bolt to lock or unlock a door.
 

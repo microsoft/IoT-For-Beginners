@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Migrate your application logic to the cloud
 
-![A sketchnote overview of this lesson](../../../../../translated_images/lesson-9.dfe99c8e891f48e179724520da9f5794392cf9a625079281ccdcbf09bd85e1b6.en.jpg)
+![A sketchnote overview of this lesson](../../../../../translated_images/en/lesson-9.dfe99c8e891f48e179724520da9f5794392cf9a625079281ccdcbf09bd85e1b6.jpg)
 
 > Sketchnote by [Nitya Narasimhan](https://github.com/nitya). Click the image for a larger version.
 
@@ -37,11 +37,11 @@ In this lesson, we’ll cover:
 
 Serverless, or serverless computing, involves creating small blocks of code that run in the cloud in response to specific events. When an event occurs, your code is executed and receives data about the event. These events can originate from various sources, such as web requests, messages added to a queue, changes in a database, or messages sent to an IoT service by IoT devices.
 
-![Events being sent from an IoT service to a serverless service, all being processed at the same time by multiple functions being run](../../../../../translated_images/iot-messages-to-serverless.0194da1cc0732bb7d0f823aed3fce54735c6b1ad3bf36089804d8aaefc0a774f.en.png)
+![Events being sent from an IoT service to a serverless service, all being processed at the same time by multiple functions being run](../../../../../translated_images/en/iot-messages-to-serverless.0194da1cc0732bb7d0f823aed3fce54735c6b1ad3bf36089804d8aaefc0a774f.png)
 
 > 💁 If you've used database triggers before, think of this as a similar concept—code being triggered by an event, such as inserting a row.
 
-![When many events are sent at the same time, the serverless service scales up to run them all at the same time](../../../../../translated_images/serverless-scaling.f8c769adf0413fd1.en.png)
+![When many events are sent at the same time, the serverless service scales up to run them all at the same time](../../../../../translated_images/en/serverless-scaling.f8c769adf0413fd1.webp)
 
 Your code only runs when an event occurs; it doesn’t remain active at other times. When an event happens, your code is loaded and executed. This makes serverless highly scalable—if multiple events occur simultaneously, the cloud provider can execute your function as many times as needed, across available servers. However, if you need to share information between events, you’ll need to store it in a database or another persistent storage, as serverless functions don’t maintain in-memory state.
 
@@ -63,7 +63,7 @@ For IoT developers, the serverless model is ideal. You can write a function that
 
 Microsoft’s serverless computing service is called Azure Functions.
 
-![The Azure Functions logo](../../../../../translated_images/azure-functions-logo.1cfc8e3204c9c44aaf80fcf406fc8544d80d7f00f8d3e8ed6fed764563e17564.en.png)
+![The Azure Functions logo](../../../../../translated_images/en/azure-functions-logo.1cfc8e3204c9c44aaf80fcf406fc8544d80d7f00f8d3e8ed6fed764563e17564.png)
 
 The short video below provides an overview of Azure Functions:
 
@@ -244,7 +244,7 @@ The Azure Functions CLI can be used to create a new Functions app.
     VS Code. Initialize for optimal use with VS Code?
     ```
 
-    ![The notification](../../../../../translated_images/vscode-azure-functions-init-notification.bd19b49229963edb.en.png)
+    ![The notification](../../../../../translated_images/en/vscode-azure-functions-init-notification.bd19b49229963edb.webp)
 
     Select **Yes** from this notification.
 

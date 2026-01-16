@@ -154,11 +154,11 @@ CO_OP_TRANSLATOR_METADATA:
 
 1. Когато VS Code се стартира, той ще активира виртуалната среда за Python. Избраната виртуална среда ще се появи в долната статусна лента:
 
-    ![VS Code показва избраната виртуална среда](../../../../../translated_images/vscode-virtual-env.8ba42e04c3d533cf.bg.png)
+    ![VS Code показва избраната виртуална среда](../../../../../translated_images/bg/vscode-virtual-env.8ba42e04c3d533cf.png)
 
 1. Ако терминалът на VS Code вече работи, когато VS Code се стартира, той няма да има активирана виртуална среда в него. Най-лесното решение е да затворите терминала, като използвате бутона **Kill the active terminal instance**:
 
-    ![VS Code бутон за затваряне на активния терминал](../../../../../translated_images/vscode-kill-terminal.1cc4de7c6f25ee08.bg.png)
+    ![VS Code бутон за затваряне на активния терминал](../../../../../translated_images/bg/vscode-kill-terminal.1cc4de7c6f25ee08.png)
 
     Можете да разберете дали терминалът има активирана виртуална среда, като проверите дали името на виртуалната среда е префикс на подканата на терминала. Например, това може да бъде:
 
@@ -212,7 +212,7 @@ CO_OP_TRANSLATOR_METADATA:
 
     Приложението ще започне да работи и ще се отвори във вашия уеб браузър:
 
-    ![Приложението CounterFit работи в браузър](../../../../../translated_images/counterfit-first-run.433326358b669b31d0e99c3513cb01bfbb13724d162c99cdcc8f51ecf5f9c779.bg.png)
+    ![Приложението CounterFit работи в браузър](../../../../../translated_images/bg/counterfit-first-run.433326358b669b31d0e99c3513cb01bfbb13724d162c99cdcc8f51ecf5f9c779.png)
 
     То ще бъде отбелязано като *Disconnected*, със светодиод в горния десен ъгъл, който е изключен.
 
@@ -229,11 +229,11 @@ CO_OP_TRANSLATOR_METADATA:
 
 1. Ще трябва да стартирате нов терминал във VS Code, като изберете бутона **Create a new integrated terminal**. Това е, защото приложението CounterFit работи в текущия терминал.
 
-    ![VS Code бутон за създаване на нов интегриран терминал](../../../../../translated_images/vscode-new-terminal.77db8fc0f9cd3182.bg.png)
+    ![VS Code бутон за създаване на нов интегриран терминал](../../../../../translated_images/bg/vscode-new-terminal.77db8fc0f9cd3182.png)
 
 1. В този нов терминал стартирайте файла `app.py`, както преди. Статусът на CounterFit ще се промени на **Connected**, и светодиодът ще светне.
 
-    ![CounterFit показва статус Connected](../../../../../translated_images/counterfit-connected.ed30b46d8f79b0921f3fc70be10366e596a89dca3f80c2224a9d9fc98fccf884.bg.png)
+    ![CounterFit показва статус Connected](../../../../../translated_images/bg/counterfit-connected.ed30b46d8f79b0921f3fc70be10366e596a89dca3f80c2224a9d9fc98fccf884.png)
 
 > 💁 Можете да намерите този код в папката [code/virtual-device](../../../../../1-getting-started/lessons/1-introduction-to-iot/code/virtual-device).
 

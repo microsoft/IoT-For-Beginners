@@ -47,11 +47,11 @@ Tilføj fugtigheds- og temperatursensorerne til CounterFit-appen.
 
     1. Vælg knappen **Add** for at oprette fugtighedssensoren på Pin 5.
 
-    ![Indstillinger for fugtighedssensor](../../../../../translated_images/counterfit-create-humidity-sensor.2750e27b6f30e09cf4e22101defd5252710717620816ab41ba688f91f757c49a.da.png)
+    ![Indstillinger for fugtighedssensor](../../../../../translated_images/da/counterfit-create-humidity-sensor.2750e27b6f30e09cf4e22101defd5252710717620816ab41ba688f91f757c49a.png)
 
     Fugtighedssensoren vil blive oprettet og vises i sensorlisten.
 
-    ![Fugtighedssensor oprettet](../../../../../translated_images/counterfit-humidity-sensor.7b12f7f339e430cb26c8211d2dba4ef75261b353a01da0932698b5bebd693f27.da.png)
+    ![Fugtighedssensor oprettet](../../../../../translated_images/da/counterfit-humidity-sensor.7b12f7f339e430cb26c8211d2dba4ef75261b353a01da0932698b5bebd693f27.png)
 
 1. Opret en temperatursensor:
 
@@ -63,11 +63,11 @@ Tilføj fugtigheds- og temperatursensorerne til CounterFit-appen.
 
     1. Vælg knappen **Add** for at oprette temperatursensoren på Pin 6.
 
-    ![Indstillinger for temperatursensor](../../../../../translated_images/counterfit-create-temperature-sensor.199350ed34f7343d79dccbe95eaf6c11d2121f03d1c35ab9613b330c23f39b29.da.png)
+    ![Indstillinger for temperatursensor](../../../../../translated_images/da/counterfit-create-temperature-sensor.199350ed34f7343d79dccbe95eaf6c11d2121f03d1c35ab9613b330c23f39b29.png)
 
     Temperatursensoren vil blive oprettet og vises i sensorlisten.
 
-    ![Temperatursensor oprettet](../../../../../translated_images/counterfit-temperature-sensor.f0560236c96a9016bafce7f6f792476fe3367bc6941a1f7d5811d144d4bcbfff.da.png)
+    ![Temperatursensor oprettet](../../../../../translated_images/da/counterfit-temperature-sensor.f0560236c96a9016bafce7f6f792476fe3367bc6941a1f7d5811d144d4bcbfff.png)
 
 ## Programmer temperatursensor-appen
 

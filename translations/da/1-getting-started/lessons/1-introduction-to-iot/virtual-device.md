@@ -154,11 +154,11 @@ Opret en Python-applikation, der udskriver `"Hello World"` til konsollen.
 
 1. Når VS Code starter, vil det aktivere det virtuelle Python-miljø. Det valgte virtuelle miljø vil vises i den nederste statuslinje:
 
-    ![VS Code viser det valgte virtuelle miljø](../../../../../translated_images/vscode-virtual-env.8ba42e04c3d533cf.da.png)
+    ![VS Code viser det valgte virtuelle miljø](../../../../../translated_images/da/vscode-virtual-env.8ba42e04c3d533cf.png)
 
 1. Hvis VS Code-terminalen allerede kører, når VS Code starter op, vil den ikke have det virtuelle miljø aktiveret i sig. Det nemmeste er at lukke terminalen ved at bruge knappen **Kill the active terminal instance**:
 
-    ![VS Code Kill the active terminal instance-knap](../../../../../translated_images/vscode-kill-terminal.1cc4de7c6f25ee08.da.png)
+    ![VS Code Kill the active terminal instance-knap](../../../../../translated_images/da/vscode-kill-terminal.1cc4de7c6f25ee08.png)
 
     Du kan se, om terminalen har det virtuelle miljø aktiveret, da navnet på det virtuelle miljø vil være et præfiks på terminalprompten. For eksempel kan det være:
 
@@ -212,7 +212,7 @@ Som et andet 'Hello World'-trin vil du køre CounterFit-appen og forbinde din ko
 
     Appen vil begynde at køre og åbne i din webbrowser:
 
-    ![CounterFit-appen kører i en browser](../../../../../translated_images/counterfit-first-run.433326358b669b31d0e99c3513cb01bfbb13724d162c99cdcc8f51ecf5f9c779.da.png)
+    ![CounterFit-appen kører i en browser](../../../../../translated_images/da/counterfit-first-run.433326358b669b31d0e99c3513cb01bfbb13724d162c99cdcc8f51ecf5f9c779.png)
 
     Den vil være markeret som *Disconnected*, med LED'en i øverste højre hjørne slukket.
 
@@ -229,11 +229,11 @@ Som et andet 'Hello World'-trin vil du køre CounterFit-appen og forbinde din ko
 
 1. Du skal starte en ny VS Code-terminal ved at vælge knappen **Create a new integrated terminal**. Dette skyldes, at CounterFit-appen kører i den aktuelle terminal.
 
-    ![VS Code Create a new integrated terminal-knap](../../../../../translated_images/vscode-new-terminal.77db8fc0f9cd3182.da.png)
+    ![VS Code Create a new integrated terminal-knap](../../../../../translated_images/da/vscode-new-terminal.77db8fc0f9cd3182.png)
 
 1. I denne nye terminal skal du køre `app.py`-filen som før. Status for CounterFit vil ændre sig til **Connected**, og LED'en vil lyse op.
 
-    ![CounterFit viser som connected](../../../../../translated_images/counterfit-connected.ed30b46d8f79b0921f3fc70be10366e596a89dca3f80c2224a9d9fc98fccf884.da.png)
+    ![CounterFit viser som connected](../../../../../translated_images/da/counterfit-connected.ed30b46d8f79b0921f3fc70be10366e596a89dca3f80c2224a9d9fc98fccf884.png)
 
 > 💁 Du kan finde denne kode i [code/virtual-device](../../../../../1-getting-started/lessons/1-introduction-to-iot/code/virtual-device)-mappen.
 

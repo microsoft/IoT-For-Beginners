@@ -43,11 +43,11 @@ CO_OP_TRANSLATOR_METADATA:
 
     1. Натиснете бутона **Add**, за да създадете сензора *Soil Moisture* на Pin 0.
 
-    ![Настройки на сензора за влажност на почвата](../../../../../translated_images/counterfit-create-soil-moisture-sensor.35266135a5e0ae68b29a684d7db0d2933a8098b2307d197f7c71577b724603aa.bg.png)
+    ![Настройки на сензора за влажност на почвата](../../../../../translated_images/bg/counterfit-create-soil-moisture-sensor.35266135a5e0ae68b29a684d7db0d2933a8098b2307d197f7c71577b724603aa.png)
 
     Сензорът за влажност на почвата ще бъде създаден и ще се появи в списъка със сензори.
 
-    ![Създаден сензор за влажност на почвата](../../../../../translated_images/counterfit-soil-moisture-sensor.81742b2de0e9de60a3b3b9a2ff8ecc686d428eb6d71820f27a693be26e5aceee.bg.png)
+    ![Създаден сензор за влажност на почвата](../../../../../translated_images/bg/counterfit-soil-moisture-sensor.81742b2de0e9de60a3b3b9a2ff8ecc686d428eb6d71820f27a693be26e5aceee.png)
 
 ## Програмиране на приложението за сензор за влажност на почвата
 

@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Interakce s fyzickým světem pomocí senzorů a akčních členů
 
-![Přehled lekce ve formě sketchnote](../../../../../translated_images/lesson-3.cc3b7b4cd646de598698cce043c0393fd62ef42bac2eaf60e61272cd844250f4.cs.jpg)
+![Přehled lekce ve formě sketchnote](../../../../../translated_images/cs/lesson-3.cc3b7b4cd646de598698cce043c0393fd62ef42bac2eaf60e61272cd844250f4.jpg)
 
 > Sketchnote od [Nitya Narasimhan](https://github.com/nitya). Klikněte na obrázek pro větší verzi.
 
@@ -75,7 +75,7 @@ Některé z nejzákladnějších senzorů jsou analogové. Tyto senzory přijím
 
 Jedním z příkladů je potenciometr. Jedná se o otočný knoflík, který můžete otáčet mezi dvěma polohami, a senzor měří úhel otočení.
 
-![Potenciometr nastavený na střední hodnotu, přijímá 5 voltů a vrací 3,8 voltů](../../../../../translated_images/potentiometer.35a348b9ce22f6ec.cs.png)
+![Potenciometr nastavený na střední hodnotu, přijímá 5 voltů a vrací 3,8 voltů](../../../../../translated_images/cs/potentiometer.35a348b9ce22f6ec.png)
 
 IoT zařízení pošle elektrický signál do potenciometru s napětím, například 5 voltů (5V). Jakmile je potenciometr nastaven, mění napětí, které vychází na druhé straně. Představte si potenciometr označený jako knoflík, který jde od 0 do [11](https://wikipedia.org/wiki/Up_to_eleven), například jako ovladač hlasitosti na zesilovači. Když je potenciometr v poloze úplně vypnuto (0), vychází 0V (0 voltů). Když je v poloze úplně zapnuto (11), vychází 5V (5 voltů).
 
@@ -101,7 +101,7 @@ Digitální senzory, stejně jako analogové senzory, detekují svět kolem sebe
 
 Nejjednodušším digitálním senzorem je tlačítko nebo spínač. Jedná se o senzor se dvěma stavy, zapnuto nebo vypnuto.
 
-![Tlačítko přijímá 5 voltů. Když není stisknuto, vrací 0 voltů, když je stisknuto, vrací 5 voltů](../../../../../translated_images/button.eadb560b77ac45e56f523d9d8876e40444f63b419e33eb820082d461fa79490b.cs.png)
+![Tlačítko přijímá 5 voltů. Když není stisknuto, vrací 0 voltů, když je stisknuto, vrací 5 voltů](../../../../../translated_images/cs/button.eadb560b77ac45e56f523d9d8876e40444f63b419e33eb820082d461fa79490b.png)
 
 Piny na IoT zařízeních, jako jsou GPIO piny, mohou tento signál přímo měřit jako 0 nebo 1. Pokud je napětí odeslané stejné jako napětí vrácené, hodnota je 1, jinak je hodnota 0. Není potřeba signál převádět, může být pouze 1 nebo 0.
 
@@ -112,7 +112,7 @@ Piny na IoT zařízeních, jako jsou GPIO piny, mohou tento signál přímo mě�
 
 Pokročilejší digitální senzory čtou analogové hodnoty a poté je převádějí pomocí vestavěných ADC na digitální signály. Například digitální teplotní senzor stále používá termočlánek stejným způsobem jako analogový senzor a stále měří změnu napětí způsobenou odporem termočlánku při aktuální teplotě. Místo vrácení analogové hodnoty a spoléhání se na zařízení nebo připojovací desku pro převod na digitální signál, vestavěný ADC v senzoru hodnotu převede a odešle ji jako sérii 0 a 1 do IoT zařízení. Tyto 0 a 1 jsou odesílány stejným způsobem jako digitální signál pro tlačítko, kde 1 znamená plné napětí a 0 znamená 0V.
 
-![Digitální teplotní senzor převádí analogové čtení na binární data s 0 jako 0 voltů a 1 jako 5 voltů před odesláním do IoT zařízení](../../../../../translated_images/temperature-as-digital.85004491b977bae1.cs.png)
+![Digitální teplotní senzor převádí analogové čtení na binární data s 0 jako 0 voltů a 1 jako 5 voltů před odesláním do IoT zařízení](../../../../../translated_images/cs/temperature-as-digital.85004491b977bae1.png)
 
 Odesílání digitálních dat umožňuje senzorům být složitější a odesílat podrobnější data, dokonce i šifrovaná data pro bezpečné senzory. Jedním z příkladů je kamera. Jedná se o senzor, který zachycuje obraz a odesílá jej jako digitální data obsahující tento obraz, obvykle v komprimovaném formátu, jako je JPEG, aby jej mohlo číst IoT zařízení. Může dokonce streamovat video zachycením obrazů a odesíláním buď kompletního obrazu snímek po snímku, nebo komprimovaného video streamu.
 
@@ -134,7 +134,7 @@ Mezi běžné akční členy patří:
 
 Postupujte podle příslušného návodu níže a přidejte akční člen do svého IoT zařízení, který bude ovládán senzorem, abyste vytvořili IoT noční světlo. Bude shromažďovat úrovně světla ze světelného senzoru a používat akční člen ve formě LED diody k vyzařování světla, když je detekovaná úroveň světla příliš nízká.
 
-![Diagram úkolu ukazující čtení a kontrolu úrovní světla a ovládání LED](../../../../../translated_images/assignment-1-flow.7552a51acb1a5ec858dca6e855cdbb44206434006df8ba3799a25afcdab1665d.cs.png)
+![Diagram úkolu ukazující čtení a kontrolu úrovní světla a ovládání LED](../../../../../translated_images/cs/assignment-1-flow.7552a51acb1a5ec858dca6e855cdbb44206434006df8ba3799a25afcdab1665d.png)
 
 * [Arduino - Wio Terminal](wio-terminal-actuator.md)
 * [Jednodeskový počítač - Raspberry Pi](pi-actuator.md)
@@ -149,7 +149,7 @@ Stejně jako senzory, akční členy mohou být buď analogové, nebo digitáln�
 Analogové akční členy přijímají analogový signál a převádějí jej na nějakou formu interakce, kde se interakce mění na základě dodaného napětí.
 
 Jedním z příkladů je stmívatelné světlo, například to, které můžete mít doma. Množství dodaného napětí určuje, jak jasně svítí.
-![Světlo ztlumené při nízkém napětí a jasnější při vyšším napětí](../../../../../translated_images/dimmable-light.9ceffeb195dec1a849da718b2d71b32c35171ff7dfea9c07bbf82646a67acf6b.cs.png)
+![Světlo ztlumené při nízkém napětí a jasnější při vyšším napětí](../../../../../translated_images/cs/dimmable-light.9ceffeb195dec1a849da718b2d71b32c35171ff7dfea9c07bbf82646a67acf6b.png)
 
 Stejně jako u senzorů, skutečné IoT zařízení pracuje s digitálními signály, nikoli analogovými. To znamená, že k odeslání analogového signálu potřebuje IoT zařízení převodník z digitálního na analogový signál (DAC), buď přímo na IoT zařízení, nebo na připojovací desce. Ten převede 0 a 1 z IoT zařízení na analogové napětí, které může aktuátor využít.
 
@@ -164,7 +164,7 @@ Například pomocí PWM můžete ovládat rychlost motoru.
 
 Představte si, že ovládáte motor s napájením 5V. Pošlete krátký impuls do motoru, přepnete napětí na vysoké (5V) na dvě setiny sekundy (0,02s). Během této doby se motor může otočit o jednu desetinu otáčky, tedy o 36°. Signál se poté na dvě setiny sekundy (0,02s) přeruší, čímž se odešle nízký signál (0V). Každý cyklus zapnutí a vypnutí trvá 0,04s. Cyklus se poté opakuje.
 
-![Pulzně šířková modulace otáčení motoru při 150 otáčkách za minutu](../../../../../translated_images/pwm-motor-150rpm.83347ac04ca38482.cs.png)
+![Pulzně šířková modulace otáčení motoru při 150 otáčkách za minutu](../../../../../translated_images/cs/pwm-motor-150rpm.83347ac04ca38482.png)
 
 To znamená, že za jednu sekundu máte 25 impulsů 5V o délce 0,02s, které otáčejí motorem, každý následovaný 0,02s pauzou 0V, kdy se motor neotáčí. Každý impuls otočí motor o jednu desetinu otáčky, což znamená, že motor dokončí 2,5 otáčky za sekundu. Použili jste digitální signál k otáčení motoru rychlostí 2,5 otáčky za sekundu, tedy 150 [otáček za minutu](https://wikipedia.org/wiki/Revolutions_per_minute) (nestandardní měření rychlosti otáčení).
 
@@ -175,7 +175,7 @@ To znamená, že za jednu sekundu máte 25 impulsů 5V o délce 0,02s, které ot
 
 > 🎓 Když je PWM signál zapnutý polovinu času a vypnutý polovinu času, označuje se to jako [50% pracovní cyklus](https://wikipedia.org/wiki/Duty_cycle). Pracovní cykly se měří jako procento času, kdy je signál ve stavu zapnuto ve srovnání se stavem vypnuto.
 
-![Pulzně šířková modulace otáčení motoru při 75 otáčkách za minutu](../../../../../translated_images/pwm-motor-75rpm.a5e4c939934b6e14.cs.png)
+![Pulzně šířková modulace otáčení motoru při 75 otáčkách za minutu](../../../../../translated_images/cs/pwm-motor-75rpm.a5e4c939934b6e14.png)
 
 Rychlost motoru můžete změnit změnou délky impulsů. Například u stejného motoru můžete zachovat stejnou délku cyklu 0,04s, přičemž délku zapnutého impulsu zkrátíte na polovinu (0,01s) a délku vypnutého impulsu prodloužíte na 0,03s. Počet impulsů za sekundu (25) zůstává stejný, ale každý zapnutý impuls je poloviční. Poloviční impuls otočí motor o jednu dvacetinu otáčky, a při 25 impulsech za sekundu motor dokončí 1,25 otáčky za sekundu, tedy 75 otáček za minutu. Změnou délky impulsů digitálního signálu jste snížili rychlost analogového motoru na polovinu.
 
@@ -196,7 +196,7 @@ Digitální aktuátory, stejně jako digitální senzory, mají buď dva stavy o
 
 Jednoduchým digitálním aktuátorem je LED dioda. Když zařízení pošle digitální signál 1, odešle se vysoké napětí, které LED diodu rozsvítí. Když se pošle digitální signál 0, napětí klesne na 0V a LED dioda se vypne.
 
-![LED dioda je vypnutá při 0 voltech a zapnutá při 5V](../../../../../translated_images/led.ec6d94f66676a174ad06d9fa9ea49c2ee89beb18b312d5c6476467c66375b07f.cs.png)
+![LED dioda je vypnutá při 0 voltech a zapnutá při 5V](../../../../../translated_images/cs/led.ec6d94f66676a174ad06d9fa9ea49c2ee89beb18b312d5c6476467c66375b07f.png)
 
 ✅ Jaké další jednoduché dvoustavové aktuátory vás napadají? Jedním příkladem je solenoid, což je elektromagnet, který lze aktivovat k provádění úkonů, jako je pohyb závory dveří při zamykání/odemykání.
 

@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Trigger fruit quality detection from a sensor
 
-![A sketchnote overview of this lesson](../../../../../translated_images/lesson-18.92c32ed1d354caa5a54baa4032cf0b172d4655e8e326ad5d46c558a0def15365.en.jpg)
+![A sketchnote overview of this lesson](../../../../../translated_images/en/lesson-18.92c32ed1d354caa5a54baa4032cf0b172d4655e8e326ad5d46c558a0def15365.jpg)
 
 > Sketchnote by [Nitya Narasimhan](https://github.com/nitya). Click the image for a larger version.
 
@@ -48,7 +48,7 @@ IoT applications can be described as *things* (devices) sending data that genera
 
 ### Reference IoT architecture
 
-![A reference IoT architecture](../../../../../translated_images/iot-reference-architecture.2278b98b55c6d4e89bde18eada3688d893861d43507641804dd2f9d3079cfaa0.en.png)
+![A reference IoT architecture](../../../../../translated_images/en/iot-reference-architecture.2278b98b55c6d4e89bde18eada3688d893861d43507641804dd2f9d3079cfaa0.png)
 
 The diagram above illustrates a reference IoT architecture.
 
@@ -58,7 +58,7 @@ The diagram above illustrates a reference IoT architecture.
 * **Insights** are derived from serverless applications or analytics performed on stored data.
 * **Actions** include commands sent to devices or data visualizations that help humans make decisions.
 
-![A reference IoT architecture](../../../../../translated_images/iot-reference-architecture-azure.0b8d2161af924cb18ae48a8558a19541cca47f27264851b5b7e56d7b8bb372ac.en.png)
+![A reference IoT architecture](../../../../../translated_images/en/iot-reference-architecture-azure.0b8d2161af924cb18ae48a8558a19541cca47f27264851b5b7e56d7b8bb372ac.png)
 
 The diagram above shows some of the components and services covered in these lessons and how they fit into a reference IoT architecture.
 
@@ -98,7 +98,7 @@ You need to create a system where fruit is detected as it arrives on the conveyo
 
 ### Prototyping your application
 
-![A reference IoT architecture for fruit quality checking](../../../../../translated_images/iot-reference-architecture-fruit-quality.cc705f121c3b6fa71c800d9630935ac34bc08223a04601e35f41d5e9b5dd5207.en.png)
+![A reference IoT architecture for fruit quality checking](../../../../../translated_images/en/iot-reference-architecture-fruit-quality.cc705f121c3b6fa71c800d9630935ac34bc08223a04601e35f41d5e9b5dd5207.png)
 
 The diagram above shows a reference architecture for this prototype application.
 
@@ -115,7 +115,7 @@ For the prototype, you will implement all of this on a single device. If you are
 
 The IoT device needs a trigger to indicate when fruit is ready to be classified. One option is to measure when the fruit is at the correct location on the conveyor belt using a proximity sensor.
 
-![Proximity sensors send laser beams to objects like bananas and time how long till the beam is bounced back](../../../../../translated_images/proximity-sensor.f5cd752c77fb62fe.en.png)
+![Proximity sensors send laser beams to objects like bananas and time how long till the beam is bounced back](../../../../../translated_images/en/proximity-sensor.f5cd752c77fb62fe.webp)
 
 Proximity sensors measure the distance between the sensor and an object. They emit a beam of electromagnetic radiation, such as a laser or infrared light, and detect the radiation bouncing off the object. The time between the beam being sent and the signal bouncing back is used to calculate the distance.
 
@@ -133,7 +133,7 @@ Follow the relevant guide to use a proximity sensor to detect an object with you
 
 The prototype fruit detector involves multiple components communicating with each other.
 
-![The components communicating with each other](../../../../../translated_images/fruit-quality-detector-message-flow.adf2a65da8fd8741ac7af11361574de89adc126785d67606bb4d2ec00467e380.en.png)
+![The components communicating with each other](../../../../../translated_images/en/fruit-quality-detector-message-flow.adf2a65da8fd8741ac7af11361574de89adc126785d67606bb4d2ec00467e380.png)
 
 * A proximity sensor measures the distance to a piece of fruit and sends this data to IoT Hub.
 * A command to control the camera is sent from IoT Hub to the camera device.

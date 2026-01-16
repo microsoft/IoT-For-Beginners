@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Train a stock detector
 
-![A sketchnote overview of this lesson](../../../../../translated_images/lesson-19.cf6973cecadf080c4b526310620dc4d6f5994c80fb0139c6f378cc9ca2d435cd.en.jpg)
+![A sketchnote overview of this lesson](../../../../../translated_images/en/lesson-19.cf6973cecadf080c4b526310620dc4d6f5994c80fb0139c6f378cc9ca2d435cd.jpg)
 
 > Sketchnote by [Nitya Narasimhan](https://github.com/nitya). Click the image for a larger version.
 
@@ -45,7 +45,7 @@ Object detection involves identifying objects in images using AI. Unlike the ima
 
 Image classification is about categorizing an image as a whole—determining the probabilities that the entire image matches each tag. The model returns probabilities for every tag it was trained on.
 
-![Image classification of cashew nuts and tomato paste](../../../../../translated_images/image-classifier-cashews-tomato.bc2e16ab8f05cf9ac0f59f73e32efc4227f9a5b601b90b2c60f436694547a965.en.png)
+![Image classification of cashew nuts and tomato paste](../../../../../translated_images/en/image-classifier-cashews-tomato.bc2e16ab8f05cf9ac0f59f73e32efc4227f9a5b601b90b2c60f436694547a965.png)
 
 In the example above, two images are classified using a model trained to identify tubs of cashew nuts or cans of tomato paste. The first image is a tub of cashew nuts, and the classifier provides the following results:
 
@@ -69,7 +69,7 @@ When you use the model to make predictions, instead of receiving a list of tags 
 
 > 🎓 *Bounding boxes* are the rectangles drawn around an object.
 
-![Object detection of cashew nuts and tomato paste](../../../../../translated_images/object-detector-cashews-tomato.1af7c26686b4db0e709754aeb196f4e73271f54e2085db3bcccb70d4a0d84d97.en.png)
+![Object detection of cashew nuts and tomato paste](../../../../../translated_images/en/object-detector-cashews-tomato.1af7c26686b4db0e709754aeb196f4e73271f54e2085db3bcccb70d4a0d84d97.png)
 
 The image above contains both a tub of cashew nuts and three cans of tomato paste. The object detector identifies the cashew nuts, returning the bounding box around the cashew nuts along with the probability (97.6%) that the bounding box contains the object. The detector also identifies three cans of tomato paste, providing separate bounding boxes for each detected can, along with the probability for each.
 
@@ -120,7 +120,7 @@ You can train an object detector using Custom Vision, similar to how you trained
 
     When creating your project, use the `stock-detector-training` resource you created earlier. Select the *Object Detection* project type and the *Products on Shelves* domain.
 
-    ![The settings for the custom vision project with the name set to fruit-quality-detector, no description, the resource set to fruit-quality-detector-training, the project type set to classification, the classification types set to multi class and the domains set to food](../../../../../translated_images/custom-vision-create-object-detector-project.32d4fb9aa8e7e7375f8a799bfce517aca970f2cb65e42d4245c5e635c734ab29.en.png)
+    ![The settings for the custom vision project with the name set to fruit-quality-detector, no description, the resource set to fruit-quality-detector-training, the project type set to classification, the classification types set to multi class and the domains set to food](../../../../../translated_images/en/custom-vision-create-object-detector-project.32d4fb9aa8e7e7375f8a799bfce517aca970f2cb65e42d4245c5e635c734ab29.png)
 
     ✅ The *Products on Shelves* domain is specifically designed for detecting stock on store shelves. Learn more about the different domains in the [Select a domain documentation on Microsoft Docs](https://docs.microsoft.com/azure/cognitive-services/custom-vision-service/select-domain?WT.mc_id=academic-17441-jabenn#object-detection).
 
@@ -140,11 +140,11 @@ To train your model, you’ll need a set of images containing the objects you wa
 
 1. Follow the [Upload and tag images section of the Build an object detector quickstart on the Microsoft docs](https://docs.microsoft.com/azure/cognitive-services/custom-vision-service/get-started-build-detector?WT.mc_id=academic-17441-jabenn#upload-and-tag-images) to upload your training images. Create relevant tags for the objects you want to detect.
 
-    ![The upload dialogs showing the upload of ripe and unripe banana pictures](../../../../../translated_images/image-upload-object-detector.77c7892c3093cb59b79018edecd678749a75d71a099bc8a2d2f2f76320f88a5b.en.png)
+    ![The upload dialogs showing the upload of ripe and unripe banana pictures](../../../../../translated_images/en/image-upload-object-detector.77c7892c3093cb59b79018edecd678749a75d71a099bc8a2d2f2f76320f88a5b.png)
 
     When drawing bounding boxes around objects, keep them tight around the object. Tagging all the images can take time, but the tool will suggest bounding boxes, speeding up the process.
 
-    ![Tagging some tomato paste](../../../../../translated_images/object-detector-tag-tomato-paste.f47c362fb0f0eb582f3bc68cf3855fb43a805106395358d41896a269c210b7b4.en.png)
+    ![Tagging some tomato paste](../../../../../translated_images/en/object-detector-tag-tomato-paste.f47c362fb0f0eb582f3bc68cf3855fb43a805106395358d41896a269c210b7b4.png)
 
     > 💁 If you have more than 15 images per object, you can train after tagging 15 images and use the **Suggested tags** feature. This uses the trained model to detect objects in untagged images. You can confirm or reject the suggested bounding boxes, saving time.
 
@@ -162,7 +162,7 @@ Once your object detector is trained, you can test it by providing new images to
 
 1. Use the **Quick Test** button to upload testing images and verify that the objects are detected. Use the testing images you prepared earlier, not the ones used for training.
 
-    ![3 cans of tomato paste detected with probabilities of 38%, 35.5% and 34.6%](../../../../../translated_images/object-detector-detected-tomato-paste.52656fe87af4c37b4ee540526d63e73ed075da2e54a9a060aa528e0c562fb1b6.en.png)
+    ![3 cans of tomato paste detected with probabilities of 38%, 35.5% and 34.6%](../../../../../translated_images/en/object-detector-detected-tomato-paste.52656fe87af4c37b4ee540526d63e73ed075da2e54a9a060aa528e0c562fb1b6.png)
 
 1. Test all the available testing images and observe the probabilities.
 

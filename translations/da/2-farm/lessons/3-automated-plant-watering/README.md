@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Automatisk plantevanding
 
-![En sketchnote oversigt over denne lektion](../../../../../translated_images/lesson-7.30b5f577d3cb8e031238751475cb519c7d6dbaea261b5df4643d086ffb2a03bb.da.jpg)
+![En sketchnote oversigt over denne lektion](../../../../../translated_images/da/lesson-7.30b5f577d3cb8e031238751475cb519c7d6dbaea261b5df4643d086ffb2a03bb.jpg)
 
 > Sketchnote af [Nitya Narasimhan](https://github.com/nitya). Klik på billedet for en større version.
 
@@ -41,7 +41,7 @@ IoT-enheder bruger lav spænding. Selvom dette er nok til sensorer og lavstrøms
 
 Løsningen på dette er at have en pumpe tilsluttet en ekstern strømforsyning og bruge en aktuator til at tænde pumpen, ligesom du ville tænde en lampe. Det kræver en lille mængde energi (i form af energi i din krop) for din finger at trykke på en kontakt, og dette forbinder lampen til elnettet, der kører på 110v/240v.
 
-![En lyskontakt tænder strømmen til en lampe](../../../../../translated_images/light-switch.760317ad6ab8bd6d611da5352dfe9c73a94a0822ccec7df3c8bae35da18e1658.da.png)
+![En lyskontakt tænder strømmen til en lampe](../../../../../translated_images/da/light-switch.760317ad6ab8bd6d611da5352dfe9c73a94a0822ccec7df3c8bae35da18e1658.png)
 
 > 🎓 [Elnet](https://wikipedia.org/wiki/Mains_electricity) refererer til den elektricitet, der leveres til hjem og virksomheder gennem national infrastruktur i mange dele af verden.
 
@@ -55,11 +55,11 @@ Et relæ er en elektromekanisk kontakt, der konverterer et elektrisk signal til 
 
 > 🎓 [Elektromagneter](https://wikipedia.org/wiki/Electromagnet) er magneter, der skabes ved at føre elektricitet gennem en spole af ledning. Når elektriciteten tændes, bliver spolen magnetiseret. Når elektriciteten slukkes, mister spolen sin magnetisme.
 
-![Når tændt, skaber elektromagneten et magnetfelt, der tænder kontakten for udgangskredsløbet](../../../../../translated_images/relay-on.4db16a0fd6b66926.da.png)
+![Når tændt, skaber elektromagneten et magnetfelt, der tænder kontakten for udgangskredsløbet](../../../../../translated_images/da/relay-on.4db16a0fd6b66926.png)
 
 I et relæ driver et kontrolkredsløb elektromagneten. Når elektromagneten er tændt, trækker den en arm, der bevæger en kontakt, lukker et par kontakter og fuldender et udgangskredsløb.
 
-![Når slukket, skaber elektromagneten ikke et magnetfelt, der slukker kontakten for udgangskredsløbet](../../../../../translated_images/relay-off.c34a178a2960fecd.da.png)
+![Når slukket, skaber elektromagneten ikke et magnetfelt, der slukker kontakten for udgangskredsløbet](../../../../../translated_images/da/relay-off.c34a178a2960fecd.png)
 
 Når kontrolkredsløbet er slukket, slukkes elektromagneten, frigiver armen og åbner kontakterne, hvilket slukker udgangskredsløbet. Relæer er digitale aktuatorer - et højt signal til relæet tænder det, et lavt signal slukker det.
 
@@ -81,11 +81,11 @@ Når armen bevæger sig, kan du normalt høre den lave kontakt med elektromagnet
 
 Elektromagneten behøver ikke meget strøm for at aktivere og trække armen; den kan styres med 3,3V eller 5V output fra en IoT-udviklingskit. Udgangskredsløbet kan bære meget mere strøm, afhængigt af relæet, inklusive elnetspænding eller endda højere strømniveauer til industriel brug. På denne måde kan en IoT-udviklingskit styre et vandingssystem, fra en lille pumpe til en enkelt plante, op til et massivt industrielt system til en hel kommerciel gård.
 
-![Et Grove-relæ med kontrolkredsløb, udgangskredsløb og relæ mærket](../../../../../translated_images/grove-relay-labelled.293e068f5c3c2a199bd7892f2661fdc9e10c920b535cfed317fbd6d1d4ae1168.da.png)
+![Et Grove-relæ med kontrolkredsløb, udgangskredsløb og relæ mærket](../../../../../translated_images/da/grove-relay-labelled.293e068f5c3c2a199bd7892f2661fdc9e10c920b535cfed317fbd6d1d4ae1168.png)
 
 Billedet ovenfor viser et Grove-relæ. Kontrolkredsløbet forbinder til en IoT-enhed og tænder eller slukker relæet ved hjælp af 3,3V eller 5V. Udgangskredsløbet har to terminaler, hvoraf en kan være strøm eller jord. Udgangskredsløbet kan håndtere op til 250V ved 10A, nok til en række enheder, der drives af elnettet. Du kan få relæer, der kan håndtere endnu højere strømniveauer.
 
-![En pumpe forbundet via et relæ](../../../../../translated_images/pump-wired-to-relay.66c5cfc0d8918990.da.png)
+![En pumpe forbundet via et relæ](../../../../../translated_images/da/pump-wired-to-relay.66c5cfc0d8918990.png)
 
 I billedet ovenfor leveres strøm til en pumpe via et relæ. Der er en rød ledning, der forbinder +5V-terminalen på en USB-strømforsyning til en terminal på relæets udgangskredsløb, og en anden rød ledning, der forbinder den anden terminal på udgangskredsløbet til pumpen. En sort ledning forbinder pumpen til jord på USB-strømforsyningen. Når relæet tændes, fuldender det kredsløbet, sender 5V til pumpen og tænder pumpen.
 
@@ -135,7 +135,7 @@ Tilbage i lektion 3 byggede du en natlampe - en LED, der tænder, så snart et l
 
 Hvis du lavede den sidste lektion om jordfugtighed med en fysisk sensor, ville du have bemærket, at det tog et par sekunder for jordfugtighedsmålingen at falde, efter du vandede din plante. Dette skyldes ikke, at sensoren er langsom, men fordi det tager tid for vand at trænge igennem jorden.
 💁 Hvis du vandede for tæt på sensoren, har du måske set aflæsningen falde hurtigt og derefter stige igen - dette skyldes, at vandet nær sensoren spreder sig i resten af jorden, hvilket reducerer jordfugtigheden omkring sensoren.
-![En måling af jordfugtighed på 658 ændrer sig ikke under vanding, den falder først til 320 efter vanding, når vandet er trængt igennem jorden](../../../../../translated_images/soil-moisture-travel.a0e31af222cf1438.da.png)
+![En måling af jordfugtighed på 658 ændrer sig ikke under vanding, den falder først til 320 efter vanding, når vandet er trængt igennem jorden](../../../../../translated_images/da/soil-moisture-travel.a0e31af222cf1438.png)
 
 I diagrammet ovenfor viser en måling af jordfugtighed 658. Planten bliver vandet, men denne måling ændrer sig ikke med det samme, da vandet endnu ikke har nået sensoren. Vanding kan endda afsluttes, før vandet når sensoren, og værdien falder for at afspejle det nye fugtighedsniveau.
 
@@ -157,11 +157,11 @@ Hvor længe skal relæet være tændt hver gang? Det er bedre at være forsigtig
 
 > 💁 Denne form for timingkontrol er meget specifik for den IoT-enhed, du bygger, den egenskab, du måler, og de sensorer og aktuatorer, der bruges.
 
-![En jordbærplante forbundet til vand via en pumpe, hvor pumpen er forbundet til et relæ. Relæet og en jordfugtighedssensor i planten er begge forbundet til en Raspberry Pi](../../../../../translated_images/strawberry-with-pump.b410fc72ac6aabad.da.png)
+![En jordbærplante forbundet til vand via en pumpe, hvor pumpen er forbundet til et relæ. Relæet og en jordfugtighedssensor i planten er begge forbundet til en Raspberry Pi](../../../../../translated_images/da/strawberry-with-pump.b410fc72ac6aabad.png)
 
 For eksempel har jeg en jordbærplante med en jordfugtighedssensor og en pumpe, der styres af et relæ. Jeg har observeret, at når jeg tilføjer vand, tager det cirka 20 sekunder, før målingen af jordfugtighed stabiliserer sig. Det betyder, at jeg skal slukke relæet og vente 20 sekunder, før jeg kontrollerer fugtighedsniveauerne. Jeg vil hellere have for lidt vand end for meget - jeg kan altid tænde pumpen igen, men jeg kan ikke fjerne vand fra planten.
 
-![Trin 1, tag måling. Trin 2, tilføj vand. Trin 3, vent på, at vandet trænger igennem jorden. Trin 4, tag måling igen](../../../../../translated_images/soil-moisture-delay.865f3fae206db01d.da.png)
+![Trin 1, tag måling. Trin 2, tilføj vand. Trin 3, vent på, at vandet trænger igennem jorden. Trin 4, tag måling igen](../../../../../translated_images/da/soil-moisture-delay.865f3fae206db01d.png)
 
 Det betyder, at den bedste proces ville være en vandingscyklus, der ser sådan ud:
 

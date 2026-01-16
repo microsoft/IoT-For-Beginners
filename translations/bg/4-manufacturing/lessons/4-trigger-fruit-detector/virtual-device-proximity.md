@@ -45,11 +45,11 @@ CO_OP_TRANSLATOR_METADATA:
 
     1. Натиснете бутона **Add**, за да създадете сензора за разстояние.
 
-    ![Настройки на сензора за разстояние](../../../../../translated_images/counterfit-create-distance-sensor.967c9fb98f27888d95920c9784d004c972490eb71f70397fe13bd70a79a879a3.bg.png)
+    ![Настройки на сензора за разстояние](../../../../../translated_images/bg/counterfit-create-distance-sensor.967c9fb98f27888d95920c9784d004c972490eb71f70397fe13bd70a79a879a3.png)
 
     Сензорът за разстояние ще бъде създаден и ще се появи в списъка със сензори.
 
-    ![Създаден сензор за разстояние](../../../../../translated_images/counterfit-distance-sensor.079eefeeea0b68afc36431ce8fcbe2f09a7e4916ed1cd5cb30e696db53bc18fa.bg.png)
+    ![Създаден сензор за разстояние](../../../../../translated_images/bg/counterfit-distance-sensor.079eefeeea0b68afc36431ce8fcbe2f09a7e4916ed1cd5cb30e696db53bc18fa.png)
 
 ## Програмиране на сензора за разстояние
 

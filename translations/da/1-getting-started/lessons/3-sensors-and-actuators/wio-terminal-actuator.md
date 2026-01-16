@@ -35,7 +35,7 @@ Grove LED'en kommer som en modul med et udvalg af LED'er, så du kan vælge farv
 
 Tilslut LED'en.
 
-![En Grove LED](../../../../../translated_images/grove-led.6c853be93f473cf2c439cfc74bb1064732b22251a83cedf66e62f783f9cc1a79.da.png)
+![En Grove LED](../../../../../translated_images/da/grove-led.6c853be93f473cf2c439cfc74bb1064732b22251a83cedf66e62f783f9cc1a79.png)
 
 1. Vælg din favorit LED og indsæt benene i de to huller på LED-modulet.
 
@@ -51,7 +51,7 @@ Tilslut LED'en.
 
     > 💁 Det højre Grove-stik kan bruges med analoge eller digitale sensorer og aktuatorer. Det venstre stik er kun til digitale sensorer og aktuatorer. C vil blive dækket i en senere lektion.
 
-![Grove LED tilsluttet det højre stik](../../../../../translated_images/wio-led.265a1897e72d7f21.da.png)
+![Grove LED tilsluttet det højre stik](../../../../../translated_images/da/wio-led.265a1897e72d7f21.png)
 
 ## Programmer natlampen
 

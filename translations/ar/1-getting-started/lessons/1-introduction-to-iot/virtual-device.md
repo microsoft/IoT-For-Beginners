@@ -154,11 +154,11 @@ CO_OP_TRANSLATOR_METADATA:
 
 1. عند تشغيل VS Code، سيتم تفعيل البيئة الافتراضية لـ Python. ستظهر البيئة الافتراضية المحددة في شريط الحالة السفلي:
 
-    ![VS Code showing the selected virtual environment](../../../../../translated_images/vscode-virtual-env.8ba42e04c3d533cf.ar.png)
+    ![VS Code showing the selected virtual environment](../../../../../translated_images/ar/vscode-virtual-env.8ba42e04c3d533cf.png)
 
 1. إذا كانت طرفية VS Code تعمل بالفعل عند بدء تشغيل VS Code، فلن يتم تفعيل البيئة الافتراضية فيها. أسهل شيء يمكنك القيام به هو إنهاء الطرفية باستخدام زر **Kill the active terminal instance**:
 
-    ![VS Code Kill the active terminal instance button](../../../../../translated_images/vscode-kill-terminal.1cc4de7c6f25ee08.ar.png)
+    ![VS Code Kill the active terminal instance button](../../../../../translated_images/ar/vscode-kill-terminal.1cc4de7c6f25ee08.png)
 
     يمكنك معرفة ما إذا كانت الطرفية تحتوي على البيئة الافتراضية مفعلة حيث سيكون اسم البيئة الافتراضية عبارة عن بادئة على موجه الطرفية. على سبيل المثال، قد يكون:
 
@@ -212,7 +212,7 @@ CO_OP_TRANSLATOR_METADATA:
 
     سيبدأ التطبيق في التشغيل ويفتح في متصفح الويب الخاص بك:
 
-    ![The Counter Fit app running in a browser](../../../../../translated_images/counterfit-first-run.433326358b669b31d0e99c3513cb01bfbb13724d162c99cdcc8f51ecf5f9c779.ar.png)
+    ![The Counter Fit app running in a browser](../../../../../translated_images/ar/counterfit-first-run.433326358b669b31d0e99c3513cb01bfbb13724d162c99cdcc8f51ecf5f9c779.png)
 
     سيتم تصنيفه كـ *Disconnected*، مع إطفاء LED في الزاوية العلوية اليمنى.
 
@@ -229,11 +229,11 @@ CO_OP_TRANSLATOR_METADATA:
 
 1. ستحتاج إلى تشغيل طرفية جديدة في VS Code عن طريق تحديد زر **Create a new integrated terminal**. هذا لأن تطبيق CounterFit يعمل في الطرفية الحالية.
 
-    ![VS Code Create a new integrated terminal button](../../../../../translated_images/vscode-new-terminal.77db8fc0f9cd3182.ar.png)
+    ![VS Code Create a new integrated terminal button](../../../../../translated_images/ar/vscode-new-terminal.77db8fc0f9cd3182.png)
 
 1. في هذه الطرفية الجديدة، قم بتشغيل ملف `app.py` كما كان من قبل. ستتغير حالة CounterFit إلى **Connected** وسيضيء LED.
 
-    ![Counter Fit showing as connected](../../../../../translated_images/counterfit-connected.ed30b46d8f79b0921f3fc70be10366e596a89dca3f80c2224a9d9fc98fccf884.ar.png)
+    ![Counter Fit showing as connected](../../../../../translated_images/ar/counterfit-connected.ed30b46d8f79b0921f3fc70be10366e596a89dca3f80c2224a9d9fc98fccf884.png)
 
 > 💁 يمكنك العثور على هذا الكود في مجلد [code/virtual-device](../../../../../1-getting-started/lessons/1-introduction-to-iot/code/virtual-device).
 

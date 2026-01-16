@@ -57,7 +57,7 @@ Advokáti Azure Cloud ve společnosti Microsoft jsou potěšeni, že mohou nabí
 
 Projekty pokrývají cestu potravin od farmy až na stůl. To zahrnuje zemědělství, logistiku, výrobu, maloobchod a spotřebitele - všechny populární oblasti průmyslu pro IoT zařízení.
 
-![Plán kurzu ukazující 24 lekcí pokrývajících úvod, zemědělství, dopravu, zpracování, maloobchod a vaření](../../translated_images/Roadmap.bb1dec285dda0eda.cs.jpg)
+![Plán kurzu ukazující 24 lekcí pokrývajících úvod, zemědělství, dopravu, zpracování, maloobchod a vaření](../../translated_images/cs/Roadmap.bb1dec285dda0eda.jpg)
 
 > Sketchnote od [Nitya Narasimhan](https://github.com/nitya). Klikněte na obrázek pro větší verzi.
 

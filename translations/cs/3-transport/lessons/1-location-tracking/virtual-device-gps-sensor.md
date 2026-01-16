@@ -47,11 +47,11 @@ Přidejte GPS senzor do aplikace CounterFit.
 
     1. Vyberte tlačítko **Add** pro vytvoření GPS senzoru na portu `/dev/ttyAMA0`.
 
-    ![Nastavení GPS senzoru](../../../../../translated_images/counterfit-create-gps-sensor.6385dc9357d85ad1d47b4abb2525e7651fd498917d25eefc5a72feab09eedc70.cs.png)
+    ![Nastavení GPS senzoru](../../../../../translated_images/cs/counterfit-create-gps-sensor.6385dc9357d85ad1d47b4abb2525e7651fd498917d25eefc5a72feab09eedc70.png)
 
     GPS senzor bude vytvořen a objeví se v seznamu senzorů.
 
-    ![Vytvořený GPS senzor](../../../../../translated_images/counterfit-gps-sensor.3fbb15af0a5367566f2f11324ef5a6f30861cdf2b497071a5e002b7aa473550e.cs.png)
+    ![Vytvořený GPS senzor](../../../../../translated_images/cs/counterfit-gps-sensor.3fbb15af0a5367566f2f11324ef5a6f30861cdf2b497071a5e002b7aa473550e.png)
 
 ## Programování GPS senzoru
 
@@ -111,17 +111,17 @@ Naprogramujte aplikaci GPS senzoru.
 
     * Nastavte **Source** na `Lat/Lon` a zadejte konkrétní zeměpisnou šířku, délku a počet satelitů použitých k získání GPS fixu. Tato hodnota bude odeslána pouze jednou, takže zaškrtněte políčko **Repeat**, aby se data opakovala každou sekundu.
 
-      ![GPS senzor s vybraným lat lon](../../../../../translated_images/counterfit-gps-sensor-latlon.008c867d75464fbe7f84107cc57040df565ac07cb57d2f21db37d087d470197d.cs.png)
+      ![GPS senzor s vybraným lat lon](../../../../../translated_images/cs/counterfit-gps-sensor-latlon.008c867d75464fbe7f84107cc57040df565ac07cb57d2f21db37d087d470197d.png)
 
     * Nastavte **Source** na `NMEA` a přidejte některé NMEA věty do textového pole. Všechny tyto hodnoty budou odeslány, s prodlevou 1 sekundy před každou novou větou GGA (fixace polohy).
 
-      ![GPS senzor s nastavenými NMEA větami](../../../../../translated_images/counterfit-gps-sensor-nmea.c62eea442171e17e19528b051b104cfcecdc9cd18db7bc72920f29821ae63f73.cs.png)
+      ![GPS senzor s nastavenými NMEA větami](../../../../../translated_images/cs/counterfit-gps-sensor-nmea.c62eea442171e17e19528b051b104cfcecdc9cd18db7bc72920f29821ae63f73.png)
 
       Můžete použít nástroj jako [nmeagen.org](https://www.nmeagen.org) k vytvoření těchto vět nakreslením na mapě. Tyto hodnoty budou odeslány pouze jednou, takže zaškrtněte políčko **Repeat**, aby se data opakovala jednu sekundu poté, co byla všechna odeslána.
 
     * Nastavte **Source** na GPX soubor a nahrajte GPX soubor s trasovými lokacemi. GPX soubory můžete stáhnout z řady populárních mapovacích a turistických webů, jako je [AllTrails](https://www.alltrails.com/). Tyto soubory obsahují více GPS lokací jako trasu a GPS senzor vrátí každou novou lokaci v intervalech 1 sekundy.
 
-      ![GPS senzor s nastaveným GPX souborem](../../../../../translated_images/counterfit-gps-sensor-gpxfile.8310b063ce8a425ccc8ebeec8306aeac5e8e55207f007d52c6e1194432a70cd9.cs.png)
+      ![GPS senzor s nastaveným GPX souborem](../../../../../translated_images/cs/counterfit-gps-sensor-gpxfile.8310b063ce8a425ccc8ebeec8306aeac5e8e55207f007d52c6e1194432a70cd9.png)
 
       Tyto hodnoty budou odeslány pouze jednou, takže zaškrtněte políčko **Repeat**, aby se data opakovala jednu sekundu poté, co byla všechna odeslána.
 

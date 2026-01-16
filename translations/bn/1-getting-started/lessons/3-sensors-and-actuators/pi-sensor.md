@@ -25,13 +25,13 @@ CO_OP_TRANSLATOR_METADATA:
 
 লাইট সেন্সর সংযুক্ত করুন
 
-![একটি Grove লাইট সেন্সর](../../../../../translated_images/grove-light-sensor.b8127b7c434e632d6bcdb57587a14e9ef69a268a22df95d08628f62b8fa5505c.bn.png)
+![একটি Grove লাইট সেন্সর](../../../../../translated_images/bn/grove-light-sensor.b8127b7c434e632d6bcdb57587a14e9ef69a268a22df95d08628f62b8fa5505c.png)
 
 1. Grove কেবলের এক প্রান্ত লাইট সেন্সর মডিউলের সকেটে প্রবেশ করান। এটি শুধুমাত্র একটি নির্দিষ্ট দিকেই প্রবেশ করবে।
 
 1. রাস্পবেরি পাই বন্ধ অবস্থায়, Grove কেবলের অন্য প্রান্তটি Grove Base হ্যাটের **A0** নামে চিহ্নিত অ্যানালগ সকেটে সংযুক্ত করুন। এই সকেটটি GPIO পিনের পাশে থাকা সকেটের সারিতে ডান দিক থেকে দ্বিতীয়।
 
-![Grove লাইট সেন্সর A0 সকেটে সংযুক্ত](../../../../../translated_images/pi-light-sensor.66cc1e31fa48cd7d5f23400d4b2119aa41508275cb7c778053a7923b4e972d7e.bn.png)
+![Grove লাইট সেন্সর A0 সকেটে সংযুক্ত](../../../../../translated_images/bn/pi-light-sensor.66cc1e31fa48cd7d5f23400d4b2119aa41508275cb7c778053a7923b4e972d7e.png)
 
 ## লাইট সেন্সর প্রোগ্রাম করুন
 

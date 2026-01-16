@@ -35,7 +35,7 @@ Otherwise
 
 قم بتوصيل الـ LED.
 
-![صورة لـ Grove LED](../../../../../translated_images/grove-led.6c853be93f473cf2c439cfc74bb1064732b22251a83cedf66e62f783f9cc1a79.ar.png)
+![صورة لـ Grove LED](../../../../../translated_images/ar/grove-led.6c853be93f473cf2c439cfc74bb1064732b22251a83cedf66e62f783f9cc1a79.png)
 
 1. اختر الـ LED المفضل لديك وأدخل الأرجل في الثقبين الموجودين على وحدة الـ LED.
 
@@ -51,7 +51,7 @@ Otherwise
 
     > 💁 يمكن استخدام المقبس الموجود على الجانب الأيمن من Grove مع المستشعرات والمشغلات التناظرية أو الرقمية. المقبس الموجود على الجانب الأيسر مخصص فقط للمستشعرات والمشغلات الرقمية.
 
-![الـ Grove LED متصل بالمقبس الأيمن](../../../../../translated_images/wio-led.265a1897e72d7f21.ar.png)
+![الـ Grove LED متصل بالمقبس الأيمن](../../../../../translated_images/ar/wio-led.265a1897e72d7f21.png)
 
 ## برمجة الضوء الليلي
 

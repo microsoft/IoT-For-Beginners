@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Το [Raspberry Pi](https://raspberrypi.org) είναι ένας υπολογιστής σε μία μόνο πλακέτα. Μπορείτε να προσθέσετε αισθητήρες και ενεργοποιητές χρησιμοποιώντας μια μεγάλη ποικιλία συσκευών και οικοσυστημάτων, και για αυτά τα μαθήματα θα χρησιμοποιήσετε ένα οικοσύστημα υλικού που ονομάζεται [Grove](https://www.seeedstudio.com/category/Grove-c-1003.html). Θα προγραμματίσετε το Pi σας και θα έχετε πρόσβαση στους αισθητήρες Grove χρησιμοποιώντας Python.
 
-![Ένα Raspberry Pi 4](../../../../../translated_images/raspberry-pi-4.fd4590d308c3d456.el.jpg)
+![Ένα Raspberry Pi 4](../../../../../translated_images/el/raspberry-pi-4.fd4590d308c3d456.jpg)
 
 ## Ρύθμιση
 
@@ -112,7 +112,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 1. Από το Raspberry Pi Imager, επιλέξτε το κουμπί **CHOOSE OS**, στη συνέχεια επιλέξτε *Raspberry Pi OS (Other)*, ακολουθούμενο από *Raspberry Pi OS Lite (32-bit)*.
 
-    ![Το Raspberry Pi Imager με επιλεγμένο το Raspberry Pi OS Lite](../../../../../translated_images/raspberry-pi-imager.24aedeab9e233d84.el.png)
+    ![Το Raspberry Pi Imager με επιλεγμένο το Raspberry Pi OS Lite](../../../../../translated_images/el/raspberry-pi-imager.24aedeab9e233d84.png)
 
     > 💁 Το Raspberry Pi OS Lite είναι μια έκδοση του Raspberry Pi OS που δεν έχει το desktop UI ή εργαλεία βασισμένα σε UI. Αυτά δεν χρειάζονται για ένα headless Pi και κάνουν την εγκατάσταση μικρότερη και τον χρόνο εκκίνησης πιο γρήγορο.
 
@@ -223,7 +223,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 1. Ανοίξτε αυτόν τον φάκελο στο VS Code επιλέγοντας *File -> Open...* και επιλέγοντας τον φάκελο *nightlight*, στη συνέχεια επιλέξτε **OK**.
 
-    ![Το παράθυρο διαλόγου του VS Code που δείχνει τον φάκελο nightlight](../../../../../translated_images/vscode-open-nightlight-remote.d3d2a4011e30d535.el.png)
+    ![Το παράθυρο διαλόγου του VS Code που δείχνει τον φάκελο nightlight](../../../../../translated_images/el/vscode-open-nightlight-remote.d3d2a4011e30d535.png)
 
 1. Ανοίξτε το αρχείο `app.py` από τον εξερευνητή του VS Code και προσθέστε τον παρακάτω κώδικα:
 

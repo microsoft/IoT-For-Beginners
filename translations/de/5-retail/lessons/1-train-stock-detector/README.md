@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Trainiere einen Lagerbestand-Detektor
 
-![Eine Sketchnote-Übersicht dieser Lektion](../../../../../translated_images/lesson-19.cf6973cecadf080c4b526310620dc4d6f5994c80fb0139c6f378cc9ca2d435cd.de.jpg)
+![Eine Sketchnote-Übersicht dieser Lektion](../../../../../translated_images/de/lesson-19.cf6973cecadf080c4b526310620dc4d6f5994c80fb0139c6f378cc9ca2d435cd.jpg)
 
 > Sketchnote von [Nitya Narasimhan](https://github.com/nitya). Klicken Sie auf das Bild für eine größere Version.
 
@@ -45,7 +45,7 @@ Die Objekterkennung umfasst das Erkennen von Objekten in Bildern mithilfe von KI
 
 Die Bildklassifikation dient dazu, ein Bild als Ganzes zu klassifizieren – welche Wahrscheinlichkeiten bestehen, dass das gesamte Bild mit jedem Tag übereinstimmt. Sie erhalten Wahrscheinlichkeiten für jedes Tag, das zum Trainieren des Modells verwendet wurde.
 
-![Bildklassifikation von Cashewkernen und Tomatenmark](../../../../../translated_images/image-classifier-cashews-tomato.bc2e16ab8f05cf9ac0f59f73e32efc4227f9a5b601b90b2c60f436694547a965.de.png)
+![Bildklassifikation von Cashewkernen und Tomatenmark](../../../../../translated_images/de/image-classifier-cashews-tomato.bc2e16ab8f05cf9ac0f59f73e32efc4227f9a5b601b90b2c60f436694547a965.png)
 
 Im obigen Beispiel werden zwei Bilder mit einem Modell klassifiziert, das darauf trainiert wurde, Dosen mit Cashewkernen oder Tomatenmark zu klassifizieren. Das erste Bild zeigt eine Dose Cashewkerne und hat zwei Ergebnisse vom Bildklassifikator:
 
@@ -69,7 +69,7 @@ Wenn Sie es dann zur Vorhersage von Bildern verwenden, erhalten Sie anstelle ein
 
 > 🎓 *Begrenzungsrahmen* sind die Rahmen um ein Objekt.
 
-![Objekterkennung von Cashewkernen und Tomatenmark](../../../../../translated_images/object-detector-cashews-tomato.1af7c26686b4db0e709754aeb196f4e73271f54e2085db3bcccb70d4a0d84d97.de.png)
+![Objekterkennung von Cashewkernen und Tomatenmark](../../../../../translated_images/de/object-detector-cashews-tomato.1af7c26686b4db0e709754aeb196f4e73271f54e2085db3bcccb70d4a0d84d97.png)
 
 Das obige Bild enthält sowohl eine Dose Cashewkerne als auch drei Dosen Tomatenmark. Der Objekterkenner hat die Cashewkerne erkannt und den Begrenzungsrahmen zurückgegeben, der die Cashewkerne mit der prozentualen Wahrscheinlichkeit enthält, dass der Begrenzungsrahmen das Objekt enthält, in diesem Fall 97,6%. Der Objekterkenner hat auch drei Dosen Tomatenmark erkannt und liefert drei separate Begrenzungsrahmen, einen für jede erkannte Dose, und jeder hat eine prozentuale Wahrscheinlichkeit, dass der Begrenzungsrahmen eine Dose Tomatenmark enthält.
 
@@ -120,7 +120,7 @@ Sie können einen Objekterkenner mit Custom Vision trainieren, ähnlich wie Sie 
 
     Wenn Sie Ihr Projekt erstellen, stellen Sie sicher, dass Sie die zuvor erstellte Ressource `stock-detector-training` verwenden. Verwenden Sie den Projekttyp *Objekterkennung* und die Domäne *Produkte in Regalen*.
 
-    ![Die Einstellungen für das Custom Vision-Projekt mit dem Namen fruit-quality-detector, keine Beschreibung, die Ressource auf fruit-quality-detector-training gesetzt, der Projekttyp auf Klassifikation gesetzt, die Klassifikationstypen auf Multi-Klasse gesetzt und die Domänen auf Lebensmittel gesetzt](../../../../../translated_images/custom-vision-create-object-detector-project.32d4fb9aa8e7e7375f8a799bfce517aca970f2cb65e42d4245c5e635c734ab29.de.png)
+    ![Die Einstellungen für das Custom Vision-Projekt mit dem Namen fruit-quality-detector, keine Beschreibung, die Ressource auf fruit-quality-detector-training gesetzt, der Projekttyp auf Klassifikation gesetzt, die Klassifikationstypen auf Multi-Klasse gesetzt und die Domänen auf Lebensmittel gesetzt](../../../../../translated_images/de/custom-vision-create-object-detector-project.32d4fb9aa8e7e7375f8a799bfce517aca970f2cb65e42d4245c5e635c734ab29.png)
 
     ✅ Die Domäne "Produkte in Regalen" ist speziell darauf ausgerichtet, Bestände in Ladenregalen zu erkennen. Lesen Sie mehr über die verschiedenen Domänen in der [Dokumentation zur Auswahl einer Domäne auf Microsoft Docs](https://docs.microsoft.com/azure/cognitive-services/custom-vision-service/select-domain?WT.mc_id=academic-17441-jabenn#object-detection).
 
@@ -142,11 +142,11 @@ Um Ihr Modell zu trainieren, benötigen Sie eine Reihe von Bildern, die die Obje
 
 1. Folgen Sie dem Abschnitt [Bilder hochladen und taggen im Quickstart für den Aufbau eines Objekterkenners in den Microsoft-Dokumenten](https://docs.microsoft.com/azure/cognitive-services/custom-vision-service/get-started-build-detector?WT.mc_id=academic-17441-jabenn#upload-and-tag-images), um Ihre Trainingsbilder hochzuladen. Erstellen Sie relevante Tags je nach den Arten von Objekten, die Sie erkennen möchten.
 
-    ![Die Upload-Dialoge zeigen den Upload von Bildern reifer und unreifer Bananen](../../../../../translated_images/image-upload-object-detector.77c7892c3093cb59b79018edecd678749a75d71a099bc8a2d2f2f76320f88a5b.de.png)
+    ![Die Upload-Dialoge zeigen den Upload von Bildern reifer und unreifer Bananen](../../../../../translated_images/de/image-upload-object-detector.77c7892c3093cb59b79018edecd678749a75d71a099bc8a2d2f2f76320f88a5b.png)
 
     Wenn Sie Begrenzungsrahmen für Objekte zeichnen, halten Sie sie schön eng um das Objekt. Es kann eine Weile dauern, alle Bilder zu umreißen, aber das Tool erkennt, was es für Begrenzungsrahmen hält, was es schneller macht.
 
-    ![Taggen von Tomatenmark](../../../../../translated_images/object-detector-tag-tomato-paste.f47c362fb0f0eb582f3bc68cf3855fb43a805106395358d41896a269c210b7b4.de.png)
+    ![Taggen von Tomatenmark](../../../../../translated_images/de/object-detector-tag-tomato-paste.f47c362fb0f0eb582f3bc68cf3855fb43a805106395358d41896a269c210b7b4.png)
 
     > 💁 Wenn Sie mehr als 15 Bilder für jedes Objekt haben, können Sie nach 15 trainieren und dann die Funktion **Vorgeschlagene Tags** verwenden. Dies wird das trainierte Modell verwenden, um die Objekte in den nicht getaggten Bildern zu erkennen. Sie können dann die erkannten Objekte bestätigen oder ablehnen und die Begrenzungsrahmen neu zeichnen. Dies kann eine *Menge* Zeit sparen.
 
@@ -164,7 +164,7 @@ Sobald Ihr Objekterkenner trainiert ist, können Sie ihn testen, indem Sie ihm n
 
 1. Verwenden Sie die Schaltfläche **Schneller Test**, um Testbilder hochzuladen und zu überprüfen, ob die Objekte erkannt werden. Verwenden Sie die Testbilder, die Sie zuvor erstellt haben, nicht die Bilder, die Sie zum Trainieren verwendet haben.
 
-    ![3 Dosen Tomatenmark erkannt mit Wahrscheinlichkeiten von 38%, 35,5% und 34,6%](../../../../../translated_images/object-detector-detected-tomato-paste.52656fe87af4c37b4ee540526d63e73ed075da2e54a9a060aa528e0c562fb1b6.de.png)
+    ![3 Dosen Tomatenmark erkannt mit Wahrscheinlichkeiten von 38%, 35,5% und 34,6%](../../../../../translated_images/de/object-detector-detected-tomato-paste.52656fe87af4c37b4ee540526d63e73ed075da2e54a9a060aa528e0c562fb1b6.png)
 
 1. Testen Sie alle Testbilder, die Ihnen zur Verfügung stehen, und beobachten Sie die Wahrscheinlichkeiten.
 

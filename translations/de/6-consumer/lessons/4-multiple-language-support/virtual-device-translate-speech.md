@@ -46,7 +46,7 @@ Der Sprachdienst kann Sprache nicht nur in Text in derselben Sprache umwandeln, 
     >
     > Wenn Sie beispielsweise LUIS auf Englisch trainieren, aber Französisch als Benutzersprache verwenden möchten, können Sie Sätze wie "set a 2 minute and 27 second timer" von Englisch ins Französische mit Bing Translate übersetzen und dann die Schaltfläche **Listen translation** verwenden, um die Übersetzung in Ihr Mikrofon zu sprechen.
     >
-    > ![Die Schaltfläche "Listen translation" auf Bing Translate](../../../../../translated_images/bing-translate.348aa796d6efe2a92f41ea74a5cf42bb4c63d6faaa08e7f46924e072a35daa48.de.png)
+    > ![Die Schaltfläche "Listen translation" auf Bing Translate](../../../../../translated_images/de/bing-translate.348aa796d6efe2a92f41ea74a5cf42bb4c63d6faaa08e7f46924e072a35daa48.png)
 
 1. Ersetzen Sie die Deklarationen `recognizer_config` und `recognizer` durch Folgendes:
 

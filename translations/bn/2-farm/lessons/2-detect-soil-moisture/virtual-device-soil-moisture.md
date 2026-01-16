@@ -43,11 +43,11 @@ CounterFit অ্যাপে মাটির আর্দ্রতা সেন
 
     1. **Add** বোতামটি নির্বাচন করুন যাতে *Pin 0*-এ একটি *Soil Moisture* সেন্সর তৈরি হয়।
 
-    ![মাটির আর্দ্রতা সেন্সরের সেটিংস](../../../../../translated_images/counterfit-create-soil-moisture-sensor.35266135a5e0ae68b29a684d7db0d2933a8098b2307d197f7c71577b724603aa.bn.png)
+    ![মাটির আর্দ্রতা সেন্সরের সেটিংস](../../../../../translated_images/bn/counterfit-create-soil-moisture-sensor.35266135a5e0ae68b29a684d7db0d2933a8098b2307d197f7c71577b724603aa.png)
 
     মাটির আর্দ্রতা সেন্সরটি তৈরি হবে এবং সেন্সর তালিকায় প্রদর্শিত হবে।
 
-    ![তৈরি করা মাটির আর্দ্রতা সেন্সর](../../../../../translated_images/counterfit-soil-moisture-sensor.81742b2de0e9de60a3b3b9a2ff8ecc686d428eb6d71820f27a693be26e5aceee.bn.png)
+    ![তৈরি করা মাটির আর্দ্রতা সেন্সর](../../../../../translated_images/bn/counterfit-soil-moisture-sensor.81742b2de0e9de60a3b3b9a2ff8ecc686d428eb6d71820f27a693be26e5aceee.png)
 
 ## মাটির আর্দ্রতা সেন্সর অ্যাপ প্রোগ্রাম করুন
 

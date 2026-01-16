@@ -114,7 +114,7 @@ CO_OP_TRANSLATOR_METADATA:
     >
     > Για παράδειγμα, αν εκπαιδεύσετε το LUIS στα Αγγλικά, αλλά θέλετε να χρησιμοποιήσετε τα Γαλλικά ως γλώσσα χρήστη, μπορείτε να μεταφράσετε προτάσεις όπως "set a 2 minute and 27 second timer" από τα Αγγλικά στα Γαλλικά χρησιμοποιώντας το Bing Translate και στη συνέχεια να χρησιμοποιήσετε το κουμπί **Listen translation** για να εκφωνήσετε τη μετάφραση στο μικρόφωνό σας.
     >
-    > ![Το κουμπί listen translation στο Bing translate](../../../../../translated_images/bing-translate.348aa796d6efe2a92f41ea74a5cf42bb4c63d6faaa08e7f46924e072a35daa48.el.png)
+    > ![Το κουμπί listen translation στο Bing translate](../../../../../translated_images/el/bing-translate.348aa796d6efe2a92f41ea74a5cf42bb4c63d6faaa08e7f46924e072a35daa48.png)
 
 1. Προσθέστε το API key και την τοποθεσία του μεταφραστή κάτω από το `SPEECH_LOCATION`:
 

@@ -43,7 +43,7 @@ Mikrofon a reproduktory je třeba připojit a nakonfigurovat.
 
 1. Pokud používáte ReSpeaker 2-Mics Pi HAT, můžete odstranit Grove základní hat a nasadit místo něj ReSpeaker hat.
 
-    ![Raspberry Pi s ReSpeaker hat](../../../../../translated_images/pi-respeaker-hat.f00fabe7dd039a93e2e0aa0fc946c9af0c6a9eb17c32fa1ca097fb4e384f69f0.cs.png)
+    ![Raspberry Pi s ReSpeaker hat](../../../../../translated_images/cs/pi-respeaker-hat.f00fabe7dd039a93e2e0aa0fc946c9af0c6a9eb17c32fa1ca097fb4e384f69f0.png)
 
     Později v této lekci budete potřebovat Grove tlačítko, ale jedno je již zabudováno v tomto hatu, takže Grove základní hat není potřeba.
 

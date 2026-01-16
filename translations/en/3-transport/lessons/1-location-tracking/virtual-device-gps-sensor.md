@@ -47,11 +47,11 @@ Add the GPS sensor to the CounterFit app.
 
     1. Click the **Add** button to create the GPS sensor on port `/dev/ttyAMA0`.
 
-    ![The GPS sensor settings](../../../../../translated_images/counterfit-create-gps-sensor.6385dc9357d85ad1d47b4abb2525e7651fd498917d25eefc5a72feab09eedc70.en.png)
+    ![The GPS sensor settings](../../../../../translated_images/en/counterfit-create-gps-sensor.6385dc9357d85ad1d47b4abb2525e7651fd498917d25eefc5a72feab09eedc70.png)
 
     The GPS sensor will be created and appear in the sensors list.
 
-    ![The GPS sensor created](../../../../../translated_images/counterfit-gps-sensor.3fbb15af0a5367566f2f11324ef5a6f30861cdf2b497071a5e002b7aa473550e.en.png)
+    ![The GPS sensor created](../../../../../translated_images/en/counterfit-gps-sensor.3fbb15af0a5367566f2f11324ef5a6f30861cdf2b497071a5e002b7aa473550e.png)
 
 ## Program the GPS Sensor
 
@@ -111,17 +111,17 @@ Program the GPS sensor app.
 
     * Set the **Source** to `Lat/Lon`, and specify a latitude, longitude, and the number of satellites used to get the GPS fix. This value will be sent only once, so check the **Repeat** box to have the data repeat every second.
 
-      ![The GPS sensor with lat lon selected](../../../../../translated_images/counterfit-gps-sensor-latlon.008c867d75464fbe7f84107cc57040df565ac07cb57d2f21db37d087d470197d.en.png)
+      ![The GPS sensor with lat lon selected](../../../../../translated_images/en/counterfit-gps-sensor-latlon.008c867d75464fbe7f84107cc57040df565ac07cb57d2f21db37d087d470197d.png)
 
     * Set the **Source** to `NMEA` and add some NMEA sentences into the text box. All these values will be sent, with a delay of 1 second before each new GGA (position fix) sentence can be read.
 
-      ![The GPS sensor with NMEA sentences set](../../../../../translated_images/counterfit-gps-sensor-nmea.c62eea442171e17e19528b051b104cfcecdc9cd18db7bc72920f29821ae63f73.en.png)
+      ![The GPS sensor with NMEA sentences set](../../../../../translated_images/en/counterfit-gps-sensor-nmea.c62eea442171e17e19528b051b104cfcecdc9cd18db7bc72920f29821ae63f73.png)
 
       You can use a tool like [nmeagen.org](https://www.nmeagen.org) to generate these sentences by drawing on a map. These values will be sent only once, so check the **Repeat** box to have the data repeat one second after all sentences have been sent.
 
     * Set the **Source** to GPX file, and upload a GPX file with track locations. You can download GPX files from various popular mapping and hiking sites, such as [AllTrails](https://www.alltrails.com/). These files contain multiple GPS locations as a trail, and the GPS sensor will return each new location at 1-second intervals.
 
-      ![The GPS sensor with a GPX file set](../../../../../translated_images/counterfit-gps-sensor-gpxfile.8310b063ce8a425ccc8ebeec8306aeac5e8e55207f007d52c6e1194432a70cd9.en.png)
+      ![The GPS sensor with a GPX file set](../../../../../translated_images/en/counterfit-gps-sensor-gpxfile.8310b063ce8a425ccc8ebeec8306aeac5e8e55207f007d52c6e1194432a70cd9.png)
 
       These values will be sent only once, so check the **Repeat** box to have the data repeat one second after all locations have been sent.
 

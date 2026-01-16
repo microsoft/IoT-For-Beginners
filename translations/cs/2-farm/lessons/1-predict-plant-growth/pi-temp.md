@@ -25,13 +25,13 @@ Teplotní senzor Grove lze připojit k Raspberry Pi.
 
 Připojte teplotní senzor.
 
-![Teplotní senzor Grove](../../../../../translated_images/grove-dht11.07f8eafceee170043efbb53e1d15722bd4e00fbaa9ff74290b57e9f66eb82c17.cs.png)
+![Teplotní senzor Grove](../../../../../translated_images/cs/grove-dht11.07f8eafceee170043efbb53e1d15722bd4e00fbaa9ff74290b57e9f66eb82c17.png)
 
 1. Zasuňte jeden konec kabelu Grove do konektoru na senzoru vlhkosti a teploty. Kabel lze zasunout pouze jedním směrem.
 
 1. S vypnutým Raspberry Pi připojte druhý konec kabelu Grove do digitálního konektoru označeného **D5** na Grove Base hat připojeném k Pi. Tento konektor je druhý zleva v řadě konektorů vedle GPIO pinů.
 
-![Teplotní senzor Grove připojený ke konektoru A0](../../../../../translated_images/pi-temperature-sensor.3ff82fff672c8e565ef25a39d26d111de006b825a7e0867227ef4e7fbff8553c.cs.png)
+![Teplotní senzor Grove připojený ke konektoru A0](../../../../../translated_images/cs/pi-temperature-sensor.3ff82fff672c8e565ef25a39d26d111de006b825a7e0867227ef4e7fbff8553c.png)
 
 ## Naprogramování teplotního senzoru
 

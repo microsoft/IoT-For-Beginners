@@ -19,7 +19,7 @@ Das eingebaute Mikrofon erfasst ein analoges Signal, das in ein digitales Signal
 
 ✅ Lesen Sie mehr über DMA auf der [Wikipedia-Seite zu Direct Memory Access](https://wikipedia.org/wiki/Direct_memory_access).
 
-![Audio vom Mikrofon geht zu einem ADC und dann zum DMAC. Dieser schreibt in einen Puffer. Wenn dieser Puffer voll ist, wird er verarbeitet und der DMAC schreibt in einen zweiten Puffer](../../../../../translated_images/dmac-adc-buffers.4509aee49145c90bc2e1be472b8ed2ddfcb2b6a81ad3e559114aca55f5fff759.de.png)
+![Audio vom Mikrofon geht zu einem ADC und dann zum DMAC. Dieser schreibt in einen Puffer. Wenn dieser Puffer voll ist, wird er verarbeitet und der DMAC schreibt in einen zweiten Puffer](../../../../../translated_images/de/dmac-adc-buffers.4509aee49145c90bc2e1be472b8ed2ddfcb2b6a81ad3e559114aca55f5fff759.png)
 
 Der DMAC kann Audio vom ADC in festen Intervallen erfassen, beispielsweise 16.000 Mal pro Sekunde für 16-kHz-Audio. Er kann diese erfassten Daten in einen vorab zugewiesenen Speicherpuffer schreiben und, wenn dieser voll ist, Ihrem Code zur Verarbeitung zur Verfügung stellen. Die Verwendung dieses Speichers kann die Audioaufnahme verzögern, aber Sie können mehrere Puffer einrichten. Der DMAC schreibt in Puffer 1, und wenn dieser voll ist, benachrichtigt er Ihren Code, um Puffer 1 zu verarbeiten, während der DMAC in Puffer 2 schreibt. Wenn Puffer 2 voll ist, benachrichtigt er Ihren Code und schreibt wieder in Puffer 1. Solange Sie jeden Puffer in weniger Zeit verarbeiten, als es dauert, einen zu füllen, gehen keine Daten verloren.
 

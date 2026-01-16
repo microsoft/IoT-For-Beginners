@@ -35,7 +35,7 @@ The Grove LED comes as a module with a selection of LEDs, allowing you to choose
 
 Connect the LED.
 
-![A grove LED](../../../../../translated_images/grove-led.6c853be93f473cf2c439cfc74bb1064732b22251a83cedf66e62f783f9cc1a79.en.png)
+![A grove LED](../../../../../translated_images/en/grove-led.6c853be93f473cf2c439cfc74bb1064732b22251a83cedf66e62f783f9cc1a79.png)
 
 1. Pick your favorite LED and insert the legs into the two holes on the LED module.
 
@@ -49,7 +49,7 @@ Connect the LED.
 
 1. With the Raspberry Pi powered off, connect the other end of the Grove cable to the digital socket marked **D5** on the Grove Base hat attached to the Pi. This socket is the second from the left, on the row of sockets next to the GPIO pins.
 
-![The grove LED connected to socket D5](../../../../../translated_images/pi-led.97f1d474981dc35d1c7996c7b17de355d3d0a6bc9606d79fa5f89df933415122.en.png)
+![The grove LED connected to socket D5](../../../../../translated_images/en/pi-led.97f1d474981dc35d1c7996c7b17de355d3d0a6bc9606d79fa5f89df933415122.png)
 
 ## Program the nightlight
 

@@ -46,7 +46,7 @@ CO_OP_TRANSLATOR_METADATA:
     >
     > على سبيل المثال، إذا قمت بتدريب LUIS باللغة الإنجليزية، ولكنك تريد استخدام الفرنسية كلغة للمستخدم، يمكنك ترجمة جمل مثل "اضبط مؤقتًا لمدة دقيقتين و27 ثانية" من الإنجليزية إلى الفرنسية باستخدام Bing Translate، ثم استخدام زر **الاستماع إلى الترجمة** للتحدث بالترجمة إلى الميكروفون.
     >
-    > ![زر الاستماع إلى الترجمة في Bing Translate](../../../../../translated_images/bing-translate.348aa796d6efe2a92f41ea74a5cf42bb4c63d6faaa08e7f46924e072a35daa48.ar.png)
+    > ![زر الاستماع إلى الترجمة في Bing Translate](../../../../../translated_images/ar/bing-translate.348aa796d6efe2a92f41ea74a5cf42bb4c63d6faaa08e7f46924e072a35daa48.png)
 
 1. استبدل تعريفات `recognizer_config` و`recognizer` بالتالي:
 

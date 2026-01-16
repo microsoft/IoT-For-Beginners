@@ -35,7 +35,7 @@ Otherwise
 
 Συνδέστε το LED.
 
-![Ένα Grove LED](../../../../../translated_images/grove-led.6c853be93f473cf2c439cfc74bb1064732b22251a83cedf66e62f783f9cc1a79.el.png)
+![Ένα Grove LED](../../../../../translated_images/el/grove-led.6c853be93f473cf2c439cfc74bb1064732b22251a83cedf66e62f783f9cc1a79.png)
 
 1. Επιλέξτε το αγαπημένο σας LED και εισάγετε τα ποδαράκια του στις δύο τρύπες της μονάδας LED.
 
@@ -49,7 +49,7 @@ Otherwise
 
 1. Με το Raspberry Pi απενεργοποιημένο, συνδέστε το άλλο άκρο του καλωδίου Grove στην ψηφιακή υποδοχή σημειωμένη ως **D5** στο Grove Base hat που είναι συνδεδεμένο στο Pi. Αυτή η υποδοχή είναι η δεύτερη από τα αριστερά, στη σειρά των υποδοχών δίπλα στις ακίδες GPIO.
 
-![Το Grove LED συνδεδεμένο στην υποδοχή D5](../../../../../translated_images/pi-led.97f1d474981dc35d1c7996c7b17de355d3d0a6bc9606d79fa5f89df933415122.el.png)
+![Το Grove LED συνδεδεμένο στην υποδοχή D5](../../../../../translated_images/el/pi-led.97f1d474981dc35d1c7996c7b17de355d3d0a6bc9606d79fa5f89df933415122.png)
 
 ## Προγραμματισμός του φωτιστικού νυκτός
 

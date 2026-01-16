@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 [Wio Terminal من Seeed Studios](https://www.seeedstudio.com/Wio-Terminal-p-4509.html) هو متحكم دقيق متوافق مع Arduino، يحتوي على WiFi وبعض المستشعرات والمحركات المدمجة، بالإضافة إلى منافذ لإضافة المزيد من المستشعرات والمحركات باستخدام نظام بيئي للأجهزة يسمى [Grove](https://www.seeedstudio.com/category/Grove-c-1003.html).
 
-![صورة لجهاز Wio Terminal من Seeed Studios](../../../../../translated_images/wio-terminal.b8299ee16587db9a.ar.png)
+![صورة لجهاز Wio Terminal من Seeed Studios](../../../../../translated_images/ar/wio-terminal.b8299ee16587db9a.png)
 
 ## الإعداد
 
@@ -51,15 +51,15 @@ CO_OP_TRANSLATOR_METADATA:
 
 1. ستجد أيقونة PlatformIO في شريط القائمة الجانبي:
 
-    ![خيار قائمة PlatformIO](../../../../../translated_images/vscode-platformio-menu.297be26b9733e5c4.ar.png)
+    ![خيار قائمة PlatformIO](../../../../../translated_images/ar/vscode-platformio-menu.297be26b9733e5c4.png)
 
     اختر هذا العنصر من القائمة، ثم اختر *PIO Home -> Open*.
 
-    ![خيار فتح PlatformIO](../../../../../translated_images/vscode-platformio-home-open.3f9a41bfd3f4da1c.ar.png)
+    ![خيار فتح PlatformIO](../../../../../translated_images/ar/vscode-platformio-home-open.3f9a41bfd3f4da1c.png)
 
 1. من شاشة الترحيب، اختر زر **+ New Project**.
 
-    ![زر مشروع جديد](../../../../../translated_images/vscode-platformio-welcome-new-button.ba6fc8a4c7b78cc8.ar.png)
+    ![زر مشروع جديد](../../../../../translated_images/ar/vscode-platformio-welcome-new-button.ba6fc8a4c7b78cc8.png)
 
 1. قم بتكوين المشروع في *معالج المشروع*:
 
@@ -73,7 +73,7 @@ CO_OP_TRANSLATOR_METADATA:
 
     1. اختر زر **Finish**.
 
-    ![معالج المشروع المكتمل](../../../../../translated_images/vscode-platformio-nightlight-project-wizard.5c64db4da6037420.ar.png)
+    ![معالج المشروع المكتمل](../../../../../translated_images/ar/vscode-platformio-nightlight-project-wizard.5c64db4da6037420.png)
 
     سيقوم PlatformIO بتنزيل المكونات التي يحتاجها لتجميع الكود الخاص بـ Wio Terminal وإنشاء مشروعك. قد يستغرق هذا بضع دقائق.
 
@@ -179,7 +179,7 @@ CO_OP_TRANSLATOR_METADATA:
 
     1. اكتب `PlatformIO Upload` للبحث عن خيار التحميل، واختر *PlatformIO: Upload*.
 
-        ![خيار تحميل PlatformIO في لوحة الأوامر](../../../../../translated_images/vscode-platformio-upload-command-palette.9e0f49cf80d1f1c3.ar.png)
+        ![خيار تحميل PlatformIO في لوحة الأوامر](../../../../../translated_images/ar/vscode-platformio-upload-command-palette.9e0f49cf80d1f1c3.png)
 
         سيقوم PlatformIO تلقائيًا ببناء الكود إذا لزم الأمر قبل التحميل.
 
@@ -195,7 +195,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 1. اكتب `PlatformIO Serial` للبحث عن خيار المراقب التسلسلي، واختر *PlatformIO: Serial Monitor*.
 
-    ![خيار مراقب PlatformIO التسلسلي في لوحة الأوامر](../../../../../translated_images/vscode-platformio-serial-monitor-command-palette.b348ec841b8a1c14.ar.png)
+    ![خيار مراقب PlatformIO التسلسلي في لوحة الأوامر](../../../../../translated_images/ar/vscode-platformio-serial-monitor-command-palette.b348ec841b8a1c14.png)
 
     سيتم فتح نافذة طرفية جديدة، وسيتم بث البيانات المرسلة عبر المنفذ التسلسلي إلى هذه النافذة:
 

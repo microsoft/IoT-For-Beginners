@@ -43,11 +43,11 @@ CounterFit অ্যাপে ক্যামেরা যোগ করুন।
 
     1. **Add** বোতামটি নির্বাচন করুন ক্যামেরা তৈরি করতে।
 
-    ![ক্যামেরার সেটিংস](../../../../../translated_images/counterfit-create-camera.a5de97f59c0bd3cbe0416d7e89a3cfe86d19fbae05c641c53a91286412af0a34.bn.png)
+    ![ক্যামেরার সেটিংস](../../../../../translated_images/bn/counterfit-create-camera.a5de97f59c0bd3cbe0416d7e89a3cfe86d19fbae05c641c53a91286412af0a34.png)
 
     ক্যামেরাটি তৈরি হবে এবং সেন্সর তালিকায় প্রদর্শিত হবে।
 
-    ![তৈরি করা ক্যামেরা](../../../../../translated_images/counterfit-camera.001ec52194c8ee5d3f617173da2c79e1df903d10882adc625cbfc493525125d4.bn.png)
+    ![তৈরি করা ক্যামেরা](../../../../../translated_images/bn/counterfit-camera.001ec52194c8ee5d3f617173da2c79e1df903d10882adc625cbfc493525125d4.png)
 
 ## ক্যামেরা প্রোগ্রাম করুন
 
@@ -112,7 +112,7 @@ CounterFit অ্যাপে ক্যামেরা যোগ করুন।
 
 1. CounterFit-এ ক্যামেরার জন্য যে ছবি ধারণ করা হবে তা কনফিগার করুন। আপনি *Source*-কে *File*-এ সেট করতে পারেন এবং একটি ছবি আপলোড করতে পারেন, অথবা *Source*-কে *WebCam*-এ সেট করতে পারেন এবং আপনার ওয়েবক্যাম থেকে ছবি ধারণ করা হবে। একটি ছবি নির্বাচন করার বা আপনার ওয়েবক্যাম নির্বাচন করার পরে **Set** বোতামটি নিশ্চিত করুন।
 
-    ![CounterFit-এ ফাইল এবং ওয়েবক্যাম সেটিংস](../../../../../translated_images/counterfit-camera-options.eb3bd5150a8e7dffbf24bc5bcaba0cf2cdef95fbe6bbe393695d173817d6b8df.bn.png)
+    ![CounterFit-এ ফাইল এবং ওয়েবক্যাম সেটিংস](../../../../../translated_images/bn/counterfit-camera-options.eb3bd5150a8e7dffbf24bc5bcaba0cf2cdef95fbe6bbe393695d173817d6b8df.png)
 
 1. একটি ছবি ধারণ করা হবে এবং `image.jpg` নামে বর্তমান ফোল্ডারে সংরক্ষণ করা হবে। আপনি এই ফাইলটি VS Code এক্সপ্লোরারে দেখতে পাবেন। ফাইলটি নির্বাচন করুন ছবিটি দেখতে। যদি এটি ঘোরানোর প্রয়োজন হয়, `camera.rotation = 0` লাইনটি আপডেট করুন এবং আবার ছবি তুলুন।
 

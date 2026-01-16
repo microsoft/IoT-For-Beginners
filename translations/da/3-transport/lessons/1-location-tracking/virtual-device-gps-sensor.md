@@ -47,11 +47,11 @@ Tilføj GPS-sensoren til CounterFit-appen.
 
     1. Vælg knappen **Add** for at oprette GPS-sensoren på porten `/dev/ttyAMA0`.
 
-    ![Indstillinger for GPS-sensoren](../../../../../translated_images/counterfit-create-gps-sensor.6385dc9357d85ad1d47b4abb2525e7651fd498917d25eefc5a72feab09eedc70.da.png)
+    ![Indstillinger for GPS-sensoren](../../../../../translated_images/da/counterfit-create-gps-sensor.6385dc9357d85ad1d47b4abb2525e7651fd498917d25eefc5a72feab09eedc70.png)
 
     GPS-sensoren vil blive oprettet og vises i sensorlisten.
 
-    ![Den oprettede GPS-sensor](../../../../../translated_images/counterfit-gps-sensor.3fbb15af0a5367566f2f11324ef5a6f30861cdf2b497071a5e002b7aa473550e.da.png)
+    ![Den oprettede GPS-sensor](../../../../../translated_images/da/counterfit-gps-sensor.3fbb15af0a5367566f2f11324ef5a6f30861cdf2b497071a5e002b7aa473550e.png)
 
 ## Programmer GPS-sensoren
 
@@ -111,17 +111,17 @@ Programmer GPS-sensor-appen.
 
     * Indstil **Source** til `Lat/Lon`, og angiv en specifik breddegrad, længdegrad og antal satellitter, der bruges til at få GPS-fix. Denne værdi sendes kun én gang, så marker **Repeat**-boksen for at få dataene til at gentage hvert sekund.
 
-      ![GPS-sensoren med lat/lon valgt](../../../../../translated_images/counterfit-gps-sensor-latlon.008c867d75464fbe7f84107cc57040df565ac07cb57d2f21db37d087d470197d.da.png)
+      ![GPS-sensoren med lat/lon valgt](../../../../../translated_images/da/counterfit-gps-sensor-latlon.008c867d75464fbe7f84107cc57040df565ac07cb57d2f21db37d087d470197d.png)
 
     * Indstil **Source** til `NMEA`, og tilføj nogle NMEA-sætninger i tekstboksen. Alle disse værdier sendes med en forsinkelse på 1 sekund, før hver ny GGA (positionsfix)-sætning kan læses.
 
-      ![GPS-sensoren med NMEA-sætninger indstillet](../../../../../translated_images/counterfit-gps-sensor-nmea.c62eea442171e17e19528b051b104cfcecdc9cd18db7bc72920f29821ae63f73.da.png)
+      ![GPS-sensoren med NMEA-sætninger indstillet](../../../../../translated_images/da/counterfit-gps-sensor-nmea.c62eea442171e17e19528b051b104cfcecdc9cd18db7bc72920f29821ae63f73.png)
 
       Du kan bruge et værktøj som [nmeagen.org](https://www.nmeagen.org) til at generere disse sætninger ved at tegne på et kort. Disse værdier sendes kun én gang, så marker **Repeat**-boksen for at få dataene til at gentage 1 sekund efter, at de alle er sendt.
 
     * Indstil **Source** til GPX-fil, og upload en GPX-fil med spor-lokationer. Du kan downloade GPX-filer fra en række populære kort- og vandresider, såsom [AllTrails](https://www.alltrails.com/). Disse filer indeholder flere GPS-lokationer som en rute, og GPS-sensoren returnerer hver ny lokation med 1 sekunds interval.
 
-      ![GPS-sensoren med en GPX-fil indstillet](../../../../../translated_images/counterfit-gps-sensor-gpxfile.8310b063ce8a425ccc8ebeec8306aeac5e8e55207f007d52c6e1194432a70cd9.da.png)
+      ![GPS-sensoren med en GPX-fil indstillet](../../../../../translated_images/da/counterfit-gps-sensor-gpxfile.8310b063ce8a425ccc8ebeec8306aeac5e8e55207f007d52c6e1194432a70cd9.png)
 
       Disse værdier sendes kun én gang, så marker **Repeat**-boksen for at få dataene til at gentage 1 sekund efter, at de alle er sendt.
 

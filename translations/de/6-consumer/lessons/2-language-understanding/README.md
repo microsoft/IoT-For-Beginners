@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Sprache verstehen
 
-![Eine Sketchnote-Übersicht dieser Lektion](../../../../../translated_images/lesson-22.6148ea28500d9e00c396aaa2649935fb6641362c8f03d8e5e90a676977ab01dd.de.jpg)
+![Eine Sketchnote-Übersicht dieser Lektion](../../../../../translated_images/de/lesson-22.6148ea28500d9e00c396aaa2649935fb6641362c8f03d8e5e90a676977ab01dd.jpg)
 
 > Sketchnote von [Nitya Narasimhan](https://github.com/nitya). Klicken Sie auf das Bild für eine größere Version.
 
@@ -55,7 +55,7 @@ Sprachverständnismodelle sind KI-Modelle, die darauf trainiert sind, bestimmte 
 
 ## Ein Sprachverständnismodell erstellen
 
-![Das LUIS-Logo](../../../../../translated_images/luis-logo.5cb4f3e88c020ee6df4f614e8831f4a4b6809a7247bf52085fb48d629ef9be52.de.png)
+![Das LUIS-Logo](../../../../../translated_images/de/luis-logo.5cb4f3e88c020ee6df4f614e8831f4a4b6809a7247bf52085fb48d629ef9be52.png)
 
 Sie können Sprachverständnismodelle mit LUIS erstellen, einem Sprachverständnisdienst von Microsoft, der Teil der Cognitive Services ist.
 
@@ -126,7 +126,7 @@ Nachdem die Entitäten definiert sind, erstellen Sie Absichten. Diese werden vom
 
 Dann sagen Sie LUIS, welche Teile dieser Sätze den Entitäten zugeordnet sind:
 
-![Der Satz „stelle einen Timer für 1 Minute und 12 Sekunden ein“, aufgeteilt in Entitäten](../../../../../translated_images/sentence-as-intent-entities.301401696f992259.de.png)
+![Der Satz „stelle einen Timer für 1 Minute und 12 Sekunden ein“, aufgeteilt in Entitäten](../../../../../translated_images/de/sentence-as-intent-entities.301401696f992259.png)
 
 Der Satz `stelle einen Timer für 1 Minute und 12 Sekunden ein` hat die Absicht `Timer einstellen`. Er hat auch 2 Entitäten mit jeweils 2 Werten:
 
@@ -178,7 +178,7 @@ Anleitungen zur Verwendung des LUIS-Portals finden Sie in der [Quickstart-Dokume
 
 1. Während Sie jedes Beispiel eingeben, wird LUIS beginnen, Entitäten zu erkennen, und wird unterstreichen und kennzeichnen, was es findet.
 
-    ![Die Beispiele mit den von LUIS unterstrichenen Zahlen und Zeiteinheiten](../../../../../translated_images/luis-intent-examples.25716580b2d2723cf1bafdf277d015c7f046d8cfa20f27bddf3a0873ec45fab7.de.png)
+    ![Die Beispiele mit den von LUIS unterstrichenen Zahlen und Zeiteinheiten](../../../../../translated_images/de/luis-intent-examples.25716580b2d2723cf1bafdf277d015c7f046d8cfa20f27bddf3a0873ec45fab7.png)
 
 ### Aufgabe – Modell trainieren und testen
 

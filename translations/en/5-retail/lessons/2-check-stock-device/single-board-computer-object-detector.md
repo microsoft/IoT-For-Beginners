@@ -76,7 +76,7 @@ The code you used to classify images is very similar to the code used to detect 
 
     You will be able to see the image that was taken and these values in the **Predictions** tab in Custom Vision.
 
-    ![4 cans of tomato paste on a shelf with predictions for the 4 detections of 35.8%, 33.5%, 25.7% and 16.6%](../../../../../translated_images/custom-vision-stock-prediction.942266ab1bcca3410ecdf23643b9f5f570cfab2345235074e24c51f285777613.en.png)
+    ![4 cans of tomato paste on a shelf with predictions for the 4 detections of 35.8%, 33.5%, 25.7% and 16.6%](../../../../../translated_images/en/custom-vision-stock-prediction.942266ab1bcca3410ecdf23643b9f5f570cfab2345235074e24c51f285777613.png)
 
 > 💁 You can find this code in the [code-detect/pi](../../../../../5-retail/lessons/2-check-stock-device/code-detect/pi) or [code-detect/virtual-iot-device](../../../../../5-retail/lessons/2-check-stock-device/code-detect/virtual-iot-device) folder.
 

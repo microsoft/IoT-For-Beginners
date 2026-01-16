@@ -29,7 +29,7 @@ You will need to repeat these steps multiple times to gather the necessary readi
 
 The gravimetric soil moisture is calculated as:
 
-![soil moisture % is weight wet minus weight dry, divided by weight dry, times 100](../../../../../translated_images/gsm-calculation.6da38c6201eec14e7573bb2647aa18892883193553d23c9d77e5dc681522dfb2.en.png)
+![soil moisture % is weight wet minus weight dry, divided by weight dry, times 100](../../../../../translated_images/en/gsm-calculation.6da38c6201eec14e7573bb2647aa18892883193553d23c9d77e5dc681522dfb2.png)
 
 * W  
   - the weight of the wet soil  
@@ -38,7 +38,7 @@ The gravimetric soil moisture is calculated as:
 
 For example, suppose you have a soil sample that weighs 212g when wet and 197g when dry.
 
-![The calculation filled in](../../../../../translated_images/gsm-calculation-example.99f9803b4f29e97668e7c15412136c0c399ab12dbba0b89596fdae9d8aedb6fb.en.png)
+![The calculation filled in](../../../../../translated_images/en/gsm-calculation-example.99f9803b4f29e97668e7c15412136c0c399ab12dbba0b89596fdae9d8aedb6fb.png)
 
 * W = 212g  
 * W = 197g  

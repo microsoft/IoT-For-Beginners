@@ -37,11 +37,11 @@ Fügen Sie den Lichtsensor zur CounterFit-App hinzu.
 
     1. Wählen Sie die Schaltfläche **Add**, um den Lichtsensor auf Pin 0 zu erstellen.
 
-    ![Die Einstellungen des Lichtsensors](../../../../../translated_images/counterfit-create-light-sensor.9f36a5e0d4458d8d554d54b34d2c806d56093d6e49fddcda2d20f6fef7f5cce1.de.png)
+    ![Die Einstellungen des Lichtsensors](../../../../../translated_images/de/counterfit-create-light-sensor.9f36a5e0d4458d8d554d54b34d2c806d56093d6e49fddcda2d20f6fef7f5cce1.png)
 
     Der Lichtsensor wird erstellt und erscheint in der Sensorenliste.
 
-    ![Der erstellte Lichtsensor](../../../../../translated_images/counterfit-light-sensor.5d0f5584df56b90f6b2561910d9cb20dfbd73eeff2177c238d38f4de54aefae1.de.png)
+    ![Der erstellte Lichtsensor](../../../../../translated_images/de/counterfit-light-sensor.5d0f5584df56b90f6b2561910d9cb20dfbd73eeff2177c238d38f4de54aefae1.png)
 
 ## Den Lichtsensor programmieren
 

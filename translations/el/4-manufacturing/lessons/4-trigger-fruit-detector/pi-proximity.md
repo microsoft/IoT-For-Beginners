@@ -29,13 +29,13 @@ CO_OP_TRANSLATOR_METADATA:
 
 Συνδέστε τον αισθητήρα Time of Flight.
 
-![Ένας αισθητήρας Grove Time of Flight](../../../../../translated_images/grove-time-of-flight-sensor.d82ff2165bfded9f485de54d8d07195a6270a602696825fca19f629ddfe94e86.el.png)
+![Ένας αισθητήρας Grove Time of Flight](../../../../../translated_images/el/grove-time-of-flight-sensor.d82ff2165bfded9f485de54d8d07195a6270a602696825fca19f629ddfe94e86.png)
 
 1. Εισάγετε το ένα άκρο ενός καλωδίου Grove στην υποδοχή του αισθητήρα Time of Flight. Θα μπει μόνο με έναν συγκεκριμένο τρόπο.
 
 1. Με το Raspberry Pi απενεργοποιημένο, συνδέστε το άλλο άκρο του καλωδίου Grove σε μία από τις υποδοχές I²C που είναι σημειωμένες ως **I²C** στο Grove Base hat που είναι συνδεδεμένο στο Pi. Αυτές οι υποδοχές βρίσκονται στην κάτω σειρά, στην αντίθετη πλευρά από τις ακίδες GPIO και δίπλα στην υποδοχή του καλωδίου της κάμερας.
 
-![Ο αισθητήρας Grove Time of Flight συνδεδεμένος στην υποδοχή I²C](../../../../../translated_images/pi-time-of-flight-sensor.58c8dc04eb3bfb57.el.png)
+![Ο αισθητήρας Grove Time of Flight συνδεδεμένος στην υποδοχή I²C](../../../../../translated_images/el/pi-time-of-flight-sensor.58c8dc04eb3bfb57.png)
 
 ## Προγραμματισμός του αισθητήρα Time of Flight
 
@@ -106,7 +106,7 @@ CO_OP_TRANSLATOR_METADATA:
 
     Ο ανιχνευτής βρίσκεται στο πίσω μέρος του αισθητήρα, οπότε βεβαιωθείτε ότι χρησιμοποιείτε τη σωστή πλευρά όταν μετράτε αποστάσεις.
 
-    ![Ο ανιχνευτής στο πίσω μέρος του αισθητήρα Time of Flight δείχνει προς μια μπανάνα](../../../../../translated_images/time-of-flight-banana.079921ad8b1496e4.el.png)
+    ![Ο ανιχνευτής στο πίσω μέρος του αισθητήρα Time of Flight δείχνει προς μια μπανάνα](../../../../../translated_images/el/time-of-flight-banana.079921ad8b1496e4.png)
 
 > 💁 Μπορείτε να βρείτε αυτόν τον κώδικα στον φάκελο [code-proximity/pi](../../../../../4-manufacturing/lessons/4-trigger-fruit-detector/code-proximity/pi).
 

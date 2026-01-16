@@ -45,11 +45,11 @@ CO_OP_TRANSLATOR_METADATA:
 
     1. Επιλέξτε το κουμπί **Add** για να δημιουργήσετε τον αισθητήρα απόστασης.
 
-    ![Οι ρυθμίσεις του αισθητήρα απόστασης](../../../../../translated_images/counterfit-create-distance-sensor.967c9fb98f27888d95920c9784d004c972490eb71f70397fe13bd70a79a879a3.el.png)
+    ![Οι ρυθμίσεις του αισθητήρα απόστασης](../../../../../translated_images/el/counterfit-create-distance-sensor.967c9fb98f27888d95920c9784d004c972490eb71f70397fe13bd70a79a879a3.png)
 
     Ο αισθητήρας απόστασης θα δημιουργηθεί και θα εμφανιστεί στη λίστα αισθητήρων.
 
-    ![Ο αισθητήρας απόστασης δημιουργήθηκε](../../../../../translated_images/counterfit-distance-sensor.079eefeeea0b68afc36431ce8fcbe2f09a7e4916ed1cd5cb30e696db53bc18fa.el.png)
+    ![Ο αισθητήρας απόστασης δημιουργήθηκε](../../../../../translated_images/el/counterfit-distance-sensor.079eefeeea0b68afc36431ce8fcbe2f09a7e4916ed1cd5cb30e696db53bc18fa.png)
 
 ## Προγραμματισμός του αισθητήρα απόστασης
 

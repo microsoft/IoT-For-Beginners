@@ -37,11 +37,11 @@ Fügen Sie das Relais zur CounterFit-App hinzu.
 
     1. Wählen Sie die Schaltfläche **Add**, um das Relais auf Pin 5 zu erstellen.
 
-    ![Die Relais-Einstellungen](../../../../../translated_images/counterfit-create-relay.fa7c40fd0f2f6afc33b35ea94fcb235085be4861e14e3fe6b9b7bcfc82d1c888.de.png)
+    ![Die Relais-Einstellungen](../../../../../translated_images/de/counterfit-create-relay.fa7c40fd0f2f6afc33b35ea94fcb235085be4861e14e3fe6b9b7bcfc82d1c888.png)
 
     Das Relais wird erstellt und erscheint in der Aktuatorenliste.
 
-    ![Das erstellte Relais](../../../../../translated_images/counterfit-relay.bbf74c1dbdc8b9acd983367fcbd06703a402aefef6af54ddb28e11307ba8a12c.de.png)
+    ![Das erstellte Relais](../../../../../translated_images/de/counterfit-relay.bbf74c1dbdc8b9acd983367fcbd06703a402aefef6af54ddb28e11307ba8a12c.png)
 
 ## Relais programmieren
 

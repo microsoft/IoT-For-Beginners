@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 [Wio Terminal от Seeed Studios](https://www.seeedstudio.com/Wio-Terminal-p-4509.html) е микроконтролер, съвместим с Arduino, с вградени WiFi, някои сензори и изпълнителни механизми, както и портове за добавяне на допълнителни сензори и изпълнителни механизми, използвайки хардуерна екосистема, наречена [Grove](https://www.seeedstudio.com/category/Grove-c-1003.html).
 
-![Wio Terminal от Seeed Studios](../../../../../translated_images/wio-terminal.b8299ee16587db9a.bg.png)
+![Wio Terminal от Seeed Studios](../../../../../translated_images/bg/wio-terminal.b8299ee16587db9a.png)
 
 ## Настройка
 
@@ -51,15 +51,15 @@ CO_OP_TRANSLATOR_METADATA:
 
 1. Иконата на PlatformIO ще бъде в страничното меню:
 
-    ![Опцията за меню PlatformIO](../../../../../translated_images/vscode-platformio-menu.297be26b9733e5c4.bg.png)
+    ![Опцията за меню PlatformIO](../../../../../translated_images/bg/vscode-platformio-menu.297be26b9733e5c4.png)
 
     Изберете този елемент от менюто, след това изберете *PIO Home -> Open*.
 
-    ![Опцията за отваряне на PlatformIO](../../../../../translated_images/vscode-platformio-home-open.3f9a41bfd3f4da1c.bg.png)
+    ![Опцията за отваряне на PlatformIO](../../../../../translated_images/bg/vscode-platformio-home-open.3f9a41bfd3f4da1c.png)
 
 1. От началния екран изберете бутона **+ New Project**.
 
-    ![Бутонът за нов проект](../../../../../translated_images/vscode-platformio-welcome-new-button.ba6fc8a4c7b78cc8.bg.png)
+    ![Бутонът за нов проект](../../../../../translated_images/bg/vscode-platformio-welcome-new-button.ba6fc8a4c7b78cc8.png)
 
 1. Конфигурирайте проекта в *Project Wizard*:
 
@@ -73,7 +73,7 @@ CO_OP_TRANSLATOR_METADATA:
 
     1. Изберете бутона **Finish**.
 
-    ![Завършен Project Wizard](../../../../../translated_images/vscode-platformio-nightlight-project-wizard.5c64db4da6037420.bg.png)
+    ![Завършен Project Wizard](../../../../../translated_images/bg/vscode-platformio-nightlight-project-wizard.5c64db4da6037420.png)
 
     PlatformIO ще изтегли компонентите, необходими за компилиране на код за Wio Terminal, и ще създаде вашия проект. Това може да отнеме няколко минути.
 
@@ -179,7 +179,7 @@ Explorer в VS Code ще покаже редица файлове и папки,
 
     1. Въведете `PlatformIO Upload`, за да потърсите опцията за качване, и изберете *PlatformIO: Upload*.
 
-        ![Опцията за качване в PlatformIO в командния палет](../../../../../translated_images/vscode-platformio-upload-command-palette.9e0f49cf80d1f1c3.bg.png)
+        ![Опцията за качване в PlatformIO в командния палет](../../../../../translated_images/bg/vscode-platformio-upload-command-palette.9e0f49cf80d1f1c3.png)
 
         PlatformIO автоматично ще компилира кода, ако е необходимо, преди да го качи.
 
@@ -195,7 +195,7 @@ PlatformIO има Serial Monitor, който може да наблюдава д
 
 1. Въведете `PlatformIO Serial`, за да потърсите опцията за Serial Monitor, и изберете *PlatformIO: Serial Monitor*.
 
-    ![Опцията за Serial Monitor в PlatformIO в командния палет](../../../../../translated_images/vscode-platformio-serial-monitor-command-palette.b348ec841b8a1c14.bg.png)
+    ![Опцията за Serial Monitor в PlatformIO в командния палет](../../../../../translated_images/bg/vscode-platformio-serial-monitor-command-palette.b348ec841b8a1c14.png)
 
     Ще се отвори нов терминал, и данните, изпратени през серийния порт, ще бъдат стриймвани в този терминал:
 

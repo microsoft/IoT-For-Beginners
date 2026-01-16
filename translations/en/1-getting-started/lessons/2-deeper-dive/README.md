@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # A deeper dive into IoT
 
-![A sketchnote overview of this lesson](../../../../../translated_images/lesson-2.324b0580d620c25e0a24fb7fddfc0b29a846dd4b82c08e7a9466d580ee78ce51.en.jpg)
+![A sketchnote overview of this lesson](../../../../../translated_images/en/lesson-2.324b0580d620c25e0a24fb7fddfc0b29a846dd4b82c08e7a9466d580ee78ce51.jpg)
 
 > Sketchnote by [Nitya Narasimhan](https://github.com/nitya). Click the image for a larger version.
 
@@ -41,13 +41,13 @@ An IoT application consists of two main components: the *Internet* and the *thin
 
 ### The Thing
 
-![A Raspberry Pi 4](../../../../../translated_images/raspberry-pi-4.fd4590d308c3d456.en.jpg)
+![A Raspberry Pi 4](../../../../../translated_images/en/raspberry-pi-4.fd4590d308c3d456.webp)
 
 The **Thing** in IoT refers to a device that interacts with the physical world. These devices are typically small, affordable computers that operate at low speeds and consume minimal power. For example, they might be simple microcontrollers with kilobytes of RAM (compared to gigabytes in a PC), running at a few hundred megahertz (compared to gigahertz in a PC), and consuming so little power that they can run on batteries for weeks, months, or even years.
 
 These devices interact with the physical world by using sensors to collect data from their surroundings or by controlling outputs or actuators to make physical changes. A classic example is a smart thermostat, which includes a temperature sensor, a way to set a desired temperature (like a dial or touchscreen), and a connection to a heating or cooling system. The thermostat detects when the room is too cold and activates the heating system.
 
-![A diagram showing temperature and a dial as inputs to an IoT device, and control of a heater as an output](../../../../../translated_images/basic-thermostat.a923217fd1f37e5a6f3390396a65c22a387419ea2dd17e518ec24315ba6ae9a8.en.png)
+![A diagram showing temperature and a dial as inputs to an IoT device, and control of a heater as an output](../../../../../translated_images/en/basic-thermostat.a923217fd1f37e5a6f3390396a65c22a387419ea2dd17e518ec24315ba6ae9a8.png)
 
 There’s a wide variety of devices that can serve as IoT devices, ranging from specialized hardware that senses a single thing to general-purpose devices like your smartphone. For instance, a smartphone can use sensors to gather data about its environment and actuators to interact with the world—for example, using GPS to determine your location and a speaker to provide navigation instructions.
 
@@ -63,11 +63,11 @@ Not all IoT devices connect directly to the Internet via WiFi or wired connectio
 
 For example, a smart thermostat might connect to a cloud service via home WiFi. The thermostat sends temperature data to the cloud service, which stores it in a database. The homeowner can then check current and past temperatures using a phone app. Another cloud service determines the desired temperature and sends commands back to the thermostat to control the heating system.
 
-![A diagram showing temperature and a dial as inputs to an IoT device, the IoT device with 2-way communication to the cloud, which in turn has 2-way communication to a phone, and control of a heater as an output from the IoT device](../../../../../translated_images/mobile-controlled-thermostat.4a994010473d8d6a52ba68c67e5f02dc8928c717e93ca4b9bc55525aa75bbb60.en.png)
+![A diagram showing temperature and a dial as inputs to an IoT device, the IoT device with 2-way communication to the cloud, which in turn has 2-way communication to a phone, and control of a heater as an output from the IoT device](../../../../../translated_images/en/mobile-controlled-thermostat.4a994010473d8d6a52ba68c67e5f02dc8928c717e93ca4b9bc55525aa75bbb60.png)
 
 A more advanced version might use AI in the cloud, combining data from other IoT devices like occupancy sensors, as well as external data like weather forecasts and your calendar, to make smarter decisions about temperature settings. For instance, it could turn off the heating if your calendar shows you’re on vacation or adjust the temperature room by room based on usage patterns, learning over time to become more accurate.
 
-![A diagram showing multiple temperature sensors and a dial as inputs to an IoT device, the IoT device with 2-way communication to the cloud, which in turn has 2-way communication to a phone, a calendar, and a weather service, and control of a heater as an output from the IoT device](../../../../../translated_images/smarter-thermostat.a75855f15d2d9e63.en.png)
+![A diagram showing multiple temperature sensors and a dial as inputs to an IoT device, the IoT device with 2-way communication to the cloud, which in turn has 2-way communication to a phone, a calendar, and a weather service, and control of a heater as an output from the IoT device](../../../../../translated_images/en/smarter-thermostat.a75855f15d2d9e63.webp)
 
 ✅ What other types of data could make an Internet-connected thermostat smarter?
 
@@ -101,7 +101,7 @@ CPUs operate based on a clock that ticks millions or billions of times per secon
 
 > 💁 CPUs execute programs using the [fetch-decode-execute cycle](https://wikipedia.org/wiki/Instruction_cycle). Each cycle involves fetching an instruction from memory, decoding it, and executing it. Some instructions take multiple cycles to complete.
 
-![The fetch decode execute cycles showing the fetch taking an instruction from the program stored in RAM, then decoding and executing it on a CPU](../../../../../translated_images/fetch-decode-execute.2fd6f150f6280392807f4475382319abd0cee0b90058e1735444d6baa6f2078c.en.png)
+![The fetch decode execute cycles showing the fetch taking an instruction from the program stored in RAM, then decoding and executing it on a CPU](../../../../../translated_images/en/fetch-decode-execute.2fd6f150f6280392807f4475382319abd0cee0b90058e1735444d6baa6f2078c.png)
 
 Microcontrollers have much lower clock speeds than PCs, laptops, or smartphones. For example, the Wio Terminal’s CPU runs at 120 MHz (120 million cycles per second).
 
@@ -133,7 +133,7 @@ Like the CPU, the memory in a microcontroller is significantly smaller than that
 
 The diagram below illustrates the size difference between 192KB and 8GB—the tiny dot in the center represents 192KB.
 
-![A comparison between 192KB and 8GB - more than 40,000 times larger](../../../../../translated_images/ram-comparison.6beb73541b42ac6f.en.png)
+![A comparison between 192KB and 8GB - more than 40,000 times larger](../../../../../translated_images/en/ram-comparison.6beb73541b42ac6f.webp)
 
 Program storage is also much smaller than on a PC. While a typical PC might have a 500GB hard drive for program storage, a microcontroller might only have kilobytes or a few megabytes (MB) of storage (1MB equals 1,000KB, or 1,000,000 bytes). The Wio Terminal, for instance, has 4MB of program storage.
 
@@ -189,7 +189,7 @@ Arduino programs are written in C or C++. These languages allow for compact, fas
 
 The `setup` function is used for initialization tasks, such as connecting to WiFi or setting up input/output pins. The `loop` function contains the main processing logic, such as reading sensor data and sending it to the cloud. You can include delays in the loop to control how often it runs—for example, adding a 10-second delay to send sensor data every 10 seconds. This allows the microcontroller to sleep between loops, conserving power.
 
-![An Arduino sketch running setup first, then running loop repeatedly](../../../../../translated_images/arduino-sketch.79590cb837ff7a7c6a68d1afda6cab83fd53d3bb1bd9a8bf2eaf8d693a4d3ea6.en.png)
+![An Arduino sketch running setup first, then running loop repeatedly](../../../../../translated_images/en/arduino-sketch.79590cb837ff7a7c6a68d1afda6cab83fd53d3bb1bd9a8bf2eaf8d693a4d3ea6.png)
 
 ✅ This program structure is called an *event loop* or *message loop*. It’s widely used in desktop applications running on OSes like Windows, macOS, or Linux. The `loop` listens for events, such as button presses or keyboard input, and responds accordingly. Learn more in this [article on the event loop](https://wikipedia.org/wiki/Event_loop).
 
@@ -212,17 +212,17 @@ In the previous lesson, we introduced single-board computers. Let’s explore th
 
 ### Raspberry Pi
 
-![The Raspberry Pi logo](../../../../../translated_images/raspberry-pi-logo.4efaa16605cee054.en.png)
+![The Raspberry Pi logo](../../../../../translated_images/en/raspberry-pi-logo.4efaa16605cee054.webp)
 
 The [Raspberry Pi Foundation](https://www.raspberrypi.org) is a UK-based charity founded in 2009 to promote computer science education, particularly in schools. As part of this mission, they developed the Raspberry Pi, a single-board computer. Raspberry Pis come in three variants: a full-size version, the smaller Pi Zero, and a compute module for embedding in IoT devices.
 
-![A Raspberry Pi 4](../../../../../translated_images/raspberry-pi-4.fd4590d308c3d456.en.jpg)
+![A Raspberry Pi 4](../../../../../translated_images/en/raspberry-pi-4.fd4590d308c3d456.webp)
 
 The latest full-size model, the Raspberry Pi 4B, features a quad-core 1.5GHz CPU, 2, 4, or 8GB of RAM, gigabit Ethernet, WiFi, dual 4K HDMI ports, an audio/composite video output, USB ports (2 USB 2.0, 2 USB 3.0), 40 GPIO pins, a camera connector, and an SD card slot. It measures 88mm x 58mm x 19.5mm and is powered by a 3A USB-C supply. Prices start at $35, making it far cheaper than a PC or Mac.
 
 > 💁 There’s also the Pi400, an all-in-one computer with a Pi4 built into a keyboard.
 
-![A Raspberry Pi Zero](../../../../../translated_images/raspberry-pi-zero.f7a4133e1e7d54bb.en.jpg)
+![A Raspberry Pi Zero](../../../../../translated_images/en/raspberry-pi-zero.f7a4133e1e7d54bb.webp)
 
 The Pi Zero is smaller and less powerful, with a single-core 1GHz CPU, 512MB of RAM, WiFi (in the Zero W model), a single HDMI port, a micro-USB port, 40 GPIO pins, a camera connector, and an SD card slot. It measures 65mm x 30mm x 5mm and consumes very little power. The Zero costs $5, while the Zero W with WiFi costs $10.
 

@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Prever o crescimento de plantas com IoT
 
-![Uma visão geral ilustrada desta lição](../../../../../translated_images/lesson-5.42b234299279d263143148b88ab4583861a32ddb03110c6c1120e41bb88b2592.br.jpg)
+![Uma visão geral ilustrada desta lição](../../../../../translated_images/br/lesson-5.42b234299279d263143148b88ab4583861a32ddb03110c6c1120e41bb88b2592.jpg)
 
 > Ilustração por [Nitya Narasimhan](https://github.com/nitya). Clique na imagem para uma versão maior.
 
@@ -65,7 +65,7 @@ Cada espécie de planta tem valores diferentes para sua temperatura base, ótima
 
 ✅ Faça uma pesquisa. Para qualquer planta que você tenha em seu jardim, escola ou parque local, veja se consegue encontrar a temperatura base.
 
-![Um gráfico mostrando a taxa de crescimento aumentando conforme a temperatura sobe, depois caindo quando a temperatura fica muito alta](../../../../../translated_images/plant-growth-temp-graph.c6d69c9478e6ca83.br.png)
+![Um gráfico mostrando a taxa de crescimento aumentando conforme a temperatura sobe, depois caindo quando a temperatura fica muito alta](../../../../../translated_images/br/plant-growth-temp-graph.c6d69c9478e6ca83.png)
 
 O gráfico acima mostra um exemplo de taxa de crescimento em relação à temperatura. Até a temperatura base, não há crescimento. A taxa de crescimento aumenta até a temperatura ótima e depois cai após atingir esse pico. Na temperatura máxima, o crescimento para.
 
@@ -99,7 +99,7 @@ Os graus-dia de crescimento, ou GDD, são calculados por dia como a temperatura 
 
 A fórmula completa para GDD é um pouco complicada, mas existe uma equação simplificada que é frequentemente usada como uma boa aproximação:
 
-![GDD = T max + T min dividido por 2, tudo menos T base](../../../../../translated_images/gdd-calculation.79b3660f9c5757aa92dc2dd2cdde75344e2d2c1565c4b3151640f7887edc0275.br.png)
+![GDD = T max + T min dividido por 2, tudo menos T base](../../../../../translated_images/br/gdd-calculation.79b3660f9c5757aa92dc2dd2cdde75344e2d2c1565c4b3151640f7887edc0275.png)
 
 * **GDD** - este é o número de graus-dia de crescimento
 * **T max** - esta é a temperatura máxima diária em graus Celsius
@@ -127,7 +127,7 @@ Substituindo esses números na nossa fórmula:
 
 Isso resulta no cálculo:
 
-![GDD = 16 + 12 dividido por 2, tudo menos 10, resultando em 4](../../../../../translated_images/gdd-calculation-corn.64a58b7a7afcd0dfd46ff733996d939f17f4f3feac9f0d1c632be3523e51ebd9.br.png)
+![GDD = 16 + 12 dividido por 2, tudo menos 10, resultando em 4](../../../../../translated_images/br/gdd-calculation-corn.64a58b7a7afcd0dfd46ff733996d939f17f4f3feac9f0d1c632be3523e51ebd9.png)
 
 O milho recebeu 4 GDD nesse dia. Supondo uma variedade de milho que precisa de 800 GDD para amadurecer, ainda serão necessários mais 796 GDD para atingir a maturidade.
 
@@ -141,7 +141,7 @@ Isso tem um grande impacto no trabalho em uma grande fazenda e corre o risco de 
 
 Ao coletar dados de temperatura usando um dispositivo IoT, um agricultor pode ser notificado automaticamente quando as plantas estiverem próximas da maturidade. Uma arquitetura típica para isso é ter os dispositivos IoT medindo a temperatura e publicando esses dados de telemetria pela Internet usando algo como MQTT. O código do servidor então escuta esses dados e os salva em algum lugar, como em um banco de dados. Isso significa que os dados podem ser analisados posteriormente, como em uma tarefa noturna para calcular os GDD do dia, somar os GDD totais para cada cultura até o momento e alertar se uma planta estiver próxima da maturidade.
 
-![Os dados de telemetria são enviados para um servidor e depois salvos em um banco de dados](../../../../../translated_images/save-telemetry-database.ddc9c6bea0c5ba39.br.png)
+![Os dados de telemetria são enviados para um servidor e depois salvos em um banco de dados](../../../../../translated_images/br/save-telemetry-database.ddc9c6bea0c5ba39.png)
 
 O código do servidor também pode complementar os dados adicionando informações extras. Por exemplo, o dispositivo IoT pode publicar um identificador para indicar qual dispositivo está enviando os dados, e o código do servidor pode usar isso para buscar a localização do dispositivo e quais culturas ele está monitorando. Ele também pode adicionar dados básicos, como a hora atual, já que alguns dispositivos IoT não possuem o hardware necessário para manter um horário preciso ou exigem código adicional para ler a hora atual pela Internet.
 
@@ -228,7 +228,7 @@ Este código abre o arquivo CSV e adiciona uma nova linha no final. A linha cont
 
     
 > 💁 Se você estiver usando um Dispositivo IoT Virtual, selecione a caixa de seleção aleatória e defina um intervalo para evitar obter a mesma temperatura toda vez que o valor de temperatura for retornado.
-    ![Selecione a caixa de seleção aleatória e defina um intervalo](../../../../../translated_images/select-the-random-checkbox-and-set-a-range.32cf4bc7c12e797f.br.png) 
+    ![Selecione a caixa de seleção aleatória e defina um intervalo](../../../../../translated_images/br/select-the-random-checkbox-and-set-a-range.32cf4bc7c12e797f.png) 
 
     > 💁 Se você quiser executar isso por um dia inteiro, então você precisa garantir que o computador onde seu código de servidor está rodando não entre em modo de suspensão, seja alterando as configurações de energia ou executando algo como [este script Python para manter o sistema ativo](https://github.com/jaqsparow/keep-system-active).
     
@@ -248,7 +248,7 @@ Os passos para fazer isso manualmente são:
 
 Por exemplo, se a temperatura mais alta do dia for 25°C e a mais baixa for 12°C:
 
-![GDD = 25 + 12 dividido por 2, depois subtraia 10 do resultado, obtendo 8.5](../../../../../translated_images/gdd-calculation-strawberries.59f57db94b22adb8ff6efb951ace33af104a1c6ccca3ffb0f8169c14cb160c90.br.png)
+![GDD = 25 + 12 dividido por 2, depois subtraia 10 do resultado, obtendo 8.5](../../../../../translated_images/br/gdd-calculation-strawberries.59f57db94b22adb8ff6efb951ace33af104a1c6ccca3ffb0f8169c14cb160c90.png)
 
 * 25 + 12 = 37
 * 37 / 2 = 18.5

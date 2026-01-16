@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Træn en lagerdetektor
 
-![En sketchnote oversigt over denne lektion](../../../../../translated_images/lesson-19.cf6973cecadf080c4b526310620dc4d6f5994c80fb0139c6f378cc9ca2d435cd.da.jpg)
+![En sketchnote oversigt over denne lektion](../../../../../translated_images/da/lesson-19.cf6973cecadf080c4b526310620dc4d6f5994c80fb0139c6f378cc9ca2d435cd.jpg)
 
 > Sketchnote af [Nitya Narasimhan](https://github.com/nitya). Klik på billedet for en større version.
 
@@ -45,7 +45,7 @@ Objektgenkendelse indebærer at finde objekter i billeder ved hjælp af AI. I mo
 
 Billedklassifikation handler om at klassificere et billede som helhed - hvad er sandsynligheden for, at hele billedet matcher hvert tag. Du får sandsynligheder tilbage for hvert tag, der blev brugt til at træne modellen.
 
-![Billedklassifikation af cashewnødder og tomatpuré](../../../../../translated_images/image-classifier-cashews-tomato.bc2e16ab8f05cf9ac0f59f73e32efc4227f9a5b601b90b2c60f436694547a965.da.png)
+![Billedklassifikation af cashewnødder og tomatpuré](../../../../../translated_images/da/image-classifier-cashews-tomato.bc2e16ab8f05cf9ac0f59f73e32efc4227f9a5b601b90b2c60f436694547a965.png)
 
 I eksemplet ovenfor klassificeres to billeder ved hjælp af en model, der er trænet til at klassificere bøtter med cashewnødder eller dåser med tomatpuré. Det første billede er en bøtte med cashewnødder og har to resultater fra billedklassifikatoren:
 
@@ -69,7 +69,7 @@ Når du derefter bruger den til at forudsige billeder, får du ikke en liste ove
 
 > 🎓 *Afgrænsningsbokse* er boksene omkring et objekt.
 
-![Objektgenkendelse af cashewnødder og tomatpuré](../../../../../translated_images/object-detector-cashews-tomato.1af7c26686b4db0e709754aeb196f4e73271f54e2085db3bcccb70d4a0d84d97.da.png)
+![Objektgenkendelse af cashewnødder og tomatpuré](../../../../../translated_images/da/object-detector-cashews-tomato.1af7c26686b4db0e709754aeb196f4e73271f54e2085db3bcccb70d4a0d84d97.png)
 
 Billedet ovenfor indeholder både en bøtte med cashewnødder og tre dåser tomatpuré. Objektgenkendelsesmodellen har fundet cashewnødderne og returneret afgrænsningsboksen, der indeholder cashewnødderne, med sandsynligheden for, at afgrænsningsboksen indeholder objektet, i dette tilfælde 97.6%. Modellen har også fundet tre dåser tomatpuré og giver tre separate afgrænsningsbokse, én for hver fundet dåse, og hver med en sandsynlighedsprocent for, at afgrænsningsboksen indeholder en dåse tomatpuré.
 
@@ -120,7 +120,7 @@ Du kan træne en objektgenkendelsesmodel ved hjælp af Custom Vision, på en lig
 
     Når du opretter dit projekt, skal du sørge for at bruge `stock-detector-training`-ressourcen, du oprettede tidligere. Brug projekttypen *Object Detection* og domænet *Products on Shelves*.
 
-    ![Indstillingerne for Custom Vision-projektet med navnet sat til fruit-quality-detector, ingen beskrivelse, ressourcen sat til fruit-quality-detector-training, projekttypen sat til klassifikation, klassifikationstyperne sat til multi class og domænerne sat til food](../../../../../translated_images/custom-vision-create-object-detector-project.32d4fb9aa8e7e7375f8a799bfce517aca970f2cb65e42d4245c5e635c734ab29.da.png)
+    ![Indstillingerne for Custom Vision-projektet med navnet sat til fruit-quality-detector, ingen beskrivelse, ressourcen sat til fruit-quality-detector-training, projekttypen sat til klassifikation, klassifikationstyperne sat til multi class og domænerne sat til food](../../../../../translated_images/da/custom-vision-create-object-detector-project.32d4fb9aa8e7e7375f8a799bfce517aca970f2cb65e42d4245c5e635c734ab29.png)
 
     ✅ Domænet *Products on Shelves* er specifikt målrettet mod at genkende lager på butikshylder. Læs mere om de forskellige domæner i [Select a domain-dokumentationen på Microsoft Docs](https://docs.microsoft.com/azure/cognitive-services/custom-vision-service/select-domain?WT.mc_id=academic-17441-jabenn#object-detection)
 
@@ -142,11 +142,11 @@ For at træne din model skal du bruge et sæt billeder, der indeholder de objekt
 
 1. Følg [Upload og tag billeder-sektionen i Build an object detector quickstart på Microsoft Docs](https://docs.microsoft.com/azure/cognitive-services/custom-vision-service/get-started-build-detector?WT.mc_id=academic-17441-jabenn#upload-and-tag-images) for at uploade dine træningsbilleder. Opret relevante tags afhængigt af de typer objekter, du vil genkende.
 
-    ![Upload-dialogerne, der viser upload af billeder af modne og umodne bananer](../../../../../translated_images/image-upload-object-detector.77c7892c3093cb59b79018edecd678749a75d71a099bc8a2d2f2f76320f88a5b.da.png)
+    ![Upload-dialogerne, der viser upload af billeder af modne og umodne bananer](../../../../../translated_images/da/image-upload-object-detector.77c7892c3093cb59b79018edecd678749a75d71a099bc8a2d2f2f76320f88a5b.png)
 
     Når du tegner afgrænsningsbokse for objekter, skal du holde dem stramt omkring objektet. Det kan tage lidt tid at markere alle billederne, men værktøjet vil foreslå, hvad det tror er afgrænsningsboksene, hvilket gør det hurtigere.
 
-    ![Tagging af tomatpuré](../../../../../translated_images/object-detector-tag-tomato-paste.f47c362fb0f0eb582f3bc68cf3855fb43a805106395358d41896a269c210b7b4.da.png)
+    ![Tagging af tomatpuré](../../../../../translated_images/da/object-detector-tag-tomato-paste.f47c362fb0f0eb582f3bc68cf3855fb43a805106395358d41896a269c210b7b4.png)
 
     > 💁 Hvis du har mere end 15 billeder for hvert objekt, kan du træne efter 15 og derefter bruge funktionen **Suggested tags**. Dette vil bruge den trænede model til at genkende objekterne i de ikke-mærkede billeder. Du kan derefter bekræfte de genkendte objekter eller afvise og gen-tegne afgrænsningsboksene. Dette kan spare *meget* tid.
 
@@ -164,7 +164,7 @@ Når din objektgenkendelsesmodel er trænet, kan du teste den ved at give den ny
 
 1. Brug knappen **Quick Test** til at uploade testbilleder og verificere, at objekterne genkendes. Brug de testbilleder, du oprettede tidligere, ikke nogen af de billeder, du brugte til træning.
 
-    ![3 dåser tomatpuré genkendt med sandsynligheder på 38%, 35.5% og 34.6%](../../../../../translated_images/object-detector-detected-tomato-paste.52656fe87af4c37b4ee540526d63e73ed075da2e54a9a060aa528e0c562fb1b6.da.png)
+    ![3 dåser tomatpuré genkendt med sandsynligheder på 38%, 35.5% og 34.6%](../../../../../translated_images/da/object-detector-detected-tomato-paste.52656fe87af4c37b4ee540526d63e73ed075da2e54a9a060aa528e0c562fb1b6.png)
 
 1. Prøv alle de testbilleder, du har adgang til, og observer sandsynlighederne.
 

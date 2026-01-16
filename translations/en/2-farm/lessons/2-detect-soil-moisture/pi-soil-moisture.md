@@ -27,17 +27,17 @@ The Grove soil moisture sensor can be connected to the Raspberry Pi.
 
 Connect the soil moisture sensor.
 
-![A grove soil moisture sensor](../../../../../translated_images/grove-capacitive-soil-moisture-sensor.e7f0776cce30e78be5cc5a07839385fd6718857f31b5bf5ad3d0c73c83b2f0ef.en.png)
+![A grove soil moisture sensor](../../../../../translated_images/en/grove-capacitive-soil-moisture-sensor.e7f0776cce30e78be5cc5a07839385fd6718857f31b5bf5ad3d0c73c83b2f0ef.png)
 
 1. Insert one end of a Grove cable into the socket on the soil moisture sensor. It will only fit one way.
 
 1. With the Raspberry Pi powered off, connect the other end of the Grove cable to the analog socket marked **A0** on the Grove Base Hat attached to the Pi. This socket is the second from the right in the row of sockets next to the GPIO pins.
 
-![The grove soil moisture sensor connected to the A0 socket](../../../../../translated_images/pi-soil-moisture-sensor.fdd7eb2393792cf6739cacf1985d9f55beda16d372f30d0b5a51d586f978a870.en.png)
+![The grove soil moisture sensor connected to the A0 socket](../../../../../translated_images/en/pi-soil-moisture-sensor.fdd7eb2393792cf6739cacf1985d9f55beda16d372f30d0b5a51d586f978a870.png)
 
 1. Insert the soil moisture sensor into the soil. The sensor has a 'highest position line'—a white line across the sensor. Insert the sensor up to, but not past, this line.
 
-![The grove soil moisture sensor in soil](../../../../../translated_images/soil-moisture-sensor-in-soil.bfad91002bda5e96.en.png)
+![The grove soil moisture sensor in soil](../../../../../translated_images/en/soil-moisture-sensor-in-soil.bfad91002bda5e96.webp)
 
 ## Program the soil moisture sensor
 

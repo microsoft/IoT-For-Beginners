@@ -25,11 +25,11 @@ CO_OP_TRANSLATOR_METADATA:
 
 Συνδέστε την κάμερα.
 
-![Ένας αισθητήρας ArduCam](../../../../../translated_images/arducam.20e4e4cbb268296570b5914e20d6c349fc42ddac9ed4e1b9deba2188204eebae.el.png)
+![Ένας αισθητήρας ArduCam](../../../../../translated_images/el/arducam.20e4e4cbb268296570b5914e20d6c349fc42ddac9ed4e1b9deba2188204eebae.png)
 
 1. Οι ακίδες στη βάση της ArduCam πρέπει να συνδεθούν στις ακίδες GPIO του Wio Terminal. Για να διευκολυνθεί η εύρεση των σωστών ακίδων, τοποθετήστε το αυτοκόλλητο ακίδων GPIO που συνοδεύει το Wio Terminal γύρω από τις ακίδες:
 
-    ![Το Wio Terminal με το αυτοκόλλητο ακίδων GPIO](../../../../../translated_images/wio-terminal-pin-sticker.b90b1535937b84bd.el.png)
+    ![Το Wio Terminal με το αυτοκόλλητο ακίδων GPIO](../../../../../translated_images/el/wio-terminal-pin-sticker.b90b1535937b84bd.png)
 
 1. Χρησιμοποιώντας καλώδια jumper, κάντε τις παρακάτω συνδέσεις:
 
@@ -44,7 +44,7 @@ CO_OP_TRANSLATOR_METADATA:
     | SDA           | 3 (I2C1_SDA)       | Σειριακά Δεδομένα I2C                    |
     | SCL           | 5 (I2C1_SCL)       | Σειριακό Ρολόι I2C                       |
 
-    ![Το Wio Terminal συνδεδεμένο με την ArduCam με καλώδια jumper](../../../../../translated_images/arducam-wio-terminal-connections.a4d5a4049bdb5ab800a2877389fc6ecf5e4ff307e6451ff56c517e6786467d0a.el.png)
+    ![Το Wio Terminal συνδεδεμένο με την ArduCam με καλώδια jumper](../../../../../translated_images/el/arducam-wio-terminal-connections.a4d5a4049bdb5ab800a2877389fc6ecf5e4ff307e6451ff56c517e6786467d0a.png)
 
     Οι συνδέσεις GND και VCC παρέχουν τροφοδοσία 5V στην ArduCam. Λειτουργεί στα 5V, σε αντίθεση με τους αισθητήρες Grove που λειτουργούν στα 3V. Αυτή η τροφοδοσία προέρχεται απευθείας από τη σύνδεση USB-C που τροφοδοτεί τη συσκευή.
 
@@ -297,7 +297,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 1. Οι μικροελεγκτές εκτελούν τον κώδικά σας συνεχώς, οπότε δεν είναι εύκολο να ενεργοποιηθεί κάτι όπως η λήψη μιας φωτογραφίας χωρίς να αντιδράσει σε έναν αισθητήρα. Το Wio Terminal διαθέτει κουμπιά, οπότε η κάμερα μπορεί να ρυθμιστεί ώστε να ενεργοποιείται από ένα από τα κουμπιά. Προσθέστε τον παρακάτω κώδικα στο τέλος της συνάρτησης `setup` για να ρυθμίσετε το κουμπί C (ένα από τα τρία κουμπιά στην κορυφή, το πιο κοντινό στον διακόπτη τροφοδοσίας).
 
-    ![Το κουμπί C στην κορυφή, κοντά στον διακόπτη τροφοδοσίας](../../../../../translated_images/wio-terminal-c-button.73df3cb1c1445ea0.el.png)
+    ![Το κουμπί C στην κορυφή, κοντά στον διακόπτη τροφοδοσίας](../../../../../translated_images/el/wio-terminal-c-button.73df3cb1c1445ea0.png)
 
     ```cpp
     pinMode(WIO_KEY_C, INPUT_PULLUP);

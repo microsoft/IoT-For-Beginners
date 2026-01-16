@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Halten Sie Ihre Pflanze sicher
 
-![Eine Sketchnote-Übersicht dieser Lektion](../../../../../translated_images/lesson-10.829c86b80b9403bb770929ee553a1d293afe50dc23121aaf9be144673ae012cc.de.jpg)
+![Eine Sketchnote-Übersicht dieser Lektion](../../../../../translated_images/de/lesson-10.829c86b80b9403bb770929ee553a1d293afe50dc23121aaf9be144673ae012cc.jpg)
 
 > Sketchnote von [Nitya Narasimhan](https://github.com/nitya). Klicken Sie auf das Bild für eine größere Version.
 
@@ -61,11 +61,11 @@ Dies sind reale Szenarien, die ständig passieren. Einige Beispiele wurden in fr
 
 Wenn ein Gerät eine Verbindung zu einem IoT-Dienst herstellt, verwendet es eine ID, um sich zu identifizieren. Das Problem ist, dass diese ID geklont werden kann – ein Hacker könnte ein bösartiges Gerät einrichten, das dieselbe ID wie ein echtes Gerät verwendet, aber falsche Daten sendet.
 
-![Sowohl gültige als auch bösartige Geräte könnten dieselbe ID verwenden, um Telemetrie zu senden](../../../../../translated_images/iot-device-and-hacked-device-connecting.e0671675df74d6d99eb1dedb5a670e606f698efa6202b1ad4c8ae548db299cc6.de.png)
+![Sowohl gültige als auch bösartige Geräte könnten dieselbe ID verwenden, um Telemetrie zu senden](../../../../../translated_images/de/iot-device-and-hacked-device-connecting.e0671675df74d6d99eb1dedb5a670e606f698efa6202b1ad4c8ae548db299cc6.png)
 
 Die Lösung besteht darin, die gesendeten Daten in ein verschlüsseltes Format umzuwandeln, wobei ein Wert verwendet wird, der nur dem Gerät und der Cloud bekannt ist. Dieser Prozess wird *Verschlüsselung* genannt, und der Wert, der zur Verschlüsselung der Daten verwendet wird, wird als *Verschlüsselungsschlüssel* bezeichnet.
 
-![Wenn Verschlüsselung verwendet wird, werden nur verschlüsselte Nachrichten akzeptiert, andere werden abgelehnt](../../../../../translated_images/iot-device-and-hacked-device-connecting-encryption.5941aff601fc978f979e46f2849b573564eeb4a4dc5b52f669f62745397492fb.de.png)
+![Wenn Verschlüsselung verwendet wird, werden nur verschlüsselte Nachrichten akzeptiert, andere werden abgelehnt](../../../../../translated_images/de/iot-device-and-hacked-device-connecting-encryption.5941aff601fc978f979e46f2849b573564eeb4a4dc5b52f669f62745397492fb.png)
 
 Der Cloud-Dienst kann die Daten dann mit einem Prozess namens *Entschlüsselung* wieder in ein lesbares Format umwandeln, entweder mit demselben Verschlüsselungsschlüssel oder einem *Entschlüsselungsschlüssel*. Wenn die verschlüsselte Nachricht nicht mit dem Schlüssel entschlüsselt werden kann, wurde das Gerät gehackt und die Nachricht wird abgelehnt.
 
@@ -97,15 +97,15 @@ Verschlüsselung gibt es in zwei Typen – symmetrisch und asymmetrisch.
 
 **Symmetrische** Verschlüsselung verwendet denselben Schlüssel, um die Daten zu verschlüsseln und zu entschlüsseln. Sowohl der Sender als auch der Empfänger müssen denselben Schlüssel kennen. Dies ist die am wenigsten sichere Art, da der Schlüssel irgendwie geteilt werden muss. Damit ein Sender eine verschlüsselte Nachricht an einen Empfänger senden kann, muss der Sender dem Empfänger zuerst den Schlüssel senden.
 
-![Symmetrische Schlüsselverschlüsselung verwendet denselben Schlüssel, um eine Nachricht zu verschlüsseln und zu entschlüsseln](../../../../../translated_images/send-message-symmetric-key.a2e8ad0d495896ff.de.png)
+![Symmetrische Schlüsselverschlüsselung verwendet denselben Schlüssel, um eine Nachricht zu verschlüsseln und zu entschlüsseln](../../../../../translated_images/de/send-message-symmetric-key.a2e8ad0d495896ff.png)
 
 Wenn der Schlüssel während der Übertragung gestohlen wird oder der Sender oder Empfänger gehackt wird und der Schlüssel gefunden wird, kann die Verschlüsselung geknackt werden.
 
-![Symmetrische Schlüsselverschlüsselung ist nur sicher, wenn ein Hacker den Schlüssel nicht erhält – wenn doch, kann er die Nachricht abfangen und entschlüsseln](../../../../../translated_images/send-message-symmetric-key-hacker.e7cb53db1707adfb.de.png)
+![Symmetrische Schlüsselverschlüsselung ist nur sicher, wenn ein Hacker den Schlüssel nicht erhält – wenn doch, kann er die Nachricht abfangen und entschlüsseln](../../../../../translated_images/de/send-message-symmetric-key-hacker.e7cb53db1707adfb.png)
 
 **Asymmetrische** Verschlüsselung verwendet 2 Schlüssel – einen Verschlüsselungsschlüssel und einen Entschlüsselungsschlüssel, die als öffentliches/privates Schlüsselpaar bezeichnet werden. Der öffentliche Schlüssel wird verwendet, um die Nachricht zu verschlüsseln, kann aber nicht verwendet werden, um sie zu entschlüsseln. Der private Schlüssel wird verwendet, um die Nachricht zu entschlüsseln, kann aber nicht verwendet werden, um sie zu verschlüsseln.
 
-![Asymmetrische Verschlüsselung verwendet unterschiedliche Schlüssel zum Verschlüsseln und Entschlüsseln. Der Verschlüsselungsschlüssel wird an alle Nachrichtensender gesendet, damit sie eine Nachricht verschlüsseln können, bevor sie sie an den Empfänger senden, der die Schlüssel besitzt](../../../../../translated_images/send-message-asymmetric.7abe327c62615b8c.de.png)
+![Asymmetrische Verschlüsselung verwendet unterschiedliche Schlüssel zum Verschlüsseln und Entschlüsseln. Der Verschlüsselungsschlüssel wird an alle Nachrichtensender gesendet, damit sie eine Nachricht verschlüsseln können, bevor sie sie an den Empfänger senden, der die Schlüssel besitzt](../../../../../translated_images/de/send-message-asymmetric.7abe327c62615b8c.png)
 
 Der Empfänger teilt seinen öffentlichen Schlüssel, und der Sender verwendet diesen, um die Nachricht zu verschlüsseln. Sobald die Nachricht gesendet wird, entschlüsselt der Empfänger sie mit seinem privaten Schlüssel. Asymmetrische Verschlüsselung ist sicherer, da der private Schlüssel vom Empfänger privat gehalten und niemals geteilt wird. Jeder kann den öffentlichen Schlüssel haben, da er nur zum Verschlüsseln von Nachrichten verwendet werden kann.
 
@@ -165,7 +165,7 @@ Diese Zertifikate enthalten eine Reihe von Feldern, darunter Informationen darü
 
 Bei der Verwendung von X.509-Zertifikaten haben sowohl der Sender als auch der Empfänger ihre eigenen öffentlichen und privaten Schlüssel sowie X.509-Zertifikate, die den öffentlichen Schlüssel enthalten. Sie tauschen dann irgendwie X.509-Zertifikate aus, verwenden die öffentlichen Schlüssel des jeweils anderen, um die gesendeten Daten zu verschlüsseln, und ihren eigenen privaten Schlüssel, um die empfangenen Daten zu entschlüsseln.
 
-![Anstatt einen öffentlichen Schlüssel zu teilen, kannst du ein Zertifikat teilen. Der Nutzer des Zertifikats kann überprüfen, dass es von dir stammt, indem er bei der Zertifizierungsstelle nachfragt, die es signiert hat.](../../../../../translated_images/send-message-certificate.9cc576ac1e46b76e.de.png)
+![Anstatt einen öffentlichen Schlüssel zu teilen, kannst du ein Zertifikat teilen. Der Nutzer des Zertifikats kann überprüfen, dass es von dir stammt, indem er bei der Zertifizierungsstelle nachfragt, die es signiert hat.](../../../../../translated_images/de/send-message-certificate.9cc576ac1e46b76e.png)
 
 Ein großer Vorteil der Verwendung von X.509-Zertifikaten ist, dass sie zwischen Geräten geteilt werden können. Du kannst ein Zertifikat erstellen, es in den IoT Hub hochladen und für alle deine Geräte verwenden. Jedes Gerät muss dann nur den privaten Schlüssel kennen, um die Nachrichten zu entschlüsseln, die es vom IoT Hub erhält.
 

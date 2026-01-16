@@ -25,13 +25,13 @@ Grove-temperatursensoren kan tilsluttes Raspberry Pi.
 
 Tilslut temperatursensoren
 
-![En Grove-temperatursensor](../../../../../translated_images/grove-dht11.07f8eafceee170043efbb53e1d15722bd4e00fbaa9ff74290b57e9f66eb82c17.da.png)
+![En Grove-temperatursensor](../../../../../translated_images/da/grove-dht11.07f8eafceee170043efbb53e1d15722bd4e00fbaa9ff74290b57e9f66eb82c17.png)
 
 1. Sæt den ene ende af et Grove-kabel i stikket på fugtigheds- og temperatursensoren. Det kan kun sættes i på én måde.
 
 1. Med Raspberry Pi slukket, tilslut den anden ende af Grove-kablet til det digitale stik markeret **D5** på Grove Base-hatten, der er tilsluttet Pi'en. Dette stik er det andet fra venstre i rækken af stik ved siden af GPIO-pinnene.
 
-![Grove-temperatursensoren tilsluttet stik A0](../../../../../translated_images/pi-temperature-sensor.3ff82fff672c8e565ef25a39d26d111de006b825a7e0867227ef4e7fbff8553c.da.png)
+![Grove-temperatursensoren tilsluttet stik A0](../../../../../translated_images/da/pi-temperature-sensor.3ff82fff672c8e565ef25a39d26d111de006b825a7e0867227ef4e7fbff8553c.png)
 
 ## Programmer temperatursensoren
 

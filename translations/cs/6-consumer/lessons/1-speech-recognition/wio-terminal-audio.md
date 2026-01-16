@@ -19,7 +19,7 @@ Vestavěný mikrofon zachycuje analogový signál, který je převeden na digit�
 
 ✅ Přečtěte si více o DMA na [stránce o přímém přístupu do paměti na Wikipedii](https://wikipedia.org/wiki/Direct_memory_access).
 
-![Zvuk z mikrofonu jde do ADC a poté do DMAC. Ten zapisuje do jednoho bufferu. Když je tento buffer plný, je zpracován a DMAC zapisuje do druhého bufferu](../../../../../translated_images/dmac-adc-buffers.4509aee49145c90bc2e1be472b8ed2ddfcb2b6a81ad3e559114aca55f5fff759.cs.png)
+![Zvuk z mikrofonu jde do ADC a poté do DMAC. Ten zapisuje do jednoho bufferu. Když je tento buffer plný, je zpracován a DMAC zapisuje do druhého bufferu](../../../../../translated_images/cs/dmac-adc-buffers.4509aee49145c90bc2e1be472b8ed2ddfcb2b6a81ad3e559114aca55f5fff759.png)
 
 DMAC může zachytit zvuk z ADC v pevných intervalech, například 16 000krát za sekundu pro zvuk o frekvenci 16 kHz. Tato zachycená data může zapsat do předem alokovaného paměťového bufferu, a když je tento buffer plný, zpřístupní je vašemu kódu ke zpracování. Použití této paměti může zpozdit zachycení zvuku, ale můžete nastavit více bufferů. DMAC zapisuje do bufferu 1, a když je plný, upozorní váš kód, aby zpracoval buffer 1, zatímco DMAC zapisuje do bufferu 2. Když je buffer 2 plný, upozorní váš kód a vrátí se k zápisu do bufferu 1. Tímto způsobem, pokud zpracujete každý buffer za kratší dobu, než je potřeba k naplnění jednoho, neztratíte žádná data.
 

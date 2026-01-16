@@ -81,7 +81,7 @@ As a useful debugging step, you can not only print out the bounding boxes but al
 
 1. Run the app with the camera pointing at some stock on a shelf. You will see the `image.jpg` file in the VS Code explorer, and you can open it to view the bounding boxes.
 
-    ![4 cans of tomato paste with bounding boxes around each can](../../../../../translated_images/rpi-stock-with-bounding-boxes.b5540e2ecb7cd49f.en.jpg)
+    ![4 cans of tomato paste with bounding boxes around each can](../../../../../translated_images/en/rpi-stock-with-bounding-boxes.b5540e2ecb7cd49f.webp)
 
 ## Count stock
 

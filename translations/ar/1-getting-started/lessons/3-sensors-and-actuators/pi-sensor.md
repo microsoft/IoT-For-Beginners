@@ -25,13 +25,13 @@ CO_OP_TRANSLATOR_METADATA:
 
 قم بتوصيل مستشعر الضوء
 
-![مستشعر الضوء من نوع Grove](../../../../../translated_images/grove-light-sensor.b8127b7c434e632d6bcdb57587a14e9ef69a268a22df95d08628f62b8fa5505c.ar.png)
+![مستشعر الضوء من نوع Grove](../../../../../translated_images/ar/grove-light-sensor.b8127b7c434e632d6bcdb57587a14e9ef69a268a22df95d08628f62b8fa5505c.png)
 
 1. أدخل أحد طرفي كابل Grove في المقبس الموجود على وحدة مستشعر الضوء. يمكن إدخاله في اتجاه واحد فقط.
 
 1. مع إيقاف تشغيل Raspberry Pi، قم بتوصيل الطرف الآخر من كابل Grove بالمقبس التناظري المسمى **A0** على قبعة قاعدة Grove المثبتة على Pi. هذا المقبس هو الثاني من اليمين، في صف المقابس بجانب دبابيس GPIO.
 
-![مستشعر الضوء من نوع Grove متصل بالمقبس A0](../../../../../translated_images/pi-light-sensor.66cc1e31fa48cd7d5f23400d4b2119aa41508275cb7c778053a7923b4e972d7e.ar.png)
+![مستشعر الضوء من نوع Grove متصل بالمقبس A0](../../../../../translated_images/ar/pi-light-sensor.66cc1e31fa48cd7d5f23400d4b2119aa41508275cb7c778053a7923b4e972d7e.png)
 
 ## برمجة مستشعر الضوء
 

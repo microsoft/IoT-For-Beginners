@@ -27,13 +27,13 @@ Der Grove-Temperatursensor kann an den digitalen Port des Wio Terminals angeschl
 
 Schließen Sie den Temperatursensor an.
 
-![Ein Grove-Temperatursensor](../../../../../translated_images/grove-dht11.07f8eafceee170043efbb53e1d15722bd4e00fbaa9ff74290b57e9f66eb82c17.de.png)
+![Ein Grove-Temperatursensor](../../../../../translated_images/de/grove-dht11.07f8eafceee170043efbb53e1d15722bd4e00fbaa9ff74290b57e9f66eb82c17.png)
 
 1. Stecken Sie ein Ende eines Grove-Kabels in die Buchse des Feuchtigkeits- und Temperatursensors. Es passt nur in einer Richtung.
 
 1. Trennen Sie das Wio Terminal von Ihrem Computer oder einer anderen Stromquelle und verbinden Sie das andere Ende des Grove-Kabels mit der rechten Grove-Buchse des Wio Terminals, wenn Sie auf den Bildschirm schauen. Dies ist die Buchse, die am weitesten vom Netzschalter entfernt ist.
 
-![Der Grove-Temperatursensor ist mit der rechten Buchse verbunden](../../../../../translated_images/wio-temperature-sensor.2934928f38c7f79a.de.png)
+![Der Grove-Temperatursensor ist mit der rechten Buchse verbunden](../../../../../translated_images/de/wio-temperature-sensor.2934928f38c7f79a.png)
 
 ## Den Temperatursensor programmieren
 

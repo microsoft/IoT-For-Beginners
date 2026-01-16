@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Suporte a múltiplos idiomas
 
-![Uma visão geral ilustrada desta lição](../../../../../translated_images/lesson-24.4246968ed058510ab275052e87ef9aa89c7b2f938915d103c605c04dc6cd5bb7.br.jpg)
+![Uma visão geral ilustrada desta lição](../../../../../translated_images/br/lesson-24.4246968ed058510ab275052e87ef9aa89c7b2f938915d103c605c04dc6cd5bb7.jpg)
 
 > Ilustração por [Nitya Narasimhan](https://github.com/nitya). Clique na imagem para uma versão maior.
 
@@ -83,7 +83,7 @@ Existem vários serviços de IA que podem ser usados em seus aplicativos para tr
 
 ### Serviço de fala dos serviços cognitivos
 
-![O logotipo do serviço de fala](../../../../../translated_images/azure-speech-logo.a1f08c4befb0159f2cb5d692d3baf5b599e7b44759d316da907bda1508f46a4a.br.png)
+![O logotipo do serviço de fala](../../../../../translated_images/br/azure-speech-logo.a1f08c4befb0159f2cb5d692d3baf5b599e7b44759d316da907bda1508f46a4a.png)
 
 O serviço de fala que você tem usado nas últimas lições possui capacidades de tradução para reconhecimento de fala. Quando você reconhece fala, pode solicitar não apenas o texto da fala no mesmo idioma, mas também em outros idiomas.
 
@@ -91,7 +91,7 @@ O serviço de fala que você tem usado nas últimas lições possui capacidades 
 
 ### Serviço de tradutor dos serviços cognitivos
 
-![O logotipo do serviço de tradutor](../../../../../translated_images/azure-translator-logo.c6ed3a4a433edfd2f11577eca105412c50b8396b194cbbd730723dd1d0793bcd.br.png)
+![O logotipo do serviço de tradutor](../../../../../translated_images/br/azure-translator-logo.c6ed3a4a433edfd2f11577eca105412c50b8396b194cbbd730723dd1d0793bcd.png)
 
 O serviço de tradutor é um serviço dedicado de tradução que pode traduzir texto de um idioma para um ou mais idiomas de destino. Além de traduzir, ele suporta uma ampla gama de recursos extras, incluindo mascaramento de palavrões. Ele também permite que você forneça uma tradução específica para uma palavra ou frase, para trabalhar com termos que você não deseja traduzir ou que possuem uma tradução bem conhecida.
 
@@ -130,7 +130,7 @@ Para esta lição, você precisará de um recurso de tradutor. Você usará a AP
 
 Em um mundo ideal, todo o seu aplicativo deveria entender o maior número possível de idiomas diferentes, desde ouvir a fala até compreender a linguagem e responder com fala. Isso dá muito trabalho, então os serviços de tradução podem acelerar o tempo de entrega do seu aplicativo.
 
-![Uma arquitetura de cronômetro inteligente traduzindo japonês para inglês, processando em inglês e depois traduzindo de volta para japonês](../../../../../translated_images/translated-smart-timer.08ac20057fdc5c37.br.png)
+![Uma arquitetura de cronômetro inteligente traduzindo japonês para inglês, processando em inglês e depois traduzindo de volta para japonês](../../../../../translated_images/br/translated-smart-timer.08ac20057fdc5c37.png)
 
 Imagine que você está construindo um cronômetro inteligente que usa inglês de ponta a ponta, entendendo inglês falado e convertendo isso em texto, executando a compreensão de linguagem em inglês, criando respostas em inglês e respondendo com fala em inglês. Se você quisesse adicionar suporte ao japonês, poderia começar traduzindo japonês falado para texto em inglês, mantendo o núcleo do aplicativo o mesmo, e depois traduzir o texto da resposta para japonês antes de falar a resposta. Isso permitiria adicionar suporte ao japonês rapidamente, e você poderia expandir para fornecer suporte completo de ponta a ponta em japonês mais tarde.
 

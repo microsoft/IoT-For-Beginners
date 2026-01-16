@@ -154,11 +154,11 @@ CO_OP_TRANSLATOR_METADATA:
 
 1. Όταν το VS Code εκκινήσει, θα ενεργοποιήσει το εικονικό περιβάλλον Python. Το επιλεγμένο εικονικό περιβάλλον θα εμφανιστεί στη γραμμή κατάστασης στο κάτω μέρος:
 
-    ![Το VS Code δείχνει το επιλεγμένο εικονικό περιβάλλον](../../../../../translated_images/vscode-virtual-env.8ba42e04c3d533cf.el.png)
+    ![Το VS Code δείχνει το επιλεγμένο εικονικό περιβάλλον](../../../../../translated_images/el/vscode-virtual-env.8ba42e04c3d533cf.png)
 
 1. Αν το τερματικό του VS Code είναι ήδη ανοιχτό όταν ξεκινά το VS Code, δεν θα έχει ενεργοποιηθεί το εικονικό περιβάλλον σε αυτό. Το πιο εύκολο πράγμα που μπορείτε να κάνετε είναι να τερματίσετε το τερματικό χρησιμοποιώντας το κουμπί **Kill the active terminal instance**:
 
-    ![Κουμπί Kill the active terminal instance στο VS Code](../../../../../translated_images/vscode-kill-terminal.1cc4de7c6f25ee08.el.png)
+    ![Κουμπί Kill the active terminal instance στο VS Code](../../../../../translated_images/el/vscode-kill-terminal.1cc4de7c6f25ee08.png)
 
     Μπορείτε να καταλάβετε αν το τερματικό έχει ενεργοποιημένο το εικονικό περιβάλλον, καθώς το όνομα του εικονικού περιβάλλοντος θα είναι πρόθεμα στην προτροπή του τερματικού. Για παράδειγμα, μπορεί να είναι:
 
@@ -212,7 +212,7 @@ CO_OP_TRANSLATOR_METADATA:
 
     Η εφαρμογή θα ξεκινήσει να εκτελείται και θα ανοίξει στον περιηγητή σας:
 
-    ![Η εφαρμογή Counter Fit εκτελείται σε περιηγητή](../../../../../translated_images/counterfit-first-run.433326358b669b31d0e99c3513cb01bfbb13724d162c99cdcc8f51ecf5f9c779.el.png)
+    ![Η εφαρμογή Counter Fit εκτελείται σε περιηγητή](../../../../../translated_images/el/counterfit-first-run.433326358b669b31d0e99c3513cb01bfbb13724d162c99cdcc8f51ecf5f9c779.png)
 
     Θα εμφανίζεται ως *Disconnected*, με το LED στην επάνω δεξιά γωνία να είναι σβηστό.
 
@@ -229,11 +229,11 @@ CO_OP_TRANSLATOR_METADATA:
 
 1. Θα χρειαστεί να εκκινήσετε ένα νέο τερματικό στο VS Code επιλέγοντας το κουμπί **Create a new integrated terminal**. Αυτό συμβαίνει επειδή η εφαρμογή CounterFit εκτελείται στο τρέχον τερματικό.
 
-    ![Κουμπί Create a new integrated terminal στο VS Code](../../../../../translated_images/vscode-new-terminal.77db8fc0f9cd3182.el.png)
+    ![Κουμπί Create a new integrated terminal στο VS Code](../../../../../translated_images/el/vscode-new-terminal.77db8fc0f9cd3182.png)
 
 1. Στο νέο αυτό τερματικό, εκτελέστε το αρχείο `app.py` όπως πριν. Η κατάσταση του CounterFit θα αλλάξει σε **Connected** και το LED θα ανάψει.
 
-    ![Το Counter Fit δείχνει ότι είναι συνδεδεμένο](../../../../../translated_images/counterfit-connected.ed30b46d8f79b0921f3fc70be10366e596a89dca3f80c2224a9d9fc98fccf884.el.png)
+    ![Το Counter Fit δείχνει ότι είναι συνδεδεμένο](../../../../../translated_images/el/counterfit-connected.ed30b46d8f79b0921f3fc70be10366e596a89dca3f80c2224a9d9fc98fccf884.png)
 
 > 💁 Μπορείτε να βρείτε αυτόν τον κώδικα στον φάκελο [code/virtual-device](../../../../../1-getting-started/lessons/1-introduction-to-iot/code/virtual-device).
 

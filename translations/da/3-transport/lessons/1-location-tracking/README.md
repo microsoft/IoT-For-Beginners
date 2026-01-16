@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Sporing af placering
 
-![En sketchnote oversigt over denne lektion](../../../../../translated_images/lesson-11.9fddbac4b664c6d50ab7ac9bb32f1fc3f945f03760e72f7f43938073762fb017.da.jpg)
+![En sketchnote oversigt over denne lektion](../../../../../translated_images/da/lesson-11.9fddbac4b664c6d50ab7ac9bb32f1fc3f945f03760e72f7f43938073762fb017.jpg)
 
 > Sketchnote af [Nitya Narasimhan](https://github.com/nitya). Klik på billedet for en større version.
 
@@ -72,13 +72,13 @@ Jorden er en kugle - en tredimensionel cirkel. På grund af dette defineres punk
 
 > 💁 Ingen ved helt præcist, hvorfor cirkler oprindeligt blev opdelt i 360 grader. [Wikipedia-siden om grader (vinkel)](https://wikipedia.org/wiki/Degree_(angle)) dækker nogle af de mulige årsager.
 
-![Linjer af breddegrad fra 90° ved Nordpolen, 45° halvvejs mellem Nordpolen og ækvator, 0° ved ækvator, -45° halvvejs mellem ækvator og Sydpolen og -90° ved Sydpolen](../../../../../translated_images/latitude-lines.11d8d91dfb2014a57437272d7db7fd6607243098e8685f06e0c5f1ec984cb7eb.da.png)
+![Linjer af breddegrad fra 90° ved Nordpolen, 45° halvvejs mellem Nordpolen og ækvator, 0° ved ækvator, -45° halvvejs mellem ækvator og Sydpolen og -90° ved Sydpolen](../../../../../translated_images/da/latitude-lines.11d8d91dfb2014a57437272d7db7fd6607243098e8685f06e0c5f1ec984cb7eb.png)
 
 Breddegrad måles ved hjælp af linjer, der cirkler Jorden og løber parallelt med ækvator, og opdeler den nordlige og sydlige halvkugle i hver 90°. Ækvator er ved 0°, Nordpolen er ved 90°, også kendt som 90° Nord, og Sydpolen er ved -90°, eller 90° Syd.
 
 Længdegrad måles som antallet af grader målt øst og vest. 0°-udgangspunktet for længdegrad kaldes *Prime Meridian* og blev i 1884 defineret som en linje fra Nordpolen til Sydpolen, der går gennem [British Royal Observatory i Greenwich, England](https://wikipedia.org/wiki/Royal_Observatory,_Greenwich).
 
-![Linjer af længdegrad, der går fra -180° vest for Prime Meridian, til 0° på Prime Meridian, til 180° øst for Prime Meridian](../../../../../translated_images/longitude-meridians.ab4ef1c91c064586b0185a3c8d39e585903696c6a7d28c098a93a629cddb5d20.da.png)
+![Linjer af længdegrad, der går fra -180° vest for Prime Meridian, til 0° på Prime Meridian, til 180° øst for Prime Meridian](../../../../../translated_images/da/longitude-meridians.ab4ef1c91c064586b0185a3c8d39e585903696c6a7d28c098a93a629cddb5d20.png)
 
 > 🎓 En meridian er en imaginær lige linje, der går fra Nordpolen til Sydpolen og danner en halvcirkel.
 
@@ -109,7 +109,7 @@ Koordinater for et punkt gives altid som `breddegrad, længdegrad`, så eksemple
 * En breddegrad på 47.6423109 (47.6423109 grader nord for ækvator)
 * En længdegrad på -122.1390293 (122.1390293 grader vest for Prime Meridian).
 
-![Microsoft Campus på 47.6423109,-122.117198](../../../../../translated_images/microsoft-gps-location-world.a321d481b010f6adfcca139b2ba0adc53b79f58a540495b8e2ce7f779ea64bfe.da.png)
+![Microsoft Campus på 47.6423109,-122.117198](../../../../../translated_images/da/microsoft-gps-location-world.a321d481b010f6adfcca139b2ba0adc53b79f58a540495b8e2ce7f779ea64bfe.png)
 
 ## Global Positioning Systems (GPS)
 
@@ -121,7 +121,7 @@ GPS-systemer fungerer ved at have et antal satellitter, der sender et signal med
 
 > 💁 GPS-sensorer har brug for antenner for at opfange radiobølger. Antennerne, der er indbygget i lastbiler og biler med indbygget GPS, er placeret for at få et godt signal, normalt på forruden eller taget. Hvis du bruger et separat GPS-system, såsom en smartphone eller en IoT-enhed, skal du sikre dig, at antennen, der er indbygget i GPS-systemet eller telefonen, har frit udsyn til himlen, såsom at være monteret på din forrude.
 
-![Ved at kende afstanden fra sensoren til flere satellitter kan placeringen beregnes](../../../../../translated_images/gps-satellites.04acf1148fe25fbf1586bc2e8ba698e8d79b79a50c36824b38417dd13372b90f.da.png)
+![Ved at kende afstanden fra sensoren til flere satellitter kan placeringen beregnes](../../../../../translated_images/da/gps-satellites.04acf1148fe25fbf1586bc2e8ba698e8d79b79a50c36824b38417dd13372b90f.png)
 
 GPS-satellitter kredser om Jorden, ikke på et fast punkt over sensoren, så placeringsdata inkluderer højde over havets overflade samt bredde- og længdegrad.
 

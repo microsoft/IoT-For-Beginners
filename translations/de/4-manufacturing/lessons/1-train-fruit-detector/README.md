@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Trainiere einen Obstqualitätsdetektor
 
-![Eine Sketchnote-Übersicht dieser Lektion](../../../../../translated_images/lesson-15.843d21afdc6fb2bba70cd9db7b7d2f91598859fafda2078b0bdc44954194b6c0.de.jpg)
+![Eine Sketchnote-Übersicht dieser Lektion](../../../../../translated_images/de/lesson-15.843d21afdc6fb2bba70cd9db7b7d2f91598859fafda2078b0bdc44954194b6c0.jpg)
 
 > Sketchnote von [Nitya Narasimhan](https://github.com/nitya). Klicken Sie auf das Bild für eine größere Version.
 
@@ -47,7 +47,7 @@ Nicht alle Ernten reifen gleichmäßig. Tomaten beispielsweise können noch grü
 
 Der Aufstieg der automatisierten Ernte hat die Sortierung der Produkte von der Ernte in die Fabrik verlagert. Lebensmittel wurden auf langen Förderbändern transportiert, wobei Teams von Menschen die Produkte durchsuchten und alles entfernten, was nicht den Qualitätsstandards entsprach. Die Ernte wurde durch Maschinen günstiger, aber es gab immer noch Kosten für die manuelle Sortierung der Lebensmittel.
 
-![Wenn eine rote Tomate erkannt wird, setzt sie ihre Reise ungehindert fort. Wenn eine grüne Tomate erkannt wird, wird sie durch einen Hebel in einen Abfallbehälter geschleudert.](../../../../../translated_images/optical-tomato-sorting.61aa134bdda4e5b1bfb16a212c1e35a6ef0c426cbb8b1c975f79d7bfbf48d068.de.png)
+![Wenn eine rote Tomate erkannt wird, setzt sie ihre Reise ungehindert fort. Wenn eine grüne Tomate erkannt wird, wird sie durch einen Hebel in einen Abfallbehälter geschleudert.](../../../../../translated_images/de/optical-tomato-sorting.61aa134bdda4e5b1bfb16a212c1e35a6ef0c426cbb8b1c975f79d7bfbf48d068.png)
 
 Die nächste Entwicklung war der Einsatz von Maschinen zur Sortierung, entweder in die Erntemaschinen integriert oder in den Verarbeitungsanlagen. Die erste Generation dieser Maschinen verwendete optische Sensoren, um Farben zu erkennen, und steuerte Aktuatoren, um grüne Tomaten mit Hebeln oder Luftstößen in einen Abfallbehälter zu befördern, während rote Tomaten auf einem Netzwerk von Förderbändern weitergeleitet wurden.
 
@@ -61,7 +61,7 @@ Die neuesten Entwicklungen dieser Sortiermaschinen nutzen KI und ML, indem sie M
 
 Traditionelle Programmierung bedeutet, dass Sie Daten nehmen, einen Algorithmus darauf anwenden und ein Ergebnis erhalten. Im letzten Projekt haben Sie beispielsweise GPS-Koordinaten und einen Geofence verwendet, einen von Azure Maps bereitgestellten Algorithmus angewendet und ein Ergebnis erhalten, ob der Punkt innerhalb oder außerhalb des Geofence liegt. Sie geben mehr Daten ein, und Sie erhalten mehr Ergebnisse.
 
-![Traditionelle Entwicklung nimmt Eingaben und einen Algorithmus und gibt Ergebnisse aus. Maschinelles Lernen verwendet Eingabe- und Ausgabedaten, um ein Modell zu trainieren, und dieses Modell kann neue Eingabedaten verwenden, um neue Ergebnisse zu generieren.](../../../../../translated_images/traditional-vs-ml.5c20c169621fa539.de.png)
+![Traditionelle Entwicklung nimmt Eingaben und einen Algorithmus und gibt Ergebnisse aus. Maschinelles Lernen verwendet Eingabe- und Ausgabedaten, um ein Modell zu trainieren, und dieses Modell kann neue Eingabedaten verwenden, um neue Ergebnisse zu generieren.](../../../../../translated_images/de/traditional-vs-ml.5c20c169621fa539.png)
 
 Maschinelles Lernen dreht diesen Prozess um – Sie beginnen mit Daten und bekannten Ergebnissen, und der maschinelle Lernalgorithmus lernt aus den Daten. Sie können dann diesen trainierten Algorithmus, ein sogenanntes *Maschinelles Lernmodell* oder *Modell*, verwenden, um neue Daten einzugeben und neue Ergebnisse zu erhalten.
 
@@ -71,7 +71,7 @@ Beispielsweise könnten Sie einem Modell Millionen von Bildern unreifer Bananen 
 
 > 🎓 Die Ergebnisse von ML-Modellen werden als *Vorhersagen* bezeichnet.
 
-![2 Bananen, eine reife mit einer Vorhersage von 99,7% reif, 0,3% unreif, und eine unreife mit einer Vorhersage von 1,4% reif, 98,6% unreif.](../../../../../translated_images/bananas-ripe-vs-unripe-predictions.8d0e2034014aa50ece4e4589e724b142da0681f35470fe3db3f7d51240f69c85.de.png)
+![2 Bananen, eine reife mit einer Vorhersage von 99,7% reif, 0,3% unreif, und eine unreife mit einer Vorhersage von 1,4% reif, 98,6% unreif.](../../../../../translated_images/de/bananas-ripe-vs-unripe-predictions.8d0e2034014aa50ece4e4589e724b142da0681f35470fe3db3f7d51240f69c85.png)
 
 ML-Modelle geben keine binären Antworten, sondern Wahrscheinlichkeiten. Beispielsweise könnte ein Modell ein Bild einer Banane erhalten und `reif` mit 99,7% und `unreif` mit 0,3% vorhersagen. Ihr Code würde dann die beste Vorhersage auswählen und entscheiden, dass die Banane reif ist.
 
@@ -87,7 +87,7 @@ Um einen Bildklassifikator erfolgreich zu trainieren, benötigen Sie Millionen v
 
 Sobald ein Bildklassifikator für eine Vielzahl von Bildern trainiert wurde, ist er intern hervorragend darin, Formen, Farben und Muster zu erkennen. Transferlernen ermöglicht es dem Modell, das, was es bereits über die Erkennung von Bildteilen gelernt hat, zu nutzen, um neue Bilder zu erkennen.
 
-![Sobald Sie Formen erkennen können, können sie in verschiedenen Konfigurationen zu einem Boot oder einer Katze zusammengesetzt werden.](../../../../../translated_images/shapes-to-images.1a309f0ea88dd66f.de.png)
+![Sobald Sie Formen erkennen können, können sie in verschiedenen Konfigurationen zu einem Boot oder einer Katze zusammengesetzt werden.](../../../../../translated_images/de/shapes-to-images.1a309f0ea88dd66f.png)
 
 Das können Sie sich wie Kinderbücher über Formen vorstellen, bei denen Sie, sobald Sie einen Halbkreis, ein Rechteck und ein Dreieck erkennen können, ein Segelboot oder eine Katze je nach Konfiguration dieser Formen erkennen können. Der Bildklassifikator kann die Formen erkennen, und das Transferlernen lehrt ihn, welche Kombination ein Boot oder eine Katze – oder eine reife Banane – ergibt.
 
@@ -99,7 +99,7 @@ Es gibt eine Vielzahl von Tools, die Ihnen dabei helfen können, darunter cloudb
 
 Custom Vision ist ein cloudbasiertes Tool zum Trainieren von Bildklassifikatoren. Es ermöglicht Ihnen, einen Klassifikator mit nur einer kleinen Anzahl von Bildern zu trainieren. Sie können Bilder über ein Webportal, eine Web-API oder ein SDK hochladen und jedem Bild ein *Tag* zuweisen, das die Klassifikation dieses Bildes angibt. Anschließend trainieren Sie das Modell und testen es, um zu sehen, wie gut es funktioniert. Sobald Sie mit dem Modell zufrieden sind, können Sie Versionen davon veröffentlichen, die über eine Web-API oder ein SDK zugänglich sind.
 
-![Das Azure Custom Vision-Logo](../../../../../translated_images/custom-vision-logo.d3d4e7c8a87ec9daf825e72e210576c3cbf60312577be7a139e22dd97ab7f1e6.de.png)
+![Das Azure Custom Vision-Logo](../../../../../translated_images/de/custom-vision-logo.d3d4e7c8a87ec9daf825e72e210576c3cbf60312577be7a139e22dd97ab7f1e6.png)
 
 > 💁 Sie können ein Custom Vision-Modell mit nur 5 Bildern pro Klassifikation trainieren, aber mehr ist besser. Mit mindestens 30 Bildern erzielen Sie bessere Ergebnisse.
 
@@ -155,7 +155,7 @@ Um Custom Vision zu verwenden, müssen Sie zunächst zwei Cognitive Services-Res
 
     Stellen Sie beim Erstellen Ihres Projekts sicher, dass Sie die zuvor erstellte Ressource `fruit-quality-detector-training` verwenden. Verwenden Sie den Projekttyp *Klassifikation*, den Klassifikationstyp *Multiklassen* und die Domäne *Lebensmittel*.
 
-    ![Die Einstellungen für das Custom Vision-Projekt mit dem Namen fruit-quality-detector, keiner Beschreibung, der Ressource fruit-quality-detector-training, dem Projekttyp Klassifikation, dem Klassifikationstyp Multiklassen und der Domäne Lebensmittel.](../../../../../translated_images/custom-vision-create-project.cf46325b92d8b131089f6647cf5e07b664cb77850e106d66e3c057b6b69756c6.de.png)
+    ![Die Einstellungen für das Custom Vision-Projekt mit dem Namen fruit-quality-detector, keiner Beschreibung, der Ressource fruit-quality-detector-training, dem Projekttyp Klassifikation, dem Klassifikationstyp Multiklassen und der Domäne Lebensmittel.](../../../../../translated_images/de/custom-vision-create-project.cf46325b92d8b131089f6647cf5e07b664cb77850e106d66e3c057b6b69756c6.png)
 
 ✅ Nehmen Sie sich etwas Zeit, um die Benutzeroberfläche von Custom Vision für Ihren Bildklassifikator zu erkunden.
 
@@ -173,7 +173,7 @@ Bildklassifikatoren arbeiten mit sehr niedriger Auflösung. Zum Beispiel kann Cu
 
     * Verwenden Sie 2 reife Bananen und machen Sie einige Bilder von jeder aus verschiedenen Blickwinkeln. Machen Sie mindestens 7 Bilder (5 zum Trainieren, 2 zum Testen), idealerweise mehr.
 
-        ![Fotos von 2 verschiedenen Bananen](../../../../../translated_images/banana-training-images.530eb203346d73bc23b8b990fb4609470bf4ff7c942ccc13d4cfffeed9be1ad4.de.png)
+        ![Fotos von 2 verschiedenen Bananen](../../../../../translated_images/de/banana-training-images.530eb203346d73bc23b8b990fb4609470bf4ff7c942ccc13d4cfffeed9be1ad4.png)
 
     * Wiederholen Sie denselben Vorgang mit 2 unreifen Bananen.
 
@@ -183,7 +183,7 @@ Bildklassifikatoren arbeiten mit sehr niedriger Auflösung. Zum Beispiel kann Cu
 
 1. Folgen Sie dem Abschnitt [Bilder hochladen und taggen im Quickstart zum Erstellen eines Klassifikators in der Microsoft-Dokumentation](https://docs.microsoft.com/azure/cognitive-services/custom-vision-service/getting-started-build-a-classifier?WT.mc_id=academic-17441-jabenn#upload-and-tag-images), um Ihre Trainingsbilder hochzuladen. Taggen Sie die reifen Früchte als `ripe` und die unreifen Früchte als `unripe`.
 
-    ![Die Upload-Dialoge zeigen den Upload von Bildern reifer und unreifer Bananen](../../../../../translated_images/image-upload-bananas.0751639f3815e0ec42bdbc6254d1e4357a185834d1ae10c9948a0e7d6d336695.de.png)
+    ![Die Upload-Dialoge zeigen den Upload von Bildern reifer und unreifer Bananen](../../../../../translated_images/de/image-upload-bananas.0751639f3815e0ec42bdbc6254d1e4357a185834d1ae10c9948a0e7d6d336695.png)
 
 1. Folgen Sie dem Abschnitt [Klassifikator trainieren im Quickstart zum Erstellen eines Klassifikators in der Microsoft-Dokumentation](https://docs.microsoft.com/azure/cognitive-services/custom-vision-service/getting-started-build-a-classifier?WT.mc_id=academic-17441-jabenn#train-the-classifier), um den Bildklassifikator mit Ihren hochgeladenen Bildern zu trainieren.
 
@@ -201,7 +201,7 @@ Sobald Ihr Klassifikator trainiert ist, können Sie ihn testen, indem Sie ihm ei
 
 1. Folgen Sie der [Dokumentation zum Testen Ihres Modells in der Microsoft-Dokumentation](https://docs.microsoft.com/azure/cognitive-services/custom-vision-service/test-your-model?WT.mc_id=academic-17441-jabenn#test-your-model), um Ihren Bildklassifikator zu testen. Verwenden Sie die Testbilder, die Sie zuvor erstellt haben, und nicht die Bilder, die Sie für das Training verwendet haben.
 
-    ![Eine unreife Banane wird mit 98,9 % Wahrscheinlichkeit als unreif und mit 1,1 % Wahrscheinlichkeit als reif vorhergesagt](../../../../../translated_images/banana-unripe-quick-test-prediction.dae9b5e1c4ef7c64886422438850ea14f0be6ac918c217ea3b255c685abfabe7.de.png)
+    ![Eine unreife Banane wird mit 98,9 % Wahrscheinlichkeit als unreif und mit 1,1 % Wahrscheinlichkeit als reif vorhergesagt](../../../../../translated_images/de/banana-unripe-quick-test-prediction.dae9b5e1c4ef7c64886422438850ea14f0be6ac918c217ea3b255c685abfabe7.png)
 
 1. Testen Sie alle Testbilder, die Ihnen zur Verfügung stehen, und beobachten Sie die Wahrscheinlichkeiten.
 

@@ -43,7 +43,7 @@ Raspberry Pi има 3.5мм жак за слушалки. Можете да го
 
 1. Ако използвате ReSpeaker 2-Mics Pi HAT, можете да премахнете Grove базовата платка и да поставите ReSpeaker платката на нейно място.
 
-    ![Raspberry Pi с ReSpeaker платка](../../../../../translated_images/pi-respeaker-hat.f00fabe7dd039a93e2e0aa0fc946c9af0c6a9eb17c32fa1ca097fb4e384f69f0.bg.png)
+    ![Raspberry Pi с ReSpeaker платка](../../../../../translated_images/bg/pi-respeaker-hat.f00fabe7dd039a93e2e0aa0fc946c9af0c6a9eb17c32fa1ca097fb4e384f69f0.png)
 
     По-късно в урока ще ви е необходим бутон Grove, но такъв е вграден в тази платка, така че Grove базовата платка не е необходима.
 

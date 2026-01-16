@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 [راسبيري باي](https://raspberrypi.org) هو كمبيوتر صغير على لوحة واحدة. يمكنك إضافة أجهزة استشعار ومحركات باستخدام مجموعة واسعة من الأجهزة والنظم البيئية، وفي هذه الدروس ستستخدم نظامًا بيئيًا للأجهزة يسمى [Grove](https://www.seeedstudio.com/category/Grove-c-1003.html). ستقوم ببرمجة راسبيري باي والوصول إلى أجهزة استشعار Grove باستخدام لغة بايثون.
 
-![راسبيري باي 4](../../../../../translated_images/raspberry-pi-4.fd4590d308c3d456.ar.jpg)
+![راسبيري باي 4](../../../../../translated_images/ar/raspberry-pi-4.fd4590d308c3d456.jpg)
 
 ## الإعداد
 
@@ -112,7 +112,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 1. من Raspberry Pi Imager، اختر زر **CHOOSE OS**، ثم اختر *Raspberry Pi OS (Other)*، متبوعًا بـ *Raspberry Pi OS Lite (32-bit)*.
 
-    ![Raspberry Pi Imager مع اختيار Raspberry Pi OS Lite](../../../../../translated_images/raspberry-pi-imager.24aedeab9e233d84.ar.png)
+    ![Raspberry Pi Imager مع اختيار Raspberry Pi OS Lite](../../../../../translated_images/ar/raspberry-pi-imager.24aedeab9e233d84.png)
 
     > 💁 Raspberry Pi OS Lite هو إصدار من نظام تشغيل راسبيري باي لا يحتوي على واجهة المستخدم الرسومية أو الأدوات القائمة على واجهة المستخدم. هذه الأدوات ليست ضرورية لجهاز "بدون شاشة" وتجعل التثبيت أصغر ووقت التشغيل أسرع.
 
@@ -251,7 +251,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 1. افتح هذا المجلد في VS Code عن طريق اختيار *File -> Open...* واختيار مجلد *nightlight*، ثم اختر **OK**.
 
-    ![نافذة فتح VS Code تعرض مجلد nightlight](../../../../../translated_images/vscode-open-nightlight-remote.d3d2a4011e30d535.ar.png)
+    ![نافذة فتح VS Code تعرض مجلد nightlight](../../../../../translated_images/ar/vscode-open-nightlight-remote.d3d2a4011e30d535.png)
 
 1. افتح ملف `app.py` من مستكشف VS Code وأضف الكود التالي:
 

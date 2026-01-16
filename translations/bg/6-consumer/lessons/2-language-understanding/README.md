@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Разбиране на езика
 
-![Скица на урока](../../../../../translated_images/lesson-22.6148ea28500d9e00c396aaa2649935fb6641362c8f03d8e5e90a676977ab01dd.bg.jpg)
+![Скица на урока](../../../../../translated_images/bg/lesson-22.6148ea28500d9e00c396aaa2649935fb6641362c8f03d8e5e90a676977ab01dd.jpg)
 
 > Скица от [Nitya Narasimhan](https://github.com/nitya). Кликнете върху изображението за по-голяма версия.
 
@@ -55,7 +55,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 ## Създаване на модел за разбиране на езика
 
-![Логото на LUIS](../../../../../translated_images/luis-logo.5cb4f3e88c020ee6df4f614e8831f4a4b6809a7247bf52085fb48d629ef9be52.bg.png)
+![Логото на LUIS](../../../../../translated_images/bg/luis-logo.5cb4f3e88c020ee6df4f614e8831f4a4b6809a7247bf52085fb48d629ef9be52.png)
 
 Можете да създавате модели за разбиране на езика, използвайки LUIS, услуга за разбиране на езика от Microsoft, която е част от Cognitive Services.
 
@@ -126,7 +126,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 След това казвате на LUIS кои части от тези изречения съответстват на обектите:
 
-![Изречението "настрой таймер за 1 минута и 12 секунди", разделено на обекти](../../../../../translated_images/sentence-as-intent-entities.301401696f992259.bg.png)
+![Изречението "настрой таймер за 1 минута и 12 секунди", разделено на обекти](../../../../../translated_images/bg/sentence-as-intent-entities.301401696f992259.png)
 
 Изречението `настрой таймер за 1 минута и 12 секунди` има интенция `настрой таймер`. То също има 2 обекта с 2 стойности всеки:
 
@@ -178,7 +178,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 1. Докато въвеждате всеки пример, LUIS ще започне да разпознава обекти и ще ги подчертава и етикетира.
 
-    ![Примерите с подчертани числа и единици време от LUIS](../../../../../translated_images/luis-intent-examples.25716580b2d2723cf1bafdf277d015c7f046d8cfa20f27bddf3a0873ec45fab7.bg.png)
+    ![Примерите с подчертани числа и единици време от LUIS](../../../../../translated_images/bg/luis-intent-examples.25716580b2d2723cf1bafdf277d015c7f046d8cfa20f27bddf3a0873ec45fab7.png)
 
 ### Задача - обучение и тестване на модела
 

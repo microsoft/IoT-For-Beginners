@@ -42,7 +42,7 @@ Depois de ter os dados de temperatura, você pode usar o Jupyter Notebook neste 
 
     O Jupyter será iniciado e abrirá o notebook no seu navegador. Siga as instruções no notebook para visualizar as temperaturas medidas e calcular os graus-dia de crescimento.
 
-    ![O jupyter notebook](../../../../../translated_images/gdd-jupyter-notebook.c5b52cf21094f158a61f47f455490fd95f1729777ff90861a4521820bf354cdc.br.png)
+    ![O jupyter notebook](../../../../../translated_images/br/gdd-jupyter-notebook.c5b52cf21094f158a61f47f455490fd95f1729777ff90861a4521820bf354cdc.png)
 
 ## Rubrica
 

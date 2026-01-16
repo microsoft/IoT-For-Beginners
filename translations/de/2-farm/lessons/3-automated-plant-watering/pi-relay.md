@@ -27,13 +27,13 @@ Das Grove-Relais kann mit dem Raspberry Pi verbunden werden.
 
 Verbinde das Relais.
 
-![Ein Grove-Relais](../../../../../translated_images/grove-relay.d426958ca210fbd0fb7983d7edc069d46c73a8b0a099d94797bd756f7b6bb6be.de.png)
+![Ein Grove-Relais](../../../../../translated_images/de/grove-relay.d426958ca210fbd0fb7983d7edc069d46c73a8b0a099d94797bd756f7b6bb6be.png)
 
 1. Stecke ein Ende eines Grove-Kabels in die Buchse des Relais. Es passt nur in einer Richtung hinein.
 
 1. Schalte den Raspberry Pi aus und verbinde das andere Ende des Grove-Kabels mit der digitalen Buchse, die mit **D5** auf dem Grove Base Hat markiert ist, der am Pi angebracht ist. Diese Buchse ist die zweite von links in der Reihe der Buchsen neben den GPIO-Pins. Lass den Bodenfeuchtigkeitssensor weiterhin mit der **A0**-Buchse verbunden.
 
-![Das Grove-Relais ist mit der D5-Buchse verbunden, und der Bodenfeuchtigkeitssensor ist mit der A0-Buchse verbunden](../../../../../translated_images/pi-relay-and-soil-moisture-sensor.02f3198975b8c53e69ec716cd2719ce117700bd1fc933eaf93476c103c57939b.de.png)
+![Das Grove-Relais ist mit der D5-Buchse verbunden, und der Bodenfeuchtigkeitssensor ist mit der A0-Buchse verbunden](../../../../../translated_images/de/pi-relay-and-soil-moisture-sensor.02f3198975b8c53e69ec716cd2719ce117700bd1fc933eaf93476c103c57939b.png)
 
 1. Stecke den Bodenfeuchtigkeitssensor in die Erde, falls er nicht bereits aus der vorherigen Lektion dort steckt.
 

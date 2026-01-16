@@ -22,7 +22,7 @@ I²C uses a bus made of two main wires, along with two power wires:
 | VCC | Voltage common collector | The power supply for the devices. This is connected to the SDA and SCL wires to provide their power via a pull-up resistor that switches the signal off when no device is acting as the controller. |
 | GND | Ground | This provides a common ground for the electrical circuit. |
 
-![I2C bus with 3 devices connected to the SDA and SCL wires, sharing a common ground wire](../../../../../translated_images/i2c.83da845dde02256bdd462dbe0d5145461416b74930571b89d1ae142841eeb584.en.png)
+![I2C bus with 3 devices connected to the SDA and SCL wires, sharing a common ground wire](../../../../../translated_images/en/i2c.83da845dde02256bdd462dbe0d5145461416b74930571b89d1ae142841eeb584.png)
 
 To send data, one device issues a start condition to indicate it is ready to transmit. It then becomes the controller. The controller sends the address of the device it wants to communicate with, along with whether it intends to read or write data. After the data has been transmitted, the controller sends a stop condition to signal that it has finished. At this point, another device can take over as the controller and send or receive data.
 <sup>
@@ -39,7 +39,7 @@ UART is a physical communication protocol that allows two devices to exchange da
 * Device 1 sends data from its Tx pin, which is received by Device 2 on its Rx pin.
 * Device 1 receives data on its Rx pin, which is sent by Device 2 from its Tx pin.
 
-![UART with the Tx pin on one chip connected to the Rx pin on another, and vice versa](../../../../../translated_images/uart.d0dbd3fb9e3728c6.en.png)
+![UART with the Tx pin on one chip connected to the Rx pin on another, and vice versa](../../../../../translated_images/en/uart.d0dbd3fb9e3728c6.webp)
 
 > 🎓 Data is transmitted one bit at a time, a method known as *serial* communication. Most operating systems and microcontrollers have *serial ports*, which are connections that can send and receive serial data and are accessible to your code.
 
@@ -68,7 +68,7 @@ SPI controllers use three shared wires and one additional wire per peripheral. P
 | SCLK | Serial Clock | Sends a clock signal at a rate determined by the controller. |
 | CS   | Chip Select | Each peripheral has its own CS wire, which the controller uses to activate the desired peripheral. |
 
-![SPI with one controller and two peripherals](../../../../../translated_images/spi.297431d6f98b386b.en.png)
+![SPI with one controller and two peripherals](../../../../../translated_images/en/spi.297431d6f98b386b.webp)
 
 The CS wire activates one peripheral at a time, enabling communication over the COPI and CIPO wires. To switch peripherals, the controller deactivates the current CS wire and activates the CS wire for the next peripheral.
 
@@ -129,13 +129,13 @@ Soil moisture is measured using either gravimetric or volumetric water content:
 
 Soil moisture sensors measure electrical resistance or capacitance, which varies with both soil moisture and soil type. Calibration involves comparing sensor readings to scientifically measured values. For example, lab-calculated gravimetric soil moisture values can be used to calibrate the sensor, aligning its readings with actual moisture levels.
 
-![A graph of voltage vs soil moisture content](../../../../../translated_images/soil-moisture-to-voltage.df86d80cda158700.en.png)
+![A graph of voltage vs soil moisture content](../../../../../translated_images/en/soil-moisture-to-voltage.df86d80cda158700.webp)
 
 The graph above illustrates sensor calibration. Voltage readings are taken from a soil sample, which is then analyzed in a lab. The lab measures the soil's wet and dry weights to calculate moisture content. These data points are plotted, and a line is fitted to the graph. This line is then used to convert sensor readings into accurate soil moisture measurements.
 
 💁 For resistive soil moisture sensors, voltage increases as soil moisture rises. For capacitive sensors, voltage decreases with increasing soil moisture, resulting in a downward-sloping graph.
 
-![A soil moisture value interpolated from the graph](../../../../../translated_images/soil-moisture-to-voltage-with-reading.681cb3e1f8b68caf.en.png)
+![A soil moisture value interpolated from the graph](../../../../../translated_images/en/soil-moisture-to-voltage-with-reading.681cb3e1f8b68caf.webp)
 
 The graph above shows how a voltage reading from a soil moisture sensor can be used to determine the actual soil moisture level.
 

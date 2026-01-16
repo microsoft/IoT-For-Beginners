@@ -27,17 +27,17 @@ Grove মাটি আর্দ্রতা সেন্সরটি Wio Termina
 
 মাটি আর্দ্রতা সেন্সর সংযুক্ত করুন।
 
-![একটি Grove মাটি আর্দ্রতা সেন্সর](../../../../../translated_images/grove-capacitive-soil-moisture-sensor.e7f0776cce30e78be5cc5a07839385fd6718857f31b5bf5ad3d0c73c83b2f0ef.bn.png)
+![একটি Grove মাটি আর্দ্রতা সেন্সর](../../../../../translated_images/bn/grove-capacitive-soil-moisture-sensor.e7f0776cce30e78be5cc5a07839385fd6718857f31b5bf5ad3d0c73c83b2f0ef.png)
 
 1. Grove কেবলের এক প্রান্ত মাটি আর্দ্রতা সেন্সরের সকেটে প্রবেশ করান। এটি শুধুমাত্র একটি নির্দিষ্ট দিকেই প্রবেশ করবে।
 
 1. Wio Terminal আপনার কম্পিউটার বা অন্য পাওয়ার সাপ্লাই থেকে সংযোগ বিচ্ছিন্ন অবস্থায়, Grove কেবলের অন্য প্রান্তটি Wio Terminal-এর ডান পাশের Grove সকেটে সংযুক্ত করুন, যখন আপনি স্ক্রিনের দিকে তাকাচ্ছেন। এটি পাওয়ার বোতামের থেকে সবচেয়ে দূরের সকেট।
 
-![ডান পাশের সকেটে সংযুক্ত Grove মাটি আর্দ্রতা সেন্সর](../../../../../translated_images/wio-soil-moisture-sensor.46919b61c3f6cb74.bn.png)
+![ডান পাশের সকেটে সংযুক্ত Grove মাটি আর্দ্রতা সেন্সর](../../../../../translated_images/bn/wio-soil-moisture-sensor.46919b61c3f6cb74.png)
 
 1. মাটি আর্দ্রতা সেন্সরটি মাটিতে প্রবেশ করান। এতে একটি 'সর্বোচ্চ অবস্থান রেখা' রয়েছে - সেন্সরের উপর একটি সাদা রেখা। সেন্সরটি এই রেখা পর্যন্ত প্রবেশ করান, কিন্তু এর বেশি নয়।
 
-![মাটিতে Grove মাটি আর্দ্রতা সেন্সর](../../../../../translated_images/soil-moisture-sensor-in-soil.bfad91002bda5e96.bn.png)
+![মাটিতে Grove মাটি আর্দ্রতা সেন্সর](../../../../../translated_images/bn/soil-moisture-sensor-in-soil.bfad91002bda5e96.png)
 
 1. এখন আপনি Wio Terminal-কে আপনার কম্পিউটারে সংযুক্ত করতে পারেন।
 

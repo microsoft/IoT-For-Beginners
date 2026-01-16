@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Train a fruit quality detector
 
-![A sketchnote overview of this lesson](../../../../../translated_images/lesson-15.843d21afdc6fb2bba70cd9db7b7d2f91598859fafda2078b0bdc44954194b6c0.en.jpg)
+![A sketchnote overview of this lesson](../../../../../translated_images/en/lesson-15.843d21afdc6fb2bba70cd9db7b7d2f91598859fafda2078b0bdc44954194b6c0.jpg)
 
 > Sketchnote by [Nitya Narasimhan](https://github.com/nitya). Click the image for a larger version.
 
@@ -47,7 +47,7 @@ Not all crops ripen uniformly. For instance, tomatoes on the same vine may vary 
 
 The shift to automated harvesting moved the sorting process from the field to the factory. In factories, food travels along conveyor belts, where teams of workers manually remove produce that doesn't meet quality standards. While machinery made harvesting cheaper, manual sorting still incurred significant costs.
 
-![If a red tomato is detected it continues its journey uninterrupted. If a green tomato is detected it is flicked into a waste bin by a lever](../../../../../translated_images/optical-tomato-sorting.61aa134bdda4e5b1bfb16a212c1e35a6ef0c426cbb8b1c975f79d7bfbf48d068.en.png)
+![If a red tomato is detected it continues its journey uninterrupted. If a green tomato is detected it is flicked into a waste bin by a lever](../../../../../translated_images/en/optical-tomato-sorting.61aa134bdda4e5b1bfb16a212c1e35a6ef0c426cbb8b1c975f79d7bfbf48d068.png)
 
 The next step in evolution was the use of machines for sorting, either integrated into harvesters or located in processing plants. Early machines relied on optical sensors to detect colors, using actuators to push green tomatoes into waste bins with levers or air puffs, while allowing red tomatoes to continue along the conveyor belts.
 
@@ -61,7 +61,7 @@ The latest advancements in sorting machines leverage AI and ML. These systems us
 
 Traditional programming involves taking data, applying an algorithm, and producing an output. For example, in the previous project, you used GPS coordinates and a geofence, applied an algorithm provided by Azure Maps, and determined whether the point was inside or outside the geofence. More data input results in more output.
 
-![Traditional development takes input and an algorithm and gives output. Machine learning uses input and output data to train a model, and this model can take new input data to generate new output](../../../../../translated_images/traditional-vs-ml.5c20c169621fa539.en.png)
+![Traditional development takes input and an algorithm and gives output. Machine learning uses input and output data to train a model, and this model can take new input data to generate new output](../../../../../translated_images/en/traditional-vs-ml.5c20c169621fa539.webp)
 
 Machine learning flips this process—you start with data and known outputs, and the machine learning algorithm learns from the data. The trained algorithm, called a *machine learning model* or simply *model*, can then process new data to generate new outputs.
 
@@ -71,7 +71,7 @@ For example, you could provide a model with millions of images of unripe bananas
 
 > 🎓 The results produced by ML models are called *predictions*.
 
-![2 bananas, a ripe one with a prediction of 99.7% ripe, 0.3% unripe, and an unripe one with a prediction of 1.4% ripe, 98.6% unripe](../../../../../translated_images/bananas-ripe-vs-unripe-predictions.8d0e2034014aa50ece4e4589e724b142da0681f35470fe3db3f7d51240f69c85.en.png)
+![2 bananas, a ripe one with a prediction of 99.7% ripe, 0.3% unripe, and an unripe one with a prediction of 1.4% ripe, 98.6% unripe](../../../../../translated_images/en/bananas-ripe-vs-unripe-predictions.8d0e2034014aa50ece4e4589e724b142da0681f35470fe3db3f7d51240f69c85.png)
 
 ML models don't provide binary answers; instead, they generate probabilities. For instance, a model might analyze a banana image and predict it is 99.7% ripe and 0.3% unripe. Your code would then select the most likely prediction and classify the banana as ripe.
 
@@ -87,7 +87,7 @@ Training an image classifier typically requires millions of images. However, onc
 
 A pre-trained image classifier is already adept at recognizing shapes, colors, and patterns. Transfer learning allows the model to apply this knowledge to identify new objects.
 
-![Once you can recognize shapes, they can be put into different configurations to make a boat or a cat](../../../../../translated_images/shapes-to-images.1a309f0ea88dd66f.en.png)
+![Once you can recognize shapes, they can be put into different configurations to make a boat or a cat](../../../../../translated_images/en/shapes-to-images.1a309f0ea88dd66f.webp)
 
 Think of it like children's shape books—once you can identify a semi-circle, rectangle, and triangle, you can recognize a sailboat or a cat based on how the shapes are arranged. Similarly, an image classifier recognizes shapes, and transfer learning teaches it how these shapes combine to form objects like a ripe banana.
 
@@ -99,7 +99,7 @@ There are many tools available to help with this process, including cloud-based 
 
 Custom Vision is a cloud-based tool for training image classifiers. It enables you to train a classifier with a relatively small number of images. You can upload images via a web portal, API, or SDK, tagging each image with its classification. After training the model, you can test its performance and publish it for use through a web API or SDK.
 
-![The Azure Custom Vision logo](../../../../../translated_images/custom-vision-logo.d3d4e7c8a87ec9daf825e72e210576c3cbf60312577be7a139e22dd97ab7f1e6.en.png)
+![The Azure Custom Vision logo](../../../../../translated_images/en/custom-vision-logo.d3d4e7c8a87ec9daf825e72e210576c3cbf60312577be7a139e22dd97ab7f1e6.png)
 
 > 💁 You can train a Custom Vision model with as few as 5 images per classification, but more images yield better results. Aim for at least 30 images for improved accuracy.
 
@@ -155,7 +155,7 @@ To use Custom Vision, you'll first need to create two cognitive services resourc
 
     When creating your project, select the `fruit-quality-detector-training` resource you created earlier. Choose a *Classification* project type, a *Multiclass* classification type, and the *Food* domain.
 
-    ![The settings for the custom vision project with the name set to fruit-quality-detector, no description, the resource set to fruit-quality-detector-training, the project type set to classification, the classification types set to multi class and the domains set to food](../../../../../translated_images/custom-vision-create-project.cf46325b92d8b131089f6647cf5e07b664cb77850e106d66e3c057b6b69756c6.en.png)
+    ![The settings for the custom vision project with the name set to fruit-quality-detector, no description, the resource set to fruit-quality-detector-training, the project type set to classification, the classification types set to multi class and the domains set to food](../../../../../translated_images/en/custom-vision-create-project.cf46325b92d8b131089f6647cf5e07b664cb77850e106d66e3c057b6b69756c6.png)
 
 ✅ Take some time to explore the Custom Vision UI for your image classifier.
 
@@ -173,7 +173,7 @@ Image classifiers operate at very low resolutions. For instance, Custom Vision c
 
     * Using 2 ripe bananas, take several pictures of each one from different angles, capturing at least 7 images (5 for training, 2 for testing), but ideally more.
 
-        ![Photos of 2 different bananas](../../../../../translated_images/banana-training-images.530eb203346d73bc23b8b990fb4609470bf4ff7c942ccc13d4cfffeed9be1ad4.en.png)
+        ![Photos of 2 different bananas](../../../../../translated_images/en/banana-training-images.530eb203346d73bc23b8b990fb4609470bf4ff7c942ccc13d4cfffeed9be1ad4.png)
 
     * Repeat the same process with 2 unripe bananas.
 
@@ -183,7 +183,7 @@ Image classifiers operate at very low resolutions. For instance, Custom Vision c
 
 1. Follow the [upload and tag images section of the build a classifier quickstart on the Microsoft docs](https://docs.microsoft.com/azure/cognitive-services/custom-vision-service/getting-started-build-a-classifier?WT.mc_id=academic-17441-jabenn#upload-and-tag-images) to upload your training images. Tag the ripe fruit as `ripe` and the unripe fruit as `unripe`.
 
-    ![The upload dialogs showing the upload of ripe and unripe banana pictures](../../../../../translated_images/image-upload-bananas.0751639f3815e0ec42bdbc6254d1e4357a185834d1ae10c9948a0e7d6d336695.en.png)
+    ![The upload dialogs showing the upload of ripe and unripe banana pictures](../../../../../translated_images/en/image-upload-bananas.0751639f3815e0ec42bdbc6254d1e4357a185834d1ae10c9948a0e7d6d336695.png)
 
 1. Follow the [train the classifier section of the build a classifier quickstart on the Microsoft docs](https://docs.microsoft.com/azure/cognitive-services/custom-vision-service/getting-started-build-a-classifier?WT.mc_id=academic-17441-jabenn#train-the-classifier) to train the image classifier using your uploaded images.
 
@@ -201,7 +201,7 @@ Once your classifier is trained, you can test it by providing a new image for cl
 
 1. Follow the [test your model documentation on the Microsoft docs](https://docs.microsoft.com/azure/cognitive-services/custom-vision-service/test-your-model?WT.mc_id=academic-17441-jabenn#test-your-model) to test your image classifier. Use the testing images you created earlier, not the ones used for training.
 
-    ![A unripe banana predicted as unripe with a 98.9% probability, ripe with a 1.1% probability](../../../../../translated_images/banana-unripe-quick-test-prediction.dae9b5e1c4ef7c64886422438850ea14f0be6ac918c217ea3b255c685abfabe7.en.png)
+    ![A unripe banana predicted as unripe with a 98.9% probability, ripe with a 1.1% probability](../../../../../translated_images/en/banana-unripe-quick-test-prediction.dae9b5e1c4ef7c64886422438850ea14f0be6ac918c217ea3b255c685abfabe7.png)
 
 1. Test all the images you have for testing and observe the probabilities.
 

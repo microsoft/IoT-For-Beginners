@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Porozumění jazyku
 
-![Přehled lekce ve formě sketchnote](../../../../../translated_images/lesson-22.6148ea28500d9e00c396aaa2649935fb6641362c8f03d8e5e90a676977ab01dd.cs.jpg)
+![Přehled lekce ve formě sketchnote](../../../../../translated_images/cs/lesson-22.6148ea28500d9e00c396aaa2649935fb6641362c8f03d8e5e90a676977ab01dd.jpg)
 
 > Sketchnote od [Nitya Narasimhan](https://github.com/nitya). Klikněte na obrázek pro větší verzi.
 
@@ -55,7 +55,7 @@ Modely pro porozumění jazyku jsou AI modely, které jsou trénovány na extrak
 
 ## Vytvoření modelu pro porozumění jazyku
 
-![Logo LUIS](../../../../../translated_images/luis-logo.5cb4f3e88c020ee6df4f614e8831f4a4b6809a7247bf52085fb48d629ef9be52.cs.png)
+![Logo LUIS](../../../../../translated_images/cs/luis-logo.5cb4f3e88c020ee6df4f614e8831f4a4b6809a7247bf52085fb48d629ef9be52.png)
 
 Modely pro porozumění jazyku můžete vytvářet pomocí LUIS, služby pro porozumění jazyku od Microsoftu, která je součástí Cognitive Services.
 
@@ -126,7 +126,7 @@ Jakmile jsou entity definovány, vytvoříte záměry. Ty se model učí na zák
 
 Poté LUISu označíte, které části těchto vět odpovídají entitám:
 
-![Věta „nastav časovač na 1 minutu a 12 sekund“ rozdělená na entity](../../../../../translated_images/sentence-as-intent-entities.301401696f992259.cs.png)
+![Věta „nastav časovač na 1 minutu a 12 sekund“ rozdělená na entity](../../../../../translated_images/cs/sentence-as-intent-entities.301401696f992259.png)
 
 Věta `nastav časovač na 1 minutu a 12 sekund` má záměr `nastavit časovač`. Obsahuje také 2 entity, každou se 2 hodnotami:
 
@@ -178,7 +178,7 @@ Pokyny pro použití portálu LUIS najdete v [dokumentaci Quickstart: Build your
 
 1. Jakmile zadáte každý příklad, LUIS začne detekovat entity a podtrhne a označí ty, které najde.
 
-    ![Příklady s podtrženými čísly a jednotkami času detekovanými LUIS](../../../../../translated_images/luis-intent-examples.25716580b2d2723cf1bafdf277d015c7f046d8cfa20f27bddf3a0873ec45fab7.cs.png)
+    ![Příklady s podtrženými čísly a jednotkami času detekovanými LUIS](../../../../../translated_images/cs/luis-intent-examples.25716580b2d2723cf1bafdf277d015c7f046d8cfa20f27bddf3a0873ec45fab7.png)
 
 ### Úkol – trénování a testování modelu
 

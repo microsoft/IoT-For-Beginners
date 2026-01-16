@@ -21,7 +21,7 @@ Budete také potřebovat několik netechnických položek, jako je půda nebo kv
 
 ## Koupit sady
 
-![Logo Seeed Studios](../../translated_images/seeed-logo.74732b6b482b6e8e.cs.png)
+![Logo Seeed Studios](../../translated_images/cs/seeed-logo.74732b6b482b6e8e.png)
 
 Seeed Studios velmi laskavě zpřístupnili veškerý hardware jako snadno zakoupitelné sady:
 
@@ -29,13 +29,13 @@ Seeed Studios velmi laskavě zpřístupnili veškerý hardware jako snadno zakou
 
 **[IoT pro začátečníky se Seeed a Microsoft - Wio Terminal Starter Kit](https://www.seeedstudio.com/IoT-for-beginners-with-Seeed-and-Microsoft-Wio-Terminal-Starter-Kit-p-5006.html)**
 
-[![Sada hardwaru Wio Terminal](../../translated_images/wio-hardware-kit.4c70c48b85e4283a.cs.png)](https://www.seeedstudio.com/IoT-for-beginners-with-Seeed-and-Microsoft-Wio-Terminal-Starter-Kit-p-5006.html)
+[![Sada hardwaru Wio Terminal](../../translated_images/cs/wio-hardware-kit.4c70c48b85e4283a.png)](https://www.seeedstudio.com/IoT-for-beginners-with-Seeed-and-Microsoft-Wio-Terminal-Starter-Kit-p-5006.html)
 
 ### Raspberry Pi
 
 **[IoT pro začátečníky se Seeed a Microsoft - Raspberry Pi 4 Starter Kit](https://www.seeedstudio.com/IoT-for-beginners-with-Seeed-and-Microsoft-Raspberry-Pi-Starter-Kit-p-5004.html)**
 
-[![Sada hardwaru Raspberry Pi Terminal](../../translated_images/pi-hardware-kit.26dbadaedb7dd44c73b0131d5d68ea29472ed0a9744f90d5866c6d82f2d16380.cs.png)](https://www.seeedstudio.com/IoT-for-beginners-with-Seeed-and-Microsoft-Raspberry-Pi-Starter-Kit-p-5004.html)
+[![Sada hardwaru Raspberry Pi Terminal](../../translated_images/cs/pi-hardware-kit.26dbadaedb7dd44c73b0131d5d68ea29472ed0a9744f90d5866c6d82f2d16380.png)](https://www.seeedstudio.com/IoT-for-beginners-with-Seeed-and-Microsoft-Raspberry-Pi-Starter-Kit-p-5004.html)
 
 ## Arduino
 
