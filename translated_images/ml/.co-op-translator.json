@@ -1,0 +1,2198 @@
+{
+  "fetch-decode-execute.2fd6f150f6280392.webp": {
+    "original_hash": "5bf630278697e98b9d322229d98d403c",
+    "translation_date": "2026-01-16T22:05:35+00:00",
+    "source_file": "images/fetch-decode-execute.png",
+    "language_code": "ml"
+  },
+  "raspberry-pi-4.fd4590d308c3d456.webp": {
+    "original_hash": "a6546a4c48ae28af3154546daeec43b2",
+    "translation_date": "2026-01-16T22:05:38+00:00",
+    "source_file": "images/raspberry-pi-4.jpg",
+    "language_code": "ml"
+  },
+  "light-switch.760317ad6ab8bd6d.webp": {
+    "original_hash": "41d49f69f3e43729085745abb67167b8",
+    "translation_date": "2026-01-16T22:05:42+00:00",
+    "source_file": "images/light-switch.png",
+    "language_code": "ml"
+  },
+  "optical-tomato-sorting.61aa134bdda4e5b1.webp": {
+    "original_hash": "ded722d4e89f50699032f038b439866d",
+    "translation_date": "2026-01-16T22:05:47+00:00",
+    "source_file": "images/optical-tomato-sorting.png",
+    "language_code": "ml"
+  },
+  "wio-respeaker-wiring-4.aa9cd434d8779437.webp": {
+    "original_hash": "c8febc847beb4a69180b745d5e718281",
+    "translation_date": "2026-01-16T22:05:50+00:00",
+    "source_file": "images/wio-respeaker-wiring-4.png",
+    "language_code": "ml"
+  },
+  "stock-7-cans-tomato-paste.f86059cc573d7bec.webp": {
+    "original_hash": "01dac6278467a7ebc669ccde8d957954",
+    "translation_date": "2026-01-16T22:06:06+00:00",
+    "source_file": "images/stock-7-cans-tomato-paste.png",
+    "language_code": "ml"
+  },
+  "serverless-scaling.f8c769adf0413fd1.webp": {
+    "original_hash": "bfa04832aefaa493dbb81bda0fe64bf8",
+    "translation_date": "2026-01-16T22:06:19+00:00",
+    "source_file": "images/serverless-scaling.png",
+    "language_code": "ml"
+  },
+  "wio-relay-and-soil-moisture-sensor.ed722202d42babe0.webp": {
+    "original_hash": "ca90c734c88176a89d703b243c280333",
+    "translation_date": "2026-01-16T22:06:25+00:00",
+    "source_file": "images/wio-relay-and-soil-moisture-sensor.png",
+    "language_code": "ml"
+  },
+  "relay-off.c34a178a2960fecd.webp": {
+    "original_hash": "695bf246ae769e65b44448d48b762bd1",
+    "translation_date": "2026-01-16T22:06:29+00:00",
+    "source_file": "images/relay-off.png",
+    "language_code": "ml"
+  },
+  "button.eadb560b77ac45e5.webp": {
+    "original_hash": "85b6123798803252b7f30ffce7dc58c8",
+    "translation_date": "2026-01-16T22:06:32+00:00",
+    "source_file": "images/button.png",
+    "language_code": "ml"
+  },
+  "image-upload-object-detector.77c7892c3093cb59.webp": {
+    "original_hash": "d66ff14cd73c4acfbb2ce4b15a256850",
+    "translation_date": "2026-01-16T22:06:40+00:00",
+    "source_file": "images/image-upload-object-detector.png",
+    "language_code": "ml"
+  },
+  "azure-maps-logo.35d01dcfbd81fe61.webp": {
+    "original_hash": "0b44d4f0596a033eb687e0a23d231428",
+    "translation_date": "2026-01-16T22:06:43+00:00",
+    "source_file": "images/azure-maps-logo.png",
+    "language_code": "ml"
+  },
+  "gps-telemetry-iot-hub-functions.24d3fa5592455e9f.webp": {
+    "original_hash": "fe6ecba627bb1ac7c0f7123dcdc89c1c",
+    "translation_date": "2026-01-16T22:06:47+00:00",
+    "source_file": "images/gps-telemetry-iot-hub-functions.png",
+    "language_code": "ml"
+  },
+  "bing-translate.348aa796d6efe2a9.webp": {
+    "original_hash": "357040ee1345ab2473e9b5284f85e81b",
+    "translation_date": "2026-01-16T22:06:53+00:00",
+    "source_file": "images/bing-translate.png",
+    "language_code": "ml"
+  },
+  "vscode-open-nightlight-remote.d3d2a4011e30d535.webp": {
+    "original_hash": "863d50888f94713346469b8afa0a56b3",
+    "translation_date": "2026-01-16T22:07:01+00:00",
+    "source_file": "images/vscode-open-nightlight-remote.png",
+    "language_code": "ml"
+  },
+  "grove-dht11.07f8eafceee17004.webp": {
+    "original_hash": "e66c4f14e29b96bcd1d5a8c86c19288d",
+    "translation_date": "2026-01-16T22:07:07+00:00",
+    "source_file": "images/grove-dht11.png",
+    "language_code": "ml"
+  },
+  "vscode-platformio-welcome-new-button.ba6fc8a4c7b78cc8.webp": {
+    "original_hash": "c3bd57b44fe7628cc688f4d4fd814416",
+    "translation_date": "2026-01-16T22:07:15+00:00",
+    "source_file": "images/vscode-platformio-welcome-new-button.png",
+    "language_code": "ml"
+  },
+  "counterfit-gps-sensor-nmea.c62eea442171e17e.webp": {
+    "original_hash": "afbf9dca4a4c89c0b21abb6a6d163635",
+    "translation_date": "2026-01-16T22:07:23+00:00",
+    "source_file": "images/counterfit-gps-sensor-nmea.png",
+    "language_code": "ml"
+  },
+  "iot-hub-device-twins.7055a60fc5e2331c.webp": {
+    "original_hash": "ddaade630edadb655820875bc6a7a398",
+    "translation_date": "2026-01-16T22:07:30+00:00",
+    "source_file": "images/iot-hub-device-twins.png",
+    "language_code": "ml"
+  },
+  "respeaker.f5d19d1c6b14ab16.webp": {
+    "original_hash": "f096205f8ed79a62c0b3223ca9760485",
+    "translation_date": "2026-01-16T22:07:38+00:00",
+    "source_file": "images/respeaker.png",
+    "language_code": "ml"
+  },
+  "wio-terminal.b8299ee16587db9a.webp": {
+    "original_hash": "e031f14d743539d41b871e8da6c516f7",
+    "translation_date": "2026-01-16T22:07:40+00:00",
+    "source_file": "images/wio-terminal.png",
+    "language_code": "ml"
+  },
+  "chart-soil-moisture-relay.fbb391236d34a64d.webp": {
+    "original_hash": "2528b9288bbb1201b87058b75d516b0a",
+    "translation_date": "2026-01-16T22:07:46+00:00",
+    "source_file": "images/chart-soil-moisture-relay.png",
+    "language_code": "ml"
+  },
+  "pi-hardware-kit.26dbadaedb7dd44c.webp": {
+    "original_hash": "ff01874bf7ab355748ac69e0d18cc3a8",
+    "translation_date": "2026-01-16T22:08:29+00:00",
+    "source_file": "images/pi-hardware-kit.png",
+    "language_code": "ml"
+  },
+  "counterfit-first-run.433326358b669b31.webp": {
+    "original_hash": "af69e87134afcc0b94a0ee13d7127e83",
+    "translation_date": "2026-01-16T22:08:41+00:00",
+    "source_file": "images/counterfit-first-run.png",
+    "language_code": "ml"
+  },
+  "relay-on.4db16a0fd6b66926.webp": {
+    "original_hash": "9845f9c1489a850aa549e224cbe72d2a",
+    "translation_date": "2026-01-16T22:08:47+00:00",
+    "source_file": "images/relay-on.png",
+    "language_code": "ml"
+  },
+  "latitude-lines.11d8d91dfb2014a5.webp": {
+    "original_hash": "a0c885ec44be899480f5e591ff23f911",
+    "translation_date": "2026-01-16T22:08:50+00:00",
+    "source_file": "images/latitude-lines.png",
+    "language_code": "ml"
+  },
+  "cloud-with-edge.1e26462c62c126fe.webp": {
+    "original_hash": "5f1262d7eaa6699d85c7b7c89ed6eeb0",
+    "translation_date": "2026-01-16T22:08:55+00:00",
+    "source_file": "images/cloud-with-edge.png",
+    "language_code": "ml"
+  },
+  "microsoft-gps-location-world.a321d481b010f6ad.webp": {
+    "original_hash": "deb0e7f79cc481afac238c73149d2f22",
+    "translation_date": "2026-01-16T22:09:19+00:00",
+    "source_file": "images/microsoft-gps-location-world.png",
+    "language_code": "ml"
+  },
+  "counterfit-temperature-sensor.f0560236c96a9016.webp": {
+    "original_hash": "52e9ae650e824d9c36c419fcf6febef7",
+    "translation_date": "2026-01-16T22:09:34+00:00",
+    "source_file": "images/counterfit-temperature-sensor.png",
+    "language_code": "ml"
+  },
+  "favicon.37b561214b36d454.webp": {
+    "original_hash": "228faa6584f8ba1f7e9a75e3200112e9",
+    "translation_date": "2026-01-16T22:09:37+00:00",
+    "source_file": "images/favicon.png",
+    "language_code": "ml"
+  },
+  "child-watering-garden.9a5d3f1bfe6d0d8d.webp": {
+    "original_hash": "c547237141a5201756db33e5e977a363",
+    "translation_date": "2026-01-16T22:09:38+00:00",
+    "source_file": "images/child-watering-garden.jpg",
+    "language_code": "ml"
+  },
+  "pi-camera-socket-ribbon-cable.a18309920b118009.webp": {
+    "original_hash": "b34d7c3590218945fe8ac3cae8e30a50",
+    "translation_date": "2026-01-16T22:09:43+00:00",
+    "source_file": "images/pi-camera-socket-ribbon-cable.png",
+    "language_code": "ml"
+  },
+  "counterfit-distance-sensor.079eefeeea0b68af.webp": {
+    "original_hash": "87337c291c694bf955c4ea27d16b527b",
+    "translation_date": "2026-01-16T22:09:52+00:00",
+    "source_file": "images/counterfit-distance-sensor.png",
+    "language_code": "ml"
+  },
+  "pi-respeaker-hat.f00fabe7dd039a93.webp": {
+    "original_hash": "831331e5010f14df7262034ca67a316d",
+    "translation_date": "2026-01-16T22:09:57+00:00",
+    "source_file": "images/pi-respeaker-hat.png",
+    "language_code": "ml"
+  },
+  "geofence-examples.172fbc534665769f.webp": {
+    "original_hash": "e836773107dcaf3aa2dcbf4b072bf1d0",
+    "translation_date": "2026-01-16T22:10:26+00:00",
+    "source_file": "images/geofence-examples.png",
+    "language_code": "ml"
+  },
+  "iot-for-beginners.95958e2ed1900917.webp": {
+    "original_hash": "0ee1737da60391e3b1d48686e1d7c893",
+    "translation_date": "2026-01-16T22:10:40+00:00",
+    "source_file": "images/iot-for-beginners.png",
+    "language_code": "ml"
+  },
+  "grove-relay-labelled.293e068f5c3c2a19.webp": {
+    "original_hash": "b75dcabfa78bcfca34b6cce74323e178",
+    "translation_date": "2026-01-16T22:10:45+00:00",
+    "source_file": "images/grove-relay-labelled.png",
+    "language_code": "ml"
+  },
+  "custom-vision-create-object-detector-project.32d4fb9aa8e7e737.webp": {
+    "original_hash": "052a80c8a99c7f2a0400338775c8c132",
+    "translation_date": "2026-01-16T22:10:56+00:00",
+    "source_file": "images/custom-vision-create-object-detector-project.png",
+    "language_code": "ml"
+  },
+  "counterfit-create-camera.a5de97f59c0bd3cb.webp": {
+    "original_hash": "d90405c8dbb6738e0e11a8ed2fea2b56",
+    "translation_date": "2026-01-16T22:15:21+00:00",
+    "source_file": "images/counterfit-create-camera.png",
+    "language_code": "ml"
+  },
+  "gdd-calculation-strawberries.59f57db94b22adb8.webp": {
+    "original_hash": "8bbc10fc92e798cafb77786f7fee2fec",
+    "translation_date": "2026-01-16T22:15:25+00:00",
+    "source_file": "images/gdd-calculation-strawberries.png",
+    "language_code": "ml"
+  },
+  "counterfit-gps-sensor-gpxfile.8310b063ce8a425c.webp": {
+    "original_hash": "0160890d86b609909702f86540b4d7df",
+    "translation_date": "2026-01-16T22:15:30+00:00",
+    "source_file": "images/counterfit-gps-sensor-gpxfile.png",
+    "language_code": "ml"
+  },
+  "vscode-platformio-home-open.3f9a41bfd3f4da1c.webp": {
+    "original_hash": "68285f83d33fcd0a4b1e3141ef0afead",
+    "translation_date": "2026-01-16T22:15:36+00:00",
+    "source_file": "images/vscode-platformio-home-open.png",
+    "language_code": "ml"
+  },
+  "wio-sd-card.acdcbe322fa4ee7f.webp": {
+    "original_hash": "88bd7dd4bc8b4c181e7b3743945a2edd",
+    "translation_date": "2026-01-16T22:15:39+00:00",
+    "source_file": "images/wio-sd-card.png",
+    "language_code": "ml"
+  },
+  "custom-vision-publish-button.b7174e1977b0c33b.webp": {
+    "original_hash": "60c4e9f0efc81552bf0ad33db2688757",
+    "translation_date": "2026-01-16T22:15:48+00:00",
+    "source_file": "images/custom-vision-publish-button.png",
+    "language_code": "ml"
+  },
+  "pi-relay-and-soil-moisture-sensor.02f3198975b8c53e.webp": {
+    "original_hash": "dc129413981ef906b6edd50f837a9e01",
+    "translation_date": "2026-01-16T22:15:58+00:00",
+    "source_file": "images/pi-relay-and-soil-moisture-sensor.png",
+    "language_code": "ml"
+  },
+  "assignment-1-internet-flow.3256feab5f052fd2.webp": {
+    "original_hash": "46d80a9e43b81a385c223c1fc12f39c6",
+    "translation_date": "2026-01-16T22:16:03+00:00",
+    "source_file": "images/assignment-1-internet-flow.png",
+    "language_code": "ml"
+  },
+  "ribbon-mic.eacc8e092c7441ca.webp": {
+    "original_hash": "2d5dac0dede2c3bee039d05cb8d5eb01",
+    "translation_date": "2026-01-16T22:16:07+00:00",
+    "source_file": "images/ribbon-mic.jpg",
+    "language_code": "ml"
+  },
+  "counterfit-create-distance-sensor.967c9fb98f27888d.webp": {
+    "original_hash": "fc393748f2ddbae005330e640d841c41",
+    "translation_date": "2026-01-16T22:16:12+00:00",
+    "source_file": "images/counterfit-create-distance-sensor.png",
+    "language_code": "ml"
+  },
+  "counterfit-create-gps-sensor.6385dc9357d85ad1.webp": {
+    "original_hash": "57eef4bdcf582fa280abe6860d6605c9",
+    "translation_date": "2026-01-16T22:16:16+00:00",
+    "source_file": "images/counterfit-create-gps-sensor.png",
+    "language_code": "ml"
+  },
+  "longitude-meridians.ab4ef1c91c064586.webp": {
+    "original_hash": "dc8d5df51066d4009ed1696d40ae016d",
+    "translation_date": "2026-01-16T22:16:20+00:00",
+    "source_file": "images/longitude-meridians.png",
+    "language_code": "ml"
+  },
+  "counterfit-light-sensor.5d0f5584df56b90f.webp": {
+    "original_hash": "938da9f71fb2820061acca73bb053a68",
+    "translation_date": "2026-01-16T22:16:25+00:00",
+    "source_file": "images/counterfit-light-sensor.png",
+    "language_code": "ml"
+  },
+  "telemetry.21e5d8b97649d2eb.webp": {
+    "original_hash": "65fa3e3b915dbebffbab7d72f200e4e7",
+    "translation_date": "2026-01-16T22:16:27+00:00",
+    "source_file": "images/telemetry.png",
+    "language_code": "ml"
+  },
+  "what-is-azure-video-thumbnail.20174db09e03bbb8.webp": {
+    "original_hash": "ca9324cf5205832042b050d641f904b3",
+    "translation_date": "2026-01-16T22:16:29+00:00",
+    "source_file": "images/what-is-azure-video-thumbnail.png",
+    "language_code": "ml"
+  },
+  "iot-reference-architecture-fruit-quality.cc705f121c3b6fa7.webp": {
+    "original_hash": "23d41791f8c62c0f91da0979160cada7",
+    "translation_date": "2026-01-16T22:16:35+00:00",
+    "source_file": "images/iot-reference-architecture-fruit-quality.png",
+    "language_code": "ml"
+  },
+  "gdd-jupyter-notebook.c5b52cf21094f158.webp": {
+    "original_hash": "85379646b4bef7edbfb10f7f457a3fda",
+    "translation_date": "2026-01-16T22:17:00+00:00",
+    "source_file": "images/gdd-jupyter-notebook.png",
+    "language_code": "ml"
+  },
+  "custom-vision-prediction-key-endpoint.30c569ffd0338864.webp": {
+    "original_hash": "99d1145bc97ed96e187d6a5590c4332c",
+    "translation_date": "2026-01-16T22:17:17+00:00",
+    "source_file": "images/custom-vision-prediction-key-endpoint.png",
+    "language_code": "ml"
+  },
+  "dmac-adc-buffers.4509aee49145c90b.webp": {
+    "original_hash": "1351cbaad314ff7f81234448cdc5a1c9",
+    "translation_date": "2026-01-16T22:17:27+00:00",
+    "source_file": "images/dmac-adc-buffers.png",
+    "language_code": "ml"
+  },
+  "vscode-platformio-nightlight-project-wizard.5c64db4da6037420.webp": {
+    "original_hash": "d55f8f702d005d082ea301248f7b70f9",
+    "translation_date": "2026-01-16T22:17:37+00:00",
+    "source_file": "images/vscode-platformio-nightlight-project-wizard.png",
+    "language_code": "ml"
+  },
+  "send-message-certificate.9cc576ac1e46b76e.webp": {
+    "original_hash": "df8c0a10f8e11172061fb4bbde04cec0",
+    "translation_date": "2026-01-16T22:17:46+00:00",
+    "source_file": "images/send-message-certificate.png",
+    "language_code": "ml"
+  },
+  "counterfit-create-led.ba9db1c9b8c622a6.webp": {
+    "original_hash": "748880e7a96e6fe87be2d253398d1d8a",
+    "translation_date": "2026-01-16T22:17:52+00:00",
+    "source_file": "images/counterfit-create-led.png",
+    "language_code": "ml"
+  },
+  "wio-respeaker-wiring-3.75b0be447e2fa930.webp": {
+    "original_hash": "430c8ab68fc9ee2c6bedae1d41325002",
+    "translation_date": "2026-01-16T22:17:56+00:00",
+    "source_file": "images/wio-respeaker-wiring-3.png",
+    "language_code": "ml"
+  },
+  "grove-light-sensor.b8127b7c434e632d.webp": {
+    "original_hash": "1e6e9a840b1f0b0dd777593c38d31109",
+    "translation_date": "2026-01-16T22:18:00+00:00",
+    "source_file": "images/grove-light-sensor.png",
+    "language_code": "ml"
+  },
+  "vscode-new-terminal.77db8fc0f9cd3182.webp": {
+    "original_hash": "a692e413071b4224d251842fc4a95050",
+    "translation_date": "2026-01-16T22:18:05+00:00",
+    "source_file": "images/vscode-new-terminal.png",
+    "language_code": "ml"
+  },
+  "wio-mic.3f8c843dbe8ad917.webp": {
+    "original_hash": "eb90afd4b3953d38218422601ae677b5",
+    "translation_date": "2026-01-16T22:18:07+00:00",
+    "source_file": "images/wio-mic.png",
+    "language_code": "ml"
+  },
+  "fruit-quality-detector-message-flow.adf2a65da8fd8741.webp": {
+    "original_hash": "a7dab1140d82034626bb8de5f186131e",
+    "translation_date": "2026-01-16T22:18:14+00:00",
+    "source_file": "images/fruit-quality-detector-message-flow.png",
+    "language_code": "ml"
+  },
+  "latitude-equator.feccc3214b7d9fb1.webp": {
+    "original_hash": "56a4f9ad1e573c57538578c32f9d86da",
+    "translation_date": "2026-01-16T22:18:18+00:00",
+    "source_file": "images/latitude-equator.png",
+    "language_code": "ml"
+  },
+  "wio-terminal-pin-sticker.b90b1535937b84bd.webp": {
+    "original_hash": "beeae0399efc567f78b9771eb986710a",
+    "translation_date": "2026-01-16T22:18:25+00:00",
+    "source_file": "images/wio-terminal-pin-sticker.png",
+    "language_code": "ml"
+  },
+  "grove-relay.d426958ca210fbd0.webp": {
+    "original_hash": "ceed414ceb65226b0e91bf1147d1fa01",
+    "translation_date": "2026-01-16T22:18:32+00:00",
+    "source_file": "images/grove-relay.png",
+    "language_code": "ml"
+  },
+  "send-message-symmetric-key.a2e8ad0d495896ff.webp": {
+    "original_hash": "ea8f8a45fea06564fb75f7444db90d6d",
+    "translation_date": "2026-01-16T22:18:37+00:00",
+    "source_file": "images/send-message-symmetric-key.png",
+    "language_code": "ml"
+  },
+  "iot-messages-to-serverless.0194da1cc0732bb7.webp": {
+    "original_hash": "b845f5d76ec996b99ee19d76c7254e4f",
+    "translation_date": "2026-01-16T22:18:42+00:00",
+    "source_file": "images/iot-messages-to-serverless.png",
+    "language_code": "ml"
+  },
+  "translated-smart-timer.08ac20057fdc5c37.webp": {
+    "original_hash": "f0bc8a93e3e880f4362f14db64377b44",
+    "translation_date": "2026-01-16T22:18:49+00:00",
+    "source_file": "images/translated-smart-timer.png",
+    "language_code": "ml"
+  },
+  "grove-gps-sensor.247943bf69b03f0d.webp": {
+    "original_hash": "2cdf74787c6cf892a6b1a0f1753f8b24",
+    "translation_date": "2026-01-16T22:18:56+00:00",
+    "source_file": "images/grove-gps-sensor.png",
+    "language_code": "ml"
+  },
+  "vscode-platformio-build-command-palette.7708e7ec7d75d7ee.webp": {
+    "original_hash": "24236a76bf00a861dbf80d37b29265ce",
+    "translation_date": "2026-01-16T22:18:59+00:00",
+    "source_file": "images/vscode-platformio-build-command-palette.png",
+    "language_code": "ml"
+  },
+  "microsoft-gps-location.9eb77a13b22b7e70.webp": {
+    "original_hash": "657b30303221896c044fd9e1b9477c95",
+    "translation_date": "2026-01-16T22:19:16+00:00",
+    "source_file": "images/microsoft-gps-location.png",
+    "language_code": "ml"
+  },
+  "counterfit-create-temperature-sensor.199350ed34f7343d.webp": {
+    "original_hash": "24a54b9c88c3efc0a31bb9d9db572985",
+    "translation_date": "2026-01-16T22:19:31+00:00",
+    "source_file": "images/counterfit-create-temperature-sensor.png",
+    "language_code": "ml"
+  },
+  "container-web-browser.4ee81dd4f0d8838c.webp": {
+    "original_hash": "ed428a4061a9c8a7bd3b46eb92709603",
+    "translation_date": "2026-01-16T22:19:36+00:00",
+    "source_file": "images/container-web-browser.png",
+    "language_code": "ml"
+  },
+  "traditional-vs-ml.5c20c169621fa539.webp": {
+    "original_hash": "7ba80f8ce61fc58a79619972640123b7",
+    "translation_date": "2026-01-16T22:19:41+00:00",
+    "source_file": "images/traditional-vs-ml.png",
+    "language_code": "ml"
+  },
+  "pwm-motor-150rpm.83347ac04ca38482.webp": {
+    "original_hash": "f829c583c9b05918631c9afec52dfad9",
+    "translation_date": "2026-01-16T22:19:46+00:00",
+    "source_file": "images/pwm-motor-150rpm.png",
+    "language_code": "ml"
+  },
+  "wio-time-of-flight-sensor.c4c182131d2ea73d.webp": {
+    "original_hash": "fe6b9bb1afee16f03bab8f6ddc3512b3",
+    "translation_date": "2026-01-16T22:19:48+00:00",
+    "source_file": "images/wio-time-of-flight-sensor.png",
+    "language_code": "ml"
+  },
+  "azure-storage-logo.605c0f602c640d48.webp": {
+    "original_hash": "1b40b8e787f4058533cbfe7371dc400c",
+    "translation_date": "2026-01-16T22:19:49+00:00",
+    "source_file": "images/azure-storage-logo.png",
+    "language_code": "ml"
+  },
+  "ram-comparison.6beb73541b42ac6f.webp": {
+    "original_hash": "178bedf746f370deb9b3600fe15afeb1",
+    "translation_date": "2026-01-16T22:19:52+00:00",
+    "source_file": "images/ram-comparison.png",
+    "language_code": "ml"
+  },
+  "polygon-points.302193da381cb415.webp": {
+    "original_hash": "01b6fa2d97b4fecb638b5162873f5ea9",
+    "translation_date": "2026-01-16T22:19:56+00:00",
+    "source_file": "images/polygon-points.png",
+    "language_code": "ml"
+  },
+  "button-with-digital.3749edea8eb885af.webp": {
+    "original_hash": "c71d7fe1263b112c755f3d0442406df8",
+    "translation_date": "2026-01-16T22:19:59+00:00",
+    "source_file": "images/button-with-digital.png",
+    "language_code": "ml"
+  },
+  "banana-training-images.530eb203346d73bc.webp": {
+    "original_hash": "c93a7b2b58562500f7eaf9385e7c0d58",
+    "translation_date": "2026-01-16T22:20:01+00:00",
+    "source_file": "images/banana-training-images.png",
+    "language_code": "ml"
+  },
+  "vscode-platformio-menu.297be26b9733e5c4.webp": {
+    "original_hash": "690ba1bf727223328bae1da7aef65b59",
+    "translation_date": "2026-01-16T22:20:03+00:00",
+    "source_file": "images/vscode-platformio-menu.png",
+    "language_code": "ml"
+  },
+  "iot-service-connectivity.7e873847921a5d6f.webp": {
+    "original_hash": "b69786f576a7862abc86d0d03a68ebb7",
+    "translation_date": "2026-01-16T22:20:06+00:00",
+    "source_file": "images/iot-service-connectivity.png",
+    "language_code": "ml"
+  },
+  "wio-soil-moisture-sensor.46919b61c3f6cb74.webp": {
+    "original_hash": "19186ea8705744d6f7ef80dd49a31037",
+    "translation_date": "2026-01-16T22:20:10+00:00",
+    "source_file": "images/wio-soil-moisture-sensor.png",
+    "language_code": "ml"
+  },
+  "custom-vision-create-project.cf46325b92d8b131.webp": {
+    "original_hash": "4471516b6b46ce7920ac178930397ccc",
+    "translation_date": "2026-01-16T22:20:20+00:00",
+    "source_file": "images/custom-vision-create-project.png",
+    "language_code": "ml"
+  },
+  "object-detector-detected-tomato-paste.52656fe87af4c37b.webp": {
+    "original_hash": "5957b9bcae573e01c045354fc978f5e8",
+    "translation_date": "2026-01-16T22:20:37+00:00",
+    "source_file": "images/object-detector-detected-tomato-paste.png",
+    "language_code": "ml"
+  },
+  "chart-soil-moisture.fd6d9d0cdc0b5f75.webp": {
+    "original_hash": "7dfa7af1913187ec9700073ccfac2d7e",
+    "translation_date": "2026-01-16T22:20:49+00:00",
+    "source_file": "images/chart-soil-moisture.png",
+    "language_code": "ml"
+  },
+  "gdd-calculation.79b3660f9c5757aa.webp": {
+    "original_hash": "bf4227ba3a7cfaae2a832050d904960e",
+    "translation_date": "2026-01-16T22:20:54+00:00",
+    "source_file": "images/gdd-calculation.png",
+    "language_code": "ml"
+  },
+  "mems-microphone.80574019e1f5e4d9.webp": {
+    "original_hash": "9fcdab93cb1a5f075fd7a7b87ee53ebd",
+    "translation_date": "2026-01-16T22:20:56+00:00",
+    "source_file": "images/mems-microphone.png",
+    "language_code": "ml"
+  },
+  "pi-gps-sensor.1f99ee2b2f652891.webp": {
+    "original_hash": "8096ac9ce04e5268b552024983283a21",
+    "translation_date": "2026-01-16T22:21:01+00:00",
+    "source_file": "images/pi-gps-sensor.png",
+    "language_code": "ml"
+  },
+  "azure-translator-logo.c6ed3a4a433edfd2.webp": {
+    "original_hash": "e6f188b64083c3f1814719c5b31a2128",
+    "translation_date": "2026-01-16T22:21:05+00:00",
+    "source_file": "images/azure-translator-logo.png",
+    "language_code": "ml"
+  },
+  "spi.297431d6f98b386b.webp": {
+    "original_hash": "69b6cd30118f966b9a2646d6ec34944f",
+    "translation_date": "2026-01-16T22:21:09+00:00",
+    "source_file": "images/spi.png",
+    "language_code": "ml"
+  },
+  "pi-button.c7a1a4f55943341c.webp": {
+    "original_hash": "94a08cd32cf5d198961e75bfb4ccd2d1",
+    "translation_date": "2026-01-16T22:21:13+00:00",
+    "source_file": "images/pi-button.png",
+    "language_code": "ml"
+  },
+  "luis-logo.5cb4f3e88c020ee6.webp": {
+    "original_hash": "501332df88cd55536be18754a26caffd",
+    "translation_date": "2026-01-16T22:21:17+00:00",
+    "source_file": "images/luis-logo.png",
+    "language_code": "ml"
+  },
+  "soil-moisture-to-voltage.df86d80cda158700.webp": {
+    "original_hash": "a8deda9a89889040b0802aacaf02c0db",
+    "translation_date": "2026-01-16T22:21:21+00:00",
+    "source_file": "images/soil-moisture-to-voltage.png",
+    "language_code": "ml"
+  },
+  "iot-reference-architecture-azure.0b8d2161af924cb1.webp": {
+    "original_hash": "cf394dd153db645ed55d362824b4beff",
+    "translation_date": "2026-01-16T22:21:27+00:00",
+    "source_file": "images/iot-reference-architecture-azure.png",
+    "language_code": "ml"
+  },
+  "wio-respeaker-wiring-1.8d894727f2ba2400.webp": {
+    "original_hash": "192d03a7a2cd1eab078ef6afa28a39c9",
+    "translation_date": "2026-01-16T22:21:31+00:00",
+    "source_file": "images/wio-respeaker-wiring-1.png",
+    "language_code": "ml"
+  },
+  "soil-moisture-sensor-in-soil.bfad91002bda5e96.webp": {
+    "original_hash": "2b3a8b0115e4a957fc188dcd60aecbae",
+    "translation_date": "2026-01-16T22:21:34+00:00",
+    "source_file": "images/soil-moisture-sensor-in-soil.png",
+    "language_code": "ml"
+  },
+  "object-detector-tag-tomato-paste.f47c362fb0f0eb58.webp": {
+    "original_hash": "453f6250e67659d363e7933e3999cd64",
+    "translation_date": "2026-01-16T22:21:43+00:00",
+    "source_file": "images/object-detector-tag-tomato-paste.png",
+    "language_code": "ml"
+  },
+  "strawberry-with-pump.b410fc72ac6aabad.webp": {
+    "original_hash": "af6fbb23fcab01f826392b6944dea49e",
+    "translation_date": "2026-01-16T22:21:47+00:00",
+    "source_file": "images/strawberry-with-pump.png",
+    "language_code": "ml"
+  },
+  "azure-container-registry-logo.09494206991d4b29.webp": {
+    "original_hash": "adbc9655bf044bdf906e0f58fb36fbe1",
+    "translation_date": "2026-01-16T22:21:49+00:00",
+    "source_file": "images/azure-container-registry-logo.png",
+    "language_code": "ml"
+  },
+  "noqsl-database.62d24ccf5b73f60d.webp": {
+    "original_hash": "64109b6306a3c464b6e2b8bfb6a45665",
+    "translation_date": "2026-01-16T22:21:54+00:00",
+    "source_file": "images/noqsl-database.png",
+    "language_code": "ml"
+  },
+  "wio-gps-sensor.19fd52b81ce58095.webp": {
+    "original_hash": "71ac9146b7ea28e48f6ee5b636cd1109",
+    "translation_date": "2026-01-16T22:21:59+00:00",
+    "source_file": "images/wio-gps-sensor.png",
+    "language_code": "ml"
+  },
+  "wio-respeaker-wiring-5.af117c20acf622f3.webp": {
+    "original_hash": "1953600b09247d9302e7011dceed8f28",
+    "translation_date": "2026-01-16T22:22:02+00:00",
+    "source_file": "images/wio-respeaker-wiring-5.png",
+    "language_code": "ml"
+  },
+  "i2c.83da845dde02256b.webp": {
+    "original_hash": "198d21e02d4c69b84028bd69172ffa8e",
+    "translation_date": "2026-01-16T22:22:05+00:00",
+    "source_file": "images/i2c.png",
+    "language_code": "ml"
+  },
+  "pi-light-sensor.66cc1e31fa48cd7d.webp": {
+    "original_hash": "24c2a1d065061a13b890b6808abf158f",
+    "translation_date": "2026-01-16T22:22:09+00:00",
+    "source_file": "images/pi-light-sensor.png",
+    "language_code": "ml"
+  },
+  "gps-telemetry-iot-hub.8115335d51cd2c12.webp": {
+    "original_hash": "594448866b50836b5d5d664571ae8144",
+    "translation_date": "2026-01-16T22:22:12+00:00",
+    "source_file": "images/gps-telemetry-iot-hub.png",
+    "language_code": "ml"
+  },
+  "counterfit-create-relay.fa7c40fd0f2f6afc.webp": {
+    "original_hash": "69d09420bf11407584ef8f7c2a4b6934",
+    "translation_date": "2026-01-16T22:22:17+00:00",
+    "source_file": "images/counterfit-create-relay.png",
+    "language_code": "ml"
+  },
+  "cloud-without-edge.b4da641f6022c95e.webp": {
+    "original_hash": "7788335416c9ad8abd402188a02680b2",
+    "translation_date": "2026-01-16T22:22:23+00:00",
+    "source_file": "images/cloud-without-edge.png",
+    "language_code": "ml"
+  },
+  "counterfit-gps-sensor.3fbb15af0a536756.webp": {
+    "original_hash": "f5317788426731587cefceac202102ed",
+    "translation_date": "2026-01-16T22:22:29+00:00",
+    "source_file": "images/counterfit-gps-sensor.png",
+    "language_code": "ml"
+  },
+  "vscode-virtual-env.8ba42e04c3d533cf.webp": {
+    "original_hash": "f79cd090b385dfdfe774452b7d89eb84",
+    "translation_date": "2026-01-16T22:22:32+00:00",
+    "source_file": "images/vscode-virtual-env.png",
+    "language_code": "ml"
+  },
+  "luis-intent-examples.25716580b2d2723c.webp": {
+    "original_hash": "10c4351eab0a8d50545a8ae5dab7e893",
+    "translation_date": "2026-01-16T22:22:37+00:00",
+    "source_file": "images/luis-intent-examples.png",
+    "language_code": "ml"
+  },
+  "vscode-platformio-upload-command-palette.9e0f49cf80d1f1c3.webp": {
+    "original_hash": "ad07a4dbd27f86bd480dcfbbc1a56a01",
+    "translation_date": "2026-01-16T22:22:42+00:00",
+    "source_file": "images/vscode-platformio-upload-command-palette.png",
+    "language_code": "ml"
+  },
+  "container-edge-flow.c246050dd60ceefd.webp": {
+    "original_hash": "82e97f8c96fa7aa5acddb9e2bace544b",
+    "translation_date": "2026-01-16T22:22:48+00:00",
+    "source_file": "images/container-edge-flow.png",
+    "language_code": "ml"
+  },
+  "pi-camera-ribbon-cable.0bf82acd251611c2.webp": {
+    "original_hash": "3ac274f1a38658e40c3c392746941cbd",
+    "translation_date": "2026-01-16T22:22:53+00:00",
+    "source_file": "images/pi-camera-ribbon-cable.png",
+    "language_code": "ml"
+  },
+  "banana-picture-compare.174df164dc326a42.webp": {
+    "original_hash": "1c539ac9dde011622cb841c9d1ac7991",
+    "translation_date": "2026-01-16T22:22:55+00:00",
+    "source_file": "images/banana-picture-compare.png",
+    "language_code": "ml"
+  },
+  "wio-light-sensor.b1f529f3c95f5165.webp": {
+    "original_hash": "7d3c253db81dc7f1b0fcd4554ae4bb1f",
+    "translation_date": "2026-01-16T22:23:04+00:00",
+    "source_file": "images/wio-light-sensor.png",
+    "language_code": "ml"
+  },
+  "assignment-1-flow.7552a51acb1a5ec8.webp": {
+    "original_hash": "b3991eeb7b7d7ab00b21d1b95cbbd2c1",
+    "translation_date": "2026-01-16T22:23:10+00:00",
+    "source_file": "images/assignment-1-flow.png",
+    "language_code": "ml"
+  },
+  "wio-terminal-c-button.73df3cb1c1445ea0.webp": {
+    "original_hash": "7e8c595998491210a3ffd21ee338afe6",
+    "translation_date": "2026-01-16T22:23:13+00:00",
+    "source_file": "images/wio-terminal-c-button.png",
+    "language_code": "ml"
+  },
+  "wio-temperature-sensor.2934928f38c7f79a.webp": {
+    "original_hash": "9e8e3bc7a39149547dcfcce2493e151e",
+    "translation_date": "2026-01-16T22:23:14+00:00",
+    "source_file": "images/wio-temperature-sensor.png",
+    "language_code": "ml"
+  },
+  "soil-moisture-delay.865f3fae206db01d.webp": {
+    "original_hash": "2fbb54ffd35ea4b7bab4232986add7ff",
+    "translation_date": "2026-01-16T22:23:17+00:00",
+    "source_file": "images/soil-moisture-delay.png",
+    "language_code": "ml"
+  },
+  "respeaker-jst-speaker.a441d177809df945.webp": {
+    "original_hash": "c4dff6a9a83d65415477d8b77818c184",
+    "translation_date": "2026-01-16T22:23:23+00:00",
+    "source_file": "images/respeaker-jst-speaker.png",
+    "language_code": "ml"
+  },
+  "raspberry-pi-zero.f7a4133e1e7d54bb.webp": {
+    "original_hash": "a65b4f80e337bb75907ba9668d0ec4ec",
+    "translation_date": "2026-01-16T22:23:28+00:00",
+    "source_file": "images/raspberry-pi-zero.jpg",
+    "language_code": "ml"
+  },
+  "temperature-as-digital.85004491b977bae1.webp": {
+    "original_hash": "cd1fed630adeb671a51171136afe0a11",
+    "translation_date": "2026-01-16T22:23:31+00:00",
+    "source_file": "images/temperature-as-digital.png",
+    "language_code": "ml"
+  },
+  "counterfit-camera.001ec52194c8ee5d.webp": {
+    "original_hash": "ce27314b8b055207bd6d020cd0f16403",
+    "translation_date": "2026-01-16T22:23:36+00:00",
+    "source_file": "images/counterfit-camera.png",
+    "language_code": "ml"
+  },
+  "vscode-kill-terminal.1cc4de7c6f25ee08.webp": {
+    "original_hash": "b22d79cb8cfc5bfb5adea2ab797d1498",
+    "translation_date": "2026-01-16T22:23:38+00:00",
+    "source_file": "images/vscode-kill-terminal.png",
+    "language_code": "ml"
+  },
+  "azure-speech-logo.a1f08c4befb0159f.webp": {
+    "original_hash": "c0515d2fc1d34b7de4da2ae6f6af07e6",
+    "translation_date": "2026-01-16T22:23:39+00:00",
+    "source_file": "images/azure-speech-logo.png",
+    "language_code": "ml"
+  },
+  "rpi-stock-with-bounding-boxes.b5540e2ecb7cd49f.webp": {
+    "original_hash": "d801ce817c0839b0f611e0b73bf4f05d",
+    "translation_date": "2026-01-16T22:23:46+00:00",
+    "source_file": "images/rpi-stock-with-bounding-boxes.jpg",
+    "language_code": "ml"
+  },
+  "send-message-symmetric-key-hacker.e7cb53db1707adfb.webp": {
+    "original_hash": "da84d1704f66fc3573b68394cd8d63ab",
+    "translation_date": "2026-01-16T22:23:54+00:00",
+    "source_file": "images/send-message-symmetric-key-hacker.png",
+    "language_code": "ml"
+  },
+  "azure-region-existing.73f704604f2aa6cb.webp": {
+    "original_hash": "663095f6754e78da000aecf8b255f56a",
+    "translation_date": "2026-01-16T22:23:59+00:00",
+    "source_file": "images/azure-region-existing.png",
+    "language_code": "ml"
+  },
+  "gdd-calculation-corn.64a58b7a7afcd0df.webp": {
+    "original_hash": "313f7af564decf12984266f48531ca25",
+    "translation_date": "2026-01-16T22:24:02+00:00",
+    "source_file": "images/gdd-calculation-corn.png",
+    "language_code": "ml"
+  },
+  "pi-led.97f1d474981dc35d.webp": {
+    "original_hash": "8c9c44daca0bb84fff271932128548e7",
+    "translation_date": "2026-01-16T22:24:04+00:00",
+    "source_file": "images/pi-led.png",
+    "language_code": "ml"
+  },
+  "raspberry-pi-imager.24aedeab9e233d84.webp": {
+    "original_hash": "d60a21f44e34a41ca0b925837b7822d2",
+    "translation_date": "2026-01-16T22:24:18+00:00",
+    "source_file": "images/raspberry-pi-imager.png",
+    "language_code": "ml"
+  },
+  "pi-camera-module.4278753c31bd6e75.webp": {
+    "original_hash": "296dbc7764a334c9eea6e07d2bdf5228",
+    "translation_date": "2026-01-16T22:24:28+00:00",
+    "source_file": "images/pi-camera-module.png",
+    "language_code": "ml"
+  },
+  "led-digital-control.13b9be14077ea49f.webp": {
+    "original_hash": "48875cd4b26e07780599d8a068c0bf83",
+    "translation_date": "2026-01-16T22:24:31+00:00",
+    "source_file": "images/led-digital-control.png",
+    "language_code": "ml"
+  },
+  "condenser-mic.6f6ed5b76ca19e0e.webp": {
+    "original_hash": "b1b138069d34d7c5c124b0d8e69a8089",
+    "translation_date": "2026-01-16T22:24:34+00:00",
+    "source_file": "images/condenser-mic.jpg",
+    "language_code": "ml"
+  },
+  "stock-rogue-corn.be1f3ada8c457854.webp": {
+    "original_hash": "76a508a11e7a91138b7a515e6c1cd93c",
+    "translation_date": "2026-01-16T22:24:53+00:00",
+    "source_file": "images/stock-rogue-corn.png",
+    "language_code": "ml"
+  },
+  "banana-unripe-quick-test-prediction.dae9b5e1c4ef7c64.webp": {
+    "original_hash": "7351b0cf725cfdc62e6b44d3c25ece0b",
+    "translation_date": "2026-01-16T22:25:07+00:00",
+    "source_file": "images/banana-unripe-quick-test-prediction.png",
+    "language_code": "ml"
+  },
+  "image-upload-bananas.0751639f3815e0ec.webp": {
+    "original_hash": "a293096ce03324bb0282c712610f6892",
+    "translation_date": "2026-01-16T22:25:18+00:00",
+    "source_file": "images/image-upload-bananas.png",
+    "language_code": "ml"
+  },
+  "iot-reference-architecture.2278b98b55c6d4e8.webp": {
+    "original_hash": "a06f575f400e2323f68d231b4867cee4",
+    "translation_date": "2026-01-16T22:25:27+00:00",
+    "source_file": "images/iot-reference-architecture.png",
+    "language_code": "ml"
+  },
+  "pi-soil-moisture-sensor.fdd7eb2393792cf6.webp": {
+    "original_hash": "c50b9b78b749af1958d574aa38253e66",
+    "translation_date": "2026-01-16T22:25:34+00:00",
+    "source_file": "images/pi-soil-moisture-sensor.png",
+    "language_code": "ml"
+  },
+  "overlap-object-detection.d431e03cae75072a.webp": {
+    "original_hash": "9948ca331a7cbbf2ac9d7bb692603b20",
+    "translation_date": "2026-01-16T22:25:39+00:00",
+    "source_file": "images/overlap-object-detection.png",
+    "language_code": "ml"
+  },
+  "wio-respeaker-wiring-2.329e1cbd306e754f.webp": {
+    "original_hash": "76a795bfad251f217e7822f14ebd85e3",
+    "translation_date": "2026-01-16T22:25:43+00:00",
+    "source_file": "images/wio-respeaker-wiring-2.png",
+    "language_code": "ml"
+  },
+  "consumer-groups.a3262e26fc27ba20.webp": {
+    "original_hash": "052b922d0ba2c50c83132074572c68e3",
+    "translation_date": "2026-01-16T22:25:46+00:00",
+    "source_file": "images/consumer-groups.png",
+    "language_code": "ml"
+  },
+  "custom-vision-stock-prediction.942266ab1bcca341.webp": {
+    "original_hash": "0c70587ccdba9496866b14ffe90cfd7b",
+    "translation_date": "2026-01-16T22:25:56+00:00",
+    "source_file": "images/custom-vision-stock-prediction.png",
+    "language_code": "ml"
+  },
+  "grove-base-hat-ribbon-cable.501fed202fcf73b1.webp": {
+    "original_hash": "aa2a325edef2b1fbd2d7639853d310fd",
+    "translation_date": "2026-01-16T22:26:07+00:00",
+    "source_file": "images/grove-base-hat-ribbon-cable.png",
+    "language_code": "ml"
+  },
+  "send-message-asymmetric.7abe327c62615b8c.webp": {
+    "original_hash": "0873f3deafa225ede589e282db569fd3",
+    "translation_date": "2026-01-16T22:26:16+00:00",
+    "source_file": "images/send-message-asymmetric.png",
+    "language_code": "ml"
+  },
+  "dimmable-light.9ceffeb195dec1a8.webp": {
+    "original_hash": "d64c8b23c012ebdbcacfb9bc0ac88b78",
+    "translation_date": "2026-01-16T22:26:20+00:00",
+    "source_file": "images/dimmable-light.png",
+    "language_code": "ml"
+  },
+  "counterfit-camera-options.eb3bd5150a8e7dff.webp": {
+    "original_hash": "bad454364357d90492676e610b7bfaaf",
+    "translation_date": "2026-01-16T22:26:26+00:00",
+    "source_file": "images/counterfit-camera-options.png",
+    "language_code": "ml"
+  },
+  "uart.d0dbd3fb9e3728c6.webp": {
+    "original_hash": "69f7d23a9049bf351ed17aaf49400cce",
+    "translation_date": "2026-01-16T22:26:30+00:00",
+    "source_file": "images/uart.png",
+    "language_code": "ml"
+  },
+  "time-of-flight-banana.079921ad8b1496e4.webp": {
+    "original_hash": "2617486ad1d365e9272698f6c8e80523",
+    "translation_date": "2026-01-16T22:26:32+00:00",
+    "source_file": "images/time-of-flight-banana.png",
+    "language_code": "ml"
+  },
+  "wio-hardware-kit.4c70c48b85e4283a.webp": {
+    "original_hash": "e428f5e0754412af1a8664ea7baff212",
+    "translation_date": "2026-01-16T22:26:40+00:00",
+    "source_file": "images/wio-hardware-kit.png",
+    "language_code": "ml"
+  },
+  "grove-button.a70cfbb809a85636.webp": {
+    "original_hash": "63615c1ec61dcf1763b1c406298bb67c",
+    "translation_date": "2026-01-16T22:26:48+00:00",
+    "source_file": "images/grove-button.png",
+    "language_code": "ml"
+  },
+  "geofence-crossing-inaccurate-gps.6a3ed911202ad9ca.webp": {
+    "original_hash": "478511d89755e68ad1b0a8cd6cb72eef",
+    "translation_date": "2026-01-16T22:26:53+00:00",
+    "source_file": "images/geofence-crossing-inaccurate-gps.png",
+    "language_code": "ml"
+  },
+  "pwm-motor-75rpm.a5e4c939934b6e14.webp": {
+    "original_hash": "27174930eae0dd1d408ca7474099ebed",
+    "translation_date": "2026-01-16T22:26:58+00:00",
+    "source_file": "images/pwm-motor-75rpm.png",
+    "language_code": "ml"
+  },
+  "resistive-soil-moisture-sensor.728a138a3d109e06.webp": {
+    "original_hash": "10868a092da0bc909f5cc4639401c811",
+    "translation_date": "2026-01-16T22:27:03+00:00",
+    "source_file": "images/resistive-soil-moisture-sensor.png",
+    "language_code": "ml"
+  },
+  "custom-vision-object-detector-publish-button.34ee379fc650ccb9.webp": {
+    "original_hash": "dd33f3d305ce96a1831bd1726dc9353b",
+    "translation_date": "2026-01-16T22:27:15+00:00",
+    "source_file": "images/custom-vision-object-detector-publish-button.png",
+    "language_code": "ml"
+  },
+  "grove-led.6c853be93f473cf2.webp": {
+    "original_hash": "ccf9fb22df3755582b81bae02335135b",
+    "translation_date": "2026-01-16T22:27:23+00:00",
+    "source_file": "images/grove-led.png",
+    "language_code": "ml"
+  },
+  "vscode-platformio-serial-monitor-command-palette.b348ec841b8a1c14.webp": {
+    "original_hash": "02340f15877c75b8ca3f08222c32b679",
+    "translation_date": "2026-01-16T22:27:27+00:00",
+    "source_file": "images/vscode-platformio-serial-monitor-command-palette.png",
+    "language_code": "ml"
+  },
+  "grove-capacitive-soil-moisture-sensor.e7f0776cce30e78b.webp": {
+    "original_hash": "f1a5ee679e4c05c2b3047ef0d69f85f0",
+    "translation_date": "2026-01-16T22:27:31+00:00",
+    "source_file": "images/grove-capacitive-soil-moisture-sensor.png",
+    "language_code": "ml"
+  },
+  "pub-sub.7c7ed43fe9fd15d4.webp": {
+    "original_hash": "e5ec0def10a72676eb757b830b8ae56e",
+    "translation_date": "2026-01-16T22:27:36+00:00",
+    "source_file": "images/pub-sub.png",
+    "language_code": "ml"
+  },
+  "counterfit-connected.ed30b46d8f79b092.webp": {
+    "original_hash": "9deaaeb5131e9a263fbbecb01f7997f6",
+    "translation_date": "2026-01-16T22:27:41+00:00",
+    "source_file": "images/counterfit-connected.png",
+    "language_code": "ml"
+  },
+  "seeed-logo.74732b6b482b6e8e.webp": {
+    "original_hash": "c7479fe98cfdb3be95dda1ceee7a2b0f",
+    "translation_date": "2026-01-16T22:27:45+00:00",
+    "source_file": "images/seeed-logo.png",
+    "language_code": "ml"
+  },
+  "soil-moisture-to-voltage-with-reading.681cb3e1f8b68caf.webp": {
+    "original_hash": "feedc1062e7650b1033eae28a4718f5c",
+    "translation_date": "2026-01-16T22:28:14+00:00",
+    "source_file": "images/soil-moisture-to-voltage-with-reading.png",
+    "language_code": "ml"
+  },
+  "analog-sensor-voltage.3b6f315392247399.webp": {
+    "original_hash": "04c17740d5a42b6ee113d71605d6a0a8",
+    "translation_date": "2026-01-16T22:28:27+00:00",
+    "source_file": "images/analog-sensor-voltage.png",
+    "language_code": "ml"
+  },
+  "pi-time-of-flight-sensor.58c8dc04eb3bfb57.webp": {
+    "original_hash": "ddc354c7922b02d7be67a7bbca792ad8",
+    "translation_date": "2026-01-16T22:28:29+00:00",
+    "source_file": "images/pi-time-of-flight-sensor.png",
+    "language_code": "ml"
+  },
+  "wio-respeaker-wiring-0.767f80aa65081038.webp": {
+    "original_hash": "47daeac252937c129a4000dd216c04d8",
+    "translation_date": "2026-01-16T22:28:46+00:00",
+    "source_file": "images/wio-respeaker-wiring-0.png",
+    "language_code": "ml"
+  },
+  "azure-region-planned-expansion.a5074a1e8af74f15.webp": {
+    "original_hash": "e7b04b7641a855f6ab0461b9814c5bfa",
+    "translation_date": "2026-01-16T22:28:55+00:00",
+    "source_file": "images/azure-region-planned-expansion.png",
+    "language_code": "ml"
+  },
+  "wio-respeaker-hat.bd54917d446e6f6f.webp": {
+    "original_hash": "040868428b85d90d767351cbbc89a23d",
+    "translation_date": "2026-01-16T22:28:56+00:00",
+    "source_file": "images/wio-respeaker-hat.png",
+    "language_code": "ml"
+  },
+  "vscode-new-file-button.182702340fe6723c.webp": {
+    "original_hash": "f53b77090608588ce1aea6e28ac7534b",
+    "translation_date": "2026-01-16T22:28:59+00:00",
+    "source_file": "images/vscode-new-file-button.png",
+    "language_code": "ml"
+  },
+  "save-telemetry-to-storage-from-functions.ed3b1820980097f1.webp": {
+    "original_hash": "a03847815181206801649c4168cec3a1",
+    "translation_date": "2026-01-16T22:29:04+00:00",
+    "source_file": "images/save-telemetry-to-storage-from-functions.png",
+    "language_code": "ml"
+  },
+  "counterfit-gps-sensor-latlon.008c867d75464fbe.webp": {
+    "original_hash": "176d91894e0da37cc78d56aed5858fac",
+    "translation_date": "2026-01-16T22:29:10+00:00",
+    "source_file": "images/counterfit-gps-sensor-latlon.png",
+    "language_code": "ml"
+  },
+  "sampling.6f4fadb3f2d9dfe7.webp": {
+    "original_hash": "0873e1919ecfcd1fac59791d08b2458f",
+    "translation_date": "2026-01-16T22:29:13+00:00",
+    "source_file": "images/sampling.png",
+    "language_code": "ml"
+  },
+  "bricked-car.dc38f8efadc6c59d.webp": {
+    "original_hash": "67716470d43e5717406c6ef7ce6f51e4",
+    "translation_date": "2026-01-16T22:29:17+00:00",
+    "source_file": "images/bricked-car.png",
+    "language_code": "ml"
+  },
+  "led.ec6d94f66676a174.webp": {
+    "original_hash": "8dd1438a3970c2bd893f35af372b1a60",
+    "translation_date": "2026-01-16T22:29:21+00:00",
+    "source_file": "images/led.png",
+    "language_code": "ml"
+  },
+  "pi-temperature-sensor.3ff82fff672c8e56.webp": {
+    "original_hash": "feb99d03e3c82faf6a583cafea990fba",
+    "translation_date": "2026-01-16T22:29:24+00:00",
+    "source_file": "images/pi-temperature-sensor.png",
+    "language_code": "ml"
+  },
+  "tts-overview.193843cf3f5ee09f.webp": {
+    "original_hash": "60bcfe389948c72835cba3d41cc92643",
+    "translation_date": "2026-01-16T22:29:28+00:00",
+    "source_file": "images/tts-overview.png",
+    "language_code": "ml"
+  },
+  "respeaker-35mm-speaker.ad79ef4f128c7751.webp": {
+    "original_hash": "8df5ce34dedc6d09c1b32061af983e1a",
+    "translation_date": "2026-01-16T22:29:32+00:00",
+    "source_file": "images/respeaker-35mm-speaker.png",
+    "language_code": "ml"
+  },
+  "counterfit-create-light-sensor.9f36a5e0d4458d8d.webp": {
+    "original_hash": "8906d361868d0342fccec9bb4952c74b",
+    "translation_date": "2026-01-16T22:29:36+00:00",
+    "source_file": "images/counterfit-create-light-sensor.png",
+    "language_code": "ml"
+  },
+  "custom-vision-banana-prediction.30cdff4e1d72db5d.webp": {
+    "original_hash": "1962f0cce26ba3d8a180acaec2972895",
+    "translation_date": "2026-01-16T22:29:41+00:00",
+    "source_file": "images/custom-vision-banana-prediction.png",
+    "language_code": "ml"
+  },
+  "object-detector-cashews-tomato.1af7c26686b4db0e.webp": {
+    "original_hash": "3cb4f511cff4896b333181b8c0d19aa1",
+    "translation_date": "2026-01-16T22:29:50+00:00",
+    "source_file": "images/object-detector-cashews-tomato.png",
+    "language_code": "ml"
+  },
+  "azure-functions-logo.1cfc8e3204c9c44a.webp": {
+    "original_hash": "7e62e90fe4cbd4f81b7db92c1f52933a",
+    "translation_date": "2026-01-16T22:29:55+00:00",
+    "source_file": "images/azure-functions-logo.png",
+    "language_code": "ml"
+  },
+  "raspberry-pi-logo.4efaa16605cee054.webp": {
+    "original_hash": "6dc3ec9908411f01f40bdb144eb0352d",
+    "translation_date": "2026-01-16T22:29:58+00:00",
+    "source_file": "images/raspberry-pi-logo.png",
+    "language_code": "ml"
+  },
+  "lines-of-longitude-and-latitude.032aca9d3e402c4e.webp": {
+    "original_hash": "f8604251b9319c765df2a2046e4d5f93",
+    "translation_date": "2026-01-16T22:30:01+00:00",
+    "source_file": "images/lines-of-longitude-and-latitude.png",
+    "language_code": "ml"
+  },
+  "basic-thermostat.a923217fd1f37e5a.webp": {
+    "original_hash": "50447b3cb751fb0fe9d4d79b89e2b923",
+    "translation_date": "2026-01-16T22:30:03+00:00",
+    "source_file": "images/basic-thermostat.png",
+    "language_code": "ml"
+  },
+  "image-classifier-cashews-tomato.bc2e16ab8f05cf9a.webp": {
+    "original_hash": "1b245f1520995579839a00cb93a09242",
+    "translation_date": "2026-01-16T22:30:08+00:00",
+    "source_file": "images/image-classifier-cashews-tomato.png",
+    "language_code": "ml"
+  },
+  "soil-moisture-travel.a0e31af222cf1438.webp": {
+    "original_hash": "dacaf2385f73dadd43abdacd4812399d",
+    "translation_date": "2026-01-16T22:30:13+00:00",
+    "source_file": "images/soil-moisture-travel.png",
+    "language_code": "ml"
+  },
+  "custom-vision-logo.d3d4e7c8a87ec9da.webp": {
+    "original_hash": "b67626a2dbc98e461f19f42db2de3a5b",
+    "translation_date": "2026-01-16T22:30:15+00:00",
+    "source_file": "images/custom-vision-logo.png",
+    "language_code": "ml"
+  },
+  "counterfit-create-soil-moisture-sensor.35266135a5e0ae68.webp": {
+    "original_hash": "0d5b89d4e4a3e0fcd2b30cb15aa9c37f",
+    "translation_date": "2026-01-16T22:30:19+00:00",
+    "source_file": "images/counterfit-create-soil-moisture-sensor.png",
+    "language_code": "ml"
+  },
+  "iot-device-and-hacked-device-connecting.e0671675df74d6d9.webp": {
+    "original_hash": "4424245692fededc88fa35415899b600",
+    "translation_date": "2026-01-16T22:30:25+00:00",
+    "source_file": "images/iot-device-and-hacked-device-connecting.png",
+    "language_code": "ml"
+  },
+  "dynamic-mic.8babac890a2d80df.webp": {
+    "original_hash": "56710f289e88457d2e977fc9d3806569",
+    "translation_date": "2026-01-16T22:30:29+00:00",
+    "source_file": "images/dynamic-mic.jpg",
+    "language_code": "ml"
+  },
+  "iot-service-allowed-denied-connection.818b0063ac213fb8.webp": {
+    "original_hash": "e39609b2a6e0a6f3a09f869f30654e4c",
+    "translation_date": "2026-01-16T22:30:34+00:00",
+    "source_file": "images/iot-service-allowed-denied-connection.png",
+    "language_code": "ml"
+  },
+  "iot-hub-direct-method-request.86a5026e91f4ca18.webp": {
+    "original_hash": "8940e81543500cb4f065eed262888ba0",
+    "translation_date": "2026-01-16T22:30:39+00:00",
+    "source_file": "images/iot-hub-direct-method-request.png",
+    "language_code": "ml"
+  },
+  "transpiration.b735aa34e4372e65.webp": {
+    "original_hash": "cdaa5c2392fbae09e27cecbd2163fead",
+    "translation_date": "2026-01-16T22:30:46+00:00",
+    "source_file": "images/transpiration.png",
+    "language_code": "ml"
+  },
+  "cmos-sensor.75f9cd74decb1371.webp": {
+    "original_hash": "955bcd3e34765f989cd7c0df5909560d",
+    "translation_date": "2026-01-16T22:30:50+00:00",
+    "source_file": "images/cmos-sensor.png",
+    "language_code": "ml"
+  },
+  "plant-growth-temp-graph.c6d69c9478e6ca83.webp": {
+    "original_hash": "af7d47772297c3a84f2c2f4c519a98ee",
+    "translation_date": "2026-01-16T22:30:54+00:00",
+    "source_file": "images/plant-growth-temp-graph.png",
+    "language_code": "ml"
+  },
+  "azure-iot-hub-logo.28a19de76d0a1932.webp": {
+    "original_hash": "25526337ac38c5da2187ec953308a1a0",
+    "translation_date": "2026-01-16T22:30:57+00:00",
+    "source_file": "images/azure-iot-hub-logo.png",
+    "language_code": "ml"
+  },
+  "sentence-as-intent-entities.301401696f992259.webp": {
+    "original_hash": "20bc069192582a5b8ba4a45d60362dd1",
+    "translation_date": "2026-01-16T22:31:01+00:00",
+    "source_file": "images/sentence-as-intent-entities.png",
+    "language_code": "ml"
+  },
+  "counterfit-create-humidity-sensor.2750e27b6f30e09c.webp": {
+    "original_hash": "2678e71d9f5f0b887059244ceb0747e2",
+    "translation_date": "2026-01-16T22:31:07+00:00",
+    "source_file": "images/counterfit-create-humidity-sensor.png",
+    "language_code": "ml"
+  },
+  "counterfit-soil-moisture-sensor.81742b2de0e9de60.webp": {
+    "original_hash": "54613df49c9e3c09be6ddc351dae1875",
+    "translation_date": "2026-01-16T22:31:15+00:00",
+    "source_file": "images/counterfit-soil-moisture-sensor.png",
+    "language_code": "ml"
+  },
+  "gps-satellites.04acf1148fe25fbf.webp": {
+    "original_hash": "af44157de12f3de1e84ea34fc9da6647",
+    "translation_date": "2026-01-16T22:31:23+00:00",
+    "source_file": "images/gps-satellites.png",
+    "language_code": "ml"
+  },
+  "map-image.8fb2c53eb23ef39c.webp": {
+    "original_hash": "77c5609ccd32add2358d07375e1fb4ae",
+    "translation_date": "2026-01-16T22:31:43+00:00",
+    "source_file": "images/map-image.png",
+    "language_code": "ml"
+  },
+  "gsm-calculation.6da38c6201eec14e.webp": {
+    "original_hash": "9b2287a653a1fd6ee0480021a98bca3b",
+    "translation_date": "2026-01-16T22:31:52+00:00",
+    "source_file": "images/gsm-calculation.png",
+    "language_code": "ml"
+  },
+  "longitude-prime-meridian.33b01b41ce615f9d.webp": {
+    "original_hash": "470be2d3dacf49b2a2a6ce93ac32169a",
+    "translation_date": "2026-01-16T22:31:54+00:00",
+    "source_file": "images/longitude-prime-meridian.png",
+    "language_code": "ml"
+  },
+  "grove-time-of-flight-sensor.d82ff2165bfded9f.webp": {
+    "original_hash": "dcc2dfd53862a2533a34b9bb7913ae90",
+    "translation_date": "2026-01-16T22:31:56+00:00",
+    "source_file": "images/grove-time-of-flight-sensor.png",
+    "language_code": "ml"
+  },
+  "pi-camera-upside-down.5376961ba3145988.webp": {
+    "original_hash": "b242672b0a16425dc0c42e3458102e8c",
+    "translation_date": "2026-01-16T22:32:03+00:00",
+    "source_file": "images/pi-camera-upside-down.png",
+    "language_code": "ml"
+  },
+  "bounding-box.1420a7ea0d3d15f7.webp": {
+    "original_hash": "6e8d5968c9badbf125027b02a8f5cacd",
+    "translation_date": "2026-01-16T22:32:09+00:00",
+    "source_file": "images/bounding-box.png",
+    "language_code": "ml"
+  },
+  "iot-device-and-hacked-device-connecting-encryption.5941aff601fc978f.webp": {
+    "original_hash": "b55ce16301f8b389703a495e87d30f89",
+    "translation_date": "2026-01-16T22:32:15+00:00",
+    "source_file": "images/iot-device-and-hacked-device-connecting-encryption.png",
+    "language_code": "ml"
+  },
+  "arducam.20e4e4cbb2682965.webp": {
+    "original_hash": "f17393656663c080b68a3ed2b41c0fc2",
+    "translation_date": "2026-01-16T22:32:22+00:00",
+    "source_file": "images/arducam.png",
+    "language_code": "ml"
+  },
+  "bananas-ripe-vs-unripe-predictions.8d0e2034014aa50e.webp": {
+    "original_hash": "43cbf29c310e7358f9ac1baa54fcf34f",
+    "translation_date": "2026-01-16T22:32:27+00:00",
+    "source_file": "images/bananas-ripe-vs-unripe-predictions.png",
+    "language_code": "ml"
+  },
+  "azure-iot-edge-logo.c1c076749b5cba2e.webp": {
+    "original_hash": "bda41e5883dffedc3baf5efd20f09b49",
+    "translation_date": "2026-01-16T22:32:30+00:00",
+    "source_file": "images/azure-iot-edge-logo.png",
+    "language_code": "ml"
+  },
+  "arduino-sketch.79590cb837ff7a7c.webp": {
+    "original_hash": "a1ff6ddb0db8a676992dd9f958c6a5af",
+    "translation_date": "2026-01-16T22:32:34+00:00",
+    "source_file": "images/arduino-sketch.png",
+    "language_code": "ml"
+  },
+  "shapes-to-images.1a309f0ea88dd66f.webp": {
+    "original_hash": "4673701d4985ae9110e41a793f89d7a2",
+    "translation_date": "2026-01-16T22:32:37+00:00",
+    "source_file": "images/shapes-to-images.png",
+    "language_code": "ml"
+  },
+  "gsm-calculation-example.99f9803b4f29e976.webp": {
+    "original_hash": "0421a50ee61d76fda1380f899c4fd99c",
+    "translation_date": "2026-01-16T22:32:40+00:00",
+    "source_file": "images/gsm-calculation-example.png",
+    "language_code": "ml"
+  },
+  "mqtt.cbf7f21d9adc3e17.webp": {
+    "original_hash": "2622674075f6379bb851806552374257",
+    "translation_date": "2026-01-16T22:32:44+00:00",
+    "source_file": "images/mqtt.png",
+    "language_code": "ml"
+  },
+  "pump-wired-to-relay.66c5cfc0d8918990.webp": {
+    "original_hash": "84a8c5f06d634c142ee4764b91ec4f59",
+    "translation_date": "2026-01-16T22:32:49+00:00",
+    "source_file": "images/pump-wired-to-relay.png",
+    "language_code": "ml"
+  },
+  "vscode-azure-functions-init-notification.bd19b49229963edb.webp": {
+    "original_hash": "631bfd744e57eadbdf63c0bf59b5addf",
+    "translation_date": "2026-01-16T22:32:55+00:00",
+    "source_file": "images/vscode-azure-functions-init-notification.png",
+    "language_code": "ml"
+  },
+  "banana-arducam.be1b32d4267a8194.webp": {
+    "original_hash": "ab405c9f67c6a168e156dd3de2e4c9be",
+    "translation_date": "2026-01-16T22:32:57+00:00",
+    "source_file": "images/banana-arducam.jpg",
+    "language_code": "ml"
+  },
+  "proximity-sensor.f5cd752c77fb62fe.webp": {
+    "original_hash": "46a4e21d2d633afa6120896b66b1b1f3",
+    "translation_date": "2026-01-16T22:32:59+00:00",
+    "source_file": "images/proximity-sensor.png",
+    "language_code": "ml"
+  },
+  "search-buffer-and-distance.e6a79af3898183c7.webp": {
+    "original_hash": "4fa75893d571e0dd38a6d9835877b318",
+    "translation_date": "2026-01-16T22:33:04+00:00",
+    "source_file": "images/search-buffer-and-distance.png",
+    "language_code": "ml"
+  },
+  "sql-database.be160f12bfccefd3.webp": {
+    "original_hash": "eab9c93e1f46ee7f1520b61a9486c9c0",
+    "translation_date": "2026-01-16T22:33:10+00:00",
+    "source_file": "images/sql-database.png",
+    "language_code": "ml"
+  },
+  "potentiometer.35a348b9ce22f6ec.webp": {
+    "original_hash": "1fb25de33028ef905bf4cce330a9e6df",
+    "translation_date": "2026-01-16T22:33:13+00:00",
+    "source_file": "images/potentiometer.png",
+    "language_code": "ml"
+  },
+  "save-telemetry-database.ddc9c6bea0c5ba39.webp": {
+    "original_hash": "161b3f7c079d04498fbc0d900788510e",
+    "translation_date": "2026-01-16T22:33:18+00:00",
+    "source_file": "images/save-telemetry-database.png",
+    "language_code": "ml"
+  },
+  "arducam-wio-terminal-connections.a4d5a4049bdb5ab8.webp": {
+    "original_hash": "01f69e3dc5f29479230a13a7c0f0efe0",
+    "translation_date": "2026-01-16T22:33:24+00:00",
+    "source_file": "images/arducam-wio-terminal-connections.png",
+    "language_code": "ml"
+  },
+  "amqp.804bd4fce8330157.webp": {
+    "original_hash": "692b3edd9d3704d946d527027dd7c551",
+    "translation_date": "2026-01-16T22:33:29+00:00",
+    "source_file": "images/amqp.png",
+    "language_code": "ml"
+  },
+  "smarter-thermostat.a75855f15d2d9e63.webp": {
+    "original_hash": "7e07ad6473af5b68b49b1fb8b18be243",
+    "translation_date": "2026-01-16T22:33:32+00:00",
+    "source_file": "images/smarter-thermostat.png",
+    "language_code": "ml"
+  },
+  "wio-led.265a1897e72d7f21.webp": {
+    "original_hash": "047202c8d9ddd146add1c33301f91d0e",
+    "translation_date": "2026-01-16T22:33:35+00:00",
+    "source_file": "images/wio-led.png",
+    "language_code": "ml"
+  },
+  "iot-hub-device-to-cloud-message.e46e584d87f35fd9.webp": {
+    "original_hash": "f080414808052183955ae04971260ebb",
+    "translation_date": "2026-01-16T22:33:39+00:00",
+    "source_file": "images/iot-hub-device-to-cloud-message.png",
+    "language_code": "ml"
+  },
+  "counterfit-led.c0ab02de6d256ad8.webp": {
+    "original_hash": "c03cf80f7745d1caf7b7ece187e3ac7b",
+    "translation_date": "2026-01-16T22:33:43+00:00",
+    "source_file": "images/counterfit-led.png",
+    "language_code": "ml"
+  },
+  "counterfit-relay.bbf74c1dbdc8b9ac.webp": {
+    "original_hash": "0a28fe42b27b9898e0eba6e65faef94a",
+    "translation_date": "2026-01-16T22:33:47+00:00",
+    "source_file": "images/counterfit-relay.png",
+    "language_code": "ml"
+  },
+  "map-path.896832e72dc696ff.webp": {
+    "original_hash": "208641a804743048d5172bdcb674c6ce",
+    "translation_date": "2026-01-16T22:34:01+00:00",
+    "source_file": "images/map-path.png",
+    "language_code": "ml"
+  },
+  "select-the-random-checkbox-and-set-a-range.32cf4bc7c12e797f.webp": {
+    "original_hash": "38727cd537789a1b4e18ca8277ee85b1",
+    "translation_date": "2026-01-16T22:34:13+00:00",
+    "source_file": "images/select-the-random-checkbox-and-set-a-range.png",
+    "language_code": "ml"
+  },
+  "mobile-controlled-thermostat.4a994010473d8d6a.webp": {
+    "original_hash": "e5d3e7697b231ed03c0c9fcb05a79862",
+    "translation_date": "2026-01-16T22:34:16+00:00",
+    "source_file": "images/mobile-controlled-thermostat.png",
+    "language_code": "ml"
+  },
+  "counterfit-humidity-sensor.7b12f7f339e430cb.webp": {
+    "original_hash": "7bb1b1afc76c63ba7cf4c7f7bf9a134c",
+    "translation_date": "2026-01-16T22:34:21+00:00",
+    "source_file": "images/counterfit-humidity-sensor.png",
+    "language_code": "ml"
+  },
+  "commands.d6c06bbbb3a02cce.webp": {
+    "original_hash": "8390a0fb6de9ed7ea485aa8b7885d107",
+    "translation_date": "2026-01-16T22:34:24+00:00",
+    "source_file": "images/commands.png",
+    "language_code": "ml"
+  },
+  "iot-hub-cloud-to-device-message.f4f21fea772cc20b.webp": {
+    "original_hash": "d5e70a4a54a0038278c5bdc2b4988f8e",
+    "translation_date": "2026-01-16T22:34:27+00:00",
+    "source_file": "images/iot-hub-cloud-to-device-message.png",
+    "language_code": "ml"
+  },
+  "lesson-7.30b5f577d3cb8e03.webp": {
+    "original_hash": "65e26ac18d8f2455e8c5241431133288",
+    "translation_date": "2026-01-16T22:34:34+00:00",
+    "source_file": "sketchnotes/lesson-7.jpg",
+    "language_code": "ml"
+  },
+  "lesson-20.0211df9551a8abb3.webp": {
+    "original_hash": "6955631846f6c3a04436440cbe55ec9e",
+    "translation_date": "2026-01-16T22:34:42+00:00",
+    "source_file": "sketchnotes/lesson-20.jpg",
+    "language_code": "ml"
+  },
+  "lesson-15.843d21afdc6fb2bb.webp": {
+    "original_hash": "c44ff172164fdfbafabf0c806f5e8593",
+    "translation_date": "2026-01-16T22:34:49+00:00",
+    "source_file": "sketchnotes/lesson-15.jpg",
+    "language_code": "ml"
+  },
+  "lesson-5.42b234299279d263.webp": {
+    "original_hash": "691cf783fe7ef6b40bf300481e7326d2",
+    "translation_date": "2026-01-16T22:34:56+00:00",
+    "source_file": "sketchnotes/lesson-5.jpg",
+    "language_code": "ml"
+  },
+  "lesson-3.cc3b7b4cd646de59.webp": {
+    "original_hash": "4ef30b3fb0ed4914bfc4753db2e99a7b",
+    "translation_date": "2026-01-16T22:40:58+00:00",
+    "source_file": "sketchnotes/lesson-3.jpg",
+    "language_code": "ml"
+  },
+  "lesson-19.cf6973cecadf080c.webp": {
+    "original_hash": "7e8769bcee6aeb9ebbb9c1752847f908",
+    "translation_date": "2026-01-16T22:46:10+00:00",
+    "source_file": "sketchnotes/lesson-19.jpg",
+    "language_code": "ml"
+  },
+  "Roadmap.bb1dec285dda0eda.webp": {
+    "original_hash": "c49112726cdadd69ca0ec203a13e4689",
+    "translation_date": "2026-01-16T22:48:00+00:00",
+    "source_file": "sketchnotes/Roadmap.jpg",
+    "language_code": "ml"
+  },
+  "lesson-13.a259db1485021be7.webp": {
+    "original_hash": "49048659f9a44917256f7b4b7f864f62",
+    "translation_date": "2026-01-16T22:49:08+00:00",
+    "source_file": "sketchnotes/lesson-13.jpg",
+    "language_code": "ml"
+  },
+  "lesson-21.e34de51354d6606f.webp": {
+    "original_hash": "918fab6c83b650cf67a39f5a9e740609",
+    "translation_date": "2026-01-16T22:49:15+00:00",
+    "source_file": "sketchnotes/lesson-21.jpg",
+    "language_code": "ml"
+  },
+  "lesson-22.6148ea28500d9e00.webp": {
+    "original_hash": "744a23c671043c5538445857370ea60e",
+    "translation_date": "2026-01-16T22:49:22+00:00",
+    "source_file": "sketchnotes/lesson-22.jpg",
+    "language_code": "ml"
+  },
+  "lesson-17.bc333c3c35ba8e42.webp": {
+    "original_hash": "5f7d869576300be85ed519ef16ff6a39",
+    "translation_date": "2026-01-16T22:49:32+00:00",
+    "source_file": "sketchnotes/lesson-17.jpg",
+    "language_code": "ml"
+  },
+  "lesson-24.4246968ed058510a.webp": {
+    "original_hash": "08ff9d2f7cd0d595eb30e96375add9f3",
+    "translation_date": "2026-01-16T22:49:45+00:00",
+    "source_file": "sketchnotes/lesson-24.jpg",
+    "language_code": "ml"
+  },
+  "lesson-12.ca7f53039712a3ec.webp": {
+    "original_hash": "967e8e3853bc164050b097ea16490057",
+    "translation_date": "2026-01-16T22:49:54+00:00",
+    "source_file": "sketchnotes/lesson-12.jpg",
+    "language_code": "ml"
+  },
+  "lesson-8.3f21f3c11159e6a0.webp": {
+    "original_hash": "43f49f9a260610f3e5493dfdc6dc0d7f",
+    "translation_date": "2026-01-16T22:50:00+00:00",
+    "source_file": "sketchnotes/lesson-8.jpg",
+    "language_code": "ml"
+  },
+  "lesson-16.215daf18b00631fb.webp": {
+    "original_hash": "0bd07a79a71954ad4f5b585972d4deb9",
+    "translation_date": "2026-01-16T22:50:07+00:00",
+    "source_file": "sketchnotes/lesson-16.jpg",
+    "language_code": "ml"
+  },
+  "lesson-4.7344e074ea68fa54.webp": {
+    "original_hash": "8fec62a3c5722c6c9adeb713c30d685c",
+    "translation_date": "2026-01-16T22:51:54+00:00",
+    "source_file": "sketchnotes/lesson-4.jpg",
+    "language_code": "ml"
+  },
+  "lesson-2.324b0580d620c25e.webp": {
+    "original_hash": "ec89ab3c7a4154d500a4249e4b611ce3",
+    "translation_date": "2026-01-16T22:54:32+00:00",
+    "source_file": "sketchnotes/lesson-2.jpg",
+    "language_code": "ml"
+  },
+  "lesson-6.3e493b60eee85adc.webp": {
+    "original_hash": "94d827c7b07c857cf86360f7a42734e0",
+    "translation_date": "2026-01-16T22:55:35+00:00",
+    "source_file": "sketchnotes/lesson-6.jpg",
+    "language_code": "ml"
+  },
+  "lesson-14.63980c5150ae3c15.webp": {
+    "original_hash": "b6ce8e2bb49d1616057ee45f2e37fe8f",
+    "translation_date": "2026-01-16T22:55:41+00:00",
+    "source_file": "sketchnotes/lesson-14.jpg",
+    "language_code": "ml"
+  },
+  "lesson-9.dfe99c8e891f48e1.webp": {
+    "original_hash": "7d6641c90a95897e05e60033cf61367f",
+    "translation_date": "2026-01-16T22:55:48+00:00",
+    "source_file": "sketchnotes/lesson-9.jpg",
+    "language_code": "ml"
+  },
+  "lesson-23.f38483e1d4df4828.webp": {
+    "original_hash": "cef842f7b80b336838233fcf1be1029c",
+    "translation_date": "2026-01-16T22:55:57+00:00",
+    "source_file": "sketchnotes/lesson-23.jpg",
+    "language_code": "ml"
+  },
+  "lesson-1.2606670fa61ee904.webp": {
+    "original_hash": "84859c69fb3a2f18ffbe095a2102d7f6",
+    "translation_date": "2026-01-16T22:57:51+00:00",
+    "source_file": "sketchnotes/lesson-1.jpg",
+    "language_code": "ml"
+  },
+  "lesson-10.829c86b80b9403bb.webp": {
+    "original_hash": "d01fb71820808d72515cf0b7d68bab41",
+    "translation_date": "2026-01-16T22:58:51+00:00",
+    "source_file": "sketchnotes/lesson-10.jpg",
+    "language_code": "ml"
+  },
+  "lesson-18.92c32ed1d354caa5.webp": {
+    "original_hash": "89d2f47ae6201d70aec617d32cd09f53",
+    "translation_date": "2026-01-16T22:59:02+00:00",
+    "source_file": "sketchnotes/lesson-18.jpg",
+    "language_code": "ml"
+  },
+  "lesson-11.9fddbac4b664c6d5.webp": {
+    "original_hash": "b1f802eab377a9252f62e9309f8e592a",
+    "translation_date": "2026-01-16T22:59:10+00:00",
+    "source_file": "sketchnotes/lesson-11.jpg",
+    "language_code": "ml"
+  },
+  "IMG_5306.d575b9ab7025877b.webp": {
+    "original_hash": "4e37695a9ad976c862b785afb2bb7c2e",
+    "translation_date": "2026-01-16T22:59:16+00:00",
+    "source_file": "5-retail/lessons/1-train-stock-detector/images/testing/IMG_5306.png",
+    "language_code": "ml"
+  },
+  "IMG_5343.fa30105d3c10cad2.webp": {
+    "original_hash": "a41290e37e030928a002529f04f9387f",
+    "translation_date": "2026-01-16T22:59:25+00:00",
+    "source_file": "5-retail/lessons/1-train-stock-detector/images/testing/IMG_5343.png",
+    "language_code": "ml"
+  },
+  "IMG_5321.b207cf143a59458d.webp": {
+    "original_hash": "d5626c8d5686c0fb0b71774b18b5799e",
+    "translation_date": "2026-01-16T22:59:34+00:00",
+    "source_file": "5-retail/lessons/1-train-stock-detector/images/testing/IMG_5321.png",
+    "language_code": "ml"
+  },
+  "IMG_5305.aa291c8812a9f1e5.webp": {
+    "original_hash": "fc0711c2be2774ab6089d59dc597260b",
+    "translation_date": "2026-01-16T22:59:40+00:00",
+    "source_file": "5-retail/lessons/1-train-stock-detector/images/testing/IMG_5305.png",
+    "language_code": "ml"
+  },
+  "IMG_5345.3d305ee2bb4ee804.webp": {
+    "original_hash": "a511a224fa17db01684e0e63921ff020",
+    "translation_date": "2026-01-16T22:59:44+00:00",
+    "source_file": "5-retail/lessons/1-train-stock-detector/images/training/IMG_5345.png",
+    "language_code": "ml"
+  },
+  "IMG_5349.1f0ec7fbf8807b3b.webp": {
+    "original_hash": "d12db74e18cfb01344a6f47e93341d6e",
+    "translation_date": "2026-01-16T22:59:50+00:00",
+    "source_file": "5-retail/lessons/1-train-stock-detector/images/training/IMG_5349.png",
+    "language_code": "ml"
+  },
+  "IMG_5316.29dc70d802ce8349.webp": {
+    "original_hash": "ba7dbbd6975e2bd39c4b37e1a12867da",
+    "translation_date": "2026-01-16T22:59:58+00:00",
+    "source_file": "5-retail/lessons/1-train-stock-detector/images/training/IMG_5316.png",
+    "language_code": "ml"
+  },
+  "IMG_5340.8440651b3ce1dd35.webp": {
+    "original_hash": "24b34e210b680dcdd7f84c7b819e5af2",
+    "translation_date": "2026-01-16T23:00:07+00:00",
+    "source_file": "5-retail/lessons/1-train-stock-detector/images/training/IMG_5340.png",
+    "language_code": "ml"
+  },
+  "IMG_5328.925a9da23d96759f.webp": {
+    "original_hash": "d2038a13e44588a9bfbf8901b11d00e2",
+    "translation_date": "2026-01-16T23:00:15+00:00",
+    "source_file": "5-retail/lessons/1-train-stock-detector/images/training/IMG_5328.png",
+    "language_code": "ml"
+  },
+  "IMG_5318.15dfffeb7f47abf7.webp": {
+    "original_hash": "6d55d50694cfb9d88f84167f245a5d51",
+    "translation_date": "2026-01-16T23:00:22+00:00",
+    "source_file": "5-retail/lessons/1-train-stock-detector/images/training/IMG_5318.png",
+    "language_code": "ml"
+  },
+  "IMG_5312.a45550ddd8ce8e65.webp": {
+    "original_hash": "254b4fd54e9fe80a51a191ce9f654c85",
+    "translation_date": "2026-01-16T23:00:28+00:00",
+    "source_file": "5-retail/lessons/1-train-stock-detector/images/training/IMG_5312.png",
+    "language_code": "ml"
+  },
+  "IMG_5313.ed1b45211271dbd2.webp": {
+    "original_hash": "86bea69b269add926a2da7a91bd68191",
+    "translation_date": "2026-01-16T23:00:32+00:00",
+    "source_file": "5-retail/lessons/1-train-stock-detector/images/training/IMG_5313.png",
+    "language_code": "ml"
+  },
+  "IMG_5347.48a4a981e76910ae.webp": {
+    "original_hash": "7b0d15e3f5e8ec289aff74d74a6dbf6e",
+    "translation_date": "2026-01-16T23:00:37+00:00",
+    "source_file": "5-retail/lessons/1-train-stock-detector/images/training/IMG_5347.png",
+    "language_code": "ml"
+  },
+  "IMG_5326.35bbc9e054c704d0.webp": {
+    "original_hash": "34cd6fb13bd85e2bc35a2113b89aecd1",
+    "translation_date": "2026-01-16T23:00:45+00:00",
+    "source_file": "5-retail/lessons/1-train-stock-detector/images/training/IMG_5326.png",
+    "language_code": "ml"
+  },
+  "IMG_5307.f9c9b8361a8aa734.webp": {
+    "original_hash": "cab390c38e0b27852ef90122d6dc4a8a",
+    "translation_date": "2026-01-16T23:00:51+00:00",
+    "source_file": "5-retail/lessons/1-train-stock-detector/images/training/IMG_5307.png",
+    "language_code": "ml"
+  },
+  "IMG_5309.23fbc3b6667bfb64.webp": {
+    "original_hash": "489a940aac2fae4a3a1e497781cba5a8",
+    "translation_date": "2026-01-16T23:00:57+00:00",
+    "source_file": "5-retail/lessons/1-train-stock-detector/images/training/IMG_5309.png",
+    "language_code": "ml"
+  },
+  "IMG_5324.0afbc6f0caceb1a3.webp": {
+    "original_hash": "2d32f160ad94adf82b14722b5a4750de",
+    "translation_date": "2026-01-16T23:01:04+00:00",
+    "source_file": "5-retail/lessons/1-train-stock-detector/images/training/IMG_5324.png",
+    "language_code": "ml"
+  },
+  "IMG_5317.ed81e4c1ca5046dc.webp": {
+    "original_hash": "1418135512d05bb5a5e8295c3ca27e4e",
+    "translation_date": "2026-01-16T23:01:12+00:00",
+    "source_file": "5-retail/lessons/1-train-stock-detector/images/training/IMG_5317.png",
+    "language_code": "ml"
+  },
+  "IMG_5336.1b46586fdec95767.webp": {
+    "original_hash": "e40e7f6dcb13a7f78508a3751ce2f071",
+    "translation_date": "2026-01-16T23:01:18+00:00",
+    "source_file": "5-retail/lessons/1-train-stock-detector/images/training/IMG_5336.png",
+    "language_code": "ml"
+  },
+  "IMG_5337.91c82be4d37029b0.webp": {
+    "original_hash": "17697be963b005f6961b32d72072d6af",
+    "translation_date": "2026-01-16T23:01:24+00:00",
+    "source_file": "5-retail/lessons/1-train-stock-detector/images/training/IMG_5337.png",
+    "language_code": "ml"
+  },
+  "IMG_5335.9f5bfba69a8d5a90.webp": {
+    "original_hash": "d896d7a763d29c0da589c8dbc77c9ed3",
+    "translation_date": "2026-01-16T23:01:31+00:00",
+    "source_file": "5-retail/lessons/1-train-stock-detector/images/training/IMG_5335.png",
+    "language_code": "ml"
+  },
+  "IMG_5342.9f3b93d9fab90d3b.webp": {
+    "original_hash": "5d05e1e08f6e5aaf21891368d22fcfb5",
+    "translation_date": "2026-01-16T23:01:39+00:00",
+    "source_file": "5-retail/lessons/1-train-stock-detector/images/training/IMG_5342.png",
+    "language_code": "ml"
+  },
+  "IMG_5327.804b63a605b5a77a.webp": {
+    "original_hash": "7f20dfc038fa8b756cf381c0d13cc764",
+    "translation_date": "2026-01-16T23:01:47+00:00",
+    "source_file": "5-retail/lessons/1-train-stock-detector/images/training/IMG_5327.png",
+    "language_code": "ml"
+  },
+  "IMG_5344.acfcd61ee5281321.webp": {
+    "original_hash": "a376d539df9a174bfdaadbab9dbc1cfd",
+    "translation_date": "2026-01-16T23:01:53+00:00",
+    "source_file": "5-retail/lessons/1-train-stock-detector/images/training/IMG_5344.png",
+    "language_code": "ml"
+  },
+  "IMG_5341.a1aa041c42dbc534.webp": {
+    "original_hash": "a5bce966ff8f378c7ac2c3ae3263f629",
+    "translation_date": "2026-01-16T23:02:00+00:00",
+    "source_file": "5-retail/lessons/1-train-stock-detector/images/training/IMG_5341.png",
+    "language_code": "ml"
+  },
+  "IMG_5330.3db3d5ea01c8cca2.webp": {
+    "original_hash": "148147aa52a66e9d9e77c17a4b6fb50b",
+    "translation_date": "2026-01-16T23:02:08+00:00",
+    "source_file": "5-retail/lessons/1-train-stock-detector/images/training/IMG_5330.png",
+    "language_code": "ml"
+  },
+  "IMG_5311.8c90da6446c2d8c2.webp": {
+    "original_hash": "68d840516ae36a03715a432e9dac3856",
+    "translation_date": "2026-01-16T23:02:13+00:00",
+    "source_file": "5-retail/lessons/1-train-stock-detector/images/training/IMG_5311.png",
+    "language_code": "ml"
+  },
+  "IMG_5348.3961d3b444537c13.webp": {
+    "original_hash": "312f940de37e3d8b548a5ff7e0ef59ce",
+    "translation_date": "2026-01-16T23:02:19+00:00",
+    "source_file": "5-retail/lessons/1-train-stock-detector/images/training/IMG_5348.png",
+    "language_code": "ml"
+  },
+  "IMG_5325.9e9d9e9b85a10b06.webp": {
+    "original_hash": "797e68cbe795ca2b3bcefb017cde1e88",
+    "translation_date": "2026-01-16T23:02:26+00:00",
+    "source_file": "5-retail/lessons/1-train-stock-detector/images/training/IMG_5325.png",
+    "language_code": "ml"
+  },
+  "IMG_5314.c2203206a05a74b5.webp": {
+    "original_hash": "168cc384e8f57b7bdd2469769fddced6",
+    "translation_date": "2026-01-16T23:02:32+00:00",
+    "source_file": "5-retail/lessons/1-train-stock-detector/images/training/IMG_5314.png",
+    "language_code": "ml"
+  },
+  "IMG_5334.979472e433948c10.webp": {
+    "original_hash": "13d55902d7f4025e4c0b4ec92d7e5c38",
+    "translation_date": "2026-01-16T23:02:38+00:00",
+    "source_file": "5-retail/lessons/1-train-stock-detector/images/training/IMG_5334.png",
+    "language_code": "ml"
+  },
+  "IMG_5320.8268d3f61972f348.webp": {
+    "original_hash": "a6db3613b3615430929eec1d26541f23",
+    "translation_date": "2026-01-16T23:02:47+00:00",
+    "source_file": "5-retail/lessons/1-train-stock-detector/images/training/IMG_5320.png",
+    "language_code": "ml"
+  },
+  "IMG_5333.53c3364c2ee0e7bb.webp": {
+    "original_hash": "018ac6ada7c30b62d168689b8865c5cd",
+    "translation_date": "2026-01-16T23:02:56+00:00",
+    "source_file": "5-retail/lessons/1-train-stock-detector/images/training/IMG_5333.png",
+    "language_code": "ml"
+  },
+  "IMG_5346.281dcc267f69c70b.webp": {
+    "original_hash": "4772f5cabda119b12f676ad35147320e",
+    "translation_date": "2026-01-16T23:03:02+00:00",
+    "source_file": "5-retail/lessons/1-train-stock-detector/images/training/IMG_5346.png",
+    "language_code": "ml"
+  },
+  "IMG_5319.b549b1fff0dcf143.webp": {
+    "original_hash": "cd73355ae901d57470404f12f3e14d8f",
+    "translation_date": "2026-01-16T23:03:09+00:00",
+    "source_file": "5-retail/lessons/1-train-stock-detector/images/training/IMG_5319.png",
+    "language_code": "ml"
+  },
+  "IMG_5322.974809b9461a9e20.webp": {
+    "original_hash": "12e8057af8ca375668ac69dd83d3df9e",
+    "translation_date": "2026-01-16T23:03:16+00:00",
+    "source_file": "5-retail/lessons/1-train-stock-detector/images/training/IMG_5322.png",
+    "language_code": "ml"
+  },
+  "IMG_5315.f698228e0e031bd4.webp": {
+    "original_hash": "4975f6e8e46204674362e3686f994433",
+    "translation_date": "2026-01-16T23:03:23+00:00",
+    "source_file": "5-retail/lessons/1-train-stock-detector/images/training/IMG_5315.png",
+    "language_code": "ml"
+  },
+  "IMG_5310.0ee0eb2fbc1c2d0e.webp": {
+    "original_hash": "44821d181f6a6dfc59fce6430ea543c3",
+    "translation_date": "2026-01-16T23:03:28+00:00",
+    "source_file": "5-retail/lessons/1-train-stock-detector/images/training/IMG_5310.png",
+    "language_code": "ml"
+  },
+  "IMG_5329.27da5fcbc3336773.webp": {
+    "original_hash": "fd75c4e9e16aeb231b2f10c94d10d608",
+    "translation_date": "2026-01-16T23:03:35+00:00",
+    "source_file": "5-retail/lessons/1-train-stock-detector/images/training/IMG_5329.png",
+    "language_code": "ml"
+  },
+  "IMG_5323.4939fa17958f291b.webp": {
+    "original_hash": "e7b6ccd025636efe16234fde1583ac2f",
+    "translation_date": "2026-01-16T23:03:43+00:00",
+    "source_file": "5-retail/lessons/1-train-stock-detector/images/training/IMG_5323.png",
+    "language_code": "ml"
+  },
+  "IMG_5331.181987d3d094472f.webp": {
+    "original_hash": "2272482bed9dbf36b7798a41324d008f",
+    "translation_date": "2026-01-16T23:03:50+00:00",
+    "source_file": "5-retail/lessons/1-train-stock-detector/images/training/IMG_5331.png",
+    "language_code": "ml"
+  },
+  "IMG_5332.4beed56eaa5158e3.webp": {
+    "original_hash": "445a83687357d2bf3749e23583768407",
+    "translation_date": "2026-01-16T23:03:58+00:00",
+    "source_file": "5-retail/lessons/1-train-stock-detector/images/training/IMG_5332.png",
+    "language_code": "ml"
+  },
+  "IMG_5338.9ab356541448923b.webp": {
+    "original_hash": "c6112e9cf630cc63b828dcbdde845de3",
+    "translation_date": "2026-01-16T23:04:04+00:00",
+    "source_file": "5-retail/lessons/1-train-stock-detector/images/training/IMG_5338.png",
+    "language_code": "ml"
+  },
+  "IMG_5308.cbd6ed7007e69060.webp": {
+    "original_hash": "0ba29462f9494cbdec73138d13555eeb",
+    "translation_date": "2026-01-16T23:04:10+00:00",
+    "source_file": "5-retail/lessons/1-train-stock-detector/images/training/IMG_5308.png",
+    "language_code": "ml"
+  },
+  "banana-ripe-2.8ab96da692df69f1.webp": {
+    "original_hash": "ae966eeff29fbf1a867a864baa149780",
+    "translation_date": "2026-01-16T23:04:12+00:00",
+    "source_file": "4-manufacturing/lessons/1-train-fruit-detector/images/testing/ripe/banana-ripe-2.png",
+    "language_code": "ml"
+  },
+  "banana-ripe-1.6ed72365ffc92300.webp": {
+    "original_hash": "b669c7b079f11e40ccf403bca27420a6",
+    "translation_date": "2026-01-16T23:04:12+00:00",
+    "source_file": "4-manufacturing/lessons/1-train-fruit-detector/images/testing/ripe/banana-ripe-1.png",
+    "language_code": "ml"
+  },
+  "banana-unripe-2.43a73b544521afc7.webp": {
+    "original_hash": "191f77cd53ad268a98fc833365c67fc5",
+    "translation_date": "2026-01-16T23:04:13+00:00",
+    "source_file": "4-manufacturing/lessons/1-train-fruit-detector/images/testing/unripe/banana-unripe-2.png",
+    "language_code": "ml"
+  },
+  "banana-unripe-1.b2c7051d9c8a4e61.webp": {
+    "original_hash": "a4cc0cccd0bd9e129367a314c3d97e3a",
+    "translation_date": "2026-01-16T23:04:14+00:00",
+    "source_file": "4-manufacturing/lessons/1-train-fruit-detector/images/testing/unripe/banana-unripe-1.png",
+    "language_code": "ml"
+  },
+  "banana-ripe-11.3d932f292b95b9a2.webp": {
+    "original_hash": "10d419a7eb4916eb20ab86a2d5704359",
+    "translation_date": "2026-01-16T23:04:15+00:00",
+    "source_file": "4-manufacturing/lessons/1-train-fruit-detector/images/training/ripe/banana-ripe-11.png",
+    "language_code": "ml"
+  },
+  "banana-ripe-5.c762086879ccec4c.webp": {
+    "original_hash": "b70a07b7c7fe7a6e38624ecf409ecb39",
+    "translation_date": "2026-01-16T23:04:16+00:00",
+    "source_file": "4-manufacturing/lessons/1-train-fruit-detector/images/training/ripe/banana-ripe-5.png",
+    "language_code": "ml"
+  },
+  "banana-ripe-21.07e03d64f265d55d.webp": {
+    "original_hash": "2c1528b1de4d0572dd8e3813ec38a591",
+    "translation_date": "2026-01-16T23:04:17+00:00",
+    "source_file": "4-manufacturing/lessons/1-train-fruit-detector/images/training/ripe/banana-ripe-21.png",
+    "language_code": "ml"
+  },
+  "banana-ripe-6.5131bcbf492980cb.webp": {
+    "original_hash": "54da747610520d477d2ce3ab576ac125",
+    "translation_date": "2026-01-16T23:04:18+00:00",
+    "source_file": "4-manufacturing/lessons/1-train-fruit-detector/images/training/ripe/banana-ripe-6.png",
+    "language_code": "ml"
+  },
+  "banana-ripe-2.96ddc53114c5f020.webp": {
+    "original_hash": "c7c3b976043accf6fff757e50afed132",
+    "translation_date": "2026-01-16T23:04:18+00:00",
+    "source_file": "4-manufacturing/lessons/1-train-fruit-detector/images/training/ripe/banana-ripe-2.png",
+    "language_code": "ml"
+  },
+  "banana-ripe-13.b7402e05160f4543.webp": {
+    "original_hash": "9f3ebf2203aaa657357ba262990bbb21",
+    "translation_date": "2026-01-16T23:04:19+00:00",
+    "source_file": "4-manufacturing/lessons/1-train-fruit-detector/images/training/ripe/banana-ripe-13.png",
+    "language_code": "ml"
+  },
+  "banana-ripe-25.65ce63418cdc4de2.webp": {
+    "original_hash": "773b4a997e31a2a512b75f51941d594d",
+    "translation_date": "2026-01-16T23:04:20+00:00",
+    "source_file": "4-manufacturing/lessons/1-train-fruit-detector/images/training/ripe/banana-ripe-25.png",
+    "language_code": "ml"
+  },
+  "banana-ripe-8.dba1d33bd34d4830.webp": {
+    "original_hash": "12afa64eebbc95b9536e6f3bbccdb345",
+    "translation_date": "2026-01-16T23:04:21+00:00",
+    "source_file": "4-manufacturing/lessons/1-train-fruit-detector/images/training/ripe/banana-ripe-8.png",
+    "language_code": "ml"
+  },
+  "banana-ripe-16.781a68a01401f89e.webp": {
+    "original_hash": "29f95cc922f22691d9804dae4672b387",
+    "translation_date": "2026-01-16T23:04:22+00:00",
+    "source_file": "4-manufacturing/lessons/1-train-fruit-detector/images/training/ripe/banana-ripe-16.png",
+    "language_code": "ml"
+  },
+  "banana-ripe-20.a4d0ad33a7e6f037.webp": {
+    "original_hash": "aa2539f64cd978be437a294ef56b38ec",
+    "translation_date": "2026-01-16T23:04:23+00:00",
+    "source_file": "4-manufacturing/lessons/1-train-fruit-detector/images/training/ripe/banana-ripe-20.png",
+    "language_code": "ml"
+  },
+  "banana-ripe-9.32f91462c8b0e2d3.webp": {
+    "original_hash": "a380e69917059d3401d09c9e00e289f6",
+    "translation_date": "2026-01-16T23:04:24+00:00",
+    "source_file": "4-manufacturing/lessons/1-train-fruit-detector/images/training/ripe/banana-ripe-9.png",
+    "language_code": "ml"
+  },
+  "banana-ripe-18.3d05f5f78ecf6f0d.webp": {
+    "original_hash": "cae1792a648b1486d2e3590866d11980",
+    "translation_date": "2026-01-16T23:04:24+00:00",
+    "source_file": "4-manufacturing/lessons/1-train-fruit-detector/images/training/ripe/banana-ripe-18.png",
+    "language_code": "ml"
+  },
+  "banana-ripe-17.f8e2853a40d3ac45.webp": {
+    "original_hash": "8f0a9f7b93505876f7bd290b3679099d",
+    "translation_date": "2026-01-16T23:04:26+00:00",
+    "source_file": "4-manufacturing/lessons/1-train-fruit-detector/images/training/ripe/banana-ripe-17.png",
+    "language_code": "ml"
+  },
+  "banana-ripe-3.4fae05a0a1d2b5f0.webp": {
+    "original_hash": "4810eae16d8cd35405bd23a7630d4c1c",
+    "translation_date": "2026-01-16T23:04:27+00:00",
+    "source_file": "4-manufacturing/lessons/1-train-fruit-detector/images/training/ripe/banana-ripe-3.png",
+    "language_code": "ml"
+  },
+  "banana-ripe-14.85cf309aa702cfa8.webp": {
+    "original_hash": "c45e36f248a3dace32791bfca32d6aed",
+    "translation_date": "2026-01-16T23:04:28+00:00",
+    "source_file": "4-manufacturing/lessons/1-train-fruit-detector/images/training/ripe/banana-ripe-14.png",
+    "language_code": "ml"
+  },
+  "banana-ripe-23.6f3364afcab19e57.webp": {
+    "original_hash": "28dcfffcd92c957991aca002f7afb9f5",
+    "translation_date": "2026-01-16T23:04:29+00:00",
+    "source_file": "4-manufacturing/lessons/1-train-fruit-detector/images/training/ripe/banana-ripe-23.png",
+    "language_code": "ml"
+  },
+  "banana-ripe-15.933412eb14a3f8e4.webp": {
+    "original_hash": "efaa40a12e710aa6bbb1a1d0bb2052a4",
+    "translation_date": "2026-01-16T23:04:30+00:00",
+    "source_file": "4-manufacturing/lessons/1-train-fruit-detector/images/training/ripe/banana-ripe-15.png",
+    "language_code": "ml"
+  },
+  "banana-ripe-12.9f87e663b9da6c85.webp": {
+    "original_hash": "8e8d0158457b243d442b06713947d089",
+    "translation_date": "2026-01-16T23:04:31+00:00",
+    "source_file": "4-manufacturing/lessons/1-train-fruit-detector/images/training/ripe/banana-ripe-12.png",
+    "language_code": "ml"
+  },
+  "banana-ripe-19.ac3b0fc6cf6fdfd5.webp": {
+    "original_hash": "2390f2cc5023984a9682ec5f96f2bd6e",
+    "translation_date": "2026-01-16T23:04:31+00:00",
+    "source_file": "4-manufacturing/lessons/1-train-fruit-detector/images/training/ripe/banana-ripe-19.png",
+    "language_code": "ml"
+  },
+  "banana-ripe-24.ff2c02cc80a9c430.webp": {
+    "original_hash": "cffff187f53978527516f37fbdb528b6",
+    "translation_date": "2026-01-16T23:04:32+00:00",
+    "source_file": "4-manufacturing/lessons/1-train-fruit-detector/images/training/ripe/banana-ripe-24.png",
+    "language_code": "ml"
+  },
+  "banana-ripe-1.780e9be3a60d8879.webp": {
+    "original_hash": "e1657ae830ee7346983e1ca04f185e0e",
+    "translation_date": "2026-01-16T23:04:33+00:00",
+    "source_file": "4-manufacturing/lessons/1-train-fruit-detector/images/training/ripe/banana-ripe-1.png",
+    "language_code": "ml"
+  },
+  "banana-ripe-10.c3d98eb280e7464f.webp": {
+    "original_hash": "1fd32bdc31ba975c91484494cc3ef395",
+    "translation_date": "2026-01-16T23:04:34+00:00",
+    "source_file": "4-manufacturing/lessons/1-train-fruit-detector/images/training/ripe/banana-ripe-10.png",
+    "language_code": "ml"
+  },
+  "banana-ripe-22.a63c05aeb7f866fc.webp": {
+    "original_hash": "1b4c8cac0fb4d88e2fac6e10a401b567",
+    "translation_date": "2026-01-16T23:04:35+00:00",
+    "source_file": "4-manufacturing/lessons/1-train-fruit-detector/images/training/ripe/banana-ripe-22.png",
+    "language_code": "ml"
+  },
+  "banana-ripe-7.5fc18dfe7b7ae9dc.webp": {
+    "original_hash": "ab45157090d3fb253fc262e1ac44cd36",
+    "translation_date": "2026-01-16T23:04:36+00:00",
+    "source_file": "4-manufacturing/lessons/1-train-fruit-detector/images/training/ripe/banana-ripe-7.png",
+    "language_code": "ml"
+  },
+  "banana-unripe-23.c4c9067f23370e90.webp": {
+    "original_hash": "141fdca6d816f53efd73fe0ae59d0a43",
+    "translation_date": "2026-01-16T23:04:37+00:00",
+    "source_file": "4-manufacturing/lessons/1-train-fruit-detector/images/training/unripe/banana-unripe-23.png",
+    "language_code": "ml"
+  },
+  "banana-unripe-16.bd058f64bd7ec014.webp": {
+    "original_hash": "a57dba0a4221e68a916b8d6b39ee88b3",
+    "translation_date": "2026-01-16T23:04:38+00:00",
+    "source_file": "4-manufacturing/lessons/1-train-fruit-detector/images/training/unripe/banana-unripe-16.png",
+    "language_code": "ml"
+  },
+  "banana-unripe-6.e3a73307558caecc.webp": {
+    "original_hash": "29d58bf3f0290ac98d5c748f467ab900",
+    "translation_date": "2026-01-16T23:04:38+00:00",
+    "source_file": "4-manufacturing/lessons/1-train-fruit-detector/images/training/unripe/banana-unripe-6.png",
+    "language_code": "ml"
+  },
+  "banana-unripe-27.f98fd272deeb02d9.webp": {
+    "original_hash": "32ffe72a780f2ae97ac1b189d0fb9a44",
+    "translation_date": "2026-01-16T23:04:39+00:00",
+    "source_file": "4-manufacturing/lessons/1-train-fruit-detector/images/training/unripe/banana-unripe-27.png",
+    "language_code": "ml"
+  },
+  "banana-unripe-4.483e740d6fd7b5a6.webp": {
+    "original_hash": "e0ff72cd82b8c7c4595e1beec806b8cb",
+    "translation_date": "2026-01-16T23:04:40+00:00",
+    "source_file": "4-manufacturing/lessons/1-train-fruit-detector/images/training/unripe/banana-unripe-4.png",
+    "language_code": "ml"
+  },
+  "banana-unripe-10.38dab0db918a2487.webp": {
+    "original_hash": "3fbe312ca683ffb4130c21bb5f8faf67",
+    "translation_date": "2026-01-16T23:04:41+00:00",
+    "source_file": "4-manufacturing/lessons/1-train-fruit-detector/images/training/unripe/banana-unripe-10.png",
+    "language_code": "ml"
+  },
+  "banana-unripe-7.634ca89acc17d68f.webp": {
+    "original_hash": "90677247facc68c33c17c37f03d6531d",
+    "translation_date": "2026-01-16T23:04:42+00:00",
+    "source_file": "4-manufacturing/lessons/1-train-fruit-detector/images/training/unripe/banana-unripe-7.png",
+    "language_code": "ml"
+  },
+  "banana-unripe-28.5331ba409ce41c07.webp": {
+    "original_hash": "75f6d0f1ad3d2ca875d31421b8f35deb",
+    "translation_date": "2026-01-16T23:04:42+00:00",
+    "source_file": "4-manufacturing/lessons/1-train-fruit-detector/images/training/unripe/banana-unripe-28.png",
+    "language_code": "ml"
+  },
+  "banana-unripe-22.27dff4b438163080.webp": {
+    "original_hash": "a9a930c9ba5f72daa2205105248afd86",
+    "translation_date": "2026-01-16T23:04:43+00:00",
+    "source_file": "4-manufacturing/lessons/1-train-fruit-detector/images/training/unripe/banana-unripe-22.png",
+    "language_code": "ml"
+  },
+  "banana-unripe-20.85b7a74eaab5634e.webp": {
+    "original_hash": "cf0067ebc713ffa4be85f95463639d68",
+    "translation_date": "2026-01-16T23:04:44+00:00",
+    "source_file": "4-manufacturing/lessons/1-train-fruit-detector/images/training/unripe/banana-unripe-20.png",
+    "language_code": "ml"
+  },
+  "banana-unripe-3.896df8fb2c3b8f51.webp": {
+    "original_hash": "16d53ba9a1f72a431e04901214d53f2e",
+    "translation_date": "2026-01-16T23:04:45+00:00",
+    "source_file": "4-manufacturing/lessons/1-train-fruit-detector/images/training/unripe/banana-unripe-3.png",
+    "language_code": "ml"
+  },
+  "banana-unripe-13.37e5a7cac5aa0920.webp": {
+    "original_hash": "ad62ee1af2830d972b9d933e94c8f592",
+    "translation_date": "2026-01-16T23:04:46+00:00",
+    "source_file": "4-manufacturing/lessons/1-train-fruit-detector/images/training/unripe/banana-unripe-13.png",
+    "language_code": "ml"
+  },
+  "banana-unripe-18.39c0eb79d7b3b9ba.webp": {
+    "original_hash": "5e5522a34ce418404df666003c42058e",
+    "translation_date": "2026-01-16T23:04:47+00:00",
+    "source_file": "4-manufacturing/lessons/1-train-fruit-detector/images/training/unripe/banana-unripe-18.png",
+    "language_code": "ml"
+  },
+  "banana-unripe-2.9591d1a6aa27deeb.webp": {
+    "original_hash": "b414558382a2640d15611bd29ed8f5f0",
+    "translation_date": "2026-01-16T23:04:48+00:00",
+    "source_file": "4-manufacturing/lessons/1-train-fruit-detector/images/training/unripe/banana-unripe-2.png",
+    "language_code": "ml"
+  },
+  "banana-unripe-12.b95a088ccae935db.webp": {
+    "original_hash": "26ff82ce86b8b10f54fc97c7227aa131",
+    "translation_date": "2026-01-16T23:04:48+00:00",
+    "source_file": "4-manufacturing/lessons/1-train-fruit-detector/images/training/unripe/banana-unripe-12.png",
+    "language_code": "ml"
+  },
+  "banana-unripe-19.e61e6d7efaf2d8c8.webp": {
+    "original_hash": "9412ba91c9eca98b84c86de22b51631f",
+    "translation_date": "2026-01-16T23:04:49+00:00",
+    "source_file": "4-manufacturing/lessons/1-train-fruit-detector/images/training/unripe/banana-unripe-19.png",
+    "language_code": "ml"
+  },
+  "banana-unripe-8.75720b4cdebac8c3.webp": {
+    "original_hash": "b2c3f312e05c258ea969ea1510c9e8d7",
+    "translation_date": "2026-01-16T23:04:50+00:00",
+    "source_file": "4-manufacturing/lessons/1-train-fruit-detector/images/training/unripe/banana-unripe-8.png",
+    "language_code": "ml"
+  },
+  "banana-unripe-17.408382d679bfa079.webp": {
+    "original_hash": "9b487f26ef0c7cfb561c472902c5d96b",
+    "translation_date": "2026-01-16T23:04:51+00:00",
+    "source_file": "4-manufacturing/lessons/1-train-fruit-detector/images/training/unripe/banana-unripe-17.png",
+    "language_code": "ml"
+  },
+  "banana-unripe-21.ccc1333439b344bc.webp": {
+    "original_hash": "6ee44eae72d211d164828835be1dd7c5",
+    "translation_date": "2026-01-16T23:04:52+00:00",
+    "source_file": "4-manufacturing/lessons/1-train-fruit-detector/images/training/unripe/banana-unripe-21.png",
+    "language_code": "ml"
+  },
+  "banana-unripe-29.84e126f389bf627e.webp": {
+    "original_hash": "fad512ccb4e4129d91a10b915bc55829",
+    "translation_date": "2026-01-16T23:04:52+00:00",
+    "source_file": "4-manufacturing/lessons/1-train-fruit-detector/images/training/unripe/banana-unripe-29.png",
+    "language_code": "ml"
+  },
+  "banana-unripe-5.e9923cf1ffcfc1c9.webp": {
+    "original_hash": "c46c19087503e1173c9c214750b06c8f",
+    "translation_date": "2026-01-16T23:04:53+00:00",
+    "source_file": "4-manufacturing/lessons/1-train-fruit-detector/images/training/unripe/banana-unripe-5.png",
+    "language_code": "ml"
+  },
+  "banana-unripe-14.d19ddd6bbf63a259.webp": {
+    "original_hash": "df691d75f8bdf20269d642704fa81233",
+    "translation_date": "2026-01-16T23:04:54+00:00",
+    "source_file": "4-manufacturing/lessons/1-train-fruit-detector/images/training/unripe/banana-unripe-14.png",
+    "language_code": "ml"
+  },
+  "banana-unripe-25.21d553d84880ac4f.webp": {
+    "original_hash": "534e54b877de9b3bc7c5e67e6fb426b5",
+    "translation_date": "2026-01-16T23:04:55+00:00",
+    "source_file": "4-manufacturing/lessons/1-train-fruit-detector/images/training/unripe/banana-unripe-25.png",
+    "language_code": "ml"
+  },
+  "banana-unripe-1.910c8606a300fa20.webp": {
+    "original_hash": "6d91493fcc6ed717266d0a58ed4ba97d",
+    "translation_date": "2026-01-16T23:04:56+00:00",
+    "source_file": "4-manufacturing/lessons/1-train-fruit-detector/images/training/unripe/banana-unripe-1.png",
+    "language_code": "ml"
+  },
+  "banana-unripe-15.274e48544326077a.webp": {
+    "original_hash": "1bf43279e1d99527a05e3fd05b6ac035",
+    "translation_date": "2026-01-16T23:04:56+00:00",
+    "source_file": "4-manufacturing/lessons/1-train-fruit-detector/images/training/unripe/banana-unripe-15.png",
+    "language_code": "ml"
+  },
+  "banana-unripe-9.e8076983351d2f54.webp": {
+    "original_hash": "93eac8be89da4c1db40c38166f18d515",
+    "translation_date": "2026-01-16T23:04:57+00:00",
+    "source_file": "4-manufacturing/lessons/1-train-fruit-detector/images/training/unripe/banana-unripe-9.png",
+    "language_code": "ml"
+  },
+  "banana-unripe-24.6f0b781c309da62f.webp": {
+    "original_hash": "c36781ac98c350de305cc9864e4e4b67",
+    "translation_date": "2026-01-16T23:04:58+00:00",
+    "source_file": "4-manufacturing/lessons/1-train-fruit-detector/images/training/unripe/banana-unripe-24.png",
+    "language_code": "ml"
+  },
+  "banana-unripe-26.823c48b61feb1d5c.webp": {
+    "original_hash": "f541d556eff5be42991bba984ca305f9",
+    "translation_date": "2026-01-16T23:04:59+00:00",
+    "source_file": "4-manufacturing/lessons/1-train-fruit-detector/images/training/unripe/banana-unripe-26.png",
+    "language_code": "ml"
+  },
+  "banana-unripe-11.ec8d0eefe63e10b9.webp": {
+    "original_hash": "fafe54a9660b5ea8811d8df8dfe375ad",
+    "translation_date": "2026-01-16T23:05:00+00:00",
+    "source_file": "4-manufacturing/lessons/1-train-fruit-detector/images/training/unripe/banana-unripe-11.png",
+    "language_code": "ml"
+  },
+  "plant-growth-temp-graph copy.65baa28afd9b7f5f.webp": {
+    "original_hash": "af7d47772297c3a84f2c2f4c519a98ee",
+    "translation_date": "2026-01-16T23:05:06+00:00",
+    "source_file": "images/plant-growth-temp-graph copy.png",
+    "language_code": "ml"
+  }
+}
