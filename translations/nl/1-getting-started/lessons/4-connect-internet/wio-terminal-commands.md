@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "6754c915dae64ba70fcd5e52c37f3adf",
-  "translation_date": "2025-08-27T21:48:28+00:00",
-  "source_file": "1-getting-started/lessons/4-connect-internet/wio-terminal-commands.md",
-  "language_code": "nl"
-}
--->
 # Beheer je nachtlampje via het internet - Wio Terminal
 
 In dit deel van de les leer je hoe je commando's die vanaf een MQTT-broker naar je Wio Terminal worden gestuurd, kunt ontvangen.

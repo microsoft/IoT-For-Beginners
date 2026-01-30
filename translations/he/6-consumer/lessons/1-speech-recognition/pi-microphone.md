@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "7e45d884493c5222348b43fbc4481b6a",
-  "translation_date": "2025-08-27T22:41:45+00:00",
-  "source_file": "6-consumer/lessons/1-speech-recognition/pi-microphone.md",
-  "language_code": "he"
-}
--->
 # הגדר את המיקרופון והרמקולים שלך - Raspberry Pi
 
 בחלק זה של השיעור, תוסיף מיקרופון ורמקולים ל-Raspberry Pi שלך.

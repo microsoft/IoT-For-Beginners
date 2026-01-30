@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "a3fdfec1d1e2cb645ea11c2930b51299",
-  "translation_date": "2025-08-27T20:26:57+00:00",
-  "source_file": "5-retail/lessons/2-check-stock-device/single-board-computer-object-detector.md",
-  "language_code": "nl"
-}
--->
 # Roep je objectdetector aan vanaf je IoT-apparaat - Virtuele IoT-hardware en Raspberry Pi
 
 Zodra je objectdetector is gepubliceerd, kan deze worden gebruikt vanaf je IoT-apparaat.

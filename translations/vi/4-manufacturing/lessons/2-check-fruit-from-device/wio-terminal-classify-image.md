@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "32a1f23e7834fbe7715da8c4ebb450b9",
-  "translation_date": "2025-08-27T21:01:19+00:00",
-  "source_file": "4-manufacturing/lessons/2-check-fruit-from-device/wio-terminal-classify-image.md",
-  "language_code": "vi"
-}
--->
 # Phân loại hình ảnh - Wio Terminal
 
 Trong phần này của bài học, bạn sẽ gửi hình ảnh được chụp bởi camera đến dịch vụ Custom Vision để phân loại.

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "48ac21ec80329c930db7b84bd6b592ec",
-  "translation_date": "2025-08-27T21:13:39+00:00",
-  "source_file": "4-manufacturing/lessons/3-run-fruit-detector-edge/wio-terminal.md",
-  "language_code": "vi"
-}
--->
 # Phân loại hình ảnh bằng bộ phân loại hình ảnh dựa trên IoT Edge - Wio Terminal
 
 Trong phần này của bài học, bạn sẽ sử dụng Bộ Phân Loại Hình Ảnh chạy trên thiết bị IoT Edge.

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "2f336726b9410e97c3aaed76cc89b0d8",
-  "translation_date": "2025-08-27T23:24:16+00:00",
-  "source_file": "6-consumer/lessons/1-speech-recognition/wio-terminal-audio.md",
-  "language_code": "vi"
-}
--->
 # Ghi âm - Wio Terminal
 
 Trong phần này của bài học, bạn sẽ viết mã để ghi âm trên Wio Terminal của mình. Việc ghi âm sẽ được điều khiển bởi một trong các nút trên đỉnh của Wio Terminal.

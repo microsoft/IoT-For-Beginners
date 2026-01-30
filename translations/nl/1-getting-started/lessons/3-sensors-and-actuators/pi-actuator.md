@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "4db8a3879a53490513571df2f6cf7641",
-  "translation_date": "2025-08-27T21:53:24+00:00",
-  "source_file": "1-getting-started/lessons/3-sensors-and-actuators/pi-actuator.md",
-  "language_code": "nl"
-}
--->
 # Bouw een nachtlampje - Raspberry Pi
 
 In dit deel van de les voeg je een LED toe aan je Raspberry Pi en gebruik je deze om een nachtlampje te maken.

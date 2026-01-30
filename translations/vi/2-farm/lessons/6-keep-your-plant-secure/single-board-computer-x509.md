@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "9aea84bcc7520222b0e1c50469d62d6a",
-  "translation_date": "2025-08-27T22:11:09+00:00",
-  "source_file": "2-farm/lessons/6-keep-your-plant-secure/single-board-computer-x509.md",
-  "language_code": "vi"
-}
--->
 # Sử dụng chứng chỉ X.509 trong mã thiết bị của bạn - Phần cứng IoT ảo và Raspberry Pi
 
 Trong phần này của bài học, bạn sẽ kết nối thiết bị IoT ảo hoặc Raspberry Pi của mình với IoT Hub bằng chứng chỉ X.509.

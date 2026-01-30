@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "4fb20273d299dc8d07a8f06c9cd0cdd9",
-  "translation_date": "2025-08-27T21:22:45+00:00",
-  "source_file": "2-farm/lessons/2-detect-soil-moisture/README.md",
-  "language_code": "nl"
-}
--->
 C, uitgesproken als *I-kwadraat-C*, is een multi-controller, multi-perifeer protocol, waarbij elk aangesloten apparaat kan fungeren als controller of perifere apparaat dat communiceert via de I²C-bus (de naam voor een communicatiesysteem dat gegevens overdraagt). Gegevens worden verzonden als geadresseerde pakketten, waarbij elk pakket het adres bevat van het aangesloten apparaat waarvoor het bedoeld is.
 
 > 💁 Dit model werd vroeger aangeduid als master/slave, maar deze terminologie wordt verlaten vanwege de associatie met slavernij. De [Open Source Hardware Association heeft controller/perifeer aangenomen](https://www.oshwa.org/a-resolution-to-redefine-spi-signal-names/), maar je kunt nog steeds verwijzingen naar de oude terminologie tegenkomen.

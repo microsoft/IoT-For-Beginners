@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "64f18a8f8aaa1fef5e7320e0992d8b3a",
-  "translation_date": "2025-08-27T22:50:43+00:00",
-  "source_file": "3-transport/lessons/1-location-tracking/virtual-device-gps-sensor.md",
-  "language_code": "he"
-}
--->
 # קריאת נתוני GPS - חומרה וירטואלית לאינטרנט של הדברים
 
 בחלק זה של השיעור, תוסיפו חיישן GPS למכשיר האינטרנט של הדברים הווירטואלי שלכם, ותקראו ממנו ערכים.

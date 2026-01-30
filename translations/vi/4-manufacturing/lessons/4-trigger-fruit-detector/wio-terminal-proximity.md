@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "288aebb0c59f7be1d2719b8f9660a313",
-  "translation_date": "2025-08-27T21:20:04+00:00",
-  "source_file": "4-manufacturing/lessons/4-trigger-fruit-detector/wio-terminal-proximity.md",
-  "language_code": "vi"
-}
--->
 # Phát hiện khoảng cách gần - Wio Terminal
 
 Trong phần này của bài học, bạn sẽ thêm cảm biến khoảng cách vào Wio Terminal và đọc khoảng cách từ nó.

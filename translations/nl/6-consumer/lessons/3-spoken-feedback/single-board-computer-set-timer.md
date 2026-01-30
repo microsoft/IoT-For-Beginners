@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "64ad4ddb4de81a18b7252e968f10b404",
-  "translation_date": "2025-08-27T22:24:11+00:00",
-  "source_file": "6-consumer/lessons/3-spoken-feedback/single-board-computer-set-timer.md",
-  "language_code": "nl"
-}
--->
 # Stel een timer in - Virtuele IoT-hardware en Raspberry Pi
 
 In dit deel van de les roep je je serverloze code aan om de spraak te begrijpen en stel je een timer in op je virtuele IoT-apparaat of Raspberry Pi op basis van de resultaten.

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "db44083b4dc6fb06eac83c4f16448940",
-  "translation_date": "2025-08-27T21:54:27+00:00",
-  "source_file": "1-getting-started/lessons/3-sensors-and-actuators/wio-terminal-actuator.md",
-  "language_code": "he"
-}
--->
 # בנה מנורת לילה - Wio Terminal
 
 בחלק זה של השיעור, תוסיף נורת LED ל-Wio Terminal שלך ותשתמש בה כדי ליצור מנורת לילה.

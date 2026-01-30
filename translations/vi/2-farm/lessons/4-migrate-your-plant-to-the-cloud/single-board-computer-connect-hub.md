@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "3ac42e284a7222c0e83d2d43231a364f",
-  "translation_date": "2025-08-27T22:03:41+00:00",
-  "source_file": "2-farm/lessons/4-migrate-your-plant-to-the-cloud/single-board-computer-connect-hub.md",
-  "language_code": "vi"
-}
--->
 # Kết nối thiết bị IoT của bạn với đám mây - Phần cứng IoT ảo và Raspberry Pi
 
 Trong phần này của bài học, bạn sẽ kết nối thiết bị IoT ảo hoặc Raspberry Pi của mình với IoT Hub để gửi dữ liệu đo lường và nhận lệnh.

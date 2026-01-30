@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "22a1d6e49f2a689fe5bfa7802a7241fc",
-  "translation_date": "2025-08-27T20:26:27+00:00",
-  "source_file": "5-retail/README.md",
-  "language_code": "nl"
-}
--->
 # Retail - gebruik van IoT om voorraadniveaus te beheren
 
 De laatste fase voordat voedsel de consument bereikt, is de detailhandel - de markten, groentewinkels, supermarkten en winkels die producten aan consumenten verkopen. Deze winkels willen ervoor zorgen dat ze producten op de schappen hebben liggen, zodat consumenten ze kunnen zien en kopen.

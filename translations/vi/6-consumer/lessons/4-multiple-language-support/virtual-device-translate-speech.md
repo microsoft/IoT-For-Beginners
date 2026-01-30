@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "d620a470d9dd8614d99824832978360a",
-  "translation_date": "2025-08-27T23:01:34+00:00",
-  "source_file": "6-consumer/lessons/4-multiple-language-support/virtual-device-translate-speech.md",
-  "language_code": "vi"
-}
--->
 # Dịch giọng nói - Thiết bị IoT ảo
 
 Trong phần này của bài học, bạn sẽ viết mã để dịch giọng nói khi chuyển đổi thành văn bản bằng dịch vụ giọng nói, sau đó dịch văn bản bằng dịch vụ Translator trước khi tạo phản hồi bằng giọng nói.

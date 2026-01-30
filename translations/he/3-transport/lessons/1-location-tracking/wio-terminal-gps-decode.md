@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "fbbcf96a9b63ccd661db98bbf854bb06",
-  "translation_date": "2025-08-27T22:56:27+00:00",
-  "source_file": "3-transport/lessons/1-location-tracking/wio-terminal-gps-decode.md",
-  "language_code": "he"
-}
--->
 # פענוח נתוני GPS - Wio Terminal
 
 בחלק זה של השיעור, תפענחו את הודעות NMEA שנקראו מחיישן ה-GPS על ידי ה-Wio Terminal, ותוציאו את קווי הרוחב והאורך.

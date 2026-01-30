@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "271dcd720357806934b2f0d94e19410e",
-  "translation_date": "2026-01-06T10:16:16+00:00",
-  "source_file": "docs/troubleshooting.md",
-  "language_code": "vi"
-}
--->
 # Hướng Dẫn Khắc Phục Sự Cố Raspberry Pi
 
 Hướng dẫn này cung cấp giải pháp cho các sự cố phổ biến gặp phải khi chạy các dự án IoT trên thiết bị Raspberry Pi.  

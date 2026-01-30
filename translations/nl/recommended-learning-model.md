@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "012bbd19f13171be32ac9ba21d4186c2",
-  "translation_date": "2025-08-27T20:18:39+00:00",
-  "source_file": "recommended-learning-model.md",
-  "language_code": "nl"
-}
--->
 # Aanbevolen leermodel
 
 Voor de meest effectieve leerresultaten **raden we een “Flipped Model"-aanpak aan**, vergelijkbaar met wetenschapslabs: studenten werken aan projecten tijdens de les, met mogelijkheden voor discussie, vragen en projectondersteuning, en doen de lezingen als zelfstudie in hun eigen tijd.

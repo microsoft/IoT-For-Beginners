@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "4fb20273d299dc8d07a8f06c9cd0cdd9",
-  "translation_date": "2025-08-27T21:24:13+00:00",
-  "source_file": "2-farm/lessons/2-detect-soil-moisture/README.md",
-  "language_code": "he"
-}
--->
 C, מבוטא *איי בריבוע סי*, הוא פרוטוקול רב-בקר ורב-היקפי, שבו כל מכשיר מחובר יכול לשמש כבקר או כהיקף שמתקשר דרך אוטובוס ה-I²C (השם למערכת תקשורת שמעבירה נתונים). נתונים נשלחים כקבוצות ממוענות, כאשר כל קבוצה מכילה את כתובת המכשיר המחובר שאליו היא מיועדת.
 
 > 💁 מודל זה היה מכונה בעבר מאסטר/סלייב, אך מונח זה נזנח בשל הקשר שלו לעבדות. [האגודה לחומרה בקוד פתוח אימצה את המונחים בקר/היקף](https://www.oshwa.org/a-resolution-to-redefine-spi-signal-names/), אך ייתכן שעדיין תיתקלו בהתייחסויות למונחים הישנים.

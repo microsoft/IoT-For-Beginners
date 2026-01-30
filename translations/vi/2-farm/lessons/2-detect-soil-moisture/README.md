@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "4fb20273d299dc8d07a8f06c9cd0cdd9",
-  "translation_date": "2025-08-27T21:48:00+00:00",
-  "source_file": "2-farm/lessons/2-detect-soil-moisture/README.md",
-  "language_code": "vi"
-}
--->
 C, phát âm là *I-squared-C*, là một giao thức đa bộ điều khiển, đa thiết bị ngoại vi, trong đó bất kỳ thiết bị nào được kết nối đều có thể hoạt động như một bộ điều khiển hoặc thiết bị ngoại vi giao tiếp qua bus I²C (tên gọi của hệ thống truyền dữ liệu). Dữ liệu được gửi dưới dạng các gói địa chỉ, mỗi gói chứa địa chỉ của thiết bị được kết nối mà nó hướng đến.
 
 > 💁 Mô hình này trước đây được gọi là master/slave, nhưng thuật ngữ này đang bị loại bỏ do liên quan đến chế độ nô lệ. [Hiệp hội Phần cứng Mã nguồn Mở đã áp dụng thuật ngữ controller/peripheral](https://www.oshwa.org/a-resolution-to-redefine-spi-signal-names/), nhưng bạn vẫn có thể thấy các tài liệu tham khảo đến thuật ngữ cũ.

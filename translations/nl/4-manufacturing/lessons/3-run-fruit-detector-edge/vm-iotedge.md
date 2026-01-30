@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "24dc783a600e20251211987b36370e93",
-  "translation_date": "2025-08-27T20:51:26+00:00",
-  "source_file": "4-manufacturing/lessons/3-run-fruit-detector-edge/vm-iotedge.md",
-  "language_code": "nl"
-}
--->
 # Een virtuele machine maken met IoT Edge
 
 In Azure kun je een virtuele machine maken - een computer in de cloud die je naar wens kunt configureren en waarop je je eigen software kunt draaien.

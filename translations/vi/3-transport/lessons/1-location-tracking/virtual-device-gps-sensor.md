@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "64f18a8f8aaa1fef5e7320e0992d8b3a",
-  "translation_date": "2025-08-27T23:40:17+00:00",
-  "source_file": "3-transport/lessons/1-location-tracking/virtual-device-gps-sensor.md",
-  "language_code": "vi"
-}
--->
 # Đọc dữ liệu GPS - Phần cứng IoT ảo
 
 Trong phần này của bài học, bạn sẽ thêm cảm biến GPS vào thiết bị IoT ảo của mình và đọc các giá trị từ nó.

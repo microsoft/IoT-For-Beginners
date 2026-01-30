@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "8587f83cfded1bfab99fda4022f4df89",
-  "translation_date": "2025-08-27T20:37:03+00:00",
-  "source_file": "SECURITY.md",
-  "language_code": "vi"
-}
--->
 # Bảo mật
 
 Microsoft coi trọng vấn đề bảo mật của các sản phẩm và dịch vụ phần mềm của mình, bao gồm tất cả các kho mã nguồn được quản lý thông qua các tổ chức GitHub của chúng tôi, bao gồm [Microsoft](https://github.com/Microsoft), [Azure](https://github.com/Azure), [DotNet](https://github.com/dotnet), [AspNet](https://github.com/aspnet), [Xamarin](https://github.com/xamarin), và [các tổ chức GitHub của chúng tôi](https://opensource.microsoft.com/).

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "e978534a245b000725ed2a048f943213",
-  "translation_date": "2025-08-27T22:44:25+00:00",
-  "source_file": "3-transport/README.md",
-  "language_code": "nl"
-}
--->
 # Transport van boerderij naar fabriek - gebruik van IoT om voedselbezorgingen te volgen
 
 Veel boeren verbouwen voedsel om te verkopen - of ze nu commerciële boeren zijn die alles wat ze verbouwen verkopen, of zelfvoorzienende boeren die hun overtollige producten verkopen om in hun basisbehoeften te voorzien. Op de een of andere manier moet het voedsel van de boerderij naar de consument worden gebracht, en dit gebeurt meestal via bulktransport van boerderijen naar hubs of verwerkingsfabrieken, en vervolgens naar winkels. Bijvoorbeeld, een tomatenboer oogst tomaten, verpakt ze in dozen, laadt de dozen in een vrachtwagen en levert ze af bij een verwerkingsfabriek. De tomaten worden daar gesorteerd en vervolgens geleverd aan consumenten in de vorm van verwerkt voedsel, detailhandel of consumptie in restaurants.

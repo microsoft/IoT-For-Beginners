@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "9c4320311c0f2c1884a6a21265d98a51",
-  "translation_date": "2025-08-27T20:31:22+00:00",
-  "source_file": "5-retail/lessons/2-check-stock-device/single-board-computer-count-stock.md",
-  "language_code": "he"
-}
--->
 # ספירת מלאי ממכשיר IoT שלך - חומרה וירטואלית של IoT ו-Raspberry Pi
 
 שילוב של התחזיות ותיבות הגבול שלהן יכול לשמש לספירת מלאי בתמונה.

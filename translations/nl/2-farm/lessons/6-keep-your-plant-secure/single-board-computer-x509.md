@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "9aea84bcc7520222b0e1c50469d62d6a",
-  "translation_date": "2025-08-27T21:38:44+00:00",
-  "source_file": "2-farm/lessons/6-keep-your-plant-secure/single-board-computer-x509.md",
-  "language_code": "nl"
-}
--->
 # Gebruik het X.509-certificaat in je apparaatcode - Virtuele IoT-hardware en Raspberry Pi
 
 In dit deel van de les verbind je je virtuele IoT-apparaat of Raspberry Pi met je IoT Hub met behulp van het X.509-certificaat.

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "4bcc29fe2b65e56eada83d2476279227",
-  "translation_date": "2025-08-27T22:20:12+00:00",
-  "source_file": "1-getting-started/lessons/4-connect-internet/wio-terminal-telemetry.md",
-  "language_code": "vi"
-}
--->
 # Điều khiển đèn ngủ qua Internet - Wio Terminal
 
 Trong phần này của bài học, bạn sẽ gửi dữ liệu đo lường ánh sáng từ Wio Terminal của mình đến MQTT broker.

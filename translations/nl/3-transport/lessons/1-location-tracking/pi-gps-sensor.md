@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "3b2448c7ab4e9673e77e35a50c5e350d",
-  "translation_date": "2025-08-27T22:55:25+00:00",
-  "source_file": "3-transport/lessons/1-location-tracking/pi-gps-sensor.md",
-  "language_code": "nl"
-}
--->
 # Lees GPS-gegevens - Raspberry Pi
 
 In dit deel van de les voeg je een GPS-sensor toe aan je Raspberry Pi en lees je waarden ervan uit.

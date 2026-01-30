@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "d6faf0e8d3c2d6d20c0aef2a305dab18",
-  "translation_date": "2025-08-27T21:47:51+00:00",
-  "source_file": "1-getting-started/lessons/4-connect-internet/wio-terminal-mqtt.md",
-  "language_code": "he"
-}
--->
 # שלוט באור הלילה שלך דרך האינטרנט - Wio Terminal
 
 מכשיר ה-IoT צריך להיות מתוכנת לתקשר עם *test.mosquitto.org* באמצעות MQTT כדי לשלוח ערכי טלמטריה עם קריאת חיישן האור, ולקבל פקודות לשליטה בנורית ה-LED.

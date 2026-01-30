@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "1226517aae5f5b6f904434670394c688",
-  "translation_date": "2025-08-27T22:13:57+00:00",
-  "source_file": "1-getting-started/lessons/4-connect-internet/single-board-computer-telemetry.md",
-  "language_code": "vi"
-}
--->
 # Điều khiển đèn ngủ qua Internet - Phần cứng IoT ảo và Raspberry Pi
 
 Trong phần này của bài học, bạn sẽ gửi dữ liệu đo lường với mức độ ánh sáng từ Raspberry Pi hoặc thiết bị IoT ảo của mình đến một MQTT broker.

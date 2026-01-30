@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "c0550b254b9ba2539baf1e6bb5fc05f8",
-  "translation_date": "2025-08-27T22:36:39+00:00",
-  "source_file": "6-consumer/lessons/1-speech-recognition/virtual-device-speech-to-text.md",
-  "language_code": "nl"
-}
--->
 # Spraak naar tekst - Virtueel IoT-apparaat
 
 In dit deel van de les schrijf je code om spraak die via je microfoon wordt opgevangen om te zetten naar tekst met behulp van de spraakservice.

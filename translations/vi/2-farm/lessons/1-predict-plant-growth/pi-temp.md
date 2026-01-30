@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "7678f7c67b97ee52d5727496dcd7d346",
-  "translation_date": "2025-08-27T21:30:35+00:00",
-  "source_file": "2-farm/lessons/1-predict-plant-growth/pi-temp.md",
-  "language_code": "vi"
-}
--->
 # Đo nhiệt độ - Raspberry Pi
 
 Trong phần này của bài học, bạn sẽ thêm một cảm biến nhiệt độ vào Raspberry Pi của mình.

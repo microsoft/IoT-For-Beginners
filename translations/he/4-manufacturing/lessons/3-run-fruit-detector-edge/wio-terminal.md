@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "48ac21ec80329c930db7b84bd6b592ec",
-  "translation_date": "2025-08-27T20:52:19+00:00",
-  "source_file": "4-manufacturing/lessons/3-run-fruit-detector-edge/wio-terminal.md",
-  "language_code": "he"
-}
--->
 # סיווג תמונה באמצעות מסווג תמונות מבוסס IoT Edge - Wio Terminal
 
 בחלק זה של השיעור, תשתמשו במסווג התמונות שפועל על מכשיר ה-IoT Edge.

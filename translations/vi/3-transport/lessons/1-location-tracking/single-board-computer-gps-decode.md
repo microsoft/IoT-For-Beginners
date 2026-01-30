@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "cbb8c285bc64c5192fae3368fb5077d2",
-  "translation_date": "2025-08-27T23:45:36+00:00",
-  "source_file": "3-transport/lessons/1-location-tracking/single-board-computer-gps-decode.md",
-  "language_code": "vi"
-}
--->
 # Giải mã dữ liệu GPS - Phần cứng IoT Ảo và Raspberry Pi
 
 Trong phần này của bài học, bạn sẽ giải mã các thông điệp NMEA được đọc từ cảm biến GPS bởi Raspberry Pi hoặc Thiết bị IoT Ảo, và trích xuất vĩ độ và kinh độ.

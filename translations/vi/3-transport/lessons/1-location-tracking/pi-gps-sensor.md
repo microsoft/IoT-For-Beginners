@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "3b2448c7ab4e9673e77e35a50c5e350d",
-  "translation_date": "2025-08-27T23:46:14+00:00",
-  "source_file": "3-transport/lessons/1-location-tracking/pi-gps-sensor.md",
-  "language_code": "vi"
-}
--->
 # Đọc dữ liệu GPS - Raspberry Pi
 
 Trong phần này của bài học, bạn sẽ thêm một cảm biến GPS vào Raspberry Pi và đọc các giá trị từ nó.

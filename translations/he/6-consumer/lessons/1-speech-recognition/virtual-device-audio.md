@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "e4f2925acb211765889c3b51b9116ceb",
-  "translation_date": "2025-08-27T22:43:53+00:00",
-  "source_file": "6-consumer/lessons/1-speech-recognition/virtual-device-audio.md",
-  "language_code": "he"
-}
--->
 # לכידת שמע - מכשיר IoT וירטואלי
 
 ספריות ה-Python שבהן תשתמשו בהמשך השיעור כדי להמיר דיבור לטקסט כוללות לכידת שמע מובנית ב-Windows, macOS ו-Linux. אין צורך לעשות כאן שום דבר.

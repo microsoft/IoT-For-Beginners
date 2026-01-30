@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "fbbcf96a9b63ccd661db98bbf854bb06",
-  "translation_date": "2025-08-27T22:56:18+00:00",
-  "source_file": "3-transport/lessons/1-location-tracking/wio-terminal-gps-decode.md",
-  "language_code": "nl"
-}
--->
 # Decode GPS-gegevens - Wio Terminal
 
 In dit deel van de les decodeer je de NMEA-berichten die door de GPS-sensor van de Wio Terminal worden gelezen en haal je de breedte- en lengtegraad eruit.

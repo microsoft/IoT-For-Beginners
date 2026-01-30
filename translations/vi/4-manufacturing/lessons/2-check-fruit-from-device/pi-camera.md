@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "c677667095f6133eee418c7e53615d05",
-  "translation_date": "2025-08-27T20:58:30+00:00",
-  "source_file": "4-manufacturing/lessons/2-check-fruit-from-device/pi-camera.md",
-  "language_code": "vi"
-}
--->
 # Chụp ảnh - Raspberry Pi
 
 Trong phần này của bài học, bạn sẽ thêm cảm biến camera vào Raspberry Pi và đọc hình ảnh từ nó.

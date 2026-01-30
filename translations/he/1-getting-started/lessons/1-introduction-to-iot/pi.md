@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "8ff0d0a1d29832bb896b9c103b69a452",
-  "translation_date": "2025-08-27T22:05:10+00:00",
-  "source_file": "1-getting-started/lessons/1-introduction-to-iot/pi.md",
-  "language_code": "he"
-}
--->
 # רספברי פאי
 
 ה-[Raspberry Pi](https://raspberrypi.org) הוא מחשב חד-לוח. ניתן להוסיף חיישנים ומפעילים באמצעות מגוון רחב של מכשירים ואקוסיסטמות, ובשיעורים אלו נעשה שימוש באקוסיסטמה חומרתית בשם [Grove](https://www.seeedstudio.com/category/Grove-c-1003.html). תכתבו קוד עבור ה-Pi ותיגשו לחיישני Grove באמצעות Python.

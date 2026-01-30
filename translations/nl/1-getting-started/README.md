@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "e2b1b891b08ef7633d285547fbe73290",
-  "translation_date": "2025-08-27T21:40:03+00:00",
-  "source_file": "1-getting-started/README.md",
-  "language_code": "nl"
-}
--->
 # Aan de slag met IoT
 
 In dit deel van de cursus maak je kennis met het Internet of Things en leer je de basisconcepten, waaronder het bouwen van je eerste 'Hello World'-IoT-project dat verbinding maakt met de cloud. Dit project is een nachtlampje dat oplicht wanneer de lichtniveaus, gemeten door een sensor, afnemen.

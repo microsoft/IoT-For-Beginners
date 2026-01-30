@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "64ad4ddb4de81a18b7252e968f10b404",
-  "translation_date": "2025-08-27T23:08:35+00:00",
-  "source_file": "6-consumer/lessons/3-spoken-feedback/single-board-computer-set-timer.md",
-  "language_code": "vi"
-}
--->
 # Đặt hẹn giờ - Phần cứng IoT ảo và Raspberry Pi
 
 Trong phần này của bài học, bạn sẽ gọi mã serverless của mình để hiểu giọng nói và đặt hẹn giờ trên thiết bị IoT ảo hoặc Raspberry Pi dựa trên kết quả.

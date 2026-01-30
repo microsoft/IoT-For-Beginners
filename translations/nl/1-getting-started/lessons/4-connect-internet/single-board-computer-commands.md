@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "c527ce85d69b1a3875366ec61cbed8aa",
-  "translation_date": "2025-08-27T21:40:29+00:00",
-  "source_file": "1-getting-started/lessons/4-connect-internet/single-board-computer-commands.md",
-  "language_code": "nl"
-}
--->
 # Bedien je nachtlampje via het internet - Virtuele IoT-hardware en Raspberry Pi
 
 In dit deel van de les leer je hoe je commando's kunt ontvangen die via een MQTT-broker naar je Raspberry Pi of virtuele IoT-apparaat worden gestuurd.

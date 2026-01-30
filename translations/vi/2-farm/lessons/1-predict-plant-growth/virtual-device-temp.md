@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "70e5a428b607cd5a9a4f422c2a4df03d",
-  "translation_date": "2025-08-27T21:29:21+00:00",
-  "source_file": "2-farm/lessons/1-predict-plant-growth/virtual-device-temp.md",
-  "language_code": "vi"
-}
--->
 # Đo nhiệt độ - Phần cứng IoT ảo
 
 Trong phần này của bài học, bạn sẽ thêm một cảm biến nhiệt độ vào thiết bị IoT ảo của mình.

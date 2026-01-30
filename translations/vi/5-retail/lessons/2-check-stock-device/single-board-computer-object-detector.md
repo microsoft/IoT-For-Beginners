@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "a3fdfec1d1e2cb645ea11c2930b51299",
-  "translation_date": "2025-08-27T20:39:22+00:00",
-  "source_file": "5-retail/lessons/2-check-stock-device/single-board-computer-object-detector.md",
-  "language_code": "vi"
-}
--->
 # Gọi trình phát hiện đối tượng từ thiết bị IoT của bạn - Phần cứng IoT ảo và Raspberry Pi
 
 Khi trình phát hiện đối tượng của bạn đã được xuất bản, nó có thể được sử dụng từ thiết bị IoT của bạn.

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "2a459ea9177fb0508ca96068ae1009d2",
-  "translation_date": "2025-08-27T23:58:22+00:00",
-  "source_file": "quiz-app/README.md",
-  "language_code": "vi"
-}
--->
 # Câu hỏi trắc nghiệm
 
 Các câu hỏi trắc nghiệm này là bài kiểm tra trước và sau bài giảng trong chương trình học IoT for Beginners tại https://aka.ms/iot-beginners

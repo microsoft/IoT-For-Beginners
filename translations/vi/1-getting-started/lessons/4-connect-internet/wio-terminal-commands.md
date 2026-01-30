@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "6754c915dae64ba70fcd5e52c37f3adf",
-  "translation_date": "2025-08-27T22:23:35+00:00",
-  "source_file": "1-getting-started/lessons/4-connect-internet/wio-terminal-commands.md",
-  "language_code": "vi"
-}
--->
 # Điều khiển đèn ngủ qua Internet - Wio Terminal
 
 Trong phần này của bài học, bạn sẽ đăng ký nhận các lệnh được gửi từ một MQTT broker đến Wio Terminal của bạn.

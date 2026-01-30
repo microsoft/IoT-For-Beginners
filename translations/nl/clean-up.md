@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "5a94fbab1ba737e9bd6cc6c64f114fa0",
-  "translation_date": "2025-08-27T20:23:12+00:00",
-  "source_file": "clean-up.md",
-  "language_code": "nl"
-}
--->
 # Ruim je project op
 
 Nadat je elk project hebt afgerond, is het verstandig om je cloudresources te verwijderen.

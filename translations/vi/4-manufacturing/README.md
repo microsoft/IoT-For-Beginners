@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "3764e089adf2d5801272bc0895f8498b",
-  "translation_date": "2025-08-27T20:50:12+00:00",
-  "source_file": "4-manufacturing/README.md",
-  "language_code": "vi"
-}
--->
 # Sản xuất và chế biến - sử dụng IoT để cải thiện quy trình chế biến thực phẩm
 
 Khi thực phẩm đến trung tâm hoặc nhà máy chế biến, không phải lúc nào cũng được chuyển thẳng đến siêu thị. Thường thì thực phẩm sẽ trải qua một số bước chế biến, chẳng hạn như phân loại theo chất lượng. Đây là một quy trình từng được thực hiện thủ công - bắt đầu từ cánh đồng khi người thu hoạch chỉ chọn những trái cây chín, sau đó tại nhà máy, trái cây sẽ di chuyển trên băng chuyền và nhân viên sẽ loại bỏ thủ công những trái bị dập hoặc hỏng. Từng có kinh nghiệm hái và phân loại dâu tây như một công việc mùa hè khi còn đi học, tôi có thể khẳng định rằng đây không phải là một công việc thú vị.

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "8ff0d0a1d29832bb896b9c103b69a452",
-  "translation_date": "2025-08-27T22:04:20+00:00",
-  "source_file": "1-getting-started/lessons/1-introduction-to-iot/pi.md",
-  "language_code": "nl"
-}
--->
 # Raspberry Pi
 
 De [Raspberry Pi](https://raspberrypi.org) is een single-board computer. Je kunt sensoren en actuatoren toevoegen met behulp van een breed scala aan apparaten en ecosystemen, en voor deze lessen gebruik je een hardware-ecosysteem genaamd [Grove](https://www.seeedstudio.com/category/Grove-c-1003.html). Je programmeert je Pi en hebt toegang tot de Grove-sensoren met Python.

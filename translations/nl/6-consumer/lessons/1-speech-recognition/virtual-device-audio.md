@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "e4f2925acb211765889c3b51b9116ceb",
-  "translation_date": "2025-08-27T22:43:48+00:00",
-  "source_file": "6-consumer/lessons/1-speech-recognition/virtual-device-audio.md",
-  "language_code": "nl"
-}
--->
 # Audio vastleggen - Virtueel IoT-apparaat
 
 De Python-bibliotheken die je later in deze les zult gebruiken om spraak om te zetten naar tekst, hebben ingebouwde audio-opnamefunctionaliteit op Windows, macOS en Linux. Je hoeft hier niets te doen.

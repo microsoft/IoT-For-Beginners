@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "0ac0afcfb40cb5970ef4cb74f01c32e9",
-  "translation_date": "2025-08-27T22:32:35+00:00",
-  "source_file": "6-consumer/lessons/1-speech-recognition/pi-audio.md",
-  "language_code": "nl"
-}
--->
 # Audio opnemen - Raspberry Pi
 
 In dit deel van de les ga je code schrijven om audio op te nemen met je Raspberry Pi. De audio-opname wordt bediend met een knop.

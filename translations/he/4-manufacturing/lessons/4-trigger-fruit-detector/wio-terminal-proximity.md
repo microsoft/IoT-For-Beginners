@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "288aebb0c59f7be1d2719b8f9660a313",
-  "translation_date": "2025-08-27T20:57:22+00:00",
-  "source_file": "4-manufacturing/lessons/4-trigger-fruit-detector/wio-terminal-proximity.md",
-  "language_code": "he"
-}
--->
 # זיהוי קרבה - Wio Terminal
 
 בחלק זה של השיעור, תוסיף חיישן קרבה ל-Wio Terminal שלך ותמדוד מרחק באמצעותו.

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "2bf65f162bcebd35fbcba5fd245afac4",
-  "translation_date": "2025-08-27T21:55:27+00:00",
-  "source_file": "2-farm/lessons/2-detect-soil-moisture/virtual-device-soil-moisture.md",
-  "language_code": "vi"
-}
--->
 # Đo độ ẩm đất - Phần cứng IoT ảo
 
 Trong phần này của bài học, bạn sẽ thêm cảm biến độ ẩm đất điện dung vào thiết bị IoT ảo của mình và đọc giá trị từ nó.

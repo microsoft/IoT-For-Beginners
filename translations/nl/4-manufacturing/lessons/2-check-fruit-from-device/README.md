@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "557f4ee96b752e0651d2e6e74aa6bd14",
-  "translation_date": "2025-08-27T20:39:28+00:00",
-  "source_file": "4-manufacturing/lessons/2-check-fruit-from-device/README.md",
-  "language_code": "nl"
-}
--->
 # Controleer de kwaliteit van fruit met een IoT-apparaat
 
 ![Een schetsnotitie-overzicht van deze les](../../../../../translated_images/nl/lesson-16.215daf18b00631fbdfd64c6fc2dc6044dff5d544288825d8076f9fb83d964c23.jpg)

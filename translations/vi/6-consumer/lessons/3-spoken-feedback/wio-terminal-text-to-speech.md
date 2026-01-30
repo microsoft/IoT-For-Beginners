@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "a202fa5889790a3777bfc33dd9f4b459",
-  "translation_date": "2025-08-27T23:14:20+00:00",
-  "source_file": "6-consumer/lessons/3-spoken-feedback/wio-terminal-text-to-speech.md",
-  "language_code": "vi"
-}
--->
 # Chuyển đổi văn bản thành giọng nói - Wio Terminal
 
 Trong phần này của bài học, bạn sẽ chuyển đổi văn bản thành giọng nói để cung cấp phản hồi bằng lời nói.

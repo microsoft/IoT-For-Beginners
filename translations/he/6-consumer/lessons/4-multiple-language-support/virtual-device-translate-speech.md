@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "d620a470d9dd8614d99824832978360a",
-  "translation_date": "2025-08-27T22:18:29+00:00",
-  "source_file": "6-consumer/lessons/4-multiple-language-support/virtual-device-translate-speech.md",
-  "language_code": "he"
-}
--->
 # תרגום דיבור - התקן IoT וירטואלי
 
 בחלק זה של השיעור, תכתבו קוד לתרגום דיבור בעת המרתו לטקסט באמצעות שירות הדיבור, ולאחר מכן תתרגמו את הטקסט באמצעות שירות התרגום לפני יצירת תגובה מדוברת.

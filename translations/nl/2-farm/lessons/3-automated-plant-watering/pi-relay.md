@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "66b81165e60f8f169bd52a401b6a0f8b",
-  "translation_date": "2025-08-27T21:13:51+00:00",
-  "source_file": "2-farm/lessons/3-automated-plant-watering/pi-relay.md",
-  "language_code": "nl"
-}
--->
 # Een relais bedienen - Raspberry Pi
 
 In dit deel van de les voeg je een relais toe aan je Raspberry Pi, naast de bodemvochtigheidssensor, en bedien je het relais op basis van het bodemvochtigheidsniveau.

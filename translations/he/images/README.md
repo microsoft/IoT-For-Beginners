@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "50abd54997afa7e7a3fc7019379e49e3",
-  "translation_date": "2025-08-27T20:26:12+00:00",
-  "source_file": "images/README.md",
-  "language_code": "he"
-}
--->
 # תמונות
 
 התמונות בתיקיית [icons](../../../images/icons) נלקחו מ-[Noun Project](https://thenounproject.com) ודורשות מתן קרדיט. כל תמונה מציינת את הקרדיט הנדרש. יש להשתמש בתמונות אלו בכל תרשים שזקוק להן כדי לשמור על אחידות ויזואלית.

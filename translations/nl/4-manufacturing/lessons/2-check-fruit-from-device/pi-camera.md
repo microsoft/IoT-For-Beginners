@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "c677667095f6133eee418c7e53615d05",
-  "translation_date": "2025-08-27T20:41:17+00:00",
-  "source_file": "4-manufacturing/lessons/2-check-fruit-from-device/pi-camera.md",
-  "language_code": "nl"
-}
--->
 # Een afbeelding vastleggen - Raspberry Pi
 
 In dit deel van de les voeg je een camerasensor toe aan je Raspberry Pi en lees je afbeeldingen ervan uit.

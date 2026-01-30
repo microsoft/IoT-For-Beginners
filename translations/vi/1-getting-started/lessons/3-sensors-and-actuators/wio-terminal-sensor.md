@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "7f4ad0ef54f248b85b92187c94cf9dcb",
-  "translation_date": "2025-08-27T22:35:05+00:00",
-  "source_file": "1-getting-started/lessons/3-sensors-and-actuators/wio-terminal-sensor.md",
-  "language_code": "vi"
-}
--->
 # Thêm cảm biến - Wio Terminal
 
 Trong phần này của bài học, bạn sẽ sử dụng cảm biến ánh sáng trên Wio Terminal.

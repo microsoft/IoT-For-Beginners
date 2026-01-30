@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "9713e21a309662f6fcb271b573d47848",
-  "translation_date": "2026-01-06T10:05:25+00:00",
-  "source_file": "TROUBLESHOOTING.md",
-  "language_code": "he"
-}
--->
 # מדריך פתרון בעיות
 
 מדריך זה מסייע לך לפתור בעיות נפוצות בעבודה עם תכנית הלימודים IoT למתחילים. הבעיות מאורגנות לפי קטגוריות לנוחות הניווט.

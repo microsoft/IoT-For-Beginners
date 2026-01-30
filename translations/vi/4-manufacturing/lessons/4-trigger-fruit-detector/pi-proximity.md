@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "6145a1d791731c8a9d0afd0a1bae5108",
-  "translation_date": "2025-08-27T21:19:08+00:00",
-  "source_file": "4-manufacturing/lessons/4-trigger-fruit-detector/pi-proximity.md",
-  "language_code": "vi"
-}
--->
 # Phát hiện khoảng cách gần - Raspberry Pi
 
 Trong phần này của bài học, bạn sẽ thêm một cảm biến khoảng cách vào Raspberry Pi và đọc khoảng cách từ nó.

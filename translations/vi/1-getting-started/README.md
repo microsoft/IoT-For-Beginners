@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "e2b1b891b08ef7633d285547fbe73290",
-  "translation_date": "2025-08-27T22:12:50+00:00",
-  "source_file": "1-getting-started/README.md",
-  "language_code": "vi"
-}
--->
 # Bắt đầu với IoT
 
 Trong phần này của chương trình học, bạn sẽ được giới thiệu về Internet of Things và tìm hiểu các khái niệm cơ bản, bao gồm việc xây dựng dự án IoT 'Hello World' đầu tiên kết nối với đám mây. Dự án này là một chiếc đèn ngủ tự động sáng lên khi mức ánh sáng đo được bởi cảm biến giảm xuống.

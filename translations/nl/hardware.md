@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "3dce18fab38adf93ff30b8c221b1eec5",
-  "translation_date": "2025-08-27T20:24:13+00:00",
-  "source_file": "hardware.md",
-  "language_code": "nl"
-}
--->
 # Hardware
 
 De **T** in IoT staat voor **Things** en verwijst naar apparaten die interactie hebben met de wereld om ons heen. Elk project is gebaseerd op fysieke hardware die beschikbaar is voor studenten en hobbyisten. We hebben twee keuzes voor IoT-hardware, afhankelijk van persoonlijke voorkeur, programmeertaalkennis of voorkeuren, leerdoelen en beschikbaarheid. Daarnaast hebben we een 'virtuele hardware'-versie beschikbaar gesteld voor degenen die geen toegang hebben tot hardware, of meer willen leren voordat ze een aankoop doen.

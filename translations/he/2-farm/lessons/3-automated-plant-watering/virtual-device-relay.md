@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "f8f541ee945545017a51aaf309aa37c3",
-  "translation_date": "2025-08-27T21:14:51+00:00",
-  "source_file": "2-farm/lessons/3-automated-plant-watering/virtual-device-relay.md",
-  "language_code": "he"
-}
--->
 # שליטה בממסר - חומרה וירטואלית לאינטרנט של הדברים
 
 בחלק זה של השיעור, תוסיפו ממסר למכשיר האינטרנט של הדברים הווירטואלי שלכם בנוסף לחיישן לחות הקרקע, ותשלבו אותו בהתאם לרמת לחות הקרקע.

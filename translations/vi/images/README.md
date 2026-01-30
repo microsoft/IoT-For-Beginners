@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "50abd54997afa7e7a3fc7019379e49e3",
-  "translation_date": "2025-08-27T20:38:27+00:00",
-  "source_file": "images/README.md",
-  "language_code": "vi"
-}
--->
 # Hình ảnh
 
 Các hình ảnh trong thư mục [icons](../../../images/icons) được lấy từ [Noun Project](https://thenounproject.com) và yêu cầu ghi nguồn. Mỗi hình ảnh đều liệt kê thông tin ghi nguồn cần thiết. Những hình ảnh này nên được sử dụng cho bất kỳ sơ đồ nào cần chúng để đảm bảo tính nhất quán về hình ảnh.

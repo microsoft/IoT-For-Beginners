@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "11f10c6760fb8202cf368422702fdf70",
-  "translation_date": "2025-08-27T21:56:13+00:00",
-  "source_file": "1-getting-started/lessons/3-sensors-and-actuators/virtual-device-sensor.md",
-  "language_code": "he"
-}
--->
 # בנה מנורת לילה - חומרה וירטואלית לאינטרנט של הדברים (IoT)
 
 בחלק זה של השיעור, תוסיף חיישן אור למכשיר ה-IoT הווירטואלי שלך.

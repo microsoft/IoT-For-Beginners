@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "5a94fbab1ba737e9bd6cc6c64f114fa0",
-  "translation_date": "2025-08-27T20:33:59+00:00",
-  "source_file": "clean-up.md",
-  "language_code": "vi"
-}
--->
 # Dọn dẹp dự án của bạn
 
 Sau khi hoàn thành mỗi dự án, bạn nên xóa các tài nguyên đám mây của mình.

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "9c640f93263fd9adbfda920739e09feb",
-  "translation_date": "2025-08-27T21:54:58+00:00",
-  "source_file": "1-getting-started/lessons/3-sensors-and-actuators/virtual-device-actuator.md",
-  "language_code": "nl"
-}
--->
 # Bouw een nachtlampje - Virtuele IoT-hardware
 
 In dit deel van de les voeg je een LED toe aan je virtuele IoT-apparaat en gebruik je deze om een nachtlampje te maken.

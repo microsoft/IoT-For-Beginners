@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "32a1f23e7834fbe7715da8c4ebb450b9",
-  "translation_date": "2025-08-27T20:43:04+00:00",
-  "source_file": "4-manufacturing/lessons/2-check-fruit-from-device/wio-terminal-classify-image.md",
-  "language_code": "nl"
-}
--->
 # Classificeer een afbeelding - Wio Terminal
 
 In dit deel van de les stuur je de afbeelding die door de camera is vastgelegd naar de Custom Vision-service om deze te classificeren.

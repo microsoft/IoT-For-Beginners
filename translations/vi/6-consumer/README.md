@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "5de7dc1e2ddc402d415473bb795568d4",
-  "translation_date": "2025-08-27T22:54:51+00:00",
-  "source_file": "6-consumer/README.md",
-  "language_code": "vi"
-}
--->
 # IoT tiêu dùng - xây dựng trợ lý giọng nói thông minh
 
 Thực phẩm đã được trồng, vận chuyển đến nhà máy chế biến, phân loại chất lượng, bán tại cửa hàng và bây giờ là lúc để nấu ăn! Một trong những công cụ cốt lõi của bất kỳ nhà bếp nào là bộ hẹn giờ. Ban đầu, chúng được thiết kế như đồng hồ cát - thực phẩm của bạn được nấu chín khi toàn bộ cát chảy xuống bóng đèn dưới cùng. Sau đó, chúng chuyển sang cơ khí, rồi điện tử.

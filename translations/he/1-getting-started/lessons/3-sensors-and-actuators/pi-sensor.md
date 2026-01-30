@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "ea733bd0cdf2479e082373f765a08678",
-  "translation_date": "2025-08-27T21:49:21+00:00",
-  "source_file": "1-getting-started/lessons/3-sensors-and-actuators/pi-sensor.md",
-  "language_code": "he"
-}
--->
 # בנה מנורת לילה - Raspberry Pi
 
 בחלק זה של השיעור, תוסיף חיישן אור ל-Raspberry Pi שלך.

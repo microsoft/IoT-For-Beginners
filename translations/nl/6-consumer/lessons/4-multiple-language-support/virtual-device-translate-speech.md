@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "d620a470d9dd8614d99824832978360a",
-  "translation_date": "2025-08-27T22:18:03+00:00",
-  "source_file": "6-consumer/lessons/4-multiple-language-support/virtual-device-translate-speech.md",
-  "language_code": "nl"
-}
--->
 # Vertaal spraak - Virtueel IoT-apparaat
 
 In dit deel van de les schrijf je code om spraak te vertalen bij het omzetten naar tekst met behulp van de spraakservice, en vervolgens tekst te vertalen met de Translator-service voordat je een gesproken reactie genereert.

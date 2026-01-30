@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "db44083b4dc6fb06eac83c4f16448940",
-  "translation_date": "2025-08-27T21:54:14+00:00",
-  "source_file": "1-getting-started/lessons/3-sensors-and-actuators/wio-terminal-actuator.md",
-  "language_code": "nl"
-}
--->
 # Bouw een nachtlampje - Wio Terminal
 
 In dit deel van de les voeg je een LED toe aan je Wio Terminal en gebruik je deze om een nachtlampje te maken.

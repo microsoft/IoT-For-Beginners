@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "8587f83cfded1bfab99fda4022f4df89",
-  "translation_date": "2025-08-27T20:25:25+00:00",
-  "source_file": "SECURITY.md",
-  "language_code": "he"
-}
--->
 # אבטחה
 
 מיקרוסופט מתייחסת ברצינות לאבטחת מוצרי התוכנה והשירותים שלה, כולל כל מאגרי הקוד המקוריים המנוהלים דרך הארגונים שלנו ב-GitHub, הכוללים [Microsoft](https://github.com/Microsoft), [Azure](https://github.com/Azure), [DotNet](https://github.com/dotnet), [AspNet](https://github.com/aspnet), [Xamarin](https://github.com/xamarin), ו-[ארגוני GitHub שלנו](https://opensource.microsoft.com/).

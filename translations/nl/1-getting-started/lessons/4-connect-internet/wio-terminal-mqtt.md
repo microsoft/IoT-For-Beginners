@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "d6faf0e8d3c2d6d20c0aef2a305dab18",
-  "translation_date": "2025-08-27T21:47:29+00:00",
-  "source_file": "1-getting-started/lessons/4-connect-internet/wio-terminal-mqtt.md",
-  "language_code": "nl"
-}
--->
 # Bedien je nachtlampje via het internet - Wio Terminal
 
 Het IoT-apparaat moet worden geprogrammeerd om te communiceren met *test.mosquitto.org* via MQTT om telemetriegegevens te verzenden met de lichtsensorlezing en om opdrachten te ontvangen om de LED te bedienen.

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "90fb93446e03c38f3c0e4009c2471906",
-  "translation_date": "2025-08-27T22:21:21+00:00",
-  "source_file": "1-getting-started/lessons/4-connect-internet/single-board-computer-mqtt.md",
-  "language_code": "vi"
-}
--->
 # Điều khiển đèn ngủ qua Internet - Phần cứng IoT ảo và Raspberry Pi
 
 Thiết bị IoT cần được lập trình để giao tiếp với *test.mosquitto.org* bằng MQTT nhằm gửi các giá trị đo lường từ cảm biến ánh sáng và nhận lệnh để điều khiển đèn LED.

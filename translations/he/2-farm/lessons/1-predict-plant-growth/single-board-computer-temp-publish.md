@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "4efc74299e19f5d08f2f3f34451a11ba",
-  "translation_date": "2025-08-27T21:04:16+00:00",
-  "source_file": "2-farm/lessons/1-predict-plant-growth/single-board-computer-temp-publish.md",
-  "language_code": "he"
-}
--->
 # פרסום טמפרטורה - חומרה וירטואלית לאינטרנט של הדברים ו-Raspberry Pi
 
 בחלק זה של השיעור, תפרסמו את ערכי הטמפרטורה שזוהו על ידי ה-Raspberry Pi או מכשיר IoT וירטואלי באמצעות MQTT, כך שניתן יהיה להשתמש בהם מאוחר יותר לחישוב GDD.

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "5f2d2f4a5a023c93ab34a0cc5b47c0c4",
-  "translation_date": "2025-08-27T21:39:44+00:00",
-  "source_file": "2-farm/lessons/5-migrate-application-to-the-cloud/README.md",
-  "language_code": "vi"
-}
--->
 # Di chuyển logic ứng dụng của bạn lên đám mây
 
 ![Tóm tắt bài học bằng hình vẽ](../../../../../translated_images/vi/lesson-9.dfe99c8e891f48e179724520da9f5794392cf9a625079281ccdcbf09bd85e1b6.jpg)

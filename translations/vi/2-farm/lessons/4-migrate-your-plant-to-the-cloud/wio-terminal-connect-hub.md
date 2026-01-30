@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "28320305a35ea3bc59c41fe146a2e6ed",
-  "translation_date": "2025-08-27T22:04:39+00:00",
-  "source_file": "2-farm/lessons/4-migrate-your-plant-to-the-cloud/wio-terminal-connect-hub.md",
-  "language_code": "vi"
-}
--->
 # Kết nối thiết bị IoT của bạn với đám mây - Wio Terminal
 
 Trong phần này của bài học, bạn sẽ kết nối Wio Terminal của mình với IoT Hub để gửi dữ liệu đo lường và nhận lệnh.

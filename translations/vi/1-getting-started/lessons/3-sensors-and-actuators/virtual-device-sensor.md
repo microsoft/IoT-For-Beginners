@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "11f10c6760fb8202cf368422702fdf70",
-  "translation_date": "2025-08-27T22:34:04+00:00",
-  "source_file": "1-getting-started/lessons/3-sensors-and-actuators/virtual-device-sensor.md",
-  "language_code": "vi"
-}
--->
 # Xây dựng đèn ngủ - Phần cứng IoT ảo
 
 Trong phần này của bài học, bạn sẽ thêm một cảm biến ánh sáng vào thiết bị IoT ảo của mình.

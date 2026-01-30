@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "d6f80293fa9c213283eac7e79b078671",
-  "translation_date": "2025-08-27T20:37:50+00:00",
-  "source_file": "CONTRIBUTING.md",
-  "language_code": "vi"
-}
--->
 # Đóng góp
 
 Dự án này hoan nghênh các đóng góp và gợi ý. Hầu hết các đóng góp yêu cầu bạn đồng ý với Thỏa thuận Giấy phép Người đóng góp (CLA), xác nhận rằng bạn có quyền và thực sự cấp cho chúng tôi quyền sử dụng đóng góp của bạn. Để biết thêm chi tiết, hãy truy cập https://cla.microsoft.com.

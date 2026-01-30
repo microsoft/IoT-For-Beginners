@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "012b69d57d898d670adf61304f42a137",
-  "translation_date": "2025-08-27T22:27:08+00:00",
-  "source_file": "6-consumer/lessons/3-spoken-feedback/wio-terminal-set-timer.md",
-  "language_code": "he"
-}
--->
 # הגדרת טיימר - Wio Terminal
 
 בחלק זה של השיעור, תפעיל את הקוד חסר השרת שלך כדי להבין את הדיבור, ותגדיר טיימר ב-Wio Terminal שלך על בסיס התוצאות.

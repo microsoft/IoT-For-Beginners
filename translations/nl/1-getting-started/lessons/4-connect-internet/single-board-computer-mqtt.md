@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "90fb93446e03c38f3c0e4009c2471906",
-  "translation_date": "2025-08-27T21:46:34+00:00",
-  "source_file": "1-getting-started/lessons/4-connect-internet/single-board-computer-mqtt.md",
-  "language_code": "nl"
-}
--->
 # Beheer je nachtlampje via het internet - Virtuele IoT-hardware en Raspberry Pi
 
 Het IoT-apparaat moet worden geprogrammeerd om te communiceren met *test.mosquitto.org* via MQTT. Het apparaat stuurt telemetriegegevens met de lichtsensorwaarden en ontvangt opdrachten om de LED te bedienen.

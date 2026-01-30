@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "7f4ad0ef54f248b85b92187c94cf9dcb",
-  "translation_date": "2025-08-27T21:56:41+00:00",
-  "source_file": "1-getting-started/lessons/3-sensors-and-actuators/wio-terminal-sensor.md",
-  "language_code": "nl"
-}
--->
 # Een sensor toevoegen - Wio Terminal
 
 In dit deel van de les ga je de lichtsensor op je Wio Terminal gebruiken.

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "9713e21a309662f6fcb271b573d47848",
-  "translation_date": "2026-01-06T10:07:15+00:00",
-  "source_file": "TROUBLESHOOTING.md",
-  "language_code": "vi"
-}
--->
 # Hướng Dẫn Khắc Phục Sự Cố
 
 Hướng dẫn này giúp bạn giải quyết các vấn đề phổ biến khi làm việc với chương trình học IoT cho Người Mới Bắt Đầu. Các sự cố được tổ chức theo danh mục để dễ dàng điều hướng.

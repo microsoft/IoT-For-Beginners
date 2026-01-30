@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "90fb93446e03c38f3c0e4009c2471906",
-  "translation_date": "2025-08-27T21:46:46+00:00",
-  "source_file": "1-getting-started/lessons/4-connect-internet/single-board-computer-mqtt.md",
-  "language_code": "he"
-}
--->
 # שלוט בתאורת הלילה שלך דרך האינטרנט - חומרת IoT וירטואלית ו-Raspberry Pi
 
 מכשיר ה-IoT צריך להיות מתוכנת לתקשר עם *test.mosquitto.org* באמצעות MQTT כדי לשלוח ערכי טלמטריה עם קריאת חיישן האור, ולקבל פקודות לשליטה בנורת ה-LED.

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "7966848a1f870e4c42edb4db67b13c57",
-  "translation_date": "2025-08-27T23:17:21+00:00",
-  "source_file": "6-consumer/lessons/3-spoken-feedback/virtual-device-text-to-speech.md",
-  "language_code": "vi"
-}
--->
 # Chuyển văn bản thành giọng nói - Thiết bị IoT ảo
 
 Trong phần này của bài học, bạn sẽ viết mã để chuyển đổi văn bản thành giọng nói bằng dịch vụ giọng nói.

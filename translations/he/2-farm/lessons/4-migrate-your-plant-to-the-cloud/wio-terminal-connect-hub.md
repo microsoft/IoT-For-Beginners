@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "28320305a35ea3bc59c41fe146a2e6ed",
-  "translation_date": "2025-08-27T21:34:14+00:00",
-  "source_file": "2-farm/lessons/4-migrate-your-plant-to-the-cloud/wio-terminal-connect-hub.md",
-  "language_code": "he"
-}
--->
 # חבר את מכשיר ה-IoT שלך לענן - Wio Terminal
 
 בחלק זה של השיעור, תחבר את ה-Wio Terminal שלך ל-IoT Hub, כדי לשלוח טלמטריה ולקבל פקודות.

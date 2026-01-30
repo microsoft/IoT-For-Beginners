@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "f3c5d8afa2ef6a0b425ef8ff20615cb4",
-  "translation_date": "2025-08-27T21:13:05+00:00",
-  "source_file": "2-farm/lessons/3-automated-plant-watering/wio-terminal-relay.md",
-  "language_code": "nl"
-}
--->
 # Een relais bedienen - Wio Terminal
 
 In dit deel van de les voeg je een relais toe aan je Wio Terminal, naast de bodemvochtigheidssensor, en bedien je het relais op basis van het bodemvochtigheidsniveau.

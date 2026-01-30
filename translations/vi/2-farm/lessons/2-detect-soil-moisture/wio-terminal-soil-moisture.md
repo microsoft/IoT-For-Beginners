@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "0d55caa8c23d73635b7559102cd17b8a",
-  "translation_date": "2025-08-27T21:53:18+00:00",
-  "source_file": "2-farm/lessons/2-detect-soil-moisture/wio-terminal-soil-moisture.md",
-  "language_code": "vi"
-}
--->
 # Đo độ ẩm đất - Wio Terminal
 
 Trong phần này của bài học, bạn sẽ thêm một cảm biến độ ẩm đất điện dung vào Wio Terminal và đọc các giá trị từ nó.

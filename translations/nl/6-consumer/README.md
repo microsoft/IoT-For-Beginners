@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "5de7dc1e2ddc402d415473bb795568d4",
-  "translation_date": "2025-08-27T22:12:36+00:00",
-  "source_file": "6-consumer/README.md",
-  "language_code": "nl"
-}
--->
 # Consumenten-IoT - bouw een slimme spraakassistent
 
 Het eten is verbouwd, naar een verwerkingsfabriek gebracht, gecontroleerd op kwaliteit, verkocht in de winkel en nu is het tijd om te koken! Een van de belangrijkste onderdelen in elke keuken is een timer. Oorspronkelijk waren dit zandlopers - je eten was klaar wanneer al het zand naar de onderste bol was gezakt. Daarna kwamen mechanische timers, gevolgd door elektrische.

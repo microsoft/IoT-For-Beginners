@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "606f3af1c78e3741e48ce77c31cea626",
-  "translation_date": "2025-08-27T23:13:17+00:00",
-  "source_file": "6-consumer/lessons/3-spoken-feedback/pi-text-to-speech.md",
-  "language_code": "vi"
-}
--->
 # Chuyển đổi văn bản thành giọng nói - Raspberry Pi
 
 Trong phần này của bài học, bạn sẽ viết mã để chuyển đổi văn bản thành giọng nói bằng dịch vụ giọng nói.

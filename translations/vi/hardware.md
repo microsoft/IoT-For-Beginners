@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "3dce18fab38adf93ff30b8c221b1eec5",
-  "translation_date": "2025-08-27T20:34:54+00:00",
-  "source_file": "hardware.md",
-  "language_code": "vi"
-}
--->
 # Phần cứng
 
 **T** trong IoT là **Things** (Vật thể) và đề cập đến các thiết bị tương tác với thế giới xung quanh chúng ta. Mỗi dự án đều dựa trên phần cứng thực tế có sẵn cho học sinh và người đam mê. Chúng ta có hai lựa chọn phần cứng IoT tùy thuộc vào sở thích cá nhân, kiến thức hoặc sở thích về ngôn ngữ lập trình, mục tiêu học tập và khả năng tiếp cận. Chúng tôi cũng cung cấp một phiên bản 'phần cứng ảo' cho những ai không có phần cứng hoặc muốn tìm hiểu thêm trước khi quyết định mua.

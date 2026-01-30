@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "d105b44deae539165855c976dcdeca99",
-  "translation_date": "2025-08-27T21:22:41+00:00",
-  "source_file": "2-farm/lessons/1-predict-plant-growth/README.md",
-  "language_code": "vi"
-}
--->
     This code extracts the temperature from the telemetry message and gets the current date and time. It then opens the CSV file in append mode and writes a new row with the date and temperature.
 
 1. Run the server code and verify that the temperature data is being saved to the CSV file.

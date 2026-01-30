@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "af249a24d4fe4f4de4806adbc3bc9d86",
-  "translation_date": "2025-08-27T22:43:17+00:00",
-  "source_file": "6-consumer/lessons/1-speech-recognition/pi-speech-to-text.md",
-  "language_code": "nl"
-}
--->
 # Spraak naar tekst - Raspberry Pi
 
 In dit deel van de les schrijf je code om spraak in de opgenomen audio om te zetten naar tekst met behulp van de spraakservice.

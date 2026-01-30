@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "3ba7150ffc4a6999f6c3cfb4906ec7df",
-  "translation_date": "2025-08-27T20:44:23+00:00",
-  "source_file": "4-manufacturing/lessons/2-check-fruit-from-device/virtual-device-camera.md",
-  "language_code": "he"
-}
--->
 # לכידת תמונה - חומרה וירטואלית לאינטרנט של הדברים (IoT)
 
 בחלק זה של השיעור, תוסיפו חיישן מצלמה למכשיר ה-IoT הווירטואלי שלכם, ותקראו תמונות ממנו.

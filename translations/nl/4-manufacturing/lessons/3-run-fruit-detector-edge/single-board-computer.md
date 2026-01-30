@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "50151d9f9dce2801348a93880ef16d86",
-  "translation_date": "2025-08-27T20:52:39+00:00",
-  "source_file": "4-manufacturing/lessons/3-run-fruit-detector-edge/single-board-computer.md",
-  "language_code": "nl"
-}
--->
 # Classificeer een afbeelding met een IoT Edge-gebaseerde afbeeldingsclassifier - Virtuele IoT-hardware en Raspberry Pi
 
 In dit deel van de les ga je de Image Classifier gebruiken die draait op het IoT Edge-apparaat.

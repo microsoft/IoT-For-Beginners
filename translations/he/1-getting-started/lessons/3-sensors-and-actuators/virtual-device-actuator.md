@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "9c640f93263fd9adbfda920739e09feb",
-  "translation_date": "2025-08-27T21:55:17+00:00",
-  "source_file": "1-getting-started/lessons/3-sensors-and-actuators/virtual-device-actuator.md",
-  "language_code": "he"
-}
--->
 # בנה מנורת לילה - חומרה וירטואלית לאינטרנט של הדברים (IoT)
 
 בחלק זה של השיעור, תוסיף נורית LED למכשיר ה-IoT הווירטואלי שלך ותשתמש בה כדי ליצור מנורת לילה.

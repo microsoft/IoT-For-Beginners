@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "8a74f789f3c1bf41a13c007190360c19",
-  "translation_date": "2025-08-27T21:39:15+00:00",
-  "source_file": "2-farm/lessons/6-keep-your-plant-secure/wio-terminal-x509.md",
-  "language_code": "he"
-}
--->
 # שימוש בתעודת X.509 בקוד המכשיר שלך - Wio Terminal
 
 נכון למועד כתיבת המסמך, ערכת הפיתוח של Azure עבור Arduino אינה תומכת בתעודות X.509. אם ברצונך להתנסות בתעודות X.509, תוכל לעיין בהוראות [המכשיר הווירטואלי IoT באמצעות ערכת הפיתוח של Python](single-board-computer-x509.md)

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "22a1d6e49f2a689fe5bfa7802a7241fc",
-  "translation_date": "2025-08-27T20:38:51+00:00",
-  "source_file": "5-retail/README.md",
-  "language_code": "vi"
-}
--->
 # Bán lẻ - sử dụng IoT để quản lý mức tồn kho
 
 Giai đoạn cuối cùng trước khi thực phẩm đến tay người tiêu dùng là bán lẻ - các chợ, cửa hàng rau quả, siêu thị và cửa hàng bán sản phẩm cho người tiêu dùng. Những cửa hàng này muốn đảm bảo rằng họ có sản phẩm được bày trên kệ để người tiêu dùng nhìn thấy và mua.

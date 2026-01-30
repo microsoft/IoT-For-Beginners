@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "428bda82d9e6016ecea7c797564bf081",
-  "translation_date": "2025-08-27T20:58:34+00:00",
-  "source_file": "2-farm/README.md",
-  "language_code": "nl"
-}
--->
 # Boeren met IoT
 
 Naarmate de bevolking groeit, neemt ook de druk op de landbouw toe. De hoeveelheid beschikbare grond verandert niet, maar het klimaat wel - wat boeren nog meer uitdagingen geeft, vooral de 2 miljard [zelfvoorzienende boeren](https://wikipedia.org/wiki/Zelfvoorzienende_landbouw) die afhankelijk zijn van wat ze verbouwen om zichzelf en hun families te voeden. IoT kan boeren helpen slimmere beslissingen te nemen over wat te verbouwen en wanneer te oogsten, opbrengsten te verhogen, de hoeveelheid handarbeid te verminderen en plagen te detecteren en aan te pakken.

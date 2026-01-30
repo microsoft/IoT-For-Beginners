@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "df28cd649cd892bcce034e064913b2f3",
-  "translation_date": "2025-08-27T21:28:33+00:00",
-  "source_file": "2-farm/lessons/1-predict-plant-growth/wio-terminal-temp-publish.md",
-  "language_code": "vi"
-}
--->
 # Xuất bản nhiệt độ - Wio Terminal
 
 Trong phần này của bài học, bạn sẽ xuất bản giá trị nhiệt độ được Wio Terminal phát hiện qua MQTT để sau này có thể sử dụng để tính toán GDD.

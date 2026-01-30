@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "1226517aae5f5b6f904434670394c688",
-  "translation_date": "2025-08-27T21:40:58+00:00",
-  "source_file": "1-getting-started/lessons/4-connect-internet/single-board-computer-telemetry.md",
-  "language_code": "nl"
-}
--->
 # Bedien je nachtlampje via het internet - Virtuele IoT-hardware en Raspberry Pi
 
 In dit deel van de les stuur je telemetrie met lichtniveaus van je Raspberry Pi of virtuele IoT-apparaat naar een MQTT-broker.

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "fbbcf96a9b63ccd661db98bbf854bb06",
-  "translation_date": "2025-08-27T23:47:28+00:00",
-  "source_file": "3-transport/lessons/1-location-tracking/wio-terminal-gps-decode.md",
-  "language_code": "vi"
-}
--->
 # Giải mã dữ liệu GPS - Wio Terminal
 
 Trong phần này của bài học, bạn sẽ giải mã các thông điệp NMEA được đọc từ cảm biến GPS bởi Wio Terminal, và trích xuất vĩ độ và kinh độ.

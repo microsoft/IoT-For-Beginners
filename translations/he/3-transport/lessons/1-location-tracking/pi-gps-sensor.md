@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "3b2448c7ab4e9673e77e35a50c5e350d",
-  "translation_date": "2025-08-27T22:55:46+00:00",
-  "source_file": "3-transport/lessons/1-location-tracking/pi-gps-sensor.md",
-  "language_code": "he"
-}
--->
 # קריאת נתוני GPS - Raspberry Pi
 
 בחלק זה של השיעור, תוסיף חיישן GPS ל-Raspberry Pi שלך ותקריא ממנו ערכים.

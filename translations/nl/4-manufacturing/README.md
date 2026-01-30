@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "3764e089adf2d5801272bc0895f8498b",
-  "translation_date": "2025-08-27T20:35:11+00:00",
-  "source_file": "4-manufacturing/README.md",
-  "language_code": "nl"
-}
--->
 # Productie en verwerking - IoT gebruiken om de verwerking van voedsel te verbeteren
 
 Wanneer voedsel een centraal punt of verwerkingsfabriek bereikt, wordt het niet altijd direct naar supermarkten verzonden. Vaak doorloopt het voedsel een aantal verwerkingsstappen, zoals sorteren op kwaliteit. Dit was vroeger een handmatig proces - het begon op het veld, waar plukkers alleen rijp fruit plukten, en vervolgens werd in de fabriek het fruit op een lopende band geplaatst en verwijderden medewerkers handmatig beschadigd of rot fruit. Zelf heb ik als zomerbaan tijdens mijn schooltijd aardbeien geplukt en gesorteerd, en ik kan bevestigen dat dit geen leuk werk is.

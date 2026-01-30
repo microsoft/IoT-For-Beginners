@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "4efc74299e19f5d08f2f3f34451a11ba",
-  "translation_date": "2025-08-27T21:25:59+00:00",
-  "source_file": "2-farm/lessons/1-predict-plant-growth/single-board-computer-temp-publish.md",
-  "language_code": "vi"
-}
--->
 # Xuất bản nhiệt độ - Phần cứng IoT ảo và Raspberry Pi
 
 Trong phần này của bài học, bạn sẽ xuất bản các giá trị nhiệt độ được Raspberry Pi hoặc Thiết bị IoT ảo phát hiện qua MQTT để sau này có thể sử dụng chúng để tính GDD.

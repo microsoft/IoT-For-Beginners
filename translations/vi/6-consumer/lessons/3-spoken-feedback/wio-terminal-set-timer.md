@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "012b69d57d898d670adf61304f42a137",
-  "translation_date": "2025-08-27T23:11:58+00:00",
-  "source_file": "6-consumer/lessons/3-spoken-feedback/wio-terminal-set-timer.md",
-  "language_code": "vi"
-}
--->
 # Đặt hẹn giờ - Wio Terminal
 
 Trong phần này của bài học, bạn sẽ gọi mã serverless để hiểu giọng nói và đặt hẹn giờ trên Wio Terminal dựa trên kết quả.

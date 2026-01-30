@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "9c4320311c0f2c1884a6a21265d98a51",
-  "translation_date": "2025-08-27T20:44:30+00:00",
-  "source_file": "5-retail/lessons/2-check-stock-device/single-board-computer-count-stock.md",
-  "language_code": "vi"
-}
--->
 # Đếm hàng tồn kho từ thiết bị IoT của bạn - Phần cứng IoT ảo và Raspberry Pi
 
 Kết hợp giữa các dự đoán và hộp giới hạn có thể được sử dụng để đếm hàng tồn kho trong một hình ảnh.

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "012bbd19f13171be32ac9ba21d4186c2",
-  "translation_date": "2025-08-27T20:28:09+00:00",
-  "source_file": "recommended-learning-model.md",
-  "language_code": "vi"
-}
--->
 # Mô hình học tập được khuyến nghị
 
 Để đạt được kết quả học tập hiệu quả nhất, **chúng tôi khuyến nghị phương pháp “Mô hình Đảo ngược"** giống như các phòng thí nghiệm khoa học: học sinh làm các dự án trong giờ học, với cơ hội thảo luận, hỏi đáp và hỗ trợ dự án, và tự học các phần bài giảng trước ở nhà.

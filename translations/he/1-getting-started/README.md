@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "e2b1b891b08ef7633d285547fbe73290",
-  "translation_date": "2025-08-27T21:40:09+00:00",
-  "source_file": "1-getting-started/README.md",
-  "language_code": "he"
-}
--->
 # התחלה עם IoT
 
 בחלק זה של הקורס, תכירו את האינטרנט של הדברים (IoT) ותלמדו את המושגים הבסיסיים, כולל בניית פרויקט ה-'Hello World' הראשון שלכם ב-IoT שמתחבר לענן. הפרויקט הזה הוא מנורת לילה שנדלקת כאשר רמות האור הנמדדות על ידי חיישן יורדות.

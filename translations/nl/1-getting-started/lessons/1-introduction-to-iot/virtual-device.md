@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "52b4de6144b2efdced7797a5339d6035",
-  "translation_date": "2025-08-27T22:01:43+00:00",
-  "source_file": "1-getting-started/lessons/1-introduction-to-iot/virtual-device.md",
-  "language_code": "nl"
-}
--->
 # Virtuele single-board computer
 
 In plaats van een IoT-apparaat te kopen, samen met sensoren en actuatoren, kun je je computer gebruiken om IoT-hardware te simuleren. Het [CounterFit-project](https://github.com/CounterFit-IoT/CounterFit) stelt je in staat om lokaal een app uit te voeren die IoT-hardware zoals sensoren en actuatoren simuleert. Je kunt vervolgens toegang krijgen tot deze sensoren en actuatoren vanuit lokale Python-code, geschreven op dezelfde manier als je zou doen op een Raspberry Pi met fysieke hardware.

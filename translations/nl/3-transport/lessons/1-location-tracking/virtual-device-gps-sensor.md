@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "64f18a8f8aaa1fef5e7320e0992d8b3a",
-  "translation_date": "2025-08-27T22:50:22+00:00",
-  "source_file": "3-transport/lessons/1-location-tracking/virtual-device-gps-sensor.md",
-  "language_code": "nl"
-}
--->
 # Lees GPS-gegevens - Virtuele IoT-hardware
 
 In dit deel van de les voeg je een GPS-sensor toe aan je virtuele IoT-apparaat en lees je waarden ervan uit.

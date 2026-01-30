@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "93d352de36526b8990e41dd538100324",
-  "translation_date": "2025-08-27T23:30:08+00:00",
-  "source_file": "6-consumer/lessons/1-speech-recognition/wio-terminal-microphone.md",
-  "language_code": "vi"
-}
--->
 # Cấu hình micro và loa - Wio Terminal
 
 Trong phần bài học này, bạn sẽ thêm loa vào Wio Terminal của mình. Wio Terminal đã có sẵn micro tích hợp, và nó có thể được sử dụng để thu âm giọng nói.

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "50151d9f9dce2801348a93880ef16d86",
-  "translation_date": "2025-08-27T21:14:14+00:00",
-  "source_file": "4-manufacturing/lessons/3-run-fruit-detector-edge/single-board-computer.md",
-  "language_code": "vi"
-}
--->
 # Phân loại hình ảnh bằng bộ phân loại hình ảnh dựa trên IoT Edge - Phần cứng IoT ảo và Raspberry Pi
 
 Trong phần này của bài học, bạn sẽ sử dụng Bộ phân loại hình ảnh chạy trên thiết bị IoT Edge.

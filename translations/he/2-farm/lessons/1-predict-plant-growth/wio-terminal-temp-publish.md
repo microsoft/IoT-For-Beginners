@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "df28cd649cd892bcce034e064913b2f3",
-  "translation_date": "2025-08-27T21:06:20+00:00",
-  "source_file": "2-farm/lessons/1-predict-plant-growth/wio-terminal-temp-publish.md",
-  "language_code": "he"
-}
--->
 # פרסום טמפרטורה - Wio Terminal
 
 בחלק זה של השיעור, תפרסמו את ערכי הטמפרטורה שנמדדו על ידי ה-Wio Terminal באמצעות MQTT, כך שניתן יהיה להשתמש בהם מאוחר יותר לחישוב GDD.

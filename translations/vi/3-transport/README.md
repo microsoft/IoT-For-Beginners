@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "e978534a245b000725ed2a048f943213",
-  "translation_date": "2025-08-27T23:33:06+00:00",
-  "source_file": "3-transport/README.md",
-  "language_code": "vi"
-}
--->
 # Vận chuyển từ nông trại đến nhà máy - sử dụng IoT để theo dõi giao hàng thực phẩm
 
 Nhiều nông dân trồng thực phẩm để bán - hoặc họ là nông dân thương mại bán tất cả những gì họ trồng, hoặc họ là nông dân tự cung tự cấp bán sản phẩm dư thừa để mua các nhu yếu phẩm. Bằng cách nào đó, thực phẩm phải được vận chuyển từ nông trại đến tay người tiêu dùng, và điều này thường dựa vào vận chuyển hàng loạt từ nông trại, đến các trung tâm hoặc nhà máy chế biến, sau đó đến các cửa hàng. Ví dụ, một nông dân trồng cà chua sẽ thu hoạch cà chua, đóng gói chúng vào các thùng, chất các thùng lên xe tải rồi giao đến nhà máy chế biến. Cà chua sau đó sẽ được phân loại, và từ đó được giao đến tay người tiêu dùng dưới dạng thực phẩm chế biến, bán lẻ, hoặc được tiêu thụ tại các nhà hàng.

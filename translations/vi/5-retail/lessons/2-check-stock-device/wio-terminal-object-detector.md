@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "4cf1421420a6fab9ab4f2c391bd523b7",
-  "translation_date": "2025-08-27T20:45:56+00:00",
-  "source_file": "5-retail/lessons/2-check-stock-device/wio-terminal-object-detector.md",
-  "language_code": "vi"
-}
--->
 # Gọi trình phát hiện đối tượng từ thiết bị IoT của bạn - Wio Terminal
 
 Khi trình phát hiện đối tượng của bạn đã được xuất bản, bạn có thể sử dụng nó từ thiết bị IoT của mình.

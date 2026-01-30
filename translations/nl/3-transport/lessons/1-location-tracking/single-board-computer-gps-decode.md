@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "cbb8c285bc64c5192fae3368fb5077d2",
-  "translation_date": "2025-08-27T22:54:46+00:00",
-  "source_file": "3-transport/lessons/1-location-tracking/single-board-computer-gps-decode.md",
-  "language_code": "nl"
-}
--->
 # Decode GPS-gegevens - Virtuele IoT-hardware en Raspberry Pi
 
 In dit deel van de les decodeer je de NMEA-berichten die door de GPS-sensor worden gelezen via de Raspberry Pi of Virtuele IoT-apparaat, en haal je de breedte- en lengtegraad eruit.

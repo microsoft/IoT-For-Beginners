@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "db44083b4dc6fb06eac83c4f16448940",
-  "translation_date": "2025-08-27T22:31:45+00:00",
-  "source_file": "1-getting-started/lessons/3-sensors-and-actuators/wio-terminal-actuator.md",
-  "language_code": "vi"
-}
--->
 # Xây dựng đèn ngủ - Wio Terminal
 
 Trong phần này của bài học, bạn sẽ thêm một đèn LED vào Wio Terminal của mình và sử dụng nó để tạo một chiếc đèn ngủ.

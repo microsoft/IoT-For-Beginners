@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "24dc783a600e20251211987b36370e93",
-  "translation_date": "2025-08-27T21:12:41+00:00",
-  "source_file": "4-manufacturing/lessons/3-run-fruit-detector-edge/vm-iotedge.md",
-  "language_code": "vi"
-}
--->
 # Tạo máy ảo chạy IoT Edge
 
 Trong Azure, bạn có thể tạo một máy ảo - một máy tính trên đám mây mà bạn có thể cấu hình theo ý muốn và chạy phần mềm của riêng mình trên đó.

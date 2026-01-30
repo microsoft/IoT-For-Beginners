@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "3ba7150ffc4a6999f6c3cfb4906ec7df",
-  "translation_date": "2025-08-27T21:02:50+00:00",
-  "source_file": "4-manufacturing/lessons/2-check-fruit-from-device/virtual-device-camera.md",
-  "language_code": "vi"
-}
--->
 # Chụp ảnh - Phần cứng IoT ảo
 
 Trong phần này của bài học, bạn sẽ thêm cảm biến camera vào thiết bị IoT ảo và đọc hình ảnh từ nó.

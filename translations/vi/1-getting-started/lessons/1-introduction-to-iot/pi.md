@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "8ff0d0a1d29832bb896b9c103b69a452",
-  "translation_date": "2025-08-27T22:43:10+00:00",
-  "source_file": "1-getting-started/lessons/1-introduction-to-iot/pi.md",
-  "language_code": "vi"
-}
--->
 # Raspberry Pi
 
 [Raspberry Pi](https://raspberrypi.org) là một máy tính đơn bo mạch. Bạn có thể thêm cảm biến và bộ truyền động bằng cách sử dụng nhiều loại thiết bị và hệ sinh thái khác nhau, và trong các bài học này, chúng ta sẽ sử dụng một hệ sinh thái phần cứng gọi là [Grove](https://www.seeedstudio.com/category/Grove-c-1003.html). Bạn sẽ lập trình Pi của mình và truy cập các cảm biến Grove bằng Python.

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "52b4de6144b2efdced7797a5339d6035",
-  "translation_date": "2025-08-27T22:40:52+00:00",
-  "source_file": "1-getting-started/lessons/1-introduction-to-iot/virtual-device.md",
-  "language_code": "vi"
-}
--->
 # Máy tính bảng đơn ảo
 
 Thay vì mua một thiết bị IoT cùng với các cảm biến và bộ truyền động, bạn có thể sử dụng máy tính của mình để mô phỏng phần cứng IoT. Dự án [CounterFit](https://github.com/CounterFit-IoT/CounterFit) cho phép bạn chạy một ứng dụng cục bộ để mô phỏng phần cứng IoT như cảm biến và bộ truyền động, và truy cập chúng từ mã Python cục bộ được viết theo cách tương tự như khi bạn viết mã trên Raspberry Pi sử dụng phần cứng thực.

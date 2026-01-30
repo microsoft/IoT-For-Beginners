@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "428bda82d9e6016ecea7c797564bf081",
-  "translation_date": "2025-08-27T21:21:46+00:00",
-  "source_file": "2-farm/README.md",
-  "language_code": "vi"
-}
--->
 # Nông nghiệp với IoT
 
 Khi dân số tăng lên, nhu cầu về nông nghiệp cũng tăng theo. Diện tích đất canh tác không thay đổi, nhưng khí hậu lại biến đổi - tạo thêm nhiều thách thức cho người nông dân, đặc biệt là 2 tỷ [nông dân tự cung tự cấp](https://wikipedia.org/wiki/Subsistence_agriculture) dựa vào những gì họ trồng để ăn và nuôi sống gia đình. IoT có thể giúp người nông dân đưa ra quyết định thông minh hơn về việc trồng gì và khi nào thu hoạch, tăng năng suất, giảm lượng lao động thủ công, và phát hiện cũng như xử lý sâu bệnh.
