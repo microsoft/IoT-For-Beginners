@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "6754c915dae64ba70fcd5e52c37f3adf",
-  "translation_date": "2025-08-27T22:24:05+00:00",
-  "source_file": "1-getting-started/lessons/4-connect-internet/wio-terminal-commands.md",
-  "language_code": "tl"
-}
--->
 # Kontrolin ang iyong nightlight gamit ang Internet - Wio Terminal
 
 Sa bahaging ito ng aralin, mag-subscribe ka sa mga utos na ipinapadala mula sa isang MQTT broker papunta sa iyong Wio Terminal.

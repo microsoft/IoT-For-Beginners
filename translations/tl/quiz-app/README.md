@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "2a459ea9177fb0508ca96068ae1009d2",
-  "translation_date": "2025-08-27T23:59:05+00:00",
-  "source_file": "quiz-app/README.md",
-  "language_code": "tl"
-}
--->
 # Mga Pagsusulit
 
 Ang mga pagsusulit na ito ay pre- at post-lecture quizzes para sa kurikulum ng IoT for Beginners sa https://aka.ms/iot-beginners

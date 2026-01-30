@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "1226517aae5f5b6f904434670394c688",
-  "translation_date": "2025-08-27T22:14:15+00:00",
-  "source_file": "1-getting-started/lessons/4-connect-internet/single-board-computer-telemetry.md",
-  "language_code": "ms"
-}
--->
 # Kawal lampu malam anda melalui Internet - Perkakasan IoT Maya dan Raspberry Pi
 
 Dalam bahagian pelajaran ini, anda akan menghantar telemetri dengan tahap cahaya dari Raspberry Pi atau peranti IoT maya anda ke broker MQTT.

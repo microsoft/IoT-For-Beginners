@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "4cf1421420a6fab9ab4f2c391bd523b7",
-  "translation_date": "2025-08-27T20:46:32+00:00",
-  "source_file": "5-retail/lessons/2-check-stock-device/wio-terminal-object-detector.md",
-  "language_code": "tl"
-}
--->
 # Tawagin ang iyong object detector mula sa iyong IoT device - Wio Terminal
 
 Kapag na-publish na ang iyong object detector, maaari na itong gamitin mula sa iyong IoT device.

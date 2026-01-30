@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "3764e089adf2d5801272bc0895f8498b",
-  "translation_date": "2025-08-27T20:50:50+00:00",
-  "source_file": "4-manufacturing/README.md",
-  "language_code": "tl"
-}
--->
 # Paggawa at pagproseso - paggamit ng IoT upang mapabuti ang pagproseso ng pagkain
 
 Kapag ang pagkain ay nakarating na sa isang sentral na hub o planta ng pagproseso, hindi ito palaging direktang ipinapadala sa mga supermarket. Madalas, ang pagkain ay dumadaan sa ilang hakbang ng pagproseso, tulad ng pagsasala batay sa kalidad. Ito ay isang proseso na dati ay manu-mano - nagsisimula ito sa bukid kung saan ang mga tagapitas ay pumipili lamang ng hinog na prutas, at pagkatapos sa pabrika, ang prutas ay dumadaan sa isang conveyor belt at manu-manong inaalis ng mga empleyado ang mga bugbog o bulok na prutas. Bilang isang taong nakaranas ng pagpitas at pagsasala ng mga strawberry bilang trabaho tuwing tag-init noong ako'y nag-aaral, masasabi kong hindi ito masayang gawain.

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "012bbd19f13171be32ac9ba21d4186c2",
-  "translation_date": "2025-08-27T20:28:50+00:00",
-  "source_file": "recommended-learning-model.md",
-  "language_code": "tl"
-}
--->
 # Inirerekomendang Modelo ng Pagkatuto
 
 Para sa mas epektibong resulta ng pagkatuto, **inirerekomenda namin ang isang “Flipped Model" na diskarte** tulad ng mga science lab: ang mga mag-aaral ay gumagawa ng mga proyekto sa oras ng klase, na may mga pagkakataon para sa talakayan, tanong at sagot, at tulong sa proyekto, habang ang mga bahagi ng lektura ay ginagawa bilang mga pre-read sa kanilang sariling oras.

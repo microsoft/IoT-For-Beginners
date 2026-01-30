@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "5de7dc1e2ddc402d415473bb795568d4",
-  "translation_date": "2025-08-27T22:55:19+00:00",
-  "source_file": "6-consumer/README.md",
-  "language_code": "tl"
-}
--->
 # Consumer IoT - gumawa ng matalinong voice assistant
 
 Ang pagkain ay naitanim, naihatid sa planta ng pagpoproseso, nasuri para sa kalidad, naibenta sa tindahan, at ngayon ay oras na para magluto! Isa sa mga pangunahing gamit sa kusina ay ang timer. Sa simula, ang mga ito ay parang hourglass - naluto ang pagkain kapag ang lahat ng buhangin ay bumaba sa ilalim na bahagi. Pagkatapos, naging mekanikal, at kalaunan ay elektrikal.

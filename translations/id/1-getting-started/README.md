@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "e2b1b891b08ef7633d285547fbe73290",
-  "translation_date": "2025-08-27T22:12:57+00:00",
-  "source_file": "1-getting-started/README.md",
-  "language_code": "id"
-}
--->
 # Memulai dengan IoT
 
 Dalam bagian kurikulum ini, Anda akan diperkenalkan dengan Internet of Things, dan mempelajari konsep dasar termasuk membangun proyek IoT 'Hello World' pertama Anda yang terhubung ke cloud. Proyek ini adalah lampu malam yang menyala saat tingkat cahaya yang diukur oleh sensor menurun.

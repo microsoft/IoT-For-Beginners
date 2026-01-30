@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "d620a470d9dd8614d99824832978360a",
-  "translation_date": "2025-08-27T23:01:55+00:00",
-  "source_file": "6-consumer/lessons/4-multiple-language-support/virtual-device-translate-speech.md",
-  "language_code": "id"
-}
--->
 # Terjemahkan Ucapan - Perangkat IoT Virtual
 
 Dalam bagian pelajaran ini, Anda akan menulis kode untuk menerjemahkan ucapan saat mengonversinya menjadi teks menggunakan layanan ucapan, lalu menerjemahkan teks menggunakan layanan Translator sebelum menghasilkan respons yang diucapkan.

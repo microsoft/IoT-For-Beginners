@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "da6ae0a795cf06be33d23ca5b8493fc8",
-  "translation_date": "2025-08-27T23:39:59+00:00",
-  "source_file": "3-transport/lessons/1-location-tracking/wio-terminal-gps-sensor.md",
-  "language_code": "tl"
-}
--->
 # Basahin ang GPS Data - Wio Terminal
 
 Sa bahaging ito ng aralin, magdadagdag ka ng GPS sensor sa iyong Wio Terminal at babasahin ang mga halaga mula rito.

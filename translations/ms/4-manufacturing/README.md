@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "3764e089adf2d5801272bc0895f8498b",
-  "translation_date": "2025-08-27T20:50:36+00:00",
-  "source_file": "4-manufacturing/README.md",
-  "language_code": "ms"
-}
--->
 # Pembuatan dan pemprosesan - menggunakan IoT untuk meningkatkan pemprosesan makanan
 
 Apabila makanan tiba di hab pusat atau kilang pemprosesan, ia tidak semestinya terus dihantar ke pasar raya. Selalunya, makanan melalui beberapa langkah pemprosesan, seperti pengasingan mengikut kualiti. Ini adalah proses yang dahulunya dilakukan secara manual - ia bermula di ladang apabila pemetik hanya memilih buah yang masak, kemudian di kilang, buah-buahan akan bergerak di atas tali sawat dan pekerja akan secara manual membuang buah yang lebam atau busuk. Setelah pernah memetik dan mengasingkan strawberi sendiri sebagai kerja musim panas semasa sekolah, saya boleh mengesahkan bahawa ini bukanlah kerja yang menyeronokkan.

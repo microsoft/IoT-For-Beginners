@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "22a1d6e49f2a689fe5bfa7802a7241fc",
-  "translation_date": "2025-08-27T20:39:14+00:00",
-  "source_file": "5-retail/README.md",
-  "language_code": "tl"
-}
--->
 # Retail - paggamit ng IoT para pamahalaan ang antas ng stock
 
 Ang huling yugto ng feed bago ito makarating sa mga mamimili ay retail - ang mga palengke, tindahan ng gulay, supermarket, at mga tindahan na nagbebenta ng produkto sa mga mamimili. Ang mga tindahang ito ay nais tiyakin na may mga produkto sa mga istante para makita at mabili ng mga mamimili.

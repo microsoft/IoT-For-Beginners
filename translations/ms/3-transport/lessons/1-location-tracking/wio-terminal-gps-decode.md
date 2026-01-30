@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "fbbcf96a9b63ccd661db98bbf854bb06",
-  "translation_date": "2025-08-27T23:47:44+00:00",
-  "source_file": "3-transport/lessons/1-location-tracking/wio-terminal-gps-decode.md",
-  "language_code": "ms"
-}
--->
 # Nyahkod Data GPS - Wio Terminal
 
 Dalam bahagian pelajaran ini, anda akan nyahkod mesej NMEA yang dibaca daripada sensor GPS oleh Wio Terminal, dan mengekstrak latitud dan longitud.

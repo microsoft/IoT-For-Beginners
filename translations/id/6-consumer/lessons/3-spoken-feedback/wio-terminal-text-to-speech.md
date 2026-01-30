@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "a202fa5889790a3777bfc33dd9f4b459",
-  "translation_date": "2025-08-27T23:14:59+00:00",
-  "source_file": "6-consumer/lessons/3-spoken-feedback/wio-terminal-text-to-speech.md",
-  "language_code": "id"
-}
--->
 # Teks ke Ucapan - Wio Terminal
 
 Dalam bagian pelajaran ini, Anda akan mengonversi teks menjadi ucapan untuk memberikan umpan balik berupa suara.

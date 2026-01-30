@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "9c4320311c0f2c1884a6a21265d98a51",
-  "translation_date": "2025-08-27T20:44:52+00:00",
-  "source_file": "5-retail/lessons/2-check-stock-device/single-board-computer-count-stock.md",
-  "language_code": "id"
-}
--->
 # Hitung stok dari perangkat IoT Anda - Perangkat Keras IoT Virtual dan Raspberry Pi
 
 Kombinasi prediksi dan kotak pembatas dapat digunakan untuk menghitung stok dalam sebuah gambar.

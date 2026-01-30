@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "e978534a245b000725ed2a048f943213",
-  "translation_date": "2025-08-27T23:33:43+00:00",
-  "source_file": "3-transport/README.md",
-  "language_code": "tl"
-}
--->
 # Transportasyon mula sa bukid patungo sa pabrika - paggamit ng IoT para subaybayan ang paghahatid ng pagkain
 
 Maraming magsasaka ang nagtatanim ng pagkain para ibenta - maaaring sila ay mga komersyal na magsasaka na ibinebenta ang lahat ng kanilang ani, o mga magsasakang nagtatanim para sa sariling konsumo at ibinebenta ang sobrang ani upang makabili ng mga pangangailangan. Sa anumang paraan, kailangang makarating ang pagkain mula sa bukid patungo sa konsyumer, at karaniwang umaasa ito sa maramihang transportasyon mula sa mga bukid, patungo sa mga sentro o pagawaan, at pagkatapos ay sa mga tindahan. Halimbawa, ang isang magsasaka ng kamatis ay mag-aani ng mga kamatis, ilalagay ang mga ito sa mga kahon, ikakarga ang mga kahon sa trak, at ihahatid ito sa isang pagawaan. Ang mga kamatis ay aayusin, at mula roon ay ihahatid sa mga konsyumer bilang naprosesong pagkain, ibinebenta sa mga tindahan, o inihahain sa mga restawran.

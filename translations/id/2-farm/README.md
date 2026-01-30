@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "428bda82d9e6016ecea7c797564bf081",
-  "translation_date": "2025-08-27T21:21:54+00:00",
-  "source_file": "2-farm/README.md",
-  "language_code": "id"
-}
--->
 # Bertani dengan IoT
 
 Seiring dengan bertambahnya populasi, permintaan terhadap sektor pertanian juga meningkat. Jumlah lahan yang tersedia tidak berubah, tetapi iklim terus berubah - memberikan tantangan tambahan bagi para petani, terutama 2 miliar [petani subsisten](https://wikipedia.org/wiki/Subsistence_agriculture) yang bergantung pada hasil panen mereka untuk makan dan memberi makan keluarga mereka. IoT dapat membantu petani membuat keputusan yang lebih cerdas tentang apa yang harus ditanam dan kapan harus panen, meningkatkan hasil panen, mengurangi jumlah tenaga kerja manual, serta mendeteksi dan mengatasi hama.

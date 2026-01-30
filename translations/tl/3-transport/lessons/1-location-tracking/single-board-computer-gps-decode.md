@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "cbb8c285bc64c5192fae3368fb5077d2",
-  "translation_date": "2025-08-27T23:46:05+00:00",
-  "source_file": "3-transport/lessons/1-location-tracking/single-board-computer-gps-decode.md",
-  "language_code": "tl"
-}
--->
 # I-decode ang GPS data - Virtual IoT Hardware at Raspberry Pi
 
 Sa bahaging ito ng aralin, ide-decode mo ang mga NMEA message na nabasa mula sa GPS sensor gamit ang Raspberry Pi o Virtual IoT Device, at kukunin ang latitude at longitude.

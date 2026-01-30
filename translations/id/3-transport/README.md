@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "e978534a245b000725ed2a048f943213",
-  "translation_date": "2025-08-27T23:33:20+00:00",
-  "source_file": "3-transport/README.md",
-  "language_code": "id"
-}
--->
 # Transportasi dari pertanian ke pabrik - menggunakan IoT untuk melacak pengiriman makanan
 
 Banyak petani menanam makanan untuk dijual - baik mereka adalah petani komersial yang menjual semua hasil panennya, atau petani subsisten yang menjual kelebihan hasil panen mereka untuk membeli kebutuhan. Bagaimanapun, makanan harus sampai dari pertanian ke konsumen, dan ini biasanya mengandalkan transportasi massal dari pertanian, ke pusat atau pabrik pengolahan, lalu ke toko-toko. Sebagai contoh, seorang petani tomat akan memanen tomat, mengemasnya ke dalam kotak, memuat kotak-kotak tersebut ke dalam truk, lalu mengantarkannya ke pabrik pengolahan. Tomat-tomat tersebut kemudian akan disortir, dan dari sana dikirimkan kepada konsumen dalam bentuk makanan olahan, penjualan ritel, atau dikonsumsi di restoran.

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "93d352de36526b8990e41dd538100324",
-  "translation_date": "2025-08-27T23:30:39+00:00",
-  "source_file": "6-consumer/lessons/1-speech-recognition/wio-terminal-microphone.md",
-  "language_code": "ms"
-}
--->
 # Konfigurasi mikrofon dan pembesar suara - Wio Terminal
 
 Dalam bahagian pelajaran ini, anda akan menambah pembesar suara pada Wio Terminal anda. Wio Terminal sudah mempunyai mikrofon terbina dalam, dan ini boleh digunakan untuk menangkap suara.

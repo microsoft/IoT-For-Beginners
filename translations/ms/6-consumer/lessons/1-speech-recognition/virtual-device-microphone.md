@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "7a65ee743f916276a2848b8a9491feb7",
-  "translation_date": "2025-08-27T23:32:55+00:00",
-  "source_file": "6-consumer/lessons/1-speech-recognition/virtual-device-microphone.md",
-  "language_code": "ms"
-}
--->
 # Konfigurasikan mikrofon dan pembesar suara anda - Perkakasan IoT Maya
 
 Perkakasan IoT maya akan menggunakan mikrofon dan pembesar suara yang disambungkan ke komputer anda.

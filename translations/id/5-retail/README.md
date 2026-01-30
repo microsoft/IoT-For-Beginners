@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "22a1d6e49f2a689fe5bfa7802a7241fc",
-  "translation_date": "2025-08-27T20:39:00+00:00",
-  "source_file": "5-retail/README.md",
-  "language_code": "id"
-}
--->
 # Retail - menggunakan IoT untuk mengelola tingkat stok
 
 Tahap terakhir sebelum makanan sampai ke konsumen adalah ritel - pasar, toko buah, supermarket, dan toko yang menjual produk kepada konsumen. Toko-toko ini ingin memastikan mereka memiliki produk yang tersedia di rak untuk dilihat dan dibeli oleh konsumen.

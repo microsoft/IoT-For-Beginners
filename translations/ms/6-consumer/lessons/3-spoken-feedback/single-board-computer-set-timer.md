@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "64ad4ddb4de81a18b7252e968f10b404",
-  "translation_date": "2025-08-27T23:09:00+00:00",
-  "source_file": "6-consumer/lessons/3-spoken-feedback/single-board-computer-set-timer.md",
-  "language_code": "ms"
-}
--->
 # Tetapkan Pemasa - Perkakasan IoT Maya dan Raspberry Pi
 
 Dalam bahagian pelajaran ini, anda akan memanggil kod tanpa pelayan anda untuk memahami ucapan, dan menetapkan pemasa pada peranti IoT maya atau Raspberry Pi berdasarkan hasilnya.

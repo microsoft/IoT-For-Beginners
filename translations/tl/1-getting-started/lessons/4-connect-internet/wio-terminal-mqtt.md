@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "d6faf0e8d3c2d6d20c0aef2a305dab18",
-  "translation_date": "2025-08-27T22:23:12+00:00",
-  "source_file": "1-getting-started/lessons/4-connect-internet/wio-terminal-mqtt.md",
-  "language_code": "tl"
-}
--->
 # Kontrolin ang iyong nightlight sa Internet - Wio Terminal
 
 Ang IoT device ay kailangang i-code upang makipag-ugnayan sa *test.mosquitto.org* gamit ang MQTT para magpadala ng telemetry values gamit ang light sensor reading, at tumanggap ng mga utos para kontrolin ang LED.

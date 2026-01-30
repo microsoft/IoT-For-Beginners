@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "90fb93446e03c38f3c0e4009c2471906",
-  "translation_date": "2025-08-27T22:21:44+00:00",
-  "source_file": "1-getting-started/lessons/4-connect-internet/single-board-computer-mqtt.md",
-  "language_code": "ms"
-}
--->
 # Kawal lampu malam anda melalui Internet - Perkakasan IoT Maya dan Raspberry Pi
 
 Peranti IoT perlu diprogramkan untuk berkomunikasi dengan *test.mosquitto.org* menggunakan MQTT bagi menghantar nilai telemetri dengan bacaan sensor cahaya, dan menerima arahan untuk mengawal LED.

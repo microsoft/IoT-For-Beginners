@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "3dce18fab38adf93ff30b8c221b1eec5",
-  "translation_date": "2025-08-27T20:36:38+00:00",
-  "source_file": "hardware.md",
-  "language_code": "tl"
-}
--->
 # Hardware
 
 Ang **T** sa IoT ay **Things** na tumutukoy sa mga device na nakikipag-ugnayan sa mundo sa paligid natin. Ang bawat proyekto ay nakabatay sa mga aktwal na hardware na magagamit ng mga estudyante at hobbyist. Mayroon tayong dalawang pagpipilian ng IoT hardware na maaaring gamitin depende sa personal na kagustuhan, kaalaman sa programming language, layunin sa pag-aaral, at availability. Nagbigay din kami ng 'virtual hardware' na bersyon para sa mga walang access sa hardware, o gustong matuto nang higit pa bago bumili.

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "f8f541ee945545017a51aaf309aa37c3",
-  "translation_date": "2025-08-27T21:39:30+00:00",
-  "source_file": "2-farm/lessons/3-automated-plant-watering/virtual-device-relay.md",
-  "language_code": "tl"
-}
--->
 # Kontrolin ang isang relay - Virtual na IoT Hardware
 
 Sa bahaging ito ng aralin, magdadagdag ka ng relay sa iyong virtual na IoT device bukod sa soil moisture sensor, at kokontrolin ito batay sa antas ng soil moisture.

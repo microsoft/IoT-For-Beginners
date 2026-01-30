@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "9713e21a309662f6fcb271b573d47848",
-  "translation_date": "2026-01-06T10:12:24+00:00",
-  "source_file": "TROUBLESHOOTING.md",
-  "language_code": "ms"
-}
--->
 # Panduan Penyelesaian Masalah
 
 Panduan ini membantu anda menyelesaikan masalah biasa apabila bekerja dengan kurikulum IoT untuk Pemula. Isu diatur mengikut kategori untuk navigasi yang mudah.

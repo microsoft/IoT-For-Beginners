@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "428bda82d9e6016ecea7c797564bf081",
-  "translation_date": "2025-08-27T21:22:09+00:00",
-  "source_file": "2-farm/README.md",
-  "language_code": "tl"
-}
--->
 # Pagsasaka gamit ang IoT
 
 Habang lumalaki ang populasyon, tumataas din ang pangangailangan sa agrikultura. Ang dami ng lupang magagamit ay hindi nagbabago, ngunit ang klima ay nagbabago - nagdadala ng mas maraming hamon sa mga magsasaka, lalo na sa 2 bilyong [subsistence farmers](https://wikipedia.org/wiki/Subsistence_agriculture) na umaasa sa kanilang ani upang makakain at mapakain ang kanilang pamilya. Makakatulong ang IoT sa mga magsasaka na gumawa ng mas matalinong desisyon kung ano ang itatanim at kailan mag-aani, pataasin ang ani, bawasan ang manu-manong paggawa, at matukoy at harapin ang mga peste.

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "012b69d57d898d670adf61304f42a137",
-  "translation_date": "2025-08-27T23:12:54+00:00",
-  "source_file": "6-consumer/lessons/3-spoken-feedback/wio-terminal-set-timer.md",
-  "language_code": "tl"
-}
--->
 # Mag-set ng Timer - Wio Terminal
 
 Sa bahaging ito ng aralin, tatawagin mo ang iyong serverless code upang maunawaan ang boses, at mag-set ng timer sa iyong Wio Terminal base sa mga resulta.

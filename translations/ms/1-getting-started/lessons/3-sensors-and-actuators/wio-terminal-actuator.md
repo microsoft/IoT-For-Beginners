@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "db44083b4dc6fb06eac83c4f16448940",
-  "translation_date": "2025-08-27T22:32:19+00:00",
-  "source_file": "1-getting-started/lessons/3-sensors-and-actuators/wio-terminal-actuator.md",
-  "language_code": "ms"
-}
--->
 # Membina lampu malam - Wio Terminal
 
 Dalam bahagian pelajaran ini, anda akan menambah LED pada Wio Terminal anda dan menggunakannya untuk mencipta lampu malam.

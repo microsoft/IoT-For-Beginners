@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "4efc74299e19f5d08f2f3f34451a11ba",
-  "translation_date": "2025-08-27T21:26:23+00:00",
-  "source_file": "2-farm/lessons/1-predict-plant-growth/single-board-computer-temp-publish.md",
-  "language_code": "ms"
-}
--->
 # Terbitkan suhu - Perkakasan IoT Maya dan Raspberry Pi
 
 Dalam bahagian pelajaran ini, anda akan menerbitkan nilai suhu yang dikesan oleh Raspberry Pi atau Peranti IoT Maya melalui MQTT supaya ia boleh digunakan kemudian untuk mengira GDD.

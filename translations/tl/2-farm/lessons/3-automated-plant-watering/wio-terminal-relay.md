@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "f3c5d8afa2ef6a0b425ef8ff20615cb4",
-  "translation_date": "2025-08-27T21:37:33+00:00",
-  "source_file": "2-farm/lessons/3-automated-plant-watering/wio-terminal-relay.md",
-  "language_code": "tl"
-}
--->
 # Kontrolin ang isang relay - Wio Terminal
 
 Sa bahaging ito ng aralin, magdadagdag ka ng relay sa iyong Wio Terminal bukod sa soil moisture sensor, at kokontrolin ito batay sa antas ng soil moisture.

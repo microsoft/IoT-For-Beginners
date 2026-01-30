@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "5de7dc1e2ddc402d415473bb795568d4",
-  "translation_date": "2025-08-27T22:55:01+00:00",
-  "source_file": "6-consumer/README.md",
-  "language_code": "id"
-}
--->
 # IoT Konsumen - Membangun Asisten Suara Pintar
 
 Makanan telah ditanam, diangkut ke pabrik pengolahan, disortir untuk kualitas, dijual di toko, dan sekarang saatnya memasak! Salah satu alat utama di dapur adalah pengatur waktu. Awalnya, pengatur waktu ini berbentuk jam pasir - makanan Anda matang ketika semua pasir telah mengalir ke bagian bawah. Kemudian berkembang menjadi mekanik, lalu elektrik.

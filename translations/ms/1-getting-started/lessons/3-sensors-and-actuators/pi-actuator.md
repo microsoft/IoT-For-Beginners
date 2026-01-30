@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "4db8a3879a53490513571df2f6cf7641",
-  "translation_date": "2025-08-27T22:31:10+00:00",
-  "source_file": "1-getting-started/lessons/3-sensors-and-actuators/pi-actuator.md",
-  "language_code": "ms"
-}
--->
 # Membina lampu malam - Raspberry Pi
 
 Dalam bahagian pelajaran ini, anda akan menambah LED pada Raspberry Pi anda dan menggunakannya untuk mencipta lampu malam.

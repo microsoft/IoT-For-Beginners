@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "d620a470d9dd8614d99824832978360a",
-  "translation_date": "2025-08-27T23:02:14+00:00",
-  "source_file": "6-consumer/lessons/4-multiple-language-support/virtual-device-translate-speech.md",
-  "language_code": "ms"
-}
--->
 # Terjemah Ucapan - Peranti IoT Maya
 
 Dalam bahagian pelajaran ini, anda akan menulis kod untuk menterjemah ucapan semasa menukarnya kepada teks menggunakan perkhidmatan ucapan, kemudian menterjemah teks menggunakan perkhidmatan Translator sebelum menghasilkan respons dalam bentuk ucapan.

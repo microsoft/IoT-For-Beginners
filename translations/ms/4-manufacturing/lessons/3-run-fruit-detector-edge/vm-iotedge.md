@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "24dc783a600e20251211987b36370e93",
-  "translation_date": "2025-08-27T21:13:09+00:00",
-  "source_file": "4-manufacturing/lessons/3-run-fruit-detector-edge/vm-iotedge.md",
-  "language_code": "ms"
-}
--->
 # Buat mesin maya yang menjalankan IoT Edge
 
 Di Azure, anda boleh mencipta mesin maya - sebuah komputer di awan yang boleh anda konfigurasi mengikut kehendak anda dan menjalankan perisian anda sendiri di atasnya.

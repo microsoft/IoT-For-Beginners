@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "6754c915dae64ba70fcd5e52c37f3adf",
-  "translation_date": "2025-08-27T22:23:44+00:00",
-  "source_file": "1-getting-started/lessons/4-connect-internet/wio-terminal-commands.md",
-  "language_code": "id"
-}
--->
 # Kendalikan lampu malam Anda melalui Internet - Wio Terminal
 
 Dalam bagian pelajaran ini, Anda akan berlangganan perintah yang dikirim dari broker MQTT ke Wio Terminal Anda.

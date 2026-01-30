@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "e2b1b891b08ef7633d285547fbe73290",
-  "translation_date": "2025-08-27T22:13:11+00:00",
-  "source_file": "1-getting-started/README.md",
-  "language_code": "tl"
-}
--->
 # Pagsisimula sa IoT
 
 Sa seksyong ito ng kurikulum, ipapakilala sa iyo ang Internet of Things, at matutunan mo ang mga pangunahing konsepto kabilang ang paggawa ng iyong unang 'Hello World' IoT na proyekto na kumokonekta sa cloud. Ang proyektong ito ay isang nightlight na umiilaw kapag bumaba ang antas ng liwanag na sinusukat ng sensor.

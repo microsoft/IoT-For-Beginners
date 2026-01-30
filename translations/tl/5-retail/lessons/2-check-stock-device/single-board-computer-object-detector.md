@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "a3fdfec1d1e2cb645ea11c2930b51299",
-  "translation_date": "2025-08-27T20:40:01+00:00",
-  "source_file": "5-retail/lessons/2-check-stock-device/single-board-computer-object-detector.md",
-  "language_code": "tl"
-}
--->
 # Tawagin ang iyong object detector mula sa iyong IoT device - Virtual IoT Hardware at Raspberry Pi
 
 Kapag na-publish na ang iyong object detector, maaari na itong gamitin mula sa iyong IoT device.

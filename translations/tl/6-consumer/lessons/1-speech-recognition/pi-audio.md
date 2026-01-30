@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "0ac0afcfb40cb5970ef4cb74f01c32e9",
-  "translation_date": "2025-08-27T23:19:07+00:00",
-  "source_file": "6-consumer/lessons/1-speech-recognition/pi-audio.md",
-  "language_code": "tl"
-}
--->
 # Pagkuha ng Audio - Raspberry Pi
 
 Sa bahaging ito ng aralin, magsusulat ka ng code upang makuha ang audio gamit ang iyong Raspberry Pi. Ang pagkuha ng audio ay kokontrolin ng isang button.

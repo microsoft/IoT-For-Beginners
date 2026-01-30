@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "df28cd649cd892bcce034e064913b2f3",
-  "translation_date": "2025-08-27T21:28:55+00:00",
-  "source_file": "2-farm/lessons/1-predict-plant-growth/wio-terminal-temp-publish.md",
-  "language_code": "ms"
-}
--->
 # Terbitkan suhu - Wio Terminal
 
 Dalam bahagian pelajaran ini, anda akan menerbitkan nilai suhu yang dikesan oleh Wio Terminal melalui MQTT supaya ia boleh digunakan kemudian untuk mengira GDD.

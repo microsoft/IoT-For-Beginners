@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "012bbd19f13171be32ac9ba21d4186c2",
-  "translation_date": "2025-08-27T20:28:23+00:00",
-  "source_file": "recommended-learning-model.md",
-  "language_code": "id"
-}
--->
 # Model pembelajaran yang direkomendasikan
 
 Untuk hasil pembelajaran yang paling efektif, **kami merekomendasikan pendekatan “Model Terbalik"** seperti laboratorium sains: siswa mengerjakan proyek selama waktu kelas, dengan kesempatan untuk diskusi, tanya jawab, dan bantuan proyek, sementara elemen kuliah dilakukan sebagai bacaan pendahuluan di waktu mereka sendiri.

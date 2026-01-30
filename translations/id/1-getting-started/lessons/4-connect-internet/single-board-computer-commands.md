@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "c527ce85d69b1a3875366ec61cbed8aa",
-  "translation_date": "2025-08-27T22:13:28+00:00",
-  "source_file": "1-getting-started/lessons/4-connect-internet/single-board-computer-commands.md",
-  "language_code": "id"
-}
--->
 # Kendalikan lampu malam Anda melalui Internet - Perangkat IoT Virtual dan Raspberry Pi
 
 Dalam bagian pelajaran ini, Anda akan berlangganan perintah yang dikirim dari broker MQTT ke Raspberry Pi atau perangkat IoT virtual Anda.

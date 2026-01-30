@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "24dc783a600e20251211987b36370e93",
-  "translation_date": "2025-08-27T21:12:57+00:00",
-  "source_file": "4-manufacturing/lessons/3-run-fruit-detector-edge/vm-iotedge.md",
-  "language_code": "id"
-}
--->
 # Membuat Mesin Virtual yang Menjalankan IoT Edge
 
 Di Azure, Anda dapat membuat mesin virtual - sebuah komputer di cloud yang dapat Anda konfigurasi sesuai keinginan dan menjalankan perangkat lunak Anda sendiri di dalamnya.

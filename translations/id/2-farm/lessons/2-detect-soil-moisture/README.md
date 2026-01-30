@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "4fb20273d299dc8d07a8f06c9cd0cdd9",
-  "translation_date": "2025-08-27T21:49:30+00:00",
-  "source_file": "2-farm/lessons/2-detect-soil-moisture/README.md",
-  "language_code": "id"
-}
--->
 C, diucapkan *I-squared-C*, adalah protokol multi-kontroler dan multi-periferal, di mana setiap perangkat yang terhubung dapat bertindak sebagai kontroler atau periferal yang berkomunikasi melalui bus I²C (nama untuk sistem komunikasi yang mentransfer data). Data dikirim dalam bentuk paket yang ditujukan untuk alamat perangkat tertentu yang terhubung.
 
 > 💁 Model ini sebelumnya disebut master/slave, tetapi istilah ini mulai ditinggalkan karena asosiasinya dengan perbudakan. [Open Source Hardware Association telah mengadopsi istilah kontroler/periferal](https://www.oshwa.org/a-resolution-to-redefine-spi-signal-names/), meskipun Anda mungkin masih menemukan referensi ke istilah lama.

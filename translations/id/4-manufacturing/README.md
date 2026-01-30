@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "3764e089adf2d5801272bc0895f8498b",
-  "translation_date": "2025-08-27T20:50:24+00:00",
-  "source_file": "4-manufacturing/README.md",
-  "language_code": "id"
-}
--->
 # Manufaktur dan Pemrosesan - menggunakan IoT untuk meningkatkan pemrosesan makanan
 
 Setelah makanan mencapai pusat distribusi atau pabrik pengolahan, makanan tersebut tidak selalu langsung dikirim ke supermarket. Sering kali, makanan melalui sejumlah langkah pemrosesan, seperti penyortiran berdasarkan kualitas. Ini adalah proses yang dulunya dilakukan secara manual - dimulai di ladang ketika para pemetik hanya memetik buah yang matang, lalu di pabrik buah tersebut akan berjalan di atas ban berjalan dan karyawan secara manual akan mengeluarkan buah yang memar atau busuk. Setelah pernah memetik dan menyortir stroberi sendiri sebagai pekerjaan musim panas saat sekolah, saya bisa bersaksi bahwa ini bukan pekerjaan yang menyenangkan.

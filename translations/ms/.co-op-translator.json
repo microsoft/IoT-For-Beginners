@@ -1,0 +1,830 @@
+{
+  "1-getting-started/README.md": {
+    "original_hash": "e2b1b891b08ef7633d285547fbe73290",
+    "translation_date": "2025-08-27T22:13:03+00:00",
+    "source_file": "1-getting-started/README.md",
+    "language_code": "ms"
+  },
+  "1-getting-started/lessons/1-introduction-to-iot/README.md": {
+    "original_hash": "9bae08314d8487cb76ddf3d8797e1544",
+    "translation_date": "2025-08-27T22:37:50+00:00",
+    "source_file": "1-getting-started/lessons/1-introduction-to-iot/README.md",
+    "language_code": "ms"
+  },
+  "1-getting-started/lessons/1-introduction-to-iot/assignment.md": {
+    "original_hash": "7ef1cec2d27b086032d46ab1958f3e99",
+    "translation_date": "2025-08-27T22:40:40+00:00",
+    "source_file": "1-getting-started/lessons/1-introduction-to-iot/assignment.md",
+    "language_code": "ms"
+  },
+  "1-getting-started/lessons/1-introduction-to-iot/pi.md": {
+    "original_hash": "8ff0d0a1d29832bb896b9c103b69a452",
+    "translation_date": "2025-08-27T22:44:48+00:00",
+    "source_file": "1-getting-started/lessons/1-introduction-to-iot/pi.md",
+    "language_code": "ms"
+  },
+  "1-getting-started/lessons/1-introduction-to-iot/virtual-device.md": {
+    "original_hash": "52b4de6144b2efdced7797a5339d6035",
+    "translation_date": "2025-08-27T22:41:58+00:00",
+    "source_file": "1-getting-started/lessons/1-introduction-to-iot/virtual-device.md",
+    "language_code": "ms"
+  },
+  "1-getting-started/lessons/1-introduction-to-iot/wio-terminal.md": {
+    "original_hash": "a4f0c166010e31fd7b6ca20bc88dec6d",
+    "translation_date": "2025-08-27T22:47:13+00:00",
+    "source_file": "1-getting-started/lessons/1-introduction-to-iot/wio-terminal.md",
+    "language_code": "ms"
+  },
+  "1-getting-started/lessons/2-deeper-dive/README.md": {
+    "original_hash": "9dd7f645ad1c6f20b72fee512987f772",
+    "translation_date": "2025-08-27T22:51:18+00:00",
+    "source_file": "1-getting-started/lessons/2-deeper-dive/README.md",
+    "language_code": "ms"
+  },
+  "1-getting-started/lessons/2-deeper-dive/assignment.md": {
+    "original_hash": "750bd75866471141f857240219084767",
+    "translation_date": "2025-08-27T22:54:36+00:00",
+    "source_file": "1-getting-started/lessons/2-deeper-dive/assignment.md",
+    "language_code": "ms"
+  },
+  "1-getting-started/lessons/3-sensors-and-actuators/README.md": {
+    "original_hash": "e9ee00eb5fc55922a73762acc542166b",
+    "translation_date": "2025-08-27T22:27:05+00:00",
+    "source_file": "1-getting-started/lessons/3-sensors-and-actuators/README.md",
+    "language_code": "ms"
+  },
+  "1-getting-started/lessons/3-sensors-and-actuators/assignment.md": {
+    "original_hash": "c5a568320b1159394108544807895337",
+    "translation_date": "2025-08-27T22:30:15+00:00",
+    "source_file": "1-getting-started/lessons/3-sensors-and-actuators/assignment.md",
+    "language_code": "ms"
+  },
+  "1-getting-started/lessons/3-sensors-and-actuators/pi-actuator.md": {
+    "original_hash": "4db8a3879a53490513571df2f6cf7641",
+    "translation_date": "2025-08-27T22:31:10+00:00",
+    "source_file": "1-getting-started/lessons/3-sensors-and-actuators/pi-actuator.md",
+    "language_code": "ms"
+  },
+  "1-getting-started/lessons/3-sensors-and-actuators/pi-sensor.md": {
+    "original_hash": "ea733bd0cdf2479e082373f765a08678",
+    "translation_date": "2025-08-27T22:24:40+00:00",
+    "source_file": "1-getting-started/lessons/3-sensors-and-actuators/pi-sensor.md",
+    "language_code": "ms"
+  },
+  "1-getting-started/lessons/3-sensors-and-actuators/virtual-device-actuator.md": {
+    "original_hash": "9c640f93263fd9adbfda920739e09feb",
+    "translation_date": "2025-08-27T22:33:35+00:00",
+    "source_file": "1-getting-started/lessons/3-sensors-and-actuators/virtual-device-actuator.md",
+    "language_code": "ms"
+  },
+  "1-getting-started/lessons/3-sensors-and-actuators/virtual-device-sensor.md": {
+    "original_hash": "11f10c6760fb8202cf368422702fdf70",
+    "translation_date": "2025-08-27T22:34:33+00:00",
+    "source_file": "1-getting-started/lessons/3-sensors-and-actuators/virtual-device-sensor.md",
+    "language_code": "ms"
+  },
+  "1-getting-started/lessons/3-sensors-and-actuators/wio-terminal-actuator.md": {
+    "original_hash": "db44083b4dc6fb06eac83c4f16448940",
+    "translation_date": "2025-08-27T22:32:19+00:00",
+    "source_file": "1-getting-started/lessons/3-sensors-and-actuators/wio-terminal-actuator.md",
+    "language_code": "ms"
+  },
+  "1-getting-started/lessons/3-sensors-and-actuators/wio-terminal-sensor.md": {
+    "original_hash": "7f4ad0ef54f248b85b92187c94cf9dcb",
+    "translation_date": "2025-08-27T22:35:25+00:00",
+    "source_file": "1-getting-started/lessons/3-sensors-and-actuators/wio-terminal-sensor.md",
+    "language_code": "ms"
+  },
+  "1-getting-started/lessons/4-connect-internet/README.md": {
+    "original_hash": "71b5040e0b3472f1c0949c9b55f224c0",
+    "translation_date": "2025-08-27T22:17:22+00:00",
+    "source_file": "1-getting-started/lessons/4-connect-internet/README.md",
+    "language_code": "ms"
+  },
+  "1-getting-started/lessons/4-connect-internet/assignment.md": {
+    "original_hash": "0d4033cdd7b5b5475c63770102e38480",
+    "translation_date": "2025-08-27T22:21:04+00:00",
+    "source_file": "1-getting-started/lessons/4-connect-internet/assignment.md",
+    "language_code": "ms"
+  },
+  "1-getting-started/lessons/4-connect-internet/single-board-computer-commands.md": {
+    "original_hash": "c527ce85d69b1a3875366ec61cbed8aa",
+    "translation_date": "2025-08-27T22:13:38+00:00",
+    "source_file": "1-getting-started/lessons/4-connect-internet/single-board-computer-commands.md",
+    "language_code": "ms"
+  },
+  "1-getting-started/lessons/4-connect-internet/single-board-computer-mqtt.md": {
+    "original_hash": "90fb93446e03c38f3c0e4009c2471906",
+    "translation_date": "2025-08-27T22:21:44+00:00",
+    "source_file": "1-getting-started/lessons/4-connect-internet/single-board-computer-mqtt.md",
+    "language_code": "ms"
+  },
+  "1-getting-started/lessons/4-connect-internet/single-board-computer-telemetry.md": {
+    "original_hash": "1226517aae5f5b6f904434670394c688",
+    "translation_date": "2025-08-27T22:14:15+00:00",
+    "source_file": "1-getting-started/lessons/4-connect-internet/single-board-computer-telemetry.md",
+    "language_code": "ms"
+  },
+  "1-getting-started/lessons/4-connect-internet/wio-terminal-commands.md": {
+    "original_hash": "6754c915dae64ba70fcd5e52c37f3adf",
+    "translation_date": "2025-08-27T22:23:54+00:00",
+    "source_file": "1-getting-started/lessons/4-connect-internet/wio-terminal-commands.md",
+    "language_code": "ms"
+  },
+  "1-getting-started/lessons/4-connect-internet/wio-terminal-mqtt.md": {
+    "original_hash": "d6faf0e8d3c2d6d20c0aef2a305dab18",
+    "translation_date": "2025-08-27T22:22:48+00:00",
+    "source_file": "1-getting-started/lessons/4-connect-internet/wio-terminal-mqtt.md",
+    "language_code": "ms"
+  },
+  "1-getting-started/lessons/4-connect-internet/wio-terminal-telemetry.md": {
+    "original_hash": "4bcc29fe2b65e56eada83d2476279227",
+    "translation_date": "2025-08-27T22:20:28+00:00",
+    "source_file": "1-getting-started/lessons/4-connect-internet/wio-terminal-telemetry.md",
+    "language_code": "ms"
+  },
+  "2-farm/README.md": {
+    "original_hash": "428bda82d9e6016ecea7c797564bf081",
+    "translation_date": "2025-08-27T21:22:01+00:00",
+    "source_file": "2-farm/README.md",
+    "language_code": "ms"
+  },
+  "2-farm/lessons/1-predict-plant-growth/README.md": {
+    "original_hash": "d105b44deae539165855c976dcdeca99",
+    "translation_date": "2025-08-27T21:24:30+00:00",
+    "source_file": "2-farm/lessons/1-predict-plant-growth/README.md",
+    "language_code": "ms"
+  },
+  "2-farm/lessons/1-predict-plant-growth/assignment.md": {
+    "original_hash": "1e21b012c6685f8bf73e0e76cdca3347",
+    "translation_date": "2025-08-27T21:27:09+00:00",
+    "source_file": "2-farm/lessons/1-predict-plant-growth/assignment.md",
+    "language_code": "ms"
+  },
+  "2-farm/lessons/1-predict-plant-growth/pi-temp.md": {
+    "original_hash": "7678f7c67b97ee52d5727496dcd7d346",
+    "translation_date": "2025-08-27T21:31:00+00:00",
+    "source_file": "2-farm/lessons/1-predict-plant-growth/pi-temp.md",
+    "language_code": "ms"
+  },
+  "2-farm/lessons/1-predict-plant-growth/single-board-computer-temp-publish.md": {
+    "original_hash": "4efc74299e19f5d08f2f3f34451a11ba",
+    "translation_date": "2025-08-27T21:26:23+00:00",
+    "source_file": "2-farm/lessons/1-predict-plant-growth/single-board-computer-temp-publish.md",
+    "language_code": "ms"
+  },
+  "2-farm/lessons/1-predict-plant-growth/virtual-device-temp.md": {
+    "original_hash": "70e5a428b607cd5a9a4f422c2a4df03d",
+    "translation_date": "2025-08-27T21:30:00+00:00",
+    "source_file": "2-farm/lessons/1-predict-plant-growth/virtual-device-temp.md",
+    "language_code": "ms"
+  },
+  "2-farm/lessons/1-predict-plant-growth/wio-terminal-temp-publish.md": {
+    "original_hash": "df28cd649cd892bcce034e064913b2f3",
+    "translation_date": "2025-08-27T21:28:55+00:00",
+    "source_file": "2-farm/lessons/1-predict-plant-growth/wio-terminal-temp-publish.md",
+    "language_code": "ms"
+  },
+  "2-farm/lessons/1-predict-plant-growth/wio-terminal-temp.md": {
+    "original_hash": "59263d094f20b302053888cd236880c3",
+    "translation_date": "2025-08-27T21:28:03+00:00",
+    "source_file": "2-farm/lessons/1-predict-plant-growth/wio-terminal-temp.md",
+    "language_code": "ms"
+  },
+  "2-farm/lessons/2-detect-soil-moisture/README.md": {
+    "original_hash": "4fb20273d299dc8d07a8f06c9cd0cdd9",
+    "translation_date": "2025-08-27T21:50:56+00:00",
+    "source_file": "2-farm/lessons/2-detect-soil-moisture/README.md",
+    "language_code": "ms"
+  },
+  "2-farm/lessons/2-detect-soil-moisture/assignment.md": {
+    "original_hash": "506d21b544d5de47406c89ad496a21cd",
+    "translation_date": "2025-08-27T21:55:04+00:00",
+    "source_file": "2-farm/lessons/2-detect-soil-moisture/assignment.md",
+    "language_code": "ms"
+  },
+  "2-farm/lessons/2-detect-soil-moisture/pi-soil-moisture.md": {
+    "original_hash": "9d4d00a47d5d0f3e6ce42c0d1020064a",
+    "translation_date": "2025-08-27T21:57:07+00:00",
+    "source_file": "2-farm/lessons/2-detect-soil-moisture/pi-soil-moisture.md",
+    "language_code": "ms"
+  },
+  "2-farm/lessons/2-detect-soil-moisture/virtual-device-soil-moisture.md": {
+    "original_hash": "2bf65f162bcebd35fbcba5fd245afac4",
+    "translation_date": "2025-08-27T21:55:58+00:00",
+    "source_file": "2-farm/lessons/2-detect-soil-moisture/virtual-device-soil-moisture.md",
+    "language_code": "ms"
+  },
+  "2-farm/lessons/2-detect-soil-moisture/wio-terminal-soil-moisture.md": {
+    "original_hash": "0d55caa8c23d73635b7559102cd17b8a",
+    "translation_date": "2025-08-27T21:53:48+00:00",
+    "source_file": "2-farm/lessons/2-detect-soil-moisture/wio-terminal-soil-moisture.md",
+    "language_code": "ms"
+  },
+  "2-farm/lessons/3-automated-plant-watering/README.md": {
+    "original_hash": "f7bb24ba53fb627ddb38a8b24a05e594",
+    "translation_date": "2025-08-27T21:33:38+00:00",
+    "source_file": "2-farm/lessons/3-automated-plant-watering/README.md",
+    "language_code": "ms"
+  },
+  "2-farm/lessons/3-automated-plant-watering/assignment.md": {
+    "original_hash": "ed0fbd6aed084bfba7d5e2f206968c50",
+    "translation_date": "2025-08-27T21:36:07+00:00",
+    "source_file": "2-farm/lessons/3-automated-plant-watering/assignment.md",
+    "language_code": "ms"
+  },
+  "2-farm/lessons/3-automated-plant-watering/pi-relay.md": {
+    "original_hash": "66b81165e60f8f169bd52a401b6a0f8b",
+    "translation_date": "2025-08-27T21:38:16+00:00",
+    "source_file": "2-farm/lessons/3-automated-plant-watering/pi-relay.md",
+    "language_code": "ms"
+  },
+  "2-farm/lessons/3-automated-plant-watering/virtual-device-relay.md": {
+    "original_hash": "f8f541ee945545017a51aaf309aa37c3",
+    "translation_date": "2025-08-27T21:39:16+00:00",
+    "source_file": "2-farm/lessons/3-automated-plant-watering/virtual-device-relay.md",
+    "language_code": "ms"
+  },
+  "2-farm/lessons/3-automated-plant-watering/wio-terminal-relay.md": {
+    "original_hash": "f3c5d8afa2ef6a0b425ef8ff20615cb4",
+    "translation_date": "2025-08-27T21:37:02+00:00",
+    "source_file": "2-farm/lessons/3-automated-plant-watering/wio-terminal-relay.md",
+    "language_code": "ms"
+  },
+  "2-farm/lessons/4-migrate-your-plant-to-the-cloud/README.md": {
+    "original_hash": "4d8e7a066d75b625e7a979c14157041d",
+    "translation_date": "2025-08-27T22:00:17+00:00",
+    "source_file": "2-farm/lessons/4-migrate-your-plant-to-the-cloud/README.md",
+    "language_code": "ms"
+  },
+  "2-farm/lessons/4-migrate-your-plant-to-the-cloud/assignment.md": {
+    "original_hash": "bfd35499bd68d7d740242bfea784bbeb",
+    "translation_date": "2025-08-27T22:03:27+00:00",
+    "source_file": "2-farm/lessons/4-migrate-your-plant-to-the-cloud/assignment.md",
+    "language_code": "ms"
+  },
+  "2-farm/lessons/4-migrate-your-plant-to-the-cloud/single-board-computer-connect-hub.md": {
+    "original_hash": "3ac42e284a7222c0e83d2d43231a364f",
+    "translation_date": "2025-08-27T22:04:08+00:00",
+    "source_file": "2-farm/lessons/4-migrate-your-plant-to-the-cloud/single-board-computer-connect-hub.md",
+    "language_code": "ms"
+  },
+  "2-farm/lessons/4-migrate-your-plant-to-the-cloud/wio-terminal-connect-hub.md": {
+    "original_hash": "28320305a35ea3bc59c41fe146a2e6ed",
+    "translation_date": "2025-08-27T22:05:23+00:00",
+    "source_file": "2-farm/lessons/4-migrate-your-plant-to-the-cloud/wio-terminal-connect-hub.md",
+    "language_code": "ms"
+  },
+  "2-farm/lessons/5-migrate-application-to-the-cloud/README.md": {
+    "original_hash": "5f2d2f4a5a023c93ab34a0cc5b47c0c4",
+    "translation_date": "2025-08-27T21:42:50+00:00",
+    "source_file": "2-farm/lessons/5-migrate-application-to-the-cloud/README.md",
+    "language_code": "ms"
+  },
+  "2-farm/lessons/5-migrate-application-to-the-cloud/assignment.md": {
+    "original_hash": "c24b6e4d90501c9199f2ceb6a648a337",
+    "translation_date": "2025-08-27T21:46:50+00:00",
+    "source_file": "2-farm/lessons/5-migrate-application-to-the-cloud/assignment.md",
+    "language_code": "ms"
+  },
+  "2-farm/lessons/6-keep-your-plant-secure/README.md": {
+    "original_hash": "81c437c568eee1b0dda1f04e88150d37",
+    "translation_date": "2025-08-27T22:08:38+00:00",
+    "source_file": "2-farm/lessons/6-keep-your-plant-secure/README.md",
+    "language_code": "ms"
+  },
+  "2-farm/lessons/6-keep-your-plant-secure/assignment.md": {
+    "original_hash": "34010c663d96d5f419eda6ac2366a78d",
+    "translation_date": "2025-08-27T22:10:50+00:00",
+    "source_file": "2-farm/lessons/6-keep-your-plant-secure/assignment.md",
+    "language_code": "ms"
+  },
+  "2-farm/lessons/6-keep-your-plant-secure/single-board-computer-x509.md": {
+    "original_hash": "9aea84bcc7520222b0e1c50469d62d6a",
+    "translation_date": "2025-08-27T22:11:29+00:00",
+    "source_file": "2-farm/lessons/6-keep-your-plant-secure/single-board-computer-x509.md",
+    "language_code": "ms"
+  },
+  "2-farm/lessons/6-keep-your-plant-secure/wio-terminal-x509.md": {
+    "original_hash": "8a74f789f3c1bf41a13c007190360c19",
+    "translation_date": "2025-08-27T22:11:59+00:00",
+    "source_file": "2-farm/lessons/6-keep-your-plant-secure/wio-terminal-x509.md",
+    "language_code": "ms"
+  },
+  "3-transport/README.md": {
+    "original_hash": "e978534a245b000725ed2a048f943213",
+    "translation_date": "2025-08-27T23:33:31+00:00",
+    "source_file": "3-transport/README.md",
+    "language_code": "ms"
+  },
+  "3-transport/lessons/1-location-tracking/README.md": {
+    "original_hash": "52ed2bd997d08040f79a1a6ef2bac958",
+    "translation_date": "2025-08-27T23:43:24+00:00",
+    "source_file": "3-transport/lessons/1-location-tracking/README.md",
+    "language_code": "ms"
+  },
+  "3-transport/lessons/1-location-tracking/assignment.md": {
+    "original_hash": "bded364fc06ce37d7a76aed3be1ba73a",
+    "translation_date": "2025-08-27T23:45:22+00:00",
+    "source_file": "3-transport/lessons/1-location-tracking/assignment.md",
+    "language_code": "ms"
+  },
+  "3-transport/lessons/1-location-tracking/pi-gps-sensor.md": {
+    "original_hash": "3b2448c7ab4e9673e77e35a50c5e350d",
+    "translation_date": "2025-08-27T23:46:47+00:00",
+    "source_file": "3-transport/lessons/1-location-tracking/pi-gps-sensor.md",
+    "language_code": "ms"
+  },
+  "3-transport/lessons/1-location-tracking/single-board-computer-gps-decode.md": {
+    "original_hash": "cbb8c285bc64c5192fae3368fb5077d2",
+    "translation_date": "2025-08-27T23:45:56+00:00",
+    "source_file": "3-transport/lessons/1-location-tracking/single-board-computer-gps-decode.md",
+    "language_code": "ms"
+  },
+  "3-transport/lessons/1-location-tracking/virtual-device-gps-sensor.md": {
+    "original_hash": "64f18a8f8aaa1fef5e7320e0992d8b3a",
+    "translation_date": "2025-08-27T23:40:55+00:00",
+    "source_file": "3-transport/lessons/1-location-tracking/virtual-device-gps-sensor.md",
+    "language_code": "ms"
+  },
+  "3-transport/lessons/1-location-tracking/wio-terminal-gps-decode.md": {
+    "original_hash": "fbbcf96a9b63ccd661db98bbf854bb06",
+    "translation_date": "2025-08-27T23:47:44+00:00",
+    "source_file": "3-transport/lessons/1-location-tracking/wio-terminal-gps-decode.md",
+    "language_code": "ms"
+  },
+  "3-transport/lessons/1-location-tracking/wio-terminal-gps-sensor.md": {
+    "original_hash": "da6ae0a795cf06be33d23ca5b8493fc8",
+    "translation_date": "2025-08-27T23:39:46+00:00",
+    "source_file": "3-transport/lessons/1-location-tracking/wio-terminal-gps-sensor.md",
+    "language_code": "ms"
+  },
+  "3-transport/lessons/2-store-location-data/README.md": {
+    "original_hash": "e345843ccfeb7261d81500d19c64d476",
+    "translation_date": "2025-08-27T23:54:38+00:00",
+    "source_file": "3-transport/lessons/2-store-location-data/README.md",
+    "language_code": "ms"
+  },
+  "3-transport/lessons/2-store-location-data/assignment.md": {
+    "original_hash": "b2e0a965723082b068f735aec0faf3f6",
+    "translation_date": "2025-08-27T23:57:18+00:00",
+    "source_file": "3-transport/lessons/2-store-location-data/assignment.md",
+    "language_code": "ms"
+  },
+  "3-transport/lessons/3-visualize-location-data/README.md": {
+    "original_hash": "9095c61445c2bca7245ef9b59a186a11",
+    "translation_date": "2025-08-27T23:49:44+00:00",
+    "source_file": "3-transport/lessons/3-visualize-location-data/README.md",
+    "language_code": "ms"
+  },
+  "3-transport/lessons/3-visualize-location-data/assignment.md": {
+    "original_hash": "0ccdc1faa676a485c4c6ecbddb9f9067",
+    "translation_date": "2025-08-27T23:51:40+00:00",
+    "source_file": "3-transport/lessons/3-visualize-location-data/assignment.md",
+    "language_code": "ms"
+  },
+  "3-transport/lessons/4-geofences/README.md": {
+    "original_hash": "078ae664c7b686bf069545e9a5fc95b2",
+    "translation_date": "2025-08-27T23:36:13+00:00",
+    "source_file": "3-transport/lessons/4-geofences/README.md",
+    "language_code": "ms"
+  },
+  "3-transport/lessons/4-geofences/assignment.md": {
+    "original_hash": "5cb65a6ec4387ed177e145347e8e308e",
+    "translation_date": "2025-08-27T23:38:52+00:00",
+    "source_file": "3-transport/lessons/4-geofences/assignment.md",
+    "language_code": "ms"
+  },
+  "4-manufacturing/README.md": {
+    "original_hash": "3764e089adf2d5801272bc0895f8498b",
+    "translation_date": "2025-08-27T20:50:36+00:00",
+    "source_file": "4-manufacturing/README.md",
+    "language_code": "ms"
+  },
+  "4-manufacturing/lessons/1-train-fruit-detector/README.md": {
+    "original_hash": "f5e63c916d2dd97d58be12aaf76bd9f1",
+    "translation_date": "2025-08-27T20:53:03+00:00",
+    "source_file": "4-manufacturing/lessons/1-train-fruit-detector/README.md",
+    "language_code": "ms"
+  },
+  "4-manufacturing/lessons/1-train-fruit-detector/assignment.md": {
+    "original_hash": "e74eb2fc7cc3b81916b52e957802f182",
+    "translation_date": "2025-08-27T20:55:21+00:00",
+    "source_file": "4-manufacturing/lessons/1-train-fruit-detector/assignment.md",
+    "language_code": "ms"
+  },
+  "4-manufacturing/lessons/2-check-fruit-from-device/README.md": {
+    "original_hash": "557f4ee96b752e0651d2e6e74aa6bd14",
+    "translation_date": "2025-08-27T20:56:44+00:00",
+    "source_file": "4-manufacturing/lessons/2-check-fruit-from-device/README.md",
+    "language_code": "ms"
+  },
+  "4-manufacturing/lessons/2-check-fruit-from-device/assignment.md": {
+    "original_hash": "022e21f8629b721424c1de25195fff67",
+    "translation_date": "2025-08-27T20:58:15+00:00",
+    "source_file": "4-manufacturing/lessons/2-check-fruit-from-device/assignment.md",
+    "language_code": "ms"
+  },
+  "4-manufacturing/lessons/2-check-fruit-from-device/pi-camera.md": {
+    "original_hash": "c677667095f6133eee418c7e53615d05",
+    "translation_date": "2025-08-27T20:59:25+00:00",
+    "source_file": "4-manufacturing/lessons/2-check-fruit-from-device/pi-camera.md",
+    "language_code": "ms"
+  },
+  "4-manufacturing/lessons/2-check-fruit-from-device/single-board-computer-classify-image.md": {
+    "original_hash": "e5896207b304ce1abaf065b8acc0cc79",
+    "translation_date": "2025-08-27T21:00:46+00:00",
+    "source_file": "4-manufacturing/lessons/2-check-fruit-from-device/single-board-computer-classify-image.md",
+    "language_code": "ms"
+  },
+  "4-manufacturing/lessons/2-check-fruit-from-device/virtual-device-camera.md": {
+    "original_hash": "3ba7150ffc4a6999f6c3cfb4906ec7df",
+    "translation_date": "2025-08-27T21:03:28+00:00",
+    "source_file": "4-manufacturing/lessons/2-check-fruit-from-device/virtual-device-camera.md",
+    "language_code": "ms"
+  },
+  "4-manufacturing/lessons/2-check-fruit-from-device/wio-terminal-camera.md": {
+    "original_hash": "160be8c0f558687f6686dca64f10f739",
+    "translation_date": "2025-08-27T21:05:36+00:00",
+    "source_file": "4-manufacturing/lessons/2-check-fruit-from-device/wio-terminal-camera.md",
+    "language_code": "ms"
+  },
+  "4-manufacturing/lessons/2-check-fruit-from-device/wio-terminal-classify-image.md": {
+    "original_hash": "32a1f23e7834fbe7715da8c4ebb450b9",
+    "translation_date": "2025-08-27T21:02:00+00:00",
+    "source_file": "4-manufacturing/lessons/2-check-fruit-from-device/wio-terminal-classify-image.md",
+    "language_code": "ms"
+  },
+  "4-manufacturing/lessons/3-run-fruit-detector-edge/README.md": {
+    "original_hash": "2625af24587465c5547ae33d6cc000a5",
+    "translation_date": "2025-08-27T21:09:34+00:00",
+    "source_file": "4-manufacturing/lessons/3-run-fruit-detector-edge/README.md",
+    "language_code": "ms"
+  },
+  "4-manufacturing/lessons/3-run-fruit-detector-edge/assignment.md": {
+    "original_hash": "cc7ad255517f5f618f9c8899e6ff6783",
+    "translation_date": "2025-08-27T21:12:26+00:00",
+    "source_file": "4-manufacturing/lessons/3-run-fruit-detector-edge/assignment.md",
+    "language_code": "ms"
+  },
+  "4-manufacturing/lessons/3-run-fruit-detector-edge/single-board-computer.md": {
+    "original_hash": "50151d9f9dce2801348a93880ef16d86",
+    "translation_date": "2025-08-27T21:14:33+00:00",
+    "source_file": "4-manufacturing/lessons/3-run-fruit-detector-edge/single-board-computer.md",
+    "language_code": "ms"
+  },
+  "4-manufacturing/lessons/3-run-fruit-detector-edge/vm-iotedge.md": {
+    "original_hash": "24dc783a600e20251211987b36370e93",
+    "translation_date": "2025-08-27T21:13:09+00:00",
+    "source_file": "4-manufacturing/lessons/3-run-fruit-detector-edge/vm-iotedge.md",
+    "language_code": "ms"
+  },
+  "4-manufacturing/lessons/3-run-fruit-detector-edge/wio-terminal.md": {
+    "original_hash": "48ac21ec80329c930db7b84bd6b592ec",
+    "translation_date": "2025-08-27T21:13:56+00:00",
+    "source_file": "4-manufacturing/lessons/3-run-fruit-detector-edge/wio-terminal.md",
+    "language_code": "ms"
+  },
+  "4-manufacturing/lessons/4-trigger-fruit-detector/README.md": {
+    "original_hash": "f74f4ccb61f00e5f7e9f49c3ed416e36",
+    "translation_date": "2025-08-27T21:16:40+00:00",
+    "source_file": "4-manufacturing/lessons/4-trigger-fruit-detector/README.md",
+    "language_code": "ms"
+  },
+  "4-manufacturing/lessons/4-trigger-fruit-detector/assignment.md": {
+    "original_hash": "1a85e50c33c38dcd2cde2a97d132f248",
+    "translation_date": "2025-08-27T21:18:49+00:00",
+    "source_file": "4-manufacturing/lessons/4-trigger-fruit-detector/assignment.md",
+    "language_code": "ms"
+  },
+  "4-manufacturing/lessons/4-trigger-fruit-detector/pi-proximity.md": {
+    "original_hash": "6145a1d791731c8a9d0afd0a1bae5108",
+    "translation_date": "2025-08-27T21:19:34+00:00",
+    "source_file": "4-manufacturing/lessons/4-trigger-fruit-detector/pi-proximity.md",
+    "language_code": "ms"
+  },
+  "4-manufacturing/lessons/4-trigger-fruit-detector/virtual-device-proximity.md": {
+    "original_hash": "7e9f05bdc50a40fd924b1d66934471bf",
+    "translation_date": "2025-08-27T21:21:21+00:00",
+    "source_file": "4-manufacturing/lessons/4-trigger-fruit-detector/virtual-device-proximity.md",
+    "language_code": "ms"
+  },
+  "4-manufacturing/lessons/4-trigger-fruit-detector/wio-terminal-proximity.md": {
+    "original_hash": "288aebb0c59f7be1d2719b8f9660a313",
+    "translation_date": "2025-08-27T21:20:30+00:00",
+    "source_file": "4-manufacturing/lessons/4-trigger-fruit-detector/wio-terminal-proximity.md",
+    "language_code": "ms"
+  },
+  "5-retail/README.md": {
+    "original_hash": "22a1d6e49f2a689fe5bfa7802a7241fc",
+    "translation_date": "2025-08-27T20:39:07+00:00",
+    "source_file": "5-retail/README.md",
+    "language_code": "ms"
+  },
+  "5-retail/lessons/1-train-stock-detector/README.md": {
+    "original_hash": "8df310a42f902139a01417dacb1ffbef",
+    "translation_date": "2025-08-27T20:48:11+00:00",
+    "source_file": "5-retail/lessons/1-train-stock-detector/README.md",
+    "language_code": "ms"
+  },
+  "5-retail/lessons/1-train-stock-detector/assignment.md": {
+    "original_hash": "d93ee76fac4c2199973689ecd05baaf9",
+    "translation_date": "2025-08-27T20:49:57+00:00",
+    "source_file": "5-retail/lessons/1-train-stock-detector/assignment.md",
+    "language_code": "ms"
+  },
+  "5-retail/lessons/2-check-stock-device/README.md": {
+    "original_hash": "1c9e5fa8b7be726c75a97232b1e41c97",
+    "translation_date": "2025-08-27T20:41:38+00:00",
+    "source_file": "5-retail/lessons/2-check-stock-device/README.md",
+    "language_code": "ms"
+  },
+  "5-retail/lessons/2-check-stock-device/assignment.md": {
+    "original_hash": "3cf7783991ec0ee4f6041223924894c7",
+    "translation_date": "2025-08-27T20:43:15+00:00",
+    "source_file": "5-retail/lessons/2-check-stock-device/assignment.md",
+    "language_code": "ms"
+  },
+  "5-retail/lessons/2-check-stock-device/single-board-computer-count-stock.md": {
+    "original_hash": "9c4320311c0f2c1884a6a21265d98a51",
+    "translation_date": "2025-08-27T20:45:12+00:00",
+    "source_file": "5-retail/lessons/2-check-stock-device/single-board-computer-count-stock.md",
+    "language_code": "ms"
+  },
+  "5-retail/lessons/2-check-stock-device/single-board-computer-object-detector.md": {
+    "original_hash": "a3fdfec1d1e2cb645ea11c2930b51299",
+    "translation_date": "2025-08-27T20:39:48+00:00",
+    "source_file": "5-retail/lessons/2-check-stock-device/single-board-computer-object-detector.md",
+    "language_code": "ms"
+  },
+  "5-retail/lessons/2-check-stock-device/wio-terminal-count-stock.md": {
+    "original_hash": "0b2ae20b0fc8e73c9598dea937cac038",
+    "translation_date": "2025-08-27T20:44:00+00:00",
+    "source_file": "5-retail/lessons/2-check-stock-device/wio-terminal-count-stock.md",
+    "language_code": "ms"
+  },
+  "5-retail/lessons/2-check-stock-device/wio-terminal-object-detector.md": {
+    "original_hash": "4cf1421420a6fab9ab4f2c391bd523b7",
+    "translation_date": "2025-08-27T20:46:20+00:00",
+    "source_file": "5-retail/lessons/2-check-stock-device/wio-terminal-object-detector.md",
+    "language_code": "ms"
+  },
+  "6-consumer/README.md": {
+    "original_hash": "5de7dc1e2ddc402d415473bb795568d4",
+    "translation_date": "2025-08-27T22:55:09+00:00",
+    "source_file": "6-consumer/README.md",
+    "language_code": "ms"
+  },
+  "6-consumer/lessons/1-speech-recognition/README.md": {
+    "original_hash": "6d6aa1be033625d201a190fc9c5cbfb4",
+    "translation_date": "2025-08-27T23:21:26+00:00",
+    "source_file": "6-consumer/lessons/1-speech-recognition/README.md",
+    "language_code": "ms"
+  },
+  "6-consumer/lessons/1-speech-recognition/assignment.md": {
+    "original_hash": "5ae7654f519ae831179409dc8e528055",
+    "translation_date": "2025-08-27T23:23:14+00:00",
+    "source_file": "6-consumer/lessons/1-speech-recognition/assignment.md",
+    "language_code": "ms"
+  },
+  "6-consumer/lessons/1-speech-recognition/pi-audio.md": {
+    "original_hash": "0ac0afcfb40cb5970ef4cb74f01c32e9",
+    "translation_date": "2025-08-27T23:18:50+00:00",
+    "source_file": "6-consumer/lessons/1-speech-recognition/pi-audio.md",
+    "language_code": "ms"
+  },
+  "6-consumer/lessons/1-speech-recognition/pi-microphone.md": {
+    "original_hash": "7e45d884493c5222348b43fbc4481b6a",
+    "translation_date": "2025-08-27T23:29:34+00:00",
+    "source_file": "6-consumer/lessons/1-speech-recognition/pi-microphone.md",
+    "language_code": "ms"
+  },
+  "6-consumer/lessons/1-speech-recognition/pi-speech-to-text.md": {
+    "original_hash": "af249a24d4fe4f4de4806adbc3bc9d86",
+    "translation_date": "2025-08-27T23:31:56+00:00",
+    "source_file": "6-consumer/lessons/1-speech-recognition/pi-speech-to-text.md",
+    "language_code": "ms"
+  },
+  "6-consumer/lessons/1-speech-recognition/virtual-device-audio.md": {
+    "original_hash": "e4f2925acb211765889c3b51b9116ceb",
+    "translation_date": "2025-08-27T23:32:35+00:00",
+    "source_file": "6-consumer/lessons/1-speech-recognition/virtual-device-audio.md",
+    "language_code": "ms"
+  },
+  "6-consumer/lessons/1-speech-recognition/virtual-device-microphone.md": {
+    "original_hash": "7a65ee743f916276a2848b8a9491feb7",
+    "translation_date": "2025-08-27T23:32:55+00:00",
+    "source_file": "6-consumer/lessons/1-speech-recognition/virtual-device-microphone.md",
+    "language_code": "ms"
+  },
+  "6-consumer/lessons/1-speech-recognition/virtual-device-speech-to-text.md": {
+    "original_hash": "c0550b254b9ba2539baf1e6bb5fc05f8",
+    "translation_date": "2025-08-27T23:23:51+00:00",
+    "source_file": "6-consumer/lessons/1-speech-recognition/virtual-device-speech-to-text.md",
+    "language_code": "ms"
+  },
+  "6-consumer/lessons/1-speech-recognition/wio-terminal-audio.md": {
+    "original_hash": "2f336726b9410e97c3aaed76cc89b0d8",
+    "translation_date": "2025-08-27T23:25:32+00:00",
+    "source_file": "6-consumer/lessons/1-speech-recognition/wio-terminal-audio.md",
+    "language_code": "ms"
+  },
+  "6-consumer/lessons/1-speech-recognition/wio-terminal-microphone.md": {
+    "original_hash": "93d352de36526b8990e41dd538100324",
+    "translation_date": "2025-08-27T23:30:39+00:00",
+    "source_file": "6-consumer/lessons/1-speech-recognition/wio-terminal-microphone.md",
+    "language_code": "ms"
+  },
+  "6-consumer/lessons/1-speech-recognition/wio-terminal-speech-to-text.md": {
+    "original_hash": "3f92edf2975175577174910caca4a389",
+    "translation_date": "2025-08-27T23:27:57+00:00",
+    "source_file": "6-consumer/lessons/1-speech-recognition/wio-terminal-speech-to-text.md",
+    "language_code": "ms"
+  },
+  "6-consumer/lessons/2-language-understanding/README.md": {
+    "original_hash": "6f4ba69d77f16c4a5110623a96a215c3",
+    "translation_date": "2025-08-27T23:05:35+00:00",
+    "source_file": "6-consumer/lessons/2-language-understanding/README.md",
+    "language_code": "ms"
+  },
+  "6-consumer/lessons/2-language-understanding/assignment.md": {
+    "original_hash": "5a7262a0c48dfacdfe1ff91b20bf16fd",
+    "translation_date": "2025-08-27T23:08:19+00:00",
+    "source_file": "6-consumer/lessons/2-language-understanding/assignment.md",
+    "language_code": "ms"
+  },
+  "6-consumer/lessons/3-spoken-feedback/README.md": {
+    "original_hash": "b73fe10ec6b580fba2affb6f6e0a5c4d",
+    "translation_date": "2025-08-27T23:10:32+00:00",
+    "source_file": "6-consumer/lessons/3-spoken-feedback/README.md",
+    "language_code": "ms"
+  },
+  "6-consumer/lessons/3-spoken-feedback/assignment.md": {
+    "original_hash": "da5d9360fe02fdcc1e91a725016c846d",
+    "translation_date": "2025-08-27T23:11:45+00:00",
+    "source_file": "6-consumer/lessons/3-spoken-feedback/assignment.md",
+    "language_code": "ms"
+  },
+  "6-consumer/lessons/3-spoken-feedback/pi-text-to-speech.md": {
+    "original_hash": "606f3af1c78e3741e48ce77c31cea626",
+    "translation_date": "2025-08-27T23:13:48+00:00",
+    "source_file": "6-consumer/lessons/3-spoken-feedback/pi-text-to-speech.md",
+    "language_code": "ms"
+  },
+  "6-consumer/lessons/3-spoken-feedback/single-board-computer-set-timer.md": {
+    "original_hash": "64ad4ddb4de81a18b7252e968f10b404",
+    "translation_date": "2025-08-27T23:09:00+00:00",
+    "source_file": "6-consumer/lessons/3-spoken-feedback/single-board-computer-set-timer.md",
+    "language_code": "ms"
+  },
+  "6-consumer/lessons/3-spoken-feedback/virtual-device-text-to-speech.md": {
+    "original_hash": "7966848a1f870e4c42edb4db67b13c57",
+    "translation_date": "2025-08-27T23:17:47+00:00",
+    "source_file": "6-consumer/lessons/3-spoken-feedback/virtual-device-text-to-speech.md",
+    "language_code": "ms"
+  },
+  "6-consumer/lessons/3-spoken-feedback/wio-terminal-set-timer.md": {
+    "original_hash": "012b69d57d898d670adf61304f42a137",
+    "translation_date": "2025-08-27T23:12:37+00:00",
+    "source_file": "6-consumer/lessons/3-spoken-feedback/wio-terminal-set-timer.md",
+    "language_code": "ms"
+  },
+  "6-consumer/lessons/3-spoken-feedback/wio-terminal-text-to-speech.md": {
+    "original_hash": "a202fa5889790a3777bfc33dd9f4b459",
+    "translation_date": "2025-08-27T23:15:44+00:00",
+    "source_file": "6-consumer/lessons/3-spoken-feedback/wio-terminal-text-to-speech.md",
+    "language_code": "ms"
+  },
+  "6-consumer/lessons/4-multiple-language-support/README.md": {
+    "original_hash": "c16de27b0074abe81d6a8bad5e5b1a6b",
+    "translation_date": "2025-08-27T22:58:25+00:00",
+    "source_file": "6-consumer/lessons/4-multiple-language-support/README.md",
+    "language_code": "ms"
+  },
+  "6-consumer/lessons/4-multiple-language-support/assignment.md": {
+    "original_hash": "701f4a4466f9309b6e1d863077df0c06",
+    "translation_date": "2025-08-27T23:00:05+00:00",
+    "source_file": "6-consumer/lessons/4-multiple-language-support/assignment.md",
+    "language_code": "ms"
+  },
+  "6-consumer/lessons/4-multiple-language-support/pi-translate-speech.md": {
+    "original_hash": "bbb5aa34221fe129dd3ce4d9ec33831a",
+    "translation_date": "2025-08-27T23:00:59+00:00",
+    "source_file": "6-consumer/lessons/4-multiple-language-support/pi-translate-speech.md",
+    "language_code": "ms"
+  },
+  "6-consumer/lessons/4-multiple-language-support/virtual-device-translate-speech.md": {
+    "original_hash": "d620a470d9dd8614d99824832978360a",
+    "translation_date": "2025-08-27T23:02:14+00:00",
+    "source_file": "6-consumer/lessons/4-multiple-language-support/virtual-device-translate-speech.md",
+    "language_code": "ms"
+  },
+  "6-consumer/lessons/4-multiple-language-support/wio-terminal-translate-speech.md": {
+    "original_hash": "5f6c164e349f8989959e02a90f37908d",
+    "translation_date": "2025-08-27T22:56:15+00:00",
+    "source_file": "6-consumer/lessons/4-multiple-language-support/wio-terminal-translate-speech.md",
+    "language_code": "ms"
+  },
+  "CODE_OF_CONDUCT.md": {
+    "original_hash": "c06b12caf3c901eb3156e3dd5b0aea56",
+    "translation_date": "2025-08-27T20:34:43+00:00",
+    "source_file": "CODE_OF_CONDUCT.md",
+    "language_code": "ms"
+  },
+  "CONTRIBUTING.md": {
+    "original_hash": "d6f80293fa9c213283eac7e79b078671",
+    "translation_date": "2025-08-27T20:38:12+00:00",
+    "source_file": "CONTRIBUTING.md",
+    "language_code": "ms"
+  },
+  "README.md": {
+    "original_hash": "3fcc056cd3837e33d2bdf79f9c359fcf",
+    "translation_date": "2026-01-30T02:18:18+00:00",
+    "source_file": "README.md",
+    "language_code": "ms"
+  },
+  "SECURITY.md": {
+    "original_hash": "8587f83cfded1bfab99fda4022f4df89",
+    "translation_date": "2025-08-27T20:37:26+00:00",
+    "source_file": "SECURITY.md",
+    "language_code": "ms"
+  },
+  "SUPPORT.md": {
+    "original_hash": "cd89329575372232e59605f7a08ae0df",
+    "translation_date": "2025-08-27T20:33:08+00:00",
+    "source_file": "SUPPORT.md",
+    "language_code": "ms"
+  },
+  "TROUBLESHOOTING.md": {
+    "original_hash": "9713e21a309662f6fcb271b573d47848",
+    "translation_date": "2026-01-06T10:12:24+00:00",
+    "source_file": "TROUBLESHOOTING.md",
+    "language_code": "ms"
+  },
+  "attributions.md": {
+    "original_hash": "4506d33bbda7acc0ab20980172687090",
+    "translation_date": "2025-08-27T20:27:39+00:00",
+    "source_file": "attributions.md",
+    "language_code": "ms"
+  },
+  "clean-up.md": {
+    "original_hash": "5a94fbab1ba737e9bd6cc6c64f114fa0",
+    "translation_date": "2025-08-27T20:34:16+00:00",
+    "source_file": "clean-up.md",
+    "language_code": "ms"
+  },
+  "docs/_sidebar.md": {
+    "original_hash": "686f22febaa2b67aa03b738c0dc0bf9b",
+    "translation_date": "2025-08-27T22:12:31+00:00",
+    "source_file": "docs/_sidebar.md",
+    "language_code": "ms"
+  },
+  "docs/troubleshooting.md": {
+    "original_hash": "271dcd720357806934b2f0d94e19410e",
+    "translation_date": "2026-01-06T10:16:39+00:00",
+    "source_file": "docs/troubleshooting.md",
+    "language_code": "ms"
+  },
+  "for-teachers.md": {
+    "original_hash": "9fd36f5dc734203ee28b6cf2573e5eab",
+    "translation_date": "2025-08-27T20:33:39+00:00",
+    "source_file": "for-teachers.md",
+    "language_code": "ms"
+  },
+  "hardware.md": {
+    "original_hash": "3dce18fab38adf93ff30b8c221b1eec5",
+    "translation_date": "2025-08-27T20:36:10+00:00",
+    "source_file": "hardware.md",
+    "language_code": "ms"
+  },
+  "images/README.md": {
+    "original_hash": "50abd54997afa7e7a3fc7019379e49e3",
+    "translation_date": "2025-08-27T20:38:39+00:00",
+    "source_file": "images/README.md",
+    "language_code": "ms"
+  },
+  "lesson-template/README.md": {
+    "original_hash": "0494be70ad7fadd13a8c3d549c23e355",
+    "translation_date": "2025-08-27T23:57:49+00:00",
+    "source_file": "lesson-template/README.md",
+    "language_code": "ms"
+  },
+  "lesson-template/assignment.md": {
+    "original_hash": "b5f62ec256c7e43e771f0d3b4e1a9130",
+    "translation_date": "2025-08-27T23:58:12+00:00",
+    "source_file": "lesson-template/assignment.md",
+    "language_code": "ms"
+  },
+  "quiz-app/README.md": {
+    "original_hash": "2a459ea9177fb0508ca96068ae1009d2",
+    "translation_date": "2025-08-27T23:58:47+00:00",
+    "source_file": "quiz-app/README.md",
+    "language_code": "ms"
+  },
+  "recommended-learning-model.md": {
+    "original_hash": "012bbd19f13171be32ac9ba21d4186c2",
+    "translation_date": "2025-08-27T20:28:36+00:00",
+    "source_file": "recommended-learning-model.md",
+    "language_code": "ms"
+  }
+}

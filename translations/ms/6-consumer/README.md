@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "5de7dc1e2ddc402d415473bb795568d4",
-  "translation_date": "2025-08-27T22:55:09+00:00",
-  "source_file": "6-consumer/README.md",
-  "language_code": "ms"
-}
--->
 # IoT Pengguna - bina pembantu suara pintar
 
 Makanan telah ditanam, dihantar ke kilang pemprosesan, disusun mengikut kualiti, dijual di kedai, dan kini tiba masanya untuk memasak! Salah satu komponen utama di dapur ialah pemasa. Pada mulanya, pemasa ini berbentuk jam pasir - makanan anda dimasak apabila semua pasir telah mengalir ke bahagian bawah. Kemudian ia berkembang menjadi mekanisme jam, dan seterusnya elektrik.

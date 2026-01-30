@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "52b4de6144b2efdced7797a5339d6035",
-  "translation_date": "2025-08-27T22:41:28+00:00",
-  "source_file": "1-getting-started/lessons/1-introduction-to-iot/virtual-device.md",
-  "language_code": "id"
-}
--->
 # Komputer papan tunggal virtual
 
 Daripada membeli perangkat IoT beserta sensor dan aktuatornya, Anda dapat menggunakan komputer Anda untuk mensimulasikan perangkat keras IoT. Proyek [CounterFit](https://github.com/CounterFit-IoT/CounterFit) memungkinkan Anda menjalankan aplikasi secara lokal yang mensimulasikan perangkat keras IoT seperti sensor dan aktuator, serta mengakses sensor dan aktuator tersebut dari kode Python lokal yang ditulis dengan cara yang sama seperti kode yang akan Anda tulis di Raspberry Pi menggunakan perangkat keras fisik.

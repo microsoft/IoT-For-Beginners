@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "3dce18fab38adf93ff30b8c221b1eec5",
-  "translation_date": "2025-08-27T20:35:46+00:00",
-  "source_file": "hardware.md",
-  "language_code": "id"
-}
--->
 # Perangkat Keras
 
 **T** dalam IoT adalah **Things** yang merujuk pada perangkat yang berinteraksi dengan dunia di sekitar kita. Setiap proyek didasarkan pada perangkat keras nyata yang tersedia untuk pelajar dan penggemar. Kami memiliki dua pilihan perangkat keras IoT yang dapat digunakan tergantung pada preferensi pribadi, pengetahuan atau preferensi bahasa pemrograman, tujuan pembelajaran, dan ketersediaan. Kami juga menyediakan versi 'perangkat keras virtual' bagi mereka yang tidak memiliki akses ke perangkat keras, atau ingin belajar lebih banyak sebelum memutuskan untuk membeli.

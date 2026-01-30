@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "e4f2925acb211765889c3b51b9116ceb",
-  "translation_date": "2025-08-27T23:32:35+00:00",
-  "source_file": "6-consumer/lessons/1-speech-recognition/virtual-device-audio.md",
-  "language_code": "ms"
-}
--->
 # Tangkap audio - Peranti IoT Maya
 
 Perpustakaan Python yang akan anda gunakan kemudian dalam pelajaran ini untuk menukar ucapan kepada teks mempunyai fungsi tangkapan audio terbina dalam untuk Windows, macOS dan Linux. Anda tidak perlu melakukan apa-apa di sini.

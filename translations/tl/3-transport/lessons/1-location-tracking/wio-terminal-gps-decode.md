@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "fbbcf96a9b63ccd661db98bbf854bb06",
-  "translation_date": "2025-08-27T23:47:52+00:00",
-  "source_file": "3-transport/lessons/1-location-tracking/wio-terminal-gps-decode.md",
-  "language_code": "tl"
-}
--->
 # Decode GPS data - Wio Terminal
 
 Sa bahaging ito ng aralin, ide-decode mo ang mga NMEA message na nabasa mula sa GPS sensor ng Wio Terminal, at kukunin ang latitude at longitude.

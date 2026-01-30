@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "d620a470d9dd8614d99824832978360a",
-  "translation_date": "2025-08-27T23:02:38+00:00",
-  "source_file": "6-consumer/lessons/4-multiple-language-support/virtual-device-translate-speech.md",
-  "language_code": "tl"
-}
--->
 # Isalin ang pagsasalita - Virtual IoT Device
 
 Sa bahaging ito ng aralin, magsusulat ka ng code upang isalin ang pagsasalita kapag nagko-convert sa text gamit ang speech service, pagkatapos ay isalin ang text gamit ang Translator service bago bumuo ng sagot na binibigkas.

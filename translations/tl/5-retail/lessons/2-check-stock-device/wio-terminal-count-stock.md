@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "0b2ae20b0fc8e73c9598dea937cac038",
-  "translation_date": "2025-08-27T20:44:14+00:00",
-  "source_file": "5-retail/lessons/2-check-stock-device/wio-terminal-count-stock.md",
-  "language_code": "tl"
-}
--->
 # Bilangin ang stock mula sa iyong IoT device - Wio Terminal
 
 Ang kombinasyon ng mga prediksyon at kanilang bounding boxes ay maaaring gamitin upang bilangin ang stock sa isang imahe.

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "3f92edf2975175577174910caca4a389",
-  "translation_date": "2025-08-27T23:27:27+00:00",
-  "source_file": "6-consumer/lessons/1-speech-recognition/wio-terminal-speech-to-text.md",
-  "language_code": "id"
-}
--->
 # Ucapan ke Teks - Wio Terminal
 
 Dalam bagian pelajaran ini, Anda akan menulis kode untuk mengubah ucapan dalam audio yang ditangkap menjadi teks menggunakan layanan ucapan.

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "6145a1d791731c8a9d0afd0a1bae5108",
-  "translation_date": "2025-08-27T21:19:34+00:00",
-  "source_file": "4-manufacturing/lessons/4-trigger-fruit-detector/pi-proximity.md",
-  "language_code": "ms"
-}
--->
 # Mengesan Kedekatan - Raspberry Pi
 
 Dalam bahagian pelajaran ini, anda akan menambah sensor kedekatan pada Raspberry Pi anda, dan membaca jarak daripadanya.

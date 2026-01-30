@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "52b4de6144b2efdced7797a5339d6035",
-  "translation_date": "2025-08-27T22:41:58+00:00",
-  "source_file": "1-getting-started/lessons/1-introduction-to-iot/virtual-device.md",
-  "language_code": "ms"
-}
--->
 # Komputer Papan Tunggal Maya
 
 Daripada membeli peranti IoT bersama sensor dan aktuator, anda boleh menggunakan komputer anda untuk mensimulasikan perkakasan IoT. Projek [CounterFit](https://github.com/CounterFit-IoT/CounterFit) membolehkan anda menjalankan aplikasi secara tempatan yang mensimulasikan perkakasan IoT seperti sensor dan aktuator, serta mengakses sensor dan aktuator tersebut daripada kod Python tempatan yang ditulis dengan cara yang sama seperti kod yang anda tulis pada Raspberry Pi menggunakan perkakasan fizikal.

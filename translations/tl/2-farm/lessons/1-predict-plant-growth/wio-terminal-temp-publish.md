@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "df28cd649cd892bcce034e064913b2f3",
-  "translation_date": "2025-08-27T21:29:11+00:00",
-  "source_file": "2-farm/lessons/1-predict-plant-growth/wio-terminal-temp-publish.md",
-  "language_code": "tl"
-}
--->
 # I-publish ang temperatura - Wio Terminal
 
 Sa bahaging ito ng aralin, ipapadala mo ang mga halaga ng temperatura na natukoy ng Wio Terminal gamit ang MQTT upang magamit ito sa pag-compute ng GDD sa hinaharap.

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "32a1f23e7834fbe7715da8c4ebb450b9",
-  "translation_date": "2025-08-27T21:02:30+00:00",
-  "source_file": "4-manufacturing/lessons/2-check-fruit-from-device/wio-terminal-classify-image.md",
-  "language_code": "tl"
-}
--->
 # Magklasipika ng Imahe - Wio Terminal
 
 Sa bahaging ito ng aralin, ipapadala mo ang imahe na kinunan ng camera sa Custom Vision service upang ma-klasipika ito.

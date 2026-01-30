@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "3dce18fab38adf93ff30b8c221b1eec5",
-  "translation_date": "2025-08-27T20:36:10+00:00",
-  "source_file": "hardware.md",
-  "language_code": "ms"
-}
--->
 # Perkakasan
 
 Huruf **T** dalam IoT merujuk kepada **Things** (Perkara) dan merujuk kepada peranti yang berinteraksi dengan dunia di sekeliling kita. Setiap projek adalah berdasarkan perkakasan dunia sebenar yang tersedia untuk pelajar dan penggemar. Kami mempunyai dua pilihan perkakasan IoT untuk digunakan bergantung pada keutamaan peribadi, pengetahuan atau keutamaan bahasa pengaturcaraan, matlamat pembelajaran, dan ketersediaan. Kami juga menyediakan versi 'perkakasan maya' untuk mereka yang tidak mempunyai akses kepada perkakasan atau ingin belajar lebih lanjut sebelum membuat pembelian.

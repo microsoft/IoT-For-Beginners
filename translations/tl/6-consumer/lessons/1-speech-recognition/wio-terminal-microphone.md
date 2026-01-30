@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "93d352de36526b8990e41dd538100324",
-  "translation_date": "2025-08-27T23:30:57+00:00",
-  "source_file": "6-consumer/lessons/1-speech-recognition/wio-terminal-microphone.md",
-  "language_code": "tl"
-}
--->
 # I-configure ang iyong mikropono at mga speaker - Wio Terminal
 
 Sa bahaging ito ng aralin, magdadagdag ka ng mga speaker sa iyong Wio Terminal. Ang Wio Terminal ay may built-in na mikropono na maaaring gamitin upang makuha ang boses.

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "7e45d884493c5222348b43fbc4481b6a",
-  "translation_date": "2025-08-27T23:29:50+00:00",
-  "source_file": "6-consumer/lessons/1-speech-recognition/pi-microphone.md",
-  "language_code": "tl"
-}
--->
 # I-configure ang iyong mikropono at mga speaker - Raspberry Pi
 
 Sa bahaging ito ng aralin, magdadagdag ka ng mikropono at mga speaker sa iyong Raspberry Pi.

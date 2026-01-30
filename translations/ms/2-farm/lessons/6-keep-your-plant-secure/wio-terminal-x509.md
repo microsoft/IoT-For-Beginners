@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "8a74f789f3c1bf41a13c007190360c19",
-  "translation_date": "2025-08-27T22:11:59+00:00",
-  "source_file": "2-farm/lessons/6-keep-your-plant-secure/wio-terminal-x509.md",
-  "language_code": "ms"
-}
--->
 # Menggunakan sijil X.509 dalam kod peranti anda - Wio Terminal
 
 Pada masa penulisan, SDK Azure Arduino tidak menyokong sijil X.509. Jika anda ingin mencuba menggunakan sijil X.509, anda boleh merujuk kepada [Arahan Peranti IoT Maya menggunakan SDK Python](single-board-computer-x509.md)

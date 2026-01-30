@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "750bd75866471141f857240219084767",
-  "translation_date": "2025-08-27T22:54:44+00:00",
-  "source_file": "1-getting-started/lessons/2-deeper-dive/assignment.md",
-  "language_code": "tl"
-}
--->
 # Paghambingin ang microcontrollers at single-board computers
 
 ## Mga Panuto

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "50151d9f9dce2801348a93880ef16d86",
-  "translation_date": "2025-08-27T21:14:23+00:00",
-  "source_file": "4-manufacturing/lessons/3-run-fruit-detector-edge/single-board-computer.md",
-  "language_code": "id"
-}
--->
 # Mengklasifikasikan Gambar Menggunakan Pengklasifikasi Gambar Berbasis IoT Edge - Perangkat Keras Virtual IoT dan Raspberry Pi
 
 Dalam bagian pelajaran ini, Anda akan menggunakan Pengklasifikasi Gambar yang berjalan di perangkat IoT Edge.

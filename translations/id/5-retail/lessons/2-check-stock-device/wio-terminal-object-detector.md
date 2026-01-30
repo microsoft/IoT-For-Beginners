@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "4cf1421420a6fab9ab4f2c391bd523b7",
-  "translation_date": "2025-08-27T20:46:09+00:00",
-  "source_file": "5-retail/lessons/2-check-stock-device/wio-terminal-object-detector.md",
-  "language_code": "id"
-}
--->
 # Panggil detektor objek Anda dari perangkat IoT - Wio Terminal
 
 Setelah detektor objek Anda dipublikasikan, Anda dapat menggunakannya dari perangkat IoT Anda.

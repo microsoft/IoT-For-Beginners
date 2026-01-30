@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "7a65ee743f916276a2848b8a9491feb7",
-  "translation_date": "2025-08-27T23:33:01+00:00",
-  "source_file": "6-consumer/lessons/1-speech-recognition/virtual-device-microphone.md",
-  "language_code": "tl"
-}
--->
 # I-configure ang iyong mikropono at mga speaker - Virtual IoT Hardware
 
 Gagamit ang virtual na IoT hardware ng mikropono at mga speaker na nakakabit sa iyong computer.

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "012bbd19f13171be32ac9ba21d4186c2",
-  "translation_date": "2025-08-27T20:28:36+00:00",
-  "source_file": "recommended-learning-model.md",
-  "language_code": "ms"
-}
--->
 # Model pembelajaran yang disyorkan
 
 Untuk hasil pembelajaran yang paling berkesan, **kami mengesyorkan pendekatan “Model Terbalik"** seperti makmal sains: pelajar bekerja pada projek semasa waktu kelas, dengan peluang untuk perbincangan, soal jawab, dan bantuan projek, manakala elemen kuliah dilakukan sebagai bacaan awal pada masa mereka sendiri.

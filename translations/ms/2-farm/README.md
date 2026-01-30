@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "428bda82d9e6016ecea7c797564bf081",
-  "translation_date": "2025-08-27T21:22:01+00:00",
-  "source_file": "2-farm/README.md",
-  "language_code": "ms"
-}
--->
 # Pertanian dengan IoT
 
 Apabila populasi meningkat, permintaan terhadap pertanian juga meningkat. Jumlah tanah yang tersedia tidak berubah, tetapi iklim berubah - memberikan lebih banyak cabaran kepada para petani, terutamanya 2 bilion [petani sara diri](https://wikipedia.org/wiki/Subsistence_agriculture) yang bergantung kepada hasil tanaman mereka untuk makan dan menyara keluarga. IoT boleh membantu petani membuat keputusan yang lebih bijak tentang apa yang perlu ditanam dan bila untuk menuai, meningkatkan hasil tanaman, mengurangkan jumlah kerja manual, serta mengesan dan menangani masalah perosak.

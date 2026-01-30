@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "fbbcf96a9b63ccd661db98bbf854bb06",
-  "translation_date": "2025-08-27T23:47:36+00:00",
-  "source_file": "3-transport/lessons/1-location-tracking/wio-terminal-gps-decode.md",
-  "language_code": "id"
-}
--->
 # Decode GPS data - Wio Terminal
 
 Dalam bagian pelajaran ini, Anda akan mendekode pesan NMEA yang dibaca dari sensor GPS oleh Wio Terminal, dan mengekstrak lintang dan bujur.

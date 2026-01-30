@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "24dc783a600e20251211987b36370e93",
-  "translation_date": "2025-08-27T21:13:22+00:00",
-  "source_file": "4-manufacturing/lessons/3-run-fruit-detector-edge/vm-iotedge.md",
-  "language_code": "tl"
-}
--->
 # Gumawa ng Virtual Machine na Tumatakbo sa IoT Edge
 
 Sa Azure, maaari kang lumikha ng virtual machine - isang computer sa cloud na maaari mong i-configure ayon sa gusto mo at patakbuhin ang sarili mong software dito.

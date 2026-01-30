@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "2f336726b9410e97c3aaed76cc89b0d8",
-  "translation_date": "2025-08-27T23:24:57+00:00",
-  "source_file": "6-consumer/lessons/1-speech-recognition/wio-terminal-audio.md",
-  "language_code": "id"
-}
--->
 # Menangkap Audio - Wio Terminal
 
 Dalam bagian pelajaran ini, Anda akan menulis kode untuk menangkap audio pada Wio Terminal Anda. Penangkapan audio akan dikontrol oleh salah satu tombol di bagian atas Wio Terminal.

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "8ff0d0a1d29832bb896b9c103b69a452",
-  "translation_date": "2025-08-27T22:45:28+00:00",
-  "source_file": "1-getting-started/lessons/1-introduction-to-iot/pi.md",
-  "language_code": "tl"
-}
--->
 # Raspberry Pi
 
 Ang [Raspberry Pi](https://raspberrypi.org) ay isang single-board computer. Maaari kang magdagdag ng mga sensor at actuator gamit ang iba't ibang mga device at ecosystem, at para sa mga araling ito gagamit tayo ng hardware ecosystem na tinatawag na [Grove](https://www.seeedstudio.com/category/Grove-c-1003.html). Gagamitin mo ang Python upang mag-code sa iyong Pi at ma-access ang mga Grove sensor.

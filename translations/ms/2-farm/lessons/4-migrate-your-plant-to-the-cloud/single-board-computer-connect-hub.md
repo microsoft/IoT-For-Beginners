@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "3ac42e284a7222c0e83d2d43231a364f",
-  "translation_date": "2025-08-27T22:04:08+00:00",
-  "source_file": "2-farm/lessons/4-migrate-your-plant-to-the-cloud/single-board-computer-connect-hub.md",
-  "language_code": "ms"
-}
--->
 # Sambungkan peranti IoT anda ke awan - Perkakasan IoT Maya dan Raspberry Pi
 
 Dalam bahagian pelajaran ini, anda akan menyambungkan peranti IoT maya atau Raspberry Pi anda ke IoT Hub, untuk menghantar telemetri dan menerima arahan.

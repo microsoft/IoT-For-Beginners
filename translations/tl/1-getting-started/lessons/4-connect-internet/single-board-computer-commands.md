@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "c527ce85d69b1a3875366ec61cbed8aa",
-  "translation_date": "2025-08-27T22:13:47+00:00",
-  "source_file": "1-getting-started/lessons/4-connect-internet/single-board-computer-commands.md",
-  "language_code": "tl"
-}
--->
 # Kontrolin ang iyong nightlight gamit ang Internet - Virtual IoT Hardware at Raspberry Pi
 
 Sa bahaging ito ng aralin, mag-subscribe ka sa mga utos na ipinapadala mula sa isang MQTT broker papunta sa iyong Raspberry Pi o virtual na IoT device.

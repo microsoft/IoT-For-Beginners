@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "0ac0afcfb40cb5970ef4cb74f01c32e9",
-  "translation_date": "2025-08-27T23:18:50+00:00",
-  "source_file": "6-consumer/lessons/1-speech-recognition/pi-audio.md",
-  "language_code": "ms"
-}
--->
 # Tangkap audio - Raspberry Pi
 
 Dalam bahagian pelajaran ini, anda akan menulis kod untuk menangkap audio pada Raspberry Pi anda. Tangkap audio akan dikawal oleh butang.

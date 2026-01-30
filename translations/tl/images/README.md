@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "50abd54997afa7e7a3fc7019379e49e3",
-  "translation_date": "2025-08-27T20:38:45+00:00",
-  "source_file": "images/README.md",
-  "language_code": "tl"
-}
--->
 # Mga Larawan
 
 Ang mga larawan sa [icons](../../../images/icons) folder ay mula sa [Noun Project](https://thenounproject.com) at nangangailangan ng pagkilala. Ang bawat larawan ay may nakalistang kinakailangang pagkilala. Ang mga larawang ito ay dapat gamitin para sa anumang diagram na nangangailangan ng mga ito upang mapanatili ang pagkakapare-pareho ng mga imahe.

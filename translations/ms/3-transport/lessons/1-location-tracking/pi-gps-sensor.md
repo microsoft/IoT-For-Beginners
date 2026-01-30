@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "3b2448c7ab4e9673e77e35a50c5e350d",
-  "translation_date": "2025-08-27T23:46:47+00:00",
-  "source_file": "3-transport/lessons/1-location-tracking/pi-gps-sensor.md",
-  "language_code": "ms"
-}
--->
 # Baca Data GPS - Raspberry Pi
 
 Dalam bahagian pelajaran ini, anda akan menambah sensor GPS pada Raspberry Pi anda dan membaca nilai daripadanya.

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "9c640f93263fd9adbfda920739e09feb",
-  "translation_date": "2025-08-27T22:33:35+00:00",
-  "source_file": "1-getting-started/lessons/3-sensors-and-actuators/virtual-device-actuator.md",
-  "language_code": "ms"
-}
--->
 # Membina lampu malam - Perkakasan IoT Maya
 
 Dalam bahagian pelajaran ini, anda akan menambah LED pada peranti IoT maya anda dan menggunakannya untuk mencipta lampu malam.

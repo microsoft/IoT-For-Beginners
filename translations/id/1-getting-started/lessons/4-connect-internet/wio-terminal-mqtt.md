@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "d6faf0e8d3c2d6d20c0aef2a305dab18",
-  "translation_date": "2025-08-27T22:22:27+00:00",
-  "source_file": "1-getting-started/lessons/4-connect-internet/wio-terminal-mqtt.md",
-  "language_code": "id"
-}
--->
 # Kendalikan lampu malam Anda melalui Internet - Wio Terminal
 
 Perangkat IoT perlu diprogram untuk berkomunikasi dengan *test.mosquitto.org* menggunakan MQTT agar dapat mengirim nilai telemetri dengan pembacaan sensor cahaya, serta menerima perintah untuk mengontrol LED.

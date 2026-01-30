@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "9713e21a309662f6fcb271b573d47848",
-  "translation_date": "2026-01-06T10:14:01+00:00",
-  "source_file": "TROUBLESHOOTING.md",
-  "language_code": "tl"
-}
--->
 # Gabay sa Pag-aayos ng Problema
 
 Ang gabay na ito ay tutulong sa iyo na lutasin ang mga karaniwang problema kapag nagtatrabaho sa kurikulum ng IoT para sa mga Nagsisimula. Ang mga isyu ay inorganisa ayon sa kategorya para sa madaling pag-navigate.

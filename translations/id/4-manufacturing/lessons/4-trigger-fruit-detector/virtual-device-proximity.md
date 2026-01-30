@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "7e9f05bdc50a40fd924b1d66934471bf",
-  "translation_date": "2025-08-27T21:21:10+00:00",
-  "source_file": "4-manufacturing/lessons/4-trigger-fruit-detector/virtual-device-proximity.md",
-  "language_code": "id"
-}
--->
 # Deteksi Kedekatan - Perangkat IoT Virtual
 
 Dalam bagian pelajaran ini, Anda akan menambahkan sensor kedekatan ke perangkat IoT virtual Anda, dan membaca jarak darinya.

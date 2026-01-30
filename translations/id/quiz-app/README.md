@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "2a459ea9177fb0508ca96068ae1009d2",
-  "translation_date": "2025-08-27T23:58:36+00:00",
-  "source_file": "quiz-app/README.md",
-  "language_code": "id"
-}
--->
 # Kuis
 
 Kuis-kuis ini adalah kuis sebelum dan sesudah pembelajaran untuk kurikulum IoT untuk Pemula di https://aka.ms/iot-beginners

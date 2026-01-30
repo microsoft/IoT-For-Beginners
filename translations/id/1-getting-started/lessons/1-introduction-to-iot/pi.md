@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "8ff0d0a1d29832bb896b9c103b69a452",
-  "translation_date": "2025-08-27T22:44:03+00:00",
-  "source_file": "1-getting-started/lessons/1-introduction-to-iot/pi.md",
-  "language_code": "id"
-}
--->
 # Raspberry Pi
 
 [Raspberry Pi](https://raspberrypi.org) adalah komputer papan tunggal. Anda dapat menambahkan sensor dan aktuator menggunakan berbagai perangkat dan ekosistem, dan untuk pelajaran ini, kita akan menggunakan ekosistem perangkat keras bernama [Grove](https://www.seeedstudio.com/category/Grove-c-1003.html). Anda akan memprogram Pi Anda dan mengakses sensor Grove menggunakan Python.

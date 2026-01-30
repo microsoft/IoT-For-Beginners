@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "90fb93446e03c38f3c0e4009c2471906",
-  "translation_date": "2025-08-27T22:21:32+00:00",
-  "source_file": "1-getting-started/lessons/4-connect-internet/single-board-computer-mqtt.md",
-  "language_code": "id"
-}
--->
 # Kendalikan Lampu Malam Anda melalui Internet - Perangkat IoT Virtual dan Raspberry Pi
 
 Perangkat IoT perlu diprogram untuk berkomunikasi dengan *test.mosquitto.org* menggunakan MQTT agar dapat mengirimkan nilai telemetri dari pembacaan sensor cahaya, serta menerima perintah untuk mengontrol LED.

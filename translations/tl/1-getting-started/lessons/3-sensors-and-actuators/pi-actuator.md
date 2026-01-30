@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "4db8a3879a53490513571df2f6cf7641",
-  "translation_date": "2025-08-27T22:31:25+00:00",
-  "source_file": "1-getting-started/lessons/3-sensors-and-actuators/pi-actuator.md",
-  "language_code": "tl"
-}
--->
 # Gumawa ng nightlight - Raspberry Pi
 
 Sa bahaging ito ng aralin, magdadagdag ka ng LED sa iyong Raspberry Pi at gagamitin ito upang lumikha ng nightlight.

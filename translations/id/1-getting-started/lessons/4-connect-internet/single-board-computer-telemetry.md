@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "1226517aae5f5b6f904434670394c688",
-  "translation_date": "2025-08-27T22:14:08+00:00",
-  "source_file": "1-getting-started/lessons/4-connect-internet/single-board-computer-telemetry.md",
-  "language_code": "id"
-}
--->
 # Kendalikan lampu malam Anda melalui Internet - Perangkat IoT Virtual dan Raspberry Pi
 
 Dalam bagian pelajaran ini, Anda akan mengirimkan telemetri dengan tingkat cahaya dari Raspberry Pi atau perangkat IoT virtual Anda ke broker MQTT.

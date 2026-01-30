@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "4fb20273d299dc8d07a8f06c9cd0cdd9",
-  "translation_date": "2025-08-27T21:50:56+00:00",
-  "source_file": "2-farm/lessons/2-detect-soil-moisture/README.md",
-  "language_code": "ms"
-}
--->
 C, disebut *I-squared-C*, adalah protokol multi-pengawal, multi-periferal, di mana mana-mana peranti yang disambungkan boleh bertindak sebagai pengawal atau periferal yang berkomunikasi melalui bas I²C (nama untuk sistem komunikasi yang memindahkan data). Data dihantar sebagai paket yang dialamatkan, dengan setiap paket mengandungi alamat peranti yang disambungkan yang ditujukan untuknya.
 
 > 💁 Model ini dahulunya dirujuk sebagai master/slave, tetapi istilah ini sedang digugurkan kerana kaitannya dengan perhambaan. [Persatuan Perkakasan Sumber Terbuka telah mengguna pakai istilah pengawal/periferal](https://www.oshwa.org/a-resolution-to-redefine-spi-signal-names/), tetapi anda mungkin masih melihat rujukan kepada istilah lama.

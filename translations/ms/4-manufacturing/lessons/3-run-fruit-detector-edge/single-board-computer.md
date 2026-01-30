@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "50151d9f9dce2801348a93880ef16d86",
-  "translation_date": "2025-08-27T21:14:33+00:00",
-  "source_file": "4-manufacturing/lessons/3-run-fruit-detector-edge/single-board-computer.md",
-  "language_code": "ms"
-}
--->
 # Klasifikasikan imej menggunakan pengklasifikasi imej berasaskan IoT Edge - Perkakasan IoT Maya dan Raspberry Pi
 
 Dalam bahagian pelajaran ini, anda akan menggunakan Pengklasifikasi Imej yang berjalan pada peranti IoT Edge.

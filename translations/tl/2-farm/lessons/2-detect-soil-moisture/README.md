@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "4fb20273d299dc8d07a8f06c9cd0cdd9",
-  "translation_date": "2025-08-27T21:52:27+00:00",
-  "source_file": "2-farm/lessons/2-detect-soil-moisture/README.md",
-  "language_code": "tl"
-}
--->
 C, na binibigkas bilang *I-squared-C*, ay isang multi-controller, multi-peripheral na protocol, kung saan ang anumang nakakonektang device ay maaaring kumilos bilang controller o peripheral na nakikipag-ugnayan sa I²C bus (ang tawag sa isang sistema ng komunikasyon na naglilipat ng data). Ang data ay ipinapadala bilang mga addressed packet, kung saan ang bawat packet ay naglalaman ng address ng nakakonektang device na pinatutunguhan nito.
 
 > 💁 Ang modelong ito ay dating tinatawag na master/slave, ngunit ang terminolohiyang ito ay iniiwasan na dahil sa kaugnayan nito sa pagkaalipin. Ang [Open Source Hardware Association ay nagpatibay ng controller/peripheral](https://www.oshwa.org/a-resolution-to-redefine-spi-signal-names/), ngunit maaari mo pa ring makita ang mga sanggunian sa lumang terminolohiya.

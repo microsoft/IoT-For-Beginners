@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "a4f0c166010e31fd7b6ca20bc88dec6d",
-  "translation_date": "2025-08-27T22:47:13+00:00",
-  "source_file": "1-getting-started/lessons/1-introduction-to-iot/wio-terminal.md",
-  "language_code": "ms"
-}
--->
 # Wio Terminal
 
 [Wio Terminal dari Seeed Studios](https://www.seeedstudio.com/Wio-Terminal-p-4509.html) adalah mikrokontroler yang serasi dengan Arduino, dilengkapi dengan WiFi serta beberapa sensor dan aktuator terbina, serta port untuk menambah lebih banyak sensor dan aktuator menggunakan ekosistem perkakasan yang dipanggil [Grove](https://www.seeedstudio.com/category/Grove-c-1003.html).

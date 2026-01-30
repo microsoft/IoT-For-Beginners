@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "c677667095f6133eee418c7e53615d05",
-  "translation_date": "2025-08-27T20:58:53+00:00",
-  "source_file": "4-manufacturing/lessons/2-check-fruit-from-device/pi-camera.md",
-  "language_code": "id"
-}
--->
 # Menangkap Gambar - Raspberry Pi
 
 Dalam bagian pelajaran ini, Anda akan menambahkan sensor kamera ke Raspberry Pi dan membaca gambar darinya.

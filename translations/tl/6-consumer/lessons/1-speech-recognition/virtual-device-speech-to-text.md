@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "c0550b254b9ba2539baf1e6bb5fc05f8",
-  "translation_date": "2025-08-27T23:24:02+00:00",
-  "source_file": "6-consumer/lessons/1-speech-recognition/virtual-device-speech-to-text.md",
-  "language_code": "tl"
-}
--->
 # Speech to text - Virtual IoT device
 
 Sa bahaging ito ng aralin, magsusulat ka ng code upang i-convert ang boses na nakuha mula sa iyong mikropono patungo sa text gamit ang speech service.

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "4bcc29fe2b65e56eada83d2476279227",
-  "translation_date": "2025-08-27T22:20:28+00:00",
-  "source_file": "1-getting-started/lessons/4-connect-internet/wio-terminal-telemetry.md",
-  "language_code": "ms"
-}
--->
 # Kawal lampu malam anda melalui Internet - Wio Terminal
 
 Dalam bahagian pelajaran ini, anda akan menghantar telemetri dengan tahap cahaya dari Wio Terminal anda ke broker MQTT.

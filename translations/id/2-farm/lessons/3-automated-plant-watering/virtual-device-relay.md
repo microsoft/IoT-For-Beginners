@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "f8f541ee945545017a51aaf309aa37c3",
-  "translation_date": "2025-08-27T21:39:01+00:00",
-  "source_file": "2-farm/lessons/3-automated-plant-watering/virtual-device-relay.md",
-  "language_code": "id"
-}
--->
 # Mengontrol Relay - Perangkat Keras IoT Virtual
 
 Dalam bagian pelajaran ini, Anda akan menambahkan relay ke perangkat IoT virtual Anda selain sensor kelembapan tanah, dan mengendalikannya berdasarkan tingkat kelembapan tanah.

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "da6ae0a795cf06be33d23ca5b8493fc8",
-  "translation_date": "2025-08-27T23:39:46+00:00",
-  "source_file": "3-transport/lessons/1-location-tracking/wio-terminal-gps-sensor.md",
-  "language_code": "ms"
-}
--->
 # Baca Data GPS - Wio Terminal
 
 Dalam bahagian pelajaran ini, anda akan menambah sensor GPS pada Wio Terminal anda dan membaca nilai daripadanya.

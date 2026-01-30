@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "64ad4ddb4de81a18b7252e968f10b404",
-  "translation_date": "2025-08-27T23:08:48+00:00",
-  "source_file": "6-consumer/lessons/3-spoken-feedback/single-board-computer-set-timer.md",
-  "language_code": "id"
-}
--->
 # Atur Timer - Perangkat IoT Virtual dan Raspberry Pi
 
 Dalam bagian pelajaran ini, Anda akan memanggil kode serverless untuk memahami ucapan, dan mengatur timer pada perangkat IoT virtual atau Raspberry Pi berdasarkan hasilnya.

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "7966848a1f870e4c42edb4db67b13c57",
-  "translation_date": "2025-08-27T23:17:47+00:00",
-  "source_file": "6-consumer/lessons/3-spoken-feedback/virtual-device-text-to-speech.md",
-  "language_code": "ms"
-}
--->
 # Teks ke Ucapan - Peranti IoT Maya
 
 Dalam bahagian pelajaran ini, anda akan menulis kod untuk menukar teks kepada ucapan menggunakan perkhidmatan ucapan.
