@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "52b4de6144b2efdced7797a5339d6035",
-  "translation_date": "2025-08-27T22:19:46+00:00",
-  "source_file": "1-getting-started/lessons/1-introduction-to-iot/virtual-device.md",
-  "language_code": "hu"
-}
--->
 # Virtuális egykártyás számítógép
 
 Ahelyett, hogy IoT eszközt, szenzorokat és aktuátorokat vásárolnál, a számítógépedet is használhatod IoT hardver szimulálására. A [CounterFit projekt](https://github.com/CounterFit-IoT/CounterFit) lehetővé teszi, hogy helyben futtass egy alkalmazást, amely szimulálja az IoT hardvert, például szenzorokat és aktuátorokat, és hozzáférj ezekhez a helyi Python kódból, ugyanúgy, ahogy fizikai hardverrel, például Raspberry Pi-vel dolgoznál.

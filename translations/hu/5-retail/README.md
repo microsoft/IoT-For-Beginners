@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "22a1d6e49f2a689fe5bfa7802a7241fc",
-  "translation_date": "2025-08-27T22:36:45+00:00",
-  "source_file": "5-retail/README.md",
-  "language_code": "hu"
-}
--->
 # Kiskereskedelem - IoT használata készletszintek kezelésére
 
 A takarmány fogyasztókhoz való eljutásának utolsó állomása a kiskereskedelem - a piacok, zöldségesek, szupermarketek és boltok, amelyek termékeket árulnak a vásárlóknak. Ezek az üzletek biztosítani szeretnék, hogy a polcokon legyenek termékek, amelyeket a vásárlók láthatnak és megvásárolhatnak.

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "50151d9f9dce2801348a93880ef16d86",
-  "translation_date": "2025-08-27T20:51:29+00:00",
-  "source_file": "4-manufacturing/lessons/3-run-fruit-detector-edge/single-board-computer.md",
-  "language_code": "sw"
-}
--->
 # Tambua picha ukitumia kifaa cha IoT Edge kinachotegemea kionyeshi picha - Vifaa vya Kawaida vya IoT na Raspberry Pi
 
 Katika sehemu hii ya somo, utatumia Kionyeshi Picha kinachoendesha kwenye kifaa cha IoT Edge.

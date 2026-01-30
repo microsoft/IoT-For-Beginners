@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "4efc74299e19f5d08f2f3f34451a11ba",
-  "translation_date": "2025-08-27T23:21:44+00:00",
-  "source_file": "2-farm/lessons/1-predict-plant-growth/single-board-computer-temp-publish.md",
-  "language_code": "cs"
-}
--->
 # Publikování teploty - Virtuální IoT hardware a Raspberry Pi
 
 V této části lekce budete publikovat hodnoty teploty detekované Raspberry Pi nebo Virtuálním IoT zařízením přes MQTT, aby mohly být později použity k výpočtu GDD.

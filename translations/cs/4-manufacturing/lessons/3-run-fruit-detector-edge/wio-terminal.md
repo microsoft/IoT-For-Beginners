@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "48ac21ec80329c930db7b84bd6b592ec",
-  "translation_date": "2025-08-27T20:52:24+00:00",
-  "source_file": "4-manufacturing/lessons/3-run-fruit-detector-edge/wio-terminal.md",
-  "language_code": "cs"
-}
--->
 # Klasifikace obrázku pomocí klasifikátoru obrázků na bázi IoT Edge - Wio Terminal
 
 V této části lekce použijete klasifikátor obrázků běžící na zařízení IoT Edge.

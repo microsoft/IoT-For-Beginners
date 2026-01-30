@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "4cf1421420a6fab9ab4f2c391bd523b7",
-  "translation_date": "2025-08-27T22:43:59+00:00",
-  "source_file": "5-retail/lessons/2-check-stock-device/wio-terminal-object-detector.md",
-  "language_code": "cs"
-}
--->
 # Spusťte svůj detektor objektů z vašeho IoT zařízení - Wio Terminal
 
 Jakmile je váš detektor objektů publikován, můžete jej použít na svém IoT zařízení.

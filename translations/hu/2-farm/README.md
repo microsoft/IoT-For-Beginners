@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "428bda82d9e6016ecea7c797564bf081",
-  "translation_date": "2025-08-27T22:47:47+00:00",
-  "source_file": "2-farm/README.md",
-  "language_code": "hu"
-}
--->
 # Mezőgazdaság IoT segítségével
 
 Ahogy a népesség növekszik, úgy nő a mezőgazdaságra nehezedő nyomás is. A rendelkezésre álló földterület nem változik, viszont az éghajlat igen - ez pedig még több kihívást jelent a gazdák számára, különösen annak a 2 milliárd [önellátó gazdának](https://wikipedia.org/wiki/Subsistence_agriculture), akik az általuk megtermelt élelmiszerre támaszkodnak, hogy magukat és családjukat ellássák. Az IoT segíthet a gazdáknak okosabb döntéseket hozni arról, hogy mit termesszenek és mikor arassanak, növelheti a terméshozamot, csökkentheti a kézi munka mennyiségét, valamint segíthet a kártevők felismerésében és kezelésében.

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "2f336726b9410e97c3aaed76cc89b0d8",
-  "translation_date": "2025-08-27T21:26:16+00:00",
-  "source_file": "6-consumer/lessons/1-speech-recognition/wio-terminal-audio.md",
-  "language_code": "hu"
-}
--->
 # Hangrögzítés - Wio Terminal
 
 Ebben a leckében kódot fogsz írni, hogy hangot rögzíts a Wio Terminal eszközön. A hangrögzítést a Wio Terminal tetején található egyik gomb fogja vezérelni.

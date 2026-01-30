@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "4efc74299e19f5d08f2f3f34451a11ba",
-  "translation_date": "2025-08-27T23:21:31+00:00",
-  "source_file": "2-farm/lessons/1-predict-plant-growth/single-board-computer-temp-publish.md",
-  "language_code": "hu"
-}
--->
 # Hőmérséklet közzététele - Virtuális IoT Hardver és Raspberry Pi
 
 Ebben a leckében a Raspberry Pi vagy Virtuális IoT Eszköz által érzékelt hőmérsékleti értékeket fogod közzétenni MQTT-n keresztül, hogy később felhasználhatók legyenek a GDD kiszámításához.

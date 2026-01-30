@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "7e45d884493c5222348b43fbc4481b6a",
-  "translation_date": "2025-08-27T21:22:45+00:00",
-  "source_file": "6-consumer/lessons/1-speech-recognition/pi-microphone.md",
-  "language_code": "sw"
-}
--->
 # Sanidi kipaza sauti na spika - Raspberry Pi
 
 Katika sehemu hii ya somo, utaongeza kipaza sauti na spika kwenye Raspberry Pi yako.

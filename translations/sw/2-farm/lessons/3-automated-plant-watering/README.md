@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "f7bb24ba53fb627ddb38a8b24a05e594",
-  "translation_date": "2025-08-27T23:24:18+00:00",
-  "source_file": "2-farm/lessons/3-automated-plant-watering/README.md",
-  "language_code": "sw"
-}
--->
 # Kumwagilia mimea kiotomatiki
 
 ![Muhtasari wa somo hili kwa sketchnote](../../../../../translated_images/sw/lesson-7.30b5f577d3cb8e031238751475cb519c7d6dbaea261b5df4643d086ffb2a03bb.jpg)

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "3764e089adf2d5801272bc0895f8498b",
-  "translation_date": "2025-08-27T20:35:08+00:00",
-  "source_file": "4-manufacturing/README.md",
-  "language_code": "hu"
-}
--->
 # Gyártás és feldolgozás - Az IoT használata az élelmiszer-feldolgozás javítására
 
 Amikor az élelmiszer eljut egy központi elosztóhelyre vagy feldolgozóüzembe, nem mindig kerül azonnal a szupermarketekbe. Gyakran több feldolgozási lépésen megy keresztül, például minőség szerinti válogatáson. Ez korábban manuális folyamat volt - a mezőn kezdődött, ahol a szedők csak az érett gyümölcsöket szedték le, majd a gyárban a gyümölcsök futószalagon haladtak, és az alkalmazottak kézzel távolították el a sérült vagy rothadt gyümölcsöket. Magam is szedtem és válogattam epret nyári diákmunkaként, így tanúsíthatom, hogy ez nem egy szórakoztató munka.

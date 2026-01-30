@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "d620a470d9dd8614d99824832978360a",
-  "translation_date": "2025-08-27T21:34:48+00:00",
-  "source_file": "6-consumer/lessons/4-multiple-language-support/virtual-device-translate-speech.md",
-  "language_code": "hu"
-}
--->
 # Beszéd fordítása - Virtuális IoT eszköz
 
 A lecke ezen részében kódot fogsz írni, amely a beszédet szöveggé alakítja a beszédfelismerő szolgáltatás segítségével, majd a szöveget lefordítja a Fordító szolgáltatással, mielőtt egy beszélt választ generálna.

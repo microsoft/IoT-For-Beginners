@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "df28cd649cd892bcce034e064913b2f3",
-  "translation_date": "2025-08-27T23:20:09+00:00",
-  "source_file": "2-farm/lessons/1-predict-plant-growth/wio-terminal-temp-publish.md",
-  "language_code": "sw"
-}
--->
 # Chapisha joto - Wio Terminal
 
 Katika sehemu hii ya somo, utachapisha thamani za joto zilizogunduliwa na Wio Terminal kupitia MQTT ili ziweze kutumika baadaye kuhesabu GDD.

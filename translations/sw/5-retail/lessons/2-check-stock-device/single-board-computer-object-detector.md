@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "a3fdfec1d1e2cb645ea11c2930b51299",
-  "translation_date": "2025-08-27T22:46:47+00:00",
-  "source_file": "5-retail/lessons/2-check-stock-device/single-board-computer-object-detector.md",
-  "language_code": "sw"
-}
--->
 # Piga simu kwa kigunduzi chako cha vitu kutoka kwa kifaa chako cha IoT - Vifaa vya IoT vya Kijanja na Raspberry Pi
 
 Mara tu kigunduzi chako cha vitu kinapochapishwa, kinaweza kutumika kutoka kwa kifaa chako cha IoT.

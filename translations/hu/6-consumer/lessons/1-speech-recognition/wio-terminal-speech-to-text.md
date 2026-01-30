@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "3f92edf2975175577174910caca4a389",
-  "translation_date": "2025-08-27T21:28:27+00:00",
-  "source_file": "6-consumer/lessons/1-speech-recognition/wio-terminal-speech-to-text.md",
-  "language_code": "hu"
-}
--->
 # Beszéd szöveggé alakítása - Wio Terminal
 
 Ebben a lecke részben kódot fogsz írni, amely a rögzített hangban lévő beszédet szöveggé alakítja a beszédfelismerő szolgáltatás segítségével.

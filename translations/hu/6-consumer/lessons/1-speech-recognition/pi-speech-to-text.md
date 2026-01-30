@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "af249a24d4fe4f4de4806adbc3bc9d86",
-  "translation_date": "2025-08-27T21:24:16+00:00",
-  "source_file": "6-consumer/lessons/1-speech-recognition/pi-speech-to-text.md",
-  "language_code": "hu"
-}
--->
 # Beszéd szöveggé alakítása - Raspberry Pi
 
 Ebben a leckében kódot fogsz írni, amely a rögzített hangban lévő beszédet szöveggé alakítja a beszédfelismerő szolgáltatás segítségével.

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "e2b1b891b08ef7633d285547fbe73290",
-  "translation_date": "2025-08-27T21:58:07+00:00",
-  "source_file": "1-getting-started/README.md",
-  "language_code": "cs"
-}
--->
 # Začínáme s IoT
 
 V této části kurzu budete seznámeni s Internetem věcí (IoT) a naučíte se základní koncepty, včetně vytvoření svého prvního projektu 'Hello World' IoT, který se připojuje ke cloudu. Tento projekt je noční světlo, které se rozsvítí, když úroveň světla měřená senzorem klesne.

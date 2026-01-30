@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "f8f541ee945545017a51aaf309aa37c3",
-  "translation_date": "2025-08-27T23:28:46+00:00",
-  "source_file": "2-farm/lessons/3-automated-plant-watering/virtual-device-relay.md",
-  "language_code": "cs"
-}
--->
 # Ovládání relé - Virtuální IoT zařízení
 
 V této části lekce přidáte k vašemu virtuálnímu IoT zařízení relé, kromě senzoru vlhkosti půdy, a budete ho ovládat na základě úrovně vlhkosti půdy.

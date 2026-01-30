@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "2bf65f162bcebd35fbcba5fd245afac4",
-  "translation_date": "2025-08-27T22:53:49+00:00",
-  "source_file": "2-farm/lessons/2-detect-soil-moisture/virtual-device-soil-moisture.md",
-  "language_code": "sw"
-}
--->
 # Pima unyevu wa udongo - Vifaa vya IoT vya Kijumlisha
 
 Katika sehemu hii ya somo, utaongeza kihisi cha unyevu wa udongo cha capacitive kwenye kifaa chako cha IoT cha kijumlisha, na kusoma thamani kutoka kwake.

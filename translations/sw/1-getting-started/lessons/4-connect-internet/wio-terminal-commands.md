@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "6754c915dae64ba70fcd5e52c37f3adf",
-  "translation_date": "2025-08-27T22:10:53+00:00",
-  "source_file": "1-getting-started/lessons/4-connect-internet/wio-terminal-commands.md",
-  "language_code": "sw"
-}
--->
 # Dhibiti taa yako ya usiku kupitia Mtandao - Wio Terminal
 
 Katika sehemu hii ya somo, utajiunga na amri zinazotumwa kutoka kwa MQTT broker hadi kwenye Wio Terminal yako.

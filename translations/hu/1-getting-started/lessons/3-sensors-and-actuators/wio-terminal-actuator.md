@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "db44083b4dc6fb06eac83c4f16448940",
-  "translation_date": "2025-08-27T22:32:11+00:00",
-  "source_file": "1-getting-started/lessons/3-sensors-and-actuators/wio-terminal-actuator.md",
-  "language_code": "hu"
-}
--->
 # Építs egy éjjeli fényt - Wio Terminal
 
 Ebben a leckében hozzáadsz egy LED-et a Wio Terminalhoz, és éjjeli fényt készítesz belőle.

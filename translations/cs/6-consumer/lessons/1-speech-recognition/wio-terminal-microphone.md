@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "93d352de36526b8990e41dd538100324",
-  "translation_date": "2025-08-27T21:22:23+00:00",
-  "source_file": "6-consumer/lessons/1-speech-recognition/wio-terminal-microphone.md",
-  "language_code": "cs"
-}
--->
 # Nastavení mikrofonu a reproduktorů - Wio Terminal
 
 V této části lekce přidáte reproduktory k vašemu Wio Terminalu. Wio Terminal již má vestavěný mikrofon, který lze použít k zachycení řeči.

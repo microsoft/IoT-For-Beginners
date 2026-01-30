@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "e978534a245b000725ed2a048f943213",
-  "translation_date": "2025-08-27T21:36:11+00:00",
-  "source_file": "3-transport/README.md",
-  "language_code": "sw"
-}
--->
 # Usafirishaji kutoka shambani hadi kiwandani - kutumia IoT kufuatilia usafirishaji wa chakula
 
 Wakulima wengi hulima chakula kwa ajili ya kuuza - aidha ni wakulima wa kibiashara wanaouza kila wanacholima, au ni wakulima wa kujikimu wanaouza mazao yao ya ziada ili kununua mahitaji muhimu. Kwa namna fulani, chakula lazima kisafirishwe kutoka shambani hadi kwa mlaji, na mara nyingi hili hutegemea usafirishaji wa jumla kutoka mashamba, hadi vituo vya kati au viwanda vya usindikaji, kisha hadi madukani. Kwa mfano, mkulima wa nyanya atavuna nyanya, kuzifunga kwenye masanduku, kupakia masanduku kwenye lori kisha kuzifikisha kwenye kiwanda cha usindikaji. Nyanya hizo zitapangwa, na kutoka hapo zitafikishwa kwa walaji kama chakula kilichosindikwa, mauzo ya rejareja, au kuliwa kwenye migahawa.

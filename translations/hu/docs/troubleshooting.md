@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "271dcd720357806934b2f0d94e19410e",
-  "translation_date": "2026-01-06T16:08:21+00:00",
-  "source_file": "docs/troubleshooting.md",
-  "language_code": "hu"
-}
--->
 # Raspberry Pi Hibaelhárítási Útmutató
 
 Ez az útmutató megoldásokat kínál a Raspberry Pi eszközökön futó IoT projektek során gyakran előforduló problémákra.  

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "64ad4ddb4de81a18b7252e968f10b404",
-  "translation_date": "2025-08-27T21:15:13+00:00",
-  "source_file": "6-consumer/lessons/3-spoken-feedback/single-board-computer-set-timer.md",
-  "language_code": "hu"
-}
--->
 # Állíts be egy időzítőt - Virtuális IoT hardver és Raspberry Pi
 
 A lecke ezen részében hívni fogod a szerver nélküli kódodat, hogy megértsd a beszédet, és az eredmények alapján beállíts egy időzítőt a virtuális IoT eszközödön vagy a Raspberry Pi-n.

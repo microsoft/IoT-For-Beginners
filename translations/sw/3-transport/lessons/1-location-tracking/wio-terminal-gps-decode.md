@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "fbbcf96a9b63ccd661db98bbf854bb06",
-  "translation_date": "2025-08-27T21:40:57+00:00",
-  "source_file": "3-transport/lessons/1-location-tracking/wio-terminal-gps-decode.md",
-  "language_code": "sw"
-}
--->
 # Kufasiri Data za GPS - Wio Terminal
 
 Katika sehemu hii ya somo, utatafsiri ujumbe wa NMEA uliosomwa kutoka kwa kihisi cha GPS na Wio Terminal, na kutoa latitudo na longitudo.

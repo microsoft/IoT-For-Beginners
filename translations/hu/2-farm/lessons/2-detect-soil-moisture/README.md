@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "4fb20273d299dc8d07a8f06c9cd0cdd9",
-  "translation_date": "2025-08-27T22:51:23+00:00",
-  "source_file": "2-farm/lessons/2-detect-soil-moisture/README.md",
-  "language_code": "hu"
-}
--->
 C, amelyet *I-négyzet-C*-nek ejtenek, egy több vezérlőt és több perifériát támogató protokoll, amelyben bármely csatlakoztatott eszköz vezérlőként vagy perifériaként működhet, és kommunikálhat az I
 
 A 2<sup>2</sup>C sebességkorlátokkal rendelkezik, három különböző üzemmódban, amelyek fix sebességgel működnek. A leggyorsabb a High Speed mód, amelynek maximális sebessége 3,4 Mbps (megabit per másodperc), bár nagyon kevés eszköz támogatja ezt a sebességet. Például a Raspberry Pi csak a gyors módot támogatja, amely 400 Kbps (kilobit per másodperc). A standard mód 100 Kbps sebességgel működik.

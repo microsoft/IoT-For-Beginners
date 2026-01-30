@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "64ad4ddb4de81a18b7252e968f10b404",
-  "translation_date": "2025-08-27T21:15:38+00:00",
-  "source_file": "6-consumer/lessons/3-spoken-feedback/single-board-computer-set-timer.md",
-  "language_code": "cs"
-}
--->
 # Nastavení časovače - Virtuální IoT zařízení a Raspberry Pi
 
 V této části lekce zavoláte svůj serverless kód, abyste porozuměli řeči, a nastavíte časovač na svém virtuálním IoT zařízení nebo Raspberry Pi na základě výsledků.

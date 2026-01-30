@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "5de7dc1e2ddc402d415473bb795568d4",
-  "translation_date": "2025-08-27T21:02:01+00:00",
-  "source_file": "6-consumer/README.md",
-  "language_code": "hu"
-}
--->
 # Fogyasztói IoT - építs egy okos hangasszisztenst
 
 Az étel megtermett, eljutott a feldolgozóüzembe, minőség szerint szétválogatták, eladták a boltban, és most itt az ideje a főzésnek! A konyha egyik alapvető eszköze az időzítő. Kezdetben ezek homokórák voltak - az étel akkor készült el, amikor az összes homok lefolyt az alsó tartályba. Később mechanikusak, majd elektromosak lettek.

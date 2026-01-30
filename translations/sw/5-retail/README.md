@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "22a1d6e49f2a689fe5bfa7802a7241fc",
-  "translation_date": "2025-08-27T22:36:37+00:00",
-  "source_file": "5-retail/README.md",
-  "language_code": "sw"
-}
--->
 # Rejareja - kutumia IoT kusimamia viwango vya hisa
 
 Hatua ya mwisho ya chakula kabla ya kufikia watumiaji ni rejareja - masoko, wauzaji wa mboga, maduka makubwa na maduka yanayouza bidhaa kwa watumiaji. Maduka haya yanataka kuhakikisha kuwa yana bidhaa kwenye rafu kwa watumiaji kuona na kununua.

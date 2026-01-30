@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "8ff0d0a1d29832bb896b9c103b69a452",
-  "translation_date": "2025-08-27T22:21:53+00:00",
-  "source_file": "1-getting-started/lessons/1-introduction-to-iot/pi.md",
-  "language_code": "hu"
-}
--->
 # Raspberry Pi
 
 A [Raspberry Pi](https://raspberrypi.org) egy egykártyás számítógép. Számos eszköz és ökoszisztéma segítségével érzékelőket és működtetőket adhat hozzá, és ezekhez a leckékhez egy [Grove](https://www.seeedstudio.com/category/Grove-c-1003.html) nevű hardver ökoszisztémát fogunk használni. A Pi-t Python segítségével fogja programozni, és hozzáférhet a Grove érzékelőkhöz.

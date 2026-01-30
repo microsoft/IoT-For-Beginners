@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "4db8a3879a53490513571df2f6cf7641",
-  "translation_date": "2025-08-27T22:29:48+00:00",
-  "source_file": "1-getting-started/lessons/3-sensors-and-actuators/pi-actuator.md",
-  "language_code": "sw"
-}
--->
 # Jenga taa ya usiku - Raspberry Pi
 
 Katika sehemu hii ya somo, utaongeza LED kwenye Raspberry Pi yako na kuitumia kuunda taa ya usiku.

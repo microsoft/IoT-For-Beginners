@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "c0550b254b9ba2539baf1e6bb5fc05f8",
-  "translation_date": "2025-08-27T21:21:17+00:00",
-  "source_file": "6-consumer/lessons/1-speech-recognition/virtual-device-speech-to-text.md",
-  "language_code": "hu"
-}
--->
 # Beszéd szöveggé alakítása - Virtuális IoT eszköz
 
 Ebben a leckében kódot fogsz írni, amely a mikrofonod által rögzített beszédet szöveggé alakítja a beszédfelismerő szolgáltatás segítségével.

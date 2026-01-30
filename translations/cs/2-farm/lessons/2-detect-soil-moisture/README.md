@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "4fb20273d299dc8d07a8f06c9cd0cdd9",
-  "translation_date": "2025-08-27T22:53:01+00:00",
-  "source_file": "2-farm/lessons/2-detect-soil-moisture/README.md",
-  "language_code": "cs"
-}
--->
 C, vyslovováno *I-squared-C*, je protokol pro komunikaci mezi více řadiči a periferiemi, kde každé připojené zařízení může fungovat jako řadič nebo periferie komunikující přes I²C sběrnici (název pro systém přenosu dat). Data jsou posílána jako adresované pakety, přičemž každý paket obsahuje adresu zařízení, pro které je určen.
 
 > 💁 Tento model byl dříve označován jako master/slave, ale tato terminologie se opouští kvůli její spojitosti s otroctvím. [Open Source Hardware Association přijala označení controller/peripheral](https://www.oshwa.org/a-resolution-to-redefine-spi-signal-names/), ale stále můžete narazit na odkazy na starou terminologii.

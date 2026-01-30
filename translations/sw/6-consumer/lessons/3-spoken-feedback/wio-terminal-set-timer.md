@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "012b69d57d898d670adf61304f42a137",
-  "translation_date": "2025-08-27T21:13:45+00:00",
-  "source_file": "6-consumer/lessons/3-spoken-feedback/wio-terminal-set-timer.md",
-  "language_code": "sw"
-}
--->
 # Weka Kipaswidi - Wio Terminal
 
 Katika sehemu hii ya somo, utaita msimbo wako wa serverless ili kuelewa sauti, na kuweka kipaswidi kwenye Wio Terminal yako kulingana na matokeo.

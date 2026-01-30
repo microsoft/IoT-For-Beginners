@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "64f18a8f8aaa1fef5e7320e0992d8b3a",
-  "translation_date": "2025-08-27T21:43:09+00:00",
-  "source_file": "3-transport/lessons/1-location-tracking/virtual-device-gps-sensor.md",
-  "language_code": "hu"
-}
--->
 # GPS-adatok olvasása - Virtuális IoT hardver
 
 Ebben a leckében hozzáad egy GPS-érzékelőt a virtuális IoT-eszközéhez, és adatokat olvas le róla.

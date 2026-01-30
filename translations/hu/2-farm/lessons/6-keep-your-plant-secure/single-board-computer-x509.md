@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "9aea84bcc7520222b0e1c50469d62d6a",
-  "translation_date": "2025-08-27T23:06:51+00:00",
-  "source_file": "2-farm/lessons/6-keep-your-plant-secure/single-board-computer-x509.md",
-  "language_code": "hu"
-}
--->
 # Használja az X.509 tanúsítványt az eszközkódjában - Virtuális IoT Hardver és Raspberry Pi
 
 Ebben a leckében csatlakoztatni fogja virtuális IoT eszközét vagy Raspberry Pi-jét az IoT Hubhoz egy X.509 tanúsítvány segítségével.

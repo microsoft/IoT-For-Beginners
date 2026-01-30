@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "3ba7150ffc4a6999f6c3cfb4906ec7df",
-  "translation_date": "2025-08-27T20:56:07+00:00",
-  "source_file": "4-manufacturing/lessons/2-check-fruit-from-device/virtual-device-camera.md",
-  "language_code": "hu"
-}
--->
 # Kép rögzítése - Virtuális IoT Hardver
 
 Ebben a leckében hozzáad egy kameraérzékelőt a virtuális IoT eszközéhez, és képeket olvas be róla.

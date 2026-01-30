@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "24dc783a600e20251211987b36370e93",
-  "translation_date": "2025-08-27T20:50:20+00:00",
-  "source_file": "4-manufacturing/lessons/3-run-fruit-detector-edge/vm-iotedge.md",
-  "language_code": "sw"
-}
--->
 # Unda mashine halisi inayoendesha IoT Edge
 
 Katika Azure, unaweza kuunda mashine halisi - kompyuta kwenye wingu ambayo unaweza kuisanidi kwa njia yoyote unayotaka na kuendesha programu zako mwenyewe juu yake.

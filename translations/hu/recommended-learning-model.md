@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "012bbd19f13171be32ac9ba21d4186c2",
-  "translation_date": "2025-08-27T20:25:28+00:00",
-  "source_file": "recommended-learning-model.md",
-  "language_code": "hu"
-}
--->
 # Ajánlott tanulási modell
 
 A leghatékonyabb tanulási eredmények érdekében **egy „Fordított Modell” megközelítést ajánlunk**, hasonlóan a tudományos laborokhoz: a diákok az órák alatt projekteken dolgoznak, lehetőséget kapnak megbeszélésekre, kérdésekre és válaszokra, valamint projektsegítségre, míg az előadásokat önállóan, előzetes olvasmányként végzik el.

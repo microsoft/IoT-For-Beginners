@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "9713e21a309662f6fcb271b573d47848",
-  "translation_date": "2026-01-06T15:47:14+00:00",
-  "source_file": "TROUBLESHOOTING.md",
-  "language_code": "sw"
-}
--->
 # Mwongozo wa Utatuzi wa Matatizo
 
 Mwongozo huu utakusaidia kutatua matatizo yanayojitokeza mara kwa mara unapotumia mitaala ya IoT kwa Waanzishu. Masuala yamepangwa kwa makundi ili kurahisisha urambazaji.

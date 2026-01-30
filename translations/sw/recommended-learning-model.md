@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "012bbd19f13171be32ac9ba21d4186c2",
-  "translation_date": "2025-08-27T20:25:08+00:00",
-  "source_file": "recommended-learning-model.md",
-  "language_code": "sw"
-}
--->
 # Mfano wa Mtindo wa Kujifunza Unaopendekezwa
 
 Kwa matokeo bora ya kujifunza, **tunapendekeza mbinu ya “Mtindo wa Kubadilisha”** kama maabara za sayansi: wanafunzi hufanya miradi wakati wa darasa, wakiwa na fursa za majadiliano, maswali na majibu, na msaada wa miradi, huku vipengele vya mihadhara wakifanya kama maandalizi ya awali kwa muda wao binafsi.

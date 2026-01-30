@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "50151d9f9dce2801348a93880ef16d86",
-  "translation_date": "2025-08-27T20:51:38+00:00",
-  "source_file": "4-manufacturing/lessons/3-run-fruit-detector-edge/single-board-computer.md",
-  "language_code": "hu"
-}
--->
 # Kép osztályozása IoT Edge alapú képosztályozóval - Virtuális IoT Hardver és Raspberry Pi
 
 A lecke ezen részében az IoT Edge eszközön futó képosztályozót fogod használni.

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "5de7dc1e2ddc402d415473bb795568d4",
-  "translation_date": "2025-08-27T21:02:16+00:00",
-  "source_file": "6-consumer/README.md",
-  "language_code": "cs"
-}
--->
 # Spotřebitelský IoT - vytvořte chytrého hlasového asistenta
 
 Jídlo bylo vypěstováno, převezeno do zpracovatelského závodu, roztříděno podle kvality, prodáno v obchodě a teď je čas vařit! Jedním ze základních nástrojů každé kuchyně je časovač. Původně to byly přesýpací hodiny – jídlo bylo hotové, když všechen písek přetekl do spodní baňky. Pak přišly mechanické časovače, následně elektrické.

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "1226517aae5f5b6f904434670394c688",
-  "translation_date": "2025-08-27T22:12:49+00:00",
-  "source_file": "1-getting-started/lessons/4-connect-internet/single-board-computer-telemetry.md",
-  "language_code": "sw"
-}
--->
 # Dhibiti taa yako ya usiku kupitia Mtandao - Vifaa vya IoT vya Kawaida na Raspberry Pi
 
 Katika sehemu hii ya somo, utatuma data ya telemetry na viwango vya mwanga kutoka kwa Raspberry Pi yako au kifaa cha IoT cha kawaida kwenda kwa broker wa MQTT.

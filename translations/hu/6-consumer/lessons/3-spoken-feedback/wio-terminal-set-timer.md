@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "012b69d57d898d670adf61304f42a137",
-  "translation_date": "2025-08-27T21:14:10+00:00",
-  "source_file": "6-consumer/lessons/3-spoken-feedback/wio-terminal-set-timer.md",
-  "language_code": "hu"
-}
--->
 # Állíts be egy időzítőt - Wio Terminal
 
 Ebben a leckében a szerver nélküli kódodat fogod meghívni, hogy felismerje a beszédet, és az eredmények alapján beállítson egy időzítőt a Wio Terminal eszközön.

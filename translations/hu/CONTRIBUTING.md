@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "d6f80293fa9c213283eac7e79b078671",
-  "translation_date": "2025-08-27T20:31:26+00:00",
-  "source_file": "CONTRIBUTING.md",
-  "language_code": "hu"
-}
--->
 # Hozzájárulás
 
 Ez a projekt szívesen fogad hozzájárulásokat és javaslatokat. A legtöbb hozzájárulás esetén szükséges, hogy elfogadj egy Hozzájárulói Licencszerződést (Contributor License Agreement, CLA), amelyben kijelented, hogy jogod van a hozzájárulásod felhasználására, és ténylegesen meg is adod nekünk ezt a jogot. Részletekért látogass el a https://cla.microsoft.com oldalra.

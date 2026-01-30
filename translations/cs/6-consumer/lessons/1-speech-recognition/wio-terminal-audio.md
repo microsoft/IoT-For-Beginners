@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "2f336726b9410e97c3aaed76cc89b0d8",
-  "translation_date": "2025-08-27T21:27:04+00:00",
-  "source_file": "6-consumer/lessons/1-speech-recognition/wio-terminal-audio.md",
-  "language_code": "cs"
-}
--->
 # Zachycení zvuku - Wio Terminal
 
 V této části lekce napíšete kód pro zachycení zvuku na vašem Wio Terminalu. Zachycení zvuku bude ovládáno jedním z tlačítek na horní straně Wio Terminalu.

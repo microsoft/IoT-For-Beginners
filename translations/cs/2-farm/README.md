@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "428bda82d9e6016ecea7c797564bf081",
-  "translation_date": "2025-08-27T22:47:55+00:00",
-  "source_file": "2-farm/README.md",
-  "language_code": "cs"
-}
--->
 # Zemědělství s IoT
 
 S rostoucí populací roste i tlak na zemědělství. Množství dostupné půdy se nemění, ale klima ano – což přináší zemědělcům další výzvy, zejména 2 miliardám [samospotřebitelských zemědělců](https://wikipedia.org/wiki/Subsistence_agriculture), kteří se spoléhají na to, co vypěstují, aby mohli jíst a uživit své rodiny. IoT může zemědělcům pomoci dělat chytřejší rozhodnutí o tom, co pěstovat a kdy sklízet, zvýšit výnosy, snížit množství ruční práce a detekovat škůdce a bojovat proti nim.

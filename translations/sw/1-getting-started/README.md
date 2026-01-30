@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "e2b1b891b08ef7633d285547fbe73290",
-  "translation_date": "2025-08-27T21:57:52+00:00",
-  "source_file": "1-getting-started/README.md",
-  "language_code": "sw"
-}
--->
 # Kuanza na IoT
 
 Katika sehemu hii ya mtaala, utatambulishwa kwa Mtandao wa Vitu (Internet of Things), na kujifunza dhana za msingi ikiwa ni pamoja na kujenga mradi wako wa kwanza wa 'Hello World' wa IoT unaounganishwa na wingu. Mradi huu ni taa ya usiku inayowaka kadri viwango vya mwanga vinavyopimwa na kihisi vinapungua.

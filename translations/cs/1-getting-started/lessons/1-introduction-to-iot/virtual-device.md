@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "52b4de6144b2efdced7797a5339d6035",
-  "translation_date": "2025-08-27T22:20:25+00:00",
-  "source_file": "1-getting-started/lessons/1-introduction-to-iot/virtual-device.md",
-  "language_code": "cs"
-}
--->
 # Virtuální jednodeskový počítač
 
 Místo nákupu IoT zařízení spolu se senzory a akčními členy můžete použít svůj počítač k simulaci IoT hardwaru. Projekt [CounterFit](https://github.com/CounterFit-IoT/CounterFit) vám umožňuje spustit aplikaci lokálně, která simuluje IoT hardware, jako jsou senzory a akční členy, a přistupovat k těmto senzorům a akčním členům z lokálního Python kódu napsaného stejným způsobem, jako byste psali kód pro Raspberry Pi s fyzickým hardwarem.

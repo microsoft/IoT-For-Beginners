@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "012bbd19f13171be32ac9ba21d4186c2",
-  "translation_date": "2025-08-27T20:25:52+00:00",
-  "source_file": "recommended-learning-model.md",
-  "language_code": "cs"
-}
--->
 # Doporučený model učení
 
 Pro co nejefektivnější výsledky učení **doporučujeme přístup „Převrácený model"** podobný vědeckým laboratořím: studenti pracují na projektech během výuky, s možností diskuse, otázek a odpovědí a asistence při projektech, zatímco přednáškové prvky si prostudují samostatně předem.

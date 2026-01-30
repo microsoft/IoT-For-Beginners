@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "428bda82d9e6016ecea7c797564bf081",
-  "translation_date": "2025-08-27T22:47:37+00:00",
-  "source_file": "2-farm/README.md",
-  "language_code": "sw"
-}
--->
 # Kilimo kwa IoT
 
 Kadri idadi ya watu inavyoongezeka, ndivyo mahitaji ya kilimo yanavyoongezeka pia. Kiasi cha ardhi kinachopatikana hakibadiliki, lakini hali ya hewa hubadilika - na hivyo kuleta changamoto zaidi kwa wakulima, hasa wale wakulima bilioni 2 wa [kujikimu](https://wikipedia.org/wiki/Subsistence_agriculture) ambao wanategemea mazao wanayolima ili kula na kulisha familia zao. IoT inaweza kuwasaidia wakulima kufanya maamuzi bora juu ya nini cha kulima na wakati wa kuvuna, kuongeza mavuno, kupunguza kazi ya mikono, na kugundua na kushughulikia wadudu waharibifu.

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "2bf65f162bcebd35fbcba5fd245afac4",
-  "translation_date": "2025-08-27T22:54:26+00:00",
-  "source_file": "2-farm/lessons/2-detect-soil-moisture/virtual-device-soil-moisture.md",
-  "language_code": "cs"
-}
--->
 # Měření vlhkosti půdy - Virtuální IoT hardware
 
 V této části lekce přidáte kapacitní senzor vlhkosti půdy k vašemu virtuálnímu IoT zařízení a budete z něj číst hodnoty.

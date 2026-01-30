@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "3dce18fab38adf93ff30b8c221b1eec5",
-  "translation_date": "2025-08-27T20:30:51+00:00",
-  "source_file": "hardware.md",
-  "language_code": "cs"
-}
--->
 # Hardware
 
 **T** v IoT znamená **Things** (věci) a odkazuje na zařízení, která interagují s okolním světem. Každý projekt je založen na reálném hardwaru dostupném studentům a nadšencům. Máme dvě možnosti IoT hardwaru, které lze použít v závislosti na osobních preferencích, znalostech programovacích jazyků, cílech učení a dostupnosti. Pro ty, kteří nemají přístup k hardwaru nebo se chtějí nejprve více naučit, než se rozhodnou pro nákup, jsme také poskytli verzi „virtuálního hardwaru“.

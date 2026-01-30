@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "90fb93446e03c38f3c0e4009c2471906",
-  "translation_date": "2025-08-27T22:14:22+00:00",
-  "source_file": "1-getting-started/lessons/4-connect-internet/single-board-computer-mqtt.md",
-  "language_code": "sw"
-}
--->
 # Dhibiti taa yako ya usiku kupitia Mtandao - Vifaa vya IoT vya Kijumlishi na Raspberry Pi
 
 Kifaa cha IoT kinahitaji kuandikwa msimbo ili kuwasiliana na *test.mosquitto.org* kwa kutumia MQTT kutuma thamani za telemetry na kusoma kutoka kwa kihisi mwanga, na kupokea amri za kudhibiti LED.

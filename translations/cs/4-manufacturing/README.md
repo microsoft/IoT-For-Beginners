@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "3764e089adf2d5801272bc0895f8498b",
-  "translation_date": "2025-08-27T20:35:24+00:00",
-  "source_file": "4-manufacturing/README.md",
-  "language_code": "cs"
-}
--->
 # Výroba a zpracování - využití IoT ke zlepšení zpracování potravin
 
 Jakmile potraviny dorazí do centrálního skladu nebo zpracovatelského závodu, ne vždy jsou ihned odeslány do supermarketů. Často procházejí několika kroky zpracování, například tříděním podle kvality. Tento proces býval manuální – začínal na poli, kde sběrači vybírali pouze zralé ovoce, a poté ve výrobním závodě ovoce putovalo po dopravním pásu, kde zaměstnanci ručně odstraňovali otlučené nebo shnilé plody. Sama jsem během letní brigády ve škole sbírala a třídila jahody, takže mohu potvrdit, že to není zrovna zábavná práce.

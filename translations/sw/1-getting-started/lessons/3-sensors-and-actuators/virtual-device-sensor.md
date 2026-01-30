@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "11f10c6760fb8202cf368422702fdf70",
-  "translation_date": "2025-08-27T22:33:03+00:00",
-  "source_file": "1-getting-started/lessons/3-sensors-and-actuators/virtual-device-sensor.md",
-  "language_code": "sw"
-}
--->
 # Jenga taa ya usiku - Vifaa vya IoT vya Kijumla
 
 Katika sehemu hii ya somo, utaongeza kihisi cha mwanga kwenye kifaa chako cha IoT cha kijumla.

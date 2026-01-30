@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "4fb20273d299dc8d07a8f06c9cd0cdd9",
-  "translation_date": "2025-08-27T22:49:42+00:00",
-  "source_file": "2-farm/lessons/2-detect-soil-moisture/README.md",
-  "language_code": "sw"
-}
--->
 C, inayotamkwa kama *I-squared-C*, ni itifaki ya mawasiliano ya vifaa vingi, ambapo kifaa chochote kilichounganishwa kinaweza kufanya kazi kama kidhibiti au kifaa cha pembeni kinachowasiliana kupitia basi la I²C (jina la mfumo wa mawasiliano unaosafirisha data). Data hutumwa kama pakiti zilizo na anwani, ambapo kila pakiti ina anwani ya kifaa kilichounganishwa ambacho data hiyo inakusudiwa.
 
 > 💁 Mfano huu hapo awali ulijulikana kama master/slave, lakini istilahi hii imeachwa kutokana na uhusiano wake na utumwa. [Chama cha Vifaa vya Chanzo Huria kimepitisha istilahi ya kidhibiti/kifaa cha pembeni](https://www.oshwa.org/a-resolution-to-redefine-spi-signal-names/), lakini bado unaweza kuona marejeo ya istilahi ya zamani.

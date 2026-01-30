@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "c677667095f6133eee418c7e53615d05",
-  "translation_date": "2025-08-27T20:54:57+00:00",
-  "source_file": "4-manufacturing/lessons/2-check-fruit-from-device/pi-camera.md",
-  "language_code": "hu"
-}
--->
 # Kép rögzítése - Raspberry Pi
 
 Ebben a leckében hozzáadunk egy kamerát a Raspberry Pi-hez, és képeket olvasunk be róla.

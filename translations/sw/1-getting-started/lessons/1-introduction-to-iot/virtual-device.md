@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "52b4de6144b2efdced7797a5339d6035",
-  "translation_date": "2025-08-27T22:19:04+00:00",
-  "source_file": "1-getting-started/lessons/1-introduction-to-iot/virtual-device.md",
-  "language_code": "sw"
-}
--->
 # Kompyuta ya bodi moja ya mtandaoni
 
 Badala ya kununua kifaa cha IoT pamoja na sensa na aktueta, unaweza kutumia kompyuta yako kuiga vifaa vya IoT. Mradi wa [CounterFit](https://github.com/CounterFit-IoT/CounterFit) unakuruhusu kuendesha programu kwa ndani inayofanya kazi kama vifaa vya IoT kama sensa na aktueta, na kufikia sensa na aktueta kutoka kwa msimbo wa Python wa ndani ulioandikwa kwa njia sawa na msimbo ambao ungeandika kwenye Raspberry Pi ukitumia vifaa halisi.

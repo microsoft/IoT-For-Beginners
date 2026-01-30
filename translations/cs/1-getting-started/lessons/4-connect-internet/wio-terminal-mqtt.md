@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "d6faf0e8d3c2d6d20c0aef2a305dab18",
-  "translation_date": "2025-08-27T22:12:17+00:00",
-  "source_file": "1-getting-started/lessons/4-connect-internet/wio-terminal-mqtt.md",
-  "language_code": "cs"
-}
--->
 # Ovládejte svůj noční světlo přes internet - Wio Terminal
 
 IoT zařízení musí být naprogramováno tak, aby komunikovalo s *test.mosquitto.org* pomocí MQTT, odesílalo telemetrické hodnoty na základě čtení světelného senzoru a přijímalo příkazy k ovládání LED.

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "288aebb0c59f7be1d2719b8f9660a313",
-  "translation_date": "2025-08-27T20:43:40+00:00",
-  "source_file": "4-manufacturing/lessons/4-trigger-fruit-detector/wio-terminal-proximity.md",
-  "language_code": "sw"
-}
--->
 # Kugundua Ukaribu - Wio Terminal
 
 Katika sehemu hii ya somo, utaongeza kihisi cha ukaribu kwenye Wio Terminal yako, na kusoma umbali kutoka kwake.

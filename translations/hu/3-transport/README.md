@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "e978534a245b000725ed2a048f943213",
-  "translation_date": "2025-08-27T21:36:23+00:00",
-  "source_file": "3-transport/README.md",
-  "language_code": "hu"
-}
--->
 # Szállítás a farmról a gyárba - az IoT használata az élelmiszer-szállítás nyomon követésére
 
 Sok gazda termel élelmiszert eladásra – vagy kereskedelmi gazdálkodók, akik mindent eladnak, amit termelnek, vagy önellátó gazdák, akik a felesleget értékesítik, hogy alapvető szükségleteket vásároljanak. Valahogy az élelmiszernek el kell jutnia a farmról a fogyasztóhoz, és ez általában tömeges szállításon alapul, amely a farmokról a központokba vagy feldolgozóüzemekbe, majd az üzletekbe történik. Például egy paradicsomtermesztő gazda leszüreteli a paradicsomot, dobozokba csomagolja, teherautóra rakja, majd eljuttatja egy feldolgozóüzembe. A paradicsomot ott szétválogatják, majd feldolgozott élelmiszerként, kiskereskedelmi eladásra vagy éttermekben történő fogyasztásra juttatják el a fogyasztókhoz.

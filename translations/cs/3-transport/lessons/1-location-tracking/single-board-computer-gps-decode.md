@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "cbb8c285bc64c5192fae3368fb5077d2",
-  "translation_date": "2025-08-27T21:42:38+00:00",
-  "source_file": "3-transport/lessons/1-location-tracking/single-board-computer-gps-decode.md",
-  "language_code": "cs"
-}
--->
 # Dekódování GPS dat - Virtuální IoT zařízení a Raspberry Pi
 
 V této části lekce budete dekódovat NMEA zprávy přečtené ze senzoru GPS pomocí Raspberry Pi nebo Virtuálního IoT zařízení a extrahovat zeměpisnou šířku a délku.

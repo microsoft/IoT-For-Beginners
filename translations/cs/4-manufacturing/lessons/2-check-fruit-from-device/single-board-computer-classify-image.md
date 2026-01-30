@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "e5896207b304ce1abaf065b8acc0cc79",
-  "translation_date": "2025-08-27T21:00:06+00:00",
-  "source_file": "4-manufacturing/lessons/2-check-fruit-from-device/single-board-computer-classify-image.md",
-  "language_code": "cs"
-}
--->
 # Klasifikace obrázku - Virtuální IoT hardware a Raspberry Pi
 
 V této části lekce pošlete obrázek zachycený kamerou do služby Custom Vision, aby byl klasifikován.

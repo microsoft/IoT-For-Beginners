@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "c0550b254b9ba2539baf1e6bb5fc05f8",
-  "translation_date": "2025-08-27T21:21:32+00:00",
-  "source_file": "6-consumer/lessons/1-speech-recognition/virtual-device-speech-to-text.md",
-  "language_code": "cs"
-}
--->
 # Převod řeči na text - Virtuální IoT zařízení
 
 V této části lekce napíšete kód pro převod řeči zachycené z vašeho mikrofonu na text pomocí služby pro rozpoznávání řeči.

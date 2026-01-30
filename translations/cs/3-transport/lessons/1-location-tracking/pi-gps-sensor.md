@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "3b2448c7ab4e9673e77e35a50c5e350d",
-  "translation_date": "2025-08-27T21:40:37+00:00",
-  "source_file": "3-transport/lessons/1-location-tracking/pi-gps-sensor.md",
-  "language_code": "cs"
-}
--->
 # Čtení GPS dat - Raspberry Pi
 
 V této části lekce přidáte k Raspberry Pi GPS senzor a budete z něj číst hodnoty.

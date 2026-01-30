@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "3764e089adf2d5801272bc0895f8498b",
-  "translation_date": "2025-08-27T20:34:55+00:00",
-  "source_file": "4-manufacturing/README.md",
-  "language_code": "sw"
-}
--->
 # Utengenezaji na usindikaji - kutumia IoT kuboresha usindikaji wa chakula
 
 Mara chakula kinapofika kwenye kituo cha kati au kiwanda cha usindikaji, hakisafirishwi tu moja kwa moja kwenda madukani. Mara nyingi chakula hupitia hatua kadhaa za usindikaji, kama vile kugawanywa kulingana na ubora. Hii ni mchakato ambao hapo awali ulikuwa wa mwongozo - ulianza shambani ambapo wachumaji walichuma matunda yaliyoiva tu, kisha kiwandani matunda yalipita kwenye mkanda wa kusafirisha na wafanyakazi waliondoa kwa mikono matunda yaliyoharibika au yaliyooza. Nikiwa nimechuma na kugawa matunda ya strawberry mwenyewe kama kazi ya kiangazi wakati wa shule, naweza kuthibitisha kuwa hii si kazi ya kufurahisha.

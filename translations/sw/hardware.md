@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "3dce18fab38adf93ff30b8c221b1eec5",
-  "translation_date": "2025-08-27T20:29:32+00:00",
-  "source_file": "hardware.md",
-  "language_code": "sw"
-}
--->
 # Vifaa vya Kifaa
 
 **T** katika IoT inamaanisha **Vitu** na inahusu vifaa vinavyoshirikiana na mazingira yanayotuzunguka. Kila mradi unategemea vifaa halisi vinavyopatikana kwa wanafunzi na wapenda teknolojia. Tuna chaguo mbili za vifaa vya IoT kulingana na upendeleo wa mtu binafsi, ujuzi wa lugha ya programu au mapendeleo, malengo ya kujifunza, na upatikanaji. Pia tumetoa toleo la 'vifaa vya kidijitali' kwa wale ambao hawana ufikiaji wa vifaa, au wanataka kujifunza zaidi kabla ya kununua.

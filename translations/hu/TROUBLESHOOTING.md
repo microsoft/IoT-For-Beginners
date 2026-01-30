@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "9713e21a309662f6fcb271b573d47848",
-  "translation_date": "2026-01-06T15:52:01+00:00",
-  "source_file": "TROUBLESHOOTING.md",
-  "language_code": "hu"
-}
--->
 # Hibakeresési útmutató
 
 Ez az útmutató segít megoldani a gyakori problémákat az IoT for Beginners tananyag használata során. A problémák kategóriák szerint vannak rendezve a könnyű navigáció érdekében.

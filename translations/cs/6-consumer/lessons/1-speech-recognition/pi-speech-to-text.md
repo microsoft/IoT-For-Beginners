@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "af249a24d4fe4f4de4806adbc3bc9d86",
-  "translation_date": "2025-08-27T21:24:36+00:00",
-  "source_file": "6-consumer/lessons/1-speech-recognition/pi-speech-to-text.md",
-  "language_code": "cs"
-}
--->
 # Převod řeči na text - Raspberry Pi
 
 V této části lekce napíšete kód, který převede řeč z nahraného zvuku na text pomocí služby pro rozpoznávání řeči.

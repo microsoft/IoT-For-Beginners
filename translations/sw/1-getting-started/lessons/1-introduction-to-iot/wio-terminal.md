@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "a4f0c166010e31fd7b6ca20bc88dec6d",
-  "translation_date": "2025-08-27T22:24:07+00:00",
-  "source_file": "1-getting-started/lessons/1-introduction-to-iot/wio-terminal.md",
-  "language_code": "sw"
-}
--->
 # Wio Terminal
 
 [Wio Terminal kutoka Seeed Studios](https://www.seeedstudio.com/Wio-Terminal-p-4509.html) ni microcontroller inayofanana na Arduino, yenye WiFi na sensa kadhaa pamoja na actuators zilizojengwa ndani, pamoja na sehemu za kuongezea sensa na actuators zaidi, kwa kutumia mfumo wa vifaa unaoitwa [Grove](https://www.seeedstudio.com/category/Grove-c-1003.html).

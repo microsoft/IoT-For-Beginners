@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "c527ce85d69b1a3875366ec61cbed8aa",
-  "translation_date": "2025-08-27T22:13:39+00:00",
-  "source_file": "1-getting-started/lessons/4-connect-internet/single-board-computer-commands.md",
-  "language_code": "cs"
-}
--->
 # Ovládejte noční světlo přes internet - Virtuální IoT hardware a Raspberry Pi
 
 V této části lekce se naučíte, jak se přihlásit k odběru příkazů odesílaných z MQTT brokeru do vašeho Raspberry Pi nebo virtuálního IoT zařízení.

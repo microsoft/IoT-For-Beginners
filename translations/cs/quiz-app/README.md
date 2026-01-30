@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "2a459ea9177fb0508ca96068ae1009d2",
-  "translation_date": "2025-08-27T22:36:22+00:00",
-  "source_file": "quiz-app/README.md",
-  "language_code": "cs"
-}
--->
 # Kvízy
 
 Tyto kvízy jsou přednáškové a popřednáškové kvízy pro kurikulum IoT pro začátečníky na https://aka.ms/iot-beginners

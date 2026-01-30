@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "9713e21a309662f6fcb271b573d47848",
-  "translation_date": "2026-01-06T15:54:22+00:00",
-  "source_file": "TROUBLESHOOTING.md",
-  "language_code": "cs"
-}
--->
 # Průvodce řešením problémů
 
 Tento průvodce vám pomůže vyřešit běžné problémy při práci s kurzem IoT pro začátečníky. Problémy jsou uspořádány podle kategorií pro snadnou orientaci.

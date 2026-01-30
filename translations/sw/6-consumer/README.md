@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "5de7dc1e2ddc402d415473bb795568d4",
-  "translation_date": "2025-08-27T21:01:50+00:00",
-  "source_file": "6-consumer/README.md",
-  "language_code": "sw"
-}
--->
 # IoT ya Wateja - tengeneza msaidizi wa sauti wa kisasa
 
 Chakula kimepandwa, kimepelekwa kiwandani, kimepangwa kwa ubora, kimeuzwa dukani, na sasa ni wakati wa kupika! Moja ya vifaa muhimu katika jikoni yoyote ni kipima muda. Hapo awali vilianza kama saa za mchanga - chakula chako kilikuwa tayari pindi mchanga wote uliposhuka kwenye sehemu ya chini. Baadaye vilibadilika kuwa vya mitambo, kisha vya umeme.

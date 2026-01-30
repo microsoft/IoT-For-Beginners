@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "93d352de36526b8990e41dd538100324",
-  "translation_date": "2025-08-27T21:21:46+00:00",
-  "source_file": "6-consumer/lessons/1-speech-recognition/wio-terminal-microphone.md",
-  "language_code": "sw"
-}
--->
 # Sanidi kipaza sauti na spika zako - Wio Terminal
 
 Katika sehemu hii ya somo, utaongeza spika kwenye Wio Terminal yako. Wio Terminal tayari ina kipaza sauti kilichojengwa ndani, ambacho kinaweza kutumika kurekodi sauti.

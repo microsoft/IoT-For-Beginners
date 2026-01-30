@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "22a1d6e49f2a689fe5bfa7802a7241fc",
-  "translation_date": "2025-08-27T22:36:55+00:00",
-  "source_file": "5-retail/README.md",
-  "language_code": "cs"
-}
--->
 # Maloobchod - využití IoT k řízení úrovní zásob
 
 Poslední etapou, než se krmivo dostane ke spotřebitelům, je maloobchod – trhy, zelinářství, supermarkety a obchody, které prodávají produkty spotřebitelům. Tyto obchody chtějí zajistit, aby měly na regálech zboží, které si zákazníci mohou prohlédnout a koupit.

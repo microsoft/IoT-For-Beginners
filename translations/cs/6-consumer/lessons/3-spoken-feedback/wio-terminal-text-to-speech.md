@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "a202fa5889790a3777bfc33dd9f4b459",
-  "translation_date": "2025-08-27T21:11:53+00:00",
-  "source_file": "6-consumer/lessons/3-spoken-feedback/wio-terminal-text-to-speech.md",
-  "language_code": "cs"
-}
--->
 # Převod textu na řeč - Wio Terminal
 
 V této části lekce převedete text na řeč, abyste poskytli mluvenou zpětnou vazbu.

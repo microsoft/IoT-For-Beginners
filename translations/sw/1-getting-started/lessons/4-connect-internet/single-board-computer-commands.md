@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "c527ce85d69b1a3875366ec61cbed8aa",
-  "translation_date": "2025-08-27T22:13:15+00:00",
-  "source_file": "1-getting-started/lessons/4-connect-internet/single-board-computer-commands.md",
-  "language_code": "sw"
-}
--->
 # Dhibiti taa yako ya usiku kupitia Mtandao - Vifaa vya IoT vya Kijumlishi na Raspberry Pi
 
 Katika sehemu hii ya somo, utajiandikisha kupokea amri zinazotumwa kutoka kwa MQTT broker kwenda kwa Raspberry Pi yako au kifaa chako cha IoT cha kijumlishi.

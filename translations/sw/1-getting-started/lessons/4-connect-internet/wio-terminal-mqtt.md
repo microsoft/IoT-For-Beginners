@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "d6faf0e8d3c2d6d20c0aef2a305dab18",
-  "translation_date": "2025-08-27T22:11:27+00:00",
-  "source_file": "1-getting-started/lessons/4-connect-internet/wio-terminal-mqtt.md",
-  "language_code": "sw"
-}
--->
 # Dhibiti taa yako ya usiku kupitia Mtandao - Wio Terminal
 
 Kifaa cha IoT kinahitaji kuandikwa ili kuwasiliana na *test.mosquitto.org* kwa kutumia MQTT kutuma thamani za telemetry na kusoma sensa ya mwanga, na kupokea amri za kudhibiti LED.

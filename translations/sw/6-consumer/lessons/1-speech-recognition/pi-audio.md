@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "0ac0afcfb40cb5970ef4cb74f01c32e9",
-  "translation_date": "2025-08-27T21:19:48+00:00",
-  "source_file": "6-consumer/lessons/1-speech-recognition/pi-audio.md",
-  "language_code": "sw"
-}
--->
 # Kurekodi sauti - Raspberry Pi
 
 Katika sehemu hii ya somo, utaandika msimbo wa kurekodi sauti kwenye Raspberry Pi yako. Kurekodi sauti kutadhibitiwa na kitufe.

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "3dce18fab38adf93ff30b8c221b1eec5",
-  "translation_date": "2025-08-27T20:30:14+00:00",
-  "source_file": "hardware.md",
-  "language_code": "hu"
-}
--->
 # Hardver
 
 Az IoT-ban a **T** a **Things** (Dolgok) szót jelenti, és azokra az eszközökre utal, amelyek kölcsönhatásba lépnek a körülöttünk lévő világgal. Minden projekt valós hardvereken alapul, amelyek elérhetők diákok és hobbi fejlesztők számára. Kétféle IoT hardver közül választhatunk, attól függően, hogy milyen személyes preferenciáink, programozási nyelvismeretünk vagy tanulási céljaink vannak, illetve mi érhető el számunkra. Emellett biztosítottunk egy "virtuális hardver" verziót is azok számára, akik nem férnek hozzá fizikai hardverhez, vagy többet szeretnének tanulni, mielőtt vásárlás mellett döntenének.

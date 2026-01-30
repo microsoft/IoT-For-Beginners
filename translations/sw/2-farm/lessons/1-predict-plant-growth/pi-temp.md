@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "7678f7c67b97ee52d5727496dcd7d346",
-  "translation_date": "2025-08-27T23:14:59+00:00",
-  "source_file": "2-farm/lessons/1-predict-plant-growth/pi-temp.md",
-  "language_code": "sw"
-}
--->
 # Pima joto - Raspberry Pi
 
 Katika sehemu hii ya somo, utaongeza kihisi cha joto kwenye Raspberry Pi yako.

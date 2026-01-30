@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "9c640f93263fd9adbfda920739e09feb",
-  "translation_date": "2025-08-27T22:28:56+00:00",
-  "source_file": "1-getting-started/lessons/3-sensors-and-actuators/virtual-device-actuator.md",
-  "language_code": "sw"
-}
--->
 # Jenga taa ya usiku - Vifaa vya IoT vya Kijumla
 
 Katika sehemu hii ya somo, utaongeza LED kwenye kifaa chako cha IoT cha kijumla na kuitumia kuunda taa ya usiku.

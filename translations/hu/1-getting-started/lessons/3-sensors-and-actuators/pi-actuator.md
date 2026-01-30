@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "4db8a3879a53490513571df2f6cf7641",
-  "translation_date": "2025-08-27T22:30:08+00:00",
-  "source_file": "1-getting-started/lessons/3-sensors-and-actuators/pi-actuator.md",
-  "language_code": "hu"
-}
--->
 # Építs egy éjjeli fényt - Raspberry Pi
 
 Ebben a leckében hozzáadsz egy LED-et a Raspberry Pi-hez, és éjjeli fényt készítesz belőle.

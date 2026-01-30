@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "48ac21ec80329c930db7b84bd6b592ec",
-  "translation_date": "2025-08-27T20:52:13+00:00",
-  "source_file": "4-manufacturing/lessons/3-run-fruit-detector-edge/wio-terminal.md",
-  "language_code": "hu"
-}
--->
 # Képek osztályozása IoT Edge alapú képosztályozóval - Wio Terminal
 
 Ebben a leckében az IoT Edge eszközön futó képosztályozót fogod használni.
