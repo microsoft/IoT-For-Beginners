@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "64ad4ddb4de81a18b7252e968f10b404",
-  "translation_date": "2025-08-27T00:07:19+00:00",
-  "source_file": "6-consumer/lessons/3-spoken-feedback/single-board-computer-set-timer.md",
-  "language_code": "ar"
-}
--->
 # ضبط مؤقت - الأجهزة الافتراضية لإنترنت الأشياء و Raspberry Pi
 
 في هذا الجزء من الدرس، ستقوم باستدعاء الكود الخالي من الخوادم لفهم الكلام وضبط مؤقت على جهاز إنترنت الأشياء الافتراضي أو Raspberry Pi بناءً على النتائج.

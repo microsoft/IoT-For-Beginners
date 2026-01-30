@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "52b4de6144b2efdced7797a5339d6035",
-  "translation_date": "2025-08-26T23:37:05+00:00",
-  "source_file": "1-getting-started/lessons/1-introduction-to-iot/virtual-device.md",
-  "language_code": "ar"
-}
--->
 # الكمبيوتر أحادي اللوحة الافتراضي
 
 بدلاً من شراء جهاز إنترنت الأشياء (IoT) مع المستشعرات والمحركات، يمكنك استخدام جهاز الكمبيوتر الخاص بك لمحاكاة أجهزة إنترنت الأشياء. يتيح لك مشروع [CounterFit](https://github.com/CounterFit-IoT/CounterFit) تشغيل تطبيق محلي يحاكي أجهزة إنترنت الأشياء مثل المستشعرات والمحركات، والوصول إلى هذه المستشعرات والمحركات من خلال كود Python محلي مكتوب بنفس الطريقة التي تكتب بها الكود على Raspberry Pi باستخدام الأجهزة الفعلية.

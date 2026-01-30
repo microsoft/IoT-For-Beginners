@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "3ba7150ffc4a6999f6c3cfb4906ec7df",
-  "translation_date": "2025-08-26T21:52:39+00:00",
-  "source_file": "4-manufacturing/lessons/2-check-fruit-from-device/virtual-device-camera.md",
-  "language_code": "ar"
-}
--->
 # التقاط صورة - جهاز إنترنت الأشياء الافتراضي
 
 في هذا الجزء من الدرس، ستضيف مستشعر كاميرا إلى جهاز إنترنت الأشياء الافتراضي الخاص بك، وتقوم بقراءة الصور منه.

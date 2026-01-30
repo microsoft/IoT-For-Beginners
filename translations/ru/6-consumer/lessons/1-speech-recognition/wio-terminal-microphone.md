@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "93d352de36526b8990e41dd538100324",
-  "translation_date": "2025-08-27T00:31:09+00:00",
-  "source_file": "6-consumer/lessons/1-speech-recognition/wio-terminal-microphone.md",
-  "language_code": "ru"
-}
--->
 # Настройка микрофона и динамиков - Wio Terminal
 
 В этой части урока вы добавите динамики к вашему Wio Terminal. Wio Terminal уже оснащен встроенным микрофоном, который можно использовать для записи речи.

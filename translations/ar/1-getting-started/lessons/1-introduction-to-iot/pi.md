@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "8ff0d0a1d29832bb896b9c103b69a452",
-  "translation_date": "2025-08-26T23:39:36+00:00",
-  "source_file": "1-getting-started/lessons/1-introduction-to-iot/pi.md",
-  "language_code": "ar"
-}
--->
 # راسبيري باي
 
 [راسبيري باي](https://raspberrypi.org) هو كمبيوتر صغير على لوحة واحدة. يمكنك إضافة أجهزة استشعار ومحركات باستخدام مجموعة واسعة من الأجهزة والنظم البيئية، وفي هذه الدروس ستستخدم نظامًا بيئيًا للأجهزة يسمى [Grove](https://www.seeedstudio.com/category/Grove-c-1003.html). ستقوم ببرمجة راسبيري باي والوصول إلى أجهزة استشعار Grove باستخدام لغة بايثون.

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "9aea84bcc7520222b0e1c50469d62d6a",
-  "translation_date": "2025-08-26T23:07:20+00:00",
-  "source_file": "2-farm/lessons/6-keep-your-plant-secure/single-board-computer-x509.md",
-  "language_code": "ar"
-}
--->
 # استخدام شهادة X.509 في كود جهازك - الأجهزة الافتراضية لإنترنت الأشياء و Raspberry Pi
 
 في هذا الجزء من الدرس، ستقوم بتوصيل جهاز إنترنت الأشياء الافتراضي الخاص بك أو Raspberry Pi بمركز إنترنت الأشياء الخاص بك باستخدام شهادة X.509.

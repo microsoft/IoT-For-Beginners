@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "012bbd19f13171be32ac9ba21d4186c2",
-  "translation_date": "2025-08-25T20:36:03+00:00",
-  "source_file": "recommended-learning-model.md",
-  "language_code": "de"
-}
--->
 # Empfohlenes Lernmodell
 
 Für die effektivsten Lernergebnisse **empfehlen wir einen „Flipped Model“-Ansatz**, ähnlich wie in naturwissenschaftlichen Laboren: Die Schüler arbeiten während der Unterrichtszeit an Projekten, mit Möglichkeiten für Diskussionen, Fragen und Unterstützung bei Projekten, und erledigen die Vorlesungselemente eigenständig als Vorbereitung.

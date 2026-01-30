@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "288aebb0c59f7be1d2719b8f9660a313",
-  "translation_date": "2025-08-26T22:09:27+00:00",
-  "source_file": "4-manufacturing/lessons/4-trigger-fruit-detector/wio-terminal-proximity.md",
-  "language_code": "ru"
-}
--->
 # Обнаружение близости - Wio Terminal
 
 В этой части урока вы добавите датчик близости к вашему Wio Terminal и будете считывать расстояние с него.

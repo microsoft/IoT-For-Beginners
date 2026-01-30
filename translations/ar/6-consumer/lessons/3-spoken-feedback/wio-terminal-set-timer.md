@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "012b69d57d898d670adf61304f42a137",
-  "translation_date": "2025-08-27T00:11:15+00:00",
-  "source_file": "6-consumer/lessons/3-spoken-feedback/wio-terminal-set-timer.md",
-  "language_code": "ar"
-}
--->
 # ضبط مؤقت - Wio Terminal
 
 في هذا الجزء من الدرس، ستقوم باستدعاء الكود الخالي من الخوادم لفهم الكلام، وضبط مؤقت على جهاز Wio Terminal بناءً على النتائج.

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "d6faf0e8d3c2d6d20c0aef2a305dab18",
-  "translation_date": "2025-08-26T23:19:42+00:00",
-  "source_file": "1-getting-started/lessons/4-connect-internet/wio-terminal-mqtt.md",
-  "language_code": "ar"
-}
--->
 # التحكم في ضوء الليل عبر الإنترنت - Wio Terminal
 
 يحتاج جهاز إنترنت الأشياء إلى البرمجة للتواصل مع *test.mosquitto.org* باستخدام MQTT لإرسال قيم القياس عن بعد مع قراءة مستشعر الضوء، واستقبال الأوامر للتحكم في LED.

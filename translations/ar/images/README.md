@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "50abd54997afa7e7a3fc7019379e49e3",
-  "translation_date": "2025-08-26T21:28:21+00:00",
-  "source_file": "images/README.md",
-  "language_code": "ar"
-}
--->
 # الصور
 
 الصور الموجودة في مجلد [icons](../../../images/icons) مأخوذة من [Noun Project](https://thenounproject.com) وتتطلب الإشارة إلى المصدر. كل صورة تحتوي على تفاصيل الإسناد المطلوب. يجب استخدام هذه الصور في أي مخطط يحتاج إليها للحفاظ على تناسق الصور.

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "0b2ae20b0fc8e73c9598dea937cac038",
-  "translation_date": "2025-08-26T21:33:11+00:00",
-  "source_file": "5-retail/lessons/2-check-stock-device/wio-terminal-count-stock.md",
-  "language_code": "ru"
-}
--->
 # Подсчет запасов с вашего IoT-устройства - Wio Terminal
 
 Сочетание предсказаний и их ограничивающих рамок можно использовать для подсчета запасов на изображении.

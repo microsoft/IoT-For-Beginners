@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "7966848a1f870e4c42edb4db67b13c57",
-  "translation_date": "2025-08-27T00:17:11+00:00",
-  "source_file": "6-consumer/lessons/3-spoken-feedback/virtual-device-text-to-speech.md",
-  "language_code": "ru"
-}
--->
 # Текст в речь - Виртуальное IoT-устройство
 
 В этой части урока вы напишете код для преобразования текста в речь с использованием службы синтеза речи.

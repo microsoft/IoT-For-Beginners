@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "7e9f05bdc50a40fd924b1d66934471bf",
-  "translation_date": "2025-08-26T22:10:42+00:00",
-  "source_file": "4-manufacturing/lessons/4-trigger-fruit-detector/virtual-device-proximity.md",
-  "language_code": "ar"
-}
--->
 # اكتشاف القرب - الأجهزة الافتراضية لإنترنت الأشياء
 
 في هذا الجزء من الدرس، ستضيف مستشعر قرب إلى جهاز إنترنت الأشياء الافتراضي الخاص بك، وتقرأ المسافة منه.

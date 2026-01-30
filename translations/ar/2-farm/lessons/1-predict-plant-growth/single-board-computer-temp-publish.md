@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "4efc74299e19f5d08f2f3f34451a11ba",
-  "translation_date": "2025-08-26T22:16:00+00:00",
-  "source_file": "2-farm/lessons/1-predict-plant-growth/single-board-computer-temp-publish.md",
-  "language_code": "ar"
-}
--->
 # نشر درجة الحرارة - الأجهزة الافتراضية لإنترنت الأشياء و Raspberry Pi
 
 في هذا الجزء من الدرس، ستقوم بنشر قيم درجة الحرارة التي يكتشفها Raspberry Pi أو جهاز إنترنت الأشياء الافتراضي عبر MQTT حتى يمكن استخدامها لاحقًا لحساب GDD.

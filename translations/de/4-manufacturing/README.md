@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "3764e089adf2d5801272bc0895f8498b",
-  "translation_date": "2025-08-25T20:52:02+00:00",
-  "source_file": "4-manufacturing/README.md",
-  "language_code": "de"
-}
--->
 # Herstellung und Verarbeitung – IoT zur Verbesserung der Lebensmittelverarbeitung nutzen
 
 Sobald Lebensmittel ein zentrales Lager oder eine Verarbeitungsanlage erreichen, werden sie nicht immer direkt an Supermärkte geliefert. Oft durchlaufen sie mehrere Verarbeitungsschritte, wie zum Beispiel die Sortierung nach Qualität. Dies war früher ein manueller Prozess – er begann auf dem Feld, wo Pflücker nur reife Früchte ernteten, und setzte sich in der Fabrik fort, wo die Früchte auf einem Förderband transportiert wurden und Mitarbeiter beschädigte oder verdorbene Früchte manuell aussortierten. Da ich selbst während der Schulzeit als Sommerjob Erdbeeren gepflückt und sortiert habe, kann ich bestätigen, dass dies kein angenehmer Job ist.

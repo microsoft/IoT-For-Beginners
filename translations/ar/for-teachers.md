@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "9fd36f5dc734203ee28b6cf2573e5eab",
-  "translation_date": "2025-08-26T21:23:27+00:00",
-  "source_file": "for-teachers.md",
-  "language_code": "ar"
-}
--->
 # للمعلمين
 
 هل ترغب في استخدام هذا المنهج الدراسي في صفك؟ لا تتردد!

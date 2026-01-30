@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "e9ee00eb5fc55922a73762acc542166b",
-  "translation_date": "2025-08-25T22:03:39+00:00",
-  "source_file": "1-getting-started/lessons/3-sensors-and-actuators/README.md",
-  "language_code": "de"
-}
--->
 # Interaktion mit der physischen Welt durch Sensoren und Aktoren
 
 ![Eine Sketchnote-Übersicht dieser Lektion](../../../../../translated_images/de/lesson-3.cc3b7b4cd646de598698cce043c0393fd62ef42bac2eaf60e61272cd844250f4.jpg)

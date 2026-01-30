@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "8ff0d0a1d29832bb896b9c103b69a452",
-  "translation_date": "2025-08-25T22:16:01+00:00",
-  "source_file": "1-getting-started/lessons/1-introduction-to-iot/pi.md",
-  "language_code": "de"
-}
--->
 # Raspberry Pi
 
 Der [Raspberry Pi](https://raspberrypi.org) ist ein Einplatinencomputer. Sie können Sensoren und Aktoren mit einer Vielzahl von Geräten und Ökosystemen hinzufügen. Für diese Lektionen verwenden wir ein Hardware-Ökosystem namens [Grove](https://www.seeedstudio.com/category/Grove-c-1003.html). Sie werden Ihren Pi programmieren und die Grove-Sensoren mit Python ansteuern.

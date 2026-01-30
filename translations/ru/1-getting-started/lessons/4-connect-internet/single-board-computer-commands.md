@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "c527ce85d69b1a3875366ec61cbed8aa",
-  "translation_date": "2025-08-26T23:09:20+00:00",
-  "source_file": "1-getting-started/lessons/4-connect-internet/single-board-computer-commands.md",
-  "language_code": "ru"
-}
--->
 # Управляйте ночником через Интернет - Виртуальное IoT-устройство и Raspberry Pi
 
 В этой части урока вы научитесь подписываться на команды, отправляемые с MQTT-брокера на ваш Raspberry Pi или виртуальное IoT-устройство.

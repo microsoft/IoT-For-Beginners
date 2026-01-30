@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "f8f541ee945545017a51aaf309aa37c3",
-  "translation_date": "2025-08-26T22:30:22+00:00",
-  "source_file": "2-farm/lessons/3-automated-plant-watering/virtual-device-relay.md",
-  "language_code": "ru"
-}
--->
 # Управление реле - Виртуальное IoT-устройство
 
 В этой части урока вы добавите реле к вашему виртуальному IoT-устройству в дополнение к датчику влажности почвы и будете управлять им на основе уровня влажности почвы.

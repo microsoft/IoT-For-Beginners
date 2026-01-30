@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "c0550b254b9ba2539baf1e6bb5fc05f8",
-  "translation_date": "2025-08-27T00:23:43+00:00",
-  "source_file": "6-consumer/lessons/1-speech-recognition/virtual-device-speech-to-text.md",
-  "language_code": "ar"
-}
--->
 # تحويل الكلام إلى نص - جهاز إنترنت الأشياء الافتراضي
 
 في هذا الجزء من الدرس، ستكتب كودًا لتحويل الكلام الملتقط من الميكروفون الخاص بك إلى نص باستخدام خدمة التعرف على الكلام.

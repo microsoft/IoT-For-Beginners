@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "90fb93446e03c38f3c0e4009c2471906",
-  "translation_date": "2025-08-26T23:18:48+00:00",
-  "source_file": "1-getting-started/lessons/4-connect-internet/single-board-computer-mqtt.md",
-  "language_code": "ar"
-}
--->
 # التحكم في ضوء الليل عبر الإنترنت - أجهزة إنترنت الأشياء الافتراضية و Raspberry Pi
 
 يحتاج جهاز إنترنت الأشياء إلى برمجة للتواصل مع *test.mosquitto.org* باستخدام MQTT لإرسال قيم القياس عن بعد مع قراءة مستشعر الضوء، وتلقي الأوامر للتحكم في LED.

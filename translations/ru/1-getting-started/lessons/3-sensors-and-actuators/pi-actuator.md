@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "4db8a3879a53490513571df2f6cf7641",
-  "translation_date": "2025-08-26T23:26:21+00:00",
-  "source_file": "1-getting-started/lessons/3-sensors-and-actuators/pi-actuator.md",
-  "language_code": "ru"
-}
--->
 # Создание ночника - Raspberry Pi
 
 В этой части урока вы добавите светодиод (LED) к вашему Raspberry Pi и используете его для создания ночника.

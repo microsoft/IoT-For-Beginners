@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "5de7dc1e2ddc402d415473bb795568d4",
-  "translation_date": "2025-08-25T22:24:34+00:00",
-  "source_file": "6-consumer/README.md",
-  "language_code": "de"
-}
--->
 # Consumer IoT - Baue einen intelligenten Sprachassistenten
 
 Das Essen wurde angebaut, zu einer Verarbeitungsanlage transportiert, auf Qualität geprüft, im Laden verkauft und jetzt ist es Zeit zu kochen! Eines der wichtigsten Utensilien in jeder Küche ist ein Timer. Ursprünglich waren diese Sanduhren – dein Essen war fertig, wenn der gesamte Sand in die untere Kammer gerieselt war. Danach wurden sie mechanisch, dann elektrisch.

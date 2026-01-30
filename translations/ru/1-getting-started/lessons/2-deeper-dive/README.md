@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "9dd7f645ad1c6f20b72fee512987f772",
-  "translation_date": "2025-08-26T23:44:27+00:00",
-  "source_file": "1-getting-started/lessons/2-deeper-dive/README.md",
-  "language_code": "ru"
-}
--->
 # Более глубокое погружение в IoT
 
 ![Скетчноут с обзором этого урока](../../../../../translated_images/ru/lesson-2.324b0580d620c25e0a24fb7fddfc0b29a846dd4b82c08e7a9466d580ee78ce51.jpg)

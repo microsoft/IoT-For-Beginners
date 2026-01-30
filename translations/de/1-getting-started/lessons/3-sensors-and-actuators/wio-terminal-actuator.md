@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "db44083b4dc6fb06eac83c4f16448940",
-  "translation_date": "2025-08-25T22:07:11+00:00",
-  "source_file": "1-getting-started/lessons/3-sensors-and-actuators/wio-terminal-actuator.md",
-  "language_code": "de"
-}
--->
 # Baue ein Nachtlicht - Wio Terminal
 
 In diesem Teil der Lektion fügst du deinem Wio Terminal eine LED hinzu und nutzt sie, um ein Nachtlicht zu erstellen.

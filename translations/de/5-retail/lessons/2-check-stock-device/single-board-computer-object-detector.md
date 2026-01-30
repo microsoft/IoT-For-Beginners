@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "a3fdfec1d1e2cb645ea11c2930b51299",
-  "translation_date": "2025-08-25T20:43:55+00:00",
-  "source_file": "5-retail/lessons/2-check-stock-device/single-board-computer-object-detector.md",
-  "language_code": "de"
-}
--->
 # Rufen Sie Ihren Objektdetektor von Ihrem IoT-Gerät auf - Virtuelle IoT-Hardware und Raspberry Pi
 
 Sobald Ihr Objektdetektor veröffentlicht wurde, kann er von Ihrem IoT-Gerät aus verwendet werden.

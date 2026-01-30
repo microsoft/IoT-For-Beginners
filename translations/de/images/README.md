@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "50abd54997afa7e7a3fc7019379e49e3",
-  "translation_date": "2025-08-25T20:43:08+00:00",
-  "source_file": "images/README.md",
-  "language_code": "de"
-}
--->
 # Bilder
 
 Die Bilder im Ordner [icons](../../../images/icons) stammen aus dem [Noun Project](https://thenounproject.com) und erfordern eine Namensnennung. Jedes Bild gibt die erforderliche Namensnennung an. Diese Bilder sollten für alle Diagramme verwendet werden, die sie benötigen, um die Bildsprache konsistent zu halten.

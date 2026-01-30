@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "2bf65f162bcebd35fbcba5fd245afac4",
-  "translation_date": "2025-08-26T22:51:35+00:00",
-  "source_file": "2-farm/lessons/2-detect-soil-moisture/virtual-device-soil-moisture.md",
-  "language_code": "ar"
-}
--->
 # قياس رطوبة التربة - أجهزة إنترنت الأشياء الافتراضية
 
 في هذا الجزء من الدرس، ستضيف مستشعر رطوبة التربة السعوي إلى جهاز إنترنت الأشياء الافتراضي الخاص بك، وتقرأ القيم منه.

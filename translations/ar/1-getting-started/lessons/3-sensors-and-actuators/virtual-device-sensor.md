@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "11f10c6760fb8202cf368422702fdf70",
-  "translation_date": "2025-08-26T23:29:57+00:00",
-  "source_file": "1-getting-started/lessons/3-sensors-and-actuators/virtual-device-sensor.md",
-  "language_code": "ar"
-}
--->
 # بناء مصباح ليلي - جهاز إنترنت الأشياء الافتراضي
 
 في هذا الجزء من الدرس، ستضيف مستشعر ضوء إلى جهاز إنترنت الأشياء الافتراضي الخاص بك.

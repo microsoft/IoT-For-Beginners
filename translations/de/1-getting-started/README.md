@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "e2b1b891b08ef7633d285547fbe73290",
-  "translation_date": "2025-08-25T21:53:57+00:00",
-  "source_file": "1-getting-started/README.md",
-  "language_code": "de"
-}
--->
 # Einstieg in IoT
 
 In diesem Abschnitt des Lehrplans wirst du in das Internet der Dinge eingeführt und lernst die grundlegenden Konzepte kennen, einschließlich des Aufbaus deines ersten "Hello World"-IoT-Projekts, das mit der Cloud verbunden ist. Dieses Projekt ist ein Nachtlicht, das aufleuchtet, wenn die von einem Sensor gemessenen Lichtwerte sinken.

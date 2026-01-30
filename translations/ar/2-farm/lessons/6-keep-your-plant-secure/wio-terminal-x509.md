@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "8a74f789f3c1bf41a13c007190360c19",
-  "translation_date": "2025-08-26T23:07:57+00:00",
-  "source_file": "2-farm/lessons/6-keep-your-plant-secure/wio-terminal-x509.md",
-  "language_code": "ar"
-}
--->
 # استخدام شهادة X.509 في كود الجهاز الخاص بك - Wio Terminal
 
 في وقت كتابة هذه الوثيقة، لا يدعم Azure Arduino SDK شهادات X.509. إذا كنت ترغب في تجربة شهادات X.509، يمكنك الرجوع إلى [تعليمات الجهاز الافتراضي لإنترنت الأشياء باستخدام Python SDK](single-board-computer-x509.md)

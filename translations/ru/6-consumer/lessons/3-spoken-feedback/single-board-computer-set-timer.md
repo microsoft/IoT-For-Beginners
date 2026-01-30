@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "64ad4ddb4de81a18b7252e968f10b404",
-  "translation_date": "2025-08-27T00:07:04+00:00",
-  "source_file": "6-consumer/lessons/3-spoken-feedback/single-board-computer-set-timer.md",
-  "language_code": "ru"
-}
--->
 # Установите таймер - Виртуальное IoT-устройство и Raspberry Pi
 
 В этой части урока вы вызовете свой серверless-код для распознавания речи и установите таймер на вашем виртуальном IoT-устройстве или Raspberry Pi на основе полученных результатов.

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "4bcc29fe2b65e56eada83d2476279227",
-  "translation_date": "2025-08-26T23:17:26+00:00",
-  "source_file": "1-getting-started/lessons/4-connect-internet/wio-terminal-telemetry.md",
-  "language_code": "ru"
-}
--->
 # Управляйте ночником через Интернет - Wio Terminal
 
 В этой части урока вы будете отправлять телеметрию с уровнями освещенности с вашего Wio Terminal на MQTT-брокер.

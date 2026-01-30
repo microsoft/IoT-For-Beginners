@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "e4f2925acb211765889c3b51b9116ceb",
-  "translation_date": "2025-08-27T00:33:26+00:00",
-  "source_file": "6-consumer/lessons/1-speech-recognition/virtual-device-audio.md",
-  "language_code": "ar"
-}
--->
 # التقاط الصوت - جهاز إنترنت الأشياء الافتراضي
 
 مكتبات Python التي ستستخدمها لاحقًا في هذا الدرس لتحويل الكلام إلى نص تحتوي على ميزة التقاط الصوت مدمجة لأنظمة Windows وmacOS وLinux. لا تحتاج إلى القيام بأي شيء هنا.

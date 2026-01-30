@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "c0550b254b9ba2539baf1e6bb5fc05f8",
-  "translation_date": "2025-08-25T22:45:17+00:00",
-  "source_file": "6-consumer/lessons/1-speech-recognition/virtual-device-speech-to-text.md",
-  "language_code": "de"
-}
--->
 # Sprache zu Text - Virtuelles IoT-Gerät
 
 In diesem Teil der Lektion schreiben Sie Code, um Sprache, die über Ihr Mikrofon aufgenommen wird, mithilfe des Sprachdienstes in Text umzuwandeln.

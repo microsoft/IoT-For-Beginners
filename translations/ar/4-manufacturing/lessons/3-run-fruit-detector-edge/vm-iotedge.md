@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "24dc783a600e20251211987b36370e93",
-  "translation_date": "2025-08-26T22:02:11+00:00",
-  "source_file": "4-manufacturing/lessons/3-run-fruit-detector-edge/vm-iotedge.md",
-  "language_code": "ar"
-}
--->
 # إنشاء آلة افتراضية تعمل بنظام IoT Edge
 
 في Azure، يمكنك إنشاء آلة افتراضية - وهي عبارة عن جهاز كمبيوتر في السحابة يمكنك تكوينه بالطريقة التي تريدها وتشغيل برامجك الخاصة عليه.

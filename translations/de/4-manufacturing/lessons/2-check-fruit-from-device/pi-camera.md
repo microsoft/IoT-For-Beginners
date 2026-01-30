@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "c677667095f6133eee418c7e53615d05",
-  "translation_date": "2025-08-25T20:58:14+00:00",
-  "source_file": "4-manufacturing/lessons/2-check-fruit-from-device/pi-camera.md",
-  "language_code": "de"
-}
--->
 # Ein Bild aufnehmen - Raspberry Pi
 
 In diesem Teil der Lektion fügen Sie Ihrem Raspberry Pi einen Kamerasensor hinzu und lesen Bilder davon aus.

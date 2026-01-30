@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "9bae08314d8487cb76ddf3d8797e1544",
-  "translation_date": "2025-08-25T22:10:51+00:00",
-  "source_file": "1-getting-started/lessons/1-introduction-to-iot/README.md",
-  "language_code": "de"
-}
--->
 # Einführung in IoT
 
 ![Eine Sketchnote-Übersicht dieser Lektion](../../../../../translated_images/de/lesson-1.2606670fa61ee904687da5d6fa4e726639d524d064c895117da1b95b9ff6251d.jpg)

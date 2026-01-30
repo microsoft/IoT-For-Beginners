@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "3b2448c7ab4e9673e77e35a50c5e350d",
-  "translation_date": "2025-08-27T00:50:18+00:00",
-  "source_file": "3-transport/lessons/1-location-tracking/pi-gps-sensor.md",
-  "language_code": "ru"
-}
--->
 # Чтение данных GPS - Raspberry Pi
 
 В этой части урока вы добавите GPS-датчик к вашему Raspberry Pi и будете считывать данные с него.

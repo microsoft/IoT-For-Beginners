@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "50151d9f9dce2801348a93880ef16d86",
-  "translation_date": "2025-08-26T22:04:01+00:00",
-  "source_file": "4-manufacturing/lessons/3-run-fruit-detector-edge/single-board-computer.md",
-  "language_code": "ar"
-}
--->
 # تصنيف صورة باستخدام مصنف صور يعتمد على IoT Edge - أجهزة IoT الافتراضية و Raspberry Pi
 
 في هذا الجزء من الدرس، ستستخدم مصنف الصور الذي يعمل على جهاز IoT Edge.

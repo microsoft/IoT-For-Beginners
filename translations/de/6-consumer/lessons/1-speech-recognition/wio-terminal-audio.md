@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "2f336726b9410e97c3aaed76cc89b0d8",
-  "translation_date": "2025-08-25T22:46:19+00:00",
-  "source_file": "6-consumer/lessons/1-speech-recognition/wio-terminal-audio.md",
-  "language_code": "de"
-}
--->
 # Audio aufnehmen - Wio Terminal
 
 In diesem Abschnitt der Lektion schreiben Sie Code, um Audio auf Ihrem Wio Terminal aufzunehmen. Die Audioaufnahme wird über eine der Tasten oben auf dem Wio Terminal gesteuert.

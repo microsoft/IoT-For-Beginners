@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "9713e21a309662f6fcb271b573d47848",
-  "translation_date": "2026-01-05T12:36:08+00:00",
-  "source_file": "TROUBLESHOOTING.md",
-  "language_code": "de"
-}
--->
 # Fehlerbehebungsanleitung
 
 Diese Anleitung hilft Ihnen bei der Lösung häufiger Probleme bei der Arbeit mit dem IoT for Beginners Curriculum. Probleme sind nach Kategorien organisiert, um die Navigation zu erleichtern.

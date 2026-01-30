@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "22a1d6e49f2a689fe5bfa7802a7241fc",
-  "translation_date": "2025-08-25T20:43:27+00:00",
-  "source_file": "5-retail/README.md",
-  "language_code": "de"
-}
--->
 # Einzelhandel – Einsatz von IoT zur Verwaltung von Lagerbeständen
 
 Die letzte Station für Lebensmittel, bevor sie die Verbraucher erreichen, ist der Einzelhandel – die Märkte, Gemüsehändler, Supermärkte und Geschäfte, die Produkte an Kunden verkaufen. Diese Geschäfte möchten sicherstellen, dass sie Waren in den Regalen haben, die Kunden sehen und kaufen können.

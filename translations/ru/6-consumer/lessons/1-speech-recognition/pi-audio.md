@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "0ac0afcfb40cb5970ef4cb74f01c32e9",
-  "translation_date": "2025-08-27T00:17:59+00:00",
-  "source_file": "6-consumer/lessons/1-speech-recognition/pi-audio.md",
-  "language_code": "ru"
-}
--->
 # Захват аудио - Raspberry Pi
 
 В этой части урока вы напишете код для захвата аудио на вашем Raspberry Pi. Управление захватом аудио будет осуществляться с помощью кнопки.

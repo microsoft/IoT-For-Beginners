@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "a4f0c166010e31fd7b6ca20bc88dec6d",
-  "translation_date": "2025-08-26T23:42:07+00:00",
-  "source_file": "1-getting-started/lessons/1-introduction-to-iot/wio-terminal.md",
-  "language_code": "ru"
-}
--->
 # Wio Terminal
 
 [Wio Terminal от Seeed Studios](https://www.seeedstudio.com/Wio-Terminal-p-4509.html) — это микроконтроллер, совместимый с Arduino, с встроенным WiFi, а также некоторыми датчиками и исполнительными устройствами. Он также имеет порты для подключения дополнительных датчиков и исполнительных устройств, используя аппаратную экосистему под названием [Grove](https://www.seeedstudio.com/category/Grove-c-1003.html).

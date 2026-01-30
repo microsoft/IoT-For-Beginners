@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "288aebb0c59f7be1d2719b8f9660a313",
-  "translation_date": "2025-08-26T22:09:40+00:00",
-  "source_file": "4-manufacturing/lessons/4-trigger-fruit-detector/wio-terminal-proximity.md",
-  "language_code": "ar"
-}
--->
 # اكتشاف القرب - Wio Terminal
 
 في هذا الجزء من الدرس، ستضيف مستشعر قرب إلى Wio Terminal الخاص بك، وتقرأ المسافة منه.

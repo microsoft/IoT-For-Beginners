@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "4bcc29fe2b65e56eada83d2476279227",
-  "translation_date": "2025-08-26T23:17:35+00:00",
-  "source_file": "1-getting-started/lessons/4-connect-internet/wio-terminal-telemetry.md",
-  "language_code": "ar"
-}
--->
 # التحكم في ضوء الليل عبر الإنترنت - Wio Terminal
 
 في هذا الجزء من الدرس، ستقوم بإرسال بيانات التتبع الخاصة بمستويات الضوء من جهاز Wio Terminal إلى وسيط MQTT.

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "5a94fbab1ba737e9bd6cc6c64f114fa0",
-  "translation_date": "2025-08-26T21:24:03+00:00",
-  "source_file": "clean-up.md",
-  "language_code": "ar"
-}
--->
 # تنظيف مشروعك
 
 بعد الانتهاء من كل مشروع، من الجيد حذف موارد السحابة الخاصة بك.

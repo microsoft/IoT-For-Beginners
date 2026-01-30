@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "90fb93446e03c38f3c0e4009c2471906",
-  "translation_date": "2025-08-26T23:18:35+00:00",
-  "source_file": "1-getting-started/lessons/4-connect-internet/single-board-computer-mqtt.md",
-  "language_code": "ru"
-}
--->
 # Управляйте ночником через Интернет - Виртуальное IoT-устройство и Raspberry Pi
 
 Устройство IoT должно быть запрограммировано для связи с *test.mosquitto.org* с использованием MQTT, чтобы отправлять телеметрические данные с показаниями датчика света и получать команды для управления светодиодом.

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "52b4de6144b2efdced7797a5339d6035",
-  "translation_date": "2025-08-25T22:13:55+00:00",
-  "source_file": "1-getting-started/lessons/1-introduction-to-iot/virtual-device.md",
-  "language_code": "de"
-}
--->
 # Virtueller Einplatinencomputer
 
 Anstatt ein IoT-Gerät zusammen mit Sensoren und Aktoren zu kaufen, können Sie Ihren Computer nutzen, um IoT-Hardware zu simulieren. Das [CounterFit-Projekt](https://github.com/CounterFit-IoT/CounterFit) ermöglicht es Ihnen, eine App lokal auszuführen, die IoT-Hardware wie Sensoren und Aktoren simuliert. Sie können auf diese Sensoren und Aktoren mit lokalem Python-Code zugreifen, der genauso geschrieben wird wie der Code, den Sie auf einem Raspberry Pi mit physischer Hardware schreiben würden.

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "428bda82d9e6016ecea7c797564bf081",
-  "translation_date": "2025-08-25T21:15:01+00:00",
-  "source_file": "2-farm/README.md",
-  "language_code": "de"
-}
--->
 # Landwirtschaft mit IoT
 
 Mit wachsender Bevölkerung steigt auch die Nachfrage nach landwirtschaftlichen Erzeugnissen. Die verfügbare Landfläche bleibt gleich, aber das Klima verändert sich – was den Landwirten, insbesondere den 2 Milliarden [Subsistenzbauern](https://wikipedia.org/wiki/Subsistenzwirtschaft), die auf das angewiesen sind, was sie anbauen, um sich und ihre Familien zu ernähren, zusätzliche Herausforderungen bringt. IoT kann Landwirten helfen, klügere Entscheidungen darüber zu treffen, was sie anbauen und wann sie ernten sollten, die Erträge zu steigern, den manuellen Arbeitsaufwand zu reduzieren und Schädlinge zu erkennen und zu bekämpfen.

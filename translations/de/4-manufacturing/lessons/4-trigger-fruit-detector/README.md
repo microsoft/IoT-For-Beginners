@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "f74f4ccb61f00e5f7e9f49c3ed416e36",
-  "translation_date": "2025-08-25T21:10:38+00:00",
-  "source_file": "4-manufacturing/lessons/4-trigger-fruit-detector/README.md",
-  "language_code": "de"
-}
--->
 # Auslösen der Obstqualitätsprüfung durch einen Sensor
 
 ![Eine Sketchnote-Übersicht dieser Lektion](../../../../../translated_images/de/lesson-18.92c32ed1d354caa5a54baa4032cf0b172d4655e8e326ad5d46c558a0def15365.jpg)

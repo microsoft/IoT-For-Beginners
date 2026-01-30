@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "48ac21ec80329c930db7b84bd6b592ec",
-  "translation_date": "2025-08-25T21:09:05+00:00",
-  "source_file": "4-manufacturing/lessons/3-run-fruit-detector-edge/wio-terminal.md",
-  "language_code": "de"
-}
--->
 # Klassifizieren eines Bildes mit einem IoT-Edge-basierten Bildklassifikator - Wio Terminal
 
 In diesem Teil der Lektion verwenden Sie den Bildklassifikator, der auf dem IoT-Edge-Gerät läuft.

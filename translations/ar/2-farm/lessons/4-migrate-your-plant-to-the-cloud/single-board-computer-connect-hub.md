@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "3ac42e284a7222c0e83d2d43231a364f",
-  "translation_date": "2025-08-26T22:59:37+00:00",
-  "source_file": "2-farm/lessons/4-migrate-your-plant-to-the-cloud/single-board-computer-connect-hub.md",
-  "language_code": "ar"
-}
--->
 # ربط جهاز إنترنت الأشياء بالسحابة - جهاز إنترنت الأشياء الافتراضي و Raspberry Pi
 
 في هذا الجزء من الدرس، ستقوم بربط جهاز إنترنت الأشياء الافتراضي الخاص بك أو Raspberry Pi بمركز إنترنت الأشياء الخاص بك، لإرسال البيانات واستقبال الأوامر.

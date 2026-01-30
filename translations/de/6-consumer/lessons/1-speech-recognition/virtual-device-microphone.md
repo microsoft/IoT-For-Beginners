@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "7a65ee743f916276a2848b8a9491feb7",
-  "translation_date": "2025-08-25T22:51:56+00:00",
-  "source_file": "6-consumer/lessons/1-speech-recognition/virtual-device-microphone.md",
-  "language_code": "de"
-}
--->
 # Konfigurieren Sie Ihr Mikrofon und Ihre Lautsprecher - Virtuelle IoT-Hardware
 
 Die virtuelle IoT-Hardware verwendet ein Mikrofon und Lautsprecher, die an Ihren Computer angeschlossen sind.

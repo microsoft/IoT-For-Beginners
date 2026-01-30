@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "d620a470d9dd8614d99824832978360a",
-  "translation_date": "2025-08-26T23:58:10+00:00",
-  "source_file": "6-consumer/lessons/4-multiple-language-support/virtual-device-translate-speech.md",
-  "language_code": "ar"
-}
--->
 # ترجمة الكلام - جهاز إنترنت الأشياء الافتراضي
 
 في هذا الجزء من الدرس، ستكتب كودًا لترجمة الكلام عند تحويله إلى نص باستخدام خدمة الكلام، ثم ترجمة النص باستخدام خدمة المترجم قبل إنشاء استجابة منطوقة.

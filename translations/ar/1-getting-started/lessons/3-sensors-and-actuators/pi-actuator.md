@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "4db8a3879a53490513571df2f6cf7641",
-  "translation_date": "2025-08-26T23:26:39+00:00",
-  "source_file": "1-getting-started/lessons/3-sensors-and-actuators/pi-actuator.md",
-  "language_code": "ar"
-}
--->
 # بناء مصباح ليلي - Raspberry Pi
 
 في هذا الجزء من الدرس، ستضيف مصباح LED إلى Raspberry Pi الخاص بك وتستخدمه لإنشاء مصباح ليلي.

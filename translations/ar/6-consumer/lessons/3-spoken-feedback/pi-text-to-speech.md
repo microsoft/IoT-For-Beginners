@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "606f3af1c78e3741e48ce77c31cea626",
-  "translation_date": "2025-08-27T00:12:40+00:00",
-  "source_file": "6-consumer/lessons/3-spoken-feedback/pi-text-to-speech.md",
-  "language_code": "ar"
-}
--->
 # تحويل النص إلى كلام - Raspberry Pi
 
 في هذا الجزء من الدرس، ستقوم بكتابة كود لتحويل النص إلى كلام باستخدام خدمة الكلام.

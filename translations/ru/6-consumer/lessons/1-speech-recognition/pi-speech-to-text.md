@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "af249a24d4fe4f4de4806adbc3bc9d86",
-  "translation_date": "2025-08-27T00:32:19+00:00",
-  "source_file": "6-consumer/lessons/1-speech-recognition/pi-speech-to-text.md",
-  "language_code": "ru"
-}
--->
 # Распознавание речи - Raspberry Pi
 
 В этой части урока вы напишете код для преобразования речи из записанного аудио в текст с использованием службы распознавания речи.

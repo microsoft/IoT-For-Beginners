@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "d6f80293fa9c213283eac7e79b078671",
-  "translation_date": "2025-08-25T20:42:49+00:00",
-  "source_file": "CONTRIBUTING.md",
-  "language_code": "de"
-}
--->
 # Beitragen
 
 Dieses Projekt begrüßt Beiträge und Vorschläge. Die meisten Beiträge erfordern, dass Sie einer Contributor License Agreement (CLA) zustimmen, die erklärt, dass Sie das Recht haben und tatsächlich gewähren, uns die Rechte zur Nutzung Ihres Beitrags zu übertragen. Weitere Details finden Sie unter https://cla.microsoft.com.

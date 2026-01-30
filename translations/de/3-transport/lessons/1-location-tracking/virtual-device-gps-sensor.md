@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "64f18a8f8aaa1fef5e7320e0992d8b3a",
-  "translation_date": "2025-08-25T22:57:41+00:00",
-  "source_file": "3-transport/lessons/1-location-tracking/virtual-device-gps-sensor.md",
-  "language_code": "de"
-}
--->
 # GPS-Daten lesen - Virtuelle IoT-Hardware
 
 In diesem Teil der Lektion fügen Sie Ihrem virtuellen IoT-Gerät einen GPS-Sensor hinzu und lesen Werte daraus aus.

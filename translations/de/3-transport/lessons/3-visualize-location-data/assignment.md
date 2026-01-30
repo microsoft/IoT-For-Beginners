@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "0ccdc1faa676a485c4c6ecbddb9f9067",
-  "translation_date": "2025-08-25T23:05:51+00:00",
-  "source_file": "3-transport/lessons/3-visualize-location-data/assignment.md",
-  "language_code": "de"
-}
--->
 # Bereitstellung Ihrer App
 
 ## Anweisungen

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "f3c5d8afa2ef6a0b425ef8ff20615cb4",
-  "translation_date": "2025-08-25T21:27:16+00:00",
-  "source_file": "2-farm/lessons/3-automated-plant-watering/wio-terminal-relay.md",
-  "language_code": "de"
-}
--->
 # Steuerung eines Relais - Wio Terminal
 
 In diesem Teil der Lektion fügen Sie Ihrem Wio Terminal ein Relais zusätzlich zum Bodenfeuchtigkeitssensor hinzu und steuern es basierend auf dem Bodenfeuchtigkeitsniveau.

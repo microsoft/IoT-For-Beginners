@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "66b81165e60f8f169bd52a401b6a0f8b",
-  "translation_date": "2025-08-26T22:29:30+00:00",
-  "source_file": "2-farm/lessons/3-automated-plant-watering/pi-relay.md",
-  "language_code": "ar"
-}
--->
 # التحكم في الريليه - Raspberry Pi
 
 في هذا الجزء من الدرس، ستضيف ريليه إلى Raspberry Pi بالإضافة إلى مستشعر رطوبة التربة، وستتحكم فيه بناءً على مستوى رطوبة التربة.

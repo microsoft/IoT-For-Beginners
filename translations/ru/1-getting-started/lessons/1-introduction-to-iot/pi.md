@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "8ff0d0a1d29832bb896b9c103b69a452",
-  "translation_date": "2025-08-26T23:38:48+00:00",
-  "source_file": "1-getting-started/lessons/1-introduction-to-iot/pi.md",
-  "language_code": "ru"
-}
--->
 # Raspberry Pi
 
 [Raspberry Pi](https://raspberrypi.org) — это одноплатный компьютер. Вы можете подключать датчики и исполнительные устройства, используя широкий спектр устройств и экосистем. В этих уроках используется аппаратная экосистема под названием [Grove](https://www.seeedstudio.com/category/Grove-c-1003.html). Вы будете программировать Raspberry Pi и работать с датчиками Grove с помощью Python.

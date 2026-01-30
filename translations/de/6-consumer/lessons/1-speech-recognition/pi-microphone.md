@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "7e45d884493c5222348b43fbc4481b6a",
-  "translation_date": "2025-08-25T22:49:36+00:00",
-  "source_file": "6-consumer/lessons/1-speech-recognition/pi-microphone.md",
-  "language_code": "de"
-}
--->
 # Konfigurieren Sie Ihr Mikrofon und Ihre Lautsprecher - Raspberry Pi
 
 In diesem Teil der Lektion fügen Sie ein Mikrofon und Lautsprecher zu Ihrem Raspberry Pi hinzu.

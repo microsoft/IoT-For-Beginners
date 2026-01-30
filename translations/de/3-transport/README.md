@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "e978534a245b000725ed2a048f943213",
-  "translation_date": "2025-08-25T22:52:20+00:00",
-  "source_file": "3-transport/README.md",
-  "language_code": "de"
-}
--->
 # Transport von Bauernhof zur Fabrik - Einsatz von IoT zur Verfolgung von Lebensmittellieferungen
 
 Viele Landwirte bauen Lebensmittel an, um sie zu verkaufen – entweder sind sie kommerzielle Landwirte, die alles verkaufen, was sie anbauen, oder sie sind Subsistenzlandwirte, die ihre überschüssigen Erzeugnisse verkaufen, um notwendige Güter zu kaufen. Irgendwie müssen die Lebensmittel vom Bauernhof zum Verbraucher gelangen, und dies erfolgt normalerweise über den Massentransport von Bauernhöfen zu Umschlagplätzen oder Verarbeitungsanlagen und dann zu Geschäften. Zum Beispiel erntet ein Tomatenbauer Tomaten, packt sie in Kisten, lädt die Kisten in einen Lastwagen und liefert sie dann zu einer Verarbeitungsanlage. Dort werden die Tomaten sortiert und anschließend in Form von verarbeiteten Lebensmitteln, Einzelhandelsverkäufen oder als Zutaten in Restaurants an die Verbraucher geliefert.

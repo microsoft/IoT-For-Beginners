@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "4fb20273d299dc8d07a8f06c9cd0cdd9",
-  "translation_date": "2025-08-25T21:36:43+00:00",
-  "source_file": "2-farm/lessons/2-detect-soil-moisture/README.md",
-  "language_code": "de"
-}
--->
 C, ausgesprochen *I-Quadrat-C*, ist ein Protokoll für mehrere Controller und Peripheriegeräte, bei dem jedes angeschlossene Gerät als Controller oder Peripheriegerät über den I²C-Bus (der Name für ein Kommunikationssystem, das Daten überträgt) agieren kann. Daten werden in adressierten Paketen gesendet, wobei jedes Paket die Adresse des angeschlossenen Geräts enthält, für das es bestimmt ist.
 
 > 💁 Dieses Modell wurde früher als Master/Slave bezeichnet, aber diese Terminologie wird aufgrund ihrer Assoziation mit der Sklaverei zunehmend vermieden. Die [Open Source Hardware Association hat Controller/Peripherie übernommen](https://www.oshwa.org/a-resolution-to-redefine-spi-signal-names/), aber Sie könnten noch auf Verweise auf die alte Terminologie stoßen.

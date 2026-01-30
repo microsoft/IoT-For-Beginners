@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "da6ae0a795cf06be33d23ca5b8493fc8",
-  "translation_date": "2025-08-25T22:56:50+00:00",
-  "source_file": "3-transport/lessons/1-location-tracking/wio-terminal-gps-sensor.md",
-  "language_code": "de"
-}
--->
 # GPS-Daten auslesen - Wio Terminal
 
 In diesem Abschnitt der Lektion fügen Sie Ihrem Wio Terminal einen GPS-Sensor hinzu und lesen Werte daraus aus.

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "6d6aa1be033625d201a190fc9c5cbfb4",
-  "translation_date": "2025-08-27T00:19:16+00:00",
-  "source_file": "6-consumer/lessons/1-speech-recognition/README.md",
-  "language_code": "ru"
-}
--->
 # Распознавание речи с помощью IoT-устройства
 
 ![Скетчноут с обзором этого урока](../../../../../translated_images/ru/lesson-21.e34de51354d6606fb5ee08d8c89d0222eea0a2a7aaf744a8805ae847c4f69dc4.jpg)

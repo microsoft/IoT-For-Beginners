@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "93d352de36526b8990e41dd538100324",
-  "translation_date": "2025-08-25T22:50:25+00:00",
-  "source_file": "6-consumer/lessons/1-speech-recognition/wio-terminal-microphone.md",
-  "language_code": "de"
-}
--->
 # Konfigurieren Sie Ihr Mikrofon und Ihre Lautsprecher - Wio Terminal
 
 In diesem Abschnitt der Lektion fügen Sie Lautsprecher zu Ihrem Wio Terminal hinzu. Das Wio Terminal verfügt bereits über ein eingebautes Mikrofon, das zur Sprachaufnahme verwendet werden kann.
