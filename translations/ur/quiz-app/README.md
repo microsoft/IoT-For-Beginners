@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "2a459ea9177fb0508ca96068ae1009d2",
-  "translation_date": "2025-08-27T01:04:56+00:00",
-  "source_file": "quiz-app/README.md",
-  "language_code": "ur"
-}
--->
 # کوئزز
 
 یہ کوئزز IoT فار بیگنرز کے نصاب کے لیے لیکچر سے پہلے اور بعد کے کوئزز ہیں، جو یہاں دستیاب ہیں: https://aka.ms/iot-beginners

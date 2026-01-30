@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "64f18a8f8aaa1fef5e7320e0992d8b3a",
-  "translation_date": "2025-08-27T00:43:47+00:00",
-  "source_file": "3-transport/lessons/1-location-tracking/virtual-device-gps-sensor.md",
-  "language_code": "ur"
-}
--->
 # جی پی ایس ڈیٹا پڑھیں - ورچوئل آئی او ٹی ہارڈویئر
 
 اس سبق کے اس حصے میں، آپ اپنے ورچوئل آئی او ٹی ڈیوائس میں ایک جی پی ایس سینسر شامل کریں گے اور اس سے ڈیٹا پڑھیں گے۔

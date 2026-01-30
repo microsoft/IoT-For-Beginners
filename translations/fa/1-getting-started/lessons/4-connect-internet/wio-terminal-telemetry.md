@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "4bcc29fe2b65e56eada83d2476279227",
-  "translation_date": "2025-08-25T21:59:07+00:00",
-  "source_file": "1-getting-started/lessons/4-connect-internet/wio-terminal-telemetry.md",
-  "language_code": "fa"
-}
--->
 # کنترل چراغ خواب خود از طریق اینترنت - Wio Terminal
 
 در این بخش از درس، شما داده‌های تلومتری مربوط به سطح نور را از Wio Terminal خود به MQTT broker ارسال خواهید کرد.

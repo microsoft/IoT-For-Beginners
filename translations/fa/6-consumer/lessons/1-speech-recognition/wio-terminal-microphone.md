@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "93d352de36526b8990e41dd538100324",
-  "translation_date": "2025-08-25T22:50:39+00:00",
-  "source_file": "6-consumer/lessons/1-speech-recognition/wio-terminal-microphone.md",
-  "language_code": "fa"
-}
--->
 # تنظیم میکروفون و بلندگوها - Wio Terminal
 
 در این بخش از درس، شما بلندگوها را به Wio Terminal اضافه خواهید کرد. Wio Terminal به‌طور پیش‌فرض دارای یک میکروفون داخلی است که می‌توان از آن برای ضبط صدا استفاده کرد.

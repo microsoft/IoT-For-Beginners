@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "52b4de6144b2efdced7797a5339d6035",
-  "translation_date": "2025-08-25T22:14:33+00:00",
-  "source_file": "1-getting-started/lessons/1-introduction-to-iot/virtual-device.md",
-  "language_code": "fa"
-}
--->
 # کامپیوتر تک‌برد مجازی
 
 به جای خرید یک دستگاه IoT همراه با حسگرها و عملگرها، می‌توانید از کامپیوتر خود برای شبیه‌سازی سخت‌افزار IoT استفاده کنید. پروژه [CounterFit](https://github.com/CounterFit-IoT/CounterFit) به شما این امکان را می‌دهد که یک اپلیکیشن را به صورت محلی اجرا کنید که سخت‌افزار IoT مانند حسگرها و عملگرها را شبیه‌سازی می‌کند و از طریق کد پایتون محلی به این حسگرها و عملگرها دسترسی پیدا کنید. این کد به همان شیوه‌ای نوشته می‌شود که شما برای سخت‌افزار واقعی روی Raspberry Pi می‌نویسید.

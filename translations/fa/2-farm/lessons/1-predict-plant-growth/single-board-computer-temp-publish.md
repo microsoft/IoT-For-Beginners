@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "4efc74299e19f5d08f2f3f34451a11ba",
-  "translation_date": "2025-08-25T21:18:38+00:00",
-  "source_file": "2-farm/lessons/1-predict-plant-growth/single-board-computer-temp-publish.md",
-  "language_code": "fa"
-}
--->
 # انتشار دما - سخت‌افزار مجازی IoT و رزبری پای
 
 در این بخش از درس، شما مقادیر دمایی که توسط رزبری پای یا دستگاه مجازی IoT شناسایی شده‌اند را از طریق MQTT منتشر می‌کنید تا بعداً بتوان از آنها برای محاسبه GDD استفاده کرد.

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "da6ae0a795cf06be33d23ca5b8493fc8",
-  "translation_date": "2025-08-27T00:42:29+00:00",
-  "source_file": "3-transport/lessons/1-location-tracking/wio-terminal-gps-sensor.md",
-  "language_code": "ur"
-}
--->
 # وائیو ٹرمینل - جی پی ایس ڈیٹا پڑھیں
 
 اس سبق کے اس حصے میں، آپ اپنے وائیو ٹرمینل میں جی پی ایس سینسر شامل کریں گے اور اس سے ڈیٹا پڑھیں گے۔

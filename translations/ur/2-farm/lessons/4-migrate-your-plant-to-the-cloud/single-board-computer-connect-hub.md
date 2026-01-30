@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "3ac42e284a7222c0e83d2d43231a364f",
-  "translation_date": "2025-08-26T22:59:53+00:00",
-  "source_file": "2-farm/lessons/4-migrate-your-plant-to-the-cloud/single-board-computer-connect-hub.md",
-  "language_code": "ur"
-}
--->
 # اپنے IoT ڈیوائس کو کلاؤڈ سے جوڑیں - ورچوئل IoT ہارڈویئر اور راسپبیری پائی
 
 اس سبق کے اس حصے میں، آپ اپنے ورچوئل IoT ڈیوائس یا راسپبیری پائی کو اپنے IoT ہب سے جوڑیں گے تاکہ ٹیلیمیٹری بھیج سکیں اور کمانڈز وصول کر سکیں۔

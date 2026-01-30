@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "4cf1421420a6fab9ab4f2c391bd523b7",
-  "translation_date": "2025-08-26T21:36:13+00:00",
-  "source_file": "5-retail/lessons/2-check-stock-device/wio-terminal-object-detector.md",
-  "language_code": "ur"
-}
--->
 # اپنے IoT ڈیوائس سے آبجیکٹ ڈیٹیکٹر کو کال کریں - Wio Terminal
 
 جب آپ کا آبجیکٹ ڈیٹیکٹر پبلش ہو جائے، تو اسے آپ کے IoT ڈیوائس سے استعمال کیا جا سکتا ہے۔

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "7678f7c67b97ee52d5727496dcd7d346",
-  "translation_date": "2025-08-26T22:21:23+00:00",
-  "source_file": "2-farm/lessons/1-predict-plant-growth/pi-temp.md",
-  "language_code": "ur"
-}
--->
 # راسپبیری پائی - درجہ حرارت کی پیمائش
 
 اس سبق کے اس حصے میں، آپ اپنے راسپبیری پائی میں ایک درجہ حرارت سینسر شامل کریں گے۔

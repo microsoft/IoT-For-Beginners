@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "50151d9f9dce2801348a93880ef16d86",
-  "translation_date": "2025-08-26T22:04:09+00:00",
-  "source_file": "4-manufacturing/lessons/3-run-fruit-detector-edge/single-board-computer.md",
-  "language_code": "ur"
-}
--->
 # آئی او ٹی ایج پر مبنی امیج کلاسفائر کے ذریعے تصویر کی درجہ بندی کریں - ورچوئل آئی او ٹی ہارڈویئر اور راسپبیری پائی
 
 اس سبق کے اس حصے میں، آپ آئی او ٹی ایج ڈیوائس پر چلنے والے امیج کلاسفائر کا استعمال کریں گے۔

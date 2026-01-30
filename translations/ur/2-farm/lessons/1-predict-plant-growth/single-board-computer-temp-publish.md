@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "4efc74299e19f5d08f2f3f34451a11ba",
-  "translation_date": "2025-08-26T22:16:12+00:00",
-  "source_file": "2-farm/lessons/1-predict-plant-growth/single-board-computer-temp-publish.md",
-  "language_code": "ur"
-}
--->
 # درجہ حرارت شائع کریں - ورچوئل IoT ہارڈویئر اور راسپبیری پائی
 
 اس سبق کے اس حصے میں، آپ MQTT کے ذریعے راسپبیری پائی یا ورچوئل IoT ڈیوائس کے ذریعے معلوم کیے گئے درجہ حرارت کی قدریں شائع کریں گے تاکہ بعد میں انہیں GDD کا حساب لگانے کے لیے استعمال کیا جا سکے۔

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "6754c915dae64ba70fcd5e52c37f3adf",
-  "translation_date": "2025-08-26T23:21:09+00:00",
-  "source_file": "1-getting-started/lessons/4-connect-internet/wio-terminal-commands.md",
-  "language_code": "ur"
-}
--->
 # اپنی نائٹ لائٹ کو انٹرنیٹ کے ذریعے کنٹرول کریں - Wio Terminal
 
 اس سبق کے اس حصے میں، آپ MQTT بروکر سے بھیجے گئے کمانڈز کو اپنے Wio Terminal پر سبسکرائب کریں گے۔

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "6754c915dae64ba70fcd5e52c37f3adf",
-  "translation_date": "2025-08-25T22:01:49+00:00",
-  "source_file": "1-getting-started/lessons/4-connect-internet/wio-terminal-commands.md",
-  "language_code": "fa"
-}
--->
 # کنترل چراغ خواب خود از طریق اینترنت - Wio Terminal
 
 در این بخش از درس، شما به دستورات ارسال شده از یک MQTT broker به Wio Terminal خود اشتراک خواهید داد.

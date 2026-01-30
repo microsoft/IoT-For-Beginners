@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "cbb8c285bc64c5192fae3368fb5077d2",
-  "translation_date": "2025-08-25T23:01:48+00:00",
-  "source_file": "3-transport/lessons/1-location-tracking/single-board-computer-gps-decode.md",
-  "language_code": "fa"
-}
--->
 # رمزگشایی داده‌های GPS - سخت‌افزار مجازی IoT و رزبری پای
 
 در این بخش از درس، پیام‌های NMEA که از حسگر GPS توسط رزبری پای یا دستگاه مجازی IoT خوانده شده‌اند را رمزگشایی کرده و عرض و طول جغرافیایی را استخراج خواهید کرد.

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "d620a470d9dd8614d99824832978360a",
-  "translation_date": "2025-08-26T23:58:36+00:00",
-  "source_file": "6-consumer/lessons/4-multiple-language-support/virtual-device-translate-speech.md",
-  "language_code": "ur"
-}
--->
 # تقریر کا ترجمہ - ورچوئل IoT ڈیوائس
 
 اس سبق کے اس حصے میں، آپ تقریر کو متن میں تبدیل کرنے کے دوران تقریر کے ترجمے کے لیے کوڈ لکھیں گے، پھر متن کا ترجمہ Translator سروس کے ذریعے کریں گے اور آخر میں ایک بولی جانے والی جواب تیار کریں گے۔

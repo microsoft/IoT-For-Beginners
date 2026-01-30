@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "c677667095f6133eee418c7e53615d05",
-  "translation_date": "2025-08-26T21:49:03+00:00",
-  "source_file": "4-manufacturing/lessons/2-check-fruit-from-device/pi-camera.md",
-  "language_code": "ur"
-}
--->
 # تصویر حاصل کریں - راسپبیری پائی
 
 اس سبق کے اس حصے میں، آپ اپنے راسپبیری پائی میں کیمرہ سینسر شامل کریں گے اور اس سے تصاویر پڑھیں گے۔

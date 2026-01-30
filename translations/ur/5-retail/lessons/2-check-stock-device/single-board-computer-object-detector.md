@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "a3fdfec1d1e2cb645ea11c2930b51299",
-  "translation_date": "2025-08-26T21:29:37+00:00",
-  "source_file": "5-retail/lessons/2-check-stock-device/single-board-computer-object-detector.md",
-  "language_code": "ur"
-}
--->
 # اپنے IoT ڈیوائس سے آبجیکٹ ڈیٹیکٹر کو کال کریں - ورچوئل IoT ہارڈویئر اور راسپبیری پائی
 
 جب آپ کا آبجیکٹ ڈیٹیکٹر پبلش ہو جائے، تو اسے آپ کے IoT ڈیوائس سے استعمال کیا جا سکتا ہے۔

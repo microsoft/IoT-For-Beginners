@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "4db8a3879a53490513571df2f6cf7641",
-  "translation_date": "2025-08-25T22:06:33+00:00",
-  "source_file": "1-getting-started/lessons/3-sensors-and-actuators/pi-actuator.md",
-  "language_code": "fa"
-}
--->
 # ساخت چراغ خواب - رزبری پای
 
 در این بخش از درس، شما یک LED به رزبری پای خود اضافه می‌کنید و از آن برای ساخت یک چراغ خواب استفاده می‌کنید.

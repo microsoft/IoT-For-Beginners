@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "160be8c0f558687f6686dca64f10f739",
-  "translation_date": "2025-08-26T21:55:08+00:00",
-  "source_file": "4-manufacturing/lessons/2-check-fruit-from-device/wio-terminal-camera.md",
-  "language_code": "ur"
-}
--->
 # تصویر حاصل کریں - Wio Terminal
 
 اس سبق کے اس حصے میں، آپ اپنے Wio Terminal میں کیمرہ شامل کریں گے اور اس سے تصاویر حاصل کریں گے۔

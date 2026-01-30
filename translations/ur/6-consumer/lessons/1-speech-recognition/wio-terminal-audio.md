@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "2f336726b9410e97c3aaed76cc89b0d8",
-  "translation_date": "2025-08-27T00:25:44+00:00",
-  "source_file": "6-consumer/lessons/1-speech-recognition/wio-terminal-audio.md",
-  "language_code": "ur"
-}
--->
 # آڈیو کیپچر - وائیو ٹرمینل
 
 اس سبق کے اس حصے میں، آپ کوڈ لکھیں گے تاکہ اپنے وائیو ٹرمینل پر آڈیو کیپچر کر سکیں۔ آڈیو کیپچر وائیو ٹرمینل کے اوپر موجود ایک بٹن کے ذریعے کنٹرول کیا جائے گا۔

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "df28cd649cd892bcce034e064913b2f3",
-  "translation_date": "2025-08-26T22:18:50+00:00",
-  "source_file": "2-farm/lessons/1-predict-plant-growth/wio-terminal-temp-publish.md",
-  "language_code": "ur"
-}
--->
 # وائیو ٹرمینل - درجہ حرارت شائع کریں
 
 اس سبق کے اس حصے میں، آپ MQTT کے ذریعے وائیو ٹرمینل سے معلوم کیے گئے درجہ حرارت کے اعداد و شمار شائع کریں گے تاکہ بعد میں GDD کا حساب لگانے کے لیے ان کا استعمال کیا جا سکے۔

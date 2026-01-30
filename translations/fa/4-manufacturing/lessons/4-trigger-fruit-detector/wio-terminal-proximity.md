@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "288aebb0c59f7be1d2719b8f9660a313",
-  "translation_date": "2025-08-25T21:14:01+00:00",
-  "source_file": "4-manufacturing/lessons/4-trigger-fruit-detector/wio-terminal-proximity.md",
-  "language_code": "fa"
-}
--->
 # تشخیص نزدیکی - Wio Terminal
 
 در این بخش از درس، شما یک حسگر نزدیکی به Wio Terminal خود اضافه می‌کنید و فاصله را از آن می‌خوانید.

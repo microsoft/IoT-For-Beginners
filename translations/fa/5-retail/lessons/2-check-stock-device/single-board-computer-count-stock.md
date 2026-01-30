@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "9c4320311c0f2c1884a6a21265d98a51",
-  "translation_date": "2025-08-25T20:48:02+00:00",
-  "source_file": "5-retail/lessons/2-check-stock-device/single-board-computer-count-stock.md",
-  "language_code": "fa"
-}
--->
 # شمارش موجودی با دستگاه IoT - سخت‌افزار مجازی IoT و رزبری پای
 
 ترکیبی از پیش‌بینی‌ها و جعبه‌های محدودکننده می‌تواند برای شمارش موجودی در یک تصویر استفاده شود.

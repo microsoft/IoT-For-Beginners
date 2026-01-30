@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "50abd54997afa7e7a3fc7019379e49e3",
-  "translation_date": "2025-08-25T20:43:14+00:00",
-  "source_file": "images/README.md",
-  "language_code": "fa"
-}
--->
 # تصاویر
 
 تصاویر موجود در پوشه [icons](../../../images/icons) از پروژه [Noun Project](https://thenounproject.com) گرفته شده‌اند و نیاز به ذکر منبع دارند. هر تصویر شامل اطلاعات لازم برای ذکر منبع است. این تصاویر باید برای هر نموداری که به آن‌ها نیاز دارد استفاده شوند تا هماهنگی در تصاویر حفظ شود.

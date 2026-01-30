@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "9aea84bcc7520222b0e1c50469d62d6a",
-  "translation_date": "2025-08-25T21:52:54+00:00",
-  "source_file": "2-farm/lessons/6-keep-your-plant-secure/single-board-computer-x509.md",
-  "language_code": "fa"
-}
--->
 # استفاده از گواهی X.509 در کد دستگاه شما - سخت‌افزار مجازی IoT و رزبری پای
 
 در این بخش از درس، دستگاه مجازی IoT یا رزبری پای خود را با استفاده از گواهی X.509 به IoT Hub متصل خواهید کرد.

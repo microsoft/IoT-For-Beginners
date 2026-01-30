@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "93d352de36526b8990e41dd538100324",
-  "translation_date": "2025-08-27T00:31:43+00:00",
-  "source_file": "6-consumer/lessons/1-speech-recognition/wio-terminal-microphone.md",
-  "language_code": "ur"
-}
--->
 # اپنے مائیکروفون اور اسپیکرز کو ترتیب دیں - Wio Terminal
 
 اس سبق کے اس حصے میں، آپ اپنے Wio Terminal میں اسپیکرز شامل کریں گے۔ Wio Terminal میں پہلے سے ہی ایک مائیکروفون موجود ہے، جو تقریر کو ریکارڈ کرنے کے لیے استعمال کیا جا سکتا ہے۔

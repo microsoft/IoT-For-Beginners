@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "288aebb0c59f7be1d2719b8f9660a313",
-  "translation_date": "2025-08-26T22:10:10+00:00",
-  "source_file": "4-manufacturing/lessons/4-trigger-fruit-detector/wio-terminal-proximity.md",
-  "language_code": "ur"
-}
--->
 # قربت کا پتہ لگائیں - Wio Terminal
 
 اس سبق کے اس حصے میں، آپ اپنے Wio Terminal میں ایک قربت سینسر شامل کریں گے اور اس سے فاصلہ پڑھیں گے۔

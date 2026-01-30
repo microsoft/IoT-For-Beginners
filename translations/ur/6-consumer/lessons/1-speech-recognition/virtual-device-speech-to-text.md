@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "c0550b254b9ba2539baf1e6bb5fc05f8",
-  "translation_date": "2025-08-27T00:23:57+00:00",
-  "source_file": "6-consumer/lessons/1-speech-recognition/virtual-device-speech-to-text.md",
-  "language_code": "ur"
-}
--->
 # تقریر سے متن - ورچوئل IoT ڈیوائس
 
 اس سبق کے اس حصے میں، آپ مائیکروفون سے حاصل کردہ تقریر کو متن میں تبدیل کرنے کے لیے اسپیچ سروس کا استعمال کرتے ہوئے کوڈ لکھیں گے۔

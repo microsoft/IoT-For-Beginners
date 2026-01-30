@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "64f18a8f8aaa1fef5e7320e0992d8b3a",
-  "translation_date": "2025-08-25T22:58:03+00:00",
-  "source_file": "3-transport/lessons/1-location-tracking/virtual-device-gps-sensor.md",
-  "language_code": "fa"
-}
--->
 # خواندن داده‌های GPS - سخت‌افزار مجازی IoT
 
 در این بخش از درس، شما یک حسگر GPS به دستگاه IoT مجازی خود اضافه می‌کنید و مقادیر آن را می‌خوانید.

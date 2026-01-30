@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "90fb93446e03c38f3c0e4009c2471906",
-  "translation_date": "2025-08-25T21:59:59+00:00",
-  "source_file": "1-getting-started/lessons/4-connect-internet/single-board-computer-mqtt.md",
-  "language_code": "fa"
-}
--->
 # کنترل چراغ خواب خود از طریق اینترنت - سخت‌افزار مجازی IoT و رزبری پای
 
 دستگاه IoT باید کدنویسی شود تا بتواند با *test.mosquitto.org* از طریق MQTT ارتباط برقرار کند، مقادیر تله‌متری را با خواندن حسگر نور ارسال کند و دستورات کنترل LED را دریافت کند.

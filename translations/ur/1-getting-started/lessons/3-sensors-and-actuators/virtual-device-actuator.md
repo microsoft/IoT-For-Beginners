@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "9c640f93263fd9adbfda920739e09feb",
-  "translation_date": "2025-08-26T23:29:11+00:00",
-  "source_file": "1-getting-started/lessons/3-sensors-and-actuators/virtual-device-actuator.md",
-  "language_code": "ur"
-}
--->
 # نائٹ لائٹ بنائیں - ورچوئل IoT ہارڈویئر
 
 اس سبق کے اس حصے میں، آپ اپنے ورچوئل IoT ڈیوائس میں ایک LED شامل کریں گے اور اسے نائٹ لائٹ بنانے کے لیے استعمال کریں گے۔

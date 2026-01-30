@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "6145a1d791731c8a9d0afd0a1bae5108",
-  "translation_date": "2025-08-25T21:13:16+00:00",
-  "source_file": "4-manufacturing/lessons/4-trigger-fruit-detector/pi-proximity.md",
-  "language_code": "fa"
-}
--->
 # تشخیص نزدیکی - رزبری پای
 
 در این بخش از درس، شما یک حسگر نزدیکی به رزبری پای خود اضافه می‌کنید و فاصله را از آن می‌خوانید.

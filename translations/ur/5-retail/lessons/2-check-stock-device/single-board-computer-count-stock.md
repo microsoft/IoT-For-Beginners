@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "9c4320311c0f2c1884a6a21265d98a51",
-  "translation_date": "2025-08-26T21:35:02+00:00",
-  "source_file": "5-retail/lessons/2-check-stock-device/single-board-computer-count-stock.md",
-  "language_code": "ur"
-}
--->
 # اپنے IoT ڈیوائس سے اسٹاک گنیں - ورچوئل IoT ہارڈویئر اور راسپبیری پائی
 
 پیشگوئیوں اور ان کے باؤنڈنگ باکسز کے امتزاج کو تصویر میں اسٹاک گننے کے لیے استعمال کیا جا سکتا ہے۔

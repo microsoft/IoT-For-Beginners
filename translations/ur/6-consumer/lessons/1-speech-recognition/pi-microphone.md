@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "7e45d884493c5222348b43fbc4481b6a",
-  "translation_date": "2025-08-27T00:30:30+00:00",
-  "source_file": "6-consumer/lessons/1-speech-recognition/pi-microphone.md",
-  "language_code": "ur"
-}
--->
 # اپنے مائیکروفون اور اسپیکرز کو ترتیب دیں - راسپبیری پائی
 
 اس سبق کے اس حصے میں، آپ اپنے راسپبیری پائی میں مائیکروفون اور اسپیکرز شامل کریں گے۔

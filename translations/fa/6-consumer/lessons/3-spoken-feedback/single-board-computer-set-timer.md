@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "64ad4ddb4de81a18b7252e968f10b404",
-  "translation_date": "2025-08-25T22:34:32+00:00",
-  "source_file": "6-consumer/lessons/3-spoken-feedback/single-board-computer-set-timer.md",
-  "language_code": "fa"
-}
--->
 # تنظیم یک تایمر - سخت‌افزار مجازی IoT و رزبری پای
 
 در این بخش از درس، شما کد بدون سرور خود را فراخوانی می‌کنید تا گفتار را درک کرده و بر اساس نتایج، یک تایمر روی دستگاه مجازی IoT یا رزبری پای تنظیم کنید.

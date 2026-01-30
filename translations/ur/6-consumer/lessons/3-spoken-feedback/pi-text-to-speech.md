@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "606f3af1c78e3741e48ce77c31cea626",
-  "translation_date": "2025-08-27T00:12:57+00:00",
-  "source_file": "6-consumer/lessons/3-spoken-feedback/pi-text-to-speech.md",
-  "language_code": "ur"
-}
--->
 # ٹیکسٹ کو آواز میں تبدیل کریں - راسپبیری پائی
 
 اس سبق کے اس حصے میں، آپ ایسا کوڈ لکھیں گے جو ٹیکسٹ کو آواز میں تبدیل کرے گا، اسپیکنگ سروس کا استعمال کرتے ہوئے۔

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "cbb8c285bc64c5192fae3368fb5077d2",
-  "translation_date": "2025-08-27T00:49:55+00:00",
-  "source_file": "3-transport/lessons/1-location-tracking/single-board-computer-gps-decode.md",
-  "language_code": "ur"
-}
--->
 # جی پی ایس ڈیٹا کو ڈی کوڈ کریں - ورچوئل آئی او ٹی ہارڈویئر اور راسپبیری پائی
 
 اس سبق کے اس حصے میں، آپ جی پی ایس سینسر سے پڑھے گئے این ایم ای اے پیغامات کو راسپبیری پائی یا ورچوئل آئی او ٹی ڈیوائس کے ذریعے ڈی کوڈ کریں گے اور عرض البلد اور طول البلد نکالیں گے۔

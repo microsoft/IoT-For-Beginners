@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "0d55caa8c23d73635b7559102cd17b8a",
-  "translation_date": "2025-08-26T22:49:16+00:00",
-  "source_file": "2-farm/lessons/2-detect-soil-moisture/wio-terminal-soil-moisture.md",
-  "language_code": "ur"
-}
--->
 # مٹی کی نمی کی پیمائش - Wio Terminal
 
 اس سبق کے اس حصے میں، آپ اپنے Wio Terminal میں ایک capacitive soil moisture sensor شامل کریں گے اور اس سے اقدار پڑھیں گے۔

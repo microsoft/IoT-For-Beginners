@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "2bf65f162bcebd35fbcba5fd245afac4",
-  "translation_date": "2025-08-25T21:41:01+00:00",
-  "source_file": "2-farm/lessons/2-detect-soil-moisture/virtual-device-soil-moisture.md",
-  "language_code": "fa"
-}
--->
 # اندازه‌گیری رطوبت خاک - سخت‌افزار مجازی IoT
 
 در این بخش از درس، یک حسگر رطوبت خاک خازنی به دستگاه IoT مجازی خود اضافه می‌کنید و مقادیر آن را می‌خوانید.

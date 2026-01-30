@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "9fd36f5dc734203ee28b6cf2573e5eab",
-  "translation_date": "2025-08-25T20:39:54+00:00",
-  "source_file": "for-teachers.md",
-  "language_code": "fa"
-}
--->
 # برای معلمان
 
 آیا دوست دارید از این برنامه درسی در کلاس خود استفاده کنید؟ لطفاً با خیال راحت این کار را انجام دهید!

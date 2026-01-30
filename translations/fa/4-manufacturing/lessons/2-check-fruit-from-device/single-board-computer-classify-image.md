@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "e5896207b304ce1abaf065b8acc0cc79",
-  "translation_date": "2025-08-25T20:59:35+00:00",
-  "source_file": "4-manufacturing/lessons/2-check-fruit-from-device/single-board-computer-classify-image.md",
-  "language_code": "fa"
-}
--->
 # طبقه‌بندی یک تصویر - سخت‌افزار مجازی IoT و رزبری پای
 
 در این بخش از درس، تصویر گرفته‌شده توسط دوربین را به سرویس Custom Vision ارسال می‌کنید تا طبقه‌بندی شود.

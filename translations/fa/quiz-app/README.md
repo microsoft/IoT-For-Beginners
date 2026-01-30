@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "2a459ea9177fb0508ca96068ae1009d2",
-  "translation_date": "2025-08-25T23:11:21+00:00",
-  "source_file": "quiz-app/README.md",
-  "language_code": "fa"
-}
--->
 # آزمون‌ها
 
 این آزمون‌ها برای قبل و بعد از جلسات آموزشی در دوره «اینترنت اشیا برای مبتدیان» در دسترس هستند: https://aka.ms/iot-beginners

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "52b4de6144b2efdced7797a5339d6035",
-  "translation_date": "2025-08-26T23:37:36+00:00",
-  "source_file": "1-getting-started/lessons/1-introduction-to-iot/virtual-device.md",
-  "language_code": "ur"
-}
--->
 # ورچوئل سنگل بورڈ کمپیوٹر
 
 آئی او ٹی ڈیوائس، سینسرز اور ایکچیویٹرز خریدنے کے بجائے، آپ اپنے کمپیوٹر کو آئی او ٹی ہارڈویئر کی نقل کرنے کے لیے استعمال کر سکتے ہیں۔ [CounterFit پروجیکٹ](https://github.com/CounterFit-IoT/CounterFit) آپ کو ایک ایپ لوکل طور پر چلانے کی اجازت دیتا ہے جو آئی او ٹی ہارڈویئر جیسے سینسرز اور ایکچیویٹرز کی نقل کرتا ہے، اور آپ لوکل Python کوڈ کے ذریعے ان سینسرز اور ایکچیویٹرز تک رسائی حاصل کر سکتے ہیں، بالکل اسی طرح جیسے آپ Raspberry Pi پر فزیکل ہارڈویئر کے ساتھ کوڈ لکھتے ہیں۔

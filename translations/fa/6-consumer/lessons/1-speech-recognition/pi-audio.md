@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "0ac0afcfb40cb5970ef4cb74f01c32e9",
-  "translation_date": "2025-08-25T22:41:23+00:00",
-  "source_file": "6-consumer/lessons/1-speech-recognition/pi-audio.md",
-  "language_code": "fa"
-}
--->
 # ضبط صدا - رزبری پای
 
 در این بخش از درس، شما کدی خواهید نوشت که صدا را روی رزبری پای ضبط کند. ضبط صدا توسط یک دکمه کنترل خواهد شد.

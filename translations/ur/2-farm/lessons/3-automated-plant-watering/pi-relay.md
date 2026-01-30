@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "66b81165e60f8f169bd52a401b6a0f8b",
-  "translation_date": "2025-08-26T22:29:43+00:00",
-  "source_file": "2-farm/lessons/3-automated-plant-watering/pi-relay.md",
-  "language_code": "ur"
-}
--->
 # ریلے کو کنٹرول کریں - راسپبیری پائی
 
 اس سبق کے اس حصے میں، آپ اپنی راسپبیری پائی میں مٹی کی نمی کے سینسر کے ساتھ ایک ریلے شامل کریں گے اور اسے مٹی کی نمی کی سطح کے مطابق کنٹرول کریں گے۔

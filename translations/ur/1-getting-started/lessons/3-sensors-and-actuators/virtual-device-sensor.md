@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "11f10c6760fb8202cf368422702fdf70",
-  "translation_date": "2025-08-26T23:30:15+00:00",
-  "source_file": "1-getting-started/lessons/3-sensors-and-actuators/virtual-device-sensor.md",
-  "language_code": "ur"
-}
--->
 # نائٹ لائٹ بنائیں - ورچوئل IoT ہارڈویئر
 
 اس سبق کے اس حصے میں، آپ اپنے ورچوئل IoT ڈیوائس میں ایک لائٹ سینسر شامل کریں گے۔

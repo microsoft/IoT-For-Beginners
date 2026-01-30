@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "1226517aae5f5b6f904434670394c688",
-  "translation_date": "2025-08-25T21:54:54+00:00",
-  "source_file": "1-getting-started/lessons/4-connect-internet/single-board-computer-telemetry.md",
-  "language_code": "fa"
-}
--->
 # کنترل چراغ خواب از طریق اینترنت - سخت‌افزار مجازی IoT و رزبری پای
 
 در این بخش از درس، شما داده‌های تله‌متری شامل سطح نور را از رزبری پای یا دستگاه مجازی IoT خود به یک MQTT broker ارسال خواهید کرد.

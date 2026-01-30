@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "9aea84bcc7520222b0e1c50469d62d6a",
-  "translation_date": "2025-08-26T23:07:30+00:00",
-  "source_file": "2-farm/lessons/6-keep-your-plant-secure/single-board-computer-x509.md",
-  "language_code": "ur"
-}
--->
 # اپنے ڈیوائس کو X.509 سرٹیفکیٹ کے ذریعے استعمال کریں - ورچوئل IoT ہارڈویئر اور راسپبیری پائی
 
 اس سبق کے اس حصے میں، آپ اپنے ورچوئل IoT ڈیوائس یا راسپبیری پائی کو X.509 سرٹیفکیٹ کے ذریعے IoT Hub سے جوڑیں گے۔

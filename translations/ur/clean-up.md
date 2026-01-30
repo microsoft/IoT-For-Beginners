@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "5a94fbab1ba737e9bd6cc6c64f114fa0",
-  "translation_date": "2025-08-26T21:24:12+00:00",
-  "source_file": "clean-up.md",
-  "language_code": "ur"
-}
--->
 # اپنے پروجیکٹ کو صاف کریں
 
 جب آپ ہر پروجیکٹ مکمل کر لیں، تو بہتر ہے کہ آپ اپنے کلاؤڈ وسائل کو حذف کر دیں۔

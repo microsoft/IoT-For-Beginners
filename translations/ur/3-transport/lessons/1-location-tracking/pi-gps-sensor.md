@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "3b2448c7ab4e9673e77e35a50c5e350d",
-  "translation_date": "2025-08-27T00:50:57+00:00",
-  "source_file": "3-transport/lessons/1-location-tracking/pi-gps-sensor.md",
-  "language_code": "ur"
-}
--->
 # جی پی ایس ڈیٹا پڑھیں - راسپبیری پائی
 
 اس سبق کے اس حصے میں، آپ اپنے راسپبیری پائی میں ایک جی پی ایس سینسر شامل کریں گے اور اس سے ڈیٹا پڑھیں گے۔

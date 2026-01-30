@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "a202fa5889790a3777bfc33dd9f4b459",
-  "translation_date": "2025-08-27T00:15:37+00:00",
-  "source_file": "6-consumer/lessons/3-spoken-feedback/wio-terminal-text-to-speech.md",
-  "language_code": "ur"
-}
--->
 # وائیو ٹرمینل - متن کو آواز میں تبدیل کریں
 
 اس سبق کے اس حصے میں، آپ متن کو آواز میں تبدیل کریں گے تاکہ بولی جانے والی رائے فراہم کی جا سکے۔

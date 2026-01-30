@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "50151d9f9dce2801348a93880ef16d86",
-  "translation_date": "2025-08-25T21:09:46+00:00",
-  "source_file": "4-manufacturing/lessons/3-run-fruit-detector-edge/single-board-computer.md",
-  "language_code": "fa"
-}
--->
 # طبقه‌بندی یک تصویر با استفاده از یک طبقه‌بند تصویر مبتنی بر IoT Edge - سخت‌افزار مجازی IoT و رزبری پای
 
 در این بخش از درس، از طبقه‌بند تصویر که روی دستگاه IoT Edge اجرا می‌شود استفاده خواهید کرد.

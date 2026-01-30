@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "3b2448c7ab4e9673e77e35a50c5e350d",
-  "translation_date": "2025-08-25T23:02:36+00:00",
-  "source_file": "3-transport/lessons/1-location-tracking/pi-gps-sensor.md",
-  "language_code": "fa"
-}
--->
 # خواندن داده‌های GPS - رزبری پای
 
 در این بخش از درس، شما یک حسگر GPS به رزبری پای اضافه می‌کنید و مقادیر آن را می‌خوانید.

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "c527ce85d69b1a3875366ec61cbed8aa",
-  "translation_date": "2025-08-25T21:54:29+00:00",
-  "source_file": "1-getting-started/lessons/4-connect-internet/single-board-computer-commands.md",
-  "language_code": "fa"
-}
--->
 # کنترل چراغ خواب خود از طریق اینترنت - سخت‌افزار مجازی IoT و Raspberry Pi
 
 در این بخش از درس، شما به دستورات ارسال‌شده از یک MQTT broker به Raspberry Pi یا دستگاه IoT مجازی خود اشتراک خواهید کرد.

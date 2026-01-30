@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "0b2ae20b0fc8e73c9598dea937cac038",
-  "translation_date": "2025-08-26T21:33:44+00:00",
-  "source_file": "5-retail/lessons/2-check-stock-device/wio-terminal-count-stock.md",
-  "language_code": "ur"
-}
--->
 # اپنے IoT ڈیوائس سے اسٹاک گنیں - Wio Terminal
 
 پیشگوئیوں اور ان کے باؤنڈنگ باکسز کے امتزاج کو تصویر میں اسٹاک گننے کے لیے استعمال کیا جا سکتا ہے۔

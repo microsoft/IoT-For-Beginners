@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "8ff0d0a1d29832bb896b9c103b69a452",
-  "translation_date": "2025-08-26T23:40:20+00:00",
-  "source_file": "1-getting-started/lessons/1-introduction-to-iot/pi.md",
-  "language_code": "ur"
-}
--->
 # راسپبیری پائی
 
 [راسپبیری پائی](https://raspberrypi.org) ایک سنگل بورڈ کمپیوٹر ہے۔ آپ مختلف قسم کے آلات اور ایکوسسٹمز کا استعمال کرتے ہوئے سینسرز اور ایکچویٹرز شامل کر سکتے ہیں، اور ان اسباق کے لیے ایک ہارڈویئر ایکوسسٹم استعمال کیا جا رہا ہے جسے [Grove](https://www.seeedstudio.com/category/Grove-c-1003.html) کہا جاتا ہے۔ آپ اپنے پائی کو Python کے ذریعے کوڈ کریں گے اور Grove سینسرز تک رسائی حاصل کریں گے۔

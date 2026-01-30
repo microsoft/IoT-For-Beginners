@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "24dc783a600e20251211987b36370e93",
-  "translation_date": "2025-08-25T21:08:38+00:00",
-  "source_file": "4-manufacturing/lessons/3-run-fruit-detector-edge/vm-iotedge.md",
-  "language_code": "fa"
-}
--->
 # ایجاد یک ماشین مجازی با IoT Edge
 
 در Azure، می‌توانید یک ماشین مجازی ایجاد کنید - یک کامپیوتر در فضای ابری که می‌توانید آن را به هر شکلی که می‌خواهید پیکربندی کنید و نرم‌افزار خود را روی آن اجرا کنید.

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "11f10c6760fb8202cf368422702fdf70",
-  "translation_date": "2025-08-25T22:09:00+00:00",
-  "source_file": "1-getting-started/lessons/3-sensors-and-actuators/virtual-device-sensor.md",
-  "language_code": "fa"
-}
--->
 # ساخت چراغ خواب - سخت‌افزار مجازی IoT
 
 در این بخش از درس، شما یک حسگر نور به دستگاه IoT مجازی خود اضافه خواهید کرد.

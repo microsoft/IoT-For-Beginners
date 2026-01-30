@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "f8f541ee945545017a51aaf309aa37c3",
-  "translation_date": "2025-08-26T22:30:50+00:00",
-  "source_file": "2-farm/lessons/3-automated-plant-watering/virtual-device-relay.md",
-  "language_code": "ur"
-}
--->
 # ریلے کو کنٹرول کریں - ورچوئل IoT ہارڈویئر
 
 اس سبق کے اس حصے میں، آپ اپنی ورچوئل IoT ڈیوائس میں مٹی کی نمی کے سینسر کے ساتھ ایک ریلے شامل کریں گے اور اسے مٹی کی نمی کی سطح کے مطابق کنٹرول کریں گے۔

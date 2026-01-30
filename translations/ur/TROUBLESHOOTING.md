@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "9713e21a309662f6fcb271b573d47848",
-  "translation_date": "2026-01-05T17:32:46+00:00",
-  "source_file": "TROUBLESHOOTING.md",
-  "language_code": "ur"
-}
--->
 # مسئلہ حل کرنے کا رہنما
 
 یہ رہنما آپ کو IoT for Beginners نصاب کے ساتھ کام کرتے وقت عام مسائل کو حل کرنے میں مدد کرتا ہے۔ مسائل کو آسان نیویگیشن کے لیے زمرہ وار ترتیب دیا گیا ہے۔

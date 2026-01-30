@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "012b69d57d898d670adf61304f42a137",
-  "translation_date": "2025-08-27T00:11:37+00:00",
-  "source_file": "6-consumer/lessons/3-spoken-feedback/wio-terminal-set-timer.md",
-  "language_code": "ur"
-}
--->
 # وائیو ٹرمینل پر ٹائمر سیٹ کریں
 
 اس سبق کے اس حصے میں، آپ اپنی سرور لیس کوڈ کو کال کریں گے تاکہ تقریر کو سمجھا جا سکے، اور نتائج کی بنیاد پر اپنے وائیو ٹرمینل پر ایک ٹائمر سیٹ کریں۔

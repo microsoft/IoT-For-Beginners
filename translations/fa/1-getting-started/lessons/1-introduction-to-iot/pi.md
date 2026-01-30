@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "8ff0d0a1d29832bb896b9c103b69a452",
-  "translation_date": "2025-08-25T22:16:51+00:00",
-  "source_file": "1-getting-started/lessons/1-introduction-to-iot/pi.md",
-  "language_code": "fa"
-}
--->
 # رزبری پای
 
 [رزبری پای](https://raspberrypi.org) یک کامپیوتر تک‌برد است. شما می‌توانید با استفاده از طیف گسترده‌ای از دستگاه‌ها و اکوسیستم‌ها، حسگرها و عملگرها را به آن اضافه کنید. در این درس‌ها از یک اکوسیستم سخت‌افزاری به نام [Grove](https://www.seeedstudio.com/category/Grove-c-1003.html) استفاده می‌کنیم. شما با استفاده از زبان پایتون، رزبری پای خود را برنامه‌نویسی کرده و به حسگرهای Grove دسترسی پیدا خواهید کرد.

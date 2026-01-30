@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "7966848a1f870e4c42edb4db67b13c57",
-  "translation_date": "2025-08-27T00:17:32+00:00",
-  "source_file": "6-consumer/lessons/3-spoken-feedback/virtual-device-text-to-speech.md",
-  "language_code": "ur"
-}
--->
 # متن کو آواز میں تبدیل کریں - ورچوئل IoT ڈیوائس
 
 اس سبق کے اس حصے میں، آپ کوڈ لکھیں گے تاکہ متن کو آواز میں تبدیل کیا جا سکے، اس کے لیے اسپیکنگ سروس استعمال کی جائے گی۔

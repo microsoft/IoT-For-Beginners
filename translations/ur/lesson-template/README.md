@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "0494be70ad7fadd13a8c3d549c23e355",
-  "translation_date": "2025-08-27T01:03:54+00:00",
-  "source_file": "lesson-template/README.md",
-  "language_code": "ur"
-}
--->
 # [سبق کا موضوع]
 
 ![یہاں ویڈیو شامل کریں](../../../lesson-template/video-url)

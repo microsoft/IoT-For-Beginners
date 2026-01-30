@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "7f4ad0ef54f248b85b92187c94cf9dcb",
-  "translation_date": "2025-08-26T23:31:16+00:00",
-  "source_file": "1-getting-started/lessons/3-sensors-and-actuators/wio-terminal-sensor.md",
-  "language_code": "ur"
-}
--->
 # سینسر شامل کریں - وائیو ٹرمینل
 
 اس سبق کے اس حصے میں، آپ اپنے وائیو ٹرمینل پر موجود روشنی کے سینسر کا استعمال کریں گے۔

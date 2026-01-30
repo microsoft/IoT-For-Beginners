@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "5f6c164e349f8989959e02a90f37908d",
-  "translation_date": "2025-08-25T22:25:36+00:00",
-  "source_file": "6-consumer/lessons/4-multiple-language-support/wio-terminal-translate-speech.md",
-  "language_code": "fa"
-}
--->
 # ترجمه گفتار - Wio Terminal
 
 در این بخش از درس، کدی خواهید نوشت که متن را با استفاده از سرویس مترجم ترجمه کند.

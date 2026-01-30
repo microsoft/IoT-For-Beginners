@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "3f92edf2975175577174910caca4a389",
-  "translation_date": "2025-08-27T00:28:19+00:00",
-  "source_file": "6-consumer/lessons/1-speech-recognition/wio-terminal-speech-to-text.md",
-  "language_code": "ur"
-}
--->
 # تقریر کو متن میں تبدیل کرنا - Wio Terminal
 
 اس سبق کے اس حصے میں، آپ کوڈ لکھیں گے تاکہ کیپچر کیے گئے آڈیو میں تقریر کو متن میں تبدیل کیا جا سکے، اس کے لیے اسپیکنگ سروس کا استعمال کیا جائے گا۔

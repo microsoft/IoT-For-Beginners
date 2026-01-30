@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "24dc783a600e20251211987b36370e93",
-  "translation_date": "2025-08-26T22:02:26+00:00",
-  "source_file": "4-manufacturing/lessons/3-run-fruit-detector-edge/vm-iotedge.md",
-  "language_code": "ur"
-}
--->
 # آئی او ٹی ایج چلانے والی ورچوئل مشین بنائیں
 
 Azure میں، آپ ایک ورچوئل مشین بنا سکتے ہیں - کلاؤڈ میں ایک کمپیوٹر جسے آپ اپنی مرضی کے مطابق ترتیب دے سکتے ہیں اور اس پر اپنا سافٹ ویئر چلا سکتے ہیں۔

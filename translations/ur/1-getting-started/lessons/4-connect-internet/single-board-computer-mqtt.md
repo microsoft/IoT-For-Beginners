@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "90fb93446e03c38f3c0e4009c2471906",
-  "translation_date": "2025-08-26T23:18:59+00:00",
-  "source_file": "1-getting-started/lessons/4-connect-internet/single-board-computer-mqtt.md",
-  "language_code": "ur"
-}
--->
 # انٹرنیٹ کے ذریعے اپنی نائٹ لائٹ کو کنٹرول کریں - ورچوئل IoT ہارڈویئر اور راسپبیری پائی
 
 IoT ڈیوائس کو *test.mosquitto.org* کے ساتھ MQTT کے ذریعے بات چیت کرنے کے لیے کوڈ کیا جانا چاہیے تاکہ ٹیلیمیٹری ویلیوز کو لائٹ سینسر ریڈنگ کے ساتھ بھیجا جا سکے، اور ایل ای ڈی کو کنٹرول کرنے کے لیے کمانڈز وصول کی جا سکیں۔

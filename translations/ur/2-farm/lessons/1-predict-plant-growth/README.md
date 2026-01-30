@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "d105b44deae539165855c976dcdeca99",
-  "translation_date": "2025-08-26T22:14:26+00:00",
-  "source_file": "2-farm/lessons/1-predict-plant-growth/README.md",
-  "language_code": "ur"
-}
--->
 # پودوں کی افزائش کی پیشن گوئی IoT کے ذریعے
 
 ![اس سبق کا ایک خاکہ](../../../../../translated_images/ur/lesson-5.42b234299279d263143148b88ab4583861a32ddb03110c6c1120e41bb88b2592.jpg)

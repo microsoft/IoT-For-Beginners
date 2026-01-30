@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "c527ce85d69b1a3875366ec61cbed8aa",
-  "translation_date": "2025-08-26T23:09:42+00:00",
-  "source_file": "1-getting-started/lessons/4-connect-internet/single-board-computer-commands.md",
-  "language_code": "ur"
-}
--->
 # انٹرنیٹ کے ذریعے اپنی نائٹ لائٹ کو کنٹرول کریں - ورچوئل IoT ہارڈویئر اور راسپبیری پائی
 
 اس سبق کے اس حصے میں، آپ MQTT بروکر سے اپنے راسپبیری پائی یا ورچوئل IoT ڈیوائس کو بھیجے گئے کمانڈز کو سبسکرائب کریں گے۔

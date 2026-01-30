@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "3f92edf2975175577174910caca4a389",
-  "translation_date": "2025-08-25T22:48:52+00:00",
-  "source_file": "6-consumer/lessons/1-speech-recognition/wio-terminal-speech-to-text.md",
-  "language_code": "fa"
-}
--->
 # تبدیل گفتار به متن - Wio Terminal
 
 در این بخش از درس، شما کدی خواهید نوشت که گفتار ضبط‌شده در فایل صوتی را به متن تبدیل کند، با استفاده از سرویس گفتار.

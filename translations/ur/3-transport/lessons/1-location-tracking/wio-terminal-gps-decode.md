@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "fbbcf96a9b63ccd661db98bbf854bb06",
-  "translation_date": "2025-08-27T00:51:59+00:00",
-  "source_file": "3-transport/lessons/1-location-tracking/wio-terminal-gps-decode.md",
-  "language_code": "ur"
-}
--->
 # GPS ڈیٹا کو ڈی کوڈ کریں - Wio Terminal
 
 اس سبق کے اس حصے میں، آپ Wio Terminal کے GPS سینسر سے پڑھے گئے NMEA پیغامات کو ڈی کوڈ کریں گے اور عرض البلد اور طول البلد نکالیں گے۔

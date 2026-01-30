@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "d620a470d9dd8614d99824832978360a",
-  "translation_date": "2025-08-25T22:29:37+00:00",
-  "source_file": "6-consumer/lessons/4-multiple-language-support/virtual-device-translate-speech.md",
-  "language_code": "fa"
-}
--->
 # ترجمه گفتار - دستگاه مجازی IoT
 
 در این بخش از درس، شما کدی خواهید نوشت که گفتار را هنگام تبدیل به متن با استفاده از سرویس گفتار ترجمه کند، سپس متن را با استفاده از سرویس Translator ترجمه کرده و در نهایت یک پاسخ گفتاری تولید کند.

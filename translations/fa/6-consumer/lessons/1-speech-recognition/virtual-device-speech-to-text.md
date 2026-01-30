@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "c0550b254b9ba2539baf1e6bb5fc05f8",
-  "translation_date": "2025-08-25T22:45:30+00:00",
-  "source_file": "6-consumer/lessons/1-speech-recognition/virtual-device-speech-to-text.md",
-  "language_code": "fa"
-}
--->
 # تبدیل گفتار به متن - دستگاه مجازی اینترنت اشیا
 
 در این بخش از درس، شما کدی خواهید نوشت که گفتاری که از میکروفون شما ضبط شده است را با استفاده از سرویس گفتار به متن تبدیل می‌کند.

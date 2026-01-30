@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "3ba7150ffc4a6999f6c3cfb4906ec7df",
-  "translation_date": "2025-08-26T21:53:00+00:00",
-  "source_file": "4-manufacturing/lessons/2-check-fruit-from-device/virtual-device-camera.md",
-  "language_code": "ur"
-}
--->
 # تصویر حاصل کریں - ورچوئل IoT ہارڈویئر
 
 اس سبق کے اس حصے میں، آپ اپنے ورچوئل IoT ڈیوائس میں کیمرہ سینسر شامل کریں گے اور اس سے تصاویر پڑھیں گے۔

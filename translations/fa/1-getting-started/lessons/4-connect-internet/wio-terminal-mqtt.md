@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "d6faf0e8d3c2d6d20c0aef2a305dab18",
-  "translation_date": "2025-08-25T22:01:02+00:00",
-  "source_file": "1-getting-started/lessons/4-connect-internet/wio-terminal-mqtt.md",
-  "language_code": "fa"
-}
--->
 # کنترل چراغ خواب از طریق اینترنت - Wio Terminal
 
 دستگاه IoT باید به گونه‌ای برنامه‌ریزی شود که با استفاده از MQTT به *test.mosquitto.org* متصل شود تا مقادیر تله‌متری را با خواندن حسگر نور ارسال کرده و دستورات را برای کنترل LED دریافت کند.

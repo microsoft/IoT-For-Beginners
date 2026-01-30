@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "160be8c0f558687f6686dca64f10f739",
-  "translation_date": "2025-08-25T21:03:09+00:00",
-  "source_file": "4-manufacturing/lessons/2-check-fruit-from-device/wio-terminal-camera.md",
-  "language_code": "fa"
-}
--->
 # گرفتن تصویر - Wio Terminal
 
 در این بخش از درس، شما یک دوربین به Wio Terminal خود اضافه می‌کنید و تصاویر را از آن ثبت می‌کنید.

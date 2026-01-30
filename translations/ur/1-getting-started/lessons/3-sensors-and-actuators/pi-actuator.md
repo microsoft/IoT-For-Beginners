@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "4db8a3879a53490513571df2f6cf7641",
-  "translation_date": "2025-08-26T23:26:57+00:00",
-  "source_file": "1-getting-started/lessons/3-sensors-and-actuators/pi-actuator.md",
-  "language_code": "ur"
-}
--->
 # رات کی روشنی بنائیں - راسپبیری پائی
 
 اس سبق کے اس حصے میں، آپ اپنی راسپبیری پائی میں ایک ایل ای ڈی شامل کریں گے اور اسے رات کی روشنی بنانے کے لیے استعمال کریں گے۔

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "a4f0c166010e31fd7b6ca20bc88dec6d",
-  "translation_date": "2025-08-26T23:43:12+00:00",
-  "source_file": "1-getting-started/lessons/1-introduction-to-iot/wio-terminal.md",
-  "language_code": "ur"
-}
--->
 # وائیو ٹرمینل
 
 [سیڈ اسٹوڈیوز کا وائیو ٹرمینل](https://www.seeedstudio.com/Wio-Terminal-p-4509.html) ایک آرڈوینو کے ساتھ مطابقت رکھنے والا مائیکرو کنٹرولر ہے، جس میں وائی فائی، کچھ سینسرز اور ایکچیویٹرز شامل ہیں، اور اضافی سینسرز اور ایکچیویٹرز شامل کرنے کے لیے پورٹس موجود ہیں، جو ایک ہارڈویئر ایکوسسٹم [گروو](https://www.seeedstudio.com/category/Grove-c-1003.html) کے ذریعے کام کرتا ہے۔
