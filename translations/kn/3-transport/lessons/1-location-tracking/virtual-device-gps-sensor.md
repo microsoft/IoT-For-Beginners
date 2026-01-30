@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "64f18a8f8aaa1fef5e7320e0992d8b3a",
-  "translation_date": "2026-01-07T04:34:22+00:00",
-  "source_file": "3-transport/lessons/1-location-tracking/virtual-device-gps-sensor.md",
-  "language_code": "kn"
-}
--->
 # ಜಿಪಿಎಸ್ ಡೇಟಾವನ್ನು ಓದಲು - ವರ್ಚುವಲ್ ಐಒಟಿ ಹಾರ್ಡ್‌ವೇರ್
 
 ಪಾಠದ ಈ ಭಾಗದಲ್ಲಿ, ನೀವು ನಿಮ್ಮ ವರ್ಚುವಲ್ ಐಒಟಿ ಸಾಧನಕ್ಕೆ ಜಿಪಿಎಸ್ ಸಂವೇದಕವನ್ನು ಸೇರಿಸಿ, ಅದರಿಂದ ಮೌಲ್ಯಗಳನ್ನು ಓದಲು ಮಾಡುತ್ತಿರಿ.

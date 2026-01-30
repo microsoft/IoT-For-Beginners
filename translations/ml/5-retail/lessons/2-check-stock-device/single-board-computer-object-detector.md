@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "a3fdfec1d1e2cb645ea11c2930b51299",
-  "translation_date": "2026-01-07T03:56:23+00:00",
-  "source_file": "5-retail/lessons/2-check-stock-device/single-board-computer-object-detector.md",
-  "language_code": "ml"
-}
--->
 # നിങ്ങളുടെ ഐഒടി ഡിവൈസിൽ നിന്നും നിങ്ങളുടെ ഒബ്ജക്റ്റ് ഡിറ്റക്ടർ കോൾ ചെയ്യുക - വർച്ച്വൽ ഐഒടി ഹാർഡ്വേർ ആൻഡ് റാസ്ബറി പൈ
 
 ഒരു സമർപ്പിച്ചാൽ, അത് നിങ്ങളുടെ ഐഒടി ഡിവൈസിൽ നിന്നും ഉപയോഗിക്കാം.

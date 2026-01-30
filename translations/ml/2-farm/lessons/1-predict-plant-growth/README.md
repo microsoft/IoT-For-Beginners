@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "d105b44deae539165855c976dcdeca99",
-  "translation_date": "2026-01-07T06:17:18+00:00",
-  "source_file": "2-farm/lessons/1-predict-plant-growth/README.md",
-  "language_code": "ml"
-}
--->
 # ഐഒടി ഉപയോഗിച്ച് സസ്യവളർച്ച പ്രവചിക്കുക
 
 ![ഈ പാഠത്തിന്റെ സ്കെച്ച്നോട്ട് അവലോകനം](../../../../../translated_images/ml/lesson-5.42b234299279d263.webp)

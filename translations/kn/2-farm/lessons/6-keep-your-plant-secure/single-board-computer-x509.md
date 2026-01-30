@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "9aea84bcc7520222b0e1c50469d62d6a",
-  "translation_date": "2026-01-07T05:33:18+00:00",
-  "source_file": "2-farm/lessons/6-keep-your-plant-secure/single-board-computer-x509.md",
-  "language_code": "kn"
-}
--->
 # ನಿಮ್ಮ ಸಾಧನದ ಕೋಡ್‌ನಲ್ಲಿ X.509 ಪ್ರಮಾಣಪತ್ರವನ್ನು ಬಳಸಿ - ವರ್ಚುವಲ್ ಐಒಟಿ ಹಾರ್ಡ್ವೇರ್ ಮತ್ತು ರ್ಯಾಸ್ಪ್ಬೆರ್ರಿ ಪೈ
 
 ಪಾಠದ ಈ ಭಾಗದಲ್ಲಿ, ನೀವು ನಿಮ್ಮ ವರ್ಚುವಲ್ ಐಒಟಿ ಸಾಧನ ಅಥವಾ ರ್ಯಾಸ್ಪ್ಬೆರ್ರಿ ಪೈ ಅನ್ನು X.509 ಪ್ರಮಾಣಪತ್ರ ಬಳಸಿ ನಿಮ್ಮ ಐಒಟಿ ಹಬ್‌ಗೆ ಸಂಪರ್ಕಿಸುವಿರಿ.

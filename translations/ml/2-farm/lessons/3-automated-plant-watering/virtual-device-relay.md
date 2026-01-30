@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "f8f541ee945545017a51aaf309aa37c3",
-  "translation_date": "2026-01-07T05:23:10+00:00",
-  "source_file": "2-farm/lessons/3-automated-plant-watering/virtual-device-relay.md",
-  "language_code": "ml"
-}
--->
 # ഒരു റിലേ നിയന്ത്രിക്കുക - വെച്ച്വൽ IoT ഹാർഡ്വെയർ
 
 പാഠത്തിന്റെ ഈ ഭാഗത്തിൽ, മണ്ണിലെ ഈർപ്പം സെൻസറിനൊപ്പം നിങ്ങളുടെ വെച്ച്വൽ IoT ഉപകരണത്തിൽ ഒരു റിലേ കൂടി ചേർക്കുകയും മണ്ണിലെ ഈർപ്പത്തിന്റെ നില അടിസ്ഥാനമാക്കി അത്തിനെ നിയന്ത്രിക്കുകയും ചെയ്യും.

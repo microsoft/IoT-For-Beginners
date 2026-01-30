@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "1e21b012c6685f8bf73e0e76cdca3347",
-  "translation_date": "2026-01-07T06:27:02+00:00",
-  "source_file": "2-farm/lessons/1-predict-plant-growth/assignment.md",
-  "language_code": "te"
-}
--->
 # Jupyter నోట్‌బుక్ ఉపయోగించి GDD డేటా ప్రదర్శించండి
 
 ## సూచనలు

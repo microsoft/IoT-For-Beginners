@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "0ac0afcfb40cb5970ef4cb74f01c32e9",
-  "translation_date": "2026-01-07T03:17:03+00:00",
-  "source_file": "6-consumer/lessons/1-speech-recognition/pi-audio.md",
-  "language_code": "te"
-}
--->
 # ఆడియో క్యాప్చర్ - రాస్ప్బెర్రీ పై
 
 పాఠం యొక్క ఈ భాగంలో, మీరు మీ రాస్ప్బెర్రీ పైపై ఆడియోను క్యాప్చర్ చేయడానికి కోడ్ రాస్తారు. ఆడియో క్యాప్చర్‌ను ఒక బటన్ ద్వారా నియంత్రించబడుతుంది.

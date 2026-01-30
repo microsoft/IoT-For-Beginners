@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "9c4320311c0f2c1884a6a21265d98a51",
-  "translation_date": "2026-01-07T04:02:55+00:00",
-  "source_file": "5-retail/lessons/2-check-stock-device/single-board-computer-count-stock.md",
-  "language_code": "kn"
-}
--->
 # ನಿಮ್ಮ IoT ಸಾಧನದಿಂದ ಸ್ಟಾಕ್ ಎಣಿಕೆ - ವಾಸ್ತವಿಕ IoT ಹಾರ್ಡ್‌ವೇರ್ ಮತ್ತು ರಾಸ್ಪ್ಬೆರ್ರಿ ಪೈ
 
 ಭವಿಷ್ಯವಾಣಿ ಮತ್ತು ಅವುಗಳ ಬೌಂಡಿಂಗ್ ಬಾಕ್ಸ್‌ಗಳ ಸಂಯೋಜನೆ ಚಿತ್ರದಲ್ಲಿ ಸ್ಟಾಕ್ ಎಣಿಸಲು ಬಳಸಬಹುದು

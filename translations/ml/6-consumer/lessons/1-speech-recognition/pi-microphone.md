@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "7e45d884493c5222348b43fbc4481b6a",
-  "translation_date": "2026-01-07T03:14:05+00:00",
-  "source_file": "6-consumer/lessons/1-speech-recognition/pi-microphone.md",
-  "language_code": "ml"
-}
--->
 # മൈക്രോഫോൺയും സ്‌പീക്കറുകളും ക്രമീകരിക്കുക - റാസ്ബെറി പൈ
 
 പാഠത്തിന്റെ ഈ ഭാഗത്തിൽ, നിങ്ങൾ നിങ്ങളുടെ റാസ്ബെറി പൈയിൽ ഒരു മൈക്രോഫോൺയും സ്‌പീക്കറുകളും ചേർക്കും.

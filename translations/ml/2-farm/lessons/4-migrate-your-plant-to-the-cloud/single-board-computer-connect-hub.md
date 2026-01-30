@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "3ac42e284a7222c0e83d2d43231a364f",
-  "translation_date": "2026-01-07T05:44:38+00:00",
-  "source_file": "2-farm/lessons/4-migrate-your-plant-to-the-cloud/single-board-computer-connect-hub.md",
-  "language_code": "ml"
-}
--->
 # നിങ്ങളുടെ IoT ഡിവൈസ് ക്ലൗഡുമായി ബന്ധിപ്പിക്കുക - വിർച്വൽ IoT ഹാർഡ്‌വെയർ এবং റാസ്‌പ്ബെറി പൈ
 
 പാഠത്തിന്റെ ഈ ഭാഗത്തിൽ, നിങ്ങൾ നിങ്ങളുടെ വിർച്വൽ IoT ഡിവൈസോ റാസ്‌പ്ബെറി പൈനോ നിങ്ങളുടെ IoT ഹബുമായി ബന്ധിപ്പിച്ച് ടെലിമെട്രി അയയ്ക്കാനും കമാൻഡുകൾ സ്വീകരിക്കാനും പഠിക്കും.

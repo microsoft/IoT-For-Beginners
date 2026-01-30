@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "4efc74299e19f5d08f2f3f34451a11ba",
-  "translation_date": "2026-01-07T06:11:42+00:00",
-  "source_file": "2-farm/lessons/1-predict-plant-growth/single-board-computer-temp-publish.md",
-  "language_code": "kn"
-}
--->
 # ಉಷ್ಮಾಂಶವನ್ನು ಪ್ರಕಟಿಸಿ - ವರ್ಚುವಲ್ ಇಂಟರ್ನೆಟ್ ಆಫ್ ಥಿಂಗ್ಸ್ ಹಾರ್ಡ್ವೇರ್ ಮತ್ತು ರಾಸ್ಬೆರ್ರಿ ಪೈ
 
 ಪಾಠದ ಈ ಭಾಗದಲ್ಲಿ, ನೀವು ರಾಸ್ಬೆರ್ರಿ ಪೈ ಅಥವಾ ವರ್ಚುವಲ್ ಐಒಟಿ ಸಾಧನದಿಂದ ಗುರುತಿಸಲಾಗಿದ ಉಷ್ಮಾಂಶ ಮೌಲ್ಯಗಳನ್ನು MQTT ಮೂಲಕ ಪ್ರಕಟಿಸಿ ನಂತರ ಅವುಗಳನ್ನು GDD ಲೆಕ್ಕಾಚಾರಕ್ಕೆ ಬಳಸಬಹುದು.

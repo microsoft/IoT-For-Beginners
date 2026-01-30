@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "a3fdfec1d1e2cb645ea11c2930b51299",
-  "translation_date": "2026-01-07T03:56:55+00:00",
-  "source_file": "5-retail/lessons/2-check-stock-device/single-board-computer-object-detector.md",
-  "language_code": "kn"
-}
--->
 # ನಿಮ್ಮ ಐಒಟಿ ಉಪಕರಣದಿಂದ ನಿಮ್ಮ ವಸ್ತು ಪತ್ತೆಹಚ್ಚುವಿಕೆಯನ್ನು ಕರೆಮಾಡಿ - ವರ್ಚುವಲ್ ಐಒಟಿ ಹಾರ್ಡ್‌ವೇರ್ ಮತ್ತು ರಾಸ್ಪ್ಬೆರೀ ಪೈ
 
 ನಿಮ್ಮ ವಸ್ತು ಪತ್ತೆಹಚ್ಚುವಿಕೆ ಪ್ರಕಟಿಸಲಾಗಿದ ನಂತರ, ಅದನ್ನು ನಿಮ್ಮ ಐಒಟಿ ಉಪಕರಣದಿಂದ ಬಳಸಬಹುದು.

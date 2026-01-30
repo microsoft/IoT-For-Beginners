@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "7f4ad0ef54f248b85b92187c94cf9dcb",
-  "translation_date": "2026-01-07T01:57:25+00:00",
-  "source_file": "1-getting-started/lessons/3-sensors-and-actuators/wio-terminal-sensor.md",
-  "language_code": "te"
-}
--->
 # సెన్సర్‌ను జోడించండి - వీఓ టెర్మినల్
 
 ఈ పాఠంలో, మీరు మీ వీఓ టెర్మినల్‌లోని లైట్ సెన్సర్‌ను ఉపయోగిస్తారు.

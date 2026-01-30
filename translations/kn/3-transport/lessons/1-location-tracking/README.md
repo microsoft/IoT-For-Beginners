@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "52ed2bd997d08040f79a1a6ef2bac958",
-  "translation_date": "2026-01-07T04:49:16+00:00",
-  "source_file": "3-transport/lessons/1-location-tracking/README.md",
-  "language_code": "kn"
-}
--->
 # ಸ್ಥಳ ಟ್ರ್ಯಾಕಿಂಗ್
 
 ![ಈ ಪಾಠದ ಸ್ಕೆಚ್ನೋಟ್ ಅವಲೋಕನ](../../../../../translated_images/kn/lesson-11.9fddbac4b664c6d5.webp)

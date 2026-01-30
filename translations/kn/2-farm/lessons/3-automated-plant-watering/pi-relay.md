@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "66b81165e60f8f169bd52a401b6a0f8b",
-  "translation_date": "2026-01-07T05:21:58+00:00",
-  "source_file": "2-farm/lessons/3-automated-plant-watering/pi-relay.md",
-  "language_code": "kn"
-}
--->
 # ರಿಲೇ ನಿಯಂತ್ರಣ - ರಾಸ್ಪ್‌ಬೆರಿ ಪೈ
 
 ಪಾಠದ ಈ ಭಾಗದಲ್ಲಿ, ನೀವು ನಿಮ್ಮ ರಾಸ್ಪ್‌ಬೆರಿ ಪೈಗೆ ಮಣ್ಣು ತೇವಾಂಶ ಸೆನ್ಸರ್ ಜೊತೆಗೆ ಒಂದು ರಿಲೇ ಸೇರಿಸುವಿರಿ ಮತ್ತು ಮಣ್ಣು ತೇವಾಂಶ ಮಟ್ಟದ ಆಧಾರದ ಮೇರೆಗೆ ಅದನ್ನು ನಿಯಂತ್ರಿಸುವಿರಿ.

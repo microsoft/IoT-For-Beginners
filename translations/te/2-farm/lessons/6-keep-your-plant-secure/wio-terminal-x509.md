@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "8a74f789f3c1bf41a13c007190360c19",
-  "translation_date": "2026-01-07T05:31:45+00:00",
-  "source_file": "2-farm/lessons/6-keep-your-plant-secure/wio-terminal-x509.md",
-  "language_code": "te"
-}
--->
 # మీ పరికరం కోడ్‌లో X.509 సర్టిఫికేట్‌ను ఉపయోగించండి - వైయో టెర్మినల్
 
 రాయడం సమయంలో, Azure Arduino SDK X.509 సర్టిఫికేట్‌లను మద్దతు ఇవ్వదు. మీరు X.509 సర్టిఫికేట్‌లతో ప్రయోగం చేయాలనుకుంటే, మీరు [Python SDK ఉపయోగించి వర్చువల్ IoT పరికరం సూచనలు](single-board-computer-x509.md) చూడవచ్చు.

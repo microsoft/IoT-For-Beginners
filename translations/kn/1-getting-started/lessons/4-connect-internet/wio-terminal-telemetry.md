@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "4bcc29fe2b65e56eada83d2476279227",
-  "translation_date": "2026-01-07T02:24:31+00:00",
-  "source_file": "1-getting-started/lessons/4-connect-internet/wio-terminal-telemetry.md",
-  "language_code": "kn"
-}
--->
 # ಇಂಟರ್ನೆಟ್ மூலம் ನಿಮ್ಮ ನೈಟ್ ಲೈಟ್ ನಿಯಂತ್ರಿಸಿ - Wio ಟರ್ಮಿನಲ್
 
 ಪಾಠದ ಈ ಭಾಗದಲ್ಲಿ, ನೀವು ನಿಮ್ಮ Wio ಟರ್ಮಿನಲ್‌ನಿಂದ ಬೆಳಕು ಮಟ್ಟಗಳೊಂದಿಗೆ ಟೆಲಿಮೆಟ್ರಿಯನ್ನು MQTT ಬ್ರೊಕರ್ ಗೆ ಕಳುಹಿಸಲಿದ್ದೀರಿ.

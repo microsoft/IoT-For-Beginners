@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "506d21b544d5de47406c89ad496a21cd",
-  "translation_date": "2026-01-07T05:12:34+00:00",
-  "source_file": "2-farm/lessons/2-detect-soil-moisture/assignment.md",
-  "language_code": "ml"
-}
--->
 # നിങ്ങളുടെ സെൻസർ കലിബ്രേറ്റ് ചെയ്യുക
 
 ## നിർദ്ദേശങ്ങൾ

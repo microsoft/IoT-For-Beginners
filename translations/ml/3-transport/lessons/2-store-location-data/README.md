@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "e345843ccfeb7261d81500d19c64d476",
-  "translation_date": "2026-01-07T04:56:21+00:00",
-  "source_file": "3-transport/lessons/2-store-location-data/README.md",
-  "language_code": "ml"
-}
--->
 # സ്ഥലം വിവരങ്ങൾ സംഭരിക്കുക
 
 ![ഈ പാഠത്തിന്റെ സ്കെച്ച്നോട്ട് അവലോകനം](../../../../../translated_images/ml/lesson-12.ca7f53039712a3ec.webp)

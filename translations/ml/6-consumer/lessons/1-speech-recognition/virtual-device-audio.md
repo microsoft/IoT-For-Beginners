@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "e4f2925acb211765889c3b51b9116ceb",
-  "translation_date": "2026-01-07T03:15:35+00:00",
-  "source_file": "6-consumer/lessons/1-speech-recognition/virtual-device-audio.md",
-  "language_code": "ml"
-}
--->
 # ഓഡിയോ പിടിക്കുക - വർച്ച്വൽ IoT ഡിവൈസ്
 
 ഈ പാഠത്തിൽ പിന്നീട് സ്പീച്ച് ടു ടെക്സ്റ്റ് പരിവർത്തനം ചെയ്യാൻ നിങ്ങൾ ഉപയോഗിക്കുന്ന Python ലൈബ്രറികൾക്ക് Windows, macOS, Linux എന്നിവയിലായി ഇൻബിൽറ്റ് ഓഡിയോ പിടിക്കൽ ഫീച്ചർ ഉണ്ട്. ഇതിൽ നിങ്ങൾക്ക് ഈ ഭാഗത്ത് ഒന്നും ചെയ്യേണ്ടതില്ല.

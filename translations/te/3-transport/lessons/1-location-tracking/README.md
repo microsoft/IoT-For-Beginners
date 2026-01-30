@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "52ed2bd997d08040f79a1a6ef2bac958",
-  "translation_date": "2026-01-07T04:46:59+00:00",
-  "source_file": "3-transport/lessons/1-location-tracking/README.md",
-  "language_code": "te"
-}
--->
 # లొకేషన్ ట్రాకింగ్
 
 ![ఈ పాఠ్యాంశం యొక్క స్కెచ్ నోట్ అవలోకనం](../../../../../translated_images/te/lesson-11.9fddbac4b664c6d5.webp)

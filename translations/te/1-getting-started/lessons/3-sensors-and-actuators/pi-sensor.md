@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "ea733bd0cdf2479e082373f765a08678",
-  "translation_date": "2026-01-07T01:58:47+00:00",
-  "source_file": "1-getting-started/lessons/3-sensors-and-actuators/pi-sensor.md",
-  "language_code": "te"
-}
--->
 # రాత్రి దీపం రూపొందించండి - రాస్బెర్రీ పై
 
 ఈ పాఠం భాగంలో, మీరు మీ రాస్బెర్రీ పైకి లైట్ సెన్సార్‌ను జోడించనున్నారు.

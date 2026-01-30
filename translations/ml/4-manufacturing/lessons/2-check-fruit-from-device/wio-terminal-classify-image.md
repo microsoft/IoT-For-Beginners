@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "32a1f23e7834fbe7715da8c4ebb450b9",
-  "translation_date": "2026-01-07T06:36:32+00:00",
-  "source_file": "4-manufacturing/lessons/2-check-fruit-from-device/wio-terminal-classify-image.md",
-  "language_code": "ml"
-}
--->
 # ഒരു ചിത്രം വർഗീകരിക്കുക - Wio ടെർമിനൽ
 
 പാഠത്തിന്റെ ഈ ഭാഗത്തിൽ, ക്യാമറ പിടിച്ച ചിത്രాన్ని Custom Vision സേവനത്തിലേക്ക് അയച്ച് അത് വർഗീകരിക്കും.

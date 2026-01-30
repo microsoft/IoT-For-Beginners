@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "50abd54997afa7e7a3fc7019379e49e3",
-  "translation_date": "2026-01-07T01:39:24+00:00",
-  "source_file": "images/README.md",
-  "language_code": "te"
-}
--->
 # చిత్రాలు
 
 [icons](../../../images/icons) ఫోల్డర్‌లో ఉన్న చిత్రాలు [Noun Project](https://thenounproject.com) నుండి ఉండి, వాటికి గుర్తింపు అవసరం. ప్రతి చిత్రం కావలసిన గుర్తింపును సూచిస్తుంది. చిత్రం సరిపోయే విధంగా ఉండటానికి ఏ диаг్రామ్ అవసరమైనదైనా ఆ చిత్రాలను ఉపయోగించాలి.

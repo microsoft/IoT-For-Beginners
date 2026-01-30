@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "f8f541ee945545017a51aaf309aa37c3",
-  "translation_date": "2026-01-07T05:23:44+00:00",
-  "source_file": "2-farm/lessons/3-automated-plant-watering/virtual-device-relay.md",
-  "language_code": "kn"
-}
--->
 # ರಿಲೇ ನಿಯಂತ್ರಣ - ವರ್ಚುವಲ್ ಐಒಟಿ ಹಾರ್ಡ್ವೇರ್
 
 ಪಾಠದ ಈ ಭಾಗದಲ್ಲಿ, ನೀವು ಮಣ್ಣಿನ ತೇವಾಂಶ ಸೆನ್ಸಾರ್ ಜೊತೆಗೆ ನಿಮ್ಮ ವರ್ಚುವಲ್ ಐಒಟಿ ಸಾಧನಕ್ಕೆ ರಿಲೇವನ್ನು ಸೇರಿಸಿ, ಮತ್ತು ಮಣ್ಣಿನ ತೇವಾಂಶ ಮಟ್ಟದ ಆಧಾರದ ಮೇಲೆ ಅದನ್ನು ನಿಯಂತ್ರಿಸುವಿರಿ.

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "50151d9f9dce2801348a93880ef16d86",
-  "translation_date": "2026-01-07T07:00:10+00:00",
-  "source_file": "4-manufacturing/lessons/3-run-fruit-detector-edge/single-board-computer.md",
-  "language_code": "te"
-}
--->
 # IoT ఎడ్జ్ ఆధారిత చిత్రం వర్గీకరణ యంత్రం ఉపయోగించి ఒక చిత్రాన్ని వర్గీకరించండి - వర్చువల్ IoT హార్డ్‌వేర్ మరియు రాస్ప్బెర్రీ పై
 
 పాఠశాలంలోని ఈ భాగంలో, మీరు IoT ఎడ్జ్ డివైస్‌పై నడుస్తున్న చిత్రం వర్గీకరణ యంత్రాన్ని ఉపయోగ خواهید.

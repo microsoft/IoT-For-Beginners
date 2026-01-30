@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "50151d9f9dce2801348a93880ef16d86",
-  "translation_date": "2026-01-07T07:00:35+00:00",
-  "source_file": "4-manufacturing/lessons/3-run-fruit-detector-edge/single-board-computer.md",
-  "language_code": "ml"
-}
--->
 # IoT Edge അടിസ്ഥാനമാക്കി ഒരു ഇമേജ് ക്ലാസിഫയർ ഉപയോഗിച്ച് ഒരു ചിത്രം ശ്രേണി തിരിക്കുക - വെർച്ച്വൽ IoT ഹാർഡ്‌വെയർ һәм Raspberry Pi
 
 പാഠത്തിന്റെ ഈ ഭാഗത്തിൽ, നിങ്ങൾ IoT Edge ഉപകരണത്തിൽ പ്രവർത്തിക്കുന്ന ഇമേജ് ക്ലാസിഫയർ ഉപയോഗിക്കും.

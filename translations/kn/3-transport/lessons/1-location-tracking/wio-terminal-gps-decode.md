@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "fbbcf96a9b63ccd661db98bbf854bb06",
-  "translation_date": "2026-01-07T04:46:49+00:00",
-  "source_file": "3-transport/lessons/1-location-tracking/wio-terminal-gps-decode.md",
-  "language_code": "kn"
-}
--->
 # GPS ಡೇಟಾವನ್ನು ಡಿಕೋಡ್ ಮಾಡಿ - ವೈಯೋ ಟರ್ಮಿನಲ್
 
 ಪಾಠದ ಈ ಭಾಗದಲ್ಲಿ, ನೀವು ವೈಯೋ ಟರ್ಮಿನಲ್‌ನಿಂದ GPS ಸೆನ್ಸಾರ್‌ನಿಂದ ವಾಚಿಸಲಾದ NMEA ಸಂದೇಶಗಳನ್ನು ಡಿಕೋಡ್ ಮಾಡಿ, ಅಗಲ ಮತ್ತು ರೇಖಾಂಶವನ್ನು ಹೊರತೆಗೆಯುತ್ತೀರ.

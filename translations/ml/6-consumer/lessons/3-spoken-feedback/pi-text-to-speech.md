@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "606f3af1c78e3741e48ce77c31cea626",
-  "translation_date": "2026-01-07T03:04:52+00:00",
-  "source_file": "6-consumer/lessons/3-spoken-feedback/pi-text-to-speech.md",
-  "language_code": "ml"
-}
--->
 # വാചകത്തിൽ നിന്ന് സംസാരത്തിലേക്ക് - റാസ്ബെറി പൈ
 
 പാഠത്തിന്റെ ഈ ഭാഗത്തിൽ, സംസാര സേവനം ഉപയോഗിച്ച് വാചകത്തിനെ സംസാരത്തിൽ മാറുന്ന കോഡ് നിങ്ങൾ എഴുതും.

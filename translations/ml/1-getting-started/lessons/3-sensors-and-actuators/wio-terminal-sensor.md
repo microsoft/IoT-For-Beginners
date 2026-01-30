@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "7f4ad0ef54f248b85b92187c94cf9dcb",
-  "translation_date": "2026-01-07T01:57:52+00:00",
-  "source_file": "1-getting-started/lessons/3-sensors-and-actuators/wio-terminal-sensor.md",
-  "language_code": "ml"
-}
--->
 # സെൻസർ ചേർക്കുക - Wio ടെർമിനൽ
 
 പാഠഭാഗത്തിന്റെ ഈ ഭാഗത്ത്, നിങ്ങൾ നിങ്ങളുടെ Wio ടെർമിനലിലെ ലൈറ്റ് സെൻസർ ഉപയോഗിക്കും.

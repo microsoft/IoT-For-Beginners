@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "93d352de36526b8990e41dd538100324",
-  "translation_date": "2026-01-07T03:22:37+00:00",
-  "source_file": "6-consumer/lessons/1-speech-recognition/wio-terminal-microphone.md",
-  "language_code": "kn"
-}
--->
 # ನಿಮ್ಮ ಮೈಕ್ರೊಫೋನ್ ಮತ್ತು ಸ್ಪೀಕರ್‌ಗಳನ್ನು ಸಂರಚಿಸಿ - Wio ಟರ್ಮಿನಲ್
 
 ಪಾಠದ ಈ ಭಾಗದಲ್ಲಿ, ನೀವು ನಿಮ್ಮ Wio ಟರ್ಮಿನಲ್‌ಗೆ ಸ್ಪೀಕರ್‌ಗಳನ್ನು ಸೇರಿಸಲಿದ್ದೀರಿ. Wio ಟರ್ಮಿನಲ್ ಈಗಾಗಲೇ ಮೈಕ್ರೊಫೋನ್ ಅಳವಡಿಸಿದ್ದಿದ್ದು, ಇದನ್ನು ಮಾತುಗಳನ್ನು ಸೆರೆಹಿಡಿಯಲು ಬಳಸಬಹುದು.

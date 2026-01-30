@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "078ae664c7b686bf069545e9a5fc95b2",
-  "translation_date": "2026-01-07T04:25:16+00:00",
-  "source_file": "3-transport/lessons/4-geofences/README.md",
-  "language_code": "te"
-}
--->
 # జియోఫెన్సెస్
 
 ![ఈ పాఠం యొక్క స్కెచ్‌నోట్ అవలోకనం](../../../../../translated_images/te/lesson-14.63980c5150ae3c15.webp)

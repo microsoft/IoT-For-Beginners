@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "2bf65f162bcebd35fbcba5fd245afac4",
-  "translation_date": "2026-01-07T05:10:10+00:00",
-  "source_file": "2-farm/lessons/2-detect-soil-moisture/virtual-device-soil-moisture.md",
-  "language_code": "te"
-}
--->
 # మేలు నేల ఆर्द్రతను కొలవండి - వర్చువల్ ఐఓటి హార్డ్వేర్
 
 ఈ పాఠ భాగంలో, మీరు మీ వర్చువల్ ఐఓటి పరికరానికి కెపాసిటివ్ నేల ఆर्द్రతా సెన్సార్‌ను జోడించి, దాని నుండి విలువలను చదివేందుకు నేర్చుకుంటారు.

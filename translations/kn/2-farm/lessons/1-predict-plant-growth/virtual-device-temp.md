@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "70e5a428b607cd5a9a4f422c2a4df03d",
-  "translation_date": "2026-01-07T06:07:18+00:00",
-  "source_file": "2-farm/lessons/1-predict-plant-growth/virtual-device-temp.md",
-  "language_code": "kn"
-}
--->
 # ತಾಪಮಾನವನ್ನು ಅಳೆಯಿರಿ - ವರ್ಚುವಲ್ ಐಒಟಿ ಹಾರ್ಡ್ವೇರ್
 
 ಪಾಠದ ಈ ಭಾಗದಲ್ಲಿ, ನೀವು ನಿಮ್ಮ ವರ್ಚುವಲ್ ಐಒಟಿ ಸಾಧನಕ್ಕೆ ತಾಪಮಾನ ಸೆನ್ಸಾರನ್ನು ಸೇರಿಸುತ್ತೀರಿ.

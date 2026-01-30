@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "288aebb0c59f7be1d2719b8f9660a313",
-  "translation_date": "2026-01-07T07:11:13+00:00",
-  "source_file": "4-manufacturing/lessons/4-trigger-fruit-detector/wio-terminal-proximity.md",
-  "language_code": "te"
-}
--->
 # సమీపాన్ని గుర్తించండి - Wio టెర్మినల్
 
 పాఠం ఈ భాగంలో, మీరు మీ Wio టెర్మినల్‌కు సమీప సెన్సార్‌ను జోడించబోతున్నారు, మరియు దాని నుండి దూరాన్ని చదవబోతున్నారు.

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "5a94fbab1ba737e9bd6cc6c64f114fa0",
-  "translation_date": "2026-01-07T01:01:46+00:00",
-  "source_file": "clean-up.md",
-  "language_code": "te"
-}
--->
 # మీ ప్రాజెక్ట్ ను శుభ్రం చేసుకోండి
 
 ప్రతి ప్రాజెక్ట్ పూర్తి చేసిన తర్వాత, మీ క్లౌడ్ వనరులను డిలీట్ చేయడం మంచిది.

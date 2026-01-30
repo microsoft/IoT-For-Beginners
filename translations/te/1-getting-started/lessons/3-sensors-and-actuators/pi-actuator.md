@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "4db8a3879a53490513571df2f6cf7641",
-  "translation_date": "2026-01-07T02:10:27+00:00",
-  "source_file": "1-getting-started/lessons/3-sensors-and-actuators/pi-actuator.md",
-  "language_code": "te"
-}
--->
 # నైట్‌లైట్ రూపొందించండి - రాస్ప్బెర్రీ పై
 
 పాఠం ఈ భాగంలో, మీరు మీ రాస్ప్బెర్రీ పైకి ఒక LEDని జోడించి, దానిని ఉపయోగించి ఒక నైట్‌లైట్ సృష్టిస్తారు.

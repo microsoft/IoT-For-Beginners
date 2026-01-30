@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "9d4d00a47d5d0f3e6ce42c0d1020064a",
-  "translation_date": "2026-01-07T05:00:34+00:00",
-  "source_file": "2-farm/lessons/2-detect-soil-moisture/pi-soil-moisture.md",
-  "language_code": "te"
-}
--->
 # నేల తేమ కొలవండి - రాస్ప్బెర్రీ పై
 
 పాఠం యొక్క ఈ భాగంలో, మీరు మీ రాస్ప్బెర్రీ పైకి ఒక కాపాసిటివ్ సాయిల్ మాయిచర్ సెన్సర్ ను జత చేస్తారు, మరియు దానినుండి విలువలను చదువుతారు.

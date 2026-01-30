@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "7966848a1f870e4c42edb4db67b13c57",
-  "translation_date": "2026-01-07T03:06:22+00:00",
-  "source_file": "6-consumer/lessons/3-spoken-feedback/virtual-device-text-to-speech.md",
-  "language_code": "ml"
-}
--->
 # ടെക്‌സ്‌റ്റ് ടു സ്പീച്ച് - വെർച്വൽ ഐഒടി ഡിവൈസ്
 
 പാഠത്തിന്റെ ഈ ഭാഗത്തിൽ, സ്പീച്ച് സർവീസ് ഉപയോഗിച്ച് ടെക്‌സ്‌റ്റിനെ സ്പീച്ചിലേക്കു മാറ്റുന്നതിനുള്ള കോഡ് നിങ്ങൾ എഴുതുന്നതാണ്.

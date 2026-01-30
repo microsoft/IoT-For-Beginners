@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "6d6aa1be033625d201a190fc9c5cbfb4",
-  "translation_date": "2026-01-07T03:35:03+00:00",
-  "source_file": "6-consumer/lessons/1-speech-recognition/README.md",
-  "language_code": "ml"
-}
--->
 # ഒരു ഐഒടി ഡിവൈസിലൂടെ ഭാഷ പരിചയപ്പെടുത്തുക
 
 ![ഈ പാഠത്തിന് ഒരു സ്കെച്‌നോട്ട് അവലോകനം](../../../../../translated_images/ml/lesson-21.e34de51354d6606f.webp)

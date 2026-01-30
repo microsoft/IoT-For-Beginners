@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "4fb20273d299dc8d07a8f06c9cd0cdd9",
-  "translation_date": "2026-01-07T05:08:16+00:00",
-  "source_file": "2-farm/lessons/2-detect-soil-moisture/README.md",
-  "language_code": "kn"
-}
--->
 # ಮಣ್ಣಿನ ತೇವಾಂಶವನ್ನು ಪತ್ತೆಮಾಡಿ
 
 ![ಈ ಪಾಠದ ಸ್ಕೆಚ್‌ノಟ್ ಸಮೀಕ್ಷೆ](../../../../../translated_images/kn/lesson-6.3e493b60eee85adc.webp)

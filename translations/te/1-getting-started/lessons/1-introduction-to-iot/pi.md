@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "8ff0d0a1d29832bb896b9c103b69a452",
-  "translation_date": "2026-01-07T02:34:00+00:00",
-  "source_file": "1-getting-started/lessons/1-introduction-to-iot/pi.md",
-  "language_code": "te"
-}
--->
 # Raspberry Pi
 
 [Raspberry Pi](https://raspberrypi.org) ఒక సింగిల్-బోర్డు కంప్యూటర్. మీరు విస్తృతమైన పరికరాలు మరియు ఎకోసిస్టమ్స్ ఉపయోగించి సెన్సార్లు మరియు యాక్చువేటర్లను జోడించవచ్చు, మరియు ఈ పాఠాలు కోసం [Grove](https://www.seeedstudio.com/category/Grove-c-1003.html) అనే హార్డ్‌వేర్ ఎకోసిస్టమ్ ఉపయోగిస్తారు. మీరు మీ Pi ని కోడ్ చేసి Grove సెన్సార్లను Python ఉపయోగించి ప్రాప్తి చేస్తారు.

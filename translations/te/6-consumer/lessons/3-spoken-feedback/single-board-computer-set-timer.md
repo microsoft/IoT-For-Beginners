@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "64ad4ddb4de81a18b7252e968f10b404",
-  "translation_date": "2026-01-07T02:59:39+00:00",
-  "source_file": "6-consumer/lessons/3-spoken-feedback/single-board-computer-set-timer.md",
-  "language_code": "te"
-}
--->
 # టైమర్ సెట్ చేయండి - వర్చువల్ IoT హార్డ్వేర్ మరియు రాస్ప్బెరి పి
 
 ఈ పాఠంలో, మీరు మీ సర్వర్లెస్ కో드를 పిలిచి స్పీచ్ ను అర్థం చేసుకోగలుగుతారు, మరియు ఫలితాల ఆధారంగా మీ వర్చువల్ IoT డివైస్ లేదా రాస్ప్బెరి పి లో టైమర్కు సెటప్ చేయగలుగుతారు.

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "c677667095f6133eee418c7e53615d05",
-  "translation_date": "2026-01-07T06:33:09+00:00",
-  "source_file": "4-manufacturing/lessons/2-check-fruit-from-device/pi-camera.md",
-  "language_code": "te"
-}
--->
 # చిత్రం క్యాప్చర్ చేసుకోండి - రాస్బెర్రీ పై
 
 ఈ బోధనలో, మీరు మీ రాస్బెర్రీ పైకి కెమెరా సెన్సార్‌ను జోడించి, దాని నుండి చిత్రాలను చదువుకోగలుగుతారు.

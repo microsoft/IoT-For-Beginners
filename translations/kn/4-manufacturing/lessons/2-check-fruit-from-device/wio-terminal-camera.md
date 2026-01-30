@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "160be8c0f558687f6686dca64f10f739",
-  "translation_date": "2026-01-07T06:49:05+00:00",
-  "source_file": "4-manufacturing/lessons/2-check-fruit-from-device/wio-terminal-camera.md",
-  "language_code": "kn"
-}
--->
 # ಒಂದು ಚಿತ್ರವನ್ನು ಸೆರೆಹಿಡಿಯಿರಿ - Wio ಟೆರ್ಮಿನಲ್
 
 ಪಾಠದ ಈ ಭಾಗದಲ್ಲಿ, ನೀವು ನಿಮ್ಮ Wio ಟೆರ್ಮಿನಲ್‌ಗೆ ಕ್ಯಾಮೆರಾವನ್ನು ಸೇರಿಸುತ್ತೀರಿ ಮತ್ತು ಅದರಿಂದ ಚಿತ್ರಗಳನ್ನು ಸೆರೆಹಿಡಿಯುತ್ತೀರಿ.

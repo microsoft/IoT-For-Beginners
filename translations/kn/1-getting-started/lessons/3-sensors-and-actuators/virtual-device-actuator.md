@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "9c640f93263fd9adbfda920739e09feb",
-  "translation_date": "2026-01-07T02:09:46+00:00",
-  "source_file": "1-getting-started/lessons/3-sensors-and-actuators/virtual-device-actuator.md",
-  "language_code": "kn"
-}
--->
 # ರಾತ್ರಿರಭ್ಯ ಬೆಳಕು ನಿರ್ಮಿಸಿ - ವರ್ಚುವಲ್ IoT ಹಾರ್ಡ್‌ವೇರ್
 
 ಪಾಠದ ಈ ಭಾಗದಲ್ಲಿ, ನೀವು ನಿಮ್ಮ ವರ್ಚುವಲ್ IoT ಸಾಧನಕ್ಕೆ ಒಂದು LED ಅನ್ನು ಸೇರಿಸಿ ಅದನ್ನು ರಾತ್ರಿರಭ್ಯ ಬೆಳಕಾಗಿ ಬಳಸಲಿವೆ.

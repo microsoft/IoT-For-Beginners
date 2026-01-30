@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "8a74f789f3c1bf41a13c007190360c19",
-  "translation_date": "2026-01-07T05:31:56+00:00",
-  "source_file": "2-farm/lessons/6-keep-your-plant-secure/wio-terminal-x509.md",
-  "language_code": "ml"
-}
--->
 # നിങ്ങളുടെ ഡിവൈസ് കോഡിൽ X.509 സർട്ടിഫിക്കറ്റ് ഉപയോഗിക്കുക - Wio ടെർമിനൽ
 
 എഴുതുമ്പോൾ, Azure Arduino SDK X.509 സർട്ടിഫിക്കറ്റുകളെ പിന്തുണയ്ക്കുന്നത് ഇല്ല. X.509 സർട്ടിഫിക്കറ്റുകളുമായി പരീക്ഷണം നടത്താൻ നിങ്ങൾ ആഗ്രഹിക്കുന്നുവെങ്കിൽ, നിങ്ങൾക്ക് [Python SDK ഉപയോഗിക്കുന്ന വൈര്ച്വൽ IoT ഡിവൈസ് നിർദ്ദേശങ്ങൾ](single-board-computer-x509.md) പരിശോധിക്കാം.

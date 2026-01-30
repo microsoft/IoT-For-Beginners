@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "ea733bd0cdf2479e082373f765a08678",
-  "translation_date": "2026-01-07T01:59:18+00:00",
-  "source_file": "1-getting-started/lessons/3-sensors-and-actuators/pi-sensor.md",
-  "language_code": "ml"
-}
--->
 # ഒരു നൈറ്റ്‌ലൈറ്റ് നിർമ്മിക്കുക - റാസ്പ്ബെറി പൈ
 
 പാഠത്തിന്റെ ഈ ഭാഗത്തിൽ, നിങ്ങൾ റാസ്പ്ബെറി പൈയോട് ഒരു ലൈറ്റ് സെൻസർ ചേർക്കും.

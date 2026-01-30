@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "c527ce85d69b1a3875366ec61cbed8aa",
-  "translation_date": "2026-01-07T02:26:55+00:00",
-  "source_file": "1-getting-started/lessons/4-connect-internet/single-board-computer-commands.md",
-  "language_code": "ml"
-}
--->
 # ഇന്റർനെറ്റ üzerinden നൈറ്റ്‌ലൈറ്റ് നിയന്ത്രിക്കുക - വാചക IoT ഹാർഡ്‌വെയർ மற்றும் റാസ്ബെറി പൈ
 
 പാഠത്തിന്റെ ഈ ഭാഗത്തിൽ, നിങ്ങൾ MQTT ബ്രോക്കറിൽ നിന്നുള്ള കമാൻഡുകൾ നിങ്ങളുടെ റാസ്ബെറി പൈയിലേക്കോ വാചക IoT ഉപകരണം വഴിയോ ലഭിക്കുന്നതിന് സബ്സ്ക്രൈബ് ചെയ്യും.

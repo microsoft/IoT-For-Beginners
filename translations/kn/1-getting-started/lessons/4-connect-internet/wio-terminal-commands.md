@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "6754c915dae64ba70fcd5e52c37f3adf",
-  "translation_date": "2026-01-07T02:25:59+00:00",
-  "source_file": "1-getting-started/lessons/4-connect-internet/wio-terminal-commands.md",
-  "language_code": "kn"
-}
--->
 # ನಿಮ್ಮ ನೈಟ್‌ಲೈಟ್ ಅನ್ನು ಇಂಟರ್ನೆಟ್‌ ಮೂಲಕ ನಿಯಂತ್ರಿಸಿ - ವಿಯೋ ಟರ್ಮಿನಲ್
 
 ಈ ಪಾಠದ ಭಾಗದಲ್ಲಿ, ನೀವು MQTT ಬ್ರೋಕರ್‌ನಿಂದ ನಿಮ್ಮ ವಿಯೋ ಟರ್ಮಿನಲ್‌ಗೆ ಕಳುಹಿಸಿರುವ ಆದೇಶಗಳಿಗೆ ಚಂದಾ ಹೊಂದಿಸುತ್ತೀರಿ.

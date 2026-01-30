@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "606f3af1c78e3741e48ce77c31cea626",
-  "translation_date": "2026-01-07T03:05:26+00:00",
-  "source_file": "6-consumer/lessons/3-spoken-feedback/pi-text-to-speech.md",
-  "language_code": "kn"
-}
--->
 # ಪಠ್ಯವನ್ನು ಮಾತಾಗಿ ಪರಿವರ್ತನೆ ಮಾಡುವುದು - ರಾಸ್ಪ್ಬೆರಿ ಪೈ
 
 ಈ ಪಾಠದ ಭಾಗದಲ್ಲಿ, ನೀವು ಪಠ್ಯವನ್ನು ಮಾತಾಗಿ ಪರಿವರ್ತಿಸಲು ಸ್ಮೃತಿ ಸೇವೆಯನ್ನು ಬಳಸಿ ಕೋಡ್ ಬರೆಯುತ್ತೀರಿ.

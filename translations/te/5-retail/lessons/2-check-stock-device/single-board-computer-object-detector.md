@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "a3fdfec1d1e2cb645ea11c2930b51299",
-  "translation_date": "2026-01-07T03:55:44+00:00",
-  "source_file": "5-retail/lessons/2-check-stock-device/single-board-computer-object-detector.md",
-  "language_code": "te"
-}
--->
 # మీ IoT పరికరంలో నుంచి మీ ఆబ్జెక్ట్ డిటెక్టర్‌ను పిలవండి - వర్చువల్ IoT హార్డ్వేర్ మరియు రాస్ప్బెర్రీ పై
 
 మీ ఆబ్జెక్ట్ డిటెక్టర్ ప్రచురించబడిన తర్వాత, అది మీ IoT పరికరంలో నుండూ ఉపయోగించవచ్చు.

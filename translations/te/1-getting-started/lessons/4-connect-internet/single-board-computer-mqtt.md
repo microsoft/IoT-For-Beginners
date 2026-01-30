@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "90fb93446e03c38f3c0e4009c2471906",
-  "translation_date": "2026-01-07T02:21:44+00:00",
-  "source_file": "1-getting-started/lessons/4-connect-internet/single-board-computer-mqtt.md",
-  "language_code": "te"
-}
--->
 # ఇంటర్నెట్ ద్వారా మీ నైట్‌లైట్‌ని నియంత్రించండి - వర్చువల్ ఐఒటి హార్డ్‌వేర్ మరియు రాస్ప్బెర్రీ పై
 
 ఐఒటి డివైస్‌ను *test.mosquitto.org* తో MQTT ఉపయోగించి టెలిమెట్రీ విలువలను పంపడానికి, లైట్ సెన్సార్ రీడింగ్‌తో కమ్యూనికేట్ చేయడానికి, మరియు LED ను నియంత్రించడానికి కమాండ్లు స్వీకరించడానికి కోడ్ చేయాలి.

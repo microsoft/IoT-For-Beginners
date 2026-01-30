@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "cd89329575372232e59605f7a08ae0df",
-  "translation_date": "2026-01-07T01:03:10+00:00",
-  "source_file": "SUPPORT.md",
-  "language_code": "kn"
-}
--->
 # ಬೆಂಬಲ
 
 ## ಸಮಸ್ಯೆಗಳನ್ನು файл ಮಾಡುವ ವಿಧಾನ ಮತ್ತು ಸಹಾಯ ಪಡೆಯುವುದು  

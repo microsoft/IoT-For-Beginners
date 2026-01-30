@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "b73fe10ec6b580fba2affb6f6e0a5c4d",
-  "translation_date": "2026-01-07T03:01:30+00:00",
-  "source_file": "6-consumer/lessons/3-spoken-feedback/README.md",
-  "language_code": "te"
-}
--->
 # టైమర్‌ను సెట్ చేయండి మరియు మాట్లాడే స్పందన ఇవ్వండి
 
 ![ఈ పాఠం గురించి స్కెచ్ నోటు సమీక్ష](../../../../../translated_images/te/lesson-23.f38483e1d4df4828.webp)

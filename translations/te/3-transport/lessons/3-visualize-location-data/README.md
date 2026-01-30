@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "9095c61445c2bca7245ef9b59a186a11",
-  "translation_date": "2026-01-07T04:51:05+00:00",
-  "source_file": "3-transport/lessons/3-visualize-location-data/README.md",
-  "language_code": "te"
-}
--->
 # స్థాన డేటా చూపించండి
 
 ![ఈ పాఠం యొక్క సొంత చిత్రా గమనిక](../../../../../translated_images/te/lesson-13.a259db1485021be7.webp)

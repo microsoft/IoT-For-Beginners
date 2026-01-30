@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "2a459ea9177fb0508ca96068ae1009d2",
-  "translation_date": "2026-01-07T01:34:53+00:00",
-  "source_file": "quiz-app/README.md",
-  "language_code": "te"
-}
--->
 # ప్రశ్నోత్తరాలు
 
 ఈ ప్రశ్నోత్తరాలు https://aka.ms/iot-beginners వద్ద ఉన్న IoT ఫర్ బిగినర్స్ పాఠ్యాంశానికి సంబంధించిన ప్రీ- మరియు పోస్ట్-లెక్చర్ ప్రశ్నోత్తరాలు.

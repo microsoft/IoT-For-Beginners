@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "606f3af1c78e3741e48ce77c31cea626",
-  "translation_date": "2026-01-07T03:04:15+00:00",
-  "source_file": "6-consumer/lessons/3-spoken-feedback/pi-text-to-speech.md",
-  "language_code": "te"
-}
--->
 # టెక్స్ట్ టు స్పీచ్ - రాస్ప్బెర్రి పై
 
 పాఠం యొక్క ఈ భాగంలో, మీరు స్పీచ్ సర్వీస్ ఉపయోగించి టెక్స్ట్‌ను స్పీచ్‌గా మార్చడానికి కోడ్ వ్రాయబడుతుంది.

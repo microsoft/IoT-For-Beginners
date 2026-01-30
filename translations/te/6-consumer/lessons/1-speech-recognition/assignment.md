@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "5ae7654f519ae831179409dc8e528055",
-  "translation_date": "2026-01-07T03:37:14+00:00",
-  "source_file": "6-consumer/lessons/1-speech-recognition/assignment.md",
-  "language_code": "te"
-}
--->
 #
 
 ## సూచనలు

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "4506d33bbda7acc0ab20980172687090",
-  "translation_date": "2026-01-07T01:32:28+00:00",
-  "source_file": "attributions.md",
-  "language_code": "kn"
-}
--->
 # ಚಿತ್ರಕ್ಕಿತ್ತನೆಗಳು
 
 * ಬಾಳೆಹಣ್ಣುಗಳು abderraouf omaraರಿಂದ [Noun Project](https://thenounproject.com)

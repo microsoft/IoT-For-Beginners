@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "f3c5d8afa2ef6a0b425ef8ff20615cb4",
-  "translation_date": "2026-01-07T05:24:22+00:00",
-  "source_file": "2-farm/lessons/3-automated-plant-watering/wio-terminal-relay.md",
-  "language_code": "te"
-}
--->
 # రీలే ను నియంత్రించండి - Wio టెర్మినల్
 
 పాఠం ఈ భాగంలో, మీరు మీ Wio టెర్మినల్ కు ఒక రీలే ను చాటు నీటిని మోతాదును ఆధారపడి నియంత్రించడం కోసం నేర్చుకుంటారు, నేల తేమ సెన్సార్ తో పాటు.

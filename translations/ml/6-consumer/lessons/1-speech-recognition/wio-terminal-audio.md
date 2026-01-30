@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "2f336726b9410e97c3aaed76cc89b0d8",
-  "translation_date": "2026-01-07T03:27:37+00:00",
-  "source_file": "6-consumer/lessons/1-speech-recognition/wio-terminal-audio.md",
-  "language_code": "ml"
-}
--->
 # ഓഡിയോ കപ്ചർ ചെയ്യുക - Wio ടെർമിനൽ
 
 പാഠത്തിന്റെ ഈ ഭാഗത്തിൽ, നിങ്ങളുടെ Wio ടെർമിനലിൽ ഓഡിയോ കപ്ചർ ചെയ്യാൻ കോഡ് എഴുതും. ഓഡിയോ കപ്ചർ Wio ടെർമിനലിന്റെ മുകളിൽ ഉള്ള ബട്ടണുകളിൽ ഒന്ന് കൊണ്ട് നിയന്ത്രിക്കും.

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "9aea84bcc7520222b0e1c50469d62d6a",
-  "translation_date": "2026-01-07T05:32:24+00:00",
-  "source_file": "2-farm/lessons/6-keep-your-plant-secure/single-board-computer-x509.md",
-  "language_code": "te"
-}
--->
 # మీ పరికరం కోడ్‌లో X.509 సర్టిఫికేట్ ఉపయోగించండి - వర్చువల్ IoT హార్డ్‌వేర్ మరియు రాస్ప్బెరి పై
 
 ఈ పాఠంలో, మీరు మీ వర్చువల్ IoT పరికరాన్ని లేదా రాస్ప్బెరి పైని X.509 సర్టిఫికేట్ ఉపయోగించి మీ IoT హబ్ కు కనెక్ట్ చేస్తారు.

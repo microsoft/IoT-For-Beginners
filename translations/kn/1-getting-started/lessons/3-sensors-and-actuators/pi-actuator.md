@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "4db8a3879a53490513571df2f6cf7641",
-  "translation_date": "2026-01-07T02:11:56+00:00",
-  "source_file": "1-getting-started/lessons/3-sensors-and-actuators/pi-actuator.md",
-  "language_code": "kn"
-}
--->
 # ಒಂದು ನೈಟ್‌ಲೈನ್‌ಟ್ ನಿರ್ಮಿಸಿ - ರಾಸ್ಪ್ಬೆರ್ರಿ ಪೈ
 
 ಈ ಪಾಠದ ಭಾಗದಲ್ಲಿ, ನೀವು您的 ರಾಸ್ಪ್ಬೆರ್ರಿ ಪೈಗೆ ಒಂದು LED ಅನ್ನು ಸೇರಿಸಿ ಅದನ್ನು ನೈಟ್‌ಲೈನ್‌ಟ್ ರಚಿಸಲು ಬಳಸುತ್ತೀರಿ.

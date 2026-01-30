@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "50abd54997afa7e7a3fc7019379e49e3",
-  "translation_date": "2026-01-07T01:39:52+00:00",
-  "source_file": "images/README.md",
-  "language_code": "kn"
-}
--->
 # ಚಿತ್ರಗಳು
 
 [icons](../../../images/icons) ಫೋಲ್ಡರ್‌ನಲ್ಲಿರುವ ಚಿತ್ರಗಳು [Noun Project](https://thenounproject.com) ನಿಂದ ಇವೆ ಮತ್ತು ಅವುಗಳಿಗಾಗಿ ಸ್ವೀಕಾರ ಸೂಚನೆ ಅಗತ್ಯವಿದೆ. ಪ್ರತಿ ಚಿತ್ರವು ಅಗತ್ಯವಿರುವ ಸ್ವೀಕಾರ ಸೂಚನೆಯನ್ನು ಸೂಚಿಸುತ್ತದೆ. ದೃಶ್ಯವನ್ನು ಸಮಾನವಾಗಿ ಇರಿಸಲು ಯಾವುದೇ ನೋಂದಿಗೆ ಆ ಚಿತ್ರಗಳನ್ನು ಬಳಸಬೇಕು.

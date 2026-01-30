@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "7e45d884493c5222348b43fbc4481b6a",
-  "translation_date": "2026-01-07T03:14:51+00:00",
-  "source_file": "6-consumer/lessons/1-speech-recognition/pi-microphone.md",
-  "language_code": "kn"
-}
--->
 # ನಿಮ್ಮ ಮೈಕ್ರೊಫೋನ್ ಮತ್ತು ಸ್ಪೀಕರ್ನನ್ನು ಸಂರಚಿಸಿ - ರಾಸ್ಪ್ಬೆರ್ರಿ ಪೈ
 
 ಪಾಠದ ಈ ಭಾಗದಲ್ಲಿ, ನೀವು ನಿಮ್ಮ ರಾಸ್ಪ್ಬೆರ್ರಿ ಪೈಗೆ ಮೈಕ್ರೊಫೋನ್ ಮತ್ತು ಸ್ಪೀಕರ್ನವನ್ನು ಸೇರಿಸುವಿರಿ.

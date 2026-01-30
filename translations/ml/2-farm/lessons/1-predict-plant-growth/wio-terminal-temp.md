@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "59263d094f20b302053888cd236880c3",
-  "translation_date": "2026-01-07T06:09:04+00:00",
-  "source_file": "2-farm/lessons/1-predict-plant-growth/wio-terminal-temp.md",
-  "language_code": "ml"
-}
--->
 # താപനില അളക്കുക - Wio ടെർമിനൽ
 
 പാഠത്തിന്റെ ഈ ഭാഗത്തിൽ, നിങ്ങൾ നിങ്ങളുടെ Wio ടെർമിനലിൽ ഒരു താപനില സെൻസർ ചേർത്ത് അതിൽ നിന്നുള്ള താപനില മൂല്യങ്ങൾ വായിക്കും.

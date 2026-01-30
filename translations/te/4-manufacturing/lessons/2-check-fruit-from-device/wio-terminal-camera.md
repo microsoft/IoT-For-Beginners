@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "160be8c0f558687f6686dca64f10f739",
-  "translation_date": "2026-01-07T06:45:31+00:00",
-  "source_file": "4-manufacturing/lessons/2-check-fruit-from-device/wio-terminal-camera.md",
-  "language_code": "te"
-}
--->
 # చిత్రం తీసుకోండి - Wio Terminal
 
 ఈ పాఠం భాగంలో, మీరు మీ Wio Terminalకి కెమెరాను జోడించి, దానితో నుండి చిత్రాలను గ్రహిస్తారు.

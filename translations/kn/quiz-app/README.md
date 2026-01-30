@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "2a459ea9177fb0508ca96068ae1009d2",
-  "translation_date": "2026-01-07T01:36:05+00:00",
-  "source_file": "quiz-app/README.md",
-  "language_code": "kn"
-}
--->
 # ಪ್ರಶ್ನೋತ್ತರಗಳು
 
 ಈ ಪ್ರಶ್ನೋತ್ತರಗಳು https://aka.ms/iot-beginners ನಲ್ಲಿ IoT for Beginners ಪಾಠಕ್ರಮದ ಮೊದಲು ಮತ್ತು ನಂತರದ ಪ್ರಶ್ನೋತ್ತರಗಳಾಗಿವೆ

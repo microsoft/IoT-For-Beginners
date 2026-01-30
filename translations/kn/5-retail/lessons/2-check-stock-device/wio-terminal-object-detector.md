@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "4cf1421420a6fab9ab4f2c391bd523b7",
-  "translation_date": "2026-01-07T03:58:32+00:00",
-  "source_file": "5-retail/lessons/2-check-stock-device/wio-terminal-object-detector.md",
-  "language_code": "kn"
-}
--->
 # ನಿಮ್ಮ ಐಒಟಿ ಸಾಧನದಿಂದ ನಿಮ್ಮ ವಸ್ತು ಪತ್ತೆಹಚ್ಚುವಿಕೆಯನ್ನು ಕರೆಮಾಡಿ - ವಿಯೋ ಟರ್ಮಿನಲ್
 
 ನೀವು ನಿಮ್ಮ ವಸ್ತು ಪತ್ತೆಹಚ್ಚುವಿಕೆಯನ್ನು ಪ್ರಕಟಿಸಿದ ನಂತರ, ಅದನ್ನು ನಿಮ್ಮ ಐಒಟಿ ಸಾಧನದಿಂದ ಬಳಸಬಹುದು.

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "9c640f93263fd9adbfda920739e09feb",
-  "translation_date": "2026-01-07T02:08:38+00:00",
-  "source_file": "1-getting-started/lessons/3-sensors-and-actuators/virtual-device-actuator.md",
-  "language_code": "te"
-}
--->
 # రాత్రి లైట్ తయారు చేయండి - వర్చువల్ IoT హార్డ్‌వేర్
 
 ఈ భాగంలో, మీరు మీ వర్చువల్ IoT డివైస్‌కు ఒక LED ని జోడించి దానిని రాత్రి లైట్‌గా ఉపయోగిస్తారు.

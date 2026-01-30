@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "e9ee00eb5fc55922a73762acc542166b",
-  "translation_date": "2026-01-07T02:12:18+00:00",
-  "source_file": "1-getting-started/lessons/3-sensors-and-actuators/README.md",
-  "language_code": "te"
-}
--->
 # సెన్సార్లు మరియు యాక్చ్యువేటర్లతో భౌతిక ప్రపంచంతో చర్యలు తీసుకోండి
 
 ![ఈ పాఠం యొక్క స్కెచ్‌నోట్ అవలోకనం](../../../../../translated_images/te/lesson-3.cc3b7b4cd646de59.webp)

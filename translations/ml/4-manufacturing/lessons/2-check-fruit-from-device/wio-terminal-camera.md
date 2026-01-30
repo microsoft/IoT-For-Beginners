@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "160be8c0f558687f6686dca64f10f739",
-  "translation_date": "2026-01-07T06:47:13+00:00",
-  "source_file": "4-manufacturing/lessons/2-check-fruit-from-device/wio-terminal-camera.md",
-  "language_code": "ml"
-}
--->
 # ഒരു ചിത്രം പിടിക്കുക - Wio ടെർമിനൽ
 
 പാഠത്തിന്റെ ഈ ഭാഗത്തിൽ, നിങ്ങൾ നിങ്ങളുടെ Wio ടെർമിനലിലേക്ക് ഒരു ക്യാമറ ചേർത്ത്, അതിൽ നിന്നു ചിത്രങ്ങൾ പകർന്നു പിടിക്കും.

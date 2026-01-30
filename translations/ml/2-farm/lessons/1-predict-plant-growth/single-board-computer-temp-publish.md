@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "4efc74299e19f5d08f2f3f34451a11ba",
-  "translation_date": "2026-01-07T06:11:14+00:00",
-  "source_file": "2-farm/lessons/1-predict-plant-growth/single-board-computer-temp-publish.md",
-  "language_code": "ml"
-}
--->
 # താപനില പ്രസിദ്ധീകരിക്കുക - വെർച്വൽ ഐഒടി ഹാർഡ്വെയർ සහ റാസ്പ്ബെരി പൈ
 
 പാഠത്തിന്റെ ഈ ഭാഗത്തിൽ, റാസ്പ്ബെരി പൈ അല്ലെങ്കിൽ വെർച്വൽ ഐഒടി ഉപകരണമാണ് കണ്ടെത്തിയ താപനില മൂല്യങ്ങൾ MQTT വഴിയിൽ പ്രസിദ്ധീകരിച്ച് പിന്നീട് GDD കണക്കാക്കാൻ ഉപയോഗിക്കാം.

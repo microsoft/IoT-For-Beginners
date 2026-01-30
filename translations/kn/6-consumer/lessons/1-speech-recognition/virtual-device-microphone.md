@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "7a65ee743f916276a2848b8a9491feb7",
-  "translation_date": "2026-01-07T03:16:29+00:00",
-  "source_file": "6-consumer/lessons/1-speech-recognition/virtual-device-microphone.md",
-  "language_code": "kn"
-}
--->
 # ನಿಮ್ಮ ಮೈಕ್ರೊಫೋನ್ ಮತ್ತು ಸ್ಪೀಕರ್‌ಗಳನ್ನು ಸಂರಚಿಸಿ - ವರ್ಚುಯಲ್ IoT ಹಾರ್ಡ್‌ವೇರ್
 
 ವರ್ಚುಯಲ್ IoT ಹಾರ್ಡ್‌ವೇರ್ ನಿಮ್ಮ ಕಂಪ್ಯೂಟರ್‌ಗೆ ಸಂಪರ್ಕಿಸಿರುವ ಮೈಕ್ರೊಫೋನ್ ಮತ್ತು ಸ್ಪೀಕರ್‌ಗಳನ್ನು ಬಳಸುತ್ತದೆ.

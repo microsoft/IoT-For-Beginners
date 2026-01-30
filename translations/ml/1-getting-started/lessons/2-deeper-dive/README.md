@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "9dd7f645ad1c6f20b72fee512987f772",
-  "translation_date": "2026-01-07T01:52:30+00:00",
-  "source_file": "1-getting-started/lessons/2-deeper-dive/README.md",
-  "language_code": "ml"
-}
--->
 # IoT-യിൽ കൂടുതൽ ആഴത്തിൽ കുത്തിവെപ്പ്
 
 ![ഈ പാഠത്തിന്റെ സ്കെച്ച്നോട്ട് അവലോകനം](../../../../../translated_images/ml/lesson-2.324b0580d620c25e.webp)

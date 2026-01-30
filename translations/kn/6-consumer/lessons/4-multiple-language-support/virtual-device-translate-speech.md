@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "d620a470d9dd8614d99824832978360a",
-  "translation_date": "2026-01-07T03:45:07+00:00",
-  "source_file": "6-consumer/lessons/4-multiple-language-support/virtual-device-translate-speech.md",
-  "language_code": "kn"
-}
--->
 # ಭಾಷಾಂತರಿಸಿ ಮಾತನಾಡಿ - ವರ್ಚುವಲ್ ಐಒಟಿ ಸಾಧನ
 
 ಪಾಠದ ಈ ಭಾಗದಲ್ಲಿ, ನೀವು ಭಾಷಾಂತರ ಸೇವೆಯನ್ನು ಬಳಸುವುದರ ಮೂಲಕ ಭಾಷಾಂತರಿಸುವಾಗ ಮಾತನ್ನು ಪಠ್ಯಕ್ಕೆ ಪರಿವರ್ತಿಸುವ ಕೋಡ್ ಬರೆಯುತ್ತೀರಿ, ನಂತರ ಪಠ್ಯವನ್ನು ಅನುವಾದಕ ಸೇವೆ ಬಳಸಿಕೊಂಡು ಭಾಷಾಂತರಿಸಿ ಮಾತೃಭಾಷೆಯ ಉತ್ತರ ರಚಿಸುವಿರಿ.

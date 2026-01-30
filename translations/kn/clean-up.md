@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "5a94fbab1ba737e9bd6cc6c64f114fa0",
-  "translation_date": "2026-01-07T01:02:28+00:00",
-  "source_file": "clean-up.md",
-  "language_code": "kn"
-}
--->
 # ನಿಮ್ಮ ಯೋಜನೆಯನ್ನು ಶುದ್ದಿ ಮಾಡಿಕೊಳ್ಳಿ
 
 ಪ್ರತಿ ಯೋಜನೆಯನ್ನು ಪೂರ್ಣಗೊಳಿಸಿದ ನಂತರ, ನಿಮ್ಮ ಕ್ಲೌಡ್ ಸಂಪನ್ಮೂಲಗಳನ್ನು ಅಳಿಸುವುದು ಒಳ್ಳೆಯದು.

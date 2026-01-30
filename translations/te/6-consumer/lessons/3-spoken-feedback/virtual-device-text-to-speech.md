@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "7966848a1f870e4c42edb4db67b13c57",
-  "translation_date": "2026-01-07T03:05:56+00:00",
-  "source_file": "6-consumer/lessons/3-spoken-feedback/virtual-device-text-to-speech.md",
-  "language_code": "te"
-}
--->
 # టెక్స్ట్ టు స్పీచ్ - వర్చువల్ ఐఓటీ పరికరం
 
 పాఠంలోని ఈ భాగంలో, మీరు టెక్స్ట్ను స్పీచ్‌గా మార్చేందుకు స్పీచ్ సర్వీస్‌ను ఉపయోగించి కోడ్ రాయవచ్చు.

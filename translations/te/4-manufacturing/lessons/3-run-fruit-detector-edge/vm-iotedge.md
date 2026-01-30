@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "24dc783a600e20251211987b36370e93",
-  "translation_date": "2026-01-07T06:57:03+00:00",
-  "source_file": "4-manufacturing/lessons/3-run-fruit-detector-edge/vm-iotedge.md",
-  "language_code": "te"
-}
--->
 # IoT ఎడ్జ్ నడిపించు వర్చువల్ మెషీన్ సృష్టించండి
 
 ఆజూర్‌లో, మీరు ఒక వర్చువల్ మెషీన్‌ను సృష్టించవచ్చు - మీరు మీకు ఇష్టమైన రీతిలో కాన్ఫిగర్ చేసి, దానిపై మీ స్వంత సాఫ్ట్‌వేర్‌ని నడపగల క్లోడ్‌లో కంప్యూటర్.

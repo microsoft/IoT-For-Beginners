@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "bded364fc06ce37d7a76aed3be1ba73a",
-  "translation_date": "2026-01-07T04:50:43+00:00",
-  "source_file": "3-transport/lessons/1-location-tracking/assignment.md",
-  "language_code": "ml"
-}
--->
 # മറ്റു GPS ഡാറ്റ അന്വേഷണ ചെയ്തുക
 
 ## നിർദ്ദേശങ്ങൾ

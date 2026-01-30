@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "59263d094f20b302053888cd236880c3",
-  "translation_date": "2026-01-07T06:09:59+00:00",
-  "source_file": "2-farm/lessons/1-predict-plant-growth/wio-terminal-temp.md",
-  "language_code": "kn"
-}
--->
 # ಉಷ್ಣಾಂಶವನ್ನು ಮಾಪಿಸಿ - Wio ಟರ್ಮಿನಲ್
 
 ಪಾಠದ ಈ ಭಾಗದಲ್ಲಿ, ನೀವು ನಿಮ್ಮ Wio ಟರ್ಮಿನಲ್ ಗೆ ಉಷ್ಣಾಂಶ ಸೆನ್ಸರ್ ಅನ್ನು ಸೇರಿಸಿ, ಅದರಿಂದ ಉಷ್ಣಾಂಶ ಮೌಲ್ಯಗಳನ್ನು ಓದಲು ಸಾಧ್ಯವಾಗುತ್ತದೆ.

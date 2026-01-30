@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "71b5040e0b3472f1c0949c9b55f224c0",
-  "translation_date": "2026-01-07T02:29:33+00:00",
-  "source_file": "1-getting-started/lessons/4-connect-internet/README.md",
-  "language_code": "ml"
-}
--->
 # നിങ്ങളുടെ ഉപകരണം ഇന്റർനെട്ടുമായി ബന്ധിപ്പിക്കുക
 
 ![ഈ പാഠത്തിന്റെ ഒരു സ്കെച്ചുകൾ അവലോകനം](../../../../../translated_images/ml/lesson-4.7344e074ea68fa54.webp)

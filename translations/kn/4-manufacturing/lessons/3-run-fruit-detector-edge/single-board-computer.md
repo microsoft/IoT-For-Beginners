@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "50151d9f9dce2801348a93880ef16d86",
-  "translation_date": "2026-01-07T07:01:00+00:00",
-  "source_file": "4-manufacturing/lessons/3-run-fruit-detector-edge/single-board-computer.md",
-  "language_code": "kn"
-}
--->
 # IoT ಎಡ್ಜ್ ಆಧಾರಿತ ಚಿತ್ರ ವರ್ಗೀಕರಣವನ್ನು ಬಳಸಿಕೊಂಡು ಚಿತ್ರವನ್ನು ವರ್ಗೀಕರಿಸಿ - ವರ್ಚುವಲ್ IoT ಹಾರ್ಡ್‌ವೇರ್ ಮತ್ತು ರಾಸ್ಪ್ಬೆರ್ರಿ ಪೈ
 
 ಪಾಠದ ಈ ಭಾಗದಲ್ಲಿ, ನೀವು IoT ಎಡ್ಜ್ ಸಾಧನದಲ್ಲಿ ನಡतಿರುವ ಚಿತ್ರ ವರ್ಗೀಕರಣವನ್ನು ಬಳಸಲಿದ್ದೀರಿ.

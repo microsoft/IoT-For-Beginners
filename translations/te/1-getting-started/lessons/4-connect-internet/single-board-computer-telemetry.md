@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "1226517aae5f5b6f904434670394c688",
-  "translation_date": "2026-01-07T02:20:21+00:00",
-  "source_file": "1-getting-started/lessons/4-connect-internet/single-board-computer-telemetry.md",
-  "language_code": "te"
-}
--->
 # మీ నైట్‌లైట్‌ను ఇంటర్నెట్ ద్వారా నియంత్రించండి - వర్చువల్ IoT హార్డ్‌వేర్ మరియు రెస్ప్బెర్రీ పై
 
 ఈ పాఠంలో, మీరు మీ రెస్ప్బెర్రీ పై లేదా వర్చువల్ IoT పరికరం నుండి లైట్ స్థాయిల telemetryని MQTT బ్రోకర్‌కు పంపిస్తారు.

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "7a65ee743f916276a2848b8a9491feb7",
-  "translation_date": "2026-01-07T03:16:15+00:00",
-  "source_file": "6-consumer/lessons/1-speech-recognition/virtual-device-microphone.md",
-  "language_code": "ml"
-}
--->
 # നിങ്ങളുടെ മൈക്രോഫോൺ ആൻഡ് സ്പീക്കറുകൾ ക്രമീകരിക്കുക - વર્ચ્યુઅൽ IoT ഹാർഡ്‌വെയർ
 
 വർച്യൽ IoT ഹാർഡ്‌വെയർ നിങ്ങളുടെ കമ്പ്യൂട്ടറിനോട് ചേർത്ത മൈക്രോഫോൺ ആൻഡ് സ്പീക്കറുകൾ ഉപയോഗിക്കും.

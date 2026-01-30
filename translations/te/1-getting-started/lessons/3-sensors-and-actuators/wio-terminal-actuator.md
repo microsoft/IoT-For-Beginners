@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "db44083b4dc6fb06eac83c4f16448940",
-  "translation_date": "2026-01-07T02:02:25+00:00",
-  "source_file": "1-getting-started/lessons/3-sensors-and-actuators/wio-terminal-actuator.md",
-  "language_code": "te"
-}
--->
 # రైటింగ్ లైట్ బిల్డ్ చేయండి - Wio టెర్మినల్
 
 ఈ పాఠంలో, మీరు మీ Wio టెర్మినల్ కు ఒక LED ను జత చేసి, దాని ద్వారా రాత్రి వెలుగు సృష్టిస్తారు.

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "0b2ae20b0fc8e73c9598dea937cac038",
-  "translation_date": "2026-01-07T03:59:49+00:00",
-  "source_file": "5-retail/lessons/2-check-stock-device/wio-terminal-count-stock.md",
-  "language_code": "ml"
-}
--->
 # നിങ്ങളുടെ IoT ഡിവൈസിൽ നിന്ന് സ്റ്റോക്ക് എണ്ണുക - Wio ടെർമിനൽ
 
 പ്രക്ഷേപണംകളും അവയുടെ ബൗണ്ടിംഗ് ബോക്സുകളും സംയോജിപ്പിച്ച് ചിത്രത്തിൽ സ്റ്റോക്ക് എണ്ണാൻ ഉപയോഗിക്കാം.

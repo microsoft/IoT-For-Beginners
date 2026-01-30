@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "66b81165e60f8f169bd52a401b6a0f8b",
-  "translation_date": "2026-01-07T05:21:25+00:00",
-  "source_file": "2-farm/lessons/3-automated-plant-watering/pi-relay.md",
-  "language_code": "ml"
-}
--->
 # ഒരു റീലം നിയന്ത്രിക്കുക - Raspberry Pi
 
 പാഠപുസ്തകത്തിന്റെ ഈ ഭാഗത്തിൽ, നിങ്ങൾക്ക് മണ്ണിന്റെ ഈര്‍പ്പം സെൻസറിനൊപ്പം Raspberry Pi-ലേക്ക് ഒരു റീലം ചേർക്കാനും മണ്ണിന്റെ ഈര്‍പ്പത്തിന്റെ അടിസ്ഥാനത്തിൽ അത് നിയന്ത്രിക്കാനുമാകും.

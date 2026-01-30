@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "af249a24d4fe4f4de4806adbc3bc9d86",
-  "translation_date": "2026-01-07T03:20:07+00:00",
-  "source_file": "6-consumer/lessons/1-speech-recognition/pi-speech-to-text.md",
-  "language_code": "ml"
-}
--->
 # സംഭാഷണത്തിൽ നിന്ന് ലിപിവിവരണം - റാസ്ബെറി പൈ
 
 പാഠത്തിന്റെ ഈ ഭാഗത്തിൽ, ക്യാഡ്ചർ ചെയ്‌തിരിക്കുന്ന ഓഡിയോയിലെ സംഭാഷണത്തെ ടെക്സ്റ്റിലാക്കി മാറ്റാൻ സ്പീച്ച് സർവീസ് ഉപയോഗിച്ച് കോഡ് എഴുതും.

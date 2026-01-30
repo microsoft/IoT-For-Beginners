@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "cbb8c285bc64c5192fae3368fb5077d2",
-  "translation_date": "2026-01-07T04:35:27+00:00",
-  "source_file": "3-transport/lessons/1-location-tracking/single-board-computer-gps-decode.md",
-  "language_code": "ml"
-}
--->
 # GPS ഡാറ്റ ഡീകോഡ് ചെയ്യുക - വെർച്ച്വൽ IoT ഹാർഡ്‌വെയർ এবং റാസ്പ്ബെറി പൈ
 
 പാഠത്തിന്റെ ഈ ഭാഗത്തിൽ, റാസ്പ്ബെറി പൈ അല്ലെങ്കിൽ വെർച്ച്വൽ IoT ഉപകരണം നിന്നായി GPS സെൻസറിൽ നിന്നുള്ള NMEA സന്ദേശങ്ങൾ ഡീകോഡ് ചെയ്ത്, നിരപ്പും രേഖാംശവും (latitude and longitude) പുറത്തെടുക്കും.

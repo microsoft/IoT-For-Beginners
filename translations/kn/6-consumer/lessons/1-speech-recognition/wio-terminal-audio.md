@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "2f336726b9410e97c3aaed76cc89b0d8",
-  "translation_date": "2026-01-07T03:29:30+00:00",
-  "source_file": "6-consumer/lessons/1-speech-recognition/wio-terminal-audio.md",
-  "language_code": "kn"
-}
--->
 # ಧ್ವನಿ ಹಿಡಿಯಿರಿ - Wio Terminal
 
 ಪಾಠದ ಈ ಭಾಗದಲ್ಲಿ, ನೀವು ನಿಮ್ಮ Wio Terminal ನಲ್ಲಿ ಧ್ವನಿ ಹಿಡಿಯಲು ಕೋಡ್ ಬರೆಯುತ್ತೀರಿ. ಧ್ವನಿ ಹಿಡಿಯುವಿಕೆಯನ್ನು Wio Terminal ಮೇಲ್ಭಾಗದ ಒಂದು ಬಟನ್ ಮೂಲಕ ನಿಯಂತ್ರಿಸಲಾಗುತ್ತದೆ.

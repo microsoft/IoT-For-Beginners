@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "df28cd649cd892bcce034e064913b2f3",
-  "translation_date": "2026-01-07T06:12:44+00:00",
-  "source_file": "2-farm/lessons/1-predict-plant-growth/wio-terminal-temp-publish.md",
-  "language_code": "ml"
-}
--->
 # താപനില പ്രസിദ്ധീകരിക്കുക - Wio ടെർമിനൽ
 
 പാഠത്തിന്റെ ഈ ഭാഗത്തിൽ, Wio ടെർമിനൽ കണ്ടെത്തിയ താപനില മൂല്യങ്ങൾ MQTT വഴി പ്രസിദ്ധീകരിക്കുകയാണു, അതിലൂടെ പിന്നീട് GDD കണക്ക് ചെയ്യാൻ ഉപയോഗിക്കാം.

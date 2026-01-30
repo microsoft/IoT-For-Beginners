@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "28320305a35ea3bc59c41fe146a2e6ed",
-  "translation_date": "2026-01-07T05:47:14+00:00",
-  "source_file": "2-farm/lessons/4-migrate-your-plant-to-the-cloud/wio-terminal-connect-hub.md",
-  "language_code": "ml"
-}
--->
 # നിങ്ങളുടെ IoT ഉപകരണം ക്ലൗഡുമായി ബന്ധിപ്പിക്കുക - Wio Terminal
 
 ഈ പാഠഭാഗത്തിൽ, നിങ്ങളുടെ Wio Terminal നിങ്ങളുടെ IoT Hub-ലോട് കണക്റ്റ് ചെയ്ത് ടെലിമെട്രി അയയ്ക്കുകയും കമാൻഡുകൾ സ്വീകരിക്കുകയും ചെയ്യും.

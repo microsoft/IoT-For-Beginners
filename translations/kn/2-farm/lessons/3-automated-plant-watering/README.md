@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "f7bb24ba53fb627ddb38a8b24a05e594",
-  "translation_date": "2026-01-07T05:28:46+00:00",
-  "source_file": "2-farm/lessons/3-automated-plant-watering/README.md",
-  "language_code": "kn"
-}
--->
 # ಸ್ವಯಂಚಾಲಿತ ದಡ್ಡಿ ನೀರ್ ಪೂರೈಸುವುದು
 
 ![ಈ ಪಾಠದ ಸ್ಕೆಚ್ನೋಟ್ ಅವಲೋಕನ](../../../../../translated_images/kn/lesson-7.30b5f577d3cb8e03.webp)

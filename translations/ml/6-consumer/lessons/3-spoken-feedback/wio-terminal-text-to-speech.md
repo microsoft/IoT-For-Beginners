@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "a202fa5889790a3777bfc33dd9f4b459",
-  "translation_date": "2026-01-07T02:54:48+00:00",
-  "source_file": "6-consumer/lessons/3-spoken-feedback/wio-terminal-text-to-speech.md",
-  "language_code": "ml"
-}
--->
 # വാചകം ശബ്ദത്തിലേക്ക് - Wio ടെർമിനൽ
 
 പാഠത്തിന്റേതിന്റെ ഈ ഭാഗത്തിൽ, നിങ്ങൾ സംസാരിച്ചു നൽകുന്ന പ്രതികരണത്തിനായി വാചകത്തെ ശബ്ദത്തിലേക്ക് മാറ്റും.

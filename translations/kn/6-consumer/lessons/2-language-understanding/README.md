@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "6f4ba69d77f16c4a5110623a96a215c3",
-  "translation_date": "2026-01-07T03:10:30+00:00",
-  "source_file": "6-consumer/lessons/2-language-understanding/README.md",
-  "language_code": "kn"
-}
--->
 # ಭಾಷೆಯನ್ನು ಅರ್ಥಮಾಡಿಕೊಳ್ಳಿ
 
 ![ಈ ಪಾಠದ ಸ್ಕೆಚ್‌ನೋಟ್ ಅವಲೋಕನ](../../../../../translated_images/kn/lesson-22.6148ea28500d9e00.webp)

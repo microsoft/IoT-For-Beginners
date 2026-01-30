@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "93d352de36526b8990e41dd538100324",
-  "translation_date": "2026-01-07T03:21:15+00:00",
-  "source_file": "6-consumer/lessons/1-speech-recognition/wio-terminal-microphone.md",
-  "language_code": "te"
-}
--->
 # మీ మైక్రోఫోన్ మరియు స్పీకర్లను ఏర్పాటు చేయండి - Wio టెర్మినల్
 
 ఈ పాఠములో, మీరు మీ Wio టెర్మినల్‌కు స్పీకర్లను జోడించబోతున్నారు. Wio టెర్మినల్ ఇప్పటికే ఒక మైక్రోఫోన్‌ను కలిగి ఉంది, దీన్ని మాటలను క్యాప్చర్ చేయడానికి ఉపయోగించవచ్చు.

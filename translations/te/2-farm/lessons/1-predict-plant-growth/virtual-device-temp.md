@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "70e5a428b607cd5a9a4f422c2a4df03d",
-  "translation_date": "2026-01-07T06:05:19+00:00",
-  "source_file": "2-farm/lessons/1-predict-plant-growth/virtual-device-temp.md",
-  "language_code": "te"
-}
--->
 # ఉష్ణోగ్రత కొలవండి - వర్చువల్ ఐఓటీ హార్డ్వేర్
 
 ఈ పాఠం భాగంలో, మీరు మీ వర్చువల్ ఐఓటీ పరికరానికి ఉష్ణోగ్రత సెంసార్‌ని జోడిస్తారు.

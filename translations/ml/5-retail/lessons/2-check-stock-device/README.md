@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "1c9e5fa8b7be726c75a97232b1e41c97",
-  "translation_date": "2026-01-07T04:09:47+00:00",
-  "source_file": "5-retail/lessons/2-check-stock-device/README.md",
-  "language_code": "ml"
-}
--->
 # ഒരു IoT ഉപകരണത്തിൽ നിന്നും സ്റ്റോക്ക് പരിശോധിക്കുക
 
 ![ഈ പാഠത്തിന്റെ സ്കെച്ച്നോട്ട് അവലോകനം](../../../../../translated_images/ml/lesson-20.0211df9551a8abb3.webp)

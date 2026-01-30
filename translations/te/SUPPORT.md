@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "cd89329575372232e59605f7a08ae0df",
-  "translation_date": "2026-01-07T01:02:44+00:00",
-  "source_file": "SUPPORT.md",
-  "language_code": "te"
-}
--->
 # మద్దతు
 
 ## సమస్యలను ఎలా ఫైలు చేయాలి మరియు సహాయం పొందాలి  

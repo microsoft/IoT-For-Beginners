@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "11f10c6760fb8202cf368422702fdf70",
-  "translation_date": "2026-01-07T02:01:10+00:00",
-  "source_file": "1-getting-started/lessons/3-sensors-and-actuators/virtual-device-sensor.md",
-  "language_code": "ml"
-}
--->
 # രാത്രികൊളിപ്പ് നിർമ്മിക്കുക - വെര്‍ച്വല്‍ ഐഒടി ഹാര്‍ഡ്‌വെയര്‍
 
 ഈ പാഠത്തിലെ ഭാഗത്തിൽ, നിങ്ങൾ നിങ്ങളുടെ വെര്‍ച്വല്‍ ഐഒടി ഉപകരണത്തിൽ ഒരു ലൈറ്റ് സെൻസർ ചേർക്കും.

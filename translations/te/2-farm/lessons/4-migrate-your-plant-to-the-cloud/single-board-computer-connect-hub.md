@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "3ac42e284a7222c0e83d2d43231a364f",
-  "translation_date": "2026-01-07T05:43:54+00:00",
-  "source_file": "2-farm/lessons/4-migrate-your-plant-to-the-cloud/single-board-computer-connect-hub.md",
-  "language_code": "te"
-}
--->
 # మీ IoT డివైస్‌ను క్లౌడ్ కు కనెక్ట్ చెయ్యండి - వర్చువల్ IoT హార్డ్వేర్ మరియు రాస్ప్బెరీ పి
 
 ఈ పాఠంలో, మీరు మీ వర్చువల్ IoT డివైస్ లేదా రాస్ప్బెరీ పి‌ను మీ IoT హబ్ కు కనెక్ట్ చేసి, టెలిమెట్రీ పంపడం మరియు ఆదేశాలు స్వీకరించడాన్ని నేర్చుకుంటారు.

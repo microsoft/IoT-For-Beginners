@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "d6faf0e8d3c2d6d20c0aef2a305dab18",
-  "translation_date": "2026-01-07T02:19:29+00:00",
-  "source_file": "1-getting-started/lessons/4-connect-internet/wio-terminal-mqtt.md",
-  "language_code": "kn"
-}
--->
 # ಇಂಟರ್ನೆಟ್ನಲ್ಲಿ ನಿಮ್ಮ ನೈಟ್‌ಲೈಟ್ ಅನ್ನು ನಿಯಂತ್ರಿಸಿ - Wio ಟರ್ಮಿನಲ್
 
 IoT ಸಾಧನವು *test.mosquitto.org* ಬಳಸಿ MQTT ಮೂಲಕ ಬೆಳಕಿನ ಸಂವೇದಕ ಓದುವ ಜೊತೆಗೆ ಟೆಲಿಮೆಟ್ರಿ ಮೌಲ್ಯಗಳನ್ನು ಕಳುಹಿಸಲು ಮತ್ತು LED ಅನ್ನು ನಿಯಂತ್ರಿಸುವ ಆಜ್ಞೆಗಳನ್ನು ಸ್ವೀಕರಿಸಲು ಕೋಡ್ ಮಾಡಬೇಕಾಗುತ್ತದೆ.

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "f74f4ccb61f00e5f7e9f49c3ed416e36",
-  "translation_date": "2026-01-07T07:16:19+00:00",
-  "source_file": "4-manufacturing/lessons/4-trigger-fruit-detector/README.md",
-  "language_code": "kn"
-}
--->
 # ಸೆನ್ಸರ್‌ನಿಂದ ಹಣ್ಣು ಗುಣಮಟ್ಟದ ಪತ್ತೆ ಕೈಗೊಳ್ಳಿ
 
 ![ಈ ಪಾಠದ ಸ್ಕೆಚ್ನೋಟ್ ಅವಲೋಕನ](../../../../../translated_images/kn/lesson-18.92c32ed1d354caa5.webp)

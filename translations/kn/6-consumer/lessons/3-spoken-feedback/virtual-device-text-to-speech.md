@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "7966848a1f870e4c42edb4db67b13c57",
-  "translation_date": "2026-01-07T03:06:49+00:00",
-  "source_file": "6-consumer/lessons/3-spoken-feedback/virtual-device-text-to-speech.md",
-  "language_code": "kn"
-}
--->
 # ಪಠ್ಯದಿಂದ ಮಾತಿಗೆ - ವಾಸ್ತವಿಕ ಇಂಟರ್ನೆಟ್ ಆಫ್ ಥಿಂಗ್ಸ್ ಸಾಧನ
 
 ಪಾಠದ ಈ ಭಾಗದಲ್ಲಿ, ನೀವು ಪಠ್ಯವನ್ನು ಮಾತಿಗೆ ಪರಿವರ್ತಿಸುವ ಕೋಡ್ ಅನ್ನು ಭಾಷಾ ಸೇವೆಯನ್ನು ಬಳಸಿ ಬರೆಯಬಹುದು.

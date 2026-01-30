@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "11f10c6760fb8202cf368422702fdf70",
-  "translation_date": "2026-01-07T02:00:31+00:00",
-  "source_file": "1-getting-started/lessons/3-sensors-and-actuators/virtual-device-sensor.md",
-  "language_code": "te"
-}
--->
 # రాత్రిపువ్వును నిర్మించండి - వర్చువల్ IoT హార్డ్వేర్
 
 పాఠ్యభాగంలో, మీరు మీ వర్చువల్ IoT పరికరంలో ఒక లైట్ సెన్సార్‌ను జత చేస్తారు.

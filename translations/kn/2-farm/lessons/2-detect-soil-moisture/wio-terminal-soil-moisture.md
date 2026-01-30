@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "0d55caa8c23d73635b7559102cd17b8a",
-  "translation_date": "2026-01-07T05:03:31+00:00",
-  "source_file": "2-farm/lessons/2-detect-soil-moisture/wio-terminal-soil-moisture.md",
-  "language_code": "kn"
-}
--->
 # ಮಣ್ಣು ತೇವತೆಯನ್ನು ಅಳತೆ ಮಾಡುವುದು - Wio ಟರ್ಮಿನಲ್
 
 ಪಾಠದ ಈ ಭಾಗದಲ್ಲಿ, ನೀವು ನಿಮ್ಮ Wio ಟರ್ಮಿನಲ್‌ಗೆ ಕ್ಯಾಪಾಸಿಟಿವ್ ಮಣ್ಣು ತೇವತೆ ಸೆನ್ಸಾರ್ ಸೇರಿಸಲಿದ್ದೀರಿ ಮತ್ತು ಅದರ ಮೌಲ್ಯಗಳನ್ನು ಓದಲು ಕಲಿಯುತ್ತೀರಿ.

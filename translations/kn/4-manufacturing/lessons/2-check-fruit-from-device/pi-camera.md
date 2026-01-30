@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "c677667095f6133eee418c7e53615d05",
-  "translation_date": "2026-01-07T06:34:59+00:00",
-  "source_file": "4-manufacturing/lessons/2-check-fruit-from-device/pi-camera.md",
-  "language_code": "kn"
-}
--->
 # ಚಿತ್ರವನ್ನು ಹಿಡಿ - ರಾಸ್ಪ್ಬೆರ್ರಿ ಪೈ
 
 ಪಾಠದ ಈ ಭಾಗದಲ್ಲಿ, ನೀವು ನಿಮ್ಮ ರಾಸ್ಪ್ಬೆರ್ರಿ ಪೈಸಿಗೆ ಕ್ಯಾಮೆರಾ ಸೆನ್ಸರ್ ಸೇರಿಸಿ, ಅದರಿಂದ ಚಿತ್ರಗಳನ್ನು ಓದಲು ಸಿದ್ಧಪಡಿಸುವಿರಿ.

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "6f4ba69d77f16c4a5110623a96a215c3",
-  "translation_date": "2026-01-07T03:07:48+00:00",
-  "source_file": "6-consumer/lessons/2-language-understanding/README.md",
-  "language_code": "te"
-}
--->
 # భాషను అర్థం చేసుకోండి
 
 ![ఈ పాఠం యొక్క స్కెచ్‌నోట్ అవలోకనం](../../../../../translated_images/te/lesson-22.6148ea28500d9e00.webp)

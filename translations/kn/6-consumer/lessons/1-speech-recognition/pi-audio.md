@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "0ac0afcfb40cb5970ef4cb74f01c32e9",
-  "translation_date": "2026-01-07T03:18:50+00:00",
-  "source_file": "6-consumer/lessons/1-speech-recognition/pi-audio.md",
-  "language_code": "kn"
-}
--->
 # ಧ್ವನಿಯನ್ನು ಸೆರೆಹಿಡಿಯಿರಿ - ರಾಸ್ಪ್ಬೆರ್ರಿ ಪೈ
 
 ಪಾಠದ ಈ ಭಾಗದಲ್ಲಿ, ನೀವು ರಾಸ್ಪ್ಬೆರ್ರಿ ಪೈಯ ಮೇಲೆ ಧ್ವನಿಯನ್ನು ಸೆರೆಹಿಡಿಯಲು ಕೋಡ್ ಬರೆಯುತ್ತೀರಿ. ಧ್ವನಿ ಸೆರೆಹಿಡಿಸುವಿಕೆಯನ್ನು ಒಂದು ಬಟನ್ ನಿಯಂತ್ರಿಸುತ್ತದೆ.

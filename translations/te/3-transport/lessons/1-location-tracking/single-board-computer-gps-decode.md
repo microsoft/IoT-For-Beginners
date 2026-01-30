@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "cbb8c285bc64c5192fae3368fb5077d2",
-  "translation_date": "2026-01-07T04:35:04+00:00",
-  "source_file": "3-transport/lessons/1-location-tracking/single-board-computer-gps-decode.md",
-  "language_code": "te"
-}
--->
 # GPS డేటాను డీకోడ్ చేయండి - వర్చువల్ IoT హార్డ్‌వేర్ మరియు రాస్ప్బెర్రీ పై
 
 పాఠం ఈ భాగంలో, మీరు రాస్ప్బెర్రీ పై లేదా వర్చువల్ IoT డివైస్ ద్వారా GPS సెన్సార్ నుండి చదవబడిన NMEA సందేశాలను డీకోడ్ చేసి, అక్షాంశం మరియు రేఖాంశాన్ని వెలికితీయబోతున్నారు.

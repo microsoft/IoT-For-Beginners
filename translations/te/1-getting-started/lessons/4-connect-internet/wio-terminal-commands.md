@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "6754c915dae64ba70fcd5e52c37f3adf",
-  "translation_date": "2026-01-07T02:24:58+00:00",
-  "source_file": "1-getting-started/lessons/4-connect-internet/wio-terminal-commands.md",
-  "language_code": "te"
-}
--->
 # ఇంటర్నెట్ ద్వారా మీ నైట్‌లైట్‌ను నియంత్రించండి - Wio టెర్మినల్
 
 ఈ భాగంలో, మీరు MQTT బ్రోకర్ నుండి Wio టెర్మినల్‌కు పంపబడే కమాండ్లను సబ్స్క్రైబ్ చేస్తారు.

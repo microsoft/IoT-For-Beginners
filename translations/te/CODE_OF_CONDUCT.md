@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "c06b12caf3c901eb3156e3dd5b0aea56",
-  "translation_date": "2026-01-07T01:21:29+00:00",
-  "source_file": "CODE_OF_CONDUCT.md",
-  "language_code": "te"
-}
--->
 # Microsoft ఓపెన్ సోర్స్ కోడ్ ఆఫ్ కాన్డక్ట్
 
 ఈ ప్రాజెక్టు [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/)ని స్వీకరించింది.

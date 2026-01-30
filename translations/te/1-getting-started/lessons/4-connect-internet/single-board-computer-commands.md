@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "c527ce85d69b1a3875366ec61cbed8aa",
-  "translation_date": "2026-01-07T02:26:25+00:00",
-  "source_file": "1-getting-started/lessons/4-connect-internet/single-board-computer-commands.md",
-  "language_code": "te"
-}
--->
 # ఇన్టర్నెట్ ద్వారా మీ నైట్‌లైట్‌ని నియంత్రించండి - వర్చువల్ IoT హార్డ్వేర్ మరియు రాస్ప్బెర్రి పై
 
 పాఠం యొక్క ఈ భాగంలో, మీరు MQTT బ్రోకు నుండి మీ రాస్ప్బెర్రి పై లేదా వర్చువల్ IoT డివైస్‌కు పంపబడే ఆదేశాలకు సభ్యత్వం ఇవ్వబోతున్నారు.

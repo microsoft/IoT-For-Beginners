@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "8587f83cfded1bfab99fda4022f4df89",
-  "translation_date": "2026-01-07T01:25:32+00:00",
-  "source_file": "SECURITY.md",
-  "language_code": "ml"
-}
--->
 # സുരക്ഷ
 
 Microsoft നമ്മുടെ സോഫ്റ്റ്‌വെയർ ഉൽപ്പന്നങ്ങളും സേവനങ്ങളും ഉൾപ്പെടെയുള്ള എല്ലാ സോഴ്‌സ് കോഡ് Репോസിറ്ററികളും ആർക്കും GitHub സംഘടനകൾ വഴി നിയന്ത്രിക്കുന്നവയുടെ സുരക്ഷയെ വളരെ ഗൗരവത്തോടെ കൈകാര്യം ചെയ്യുന്നു, ഇതിൽ [Microsoft](https://github.com/Microsoft), [Azure](https://github.com/Azure), [DotNet](https://github.com/dotnet), [AspNet](https://github.com/aspnet), [Xamarin](https://github.com/xamarin), കൂടാതെ [നമ്മുടെ GitHub സംഘടനകൾ](https://opensource.microsoft.com/) ഉൾപ്പെടുന്നു.

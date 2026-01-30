@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "2625af24587465c5547ae33d6cc000a5",
-  "translation_date": "2026-01-07T07:02:59+00:00",
-  "source_file": "4-manufacturing/lessons/3-run-fruit-detector-edge/README.md",
-  "language_code": "ml"
-}
--->
 # നിങ്ങളുടെ ഫലം শনാകരണ ഉപകരണം എഡ്ജിൽ പ്രവർത്തിപ്പിക്കുക
 
 ![ഈ പാഠത്തിന്റെ സ്കെച്ചിന്റെ അവലോകനം](../../../../../translated_images/ml/lesson-17.bc333c3c35ba8e42.webp)

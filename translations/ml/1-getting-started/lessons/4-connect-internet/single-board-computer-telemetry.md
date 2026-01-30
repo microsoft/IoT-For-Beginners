@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "1226517aae5f5b6f904434670394c688",
-  "translation_date": "2026-01-07T02:20:50+00:00",
-  "source_file": "1-getting-started/lessons/4-connect-internet/single-board-computer-telemetry.md",
-  "language_code": "ml"
-}
--->
 # ഇന്റർനെറ്റിൽ നിങ്ങളുടെ നൈറ്റ് ലൈറ്റ് നിയന്ത്രിക്കുക - വെർച്ച്വൽ IoT ഹാർഡ്‌വെയർ һәм റാസ്പ്ബെറി പൈ
 
 പാഠഭാഗം ഈ ഭാഗത്ത്, നിങ്ങൾ നിങ്ങളുടെ റാസ്പ്ബെറി പൈയോ വെർച്ച്വൽ IoT ഉപകരണമോ നിന്ന് ലൈറ്റ് നിരപ്പുകൾ ഉൾപ്പെടുന്ന ടെലിമെട്രി MQTT ബ്രോക്കറിലേക്ക് അയയ്ക്കും.

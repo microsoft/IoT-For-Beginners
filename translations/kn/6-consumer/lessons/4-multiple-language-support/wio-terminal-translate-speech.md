@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "5f6c164e349f8989959e02a90f37908d",
-  "translation_date": "2026-01-07T03:41:31+00:00",
-  "source_file": "6-consumer/lessons/4-multiple-language-support/wio-terminal-translate-speech.md",
-  "language_code": "kn"
-}
--->
 # ಭಾಷಾಂತರಿಸಿ ಭಾಷಣ - ವಿಯೋ ಟರ್ಮಿನಲ್
 
 ಈ ಪಾಠದ ಭಾಗದಲ್ಲಿ ನೀವು ಭಾಷಾಂತರಕ ಸೇವೆಯನ್ನು ಬಳಸಿ ಪಠ್ಯವನ್ನು ಭಾಷಾಂತರಿಸಲು ಕೋಡ್ ಬರೆಯುತ್ತೀರಿ.

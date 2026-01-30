@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "4bcc29fe2b65e56eada83d2476279227",
-  "translation_date": "2026-01-07T02:23:32+00:00",
-  "source_file": "1-getting-started/lessons/4-connect-internet/wio-terminal-telemetry.md",
-  "language_code": "te"
-}
--->
 # ఇంటర్నెట్ ద్వారా మీ నైట్‌లైట్‌ని నియంత్రించండి - Wio టెర్మినల్
 
 పాఠం ఈ భాగంలో, మీరు మీ Wio టెర్మినల్ నుండి లైట్ స్థాయిలతో టెలిమేట్రీను MQTT బ్రోకర్‌కు పంపించబోతున్నారు.

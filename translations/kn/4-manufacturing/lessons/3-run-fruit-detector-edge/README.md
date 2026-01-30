@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "2625af24587465c5547ae33d6cc000a5",
-  "translation_date": "2026-01-07T07:04:27+00:00",
-  "source_file": "4-manufacturing/lessons/3-run-fruit-detector-edge/README.md",
-  "language_code": "kn"
-}
--->
 # ನಿಮ್ಮ پھಳಿಹಣ್ಣು ಪತ್ತೆಹಚ್ಚುವ ಮೊಬೈಲನ್ನು ಎಡ್ಜ್‌ನಲ್ಲಿ ಚಾಲನೆ ಮಾಡಿ
 
 ![ಈ ಪಾಠದ ಸ್ಕೆಚ್ ನೋಟ ವಿಸ್ತಾರ](../../../../../translated_images/kn/lesson-17.bc333c3c35ba8e42.webp)

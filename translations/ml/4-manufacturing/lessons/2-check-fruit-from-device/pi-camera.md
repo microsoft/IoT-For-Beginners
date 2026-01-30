@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "c677667095f6133eee418c7e53615d05",
-  "translation_date": "2026-01-07T06:34:03+00:00",
-  "source_file": "4-manufacturing/lessons/2-check-fruit-from-device/pi-camera.md",
-  "language_code": "ml"
-}
--->
 # ഒരു ചിത്രംപിടിക്കുക - റാസ്ബെറി പൈ
 
 പാഠത്തിന്റെ ഈ ഭാഗത്ത്, നിങ്ങൾ നിങ്ങളുടെ റാസ്ബെറി പൈയിൽ ഒരു ക്യാമറ സെൻസോർ ചേർക്കുകയും അതിൽ നിന്നുള്ള ചിത്രങ്ങൾ വായിക്കുകയും ചെയ്യും.

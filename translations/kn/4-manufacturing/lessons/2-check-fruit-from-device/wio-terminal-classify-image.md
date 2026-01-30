@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "32a1f23e7834fbe7715da8c4ebb450b9",
-  "translation_date": "2026-01-07T06:37:21+00:00",
-  "source_file": "4-manufacturing/lessons/2-check-fruit-from-device/wio-terminal-classify-image.md",
-  "language_code": "kn"
-}
--->
 # ಚಿತ್ರ ವರ್ಗೀಕರಿಸು - Wio ಟರ್ಮಿನಲ್
 
 ಪಾಠದ ಈ ಭಾಗದಲ್ಲಿ, ನೀವು ಕ್ಯಾಮೆರಾದ ಮೂಲಕ ಹಿಡಿದ ಚಿತ್ರವನ್ನು ಕಸ್ಟಮ್ ವಿಷನ್ ಸೇವೆಗೆ ಕಳುಹಿಸಿ ಅದನ್ನು ವರ್ಗೀಕರಿಸುವಿರಿ.

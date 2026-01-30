@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "90fb93446e03c38f3c0e4009c2471906",
-  "translation_date": "2026-01-07T02:22:58+00:00",
-  "source_file": "1-getting-started/lessons/4-connect-internet/single-board-computer-mqtt.md",
-  "language_code": "kn"
-}
--->
 # ಇಂಟರ್ನೆಟ್ ಮೂಲಕ ನಿಮ್ಮ ನೈಟ್‌ಲೈಟ್ ಅನ್ನು ನಿಯಂತ್ರಿಸಿ - ವರ್ಚುವಲ್ ಐಒಟಿ ಹಾರ್ಡ್‌ವೇರ್ ಮತ್ತು ರಾಸ್ಪ್ಬೆರಿ ಪೈ
 
 ಐಒಟಿ ಸಾಧನವನ್ನು *test.mosquitto.org* ಜೊತೆ MQTT ಬಳಸಿ ಸಂವಹನ ಮಾಡಲು ಕೋಡ್ ಮಾಡಬೇಕಾಗಿದ್ದು, ಲೈಟ್ ಸೆನ್ಸರ್ ಓದಿನೊಂದಿಗೆ ಟೆಲಿವೆಲ್ಮೆಟ್ರಿ ಮೌಲ್ಯಗಳನ್ನು ಕಳುಹಿಸಿ, ಮತ್ತು ಎಡ್ಎಲ್‌ಇ ನಿಯಂತ್ರಣಕ್ಕಾಗಿ ಆಜ್ಞೆಗಳು ಸ್ವೀಕರಿಸಬೇಕಾಗುತ್ತದೆ.

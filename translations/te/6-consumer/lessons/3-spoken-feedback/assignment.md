@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "da5d9360fe02fdcc1e91a725016c846d",
-  "translation_date": "2026-01-07T03:07:10+00:00",
-  "source_file": "6-consumer/lessons/3-spoken-feedback/assignment.md",
-  "language_code": "te"
-}
--->
 # టైమర్ రద్దు చేయండి
 
 ## సూచనలు

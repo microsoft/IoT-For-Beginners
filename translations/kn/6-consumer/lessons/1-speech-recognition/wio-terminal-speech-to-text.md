@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "3f92edf2975175577174910caca4a389",
-  "translation_date": "2026-01-07T03:33:30+00:00",
-  "source_file": "6-consumer/lessons/1-speech-recognition/wio-terminal-speech-to-text.md",
-  "language_code": "kn"
-}
--->
 # Speech to text - Wio Terminal
 
 ಈ ಪಾಠದ ಈ ಭಾಗದಲ್ಲಿ, ನೀವು ಹಿಡಿದಿಟ್ಟುಕೊಂಡ ಧ್ವನಿಯನ್ನು ಟೆಕ್ಸ್ಟ್ ಗೆ ಪರಿವರ್ತಿಸುವುದಕ್ಕಾಗಿ ಸ್ಪೀಚ್ ಸರ್ವೀಸ್ ಬಳಸಿ ಕೋಡ್ ಅನ್ನು ಬರೆಯಲಿದ್ದೀರಿ.

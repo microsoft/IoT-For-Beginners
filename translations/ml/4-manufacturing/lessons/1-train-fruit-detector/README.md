@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "f5e63c916d2dd97d58be12aaf76bd9f1",
-  "translation_date": "2026-01-07T06:29:24+00:00",
-  "source_file": "4-manufacturing/lessons/1-train-fruit-detector/README.md",
-  "language_code": "ml"
-}
--->
 # ഒരു ഫലം ഗുണനിലവാരം കണ്ടെത്തുന്ന ഉപകരണം പരിശീലിപ്പിക്കുക
 
 ![ഈ പാഠത്തിന്റെ സ്കെച്ച്നോട്ട് അവലോകനം](../../../../../translated_images/ml/lesson-15.843d21afdc6fb2bb.webp)

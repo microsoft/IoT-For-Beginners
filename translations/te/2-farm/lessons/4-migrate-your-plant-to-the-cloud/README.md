@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "4d8e7a066d75b625e7a979c14157041d",
-  "translation_date": "2026-01-07T05:48:49+00:00",
-  "source_file": "2-farm/lessons/4-migrate-your-plant-to-the-cloud/README.md",
-  "language_code": "te"
-}
--->
 # మీ మొక్కను క్లౌడ్‌కి మార్పిడి చేయండి
 
 ![ఈ పాఠం యొక్క స్కెచ్‌నోట్ అవలోకనం](../../../../../translated_images/te/lesson-8.3f21f3c11159e6a0.webp)

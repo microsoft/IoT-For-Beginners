@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "f74f4ccb61f00e5f7e9f49c3ed416e36",
-  "translation_date": "2026-01-07T07:15:03+00:00",
-  "source_file": "4-manufacturing/lessons/4-trigger-fruit-detector/README.md",
-  "language_code": "ml"
-}
--->
 # സെൻസറിൽ നിന്നുള്ള പഴത്തിന്റെ ഗുണനിലവാര പരിശോധന ട്രിഗർ ചെയ്യുക
 
 ![ഈ പാഠത്തിന്റെ സ്കെച്โนട്ട് അവലോകനം](../../../../../translated_images/ml/lesson-18.92c32ed1d354caa5.webp)

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "28320305a35ea3bc59c41fe146a2e6ed",
-  "translation_date": "2026-01-07T05:46:08+00:00",
-  "source_file": "2-farm/lessons/4-migrate-your-plant-to-the-cloud/wio-terminal-connect-hub.md",
-  "language_code": "te"
-}
--->
 # మీ IoT డివైస్‌ను క్లౌడ్‌కు కనెక్ట్ చేయండి - Wio Terminal
 
 ఈ పాఠంలోని ఈ భాగంలో, మీరు మీ Wio Terminalను మీ IoT హబ్‌కు కనెక్ట్ చేసి, టెలిమెట్రీ పంపటానికి మరియు ఆదేశాలను అందుకోవడానికి ఉపయోగిస్తారు.

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "db44083b4dc6fb06eac83c4f16448940",
-  "translation_date": "2026-01-07T02:08:05+00:00",
-  "source_file": "1-getting-started/lessons/3-sensors-and-actuators/wio-terminal-actuator.md",
-  "language_code": "kn"
-}
--->
 # ನೈಟ್‌ಲೈಟ್ ನಿರ್ಮಿಸಿ - ವೈಒ ಟೆರ್ಮಿನಲ್
 
 ಪಾಠದ ಈ ಭಾಗದಲ್ಲಿ, ನೀವು ನಿಮ್ಮ Wio ಟೆರ್ಮಿನಲ್‌ಗೆ ಒಂದು LED ಅನ್ನು ಸೇರಿಸಿ ಅದನ್ನು ನೈಟ್‌ಲೈಟ್ ಅನ್ನು ರಚಿತಮಾಡಲು ಬಳಸುವಿರಿ.

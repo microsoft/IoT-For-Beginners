@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "71b5040e0b3472f1c0949c9b55f224c0",
-  "translation_date": "2026-01-07T02:31:21+00:00",
-  "source_file": "1-getting-started/lessons/4-connect-internet/README.md",
-  "language_code": "kn"
-}
--->
 # ನಿಮ್ಮ սարಣಿಗೆ ಇಂಟರ್‌ನೆಟ್‌ಗೆ ಸಂಪರ್ಕಿಸಿ
 
 ![ಈ ಪಾಠದ ಬಿಂದುಗಟುವಿನ ಸ್ಕೆಚ್‌ನೋಟ್ ಅವಲೋಕನ](../../../../../translated_images/kn/lesson-4.7344e074ea68fa54.webp)

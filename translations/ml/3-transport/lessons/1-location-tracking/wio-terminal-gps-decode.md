@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "fbbcf96a9b63ccd661db98bbf854bb06",
-  "translation_date": "2026-01-07T04:46:28+00:00",
-  "source_file": "3-transport/lessons/1-location-tracking/wio-terminal-gps-decode.md",
-  "language_code": "ml"
-}
--->
 # GPS ഡേറ്റ ഡികോഡ് ചെയ്യുക - Wio ടെർമിനൽ
 
 പാഠത്തിന്റെ ഈ ഭാഗത്തിൽ, Wio ടെർമിനൽ വഴി GPS സെൻസറിൽ നിന്നുമുള്ള NMEA സന്ദേശങ്ങൾ ഡികോഡ് ചെയ്ത്, അക്ഷാംശവും രേഖാംശവും പുറത്തെടുക്കും.

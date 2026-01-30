@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "5f6c164e349f8989959e02a90f37908d",
-  "translation_date": "2026-01-07T03:39:51+00:00",
-  "source_file": "6-consumer/lessons/4-multiple-language-support/wio-terminal-translate-speech.md",
-  "language_code": "te"
-}
--->
 # Translate speech - Wio Terminal
 
 ఈ పాఠంలో, మీరు ట్రాన్స్లేటర్ సర్వీస్ ఉపయోగించి టెక్స్ట్‌ను అనువాదం చేసేందుకు కోడ్ రాస్తారు.

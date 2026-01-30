@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "7f4ad0ef54f248b85b92187c94cf9dcb",
-  "translation_date": "2026-01-07T01:58:18+00:00",
-  "source_file": "1-getting-started/lessons/3-sensors-and-actuators/wio-terminal-sensor.md",
-  "language_code": "kn"
-}
--->
 # ಸೆನ್ಸರ್ ಜೋಡಿಸಿ - Wio ಟರ್ಮಿನಲ್
 
 ಈ ಪಾಠದ ಭಾಗದಲ್ಲಿ, ನೀವು ನಿಮ್ಮ Wio ಟರ್ಮಿನಲ್‌ನ ಲೈಟ್ ಸೆನ್ಸರ್ ಅನ್ನು ಬಳಸುವಿರಿ.

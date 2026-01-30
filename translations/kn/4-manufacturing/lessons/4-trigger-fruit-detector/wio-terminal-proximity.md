@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "288aebb0c59f7be1d2719b8f9660a313",
-  "translation_date": "2026-01-07T07:12:25+00:00",
-  "source_file": "4-manufacturing/lessons/4-trigger-fruit-detector/wio-terminal-proximity.md",
-  "language_code": "kn"
-}
--->
 # ಸಾನ್ನಿಧ್ಯವನ್ನು ಪತ್ತೆಮಾಡಿ - Wio ಟರ್ಮಿನಲ್
 
 ಪಾಠದ ಈ ಭಾಗದಲ್ಲಿ, ನೀವು ನಿಮ್ಮ Wio ಟರ್ಮಿನಲ್ ಗೆ ಸಾನ್ನಿಧ್ಯ ಸೆನ್ಸರ್ ಸೇರಿಸಿ, ಮತ್ತು ಅದರಿಂದ ದೂರವನ್ನು ಓದುತ್ತೀರಿ.

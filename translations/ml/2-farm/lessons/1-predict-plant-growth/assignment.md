@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "1e21b012c6685f8bf73e0e76cdca3347",
-  "translation_date": "2026-01-07T06:27:27+00:00",
-  "source_file": "2-farm/lessons/1-predict-plant-growth/assignment.md",
-  "language_code": "ml"
-}
--->
 # Jupyter നോട്ട്ബുക്ക് ഉപയോഗിച്ച് GDD ഡാറ്റ ദൃശ്യവൽക്കരിക്കുക
 
 ## നിർദ്ദേശങ്ങൾ

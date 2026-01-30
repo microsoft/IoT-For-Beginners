@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "64f18a8f8aaa1fef5e7320e0992d8b3a",
-  "translation_date": "2026-01-07T04:33:29+00:00",
-  "source_file": "3-transport/lessons/1-location-tracking/virtual-device-gps-sensor.md",
-  "language_code": "ml"
-}
--->
 # GPS ഡാറ്റ വായിക്കല്‍ - വര്‍ച്ച്വല്‍ ഐഒടി ഹാര്‍ഡ്വെയര്‍
 
 പാഠത്തിന്റെ ഈ ഭാഗത്തില്‍, നിങ്ങൾ നിങ്ങളുടെ വർച്ച്വല്‍ ഐഒടി ഡിവൈസിലേക്ക് ഒരു GPS സെന്‍സര്‍ ചേർക്കുകയും അതിൽ നിന്നുള്ള മൂല്യങ്ങൾ വായിക്കുകയും ചെയ്യും.

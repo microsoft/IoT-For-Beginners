@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "da6ae0a795cf06be33d23ca5b8493fc8",
-  "translation_date": "2026-01-07T04:40:55+00:00",
-  "source_file": "3-transport/lessons/1-location-tracking/wio-terminal-gps-sensor.md",
-  "language_code": "ml"
-}
--->
 # GPS ഡേറ്റ വായിക്കുക - Wio Terminal
 
 പാഠ ക്ലാസിന്റെ ഈ ഭാഗത്ത്, നിങ്ങൾക്ക് നിങ്ങളുടെ Wio Terminal ല്‍ GPS സെന്‍സര്‍ ചേര്‍ക്കാനും അതിൽ നിന്നുള്ള മൂല്യങ്ങള്‍ വായിക്കാനുമാകും.

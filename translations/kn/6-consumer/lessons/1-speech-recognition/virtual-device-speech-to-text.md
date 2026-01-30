@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "c0550b254b9ba2539baf1e6bb5fc05f8",
-  "translation_date": "2026-01-07T03:24:17+00:00",
-  "source_file": "6-consumer/lessons/1-speech-recognition/virtual-device-speech-to-text.md",
-  "language_code": "kn"
-}
--->
 # ಸ್ಪೀಚ್ ಟು ಟೆಕ್ಸ್ಟ್ - ವರ್ಚುವಲ್ ಐಒಟಿ ಸಾಧನ
 
 ಈ ಪಾಠದ ಭಾಗದಲ್ಲಿ, ನೀವು ನಿಮ್ಮ ಮೈಕ್ರೋಫೋನ್ನಿಂದ ಹಿಡಿದಿಕೆಯಾದ ಸ್ಪೀಚ್ನ್ನು ಸ್ಪೀಚ್ ಸರ್ವಿಸ್ ಬಳಸಿ ಟೆಕ್ಸ್ಟ್ ಗೆ ಪರಿವರ್ತಿಸಲು ಕೋಡ್ ಬರೆಯುತ್ತೀರಿ.

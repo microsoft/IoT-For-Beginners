@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "2f336726b9410e97c3aaed76cc89b0d8",
-  "translation_date": "2026-01-07T03:25:36+00:00",
-  "source_file": "6-consumer/lessons/1-speech-recognition/wio-terminal-audio.md",
-  "language_code": "te"
-}
--->
 # ఆడియోను క్యాప్చర్ చేయండి - Wio టెర్మినల్
 
 పాఠం యొక్క ఈ భాగంలో, మీరు మీ Wio టెర్మినల్ పై ఆడియోను క్యాప్చర్ చేయడానికి కోడ్ రాస్తారు. ఆడియో క్యాప్చర్ Wio టెర్మినల్ పై ఉన్న టాప్‌లో ఒక బటన్ ద్వారా నియంత్రించబడుతుంది.

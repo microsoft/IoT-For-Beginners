@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "6145a1d791731c8a9d0afd0a1bae5108",
-  "translation_date": "2026-01-07T07:07:26+00:00",
-  "source_file": "4-manufacturing/lessons/4-trigger-fruit-detector/pi-proximity.md",
-  "language_code": "te"
-}
--->
 # సన్నిహితత్వాన్ని గుర్తించండి - రాస్బెర్రీ పై
 
 పాఠ్య భాగంలో, మీరు మీ రాస్బెర్రీ పైకి సన్నిహితత్వ సెన్సార్ జోడించి, దానినుండి దూరాన్ని చదువుతారు.

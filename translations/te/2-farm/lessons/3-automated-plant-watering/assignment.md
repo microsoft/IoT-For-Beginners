@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "ed0fbd6aed084bfba7d5e2f206968c50",
-  "translation_date": "2026-01-07T05:30:23+00:00",
-  "source_file": "2-farm/lessons/3-automated-plant-watering/assignment.md",
-  "language_code": "te"
-}
--->
 # మరింత సమర్థవంతమైన నీరు పంపే చక్రాన్ని నిర్మించండి
 
 ## సూచనలు

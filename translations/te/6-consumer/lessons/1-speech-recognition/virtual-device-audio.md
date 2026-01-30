@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "e4f2925acb211765889c3b51b9116ceb",
-  "translation_date": "2026-01-07T03:15:22+00:00",
-  "source_file": "6-consumer/lessons/1-speech-recognition/virtual-device-audio.md",
-  "language_code": "te"
-}
--->
 # ఆడియో క్యాప్‌చర్ - వర్చువల్ IoT పరికరం
 
 ఈ పాఠంలో మీరు తరువాత ఉపయోగించబోయే మాట్లాడే పదాలను టెక్స్ట్‌గా మార్చే Python లైబ్రరీ లలో Windows, macOS మరియు Linux పై బిల్ట్-ఇన్ ఆడియో క్యాప్‌చర్ ఉంటుంది. మీరు ఇక్కడ ఏమీ చేయాల్సిన అవసరం లేదు.

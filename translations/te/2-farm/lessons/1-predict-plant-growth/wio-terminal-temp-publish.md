@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "df28cd649cd892bcce034e064913b2f3",
-  "translation_date": "2026-01-07T06:12:12+00:00",
-  "source_file": "2-farm/lessons/1-predict-plant-growth/wio-terminal-temp-publish.md",
-  "language_code": "te"
-}
--->
 # Publish temperature - Wio Terminal
 
 ఈ పాఠంలో, మీరు Wio టెర్మినల్ ద్వారా కనుగొన్న ఉష్ణోగ్రత విలువలను MQTT లో ప్రచురించబోతున్నారు, తద్వారా అవి తర్వాత GDD లెక్కించడానికి ఉపయోగించవచ్చు.

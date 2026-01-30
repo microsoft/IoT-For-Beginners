@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "7678f7c67b97ee52d5727496dcd7d346",
-  "translation_date": "2026-01-07T06:25:09+00:00",
-  "source_file": "2-farm/lessons/1-predict-plant-growth/pi-temp.md",
-  "language_code": "te"
-}
--->
 # ఉష్ణోగ్రత కొలవండి - రాస్ప్బెర్రీపై
 
 ఈ పాఠ భాగంలో, మీరు మీ రాస్ప్బెర్రీపైకి ఉష్ణోగ్రత సెన్సార్‌ను జోడించబడుతుంది.

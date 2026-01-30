@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "6145a1d791731c8a9d0afd0a1bae5108",
-  "translation_date": "2026-01-07T07:08:01+00:00",
-  "source_file": "4-manufacturing/lessons/4-trigger-fruit-detector/pi-proximity.md",
-  "language_code": "ml"
-}
--->
 # സമീപത കണ്ടെത്തുക - റാസ്പ്ബെറി പൈ
 
 പാഠത്തിന്റെ ഈ ഭാഗത്ത്, നിങ്ങൾക്ക് നിങ്ങളുടെ റാസ്പ്ബെറി പൈയിൽ ഒരു സമീപത സെൻസർ ചേർക്കുകയും അതിൽ നിന്ന് ദൂരം വായിക്കുകയും ചെയ്യും.

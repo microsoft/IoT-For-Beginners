@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "a4f0c166010e31fd7b6ca20bc88dec6d",
-  "translation_date": "2026-01-07T02:38:33+00:00",
-  "source_file": "1-getting-started/lessons/1-introduction-to-iot/wio-terminal.md",
-  "language_code": "ml"
-}
--->
 # Wio Terminal
 
 [Seeed Studios ൽ നിന്നും Wio Terminal](https://www.seeedstudio.com/Wio-Terminal-p-4509.html) WiFi ഉള്ള, ചില സെൻസറുകളും ആക്‌ചുവേറ്ററുകളും ഉൾപ്പെടുത്തിയ, Arduino-ഉം പൊരുത്തപ്പെടുന്ന ഒരു മൈക്രോ കണ്ട്രോളറാണ്, കൂടാതെ [Grove](https://www.seeedstudio.com/category/Grove-c-1003.html) എന്നു പേരായ ഒരു ഹാർഡ്‌വെയർ ഇക്കോസിസ്റ്റം ഉപയോഗിച്ച് കൂടുതൽ സെൻസറുകളും ആക്‌ചുവേറ്ററുകളും ചേർക്കാനുള്ള പോർട്ടുകളും ഇതിൽ ഉണ്ട്.

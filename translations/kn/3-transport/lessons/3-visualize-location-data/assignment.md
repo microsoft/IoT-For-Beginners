@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "0ccdc1faa676a485c4c6ecbddb9f9067",
-  "translation_date": "2026-01-07T04:54:47+00:00",
-  "source_file": "3-transport/lessons/3-visualize-location-data/assignment.md",
-  "language_code": "kn"
-}
--->
 # ನಿಮ್ಮ ಅಪ್ಲಿಕೇಶನ್ ಅನ್ನು ನಿಯೋಜಿಸಿ
 
 ## ಸೂಚನೆಗಳು

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "0b2ae20b0fc8e73c9598dea937cac038",
-  "translation_date": "2026-01-07T04:00:30+00:00",
-  "source_file": "5-retail/lessons/2-check-stock-device/wio-terminal-count-stock.md",
-  "language_code": "kn"
-}
--->
 # ನಿಮ್ಮ IoT ಸಾಧನದಿಂದ ಸ್ಟಾಕ್ ಎಣಿಕೆ - Wio ಟರ್ಮಿನಲ್
 
 ಭವಿಷ್ಯವಾಣಿಗಳ ಸಂಯೋಜನೆ ಮತ್ತು ಅವುಗಳ ಬೌಂಡಿಂಗ್ ಬಾಕ್ಸುಗಳನ್ನು ಬಳಸಿಕೊಂಡು ಚಿತ್ರದಲ್ಲಿ ಸ್ಟಾಕ್ ಅನ್ನು ಎಣಿಸಬಹುದು.

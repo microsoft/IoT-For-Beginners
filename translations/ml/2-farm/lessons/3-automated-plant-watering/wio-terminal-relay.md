@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "f3c5d8afa2ef6a0b425ef8ff20615cb4",
-  "translation_date": "2026-01-07T05:25:01+00:00",
-  "source_file": "2-farm/lessons/3-automated-plant-watering/wio-terminal-relay.md",
-  "language_code": "ml"
-}
--->
 # ഒരു റീലേ നിയന്ത്രിക്കുക - Wio ടെർമിനൽ
 
 പാഠത്തിന്റെ ഈഭാഗത്തിൽ, നിങ്ങൾക്ക് മണ്ണിലെ ഈർപ്പം സെൻസറിനൊപ്പം ഒരു റീലേ Wio ടെർമിനലിലേക്ക് ചേർക്കുകയും മണ്ണിലെ ഈർപ്പം നിലയുടെ അടിസ്ഥാനത്തിൽ അതിനെ നിയന്ത്രിക്കുകയും ചെയ്യും.

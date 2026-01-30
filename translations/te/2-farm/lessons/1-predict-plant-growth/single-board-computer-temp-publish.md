@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "4efc74299e19f5d08f2f3f34451a11ba",
-  "translation_date": "2026-01-07T06:10:40+00:00",
-  "source_file": "2-farm/lessons/1-predict-plant-growth/single-board-computer-temp-publish.md",
-  "language_code": "te"
-}
--->
 # ఉష్ణోగ్రతను ప్రచురించు - వర్చువల్ IoT హార్డ్‌వేర్ మరియు రాస్ప్బెర్రీ పై
 
 పాఠం యొక్క ఈ భాగంలో, మీరు రాస్ప్బెర్రీ పై లేదా వర్చువల్ IoT డివైస్ గుర్తించిన ఉష్ణోగ్రత విలువలను MQTT ద్వారా ప్రచురించబడతారు, తద్వారా అవి తర్వాత GDD లెక్కింపుకు ఉపయోగించుకోవచ్చు.

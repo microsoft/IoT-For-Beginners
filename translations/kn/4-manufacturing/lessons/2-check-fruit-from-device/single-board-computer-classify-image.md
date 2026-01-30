@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "e5896207b304ce1abaf065b8acc0cc79",
-  "translation_date": "2026-01-07T06:51:13+00:00",
-  "source_file": "4-manufacturing/lessons/2-check-fruit-from-device/single-board-computer-classify-image.md",
-  "language_code": "kn"
-}
--->
 # ಚಿತ್ರವನ್ನು ವರ್ಗೀಕರಿಸಿ - ವರ್ಚುವಲ್ ಐಒಟಿ ಹಾರ್ಡ್‌ವೇರ್ ಮತ್ತು ರಾಸ್ಬೆರಿ ಪಿ
 
 ಪಾಠದ ಈ ಭಾಗದಲ್ಲಿ, ನೀವು ಕ್ಯಾಮೆರಾ ಮೂಲಕ ಹಿಡಿದ ಚಿತ್ರವನ್ನು ಕಸ್ಟಮ್ ವಿಜೆನ್ ಸೇವೆಗೆ ಕಳುಹಿಸಿ ಅದನ್ನು ವರ್ಗೀಕರಿಸುವಿರಿ.

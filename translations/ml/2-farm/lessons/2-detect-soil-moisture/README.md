@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "4fb20273d299dc8d07a8f06c9cd0cdd9",
-  "translation_date": "2026-01-07T05:06:45+00:00",
-  "source_file": "2-farm/lessons/2-detect-soil-moisture/README.md",
-  "language_code": "ml"
-}
--->
 # മണ്ണിലെ ഈർപ്പം കണ്ടെത്തൽ
 
 ![ഈ പാഠത്തിന്റെ ഒരു സ്‌കെച്ച്നോട്ട് അവലോകണം](../../../../../translated_images/ml/lesson-6.3e493b60eee85adc.webp)

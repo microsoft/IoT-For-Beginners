@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "750bd75866471141f857240219084767",
-  "translation_date": "2026-01-07T01:57:05+00:00",
-  "source_file": "1-getting-started/lessons/2-deeper-dive/assignment.md",
-  "language_code": "kn"
-}
--->
 # ಮೈಕ್ರೋಕಂಟ್ರೋಲರ್‌ಗಳು ಮತ್ತು ಸಿಂಗಲ್-ಬೋರ್ಡ್ ಕಂಪ್ಯೂಟರ್‌ಗಳನ್ನು ಹೋಲಿಸಿ ಮತ್ತು ವಿರೋಧಿಸಿ
 
 ## ಸೂಚನೆಗಳು

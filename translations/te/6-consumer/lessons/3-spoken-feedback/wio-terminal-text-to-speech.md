@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "a202fa5889790a3777bfc33dd9f4b459",
-  "translation_date": "2026-01-07T02:53:16+00:00",
-  "source_file": "6-consumer/lessons/3-spoken-feedback/wio-terminal-text-to-speech.md",
-  "language_code": "te"
-}
--->
 # మాటల్ని మాట్లాడటానికి - Wio టెర్మినల్
 
 ఈ పాఠం భాగంలో, మీరు మాటల్ని మాట్లాడటానికి మార్చి మాట్లాడే ఫీడ్బ్యాక్ ఇవ్వబోతున్నారు.

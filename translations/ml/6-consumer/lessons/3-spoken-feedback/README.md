@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "b73fe10ec6b580fba2affb6f6e0a5c4d",
-  "translation_date": "2026-01-07T03:02:28+00:00",
-  "source_file": "6-consumer/lessons/3-spoken-feedback/README.md",
-  "language_code": "ml"
-}
--->
 # ടൈമർ സെറ്റ് ചെയ്യുക এবং പോഡ് ഫീഡ്‌బാക്ക് നൽകുക
 
 ![ഈ പാഠത്തിന്റെ സ്കെച്‌നോട്ട് അവലോകനം](../../../../../translated_images/ml/lesson-23.f38483e1d4df4828.webp)

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "81c437c568eee1b0dda1f04e88150d37",
-  "translation_date": "2026-01-07T05:33:31+00:00",
-  "source_file": "2-farm/lessons/6-keep-your-plant-secure/README.md",
-  "language_code": "te"
-}
--->
 # మీ మొక్కను భద్రంగా ఉంచుకోండి
 
 ![ఈ పాఠం యొక్క స్కెచ్‌నోట్ అవలోకనం](../../../../../translated_images/te/lesson-10.829c86b80b9403bb.webp)

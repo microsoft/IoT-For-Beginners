@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "7678f7c67b97ee52d5727496dcd7d346",
-  "translation_date": "2026-01-07T06:26:33+00:00",
-  "source_file": "2-farm/lessons/1-predict-plant-growth/pi-temp.md",
-  "language_code": "kn"
-}
--->
 # ತಾಪಮಾನವನ್ನು ಅಳತೆಮಾಡಿ - ರಾಸ್ಪबेರಿ ಪೈ
 
 ಪಾಠದ ಈ ಭಾಗದಲ್ಲಿ, ನಿಮ್ಮ ರಾಸ್ಪಬೆರಿ ಪೈಗೆ ತಾಪಮಾನ ಸೆನ್ಸಾರ್ ಅನ್ನು ಸೇರಿಸುವಿರಿ.

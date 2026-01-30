@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "c0550b254b9ba2539baf1e6bb5fc05f8",
-  "translation_date": "2026-01-07T03:23:44+00:00",
-  "source_file": "6-consumer/lessons/1-speech-recognition/virtual-device-speech-to-text.md",
-  "language_code": "ml"
-}
--->
 # വാചകം മുതൽ എഴുത്ത് - വെർച്വൽ ഐഒടി ഡിവൈസ്
 
 പാഠത്തിന്റെ ഈ ഭാഗത്തിൽ, നിങ്ങളുടെ മൈക്രോഫോണിൽ നിന്നു ശബ്ദം എടുക്കുകയും അത് വാചക സേവനം ഉപയോഗിച്ച് എഴുത്തായി മാറ്റുകയും ചെയ്യുന്ന കോഡ് എഴുതും.

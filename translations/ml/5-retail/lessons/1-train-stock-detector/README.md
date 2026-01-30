@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "8df310a42f902139a01417dacb1ffbef",
-  "translation_date": "2026-01-07T04:18:05+00:00",
-  "source_file": "5-retail/lessons/1-train-stock-detector/README.md",
-  "language_code": "ml"
-}
--->
 # സ്റ്റോക്ക് കണ്ടെത്തിയ്ക്കുന്ന മോഡൽ ട്രെയ്ൻ ചെയ്യുക
 
 ![ഈ പാഠത്തിന്റെ സ്കെച്‍നോട്ട് അവലോകനം](../../../../../translated_images/ml/lesson-19.cf6973cecadf080c.webp)

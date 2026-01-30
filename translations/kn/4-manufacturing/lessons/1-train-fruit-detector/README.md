@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "f5e63c916d2dd97d58be12aaf76bd9f1",
-  "translation_date": "2026-01-07T06:30:32+00:00",
-  "source_file": "4-manufacturing/lessons/1-train-fruit-detector/README.md",
-  "language_code": "kn"
-}
--->
 # ಹಣ್ಣುಗಳ ಗುಣಮಟ್ಟ ಪತ್ತೆಹಚ್ಚುವ ಸಾಧನವನ್ನು ತರಬೇತಿ ಮಾಡಿ
 
 ![ಈ ಪಾಠದ ಸ್ಕೆಚ್‌ನೋಟ್ ಅವಲೋಕನ](../../../../../translated_images/kn/lesson-15.843d21afdc6fb2bb.webp)

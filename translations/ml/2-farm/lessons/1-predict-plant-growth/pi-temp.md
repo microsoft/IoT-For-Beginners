@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "7678f7c67b97ee52d5727496dcd7d346",
-  "translation_date": "2026-01-07T06:25:51+00:00",
-  "source_file": "2-farm/lessons/1-predict-plant-growth/pi-temp.md",
-  "language_code": "ml"
-}
--->
 # താപനില അളക്കുക - Raspberry Pi
 
 പാഠത്തിന്റെ ഈ ഭാഗത്തിൽ, നിങ്ങൾ നിങ്ങളുടെ Raspberry Pi-യിലേക്ക് ഒരു താപനില സെൻസർ ചേർക്കും.

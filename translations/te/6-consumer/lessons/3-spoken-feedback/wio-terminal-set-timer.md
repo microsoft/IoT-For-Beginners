@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "012b69d57d898d670adf61304f42a137",
-  "translation_date": "2026-01-07T02:57:30+00:00",
-  "source_file": "6-consumer/lessons/3-spoken-feedback/wio-terminal-set-timer.md",
-  "language_code": "te"
-}
--->
 # టైమర్‌ను సెట్ చేయండి - Wio టెర్మినల్
 
 ఈ పాఠం భాగంలో, మీరు మీ సర్వర్‌లెస్ కోడ్ను పిలిచి మాట్లాడు உணரును అర్థం చేసుకోవడానికి, మరియు ఫలితాల ఆధారంగా Wio టెర్మినల్‌పై టైమర్‌ని సెట్ చేయడానికి ఉపయోగిస్తారు.

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "f8f541ee945545017a51aaf309aa37c3",
-  "translation_date": "2026-01-07T05:22:34+00:00",
-  "source_file": "2-farm/lessons/3-automated-plant-watering/virtual-device-relay.md",
-  "language_code": "te"
-}
--->
 # రిలేను నియంత్రించండి - వర్చువల్ IoT హార్డ్‌వేర్
 
 పాఠం యొక్క ఈ భాగంలో, మీరు మీ వర్చువల్ IoT డివైస్‌లో మీ మట్టి తేమ సెన్సార్‌కు అదనంగా ఒక రిలేను చేర్చి, మట్టి తేమ స్థాయిపై ఆధారపడి ఆrelaeను నియంత్రించనున్నారు.

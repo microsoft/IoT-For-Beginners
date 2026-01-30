@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "1a85e50c33c38dcd2cde2a97d132f248",
-  "translation_date": "2026-01-07T07:18:39+00:00",
-  "source_file": "4-manufacturing/lessons/4-trigger-fruit-detector/assignment.md",
-  "language_code": "kn"
-}
--->
 # ಹಣ್ಣು ಗುಣಮಟ್ಟ ಪತ್ತೆಗೊಳಿಸುವ ಯಂತ್ರವನ್ನು ನಿರ್ಮಿಸಿ
 
 ## ಸೂಚನೆಗಳು

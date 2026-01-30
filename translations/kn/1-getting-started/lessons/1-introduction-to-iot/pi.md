@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "8ff0d0a1d29832bb896b9c103b69a452",
-  "translation_date": "2026-01-07T02:35:45+00:00",
-  "source_file": "1-getting-started/lessons/1-introduction-to-iot/pi.md",
-  "language_code": "kn"
-}
--->
 # ರಾಮ್‌ಸ್ಪೆರಿ ಪೈ
 
 [Raspberry Pi](https://raspberrypi.org) ಒಂದು ಸಿಂಗಲ್-ಬೋರ್ಡ್ ಕಂಪ್ಯೂಟರ್ ಆಗಿದೆ. ನೀವು ವಿಸ್ತೃತವಾದ ಸಾಧನಗಳು ಮತ್ತು ಪರಿಸರಗಳನ್ನು ಬಳಸಿ ಸೆನ್ಸರ್‌ಗಳು ಮತ್ತು ಆಕ್ಟ್ಯುಯೇಟರ್‌ಗಳನ್ನು ಸೇರಿಸಬಹುದು, ಮತ್ತು ಈ ಪಾಠಗಳಿಗೆ Grove ಎಂಬ हार್ಡ್‌ವೇರ್ ಇಕೋಸಿಸ್ಟಂ ಬಳಸಿ. ನೀವು ಪೈಯಲ್ಲಿ Python ಬಳಸಿ Grove ಸೆನ್ಸರ್‌ಗಳನ್ನು ಪ್ರೋಗ್ರಾಂ ಮಾಡಲಿದ್ದೀರಿ.

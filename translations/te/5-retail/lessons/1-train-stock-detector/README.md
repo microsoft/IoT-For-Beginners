@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "8df310a42f902139a01417dacb1ffbef",
-  "translation_date": "2026-01-07T04:17:16+00:00",
-  "source_file": "5-retail/lessons/1-train-stock-detector/README.md",
-  "language_code": "te"
-}
--->
 # స్టాక్ డిటెక్టర్ ను శిక్షణ ఇవ్వండి
 
 ![ఈ పాఠం యొక్క స్కెచ్నోట్ అవలోకనం](../../../../../translated_images/te/lesson-19.cf6973cecadf080c.webp)

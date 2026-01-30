@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "d105b44deae539165855c976dcdeca99",
-  "translation_date": "2026-01-07T06:19:31+00:00",
-  "source_file": "2-farm/lessons/1-predict-plant-growth/README.md",
-  "language_code": "kn"
-}
--->
 # ಐಓಟಿ ಬಳಸಿ ಸಸ್ಯಗಳ ಬೆಳವಣಿಗೆಯನ್ನು ಊಹಿಸು
 
 ![ಈ ಪಾಠದ ಸ್ಕೆಚ್โนಟ್ ಅವಲೋಕನ](../../../../../translated_images/kn/lesson-5.42b234299279d263.webp)

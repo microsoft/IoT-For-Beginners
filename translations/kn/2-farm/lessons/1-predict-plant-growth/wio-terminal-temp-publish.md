@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "df28cd649cd892bcce034e064913b2f3",
-  "translation_date": "2026-01-07T06:13:16+00:00",
-  "source_file": "2-farm/lessons/1-predict-plant-growth/wio-terminal-temp-publish.md",
-  "language_code": "kn"
-}
--->
 # ತಾಪಮಾನವನ್ನು ಪ್ರಕಟಿಸಿ - ವಿಯೋ ಟರ್ಮಿನಲ್
 
 ಈ ಪಾಠದ ಭಾಗದಲ್ಲಿ, ನೀವು ವಿಯೋ ಟರ್ಮಿನಲ್ ಕಂಡುಹಿಡಿದ ತಾಪಮಾನ ಮೌಲ್ಯಗಳನ್ನು MQTT ಮೂಲಕ ಪ್ರಕಟಿಸುತ್ತೀರಿ ಹೀಗಾಗಿ ಅವುಗಳನ್ನು ನಂತರ GDD ಲೆಕ್ಕಹಾಕಲು ಬಳಸಬಹುದು.

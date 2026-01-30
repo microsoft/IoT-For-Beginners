@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "7e9f05bdc50a40fd924b1d66934471bf",
-  "translation_date": "2026-01-07T07:10:36+00:00",
-  "source_file": "4-manufacturing/lessons/4-trigger-fruit-detector/virtual-device-proximity.md",
-  "language_code": "kn"
-}
--->
 # ಹತ್ತಿರವನ್ನು ಕಂಡುಹಿಡಿ - ವಾಸ್ತವಿಕ IoT ಹาร์ಡ್ವೇರ್
 
 ಪಾಠದ ಈ ಭಾಗದಲ್ಲಿ, ನೀವು ನಿಮ್ಮ ವಾಸ್ತವಿಕ IoT ಸಾಧನಕ್ಕೆ ಹತ್ತಿರದ ಸೆನ್ಸಾರನ್ನು ಸೇರಿಸಿ, ಅದರಿಂದ ದೂರವನ್ನು ಓದಲು ಮಾಡುತ್ತೀರಿ.

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "9c640f93263fd9adbfda920739e09feb",
-  "translation_date": "2026-01-07T02:09:10+00:00",
-  "source_file": "1-getting-started/lessons/3-sensors-and-actuators/virtual-device-actuator.md",
-  "language_code": "ml"
-}
--->
 # ഒരു നൈറ്റ്‌ലൈറ്റ് നിർമ്മിക്കുക - വിർച്വൽ ഇന്റർനെറ്റ് ഓഫ് തിംഗ്‌സ് ഹാർഡ്‌വെയർ
 
 പാഠത്തിന്റെ ഈ ഭാഗത്തിൽ, നിങ്ങൾക്ക് നിങ്ങളുടെ വിർച്വൽ IoT ഉപകരണത്തിൽ ഒരു LED ചേർക്കുകയും അതുപയോഗിച്ച് ഒരു നൈറ്റ്‌ലൈറ്റ് സൃഷ്ടിക്കുകയും ചെയ്യും.

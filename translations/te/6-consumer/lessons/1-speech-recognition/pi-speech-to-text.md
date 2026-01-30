@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "af249a24d4fe4f4de4806adbc3bc9d86",
-  "translation_date": "2026-01-07T03:19:34+00:00",
-  "source_file": "6-consumer/lessons/1-speech-recognition/pi-speech-to-text.md",
-  "language_code": "te"
-}
--->
 # స్పీచ్ టు టెక్స్ట్ - రాస్ప్బెర్రిపై
 
 ఈ భాగంలో, మీరు క్యాప్చర్ చేసిన ఆడియోలోని స్పీచ్‌ను టెక్స్ట్‌గా మార్చడానికి స్పీచ్ సర్వీస్ ఉపయోగించడానికై కోడ్ రాస్తారు.

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "f74f4ccb61f00e5f7e9f49c3ed416e36",
-  "translation_date": "2026-01-07T07:13:53+00:00",
-  "source_file": "4-manufacturing/lessons/4-trigger-fruit-detector/README.md",
-  "language_code": "te"
-}
--->
 # సెన్సార్ నుండి పండు నాణ్యత గుర్తింపు ట్రిగ్గర్ చేయడం
 
 ![ఈ పాఠానికి సంబంధించిన స్కెచ్โนట్ అవలోకనం](../../../../../translated_images/te/lesson-18.92c32ed1d354caa5.webp)

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "b73fe10ec6b580fba2affb6f6e0a5c4d",
-  "translation_date": "2026-01-07T03:03:29+00:00",
-  "source_file": "6-consumer/lessons/3-spoken-feedback/README.md",
-  "language_code": "kn"
-}
--->
 # ಟೈಮರ್ ಅನ್ನು ಸೆಟ್ ಮಾಡಿ ಮತ್ತು ಮಾತಿನ ಪ್ರತಿಕ್ರಿಯೆಯನ್ನು ನೀಡಿ
 
 ![ಈ ಪಾಠದ ಸ್ಕೆಚ್‌ನೋಟ್ ಅವಲೋಕನ](../../../../../translated_images/kn/lesson-23.f38483e1d4df4828.webp)

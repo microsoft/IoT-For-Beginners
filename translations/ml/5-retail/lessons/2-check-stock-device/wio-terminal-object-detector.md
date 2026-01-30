@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "4cf1421420a6fab9ab4f2c391bd523b7",
-  "translation_date": "2026-01-07T03:57:59+00:00",
-  "source_file": "5-retail/lessons/2-check-stock-device/wio-terminal-object-detector.md",
-  "language_code": "ml"
-}
--->
 # നിങ്ങളുടെ IoT ഉപകരണത്തിൽ നിന്നുള്ള ഒബ്‌ജക്റ്റ് ഡിറ്റക്ടർ വിളിക്കുക - Wio ടെർമിനൽ
 
 ഒരു തവണ നിങ്ങളുടെ ഒബ്‌ജക്റ്റ് ഡിറ്റക്ടർ പ്രസിദ്ധീകരിച്ചുകഴിഞ്ഞാൽ, അത് നിങ്ങളുടെ IoT ഉപകരണത്തിൽ നിന്ന് ഉപയോഗിക്കാൻ കഴിയും.

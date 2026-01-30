@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "9bae08314d8487cb76ddf3d8797e1544",
-  "translation_date": "2026-01-07T02:48:21+00:00",
-  "source_file": "1-getting-started/lessons/1-introduction-to-iot/README.md",
-  "language_code": "te"
-}
--->
 # IoT పరిచయం
 
 ![ఈ పాఠం యొక్క స్కెచ్‌నోట్ సమీక్ష](../../../../../translated_images/te/lesson-1.2606670fa61ee904.webp)

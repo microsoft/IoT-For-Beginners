@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "8ff0d0a1d29832bb896b9c103b69a452",
-  "translation_date": "2026-01-07T02:34:48+00:00",
-  "source_file": "1-getting-started/lessons/1-introduction-to-iot/pi.md",
-  "language_code": "ml"
-}
--->
 # Raspberry Pi
 
 [Raspberry Pi](https://raspberrypi.org) ഒരു സിംഗിൾ-ബോർഡ് കമ്പ്യൂട്ടറാണ്. നിരവധി ഉപകരണങ്ങളും ഇക്കോസിസ്റ്റങ്ങളുമായി സെൻസറുകളും ആക്ചുവേറ്ററുകളും നിങ്ങൾക്ക് കൂട്ടിച്ചേർക്കാനാകും, ഈ പാഠങ്ങൾക്ക് Grove എന്ന ഹാർഡ്‌വെയർ ഇക്കോസിസ്റ്റം ഉപയോഗിക്കുന്നു ([Grove](https://www.seeedstudio.com/category/Grove-c-1003.html)). നിങ്ങളുടെ Pi കോഡ് ചെയ്ത് Grove സെൻസറുകളിലേക്ക് Python ഉപയോഗിച്ച് ആക്സസ് ചെയ്യും.

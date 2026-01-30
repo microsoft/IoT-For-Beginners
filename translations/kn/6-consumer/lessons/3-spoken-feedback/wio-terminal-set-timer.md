@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "012b69d57d898d670adf61304f42a137",
-  "translation_date": "2026-01-07T02:58:57+00:00",
-  "source_file": "6-consumer/lessons/3-spoken-feedback/wio-terminal-set-timer.md",
-  "language_code": "kn"
-}
--->
 # ಟೈಮರ್ ಸೆಟ್ ಮಾಡಿ - Wio ಟರ್ಮಿನಲ್
 
 ಪಾಠದ ಈ ಭಾಗದಲ್ಲಿ, ನೀವು ಮಾತನಾಡಿದ ಮಾತನ್ನು ಅರ್ಥಮಾಡಿಕೊಳ್ಳಲು ನಿಮ್ಮ ಸರ್ವರ್‌ಲೆಸ್ ಕೋಡ್ ಅನ್ನು ಕರೆಮಾಡುತ್ತೀರಿ ಮತ್ತು ಫಲಿತಾಂಶಗಳ ಆಧಾರದ ಮೇಲೆ ನಿಮ್ಮ Wio ಟರ್ಮಿನಲ್‌ನಲ್ಲಿ ಟೈಮರ್ ಅನ್ನು ಸೆಟ್ ಮಾಡುತ್ತೀರಿ.

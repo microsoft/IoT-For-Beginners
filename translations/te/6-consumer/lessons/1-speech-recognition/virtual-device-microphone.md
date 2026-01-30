@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "7a65ee743f916276a2848b8a9491feb7",
-  "translation_date": "2026-01-07T03:15:59+00:00",
-  "source_file": "6-consumer/lessons/1-speech-recognition/virtual-device-microphone.md",
-  "language_code": "te"
-}
--->
 # మీ మైక్రోఫోన్ మరియు స్పీకర్లను కాన్ఫిగర్ చేయండి - వర్చువల్ IoT హార్డ్‌వేర్
 
 వర్చువల్ IoT హార్డ్‌వేర్ మీ కంప్యూటర్‌కు జోడించిన మైక్రోఫోన్ మరియు స్పీకర్లను ఉపయోగిస్తుంది.

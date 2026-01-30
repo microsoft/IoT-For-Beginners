@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "c527ce85d69b1a3875366ec61cbed8aa",
-  "translation_date": "2026-01-07T02:27:24+00:00",
-  "source_file": "1-getting-started/lessons/4-connect-internet/single-board-computer-commands.md",
-  "language_code": "kn"
-}
--->
 # ಇಂಟરનેಟ್ ಮೂಲಕ ನಿಮ್ಮ ನೈಟ್‌ಲೈಟ್ ನಿಯಂತ್ರಿಸಿ - ವರ್ಚುವಲ್ ಐಒಟಿ ಹಾರ್ಡ್‌ವೇರ್ ಮತ್ತು ರಾಸ್ಪ್ಬೆರ್ರಿ ಪೈ
 
 ಪಾಠದ ಈ ಭಾಗದಲ್ಲಿ, ನೀವು MQTT ಬ್ರೋಕರ್‌ನಿಂದ ನಿಮ್ಮ ರಾಸ್ಪ್ಬೆರ್ರಿ ಪೈ ಅಥವಾ ವರ್ಚುವಲ್ ಐಒಟಿ ಸಾಧನಕ್ಕೆ ಕಳುಹಿಸಲಾದ ಕಮಾಂಡ್‌ಗಳನ್ನು ಸಬ್ಸ್‌ಕ್ರೈಬ್ ಮಾಡುತ್ತೀರಿ.

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "1226517aae5f5b6f904434670394c688",
-  "translation_date": "2026-01-07T02:21:14+00:00",
-  "source_file": "1-getting-started/lessons/4-connect-internet/single-board-computer-telemetry.md",
-  "language_code": "kn"
-}
--->
 # ನಿಮ್ಮ ರಾತ್ರಿ ಬೆಳಕನ್ನು ಇಂಟರ್ನೆಟ್ ಮೂಲಕ ನಿಯಂತ್ರಿಸಿ - ವರ್ಚುವಲ್ ಐಒಟಿ ಹಾರ್ಡ್‌ವೇರ್ ಮತ್ತು ರಾಸ್ಪ್ಬೆರಿ ಪೈ
 
 ಪಾಠದ ಈ ಭಾಗದಲ್ಲಿ, ನೀವು ನಿಮ್ಮ ರಾಸ್ಪ್ಬೆರಿ ಪೈ ಅಥವಾ ವರ್ಚುವಲ್ ಐಒಟಿ ಸಾಧನದಿಂದ ಬೆಳಕಿನ ಮಟ್ಟಗಳೊಂದಿಗೆ ಟೆಲಿಮೆಟ್ರಿ ಅನ್ನು MQTT ಬ್ರೋಕರ್‌ಗೆ ಕಳುಹಿಸುವಿರಿ.

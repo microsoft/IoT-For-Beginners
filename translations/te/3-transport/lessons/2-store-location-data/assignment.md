@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "b2e0a965723082b068f735aec0faf3f6",
-  "translation_date": "2026-01-07T04:59:31+00:00",
-  "source_file": "3-transport/lessons/2-store-location-data/assignment.md",
-  "language_code": "te"
-}
--->
 # ఫంక్షన్ బైండింగ్స్ పరిశీలించండి
 
 ## సూచనలు

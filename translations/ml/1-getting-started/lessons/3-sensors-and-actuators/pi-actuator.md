@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "4db8a3879a53490513571df2f6cf7641",
-  "translation_date": "2026-01-07T02:11:10+00:00",
-  "source_file": "1-getting-started/lessons/3-sensors-and-actuators/pi-actuator.md",
-  "language_code": "ml"
-}
--->
 # ഒരു നൈറ്റ്‌ലൈറ്റ് നിർമ്മിക്കുക - റാസ്‌പ്ബെറി പൈ
 
 ഈ പാഠഭാഗത്തില്‍, നിങ്ങൾ നിങ്ങളുടെ റാസ്‌പ്ബെറി പൈയിൽ ഒരു LED ചേർക്കുകയും അതുപയോഗിച്ച് ഒരു നൈറ്റ്‌ലൈറ്റ് സൃഷ്ടിക്കുകയും ചെയ്യും.

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "d620a470d9dd8614d99824832978360a",
-  "translation_date": "2026-01-07T03:42:20+00:00",
-  "source_file": "6-consumer/lessons/4-multiple-language-support/virtual-device-translate-speech.md",
-  "language_code": "te"
-}
--->
 # వాయిస్‌ను అనువదించు - వర్చువల్ IoT డివైస్
 
 పాఠంలోని ఈ భాగంలో, మీరు స్పీచ్ సర్వీస్ ఉపయోగించి మాట్లాడే మాటను టెక్స్ట్‌గా మార్చేటపుడు అనువదించే కోడ్ రాస్తారు, తరువాత ట్రాన్స్‌లేటర్ సర్వీస్ ఉపయోగించి టెక్స్ట్‌ను అనువదించి, ఆపై మాట్లాడే స్పందనను సృష్టిస్తారు.

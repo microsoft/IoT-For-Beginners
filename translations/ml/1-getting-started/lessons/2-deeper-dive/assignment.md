@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "750bd75866471141f857240219084767",
-  "translation_date": "2026-01-07T01:56:48+00:00",
-  "source_file": "1-getting-started/lessons/2-deeper-dive/assignment.md",
-  "language_code": "ml"
-}
--->
 # മൈക്രോകൺട്രോളറുകൾക്കും സിംഗിൾ-ബോർഡ് കമ്പ്യൂട്ടറുകൾക്കും ഇടയിലുള്ള താരതമ്യം
 
 ## നിർദേശങ്ങൾ

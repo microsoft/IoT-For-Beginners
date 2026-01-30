@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "0d55caa8c23d73635b7559102cd17b8a",
-  "translation_date": "2026-01-07T05:02:54+00:00",
-  "source_file": "2-farm/lessons/2-detect-soil-moisture/wio-terminal-soil-moisture.md",
-  "language_code": "ml"
-}
--->
 # മണ്ണിലെ ഈർപ്പം അളക്കുക - Wio ടെർമിനൽ
 
 പാഠത്തിന്റെ ഈ ഭാഗത്തിൽ, നിങ്ങൾ നിങ്ങളുടെ Wio ടെർമിനലിൽ ഒരു capacitive മണ്ണ് ഈർപ്പം സെൻസർ ചേർക്കും, അതിൽ നിന്ന് മൂല്യം വായിക്കും.

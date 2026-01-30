@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "64f18a8f8aaa1fef5e7320e0992d8b3a",
-  "translation_date": "2026-01-07T04:32:42+00:00",
-  "source_file": "3-transport/lessons/1-location-tracking/virtual-device-gps-sensor.md",
-  "language_code": "te"
-}
--->
 # GPS డేటాను చదవండి - వర్చువల్ IoT హార్డ్‌వేర్
 
 పాఠం యొక్క ఈ భాగంలో, మీరు మీ వర్చువల్ IoT పరికరానికి GPS సెన్సార్‌ను జోడించబోతున్నారు, మరియు దానిలో నుండి విలువలను చదువుతారు.

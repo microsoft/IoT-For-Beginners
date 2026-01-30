@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "9aea84bcc7520222b0e1c50469d62d6a",
-  "translation_date": "2026-01-07T05:32:51+00:00",
-  "source_file": "2-farm/lessons/6-keep-your-plant-secure/single-board-computer-x509.md",
-  "language_code": "ml"
-}
--->
 # X.509 സർട്ടിഫിക്കറ്റ് നിങ്ങളുടെ ഡിവൈസ് കോഡിൽ ഉപയോഗിക്കുക - വെർച്വൽ IoT ഹാർഡ്‌വെയറും Raspberry Piയും
 
 പാഠത്തിന് ഈ ഭാഗത്തിൽ, നിങ്ങൾ നിങ്ങളുടെ വെർച്വൽ IoT ഡിവൈസിനെ അല്ലെങ്കിൽ Raspberry Pi-നെ X.509 സർട്ടിഫിക്കറ്റ് ഉപയോഗിച്ച് നിങ്ങളുടെ IoT ഹബുമായി ബന്ധിപ്പിക്കും.

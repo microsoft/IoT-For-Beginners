@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "9d4d00a47d5d0f3e6ce42c0d1020064a",
-  "translation_date": "2026-01-07T05:01:43+00:00",
-  "source_file": "2-farm/lessons/2-detect-soil-moisture/pi-soil-moisture.md",
-  "language_code": "kn"
-}
--->
 # ಮಣ್ಣು ತೇವಾಂಶವನ್ನು ಅಳೆಯಿರಿ - ರಾಸ್ಬೆರ್ರಿ ಪೈ
 
 ಪಾಠದ ಈ ಭಾಗದಲ್ಲಿ, ನೀವು ನಿಮ್ಮ ರಾಸ್ಬೆರ್ರಿ ಪೈ ಗೆ ಕ್ಯಾಪಾಸಿಟಿವ್ ಮಣ್ಣು ತೇವಾಂಶ ಸೆನ್ಸಾರ್ ಅನ್ನು ಸೇರಿಸಿ, ಅದರ ಮೂಲಕ ಡೇಟಾ ಓದಲು ಕಲಿಯುತ್ತೀರಿ.

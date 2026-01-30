@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "288aebb0c59f7be1d2719b8f9660a313",
-  "translation_date": "2026-01-07T07:11:54+00:00",
-  "source_file": "4-manufacturing/lessons/4-trigger-fruit-detector/wio-terminal-proximity.md",
-  "language_code": "ml"
-}
--->
 # അടുത്തതായിരിക്കുക കണ്ടെത്തുക - Wio Terminal
 
 പാഠഭാഗത്തിന്റെ ഈ ഭാഗത്തിൽ, നിങ്ങൾ നിങ്ങളുടെ Wio Terminal-ലേക്ക് ഒരു അടുത്തതായിരിക്കുക സെൻസർ ചേർക്കുകയും അതിൽനിന്ന് ദൂരം വായിക്കയും ചെയ്യും.

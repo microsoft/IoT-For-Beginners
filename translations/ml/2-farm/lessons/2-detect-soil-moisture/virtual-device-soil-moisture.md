@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "2bf65f162bcebd35fbcba5fd245afac4",
-  "translation_date": "2026-01-07T05:10:49+00:00",
-  "source_file": "2-farm/lessons/2-detect-soil-moisture/virtual-device-soil-moisture.md",
-  "language_code": "ml"
-}
--->
 # മണ്ണിലെ ഈർപ്പം അളക്കുക - വിർച്വൽ IoT ഹാർഡ്‌വെയർ
 
 പാഠത്തിന്റെ ഈ ഭാഗത്തിൽ, നിങ്ങൾക്ക് നിങ്ങളുടെ വിർച്വൽ IoT ഉപകരണത്തിൽ ഒരു കപ്പാസിറ്റീവ് മൺമാവ് ഈർപ്പം സെൻസർ ചേർക്കുകയും അതിൽ നിന്നുള്ള വാലുകൾ വായിക്കുകയുമാണ്.

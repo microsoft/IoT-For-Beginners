@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "750bd75866471141f857240219084767",
-  "translation_date": "2026-01-07T01:56:30+00:00",
-  "source_file": "1-getting-started/lessons/2-deeper-dive/assignment.md",
-  "language_code": "te"
-}
--->
 # మైక్రోకంట్రోలర్లు మరియు సింగిల్-బోర్డ్ కంప్యూటర్లను పోల్చండి మరియు వ్యత్యాసాన్ని వివరించండి
 
 ## సూచనలు

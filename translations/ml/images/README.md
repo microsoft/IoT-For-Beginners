@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "50abd54997afa7e7a3fc7019379e49e3",
-  "translation_date": "2026-01-07T01:39:38+00:00",
-  "source_file": "images/README.md",
-  "language_code": "ml"
-}
--->
 # ചിത്രങ്ങൾ
 
 [icons](../../../images/icons) ഫോളഡറിലുള്ള ചിത്രങ്ങൾ [Noun Project](https://thenounproject.com) നിന്നുള്ളവയാണ്, കൂടാതെ അവയ്ക്ക് attribution ആവശ്യമാണ്. ഓരോ ചിത്രവും ആവശ്യമായ attribution ലിസ്റ്റ് ചെയ്യുന്നു. ഈ ചിത്രങ്ങൾ ദൃശ്യ സമരാസ്യം നിലനിർത്താൻ ആവശ്യമായ ഏതൊരു രേഖാചിത്രത്തിനും ഉപയോഗിക്കണം.

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "3f92edf2975175577174910caca4a389",
-  "translation_date": "2026-01-07T03:31:03+00:00",
-  "source_file": "6-consumer/lessons/1-speech-recognition/wio-terminal-speech-to-text.md",
-  "language_code": "te"
-}
--->
 # Speech to text - Wio Terminal
 
 ఈ పాఠం భాగంలో, మీరు స్పీచ్ సర్వీస్‌ను ఉపయోగించి క్యాప్చర్ చేసిన ఆడియోలోని మాటలను టెక్స్ట్‌గా మార్చడానికి కోడ్ రాస్తారు.

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "90fb93446e03c38f3c0e4009c2471906",
-  "translation_date": "2026-01-07T02:22:24+00:00",
-  "source_file": "1-getting-started/lessons/4-connect-internet/single-board-computer-mqtt.md",
-  "language_code": "ml"
-}
--->
 # ഇന്റർനെറ്റിലൂടെ നിങ്ങളുടെ നൈറ്റ്‌ലൈറ്റിനെ നിയന്ത്രിക്കുക - વર્ચ്വൽ IoT ഹാർഡ്‌വെയർ এবং റാസ്പ്ബെറി പൈ
 
 IoT ഉപകരണം *test.mosquitto.org* എന്ന MQTT ബ്രോക്കറുമായി നടത്തുന്ന ടെലിമെട്രി മൂല്യങ്ങൾ പ്രകാശ സെൻസർ വായനയോടെ അയക്കാനും LED നിയന്ത്രിക്കാൻ കമാൻഡുകൾ സ്വീകരിക്കാനും MQTT ഉപയോഗിച്ച് കോഡ് ചെയ്യേണ്ടതാണ്.

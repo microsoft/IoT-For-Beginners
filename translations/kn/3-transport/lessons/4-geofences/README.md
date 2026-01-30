@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "078ae664c7b686bf069545e9a5fc95b2",
-  "translation_date": "2026-01-07T04:29:40+00:00",
-  "source_file": "3-transport/lessons/4-geofences/README.md",
-  "language_code": "kn"
-}
--->
 # ಜಿಯೋಫೆನ್ಸಸ್
 
 ![ಈ ಪಾಠದ ಸ್ಕೆಚ್‌ನೋಟ ಸಂಕ್ಷಿಪ್ತ ವೀಕ್ಷಣೆ](../../../../../translated_images/kn/lesson-14.63980c5150ae3c15.webp)

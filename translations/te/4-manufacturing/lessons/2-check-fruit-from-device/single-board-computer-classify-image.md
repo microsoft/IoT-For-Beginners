@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "e5896207b304ce1abaf065b8acc0cc79",
-  "translation_date": "2026-01-07T06:50:11+00:00",
-  "source_file": "4-manufacturing/lessons/2-check-fruit-from-device/single-board-computer-classify-image.md",
-  "language_code": "te"
-}
--->
 # ఒక ఇమేజ్‌ను వర్గీకరించండి - వర్చువల్ IoT హార్డ్‌వేర్ మరియు రెస్ప్బెర్రీ పై
 
 దీనిలో మీరు కెమెరాతో సేకరించిన ఇమేజ్‌ని Custom Vision సేవకు పంపించి దానిని వర్గీకరించాలని చేస్తారు.

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "3ba7150ffc4a6999f6c3cfb4906ec7df",
-  "translation_date": "2026-01-07T06:44:13+00:00",
-  "source_file": "4-manufacturing/lessons/2-check-fruit-from-device/virtual-device-camera.md",
-  "language_code": "kn"
-}
--->
 # ಚಿತ್ರವನ್ನು ಹಿಡಿ - ವರ್ಚುವಲ್ ಐಒಟಿ ಹಾರ್ಡ್‌ವೇರ್
 
 ಈ ಪಾಠದ ಭಾಗದಲ್ಲಿ, ನೀವು ನಿಮ್ಮ ವರ್ಚುವಲ್ ಐಒಟಿ ಸಾಧನಕ್ಕೆ ಕ್ಯಾಮೆರಾ ಸೆನ್ಸರ್ ಅನ್ನು ಸೇರಿಸಿ, ಅದರಿಂದ ಚಿತ್ರಗಳನ್ನು ಓದುವಿರಿ.

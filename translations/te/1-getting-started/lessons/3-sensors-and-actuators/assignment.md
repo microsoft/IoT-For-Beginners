@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "c5a568320b1159394108544807895337",
-  "translation_date": "2026-01-07T02:16:01+00:00",
-  "source_file": "1-getting-started/lessons/3-sensors-and-actuators/assignment.md",
-  "language_code": "te"
-}
--->
 # సెన్సార్లు మరియు ఆక్ట్యుయేటర్లు యొక్క పరిశోధన
 
 ## సూచనలు

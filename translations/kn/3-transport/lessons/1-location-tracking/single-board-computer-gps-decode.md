@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "cbb8c285bc64c5192fae3368fb5077d2",
-  "translation_date": "2026-01-07T04:35:54+00:00",
-  "source_file": "3-transport/lessons/1-location-tracking/single-board-computer-gps-decode.md",
-  "language_code": "kn"
-}
--->
 # GPS ಡೇಟಾವನ್ನು ಡಿಕೋಡ್ ಮಾಡಿ - ವರ್ಚುವಲ್ ಐಒಟಿ ಹಾರ್ಡ್‌ವೇರ್ ಮತ್ತು ರಾಸ್ಪ್ಬೆರ್ರಿ ಪಾಯ್
 
 ಪಾಠದ ಈ ಭಾಗದಲ್ಲಿ, ನೀವು ರಾಸ್ಪ್ಬೆರ್ರಿ ಪಾಯ್ ಅಥವಾ ವರ್ಚುವಲ್ ಐಒಟಿ ಸಾಧನದಿಂದ GPS ಸೆンサーನಿಂದ ಓದಿದ NMEA ಸಂದೇಶಗಳನ್ನು ಡಿಕೋಡ್ ಮಾಡುತ್ತೀರಿ, ಮತ್ತು ಅಕ್ಷಾಂಶ ಮತ್ತು ರೇಖಾಂಶವನ್ನು ಹೊರತೀರಿಸುತ್ತೀರಿ.

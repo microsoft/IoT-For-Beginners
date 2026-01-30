@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "e5896207b304ce1abaf065b8acc0cc79",
-  "translation_date": "2026-01-07T06:50:41+00:00",
-  "source_file": "4-manufacturing/lessons/2-check-fruit-from-device/single-board-computer-classify-image.md",
-  "language_code": "ml"
-}
--->
 # ഒരു ചിത്രം വർഗ്ഗીકृत ചെയ്യുക - വേർച്വൽ ഐഒടി ഹാർഡ്‌വെയർ ಮತ್ತು റാസ്പ്ബെറി പൈ
 
 പാഠത്തിന്റെ ഈ ഭാഗത്തിൽ, ക്യാമറയിലൂടെ പിടിച്ചെടുത്ത ചിത്രം Custom Vision സർവിസിലേക്ക് അയച്ച് അതിനെ വർഗ്ഗീകരിക്കും.

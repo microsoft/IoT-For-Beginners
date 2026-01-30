@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "9d4d00a47d5d0f3e6ce42c0d1020064a",
-  "translation_date": "2026-01-07T05:01:10+00:00",
-  "source_file": "2-farm/lessons/2-detect-soil-moisture/pi-soil-moisture.md",
-  "language_code": "ml"
-}
--->
 # മണ്ണിലെ നനവ് അളക്കൽ - റാസ്ബെറി പൈ
 
 പാഠത്തിന്റെ ഈ ഭാഗത്തിൽ, നിങ്ങൾ റാസ്ബെറി പൈയിൽ ഒരു കപ്പാസിറ്റീവ് മണ്ണ് നനവ് സെൻസർ ചേർത്ത് അതിൽ നിന്നുള്ള മൂല്യങ്ങൾ വായിക്കും.

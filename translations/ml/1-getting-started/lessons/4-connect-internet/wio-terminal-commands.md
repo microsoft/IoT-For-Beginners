@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "6754c915dae64ba70fcd5e52c37f3adf",
-  "translation_date": "2026-01-07T02:25:29+00:00",
-  "source_file": "1-getting-started/lessons/4-connect-internet/wio-terminal-commands.md",
-  "language_code": "ml"
-}
--->
 # ഇന്റർനെറ്റിൽ നിങ്ങളുടെ നൈറ്റ്‌ലൈറ്റ് നിയന്ത്രിക്കുക - Wio ടെർമിനൽ
 
 പാഠത്തിന്റെ ഈ ഭാഗത്തിൽ, നിങ്ങൾ നിങ്ങളുടെ Wio ടെർമിനലിലേക്ക് MQTT ബ്രോക്കറിൽ നിന്ന് അയയ്ക്കുന്ന കമാൻഡുകൾ സബ്സ്ക്രൈബ് ചെയ്യും.

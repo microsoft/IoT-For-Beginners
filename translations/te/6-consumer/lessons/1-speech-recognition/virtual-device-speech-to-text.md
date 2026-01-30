@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "c0550b254b9ba2539baf1e6bb5fc05f8",
-  "translation_date": "2026-01-07T03:23:13+00:00",
-  "source_file": "6-consumer/lessons/1-speech-recognition/virtual-device-speech-to-text.md",
-  "language_code": "te"
-}
--->
 # స్పీచ్ టు టెక్స్ట్ - వర్చ్యువల్ IoT డివైస్
 
 ఈ పాఠంలో, మీరు మీ మైక్రోఫోన్ నించి సేకరించిన స్పీచ్‌ను స్పీచ్ సర్వీస్ వాడి టెక్స్ట్‌గా మారుస్తూ కోడ్ రాయడం నేర్పుకుంటారు.

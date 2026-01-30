@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "2bf65f162bcebd35fbcba5fd245afac4",
-  "translation_date": "2026-01-07T05:11:28+00:00",
-  "source_file": "2-farm/lessons/2-detect-soil-moisture/virtual-device-soil-moisture.md",
-  "language_code": "kn"
-}
--->
 # ಮಣ್ಣು ತೇವಾಂಶವನ್ನು ಅಳೆ - ವರ್ಚುವಲ್ ಐಒಟಿ 하드웨어
 
 ಪಾಠದ ಈ ಭಾಗದಲ್ಲಿ, ನೀವು ನಿಮ್ಮ ವರ್ಚುವಲ್ ಐಒಟಿ ಸಾಧನಕ್ಕೆ ಕ್ಯಾಪಾಸಿಟಿವ್ ಮಣ್ಣು ತೇವಾಂಶ ಸೆನ್ಸರನ್ನು ಸೇರಿಸಲು ಮತ್ತು ಅದರಿಂದ ಮೌಲ್ಯಗಳನ್ನು ಓದಲು ಹೋಗುತ್ತೀರಿ.

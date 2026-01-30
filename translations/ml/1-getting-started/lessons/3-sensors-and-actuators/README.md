@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "e9ee00eb5fc55922a73762acc542166b",
-  "translation_date": "2026-01-07T02:13:30+00:00",
-  "source_file": "1-getting-started/lessons/3-sensors-and-actuators/README.md",
-  "language_code": "ml"
-}
--->
 # സെൻസറുകളും ആക്ചുവേറ്ററും ഉപയോഗിച്ചു ഭൗതിക ലോകവുമായി ഇടപഴകുക
 
 ![ഈ പാഠത്തിന്റെ സ്കെചനോട്ടിന്റെ അവലോകനം](../../../../../translated_images/ml/lesson-3.cc3b7b4cd646de59.webp)

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "f3c5d8afa2ef6a0b425ef8ff20615cb4",
-  "translation_date": "2026-01-07T05:25:41+00:00",
-  "source_file": "2-farm/lessons/3-automated-plant-watering/wio-terminal-relay.md",
-  "language_code": "kn"
-}
--->
 # ರಿಲೇನನ್ನು ನಿಯಂತ್ರಿಸಿ - Wio ಟರ್ಮಿನಲ್
 
 ಪಾಠದ ಈ ಭಾಗದಲ್ಲಿ, ನೀವು ನಿಮ್ಮ Wio ಟರ್ಮಿನಲ್ ಗೆ ಮಣ್ಣು ತೇವಾಂಶ ಸೆನ್ಸರ್ ಜೊತೆಗೆ ರಿಲೇ ಅನ್ನು ಸೇರಿಸುವಿರಿ ಮತ್ತು ಮಣ್ಣು ತೇವಾಂಶ ಮಟ್ಟದ ಆಧಾರದಲ್ಲಿ ಅದನ್ನು ನಿಯಂತ್ರಿಸುವಿರಿ.

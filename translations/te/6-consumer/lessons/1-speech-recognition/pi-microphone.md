@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "7e45d884493c5222348b43fbc4481b6a",
-  "translation_date": "2026-01-07T03:13:18+00:00",
-  "source_file": "6-consumer/lessons/1-speech-recognition/pi-microphone.md",
-  "language_code": "te"
-}
--->
 # మీ మైక్రోఫోన్ మరియు స్పీకర్స్‌ని కాన్ఫిగర్ చేయండి - రాస్ప్బెర్రీ పై
 
 పాఠం ఈ భాగంలో, మీరు మీ రాస్ప్బెర్రీ పైకి ఒక మైక్రోఫోన్ మరియు స్పీకర్లను జోడించబోతున్నారు.

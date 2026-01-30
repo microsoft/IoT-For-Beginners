@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "d6faf0e8d3c2d6d20c0aef2a305dab18",
-  "translation_date": "2026-01-07T02:18:26+00:00",
-  "source_file": "1-getting-started/lessons/4-connect-internet/wio-terminal-mqtt.md",
-  "language_code": "ml"
-}
--->
 # ഇന്റർനെറ്റിലൂടെ നിങ്ങളുടെ നൈറ്റ് ലൈറ്റ് നിയന്ത്രിക്കുക - Wio ടെർമിനൽ
 
 IoT ഡിവൈസിന് *test.mosquitto.org* ഉപയോഗിച്ച് MQTT വഴി ലൈറ്റ് സെൻസർ വായനകളിൽ നിന്നുള്ള ടെലിമെട്രി മൂല്യങ്ങൾ അയയ്ക്കാനും LED നിയന്ത്രിക്കാൻ കമാൻഡുകൾ സ്വീകരിക്കാനും കോഡുചെയ്യാൻ ആവശ്യമാണ്.

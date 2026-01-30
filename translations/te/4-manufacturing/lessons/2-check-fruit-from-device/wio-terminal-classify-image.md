@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "32a1f23e7834fbe7715da8c4ebb450b9",
-  "translation_date": "2026-01-07T06:35:46+00:00",
-  "source_file": "4-manufacturing/lessons/2-check-fruit-from-device/wio-terminal-classify-image.md",
-  "language_code": "te"
-}
--->
 # ఒక చిత్రం వర్గీకరించండి - Wio Terminal
 
 పాఠం ఈ భాగంలో, మీరు కెమెరా ద్వారా పొందిన చిత్రాన్ని కస్టమ్ విజన్ సర్వీస్కు పంపించి దాన్ని వర్గీకరిస్తారు.

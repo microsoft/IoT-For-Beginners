@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "c06b12caf3c901eb3156e3dd5b0aea56",
-  "translation_date": "2026-01-07T01:21:51+00:00",
-  "source_file": "CODE_OF_CONDUCT.md",
-  "language_code": "kn"
-}
--->
 # ಮೈಕ್ರೋಸಾಫ್ಟ್ ಓಪನ್ ಸೋರ್ಸ್ ಕೋಡ್ ಆಫ್ ಕಂಡಕ್ಟ್
 
 ಈ ಯೋಜನೆಯಲ್ಲಿ [ಮೈಕ್ರೋಸಾಫ್ಟ್ ಓಪನ್ ಸೋರ್ಸ್ ಕೋಡ್ ಆಫ್ ಕಂಡಕ್ಟ್](https://opensource.microsoft.com/codeofconduct/) ಅನ್ನು ಸ್ವೀಕರಿಸಲಾಗಿದೆ.

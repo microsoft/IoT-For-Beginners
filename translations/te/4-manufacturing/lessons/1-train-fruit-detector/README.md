@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "f5e63c916d2dd97d58be12aaf76bd9f1",
-  "translation_date": "2026-01-07T06:28:10+00:00",
-  "source_file": "4-manufacturing/lessons/1-train-fruit-detector/README.md",
-  "language_code": "te"
-}
--->
 # ఫలాల నాణ్యత డిటెక్టర్ ను శిక్షణ ఇవ్వడం
 
 ![ఈ పాఠం యొక్క స్కెచ్‌నోట్ అవలోకనం](../../../../../translated_images/te/lesson-15.843d21afdc6fb2bb.webp)

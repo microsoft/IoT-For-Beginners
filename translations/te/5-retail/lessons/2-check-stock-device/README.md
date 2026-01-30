@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "1c9e5fa8b7be726c75a97232b1e41c97",
-  "translation_date": "2026-01-07T04:08:15+00:00",
-  "source_file": "5-retail/lessons/2-check-stock-device/README.md",
-  "language_code": "te"
-}
--->
 # IoT పరికరం నుండి స్టాక్‌ను తనిఖీ చేయండి
 
 ![ఈ పాఠం యొక్క స్కెచ్‌నోట్ అవలోకనం](../../../../../translated_images/te/lesson-20.0211df9551a8abb3.webp)

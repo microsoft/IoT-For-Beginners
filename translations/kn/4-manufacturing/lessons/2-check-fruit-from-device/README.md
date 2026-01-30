@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "557f4ee96b752e0651d2e6e74aa6bd14",
-  "translation_date": "2026-01-07T06:55:06+00:00",
-  "source_file": "4-manufacturing/lessons/2-check-fruit-from-device/README.md",
-  "language_code": "kn"
-}
--->
 # ಐಒಟಿ ಸಾಧನದಿಂದ ಹಣ್ಣು ಗುಣಮಟ್ಟವನ್ನು ಪರಿಶೀಲಿಸಿ
 
 ![ಈ ಪಾಠದ ಸ್ಕೆಚ್‍ನೋಟ್ ಅವಲೋಕನ](../../../../../translated_images/kn/lesson-16.215daf18b00631fb.webp)

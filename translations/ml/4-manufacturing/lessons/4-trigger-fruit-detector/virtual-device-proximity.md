@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "7e9f05bdc50a40fd924b1d66934471bf",
-  "translation_date": "2026-01-07T07:09:59+00:00",
-  "source_file": "4-manufacturing/lessons/4-trigger-fruit-detector/virtual-device-proximity.md",
-  "language_code": "ml"
-}
--->
 # അടുത്തീളം കണ്ടെത്തുക - വെർച്വൽ IoT ഹാർഡ്‌വെയർ
 
 പാഠഭാഗത്തിൽ, നിങ്ങൾക്ക് നിങ്ങളുടെ വെർച്ച്വൽ IoT ഉപകരണത്തിലേക്ക് ഒരു അടുത്തീളം സെൻസർ ചേർത്ത് അതിൽ നിന്ന് ദൂരമിതം വായിക്കാനാകും.

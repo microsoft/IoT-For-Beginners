@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "28320305a35ea3bc59c41fe146a2e6ed",
-  "translation_date": "2026-01-07T05:48:17+00:00",
-  "source_file": "2-farm/lessons/4-migrate-your-plant-to-the-cloud/wio-terminal-connect-hub.md",
-  "language_code": "kn"
-}
--->
 # ನಿಮ್ಮ IoT ಸಾಧನವನ್ನು ಕ್ಲೌಡ್‌ಗೆ ಸಂಪರ್ಕಿಸಿ - Wio ಟರ್ಮಿನಲ್
 
 ಪಾಠದ ಈ ಭಾಗದಲ್ಲಿ, ನೀವು ನಿಮ್ಮ Wio ಟರ್ಮಿನಲ್ ಅನ್ನು ನಿಮ್ಮ IoT ಹಬ್‌ಗಳಿಗೆ ಸಂಪರ್ಕಿಸಿ, ಟೆಲಿಮೆಟ್ರಿ ಕಳುಹಿಸುವುದು ಮತ್ತು ಆದೇಶಗಳನ್ನು ಸ್ವೀಕರಿಸುವುದು.

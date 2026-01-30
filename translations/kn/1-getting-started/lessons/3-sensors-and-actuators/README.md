@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "e9ee00eb5fc55922a73762acc542166b",
-  "translation_date": "2026-01-07T02:14:48+00:00",
-  "source_file": "1-getting-started/lessons/3-sensors-and-actuators/README.md",
-  "language_code": "kn"
-}
--->
 # ಸಂವೇದಕಗಳು ಮತ್ತು ಚಲಕಗಳ ಮೂಲಕ ಭೌತಿಕ ಜಗತ್ತಿನೊಂದಿಗೆ ಸಂವಹನ ಮಾಡಿ
 
 ![ಈ ಪಾಠದ ಸ್ಕೆಚ್ ನೋಟಿನ ಅವಲೋಕನ](../../../../../translated_images/kn/lesson-3.cc3b7b4cd646de59.webp)

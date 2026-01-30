@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "70e5a428b607cd5a9a4f422c2a4df03d",
-  "translation_date": "2026-01-07T06:06:19+00:00",
-  "source_file": "2-farm/lessons/1-predict-plant-growth/virtual-device-temp.md",
-  "language_code": "ml"
-}
--->
 # താപനില അളക്കുക - വെർച്വൽ ഐഒടി ഹാർഡ്‌വെയർ
 
 പാഠത്തിന്റെ ഈഭാഗത്തിലും, നിങ്ങൾ നിങ്ങളുടെ വെർച്വൽ ഐഒടി ഉപകരണത്തിലേക്ക് ഒരു താപനില സെൻസർ ചേർക്കും.

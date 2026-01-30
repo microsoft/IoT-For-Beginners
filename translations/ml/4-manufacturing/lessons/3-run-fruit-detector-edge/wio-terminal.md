@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "48ac21ec80329c930db7b84bd6b592ec",
-  "translation_date": "2026-01-07T06:59:22+00:00",
-  "source_file": "4-manufacturing/lessons/3-run-fruit-detector-edge/wio-terminal.md",
-  "language_code": "ml"
-}
--->
 # IoT Edge ആಧാരിത ഇമേജ് ക്ലാസിഫയറെ ഉപയോഗിച്ച് ഒരു ചിത്രം വർഗ്ഗീകരിക്കുക - Wio ടെർമിനൽ
 
 പാഠത്തിന്റെ ഈ ഭാഗത്തിൽ, നിങ്ങൾ IoT Edge ഉപകരണത്തിൽ ഒരുങ്ങിയിരിക്കുന്ന ഇമേജ് ക്ലാസിഫയർ ഉപയോഗിക്കും.

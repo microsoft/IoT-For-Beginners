@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "4cf1421420a6fab9ab4f2c391bd523b7",
-  "translation_date": "2026-01-07T03:57:24+00:00",
-  "source_file": "5-retail/lessons/2-check-stock-device/wio-terminal-object-detector.md",
-  "language_code": "te"
-}
--->
 # మీ IoT డివైస్ నుండి మీ ఆబ్జెక్ట్ డిటెక్టర్‌ను కాల్ చేయండి - Wio టర్మినల్
 
 మీ ఆబ్జెక్ట్ డిటెక్టర్ ప్రచురించబడిన తర్వాత, అది మీ IoT డివైస్ నుండి ఉపయోగించవచ్చు.

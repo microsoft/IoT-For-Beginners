@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "3ba7150ffc4a6999f6c3cfb4906ec7df",
-  "translation_date": "2026-01-07T06:43:22+00:00",
-  "source_file": "4-manufacturing/lessons/2-check-fruit-from-device/virtual-device-camera.md",
-  "language_code": "ml"
-}
--->
 # ഒരു ചിത്രം പിടിക്കുക - വെർച്വൽ IoT ഹാർഡ്‌വെയർ
 
 പാഠത്തിന്റെ ഈ ഭാഗത്ത്, നിങ്ങൾ നിങ്ങളുടെ വെർച്വൽ IoT ഉപകരണത്തിൽ ഒരു ക്യാമറ സെൻസർ ചേർക്കുകയും അതിൽ നിന്ന് ചിത്രങ്ങൾ വായിക്കുകയും ചെയ്യും.

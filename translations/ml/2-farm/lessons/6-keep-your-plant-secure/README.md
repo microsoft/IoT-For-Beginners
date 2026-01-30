@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "81c437c568eee1b0dda1f04e88150d37",
-  "translation_date": "2026-01-07T05:40:18+00:00",
-  "source_file": "2-farm/lessons/6-keep-your-plant-secure/README.md",
-  "language_code": "ml"
-}
--->
 # നിങ്ങളുടെ തോട്ടം സുരക്ഷിതമാക്കുക
 
 ![ഈ പാഠത്തിന്റെ ഒരു സ്കെച്ച്നോട്ട് അവലോകനം](../../../../../translated_images/ml/lesson-10.829c86b80b9403bb.webp)

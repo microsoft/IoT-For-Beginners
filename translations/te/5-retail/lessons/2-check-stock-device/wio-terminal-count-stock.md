@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "0b2ae20b0fc8e73c9598dea937cac038",
-  "translation_date": "2026-01-07T03:59:11+00:00",
-  "source_file": "5-retail/lessons/2-check-stock-device/wio-terminal-count-stock.md",
-  "language_code": "te"
-}
--->
 # మీ IoT పరికరం నుండి స్టాక్ ని లెక్కించండి - Wio టర్మినల్
 
 పరిణామాలు మరియు వాటి బౌండింగ్ బాక్స్‌ల కలయికను ఉపయోగించి చిత్రంలో స్టాక్‌ను లెక్కించవచ్చు.

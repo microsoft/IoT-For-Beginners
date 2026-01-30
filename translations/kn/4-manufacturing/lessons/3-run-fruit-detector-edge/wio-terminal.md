@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "48ac21ec80329c930db7b84bd6b592ec",
-  "translation_date": "2026-01-07T06:59:46+00:00",
-  "source_file": "4-manufacturing/lessons/3-run-fruit-detector-edge/wio-terminal.md",
-  "language_code": "kn"
-}
--->
 # IoT ಎಡ್ಜ್ ಆಧಾರಿತ ಚಿತ್ರ ವರ್ಗೀಕರಣವನ್ನು ಬಳಸಿ ಚಿತ್ರವನ್ನು ವರ್ಗೀಕರಿಸಿ - Wio ಟರ್ಮಿನಲ್
 
 ಈ ಪಾಠದ ಭಾಗದಲ್ಲಿ, ನೀವು IoT ಎಡ್ಜ್ ಸಾಧನದ ಮೇಲೆ ನಡೆಯುತ್ತಿರುವ ಚಿತ್ರ ವರ್ಗೀಕರಣವನ್ನು ಬಳಸದರೆ.

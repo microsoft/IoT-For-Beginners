@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "9c4320311c0f2c1884a6a21265d98a51",
-  "translation_date": "2026-01-07T04:02:06+00:00",
-  "source_file": "5-retail/lessons/2-check-stock-device/single-board-computer-count-stock.md",
-  "language_code": "ml"
-}
--->
 # നിങ്ങളുടെ IoT ഡിവൈസിൽ നിന്ന് സ്റ്റോക്ക് എണ്ണുക - വെർച്വൽ IoT ഹാർഡ്&zwj;വെയറും Raspberry Pi
 
 ഒരു ചിത്രത്തിൽ സ്റ്റോക്ക് എണ്ണാൻ പ്രവചനങ്ങളും അവയുടെ ബൗണ്ടിംഗ് ബോക്സുകളും സംയോജിപ്പിച്ച് ഉപയോഗിക്കാം

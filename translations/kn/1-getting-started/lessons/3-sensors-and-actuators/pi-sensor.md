@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "ea733bd0cdf2479e082373f765a08678",
-  "translation_date": "2026-01-07T01:59:54+00:00",
-  "source_file": "1-getting-started/lessons/3-sensors-and-actuators/pi-sensor.md",
-  "language_code": "kn"
-}
--->
 # ನೈಟ್‌ಲೈಟ್ ನಿರ್ಮಿಸಿ - ರಾಸ್ಪ್ಬೆರ್ರಿ ಪೈ
 
 ಪಾಠದ ಈ ಭಾಗದಲ್ಲಿ, ನೀವು ನಿಮ್ಮ ರಾಸ್ಪ್ಬೆರ್ರಿ ಪೈಗೆ ಲೈಟ್ ಸೆನ್ಸರ್ ಅನ್ನು ಸೇರಿಸುವಿರಿ.

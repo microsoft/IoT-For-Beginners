@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "8a74f789f3c1bf41a13c007190360c19",
-  "translation_date": "2026-01-07T05:32:07+00:00",
-  "source_file": "2-farm/lessons/6-keep-your-plant-secure/wio-terminal-x509.md",
-  "language_code": "kn"
-}
--->
 # ನಿಮ್ಮ ಸಾಧನದ ಕೋಡ್‌ನಲ್ಲಿನ X.509 ಪ್ರಮಾಣಪತ್ರವನ್ನು ಬಳಸಿ - Wio ಟರ್ಮಿನಲ್
 
 ಈ ಲೇಖನವನ್ನು ಬರೆದ ಸಮಯದಲ್ಲಿ, ಅಜುರಿ ಅದೇನಿನ ಎಸ್‌ಡಿಕೆ X.509 ಪ್ರಮಾಣಪತ್ರಗಳನ್ನು ಬೆಂಬಲಿಸುವುದಿಲ್ಲ. ನೀವು X.509 ಪ್ರಮಾಣಪತ್ರಗಳೊಂದಿಗೆ ಪ್ರಯೋಗ ಮಾಡಲು ಬಯಸಿದರೆ, ನೀವು [Python SDK ಬಳಸಿ ವರ್ಚುವಲ್ IoT ಸಾಧನದ ಸೂಚನೆಗಳನ್ನು](single-board-computer-x509.md) ಗಮನಿಸಬಹುದು.

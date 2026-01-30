@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "e345843ccfeb7261d81500d19c64d476",
-  "translation_date": "2026-01-07T04:54:56+00:00",
-  "source_file": "3-transport/lessons/2-store-location-data/README.md",
-  "language_code": "te"
-}
--->
 # నిల్వ స్థలం డేటా
 
 ![ఈ పాఠం యొక్క స్కెచ్‌నోట్ అవలోకనం](../../../../../translated_images/te/lesson-12.ca7f53039712a3ec.webp)

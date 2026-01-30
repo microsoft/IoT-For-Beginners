@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "3ba7150ffc4a6999f6c3cfb4906ec7df",
-  "translation_date": "2026-01-07T06:38:14+00:00",
-  "source_file": "4-manufacturing/lessons/2-check-fruit-from-device/virtual-device-camera.md",
-  "language_code": "te"
-}
--->
 # చిత్రం పట్టుకోండి - వర్చువల్ IoT హార্ড్వేర్
 
 ఈ పాఠం విడిభాగంలో, మీరు మీ వర్చువల్ IoT డివైస్‌కు కెమెరా సెన్సార్‌ను జోడించి, దానినుండి చిత్రాలను చదివుతారు.

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "a202fa5889790a3777bfc33dd9f4b459",
-  "translation_date": "2026-01-07T02:56:18+00:00",
-  "source_file": "6-consumer/lessons/3-spoken-feedback/wio-terminal-text-to-speech.md",
-  "language_code": "kn"
-}
--->
 # ಪಠ್ಯದಿಂದ ಧ್ವನಿಗೆ - Wio ಟರ್ಮಿನಲ್
 
 ಈ ಪಾಠದ ಭಾಗದಲ್ಲಿ, ನೀವು ಮಾತೃಭಾಷೆಯ ಪ್ರತಿಕ್ರಿಯೆಯನ್ನು ನೀಡಲು ಪಠ್ಯವನ್ನು ಧ್ವನಿಗೆ ಪರಿವರ್ತಿಸುವಿರಿ.

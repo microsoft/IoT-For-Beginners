@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "5a94fbab1ba737e9bd6cc6c64f114fa0",
-  "translation_date": "2026-01-07T01:02:06+00:00",
-  "source_file": "clean-up.md",
-  "language_code": "ml"
-}
--->
 # നിങ്ങളുടെ പ്രോജക്റ്റ് ക്ലീൻ അപ്പ് ചെയ്യുക
 
 ഓരോ പ്രോജക്റ്റും പൂർത്തിയാക്കിയതിനു ശേഷം, നിങ്ങളുടെ ക്ലൗഡ് റിസോസുകൾ ഇല്ലാതാക്കുന്നത് നല്ലതാണ്.

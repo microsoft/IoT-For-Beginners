@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "3b2448c7ab4e9673e77e35a50c5e350d",
-  "translation_date": "2026-01-07T04:39:22+00:00",
-  "source_file": "3-transport/lessons/1-location-tracking/pi-gps-sensor.md",
-  "language_code": "kn"
-}
--->
 # GPS ಡೇಟಾವನ್ನು ಓದಿ - Raspberry Pi
 
 ಪಾಠದ ಈ ಭಾಗದಲ್ಲಿ, ನೀವು ನಿಮ್ಮ Raspberry Pi ಗೆ GPS ಸೆನ್ಸಾರ್ ಅನ್ನು ಸೇರಿಸಿ, ಅದರಿಂದ ಮೌಲ್ಯಗಳನ್ನು ಓದುವಿರಿ.

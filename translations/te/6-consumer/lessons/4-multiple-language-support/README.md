@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "c16de27b0074abe81d6a8bad5e5b1a6b",
-  "translation_date": "2026-01-07T03:46:13+00:00",
-  "source_file": "6-consumer/lessons/4-multiple-language-support/README.md",
-  "language_code": "te"
-}
--->
 # బహువిధ భాషలను మద్దతు ఇవ్వండి
 
 ![ఈ పాఠం యొక్క స్కెచ్ నోట్ అవలోకనం](../../../../../translated_images/te/lesson-24.4246968ed058510a.webp)

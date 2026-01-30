@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "557f4ee96b752e0651d2e6e74aa6bd14",
-  "translation_date": "2026-01-07T06:53:33+00:00",
-  "source_file": "4-manufacturing/lessons/2-check-fruit-from-device/README.md",
-  "language_code": "ml"
-}
--->
 # ഒരു ഐഒടി ഉപകരണത്തിൽ നിന്ന് പഴം ഗുണനിലവാരം പരിശോധിക്കുക
 
 ![ഈ പാഠത്തിന്റെ സ്കെച്ച്നോട്ട് അവലോകനം](../../../../../translated_images/ml/lesson-16.215daf18b00631fb.webp)

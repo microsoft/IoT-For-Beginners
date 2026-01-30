@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "81c437c568eee1b0dda1f04e88150d37",
-  "translation_date": "2026-01-07T05:41:15+00:00",
-  "source_file": "2-farm/lessons/6-keep-your-plant-secure/README.md",
-  "language_code": "kn"
-}
--->
 # ನಿಮ್ಮ ಗಿಡವನ್ನು ಸುರಕ್ಷಿತವಾಗಿ ಇರಿಸಿ
 
 ![ಈ ಪಾಠದ ಸ್ಕೆಚ್ನೋಟ್ ಅವಲೋಕನ](../../../../../translated_images/kn/lesson-10.829c86b80b9403bb.webp)

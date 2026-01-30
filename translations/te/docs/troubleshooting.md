@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "271dcd720357806934b2f0d94e19410e",
-  "translation_date": "2026-01-07T01:42:43+00:00",
-  "source_file": "docs/troubleshooting.md",
-  "language_code": "te"
-}
--->
 # Raspberry Pi సమస్య పరిష్కరణ గైడ్
 
 ఈ గైడ్ Raspberry Pi పరికరాల్లో IoT ప్రాజెక్టులు నడుపుతూ ఎదురయ్యే సాధారణ సమస్యలకు పరిష్కారాలను అందిస్తుంది.  

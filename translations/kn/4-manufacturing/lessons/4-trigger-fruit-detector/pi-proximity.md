@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "6145a1d791731c8a9d0afd0a1bae5108",
-  "translation_date": "2026-01-07T07:08:39+00:00",
-  "source_file": "4-manufacturing/lessons/4-trigger-fruit-detector/pi-proximity.md",
-  "language_code": "kn"
-}
--->
 # ಅಂಚಿನನಂತರ ಅಂಗಳವನ್ನು ಪತ್ತೆಹಚ್ಚಿ - ರಾಸ್ಬೆರ್ರಿ ಪೈ
 
 ಈ ಪಾಠದ ಭಾಗದಲ್ಲಿ, ನೀವು ನಿಮ್ಮ ರಾಸ್ಬೆರ್ರಿ ಪೈಗೆ ಅಂಚಿನನಂತರ ಸೆನ್ಸಾರ್ ಅನ್ನು ಸೇರಿಸಿ, ಅದರಿಂದ ದೂರವನ್ನು ಓದುತ್ತೀರಿ.

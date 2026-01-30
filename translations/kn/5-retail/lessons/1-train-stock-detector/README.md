@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "8df310a42f902139a01417dacb1ffbef",
-  "translation_date": "2026-01-07T04:19:00+00:00",
-  "source_file": "5-retail/lessons/1-train-stock-detector/README.md",
-  "language_code": "kn"
-}
--->
 # ಸ್ಟಾಕ್ ಡಿಟೆಕ್ಟರ್ ತರಬೇತಿಗೊಳಿಸೋಣ
 
 ![ಈ ಪಾಠದ ಸ್ಕೆಚ್ ನೋಟ್ ಅವಲೋಕನ](../../../../../translated_images/kn/lesson-19.cf6973cecadf080c.webp)

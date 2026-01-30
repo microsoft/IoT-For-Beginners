@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "2a459ea9177fb0508ca96068ae1009d2",
-  "translation_date": "2026-01-07T01:35:28+00:00",
-  "source_file": "quiz-app/README.md",
-  "language_code": "ml"
-}
--->
 # ക്വിസുകൾ
 
 ഈ ക്വിസുകൾ https://aka.ms/iot-beginners-ൽ ഉള്ള IoT for Beginners പാഠ്യപദ്ധതിക്കായുള്ള പ്രീ-യും പോസ്റ്റ്-ലെക്ചർ ക്വിസുകളാണ്

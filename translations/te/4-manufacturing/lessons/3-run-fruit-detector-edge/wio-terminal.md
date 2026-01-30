@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "48ac21ec80329c930db7b84bd6b592ec",
-  "translation_date": "2026-01-07T06:58:57+00:00",
-  "source_file": "4-manufacturing/lessons/3-run-fruit-detector-edge/wio-terminal.md",
-  "language_code": "te"
-}
--->
 # IoT ఎజ్ ఆధారిత చిత్రం శ్రేణీకర్తను ఉపయోగించి ఒక చిత్రం వర్గీకరించండి - Wio టెర్మినల్
 
 పాఠంలో ఈ భాగంలో, మీరు IoT ఎజ్ పరికరం మీద నడుస్తున్న చిత్ర శ్రేణీకర్తను ఉపయోగిస్తారు.

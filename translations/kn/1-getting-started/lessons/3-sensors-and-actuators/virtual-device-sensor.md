@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "11f10c6760fb8202cf368422702fdf70",
-  "translation_date": "2026-01-07T02:01:48+00:00",
-  "source_file": "1-getting-started/lessons/3-sensors-and-actuators/virtual-device-sensor.md",
-  "language_code": "kn"
-}
--->
 # ನೈಟ್‌ಲೈಟ್ ನಿರ್ಮಿಸಿ - ವರ್ಚುವಲ್ ಐಓಟಿ ಹಾರ್ಡ್‌ವೇರ್
 
 ಪಾಠದ ಈ ಭಾಗದಲ್ಲಿ, ನೀವು ನಿಮ್ಮ ವರ್ಚುವಲ್ ಐಓಟಿ ಡಿವೈಸ್‌ಗೆ ಒಂದು ಲೈಟ್ ಸೆನ್ಸಾರ್ ಅನ್ನು ಸೇರಿಸುವಿರಿ.

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "24dc783a600e20251211987b36370e93",
-  "translation_date": "2026-01-07T06:57:42+00:00",
-  "source_file": "4-manufacturing/lessons/3-run-fruit-detector-edge/vm-iotedge.md",
-  "language_code": "ml"
-}
--->
 # IoT Edge ഓടുന്ന ഒരു വിചാര്ണ മെഷീൻ സൃഷ്ടിക്കുക
 
 Azure-യിൽ, നിങ്ങൾക്ക് ഒരു വിചാര്ണ മെഷീൻ സൃഷ്ടിക്കാനാകും - ക്ലൗഡിൽ ഒരു കമ്പ്യൂട്ടർ, ഇത് നിങ്ങൾ ഇഷ്ടപ്പെടുന്ന രീതിയിൽ ക്രമീകരിച്ച് നിങ്ങളുടെ സ്വന്തം സോഫ്റ്റ്വేర్ ഓടിക്കാൻ കഴിയും.

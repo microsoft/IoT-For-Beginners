@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "0ac0afcfb40cb5970ef4cb74f01c32e9",
-  "translation_date": "2026-01-07T03:17:55+00:00",
-  "source_file": "6-consumer/lessons/1-speech-recognition/pi-audio.md",
-  "language_code": "ml"
-}
--->
 # ഓഡിയോ പിടിക്കുക - Raspberry Pi
 
 പാഠത്തിന്റെ ഈ ഭാഗത്തിൽ, നിങ്ങളുടെ Raspberry Pi-യിൽ ഓഡിയോ പിടിക്കുന്നതിനുള്ള കോഡ് നിങ്ങൾ എഴുതി തുടങ്ങും. ഓഡിയോ പിടിക്കൽ ഒരു ബട്ടൺ നിയന്ത്രിക്കും.

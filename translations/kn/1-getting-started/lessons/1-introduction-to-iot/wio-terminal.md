@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "a4f0c166010e31fd7b6ca20bc88dec6d",
-  "translation_date": "2026-01-07T02:39:48+00:00",
-  "source_file": "1-getting-started/lessons/1-introduction-to-iot/wio-terminal.md",
-  "language_code": "kn"
-}
--->
 # Wio Terminal
 
 [Seeed Studios‌ನ Wio Terminal](https://www.seeedstudio.com/Wio-Terminal-p-4509.html) ಒಂದು Arduino-ಅನುರೂಪ ಮೈಕ್ರೋಕಾರ್ಯನಿರ್ವಾಹಕ, ಇದರಲ್ಲಿ WiFi ಮತ್ತು ಕೆಲವು ಸೆನ್ಸರ್‌ಗಳು ಮತ್ತು ಕಾರ್ಯಾಂಶಿಗಳು ಒಳಗೊಳ್ಳಿದ್ದು, Grove ಎಂದು ಕರೆಯಲ್ಪಡುವ हार್ಡ್‌ವೇರ್ ಪರಿಸರವನ್ನು ಬಳಸಿ ಹೆಚ್ಚಿನ ಸೆನ್ಸರ್‌ಗಳು ಮತ್ತು ಕಾರ್ಯಾಂಶಿಗಳನ್ನು ಸೇರಿಸಲು ಪೋರ್ಟ್‌ಗಳೂ ಇವೆ.

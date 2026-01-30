@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "fbbcf96a9b63ccd661db98bbf854bb06",
-  "translation_date": "2026-01-07T04:46:07+00:00",
-  "source_file": "3-transport/lessons/1-location-tracking/wio-terminal-gps-decode.md",
-  "language_code": "te"
-}
--->
 # GPS డేటాను డీకోడ్ చేయండి - Wio టర్మినల్
 
 ఈ పాఠం భాగంలో, మీరు Wio టర్మినల్ ద్వారా GPS సెన్సార్ నుండి చదివిన NMEA మెసేజ్‌లను డీకోడ్ చేసి, వెడల్పు మరియు గ్రాహ్య రేఖాంశాలను పొందుతారు.

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "e345843ccfeb7261d81500d19c64d476",
-  "translation_date": "2026-01-07T04:57:50+00:00",
-  "source_file": "3-transport/lessons/2-store-location-data/README.md",
-  "language_code": "kn"
-}
--->
 # ಸ್ಥಳದ ಡೇಟಾವನ್ನು ಸಂಗ್ರಹಿಸಿ
 
 ![ಈ ಪಾಠದ ಸ್ಕೆಚ್‌ನೋಟ್ ಅವಲೋಕನ](../../../../../translated_images/kn/lesson-12.ca7f53039712a3ec.webp)

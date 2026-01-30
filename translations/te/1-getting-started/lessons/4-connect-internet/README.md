@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "71b5040e0b3472f1c0949c9b55f224c0",
-  "translation_date": "2026-01-07T02:27:42+00:00",
-  "source_file": "1-getting-started/lessons/4-connect-internet/README.md",
-  "language_code": "te"
-}
--->
 # మీ పరికరాన్ని ఇంటర్నెట్‌కు కనెక్ట్ చేయండి
 
 ![ఈ పాఠం యొక్క స్కెచ్నోట్ సమీక్ష](../../../../../translated_images/te/lesson-4.7344e074ea68fa54.webp)

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "9095c61445c2bca7245ef9b59a186a11",
-  "translation_date": "2026-01-07T04:52:02+00:00",
-  "source_file": "3-transport/lessons/3-visualize-location-data/README.md",
-  "language_code": "ml"
-}
--->
 # സ്ഥലം ഡാറ്റ ദൃശ്യവൽക്കരിക്കൽ
 
 ![ഈ പാഠത്തിന്റെ ഒരു സ്കെച്ചനോട്ട് അവലോകനം](../../../../../translated_images/ml/lesson-13.a259db1485021be7.webp)

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "d6f80293fa9c213283eac7e79b078671",
-  "translation_date": "2026-01-07T01:03:33+00:00",
-  "source_file": "CONTRIBUTING.md",
-  "language_code": "kn"
-}
--->
 # ಕೊಡುಗೆ ನೀಡುವುದು
 
 ಈ ಯೋಜನೆ ಕೊಡುಗೆಗಳು ಮತ್ತು ಸೂಚನೆಗಳನ್ನು ಸ್ವಾಗತಿಸುತ್ತದೆ. ಬಹುතර ಕೊಡುಗೆಗಳಿಗೆ ನೀವು ಸಹಿಯೂ

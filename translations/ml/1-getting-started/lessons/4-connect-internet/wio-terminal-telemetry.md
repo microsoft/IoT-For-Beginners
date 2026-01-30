@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "4bcc29fe2b65e56eada83d2476279227",
-  "translation_date": "2026-01-07T02:24:02+00:00",
-  "source_file": "1-getting-started/lessons/4-connect-internet/wio-terminal-telemetry.md",
-  "language_code": "ml"
-}
--->
 # ഇന്റർനെറ്റിൽ നിങ്ങളുടെ നൈറ്റ്‌ലൈറ്റ് നിയന്ത്രിക്കുക - Wio ടേർമിനൽ
 
 ഇവിടത്തെ പാഠത്തിന്റെ ഭാഗത്തിൽ, നിങ്ങൾ നിങ്ങളുടെ Wio ടേർമിനലിൽ നിന്നുള്ള ലൈറ്റ് ലെവലുകളോടുകൂടി ടെലിമെട്രി MQTT ബ്രോക്കർക്ക് അയയ്ക്കും.
