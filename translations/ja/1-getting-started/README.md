@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "e2b1b891b08ef7633d285547fbe73290",
-  "translation_date": "2025-08-24T22:59:40+00:00",
-  "source_file": "1-getting-started/README.md",
-  "language_code": "ja"
-}
--->
 # IoTの始め方
 
 このカリキュラムのセクションでは、モノのインターネット（IoT）について紹介し、基本的な概念を学びます。最初の「Hello World」IoTプロジェクトを構築し、クラウドに接続する方法を学びます。このプロジェクトでは、センサーで測定された光のレベルが下がると点灯するナイトライトを作成します。

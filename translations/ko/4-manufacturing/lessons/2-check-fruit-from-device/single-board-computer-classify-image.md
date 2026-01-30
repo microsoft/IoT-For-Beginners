@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "e5896207b304ce1abaf065b8acc0cc79",
-  "translation_date": "2025-08-24T21:31:48+00:00",
-  "source_file": "4-manufacturing/lessons/2-check-fruit-from-device/single-board-computer-classify-image.md",
-  "language_code": "ko"
-}
--->
 # 이미지 분류하기 - 가상 IoT 하드웨어와 Raspberry Pi
 
 이 강의의 이 부분에서는 카메라로 촬영한 이미지를 Custom Vision 서비스로 보내 분류합니다.

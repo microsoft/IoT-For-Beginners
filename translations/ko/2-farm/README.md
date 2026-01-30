@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "428bda82d9e6016ecea7c797564bf081",
-  "translation_date": "2025-08-24T21:57:22+00:00",
-  "source_file": "2-farm/README.md",
-  "language_code": "ko"
-}
--->
 # IoT를 활용한 농업
 
 인구가 증가함에 따라 농업에 대한 수요도 증가하고 있습니다. 이용 가능한 토지의 양은 변하지 않지만, 기후는 변화하며 농부들에게 더 많은 도전을 안겨줍니다. 특히, 자신이 재배한 작물로 생계를 유지하는 20억 명의 [자급농](https://wikipedia.org/wiki/Subsistence_agriculture) 농부들에게는 더욱 그렇습니다. IoT는 농부들이 무엇을 재배하고 언제 수확할지에 대해 더 현명한 결정을 내릴 수 있도록 돕고, 수확량을 늘리며, 수작업을 줄이고, 해충을 감지하고 대처할 수 있도록 도와줍니다.

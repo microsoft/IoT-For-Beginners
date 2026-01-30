@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "2f336726b9410e97c3aaed76cc89b0d8",
-  "translation_date": "2025-08-25T17:53:43+00:00",
-  "source_file": "6-consumer/lessons/1-speech-recognition/wio-terminal-audio.md",
-  "language_code": "hi"
-}
--->
 # ऑडियो कैप्चर करें - Wio Terminal
 
 इस पाठ के इस भाग में, आप अपने Wio Terminal पर ऑडियो कैप्चर करने के लिए कोड लिखेंगे। ऑडियो कैप्चर Wio Terminal के ऊपर दिए गए बटन में से एक द्वारा नियंत्रित किया जाएगा।

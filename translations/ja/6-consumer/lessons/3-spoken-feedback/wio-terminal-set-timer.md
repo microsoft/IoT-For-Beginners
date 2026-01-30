@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "012b69d57d898d670adf61304f42a137",
-  "translation_date": "2025-08-25T00:09:41+00:00",
-  "source_file": "6-consumer/lessons/3-spoken-feedback/wio-terminal-set-timer.md",
-  "language_code": "ja"
-}
--->
 # タイマーを設定する - Wio Terminal
 
 このレッスンのこの部分では、サーバーレスコードを呼び出して音声を理解し、その結果に基づいてWio Terminalにタイマーを設定します。

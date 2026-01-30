@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "5a94fbab1ba737e9bd6cc6c64f114fa0",
-  "translation_date": "2025-08-24T21:01:00+00:00",
-  "source_file": "clean-up.md",
-  "language_code": "ko"
-}
--->
 # 프로젝트 정리하기
 
 각 프로젝트를 완료한 후에는 클라우드 리소스를 삭제하는 것이 좋습니다.

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "9c4320311c0f2c1884a6a21265d98a51",
-  "translation_date": "2025-08-24T21:13:09+00:00",
-  "source_file": "5-retail/lessons/2-check-stock-device/single-board-computer-count-stock.md",
-  "language_code": "ja"
-}
--->
 # IoTデバイスで在庫をカウントする - 仮想IoTハードウェアとRaspberry Pi
 
 予測結果とそのバウンディングボックスを組み合わせることで、画像内の在庫をカウントすることができます。

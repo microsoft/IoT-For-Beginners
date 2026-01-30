@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "428bda82d9e6016ecea7c797564bf081",
-  "translation_date": "2025-08-24T21:57:11+00:00",
-  "source_file": "2-farm/README.md",
-  "language_code": "ja"
-}
--->
 # IoTを活用した農業
 
 人口が増加するにつれて、農業への需要も増加しています。利用可能な土地の面積は変わりませんが、気候は変化し続けています。これにより、特に自分たちが育てた作物で食べて家族を養う2億人の[自給農家](https://wikipedia.org/wiki/Subsistence_agriculture)にとって、さらなる課題が生じています。IoTは、農家が何を育てるべきか、いつ収穫すべきかについて賢い判断を下すのを助け、収穫量を増やし、手作業を減らし、害虫を検知して対処することを可能にします。

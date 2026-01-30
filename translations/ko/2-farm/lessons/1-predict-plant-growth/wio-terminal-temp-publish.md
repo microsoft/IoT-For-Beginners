@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "df28cd649cd892bcce034e064913b2f3",
-  "translation_date": "2025-08-24T22:06:06+00:00",
-  "source_file": "2-farm/lessons/1-predict-plant-growth/wio-terminal-temp-publish.md",
-  "language_code": "ko"
-}
--->
 # 온도 게시 - Wio Terminal
 
 이 수업의 이 부분에서는 Wio Terminal이 감지한 온도 값을 MQTT를 통해 게시하여 나중에 GDD를 계산하는 데 사용할 수 있도록 합니다.

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "2f336726b9410e97c3aaed76cc89b0d8",
-  "translation_date": "2025-08-25T00:26:08+00:00",
-  "source_file": "6-consumer/lessons/1-speech-recognition/wio-terminal-audio.md",
-  "language_code": "ja"
-}
--->
 # 音声をキャプチャする - Wio Terminal
 
 このレッスンでは、Wio Terminalで音声をキャプチャするコードを書きます。音声キャプチャは、Wio Terminalの上部にあるボタンの1つで制御されます。

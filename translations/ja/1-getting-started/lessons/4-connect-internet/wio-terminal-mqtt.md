@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "d6faf0e8d3c2d6d20c0aef2a305dab18",
-  "translation_date": "2025-08-24T23:11:43+00:00",
-  "source_file": "1-getting-started/lessons/4-connect-internet/wio-terminal-mqtt.md",
-  "language_code": "ja"
-}
--->
 # インターネット経由でナイトライトを制御する - Wio Terminal
 
 IoTデバイスは、MQTTを使用して*test.mosquitto.org*と通信するようにコード化する必要があります。これにより、光センサーの読み取り値を含むテレメトリーデータを送信し、LEDを制御するコマンドを受信します。

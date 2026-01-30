@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "e4f2925acb211765889c3b51b9116ceb",
-  "translation_date": "2025-08-25T17:58:42+00:00",
-  "source_file": "6-consumer/lessons/1-speech-recognition/virtual-device-audio.md",
-  "language_code": "hi"
-}
--->
 # ऑडियो कैप्चर करें - वर्चुअल IoT डिवाइस
 
 इस पाठ में बाद में उपयोग की जाने वाली Python लाइब्रेरीज़, जो भाषण को टेक्स्ट में बदलने के लिए हैं, में Windows, macOS और Linux पर ऑडियो कैप्चर की सुविधा पहले से मौजूद है। यहां आपको कुछ भी करने की आवश्यकता नहीं है।

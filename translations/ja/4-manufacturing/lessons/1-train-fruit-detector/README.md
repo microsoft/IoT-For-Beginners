@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "f5e63c916d2dd97d58be12aaf76bd9f1",
-  "translation_date": "2025-08-24T21:22:49+00:00",
-  "source_file": "4-manufacturing/lessons/1-train-fruit-detector/README.md",
-  "language_code": "ja"
-}
--->
 # 果物の品質検出器を訓練する
 
 ![このレッスンの概要を示すスケッチノート](../../../../../translated_images/ja/lesson-15.843d21afdc6fb2bba70cd9db7b7d2f91598859fafda2078b0bdc44954194b6c0.jpg)

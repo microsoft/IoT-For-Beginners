@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "9c4320311c0f2c1884a6a21265d98a51",
-  "translation_date": "2025-08-24T21:13:27+00:00",
-  "source_file": "5-retail/lessons/2-check-stock-device/single-board-computer-count-stock.md",
-  "language_code": "ko"
-}
--->
 # IoT 기기로 재고 계산하기 - 가상 IoT 하드웨어와 Raspberry Pi
 
 예측 결과와 경계 상자를 조합하여 이미지에서 재고를 계산할 수 있습니다.

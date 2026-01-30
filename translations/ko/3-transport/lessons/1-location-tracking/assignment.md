@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "bded364fc06ce37d7a76aed3be1ba73a",
-  "translation_date": "2025-08-25T00:51:56+00:00",
-  "source_file": "3-transport/lessons/1-location-tracking/assignment.md",
-  "language_code": "ko"
-}
--->
 # 다른 GPS 데이터 조사하기
 
 ## 지침

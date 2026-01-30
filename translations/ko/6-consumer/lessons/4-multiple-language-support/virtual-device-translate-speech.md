@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "d620a470d9dd8614d99824832978360a",
-  "translation_date": "2025-08-24T23:57:03+00:00",
-  "source_file": "6-consumer/lessons/4-multiple-language-support/virtual-device-translate-speech.md",
-  "language_code": "ko"
-}
--->
 # 음성 번역 - 가상 IoT 디바이스
 
 이 강의의 이 부분에서는 음성 서비스를 사용하여 음성을 텍스트로 변환할 때 번역하는 코드를 작성한 후, 번역기 서비스를 사용하여 텍스트를 번역하고 음성 응답을 생성합니다.

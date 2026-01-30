@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "4fb20273d299dc8d07a8f06c9cd0cdd9",
-  "translation_date": "2025-08-24T22:34:06+00:00",
-  "source_file": "2-farm/lessons/2-detect-soil-moisture/README.md",
-  "language_code": "ja"
-}
--->
 C（アイ・スクエアド・シー）は、複数のコントローラーと複数の周辺機器が接続可能なプロトコルで、接続されたデバイスはコントローラーまたは周辺機器として動作し、I²Cバス（データを転送する通信システムの名称）を介して通信します。データはアドレス付きのパケットとして送信され、各パケットには送信先のデバイスのアドレスが含まれています。
 
 > 💁 このモデルは以前「マスター/スレーブ」と呼ばれていましたが、奴隷制度との関連性からこの用語は廃止されつつあります。[Open Source Hardware Association](https://www.oshwa.org/a-resolution-to-redefine-spi-signal-names/)は「コントローラー/周辺機器」という用語を採用していますが、古い用語がまだ使われている場合もあります。

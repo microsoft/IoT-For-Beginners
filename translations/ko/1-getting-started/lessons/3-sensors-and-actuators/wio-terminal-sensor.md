@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "7f4ad0ef54f248b85b92187c94cf9dcb",
-  "translation_date": "2025-08-24T23:26:06+00:00",
-  "source_file": "1-getting-started/lessons/3-sensors-and-actuators/wio-terminal-sensor.md",
-  "language_code": "ko"
-}
--->
 # 센서 추가하기 - Wio Terminal
 
 이 수업의 이번 부분에서는 Wio Terminal의 광 센서를 사용하게 됩니다.

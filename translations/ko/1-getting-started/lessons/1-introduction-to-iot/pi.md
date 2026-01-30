@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "8ff0d0a1d29832bb896b9c103b69a452",
-  "translation_date": "2025-08-24T23:37:31+00:00",
-  "source_file": "1-getting-started/lessons/1-introduction-to-iot/pi.md",
-  "language_code": "ko"
-}
--->
 # 라즈베리 파이
 
 [Raspberry Pi](https://raspberrypi.org)는 단일 보드 컴퓨터입니다. 다양한 장치와 생태계를 사용하여 센서와 액추에이터를 추가할 수 있으며, 이 레슨에서는 [Grove](https://www.seeedstudio.com/category/Grove-c-1003.html)라는 하드웨어 생태계를 사용합니다. Python을 사용하여 Pi를 코딩하고 Grove 센서에 접근할 수 있습니다.

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "e345843ccfeb7261d81500d19c64d476",
-  "translation_date": "2025-08-25T18:09:59+00:00",
-  "source_file": "3-transport/lessons/2-store-location-data/README.md",
-  "language_code": "hi"
-}
--->
 # स्टोर लोकेशन डेटा
 
 ![इस पाठ का स्केच नोट अवलोकन](../../../../../translated_images/hi/lesson-12.ca7f53039712a3ec14ad6474d8445361c84adab643edc53fa6269b77895606bb.jpg)

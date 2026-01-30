@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "a4f0c166010e31fd7b6ca20bc88dec6d",
-  "translation_date": "2025-08-25T17:30:58+00:00",
-  "source_file": "1-getting-started/lessons/1-introduction-to-iot/wio-terminal.md",
-  "language_code": "hi"
-}
--->
 # वियो टर्मिनल
 
 [सीड स्टूडियोज का वियो टर्मिनल](https://www.seeedstudio.com/Wio-Terminal-p-4509.html) एक Arduino-संगत माइक्रोकंट्रोलर है, जिसमें वाईफाई और कुछ सेंसर और एक्ट्यूएटर्स पहले से ही शामिल हैं। इसके अलावा, इसमें [Grove](https://www.seeedstudio.com/category/Grove-c-1003.html) नामक हार्डवेयर इकोसिस्टम का उपयोग करके और अधिक सेंसर और एक्ट्यूएटर्स जोड़ने के लिए पोर्ट्स भी हैं।

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "c527ce85d69b1a3875366ec61cbed8aa",
-  "translation_date": "2025-08-24T23:00:35+00:00",
-  "source_file": "1-getting-started/lessons/4-connect-internet/single-board-computer-commands.md",
-  "language_code": "ko"
-}
--->
 # 인터넷을 통해 야간등 제어하기 - 가상 IoT 하드웨어와 Raspberry Pi
 
 이 수업의 이번 부분에서는 MQTT 브로커에서 Raspberry Pi 또는 가상 IoT 장치로 전송된 명령을 구독하게 됩니다.

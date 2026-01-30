@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "50abd54997afa7e7a3fc7019379e49e3",
-  "translation_date": "2025-08-24T21:05:41+00:00",
-  "source_file": "images/README.md",
-  "language_code": "ko"
-}
--->
 # 이미지
 
 [icons](../../../images/icons) 폴더에 있는 이미지는 [Noun Project](https://thenounproject.com)에서 제공된 것으로, 저작권 표시가 필요합니다. 각 이미지에는 필요한 저작권 표시가 명시되어 있습니다. 이러한 이미지는 일관된 이미지를 유지하기 위해 다이어그램에 필요할 경우 사용해야 합니다.

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "0d55caa8c23d73635b7559102cd17b8a",
-  "translation_date": "2025-08-24T22:37:53+00:00",
-  "source_file": "2-farm/lessons/2-detect-soil-moisture/wio-terminal-soil-moisture.md",
-  "language_code": "ko"
-}
--->
 # 토양 수분 측정 - Wio Terminal
 
 이 수업의 이 부분에서는 Wio Terminal에 정전식 토양 수분 센서를 추가하고, 센서로부터 값을 읽는 방법을 배웁니다.

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "64f18a8f8aaa1fef5e7320e0992d8b3a",
-  "translation_date": "2025-08-25T00:46:45+00:00",
-  "source_file": "3-transport/lessons/1-location-tracking/virtual-device-gps-sensor.md",
-  "language_code": "ko"
-}
--->
 # GPS 데이터 읽기 - 가상 IoT 하드웨어
 
 이 수업의 이 부분에서는 가상 IoT 장치에 GPS 센서를 추가하고 값을 읽는 방법을 배웁니다.

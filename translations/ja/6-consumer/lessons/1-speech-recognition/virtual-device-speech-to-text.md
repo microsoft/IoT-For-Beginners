@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "c0550b254b9ba2539baf1e6bb5fc05f8",
-  "translation_date": "2025-08-25T00:23:56+00:00",
-  "source_file": "6-consumer/lessons/1-speech-recognition/virtual-device-speech-to-text.md",
-  "language_code": "ja"
-}
--->
 # 音声からテキストへの変換 - 仮想IoTデバイス
 
 このレッスンのこの部分では、マイクから取得した音声を音声サービスを使用してテキストに変換するコードを書きます。

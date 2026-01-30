@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "8a74f789f3c1bf41a13c007190360c19",
-  "translation_date": "2025-08-24T22:58:20+00:00",
-  "source_file": "2-farm/lessons/6-keep-your-plant-secure/wio-terminal-x509.md",
-  "language_code": "ja"
-}
--->
 # デバイスコードで X.509 証明書を使用する - Wio Terminal
 
 執筆時点では、Azure Arduino SDK は X.509 証明書をサポートしていません。X.509 証明書を試してみたい場合は、[Python SDK を使用した仮想 IoT デバイスの手順](single-board-computer-x509.md)を参照してください。

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "a202fa5889790a3777bfc33dd9f4b459",
-  "translation_date": "2025-08-25T00:13:57+00:00",
-  "source_file": "6-consumer/lessons/3-spoken-feedback/wio-terminal-text-to-speech.md",
-  "language_code": "ja"
-}
--->
 # テキスト読み上げ - Wio Terminal
 
 このレッスンでは、テキストを音声に変換して音声フィードバックを提供します。

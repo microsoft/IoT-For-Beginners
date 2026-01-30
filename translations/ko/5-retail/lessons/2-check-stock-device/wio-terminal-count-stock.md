@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "0b2ae20b0fc8e73c9598dea937cac038",
-  "translation_date": "2025-08-24T21:12:00+00:00",
-  "source_file": "5-retail/lessons/2-check-stock-device/wio-terminal-count-stock.md",
-  "language_code": "ko"
-}
--->
 # IoT 기기 - Wio Terminal로 재고 계산하기
 
 예측 결과와 경계 상자를 조합하여 이미지에서 재고를 계산할 수 있습니다.

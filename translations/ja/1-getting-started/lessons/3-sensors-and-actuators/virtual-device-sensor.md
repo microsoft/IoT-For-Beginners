@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "11f10c6760fb8202cf368422702fdf70",
-  "translation_date": "2025-08-24T23:24:54+00:00",
-  "source_file": "1-getting-started/lessons/3-sensors-and-actuators/virtual-device-sensor.md",
-  "language_code": "ja"
-}
--->
 # ナイトライトを作る - 仮想IoTハードウェア
 
 このレッスンでは、仮想IoTデバイスに光センサーを追加します。

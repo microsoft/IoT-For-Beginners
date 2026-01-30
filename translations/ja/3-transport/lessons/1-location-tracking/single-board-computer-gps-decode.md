@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "cbb8c285bc64c5192fae3368fb5077d2",
-  "translation_date": "2025-08-25T00:52:28+00:00",
-  "source_file": "3-transport/lessons/1-location-tracking/single-board-computer-gps-decode.md",
-  "language_code": "ja"
-}
--->
 # GPSデータのデコード - 仮想IoTハードウェアとRaspberry Pi
 
 このレッスンでは、Raspberry Piまたは仮想IoTデバイスでGPSセンサーから読み取ったNMEAメッセージをデコードし、緯度と経度を抽出します。

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "48ac21ec80329c930db7b84bd6b592ec",
-  "translation_date": "2025-08-25T16:38:03+00:00",
-  "source_file": "4-manufacturing/lessons/3-run-fruit-detector-edge/wio-terminal.md",
-  "language_code": "hi"
-}
--->
 # IoT Edge आधारित इमेज क्लासिफायर का उपयोग करके एक इमेज को वर्गीकृत करें - Wio Terminal
 
 इस पाठ के इस भाग में, आप IoT Edge डिवाइस पर चल रहे इमेज क्लासिफायर का उपयोग करेंगे।

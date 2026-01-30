@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "5f6c164e349f8989959e02a90f37908d",
-  "translation_date": "2025-08-24T23:50:16+00:00",
-  "source_file": "6-consumer/lessons/4-multiple-language-support/wio-terminal-translate-speech.md",
-  "language_code": "ko"
-}
--->
 # 음성 번역 - Wio Terminal
 
 이 수업의 이 부분에서는 번역 서비스로 텍스트를 번역하는 코드를 작성합니다.

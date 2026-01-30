@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "24dc783a600e20251211987b36370e93",
-  "translation_date": "2025-08-24T21:46:12+00:00",
-  "source_file": "4-manufacturing/lessons/3-run-fruit-detector-edge/vm-iotedge.md",
-  "language_code": "ja"
-}
--->
 # IoT Edgeを実行する仮想マシンを作成する
 
 Azureでは、仮想マシンを作成できます。これはクラウド上のコンピュータで、自由に設定を変更し、自分のソフトウェアを実行することができます。

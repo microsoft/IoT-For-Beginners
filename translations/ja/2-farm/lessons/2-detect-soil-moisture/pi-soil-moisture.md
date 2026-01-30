@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "9d4d00a47d5d0f3e6ce42c0d1020064a",
-  "translation_date": "2025-08-24T22:41:13+00:00",
-  "source_file": "2-farm/lessons/2-detect-soil-moisture/pi-soil-moisture.md",
-  "language_code": "ja"
-}
--->
 # 土壌水分を測定する - Raspberry Pi
 
 このレッスンでは、Raspberry Pi に容量式土壌水分センサーを追加し、その値を読み取ります。

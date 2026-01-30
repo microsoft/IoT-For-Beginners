@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "50151d9f9dce2801348a93880ef16d86",
-  "translation_date": "2025-08-24T21:47:56+00:00",
-  "source_file": "4-manufacturing/lessons/3-run-fruit-detector-edge/single-board-computer.md",
-  "language_code": "ja"
-}
--->
 # IoT Edgeベースの画像分類器を使用して画像を分類する - 仮想IoTハードウェアとRaspberry Pi
 
 このレッスンのこの部分では、IoT Edgeデバイス上で動作する画像分類器を使用します。

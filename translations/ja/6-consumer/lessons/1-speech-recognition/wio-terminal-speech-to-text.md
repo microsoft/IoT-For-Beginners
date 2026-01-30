@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "3f92edf2975175577174910caca4a389",
-  "translation_date": "2025-08-25T00:29:01+00:00",
-  "source_file": "6-consumer/lessons/1-speech-recognition/wio-terminal-speech-to-text.md",
-  "language_code": "ja"
-}
--->
 # 音声からテキストへ - Wio Terminal
 
 このレッスンのこの部分では、音声サービスを使用してキャプチャした音声をテキストに変換するコードを書きます。

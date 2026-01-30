@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "50abd54997afa7e7a3fc7019379e49e3",
-  "translation_date": "2025-08-24T21:05:35+00:00",
-  "source_file": "images/README.md",
-  "language_code": "ja"
-}
--->
 # 画像
 
 [icons](../../../images/icons) フォルダー内の画像は [Noun Project](https://thenounproject.com) から提供されており、帰属表示が必要です。各画像には必要な帰属表示が記載されています。これらの画像は、視覚表現を一貫させるために必要な図に使用してください。

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "7966848a1f870e4c42edb4db67b13c57",
-  "translation_date": "2025-08-25T17:49:36+00:00",
-  "source_file": "6-consumer/lessons/3-spoken-feedback/virtual-device-text-to-speech.md",
-  "language_code": "hi"
-}
--->
 # टेक्स्ट से स्पीच - वर्चुअल IoT डिवाइस
 
 इस पाठ के इस भाग में, आप टेक्स्ट को स्पीच में बदलने के लिए स्पीच सर्विस का उपयोग करके कोड लिखेंगे।

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "32a1f23e7834fbe7715da8c4ebb450b9",
-  "translation_date": "2025-08-24T21:32:58+00:00",
-  "source_file": "4-manufacturing/lessons/2-check-fruit-from-device/wio-terminal-classify-image.md",
-  "language_code": "ja"
-}
--->
 # 画像を分類する - Wio Terminal
 
 このレッスンのこの部分では、カメラで撮影した画像をCustom Visionサービスに送信し、分類を行います。

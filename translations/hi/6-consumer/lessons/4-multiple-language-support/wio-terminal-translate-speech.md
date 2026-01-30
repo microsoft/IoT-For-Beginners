@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "5f6c164e349f8989959e02a90f37908d",
-  "translation_date": "2025-08-25T17:36:15+00:00",
-  "source_file": "6-consumer/lessons/4-multiple-language-support/wio-terminal-translate-speech.md",
-  "language_code": "hi"
-}
--->
 # भाषण का अनुवाद करें - Wio Terminal
 
 इस पाठ के इस भाग में, आप अनुवादक सेवा का उपयोग करके टेक्स्ट का अनुवाद करने के लिए कोड लिखेंगे।

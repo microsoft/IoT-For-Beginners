@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "50151d9f9dce2801348a93880ef16d86",
-  "translation_date": "2025-08-24T21:48:06+00:00",
-  "source_file": "4-manufacturing/lessons/3-run-fruit-detector-edge/single-board-computer.md",
-  "language_code": "ko"
-}
--->
 # IoT Edge 기반 이미지 분류기를 사용하여 이미지 분류하기 - 가상 IoT 하드웨어와 Raspberry Pi
 
 이 수업의 이 부분에서는 IoT Edge 장치에서 실행되는 이미지 분류기를 사용하게 됩니다.

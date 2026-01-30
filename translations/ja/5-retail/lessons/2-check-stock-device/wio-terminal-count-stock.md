@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "0b2ae20b0fc8e73c9598dea937cac038",
-  "translation_date": "2025-08-24T21:11:45+00:00",
-  "source_file": "5-retail/lessons/2-check-stock-device/wio-terminal-count-stock.md",
-  "language_code": "ja"
-}
--->
 # IoTデバイスで在庫をカウントする - Wio Terminal
 
 予測結果とそのバウンディングボックスを組み合わせることで、画像内の在庫をカウントすることができます。

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "9aea84bcc7520222b0e1c50469d62d6a",
-  "translation_date": "2025-08-24T22:57:40+00:00",
-  "source_file": "2-farm/lessons/6-keep-your-plant-secure/single-board-computer-x509.md",
-  "language_code": "ja"
-}
--->
 # デバイスコードで X.509 証明書を使用する - 仮想 IoT ハードウェアと Raspberry Pi
 
 このレッスンのこの部分では、仮想 IoT デバイスまたは Raspberry Pi を X.509 証明書を使用して IoT Hub に接続します。

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "c527ce85d69b1a3875366ec61cbed8aa",
-  "translation_date": "2025-08-25T17:13:07+00:00",
-  "source_file": "1-getting-started/lessons/4-connect-internet/single-board-computer-commands.md",
-  "language_code": "hi"
-}
--->
 # इंटरनेट पर अपनी नाइटलाइट को नियंत्रित करें - वर्चुअल IoT हार्डवेयर और रास्पबेरी पाई
 
 इस पाठ के इस भाग में, आप अपने रास्पबेरी पाई या वर्चुअल IoT डिवाइस पर MQTT ब्रोकर्स से भेजे गए कमांड्स को सब्सक्राइब करेंगे।

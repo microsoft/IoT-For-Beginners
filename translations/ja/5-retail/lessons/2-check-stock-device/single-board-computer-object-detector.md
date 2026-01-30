@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "a3fdfec1d1e2cb645ea11c2930b51299",
-  "translation_date": "2025-08-24T21:07:09+00:00",
-  "source_file": "5-retail/lessons/2-check-stock-device/single-board-computer-object-detector.md",
-  "language_code": "ja"
-}
--->
 # IoTデバイスからオブジェクト検出器を呼び出す - 仮想IoTハードウェアとRaspberry Pi
 
 オブジェクト検出器を公開したら、IoTデバイスから使用できるようになります。

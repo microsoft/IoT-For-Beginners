@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "9713e21a309662f6fcb271b573d47848",
-  "translation_date": "2026-01-05T21:51:21+00:00",
-  "source_file": "TROUBLESHOOTING.md",
-  "language_code": "ja"
-}
--->
 # トラブルシューティングガイド
 
 このガイドは、IoT for Beginnersカリキュラムでよくある問題の解決を支援します。問題はカテゴリ別に整理されているので、簡単に目的の項目にアクセスできます。

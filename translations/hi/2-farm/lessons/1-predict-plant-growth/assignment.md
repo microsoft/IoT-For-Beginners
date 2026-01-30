@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "1e21b012c6685f8bf73e0e76cdca3347",
-  "translation_date": "2025-08-25T16:45:52+00:00",
-  "source_file": "2-farm/lessons/1-predict-plant-growth/assignment.md",
-  "language_code": "hi"
-}
--->
 # जुपिटर नोटबुक का उपयोग करके GDD डेटा को विज़ुअलाइज़ करें
 
 ## निर्देश

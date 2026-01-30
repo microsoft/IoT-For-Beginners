@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "32a1f23e7834fbe7715da8c4ebb450b9",
-  "translation_date": "2025-08-25T16:31:43+00:00",
-  "source_file": "4-manufacturing/lessons/2-check-fruit-from-device/wio-terminal-classify-image.md",
-  "language_code": "hi"
-}
--->
 # एक छवि को वर्गीकृत करें - Wio Terminal
 
 इस पाठ के इस भाग में, आप कैमरे द्वारा कैप्चर की गई छवि को Custom Vision सेवा पर भेजेंगे ताकि इसे वर्गीकृत किया जा सके।

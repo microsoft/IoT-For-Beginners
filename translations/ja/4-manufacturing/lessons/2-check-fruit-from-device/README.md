@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "557f4ee96b752e0651d2e6e74aa6bd14",
-  "translation_date": "2025-08-24T21:27:11+00:00",
-  "source_file": "4-manufacturing/lessons/2-check-fruit-from-device/README.md",
-  "language_code": "ja"
-}
--->
 # IoTデバイスで果物の品質をチェックする
 
 ![このレッスンの概要を示すスケッチノート](../../../../../translated_images/ja/lesson-16.215daf18b00631fbdfd64c6fc2dc6044dff5d544288825d8076f9fb83d964c23.jpg)

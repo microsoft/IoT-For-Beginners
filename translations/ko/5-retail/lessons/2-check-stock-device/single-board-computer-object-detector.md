@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "a3fdfec1d1e2cb645ea11c2930b51299",
-  "translation_date": "2025-08-24T21:07:22+00:00",
-  "source_file": "5-retail/lessons/2-check-stock-device/single-board-computer-object-detector.md",
-  "language_code": "ko"
-}
--->
 # IoT 기기에서 객체 감지기 호출하기 - 가상 IoT 하드웨어와 Raspberry Pi
 
 객체 감지기가 게시되면 IoT 기기에서 사용할 수 있습니다.

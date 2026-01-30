@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "3ba7150ffc4a6999f6c3cfb4906ec7df",
-  "translation_date": "2025-08-24T21:34:20+00:00",
-  "source_file": "4-manufacturing/lessons/2-check-fruit-from-device/virtual-device-camera.md",
-  "language_code": "ja"
-}
--->
 # 画像をキャプチャする - 仮想IoTハードウェア
 
 このレッスンでは、仮想IoTデバイスにカメラセンサーを追加し、画像を読み取る方法を学びます。

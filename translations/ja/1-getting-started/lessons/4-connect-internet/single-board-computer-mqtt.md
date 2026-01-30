@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "90fb93446e03c38f3c0e4009c2471906",
-  "translation_date": "2025-08-24T23:10:14+00:00",
-  "source_file": "1-getting-started/lessons/4-connect-internet/single-board-computer-mqtt.md",
-  "language_code": "ja"
-}
--->
 # インターネットでナイトライトを制御する - 仮想IoTハードウェアとRaspberry Pi
 
 IoTデバイスは、MQTTを使用して*test.mosquitto.org*と通信し、光センサーの読み取り値を含むテレメトリ値を送信し、LEDを制御するコマンドを受信するようにコード化する必要があります。

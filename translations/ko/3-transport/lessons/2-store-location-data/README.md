@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "e345843ccfeb7261d81500d19c64d476",
-  "translation_date": "2025-08-25T01:06:00+00:00",
-  "source_file": "3-transport/lessons/2-store-location-data/README.md",
-  "language_code": "ko"
-}
--->
 # 저장 위치 데이터
 
 ![이 강의에 대한 스케치노트 개요](../../../../../translated_images/ko/lesson-12.ca7f53039712a3ec14ad6474d8445361c84adab643edc53fa6269b77895606bb.jpg)

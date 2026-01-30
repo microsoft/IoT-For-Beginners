@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "2f336726b9410e97c3aaed76cc89b0d8",
-  "translation_date": "2025-08-25T00:26:55+00:00",
-  "source_file": "6-consumer/lessons/1-speech-recognition/wio-terminal-audio.md",
-  "language_code": "ko"
-}
--->
 # 오디오 캡처 - Wio Terminal
 
 이 수업의 이 부분에서는 Wio Terminal에서 오디오를 캡처하는 코드를 작성합니다. 오디오 캡처는 Wio Terminal 상단의 버튼 중 하나로 제어됩니다.

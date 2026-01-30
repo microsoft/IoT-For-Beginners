@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "7e45d884493c5222348b43fbc4481b6a",
-  "translation_date": "2025-08-25T00:31:21+00:00",
-  "source_file": "6-consumer/lessons/1-speech-recognition/pi-microphone.md",
-  "language_code": "ko"
-}
--->
 # 라즈베리 파이 - 마이크와 스피커 설정하기
 
 이 수업의 이 부분에서는 라즈베리 파이에 마이크와 스피커를 추가합니다.

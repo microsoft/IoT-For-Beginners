@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "3f92edf2975175577174910caca4a389",
-  "translation_date": "2025-08-25T00:29:42+00:00",
-  "source_file": "6-consumer/lessons/1-speech-recognition/wio-terminal-speech-to-text.md",
-  "language_code": "ko"
-}
--->
 # 음성을 텍스트로 변환 - Wio Terminal
 
 이 수업의 이 부분에서는 음성 서비스를 사용하여 캡처된 오디오의 음성을 텍스트로 변환하는 코드를 작성합니다.

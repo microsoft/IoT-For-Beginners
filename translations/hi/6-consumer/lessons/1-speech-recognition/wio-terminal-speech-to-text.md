@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "3f92edf2975175577174910caca4a389",
-  "translation_date": "2025-08-25T17:55:19+00:00",
-  "source_file": "6-consumer/lessons/1-speech-recognition/wio-terminal-speech-to-text.md",
-  "language_code": "hi"
-}
--->
 # वाक से पाठ - Wio Terminal
 
 इस पाठ के इस भाग में, आप कोड लिखेंगे जो कैप्चर किए गए ऑडियो में वाक को पाठ में बदलने के लिए स्पीच सर्विस का उपयोग करेगा।

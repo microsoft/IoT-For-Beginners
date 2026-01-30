@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "cbb8c285bc64c5192fae3368fb5077d2",
-  "translation_date": "2025-08-25T18:06:12+00:00",
-  "source_file": "3-transport/lessons/1-location-tracking/single-board-computer-gps-decode.md",
-  "language_code": "hi"
-}
--->
 # जीपीएस डेटा डिकोड करें - वर्चुअल IoT हार्डवेयर और रास्पबेरी पाई
 
 इस पाठ के इस भाग में, आप रास्पबेरी पाई या वर्चुअल IoT डिवाइस द्वारा जीपीएस सेंसर से पढ़े गए NMEA संदेशों को डिकोड करेंगे और अक्षांश और देशांतर निकालेंगे।

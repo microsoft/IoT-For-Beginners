@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "7678f7c67b97ee52d5727496dcd7d346",
-  "translation_date": "2025-08-24T22:09:07+00:00",
-  "source_file": "2-farm/lessons/1-predict-plant-growth/pi-temp.md",
-  "language_code": "ko"
-}
--->
 # 온도 측정 - Raspberry Pi
 
 이 수업의 이 부분에서는 Raspberry Pi에 온도 센서를 추가합니다.

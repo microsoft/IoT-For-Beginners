@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "af249a24d4fe4f4de4806adbc3bc9d86",
-  "translation_date": "2025-08-25T17:57:59+00:00",
-  "source_file": "6-consumer/lessons/1-speech-recognition/pi-speech-to-text.md",
-  "language_code": "hi"
-}
--->
 # स्पीच टू टेक्स्ट - रास्पबेरी पाई
 
 इस पाठ के इस भाग में, आप ऐसा कोड लिखेंगे जो कैप्चर किए गए ऑडियो में स्पीच को टेक्स्ट में बदल देगा, इसके लिए स्पीच सर्विस का उपयोग किया जाएगा।

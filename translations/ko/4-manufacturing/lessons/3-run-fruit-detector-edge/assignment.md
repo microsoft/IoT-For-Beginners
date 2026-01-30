@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "cc7ad255517f5f618f9c8899e6ff6783",
-  "translation_date": "2025-08-24T21:45:19+00:00",
-  "source_file": "4-manufacturing/lessons/3-run-fruit-detector-edge/assignment.md",
-  "language_code": "ko"
-}
--->
 # 엣지에서 다른 서비스 실행하기
 
 ## 지침

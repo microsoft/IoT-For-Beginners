@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "160be8c0f558687f6686dca64f10f739",
-  "translation_date": "2025-08-24T21:37:17+00:00",
-  "source_file": "4-manufacturing/lessons/2-check-fruit-from-device/wio-terminal-camera.md",
-  "language_code": "ko"
-}
--->
 # 이미지 캡처 - Wio Terminal
 
 이 레슨의 이 부분에서는 Wio Terminal에 카메라를 추가하고 이미지를 캡처합니다.

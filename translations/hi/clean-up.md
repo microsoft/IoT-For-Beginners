@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "5a94fbab1ba737e9bd6cc6c64f114fa0",
-  "translation_date": "2025-08-25T16:17:11+00:00",
-  "source_file": "clean-up.md",
-  "language_code": "hi"
-}
--->
 # अपने प्रोजेक्ट को साफ करें
 
 हर प्रोजेक्ट पूरा करने के बाद, अपने क्लाउड संसाधनों को हटाना अच्छा होता है।

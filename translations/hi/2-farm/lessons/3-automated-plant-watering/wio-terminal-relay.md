@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "f3c5d8afa2ef6a0b425ef8ff20615cb4",
-  "translation_date": "2025-08-25T16:52:10+00:00",
-  "source_file": "2-farm/lessons/3-automated-plant-watering/wio-terminal-relay.md",
-  "language_code": "hi"
-}
--->
 # रिले को नियंत्रित करें - Wio Terminal
 
 इस पाठ के इस भाग में, आप मिट्टी की नमी सेंसर के साथ-साथ Wio Terminal में एक रिले जोड़ेंगे और इसे मिट्टी की नमी के स्तर के आधार पर नियंत्रित करेंगे।

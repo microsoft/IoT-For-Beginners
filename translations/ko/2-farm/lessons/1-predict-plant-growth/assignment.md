@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "1e21b012c6685f8bf73e0e76cdca3347",
-  "translation_date": "2025-08-24T22:03:39+00:00",
-  "source_file": "2-farm/lessons/1-predict-plant-growth/assignment.md",
-  "language_code": "ko"
-}
--->
 # Jupyter Notebook을 사용하여 GDD 데이터 시각화하기
 
 ## 지침

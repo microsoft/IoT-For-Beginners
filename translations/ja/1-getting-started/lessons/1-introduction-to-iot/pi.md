@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "8ff0d0a1d29832bb896b9c103b69a452",
-  "translation_date": "2025-08-24T23:36:34+00:00",
-  "source_file": "1-getting-started/lessons/1-introduction-to-iot/pi.md",
-  "language_code": "ja"
-}
--->
 # Raspberry Pi
 
 [Raspberry Pi](https://raspberrypi.org) はシングルボードコンピュータです。さまざまなデバイスやエコシステムを使用してセンサーやアクチュエータを追加することができ、このレッスンでは [Grove](https://www.seeedstudio.com/category/Grove-c-1003.html) というハードウェアエコシステムを使用します。Pythonを使ってRaspberry Piをプログラミングし、Groveセンサーにアクセスします。

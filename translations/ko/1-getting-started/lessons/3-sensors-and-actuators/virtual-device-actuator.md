@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "9c640f93263fd9adbfda920739e09feb",
-  "translation_date": "2025-08-24T23:23:55+00:00",
-  "source_file": "1-getting-started/lessons/3-sensors-and-actuators/virtual-device-actuator.md",
-  "language_code": "ko"
-}
--->
 # 나이트라이트 만들기 - 가상 IoT 하드웨어
 
 이 수업의 이번 부분에서는 가상 IoT 장치에 LED를 추가하고 이를 사용해 나이트라이트를 만들어 보겠습니다.

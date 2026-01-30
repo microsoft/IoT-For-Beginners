@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "cd89329575372232e59605f7a08ae0df",
-  "translation_date": "2025-08-24T20:59:34+00:00",
-  "source_file": "SUPPORT.md",
-  "language_code": "ko"
-}
--->
 # 지원
 
 ## 문제 신고 및 도움 받는 방법  

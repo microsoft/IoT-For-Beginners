@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "1226517aae5f5b6f904434670394c688",
-  "translation_date": "2025-08-24T23:01:18+00:00",
-  "source_file": "1-getting-started/lessons/4-connect-internet/single-board-computer-telemetry.md",
-  "language_code": "ko"
-}
--->
 # 인터넷을 통해 야간등 제어하기 - 가상 IoT 하드웨어와 Raspberry Pi
 
 이 수업의 이 부분에서는 Raspberry Pi 또는 가상 IoT 장치에서 조도 데이터를 MQTT 브로커로 전송합니다.

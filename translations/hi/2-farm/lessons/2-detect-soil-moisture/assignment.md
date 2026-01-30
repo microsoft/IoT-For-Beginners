@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "506d21b544d5de47406c89ad496a21cd",
-  "translation_date": "2025-08-25T17:01:46+00:00",
-  "source_file": "2-farm/lessons/2-detect-soil-moisture/assignment.md",
-  "language_code": "hi"
-}
--->
 # अपने सेंसर को कैलिब्रेट करें
 
 ## निर्देश

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "db44083b4dc6fb06eac83c4f16448940",
-  "translation_date": "2025-08-25T17:23:06+00:00",
-  "source_file": "1-getting-started/lessons/3-sensors-and-actuators/wio-terminal-actuator.md",
-  "language_code": "hi"
-}
--->
 # रात का लैंप बनाएं - Wio Terminal
 
 इस पाठ के इस भाग में, आप अपने Wio Terminal में एक LED जोड़ेंगे और इसका उपयोग रात का लैंप बनाने के लिए करेंगे।

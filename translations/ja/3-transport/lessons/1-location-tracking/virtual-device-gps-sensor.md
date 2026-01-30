@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "64f18a8f8aaa1fef5e7320e0992d8b3a",
-  "translation_date": "2025-08-25T00:46:20+00:00",
-  "source_file": "3-transport/lessons/1-location-tracking/virtual-device-gps-sensor.md",
-  "language_code": "ja"
-}
--->
 # GPSデータを読み取る - 仮想IoTハードウェア
 
 このレッスンのこの部分では、仮想IoTデバイスにGPSセンサーを追加し、その値を読み取ります。

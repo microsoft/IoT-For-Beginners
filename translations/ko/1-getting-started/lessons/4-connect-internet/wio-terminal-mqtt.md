@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "d6faf0e8d3c2d6d20c0aef2a305dab18",
-  "translation_date": "2025-08-24T23:12:09+00:00",
-  "source_file": "1-getting-started/lessons/4-connect-internet/wio-terminal-mqtt.md",
-  "language_code": "ko"
-}
--->
 # 인터넷을 통해 야간등 제어하기 - Wio Terminal
 
 IoT 장치는 *test.mosquitto.org*와 MQTT를 사용하여 통신하도록 코딩되어야 합니다. 이를 통해 조도 센서의 읽기값을 포함한 원격 측정 데이터를 전송하고, LED를 제어하는 명령을 수신할 수 있습니다.

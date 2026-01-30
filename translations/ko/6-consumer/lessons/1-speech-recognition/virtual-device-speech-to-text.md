@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "c0550b254b9ba2539baf1e6bb5fc05f8",
-  "translation_date": "2025-08-25T00:24:09+00:00",
-  "source_file": "6-consumer/lessons/1-speech-recognition/virtual-device-speech-to-text.md",
-  "language_code": "ko"
-}
--->
 # 음성을 텍스트로 변환 - 가상 IoT 디바이스
 
 이 수업의 이 부분에서는 마이크로폰에서 캡처된 음성을 음성 서비스를 사용하여 텍스트로 변환하는 코드를 작성합니다.

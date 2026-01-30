@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "3cf7783991ec0ee4f6041223924894c7",
-  "translation_date": "2025-08-24T21:10:56+00:00",
-  "source_file": "5-retail/lessons/2-check-stock-device/assignment.md",
-  "language_code": "ko"
-}
--->
 # 엣지에서 객체 감지기를 사용하세요
 
 ## 지침

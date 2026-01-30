@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "2bf65f162bcebd35fbcba5fd245afac4",
-  "translation_date": "2025-08-24T22:40:12+00:00",
-  "source_file": "2-farm/lessons/2-detect-soil-moisture/virtual-device-soil-moisture.md",
-  "language_code": "ko"
-}
--->
 # 토양 수분 측정 - 가상 IoT 하드웨어
 
 이 수업의 이 부분에서는 가상 IoT 장치에 정전식 토양 수분 센서를 추가하고 값을 읽는 방법을 배웁니다.

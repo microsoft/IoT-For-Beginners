@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "606f3af1c78e3741e48ce77c31cea626",
-  "translation_date": "2025-08-25T00:11:34+00:00",
-  "source_file": "6-consumer/lessons/3-spoken-feedback/pi-text-to-speech.md",
-  "language_code": "ko"
-}
--->
 # 텍스트를 음성으로 변환 - Raspberry Pi
 
 이 수업의 이 부분에서는 음성 서비스를 사용하여 텍스트를 음성으로 변환하는 코드를 작성하게 됩니다.

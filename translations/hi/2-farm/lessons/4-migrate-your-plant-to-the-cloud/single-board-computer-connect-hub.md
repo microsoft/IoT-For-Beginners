@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "3ac42e284a7222c0e83d2d43231a364f",
-  "translation_date": "2025-08-25T17:07:20+00:00",
-  "source_file": "2-farm/lessons/4-migrate-your-plant-to-the-cloud/single-board-computer-connect-hub.md",
-  "language_code": "hi"
-}
--->
 # अपने IoT डिवाइस को क्लाउड से कनेक्ट करें - वर्चुअल IoT हार्डवेयर और रास्पबेरी पाई
 
 इस पाठ के इस भाग में, आप अपने वर्चुअल IoT डिवाइस या रास्पबेरी पाई को IoT हब से कनेक्ट करेंगे, ताकि टेलीमेट्री भेज सकें और कमांड प्राप्त कर सकें।

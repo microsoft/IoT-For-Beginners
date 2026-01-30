@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "7a65ee743f916276a2848b8a9491feb7",
-  "translation_date": "2025-08-25T00:35:17+00:00",
-  "source_file": "6-consumer/lessons/1-speech-recognition/virtual-device-microphone.md",
-  "language_code": "ko"
-}
--->
 # 마이크와 스피커 설정하기 - 가상 IoT 하드웨어
 
 가상 IoT 하드웨어는 컴퓨터에 연결된 마이크와 스피커를 사용합니다.

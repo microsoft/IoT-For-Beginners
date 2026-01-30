@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "0d55caa8c23d73635b7559102cd17b8a",
-  "translation_date": "2025-08-24T22:37:33+00:00",
-  "source_file": "2-farm/lessons/2-detect-soil-moisture/wio-terminal-soil-moisture.md",
-  "language_code": "ja"
-}
--->
 # 土壌水分を測定する - Wio Terminal
 
 このレッスンでは、Wio Terminalに静電容量式土壌水分センサーを追加し、その値を読み取ります。

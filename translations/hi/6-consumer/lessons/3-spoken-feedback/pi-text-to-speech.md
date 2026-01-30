@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "606f3af1c78e3741e48ce77c31cea626",
-  "translation_date": "2025-08-25T17:47:14+00:00",
-  "source_file": "6-consumer/lessons/3-spoken-feedback/pi-text-to-speech.md",
-  "language_code": "hi"
-}
--->
 # टेक्स्ट टू स्पीच - रास्पबेरी पाई
 
 इस पाठ के इस भाग में, आप कोड लिखेंगे जो टेक्स्ट को स्पीच में बदलने के लिए स्पीच सर्विस का उपयोग करता है।

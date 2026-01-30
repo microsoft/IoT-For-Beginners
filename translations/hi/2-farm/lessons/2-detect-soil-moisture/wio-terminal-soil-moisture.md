@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "0d55caa8c23d73635b7559102cd17b8a",
-  "translation_date": "2025-08-25T17:01:11+00:00",
-  "source_file": "2-farm/lessons/2-detect-soil-moisture/wio-terminal-soil-moisture.md",
-  "language_code": "hi"
-}
--->
 # मिट्टी की नमी मापें - Wio Terminal
 
 इस पाठ के इस भाग में, आप अपने Wio Terminal में एक कैपेसिटिव मिट्टी नमी सेंसर जोड़ेंगे और इससे मान पढ़ेंगे।

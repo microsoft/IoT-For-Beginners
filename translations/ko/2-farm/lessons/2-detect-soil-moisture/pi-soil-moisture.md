@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "9d4d00a47d5d0f3e6ce42c0d1020064a",
-  "translation_date": "2025-08-24T22:41:31+00:00",
-  "source_file": "2-farm/lessons/2-detect-soil-moisture/pi-soil-moisture.md",
-  "language_code": "ko"
-}
--->
 # 토양 수분 측정 - Raspberry Pi
 
 이 수업의 이번 부분에서는 Raspberry Pi에 정전식 토양 수분 센서를 추가하고 센서로부터 값을 읽는 방법을 배웁니다.

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "f8f541ee945545017a51aaf309aa37c3",
-  "translation_date": "2025-08-24T22:19:55+00:00",
-  "source_file": "2-farm/lessons/3-automated-plant-watering/virtual-device-relay.md",
-  "language_code": "ko"
-}
--->
 # 릴레이 제어하기 - 가상 IoT 하드웨어
 
 이 수업의 이번 부분에서는 토양 수분 센서에 더해 가상 IoT 장치에 릴레이를 추가하고, 토양 수분 수준에 따라 이를 제어하는 방법을 배웁니다.

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "9713e21a309662f6fcb271b573d47848",
-  "translation_date": "2026-01-05T21:56:44+00:00",
-  "source_file": "TROUBLESHOOTING.md",
-  "language_code": "hi"
-}
--->
 # समस्या निवारण गाइड
 
 यह गाइड आपको IoT for Beginners पाठ्यक्रम के साथ काम करते समय आम समस्याओं को हल करने में मदद करता है। मुद्दे श्रेणी द्वारा व्यवस्थित किए गए हैं ताकि सरल नेविगेशन हो सके।

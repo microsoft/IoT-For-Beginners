@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "48ac21ec80329c930db7b84bd6b592ec",
-  "translation_date": "2025-08-24T21:47:20+00:00",
-  "source_file": "4-manufacturing/lessons/3-run-fruit-detector-edge/wio-terminal.md",
-  "language_code": "ko"
-}
--->
 # IoT Edge 기반 이미지 분류기를 사용하여 이미지 분류하기 - Wio Terminal
 
 이 수업의 이 부분에서는 IoT Edge 장치에서 실행되는 이미지 분류기를 사용하게 됩니다.

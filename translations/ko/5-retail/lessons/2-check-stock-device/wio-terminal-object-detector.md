@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "4cf1421420a6fab9ab4f2c391bd523b7",
-  "translation_date": "2025-08-24T21:14:36+00:00",
-  "source_file": "5-retail/lessons/2-check-stock-device/wio-terminal-object-detector.md",
-  "language_code": "ko"
-}
--->
 # IoT 기기에서 객체 감지기 호출하기 - Wio Terminal
 
 객체 감지기가 게시되면 IoT 기기에서 사용할 수 있습니다.

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "9713e21a309662f6fcb271b573d47848",
-  "translation_date": "2026-01-05T21:53:58+00:00",
-  "source_file": "TROUBLESHOOTING.md",
-  "language_code": "ko"
-}
--->
 # 문제 해결 가이드
 
 이 가이드는 IoT for Beginners 커리큘럼 작업 시 자주 발생하는 문제 해결을 돕습니다. 문제는 쉽게 탐색할 수 있도록 범주별로 정리되어 있습니다.

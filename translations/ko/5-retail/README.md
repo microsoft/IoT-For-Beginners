@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "22a1d6e49f2a689fe5bfa7802a7241fc",
-  "translation_date": "2025-08-24T21:06:19+00:00",
-  "source_file": "5-retail/README.md",
-  "language_code": "ko"
-}
--->
 # 소매업 - IoT를 활용한 재고 관리
 
 소비자에게 도달하기 전 마지막 단계는 소매업입니다. 시장, 청과점, 슈퍼마켓, 그리고 소비자에게 농산물을 판매하는 상점들이 이에 해당합니다. 이들 상점은 소비자가 보고 구매할 수 있도록 선반에 농산물이 진열되어 있는지 확인하고 싶어합니다.

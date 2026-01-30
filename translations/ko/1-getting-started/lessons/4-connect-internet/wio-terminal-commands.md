@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "6754c915dae64ba70fcd5e52c37f3adf",
-  "translation_date": "2025-08-24T23:13:10+00:00",
-  "source_file": "1-getting-started/lessons/4-connect-internet/wio-terminal-commands.md",
-  "language_code": "ko"
-}
--->
 # 인터넷을 통해 야간등 제어하기 - Wio Terminal
 
 이 수업의 이 부분에서는 MQTT 브로커에서 Wio Terminal로 전송된 명령을 구독하게 됩니다.

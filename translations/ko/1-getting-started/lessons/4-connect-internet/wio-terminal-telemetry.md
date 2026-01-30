@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "4bcc29fe2b65e56eada83d2476279227",
-  "translation_date": "2025-08-24T23:08:55+00:00",
-  "source_file": "1-getting-started/lessons/4-connect-internet/wio-terminal-telemetry.md",
-  "language_code": "ko"
-}
--->
 # 인터넷을 통해 야간등 제어하기 - Wio Terminal
 
 이 수업의 이 부분에서는 Wio Terminal에서 빛의 수준에 대한 텔레메트리를 MQTT 브로커로 전송합니다.

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "50151d9f9dce2801348a93880ef16d86",
-  "translation_date": "2025-08-25T16:38:26+00:00",
-  "source_file": "4-manufacturing/lessons/3-run-fruit-detector-edge/single-board-computer.md",
-  "language_code": "hi"
-}
--->
 # IoT Edge आधारित इमेज क्लासिफायर का उपयोग करके एक छवि को वर्गीकृत करें - वर्चुअल IoT हार्डवेयर और रास्पबेरी पाई
 
 इस पाठ के इस भाग में, आप IoT Edge डिवाइस पर चल रहे इमेज क्लासिफायर का उपयोग करेंगे।

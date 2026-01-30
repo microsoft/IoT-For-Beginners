@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "da6ae0a795cf06be33d23ca5b8493fc8",
-  "translation_date": "2025-08-25T00:45:05+00:00",
-  "source_file": "3-transport/lessons/1-location-tracking/wio-terminal-gps-sensor.md",
-  "language_code": "ko"
-}
--->
 # GPS 데이터 읽기 - Wio Terminal
 
 이 강의의 이 부분에서는 Wio Terminal에 GPS 센서를 추가하고 데이터를 읽는 방법을 배웁니다.

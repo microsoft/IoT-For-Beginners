@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "a202fa5889790a3777bfc33dd9f4b459",
-  "translation_date": "2025-08-25T17:47:53+00:00",
-  "source_file": "6-consumer/lessons/3-spoken-feedback/wio-terminal-text-to-speech.md",
-  "language_code": "hi"
-}
--->
 # टेक्स्ट से स्पीच - Wio Terminal
 
 इस पाठ के इस भाग में, आप टेक्स्ट को स्पीच में बदलेंगे ताकि बोले गए फीडबैक प्रदान किया जा सके।

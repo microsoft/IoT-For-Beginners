@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "0ac0afcfb40cb5970ef4cb74f01c32e9",
-  "translation_date": "2025-08-25T00:18:06+00:00",
-  "source_file": "6-consumer/lessons/1-speech-recognition/pi-audio.md",
-  "language_code": "ko"
-}
--->
 # 오디오 캡처 - Raspberry Pi
 
 이 수업의 이 부분에서는 Raspberry Pi에서 오디오를 캡처하는 코드를 작성합니다. 오디오 캡처는 버튼으로 제어됩니다.

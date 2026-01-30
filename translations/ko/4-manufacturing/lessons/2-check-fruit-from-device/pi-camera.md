@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "c677667095f6133eee418c7e53615d05",
-  "translation_date": "2025-08-24T21:30:32+00:00",
-  "source_file": "4-manufacturing/lessons/2-check-fruit-from-device/pi-camera.md",
-  "language_code": "ko"
-}
--->
 # 이미지 캡처 - 라즈베리 파이
 
 이 수업의 이 부분에서는 라즈베리 파이에 카메라 센서를 추가하고 이미지를 읽는 방법을 배웁니다.

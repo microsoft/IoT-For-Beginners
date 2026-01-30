@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "606f3af1c78e3741e48ce77c31cea626",
-  "translation_date": "2025-08-25T00:11:19+00:00",
-  "source_file": "6-consumer/lessons/3-spoken-feedback/pi-text-to-speech.md",
-  "language_code": "ja"
-}
--->
 # テキスト読み上げ - Raspberry Pi
 
 このレッスンのこの部分では、音声サービスを使用してテキストを音声に変換するコードを書きます。

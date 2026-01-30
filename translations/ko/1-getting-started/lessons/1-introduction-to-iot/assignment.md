@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "7ef1cec2d27b086032d46ab1958f3e99",
-  "translation_date": "2025-08-24T23:31:56+00:00",
-  "source_file": "1-getting-started/lessons/1-introduction-to-iot/assignment.md",
-  "language_code": "ko"
-}
--->
 # IoT 프로젝트 조사하기
 
 ## 지침

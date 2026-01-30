@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "e4f2925acb211765889c3b51b9116ceb",
-  "translation_date": "2025-08-25T00:34:48+00:00",
-  "source_file": "6-consumer/lessons/1-speech-recognition/virtual-device-audio.md",
-  "language_code": "ko"
-}
--->
 # 오디오 캡처 - 가상 IoT 장치
 
 이 강의에서 나중에 음성을 텍스트로 변환하기 위해 사용할 Python 라이브러리는 Windows, macOS 및 Linux에서 내장된 오디오 캡처 기능을 제공합니다. 여기서는 별도로 작업할 필요가 없습니다.

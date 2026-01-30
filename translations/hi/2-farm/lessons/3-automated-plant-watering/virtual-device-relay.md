@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "f8f541ee945545017a51aaf309aa37c3",
-  "translation_date": "2025-08-25T16:53:17+00:00",
-  "source_file": "2-farm/lessons/3-automated-plant-watering/virtual-device-relay.md",
-  "language_code": "hi"
-}
--->
 # रिले को नियंत्रित करें - वर्चुअल IoT हार्डवेयर
 
 इस पाठ के इस भाग में, आप अपनी वर्चुअल IoT डिवाइस में मिट्टी की नमी सेंसर के साथ एक रिले जोड़ेंगे और इसे मिट्टी की नमी के स्तर के आधार पर नियंत्रित करेंगे।

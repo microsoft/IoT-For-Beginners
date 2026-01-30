@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "7e9f05bdc50a40fd924b1d66934471bf",
-  "translation_date": "2025-08-24T21:56:30+00:00",
-  "source_file": "4-manufacturing/lessons/4-trigger-fruit-detector/virtual-device-proximity.md",
-  "language_code": "ko"
-}
--->
 # 근접 감지 - 가상 IoT 하드웨어
 
 이 강의의 이 부분에서는 가상 IoT 장치에 근접 센서를 추가하고, 거리 데이터를 읽는 방법을 배웁니다.

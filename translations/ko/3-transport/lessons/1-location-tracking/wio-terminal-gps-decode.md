@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "fbbcf96a9b63ccd661db98bbf854bb06",
-  "translation_date": "2025-08-25T00:55:08+00:00",
-  "source_file": "3-transport/lessons/1-location-tracking/wio-terminal-gps-decode.md",
-  "language_code": "ko"
-}
--->
 # GPS 데이터 디코딩 - Wio Terminal
 
 이 수업의 이번 부분에서는 Wio Terminal의 GPS 센서에서 읽은 NMEA 메시지를 디코딩하고 위도와 경도를 추출합니다.

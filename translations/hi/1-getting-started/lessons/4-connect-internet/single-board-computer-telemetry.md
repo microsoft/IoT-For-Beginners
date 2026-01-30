@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "1226517aae5f5b6f904434670394c688",
-  "translation_date": "2025-08-25T17:13:36+00:00",
-  "source_file": "1-getting-started/lessons/4-connect-internet/single-board-computer-telemetry.md",
-  "language_code": "hi"
-}
--->
 # इंटरनेट के माध्यम से अपनी नाइटलाइट को नियंत्रित करें - वर्चुअल IoT हार्डवेयर और रास्पबेरी पाई
 
 इस पाठ के इस भाग में, आप अपने रास्पबेरी पाई या वर्चुअल IoT डिवाइस से प्रकाश स्तर के साथ टेलीमेट्री को एक MQTT ब्रोकर्स को भेजेंगे।

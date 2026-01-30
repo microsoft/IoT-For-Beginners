@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "93d352de36526b8990e41dd538100324",
-  "translation_date": "2025-08-25T17:57:18+00:00",
-  "source_file": "6-consumer/lessons/1-speech-recognition/wio-terminal-microphone.md",
-  "language_code": "hi"
-}
--->
 # अपने माइक्रोफोन और स्पीकर को कॉन्फ़िगर करें - Wio Terminal
 
 इस पाठ के इस भाग में, आप अपने Wio Terminal में स्पीकर जोड़ेंगे। Wio Terminal में पहले से ही एक माइक्रोफोन बिल्ट-इन है, जिसे आवाज़ रिकॉर्ड करने के लिए उपयोग किया जा सकता है।

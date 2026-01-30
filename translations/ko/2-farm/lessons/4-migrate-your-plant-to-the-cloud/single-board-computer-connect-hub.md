@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "3ac42e284a7222c0e83d2d43231a364f",
-  "translation_date": "2025-08-24T22:49:26+00:00",
-  "source_file": "2-farm/lessons/4-migrate-your-plant-to-the-cloud/single-board-computer-connect-hub.md",
-  "language_code": "ko"
-}
--->
 # IoT 디바이스를 클라우드에 연결하기 - 가상 IoT 하드웨어와 Raspberry Pi
 
 이 수업의 이번 부분에서는 가상 IoT 디바이스 또는 Raspberry Pi를 IoT Hub에 연결하여 텔레메트리를 전송하고 명령을 수신합니다.

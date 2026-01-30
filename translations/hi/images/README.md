@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "50abd54997afa7e7a3fc7019379e49e3",
-  "translation_date": "2025-08-25T16:19:26+00:00",
-  "source_file": "images/README.md",
-  "language_code": "hi"
-}
--->
 # चित्र
 
 [icons](../../../images/icons) फ़ोल्डर में मौजूद चित्र [Noun Project](https://thenounproject.com) से लिए गए हैं और इसके लिए श्रेय देना आवश्यक है। प्रत्येक चित्र में आवश्यक श्रेय का उल्लेख किया गया है। इन चित्रों का उपयोग किसी भी डायग्राम के लिए किया जाना चाहिए ताकि छवियों में एकरूपता बनी रहे।

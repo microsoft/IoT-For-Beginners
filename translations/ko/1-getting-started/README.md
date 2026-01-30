@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "e2b1b891b08ef7633d285547fbe73290",
-  "translation_date": "2025-08-24T22:59:48+00:00",
-  "source_file": "1-getting-started/README.md",
-  "language_code": "ko"
-}
--->
 # IoT 시작하기
 
 이 커리큘럼 섹션에서는 사물인터넷(IoT)에 대해 소개하고, 클라우드에 연결하는 첫 번째 'Hello World' IoT 프로젝트를 포함하여 기본 개념을 배우게 됩니다. 이 프로젝트는 센서가 측정한 빛의 수준이 낮아질 때 불이 켜지는 야간 조명입니다.

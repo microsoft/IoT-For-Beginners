@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "1226517aae5f5b6f904434670394c688",
-  "translation_date": "2025-08-24T23:01:09+00:00",
-  "source_file": "1-getting-started/lessons/4-connect-internet/single-board-computer-telemetry.md",
-  "language_code": "ja"
-}
--->
 # インターネットでナイトライトを操作する - 仮想IoTハードウェアとRaspberry Pi
 
 このレッスンのこの部分では、Raspberry Piまたは仮想IoTデバイスからMQTTブローカーに光レベルのテレメトリを送信します。

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "90fb93446e03c38f3c0e4009c2471906",
-  "translation_date": "2025-08-25T17:17:46+00:00",
-  "source_file": "1-getting-started/lessons/4-connect-internet/single-board-computer-mqtt.md",
-  "language_code": "hi"
-}
--->
 # इंटरनेट के माध्यम से अपनी नाइटलाइट को नियंत्रित करें - वर्चुअल IoT हार्डवेयर और रास्पबेरी पाई
 
 IoT डिवाइस को *test.mosquitto.org* के साथ MQTT का उपयोग करके टेलीमेट्री मान भेजने और लाइट सेंसर रीडिंग के साथ LED को नियंत्रित करने के लिए कमांड प्राप्त करने के लिए कोड किया जाना चाहिए।

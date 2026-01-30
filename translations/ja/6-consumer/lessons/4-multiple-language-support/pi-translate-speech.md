@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "bbb5aa34221fe129dd3ce4d9ec33831a",
-  "translation_date": "2025-08-24T23:55:12+00:00",
-  "source_file": "6-consumer/lessons/4-multiple-language-support/pi-translate-speech.md",
-  "language_code": "ja"
-}
--->
 # スピーチを翻訳する - Raspberry Pi
 
 このレッスンのこの部分では、翻訳サービスを使用してテキストを翻訳するコードを書きます。

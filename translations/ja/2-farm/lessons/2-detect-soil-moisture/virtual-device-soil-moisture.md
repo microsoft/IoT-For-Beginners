@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "2bf65f162bcebd35fbcba5fd245afac4",
-  "translation_date": "2025-08-24T22:39:56+00:00",
-  "source_file": "2-farm/lessons/2-detect-soil-moisture/virtual-device-soil-moisture.md",
-  "language_code": "ja"
-}
--->
 # 土壌水分を測定する - 仮想IoTハードウェア
 
 このレッスンでは、仮想IoTデバイスに静電容量式土壌水分センサーを追加し、その値を読み取ります。

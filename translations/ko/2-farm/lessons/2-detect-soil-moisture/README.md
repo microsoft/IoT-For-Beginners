@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "4fb20273d299dc8d07a8f06c9cd0cdd9",
-  "translation_date": "2025-08-24T22:35:54+00:00",
-  "source_file": "2-farm/lessons/2-detect-soil-moisture/README.md",
-  "language_code": "ko"
-}
--->
 C는 *아이 스퀘어드 씨*로 발음되며, 다중 컨트롤러 및 다중 주변 장치 프로토콜로, 연결된 모든 장치가 컨트롤러 또는 주변 장치로 작동하며 I²C 버스(데이터를 전송하는 통신 시스템)에서 통신할 수 있습니다. 데이터는 주소가 포함된 패킷 형태로 전송되며, 각 패킷에는 해당 데이터가 의도된 연결 장치의 주소가 포함됩니다.
 
 > 💁 이 모델은 과거에 마스터/슬레이브로 불렸으나, 노예제와 관련된 용어라는 이유로 점차 사용되지 않고 있습니다. [오픈 소스 하드웨어 협회는 컨트롤러/주변 장치라는 용어를 채택](https://www.oshwa.org/a-resolution-to-redefine-spi-signal-names/)했지만, 여전히 이전 용어를 참조하는 경우를 볼 수 있습니다.

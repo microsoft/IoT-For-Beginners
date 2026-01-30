@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "6145a1d791731c8a9d0afd0a1bae5108",
-  "translation_date": "2025-08-24T21:54:20+00:00",
-  "source_file": "4-manufacturing/lessons/4-trigger-fruit-detector/pi-proximity.md",
-  "language_code": "ko"
-}
--->
 # 근접 감지 - Raspberry Pi
 
 이 수업의 이 부분에서는 Raspberry Pi에 근접 센서를 추가하고 센서로부터 거리를 읽는 방법을 배웁니다.

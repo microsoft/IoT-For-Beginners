@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "cbb8c285bc64c5192fae3368fb5077d2",
-  "translation_date": "2025-08-25T00:52:37+00:00",
-  "source_file": "3-transport/lessons/1-location-tracking/single-board-computer-gps-decode.md",
-  "language_code": "ko"
-}
--->
 # GPS 데이터 디코딩 - 가상 IoT 하드웨어와 Raspberry Pi
 
 이 수업의 이 부분에서는 Raspberry Pi 또는 가상 IoT 장치의 GPS 센서에서 읽은 NMEA 메시지를 디코딩하고 위도와 경도를 추출합니다.

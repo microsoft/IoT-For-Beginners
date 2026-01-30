@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "4efc74299e19f5d08f2f3f34451a11ba",
-  "translation_date": "2025-08-25T16:45:26+00:00",
-  "source_file": "2-farm/lessons/1-predict-plant-growth/single-board-computer-temp-publish.md",
-  "language_code": "hi"
-}
--->
 # तापमान प्रकाशित करें - वर्चुअल IoT हार्डवेयर और रास्पबेरी पाई
 
 इस पाठ के इस भाग में, आप रास्पबेरी पाई या वर्चुअल IoT डिवाइस द्वारा पता लगाए गए तापमान मानों को MQTT के माध्यम से प्रकाशित करेंगे ताकि उनका उपयोग बाद में GDD की गणना के लिए किया जा सके।

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "4db8a3879a53490513571df2f6cf7641",
-  "translation_date": "2025-08-25T17:22:25+00:00",
-  "source_file": "1-getting-started/lessons/3-sensors-and-actuators/pi-actuator.md",
-  "language_code": "hi"
-}
--->
 # रास्पबेरी पाई के साथ नाइटलाइट बनाएं
 
 इस पाठ के इस भाग में, आप अपने रास्पबेरी पाई में एक एलईडी जोड़ेंगे और इसका उपयोग नाइटलाइट बनाने के लिए करेंगे।

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "5a7262a0c48dfacdfe1ff91b20bf16fd",
-  "translation_date": "2025-08-25T00:04:16+00:00",
-  "source_file": "6-consumer/lessons/2-language-understanding/assignment.md",
-  "language_code": "ko"
-}
--->
 # 타이머 취소하기
 
 ## 지침

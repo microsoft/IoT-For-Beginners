@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "7e9f05bdc50a40fd924b1d66934471bf",
-  "translation_date": "2025-08-25T16:42:12+00:00",
-  "source_file": "4-manufacturing/lessons/4-trigger-fruit-detector/virtual-device-proximity.md",
-  "language_code": "hi"
-}
--->
 # निकटता का पता लगाना - वर्चुअल IoT हार्डवेयर
 
 इस पाठ के इस भाग में, आप अपने वर्चुअल IoT डिवाइस में एक निकटता सेंसर जोड़ेंगे और इससे दूरी पढ़ेंगे।

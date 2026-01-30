@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "4bcc29fe2b65e56eada83d2476279227",
-  "translation_date": "2025-08-25T17:17:08+00:00",
-  "source_file": "1-getting-started/lessons/4-connect-internet/wio-terminal-telemetry.md",
-  "language_code": "hi"
-}
--->
 # इंटरनेट के माध्यम से अपनी नाइटलाइट को नियंत्रित करें - Wio Terminal
 
 इस पाठ के इस भाग में, आप अपने Wio Terminal से प्रकाश स्तरों के साथ टेलीमेट्री को MQTT ब्रोकर्स पर भेजेंगे।

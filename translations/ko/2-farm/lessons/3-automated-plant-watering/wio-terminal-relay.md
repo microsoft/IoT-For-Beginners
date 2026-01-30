@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "f3c5d8afa2ef6a0b425ef8ff20615cb4",
-  "translation_date": "2025-08-24T22:17:20+00:00",
-  "source_file": "2-farm/lessons/3-automated-plant-watering/wio-terminal-relay.md",
-  "language_code": "ko"
-}
--->
 # 릴레이 제어 - Wio Terminal
 
 이 레슨에서는 토양 수분 센서에 추가로 Wio Terminal에 릴레이를 추가하고, 토양 수분 수준에 따라 릴레이를 제어하는 방법을 배웁니다.

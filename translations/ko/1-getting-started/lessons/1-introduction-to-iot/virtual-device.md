@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "52b4de6144b2efdced7797a5339d6035",
-  "translation_date": "2025-08-24T23:34:04+00:00",
-  "source_file": "1-getting-started/lessons/1-introduction-to-iot/virtual-device.md",
-  "language_code": "ko"
-}
--->
 # 가상 싱글보드 컴퓨터
 
 IoT 디바이스와 센서 및 액추에이터를 구매하는 대신, 컴퓨터를 사용하여 IoT 하드웨어를 시뮬레이션할 수 있습니다. [CounterFit 프로젝트](https://github.com/CounterFit-IoT/CounterFit)를 사용하면 IoT 하드웨어(센서 및 액추에이터)를 시뮬레이션하는 앱을 로컬에서 실행하고, 실제 하드웨어를 사용하는 것처럼 로컬 Python 코드에서 센서와 액추에이터에 접근할 수 있습니다.

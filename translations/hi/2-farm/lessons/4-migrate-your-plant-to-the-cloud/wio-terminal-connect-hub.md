@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "28320305a35ea3bc59c41fe146a2e6ed",
-  "translation_date": "2025-08-25T17:07:54+00:00",
-  "source_file": "2-farm/lessons/4-migrate-your-plant-to-the-cloud/wio-terminal-connect-hub.md",
-  "language_code": "hi"
-}
--->
 # अपने IoT डिवाइस को क्लाउड से कनेक्ट करें - Wio Terminal
 
 इस पाठ के इस भाग में, आप अपने Wio Terminal को IoT Hub से कनेक्ट करेंगे, ताकि टेलीमेट्री भेज सकें और कमांड प्राप्त कर सकें।

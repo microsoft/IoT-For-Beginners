@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "52b4de6144b2efdced7797a5339d6035",
-  "translation_date": "2025-08-24T23:33:23+00:00",
-  "source_file": "1-getting-started/lessons/1-introduction-to-iot/virtual-device.md",
-  "language_code": "ja"
-}
--->
 # 仮想シングルボードコンピュータ
 
 IoTデバイスやセンサー、アクチュエータを購入する代わりに、自分のコンピュータを使ってIoTハードウェアをシミュレートすることができます。[CounterFitプロジェクト](https://github.com/CounterFit-IoT/CounterFit)を利用すると、センサーやアクチュエータのようなIoTハードウェアをシミュレートするアプリをローカルで実行し、Raspberry Piで物理ハードウェアを使う場合と同じ方法で書かれたローカルのPythonコードからセンサーやアクチュエータにアクセスできます。

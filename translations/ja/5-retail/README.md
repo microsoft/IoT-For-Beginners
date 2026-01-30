@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "22a1d6e49f2a689fe5bfa7802a7241fc",
-  "translation_date": "2025-08-24T21:06:11+00:00",
-  "source_file": "5-retail/README.md",
-  "language_code": "ja"
-}
--->
 # 小売業 - IoTを活用した在庫管理
 
 消費者に届く前の最終段階は小売業です。市場、青果店、スーパーマーケット、そして消費者に商品を販売する店舗が含まれます。これらの店舗は、消費者が商品を見て購入できるように棚に商品を並べておきたいと考えています。

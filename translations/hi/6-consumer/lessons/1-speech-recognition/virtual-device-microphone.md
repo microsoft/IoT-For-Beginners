@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "7a65ee743f916276a2848b8a9491feb7",
-  "translation_date": "2025-08-25T17:58:52+00:00",
-  "source_file": "6-consumer/lessons/1-speech-recognition/virtual-device-microphone.md",
-  "language_code": "hi"
-}
--->
 # अपने माइक्रोफोन और स्पीकर कॉन्फ़िगर करें - वर्चुअल IoT हार्डवेयर
 
 वर्चुअल IoT हार्डवेयर आपके कंप्यूटर से जुड़े माइक्रोफोन और स्पीकर का उपयोग करेगा।

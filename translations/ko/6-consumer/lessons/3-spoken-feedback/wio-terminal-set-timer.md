@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "012b69d57d898d670adf61304f42a137",
-  "translation_date": "2025-08-25T00:10:01+00:00",
-  "source_file": "6-consumer/lessons/3-spoken-feedback/wio-terminal-set-timer.md",
-  "language_code": "ko"
-}
--->
 # 타이머 설정 - Wio Terminal
 
 이 수업의 이 부분에서는 서버리스 코드를 호출하여 음성을 이해하고, 결과를 기반으로 Wio Terminal에 타이머를 설정합니다.

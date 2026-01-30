@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "28320305a35ea3bc59c41fe146a2e6ed",
-  "translation_date": "2025-08-24T22:51:12+00:00",
-  "source_file": "2-farm/lessons/4-migrate-your-plant-to-the-cloud/wio-terminal-connect-hub.md",
-  "language_code": "ko"
-}
--->
 # IoT 디바이스를 클라우드에 연결하기 - Wio Terminal
 
 이 강의의 이번 단계에서는 Wio Terminal을 IoT Hub에 연결하여 텔레메트리를 전송하고 명령을 수신하는 방법을 배웁니다.

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "078ae664c7b686bf069545e9a5fc95b2",
-  "translation_date": "2025-08-25T17:59:29+00:00",
-  "source_file": "3-transport/lessons/4-geofences/README.md",
-  "language_code": "hi"
-}
--->
 # जियोफेंस
 
 ![इस पाठ का स्केच नोट अवलोकन](../../../../../translated_images/hi/lesson-14.63980c5150ae3c153e770fb71d044c1845dce79248d86bed9fc525adf3ede73c.jpg)

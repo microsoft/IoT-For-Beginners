@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "e5896207b304ce1abaf065b8acc0cc79",
-  "translation_date": "2025-08-24T21:31:33+00:00",
-  "source_file": "4-manufacturing/lessons/2-check-fruit-from-device/single-board-computer-classify-image.md",
-  "language_code": "ja"
-}
--->
 # 画像を分類する - 仮想IoTハードウェアとRaspberry Pi
 
 このレッスンのこの部分では、カメラで撮影した画像をCustom Visionサービスに送信して分類します。

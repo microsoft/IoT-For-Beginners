@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "4efc74299e19f5d08f2f3f34451a11ba",
-  "translation_date": "2025-08-24T22:02:34+00:00",
-  "source_file": "2-farm/lessons/1-predict-plant-growth/single-board-computer-temp-publish.md",
-  "language_code": "ja"
-}
--->
 # 温度を公開する - 仮想IoTハードウェアとRaspberry Pi
 
 このレッスンのこの部分では、Raspberry Piまたは仮想IoTデバイスで検出された温度値をMQTTを介して公開し、後でGDDを計算するために使用できるようにします。

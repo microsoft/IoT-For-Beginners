@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "6754c915dae64ba70fcd5e52c37f3adf",
-  "translation_date": "2025-08-25T17:19:09+00:00",
-  "source_file": "1-getting-started/lessons/4-connect-internet/wio-terminal-commands.md",
-  "language_code": "hi"
-}
--->
 # इंटरनेट के माध्यम से अपनी नाइटलाइट को नियंत्रित करें - Wio Terminal
 
 इस पाठ के इस भाग में, आप अपने Wio Terminal को MQTT ब्रोकर्स से भेजे गए कमांड्स को सब्सक्राइब करेंगे।

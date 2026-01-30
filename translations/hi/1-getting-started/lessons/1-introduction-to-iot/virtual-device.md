@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "52b4de6144b2efdced7797a5339d6035",
-  "translation_date": "2025-08-25T17:27:44+00:00",
-  "source_file": "1-getting-started/lessons/1-introduction-to-iot/virtual-device.md",
-  "language_code": "hi"
-}
--->
 # वर्चुअल सिंगल-बोर्ड कंप्यूटर
 
 IoT डिवाइस, सेंसर और एक्टुएटर्स खरीदने के बजाय, आप अपने कंप्यूटर का उपयोग IoT हार्डवेयर को सिमुलेट करने के लिए कर सकते हैं। [CounterFit प्रोजेक्ट](https://github.com/CounterFit-IoT/CounterFit) आपको एक ऐप को लोकली चलाने की अनुमति देता है जो सेंसर और एक्टुएटर्स जैसे IoT हार्डवेयर को सिमुलेट करता है। आप लोकल Python कोड से इन सेंसर और एक्टुएटर्स तक पहुंच सकते हैं, ठीक उसी तरह जैसे आप फिजिकल हार्डवेयर का उपयोग करके Raspberry Pi पर कोड लिखते।

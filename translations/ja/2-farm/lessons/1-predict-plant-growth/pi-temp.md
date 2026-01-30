@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "7678f7c67b97ee52d5727496dcd7d346",
-  "translation_date": "2025-08-24T22:08:47+00:00",
-  "source_file": "2-farm/lessons/1-predict-plant-growth/pi-temp.md",
-  "language_code": "ja"
-}
--->
 # 温度を測定する - Raspberry Pi
 
 このレッスンのこの部分では、Raspberry Pi に温度センサーを追加します。

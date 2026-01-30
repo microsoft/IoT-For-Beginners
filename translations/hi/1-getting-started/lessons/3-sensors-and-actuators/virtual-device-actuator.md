@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "9c640f93263fd9adbfda920739e09feb",
-  "translation_date": "2025-08-25T17:23:42+00:00",
-  "source_file": "1-getting-started/lessons/3-sensors-and-actuators/virtual-device-actuator.md",
-  "language_code": "hi"
-}
--->
 # नाइटलाइट बनाएं - वर्चुअल IoT हार्डवेयर
 
 इस पाठ के इस भाग में, आप अपने वर्चुअल IoT डिवाइस में एक LED जोड़ेंगे और इसका उपयोग नाइटलाइट बनाने के लिए करेंगे।

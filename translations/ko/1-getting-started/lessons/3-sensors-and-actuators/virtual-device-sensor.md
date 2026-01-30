@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "11f10c6760fb8202cf368422702fdf70",
-  "translation_date": "2025-08-24T23:25:09+00:00",
-  "source_file": "1-getting-started/lessons/3-sensors-and-actuators/virtual-device-sensor.md",
-  "language_code": "ko"
-}
--->
 # 야간등 만들기 - 가상 IoT 하드웨어
 
 이 수업의 이 부분에서는 가상 IoT 장치에 조도 센서를 추가할 것입니다.

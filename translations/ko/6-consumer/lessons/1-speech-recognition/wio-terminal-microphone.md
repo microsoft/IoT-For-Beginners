@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "93d352de36526b8990e41dd538100324",
-  "translation_date": "2025-08-25T00:32:47+00:00",
-  "source_file": "6-consumer/lessons/1-speech-recognition/wio-terminal-microphone.md",
-  "language_code": "ko"
-}
--->
 # 마이크와 스피커 설정하기 - Wio Terminal
 
 이 강의의 이 부분에서는 Wio Terminal에 스피커를 추가합니다. Wio Terminal에는 이미 내장 마이크가 있어 음성을 캡처할 수 있습니다.

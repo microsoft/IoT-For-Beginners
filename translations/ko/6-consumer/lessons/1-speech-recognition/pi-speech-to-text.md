@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "af249a24d4fe4f4de4806adbc3bc9d86",
-  "translation_date": "2025-08-25T00:34:09+00:00",
-  "source_file": "6-consumer/lessons/1-speech-recognition/pi-speech-to-text.md",
-  "language_code": "ko"
-}
--->
 # 음성을 텍스트로 변환 - Raspberry Pi
 
 이 수업의 이 부분에서는 캡처된 오디오의 음성을 텍스트로 변환하는 코드를 작성합니다. 이를 위해 음성 서비스를 사용합니다.

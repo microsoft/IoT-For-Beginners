@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "3ba7150ffc4a6999f6c3cfb4906ec7df",
-  "translation_date": "2025-08-24T21:34:42+00:00",
-  "source_file": "4-manufacturing/lessons/2-check-fruit-from-device/virtual-device-camera.md",
-  "language_code": "ko"
-}
--->
 # 이미지 캡처 - 가상 IoT 하드웨어
 
 이 수업의 이 부분에서는 가상 IoT 장치에 카메라 센서를 추가하고 이미지를 읽는 방법을 배웁니다.

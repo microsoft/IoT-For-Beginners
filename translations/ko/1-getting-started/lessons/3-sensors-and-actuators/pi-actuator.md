@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "4db8a3879a53490513571df2f6cf7641",
-  "translation_date": "2025-08-24T23:21:18+00:00",
-  "source_file": "1-getting-started/lessons/3-sensors-and-actuators/pi-actuator.md",
-  "language_code": "ko"
-}
--->
 # 나이트라이트 만들기 - Raspberry Pi
 
 이 수업의 이 부분에서는 Raspberry Pi에 LED를 추가하고 이를 사용하여 나이트라이트를 만들어 봅니다.

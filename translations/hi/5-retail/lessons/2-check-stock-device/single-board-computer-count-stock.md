@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "9c4320311c0f2c1884a6a21265d98a51",
-  "translation_date": "2025-08-25T16:22:43+00:00",
-  "source_file": "5-retail/lessons/2-check-stock-device/single-board-computer-count-stock.md",
-  "language_code": "hi"
-}
--->
 # अपने IoT डिवाइस से स्टॉक गिनें - वर्चुअल IoT हार्डवेयर और रास्पबेरी पाई
 
 पूर्वानुमानों और उनके बाउंडिंग बॉक्स का संयोजन छवि में स्टॉक गिनने के लिए उपयोग किया जा सकता है।

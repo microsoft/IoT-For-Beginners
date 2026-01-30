@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "d620a470d9dd8614d99824832978360a",
-  "translation_date": "2025-08-25T17:39:41+00:00",
-  "source_file": "6-consumer/lessons/4-multiple-language-support/virtual-device-translate-speech.md",
-  "language_code": "hi"
-}
--->
 # भाषण का अनुवाद करें - वर्चुअल IoT डिवाइस
 
 इस पाठ के इस भाग में, आप कोड लिखेंगे जो भाषण को टेक्स्ट में बदलते समय उसका अनुवाद करेगा, फिर टेक्स्ट का अनुवाद Translator सेवा का उपयोग करके करेगा और अंत में एक बोले गए उत्तर को उत्पन्न करेगा।

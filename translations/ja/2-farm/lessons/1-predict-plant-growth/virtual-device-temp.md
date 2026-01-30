@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "70e5a428b607cd5a9a4f422c2a4df03d",
-  "translation_date": "2025-08-24T22:07:17+00:00",
-  "source_file": "2-farm/lessons/1-predict-plant-growth/virtual-device-temp.md",
-  "language_code": "ja"
-}
--->
 # 温度を測定する - 仮想IoTハードウェア
 
 このレッスンでは、仮想IoTデバイスに温度センサーを追加します。

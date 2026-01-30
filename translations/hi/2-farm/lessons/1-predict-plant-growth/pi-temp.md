@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "7678f7c67b97ee52d5727496dcd7d346",
-  "translation_date": "2025-08-25T16:48:20+00:00",
-  "source_file": "2-farm/lessons/1-predict-plant-growth/pi-temp.md",
-  "language_code": "hi"
-}
--->
 # तापमान मापें - रास्पबेरी पाई
 
 इस पाठ के इस भाग में, आप अपने रास्पबेरी पाई में एक तापमान सेंसर जोड़ेंगे।

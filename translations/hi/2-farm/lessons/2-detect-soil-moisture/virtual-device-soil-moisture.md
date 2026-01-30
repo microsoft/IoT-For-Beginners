@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "2bf65f162bcebd35fbcba5fd245afac4",
-  "translation_date": "2025-08-25T17:02:11+00:00",
-  "source_file": "2-farm/lessons/2-detect-soil-moisture/virtual-device-soil-moisture.md",
-  "language_code": "hi"
-}
--->
 # मिट्टी की नमी मापें - वर्चुअल IoT हार्डवेयर
 
 इस पाठ के इस भाग में, आप अपने वर्चुअल IoT डिवाइस में एक कैपेसिटिव मिट्टी नमी सेंसर जोड़ेंगे और इससे मान पढ़ेंगे।

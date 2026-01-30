@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "64ad4ddb4de81a18b7252e968f10b404",
-  "translation_date": "2025-08-25T00:05:24+00:00",
-  "source_file": "6-consumer/lessons/3-spoken-feedback/single-board-computer-set-timer.md",
-  "language_code": "ko"
-}
--->
 # 타이머 설정 - 가상 IoT 하드웨어와 Raspberry Pi
 
 이 수업의 이 부분에서는 서버리스 코드를 호출하여 음성을 이해하고, 결과를 바탕으로 가상 IoT 장치나 Raspberry Pi에서 타이머를 설정합니다.

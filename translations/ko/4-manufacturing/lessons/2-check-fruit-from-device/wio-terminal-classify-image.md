@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "32a1f23e7834fbe7715da8c4ebb450b9",
-  "translation_date": "2025-08-24T21:33:16+00:00",
-  "source_file": "4-manufacturing/lessons/2-check-fruit-from-device/wio-terminal-classify-image.md",
-  "language_code": "ko"
-}
--->
 # 이미지 분류하기 - Wio Terminal
 
 이 수업의 이 부분에서는 카메라로 촬영한 이미지를 Custom Vision 서비스로 보내 분류합니다.

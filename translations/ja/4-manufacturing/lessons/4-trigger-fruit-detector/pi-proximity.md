@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "6145a1d791731c8a9d0afd0a1bae5108",
-  "translation_date": "2025-08-24T21:54:07+00:00",
-  "source_file": "4-manufacturing/lessons/4-trigger-fruit-detector/pi-proximity.md",
-  "language_code": "ja"
-}
--->
 # 近接検知 - Raspberry Pi
 
 このレッスンでは、Raspberry Piに近接センサーを追加し、距離を読み取る方法を学びます。

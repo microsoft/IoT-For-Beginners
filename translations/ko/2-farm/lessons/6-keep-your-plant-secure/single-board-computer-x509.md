@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "9aea84bcc7520222b0e1c50469d62d6a",
-  "translation_date": "2025-08-24T22:57:54+00:00",
-  "source_file": "2-farm/lessons/6-keep-your-plant-secure/single-board-computer-x509.md",
-  "language_code": "ko"
-}
--->
 # X.509 인증서를 사용하여 디바이스 코드 연결 - 가상 IoT 하드웨어 및 Raspberry Pi
 
 이 강의의 이 부분에서는 가상 IoT 디바이스 또는 Raspberry Pi를 X.509 인증서를 사용하여 IoT Hub에 연결합니다.

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "a202fa5889790a3777bfc33dd9f4b459",
-  "translation_date": "2025-08-25T00:14:52+00:00",
-  "source_file": "6-consumer/lessons/3-spoken-feedback/wio-terminal-text-to-speech.md",
-  "language_code": "ko"
-}
--->
 # 텍스트 음성 변환 - Wio Terminal
 
 이 수업의 이 부분에서는 텍스트를 음성으로 변환하여 음성 피드백을 제공하게 됩니다.

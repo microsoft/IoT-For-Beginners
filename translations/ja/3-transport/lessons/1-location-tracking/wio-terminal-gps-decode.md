@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "fbbcf96a9b63ccd661db98bbf854bb06",
-  "translation_date": "2025-08-25T00:54:58+00:00",
-  "source_file": "3-transport/lessons/1-location-tracking/wio-terminal-gps-decode.md",
-  "language_code": "ja"
-}
--->
 # GPSデータをデコードする - Wio Terminal
 
 このレッスンでは、Wio TerminalのGPSセンサーから読み取ったNMEAメッセージをデコードし、緯度と経度を抽出します。

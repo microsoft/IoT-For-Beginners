@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "24dc783a600e20251211987b36370e93",
-  "translation_date": "2025-08-24T21:46:26+00:00",
-  "source_file": "4-manufacturing/lessons/3-run-fruit-detector-edge/vm-iotedge.md",
-  "language_code": "ko"
-}
--->
 # IoT Edge 가상 머신 생성하기
 
 Azure에서는 가상 머신을 생성할 수 있습니다. 가상 머신은 클라우드에 있는 컴퓨터로, 원하는 대로 구성하고 소프트웨어를 실행할 수 있습니다.

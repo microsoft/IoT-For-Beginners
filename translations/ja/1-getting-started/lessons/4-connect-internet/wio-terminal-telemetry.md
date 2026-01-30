@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "4bcc29fe2b65e56eada83d2476279227",
-  "translation_date": "2025-08-24T23:08:43+00:00",
-  "source_file": "1-getting-started/lessons/4-connect-internet/wio-terminal-telemetry.md",
-  "language_code": "ja"
-}
--->
 # インターネットでナイトライトを操作する - Wio Terminal
 
 このレッスンでは、Wio TerminalからMQTTブローカーに光レベルのテレメトリを送信します。

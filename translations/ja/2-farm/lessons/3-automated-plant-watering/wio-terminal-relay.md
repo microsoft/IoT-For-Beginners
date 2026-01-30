@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "f3c5d8afa2ef6a0b425ef8ff20615cb4",
-  "translation_date": "2025-08-24T22:16:52+00:00",
-  "source_file": "2-farm/lessons/3-automated-plant-watering/wio-terminal-relay.md",
-  "language_code": "ja"
-}
--->
 # リレーを制御する - Wio Terminal
 
 このレッスンでは、土壌湿度センサーに加えてリレーをWio Terminalに追加し、土壌湿度レベルに基づいてリレーを制御します。

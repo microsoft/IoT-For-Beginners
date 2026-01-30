@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "3b2448c7ab4e9673e77e35a50c5e350d",
-  "translation_date": "2025-08-25T00:54:12+00:00",
-  "source_file": "3-transport/lessons/1-location-tracking/pi-gps-sensor.md",
-  "language_code": "ko"
-}
--->
 # GPS 데이터 읽기 - 라즈베리 파이
 
 이 수업의 이 부분에서는 라즈베리 파이에 GPS 센서를 추가하고 데이터를 읽는 방법을 배웁니다.

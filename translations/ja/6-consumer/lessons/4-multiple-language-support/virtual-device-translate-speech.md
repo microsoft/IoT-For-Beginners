@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "d620a470d9dd8614d99824832978360a",
-  "translation_date": "2025-08-24T23:56:42+00:00",
-  "source_file": "6-consumer/lessons/4-multiple-language-support/virtual-device-translate-speech.md",
-  "language_code": "ja"
-}
--->
 # スピーチ翻訳 - 仮想IoTデバイス
 
 このレッスンのこの部分では、スピーチサービスを使用して音声をテキストに変換し、その後、翻訳サービスを使用してテキストを翻訳し、音声応答を生成するコードを書きます。

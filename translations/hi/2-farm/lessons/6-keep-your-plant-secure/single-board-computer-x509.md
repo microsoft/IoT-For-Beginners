@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "9aea84bcc7520222b0e1c50469d62d6a",
-  "translation_date": "2025-08-25T17:11:50+00:00",
-  "source_file": "2-farm/lessons/6-keep-your-plant-secure/single-board-computer-x509.md",
-  "language_code": "hi"
-}
--->
 # अपने डिवाइस को X.509 प्रमाणपत्र के साथ कनेक्ट करें - वर्चुअल IoT हार्डवेयर और रास्पबेरी पाई
 
 इस पाठ के इस भाग में, आप अपने वर्चुअल IoT डिवाइस या रास्पबेरी पाई को X.509 प्रमाणपत्र का उपयोग करके अपने IoT हब से कनेक्ट करेंगे।

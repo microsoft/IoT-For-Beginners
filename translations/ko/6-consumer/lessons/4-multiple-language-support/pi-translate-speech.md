@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "bbb5aa34221fe129dd3ce4d9ec33831a",
-  "translation_date": "2025-08-24T23:55:29+00:00",
-  "source_file": "6-consumer/lessons/4-multiple-language-support/pi-translate-speech.md",
-  "language_code": "ko"
-}
--->
 # 음성 번역 - Raspberry Pi
 
 이 수업의 이 부분에서는 번역 서비스를 사용하여 텍스트를 번역하는 코드를 작성합니다.

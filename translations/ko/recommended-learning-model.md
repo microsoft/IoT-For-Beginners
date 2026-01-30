@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "012bbd19f13171be32ac9ba21d4186c2",
-  "translation_date": "2025-08-24T20:54:18+00:00",
-  "source_file": "recommended-learning-model.md",
-  "language_code": "ko"
-}
--->
 # 추천 학습 모델
 
 가장 효과적인 학습 결과를 위해, **“역진행 학습 모델(Flipped Model)” 접근법**을 권장합니다. 과학 실험실처럼 학생들이 수업 시간에는 프로젝트를 진행하며 토론, 질문 및 답변, 프로젝트 지원의 기회를 갖고, 강의 요소는 스스로 사전 학습으로 진행하는 방식입니다.

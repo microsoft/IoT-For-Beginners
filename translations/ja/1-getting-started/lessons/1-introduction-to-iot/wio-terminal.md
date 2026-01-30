@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "a4f0c166010e31fd7b6ca20bc88dec6d",
-  "translation_date": "2025-08-24T23:39:38+00:00",
-  "source_file": "1-getting-started/lessons/1-introduction-to-iot/wio-terminal.md",
-  "language_code": "ja"
-}
--->
 # Wio Terminal
 
 [Seeed StudiosのWio Terminal](https://www.seeedstudio.com/Wio-Terminal-p-4509.html)は、Arduino互換のマイクロコントローラーで、WiFiやいくつかのセンサー、アクチュエーターが内蔵されています。また、[Grove](https://www.seeedstudio.com/category/Grove-c-1003.html)というハードウェアエコシステムを使用して、さらに多くのセンサーやアクチュエーターを追加するためのポートも備えています。

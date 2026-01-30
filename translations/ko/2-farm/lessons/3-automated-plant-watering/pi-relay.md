@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "66b81165e60f8f169bd52a401b6a0f8b",
-  "translation_date": "2025-08-24T22:18:34+00:00",
-  "source_file": "2-farm/lessons/3-automated-plant-watering/pi-relay.md",
-  "language_code": "ko"
-}
--->
 # 릴레이 제어하기 - Raspberry Pi
 
 이 수업의 이번 부분에서는 토양 수분 센서에 더해 Raspberry Pi에 릴레이를 추가하고, 토양 수분 수준에 따라 이를 제어하는 방법을 배웁니다.

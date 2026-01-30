@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "012bbd19f13171be32ac9ba21d4186c2",
-  "translation_date": "2025-08-24T20:54:02+00:00",
-  "source_file": "recommended-learning-model.md",
-  "language_code": "ja"
-}
--->
 # 推奨される学習モデル
 
 最も効果的な学習成果を得るために、**「反転授業モデル」アプローチ**をお勧めします。これは科学実験室のように、授業中にプロジェクトに取り組み、ディスカッション、質疑応答、プロジェクト支援の機会を設け、講義要素は事前に各自で学習する形式です。

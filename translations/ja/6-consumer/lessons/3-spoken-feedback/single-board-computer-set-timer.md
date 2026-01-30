@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "64ad4ddb4de81a18b7252e968f10b404",
-  "translation_date": "2025-08-25T00:05:08+00:00",
-  "source_file": "6-consumer/lessons/3-spoken-feedback/single-board-computer-set-timer.md",
-  "language_code": "ja"
-}
--->
 # タイマーを設定する - 仮想IoTハードウェアとRaspberry Pi
 
 このレッスンのこの部分では、サーバーレスコードを呼び出して音声を理解し、その結果に基づいて仮想IoTデバイスまたはRaspberry Piにタイマーを設定します。
