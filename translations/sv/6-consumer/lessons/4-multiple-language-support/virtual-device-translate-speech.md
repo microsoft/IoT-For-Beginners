@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "d620a470d9dd8614d99824832978360a",
-  "translation_date": "2025-08-27T21:16:31+00:00",
-  "source_file": "6-consumer/lessons/4-multiple-language-support/virtual-device-translate-speech.md",
-  "language_code": "sv"
-}
--->
 # Översätt tal - Virtuell IoT-enhet
 
 I den här delen av lektionen kommer du att skriva kod för att översätta tal när det konverteras till text med hjälp av tal-tjänsten, och sedan översätta texten med Translator-tjänsten innan du genererar ett talat svar.

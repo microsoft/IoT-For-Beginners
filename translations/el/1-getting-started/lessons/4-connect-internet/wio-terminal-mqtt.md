@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "d6faf0e8d3c2d6d20c0aef2a305dab18",
-  "translation_date": "2025-08-27T21:13:41+00:00",
-  "source_file": "1-getting-started/lessons/4-connect-internet/wio-terminal-mqtt.md",
-  "language_code": "el"
-}
--->
 # Ελέγξτε το νυχτερινό σας φως μέσω του Διαδικτύου - Wio Terminal
 
 Η συσκευή IoT πρέπει να προγραμματιστεί ώστε να επικοινωνεί με το *test.mosquitto.org* χρησιμοποιώντας το MQTT για να στέλνει τιμές τηλεμετρίας με την ανάγνωση του αισθητήρα φωτός και να λαμβάνει εντολές για τον έλεγχο του LED.

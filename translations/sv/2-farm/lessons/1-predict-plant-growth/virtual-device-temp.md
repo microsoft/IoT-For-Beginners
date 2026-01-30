@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "70e5a428b607cd5a9a4f422c2a4df03d",
-  "translation_date": "2025-08-27T22:51:16+00:00",
-  "source_file": "2-farm/lessons/1-predict-plant-growth/virtual-device-temp.md",
-  "language_code": "sv"
-}
--->
 # Mäta temperatur - Virtuell IoT-hårdvara
 
 I denna del av lektionen kommer du att lägga till en temperatursensor till din virtuella IoT-enhet.

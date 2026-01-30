@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "9d4d00a47d5d0f3e6ce42c0d1020064a",
-  "translation_date": "2025-08-27T21:41:25+00:00",
-  "source_file": "2-farm/lessons/2-detect-soil-moisture/pi-soil-moisture.md",
-  "language_code": "th"
-}
--->
 # วัดความชื้นในดิน - Raspberry Pi
 
 ในส่วนนี้ของบทเรียน คุณจะเพิ่มเซ็นเซอร์วัดความชื้นในดินแบบ capacitive เข้ากับ Raspberry Pi และอ่านค่าจากเซ็นเซอร์นี้

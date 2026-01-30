@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "db44083b4dc6fb06eac83c4f16448940",
-  "translation_date": "2025-08-27T21:30:11+00:00",
-  "source_file": "1-getting-started/lessons/3-sensors-and-actuators/wio-terminal-actuator.md",
-  "language_code": "th"
-}
--->
 # สร้างไฟกลางคืน - Wio Terminal
 
 ในส่วนนี้ของบทเรียน คุณจะเพิ่ม LED ลงใน Wio Terminal และใช้มันเพื่อสร้างไฟกลางคืน

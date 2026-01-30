@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "66b81165e60f8f169bd52a401b6a0f8b",
-  "translation_date": "2025-08-27T22:13:09+00:00",
-  "source_file": "2-farm/lessons/3-automated-plant-watering/pi-relay.md",
-  "language_code": "el"
-}
--->
 # Έλεγχος ενός ρελέ - Raspberry Pi
 
 Σε αυτό το μέρος του μαθήματος, θα προσθέσετε ένα ρελέ στο Raspberry Pi σας, εκτός από τον αισθητήρα υγρασίας εδάφους, και θα το ελέγξετε με βάση το επίπεδο υγρασίας του εδάφους.

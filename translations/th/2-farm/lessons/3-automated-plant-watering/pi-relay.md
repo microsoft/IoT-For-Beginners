@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "66b81165e60f8f169bd52a401b6a0f8b",
-  "translation_date": "2025-08-27T22:13:30+00:00",
-  "source_file": "2-farm/lessons/3-automated-plant-watering/pi-relay.md",
-  "language_code": "th"
-}
--->
 # ควบคุมรีเลย์ - Raspberry Pi
 
 ในส่วนนี้ของบทเรียน คุณจะเพิ่มรีเลย์เข้าไปใน Raspberry Pi ของคุณเพิ่มเติมจากเซ็นเซอร์วัดความชื้นในดิน และควบคุมมันตามระดับความชื้นในดิน

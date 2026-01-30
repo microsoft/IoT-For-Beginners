@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "2f336726b9410e97c3aaed76cc89b0d8",
-  "translation_date": "2025-08-27T21:08:57+00:00",
-  "source_file": "6-consumer/lessons/1-speech-recognition/wio-terminal-audio.md",
-  "language_code": "sv"
-}
--->
 # Fånga ljud - Wio Terminal
 
 I den här delen av lektionen kommer du att skriva kod för att fånga ljud på din Wio Terminal. Ljudinspelningen kommer att styras av en av knapparna på ovansidan av Wio Terminal.

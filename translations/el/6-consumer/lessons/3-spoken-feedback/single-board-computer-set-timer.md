@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "64ad4ddb4de81a18b7252e968f10b404",
-  "translation_date": "2025-08-27T20:29:58+00:00",
-  "source_file": "6-consumer/lessons/3-spoken-feedback/single-board-computer-set-timer.md",
-  "language_code": "el"
-}
--->
 # Ρύθμιση χρονομέτρου - Εικονικό IoT Hardware και Raspberry Pi
 
 Σε αυτό το μέρος του μαθήματος, θα καλέσετε τον serverless κώδικά σας για να κατανοήσετε την ομιλία και να ρυθμίσετε ένα χρονόμετρο στη εικονική IoT συσκευή ή το Raspberry Pi σας βάσει των αποτελεσμάτων.

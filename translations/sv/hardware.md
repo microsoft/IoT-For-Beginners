@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "3dce18fab38adf93ff30b8c221b1eec5",
-  "translation_date": "2025-08-27T20:18:41+00:00",
-  "source_file": "hardware.md",
-  "language_code": "sv"
-}
--->
 # Hårdvara
 
 **T** i IoT står för **Things** och syftar på enheter som interagerar med omvärlden. Varje projekt bygger på verklig hårdvara som är tillgänglig för studenter och hobbyister. Vi har två val av IoT-hårdvara beroende på personlig preferens, programmeringskunskaper eller preferenser, inlärningsmål och tillgänglighet. Vi har också tillhandahållit en "virtuell hårdvara"-version för dem som inte har tillgång till hårdvara eller vill lära sig mer innan de köper något.

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "0d55caa8c23d73635b7559102cd17b8a",
-  "translation_date": "2025-08-27T21:46:28+00:00",
-  "source_file": "2-farm/lessons/2-detect-soil-moisture/wio-terminal-soil-moisture.md",
-  "language_code": "el"
-}
--->
 # Μέτρηση υγρασίας εδάφους - Wio Terminal
 
 Σε αυτό το μέρος του μαθήματος, θα προσθέσετε έναν χωρητικό αισθητήρα υγρασίας εδάφους στο Wio Terminal σας και θα διαβάσετε τιμές από αυτόν.

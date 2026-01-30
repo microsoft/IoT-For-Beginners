@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "50151d9f9dce2801348a93880ef16d86",
-  "translation_date": "2025-08-27T20:10:40+00:00",
-  "source_file": "4-manufacturing/lessons/3-run-fruit-detector-edge/single-board-computer.md",
-  "language_code": "el"
-}
--->
 # Ταξινόμηση εικόνας χρησιμοποιώντας έναν ταξινομητή εικόνων βασισμένο σε IoT Edge - Εικονικό IoT Υλικό και Raspberry Pi
 
 Σε αυτό το μέρος του μαθήματος, θα χρησιμοποιήσετε τον Ταξινομητή Εικόνων που εκτελείται στη συσκευή IoT Edge.

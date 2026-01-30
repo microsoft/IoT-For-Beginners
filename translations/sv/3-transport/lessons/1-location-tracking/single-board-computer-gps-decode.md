@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "cbb8c285bc64c5192fae3368fb5077d2",
-  "translation_date": "2025-08-27T21:26:18+00:00",
-  "source_file": "3-transport/lessons/1-location-tracking/single-board-computer-gps-decode.md",
-  "language_code": "sv"
-}
--->
 # Avkoda GPS-data - Virtuell IoT-hårdvara och Raspberry Pi
 
 I den här delen av lektionen kommer du att avkoda NMEA-meddelanden som lästs från GPS-sensorn av Raspberry Pi eller Virtuell IoT-enhet, och extrahera latitud och longitud.

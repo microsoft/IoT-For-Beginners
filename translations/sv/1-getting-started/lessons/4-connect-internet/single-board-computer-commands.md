@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "c527ce85d69b1a3875366ec61cbed8aa",
-  "translation_date": "2025-08-27T21:52:12+00:00",
-  "source_file": "1-getting-started/lessons/4-connect-internet/single-board-computer-commands.md",
-  "language_code": "sv"
-}
--->
 # Styr din nattlampa över Internet - Virtuell IoT-hårdvara och Raspberry Pi
 
 I den här delen av lektionen kommer du att prenumerera på kommandon som skickas från en MQTT-broker till din Raspberry Pi eller virtuella IoT-enhet.

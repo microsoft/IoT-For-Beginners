@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "d6faf0e8d3c2d6d20c0aef2a305dab18",
-  "translation_date": "2025-08-27T21:14:10+00:00",
-  "source_file": "1-getting-started/lessons/4-connect-internet/wio-terminal-mqtt.md",
-  "language_code": "th"
-}
--->
 # ควบคุมไฟกลางคืนของคุณผ่านอินเทอร์เน็ต - Wio Terminal
 
 อุปกรณ์ IoT จำเป็นต้องเขียนโค้ดเพื่อสื่อสารกับ *test.mosquitto.org* โดยใช้ MQTT เพื่อส่งค่าข้อมูลจากเซ็นเซอร์วัดแสง และรับคำสั่งเพื่อควบคุม LED

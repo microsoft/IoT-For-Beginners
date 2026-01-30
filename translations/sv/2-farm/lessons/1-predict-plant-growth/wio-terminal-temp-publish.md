@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "df28cd649cd892bcce034e064913b2f3",
-  "translation_date": "2025-08-27T22:49:37+00:00",
-  "source_file": "2-farm/lessons/1-predict-plant-growth/wio-terminal-temp-publish.md",
-  "language_code": "sv"
-}
--->
 # Publicera temperatur - Wio Terminal
 
 I den här delen av lektionen kommer du att publicera temperaturvärden som detekterats av Wio Terminal via MQTT, så att de senare kan användas för att beräkna GDD.

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "5a94fbab1ba737e9bd6cc6c64f114fa0",
-  "translation_date": "2025-08-27T19:55:01+00:00",
-  "source_file": "clean-up.md",
-  "language_code": "el"
-}
--->
 # Καθαρισμός του έργου σας
 
 Αφού ολοκληρώσετε κάθε έργο, είναι καλό να διαγράψετε τους πόρους σας στο cloud.

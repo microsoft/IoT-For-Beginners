@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "90fb93446e03c38f3c0e4009c2471906",
-  "translation_date": "2025-08-27T21:53:12+00:00",
-  "source_file": "1-getting-started/lessons/4-connect-internet/single-board-computer-mqtt.md",
-  "language_code": "sv"
-}
--->
 # Styr din nattlampa över Internet - Virtuell IoT-hårdvara och Raspberry Pi
 
 IoT-enheten behöver programmeras för att kommunicera med *test.mosquitto.org* via MQTT för att skicka telemetrivärden med ljussensoravläsningar och ta emot kommandon för att styra LED-lampan.

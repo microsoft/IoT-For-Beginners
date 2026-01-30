@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "3764e089adf2d5801272bc0895f8498b",
-  "translation_date": "2025-08-27T20:23:58+00:00",
-  "source_file": "4-manufacturing/README.md",
-  "language_code": "sv"
-}
--->
 # Tillverkning och bearbetning - använda IoT för att förbättra bearbetningen av mat
 
 När mat når en central hub eller bearbetningsanläggning skickas den inte alltid direkt till stormarknader. Ofta går maten igenom flera bearbetningssteg, som att sorteras efter kvalitet. Detta var tidigare en manuell process - det började på fältet där plockare endast plockade mogen frukt, och sedan på fabriken åkte frukten på ett transportband där anställda manuellt tog bort skadad eller rutten frukt. Efter att själv ha plockat och sorterat jordgubbar som sommarjobb under skoltiden kan jag intyga att detta inte är ett roligt jobb.

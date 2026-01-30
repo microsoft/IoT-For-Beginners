@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "d6faf0e8d3c2d6d20c0aef2a305dab18",
-  "translation_date": "2025-08-27T21:50:22+00:00",
-  "source_file": "1-getting-started/lessons/4-connect-internet/wio-terminal-mqtt.md",
-  "language_code": "sv"
-}
--->
 # Styr din nattlampa över Internet - Wio Terminal
 
 IoT-enheten behöver programmeras för att kommunicera med *test.mosquitto.org* via MQTT för att skicka telemetrivärden från ljussensorn och ta emot kommandon för att styra LED-lampan.

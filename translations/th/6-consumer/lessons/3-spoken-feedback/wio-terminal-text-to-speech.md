@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "a202fa5889790a3777bfc33dd9f4b459",
-  "translation_date": "2025-08-27T20:27:26+00:00",
-  "source_file": "6-consumer/lessons/3-spoken-feedback/wio-terminal-text-to-speech.md",
-  "language_code": "th"
-}
--->
 # แปลงข้อความเป็นเสียง - Wio Terminal
 
 ในส่วนนี้ของบทเรียน คุณจะเปลี่ยนข้อความเป็นเสียงเพื่อให้การตอบกลับแบบเสียงพูด

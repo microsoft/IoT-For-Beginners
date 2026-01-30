@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "0d55caa8c23d73635b7559102cd17b8a",
-  "translation_date": "2025-08-27T22:28:39+00:00",
-  "source_file": "2-farm/lessons/2-detect-soil-moisture/wio-terminal-soil-moisture.md",
-  "language_code": "sv"
-}
--->
 # Mäta jordfuktighet - Wio Terminal
 
 I den här delen av lektionen kommer du att lägga till en kapacitiv jordfuktighetssensor till din Wio Terminal och läsa värden från den.

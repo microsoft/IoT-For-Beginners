@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "606f3af1c78e3741e48ce77c31cea626",
-  "translation_date": "2025-08-27T20:56:59+00:00",
-  "source_file": "6-consumer/lessons/3-spoken-feedback/pi-text-to-speech.md",
-  "language_code": "sv"
-}
--->
 # Text till tal - Raspberry Pi
 
 I den här delen av lektionen kommer du att skriva kod för att konvertera text till tal med hjälp av tal-tjänsten.

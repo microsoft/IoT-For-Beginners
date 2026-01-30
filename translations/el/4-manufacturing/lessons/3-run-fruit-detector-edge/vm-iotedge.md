@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "24dc783a600e20251211987b36370e93",
-  "translation_date": "2025-08-27T20:09:51+00:00",
-  "source_file": "4-manufacturing/lessons/3-run-fruit-detector-edge/vm-iotedge.md",
-  "language_code": "el"
-}
--->
 # Δημιουργία εικονικής μηχανής που τρέχει IoT Edge
 
 Στο Azure, μπορείτε να δημιουργήσετε μια εικονική μηχανή - έναν υπολογιστή στο cloud που μπορείτε να διαμορφώσετε όπως θέλετε και να τρέξετε το δικό σας λογισμικό.

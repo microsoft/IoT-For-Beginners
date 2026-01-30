@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "4d8e7a066d75b625e7a979c14157041d",
-  "translation_date": "2025-08-27T21:57:39+00:00",
-  "source_file": "2-farm/lessons/4-migrate-your-plant-to-the-cloud/README.md",
-  "language_code": "el"
-}
--->
 # Μεταφέρετε το φυτό σας στο cloud
 
 ![Μια επισκόπηση του μαθήματος σε μορφή σκίτσου](../../../../../translated_images/el/lesson-8.3f21f3c11159e6a0a376351973ea5724d5de68fa23b4288853a174bed9ac48c3.jpg)

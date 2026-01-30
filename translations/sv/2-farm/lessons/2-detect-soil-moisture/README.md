@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "4fb20273d299dc8d07a8f06c9cd0cdd9",
-  "translation_date": "2025-08-27T22:23:25+00:00",
-  "source_file": "2-farm/lessons/2-detect-soil-moisture/README.md",
-  "language_code": "sv"
-}
--->
 C, uttalat *I-kvadrat-C*, är ett protokoll för flera styrenheter och flera enheter, där varje ansluten enhet kan fungera som styrenhet eller perifer enhet som kommunicerar över I²C-bussen (namnet på ett kommunikationssystem som överför data). Data skickas som adresserade paket, där varje paket innehåller adressen till den anslutna enheten det är avsett för.
 
 > 💁 Denna modell kallades tidigare master/slave, men denna terminologi håller på att fasas ut på grund av dess koppling till slaveri. [Open Source Hardware Association har antagit termerna styrenhet/perifer enhet](https://www.oshwa.org/a-resolution-to-redefine-spi-signal-names/), men du kan fortfarande stöta på referenser till den gamla terminologin.

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "9713e21a309662f6fcb271b573d47848",
-  "translation_date": "2026-01-06T06:31:07+00:00",
-  "source_file": "TROUBLESHOOTING.md",
-  "language_code": "th"
-}
--->
 # คู่มือแก้ไขปัญหา
 
 คู่มือนี้ช่วยแก้ไขปัญหาทั่วไปเมื่อทำงานกับหลักสูตร IoT for Beginners ปัญหาต่างๆ ถูกจัดหมวดหมู่เพื่อความสะดวกในการนำทาง

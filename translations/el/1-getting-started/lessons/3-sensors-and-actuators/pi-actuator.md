@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "4db8a3879a53490513571df2f6cf7641",
-  "translation_date": "2025-08-27T21:28:37+00:00",
-  "source_file": "1-getting-started/lessons/3-sensors-and-actuators/pi-actuator.md",
-  "language_code": "el"
-}
--->
 # Κατασκευή φωτιστικού νυκτός - Raspberry Pi
 
 Σε αυτό το μέρος του μαθήματος, θα προσθέσετε ένα LED στο Raspberry Pi σας και θα το χρησιμοποιήσετε για να δημιουργήσετε ένα φωτιστικό νυκτός.

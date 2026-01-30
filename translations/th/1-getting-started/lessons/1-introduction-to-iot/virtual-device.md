@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "52b4de6144b2efdced7797a5339d6035",
-  "translation_date": "2025-08-27T21:20:20+00:00",
-  "source_file": "1-getting-started/lessons/1-introduction-to-iot/virtual-device.md",
-  "language_code": "th"
-}
--->
 # คอมพิวเตอร์บอร์ดเดี่ยวเสมือน
 
 แทนที่จะซื้ออุปกรณ์ IoT พร้อมกับเซ็นเซอร์และแอคชูเอเตอร์ คุณสามารถใช้คอมพิวเตอร์ของคุณเพื่อจำลองฮาร์ดแวร์ IoT ได้ โครงการ [CounterFit](https://github.com/CounterFit-IoT/CounterFit) ช่วยให้คุณสามารถรันแอปในเครื่องที่จำลองฮาร์ดแวร์ IoT เช่น เซ็นเซอร์และแอคชูเอเตอร์ และเข้าถึงเซ็นเซอร์และแอคชูเอเตอร์จากโค้ด Python ในเครื่องที่เขียนในลักษณะเดียวกับโค้ดที่คุณจะเขียนบน Raspberry Pi โดยใช้ฮาร์ดแวร์จริง

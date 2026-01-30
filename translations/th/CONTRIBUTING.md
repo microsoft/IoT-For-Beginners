@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "d6f80293fa9c213283eac7e79b078671",
-  "translation_date": "2025-08-27T19:53:44+00:00",
-  "source_file": "CONTRIBUTING.md",
-  "language_code": "th"
-}
--->
 # การมีส่วนร่วม
 
 โครงการนี้ยินดีต้อนรับการมีส่วนร่วมและข้อเสนอแนะต่าง ๆ การมีส่วนร่วมส่วนใหญ่จำเป็นต้องให้คุณ

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "271dcd720357806934b2f0d94e19410e",
-  "translation_date": "2026-01-06T06:39:08+00:00",
-  "source_file": "docs/troubleshooting.md",
-  "language_code": "sv"
-}
--->
 # Raspberry Pi Felsökningsguide
 
 Den här guiden ger lösningar på vanliga problem som uppstår vid körning av IoT-projekt på Raspberry Pi-enheter.  

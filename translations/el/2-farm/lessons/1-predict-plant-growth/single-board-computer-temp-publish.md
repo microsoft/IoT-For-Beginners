@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "4efc74299e19f5d08f2f3f34451a11ba",
-  "translation_date": "2025-08-27T22:07:21+00:00",
-  "source_file": "2-farm/lessons/1-predict-plant-growth/single-board-computer-temp-publish.md",
-  "language_code": "el"
-}
--->
 # Δημοσίευση θερμοκρασίας - Εικονικό IoT Υλικό και Raspberry Pi
 
 Σε αυτό το μέρος του μαθήματος, θα δημοσιεύσετε τις τιμές θερμοκρασίας που ανιχνεύονται από το Raspberry Pi ή την Εικονική IoT Συσκευή μέσω MQTT, ώστε να μπορούν να χρησιμοποιηθούν αργότερα για τον υπολογισμό του GDD.

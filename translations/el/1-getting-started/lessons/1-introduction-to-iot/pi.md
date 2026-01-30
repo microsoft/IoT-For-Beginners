@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "8ff0d0a1d29832bb896b9c103b69a452",
-  "translation_date": "2025-08-27T21:21:01+00:00",
-  "source_file": "1-getting-started/lessons/1-introduction-to-iot/pi.md",
-  "language_code": "el"
-}
--->
 # Raspberry Pi
 
 Το [Raspberry Pi](https://raspberrypi.org) είναι ένας υπολογιστής σε μία μόνο πλακέτα. Μπορείτε να προσθέσετε αισθητήρες και ενεργοποιητές χρησιμοποιώντας μια μεγάλη ποικιλία συσκευών και οικοσυστημάτων, και για αυτά τα μαθήματα θα χρησιμοποιήσετε ένα οικοσύστημα υλικού που ονομάζεται [Grove](https://www.seeedstudio.com/category/Grove-c-1003.html). Θα προγραμματίσετε το Pi σας και θα έχετε πρόσβαση στους αισθητήρες Grove χρησιμοποιώντας Python.

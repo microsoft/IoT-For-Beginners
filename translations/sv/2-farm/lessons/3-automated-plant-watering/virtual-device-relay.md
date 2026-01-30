@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "f8f541ee945545017a51aaf309aa37c3",
-  "translation_date": "2025-08-27T22:56:26+00:00",
-  "source_file": "2-farm/lessons/3-automated-plant-watering/virtual-device-relay.md",
-  "language_code": "sv"
-}
--->
 # Styr ett relä - Virtuell IoT-hårdvara
 
 I den här delen av lektionen kommer du att lägga till ett relä till din virtuella IoT-enhet, utöver fuktighetssensorn för jord, och styra det baserat på jordens fuktighetsnivå.

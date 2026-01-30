@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "9713e21a309662f6fcb271b573d47848",
-  "translation_date": "2026-01-06T06:32:54+00:00",
-  "source_file": "TROUBLESHOOTING.md",
-  "language_code": "sv"
-}
--->
 # Felsökningsguide
 
 Denna guide hjälper dig att lösa vanliga problem när du arbetar med IoT for Beginners-kursplanen. Problem är organiserade efter kategori för enkel navigering.

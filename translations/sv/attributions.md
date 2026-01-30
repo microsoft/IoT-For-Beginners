@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "4506d33bbda7acc0ab20980172687090",
-  "translation_date": "2025-08-27T20:20:49+00:00",
-  "source_file": "attributions.md",
-  "language_code": "sv"
-}
--->
 # Bildtillskrivningar
 
 * Bananer av abderraouf omara från [Noun Project](https://thenounproject.com)

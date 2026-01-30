@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "6754c915dae64ba70fcd5e52c37f3adf",
-  "translation_date": "2025-08-27T21:13:15+00:00",
-  "source_file": "1-getting-started/lessons/4-connect-internet/wio-terminal-commands.md",
-  "language_code": "el"
-}
--->
 # Ελέγξτε το νυχτερινό σας φως μέσω του Διαδικτύου - Wio Terminal
 
 Σε αυτό το μέρος του μαθήματος, θα εγγραφείτε σε εντολές που αποστέλλονται από έναν MQTT broker στο Wio Terminal σας.

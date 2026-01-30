@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "8a74f789f3c1bf41a13c007190360c19",
-  "translation_date": "2025-08-27T21:57:33+00:00",
-  "source_file": "2-farm/lessons/6-keep-your-plant-secure/wio-terminal-x509.md",
-  "language_code": "th"
-}
--->
 # ใช้ใบรับรอง X.509 ในโค้ดอุปกรณ์ของคุณ - Wio Terminal
 
 ณ เวลาที่เขียนนี้ Azure Arduino SDK ยังไม่รองรับใบรับรอง X.509 หากคุณต้องการทดลองใช้ใบรับรอง X.509 คุณสามารถดูคำแนะนำ [การใช้อุปกรณ์ IoT เสมือนจริงด้วย Python SDK](single-board-computer-x509.md)

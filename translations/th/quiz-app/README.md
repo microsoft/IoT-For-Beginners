@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "2a459ea9177fb0508ca96068ae1009d2",
-  "translation_date": "2025-08-27T21:33:09+00:00",
-  "source_file": "quiz-app/README.md",
-  "language_code": "th"
-}
--->
 # แบบทดสอบ
 
 แบบทดสอบเหล่านี้เป็นแบบทดสอบก่อนและหลังการบรรยายสำหรับหลักสูตร IoT for Beginners ที่ https://aka.ms/iot-beginners

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "f8f541ee945545017a51aaf309aa37c3",
-  "translation_date": "2025-08-27T22:12:51+00:00",
-  "source_file": "2-farm/lessons/3-automated-plant-watering/virtual-device-relay.md",
-  "language_code": "th"
-}
--->
 # ควบคุมรีเลย์ - ฮาร์ดแวร์ IoT เสมือน
 
 ในส่วนนี้ของบทเรียน คุณจะเพิ่มรีเลย์เข้าไปในอุปกรณ์ IoT เสมือนของคุณ นอกเหนือจากเซ็นเซอร์วัดความชื้นในดิน และควบคุมมันตามระดับความชื้นในดิน

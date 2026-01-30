@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "f7bb24ba53fb627ddb38a8b24a05e594",
-  "translation_date": "2025-08-27T22:53:14+00:00",
-  "source_file": "2-farm/lessons/3-automated-plant-watering/README.md",
-  "language_code": "sv"
-}
--->
 # Automatisk växtbevattning
 
 ![En sketchnote-översikt av denna lektion](../../../../../translated_images/sv/lesson-7.30b5f577d3cb8e031238751475cb519c7d6dbaea261b5df4643d086ffb2a03bb.jpg)

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "11f10c6760fb8202cf368422702fdf70",
-  "translation_date": "2025-08-27T22:09:43+00:00",
-  "source_file": "1-getting-started/lessons/3-sensors-and-actuators/virtual-device-sensor.md",
-  "language_code": "sv"
-}
--->
 # Bygg en nattlampa - Virtuell IoT-hårdvara
 
 I den här delen av lektionen kommer du att lägga till en ljussensor till din virtuella IoT-enhet.

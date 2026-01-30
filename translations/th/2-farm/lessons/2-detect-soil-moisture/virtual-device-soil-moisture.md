@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "2bf65f162bcebd35fbcba5fd245afac4",
-  "translation_date": "2025-08-27T21:45:38+00:00",
-  "source_file": "2-farm/lessons/2-detect-soil-moisture/virtual-device-soil-moisture.md",
-  "language_code": "th"
-}
--->
 # วัดความชื้นในดิน - ฮาร์ดแวร์ IoT เสมือน
 
 ในส่วนนี้ของบทเรียน คุณจะเพิ่มเซ็นเซอร์วัดความชื้นในดินแบบ capacitive ลงในอุปกรณ์ IoT เสมือน และอ่านค่าจากเซ็นเซอร์นี้

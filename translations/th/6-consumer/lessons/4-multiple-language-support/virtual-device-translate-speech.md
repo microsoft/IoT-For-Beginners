@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "d620a470d9dd8614d99824832978360a",
-  "translation_date": "2025-08-27T20:45:18+00:00",
-  "source_file": "6-consumer/lessons/4-multiple-language-support/virtual-device-translate-speech.md",
-  "language_code": "th"
-}
--->
 # แปลคำพูด - อุปกรณ์ IoT เสมือน
 
 ในส่วนนี้ของบทเรียน คุณจะเขียนโค้ดเพื่อแปลคำพูดเมื่อแปลงเป็นข้อความโดยใช้บริการคำพูด จากนั้นแปลข้อความโดยใช้บริการ Translator ก่อนสร้างการตอบกลับด้วยเสียง

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "59263d094f20b302053888cd236880c3",
-  "translation_date": "2025-08-27T22:09:00+00:00",
-  "source_file": "2-farm/lessons/1-predict-plant-growth/wio-terminal-temp.md",
-  "language_code": "th"
-}
--->
 # วัดอุณหภูมิ - Wio Terminal
 
 ในส่วนนี้ของบทเรียน คุณจะเพิ่มเซ็นเซอร์วัดอุณหภูมิให้กับ Wio Terminal และอ่านค่าของอุณหภูมิจากเซ็นเซอร์

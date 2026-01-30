@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "64f18a8f8aaa1fef5e7320e0992d8b3a",
-  "translation_date": "2025-08-27T20:51:46+00:00",
-  "source_file": "3-transport/lessons/1-location-tracking/virtual-device-gps-sensor.md",
-  "language_code": "th"
-}
--->
 # อ่านข้อมูล GPS - ฮาร์ดแวร์ IoT เสมือนจริง
 
 ในส่วนนี้ของบทเรียน คุณจะเพิ่มเซ็นเซอร์ GPS ลงในอุปกรณ์ IoT เสมือนจริงของคุณ และอ่านค่าจากเซ็นเซอร์นั้น

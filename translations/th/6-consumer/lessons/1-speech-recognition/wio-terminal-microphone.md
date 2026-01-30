@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "93d352de36526b8990e41dd538100324",
-  "translation_date": "2025-08-27T20:35:10+00:00",
-  "source_file": "6-consumer/lessons/1-speech-recognition/wio-terminal-microphone.md",
-  "language_code": "th"
-}
--->
 # ตั้งค่ามไมโครโฟนและลำโพง - Wio Terminal
 
 ในส่วนนี้ของบทเรียน คุณจะเพิ่มลำโพงให้กับ Wio Terminal ของคุณ โดย Wio Terminal มีไมโครโฟนในตัวอยู่แล้ว ซึ่งสามารถใช้ในการบันทึกเสียงพูดได้

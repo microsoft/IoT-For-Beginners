@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "5de7dc1e2ddc402d415473bb795568d4",
-  "translation_date": "2025-08-27T20:47:47+00:00",
-  "source_file": "6-consumer/README.md",
-  "language_code": "sv"
-}
--->
 # Konsument-IoT - bygg en smart röstassistent
 
 Maten har odlats, transporterats till en bearbetningsanläggning, sorterats för kvalitet, sålts i butiken och nu är det dags att laga mat! En av de viktigaste delarna i varje kök är en timer. Ursprungligen började dessa som timglas – din mat var klar när allt sand hade runnit ner i den nedre glaskolven. Sedan blev de mekaniska, och därefter elektriska.

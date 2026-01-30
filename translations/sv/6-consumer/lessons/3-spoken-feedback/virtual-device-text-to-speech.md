@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "7966848a1f870e4c42edb4db67b13c57",
-  "translation_date": "2025-08-27T20:52:33+00:00",
-  "source_file": "6-consumer/lessons/3-spoken-feedback/virtual-device-text-to-speech.md",
-  "language_code": "sv"
-}
--->
 # Text till tal - Virtuell IoT-enhet
 
 I den här delen av lektionen kommer du att skriva kod för att omvandla text till tal med hjälp av tal-tjänsten.

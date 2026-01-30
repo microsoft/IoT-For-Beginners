@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "3f92edf2975175577174910caca4a389",
-  "translation_date": "2025-08-27T20:40:41+00:00",
-  "source_file": "6-consumer/lessons/1-speech-recognition/wio-terminal-speech-to-text.md",
-  "language_code": "th"
-}
--->
 # การแปลงเสียงเป็นข้อความ - Wio Terminal
 
 ในส่วนนี้ของบทเรียน คุณจะเขียนโค้ดเพื่อแปลงเสียงในไฟล์เสียงที่บันทึกไว้เป็นข้อความโดยใช้บริการแปลงเสียงเป็นข้อความ

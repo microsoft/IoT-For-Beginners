@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "af249a24d4fe4f4de4806adbc3bc9d86",
-  "translation_date": "2025-08-27T20:36:40+00:00",
-  "source_file": "6-consumer/lessons/1-speech-recognition/pi-speech-to-text.md",
-  "language_code": "th"
-}
--->
 # การแปลงเสียงเป็นข้อความ - Raspberry Pi
 
 ในส่วนนี้ของบทเรียน คุณจะเขียนโค้ดเพื่อแปลงเสียงในไฟล์เสียงที่บันทึกไว้เป็นข้อความโดยใช้บริการแปลงเสียง

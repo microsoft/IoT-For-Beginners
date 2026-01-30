@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "012b69d57d898d670adf61304f42a137",
-  "translation_date": "2025-08-27T20:29:30+00:00",
-  "source_file": "6-consumer/lessons/3-spoken-feedback/wio-terminal-set-timer.md",
-  "language_code": "th"
-}
--->
 # ตั้งเวลานับถอยหลัง - Wio Terminal
 
 ในส่วนนี้ของบทเรียน คุณจะเรียกใช้โค้ดแบบเซิร์ฟเวอร์เลสเพื่อแปลงคำพูดเป็นข้อความ และตั้งเวลานับถอยหลังบน Wio Terminal ตามผลลัพธ์ที่ได้

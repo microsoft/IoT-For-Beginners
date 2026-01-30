@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "8ff0d0a1d29832bb896b9c103b69a452",
-  "translation_date": "2025-08-27T21:59:07+00:00",
-  "source_file": "1-getting-started/lessons/1-introduction-to-iot/pi.md",
-  "language_code": "sv"
-}
--->
 # Raspberry Pi
 
 [Raspberry Pi](https://raspberrypi.org) är en enkortsdator. Du kan lägga till sensorer och aktuatorer med hjälp av en mängd olika enheter och ekosystem, och för dessa lektioner använder vi ett hårdvaruekosystem som heter [Grove](https://www.seeedstudio.com/category/Grove-c-1003.html). Du kommer att programmera din Pi och använda Grove-sensorerna med Python.

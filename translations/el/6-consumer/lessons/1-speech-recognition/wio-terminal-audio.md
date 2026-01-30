@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "2f336726b9410e97c3aaed76cc89b0d8",
-  "translation_date": "2025-08-27T20:38:14+00:00",
-  "source_file": "6-consumer/lessons/1-speech-recognition/wio-terminal-audio.md",
-  "language_code": "el"
-}
--->
 # Καταγραφή ήχου - Wio Terminal
 
 Σε αυτό το μέρος του μαθήματος, θα γράψετε κώδικα για να καταγράψετε ήχο στο Wio Terminal σας. Η καταγραφή ήχου θα ελέγχεται από ένα από τα κουμπιά στην κορυφή του Wio Terminal.

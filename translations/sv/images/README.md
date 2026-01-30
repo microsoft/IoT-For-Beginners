@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "50abd54997afa7e7a3fc7019379e49e3",
-  "translation_date": "2025-08-27T22:12:01+00:00",
-  "source_file": "images/README.md",
-  "language_code": "sv"
-}
--->
 # Bilder
 
 Bilderna i mappen [icons](../../../images/icons) kommer från [Noun Project](https://thenounproject.com) och kräver tillskrivning. Varje bild anger den nödvändiga tillskrivningen. Dessa bilder bör användas för alla diagram som behöver dem för att hålla bildspråket konsekvent.

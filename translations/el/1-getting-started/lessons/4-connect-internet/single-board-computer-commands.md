@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "c527ce85d69b1a3875366ec61cbed8aa",
-  "translation_date": "2025-08-27T21:14:57+00:00",
-  "source_file": "1-getting-started/lessons/4-connect-internet/single-board-computer-commands.md",
-  "language_code": "el"
-}
--->
 # Ελέγξτε το νυχτερινό σας φως μέσω του Διαδικτύου - Εικονικό IoT Υλικό και Raspberry Pi
 
 Σε αυτό το μέρος του μαθήματος, θα εγγραφείτε σε εντολές που αποστέλλονται από έναν MQTT broker προς το Raspberry Pi ή την εικονική IoT συσκευή σας.

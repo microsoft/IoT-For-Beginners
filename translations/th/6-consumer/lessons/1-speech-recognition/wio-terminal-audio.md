@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "2f336726b9410e97c3aaed76cc89b0d8",
-  "translation_date": "2025-08-27T20:39:08+00:00",
-  "source_file": "6-consumer/lessons/1-speech-recognition/wio-terminal-audio.md",
-  "language_code": "th"
-}
--->
 # บันทึกเสียง - Wio Terminal
 
 ในส่วนนี้ของบทเรียน คุณจะเขียนโค้ดเพื่อบันทึกเสียงบน Wio Terminal ของคุณ การบันทึกเสียงจะถูกควบคุมโดยหนึ่งในปุ่มที่อยู่ด้านบนของ Wio Terminal

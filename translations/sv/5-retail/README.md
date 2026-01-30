@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "22a1d6e49f2a689fe5bfa7802a7241fc",
-  "translation_date": "2025-08-27T22:12:58+00:00",
-  "source_file": "5-retail/README.md",
-  "language_code": "sv"
-}
--->
 # Detaljhandel - använda IoT för att hantera lagernivåer
 
 Den sista etappen för mat innan den når konsumenterna är detaljhandeln - marknader, grönsakshandlare, stormarknader och butiker som säljer produkter till konsumenter. Dessa butiker vill säkerställa att de har produkter ute på hyllorna för konsumenterna att se och köpa.

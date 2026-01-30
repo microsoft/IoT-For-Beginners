@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "3ac42e284a7222c0e83d2d43231a364f",
-  "translation_date": "2025-08-27T22:43:42+00:00",
-  "source_file": "2-farm/lessons/4-migrate-your-plant-to-the-cloud/single-board-computer-connect-hub.md",
-  "language_code": "sv"
-}
--->
 # Anslut din IoT-enhet till molnet - Virtuell IoT-hårdvara och Raspberry Pi
 
 I den här delen av lektionen kommer du att ansluta din virtuella IoT-enhet eller Raspberry Pi till din IoT Hub för att skicka telemetri och ta emot kommandon.

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "f3c5d8afa2ef6a0b425ef8ff20615cb4",
-  "translation_date": "2025-08-27T22:13:48+00:00",
-  "source_file": "2-farm/lessons/3-automated-plant-watering/wio-terminal-relay.md",
-  "language_code": "el"
-}
--->
 # Έλεγχος ενός ρελέ - Wio Terminal
 
 Σε αυτό το μέρος του μαθήματος, θα προσθέσετε ένα ρελέ στο Wio Terminal σας, εκτός από τον αισθητήρα υγρασίας εδάφους, και θα το ελέγχετε με βάση το επίπεδο υγρασίας του εδάφους.

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "9aea84bcc7520222b0e1c50469d62d6a",
-  "translation_date": "2025-08-27T21:56:44+00:00",
-  "source_file": "2-farm/lessons/6-keep-your-plant-secure/single-board-computer-x509.md",
-  "language_code": "el"
-}
--->
 # Χρησιμοποιήστε το πιστοποιητικό X.509 στον κώδικα της συσκευής σας - Εικονικό IoT Hardware και Raspberry Pi
 
 Σε αυτό το μέρος του μαθήματος, θα συνδέσετε την εικονική συσκευή IoT ή το Raspberry Pi σας με το IoT Hub χρησιμοποιώντας το πιστοποιητικό X.509.

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "64f18a8f8aaa1fef5e7320e0992d8b3a",
-  "translation_date": "2025-08-27T20:51:17+00:00",
-  "source_file": "3-transport/lessons/1-location-tracking/virtual-device-gps-sensor.md",
-  "language_code": "el"
-}
--->
 # Ανάγνωση δεδομένων GPS - Εικονικό IoT Υλικό
 
 Σε αυτό το μέρος του μαθήματος, θα προσθέσετε έναν αισθητήρα GPS στη συσκευή IoT σας και θα διαβάσετε δεδομένα από αυτόν.

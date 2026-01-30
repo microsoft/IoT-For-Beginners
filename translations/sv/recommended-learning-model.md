@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "012bbd19f13171be32ac9ba21d4186c2",
-  "translation_date": "2025-08-27T20:14:28+00:00",
-  "source_file": "recommended-learning-model.md",
-  "language_code": "sv"
-}
--->
 # Rekommenderad inlärningsmodell
 
 För att uppnå de mest effektiva inlärningsresultaten **rekommenderar vi en “Flipped Model”-metod** liknande vetenskapslabb: elever arbetar med projekt under lektionstid, med möjligheter till diskussion, frågor och projektstöd, och tar del av föreläsningselementen som förberedande läsning på egen tid.

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "af249a24d4fe4f4de4806adbc3bc9d86",
-  "translation_date": "2025-08-27T20:36:19+00:00",
-  "source_file": "6-consumer/lessons/1-speech-recognition/pi-speech-to-text.md",
-  "language_code": "el"
-}
--->
 # Μετατροπή Ομιλίας σε Κείμενο - Raspberry Pi
 
 Σε αυτό το μέρος του μαθήματος, θα γράψετε κώδικα για να μετατρέψετε την ομιλία στον καταγεγραμμένο ήχο σε κείμενο χρησιμοποιώντας την υπηρεσία ομιλίας.

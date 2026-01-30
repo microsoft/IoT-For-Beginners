@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "fbbcf96a9b63ccd661db98bbf854bb06",
-  "translation_date": "2025-08-27T20:49:44+00:00",
-  "source_file": "3-transport/lessons/1-location-tracking/wio-terminal-gps-decode.md",
-  "language_code": "el"
-}
--->
 # Αποκωδικοποίηση δεδομένων GPS - Wio Terminal
 
 Σε αυτό το μέρος του μαθήματος, θα αποκωδικοποιήσετε τα μηνύματα NMEA που διαβάζονται από τον αισθητήρα GPS μέσω του Wio Terminal και θα εξάγετε το γεωγραφικό πλάτος και μήκος.

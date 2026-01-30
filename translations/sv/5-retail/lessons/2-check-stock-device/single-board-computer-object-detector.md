@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "a3fdfec1d1e2cb645ea11c2930b51299",
-  "translation_date": "2025-08-27T22:20:41+00:00",
-  "source_file": "5-retail/lessons/2-check-stock-device/single-board-computer-object-detector.md",
-  "language_code": "sv"
-}
--->
 # Anropa din objektdetektor från din IoT-enhet - Virtuell IoT-hårdvara och Raspberry Pi
 
 När din objektdetektor har publicerats kan den användas från din IoT-enhet.

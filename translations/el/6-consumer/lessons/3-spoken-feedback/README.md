@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "b73fe10ec6b580fba2affb6f6e0a5c4d",
-  "translation_date": "2025-08-27T20:24:18+00:00",
-  "source_file": "6-consumer/lessons/3-spoken-feedback/README.md",
-  "language_code": "el"
-}
--->
 # Ρύθμιση χρονομέτρου και παροχή φωνητικής ανατροφοδότησης
 
 ![Μια σκιαγραφική επισκόπηση αυτού του μαθήματος](../../../../../translated_images/el/lesson-23.f38483e1d4df4828990d3f02d60e46c978b075d384ae7cb4f7bab738e107c850.jpg)

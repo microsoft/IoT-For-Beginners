@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "9aea84bcc7520222b0e1c50469d62d6a",
-  "translation_date": "2025-08-27T21:56:57+00:00",
-  "source_file": "2-farm/lessons/6-keep-your-plant-secure/single-board-computer-x509.md",
-  "language_code": "th"
-}
--->
 # ใช้ใบรับรอง X.509 ในโค้ดอุปกรณ์ของคุณ - Virtual IoT Hardware และ Raspberry Pi
 
 ในส่วนนี้ของบทเรียน คุณจะเชื่อมต่ออุปกรณ์ IoT เสมือนหรือ Raspberry Pi ของคุณกับ IoT Hub โดยใช้ใบรับรอง X.509

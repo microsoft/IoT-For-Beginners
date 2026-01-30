@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "c0550b254b9ba2539baf1e6bb5fc05f8",
-  "translation_date": "2025-08-27T20:34:34+00:00",
-  "source_file": "6-consumer/lessons/1-speech-recognition/virtual-device-speech-to-text.md",
-  "language_code": "th"
-}
--->
 # การแปลงเสียงเป็นข้อความ - อุปกรณ์ IoT เสมือนจริง
 
 ในส่วนนี้ของบทเรียน คุณจะเขียนโค้ดเพื่อแปลงเสียงที่จับได้จากไมโครโฟนของคุณเป็นข้อความโดยใช้บริการแปลงเสียง

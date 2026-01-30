@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "e5896207b304ce1abaf065b8acc0cc79",
-  "translation_date": "2025-08-27T20:16:17+00:00",
-  "source_file": "4-manufacturing/lessons/2-check-fruit-from-device/single-board-computer-classify-image.md",
-  "language_code": "el"
-}
--->
 # Ταξινόμηση εικόνας - Εικονικό IoT Hardware και Raspberry Pi
 
 Σε αυτό το μέρος του μαθήματος, θα στείλετε την εικόνα που καταγράφηκε από την κάμερα στην υπηρεσία Custom Vision για να την ταξινομήσετε.

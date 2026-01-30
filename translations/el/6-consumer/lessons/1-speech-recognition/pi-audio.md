@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "0ac0afcfb40cb5970ef4cb74f01c32e9",
-  "translation_date": "2025-08-27T20:33:28+00:00",
-  "source_file": "6-consumer/lessons/1-speech-recognition/pi-audio.md",
-  "language_code": "el"
-}
--->
 # Καταγραφή ήχου - Raspberry Pi
 
 Σε αυτό το μέρος του μαθήματος, θα γράψετε κώδικα για να καταγράψετε ήχο στο Raspberry Pi σας. Η καταγραφή ήχου θα ελέγχεται από ένα κουμπί.

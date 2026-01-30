@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "fbbcf96a9b63ccd661db98bbf854bb06",
-  "translation_date": "2025-08-27T20:49:56+00:00",
-  "source_file": "3-transport/lessons/1-location-tracking/wio-terminal-gps-decode.md",
-  "language_code": "th"
-}
--->
 # ถอดรหัสข้อมูล GPS - Wio Terminal
 
 ในส่วนนี้ของบทเรียน คุณจะถอดรหัสข้อความ NMEA ที่อ่านจากเซ็นเซอร์ GPS โดย Wio Terminal และดึงค่าละติจูดและลองจิจูดออกมา

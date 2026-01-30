@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "64f18a8f8aaa1fef5e7320e0992d8b3a",
-  "translation_date": "2025-08-27T21:26:45+00:00",
-  "source_file": "3-transport/lessons/1-location-tracking/virtual-device-gps-sensor.md",
-  "language_code": "sv"
-}
--->
 # Läs GPS-data - Virtuell IoT-hårdvara
 
 I den här delen av lektionen kommer du att lägga till en GPS-sensor till din virtuella IoT-enhet och läsa värden från den.

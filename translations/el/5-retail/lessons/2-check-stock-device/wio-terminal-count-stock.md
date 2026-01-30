@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "0b2ae20b0fc8e73c9598dea937cac038",
-  "translation_date": "2025-08-27T21:39:16+00:00",
-  "source_file": "5-retail/lessons/2-check-stock-device/wio-terminal-count-stock.md",
-  "language_code": "el"
-}
--->
 # Μετρήστε το απόθεμα από τη συσκευή IoT σας - Wio Terminal
 
 Ένας συνδυασμός των προβλέψεων και των ορίων τους μπορεί να χρησιμοποιηθεί για να μετρήσετε το απόθεμα σε μια εικόνα.

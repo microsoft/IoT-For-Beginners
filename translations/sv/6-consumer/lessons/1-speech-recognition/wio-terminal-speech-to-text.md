@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "3f92edf2975175577174910caca4a389",
-  "translation_date": "2025-08-27T21:10:58+00:00",
-  "source_file": "6-consumer/lessons/1-speech-recognition/wio-terminal-speech-to-text.md",
-  "language_code": "sv"
-}
--->
 # Tal till text - Wio Terminal
 
 I den här delen av lektionen kommer du att skriva kod för att omvandla tal i det inspelade ljudet till text med hjälp av tal-tjänsten.

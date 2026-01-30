@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "e2b1b891b08ef7633d285547fbe73290",
-  "translation_date": "2025-08-27T21:40:28+00:00",
-  "source_file": "1-getting-started/README.md",
-  "language_code": "sv"
-}
--->
 # Komma igång med IoT
 
 I den här delen av kursplanen kommer du att introduceras till Internet of Things och lära dig de grundläggande koncepten, inklusive att bygga ditt första 'Hello World'-IoT-projekt som kopplas till molnet. Detta projekt är en nattlampa som tänds när ljusnivåerna, mätta av en sensor, sjunker.

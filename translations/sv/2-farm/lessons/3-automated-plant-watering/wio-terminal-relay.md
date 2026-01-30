@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "f3c5d8afa2ef6a0b425ef8ff20615cb4",
-  "translation_date": "2025-08-27T22:57:58+00:00",
-  "source_file": "2-farm/lessons/3-automated-plant-watering/wio-terminal-relay.md",
-  "language_code": "sv"
-}
--->
 # Styr ett relä - Wio Terminal
 
 I denna del av lektionen kommer du att lägga till ett relä till din Wio Terminal, utöver fuktighetssensorn för jord, och styra det baserat på jordens fuktighetsnivå.

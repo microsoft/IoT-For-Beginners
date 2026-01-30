@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "50abd54997afa7e7a3fc7019379e49e3",
-  "translation_date": "2025-08-27T21:32:47+00:00",
-  "source_file": "images/README.md",
-  "language_code": "th"
-}
--->
 # รูปภาพ
 
 รูปภาพในโฟลเดอร์ [icons](../../../images/icons) มาจาก [Noun Project](https://thenounproject.com) และต้องมีการให้เครดิตตามที่ระบุไว้ในแต่ละรูปภาพ รูปภาพเหล่านี้ควรใช้สำหรับไดอะแกรมใด ๆ ที่ต้องการ เพื่อให้ภาพประกอบมีความสอดคล้องกัน

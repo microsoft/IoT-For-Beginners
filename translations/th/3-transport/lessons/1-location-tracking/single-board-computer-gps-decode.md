@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "cbb8c285bc64c5192fae3368fb5077d2",
-  "translation_date": "2025-08-27T20:51:04+00:00",
-  "source_file": "3-transport/lessons/1-location-tracking/single-board-computer-gps-decode.md",
-  "language_code": "th"
-}
--->
 # ถอดรหัสข้อมูล GPS - ฮาร์ดแวร์ IoT เสมือนและ Raspberry Pi
 
 ในส่วนนี้ของบทเรียน คุณจะถอดรหัสข้อความ NMEA ที่อ่านจากเซ็นเซอร์ GPS โดยใช้ Raspberry Pi หรืออุปกรณ์ IoT เสมือน และดึงค่าละติจูดและลองจิจูดออกมา

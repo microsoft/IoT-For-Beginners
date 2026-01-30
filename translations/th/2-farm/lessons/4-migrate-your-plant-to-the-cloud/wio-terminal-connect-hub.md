@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "28320305a35ea3bc59c41fe146a2e6ed",
-  "translation_date": "2025-08-27T22:02:24+00:00",
-  "source_file": "2-farm/lessons/4-migrate-your-plant-to-the-cloud/wio-terminal-connect-hub.md",
-  "language_code": "th"
-}
--->
 # เชื่อมต่ออุปกรณ์ IoT ของคุณกับคลาวด์ - Wio Terminal
 
 ในส่วนนี้ของบทเรียน คุณจะเชื่อมต่อ Wio Terminal ของคุณกับ IoT Hub เพื่อส่งข้อมูลเทเลเมทรีและรับคำสั่ง

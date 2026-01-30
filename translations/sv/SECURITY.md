@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "8587f83cfded1bfab99fda4022f4df89",
-  "translation_date": "2025-08-27T20:21:26+00:00",
-  "source_file": "SECURITY.md",
-  "language_code": "sv"
-}
--->
 # Säkerhet
 
 Microsoft tar säkerheten för våra mjukvaruprodukter och tjänster på största allvar, vilket inkluderar alla källkodsförråd som hanteras genom våra GitHub-organisationer, som inkluderar [Microsoft](https://github.com/Microsoft), [Azure](https://github.com/Azure), [DotNet](https://github.com/dotnet), [AspNet](https://github.com/aspnet), [Xamarin](https://github.com/xamarin) och [våra GitHub-organisationer](https://opensource.microsoft.com/).

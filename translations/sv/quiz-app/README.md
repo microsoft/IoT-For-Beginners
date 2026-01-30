@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "2a459ea9177fb0508ca96068ae1009d2",
-  "translation_date": "2025-08-27T22:12:19+00:00",
-  "source_file": "quiz-app/README.md",
-  "language_code": "sv"
-}
--->
 # Quizzer
 
 Dessa quizzer är för- och efterföreläsningsquizzer för IoT för nybörjare-kursen på https://aka.ms/iot-beginners

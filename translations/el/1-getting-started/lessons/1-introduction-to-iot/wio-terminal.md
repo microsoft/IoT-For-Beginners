@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "a4f0c166010e31fd7b6ca20bc88dec6d",
-  "translation_date": "2025-08-27T21:23:25+00:00",
-  "source_file": "1-getting-started/lessons/1-introduction-to-iot/wio-terminal.md",
-  "language_code": "el"
-}
--->
 # Wio Terminal
 
 Το [Wio Terminal από την Seeed Studios](https://www.seeedstudio.com/Wio-Terminal-p-4509.html) είναι ένας μικροελεγκτής συμβατός με Arduino, με ενσωματωμένο WiFi, αισθητήρες και ενεργοποιητές, καθώς και θύρες για την προσθήκη περισσότερων αισθητήρων και ενεργοποιητών, χρησιμοποιώντας ένα οικοσύστημα υλικού που ονομάζεται [Grove](https://www.seeedstudio.com/category/Grove-c-1003.html).

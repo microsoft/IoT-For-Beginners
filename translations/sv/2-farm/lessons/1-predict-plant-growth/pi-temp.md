@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "7678f7c67b97ee52d5727496dcd7d346",
-  "translation_date": "2025-08-27T22:46:06+00:00",
-  "source_file": "2-farm/lessons/1-predict-plant-growth/pi-temp.md",
-  "language_code": "sv"
-}
--->
 # Mäta temperatur - Raspberry Pi
 
 I den här delen av lektionen kommer du att lägga till en temperatursensor till din Raspberry Pi.

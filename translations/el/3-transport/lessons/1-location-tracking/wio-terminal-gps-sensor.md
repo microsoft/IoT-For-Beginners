@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "da6ae0a795cf06be33d23ca5b8493fc8",
-  "translation_date": "2025-08-27T20:50:07+00:00",
-  "source_file": "3-transport/lessons/1-location-tracking/wio-terminal-gps-sensor.md",
-  "language_code": "el"
-}
--->
 # Ανάγνωση δεδομένων GPS - Wio Terminal
 
 Σε αυτό το μέρος του μαθήματος, θα προσθέσετε έναν αισθητήρα GPS στο Wio Terminal σας και θα διαβάσετε δεδομένα από αυτόν.

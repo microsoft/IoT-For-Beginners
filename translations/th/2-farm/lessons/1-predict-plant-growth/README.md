@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "d105b44deae539165855c976dcdeca99",
-  "translation_date": "2025-08-27T22:06:03+00:00",
-  "source_file": "2-farm/lessons/1-predict-plant-growth/README.md",
-  "language_code": "th"
-}
--->
 ฟังก์ชันนี้จะเพิ่มข้อมูลใหม่ลงในไฟล์ CSV โดยใช้ข้อมูลที่ได้รับจากข้อความ telemetry และเพิ่มวันที่และเวลาปัจจุบันลงในคอลัมน์ *date* และข้อมูลอุณหภูมิลงในคอลัมน์ *temperature* 
 
 1. ทดสอบโค้ดของคุณโดยเรียกใช้งานเซิร์ฟเวอร์และตรวจสอบว่าไฟล์ CSV ถูกสร้างขึ้นและมีข้อมูลที่ถูกต้องเมื่อ IoT device ส่งข้อมูล telemetry

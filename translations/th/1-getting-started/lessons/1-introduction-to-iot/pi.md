@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "8ff0d0a1d29832bb896b9c103b69a452",
-  "translation_date": "2025-08-27T21:21:52+00:00",
-  "source_file": "1-getting-started/lessons/1-introduction-to-iot/pi.md",
-  "language_code": "th"
-}
--->
 # Raspberry Pi
 
 [Raspberry Pi](https://raspberrypi.org) คือคอมพิวเตอร์บอร์ดเดี่ยว คุณสามารถเพิ่มเซ็นเซอร์และแอคชูเอเตอร์ได้โดยใช้หลากหลายอุปกรณ์และระบบนิเวศ และสำหรับบทเรียนนี้จะใช้ระบบนิเวศฮาร์ดแวร์ที่เรียกว่า [Grove](https://www.seeedstudio.com/category/Grove-c-1003.html) คุณจะเขียนโค้ดบน Pi และเข้าถึงเซ็นเซอร์ Grove โดยใช้ Python

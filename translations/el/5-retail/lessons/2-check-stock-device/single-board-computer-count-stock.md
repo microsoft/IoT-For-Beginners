@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "9c4320311c0f2c1884a6a21265d98a51",
-  "translation_date": "2025-08-27T21:38:32+00:00",
-  "source_file": "5-retail/lessons/2-check-stock-device/single-board-computer-count-stock.md",
-  "language_code": "el"
-}
--->
 # Καταμέτρηση αποθεμάτων από τη συσκευή IoT σας - Εικονικό IoT Hardware και Raspberry Pi
 
 Ένας συνδυασμός των προβλέψεων και των ορίων τους μπορεί να χρησιμοποιηθεί για την καταμέτρηση αποθεμάτων σε μια εικόνα.

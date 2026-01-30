@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "2625af24587465c5547ae33d6cc000a5",
-  "translation_date": "2025-08-27T20:05:17+00:00",
-  "source_file": "4-manufacturing/lessons/3-run-fruit-detector-edge/README.md",
-  "language_code": "el"
-}
--->
 # Εκτελέστε τον ανιχνευτή φρούτων σας στην άκρη
 
 ![Μια επισκόπηση του μαθήματος σε σκίτσο](../../../../../translated_images/el/lesson-17.bc333c3c35ba8e42cce666cfffa82b915f787f455bd94e006aea2b6f2722421a.jpg)

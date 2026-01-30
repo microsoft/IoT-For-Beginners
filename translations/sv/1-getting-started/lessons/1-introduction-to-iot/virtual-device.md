@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "52b4de6144b2efdced7797a5339d6035",
-  "translation_date": "2025-08-27T21:57:25+00:00",
-  "source_file": "1-getting-started/lessons/1-introduction-to-iot/virtual-device.md",
-  "language_code": "sv"
-}
--->
 # Virtuell enkortsdator
 
 Istället för att köpa en IoT-enhet tillsammans med sensorer och ställdon kan du använda din dator för att simulera IoT-hårdvara. [CounterFit-projektet](https://github.com/CounterFit-IoT/CounterFit) låter dig köra en app lokalt som simulerar IoT-hårdvara som sensorer och ställdon, och du kan komma åt dessa från lokal Python-kod som skrivs på samma sätt som om du skulle använda en Raspberry Pi med fysisk hårdvara.

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "64ad4ddb4de81a18b7252e968f10b404",
-  "translation_date": "2025-08-27T20:30:17+00:00",
-  "source_file": "6-consumer/lessons/3-spoken-feedback/single-board-computer-set-timer.md",
-  "language_code": "th"
-}
--->
 # ตั้งเวลา - ฮาร์ดแวร์ IoT เสมือนและ Raspberry Pi
 
 ในส่วนนี้ของบทเรียน คุณจะเรียกใช้โค้ดแบบไร้เซิร์ฟเวอร์ของคุณเพื่อทำความเข้าใจคำพูด และตั้งเวลาในอุปกรณ์ IoT เสมือนหรือ Raspberry Pi ตามผลลัพธ์ที่ได้

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "e4f2925acb211765889c3b51b9116ceb",
-  "translation_date": "2025-08-27T20:36:56+00:00",
-  "source_file": "6-consumer/lessons/1-speech-recognition/virtual-device-audio.md",
-  "language_code": "el"
-}
--->
 # Καταγραφή ήχου - Εικονική συσκευή IoT
 
 Οι βιβλιοθήκες Python που θα χρησιμοποιήσετε αργότερα σε αυτό το μάθημα για τη μετατροπή ομιλίας σε κείμενο διαθέτουν ενσωματωμένη δυνατότητα καταγραφής ήχου σε Windows, macOS και Linux. Δεν χρειάζεται να κάνετε τίποτα εδώ.

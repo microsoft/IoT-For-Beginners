@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "4bcc29fe2b65e56eada83d2476279227",
-  "translation_date": "2025-08-27T21:15:34+00:00",
-  "source_file": "1-getting-started/lessons/4-connect-internet/wio-terminal-telemetry.md",
-  "language_code": "th"
-}
--->
 # ควบคุมไฟกลางคืนของคุณผ่านอินเทอร์เน็ต - Wio Terminal
 
 ในส่วนนี้ของบทเรียน คุณจะส่งข้อมูลเทเลเมทรีเกี่ยวกับระดับแสงจาก Wio Terminal ของคุณไปยัง MQTT broker

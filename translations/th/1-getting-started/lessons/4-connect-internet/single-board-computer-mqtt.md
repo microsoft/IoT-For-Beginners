@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "90fb93446e03c38f3c0e4009c2471906",
-  "translation_date": "2025-08-27T21:15:59+00:00",
-  "source_file": "1-getting-started/lessons/4-connect-internet/single-board-computer-mqtt.md",
-  "language_code": "th"
-}
--->
 # ควบคุมไฟกลางคืนของคุณผ่านอินเทอร์เน็ต - ฮาร์ดแวร์ IoT เสมือนและ Raspberry Pi
 
 อุปกรณ์ IoT จำเป็นต้องเขียนโค้ดเพื่อสื่อสารกับ *test.mosquitto.org* โดยใช้ MQTT เพื่อส่งค่าข้อมูลจากเซ็นเซอร์วัดแสง และรับคำสั่งเพื่อควบคุม LED

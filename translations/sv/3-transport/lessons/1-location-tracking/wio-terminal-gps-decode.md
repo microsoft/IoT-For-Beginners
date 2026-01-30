@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "fbbcf96a9b63ccd661db98bbf854bb06",
-  "translation_date": "2025-08-27T21:25:07+00:00",
-  "source_file": "3-transport/lessons/1-location-tracking/wio-terminal-gps-decode.md",
-  "language_code": "sv"
-}
--->
 # Avkoda GPS-data - Wio Terminal
 
 I den här delen av lektionen kommer du att avkoda NMEA-meddelanden som lästs från GPS-sensorn med Wio Terminal och extrahera latitud och longitud.
