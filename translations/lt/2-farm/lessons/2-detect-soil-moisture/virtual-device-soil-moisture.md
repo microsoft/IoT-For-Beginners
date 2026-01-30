@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "2bf65f162bcebd35fbcba5fd245afac4",
-  "translation_date": "2025-08-28T20:22:53+00:00",
-  "source_file": "2-farm/lessons/2-detect-soil-moisture/virtual-device-soil-moisture.md",
-  "language_code": "lt"
-}
--->
 # Matuokite dirvožemio drėgmę - Virtuali IoT įranga
 
 Šioje pamokos dalyje pridėsite talpinį dirvožemio drėgmės jutiklį prie savo virtualaus IoT įrenginio ir nuskaitysite jo vertes.

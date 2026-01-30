@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "2a459ea9177fb0508ca96068ae1009d2",
-  "translation_date": "2025-08-28T17:32:16+00:00",
-  "source_file": "quiz-app/README.md",
-  "language_code": "my"
-}
--->
 # မေးခွန်းများ
 
 ဒီမေးခွန်းများဟာ IoT for Beginners သင်ခန်းစာများအတွက် သင်ခန်းစာမတိုင်မီနှင့် သင်ခန်းစာပြီးနောက် မေးခွန်းများဖြစ်ပါတယ်။ https://aka.ms/iot-beginners မှာ Curriculum ကိုကြည့်နိုင်ပါတယ်။

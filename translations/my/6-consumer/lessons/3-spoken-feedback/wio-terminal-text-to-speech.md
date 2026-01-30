@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "a202fa5889790a3777bfc33dd9f4b459",
-  "translation_date": "2025-08-28T16:19:51+00:00",
-  "source_file": "6-consumer/lessons/3-spoken-feedback/wio-terminal-text-to-speech.md",
-  "language_code": "my"
-}
--->
 # စာသားကို အသံအဖြစ်ပြောင်းခြင်း - Wio Terminal
 
 ဒီသင်ခန်းစာရဲ့ အပိုင်းမှာ စာသားကို အသံအဖြစ်ပြောင်းပြီး ပြောဆို feedback ပေးပါမယ်။

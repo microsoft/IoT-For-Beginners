@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "a4f0c166010e31fd7b6ca20bc88dec6d",
-  "translation_date": "2025-08-28T17:21:29+00:00",
-  "source_file": "1-getting-started/lessons/1-introduction-to-iot/wio-terminal.md",
-  "language_code": "my"
-}
--->
 # Wio Terminal
 
 [Seeed Studios မှ Wio Terminal](https://www.seeedstudio.com/Wio-Terminal-p-4509.html) သည် Arduino-compatible microcontroller တစ်ခုဖြစ်ပြီး WiFi နှင့် sensor များ၊ actuator များပါဝင်သည့်အပြင် [Grove](https://www.seeedstudio.com/category/Grove-c-1003.html) ဟုခေါ်သော hardware ecosystem ကို အသုံးပြု၍ sensor များနှင့် actuator များကို ထပ်မံထည့်သွင်းနိုင်သော port များပါရှိသည်။

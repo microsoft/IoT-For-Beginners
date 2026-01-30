@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "f8f541ee945545017a51aaf309aa37c3",
-  "translation_date": "2025-08-28T18:16:01+00:00",
-  "source_file": "2-farm/lessons/3-automated-plant-watering/virtual-device-relay.md",
-  "language_code": "my"
-}
--->
 # Relay ကိုထိန်းချုပ်ခြင်း - အွန်လိုင်း IoT Hardware
 
 ဒီသင်ခန်းစာအပိုင်းမှာ သင့်ရဲ့ အွန်လိုင်း IoT စက်ပစ္စည်းမှာ မြေစိုထိုင်းဆဆင်ဆာအပြင် relay တစ်ခုကို ထည့်သွင်းပြီး မြေစိုထိုင်းဆအဆင့်အပေါ် မူတည်ပြီး ထိန်းချုပ်ပေးပါမည်။

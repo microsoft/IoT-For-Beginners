@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "0ac0afcfb40cb5970ef4cb74f01c32e9",
-  "translation_date": "2025-08-28T16:26:39+00:00",
-  "source_file": "6-consumer/lessons/1-speech-recognition/pi-audio.md",
-  "language_code": "my"
-}
--->
 # အသံဖမ်းယူခြင်း - Raspberry Pi
 
 ဒီသင်ခန်းစာအပိုင်းမှာ သင်ရဲ့ Raspberry Pi ပေါ်မှာ အသံဖမ်းယူဖို့ ကုဒ်ရေးမှာဖြစ်ပါတယ်။ အသံဖမ်းယူမှုကို ခလုတ်တစ်ခုက ထိန်းချုပ်ပေးမှာဖြစ်ပါတယ်။

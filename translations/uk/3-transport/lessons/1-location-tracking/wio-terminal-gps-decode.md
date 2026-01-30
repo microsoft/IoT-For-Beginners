@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "fbbcf96a9b63ccd661db98bbf854bb06",
-  "translation_date": "2025-08-28T16:46:28+00:00",
-  "source_file": "3-transport/lessons/1-location-tracking/wio-terminal-gps-decode.md",
-  "language_code": "uk"
-}
--->
 # Розшифрування даних GPS - Wio Terminal
 
 У цій частині уроку ви розшифруєте повідомлення NMEA, отримані від GPS-датчика за допомогою Wio Terminal, і витягнете широту та довготу.

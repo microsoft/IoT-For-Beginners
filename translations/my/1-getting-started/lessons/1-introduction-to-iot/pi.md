@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "8ff0d0a1d29832bb896b9c103b69a452",
-  "translation_date": "2025-08-28T17:19:41+00:00",
-  "source_file": "1-getting-started/lessons/1-introduction-to-iot/pi.md",
-  "language_code": "my"
-}
--->
 # Raspberry Pi
 
 [Raspberry Pi](https://raspberrypi.org) သည် single-board computer တစ်ခုဖြစ်သည်။ သင်သည် sensor များနှင့် actuator များကို device များနှင့် ecosystem များစွာကို အသုံးပြု၍ ထည့်သွင်းနိုင်ပြီး၊ ဤသင်ခန်းစာများအတွက် [Grove](https://www.seeedstudio.com/category/Grove-c-1003.html) ဟုခေါ်သော hardware ecosystem ကို အသုံးပြုမည်ဖြစ်သည်။ သင်၏ Pi ကို Python ဖြင့် code ရေးပြီး Grove sensor များကို access ပြုလုပ်နိုင်ပါသည်။

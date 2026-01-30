@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "7a65ee743f916276a2848b8a9491feb7",
-  "translation_date": "2025-08-28T16:26:06+00:00",
-  "source_file": "6-consumer/lessons/1-speech-recognition/virtual-device-microphone.md",
-  "language_code": "my"
-}
--->
 # မိုက်ခရိုဖုန်းနှင့် စပီကာများကို ပြင်ဆင်ပါ - အတု IoT ဟာ့ဒ်ဝဲ
 
 အတု IoT ဟာ့ဒ်ဝဲသည် သင့်ကွန်ပျူတာတွင် တပ်ဆင်ထားသော မိုက်ခရိုဖုန်းနှင့် စပီကာများကို အသုံးပြုမည်ဖြစ်သည်။

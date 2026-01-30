@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "271dcd720357806934b2f0d94e19410e",
-  "translation_date": "2026-01-06T21:49:20+00:00",
-  "source_file": "docs/troubleshooting.md",
-  "language_code": "lt"
-}
--->
 # Raspberry Pi trikčių šalinimo vadovas
 
 Šiame vadove pateikiami sprendimai dažniausiai pasitaikančioms problemoms, susiduriant su IoT projektais Raspberry Pi įrenginiuose.  

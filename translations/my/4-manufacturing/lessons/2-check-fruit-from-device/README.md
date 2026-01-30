@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "557f4ee96b752e0651d2e6e74aa6bd14",
-  "translation_date": "2025-08-28T16:05:26+00:00",
-  "source_file": "4-manufacturing/lessons/2-check-fruit-from-device/README.md",
-  "language_code": "my"
-}
--->
 # အိုင်အိုတီ (IoT) စက်ပစ္စည်းမှ သစ်သီးအရည်အသွေး စစ်ဆေးခြင်း
 
 ![ဒီသင်ခန်းစာ၏ အကျဉ်းချုပ်ကို ဖော်ပြထားသော ရေးမှတ်ပုံ](../../../../../translated_images/my/lesson-16.215daf18b00631fbdfd64c6fc2dc6044dff5d544288825d8076f9fb83d964c23.jpg)

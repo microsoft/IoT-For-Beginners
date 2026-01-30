@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "48ac21ec80329c930db7b84bd6b592ec",
-  "translation_date": "2025-08-28T16:04:28+00:00",
-  "source_file": "4-manufacturing/lessons/3-run-fruit-detector-edge/wio-terminal.md",
-  "language_code": "my"
-}
--->
 # IoT Edge အခြေခံ Image Classifier - Wio Terminal ကို အသုံးပြု၍ ပုံတစ်ပုံကို ခွဲခြားခြင်း
 
 ဒီသင်ခန်းစာအပိုင်းမှာ၊ သင်သည် IoT Edge စက်ပစ္စည်းပေါ်တွင် လည်ပတ်နေသော Image Classifier ကို အသုံးပြုမည်ဖြစ်သည်။

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "70e5a428b607cd5a9a4f422c2a4df03d",
-  "translation_date": "2025-08-28T18:10:57+00:00",
-  "source_file": "2-farm/lessons/1-predict-plant-growth/virtual-device-temp.md",
-  "language_code": "my"
-}
--->
 # အပူချိန်တိုင်းတာခြင်း - အတု IoT ဟာ့ဒ်ဝဲ
 
 ဒီသင်ခန်းစာအပိုင်းမှာ သင့်ရဲ့အတု IoT စက်ပစ္စည်းမှာ အပူချိန်အာရုံခံကိရိယာတစ်ခု ထည့်သွင်းပါမည်။

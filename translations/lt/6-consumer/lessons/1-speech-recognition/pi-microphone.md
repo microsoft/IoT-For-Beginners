@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "7e45d884493c5222348b43fbc4481b6a",
-  "translation_date": "2025-08-28T19:26:55+00:00",
-  "source_file": "6-consumer/lessons/1-speech-recognition/pi-microphone.md",
-  "language_code": "lt"
-}
--->
 # Konfigūruokite mikrofoną ir garsiakalbius - Raspberry Pi
 
 Šioje pamokos dalyje pridėsite mikrofoną ir garsiakalbius prie savo Raspberry Pi.

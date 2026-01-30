@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "50151d9f9dce2801348a93880ef16d86",
-  "translation_date": "2025-08-28T16:04:02+00:00",
-  "source_file": "4-manufacturing/lessons/3-run-fruit-detector-edge/single-board-computer.md",
-  "language_code": "my"
-}
--->
 # IoT Edge အခြေခံထားသော ပုံခွဲခြားစက်ကို အသုံးပြု၍ ပုံတစ်ပုံကို ခွဲခြားခြင်း - အတု IoT Hardware နှင့် Raspberry Pi
 
 ဒီသင်ခန်းပိုင်းမှာ၊ သင်သည် IoT Edge စက်ပေါ်တွင် လည်ပတ်နေသော Image Classifier ကို အသုံးပြုမည်ဖြစ်သည်။

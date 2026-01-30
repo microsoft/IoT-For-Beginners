@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "3ba7150ffc4a6999f6c3cfb4906ec7df",
-  "translation_date": "2025-08-28T16:07:27+00:00",
-  "source_file": "4-manufacturing/lessons/2-check-fruit-from-device/virtual-device-camera.md",
-  "language_code": "my"
-}
--->
 # ပုံတစ်ပုံကိုဖမ်းယူခြင်း - အိမ်တွင်း IoT စက်ပစ္စည်း
 
 ဒီသင်ခန်းစာအပိုင်းမှာ သင့်ရဲ့ အိမ်တွင်း IoT စက်ပစ္စည်းမှာ ကင်မရာအာရုံခံကိရိယာတစ်ခု ထည့်သွင်းပြီး ပုံများကို ဖတ်ရှုမည်ဖြစ်သည်။

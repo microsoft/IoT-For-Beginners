@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "d6faf0e8d3c2d6d20c0aef2a305dab18",
-  "translation_date": "2025-08-28T17:11:14+00:00",
-  "source_file": "1-getting-started/lessons/4-connect-internet/wio-terminal-mqtt.md",
-  "language_code": "uk"
-}
--->
 # Керуйте нічником через Інтернет - Wio Terminal
 
 Пристрій IoT потрібно запрограмувати для зв’язку з *test.mosquitto.org* за допомогою MQTT, щоб надсилати телеметричні дані зі значеннями датчика освітлення та отримувати команди для керування світлодіодом.

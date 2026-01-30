@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "52b4de6144b2efdced7797a5339d6035",
-  "translation_date": "2025-08-28T17:17:28+00:00",
-  "source_file": "1-getting-started/lessons/1-introduction-to-iot/virtual-device.md",
-  "language_code": "uk"
-}
--->
 # Віртуальний одноплатний комп'ютер
 
 Замість того, щоб купувати IoT-пристрій разом із сенсорами та актуаторами, ви можете використовувати свій комп'ютер для симуляції IoT-обладнання. Проєкт [CounterFit](https://github.com/CounterFit-IoT/CounterFit) дозволяє запускати локальний застосунок, який симулює IoT-обладнання, таке як сенсори та актуатори, і отримувати доступ до них через локальний Python-код, написаний так само, як і код для Raspberry Pi з використанням фізичного обладнання.

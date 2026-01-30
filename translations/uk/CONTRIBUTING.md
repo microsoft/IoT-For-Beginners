@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "d6f80293fa9c213283eac7e79b078671",
-  "translation_date": "2025-08-28T15:41:58+00:00",
-  "source_file": "CONTRIBUTING.md",
-  "language_code": "uk"
-}
--->
 # Внесення змін
 
 Цей проєкт вітає внески та пропозиції. Більшість внесків вимагають від вас погодитися з Угодою про ліцензування внесків (Contributor License Agreement, CLA), яка підтверджує, що ви маєте право і дійсно надаєте нам права на використання вашого внеску. Для деталей відвідайте https://cla.microsoft.com.

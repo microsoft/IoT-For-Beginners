@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "bbb5aa34221fe129dd3ce4d9ec33831a",
-  "translation_date": "2025-08-28T16:38:39+00:00",
-  "source_file": "6-consumer/lessons/4-multiple-language-support/pi-translate-speech.md",
-  "language_code": "my"
-}
--->
 # စကားပြောကို ဘာသာပြန်ခြင်း - Raspberry Pi
 
 ဒီသင်ခန်းစာရဲ့ အပိုင်းမှာ သင်ဘာသာပြန်ဝန်ဆောင်မှုကို အသုံးပြုပြီး စာသားကို ဘာသာပြန်ဖို့ ကုဒ်ရေးပါမည်။

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "a3fdfec1d1e2cb645ea11c2930b51299",
-  "translation_date": "2025-08-28T17:39:29+00:00",
-  "source_file": "5-retail/lessons/2-check-stock-device/single-board-computer-object-detector.md",
-  "language_code": "my"
-}
--->
 # သင့် IoT စက်ပစ္စည်းမှ Object Detector ကို ခေါ်သုံးခြင်း - အတု IoT Hardware နှင့် Raspberry Pi
 
 သင့် object detector ကို ထုတ်ဝေပြီးပါက၊ သင့် IoT စက်ပစ္စည်းမှ အသုံးပြုနိုင်ပါသည်။

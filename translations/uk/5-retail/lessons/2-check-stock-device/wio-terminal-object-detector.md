@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "4cf1421420a6fab9ab4f2c391bd523b7",
-  "translation_date": "2025-08-28T17:36:35+00:00",
-  "source_file": "5-retail/lessons/2-check-stock-device/wio-terminal-object-detector.md",
-  "language_code": "uk"
-}
--->
 # Виклик детектора об'єктів з вашого IoT-пристрою - Wio Terminal
 
 Після того як ваш детектор об'єктів опубліковано, його можна використовувати з вашого IoT-пристрою.

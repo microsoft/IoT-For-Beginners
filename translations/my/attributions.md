@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "4506d33bbda7acc0ab20980172687090",
-  "translation_date": "2025-08-28T15:42:35+00:00",
-  "source_file": "attributions.md",
-  "language_code": "my"
-}
--->
 # ပုံများအတွက် အကျိုးခံစားခွင့်များ
 
 * Bananas - abderraouf omara မှ [Noun Project](https://thenounproject.com) မှ

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "66b81165e60f8f169bd52a401b6a0f8b",
-  "translation_date": "2025-08-28T20:44:23+00:00",
-  "source_file": "2-farm/lessons/3-automated-plant-watering/pi-relay.md",
-  "language_code": "lt"
-}
--->
 # Valdykite relę - Raspberry Pi
 
 Šioje pamokos dalyje pridėsite relę prie savo Raspberry Pi kartu su dirvožemio drėgmės jutikliu ir valdysite ją pagal dirvožemio drėgmės lygį.

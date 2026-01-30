@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "bded364fc06ce37d7a76aed3be1ba73a",
-  "translation_date": "2025-08-28T16:49:09+00:00",
-  "source_file": "3-transport/lessons/1-location-tracking/assignment.md",
-  "language_code": "my"
-}
--->
 # GPS ဒေတာအခြားအရာများကို စုံစမ်းပါ
 
 ## လမ်းညွှန်ချက်များ

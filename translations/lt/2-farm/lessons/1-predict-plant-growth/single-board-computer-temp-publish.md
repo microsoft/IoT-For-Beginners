@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "4efc74299e19f5d08f2f3f34451a11ba",
-  "translation_date": "2025-08-28T20:39:31+00:00",
-  "source_file": "2-farm/lessons/1-predict-plant-growth/single-board-computer-temp-publish.md",
-  "language_code": "lt"
-}
--->
 # Publikuokite temperatūrą - Virtuali IoT įranga ir Raspberry Pi
 
 Šioje pamokos dalyje publikuosite temperatūros reikšmes, kurias aptinka Raspberry Pi arba virtualus IoT įrenginys, naudodami MQTT, kad vėliau jos galėtų būti naudojamos GDD skaičiavimui.

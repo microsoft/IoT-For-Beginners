@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "db44083b4dc6fb06eac83c4f16448940",
-  "translation_date": "2025-08-28T17:28:57+00:00",
-  "source_file": "1-getting-started/lessons/3-sensors-and-actuators/wio-terminal-actuator.md",
-  "language_code": "my"
-}
--->
 # ညဉ့်မီးအိပ်မီး - Wio Terminal
 
 ဒီသင်ခန်းစာအပိုင်းမှာ သင့်ရဲ့ Wio Terminal မှာ LED တစ်ခုထည့်ပြီး ညဉ့်မီးအိပ်မီးတစ်ခုဖန်တီးပါမယ်။

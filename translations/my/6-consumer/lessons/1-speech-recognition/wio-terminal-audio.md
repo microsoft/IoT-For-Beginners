@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "2f336726b9410e97c3aaed76cc89b0d8",
-  "translation_date": "2025-08-28T16:32:45+00:00",
-  "source_file": "6-consumer/lessons/1-speech-recognition/wio-terminal-audio.md",
-  "language_code": "my"
-}
--->
 # အသံဖမ်းယူခြင်း - Wio Terminal
 
 ဒီသင်ခန်းစာအပိုင်းမှာ သင့်ရဲ့ Wio Terminal မှာ အသံဖမ်းယူဖို့ ကုဒ်ရေးသားပါမယ်။ အသံဖမ်းယူမှုကို Wio Terminal ရဲ့ အပေါ်ဘက်မှာရှိတဲ့ ခလုတ်တစ်ခုက ထိန်းချုပ်ပါမယ်။

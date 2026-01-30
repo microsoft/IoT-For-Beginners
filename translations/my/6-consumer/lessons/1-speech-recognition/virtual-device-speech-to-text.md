@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "c0550b254b9ba2539baf1e6bb5fc05f8",
-  "translation_date": "2025-08-28T16:27:40+00:00",
-  "source_file": "6-consumer/lessons/1-speech-recognition/virtual-device-speech-to-text.md",
-  "language_code": "my"
-}
--->
 # မိုဘိုင်းစက်ပစ္စည်းအတွက် အသံမှ စာသားသို့ - အတု IoT စက်ပစ္စည်း
 
 ဒီသင်ခန်းစာအပိုင်းမှာ သင့်မိုက်ခရိုဖုန်းမှ ဖမ်းယူထားသော အသံကို စာသားအဖြစ် ပြောင်းလဲရန် အသံဝန်ဆောင်မှုကို အသုံးပြု၍ ကုဒ်ရေးသားပါမည်။

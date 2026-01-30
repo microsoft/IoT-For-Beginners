@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "df28cd649cd892bcce034e064913b2f3",
-  "translation_date": "2025-08-28T18:09:10+00:00",
-  "source_file": "2-farm/lessons/1-predict-plant-growth/wio-terminal-temp-publish.md",
-  "language_code": "my"
-}
--->
 # အပူချိန်ကို ထုတ်ပြန်ပါ - Wio Terminal
 
 ဒီသင်ခန်းစာအပိုင်းမှာ Wio Terminal က တွေ့ရှိထားတဲ့ အပူချိန်တန်ဖိုးတွေကို MQTT မှတစ်ဆင့် ထုတ်ပြန်မှာဖြစ်ပြီး၊ နောက်ပိုင်းမှာ GDD တွက်ချက်ဖို့ အသုံးပြုနိုင်အောင် ပြင်ဆင်မှာဖြစ်ပါတယ်။

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "24dc783a600e20251211987b36370e93",
-  "translation_date": "2025-08-28T16:03:04+00:00",
-  "source_file": "4-manufacturing/lessons/3-run-fruit-detector-edge/vm-iotedge.md",
-  "language_code": "my"
-}
--->
 # IoT Edge အတွက် Virtual Machine တစ်ခု ဖန်တီးခြင်း
 
 Azure တွင် သင့်အလိုက် ပြင်ဆင်နိုင်ပြီး သင့်ရဲ့ software ကို run လို့ရတဲ့ cloud-based computer တစ်ခုဖြစ်တဲ့ virtual machine တစ်ခုကို ဖန်တီးနိုင်ပါတယ်။

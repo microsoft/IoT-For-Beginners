@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "1226517aae5f5b6f904434670394c688",
-  "translation_date": "2025-08-28T19:57:32+00:00",
-  "source_file": "1-getting-started/lessons/4-connect-internet/single-board-computer-telemetry.md",
-  "language_code": "lt"
-}
--->
 # Valdykite savo naktinę lempą internetu – virtuali IoT įranga ir Raspberry Pi
 
 Šioje pamokos dalyje siųsite telemetrijos duomenis apie šviesos lygį iš savo Raspberry Pi arba virtualaus IoT įrenginio į MQTT brokerį.

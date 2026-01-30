@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "64f18a8f8aaa1fef5e7320e0992d8b3a",
-  "translation_date": "2025-08-28T16:48:31+00:00",
-  "source_file": "3-transport/lessons/1-location-tracking/virtual-device-gps-sensor.md",
-  "language_code": "my"
-}
--->
 # GPS ဒေတာဖတ်ခြင်း - အိမ်စီး IoT ဟာ့ဒ်ဝဲ
 
 ဒီသင်ခန်းစာအပိုင်းမှာ သင့်ရဲ့ အိမ်စီး IoT စက်ပစ္စည်းမှာ GPS အာရုံခံကိရိယာတစ်ခု ထည့်သွင်းပြီး ဒေတာများကိုဖတ်ရှုမည်ဖြစ်သည်။

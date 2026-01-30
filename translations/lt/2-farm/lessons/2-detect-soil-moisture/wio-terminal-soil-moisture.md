@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "0d55caa8c23d73635b7559102cd17b8a",
-  "translation_date": "2025-08-28T20:24:00+00:00",
-  "source_file": "2-farm/lessons/2-detect-soil-moisture/wio-terminal-soil-moisture.md",
-  "language_code": "lt"
-}
--->
 # Matuokite dirvožemio drėgmę - Wio Terminal
 
 Šioje pamokos dalyje pridėsite talpinį dirvožemio drėgmės jutiklį prie savo Wio Terminal ir nuskaitysite jo vertes.

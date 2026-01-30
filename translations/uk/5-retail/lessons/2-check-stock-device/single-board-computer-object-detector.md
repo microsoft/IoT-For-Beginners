@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "a3fdfec1d1e2cb645ea11c2930b51299",
-  "translation_date": "2025-08-28T17:39:14+00:00",
-  "source_file": "5-retail/lessons/2-check-stock-device/single-board-computer-object-detector.md",
-  "language_code": "uk"
-}
--->
 # Виклик детектора об'єктів з вашого IoT-пристрою - Віртуальне IoT обладнання та Raspberry Pi
 
 Після того, як ваш детектор об'єктів буде опублікований, його можна використовувати з вашого IoT-пристрою.

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "e5896207b304ce1abaf065b8acc0cc79",
-  "translation_date": "2025-08-28T19:13:02+00:00",
-  "source_file": "4-manufacturing/lessons/2-check-fruit-from-device/single-board-computer-classify-image.md",
-  "language_code": "lt"
-}
--->
 # Klasifikuokite vaizdą - Virtuali IoT įranga ir Raspberry Pi
 
 Šioje pamokos dalyje siųsite kamerą užfiksuotą vaizdą į „Custom Vision“ paslaugą, kad jis būtų klasifikuotas.

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "fbbcf96a9b63ccd661db98bbf854bb06",
-  "translation_date": "2025-08-28T16:46:38+00:00",
-  "source_file": "3-transport/lessons/1-location-tracking/wio-terminal-gps-decode.md",
-  "language_code": "my"
-}
--->
 # GPS ဒေတာကို ဖော်ထုတ်ခြင်း - Wio Terminal
 
 ဒီသင်ခန်းပိုင်းမှာ Wio Terminal မှ GPS ဆင်ဆာကနေဖတ်ထားတဲ့ NMEA မက်ဆေ့ချ်တွေကို ဖော်ထုတ်ပြီး latitude နဲ့ longitude ကို ရယူပါမယ်။

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "c677667095f6133eee418c7e53615d05",
-  "translation_date": "2025-08-28T16:06:11+00:00",
-  "source_file": "4-manufacturing/lessons/2-check-fruit-from-device/pi-camera.md",
-  "language_code": "uk"
-}
--->
 # Захоплення зображення - Raspberry Pi
 
 У цій частині уроку ви додасте сенсор камери до вашого Raspberry Pi і зчитуватимете зображення з нього.

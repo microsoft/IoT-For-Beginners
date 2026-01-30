@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "ea733bd0cdf2479e082373f765a08678",
-  "translation_date": "2025-08-28T17:28:01+00:00",
-  "source_file": "1-getting-started/lessons/3-sensors-and-actuators/pi-sensor.md",
-  "language_code": "uk"
-}
--->
 # Створення нічного світильника - Raspberry Pi
 
 У цій частині уроку ви додасте датчик світла до вашого Raspberry Pi.

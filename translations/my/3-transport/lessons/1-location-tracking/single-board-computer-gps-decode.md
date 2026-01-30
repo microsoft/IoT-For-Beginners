@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "cbb8c285bc64c5192fae3368fb5077d2",
-  "translation_date": "2025-08-28T16:47:56+00:00",
-  "source_file": "3-transport/lessons/1-location-tracking/single-board-computer-gps-decode.md",
-  "language_code": "my"
-}
--->
 # GPS ဒေတာကို ဖော်ထုတ်ခြင်း - Virtual IoT Hardware နှင့် Raspberry Pi
 
 ဒီသင်ခန်းစာပိုင်းမှာတော့ Raspberry Pi သို့မဟုတ် Virtual IoT Device ကနေ GPS ဆင်ဆာမှ ဖတ်ရရှိတဲ့ NMEA မက်ဆေ့ဂျ်တွေကို ဖော်ထုတ်ပြီး latitude နဲ့ longitude ကို ထုတ်ယူပါမယ်။

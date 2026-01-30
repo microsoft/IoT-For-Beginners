@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "1a85e50c33c38dcd2cde2a97d132f248",
-  "translation_date": "2025-08-28T15:56:23+00:00",
-  "source_file": "4-manufacturing/lessons/4-trigger-fruit-detector/assignment.md",
-  "language_code": "my"
-}
--->
 # အသီးအရည်အသွေး စစ်ဆေးရေးစနစ် တည်ဆောက်ခြင်း
 
 ## လမ်းညွှန်ချက်များ

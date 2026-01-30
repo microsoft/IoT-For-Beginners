@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "4efc74299e19f5d08f2f3f34451a11ba",
-  "translation_date": "2025-08-28T18:10:18+00:00",
-  "source_file": "2-farm/lessons/1-predict-plant-growth/single-board-computer-temp-publish.md",
-  "language_code": "my"
-}
--->
 # အပူချိန်ကို ထုတ်ဝေခြင်း - Virtual IoT Hardware နှင့် Raspberry Pi
 
 ဒီသင်ခန်းစာရဲ့ အပိုင်းမှာတော့ Raspberry Pi သို့မဟုတ် Virtual IoT Device က ရှာဖွေတွေ့ရှိထားတဲ့ အပူချိန်တန်ဖိုးတွေကို MQTT ကနေ ထုတ်ဝေပြီးနောက်ပိုင်း GDD တွက်ချက်ဖို့ အသုံးပြုနိုင်အောင် ပြုလုပ်ပါမယ်။

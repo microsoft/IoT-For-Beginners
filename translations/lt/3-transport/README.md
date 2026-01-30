@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "e978534a245b000725ed2a048f943213",
-  "translation_date": "2025-08-28T19:34:41+00:00",
-  "source_file": "3-transport/README.md",
-  "language_code": "lt"
-}
--->
 # Transportas iš ūkio į gamyklą – IoT naudojimas maisto pristatymų stebėjimui
 
 Daugelis ūkininkų augina maistą pardavimui – jie gali būti komerciniai ūkininkai, kurie parduoda viską, ką užaugina, arba pragyvenimui ūkininkaujantys ūkininkai, kurie parduoda savo perteklių, kad galėtų įsigyti būtiniausių prekių. Kažkaip maistas turi pasiekti vartotoją, ir dažniausiai tai vyksta per masinį transportavimą iš ūkių į centrus ar perdirbimo gamyklas, o tada į parduotuves. Pavyzdžiui, pomidorų ūkininkas nuima derlių, supakuoja pomidorus į dėžes, pakrauna dėžes į sunkvežimį ir pristato į perdirbimo gamyklą. Ten pomidorai yra rūšiuojami, o vėliau pristatomi vartotojams kaip perdirbtas maistas, mažmeninės prekybos produktai arba patiekiami restoranuose.

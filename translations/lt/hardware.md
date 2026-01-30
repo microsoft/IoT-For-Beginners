@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "3dce18fab38adf93ff30b8c221b1eec5",
-  "translation_date": "2025-08-28T18:55:05+00:00",
-  "source_file": "hardware.md",
-  "language_code": "lt"
-}
--->
 # Aparatūra
 
 **T** IoT reiškia **Daiktus** ir nurodo įrenginius, kurie sąveikauja su aplinka aplink mus. Kiekvienas projektas yra pagrįstas realia aparatūra, prieinama studentams ir entuziastams. Turime du IoT aparatūros pasirinkimus, priklausomai nuo asmeninių pageidavimų, programavimo kalbos žinių ar prioritetų, mokymosi tikslų ir prieinamumo. Taip pat pateikėme „virtualios aparatūros“ versiją tiems, kurie neturi prieigos prie fizinės aparatūros arba nori daugiau sužinoti prieš įsigydami.

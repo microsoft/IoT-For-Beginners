@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "da6ae0a795cf06be33d23ca5b8493fc8",
-  "translation_date": "2025-08-28T16:47:13+00:00",
-  "source_file": "3-transport/lessons/1-location-tracking/wio-terminal-gps-sensor.md",
-  "language_code": "my"
-}
--->
 # GPS ဒေတာဖတ်ရန် - Wio Terminal
 
 ဒီသင်ခန်းစာအပိုင်းမှာ၊ သင့် Wio Terminal တွင် GPS ဆင်ဆာတစ်ခုထည့်ပြီး၊ ဒေတာများကိုဖတ်မည်ဖြစ်သည်။

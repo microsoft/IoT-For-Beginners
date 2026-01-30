@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "90fb93446e03c38f3c0e4009c2471906",
-  "translation_date": "2025-08-28T17:14:02+00:00",
-  "source_file": "1-getting-started/lessons/4-connect-internet/single-board-computer-mqtt.md",
-  "language_code": "my"
-}
--->
 # အင်တာနက်မှ သင့်ညဉ့်မီးအိမ်ကို ထိန်းချုပ်ပါ - အိမ်စီး IoT ဟာ့ဒ်ဝဲနှင့် Raspberry Pi
 
 IoT စက်ပစ္စည်းကို *test.mosquitto.org* နှင့် MQTT ကို အသုံးပြု၍ အလင်းအာရုံခံကိရိယာ၏ ဖတ်ရှုမှုများကို telemetry အချက်အလက်များအဖြစ် ပို့ပေးရန်နှင့် LED ကို ထိန်းချုပ်ရန် အမိန့်များကို လက်ခံရန်အတွက် ကုဒ်ရေးရန် လိုအပ်ပါသည်။

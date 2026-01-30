@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "c527ce85d69b1a3875366ec61cbed8aa",
-  "translation_date": "2025-08-28T19:57:52+00:00",
-  "source_file": "1-getting-started/lessons/4-connect-internet/single-board-computer-commands.md",
-  "language_code": "lt"
-}
--->
 # Valdykite savo naktinę lemputę internetu – virtuali IoT įranga ir Raspberry Pi
 
 Šioje pamokos dalyje jūs prenumeruosite komandas, siunčiamas iš MQTT brokerio į jūsų Raspberry Pi arba virtualų IoT įrenginį.

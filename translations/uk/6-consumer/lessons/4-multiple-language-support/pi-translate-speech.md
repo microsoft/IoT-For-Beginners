@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "bbb5aa34221fe129dd3ce4d9ec33831a",
-  "translation_date": "2025-08-28T16:38:17+00:00",
-  "source_file": "6-consumer/lessons/4-multiple-language-support/pi-translate-speech.md",
-  "language_code": "uk"
-}
--->
 # Переклад мови - Raspberry Pi
 
 У цій частині уроку ви напишете код для перекладу тексту за допомогою сервісу перекладу.

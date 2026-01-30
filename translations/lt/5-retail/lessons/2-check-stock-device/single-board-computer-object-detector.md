@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "a3fdfec1d1e2cb645ea11c2930b51299",
-  "translation_date": "2025-08-28T20:18:00+00:00",
-  "source_file": "5-retail/lessons/2-check-stock-device/single-board-computer-object-detector.md",
-  "language_code": "lt"
-}
--->
 # Paleiskite savo objektų detektorių iš IoT įrenginio - Virtuali IoT aparatinė įranga ir Raspberry Pi
 
 Kai jūsų objektų detektorius bus paskelbtas, jį bus galima naudoti iš jūsų IoT įrenginio.

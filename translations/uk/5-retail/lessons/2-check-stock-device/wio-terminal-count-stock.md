@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "0b2ae20b0fc8e73c9598dea937cac038",
-  "translation_date": "2025-08-28T17:38:11+00:00",
-  "source_file": "5-retail/lessons/2-check-stock-device/wio-terminal-count-stock.md",
-  "language_code": "uk"
-}
--->
 # Підрахунок запасів за допомогою вашого IoT-пристрою - Wio Terminal
 
 Поєднання прогнозів і їхніх обмежувальних рамок можна використовувати для підрахунку запасів на зображенні.

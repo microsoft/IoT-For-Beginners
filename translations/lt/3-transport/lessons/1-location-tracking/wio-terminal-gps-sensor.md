@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "da6ae0a795cf06be33d23ca5b8493fc8",
-  "translation_date": "2025-08-28T19:38:10+00:00",
-  "source_file": "3-transport/lessons/1-location-tracking/wio-terminal-gps-sensor.md",
-  "language_code": "lt"
-}
--->
 # Skaitykite GPS duomenis - Wio Terminal
 
 Šioje pamokos dalyje pridėsite GPS jutiklį prie savo Wio Terminal ir nuskaitysite jo duomenis.

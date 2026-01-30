@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "2625af24587465c5547ae33d6cc000a5",
-  "translation_date": "2025-08-28T16:01:05+00:00",
-  "source_file": "4-manufacturing/lessons/3-run-fruit-detector-edge/README.md",
-  "language_code": "my"
-}
--->
 # သင့်အသီးရှာဖွေစက်ကို Edge ပေါ်တွင် အလုပ်လုပ်စေပါ
 
 ![ဒီသင်ခန်းစာ၏ အကျဉ်းချုပ်ကို Sketchnote](../../../../../translated_images/my/lesson-17.bc333c3c35ba8e42cce666cfffa82b915f787f455bd94e006aea2b6f2722421a.jpg)

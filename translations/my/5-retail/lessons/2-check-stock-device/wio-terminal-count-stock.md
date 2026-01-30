@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "0b2ae20b0fc8e73c9598dea937cac038",
-  "translation_date": "2025-08-28T17:38:33+00:00",
-  "source_file": "5-retail/lessons/2-check-stock-device/wio-terminal-count-stock.md",
-  "language_code": "my"
-}
--->
 # Wio Terminal - သင့် IoT စက်ကနေ စတော့အရေအတွက်တွက်ခြင်း
 
 အကြံပြုချက်များနှင့် bounding boxes တွေကိုပေါင်းစပ်ပြီး ပုံထဲမှာရှိတဲ့ စတော့အရေအတွက်ကိုတွက်နိုင်ပါတယ်။

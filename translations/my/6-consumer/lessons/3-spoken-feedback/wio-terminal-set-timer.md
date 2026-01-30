@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "012b69d57d898d670adf61304f42a137",
-  "translation_date": "2025-08-28T16:21:55+00:00",
-  "source_file": "6-consumer/lessons/3-spoken-feedback/wio-terminal-set-timer.md",
-  "language_code": "my"
-}
--->
 # Wio Terminal - Timer သတ်မှတ်ခြင်း
 
 ဒီသင်ခန်းစာအပိုင်းမှာ သင့် serverless code ကိုခေါ်ပြီး စကားလုံးများကိုနားလည်စေကာ ရလဒ်အပေါ်မူတည်ပြီး Wio Terminal မှာ timer တစ်ခုကို သတ်မှတ်ပါမည်။

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "c677667095f6133eee418c7e53615d05",
-  "translation_date": "2025-08-28T16:06:36+00:00",
-  "source_file": "4-manufacturing/lessons/2-check-fruit-from-device/pi-camera.md",
-  "language_code": "my"
-}
--->
 # ရုပ်ပုံတစ်ပုံကိုဖမ်းယူခြင်း - Raspberry Pi
 
 ဒီသင်ခန်းစာအပိုင်းမှာ၊ သင့်ရဲ့ Raspberry Pi မှာ ကင်မရာဆင်ဆာတစ်ခုထည့်ပြီး၊ ရုပ်ပုံတွေကိုဖတ်ယူပါမယ်။

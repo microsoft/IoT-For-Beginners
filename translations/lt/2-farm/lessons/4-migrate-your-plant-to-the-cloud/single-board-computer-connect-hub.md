@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "3ac42e284a7222c0e83d2d43231a364f",
-  "translation_date": "2025-08-28T20:33:54+00:00",
-  "source_file": "2-farm/lessons/4-migrate-your-plant-to-the-cloud/single-board-computer-connect-hub.md",
-  "language_code": "lt"
-}
--->
 # Prijunkite savo IoT įrenginį prie debesies - Virtuali IoT aparatinė įranga ir Raspberry Pi
 
 Šioje pamokos dalyje prijungsite savo virtualų IoT įrenginį arba Raspberry Pi prie IoT Hub, kad galėtumėte siųsti telemetriją ir gauti komandas.

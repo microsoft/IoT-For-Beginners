@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "4db8a3879a53490513571df2f6cf7641",
-  "translation_date": "2025-08-28T20:08:20+00:00",
-  "source_file": "1-getting-started/lessons/3-sensors-and-actuators/pi-actuator.md",
-  "language_code": "lt"
-}
--->
 # Sukurkite naktinę lemputę - Raspberry Pi
 
 Šioje pamokos dalyje pridėsite LED prie savo Raspberry Pi ir naudosite jį naktinei lemputei sukurti.

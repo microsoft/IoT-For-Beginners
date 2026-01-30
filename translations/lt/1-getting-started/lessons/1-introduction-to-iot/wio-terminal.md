@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "a4f0c166010e31fd7b6ca20bc88dec6d",
-  "translation_date": "2025-08-28T20:04:48+00:00",
-  "source_file": "1-getting-started/lessons/1-introduction-to-iot/wio-terminal.md",
-  "language_code": "lt"
-}
--->
 # Wio Terminal
 
 [Wio Terminal iš Seeed Studios](https://www.seeedstudio.com/Wio-Terminal-p-4509.html) yra Arduino suderinamas mikrovaldiklis su integruotu WiFi, kai kuriais jutikliais ir aktuatoriais, taip pat jungtimis papildomiems jutikliams ir aktuatoriams prijungti, naudojant aparatūros ekosistemą, vadinamą [Grove](https://www.seeedstudio.com/category/Grove-c-1003.html).

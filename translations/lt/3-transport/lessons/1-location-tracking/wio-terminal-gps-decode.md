@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "fbbcf96a9b63ccd661db98bbf854bb06",
-  "translation_date": "2025-08-28T19:37:46+00:00",
-  "source_file": "3-transport/lessons/1-location-tracking/wio-terminal-gps-decode.md",
-  "language_code": "lt"
-}
--->
 # Dekoduokite GPS duomenis - Wio Terminal
 
 Šioje pamokos dalyje jūs dekoduosite NMEA pranešimus, gautus iš GPS jutiklio naudojant Wio Terminal, ir ištrauksite platumos bei ilgumos koordinates.

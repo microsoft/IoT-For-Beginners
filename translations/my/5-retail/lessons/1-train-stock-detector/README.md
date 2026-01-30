@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "8df310a42f902139a01417dacb1ffbef",
-  "translation_date": "2025-08-28T17:33:50+00:00",
-  "source_file": "5-retail/lessons/1-train-stock-detector/README.md",
-  "language_code": "my"
-}
--->
 # စတော့ရှယ်ယာရှာဖွေမှုစက်ကိုလေ့ကျင့်ပါ
 
 ![ဒီသင်ခန်းစာ၏အကျဉ်းချုပ်ကိုဖော်ပြသောပုံ](../../../../../translated_images/my/lesson-19.cf6973cecadf080c4b526310620dc4d6f5994c80fb0139c6f378cc9ca2d435cd.jpg)

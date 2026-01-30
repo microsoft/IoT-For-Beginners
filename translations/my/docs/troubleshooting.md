@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "271dcd720357806934b2f0d94e19410e",
-  "translation_date": "2026-01-06T21:48:53+00:00",
-  "source_file": "docs/troubleshooting.md",
-  "language_code": "my"
-}
--->
 # Raspberry Pi ပြဿနာဖြေရှင်းချက်လမ်းညွှန်
 
 ဤလမ်းညွှန်သည် Raspberry Pi စက်ရုပ်များပေါ်တွင် IoT ပရောဂျက်များကို လုပ်ဆောင်စဉ် ကြုံတွေ့ရသည့် ရိုးရိုးရှင်းရှင်းပြဿနာများသို့ ဖြေရှင်းနည်းများကို ပေးဆောင်သည်။  

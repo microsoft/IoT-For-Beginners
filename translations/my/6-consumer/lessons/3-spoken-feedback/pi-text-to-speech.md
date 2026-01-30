@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "606f3af1c78e3741e48ce77c31cea626",
-  "translation_date": "2025-08-28T16:21:07+00:00",
-  "source_file": "6-consumer/lessons/3-spoken-feedback/pi-text-to-speech.md",
-  "language_code": "my"
-}
--->
 # Text to speech - Raspberry Pi
 
 ဒီသင်ခန်းစာပိုင်းမှာ သင်သည် speech service ကို အသုံးပြု၍ စာသားကို အသံသို့ ပြောင်းလဲရန် ကုဒ်ရေးသားပါမည်။

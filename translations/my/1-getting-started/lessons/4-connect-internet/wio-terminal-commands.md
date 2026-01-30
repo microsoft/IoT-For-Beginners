@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "6754c915dae64ba70fcd5e52c37f3adf",
-  "translation_date": "2025-08-28T17:10:59+00:00",
-  "source_file": "1-getting-started/lessons/4-connect-internet/wio-terminal-commands.md",
-  "language_code": "my"
-}
--->
 # အင်တာနက်မှ သင့်ညဉ့်မီးအိမ်ကို ထိန်းချုပ်ပါ - Wio Terminal
 
 ဒီသင်ခန်းစာအပိုင်းမှာ သင်သည် MQTT broker မှ ပေးပို့သော အမိန့်များကို သင့် Wio Terminal မှ စာရင်းသွင်းပါမည်။

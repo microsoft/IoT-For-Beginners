@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "3ac42e284a7222c0e83d2d43231a364f",
-  "translation_date": "2025-08-28T18:03:33+00:00",
-  "source_file": "2-farm/lessons/4-migrate-your-plant-to-the-cloud/single-board-computer-connect-hub.md",
-  "language_code": "uk"
-}
--->
 # Підключіть ваш IoT-пристрій до хмари - Віртуальне IoT обладнання та Raspberry Pi
 
 У цій частині уроку ви підключите ваш віртуальний IoT-пристрій або Raspberry Pi до IoT Hub, щоб надсилати телеметрію та отримувати команди.

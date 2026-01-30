@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "70e5a428b607cd5a9a4f422c2a4df03d",
-  "translation_date": "2025-08-28T20:40:03+00:00",
-  "source_file": "2-farm/lessons/1-predict-plant-growth/virtual-device-temp.md",
-  "language_code": "lt"
-}
--->
 # Matuokite temperatūrą - Virtuali IoT Aparatūra
 
 Šioje pamokos dalyje pridėsite temperatūros jutiklį prie savo virtualaus IoT įrenginio.

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "a202fa5889790a3777bfc33dd9f4b459",
-  "translation_date": "2025-08-28T19:19:28+00:00",
-  "source_file": "6-consumer/lessons/3-spoken-feedback/wio-terminal-text-to-speech.md",
-  "language_code": "lt"
-}
--->
 # Teksto pavertimas į kalbą - Wio Terminal
 
 Šioje pamokos dalyje tekstą paversite kalba, kad būtų galima pateikti garsinį atsiliepimą.

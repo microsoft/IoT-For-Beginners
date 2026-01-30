@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "1226517aae5f5b6f904434670394c688",
-  "translation_date": "2025-08-28T17:12:21+00:00",
-  "source_file": "1-getting-started/lessons/4-connect-internet/single-board-computer-telemetry.md",
-  "language_code": "uk"
-}
--->
 # Керуйте нічним освітленням через Інтернет - Віртуальне IoT обладнання та Raspberry Pi
 
 У цій частині уроку ви будете надсилати телеметрію з рівнями освітлення з вашого Raspberry Pi або віртуального IoT пристрою до брокера MQTT.

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "6d6aa1be033625d201a190fc9c5cbfb4",
-  "translation_date": "2025-08-28T16:24:38+00:00",
-  "source_file": "6-consumer/lessons/1-speech-recognition/README.md",
-  "language_code": "my"
-}
--->
 # IoT စက်ပစ္စည်းများနှင့် အသံအသိအမှတ်ပြုခြင်း
 
 ![ဒီသင်ခန်းစာ၏ အကျဉ်းချုပ်ကို ဖော်ပြထားသော ပုံ](../../../../../translated_images/my/lesson-21.e34de51354d6606fb5ee08d8c89d0222eea0a2a7aaf744a8805ae847c4f69dc4.jpg)

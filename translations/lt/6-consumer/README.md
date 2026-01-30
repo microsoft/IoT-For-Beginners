@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "5de7dc1e2ddc402d415473bb795568d4",
-  "translation_date": "2025-08-28T19:14:05+00:00",
-  "source_file": "6-consumer/README.md",
-  "language_code": "lt"
-}
--->
 # Vartotojų IoT - sukurkite išmanųjį balso asistentą
 
 Maistas jau užaugintas, nugabentas į perdirbimo gamyklą, atrinktas pagal kokybę, parduotas parduotuvėje, ir dabar atėjo laikas gaminti! Vienas iš pagrindinių virtuvės įrankių yra laikmatis. Iš pradžių jie buvo smėlio laikrodžiai – maistas buvo paruoštas, kai visas smėlis subyrėdavo į apatinę kolbą. Vėliau atsirado mechaniniai, o tada elektriniai laikmačiai.

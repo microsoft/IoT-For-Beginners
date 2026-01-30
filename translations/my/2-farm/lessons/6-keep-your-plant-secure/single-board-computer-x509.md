@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "9aea84bcc7520222b0e1c50469d62d6a",
-  "translation_date": "2025-08-28T17:58:58+00:00",
-  "source_file": "2-farm/lessons/6-keep-your-plant-secure/single-board-computer-x509.md",
-  "language_code": "my"
-}
--->
 # X.509 လက်မှတ်ကို သင့်စက်ကိရိယာကုဒ်တွင် အသုံးပြုခြင်း - အတု IoT Hardware နှင့် Raspberry Pi
 
 ဒီသင်ခန်းပိုင်းမှာ သင့်အတု IoT စက်ကိရိယာ သို့မဟုတ် Raspberry Pi ကို X.509 လက်မှတ်ကို အသုံးပြုပြီး IoT Hub နှင့် ချိတ်ဆက်ပါမည်။

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "160be8c0f558687f6686dca64f10f739",
-  "translation_date": "2025-08-28T16:07:50+00:00",
-  "source_file": "4-manufacturing/lessons/2-check-fruit-from-device/wio-terminal-camera.md",
-  "language_code": "uk"
-}
--->
 # Захоплення зображення - Wio Terminal
 
 У цій частині уроку ви додасте камеру до вашого Wio Terminal і захопите зображення з неї.

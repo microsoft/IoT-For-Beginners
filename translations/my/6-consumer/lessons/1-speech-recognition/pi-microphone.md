@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "7e45d884493c5222348b43fbc4481b6a",
-  "translation_date": "2025-08-28T16:29:21+00:00",
-  "source_file": "6-consumer/lessons/1-speech-recognition/pi-microphone.md",
-  "language_code": "my"
-}
--->
 # မိုက်ခရိုဖုန်းနှင့် စပီကာများကို သင့် Raspberry Pi တွင် ပြင်ဆင်ပါ
 
 ဒီသင်ခန်းစာအပိုင်းမှာ သင့် Raspberry Pi တွင် မိုက်ခရိုဖုန်းနှင့် စပီကာများကို ထည့်သွင်းပါမည်။

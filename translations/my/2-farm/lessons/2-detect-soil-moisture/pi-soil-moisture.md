@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "9d4d00a47d5d0f3e6ce42c0d1020064a",
-  "translation_date": "2025-08-28T17:40:57+00:00",
-  "source_file": "2-farm/lessons/2-detect-soil-moisture/pi-soil-moisture.md",
-  "language_code": "my"
-}
--->
 # မြေညှင်းစိုထိုင်းဆ - Raspberry Pi
 
 ဒီသင်ခန်းစာအပိုင်းမှာ၊ သင်သည် capacitive မြေညှင်းစိုထိုင်းဆကို Raspberry Pi တွင် ထည့်သွင်းပြီး၊ ထိုမှတဆင့် အချက်အလက်များကို ဖတ်ရှုမည်ဖြစ်သည်။

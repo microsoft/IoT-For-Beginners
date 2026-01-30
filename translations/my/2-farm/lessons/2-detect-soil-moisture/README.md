@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "4fb20273d299dc8d07a8f06c9cd0cdd9",
-  "translation_date": "2025-08-28T17:44:13+00:00",
-  "source_file": "2-farm/lessons/2-detect-soil-moisture/README.md",
-  "language_code": "my"
-}
--->
 C ကို *I-squared-C* ဟုဖတ်ပြီး၊ multi-controller, multi-peripheral protocol တစ်ခုဖြစ်သည်။ ချိတ်ဆက်ထားသော device မည်သည့်ဟာမဆို controller သို့မဟုတ် peripheral အဖြစ်လုပ်ဆောင်နိုင်ပြီး၊ I²C bus (data ပေးပို့မှုအတွက် communication system) မှတစ်ဆင့် ဆက်သွယ်နိုင်သည်။ Data ကို addressed packets အဖြစ်ပေးပို့ပြီး၊ packet တစ်ခုစီတွင် ပေးပို့လိုသည့် connected device ၏ address ပါဝင်သည်။
 
 > 💁 ယခင်က ဒီမော်ဒယ်ကို master/slave ဟုခေါ်ဆိုခဲ့ပြီး၊ သို့သော် slavery နှင့်ဆက်နွယ်မှုကြောင့် ယခုအခါမှာ terminology ကိုလွှဲပြောင်းနေပါသည်။ [Open Source Hardware Association သည် controller/peripheral ဟုသတ်မှတ်ထား](https://www.oshwa.org/a-resolution-to-redefine-spi-signal-names/) သော်လည်း၊ အဟောင်း terminology ကိုတွေ့နိုင်သေးသည်။

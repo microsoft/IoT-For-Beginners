@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "22a1d6e49f2a689fe5bfa7802a7241fc",
-  "translation_date": "2025-08-28T20:12:27+00:00",
-  "source_file": "5-retail/README.md",
-  "language_code": "lt"
-}
--->
 # Mažmeninė prekyba - IoT naudojimas atsargų lygiui valdyti
 
 Paskutinis etapas, kol maistas pasiekia vartotojus, yra mažmeninė prekyba – turgūs, daržovių parduotuvės, prekybos centrai ir parduotuvės, kurios parduoda produktus vartotojams. Šios parduotuvės siekia užtikrinti, kad lentynose būtų produktų, kuriuos vartotojai galėtų matyti ir pirkti.

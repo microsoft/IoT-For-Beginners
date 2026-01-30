@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "11f10c6760fb8202cf368422702fdf70",
-  "translation_date": "2025-08-28T17:29:48+00:00",
-  "source_file": "1-getting-started/lessons/3-sensors-and-actuators/virtual-device-sensor.md",
-  "language_code": "my"
-}
--->
 # ညအလင်းပွိုင့် - အိမ်စီး IoT ဟာ့ဒ်ဝဲ
 
 ဒီသင်ခန်းစာအပိုင်းမှာ သင့်ရဲ့ အိမ်စီး IoT စက်ပစ္စည်းမှာ အလင်းခံစနစ်တစ်ခု ထည့်သွင်းပါမည်။

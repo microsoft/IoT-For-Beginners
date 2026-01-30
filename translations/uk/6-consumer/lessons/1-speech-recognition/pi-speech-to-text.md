@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "af249a24d4fe4f4de4806adbc3bc9d86",
-  "translation_date": "2025-08-28T16:30:00+00:00",
-  "source_file": "6-consumer/lessons/1-speech-recognition/pi-speech-to-text.md",
-  "language_code": "uk"
-}
--->
 # Перетворення мови в текст - Raspberry Pi
 
 У цій частині уроку ви напишете код для перетворення мови із записаного аудіо в текст за допомогою мовного сервісу.

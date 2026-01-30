@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "9c4320311c0f2c1884a6a21265d98a51",
-  "translation_date": "2025-08-28T17:37:42+00:00",
-  "source_file": "5-retail/lessons/2-check-stock-device/single-board-computer-count-stock.md",
-  "language_code": "my"
-}
--->
 # IoT စက်ပစ္စည်းမှ စတော့ရှယ်ယာရေတွက်ခြင်း - အိမ်မက်ဆန်သော IoT Hardware နှင့် Raspberry Pi
 
 ပုံတစ်ပုံတွင် စတော့ရှယ်ယာကိုရေတွက်ရန် အကြံပြုချက်များနှင့် bounding boxes တွေကိုပေါင်းစပ်အသုံးပြုနိုင်သည်။

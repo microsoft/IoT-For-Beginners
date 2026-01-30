@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "93d352de36526b8990e41dd538100324",
-  "translation_date": "2025-08-28T19:26:17+00:00",
-  "source_file": "6-consumer/lessons/1-speech-recognition/wio-terminal-microphone.md",
-  "language_code": "lt"
-}
--->
 # Konfigūruokite savo mikrofoną ir garsiakalbius - Wio Terminal
 
 Šioje pamokos dalyje pridėsite garsiakalbius prie savo Wio Terminal. Wio Terminal jau turi įmontuotą mikrofoną, kuris gali būti naudojamas kalbai įrašyti.

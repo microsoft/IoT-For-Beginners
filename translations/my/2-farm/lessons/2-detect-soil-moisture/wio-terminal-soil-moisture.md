@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "0d55caa8c23d73635b7559102cd17b8a",
-  "translation_date": "2025-08-28T17:47:12+00:00",
-  "source_file": "2-farm/lessons/2-detect-soil-moisture/wio-terminal-soil-moisture.md",
-  "language_code": "my"
-}
--->
 # မြေစိုထိုင်းဆ - Wio Terminal
 
 ဒီသင်ခန်းစာအပိုင်းမှာ Wio Terminal ကို capacitive မြေစိုထိုင်းဆာန့်ဆာတစ်ခု ထည့်သွင်းပြီး၊ အဲဒီဆာန့်ဆာမှ တန်ဖိုးများကို ဖတ်ယူပါမည်။

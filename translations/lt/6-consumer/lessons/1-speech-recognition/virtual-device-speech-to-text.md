@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "c0550b254b9ba2539baf1e6bb5fc05f8",
-  "translation_date": "2025-08-28T19:25:44+00:00",
-  "source_file": "6-consumer/lessons/1-speech-recognition/virtual-device-speech-to-text.md",
-  "language_code": "lt"
-}
--->
 # Kalbos pavertimas tekstu - Virtualus IoT įrenginys
 
 Šioje pamokos dalyje rašysite kodą, kuris pavers mikrofono užfiksuotą kalbą į tekstą, naudodamiesi kalbos paslauga.

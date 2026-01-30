@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "3764e089adf2d5801272bc0895f8498b",
-  "translation_date": "2025-08-28T18:58:11+00:00",
-  "source_file": "4-manufacturing/README.md",
-  "language_code": "lt"
-}
--->
 # Gamyba ir perdirbimas - IoT naudojimas maisto perdirbimo gerinimui
 
 Kai maistas pasiekia centrinį centrą ar perdirbimo gamyklą, jis ne visada tiesiogiai išsiunčiamas į prekybos centrus. Dažnai maistas pereina kelis perdirbimo etapus, pavyzdžiui, rūšiavimą pagal kokybę. Tai buvo procesas, kuris anksčiau buvo atliekamas rankiniu būdu - jis prasidėdavo laukuose, kai rinkėjai rinkdavo tik prinokusius vaisius, o vėliau gamykloje vaisiai keliaudavo konvejerio juosta, o darbuotojai rankiniu būdu pašalindavo sužalotus ar supuvusius vaisius. Pats vasaros metu mokykloje dirbau braškių rinkimo ir rūšiavimo darbus, todėl galiu patvirtinti, kad tai nėra malonus darbas.

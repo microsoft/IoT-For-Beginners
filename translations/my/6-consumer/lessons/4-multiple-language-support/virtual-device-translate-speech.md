@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "d620a470d9dd8614d99824832978360a",
-  "translation_date": "2025-08-28T16:39:29+00:00",
-  "source_file": "6-consumer/lessons/4-multiple-language-support/virtual-device-translate-speech.md",
-  "language_code": "my"
-}
--->
 # စကားပြောဘာသာပြန်ခြင်း - အွန်လိုင်း IoT စက်ပစ္စည်း
 
 ဒီသင်ခန်းစာအပိုင်းမှာ သင် speech service ကို အသုံးပြုပြီး စကားပြောကို စာသားအဖြစ်ပြောင်းလဲပြီးနောက် ဘာသာပြန်ခြင်းလုပ်ဆောင်ရန် ကုဒ်ရေးသားပါမည်။ ထို့နောက် Translator service ကို အသုံးပြုပြီး စာသားကို ဘာသာပြန်ပြီး အသံဖြင့် ပြန်လည်ထုတ်ပေးပါမည်။

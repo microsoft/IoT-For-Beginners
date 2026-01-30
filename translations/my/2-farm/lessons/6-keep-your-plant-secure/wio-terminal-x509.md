@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "8a74f789f3c1bf41a13c007190360c19",
-  "translation_date": "2025-08-28T17:59:42+00:00",
-  "source_file": "2-farm/lessons/6-keep-your-plant-secure/wio-terminal-x509.md",
-  "language_code": "my"
-}
--->
 # သင့်စက်ပစ္စည်းကုဒ်တွင် X.509 လက်မှတ်ကို အသုံးပြုခြင်း - Wio Terminal
 
 ဒီစာရေးချိန်အချိန်မှာ Azure Arduino SDK က X.509 လက်မှတ်တွေကို မပံ့ပိုးသေးပါဘူး။ သို့သော် X.509 လက်မှတ်တွေနဲ့ စမ်းသပ်ချင်တယ်ဆိုရင် [Python SDK ကို အသုံးပြုပြီး Virtual IoT device လမ်းညွှန်ချက်များ](single-board-computer-x509.md) ကို ကိုးကားနိုင်ပါတယ်။

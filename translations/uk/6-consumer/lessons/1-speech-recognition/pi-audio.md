@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "0ac0afcfb40cb5970ef4cb74f01c32e9",
-  "translation_date": "2025-08-28T16:26:15+00:00",
-  "source_file": "6-consumer/lessons/1-speech-recognition/pi-audio.md",
-  "language_code": "uk"
-}
--->
 # Захоплення аудіо - Raspberry Pi
 
 У цій частині уроку ви напишете код для захоплення аудіо на вашому Raspberry Pi. Захоплення аудіо буде контролюватися кнопкою.

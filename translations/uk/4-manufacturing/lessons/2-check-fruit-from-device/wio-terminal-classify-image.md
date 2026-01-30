@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "32a1f23e7834fbe7715da8c4ebb450b9",
-  "translation_date": "2025-08-28T16:10:03+00:00",
-  "source_file": "4-manufacturing/lessons/2-check-fruit-from-device/wio-terminal-classify-image.md",
-  "language_code": "uk"
-}
--->
 # Класифікація зображення - Wio Terminal
 
 У цій частині уроку ви відправите зображення, захоплене камерою, до служби Custom Vision для його класифікації.

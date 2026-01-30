@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "9c640f93263fd9adbfda920739e09feb",
-  "translation_date": "2025-08-28T17:26:33+00:00",
-  "source_file": "1-getting-started/lessons/3-sensors-and-actuators/virtual-device-actuator.md",
-  "language_code": "uk"
-}
--->
 # Створення нічника - Віртуальне IoT обладнання
 
 У цій частині уроку ви додасте світлодіод (LED) до вашого віртуального IoT пристрою та використаєте його для створення нічника.

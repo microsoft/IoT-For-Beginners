@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "9aea84bcc7520222b0e1c50469d62d6a",
-  "translation_date": "2025-08-28T20:30:00+00:00",
-  "source_file": "2-farm/lessons/6-keep-your-plant-secure/single-board-computer-x509.md",
-  "language_code": "lt"
-}
--->
 # Naudokite X.509 sertifikatą savo įrenginio kode - Virtuali IoT įranga ir Raspberry Pi
 
 Šioje pamokos dalyje prijungsite savo virtualų IoT įrenginį arba Raspberry Pi prie IoT Hub naudodami X.509 sertifikatą.

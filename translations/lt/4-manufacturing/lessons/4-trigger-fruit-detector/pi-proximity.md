@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "6145a1d791731c8a9d0afd0a1bae5108",
-  "translation_date": "2025-08-28T19:02:40+00:00",
-  "source_file": "4-manufacturing/lessons/4-trigger-fruit-detector/pi-proximity.md",
-  "language_code": "lt"
-}
--->
 # Aptikite artumą - Raspberry Pi
 
 Šioje pamokos dalyje pridėsite artumo jutiklį prie savo Raspberry Pi ir skaitysite atstumą iš jo.

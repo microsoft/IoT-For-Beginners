@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "2f336726b9410e97c3aaed76cc89b0d8",
-  "translation_date": "2025-08-28T16:31:03+00:00",
-  "source_file": "6-consumer/lessons/1-speech-recognition/wio-terminal-audio.md",
-  "language_code": "uk"
-}
--->
 # Захоплення аудіо - Wio Terminal
 
 У цій частині уроку ви напишете код для захоплення аудіо на вашому Wio Terminal. Захоплення аудіо буде керуватися однією з кнопок на верхній частині Wio Terminal.

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "4bcc29fe2b65e56eada83d2476279227",
-  "translation_date": "2025-08-28T17:13:35+00:00",
-  "source_file": "1-getting-started/lessons/4-connect-internet/wio-terminal-telemetry.md",
-  "language_code": "my"
-}
--->
 # အင်တာနက်မှ သင့်ညဉ့်မီးကို ထိန်းချုပ်ပါ - Wio Terminal
 
 ဒီသင်ခန်းစာအပိုင်းမှာ သင့် Wio Terminal မှ အလင်းအဆင့်များနှင့် telemetry ကို MQTT broker သို့ ပို့မည်ဖြစ်သည်။

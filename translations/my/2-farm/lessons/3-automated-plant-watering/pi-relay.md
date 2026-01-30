@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "66b81165e60f8f169bd52a401b6a0f8b",
-  "translation_date": "2025-08-28T18:16:42+00:00",
-  "source_file": "2-farm/lessons/3-automated-plant-watering/pi-relay.md",
-  "language_code": "my"
-}
--->
 # Relay ကိုထိန်းချုပ်ခြင်း - Raspberry Pi
 
 ဒီသင်ခန်းစာအပိုင်းမှာ၊ သင်သည် Raspberry Pi တွင် မြေစိုထိုင်းဆန့်ကျင်ကိရိယာအပြင် relay တစ်ခုထပ်ထည့်ပြီး မြေစိုထိုင်းဆန့်ကျင်အဆင့်အပေါ်မူတည်၍ ထိန်းချုပ်ပါမည်။

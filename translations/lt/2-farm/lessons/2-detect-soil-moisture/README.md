@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "4fb20273d299dc8d07a8f06c9cd0cdd9",
-  "translation_date": "2025-08-28T20:21:28+00:00",
-  "source_file": "2-farm/lessons/2-detect-soil-moisture/README.md",
-  "language_code": "lt"
-}
--->
 C, tariamas *I-squared-C*, yra daugiavaldis, daugiaperiferinis protokolas, kuriame bet kuris prijungtas įrenginys gali veikti kaip valdiklis arba periferinis įrenginys, bendraujantis per I²C magistralę (taip vadinama duomenų perdavimo sistema). Duomenys siunčiami kaip adresuoti paketai, kuriuose kiekviename pakete yra prijungto įrenginio adresas, kuriam jie skirti.
 
 > 💁 Šis modelis anksčiau buvo vadinamas "master/slave", tačiau šios terminologijos atsisakoma dėl jos sąsajų su vergove. [Atvirojo kodo aparatūros asociacija priėmė terminus valdiklis/periferinis įrenginys](https://www.oshwa.org/a-resolution-to-redefine-spi-signal-names/), tačiau vis dar galite rasti nuorodų į senąją terminologiją.

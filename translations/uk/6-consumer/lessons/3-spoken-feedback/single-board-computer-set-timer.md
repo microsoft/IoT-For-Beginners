@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "64ad4ddb4de81a18b7252e968f10b404",
-  "translation_date": "2025-08-28T16:22:17+00:00",
-  "source_file": "6-consumer/lessons/3-spoken-feedback/single-board-computer-set-timer.md",
-  "language_code": "uk"
-}
--->
 # Встановлення таймера - Віртуальне IoT обладнання та Raspberry Pi
 
 У цій частині уроку ви викличете свій безсерверний код для розпізнавання мовлення та встановите таймер на вашому віртуальному IoT пристрої або Raspberry Pi на основі отриманих результатів.

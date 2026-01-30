@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "3b2448c7ab4e9673e77e35a50c5e350d",
-  "translation_date": "2025-08-28T16:45:45+00:00",
-  "source_file": "3-transport/lessons/1-location-tracking/pi-gps-sensor.md",
-  "language_code": "my"
-}
--->
 # Raspberry Pi မှ GPS ဒေတာဖတ်ရန်
 
 ဒီသင်ခန်းစာအပိုင်းမှာ၊ သင့်ရဲ့ Raspberry Pi မှာ GPS ဆင်ဆာတစ်ခုထည့်သွင်းပြီး၊ ဒေတာများကိုဖတ်ရှုမည်ဖြစ်သည်။

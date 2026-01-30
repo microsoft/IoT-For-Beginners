@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "2bf65f162bcebd35fbcba5fd245afac4",
-  "translation_date": "2025-08-28T17:45:19+00:00",
-  "source_file": "2-farm/lessons/2-detect-soil-moisture/virtual-device-soil-moisture.md",
-  "language_code": "uk"
-}
--->
 # Вимірювання вологості ґрунту - Віртуальне IoT обладнання
 
 У цій частині уроку ви додасте ємнісний датчик вологості ґрунту до вашого віртуального IoT-пристрою та зчитуватимете з нього дані.

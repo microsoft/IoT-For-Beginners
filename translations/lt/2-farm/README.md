@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "428bda82d9e6016ecea7c797564bf081",
-  "translation_date": "2025-08-28T20:18:26+00:00",
-  "source_file": "2-farm/README.md",
-  "language_code": "lt"
-}
--->
 # Ūkininkavimas su IoT
 
 Augant gyventojų skaičiui, didėja ir žemės ūkio poreikiai. Žemės plotas nesikeičia, tačiau klimatas - taip, o tai kelia dar daugiau iššūkių ūkininkams, ypač 2 milijardams [išgyvenimo ūkininkų](https://wikipedia.org/wiki/Subsistence_agriculture), kurie priklauso nuo to, ką užaugina, kad galėtų valgyti ir išmaitinti savo šeimas. IoT gali padėti ūkininkams priimti protingesnius sprendimus dėl to, ką auginti ir kada nuimti derlių, padidinti derlingumą, sumažinti rankų darbo kiekį bei aptikti ir kovoti su kenkėjais.

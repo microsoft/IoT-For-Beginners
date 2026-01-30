@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "9713e21a309662f6fcb271b573d47848",
-  "translation_date": "2026-01-06T21:46:21+00:00",
-  "source_file": "TROUBLESHOOTING.md",
-  "language_code": "lt"
-}
--->
 # Trikčių šalinimo vadovas
 
 Šis vadovas padės jums išspręsti dažniausias problemas dirbant su IoT for Beginners mokymosi medžiaga. Problemų kategorijos suskirstytos patogiam naršymui.

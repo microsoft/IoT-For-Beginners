@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "cbb8c285bc64c5192fae3368fb5077d2",
-  "translation_date": "2025-08-28T16:47:43+00:00",
-  "source_file": "3-transport/lessons/1-location-tracking/single-board-computer-gps-decode.md",
-  "language_code": "uk"
-}
--->
 # Розшифровка GPS-даних - Віртуальне IoT обладнання та Raspberry Pi
 
 У цій частині уроку ви розшифруєте повідомлення NMEA, отримані з GPS-сенсора за допомогою Raspberry Pi або Віртуального IoT-пристрою, і витягнете широту та довготу.

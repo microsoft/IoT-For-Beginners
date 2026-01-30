@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "d6faf0e8d3c2d6d20c0aef2a305dab18",
-  "translation_date": "2025-08-28T19:56:51+00:00",
-  "source_file": "1-getting-started/lessons/4-connect-internet/wio-terminal-mqtt.md",
-  "language_code": "lt"
-}
--->
 # Valdykite savo naktinę lemputę internetu - Wio Terminal
 
 IoT įrenginys turi būti užprogramuotas taip, kad naudotų MQTT protokolą ir bendrautų su *test.mosquitto.org*, siųsdamas telemetrijos duomenis su šviesos jutiklio rodmenimis bei priimdamas komandas LED valdymui.

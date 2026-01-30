@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "24dc783a600e20251211987b36370e93",
-  "translation_date": "2025-08-28T16:02:49+00:00",
-  "source_file": "4-manufacturing/lessons/3-run-fruit-detector-edge/vm-iotedge.md",
-  "language_code": "uk"
-}
--->
 # Створення віртуальної машини з IoT Edge
 
 В Azure ви можете створити віртуальну машину — комп'ютер у хмарі, який можна налаштувати будь-яким чином і запускати на ньому власне програмне забезпечення.

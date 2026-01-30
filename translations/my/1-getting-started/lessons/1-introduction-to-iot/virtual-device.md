@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "52b4de6144b2efdced7797a5339d6035",
-  "translation_date": "2025-08-28T17:18:12+00:00",
-  "source_file": "1-getting-started/lessons/1-introduction-to-iot/virtual-device.md",
-  "language_code": "my"
-}
--->
 # အတူတူတည်ဆောက်ထားသော single-board computer
 
 IoT စက်ပစ္စည်းများ၊ sensor များနှင့် actuator များကို ဝယ်ယူရန်မလိုအပ်ဘဲ၊ သင်၏ကွန်ပျူတာကို အသုံးပြု၍ IoT hardware ကို simulation လုပ်နိုင်ပါသည်။ [CounterFit project](https://github.com/CounterFit-IoT/CounterFit) သည် sensor များနှင့် actuator များကဲ့သို့သော IoT hardware ကို simulation လုပ်နိုင်သော app ကို locally အလုပ်လုပ်စေပြီး၊ sensor များနှင့် actuator များကို local Python code မှတဆင့် access လုပ်နိုင်စေသည်။ ဒီ code သည် physical hardware အသုံးပြုသော Raspberry Pi ပေါ်တွင်ရေးသားသည့် code ကဲ့သို့ပင်ဖြစ်သည်။

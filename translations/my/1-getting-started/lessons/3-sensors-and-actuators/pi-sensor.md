@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "ea733bd0cdf2479e082373f765a08678",
-  "translation_date": "2025-08-28T17:28:16+00:00",
-  "source_file": "1-getting-started/lessons/3-sensors-and-actuators/pi-sensor.md",
-  "language_code": "my"
-}
--->
 # Raspberry Pi - ညအလင်းပွိုင့်တည်ဆောက်ခြင်း
 
 ဒီသင်ခန်းစာအပိုင်းမှာ Raspberry Pi ကို အလင်းခံစားကိရိယာတစ်ခု ထည့်သွင်းမှာဖြစ်ပါတယ်။

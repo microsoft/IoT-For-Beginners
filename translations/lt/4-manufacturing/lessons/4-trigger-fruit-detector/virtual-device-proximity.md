@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "7e9f05bdc50a40fd924b1d66934471bf",
-  "translation_date": "2025-08-28T19:03:58+00:00",
-  "source_file": "4-manufacturing/lessons/4-trigger-fruit-detector/virtual-device-proximity.md",
-  "language_code": "lt"
-}
--->
 # Aptikti artumą - Virtuali IoT įranga
 
 Šioje pamokos dalyje pridėsite artumo jutiklį prie savo virtualaus IoT įrenginio ir nuskaitysite atstumą iš jo.

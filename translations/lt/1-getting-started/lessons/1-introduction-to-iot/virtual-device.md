@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "52b4de6144b2efdced7797a5339d6035",
-  "translation_date": "2025-08-28T20:01:43+00:00",
-  "source_file": "1-getting-started/lessons/1-introduction-to-iot/virtual-device.md",
-  "language_code": "lt"
-}
--->
 # Virtualus vieno plokštės kompiuteris
 
 Užuot pirkę IoT įrenginį kartu su jutikliais ir aktuatoriais, galite naudoti savo kompiuterį, kad simuliuotumėte IoT techninę įrangą. [CounterFit projektas](https://github.com/CounterFit-IoT/CounterFit) leidžia paleisti programą lokaliai, kuri simuliuoja IoT techninę įrangą, tokią kaip jutikliai ir aktuatoriai, ir pasiekti juos iš vietinio Python kodo, parašyto taip pat, kaip rašytumėte kodą Raspberry Pi naudojant fizinę techninę įrangą.

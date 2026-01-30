@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "7e9f05bdc50a40fd924b1d66934471bf",
-  "translation_date": "2025-08-28T15:56:59+00:00",
-  "source_file": "4-manufacturing/lessons/4-trigger-fruit-detector/virtual-device-proximity.md",
-  "language_code": "my"
-}
--->
 # အနီးကပ်မှုကို ရှာဖွေပါ - အတု IoT စက်ပစ္စည်း
 
 ဒီသင်ခန်းစာအပိုင်းမှာ သင်၏ အတု IoT စက်ပစ္စည်းတွင် အနီးကပ်မှုအာရုံခံကိရိယာတစ်ခု ထည့်သွင်းပြီး အကွာအဝေးကို ဖတ်ရှုမည်ဖြစ်သည်။

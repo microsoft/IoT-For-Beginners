@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "288aebb0c59f7be1d2719b8f9660a313",
-  "translation_date": "2025-08-28T15:55:53+00:00",
-  "source_file": "4-manufacturing/lessons/4-trigger-fruit-detector/wio-terminal-proximity.md",
-  "language_code": "my"
-}
--->
 # အနီးကပ်မှုကို သိရှိခြင်း - Wio Terminal
 
 ဒီသင်ခန်းစာအပိုင်းမှာ Wio Terminal ကို proximity sensor တစ်ခုထည့်သွင်းပြီး အကွာအဝေးကိုဖတ်ရှုမည်ဖြစ်သည်။

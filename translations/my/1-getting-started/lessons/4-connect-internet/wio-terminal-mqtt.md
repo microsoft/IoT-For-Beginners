@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "d6faf0e8d3c2d6d20c0aef2a305dab18",
-  "translation_date": "2025-08-28T17:11:46+00:00",
-  "source_file": "1-getting-started/lessons/4-connect-internet/wio-terminal-mqtt.md",
-  "language_code": "my"
-}
--->
 # အင်တာနက်မှ သင့်ညဉ့်မီးအိမ်ကို ထိန်းချုပ်ပါ - Wio Terminal
 
 IoT စက်ပစ္စည်းကို *test.mosquitto.org* နှင့် MQTT ကို အသုံးပြု၍ ဆက်သွယ်ရန် ကုဒ်ရေးရန် လိုအပ်ပါသည်။ မီးအိမ်အလင်းအာရုံခံကိရိယာမှ Telemetry တန်ဖိုးများ ပေးပို့ရန်နှင့် LED ကို ထိန်းချုပ်ရန် အမိန့်များ လက်ခံရန် လိုအပ်ပါသည်။

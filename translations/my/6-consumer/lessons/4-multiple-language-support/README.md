@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "c16de27b0074abe81d6a8bad5e5b1a6b",
-  "translation_date": "2025-08-28T16:36:26+00:00",
-  "source_file": "6-consumer/lessons/4-multiple-language-support/README.md",
-  "language_code": "my"
-}
--->
 # ဘာသာစကားများစွာကို ပံ့ပိုးခြင်း
 
 ![ဒီသင်ခန်းစာ၏ အကျဉ်းချုပ်ကို ဖော်ပြထားသော sketchnote](../../../../../translated_images/my/lesson-24.4246968ed058510ab275052e87ef9aa89c7b2f938915d103c605c04dc6cd5bb7.jpg)

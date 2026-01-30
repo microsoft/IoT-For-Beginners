@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "4bcc29fe2b65e56eada83d2476279227",
-  "translation_date": "2025-08-28T19:58:13+00:00",
-  "source_file": "1-getting-started/lessons/4-connect-internet/wio-terminal-telemetry.md",
-  "language_code": "lt"
-}
--->
 # Valdykite savo naktinę lemputę internetu - Wio Terminal
 
 Šioje pamokos dalyje siųsite telemetriją su šviesos lygiais iš savo Wio Terminal į MQTT brokerį.

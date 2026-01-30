@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "9c640f93263fd9adbfda920739e09feb",
-  "translation_date": "2025-08-28T17:26:53+00:00",
-  "source_file": "1-getting-started/lessons/3-sensors-and-actuators/virtual-device-actuator.md",
-  "language_code": "my"
-}
--->
 # ညအလင်းမီးတိုင် - အိမ်တွင်း IoT စက်ကိရိယာ
 
 ဒီသင်ခန်းစာအပိုင်းမှာ သင်၏ အိမ်တွင်း IoT စက်ကိရိယာတွင် LED တစ်ခုထည့်ပြီး ညအလင်းမီးတိုင်တစ်ခုဖန်တီးပါမည်။

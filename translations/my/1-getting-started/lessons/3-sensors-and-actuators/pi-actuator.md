@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "4db8a3879a53490513571df2f6cf7641",
-  "translation_date": "2025-08-28T17:27:34+00:00",
-  "source_file": "1-getting-started/lessons/3-sensors-and-actuators/pi-actuator.md",
-  "language_code": "my"
-}
--->
 # Raspberry Pi ဖြင့် ညဉ့်မီးတစ်ခု တည်ဆောက်ခြင်း
 
 ဒီသင်ခန်းစာအပိုင်းမှာ Raspberry Pi တွင် LED တစ်ခု ထည့်သွင်းပြီး ညဉ့်မီးတစ်ခု ဖန်တီးပါမည်။

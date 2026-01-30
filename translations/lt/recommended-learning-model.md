@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "012bbd19f13171be32ac9ba21d4186c2",
-  "translation_date": "2025-08-28T18:52:06+00:00",
-  "source_file": "recommended-learning-model.md",
-  "language_code": "lt"
-}
--->
 # Rekomenduojamas mokymosi modelis
 
 Norint pasiekti efektyviausių mokymosi rezultatų, **rekomenduojame „Apversto modelio“ metodą**, panašų į mokslines laboratorijas: studentai dirba su projektais pamokų metu, turėdami galimybę diskutuoti, užduoti klausimus ir gauti pagalbą, o paskaitų medžiagą skaito savarankiškai prieš pamokas.

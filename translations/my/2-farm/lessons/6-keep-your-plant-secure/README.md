@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "81c437c568eee1b0dda1f04e88150d37",
-  "translation_date": "2025-08-28T17:57:26+00:00",
-  "source_file": "2-farm/lessons/6-keep-your-plant-secure/README.md",
-  "language_code": "my"
-}
--->
 # သင့်အပင်ကို လုံခြုံစေပါ
 
 ![ဒီသင်ခန်းစာ၏ အကျဉ်းချုပ်ကို Sketchnote](../../../../../translated_images/my/lesson-10.829c86b80b9403bb770929ee553a1d293afe50dc23121aaf9be144673ae012cc.jpg)

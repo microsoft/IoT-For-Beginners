@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "e74eb2fc7cc3b81916b52e957802f182",
-  "translation_date": "2025-08-28T15:50:49+00:00",
-  "source_file": "4-manufacturing/lessons/1-train-fruit-detector/assignment.md",
-  "language_code": "uk"
-}
--->
 # Навчіть свій класифікатор для кількох фруктів і овочів
 
 ## Інструкції

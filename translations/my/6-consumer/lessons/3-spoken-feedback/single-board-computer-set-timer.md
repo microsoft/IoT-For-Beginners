@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "64ad4ddb4de81a18b7252e968f10b404",
-  "translation_date": "2025-08-28T16:22:35+00:00",
-  "source_file": "6-consumer/lessons/3-spoken-feedback/single-board-computer-set-timer.md",
-  "language_code": "my"
-}
--->
 # အချိန်တစ်ခုကို သတ်မှတ်ပါ - Virtual IoT Hardware နှင့် Raspberry Pi
 
 ဒီသင်ခန်းစာအပိုင်းမှာ သင်၏ serverless code ကိုခေါ်ပြီး စကားကိုနားလည်စေပြီး၊ ရလဒ်အပေါ်မူတည်၍ သင်၏ virtual IoT device သို့မဟုတ် Raspberry Pi တွင် အချိန်တစ်ခုကို သတ်မှတ်ပါမည်။

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "1226517aae5f5b6f904434670394c688",
-  "translation_date": "2025-08-28T17:12:31+00:00",
-  "source_file": "1-getting-started/lessons/4-connect-internet/single-board-computer-telemetry.md",
-  "language_code": "my"
-}
--->
 # အင်တာနက်မှတစ်ဆင့် သင့်ညဉ့်မီးကို ထိန်းချုပ်ပါ - အတု IoT ဟာ့ဒ်ဝဲနှင့် Raspberry Pi
 
 ဒီသင်ခန်းစာအပိုင်းမှာ သင့် Raspberry Pi သို့မဟုတ် အတု IoT စက်ကိရိယာမှ မီးအလင်းအဆင့်များကို MQTT broker သို့ ပို့ပေးမည့် telemetry ကို ပေးပို့ပါမည်။

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "8ff0d0a1d29832bb896b9c103b69a452",
-  "translation_date": "2025-08-28T20:03:01+00:00",
-  "source_file": "1-getting-started/lessons/1-introduction-to-iot/pi.md",
-  "language_code": "lt"
-}
--->
 # Raspberry Pi
 
 [Raspberry Pi](https://raspberrypi.org) yra vienos plokštės kompiuteris. Naudodami įvairius įrenginius ir ekosistemas galite pridėti jutiklius ir pavaras, o šiose pamokose naudosime aparatinės įrangos ekosistemą, vadinamą [Grove](https://www.seeedstudio.com/category/Grove-c-1003.html). Jūs programuosite savo Pi ir pasieksite Grove jutiklius naudodami Python.

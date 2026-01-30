@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "d620a470d9dd8614d99824832978360a",
-  "translation_date": "2025-08-28T19:33:37+00:00",
-  "source_file": "6-consumer/lessons/4-multiple-language-support/virtual-device-translate-speech.md",
-  "language_code": "lt"
-}
--->
 # Išversti kalbą – Virtualus IoT įrenginys
 
 Šioje pamokos dalyje rašysite kodą, kuris išvers kalbą konvertuojant ją į tekstą naudojant kalbos paslaugą, o tada išvers tekstą naudodami Translator paslaugą prieš sugeneruodami garsinį atsakymą.

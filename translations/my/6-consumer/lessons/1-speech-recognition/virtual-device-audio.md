@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "e4f2925acb211765889c3b51b9116ceb",
-  "translation_date": "2025-08-28T16:30:44+00:00",
-  "source_file": "6-consumer/lessons/1-speech-recognition/virtual-device-audio.md",
-  "language_code": "my"
-}
--->
 # အသံဖမ်းယူခြင်း - အတု IoT စက်ပစ္စည်း
 
 ဒီသင်ခန်းစာမှာ အသံကို စာသားအဖြစ် ပြောင်းလဲဖို့ အသုံးပြုမယ့် Python စာကြည့်တိုက်တွေမှာ Windows, macOS နဲ့ Linux ပေါ်မှာ အသံဖမ်းယူနိုင်တဲ့ လုပ်ဆောင်ချက်တွေ ပါဝင်ပြီးသားဖြစ်ပါတယ်။ ဒီနေရာမှာ သင့်အနေနဲ့ ဘာမှ လုပ်စရာမလိုပါဘူး။

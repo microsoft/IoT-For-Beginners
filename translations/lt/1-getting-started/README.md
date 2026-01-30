@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "e2b1b891b08ef7633d285547fbe73290",
-  "translation_date": "2025-08-28T19:49:49+00:00",
-  "source_file": "1-getting-started/README.md",
-  "language_code": "lt"
-}
--->
 # Pradžia su IoT
 
 Šioje mokymo programos dalyje būsite supažindinti su daiktų internetu (IoT) ir išmoksite pagrindines sąvokas, įskaitant savo pirmojo „Hello World“ IoT projekto kūrimą, jungiantis prie debesijos. Šis projektas yra naktinė lemputė, kuri įsijungia, kai jutiklis užfiksuoja mažėjantį šviesos lygį.

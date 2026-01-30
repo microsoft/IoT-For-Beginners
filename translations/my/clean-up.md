@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "5a94fbab1ba737e9bd6cc6c64f114fa0",
-  "translation_date": "2025-08-28T15:43:35+00:00",
-  "source_file": "clean-up.md",
-  "language_code": "my"
-}
--->
 # သင့်ပရောဂျက်ကို ရှင်းလင်းပါ
 
 ပရောဂျက်တစ်ခုစီကို ပြီးမြောက်ပြီးနောက်၊ cloud resources များကို ဖျက်ပစ်ခြင်းက အကောင်းဆုံးဖြစ်ပါသည်။
