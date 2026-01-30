@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "4efc74299e19f5d08f2f3f34451a11ba",
-  "translation_date": "2025-08-27T11:03:31+00:00",
-  "source_file": "2-farm/lessons/1-predict-plant-growth/single-board-computer-temp-publish.md",
-  "language_code": "ne"
-}
--->
 # तापक्रम प्रकाशित गर्नुहोस् - भर्चुअल IoT हार्डवेयर र रास्पबेरी पाई
 
 यस पाठको यस भागमा, तपाईंले रास्पबेरी पाई वा भर्चुअल IoT उपकरणले पत्ता लगाएको तापक्रम मानहरू MQTT मार्फत प्रकाशित गर्नुहुनेछ ताकि तिनीहरू पछि GDD गणना गर्न प्रयोग गर्न सकियोस्।

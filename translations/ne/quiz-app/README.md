@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "2a459ea9177fb0508ca96068ae1009d2",
-  "translation_date": "2025-08-27T15:06:51+00:00",
-  "source_file": "quiz-app/README.md",
-  "language_code": "ne"
-}
--->
 # क्विजहरू
 
 यी क्विजहरू IoT for Beginners पाठ्यक्रमको लागि प्रि- र पोस्ट-लेक्चर क्विजहरू हुन्। पाठ्यक्रमको लिंक: https://aka.ms/iot-beginners

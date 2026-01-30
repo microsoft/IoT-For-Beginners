@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "7a65ee743f916276a2848b8a9491feb7",
-  "translation_date": "2025-08-27T14:24:32+00:00",
-  "source_file": "6-consumer/lessons/1-speech-recognition/virtual-device-microphone.md",
-  "language_code": "mr"
-}
--->
 # आपला मायक्रोफोन आणि स्पीकर्स कॉन्फिगर करा - व्हर्च्युअल IoT हार्डवेअर
 
 व्हर्च्युअल IoT हार्डवेअर आपल्या संगणकाला जोडलेल्या मायक्रोफोन आणि स्पीकर्सचा वापर करेल.

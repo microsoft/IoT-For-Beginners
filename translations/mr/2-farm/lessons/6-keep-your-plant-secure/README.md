@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "81c437c568eee1b0dda1f04e88150d37",
-  "translation_date": "2025-08-27T12:08:37+00:00",
-  "source_file": "2-farm/lessons/6-keep-your-plant-secure/README.md",
-  "language_code": "mr"
-}
--->
 # तुमच्या वनस्पतींचे संरक्षण करा
 
 ![या धड्याचा स्केच नोटचा आढावा](../../../../../translated_images/mr/lesson-10.829c86b80b9403bb770929ee553a1d293afe50dc23121aaf9be144673ae012cc.jpg)

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "a202fa5889790a3777bfc33dd9f4b459",
-  "translation_date": "2025-08-27T13:54:33+00:00",
-  "source_file": "6-consumer/lessons/3-spoken-feedback/wio-terminal-text-to-speech.md",
-  "language_code": "bn"
-}
--->
 # টেক্সট থেকে স্পিচ - Wio Terminal
 
 এই পাঠের এই অংশে, আপনি টেক্সটকে স্পিচে রূপান্তর করবেন যাতে কথিত প্রতিক্রিয়া প্রদান করা যায়।

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "24dc783a600e20251211987b36370e93",
-  "translation_date": "2025-08-27T10:42:33+00:00",
-  "source_file": "4-manufacturing/lessons/3-run-fruit-detector-edge/vm-iotedge.md",
-  "language_code": "ne"
-}
--->
 # IoT Edge चलाउने भर्चुअल मेसिन बनाउनुहोस्
 
 Azure मा, तपाईं भर्चुअल मेसिन बनाउन सक्नुहुन्छ - क्लाउडमा रहेको कम्प्युटर जसलाई तपाईं आफ्नो इच्छाअनुसार कन्फिगर गर्न सक्नुहुन्छ र आफ्नो सफ्टवेयर चलाउन सक्नुहुन्छ।

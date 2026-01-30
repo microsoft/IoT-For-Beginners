@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "64ad4ddb4de81a18b7252e968f10b404",
-  "translation_date": "2025-08-27T13:45:27+00:00",
-  "source_file": "6-consumer/lessons/3-spoken-feedback/single-board-computer-set-timer.md",
-  "language_code": "bn"
-}
--->
 # টাইমার সেট করুন - ভার্চুয়াল IoT হার্ডওয়্যার এবং রাস্পবেরি পাই
 
 এই পাঠের এই অংশে, আপনি আপনার সার্ভারলেস কোড কল করবেন যাতে বক্তৃতা বোঝা যায় এবং ফলাফলের ভিত্তিতে আপনার ভার্চুয়াল IoT ডিভাইস বা রাস্পবেরি পাই-এ একটি টাইমার সেট করা যায়।

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "7966848a1f870e4c42edb4db67b13c57",
-  "translation_date": "2025-08-27T14:00:03+00:00",
-  "source_file": "6-consumer/lessons/3-spoken-feedback/virtual-device-text-to-speech.md",
-  "language_code": "ne"
-}
--->
 # पाठलाई आवाजमा रूपान्तरण - भर्चुअल IoT उपकरण
 
 यस पाठको यस भागमा, तपाईंले पाठलाई आवाजमा रूपान्तरण गर्नको लागि स्पीच सेवा प्रयोग गर्दै कोड लेख्नु हुनेछ।

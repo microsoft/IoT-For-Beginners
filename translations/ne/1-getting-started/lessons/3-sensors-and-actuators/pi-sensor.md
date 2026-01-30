@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "ea733bd0cdf2479e082373f765a08678",
-  "translation_date": "2025-08-27T12:36:33+00:00",
-  "source_file": "1-getting-started/lessons/3-sensors-and-actuators/pi-sensor.md",
-  "language_code": "ne"
-}
--->
 # रातको बत्ती बनाउनुहोस् - रास्पबेरी पाई
 
 यस पाठको यस भागमा, तपाईं आफ्नो रास्पबेरी पाईमा लाइट सेन्सर थप्नुहुनेछ।

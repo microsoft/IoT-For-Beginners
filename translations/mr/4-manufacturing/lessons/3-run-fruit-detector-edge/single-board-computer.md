@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "50151d9f9dce2801348a93880ef16d86",
-  "translation_date": "2025-08-27T10:44:21+00:00",
-  "source_file": "4-manufacturing/lessons/3-run-fruit-detector-edge/single-board-computer.md",
-  "language_code": "mr"
-}
--->
 # IoT Edge आधारित इमेज क्लासिफायर वापरून प्रतिमा वर्गीकृत करा - व्हर्च्युअल IoT हार्डवेअर आणि रास्पबेरी पाय
 
 या धड्याच्या भागामध्ये, तुम्ही IoT Edge डिव्हाइसवर चालणाऱ्या इमेज क्लासिफायरचा वापर कराल.

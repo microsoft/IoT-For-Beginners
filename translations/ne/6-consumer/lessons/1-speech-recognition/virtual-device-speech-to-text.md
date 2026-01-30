@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "c0550b254b9ba2539baf1e6bb5fc05f8",
-  "translation_date": "2025-08-27T14:10:39+00:00",
-  "source_file": "6-consumer/lessons/1-speech-recognition/virtual-device-speech-to-text.md",
-  "language_code": "ne"
-}
--->
 # भाषणलाई पाठमा रूपान्तरण गर्ने - भर्चुअल IoT उपकरण
 
 यस पाठको यस भागमा, तपाईंले आफ्नो माइक्रोफोनबाट क्याप्चर गरिएको भाषणलाई भाषण सेवाको प्रयोग गरेर पाठमा रूपान्तरण गर्न कोड लेख्नुहुनेछ।

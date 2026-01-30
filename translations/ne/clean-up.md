@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "5a94fbab1ba737e9bd6cc6c64f114fa0",
-  "translation_date": "2025-08-27T09:41:51+00:00",
-  "source_file": "clean-up.md",
-  "language_code": "ne"
-}
--->
 # आफ्नो प्रोजेक्ट सफा गर्नुहोस्
 
 प्रत्येक प्रोजेक्ट पूरा गरेपछि, तपाईंका क्लाउड स्रोतहरू मेटाउनु राम्रो हुन्छ।

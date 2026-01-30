@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "4bcc29fe2b65e56eada83d2476279227",
-  "translation_date": "2025-08-27T12:30:19+00:00",
-  "source_file": "1-getting-started/lessons/4-connect-internet/wio-terminal-telemetry.md",
-  "language_code": "mr"
-}
--->
 # इंटरनेटद्वारे तुमचा नाईटलाइट नियंत्रित करा - Wio Terminal
 
 या धड्याच्या या भागात, तुम्ही Wio Terminal वरून प्रकाश पातळीचे टेलीमेट्री MQTT ब्रोकर्सोबत पाठवाल.

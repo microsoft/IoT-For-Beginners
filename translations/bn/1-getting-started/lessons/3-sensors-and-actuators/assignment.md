@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "c5a568320b1159394108544807895337",
-  "translation_date": "2025-08-27T12:44:56+00:00",
-  "source_file": "1-getting-started/lessons/3-sensors-and-actuators/assignment.md",
-  "language_code": "bn"
-}
--->
 # গবেষণা সেন্সর এবং অ্যাকচুয়েটর
 
 ## নির্দেশনা

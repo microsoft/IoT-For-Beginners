@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "4efc74299e19f5d08f2f3f34451a11ba",
-  "translation_date": "2025-08-27T11:03:06+00:00",
-  "source_file": "2-farm/lessons/1-predict-plant-growth/single-board-computer-temp-publish.md",
-  "language_code": "bn"
-}
--->
 # তাপমাত্রা প্রকাশ করা - ভার্চুয়াল IoT হার্ডওয়্যার এবং রাস্পবেরি পাই
 
 এই পাঠের এই অংশে, আপনি রাস্পবেরি পাই বা ভার্চুয়াল IoT ডিভাইস দ্বারা সনাক্ত করা তাপমাত্রার মানগুলি MQTT এর মাধ্যমে প্রকাশ করবেন যাতে পরে GDD গণনার জন্য ব্যবহার করা যায়।

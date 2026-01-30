@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "7966848a1f870e4c42edb4db67b13c57",
-  "translation_date": "2025-08-27T13:59:47+00:00",
-  "source_file": "6-consumer/lessons/3-spoken-feedback/virtual-device-text-to-speech.md",
-  "language_code": "mr"
-}
--->
 # टेक्स्ट टू स्पीच - व्हर्च्युअल IoT डिव्हाइस
 
 या धड्याच्या या भागात, तुम्ही स्पीच सर्व्हिसचा वापर करून टेक्स्टला स्पीचमध्ये रूपांतरित करण्यासाठी कोड लिहाल.

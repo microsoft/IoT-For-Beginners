@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "a3fdfec1d1e2cb645ea11c2930b51299",
-  "translation_date": "2025-08-27T09:48:52+00:00",
-  "source_file": "5-retail/lessons/2-check-stock-device/single-board-computer-object-detector.md",
-  "language_code": "bn"
-}
--->
 # আপনার IoT ডিভাইস থেকে আপনার অবজেক্ট ডিটেক্টর কল করুন - ভার্চুয়াল IoT হার্ডওয়্যার এবং রাস্পবেরি পাই
 
 আপনার অবজেক্ট ডিটেক্টর প্রকাশিত হওয়ার পর, এটি আপনার IoT ডিভাইস থেকে ব্যবহার করা যেতে পারে।

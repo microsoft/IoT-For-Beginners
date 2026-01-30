@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "4efc74299e19f5d08f2f3f34451a11ba",
-  "translation_date": "2025-08-27T11:03:18+00:00",
-  "source_file": "2-farm/lessons/1-predict-plant-growth/single-board-computer-temp-publish.md",
-  "language_code": "mr"
-}
--->
 # तापमान प्रकाशित करा - व्हर्च्युअल IoT हार्डवेअर आणि रास्पबेरी पाय
 
 या धड्याच्या भागात, तुम्ही रास्पबेरी पाय किंवा व्हर्च्युअल IoT डिव्हाइसद्वारे शोधलेले तापमान MQTT वर प्रकाशित कराल जेणेकरून ते नंतर GDD गणनेसाठी वापरता येईल.

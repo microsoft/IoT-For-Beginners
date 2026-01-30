@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "0d55caa8c23d73635b7559102cd17b8a",
-  "translation_date": "2025-08-27T11:46:50+00:00",
-  "source_file": "2-farm/lessons/2-detect-soil-moisture/wio-terminal-soil-moisture.md",
-  "language_code": "mr"
-}
--->
 # मातीतील आर्द्रता मोजा - Wio Terminal
 
 या धड्याच्या भागात, तुम्ही Wio Terminal मध्ये एक capacitive मातीतील आर्द्रता सेन्सर जोडाल आणि त्यातून मूल्ये वाचाल.

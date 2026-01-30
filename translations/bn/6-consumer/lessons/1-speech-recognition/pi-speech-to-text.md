@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "af249a24d4fe4f4de4806adbc3bc9d86",
-  "translation_date": "2025-08-27T14:22:37+00:00",
-  "source_file": "6-consumer/lessons/1-speech-recognition/pi-speech-to-text.md",
-  "language_code": "bn"
-}
--->
 # স্পিচ টু টেক্সট - রাস্পবেরি পাই
 
 এই পাঠের এই অংশে, আপনি কোড লিখবেন যা ক্যাপচার করা অডিওর স্পিচকে টেক্সটে রূপান্তর করবে স্পিচ সার্ভিস ব্যবহার করে।

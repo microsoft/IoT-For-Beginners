@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "4cf1421420a6fab9ab4f2c391bd523b7",
-  "translation_date": "2025-08-27T09:59:22+00:00",
-  "source_file": "5-retail/lessons/2-check-stock-device/wio-terminal-object-detector.md",
-  "language_code": "ne"
-}
--->
 # आफ्नो वस्तु डिटेक्टरलाई आफ्नो IoT उपकरणबाट प्रयोग गर्नुहोस् - Wio Terminal
 
 एक पटक तपाईंको वस्तु डिटेक्टर प्रकाशित भएपछि, यसलाई तपाईंको IoT उपकरणबाट प्रयोग गर्न सकिन्छ।

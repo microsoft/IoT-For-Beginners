@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "7e9f05bdc50a40fd924b1d66934471bf",
-  "translation_date": "2025-08-27T10:54:30+00:00",
-  "source_file": "4-manufacturing/lessons/4-trigger-fruit-detector/virtual-device-proximity.md",
-  "language_code": "ne"
-}
--->
 # नजिकको पहिचान गर्नुहोस् - भर्चुअल IoT हार्डवेयर
 
 यस पाठको यस भागमा, तपाईं आफ्नो भर्चुअल IoT उपकरणमा एक नजिकको सेन्सर थप्नुहुनेछ, र यसबाट दूरी पढ्नुहुनेछ।

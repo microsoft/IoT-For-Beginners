@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "52b4de6144b2efdced7797a5339d6035",
-  "translation_date": "2025-08-27T13:01:19+00:00",
-  "source_file": "1-getting-started/lessons/1-introduction-to-iot/virtual-device.md",
-  "language_code": "mr"
-}
--->
 # व्हर्च्युअल सिंगल-बोर्ड संगणक
 
 IoT डिव्हाइस, सेन्सर्स आणि अ‍ॅक्ट्युएटर्स खरेदी करण्याऐवजी, तुम्ही तुमच्या संगणकाचा वापर IoT हार्डवेअरचे अनुकरण करण्यासाठी करू शकता. [CounterFit प्रकल्प](https://github.com/CounterFit-IoT/CounterFit) तुम्हाला स्थानिकपणे एक अ‍ॅप चालवण्याची परवानगी देतो, जे सेन्सर्स आणि अ‍ॅक्ट्युएटर्ससारख्या IoT हार्डवेअरचे अनुकरण करते आणि स्थानिक Python कोडमधून सेन्सर्स आणि अ‍ॅक्ट्युएटर्समध्ये प्रवेश करते, जसे तुम्ही भौतिक हार्डवेअर वापरून Raspberry Pi वर कोड लिहाल.

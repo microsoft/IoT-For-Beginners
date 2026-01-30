@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "c677667095f6133eee418c7e53615d05",
-  "translation_date": "2025-08-27T10:21:07+00:00",
-  "source_file": "4-manufacturing/lessons/2-check-fruit-from-device/pi-camera.md",
-  "language_code": "ne"
-}
--->
 # छवि कैप्चर गर्नुहोस् - रास्पबेरी पाई
 
 यस पाठको यस भागमा, तपाईं आफ्नो रास्पबेरी पाईमा क्यामेरा सेन्सर थप्नुहुनेछ र यसबाट छविहरू पढ्नुहुनेछ।

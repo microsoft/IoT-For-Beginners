@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "4db8a3879a53490513571df2f6cf7641",
-  "translation_date": "2025-08-27T12:46:24+00:00",
-  "source_file": "1-getting-started/lessons/3-sensors-and-actuators/pi-actuator.md",
-  "language_code": "ne"
-}
--->
 # रातको बत्ती बनाउनुहोस् - Raspberry Pi
 
 यस पाठको यस भागमा, तपाईं Raspberry Pi मा LED थप्नुहुनेछ र यसलाई रातको बत्ती बनाउन प्रयोग गर्नुहुनेछ।

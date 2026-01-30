@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "9713e21a309662f6fcb271b573d47848",
-  "translation_date": "2026-01-05T21:58:16+00:00",
-  "source_file": "TROUBLESHOOTING.md",
-  "language_code": "bn"
-}
--->
 # সমস্যা সমাধান গাইড
 
 এই গাইডটি আপনাকে IoT for Beginners কারিকুলামের সঙ্গে কাজ করার সময় সাধারণ সমস্যা সমাধানে সাহায্য করে। সমস্যা গুলো ক্যাটাগরি অনুযায়ী সাজানো হয়েছে সহজে নেভিগেশনের জন্য।

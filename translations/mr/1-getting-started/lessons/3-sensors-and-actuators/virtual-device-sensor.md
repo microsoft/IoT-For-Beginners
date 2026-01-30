@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "11f10c6760fb8202cf368422702fdf70",
-  "translation_date": "2025-08-27T12:50:21+00:00",
-  "source_file": "1-getting-started/lessons/3-sensors-and-actuators/virtual-device-sensor.md",
-  "language_code": "mr"
-}
--->
 # नाईटलाइट तयार करा - वर्च्युअल IoT हार्डवेअर
 
 या धड्याच्या या भागात, तुम्ही तुमच्या वर्च्युअल IoT डिव्हाइसला एक लाइट सेन्सर जोडाल.

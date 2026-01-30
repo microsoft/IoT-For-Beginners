@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "8ff0d0a1d29832bb896b9c103b69a452",
-  "translation_date": "2025-08-27T13:04:31+00:00",
-  "source_file": "1-getting-started/lessons/1-introduction-to-iot/pi.md",
-  "language_code": "bn"
-}
--->
 # রাস্পবেরি পাই
 
 [রাস্পবেরি পাই](https://raspberrypi.org) একটি সিঙ্গেল-বোর্ড কম্পিউটার। আপনি বিভিন্ন ডিভাইস এবং ইকোসিস্টেম ব্যবহার করে সেন্সর এবং অ্যাকচুয়েটর যোগ করতে পারেন, এবং এই পাঠগুলোর জন্য একটি হার্ডওয়্যার ইকোসিস্টেম [Grove](https://www.seeedstudio.com/category/Grove-c-1003.html) ব্যবহার করা হবে। আপনি Python ব্যবহার করে আপনার পাই কোড করবেন এবং Grove সেন্সরগুলোতে অ্যাক্সেস পাবেন।

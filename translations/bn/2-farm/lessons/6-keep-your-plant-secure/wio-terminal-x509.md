@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "8a74f789f3c1bf41a13c007190360c19",
-  "translation_date": "2025-08-27T12:16:17+00:00",
-  "source_file": "2-farm/lessons/6-keep-your-plant-secure/wio-terminal-x509.md",
-  "language_code": "bn"
-}
--->
 # আপনার ডিভাইস কোডে X.509 সার্টিফিকেট ব্যবহার করুন - Wio Terminal
 
 এই লেখার সময়, Azure Arduino SDK X.509 সার্টিফিকেট সমর্থন করে না। যদি আপনি X.509 সার্টিফিকেট নিয়ে পরীক্ষা করতে চান, তাহলে আপনি [Python SDK ব্যবহার করে ভার্চুয়াল IoT ডিভাইস নির্দেশনা](single-board-computer-x509.md)-এর দিকে রেফার করতে পারেন।

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "3ba7150ffc4a6999f6c3cfb4906ec7df",
-  "translation_date": "2025-08-27T10:26:07+00:00",
-  "source_file": "4-manufacturing/lessons/2-check-fruit-from-device/virtual-device-camera.md",
-  "language_code": "ne"
-}
--->
 # छवि कैप्चर गर्नुहोस् - भर्चुअल IoT हार्डवेयर
 
 यस पाठको यस भागमा, तपाईं आफ्नो भर्चुअल IoT उपकरणमा क्यामेरा सेन्सर थप्नुहुनेछ र यसबाट छविहरू पढ्नुहुनेछ।

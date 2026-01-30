@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "f8f541ee945545017a51aaf309aa37c3",
-  "translation_date": "2025-08-27T11:24:26+00:00",
-  "source_file": "2-farm/lessons/3-automated-plant-watering/virtual-device-relay.md",
-  "language_code": "mr"
-}
--->
 # रिले नियंत्रित करा - आभासी IoT हार्डवेअर
 
 या धड्याच्या भागात, तुम्ही मातीतील आर्द्रता सेन्सरशिवाय तुमच्या आभासी IoT डिव्हाइसवर एक रिले जोडाल आणि मातीतील आर्द्रता पातळीवर आधारित त्याचे नियंत्रण कराल.

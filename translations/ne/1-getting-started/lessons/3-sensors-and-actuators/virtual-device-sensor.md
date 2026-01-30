@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "11f10c6760fb8202cf368422702fdf70",
-  "translation_date": "2025-08-27T12:50:43+00:00",
-  "source_file": "1-getting-started/lessons/3-sensors-and-actuators/virtual-device-sensor.md",
-  "language_code": "ne"
-}
--->
 # रातको बत्ती बनाउनुहोस् - भर्चुअल IoT हार्डवेयर
 
 यस पाठको यस भागमा, तपाईं आफ्नो भर्चुअल IoT उपकरणमा एक लाइट सेन्सर थप्नुहुनेछ।

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "66b81165e60f8f169bd52a401b6a0f8b",
-  "translation_date": "2025-08-27T11:23:27+00:00",
-  "source_file": "2-farm/lessons/3-automated-plant-watering/pi-relay.md",
-  "language_code": "ne"
-}
--->
 # रिले नियन्त्रण गर्नुहोस् - रास्पबेरी पाई
 
 यस पाठको यस भागमा, तपाईंले माटोको चिस्यान सेन्सरको अतिरिक्त रास्पबेरी पाईमा रिले थप्नेछ र माटोको चिस्यान स्तरको आधारमा यसलाई नियन्त्रण गर्नेछ।

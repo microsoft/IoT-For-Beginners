@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "1226517aae5f5b6f904434670394c688",
-  "translation_date": "2025-08-27T12:19:49+00:00",
-  "source_file": "1-getting-started/lessons/4-connect-internet/single-board-computer-telemetry.md",
-  "language_code": "mr"
-}
--->
 # इंटरनेटद्वारे तुमचा नाईटलाइट नियंत्रित करा - व्हर्च्युअल IoT हार्डवेअर आणि रास्पबेरी पाय
 
 या धड्याच्या या भागात, तुम्ही तुमच्या रास्पबेरी पाय किंवा व्हर्च्युअल IoT डिव्हाइसवरून प्रकाश पातळीसह टेलीमेट्री MQTT ब्रोकरकडे पाठवाल.

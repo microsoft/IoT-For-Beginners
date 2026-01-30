@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "7e45d884493c5222348b43fbc4481b6a",
-  "translation_date": "2025-08-27T14:20:05+00:00",
-  "source_file": "6-consumer/lessons/1-speech-recognition/pi-microphone.md",
-  "language_code": "ne"
-}
--->
 # आफ्नो माइक्रोफोन र स्पिकरहरू कन्फिगर गर्नुहोस् - रास्पबेरी पाई
 
 यस पाठको यस भागमा, तपाईं आफ्नो रास्पबेरी पाईमा माइक्रोफोन र स्पिकरहरू थप्नुहुनेछ।

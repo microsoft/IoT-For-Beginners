@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "e9ee00eb5fc55922a73762acc542166b",
-  "translation_date": "2025-08-27T12:39:22+00:00",
-  "source_file": "1-getting-started/lessons/3-sensors-and-actuators/README.md",
-  "language_code": "mr"
-}
--->
 # सेन्सर्स आणि अ‍ॅक्ट्युएटर्ससह भौतिक जगाशी संवाद साधा
 
 ![या धड्याचा स्केच नोट आढावा](../../../../../translated_images/mr/lesson-3.cc3b7b4cd646de598698cce043c0393fd62ef42bac2eaf60e61272cd844250f4.jpg)

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "7a65ee743f916276a2848b8a9491feb7",
-  "translation_date": "2025-08-27T14:24:38+00:00",
-  "source_file": "6-consumer/lessons/1-speech-recognition/virtual-device-microphone.md",
-  "language_code": "ne"
-}
--->
 # आफ्नो माइक्रोफोन र स्पिकरहरू कन्फिगर गर्नुहोस् - भर्चुअल IoT हार्डवेयर
 
 भर्चुअल IoT हार्डवेयरले तपाईंको कम्प्युटरमा जडान गरिएको माइक्रोफोन र स्पिकरहरू प्रयोग गर्नेछ।

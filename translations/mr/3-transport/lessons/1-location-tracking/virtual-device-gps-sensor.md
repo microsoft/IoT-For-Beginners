@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "64f18a8f8aaa1fef5e7320e0992d8b3a",
-  "translation_date": "2025-08-27T14:38:36+00:00",
-  "source_file": "3-transport/lessons/1-location-tracking/virtual-device-gps-sensor.md",
-  "language_code": "mr"
-}
--->
 # GPS डेटा वाचा - व्हर्च्युअल IoT हार्डवेअर
 
 या धड्याच्या भागात, तुम्ही तुमच्या व्हर्च्युअल IoT डिव्हाइसवर GPS सेन्सर जोडाल आणि त्यातून मूल्ये वाचाल.

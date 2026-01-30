@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "9c640f93263fd9adbfda920739e09feb",
-  "translation_date": "2025-08-27T12:48:58+00:00",
-  "source_file": "1-getting-started/lessons/3-sensors-and-actuators/virtual-device-actuator.md",
-  "language_code": "mr"
-}
--->
 # नाईटलाइट तयार करा - व्हर्च्युअल IoT हार्डवेअर
 
 या धड्याच्या या भागात, तुम्ही तुमच्या व्हर्च्युअल IoT डिव्हाइसला एक LED जोडाल आणि त्याचा वापर करून नाईटलाइट तयार कराल.

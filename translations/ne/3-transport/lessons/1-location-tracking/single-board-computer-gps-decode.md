@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "cbb8c285bc64c5192fae3368fb5077d2",
-  "translation_date": "2025-08-27T14:47:24+00:00",
-  "source_file": "3-transport/lessons/1-location-tracking/single-board-computer-gps-decode.md",
-  "language_code": "ne"
-}
--->
 # जीपीएस डाटा डिकोड गर्नुहोस् - भर्चुअल IoT हार्डवेयर र रास्पबेरी पाई
 
 यस पाठको यस भागमा, तपाईंले रास्पबेरी पाई वा भर्चुअल IoT उपकरणद्वारा जीपीएस सेन्सरबाट पढिएको NMEA सन्देशहरू डिकोड गर्नुहुनेछ, र अक्षांश र देशान्तर निकाल्नुहुनेछ।

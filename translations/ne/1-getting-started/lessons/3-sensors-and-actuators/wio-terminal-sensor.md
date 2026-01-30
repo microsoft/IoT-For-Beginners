@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "7f4ad0ef54f248b85b92187c94cf9dcb",
-  "translation_date": "2025-08-27T12:51:53+00:00",
-  "source_file": "1-getting-started/lessons/3-sensors-and-actuators/wio-terminal-sensor.md",
-  "language_code": "ne"
-}
--->
 # Wio टर्मिनलमा सेन्सर थप्नुहोस्
 
 यस पाठको यस भागमा, तपाईं आफ्नो Wio टर्मिनलमा रहेको लाइट सेन्सर प्रयोग गर्नुहुनेछ।

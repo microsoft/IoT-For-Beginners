@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "d6faf0e8d3c2d6d20c0aef2a305dab18",
-  "translation_date": "2025-08-27T12:32:37+00:00",
-  "source_file": "1-getting-started/lessons/4-connect-internet/wio-terminal-mqtt.md",
-  "language_code": "bn"
-}
--->
 # ইন্টারনেটের মাধ্যমে আপনার নাইটলাইট নিয়ন্ত্রণ করুন - Wio Terminal
 
 IoT ডিভাইসটি *test.mosquitto.org* এর সাথে MQTT ব্যবহার করে যোগাযোগ করার জন্য কোড করা প্রয়োজন, যাতে এটি লাইট সেন্সরের রিডিং সহ টেলিমেট্রি মান পাঠাতে পারে এবং LED নিয়ন্ত্রণের জন্য কমান্ড গ্রহণ করতে পারে।

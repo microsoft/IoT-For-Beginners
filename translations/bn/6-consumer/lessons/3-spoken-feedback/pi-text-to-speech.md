@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "606f3af1c78e3741e48ce77c31cea626",
-  "translation_date": "2025-08-27T13:53:01+00:00",
-  "source_file": "6-consumer/lessons/3-spoken-feedback/pi-text-to-speech.md",
-  "language_code": "bn"
-}
--->
 # টেক্সট থেকে স্পিচ - র‌্যাস্পবেরি পাই
 
 এই পাঠের এই অংশে, আপনি স্পিচ সার্ভিস ব্যবহার করে টেক্সটকে স্পিচে রূপান্তর করার কোড লিখবেন।

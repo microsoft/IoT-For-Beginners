@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "750bd75866471141f857240219084767",
-  "translation_date": "2025-08-27T13:22:35+00:00",
-  "source_file": "1-getting-started/lessons/2-deeper-dive/assignment.md",
-  "language_code": "bn"
-}
--->
 # মাইক্রোকন্ট্রোলার এবং সিঙ্গল-বোর্ড কম্পিউটারের তুলনা এবং পার্থক্য
 
 ## নির্দেশনা

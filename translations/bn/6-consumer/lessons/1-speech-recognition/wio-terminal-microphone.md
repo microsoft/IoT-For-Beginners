@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "93d352de36526b8990e41dd538100324",
-  "translation_date": "2025-08-27T14:21:17+00:00",
-  "source_file": "6-consumer/lessons/1-speech-recognition/wio-terminal-microphone.md",
-  "language_code": "bn"
-}
--->
 # আপনার মাইক্রোফোন এবং স্পিকার কনফিগার করুন - Wio Terminal
 
 এই পাঠের এই অংশে, আপনি আপনার Wio Terminal-এ স্পিকার যোগ করবেন। Wio Terminal-এ ইতিমধ্যেই একটি বিল্ট-ইন মাইক্রোফোন রয়েছে, যা কথোপকথন রেকর্ড করার জন্য ব্যবহার করা যেতে পারে।

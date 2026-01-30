@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "2a459ea9177fb0508ca96068ae1009d2",
-  "translation_date": "2025-08-27T15:06:35+00:00",
-  "source_file": "quiz-app/README.md",
-  "language_code": "mr"
-}
--->
 # क्विझेस
 
 या क्विझेस IoT for Beginners अभ्यासक्रमासाठीच्या व्याख्यानांपूर्वी आणि नंतरच्या क्विझेस आहेत. अभ्यासक्रम येथे उपलब्ध आहे: https://aka.ms/iot-beginners

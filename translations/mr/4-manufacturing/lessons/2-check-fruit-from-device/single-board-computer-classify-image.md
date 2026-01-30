@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "e5896207b304ce1abaf065b8acc0cc79",
-  "translation_date": "2025-08-27T10:22:35+00:00",
-  "source_file": "4-manufacturing/lessons/2-check-fruit-from-device/single-board-computer-classify-image.md",
-  "language_code": "mr"
-}
--->
 # प्रतिमा वर्गीकृत करा - व्हर्च्युअल IoT हार्डवेअर आणि रास्पबेरी पाय
 
 या धड्याच्या या भागात, तुम्ही कॅमेऱ्याने कॅप्चर केलेली प्रतिमा वर्गीकृत करण्यासाठी Custom Vision सेवेकडे पाठवाल.

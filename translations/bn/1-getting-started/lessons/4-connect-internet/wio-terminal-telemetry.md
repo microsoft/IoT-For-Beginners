@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "4bcc29fe2b65e56eada83d2476279227",
-  "translation_date": "2025-08-27T12:30:09+00:00",
-  "source_file": "1-getting-started/lessons/4-connect-internet/wio-terminal-telemetry.md",
-  "language_code": "bn"
-}
--->
 # ইন্টারনেটের মাধ্যমে আপনার নাইটলাইট নিয়ন্ত্রণ করুন - Wio Terminal
 
 এই পাঠের এই অংশে, আপনি আপনার Wio Terminal থেকে MQTT ব্রোকারে লাইট লেভেলের টেলিমেট্রি পাঠাবেন।

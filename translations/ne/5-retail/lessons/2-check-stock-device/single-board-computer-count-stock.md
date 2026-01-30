@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "9c4320311c0f2c1884a6a21265d98a51",
-  "translation_date": "2025-08-27T09:57:44+00:00",
-  "source_file": "5-retail/lessons/2-check-stock-device/single-board-computer-count-stock.md",
-  "language_code": "ne"
-}
--->
 # तपाईंको IoT उपकरणबाट स्टक गन्नुहोस् - भर्चुअल IoT हार्डवेयर र रास्पबेरी पाई
 
 पूर्वानुमानहरू र तिनका बाउन्डिङ बक्सहरूको संयोजन प्रयोग गरेर छविमा स्टक गन्न सकिन्छ।

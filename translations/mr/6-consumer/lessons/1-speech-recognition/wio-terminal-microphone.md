@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "93d352de36526b8990e41dd538100324",
-  "translation_date": "2025-08-27T14:21:34+00:00",
-  "source_file": "6-consumer/lessons/1-speech-recognition/wio-terminal-microphone.md",
-  "language_code": "mr"
-}
--->
 # तुमचा मायक्रोफोन आणि स्पीकर्स कॉन्फिगर करा - Wio Terminal
 
 या धड्याच्या भागात, तुम्ही तुमच्या Wio Terminal मध्ये स्पीकर्स जोडाल. Wio Terminal मध्ये आधीच एक मायक्रोफोन अंतर्भूत आहे, जो भाषण रेकॉर्ड करण्यासाठी वापरता येतो.

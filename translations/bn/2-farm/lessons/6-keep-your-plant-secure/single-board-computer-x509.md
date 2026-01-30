@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "9aea84bcc7520222b0e1c50469d62d6a",
-  "translation_date": "2025-08-27T12:15:18+00:00",
-  "source_file": "2-farm/lessons/6-keep-your-plant-secure/single-board-computer-x509.md",
-  "language_code": "bn"
-}
--->
 # আপনার ডিভাইস কোডে X.509 সার্টিফিকেট ব্যবহার করুন - ভার্চুয়াল IoT হার্ডওয়্যার এবং রাস্পবেরি পাই
 
 এই পাঠের এই অংশে, আপনি আপনার ভার্চুয়াল IoT ডিভাইস বা রাস্পবেরি পাই-কে X.509 সার্টিফিকেট ব্যবহার করে IoT হাবে সংযুক্ত করবেন।

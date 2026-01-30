@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "7678f7c67b97ee52d5727496dcd7d346",
-  "translation_date": "2025-08-27T11:10:08+00:00",
-  "source_file": "2-farm/lessons/1-predict-plant-growth/pi-temp.md",
-  "language_code": "bn"
-}
--->
 # তাপমাত্রা পরিমাপ - রাস্পবেরি পাই
 
 এই পাঠের এই অংশে, আপনি আপনার রাস্পবেরি পাই-তে একটি তাপমাত্রা সেন্সর যোগ করবেন।

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "66b81165e60f8f169bd52a401b6a0f8b",
-  "translation_date": "2025-08-27T11:22:51+00:00",
-  "source_file": "2-farm/lessons/3-automated-plant-watering/pi-relay.md",
-  "language_code": "bn"
-}
--->
 # রিলে নিয়ন্ত্রণ করুন - রাস্পবেরি পাই
 
 এই পাঠের এই অংশে, আপনি মাটির আর্দ্রতা সেন্সরের পাশাপাশি আপনার রাস্পবেরি পাই-তে একটি রিলে যোগ করবেন এবং মাটির আর্দ্রতার স্তরের উপর ভিত্তি করে এটি নিয়ন্ত্রণ করবেন।

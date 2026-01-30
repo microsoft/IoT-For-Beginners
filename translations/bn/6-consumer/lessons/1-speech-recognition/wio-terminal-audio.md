@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "2f336726b9410e97c3aaed76cc89b0d8",
-  "translation_date": "2025-08-27T14:11:20+00:00",
-  "source_file": "6-consumer/lessons/1-speech-recognition/wio-terminal-audio.md",
-  "language_code": "bn"
-}
--->
 # অডিও ধারণ - Wio Terminal
 
 এই পাঠের এই অংশে, আপনি Wio Terminal-এ অডিও ধারণ করার জন্য কোড লিখবেন। অডিও ধারণ Wio Terminal-এর উপরের একটি বোতামের মাধ্যমে নিয়ন্ত্রিত হবে।

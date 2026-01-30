@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "b2e0a965723082b068f735aec0faf3f6",
-  "translation_date": "2025-08-27T15:05:03+00:00",
-  "source_file": "3-transport/lessons/2-store-location-data/assignment.md",
-  "language_code": "ne"
-}
--->
 # फङ्क्सन बाइन्डिङहरू अनुसन्धान गर्नुहोस्
 
 ## निर्देशनहरू

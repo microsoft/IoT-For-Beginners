@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "012b69d57d898d670adf61304f42a137",
-  "translation_date": "2025-08-27T13:51:43+00:00",
-  "source_file": "6-consumer/lessons/3-spoken-feedback/wio-terminal-set-timer.md",
-  "language_code": "ne"
-}
--->
 # टाइमर सेट गर्नुहोस् - Wio Terminal
 
 यस पाठको यस भागमा, तपाईंले आफ्नो serverless कोडलाई बोलि बुझ्न कल गर्नुहुनेछ, र परिणामको आधारमा Wio Terminal मा टाइमर सेट गर्नुहुनेछ।

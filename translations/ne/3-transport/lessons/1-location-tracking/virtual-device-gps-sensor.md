@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "64f18a8f8aaa1fef5e7320e0992d8b3a",
-  "translation_date": "2025-08-27T14:38:58+00:00",
-  "source_file": "3-transport/lessons/1-location-tracking/virtual-device-gps-sensor.md",
-  "language_code": "ne"
-}
--->
 # GPS डेटा पढ्नुहोस् - भर्चुअल IoT हार्डवेयर
 
 यस पाठको यस भागमा, तपाईं आफ्नो भर्चुअल IoT उपकरणमा GPS सेन्सर थप्नुहुनेछ र यसबाट मानहरू पढ्नुहुनेछ।

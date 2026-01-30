@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "288aebb0c59f7be1d2719b8f9660a313",
-  "translation_date": "2025-08-27T10:52:54+00:00",
-  "source_file": "4-manufacturing/lessons/4-trigger-fruit-detector/wio-terminal-proximity.md",
-  "language_code": "bn"
-}
--->
 # কাছাকাছি সনাক্ত করুন - Wio Terminal
 
 এই পাঠের এই অংশে, আপনি আপনার Wio Terminal-এ একটি প্রক্সিমিটি সেন্সর যোগ করবেন এবং এর থেকে দূরত্ব পড়বেন।

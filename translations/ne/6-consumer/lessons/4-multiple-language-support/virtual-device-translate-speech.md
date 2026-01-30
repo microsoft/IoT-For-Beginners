@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "d620a470d9dd8614d99824832978360a",
-  "translation_date": "2025-08-27T13:33:57+00:00",
-  "source_file": "6-consumer/lessons/4-multiple-language-support/virtual-device-translate-speech.md",
-  "language_code": "ne"
-}
--->
 # भाषण अनुवाद गर्नुहोस् - भर्चुअल IoT उपकरण
 
 यस पाठको यस भागमा, तपाईंले भाषण सेवाको प्रयोग गरेर भाषणलाई पाठमा रूपान्तरण गर्दा अनुवाद गर्ने कोड लेख्नुहुनेछ, त्यसपछि अनुवादक सेवाको प्रयोग गरेर पाठ अनुवाद गर्नुहोस् र अन्ततः बोलेको प्रतिक्रिया उत्पन्न गर्नुहोस्।

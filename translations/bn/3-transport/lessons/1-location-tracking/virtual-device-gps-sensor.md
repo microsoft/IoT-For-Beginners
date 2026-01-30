@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "64f18a8f8aaa1fef5e7320e0992d8b3a",
-  "translation_date": "2025-08-27T14:38:07+00:00",
-  "source_file": "3-transport/lessons/1-location-tracking/virtual-device-gps-sensor.md",
-  "language_code": "bn"
-}
--->
 # জিপিএস ডেটা পড়ুন - ভার্চুয়াল IoT হার্ডওয়্যার
 
 এই পাঠের এই অংশে, আপনি আপনার ভার্চুয়াল IoT ডিভাইসে একটি জিপিএস সেন্সর যোগ করবেন এবং এর থেকে ডেটা পড়বেন।

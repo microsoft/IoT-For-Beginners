@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "db44083b4dc6fb06eac83c4f16448940",
-  "translation_date": "2025-08-27T12:47:59+00:00",
-  "source_file": "1-getting-started/lessons/3-sensors-and-actuators/wio-terminal-actuator.md",
-  "language_code": "ne"
-}
--->
 # रातको बत्ती बनाउनुहोस् - Wio Terminal
 
 यस पाठको यस भागमा, तपाईं आफ्नो Wio Terminal मा LED थप्नुहुनेछ र यसलाई रातको बत्ती बनाउन प्रयोग गर्नुहुनेछ।

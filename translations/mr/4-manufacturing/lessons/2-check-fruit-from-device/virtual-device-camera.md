@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "3ba7150ffc4a6999f6c3cfb4906ec7df",
-  "translation_date": "2025-08-27T10:25:42+00:00",
-  "source_file": "4-manufacturing/lessons/2-check-fruit-from-device/virtual-device-camera.md",
-  "language_code": "mr"
-}
--->
 # प्रतिमा कॅप्चर करा - व्हर्च्युअल IoT हार्डवेअर
 
 या धड्याच्या भागात, तुम्ही तुमच्या व्हर्च्युअल IoT डिव्हाइसला कॅमेरा सेन्सर जोडाल आणि त्यातून प्रतिमा वाचाल.

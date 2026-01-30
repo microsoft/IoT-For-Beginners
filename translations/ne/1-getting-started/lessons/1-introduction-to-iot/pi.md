@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "8ff0d0a1d29832bb896b9c103b69a452",
-  "translation_date": "2025-08-27T13:06:36+00:00",
-  "source_file": "1-getting-started/lessons/1-introduction-to-iot/pi.md",
-  "language_code": "ne"
-}
--->
 # रास्पबेरी पाई
 
 [रास्पबेरी पाई](https://raspberrypi.org) एक सिंगल-बोर्ड कम्प्युटर हो। तपाईं विभिन्न उपकरण र इकोसिस्टम प्रयोग गरेर सेन्सर र एक्ट्युएटरहरू थप्न सक्नुहुन्छ, र यी पाठहरूको लागि [Grove](https://www.seeedstudio.com/category/Grove-c-1003.html) नामक हार्डवेयर इकोसिस्टम प्रयोग गरिनेछ। तपाईं आफ्नो पाईलाई कोड गर्नुहुनेछ र Grove सेन्सरहरूलाई Python प्रयोग गरेर पहुँच गर्नुहुनेछ।

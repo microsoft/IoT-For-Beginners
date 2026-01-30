@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "c527ce85d69b1a3875366ec61cbed8aa",
-  "translation_date": "2025-08-27T12:17:59+00:00",
-  "source_file": "1-getting-started/lessons/4-connect-internet/single-board-computer-commands.md",
-  "language_code": "bn"
-}
--->
 # ইন্টারনেটের মাধ্যমে আপনার নাইটলাইট নিয়ন্ত্রণ করুন - ভার্চুয়াল IoT হার্ডওয়্যার এবং রাস্পবেরি পাই
 
 এই পাঠের এই অংশে, আপনি MQTT ব্রোকার থেকে আপনার রাস্পবেরি পাই বা ভার্চুয়াল IoT ডিভাইসে পাঠানো কমান্ডগুলোর সাবস্ক্রিপশন করবেন।

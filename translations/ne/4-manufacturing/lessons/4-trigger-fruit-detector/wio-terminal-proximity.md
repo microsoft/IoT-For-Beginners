@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "288aebb0c59f7be1d2719b8f9660a313",
-  "translation_date": "2025-08-27T10:53:28+00:00",
-  "source_file": "4-manufacturing/lessons/4-trigger-fruit-detector/wio-terminal-proximity.md",
-  "language_code": "ne"
-}
--->
 # नजिकको दूरी पत्ता लगाउनुहोस् - Wio Terminal
 
 यस पाठको यस भागमा, तपाईं आफ्नो Wio Terminal मा एक proximity sensor थप्नुहुनेछ र यसबाट दूरी पढ्नुहुनेछ।

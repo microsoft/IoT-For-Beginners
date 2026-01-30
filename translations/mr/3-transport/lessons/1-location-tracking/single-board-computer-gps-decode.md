@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "cbb8c285bc64c5192fae3368fb5077d2",
-  "translation_date": "2025-08-27T14:47:11+00:00",
-  "source_file": "3-transport/lessons/1-location-tracking/single-board-computer-gps-decode.md",
-  "language_code": "mr"
-}
--->
 # GPS डेटा डिकोड करा - व्हर्च्युअल IoT हार्डवेअर आणि रास्पबेरी पाय
 
 या धड्याच्या भागात, तुम्ही रास्पबेरी पाय किंवा व्हर्च्युअल IoT डिव्हाइसद्वारे GPS सेन्सरमधून वाचलेल्या NMEA संदेशांचे डिकोडिंग कराल आणि अक्षांश व रेखांश काढून घेणार.

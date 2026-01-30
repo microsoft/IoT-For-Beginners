@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "1226517aae5f5b6f904434670394c688",
-  "translation_date": "2025-08-27T12:18:53+00:00",
-  "source_file": "1-getting-started/lessons/4-connect-internet/single-board-computer-telemetry.md",
-  "language_code": "bn"
-}
--->
 # ইন্টারনেটের মাধ্যমে আপনার নাইটলাইট নিয়ন্ত্রণ করুন - ভার্চুয়াল IoT হার্ডওয়্যার এবং রাস্পবেরি পাই
 
 এই পাঠের এই অংশে, আপনি আপনার রাস্পবেরি পাই বা ভার্চুয়াল IoT ডিভাইস থেকে আলো স্তরের টেলিমেট্রি একটি MQTT ব্রোকারে পাঠাবেন।

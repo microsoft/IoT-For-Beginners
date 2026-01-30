@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "28320305a35ea3bc59c41fe146a2e6ed",
-  "translation_date": "2025-08-27T12:05:15+00:00",
-  "source_file": "2-farm/lessons/4-migrate-your-plant-to-the-cloud/wio-terminal-connect-hub.md",
-  "language_code": "ne"
-}
--->
 # आफ्नो IoT उपकरणलाई क्लाउडसँग जडान गर्नुहोस् - Wio Terminal
 
 यस पाठको यस भागमा, तपाईं आफ्नो Wio Terminal लाई IoT Hub सँग जडान गर्नुहुनेछ, टेलिमेट्री पठाउन र आदेशहरू प्राप्त गर्न।

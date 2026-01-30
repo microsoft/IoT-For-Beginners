@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "4db8a3879a53490513571df2f6cf7641",
-  "translation_date": "2025-08-27T12:46:04+00:00",
-  "source_file": "1-getting-started/lessons/3-sensors-and-actuators/pi-actuator.md",
-  "language_code": "mr"
-}
--->
 # रात्रीचा दिवा तयार करा - रास्पबेरी पाय
 
 या धड्याच्या भागात, तुम्ही तुमच्या रास्पबेरी पायमध्ये एक LED जोडाल आणि त्याचा वापर करून रात्रीचा दिवा तयार कराल.

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "0d55caa8c23d73635b7559102cd17b8a",
-  "translation_date": "2025-08-27T11:46:32+00:00",
-  "source_file": "2-farm/lessons/2-detect-soil-moisture/wio-terminal-soil-moisture.md",
-  "language_code": "bn"
-}
--->
 # মাটি আর্দ্রতা পরিমাপ করুন - Wio Terminal
 
 এই পাঠের এই অংশে, আপনি আপনার Wio Terminal-এ একটি capacitive মাটি আর্দ্রতা সেন্সর যোগ করবেন এবং এর থেকে মান পড়বেন।

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "db44083b4dc6fb06eac83c4f16448940",
-  "translation_date": "2025-08-27T12:47:39+00:00",
-  "source_file": "1-getting-started/lessons/3-sensors-and-actuators/wio-terminal-actuator.md",
-  "language_code": "mr"
-}
--->
 # रात्रीचा दिवा तयार करा - Wio Terminal
 
 या धड्याच्या या भागात, तुम्ही तुमच्या Wio Terminal मध्ये एक LED जोडाल आणि त्याचा वापर करून रात्रीचा दिवा तयार कराल.

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "a3fdfec1d1e2cb645ea11c2930b51299",
-  "translation_date": "2025-08-27T09:49:29+00:00",
-  "source_file": "5-retail/lessons/2-check-stock-device/single-board-computer-object-detector.md",
-  "language_code": "ne"
-}
--->
 # आफ्नो IoT उपकरणबाट वस्तु पत्ता लगाउने उपकरणलाई कल गर्नुहोस् - भर्चुअल IoT हार्डवेयर र रास्पबेरी पाई
 
 एक पटक तपाईंको वस्तु पत्ता लगाउने उपकरण प्रकाशित भएपछि, यसलाई तपाईंको IoT उपकरणबाट प्रयोग गर्न सकिन्छ।

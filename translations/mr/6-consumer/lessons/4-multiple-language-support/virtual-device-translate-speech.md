@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "d620a470d9dd8614d99824832978360a",
-  "translation_date": "2025-08-27T13:33:31+00:00",
-  "source_file": "6-consumer/lessons/4-multiple-language-support/virtual-device-translate-speech.md",
-  "language_code": "mr"
-}
--->
 # भाषण अनुवाद - आभासी IoT डिव्हाइस
 
 या धड्याच्या भागामध्ये, तुम्ही भाषण सेवा वापरून भाषणाचे मजकूरात रूपांतर करताना अनुवाद करण्यासाठी कोड लिहाल, नंतर Translator सेवा वापरून मजकूराचा अनुवाद करून बोलण्याचा प्रतिसाद तयार कराल.

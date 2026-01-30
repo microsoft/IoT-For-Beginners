@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "50abd54997afa7e7a3fc7019379e49e3",
-  "translation_date": "2025-08-27T09:47:40+00:00",
-  "source_file": "images/README.md",
-  "language_code": "mr"
-}
--->
 # प्रतिमा
 
 [icons](../../../images/icons) फोल्डरमधील प्रतिमा [Noun Project](https://thenounproject.com) कडून घेतल्या आहेत आणि त्यासाठी श्रेय देणे आवश्यक आहे. प्रत्येक प्रतिमेसाठी आवश्यक श्रेय सूचीबद्ध केलेले आहे. या प्रतिमा कोणत्याही आकृतीसाठी वापरल्या जाव्यात जेणेकरून प्रतिमांची सुसंगतता राखली जाईल.

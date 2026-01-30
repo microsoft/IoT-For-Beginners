@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "9aea84bcc7520222b0e1c50469d62d6a",
-  "translation_date": "2025-08-27T12:15:49+00:00",
-  "source_file": "2-farm/lessons/6-keep-your-plant-secure/single-board-computer-x509.md",
-  "language_code": "ne"
-}
--->
 # X.509 प्रमाणपत्र प्रयोग गरेर आफ्नो उपकरण कोडमा जडान गर्नुहोस् - भर्चुअल IoT हार्डवेयर र Raspberry Pi
 
 यस पाठको यस भागमा, तपाईं आफ्नो भर्चुअल IoT उपकरण वा Raspberry Pi लाई X.509 प्रमाणपत्र प्रयोग गरेर IoT Hub मा जडान गर्नुहुनेछ।

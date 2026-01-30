@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "bbb5aa34221fe129dd3ce4d9ec33831a",
-  "translation_date": "2025-08-27T13:31:53+00:00",
-  "source_file": "6-consumer/lessons/4-multiple-language-support/pi-translate-speech.md",
-  "language_code": "mr"
-}
--->
 # भाषणाचे भाषांतर - रास्पबेरी पाय
 
 या धड्याच्या या भागात, तुम्ही भाषांतर सेवा वापरून मजकूराचे भाषांतर करण्यासाठी कोड लिहाल.

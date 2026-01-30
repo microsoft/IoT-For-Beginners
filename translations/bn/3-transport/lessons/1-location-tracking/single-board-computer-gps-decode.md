@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "cbb8c285bc64c5192fae3368fb5077d2",
-  "translation_date": "2025-08-27T14:46:58+00:00",
-  "source_file": "3-transport/lessons/1-location-tracking/single-board-computer-gps-decode.md",
-  "language_code": "bn"
-}
--->
 # জিপিএস ডেটা ডিকোড করা - ভার্চুয়াল IoT হার্ডওয়্যার এবং রাস্পবেরি পাই
 
 এই পাঠের এই অংশে, আপনি রাস্পবেরি পাই বা ভার্চুয়াল IoT ডিভাইস দ্বারা জিপিএস সেন্সর থেকে পড়া NMEA বার্তাগুলি ডিকোড করবেন এবং অক্ষাংশ ও দ্রাঘিমাংশ বের করবেন।

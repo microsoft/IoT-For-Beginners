@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "8df310a42f902139a01417dacb1ffbef",
-  "translation_date": "2025-08-27T10:01:12+00:00",
-  "source_file": "5-retail/lessons/1-train-stock-detector/README.md",
-  "language_code": "mr"
-}
--->
 # स्टॉक डिटेक्टर प्रशिक्षण द्या
 
 ![या धड्याचा स्केच नोट आढावा](../../../../../translated_images/mr/lesson-19.cf6973cecadf080c4b526310620dc4d6f5994c80fb0139c6f378cc9ca2d435cd.jpg)

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "7e45d884493c5222348b43fbc4481b6a",
-  "translation_date": "2025-08-27T14:19:42+00:00",
-  "source_file": "6-consumer/lessons/1-speech-recognition/pi-microphone.md",
-  "language_code": "mr"
-}
--->
 # तुमचा मायक्रोफोन आणि स्पीकर्स कॉन्फिगर करा - रास्पबेरी पाय
 
 या धड्याच्या या भागात, तुम्ही तुमच्या रास्पबेरी पायमध्ये मायक्रोफोन आणि स्पीकर्स जोडाल.

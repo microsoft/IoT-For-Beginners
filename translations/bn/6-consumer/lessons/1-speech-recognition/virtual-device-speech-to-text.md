@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "c0550b254b9ba2539baf1e6bb5fc05f8",
-  "translation_date": "2025-08-27T14:10:03+00:00",
-  "source_file": "6-consumer/lessons/1-speech-recognition/virtual-device-speech-to-text.md",
-  "language_code": "bn"
-}
--->
 # স্পিচ টু টেক্সট - ভার্চুয়াল IoT ডিভাইস
 
 এই পাঠের এই অংশে, আপনি কোড লিখবেন যা আপনার মাইক্রোফোন থেকে ধরা স্পিচকে টেক্সটে রূপান্তর করবে স্পিচ সার্ভিস ব্যবহার করে।

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "7e45d884493c5222348b43fbc4481b6a",
-  "translation_date": "2025-08-27T14:19:17+00:00",
-  "source_file": "6-consumer/lessons/1-speech-recognition/pi-microphone.md",
-  "language_code": "bn"
-}
--->
 # আপনার মাইক্রোফোন এবং স্পিকার কনফিগার করুন - রাস্পবেরি পাই
 
 এই পাঠের এই অংশে, আপনি আপনার রাস্পবেরি পাইতে একটি মাইক্রোফোন এবং স্পিকার যোগ করবেন।

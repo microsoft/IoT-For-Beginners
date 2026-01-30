@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "271dcd720357806934b2f0d94e19410e",
-  "translation_date": "2026-01-05T22:07:48+00:00",
-  "source_file": "docs/troubleshooting.md",
-  "language_code": "bn"
-}
--->
 # Raspberry Pi সমস্যা সমাধান গাইড
 
 এই গাইডটি Raspberry Pi ডিভাইসে IoT প্রকল্প চালানোর সময় সাধারণ সমস্যার সমাধান প্রদান করে।  

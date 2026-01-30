@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "0ac0afcfb40cb5970ef4cb74f01c32e9",
-  "translation_date": "2025-08-27T14:01:36+00:00",
-  "source_file": "6-consumer/lessons/1-speech-recognition/pi-audio.md",
-  "language_code": "ne"
-}
--->
 # अडियो क्याप्चर गर्नुहोस् - रास्पबेरी पाई
 
 यस पाठको यस भागमा, तपाईंले रास्पबेरी पाईमा अडियो क्याप्चर गर्न कोड लेख्नुहुनेछ। अडियो क्याप्चर बटनद्वारा नियन्त्रण गरिनेछ।

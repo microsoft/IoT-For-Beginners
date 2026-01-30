@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "fbbcf96a9b63ccd661db98bbf854bb06",
-  "translation_date": "2025-08-27T14:50:19+00:00",
-  "source_file": "3-transport/lessons/1-location-tracking/wio-terminal-gps-decode.md",
-  "language_code": "ne"
-}
--->
 # GPS डेटा डिकोड गर्नुहोस् - Wio Terminal
 
 यस पाठको यस भागमा, तपाईं Wio Terminal द्वारा GPS सेन्सरबाट पढिएको NMEA सन्देशहरू डिकोड गर्नुहुनेछ, र अक्षांश र देशान्तर निकाल्नुहुनेछ।

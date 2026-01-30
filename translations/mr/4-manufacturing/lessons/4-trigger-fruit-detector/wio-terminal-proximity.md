@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "288aebb0c59f7be1d2719b8f9660a313",
-  "translation_date": "2025-08-27T10:53:13+00:00",
-  "source_file": "4-manufacturing/lessons/4-trigger-fruit-detector/wio-terminal-proximity.md",
-  "language_code": "mr"
-}
--->
 # जवळीक ओळखणे - Wio Terminal
 
 या धड्याच्या भागात, तुम्ही Wio Terminal मध्ये एक proximity sensor जोडाल आणि त्यातून अंतर वाचाल.

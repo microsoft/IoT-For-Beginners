@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "d620a470d9dd8614d99824832978360a",
-  "translation_date": "2025-08-27T13:33:04+00:00",
-  "source_file": "6-consumer/lessons/4-multiple-language-support/virtual-device-translate-speech.md",
-  "language_code": "bn"
-}
--->
 # বক্তৃতা অনুবাদ করুন - ভার্চুয়াল IoT ডিভাইস
 
 এই পাঠের এই অংশে, আপনি বক্তৃতা পরিষেবা ব্যবহার করে বক্তৃতাকে টেক্সটে রূপান্তর করার সময় অনুবাদ করার কোড লিখবেন, তারপর অনুবাদক পরিষেবা ব্যবহার করে টেক্সট অনুবাদ করবেন এবং একটি কথিত প্রতিক্রিয়া তৈরি করবেন।

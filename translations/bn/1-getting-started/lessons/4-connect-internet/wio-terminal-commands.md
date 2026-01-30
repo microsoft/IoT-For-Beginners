@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "6754c915dae64ba70fcd5e52c37f3adf",
-  "translation_date": "2025-08-27T12:35:03+00:00",
-  "source_file": "1-getting-started/lessons/4-connect-internet/wio-terminal-commands.md",
-  "language_code": "bn"
-}
--->
 # ইন্টারনেটের মাধ্যমে আপনার নাইটলাইট নিয়ন্ত্রণ করুন - Wio Terminal
 
 এই পাঠের এই অংশে, আপনি MQTT ব্রোকার থেকে পাঠানো কমান্ডগুলিতে সাবস্ক্রাইব করবেন এবং সেগুলো আপনার Wio Terminal-এ গ্রহণ করবেন।

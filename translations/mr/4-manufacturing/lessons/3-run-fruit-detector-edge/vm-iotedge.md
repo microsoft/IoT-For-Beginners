@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "24dc783a600e20251211987b36370e93",
-  "translation_date": "2025-08-27T10:42:07+00:00",
-  "source_file": "4-manufacturing/lessons/3-run-fruit-detector-edge/vm-iotedge.md",
-  "language_code": "mr"
-}
--->
 # IoT Edge चालवणारी व्हर्च्युअल मशीन तयार करा
 
 Azure मध्ये, तुम्ही एक व्हर्च्युअल मशीन तयार करू शकता - क्लाउडमधील एक संगणक ज्याला तुम्ही तुमच्या इच्छेनुसार कॉन्फिगर करू शकता आणि त्यावर तुमचे स्वतःचे सॉफ्टवेअर चालवू शकता.

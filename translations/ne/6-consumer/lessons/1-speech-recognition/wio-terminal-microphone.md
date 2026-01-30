@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "93d352de36526b8990e41dd538100324",
-  "translation_date": "2025-08-27T14:21:55+00:00",
-  "source_file": "6-consumer/lessons/1-speech-recognition/wio-terminal-microphone.md",
-  "language_code": "ne"
-}
--->
 # आफ्नो माइक्रोफोन र स्पिकरहरू सेटअप गर्नुहोस् - Wio Terminal
 
 यस पाठको यस भागमा, तपाईं आफ्नो Wio Terminal मा स्पिकरहरू थप्नुहुनेछ। Wio Terminal मा पहिले नै बिल्ट-इन माइक्रोफोन छ, जसलाई आवाज रेकर्ड गर्न प्रयोग गर्न सकिन्छ।

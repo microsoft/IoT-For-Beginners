@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "52b4de6144b2efdced7797a5339d6035",
-  "translation_date": "2025-08-27T13:00:32+00:00",
-  "source_file": "1-getting-started/lessons/1-introduction-to-iot/virtual-device.md",
-  "language_code": "bn"
-}
--->
 # ভার্চুয়াল সিঙ্গল-বোর্ড কম্পিউটার
 
 IoT ডিভাইস, সেন্সর এবং অ্যাকচুয়েটর কেনার পরিবর্তে, আপনি আপনার কম্পিউটার ব্যবহার করে IoT হার্ডওয়্যার সিমুলেট করতে পারেন। [CounterFit প্রকল্প](https://github.com/CounterFit-IoT/CounterFit) আপনাকে একটি অ্যাপ লোকালভাবে চালানোর সুযোগ দেয় যা সেন্সর এবং অ্যাকচুয়েটরসহ IoT হার্ডওয়্যার সিমুলেট করে। এরপর আপনি লোকাল Python কোড ব্যবহার করে এই সেন্সর এবং অ্যাকচুয়েটর অ্যাক্সেস করতে পারেন, যেভাবে আপনি Raspberry Pi-তে ফিজিক্যাল হার্ডওয়্যার ব্যবহার করে কোড লিখতেন।

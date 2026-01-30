@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "c527ce85d69b1a3875366ec61cbed8aa",
-  "translation_date": "2025-08-27T12:18:26+00:00",
-  "source_file": "1-getting-started/lessons/4-connect-internet/single-board-computer-commands.md",
-  "language_code": "ne"
-}
--->
 # इन्टरनेटमार्फत आफ्नो नाइटलाइट नियन्त्रण गर्नुहोस् - भर्चुअल IoT हार्डवेयर र रास्पबेरी पाई
 
 यस पाठको यस भागमा, तपाईं आफ्नो रास्पबेरी पाई वा भर्चुअल IoT उपकरणमा MQTT ब्रोकरबाट पठाइएका आदेशहरूलाई सब्स्क्राइब गर्नुहुनेछ।

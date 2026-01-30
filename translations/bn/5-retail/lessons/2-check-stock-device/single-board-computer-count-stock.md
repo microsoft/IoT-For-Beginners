@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "9c4320311c0f2c1884a6a21265d98a51",
-  "translation_date": "2025-08-27T09:56:42+00:00",
-  "source_file": "5-retail/lessons/2-check-stock-device/single-board-computer-count-stock.md",
-  "language_code": "bn"
-}
--->
 # আপনার IoT ডিভাইস থেকে স্টক গণনা করুন - ভার্চুয়াল IoT হার্ডওয়্যার এবং রাস্পবেরি পাই
 
 একটি ছবিতে স্টক গণনার জন্য ভবিষ্যদ্বাণী এবং তাদের বাউন্ডিং বক্সের সংমিশ্রণ ব্যবহার করা যেতে পারে।

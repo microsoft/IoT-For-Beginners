@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "3ac42e284a7222c0e83d2d43231a364f",
-  "translation_date": "2025-08-27T12:02:19+00:00",
-  "source_file": "2-farm/lessons/4-migrate-your-plant-to-the-cloud/single-board-computer-connect-hub.md",
-  "language_code": "bn"
-}
--->
 # আপনার IoT ডিভাইসকে ক্লাউডের সাথে সংযুক্ত করুন - ভার্চুয়াল IoT হার্ডওয়্যার এবং Raspberry Pi
 
 এই পাঠের এই অংশে, আপনি আপনার ভার্চুয়াল IoT ডিভাইস বা Raspberry Pi-কে IoT Hub-এর সাথে সংযুক্ত করবেন, টেলিমেট্রি পাঠানোর এবং কমান্ড গ্রহণ করার জন্য।

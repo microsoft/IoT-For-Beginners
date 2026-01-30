@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "4cf1421420a6fab9ab4f2c391bd523b7",
-  "translation_date": "2025-08-27T09:58:47+00:00",
-  "source_file": "5-retail/lessons/2-check-stock-device/wio-terminal-object-detector.md",
-  "language_code": "bn"
-}
--->
 # আপনার IoT ডিভাইস থেকে আপনার অবজেক্ট ডিটেক্টর কল করুন - Wio Terminal
 
 আপনার অবজেক্ট ডিটেক্টর প্রকাশিত হওয়ার পর, এটি আপনার IoT ডিভাইস থেকে ব্যবহার করা যেতে পারে।

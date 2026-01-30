@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "7678f7c67b97ee52d5727496dcd7d346",
-  "translation_date": "2025-08-27T11:10:26+00:00",
-  "source_file": "2-farm/lessons/1-predict-plant-growth/pi-temp.md",
-  "language_code": "mr"
-}
--->
 # तापमान मोजा - रास्पबेरी पाय
 
 या धड्याच्या भागात, तुम्ही तुमच्या रास्पबेरी पायमध्ये तापमान सेन्सर जोडाल.

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "c0550b254b9ba2539baf1e6bb5fc05f8",
-  "translation_date": "2025-08-27T14:10:20+00:00",
-  "source_file": "6-consumer/lessons/1-speech-recognition/virtual-device-speech-to-text.md",
-  "language_code": "mr"
-}
--->
 # स्पीच टू टेक्स्ट - वर्च्युअल IoT डिव्हाइस
 
 या धड्याच्या या भागात, तुम्ही तुमच्या मायक्रोफोनमधून कॅप्चर केलेले भाषण स्पीच सर्व्हिसचा वापर करून टेक्स्टमध्ये रूपांतरित करण्यासाठी कोड लिहाल.

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "c5a568320b1159394108544807895337",
-  "translation_date": "2025-08-27T12:45:14+00:00",
-  "source_file": "1-getting-started/lessons/3-sensors-and-actuators/assignment.md",
-  "language_code": "ne"
-}
--->
 # अनुसन्धान: सेन्सरहरू र एक्टुएटरहरू
 
 ## निर्देशनहरू

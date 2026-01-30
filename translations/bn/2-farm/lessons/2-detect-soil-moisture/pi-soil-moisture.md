@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "9d4d00a47d5d0f3e6ce42c0d1020064a",
-  "translation_date": "2025-08-27T11:50:50+00:00",
-  "source_file": "2-farm/lessons/2-detect-soil-moisture/pi-soil-moisture.md",
-  "language_code": "bn"
-}
--->
 # মাটির আর্দ্রতা পরিমাপ - র‌্যাস্পবেরি পাই
 
 এই পাঠের এই অংশে, আপনি আপনার র‌্যাস্পবেরি পাই-তে একটি ক্যাপাসিটিভ মাটির আর্দ্রতা সেন্সর যোগ করবেন এবং এর থেকে মান পড়বেন।

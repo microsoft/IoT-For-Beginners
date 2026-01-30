@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "48ac21ec80329c930db7b84bd6b592ec",
-  "translation_date": "2025-08-27T10:43:18+00:00",
-  "source_file": "4-manufacturing/lessons/3-run-fruit-detector-edge/wio-terminal.md",
-  "language_code": "bn"
-}
--->
 # IoT Edge ভিত্তিক ইমেজ ক্লাসিফায়ার ব্যবহার করে একটি ছবি শ্রেণীবদ্ধ করুন - Wio Terminal
 
 এই পাঠের এই অংশে, আপনি IoT Edge ডিভাইসে চলমান ইমেজ ক্লাসিফায়ার ব্যবহার করবেন।

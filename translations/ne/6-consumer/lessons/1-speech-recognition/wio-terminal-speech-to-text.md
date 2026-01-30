@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "3f92edf2975175577174910caca4a389",
-  "translation_date": "2025-08-27T14:17:33+00:00",
-  "source_file": "6-consumer/lessons/1-speech-recognition/wio-terminal-speech-to-text.md",
-  "language_code": "ne"
-}
--->
 # आवाजलाई पाठमा रूपान्तरण - Wio Terminal
 
 यस पाठको यस भागमा, तपाईंले क्याप्चर गरिएको अडियोमा रहेको आवाजलाई पाठमा रूपान्तरण गर्न कोड लेख्नुहुनेछ, जसमा आवाज सेवा प्रयोग गरिन्छ।

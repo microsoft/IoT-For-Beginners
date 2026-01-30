@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "012b69d57d898d670adf61304f42a137",
-  "translation_date": "2025-08-27T13:51:17+00:00",
-  "source_file": "6-consumer/lessons/3-spoken-feedback/wio-terminal-set-timer.md",
-  "language_code": "mr"
-}
--->
 # टाइमर सेट करा - Wio Terminal
 
 या धड्याच्या भागात, तुम्ही तुमचा सर्व्हरलेस कोड कॉल कराल जे भाषण समजून घेईल आणि परिणामांवर आधारित तुमच्या Wio Terminal वर टाइमर सेट करेल.

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "6145a1d791731c8a9d0afd0a1bae5108",
-  "translation_date": "2025-08-27T10:52:15+00:00",
-  "source_file": "4-manufacturing/lessons/4-trigger-fruit-detector/pi-proximity.md",
-  "language_code": "ne"
-}
--->
 # नजिकको दूरी पत्ता लगाउनुहोस् - रास्पबेरी पाई
 
 यस पाठको यस भागमा, तपाईं आफ्नो रास्पबेरी पाईमा एक नजिकको दूरी मापन गर्ने सेन्सर थप्नुहुनेछ र त्यसबाट दूरी पढ्नुहुनेछ।

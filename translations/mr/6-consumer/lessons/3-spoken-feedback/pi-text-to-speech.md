@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "606f3af1c78e3741e48ce77c31cea626",
-  "translation_date": "2025-08-27T13:53:26+00:00",
-  "source_file": "6-consumer/lessons/3-spoken-feedback/pi-text-to-speech.md",
-  "language_code": "mr"
-}
--->
 # टेक्स्ट टू स्पीच - रास्पबेरी पाय
 
 या धड्याच्या या भागात, तुम्ही स्पीच सर्व्हिस वापरून टेक्स्टला स्पीचमध्ये रूपांतरित करण्यासाठी कोड लिहाल.

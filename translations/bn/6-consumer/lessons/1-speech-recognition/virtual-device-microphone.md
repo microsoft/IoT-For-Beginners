@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "7a65ee743f916276a2848b8a9491feb7",
-  "translation_date": "2025-08-27T14:24:26+00:00",
-  "source_file": "6-consumer/lessons/1-speech-recognition/virtual-device-microphone.md",
-  "language_code": "bn"
-}
--->
 # আপনার মাইক্রোফোন এবং স্পিকার কনফিগার করুন - ভার্চুয়াল IoT হার্ডওয়্যার
 
 ভার্চুয়াল IoT হার্ডওয়্যার আপনার কম্পিউটারে সংযুক্ত মাইক্রোফোন এবং স্পিকার ব্যবহার করবে।

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "8587f83cfded1bfab99fda4022f4df89",
-  "translation_date": "2025-08-27T09:46:19+00:00",
-  "source_file": "SECURITY.md",
-  "language_code": "ne"
-}
--->
 # सुरक्षा
 
 माइक्रोसफ्टले आफ्ना सफ्टवेयर उत्पादनहरू र सेवाहरूको सुरक्षालाई गम्भीरतापूर्वक लिन्छ, जसमा हाम्रो GitHub संगठनहरू मार्फत व्यवस्थापन गरिएका सबै स्रोत कोड रिपोजिटरीहरू समावेश छन्, जस्तै [Microsoft](https://github.com/Microsoft), [Azure](https://github.com/Azure), [DotNet](https://github.com/dotnet), [AspNet](https://github.com/aspnet), [Xamarin](https://github.com/xamarin), र [हाम्रो GitHub संगठनहरू](https://opensource.microsoft.com/)।

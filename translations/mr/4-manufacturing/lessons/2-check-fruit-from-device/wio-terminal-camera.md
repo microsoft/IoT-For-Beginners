@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "160be8c0f558687f6686dca64f10f739",
-  "translation_date": "2025-08-27T10:27:15+00:00",
-  "source_file": "4-manufacturing/lessons/2-check-fruit-from-device/wio-terminal-camera.md",
-  "language_code": "mr"
-}
--->
 # प्रतिमा कॅप्चर करा - Wio Terminal
 
 या धड्याच्या भागात, तुम्ही Wio Terminal ला कॅमेरा जोडाल आणि त्यातून प्रतिमा कॅप्चर कराल.

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "5a94fbab1ba737e9bd6cc6c64f114fa0",
-  "translation_date": "2025-08-27T09:41:41+00:00",
-  "source_file": "clean-up.md",
-  "language_code": "mr"
-}
--->
 # तुमचा प्रकल्प साफ करा
 
 प्रत्येक प्रकल्प पूर्ण केल्यानंतर, तुमची क्लाउड संसाधने हटवणे चांगले आहे.

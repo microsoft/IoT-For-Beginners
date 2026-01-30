@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "6754c915dae64ba70fcd5e52c37f3adf",
-  "translation_date": "2025-08-27T12:35:16+00:00",
-  "source_file": "1-getting-started/lessons/4-connect-internet/wio-terminal-commands.md",
-  "language_code": "mr"
-}
--->
 # इंटरनेटवरून तुमचा नाईटलाइट नियंत्रित करा - Wio Terminal
 
 या धड्याच्या या भागात, तुम्ही MQTT ब्रोकर्सकडून पाठवलेल्या आदेशांना Wio Terminal वर सबस्क्राइब कराल.

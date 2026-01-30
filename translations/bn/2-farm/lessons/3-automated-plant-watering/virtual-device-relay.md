@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "f8f541ee945545017a51aaf309aa37c3",
-  "translation_date": "2025-08-27T11:24:05+00:00",
-  "source_file": "2-farm/lessons/3-automated-plant-watering/virtual-device-relay.md",
-  "language_code": "bn"
-}
--->
 # রিলে নিয়ন্ত্রণ করুন - ভার্চুয়াল IoT হার্ডওয়্যার
 
 এই পাঠের এই অংশে, আপনি মাটির আর্দ্রতা সেন্সরের পাশাপাশি আপনার ভার্চুয়াল IoT ডিভাইসে একটি রিলে যোগ করবেন এবং এটি মাটির আর্দ্রতার স্তরের উপর ভিত্তি করে নিয়ন্ত্রণ করবেন।

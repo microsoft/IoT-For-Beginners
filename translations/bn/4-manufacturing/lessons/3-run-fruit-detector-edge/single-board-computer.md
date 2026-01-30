@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "50151d9f9dce2801348a93880ef16d86",
-  "translation_date": "2025-08-27T10:44:07+00:00",
-  "source_file": "4-manufacturing/lessons/3-run-fruit-detector-edge/single-board-computer.md",
-  "language_code": "bn"
-}
--->
 # IoT Edge ভিত্তিক ইমেজ ক্লাসিফায়ার ব্যবহার করে একটি ছবি শ্রেণীবদ্ধ করুন - ভার্চুয়াল IoT হার্ডওয়্যার এবং রাস্পবেরি পাই
 
 এই পাঠের অংশে, আপনি IoT Edge ডিভাইসে চলমান ইমেজ ক্লাসিফায়ার ব্যবহার করবেন।

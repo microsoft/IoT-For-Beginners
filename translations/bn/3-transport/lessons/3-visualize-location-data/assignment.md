@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "0ccdc1faa676a485c4c6ecbddb9f9067",
-  "translation_date": "2025-08-27T14:56:28+00:00",
-  "source_file": "3-transport/lessons/3-visualize-location-data/assignment.md",
-  "language_code": "bn"
-}
--->
 # আপনার অ্যাপ ডিপ্লয় করুন
 
 ## নির্দেশাবলী

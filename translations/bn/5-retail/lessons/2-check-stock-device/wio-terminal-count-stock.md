@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "0b2ae20b0fc8e73c9598dea937cac038",
-  "translation_date": "2025-08-27T09:55:09+00:00",
-  "source_file": "5-retail/lessons/2-check-stock-device/wio-terminal-count-stock.md",
-  "language_code": "bn"
-}
--->
 # আপনার IoT ডিভাইস থেকে স্টক গণনা করুন - Wio Terminal
 
 একটি চিত্রে স্টক গণনার জন্য ভবিষ্যদ্বাণী এবং তাদের বাউন্ডিং বক্সগুলির সংমিশ্রণ ব্যবহার করা যেতে পারে।

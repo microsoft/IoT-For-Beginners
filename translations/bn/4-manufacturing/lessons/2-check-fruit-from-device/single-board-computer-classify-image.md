@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "e5896207b304ce1abaf065b8acc0cc79",
-  "translation_date": "2025-08-27T10:22:18+00:00",
-  "source_file": "4-manufacturing/lessons/2-check-fruit-from-device/single-board-computer-classify-image.md",
-  "language_code": "bn"
-}
--->
 # একটি ছবি শ্রেণীবদ্ধ করুন - ভার্চুয়াল IoT হার্ডওয়্যার এবং রাস্পবেরি পাই
 
 এই পাঠের এই অংশে, আপনি ক্যামেরা দ্বারা ধারণ করা ছবিটি শ্রেণীবদ্ধ করার জন্য Custom Vision পরিষেবাতে পাঠাবেন।

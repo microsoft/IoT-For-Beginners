@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "a3fdfec1d1e2cb645ea11c2930b51299",
-  "translation_date": "2025-08-27T09:49:12+00:00",
-  "source_file": "5-retail/lessons/2-check-stock-device/single-board-computer-object-detector.md",
-  "language_code": "mr"
-}
--->
 # आपल्या IoT डिव्हाइसवरून ऑब्जेक्ट डिटेक्टर कॉल करा - व्हर्च्युअल IoT हार्डवेअर आणि रास्पबेरी पाय
 
 एकदा तुमचा ऑब्जेक्ट डिटेक्टर प्रकाशित झाल्यावर, तो तुमच्या IoT डिव्हाइसवरून वापरता येईल.

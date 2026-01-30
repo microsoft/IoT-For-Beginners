@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "0d55caa8c23d73635b7559102cd17b8a",
-  "translation_date": "2025-08-27T11:47:06+00:00",
-  "source_file": "2-farm/lessons/2-detect-soil-moisture/wio-terminal-soil-moisture.md",
-  "language_code": "ne"
-}
--->
 # माटोको चिस्यान मापन गर्नुहोस् - Wio Terminal
 
 यस पाठको यस भागमा, तपाईं Wio Terminal मा एक capacitive माटोको चिस्यान सेन्सर थप्नुहुनेछ, र यसबाट मानहरू पढ्नुहुनेछ।

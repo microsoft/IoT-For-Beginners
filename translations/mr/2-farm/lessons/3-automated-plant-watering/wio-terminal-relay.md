@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "f3c5d8afa2ef6a0b425ef8ff20615cb4",
-  "translation_date": "2025-08-27T11:21:45+00:00",
-  "source_file": "2-farm/lessons/3-automated-plant-watering/wio-terminal-relay.md",
-  "language_code": "mr"
-}
--->
 # रिले नियंत्रित करा - Wio Terminal
 
 या धड्यात, तुम्ही मातीतील ओलसरता सेन्सर व्यतिरिक्त Wio Terminal मध्ये एक रिले जोडाल आणि मातीतील ओलसरतेच्या पातळीवर आधारित त्याचे नियंत्रण कराल.

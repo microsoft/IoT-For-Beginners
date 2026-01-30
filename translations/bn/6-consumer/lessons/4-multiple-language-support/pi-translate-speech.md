@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "bbb5aa34221fe129dd3ce4d9ec33831a",
-  "translation_date": "2025-08-27T13:31:36+00:00",
-  "source_file": "6-consumer/lessons/4-multiple-language-support/pi-translate-speech.md",
-  "language_code": "bn"
-}
--->
 # স্পিচ অনুবাদ - রাস্পবেরি পাই
 
 এই পাঠের এই অংশে, আপনি অনুবাদক সার্ভিস ব্যবহার করে টেক্সট অনুবাদ করার কোড লিখবেন।

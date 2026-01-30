@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "fbbcf96a9b63ccd661db98bbf854bb06",
-  "translation_date": "2025-08-27T14:49:58+00:00",
-  "source_file": "3-transport/lessons/1-location-tracking/wio-terminal-gps-decode.md",
-  "language_code": "bn"
-}
--->
 # জিপিএস ডেটা ডিকোড করুন - Wio Terminal
 
 এই পাঠের এই অংশে, আপনি Wio Terminal দ্বারা জিপিএস সেন্সর থেকে পড়া NMEA বার্তাগুলি ডিকোড করবেন এবং অক্ষাংশ ও দ্রাঘিমাংশ বের করবেন।

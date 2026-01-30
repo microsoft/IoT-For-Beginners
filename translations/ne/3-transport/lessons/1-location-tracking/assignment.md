@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "bded364fc06ce37d7a76aed3be1ba73a",
-  "translation_date": "2025-08-27T14:46:40+00:00",
-  "source_file": "3-transport/lessons/1-location-tracking/assignment.md",
-  "language_code": "ne"
-}
--->
 # अन्य GPS डाटा अनुसन्धान गर्नुहोस्
 
 ## निर्देशनहरू

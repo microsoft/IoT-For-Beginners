@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "0ac0afcfb40cb5970ef4cb74f01c32e9",
-  "translation_date": "2025-08-27T14:01:09+00:00",
-  "source_file": "6-consumer/lessons/1-speech-recognition/pi-audio.md",
-  "language_code": "mr"
-}
--->
 # ऑडिओ कॅप्चर करा - रास्पबेरी पाय
 
 या धड्याच्या भागात, तुम्ही रास्पबेरी पायवर ऑडिओ कॅप्चर करण्यासाठी कोड लिहाल. ऑडिओ कॅप्चर एका बटणाद्वारे नियंत्रित केले जाईल.

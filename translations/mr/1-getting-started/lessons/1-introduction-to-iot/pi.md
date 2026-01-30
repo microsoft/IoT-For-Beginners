@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "8ff0d0a1d29832bb896b9c103b69a452",
-  "translation_date": "2025-08-27T13:05:36+00:00",
-  "source_file": "1-getting-started/lessons/1-introduction-to-iot/pi.md",
-  "language_code": "mr"
-}
--->
 # रास्पबेरी पाय
 
 [रास्पबेरी पाय](https://raspberrypi.org) हे एक सिंगल-बोर्ड संगणक आहे. तुम्ही सेन्सर्स आणि अ‍ॅक्ट्युएटर्स जोडण्यासाठी विविध उपकरणे आणि इकोसिस्टम वापरू शकता, आणि या धड्यांसाठी [Grove](https://www.seeedstudio.com/category/Grove-c-1003.html) नावाच्या हार्डवेअर इकोसिस्टमचा वापर केला जात आहे. तुम्ही तुमच्या पायसाठी कोड लिहाल आणि Grove सेन्सर्सना Python वापरून ऍक्सेस कराल.

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "0b2ae20b0fc8e73c9598dea937cac038",
-  "translation_date": "2025-08-27T09:55:52+00:00",
-  "source_file": "5-retail/lessons/2-check-stock-device/wio-terminal-count-stock.md",
-  "language_code": "ne"
-}
--->
 # तपाईंको IoT उपकरणबाट स्टक गणना गर्नुहोस् - Wio Terminal
 
 पूर्वानुमानहरू र तिनका bounding boxes को संयोजन प्रयोग गरेर छविमा स्टक गणना गर्न सकिन्छ।

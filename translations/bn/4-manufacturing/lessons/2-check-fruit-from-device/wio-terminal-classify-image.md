@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "32a1f23e7834fbe7715da8c4ebb450b9",
-  "translation_date": "2025-08-27T10:23:38+00:00",
-  "source_file": "4-manufacturing/lessons/2-check-fruit-from-device/wio-terminal-classify-image.md",
-  "language_code": "bn"
-}
--->
 # একটি ছবি শ্রেণীবদ্ধ করুন - Wio Terminal
 
 এই পাঠের এই অংশে, আপনি ক্যামেরা দ্বারা ধারণ করা ছবিটি শ্রেণীবদ্ধ করার জন্য Custom Vision সার্ভিসে পাঠাবেন।

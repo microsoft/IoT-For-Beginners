@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "32a1f23e7834fbe7715da8c4ebb450b9",
-  "translation_date": "2025-08-27T10:24:22+00:00",
-  "source_file": "4-manufacturing/lessons/2-check-fruit-from-device/wio-terminal-classify-image.md",
-  "language_code": "ne"
-}
--->
 # क्यामेराबाट लिइएको तस्बिर वर्गीकरण गर्नुहोस् - Wio Terminal
 
 यस पाठको यस भागमा, तपाईं क्यामेराले लिएको तस्बिरलाई Custom Vision सेवामा पठाएर वर्गीकरण गर्नुहुनेछ।

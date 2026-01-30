@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "c527ce85d69b1a3875366ec61cbed8aa",
-  "translation_date": "2025-08-27T12:18:13+00:00",
-  "source_file": "1-getting-started/lessons/4-connect-internet/single-board-computer-commands.md",
-  "language_code": "mr"
-}
--->
 # इंटरनेटद्वारे तुमचा नाईटलाइट नियंत्रित करा - व्हर्च्युअल IoT हार्डवेअर आणि रास्पबेरी पाय
 
 या धड्याच्या या भागात, तुम्ही MQTT ब्रोकर्सकडून तुमच्या रास्पबेरी पाय किंवा व्हर्च्युअल IoT डिव्हाइसवर पाठवलेल्या कमांड्सची सदस्यता घ्याल.

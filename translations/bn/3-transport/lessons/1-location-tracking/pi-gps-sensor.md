@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "3b2448c7ab4e9673e77e35a50c5e350d",
-  "translation_date": "2025-08-27T14:48:00+00:00",
-  "source_file": "3-transport/lessons/1-location-tracking/pi-gps-sensor.md",
-  "language_code": "bn"
-}
--->
 # র‌্যাস্পবেরি পাই দিয়ে জিপিএস ডেটা পড়া
 
 এই পাঠের এই অংশে, আপনি আপনার র‌্যাস্পবেরি পাই-তে একটি জিপিএস সেন্সর যোগ করবেন এবং এর থেকে ডেটা পড়বেন।

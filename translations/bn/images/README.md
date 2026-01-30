@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "50abd54997afa7e7a3fc7019379e49e3",
-  "translation_date": "2025-08-27T09:47:33+00:00",
-  "source_file": "images/README.md",
-  "language_code": "bn"
-}
--->
 # ছবি
 
 [icons](../../../images/icons) ফোল্ডারের ছবিগুলো [Noun Project](https://thenounproject.com) থেকে নেওয়া হয়েছে এবং এর জন্য স্বীকৃতি প্রয়োজন। প্রতিটি ছবিতে প্রয়োজনীয় স্বীকৃতি উল্লেখ করা আছে। এই ছবিগুলো যেকোনো ডায়াগ্রামে ব্যবহার করা উচিত যাতে চিত্রের সামঞ্জস্য বজায় থাকে।

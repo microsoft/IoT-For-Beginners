@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "e4f2925acb211765889c3b51b9116ceb",
-  "translation_date": "2025-08-27T14:24:04+00:00",
-  "source_file": "6-consumer/lessons/1-speech-recognition/virtual-device-audio.md",
-  "language_code": "bn"
-}
--->
 # অডিও ধারণ করুন - ভার্চুয়াল IoT ডিভাইস
 
 এই পাঠে আপনি যে পাইথন লাইব্রেরিগুলি ব্যবহার করবেন বক্তৃতাকে টেক্সটে রূপান্তর করার জন্য, সেগুলিতে Windows, macOS এবং Linux-এ অডিও ধারণ করার জন্য বিল্ট-ইন সুবিধা রয়েছে। এখানে আপনাকে কিছুই করতে হবে না।

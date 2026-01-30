@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "012b69d57d898d670adf61304f42a137",
-  "translation_date": "2025-08-27T13:50:49+00:00",
-  "source_file": "6-consumer/lessons/3-spoken-feedback/wio-terminal-set-timer.md",
-  "language_code": "bn"
-}
--->
 # টাইমার সেট করুন - Wio Terminal
 
 এই পাঠের এই অংশে, আপনি আপনার সার্ভারলেস কোড কল করবেন বক্তৃতা বুঝতে এবং ফলাফলের উপর ভিত্তি করে আপনার Wio Terminal-এ একটি টাইমার সেট করবেন।

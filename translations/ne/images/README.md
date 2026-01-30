@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "50abd54997afa7e7a3fc7019379e49e3",
-  "translation_date": "2025-08-27T09:47:48+00:00",
-  "source_file": "images/README.md",
-  "language_code": "ne"
-}
--->
 # चित्रहरू
 
 [icons](../../../images/icons) फोल्डरमा रहेका चित्रहरू [Noun Project](https://thenounproject.com) बाट लिइएका हुन् र तिनको श्रेय दिन आवश्यक छ। प्रत्येक चित्रले आवश्यक श्रेयको विवरण दिन्छ। यी चित्रहरू कुनै पनि चित्रणलाई एकरूप राख्न आवश्यक परेमा प्रयोग गर्नुपर्छ।

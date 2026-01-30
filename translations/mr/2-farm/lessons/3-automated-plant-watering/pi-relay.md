@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "66b81165e60f8f169bd52a401b6a0f8b",
-  "translation_date": "2025-08-27T11:23:11+00:00",
-  "source_file": "2-farm/lessons/3-automated-plant-watering/pi-relay.md",
-  "language_code": "mr"
-}
--->
 # रिले नियंत्रित करा - रास्पबेरी पाय
 
 या धड्याच्या भागात, तुम्ही मातीतील आर्द्रता सेन्सरसोबत रास्पबेरी पायमध्ये रिले जोडाल आणि मातीतील आर्द्रता पातळीवर आधारित त्याचे नियंत्रण कराल.

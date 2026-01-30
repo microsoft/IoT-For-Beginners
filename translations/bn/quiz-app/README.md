@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "2a459ea9177fb0508ca96068ae1009d2",
-  "translation_date": "2025-08-27T15:06:20+00:00",
-  "source_file": "quiz-app/README.md",
-  "language_code": "bn"
-}
--->
 # কুইজ
 
 এই কুইজগুলো IoT for Beginners কারিকুলামের প্রাক-লেকচার এবং পোস্ট-লেকচার কুইজ। বিস্তারিত জানতে ভিজিট করুন: https://aka.ms/iot-beginners

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "3b2448c7ab4e9673e77e35a50c5e350d",
-  "translation_date": "2025-08-27T14:48:54+00:00",
-  "source_file": "3-transport/lessons/1-location-tracking/pi-gps-sensor.md",
-  "language_code": "ne"
-}
--->
 # GPS डेटा पढ्नुहोस् - रास्पबेरी पाई
 
 यस पाठको यस भागमा, तपाईं आफ्नो रास्पबेरी पाईमा GPS सेन्सर थप्नुहुनेछ र यसबाट मानहरू पढ्नुहुनेछ।

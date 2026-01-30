@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "0ac0afcfb40cb5970ef4cb74f01c32e9",
-  "translation_date": "2025-08-27T14:00:41+00:00",
-  "source_file": "6-consumer/lessons/1-speech-recognition/pi-audio.md",
-  "language_code": "bn"
-}
--->
 # অডিও রেকর্ড করুন - র‌্যাস্পবেরি পাই
 
 এই পাঠের এই অংশে, আপনি র‌্যাস্পবেরি পাই-এ অডিও রেকর্ড করার জন্য কোড লিখবেন। একটি বোতামের মাধ্যমে অডিও রেকর্ডিং নিয়ন্ত্রণ করা হবে।

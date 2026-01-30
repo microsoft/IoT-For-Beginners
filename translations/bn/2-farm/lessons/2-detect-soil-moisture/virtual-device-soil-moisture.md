@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "2bf65f162bcebd35fbcba5fd245afac4",
-  "translation_date": "2025-08-27T11:49:25+00:00",
-  "source_file": "2-farm/lessons/2-detect-soil-moisture/virtual-device-soil-moisture.md",
-  "language_code": "bn"
-}
--->
 # মাটির আর্দ্রতা পরিমাপ করুন - ভার্চুয়াল IoT হার্ডওয়্যার
 
 এই পাঠের এই অংশে, আপনি আপনার ভার্চুয়াল IoT ডিভাইসে একটি ক্যাপাসিটিভ মাটির আর্দ্রতা সেন্সর যোগ করবেন এবং এর থেকে মান পড়বেন।

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "64ad4ddb4de81a18b7252e968f10b404",
-  "translation_date": "2025-08-27T13:45:43+00:00",
-  "source_file": "6-consumer/lessons/3-spoken-feedback/single-board-computer-set-timer.md",
-  "language_code": "mr"
-}
--->
 # टाइमर सेट करा - व्हर्च्युअल IoT हार्डवेअर आणि रास्पबेरी पाय
 
 या धड्याच्या भागामध्ये, तुम्ही तुमचा सर्व्हरलेस कोड कॉल कराल, भाषेचा अर्थ समजून घेण्यासाठी आणि परिणामांवर आधारित तुमच्या व्हर्च्युअल IoT डिव्हाइस किंवा रास्पबेरी पायवर टाइमर सेट कराल.

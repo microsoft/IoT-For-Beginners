@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "9d4d00a47d5d0f3e6ce42c0d1020064a",
-  "translation_date": "2025-08-27T11:52:08+00:00",
-  "source_file": "2-farm/lessons/2-detect-soil-moisture/pi-soil-moisture.md",
-  "language_code": "ne"
-}
--->
 # माटोको चिस्यान मापन गर्नुहोस् - Raspberry Pi
 
 यस पाठको यस भागमा, तपाईं Raspberry Pi मा एक capacitive माटोको चिस्यान सेन्सर थप्नुहुनेछ, र यसबाट मानहरू पढ्नुहुनेछ।

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "9d4d00a47d5d0f3e6ce42c0d1020064a",
-  "translation_date": "2025-08-27T11:51:10+00:00",
-  "source_file": "2-farm/lessons/2-detect-soil-moisture/pi-soil-moisture.md",
-  "language_code": "mr"
-}
--->
 # मातीतील आर्द्रता मोजा - रास्पबेरी पाय
 
 या धड्याच्या भागात, तुम्ही रास्पबेरी पायला एक कॅपेसिटिव मातीतील आर्द्रता सेन्सर जोडाल आणि त्यातून मूल्ये वाचाल.

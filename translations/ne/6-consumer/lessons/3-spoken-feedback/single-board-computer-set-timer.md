@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "64ad4ddb4de81a18b7252e968f10b404",
-  "translation_date": "2025-08-27T13:46:02+00:00",
-  "source_file": "6-consumer/lessons/3-spoken-feedback/single-board-computer-set-timer.md",
-  "language_code": "ne"
-}
--->
 # टाइमर सेट गर्नुहोस् - भर्चुअल IoT हार्डवेयर र रास्पबेरी पाई
 
 यस पाठको यस भागमा, तपाईंले आफ्नो serverless कोडलाई कल गरेर भाषणलाई बुझ्ने प्रयास गर्नुहुनेछ, र परिणामको आधारमा आफ्नो भर्चुअल IoT उपकरण वा रास्पबेरी पाईमा टाइमर सेट गर्नुहुनेछ।

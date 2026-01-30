@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "bbb5aa34221fe129dd3ce4d9ec33831a",
-  "translation_date": "2025-08-27T13:32:16+00:00",
-  "source_file": "6-consumer/lessons/4-multiple-language-support/pi-translate-speech.md",
-  "language_code": "ne"
-}
--->
 # भाषण अनुवाद गर्नुहोस् - रास्पबेरी पाई
 
 यस पाठको यस भागमा, तपाईं अनुवादक सेवाको प्रयोग गरेर पाठ अनुवाद गर्न कोड लेख्नुहुनेछ।

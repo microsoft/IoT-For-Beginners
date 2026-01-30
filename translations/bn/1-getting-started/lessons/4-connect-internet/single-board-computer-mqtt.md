@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "90fb93446e03c38f3c0e4009c2471906",
-  "translation_date": "2025-08-27T12:31:33+00:00",
-  "source_file": "1-getting-started/lessons/4-connect-internet/single-board-computer-mqtt.md",
-  "language_code": "bn"
-}
--->
 # ইন্টারনেটের মাধ্যমে আপনার নাইটলাইট নিয়ন্ত্রণ করুন - ভার্চুয়াল IoT হার্ডওয়্যার এবং র‍্যাস্পবেরি পাই
 
 IoT ডিভাইসটি *test.mosquitto.org* এর সাথে MQTT ব্যবহার করে যোগাযোগ করার জন্য কোড করা প্রয়োজন, যাতে এটি লাইট সেন্সরের রিডিং সহ টেলিমেট্রি মান পাঠাতে পারে এবং LED নিয়ন্ত্রণের জন্য কমান্ড গ্রহণ করতে পারে।

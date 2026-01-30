@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "f8f541ee945545017a51aaf309aa37c3",
-  "translation_date": "2025-08-27T11:24:46+00:00",
-  "source_file": "2-farm/lessons/3-automated-plant-watering/virtual-device-relay.md",
-  "language_code": "ne"
-}
--->
 # रिले नियन्त्रण गर्नुहोस् - भर्चुअल IoT हार्डवेयर
 
 यस पाठको यस भागमा, तपाईंले माटोको चिस्यान सेन्सरको अतिरिक्त आफ्नो भर्चुअल IoT उपकरणमा रिले थप्नुहुनेछ, र माटोको चिस्यान स्तरको आधारमा यसलाई नियन्त्रण गर्नुहुनेछ।
