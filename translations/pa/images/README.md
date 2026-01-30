@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "50abd54997afa7e7a3fc7019379e49e3",
-  "translation_date": "2025-08-27T09:47:55+00:00",
-  "source_file": "images/README.md",
-  "language_code": "pa"
-}
--->
 # ਚਿੱਤਰ
 
 [icons](../../../images/icons) ਫੋਲਡਰ ਵਿੱਚ ਚਿੱਤਰ [Noun Project](https://thenounproject.com) ਤੋਂ ਲਏ ਗਏ ਹਨ ਅਤੇ ਇਨ੍ਹਾਂ ਲਈ ਸ਼੍ਰੇਯ ਦੀ ਲੋੜ ਹੈ। ਹਰ ਚਿੱਤਰ ਵਿੱਚ ਲਾਜ਼ਮੀ ਸ਼੍ਰੇਯ ਦੀ ਜਾਣਕਾਰੀ ਦਿੱਤੀ ਗਈ ਹੈ। ਇਹ ਚਿੱਤਰ ਕਿਸੇ ਵੀ ਡਾਇਗ੍ਰਾਮ ਲਈ ਵਰਤੇ ਜਾਣੇ ਚਾਹੀਦੇ ਹਨ ਤਾਂ ਜੋ ਚਿੱਤਰਕਲਾ ਵਿੱਚ ਸਥਿਰਤਾ ਬਣੀ ਰਹੇ।
