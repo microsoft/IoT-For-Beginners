@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "fbbcf96a9b63ccd661db98bbf854bb06",
-  "translation_date": "2025-10-11T12:00:30+00:00",
-  "source_file": "3-transport/lessons/1-location-tracking/wio-terminal-gps-decode.md",
-  "language_code": "ta"
-}
--->
 # GPS தரவுகளை டிகோடு செய்யுங்கள் - Wio Terminal
 
 இந்த பாடத்தின் இந்த பகுதியில், Wio Terminal மூலம் GPS சென்சாரில் இருந்து வாசிக்கப்பட்ட NMEA செய்திகளை டிகோடு செய்து, அகல மற்றும் நீள கோடிகளை எடுக்கப் போகிறீர்கள்.

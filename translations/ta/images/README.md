@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "50abd54997afa7e7a3fc7019379e49e3",
-  "translation_date": "2025-10-11T11:38:08+00:00",
-  "source_file": "images/README.md",
-  "language_code": "ta"
-}
--->
 # படங்கள்
 
 [icons](../../../images/icons) கோப்பகத்தில் உள்ள படங்கள் [Noun Project](https://thenounproject.com) மூலம் பெறப்பட்டவை மற்றும் அங்கீகாரம் தேவைப்படுகிறது. ஒவ்வொரு படமும் தேவையான அங்கீகாரத்தை பட்டியலிடுகிறது. இந்த படங்கள் ஒற்றுமையான காட்சியை பராமரிக்க தேவையான வரைபடங்களில் பயன்படுத்தப்பட வேண்டும்.

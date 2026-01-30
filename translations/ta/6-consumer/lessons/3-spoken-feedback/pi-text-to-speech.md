@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "606f3af1c78e3741e48ce77c31cea626",
-  "translation_date": "2025-10-11T12:08:53+00:00",
-  "source_file": "6-consumer/lessons/3-spoken-feedback/pi-text-to-speech.md",
-  "language_code": "ta"
-}
--->
 # உரையை பேச்சாக மாற்றுதல் - ராஸ்பெர்ரி பை
 
 இந்த பாடத்தின் இந்த பகுதியில், உரையை பேச்சாக மாற்றுவதற்கான குறியீட்டை நீங்கள் எழுதுவீர்கள், பேச்சு சேவையைப் பயன்படுத்தி.

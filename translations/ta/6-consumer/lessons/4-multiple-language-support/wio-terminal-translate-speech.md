@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "5f6c164e349f8989959e02a90f37908d",
-  "translation_date": "2025-10-11T12:13:34+00:00",
-  "source_file": "6-consumer/lessons/4-multiple-language-support/wio-terminal-translate-speech.md",
-  "language_code": "ta"
-}
--->
 # பேச்சை மொழிபெயர்க்கவும் - Wio Terminal
 
 இந்த பாடத்தின் இந்த பகுதியில், மொழிபெயர்ப்பாளர் சேவையைப் பயன்படுத்தி உரையை மொழிபெயர்க்க குறியீட்டை எழுதுவீர்கள்.

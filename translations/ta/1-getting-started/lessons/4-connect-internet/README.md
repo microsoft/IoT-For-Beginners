@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "71b5040e0b3472f1c0949c9b55f224c0",
-  "translation_date": "2025-10-11T11:20:38+00:00",
-  "source_file": "1-getting-started/lessons/4-connect-internet/README.md",
-  "language_code": "ta"
-}
--->
 # உங்கள் சாதனத்தை இணையத்துடன் இணைக்கவும்
 
 ![இந்த பாடத்தின் ஸ்கெட்ச் நோட்](../../../../../translated_images/ta/lesson-4.7344e074ea68fa545fd320b12dce36d72dd62d28c3b4596cb26cf315f434b98f.jpg)

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "0ac0afcfb40cb5970ef4cb74f01c32e9",
-  "translation_date": "2025-10-11T12:23:43+00:00",
-  "source_file": "6-consumer/lessons/1-speech-recognition/pi-audio.md",
-  "language_code": "ta"
-}
--->
 # ஆடியோ பதிவு - ராஸ்பெர்ரி பை
 
 இந்த பாடத்தின் இந்த பகுதியில், நீங்கள் ராஸ்பெர்ரி பை-யில் ஆடியோ பதிவை செய்யும் குறியீட்டை எழுதுவீர்கள். ஆடியோ பதிவு ஒரு பொத்தானால் கட்டுப்படுத்தப்படும்.

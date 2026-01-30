@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "7966848a1f870e4c42edb4db67b13c57",
-  "translation_date": "2025-11-18T19:16:59+00:00",
-  "source_file": "6-consumer/lessons/3-spoken-feedback/virtual-device-text-to-speech.md",
-  "language_code": "pcm"
-}
--->
 # Text to speech - Virtual IoT device
 
 For dis part of di lesson, you go write code wey go change text to speech using di speech service.

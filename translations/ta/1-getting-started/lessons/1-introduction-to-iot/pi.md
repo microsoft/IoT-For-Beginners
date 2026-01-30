@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "8ff0d0a1d29832bb896b9c103b69a452",
-  "translation_date": "2025-10-11T11:23:42+00:00",
-  "source_file": "1-getting-started/lessons/1-introduction-to-iot/pi.md",
-  "language_code": "ta"
-}
--->
 # ராஸ்பெர்ரி பை
 
 [ராஸ்பெர்ரி பை](https://raspberrypi.org) என்பது ஒரு சிங்கிள்-போர்டு கணினி. நீங்கள் பல்வேறு சாதனங்கள் மற்றும் எகோசிஸ்டம்களைப் பயன்படுத்தி சென்சார்கள் மற்றும் ஆக்டுவேட்டர்களைச் சேர்க்கலாம், மேலும் இந்த பாடங்களுக்காக [Grove](https://www.seeedstudio.com/category/Grove-c-1003.html) எனப்படும் ஒரு ஹார்ட்வேரின் எகோசிஸ்டத்தைப் பயன்படுத்துகிறோம். Python மூலம் உங்கள் பையை நிரலாக்கி Grove சென்சார்கள் அணுகலாம்.

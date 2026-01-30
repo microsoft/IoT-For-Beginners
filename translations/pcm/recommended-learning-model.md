@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "012bbd19f13171be32ac9ba21d4186c2",
-  "translation_date": "2025-11-18T18:21:13+00:00",
-  "source_file": "recommended-learning-model.md",
-  "language_code": "pcm"
-}
--->
 # Recommended learning model
 
 To get beta result for learning, **we dey recommend “Flipped Model" approach** like science lab: students go dey work on projects for class time, with chance to discuss, ask questions, and get help for their project, and dem go do the lecture part as pre-reads for dia own time.

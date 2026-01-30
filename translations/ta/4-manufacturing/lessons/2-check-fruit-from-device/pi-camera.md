@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "c677667095f6133eee418c7e53615d05",
-  "translation_date": "2025-10-11T11:43:57+00:00",
-  "source_file": "4-manufacturing/lessons/2-check-fruit-from-device/pi-camera.md",
-  "language_code": "ta"
-}
--->
 # படம் பிடிக்கவும் - ராஸ்பெர்ரி பை
 
 இந்த பாடத்தின் இந்த பகுதியில், உங்கள் ராஸ்பெர்ரி பையில் கேமரா சென்சரை சேர்த்து, அதிலிருந்து படங்களைப் படிக்கப் போகிறீர்கள்.

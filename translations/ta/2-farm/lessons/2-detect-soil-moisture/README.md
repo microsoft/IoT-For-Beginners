@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "4fb20273d299dc8d07a8f06c9cd0cdd9",
-  "translation_date": "2025-10-11T12:25:52+00:00",
-  "source_file": "2-farm/lessons/2-detect-soil-moisture/README.md",
-  "language_code": "ta"
-}
--->
 # மண் ஈரப்பதத்தை கண்டறிதல்
 
 ![இந்த பாடத்தின் ஸ்கெட்ச் நோட்](../../../../../translated_images/ta/lesson-6.3e493b60eee85adc8c74dfeaaec3a3a6cfba61fedbcb84aa0146e7e80603a5dd.jpg)

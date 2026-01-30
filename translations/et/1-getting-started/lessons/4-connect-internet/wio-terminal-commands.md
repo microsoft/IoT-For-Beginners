@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "6754c915dae64ba70fcd5e52c37f3adf",
-  "translation_date": "2025-10-11T11:19:10+00:00",
-  "source_file": "1-getting-started/lessons/4-connect-internet/wio-terminal-commands.md",
-  "language_code": "et"
-}
--->
 # Juhi oma öölampi Interneti kaudu - Wio Terminal
 
 Selles õppetunni osas tellid käske, mis saadetakse MQTT brokerilt sinu Wio Terminalile.

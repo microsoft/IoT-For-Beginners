@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "e5896207b304ce1abaf065b8acc0cc79",
-  "translation_date": "2025-10-11T11:48:21+00:00",
-  "source_file": "4-manufacturing/lessons/2-check-fruit-from-device/single-board-computer-classify-image.md",
-  "language_code": "et"
-}
--->
 # Klassifitseeri pilt - Virtuaalne IoT riistvara ja Raspberry Pi
 
 Selles õppetunni osas saadad kaameraga tehtud pildi Custom Vision teenusele, et see klassifitseerida.

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "c527ce85d69b1a3875366ec61cbed8aa",
-  "translation_date": "2025-10-11T11:20:30+00:00",
-  "source_file": "1-getting-started/lessons/4-connect-internet/single-board-computer-commands.md",
-  "language_code": "et"
-}
--->
 # Juhi oma öölampi Interneti kaudu - Virtuaalne IoT riistvara ja Raspberry Pi
 
 Selles õppetunni osas tellid käske, mis saadetakse MQTT brokerilt sinu Raspberry Pi-le või virtuaalsele IoT seadmele.

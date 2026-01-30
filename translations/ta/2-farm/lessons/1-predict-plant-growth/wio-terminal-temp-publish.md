@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "df28cd649cd892bcce034e064913b2f3",
-  "translation_date": "2025-10-11T12:33:25+00:00",
-  "source_file": "2-farm/lessons/1-predict-plant-growth/wio-terminal-temp-publish.md",
-  "language_code": "ta"
-}
--->
 # வெப்பநிலை வெளியிடுதல் - Wio Terminal
 
 இந்த பாடத்தின் இந்த பகுதியில், Wio Terminal கண்டறிந்த வெப்பநிலை மதிப்புகளை MQTT மூலம் வெளியிடுவீர்கள், பின்னர் GDD கணக்கிட பயன்படுத்த முடியும்.

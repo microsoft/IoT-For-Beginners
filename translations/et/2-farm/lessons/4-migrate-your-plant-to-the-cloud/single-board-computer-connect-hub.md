@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "3ac42e284a7222c0e83d2d43231a364f",
-  "translation_date": "2025-10-11T12:32:16+00:00",
-  "source_file": "2-farm/lessons/4-migrate-your-plant-to-the-cloud/single-board-computer-connect-hub.md",
-  "language_code": "et"
-}
--->
 # Ühenda oma IoT-seade pilvega - Virtuaalne IoT-riistvara ja Raspberry Pi
 
 Selles õppetunni osas ühendad oma virtuaalse IoT-seadme või Raspberry Pi oma IoT Hubiga, et saata telemeetriat ja vastu võtta käske.

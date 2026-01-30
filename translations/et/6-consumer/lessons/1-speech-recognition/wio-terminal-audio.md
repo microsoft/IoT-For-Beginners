@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "2f336726b9410e97c3aaed76cc89b0d8",
-  "translation_date": "2025-10-11T12:18:00+00:00",
-  "source_file": "6-consumer/lessons/1-speech-recognition/wio-terminal-audio.md",
-  "language_code": "et"
-}
--->
 # Heli salvestamine - Wio Terminal
 
 Selles õppetüki osas kirjutad koodi, et salvestada heli oma Wio Terminaliga. Heli salvestamist juhitakse ühe Wio Terminali ülemise nupu abil.

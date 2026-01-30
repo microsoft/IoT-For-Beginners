@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "288aebb0c59f7be1d2719b8f9660a313",
-  "translation_date": "2025-10-11T11:52:44+00:00",
-  "source_file": "4-manufacturing/lessons/4-trigger-fruit-detector/wio-terminal-proximity.md",
-  "language_code": "ta"
-}
--->
 # நெருக்கத்தை கண்டறிதல் - Wio Terminal
 
 இந்த பாடத்தின் இந்த பகுதியில், நீங்கள் உங்கள் Wio Terminal-க்கு ஒரு நெருக்கம் சென்சரை சேர்த்து, அதிலிருந்து தூரத்தை படிக்கப் போகிறீர்கள்.

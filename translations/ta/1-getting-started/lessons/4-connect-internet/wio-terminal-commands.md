@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "6754c915dae64ba70fcd5e52c37f3adf",
-  "translation_date": "2025-10-11T11:18:59+00:00",
-  "source_file": "1-getting-started/lessons/4-connect-internet/wio-terminal-commands.md",
-  "language_code": "ta"
-}
--->
 # உங்கள் இரவுத்தீபத்தை இணையத்தில் கட்டுப்படுத்துங்கள் - Wio Terminal
 
 இந்த பாடத்தின் இந்த பகுதியில், நீங்கள் Wio Terminal-க்கு MQTT broker-ல் இருந்து அனுப்பப்படும் கட்டளைகளை சந்திக்கப் போகிறீர்கள்.

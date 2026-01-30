@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "f3c5d8afa2ef6a0b425ef8ff20615cb4",
-  "translation_date": "2025-10-11T12:44:19+00:00",
-  "source_file": "2-farm/lessons/3-automated-plant-watering/wio-terminal-relay.md",
-  "language_code": "et"
-}
--->
 # Juhtige releed - Wio Terminal
 
 Selles õppetunni osas lisate Wio Terminalile relee lisaks mulla niiskuse andurile ja juhite seda mulla niiskustaseme põhjal.

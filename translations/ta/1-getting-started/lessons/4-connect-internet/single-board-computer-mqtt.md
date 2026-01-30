@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "90fb93446e03c38f3c0e4009c2471906",
-  "translation_date": "2025-10-11T11:23:05+00:00",
-  "source_file": "1-getting-started/lessons/4-connect-internet/single-board-computer-mqtt.md",
-  "language_code": "ta"
-}
--->
 # உங்கள் இரவுக்கால விளக்கை இணையத்தின் மூலம் கட்டுப்படுத்துங்கள் - மெய்நிகர் IoT சாதனம் மற்றும் ராஸ்பெர்ரி பை
 
 IoT சாதனம் *test.mosquitto.org* உடன் MQTT மூலம் தொடர்பு கொண்டு ஒளி சென்சார் வாசிப்புடன் டெலிமெட்ரி மதிப்புகளை அனுப்பவும், LED ஐ கட்டுப்படுத்த கட்டளைகளை பெறவும் குறியிடப்பட வேண்டும்.

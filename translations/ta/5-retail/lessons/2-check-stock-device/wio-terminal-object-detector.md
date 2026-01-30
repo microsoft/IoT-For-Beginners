@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "4cf1421420a6fab9ab4f2c391bd523b7",
-  "translation_date": "2025-10-11T12:50:31+00:00",
-  "source_file": "5-retail/lessons/2-check-stock-device/wio-terminal-object-detector.md",
-  "language_code": "ta"
-}
--->
 # உங்கள் IoT சாதனத்திலிருந்து உங்கள் பொருள் கண்டறிவியை அழைக்கவும் - Wio Terminal
 
 உங்கள் பொருள் கண்டறிவி வெளியிடப்பட்டவுடன், அதை உங்கள் IoT சாதனத்திலிருந்து பயன்படுத்தலாம்.

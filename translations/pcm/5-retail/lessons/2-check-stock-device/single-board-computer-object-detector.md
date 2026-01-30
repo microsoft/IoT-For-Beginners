@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "a3fdfec1d1e2cb645ea11c2930b51299",
-  "translation_date": "2025-11-18T19:53:42+00:00",
-  "source_file": "5-retail/lessons/2-check-stock-device/single-board-computer-object-detector.md",
-  "language_code": "pcm"
-}
--->
 # Call your object detector from your IoT device - Virtual IoT Hardware and Raspberry Pi
 
 Wen you don publish your object detector, you fit use am from your IoT device.

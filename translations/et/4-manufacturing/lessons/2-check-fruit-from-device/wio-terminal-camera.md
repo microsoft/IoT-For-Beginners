@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "160be8c0f558687f6686dca64f10f739",
-  "translation_date": "2025-10-11T11:45:50+00:00",
-  "source_file": "4-manufacturing/lessons/2-check-fruit-from-device/wio-terminal-camera.md",
-  "language_code": "et"
-}
--->
 # Pildi jäädvustamine - Wio Terminal
 
 Selles õppetunni osas lisate oma Wio Terminalile kaamera ja jäädvustate sellest pilte.

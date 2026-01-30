@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "3dce18fab38adf93ff30b8c221b1eec5",
-  "translation_date": "2025-10-11T11:17:08+00:00",
-  "source_file": "hardware.md",
-  "language_code": "et"
-}
--->
 # Riistvara
 
 IoT-i **T** tähistab **Things** ehk asju, mis suhtlevad meid ümbritseva maailmaga. Iga projekt põhineb reaalsel riistvaral, mis on kättesaadav nii õpilastele kui ka hobitegijatele. Meil on kaks valikut IoT-riistvara osas, sõltuvalt isiklikest eelistustest, programmeerimiskeele teadmistest või eelistustest, õpieesmärkidest ja saadavusest. Lisaks oleme pakkunud ka "virtuaalse riistvara" versiooni neile, kellel pole riistvarale ligipääsu või kes soovivad enne ostu rohkem õppida.

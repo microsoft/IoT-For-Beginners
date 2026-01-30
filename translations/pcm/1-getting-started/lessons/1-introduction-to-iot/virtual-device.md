@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "52b4de6144b2efdced7797a5339d6035",
-  "translation_date": "2025-11-18T18:32:44+00:00",
-  "source_file": "1-getting-started/lessons/1-introduction-to-iot/virtual-device.md",
-  "language_code": "pcm"
-}
--->
 # Virtual single-board computer
 
 Instead of to buy IoT device, plus sensors and actuators, you fit use your computer take do simulation for IoT hardware. The [CounterFit project](https://github.com/CounterFit-IoT/CounterFit) go allow you run app for your computer wey go simulate IoT hardware like sensors and actuators, and you fit access the sensors and actuators from Python code wey you write for your computer, same way you go write am for Raspberry Pi wey dey use physical hardware.

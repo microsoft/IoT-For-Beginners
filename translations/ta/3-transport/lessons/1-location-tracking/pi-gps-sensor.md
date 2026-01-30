@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "3b2448c7ab4e9673e77e35a50c5e350d",
-  "translation_date": "2025-10-11T11:59:00+00:00",
-  "source_file": "3-transport/lessons/1-location-tracking/pi-gps-sensor.md",
-  "language_code": "ta"
-}
--->
 # GPS தரவுகளைப் படிக்கவும் - ராஸ்பெர்ரி பை
 
 இந்த பாடத்தின் இந்த பகுதியில், நீங்கள் உங்கள் ராஸ்பெர்ரி பையில் GPS சென்சரை சேர்த்து, அதிலிருந்து மதிப்புகளைப் படிக்கப் போகிறீர்கள்.

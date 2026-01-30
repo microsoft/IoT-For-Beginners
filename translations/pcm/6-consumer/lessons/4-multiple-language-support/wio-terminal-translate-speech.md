@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "5f6c164e349f8989959e02a90f37908d",
-  "translation_date": "2025-11-18T19:19:06+00:00",
-  "source_file": "6-consumer/lessons/4-multiple-language-support/wio-terminal-translate-speech.md",
-  "language_code": "pcm"
-}
--->
 # Translate speech - Wio Terminal
 
 For dis part of di lesson, you go write code wey go translate text using di translator service.

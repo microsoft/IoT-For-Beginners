@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "2f336726b9410e97c3aaed76cc89b0d8",
-  "translation_date": "2025-11-18T19:23:24+00:00",
-  "source_file": "6-consumer/lessons/1-speech-recognition/wio-terminal-audio.md",
-  "language_code": "pcm"
-}
--->
 # Capture audio - Wio Terminal
 
 For dis part of di lesson, you go write code wey go capture audio for your Wio Terminal. Di audio capture go dey control by one of di buttons wey dey di top of di Wio Terminal.

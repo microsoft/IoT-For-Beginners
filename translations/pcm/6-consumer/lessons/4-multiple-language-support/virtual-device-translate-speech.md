@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "d620a470d9dd8614d99824832978360a",
-  "translation_date": "2025-11-18T19:21:20+00:00",
-  "source_file": "6-consumer/lessons/4-multiple-language-support/virtual-device-translate-speech.md",
-  "language_code": "pcm"
-}
--->
 # Translate speech - Virtual IoT Device
 
 For dis part of di lesson, you go write code wey go translate wetin person talk wen e dey convert am to text wit di speech service, den translate di text wit di Translator service before e go generate di spoken response.

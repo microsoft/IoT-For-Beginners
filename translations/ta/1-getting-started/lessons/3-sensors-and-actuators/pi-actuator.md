@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "4db8a3879a53490513571df2f6cf7641",
-  "translation_date": "2025-10-11T11:33:05+00:00",
-  "source_file": "1-getting-started/lessons/3-sensors-and-actuators/pi-actuator.md",
-  "language_code": "ta"
-}
--->
 # இரவுத்தூக்க விளக்கை உருவாக்குதல் - ராஸ்பெர்ரி பை
 
 இந்த பாடத்தின் இந்த பகுதியில், உங்கள் ராஸ்பெர்ரி பை-க்கு ஒரு LED ஐ சேர்த்து, அதை பயன்படுத்தி ஒரு இரவுத்தூக்க விளக்கை உருவாக்குவீர்கள்.

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "288aebb0c59f7be1d2719b8f9660a313",
-  "translation_date": "2025-11-18T18:59:54+00:00",
-  "source_file": "4-manufacturing/lessons/4-trigger-fruit-detector/wio-terminal-proximity.md",
-  "language_code": "pcm"
-}
--->
 # Detect proximity - Wio Terminal
 
 For dis part of di lesson, you go add proximity sensor to your Wio Terminal, and read di distance wey e dey measure.

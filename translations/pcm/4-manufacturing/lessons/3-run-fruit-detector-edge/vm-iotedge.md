@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "24dc783a600e20251211987b36370e93",
-  "translation_date": "2025-11-18T18:46:55+00:00",
-  "source_file": "4-manufacturing/lessons/3-run-fruit-detector-edge/vm-iotedge.md",
-  "language_code": "pcm"
-}
--->
 # Create virtual machine wey dey run IoT Edge
 
 For Azure, you fit create virtual machine - na computer wey dey for cloud wey you fit configure anyhow you like and run your own software for am.

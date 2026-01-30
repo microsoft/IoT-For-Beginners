@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "271dcd720357806934b2f0d94e19410e",
-  "translation_date": "2026-01-07T01:42:32+00:00",
-  "source_file": "docs/troubleshooting.md",
-  "language_code": "pcm"
-}
--->
 # Raspberry Pi Troubleshooting Guide
 
 Dis guide dey provide solutions to common wahala wey fit show wen you dey run IoT projects for Raspberry Pi devices.  

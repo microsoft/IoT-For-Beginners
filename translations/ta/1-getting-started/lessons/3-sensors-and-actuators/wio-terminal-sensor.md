@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "7f4ad0ef54f248b85b92187c94cf9dcb",
-  "translation_date": "2025-10-11T11:37:23+00:00",
-  "source_file": "1-getting-started/lessons/3-sensors-and-actuators/wio-terminal-sensor.md",
-  "language_code": "ta"
-}
--->
 # சென்சார் சேர்க்கவும் - Wio Terminal
 
 இந்த பாடத்தின் இந்த பகுதியில், நீங்கள் உங்கள் Wio Terminal இல் உள்ள ஒளி சென்சாரைப் பயன்படுத்துவீர்கள்.

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "606f3af1c78e3741e48ce77c31cea626",
-  "translation_date": "2025-11-18T19:15:05+00:00",
-  "source_file": "6-consumer/lessons/3-spoken-feedback/pi-text-to-speech.md",
-  "language_code": "pcm"
-}
--->
 # Text to speech - Raspberry Pi
 
 For dis part of di lesson, you go write code wey go change text to speech using di speech service.

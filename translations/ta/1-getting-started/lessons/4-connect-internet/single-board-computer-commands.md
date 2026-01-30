@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "c527ce85d69b1a3875366ec61cbed8aa",
-  "translation_date": "2025-10-11T11:20:19+00:00",
-  "source_file": "1-getting-started/lessons/4-connect-internet/single-board-computer-commands.md",
-  "language_code": "ta"
-}
--->
 # உங்கள் இரவுத்தீவை இணையத்தின் மூலம் கட்டுப்படுத்துங்கள் - மெய்நிகர் IoT சாதனம் மற்றும் ராஸ்பெர்ரி பை
 
 இந்த பாடத்தின் இந்த பகுதியில், நீங்கள் MQTT broker-ல் இருந்து உங்கள் Raspberry Pi அல்லது மெய்நிகர் IoT சாதனத்திற்கு அனுப்பப்படும் கட்டளைகளை சந்தா செய்யப் போகிறீர்கள்.

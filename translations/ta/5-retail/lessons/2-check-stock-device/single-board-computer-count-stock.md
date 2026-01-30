@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "9c4320311c0f2c1884a6a21265d98a51",
-  "translation_date": "2025-10-11T12:48:43+00:00",
-  "source_file": "5-retail/lessons/2-check-stock-device/single-board-computer-count-stock.md",
-  "language_code": "ta"
-}
--->
 # உங்கள் IoT சாதனத்திலிருந்து பங்கு எண்ணுக - மெய்நிகர் IoT ஹார்ட்வேரும் Raspberry Pi-யும்
 
 முன்னறிவிப்புகள் மற்றும் அவற்றின் எல்லை பெட்டிகளை இணைத்து ஒரு படத்தில் பங்குகளை எண்ண முடியும்.

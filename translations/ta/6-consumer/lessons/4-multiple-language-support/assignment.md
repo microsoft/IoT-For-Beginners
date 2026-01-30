@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "701f4a4466f9309b6e1d863077df0c06",
-  "translation_date": "2025-10-11T12:16:35+00:00",
-  "source_file": "6-consumer/lessons/4-multiple-language-support/assignment.md",
-  "language_code": "ta"
-}
--->
 # உலகளாவிய மொழிபெயர்ப்பாளரை உருவாக்கவும்
 
 ## வழிமுறைகள்

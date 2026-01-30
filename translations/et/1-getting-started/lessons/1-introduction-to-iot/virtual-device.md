@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "52b4de6144b2efdced7797a5339d6035",
-  "translation_date": "2025-10-11T11:25:40+00:00",
-  "source_file": "1-getting-started/lessons/1-introduction-to-iot/virtual-device.md",
-  "language_code": "et"
-}
--->
 # Virtuaalne üheplaadiarvuti
 
 Selle asemel, et osta IoT-seade koos sensorite ja täituritega, saate kasutada oma arvutit IoT-riistvara simuleerimiseks. [CounterFit projekt](https://github.com/CounterFit-IoT/CounterFit) võimaldab teil käivitada rakenduse lokaalselt, mis simuleerib IoT-riistvara, nagu sensorid ja täiturid, ning pääseda nendele ligi lokaalse Python-koodi kaudu, mis on kirjutatud samamoodi nagu füüsilise riistvara kasutamisel Raspberry Pi peal.

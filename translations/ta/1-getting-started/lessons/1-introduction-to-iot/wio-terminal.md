@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "a4f0c166010e31fd7b6ca20bc88dec6d",
-  "translation_date": "2025-10-11T11:29:10+00:00",
-  "source_file": "1-getting-started/lessons/1-introduction-to-iot/wio-terminal.md",
-  "language_code": "ta"
-}
--->
 # Wio Terminal
 
 [Seeed Studios Wio Terminal](https://www.seeedstudio.com/Wio-Terminal-p-4509.html) என்பது Arduino-க்கு இணக்கமான மைக்ரோகண்ட்ரோலர் ஆகும், இதில் WiFi மற்றும் சில சென்சார்கள் மற்றும் ஆக்டுவேட்டர்கள் உள்ளன. மேலும் சென்சார்கள் மற்றும் ஆக்டுவேட்டர்களை சேர்க்கும் போர்ட்கள் உள்ளன, [Grove](https://www.seeedstudio.com/category/Grove-c-1003.html) எனப்படும் ஹார்ட்வேரின் உதவியுடன்.

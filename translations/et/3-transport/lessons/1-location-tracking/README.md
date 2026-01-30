@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "52ed2bd997d08040f79a1a6ef2bac958",
-  "translation_date": "2025-10-11T11:58:12+00:00",
-  "source_file": "3-transport/lessons/1-location-tracking/README.md",
-  "language_code": "et"
-}
--->
 # Asukoha jälgimine
 
 ![Selle õppetunni visuaalne ülevaade](../../../../../translated_images/et/lesson-11.9fddbac4b664c6d50ab7ac9bb32f1fc3f945f03760e72f7f43938073762fb017.jpg)

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "f3c5d8afa2ef6a0b425ef8ff20615cb4",
-  "translation_date": "2025-10-11T12:44:03+00:00",
-  "source_file": "2-farm/lessons/3-automated-plant-watering/wio-terminal-relay.md",
-  "language_code": "ta"
-}
--->
 # ரிலேவை கட்டுப்படுத்துதல் - Wio Terminal
 
 இந்த பாடத்தின் இந்த பகுதியில், மண் ஈரப்பதம் சென்சாருடன் சேர்த்து Wio Terminal-க்கு ஒரு ரிலேவை சேர்த்து, மண் ஈரப்பதம் அளவை அடிப்படையாகக் கொண்டு அதை கட்டுப்படுத்துவீர்கள்.

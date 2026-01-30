@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "d105b44deae539165855c976dcdeca99",
-  "translation_date": "2025-10-11T12:36:02+00:00",
-  "source_file": "2-farm/lessons/1-predict-plant-growth/README.md",
-  "language_code": "ta"
-}
--->
 # IoT மூலம் செடிகளின் வளர்ச்சியை கணிக்கவும்
 
 ![இந்த பாடத்தின் சுருக்கமான சித்திரம்](../../../../../translated_images/ta/lesson-5.42b234299279d263143148b88ab4583861a32ddb03110c6c1120e41bb88b2592.jpg)

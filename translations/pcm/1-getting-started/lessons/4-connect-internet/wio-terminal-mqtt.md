@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "d6faf0e8d3c2d6d20c0aef2a305dab18",
-  "translation_date": "2025-11-18T18:27:41+00:00",
-  "source_file": "1-getting-started/lessons/4-connect-internet/wio-terminal-mqtt.md",
-  "language_code": "pcm"
-}
--->
 # Control your nightlight for Internet - Wio Terminal
 
 Di IoT device go need code wey go make am fit connect wit *test.mosquitto.org* using MQTT to send telemetry values wit di light sensor reading, and receive commands to control di LED.

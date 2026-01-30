@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "64ad4ddb4de81a18b7252e968f10b404",
-  "translation_date": "2025-10-11T12:07:52+00:00",
-  "source_file": "6-consumer/lessons/3-spoken-feedback/single-board-computer-set-timer.md",
-  "language_code": "et"
-}
--->
 # Taimeri seadistamine - Virtuaalne IoT riistvara ja Raspberry Pi
 
 Selles õppetunni osas kutsud serverivaba koodi, et mõista kõnet ja seadistada taimer oma virtuaalses IoT seadmes või Raspberry Pi-s saadud tulemuste põhjal.

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "e74eb2fc7cc3b81916b52e957802f182",
-  "translation_date": "2025-10-11T11:50:22+00:00",
-  "source_file": "4-manufacturing/lessons/1-train-fruit-detector/assignment.md",
-  "language_code": "ta"
-}
--->
 # பல்வேறு பழங்கள் மற்றும் காய்கறிகளுக்கான வகைப்பாட்டாளரை பயிற்சி செய்யுங்கள்
 
 ## வழிமுறைகள்

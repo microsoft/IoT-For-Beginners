@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "0d55caa8c23d73635b7559102cd17b8a",
-  "translation_date": "2025-11-18T19:31:13+00:00",
-  "source_file": "2-farm/lessons/2-detect-soil-moisture/wio-terminal-soil-moisture.md",
-  "language_code": "pcm"
-}
--->
 # Measure soil moisture - Wio Terminal
 
 For dis part of di lesson, you go add one capacitive soil moisture sensor to your Wio Terminal, and read di values wey e dey give.

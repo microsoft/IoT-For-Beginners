@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "5a94fbab1ba737e9bd6cc6c64f114fa0",
-  "translation_date": "2025-11-18T18:23:42+00:00",
-  "source_file": "clean-up.md",
-  "language_code": "pcm"
-}
--->
 # Clean up your project
 
 Wen you don finish each project, e good make you delete your cloud resources.

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "428bda82d9e6016ecea7c797564bf081",
-  "translation_date": "2025-10-11T12:24:42+00:00",
-  "source_file": "2-farm/README.md",
-  "language_code": "et"
-}
--->
 # Põllumajandus IoT-ga
 
 Rahvastiku kasvades suureneb ka surve põllumajandusele. Maa hulk ei muutu, kuid kliima küll - tuues põllumeestele veelgi rohkem väljakutseid, eriti 2 miljardile [toimetulekupõllumehele](https://wikipedia.org/wiki/Subsistence_agriculture), kes sõltuvad sellest, mida nad kasvatavad, et süüa ja oma peret toita. IoT võib aidata põllumeestel teha targemaid otsuseid, mida kasvatada ja millal saaki koristada, suurendada saagikust, vähendada käsitsitöö hulka ning tuvastada ja tegeleda kahjuritega.

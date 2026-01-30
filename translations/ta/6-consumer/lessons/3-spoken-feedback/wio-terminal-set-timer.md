@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "012b69d57d898d670adf61304f42a137",
-  "translation_date": "2025-10-11T12:09:22+00:00",
-  "source_file": "6-consumer/lessons/3-spoken-feedback/wio-terminal-set-timer.md",
-  "language_code": "ta"
-}
--->
 # டைமர் அமைக்கவும் - Wio Terminal
 
 இந்த பாடத்தின் இந்த பகுதியில், உங்கள் serverless code-ஐ அழைத்து பேச்சை புரிந்துகொண்டு, முடிவுகளின் அடிப்படையில் உங்கள் Wio Terminal-ல் ஒரு டைமரை அமைப்பீர்கள்.

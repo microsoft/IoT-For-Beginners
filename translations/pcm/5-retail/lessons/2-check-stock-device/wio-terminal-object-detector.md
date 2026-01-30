@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "4cf1421420a6fab9ab4f2c391bd523b7",
-  "translation_date": "2025-11-18T19:53:11+00:00",
-  "source_file": "5-retail/lessons/2-check-stock-device/wio-terminal-object-detector.md",
-  "language_code": "pcm"
-}
--->
 # Call your object detector from your IoT device - Wio Terminal
 
 Wen you don publish your object detector, you fit use am from your IoT device.

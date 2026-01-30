@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "c5a568320b1159394108544807895337",
-  "translation_date": "2025-10-11T11:37:10+00:00",
-  "source_file": "1-getting-started/lessons/3-sensors-and-actuators/assignment.md",
-  "language_code": "ta"
-}
--->
 # சென்சார்கள் மற்றும் செயலாக்கிகள் பற்றிய ஆராய்ச்சி
 
 ## வழிமுறைகள்

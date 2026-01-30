@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "3764e089adf2d5801272bc0895f8498b",
-  "translation_date": "2025-11-18T18:46:12+00:00",
-  "source_file": "4-manufacturing/README.md",
-  "language_code": "pcm"
-}
--->
 # Manufacturing and processing - how IoT fit help make food processing beta
 
 Wen food don reach central hub or processing plant, e no dey always just waka go supermarket. Many times, dem dey process di food first, like to sort am by quality. Before-before, na manual work dem dey do - e go start for farm wen di pickers go dey pick only ripe fruit, den for factory di fruit go dey move for conveyer belt and workers go dey use hand remove any fruit wey don spoil or get bruise. I don pick and sort strawberry before as summer job wen I dey school, so I fit talk say dis work no sweet at all.

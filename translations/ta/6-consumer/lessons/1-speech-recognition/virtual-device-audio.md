@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "e4f2925acb211765889c3b51b9116ceb",
-  "translation_date": "2025-10-11T12:23:09+00:00",
-  "source_file": "6-consumer/lessons/1-speech-recognition/virtual-device-audio.md",
-  "language_code": "ta"
-}
--->
 # ஆடியோ பதிவு - மெய்நிகர் IoT சாதனம்
 
 இந்த பாடத்தில் பின்னர் நீங்கள் பயன்படுத்தப் போகும் Python நூலகங்களில் Windows, macOS மற்றும் Linux-இல் ஆடியோ பதிவுக்கான உட்பொதிக்கப்பட்ட வசதி உள்ளது. இங்கு நீங்கள் எதையும் செய்ய தேவையில்லை.

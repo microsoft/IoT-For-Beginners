@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "4506d33bbda7acc0ab20980172687090",
-  "translation_date": "2025-11-18T18:21:51+00:00",
-  "source_file": "attributions.md",
-  "language_code": "pcm"
-}
--->
 # Image attributions
 
 * Bananas by abderraouf omara from di [Noun Project](https://thenounproject.com)

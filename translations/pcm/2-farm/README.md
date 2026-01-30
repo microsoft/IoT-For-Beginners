@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "428bda82d9e6016ecea7c797564bf081",
-  "translation_date": "2025-11-18T19:30:07+00:00",
-  "source_file": "2-farm/README.md",
-  "language_code": "pcm"
-}
--->
 # Farming wit IoT
 
 As people dey plenty, na so demand for agriculture dey increase. Di land wey dey available no dey change, but di climate dey change - e dey give farmers more wahala, especially di 2 billion [subsistence farmers](https://wikipedia.org/wiki/Subsistence_agriculture) wey dey depend on wetin dem grow to chop and take care of dia family. IoT fit help farmers make better decision on wetin to grow and wen to harvest, increase wetin dem fit produce, reduce di amount of hand work, and detect plus handle pests.

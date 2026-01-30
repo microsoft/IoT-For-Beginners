@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "22a1d6e49f2a689fe5bfa7802a7241fc",
-  "translation_date": "2025-10-11T12:48:08+00:00",
-  "source_file": "5-retail/README.md",
-  "language_code": "et"
-}
--->
 # Jaekaubandus - IoT kasutamine laoseisude haldamiseks
 
 Viimane etapp enne, kui toit jõuab tarbijateni, on jaekaubandus - turud, köögiviljapoed, supermarketid ja kauplused, mis müüvad tooteid tarbijatele. Need kauplused soovivad tagada, et riiulitel oleks alati tooteid, mida tarbijad näha ja osta saaksid.

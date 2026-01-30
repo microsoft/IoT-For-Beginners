@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "8ff0d0a1d29832bb896b9c103b69a452",
-  "translation_date": "2025-10-11T11:24:27+00:00",
-  "source_file": "1-getting-started/lessons/1-introduction-to-iot/pi.md",
-  "language_code": "et"
-}
--->
 # Raspberry Pi
 
 [Raspberry Pi](https://raspberrypi.org) on üheplaadiline arvuti. Saad lisada sensoreid ja täitureid, kasutades mitmesuguseid seadmeid ja ökosüsteeme. Nendes õppetundides kasutatakse riistvara ökosüsteemi nimega [Grove](https://www.seeedstudio.com/category/Grove-c-1003.html). Sa programmeerid oma Pi-d ja pääsed Grove sensoritele ligi Pythonis.

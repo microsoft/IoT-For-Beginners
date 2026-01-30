@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "c0550b254b9ba2539baf1e6bb5fc05f8",
-  "translation_date": "2025-10-11T12:23:32+00:00",
-  "source_file": "6-consumer/lessons/1-speech-recognition/virtual-device-speech-to-text.md",
-  "language_code": "et"
-}
--->
 # Kõne tekstiks - Virtuaalne IoT-seade
 
 Selles õppetunni osas kirjutad koodi, et mikrofonist salvestatud kõne teisendada tekstiks, kasutades kõneteenust.

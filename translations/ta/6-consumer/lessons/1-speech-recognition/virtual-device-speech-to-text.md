@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "c0550b254b9ba2539baf1e6bb5fc05f8",
-  "translation_date": "2025-10-11T12:23:18+00:00",
-  "source_file": "6-consumer/lessons/1-speech-recognition/virtual-device-speech-to-text.md",
-  "language_code": "ta"
-}
--->
 # உரையை உரையாடல் மூலம் மாற்றுதல் - மெய்நிகர் IoT சாதனம்
 
 இந்த பாடத்தின் இந்த பகுதியில், உங்கள் மைக்ரோஃபோனில் பிடிக்கப்பட்ட உரையை உரையாக மாற்றுவதற்கான குறியீட்டை எழுதுவீர்கள்.

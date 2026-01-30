@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "e2b1b891b08ef7633d285547fbe73290",
-  "translation_date": "2025-10-11T11:18:36+00:00",
-  "source_file": "1-getting-started/README.md",
-  "language_code": "et"
-}
--->
 # IoT-ga alustamine
 
 Selles õppekava osas tutvustatakse teile asjade internetti (IoT) ning õpite põhimõisteid, sealhulgas loote oma esimese "Tere maailm" IoT-projekti, mis ühendub pilvega. See projekt on öölamp, mis süttib, kui sensor mõõdab valguse taseme langust.

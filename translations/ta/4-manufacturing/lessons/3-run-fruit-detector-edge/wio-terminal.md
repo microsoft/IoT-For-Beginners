@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "48ac21ec80329c930db7b84bd6b592ec",
-  "translation_date": "2025-10-11T11:43:39+00:00",
-  "source_file": "4-manufacturing/lessons/3-run-fruit-detector-edge/wio-terminal.md",
-  "language_code": "ta"
-}
--->
 # IoT Edge அடிப்படையிலான படத்தை வகைப்படுத்துதல் - Wio Terminal
 
 இந்த பாடத்தின் இந்த பகுதியில், நீங்கள் IoT Edge சாதனத்தில் இயங்கும் Image Classifier-ஐ பயன்படுத்துவீர்கள்.

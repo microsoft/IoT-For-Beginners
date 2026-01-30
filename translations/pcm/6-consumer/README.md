@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "5de7dc1e2ddc402d415473bb795568d4",
-  "translation_date": "2025-11-18T19:11:33+00:00",
-  "source_file": "6-consumer/README.md",
-  "language_code": "pcm"
-}
--->
 # Consumer IoT - build smart voice assistant
 
 Di food don grow, dem don carry am go processing plant, sort am for quality, sell am for store, and now na time to cook! One important thing wey dey any kitchen na timer. For di beginning, dem start with hour glass - your food go don cook when all di sand don waka go di bottom bulb. Later, dem change am to clockwork, then electric.

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "0d55caa8c23d73635b7559102cd17b8a",
-  "translation_date": "2025-10-11T12:25:40+00:00",
-  "source_file": "2-farm/lessons/2-detect-soil-moisture/wio-terminal-soil-moisture.md",
-  "language_code": "et"
-}
--->
 # Mõõda mulla niiskust - Wio Terminal
 
 Selles õppetunni osas lisad oma Wio Terminalile mahtuvusliku mulla niiskuse sensori ja loed sellest väärtusi.

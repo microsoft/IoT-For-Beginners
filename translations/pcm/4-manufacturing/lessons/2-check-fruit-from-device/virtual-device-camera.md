@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "3ba7150ffc4a6999f6c3cfb4906ec7df",
-  "translation_date": "2025-11-18T18:51:35+00:00",
-  "source_file": "4-manufacturing/lessons/2-check-fruit-from-device/virtual-device-camera.md",
-  "language_code": "pcm"
-}
--->
 # Capture image - Virtual IoT Hardware
 
 For dis part of di lesson, you go add camera sensor to your virtual IoT device, and you go dey read images from am.

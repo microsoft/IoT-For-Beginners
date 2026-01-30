@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "0ccdc1faa676a485c4c6ecbddb9f9067",
-  "translation_date": "2025-10-11T12:02:45+00:00",
-  "source_file": "3-transport/lessons/3-visualize-location-data/assignment.md",
-  "language_code": "ta"
-}
--->
 # உங்கள் பயன்பாட்டை வெளியிடுங்கள்
 
 ## வழிமுறைகள்

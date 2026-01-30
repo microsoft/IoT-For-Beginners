@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "5de7dc1e2ddc402d415473bb795568d4",
-  "translation_date": "2025-10-11T12:06:11+00:00",
-  "source_file": "6-consumer/README.md",
-  "language_code": "et"
-}
--->
 # Tarbija IoT - loo nutikas häälassistent
 
 Toit on kasvatatud, viidud töötlemistehasesse, kvaliteedi järgi sorteeritud, poes müüdud ja nüüd on aeg süüa teha! Üks köögi põhielemente on taimer. Alguses olid need liivakellad – toit oli valmis, kui kogu liiv oli alumisse pirni vajunud. Seejärel tulid mehhaanilised taimerid ja siis elektrilised.

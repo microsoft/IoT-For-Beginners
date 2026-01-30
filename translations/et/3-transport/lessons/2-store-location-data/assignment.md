@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "b2e0a965723082b068f735aec0faf3f6",
-  "translation_date": "2025-10-11T12:05:51+00:00",
-  "source_file": "3-transport/lessons/2-store-location-data/assignment.md",
-  "language_code": "et"
-}
--->
 # Uuri funktsioonide sidumisi
 
 ## Juhised

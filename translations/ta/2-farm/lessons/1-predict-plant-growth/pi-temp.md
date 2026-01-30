@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "7678f7c67b97ee52d5727496dcd7d346",
-  "translation_date": "2025-10-11T12:33:46+00:00",
-  "source_file": "2-farm/lessons/1-predict-plant-growth/pi-temp.md",
-  "language_code": "ta"
-}
--->
 # வெப்பநிலை அளவிடுதல் - ராஸ்பெரி பை
 
 இந்த பாடத்தின் இந்த பகுதியில், உங்கள் ராஸ்பெரி பையில் வெப்பநிலை சென்சரை சேர்க்கப் போகிறீர்கள்.

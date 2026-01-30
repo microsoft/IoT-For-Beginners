@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "50151d9f9dce2801348a93880ef16d86",
-  "translation_date": "2025-11-18T18:49:16+00:00",
-  "source_file": "4-manufacturing/lessons/3-run-fruit-detector-edge/single-board-computer.md",
-  "language_code": "pcm"
-}
--->
 # Classify one image wit IoT Edge image classifier - Virtual IoT Hardware and Raspberry Pi
 
 For dis part of di lesson, you go use di Image Classifier wey dey run for IoT Edge device.

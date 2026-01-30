@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "50151d9f9dce2801348a93880ef16d86",
-  "translation_date": "2025-10-11T11:43:21+00:00",
-  "source_file": "4-manufacturing/lessons/3-run-fruit-detector-edge/single-board-computer.md",
-  "language_code": "ta"
-}
--->
 # IoT Edge அடிப்படையிலான படத்தை வகைப்படுத்துதல் - மெய்நிகர் IoT சாதனம் மற்றும் ராஸ்பெர்ரி பை
 
 இந்த பாடத்தின் இந்த பகுதியில், நீங்கள் IoT Edge சாதனத்தில் இயங்கும் பட வகைப்படுத்தியைப் பயன்படுத்துவீர்கள்.

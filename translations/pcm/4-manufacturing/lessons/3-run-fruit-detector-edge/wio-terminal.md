@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "48ac21ec80329c930db7b84bd6b592ec",
-  "translation_date": "2025-11-18T18:50:05+00:00",
-  "source_file": "4-manufacturing/lessons/3-run-fruit-detector-edge/wio-terminal.md",
-  "language_code": "pcm"
-}
--->
 # Classify image wit IoT Edge based image classifier - Wio Terminal
 
 For dis part of di lesson, you go use di Image Classifier wey dey run for di IoT Edge device.

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "9713e21a309662f6fcb271b573d47848",
-  "translation_date": "2026-01-07T01:06:25+00:00",
-  "source_file": "TROUBLESHOOTING.md",
-  "language_code": "et"
-}
--->
 # Tõrkeotsingu juhend
 
 See juhend aitab teil lahendada tavalisi probleeme IoT for Beginners õppekava kasutamisel. Probleemid on kategooriate kaupa mugavaks navigeerimiseks organiseeritud.

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "cbb8c285bc64c5192fae3368fb5077d2",
-  "translation_date": "2025-10-11T12:00:46+00:00",
-  "source_file": "3-transport/lessons/1-location-tracking/single-board-computer-gps-decode.md",
-  "language_code": "ta"
-}
--->
 # GPS தரவை டிகோடு செய்யுங்கள் - மெய்நிகர் IoT ஹார்ட்வேர் மற்றும் ராஸ்பெர்ரி பை
 
 இந்த பாடத்தின் இந்த பகுதியில், ராஸ்பெர்ரி பை அல்லது மெய்நிகர் IoT சாதனத்தால் GPS சென்சாரிலிருந்து படிக்கப்படும் NMEA செய்திகளை டிகோடு செய்து, அகலாங்கு மற்றும் தெப்பாங்கு மதிப்புகளை எடுப்பீர்கள்.

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "4efc74299e19f5d08f2f3f34451a11ba",
-  "translation_date": "2025-10-11T12:34:27+00:00",
-  "source_file": "2-farm/lessons/1-predict-plant-growth/single-board-computer-temp-publish.md",
-  "language_code": "et"
-}
--->
 # Temperatuuri avaldamine - Virtuaalne IoT riistvara ja Raspberry Pi
 
 Selles õppetunni osas avaldate Raspberry Pi või virtuaalse IoT seadme tuvastatud temperatuuri väärtused MQTT kaudu, et neid hiljem kasutada GDD arvutamiseks.

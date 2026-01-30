@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "7966848a1f870e4c42edb4db67b13c57",
-  "translation_date": "2025-10-11T12:10:34+00:00",
-  "source_file": "6-consumer/lessons/3-spoken-feedback/virtual-device-text-to-speech.md",
-  "language_code": "et"
-}
--->
 # Teksti kõneks - Virtuaalne IoT-seade
 
 Selles õppetunni osas kirjutad koodi, et muuta tekst kõneks, kasutades kõneteenust.

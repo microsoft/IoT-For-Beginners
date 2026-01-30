@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "1226517aae5f5b6f904434670394c688",
-  "translation_date": "2025-11-18T18:26:22+00:00",
-  "source_file": "1-getting-started/lessons/4-connect-internet/single-board-computer-telemetry.md",
-  "language_code": "pcm"
-}
--->
 # Control your nightlight for Internet - Virtual IoT Hardware and Raspberry Pi
 
 For dis part of di lesson, you go send telemetry wey get light levels from your Raspberry Pi or virtual IoT device go one MQTT broker.

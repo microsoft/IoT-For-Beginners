@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "2bf65f162bcebd35fbcba5fd245afac4",
-  "translation_date": "2025-11-18T19:30:39+00:00",
-  "source_file": "2-farm/lessons/2-detect-soil-moisture/virtual-device-soil-moisture.md",
-  "language_code": "pcm"
-}
--->
 # Measure soil moisture - Virtual IoT Hardware
 
 For dis part of di lesson, you go add one capacitive soil moisture sensor to your virtual IoT device, and read di values wey e dey give.

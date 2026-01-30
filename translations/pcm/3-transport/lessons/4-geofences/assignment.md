@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "5cb65a6ec4387ed177e145347e8e308e",
-  "translation_date": "2025-11-18T19:03:40+00:00",
-  "source_file": "3-transport/lessons/4-geofences/assignment.md",
-  "language_code": "pcm"
-}
--->
 # Send notifications using Twilio
 
 ## Instructions

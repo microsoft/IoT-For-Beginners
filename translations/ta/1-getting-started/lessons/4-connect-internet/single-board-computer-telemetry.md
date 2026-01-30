@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "1226517aae5f5b6f904434670394c688",
-  "translation_date": "2025-10-11T11:18:42+00:00",
-  "source_file": "1-getting-started/lessons/4-connect-internet/single-board-computer-telemetry.md",
-  "language_code": "ta"
-}
--->
 # உங்கள் இரவுத்தீவை இணையத்தின் மூலம் கட்டுப்படுத்துங்கள் - மெய்நிகர் IoT சாதனம் மற்றும் ராஸ்பெர்ரி பை
 
 இந்த பாடத்தின் இந்த பகுதியில், உங்கள் ராஸ்பெர்ரி பை அல்லது மெய்நிகர் IoT சாதனத்திலிருந்து ஒளியின் அளவுகளை MQTT broker-க்கு அனுப்புவீர்கள்.

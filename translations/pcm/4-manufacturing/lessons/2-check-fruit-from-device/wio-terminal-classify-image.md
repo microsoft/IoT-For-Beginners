@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "32a1f23e7834fbe7715da8c4ebb450b9",
-  "translation_date": "2025-11-18T18:55:10+00:00",
-  "source_file": "4-manufacturing/lessons/2-check-fruit-from-device/wio-terminal-classify-image.md",
-  "language_code": "pcm"
-}
--->
 # Classify Image - Wio Terminal
 
 For dis part of di lesson, you go send di image wey di camera capture go di Custom Vision service to classify am.

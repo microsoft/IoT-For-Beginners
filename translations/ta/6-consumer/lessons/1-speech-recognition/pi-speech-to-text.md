@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "af249a24d4fe4f4de4806adbc3bc9d86",
-  "translation_date": "2025-10-11T12:22:04+00:00",
-  "source_file": "6-consumer/lessons/1-speech-recognition/pi-speech-to-text.md",
-  "language_code": "ta"
-}
--->
 # பேச்சை எழுத்தாக மாற்றுதல் - ராஸ்பெர்ரி பை
 
 இந்த பாடத்தின் இந்த பகுதியில், பேச்சை சேகரிக்கப்பட்ட ஒலியில் இருந்து எழுத்தாக மாற்றும் குறியீட்டை நீங்கள் எழுதுவீர்கள், பேச்சு சேவையைப் பயன்படுத்தி.

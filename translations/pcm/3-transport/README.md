@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "e978534a245b000725ed2a048f943213",
-  "translation_date": "2025-11-18T19:01:43+00:00",
-  "source_file": "3-transport/README.md",
-  "language_code": "pcm"
-}
--->
 # Transport from farm go factory - how IoT fit track food wey dem dey deliver
 
 Plenty farmers dey grow food to sell - e fit be say dem be commercial farmers wey dey sell all di food wey dem grow, or dem be subsistence farmers wey dey sell di extra food wey dem get to take buy wetin dem need. Somehow, di food gatz move from di farm go meet di people wey go chop am, and dis one dey usually depend on bulk transport from di farms, go hubs or processing plants, then go stores. For example, tomato farmer go harvest di tomatoes, pack dem inside boxes, load di boxes for truck, then deliver am go processing plant. Di tomatoes go then dey sorted, and from there dem go deliver am to di people wey go chop am as processed food, retail sales, or for restaurants.

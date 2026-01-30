@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "cbb8c285bc64c5192fae3368fb5077d2",
-  "translation_date": "2025-10-11T12:00:56+00:00",
-  "source_file": "3-transport/lessons/1-location-tracking/single-board-computer-gps-decode.md",
-  "language_code": "et"
-}
--->
 # GPS-andmete dekodeerimine - Virtuaalne IoT-seade ja Raspberry Pi
 
 Selles õppetunni osas dekodeerid NMEA sõnumeid, mida GPS-sensor loeb Raspberry Pi või Virtuaalse IoT-seadme abil, ning eraldad laius- ja pikkuskraadi.

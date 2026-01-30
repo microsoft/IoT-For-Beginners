@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "c0550b254b9ba2539baf1e6bb5fc05f8",
-  "translation_date": "2025-11-18T19:28:49+00:00",
-  "source_file": "6-consumer/lessons/1-speech-recognition/virtual-device-speech-to-text.md",
-  "language_code": "pcm"
-}
--->
 # Tok to text - Virtual IoT device
 
 For dis part of di lesson, you go write code wey go change tok wey microphone capture to text using di speech service.

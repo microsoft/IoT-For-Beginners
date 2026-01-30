@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "4db8a3879a53490513571df2f6cf7641",
-  "translation_date": "2025-11-18T18:39:06+00:00",
-  "source_file": "1-getting-started/lessons/3-sensors-and-actuators/pi-actuator.md",
-  "language_code": "pcm"
-}
--->
 # Build nightlight - Raspberry Pi
 
 For dis part of di lesson, you go add LED to your Raspberry Pi and use am to make nightlight.

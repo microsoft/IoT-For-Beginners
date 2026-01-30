@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "64ad4ddb4de81a18b7252e968f10b404",
-  "translation_date": "2025-10-11T12:07:35+00:00",
-  "source_file": "6-consumer/lessons/3-spoken-feedback/single-board-computer-set-timer.md",
-  "language_code": "ta"
-}
--->
 # டைமரை அமைக்கவும் - மெய்நிகர் IoT ஹார்ட்வேரும் Raspberry Pi-யும்
 
 இந்த பாடத்தின் இந்த பகுதியில், உங்கள் சர்வர்லெஸ் கோடுகளை அழைத்து பேச்சை புரிந்து கொள்ளவும், முடிவுகளின் அடிப்படையில் உங்கள் மெய்நிகர் IoT சாதனத்தில் அல்லது Raspberry Pi-யில் டைமரை அமைக்கவும்.

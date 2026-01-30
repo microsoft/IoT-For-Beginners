@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "f8f541ee945545017a51aaf309aa37c3",
-  "translation_date": "2025-10-11T12:47:32+00:00",
-  "source_file": "2-farm/lessons/3-automated-plant-watering/virtual-device-relay.md",
-  "language_code": "ta"
-}
--->
 # ரிலேவை கட்டுப்படுத்துதல் - மெய்நிகர் IoT சாதனம்
 
 இந்த பாடத்தின் இந்த பகுதியில், மண் ஈரப்பதம் சென்சாருடன் சேர்த்து உங்கள் மெய்நிகர் IoT சாதனத்தில் ஒரு ரிலேவை சேர்த்து, மண் ஈரப்பதம் அளவை அடிப்படையாகக் கொண்டு அதை கட்டுப்படுத்துவீர்கள்.

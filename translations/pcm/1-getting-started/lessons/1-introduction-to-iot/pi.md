@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "8ff0d0a1d29832bb896b9c103b69a452",
-  "translation_date": "2025-11-18T18:31:16+00:00",
-  "source_file": "1-getting-started/lessons/1-introduction-to-iot/pi.md",
-  "language_code": "pcm"
-}
--->
 # Raspberry Pi
 
 [Raspberry Pi](https://raspberrypi.org) na one small computer wey dey one board. You fit add sensors and actuators join am using plenty different devices and ecosystems, and for dis lessons we go use one hardware ecosystem wey dem dey call [Grove](https://www.seeedstudio.com/category/Grove-c-1003.html). You go write code for your Pi and use Python take access the Grove sensors.

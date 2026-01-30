@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "11f10c6760fb8202cf368422702fdf70",
-  "translation_date": "2025-10-11T11:36:10+00:00",
-  "source_file": "1-getting-started/lessons/3-sensors-and-actuators/virtual-device-sensor.md",
-  "language_code": "ta"
-}
--->
 # இரவு விளக்கு உருவாக்குதல் - மெய்நிகர் IoT சாதனம்
 
 இந்த பாடத்தின் இந்த பகுதியில், உங்கள் மெய்நிகர் IoT சாதனத்தில் ஒரு ஒளி உணரியை சேர்க்கப் போகிறீர்கள்.

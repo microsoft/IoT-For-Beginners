@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "6d6aa1be033625d201a190fc9c5cbfb4",
-  "translation_date": "2025-10-11T12:20:20+00:00",
-  "source_file": "6-consumer/lessons/1-speech-recognition/README.md",
-  "language_code": "ta"
-}
--->
 # IoT சாதனத்துடன் பேச்சை அடையாளம் காணவும்
 
 ![இந்த பாடத்தின் ஒரு ஸ்கெட்ச் நோட் கண்ணோட்டம்](../../../../../translated_images/ta/lesson-21.e34de51354d6606fb5ee08d8c89d0222eea0a2a7aaf744a8805ae847c4f69dc4.jpg)

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "8a74f789f3c1bf41a13c007190360c19",
-  "translation_date": "2025-11-18T19:45:38+00:00",
-  "source_file": "2-farm/lessons/6-keep-your-plant-secure/wio-terminal-x509.md",
-  "language_code": "pcm"
-}
--->
 # Use X.509 certificate for your device code - Wio Terminal
 
 As at di time wey dem write dis one, Azure Arduino SDK no dey support X.509 certificates. If you wan try use X.509 certificates, you fit check di [Virtual IoT device instructions wey dey use Python SDK](single-board-computer-x509.md)

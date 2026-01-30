@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "bbb5aa34221fe129dd3ce4d9ec33831a",
-  "translation_date": "2025-10-11T12:16:51+00:00",
-  "source_file": "6-consumer/lessons/4-multiple-language-support/pi-translate-speech.md",
-  "language_code": "ta"
-}
--->
 # பேச்சை மொழிபெயர்க்கவும் - ராஸ்பெர்ரி பை
 
 இந்த பாடத்தின் இந்த பகுதியில், மொழிபெயர்ப்பாளர் சேவையைப் பயன்படுத்தி உரையை மொழிபெயர்க்கும் குறியீட்டை நீங்கள் எழுதுவீர்கள்.

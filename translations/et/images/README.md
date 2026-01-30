@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "50abd54997afa7e7a3fc7019379e49e3",
-  "translation_date": "2025-10-11T11:38:13+00:00",
-  "source_file": "images/README.md",
-  "language_code": "et"
-}
--->
 # Pildid
 
 [Ikoonide](../../../images/icons) kaustas olevad pildid pärinevad [Noun Project](https://thenounproject.com) platvormilt ja nõuavad autorile viitamist. Iga pildi juures on märgitud vajalik viide. Neid pilte tuleks kasutada diagrammides, et hoida visuaalne stiil ühtlane.

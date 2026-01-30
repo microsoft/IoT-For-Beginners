@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "9c4320311c0f2c1884a6a21265d98a51",
-  "translation_date": "2025-11-18T19:51:04+00:00",
-  "source_file": "5-retail/lessons/2-check-stock-device/single-board-computer-count-stock.md",
-  "language_code": "pcm"
-}
--->
 # Count stock from your IoT device - Virtual IoT Hardware and Raspberry Pi
 
 Combination of di predictions and dia bounding boxes fit dey used to count stock wey dey inside one image.

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "3f92edf2975175577174910caca4a389",
-  "translation_date": "2025-10-11T12:19:06+00:00",
-  "source_file": "6-consumer/lessons/1-speech-recognition/wio-terminal-speech-to-text.md",
-  "language_code": "et"
-}
--->
 # Kõne tekstiks - Wio Terminal
 
 Selles õppetunni osas kirjutad koodi, et muuta salvestatud heli kõne tekstiks, kasutades kõneteenust.

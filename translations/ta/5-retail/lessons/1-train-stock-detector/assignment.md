@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "d93ee76fac4c2199973689ecd05baaf9",
-  "translation_date": "2025-10-11T12:52:57+00:00",
-  "source_file": "5-retail/lessons/1-train-stock-detector/assignment.md",
-  "language_code": "ta"
-}
--->
 # டொமைன்களை ஒப்பிடுங்கள்
 
 ## வழிமுறைகள்

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "28320305a35ea3bc59c41fe146a2e6ed",
-  "translation_date": "2025-10-11T12:28:57+00:00",
-  "source_file": "2-farm/lessons/4-migrate-your-plant-to-the-cloud/wio-terminal-connect-hub.md",
-  "language_code": "ta"
-}
--->
 # உங்கள் IoT சாதனத்தை மேகத்துடன் இணைக்கவும் - Wio Terminal
 
 இந்த பாடத்தின் இந்த பகுதியில், உங்கள் Wio Terminal ஐ உங்கள் IoT Hub உடன் இணைத்து, டெலிமெட்ரி அனுப்பவும் கட்டளைகளைப் பெறவும் செய்யலாம்.

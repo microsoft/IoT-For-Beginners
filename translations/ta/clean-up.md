@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "5a94fbab1ba737e9bd6cc6c64f114fa0",
-  "translation_date": "2025-10-11T11:16:23+00:00",
-  "source_file": "clean-up.md",
-  "language_code": "ta"
-}
--->
 # உங்கள் திட்டத்தை சுத்தமாக்குங்கள்
 
 ஒவ்வொரு திட்டத்தையும் முடித்த பிறகு, உங்கள் கிளவுட் வளங்களை நீக்குவது நல்லது.

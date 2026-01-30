@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "6145a1d791731c8a9d0afd0a1bae5108",
-  "translation_date": "2025-11-18T19:00:30+00:00",
-  "source_file": "4-manufacturing/lessons/4-trigger-fruit-detector/pi-proximity.md",
-  "language_code": "pcm"
-}
--->
 # Detect proximity - Raspberry Pi
 
 For dis part of di lesson, you go add proximity sensor to your Raspberry Pi, and read di distance wey e dey measure.

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "271dcd720357806934b2f0d94e19410e",
-  "translation_date": "2026-01-07T01:42:22+00:00",
-  "source_file": "docs/troubleshooting.md",
-  "language_code": "et"
-}
--->
 # Raspberry Pi tõrkeotsingu juhend
 
 See juhend pakub lahendusi tavapärastele probleemidele, mis tekivad IoT projektide käivitamisel Raspberry Pi seadmetel.  

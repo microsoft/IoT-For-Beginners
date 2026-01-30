@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "7a65ee743f916276a2848b8a9491feb7",
-  "translation_date": "2025-10-11T12:20:09+00:00",
-  "source_file": "6-consumer/lessons/1-speech-recognition/virtual-device-microphone.md",
-  "language_code": "ta"
-}
--->
 # உங்கள் மைக்ரோஃபோன் மற்றும் ஸ்பீக்கர்களை அமைக்கவும் - மெய்நிகர் IoT ஹார்ட்வேர்
 
 மெய்நிகர் IoT ஹார்ட்வேர் உங்கள் கணினியில் இணைக்கப்பட்ட மைக்ரோஃபோன் மற்றும் ஸ்பீக்கர்களைப் பயன்படுத்தும்.

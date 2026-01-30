@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "9c4320311c0f2c1884a6a21265d98a51",
-  "translation_date": "2025-10-11T12:49:04+00:00",
-  "source_file": "5-retail/lessons/2-check-stock-device/single-board-computer-count-stock.md",
-  "language_code": "et"
-}
--->
 # Loenda varusid oma IoT-seadmest - Virtuaalne IoT-riistvara ja Raspberry Pi
 
 Ennustuste ja nende piirdekastide kombinatsiooni saab kasutada varude loendamiseks pildil.

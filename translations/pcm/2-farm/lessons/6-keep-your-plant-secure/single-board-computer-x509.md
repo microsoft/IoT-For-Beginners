@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "9aea84bcc7520222b0e1c50469d62d6a",
-  "translation_date": "2025-11-18T19:45:55+00:00",
-  "source_file": "2-farm/lessons/6-keep-your-plant-secure/single-board-computer-x509.md",
-  "language_code": "pcm"
-}
--->
 # Use di X.509 certificate for your device code - Virtual IoT Hardware and Raspberry Pi
 
 For dis part of di lesson, you go connect your virtual IoT device or Raspberry Pi to your IoT Hub wit di X.509 certificate.

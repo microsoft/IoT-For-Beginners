@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "e5896207b304ce1abaf065b8acc0cc79",
-  "translation_date": "2025-11-18T18:56:20+00:00",
-  "source_file": "4-manufacturing/lessons/2-check-fruit-from-device/single-board-computer-classify-image.md",
-  "language_code": "pcm"
-}
--->
 # Classify image - Virtual IoT Hardware and Raspberry Pi
 
 For dis part of di lesson, you go send di image wey di camera capture go Custom Vision service to classify am.

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "9aea84bcc7520222b0e1c50469d62d6a",
-  "translation_date": "2025-10-11T12:43:23+00:00",
-  "source_file": "2-farm/lessons/6-keep-your-plant-secure/single-board-computer-x509.md",
-  "language_code": "ta"
-}
--->
 # உங்கள் சாதனக் குறியீட்டில் X.509 சான்றிதழைப் பயன்படுத்துதல் - மெய்நிகர் IoT ஹார்ட்வேரும் Raspberry Pi-யும்
 
 இந்த பாடத்தின் இந்த பகுதியில், உங்கள் மெய்நிகர் IoT சாதனம் அல்லது Raspberry Pi-யை X.509 சான்றிதழைப் பயன்படுத்தி உங்கள் IoT Hub-க்கு இணைப்பீர்கள்.

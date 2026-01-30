@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "7e45d884493c5222348b43fbc4481b6a",
-  "translation_date": "2025-10-11T12:22:52+00:00",
-  "source_file": "6-consumer/lessons/1-speech-recognition/pi-microphone.md",
-  "language_code": "et"
-}
--->
 # Konfigureeri mikrofon ja kõlarid - Raspberry Pi
 
 Selles õppetunni osas lisad oma Raspberry Pile mikrofoni ja kõlarid.

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "7e45d884493c5222348b43fbc4481b6a",
-  "translation_date": "2025-10-11T12:22:30+00:00",
-  "source_file": "6-consumer/lessons/1-speech-recognition/pi-microphone.md",
-  "language_code": "ta"
-}
--->
 # உங்கள் மைக்ரோஃபோன் மற்றும் ஸ்பீக்கர்களை அமைக்கவும் - ராஸ்பெர்ரி பை
 
 இந்த பாடத்தின் இந்த பகுதியில், நீங்கள் உங்கள் ராஸ்பெர்ரி பையில் மைக்ரோஃபோன் மற்றும் ஸ்பீக்கர்களை சேர்க்கப் போகிறீர்கள்.

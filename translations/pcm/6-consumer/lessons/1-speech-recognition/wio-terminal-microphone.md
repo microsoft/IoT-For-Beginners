@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "93d352de36526b8990e41dd538100324",
-  "translation_date": "2025-11-18T19:25:57+00:00",
-  "source_file": "6-consumer/lessons/1-speech-recognition/wio-terminal-microphone.md",
-  "language_code": "pcm"
-}
--->
 # Configure your microphone and speakers - Wio Terminal
 
 For dis part of di lesson, you go add speaker to your Wio Terminal. Di Wio Terminal don already get microphone wey dem build inside, and you fit use am to capture talk.

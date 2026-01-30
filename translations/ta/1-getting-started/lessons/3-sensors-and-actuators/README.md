@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "e9ee00eb5fc55922a73762acc542166b",
-  "translation_date": "2025-10-11T11:33:41+00:00",
-  "source_file": "1-getting-started/lessons/3-sensors-and-actuators/README.md",
-  "language_code": "ta"
-}
--->
 # சென்சார்கள் மற்றும் செயல்படுத்திகளுடன் பௌதிக உலகத்துடன் தொடர்பு கொள்ளுங்கள்
 
 ![இந்த பாடத்தின் ஒரு ஸ்கெட்ச் நோட்](../../../../../translated_images/ta/lesson-3.cc3b7b4cd646de598698cce043c0393fd62ef42bac2eaf60e61272cd844250f4.jpg)

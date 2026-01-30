@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "50abd54997afa7e7a3fc7019379e49e3",
-  "translation_date": "2025-11-18T18:45:20+00:00",
-  "source_file": "images/README.md",
-  "language_code": "pcm"
-}
--->
 # Images
 
 Di images wey dey inside [icons](../../../images/icons) folder na from [Noun Project](https://thenounproject.com) and dem need make you give credit. Each image dey show di credit wey dem need. Make sure say you use dis images for any diagram wey need am so dat di style go dey match.

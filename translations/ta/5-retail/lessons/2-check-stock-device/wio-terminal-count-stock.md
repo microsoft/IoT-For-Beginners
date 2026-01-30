@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "0b2ae20b0fc8e73c9598dea937cac038",
-  "translation_date": "2025-10-11T12:48:15+00:00",
-  "source_file": "5-retail/lessons/2-check-stock-device/wio-terminal-count-stock.md",
-  "language_code": "ta"
-}
--->
 # உங்கள் IoT சாதனத்திலிருந்து பங்கு எண்ணுக - Wio Terminal
 
 முன்னறிவிப்புகள் மற்றும் அவற்றின் எல்லைகளின் சேர்க்கையைப் பயன்படுத்தி ஒரு படத்தில் பங்குகளை எண்ண முடியும்.

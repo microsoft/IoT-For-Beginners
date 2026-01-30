@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "24dc783a600e20251211987b36370e93",
-  "translation_date": "2025-10-11T11:39:00+00:00",
-  "source_file": "4-manufacturing/lessons/3-run-fruit-detector-edge/vm-iotedge.md",
-  "language_code": "ta"
-}
--->
 # IoT Edge இயங்கும் ஒரு மெய்நிகர் இயந்திரத்தை உருவாக்குதல்
 
 Azure-ல், நீங்கள் ஒரு மெய்நிகர் இயந்திரத்தை உருவாக்கலாம் - இது மேகத்தில் உள்ள ஒரு கணினி, அதை நீங்கள் விரும்பியபடி அமைக்கலாம் மற்றும் உங்கள் சொந்த மென்பொருளை அதில் இயக்கலாம்.

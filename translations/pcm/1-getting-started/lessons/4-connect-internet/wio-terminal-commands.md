@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "6754c915dae64ba70fcd5e52c37f3adf",
-  "translation_date": "2025-11-18T18:26:50+00:00",
-  "source_file": "1-getting-started/lessons/4-connect-internet/wio-terminal-commands.md",
-  "language_code": "pcm"
-}
--->
 # Control your nightlight for Internet - Wio Terminal
 
 For dis part of di lesson, you go subscribe to commands wey dem send from MQTT broker go your Wio Terminal.

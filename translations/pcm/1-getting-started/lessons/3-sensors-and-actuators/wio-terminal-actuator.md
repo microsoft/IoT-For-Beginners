@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "db44083b4dc6fb06eac83c4f16448940",
-  "translation_date": "2025-11-18T18:41:30+00:00",
-  "source_file": "1-getting-started/lessons/3-sensors-and-actuators/wio-terminal-actuator.md",
-  "language_code": "pcm"
-}
--->
 # Build nightlight - Wio Terminal
 
 For dis part of di lesson, you go add LED to your Wio Terminal and use am to make nightlight.

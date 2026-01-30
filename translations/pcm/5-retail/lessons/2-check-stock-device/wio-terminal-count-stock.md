@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "0b2ae20b0fc8e73c9598dea937cac038",
-  "translation_date": "2025-11-18T19:50:23+00:00",
-  "source_file": "5-retail/lessons/2-check-stock-device/wio-terminal-count-stock.md",
-  "language_code": "pcm"
-}
--->
 # Count stock from your IoT device - Wio Terminal
 
 Combination of di predictions and dia bounding boxes fit help count stock wey dey inside one image.

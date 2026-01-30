@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "3f92edf2975175577174910caca4a389",
-  "translation_date": "2025-11-18T19:24:48+00:00",
-  "source_file": "6-consumer/lessons/1-speech-recognition/wio-terminal-speech-to-text.md",
-  "language_code": "pcm"
-}
--->
 # Tok to Text - Wio Terminal
 
 For dis part of di lesson, you go write code wey go change di tok wey dey di audio wey you capture to text using di speech service.

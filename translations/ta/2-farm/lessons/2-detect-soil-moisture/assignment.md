@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "506d21b544d5de47406c89ad496a21cd",
-  "translation_date": "2025-10-11T12:28:32+00:00",
-  "source_file": "2-farm/lessons/2-detect-soil-moisture/assignment.md",
-  "language_code": "ta"
-}
--->
 # உங்கள் சென்சாரை சரிசெய்க
 
 ## வழிமுறைகள்

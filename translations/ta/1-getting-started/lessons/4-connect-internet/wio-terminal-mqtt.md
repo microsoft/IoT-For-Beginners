@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "d6faf0e8d3c2d6d20c0aef2a305dab18",
-  "translation_date": "2025-10-11T11:19:19+00:00",
-  "source_file": "1-getting-started/lessons/4-connect-internet/wio-terminal-mqtt.md",
-  "language_code": "ta"
-}
--->
 # உங்கள் இரவுத்தீவிளக்கை இணையத்தின் மூலம் கட்டுப்படுத்துங்கள் - Wio Terminal
 
 IoT சாதனம் *test.mosquitto.org* உடன் MQTT மூலம் தொடர்பு கொள்ள, ஒளி சென்சார் வாசிப்புடன் டெலிமெட்ரி மதிப்புகளை அனுப்பவும், LED ஐ கட்டுப்படுத்த கட்டளைகளை பெறவும் குறியீடு செய்ய வேண்டும்.

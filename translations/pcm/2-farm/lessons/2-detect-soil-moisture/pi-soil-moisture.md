@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "9d4d00a47d5d0f3e6ce42c0d1020064a",
-  "translation_date": "2025-11-18T19:33:21+00:00",
-  "source_file": "2-farm/lessons/2-detect-soil-moisture/pi-soil-moisture.md",
-  "language_code": "pcm"
-}
--->
 # Measure soil moisture - Raspberry Pi
 
 For dis part of di lesson, you go add one capacitive soil moisture sensor to your Raspberry Pi, and you go read di values wey e dey give.

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "32a1f23e7834fbe7715da8c4ebb450b9",
-  "translation_date": "2025-10-11T11:47:22+00:00",
-  "source_file": "4-manufacturing/lessons/2-check-fruit-from-device/wio-terminal-classify-image.md",
-  "language_code": "ta"
-}
--->
 # ஒரு படத்தை வகைப்படுத்துதல் - Wio Terminal
 
 இந்த பாடத்தின் இந்த பகுதியில், கேமரா மூலம் பிடிக்கப்பட்ட படத்தை Custom Vision சேவைக்கு அனுப்பி அதை வகைப்படுத்துவீர்கள்.

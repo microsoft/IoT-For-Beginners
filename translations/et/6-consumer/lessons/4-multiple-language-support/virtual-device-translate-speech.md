@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "d620a470d9dd8614d99824832978360a",
-  "translation_date": "2025-10-11T12:16:14+00:00",
-  "source_file": "6-consumer/lessons/4-multiple-language-support/virtual-device-translate-speech.md",
-  "language_code": "et"
-}
--->
 # Kõne tõlkimine - Virtuaalne IoT-seade
 
 Selles õppetüki osas kirjutad koodi, mis tõlgib kõne tekstiks kasutades kõneteenust, seejärel tõlgib teksti Translator-teenuse abil ja lõpuks genereerib kõneldava vastuse.

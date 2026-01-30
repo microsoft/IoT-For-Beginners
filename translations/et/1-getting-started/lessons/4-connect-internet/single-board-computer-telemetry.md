@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "1226517aae5f5b6f904434670394c688",
-  "translation_date": "2025-10-11T11:18:51+00:00",
-  "source_file": "1-getting-started/lessons/4-connect-internet/single-board-computer-telemetry.md",
-  "language_code": "et"
-}
--->
 # Juhi oma öölampi Interneti kaudu - Virtuaalne IoT-seade ja Raspberry Pi
 
 Selles õppetunni osas saadad telemeetriat valgustasemetega oma Raspberry Pi või virtuaalse IoT-seadme kaudu MQTT brokerile.

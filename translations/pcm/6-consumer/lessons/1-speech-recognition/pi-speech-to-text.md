@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "af249a24d4fe4f4de4806adbc3bc9d86",
-  "translation_date": "2025-11-18T19:27:30+00:00",
-  "source_file": "6-consumer/lessons/1-speech-recognition/pi-speech-to-text.md",
-  "language_code": "pcm"
-}
--->
 # Speech to text - Raspberry Pi
 
 For dis part of di lesson, you go write code wey go change di speech wey dey di audio wey you capture to text using di speech service.

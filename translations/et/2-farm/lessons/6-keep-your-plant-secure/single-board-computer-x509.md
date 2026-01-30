@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "9aea84bcc7520222b0e1c50469d62d6a",
-  "translation_date": "2025-10-11T12:43:36+00:00",
-  "source_file": "2-farm/lessons/6-keep-your-plant-secure/single-board-computer-x509.md",
-  "language_code": "et"
-}
--->
 # Kasuta X.509 sertifikaati oma seadme koodis - Virtuaalne IoT riistvara ja Raspberry Pi
 
 Selles õppetunni osas ühendad oma virtuaalse IoT seadme või Raspberry Pi IoT Hubiga, kasutades X.509 sertifikaati.

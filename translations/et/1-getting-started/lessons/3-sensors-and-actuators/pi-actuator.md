@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "4db8a3879a53490513571df2f6cf7641",
-  "translation_date": "2025-10-11T11:33:23+00:00",
-  "source_file": "1-getting-started/lessons/3-sensors-and-actuators/pi-actuator.md",
-  "language_code": "et"
-}
--->
 # Ehita öölamp - Raspberry Pi
 
 Selles õppetunni osas lisad oma Raspberry Pi-le LED-i ja kasutad seda öölambi loomiseks.

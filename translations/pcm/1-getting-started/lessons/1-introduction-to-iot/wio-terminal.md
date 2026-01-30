@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "a4f0c166010e31fd7b6ca20bc88dec6d",
-  "translation_date": "2025-11-18T18:35:40+00:00",
-  "source_file": "1-getting-started/lessons/1-introduction-to-iot/wio-terminal.md",
-  "language_code": "pcm"
-}
--->
 # Wio Terminal
 
 Di [Wio Terminal wey Seeed Studios make](https://www.seeedstudio.com/Wio-Terminal-p-4509.html) na Arduino-compatible microcontroller, wey get WiFi, some sensors, and actuators wey dem don already put inside. E still get ports wey you fit use add more sensors and actuators, using one hardware ecosystem wey dem dey call [Grove](https://www.seeedstudio.com/category/Grove-c-1003.html).

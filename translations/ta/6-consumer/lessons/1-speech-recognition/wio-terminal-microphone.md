@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "93d352de36526b8990e41dd538100324",
-  "translation_date": "2025-10-11T12:19:36+00:00",
-  "source_file": "6-consumer/lessons/1-speech-recognition/wio-terminal-microphone.md",
-  "language_code": "ta"
-}
--->
 # உங்கள் மைக்ரோஃபோன் மற்றும் ஸ்பீக்கர்களை அமைக்கவும் - Wio Terminal
 
 இந்த பாடத்தின் இந்த பகுதியில், நீங்கள் உங்கள் Wio Terminal-க்கு ஸ்பீக்கர்களை சேர்க்க வேண்டும். Wio Terminal-ல் ஏற்கனவே ஒரு மைக்ரோஃபோன் உள்ளதால், இது பேச்சை பதிவு செய்ய பயன்படுத்தப்படலாம்.

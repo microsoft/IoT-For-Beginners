@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "22a1d6e49f2a689fe5bfa7802a7241fc",
-  "translation_date": "2025-11-18T19:49:57+00:00",
-  "source_file": "5-retail/README.md",
-  "language_code": "pcm"
-}
--->
 # Retail - how IoT fit help manage stock levels
 
 Di last stage wey feed dey pass before e reach di people wey go chop am na retail - di markets, greengrocers, supermarkets and stores wey dey sell food give people. Dis stores wan make sure say dem get food for shelves wey people fit see and buy.

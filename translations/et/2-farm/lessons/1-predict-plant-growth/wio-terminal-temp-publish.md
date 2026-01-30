@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "df28cd649cd892bcce034e064913b2f3",
-  "translation_date": "2025-10-11T12:33:38+00:00",
-  "source_file": "2-farm/lessons/1-predict-plant-growth/wio-terminal-temp-publish.md",
-  "language_code": "et"
-}
--->
 # Temperatuuri avaldamine - Wio Terminal
 
 Selles õppetunni osas avaldate Wio Terminali tuvastatud temperatuuri väärtused MQTT kaudu, et neid saaks hiljem kasutada GDD arvutamiseks.

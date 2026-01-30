@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "d6faf0e8d3c2d6d20c0aef2a305dab18",
-  "translation_date": "2025-10-11T11:19:43+00:00",
-  "source_file": "1-getting-started/lessons/4-connect-internet/wio-terminal-mqtt.md",
-  "language_code": "et"
-}
--->
 # Juhi oma öölampi interneti kaudu - Wio Terminal
 
 IoT-seade tuleb programmeerida suhtlema *test.mosquitto.org*-iga, kasutades MQTT-d, et saata telemeetrilisi väärtusi valgusanduri näitude põhjal ja vastu võtta käske LED-i juhtimiseks.

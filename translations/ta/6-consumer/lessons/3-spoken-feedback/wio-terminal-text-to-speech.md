@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "a202fa5889790a3777bfc33dd9f4b459",
-  "translation_date": "2025-10-11T12:06:19+00:00",
-  "source_file": "6-consumer/lessons/3-spoken-feedback/wio-terminal-text-to-speech.md",
-  "language_code": "ta"
-}
--->
 # உரையை குரலாக மாற்றுதல் - Wio Terminal
 
 இந்த பாடத்தின் இந்த பகுதியில், உரையை குரலாக மாற்றி பேசும் பின்னூட்டத்தை வழங்கப் போகிறீர்கள்.

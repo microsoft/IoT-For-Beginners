@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "4efc74299e19f5d08f2f3f34451a11ba",
-  "translation_date": "2025-10-11T12:34:17+00:00",
-  "source_file": "2-farm/lessons/1-predict-plant-growth/single-board-computer-temp-publish.md",
-  "language_code": "ta"
-}
--->
 # வெப்பநிலை வெளியிடுதல் - மெய்நிகர் IoT சாதனம் மற்றும் ராஸ்பெர்ரி பை
 
 இந்த பாடத்தின் இந்த பகுதியில், ராஸ்பெர்ரி பை அல்லது மெய்நிகர் IoT சாதனத்தால் கண்டறியப்பட்ட வெப்பநிலையை MQTT மூலம் வெளியிடுவீர்கள், பின்னர் GDD கணக்கிட பயன்படுத்த முடியும்.

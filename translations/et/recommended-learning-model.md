@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "012bbd19f13171be32ac9ba21d4186c2",
-  "translation_date": "2025-10-11T11:13:33+00:00",
-  "source_file": "recommended-learning-model.md",
-  "language_code": "et"
-}
--->
 # Soovitatav õpimudel
 
 Parimate õpitulemuste saavutamiseks **soovitame "pööratud mudeli" lähenemist**, mis sarnaneb teaduslaboritega: õpilased töötavad projektide kallal klassitunnis, kus on võimalus aruteluks, küsimuste esitamiseks ja projektide abistamiseks, ning loengumaterjalid loetakse iseseisvalt ette.

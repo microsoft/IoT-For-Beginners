@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "93d352de36526b8990e41dd538100324",
-  "translation_date": "2025-10-11T12:19:54+00:00",
-  "source_file": "6-consumer/lessons/1-speech-recognition/wio-terminal-microphone.md",
-  "language_code": "et"
-}
--->
 # Konfigureeri mikrofon ja kõlarid - Wio Terminal
 
 Selles õppetunni osas lisad kõlarid oma Wio Terminalile. Wio Terminalil on juba sisseehitatud mikrofon, mida saab kasutada kõne salvestamiseks.

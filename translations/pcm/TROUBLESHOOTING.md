@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "9713e21a309662f6fcb271b573d47848",
-  "translation_date": "2026-01-07T01:07:55+00:00",
-  "source_file": "TROUBLESHOOTING.md",
-  "language_code": "pcm"
-}
--->
 # Troubleshooting Guide
 
 Dis guide go help you solve common wahala wen you dey work wit di IoT for Beginners curriculum. Wahala dem dey organized by category so e go easy to waka through dem.

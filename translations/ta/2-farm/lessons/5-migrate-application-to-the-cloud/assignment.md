@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "c24b6e4d90501c9199f2ceb6a648a337",
-  "translation_date": "2025-10-11T12:40:49+00:00",
-  "source_file": "2-farm/lessons/5-migrate-application-to-the-cloud/assignment.md",
-  "language_code": "ta"
-}
--->
 # கைமுறையாக ரிலே கட்டுப்பாட்டை சேர்க்கவும்
 
 ## வழிமுறைகள்

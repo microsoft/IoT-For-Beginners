@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "7a65ee743f916276a2848b8a9491feb7",
-  "translation_date": "2025-10-11T12:20:15+00:00",
-  "source_file": "6-consumer/lessons/1-speech-recognition/virtual-device-microphone.md",
-  "language_code": "et"
-}
--->
 # Konfigureeri oma mikrofon ja kõlarid - Virtuaalne IoT riistvara
 
 Virtuaalne IoT riistvara kasutab mikrofon ja kõlareid, mis on ühendatud sinu arvutiga.

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "9d4d00a47d5d0f3e6ce42c0d1020064a",
-  "translation_date": "2025-10-11T12:28:03+00:00",
-  "source_file": "2-farm/lessons/2-detect-soil-moisture/pi-soil-moisture.md",
-  "language_code": "ta"
-}
--->
 # மண் ஈரப்பதத்தை அளவிடுதல் - ராஸ்பெரி பை
 
 இந்த பாடத்தின் இந்த பகுதியில், நீங்கள் ஒரு கப்பாசிட்டிவ் மண் ஈரப்பதம் சென்சரை உங்கள் ராஸ்பெரி பையில் சேர்த்து, அதிலிருந்து மதிப்புகளை வாசிக்கப் போகிறீர்கள்.

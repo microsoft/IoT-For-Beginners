@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "9c640f93263fd9adbfda920739e09feb",
-  "translation_date": "2025-10-11T11:36:43+00:00",
-  "source_file": "1-getting-started/lessons/3-sensors-and-actuators/virtual-device-actuator.md",
-  "language_code": "ta"
-}
--->
 # இரவுத்தொலைச்சுடர் - மெய்நிகர் IoT சாதனம்
 
 இந்த பாடத்தின் இந்த பகுதியில், உங்கள் மெய்நிகர் IoT சாதனத்தில் ஒரு LED ஐ சேர்த்து, அதை பயன்படுத்தி ஒரு இரவுத்தொலைச்சுடரை உருவாக்குவீர்கள்.

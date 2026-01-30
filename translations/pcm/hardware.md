@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "3dce18fab38adf93ff30b8c221b1eec5",
-  "translation_date": "2025-11-18T18:24:27+00:00",
-  "source_file": "hardware.md",
-  "language_code": "pcm"
-}
--->
 # Hardware
 
 Di **T** wey dey for IoT na **Things**, e mean di devices wey dey interact wit di world wey dey around us. Every project dey base on real-world hardware wey students and hobbyists fit use. We get two options of IoT hardware wey you fit choose, e depend on wetin you like, di programming language wey you sabi or prefer, your learning goals, and wetin dey available. We also provide 'virtual hardware' version for people wey no get access to hardware or wan learn more before dem buy.

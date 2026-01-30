@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "2a459ea9177fb0508ca96068ae1009d2",
-  "translation_date": "2025-10-11T11:18:17+00:00",
-  "source_file": "quiz-app/README.md",
-  "language_code": "et"
-}
--->
 # Viktoriinid
 
 Need viktoriinid on IoT algajatele õppekava eel- ja järelloengute viktoriinid aadressil https://aka.ms/iot-beginners

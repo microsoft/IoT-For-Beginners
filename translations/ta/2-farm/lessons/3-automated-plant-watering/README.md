@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "f7bb24ba53fb627ddb38a8b24a05e594",
-  "translation_date": "2025-10-11T12:44:33+00:00",
-  "source_file": "2-farm/lessons/3-automated-plant-watering/README.md",
-  "language_code": "ta"
-}
--->
 # தானியங்கிய தாவர நீர்ப்பாசனம்
 
 ![இந்த பாடத்தின் ஸ்கெட்ச் நோட்](../../../../../translated_images/ta/lesson-7.30b5f577d3cb8e031238751475cb519c7d6dbaea261b5df4643d086ffb2a03bb.jpg)

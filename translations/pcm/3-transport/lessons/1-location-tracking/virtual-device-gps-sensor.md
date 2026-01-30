@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "64f18a8f8aaa1fef5e7320e0992d8b3a",
-  "translation_date": "2025-11-18T19:07:13+00:00",
-  "source_file": "3-transport/lessons/1-location-tracking/virtual-device-gps-sensor.md",
-  "language_code": "pcm"
-}
--->
 # Read GPS data - Virtual IoT Hardware
 
 For dis part of di lesson, you go add GPS sensor to your virtual IoT device, and read di values wey e dey give.

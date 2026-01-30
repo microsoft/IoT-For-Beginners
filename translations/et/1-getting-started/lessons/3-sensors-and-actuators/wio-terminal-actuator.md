@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "db44083b4dc6fb06eac83c4f16448940",
-  "translation_date": "2025-10-11T11:35:54+00:00",
-  "source_file": "1-getting-started/lessons/3-sensors-and-actuators/wio-terminal-actuator.md",
-  "language_code": "et"
-}
--->
 # Ehita öölamp - Wio Terminal
 
 Selles õppetunni osas lisad oma Wio Terminalile LED-i ja kasutad seda öölambi loomiseks.

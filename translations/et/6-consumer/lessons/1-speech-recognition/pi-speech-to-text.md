@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "af249a24d4fe4f4de4806adbc3bc9d86",
-  "translation_date": "2025-10-11T12:22:18+00:00",
-  "source_file": "6-consumer/lessons/1-speech-recognition/pi-speech-to-text.md",
-  "language_code": "et"
-}
--->
 # Kõne tekstiks - Raspberry Pi
 
 Selles õppetunni osas kirjutad koodi, et muuta salvestatud heli kõne tekstiks, kasutades kõneteenust.

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "e978534a245b000725ed2a048f943213",
-  "translation_date": "2025-10-11T11:54:06+00:00",
-  "source_file": "3-transport/README.md",
-  "language_code": "et"
-}
--->
 # Transport talust tehasesse - IoT kasutamine toidukaupade jälgimiseks
 
 Paljud talupidajad kasvatavad toitu müügiks – olgu nad siis kommertstalupidajad, kes müüvad kogu oma toodangu, või isevarustustalupidajad, kes müüvad ülejäägi, et osta vajalikke tarbeid. Kuidagi peab toit jõudma talust tarbijani, ja tavaliselt toimub see massitranspordi abil taludest, jaotuskeskustesse või töötlemisettevõtetesse, seejärel poodidesse. Näiteks tomatikasvataja korjab tomatid, pakib need kastidesse, laadib kastid veoautosse ja toimetab töötlemisettevõttesse. Seal sorteeritakse tomatid ja edastatakse tarbijatele kas töödeldud toidu, jaemüügi või restoranides tarbimise vormis.

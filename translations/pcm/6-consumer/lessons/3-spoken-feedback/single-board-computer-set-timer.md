@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "64ad4ddb4de81a18b7252e968f10b404",
-  "translation_date": "2025-11-18T19:13:35+00:00",
-  "source_file": "6-consumer/lessons/3-spoken-feedback/single-board-computer-set-timer.md",
-  "language_code": "pcm"
-}
--->
 # Set timer - Virtual IoT Hardware and Raspberry Pi
 
 For dis part of di lesson, you go call your serverless code to sabi di speech, and set timer for your virtual IoT device or Raspberry Pi based on di result.

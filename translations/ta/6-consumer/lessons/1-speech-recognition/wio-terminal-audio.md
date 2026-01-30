@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "2f336726b9410e97c3aaed76cc89b0d8",
-  "translation_date": "2025-10-11T12:17:21+00:00",
-  "source_file": "6-consumer/lessons/1-speech-recognition/wio-terminal-audio.md",
-  "language_code": "ta"
-}
--->
 # ஆடியோ பதிவு - Wio Terminal
 
 இந்த பாடத்தின் இந்த பகுதியில், Wio Terminal-ல் ஆடியோ பதிவு செய்ய நீங்கள் குறியீடு எழுதுவீர்கள். ஆடியோ பதிவு Wio Terminal-ன் மேல் உள்ள பொத்துகளில் ஒன்றால் கட்டுப்படுத்தப்படும்.

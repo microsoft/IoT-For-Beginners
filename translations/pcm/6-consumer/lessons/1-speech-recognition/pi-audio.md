@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "0ac0afcfb40cb5970ef4cb74f01c32e9",
-  "translation_date": "2025-11-18T19:29:29+00:00",
-  "source_file": "6-consumer/lessons/1-speech-recognition/pi-audio.md",
-  "language_code": "pcm"
-}
--->
 # Capture audio - Raspberry Pi
 
 For dis part of di lesson, you go write code wey go capture audio for your Raspberry Pi. Di audio capture go dey control by one button.

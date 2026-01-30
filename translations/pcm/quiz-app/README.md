@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "2a459ea9177fb0508ca96068ae1009d2",
-  "translation_date": "2025-11-18T18:25:38+00:00",
-  "source_file": "quiz-app/README.md",
-  "language_code": "pcm"
-}
--->
 # Quizzes
 
 Dis quizzes na di pre- and post-lecture quizzes for di IoT for Beginners curriculum wey dey for https://aka.ms/iot-beginners

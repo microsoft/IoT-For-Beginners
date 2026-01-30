@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "a4f0c166010e31fd7b6ca20bc88dec6d",
-  "translation_date": "2025-10-11T11:29:40+00:00",
-  "source_file": "1-getting-started/lessons/1-introduction-to-iot/wio-terminal.md",
-  "language_code": "et"
-}
--->
 # Wio Terminal
 
 [Wio Terminal Seeed Studiosilt](https://www.seeedstudio.com/Wio-Terminal-p-4509.html) on Arduino-ühilduv mikrokontroller, millel on sisseehitatud WiFi, mõned sensorid ja aktuaatorid ning pordid, et lisada rohkem sensoreid ja aktuaatoreid, kasutades riistvara ökosüsteemi nimega [Grove](https://www.seeedstudio.com/category/Grove-c-1003.html).

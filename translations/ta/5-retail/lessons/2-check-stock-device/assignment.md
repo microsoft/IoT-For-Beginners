@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "3cf7783991ec0ee4f6041223924894c7",
-  "translation_date": "2025-10-11T12:51:23+00:00",
-  "source_file": "5-retail/lessons/2-check-stock-device/assignment.md",
-  "language_code": "ta"
-}
--->
 # உங்கள் பொருள் கண்டறியக்கூடியதை எட்ஜில் பயன்படுத்துங்கள்
 
 ## வழிமுறைகள்

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "db44083b4dc6fb06eac83c4f16448940",
-  "translation_date": "2025-10-11T11:35:37+00:00",
-  "source_file": "1-getting-started/lessons/3-sensors-and-actuators/wio-terminal-actuator.md",
-  "language_code": "ta"
-}
--->
 # இரவொளி உருவாக்குதல் - Wio Terminal
 
 இந்த பாடத்தின் இந்த பகுதியில், உங்கள் Wio Terminal-க்கு ஒரு LED சேர்த்து அதை இரவொளியாக உருவாக்கப் போகிறீர்கள்.

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "3764e089adf2d5801272bc0895f8498b",
-  "translation_date": "2025-10-11T11:38:49+00:00",
-  "source_file": "4-manufacturing/README.md",
-  "language_code": "et"
-}
--->
 # Tootmine ja töötlemine – IoT kasutamine toidu töötlemise parandamiseks
 
 Kui toit jõuab keskusesse või töötlemistehasesse, ei saadeta seda alati otse supermarketitesse. Sageli läbib toit mitmeid töötlemisetappe, näiteks kvaliteedi järgi sorteerimist. See oli varem käsitsi tehtav protsess – see algas põllul, kus korjajad valisid ainult küpsed viljad, ja tehases liikusid viljad konveierilindil, kus töötajad eemaldasid käsitsi muljutud või riknenud viljad. Kuna olen ise kooliajal suvetööna maasikaid korjanud ja sorteerinud, võin kinnitada, et see pole just meeldiv töö.

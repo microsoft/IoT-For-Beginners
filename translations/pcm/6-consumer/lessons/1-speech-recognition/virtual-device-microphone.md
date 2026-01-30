@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "7a65ee743f916276a2848b8a9491feb7",
-  "translation_date": "2025-11-18T19:26:23+00:00",
-  "source_file": "6-consumer/lessons/1-speech-recognition/virtual-device-microphone.md",
-  "language_code": "pcm"
-}
--->
 # Configure your microphone and speakers - Virtual IoT Hardware
 
 Di virtual IoT hardware go use microphone and speakers wey dey attach to your computer.

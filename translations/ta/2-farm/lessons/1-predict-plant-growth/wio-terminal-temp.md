@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "59263d094f20b302053888cd236880c3",
-  "translation_date": "2025-10-11T12:34:36+00:00",
-  "source_file": "2-farm/lessons/1-predict-plant-growth/wio-terminal-temp.md",
-  "language_code": "ta"
-}
--->
 # வெப்பநிலை அளிக்கவும் - Wio Terminal
 
 இந்த பாடத்தின் இந்த பகுதியில், நீங்கள் உங்கள் Wio Terminal-க்கு ஒரு வெப்பநிலை சென்சரை சேர்த்து, அதிலிருந்து வெப்பநிலை மதிப்புகளைப் படிக்கப் போகிறீர்கள்.

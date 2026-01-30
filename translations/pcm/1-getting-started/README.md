@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "e2b1b891b08ef7633d285547fbe73290",
-  "translation_date": "2025-11-18T18:26:03+00:00",
-  "source_file": "1-getting-started/README.md",
-  "language_code": "pcm"
-}
--->
 # How to Start with IoT
 
 For dis part of di curriculum, dem go show you wetin Internet of Things (IoT) mean, and you go sabi di basic things wey dey inside, including how to do your first 'Hello World' IoT project wey go connect to di cloud. Dis project na nightlight wey dey shine when di light wey sensor dey measure don reduce.

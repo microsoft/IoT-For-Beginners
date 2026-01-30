@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "4bcc29fe2b65e56eada83d2476279227",
-  "translation_date": "2025-10-11T11:20:02+00:00",
-  "source_file": "1-getting-started/lessons/4-connect-internet/wio-terminal-telemetry.md",
-  "language_code": "ta"
-}
--->
 # உங்கள் இரவுக்கால விளக்கை இணையத்தின் மூலம் கட்டுப்படுத்துங்கள் - Wio Terminal
 
 இந்த பாடத்தின் இந்த பகுதியில், உங்கள் Wio Terminal-இல் இருந்து ஒளி நிலைகளை கொண்ட டெலிமெட்ரியை MQTT broker-க்கு அனுப்புவீர்கள்.

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "a3fdfec1d1e2cb645ea11c2930b51299",
-  "translation_date": "2025-10-11T12:50:58+00:00",
-  "source_file": "5-retail/lessons/2-check-stock-device/single-board-computer-object-detector.md",
-  "language_code": "ta"
-}
--->
 # உங்கள் IoT சாதனத்திலிருந்து உங்கள் பொருள் கண்டறியுபவரை அழைக்கவும் - மெய்நிகர் IoT ஹார்ட்வேரும் Raspberry Pi-யும்
 
 உங்கள் பொருள் கண்டறியுபவர் வெளியிடப்பட்டவுடன், அதை உங்கள் IoT சாதனத்திலிருந்து பயன்படுத்தலாம்.

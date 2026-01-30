@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "7966848a1f870e4c42edb4db67b13c57",
-  "translation_date": "2025-10-11T12:10:13+00:00",
-  "source_file": "6-consumer/lessons/3-spoken-feedback/virtual-device-text-to-speech.md",
-  "language_code": "ta"
-}
--->
 # உரையை பேச்சாக மாற்றுதல் - மெய்நிகர் IoT சாதனம்
 
 இந்த பாடத்தின் இந்த பகுதியில், உரையை பேச்சாக மாற்றுவதற்கான குறியீட்டை நீங்கள் எழுதுவீர்கள், பேச்சுச் சேவையைப் பயன்படுத்தி.

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "8a74f789f3c1bf41a13c007190360c19",
-  "translation_date": "2025-10-11T12:43:14+00:00",
-  "source_file": "2-farm/lessons/6-keep-your-plant-secure/wio-terminal-x509.md",
-  "language_code": "ta"
-}
--->
 # உங்கள் சாதனக் குறியீட்டில் X.509 சான்றிதழைப் பயன்படுத்துதல் - Wio Terminal
 
 இந்த நேரத்தில், Azure Arduino SDK X.509 சான்றிதழ்களை ஆதரிக்கவில்லை. நீங்கள் X.509 சான்றிதழ்களுடன் பரிசோதனை செய்ய விரும்பினால், [Python SDK பயன்படுத்தி மெய்நிகர் IoT சாதன வழிமுறைகளை](single-board-computer-x509.md) பார்க்கலாம்.
