@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "2f336726b9410e97c3aaed76cc89b0d8",
-  "translation_date": "2025-08-28T03:06:08+00:00",
-  "source_file": "6-consumer/lessons/1-speech-recognition/wio-terminal-audio.md",
-  "language_code": "tr"
-}
--->
 # Ses Kaydetme - Wio Terminal
 
 Bu dersin bu bölümünde, Wio Terminal'inizde ses kaydetmek için kod yazacaksınız. Ses kaydı, Wio Terminal'in üst kısmındaki düğmelerden biriyle kontrol edilecektir.

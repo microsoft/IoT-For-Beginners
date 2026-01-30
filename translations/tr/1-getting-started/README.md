@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "e2b1b891b08ef7633d285547fbe73290",
-  "translation_date": "2025-08-28T03:24:30+00:00",
-  "source_file": "1-getting-started/README.md",
-  "language_code": "tr"
-}
--->
 # IoT ile Başlarken
 
 Bu müfredat bölümünde, Nesnelerin İnterneti (IoT) ile tanışacak ve temel kavramları öğreneceksiniz. Ayrıca, buluta bağlanan ilk 'Merhaba Dünya' IoT projenizi oluşturacaksınız. Bu proje, bir sensör tarafından ölçülen ışık seviyeleri düştüğünde yanan bir gece lambasıdır.

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "606f3af1c78e3741e48ce77c31cea626",
-  "translation_date": "2025-08-26T07:19:40+00:00",
-  "source_file": "6-consumer/lessons/3-spoken-feedback/pi-text-to-speech.md",
-  "language_code": "pl"
-}
--->
 # Konwersja tekstu na mowę - Raspberry Pi
 
 W tej części lekcji napiszesz kod, który przekształci tekst na mowę za pomocą usługi mowy.

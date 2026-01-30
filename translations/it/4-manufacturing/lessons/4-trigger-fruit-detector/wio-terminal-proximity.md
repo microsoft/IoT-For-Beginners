@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "288aebb0c59f7be1d2719b8f9660a313",
-  "translation_date": "2025-08-25T16:41:59+00:00",
-  "source_file": "4-manufacturing/lessons/4-trigger-fruit-detector/wio-terminal-proximity.md",
-  "language_code": "it"
-}
--->
 # Rileva la prossimità - Wio Terminal
 
 In questa parte della lezione, aggiungerai un sensore di prossimità al tuo Wio Terminal e leggerai la distanza rilevata.

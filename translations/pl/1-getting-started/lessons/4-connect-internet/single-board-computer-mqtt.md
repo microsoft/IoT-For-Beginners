@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "90fb93446e03c38f3c0e4009c2471906",
-  "translation_date": "2025-08-26T07:00:43+00:00",
-  "source_file": "1-getting-started/lessons/4-connect-internet/single-board-computer-mqtt.md",
-  "language_code": "pl"
-}
--->
 # Steruj swoją lampką nocną przez Internet - Wirtualny sprzęt IoT i Raspberry Pi
 
 Urządzenie IoT musi zostać zaprogramowane tak, aby komunikowało się z *test.mosquitto.org* za pomocą MQTT, wysyłając dane telemetryczne z odczytem czujnika światła oraz odbierając polecenia do sterowania diodą LED.

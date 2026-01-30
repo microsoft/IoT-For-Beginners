@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "52b4de6144b2efdced7797a5339d6035",
-  "translation_date": "2025-08-26T07:07:07+00:00",
-  "source_file": "1-getting-started/lessons/1-introduction-to-iot/virtual-device.md",
-  "language_code": "pl"
-}
--->
 # Wirtualny komputer jednopłytkowy
 
 Zamiast kupować urządzenie IoT wraz z czujnikami i elementami wykonawczymi, możesz użyć swojego komputera do symulacji sprzętu IoT. Projekt [CounterFit](https://github.com/CounterFit-IoT/CounterFit) pozwala uruchomić aplikację lokalnie, która symuluje sprzęt IoT, taki jak czujniki i elementy wykonawcze, oraz uzyskać do nich dostęp za pomocą lokalnego kodu Python, napisanego w taki sam sposób, jak kod, który napisałbyś na Raspberry Pi, używając fizycznego sprzętu.

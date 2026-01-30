@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "9095c61445c2bca7245ef9b59a186a11",
-  "translation_date": "2025-08-25T18:08:49+00:00",
-  "source_file": "3-transport/lessons/3-visualize-location-data/README.md",
-  "language_code": "it"
-}
--->
 # Visualizzare i dati di localizzazione
 
 ![Una panoramica illustrata di questa lezione](../../../../../translated_images/it/lesson-13.a259db1485021be7d7c72e90842fbe0ab977529e8684c179b5fb1ea75e92b3ef.jpg)

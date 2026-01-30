@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "81c437c568eee1b0dda1f04e88150d37",
-  "translation_date": "2025-08-28T04:02:31+00:00",
-  "source_file": "2-farm/lessons/6-keep-your-plant-secure/README.md",
-  "language_code": "tr"
-}
--->
 # Bitkinizi Güvende Tutun
 
 ![Bu dersin bir skeç notu](../../../../../translated_images/tr/lesson-10.829c86b80b9403bb770929ee553a1d293afe50dc23121aaf9be144673ae012cc.jpg)

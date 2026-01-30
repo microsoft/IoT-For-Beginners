@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "e2b1b891b08ef7633d285547fbe73290",
-  "translation_date": "2025-08-25T17:13:00+00:00",
-  "source_file": "1-getting-started/README.md",
-  "language_code": "it"
-}
--->
 # Introduzione all'IoT
 
 In questa sezione del curriculum, sarai introdotto all'Internet delle Cose e imparerai i concetti di base, incluso la creazione del tuo primo progetto IoT "Hello World" connesso al cloud. Questo progetto consiste in una luce notturna che si accende quando i livelli di luce misurati da un sensore diminuiscono.

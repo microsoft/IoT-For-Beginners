@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "e978534a245b000725ed2a048f943213",
-  "translation_date": "2025-08-25T17:59:16+00:00",
-  "source_file": "3-transport/README.md",
-  "language_code": "it"
-}
--->
 # Trasporto dalla fattoria alla fabbrica - utilizzare l'IoT per tracciare le consegne alimentari
 
 Molti agricoltori coltivano cibo per venderlo - possono essere agricoltori commerciali che vendono tutto ciò che producono, oppure agricoltori di sussistenza che vendono il surplus per acquistare beni di prima necessità. In qualche modo, il cibo deve arrivare dalla fattoria al consumatore, e questo di solito avviene tramite trasporto in grandi quantità dalle fattorie, ai centri di raccolta o agli impianti di lavorazione, e poi ai negozi. Ad esempio, un agricoltore di pomodori raccoglierà i pomodori, li metterà in scatole, caricherà le scatole su un camion e le consegnerà a un impianto di lavorazione. I pomodori verranno poi selezionati e, da lì, consegnati ai consumatori sotto forma di cibo lavorato, vendite al dettaglio o consumati nei ristoranti.

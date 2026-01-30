@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "a3fdfec1d1e2cb645ea11c2930b51299",
-  "translation_date": "2025-08-25T16:20:16+00:00",
-  "source_file": "5-retail/lessons/2-check-stock-device/single-board-computer-object-detector.md",
-  "language_code": "it"
-}
--->
 # Chiama il tuo rilevatore di oggetti dal tuo dispositivo IoT - Hardware IoT virtuale e Raspberry Pi
 
 Una volta che il tuo rilevatore di oggetti è stato pubblicato, può essere utilizzato dal tuo dispositivo IoT.

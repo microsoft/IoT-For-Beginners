@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "9d4d00a47d5d0f3e6ce42c0d1020064a",
-  "translation_date": "2025-08-26T06:52:28+00:00",
-  "source_file": "2-farm/lessons/2-detect-soil-moisture/pi-soil-moisture.md",
-  "language_code": "pl"
-}
--->
 # Pomiar wilgotności gleby - Raspberry Pi
 
 W tej części lekcji dodasz pojemnościowy czujnik wilgotności gleby do swojego Raspberry Pi i odczytasz z niego wartości.

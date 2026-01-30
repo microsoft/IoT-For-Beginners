@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "5de7dc1e2ddc402d415473bb795568d4",
-  "translation_date": "2025-08-26T07:12:18+00:00",
-  "source_file": "6-consumer/README.md",
-  "language_code": "pl"
-}
--->
 # Consumer IoT - budowa inteligentnego asystenta głosowego
 
 Jedzenie zostało wyhodowane, przewiezione do zakładu przetwórczego, posortowane pod kątem jakości, sprzedane w sklepie, a teraz czas na gotowanie! Jednym z podstawowych elementów każdej kuchni jest minutnik. Na początku były to klepsydry – jedzenie było gotowe, gdy cały piasek przesypał się do dolnej bańki. Potem pojawiły się minutniki mechaniczne, a następnie elektryczne.

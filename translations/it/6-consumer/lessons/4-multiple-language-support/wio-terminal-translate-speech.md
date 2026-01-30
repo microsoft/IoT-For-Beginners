@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "5f6c164e349f8989959e02a90f37908d",
-  "translation_date": "2025-08-25T17:36:43+00:00",
-  "source_file": "6-consumer/lessons/4-multiple-language-support/wio-terminal-translate-speech.md",
-  "language_code": "it"
-}
--->
 # Tradurre il parlato - Wio Terminal
 
 In questa parte della lezione, scriverai del codice per tradurre il testo utilizzando il servizio di traduzione.

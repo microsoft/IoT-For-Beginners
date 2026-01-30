@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "c527ce85d69b1a3875366ec61cbed8aa",
-  "translation_date": "2025-08-28T03:32:28+00:00",
-  "source_file": "1-getting-started/lessons/4-connect-internet/single-board-computer-commands.md",
-  "language_code": "tr"
-}
--->
 # Gece lambanızı İnternet üzerinden kontrol edin - Sanal IoT Donanımı ve Raspberry Pi
 
 Bu dersin bu bölümünde, bir MQTT brokerından Raspberry Pi'nize veya sanal IoT cihazınıza gönderilen komutlara abone olacaksınız.

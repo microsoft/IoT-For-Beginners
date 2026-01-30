@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "50151d9f9dce2801348a93880ef16d86",
-  "translation_date": "2025-08-28T02:46:14+00:00",
-  "source_file": "4-manufacturing/lessons/3-run-fruit-detector-edge/single-board-computer.md",
-  "language_code": "tr"
-}
--->
 # IoT Edge tabanlı bir görüntü sınıflandırıcı kullanarak bir görüntüyü sınıflandırma - Sanal IoT Donanımı ve Raspberry Pi
 
 Bu dersin bu bölümünde, IoT Edge cihazında çalışan Görüntü Sınıflandırıcıyı kullanacaksınız.

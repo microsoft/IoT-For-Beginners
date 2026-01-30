@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "012bbd19f13171be32ac9ba21d4186c2",
-  "translation_date": "2025-08-26T06:22:17+00:00",
-  "source_file": "recommended-learning-model.md",
-  "language_code": "pl"
-}
--->
 # Zalecany model nauczania
 
 Dla osiągnięcia najlepszych rezultatów w nauce **zalecamy podejście „odwróconego modelu”**, podobne do pracy w laboratoriach naukowych: uczniowie pracują nad projektami podczas zajęć, mając możliwość dyskusji, zadawania pytań i uzyskiwania pomocy, a elementy wykładowe realizują samodzielnie jako materiały do przeczytania przed zajęciami.

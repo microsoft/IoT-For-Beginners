@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "1226517aae5f5b6f904434670394c688",
-  "translation_date": "2025-08-25T17:13:46+00:00",
-  "source_file": "1-getting-started/lessons/4-connect-internet/single-board-computer-telemetry.md",
-  "language_code": "it"
-}
--->
 # Controlla la tua luce notturna tramite Internet - Hardware IoT virtuale e Raspberry Pi
 
 In questa parte della lezione, invierai telemetria con i livelli di luce dal tuo Raspberry Pi o dispositivo IoT virtuale a un broker MQTT.

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "7966848a1f870e4c42edb4db67b13c57",
-  "translation_date": "2025-08-25T17:49:48+00:00",
-  "source_file": "6-consumer/lessons/3-spoken-feedback/virtual-device-text-to-speech.md",
-  "language_code": "it"
-}
--->
 # Sintesi vocale - Dispositivo IoT virtuale
 
 In questa parte della lezione, scriverai del codice per convertire il testo in voce utilizzando il servizio di sintesi vocale.

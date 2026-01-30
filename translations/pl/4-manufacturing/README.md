@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "3764e089adf2d5801272bc0895f8498b",
-  "translation_date": "2025-08-26T06:30:00+00:00",
-  "source_file": "4-manufacturing/README.md",
-  "language_code": "pl"
-}
--->
 # Produkcja i przetwarzanie - wykorzystanie IoT do poprawy przetwarzania żywności
 
 Gdy żywność dociera do centralnego punktu lub zakładu przetwórczego, nie zawsze jest od razu wysyłana do supermarketów. Często przechodzi przez szereg etapów przetwarzania, takich jak sortowanie według jakości. Jest to proces, który kiedyś był wykonywany ręcznie - zaczynał się na polu, gdzie zbieracze wybierali tylko dojrzałe owoce, a następnie w fabryce owoce jechały na taśmie, a pracownicy ręcznie usuwali uszkodzone lub zgniłe owoce. Sam miałem okazję zbierać i sortować truskawki jako wakacyjną pracę w szkole, więc mogę potwierdzić, że nie jest to przyjemne zajęcie.

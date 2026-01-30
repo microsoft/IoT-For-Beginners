@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "93d352de36526b8990e41dd538100324",
-  "translation_date": "2025-08-28T03:03:46+00:00",
-  "source_file": "6-consumer/lessons/1-speech-recognition/wio-terminal-microphone.md",
-  "language_code": "tr"
-}
--->
 # Mikrofon ve hoparlörlerinizi yapılandırın - Wio Terminal
 
 Bu dersin bu bölümünde, Wio Terminal'inize hoparlör ekleyeceksiniz. Wio Terminal zaten dahili bir mikrofona sahiptir ve bu mikrofon konuşmayı kaydetmek için kullanılabilir.

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "9c640f93263fd9adbfda920739e09feb",
-  "translation_date": "2025-08-26T07:04:36+00:00",
-  "source_file": "1-getting-started/lessons/3-sensors-and-actuators/virtual-device-actuator.md",
-  "language_code": "pl"
-}
--->
 # Zbuduj lampkę nocną - Wirtualny sprzęt IoT
 
 W tej części lekcji dodasz diodę LED do swojego wirtualnego urządzenia IoT i użyjesz jej do stworzenia lampki nocnej.

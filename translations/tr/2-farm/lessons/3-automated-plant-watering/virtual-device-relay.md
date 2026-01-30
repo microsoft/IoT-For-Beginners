@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "f8f541ee945545017a51aaf309aa37c3",
-  "translation_date": "2025-08-28T04:17:33+00:00",
-  "source_file": "2-farm/lessons/3-automated-plant-watering/virtual-device-relay.md",
-  "language_code": "tr"
-}
--->
 # Röle Kontrolü - Sanal IoT Donanımı
 
 Bu dersin bu bölümünde, sanal IoT cihazınıza toprak nem sensörüne ek olarak bir röle ekleyecek ve toprak nem seviyesine göre kontrol edeceksiniz.

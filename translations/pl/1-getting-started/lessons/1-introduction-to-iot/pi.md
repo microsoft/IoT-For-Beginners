@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "8ff0d0a1d29832bb896b9c103b69a452",
-  "translation_date": "2025-08-26T07:08:01+00:00",
-  "source_file": "1-getting-started/lessons/1-introduction-to-iot/pi.md",
-  "language_code": "pl"
-}
--->
 # Raspberry Pi
 
 [Raspberry Pi](https://raspberrypi.org) to komputer jednopłytkowy. Możesz dodawać czujniki i siłowniki, korzystając z szerokiej gamy urządzeń i ekosystemów. W tych lekcjach będziesz używać ekosystemu sprzętowego o nazwie [Grove](https://www.seeedstudio.com/category/Grove-c-1003.html). Kodowanie na Raspberry Pi oraz dostęp do czujników Grove odbywa się za pomocą języka Python.

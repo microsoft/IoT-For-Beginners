@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "4506d33bbda7acc0ab20980172687090",
-  "translation_date": "2025-08-28T02:34:14+00:00",
-  "source_file": "attributions.md",
-  "language_code": "tr"
-}
--->
 # Görsel Atıfları
 
 * Muzlar - abderraouf omara tarafından [Noun Project](https://thenounproject.com)

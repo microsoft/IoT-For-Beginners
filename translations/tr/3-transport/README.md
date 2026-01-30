@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "e978534a245b000725ed2a048f943213",
-  "translation_date": "2025-08-28T03:11:54+00:00",
-  "source_file": "3-transport/README.md",
-  "language_code": "tr"
-}
--->
 # Çiftlikten fabrikaya taşımacılık - IoT kullanarak gıda teslimatlarını takip etme
 
 Birçok çiftçi, yetiştirdikleri ürünleri satmak için tarım yapar - ya yetiştirdiklerinin tamamını satan ticari çiftçilerdir ya da ihtiyaçlarını karşılamak için fazla ürünlerini satan geçimlik çiftçilerdir. Bir şekilde, gıdanın çiftlikten tüketiciye ulaşması gerekir ve bu genellikle çiftliklerden, merkezlere veya işleme tesislerine, ardından mağazalara yapılan toplu taşımacılığa dayanır. Örneğin, bir domates çiftçisi domatesleri hasat eder, kutulara yerleştirir, kutuları bir kamyona yükler ve ardından bir işleme tesisine teslim eder. Domatesler burada ayrıştırılır ve ardından işlenmiş gıda, perakende satış veya restoranlarda tüketim şeklinde tüketicilere ulaştırılır.

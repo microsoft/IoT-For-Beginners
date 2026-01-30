@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "2bf65f162bcebd35fbcba5fd245afac4",
-  "translation_date": "2025-08-28T03:56:14+00:00",
-  "source_file": "2-farm/lessons/2-detect-soil-moisture/virtual-device-soil-moisture.md",
-  "language_code": "tr"
-}
--->
 # Toprak Nemini Ölç - Sanal IoT Donanımı
 
 Bu dersin bu bölümünde, sanal IoT cihazınıza kapasitif bir toprak nem sensörü ekleyecek ve ondan değerler okuyacaksınız.

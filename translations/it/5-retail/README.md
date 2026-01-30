@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "22a1d6e49f2a689fe5bfa7802a7241fc",
-  "translation_date": "2025-08-25T16:19:48+00:00",
-  "source_file": "5-retail/README.md",
-  "language_code": "it"
-}
--->
 # Retail - utilizzo dell'IoT per gestire i livelli di stock
 
 L'ultima fase per il cibo prima che raggiunga i consumatori è la vendita al dettaglio - i mercati, i fruttivendoli, i supermercati e i negozi che vendono prodotti ai consumatori. Questi negozi vogliono assicurarsi di avere prodotti sugli scaffali affinché i consumatori possano vederli e acquistarli.

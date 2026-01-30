@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "9c4320311c0f2c1884a6a21265d98a51",
-  "translation_date": "2025-08-25T16:23:12+00:00",
-  "source_file": "5-retail/lessons/2-check-stock-device/single-board-computer-count-stock.md",
-  "language_code": "it"
-}
--->
 # Conta il magazzino dal tuo dispositivo IoT - Hardware IoT virtuale e Raspberry Pi
 
 Una combinazione delle previsioni e dei loro riquadri di delimitazione può essere utilizzata per contare il magazzino in un'immagine.

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "f5e63c916d2dd97d58be12aaf76bd9f1",
-  "translation_date": "2025-08-28T02:37:14+00:00",
-  "source_file": "4-manufacturing/lessons/1-train-fruit-detector/README.md",
-  "language_code": "tr"
-}
--->
 # Meyve Kalite Dedektörü Eğitimi
 
 ![Bu dersin genel bir sketchnote özeti](../../../../../translated_images/tr/lesson-15.843d21afdc6fb2bba70cd9db7b7d2f91598859fafda2078b0bdc44954194b6c0.jpg)

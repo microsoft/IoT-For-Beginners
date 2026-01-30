@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "fbbcf96a9b63ccd661db98bbf854bb06",
-  "translation_date": "2025-08-26T07:33:26+00:00",
-  "source_file": "3-transport/lessons/1-location-tracking/wio-terminal-gps-decode.md",
-  "language_code": "pl"
-}
--->
 # Dekodowanie danych GPS - Wio Terminal
 
 W tej części lekcji zdekodujesz wiadomości NMEA odczytane z czujnika GPS przez Wio Terminal i wyodrębnisz szerokość oraz długość geograficzną.

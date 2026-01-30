@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "50151d9f9dce2801348a93880ef16d86",
-  "translation_date": "2025-08-25T16:38:37+00:00",
-  "source_file": "4-manufacturing/lessons/3-run-fruit-detector-edge/single-board-computer.md",
-  "language_code": "it"
-}
--->
 # Classificare un'immagine utilizzando un classificatore di immagini basato su IoT Edge - Hardware IoT Virtuale e Raspberry Pi
 
 In questa parte della lezione, utilizzerai il classificatore di immagini in esecuzione sul dispositivo IoT Edge.

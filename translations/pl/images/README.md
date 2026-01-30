@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "50abd54997afa7e7a3fc7019379e49e3",
-  "translation_date": "2025-08-26T06:25:46+00:00",
-  "source_file": "images/README.md",
-  "language_code": "pl"
-}
--->
 # Obrazy
 
 Obrazy w folderze [icons](../../../images/icons) pochodzą z [Noun Project](https://thenounproject.com) i wymagają przypisania autorstwa. Każdy obraz zawiera informacje o wymaganym przypisaniu. Te obrazy powinny być używane w każdym diagramie, który ich potrzebuje, aby zachować spójność wizualną.

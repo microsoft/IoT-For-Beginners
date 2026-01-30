@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "4506d33bbda7acc0ab20980172687090",
-  "translation_date": "2025-08-26T06:22:00+00:00",
-  "source_file": "attributions.md",
-  "language_code": "pl"
-}
--->
 # Atrybucje obrazów
 
 * Banany autorstwa abderraouf omara z [Noun Project](https://thenounproject.com)

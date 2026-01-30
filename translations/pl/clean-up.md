@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "5a94fbab1ba737e9bd6cc6c64f114fa0",
-  "translation_date": "2025-08-26T06:24:13+00:00",
-  "source_file": "clean-up.md",
-  "language_code": "pl"
-}
--->
 # Posprzątaj swój projekt
 
 Po zakończeniu każdego projektu warto usunąć zasoby w chmurze.

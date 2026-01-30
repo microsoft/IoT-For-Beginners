@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "11f10c6760fb8202cf368422702fdf70",
-  "translation_date": "2025-08-25T17:24:33+00:00",
-  "source_file": "1-getting-started/lessons/3-sensors-and-actuators/virtual-device-sensor.md",
-  "language_code": "it"
-}
--->
 # Costruire una luce notturna - Hardware IoT Virtuale
 
 In questa parte della lezione, aggiungerai un sensore di luce al tuo dispositivo IoT virtuale.

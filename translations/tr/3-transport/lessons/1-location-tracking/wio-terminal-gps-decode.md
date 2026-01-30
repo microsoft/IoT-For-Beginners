@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "fbbcf96a9b63ccd661db98bbf854bb06",
-  "translation_date": "2025-08-28T03:14:44+00:00",
-  "source_file": "3-transport/lessons/1-location-tracking/wio-terminal-gps-decode.md",
-  "language_code": "tr"
-}
--->
 # GPS Verilerini Çözümleme - Wio Terminal
 
 Bu dersin bu bölümünde, Wio Terminal tarafından GPS sensöründen okunan NMEA mesajlarını çözümleyecek ve enlem ile boylam bilgilerini çıkaracaksınız.

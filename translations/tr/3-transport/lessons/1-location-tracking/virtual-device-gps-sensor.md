@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "64f18a8f8aaa1fef5e7320e0992d8b3a",
-  "translation_date": "2025-08-28T03:16:01+00:00",
-  "source_file": "3-transport/lessons/1-location-tracking/virtual-device-gps-sensor.md",
-  "language_code": "tr"
-}
--->
 # GPS Verilerini Okuma - Sanal IoT Donanımı
 
 Bu dersin bu bölümünde, sanal IoT cihazınıza bir GPS sensörü ekleyecek ve ondan değerler okuyacaksınız.

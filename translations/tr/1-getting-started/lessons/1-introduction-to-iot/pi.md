@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "8ff0d0a1d29832bb896b9c103b69a452",
-  "translation_date": "2025-08-28T03:37:37+00:00",
-  "source_file": "1-getting-started/lessons/1-introduction-to-iot/pi.md",
-  "language_code": "tr"
-}
--->
 # Raspberry Pi
 
 [Raspberry Pi](https://raspberrypi.org), tek kartlı bir bilgisayardır. Sensörler ve aktüatörler eklemek için geniş bir cihaz ve ekosistem yelpazesi kullanabilirsiniz. Bu derslerde, [Grove](https://www.seeedstudio.com/category/Grove-c-1003.html) adlı bir donanım ekosistemini kullanarak sensörlere erişim sağlayacak ve Raspberry Pi'nizi Python ile kodlayacaksınız.

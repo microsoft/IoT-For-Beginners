@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "3dce18fab38adf93ff30b8c221b1eec5",
-  "translation_date": "2025-08-26T06:24:32+00:00",
-  "source_file": "hardware.md",
-  "language_code": "pl"
-}
--->
 # Sprzęt
 
 **T** w IoT oznacza **Things** (Rzeczy) i odnosi się do urządzeń, które wchodzą w interakcję ze światem wokół nas. Każdy projekt opiera się na rzeczywistym sprzęcie dostępnym dla studentów i hobbystów. Mamy dwie opcje sprzętu IoT do wyboru, w zależności od osobistych preferencji, znajomości języków programowania, celów nauki i dostępności. Dla tych, którzy nie mają dostępu do sprzętu lub chcą dowiedzieć się więcej przed zakupem, udostępniliśmy również wersję "wirtualnego sprzętu".

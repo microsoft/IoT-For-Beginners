@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "1226517aae5f5b6f904434670394c688",
-  "translation_date": "2025-08-26T06:58:07+00:00",
-  "source_file": "1-getting-started/lessons/4-connect-internet/single-board-computer-telemetry.md",
-  "language_code": "pl"
-}
--->
 # Steruj swoją lampką nocną przez Internet - Wirtualny sprzęt IoT i Raspberry Pi
 
 W tej części lekcji wyślesz dane telemetryczne dotyczące poziomu światła z Raspberry Pi lub wirtualnego urządzenia IoT do brokera MQTT.

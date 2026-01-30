@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "d6faf0e8d3c2d6d20c0aef2a305dab18",
-  "translation_date": "2025-08-28T03:31:34+00:00",
-  "source_file": "1-getting-started/lessons/4-connect-internet/wio-terminal-mqtt.md",
-  "language_code": "tr"
-}
--->
 # Wio Terminal ile Gece Lambanızı İnternet Üzerinden Kontrol Edin
 
 IoT cihazı, ışık sensörü okumasıyla telemetri değerlerini göndermek ve LED'i kontrol etmek için komutlar almak üzere MQTT kullanarak *test.mosquitto.org* ile iletişim kuracak şekilde kodlanmalıdır.

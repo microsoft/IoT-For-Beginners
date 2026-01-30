@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "e5896207b304ce1abaf065b8acc0cc79",
-  "translation_date": "2025-08-26T06:33:43+00:00",
-  "source_file": "4-manufacturing/lessons/2-check-fruit-from-device/single-board-computer-classify-image.md",
-  "language_code": "pl"
-}
--->
 # Klasyfikacja obrazu - Wirtualny sprzęt IoT i Raspberry Pi
 
 W tej części lekcji wyślesz obraz uchwycony przez kamerę do usługi Custom Vision, aby go sklasyfikować.

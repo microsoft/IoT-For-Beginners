@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "4fb20273d299dc8d07a8f06c9cd0cdd9",
-  "translation_date": "2025-08-26T06:50:29+00:00",
-  "source_file": "2-farm/lessons/2-detect-soil-moisture/README.md",
-  "language_code": "pl"
-}
--->
 C, wymawiane jako *I-kwadrat-C*, to protokół wielokontrolerowy i wieloperyferyjny, w którym każde podłączone urządzenie może działać jako kontroler lub peryferium, komunikując się za pośrednictwem magistrali I²C (nazwa systemu komunikacyjnego, który przesyła dane). Dane są przesyłane w postaci adresowanych pakietów, z każdym pakietem zawierającym adres urządzenia, do którego są przeznaczone.
 
 > 💁 Ten model był wcześniej określany jako master/slave, ale ta terminologia jest wycofywana ze względu na jej skojarzenia z niewolnictwem. [Open Source Hardware Association przyjęło terminologię kontroler/peryferium](https://www.oshwa.org/a-resolution-to-redefine-spi-signal-names/), ale nadal można spotkać odniesienia do starej terminologii.

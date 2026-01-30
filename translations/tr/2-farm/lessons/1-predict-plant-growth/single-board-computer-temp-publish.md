@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "4efc74299e19f5d08f2f3f34451a11ba",
-  "translation_date": "2025-08-28T04:13:17+00:00",
-  "source_file": "2-farm/lessons/1-predict-plant-growth/single-board-computer-temp-publish.md",
-  "language_code": "tr"
-}
--->
 # Sıcaklık Yayınlama - Sanal IoT Donanımı ve Raspberry Pi
 
 Bu dersin bu bölümünde, Raspberry Pi veya Sanal IoT Cihazı tarafından algılanan sıcaklık değerlerini MQTT üzerinden yayınlayacaksınız, böylece bu değerler daha sonra GDD hesaplaması için kullanılabilir.

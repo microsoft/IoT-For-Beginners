@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "a3fdfec1d1e2cb645ea11c2930b51299",
-  "translation_date": "2025-08-28T03:51:31+00:00",
-  "source_file": "5-retail/lessons/2-check-stock-device/single-board-computer-object-detector.md",
-  "language_code": "tr"
-}
--->
 # Nesne Algılayıcınızı IoT Cihazınızdan Çalıştırın - Sanal IoT Donanımı ve Raspberry Pi
 
 Nesne algılayıcınız yayınlandıktan sonra, IoT cihazınızdan kullanılabilir.

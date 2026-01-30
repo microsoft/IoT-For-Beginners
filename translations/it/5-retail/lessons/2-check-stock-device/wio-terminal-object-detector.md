@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "4cf1421420a6fab9ab4f2c391bd523b7",
-  "translation_date": "2025-08-25T16:23:49+00:00",
-  "source_file": "5-retail/lessons/2-check-stock-device/wio-terminal-object-detector.md",
-  "language_code": "it"
-}
--->
 # Chiama il tuo rilevatore di oggetti dal tuo dispositivo IoT - Wio Terminal
 
 Una volta pubblicato il tuo rilevatore di oggetti, potrà essere utilizzato dal tuo dispositivo IoT.

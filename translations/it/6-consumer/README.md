@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "5de7dc1e2ddc402d415473bb795568d4",
-  "translation_date": "2025-08-25T17:36:04+00:00",
-  "source_file": "6-consumer/README.md",
-  "language_code": "it"
-}
--->
 # Consumer IoT - costruisci un assistente vocale intelligente
 
 Il cibo è stato coltivato, trasportato in un impianto di lavorazione, selezionato per qualità, venduto in negozio ed ora è il momento di cucinare! Uno degli strumenti fondamentali di ogni cucina è un timer. Inizialmente erano clessidre: il cibo era pronto quando tutta la sabbia scendeva nel bulbo inferiore. Poi sono diventati meccanici, poi elettrici.

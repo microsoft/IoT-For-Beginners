@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "bfd35499bd68d7d740242bfea784bbeb",
-  "translation_date": "2025-08-25T17:07:13+00:00",
-  "source_file": "2-farm/lessons/4-migrate-your-plant-to-the-cloud/assignment.md",
-  "language_code": "it"
-}
--->
 # Scopri i servizi cloud
 
 ## Istruzioni

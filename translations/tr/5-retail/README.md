@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "22a1d6e49f2a689fe5bfa7802a7241fc",
-  "translation_date": "2025-08-28T03:46:22+00:00",
-  "source_file": "5-retail/README.md",
-  "language_code": "tr"
-}
--->
 # Perakende - Stok Seviyelerini Yönetmek için IoT Kullanımı
 
 Tüketicilere ulaşmadan önceki son aşama perakendedir - pazarlar, manavlar, süpermarketler ve ürünleri tüketicilere satan mağazalar. Bu mağazalar, tüketicilerin görüp satın alabilmesi için raflarda ürün bulundurduklarından emin olmak ister.

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "428bda82d9e6016ecea7c797564bf081",
-  "translation_date": "2025-08-28T03:51:54+00:00",
-  "source_file": "2-farm/README.md",
-  "language_code": "tr"
-}
--->
 # IoT ile Tarım
 
 Nüfus arttıkça tarım üzerindeki talep de artıyor. Mevcut arazi miktarı değişmiyor, ancak iklim değişiyor - bu da çiftçilere, özellikle de yetiştirdikleri ürünlerle kendilerini ve ailelerini beslemek zorunda olan 2 milyar [geçimlik çiftçi](https://wikipedia.org/wiki/Subsistence_agriculture) için daha fazla zorluk getiriyor. IoT, çiftçilerin ne yetiştireceklerine ve ne zaman hasat yapacaklarına dair daha akıllı kararlar almalarına, verimi artırmalarına, manuel iş gücünü azaltmalarına ve zararlıları tespit edip onlarla başa çıkmalarına yardımcı olabilir.

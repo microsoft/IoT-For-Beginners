@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "cbb8c285bc64c5192fae3368fb5077d2",
-  "translation_date": "2025-08-28T03:15:34+00:00",
-  "source_file": "3-transport/lessons/1-location-tracking/single-board-computer-gps-decode.md",
-  "language_code": "tr"
-}
--->
 # GPS Verilerini Çözümleme - Sanal IoT Donanımı ve Raspberry Pi
 
 Bu dersin bu bölümünde, Raspberry Pi veya Sanal IoT Cihazı tarafından GPS sensöründen okunan NMEA mesajlarını çözümleyecek ve enlem ile boylam bilgilerini çıkaracaksınız.

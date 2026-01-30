@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "3764e089adf2d5801272bc0895f8498b",
-  "translation_date": "2025-08-28T02:36:12+00:00",
-  "source_file": "4-manufacturing/README.md",
-  "language_code": "tr"
-}
--->
 # Üretim ve işleme - IoT kullanarak gıda işleme süreçlerini iyileştirme
 
 Gıda bir merkezi hub'a veya işleme tesisine ulaştığında, her zaman doğrudan süpermarketlere gönderilmez. Çoğu zaman, gıda kaliteye göre ayrıştırma gibi bir dizi işleme adımından geçer. Bu, eskiden manuel bir süreçti - tarlada çalışanlar sadece olgun meyveleri toplar, ardından fabrikada meyveler bir taşıma bandında ilerler ve çalışanlar çürük veya bozulmuş meyveleri manuel olarak ayırırdı. Okul döneminde yaz işinde çilek toplama ve ayırma işi yapmış biri olarak, bunun eğlenceli bir iş olmadığını söyleyebilirim.

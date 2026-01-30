@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "2bf65f162bcebd35fbcba5fd245afac4",
-  "translation_date": "2025-08-25T17:02:30+00:00",
-  "source_file": "2-farm/lessons/2-detect-soil-moisture/virtual-device-soil-moisture.md",
-  "language_code": "it"
-}
--->
 # Misurare l'umidità del suolo - Hardware IoT Virtuale
 
 In questa parte della lezione, aggiungerai un sensore capacitivo di umidità del suolo al tuo dispositivo IoT virtuale e leggerai i valori da esso.

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "4fb20273d299dc8d07a8f06c9cd0cdd9",
-  "translation_date": "2025-08-28T03:55:04+00:00",
-  "source_file": "2-farm/lessons/2-detect-soil-moisture/README.md",
-  "language_code": "tr"
-}
--->
 C, Türkçe'de "I-kare-C" olarak telaffuz edilir, çoklu denetleyici ve çoklu çevre birimi protokolüdür. Bağlı herhangi bir cihaz, I²C veri yolu (veri transferi için kullanılan bir iletişim sistemi) üzerinden denetleyici veya çevre birimi olarak iletişim kurabilir. Veriler, her bir paketin hedef cihazın adresini içeren adreslenmiş paketler olarak gönderilir.
 
 > 💁 Bu model eskiden "master/slave" (ana/bağımlı) olarak adlandırılıyordu, ancak bu terim kölelik ile olan çağrışımları nedeniyle terk ediliyor. [Açık Kaynak Donanım Derneği, denetleyici/çevre birimi terimlerini benimsemiştir](https://www.oshwa.org/a-resolution-to-redefine-spi-signal-names/), ancak eski terminolojiye hâlâ rastlayabilirsiniz.

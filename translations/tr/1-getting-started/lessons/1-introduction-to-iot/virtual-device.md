@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "52b4de6144b2efdced7797a5339d6035",
-  "translation_date": "2025-08-28T03:36:22+00:00",
-  "source_file": "1-getting-started/lessons/1-introduction-to-iot/virtual-device.md",
-  "language_code": "tr"
-}
--->
 # Sanal tek kartlı bilgisayar
 
 Bir IoT cihazı, sensörler ve aktüatörler satın almak yerine, bilgisayarınızı IoT donanımını simüle etmek için kullanabilirsiniz. [CounterFit projesi](https://github.com/CounterFit-IoT/CounterFit), sensörler ve aktüatörler gibi IoT donanımını simüle eden bir uygulamayı yerel olarak çalıştırmanıza ve fiziksel donanım kullanarak Raspberry Pi üzerinde yazacağınız kodla aynı şekilde yazılmış yerel Python kodundan sensörlere ve aktüatörlere erişmenize olanak tanır.

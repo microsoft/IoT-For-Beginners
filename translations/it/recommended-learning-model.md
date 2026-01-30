@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "012bbd19f13171be32ac9ba21d4186c2",
-  "translation_date": "2025-08-25T16:14:07+00:00",
-  "source_file": "recommended-learning-model.md",
-  "language_code": "it"
-}
--->
 # Modello di apprendimento consigliato
 
 Per ottenere i migliori risultati di apprendimento, **raccomandiamo un approccio “Flipped Model"** simile ai laboratori scientifici: gli studenti lavorano su progetti durante il tempo in classe, con opportunità di discussione, domande e risposte, e assistenza sui progetti, mentre gli elementi di lezione vengono svolti come letture preliminari nel loro tempo libero.

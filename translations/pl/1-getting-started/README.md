@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "e2b1b891b08ef7633d285547fbe73290",
-  "translation_date": "2025-08-26T06:57:46+00:00",
-  "source_file": "1-getting-started/README.md",
-  "language_code": "pl"
-}
--->
 # Wprowadzenie do IoT
 
 W tej części programu nauczania zostaniesz wprowadzony w świat Internetu Rzeczy (IoT) i poznasz podstawowe pojęcia, w tym budowę swojego pierwszego projektu 'Hello World' IoT, który łączy się z chmurą. Ten projekt to lampka nocna, która zapala się, gdy poziom światła mierzony przez czujnik spada.

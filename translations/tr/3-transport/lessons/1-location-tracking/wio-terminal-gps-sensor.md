@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "da6ae0a795cf06be33d23ca5b8493fc8",
-  "translation_date": "2025-08-28T03:15:08+00:00",
-  "source_file": "3-transport/lessons/1-location-tracking/wio-terminal-gps-sensor.md",
-  "language_code": "tr"
-}
--->
 # GPS Verilerini Okuma - Wio Terminal
 
 Bu dersin bu bölümünde, Wio Terminal'inize bir GPS sensörü ekleyecek ve ondan değerler okuyacaksınız.

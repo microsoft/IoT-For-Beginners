@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "3dce18fab38adf93ff30b8c221b1eec5",
-  "translation_date": "2025-08-28T02:33:11+00:00",
-  "source_file": "hardware.md",
-  "language_code": "tr"
-}
--->
 # Donanım
 
 IoT'deki **T**, **Nesneler** anlamına gelir ve çevremizdeki dünyayla etkileşimde bulunan cihazları ifade eder. Her proje, öğrenciler ve hobi meraklıları için erişilebilir olan gerçek dünya donanımına dayanmaktadır. Kişisel tercihlere, programlama dili bilgisine veya tercihlerine, öğrenme hedeflerine ve erişilebilirliğe bağlı olarak kullanabileceğimiz iki IoT donanım seçeneğimiz var. Ayrıca, donanıma erişimi olmayanlar veya satın almadan önce daha fazla bilgi edinmek isteyenler için bir 'sanal donanım' versiyonu da sağladık.

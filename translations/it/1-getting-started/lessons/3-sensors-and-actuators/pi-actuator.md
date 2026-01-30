@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "4db8a3879a53490513571df2f6cf7641",
-  "translation_date": "2025-08-25T17:22:48+00:00",
-  "source_file": "1-getting-started/lessons/3-sensors-and-actuators/pi-actuator.md",
-  "language_code": "it"
-}
--->
 # Costruire una luce notturna - Raspberry Pi
 
 In questa parte della lezione, aggiungerai un LED al tuo Raspberry Pi e lo utilizzerai per creare una luce notturna.

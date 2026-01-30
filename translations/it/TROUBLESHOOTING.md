@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "9713e21a309662f6fcb271b573d47848",
-  "translation_date": "2026-01-06T03:58:37+00:00",
-  "source_file": "TROUBLESHOOTING.md",
-  "language_code": "it"
-}
--->
 # Guida alla Risoluzione dei Problemi
 
 Questa guida ti aiuta a risolvere problemi comuni quando lavori con il curriculum IoT for Beginners. I problemi sono organizzati per categoria per una facile navigazione.

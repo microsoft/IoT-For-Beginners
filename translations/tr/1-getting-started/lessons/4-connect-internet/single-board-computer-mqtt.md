@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "90fb93446e03c38f3c0e4009c2471906",
-  "translation_date": "2025-08-28T03:33:11+00:00",
-  "source_file": "1-getting-started/lessons/4-connect-internet/single-board-computer-mqtt.md",
-  "language_code": "tr"
-}
--->
 # Gece lambanızı İnternet üzerinden kontrol edin - Sanal IoT Donanımı ve Raspberry Pi
 
 IoT cihazının, ışık sensörü okumasıyla telemetri değerlerini göndermek ve LED'i kontrol etmek için komutlar almak üzere MQTT kullanarak *test.mosquitto.org* ile iletişim kuracak şekilde kodlanması gerekiyor.

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "9c4320311c0f2c1884a6a21265d98a51",
-  "translation_date": "2025-08-28T03:50:13+00:00",
-  "source_file": "5-retail/lessons/2-check-stock-device/single-board-computer-count-stock.md",
-  "language_code": "tr"
-}
--->
 # IoT Cihazınızdan Stok Sayımı - Sanal IoT Donanımı ve Raspberry Pi
 
 Tahminler ve bunlara ait sınırlayıcı kutuların kombinasyonu, bir görüntüdeki stokları saymak için kullanılabilir.

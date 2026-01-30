@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "d6f80293fa9c213283eac7e79b078671",
-  "translation_date": "2025-08-26T06:25:37+00:00",
-  "source_file": "CONTRIBUTING.md",
-  "language_code": "pl"
-}
--->
 # Współtworzenie
 
 Ten projekt zachęca do współtworzenia i zgłaszania sugestii. Większość wkładów wymaga, abyś zgodził się na Umowę Licencyjną Współtwórcy (CLA), w której oświadczasz, że masz prawo do udzielenia nam praw do korzystania z Twojego wkładu i faktycznie to robisz. Szczegóły znajdziesz na stronie https://cla.microsoft.com.

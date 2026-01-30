@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "4bcc29fe2b65e56eada83d2476279227",
-  "translation_date": "2025-08-25T17:17:18+00:00",
-  "source_file": "1-getting-started/lessons/4-connect-internet/wio-terminal-telemetry.md",
-  "language_code": "it"
-}
--->
 # Controlla la tua luce notturna tramite Internet - Wio Terminal
 
 In questa parte della lezione, invierai telemetria con i livelli di luce dal tuo Wio Terminal al broker MQTT.

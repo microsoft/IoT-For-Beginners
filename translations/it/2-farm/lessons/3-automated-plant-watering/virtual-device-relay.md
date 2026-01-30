@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "f8f541ee945545017a51aaf309aa37c3",
-  "translation_date": "2025-08-25T16:53:35+00:00",
-  "source_file": "2-farm/lessons/3-automated-plant-watering/virtual-device-relay.md",
-  "language_code": "it"
-}
--->
 # Controllare un relè - Hardware IoT Virtuale
 
 In questa parte della lezione, aggiungerai un relè al tuo dispositivo IoT virtuale, oltre al sensore di umidità del suolo, e lo controllerai in base al livello di umidità del suolo.

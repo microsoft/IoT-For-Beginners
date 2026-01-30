@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "012bbd19f13171be32ac9ba21d4186c2",
-  "translation_date": "2025-08-28T02:29:56+00:00",
-  "source_file": "recommended-learning-model.md",
-  "language_code": "tr"
-}
--->
 # Önerilen öğrenme modeli
 
 En etkili öğrenme sonuçları için, **“Ters Model" yaklaşımını** öneriyoruz; tıpkı bilim laboratuvarlarında olduğu gibi: öğrenciler sınıf zamanında projeler üzerinde çalışır, tartışma, soru-cevap ve proje yardımı fırsatları bulur, ders unsurlarını ise kendi zamanlarında önceden okurlar.

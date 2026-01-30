@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "3f92edf2975175577174910caca4a389",
-  "translation_date": "2025-08-25T17:56:01+00:00",
-  "source_file": "6-consumer/lessons/1-speech-recognition/wio-terminal-speech-to-text.md",
-  "language_code": "it"
-}
--->
 # Da voce a testo - Wio Terminal
 
 In questa parte della lezione, scriverai il codice per convertire la voce registrata nell'audio catturato in testo utilizzando il servizio di riconoscimento vocale.

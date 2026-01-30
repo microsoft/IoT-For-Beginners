@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "3764e089adf2d5801272bc0895f8498b",
-  "translation_date": "2025-08-25T16:26:12+00:00",
-  "source_file": "4-manufacturing/README.md",
-  "language_code": "it"
-}
--->
 # Produzione e lavorazione - utilizzare l'IoT per migliorare la lavorazione degli alimenti
 
 Una volta che il cibo arriva a un hub centrale o a un impianto di lavorazione, non sempre viene semplicemente spedito ai supermercati. Molto spesso il cibo passa attraverso una serie di fasi di lavorazione, come la selezione per qualità. Questo processo era in passato manuale: iniziava nei campi, dove i raccoglitori sceglievano solo i frutti maturi, e poi in fabbrica i frutti venivano trasportati su un nastro trasportatore e gli operai rimuovevano manualmente quelli ammaccati o marci. Avendo raccolto e selezionato fragole personalmente come lavoro estivo durante la scuola, posso testimoniare che non è un lavoro divertente.

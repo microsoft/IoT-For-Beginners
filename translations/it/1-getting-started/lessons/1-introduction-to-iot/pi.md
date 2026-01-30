@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "8ff0d0a1d29832bb896b9c103b69a452",
-  "translation_date": "2025-08-25T17:29:42+00:00",
-  "source_file": "1-getting-started/lessons/1-introduction-to-iot/pi.md",
-  "language_code": "it"
-}
--->
 # Raspberry Pi
 
 Il [Raspberry Pi](https://raspberrypi.org) è un computer a scheda singola. Puoi aggiungere sensori e attuatori utilizzando una vasta gamma di dispositivi ed ecosistemi. Per queste lezioni utilizzeremo un ecosistema hardware chiamato [Grove](https://www.seeedstudio.com/category/Grove-c-1003.html). Programmerai il tuo Pi e accederai ai sensori Grove utilizzando Python.

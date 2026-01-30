@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "50abd54997afa7e7a3fc7019379e49e3",
-  "translation_date": "2025-08-28T03:45:41+00:00",
-  "source_file": "images/README.md",
-  "language_code": "tr"
-}
--->
 # Görseller
 
 [icons](../../../images/icons) klasöründeki görseller [Noun Project](https://thenounproject.com) tarafından sağlanmıştır ve atıf gerektirir. Her görsel, gerekli atıf bilgilerini içerir. Bu görseller, tutarlı bir görsel stil sağlamak için ihtiyaç duyulan diyagramlarda kullanılmalıdır.

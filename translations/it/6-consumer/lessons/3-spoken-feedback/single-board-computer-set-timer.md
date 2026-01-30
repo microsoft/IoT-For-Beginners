@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "64ad4ddb4de81a18b7252e968f10b404",
-  "translation_date": "2025-08-25T17:44:31+00:00",
-  "source_file": "6-consumer/lessons/3-spoken-feedback/single-board-computer-set-timer.md",
-  "language_code": "it"
-}
--->
 # Imposta un timer - Hardware IoT virtuale e Raspberry Pi
 
 In questa parte della lezione, chiamerai il tuo codice serverless per comprendere il discorso e impostare un timer sul tuo dispositivo IoT virtuale o Raspberry Pi in base ai risultati.

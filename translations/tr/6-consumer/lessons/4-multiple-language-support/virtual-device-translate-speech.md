@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "d620a470d9dd8614d99824832978360a",
-  "translation_date": "2025-08-28T03:10:59+00:00",
-  "source_file": "6-consumer/lessons/4-multiple-language-support/virtual-device-translate-speech.md",
-  "language_code": "tr"
-}
--->
 # Konuşmayı Çevir - Sanal IoT Cihazı
 
 Bu dersin bu bölümünde, konuşmayı metne dönüştürürken konuşma hizmetini kullanarak çeviri yapacak, ardından metni Translator hizmetiyle çevirip sesli bir yanıt oluşturacaksınız.

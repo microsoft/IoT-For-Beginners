@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "af249a24d4fe4f4de4806adbc3bc9d86",
-  "translation_date": "2025-08-26T07:27:00+00:00",
-  "source_file": "6-consumer/lessons/1-speech-recognition/pi-speech-to-text.md",
-  "language_code": "pl"
-}
--->
 # Przekształcanie mowy na tekst - Raspberry Pi
 
 W tej części lekcji napiszesz kod, który przekształci mowę z nagranego dźwięku na tekst, korzystając z usługi rozpoznawania mowy.

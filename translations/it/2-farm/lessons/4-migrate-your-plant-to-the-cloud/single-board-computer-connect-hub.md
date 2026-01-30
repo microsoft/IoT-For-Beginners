@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "3ac42e284a7222c0e83d2d43231a364f",
-  "translation_date": "2025-08-25T17:07:37+00:00",
-  "source_file": "2-farm/lessons/4-migrate-your-plant-to-the-cloud/single-board-computer-connect-hub.md",
-  "language_code": "it"
-}
--->
 # Collega il tuo dispositivo IoT al cloud - Hardware IoT virtuale e Raspberry Pi
 
 In questa parte della lezione, collegherai il tuo dispositivo IoT virtuale o Raspberry Pi al tuo IoT Hub, per inviare telemetria e ricevere comandi.

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "0ac0afcfb40cb5970ef4cb74f01c32e9",
-  "translation_date": "2025-08-26T07:21:44+00:00",
-  "source_file": "6-consumer/lessons/1-speech-recognition/pi-audio.md",
-  "language_code": "pl"
-}
--->
 # Przechwytywanie dźwięku - Raspberry Pi
 
 W tej części lekcji napiszesz kod do przechwytywania dźwięku na Raspberry Pi. Przechwytywanie dźwięku będzie kontrolowane za pomocą przycisku.

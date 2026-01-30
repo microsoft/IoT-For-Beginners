@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "2a459ea9177fb0508ca96068ae1009d2",
-  "translation_date": "2025-08-26T07:37:27+00:00",
-  "source_file": "quiz-app/README.md",
-  "language_code": "pl"
-}
--->
 # Quizy
 
 Te quizy to quizy przed i po wykładach w ramach programu nauczania IoT dla Początkujących dostępnego na https://aka.ms/iot-beginners

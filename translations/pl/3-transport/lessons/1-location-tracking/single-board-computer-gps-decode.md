@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "cbb8c285bc64c5192fae3368fb5077d2",
-  "translation_date": "2025-08-26T07:32:36+00:00",
-  "source_file": "3-transport/lessons/1-location-tracking/single-board-computer-gps-decode.md",
-  "language_code": "pl"
-}
--->
 # Dekodowanie danych GPS - Wirtualny sprzęt IoT i Raspberry Pi
 
 W tej części lekcji będziesz dekodować wiadomości NMEA odczytane z czujnika GPS przez Raspberry Pi lub Wirtualne Urządzenie IoT, aby wyodrębnić szerokość i długość geograficzną.

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "24dc783a600e20251211987b36370e93",
-  "translation_date": "2025-08-28T02:45:30+00:00",
-  "source_file": "4-manufacturing/lessons/3-run-fruit-detector-edge/vm-iotedge.md",
-  "language_code": "tr"
-}
--->
 # IoT Edge çalıştıran bir sanal makine oluşturma
 
 Azure'da, bulutta bir bilgisayar olan ve istediğiniz şekilde yapılandırabileceğiniz, kendi yazılımınızı çalıştırabileceğiniz bir sanal makine oluşturabilirsiniz.

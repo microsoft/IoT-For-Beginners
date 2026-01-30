@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "c5a568320b1159394108544807895337",
-  "translation_date": "2025-08-28T03:44:40+00:00",
-  "source_file": "1-getting-started/lessons/3-sensors-and-actuators/assignment.md",
-  "language_code": "tr"
-}
--->
 # Araştırma: Sensörler ve Aktüatörler
 
 ## Talimatlar

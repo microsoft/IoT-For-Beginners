@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "271dcd720357806934b2f0d94e19410e",
-  "translation_date": "2026-01-06T04:03:42+00:00",
-  "source_file": "docs/troubleshooting.md",
-  "language_code": "pl"
-}
--->
 # Raspberry Pi Poradnik Rozwiązywania Problemów
 
 Ten poradnik zawiera rozwiązania częstych problemów napotykanych podczas realizacji projektów IoT na urządzeniach Raspberry Pi.  

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "8a74f789f3c1bf41a13c007190360c19",
-  "translation_date": "2025-08-25T17:12:28+00:00",
-  "source_file": "2-farm/lessons/6-keep-your-plant-secure/wio-terminal-x509.md",
-  "language_code": "it"
-}
--->
 # Utilizzare il certificato X.509 nel codice del dispositivo - Wio Terminal
 
 Al momento della stesura, l'SDK Azure per Arduino non supporta i certificati X.509. Se desideri sperimentare con i certificati X.509, puoi fare riferimento alle [istruzioni per il dispositivo IoT virtuale utilizzando l'SDK Python](single-board-computer-x509.md)

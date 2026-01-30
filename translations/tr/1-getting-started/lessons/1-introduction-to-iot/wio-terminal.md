@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "a4f0c166010e31fd7b6ca20bc88dec6d",
-  "translation_date": "2025-08-28T03:39:04+00:00",
-  "source_file": "1-getting-started/lessons/1-introduction-to-iot/wio-terminal.md",
-  "language_code": "tr"
-}
--->
 # Wio Terminal
 
 [Seeed Studios'un Wio Terminal'i](https://www.seeedstudio.com/Wio-Terminal-p-4509.html), WiFi, bazı sensörler ve aktüatörler ile donatılmış, Arduino uyumlu bir mikrodenetleyicidir. Ayrıca, [Grove](https://www.seeedstudio.com/category/Grove-c-1003.html) adlı bir donanım ekosistemi kullanarak daha fazla sensör ve aktüatör eklemek için portlara sahiptir.

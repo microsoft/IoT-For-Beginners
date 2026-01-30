@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "9c640f93263fd9adbfda920739e09feb",
-  "translation_date": "2025-08-25T17:23:56+00:00",
-  "source_file": "1-getting-started/lessons/3-sensors-and-actuators/virtual-device-actuator.md",
-  "language_code": "it"
-}
--->
 # Costruire una luce notturna - Hardware IoT Virtuale
 
 In questa parte della lezione, aggiungerai un LED al tuo dispositivo IoT virtuale e lo utilizzerai per creare una luce notturna.

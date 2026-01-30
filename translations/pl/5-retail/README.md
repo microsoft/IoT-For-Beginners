@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "22a1d6e49f2a689fe5bfa7802a7241fc",
-  "translation_date": "2025-08-26T06:25:55+00:00",
-  "source_file": "5-retail/README.md",
-  "language_code": "pl"
-}
--->
 # Handel detaliczny - wykorzystanie IoT do zarządzania poziomami zapasów
 
 Ostatnim etapem, zanim żywność trafi do konsumentów, jest handel detaliczny - targi, warzywniaki, supermarkety i sklepy, które sprzedają produkty konsumentom. Sklepy te chcą zapewnić, że na półkach znajdują się produkty, które klienci mogą zobaczyć i kupić.

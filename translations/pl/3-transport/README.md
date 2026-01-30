@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "e978534a245b000725ed2a048f943213",
-  "translation_date": "2025-08-26T07:27:35+00:00",
-  "source_file": "3-transport/README.md",
-  "language_code": "pl"
-}
--->
 # Transport z farmy do fabryki - wykorzystanie IoT do śledzenia dostaw żywności
 
 Wielu rolników uprawia żywność na sprzedaż – albo są to rolnicy komercyjni, którzy sprzedają wszystko, co wyprodukują, albo rolnicy samozaopatrzeniowi, którzy sprzedają nadwyżki, aby kupić niezbędne rzeczy. W jakiś sposób żywność musi trafić z farmy do konsumenta, a zazwyczaj odbywa się to za pomocą transportu zbiorowego z farm do centrów dystrybucji lub zakładów przetwórczych, a następnie do sklepów. Na przykład rolnik uprawiający pomidory zbiera je, pakuje do skrzynek, ładuje skrzynki na ciężarówkę, a następnie dostarcza do zakładu przetwórczego. Tam pomidory są sortowane, a następnie trafiają do konsumentów w postaci przetworzonej żywności, sprzedaży detalicznej lub są spożywane w restauracjach.

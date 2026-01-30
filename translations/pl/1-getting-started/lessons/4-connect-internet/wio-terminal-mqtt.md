@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "d6faf0e8d3c2d6d20c0aef2a305dab18",
-  "translation_date": "2025-08-26T07:00:57+00:00",
-  "source_file": "1-getting-started/lessons/4-connect-internet/wio-terminal-mqtt.md",
-  "language_code": "pl"
-}
--->
 # Steruj swoją lampką nocną przez Internet - Wio Terminal
 
 Urządzenie IoT musi zostać zaprogramowane, aby komunikować się z *test.mosquitto.org* za pomocą MQTT w celu wysyłania wartości telemetrycznych z odczytem czujnika światła oraz odbierania poleceń do sterowania diodą LED.

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "93d352de36526b8990e41dd538100324",
-  "translation_date": "2025-08-26T07:26:38+00:00",
-  "source_file": "6-consumer/lessons/1-speech-recognition/wio-terminal-microphone.md",
-  "language_code": "pl"
-}
--->
 # Skonfiguruj mikrofon i głośniki - Wio Terminal
 
 W tej części lekcji dodasz głośniki do swojego Wio Terminal. Wio Terminal ma już wbudowany mikrofon, który może być używany do rejestrowania mowy.

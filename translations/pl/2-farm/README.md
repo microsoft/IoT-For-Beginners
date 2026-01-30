@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "428bda82d9e6016ecea7c797564bf081",
-  "translation_date": "2025-08-26T06:40:24+00:00",
-  "source_file": "2-farm/README.md",
-  "language_code": "pl"
-}
--->
 # Rolnictwo z IoT
 
 Wraz ze wzrostem populacji rośnie zapotrzebowanie na rolnictwo. Ilość dostępnej ziemi pozostaje niezmienna, ale klimat się zmienia - stawiając przed rolnikami jeszcze większe wyzwania, szczególnie przed 2 miliardami [rolników utrzymujących się z własnych upraw](https://wikipedia.org/wiki/Subsistence_agriculture), którzy polegają na tym, co wyhodują, aby móc jeść i wyżywić swoje rodziny. IoT może pomóc rolnikom podejmować mądrzejsze decyzje dotyczące tego, co uprawiać i kiedy zbierać plony, zwiększać wydajność, zmniejszać ilość pracy ręcznej oraz wykrywać i zwalczać szkodniki.

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "d620a470d9dd8614d99824832978360a",
-  "translation_date": "2025-08-25T17:40:08+00:00",
-  "source_file": "6-consumer/lessons/4-multiple-language-support/virtual-device-translate-speech.md",
-  "language_code": "it"
-}
--->
 # Tradurre il parlato - Dispositivo IoT Virtuale
 
 In questa parte della lezione, scriverai del codice per tradurre il parlato durante la conversione in testo utilizzando il servizio di riconoscimento vocale, quindi tradurrai il testo utilizzando il servizio Translator prima di generare una risposta vocale.

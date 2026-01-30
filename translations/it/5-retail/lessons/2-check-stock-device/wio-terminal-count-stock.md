@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "0b2ae20b0fc8e73c9598dea937cac038",
-  "translation_date": "2025-08-25T16:22:28+00:00",
-  "source_file": "5-retail/lessons/2-check-stock-device/wio-terminal-count-stock.md",
-  "language_code": "it"
-}
--->
 # Conta il magazzino dal tuo dispositivo IoT - Wio Terminal
 
 Una combinazione di previsioni e dei loro riquadri di delimitazione può essere utilizzata per contare gli oggetti in un'immagine.

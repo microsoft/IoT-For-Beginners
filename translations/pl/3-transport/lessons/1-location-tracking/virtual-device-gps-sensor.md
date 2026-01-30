@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "64f18a8f8aaa1fef5e7320e0992d8b3a",
-  "translation_date": "2025-08-26T07:30:23+00:00",
-  "source_file": "3-transport/lessons/1-location-tracking/virtual-device-gps-sensor.md",
-  "language_code": "pl"
-}
--->
 # Odczyt danych GPS - Wirtualny sprzęt IoT
 
 W tej części lekcji dodasz czujnik GPS do swojego wirtualnego urządzenia IoT i odczytasz z niego wartości.

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "012b69d57d898d670adf61304f42a137",
-  "translation_date": "2025-08-25T17:46:52+00:00",
-  "source_file": "6-consumer/lessons/3-spoken-feedback/wio-terminal-set-timer.md",
-  "language_code": "it"
-}
--->
 # Imposta un timer - Wio Terminal
 
 In questa parte della lezione, chiamerai il tuo codice serverless per comprendere il discorso e imposterai un timer sul tuo Wio Terminal in base ai risultati.
