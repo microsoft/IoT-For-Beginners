@@ -13,7 +13,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 ## 計算庫存
 
-![4罐番茄醬，每罐周圍都有邊界框](../../../../../translated_images/tw/rpi-stock-with-bounding-boxes.b5540e2ecb7cd49f.webp)
+![4罐番茄醬，每罐周圍都有邊界框](../../../../../translated_images/zh-TW/rpi-stock-with-bounding-boxes.b5540e2ecb7cd49f.webp)
 
 在上圖中，邊界框有些許重疊。如果這種重疊更大，則邊界框可能表示同一個物件。為了正確計算物件數量，您需要忽略具有顯著重疊的框。
 

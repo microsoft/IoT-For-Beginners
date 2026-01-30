@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "d105b44deae539165855c976dcdeca99",
-  "translation_date": "2025-08-28T20:36:16+00:00",
-  "source_file": "2-farm/lessons/1-predict-plant-growth/README.md",
-  "language_code": "en"
-}
--->
     This code extracts the temperature from the telemetry message and gets the current date and time. It then appends a new row to the CSV file with the date and temperature.
 
 1. Run the server code and ensure it is receiving telemetry from your IoT device. Check the CSV file to confirm that temperature data is being saved correctly.

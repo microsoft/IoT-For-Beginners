@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "3dce18fab38adf93ff30b8c221b1eec5",
-  "translation_date": "2025-08-24T21:02:21+00:00",
-  "source_file": "hardware.md",
-  "language_code": "fr"
-}
--->
 # Matériel
 
 Le **T** dans IoT signifie **Things** (Objets) et fait référence aux dispositifs qui interagissent avec le monde qui nous entoure. Chaque projet repose sur du matériel réel accessible aux étudiants et amateurs. Nous proposons deux choix de matériel IoT en fonction des préférences personnelles, des connaissances ou préférences en langage de programmation, des objectifs d'apprentissage et de la disponibilité. Une version de "matériel virtuel" est également disponible pour ceux qui n'ont pas accès au matériel ou qui souhaitent en apprendre davantage avant de s'engager dans un achat.

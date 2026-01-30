@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 [Seeed Studios 的 Wio Terminal](https://www.seeedstudio.com/Wio-Terminal-p-4509.html) 是一款兼容 Arduino 的微控制器，内置 WiFi 和一些传感器及执行器，同时还提供了端口，可以通过名为 [Grove](https://www.seeedstudio.com/category/Grove-c-1003.html) 的硬件生态系统添加更多传感器和执行器。
 
-![Seeed Studios 的 Wio Terminal](../../../../../translated_images/zh/wio-terminal.b8299ee16587db9a.webp)
+![Seeed Studios 的 Wio Terminal](../../../../../translated_images/zh-CN/wio-terminal.b8299ee16587db9a.webp)
 
 ## 设置
 
@@ -51,15 +51,15 @@ Wio Terminal 的 Hello World 应用程序将确保您已正确安装 Visual Stud
 
 1. 在侧边菜单栏中找到 PlatformIO 图标：
 
-    ![PlatformIO 菜单选项](../../../../../translated_images/zh/vscode-platformio-menu.297be26b9733e5c4.webp)
+    ![PlatformIO 菜单选项](../../../../../translated_images/zh-CN/vscode-platformio-menu.297be26b9733e5c4.webp)
 
     选择此菜单项，然后选择 *PIO Home -> Open*
 
-    ![PlatformIO 打开选项](../../../../../translated_images/zh/vscode-platformio-home-open.3f9a41bfd3f4da1c.webp)
+    ![PlatformIO 打开选项](../../../../../translated_images/zh-CN/vscode-platformio-home-open.3f9a41bfd3f4da1c.webp)
 
 1. 在欢迎界面中，选择 **+ New Project** 按钮
 
-    ![新建项目按钮](../../../../../translated_images/zh/vscode-platformio-welcome-new-button.ba6fc8a4c7b78cc8.webp)
+    ![新建项目按钮](../../../../../translated_images/zh-CN/vscode-platformio-welcome-new-button.ba6fc8a4c7b78cc8.webp)
 
 1. 在 *Project Wizard* 中配置项目：
 
@@ -73,7 +73,7 @@ Wio Terminal 的 Hello World 应用程序将确保您已正确安装 Visual Stud
 
     1. 选择 **Finish** 按钮
 
-    ![完成的项目向导](../../../../../translated_images/zh/vscode-platformio-nightlight-project-wizard.5c64db4da6037420.webp)
+    ![完成的项目向导](../../../../../translated_images/zh-CN/vscode-platformio-nightlight-project-wizard.5c64db4da6037420.webp)
 
     PlatformIO 将下载编译 Wio Terminal 代码所需的组件并创建您的项目。这可能需要几分钟。
 
@@ -179,7 +179,7 @@ VS Code 的资源管理器将显示由 PlatformIO 向导创建的多个文件和
 
     1. 输入 `PlatformIO Upload` 搜索上传选项，选择 *PlatformIO: Upload*
 
-        ![命令面板中的 PlatformIO 上传选项](../../../../../translated_images/zh/vscode-platformio-upload-command-palette.9e0f49cf80d1f1c3.webp)
+        ![命令面板中的 PlatformIO 上传选项](../../../../../translated_images/zh-CN/vscode-platformio-upload-command-palette.9e0f49cf80d1f1c3.webp)
 
         如果需要，PlatformIO 会自动编译代码，然后上传。
 
@@ -195,7 +195,7 @@ PlatformIO 提供了一个串口监视器，可以通过 USB 数据线监视从 
 
 1. 输入 `PlatformIO Serial` 搜索串口监视器选项，选择 *PlatformIO: Serial Monitor*
 
-    ![命令面板中的 PlatformIO 串口监视器选项](../../../../../translated_images/zh/vscode-platformio-serial-monitor-command-palette.b348ec841b8a1c14.webp)
+    ![命令面板中的 PlatformIO 串口监视器选项](../../../../../translated_images/zh-CN/vscode-platformio-serial-monitor-command-palette.b348ec841b8a1c14.webp)
 
     一个新终端将打开，串口发送的数据将流入此终端：
 

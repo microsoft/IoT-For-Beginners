@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "5de7dc1e2ddc402d415473bb795568d4",
-  "translation_date": "2025-08-24T23:48:19+00:00",
-  "source_file": "6-consumer/README.md",
-  "language_code": "fr"
-}
--->
 # IoT pour les consommateurs - créer un assistant vocal intelligent
 
 La nourriture a été cultivée, transportée vers une usine de transformation, triée pour sa qualité, vendue en magasin, et maintenant il est temps de cuisiner ! L'un des éléments essentiels de toute cuisine est un minuteur. À l'origine, ces minuteurs étaient des sabliers - votre plat était prêt lorsque tout le sable s'était écoulé dans le bulbe inférieur. Ensuite, ils sont devenus mécaniques, puis électriques.

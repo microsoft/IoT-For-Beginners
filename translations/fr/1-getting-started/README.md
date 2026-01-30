@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "e2b1b891b08ef7633d285547fbe73290",
-  "translation_date": "2025-08-24T22:59:32+00:00",
-  "source_file": "1-getting-started/README.md",
-  "language_code": "fr"
-}
--->
 # Premiers pas avec l'IoT
 
 Dans cette section du programme, vous serez initié à l'Internet des Objets (IoT) et apprendrez les concepts de base, y compris la création de votre premier projet IoT 'Hello World' connecté au cloud. Ce projet consiste en une veilleuse qui s'allume lorsque les niveaux de lumière mesurés par un capteur diminuent.

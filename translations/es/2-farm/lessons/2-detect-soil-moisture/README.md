@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "4fb20273d299dc8d07a8f06c9cd0cdd9",
-  "translation_date": "2025-08-26T14:43:49+00:00",
-  "source_file": "2-farm/lessons/2-detect-soil-moisture/README.md",
-  "language_code": "es"
-}
--->
 C, pronunciado como *I-cuadrado-C*, es un protocolo multi-controlador y multi-periférico, donde cualquier dispositivo conectado puede actuar como controlador o periférico comunicándose a través del bus I²C (el nombre para un sistema de comunicación que transfiere datos). Los datos se envían como paquetes dirigidos, y cada paquete contiene la dirección del dispositivo conectado al que está destinado.
 
 > 💁 Este modelo solía denominarse maestro/esclavo, pero esta terminología está siendo eliminada debido a su asociación con la esclavitud. La [Open Source Hardware Association ha adoptado los términos controlador/periférico](https://www.oshwa.org/a-resolution-to-redefine-spi-signal-names/), aunque aún puedes encontrar referencias a la terminología anterior.

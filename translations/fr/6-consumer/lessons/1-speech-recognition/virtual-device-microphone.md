@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "7a65ee743f916276a2848b8a9491feb7",
-  "translation_date": "2025-08-25T00:35:05+00:00",
-  "source_file": "6-consumer/lessons/1-speech-recognition/virtual-device-microphone.md",
-  "language_code": "fr"
-}
--->
 # Configurer votre microphone et vos haut-parleurs - Matériel IoT Virtuel
 
 Le matériel IoT virtuel utilisera un microphone et des haut-parleurs connectés à votre ordinateur.

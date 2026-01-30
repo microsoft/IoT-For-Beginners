@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "24dc783a600e20251211987b36370e93",
-  "translation_date": "2025-08-24T21:45:56+00:00",
-  "source_file": "4-manufacturing/lessons/3-run-fruit-detector-edge/vm-iotedge.md",
-  "language_code": "fr"
-}
--->
 # Créer une machine virtuelle exécutant IoT Edge
 
 Dans Azure, vous pouvez créer une machine virtuelle - un ordinateur dans le cloud que vous pouvez configurer comme vous le souhaitez et sur lequel vous pouvez exécuter vos propres logiciels.

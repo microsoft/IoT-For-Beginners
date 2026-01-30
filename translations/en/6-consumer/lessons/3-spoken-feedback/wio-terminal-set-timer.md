@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "012b69d57d898d670adf61304f42a137",
-  "translation_date": "2025-08-28T19:20:57+00:00",
-  "source_file": "6-consumer/lessons/3-spoken-feedback/wio-terminal-set-timer.md",
-  "language_code": "en"
-}
--->
 # Set a timer - Wio Terminal
 
 In this part of the lesson, you will call your serverless code to interpret speech and set a timer on your Wio Terminal based on the results.

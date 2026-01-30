@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "3764e089adf2d5801272bc0895f8498b",
-  "translation_date": "2025-08-28T18:58:00+00:00",
-  "source_file": "4-manufacturing/README.md",
-  "language_code": "en"
-}
--->
 # Manufacturing and processing - using IoT to improve the processing of food
 
 Once food reaches a central hub or processing plant, it doesn’t always get shipped directly to supermarkets. Often, the food undergoes several processing steps, such as being sorted by quality. This process used to be done manually—it would start in the field, where pickers would only harvest ripe fruit, and then continue at the factory, where the fruit would travel along a conveyor belt, and employees would manually remove any bruised or rotten pieces. Having picked and sorted strawberries myself as a summer job during school, I can confirm that this is not an enjoyable task.

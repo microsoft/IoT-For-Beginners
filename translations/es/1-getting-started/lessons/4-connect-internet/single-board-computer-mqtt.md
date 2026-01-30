@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "90fb93446e03c38f3c0e4009c2471906",
-  "translation_date": "2025-08-26T15:00:59+00:00",
-  "source_file": "1-getting-started/lessons/4-connect-internet/single-board-computer-mqtt.md",
-  "language_code": "es"
-}
--->
 # Controla tu luz nocturna a través de Internet - Hardware IoT Virtual y Raspberry Pi
 
 El dispositivo IoT necesita ser programado para comunicarse con *test.mosquitto.org* utilizando MQTT, con el fin de enviar valores de telemetría basados en la lectura del sensor de luz y recibir comandos para controlar el LED.

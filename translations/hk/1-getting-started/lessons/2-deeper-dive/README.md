@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # 深入了解物聯網
 
-![本課程的手繪筆記概覽](../../../../../translated_images/hk/lesson-2.324b0580d620c25e0a24fb7fddfc0b29a846dd4b82c08e7a9466d580ee78ce51.jpg)
+![本課程的手繪筆記概覽](../../../../../translated_images/zh-HK/lesson-2.324b0580d620c25e0a24fb7fddfc0b29a846dd4b82c08e7a9466d580ee78ce51.jpg)
 
 > 手繪筆記由 [Nitya Narasimhan](https://github.com/nitya) 提供。點擊圖片查看更大版本。
 
@@ -41,13 +41,13 @@ CO_OP_TRANSLATOR_METADATA:
 
 ### 物件
 
-![Raspberry Pi 4](../../../../../translated_images/hk/raspberry-pi-4.fd4590d308c3d456.webp)
+![Raspberry Pi 4](../../../../../translated_images/zh-HK/raspberry-pi-4.fd4590d308c3d456.webp)
 
 物聯網中的 **物件** 指的是能與物理世界互動的設備。這些設備通常是小型、價格低廉的電腦，運行速度較慢且耗電量低——例如，僅有幾千字節 RAM 的簡單微控制器（相比之下，PC 的 RAM 是幾 GB），運行速度僅為幾百 MHz（而 PC 是 GHz 級別），但耗電量極低，有時甚至可以用電池運行數週、數月甚至數年。
 
 這些設備通過使用感測器從周圍環境收集數據，或通過控制輸出或執行器進行物理改變來與物理世界互動。典型的例子是一個智能恆溫器——一個具有溫度感測器、設置目標溫度的方式（如旋鈕或觸控螢幕），以及與加熱或冷卻系統連接的設備，當檢測到的溫度超出目標範圍時，系統會啟動。
 
-![一個圖示顯示溫度和旋鈕作為物聯網設備的輸入，並控制加熱器作為輸出](../../../../../translated_images/hk/basic-thermostat.a923217fd1f37e5a6f3390396a65c22a387419ea2dd17e518ec24315ba6ae9a8.png)
+![一個圖示顯示溫度和旋鈕作為物聯網設備的輸入，並控制加熱器作為輸出](../../../../../translated_images/zh-HK/basic-thermostat.a923217fd1f37e5a6f3390396a65c22a387419ea2dd17e518ec24315ba6ae9a8.png)
 
 可以作為物聯網設備的物件種類繁多，從專門感測某一項的硬體到通用設備，甚至包括你的智能手機！智能手機可以使用感測器檢測周圍環境，並使用執行器與世界互動——例如，使用 GPS 感測器檢測你的地點，並通過揚聲器提供導航指示。
 
@@ -63,11 +63,11 @@ CO_OP_TRANSLATOR_METADATA:
 
 以智能恆溫器為例，恆溫器通過家庭 WiFi 連接到雲端服務，將溫度數據發送到該服務，然後數據會被寫入某種數據庫，讓房主可以通過手機應用查看當前和過去的溫度。雲端中的另一個服務會知道房主想要的溫度，並通過雲端服務向物聯網設備發送消息，告訴加熱系統開啟或關閉。
 
-![一個圖示顯示溫度和旋鈕作為物聯網設備的輸入，物聯網設備與雲端之間有雙向通信，雲端與手機之間也有雙向通信，並控制加熱器作為物聯網設備的輸出](../../../../../translated_images/hk/mobile-controlled-thermostat.4a994010473d8d6a52ba68c67e5f02dc8928c717e93ca4b9bc55525aa75bbb60.png)
+![一個圖示顯示溫度和旋鈕作為物聯網設備的輸入，物聯網設備與雲端之間有雙向通信，雲端與手機之間也有雙向通信，並控制加熱器作為物聯網設備的輸出](../../../../../translated_images/zh-HK/mobile-controlled-thermostat.4a994010473d8d6a52ba68c67e5f02dc8928c717e93ca4b9bc55525aa75bbb60.png)
 
 更智能的版本可以使用雲端的 AI，結合其他物聯網設備（如檢測房間使用情況的佔用感測器）的數據，以及天氣數據甚至你的日曆，來智能地設置溫度。例如，如果從日曆中讀取到你正在度假，它可以關閉加熱；或者根據你使用的房間逐一關閉加熱，並隨著數據的積累變得越來越準確。
 
-![一個圖示顯示多個溫度感測器和旋鈕作為物聯網設備的輸入，物聯網設備與雲端之間有雙向通信，雲端與手機、日曆和天氣服務之間也有雙向通信，並控制加熱器作為物聯網設備的輸出](../../../../../translated_images/hk/smarter-thermostat.a75855f15d2d9e63.webp)
+![一個圖示顯示多個溫度感測器和旋鈕作為物聯網設備的輸入，物聯網設備與雲端之間有雙向通信，雲端與手機、日曆和天氣服務之間也有雙向通信，並控制加熱器作為物聯網設備的輸出](../../../../../translated_images/zh-HK/smarter-thermostat.a75855f15d2d9e63.webp)
 
 ✅ 還有哪些數據可以幫助讓一個連接網際網路的恆溫器變得更智能？
 
@@ -103,7 +103,7 @@ CPU 依賴於時鐘每秒數百萬或數十億次的滴答聲。每次滴答聲�
 
 > 💁 CPU 使用 [取指-解碼-執行週期](https://wikipedia.org/wiki/Instruction_cycle) 執行程序。每次時鐘滴答，CPU 會從記憶體中取出下一條指令，解碼它，然後執行它，例如使用算術邏輯單元 (ALU) 來加兩個數字。一些執行可能需要多個滴答聲才能完成，因此下一個週期會在指令完成後的下一次滴答聲運行。
 
-![取指-解碼-執行週期，顯示從存儲在 RAM 中的程序中取指令，然後在 CPU 上解碼並執行](../../../../../translated_images/hk/fetch-decode-execute.2fd6f150f6280392807f4475382319abd0cee0b90058e1735444d6baa6f2078c.png)
+![取指-解碼-執行週期，顯示從存儲在 RAM 中的程序中取指令，然後在 CPU 上解碼並執行](../../../../../translated_images/zh-HK/fetch-decode-execute.2fd6f150f6280392807f4475382319abd0cee0b90058e1735444d6baa6f2078c.png)
 
 微控制器的時鐘速度遠低於桌面或筆記本電腦，甚至大多數智能手機。例如，Wio Terminal 的 CPU 運行速度為 120MHz，即每秒 120,000,000 次週期。
 
@@ -135,7 +135,7 @@ RAM 是程序運行時使用的記憶體，包含程序分配的變數和從外�
 
 下圖顯示了 192KB 和 8GB 之間的相對大小差異——中心的小點代表 192KB。
 
-![192KB 和 8GB 的比較 - 超過 40,000 倍的差距](../../../../../translated_images/hk/ram-comparison.6beb73541b42ac6f.webp)
+![192KB 和 8GB 的比較 - 超過 40,000 倍的差距](../../../../../translated_images/zh-HK/ram-comparison.6beb73541b42ac6f.webp)
 
 程式存儲空間也比 PC 小。一台典型的 PC 可能有 500GB 的硬碟用於程式存儲，而微控制器可能只有幾千字節或幾百萬字節（MB）的存儲空間（1MB 等於 1,000KB 或 1,000,000 字節）。Wio Terminal 擁有 4MB 的程式存儲空間。
 
@@ -191,7 +191,7 @@ Arduino 開發板使用 C 或 C++ 編程。使用 C/C++ 可以使程式碼編譯
 
 你可以在 `setup` 函數中編寫初始化程式碼，例如連接 WiFi 和雲服務或初始化輸入和輸出引腳。而在 `loop` 函數中，你可以編寫處理程式碼，例如從感應器讀取數據並將其發送到雲端。通常你會在每次循環中加入延遲，例如，如果你只想每 10 秒發送一次感應器數據，你可以在循環結束時加入 10 秒的延遲，這樣微控制器可以進入休眠狀態以節省電力，然後在需要時 10 秒後再次運行循環。
 
-![Arduino sketch 首先運行 setup，然後不斷重複運行 loop](../../../../../translated_images/hk/arduino-sketch.79590cb837ff7a7c6a68d1afda6cab83fd53d3bb1bd9a8bf2eaf8d693a4d3ea6.png)
+![Arduino sketch 首先運行 setup，然後不斷重複運行 loop](../../../../../translated_images/zh-HK/arduino-sketch.79590cb837ff7a7c6a68d1afda6cab83fd53d3bb1bd9a8bf2eaf8d693a4d3ea6.png)
 
 ✅ 這種程式架構被稱為 *事件循環* 或 *消息循環*。許多應用程式在底層使用這種架構，這也是大多數運行在 Windows、macOS 或 Linux 等操作系統上的桌面應用程式的標準。`loop` 會監聽來自用戶界面元件（如按鈕）或設備（如鍵盤）的消息，並對其作出響應。你可以在這篇 [事件循環的文章](https://wikipedia.org/wiki/Event_loop) 中閱讀更多內容。
 
@@ -211,17 +211,17 @@ Arduino 還有一個龐大的第三方庫生態系統，這些庫可以為你的
 
 ### 樹莓派
 
-![樹莓派標誌](../../../../../translated_images/hk/raspberry-pi-logo.4efaa16605cee054.webp)
+![樹莓派標誌](../../../../../translated_images/zh-HK/raspberry-pi-logo.4efaa16605cee054.webp)
 
 [樹莓派基金會](https://www.raspberrypi.org) 是一家來自英國的慈善機構，成立於 2009 年，旨在推廣計算機科學的學習，特別是在學校層面。作為這一使命的一部分，他們開發了一款單板電腦，稱為樹莓派。目前樹莓派有三種變體——全尺寸版本、較小的 Pi Zero，以及可以嵌入最終 IoT 設備中的計算模組。
 
-![樹莓派 4](../../../../../translated_images/hk/raspberry-pi-4.fd4590d308c3d456.webp)
+![樹莓派 4](../../../../../translated_images/zh-HK/raspberry-pi-4.fd4590d308c3d456.webp)
 
 最新的全尺寸樹莓派是樹莓派 4B。它擁有一個四核心（4 核）1.5GHz 的 CPU，2GB、4GB 或 8GB 的 RAM，千兆以太網，WiFi，2 個支持 4K 螢幕的 HDMI 埠，一個音頻和複合視頻輸出埠，USB 埠（2 個 USB 2.0 和 2 個 USB 3.0），40 個 GPIO 引腳，一個樹莓派相機模組的相機連接埠，以及一個 SD 卡插槽。所有這些都集成在一塊 88mm x 58mm x 19.5mm 的電路板上，並由 3A 的 USB-C 電源供電。這些起價為 35 美元，比 PC 或 Mac 便宜得多。
 
 > 💁 還有一款 Pi400 一體機電腦，將 Pi4 集成到鍵盤中。
 
-![樹莓派 Zero](../../../../../translated_images/hk/raspberry-pi-zero.f7a4133e1e7d54bb.webp)
+![樹莓派 Zero](../../../../../translated_images/zh-HK/raspberry-pi-zero.f7a4133e1e7d54bb.webp)
 
 Pi Zero 更小，功耗更低。它擁有一個單核心 1GHz 的 CPU，512MB 的 RAM，WiFi（在 Zero W 型號中），一個 HDMI 埠，一個 micro-USB 埠，40 個 GPIO 引腳，一個樹莓派相機模組的相機連接埠，以及一個 SD 卡插槽。它的尺寸為 65mm x 30mm x 5mm，功耗非常低。Zero 售價 5 美元，帶 WiFi 的 W 版本售價 10 美元。
 

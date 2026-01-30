@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "4db8a3879a53490513571df2f6cf7641",
-  "translation_date": "2025-08-24T23:20:38+00:00",
-  "source_file": "1-getting-started/lessons/3-sensors-and-actuators/pi-actuator.md",
-  "language_code": "fr"
-}
--->
 # Construire une veilleuse - Raspberry Pi
 
 Dans cette partie de la leçon, vous allez ajouter une LED à votre Raspberry Pi et l'utiliser pour créer une veilleuse.

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "2a459ea9177fb0508ca96068ae1009d2",
-  "translation_date": "2025-08-26T15:57:16+00:00",
-  "source_file": "quiz-app/README.md",
-  "language_code": "es"
-}
--->
 # Cuestionarios
 
 Estos cuestionarios son los cuestionarios previos y posteriores a las lecciones del plan de estudios de IoT para Principiantes en https://aka.ms/iot-beginners

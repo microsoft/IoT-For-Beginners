@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "c0550b254b9ba2539baf1e6bb5fc05f8",
-  "translation_date": "2025-08-25T00:23:44+00:00",
-  "source_file": "6-consumer/lessons/1-speech-recognition/virtual-device-speech-to-text.md",
-  "language_code": "fr"
-}
--->
 # Conversion de la parole en texte - Appareil IoT virtuel
 
 Dans cette partie de la leçon, vous allez écrire du code pour convertir la parole captée par votre microphone en texte en utilisant le service de reconnaissance vocale.

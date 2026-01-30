@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "271dcd720357806934b2f0d94e19410e",
-  "translation_date": "2026-01-05T12:42:09+00:00",
-  "source_file": "docs/troubleshooting.md",
-  "language_code": "fr"
-}
--->
 # Guide de dépannage pour Raspberry Pi
 
 Ce guide fournit des solutions aux problèmes courants rencontrés lors de l'exécution de projets IoT sur des appareils Raspberry Pi.  

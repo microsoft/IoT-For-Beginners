@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "0b2ae20b0fc8e73c9598dea937cac038",
-  "translation_date": "2025-08-26T14:02:47+00:00",
-  "source_file": "5-retail/lessons/2-check-stock-device/wio-terminal-count-stock.md",
-  "language_code": "es"
-}
--->
 # Contar inventario desde tu dispositivo IoT - Wio Terminal
 
 Una combinación de las predicciones y sus cuadros delimitadores puede ser utilizada para contar inventario en una imagen.

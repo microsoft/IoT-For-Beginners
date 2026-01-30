@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "8587f83cfded1bfab99fda4022f4df89",
-  "translation_date": "2025-08-28T18:56:18+00:00",
-  "source_file": "SECURITY.md",
-  "language_code": "en"
-}
--->
 # Security
 
 Microsoft prioritizes the security of our software products and services, including all source code repositories managed through our GitHub organizations, such as [Microsoft](https://github.com/Microsoft), [Azure](https://github.com/Azure), [DotNet](https://github.com/dotnet), [AspNet](https://github.com/aspnet), [Xamarin](https://github.com/xamarin), and [our GitHub organizations](https://opensource.microsoft.com/).

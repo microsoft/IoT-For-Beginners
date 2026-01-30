@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # 理解語言
 
-![本課程的手繪筆記概述](../../../../../translated_images/tw/lesson-22.6148ea28500d9e00c396aaa2649935fb6641362c8f03d8e5e90a676977ab01dd.jpg)
+![本課程的手繪筆記概述](../../../../../translated_images/zh-TW/lesson-22.6148ea28500d9e00c396aaa2649935fb6641362c8f03d8e5e90a676977ab01dd.jpg)
 
 > 手繪筆記由 [Nitya Narasimhan](https://github.com/nitya) 提供。點擊圖片查看更大的版本。
 
@@ -55,7 +55,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 ## 創建語言理解模型
 
-![LUIS 標誌](../../../../../translated_images/tw/luis-logo.5cb4f3e88c020ee6df4f614e8831f4a4b6809a7247bf52085fb48d629ef9be52.png)
+![LUIS 標誌](../../../../../translated_images/zh-TW/luis-logo.5cb4f3e88c020ee6df4f614e8831f4a4b6809a7247bf52085fb48d629ef9be52.png)
 
 你可以使用 LUIS（Language Understanding Intelligent Service），這是 Microsoft 的一項語言理解服務，屬於 Cognitive Services。
 
@@ -126,7 +126,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 然後告訴 LUIS 這些句子的哪些部分對應於實體：
 
-![句子「設置一個計時器，時間為1分12秒」分解為實體](../../../../../translated_images/tw/sentence-as-intent-entities.301401696f992259.webp)
+![句子「設置一個計時器，時間為1分12秒」分解為實體](../../../../../translated_images/zh-TW/sentence-as-intent-entities.301401696f992259.webp)
 
 句子 `設置一個計時器，時間為1分12秒` 的意圖是 `設置計時器`。它還有兩個實體，每個實體有兩個值：
 
@@ -178,7 +178,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 1. 當你輸入每個示例時，LUIS 會開始檢測實體，並將找到的實體用下劃線標記並標籤。
 
-    ![示例中數字和時間單位被 LUIS 用下劃線標記](../../../../../translated_images/tw/luis-intent-examples.25716580b2d2723cf1bafdf277d015c7f046d8cfa20f27bddf3a0873ec45fab7.png)
+    ![示例中數字和時間單位被 LUIS 用下劃線標記](../../../../../translated_images/zh-TW/luis-intent-examples.25716580b2d2723cf1bafdf277d015c7f046d8cfa20f27bddf3a0873ec45fab7.png)
 
 ### 任務 - 訓練和測試模型
 

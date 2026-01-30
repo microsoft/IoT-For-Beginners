@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "9fd36f5dc734203ee28b6cf2573e5eab",
-  "translation_date": "2025-08-26T13:56:45+00:00",
-  "source_file": "for-teachers.md",
-  "language_code": "es"
-}
--->
 # Para Educadores
 
 ¿Te gustaría usar este plan de estudios en tu aula? ¡Siéntete libre de hacerlo!

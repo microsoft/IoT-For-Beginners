@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # 訓練水果品質檢測器
 
-![本課程概述的手繪筆記](../../../../../translated_images/tw/lesson-15.843d21afdc6fb2bba70cd9db7b7d2f91598859fafda2078b0bdc44954194b6c0.jpg)
+![本課程概述的手繪筆記](../../../../../translated_images/zh-TW/lesson-15.843d21afdc6fb2bba70cd9db7b7d2f91598859fafda2078b0bdc44954194b6c0.jpg)
 
 > 手繪筆記由 [Nitya Narasimhan](https://github.com/nitya) 提供。點擊圖片查看更大版本。
 
@@ -47,7 +47,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 自動化收割的興起將產品分類從收割階段移到了工廠。食品會在長長的輸送帶上運輸，人工團隊挑選出不符合品質標準的產品。儘管使用機械收割降低了成本，但人工分類食品仍然需要付出成本。
 
-![如果檢測到紅色番茄，它會繼續前進。如果檢測到綠色番茄，則會被槓桿推入廢料箱](../../../../../translated_images/tw/optical-tomato-sorting.61aa134bdda4e5b1bfb16a212c1e35a6ef0c426cbb8b1c975f79d7bfbf48d068.png)
+![如果檢測到紅色番茄，它會繼續前進。如果檢測到綠色番茄，則會被槓桿推入廢料箱](../../../../../translated_images/zh-TW/optical-tomato-sorting.61aa134bdda4e5b1bfb16a212c1e35a6ef0c426cbb8b1c975f79d7bfbf48d068.png)
 
 下一步的演進是使用機器進行分類，這些機器可以內建於收割機中或位於加工廠內。第一代這些機器使用光學感測器檢測顏色，並控制執行器將綠色番茄推入廢料箱，使用槓桿或氣流將紅色番茄留在輸送帶網絡上繼續前進。
 
@@ -61,7 +61,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 傳統編程是將數據與算法結合，並生成輸出。例如，在上一個項目中，您使用 GPS 坐標和地理圍欄，應用 Azure Maps 提供的算法，並獲得該點是否在地理圍欄內或外的結果。輸入更多數據，您就能獲得更多輸出。
 
-![傳統開發使用輸入和算法生成輸出。機器學習使用輸入和輸出數據訓練模型，該模型可以使用新輸入數據生成新輸出](../../../../../translated_images/tw/traditional-vs-ml.5c20c169621fa539.webp)
+![傳統開發使用輸入和算法生成輸出。機器學習使用輸入和輸出數據訓練模型，該模型可以使用新輸入數據生成新輸出](../../../../../translated_images/zh-TW/traditional-vs-ml.5c20c169621fa539.webp)
 
 機器學習則顛覆了這一過程——您從數據和已知輸出開始，機器學習算法從數據中學習。然後，您可以使用這個訓練好的算法（稱為 *機器學習模型* 或 *模型*），輸入新數據並獲得新輸出。
 
@@ -71,7 +71,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 > 🎓 ML 模型的結果稱為 *預測*
 
-![兩根香蕉，一根成熟的香蕉預測為 99.7% 成熟，0.3% 未成熟；另一根未成熟的香蕉預測為 1.4% 成熟，98.6% 未成熟](../../../../../translated_images/tw/bananas-ripe-vs-unripe-predictions.8d0e2034014aa50ece4e4589e724b142da0681f35470fe3db3f7d51240f69c85.png)
+![兩根香蕉，一根成熟的香蕉預測為 99.7% 成熟，0.3% 未成熟；另一根未成熟的香蕉預測為 1.4% 成熟，98.6% 未成熟](../../../../../translated_images/zh-TW/bananas-ripe-vs-unripe-predictions.8d0e2034014aa50ece4e4589e724b142da0681f35470fe3db3f7d51240f69c85.png)
 
 ML 模型不會給出二元答案，而是提供概率。例如，模型可能會給出一張香蕉的圖片，預測 `成熟` 的概率為 99.7%，`未成熟` 的概率為 0.3%。您的代碼將選擇最佳預測並判斷該香蕉是成熟的。
 
@@ -87,7 +87,7 @@ ML 模型不會給出二元答案，而是提供概率。例如，模型可能�
 
 一旦影像分類器已經針對各種影像進行訓練，它的內部就能很好地識別形狀、顏色和模式。遷移學習允許模型利用它已經學會的影像部分識別能力，來識別新影像。
 
-![一旦能識別形狀，它們可以以不同的配置組成船或貓](../../../../../translated_images/tw/shapes-to-images.1a309f0ea88dd66f.webp)
+![一旦能識別形狀，它們可以以不同的配置組成船或貓](../../../../../translated_images/zh-TW/shapes-to-images.1a309f0ea88dd66f.webp)
 
 您可以將其類比為兒童的形狀書籍，一旦您能識別半圓形、矩形和三角形，您就能根據這些形狀的配置識別帆船或貓。影像分類器可以識別形狀，而遷移學習則教它什麼樣的組合構成帆船或貓——或者成熟的香蕉。
 
@@ -99,7 +99,7 @@ ML 模型不會給出二元答案，而是提供概率。例如，模型可能�
 
 Custom Vision 是一種基於雲的工具，用於訓練影像分類器。它允許您僅使用少量影像訓練分類器。您可以通過 Web 入口、Web API 或 SDK 上傳影像，並為每張影像提供 *標籤*，以標記該影像的分類。然後，您可以訓練模型並測試其性能。一旦您對模型感到滿意，您可以發布版本，通過 Web API 或 SDK 訪問它。
 
-![Azure Custom Vision 標誌](../../../../../translated_images/tw/custom-vision-logo.d3d4e7c8a87ec9daf825e72e210576c3cbf60312577be7a139e22dd97ab7f1e6.png)
+![Azure Custom Vision 標誌](../../../../../translated_images/zh-TW/custom-vision-logo.d3d4e7c8a87ec9daf825e72e210576c3cbf60312577be7a139e22dd97ab7f1e6.png)
 
 > 💁 您可以僅使用每個分類 5 張影像訓練 Custom Vision 模型，但影像越多效果越好。至少 30 張影像可以獲得更好的結果。
 
@@ -155,7 +155,7 @@ Custom Vision 是 Microsoft 提供的一系列 AI 工具的一部分，稱為 Co
 
     創建項目時，請確保使用您之前創建的 `fruit-quality-detector-training` 資源。使用 *分類* 項目類型、*多類別* 分類類型以及 *食品* 領域。
 
-    ![Custom Vision 項目的設置，名稱設為 fruit-quality-detector，無描述，資源設為 fruit-quality-detector-training，項目類型設為分類，分類類型設為多類別，領域設為食品](../../../../../translated_images/tw/custom-vision-create-project.cf46325b92d8b131089f6647cf5e07b664cb77850e106d66e3c057b6b69756c6.png)
+    ![Custom Vision 項目的設置，名稱設為 fruit-quality-detector，無描述，資源設為 fruit-quality-detector-training，項目類型設為分類，分類類型設為多類別，領域設為食品](../../../../../translated_images/zh-TW/custom-vision-create-project.cf46325b92d8b131089f6647cf5e07b664cb77850e106d66e3c057b6b69756c6.png)
 
 ✅ 花些時間探索您的影像分類器的 Custom Vision UI。
 
@@ -173,7 +173,7 @@ Custom Vision 是 Microsoft 提供的一系列 AI 工具的一部分，稱為 Co
 
     * 使用2根成熟的香蕉，從不同角度拍攝每根香蕉的幾張照片，至少拍攝7張（5張用於訓練，2張用於測試），但最好更多。
 
-        ![2根不同香蕉的照片](../../../../../translated_images/tw/banana-training-images.530eb203346d73bc23b8b990fb4609470bf4ff7c942ccc13d4cfffeed9be1ad4.png)
+        ![2根不同香蕉的照片](../../../../../translated_images/zh-TW/banana-training-images.530eb203346d73bc23b8b990fb4609470bf4ff7c942ccc13d4cfffeed9be1ad4.png)
 
     * 使用2根未成熟的香蕉重複相同的過程。
 
@@ -183,7 +183,7 @@ Custom Vision 是 Microsoft 提供的一系列 AI 工具的一部分，稱為 Co
 
 1. 按照[Microsoft文檔中建立分類器快速入門的上傳和標記影像部分](https://docs.microsoft.com/azure/cognitive-services/custom-vision-service/getting-started-build-a-classifier?WT.mc_id=academic-17441-jabenn#upload-and-tag-images)的指引，上傳您的訓練影像。將成熟的水果標記為`ripe`，未成熟的水果標記為`unripe`。
 
-    ![上傳成熟和未成熟香蕉照片的對話框](../../../../../translated_images/tw/image-upload-bananas.0751639f3815e0ec42bdbc6254d1e4357a185834d1ae10c9948a0e7d6d336695.png)
+    ![上傳成熟和未成熟香蕉照片的對話框](../../../../../translated_images/zh-TW/image-upload-bananas.0751639f3815e0ec42bdbc6254d1e4357a185834d1ae10c9948a0e7d6d336695.png)
 
 1. 按照[Microsoft文檔中建立分類器快速入門的訓練分類器部分](https://docs.microsoft.com/azure/cognitive-services/custom-vision-service/getting-started-build-a-classifier?WT.mc_id=academic-17441-jabenn#train-the-classifier)的指引，使用您上傳的影像訓練影像分類器。
 
@@ -201,7 +201,7 @@ Custom Vision 是 Microsoft 提供的一系列 AI 工具的一部分，稱為 Co
 
 1. 按照[Microsoft文檔中測試模型的指引](https://docs.microsoft.com/azure/cognitive-services/custom-vision-service/test-your-model?WT.mc_id=academic-17441-jabenn#test-your-model)，使用您之前準備的測試影像測試您的影像分類器，而不是使用訓練影像。
 
-    ![一根未成熟香蕉被預測為未成熟，概率為98.9%，成熟概率為1.1%](../../../../../translated_images/tw/banana-unripe-quick-test-prediction.dae9b5e1c4ef7c64886422438850ea14f0be6ac918c217ea3b255c685abfabe7.png)
+    ![一根未成熟香蕉被預測為未成熟，概率為98.9%，成熟概率為1.1%](../../../../../translated_images/zh-TW/banana-unripe-quick-test-prediction.dae9b5e1c4ef7c64886422438850ea14f0be6ac918c217ea3b255c685abfabe7.png)
 
 1. 嘗試使用您所有的測試影像並觀察概率。
 

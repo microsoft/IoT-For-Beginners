@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "7e45d884493c5222348b43fbc4481b6a",
-  "translation_date": "2025-08-26T15:40:35+00:00",
-  "source_file": "6-consumer/lessons/1-speech-recognition/pi-microphone.md",
-  "language_code": "es"
-}
--->
 # Configura tu micrófono y altavoces - Raspberry Pi
 
 En esta parte de la lección, agregarás un micrófono y altavoces a tu Raspberry Pi.

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "6f4ba69d77f16c4a5110623a96a215c3",
-  "translation_date": "2025-08-28T19:15:04+00:00",
-  "source_file": "6-consumer/lessons/2-language-understanding/README.md",
-  "language_code": "en"
-}
--->
 and paste it somewhere safe for later use.
 
     2. From the *Azure Resources* section, copy the *Primary Key* (API key) and the *Endpoint* URL.

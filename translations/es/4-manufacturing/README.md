@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "3764e089adf2d5801272bc0895f8498b",
-  "translation_date": "2025-08-26T14:06:47+00:00",
-  "source_file": "4-manufacturing/README.md",
-  "language_code": "es"
-}
--->
 # Fabricación y procesamiento - usando IoT para mejorar el procesamiento de alimentos
 
 Una vez que los alimentos llegan a un centro central o planta de procesamiento, no siempre se envían directamente a los supermercados. Muchas veces, los alimentos pasan por una serie de pasos de procesamiento, como la clasificación por calidad. Este es un proceso que solía ser manual: comenzaba en el campo cuando los recolectores solo recogían fruta madura, luego en la fábrica la fruta pasaba por una cinta transportadora y los empleados retiraban manualmente cualquier fruta magullada o podrida. Habiendo recogido y clasificado fresas yo mismo como trabajo de verano durante la escuela, puedo dar fe de que este no es un trabajo divertido.

@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # 可视化位置数据
 
-![本课的手绘笔记概览](../../../../../translated_images/zh/lesson-13.a259db1485021be7d7c72e90842fbe0ab977529e8684c179b5fb1ea75e92b3ef.jpg)
+![本课的手绘笔记概览](../../../../../translated_images/zh-CN/lesson-13.a259db1485021be7d7c72e90842fbe0ab977529e8684c179b5fb1ea75e92b3ef.jpg)
 
 > 手绘笔记由 [Nitya Narasimhan](https://github.com/nitya) 提供。点击图片查看更大版本。
 
@@ -73,11 +73,11 @@ CO_OP_TRANSLATOR_METADATA:
 
 对于人类来说，理解这些数据可能很困难。这是一堆没有意义的数字。作为可视化这些数据的第一步，可以将其绘制成折线图：
 
-![上述数据的折线图](../../../../../translated_images/zh/chart-soil-moisture.fd6d9d0cdc0b5f75e78038ecb8945dfc84b38851359de99d84b16e3336d6d7c2.png)
+![上述数据的折线图](../../../../../translated_images/zh-CN/chart-soil-moisture.fd6d9d0cdc0b5f75e78038ecb8945dfc84b38851359de99d84b16e3336d6d7c2.png)
 
 进一步优化，可以添加一条线，表示当土壤湿度读数达到 450 时自动浇水系统启动的时间点：
 
-![带有 450 线的土壤湿度折线图](../../../../../translated_images/zh/chart-soil-moisture-relay.fbb391236d34a64d0abf1df396e9197e0a24df14150620b9cc820a64a55c9326.png)
+![带有 450 线的土壤湿度折线图](../../../../../translated_images/zh-CN/chart-soil-moisture-relay.fbb391236d34a64d0abf1df396e9197e0a24df14150620b9cc820a64a55c9326.png)
 
 这个图表可以快速显示土壤湿度水平以及浇水系统启动的时间点。
 
@@ -93,7 +93,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 处理地图是一个有趣的练习，有许多地图服务可供选择，例如 Bing Maps、Leaflet、Open Street Maps 和 Google Maps。在本课中，你将学习 [Azure Maps](https://azure.microsoft.com/services/azure-maps/?WT.mc_id=academic-17441-jabenn) 以及如何使用它来显示你的 GPS 数据。
 
-![Azure Maps 标志](../../../../../translated_images/zh/azure-maps-logo.35d01dcfbd81fe6140e94257aaa1538f785a58c91576d14e0ebe7a2f6c694b99.png)
+![Azure Maps 标志](../../../../../translated_images/zh-CN/azure-maps-logo.35d01dcfbd81fe6140e94257aaa1538f785a58c91576d14e0ebe7a2f6c694b99.png)
 
 Azure Maps 是“一组地理空间服务和 SDK，使用最新的地图数据为网页和移动应用提供地理背景。”开发者可以使用这些工具创建美观、交互式的地图，这些地图可以提供推荐的交通路线、交通事故信息、室内导航、搜索功能、海拔信息、天气服务等。
 
@@ -194,7 +194,7 @@ Azure Maps 是“一组地理空间服务和 SDK，使用最新的地图数据�
 
     如果你在浏览器中打开你的 `index.html` 页面，你应该会看到一个地图加载并聚焦在西雅图地区。
 
-    ![显示西雅图的地图，西雅图是美国华盛顿州的一个城市](../../../../../translated_images/zh/map-image.8fb2c53eb23ef39c1c0a4410a5282e879b3b452b707eb066ff04c5488d3d72b7.png)
+    ![显示西雅图的地图，西雅图是美国华盛顿州的一个城市](../../../../../translated_images/zh-CN/map-image.8fb2c53eb23ef39c1c0a4410a5282e879b3b452b707eb066ff04c5488d3d72b7.png)
 
     ✅ 尝试调整缩放和中心参数以更改地图显示。你可以添加与你数据的纬度和经度对应的不同坐标来重新定位地图。
 
@@ -328,7 +328,7 @@ Azure Maps 是“一组地理空间服务和 SDK，使用最新的地图数据�
 
 1. 在浏览器中加载 HTML 页面。页面将加载地图，然后从存储中加载所有 GPS 数据并将其绘制在地图上。
 
-    ![西雅图附近圣爱德华州立公园的地图，显示公园边缘路径上的圆形标记](../../../../../translated_images/zh/map-path.896832e72dc696ffe20650e4051027d4855442d955f93fdbb80bb417ca8a406f.png)
+    ![西雅图附近圣爱德华州立公园的地图，显示公园边缘路径上的圆形标记](../../../../../translated_images/zh-CN/map-path.896832e72dc696ffe20650e4051027d4855442d955f93fdbb80bb417ca8a406f.png)
 
 > 💁 您可以在 [code](../../../../../3-transport/lessons/3-visualize-location-data/code) 文件夹中找到此代码。
 

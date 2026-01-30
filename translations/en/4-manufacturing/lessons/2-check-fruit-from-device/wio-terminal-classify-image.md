@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "32a1f23e7834fbe7715da8c4ebb450b9",
-  "translation_date": "2025-08-28T19:13:17+00:00",
-  "source_file": "4-manufacturing/lessons/2-check-fruit-from-device/wio-terminal-classify-image.md",
-  "language_code": "en"
-}
--->
 # Classify an image - Wio Terminal
 
 In this part of the lesson, you will send the image captured by the camera to the Custom Vision service to classify it.

@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # 将设备连接到互联网
 
-![本课的手绘笔记概览](../../../../../translated_images/zh/lesson-4.7344e074ea68fa545fd320b12dce36d72dd62d28c3b4596cb26cf315f434b98f.jpg)
+![本课的手绘笔记概览](../../../../../translated_images/zh-CN/lesson-4.7344e074ea68fa545fd320b12dce36d72dd62d28c3b4596cb26cf315f434b98f.jpg)
 
 > 手绘笔记由 [Nitya Narasimhan](https://github.com/nitya) 提供。点击图片查看更大版本。
 
@@ -46,7 +46,7 @@ IoT 设备可以接收来自云的消息。这些消息通常包含命令——�
 
 IoT 设备与互联网通信时有许多流行的通信协议。最流行的协议基于通过某种代理进行发布/订阅消息传递。IoT 设备连接到代理并发布遥测数据，同时订阅命令。云服务也连接到代理，订阅所有遥测消息，并发布命令给特定设备或设备组。
 
-![IoT 设备连接到代理并发布遥测数据，同时订阅命令。云服务连接到代理，订阅所有遥测数据，并向特定设备发送命令。](../../../../../translated_images/zh/pub-sub.7c7ed43fe9fd15d4.webp)
+![IoT 设备连接到代理并发布遥测数据，同时订阅命令。云服务连接到代理，订阅所有遥测数据，并向特定设备发送命令。](../../../../../translated_images/zh-CN/pub-sub.7c7ed43fe9fd15d4.webp)
 
 MQTT 是 IoT 设备最流行的通信协议之一，本课将重点介绍它。其他协议包括 AMQP 和 HTTP/HTTPS。
 
@@ -56,7 +56,7 @@ MQTT 是 IoT 设备最流行的通信协议之一，本课将重点介绍它。�
 
 MQTT 有一个单一的代理和多个客户端。所有客户端都连接到代理，代理根据需要将消息路由到相关客户端。消息通过命名主题进行路由，而不是直接发送到单个客户端。客户端可以发布到某个主题，订阅该主题的任何客户端都会收到消息。
 
-![IoT 设备在 /telemetry 主题上发布遥测数据，云服务订阅该主题](../../../../../translated_images/zh/mqtt.cbf7f21d9adc3e17548b359444cc11bb4bf2010543e32ece9a47becf54438c23.png)
+![IoT 设备在 /telemetry 主题上发布遥测数据，云服务订阅该主题](../../../../../translated_images/zh-CN/mqtt.cbf7f21d9adc3e17548b359444cc11bb4bf2010543e32ece9a47becf54438c23.png)
 
 ✅ 做一些研究。如果您有大量 IoT 设备，如何确保您的 MQTT 代理能够处理所有消息？
 
@@ -78,7 +78,7 @@ MQTT 有一个单一的代理和多个客户端。所有客户端都连接到代
 
 > 💁 此测试代理是公开的且不安全。任何人都可以监听您发布的内容，因此不应用于需要保密的数据。
 
-![作业流程图，显示光线强度被读取和检查，LED 被控制](../../../../../translated_images/zh/assignment-1-internet-flow.3256feab5f052fd273bf4e331157c574c2c3fa42e479836fc9c3586f41db35a5.png)
+![作业流程图，显示光线强度被读取和检查，LED 被控制](../../../../../translated_images/zh-CN/assignment-1-internet-flow.3256feab5f052fd273bf4e331157c574c2c3fa42e479836fc9c3586f41db35a5.png)
 
 按照以下相关步骤将设备连接到 MQTT 代理：
 
@@ -115,7 +115,7 @@ MQTT 连接可以是公开和开放的，也可以通过用户名和密码或证
 
 让我们回顾一下第 1 课中的智能恒温器示例。
 
-![一个使用多个房间传感器的互联网连接恒温器](../../../../../translated_images/zh/telemetry.21e5d8b97649d2eb.webp)
+![一个使用多个房间传感器的互联网连接恒温器](../../../../../translated_images/zh-CN/telemetry.21e5d8b97649d2eb.webp)
 
 恒温器有温度传感器用于收集遥测数据。它可能内置一个温度传感器，并可能通过无线协议（如 [蓝牙低功耗](https://wikipedia.org/wiki/Bluetooth_Low_Energy)）连接到多个外部温度传感器。
 
@@ -267,11 +267,11 @@ Python 的一个强大功能是可以安装 [pip 包](https://pypi.org)——这
 
 1. 当 VS Code 启动时，它会激活 Python 虚拟环境。这将在底部状态栏中显示：
 
-    ![VS Code 显示选定的虚拟环境](../../../../../translated_images/zh/vscode-virtual-env.8ba42e04c3d533cf.webp)
+    ![VS Code 显示选定的虚拟环境](../../../../../translated_images/zh-CN/vscode-virtual-env.8ba42e04c3d533cf.webp)
 
 1. 如果 VS Code 启动时终端已经运行，它不会在终端中激活虚拟环境。最简单的方法是使用 **终止活动终端实例** 按钮关闭终端：
 
-    ![VS Code 终止活动终端实例按钮](../../../../../translated_images/zh/vscode-kill-terminal.1cc4de7c6f25ee08.webp)
+    ![VS Code 终止活动终端实例按钮](../../../../../translated_images/zh-CN/vscode-kill-terminal.1cc4de7c6f25ee08.webp)
 
 1. 通过选择 *终端 -> 新终端* 或按 `` CTRL+` `` 启动一个新的 VS Code 终端。新终端将加载虚拟环境，激活命令会显示在终端中。虚拟环境的名称（`.venv`）也会显示在提示符中：
 
@@ -359,7 +359,7 @@ Python 的一个强大功能是可以安装 [pip 包](https://pypi.org)——这
 
 IoT 设备设计者还应该考虑 IoT 设备在断网或因位置导致信号丢失时是否可以使用。智能恒温器应该能够在无法将遥测数据发送到云端时做出一些有限的决策来控制加热。
 
-[![这辆法拉利因为有人试图在没有手机信号的地下升级而被锁死](../../../../../translated_images/zh/bricked-car.dc38f8efadc6c59d76211f981a521efb300939283dee468f79503aae3ec67615.png)](https://twitter.com/internetofshit/status/1315736960082808832)
+[![这辆法拉利因为有人试图在没有手机信号的地下升级而被锁死](../../../../../translated_images/zh-CN/bricked-car.dc38f8efadc6c59d76211f981a521efb300939283dee468f79503aae3ec67615.png)](https://twitter.com/internetofshit/status/1315736960082808832)
 
 对于 MQTT 来处理连接丢失，设备和服务器代码需要负责确保消息传递的可靠性，例如要求所有发送的消息都通过回复主题上的额外消息进行回复，如果没有，则手动排队以便稍后重播。
 
@@ -367,7 +367,7 @@ IoT 设备设计者还应该考虑 IoT 设备在断网或因位置导致信号�
 
 命令是从云端发送到设备的消息，指示设备执行某些操作。大多数情况下，这涉及通过执行器提供某种输出，但也可以是设备本身的指令，例如重启或收集额外的遥测数据并将其作为命令的响应返回。
 
-![一个连接到互联网的恒温器接收到打开加热的命令](../../../../../translated_images/zh/commands.d6c06bbbb3a02cce95f2831a1c331daf6dedd4e470c4aa2b0ae54f332016e504.png)
+![一个连接到互联网的恒温器接收到打开加热的命令](../../../../../translated_images/zh-CN/commands.d6c06bbbb3a02cce95f2831a1c331daf6dedd4e470c4aa2b0ae54f332016e504.png)
 
 恒温器可以从云端接收到打开加热的命令。根据所有传感器的遥测数据，如果云服务决定加热应该开启，它会发送相关命令。
 

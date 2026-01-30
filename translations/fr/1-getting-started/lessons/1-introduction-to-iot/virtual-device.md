@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "52b4de6144b2efdced7797a5339d6035",
-  "translation_date": "2025-08-24T23:32:56+00:00",
-  "source_file": "1-getting-started/lessons/1-introduction-to-iot/virtual-device.md",
-  "language_code": "fr"
-}
--->
 # Ordinateur monocarte virtuel
 
 Au lieu d'acheter un appareil IoT avec des capteurs et des actionneurs, vous pouvez utiliser votre ordinateur pour simuler du matériel IoT. Le projet [CounterFit](https://github.com/CounterFit-IoT/CounterFit) vous permet d'exécuter une application localement qui simule du matériel IoT tel que des capteurs et des actionneurs, et d'accéder à ces capteurs et actionneurs depuis du code Python local, écrit de la même manière que le code que vous écririez sur un Raspberry Pi avec du matériel physique.

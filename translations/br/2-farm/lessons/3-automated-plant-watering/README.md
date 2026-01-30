@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Irrigação automatizada de plantas
 
-![Uma visão geral ilustrada desta lição](../../../../../translated_images/br/lesson-7.30b5f577d3cb8e031238751475cb519c7d6dbaea261b5df4643d086ffb2a03bb.jpg)
+![Uma visão geral ilustrada desta lição](../../../../../translated_images/pt-BR/lesson-7.30b5f577d3cb8e031238751475cb519c7d6dbaea261b5df4643d086ffb2a03bb.jpg)
 
 > Ilustração por [Nitya Narasimhan](https://github.com/nitya). Clique na imagem para uma versão maior.
 
@@ -41,7 +41,7 @@ Dispositivos IoT utilizam baixa voltagem. Embora isso seja suficiente para senso
 
 A solução para isso é conectar a bomba a uma fonte de energia externa e usar um atuador para ligar a bomba, semelhante a como você ligaria uma luz. É necessário apenas uma pequena quantidade de energia (na forma de energia do seu corpo) para seu dedo acionar um interruptor, conectando a luz à eletricidade da rede elétrica de 110v/240v.
 
-![Um interruptor de luz liga a energia para uma lâmpada](../../../../../translated_images/br/light-switch.760317ad6ab8bd6d611da5352dfe9c73a94a0822ccec7df3c8bae35da18e1658.png)
+![Um interruptor de luz liga a energia para uma lâmpada](../../../../../translated_images/pt-BR/light-switch.760317ad6ab8bd6d611da5352dfe9c73a94a0822ccec7df3c8bae35da18e1658.png)
 
 > 🎓 [Eletricidade da rede](https://wikipedia.org/wiki/Mains_electricity) refere-se à eletricidade fornecida a residências e empresas por meio de infraestrutura nacional em muitas partes do mundo.
 
@@ -55,11 +55,11 @@ Um relé é um interruptor eletromecânico que converte um sinal elétrico em um
 
 > 🎓 [Eletroímãs](https://wikipedia.org/wiki/Electromagnet) são ímãs criados ao passar eletricidade por uma bobina de fio. Quando a eletricidade é ligada, a bobina se torna magnetizada. Quando a eletricidade é desligada, a bobina perde seu magnetismo.
 
-![Quando ligado, o eletroímã cria um campo magnético, acionando o interruptor do circuito de saída](../../../../../translated_images/br/relay-on.4db16a0fd6b66926.webp)
+![Quando ligado, o eletroímã cria um campo magnético, acionando o interruptor do circuito de saída](../../../../../translated_images/pt-BR/relay-on.4db16a0fd6b66926.webp)
 
 Em um relé, um circuito de controle alimenta o eletroímã. Quando o eletroímã está ligado, ele puxa uma alavanca que move um interruptor, fechando um par de contatos e completando um circuito de saída.
 
-![Quando desligado, o eletroímã não cria um campo magnético, desligando o interruptor do circuito de saída](../../../../../translated_images/br/relay-off.c34a178a2960fecd.webp)
+![Quando desligado, o eletroímã não cria um campo magnético, desligando o interruptor do circuito de saída](../../../../../translated_images/pt-BR/relay-off.c34a178a2960fecd.webp)
 
 Quando o circuito de controle está desligado, o eletroímã desliga, liberando a alavanca e abrindo os contatos, desligando o circuito de saída. Relés são atuadores digitais - um sinal alto para o relé o liga, um sinal baixo o desliga.
 
@@ -81,11 +81,11 @@ Quando a alavanca se move, geralmente é possível ouvir o contato com o eletro�
 
 O eletroímã não precisa de muita energia para ativar e puxar a alavanca, podendo ser controlado usando a saída de 3.3V ou 5V de um kit de desenvolvimento IoT. O circuito de saída pode transportar muito mais energia, dependendo do relé, incluindo voltagem da rede elétrica ou até níveis de potência mais altos para uso industrial. Dessa forma, um kit de desenvolvimento IoT pode controlar um sistema de irrigação, desde uma pequena bomba para uma única planta até um sistema industrial massivo para uma fazenda comercial inteira.
 
-![Um relé Grove com o circuito de controle, circuito de saída e relé identificados](../../../../../translated_images/br/grove-relay-labelled.293e068f5c3c2a199bd7892f2661fdc9e10c920b535cfed317fbd6d1d4ae1168.png)
+![Um relé Grove com o circuito de controle, circuito de saída e relé identificados](../../../../../translated_images/pt-BR/grove-relay-labelled.293e068f5c3c2a199bd7892f2661fdc9e10c920b535cfed317fbd6d1d4ae1168.png)
 
 A imagem acima mostra um relé Grove. O circuito de controle conecta-se a um dispositivo IoT e liga ou desliga o relé usando 3.3V ou 5V. O circuito de saída possui dois terminais, qualquer um pode ser energia ou terra. O circuito de saída pode lidar com até 250V a 10A, suficiente para uma variedade de dispositivos alimentados pela rede elétrica. Você pode encontrar relés que suportam níveis de potência ainda mais altos.
 
-![Uma bomba conectada através de um relé](../../../../../translated_images/br/pump-wired-to-relay.66c5cfc0d8918990.webp)
+![Uma bomba conectada através de um relé](../../../../../translated_images/pt-BR/pump-wired-to-relay.66c5cfc0d8918990.webp)
 
 Na imagem acima, a energia é fornecida a uma bomba via relé. Há um fio vermelho conectando o terminal +5V de uma fonte de alimentação USB a um terminal do circuito de saída do relé, e outro fio vermelho conectando o outro terminal do circuito de saída à bomba. Um fio preto conecta a bomba ao terra na fonte de alimentação USB. Quando o relé é ligado, ele completa o circuito, enviando 5V para a bomba, ligando-a.
 
@@ -135,7 +135,7 @@ Na lição 3, você construiu uma luz noturna - um LED que acende assim que um n
 
 Se você fez a última lição sobre umidade do solo usando um sensor físico, deve ter notado que levou alguns segundos para a leitura de umidade do solo cair após você regar sua planta. Isso não ocorre porque o sensor é lento, mas porque leva tempo para a água se infiltrar no solo.
 💁 Se você regou muito perto do sensor, pode ter notado que a leitura caiu rapidamente e depois voltou a subir - isso acontece porque a água próxima ao sensor se espalha pelo restante do solo, reduzindo a umidade do solo ao redor do sensor.
-![Uma medição de umidade do solo de 658 não muda durante a irrigação, apenas cai para 320 após a irrigação quando a água penetra no solo](../../../../../translated_images/br/soil-moisture-travel.a0e31af222cf1438.webp)
+![Uma medição de umidade do solo de 658 não muda durante a irrigação, apenas cai para 320 após a irrigação quando a água penetra no solo](../../../../../translated_images/pt-BR/soil-moisture-travel.a0e31af222cf1438.webp)
 
 No diagrama acima, uma leitura de umidade do solo mostra 658. A planta é irrigada, mas essa leitura não muda imediatamente, pois a água ainda não alcançou o sensor. A irrigação pode até terminar antes que a água chegue ao sensor e o valor caia para refletir o novo nível de umidade.
 
@@ -157,11 +157,11 @@ Quanto tempo o relé deve ficar ligado a cada vez? É melhor errar por excesso d
 
 > 💁 Esse tipo de controle de tempo é muito específico para o dispositivo IoT que você está construindo, a propriedade que está medindo e os sensores e atuadores utilizados.
 
-![Uma planta de morango conectada à água via uma bomba, com a bomba conectada a um relé. O relé e um sensor de umidade do solo na planta estão conectados a um Raspberry Pi](../../../../../translated_images/br/strawberry-with-pump.b410fc72ac6aabad.webp)
+![Uma planta de morango conectada à água via uma bomba, com a bomba conectada a um relé. O relé e um sensor de umidade do solo na planta estão conectados a um Raspberry Pi](../../../../../translated_images/pt-BR/strawberry-with-pump.b410fc72ac6aabad.webp)
 
 Por exemplo, eu tenho uma planta de morango com um sensor de umidade do solo e uma bomba controlada por um relé. Observei que, quando adiciono água, leva cerca de 20 segundos para a leitura de umidade do solo se estabilizar. Isso significa que preciso desligar o relé e esperar 20 segundos antes de verificar os níveis de umidade. Prefiro ter pouca água do que muita - sempre posso ligar a bomba novamente, mas não posso retirar água da planta.
 
-![Passo 1, fazer a medição. Passo 2, adicionar água. Passo 3, esperar que a água penetre no solo. Passo 4, refazer a medição](../../../../../translated_images/br/soil-moisture-delay.865f3fae206db01d.webp)
+![Passo 1, fazer a medição. Passo 2, adicionar água. Passo 3, esperar que a água penetre no solo. Passo 4, refazer a medição](../../../../../translated_images/pt-BR/soil-moisture-delay.865f3fae206db01d.webp)
 
 Isso significa que o melhor processo seria um ciclo de irrigação semelhante a:
 

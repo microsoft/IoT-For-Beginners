@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # 自动植物浇水
 
-![本课的手绘笔记概览](../../../../../translated_images/zh/lesson-7.30b5f577d3cb8e031238751475cb519c7d6dbaea261b5df4643d086ffb2a03bb.jpg)
+![本课的手绘笔记概览](../../../../../translated_images/zh-CN/lesson-7.30b5f577d3cb8e031238751475cb519c7d6dbaea261b5df4643d086ffb2a03bb.jpg)
 
 > 手绘笔记由 [Nitya Narasimhan](https://github.com/nitya) 提供。点击图片查看大图。
 
@@ -41,7 +41,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 解决方案是将水泵连接到外部电源，并使用执行器来打开水泵，就像你用手指打开灯一样。打开开关所需的能量很小（来自你身体的能量），而这会将灯连接到 110v/240v 的市电。
 
-![一个灯开关打开灯的电源](../../../../../translated_images/zh/light-switch.760317ad6ab8bd6d611da5352dfe9c73a94a0822ccec7df3c8bae35da18e1658.png)
+![一个灯开关打开灯的电源](../../../../../translated_images/zh-CN/light-switch.760317ad6ab8bd6d611da5352dfe9c73a94a0822ccec7df3c8bae35da18e1658.png)
 
 > 🎓 [市电](https://wikipedia.org/wiki/Mains_electricity) 指的是通过国家基础设施输送到家庭和企业的电力。
 
@@ -55,11 +55,11 @@ CO_OP_TRANSLATOR_METADATA:
 
 > 🎓 [电磁铁](https://wikipedia.org/wiki/Electromagnet) 是通过电流流过线圈产生磁场的磁铁。当电流开启时，线圈被磁化；当电流关闭时，线圈失去磁性。
 
-![当电磁铁通电时，产生磁场，打开输出电路的开关](../../../../../translated_images/zh/relay-on.4db16a0fd6b66926.webp)
+![当电磁铁通电时，产生磁场，打开输出电路的开关](../../../../../translated_images/zh-CN/relay-on.4db16a0fd6b66926.webp)
 
 在继电器中，控制电路为电磁铁供电。当电磁铁通电时，它会拉动一个杠杆，移动开关，闭合一对触点，从而完成输出电路。
 
-![当电磁铁断电时，不产生磁场，关闭输出电路的开关](../../../../../translated_images/zh/relay-off.c34a178a2960fecd.webp)
+![当电磁铁断电时，不产生磁场，关闭输出电路的开关](../../../../../translated_images/zh-CN/relay-off.c34a178a2960fecd.webp)
 
 当控制电路断电时，电磁铁关闭，释放杠杆并打开触点，从而关闭输出电路。继电器是一种数字执行器——高电平信号打开继电器，低电平信号关闭继电器。
 
@@ -81,11 +81,11 @@ CO_OP_TRANSLATOR_METADATA:
 
 电磁铁所需的功率很小，可以通过物联网开发板的 3.3V 或 5V 输出控制。输出电路可以承载更多功率，具体取决于继电器，包括市电电压甚至更高的工业电压。这使得物联网开发板可以控制灌溉系统，从单个植物的小型水泵到整个商业农场的大型工业系统。
 
-![一个带有标注的 Grove 继电器，显示控制电路、输出电路和继电器](../../../../../translated_images/zh/grove-relay-labelled.293e068f5c3c2a199bd7892f2661fdc9e10c920b535cfed317fbd6d1d4ae1168.png)
+![一个带有标注的 Grove 继电器，显示控制电路、输出电路和继电器](../../../../../translated_images/zh-CN/grove-relay-labelled.293e068f5c3c2a199bd7892f2661fdc9e10c920b535cfed317fbd6d1d4ae1168.png)
 
 上图显示了一个 Grove 继电器。控制电路连接到物联网设备，并使用 3.3V 或 5V 打开或关闭继电器。输出电路有两个端子，任意一个可以是电源或接地。输出电路可以处理高达 250V、10A 的电流，足以驱动一系列市电设备。你还可以找到能够处理更高功率的继电器。
 
-![通过继电器连接的水泵](../../../../../translated_images/zh/pump-wired-to-relay.66c5cfc0d8918990.webp)
+![通过继电器连接的水泵](../../../../../translated_images/zh-CN/pump-wired-to-relay.66c5cfc0d8918990.webp)
 
 在上图中，电源通过继电器供给水泵。一根红线将 USB 电源的 +5V 端子连接到继电器输出电路的一个端子，另一根红线将输出电路的另一个端子连接到水泵。一根黑线将水泵连接到 USB 电源的接地端。当继电器打开时，它完成电路，将 5V 送到水泵，启动水泵。
 
@@ -135,7 +135,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 如果你在上一课中使用了物理传感器测量土壤湿度，你可能注意到在给植物浇水后，土壤湿度读数需要几秒钟才会下降。这并不是因为传感器反应慢，而是因为水需要时间渗透到土壤中。
 💁 如果你在传感器附近浇水过多，可能会看到读数迅速下降，然后又回升——这是因为传感器附近的水分扩散到土壤的其他部分，导致传感器附近的土壤湿度降低。
-![土壤湿度测量值为658，在浇水时没有变化，只有当水渗透到土壤后才会降到320](../../../../../translated_images/zh/soil-moisture-travel.a0e31af222cf1438.webp)
+![土壤湿度测量值为658，在浇水时没有变化，只有当水渗透到土壤后才会降到320](../../../../../translated_images/zh-CN/soil-moisture-travel.a0e31af222cf1438.webp)
 
 在上图中，土壤湿度的读数为658。植物被浇水，但这个读数不会立即变化，因为水还没有到达传感器。甚至在水到达传感器之前，浇水可能已经结束，只有当水渗透到土壤后，读数才会下降以反映新的湿度水平。
 
@@ -157,11 +157,11 @@ CO_OP_TRANSLATOR_METADATA:
 
 > 💁 这种时间控制非常具体，取决于你正在构建的物联网设备、测量的属性以及使用的传感器和执行器。
 
-![一个草莓植物通过水泵连接到水源，水泵通过继电器控制。继电器和土壤湿度传感器都连接到树莓派](../../../../../translated_images/zh/strawberry-with-pump.b410fc72ac6aabad.webp)
+![一个草莓植物通过水泵连接到水源，水泵通过继电器控制。继电器和土壤湿度传感器都连接到树莓派](../../../../../translated_images/zh-CN/strawberry-with-pump.b410fc72ac6aabad.webp)
 
 例如，我有一株草莓植物，配备了一个土壤湿度传感器和一个通过继电器控制的水泵。我观察到，当我加水时，土壤湿度读数需要大约20秒才能稳定。这意味着我需要关闭继电器并等待20秒，然后再检查湿度水平。我宁愿水少一点也不愿多——我可以随时再次打开水泵，但我无法从植物中移除多余的水。
 
-![步骤1：测量湿度。步骤2：加水。步骤3：等待水渗透到土壤中。步骤4：重新测量湿度](../../../../../translated_images/zh/soil-moisture-delay.865f3fae206db01d.webp)
+![步骤1：测量湿度。步骤2：加水。步骤3：等待水渗透到土壤中。步骤4：重新测量湿度](../../../../../translated_images/zh-CN/soil-moisture-delay.865f3fae206db01d.webp)
 
 这意味着最佳的浇水流程可能是这样的：
 

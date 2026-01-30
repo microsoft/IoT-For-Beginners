@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Verificar stock a partir de um dispositivo IoT
 
-![Uma visão geral ilustrada desta lição](../../../../../translated_images/pt/lesson-20.0211df9551a8abb300fc8fcf7dc2789468dea2eabe9202273ac077b0ba37f15e.jpg)
+![Uma visão geral ilustrada desta lição](../../../../../translated_images/pt-PT/lesson-20.0211df9551a8abb300fc8fcf7dc2789468dea2eabe9202273ac077b0ba37f15e.jpg)
 
 > Ilustração por [Nitya Narasimhan](https://github.com/nitya). Clique na imagem para uma versão maior.
 
@@ -39,7 +39,7 @@ Os detetores de objetos podem ser usados para verificar stock, seja contando os 
 
 Por exemplo, se uma câmara estiver apontada para uma prateleira que pode conter 8 latas de polpa de tomate, e o detetor de objetos apenas detetar 7 latas, então falta uma e precisa de ser reposta.
 
-![7 latas de polpa de tomate numa prateleira, 4 na fila de cima, 3 na de baixo](../../../../../translated_images/pt/stock-7-cans-tomato-paste.f86059cc573d7bec.webp)
+![7 latas de polpa de tomate numa prateleira, 4 na fila de cima, 3 na de baixo](../../../../../translated_images/pt-PT/stock-7-cans-tomato-paste.f86059cc573d7bec.webp)
 
 Na imagem acima, um detetor de objetos detetou 7 latas de polpa de tomate numa prateleira que pode conter 8 latas. Não só o dispositivo IoT pode enviar uma notificação sobre a necessidade de reposição, como também pode indicar a localização do item em falta, informação importante caso estejas a usar robôs para repor prateleiras.
 
@@ -51,7 +51,7 @@ Por vezes, o stock errado pode estar nas prateleiras. Isto pode acontecer devido
 
 A deteção de objetos pode ser usada para identificar itens inesperados, alertando novamente um humano ou robô para devolver o item assim que for detetado.
 
-![Uma lata de milho bebé fora do lugar na prateleira de polpa de tomate](../../../../../translated_images/pt/stock-rogue-corn.be1f3ada8c457854.webp)
+![Uma lata de milho bebé fora do lugar na prateleira de polpa de tomate](../../../../../translated_images/pt-PT/stock-rogue-corn.be1f3ada8c457854.webp)
 
 Na imagem acima, uma lata de milho bebé foi colocada na prateleira ao lado da polpa de tomate. O detetor de objetos detetou isto, permitindo que o dispositivo IoT notifique um humano ou robô para devolver a lata ao local correto.
 
@@ -71,7 +71,7 @@ As iterações são publicadas a partir do portal Custom Vision.
 
 1. Clica no botão **Publish** para a iteração.
 
-    ![O botão de publicação](../../../../../translated_images/pt/custom-vision-object-detector-publish-button.34ee379fc650ccb9856c3868d0003f413b9529f102fc73c37168c98d721cc293.png)
+    ![O botão de publicação](../../../../../translated_images/pt-PT/custom-vision-object-detector-publish-button.34ee379fc650ccb9856c3868d0003f413b9529f102fc73c37168c98d721cc293.png)
 
 1. No diálogo *Publish Model*, define o *Prediction resource* como o recurso `stock-detector-prediction` que criaste na última lição. Mantém o nome como `Iteration2` e clica no botão **Publish**.
 
@@ -85,7 +85,7 @@ As iterações são publicadas a partir do portal Custom Vision.
 
     Também copia o valor *Prediction-Key*. Esta é uma chave segura que tens de passar ao chamar o modelo. Apenas aplicações que passam esta chave podem usar o modelo; quaisquer outras aplicações serão rejeitadas.
 
-    ![O diálogo da API de previsão mostrando o URL e a chave](../../../../../translated_images/pt/custom-vision-prediction-key-endpoint.30c569ffd0338864f319911f052d5e9b8c5066cb0800a26dd6f7ff5713130ad8.png)
+    ![O diálogo da API de previsão mostrando o URL e a chave](../../../../../translated_images/pt-PT/custom-vision-prediction-key-endpoint.30c569ffd0338864f319911f052d5e9b8c5066cb0800a26dd6f7ff5713130ad8.png)
 
 ✅ Quando uma nova iteração é publicada, terá um nome diferente. Como achas que poderias alterar a iteração que um dispositivo IoT está a usar?
 
@@ -104,7 +104,7 @@ Quando usas o detetor de objetos, não só recebes os objetos detetados com as s
 
 Os resultados de uma previsão no separador **Predictions** no Custom Vision têm as caixas delimitadoras desenhadas na imagem enviada para previsão.
 
-![4 latas de polpa de tomate numa prateleira com previsões para as 4 deteções de 35.8%, 33.5%, 25.7% e 16.6%](../../../../../translated_images/pt/custom-vision-stock-prediction.942266ab1bcca3410ecdf23643b9f5f570cfab2345235074e24c51f285777613.png)
+![4 latas de polpa de tomate numa prateleira com previsões para as 4 deteções de 35.8%, 33.5%, 25.7% e 16.6%](../../../../../translated_images/pt-PT/custom-vision-stock-prediction.942266ab1bcca3410ecdf23643b9f5f570cfab2345235074e24c51f285777613.png)
 
 Na imagem acima, foram detetadas 4 latas de polpa de tomate. Nos resultados, um quadrado vermelho é sobreposto para cada objeto detetado na imagem, indicando a caixa delimitadora para o objeto.
 
@@ -112,7 +112,7 @@ Na imagem acima, foram detetadas 4 latas de polpa de tomate. Nos resultados, um 
 
 As caixas delimitadoras são definidas com 4 valores - topo, esquerda, altura e largura. Estes valores estão numa escala de 0-1, representando as posições como uma percentagem do tamanho da imagem. A origem (posição 0,0) é o canto superior esquerdo da imagem, então o valor de topo é a distância desde o topo, e o fundo da caixa delimitadora é o topo mais a altura.
 
-![Uma caixa delimitadora em torno de uma lata de polpa de tomate](../../../../../translated_images/pt/bounding-box.1420a7ea0d3d15f71e1ffb5cf4b2271d184fac051f990abc541975168d163684.png)
+![Uma caixa delimitadora em torno de uma lata de polpa de tomate](../../../../../translated_images/pt-PT/bounding-box.1420a7ea0d3d15f71e1ffb5cf4b2271d184fac051f990abc541975168d163684.png)
 
 A imagem acima tem 600 pixels de largura e 800 pixels de altura. A caixa delimitadora começa a 320 pixels abaixo, dando uma coordenada de topo de 0.4 (800 x 0.4 = 320). A partir da esquerda, a caixa delimitadora começa a 240 pixels, dando uma coordenada de esquerda de 0.4 (600 x 0.4 = 240). A altura da caixa delimitadora é de 240 pixels, dando um valor de altura de 0.3 (800 x 0.3 = 240). A largura da caixa delimitadora é de 120 pixels, dando um valor de largura de 0.2 (600 x 0.2 = 120).
 
@@ -127,7 +127,7 @@ Usar valores percentuais de 0-1 significa que, independentemente do tamanho da i
 
 Podes usar caixas delimitadoras combinadas com probabilidades para avaliar a precisão de uma deteção. Por exemplo, um detetor de objetos pode detetar múltiplos objetos que se sobrepõem, como detetar uma lata dentro de outra. O teu código pode analisar as caixas delimitadoras, perceber que isso é impossível e ignorar quaisquer objetos que tenham uma sobreposição significativa com outros objetos.
 
-![Duas caixas delimitadoras sobrepondo-se a uma lata de polpa de tomate](../../../../../translated_images/pt/overlap-object-detection.d431e03cae75072a2760430eca7f2c5fdd43045bfd72dadcbf12711f7cd6c2ae.png)
+![Duas caixas delimitadoras sobrepondo-se a uma lata de polpa de tomate](../../../../../translated_images/pt-PT/overlap-object-detection.d431e03cae75072a2760430eca7f2c5fdd43045bfd72dadcbf12711f7cd6c2ae.png)
 
 No exemplo acima, uma caixa delimitadora indicou uma lata de polpa de tomate prevista com 78.3%. Uma segunda caixa delimitadora é ligeiramente menor e está dentro da primeira, com uma probabilidade de 64.3%. O teu código pode verificar as caixas delimitadoras, ver que se sobrepõem completamente e ignorar a probabilidade mais baixa, pois não há como uma lata estar dentro de outra.
 

@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # 從物聯網設備檢查庫存
 
-![本課程的手繪筆記概覽](../../../../../translated_images/mo/lesson-20.0211df9551a8abb300fc8fcf7dc2789468dea2eabe9202273ac077b0ba37f15e.jpg)
+![本課程的手繪筆記概覽](../../../../../translated_images/zh-MO/lesson-20.0211df9551a8abb300fc8fcf7dc2789468dea2eabe9202273ac077b0ba37f15e.jpg)
 
 > 手繪筆記由 [Nitya Narasimhan](https://github.com/nitya) 提供。點擊圖片查看更大版本。
 
@@ -39,7 +39,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 例如，如果一個攝像頭對準一組可以容納8罐番茄醬的貨架，而物件偵測器只偵測到7罐，那麼就缺少了一罐，需要補貨。
 
-![貨架上有7罐番茄醬，頂排4罐，下排3罐](../../../../../translated_images/mo/stock-7-cans-tomato-paste.f86059cc573d7bec.webp)
+![貨架上有7罐番茄醬，頂排4罐，下排3罐](../../../../../translated_images/zh-MO/stock-7-cans-tomato-paste.f86059cc573d7bec.webp)
 
 在上圖中，物件偵測器偵測到貨架上有7罐番茄醬，而該貨架可以容納8罐。不僅物聯網設備可以發送補貨通知，它甚至可以提供缺失物品的位置資訊，這對於使用機器人補貨的情況尤為重要。
 
@@ -51,7 +51,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 物件偵測可以用來偵測意外出現的物品，並通知人員或機器人盡快將其歸位。
 
-![番茄醬貨架上的一罐玉米罐頭](../../../../../translated_images/mo/stock-rogue-corn.be1f3ada8c457854.webp)
+![番茄醬貨架上的一罐玉米罐頭](../../../../../translated_images/zh-MO/stock-rogue-corn.be1f3ada8c457854.webp)
 
 在上圖中，一罐玉米罐頭被放在了番茄醬的貨架上。物件偵測器偵測到了這一情況，使物聯網設備能夠通知人員或機器人將罐頭歸位。
 
@@ -71,7 +71,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 1. 點擊該迭代版本的 **Publish** 按鈕。
 
-    ![發佈按鈕](../../../../../translated_images/mo/custom-vision-object-detector-publish-button.34ee379fc650ccb9856c3868d0003f413b9529f102fc73c37168c98d721cc293.png)
+    ![發佈按鈕](../../../../../translated_images/zh-MO/custom-vision-object-detector-publish-button.34ee379fc650ccb9856c3868d0003f413b9529f102fc73c37168c98d721cc293.png)
 
 1. 在 *Publish Model* 對話框中，將 *Prediction resource* 設置為你在上一課中創建的 `stock-detector-prediction` 資源。保持名稱為 `Iteration2`，然後選擇 **Publish** 按鈕。
 
@@ -85,7 +85,7 @@ CO_OP_TRANSLATOR_METADATA:
 
     同時複製 *Prediction-Key* 值。這是一個安全密鑰，調用模型時必須傳遞該密鑰。只有傳遞此密鑰的應用程式才能使用模型，其他應用程式將被拒絕。
 
-    ![預測 API 對話框顯示 URL 和密鑰](../../../../../translated_images/mo/custom-vision-prediction-key-endpoint.30c569ffd0338864f319911f052d5e9b8c5066cb0800a26dd6f7ff5713130ad8.png)
+    ![預測 API 對話框顯示 URL 和密鑰](../../../../../translated_images/zh-MO/custom-vision-prediction-key-endpoint.30c569ffd0338864f319911f052d5e9b8c5066cb0800a26dd6f7ff5713130ad8.png)
 
 ✅ 當發佈新的迭代版本時，它會有不同的名稱。你認為應該如何更改物聯網設備使用的迭代版本？
 
@@ -104,7 +104,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 在 Custom Vision 的 **Predictions** 標籤中，預測結果會在發送進行預測的圖像上繪製邊界框。
 
-![貨架上4罐番茄醬的預測結果，分別為35.8%、33.5%、25.7%和16.6%](../../../../../translated_images/mo/custom-vision-stock-prediction.942266ab1bcca3410ecdf23643b9f5f570cfab2345235074e24c51f285777613.png)
+![貨架上4罐番茄醬的預測結果，分別為35.8%、33.5%、25.7%和16.6%](../../../../../translated_images/zh-MO/custom-vision-stock-prediction.942266ab1bcca3410ecdf23643b9f5f570cfab2345235074e24c51f285777613.png)
 
 在上圖中，偵測到4罐番茄醬。在結果中，每個被偵測物件的圖像上都疊加了一個紅色方框，表示該物件的邊界框。
 
@@ -112,7 +112,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 邊界框由4個值定義：上（top）、左（left）、高（height）和寬（width）。這些值的範圍是0到1，表示相對於圖像大小的百分比位置。原點（0,0）是圖像的左上角，因此上值是距離頂部的距離，而邊界框的底部是上值加上高度。
 
-![番茄醬罐頭周圍的邊界框](../../../../../translated_images/mo/bounding-box.1420a7ea0d3d15f71e1ffb5cf4b2271d184fac051f990abc541975168d163684.png)
+![番茄醬罐頭周圍的邊界框](../../../../../translated_images/zh-MO/bounding-box.1420a7ea0d3d15f71e1ffb5cf4b2271d184fac051f990abc541975168d163684.png)
 
 上圖的寬度為600像素，高度為800像素。邊界框從320像素處開始，對應的上值為0.4（800 x 0.4 = 320）。從左側開始，邊界框距離240像素，對應的左值為0.4（600 x 0.4 = 240）。邊界框的高度為240像素，對應的高值為0.3（800 x 0.3 = 240）。邊界框的寬度為120像素，對應的寬值為0.2（600 x 0.2 = 120）。
 
@@ -127,7 +127,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 你可以結合邊界框和概率來評估偵測的準確性。例如，物件偵測器可能會偵測到多個重疊的物件，例如一個罐頭在另一個罐頭內部。你的程式碼可以檢查邊界框，判斷這是不可能的，並忽略任何與其他物件有顯著重疊的物件。
 
-![兩個重疊的邊界框圍繞一罐番茄醬](../../../../../translated_images/mo/overlap-object-detection.d431e03cae75072a2760430eca7f2c5fdd43045bfd72dadcbf12711f7cd6c2ae.png)
+![兩個重疊的邊界框圍繞一罐番茄醬](../../../../../translated_images/zh-MO/overlap-object-detection.d431e03cae75072a2760430eca7f2c5fdd43045bfd72dadcbf12711f7cd6c2ae.png)
 
 在上圖中，一個邊界框表示一罐番茄醬，預測概率為78.3%。另一個邊界框稍小，位於第一個邊界框內部，概率為64.3%。你的程式碼可以檢查邊界框，發現它們完全重疊，並忽略較低概率的邊界框，因為不可能一個罐頭在另一個罐頭內部。
 

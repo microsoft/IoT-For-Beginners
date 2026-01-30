@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "bbb5aa34221fe129dd3ce4d9ec33831a",
-  "translation_date": "2025-08-24T23:54:56+00:00",
-  "source_file": "6-consumer/lessons/4-multiple-language-support/pi-translate-speech.md",
-  "language_code": "fr"
-}
--->
 # Traduire la parole - Raspberry Pi
 
 Dans cette partie de la leçon, vous allez écrire du code pour traduire du texte en utilisant le service de traduction.

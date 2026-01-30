@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "e2b1b891b08ef7633d285547fbe73290",
-  "translation_date": "2025-08-26T14:56:16+00:00",
-  "source_file": "1-getting-started/README.md",
-  "language_code": "es"
-}
--->
 # Comenzando con IoT
 
 En esta sección del plan de estudios, se te presentará el Internet de las Cosas y aprenderás los conceptos básicos, incluyendo la creación de tu primer proyecto IoT de 'Hola Mundo' conectado a la nube. Este proyecto consiste en una luz nocturna que se enciende a medida que los niveles de luz medidos por un sensor disminuyen.

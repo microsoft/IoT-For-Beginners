@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "012bbd19f13171be32ac9ba21d4186c2",
-  "translation_date": "2025-08-24T20:53:47+00:00",
-  "source_file": "recommended-learning-model.md",
-  "language_code": "fr"
-}
--->
 # Modèle d'apprentissage recommandé
 
 Pour des résultats d'apprentissage optimaux, **nous recommandons une approche de type “Modèle Inversé”**, similaire aux laboratoires scientifiques : les étudiants travaillent sur des projets pendant les heures de classe, avec des opportunités de discussion, de questions-réponses et d'assistance sur les projets, et réalisent les éléments de cours sous forme de lectures préalables en dehors des heures de classe.

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "0d55caa8c23d73635b7559102cd17b8a",
-  "translation_date": "2025-08-26T14:44:59+00:00",
-  "source_file": "2-farm/lessons/2-detect-soil-moisture/wio-terminal-soil-moisture.md",
-  "language_code": "es"
-}
--->
 # Medir la humedad del suelo - Wio Terminal
 
 En esta parte de la lección, agregarás un sensor capacitivo de humedad del suelo a tu Wio Terminal y leerás valores de él.

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "8ff0d0a1d29832bb896b9c103b69a452",
-  "translation_date": "2025-08-24T23:35:56+00:00",
-  "source_file": "1-getting-started/lessons/1-introduction-to-iot/pi.md",
-  "language_code": "fr"
-}
--->
 # Raspberry Pi
 
 Le [Raspberry Pi](https://raspberrypi.org) est un ordinateur monocarte. Vous pouvez ajouter des capteurs et des actionneurs en utilisant une large gamme de dispositifs et d'écosystèmes, et pour ces leçons, nous utiliserons un écosystème matériel appelé [Grove](https://www.seeedstudio.com/category/Grove-c-1003.html). Vous programmerez votre Pi et accéderez aux capteurs Grove en utilisant Python.

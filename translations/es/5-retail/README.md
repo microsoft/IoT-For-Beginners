@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "22a1d6e49f2a689fe5bfa7802a7241fc",
-  "translation_date": "2025-08-26T13:59:35+00:00",
-  "source_file": "5-retail/README.md",
-  "language_code": "es"
-}
--->
 # Retail - usando IoT para gestionar niveles de stock
 
 La última etapa antes de que los alimentos lleguen a los consumidores es el comercio minorista: los mercados, fruterías, supermercados y tiendas que venden productos a los consumidores. Estas tiendas quieren asegurarse de que tienen productos en las estanterías para que los consumidores los vean y compren.

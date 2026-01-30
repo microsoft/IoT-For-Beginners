@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "90fb93446e03c38f3c0e4009c2471906",
-  "translation_date": "2025-08-24T23:10:04+00:00",
-  "source_file": "1-getting-started/lessons/4-connect-internet/single-board-computer-mqtt.md",
-  "language_code": "fr"
-}
--->
 # Contrôlez votre veilleuse via Internet - Matériel IoT virtuel et Raspberry Pi
 
 L'appareil IoT doit être programmé pour communiquer avec *test.mosquitto.org* en utilisant MQTT afin d'envoyer des valeurs de télémétrie avec la lecture du capteur de lumière, et recevoir des commandes pour contrôler la LED.

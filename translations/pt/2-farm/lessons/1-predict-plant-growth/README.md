@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Prever o crescimento das plantas com IoT
 
-![Uma visão geral ilustrada desta lição](../../../../../translated_images/pt/lesson-5.42b234299279d263143148b88ab4583861a32ddb03110c6c1120e41bb88b2592.jpg)
+![Uma visão geral ilustrada desta lição](../../../../../translated_images/pt-PT/lesson-5.42b234299279d263143148b88ab4583861a32ddb03110c6c1120e41bb88b2592.jpg)
 
 > Ilustração por [Nitya Narasimhan](https://github.com/nitya). Clique na imagem para uma versão maior.
 
@@ -65,7 +65,7 @@ Cada espécie de planta tem valores diferentes para a sua temperatura base, óti
 
 ✅ Faz uma pesquisa. Para qualquer planta que tenhas no teu jardim, escola ou parque local, vê se consegues encontrar a temperatura base.
 
-![Um gráfico mostrando a taxa de crescimento a aumentar com a temperatura, depois a cair quando a temperatura fica demasiado alta](../../../../../translated_images/pt/plant-growth-temp-graph.c6d69c9478e6ca83.webp)
+![Um gráfico mostrando a taxa de crescimento a aumentar com a temperatura, depois a cair quando a temperatura fica demasiado alta](../../../../../translated_images/pt-PT/plant-growth-temp-graph.c6d69c9478e6ca83.webp)
 
 O gráfico acima mostra um exemplo de taxa de crescimento em relação à temperatura. Até à temperatura base, não há crescimento. A taxa de crescimento aumenta até à temperatura ótima e depois diminui após atingir este pico. Na temperatura máxima, o crescimento para.
 
@@ -91,7 +91,7 @@ Este código abre o ficheiro CSV e adiciona uma nova linha no final. A linha con
 
     
 > 💁 Se estiver a usar um Dispositivo IoT Virtual, selecione a caixa de verificação aleatória e defina um intervalo para evitar obter sempre a mesma temperatura quando o valor da temperatura for retornado.
-    ![Selecione a caixa de verificação aleatória e defina um intervalo](../../../../../translated_images/pt/select-the-random-checkbox-and-set-a-range.32cf4bc7c12e797f.webp) 
+    ![Selecione a caixa de verificação aleatória e defina um intervalo](../../../../../translated_images/pt-PT/select-the-random-checkbox-and-set-a-range.32cf4bc7c12e797f.webp) 
 
     > 💁 Se quiser executar isto durante um dia inteiro, então precisa de garantir que o computador onde o código do servidor está a correr não entra em modo de suspensão, seja alterando as definições de energia ou executando algo como [este script Python para manter o sistema ativo](https://github.com/jaqsparow/keep-system-active).
     
@@ -111,7 +111,7 @@ Os passos para fazer isto manualmente são:
 
 Por exemplo, se a temperatura mais alta do dia for 25°C e a mais baixa for 12°C:
 
-![GDD = 25 + 12 dividido por 2, depois subtraia 10 do resultado, obtendo 8.5](../../../../../translated_images/pt/gdd-calculation-strawberries.59f57db94b22adb8ff6efb951ace33af104a1c6ccca3ffb0f8169c14cb160c90.png)
+![GDD = 25 + 12 dividido por 2, depois subtraia 10 do resultado, obtendo 8.5](../../../../../translated_images/pt-PT/gdd-calculation-strawberries.59f57db94b22adb8ff6efb951ace33af104a1c6ccca3ffb0f8169c14cb160c90.png)
 
 * 25 + 12 = 37
 * 37 / 2 = 18.5

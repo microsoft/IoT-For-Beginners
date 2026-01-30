@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "f3c5d8afa2ef6a0b425ef8ff20615cb4",
-  "translation_date": "2025-08-28T20:44:46+00:00",
-  "source_file": "2-farm/lessons/3-automated-plant-watering/wio-terminal-relay.md",
-  "language_code": "en"
-}
--->
 # Control a relay - Wio Terminal
 
 In this part of the lesson, you will add a relay to your Wio Terminal alongside the soil moisture sensor and control it based on the soil moisture level.

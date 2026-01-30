@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # 物联网简介
 
-![本课程的手绘笔记概览](../../../../../translated_images/zh/lesson-1.2606670fa61ee904687da5d6fa4e726639d524d064c895117da1b95b9ff6251d.jpg)
+![本课程的手绘笔记概览](../../../../../translated_images/zh-CN/lesson-1.2606670fa61ee904687da5d6fa4e726639d524d064c895117da1b95b9ff6251d.jpg)
 
 > 手绘笔记由 [Nitya Narasimhan](https://github.com/nitya) 提供。点击图片查看大图。
 
@@ -79,7 +79,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 微控制器通常是低成本的计算设备，用于定制硬件的微控制器平均价格约为 0.50 美元，有些设备甚至低至 0.03 美元。开发套件的起价约为 4 美元，随着功能的增加成本也会增加。[Wio Terminal](https://www.seeedstudio.com/Wio-Terminal-p-4509.html) 是 [Seeed Studios](https://www.seeedstudio.com) 的一个微控制器开发套件，配备传感器、执行器、WiFi 和屏幕，价格约为 30 美元。
 
-![Wio Terminal](../../../../../translated_images/zh/wio-terminal.b8299ee16587db9a.webp)
+![Wio Terminal](../../../../../translated_images/zh-CN/wio-terminal.b8299ee16587db9a.webp)
 
 > 💁 在网上搜索微控制器时，请注意搜索术语 **MCU**，因为这可能会返回大量关于“漫威电影宇宙”的结果，而不是微控制器。
 
@@ -93,7 +93,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 单板计算机是一种小型计算设备，所有计算机的组成部分都集成在一个小型电路板上。这些设备的规格接近台式机或笔记本电脑 PC 或 Mac，运行完整的操作系统，但体积更小，功耗更低，价格也更便宜。
 
-![Raspberry Pi 4](../../../../../translated_images/zh/raspberry-pi-4.fd4590d308c3d456.webp)
+![Raspberry Pi 4](../../../../../translated_images/zh-CN/raspberry-pi-4.fd4590d308c3d456.webp)
 
 Raspberry Pi 是最受欢迎的单板计算机之一。
 

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "2a459ea9177fb0508ca96068ae1009d2",
-  "translation_date": "2025-08-28T20:11:56+00:00",
-  "source_file": "quiz-app/README.md",
-  "language_code": "en"
-}
--->
 # Quizzes
 
 These quizzes are the pre- and post-lecture quizzes for the IoT for Beginners curriculum at https://aka.ms/iot-beginners

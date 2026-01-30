@@ -35,7 +35,7 @@ Grove LED 是一個模組，內含多種顏色的 LED，讓你可以選擇喜歡
 
 連接 LED。
 
-![一個 Grove LED](../../../../../translated_images/hk/grove-led.6c853be93f473cf2c439cfc74bb1064732b22251a83cedf66e62f783f9cc1a79.png)
+![一個 Grove LED](../../../../../translated_images/zh-HK/grove-led.6c853be93f473cf2c439cfc74bb1064732b22251a83cedf66e62f783f9cc1a79.png)
 
 1. 選擇你喜歡的 LED，將其引腳插入 LED 模組上的兩個孔中。
 
@@ -51,7 +51,7 @@ Grove LED 是一個模組，內含多種顏色的 LED，讓你可以選擇喜歡
 
    > 💁 右側的 Grove 插座可用於模擬或數字傳感器和執行器。左側插座僅用於 I2C 和數字傳感器及執行器。
 
-![Grove LED 連接到右側插座](../../../../../translated_images/hk/wio-led.265a1897e72d7f21.webp)
+![Grove LED 連接到右側插座](../../../../../translated_images/zh-HK/wio-led.265a1897e72d7f21.webp)
 
 ## 編程夜燈
 

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "9713e21a309662f6fcb271b573d47848",
-  "translation_date": "2026-01-05T12:32:58+00:00",
-  "source_file": "TROUBLESHOOTING.md",
-  "language_code": "fr"
-}
--->
 # Guide de dépannage
 
 Ce guide vous aide à résoudre les problèmes courants rencontrés lors de l'utilisation du programme IoT for Beginners. Les problèmes sont organisés par catégorie pour une navigation facile.

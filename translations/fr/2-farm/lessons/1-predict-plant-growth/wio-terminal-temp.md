@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "59263d094f20b302053888cd236880c3",
-  "translation_date": "2025-08-24T22:04:26+00:00",
-  "source_file": "2-farm/lessons/1-predict-plant-growth/wio-terminal-temp.md",
-  "language_code": "fr"
-}
--->
 # Mesurer la température - Wio Terminal
 
 Dans cette partie de la leçon, vous allez ajouter un capteur de température à votre Wio Terminal et lire les valeurs de température qu'il fournit.

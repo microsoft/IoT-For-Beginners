@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "5de7dc1e2ddc402d415473bb795568d4",
-  "translation_date": "2025-08-28T19:13:55+00:00",
-  "source_file": "6-consumer/README.md",
-  "language_code": "en"
-}
--->
 # Consumer IoT - Build a Smart Voice Assistant
 
 The food has been grown, transported to a processing plant, sorted for quality, sold in the store, and now it's time to cook! One of the essential tools in any kitchen is a timer. Originally, timers were hourglasses—your food was ready when all the sand had trickled down to the bottom bulb. Later, they became mechanical, then electric.

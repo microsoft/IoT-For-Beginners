@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "3f92edf2975175577174910caca4a389",
-  "translation_date": "2025-08-26T15:39:23+00:00",
-  "source_file": "6-consumer/lessons/1-speech-recognition/wio-terminal-speech-to-text.md",
-  "language_code": "es"
-}
--->
 # Conversión de voz a texto - Wio Terminal
 
 En esta parte de la lección, escribirás código para convertir el audio capturado en texto utilizando el servicio de voz.

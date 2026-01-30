@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "9c4320311c0f2c1884a6a21265d98a51",
-  "translation_date": "2025-08-26T14:03:27+00:00",
-  "source_file": "5-retail/lessons/2-check-stock-device/single-board-computer-count-stock.md",
-  "language_code": "es"
-}
--->
 # Contar inventario desde tu dispositivo IoT - Hardware IoT Virtual y Raspberry Pi
 
 Una combinación de las predicciones y sus cuadros delimitadores puede ser utilizada para contar inventario en una imagen.

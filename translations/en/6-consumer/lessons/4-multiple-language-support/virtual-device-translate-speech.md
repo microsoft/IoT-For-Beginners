@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "d620a470d9dd8614d99824832978360a",
-  "translation_date": "2025-08-28T19:33:20+00:00",
-  "source_file": "6-consumer/lessons/4-multiple-language-support/virtual-device-translate-speech.md",
-  "language_code": "en"
-}
--->
 # Translate speech - Virtual IoT Device
 
 In this part of the lesson, you will write code to translate speech into text using the speech service, then translate the text using the Translator service before generating a spoken response.

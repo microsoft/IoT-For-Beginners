@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "9c4320311c0f2c1884a6a21265d98a51",
-  "translation_date": "2025-08-28T20:16:08+00:00",
-  "source_file": "5-retail/lessons/2-check-stock-device/single-board-computer-count-stock.md",
-  "language_code": "en"
-}
--->
 # Count stock from your IoT device - Virtual IoT Hardware and Raspberry Pi
 
 You can use a combination of predictions and their bounding boxes to count stock in an image.

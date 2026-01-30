@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "8ff0d0a1d29832bb896b9c103b69a452",
-  "translation_date": "2025-08-28T20:02:22+00:00",
-  "source_file": "1-getting-started/lessons/1-introduction-to-iot/pi.md",
-  "language_code": "en"
-}
--->
 # Raspberry Pi
 
 The [Raspberry Pi](https://raspberrypi.org) is a single-board computer. You can connect sensors and actuators using a variety of devices and ecosystems. For these lessons, you'll use a hardware ecosystem called [Grove](https://www.seeedstudio.com/category/Grove-c-1003.html). You'll program your Pi and interact with the Grove sensors using Python.

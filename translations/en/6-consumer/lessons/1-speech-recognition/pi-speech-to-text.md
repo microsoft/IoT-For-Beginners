@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "af249a24d4fe4f4de4806adbc3bc9d86",
-  "translation_date": "2025-08-28T19:27:17+00:00",
-  "source_file": "6-consumer/lessons/1-speech-recognition/pi-speech-to-text.md",
-  "language_code": "en"
-}
--->
 # Speech to text - Raspberry Pi
 
 In this part of the lesson, you will write code to convert speech from the captured audio into text using the speech service.

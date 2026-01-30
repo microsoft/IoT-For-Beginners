@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "4fb20273d299dc8d07a8f06c9cd0cdd9",
-  "translation_date": "2025-08-24T22:32:28+00:00",
-  "source_file": "2-farm/lessons/2-detect-soil-moisture/README.md",
-  "language_code": "fr"
-}
--->
 C, prononcé *I-carré-C*, est un protocole multi-contrôleur et multi-périphérique, où chaque appareil connecté peut agir comme contrôleur ou périphérique en communiquant via le bus I
 
 2</sup>C a des limites de vitesse, avec 3 modes différents fonctionnant à des vitesses fixes. Le plus rapide est le mode Haute Vitesse avec une vitesse maximale de 3,4 Mbps (mégabits par seconde), bien que très peu d'appareils prennent en charge cette vitesse. Par exemple, le Raspberry Pi est limité au mode rapide à 400 Kbps (kilobits par seconde). Le mode standard fonctionne à 100 Kbps.

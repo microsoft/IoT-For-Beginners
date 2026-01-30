@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Entenda a linguagem
 
-![Uma visão geral ilustrada desta lição](../../../../../translated_images/br/lesson-22.6148ea28500d9e00c396aaa2649935fb6641362c8f03d8e5e90a676977ab01dd.jpg)
+![Uma visão geral ilustrada desta lição](../../../../../translated_images/pt-BR/lesson-22.6148ea28500d9e00c396aaa2649935fb6641362c8f03d8e5e90a676977ab01dd.jpg)
 
 > Ilustração por [Nitya Narasimhan](https://github.com/nitya). Clique na imagem para uma versão maior.
 
@@ -55,7 +55,7 @@ Modelos de entendimento de linguagem são modelos de IA que são treinados para 
 
 ## Criar um modelo de entendimento de linguagem
 
-![O logotipo do LUIS](../../../../../translated_images/br/luis-logo.5cb4f3e88c020ee6df4f614e8831f4a4b6809a7247bf52085fb48d629ef9be52.png)
+![O logotipo do LUIS](../../../../../translated_images/pt-BR/luis-logo.5cb4f3e88c020ee6df4f614e8831f4a4b6809a7247bf52085fb48d629ef9be52.png)
 
 Você pode criar modelos de entendimento de linguagem usando o LUIS, um serviço de entendimento de linguagem da Microsoft que faz parte dos Serviços Cognitivos.
 
@@ -126,7 +126,7 @@ Depois de definir as entidades, você cria intenções. Estas são aprendidas pe
 
 Você então informa ao LUIS quais partes dessas frases correspondem às entidades:
 
-![A frase "defina um cronômetro para 1 minuto e 12 segundos" dividida em entidades](../../../../../translated_images/br/sentence-as-intent-entities.301401696f992259.webp)
+![A frase "defina um cronômetro para 1 minuto e 12 segundos" dividida em entidades](../../../../../translated_images/pt-BR/sentence-as-intent-entities.301401696f992259.webp)
 
 A frase `defina um cronômetro para 1 minuto e 12 segundos` tem a intenção de `definir cronômetro`. Ela também possui 2 entidades com 2 valores cada:
 
@@ -178,7 +178,7 @@ Você pode encontrar instruções para usar o portal do LUIS na [Documentação 
 
 1. Conforme você insere cada exemplo, o LUIS começará a detectar entidades e sublinhará e rotulará qualquer uma que encontrar.
 
-    ![Os exemplos com os números e unidades de tempo sublinhados pelo LUIS](../../../../../translated_images/br/luis-intent-examples.25716580b2d2723cf1bafdf277d015c7f046d8cfa20f27bddf3a0873ec45fab7.png)
+    ![Os exemplos com os números e unidades de tempo sublinhados pelo LUIS](../../../../../translated_images/pt-BR/luis-intent-examples.25716580b2d2723cf1bafdf277d015c7f046d8cfa20f27bddf3a0873ec45fab7.png)
 
 ### Tarefa - treinar e testar o modelo
 

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "f3c5d8afa2ef6a0b425ef8ff20615cb4",
-  "translation_date": "2025-08-26T14:35:40+00:00",
-  "source_file": "2-farm/lessons/3-automated-plant-watering/wio-terminal-relay.md",
-  "language_code": "es"
-}
--->
 # Controlar un relé - Wio Terminal
 
 En esta parte de la lección, agregarás un relé a tu Wio Terminal además del sensor de humedad del suelo, y lo controlarás en función del nivel de humedad del suelo.

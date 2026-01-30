@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "22a1d6e49f2a689fe5bfa7802a7241fc",
-  "translation_date": "2025-08-24T21:06:01+00:00",
-  "source_file": "5-retail/README.md",
-  "language_code": "fr"
-}
--->
 # Commerce de détail - utiliser l'IoT pour gérer les niveaux de stock
 
 La dernière étape avant que les produits n'atteignent les consommateurs est le commerce de détail : les marchés, primeurs, supermarchés et magasins qui vendent des produits aux consommateurs. Ces magasins souhaitent s'assurer qu'ils ont des produits en rayon pour que les clients puissent les voir et les acheter.

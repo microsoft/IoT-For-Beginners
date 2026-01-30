@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "4efc74299e19f5d08f2f3f34451a11ba",
-  "translation_date": "2025-08-26T14:29:04+00:00",
-  "source_file": "2-farm/lessons/1-predict-plant-growth/single-board-computer-temp-publish.md",
-  "language_code": "es"
-}
--->
 # Publicar temperatura - Hardware IoT Virtual y Raspberry Pi
 
 En esta parte de la lección, publicarás los valores de temperatura detectados por el Raspberry Pi o el Dispositivo IoT Virtual a través de MQTT para que puedan ser utilizados posteriormente en el cálculo de GDD.

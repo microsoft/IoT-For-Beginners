@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "e978534a245b000725ed2a048f943213",
-  "translation_date": "2025-08-25T00:35:44+00:00",
-  "source_file": "3-transport/README.md",
-  "language_code": "fr"
-}
--->
 # Transport de la ferme à l'usine - utiliser l'IoT pour suivre les livraisons alimentaires
 
 De nombreux agriculteurs cultivent des aliments pour les vendre - soit ils sont des agriculteurs commerciaux qui vendent tout ce qu'ils produisent, soit ils sont des agriculteurs de subsistance qui vendent leur surplus pour acheter des produits de première nécessité. D'une manière ou d'une autre, les aliments doivent passer de la ferme au consommateur, ce qui repose généralement sur le transport en vrac des fermes vers des hubs ou des usines de transformation, puis vers les magasins. Par exemple, un producteur de tomates récoltera des tomates, les emballera dans des caisses, chargera les caisses dans un camion, puis les livrera à une usine de transformation. Les tomates seront ensuite triées, puis livrées aux consommateurs sous forme de produits transformés, de ventes au détail ou consommées dans des restaurants.

@@ -27,13 +27,13 @@ O relé Grove pode ser ligado à porta digital do Wio Terminal.
 
 Liga o relé.
 
-![Um relé Grove](../../../../../translated_images/pt/grove-relay.d426958ca210fbd0fb7983d7edc069d46c73a8b0a099d94797bd756f7b6bb6be.png)
+![Um relé Grove](../../../../../translated_images/pt-PT/grove-relay.d426958ca210fbd0fb7983d7edc069d46c73a8b0a099d94797bd756f7b6bb6be.png)
 
 1. Insere uma extremidade de um cabo Grove na entrada do relé. Só encaixará de uma forma.
 
 1. Com o Wio Terminal desconectado do computador ou de outra fonte de energia, liga a outra extremidade do cabo Grove à entrada Grove do lado esquerdo do Wio Terminal, olhando para o ecrã. Deixa o sensor de humidade do solo ligado à entrada do lado direito.
 
-![O relé Grove ligado à entrada do lado esquerdo e o sensor de humidade do solo ligado à entrada do lado direito](../../../../../translated_images/pt/wio-relay-and-soil-moisture-sensor.ed722202d42babe0.webp)
+![O relé Grove ligado à entrada do lado esquerdo e o sensor de humidade do solo ligado à entrada do lado direito](../../../../../translated_images/pt-PT/wio-relay-and-soil-moisture-sensor.ed722202d42babe0.webp)
 
 1. Insere o sensor de humidade do solo na terra, caso ainda não esteja inserido da lição anterior.
 

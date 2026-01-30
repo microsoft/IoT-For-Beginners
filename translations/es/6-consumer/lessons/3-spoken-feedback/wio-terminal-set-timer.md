@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "012b69d57d898d670adf61304f42a137",
-  "translation_date": "2025-08-26T15:30:12+00:00",
-  "source_file": "6-consumer/lessons/3-spoken-feedback/wio-terminal-set-timer.md",
-  "language_code": "es"
-}
--->
 # Configurar un temporizador - Wio Terminal
 
 En esta parte de la lección, llamarás a tu código sin servidor para interpretar el habla y configurar un temporizador en tu Wio Terminal basado en los resultados.

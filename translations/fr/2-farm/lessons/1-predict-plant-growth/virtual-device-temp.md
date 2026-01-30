@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "70e5a428b607cd5a9a4f422c2a4df03d",
-  "translation_date": "2025-08-24T22:06:59+00:00",
-  "source_file": "2-farm/lessons/1-predict-plant-growth/virtual-device-temp.md",
-  "language_code": "fr"
-}
--->
 # Mesurer la température - Matériel IoT Virtuel
 
 Dans cette partie de la leçon, vous allez ajouter un capteur de température à votre appareil IoT virtuel.

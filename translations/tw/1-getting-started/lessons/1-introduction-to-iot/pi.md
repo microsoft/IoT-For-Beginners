@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 [樹莓派](https://raspberrypi.org) 是一款單板電腦。你可以使用各種設備和生態系統添加感測器和致動器，這些課程中將使用一個名為 [Grove](https://www.seeedstudio.com/category/Grove-c-1003.html) 的硬體生態系統。你將使用 Python 為樹莓派編寫程式並存取 Grove 感測器。
 
-![樹莓派 4](../../../../../translated_images/tw/raspberry-pi-4.fd4590d308c3d456.webp)
+![樹莓派 4](../../../../../translated_images/zh-TW/raspberry-pi-4.fd4590d308c3d456.webp)
 
 ## 設置
 
@@ -112,7 +112,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 1. 在 Raspberry Pi Imager 中，選擇 **CHOOSE OS** 按鈕，然後選擇 *Raspberry Pi OS (Other)*，接著選擇 *Raspberry Pi OS Lite (32-bit)*。
 
-    ![Raspberry Pi Imager 中選擇 Raspberry Pi OS Lite](../../../../../translated_images/tw/raspberry-pi-imager.24aedeab9e233d84.webp)
+    ![Raspberry Pi Imager 中選擇 Raspberry Pi OS Lite](../../../../../translated_images/zh-TW/raspberry-pi-imager.24aedeab9e233d84.webp)
 
     > 💁 Raspberry Pi OS Lite 是一個沒有桌面 UI 或基於 UI 工具的樹莓派操作系統版本。這些對於無頭樹莓派來說並不需要，並且使安裝更小，啟動時間更快。
 
@@ -251,7 +251,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 1. 在 VS Code 中選擇 *File -> Open...*，然後選擇 *nightlight* 資料夾，接著選擇 **OK**，以打開該資料夾。
 
-    ![VS Code 的開啟對話框顯示了 nightlight 資料夾](../../../../../translated_images/tw/vscode-open-nightlight-remote.d3d2a4011e30d535.webp)
+    ![VS Code 的開啟對話框顯示了 nightlight 資料夾](../../../../../translated_images/zh-TW/vscode-open-nightlight-remote.d3d2a4011e30d535.webp)
 
 1. 從 VS Code 的檔案總管中打開 `app.py` 檔案，並新增以下程式碼：
 

@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # 將您的應用程式邏輯遷移到雲端
 
-![本課程的手繪筆記概覽](../../../../../translated_images/tw/lesson-9.dfe99c8e891f48e179724520da9f5794392cf9a625079281ccdcbf09bd85e1b6.jpg)
+![本課程的手繪筆記概覽](../../../../../translated_images/zh-TW/lesson-9.dfe99c8e891f48e179724520da9f5794392cf9a625079281ccdcbf09bd85e1b6.jpg)
 
 > 手繪筆記由 [Nitya Narasimhan](https://github.com/nitya) 提供。點擊圖片查看更大版本。
 
@@ -37,11 +37,11 @@ CO_OP_TRANSLATOR_METADATA:
 
 無伺服器，或稱無伺服器計算，是指在雲端中創建小型代碼塊，這些代碼會根據不同類型的事件執行。當事件發生時，您的代碼會被執行，並接收有關該事件的數據。這些事件可以來自多種來源，包括網頁請求、放入佇列的消息、數據庫中數據的變更，或 IoT 設備發送到 IoT 服務的消息。
 
-![事件從 IoT 服務發送到無伺服器服務，所有事件同時由多個函數處理](../../../../../translated_images/tw/iot-messages-to-serverless.0194da1cc0732bb7d0f823aed3fce54735c6b1ad3bf36089804d8aaefc0a774f.png)
+![事件從 IoT 服務發送到無伺服器服務，所有事件同時由多個函數處理](../../../../../translated_images/zh-TW/iot-messages-to-serverless.0194da1cc0732bb7d0f823aed3fce54735c6b1ad3bf36089804d8aaefc0a774f.png)
 
 > 💁 如果您之前使用過數據庫觸發器，可以將其視為類似的概念，即代碼因事件（如插入一行）而觸發。
 
-![當多個事件同時發生時，無伺服器服務會擴展以同時處理所有事件](../../../../../translated_images/tw/serverless-scaling.f8c769adf0413fd1.webp)
+![當多個事件同時發生時，無伺服器服務會擴展以同時處理所有事件](../../../../../translated_images/zh-TW/serverless-scaling.f8c769adf0413fd1.webp)
 
 您的代碼僅在事件發生時執行，其他時間不會保持活躍。事件發生時，您的代碼會被加載並執行。這使得無伺服器具有很高的可擴展性——如果同時發生多個事件，雲端提供商可以根據需要同時運行多個函數，分配到可用的伺服器上。其缺點是，如果需要在事件之間共享信息，則需要將其存儲在數據庫等地方，而不是內存中。
 
@@ -63,7 +63,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Microsoft 的無伺服器計算服務稱為 Azure Functions。
 
-![Azure Functions 標誌](../../../../../translated_images/tw/azure-functions-logo.1cfc8e3204c9c44aaf80fcf406fc8544d80d7f00f8d3e8ed6fed764563e17564.png)
+![Azure Functions 標誌](../../../../../translated_images/zh-TW/azure-functions-logo.1cfc8e3204c9c44aaf80fcf406fc8544d80d7f00f8d3e8ed6fed764563e17564.png)
 
 以下短片概述了 Azure Functions：
 
@@ -244,7 +244,7 @@ Azure Functions CLI 可用於創建新的 Functions 應用程式。
     VS Code. Initialize for optimal use with VS Code?
     ```
 
-    ![通知](../../../../../translated_images/tw/vscode-azure-functions-init-notification.bd19b49229963edb.webp)
+    ![通知](../../../../../translated_images/zh-TW/vscode-azure-functions-init-notification.bd19b49229963edb.webp)
 
     從通知中選擇 **Yes**。
 

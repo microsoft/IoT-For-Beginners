@@ -27,13 +27,13 @@ Grove 温度传感器可以连接到 Wio Terminal 的数字端口。
 
 连接温度传感器。
 
-![一个 Grove 温度传感器](../../../../../translated_images/zh/grove-dht11.07f8eafceee170043efbb53e1d15722bd4e00fbaa9ff74290b57e9f66eb82c17.png)
+![一个 Grove 温度传感器](../../../../../translated_images/zh-CN/grove-dht11.07f8eafceee170043efbb53e1d15722bd4e00fbaa9ff74290b57e9f66eb82c17.png)
 
 1. 将 Grove 电缆的一端插入湿度和温度传感器上的插座。电缆只能以一种方向插入。
 
 1. 在 Wio Terminal 未连接到计算机或其他电源的情况下，将 Grove 电缆的另一端连接到 Wio Terminal 屏幕右侧的 Grove 插座。这是距离电源按钮最远的插座。
 
-![Grove 温度传感器连接到右侧插座](../../../../../translated_images/zh/wio-temperature-sensor.2934928f38c7f79a.webp)
+![Grove 温度传感器连接到右侧插座](../../../../../translated_images/zh-CN/wio-temperature-sensor.2934928f38c7f79a.webp)
 
 ## 编程温度传感器
 

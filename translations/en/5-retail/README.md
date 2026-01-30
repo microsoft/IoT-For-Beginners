@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "22a1d6e49f2a689fe5bfa7802a7241fc",
-  "translation_date": "2025-08-28T20:12:20+00:00",
-  "source_file": "5-retail/README.md",
-  "language_code": "en"
-}
--->
 # Retail - using IoT to manage stock levels
 
 The final stage before food reaches consumers is retail—markets, greengrocers, supermarkets, and stores that sell products to customers. These businesses aim to ensure their shelves are stocked with items for customers to see and purchase.

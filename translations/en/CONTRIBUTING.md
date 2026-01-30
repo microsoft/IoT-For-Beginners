@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "d6f80293fa9c213283eac7e79b078671",
-  "translation_date": "2025-08-28T18:55:35+00:00",
-  "source_file": "CONTRIBUTING.md",
-  "language_code": "en"
-}
--->
 # Contributing
 
 This project encourages contributions and suggestions. Most contributions require you to agree to a Contributor License Agreement (CLA), which confirms that you have the rights to, and indeed do, grant us permission to use your contribution. For more information, visit https://cla.microsoft.com.

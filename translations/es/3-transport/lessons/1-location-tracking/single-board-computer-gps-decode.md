@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "cbb8c285bc64c5192fae3368fb5077d2",
-  "translation_date": "2025-08-26T15:49:33+00:00",
-  "source_file": "3-transport/lessons/1-location-tracking/single-board-computer-gps-decode.md",
-  "language_code": "es"
-}
--->
 # Decodificar datos GPS - Hardware IoT Virtual y Raspberry Pi
 
 En esta parte de la lección, decodificarás los mensajes NMEA leídos del sensor GPS por la Raspberry Pi o el Dispositivo IoT Virtual, y extraerás la latitud y la longitud.

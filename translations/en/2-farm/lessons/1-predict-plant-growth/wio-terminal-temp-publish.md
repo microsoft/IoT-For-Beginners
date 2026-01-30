@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "df28cd649cd892bcce034e064913b2f3",
-  "translation_date": "2025-08-28T20:38:36+00:00",
-  "source_file": "2-farm/lessons/1-predict-plant-growth/wio-terminal-temp-publish.md",
-  "language_code": "en"
-}
--->
 # Publish temperature - Wio Terminal
 
 In this part of the lesson, you will send the temperature values detected by the Wio Terminal via MQTT so they can later be used to calculate GDD.

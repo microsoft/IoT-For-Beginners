@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "71b5040e0b3472f1c0949c9b55f224c0",
-  "translation_date": "2025-08-26T14:58:33+00:00",
-  "source_file": "1-getting-started/lessons/4-connect-internet/README.md",
-  "language_code": "es"
-}
--->
 # Conecta tu dispositivo a Internet
 
 ![Un resumen visual de esta lección](../../../../../translated_images/es/lesson-4.7344e074ea68fa545fd320b12dce36d72dd62d28c3b4596cb26cf315f434b98f.jpg)

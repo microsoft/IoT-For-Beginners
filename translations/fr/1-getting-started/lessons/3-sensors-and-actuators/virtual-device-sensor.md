@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "11f10c6760fb8202cf368422702fdf70",
-  "translation_date": "2025-08-24T23:24:36+00:00",
-  "source_file": "1-getting-started/lessons/3-sensors-and-actuators/virtual-device-sensor.md",
-  "language_code": "fr"
-}
--->
 # Construire une veilleuse - Matériel IoT virtuel
 
 Dans cette partie de la leçon, vous allez ajouter un capteur de lumière à votre appareil IoT virtuel.

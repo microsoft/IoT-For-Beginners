@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "93d352de36526b8990e41dd538100324",
-  "translation_date": "2025-08-26T15:41:15+00:00",
-  "source_file": "6-consumer/lessons/1-speech-recognition/wio-terminal-microphone.md",
-  "language_code": "es"
-}
--->
 # Configura tu micrófono y altavoces - Wio Terminal
 
 En esta parte de la lección, añadirás altavoces a tu Wio Terminal. El Wio Terminal ya tiene un micrófono incorporado, que puede usarse para capturar voz.

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "48ac21ec80329c930db7b84bd6b592ec",
-  "translation_date": "2025-08-26T14:20:25+00:00",
-  "source_file": "4-manufacturing/lessons/3-run-fruit-detector-edge/wio-terminal.md",
-  "language_code": "es"
-}
--->
 # Clasificar una imagen usando un clasificador de imágenes basado en IoT Edge - Wio Terminal
 
 En esta parte de la lección, utilizarás el clasificador de imágenes que se ejecuta en el dispositivo IoT Edge.

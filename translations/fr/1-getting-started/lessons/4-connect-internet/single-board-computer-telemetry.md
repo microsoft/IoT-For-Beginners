@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "1226517aae5f5b6f904434670394c688",
-  "translation_date": "2025-08-24T23:01:00+00:00",
-  "source_file": "1-getting-started/lessons/4-connect-internet/single-board-computer-telemetry.md",
-  "language_code": "fr"
-}
--->
 # Contrôlez votre veilleuse via Internet - Matériel IoT virtuel et Raspberry Pi
 
 Dans cette partie de la leçon, vous allez envoyer des données de télémétrie avec les niveaux de lumière depuis votre Raspberry Pi ou votre appareil IoT virtuel vers un broker MQTT.

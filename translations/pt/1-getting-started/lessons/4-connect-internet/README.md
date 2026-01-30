@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Conecte o seu dispositivo à Internet
 
-![Uma visão geral ilustrada desta lição](../../../../../translated_images/pt/lesson-4.7344e074ea68fa545fd320b12dce36d72dd62d28c3b4596cb26cf315f434b98f.jpg)
+![Uma visão geral ilustrada desta lição](../../../../../translated_images/pt-PT/lesson-4.7344e074ea68fa545fd320b12dce36d72dd62d28c3b4596cb26cf315f434b98f.jpg)
 
 > Ilustração por [Nitya Narasimhan](https://github.com/nitya). Clique na imagem para uma versão maior.
 
@@ -46,7 +46,7 @@ Nesta lição, abordaremos:
 
 Existem vários protocolos de comunicação populares usados por dispositivos IoT para se comunicar com a Internet. Os mais comuns são baseados em mensagens de publicação/assinatura via algum tipo de broker. Os dispositivos IoT se conectam ao broker, publicam telemetria e assinam comandos. Os serviços na nuvem também se conectam ao broker, assinam todas as mensagens de telemetria e publicam comandos, seja para dispositivos específicos ou para grupos de dispositivos.
 
-![Dispositivos IoT conectam-se a um broker, publicam telemetria e assinam comandos. Serviços na nuvem conectam-se ao broker, assinam toda a telemetria e enviam comandos para dispositivos específicos.](../../../../../translated_images/pt/pub-sub.7c7ed43fe9fd15d4.webp)
+![Dispositivos IoT conectam-se a um broker, publicam telemetria e assinam comandos. Serviços na nuvem conectam-se ao broker, assinam toda a telemetria e enviam comandos para dispositivos específicos.](../../../../../translated_images/pt-PT/pub-sub.7c7ed43fe9fd15d4.webp)
 
 O MQTT é o protocolo de comunicação mais popular para dispositivos IoT e será abordado nesta lição. Outros protocolos incluem AMQP e HTTP/HTTPS.
 
@@ -56,7 +56,7 @@ O MQTT é o protocolo de comunicação mais popular para dispositivos IoT e ser�
 
 O MQTT possui um único broker e vários clientes. Todos os clientes se conectam ao broker, e o broker encaminha mensagens para os clientes relevantes. As mensagens são roteadas usando tópicos nomeados, em vez de serem enviadas diretamente para um cliente individual. Um cliente pode publicar em um tópico, e qualquer cliente que assinar esse tópico receberá a mensagem.
 
-![Dispositivo IoT publicando telemetria no tópico /telemetry, e o serviço na nuvem assinando esse tópico](../../../../../translated_images/pt/mqtt.cbf7f21d9adc3e17548b359444cc11bb4bf2010543e32ece9a47becf54438c23.png)
+![Dispositivo IoT publicando telemetria no tópico /telemetry, e o serviço na nuvem assinando esse tópico](../../../../../translated_images/pt-PT/mqtt.cbf7f21d9adc3e17548b359444cc11bb4bf2010543e32ece9a47becf54438c23.png)
 
 ✅ Faça uma pesquisa. Se você tiver muitos dispositivos IoT, como pode garantir que o seu broker MQTT consiga lidar com todas as mensagens?
 
@@ -78,7 +78,7 @@ Em vez de lidar com as complexidades de configurar um broker MQTT como parte des
 
 > 💁 Este broker de teste é público e não é seguro. Qualquer pessoa pode estar ouvindo o que você publica, então ele não deve ser usado com dados que precisam ser mantidos privados.
 
-![Um fluxograma da tarefa mostrando os níveis de luz sendo lidos e verificados, e o LED sendo controlado](../../../../../translated_images/pt/assignment-1-internet-flow.3256feab5f052fd273bf4e331157c574c2c3fa42e479836fc9c3586f41db35a5.png)
+![Um fluxograma da tarefa mostrando os níveis de luz sendo lidos e verificados, e o LED sendo controlado](../../../../../translated_images/pt-PT/assignment-1-internet-flow.3256feab5f052fd273bf4e331157c574c2c3fa42e479836fc9c3586f41db35a5.png)
 
 Siga o passo relevante abaixo para conectar o seu dispositivo ao broker MQTT:
 
@@ -115,7 +115,7 @@ A palavra telemetria é derivada de raízes gregas que significam medir remotame
 
 Vamos relembrar o exemplo do termostato inteligente da Lição 1.
 
-![Um termostato conectado à Internet usando vários sensores de ambiente](../../../../../translated_images/pt/telemetry.21e5d8b97649d2eb.webp)
+![Um termostato conectado à Internet usando vários sensores de ambiente](../../../../../translated_images/pt-PT/telemetry.21e5d8b97649d2eb.webp)
 
 O termostato possui sensores de temperatura para coletar telemetria. Provavelmente teria um sensor de temperatura embutido e poderia se conectar a vários sensores de temperatura externos via um protocolo sem fio, como [Bluetooth Low Energy](https://wikipedia.org/wiki/Bluetooth_Low_Energy) (BLE).
 
@@ -267,11 +267,11 @@ Escreva o código do servidor.
 
 1. Quando o VS Code for iniciado, ele ativará o ambiente virtual Python. Isto será indicado na barra de estado inferior:
 
-    ![VS Code mostrando o ambiente virtual selecionado](../../../../../translated_images/pt/vscode-virtual-env.8ba42e04c3d533cf.webp)
+    ![VS Code mostrando o ambiente virtual selecionado](../../../../../translated_images/pt-PT/vscode-virtual-env.8ba42e04c3d533cf.webp)
 
 1. Se o terminal do VS Code já estiver em execução quando o VS Code for iniciado, o ambiente virtual não será ativado nele. A forma mais fácil de resolver isto é encerrar o terminal usando o botão **Kill the active terminal instance**:
 
-    ![Botão do VS Code para encerrar a instância ativa do terminal](../../../../../translated_images/pt/vscode-kill-terminal.1cc4de7c6f25ee08.webp)
+    ![Botão do VS Code para encerrar a instância ativa do terminal](../../../../../translated_images/pt-PT/vscode-kill-terminal.1cc4de7c6f25ee08.webp)
 
 1. Inicie um novo terminal no VS Code selecionando *Terminal -> New Terminal*, ou pressionando `` CTRL+` ``. O novo terminal carregará o ambiente virtual, com a chamada para ativá-lo aparecendo no terminal. O nome do ambiente virtual (`.venv`) também estará no prompt:
 
@@ -359,7 +359,7 @@ Para máquinas, pode querer manter os dados, especialmente se forem usados para 
 
 Os designers de dispositivos IoT também devem considerar se o dispositivo IoT pode ser usado durante uma interrupção da Internet ou perda de sinal causada pela localização. Um termóstato inteligente deve ser capaz de tomar algumas decisões limitadas para controlar o aquecimento se não puder enviar telemetria para a cloud devido a uma interrupção.
 
-[![Este Ferrari ficou inutilizado porque alguém tentou atualizá-lo num local subterrâneo sem receção de sinal](../../../../../translated_images/pt/bricked-car.dc38f8efadc6c59d76211f981a521efb300939283dee468f79503aae3ec67615.png)](https://twitter.com/internetofshit/status/1315736960082808832)
+[![Este Ferrari ficou inutilizado porque alguém tentou atualizá-lo num local subterrâneo sem receção de sinal](../../../../../translated_images/pt-PT/bricked-car.dc38f8efadc6c59d76211f981a521efb300939283dee468f79503aae3ec67615.png)](https://twitter.com/internetofshit/status/1315736960082808832)
 
 Para o MQTT lidar com uma perda de conectividade, o código do dispositivo e do servidor será responsável por garantir a entrega das mensagens, se necessário, por exemplo, exigindo que todas as mensagens enviadas sejam respondidas por mensagens adicionais num tópico de resposta e, caso contrário, sejam enfileiradas manualmente para serem reproduzidas mais tarde.
 
@@ -367,7 +367,7 @@ Para o MQTT lidar com uma perda de conectividade, o código do dispositivo e do 
 
 Comandos são mensagens enviadas pela cloud para um dispositivo, instruindo-o a fazer algo. Na maioria das vezes, isso envolve fornecer algum tipo de saída através de um atuador, mas pode ser uma instrução para o próprio dispositivo, como reiniciar ou recolher telemetria extra e devolvê-la como resposta ao comando.
 
-![Um termóstato conectado à Internet a receber um comando para ligar o aquecimento](../../../../../translated_images/pt/commands.d6c06bbbb3a02cce95f2831a1c331daf6dedd4e470c4aa2b0ae54f332016e504.png)
+![Um termóstato conectado à Internet a receber um comando para ligar o aquecimento](../../../../../translated_images/pt-PT/commands.d6c06bbbb3a02cce95f2831a1c331daf6dedd4e470c4aa2b0ae54f332016e504.png)
 
 Um termóstato pode receber um comando da cloud para ligar o aquecimento. Com base nos dados de telemetria de todos os sensores, se o serviço na cloud decidir que o aquecimento deve estar ligado, envia o comando relevante.
 

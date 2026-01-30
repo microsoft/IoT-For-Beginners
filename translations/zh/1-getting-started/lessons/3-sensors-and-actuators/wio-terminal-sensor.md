@@ -17,7 +17,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 光传感器内置在 Wio Terminal 中，可以通过背面的透明塑料窗口看到。
 
-![Wio Terminal 背面的光传感器](../../../../../translated_images/zh/wio-light-sensor.b1f529f3c95f5165.webp)
+![Wio Terminal 背面的光传感器](../../../../../translated_images/zh-CN/wio-light-sensor.b1f529f3c95f5165.webp)
 
 ## 编程光传感器
 

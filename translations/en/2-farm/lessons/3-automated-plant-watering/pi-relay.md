@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "66b81165e60f8f169bd52a401b6a0f8b",
-  "translation_date": "2025-08-28T20:44:12+00:00",
-  "source_file": "2-farm/lessons/3-automated-plant-watering/pi-relay.md",
-  "language_code": "en"
-}
--->
 # Control a relay - Raspberry Pi
 
 In this part of the lesson, you will add a relay to your Raspberry Pi alongside the soil moisture sensor and control it based on the soil moisture level.

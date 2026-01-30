@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # 保持植物安全
 
-![本课的概述手绘图](../../../../../translated_images/zh/lesson-10.829c86b80b9403bb770929ee553a1d293afe50dc23121aaf9be144673ae012cc.jpg)
+![本课的概述手绘图](../../../../../translated_images/zh-CN/lesson-10.829c86b80b9403bb770929ee553a1d293afe50dc23121aaf9be144673ae012cc.jpg)
 
 > 手绘图由 [Nitya Narasimhan](https://github.com/nitya) 提供。点击图片查看更大版本。
 
@@ -61,11 +61,11 @@ CO_OP_TRANSLATOR_METADATA:
 
 当设备连接到物联网服务时，它会使用一个ID来标识自己。问题是这个ID可能会被克隆——黑客可以设置一个恶意设备，使用与真实设备相同的ID，但发送虚假数据。
 
-![有效设备和恶意设备可能使用相同的ID发送遥测数据](../../../../../translated_images/zh/iot-device-and-hacked-device-connecting.e0671675df74d6d99eb1dedb5a670e606f698efa6202b1ad4c8ae548db299cc6.png)
+![有效设备和恶意设备可能使用相同的ID发送遥测数据](../../../../../translated_images/zh-CN/iot-device-and-hacked-device-connecting.e0671675df74d6d99eb1dedb5a670e606f698efa6202b1ad4c8ae548db299cc6.png)
 
 解决方法是将发送的数据转换为一种加密格式，使用设备和云端都知道的某种值来加密数据。这一过程称为*加密*，用于加密数据的值称为*加密密钥*。
 
-![如果使用加密，则只有加密消息会被接受，其他消息会被拒绝](../../../../../translated_images/zh/iot-device-and-hacked-device-connecting-encryption.5941aff601fc978f979e46f2849b573564eeb4a4dc5b52f669f62745397492fb.png)
+![如果使用加密，则只有加密消息会被接受，其他消息会被拒绝](../../../../../translated_images/zh-CN/iot-device-and-hacked-device-connecting-encryption.5941aff601fc978f979e46f2849b573564eeb4a4dc5b52f669f62745397492fb.png)
 
 云服务可以使用一个称为*解密*的过程将数据转换回可读格式，使用相同的加密密钥或一个*解密密钥*。如果加密消息无法通过密钥解密，则说明设备已被黑客攻击，消息会被拒绝。
 
@@ -97,15 +97,15 @@ CO_OP_TRANSLATOR_METADATA:
 
 **对称加密**使用相同的密钥来加密和解密数据。发送者和接收者都需要知道相同的密钥。这种方式安全性较低，因为密钥需要以某种方式共享。发送者在发送加密消息给接收者之前，可能需要先将密钥发送给接收者。
 
-![对称密钥加密使用相同的密钥加密和解密消息](../../../../../translated_images/zh/send-message-symmetric-key.a2e8ad0d495896ff.webp)
+![对称密钥加密使用相同的密钥加密和解密消息](../../../../../translated_images/zh-CN/send-message-symmetric-key.a2e8ad0d495896ff.webp)
 
 如果密钥在传输过程中被盗，或者发送者或接收者被黑客攻击并泄露了密钥，加密就会被破解。
 
-![对称密钥加密只有在黑客未获取密钥时才安全——如果密钥被盗，黑客可以拦截并解密消息](../../../../../translated_images/zh/send-message-symmetric-key-hacker.e7cb53db1707adfb.webp)
+![对称密钥加密只有在黑客未获取密钥时才安全——如果密钥被盗，黑客可以拦截并解密消息](../../../../../translated_images/zh-CN/send-message-symmetric-key-hacker.e7cb53db1707adfb.webp)
 
 **非对称加密**使用两个密钥——一个加密密钥和一个解密密钥，称为公钥/私钥对。公钥用于加密消息，但不能用于解密；私钥用于解密消息，但不能用于加密。
 
-![非对称加密使用不同的密钥加密和解密。加密密钥会发送给消息发送者，以便他们在发送消息给拥有密钥的接收者之前加密消息](../../../../../translated_images/zh/send-message-asymmetric.7abe327c62615b8c.webp)
+![非对称加密使用不同的密钥加密和解密。加密密钥会发送给消息发送者，以便他们在发送消息给拥有密钥的接收者之前加密消息](../../../../../translated_images/zh-CN/send-message-asymmetric.7abe327c62615b8c.webp)
 
 接收者共享他们的公钥，发送者使用公钥加密消息。一旦消息发送，接收者使用私钥解密消息。非对称加密更安全，因为私钥由接收者保密，从不共享。任何人都可以拥有公钥，因为它只能用于加密消息。
 
@@ -165,7 +165,7 @@ X.509 证书是包含公钥部分的数字文档。它们通常由被称为[认�
 
 使用 X.509 证书时，发送方和接收方都会拥有自己的公钥和私钥，并且双方都会有包含公钥的 X.509 证书。然后，他们以某种方式交换 X.509 证书，使用对方的公钥加密发送的数据，并使用自己的私钥解密接收到的数据。
 
-![与其共享公钥，不如共享证书。证书的使用者可以通过检查签署证书的认证机构来验证它确实来自你。](../../../../../translated_images/zh/send-message-certificate.9cc576ac1e46b76e.webp)
+![与其共享公钥，不如共享证书。证书的使用者可以通过检查签署证书的认证机构来验证它确实来自你。](../../../../../translated_images/zh-CN/send-message-certificate.9cc576ac1e46b76e.webp)
 
 使用 X.509 证书的一个主要优势是它们可以在设备之间共享。你可以创建一个证书，将其上传到 IoT Hub，并将其用于所有设备。每个设备只需要知道私钥即可解密从 IoT Hub 接收到的消息。
 

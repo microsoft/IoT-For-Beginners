@@ -217,7 +217,7 @@ Custom Vision 服務提供了一個 REST API，您可以從 Wio Terminal 調用�
 
     您將能夠看到拍攝的圖片，並在 Custom Vision 的 **Predictions** 標籤中看到這些值。
 
-    ![Custom Vision 中的香蕉預測結果：熟香蕉 56.8%，未熟香蕉 43.1%](../../../../../translated_images/tw/custom-vision-banana-prediction.30cdff4e1d72db5d9a0be0193790a47c2b387da034e12dc1314dd57ca2131b59.png)
+    ![Custom Vision 中的香蕉預測結果：熟香蕉 56.8%，未熟香蕉 43.1%](../../../../../translated_images/zh-TW/custom-vision-banana-prediction.30cdff4e1d72db5d9a0be0193790a47c2b387da034e12dc1314dd57ca2131b59.png)
 
 > 💁 您可以在 [code-classify/wio-terminal](../../../../../4-manufacturing/lessons/2-check-fruit-from-device/code-classify/wio-terminal) 文件夾中找到此代碼。
 

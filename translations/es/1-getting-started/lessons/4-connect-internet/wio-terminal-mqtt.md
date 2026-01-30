@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "d6faf0e8d3c2d6d20c0aef2a305dab18",
-  "translation_date": "2025-08-26T15:01:46+00:00",
-  "source_file": "1-getting-started/lessons/4-connect-internet/wio-terminal-mqtt.md",
-  "language_code": "es"
-}
--->
 # Controla tu luz nocturna a través de Internet - Wio Terminal
 
 El dispositivo IoT necesita ser programado para comunicarse con *test.mosquitto.org* utilizando MQTT, enviar valores de telemetría con la lectura del sensor de luz y recibir comandos para controlar el LED.

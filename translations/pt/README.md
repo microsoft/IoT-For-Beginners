@@ -57,7 +57,7 @@ Os Azure Cloud Advocates da Microsoft têm o prazer de oferecer um currículo de
 
 Os projetos cobrem a jornada do alimento da quinta até à mesa. Isto inclui agricultura, logística, fabrico, retalho e consumidor - todas áreas populares da indústria para dispositivos IoT.
 
-![Um mapa do curso ilustrando 24 lições que cobrem introdução, agricultura, transporte, processamento, retalho e cozinha](../../translated_images/pt/Roadmap.bb1dec285dda0eda.webp)
+![Um mapa do curso ilustrando 24 lições que cobrem introdução, agricultura, transporte, processamento, retalho e cozinha](../../translated_images/pt-PT/Roadmap.bb1dec285dda0eda.webp)
 
 > Sketchnote por [Nitya Narasimhan](https://github.com/nitya). Clique na imagem para uma versão maior.
 

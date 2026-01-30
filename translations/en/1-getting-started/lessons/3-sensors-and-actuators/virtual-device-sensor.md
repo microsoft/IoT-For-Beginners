@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "11f10c6760fb8202cf368422702fdf70",
-  "translation_date": "2025-08-28T20:09:56+00:00",
-  "source_file": "1-getting-started/lessons/3-sensors-and-actuators/virtual-device-sensor.md",
-  "language_code": "en"
-}
--->
 # Build a nightlight - Virtual IoT Hardware
 
 In this part of the lesson, you will add a light sensor to your virtual IoT device.

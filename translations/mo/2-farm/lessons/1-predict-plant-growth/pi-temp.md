@@ -25,13 +25,13 @@ Grove 溫度感測器可以連接到 Raspberry Pi。
 
 連接溫度感測器
 
-![Grove 溫度感測器](../../../../../translated_images/mo/grove-dht11.07f8eafceee170043efbb53e1d15722bd4e00fbaa9ff74290b57e9f66eb82c17.png)
+![Grove 溫度感測器](../../../../../translated_images/zh-MO/grove-dht11.07f8eafceee170043efbb53e1d15722bd4e00fbaa9ff74290b57e9f66eb82c17.png)
 
 1. 將 Grove 線纜的一端插入濕度與溫度感測器的插座。它只能以一種方式插入。
 
 1. 在 Raspberry Pi 關機的情況下，將 Grove 線纜的另一端連接到 Pi 上 Grove Base Hat 的數位插座 **D5**。這個插座位於 GPIO 引腳旁邊的一排插座中，從左數第二個。
 
-![Grove 溫度感測器連接到插座 A0](../../../../../translated_images/mo/pi-temperature-sensor.3ff82fff672c8e56.webp)
+![Grove 溫度感測器連接到插座 A0](../../../../../translated_images/zh-MO/pi-temperature-sensor.3ff82fff672c8e56.webp)
 
 ## 編寫溫度感測器程式
 

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "66b81165e60f8f169bd52a401b6a0f8b",
-  "translation_date": "2025-08-24T22:18:02+00:00",
-  "source_file": "2-farm/lessons/3-automated-plant-watering/pi-relay.md",
-  "language_code": "fr"
-}
--->
 # Contrôler un relais - Raspberry Pi
 
 Dans cette partie de la leçon, vous allez ajouter un relais à votre Raspberry Pi en plus du capteur d'humidité du sol, et le contrôler en fonction du niveau d'humidité du sol.

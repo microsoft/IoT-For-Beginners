@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "9aea84bcc7520222b0e1c50469d62d6a",
-  "translation_date": "2025-08-24T22:57:30+00:00",
-  "source_file": "2-farm/lessons/6-keep-your-plant-secure/single-board-computer-x509.md",
-  "language_code": "fr"
-}
--->
 # Utiliser le certificat X.509 dans le code de votre appareil - Matériel IoT virtuel et Raspberry Pi
 
 Dans cette partie de la leçon, vous allez connecter votre appareil IoT virtuel ou votre Raspberry Pi à votre IoT Hub en utilisant le certificat X.509.

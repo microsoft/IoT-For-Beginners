@@ -27,13 +27,13 @@ Grove 溫度感測器可以連接到 Wio Terminal 的數位埠。
 
 連接溫度感測器。
 
-![一個 Grove 溫度感測器](../../../../../translated_images/tw/grove-dht11.07f8eafceee170043efbb53e1d15722bd4e00fbaa9ff74290b57e9f66eb82c17.png)
+![一個 Grove 溫度感測器](../../../../../translated_images/zh-TW/grove-dht11.07f8eafceee170043efbb53e1d15722bd4e00fbaa9ff74290b57e9f66eb82c17.png)
 
 1. 將 Grove 線纜的一端插入濕度與溫度感測器的插槽中。它只能以一種方式插入。
 
 1. 在 Wio Terminal 未連接到電腦或其他電源的情況下，將 Grove 線纜的另一端連接到 Wio Terminal 螢幕右側的 Grove 插槽。這是距離電源按鈕最遠的插槽。
 
-![Grove 溫度感測器連接到右側插槽](../../../../../translated_images/tw/wio-temperature-sensor.2934928f38c7f79a.webp)
+![Grove 溫度感測器連接到右側插槽](../../../../../translated_images/zh-TW/wio-temperature-sensor.2934928f38c7f79a.webp)
 
 ## 編寫溫度感測器程式
 

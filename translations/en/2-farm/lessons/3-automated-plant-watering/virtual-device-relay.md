@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "f8f541ee945545017a51aaf309aa37c3",
-  "translation_date": "2025-08-28T20:43:38+00:00",
-  "source_file": "2-farm/lessons/3-automated-plant-watering/virtual-device-relay.md",
-  "language_code": "en"
-}
--->
 # Control a Relay - Virtual IoT Hardware
 
 In this part of the lesson, you will add a relay to your virtual IoT device alongside the soil moisture sensor and control it based on the soil moisture level.

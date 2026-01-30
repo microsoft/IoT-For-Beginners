@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "fbbcf96a9b63ccd661db98bbf854bb06",
-  "translation_date": "2025-08-26T15:50:30+00:00",
-  "source_file": "3-transport/lessons/1-location-tracking/wio-terminal-gps-decode.md",
-  "language_code": "es"
-}
--->
 # Decodificar datos GPS - Wio Terminal
 
 En esta parte de la lección, decodificarás los mensajes NMEA leídos desde el sensor GPS por el Wio Terminal y extraerás la latitud y la longitud.

@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Configure um temporizador e forneça feedback falado
 
-![Uma visão geral em sketchnote desta lição](../../../../../translated_images/br/lesson-23.f38483e1d4df4828990d3f02d60e46c978b075d384ae7cb4f7bab738e107c850.jpg)
+![Uma visão geral em sketchnote desta lição](../../../../../translated_images/pt-BR/lesson-23.f38483e1d4df4828990d3f02d60e46c978b075d384ae7cb4f7bab738e107c850.jpg)
 
 > Sketchnote por [Nitya Narasimhan](https://github.com/nitya). Clique na imagem para uma versão maior.
 
@@ -37,7 +37,7 @@ Nesta lição, abordaremos:
 
 Texto para fala, como o nome sugere, é o processo de converter texto em áudio que contém as palavras faladas. O princípio básico é decompor as palavras do texto em seus sons constituintes (conhecidos como fonemas) e juntar áudios desses sons, seja usando gravações pré-existentes ou áudios gerados por modelos de IA.
 
-![As três etapas dos sistemas típicos de texto para fala](../../../../../translated_images/br/tts-overview.193843cf3f5ee09f.webp)
+![As três etapas dos sistemas típicos de texto para fala](../../../../../translated_images/pt-BR/tts-overview.193843cf3f5ee09f.webp)
 
 Os sistemas de texto para fala geralmente têm 3 etapas:
 

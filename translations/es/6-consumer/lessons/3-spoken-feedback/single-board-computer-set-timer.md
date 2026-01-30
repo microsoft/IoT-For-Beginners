@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "64ad4ddb4de81a18b7252e968f10b404",
-  "translation_date": "2025-08-26T15:28:05+00:00",
-  "source_file": "6-consumer/lessons/3-spoken-feedback/single-board-computer-set-timer.md",
-  "language_code": "es"
-}
--->
 # Configurar un temporizador - Hardware IoT Virtual y Raspberry Pi
 
 En esta parte de la lección, llamarás a tu código sin servidor para interpretar el habla y configurar un temporizador en tu dispositivo IoT virtual o Raspberry Pi basado en los resultados.

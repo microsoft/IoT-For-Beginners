@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "288aebb0c59f7be1d2719b8f9660a313",
-  "translation_date": "2025-08-24T21:54:56+00:00",
-  "source_file": "4-manufacturing/lessons/4-trigger-fruit-detector/wio-terminal-proximity.md",
-  "language_code": "fr"
-}
--->
 # Détecter la proximité - Wio Terminal
 
 Dans cette partie de la leçon, vous allez ajouter un capteur de proximité à votre Wio Terminal et lire les distances qu'il mesure.

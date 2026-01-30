@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "2bf65f162bcebd35fbcba5fd245afac4",
-  "translation_date": "2025-08-24T22:39:36+00:00",
-  "source_file": "2-farm/lessons/2-detect-soil-moisture/virtual-device-soil-moisture.md",
-  "language_code": "fr"
-}
--->
 # Mesurer l'humidité du sol - Matériel IoT Virtuel
 
 Dans cette partie de la leçon, vous allez ajouter un capteur capacitif d'humidité du sol à votre appareil IoT virtuel et lire les valeurs qu'il fournit.

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "428bda82d9e6016ecea7c797564bf081",
-  "translation_date": "2025-08-28T20:18:19+00:00",
-  "source_file": "2-farm/README.md",
-  "language_code": "en"
-}
--->
 # Farming with IoT
 
 As the global population increases, so does the pressure on agriculture. While the amount of available land remains constant, the changing climate adds further challenges for farmers, particularly the 2 billion [subsistence farmers](https://wikipedia.org/wiki/Subsistence_agriculture) who depend on their crops for food and to support their families. IoT can assist farmers in making smarter decisions about what to grow and when to harvest, boost crop yields, reduce manual labor, and identify and address pest issues.

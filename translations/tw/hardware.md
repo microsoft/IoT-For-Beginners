@@ -21,7 +21,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 ## 購買套件
 
-![Seeed Studios 的標誌](../../translated_images/tw/seeed-logo.74732b6b482b6e8e.webp)
+![Seeed Studios 的標誌](../../translated_images/zh-TW/seeed-logo.74732b6b482b6e8e.webp)
 
 Seeed Studios 非常貼心地將所有硬體整合成易於購買的套件：
 
@@ -29,13 +29,13 @@ Seeed Studios 非常貼心地將所有硬體整合成易於購買的套件：
 
 **[Seeed 與 Microsoft 合作的物聯網入門 - Wio Terminal 初學者套件](https://www.seeedstudio.com/IoT-for-beginners-with-Seeed-and-Microsoft-Wio-Terminal-Starter-Kit-p-5006.html)**
 
-[![Wio Terminal 硬體套件](../../translated_images/tw/wio-hardware-kit.4c70c48b85e4283a.webp)](https://www.seeedstudio.com/IoT-for-beginners-with-Seeed-and-Microsoft-Wio-Terminal-Starter-Kit-p-5006.html)
+[![Wio Terminal 硬體套件](../../translated_images/zh-TW/wio-hardware-kit.4c70c48b85e4283a.webp)](https://www.seeedstudio.com/IoT-for-beginners-with-Seeed-and-Microsoft-Wio-Terminal-Starter-Kit-p-5006.html)
 
 ### Raspberry Pi
 
 **[Seeed 與 Microsoft 合作的物聯網入門 - Raspberry Pi 4 初學者套件](https://www.seeedstudio.com/IoT-for-beginners-with-Seeed-and-Microsoft-Raspberry-Pi-Starter-Kit-p-5004.html)**
 
-[![Raspberry Pi 硬體套件](../../translated_images/tw/pi-hardware-kit.26dbadaedb7dd44c73b0131d5d68ea29472ed0a9744f90d5866c6d82f2d16380.png)](https://www.seeedstudio.com/IoT-for-beginners-with-Seeed-and-Microsoft-Raspberry-Pi-Starter-Kit-p-5004.html)
+[![Raspberry Pi 硬體套件](../../translated_images/zh-TW/pi-hardware-kit.26dbadaedb7dd44c73b0131d5d68ea29472ed0a9744f90d5866c6d82f2d16380.png)](https://www.seeedstudio.com/IoT-for-beginners-with-Seeed-and-Microsoft-Raspberry-Pi-Starter-Kit-p-5004.html)
 
 ## Arduino
 

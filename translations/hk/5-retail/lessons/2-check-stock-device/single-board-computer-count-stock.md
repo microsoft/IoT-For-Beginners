@@ -81,7 +81,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 1. 將相機對準架子上的一些庫存運行應用程式。您將在 VS Code 的檔案瀏覽器中看到 `image.jpg` 文件，並可以選擇它來查看邊界框。
 
-    ![4 罐番茄醬，每罐周圍都有邊界框](../../../../../translated_images/hk/rpi-stock-with-bounding-boxes.b5540e2ecb7cd49f.webp)
+    ![4 罐番茄醬，每罐周圍都有邊界框](../../../../../translated_images/zh-HK/rpi-stock-with-bounding-boxes.b5540e2ecb7cd49f.webp)
 
 ## 計算庫存
 

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "e2b1b891b08ef7633d285547fbe73290",
-  "translation_date": "2025-08-28T19:49:42+00:00",
-  "source_file": "1-getting-started/README.md",
-  "language_code": "en"
-}
--->
 # Getting Started with IoT
 
 In this section of the curriculum, you will be introduced to the Internet of Things and learn the basic concepts, including creating your first 'Hello World' IoT project that connects to the cloud. This project is a nightlight that turns on when the light levels measured by a sensor decrease.

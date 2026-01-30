@@ -57,7 +57,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 這些專案涵蓋食物從農場到餐桌的旅程。包括農業、物流、製造、零售與消費端——這些是 IoT 裝置廣泛應用的行業領域。
 
-![課程路線圖顯示 24 個課程涵蓋介紹、農業、運輸、加工、零售與烹飪](../../translated_images/mo/Roadmap.bb1dec285dda0eda.webp)
+![課程路線圖顯示 24 個課程涵蓋介紹、農業、運輸、加工、零售與烹飪](../../translated_images/zh-MO/Roadmap.bb1dec285dda0eda.webp)
 
 > 草圖筆記由 [Nitya Narasimhan](https://github.com/nitya) 製作。點擊圖片查看大圖。
 

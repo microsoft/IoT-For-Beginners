@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "3dce18fab38adf93ff30b8c221b1eec5",
-  "translation_date": "2025-08-28T18:54:26+00:00",
-  "source_file": "hardware.md",
-  "language_code": "en"
-}
--->
 # Hardware
 
 The **T** in IoT stands for **Things**, referring to devices that interact with the world around us. Each project is based on real-world hardware accessible to students and hobbyists. We offer two options for IoT hardware, depending on your personal preferences, programming language knowledge, learning goals, and availability. Additionally, we provide a 'virtual hardware' option for those who don't have access to physical hardware or want to explore more before making a purchase.

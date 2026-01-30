@@ -35,7 +35,7 @@ O LED Grove vem como um módulo com uma seleção de LEDs, permitindo-lhe escolh
 
 Ligue o LED.
 
-![Um LED Grove](../../../../../translated_images/pt/grove-led.6c853be93f473cf2c439cfc74bb1064732b22251a83cedf66e62f783f9cc1a79.png)
+![Um LED Grove](../../../../../translated_images/pt-PT/grove-led.6c853be93f473cf2c439cfc74bb1064732b22251a83cedf66e62f783f9cc1a79.png)
 
 1. Escolha o seu LED favorito e insira as pernas nos dois orifícios do módulo LED.
 
@@ -51,7 +51,7 @@ Ligue o LED.
 
     > 💁 A tomada Grove do lado direito pode ser usada com sensores e atuadores analógicos ou digitais. A tomada do lado esquerdo é apenas para sensores e atuadores digitais. O C será abordado numa lição posterior.
 
-![O LED Grove ligado à tomada do lado direito](../../../../../translated_images/pt/wio-led.265a1897e72d7f21.webp)
+![O LED Grove ligado à tomada do lado direito](../../../../../translated_images/pt-PT/wio-led.265a1897e72d7f21.webp)
 
 ## Programar a luz de presença
 

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "d6faf0e8d3c2d6d20c0aef2a305dab18",
-  "translation_date": "2025-08-24T23:11:19+00:00",
-  "source_file": "1-getting-started/lessons/4-connect-internet/wio-terminal-mqtt.md",
-  "language_code": "fr"
-}
--->
 # Contrôlez votre veilleuse via Internet - Wio Terminal
 
 L'appareil IoT doit être programmé pour communiquer avec *test.mosquitto.org* en utilisant MQTT afin d'envoyer des valeurs de télémétrie avec les relevés du capteur de lumière, et recevoir des commandes pour contrôler la LED.

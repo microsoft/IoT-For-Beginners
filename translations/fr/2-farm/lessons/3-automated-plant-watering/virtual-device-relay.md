@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "f8f541ee945545017a51aaf309aa37c3",
-  "translation_date": "2025-08-24T22:19:22+00:00",
-  "source_file": "2-farm/lessons/3-automated-plant-watering/virtual-device-relay.md",
-  "language_code": "fr"
-}
--->
 # Contrôler un relais - Matériel IoT virtuel
 
 Dans cette partie de la leçon, vous allez ajouter un relais à votre appareil IoT virtuel en plus du capteur d'humidité du sol, et le contrôler en fonction du niveau d'humidité du sol.

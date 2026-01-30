@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # 在邊緣設備上運行水果檢測器
 
-![本課程的手繪筆記概覽](../../../../../translated_images/tw/lesson-17.bc333c3c35ba8e42cce666cfffa82b915f787f455bd94e006aea2b6f2722421a.jpg)
+![本課程的手繪筆記概覽](../../../../../translated_images/zh-TW/lesson-17.bc333c3c35ba8e42cce666cfffa82b915f787f455bd94e006aea2b6f2722421a.jpg)
 
 > 手繪筆記由 [Nitya Narasimhan](https://github.com/nitya) 提供。點擊圖片查看更大版本。
 
@@ -42,11 +42,11 @@ CO_OP_TRANSLATOR_METADATA:
 
 邊緣計算是指在盡可能靠近數據生成位置的地方處理物聯網數據。與其將處理放在雲端，不如將其移動到雲的邊緣——即你的內部網路。
 
-![一個展示雲端網路服務和本地網路上的物聯網設備的架構圖](../../../../../translated_images/tw/cloud-without-edge.b4da641f6022c95ed6b91fde8b5323abd2f94e0d52073ad54172ae8f5dac90e9.png)
+![一個展示雲端網路服務和本地網路上的物聯網設備的架構圖](../../../../../translated_images/zh-TW/cloud-without-edge.b4da641f6022c95ed6b91fde8b5323abd2f94e0d52073ad54172ae8f5dac90e9.png)
 
 到目前為止的課程中，你的設備一直在收集數據並將其發送到雲端進行分析，運行無伺服器函數或 AI 模型。
 
-![一個展示本地網路上的物聯網設備連接到邊緣設備，這些邊緣設備再連接到雲端的架構圖](../../../../../translated_images/tw/cloud-with-edge.1e26462c62c126fe150bd15a5714ddf0be599f09bacbad08b85be02b76ea1ae1.png)
+![一個展示本地網路上的物聯網設備連接到邊緣設備，這些邊緣設備再連接到雲端的架構圖](../../../../../translated_images/zh-TW/cloud-with-edge.1e26462c62c126fe150bd15a5714ddf0be599f09bacbad08b85be02b76ea1ae1.png)
 
 邊緣計算將部分雲端服務移到與物聯網設備相同網路上的計算機上，僅在需要時與雲端通信。例如，你可以在邊緣設備上運行 AI 模型來分析水果的成熟度，並僅將分析結果（如成熟水果與未成熟水果的數量）發送回雲端。
 
@@ -94,7 +94,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 ## Azure IoT Edge
 
-![Azure IoT Edge 標誌](../../../../../translated_images/tw/azure-iot-edge-logo.c1c076749b5cba2e8755262fadc2f19ca1146b948d76990b1229199ac2292d79.png)
+![Azure IoT Edge 標誌](../../../../../translated_images/zh-TW/azure-iot-edge-logo.c1c076749b5cba2e8755262fadc2f19ca1146b948d76990b1229199ac2292d79.png)
 
 Azure IoT Edge 是一項服務，可以幫助你將工作負載從雲端移動到邊緣。你可以將設備設置為邊緣設備，並從雲端向該邊緣設備部署代碼。這使你能夠結合雲端和邊緣的功能。
 
@@ -108,7 +108,7 @@ IoT Edge 集成在 IoT Hub 中，因此你可以使用與管理物聯網設備�
 
 IoT Edge 從 *容器* 運行代碼——這些是與計算機上的其他應用程序隔離運行的自包含應用程序。運行容器時，它就像一台在你的計算機內部運行的獨立計算機，擁有自己的軟體、服務和應用程序。大多數情況下，容器無法訪問計算機上的任何內容，除非你選擇與容器共享某些內容（例如文件夾）。容器通過一個開放的端口暴露服務，你可以連接到該端口或將其暴露到網路。
 
-![一個網頁請求被重定向到容器](../../../../../translated_images/tw/container-web-browser.4ee81dd4f0d8838ce622b2a0d600b6a4322b5d4fe43159facd87b7b34f84d66a.png)
+![一個網頁請求被重定向到容器](../../../../../translated_images/zh-TW/container-web-browser.4ee81dd4f0d8838ce622b2a0d600b6a4322b5d4fe43159facd87b7b34f84d66a.png)
 
 例如，你可以有一個在端口 80（默認 HTTP 端口）上運行網站的容器，然後你可以將其從計算機的端口 80 暴露出來。
 
@@ -204,11 +204,11 @@ IoT Edge 從 *容器* 運行代碼——這些是與計算機上的其他應用�
 
 ## 為部署準備容器
 
-![容器被構建後推送到容器註冊表，然後通過 IoT Edge 從容器註冊表部署到邊緣設備](../../../../../translated_images/tw/container-edge-flow.c246050dd60ceefdb6ace026a4ce5c6aa4112bb5898ae23fbb2ab4be29ae3e1b.png)
+![容器被構建後推送到容器註冊表，然後通過 IoT Edge 從容器註冊表部署到邊緣設備](../../../../../translated_images/zh-TW/container-edge-flow.c246050dd60ceefdb6ace026a4ce5c6aa4112bb5898ae23fbb2ab4be29ae3e1b.png)
 
 下載模型後，需要將其構建為容器，然後推送到容器註冊表——一個可以存儲容器的線上位置。IoT Edge 可以從註冊表下載容器並推送到你的設備。
 
-![Azure Container Registry 標誌](../../../../../translated_images/tw/azure-container-registry-logo.09494206991d4b295025ebff7d4e2900325e527a59184ffbc8464b6ab59654be.png)
+![Azure Container Registry 標誌](../../../../../translated_images/zh-TW/azure-container-registry-logo.09494206991d4b295025ebff7d4e2900325e527a59184ffbc8464b6ab59654be.png)
 
 本課程中使用的容器註冊表是 Azure Container Registry。這不是免費服務，因此為了節省費用，請確保在完成後[清理你的專案](../../../clean-up.md)。
 

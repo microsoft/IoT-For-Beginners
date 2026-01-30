@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "3764e089adf2d5801272bc0895f8498b",
-  "translation_date": "2025-08-24T21:19:30+00:00",
-  "source_file": "4-manufacturing/README.md",
-  "language_code": "fr"
-}
--->
 # Fabrication et transformation - utiliser l'IoT pour améliorer le traitement des aliments
 
 Une fois que les aliments atteignent un centre de traitement ou une usine, ils ne sont pas toujours simplement expédiés aux supermarchés. Souvent, les aliments passent par plusieurs étapes de transformation, comme le tri par qualité. C'était un processus qui se faisait manuellement - cela commençait dans les champs où les cueilleurs ne ramassaient que les fruits mûrs, puis à l'usine, les fruits passaient sur un tapis roulant et les employés retiraient manuellement les fruits abîmés ou pourris. Ayant moi-même cueilli et trié des fraises comme job d'été pendant mes études, je peux témoigner que ce n'est pas un travail agréable.

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "2a459ea9177fb0508ca96068ae1009d2",
-  "translation_date": "2025-08-25T01:09:19+00:00",
-  "source_file": "quiz-app/README.md",
-  "language_code": "fr"
-}
--->
 # Quiz
 
 Ces quiz sont les quiz pré- et post-cours pour le programme IoT for Beginners disponible à l'adresse https://aka.ms/iot-beginners

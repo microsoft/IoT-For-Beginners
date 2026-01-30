@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "d620a470d9dd8614d99824832978360a",
-  "translation_date": "2025-08-26T15:23:53+00:00",
-  "source_file": "6-consumer/lessons/4-multiple-language-support/virtual-device-translate-speech.md",
-  "language_code": "es"
-}
--->
 # Traducir voz - Dispositivo IoT Virtual
 
 En esta parte de la lección, escribirás código para traducir voz al convertirla en texto utilizando el servicio de voz, luego traducirás el texto usando el servicio de Traducción antes de generar una respuesta hablada.

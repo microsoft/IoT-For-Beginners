@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "0b2ae20b0fc8e73c9598dea937cac038",
-  "translation_date": "2025-08-24T21:11:30+00:00",
-  "source_file": "5-retail/lessons/2-check-stock-device/wio-terminal-count-stock.md",
-  "language_code": "fr"
-}
--->
 # Compter le stock depuis votre appareil IoT - Wio Terminal
 
 Une combinaison des prédictions et de leurs boîtes englobantes peut être utilisée pour compter le stock dans une image.

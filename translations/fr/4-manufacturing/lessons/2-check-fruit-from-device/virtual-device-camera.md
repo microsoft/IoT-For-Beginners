@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "3ba7150ffc4a6999f6c3cfb4906ec7df",
-  "translation_date": "2025-08-24T21:34:06+00:00",
-  "source_file": "4-manufacturing/lessons/2-check-fruit-from-device/virtual-device-camera.md",
-  "language_code": "fr"
-}
--->
 # Capturer une image - Matériel IoT Virtuel
 
 Dans cette partie de la leçon, vous allez ajouter un capteur de caméra à votre appareil IoT virtuel et lire des images à partir de celui-ci.

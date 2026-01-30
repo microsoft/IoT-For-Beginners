@@ -57,7 +57,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 项目涵盖食品从农场到餐桌的全过程，包括农业、物流、制造、零售及消费者——这些都是物联网设备常见的行业领域。
 
-![课程路线图，展示了涵盖入门、农业、运输、加工、零售和烹饪的24节课](../../translated_images/zh/Roadmap.bb1dec285dda0eda.webp)
+![课程路线图，展示了涵盖入门、农业、运输、加工、零售和烹饪的24节课](../../translated_images/zh-CN/Roadmap.bb1dec285dda0eda.webp)
 
 > 绘图由 [Nitya Narasimhan](https://github.com/nitya) 制作。点击图片查看大图。
 

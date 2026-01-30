@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "6145a1d791731c8a9d0afd0a1bae5108",
-  "translation_date": "2025-08-26T14:23:48+00:00",
-  "source_file": "4-manufacturing/lessons/4-trigger-fruit-detector/pi-proximity.md",
-  "language_code": "es"
-}
--->
 # Detectar proximidad - Raspberry Pi
 
 En esta parte de la lección, agregarás un sensor de proximidad a tu Raspberry Pi y leerás la distancia desde él.

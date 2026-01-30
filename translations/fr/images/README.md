@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "50abd54997afa7e7a3fc7019379e49e3",
-  "translation_date": "2025-08-24T21:05:28+00:00",
-  "source_file": "images/README.md",
-  "language_code": "fr"
-}
--->
 # Images
 
 Les images dans le dossier [icons](../../../images/icons) proviennent de [Noun Project](https://thenounproject.com) et nécessitent une attribution. Chaque image indique l'attribution requise. Ces images doivent être utilisées pour tout diagramme qui en a besoin afin de maintenir une cohérence visuelle.

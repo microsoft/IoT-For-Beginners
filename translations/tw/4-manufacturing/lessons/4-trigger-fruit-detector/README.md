@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # 從感測器觸發水果品質檢測
 
-![本課程的手繪筆記概述](../../../../../translated_images/tw/lesson-18.92c32ed1d354caa5a54baa4032cf0b172d4655e8e326ad5d46c558a0def15365.jpg)
+![本課程的手繪筆記概述](../../../../../translated_images/zh-TW/lesson-18.92c32ed1d354caa5a54baa4032cf0b172d4655e8e326ad5d46c558a0def15365.jpg)
 
 > 手繪筆記由 [Nitya Narasimhan](https://github.com/nitya) 提供。點擊圖片查看更大版本。
 
@@ -48,7 +48,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 ### 物聯網架構參考
 
-![物聯網架構參考](../../../../../translated_images/tw/iot-reference-architecture.2278b98b55c6d4e89bde18eada3688d893861d43507641804dd2f9d3079cfaa0.png)
+![物聯網架構參考](../../../../../translated_images/zh-TW/iot-reference-architecture.2278b98b55c6d4e89bde18eada3688d893861d43507641804dd2f9d3079cfaa0.png)
 
 上圖展示了一個物聯網架構參考。
 
@@ -58,7 +58,7 @@ CO_OP_TRANSLATOR_METADATA:
 * **洞察**來自無伺服器應用或存儲數據的分析。
 * **行動**可以是發送命令到設備，或是可視化數據以幫助人類做出決策。
 
-![Azure 物聯網架構參考](../../../../../translated_images/tw/iot-reference-architecture-azure.0b8d2161af924cb18ae48a8558a19541cca47f27264851b5b7e56d7b8bb372ac.png)
+![Azure 物聯網架構參考](../../../../../translated_images/zh-TW/iot-reference-architecture-azure.0b8d2161af924cb18ae48a8558a19541cca47f27264851b5b7e56d7b8bb372ac.png)
 
 上圖展示了在這些課程中涵蓋的一些元件和服務，以及它們如何在物聯網架構參考中相互連接。
 
@@ -98,7 +98,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 ### 應用原型設計
 
-![水果品質檢測的物聯網架構參考](../../../../../translated_images/tw/iot-reference-architecture-fruit-quality.cc705f121c3b6fa71c800d9630935ac34bc08223a04601e35f41d5e9b5dd5207.png)
+![水果品質檢測的物聯網架構參考](../../../../../translated_images/zh-TW/iot-reference-architecture-fruit-quality.cc705f121c3b6fa71c800d9630935ac34bc08223a04601e35f41d5e9b5dd5207.png)
 
 上圖展示了此原型應用的架構參考。
 
@@ -115,7 +115,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 物聯網設備需要某種觸發器來指示水果何時準備好進行分類。一種觸發方式是通過測量距離感測器到水果的距離，判斷水果是否在輸送帶上的正確位置。
 
-![接近感測器發送雷射光束到物體（如香蕉），並計算光束反射回來的時間](../../../../../translated_images/tw/proximity-sensor.f5cd752c77fb62fe.webp)
+![接近感測器發送雷射光束到物體（如香蕉），並計算光束反射回來的時間](../../../../../translated_images/zh-TW/proximity-sensor.f5cd752c77fb62fe.webp)
 
 接近感測器可用於測量感測器到物體的距離。它們通常發送電磁輻射束，例如雷射光束或紅外線，然後檢測輻射從物體反射回來的信號。從光束發送到信號反射回來的時間可用於計算距離。
 
@@ -133,7 +133,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 原型水果檢測器有多個元件相互通信。
 
-![元件之間的通信](../../../../../translated_images/tw/fruit-quality-detector-message-flow.adf2a65da8fd8741ac7af11361574de89adc126785d67606bb4d2ec00467e380.png)
+![元件之間的通信](../../../../../translated_images/zh-TW/fruit-quality-detector-message-flow.adf2a65da8fd8741ac7af11361574de89adc126785d67606bb4d2ec00467e380.png)
 
 * 接近感測器測量到水果的距離並將其發送到 IoT Hub
 * 控制相機的命令從 IoT Hub 發送到相機設備

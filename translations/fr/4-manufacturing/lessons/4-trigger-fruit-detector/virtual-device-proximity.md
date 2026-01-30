@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "7e9f05bdc50a40fd924b1d66934471bf",
-  "translation_date": "2025-08-24T21:56:03+00:00",
-  "source_file": "4-manufacturing/lessons/4-trigger-fruit-detector/virtual-device-proximity.md",
-  "language_code": "fr"
-}
--->
 # Détecter la proximité - Matériel IoT Virtuel
 
 Dans cette partie de la leçon, vous allez ajouter un capteur de proximité à votre appareil IoT virtuel et lire les distances qu'il mesure.

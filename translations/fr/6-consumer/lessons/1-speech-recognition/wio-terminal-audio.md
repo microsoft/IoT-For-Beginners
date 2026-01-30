@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "2f336726b9410e97c3aaed76cc89b0d8",
-  "translation_date": "2025-08-25T00:25:32+00:00",
-  "source_file": "6-consumer/lessons/1-speech-recognition/wio-terminal-audio.md",
-  "language_code": "fr"
-}
--->
 # Capturer de l'audio - Wio Terminal
 
 Dans cette partie de la leçon, vous allez écrire du code pour capturer de l'audio sur votre Wio Terminal. La capture audio sera contrôlée par l'un des boutons situés sur le dessus du Wio Terminal.

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "9c640f93263fd9adbfda920739e09feb",
-  "translation_date": "2025-08-24T23:23:23+00:00",
-  "source_file": "1-getting-started/lessons/3-sensors-and-actuators/virtual-device-actuator.md",
-  "language_code": "fr"
-}
--->
 # Construire une veilleuse - Matériel IoT Virtuel
 
 Dans cette partie de la leçon, vous allez ajouter une LED à votre appareil IoT virtuel et l'utiliser pour créer une veilleuse.

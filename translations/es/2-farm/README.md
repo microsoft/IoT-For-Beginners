@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "428bda82d9e6016ecea7c797564bf081",
-  "translation_date": "2025-08-26T14:26:47+00:00",
-  "source_file": "2-farm/README.md",
-  "language_code": "es"
-}
--->
 # Agricultura con IoT
 
 A medida que la población crece, también lo hace la demanda en la agricultura. La cantidad de tierra disponible no cambia, pero el clima sí, lo que plantea aún más desafíos para los agricultores, especialmente los 2 mil millones de [agricultores de subsistencia](https://wikipedia.org/wiki/Subsistence_agriculture) que dependen de lo que cultivan para poder comer y alimentar a sus familias. El IoT puede ayudar a los agricultores a tomar decisiones más inteligentes sobre qué cultivar y cuándo cosechar, aumentar los rendimientos, reducir la cantidad de trabajo manual y detectar y tratar las plagas.

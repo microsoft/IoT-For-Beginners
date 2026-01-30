@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "66b81165e60f8f169bd52a401b6a0f8b",
-  "translation_date": "2025-08-26T14:36:15+00:00",
-  "source_file": "2-farm/lessons/3-automated-plant-watering/pi-relay.md",
-  "language_code": "es"
-}
--->
 # Controlar un relé - Raspberry Pi
 
 En esta parte de la lección, agregarás un relé a tu Raspberry Pi además del sensor de humedad del suelo, y lo controlarás en función del nivel de humedad del suelo.

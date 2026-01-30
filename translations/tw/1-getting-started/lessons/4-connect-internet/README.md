@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # 將您的設備連接到互聯網
 
-![本課程的手繪筆記概述](../../../../../translated_images/tw/lesson-4.7344e074ea68fa545fd320b12dce36d72dd62d28c3b4596cb26cf315f434b98f.jpg)
+![本課程的手繪筆記概述](../../../../../translated_images/zh-TW/lesson-4.7344e074ea68fa545fd320b12dce36d72dd62d28c3b4596cb26cf315f434b98f.jpg)
 
 > 手繪筆記由 [Nitya Narasimhan](https://github.com/nitya) 提供。點擊圖片查看更大版本。
 
@@ -46,7 +46,7 @@ IoT 設備可以接收來自雲端的消息。這些消息通常包含命令—�
 
 IoT 設備用於與互聯網通信的流行通信協議有很多。最流行的是基於某種代理的發布/訂閱消息。IoT 設備連接到代理並發布遙測數據並訂閱命令。雲端服務也連接到代理，訂閱所有遙測消息並發布命令，無論是針對特定設備，還是針對設備組。
 
-![IoT 設備連接到代理並發布遙測數據並訂閱命令。雲端服務連接到代理並訂閱所有遙測數據並向特定設備發送命令。](../../../../../translated_images/tw/pub-sub.7c7ed43fe9fd15d4.webp)
+![IoT 設備連接到代理並發布遙測數據並訂閱命令。雲端服務連接到代理並訂閱所有遙測數據並向特定設備發送命令。](../../../../../translated_images/zh-TW/pub-sub.7c7ed43fe9fd15d4.webp)
 
 MQTT 是 IoT 設備最流行的通信協議，本課程將涵蓋它。其他協議包括 AMQP 和 HTTP/HTTPS。
 
@@ -56,7 +56,7 @@ MQTT 是 IoT 設備最流行的通信協議，本課程將涵蓋它。其他協�
 
 MQTT 有一個單一的代理和多個客戶端。所有客戶端都連接到代理，代理根據需要將消息路由到相關客戶端。消息是通過命名主題進行路由，而不是直接發送到個別客戶端。客戶端可以發布到某個主題，任何訂閱該主題的客戶端都會接收到消息。
 
-![IoT 設備在 /telemetry 主題上發布遙測數據，雲端服務訂閱該主題](../../../../../translated_images/tw/mqtt.cbf7f21d9adc3e17548b359444cc11bb4bf2010543e32ece9a47becf54438c23.png)
+![IoT 設備在 /telemetry 主題上發布遙測數據，雲端服務訂閱該主題](../../../../../translated_images/zh-TW/mqtt.cbf7f21d9adc3e17548b359444cc11bb4bf2010543e32ece9a47becf54438c23.png)
 
 ✅ 做些研究。如果您有大量 IoT 設備，如何確保您的 MQTT 代理能夠處理所有消息？
 
@@ -78,7 +78,7 @@ MQTT 有一個單一的代理和多個客戶端。所有客戶端都連接到代
 
 > 💁 此測試代理是公開且不安全的。任何人都可能在監聽您發布的內容，因此不應用於需要保密的數據。
 
-![作業的流程圖，顯示光線水平的讀取和檢查，以及 LED 的控制](../../../../../translated_images/tw/assignment-1-internet-flow.3256feab5f052fd273bf4e331157c574c2c3fa42e479836fc9c3586f41db35a5.png)
+![作業的流程圖，顯示光線水平的讀取和檢查，以及 LED 的控制](../../../../../translated_images/zh-TW/assignment-1-internet-flow.3256feab5f052fd273bf4e331157c574c2c3fa42e479836fc9c3586f41db35a5.png)
 
 按照以下相關步驟將您的設備連接到 MQTT 代理：
 
@@ -115,7 +115,7 @@ MQTT 連接可以是公開和開放的，也可以通過用戶名和密碼或證
 
 讓我們回顧一下課程1中的智能溫控器示例。
 
-![使用多個房間傳感器的互聯網連接溫控器](../../../../../translated_images/tw/telemetry.21e5d8b97649d2eb.webp)
+![使用多個房間傳感器的互聯網連接溫控器](../../../../../translated_images/zh-TW/telemetry.21e5d8b97649d2eb.webp)
 
 溫控器具有溫度傳感器以收集遙測數據。它很可能內置一個溫度傳感器，並可能通過無線協議（如 [藍牙低功耗](https://wikipedia.org/wiki/Bluetooth_Low_Energy) (BLE)）連接到多個外部溫度傳感器。
 
@@ -267,11 +267,11 @@ Python 的一個強大功能是能夠安裝 [pip 套件](https://pypi.org)——
 
 1. 當 VS Code 啟動時，它將啟動 Python 虛擬環境。這會顯示在底部狀態列中：
 
-    ![VS Code 顯示選擇的虛擬環境](../../../../../translated_images/tw/vscode-virtual-env.8ba42e04c3d533cf.webp)
+    ![VS Code 顯示選擇的虛擬環境](../../../../../translated_images/zh-TW/vscode-virtual-env.8ba42e04c3d533cf.webp)
 
 1. 如果 VS Code Terminal 在 VS Code 啟動時已經在運行，它將不會啟動虛擬環境。最簡單的方式是使用 **Kill the active terminal instance** 按鈕關閉終端：
 
-    ![VS Code Kill the active terminal instance 按鈕](../../../../../translated_images/tw/vscode-kill-terminal.1cc4de7c6f25ee08.webp)
+    ![VS Code Kill the active terminal instance 按鈕](../../../../../translated_images/zh-TW/vscode-kill-terminal.1cc4de7c6f25ee08.webp)
 
 1. 通過選擇 *Terminal -> New Terminal* 或按下 `` CTRL+` `` 啟動新的 VS Code Terminal。新的終端將載入虛擬環境，啟動指令會顯示在終端中。虛擬環境的名稱（`.venv`）也會顯示在提示符中：
 
@@ -359,7 +359,7 @@ Python 的一個強大功能是能夠安裝 [pip 套件](https://pypi.org)——
 
 IoT 裝置設計者還應考慮 IoT 裝置在網路中斷或因位置導致信號丟失時是否仍能使用。一個智慧溫控器應該能在無法將 telemetry 發送到雲端的情況下做出有限的決策來控制加熱。
 
-[![這輛法拉利因為有人在地下室嘗試升級而變磚了，因為沒有手機信號](../../../../../translated_images/tw/bricked-car.dc38f8efadc6c59d76211f981a521efb300939283dee468f79503aae3ec67615.png)](https://twitter.com/internetofshit/status/1315736960082808832)
+[![這輛法拉利因為有人在地下室嘗試升級而變磚了，因為沒有手機信號](../../../../../translated_images/zh-TW/bricked-car.dc38f8efadc6c59d76211f981a521efb300939283dee468f79503aae3ec67615.png)](https://twitter.com/internetofshit/status/1315736960082808832)
 
 為了讓 MQTT 處理連線中斷，裝置和伺服器程式碼需要負責確保訊息的傳遞，例如要求所有發送的訊息都需要在回覆主題上收到回覆訊息，如果沒有收到回覆，則手動排隊以便稍後重播。
 
@@ -367,7 +367,7 @@ IoT 裝置設計者還應考慮 IoT 裝置在網路中斷或因位置導致信�
 
 指令是由雲端發送到裝置的訊息，指示它執行某些操作。大多數情況下，這涉及通過致動器提供某種輸出，但也可以是對裝置本身的指令，例如重新啟動或收集額外的 telemetry 並將其作為指令的回應返回。
 
-![一個連接到網路的溫控器接收到開啟加熱的指令](../../../../../translated_images/tw/commands.d6c06bbbb3a02cce95f2831a1c331daf6dedd4e470c4aa2b0ae54f332016e504.png)
+![一個連接到網路的溫控器接收到開啟加熱的指令](../../../../../translated_images/zh-TW/commands.d6c06bbbb3a02cce95f2831a1c331daf6dedd4e470c4aa2b0ae54f332016e504.png)
 
 溫控器可以接收到來自雲端的指令以開啟加熱。根據所有感測器的 telemetry 數據，如果雲端服務決定加熱應該開啟，它就會發送相關指令。
 

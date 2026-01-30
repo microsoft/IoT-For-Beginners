@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "012bbd19f13171be32ac9ba21d4186c2",
-  "translation_date": "2025-08-26T13:53:18+00:00",
-  "source_file": "recommended-learning-model.md",
-  "language_code": "es"
-}
--->
 # Modelo de aprendizaje recomendado
 
 Para obtener los resultados de aprendizaje más efectivos, **recomendamos un enfoque de “Modelo Invertido"** similar a los laboratorios de ciencias: los estudiantes trabajan en proyectos durante el tiempo de clase, con oportunidades para discusiones, preguntas y respuestas, y asistencia en los proyectos, mientras que los elementos de las lecciones se realizan como lecturas previas en su propio tiempo.

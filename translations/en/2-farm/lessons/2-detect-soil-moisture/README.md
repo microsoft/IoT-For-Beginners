@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "4fb20273d299dc8d07a8f06c9cd0cdd9",
-  "translation_date": "2025-08-28T20:19:53+00:00",
-  "source_file": "2-farm/lessons/2-detect-soil-moisture/README.md",
-  "language_code": "en"
-}
--->
 C, pronounced *I-squared-C*, is a multi-controller, multi-peripheral protocol, where any connected device can act as a controller or peripheral, communicating over the I²C bus (the name for the communication system that transfers data). Data is sent as addressed packets, with each packet containing the address of the connected device it is intended for.
 
 > 💁 This model used to be referred to as master/slave, but this terminology is being phased out due to its association with slavery. The [Open Source Hardware Association has adopted controller/peripheral](https://www.oshwa.org/a-resolution-to-redefine-spi-signal-names/), but you may still encounter references to the old terminology.

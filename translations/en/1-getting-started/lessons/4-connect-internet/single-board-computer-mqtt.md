@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "90fb93446e03c38f3c0e4009c2471906",
-  "translation_date": "2025-08-28T19:58:23+00:00",
-  "source_file": "1-getting-started/lessons/4-connect-internet/single-board-computer-mqtt.md",
-  "language_code": "en"
-}
--->
 # Control your nightlight over the Internet - Virtual IoT Hardware and Raspberry Pi
 
 The IoT device needs to be programmed to communicate with *test.mosquitto.org* using MQTT to send telemetry data with the light sensor readings and receive commands to control the LED.

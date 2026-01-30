@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "e978534a245b000725ed2a048f943213",
-  "translation_date": "2025-08-28T19:34:33+00:00",
-  "source_file": "3-transport/README.md",
-  "language_code": "en"
-}
--->
 # Transport from farm to factory - using IoT to track food deliveries
 
 Many farmers grow food to sell—either they are commercial farmers who sell everything they grow, or they are subsistence farmers who sell their surplus to buy necessities. Somehow, the food needs to get from the farm to the consumer, and this usually involves bulk transport from farms to hubs or processing plants, and then to stores. For example, a tomato farmer will harvest tomatoes, pack them into boxes, load the boxes onto a truck, and deliver them to a processing plant. The tomatoes are then sorted and delivered to consumers as processed food, retail products, or served in restaurants.

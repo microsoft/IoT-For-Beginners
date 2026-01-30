@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "8df310a42f902139a01417dacb1ffbef",
-  "translation_date": "2025-08-26T14:05:26+00:00",
-  "source_file": "5-retail/lessons/1-train-stock-detector/README.md",
-  "language_code": "es"
-}
--->
 # Entrena un detector de existencias
 
 ![Una vista general ilustrada de esta lección](../../../../../translated_images/es/lesson-19.cf6973cecadf080c4b526310620dc4d6f5994c80fb0139c6f378cc9ca2d435cd.jpg)
