@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "c527ce85d69b1a3875366ec61cbed8aa",
-  "translation_date": "2025-08-28T13:52:26+00:00",
-  "source_file": "1-getting-started/lessons/4-connect-internet/single-board-computer-commands.md",
-  "language_code": "sr"
-}
--->
 # Контролишите своје ноћно светло преко интернета - Виртуелни IoT хардвер и Raspberry Pi
 
 У овом делу лекције, претплатићете се на команде које се шаљу са MQTT брокера на ваш Raspberry Pi или виртуелни IoT уређај.

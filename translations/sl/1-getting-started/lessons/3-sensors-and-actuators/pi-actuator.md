@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "4db8a3879a53490513571df2f6cf7641",
-  "translation_date": "2025-08-28T14:13:46+00:00",
-  "source_file": "1-getting-started/lessons/3-sensors-and-actuators/pi-actuator.md",
-  "language_code": "sl"
-}
--->
 # Ustvarite nočno lučko - Raspberry Pi
 
 V tem delu lekcije boste na svoj Raspberry Pi dodali LED in ga uporabili za izdelavo nočne lučke.

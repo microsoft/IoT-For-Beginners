@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "64ad4ddb4de81a18b7252e968f10b404",
-  "translation_date": "2025-08-28T12:48:29+00:00",
-  "source_file": "6-consumer/lessons/3-spoken-feedback/single-board-computer-set-timer.md",
-  "language_code": "sl"
-}
--->
 # Nastavite časovnik - Virtualna IoT strojna oprema in Raspberry Pi
 
 V tem delu lekcije boste poklicali svojo strežniško kodo, da razumete govor, in nastavili časovnik na svoji virtualni IoT napravi ali Raspberry Pi glede na rezultate.

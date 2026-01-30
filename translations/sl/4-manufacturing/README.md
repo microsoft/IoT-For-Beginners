@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "3764e089adf2d5801272bc0895f8498b",
-  "translation_date": "2025-08-28T12:03:50+00:00",
-  "source_file": "4-manufacturing/README.md",
-  "language_code": "sl"
-}
--->
 # Proizvodnja in predelava - uporaba IoT za izboljšanje predelave hrane
 
 Ko hrana prispe v centralno skladišče ali predelovalni obrat, se ne pošlje vedno neposredno v supermarkete. Pogosto hrana preide skozi več predelovalnih korakov, kot je na primer razvrščanje po kakovosti. To je bil proces, ki je bil nekoč ročen - začel se je na polju, kjer so nabiralci pobirali le zrelo sadje, nato pa je v tovarni sadje potovalo po tekočem traku, kjer so zaposleni ročno odstranjevali poškodovano ali gnilo sadje. Ker sem sam med šolskimi počitnicami kot poletno delo nabiral in razvrščal jagode, lahko potrdim, da to ni zabavno delo.

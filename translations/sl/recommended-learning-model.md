@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "012bbd19f13171be32ac9ba21d4186c2",
-  "translation_date": "2025-08-28T11:52:48+00:00",
-  "source_file": "recommended-learning-model.md",
-  "language_code": "sl"
-}
--->
 # Priporočen učni model
 
 Za najbolj učinkovite učne rezultate **priporočamo pristop "Obrnjenega modela"**, podobno kot v znanstvenih laboratorijih: učenci delajo na projektih med poukom, z možnostjo razprave, vprašanj in pomoči pri projektih, medtem ko predavanja opravijo kot samostojno pripravo v svojem času.

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "fbbcf96a9b63ccd661db98bbf854bb06",
-  "translation_date": "2025-08-28T13:17:31+00:00",
-  "source_file": "3-transport/lessons/1-location-tracking/wio-terminal-gps-decode.md",
-  "language_code": "sr"
-}
--->
 # Декодирање GPS података - Wio Terminal
 
 У овом делу лекције, декодираћете NMEA поруке које GPS сензор чита преко Wio Terminal-а и извући географску ширину и дужину.

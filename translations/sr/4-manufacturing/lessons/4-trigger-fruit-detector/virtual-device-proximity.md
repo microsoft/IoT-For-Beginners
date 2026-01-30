@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "7e9f05bdc50a40fd924b1d66934471bf",
-  "translation_date": "2025-08-28T12:14:37+00:00",
-  "source_file": "4-manufacturing/lessons/4-trigger-fruit-detector/virtual-device-proximity.md",
-  "language_code": "sr"
-}
--->
 # Детектовање близине - Виртуелни IoT хардвер
 
 У овом делу лекције, додаћете сензор близине вашем виртуелном IoT уређају и читати растојање са њега.

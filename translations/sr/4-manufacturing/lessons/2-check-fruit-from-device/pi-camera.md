@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "c677667095f6133eee418c7e53615d05",
-  "translation_date": "2025-08-28T12:25:46+00:00",
-  "source_file": "4-manufacturing/lessons/2-check-fruit-from-device/pi-camera.md",
-  "language_code": "sr"
-}
--->
 # Снимање слике - Raspberry Pi
 
 У овом делу лекције, додаћете сензор камере на ваш Raspberry Pi и читати слике са њега.

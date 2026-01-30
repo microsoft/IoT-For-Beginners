@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "8ff0d0a1d29832bb896b9c103b69a452",
-  "translation_date": "2025-08-28T14:02:29+00:00",
-  "source_file": "1-getting-started/lessons/1-introduction-to-iot/pi.md",
-  "language_code": "sr"
-}
--->
 # Распбери Пај
 
 [Распбери Пај](https://raspberrypi.org) је рачунар на једној плочи. Можете додати сензоре и актуаторе користећи широк спектар уређаја и екосистема, а за ове лекције користићемо хардверски екосистем под називом [Grove](https://www.seeedstudio.com/category/Grove-c-1003.html). Програмираћете свој Пај и приступати Grove сензорима користећи Python.

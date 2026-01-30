@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "9bae08314d8487cb76ddf3d8797e1544",
-  "translation_date": "2025-08-28T13:55:08+00:00",
-  "source_file": "1-getting-started/lessons/1-introduction-to-iot/README.md",
-  "language_code": "sr"
-}
--->
 # Увод у Интернет ствари (IoT)
 
 ![Преглед лекције у виду скице](../../../../../translated_images/sr/lesson-1.2606670fa61ee904687da5d6fa4e726639d524d064c895117da1b95b9ff6251d.jpg)

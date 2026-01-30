@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "3f92edf2975175577174910caca4a389",
-  "translation_date": "2025-08-28T13:03:19+00:00",
-  "source_file": "6-consumer/lessons/1-speech-recognition/wio-terminal-speech-to-text.md",
-  "language_code": "sl"
-}
--->
 # Pretvorba govora v besedilo - Wio Terminal
 
 V tem delu lekcije boste napisali kodo za pretvorbo govora v zajetem zvoku v besedilo z uporabo storitve za govor.

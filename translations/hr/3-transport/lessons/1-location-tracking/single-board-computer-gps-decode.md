@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "cbb8c285bc64c5192fae3368fb5077d2",
-  "translation_date": "2025-08-28T13:19:17+00:00",
-  "source_file": "3-transport/lessons/1-location-tracking/single-board-computer-gps-decode.md",
-  "language_code": "hr"
-}
--->
 # Dekodiranje GPS podataka - Virtualni IoT hardver i Raspberry Pi
 
 U ovom dijelu lekcije dekodirat ćete NMEA poruke koje čita GPS senzor putem Raspberry Pi uređaja ili Virtualnog IoT uređaja te izvući geografske širine i dužine.

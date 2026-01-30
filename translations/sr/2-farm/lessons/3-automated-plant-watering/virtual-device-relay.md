@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "f8f541ee945545017a51aaf309aa37c3",
-  "translation_date": "2025-08-28T15:22:03+00:00",
-  "source_file": "2-farm/lessons/3-automated-plant-watering/virtual-device-relay.md",
-  "language_code": "sr"
-}
--->
 # Контрола релеја - Виртуелни IoT хардвер
 
 У овом делу лекције, додаћете релеј свом виртуелном IoT уређају поред сензора за влажност земљишта и контролисати га на основу нивоа влажности земљишта.

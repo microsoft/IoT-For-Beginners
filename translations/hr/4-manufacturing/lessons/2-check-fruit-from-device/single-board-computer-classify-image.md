@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "e5896207b304ce1abaf065b8acc0cc79",
-  "translation_date": "2025-08-28T12:31:33+00:00",
-  "source_file": "4-manufacturing/lessons/2-check-fruit-from-device/single-board-computer-classify-image.md",
-  "language_code": "hr"
-}
--->
 # Klasificirajte sliku - Virtualni IoT hardver i Raspberry Pi
 
 U ovom dijelu lekcije, poslat ćete sliku snimljenu kamerom usluzi Custom Vision kako biste je klasificirali.

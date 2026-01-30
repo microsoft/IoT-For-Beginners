@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "9fd36f5dc734203ee28b6cf2573e5eab",
-  "translation_date": "2025-08-28T12:02:05+00:00",
-  "source_file": "for-teachers.md",
-  "language_code": "sl"
-}
--->
 # Za učitelje
 
 Bi želeli uporabiti ta učni načrt v svoji učilnici? Kar izvolite!

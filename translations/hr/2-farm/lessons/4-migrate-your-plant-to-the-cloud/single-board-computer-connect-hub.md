@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "3ac42e284a7222c0e83d2d43231a364f",
-  "translation_date": "2025-08-28T15:03:28+00:00",
-  "source_file": "2-farm/lessons/4-migrate-your-plant-to-the-cloud/single-board-computer-connect-hub.md",
-  "language_code": "hr"
-}
--->
 # Povežite svoj IoT uređaj s oblakom - Virtualni IoT hardver i Raspberry Pi
 
 U ovom dijelu lekcije, povezat ćete svoj virtualni IoT uređaj ili Raspberry Pi s IoT Hubom kako biste slali telemetriju i primali naredbe.

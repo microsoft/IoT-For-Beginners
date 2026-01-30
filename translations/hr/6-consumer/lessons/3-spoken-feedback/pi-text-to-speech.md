@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "606f3af1c78e3741e48ce77c31cea626",
-  "translation_date": "2025-08-28T12:45:53+00:00",
-  "source_file": "6-consumer/lessons/3-spoken-feedback/pi-text-to-speech.md",
-  "language_code": "hr"
-}
--->
 # Pretvaranje teksta u govor - Raspberry Pi
 
 U ovom dijelu lekcije napisat ćete kod za pretvaranje teksta u govor koristeći uslugu govora.

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "4efc74299e19f5d08f2f3f34451a11ba",
-  "translation_date": "2025-08-28T15:14:27+00:00",
-  "source_file": "2-farm/lessons/1-predict-plant-growth/single-board-computer-temp-publish.md",
-  "language_code": "sl"
-}
--->
 # Objavljanje temperature - Virtualna IoT strojna oprema in Raspberry Pi
 
 V tem delu lekcije boste objavili vrednosti temperature, ki jih zazna Raspberry Pi ali virtualna IoT naprava prek MQTT, da jih boste lahko kasneje uporabili za izračun GDD.

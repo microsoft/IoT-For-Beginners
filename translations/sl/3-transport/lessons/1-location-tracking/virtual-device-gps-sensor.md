@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "64f18a8f8aaa1fef5e7320e0992d8b3a",
-  "translation_date": "2025-08-28T13:20:32+00:00",
-  "source_file": "3-transport/lessons/1-location-tracking/virtual-device-gps-sensor.md",
-  "language_code": "sl"
-}
--->
 # Branje GPS podatkov - Virtualna IoT strojna oprema
 
 V tem delu lekcije boste svoji virtualni IoT napravi dodali GPS senzor in prebrali vrednosti iz njega.

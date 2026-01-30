@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "4506d33bbda7acc0ab20980172687090",
-  "translation_date": "2025-08-28T11:59:31+00:00",
-  "source_file": "attributions.md",
-  "language_code": "sr"
-}
--->
 # Атрибуција слика
 
 * Банане од abderraouf omara са [Noun Project](https://thenounproject.com)

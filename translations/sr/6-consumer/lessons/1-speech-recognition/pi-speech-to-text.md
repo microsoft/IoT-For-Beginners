@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "af249a24d4fe4f4de4806adbc3bc9d86",
-  "translation_date": "2025-08-28T12:57:32+00:00",
-  "source_file": "6-consumer/lessons/1-speech-recognition/pi-speech-to-text.md",
-  "language_code": "sr"
-}
--->
 # Претварање говора у текст - Raspberry Pi
 
 У овом делу лекције, написаћете код за претварање говора из снимљеног аудио записа у текст користећи услугу за говор.

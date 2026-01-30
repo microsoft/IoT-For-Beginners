@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "8ff0d0a1d29832bb896b9c103b69a452",
-  "translation_date": "2025-08-28T14:04:40+00:00",
-  "source_file": "1-getting-started/lessons/1-introduction-to-iot/pi.md",
-  "language_code": "sl"
-}
--->
 # Raspberry Pi
 
 [Raspberry Pi](https://raspberrypi.org) je enokartični računalnik. Senzorje in aktuatorje lahko dodate z uporabo širokega nabora naprav in ekosistemov, za te lekcije pa bomo uporabili strojni ekosistem, imenovan [Grove](https://www.seeedstudio.com/category/Grove-c-1003.html). Raspberry Pi boste programirali in dostopali do Grove senzorjev z uporabo Pythona.

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "f3c5d8afa2ef6a0b425ef8ff20615cb4",
-  "translation_date": "2025-08-28T15:24:45+00:00",
-  "source_file": "2-farm/lessons/3-automated-plant-watering/wio-terminal-relay.md",
-  "language_code": "sl"
-}
--->
 # Upravljanje releja - Wio Terminal
 
 V tem delu lekcije boste poleg senzorja za vlažnost tal dodali rele na vaš Wio Terminal in ga upravljali glede na raven vlažnosti tal.

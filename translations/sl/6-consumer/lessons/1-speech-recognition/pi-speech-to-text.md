@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "af249a24d4fe4f4de4806adbc3bc9d86",
-  "translation_date": "2025-08-28T12:58:08+00:00",
-  "source_file": "6-consumer/lessons/1-speech-recognition/pi-speech-to-text.md",
-  "language_code": "sl"
-}
--->
 # Pretvorba govora v besedilo - Raspberry Pi
 
 V tem delu lekcije boste napisali kodo za pretvorbo govora iz zajetega zvoka v besedilo z uporabo storitve za prepoznavanje govora.

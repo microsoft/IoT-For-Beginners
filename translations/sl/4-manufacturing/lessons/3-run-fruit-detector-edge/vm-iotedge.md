@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "24dc783a600e20251211987b36370e93",
-  "translation_date": "2025-08-28T12:21:24+00:00",
-  "source_file": "4-manufacturing/lessons/3-run-fruit-detector-edge/vm-iotedge.md",
-  "language_code": "sl"
-}
--->
 # Ustvarite virtualni stroj z IoT Edge
 
 V Azure lahko ustvarite virtualni stroj - računalnik v oblaku, ki ga lahko konfigurirate po svojih željah in na njem zaženete svojo programsko opremo.

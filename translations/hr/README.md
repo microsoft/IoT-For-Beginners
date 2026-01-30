@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "6c354ec3487e4f6cfafbe44557996cd9",
-  "translation_date": "2026-01-06T21:25:27+00:00",
-  "source_file": "README.md",
-  "language_code": "hr"
-}
--->
 [![GitHub license](https://img.shields.io/github/license/microsoft/IoT-For-Beginners.svg)](https://github.com/microsoft/IoT-For-Beginners/blob/master/LICENSE)
 [![GitHub contributors](https://img.shields.io/github/contributors/microsoft/IoT-For-Beginners.svg)](https://GitHub.com/microsoft/IoT-For-Beginners/graphs/contributors/)
 [![GitHub issues](https://img.shields.io/github/issues/microsoft/IoT-For-Beginners.svg)](https://GitHub.com/microsoft/IoT-For-Beginners/issues/)
@@ -17,53 +8,53 @@ CO_OP_TRANSLATOR_METADATA:
 [![GitHub forks](https://img.shields.io/github/forks/microsoft/IoT-For-Beginners.svg?style=social&label=Fork)](https://GitHub.com/microsoft/IoT-For-Beginners/network/)
 [![GitHub stars](https://img.shields.io/github/stars/microsoft/IoT-For-Beginners.svg?style=social&label=Star)](https://GitHub.com/microsoft/IoT-For-Beginners/stargazers/)
 
-### Pridružite se Azure AI Foundry Zajednici
+### Pridružite se zajednici Azure AI Foundry
 
-Ako zapnete ili imate bilo kakva pitanja o izgradnji AI aplikacija. Pridružite se kolegama učenicima i iskusnim programerima u raspravama o MCP-u. To je podržavajuća zajednica u kojoj su pitanja dobrodošla i gdje se znanje slobodno dijeli.
+Ako zapnete ili imate pitanja o izradi AI aplikacija. Pridružite se drugim učenicima i iskusnim programerima u raspravama o MCP-u. To je podržavajuća zajednica u kojoj su pitanja dobrodošla, a znanje se slobodno dijeli.
 
 [![Microsoft Foundry Discord](https://dcbadge.limes.pink/api/server/nTYy5BXMWG)](https://discord.gg/nTYy5BXMWG)
 
-Ako imate povratnu informaciju o proizvodu ili prijavite greške tijekom izrade posjetite:
+Ako imate povratne informacije o proizvodu ili greške tijekom izrade, posjetite:
 
 [![Microsoft Foundry Developer Forum](https://img.shields.io/badge/GitHub-Microsoft_Foundry_Developer_Forum-blue?style=for-the-badge&logo=github&color=000000&logoColor=fff)](https://aka.ms/foundry/forum)
 
-Slijedite ove korake za početak korištenja ovih resursa:
-1. **Napravite fork repozitorija**: Kliknite [![GitHub forks](https://img.shields.io/github/forks/microsoft/IoT-For-Beginners.svg?style=social&label=Fork)](https://GitHub.com/microsoft/IoT-For-Beginners/fork)
-2. **Klonirajte repozitorij**:   `git clone https://github.com/microsoft/IoT-For-Beginners.git`
-3. [**Pridružite se Microsoft Foundry Discordu i upoznajte stručnjake i kolege programere**](https://discord.com/invite/ByRwuEEgH4)
+Slijedite ove korake da biste započeli s korištenjem ovih resursa:
+1. **Forkajte repozitorij**: Kliknite [![GitHub forks](https://img.shields.io/github/forks/microsoft/IoT-For-Beginners.svg?style=social&label=Fork)](https://GitHub.com/microsoft/IoT-For-Beginners/fork)
+2. **Kloni repozitorij**:   `git clone https://github.com/microsoft/IoT-For-Beginners.git`
+3. [**Pridružite se Microsoft Foundry Discordu i upoznajte stručnjake i druge programere**](https://discord.com/invite/ByRwuEEgH4)
 
 
-### 🌐 Višejezična Podrška
+### 🌐 Višejezična podrška
 
-#### Podržano putem GitHub Action (Automatski i Uvijek Ažurirano)
+#### Podržano putem GitHub akcije (automatizirano i uvijek ažurno)
 
 <!-- CO-OP TRANSLATOR LANGUAGES TABLE START -->
-[Arabic](../ar/README.md) | [Bengali](../bn/README.md) | [Bulgarian](../bg/README.md) | [Burmese (Myanmar)](../my/README.md) | [Chinese (Simplified)](../zh/README.md) | [Chinese (Traditional, Hong Kong)](../hk/README.md) | [Chinese (Traditional, Macau)](../mo/README.md) | [Chinese (Traditional, Taiwan)](../tw/README.md) | [Croatian](./README.md) | [Czech](../cs/README.md) | [Danish](../da/README.md) | [Dutch](../nl/README.md) | [Estonian](../et/README.md) | [Finnish](../fi/README.md) | [French](../fr/README.md) | [German](../de/README.md) | [Greek](../el/README.md) | [Hebrew](../he/README.md) | [Hindi](../hi/README.md) | [Hungarian](../hu/README.md) | [Indonesian](../id/README.md) | [Italian](../it/README.md) | [Japanese](../ja/README.md) | [Kannada](../kn/README.md) | [Korean](../ko/README.md) | [Lithuanian](../lt/README.md) | [Malay](../ms/README.md) | [Malayalam](../ml/README.md) | [Marathi](../mr/README.md) | [Nepali](../ne/README.md) | [Nigerian Pidgin](../pcm/README.md) | [Norwegian](../no/README.md) | [Persian (Farsi)](../fa/README.md) | [Polish](../pl/README.md) | [Portuguese (Brazil)](../br/README.md) | [Portuguese (Portugal)](../pt/README.md) | [Punjabi (Gurmukhi)](../pa/README.md) | [Romanian](../ro/README.md) | [Russian](../ru/README.md) | [Serbian (Cyrillic)](../sr/README.md) | [Slovak](../sk/README.md) | [Slovenian](../sl/README.md) | [Spanish](../es/README.md) | [Swahili](../sw/README.md) | [Swedish](../sv/README.md) | [Tagalog (Filipino)](../tl/README.md) | [Tamil](../ta/README.md) | [Telugu](../te/README.md) | [Thai](../th/README.md) | [Turkish](../tr/README.md) | [Ukrainian](../uk/README.md) | [Urdu](../ur/README.md) | [Vietnamese](../vi/README.md)
+[Arabic](../ar/README.md) | [Bengali](../bn/README.md) | [Bulgarian](../bg/README.md) | [Burmese (Myanmar)](../my/README.md) | [Chinese (Simplified)](../zh-CN/README.md) | [Chinese (Traditional, Hong Kong)](../zh-HK/README.md) | [Chinese (Traditional, Macau)](../zh-MO/README.md) | [Chinese (Traditional, Taiwan)](../zh-TW/README.md) | [Croatian](./README.md) | [Czech](../cs/README.md) | [Danish](../da/README.md) | [Dutch](../nl/README.md) | [Estonian](../et/README.md) | [Finnish](../fi/README.md) | [French](../fr/README.md) | [German](../de/README.md) | [Greek](../el/README.md) | [Hebrew](../he/README.md) | [Hindi](../hi/README.md) | [Hungarian](../hu/README.md) | [Indonesian](../id/README.md) | [Italian](../it/README.md) | [Japanese](../ja/README.md) | [Kannada](../kn/README.md) | [Korean](../ko/README.md) | [Lithuanian](../lt/README.md) | [Malay](../ms/README.md) | [Malayalam](../ml/README.md) | [Marathi](../mr/README.md) | [Nepali](../ne/README.md) | [Nigerian Pidgin](../pcm/README.md) | [Norwegian](../no/README.md) | [Persian (Farsi)](../fa/README.md) | [Polish](../pl/README.md) | [Portuguese (Brazil)](../pt-BR/README.md) | [Portuguese (Portugal)](../pt-PT/README.md) | [Punjabi (Gurmukhi)](../pa/README.md) | [Romanian](../ro/README.md) | [Russian](../ru/README.md) | [Serbian (Cyrillic)](../sr/README.md) | [Slovak](../sk/README.md) | [Slovenian](../sl/README.md) | [Spanish](../es/README.md) | [Swahili](../sw/README.md) | [Swedish](../sv/README.md) | [Tagalog (Filipino)](../tl/README.md) | [Tamil](../ta/README.md) | [Telugu](../te/README.md) | [Thai](../th/README.md) | [Turkish](../tr/README.md) | [Ukrainian](../uk/README.md) | [Urdu](../ur/README.md) | [Vietnamese](../vi/README.md)
 
-> **Radije klonirati lokalno?**
+> **Želite li radije klonirati lokalno?**
 
-> Ovaj repozitorij uključuje više od 50 prijevoda jezika što značajno povećava veličinu preuzimanja. Za kloniranje bez prijevoda, koristite sparse checkout:
+> Ovaj repozitorij uključuje prijevode na 50+ jezika što znatno povećava veličinu preuzimanja. Da biste klonirali bez prijevoda, koristite sparse checkout:
 > ```bash
 > git clone --filter=blob:none --sparse https://github.com/microsoft/IoT-For-Beginners.git
 > cd IoT-For-Beginners
 > git sparse-checkout set --no-cone '/*' '!translations' '!translated_images'
 > ```
-> Ovo vam daje sve što vam je potrebno za završetak tečaja uz puno brže preuzimanje.
+> Ovo vam daje sve što vam treba za završetak tečaja uz puno brže preuzimanje.
 <!-- CO-OP TRANSLATOR LANGUAGES TABLE END -->
 
-# IoT za početnike - Kurikulum
+# IoT za početnike - Nastavni plan i program
 
-Azure Cloud zagovornici iz Microsofta s veseljem nude 12-tjedni, 24-poglavni kurikulum koji se bavi osnovama IoT-a. Svako poglavlje uključuje prethodni i naknadni kviz, pisane upute za dovršetak lekcije, rješenje, zadatak i još mnogo toga. Naša pedagoška metoda utemeljena na projektima omogućuje učenje kroz izgradnju, dokazani način za 'učvršćivanje' novih vještina.
+Zagovornici Azure oblaka u Microsoftu s veseljem nude 12-tjedni, 24-poglavni nastavni plan posvećen osnovama IoT-a. Svaka lekcija uključuje kvizove prije i poslije lekcije, pisane upute za dovršetak lekcije, rješenje, zadatak i još mnogo toga. Naša pedagoška metoda usmjerena na projekte omogućuje vam učenje kroz izgradnju, što je dokazan način za trajno usvajanje novih vještina.
 
-Projektima se pokriva put hrane od farme do stola. To uključuje poljoprivredu, logistiku, proizvodnju, maloprodaju i krajnjeg potrošača - sve popularna industrijska područja za IoT uređaje.
+Projekti pokrivaju put hrane s farme do stola. To uključuje poljoprivredu, logistiku, proizvodnju, maloprodaju i potrošača - sve popularna industrijska područja za IoT uređaje.
 
-![Karta puta za tečaj s 24 lekcije koje pokrivaju uvod, poljoprivredu, transport, obradu, maloprodaju i kuhanje](../../translated_images/hr/Roadmap.bb1dec285dda0eda.webp)
+![Karta puta tečaja koji prikazuje 24 lekcije o uvodu, poljoprivredi, transportu, preradi, maloprodaji i kuhanju](../../translated_images/hr/Roadmap.bb1dec285dda0eda.webp)
 
-> Sketchnote autor [Nitya Narasimhan](https://github.com/nitya). Kliknite sliku za veću verziju.
+> Sketchnote autorice [Nitya Narasimhan](https://github.com/nitya). Kliknite sliku za veću verziju.
 
-**Iskrena hvala našim autorima [Jen Fox](https://github.com/jenfoxbot), [Jen Looper](https://github.com/jlooper), [Jim Bennett](https://github.com/jimbobbennett), i našem umjetniku sketchnotea [Nitya Narasimhan](https://github.com/nitya).**
+**Iskrena hvala našim autorima [Jen Fox](https://github.com/jenfoxbot), [Jen Looper](https://github.com/jlooper), [Jim Bennett](https://github.com/jimbobbennett) i našoj umjetnici sketchnotea [Nitya Narasimhan](https://github.com/nitya).**
 
-**Također hvala našem timu [Microsoft Learn študentskih ambasadora](https://studentambassadors.microsoft.com?WT.mc_id=academic-17441-jabenn) koji su pregledavali i prevodili ovaj kurikulum - [Aditya Garg](https://github.com/AdityaGarg00), [Anurag Sharma](https://github.com/Anurag-0-1-A), [Arpita Das](https://github.com/Arpiiitaaa), [Aryan Jain](https://www.linkedin.com/in/aryan-jain-47a4a1145/), [Bhavesh Suneja](https://github.com/EliteWarrior315), [Faith Hunja](https://faithhunja.github.io/), [Lateefah Bello](https://www.linkedin.com/in/lateefah-bello/), [Manvi Jha](https://github.com/Severus-Matthew), [Mireille Tan](https://www.linkedin.com/in/mireille-tan-a4834819a/), [Mohammad Iftekher (Iftu) Ebne Jalal](https://github.com/Iftu119), [Mohammad Zulfikar](https://github.com/mohzulfikar), [Priyanshu Srivastav](https://www.linkedin.com/in/priyanshu-srivastav-b067241ba), [Thanmai Gowducheruvu](https://github.com/innovation-platform), i [Zina Kamel](https://www.linkedin.com/in/zina-kamel/).**
+**Hvala također našem timu [Microsoft Learn Student Ambassadors](https://studentambassadors.microsoft.com?WT.mc_id=academic-17441-jabenn) koji su pregledavali i prevodili ovaj nastavni plan - [Aditya Garg](https://github.com/AdityaGarg00), [Anurag Sharma](https://github.com/Anurag-0-1-A), [Arpita Das](https://github.com/Arpiiitaaa), [Aryan Jain](https://www.linkedin.com/in/aryan-jain-47a4a1145/), [Bhavesh Suneja](https://github.com/EliteWarrior315), [Faith Hunja](https://faithhunja.github.io/), [Lateefah Bello](https://www.linkedin.com/in/lateefah-bello/), [Manvi Jha](https://github.com/Severus-Matthew), [Mireille Tan](https://www.linkedin.com/in/mireille-tan-a4834819a/), [Mohammad Iftekher (Iftu) Ebne Jalal](https://github.com/Iftu119), [Mohammad Zulfikar](https://github.com/mohzulfikar), [Priyanshu Srivastav](https://www.linkedin.com/in/priyanshu-srivastav-b067241ba), [Thanmai Gowducheruvu](https://github.com/innovation-platform), i [Zina Kamel](https://www.linkedin.com/in/zina-kamel/).**
 
 Upoznajte tim!
 
@@ -73,9 +64,9 @@ Upoznajte tim!
 
 > 🎥 Kliknite gornju sliku za video o projektu!
 
-> **Nastavnici**, uključili smo [neke prijedloge](for-teachers.md) o tome kako koristiti ovaj kurikulum. Ako želite kreirati vlastite lekcije, uključili smo i [predložak lekcije](lesson-template/README.md).
+> **Nastavnici**, uključili smo neke [prijedloge](for-teachers.md) o tome kako koristiti ovaj nastavni plan. Ako želite stvoriti vlastite lekcije, također imamo [predložak lekcije](lesson-template/README.md).
 
-> **[Učenici](https://aka.ms/student-page)**, za samostalno korištenje ovog kurikuluma, napravite fork cijelog repozitorija i sami dovršite vježbe, počevši s prethodnim kvizom, zatim čitanjem lekcije i dovršavanjem ostalih aktivnosti. Pokušajte kreirati projekte razumijevanjem lekcija radije nego kopiranjem koda rješenja; svejedno taj je kod dostupan u mapama /solutions u svakoj lekciji orijentiranoj na projekte. Još jedna ideja je da osnovate grupu za učenje s prijateljima i zajedno prolazite kroz sadržaj. Za daljnje učenje preporučujemo [Microsoft Learn](https://docs.microsoft.com/users/jimbobbennett/collections/ke2ehd351jopwr?WT.mc_id=academic-17441-jabenn).
+> **[Učenici](https://aka.ms/student-page)**, da biste koristili ovaj nastavni plan samostalno, forkajte cijeli repozitorij i dovršite vježbe sami, počevši s kvizom prije predavanja, zatim pročitajte predavanje i dovršite ostale aktivnosti. Pokušajte kreirati projekte razumijevanjem lekcija umjesto kopiranja koda rješenja; taj kod je međutim dostupan u mapama /solutions u svakoj lekciji usmjerenoj na projekt. Druga ideja je formirati studijsku grupu s prijateljima i zajednički proći sadržaj. Za dodatno učenje preporučujemo [Microsoft Learn](https://docs.microsoft.com/users/jimbobbennett/collections/ke2ehd351jopwr?WT.mc_id=academic-17441-jabenn).
 
 Za video pregled ovog tečaja, pogledajte ovaj video:
 
@@ -85,90 +76,90 @@ Za video pregled ovog tečaja, pogledajte ovaj video:
 
 ## Pedagogija
 
-Odabrali smo dva pedagoška načela pri izradi ovog kurikuluma: osigurati da je baziran na projektima i da uključuje česte kvizove. Na kraju ove serije, studenti će izgraditi sustav za nadzor i zalijevanje biljaka, uređaj za praćenje vozila, pametnu tvornicu za praćenje i kontrolu hrane te timer za kuhanje koji se kontrolira glasom, kao i naučiti osnove Interneta stvari uključujući kako pisati kod za uređaj, povezati se s oblakom, analizirati telemetriju i pokretati AI na rubu mreže.
+Odabrali smo dva pedagoška načela pri izradi ovog nastavnog plana: osigurati da je usmjeren na projekte i da uključuje česte kvizove. Do kraja ove serije studenti će izgraditi sustav za nadzor biljaka i zalijevanje, praćenje vozila, pametnu tvornicu za praćenje i provjeru hrane te timer za kuhanje upravljan glasom, i naučiti osnove Interneta stvari uključujući pisanje koda za uređaje, povezivanje s oblakom, analizu telemetrije i izvođenje AI na rubu.
 
-Time što sadržaj usklađujemo s projektima, proces postaje zanimljiviji učenicima i povećava se zadržavanje koncepata.
+Osiguravajući da sadržaj odgovara projektima, proces je zanimljiviji za studente, a zadržavanje koncepata se povećava.
 
-Osim toga, kviz s niskim rizikom prije nastave postavlja namjeru učenika za učenje teme, dok drugi kviz nakon nastave osigurava dodatnu zadržavanje. Ovaj je kurikulum dizajniran tako da bude fleksibilan i zabavan te se može pohađati u cijelosti ili djelomično. Projekti započinju jednostavni i postaju sve složeniji do kraja 12-tjednog ciklusa.
+Osim toga, kviz niskog rizika prije sata usmjerava namjeru učenika prema učenju teme, dok drugi kviz nakon sata osigurava daljnje zadržavanje znanja. Ovaj je nastavni plan dizajniran da bude fleksibilan i zabavan te se može pratiti u cijelosti ili djelomično. Projekti počinju jednostavno i postaju složeniji do kraja 12-tjednog ciklusa.
 
-Svaki je projekt baziran na stvarnom hardveru dostupnom studentima i hobistima. Svaki projekt proučava specifično područje projekta, pružajući relevantno pozadinsko znanje. Za uspješnog developera pomaže razumjeti domen u kojoj se rješavaju problemi, a pružanjem ovog pozadinskog znanja pomažemo studentima razmišljati o njihovim IoT rješenjima i učenju u kontekstu vrste stvarnog problema kojeg bi mogli trebati riješiti kao IoT developer. Studenti uče 'zašto' rješenja koja grade i stječu cijenjenje krajnjeg korisnika.
+Svaki je projekt baziran na stvarnom hardveru dostupnom studentima i hobistima. Svaki projekt proučava specifičnu domenu projekta, pružajući relevantna osnovna znanja. Da biste bili uspješan programer, korisno je razumjeti domen u kojoj rješavate probleme, a ovo osnovno znanje omogućuje studentima da razmišljaju o svojim IoT rješenjima i učenju u kontekstu stvarnog problema koji bi mogli imati kao IoT programer. Studenti uče 'zašto' rješenja koja grade i dobivaju uvid u krajnjeg korisnika.
 
 ## Hardver
 
-Imamo dva izbora IoT hardvera za korištenje u projektima ovisno o osobnim preferencijama, znanju ili preferencijama programskog jezika, ciljevima učenja i dostupnosti. Također smo osigurali verziju 'virtualnog hardvera' za one koji nemaju pristup hardveru ili žele naučiti više prije nego što se odluče na kupnju. Više možete pročitati i pronaći 'listu za kupovinu' na [hardverskoj stranici](./hardware.md), uključujući poveznice za kupnju kompletnih kitova od naših prijatelja iz Seeed Studija.
-> 💁 Pronađite naša [Pravila ponašanja](CODE_OF_CONDUCT.md), [Upute za doprinos](CONTRIBUTING.md) i [Prijevodne smjernice](TRANSLATIONS.md). Dobrodošli su vaši konstruktivni komentari!
+Imamo dva izbora IoT hardvera za korištenje u projektima ovisno o osobnim preferencijama, znanju programskog jezika, ciljevima učenja i dostupnosti. Također smo osigurali verziju 'virtualnog hardvera' za one koji nemaju pristup hardveru ili žele naučiti više prije kupnje. Više možete pročitati i pronaći 'popis za kupovinu' na [stranici za hardver](./hardware.md), uključujući poveznice za kupnju kompletnih setova od naših prijatelja u Seeed Studio.
+> 💁 Pronađite naše [Kodeks ponašanja](CODE_OF_CONDUCT.md), [Smjernice za doprinos](CONTRIBUTING.md) i [Prevoditeljske smjernice](TRANSLATIONS.md). Veselimo se vašim konstruktivnim povratnim informacijama!
 >
-> 🔧 Imate problema? Pogledajte naš [Vodič za rješavanje problema](TROUBLESHOOTING.md) za rješenja najčešćih problema.
+> 🔧 Imate problema? Pogledajte naš [Vodič za rješavanje problema](TROUBLESHOOTING.md) za rješenja uobičajenih problema.
 
 ## Svaka lekcija uključuje:
 
 - sketchnote
-- opcijski dodatni video
-- zagrijavajući kviz prije lekcije
+- dodatni video po izboru
+- kviz za zagrijavanje prije lekcije
 - pisanu lekciju
-- za lekcije temeljene na projektima, korak-po-korak vodiče kako izgraditi projekt
+- za lekcije temeljene na projektu, vodiče korak po korak kako izgraditi projekt
 - provjere znanja
 - izazov
 - dodatnu literaturu
 - zadatak
 - [kviz nakon lekcije](https://ff-quizzes.netlify.app/en/)
 
-> **Napomena o kvizovima**: Svi su kvizovi sadržani u mapi quiz-app, ukupno 48 kvizova po tri pitanja. Povezani su iz lekcija, ali kviz se može pokretati lokalno ili postaviti na Azure; slijedite upute u mapi `quiz-app`. Postupno se lokaliziraju.
+> **Napomena o kvizovima**: Svi su kvizovi smješteni u mapu quiz-app, ukupno 48 kvizova sa po tri pitanja svaki. Povezani su iz lekcija, ali se aplikacija za kviz može pokrenuti lokalno ili postaviti na Azure; slijedite upute u mapi `quiz-app`. Postupno se lokaliziraju.
 
 ## Lekcije
 
-|       |              Naziv projekta              |                       Pojmovi koji se uče                       | Ciljevi učenja                                                                                                                                                      |                                                         Povezana lekcija                                                         |
-| :---: | :-------------------------------------: | :---------------------------------------------------------------: | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ | :----------------------------------------------------------------------------------------------------------------------------: |
-|  01   | [Početak](./1-getting-started/README.md) |                     Uvod u IoT                                  | Naučite osnovne principe IoT-a i osnovne gradivne blokove IoT rješenja poput senzora i usluga u oblaku dok postavljate svoj prvi IoT uređaj                            |                        [Uvod u IoT](./1-getting-started/lessons/1-introduction-to-iot/README.md)                         |
-|  02   | [Početak](./1-getting-started/README.md) |                   Dublji uvid u IoT                            | Naučite više o komponentama IoT sustava, kao i o mikrokontrolerima i jedinstvenim računalima ploča                                                                |                           [Dublji uvid u IoT](./1-getting-started/lessons/2-deeper-dive/README.md)                         |
-|  03   | [Početak](./1-getting-started/README.md) | Interakcija s fizičkim svijetom pomoću senzora i aktuatora     | Upoznajte senzore za prikupljanje podataka iz fizičkog svijeta i aktuatora za slanje povratnih informacija dok gradite noćno svjetlo                               | [Interakcija s fizičkim svijetom pomoću senzora i aktuatora](./1-getting-started/lessons/3-sensors-and-actuators/README.md) |
-|  04   | [Početak](./1-getting-started/README.md) |             Povežite svoj uređaj s Internetom                   | Naučite kako povezati IoT uređaj s Internetom za slanje i primanje poruka povezivanjem vašeg noćnog svjetla s MQTT poslužiteljem                                    |                 [Povežite svoj uređaj s Internetom](./1-getting-started/lessons/4-connect-internet/README.md)               |
-|  05   |            [Poljoprivreda](./2-farm/README.md)            |                    Predvidi rast biljke                         | Naučite kako predvidjeti rast biljaka pomoću podataka o temperaturi prikupljenih IoT uređajem                                                                       |                           [Predvidi rast biljke](./2-farm/lessons/1-predict-plant-growth/README.md)                          |
-|  06   |            [Poljoprivreda](./2-farm/README.md)            |                    Detekcija vlage tla                          | Naučite kako detektirati vlagu tla i kalibrirati senzor vlage tla                                                                                                  |                           [Detekcija vlage tla](./2-farm/lessons/2-detect-soil-moisture/README.md)                          |
-|  07   |            [Poljoprivreda](./2-farm/README.md)            |                  Automatsko zalijevanje biljaka                | Naučite kako automatizirati i vremenski uskladiti zalijevanje pomoću releja i MQTT-a                                                                              |                       [Automatsko zalijevanje biljaka](./2-farm/lessons/3-automated-plant-watering/README.md)               |
-|  08   |            [Poljoprivreda](./2-farm/README.md)            |               Preselite svoju biljku u oblak                    | Upoznajte oblak i usluge IoT u oblaku te kako povezati svoju biljku s nekim od njih umjesto javnog MQTT poslužitelja                                            |              [Preselite svoju biljku u oblak](./2-farm/lessons/4-migrate-your-plant-to-the-cloud/README.md)                 |
-|  09   |            [Poljoprivreda](./2-farm/README.md)            |         Preselite logiku aplikacije u oblak                    | Upoznajte kako pisati logiku aplikacije u oblaku koja reagira na IoT poruke                                                                                      |          [Preselite logiku aplikacije u oblak](./2-farm/lessons/5-migrate-application-to-the-cloud/README.md)               |
-|  10   |            [Poljoprivreda](./2-farm/README.md)            |                   Osigurajte svoju biljku                      | Saznajte o sigurnosti u IoT-u i kako osigurati svoju biljku pomoću ključeva i certifikata                                                                        |                            [Osigurajte svoju biljku](./2-farm/lessons/6-keep-your-plant-secure/README.md)                     |
-|  11   |       [Transport](./3-transport/README.md)       |                      Praćenje lokacije                         | Naučite o GPS praćenju lokacije za IoT uređaje                                                                                                                    |                         [Praćenje lokacije](./3-transport/lessons/1-location-tracking/README.md)                             |
-|  12   |       [Transport](./3-transport/README.md)       |                     Pohrana podataka lokacije                 | Naučite kako pohraniti IoT podatke za kasniju vizualizaciju ili analizu                                                                                           |                         [Pohrana podataka lokacije](./3-transport/lessons/2-store-location-data/README.md)                   |
-|  13   |       [Transport](./3-transport/README.md)       |                   Vizualizacija podataka lokacije             | Naučite o vizualizaciji podataka o lokaciji na karti i kako karte predstavljaju stvarni 3D svijet u 2 dimenzije                                                  |                     [Vizualizacija podataka o lokaciji](./3-transport/lessons/3-visualize-location-data/README.md)          |
-|  14   |       [Transport](./3-transport/README.md)       |                          Geografske ograde                     | Upoznajte se s geografskim ogradama i kako se koriste za obavještavanje kad su vozila u lancu opskrbe blizu svoje destinacije                                   |                                   [Geografske ograde](./3-transport/lessons/4-geofences/README.md)                         |
-|  15   |   [Proizvodnja](./4-manufacturing/README.md)   |               Obucite detektor kvalitete voća                  | Naučite o obuci klasifikatora slika u oblaku za detekciju kvalitete voća                                                                                        |                [Obucite detektor kvalitete voća](./4-manufacturing/lessons/1-train-fruit-detector/README.md)                 |
-|  16   |   [Proizvodnja](./4-manufacturing/README.md)   |           Provjerite kvalitetu voća iz IoT uređaja            | Upoznajte korištenje detektora kvalitete voća s IoT uređaja                                                                                                     |             [Provjerite kvalitetu voća iz IoT uređaja](./4-manufacturing/lessons/2-check-fruit-from-device/README.md)        |
-|  17   |   [Proizvodnja](./4-manufacturing/README.md)   |             Pokrenite detektor voća na rubu                    | Saznajte kako pokrenuti detektor voća na IoT uređaju na rubu                                                                                                   |             [Pokrenite detektor voća na rubu](./4-manufacturing/lessons/3-run-fruit-detector-edge/README.md)                |
-|  18   |   [Proizvodnja](./4-manufacturing/README.md)   |        Aktivirajte detekciju kvalitete voća sa senzora        | Saznajte kako aktivirati detekciju kvalitete voća sa senzora                                                                                                   |          [Aktivirajte detekciju kvalitete voća sa senzora](./4-manufacturing/lessons/4-trigger-fruit-detector/README.md)     |
-|  19   |          [Maloprodaja](./5-retail/README.md)          |                   Obucite detektor zaliha                     | Naučite koristiti detekciju objekata za treniranje detektora zaliha za brojanje zaliha u trgovini                                                             |                       [Obucite detektor zaliha](./5-retail/lessons/1-train-stock-detector/README.md)                         |
-|  20   |          [Maloprodaja](./5-retail/README.md)          |               Provjerite stanje zaliha s IoT uređaja          | Naučite kako provjeriti stanje zaliha s IoT uređajem koristeći model za detekciju objekata                                                                      |                    [Provjerite stanje zaliha s IoT uređaja](./5-retail/lessons/2-check-stock-device/README.md)               |
-|  21   |        [Potrošači](./6-consumer/README.md)        |             Prepoznajte govor IoT uređajem                   | Naučite kako prepoznati govor s IoT uređaja za izradu pametnog timera                                                                                            |                   [Prepoznajte govor IoT uređajem](./6-consumer/lessons/1-speech-recognition/README.md)                       |
-|  22   |        [Potrošači](./6-consumer/README.md)        |                     Razumijevanje jezika                      | Naučite kako razumjeti rečenice izgovorene IoT uređaju                                                                                                          |                         [Razumijevanje jezika](./6-consumer/lessons/2-language-understanding/README.md)                      |
-|  23   |        [Potrošači](./6-consumer/README.md)        |           Postavljanje timera i glasovna povratna informacija | Naučite kako postaviti timer na IoT uređaju i dati glasovnu povratnu informaciju o postavljenom i završenom tajmeru                                              |                  [Postavite timer i dajte glasovnu povratnu informaciju](./6-consumer/lessons/3-spoken-feedback/README.md)    |
-|  24   |        [Potrošači](./6-consumer/README.md)        |                 Podrška za više jezika                        | Naučite kako podržati više jezika, i u govoru i u odgovorima vašeg pametnog timera                                                                              |                  [Podrška za više jezika](./6-consumer/lessons/4-multiple-language-support/README.md)                         |
+|       |              Naziv projekta              |                       Poučavani koncepti                       | Ciljevi učenja                                                                                                                                                 |                                                        Povezana lekcija                                                         |
+| :---: | :------------------------------------: | :-------------------------------------------------------------: | -------------------------------------------------------------------------------------------------------------------------------------------------------------- | :--------------------------------------------------------------------------------------------------------------------------: |
+|  01   | [Uvod](./1-getting-started/README.md) |                     Uvod u IoT                                  | Naučite osnovna načela IoT-a i osnovne gradivne blokove IoT rješenja poput senzora i usluga u oblaku dok postavljate svoj prvi IoT uređaj                        |                      [Uvod u IoT](./1-getting-started/lessons/1-introduction-to-iot/README.md)                                  |
+|  02   | [Uvod](./1-getting-started/README.md) |                   Dublji pogled na IoT                          | Saznajte više o komponentama IoT sustava, mikro kontrolerima i računalima na jednoj ploči                                                                       |                        [Dublji pogled na IoT](./1-getting-started/lessons/2-deeper-dive/README.md)                             |
+|  03   | [Uvod](./1-getting-started/README.md) | Interakcija s fizičkim svijetom pomoću senzora i aktuatora     | Naučite o senzorima za prikupljanje podataka iz fizičkog svijeta te aktuatorima za slanje povratnih informacija dok izrađujete noćnu lampu                     | [Interakcija s fizičkim svijetom pomoću senzora i aktuatora](./1-getting-started/lessons/3-sensors-and-actuators/README.md) |
+|  04   | [Uvod](./1-getting-started/README.md) |             Povezivanje uređaja na Internet                     | Naučite kako povezati IoT uređaj s internetom radi slanja i primanja poruka povezivanjem vaše noćne lampe s MQTT poslužiteljem                                  |               [Povežite uređaj na Internet](./1-getting-started/lessons/4-connect-internet/README.md)                        |
+|  05   |            [Farma](./2-farm/README.md)            |                    Predviđanje rasta biljaka                    | Naučite kako predvidjeti rast biljke pomoću temperaturnih podataka koje prikuplja IoT uređaj                                                                    |                          [Predviđanje rasta biljaka](./2-farm/lessons/1-predict-plant-growth/README.md)                       |
+|  06   |            [Farma](./2-farm/README.md)            |                    Otkrivanje vlage u tlu                      | Naučite kako otkriti vlagu u tlu i kalibrirati senzor vlage tla                                                                                                 |                          [Otkrivanje vlage u tlu](./2-farm/lessons/2-detect-soil-moisture/README.md)                         |
+|  07   |            [Farma](./2-farm/README.md)            |                  Automatsko zalijevanje biljaka                | Naučite kako automatizirati i vremenski upravljati zalijevanjem koristeći relej i MQTT                                                                           |                      [Automatsko zalijevanje biljaka](./2-farm/lessons/3-automated-plant-watering/README.md)                 |
+|  08   |            [Farma](./2-farm/README.md)            |               Migrirajte biljku u oblak                         | Naučite o oblaku i IoT uslugama domaćinima u oblaku te kako povezati svoju biljku s jednom od njih umjesto javnog MQTT poslužitelja                             |               [Migrirajte biljku u oblak](./2-farm/lessons/4-migrate-your-plant-to-the-cloud/README.md)                     |
+|  09   |            [Farma](./2-farm/README.md)            |         Migrirajte logiku aplikacije u oblak                   | Naučite kako pisati logiku aplikacije u oblaku koja reagira na IoT poruke                                                                                       |         [Migrirajte logiku aplikacije u oblak](./2-farm/lessons/5-migrate-application-to-the-cloud/README.md)               |
+|  10   |            [Farma](./2-farm/README.md)            |                   Osigurajte svoju biljku                      | Naučite o sigurnosti u IoT-u i kako osigurati svoju biljku pomoću ključeva i certifikata                                                                        |                        [Osigurajte svoju biljku](./2-farm/lessons/6-keep-your-plant-secure/README.md)                         |
+|  11   |       [Transport](./3-transport/README.md)        |                      Praćenje lokacije                         | Naučite o GPS praćenju lokacije za IoT uređaje                                                                                                                 |                           [Praćenje lokacije](./3-transport/lessons/1-location-tracking/README.md)                            |
+|  12   |       [Transport](./3-transport/README.md)        |                     Pohrana podataka lokacije                 | Naučite kako spremati IoT podatke za naknadnu vizualizaciju ili analizu                                                                                         |                         [Pohrana podataka lokacije](./3-transport/lessons/2-store-location-data/README.md)                   |
+|  13   |       [Transport](./3-transport/README.md)        |                   Vizualizacija podataka lokacije              | Naučite o prikazu podataka lokacije na karti i kako karte predstavljaju stvarni 3D svijet u 2 dimenzije                                                        |                     [Vizualizacija podataka lokacije](./3-transport/lessons/3-visualize-location-data/README.md)             |
+|  14   |       [Transport](./3-transport/README.md)        |                          Geofence                              | Naučite o geofence-ovima i kako se mogu koristiti za obavještavanje kada su vozila u lancu opskrbe blizu svoje destinacije                                     |                                   [Geofence](./3-transport/lessons/4-geofences/README.md)                                    |
+|  15   |   [Proizvodnja](./4-manufacturing/README.md)      |               Trening detektora kvalitete voća                 | Naučite kako trenirati klasifikator slika u oblaku za detektiranje kvalitete voća                                                                               |                 [Trening detektora kvalitete voća](./4-manufacturing/lessons/1-train-fruit-detector/README.md)                |
+|  16   |   [Proizvodnja](./4-manufacturing/README.md)      |           Provjera kvalitete voća putem IoT uređaja            | Naučite kako koristiti detektor kvalitete voća s IoT uređaja                                                                                                   |           [Provjera kvalitete voća putem IoT uređaja](./4-manufacturing/lessons/2-check-fruit-from-device/README.md)          |
+|  17   |   [Proizvodnja](./4-manufacturing/README.md)      |             Pokretanje detektora voća na rubu                 | Naučite o pokretanju detektora voća na IoT uređaju na rubu mreže                                                                                              |             [Pokretanje detektora voća na rubu](./4-manufacturing/lessons/3-run-fruit-detector-edge/README.md)               |
+|  18   |   [Proizvodnja](./4-manufacturing/README.md)      |        Pokretanje detekcije kvalitete voća iz senzora          | Naučite kako pokrenuti detekciju kvalitete voća iz senzora                                                                                                     |        [Pokretanje detekcije kvalitete voća iz senzora](./4-manufacturing/lessons/4-trigger-fruit-detector/README.md)         |
+|  19   |          [Maloprodaja](./5-retail/README.md)       |                   Trening detektora zaliha                     | Naučite kako koristiti detekciju objekata za trening detektora zaliha za brojanje zaliha u trgovini                                                           |                        [Trening detektora zaliha](./5-retail/lessons/1-train-stock-detector/README.md)                       |
+|  20   |          [Maloprodaja](./5-retail/README.md)       |               Provjera zaliha s IoT uređaja                    | Naučite kako provjeriti zalihe koristeći IoT uređaj i model za detekciju objekata                                                                               |                     [Provjera zaliha s IoT uređaja](./5-retail/lessons/2-check-stock-device/README.md)                       |
+|  21   |        [Konzumer](./6-consumer/README.md)          |             Prepoznavanje govora s IoT uređajem               | Naučite kako prepoznati govor s IoT uređaja i napraviti pametni timer                                                                                          |                  [Prepoznavanje govora s IoT uređajem](./6-consumer/lessons/1-speech-recognition/README.md)                   |
+|  22   |        [Konzumer](./6-consumer/README.md)          |                     Razumijevanje jezika                       | Naučite kako razumjeti rečenice izgovorene IoT uređaju                                                                                                         |                        [Razumijevanje jezika](./6-consumer/lessons/2-language-understanding/README.md)                        |
+|  23   |        [Konzumer](./6-consumer/README.md)          |           Postavljanje timera i pružanje glasovne povratne informacije | Naučite kako postaviti timer na IoT uređaju i pružiti glasovnu povratnu informaciju o početku i završetku timera                                                |                 [Postavljanje timera i glasovna povratna informacija](./6-consumer/lessons/3-spoken-feedback/README.md)       |
+|  24   |        [Konzumer](./6-consumer/README.md)          |                 Podrška za više jezika                         | Naučite kako podržati više jezika, kako za govorene zahtjeve tako i za odgovore vašeg pametnog timera                                                          |                   [Podrška za više jezika](./6-consumer/lessons/4-multiple-language-support/README.md)                      |
 
-## Pristup izvan mreže
+## Pristup offline
 
-Ovu dokumentaciju možete pokrenuti offline pomoću [Docsify](https://docsify.js.org/#/). Forkajte ovaj repozitorij, [instalirajte Docsify](https://docsify.js.org/#/quickstart) na svoj lokalni stroj, a zatim u korijenskoj mapi repozitorija upišite `docsify serve`. Web stranica će biti dostupna na portu 3000 na vašem lokalnom računalu: `localhost:3000`.
+Ovu dokumentaciju možete koristiti offline pomoću [Docsify](https://docsify.js.org/#/). Forkajte ovaj repozitorij, [instalirajte Docsify](https://docsify.js.org/#/quickstart) na svoj lokalni uređaj, zatim u korijenskom direktoriju repozitorija upišite `docsify serve`. Web stranica će se posluživati na portu 3000 na vašem localhostu: `localhost:3000`.
 
 ## Kviz
 
-Zahvaljujemo zajednici na hostingu interaktivnog kviza koji testira vaše znanje o svakom od poglavlja. Znanje možete testirati [ovdje](https://ff-quizzes.netlify.app/en/)
+Zahvaljujemo zajednici za održavanje interaktivnog kviza koji testira vaše znanje za svaki od poglavlja. Svoje znanje isprobajte [ovdje](https://ff-quizzes.netlify.app/en/)
 
 ### PDF
 
-Možete generirati PDF ovog sadržaja za offline pristup ako je potrebno. Da biste to učinili, provjerite imate li [npm instaliran](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) i pokrenite sljedeće naredbe u korijenskoj mapi ovog repozitorija:
+Ako želite imati pristup ovom sadržaju offline, možete generirati PDF. Provjerite da imate instaliran [npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) i pokrenite sljedeće naredbe u korijenu ovog repozitorija:
 
 ```sh
 npm i
 npm run convert
 ```
 
-### Prezentacije (Slides)
+### Prezentacije
 
-Postoje prezentacije za neke lekcije u mapi [slides](../../slides).
+Za neke lekcije postoje prezentacije u mapi [slides](../../slides).
 
 
-## Ostali kurikulumi
+## Drugi programi
 
-Naš tim proizvodi i druge kurikulume! Pogledajte:
+Naš tim proizvodi i druge obrazovne programe! Pogledajte:
 
 <!-- CO-OP TRANSLATOR OTHER COURSES START -->
 ### LangChain
@@ -185,7 +176,7 @@ Naš tim proizvodi i druge kurikulume! Pogledajte:
 
 ---
  
-### Serija generativne AI
+### Serija generativne umjetne inteligencije
 [![Generative AI for Beginners](https://img.shields.io/badge/Generative%20AI%20for%20Beginners-8B5CF6?style=for-the-badge&labelColor=E5E7EB&color=8B5CF6)](https://github.com/microsoft/generative-ai-for-beginners?WT.mc_id=academic-105485-koreyst)
 [![Generative AI (.NET)](https://img.shields.io/badge/Generative%20AI%20(.NET)-9333EA?style=for-the-badge&labelColor=E5E7EB&color=9333EA)](https://github.com/microsoft/Generative-AI-for-beginners-dotnet?WT.mc_id=academic-105485-koreyst)
 [![Generative AI (Java)](https://img.shields.io/badge/Generative%20AI%20(Java)-C084FC?style=for-the-badge&labelColor=E5E7EB&color=C084FC)](https://github.com/microsoft/generative-ai-for-beginners-java?WT.mc_id=academic-105485-koreyst)
@@ -210,13 +201,13 @@ Naš tim proizvodi i druge kurikulume! Pogledajte:
 [![Copilot Adventure](https://img.shields.io/badge/Copilot%20Adventure-FDE68A?style=for-the-badge&labelColor=E5E7EB&color=FDE68A)](https://github.com/microsoft/CopilotAdventures?WT.mc_id=academic-105485-koreyst)
 <!-- CO-OP TRANSLATOR OTHER COURSES END -->
 
-## Foto zahvalnice
+## Navodi za slike
 
-Sve zahvalnice za slike korištene u ovom kurikulumu gdje je potrebno možete pronaći u [Zahvalnice](./attributions.md).
+Sve navode za slike korištene u ovom kurikulumu gdje je potrebno možete pronaći u [Attributions](./attributions.md).
 
 ---
 
 <!-- CO-OP TRANSLATOR DISCLAIMER START -->
-**Odricanje od odgovornosti**:  
-Ovaj je dokument preveden pomoću AI usluge za prevođenje [Co-op Translator](https://github.com/Azure/co-op-translator). Iako nastojimo postići točnost, imajte na umu da automatski prijevodi mogu sadržavati pogreške ili netočnosti. Izvorni dokument na izvornom jeziku smatra se službenim i autentičnim izvorom. Za važne informacije preporučuje se stručno ljudsko prevođenje. Ne snosimo odgovornost za bilo kakva nesporazuma ili pogrešna tumačenja koja proizlaze iz korištenja ovog prijevoda.
+**Odricanje od odgovornosti**:
+Ovaj je dokument preveden pomoću AI usluge za prevođenje [Co-op Translator](https://github.com/Azure/co-op-translator). Iako nastojimo postići točnost, imajte na umu da automatski prijevodi mogu sadržavati pogreške ili netočnosti. Izvorni dokument na izvornom jeziku treba se smatrati autoritativnim izvorom. Za kritične informacije preporučuje se profesionalni ljudski prijevod. Ne odgovaramo za bilo kakve nesporazume ili kriva tumačenja koja proizlaze iz korištenja ovog prijevoda.
 <!-- CO-OP TRANSLATOR DISCLAIMER END -->

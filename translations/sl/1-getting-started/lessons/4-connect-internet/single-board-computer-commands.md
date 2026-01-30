@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "c527ce85d69b1a3875366ec61cbed8aa",
-  "translation_date": "2025-08-28T13:52:56+00:00",
-  "source_file": "1-getting-started/lessons/4-connect-internet/single-board-computer-commands.md",
-  "language_code": "sl"
-}
--->
 # Nadzorujte svojo nočno lučko prek interneta - Virtualna IoT strojna oprema in Raspberry Pi
 
 V tem delu lekcije se boste naročili na ukaze, ki jih MQTT posrednik pošlje vašemu Raspberry Pi ali virtualni IoT napravi.

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "24dc783a600e20251211987b36370e93",
-  "translation_date": "2025-08-28T12:20:42+00:00",
-  "source_file": "4-manufacturing/lessons/3-run-fruit-detector-edge/vm-iotedge.md",
-  "language_code": "sr"
-}
--->
 # Креирање виртуелне машине са IoT Edge
 
 У Azure-у можете креирати виртуелну машину - рачунар у облаку који можете конфигурисати како год желите и покренути сопствени софтвер на њему.

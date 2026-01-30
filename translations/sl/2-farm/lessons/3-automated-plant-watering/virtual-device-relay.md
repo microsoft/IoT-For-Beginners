@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "f8f541ee945545017a51aaf309aa37c3",
-  "translation_date": "2025-08-28T15:22:43+00:00",
-  "source_file": "2-farm/lessons/3-automated-plant-watering/virtual-device-relay.md",
-  "language_code": "sl"
-}
--->
 # Upravljanje releja - Virtualna IoT strojna oprema
 
 V tem delu lekcije boste svoji virtualni IoT napravi poleg senzorja za vlago v tleh dodali rele in ga upravljali glede na raven vlage v tleh.

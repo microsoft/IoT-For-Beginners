@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "24dc783a600e20251211987b36370e93",
-  "translation_date": "2025-08-28T12:21:06+00:00",
-  "source_file": "4-manufacturing/lessons/3-run-fruit-detector-edge/vm-iotedge.md",
-  "language_code": "hr"
-}
--->
 # Kreiranje virtualnog stroja koji pokreće IoT Edge
 
 U Azureu možete kreirati virtualni stroj - računalo u oblaku koje možete konfigurirati na bilo koji način i pokretati vlastiti softver na njemu.

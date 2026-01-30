@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "e978534a245b000725ed2a048f943213",
-  "translation_date": "2025-08-28T13:10:58+00:00",
-  "source_file": "3-transport/README.md",
-  "language_code": "hr"
-}
--->
 # Transport s farme do tvornice - korištenje IoT-a za praćenje dostave hrane
 
 Mnogi poljoprivrednici uzgajaju hranu za prodaju - bilo da su komercijalni poljoprivrednici koji prodaju sve što uzgoje ili su poljoprivrednici koji uzgajaju za vlastite potrebe i prodaju višak kako bi kupili osnovne potrepštine. Nekako hrana mora stići s farme do potrošača, a to obično uključuje prijevoz u velikim količinama s farmi do središnjih čvorišta ili prerađivačkih postrojenja, a zatim do trgovina. Na primjer, poljoprivrednik koji uzgaja rajčice će ih ubrati, spakirati u kutije, utovariti kutije u kamion i dostaviti ih u prerađivačko postrojenje. Tamo će se rajčice sortirati, a zatim dostaviti potrošačima u obliku prerađene hrane, za maloprodaju ili za konzumaciju u restoranima.

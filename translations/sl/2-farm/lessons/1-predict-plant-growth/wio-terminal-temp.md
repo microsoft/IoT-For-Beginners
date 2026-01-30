@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "59263d094f20b302053888cd236880c3",
-  "translation_date": "2025-08-28T15:16:41+00:00",
-  "source_file": "2-farm/lessons/1-predict-plant-growth/wio-terminal-temp.md",
-  "language_code": "sl"
-}
--->
 # Merjenje temperature - Wio Terminal
 
 V tem delu lekcije boste dodali temperaturni senzor na vaš Wio Terminal in iz njega prebrali temperaturne vrednosti.

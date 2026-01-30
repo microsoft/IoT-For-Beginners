@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "2bf65f162bcebd35fbcba5fd245afac4",
-  "translation_date": "2025-08-28T14:40:43+00:00",
-  "source_file": "2-farm/lessons/2-detect-soil-moisture/virtual-device-soil-moisture.md",
-  "language_code": "hr"
-}
--->
 # Mjerenje vlažnosti tla - Virtualni IoT hardver
 
 U ovom dijelu lekcije, dodat ćete kapacitivni senzor vlažnosti tla svom virtualnom IoT uređaju i očitati vrijednosti s njega.

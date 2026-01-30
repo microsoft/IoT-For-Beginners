@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "3764e089adf2d5801272bc0895f8498b",
-  "translation_date": "2025-08-28T12:03:33+00:00",
-  "source_file": "4-manufacturing/README.md",
-  "language_code": "hr"
-}
--->
 # Proizvodnja i obrada - korištenje IoT-a za poboljšanje obrade hrane
 
 Kada hrana stigne u centralni centar ili pogon za obradu, ne šalje se uvijek odmah u supermarkete. Često hrana prolazi kroz niz koraka obrade, poput sortiranja prema kvaliteti. Ovo je nekada bio ručni proces - započinjao bi na polju kada bi berači brali samo zrelo voće, a zatim bi u tvornici voće prolazilo pokretnu traku, gdje bi zaposlenici ručno uklanjali oštećeno ili trulo voće. Budući da sam i sam ljeti tijekom školovanja brao i sortirao jagode, mogu potvrditi da to nije zabavan posao.

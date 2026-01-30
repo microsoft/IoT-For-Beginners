@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "90fb93446e03c38f3c0e4009c2471906",
-  "translation_date": "2025-08-28T13:53:42+00:00",
-  "source_file": "1-getting-started/lessons/4-connect-internet/single-board-computer-mqtt.md",
-  "language_code": "sr"
-}
--->
 # Контролишите своје ноћно светло преко интернета - Виртуелни IoT уређај и Raspberry Pi
 
 IoT уређај треба да буде програмиран да комуницира са *test.mosquitto.org* користећи MQTT за слање телеметријских вредности са очитавањем сензора светлости и примање команди за контролу LED диоде.

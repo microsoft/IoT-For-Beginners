@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "70e5a428b607cd5a9a4f422c2a4df03d",
-  "translation_date": "2025-08-28T15:15:30+00:00",
-  "source_file": "2-farm/lessons/1-predict-plant-growth/virtual-device-temp.md",
-  "language_code": "sl"
-}
--->
 # Merjenje temperature - Virtualna IoT strojna oprema
 
 V tem delu lekcije boste svoji virtualni IoT napravi dodali temperaturni senzor.

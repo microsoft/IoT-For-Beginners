@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "da6ae0a795cf06be33d23ca5b8493fc8",
-  "translation_date": "2025-08-28T13:18:04+00:00",
-  "source_file": "3-transport/lessons/1-location-tracking/wio-terminal-gps-sensor.md",
-  "language_code": "sr"
-}
--->
 # Читање GPS података - Wio Terminal
 
 У овом делу лекције, додаћете GPS сензор на ваш Wio Terminal и читати вредности са њега.

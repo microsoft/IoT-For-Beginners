@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "3ba7150ffc4a6999f6c3cfb4906ec7df",
-  "translation_date": "2025-08-28T12:27:39+00:00",
-  "source_file": "4-manufacturing/lessons/2-check-fruit-from-device/virtual-device-camera.md",
-  "language_code": "hr"
-}
--->
 # Snimanje slike - Virtualni IoT hardver
 
 U ovom dijelu lekcije, dodati ćete senzor kamere svom virtualnom IoT uređaju i čitati slike s njega.

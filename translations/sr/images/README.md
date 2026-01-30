@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "50abd54997afa7e7a3fc7019379e49e3",
-  "translation_date": "2025-08-28T14:19:15+00:00",
-  "source_file": "images/README.md",
-  "language_code": "sr"
-}
--->
 # Слике
 
 Слике у [icons](../../../images/icons) фасцикли су преузете са [Noun Project](https://thenounproject.com) и захтевају атрибуцију. Свака слика наводи потребну атрибуцију. Ове слике треба користити за било који дијаграм који их захтева како би се одржала конзистентност визуелног приказа.

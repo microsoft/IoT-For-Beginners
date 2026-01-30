@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "64ad4ddb4de81a18b7252e968f10b404",
-  "translation_date": "2025-08-28T12:47:56+00:00",
-  "source_file": "6-consumer/lessons/3-spoken-feedback/single-board-computer-set-timer.md",
-  "language_code": "sr"
-}
--->
 # Поставите тајмер - Виртуелни IoT хардвер и Raspberry Pi
 
 У овом делу лекције, позваћете свој серверлес код да разумете говор и поставите тајмер на вашем виртуелном IoT уређају или Raspberry Pi-ју на основу резултата.

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "c0550b254b9ba2539baf1e6bb5fc05f8",
-  "translation_date": "2025-08-28T12:55:02+00:00",
-  "source_file": "6-consumer/lessons/1-speech-recognition/virtual-device-speech-to-text.md",
-  "language_code": "sl"
-}
--->
 # Pretvorba govora v besedilo - Virtualna IoT naprava
 
 V tem delu lekcije boste napisali kodo za pretvorbo govora, zajetega z vašim mikrofonom, v besedilo z uporabo storitve za prepoznavanje govora.

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "64f18a8f8aaa1fef5e7320e0992d8b3a",
-  "translation_date": "2025-08-28T13:20:10+00:00",
-  "source_file": "3-transport/lessons/1-location-tracking/virtual-device-gps-sensor.md",
-  "language_code": "hr"
-}
--->
 # Čitanje GPS podataka - Virtualni IoT uređaj
 
 U ovom dijelu lekcije, dodati ćete GPS senzor svom virtualnom IoT uređaju i čitati vrijednosti s njega.

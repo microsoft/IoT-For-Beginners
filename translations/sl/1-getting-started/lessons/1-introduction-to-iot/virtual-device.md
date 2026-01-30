@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "52b4de6144b2efdced7797a5339d6035",
-  "translation_date": "2025-08-28T14:01:29+00:00",
-  "source_file": "1-getting-started/lessons/1-introduction-to-iot/virtual-device.md",
-  "language_code": "sl"
-}
--->
 # Virtualni enojni računalnik
 
 Namesto nakupa IoT naprave, skupaj s senzorji in aktuatorji, lahko uporabite svoj računalnik za simulacijo IoT strojne opreme. Projekt [CounterFit](https://github.com/CounterFit-IoT/CounterFit) vam omogoča, da lokalno zaženete aplikacijo, ki simulira IoT strojno opremo, kot so senzorji in aktuatorji, ter dostopate do teh senzorjev in aktuatorjev iz lokalne Python kode, napisane na enak način, kot bi jo napisali na Raspberry Pi z uporabo fizične strojne opreme.

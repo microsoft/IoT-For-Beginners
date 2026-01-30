@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "9aea84bcc7520222b0e1c50469d62d6a",
-  "translation_date": "2025-08-28T14:56:05+00:00",
-  "source_file": "2-farm/lessons/6-keep-your-plant-secure/single-board-computer-x509.md",
-  "language_code": "sl"
-}
--->
 # Uporaba potrdila X.509 v kodi vaše naprave - Virtualna IoT strojna oprema in Raspberry Pi
 
 V tem delu lekcije boste svojo virtualno IoT napravo ali Raspberry Pi povezali z vašim IoT Hubom s pomočjo potrdila X.509.

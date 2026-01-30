@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "22a1d6e49f2a689fe5bfa7802a7241fc",
-  "translation_date": "2025-08-28T14:21:17+00:00",
-  "source_file": "5-retail/README.md",
-  "language_code": "sl"
-}
--->
 # Trgovina na drobno - uporaba IoT za upravljanje zalog
 
 Zadnja faza, preden hrana doseže potrošnike, je trgovina na drobno - tržnice, zelenjavarne, supermarketi in trgovine, ki prodajajo pridelke potrošnikom. Te trgovine želijo zagotoviti, da imajo izdelke na policah, da jih potrošniki lahko vidijo in kupijo.

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "e978534a245b000725ed2a048f943213",
-  "translation_date": "2025-08-28T13:11:17+00:00",
-  "source_file": "3-transport/README.md",
-  "language_code": "sl"
-}
--->
 # Prevoz s kmetije do tovarne - uporaba IoT za sledenje dostavi hrane
 
 Mnogi kmetje pridelujejo hrano za prodajo – bodisi so komercialni kmetje, ki prodajo vse, kar pridelajo, bodisi so samooskrbni kmetje, ki prodajo presežek pridelka, da si zagotovijo potrebščine. Nekako mora hrana priti od kmetije do potrošnika, kar običajno vključuje prevoz v večjih količinah od kmetij do zbirnih centrov ali predelovalnih obratov, nato pa do trgovin. Na primer, pridelovalec paradižnika bo pobral paradižnike, jih zapakiral v škatle, naložil škatle na tovornjak in jih dostavil v predelovalni obrat. Tam bodo paradižniki razvrščeni in nato dostavljeni potrošnikom v obliki predelane hrane, prodaje na drobno ali kot sestavina v restavracijah.

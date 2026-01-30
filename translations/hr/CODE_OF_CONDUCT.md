@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "c06b12caf3c901eb3156e3dd5b0aea56",
-  "translation_date": "2025-08-28T12:02:26+00:00",
-  "source_file": "CODE_OF_CONDUCT.md",
-  "language_code": "hr"
-}
--->
 # Microsoftov Kodeks Ponašanja za Otvoreni Izvor
 
 Ovaj projekt je usvojio [Microsoftov Kodeks Ponašanja za Otvoreni Izvor](https://opensource.microsoft.com/codeofconduct/).

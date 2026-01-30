@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "2f336726b9410e97c3aaed76cc89b0d8",
-  "translation_date": "2025-08-28T12:59:00+00:00",
-  "source_file": "6-consumer/lessons/1-speech-recognition/wio-terminal-audio.md",
-  "language_code": "sr"
-}
--->
 # Снимање звука - Wio Terminal
 
 У овом делу лекције, написаћете код за снимање звука на вашем Wio Terminal-у. Снимање звука ће бити контролисано једним од дугмади на врху Wio Terminal-а.

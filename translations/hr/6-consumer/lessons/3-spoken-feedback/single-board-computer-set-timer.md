@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "64ad4ddb4de81a18b7252e968f10b404",
-  "translation_date": "2025-08-28T12:48:13+00:00",
-  "source_file": "6-consumer/lessons/3-spoken-feedback/single-board-computer-set-timer.md",
-  "language_code": "hr"
-}
--->
 # Postavite mjerač vremena - Virtualni IoT uređaj i Raspberry Pi
 
 U ovom dijelu lekcije pozvat ćete svoj serverless kod kako biste razumjeli govor i postavili mjerač vremena na svom virtualnom IoT uređaju ili Raspberry Pi-u na temelju rezultata.

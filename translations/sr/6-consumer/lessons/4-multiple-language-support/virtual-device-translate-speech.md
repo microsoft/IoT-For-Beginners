@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "d620a470d9dd8614d99824832978360a",
-  "translation_date": "2025-08-28T13:08:44+00:00",
-  "source_file": "6-consumer/lessons/4-multiple-language-support/virtual-device-translate-speech.md",
-  "language_code": "sr"
-}
--->
 # Превод говора - Виртуелни IoT уређај
 
 У овом делу лекције, написаћете код за превођење говора приликом конверзије у текст користећи услугу за говор, а затим ћете превести текст користећи услугу Translator пре него што генеришете одговор у говору.

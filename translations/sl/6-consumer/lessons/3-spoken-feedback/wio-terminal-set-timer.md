@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "012b69d57d898d670adf61304f42a137",
-  "translation_date": "2025-08-28T12:47:30+00:00",
-  "source_file": "6-consumer/lessons/3-spoken-feedback/wio-terminal-set-timer.md",
-  "language_code": "sl"
-}
--->
 # Nastavitev časovnika - Wio Terminal
 
 V tem delu lekcije boste poklicali svojo strežniško kodo, da prepoznate govor, in na podlagi rezultatov nastavili časovnik na svojem Wio Terminalu.

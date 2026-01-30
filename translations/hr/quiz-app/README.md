@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "2a459ea9177fb0508ca96068ae1009d2",
-  "translation_date": "2025-08-28T14:20:05+00:00",
-  "source_file": "quiz-app/README.md",
-  "language_code": "hr"
-}
--->
 # Kvizovi
 
 Ovi kvizovi su uvodni i završni kvizovi za kurikulum IoT za početnike na https://aka.ms/iot-beginners

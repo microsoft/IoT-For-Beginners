@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "7e9f05bdc50a40fd924b1d66934471bf",
-  "translation_date": "2025-08-28T12:15:22+00:00",
-  "source_file": "4-manufacturing/lessons/4-trigger-fruit-detector/virtual-device-proximity.md",
-  "language_code": "sl"
-}
--->
 # Zaznavanje bližine - Virtualna IoT strojna oprema
 
 V tem delu lekcije boste svoji virtualni IoT napravi dodali senzor bližine in prebrali razdaljo z njega.

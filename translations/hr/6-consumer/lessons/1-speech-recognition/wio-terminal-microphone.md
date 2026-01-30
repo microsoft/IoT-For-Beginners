@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "93d352de36526b8990e41dd538100324",
-  "translation_date": "2025-08-28T12:55:42+00:00",
-  "source_file": "6-consumer/lessons/1-speech-recognition/wio-terminal-microphone.md",
-  "language_code": "hr"
-}
--->
 # Konfigurirajte mikrofon i zvučnike - Wio Terminal
 
 U ovom dijelu lekcije, dodati ćete zvučnike svom Wio Terminalu. Wio Terminal već ima ugrađeni mikrofon koji se može koristiti za snimanje govora.

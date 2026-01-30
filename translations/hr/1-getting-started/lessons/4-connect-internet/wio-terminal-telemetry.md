@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "4bcc29fe2b65e56eada83d2476279227",
-  "translation_date": "2025-08-28T13:53:21+00:00",
-  "source_file": "1-getting-started/lessons/4-connect-internet/wio-terminal-telemetry.md",
-  "language_code": "hr"
-}
--->
 # Kontrolirajte svoju noćnu lampu putem Interneta - Wio Terminal
 
 U ovom dijelu lekcije, slat ćete telemetriju s razinama svjetlosti s vašeg Wio Terminala na MQTT posrednika.

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "750bd75866471141f857240219084767",
-  "translation_date": "2025-08-28T13:43:20+00:00",
-  "source_file": "1-getting-started/lessons/2-deeper-dive/assignment.md",
-  "language_code": "hr"
-}
--->
 # Usporedba i kontrast mikrokontrolera i jednopločnih računala
 
 ## Upute

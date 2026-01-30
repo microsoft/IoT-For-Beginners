@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "f3c5d8afa2ef6a0b425ef8ff20615cb4",
-  "translation_date": "2025-08-28T15:24:07+00:00",
-  "source_file": "2-farm/lessons/3-automated-plant-watering/wio-terminal-relay.md",
-  "language_code": "sr"
-}
--->
 # Контрола релеја - Wio Terminal
 
 У овом делу лекције, додаћете релеј вашем Wio Terminal-у поред сензора за влагу земљишта и контролисати га на основу нивоа влаге у земљишту.

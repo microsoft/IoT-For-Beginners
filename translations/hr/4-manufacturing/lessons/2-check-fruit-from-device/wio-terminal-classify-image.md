@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "32a1f23e7834fbe7715da8c4ebb450b9",
-  "translation_date": "2025-08-28T12:32:28+00:00",
-  "source_file": "4-manufacturing/lessons/2-check-fruit-from-device/wio-terminal-classify-image.md",
-  "language_code": "hr"
-}
--->
 # Klasificirajte sliku - Wio Terminal
 
 U ovom dijelu lekcije poslat ćete sliku snimljenu kamerom usluzi Custom Vision kako biste je klasificirali.

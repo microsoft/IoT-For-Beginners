@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "50abd54997afa7e7a3fc7019379e49e3",
-  "translation_date": "2025-08-28T14:19:21+00:00",
-  "source_file": "images/README.md",
-  "language_code": "hr"
-}
--->
 # Slike
 
 Slike u mapi [icons](../../../images/icons) preuzete su s [Noun Project](https://thenounproject.com) i zahtijevaju navođenje izvora. Svaka slika navodi potrebnu atribuciju. Ove slike trebaju se koristiti za bilo koji dijagram koji ih zahtijeva kako bi se osigurala dosljednost vizuala.

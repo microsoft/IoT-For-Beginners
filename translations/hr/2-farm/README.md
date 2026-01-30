@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "428bda82d9e6016ecea7c797564bf081",
-  "translation_date": "2025-08-28T14:32:46+00:00",
-  "source_file": "2-farm/README.md",
-  "language_code": "hr"
-}
--->
 # Poljoprivreda uz IoT
 
 Kako populacija raste, tako raste i potražnja za poljoprivredom. Količina dostupnog zemljišta se ne mijenja, ali klima da - što donosi još više izazova poljoprivrednicima, posebno za 2 milijarde [poljoprivrednika koji se bave samoodrživom poljoprivredom](https://wikipedia.org/wiki/Subsistence_agriculture) i oslanjaju se na ono što uzgajaju kako bi se prehranili i nahranili svoje obitelji. IoT može pomoći poljoprivrednicima da donose pametnije odluke o tome što uzgajati i kada žeti, povećati prinose, smanjiti količinu ručnog rada te otkriti i riješiti probleme s nametnicima.

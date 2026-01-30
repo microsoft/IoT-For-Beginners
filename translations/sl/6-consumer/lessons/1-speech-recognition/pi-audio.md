@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "0ac0afcfb40cb5970ef4cb74f01c32e9",
-  "translation_date": "2025-08-28T12:54:04+00:00",
-  "source_file": "6-consumer/lessons/1-speech-recognition/pi-audio.md",
-  "language_code": "sl"
-}
--->
 # Zajem zvoka - Raspberry Pi
 
 V tem delu lekcije boste napisali kodo za zajem zvoka na vašem Raspberry Pi. Zajem zvoka bo nadzorovan s pomočjo gumba.

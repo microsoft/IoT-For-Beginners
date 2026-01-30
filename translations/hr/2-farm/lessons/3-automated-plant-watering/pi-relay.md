@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "66b81165e60f8f169bd52a401b6a0f8b",
-  "translation_date": "2025-08-28T15:23:22+00:00",
-  "source_file": "2-farm/lessons/3-automated-plant-watering/pi-relay.md",
-  "language_code": "hr"
-}
--->
 # Upravljanje relejem - Raspberry Pi
 
 U ovom dijelu lekcije, dodat ćete relej svom Raspberry Pi-ju uz senzor vlažnosti tla i upravljati njime na temelju razine vlažnosti tla.

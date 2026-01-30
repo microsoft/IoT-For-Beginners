@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "3dce18fab38adf93ff30b8c221b1eec5",
-  "translation_date": "2025-08-28T11:58:28+00:00",
-  "source_file": "hardware.md",
-  "language_code": "sl"
-}
--->
 # Strojna oprema
 
 **T** v IoT pomeni **Things** (stvari) in se nanaša na naprave, ki komunicirajo z okolico. Vsak projekt temelji na resnični strojni opremi, ki je na voljo študentom in ljubiteljem. Na voljo imamo dve možnosti IoT strojne opreme, ki ju lahko uporabimo glede na osebne preference, znanje programskih jezikov, učne cilje in dostopnost. Za tiste, ki nimajo dostopa do strojne opreme ali želijo izvedeti več, preden se odločijo za nakup, smo pripravili tudi različico 'virtualne strojne opreme'.

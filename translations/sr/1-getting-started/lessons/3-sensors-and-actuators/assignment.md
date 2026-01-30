@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "c5a568320b1159394108544807895337",
-  "translation_date": "2025-08-28T14:17:24+00:00",
-  "source_file": "1-getting-started/lessons/3-sensors-and-actuators/assignment.md",
-  "language_code": "sr"
-}
--->
 # Истраживање сензора и актуатора
 
 ## Упутства

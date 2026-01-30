@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "50151d9f9dce2801348a93880ef16d86",
-  "translation_date": "2025-08-28T12:22:19+00:00",
-  "source_file": "4-manufacturing/lessons/3-run-fruit-detector-edge/single-board-computer.md",
-  "language_code": "hr"
-}
--->
 # Klasificirajte sliku pomoću IoT Edge uređaja za klasifikaciju slika - Virtualni IoT hardver i Raspberry Pi
 
 U ovom dijelu lekcije koristit ćete uređaj za klasifikaciju slika koji radi na IoT Edge uređaju.

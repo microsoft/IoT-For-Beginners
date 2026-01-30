@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "3dce18fab38adf93ff30b8c221b1eec5",
-  "translation_date": "2025-08-28T11:57:52+00:00",
-  "source_file": "hardware.md",
-  "language_code": "hr"
-}
--->
 # Hardver
 
 **T** u IoT označava **Things** (stvari) i odnosi se na uređaje koji komuniciraju s okolinom. Svaki projekt temelji se na stvarnom hardveru koji je dostupan studentima i hobistima. Imamo dva izbora IoT hardvera, ovisno o osobnim preferencijama, znanju ili sklonostima prema programskim jezicima, ciljevima učenja i dostupnosti. Također smo osigurali verziju 'virtualnog hardvera' za one koji nemaju pristup fizičkom hardveru ili žele naučiti više prije nego što se odluče na kupnju.

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "5de7dc1e2ddc402d415473bb795568d4",
-  "translation_date": "2025-08-28T12:33:36+00:00",
-  "source_file": "6-consumer/README.md",
-  "language_code": "hr"
-}
--->
 # Potrošački IoT - izradite pametnog glasovnog asistenta
 
 Hrana je uzgojena, prevezena u tvornicu za obradu, sortirana prema kvaliteti, prodana u trgovini i sada je vrijeme za kuhanje! Jedan od ključnih elemenata svake kuhinje je timer. U početku su to bili pješčani satovi - vaša hrana bila je gotova kada bi sav pijesak iscurio u donji dio. Zatim su postali mehanički, pa električni.

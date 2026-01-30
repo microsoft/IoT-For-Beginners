@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "428bda82d9e6016ecea7c797564bf081",
-  "translation_date": "2025-08-28T14:32:57+00:00",
-  "source_file": "2-farm/README.md",
-  "language_code": "sl"
-}
--->
 # Kmetijstvo z IoT
 
 S povečevanjem populacije narašča tudi povpraševanje po kmetijstvu. Količina razpoložljive zemlje se ne spreminja, medtem ko se podnebje spreminja - kar prinaša še več izzivov za kmete, še posebej za 2 milijardi [kmetov za lastno preživetje](https://wikipedia.org/wiki/Subsistence_agriculture), ki se zanašajo na pridelke, da lahko jedo in hranijo svoje družine. IoT lahko pomaga kmetom sprejemati pametnejše odločitve o tem, kaj pridelovati in kdaj pobirati pridelek, poveča donosnost, zmanjša količino ročnega dela ter zazna in obvlada škodljivce.

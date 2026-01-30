@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "d6faf0e8d3c2d6d20c0aef2a305dab18",
-  "translation_date": "2025-08-28T13:51:19+00:00",
-  "source_file": "1-getting-started/lessons/4-connect-internet/wio-terminal-mqtt.md",
-  "language_code": "sl"
-}
--->
 # Nadzorujte svojo nočno lučko prek interneta - Wio Terminal
 
 IoT napravo je treba programirati tako, da komunicira z *test.mosquitto.org* prek MQTT za pošiljanje telemetričnih vrednosti z odčitki svetlobnega senzorja in prejemanje ukazov za nadzor LED.

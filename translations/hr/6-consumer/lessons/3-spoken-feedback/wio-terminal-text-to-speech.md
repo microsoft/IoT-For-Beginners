@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "a202fa5889790a3777bfc33dd9f4b459",
-  "translation_date": "2025-08-28T12:43:32+00:00",
-  "source_file": "6-consumer/lessons/3-spoken-feedback/wio-terminal-text-to-speech.md",
-  "language_code": "hr"
-}
--->
 # Pretvaranje teksta u govor - Wio Terminal
 
 U ovom dijelu lekcije pretvorit ćete tekst u govor kako biste omogućili govornu povratnu informaciju.

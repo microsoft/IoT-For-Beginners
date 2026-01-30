@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "0d55caa8c23d73635b7559102cd17b8a",
-  "translation_date": "2025-08-28T14:42:35+00:00",
-  "source_file": "2-farm/lessons/2-detect-soil-moisture/wio-terminal-soil-moisture.md",
-  "language_code": "sr"
-}
--->
 # Мерење влаге у земљишту - Wio Terminal
 
 У овом делу лекције, додаћете капацитивни сензор влаге у земљишту на ваш Wio Terminal и читати вредности са њега.

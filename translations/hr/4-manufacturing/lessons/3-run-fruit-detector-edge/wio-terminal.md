@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "48ac21ec80329c930db7b84bd6b592ec",
-  "translation_date": "2025-08-28T12:23:02+00:00",
-  "source_file": "4-manufacturing/lessons/3-run-fruit-detector-edge/wio-terminal.md",
-  "language_code": "hr"
-}
--->
 # Klasificirajte sliku pomoću IoT Edge klasifikatora slika - Wio Terminal
 
 U ovom dijelu lekcije koristit ćete klasifikator slika koji radi na IoT Edge uređaju.

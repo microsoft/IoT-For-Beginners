@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "d620a470d9dd8614d99824832978360a",
-  "translation_date": "2025-08-28T13:09:42+00:00",
-  "source_file": "6-consumer/lessons/4-multiple-language-support/virtual-device-translate-speech.md",
-  "language_code": "sl"
-}
--->
 # Prevedi govor - Virtualna IoT naprava
 
 V tem delu lekcije boste napisali kodo za prevajanje govora pri pretvorbi v besedilo z uporabo storitve za govor, nato pa prevedli besedilo z uporabo storitve Translator, preden ustvarite govorjeni odgovor.

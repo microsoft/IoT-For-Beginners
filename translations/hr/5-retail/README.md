@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "22a1d6e49f2a689fe5bfa7802a7241fc",
-  "translation_date": "2025-08-28T14:21:08+00:00",
-  "source_file": "5-retail/README.md",
-  "language_code": "hr"
-}
--->
 # Maloprodaja - korištenje IoT-a za upravljanje razinama zaliha
 
 Posljednja faza prije nego što hrana stigne do potrošača je maloprodaja - tržnice, voćarnice, supermarketi i trgovine koje prodaju proizvode potrošačima. Ove trgovine žele osigurati da imaju proizvode na policama kako bi ih potrošači mogli vidjeti i kupiti.

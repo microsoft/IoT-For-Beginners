@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "5de7dc1e2ddc402d415473bb795568d4",
-  "translation_date": "2025-08-28T12:33:45+00:00",
-  "source_file": "6-consumer/README.md",
-  "language_code": "sl"
-}
--->
 # Potrošniška IoT - izdelajte pametnega glasovnega asistenta
 
 Hrana je bila pridelana, odpeljana v predelovalni obrat, razvrščena glede na kakovost, prodana v trgovini in zdaj je čas za kuhanje! Eden ključnih pripomočkov v vsaki kuhinji je časovnik. Sprva so bili to peščene ure - vaša hrana je bila pripravljena, ko je ves pesek stekel v spodnjo bučko. Nato so postali mehanski, nato električni.

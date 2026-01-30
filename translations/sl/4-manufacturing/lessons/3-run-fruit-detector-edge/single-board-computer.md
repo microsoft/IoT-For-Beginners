@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "50151d9f9dce2801348a93880ef16d86",
-  "translation_date": "2025-08-28T12:22:30+00:00",
-  "source_file": "4-manufacturing/lessons/3-run-fruit-detector-edge/single-board-computer.md",
-  "language_code": "sl"
-}
--->
 # Razvrščanje slike z uporabo IoT Edge naprave za prepoznavanje slik - Virtualna IoT strojna oprema in Raspberry Pi
 
 V tem delu lekcije boste uporabili prepoznavalnik slik, ki deluje na napravi IoT Edge.

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "9c4320311c0f2c1884a6a21265d98a51",
-  "translation_date": "2025-08-28T14:29:21+00:00",
-  "source_file": "5-retail/lessons/2-check-stock-device/single-board-computer-count-stock.md",
-  "language_code": "hr"
-}
--->
 # Brojanje zaliha s vašeg IoT uređaja - Virtualni IoT hardver i Raspberry Pi
 
 Kombinacija predikcija i njihovih okvira može se koristiti za brojanje zaliha na slici.

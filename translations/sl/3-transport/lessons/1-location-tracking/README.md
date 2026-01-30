@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "52ed2bd997d08040f79a1a6ef2bac958",
-  "translation_date": "2025-08-28T13:15:05+00:00",
-  "source_file": "3-transport/lessons/1-location-tracking/README.md",
-  "language_code": "sl"
-}
--->
 # Sledenje lokaciji
 
 ![Skica pregleda te lekcije](../../../../../translated_images/sl/lesson-11.9fddbac4b664c6d50ab7ac9bb32f1fc3f945f03760e72f7f43938073762fb017.jpg)

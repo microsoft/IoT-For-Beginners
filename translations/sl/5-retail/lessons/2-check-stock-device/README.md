@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "1c9e5fa8b7be726c75a97232b1e41c97",
-  "translation_date": "2025-08-28T14:27:08+00:00",
-  "source_file": "5-retail/lessons/2-check-stock-device/README.md",
-  "language_code": "sl"
-}
--->
 # Preverjanje zalog z IoT napravo
 
 ![Sketchnote pregled te lekcije](../../../../../translated_images/sl/lesson-20.0211df9551a8abb300fc8fcf7dc2789468dea2eabe9202273ac077b0ba37f15e.jpg)

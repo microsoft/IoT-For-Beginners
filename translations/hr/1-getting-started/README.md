@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "e2b1b891b08ef7633d285547fbe73290",
-  "translation_date": "2025-08-28T13:37:00+00:00",
-  "source_file": "1-getting-started/README.md",
-  "language_code": "hr"
-}
--->
 # Početak rada s IoT-om
 
 U ovom dijelu kurikuluma upoznat ćete se s Internetom stvari (IoT) i naučiti osnovne pojmove, uključujući izradu vašeg prvog 'Hello World' IoT projekta koji se povezuje s oblakom. Ovaj projekt je noćno svjetlo koje se pali kada razina svjetlosti, izmjerena senzorom, opadne.

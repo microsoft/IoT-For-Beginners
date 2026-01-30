@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "7e45d884493c5222348b43fbc4481b6a",
-  "translation_date": "2025-08-28T12:57:08+00:00",
-  "source_file": "6-consumer/lessons/1-speech-recognition/pi-microphone.md",
-  "language_code": "sl"
-}
--->
 # Konfigurirajte mikrofon in zvočnike - Raspberry Pi
 
 V tem delu lekcije boste na svoj Raspberry Pi dodali mikrofon in zvočnike.

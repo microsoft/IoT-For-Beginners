@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "4fb20273d299dc8d07a8f06c9cd0cdd9",
-  "translation_date": "2025-08-28T14:37:21+00:00",
-  "source_file": "2-farm/lessons/2-detect-soil-moisture/README.md",
-  "language_code": "hr"
-}
--->
 C, izgovara se *I-kvadrat-C*, je protokol s više kontrolera i više perifernih uređaja, pri čemu svaki povezani uređaj može djelovati kao kontroler ili periferija koja komunicira putem I²C sabirnice (naziv za komunikacijski sustav koji prenosi podatke). Podaci se šalju u obliku adresiranih paketa, pri čemu svaki paket sadrži adresu povezanog uređaja kojemu su namijenjeni.
 
 > 💁 Ovaj model se nekada nazivao master/slave, ali se ta terminologija napušta zbog povezanosti s ropstvom. [Open Source Hardware Association usvojila je termin kontroler/periferija](https://www.oshwa.org/a-resolution-to-redefine-spi-signal-names/), ali još uvijek možete naići na reference na staru terminologiju.

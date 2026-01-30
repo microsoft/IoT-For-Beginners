@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "93d352de36526b8990e41dd538100324",
-  "translation_date": "2025-08-28T12:55:18+00:00",
-  "source_file": "6-consumer/lessons/1-speech-recognition/wio-terminal-microphone.md",
-  "language_code": "sr"
-}
--->
 # Конфигуришите свој микрофон и звучнике - Wio Terminal
 
 У овом делу лекције, додаћете звучнике свом Wio Terminal-у. Wio Terminal већ има уграђен микрофон, који се може користити за снимање говора.

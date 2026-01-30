@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "e2b1b891b08ef7633d285547fbe73290",
-  "translation_date": "2025-08-28T13:37:09+00:00",
-  "source_file": "1-getting-started/README.md",
-  "language_code": "sl"
-}
--->
 # Začetek z IoT
 
 V tem delu učnega načrta boste spoznali internet stvari (IoT) in se naučili osnovnih konceptov, vključno z izdelavo vašega prvega projekta 'Hello World' IoT, ki se povezuje v oblak. Ta projekt je nočna lučka, ki se prižge, ko senzor zazna padec svetlobne ravni.

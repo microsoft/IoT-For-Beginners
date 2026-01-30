@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "11f10c6760fb8202cf368422702fdf70",
-  "translation_date": "2025-08-28T14:16:15+00:00",
-  "source_file": "1-getting-started/lessons/3-sensors-and-actuators/virtual-device-sensor.md",
-  "language_code": "sr"
-}
--->
 # Направите ноћно светло - Виртуелни IoT хардвер
 
 У овом делу лекције, додаћете сензор светлости вашем виртуелном IoT уређају.

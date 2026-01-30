@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "2a459ea9177fb0508ca96068ae1009d2",
-  "translation_date": "2025-08-28T14:20:38+00:00",
-  "source_file": "quiz-app/README.md",
-  "language_code": "sl"
-}
--->
 # Kvizi
 
 Ti kvizi so predhodni in zaključni kvizi za učni načrt IoT za začetnike na https://aka.ms/iot-beginners

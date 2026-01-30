@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "bbb5aa34221fe129dd3ce4d9ec33831a",
-  "translation_date": "2025-08-28T13:08:27+00:00",
-  "source_file": "6-consumer/lessons/4-multiple-language-support/pi-translate-speech.md",
-  "language_code": "sl"
-}
--->
 # Prevedi govor - Raspberry Pi
 
 V tem delu lekcije boste napisali kodo za prevajanje besedila z uporabo storitve za prevajanje.

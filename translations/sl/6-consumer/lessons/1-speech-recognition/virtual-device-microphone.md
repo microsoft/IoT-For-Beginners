@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "7a65ee743f916276a2848b8a9491feb7",
-  "translation_date": "2025-08-28T12:53:04+00:00",
-  "source_file": "6-consumer/lessons/1-speech-recognition/virtual-device-microphone.md",
-  "language_code": "sl"
-}
--->
 # Konfigurirajte mikrofon in zvočnike - Virtualna IoT strojna oprema
 
 Virtualna IoT strojna oprema bo uporabljala mikrofon in zvočnike, ki so priključeni na vaš računalnik.

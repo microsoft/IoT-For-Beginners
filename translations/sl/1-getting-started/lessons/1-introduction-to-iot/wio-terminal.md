@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "a4f0c166010e31fd7b6ca20bc88dec6d",
-  "translation_date": "2025-08-28T14:07:39+00:00",
-  "source_file": "1-getting-started/lessons/1-introduction-to-iot/wio-terminal.md",
-  "language_code": "sl"
-}
--->
 # Wio Terminal
 
 [Wio Terminal podjetja Seeed Studios](https://www.seeedstudio.com/Wio-Terminal-p-4509.html) je mikrokrmilnik, združljiv z Arduino, ki ima vgrajen WiFi, nekaj senzorjev in aktuatorjev ter priključke za dodajanje dodatnih senzorjev in aktuatorjev prek strojne ekosisteme, imenovane [Grove](https://www.seeedstudio.com/category/Grove-c-1003.html).

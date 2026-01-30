@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "da5d9360fe02fdcc1e91a725016c846d",
-  "translation_date": "2025-08-28T12:49:00+00:00",
-  "source_file": "6-consumer/lessons/3-spoken-feedback/assignment.md",
-  "language_code": "sl"
-}
--->
 # Prekliči časovnik
 
 ## Navodila

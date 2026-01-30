@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "6754c915dae64ba70fcd5e52c37f3adf",
-  "translation_date": "2025-08-28T13:49:44+00:00",
-  "source_file": "1-getting-started/lessons/4-connect-internet/wio-terminal-commands.md",
-  "language_code": "sl"
-}
--->
 # Nadzorujte svojo nočno lučko prek interneta - Wio Terminal
 
 V tem delu lekcije se boste naročili na ukaze, ki jih pošilja MQTT posrednik, in jih prejeli na vaš Wio Terminal.

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "9713e21a309662f6fcb271b573d47848",
-  "translation_date": "2026-01-06T21:35:07+00:00",
-  "source_file": "TROUBLESHOOTING.md",
-  "language_code": "hr"
-}
--->
 # Vodič za rješavanje problema
 
 Ovaj vodič pomaže vam u rješavanju uobičajenih problema pri radu s IoT curriculumom za početnike. Problemi su organizirani po kategorijama radi lakše navigacije.

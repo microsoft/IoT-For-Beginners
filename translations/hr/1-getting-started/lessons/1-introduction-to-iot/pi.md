@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "8ff0d0a1d29832bb896b9c103b69a452",
-  "translation_date": "2025-08-28T14:03:48+00:00",
-  "source_file": "1-getting-started/lessons/1-introduction-to-iot/pi.md",
-  "language_code": "hr"
-}
--->
 # Raspberry Pi
 
 [Raspberry Pi](https://raspberrypi.org) je računalo na jednoj ploči. Možete dodati senzore i aktuatore koristeći širok raspon uređaja i ekosustava, a za ove lekcije koristit ćemo hardverski ekosustav nazvan [Grove](https://www.seeedstudio.com/category/Grove-c-1003.html). Kodirat ćete svoj Pi i pristupati Grove senzorima koristeći Python.
