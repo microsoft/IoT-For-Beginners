@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "4db8a3879a53490513571df2f6cf7641",
-  "translation_date": "2025-08-27T12:46:50+00:00",
-  "source_file": "1-getting-started/lessons/3-sensors-and-actuators/pi-actuator.md",
-  "language_code": "pa"
-}
--->
 # ਰਾਤ ਦੀ ਲਾਈਟ ਬਣਾਓ - ਰਾਸਪਬੈਰੀ ਪਾਈ
 
 ਇਸ ਪਾਠ ਦੇ ਇਸ ਹਿੱਸੇ ਵਿੱਚ, ਤੁਸੀਂ ਆਪਣੇ ਰਾਸਪਬੈਰੀ ਪਾਈ ਵਿੱਚ ਇੱਕ LED ਜੋੜੋਗੇ ਅਤੇ ਇਸਨੂੰ ਰਾਤ ਦੀ ਲਾਈਟ ਬਣਾਉਣ ਲਈ ਵਰਤੋਗੇ।

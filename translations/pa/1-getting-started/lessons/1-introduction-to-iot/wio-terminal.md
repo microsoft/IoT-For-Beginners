@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "a4f0c166010e31fd7b6ca20bc88dec6d",
-  "translation_date": "2025-08-27T13:11:47+00:00",
-  "source_file": "1-getting-started/lessons/1-introduction-to-iot/wio-terminal.md",
-  "language_code": "pa"
-}
--->
 # ਵਾਇਓ ਟਰਮੀਨਲ
 
 [Seeed Studios ਦਾ ਵਾਇਓ ਟਰਮੀਨਲ](https://www.seeedstudio.com/Wio-Terminal-p-4509.html) ਇੱਕ Arduino-ਅਨੁਕੂਲ ਮਾਈਕ੍ਰੋਕੰਟਰੋਲਰ ਹੈ, ਜਿਸ ਵਿੱਚ WiFi ਅਤੇ ਕੁਝ ਸੈਂਸਰ ਅਤੇ ਐਕਚੁਏਟਰ ਬਣੇ ਹੋਏ ਹਨ। ਇਸ ਵਿੱਚ ਹੋਰ ਸੈਂਸਰ ਅਤੇ ਐਕਚੁਏਟਰ ਜੋੜਨ ਲਈ ਪੋਰਟ ਹਨ, ਜੋ ਕਿ [Grove](https://www.seeedstudio.com/category/Grove-c-1003.html) ਨਾਂਕ ਦੇ ਹਾਰਡਵੇਅਰ ਈਕੋਸਿਸਟਮ ਦੀ ਵਰਤੋਂ ਕਰਦੇ ਹਨ।

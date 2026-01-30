@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "50151d9f9dce2801348a93880ef16d86",
-  "translation_date": "2025-08-27T10:44:45+00:00",
-  "source_file": "4-manufacturing/lessons/3-run-fruit-detector-edge/single-board-computer.md",
-  "language_code": "pa"
-}
--->
 # IoT Edge ਦੇ ਆਧਾਰਿਤ ਚਿੱਤਰ ਵਰਗੀਕਰਨ - ਵਰਚੁਅਲ IoT ਹਾਰਡਵੇਅਰ ਅਤੇ ਰਾਸਪਬੈਰੀ ਪਾਈ
 
 ਇਸ ਪਾਠ ਦੇ ਇਸ ਹਿੱਸੇ ਵਿੱਚ, ਤੁਸੀਂ IoT Edge ਡਿਵਾਈਸ 'ਤੇ ਚੱਲ ਰਹੇ ਚਿੱਤਰ ਵਰਗੀਕਰਨ ਨੂੰ ਵਰਤੋਂ ਵਿੱਚ ਲਿਆਓਗੇ।

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "9713e21a309662f6fcb271b573d47848",
-  "translation_date": "2026-01-06T03:52:33+00:00",
-  "source_file": "TROUBLESHOOTING.md",
-  "language_code": "pa"
-}
--->
 # Troubleshooting Guide
 
 This guide helps you solve common problems when working with the IoT for Beginners curriculum. Issues are organized by category for easy navigation.

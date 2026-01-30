@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "288aebb0c59f7be1d2719b8f9660a313",
-  "translation_date": "2025-08-27T10:53:41+00:00",
-  "source_file": "4-manufacturing/lessons/4-trigger-fruit-detector/wio-terminal-proximity.md",
-  "language_code": "pa"
-}
--->
 # ਨਜ਼ਦੀਕੀ ਦਾ ਪਤਾ ਲਗਾਓ - Wio Terminal
 
 ਇਸ ਪਾਠ ਦੇ ਹਿੱਸੇ ਵਿੱਚ, ਤੁਸੀਂ ਆਪਣੇ Wio Terminal ਵਿੱਚ ਇੱਕ ਨਜ਼ਦੀਕੀ ਸੈਂਸਰ ਸ਼ਾਮਲ ਕਰੋਗੇ ਅਤੇ ਇਸ ਤੋਂ ਦੂਰੀ ਪੜ੍ਹੋਗੇ।

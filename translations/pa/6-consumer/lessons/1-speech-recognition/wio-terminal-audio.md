@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "2f336726b9410e97c3aaed76cc89b0d8",
-  "translation_date": "2025-08-27T14:15:22+00:00",
-  "source_file": "6-consumer/lessons/1-speech-recognition/wio-terminal-audio.md",
-  "language_code": "pa"
-}
--->
 # ਆਡੀਓ ਕੈਪਚਰ ਕਰੋ - Wio ਟਰਮੀਨਲ
 
 ਇਸ ਪਾਠ ਦੇ ਇਸ ਭਾਗ ਵਿੱਚ, ਤੁਸੀਂ ਆਪਣੇ Wio ਟਰਮੀਨਲ 'ਤੇ ਆਡੀਓ ਕੈਪਚਰ ਕਰਨ ਲਈ ਕੋਡ ਲਿਖੋਗੇ। ਆਡੀਓ ਕੈਪਚਰ Wio ਟਰਮੀਨਲ ਦੇ ਉੱਪਰਲੇ ਬਟਨਾਂ ਵਿੱਚੋਂ ਇੱਕ ਦੁਆਰਾ ਨਿਯੰਤਰਿਤ ਕੀਤਾ ਜਾਵੇਗਾ।

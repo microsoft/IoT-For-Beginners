@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "df28cd649cd892bcce034e064913b2f3",
-  "translation_date": "2025-08-27T11:07:54+00:00",
-  "source_file": "2-farm/lessons/1-predict-plant-growth/wio-terminal-temp-publish.md",
-  "language_code": "pa"
-}
--->
 # ਤਾਪਮਾਨ ਪ੍ਰਕਾਸ਼ਿਤ ਕਰੋ - Wio Terminal
 
 ਇਸ ਪਾਠ ਦੇ ਇਸ ਹਿੱਸੇ ਵਿੱਚ, ਤੁਸੀਂ Wio Terminal ਦੁਆਰਾ ਪਤਾ ਲਗਾਏ ਗਏ ਤਾਪਮਾਨ ਮੁੱਲਾਂ ਨੂੰ MQTT ਦੇ ਜ਼ਰੀਏ ਪ੍ਰਕਾਸ਼ਿਤ ਕਰੋਗੇ ਤਾਂ ਜੋ ਉਹ ਬਾਅਦ ਵਿੱਚ GDD ਦੀ ਗਣਨਾ ਕਰਨ ਲਈ ਵਰਤੇ ਜਾ ਸਕਣ।

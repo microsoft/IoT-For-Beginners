@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "da6ae0a795cf06be33d23ca5b8493fc8",
-  "translation_date": "2025-08-27T14:37:44+00:00",
-  "source_file": "3-transport/lessons/1-location-tracking/wio-terminal-gps-sensor.md",
-  "language_code": "pa"
-}
--->
 # GPS ਡਾਟਾ ਪੜ੍ਹੋ - Wio Terminal
 
 ਇਸ ਪਾਠ ਦੇ ਇਸ ਹਿੱਸੇ ਵਿੱਚ, ਤੁਸੀਂ ਆਪਣੇ Wio Terminal ਵਿੱਚ GPS ਸੈਂਸਰ ਜੋੜੋਗੇ ਅਤੇ ਇਸ ਤੋਂ ਮੁੱਲ ਪੜ੍ਹੋਗੇ।

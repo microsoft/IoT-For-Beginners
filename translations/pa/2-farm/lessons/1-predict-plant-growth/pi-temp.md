@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "7678f7c67b97ee52d5727496dcd7d346",
-  "translation_date": "2025-08-27T11:11:09+00:00",
-  "source_file": "2-farm/lessons/1-predict-plant-growth/pi-temp.md",
-  "language_code": "pa"
-}
--->
 # ਤਾਪਮਾਨ ਮਾਪੋ - ਰਾਸਪਬੈਰੀ ਪਾਈ
 
 ਇਸ ਪਾਠ ਦੇ ਇਸ ਹਿੱਸੇ ਵਿੱਚ, ਤੁਸੀਂ ਆਪਣੇ ਰਾਸਪਬੈਰੀ ਪਾਈ ਵਿੱਚ ਇੱਕ ਤਾਪਮਾਨ ਸੈਂਸਰ ਜੋੜੋਗੇ।

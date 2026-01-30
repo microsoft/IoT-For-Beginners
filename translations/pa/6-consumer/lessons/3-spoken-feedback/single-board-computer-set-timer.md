@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "64ad4ddb4de81a18b7252e968f10b404",
-  "translation_date": "2025-08-27T13:46:22+00:00",
-  "source_file": "6-consumer/lessons/3-spoken-feedback/single-board-computer-set-timer.md",
-  "language_code": "pa"
-}
--->
 # ਟਾਈਮਰ ਸੈਟ ਕਰੋ - ਵਰਚੁਅਲ IoT ਹਾਰਡਵੇਅਰ ਅਤੇ ਰਾਸਪਬੈਰੀ ਪਾਈ
 
 ਇਸ ਪਾਠ ਦੇ ਇਸ ਹਿੱਸੇ ਵਿੱਚ, ਤੁਸੀਂ ਆਪਣਾ ਸਰਵਰਲੈਸ ਕੋਡ ਕਾਲ ਕਰੋਗੇ ਤਾਂ ਜੋ ਬੋਲਚਾਲ ਨੂੰ ਸਮਝਿਆ ਜਾ ਸਕੇ ਅਤੇ ਨਤੀਜਿਆਂ ਦੇ ਆਧਾਰ 'ਤੇ ਆਪਣੇ ਵਰਚੁਅਲ IoT ਡਿਵਾਈਸ ਜਾਂ ਰਾਸਪਬੈਰੀ ਪਾਈ 'ਤੇ ਟਾਈਮਰ ਸੈਟ ਕੀਤਾ ਜਾ ਸਕੇ।

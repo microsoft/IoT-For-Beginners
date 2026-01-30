@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "59263d094f20b302053888cd236880c3",
-  "translation_date": "2025-08-27T11:06:10+00:00",
-  "source_file": "2-farm/lessons/1-predict-plant-growth/wio-terminal-temp.md",
-  "language_code": "pa"
-}
--->
 # ਤਾਪਮਾਨ ਮਾਪੋ - Wio ਟਰਮੀਨਲ
 
 ਇਸ ਪਾਠ ਦੇ ਇਸ ਹਿੱਸੇ ਵਿੱਚ, ਤੁਸੀਂ ਆਪਣੇ Wio ਟਰਮੀਨਲ ਵਿੱਚ ਇੱਕ ਤਾਪਮਾਨ ਸੈਂਸਰ ਸ਼ਾਮਲ ਕਰੋਗੇ ਅਤੇ ਇਸ ਤੋਂ ਤਾਪਮਾਨ ਦੇ ਮੁੱਲ ਪੜ੍ਹੋਗੇ।

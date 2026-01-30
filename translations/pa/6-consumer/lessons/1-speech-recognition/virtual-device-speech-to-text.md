@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "c0550b254b9ba2539baf1e6bb5fc05f8",
-  "translation_date": "2025-08-27T14:10:56+00:00",
-  "source_file": "6-consumer/lessons/1-speech-recognition/virtual-device-speech-to-text.md",
-  "language_code": "pa"
-}
--->
 # ਸਪੀਚ ਤੋਂ ਟੈਕਸਟ - ਵਰਚੁਅਲ IoT ਡਿਵਾਈਸ
 
 ਇਸ ਪਾਠ ਦੇ ਇਸ ਹਿੱਸੇ ਵਿੱਚ, ਤੁਸੀਂ ਮਾਈਕ੍ਰੋਫੋਨ ਤੋਂ ਕੈਪਚਰ ਕੀਤੇ ਗਏ ਸਪੀਚ ਨੂੰ ਸਪੀਚ ਸਰਵਿਸ ਦੀ ਵਰਤੋਂ ਕਰਕੇ ਟੈਕਸਟ ਵਿੱਚ ਬਦਲਣ ਲਈ ਕੋਡ ਲਿਖੋਗੇ।

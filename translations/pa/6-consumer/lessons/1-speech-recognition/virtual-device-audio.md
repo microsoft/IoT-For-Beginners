@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "e4f2925acb211765889c3b51b9116ceb",
-  "translation_date": "2025-08-27T14:24:19+00:00",
-  "source_file": "6-consumer/lessons/1-speech-recognition/virtual-device-audio.md",
-  "language_code": "pa"
-}
--->
 # ਆਡੀਓ ਕੈਪਚਰ ਕਰੋ - ਵਰਚੁਅਲ IoT ਡਿਵਾਈਸ
 
 ਇਸ ਪਾਠ ਵਿੱਚ ਬਾਅਦ ਵਿੱਚ ਵਰਤੀਆਂ ਜਾਣ ਵਾਲੀਆਂ Python ਲਾਇਬ੍ਰੇਰੀਆਂ, ਜੋ ਬੋਲਣ ਨੂੰ ਲਿਖਤ ਵਿੱਚ ਬਦਲਣ ਲਈ ਵਰਤੀਆਂ ਜਾਂਦੀਆਂ ਹਨ, Windows, macOS ਅਤੇ Linux 'ਤੇ ਬਿਲਟ-ਇਨ ਆਡੀਓ ਕੈਪਚਰ ਦੀ ਸਮਰੱਥਾ ਰੱਖਦੀਆਂ ਹਨ। ਤੁਹਾਨੂੰ ਇੱਥੇ ਕੁਝ ਵੀ ਕਰਨ ਦੀ ਲੋੜ ਨਹੀਂ ਹੈ।

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "11f10c6760fb8202cf368422702fdf70",
-  "translation_date": "2025-08-27T12:51:01+00:00",
-  "source_file": "1-getting-started/lessons/3-sensors-and-actuators/virtual-device-sensor.md",
-  "language_code": "pa"
-}
--->
 # ਰਾਤ ਦੀ ਬੱਤੀ ਬਣਾਓ - ਵਰਚੁਅਲ IoT ਹਾਰਡਵੇਅਰ
 
 ਇਸ ਪਾਠ ਦੇ ਇਸ ਹਿੱਸੇ ਵਿੱਚ, ਤੁਸੀਂ ਆਪਣੇ ਵਰਚੁਅਲ IoT ਡਿਵਾਈਸ ਵਿੱਚ ਇੱਕ ਲਾਈਟ ਸੈਂਸਰ ਸ਼ਾਮਲ ਕਰੋਗੇ।

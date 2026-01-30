@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "9d4d00a47d5d0f3e6ce42c0d1020064a",
-  "translation_date": "2025-08-27T11:52:39+00:00",
-  "source_file": "2-farm/lessons/2-detect-soil-moisture/pi-soil-moisture.md",
-  "language_code": "pa"
-}
--->
 # ਮਿੱਟੀ ਦੀ ਨਮੀ ਮਾਪੋ - ਰਾਸਪਬੈਰੀ ਪਾਈ
 
 ਇਸ ਪਾਠ ਦੇ ਇਸ ਹਿੱਸੇ ਵਿੱਚ, ਤੁਸੀਂ ਰਾਸਪਬੈਰੀ ਪਾਈ ਨਾਲ ਇੱਕ ਕੈਪੈਸਿਟਿਵ ਮਿੱਟੀ ਨਮੀ ਸੈਂਸਰ ਜੋੜੋਗੇ ਅਤੇ ਇਸ ਤੋਂ ਮੁੱਲ ਪੜ੍ਹੋਗੇ।

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "52b4de6144b2efdced7797a5339d6035",
-  "translation_date": "2025-08-27T13:03:36+00:00",
-  "source_file": "1-getting-started/lessons/1-introduction-to-iot/virtual-device.md",
-  "language_code": "pa"
-}
--->
 # ਵਰਚੁਅਲ ਸਿੰਗਲ-ਬੋਰਡ ਕੰਪਿਊਟਰ
 
 ਇੱਕ IoT ਡਿਵਾਈਸ, ਸੈਂਸਰ ਅਤੇ ਐਕਚੁਏਟਰ ਖਰੀਦਣ ਦੀ ਬਜਾਏ, ਤੁਸੀਂ ਆਪਣੇ ਕੰਪਿਊਟਰ ਦੀ ਵਰਤੋਂ ਕਰਕੇ IoT ਹਾਰਡਵੇਅਰ ਦਾ ਨਕਲ ਕਰ ਸਕਦੇ ਹੋ। [CounterFit ਪ੍ਰੋਜੈਕਟ](https://github.com/CounterFit-IoT/CounterFit) ਤੁਹਾਨੂੰ ਇੱਕ ਐਪ ਨੂੰ ਲੋਕਲ ਚਲਾਉਣ ਦੀ ਆਗਿਆ ਦਿੰਦਾ ਹੈ ਜੋ ਸੈਂਸਰ ਅਤੇ ਐਕਚੁਏਟਰ ਵਰਗੇ IoT ਹਾਰਡਵੇਅਰ ਦਾ ਨਕਲ ਕਰਦਾ ਹੈ, ਅਤੇ ਸੈਂਸਰ ਅਤੇ ਐਕਚੁਏਟਰ ਨੂੰ ਲੋਕਲ Python ਕੋਡ ਤੋਂ ਐਕਸੈਸ ਕਰਦਾ ਹੈ, ਜੋ ਉਸੇ ਤਰੀਕੇ ਨਾਲ ਲਿਖਿਆ ਜਾਂਦਾ ਹੈ ਜਿਵੇਂ ਤੁਸੀਂ ਰਾਸਪਬੈਰੀ ਪਾਈ 'ਤੇ ਭੌਤਿਕ ਹਾਰਡਵੇਅਰ ਦੀ ਵਰਤੋਂ ਕਰਦੇ ਹੋ।

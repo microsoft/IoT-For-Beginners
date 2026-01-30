@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "32a1f23e7834fbe7715da8c4ebb450b9",
-  "translation_date": "2025-08-27T10:24:44+00:00",
-  "source_file": "4-manufacturing/lessons/2-check-fruit-from-device/wio-terminal-classify-image.md",
-  "language_code": "pa"
-}
--->
 # ਇੱਕ ਚਿੱਤਰ ਨੂੰ ਵਰਗਬੱਧ ਕਰੋ - Wio Terminal
 
 ਇਸ ਪਾਠ ਦੇ ਇਸ ਭਾਗ ਵਿੱਚ, ਤੁਸੀਂ ਕੈਮਰੇ ਦੁਆਰਾ ਕੈਪਚਰ ਕੀਤੇ ਚਿੱਤਰ ਨੂੰ Custom Vision ਸੇਵਾ ਨੂੰ ਭੇਜੋਗੇ ਤਾਂ ਜੋ ਇਸਨੂੰ ਵਰਗਬੱਧ ਕੀਤਾ ਜਾ ਸਕੇ।

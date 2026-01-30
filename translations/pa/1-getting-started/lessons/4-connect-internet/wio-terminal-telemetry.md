@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "4bcc29fe2b65e56eada83d2476279227",
-  "translation_date": "2025-08-27T12:30:43+00:00",
-  "source_file": "1-getting-started/lessons/4-connect-internet/wio-terminal-telemetry.md",
-  "language_code": "pa"
-}
--->
 # ਆਪਣੀ ਨਾਈਟਲਾਈਟ ਨੂੰ ਇੰਟਰਨੈਟ 'ਤੇ ਕੰਟਰੋਲ ਕਰੋ - Wio Terminal
 
 ਇਸ ਪਾਠ ਦੇ ਇਸ ਹਿੱਸੇ ਵਿੱਚ, ਤੁਸੀਂ ਆਪਣੇ Wio Terminal ਤੋਂ MQTT ਬ੍ਰੋਕਰ ਨੂੰ ਰੌਸ਼ਨੀ ਦੇ ਪੱਧਰਾਂ ਨਾਲ ਟੈਲੀਮੇਟਰੀ ਭੇਜੋਗੇ।

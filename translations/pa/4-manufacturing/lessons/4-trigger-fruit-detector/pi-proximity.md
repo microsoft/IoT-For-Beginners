@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "6145a1d791731c8a9d0afd0a1bae5108",
-  "translation_date": "2025-08-27T10:52:33+00:00",
-  "source_file": "4-manufacturing/lessons/4-trigger-fruit-detector/pi-proximity.md",
-  "language_code": "pa"
-}
--->
 # ਨਜ਼ਦੀਕੀ ਦਾ ਪਤਾ ਲਗਾਓ - ਰਾਸਪਬੈਰੀ ਪਾਈ
 
 ਇਸ ਪਾਠ ਦੇ ਇਸ ਹਿੱਸੇ ਵਿੱਚ, ਤੁਸੀਂ ਆਪਣੇ ਰਾਸਪਬੈਰੀ ਪਾਈ ਵਿੱਚ ਇੱਕ ਨਜ਼ਦੀਕੀ ਸੈਂਸਰ ਜੋੜੋਗੇ ਅਤੇ ਇਸ ਤੋਂ ਦੂਰੀ ਪੜ੍ਹੋਗੇ।

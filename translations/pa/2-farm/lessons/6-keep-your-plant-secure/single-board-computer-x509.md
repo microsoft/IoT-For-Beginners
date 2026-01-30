@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "9aea84bcc7520222b0e1c50469d62d6a",
-  "translation_date": "2025-08-27T12:16:01+00:00",
-  "source_file": "2-farm/lessons/6-keep-your-plant-secure/single-board-computer-x509.md",
-  "language_code": "pa"
-}
--->
 # ਆਪਣੇ ਡਿਵਾਈਸ ਕੋਡ ਵਿੱਚ X.509 ਸਰਟੀਫਿਕੇਟ ਦੀ ਵਰਤੋਂ ਕਰੋ - ਵਰਚੁਅਲ IoT ਹਾਰਡਵੇਅਰ ਅਤੇ ਰਾਸਪਬੈਰੀ ਪਾਈ
 
 ਇਸ ਪਾਠ ਦੇ ਇਸ ਹਿੱਸੇ ਵਿੱਚ, ਤੁਸੀਂ ਆਪਣੇ ਵਰਚੁਅਲ IoT ਡਿਵਾਈਸ ਜਾਂ ਰਾਸਪਬੈਰੀ ਪਾਈ ਨੂੰ X.509 ਸਰਟੀਫਿਕੇਟ ਦੀ ਵਰਤੋਂ ਕਰਕੇ ਆਪਣੇ IoT ਹੱਬ ਨਾਲ ਕਨੈਕਟ ਕਰੋਗੇ।

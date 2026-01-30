@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "d620a470d9dd8614d99824832978360a",
-  "translation_date": "2025-08-27T13:34:24+00:00",
-  "source_file": "6-consumer/lessons/4-multiple-language-support/virtual-device-translate-speech.md",
-  "language_code": "pa"
-}
--->
 # ਭਾਸ਼ਾ ਅਨੁਵਾਦ - ਵਰਚੁਅਲ IoT ਡਿਵਾਈਸ
 
 ਇਸ ਪਾਠ ਦੇ ਇਸ ਹਿੱਸੇ ਵਿੱਚ, ਤੁਸੀਂ ਕੋਡ ਲਿਖੋਗੇ ਜੋ ਭਾਸ਼ਾ ਸੇਵਾ ਦੀ ਵਰਤੋਂ ਕਰਕੇ ਭਾਸ਼ਣ ਨੂੰ ਟੈਕਸਟ ਵਿੱਚ ਬਦਲਣ ਸਮੇਂ ਅਨੁਵਾਦ ਕਰੇਗਾ, ਫਿਰ ਟੈਕਸਟ ਨੂੰ ਅਨੁਵਾਦਕ ਸੇਵਾ ਦੀ ਵਰਤੋਂ ਕਰਕੇ ਅਨੁਵਾਦ ਕਰੇਗਾ ਅਤੇ ਬੋਲਣ ਵਾਲਾ ਜਵਾਬ ਤਿਆਰ ਕਰੇਗਾ।

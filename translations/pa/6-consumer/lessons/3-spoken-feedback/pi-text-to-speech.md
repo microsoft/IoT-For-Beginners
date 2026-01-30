@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "606f3af1c78e3741e48ce77c31cea626",
-  "translation_date": "2025-08-27T13:54:08+00:00",
-  "source_file": "6-consumer/lessons/3-spoken-feedback/pi-text-to-speech.md",
-  "language_code": "pa"
-}
--->
 # ਟੈਕਸਟ ਤੋਂ ਬੋਲਣ - ਰਾਸਪਬੈਰੀ ਪਾਈ
 
 ਇਸ ਪਾਠ ਦੇ ਇਸ ਹਿੱਸੇ ਵਿੱਚ, ਤੁਸੀਂ ਟੈਕਸਟ ਨੂੰ ਬੋਲਣ ਵਿੱਚ ਤਬਦੀਲ ਕਰਨ ਲਈ ਕੋਡ ਲਿਖੋਗੇ ਜੋ ਸਪੀਚ ਸਰਵਿਸ ਦੀ ਵਰਤੋਂ ਕਰਦਾ ਹੈ।

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "7f4ad0ef54f248b85b92187c94cf9dcb",
-  "translation_date": "2025-08-27T12:52:05+00:00",
-  "source_file": "1-getting-started/lessons/3-sensors-and-actuators/wio-terminal-sensor.md",
-  "language_code": "pa"
-}
--->
 # Wio Terminal 'ਤੇ ਸੈਂਸਰ ਸ਼ਾਮਲ ਕਰੋ
 
 ਇਸ ਪਾਠ ਦੇ ਇਸ ਹਿੱਸੇ ਵਿੱਚ, ਤੁਸੀਂ ਆਪਣੇ Wio Terminal 'ਤੇ ਲਾਈਟ ਸੈਂਸਰ ਦੀ ਵਰਤੋਂ ਕਰੋਗੇ।

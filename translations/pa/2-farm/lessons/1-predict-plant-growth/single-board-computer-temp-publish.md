@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "4efc74299e19f5d08f2f3f34451a11ba",
-  "translation_date": "2025-08-27T11:03:45+00:00",
-  "source_file": "2-farm/lessons/1-predict-plant-growth/single-board-computer-temp-publish.md",
-  "language_code": "pa"
-}
--->
 # ਤਾਪਮਾਨ ਪ੍ਰਕਾਸ਼ਿਤ ਕਰੋ - ਵਰਚੁਅਲ IoT ਹਾਰਡਵੇਅਰ ਅਤੇ ਰਾਸਪਬੈਰੀ ਪਾਈ
 
 ਇਸ ਪਾਠ ਦੇ ਇਸ ਹਿੱਸੇ ਵਿੱਚ, ਤੁਸੀਂ ਰਾਸਪਬੈਰੀ ਪਾਈ ਜਾਂ ਵਰਚੁਅਲ IoT ਡਿਵਾਈਸ ਦੁਆਰਾ ਪਤਾ ਲਗਾਏ ਗਏ ਤਾਪਮਾਨ ਮੁੱਲਾਂ ਨੂੰ MQTT ਦੇ ਜ਼ਰੀਏ ਪ੍ਰਕਾਸ਼ਿਤ ਕਰੋਗੇ ਤਾਂ ਜੋ ਉਹ ਬਾਅਦ ਵਿੱਚ GDD ਦੀ ਗਣਨਾ ਕਰਨ ਲਈ ਵਰਤੇ ਜਾ ਸਕਣ।

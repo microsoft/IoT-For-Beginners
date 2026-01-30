@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "0d4033cdd7b5b5475c63770102e38480",
-  "translation_date": "2025-08-27T12:31:21+00:00",
-  "source_file": "1-getting-started/lessons/4-connect-internet/assignment.md",
-  "language_code": "pa"
-}
--->
 # MQTT ਨੂੰ ਹੋਰ ਕਮਿਊਨਿਕੇਸ਼ਨ ਪ੍ਰੋਟੋਕੋਲ ਨਾਲ ਤੁਲਨਾ ਕਰੋ
 
 ## ਹਦਾਇਤਾਂ

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "3ba7150ffc4a6999f6c3cfb4906ec7df",
-  "translation_date": "2025-08-27T10:26:27+00:00",
-  "source_file": "4-manufacturing/lessons/2-check-fruit-from-device/virtual-device-camera.md",
-  "language_code": "pa"
-}
--->
 # ਇੱਕ ਚਿੱਤਰ ਕੈਪਚਰ ਕਰੋ - ਵਰਚੁਅਲ IoT ਹਾਰਡਵੇਅਰ
 
 ਇਸ ਪਾਠ ਦੇ ਇਸ ਭਾਗ ਵਿੱਚ, ਤੁਸੀਂ ਆਪਣੇ ਵਰਚੁਅਲ IoT ਡਿਵਾਈਸ ਵਿੱਚ ਇੱਕ ਕੈਮਰਾ ਸੈਂਸਰ ਸ਼ਾਮਲ ਕਰੋਗੇ ਅਤੇ ਇਸ ਤੋਂ ਚਿੱਤਰ ਪੜ੍ਹੋਗੇ।

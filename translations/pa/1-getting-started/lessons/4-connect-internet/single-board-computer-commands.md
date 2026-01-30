@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "c527ce85d69b1a3875366ec61cbed8aa",
-  "translation_date": "2025-08-27T12:18:38+00:00",
-  "source_file": "1-getting-started/lessons/4-connect-internet/single-board-computer-commands.md",
-  "language_code": "pa"
-}
--->
 # ਇੰਟਰਨੈਟ ਰਾਹੀਂ ਆਪਣੀ ਨਾਈਟਲਾਈਟ ਨੂੰ ਕੰਟਰੋਲ ਕਰੋ - ਵਰਚੁਅਲ IoT ਹਾਰਡਵੇਅਰ ਅਤੇ ਰਾਸਪਬੈਰੀ ਪਾਈ
 
 ਇਸ ਪਾਠ ਦੇ ਇਸ ਹਿੱਸੇ ਵਿੱਚ, ਤੁਸੀਂ ਆਪਣੇ ਰਾਸਪਬੈਰੀ ਪਾਈ ਜਾਂ ਵਰਚੁਅਲ IoT ਡਿਵਾਈਸ ਲਈ MQTT ਬ੍ਰੋਕਰ ਤੋਂ ਭੇਜੇ ਗਏ ਕਮਾਂਡਾਂ ਨੂੰ ਸਬਸਕ੍ਰਾਈਬ ਕਰੋਗੇ।

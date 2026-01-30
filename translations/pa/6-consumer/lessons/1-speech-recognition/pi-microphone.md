@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "7e45d884493c5222348b43fbc4481b6a",
-  "translation_date": "2025-08-27T14:20:38+00:00",
-  "source_file": "6-consumer/lessons/1-speech-recognition/pi-microphone.md",
-  "language_code": "pa"
-}
--->
 # ਆਪਣੇ ਮਾਈਕ੍ਰੋਫੋਨ ਅਤੇ ਸਪੀਕਰ ਕਨਫਿਗਰ ਕਰੋ - ਰਾਸਪਬੇਰੀ ਪਾਈ
 
 ਇਸ ਪਾਠ ਦੇ ਇਸ ਹਿੱਸੇ ਵਿੱਚ, ਤੁਸੀਂ ਆਪਣੇ ਰਾਸਪਬੇਰੀ ਪਾਈ ਵਿੱਚ ਮਾਈਕ੍ਰੋਫੋਨ ਅਤੇ ਸਪੀਕਰ ਜੋੜੋਗੇ।

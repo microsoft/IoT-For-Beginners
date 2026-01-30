@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "3b2448c7ab4e9673e77e35a50c5e350d",
-  "translation_date": "2025-08-27T14:49:21+00:00",
-  "source_file": "3-transport/lessons/1-location-tracking/pi-gps-sensor.md",
-  "language_code": "pa"
-}
--->
 # ਰਾਸਪਬੇਰੀ ਪਾਈ 'ਤੇ GPS ਡਾਟਾ ਪੜ੍ਹੋ
 
 ਇਸ ਪਾਠ ਦੇ ਇਸ ਭਾਗ ਵਿੱਚ, ਤੁਸੀਂ ਆਪਣੇ ਰਾਸਪਬੇਰੀ ਪਾਈ ਨਾਲ ਇੱਕ GPS ਸੈਂਸਰ ਜੋੜੋਗੇ ਅਤੇ ਇਸ ਤੋਂ ਮੁੱਲ ਪੜ੍ਹੋਗੇ।

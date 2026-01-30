@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "0ac0afcfb40cb5970ef4cb74f01c32e9",
-  "translation_date": "2025-08-27T14:02:02+00:00",
-  "source_file": "6-consumer/lessons/1-speech-recognition/pi-audio.md",
-  "language_code": "pa"
-}
--->
 # ਆਡੀਓ ਕੈਪਚਰ ਕਰੋ - ਰਾਸਪਬੈਰੀ ਪਾਈ
 
 ਇਸ ਪਾਠ ਦੇ ਇਸ ਹਿੱਸੇ ਵਿੱਚ, ਤੁਸੀਂ ਰਾਸਪਬੈਰੀ ਪਾਈ 'ਤੇ ਆਡੀਓ ਕੈਪਚਰ ਕਰਨ ਲਈ ਕੋਡ ਲਿਖੋਗੇ। ਆਡੀਓ ਕੈਪਚਰ ਨੂੰ ਇੱਕ ਬਟਨ ਦੁਆਰਾ ਕੰਟਰੋਲ ਕੀਤਾ ਜਾਵੇਗਾ।

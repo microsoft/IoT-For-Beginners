@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "fbbcf96a9b63ccd661db98bbf854bb06",
-  "translation_date": "2025-08-27T14:50:30+00:00",
-  "source_file": "3-transport/lessons/1-location-tracking/wio-terminal-gps-decode.md",
-  "language_code": "pa"
-}
--->
 # GPS ਡਾਟਾ ਡਿਕੋਡ ਕਰੋ - Wio Terminal
 
 ਇਸ ਪਾਠ ਦੇ ਇਸ ਹਿੱਸੇ ਵਿੱਚ, ਤੁਸੀਂ Wio Terminal ਦੁਆਰਾ GPS ਸੈਂਸਰ ਤੋਂ ਪੜ੍ਹੇ ਗਏ NMEA ਸੁਨੇਹਿਆਂ ਨੂੰ ਡਿਕੋਡ ਕਰੋਗੇ ਅਤੇ ਲੈਟੀਟਿਊਡ ਅਤੇ ਲੌਂਗਿਟਿਊਡ ਨੂੰ ਕੱਢੋਗੇ।

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "8ff0d0a1d29832bb896b9c103b69a452",
-  "translation_date": "2025-08-27T13:08:41+00:00",
-  "source_file": "1-getting-started/lessons/1-introduction-to-iot/pi.md",
-  "language_code": "pa"
-}
--->
 # ਰਾਸਪਬੈਰੀ ਪਾਈ
 
 [ਰਾਸਪਬੈਰੀ ਪਾਈ](https://raspberrypi.org) ਇੱਕ ਸਿੰਗਲ-ਬੋਰਡ ਕੰਪਿਊਟਰ ਹੈ। ਤੁਸੀਂ ਸੈਂਸਰ ਅਤੇ ਐਕਚੁਏਟਰ ਨੂੰ ਵੱਖ-ਵੱਖ ਡਿਵਾਈਸ ਅਤੇ ਈਕੋਸਿਸਟਮ ਦੀ ਵਰਤੋਂ ਕਰਕੇ ਜੋੜ ਸਕਦੇ ਹੋ। ਇਸ ਪਾਠ ਵਿੱਚ, ਤੁਸੀਂ ਇੱਕ ਹਾਰਡਵੇਅਰ ਈਕੋਸਿਸਟਮ [Grove](https://www.seeedstudio.com/category/Grove-c-1003.html) ਦੀ ਵਰਤੋਂ ਕਰ ਰਹੇ ਹੋ। ਤੁਸੀਂ Python ਦੀ ਵਰਤੋਂ ਕਰਕੇ ਆਪਣੇ Pi ਨੂੰ ਕੋਡ ਕਰੋਗੇ ਅਤੇ Grove ਸੈਂਸਰਾਂ ਤੱਕ ਪਹੁੰਚ ਹਾਸਲ ਕਰੋਗੇ।

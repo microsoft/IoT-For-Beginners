@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "c24b6e4d90501c9199f2ceb6a648a337",
-  "translation_date": "2025-08-27T11:38:10+00:00",
-  "source_file": "2-farm/lessons/5-migrate-application-to-the-cloud/assignment.md",
-  "language_code": "pa"
-}
--->
 # ਰੀਲੇ ਕਨਟਰੋਲ ਲਈ ਹੱਥੋਂ ਚਾਲੂ/ਬੰਦ ਕਰਨ ਦੀ ਵਿਵਸਥਾ ਸ਼ਾਮਲ ਕਰੋ
 
 ## ਹਦਾਇਤਾਂ

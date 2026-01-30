@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "3f92edf2975175577174910caca4a389",
-  "translation_date": "2025-08-27T14:18:54+00:00",
-  "source_file": "6-consumer/lessons/1-speech-recognition/wio-terminal-speech-to-text.md",
-  "language_code": "pa"
-}
--->
 # ਸਪੀਚ ਤੋਂ ਟੈਕਸਟ - Wio ਟਰਮੀਨਲ
 
 ਇਸ ਪਾਠ ਦੇ ਇਸ ਹਿੱਸੇ ਵਿੱਚ, ਤੁਸੀਂ ਕੋਡ ਲਿਖੋਗੇ ਜੋ ਕੈਪਚਰ ਕੀਤੇ ਗਏ ਆਡੀਓ ਵਿੱਚ ਸਪੀਚ ਨੂੰ ਟੈਕਸਟ ਵਿੱਚ ਬਦਲਣ ਲਈ ਸਪੀਚ ਸਰਵਿਸ ਦੀ ਵਰਤੋਂ ਕਰੇਗਾ।

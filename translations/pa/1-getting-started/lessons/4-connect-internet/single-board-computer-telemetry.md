@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "1226517aae5f5b6f904434670394c688",
-  "translation_date": "2025-08-27T12:20:12+00:00",
-  "source_file": "1-getting-started/lessons/4-connect-internet/single-board-computer-telemetry.md",
-  "language_code": "pa"
-}
--->
 # ਇੰਟਰਨੈਟ 'ਤੇ ਆਪਣੀ ਨਾਈਟਲਾਈਟ ਨੂੰ ਕੰਟਰੋਲ ਕਰੋ - ਵਰਚੁਅਲ IoT ਹਾਰਡਵੇਅਰ ਅਤੇ ਰਾਸਪਬੈਰੀ ਪਾਈ
 
 ਇਸ ਪਾਠ ਦੇ ਇਸ ਹਿੱਸੇ ਵਿੱਚ, ਤੁਸੀਂ ਆਪਣੇ ਰਾਸਪਬੈਰੀ ਪਾਈ ਜਾਂ ਵਰਚੁਅਲ IoT ਡਿਵਾਈਸ ਤੋਂ ਲਾਈਟ ਲੈਵਲ ਦੇ ਟੈਲੀਮੇਟਰੀ ਨੂੰ MQTT ਬ੍ਰੋਕਰ ਨੂੰ ਭੇਜੋਗੇ।

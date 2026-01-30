@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "90fb93446e03c38f3c0e4009c2471906",
-  "translation_date": "2025-08-27T12:32:19+00:00",
-  "source_file": "1-getting-started/lessons/4-connect-internet/single-board-computer-mqtt.md",
-  "language_code": "pa"
-}
--->
 # ਰਾਤ ਦੀ ਲਾਈਟ ਨੂੰ ਇੰਟਰਨੈਟ 'ਤੇ ਕੰਟਰੋਲ ਕਰੋ - ਵਰਚੁਅਲ IoT ਹਾਰਡਵੇਅਰ ਅਤੇ ਰਾਸਪਬੈਰੀ ਪਾਈ
 
 IoT ਡਿਵਾਈਸ ਨੂੰ *test.mosquitto.org* ਨਾਲ MQTT ਦੀ ਵਰਤੋਂ ਕਰਕੇ ਸੰਚਾਰ ਕਰਨ ਲਈ ਕੋਡ ਕੀਤਾ ਜਾਣਾ ਚਾਹੀਦਾ ਹੈ, ਤਾਂ ਜੋ ਲਾਈਟ ਸੈਂਸਰ ਪੜ੍ਹਨ ਨਾਲ ਟੈਲੀਮੇਟਰੀ ਮੁੱਲ ਭੇਜੇ ਜਾ ਸਕਣ ਅਤੇ LED ਨੂੰ ਕੰਟਰੋਲ ਕਰਨ ਲਈ ਕਮਾਂਡ ਪ੍ਰਾਪਤ ਕੀਤੀ ਜਾ ਸਕੇ।

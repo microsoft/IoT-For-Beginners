@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "cbb8c285bc64c5192fae3368fb5077d2",
-  "translation_date": "2025-08-27T14:47:36+00:00",
-  "source_file": "3-transport/lessons/1-location-tracking/single-board-computer-gps-decode.md",
-  "language_code": "pa"
-}
--->
 # ਜੀਪੀਐਸ ਡਾਟਾ ਡੀਕੋਡ ਕਰੋ - ਵਰਚੁਅਲ IoT ਹਾਰਡਵੇਅਰ ਅਤੇ ਰਾਸਪਬੇਰੀ ਪਾਈ
 
 ਇਸ ਪਾਠ ਦੇ ਇਸ ਹਿੱਸੇ ਵਿੱਚ, ਤੁਸੀਂ ਰਾਸਪਬੇਰੀ ਪਾਈ ਜਾਂ ਵਰਚੁਅਲ IoT ਡਿਵਾਈਸ ਦੁਆਰਾ ਜੀਪੀਐਸ ਸੈਂਸਰ ਤੋਂ ਪੜ੍ਹੀਆਂ ਗਈਆਂ NMEA ਸੁਨੇਹਿਆਂ ਨੂੰ ਡੀਕੋਡ ਕਰੋਗੇ ਅਤੇ ਲੈਟੀਟਿਊਡ ਅਤੇ ਲੌਂਗਿਟਿਊਡ ਨੂੰ ਕੱਢੋਗੇ।

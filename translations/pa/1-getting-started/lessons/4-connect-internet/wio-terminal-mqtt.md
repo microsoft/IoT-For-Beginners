@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "d6faf0e8d3c2d6d20c0aef2a305dab18",
-  "translation_date": "2025-08-27T12:34:10+00:00",
-  "source_file": "1-getting-started/lessons/4-connect-internet/wio-terminal-mqtt.md",
-  "language_code": "pa"
-}
--->
 # ਇੰਟਰਨੈਟ ਰਾਹੀਂ ਆਪਣੀ ਨਾਈਟਲਾਈਟ ਨੂੰ ਕੰਟਰੋਲ ਕਰੋ - Wio Terminal
 
 IoT ਡਿਵਾਈਸ ਨੂੰ *test.mosquitto.org* ਨਾਲ MQTT ਦੀ ਵਰਤੋਂ ਕਰਕੇ ਸੰਚਾਰ ਕਰਨ ਲਈ ਕੋਡ ਕੀਤਾ ਜਾਣਾ ਚਾਹੀਦਾ ਹੈ, ਤਾਂ ਜੋ ਲਾਈਟ ਸੈਂਸਰ ਦੀ ਰੀਡਿੰਗ ਨਾਲ ਟੈਲੀਮੀਟਰੀ ਮੁੱਲ ਭੇਜੇ ਜਾ ਸਕਣ ਅਤੇ LED ਨੂੰ ਕੰਟਰੋਲ ਕਰਨ ਲਈ ਕਮਾਂਡ ਪ੍ਰਾਪਤ ਕੀਤੀਆਂ ਜਾ ਸਕਣ।

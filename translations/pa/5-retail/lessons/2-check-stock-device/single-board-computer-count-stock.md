@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "9c4320311c0f2c1884a6a21265d98a51",
-  "translation_date": "2025-08-27T09:58:12+00:00",
-  "source_file": "5-retail/lessons/2-check-stock-device/single-board-computer-count-stock.md",
-  "language_code": "pa"
-}
--->
 # ਆਪਣੇ IoT ਡਿਵਾਈਸ ਤੋਂ ਸਟਾਕ ਗਿਣੋ - ਵਰਚੁਅਲ IoT ਹਾਰਡਵੇਅਰ ਅਤੇ ਰਾਸਪਬੈਰੀ ਪਾਈ
 
 ਪੇਸ਼ਗੂਈਆਂ ਅਤੇ ਉਨ੍ਹਾਂ ਦੇ ਬਾਊਂਡਿੰਗ ਬਾਕਸਾਂ ਦੇ組ਮਿਲਨ ਨੂੰ ਇੱਕ ਚਿੱਤਰ ਵਿੱਚ ਸਟਾਕ ਗਿਣਣ ਲਈ ਵਰਤਿਆ ਜਾ ਸਕਦਾ ਹੈ।
