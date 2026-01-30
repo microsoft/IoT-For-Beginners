@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "4fb20273d299dc8d07a8f06c9cd0cdd9",
-  "translation_date": "2025-08-27T22:25:00+00:00",
-  "source_file": "2-farm/lessons/2-detect-soil-moisture/README.md",
-  "language_code": "da"
-}
--->
 C, udtalt *I-squared-C*, er en multi-controller, multi-periferi protokol, hvor enhver tilsluttet enhed kan fungere som enten controller eller periferi og kommunikere over I²C-bussen (navnet for et kommunikationssystem, der overfører data). Data sendes som adresserede pakker, hvor hver pakke indeholder adressen på den tilsluttede enhed, den er beregnet til.
 
 > 💁 Denne model blev tidligere omtalt som master/slave, men denne terminologi er ved at blive udfaset på grund af dens association med slaveri. [Open Source Hardware Association har vedtaget controller/periferi](https://www.oshwa.org/a-resolution-to-redefine-spi-signal-names/), men du kan stadig støde på referencer til den gamle terminologi.

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "4efc74299e19f5d08f2f3f34451a11ba",
-  "translation_date": "2025-08-27T21:03:53+00:00",
-  "source_file": "2-farm/lessons/1-predict-plant-growth/single-board-computer-temp-publish.md",
-  "language_code": "fi"
-}
--->
 # Julkaise lämpötila - Virtuaalinen IoT-laitteisto ja Raspberry Pi
 
 Tässä oppitunnin osassa julkaiset Raspberry Pi:n tai virtuaalisen IoT-laitteen havaitsemat lämpötilaarvot MQTT:n kautta, jotta niitä voidaan myöhemmin käyttää GDD:n laskemiseen.

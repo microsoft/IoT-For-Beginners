@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "70e5a428b607cd5a9a4f422c2a4df03d",
-  "translation_date": "2025-08-27T22:52:02+00:00",
-  "source_file": "2-farm/lessons/1-predict-plant-growth/virtual-device-temp.md",
-  "language_code": "no"
-}
--->
 # Mål temperatur - Virtuell IoT-maskinvare
 
 I denne delen av leksjonen skal du legge til en temperatursensor på din virtuelle IoT-enhet.

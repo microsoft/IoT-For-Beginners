@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "d6faf0e8d3c2d6d20c0aef2a305dab18",
-  "translation_date": "2025-08-27T21:47:00+00:00",
-  "source_file": "1-getting-started/lessons/4-connect-internet/wio-terminal-mqtt.md",
-  "language_code": "fi"
-}
--->
 # Hallitse yövaloa Internetin kautta - Wio Terminal
 
 IoT-laitteelle täytyy ohjelmoida kyky kommunikoida *test.mosquitto.org*-palvelimen kanssa käyttämällä MQTT-protokollaa. Tämän avulla se voi lähettää telemetriatietoja valosensorin lukemista ja vastaanottaa komentoja LED-valon ohjaamiseen.

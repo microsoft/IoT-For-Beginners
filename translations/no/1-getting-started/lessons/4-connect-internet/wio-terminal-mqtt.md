@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "d6faf0e8d3c2d6d20c0aef2a305dab18",
-  "translation_date": "2025-08-27T21:51:14+00:00",
-  "source_file": "1-getting-started/lessons/4-connect-internet/wio-terminal-mqtt.md",
-  "language_code": "no"
-}
--->
 # Kontroller nattlyset ditt over Internett - Wio Terminal
 
 IoT-enheten må kodes for å kommunisere med *test.mosquitto.org* ved hjelp av MQTT for å sende telemetridata med lysmålinger og motta kommandoer for å kontrollere LED-en.

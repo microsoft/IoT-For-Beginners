@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "9713e21a309662f6fcb271b573d47848",
-  "translation_date": "2026-01-06T06:37:03+00:00",
-  "source_file": "TROUBLESHOOTING.md",
-  "language_code": "fi"
-}
--->
 # Vianmääritysohje
 
 Tämä opas auttaa sinua ratkaisemaan yleisiä ongelmia, joita voi ilmetä IoT for Beginners -oppimateriaalin parissa työskennellessä. Ongelmat on järjestetty kategorioittain helppoa selailua varten.

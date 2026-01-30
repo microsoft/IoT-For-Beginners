@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "52b4de6144b2efdced7797a5339d6035",
-  "translation_date": "2025-08-27T21:58:35+00:00",
-  "source_file": "1-getting-started/lessons/1-introduction-to-iot/virtual-device.md",
-  "language_code": "no"
-}
--->
 # Virtuell en-kort datamaskin
 
 I stedet for å kjøpe en IoT-enhet sammen med sensorer og aktuatorer, kan du bruke datamaskinen din til å simulere IoT-maskinvare. [CounterFit-prosjektet](https://github.com/CounterFit-IoT/CounterFit) lar deg kjøre en app lokalt som simulerer IoT-maskinvare som sensorer og aktuatorer, og gir deg tilgang til sensorene og aktuatorene fra lokal Python-kode skrevet på samme måte som du ville gjort på en Raspberry Pi med fysisk maskinvare.

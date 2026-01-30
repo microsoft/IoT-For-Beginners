@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "ea733bd0cdf2479e082373f765a08678",
-  "translation_date": "2025-08-27T22:08:37+00:00",
-  "source_file": "1-getting-started/lessons/3-sensors-and-actuators/pi-sensor.md",
-  "language_code": "no"
-}
--->
 # Bygg en nattlampe - Raspberry Pi
 
 I denne delen av leksjonen skal du legge til en lyssensor på din Raspberry Pi.

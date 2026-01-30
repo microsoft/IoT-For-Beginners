@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "90fb93446e03c38f3c0e4009c2471906",
-  "translation_date": "2025-08-27T21:46:20+00:00",
-  "source_file": "1-getting-started/lessons/4-connect-internet/single-board-computer-mqtt.md",
-  "language_code": "fi"
-}
--->
 # Ohjaa yövaloa Internetin kautta - Virtuaalinen IoT-laitteisto ja Raspberry Pi
 
 IoT-laitteen täytyy olla ohjelmoitu kommunikoimaan *test.mosquitto.org*-palvelimen kanssa käyttäen MQTT-protokollaa, jotta se voi lähettää telemetriatietoja valosensorin lukemista ja vastaanottaa komentoja LED-valon ohjaamiseen.

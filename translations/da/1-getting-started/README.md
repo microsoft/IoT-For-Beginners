@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "e2b1b891b08ef7633d285547fbe73290",
-  "translation_date": "2025-08-27T21:40:35+00:00",
-  "source_file": "1-getting-started/README.md",
-  "language_code": "da"
-}
--->
 # Kom godt i gang med IoT
 
 I denne del af pensum vil du blive introduceret til Internet of Things og lære de grundlæggende begreber, herunder hvordan du bygger dit første 'Hello World'-IoT-projekt, der forbinder til skyen. Dette projekt er en natlampe, der lyser op, når lysniveauerne målt af en sensor falder.

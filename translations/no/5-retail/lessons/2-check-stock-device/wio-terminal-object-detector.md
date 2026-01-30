@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "4cf1421420a6fab9ab4f2c391bd523b7",
-  "translation_date": "2025-08-27T22:18:19+00:00",
-  "source_file": "5-retail/lessons/2-check-stock-device/wio-terminal-object-detector.md",
-  "language_code": "no"
-}
--->
 # Kall objektgjenkjenneren fra IoT-enheten din - Wio Terminal
 
 Når objektgjenkjenneren din er publisert, kan den brukes fra IoT-enheten din.

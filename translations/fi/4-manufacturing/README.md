@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "3764e089adf2d5801272bc0895f8498b",
-  "translation_date": "2025-08-27T20:35:00+00:00",
-  "source_file": "4-manufacturing/README.md",
-  "language_code": "fi"
-}
--->
 # Valmistus ja käsittely - IoT:n käyttö ruoan käsittelyn parantamiseksi
 
 Kun ruoka saapuu keskusvarastoon tai käsittelylaitokseen, sitä ei aina vain lähetetä eteenpäin supermarketteihin. Usein ruoka käy läpi useita käsittelyvaiheita, kuten laadun mukaan lajittelua. Tämä oli aiemmin manuaalinen prosessi - se alkoi pellolla, kun poimijat keräsivät vain kypsiä hedelmiä, ja tehtaalla hedelmät kulkivat kuljetushihnalla, jossa työntekijät poistivat käsin kolhiintuneet tai pilaantuneet hedelmät. Itsekin olen kesätyönä kouluaikana poiminut ja lajitellut mansikoita, joten voin todeta, ettei tämä ole hauskaa työtä.

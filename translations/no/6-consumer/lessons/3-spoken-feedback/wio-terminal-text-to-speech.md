@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "a202fa5889790a3777bfc33dd9f4b459",
-  "translation_date": "2025-08-27T20:56:10+00:00",
-  "source_file": "6-consumer/lessons/3-spoken-feedback/wio-terminal-text-to-speech.md",
-  "language_code": "no"
-}
--->
 # Tekst til tale - Wio Terminal
 
 I denne delen av leksjonen skal du konvertere tekst til tale for å gi muntlig tilbakemelding.

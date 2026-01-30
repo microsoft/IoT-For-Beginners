@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "5de7dc1e2ddc402d415473bb795568d4",
-  "translation_date": "2025-08-27T20:47:58+00:00",
-  "source_file": "6-consumer/README.md",
-  "language_code": "da"
-}
--->
 # Forbruger-IoT - byg en smart stemmeassistent
 
 Maden er blevet dyrket, kørt til et forarbejdningsanlæg, sorteret for kvalitet, solgt i butikken, og nu er det tid til at lave mad! En af de vigtigste redskaber i ethvert køkken er en timer. Oprindeligt startede disse som timeglas - din mad var færdiglavet, når alt sandet var løbet ned i den nederste beholder. Derefter blev de mekaniske, og senere elektriske.

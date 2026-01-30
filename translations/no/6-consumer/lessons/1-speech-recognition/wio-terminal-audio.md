@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "2f336726b9410e97c3aaed76cc89b0d8",
-  "translation_date": "2025-08-27T21:10:22+00:00",
-  "source_file": "6-consumer/lessons/1-speech-recognition/wio-terminal-audio.md",
-  "language_code": "no"
-}
--->
 # Fange lyd - Wio Terminal
 
 I denne delen av leksjonen skal du skrive kode for å fange lyd på din Wio Terminal. Lydopptak vil bli kontrollert av en av knappene på toppen av Wio Terminal.

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "9c640f93263fd9adbfda920739e09feb",
-  "translation_date": "2025-08-27T22:06:32+00:00",
-  "source_file": "1-getting-started/lessons/3-sensors-and-actuators/virtual-device-actuator.md",
-  "language_code": "da"
-}
--->
 # Byg en natlampe - Virtuel IoT-hardware
 
 I denne del af lektionen vil du tilføje en LED til din virtuelle IoT-enhed og bruge den til at skabe en natlampe.

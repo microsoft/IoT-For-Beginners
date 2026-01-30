@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "d620a470d9dd8614d99824832978360a",
-  "translation_date": "2025-08-27T21:17:19+00:00",
-  "source_file": "6-consumer/lessons/4-multiple-language-support/virtual-device-translate-speech.md",
-  "language_code": "no"
-}
--->
 # Oversett tale - Virtuell IoT-enhet
 
 I denne delen av leksjonen skal du skrive kode for å oversette tale når den konverteres til tekst ved hjelp av tale-tjenesten, deretter oversette tekst ved hjelp av Translator-tjenesten før du genererer et muntlig svar.

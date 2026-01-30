@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "e4f2925acb211765889c3b51b9116ceb",
-  "translation_date": "2025-08-27T21:08:39+00:00",
-  "source_file": "6-consumer/lessons/1-speech-recognition/virtual-device-audio.md",
-  "language_code": "no"
-}
--->
 # Ta opp lyd - Virtuell IoT-enhet
 
 Python-bibliotekene som du senere i denne leksjonen vil bruke for å konvertere tale til tekst, har innebygd lydopptak på Windows, macOS og Linux. Du trenger ikke å gjøre noe her.

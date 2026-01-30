@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "606f3af1c78e3741e48ce77c31cea626",
-  "translation_date": "2025-08-27T20:57:30+00:00",
-  "source_file": "6-consumer/lessons/3-spoken-feedback/pi-text-to-speech.md",
-  "language_code": "no"
-}
--->
 # Tekst til tale - Raspberry Pi
 
 I denne delen av leksjonen skal du skrive kode for å konvertere tekst til tale ved hjelp av tale-tjenesten.

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "4506d33bbda7acc0ab20980172687090",
-  "translation_date": "2025-08-27T20:17:22+00:00",
-  "source_file": "attributions.md",
-  "language_code": "fi"
-}
--->
 # Kuvien tekijänoikeudet
 
 * Banaanit: abderraouf omara, [Noun Project](https://thenounproject.com)

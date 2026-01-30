@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "52b4de6144b2efdced7797a5339d6035",
-  "translation_date": "2025-08-27T22:01:09+00:00",
-  "source_file": "1-getting-started/lessons/1-introduction-to-iot/virtual-device.md",
-  "language_code": "fi"
-}
--->
 # Virtuaalinen yhden piirilevyn tietokone
 
 Sen sijaan, että ostaisit IoT-laitteen, sensoreita ja toimilaitteita, voit käyttää tietokonettasi simuloimaan IoT-laitteistoa. [CounterFit-projekti](https://github.com/CounterFit-IoT/CounterFit) mahdollistaa sovelluksen ajamisen paikallisesti, joka simuloi IoT-laitteistoa, kuten sensoreita ja toimilaitteita, ja pääsyn näihin sensoreihin ja toimilaitteisiin paikallisesta Python-koodista, joka on kirjoitettu samalla tavalla kuin fyysisellä laitteistolla, kuten Raspberry Pi:llä.

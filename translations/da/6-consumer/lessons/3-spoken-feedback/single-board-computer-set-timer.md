@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "64ad4ddb4de81a18b7252e968f10b404",
-  "translation_date": "2025-08-27T20:59:11+00:00",
-  "source_file": "6-consumer/lessons/3-spoken-feedback/single-board-computer-set-timer.md",
-  "language_code": "da"
-}
--->
 # Indstil en timer - Virtuel IoT-hardware og Raspberry Pi
 
 I denne del af lektionen vil du kalde din serverløse kode for at forstå talen og indstille en timer på din virtuelle IoT-enhed eller Raspberry Pi baseret på resultaterne.

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "e9ee00eb5fc55922a73762acc542166b",
-  "translation_date": "2025-08-27T22:04:19+00:00",
-  "source_file": "1-getting-started/lessons/3-sensors-and-actuators/README.md",
-  "language_code": "da"
-}
--->
 # Interager med den fysiske verden med sensorer og aktuatorer
 
 ![En sketchnote oversigt over denne lektion](../../../../../translated_images/da/lesson-3.cc3b7b4cd646de598698cce043c0393fd62ef42bac2eaf60e61272cd844250f4.jpg)

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "4fb20273d299dc8d07a8f06c9cd0cdd9",
-  "translation_date": "2025-08-27T21:21:16+00:00",
-  "source_file": "2-farm/lessons/2-detect-soil-moisture/README.md",
-  "language_code": "fi"
-}
--->
 C, lausuttuna *I-squared-C*, on moniohjaaja-moniperiferia-protokolla, jossa mikä tahansa liitetty laite voi toimia ohjaajana tai perifeerisenä laitteena kommunikoiden I²C-väylän kautta (tietoliikennejärjestelmä, joka siirtää dataa). Data lähetetään osoitteellisina paketteina, joissa jokainen paketti sisältää osoitteen sille laitteelle, jolle se on tarkoitettu.
 
 > 💁 Tätä mallia kutsuttiin aiemmin master/slave-malliksi, mutta terminologiaa ollaan hylkäämässä sen yhteyden vuoksi orjuuteen. [Open Source Hardware Association on ottanut käyttöön ohjaaja/perifeerinen](https://www.oshwa.org/a-resolution-to-redefine-spi-signal-names/), mutta vanhaan terminologiaan voi edelleen törmätä.

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "9c4320311c0f2c1884a6a21265d98a51",
-  "translation_date": "2025-08-27T20:30:33+00:00",
-  "source_file": "5-retail/lessons/2-check-stock-device/single-board-computer-count-stock.md",
-  "language_code": "fi"
-}
--->
 # Laske varasto IoT-laitteellasi - Virtuaalinen IoT-laitteisto ja Raspberry Pi
 
 Ennusteiden ja niiden rajauslaatikoiden yhdistelmää voidaan käyttää laskemaan varastoa kuvasta.

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "a3fdfec1d1e2cb645ea11c2930b51299",
-  "translation_date": "2025-08-27T22:20:53+00:00",
-  "source_file": "5-retail/lessons/2-check-stock-device/single-board-computer-object-detector.md",
-  "language_code": "da"
-}
--->
 # Kald din objektdetektor fra din IoT-enhed - Virtuel IoT-hardware og Raspberry Pi
 
 Når din objektdetektor er blevet publiceret, kan den bruges fra din IoT-enhed.

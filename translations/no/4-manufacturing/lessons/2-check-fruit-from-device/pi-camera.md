@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "c677667095f6133eee418c7e53615d05",
-  "translation_date": "2025-08-27T20:42:23+00:00",
-  "source_file": "4-manufacturing/lessons/2-check-fruit-from-device/pi-camera.md",
-  "language_code": "no"
-}
--->
 # Ta et bilde - Raspberry Pi
 
 I denne delen av leksjonen skal du legge til en kamerasensor på din Raspberry Pi og lese bilder fra den.

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "0d55caa8c23d73635b7559102cd17b8a",
-  "translation_date": "2025-08-27T21:25:02+00:00",
-  "source_file": "2-farm/lessons/2-detect-soil-moisture/wio-terminal-soil-moisture.md",
-  "language_code": "fi"
-}
--->
 # Mittaa maaperän kosteutta - Wio Terminal
 
 Tässä osassa oppituntia lisäät kapasiivisen maaperän kosteusanturin Wio Terminaliin ja luet sen antamia arvoja.

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "9713e21a309662f6fcb271b573d47848",
-  "translation_date": "2026-01-06T06:34:15+00:00",
-  "source_file": "TROUBLESHOOTING.md",
-  "language_code": "da"
-}
--->
 # Fejlfinding
 
 Denne guide hjælper dig med at løse almindelige problemer, når du arbejder med IoT for Beginners pensum. Problemer er organiseret efter kategori for nem navigation.

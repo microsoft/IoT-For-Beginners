@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "1226517aae5f5b6f904434670394c688",
-  "translation_date": "2025-08-27T21:40:48+00:00",
-  "source_file": "1-getting-started/lessons/4-connect-internet/single-board-computer-telemetry.md",
-  "language_code": "fi"
-}
--->
 # Hallitse yövaloa Internetin kautta - Virtuaalinen IoT-laitteisto ja Raspberry Pi
 
 Tässä oppitunnin osassa lähetät telemetriatietoja valotasoista Raspberry Pi -laitteeltasi tai virtuaaliselta IoT-laitteeltasi MQTT-välityspalvelimelle.

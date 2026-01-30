@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "fbbcf96a9b63ccd661db98bbf854bb06",
-  "translation_date": "2025-08-27T22:56:07+00:00",
-  "source_file": "3-transport/lessons/1-location-tracking/wio-terminal-gps-decode.md",
-  "language_code": "fi"
-}
--->
 # Purkaa GPS-data - Wio Terminal
 
 Tässä osassa oppituntia purat Wio Terminalin GPS-anturin lukemat NMEA-viestit ja poimit niistä leveys- ja pituusasteet.

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "0ac0afcfb40cb5970ef4cb74f01c32e9",
-  "translation_date": "2025-08-27T21:04:17+00:00",
-  "source_file": "6-consumer/lessons/1-speech-recognition/pi-audio.md",
-  "language_code": "da"
-}
--->
 # Optag lyd - Raspberry Pi
 
 I denne del af lektionen skal du skrive kode for at optage lyd på din Raspberry Pi. Lydoptagelsen vil blive styret af en knap.

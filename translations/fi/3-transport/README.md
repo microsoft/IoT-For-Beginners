@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "e978534a245b000725ed2a048f943213",
-  "translation_date": "2025-08-27T22:44:13+00:00",
-  "source_file": "3-transport/README.md",
-  "language_code": "fi"
-}
--->
 # Kuljetus tilalta tehtaalle - IoT:n käyttö ruoan toimitusten seuraamiseen
 
 Monet viljelijät kasvattavat ruokaa myyntiin – joko he ovat kaupallisia viljelijöitä, jotka myyvät kaiken kasvattamansa, tai omavaraisviljelijöitä, jotka myyvät ylimääräisen sadon hankkiakseen välttämättömyyksiä. Jollain tavalla ruoka on saatava tilalta kuluttajalle, ja tämä tapahtuu yleensä massakuljetuksilla tiloilta keskuksiin tai jalostuslaitoksiin ja sieltä kauppoihin. Esimerkiksi tomaattiviljelijä korjaa tomaatit, pakkaa ne laatikoihin, lastaa laatikot kuorma-autoon ja toimittaa ne jalostuslaitokseen. Tomaatit lajitellaan, ja sen jälkeen ne toimitetaan kuluttajille jalostettuna ruokana, vähittäismyynnin kautta tai ravintoloissa nautittavaksi.

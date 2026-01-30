@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "22a1d6e49f2a689fe5bfa7802a7241fc",
-  "translation_date": "2025-08-27T22:13:14+00:00",
-  "source_file": "5-retail/README.md",
-  "language_code": "no"
-}
--->
 # Detaljhandel - bruke IoT for å håndtere lagerbeholdning
 
 Det siste stadiet for mat før det når forbrukerne er detaljhandel - markedene, grønnsakshandlerne, supermarkedene og butikkene som selger varer til forbrukerne. Disse butikkene ønsker å sikre at de har varer ute på hyllene for at kundene skal kunne se og kjøpe.

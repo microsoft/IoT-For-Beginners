@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "db44083b4dc6fb06eac83c4f16448940",
-  "translation_date": "2025-08-27T21:53:58+00:00",
-  "source_file": "1-getting-started/lessons/3-sensors-and-actuators/wio-terminal-actuator.md",
-  "language_code": "fi"
-}
--->
 # Rakenna yövalo - Wio Terminal
 
 Tässä osassa oppituntia lisäät LED-valon Wio Terminal -laitteeseesi ja käytät sitä yövalon luomiseen.

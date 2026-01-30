@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "012bbd19f13171be32ac9ba21d4186c2",
-  "translation_date": "2025-08-27T20:18:14+00:00",
-  "source_file": "recommended-learning-model.md",
-  "language_code": "fi"
-}
--->
 # Suositeltu oppimismalli
 
 Parhaiden oppimistulosten saavuttamiseksi **suosittelemme "käänteisen mallin" lähestymistapaa**, kuten tiedelaboratorioissa: opiskelijat työskentelevät projektien parissa oppituntien aikana, jolloin on mahdollisuus keskusteluun, kysymyksiin ja projektien tukemiseen, ja suorittavat luento-osuudet itsenäisesti ennakkoon.

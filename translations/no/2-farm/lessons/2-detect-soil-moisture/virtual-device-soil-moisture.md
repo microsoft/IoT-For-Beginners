@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "2bf65f162bcebd35fbcba5fd245afac4",
-  "translation_date": "2025-08-27T22:27:44+00:00",
-  "source_file": "2-farm/lessons/2-detect-soil-moisture/virtual-device-soil-moisture.md",
-  "language_code": "no"
-}
--->
 # Mål jordfuktighet - Virtuell IoT-maskinvare
 
 I denne delen av leksjonen skal du legge til en kapasitansbasert jordfuktighetssensor til din virtuelle IoT-enhet og lese verdier fra den.

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "e2b1b891b08ef7633d285547fbe73290",
-  "translation_date": "2025-08-27T21:40:42+00:00",
-  "source_file": "1-getting-started/README.md",
-  "language_code": "no"
-}
--->
 # Komme i gang med IoT
 
 I denne delen av læreplanen vil du bli introdusert til Internet of Things og lære de grunnleggende konseptene, inkludert å bygge ditt første 'Hello World'-IoT-prosjekt som kobler til skyen. Dette prosjektet er en nattlampe som lyser opp når lysnivået målt av en sensor synker.

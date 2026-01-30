@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "fbbcf96a9b63ccd661db98bbf854bb06",
-  "translation_date": "2025-08-27T21:25:25+00:00",
-  "source_file": "3-transport/lessons/1-location-tracking/wio-terminal-gps-decode.md",
-  "language_code": "no"
-}
--->
 # Dekode GPS-data - Wio Terminal
 
 I denne delen av leksjonen skal du dekode NMEA-meldinger som leses fra GPS-sensoren av Wio Terminal, og hente ut breddegrad og lengdegrad.

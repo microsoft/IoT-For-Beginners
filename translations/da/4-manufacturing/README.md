@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "3764e089adf2d5801272bc0895f8498b",
-  "translation_date": "2025-08-27T20:24:08+00:00",
-  "source_file": "4-manufacturing/README.md",
-  "language_code": "da"
-}
--->
 # Produktion og forarbejdning - brug af IoT til at forbedre fødevareforarbejdning
 
 Når fødevarer når et centralt knudepunkt eller en forarbejdningsfabrik, bliver de ikke altid bare sendt videre til supermarkeder. Ofte gennemgår fødevarerne en række forarbejdningsprocesser, såsom sortering efter kvalitet. Dette var tidligere en manuel proces - det startede på marken, hvor plukkere kun plukkede modne frugter, og på fabrikken kørte frugten på et transportbånd, hvor medarbejdere manuelt fjernede beskadiget eller rådden frugt. Efter selv at have plukket og sorteret jordbær som sommerjob under skolegangen, kan jeg bekræfte, at det ikke er en sjov opgave.

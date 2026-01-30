@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "22a1d6e49f2a689fe5bfa7802a7241fc",
-  "translation_date": "2025-08-27T22:13:06+00:00",
-  "source_file": "5-retail/README.md",
-  "language_code": "da"
-}
--->
 # Detailhandel - brug af IoT til at håndtere lagerbeholdning
 
 Den sidste fase for fødevarer, før de når forbrugerne, er detailhandel - markeder, grønthandlere, supermarkeder og butikker, der sælger varer til forbrugerne. Disse butikker ønsker at sikre, at de har varer på hylderne, som forbrugerne kan se og købe.

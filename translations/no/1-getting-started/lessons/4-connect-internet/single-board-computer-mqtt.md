@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "90fb93446e03c38f3c0e4009c2471906",
-  "translation_date": "2025-08-27T21:53:37+00:00",
-  "source_file": "1-getting-started/lessons/4-connect-internet/single-board-computer-mqtt.md",
-  "language_code": "no"
-}
--->
 # Kontroller nattlampen din over Internett - Virtuell IoT-maskinvare og Raspberry Pi
 
 IoT-enheten må kodes for å kommunisere med *test.mosquitto.org* ved hjelp av MQTT for å sende telemetridata med lysensoravlesninger, og motta kommandoer for å kontrollere LED-en.

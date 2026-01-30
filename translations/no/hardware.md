@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "3dce18fab38adf93ff30b8c221b1eec5",
-  "translation_date": "2025-08-27T20:19:47+00:00",
-  "source_file": "hardware.md",
-  "language_code": "no"
-}
--->
 # Maskinvare
 
 **T** i IoT står for **Ting** og refererer til enheter som samhandler med omgivelsene. Hvert prosjekt er basert på ekte maskinvare som er tilgjengelig for studenter og hobbyister. Vi har to valg av IoT-maskinvare, avhengig av personlig preferanse, kunnskap eller preferanser for programmeringsspråk, læringsmål og tilgjengelighet. Vi har også laget en 'virtuell maskinvare'-versjon for de som ikke har tilgang til maskinvare, eller som ønsker å lære mer før de bestemmer seg for et kjøp.

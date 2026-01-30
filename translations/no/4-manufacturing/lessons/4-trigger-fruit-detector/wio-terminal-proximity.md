@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "288aebb0c59f7be1d2719b8f9660a313",
-  "translation_date": "2025-08-27T20:32:02+00:00",
-  "source_file": "4-manufacturing/lessons/4-trigger-fruit-detector/wio-terminal-proximity.md",
-  "language_code": "no"
-}
--->
 # Oppdag nærhet - Wio Terminal
 
 I denne delen av leksjonen skal du legge til en nærhetssensor på Wio Terminal og lese avstand fra den.

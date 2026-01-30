@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "3ba7150ffc4a6999f6c3cfb4906ec7df",
-  "translation_date": "2025-08-27T20:43:19+00:00",
-  "source_file": "4-manufacturing/lessons/2-check-fruit-from-device/virtual-device-camera.md",
-  "language_code": "no"
-}
--->
 # Ta et bilde - Virtuell IoT-maskinvare
 
 I denne delen av leksjonen skal du legge til en kamerasensor til din virtuelle IoT-enhet og lese bilder fra den.

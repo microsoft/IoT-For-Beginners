@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "e978534a245b000725ed2a048f943213",
-  "translation_date": "2025-08-27T21:18:18+00:00",
-  "source_file": "3-transport/README.md",
-  "language_code": "da"
-}
--->
 # Transport fra gård til fabrik - brug af IoT til at spore fødevareleverancer
 
 Mange landmænd dyrker fødevarer til salg - enten er de kommercielle landmænd, der sælger alt, hvad de dyrker, eller også er de selvforsynende landmænd, der sælger deres overskudsproduktion for at købe nødvendigheder. På en eller anden måde skal fødevarerne transporteres fra gården til forbrugeren, og dette afhænger normalt af bulktransport fra gårde til knudepunkter eller forarbejdningsanlæg og derefter til butikker. For eksempel vil en tomatdyrker høste tomater, pakke dem i kasser, læsse kasserne på en lastbil og derefter levere dem til et forarbejdningsanlæg. Tomaterne vil derefter blive sorteret og derfra leveret til forbrugerne i form af forarbejdede fødevarer, detailsalg eller som ingredienser på restauranter.

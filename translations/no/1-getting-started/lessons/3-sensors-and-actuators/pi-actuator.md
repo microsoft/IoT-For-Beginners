@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "4db8a3879a53490513571df2f6cf7641",
-  "translation_date": "2025-08-27T22:07:43+00:00",
-  "source_file": "1-getting-started/lessons/3-sensors-and-actuators/pi-actuator.md",
-  "language_code": "no"
-}
--->
 # Bygg en nattlampe - Raspberry Pi
 
 I denne delen av leksjonen skal du legge til en LED på din Raspberry Pi og bruke den til å lage en nattlampe.

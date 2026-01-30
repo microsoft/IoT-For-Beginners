@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "2bf65f162bcebd35fbcba5fd245afac4",
-  "translation_date": "2025-08-27T22:27:30+00:00",
-  "source_file": "2-farm/lessons/2-detect-soil-moisture/virtual-device-soil-moisture.md",
-  "language_code": "da"
-}
--->
 # Mål jordfugtighed - Virtuel IoT-hardware
 
 I denne del af lektionen vil du tilføje en kapacitiv jordfugtighedssensor til din virtuelle IoT-enhed og læse værdier fra den.

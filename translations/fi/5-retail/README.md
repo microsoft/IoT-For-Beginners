@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "22a1d6e49f2a689fe5bfa7802a7241fc",
-  "translation_date": "2025-08-27T20:26:19+00:00",
-  "source_file": "5-retail/README.md",
-  "language_code": "fi"
-}
--->
 # Vähittäiskauppa - IoT:n käyttö varastotasojen hallinnassa
 
 Viimeinen vaihe ennen kuin rehu päätyy kuluttajille on vähittäiskauppa - markkinat, vihanneskaupat, supermarketit ja myymälät, jotka myyvät tuotteita kuluttajille. Nämä myymälät haluavat varmistaa, että hyllyillä on tuotteita, joita kuluttajat voivat nähdä ja ostaa.

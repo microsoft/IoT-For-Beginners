@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "5a94fbab1ba737e9bd6cc6c64f114fa0",
-  "translation_date": "2025-08-27T20:22:17+00:00",
-  "source_file": "clean-up.md",
-  "language_code": "da"
-}
--->
 # Ryd op i dit projekt
 
 Når du har afsluttet hvert projekt, er det en god idé at slette dine cloudressourcer.

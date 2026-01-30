@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "1226517aae5f5b6f904434670394c688",
-  "translation_date": "2025-08-27T21:52:02+00:00",
-  "source_file": "1-getting-started/lessons/4-connect-internet/single-board-computer-telemetry.md",
-  "language_code": "no"
-}
--->
 # Kontroller nattlyset ditt over Internett - Virtuell IoT-maskinvare og Raspberry Pi
 
 I denne delen av leksjonen skal du sende telemetri med lysnivåer fra din Raspberry Pi eller virtuelle IoT-enhet til en MQTT-broker.

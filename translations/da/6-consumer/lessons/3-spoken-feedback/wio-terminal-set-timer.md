@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "012b69d57d898d670adf61304f42a137",
-  "translation_date": "2025-08-27T20:58:09+00:00",
-  "source_file": "6-consumer/lessons/3-spoken-feedback/wio-terminal-set-timer.md",
-  "language_code": "da"
-}
--->
 # Indstil en timer - Wio Terminal
 
 I denne del af lektionen vil du kalde din serverløse kode for at forstå talen og indstille en timer på din Wio Terminal baseret på resultaterne.

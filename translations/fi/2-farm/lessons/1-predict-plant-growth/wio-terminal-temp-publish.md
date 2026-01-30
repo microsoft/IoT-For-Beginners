@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "df28cd649cd892bcce034e064913b2f3",
-  "translation_date": "2025-08-27T21:05:59+00:00",
-  "source_file": "2-farm/lessons/1-predict-plant-growth/wio-terminal-temp-publish.md",
-  "language_code": "fi"
-}
--->
 # Julkaise lämpötila - Wio Terminal
 
 Tässä oppitunnin osassa julkaiset Wio Terminalin havaitsemat lämpötilaarvot MQTT:n kautta, jotta niitä voidaan myöhemmin käyttää GDD:n laskemiseen.

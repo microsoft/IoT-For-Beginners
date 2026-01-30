@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "e5896207b304ce1abaf065b8acc0cc79",
-  "translation_date": "2025-08-27T20:46:19+00:00",
-  "source_file": "4-manufacturing/lessons/2-check-fruit-from-device/single-board-computer-classify-image.md",
-  "language_code": "da"
-}
--->
 # Klassificér et billede - Virtuel IoT-hardware og Raspberry Pi
 
 I denne del af lektionen vil du sende det billede, som kameraet har taget, til Custom Vision-tjenesten for at klassificere det.

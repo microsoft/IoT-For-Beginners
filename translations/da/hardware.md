@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "3dce18fab38adf93ff30b8c221b1eec5",
-  "translation_date": "2025-08-27T20:19:20+00:00",
-  "source_file": "hardware.md",
-  "language_code": "da"
-}
--->
 # Hardware
 
 **T**'et i IoT står for **Things** og refererer til enheder, der interagerer med verden omkring os. Hvert projekt er baseret på fysisk hardware, som er tilgængelig for studerende og hobbyister. Vi har to valgmuligheder for IoT-hardware, afhængigt af personlig præference, programmeringssprog, læringsmål og tilgængelighed. Vi har også en 'virtuel hardware'-version til dem, der ikke har adgang til hardware, eller som ønsker at lære mere, før de investerer i et køb.

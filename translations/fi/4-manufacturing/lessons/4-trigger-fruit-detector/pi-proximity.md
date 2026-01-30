@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "6145a1d791731c8a9d0afd0a1bae5108",
-  "translation_date": "2025-08-27T20:56:14+00:00",
-  "source_file": "4-manufacturing/lessons/4-trigger-fruit-detector/pi-proximity.md",
-  "language_code": "fi"
-}
--->
 # Tunnista läheisyys - Raspberry Pi
 
 Tässä osassa oppituntia lisäät läheisyyssensorin Raspberry Pi:hin ja luet etäisyyden siitä.

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "012bbd19f13171be32ac9ba21d4186c2",
-  "translation_date": "2025-08-27T20:14:59+00:00",
-  "source_file": "recommended-learning-model.md",
-  "language_code": "no"
-}
--->
 # Anbefalt læringsmodell
 
 For de mest effektive læringsresultatene **anbefaler vi en “Flipped Model"-tilnærming** som i naturfagslaboratorier: studentene jobber med prosjekter i løpet av klassetiden, med muligheter for diskusjon, spørsmål og prosjektstøtte, og gjennomgår forelesningselementene som forberedelse på egen hånd.

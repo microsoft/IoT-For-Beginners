@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "e2b1b891b08ef7633d285547fbe73290",
-  "translation_date": "2025-08-27T21:39:55+00:00",
-  "source_file": "1-getting-started/README.md",
-  "language_code": "fi"
-}
--->
 # Aloitus IoT:n parissa
 
 Tässä opetussuunnitelman osiossa tutustut esineiden internetiin (IoT) ja opit peruskäsitteitä, mukaan lukien ensimmäisen 'Hello World' IoT-projektisi rakentamisen ja pilveen yhdistämisen. Tämä projekti on yövalo, joka syttyy, kun anturin mittaama valotaso laskee.

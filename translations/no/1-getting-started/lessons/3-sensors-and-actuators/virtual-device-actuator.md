@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "9c640f93263fd9adbfda920739e09feb",
-  "translation_date": "2025-08-27T22:06:46+00:00",
-  "source_file": "1-getting-started/lessons/3-sensors-and-actuators/virtual-device-actuator.md",
-  "language_code": "no"
-}
--->
 # Bygg en nattlampe - Virtuell IoT-maskinvare
 
 I denne delen av leksjonen skal du legge til en LED på din virtuelle IoT-enhet og bruke den til å lage en nattlampe.

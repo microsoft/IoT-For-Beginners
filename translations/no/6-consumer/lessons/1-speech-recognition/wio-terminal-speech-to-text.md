@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "3f92edf2975175577174910caca4a389",
-  "translation_date": "2025-08-27T21:12:05+00:00",
-  "source_file": "6-consumer/lessons/1-speech-recognition/wio-terminal-speech-to-text.md",
-  "language_code": "no"
-}
--->
 # Tale til tekst - Wio Terminal
 
 I denne delen av leksjonen skal du skrive kode for å konvertere tale i det innspilte lydopptaket til tekst ved hjelp av taleservicen.

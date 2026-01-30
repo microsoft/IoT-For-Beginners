@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "c677667095f6133eee418c7e53615d05",
-  "translation_date": "2025-08-27T20:40:57+00:00",
-  "source_file": "4-manufacturing/lessons/2-check-fruit-from-device/pi-camera.md",
-  "language_code": "fi"
-}
--->
 # Tallenna kuva - Raspberry Pi
 
 Tässä osassa oppituntia lisäät kameran sensorin Raspberry Pi:hin ja luet kuvia siitä.

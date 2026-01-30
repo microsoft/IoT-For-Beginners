@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "7a65ee743f916276a2848b8a9491feb7",
-  "translation_date": "2025-08-27T21:03:39+00:00",
-  "source_file": "6-consumer/lessons/1-speech-recognition/virtual-device-microphone.md",
-  "language_code": "da"
-}
--->
 # Konfigurer din mikrofon og dine højttalere - Virtuel IoT-hardware
 
 Den virtuelle IoT-hardware vil bruge en mikrofon og højttalere, der er tilsluttet din computer.

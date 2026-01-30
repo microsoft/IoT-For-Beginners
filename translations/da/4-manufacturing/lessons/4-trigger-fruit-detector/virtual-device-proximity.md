@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "7e9f05bdc50a40fd924b1d66934471bf",
-  "translation_date": "2025-08-27T20:33:15+00:00",
-  "source_file": "4-manufacturing/lessons/4-trigger-fruit-detector/virtual-device-proximity.md",
-  "language_code": "da"
-}
--->
 # Registrer nærhed - Virtuel IoT-hardware
 
 I denne del af lektionen vil du tilføje en nærhedssensor til din virtuelle IoT-enhed og aflæse afstand fra den.

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "6f4ba69d77f16c4a5110623a96a215c3",
-  "translation_date": "2025-08-27T20:50:59+00:00",
-  "source_file": "6-consumer/lessons/2-language-understanding/README.md",
-  "language_code": "no"
-}
--->
 # Forstå språk
 
 ![En sketchnote-oversikt over denne leksjonen](../../../../../translated_images/no/lesson-22.6148ea28500d9e00c396aaa2649935fb6641362c8f03d8e5e90a676977ab01dd.jpg)

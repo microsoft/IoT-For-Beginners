@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "f8f541ee945545017a51aaf309aa37c3",
-  "translation_date": "2025-08-27T22:57:05+00:00",
-  "source_file": "2-farm/lessons/3-automated-plant-watering/virtual-device-relay.md",
-  "language_code": "no"
-}
--->
 # Kontrollere et relé - Virtuell IoT-maskinvare
 
 I denne delen av leksjonen skal du legge til et relé til din virtuelle IoT-enhet i tillegg til jordfuktighetssensoren, og styre det basert på jordfuktighetsnivået.

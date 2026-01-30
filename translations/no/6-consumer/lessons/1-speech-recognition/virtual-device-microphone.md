@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "7a65ee743f916276a2848b8a9491feb7",
-  "translation_date": "2025-08-27T21:03:46+00:00",
-  "source_file": "6-consumer/lessons/1-speech-recognition/virtual-device-microphone.md",
-  "language_code": "no"
-}
--->
 # Konfigurer mikrofonen og høyttalerne dine - Virtuell IoT-maskinvare
 
 Den virtuelle IoT-maskinvaren vil bruke en mikrofon og høyttalere som er koblet til datamaskinen din.

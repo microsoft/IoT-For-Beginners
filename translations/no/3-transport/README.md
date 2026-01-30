@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "e978534a245b000725ed2a048f943213",
-  "translation_date": "2025-08-27T21:18:30+00:00",
-  "source_file": "3-transport/README.md",
-  "language_code": "no"
-}
--->
 # Transport fra gård til fabrikk - bruk av IoT for å spore matleveranser
 
 Mange bønder dyrker mat for å selge - enten de er kommersielle bønder som selger alt de dyrker, eller de er selvforsynte bønder som selger overskuddet for å kjøpe nødvendigheter. På en eller annen måte må maten komme fra gården til forbrukeren, og dette innebærer vanligvis transport i store mengder fra gårder, til knutepunkter eller prosesseringsanlegg, og deretter til butikker. For eksempel vil en tomatbonde høste tomater, pakke dem i kasser, laste kassene på en lastebil og levere dem til et prosesseringsanlegg. Tomatene vil deretter bli sortert, og fra der levert til forbrukerne i form av bearbeidet mat, detaljhandel eller konsumert på restauranter.

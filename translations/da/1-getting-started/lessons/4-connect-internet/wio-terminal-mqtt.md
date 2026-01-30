@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "d6faf0e8d3c2d6d20c0aef2a305dab18",
-  "translation_date": "2025-08-27T21:50:47+00:00",
-  "source_file": "1-getting-started/lessons/4-connect-internet/wio-terminal-mqtt.md",
-  "language_code": "da"
-}
--->
 # Styr din natlampe over internettet - Wio Terminal
 
 IoT-enheden skal kodes til at kommunikere med *test.mosquitto.org* ved hjælp af MQTT for at sende telemetriværdier med lysfølerens aflæsning og modtage kommandoer til at styre LED'en.

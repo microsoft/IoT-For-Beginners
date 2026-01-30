@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "c0550b254b9ba2539baf1e6bb5fc05f8",
-  "translation_date": "2025-08-27T21:05:25+00:00",
-  "source_file": "6-consumer/lessons/1-speech-recognition/virtual-device-speech-to-text.md",
-  "language_code": "da"
-}
--->
 # Tale til tekst - Virtuel IoT-enhed
 
 I denne del af lektionen vil du skrive kode til at konvertere tale, der er optaget fra din mikrofon, til tekst ved hjælp af tale-tjenesten.

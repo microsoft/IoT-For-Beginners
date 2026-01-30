@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "428bda82d9e6016ecea7c797564bf081",
-  "translation_date": "2025-08-27T20:58:23+00:00",
-  "source_file": "2-farm/README.md",
-  "language_code": "fi"
-}
--->
 # Maatalous IoT:n avulla
 
 Kun väestö kasvaa, myös maatalouden kysyntä kasvaa. Käytettävissä olevan maan määrä ei muutu, mutta ilmasto muuttuu – tuoden viljelijöille entistä enemmän haasteita, erityisesti 2 miljardille [omavaraisviljelijälle](https://wikipedia.org/wiki/Subsistence_agriculture), jotka ovat riippuvaisia siitä, mitä he kasvattavat syödäkseen ja ruokkien perheensä. IoT voi auttaa viljelijöitä tekemään älykkäämpiä päätöksiä siitä, mitä viljellä ja milloin korjata sato, lisäämään tuottavuutta, vähentämään manuaalisen työn määrää sekä havaitsemaan ja torjumaan tuholaisia.

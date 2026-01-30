@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "428bda82d9e6016ecea7c797564bf081",
-  "translation_date": "2025-08-27T22:21:43+00:00",
-  "source_file": "2-farm/README.md",
-  "language_code": "no"
-}
--->
 # Jordbruk med IoT
 
 Når befolkningen vokser, øker også presset på jordbruket. Mengden tilgjengelig land endrer seg ikke, men klimaet gjør det – noe som gir enda flere utfordringer for bønder, spesielt de 2 milliarder [selvbergingsbøndene](https://wikipedia.org/wiki/Subsistence_agriculture) som er avhengige av det de dyrker for å kunne spise og forsørge familiene sine. IoT kan hjelpe bønder med å ta smartere beslutninger om hva de skal dyrke og når de skal høste, øke avlingene, redusere mengden manuelt arbeid, og oppdage og håndtere skadedyr.

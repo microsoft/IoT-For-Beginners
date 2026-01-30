@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "50abd54997afa7e7a3fc7019379e49e3",
-  "translation_date": "2025-08-27T20:26:00+00:00",
-  "source_file": "images/README.md",
-  "language_code": "fi"
-}
--->
 # Kuvat
 
 [icons](../../../images/icons)-kansiossa olevat kuvat ovat peräisin [Noun Project](https://thenounproject.com) -sivustolta ja vaativat tekijän mainitsemista. Jokaisen kuvan yhteydessä on mainittu tarvittava attribuutio. Näitä kuvia tulisi käyttää kaikissa kaavioissa, joissa niitä tarvitaan, jotta visuaalinen ilme pysyy yhtenäisenä.

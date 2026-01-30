@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "32a1f23e7834fbe7715da8c4ebb450b9",
-  "translation_date": "2025-08-27T20:47:28+00:00",
-  "source_file": "4-manufacturing/lessons/2-check-fruit-from-device/wio-terminal-classify-image.md",
-  "language_code": "no"
-}
--->
 # Klassifiser et bilde - Wio Terminal
 
 I denne delen av leksjonen skal du sende bildet som kameraet har tatt til Custom Vision-tjenesten for å klassifisere det.

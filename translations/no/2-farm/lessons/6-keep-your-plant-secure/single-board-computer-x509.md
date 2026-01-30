@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "9aea84bcc7520222b0e1c50469d62d6a",
-  "translation_date": "2025-08-27T22:38:59+00:00",
-  "source_file": "2-farm/lessons/6-keep-your-plant-secure/single-board-computer-x509.md",
-  "language_code": "no"
-}
--->
 # Bruk X.509-sertifikatet i enhetskoden din - Virtuell IoT-maskinvare og Raspberry Pi
 
 I denne delen av leksjonen skal du koble din virtuelle IoT-enhet eller Raspberry Pi til IoT Hub ved hjelp av X.509-sertifikatet.

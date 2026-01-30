@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "5de7dc1e2ddc402d415473bb795568d4",
-  "translation_date": "2025-08-27T22:12:25+00:00",
-  "source_file": "6-consumer/README.md",
-  "language_code": "fi"
-}
--->
 # Kuluttaja-IoT - rakenna älykäs ääniavustaja
 
 Ruoka on kasvatettu, kuljetettu jalostuslaitokseen, lajiteltu laadun mukaan, myyty kaupassa ja nyt on aika kokata! Yksi keittiön tärkeimmistä välineistä on ajastin. Aluksi nämä olivat tiimalaseja - ruoka oli valmis, kun kaikki hiekka oli valunut alas alaosaan. Sitten siirryttiin kellokoneistoihin ja lopulta sähköisiin ajastimiin.

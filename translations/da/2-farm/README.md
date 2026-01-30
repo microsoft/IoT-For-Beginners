@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "428bda82d9e6016ecea7c797564bf081",
-  "translation_date": "2025-08-27T22:21:33+00:00",
-  "source_file": "2-farm/README.md",
-  "language_code": "da"
-}
--->
 # Landbrug med IoT
 
 Efterhånden som befolkningen vokser, øges også presset på landbruget. Mængden af tilgængelig jord ændrer sig ikke, men klimaet gør - hvilket giver endnu flere udfordringer for landmænd, især de 2 milliarder [subsistenslandmænd](https://wikipedia.org/wiki/Subsistence_agriculture), der er afhængige af det, de dyrker, for at kunne spise og forsørge deres familier. IoT kan hjælpe landmænd med at træffe smartere beslutninger om, hvad de skal dyrke, og hvornår de skal høste, øge udbyttet, reducere mængden af manuelt arbejde og opdage samt håndtere skadedyr.

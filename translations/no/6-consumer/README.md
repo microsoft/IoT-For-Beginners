@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "5de7dc1e2ddc402d415473bb795568d4",
-  "translation_date": "2025-08-27T20:48:07+00:00",
-  "source_file": "6-consumer/README.md",
-  "language_code": "no"
-}
--->
 # Forbruker-IoT - bygg en smart stemmeassistent
 
 Maten er dyrket, fraktet til et prosesseringsanlegg, sortert for kvalitet, solgt i butikken, og nå er det tid for å lage mat! En av de viktigste delene i ethvert kjøkken er en timer. Opprinnelig startet disse som timeglass - maten din var ferdig når alt sanden hadde rent ned i den nederste kolben. Deretter ble de mekaniske, og så elektriske.

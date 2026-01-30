@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "3764e089adf2d5801272bc0895f8498b",
-  "translation_date": "2025-08-27T20:24:19+00:00",
-  "source_file": "4-manufacturing/README.md",
-  "language_code": "no"
-}
--->
 # Produksjon og bearbeiding - bruke IoT for å forbedre bearbeiding av mat
 
 Når mat når et sentralt knutepunkt eller et bearbeidingsanlegg, blir det ikke alltid bare sendt videre til supermarkeder. Ofte går maten gjennom en rekke bearbeidingssteg, som for eksempel sortering etter kvalitet. Dette var tidligere en manuell prosess – det startet på åkeren der plukkere kun tok modne frukter, og deretter på fabrikken ble frukten transportert på et samlebånd hvor ansatte manuelt fjernet skadet eller råtten frukt. Etter å ha plukket og sortert jordbær selv som sommerjobb under skolegangen, kan jeg bekrefte at dette ikke er en morsom jobb.

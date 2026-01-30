@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "c06b12caf3c901eb3156e3dd5b0aea56",
-  "translation_date": "2025-08-27T20:23:13+00:00",
-  "source_file": "CODE_OF_CONDUCT.md",
-  "language_code": "da"
-}
--->
 # Microsoft Open Source Adfærdskodeks
 
 Dette projekt har vedtaget [Microsoft Open Source Adfærdskodeks](https://opensource.microsoft.com/codeofconduct/).

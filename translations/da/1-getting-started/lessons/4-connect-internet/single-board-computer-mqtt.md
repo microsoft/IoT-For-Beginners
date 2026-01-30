@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "90fb93446e03c38f3c0e4009c2471906",
-  "translation_date": "2025-08-27T21:53:24+00:00",
-  "source_file": "1-getting-started/lessons/4-connect-internet/single-board-computer-mqtt.md",
-  "language_code": "da"
-}
--->
 # Styr din natlampe over internettet - Virtuel IoT-hardware og Raspberry Pi
 
 IoT-enheden skal kodes til at kommunikere med *test.mosquitto.org* ved hjælp af MQTT for at sende telemetridata med lysfølerens aflæsninger og modtage kommandoer til at styre LED'en.

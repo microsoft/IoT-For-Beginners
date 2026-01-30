@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "9c4320311c0f2c1884a6a21265d98a51",
-  "translation_date": "2025-08-27T22:18:53+00:00",
-  "source_file": "5-retail/lessons/2-check-stock-device/single-board-computer-count-stock.md",
-  "language_code": "da"
-}
--->
 # Tæl lager fra din IoT-enhed - Virtuel IoT-hardware og Raspberry Pi
 
 En kombination af forudsigelserne og deres afgrænsningsbokse kan bruges til at tælle lager på et billede.

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "7e45d884493c5222348b43fbc4481b6a",
-  "translation_date": "2025-08-27T21:07:25+00:00",
-  "source_file": "6-consumer/lessons/1-speech-recognition/pi-microphone.md",
-  "language_code": "no"
-}
--->
 # Konfigurer mikrofon og høyttalere - Raspberry Pi
 
 I denne delen av leksjonen skal du legge til en mikrofon og høyttalere til din Raspberry Pi.

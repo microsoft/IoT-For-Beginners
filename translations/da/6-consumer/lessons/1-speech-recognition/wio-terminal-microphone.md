@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "93d352de36526b8990e41dd538100324",
-  "translation_date": "2025-08-27T21:06:06+00:00",
-  "source_file": "6-consumer/lessons/1-speech-recognition/wio-terminal-microphone.md",
-  "language_code": "da"
-}
--->
 # Konfigurer din mikrofon og højttalere - Wio Terminal
 
 I denne del af lektionen vil du tilføje højttalere til din Wio Terminal. Wio Terminal har allerede en indbygget mikrofon, som kan bruges til at optage tale.

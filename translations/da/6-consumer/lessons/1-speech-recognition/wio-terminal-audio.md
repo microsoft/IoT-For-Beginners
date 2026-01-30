@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "2f336726b9410e97c3aaed76cc89b0d8",
-  "translation_date": "2025-08-27T21:09:42+00:00",
-  "source_file": "6-consumer/lessons/1-speech-recognition/wio-terminal-audio.md",
-  "language_code": "da"
-}
--->
 # Optag lyd - Wio Terminal
 
 I denne del af lektionen skal du skrive kode til at optage lyd på din Wio Terminal. Lydoptagelsen vil blive styret af en af knapperne på toppen af Wio Terminal.

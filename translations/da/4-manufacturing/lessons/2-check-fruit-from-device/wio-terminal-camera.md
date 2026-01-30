@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "160be8c0f558687f6686dca64f10f739",
-  "translation_date": "2025-08-27T20:44:15+00:00",
-  "source_file": "4-manufacturing/lessons/2-check-fruit-from-device/wio-terminal-camera.md",
-  "language_code": "da"
-}
--->
 # Tag et billede - Wio Terminal
 
 I denne del af lektionen vil du tilføje et kamera til din Wio Terminal og tage billeder med det.

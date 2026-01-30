@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "11f10c6760fb8202cf368422702fdf70",
-  "translation_date": "2025-08-27T22:09:57+00:00",
-  "source_file": "1-getting-started/lessons/3-sensors-and-actuators/virtual-device-sensor.md",
-  "language_code": "da"
-}
--->
 # Byg en natlampe - Virtuel IoT-hardware
 
 I denne del af lektionen vil du tilføje en lyssensor til din virtuelle IoT-enhed.

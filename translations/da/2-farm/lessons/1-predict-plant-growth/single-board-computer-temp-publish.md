@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "4efc74299e19f5d08f2f3f34451a11ba",
-  "translation_date": "2025-08-27T22:50:54+00:00",
-  "source_file": "2-farm/lessons/1-predict-plant-growth/single-board-computer-temp-publish.md",
-  "language_code": "da"
-}
--->
 # Udgiv temperatur - Virtuel IoT-hardware og Raspberry Pi
 
 I denne del af lektionen vil du udgive temperaturværdier, der er registreret af Raspberry Pi eller Virtuel IoT-enhed via MQTT, så de senere kan bruges til at beregne GDD.

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "93d352de36526b8990e41dd538100324",
-  "translation_date": "2025-08-27T21:06:24+00:00",
-  "source_file": "6-consumer/lessons/1-speech-recognition/wio-terminal-microphone.md",
-  "language_code": "no"
-}
--->
 # Konfigurer mikrofon og høyttalere - Wio Terminal
 
 I denne delen av leksjonen skal du legge til høyttalere til din Wio Terminal. Wio Terminal har allerede en innebygd mikrofon som kan brukes til å fange opp tale.

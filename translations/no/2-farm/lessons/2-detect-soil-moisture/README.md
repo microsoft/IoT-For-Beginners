@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "4fb20273d299dc8d07a8f06c9cd0cdd9",
-  "translation_date": "2025-08-27T22:26:31+00:00",
-  "source_file": "2-farm/lessons/2-detect-soil-moisture/README.md",
-  "language_code": "no"
-}
--->
 C, uttalt *I-kvadrat-C*, er en fler-kontroller, fler-periferiprotokoll, der alle tilkoblede enheter kan fungere som enten kontroller eller periferiutstyr som kommuniserer over I²C-bussen (navnet på et kommunikasjonssystem som overfører data). Data sendes som adresserte pakker, hvor hver pakke inneholder adressen til den tilkoblede enheten den er ment for.
 
 > 💁 Denne modellen ble tidligere referert til som master/slave, men denne terminologien er i ferd med å fases ut på grunn av dens assosiasjon med slaveri. [Open Source Hardware Association har vedtatt kontroller/periferi](https://www.oshwa.org/a-resolution-to-redefine-spi-signal-names/), men du kan fortsatt se referanser til den gamle terminologien.
