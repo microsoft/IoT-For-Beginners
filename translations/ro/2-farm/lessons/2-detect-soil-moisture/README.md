@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "4fb20273d299dc8d07a8f06c9cd0cdd9",
-  "translation_date": "2025-08-28T10:59:09+00:00",
-  "source_file": "2-farm/lessons/2-detect-soil-moisture/README.md",
-  "language_code": "ro"
-}
--->
 C, pronunțat *I-squared-C*, este un protocol multi-controler, multi-periferic, în care orice dispozitiv conectat poate acționa ca un controler sau periferic comunicând prin intermediul magistralei I²C (numele pentru un sistem de comunicare care transferă date). Datele sunt trimise sub formă de pachete adresate, fiecare pachet conținând adresa dispozitivului conectat căruia îi este destinat.
 
 > 💁 Acest model era denumit anterior master/slave, dar această terminologie este abandonată din cauza asocierii sale cu sclavia. [Asociația de Hardware Open Source a adoptat termenii controler/periferic](https://www.oshwa.org/a-resolution-to-redefine-spi-signal-names/), dar este posibil să mai întâlniți referințe la vechea terminologie.

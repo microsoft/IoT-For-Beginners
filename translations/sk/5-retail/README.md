@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "22a1d6e49f2a689fe5bfa7802a7241fc",
-  "translation_date": "2025-08-28T10:42:24+00:00",
-  "source_file": "5-retail/README.md",
-  "language_code": "sk"
-}
--->
 # Retail - využitie IoT na správu úrovní zásob
 
 Poslednou etapou, než sa krmivo dostane k spotrebiteľom, je maloobchod - trhy, zeleninárne, supermarkety a obchody, ktoré predávajú produkty spotrebiteľom. Tieto obchody chcú zabezpečiť, aby mali na regáloch produkty, ktoré si spotrebitelia môžu prezrieť a kúpiť.

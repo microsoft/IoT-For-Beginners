@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "3ba7150ffc4a6999f6c3cfb4906ec7df",
-  "translation_date": "2025-08-28T08:42:40+00:00",
-  "source_file": "4-manufacturing/lessons/2-check-fruit-from-device/virtual-device-camera.md",
-  "language_code": "sk"
-}
--->
 # Zachytenie obrázku - Virtuálny IoT hardvér
 
 V tejto časti lekcie pridáte k svojmu virtuálnemu IoT zariadeniu kamerový senzor a prečítate z neho obrázky.

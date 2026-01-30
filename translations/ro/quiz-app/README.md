@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "2a459ea9177fb0508ca96068ae1009d2",
-  "translation_date": "2025-08-28T10:41:53+00:00",
-  "source_file": "quiz-app/README.md",
-  "language_code": "ro"
-}
--->
 # Chestionare
 
 Aceste chestionare sunt cele de dinainte și după lecții pentru curriculumul IoT pentru Începători la https://aka.ms/iot-beginners

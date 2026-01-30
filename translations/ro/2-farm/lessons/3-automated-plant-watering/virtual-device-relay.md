@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "f8f541ee945545017a51aaf309aa37c3",
-  "translation_date": "2025-08-28T11:41:29+00:00",
-  "source_file": "2-farm/lessons/3-automated-plant-watering/virtual-device-relay.md",
-  "language_code": "ro"
-}
--->
 # Controlează un releu - Hardware IoT Virtual
 
 În această parte a lecției, vei adăuga un releu dispozitivului tău IoT virtual, pe lângă senzorul de umiditate a solului, și îl vei controla în funcție de nivelul de umiditate a solului.

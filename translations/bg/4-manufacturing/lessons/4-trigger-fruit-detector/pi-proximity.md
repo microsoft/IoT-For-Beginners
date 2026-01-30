@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "6145a1d791731c8a9d0afd0a1bae5108",
-  "translation_date": "2025-08-28T08:26:39+00:00",
-  "source_file": "4-manufacturing/lessons/4-trigger-fruit-detector/pi-proximity.md",
-  "language_code": "bg"
-}
--->
 # Откриване на близост - Raspberry Pi
 
 В тази част от урока ще добавите сензор за близост към вашия Raspberry Pi и ще четете разстояние от него.

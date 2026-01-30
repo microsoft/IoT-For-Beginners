@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "50abd54997afa7e7a3fc7019379e49e3",
-  "translation_date": "2025-08-28T10:41:13+00:00",
-  "source_file": "images/README.md",
-  "language_code": "sk"
-}
--->
 # Obrázky
 
 Obrázky v priečinku [icons](../../../images/icons) pochádzajú z [Noun Project](https://thenounproject.com) a vyžadujú uvedenie autorstva. Každý obrázok obsahuje potrebné informácie o autorstve. Tieto obrázky by sa mali používať v akýchkoľvek diagramoch, ktoré ich potrebujú, aby sa zachovala konzistentnosť vizuálov.

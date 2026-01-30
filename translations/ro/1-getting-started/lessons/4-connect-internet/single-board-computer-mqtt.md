@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "90fb93446e03c38f3c0e4009c2471906",
-  "translation_date": "2025-08-28T10:14:57+00:00",
-  "source_file": "1-getting-started/lessons/4-connect-internet/single-board-computer-mqtt.md",
-  "language_code": "ro"
-}
--->
 # Controlează-ți lampa de veghe prin Internet - Hardware IoT Virtual și Raspberry Pi
 
 Dispozitivul IoT trebuie să fie programat pentru a comunica cu *test.mosquitto.org* folosind MQTT, pentru a trimite valori de telemetrie cu citirea senzorului de lumină și pentru a primi comenzi pentru a controla LED-ul.

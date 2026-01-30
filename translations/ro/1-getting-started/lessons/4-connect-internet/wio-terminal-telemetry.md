@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "4bcc29fe2b65e56eada83d2476279227",
-  "translation_date": "2025-08-28T10:14:15+00:00",
-  "source_file": "1-getting-started/lessons/4-connect-internet/wio-terminal-telemetry.md",
-  "language_code": "ro"
-}
--->
 # Controlează lumina de noapte prin Internet - Wio Terminal
 
 În această parte a lecției, vei trimite telemetrie cu nivelurile de lumină de la Wio Terminal către brokerul MQTT.

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "0d55caa8c23d73635b7559102cd17b8a",
-  "translation_date": "2025-08-28T11:05:10+00:00",
-  "source_file": "2-farm/lessons/2-detect-soil-moisture/wio-terminal-soil-moisture.md",
-  "language_code": "ro"
-}
--->
 # Măsurarea umidității solului - Wio Terminal
 
 În această parte a lecției, vei adăuga un senzor capacitiv de umiditate a solului la Wio Terminal și vei citi valorile de la acesta.

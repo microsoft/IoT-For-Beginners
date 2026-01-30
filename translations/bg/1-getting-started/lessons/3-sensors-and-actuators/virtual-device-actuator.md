@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "9c640f93263fd9adbfda920739e09feb",
-  "translation_date": "2025-08-28T10:33:30+00:00",
-  "source_file": "1-getting-started/lessons/3-sensors-and-actuators/virtual-device-actuator.md",
-  "language_code": "bg"
-}
--->
 # Създаване на нощна лампа - Виртуален IoT хардуер
 
 В тази част от урока ще добавите LED към вашето виртуално IoT устройство и ще го използвате, за да създадете нощна лампа.

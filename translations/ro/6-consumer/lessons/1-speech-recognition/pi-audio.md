@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "0ac0afcfb40cb5970ef4cb74f01c32e9",
-  "translation_date": "2025-08-28T09:11:59+00:00",
-  "source_file": "6-consumer/lessons/1-speech-recognition/pi-audio.md",
-  "language_code": "ro"
-}
--->
 # Capturarea audio - Raspberry Pi
 
 În această parte a lecției, vei scrie cod pentru a captura audio pe Raspberry Pi-ul tău. Capturarea audio va fi controlată de un buton.

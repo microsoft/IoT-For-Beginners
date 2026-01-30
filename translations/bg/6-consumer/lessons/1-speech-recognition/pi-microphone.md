@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "7e45d884493c5222348b43fbc4481b6a",
-  "translation_date": "2025-08-28T09:16:24+00:00",
-  "source_file": "6-consumer/lessons/1-speech-recognition/pi-microphone.md",
-  "language_code": "bg"
-}
--->
 # Конфигуриране на микрофон и високоговорители - Raspberry Pi
 
 В тази част от урока ще добавите микрофон и високоговорители към вашия Raspberry Pi.

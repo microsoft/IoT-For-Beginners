@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "66b81165e60f8f169bd52a401b6a0f8b",
-  "translation_date": "2025-08-28T11:42:37+00:00",
-  "source_file": "2-farm/lessons/3-automated-plant-watering/pi-relay.md",
-  "language_code": "ro"
-}
--->
 # Controlați un releu - Raspberry Pi
 
 În această parte a lecției, veți adăuga un releu la Raspberry Pi, pe lângă senzorul de umiditate a solului, și îl veți controla în funcție de nivelul de umiditate a solului.

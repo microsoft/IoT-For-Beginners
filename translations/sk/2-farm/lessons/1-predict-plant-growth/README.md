@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "d105b44deae539165855c976dcdeca99",
-  "translation_date": "2025-08-28T11:28:44+00:00",
-  "source_file": "2-farm/lessons/1-predict-plant-growth/README.md",
-  "language_code": "sk"
-}
--->
 ## Predpovedajte rast rastlín pomocou IoT
 
 ![Prehľad tejto lekcie v sketchnote](../../../../../translated_images/sk/lesson-5.42b234299279d263143148b88ab4583861a32ddb03110c6c1120e41bb88b2592.jpg)

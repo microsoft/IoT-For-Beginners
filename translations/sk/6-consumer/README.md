@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "5de7dc1e2ddc402d415473bb795568d4",
-  "translation_date": "2025-08-28T08:50:04+00:00",
-  "source_file": "6-consumer/README.md",
-  "language_code": "sk"
-}
--->
 # Spotrebiteľské IoT - vytvorte inteligentného hlasového asistenta
 
 Jedlo bolo vypestované, prevezené do spracovateľského závodu, triedené podľa kvality, predané v obchode a teraz je čas variť! Jedným z hlavných prvkov každej kuchyne je časovač. Na začiatku to boli presýpacie hodiny – jedlo bolo hotové, keď sa všetok piesok presypal do spodnej nádoby. Neskôr sa prešlo na mechanické hodiny, potom elektrické.

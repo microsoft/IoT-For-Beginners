@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "e978534a245b000725ed2a048f943213",
-  "translation_date": "2025-08-28T09:31:25+00:00",
-  "source_file": "3-transport/README.md",
-  "language_code": "ro"
-}
--->
 # Transportul de la fermă la fabrică - utilizarea IoT pentru a urmări livrările de alimente
 
 Mulți fermieri cultivă alimente pentru a le vinde - fie că sunt fermieri comerciali care vând tot ce produc, fie că sunt fermieri de subzistență care vând surplusul pentru a cumpăra necesități. Cumva, alimentele trebuie să ajungă de la fermă la consumator, iar acest lucru se bazează de obicei pe transportul în vrac de la ferme, la centre sau fabrici de procesare, apoi la magazine. De exemplu, un fermier care cultivă roșii va recolta roșiile, le va ambala în cutii, va încărca cutiile într-un camion și le va livra la o fabrică de procesare. Roșiile vor fi apoi sortate, iar de acolo livrate consumatorilor sub formă de alimente procesate, vânzări cu amănuntul sau consumate în restaurante.

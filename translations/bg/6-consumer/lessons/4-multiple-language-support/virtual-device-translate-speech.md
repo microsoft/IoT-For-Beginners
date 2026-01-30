@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "d620a470d9dd8614d99824832978360a",
-  "translation_date": "2025-08-28T09:30:13+00:00",
-  "source_file": "6-consumer/lessons/4-multiple-language-support/virtual-device-translate-speech.md",
-  "language_code": "bg"
-}
--->
 # Превод на реч - Виртуално IoT устройство
 
 В тази част от урока ще напишете код за превод на реч при преобразуване в текст с помощта на услугата за реч, след това ще преведете текста с услугата Translator, преди да генерирате говорен отговор.

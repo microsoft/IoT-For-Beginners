@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "e2b1b891b08ef7633d285547fbe73290",
-  "translation_date": "2025-08-28T09:57:47+00:00",
-  "source_file": "1-getting-started/README.md",
-  "language_code": "ro"
-}
--->
 # Introducere în IoT
 
 În această secțiune a curriculumului, vei fi introdus în conceptul de Internet of Things și vei învăța conceptele de bază, inclusiv construirea primului tău proiect IoT 'Hello World' conectat la cloud. Acest proiect este o lampă de veghe care se aprinde pe măsură ce nivelurile de lumină măsurate de un senzor scad.

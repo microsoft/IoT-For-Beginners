@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "3764e089adf2d5801272bc0895f8498b",
-  "translation_date": "2025-08-28T08:15:15+00:00",
-  "source_file": "4-manufacturing/README.md",
-  "language_code": "sk"
-}
--->
 # Výroba a spracovanie - využitie IoT na zlepšenie spracovania potravín
 
 Keď potraviny dorazia do centrálneho skladu alebo spracovateľského závodu, nie vždy sú okamžite odoslané do supermarketov. Často prechádzajú viacerými spracovateľskými krokmi, ako je triedenie podľa kvality. Tento proces býval manuálny – začínal na poli, kde zberači zbierali iba zrelé ovocie, a potom vo fabrike ovocie putovalo na dopravnom páse, kde zamestnanci ručne odstraňovali poškodené alebo zhnité plody. Keďže som počas školy brigádoval pri zbere a triedení jahôd, môžem potvrdiť, že to nie je práve zábavná práca.

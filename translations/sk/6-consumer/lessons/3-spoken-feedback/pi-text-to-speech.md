@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "606f3af1c78e3741e48ce77c31cea626",
-  "translation_date": "2025-08-28T09:02:51+00:00",
-  "source_file": "6-consumer/lessons/3-spoken-feedback/pi-text-to-speech.md",
-  "language_code": "sk"
-}
--->
 # Text na reč - Raspberry Pi
 
 V tejto časti lekcie napíšete kód na konverziu textu na reč pomocou služby reči.

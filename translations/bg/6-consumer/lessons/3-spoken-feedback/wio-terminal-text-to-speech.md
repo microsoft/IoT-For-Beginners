@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "a202fa5889790a3777bfc33dd9f4b459",
-  "translation_date": "2025-08-28T09:01:52+00:00",
-  "source_file": "6-consumer/lessons/3-spoken-feedback/wio-terminal-text-to-speech.md",
-  "language_code": "bg"
-}
--->
 # Преобразуване на текст в реч - Wio Terminal
 
 В тази част от урока ще преобразувате текст в реч, за да предоставите гласова обратна връзка.

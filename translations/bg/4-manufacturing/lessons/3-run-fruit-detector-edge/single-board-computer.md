@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "50151d9f9dce2801348a93880ef16d86",
-  "translation_date": "2025-08-28T08:37:27+00:00",
-  "source_file": "4-manufacturing/lessons/3-run-fruit-detector-edge/single-board-computer.md",
-  "language_code": "bg"
-}
--->
 # Класифициране на изображение с помощта на IoT Edge базиран класификатор на изображения - Виртуален IoT хардуер и Raspberry Pi
 
 В тази част на урока ще използвате класификатора на изображения, който работи на устройството IoT Edge.

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "2f336726b9410e97c3aaed76cc89b0d8",
-  "translation_date": "2025-08-28T09:20:17+00:00",
-  "source_file": "6-consumer/lessons/1-speech-recognition/wio-terminal-audio.md",
-  "language_code": "bg"
-}
--->
 # Запис на аудио - Wio Terminal
 
 В тази част от урока ще напишете код за запис на аудио с вашия Wio Terminal. Записът на аудио ще се контролира чрез един от бутоните в горната част на Wio Terminal.

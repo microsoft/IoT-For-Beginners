@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "c527ce85d69b1a3875366ec61cbed8aa",
-  "translation_date": "2025-08-28T10:13:50+00:00",
-  "source_file": "1-getting-started/lessons/4-connect-internet/single-board-computer-commands.md",
-  "language_code": "bg"
-}
--->
 # Контролирайте нощната си лампа през Интернет - Виртуален IoT хардуер и Raspberry Pi
 
 В тази част на урока ще се абонирате за команди, изпратени от MQTT брокер към вашия Raspberry Pi или виртуално IoT устройство.

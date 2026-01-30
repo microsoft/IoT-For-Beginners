@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "9dd7f645ad1c6f20b72fee512987f772",
-  "translation_date": "2025-08-28T10:01:54+00:00",
-  "source_file": "1-getting-started/lessons/2-deeper-dive/README.md",
-  "language_code": "bg"
-}
--->
 # По-задълбочен поглед върху IoT
 
 ![Скица, обобщаваща този урок](../../../../../translated_images/bg/lesson-2.324b0580d620c25e0a24fb7fddfc0b29a846dd4b82c08e7a9466d580ee78ce51.jpg)

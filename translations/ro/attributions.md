@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "4506d33bbda7acc0ab20980172687090",
-  "translation_date": "2025-08-28T08:11:15+00:00",
-  "source_file": "attributions.md",
-  "language_code": "ro"
-}
--->
 # Atribuții imagini
 
 * Banane de abderraouf omara de la [Noun Project](https://thenounproject.com)

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "3dce18fab38adf93ff30b8c221b1eec5",
-  "translation_date": "2025-08-28T08:09:06+00:00",
-  "source_file": "hardware.md",
-  "language_code": "ro"
-}
--->
 # Hardware
 
 **T** din IoT reprezintă **Things** (Lucruri) și se referă la dispozitivele care interacționează cu lumea din jurul nostru. Fiecare proiect este bazat pe hardware real, disponibil pentru studenți și pasionați. Avem două opțiuni de hardware IoT pe care le putem folosi, în funcție de preferințele personale, cunoștințele sau preferințele legate de limbajul de programare, obiectivele de învățare și disponibilitate. De asemenea, am oferit o versiune de 'hardware virtual' pentru cei care nu au acces la hardware sau doresc să învețe mai multe înainte de a face o achiziție.

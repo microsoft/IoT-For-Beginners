@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "cbb8c285bc64c5192fae3368fb5077d2",
-  "translation_date": "2025-08-28T09:39:15+00:00",
-  "source_file": "3-transport/lessons/1-location-tracking/single-board-computer-gps-decode.md",
-  "language_code": "ro"
-}
--->
 # Decodifică datele GPS - Hardware IoT Virtual și Raspberry Pi
 
 În această parte a lecției, vei decodifica mesajele NMEA citite de senzorul GPS de către Raspberry Pi sau Dispozitivul IoT Virtual și vei extrage latitudinea și longitudinea.

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "fbbcf96a9b63ccd661db98bbf854bb06",
-  "translation_date": "2025-08-28T09:37:34+00:00",
-  "source_file": "3-transport/lessons/1-location-tracking/wio-terminal-gps-decode.md",
-  "language_code": "sk"
-}
--->
 # Dekódovanie GPS dát - Wio Terminal
 
 V tejto časti lekcie budete dekódovať NMEA správy prečítané zo senzora GPS pomocou Wio Terminal a extrahovať zemepisnú šírku a dĺžku.

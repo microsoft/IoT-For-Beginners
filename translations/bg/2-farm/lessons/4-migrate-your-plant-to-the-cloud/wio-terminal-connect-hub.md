@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "28320305a35ea3bc59c41fe146a2e6ed",
-  "translation_date": "2025-08-28T11:26:36+00:00",
-  "source_file": "2-farm/lessons/4-migrate-your-plant-to-the-cloud/wio-terminal-connect-hub.md",
-  "language_code": "bg"
-}
--->
 # Свържете вашето IoT устройство с облака - Wio Terminal
 
 В тази част на урока ще свържете вашия Wio Terminal с вашия IoT Hub, за да изпращате телеметрия и да получавате команди.

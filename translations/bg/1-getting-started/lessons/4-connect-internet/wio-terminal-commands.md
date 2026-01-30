@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "6754c915dae64ba70fcd5e52c37f3adf",
-  "translation_date": "2025-08-28T10:10:49+00:00",
-  "source_file": "1-getting-started/lessons/4-connect-internet/wio-terminal-commands.md",
-  "language_code": "bg"
-}
--->
 # Контролирайте нощната си лампа през Интернет - Wio Terminal
 
 В тази част от урока ще се абонирате за команди, изпратени от MQTT брокер към вашия Wio Terminal.

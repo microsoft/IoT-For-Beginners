@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "c677667095f6133eee418c7e53615d05",
-  "translation_date": "2025-08-28T08:41:42+00:00",
-  "source_file": "4-manufacturing/lessons/2-check-fruit-from-device/pi-camera.md",
-  "language_code": "ro"
-}
--->
 # Capturarea unei imagini - Raspberry Pi
 
 În această parte a lecției, vei adăuga un senzor de cameră la Raspberry Pi și vei citi imagini de la acesta.

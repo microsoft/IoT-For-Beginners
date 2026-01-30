@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "af249a24d4fe4f4de4806adbc3bc9d86",
-  "translation_date": "2025-08-28T09:17:28+00:00",
-  "source_file": "6-consumer/lessons/1-speech-recognition/pi-speech-to-text.md",
-  "language_code": "bg"
-}
--->
 # Преобразуване на реч в текст - Raspberry Pi
 
 В тази част от урока ще напишете код, който преобразува речта от записания аудио файл в текст, използвайки услугата за преобразуване на реч.

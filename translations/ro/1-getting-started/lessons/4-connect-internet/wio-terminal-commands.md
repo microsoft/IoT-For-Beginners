@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "6754c915dae64ba70fcd5e52c37f3adf",
-  "translation_date": "2025-08-28T10:10:34+00:00",
-  "source_file": "1-getting-started/lessons/4-connect-internet/wio-terminal-commands.md",
-  "language_code": "ro"
-}
--->
 # Controlează-ți lumina de noapte prin Internet - Wio Terminal
 
 În această parte a lecției, vei abona dispozitivul Wio Terminal la comenzile trimise de un broker MQTT.

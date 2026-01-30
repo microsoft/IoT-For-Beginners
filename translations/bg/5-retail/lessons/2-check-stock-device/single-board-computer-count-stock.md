@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "9c4320311c0f2c1884a6a21265d98a51",
-  "translation_date": "2025-08-28T10:51:17+00:00",
-  "source_file": "5-retail/lessons/2-check-stock-device/single-board-computer-count-stock.md",
-  "language_code": "bg"
-}
--->
 # Бройте наличности от вашето IoT устройство - Виртуален IoT хардуер и Raspberry Pi
 
 Комбинацията от предсказанията и техните ограничителни кутии може да се използва за преброяване на наличности в изображение.

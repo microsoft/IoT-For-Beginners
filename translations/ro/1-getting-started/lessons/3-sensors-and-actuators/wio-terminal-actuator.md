@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "db44083b4dc6fb06eac83c4f16448940",
-  "translation_date": "2025-08-28T10:37:00+00:00",
-  "source_file": "1-getting-started/lessons/3-sensors-and-actuators/wio-terminal-actuator.md",
-  "language_code": "ro"
-}
--->
 # Construiește o lampă de veghe - Wio Terminal
 
 În această parte a lecției, vei adăuga un LED la Wio Terminal și îl vei folosi pentru a crea o lampă de veghe.

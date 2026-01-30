@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "7e45d884493c5222348b43fbc4481b6a",
-  "translation_date": "2025-08-28T09:15:54+00:00",
-  "source_file": "6-consumer/lessons/1-speech-recognition/pi-microphone.md",
-  "language_code": "ro"
-}
--->
 # Configurează microfonul și difuzoarele - Raspberry Pi
 
 În această parte a lecției, vei adăuga un microfon și difuzoare la Raspberry Pi-ul tău.

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "11f10c6760fb8202cf368422702fdf70",
-  "translation_date": "2025-08-28T10:38:23+00:00",
-  "source_file": "1-getting-started/lessons/3-sensors-and-actuators/virtual-device-sensor.md",
-  "language_code": "ro"
-}
--->
 # Construiește o lampă de veghe - Hardware IoT Virtual
 
 În această parte a lecției, vei adăuga un senzor de lumină dispozitivului tău IoT virtual.

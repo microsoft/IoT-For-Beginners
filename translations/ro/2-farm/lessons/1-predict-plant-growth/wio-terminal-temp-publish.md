@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "df28cd649cd892bcce034e064913b2f3",
-  "translation_date": "2025-08-28T11:32:08+00:00",
-  "source_file": "2-farm/lessons/1-predict-plant-growth/wio-terminal-temp-publish.md",
-  "language_code": "ro"
-}
--->
 # Publică temperatura - Wio Terminal
 
 În această parte a lecției, vei publica valorile temperaturii detectate de Wio Terminal prin MQTT, astfel încât să poată fi utilizate ulterior pentru a calcula GDD.

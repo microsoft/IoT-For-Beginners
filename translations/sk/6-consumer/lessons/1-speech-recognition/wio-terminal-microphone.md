@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "93d352de36526b8990e41dd538100324",
-  "translation_date": "2025-08-28T09:14:07+00:00",
-  "source_file": "6-consumer/lessons/1-speech-recognition/wio-terminal-microphone.md",
-  "language_code": "sk"
-}
--->
 # Nastavte mikrofón a reproduktory - Wio Terminal
 
 V tejto časti lekcie pridáte reproduktory k vášmu Wio Terminal. Wio Terminal už má zabudovaný mikrofón, ktorý môžete použiť na zachytávanie reči.

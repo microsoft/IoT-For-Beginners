@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "8df310a42f902139a01417dacb1ffbef",
-  "translation_date": "2025-08-28T10:42:53+00:00",
-  "source_file": "5-retail/lessons/1-train-stock-detector/README.md",
-  "language_code": "sk"
-}
--->
 # Trénovanie detektora zásob
 
 ![Prehľad tejto lekcie v sketchnote](../../../../../translated_images/sk/lesson-19.cf6973cecadf080c4b526310620dc4d6f5994c80fb0139c6f378cc9ca2d435cd.jpg)

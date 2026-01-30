@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "93d352de36526b8990e41dd538100324",
-  "translation_date": "2025-08-28T09:14:27+00:00",
-  "source_file": "6-consumer/lessons/1-speech-recognition/wio-terminal-microphone.md",
-  "language_code": "ro"
-}
--->
 # Configurează microfonul și difuzoarele - Wio Terminal
 
 În această parte a lecției, vei adăuga difuzoare la Wio Terminal. Wio Terminal are deja un microfon integrat, care poate fi folosit pentru captarea vocii.

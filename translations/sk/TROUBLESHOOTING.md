@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "9713e21a309662f6fcb271b573d47848",
-  "translation_date": "2026-01-06T15:58:54+00:00",
-  "source_file": "TROUBLESHOOTING.md",
-  "language_code": "sk"
-}
--->
 # Sprievodca riešením problémov
 
 Tento sprievodca vám pomôže vyriešiť bežné problémy pri práci s učebnicou IoT pre začiatočníkov. Problémy sú zorganizované podľa kategórií pre jednoduchú navigáciu.

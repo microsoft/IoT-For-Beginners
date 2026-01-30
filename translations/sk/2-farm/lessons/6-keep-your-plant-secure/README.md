@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "81c437c568eee1b0dda1f04e88150d37",
-  "translation_date": "2025-08-28T11:13:01+00:00",
-  "source_file": "2-farm/lessons/6-keep-your-plant-secure/README.md",
-  "language_code": "sk"
-}
--->
 # Udržujte svoju rastlinu v bezpečí
 
 ![Prehľad tejto lekcie v sketchnote](../../../../../translated_images/sk/lesson-10.829c86b80b9403bb770929ee553a1d293afe50dc23121aaf9be144673ae012cc.jpg)

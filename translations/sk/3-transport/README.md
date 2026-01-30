@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "e978534a245b000725ed2a048f943213",
-  "translation_date": "2025-08-28T09:31:12+00:00",
-  "source_file": "3-transport/README.md",
-  "language_code": "sk"
-}
--->
 # Transport z farmy do továrne - využitie IoT na sledovanie dodávok potravín
 
 Mnoho farmárov pestuje potraviny na predaj - buď sú to komerční farmári, ktorí predávajú všetko, čo vypestujú, alebo sú to farmári na vlastnú potrebu, ktorí predávajú svoj prebytok, aby si mohli kúpiť nevyhnutnosti. Potraviny sa nejako musia dostať z farmy k spotrebiteľovi, a to zvyčajne závisí od hromadnej dopravy z fariem do centier alebo spracovateľských závodov, a následne do obchodov. Napríklad farmár pestujúci paradajky ich zozbiera, zabalí do krabíc, naloží krabice na nákladné auto a doručí ich do spracovateľského závodu. Paradajky sa potom triedia a odtiaľ sa doručujú spotrebiteľom vo forme spracovaných potravín, maloobchodného predaja alebo sa konzumujú v reštauráciách.

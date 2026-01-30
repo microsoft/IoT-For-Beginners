@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "d620a470d9dd8614d99824832978360a",
-  "translation_date": "2025-08-28T09:29:45+00:00",
-  "source_file": "6-consumer/lessons/4-multiple-language-support/virtual-device-translate-speech.md",
-  "language_code": "ro"
-}
--->
 # Traducerea vorbirii - Dispozitiv IoT Virtual
 
 În această parte a lecției, vei scrie cod pentru a traduce vorbirea atunci când este convertită în text folosind serviciul de vorbire, apoi vei traduce textul utilizând serviciul Translator înainte de a genera un răspuns vocal.

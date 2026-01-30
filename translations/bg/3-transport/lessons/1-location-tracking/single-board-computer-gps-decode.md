@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "cbb8c285bc64c5192fae3368fb5077d2",
-  "translation_date": "2025-08-28T09:39:25+00:00",
-  "source_file": "3-transport/lessons/1-location-tracking/single-board-computer-gps-decode.md",
-  "language_code": "bg"
-}
--->
 # Декодиране на GPS данни - Виртуален IoT хардуер и Raspberry Pi
 
 В тази част от урока ще декодирате NMEA съобщенията, прочетени от GPS сензора чрез Raspberry Pi или Виртуално IoT устройство, и ще извлечете ширина и дължина.

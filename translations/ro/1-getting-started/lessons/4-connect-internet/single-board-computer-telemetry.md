@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "1226517aae5f5b6f904434670394c688",
-  "translation_date": "2025-08-28T10:13:01+00:00",
-  "source_file": "1-getting-started/lessons/4-connect-internet/single-board-computer-telemetry.md",
-  "language_code": "ro"
-}
--->
 # Controlează-ți lampa de veghe prin Internet - Hardware IoT virtual și Raspberry Pi
 
 În această parte a lecției, vei trimite telemetrie cu nivelurile de lumină de la Raspberry Pi-ul tău sau dispozitivul IoT virtual către un broker MQTT.

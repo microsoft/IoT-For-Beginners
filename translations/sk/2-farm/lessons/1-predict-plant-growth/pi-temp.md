@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "7678f7c67b97ee52d5727496dcd7d346",
-  "translation_date": "2025-08-28T11:27:14+00:00",
-  "source_file": "2-farm/lessons/1-predict-plant-growth/pi-temp.md",
-  "language_code": "sk"
-}
--->
 # Meranie teploty - Raspberry Pi
 
 V tejto časti lekcie pridáte k svojmu Raspberry Pi teplotný senzor.

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "2625af24587465c5547ae33d6cc000a5",
-  "translation_date": "2025-08-28T08:31:20+00:00",
-  "source_file": "4-manufacturing/lessons/3-run-fruit-detector-edge/README.md",
-  "language_code": "ro"
-}
--->
 # Rulează detectorul de fructe la margine
 
 ![O prezentare grafică a lecției](../../../../../translated_images/ro/lesson-17.bc333c3c35ba8e42cce666cfffa82b915f787f455bd94e006aea2b6f2722421a.jpg)

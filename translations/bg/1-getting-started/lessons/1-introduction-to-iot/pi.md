@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "8ff0d0a1d29832bb896b9c103b69a452",
-  "translation_date": "2025-08-28T10:25:14+00:00",
-  "source_file": "1-getting-started/lessons/1-introduction-to-iot/pi.md",
-  "language_code": "bg"
-}
--->
 # Raspberry Pi
 
 [Raspberry Pi](https://raspberrypi.org) е едноплатков компютър. Можете да добавяте сензори и изпълнителни устройства, използвайки широка гама от устройства и екосистеми. За тези уроци ще използваме хардуерна екосистема, наречена [Grove](https://www.seeedstudio.com/category/Grove-c-1003.html). Ще програмирате вашия Pi и ще имате достъп до сензорите на Grove с помощта на Python.

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "b2e0a965723082b068f735aec0faf3f6",
-  "translation_date": "2025-08-28T09:57:24+00:00",
-  "source_file": "3-transport/lessons/2-store-location-data/assignment.md",
-  "language_code": "bg"
-}
--->
 # Разследване на свързвания на функции
 
 ## Инструкции

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "3f92edf2975175577174910caca4a389",
-  "translation_date": "2025-08-28T09:22:39+00:00",
-  "source_file": "6-consumer/lessons/1-speech-recognition/wio-terminal-speech-to-text.md",
-  "language_code": "bg"
-}
--->
 # Преобразуване на реч в текст - Wio Terminal
 
 В тази част от урока ще напишете код за преобразуване на реч от записаното аудио в текст, използвайки услугата за разпознаване на реч.

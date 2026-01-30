@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "93d352de36526b8990e41dd538100324",
-  "translation_date": "2025-08-28T09:15:06+00:00",
-  "source_file": "6-consumer/lessons/1-speech-recognition/wio-terminal-microphone.md",
-  "language_code": "bg"
-}
--->
 # Конфигуриране на микрофон и високоговорители - Wio Terminal
 
 В тази част от урока ще добавите високоговорители към вашия Wio Terminal. Wio Terminal вече има вграден микрофон, който може да се използва за улавяне на реч.

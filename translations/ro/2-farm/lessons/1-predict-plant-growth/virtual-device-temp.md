@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "70e5a428b607cd5a9a4f422c2a4df03d",
-  "translation_date": "2025-08-28T11:34:22+00:00",
-  "source_file": "2-farm/lessons/1-predict-plant-growth/virtual-device-temp.md",
-  "language_code": "ro"
-}
--->
 # Măsurarea temperaturii - Hardware IoT Virtual
 
 În această parte a lecției, vei adăuga un senzor de temperatură dispozitivului tău IoT virtual.

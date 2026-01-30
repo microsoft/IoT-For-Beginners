@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "cd89329575372232e59605f7a08ae0df",
-  "translation_date": "2025-08-28T08:08:08+00:00",
-  "source_file": "SUPPORT.md",
-  "language_code": "ro"
-}
--->
 # Suport
 
 ## Cum să raportezi probleme și să obții ajutor  

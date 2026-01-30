@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "0d55caa8c23d73635b7559102cd17b8a",
-  "translation_date": "2025-08-28T11:05:27+00:00",
-  "source_file": "2-farm/lessons/2-detect-soil-moisture/wio-terminal-soil-moisture.md",
-  "language_code": "bg"
-}
--->
 # Измерване на влажността на почвата - Wio Terminal
 
 В тази част от урока ще добавите капацитивен сензор за влажност на почвата към вашия Wio Terminal и ще четете стойности от него.

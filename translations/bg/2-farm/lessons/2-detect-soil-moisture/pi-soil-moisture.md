@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "9d4d00a47d5d0f3e6ce42c0d1020064a",
-  "translation_date": "2025-08-28T10:55:28+00:00",
-  "source_file": "2-farm/lessons/2-detect-soil-moisture/pi-soil-moisture.md",
-  "language_code": "bg"
-}
--->
 # Измерване на влажността на почвата - Raspberry Pi
 
 В тази част на урока ще добавите капацитивен сензор за влажност на почвата към вашия Raspberry Pi и ще четете стойности от него.

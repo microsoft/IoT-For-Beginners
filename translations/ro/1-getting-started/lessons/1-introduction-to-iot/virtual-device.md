@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "52b4de6144b2efdced7797a5339d6035",
-  "translation_date": "2025-08-28T10:21:41+00:00",
-  "source_file": "1-getting-started/lessons/1-introduction-to-iot/virtual-device.md",
-  "language_code": "ro"
-}
--->
 # Computer virtual cu o singură placă
 
 În loc să achiziționați un dispozitiv IoT, împreună cu senzori și actuatori, puteți utiliza computerul pentru a simula hardware-ul IoT. Proiectul [CounterFit](https://github.com/CounterFit-IoT/CounterFit) vă permite să rulați o aplicație locală care simulează hardware-ul IoT, cum ar fi senzori și actuatori, și să accesați acești senzori și actuatori din cod Python local, scris în același mod în care ați scrie cod pe un Raspberry Pi folosind hardware fizic.

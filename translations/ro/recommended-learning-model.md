@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "012bbd19f13171be32ac9ba21d4186c2",
-  "translation_date": "2025-08-28T08:02:50+00:00",
-  "source_file": "recommended-learning-model.md",
-  "language_code": "ro"
-}
--->
 # Model de învățare recomandat
 
 Pentru cele mai eficiente rezultate în procesul de învățare, **recomandăm abordarea „Modelului Inversat”** similar laboratoarelor de știință: studenții lucrează la proiecte în timpul orelor, având oportunități pentru discuții, întrebări și asistență pentru proiecte, iar elementele de prelegere le parcurg individual, în timpul lor liber.

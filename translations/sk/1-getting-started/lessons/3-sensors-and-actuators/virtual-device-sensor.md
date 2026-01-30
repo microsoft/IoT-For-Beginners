@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "11f10c6760fb8202cf368422702fdf70",
-  "translation_date": "2025-08-28T10:38:03+00:00",
-  "source_file": "1-getting-started/lessons/3-sensors-and-actuators/virtual-device-sensor.md",
-  "language_code": "sk"
-}
--->
 # Vytvorte nočné svetlo - Virtuálny IoT hardvér
 
 V tejto časti lekcie pridáte svetelný senzor do vášho virtuálneho IoT zariadenia.

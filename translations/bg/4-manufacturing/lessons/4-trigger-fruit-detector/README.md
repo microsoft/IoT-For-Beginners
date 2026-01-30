@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "f74f4ccb61f00e5f7e9f49c3ed416e36",
-  "translation_date": "2025-08-28T08:23:56+00:00",
-  "source_file": "4-manufacturing/lessons/4-trigger-fruit-detector/README.md",
-  "language_code": "bg"
-}
--->
 # Задействане на откриване на качеството на плодовете чрез сензор
 
 ![Скица на урока](../../../../../translated_images/bg/lesson-18.92c32ed1d354caa5a54baa4032cf0b172d4655e8e326ad5d46c558a0def15365.jpg)

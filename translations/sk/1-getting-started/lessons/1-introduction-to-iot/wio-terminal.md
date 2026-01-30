@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "a4f0c166010e31fd7b6ca20bc88dec6d",
-  "translation_date": "2025-08-28T10:26:49+00:00",
-  "source_file": "1-getting-started/lessons/1-introduction-to-iot/wio-terminal.md",
-  "language_code": "sk"
-}
--->
 # Wio Terminal
 
 [Wio Terminal od Seeed Studios](https://www.seeedstudio.com/Wio-Terminal-p-4509.html) je mikrokontrolér kompatibilný s Arduino, ktorý má zabudované WiFi, niektoré senzory a aktuátory, ako aj porty na pridanie ďalších senzorov a aktuátorov pomocou hardvérového ekosystému nazývaného [Grove](https://www.seeedstudio.com/category/Grove-c-1003.html).

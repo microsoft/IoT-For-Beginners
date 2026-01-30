@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "4db8a3879a53490513571df2f6cf7641",
-  "translation_date": "2025-08-28T10:33:49+00:00",
-  "source_file": "1-getting-started/lessons/3-sensors-and-actuators/pi-actuator.md",
-  "language_code": "sk"
-}
--->
 # Vytvorte nočné svetlo - Raspberry Pi
 
 V tejto časti lekcie pridáte LED diódu k svojmu Raspberry Pi a použijete ju na vytvorenie nočného svetla.

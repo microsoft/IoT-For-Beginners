@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "1226517aae5f5b6f904434670394c688",
-  "translation_date": "2025-08-28T10:13:12+00:00",
-  "source_file": "1-getting-started/lessons/4-connect-internet/single-board-computer-telemetry.md",
-  "language_code": "bg"
-}
--->
 # Контролирайте нощната си лампа през Интернет - Виртуален IoT хардуер и Raspberry Pi
 
 В тази част на урока ще изпратите телеметрия със стойности на светлината от вашия Raspberry Pi или виртуално IoT устройство към MQTT брокер.

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "4fb20273d299dc8d07a8f06c9cd0cdd9",
-  "translation_date": "2025-08-28T10:56:53+00:00",
-  "source_file": "2-farm/lessons/2-detect-soil-moisture/README.md",
-  "language_code": "sk"
-}
--->
 C, vyslovované ako *I-štvorc-C*, je protokol pre viacero ovládačov a periférií, kde každé pripojené zariadenie môže fungovať ako ovládač alebo periféria, komunikujúce cez I²C zbernicu (názov pre komunikačný systém, ktorý prenáša dáta). Dáta sa posielajú vo forme adresovaných balíkov, pričom každý balík obsahuje adresu zariadenia, pre ktoré sú určené.
 
 > 💁 Tento model sa kedysi označoval ako master/slave (pán/otrok), ale táto terminológia sa postupne opúšťa kvôli jej spojitosti s otroctvom. [Open Source Hardware Association prijala označenie ovládač/periféria](https://www.oshwa.org/a-resolution-to-redefine-spi-signal-names/), no stále sa môžete stretnúť s odkazmi na starú terminológiu.

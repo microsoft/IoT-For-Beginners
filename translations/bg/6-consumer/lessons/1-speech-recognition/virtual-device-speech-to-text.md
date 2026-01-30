@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "c0550b254b9ba2539baf1e6bb5fc05f8",
-  "translation_date": "2025-08-28T09:13:42+00:00",
-  "source_file": "6-consumer/lessons/1-speech-recognition/virtual-device-speech-to-text.md",
-  "language_code": "bg"
-}
--->
 # Преобразуване на реч в текст - Виртуално IoT устройство
 
 В тази част от урока ще напишете код, който преобразува реч, заснета от вашия микрофон, в текст, използвайки услугата за разпознаване на реч.

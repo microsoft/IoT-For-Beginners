@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "428bda82d9e6016ecea7c797564bf081",
-  "translation_date": "2025-08-28T10:53:57+00:00",
-  "source_file": "2-farm/README.md",
-  "language_code": "sk"
-}
--->
 # Farmárčenie s IoT
 
 Ako populácia rastie, zvyšuje sa aj tlak na poľnohospodárstvo. Množstvo dostupnej pôdy sa nemení, ale klíma áno – čo prináša farmárom ešte viac výziev, najmä 2 miliardám [subsistenčných farmárov](https://wikipedia.org/wiki/Subsistence_agriculture), ktorí sa spoliehajú na to, čo vypestujú, aby mohli jesť a nakŕmiť svoje rodiny. IoT môže farmárom pomôcť robiť múdrejšie rozhodnutia o tom, čo pestovať a kedy zbierať úrodu, zvýšiť výnosy, znížiť množstvo manuálnej práce a odhaliť škodcov a bojovať proti nim.

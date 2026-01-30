@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "4db8a3879a53490513571df2f6cf7641",
-  "translation_date": "2025-08-28T10:34:13+00:00",
-  "source_file": "1-getting-started/lessons/3-sensors-and-actuators/pi-actuator.md",
-  "language_code": "ro"
-}
--->
 # Construiește o lampă de veghe - Raspberry Pi
 
 În această parte a lecției, vei adăuga un LED la Raspberry Pi și îl vei folosi pentru a crea o lampă de veghe.

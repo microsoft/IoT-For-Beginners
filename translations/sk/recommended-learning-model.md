@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "012bbd19f13171be32ac9ba21d4186c2",
-  "translation_date": "2025-08-28T08:02:24+00:00",
-  "source_file": "recommended-learning-model.md",
-  "language_code": "sk"
-}
--->
 # Odporúčaný model učenia
 
 Pre dosiahnutie čo najefektívnejších výsledkov učenia **odporúčame prístup „prevráteného modelu"**, podobne ako v laboratóriách prírodných vied: študenti pracujú na projektoch počas vyučovania, s možnosťou diskusie, otázok a odpovedí a asistencie pri projektoch, pričom prednáškové časti si preštudujú samostatne vo svojom voľnom čase.

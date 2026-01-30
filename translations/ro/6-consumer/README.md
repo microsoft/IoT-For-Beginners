@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "5de7dc1e2ddc402d415473bb795568d4",
-  "translation_date": "2025-08-28T08:50:16+00:00",
-  "source_file": "6-consumer/README.md",
-  "language_code": "ro"
-}
--->
 # Consumer IoT - construiește un asistent vocal inteligent
 
 Mâncarea a fost cultivată, transportată la o fabrică de procesare, sortată pentru calitate, vândută în magazin și acum e timpul să gătești! Unul dintre elementele esențiale din orice bucătărie este un timer. Inițial, acestea au început ca clepsidre - mâncarea era gata când tot nisipul se scurgea în bulbul de jos. Apoi au devenit mecanice, apoi electrice.

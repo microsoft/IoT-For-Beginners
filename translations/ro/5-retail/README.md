@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "22a1d6e49f2a689fe5bfa7802a7241fc",
-  "translation_date": "2025-08-28T10:42:33+00:00",
-  "source_file": "5-retail/README.md",
-  "language_code": "ro"
-}
--->
 # Retail - utilizarea IoT pentru gestionarea nivelurilor de stoc
 
 Ultima etapă înainte ca produsele să ajungă la consumatori este retailul - piețele, magazinele de legume și fructe, supermarketurile și alte magazine care vând produse consumatorilor. Aceste magazine doresc să se asigure că au produse expuse pe rafturi pentru ca consumatorii să le vadă și să le cumpere.

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "271dcd720357806934b2f0d94e19410e",
-  "translation_date": "2026-01-06T16:09:11+00:00",
-  "source_file": "docs/troubleshooting.md",
-  "language_code": "bg"
-}
--->
 # Ръководство за Отстраняване на Проблеми с Raspberry Pi
 
 Това ръководство предлага решения за често срещани проблеми при работа с IoT проекти на устройства Raspberry Pi.  

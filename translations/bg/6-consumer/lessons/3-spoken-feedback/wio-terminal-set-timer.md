@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "012b69d57d898d670adf61304f42a137",
-  "translation_date": "2025-08-28T09:05:10+00:00",
-  "source_file": "6-consumer/lessons/3-spoken-feedback/wio-terminal-set-timer.md",
-  "language_code": "bg"
-}
--->
 # Настройване на таймер - Wio Terminal
 
 В тази част от урока ще извикате вашия serverless код, за да разпознаете речта, и ще настроите таймер на вашия Wio Terminal въз основа на резултатите.

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "24dc783a600e20251211987b36370e93",
-  "translation_date": "2025-08-28T08:35:27+00:00",
-  "source_file": "4-manufacturing/lessons/3-run-fruit-detector-edge/vm-iotedge.md",
-  "language_code": "sk"
-}
--->
 # Vytvorenie virtuálneho počítača s IoT Edge
 
 V Azure môžete vytvoriť virtuálny počítač - počítač v cloude, ktorý môžete nakonfigurovať podľa svojich potrieb a spustiť na ňom vlastný softvér.

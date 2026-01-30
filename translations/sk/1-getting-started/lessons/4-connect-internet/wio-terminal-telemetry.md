@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "4bcc29fe2b65e56eada83d2476279227",
-  "translation_date": "2025-08-28T10:14:03+00:00",
-  "source_file": "1-getting-started/lessons/4-connect-internet/wio-terminal-telemetry.md",
-  "language_code": "sk"
-}
--->
 # Ovládajte svoje nočné svetlo cez internet - Wio Terminal
 
 V tejto časti lekcie budete posielať telemetriu s úrovňami svetla z vášho Wio Terminal na MQTT broker.

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "4bcc29fe2b65e56eada83d2476279227",
-  "translation_date": "2025-08-28T10:14:28+00:00",
-  "source_file": "1-getting-started/lessons/4-connect-internet/wio-terminal-telemetry.md",
-  "language_code": "bg"
-}
--->
 # Контролирайте нощната си лампа през Интернет - Wio Terminal
 
 В тази част от урока ще изпращате телеметрия с нива на светлина от вашия Wio Terminal към MQTT брокера.

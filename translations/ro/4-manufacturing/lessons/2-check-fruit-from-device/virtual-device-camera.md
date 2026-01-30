@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "3ba7150ffc4a6999f6c3cfb4906ec7df",
-  "translation_date": "2025-08-28T08:43:06+00:00",
-  "source_file": "4-manufacturing/lessons/2-check-fruit-from-device/virtual-device-camera.md",
-  "language_code": "ro"
-}
--->
 # Capturarea unei imagini - Hardware IoT Virtual
 
 În această parte a lecției, vei adăuga un senzor de cameră dispozitivului tău IoT virtual și vei citi imagini de la acesta.

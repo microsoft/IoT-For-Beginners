@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "9c640f93263fd9adbfda920739e09feb",
-  "translation_date": "2025-08-28T10:33:09+00:00",
-  "source_file": "1-getting-started/lessons/3-sensors-and-actuators/virtual-device-actuator.md",
-  "language_code": "ro"
-}
--->
 # Construiește o lampă de veghe - Hardware IoT Virtual
 
 În această parte a lecției, vei adăuga un LED dispozitivului tău IoT virtual și îl vei folosi pentru a crea o lampă de veghe.

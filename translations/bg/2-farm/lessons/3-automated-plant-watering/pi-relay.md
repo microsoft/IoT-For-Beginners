@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "66b81165e60f8f169bd52a401b6a0f8b",
-  "translation_date": "2025-08-28T11:42:54+00:00",
-  "source_file": "2-farm/lessons/3-automated-plant-watering/pi-relay.md",
-  "language_code": "bg"
-}
--->
 # Управление на реле - Raspberry Pi
 
 В тази част от урока ще добавите реле към вашия Raspberry Pi, в допълнение към сензора за влажност на почвата, и ще го управлявате въз основа на нивото на влажност на почвата.

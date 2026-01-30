@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "c06b12caf3c901eb3156e3dd5b0aea56",
-  "translation_date": "2025-08-28T08:14:15+00:00",
-  "source_file": "CODE_OF_CONDUCT.md",
-  "language_code": "ro"
-}
--->
 # Codul de Conduită pentru Proiectele Open Source Microsoft
 
 Acest proiect a adoptat [Codul de Conduită pentru Proiectele Open Source Microsoft](https://opensource.microsoft.com/codeofconduct/).

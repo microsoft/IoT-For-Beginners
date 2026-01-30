@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "9aea84bcc7520222b0e1c50469d62d6a",
-  "translation_date": "2025-08-28T11:17:41+00:00",
-  "source_file": "2-farm/lessons/6-keep-your-plant-secure/single-board-computer-x509.md",
-  "language_code": "sk"
-}
--->
 # Použitie certifikátu X.509 vo vašom zariadení - Virtuálny IoT hardvér a Raspberry Pi
 
 V tejto časti lekcie pripojíte svoje virtuálne IoT zariadenie alebo Raspberry Pi k IoT Hubu pomocou certifikátu X.509.

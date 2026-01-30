@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "9c4320311c0f2c1884a6a21265d98a51",
-  "translation_date": "2025-08-28T10:50:48+00:00",
-  "source_file": "5-retail/lessons/2-check-stock-device/single-board-computer-count-stock.md",
-  "language_code": "ro"
-}
--->
 # Numără stocul de pe dispozitivul tău IoT - Hardware IoT Virtual și Raspberry Pi
 
 O combinație între predicții și casetele de delimitare poate fi utilizată pentru a număra stocul dintr-o imagine.

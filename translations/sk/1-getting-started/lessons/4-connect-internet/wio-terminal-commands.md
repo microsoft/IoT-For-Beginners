@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "6754c915dae64ba70fcd5e52c37f3adf",
-  "translation_date": "2025-08-28T10:10:16+00:00",
-  "source_file": "1-getting-started/lessons/4-connect-internet/wio-terminal-commands.md",
-  "language_code": "sk"
-}
--->
 # Ovládajte svoje nočné svetlo cez internet - Wio Terminal
 
 V tejto časti lekcie sa naučíte, ako sa prihlásiť na odber príkazov odosielaných z MQTT brokera do vášho Wio Terminalu.

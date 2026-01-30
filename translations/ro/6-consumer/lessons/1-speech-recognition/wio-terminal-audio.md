@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "2f336726b9410e97c3aaed76cc89b0d8",
-  "translation_date": "2025-08-28T09:19:23+00:00",
-  "source_file": "6-consumer/lessons/1-speech-recognition/wio-terminal-audio.md",
-  "language_code": "ro"
-}
--->
 # Capturarea audio - Wio Terminal
 
 În această parte a lecției, vei scrie cod pentru a captura audio pe Wio Terminal. Capturarea audio va fi controlată de unul dintre butoanele de pe partea superioară a dispozitivului Wio Terminal.

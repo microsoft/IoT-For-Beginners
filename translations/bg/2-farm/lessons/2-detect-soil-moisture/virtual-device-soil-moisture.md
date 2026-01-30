@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "2bf65f162bcebd35fbcba5fd245afac4",
-  "translation_date": "2025-08-28T11:02:58+00:00",
-  "source_file": "2-farm/lessons/2-detect-soil-moisture/virtual-device-soil-moisture.md",
-  "language_code": "bg"
-}
--->
 # Измерване на влажността на почвата - Виртуален IoT хардуер
 
 В тази част на урока ще добавите капацитивен сензор за влажност на почвата към вашето виртуално IoT устройство и ще четете стойности от него.

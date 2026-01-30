@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "e4f2925acb211765889c3b51b9116ceb",
-  "translation_date": "2025-08-28T09:18:00+00:00",
-  "source_file": "6-consumer/lessons/1-speech-recognition/virtual-device-audio.md",
-  "language_code": "bg"
-}
--->
 # Заснемане на аудио - Виртуално IoT устройство
 
 Python библиотеките, които ще използвате по-късно в този урок за преобразуване на реч в текст, имат вградена функция за заснемане на аудио на Windows, macOS и Linux. Не е необходимо да правите нищо тук.

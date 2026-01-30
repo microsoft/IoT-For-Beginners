@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "d620a470d9dd8614d99824832978360a",
-  "translation_date": "2025-08-28T09:29:10+00:00",
-  "source_file": "6-consumer/lessons/4-multiple-language-support/virtual-device-translate-speech.md",
-  "language_code": "sk"
-}
--->
 # Preložiť reč - Virtuálne IoT zariadenie
 
 V tejto časti lekcie napíšete kód na preklad reči pri jej prevode na text pomocou služby na spracovanie reči, následne preložíte text pomocou služby Translator a nakoniec vygenerujete hovorenú odpoveď.

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "db44083b4dc6fb06eac83c4f16448940",
-  "translation_date": "2025-08-28T10:36:23+00:00",
-  "source_file": "1-getting-started/lessons/3-sensors-and-actuators/wio-terminal-actuator.md",
-  "language_code": "sk"
-}
--->
 # Vytvorte nočné svetlo - Wio Terminal
 
 V tejto časti lekcie pridáte LED k vášmu Wio Terminalu a použijete ju na vytvorenie nočného svetla.

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "3764e089adf2d5801272bc0895f8498b",
-  "translation_date": "2025-08-28T08:15:31+00:00",
-  "source_file": "4-manufacturing/README.md",
-  "language_code": "ro"
-}
--->
 # Producție și procesare - utilizarea IoT pentru îmbunătățirea procesării alimentelor
 
 Odată ce alimentele ajung la un centru de colectare sau la o fabrică de procesare, nu sunt întotdeauna trimise direct către supermarketuri. De multe ori, alimentele trec prin mai multe etape de procesare, cum ar fi sortarea în funcție de calitate. Acesta era un proces manual - începea pe câmp, când culegătorii alegeau doar fructele coapte, iar apoi, la fabrică, fructele erau transportate pe o bandă rulantă, iar angajații eliminau manual fructele lovite sau stricate. După ce am cules și sortat căpșuni ca job de vară în timpul școlii, pot confirma că nu este o muncă plăcută.

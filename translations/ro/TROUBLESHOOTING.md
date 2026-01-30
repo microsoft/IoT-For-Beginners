@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "9713e21a309662f6fcb271b573d47848",
-  "translation_date": "2026-01-06T16:03:59+00:00",
-  "source_file": "TROUBLESHOOTING.md",
-  "language_code": "ro"
-}
--->
 # Ghid de depanare
 
 Acest ghid te ajută să rezolvi probleme comune când lucrezi cu curriculumul IoT for Beginners. Problemele sunt organizate pe categorii pentru o navigare ușoară.

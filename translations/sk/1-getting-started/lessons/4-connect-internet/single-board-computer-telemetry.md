@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "1226517aae5f5b6f904434670394c688",
-  "translation_date": "2025-08-28T10:12:47+00:00",
-  "source_file": "1-getting-started/lessons/4-connect-internet/single-board-computer-telemetry.md",
-  "language_code": "sk"
-}
--->
 # Ovládajte svoje nočné svetlo cez internet - Virtuálny IoT hardvér a Raspberry Pi
 
 V tejto časti lekcie budete odosielať telemetriu s úrovňami svetla z vášho Raspberry Pi alebo virtuálneho IoT zariadenia do MQTT brokera.

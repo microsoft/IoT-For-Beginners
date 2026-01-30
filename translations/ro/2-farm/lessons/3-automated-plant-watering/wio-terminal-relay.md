@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "f3c5d8afa2ef6a0b425ef8ff20615cb4",
-  "translation_date": "2025-08-28T11:43:42+00:00",
-  "source_file": "2-farm/lessons/3-automated-plant-watering/wio-terminal-relay.md",
-  "language_code": "ro"
-}
--->
 # Controlează un releu - Wio Terminal
 
 În această parte a lecției, vei adăuga un releu la Wio Terminal, pe lângă senzorul de umiditate a solului, și îl vei controla în funcție de nivelul de umiditate a solului.

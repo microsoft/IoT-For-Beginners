@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "2bf65f162bcebd35fbcba5fd245afac4",
-  "translation_date": "2025-08-28T11:02:41+00:00",
-  "source_file": "2-farm/lessons/2-detect-soil-moisture/virtual-device-soil-moisture.md",
-  "language_code": "ro"
-}
--->
 # Măsurarea umidității solului - Hardware IoT Virtual
 
 În această parte a lecției, vei adăuga un senzor capacitiv de umiditate a solului la dispozitivul tău IoT virtual și vei citi valorile de la acesta.
