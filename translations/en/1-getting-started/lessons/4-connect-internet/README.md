@@ -1,6 +1,6 @@
 # Connect your device to the Internet
 
-![A sketchnote overview of this lesson](../../../../../translated_images/en/lesson-4.7344e074ea68fa545fd320b12dce36d72dd62d28c3b4596cb26cf315f434b98f.jpg)
+![A sketchnote overview of this lesson](../../../../../translated_images/en/lesson-4.7344e074ea68fa54.webp)
 
 > Sketchnote by [Nitya Narasimhan](https://github.com/nitya). Click the image for a larger version.
 
@@ -47,7 +47,7 @@ MQTT is the most widely used communication protocol for IoT devices and is the f
 
 MQTT uses a single broker and multiple clients. Clients connect to the broker, which routes messages to the appropriate recipients. Messages are routed using named topics rather than being sent directly to specific clients. A client can publish to a topic, and any clients subscribed to that topic will receive the message.
 
-![IoT device publishing telemetry on the /telemetry topic, and the cloud service subscribing to that topic](../../../../../translated_images/en/mqtt.cbf7f21d9adc3e17548b359444cc11bb4bf2010543e32ece9a47becf54438c23.png)
+![IoT device publishing telemetry on the /telemetry topic, and the cloud service subscribing to that topic](../../../../../translated_images/en/mqtt.cbf7f21d9adc3e17.webp)
 
 ✅ Do some research. If you have a large number of IoT devices, how can you ensure your MQTT broker can handle all the messages?
 
@@ -69,7 +69,7 @@ To simplify this assignment, you'll use a public test server running [Eclipse Mo
 
 > 💁 This test broker is public and not secure. Anyone can listen to what you publish, so avoid using it for sensitive data.
 
-![A flow chart of the assignment showing light levels being read and checked, and the LED being controlled](../../../../../translated_images/en/assignment-1-internet-flow.3256feab5f052fd273bf4e331157c574c2c3fa42e479836fc9c3586f41db35a5.png)
+![A flow chart of the assignment showing light levels being read and checked, and the LED being controlled](../../../../../translated_images/en/assignment-1-internet-flow.3256feab5f052fd2.webp)
 
 Follow the relevant step below to connect your device to the MQTT broker:
 
@@ -350,7 +350,7 @@ For machinery, you might want to retain all data, especially if it's used for tr
 
 IoT devices should also be designed to function during outages. For example, a smart thermostat should still control heating based on local conditions even if it can't send telemetry to the cloud.
 
-[![This Ferrari got bricked because someone tried to upgrade it underground where there's no cell reception](../../../../../translated_images/en/bricked-car.dc38f8efadc6c59d76211f981a521efb300939283dee468f79503aae3ec67615.png)](https://twitter.com/internetofshit/status/1315736960082808832)
+[![This Ferrari got bricked because someone tried to upgrade it underground where there's no cell reception](../../../../../translated_images/en/bricked-car.dc38f8efadc6c59d.webp)](https://twitter.com/internetofshit/status/1315736960082808832)
 
 For MQTT, handling connectivity loss requires the device and server code to ensure message delivery. For example, messages could require acknowledgments, and any unacknowledged messages could be queued for later delivery.
 
@@ -358,7 +358,7 @@ For MQTT, handling connectivity loss requires the device and server code to ensu
 
 Commands are messages sent from the cloud to a device, instructing it to perform an action. This could involve controlling an actuator or issuing a device-specific instruction, such as rebooting or collecting additional telemetry.
 
-![An Internet-connected thermostat receiving a command to turn on the heating](../../../../../translated_images/en/commands.d6c06bbbb3a02cce95f2831a1c331daf6dedd4e470c4aa2b0ae54f332016e504.png)
+![An Internet-connected thermostat receiving a command to turn on the heating](../../../../../translated_images/en/commands.d6c06bbbb3a02cce.webp)
 
 For example, a thermostat might receive a command from the cloud to turn the heating on based on telemetry data from sensors.
 

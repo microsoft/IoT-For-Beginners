@@ -1,6 +1,6 @@
 # Déclencher la détection de la qualité des fruits à partir d'un capteur
 
-![Un aperçu en sketchnote de cette leçon](../../../../../translated_images/fr/lesson-18.92c32ed1d354caa5a54baa4032cf0b172d4655e8e326ad5d46c558a0def15365.jpg)
+![Un aperçu en sketchnote de cette leçon](../../../../../translated_images/fr/lesson-18.92c32ed1d354caa5.webp)
 
 > Sketchnote par [Nitya Narasimhan](https://github.com/nitya). Cliquez sur l'image pour une version agrandie.
 
@@ -39,7 +39,7 @@ Les applications IoT peuvent être décrites comme des *objets* (appareils) envo
 
 ### Architecture IoT de référence
 
-![Une architecture IoT de référence](../../../../../translated_images/fr/iot-reference-architecture.2278b98b55c6d4e89bde18eada3688d893861d43507641804dd2f9d3079cfaa0.png)
+![Une architecture IoT de référence](../../../../../translated_images/fr/iot-reference-architecture.2278b98b55c6d4e8.webp)
 
 Le diagramme ci-dessus montre une architecture IoT de référence.
 
@@ -49,7 +49,7 @@ Le diagramme ci-dessus montre une architecture IoT de référence.
 * **Informations** : elles proviennent d'applications sans serveur ou d'analyses effectuées sur des données stockées.
 * **Actions** : elles peuvent être des commandes envoyées aux appareils ou des visualisations de données permettant aux humains de prendre des décisions.
 
-![Une architecture IoT de référence](../../../../../translated_images/fr/iot-reference-architecture-azure.0b8d2161af924cb18ae48a8558a19541cca47f27264851b5b7e56d7b8bb372ac.png)
+![Une architecture IoT de référence](../../../../../translated_images/fr/iot-reference-architecture-azure.0b8d2161af924cb1.webp)
 
 Le diagramme ci-dessus montre certains des composants et services abordés jusqu'à présent dans ces leçons et comment ils s'articulent dans une architecture IoT de référence.
 
@@ -89,7 +89,7 @@ Vous devez construire un système où les fruits sont détectés à leur arrivé
 
 ### Prototyper votre application
 
-![Une architecture IoT de référence pour la vérification de la qualité des fruits](../../../../../translated_images/fr/iot-reference-architecture-fruit-quality.cc705f121c3b6fa71c800d9630935ac34bc08223a04601e35f41d5e9b5dd5207.png)
+![Une architecture IoT de référence pour la vérification de la qualité des fruits](../../../../../translated_images/fr/iot-reference-architecture-fruit-quality.cc705f121c3b6fa7.webp)
 
 Le diagramme ci-dessus montre une architecture de référence pour cette application prototype.
 
@@ -124,7 +124,7 @@ Suivez le guide correspondant pour utiliser un capteur de proximité afin de dé
 
 Le détecteur de fruits prototype comporte plusieurs composants qui communiquent entre eux.
 
-![Les composants communiquent entre eux](../../../../../translated_images/fr/fruit-quality-detector-message-flow.adf2a65da8fd8741ac7af11361574de89adc126785d67606bb4d2ec00467e380.png)
+![Les composants communiquent entre eux](../../../../../translated_images/fr/fruit-quality-detector-message-flow.adf2a65da8fd8741.webp)
 
 * Un capteur de proximité mesurant la distance par rapport à un fruit et envoyant cela à IoT Hub
 * La commande pour contrôler la caméra provenant de IoT Hub vers l'appareil caméra

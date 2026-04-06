@@ -13,7 +13,7 @@ I²C tiene un bus compuesto por 2 cables principales, junto con 2 cables de alim
 | VCC | Colector común de voltaje | La fuente de alimentación para los dispositivos. Este cable está conectado a los cables SDA y SCL para proporcionarles energía a través de una resistencia pull-up que apaga la señal cuando ningún dispositivo actúa como controlador. |
 | GND | Tierra | Proporciona una tierra común para el circuito eléctrico. |
 
-![Bus I2C con 3 dispositivos conectados a los cables SDA y SCL, compartiendo un cable de tierra común](../../../../../translated_images/es/i2c.83da845dde02256bdd462dbe0d5145461416b74930571b89d1ae142841eeb584.png)
+![Bus I2C con 3 dispositivos conectados a los cables SDA y SCL, compartiendo un cable de tierra común](../../../../../translated_images/es/i2c.83da845dde02256b.webp)
 
 Para enviar datos, un dispositivo emitirá una condición de inicio para indicar que está listo para enviar datos. Luego se convertirá en el controlador. El controlador envía la dirección del dispositivo con el que desea comunicarse, junto con la indicación de si quiere leer o escribir datos. Después de que los datos han sido transmitidos, el controlador envía una condición de parada para indicar que ha terminado. Después de esto, otro dispositivo puede convertirse en el controlador y enviar o recibir datos.
 

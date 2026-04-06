@@ -28,11 +28,11 @@ Agrega el relé a la aplicación CounterFit.
 
     1. Selecciona el botón **Add** para crear el relé en el Pin 5.
 
-    ![Configuración del relé](../../../../../translated_images/es/counterfit-create-relay.fa7c40fd0f2f6afc33b35ea94fcb235085be4861e14e3fe6b9b7bcfc82d1c888.png)
+    ![Configuración del relé](../../../../../translated_images/es/counterfit-create-relay.fa7c40fd0f2f6afc.webp)
 
     El relé será creado y aparecerá en la lista de actuadores.
 
-    ![Relé creado](../../../../../translated_images/es/counterfit-relay.bbf74c1dbdc8b9acd983367fcbd06703a402aefef6af54ddb28e11307ba8a12c.png)
+    ![Relé creado](../../../../../translated_images/es/counterfit-relay.bbf74c1dbdc8b9ac.webp)
 
 ## Programar el relé
 

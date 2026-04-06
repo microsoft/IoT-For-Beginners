@@ -1,6 +1,6 @@
 # Migrate your application logic to the cloud
 
-![A sketchnote overview of this lesson](../../../../../translated_images/en/lesson-9.dfe99c8e891f48e179724520da9f5794392cf9a625079281ccdcbf09bd85e1b6.jpg)
+![A sketchnote overview of this lesson](../../../../../translated_images/en/lesson-9.dfe99c8e891f48e1.webp)
 
 > Sketchnote by [Nitya Narasimhan](https://github.com/nitya). Click the image for a larger version.
 
@@ -28,7 +28,7 @@ In this lesson, we’ll cover:
 
 Serverless, or serverless computing, involves creating small blocks of code that run in the cloud in response to specific events. When an event occurs, your code is executed and receives data about the event. These events can originate from various sources, such as web requests, messages added to a queue, changes in a database, or messages sent to an IoT service by IoT devices.
 
-![Events being sent from an IoT service to a serverless service, all being processed at the same time by multiple functions being run](../../../../../translated_images/en/iot-messages-to-serverless.0194da1cc0732bb7d0f823aed3fce54735c6b1ad3bf36089804d8aaefc0a774f.png)
+![Events being sent from an IoT service to a serverless service, all being processed at the same time by multiple functions being run](../../../../../translated_images/en/iot-messages-to-serverless.0194da1cc0732bb7.webp)
 
 > 💁 If you've used database triggers before, think of this as a similar concept—code being triggered by an event, such as inserting a row.
 
@@ -54,7 +54,7 @@ For IoT developers, the serverless model is ideal. You can write a function that
 
 Microsoft’s serverless computing service is called Azure Functions.
 
-![The Azure Functions logo](../../../../../translated_images/en/azure-functions-logo.1cfc8e3204c9c44aaf80fcf406fc8544d80d7f00f8d3e8ed6fed764563e17564.png)
+![The Azure Functions logo](../../../../../translated_images/en/azure-functions-logo.1cfc8e3204c9c44a.webp)
 
 The short video below provides an overview of Azure Functions:
 

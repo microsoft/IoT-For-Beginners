@@ -1,6 +1,6 @@
 # Prise en charge de plusieurs langues
 
-![Un aperçu en sketchnote de cette leçon](../../../../../translated_images/fr/lesson-24.4246968ed058510ab275052e87ef9aa89c7b2f938915d103c605c04dc6cd5bb7.jpg)
+![Un aperçu en sketchnote de cette leçon](../../../../../translated_images/fr/lesson-24.4246968ed058510a.webp)
 
 > Sketchnote par [Nitya Narasimhan](https://github.com/nitya). Cliquez sur l'image pour une version agrandie.
 
@@ -74,7 +74,7 @@ Il existe un certain nombre de services d'IA que vous pouvez utiliser dans vos a
 
 ### Service vocal des services cognitifs
 
-![Le logo du service vocal](../../../../../translated_images/fr/azure-speech-logo.a1f08c4befb0159f2cb5d692d3baf5b599e7b44759d316da907bda1508f46a4a.png)
+![Le logo du service vocal](../../../../../translated_images/fr/azure-speech-logo.a1f08c4befb0159f.webp)
 
 Le service vocal que vous avez utilisé au cours des dernières leçons dispose de capacités de traduction pour la reconnaissance vocale. Lorsque vous reconnaissez la parole, vous pouvez demander non seulement le texte de la parole dans la même langue, mais aussi dans d'autres langues.
 
@@ -82,7 +82,7 @@ Le service vocal que vous avez utilisé au cours des dernières leçons dispose 
 
 ### Service de traduction des services cognitifs
 
-![Le logo du service de traduction](../../../../../translated_images/fr/azure-translator-logo.c6ed3a4a433edfd2f11577eca105412c50b8396b194cbbd730723dd1d0793bcd.png)
+![Le logo du service de traduction](../../../../../translated_images/fr/azure-translator-logo.c6ed3a4a433edfd2.webp)
 
 Le service Translator est un service de traduction dédié qui peut traduire du texte d'une langue vers une ou plusieurs langues cibles. En plus de traduire, il prend en charge un large éventail de fonctionnalités supplémentaires, y compris le masquage des propos injurieux. Il vous permet également de fournir une traduction spécifique pour un mot ou une phrase particulière, afin de travailler avec des termes que vous ne souhaitez pas traduire ou qui ont une traduction bien connue.
 

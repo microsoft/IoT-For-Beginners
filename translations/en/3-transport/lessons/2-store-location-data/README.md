@@ -1,6 +1,6 @@
 # Store location data
 
-![A sketchnote overview of this lesson](../../../../../translated_images/en/lesson-12.ca7f53039712a3ec14ad6474d8445361c84adab643edc53fa6269b77895606bb.jpg)
+![A sketchnote overview of this lesson](../../../../../translated_images/en/lesson-12.ca7f53039712a3ec.webp)
 
 > Sketchnote by [Nitya Narasimhan](https://github.com/nitya). Click the image for a larger version.
 
@@ -75,7 +75,7 @@ NoSQL databases are named for their lack of rigid structure compared to SQL data
 
 > 💁 Despite their name, some NoSQL databases allow SQL queries.
 
-![Documents in folders in a NoSQL database](../../../../../translated_images/en/noqsl-database.62d24ccf5b73f60d35c245a8533f1c7147c0928e955b82cb290b2e184bb434df.png)
+![Documents in folders in a NoSQL database](../../../../../translated_images/en/noqsl-database.62d24ccf5b73f60d.webp)
 
 NoSQL databases don't have a predefined schema, allowing you to insert unstructured data, often in JSON format. These documents can be organized into folders, similar to files on a computer. Each document can have different fields. For instance, if you store IoT data from farm vehicles, some documents might include accelerometer and speed data, while others might include trailer temperature data. Adding a new truck type with built-in scales to track produce weight would allow the IoT device to add this new field without requiring database changes.
 
@@ -89,7 +89,7 @@ In this lesson, you'll use NoSQL storage to store IoT data.
 
 In the previous lesson, you captured GPS data from a sensor connected to your IoT device. To store this data in the cloud, you need to send it to an IoT service. You'll use Azure IoT Hub, the same IoT cloud service from the previous project.
 
-![Sending GPS telemetry from an IoT device to IoT Hub](../../../../../translated_images/en/gps-telemetry-iot-hub.8115335d51cd2c1285d20e9d1b18cf685e59a8e093e7797291ef173445af6f3d.png)
+![Sending GPS telemetry from an IoT device to IoT Hub](../../../../../translated_images/en/gps-telemetry-iot-hub.8115335d51cd2c12.webp)
 
 ### Task - send GPS data to an IoT Hub
 
@@ -171,7 +171,7 @@ Cold path data is stored in data warehouses—databases designed for large, unch
 
 Once data is flowing into your IoT Hub, you can write serverless code to listen for events published to the Event-Hub-compatible endpoint. This represents the warm path, where data will be stored and used in the next lesson for journey reporting.
 
-![Sending GPS telemetry from an IoT device to IoT Hub, then to Azure Functions via an event hub trigger](../../../../../translated_images/en/gps-telemetry-iot-hub-functions.24d3fa5592455e9f4e2fe73856b40c3915a292b90263c31d652acfd976cfedd8.png)
+![Sending GPS telemetry from an IoT device to IoT Hub, then to Azure Functions via an event hub trigger](../../../../../translated_images/en/gps-telemetry-iot-hub-functions.24d3fa5592455e9f.webp)
 
 ### Task - handle GPS events using serverless code
 
@@ -193,7 +193,7 @@ Once data is flowing into your IoT Hub, you can write serverless code to listen 
 
 ## Azure Storage Accounts
 
-![The Azure Storage logo](../../../../../translated_images/en/azure-storage-logo.605c0f602c640d482a80f1b35a2629a32d595711b7ab1d7ceea843250615ff32.png)
+![The Azure Storage logo](../../../../../translated_images/en/azure-storage-logo.605c0f602c640d48.webp)
 
 Azure Storage Accounts is a general-purpose storage service that can store data in various ways. You can store data as blobs, in queues, in tables, or as files, all at the same time.
 

@@ -1,6 +1,6 @@
 # Keep your plant secure
 
-![A sketchnote overview of this lesson](../../../../../translated_images/en/lesson-10.829c86b80b9403bb770929ee553a1d293afe50dc23121aaf9be144673ae012cc.jpg)
+![A sketchnote overview of this lesson](../../../../../translated_images/en/lesson-10.829c86b80b9403bb.webp)
 
 > Sketchnote by [Nitya Narasimhan](https://github.com/nitya). Click the image for a larger version.
 
@@ -52,11 +52,11 @@ These scenarios are not hypothetical—they happen frequently. Here are some rea
 
 When a device connects to an IoT service, it uses an ID to identify itself. The problem is that this ID can be cloned—a hacker could set up a malicious device using the same ID as a legitimate device but send false data.
 
-![Both valid and malicious devices could use the same ID to send telemetry](../../../../../translated_images/en/iot-device-and-hacked-device-connecting.e0671675df74d6d99eb1dedb5a670e606f698efa6202b1ad4c8ae548db299cc6.png)
+![Both valid and malicious devices could use the same ID to send telemetry](../../../../../translated_images/en/iot-device-and-hacked-device-connecting.e0671675df74d6d9.webp)
 
 The solution is to scramble the data being sent using a value known only to the device and the cloud. This process is called *encryption*, and the value used to encrypt the data is called an *encryption key*.
 
-![If encryption is used, then only encrypted messages will be accepted, others will be rejected](../../../../../translated_images/en/iot-device-and-hacked-device-connecting-encryption.5941aff601fc978f979e46f2849b573564eeb4a4dc5b52f669f62745397492fb.png)
+![If encryption is used, then only encrypted messages will be accepted, others will be rejected](../../../../../translated_images/en/iot-device-and-hacked-device-connecting-encryption.5941aff601fc978f.webp)
 
 The cloud service can then unscramble the data using a process called *decryption*, using either the same encryption key or a *decryption key*. If the encrypted message cannot be decrypted with the key, the device is deemed compromised, and the message is rejected.
 

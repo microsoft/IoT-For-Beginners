@@ -1,6 +1,6 @@
 # Geocercas
 
-![Una vista general de esta lección en formato sketchnote](../../../../../translated_images/es/lesson-14.63980c5150ae3c153e770fb71d044c1845dce79248d86bed9fc525adf3ede73c.jpg)
+![Una vista general de esta lección en formato sketchnote](../../../../../translated_images/es/lesson-14.63980c5150ae3c15.webp)
 
 > Sketchnote por [Nitya Narasimhan](https://github.com/nitya). Haz clic en la imagen para una versión más grande.
 
@@ -35,7 +35,7 @@ En esta lección cubriremos:
 
 Una geocerca es un perímetro virtual para una región geográfica del mundo real. Las geocercas pueden ser círculos definidos como un punto y un radio (por ejemplo, un círculo de 100m alrededor de un edificio), o un polígono que cubre un área como una zona escolar, límites de una ciudad, o un campus universitario o de oficinas.
 
-![Algunos ejemplos de geocercas mostrando una geocerca circular alrededor de la tienda de Microsoft y una geocerca poligonal alrededor del campus oeste de Microsoft](../../../../../translated_images/es/geofence-examples.172fbc534665769f6e1a1ddcf75e3b25183cd10354c80cc603ba44b635390e1a.png)
+![Algunos ejemplos de geocercas mostrando una geocerca circular alrededor de la tienda de Microsoft y una geocerca poligonal alrededor del campus oeste de Microsoft](../../../../../translated_images/es/geofence-examples.172fbc534665769f.webp)
 
 > 💁 Puede que ya hayas usado geocercas sin saberlo. Si has configurado un recordatorio usando la aplicación de recordatorios de iOS o Google Keep basado en una ubicación, has utilizado una geocerca. Estas aplicaciones configuran una geocerca basada en la ubicación dada y te alertan cuando tu teléfono entra en la geocerca.
 
@@ -212,7 +212,7 @@ Es importante conocer la distancia al borde de la geocerca y combinar esto con o
 
 Por ejemplo, imagina lecturas de GPS que muestran que un vehículo estaba conduciendo por una carretera que termina corriendo junto a una geocerca. Si un único valor de GPS es inexacto y coloca el vehículo dentro de la geocerca, a pesar de que no hay acceso vehicular, entonces puede ignorarse.
 
-![Un rastro de GPS mostrando un vehículo pasando por el campus de Microsoft en la 520, con lecturas de GPS a lo largo de la carretera excepto una en el campus, dentro de una geocerca](../../../../../translated_images/es/geofence-crossing-inaccurate-gps.6a3ed911202ad9cabb66d3964888cec03a42c61d5b8f536ad5bdc99716b370f5.png)
+![Un rastro de GPS mostrando un vehículo pasando por el campus de Microsoft en la 520, con lecturas de GPS a lo largo de la carretera excepto una en el campus, dentro de una geocerca](../../../../../translated_images/es/geofence-crossing-inaccurate-gps.6a3ed911202ad9ca.webp)
 En la imagen anterior, hay una geocerca sobre parte del campus de Microsoft. La línea roja muestra un camión conduciendo a lo largo de la 520, con círculos que representan las lecturas de GPS. La mayoría de estas son precisas y están a lo largo de la 520, con una lectura inexacta dentro de la geocerca. No hay forma de que esa lectura sea correcta: no hay carreteras para que el camión se desvíe repentinamente de la 520 hacia el campus y luego regrese a la 520. El código que verifica esta geocerca necesitará tomar en cuenta las lecturas previas antes de actuar sobre los resultados de la prueba de la geocerca.
 
 ✅ ¿Qué datos adicionales necesitarías verificar para determinar si una lectura de GPS puede considerarse correcta?
@@ -284,7 +284,7 @@ Como recordarás de lecciones anteriores, el IoT Hub te permitirá reproducir ev
 
 La respuesta es que no puede. En su lugar, puedes definir múltiples conexiones separadas para leer eventos, y cada una puede gestionar la reproducción de mensajes no leídos. Estos se llaman *grupos de consumidores*. Cuando te conectas al punto de conexión, puedes especificar a qué grupo de consumidores deseas conectarte. Cada componente de tu aplicación se conectará a un grupo de consumidores diferente.
 
-![Un IoT Hub con 3 grupos de consumidores distribuyendo los mismos mensajes a 3 diferentes aplicaciones de Functions](../../../../../translated_images/es/consumer-groups.a3262e26fc27ba2092863678ad57af15c7223416e388a23f330c058cf4358630.png)
+![Un IoT Hub con 3 grupos de consumidores distribuyendo los mismos mensajes a 3 diferentes aplicaciones de Functions](../../../../../translated_images/es/consumer-groups.a3262e26fc27ba20.webp)
 
 En teoría, hasta 5 aplicaciones pueden conectarse a cada grupo de consumidores, y todas recibirán mensajes cuando lleguen. Es una buena práctica tener solo una aplicación accediendo a cada grupo de consumidores para evitar el procesamiento duplicado de mensajes y asegurarse de que, al reiniciar, todos los mensajes en cola se procesen correctamente. Por ejemplo, si lanzas tu aplicación de Functions localmente además de ejecutarla en la nube, ambas procesarían mensajes, lo que llevaría a blobs duplicados almacenados en la cuenta de almacenamiento.
 

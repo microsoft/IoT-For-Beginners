@@ -1,6 +1,6 @@
 # Interagir avec le monde physique avec des capteurs et des actionneurs
 
-![Un aperçu en sketchnote de cette leçon](../../../../../translated_images/fr/lesson-3.cc3b7b4cd646de598698cce043c0393fd62ef42bac2eaf60e61272cd844250f4.jpg)
+![Un aperçu en sketchnote de cette leçon](../../../../../translated_images/fr/lesson-3.cc3b7b4cd646de59.webp)
 
 > Sketchnote par [Nitya Narasimhan](https://github.com/nitya). Cliquez sur l'image pour une version agrandie.
 
@@ -92,7 +92,7 @@ Les capteurs numériques, comme les capteurs analogiques, détectent le monde qu
 
 Le capteur numérique le plus simple est un bouton ou un interrupteur. C'est un capteur avec deux états : activé ou désactivé.
 
-![Un bouton reçoit 5 volts. Lorsqu'il n'est pas pressé, il retourne 0 volts ; lorsqu'il est pressé, il retourne 5 volts](../../../../../translated_images/fr/button.eadb560b77ac45e56f523d9d8876e40444f63b419e33eb820082d461fa79490b.png)
+![Un bouton reçoit 5 volts. Lorsqu'il n'est pas pressé, il retourne 0 volts ; lorsqu'il est pressé, il retourne 5 volts](../../../../../translated_images/fr/button.eadb560b77ac45e5.webp)
 
 Les broches des appareils IoT, comme les broches GPIO, peuvent mesurer ce signal directement comme un 0 ou un 1. Si la tension envoyée est la même que la tension retournée, la valeur lue est 1, sinon la valeur lue est 0. Il n'est pas nécessaire de convertir le signal, il ne peut être que 1 ou 0.
 
@@ -125,7 +125,7 @@ Quelques actionneurs courants incluent :
 
 Suivez le guide correspondant ci-dessous pour ajouter un actionneur à votre appareil IoT, contrôlé par le capteur, afin de créer une veilleuse IoT. Elle recueillera les niveaux de lumière du capteur de lumière et utilisera un actionneur sous forme de LED pour émettre de la lumière lorsque le niveau de lumière détecté est trop faible.
 
-![Un diagramme de flux de l'exercice montrant les niveaux de lumière mesurés et vérifiés, et la LED contrôlée](../../../../../translated_images/fr/assignment-1-flow.7552a51acb1a5ec858dca6e855cdbb44206434006df8ba3799a25afcdab1665d.png)
+![Un diagramme de flux de l'exercice montrant les niveaux de lumière mesurés et vérifiés, et la LED contrôlée](../../../../../translated_images/fr/assignment-1-flow.7552a51acb1a5ec8.webp)
 
 * [Arduino - Wio Terminal](wio-terminal-actuator.md)
 * [Ordinateur monocarte - Raspberry Pi](pi-actuator.md)
@@ -140,7 +140,7 @@ Comme les capteurs, les actionneurs peuvent être analogiques ou numériques.
 Les actionneurs analogiques prennent un signal analogique et le convertissent en une interaction quelconque, où l'interaction varie en fonction de la tension fournie.
 
 Un exemple est une lumière réglable, comme celles que vous pourriez avoir chez vous. La quantité de tension fournie à la lumière détermine sa luminosité.
-![Une lumière atténuée à basse tension et plus lumineuse à haute tension](../../../../../translated_images/fr/dimmable-light.9ceffeb195dec1a849da718b2d71b32c35171ff7dfea9c07bbf82646a67acf6b.png)
+![Une lumière atténuée à basse tension et plus lumineuse à haute tension](../../../../../translated_images/fr/dimmable-light.9ceffeb195dec1a8.webp)
 
 Comme pour les capteurs, le véritable appareil IoT fonctionne avec des signaux numériques, et non analogiques. Cela signifie que pour envoyer un signal analogique, l'appareil IoT a besoin d'un convertisseur numérique-analogique (DAC), soit directement sur l'appareil IoT, soit sur une carte connecteur. Cela convertira les 0 et 1 de l'appareil IoT en une tension analogique que l'actionneur peut utiliser.
 
@@ -187,7 +187,7 @@ Les actionneurs numériques, comme les capteurs numériques, ont soit deux état
 
 Un actionneur numérique simple est une LED. Lorsqu'un appareil envoie un signal numérique de 1, une tension haute est envoyée pour allumer la LED. Lorsqu'un signal numérique de 0 est envoyé, la tension tombe à 0V et la LED s'éteint.
 
-![Une LED éteinte à 0 volts et allumée à 5V](../../../../../translated_images/fr/led.ec6d94f66676a174ad06d9fa9ea49c2ee89beb18b312d5c6476467c66375b07f.png)
+![Une LED éteinte à 0 volts et allumée à 5V](../../../../../translated_images/fr/led.ec6d94f66676a174.webp)
 
 ✅ Quels autres actionneurs simples à 2 états pouvez-vous imaginer ? Un exemple est un solénoïde, qui est un électroaimant pouvant être activé pour effectuer des actions comme déplacer un verrou de porte pour la verrouiller/déverrouiller.
 

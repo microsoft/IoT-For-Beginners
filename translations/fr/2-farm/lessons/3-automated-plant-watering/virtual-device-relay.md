@@ -28,11 +28,11 @@ Ajoutez le relais à l'application CounterFit.
 
     1. Sélectionnez le bouton **Add** pour créer le relais sur la broche 5.
 
-    ![Les paramètres du relais](../../../../../translated_images/fr/counterfit-create-relay.fa7c40fd0f2f6afc33b35ea94fcb235085be4861e14e3fe6b9b7bcfc82d1c888.png)
+    ![Les paramètres du relais](../../../../../translated_images/fr/counterfit-create-relay.fa7c40fd0f2f6afc.webp)
 
     Le relais sera créé et apparaîtra dans la liste des actionneurs.
 
-    ![Le relais créé](../../../../../translated_images/fr/counterfit-relay.bbf74c1dbdc8b9acd983367fcbd06703a402aefef6af54ddb28e11307ba8a12c.png)
+    ![Le relais créé](../../../../../translated_images/fr/counterfit-relay.bbf74c1dbdc8b9ac.webp)
 
 ## Programmer le relais
 

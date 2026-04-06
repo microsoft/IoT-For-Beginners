@@ -1,6 +1,6 @@
 # Stocker des données de localisation
 
-![Un aperçu en sketchnote de cette leçon](../../../../../translated_images/fr/lesson-12.ca7f53039712a3ec14ad6474d8445361c84adab643edc53fa6269b77895606bb.jpg)
+![Un aperçu en sketchnote de cette leçon](../../../../../translated_images/fr/lesson-12.ca7f53039712a3ec.webp)
 
 > Sketchnote par [Nitya Narasimhan](https://github.com/nitya). Cliquez sur l'image pour une version agrandie.
 
@@ -75,7 +75,7 @@ Les bases de données NoSQL sont appelées NoSQL car elles n'ont pas la même st
 
 > 💁 Malgré leur nom, certaines bases de données NoSQL permettent d'utiliser SQL pour interroger les données.
 
-![Documents dans des dossiers dans une base de données NoSQL](../../../../../translated_images/fr/noqsl-database.62d24ccf5b73f60d35c245a8533f1c7147c0928e955b82cb290b2e184bb434df.png)
+![Documents dans des dossiers dans une base de données NoSQL](../../../../../translated_images/fr/noqsl-database.62d24ccf5b73f60d.webp)
 
 Les bases de données NoSQL n'ont pas de schéma prédéfini qui limite la manière dont les données sont stockées. Vous pouvez insérer des données non structurées, généralement sous forme de documents JSON. Ces documents peuvent être organisés en dossiers, similaires aux fichiers sur votre ordinateur. Chaque document peut avoir des champs différents des autres documents - par exemple, si vous stockiez des données IoT provenant de vos véhicules agricoles, certains pourraient avoir des champs pour les données d'accéléromètre et de vitesse, d'autres pourraient avoir des champs pour la température dans la remorque. Si vous ajoutiez un nouveau type de camion, comme un camion avec des balances intégrées pour suivre le poids des produits transportés, alors votre dispositif IoT pourrait ajouter ce nouveau champ et il pourrait être stocké sans aucun changement à la base de données.
 
@@ -89,7 +89,7 @@ Dans cette leçon, vous utiliserez un stockage NoSQL pour stocker des données I
 
 Dans la dernière leçon, vous avez capturé des données GPS à partir d'un capteur GPS connecté à votre dispositif IoT. Pour stocker ces données IoT dans le cloud, vous devez les envoyer à un service IoT. Une fois de plus, vous utiliserez Azure IoT Hub, le même service IoT cloud que vous avez utilisé dans le projet précédent.
 
-![Envoi de télémétrie GPS d'un dispositif IoT à IoT Hub](../../../../../translated_images/fr/gps-telemetry-iot-hub.8115335d51cd2c1285d20e9d1b18cf685e59a8e093e7797291ef173445af6f3d.png)
+![Envoi de télémétrie GPS d'un dispositif IoT à IoT Hub](../../../../../translated_images/fr/gps-telemetry-iot-hub.8115335d51cd2c12.webp)
 
 ### Tâche - envoyer des données GPS à un IoT Hub
 
@@ -171,7 +171,7 @@ Les données du chemin froid sont stockées dans des entrepôts de données - de
 
 Une fois que les données arrivent dans votre IoT Hub, vous pouvez écrire du code sans serveur pour écouter les événements publiés sur le point de terminaison compatible Event-Hub. Il s'agit du chemin tiède - ces données seront stockées et utilisées dans la prochaine leçon pour établir un rapport sur le trajet.
 
-![Envoi de télémétrie GPS d'un dispositif IoT à IoT Hub, puis à Azure Functions via un déclencheur Event Hub](../../../../../translated_images/fr/gps-telemetry-iot-hub-functions.24d3fa5592455e9f4e2fe73856b40c3915a292b90263c31d652acfd976cfedd8.png)
+![Envoi de télémétrie GPS d'un dispositif IoT à IoT Hub, puis à Azure Functions via un déclencheur Event Hub](../../../../../translated_images/fr/gps-telemetry-iot-hub-functions.24d3fa5592455e9f.webp)
 
 ### Tâche - gérer les événements GPS avec du code sans serveur
 
@@ -193,7 +193,7 @@ Une fois que les données arrivent dans votre IoT Hub, vous pouvez écrire du co
 
 ## Comptes de stockage Azure
 
-![Le logo Azure Storage](../../../../../translated_images/fr/azure-storage-logo.605c0f602c640d482a80f1b35a2629a32d595711b7ab1d7ceea843250615ff32.png)
+![Le logo Azure Storage](../../../../../translated_images/fr/azure-storage-logo.605c0f602c640d48.webp)
 
 Les comptes de stockage Azure sont un service de stockage polyvalent qui peut stocker des données de différentes manières. Vous pouvez stocker des données sous forme de blobs, dans des files d'attente, dans des tables ou sous forme de fichiers, et tout cela simultanément.
 

@@ -1,6 +1,6 @@
 # Trigger fruit quality detection from a sensor
 
-![A sketchnote overview of this lesson](../../../../../translated_images/en/lesson-18.92c32ed1d354caa5a54baa4032cf0b172d4655e8e326ad5d46c558a0def15365.jpg)
+![A sketchnote overview of this lesson](../../../../../translated_images/en/lesson-18.92c32ed1d354caa5.webp)
 
 > Sketchnote by [Nitya Narasimhan](https://github.com/nitya). Click the image for a larger version.
 
@@ -39,7 +39,7 @@ IoT applications can be described as *things* (devices) sending data that genera
 
 ### Reference IoT architecture
 
-![A reference IoT architecture](../../../../../translated_images/en/iot-reference-architecture.2278b98b55c6d4e89bde18eada3688d893861d43507641804dd2f9d3079cfaa0.png)
+![A reference IoT architecture](../../../../../translated_images/en/iot-reference-architecture.2278b98b55c6d4e8.webp)
 
 The diagram above illustrates a reference IoT architecture.
 
@@ -49,7 +49,7 @@ The diagram above illustrates a reference IoT architecture.
 * **Insights** are derived from serverless applications or analytics performed on stored data.
 * **Actions** include commands sent to devices or data visualizations that help humans make decisions.
 
-![A reference IoT architecture](../../../../../translated_images/en/iot-reference-architecture-azure.0b8d2161af924cb18ae48a8558a19541cca47f27264851b5b7e56d7b8bb372ac.png)
+![A reference IoT architecture](../../../../../translated_images/en/iot-reference-architecture-azure.0b8d2161af924cb1.webp)
 
 The diagram above shows some of the components and services covered in these lessons and how they fit into a reference IoT architecture.
 
@@ -89,7 +89,7 @@ You need to create a system where fruit is detected as it arrives on the conveyo
 
 ### Prototyping your application
 
-![A reference IoT architecture for fruit quality checking](../../../../../translated_images/en/iot-reference-architecture-fruit-quality.cc705f121c3b6fa71c800d9630935ac34bc08223a04601e35f41d5e9b5dd5207.png)
+![A reference IoT architecture for fruit quality checking](../../../../../translated_images/en/iot-reference-architecture-fruit-quality.cc705f121c3b6fa7.webp)
 
 The diagram above shows a reference architecture for this prototype application.
 
@@ -124,7 +124,7 @@ Follow the relevant guide to use a proximity sensor to detect an object with you
 
 The prototype fruit detector involves multiple components communicating with each other.
 
-![The components communicating with each other](../../../../../translated_images/en/fruit-quality-detector-message-flow.adf2a65da8fd8741ac7af11361574de89adc126785d67606bb4d2ec00467e380.png)
+![The components communicating with each other](../../../../../translated_images/en/fruit-quality-detector-message-flow.adf2a65da8fd8741.webp)
 
 * A proximity sensor measures the distance to a piece of fruit and sends this data to IoT Hub.
 * A command to control the camera is sent from IoT Hub to the camera device.

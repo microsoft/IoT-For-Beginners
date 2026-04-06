@@ -1,6 +1,6 @@
 # A deeper dive into IoT
 
-![A sketchnote overview of this lesson](../../../../../translated_images/en/lesson-2.324b0580d620c25e0a24fb7fddfc0b29a846dd4b82c08e7a9466d580ee78ce51.jpg)
+![A sketchnote overview of this lesson](../../../../../translated_images/en/lesson-2.324b0580d620c25e.webp)
 
 > Sketchnote by [Nitya Narasimhan](https://github.com/nitya). Click the image for a larger version.
 
@@ -38,7 +38,7 @@ The **Thing** in IoT refers to a device that interacts with the physical world. 
 
 These devices interact with the physical world by using sensors to collect data from their surroundings or by controlling outputs or actuators to make physical changes. A classic example is a smart thermostat, which includes a temperature sensor, a way to set a desired temperature (like a dial or touchscreen), and a connection to a heating or cooling system. The thermostat detects when the room is too cold and activates the heating system.
 
-![A diagram showing temperature and a dial as inputs to an IoT device, and control of a heater as an output](../../../../../translated_images/en/basic-thermostat.a923217fd1f37e5a6f3390396a65c22a387419ea2dd17e518ec24315ba6ae9a8.png)
+![A diagram showing temperature and a dial as inputs to an IoT device, and control of a heater as an output](../../../../../translated_images/en/basic-thermostat.a923217fd1f37e5a.webp)
 
 There’s a wide variety of devices that can serve as IoT devices, ranging from specialized hardware that senses a single thing to general-purpose devices like your smartphone. For instance, a smartphone can use sensors to gather data about its environment and actuators to interact with the world—for example, using GPS to determine your location and a speaker to provide navigation instructions.
 
@@ -54,7 +54,7 @@ Not all IoT devices connect directly to the Internet via WiFi or wired connectio
 
 For example, a smart thermostat might connect to a cloud service via home WiFi. The thermostat sends temperature data to the cloud service, which stores it in a database. The homeowner can then check current and past temperatures using a phone app. Another cloud service determines the desired temperature and sends commands back to the thermostat to control the heating system.
 
-![A diagram showing temperature and a dial as inputs to an IoT device, the IoT device with 2-way communication to the cloud, which in turn has 2-way communication to a phone, and control of a heater as an output from the IoT device](../../../../../translated_images/en/mobile-controlled-thermostat.4a994010473d8d6a52ba68c67e5f02dc8928c717e93ca4b9bc55525aa75bbb60.png)
+![A diagram showing temperature and a dial as inputs to an IoT device, the IoT device with 2-way communication to the cloud, which in turn has 2-way communication to a phone, and control of a heater as an output from the IoT device](../../../../../translated_images/en/mobile-controlled-thermostat.4a994010473d8d6a.webp)
 
 A more advanced version might use AI in the cloud, combining data from other IoT devices like occupancy sensors, as well as external data like weather forecasts and your calendar, to make smarter decisions about temperature settings. For instance, it could turn off the heating if your calendar shows you’re on vacation or adjust the temperature room by room based on usage patterns, learning over time to become more accurate.
 
@@ -92,7 +92,7 @@ CPUs operate based on a clock that ticks millions or billions of times per secon
 
 > 💁 CPUs execute programs using the [fetch-decode-execute cycle](https://wikipedia.org/wiki/Instruction_cycle). Each cycle involves fetching an instruction from memory, decoding it, and executing it. Some instructions take multiple cycles to complete.
 
-![The fetch decode execute cycles showing the fetch taking an instruction from the program stored in RAM, then decoding and executing it on a CPU](../../../../../translated_images/en/fetch-decode-execute.2fd6f150f6280392807f4475382319abd0cee0b90058e1735444d6baa6f2078c.png)
+![The fetch decode execute cycles showing the fetch taking an instruction from the program stored in RAM, then decoding and executing it on a CPU](../../../../../translated_images/en/fetch-decode-execute.2fd6f150f6280392.webp)
 
 Microcontrollers have much lower clock speeds than PCs, laptops, or smartphones. For example, the Wio Terminal’s CPU runs at 120 MHz (120 million cycles per second).
 
@@ -180,7 +180,7 @@ Arduino programs are written in C or C++. These languages allow for compact, fas
 
 The `setup` function is used for initialization tasks, such as connecting to WiFi or setting up input/output pins. The `loop` function contains the main processing logic, such as reading sensor data and sending it to the cloud. You can include delays in the loop to control how often it runs—for example, adding a 10-second delay to send sensor data every 10 seconds. This allows the microcontroller to sleep between loops, conserving power.
 
-![An Arduino sketch running setup first, then running loop repeatedly](../../../../../translated_images/en/arduino-sketch.79590cb837ff7a7c6a68d1afda6cab83fd53d3bb1bd9a8bf2eaf8d693a4d3ea6.png)
+![An Arduino sketch running setup first, then running loop repeatedly](../../../../../translated_images/en/arduino-sketch.79590cb837ff7a7c.webp)
 
 ✅ This program structure is called an *event loop* or *message loop*. It’s widely used in desktop applications running on OSes like Windows, macOS, or Linux. The `loop` listens for events, such as button presses or keyboard input, and responds accordingly. Learn more in this [article on the event loop](https://wikipedia.org/wiki/Event_loop).
 

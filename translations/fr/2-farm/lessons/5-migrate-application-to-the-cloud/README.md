@@ -1,6 +1,6 @@
 # Migrer la logique de votre application vers le cloud
 
-![Un aperçu en sketchnote de cette leçon](../../../../../translated_images/fr/lesson-9.dfe99c8e891f48e179724520da9f5794392cf9a625079281ccdcbf09bd85e1b6.jpg)
+![Un aperçu en sketchnote de cette leçon](../../../../../translated_images/fr/lesson-9.dfe99c8e891f48e1.webp)
 
 > Sketchnote par [Nitya Narasimhan](https://github.com/nitya). Cliquez sur l'image pour une version agrandie.
 
@@ -28,7 +28,7 @@ Dans cette leçon, nous couvrirons :
 
 Le sans serveur, ou informatique sans serveur, consiste à créer de petits blocs de code qui s'exécutent dans le cloud en réponse à différents types d'événements. Lorsque l'événement se produit, votre code est exécuté et reçoit des données sur l'événement. Ces événements peuvent provenir de nombreuses sources, notamment des requêtes web, des messages placés dans une file d'attente, des modifications de données dans une base de données ou des messages envoyés à un service IoT par des appareils IoT.
 
-![Des événements envoyés d'un service IoT à un service sans serveur, tous traités simultanément par plusieurs fonctions exécutées](../../../../../translated_images/fr/iot-messages-to-serverless.0194da1cc0732bb7d0f823aed3fce54735c6b1ad3bf36089804d8aaefc0a774f.png)
+![Des événements envoyés d'un service IoT à un service sans serveur, tous traités simultanément par plusieurs fonctions exécutées](../../../../../translated_images/fr/iot-messages-to-serverless.0194da1cc0732bb7.webp)
 
 > 💁 Si vous avez déjà utilisé des déclencheurs de base de données, vous pouvez considérer cela comme similaire : du code déclenché par un événement tel que l'insertion d'une ligne.
 
@@ -54,7 +54,7 @@ En tant que développeur IoT, le modèle sans serveur est idéal. Vous pouvez é
 
 Le service d'informatique sans serveur de Microsoft s'appelle Azure Functions.
 
-![Le logo Azure Functions](../../../../../translated_images/fr/azure-functions-logo.1cfc8e3204c9c44aaf80fcf406fc8544d80d7f00f8d3e8ed6fed764563e17564.png)
+![Le logo Azure Functions](../../../../../translated_images/fr/azure-functions-logo.1cfc8e3204c9c44a.webp)
 
 La courte vidéo ci-dessous donne un aperçu d'Azure Functions.
 

@@ -1,6 +1,6 @@
 # Configura un temporizador y proporciona retroalimentación hablada
 
-![Un resumen visual de esta lección](../../../../../translated_images/es/lesson-23.f38483e1d4df4828990d3f02d60e46c978b075d384ae7cb4f7bab738e107c850.jpg)
+![Un resumen visual de esta lección](../../../../../translated_images/es/lesson-23.f38483e1d4df4828.webp)
 
 > Boceto por [Nitya Narasimhan](https://github.com/nitya). Haz clic en la imagen para una versión más grande.
 

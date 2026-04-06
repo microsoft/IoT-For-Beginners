@@ -1,6 +1,6 @@
 # Seguimiento de ubicación
 
-![Una vista general ilustrada de esta lección](../../../../../translated_images/es/lesson-11.9fddbac4b664c6d50ab7ac9bb32f1fc3f945f03760e72f7f43938073762fb017.jpg)
+![Una vista general ilustrada de esta lección](../../../../../translated_images/es/lesson-11.9fddbac4b664c6d5.webp)
 
 > Ilustración por [Nitya Narasimhan](https://github.com/nitya). Haz clic en la imagen para una versión más grande.
 
@@ -63,13 +63,13 @@ La Tierra es una esfera, un círculo tridimensional. Debido a esto, los puntos s
 
 > 💁 Nadie sabe realmente la razón original por la cual los círculos se dividen en 360 grados. La [página de grados (ángulo) en Wikipedia](https://wikipedia.org/wiki/Degree_(angle)) cubre algunas de las posibles razones.
 
-![Líneas de latitud desde 90° en el Polo Norte, 45° a mitad de camino entre el Polo Norte y el ecuador, 0° en el ecuador, -45° a mitad de camino entre el ecuador y el Polo Sur, y -90° en el Polo Sur](../../../../../translated_images/es/latitude-lines.11d8d91dfb2014a57437272d7db7fd6607243098e8685f06e0c5f1ec984cb7eb.png)
+![Líneas de latitud desde 90° en el Polo Norte, 45° a mitad de camino entre el Polo Norte y el ecuador, 0° en el ecuador, -45° a mitad de camino entre el ecuador y el Polo Sur, y -90° en el Polo Sur](../../../../../translated_images/es/latitude-lines.11d8d91dfb2014a5.webp)
 
 La latitud se mide utilizando líneas que rodean la Tierra y corren paralelas al ecuador, dividiendo los hemisferios norte y sur en 90° cada uno. El ecuador está en 0°, el Polo Norte está en 90°, también conocido como 90° Norte, y el Polo Sur está en -90°, o 90° Sur.
 
 La longitud se mide como el número de grados hacia el este y el oeste. El origen de 0° de longitud se llama el *Meridiano de Greenwich*, y fue definido en 1884 como una línea desde el Polo Norte al Polo Sur que pasa por el [Observatorio Real Británico en Greenwich, Inglaterra](https://wikipedia.org/wiki/Royal_Observatory,_Greenwich).
 
-![Líneas de longitud que van desde -180° al oeste del Meridiano de Greenwich, hasta 0° en el Meridiano de Greenwich, hasta 180° al este del Meridiano de Greenwich](../../../../../translated_images/es/longitude-meridians.ab4ef1c91c064586b0185a3c8d39e585903696c6a7d28c098a93a629cddb5d20.png)
+![Líneas de longitud que van desde -180° al oeste del Meridiano de Greenwich, hasta 0° en el Meridiano de Greenwich, hasta 180° al este del Meridiano de Greenwich](../../../../../translated_images/es/longitude-meridians.ab4ef1c91c064586.webp)
 
 > 🎓 Un meridiano es una línea imaginaria recta que va desde el Polo Norte al Polo Sur, formando un semicírculo.
 
@@ -100,7 +100,7 @@ Las coordenadas de un punto siempre se dan como `latitud, longitud`, por lo que 
 * Una latitud de 47.6423109 (47.6423109 grados al norte del ecuador)
 * Una longitud de -122.1390293 (122.1390293 grados al oeste del Meridiano de Greenwich).
 
-![El campus de Microsoft en 47.6423109,-122.117198](../../../../../translated_images/es/microsoft-gps-location-world.a321d481b010f6adfcca139b2ba0adc53b79f58a540495b8e2ce7f779ea64bfe.png)
+![El campus de Microsoft en 47.6423109,-122.117198](../../../../../translated_images/es/microsoft-gps-location-world.a321d481b010f6ad.webp)
 
 ## Sistemas de Posicionamiento Global (GPS)
 
@@ -112,7 +112,7 @@ Los sistemas GPS funcionan al tener varios satélites que envían una señal con
 
 > 💁 Los sensores GPS necesitan antenas para detectar ondas de radio. Las antenas integradas en camiones y automóviles con GPS a bordo están posicionadas para obtener una buena señal, generalmente en el parabrisas o el techo. Si estás usando un sistema GPS separado, como un teléfono inteligente o un dispositivo IoT, entonces necesitas asegurarte de que la antena integrada en el sistema GPS o teléfono tenga una vista clara del cielo, como estar montada en tu parabrisas.
 
-![Al conocer la distancia del sensor a múltiples satélites, se puede calcular la ubicación](../../../../../translated_images/es/gps-satellites.04acf1148fe25fbf1586bc2e8ba698e8d79b79a50c36824b38417dd13372b90f.png)
+![Al conocer la distancia del sensor a múltiples satélites, se puede calcular la ubicación](../../../../../translated_images/es/gps-satellites.04acf1148fe25fbf.webp)
 
 Los satélites GPS están orbitando la Tierra, no en un punto fijo sobre el sensor, por lo que los datos de ubicación incluyen la altitud sobre el nivel del mar además de la latitud y longitud.
 

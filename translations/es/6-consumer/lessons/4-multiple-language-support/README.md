@@ -1,6 +1,6 @@
 # Soporte para múltiples idiomas
 
-![Resumen visual de esta lección](../../../../../translated_images/es/lesson-24.4246968ed058510ab275052e87ef9aa89c7b2f938915d103c605c04dc6cd5bb7.jpg)
+![Resumen visual de esta lección](../../../../../translated_images/es/lesson-24.4246968ed058510a.webp)
 
 > Resumen visual por [Nitya Narasimhan](https://github.com/nitya). Haz clic en la imagen para una versión más grande.
 
@@ -74,7 +74,7 @@ Existen varios servicios de IA que puedes usar en tus aplicaciones para traducir
 
 ### Servicio de voz de Cognitive Services
 
-![El logotipo del servicio de voz](../../../../../translated_images/es/azure-speech-logo.a1f08c4befb0159f2cb5d692d3baf5b599e7b44759d316da907bda1508f46a4a.png)
+![El logotipo del servicio de voz](../../../../../translated_images/es/azure-speech-logo.a1f08c4befb0159f.webp)
 
 El servicio de voz que has estado utilizando en las últimas lecciones tiene capacidades de traducción para el reconocimiento de voz. Cuando reconoces voz, puedes solicitar no solo el texto de la voz en el mismo idioma, sino también en otros idiomas.
 
@@ -82,7 +82,7 @@ El servicio de voz que has estado utilizando en las últimas lecciones tiene cap
 
 ### Servicio de traductor de Cognitive Services
 
-![El logotipo del servicio de traductor](../../../../../translated_images/es/azure-translator-logo.c6ed3a4a433edfd2f11577eca105412c50b8396b194cbbd730723dd1d0793bcd.png)
+![El logotipo del servicio de traductor](../../../../../translated_images/es/azure-translator-logo.c6ed3a4a433edfd2.webp)
 
 El servicio de traductor es un servicio dedicado que puede traducir texto de un idioma a uno o más idiomas de destino. Además de traducir, admite una amplia gama de funciones adicionales, como enmascarar lenguaje ofensivo. También te permite proporcionar una traducción específica para una palabra o frase en particular, trabajar con términos que no deseas traducir o tener una traducción específica bien conocida.
 

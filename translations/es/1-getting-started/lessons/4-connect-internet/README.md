@@ -1,6 +1,6 @@
 # Conecta tu dispositivo a Internet
 
-![Un resumen visual de esta lección](../../../../../translated_images/es/lesson-4.7344e074ea68fa545fd320b12dce36d72dd62d28c3b4596cb26cf315f434b98f.jpg)
+![Un resumen visual de esta lección](../../../../../translated_images/es/lesson-4.7344e074ea68fa54.webp)
 
 > Resumen visual por [Nitya Narasimhan](https://github.com/nitya). Haz clic en la imagen para verla en tamaño completo.
 
@@ -47,7 +47,7 @@ MQTT es el protocolo de comunicación más popular para dispositivos IoT y se cu
 
 MQTT tiene un único intermediario y múltiples clientes. Todos los clientes se conectan al intermediario, y este enruta los mensajes a los clientes relevantes. Los mensajes se enrutan utilizando temas nombrados, en lugar de enviarse directamente a un cliente individual. Un cliente puede publicar en un tema, y cualquier cliente que se suscriba a ese tema recibirá el mensaje.
 
-![Dispositivo IoT publicando telemetría en el tema /telemetry, y el servicio en la nube suscribiéndose a ese tema](../../../../../translated_images/es/mqtt.cbf7f21d9adc3e17548b359444cc11bb4bf2010543e32ece9a47becf54438c23.png)
+![Dispositivo IoT publicando telemetría en el tema /telemetry, y el servicio en la nube suscribiéndose a ese tema](../../../../../translated_images/es/mqtt.cbf7f21d9adc3e17.webp)
 
 ✅ Investiga. Si tienes muchos dispositivos IoT, ¿cómo puedes asegurarte de que tu intermediario MQTT pueda manejar todos los mensajes?
 
@@ -69,7 +69,7 @@ En lugar de lidiar con las complejidades de configurar un intermediario MQTT com
 
 > 💁 Este intermediario de prueba es público y no seguro. Cualquiera podría estar escuchando lo que publicas, por lo que no debe usarse con datos que necesiten mantenerse privados.
 
-![Un diagrama de flujo de la tarea mostrando los niveles de luz siendo leídos y verificados, y el LED siendo controlado](../../../../../translated_images/es/assignment-1-internet-flow.3256feab5f052fd273bf4e331157c574c2c3fa42e479836fc9c3586f41db35a5.png)
+![Un diagrama de flujo de la tarea mostrando los niveles de luz siendo leídos y verificados, y el LED siendo controlado](../../../../../translated_images/es/assignment-1-internet-flow.3256feab5f052fd2.webp)
 
 Sigue el paso relevante a continuación para conectar tu dispositivo al intermediario MQTT:
 
@@ -350,7 +350,7 @@ Para maquinaria, podrías querer conservar los datos, especialmente si se usan p
 
 Los diseñadores de dispositivos IoT también deberían considerar si el dispositivo IoT puede usarse durante un corte de Internet o pérdida de señal causada por la ubicación. Un termostato inteligente debería poder tomar algunas decisiones limitadas para controlar la calefacción si no puede enviar telemetría a la nube debido a un corte.
 
-[![Este Ferrari quedó inutilizado porque alguien intentó actualizarlo bajo tierra donde no hay recepción celular](../../../../../translated_images/es/bricked-car.dc38f8efadc6c59d76211f981a521efb300939283dee468f79503aae3ec67615.png)](https://twitter.com/internetofshit/status/1315736960082808832)
+[![Este Ferrari quedó inutilizado porque alguien intentó actualizarlo bajo tierra donde no hay recepción celular](../../../../../translated_images/es/bricked-car.dc38f8efadc6c59d.webp)](https://twitter.com/internetofshit/status/1315736960082808832)
 
 Para que MQTT maneje una pérdida de conectividad, el código del dispositivo y del servidor deberá ser responsable de garantizar la entrega de mensajes si es necesario, por ejemplo, exigiendo que todos los mensajes enviados sean respondidos con mensajes adicionales en un tema de respuesta, y si no lo son, se coloquen en cola manualmente para reproducirlos más tarde.
 
@@ -358,7 +358,7 @@ Para que MQTT maneje una pérdida de conectividad, el código del dispositivo y 
 
 Los comandos son mensajes enviados desde la nube a un dispositivo, instruyéndolo para que haga algo. La mayoría de las veces esto implica dar algún tipo de salida a través de un actuador, pero también puede ser una instrucción para el propio dispositivo, como reiniciarse o recopilar telemetría adicional y devolverla como respuesta al comando.
 
-![Un termostato conectado a Internet recibiendo un comando para encender la calefacción](../../../../../translated_images/es/commands.d6c06bbbb3a02cce95f2831a1c331daf6dedd4e470c4aa2b0ae54f332016e504.png)
+![Un termostato conectado a Internet recibiendo un comando para encender la calefacción](../../../../../translated_images/es/commands.d6c06bbbb3a02cce.webp)
 
 Un termostato podría recibir un comando desde la nube para encender la calefacción. Basándose en los datos de telemetría de todos los sensores, si el servicio en la nube ha decidido que la calefacción debe estar encendida, enviará el comando correspondiente.
 

@@ -1,6 +1,6 @@
 # Gardez votre plante en sécurité
 
-![Un aperçu en sketchnote de cette leçon](../../../../../translated_images/fr/lesson-10.829c86b80b9403bb770929ee553a1d293afe50dc23121aaf9be144673ae012cc.jpg)
+![Un aperçu en sketchnote de cette leçon](../../../../../translated_images/fr/lesson-10.829c86b80b9403bb.webp)
 
 > Sketchnote par [Nitya Narasimhan](https://github.com/nitya). Cliquez sur l'image pour une version agrandie.
 
@@ -52,11 +52,11 @@ Ce sont des scénarios réels qui se produisent fréquemment. Certains exemples 
 
 Lorsqu'un appareil se connecte à un service IoT, il utilise un identifiant pour s'identifier. Le problème est que cet identifiant peut être cloné - un hacker pourrait configurer un appareil malveillant utilisant le même identifiant qu'un appareil réel mais envoyant des données erronées.
 
-![Les appareils valides et malveillants pourraient utiliser le même identifiant pour envoyer des télémétries](../../../../../translated_images/fr/iot-device-and-hacked-device-connecting.e0671675df74d6d99eb1dedb5a670e606f698efa6202b1ad4c8ae548db299cc6.png)
+![Les appareils valides et malveillants pourraient utiliser le même identifiant pour envoyer des télémétries](../../../../../translated_images/fr/iot-device-and-hacked-device-connecting.e0671675df74d6d9.webp)
 
 La solution consiste à convertir les données envoyées en un format brouillé, en utilisant une valeur connue uniquement de l'appareil et du cloud pour brouiller les données. Ce processus est appelé *chiffrement*, et la valeur utilisée pour chiffrer les données est appelée une *clé de chiffrement*.
 
-![Si le chiffrement est utilisé, seuls les messages chiffrés seront acceptés, les autres seront rejetés](../../../../../translated_images/fr/iot-device-and-hacked-device-connecting-encryption.5941aff601fc978f979e46f2849b573564eeb4a4dc5b52f669f62745397492fb.png)
+![Si le chiffrement est utilisé, seuls les messages chiffrés seront acceptés, les autres seront rejetés](../../../../../translated_images/fr/iot-device-and-hacked-device-connecting-encryption.5941aff601fc978f.webp)
 
 Le service cloud peut ensuite convertir les données en un format lisible, en utilisant un processus appelé *déchiffrement*, soit avec la même clé de chiffrement, soit avec une *clé de déchiffrement*. Si le message chiffré ne peut pas être déchiffré par la clé, l'appareil a été piraté et le message est rejeté.
 

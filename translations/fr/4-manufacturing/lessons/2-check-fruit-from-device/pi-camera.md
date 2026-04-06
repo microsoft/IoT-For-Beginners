@@ -16,7 +16,7 @@ La caméra peut être connectée au Raspberry Pi à l'aide d'un câble ruban.
 
 ### Tâche - connecter la caméra
 
-![Une caméra Raspberry Pi](../../../../../translated_images/fr/pi-camera-module.4278753c31bd6e757aa2b858be97d72049f71616278cefe4fb5abb485b40a078.png)
+![Une caméra Raspberry Pi](../../../../../translated_images/fr/pi-camera-module.4278753c31bd6e75.webp)
 
 1. Éteignez le Raspberry Pi.
 
@@ -24,17 +24,17 @@ La caméra peut être connectée au Raspberry Pi à l'aide d'un câble ruban.
 
     Vous pouvez trouver une animation montrant comment ouvrir le clip et insérer le câble dans la [documentation Raspberry Pi pour débuter avec le module caméra](https://projects.raspberrypi.org/en/projects/getting-started-with-picamera/2).
 
-    ![Le câble ruban inséré dans le module caméra](../../../../../translated_images/fr/pi-camera-ribbon-cable.0bf82acd251611c21ac616f082849413e2b322a261d0e4f8fec344248083b07e.png)
+    ![Le câble ruban inséré dans le module caméra](../../../../../translated_images/fr/pi-camera-ribbon-cable.0bf82acd251611c2.webp)
 
 1. Retirez le Grove Base Hat du Raspberry Pi.
 
 1. Faites passer le câble ruban à travers la fente pour caméra du Grove Base Hat. Assurez-vous que le côté bleu du câble est orienté vers les ports analogiques étiquetés **A0**, **A1**, etc.
 
-    ![Le câble ruban passant à travers le Grove Base Hat](../../../../../translated_images/fr/grove-base-hat-ribbon-cable.501fed202fcf73b11b2b68f6d246189f7d15d3e4423c572ddee79d77b4632b47.png)
+    ![Le câble ruban passant à travers le Grove Base Hat](../../../../../translated_images/fr/grove-base-hat-ribbon-cable.501fed202fcf73b1.webp)
 
 1. Insérez le câble ruban dans le port caméra du Raspberry Pi. Une fois encore, tirez le clip en plastique noir vers le haut, insérez le câble, puis repoussez le clip en place. Le côté bleu du câble doit être orienté vers les ports USB et Ethernet.
 
-    ![Le câble ruban connecté à la prise caméra du Raspberry Pi](../../../../../translated_images/fr/pi-camera-socket-ribbon-cable.a18309920b11800911082ed7aa6fb28e6d9be3a022e4079ff990016cae3fca10.png)
+    ![Le câble ruban connecté à la prise caméra du Raspberry Pi](../../../../../translated_images/fr/pi-camera-socket-ribbon-cable.a18309920b118009.webp)
 
 1. Remettez en place le Grove Base Hat.
 
@@ -101,7 +101,7 @@ Programmez l'appareil.
 
     La ligne `camera.rotation = 0` définit la rotation de l'image. Le câble ruban entre par le bas de la caméra, mais si votre caméra est tournée pour mieux pointer vers l'objet que vous souhaitez classifier, vous pouvez modifier cette ligne avec le nombre de degrés de rotation.
 
-    ![La caméra suspendue au-dessus d'une canette](../../../../../translated_images/fr/pi-camera-upside-down.5376961ba31459883362124152ad6b823d5ac5fc14e85f317e22903bd681c2b6.png)
+    ![La caméra suspendue au-dessus d'une canette](../../../../../translated_images/fr/pi-camera-upside-down.5376961ba3145988.webp)
 
     Par exemple, si vous suspendez le câble ruban de manière à ce qu'il soit au-dessus de la caméra, définissez la rotation à 180 :
 

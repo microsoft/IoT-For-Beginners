@@ -18,7 +18,7 @@ Le capteur de température Grove peut être connecté au port numérique du Wio 
 
 Connectez le capteur de température.
 
-![Un capteur de température Grove](../../../../../translated_images/fr/grove-dht11.07f8eafceee170043efbb53e1d15722bd4e00fbaa9ff74290b57e9f66eb82c17.png)
+![Un capteur de température Grove](../../../../../translated_images/fr/grove-dht11.07f8eafceee17004.webp)
 
 1. Insérez une extrémité d'un câble Grove dans la prise du capteur d'humidité et de température. Il ne peut être inséré que dans un seul sens.
 

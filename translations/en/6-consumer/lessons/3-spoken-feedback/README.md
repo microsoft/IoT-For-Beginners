@@ -1,6 +1,6 @@
 # Set a timer and provide spoken feedback
 
-![A sketchnote overview of this lesson](../../../../../translated_images/en/lesson-23.f38483e1d4df4828990d3f02d60e46c978b075d384ae7cb4f7bab738e107c850.jpg)
+![A sketchnote overview of this lesson](../../../../../translated_images/en/lesson-23.f38483e1d4df4828.webp)
 
 > Sketchnote by [Nitya Narasimhan](https://github.com/nitya). Click the image for a larger version.
 

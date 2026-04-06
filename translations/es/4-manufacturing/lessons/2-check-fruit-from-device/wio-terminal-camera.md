@@ -16,7 +16,7 @@ La ArduCam no tiene un conector Grove; en su lugar, se conecta tanto a los buses
 
 Conecta la cámara.
 
-![Un sensor ArduCam](../../../../../translated_images/es/arducam.20e4e4cbb268296570b5914e20d6c349fc42ddac9ed4e1b9deba2188204eebae.png)
+![Un sensor ArduCam](../../../../../translated_images/es/arducam.20e4e4cbb2682965.webp)
 
 1. Los pines en la base de la ArduCam deben conectarse a los pines GPIO del Wio Terminal. Para facilitar la identificación de los pines correctos, coloca la etiqueta de pines GPIO que viene con el Wio Terminal alrededor de los pines:
 
@@ -35,7 +35,7 @@ Conecta la cámara.
     | SDA            | 3 (I2C1_SDA)        | Datos seriales I2C                      |
     | SCL            | 5 (I2C1_SCL)        | Reloj serial I2C                        |
 
-    ![El Wio Terminal conectado a la ArduCam con cables de puente](../../../../../translated_images/es/arducam-wio-terminal-connections.a4d5a4049bdb5ab800a2877389fc6ecf5e4ff307e6451ff56c517e6786467d0a.png)
+    ![El Wio Terminal conectado a la ArduCam con cables de puente](../../../../../translated_images/es/arducam-wio-terminal-connections.a4d5a4049bdb5ab8.webp)
 
     Las conexiones GND y VCC proporcionan una fuente de alimentación de 5V a la ArduCam. Funciona a 5V, a diferencia de los sensores Grove que funcionan a 3V. Esta energía proviene directamente de la conexión USB-C que alimenta el dispositivo.
 
@@ -456,7 +456,7 @@ El Wio Terminal solo admite tarjetas microSD de hasta 16GB de tamaño. Si tienes
 
 1. Apaga el Wio Terminal y expulsa la tarjeta microSD presionándola ligeramente y soltándola, y saldrá. Es posible que necesites usar una herramienta delgada para hacerlo. Conecta la tarjeta microSD a tu computadora para ver las imágenes.
 
-    ![Una imagen de un plátano capturada con la ArduCam](../../../../../translated_images/es/banana-arducam.be1b32d4267a8194b0fd042362e56faa431da9cd4af172051b37243ea9be0256.jpg)
+    ![Una imagen de un plátano capturada con la ArduCam](../../../../../translated_images/es/banana-arducam.be1b32d4267a8194.webp)
 > 💁 Puede que la cámara necesite unas cuantas imágenes para ajustar el balance de blancos. Notarás esto según el color de las imágenes capturadas, las primeras pueden verse descoloridas. Siempre puedes solucionar esto cambiando el código para capturar algunas imágenes que se ignoren en la función `setup`.
 
 

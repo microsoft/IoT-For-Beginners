@@ -1,6 +1,6 @@
 # Automated plant watering
 
-![A sketchnote overview of this lesson](../../../../../translated_images/en/lesson-7.30b5f577d3cb8e031238751475cb519c7d6dbaea261b5df4643d086ffb2a03bb.jpg)
+![A sketchnote overview of this lesson](../../../../../translated_images/en/lesson-7.30b5f577d3cb8e03.webp)
 
 > Sketchnote by [Nitya Narasimhan](https://github.com/nitya). Click the image for a larger version.
 
@@ -32,7 +32,7 @@ IoT devices operate at low voltage. While this is sufficient for sensors and low
 
 The solution is to connect the pump to an external power supply and use an actuator to switch the pump on, similar to flipping a light switch. It takes only a small amount of energy (from your body) to flip the switch, which then connects the light to mains electricity running at 110V/240V.
 
-![A light switch turns power on to a light](../../../../../translated_images/en/light-switch.760317ad6ab8bd6d611da5352dfe9c73a94a0822ccec7df3c8bae35da18e1658.png)
+![A light switch turns power on to a light](../../../../../translated_images/en/light-switch.760317ad6ab8bd6d.webp)
 
 > 🎓 [Mains electricity](https://wikipedia.org/wiki/Mains_electricity) refers to the electricity supplied to homes and businesses through national infrastructure in many parts of the world.
 
@@ -72,7 +72,7 @@ When the lever moves, you can often hear a distinct clicking sound as it makes c
 
 The electromagnet in a relay requires very little power to activate and can be controlled using the 3.3V or 5V output from an IoT development kit. The output circuit, however, can handle much higher power levels, depending on the relay, including mains voltage or even higher levels for industrial applications. This allows an IoT development kit to control irrigation systems ranging from small pumps for individual plants to large-scale systems for commercial farms.
 
-![A grove relay with the control circuit, output circuit and relay labelled](../../../../../translated_images/en/grove-relay-labelled.293e068f5c3c2a199bd7892f2661fdc9e10c920b535cfed317fbd6d1d4ae1168.png)
+![A grove relay with the control circuit, output circuit and relay labelled](../../../../../translated_images/en/grove-relay-labelled.293e068f5c3c2a19.webp)
 
 The image above shows a Grove relay. The control circuit connects to an IoT device and uses 3.3V or 5V to turn the relay on or off. The output circuit has two terminals, which can be used for power or ground. This relay can handle up to 250V at 10A, making it suitable for a variety of mains-powered devices. Higher-capacity relays are also available.
 

@@ -1,6 +1,6 @@
 # Régler un minuteur et fournir un retour vocal
 
-![Un aperçu illustré de cette leçon](../../../../../translated_images/fr/lesson-23.f38483e1d4df4828990d3f02d60e46c978b075d384ae7cb4f7bab738e107c850.jpg)
+![Un aperçu illustré de cette leçon](../../../../../translated_images/fr/lesson-23.f38483e1d4df4828.webp)
 
 > Illustration par [Nitya Narasimhan](https://github.com/nitya). Cliquez sur l'image pour une version agrandie.
 

@@ -84,7 +84,7 @@ Le service Custom Vision dispose d'un SDK Python que vous pouvez utiliser pour c
 
     Vous pourrez voir l'image qui a été prise, ainsi que ces valeurs dans l'onglet **Predictions** de Custom Vision.
 
-    ![Une banane dans Custom Vision prédite comme mûre à 56,8 % et non mûre à 43,1 %](../../../../../translated_images/fr/custom-vision-banana-prediction.30cdff4e1d72db5d9a0be0193790a47c2b387da034e12dc1314dd57ca2131b59.png)
+    ![Une banane dans Custom Vision prédite comme mûre à 56,8 % et non mûre à 43,1 %](../../../../../translated_images/fr/custom-vision-banana-prediction.30cdff4e1d72db5d.webp)
 
 > 💁 Vous pouvez trouver ce code dans le dossier [code-classify/pi](../../../../../4-manufacturing/lessons/2-check-fruit-from-device/code-classify/pi) ou [code-classify/virtual-iot-device](../../../../../4-manufacturing/lessons/2-check-fruit-from-device/code-classify/virtual-iot-device).
 

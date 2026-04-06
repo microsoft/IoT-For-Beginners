@@ -1,6 +1,6 @@
 # Connectez votre appareil à Internet
 
-![Un aperçu illustré de cette leçon](../../../../../translated_images/fr/lesson-4.7344e074ea68fa545fd320b12dce36d72dd62d28c3b4596cb26cf315f434b98f.jpg)
+![Un aperçu illustré de cette leçon](../../../../../translated_images/fr/lesson-4.7344e074ea68fa54.webp)
 
 > Illustration par [Nitya Narasimhan](https://github.com/nitya). Cliquez sur l'image pour une version agrandie.
 
@@ -47,7 +47,7 @@ MQTT est le protocole de communication le plus populaire pour les appareils IoT 
 
 MQTT fonctionne avec un courtier unique et plusieurs clients. Tous les clients se connectent au courtier, qui achemine les messages vers les clients concernés. Les messages sont acheminés à l'aide de sujets nommés, plutôt que d'être envoyés directement à un client individuel. Un client peut publier sur un sujet, et tous les clients abonnés à ce sujet recevront le message.
 
-![Un appareil IoT publiant des données de télémétrie sur le sujet /telemetry, et le service cloud s'abonnant à ce sujet](../../../../../translated_images/fr/mqtt.cbf7f21d9adc3e17548b359444cc11bb4bf2010543e32ece9a47becf54438c23.png)
+![Un appareil IoT publiant des données de télémétrie sur le sujet /telemetry, et le service cloud s'abonnant à ce sujet](../../../../../translated_images/fr/mqtt.cbf7f21d9adc3e17.webp)
 
 ✅ Faites des recherches. Si vous avez de nombreux appareils IoT, comment pouvez-vous vous assurer que votre courtier MQTT peut gérer tous les messages ?
 
@@ -69,7 +69,7 @@ Plutôt que de gérer les complexités de la configuration d'un courtier MQTT da
 
 > 💁 Ce courtier de test est public et non sécurisé. N'importe qui pourrait écouter ce que vous publiez, il ne doit donc pas être utilisé pour des données devant rester privées.
 
-![Un diagramme de flux de l'exercice montrant les niveaux de lumière mesurés et vérifiés, et la LED contrôlée](../../../../../translated_images/fr/assignment-1-internet-flow.3256feab5f052fd273bf4e331157c574c2c3fa42e479836fc9c3586f41db35a5.png)
+![Un diagramme de flux de l'exercice montrant les niveaux de lumière mesurés et vérifiés, et la LED contrôlée](../../../../../translated_images/fr/assignment-1-internet-flow.3256feab5f052fd2.webp)
 
 Suivez l'étape correspondante ci-dessous pour connecter votre appareil au courtier MQTT :
 
@@ -350,7 +350,7 @@ Pour des machines, vous pourriez vouloir conserver les données, surtout si elle
 
 Les concepteurs d'appareils IoT devraient également envisager si l'appareil IoT peut être utilisé pendant une panne Internet ou une perte de signal due à l'emplacement. Un thermostat intelligent devrait pouvoir prendre des décisions limitées pour contrôler le chauffage s'il ne peut pas envoyer de télémétrie au cloud en raison d'une panne.
 
-[![Cette Ferrari est devenue inutilisable parce que quelqu'un a essayé de la mettre à jour sous terre où il n'y a pas de réception cellulaire](../../../../../translated_images/fr/bricked-car.dc38f8efadc6c59d76211f981a521efb300939283dee468f79503aae3ec67615.png)](https://twitter.com/internetofshit/status/1315736960082808832)
+[![Cette Ferrari est devenue inutilisable parce que quelqu'un a essayé de la mettre à jour sous terre où il n'y a pas de réception cellulaire](../../../../../translated_images/fr/bricked-car.dc38f8efadc6c59d.webp)](https://twitter.com/internetofshit/status/1315736960082808832)
 
 Pour que MQTT gère une perte de connectivité, le code de l'appareil et du serveur devra être responsable de garantir la livraison des messages si nécessaire, par exemple en exigeant que tous les messages envoyés soient confirmés par des messages supplémentaires sur un sujet de réponse, et si ce n'est pas le cas, ils sont mis en file d'attente manuellement pour être rejoués plus tard.
 
@@ -358,7 +358,7 @@ Pour que MQTT gère une perte de connectivité, le code de l'appareil et du serv
 
 Les commandes sont des messages envoyés par le cloud à un appareil, lui demandant de faire quelque chose. La plupart du temps, cela implique de donner une sorte de sortie via un actionneur, mais cela peut être une instruction pour l'appareil lui-même, comme redémarrer ou collecter des données supplémentaires de télémétrie et les renvoyer en réponse à la commande.
 
-![Un thermostat connecté à Internet recevant une commande pour allumer le chauffage](../../../../../translated_images/fr/commands.d6c06bbbb3a02cce95f2831a1c331daf6dedd4e470c4aa2b0ae54f332016e504.png)
+![Un thermostat connecté à Internet recevant une commande pour allumer le chauffage](../../../../../translated_images/fr/commands.d6c06bbbb3a02cce.webp)
 
 Un thermostat pourrait recevoir une commande du cloud pour allumer le chauffage. Sur la base des données de télémétrie de tous les capteurs, si le service cloud a décidé que le chauffage doit être allumé, il envoie la commande correspondante.
 

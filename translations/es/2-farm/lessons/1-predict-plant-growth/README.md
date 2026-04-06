@@ -84,7 +84,7 @@ Los días grado de crecimiento, o GDD, se calculan por día como la temperatura 
 
 La fórmula completa para calcular GDD es un poco complicada, pero hay una ecuación simplificada que a menudo se utiliza como una buena aproximación:
 
-![GDD = T max + T min dividido por 2, todo menos T base](../../../../../translated_images/es/gdd-calculation.79b3660f9c5757aa92dc2dd2cdde75344e2d2c1565c4b3151640f7887edc0275.png)
+![GDD = T max + T min dividido por 2, todo menos T base](../../../../../translated_images/es/gdd-calculation.79b3660f9c5757aa.webp)
 
 * **GDD** - este es el número de días grado de crecimiento
 * **T max** - esta es la temperatura máxima diaria en grados Celsius
@@ -112,7 +112,7 @@ Usando estos números en nuestra fórmula:
 
 Esto da un cálculo de:
 
-![GDD = 16 + 12 dividido por 2, todo menos 10, dando un resultado de 4](../../../../../translated_images/es/gdd-calculation-corn.64a58b7a7afcd0dfd46ff733996d939f17f4f3feac9f0d1c632be3523e51ebd9.png)
+![GDD = 16 + 12 dividido por 2, todo menos 10, dando un resultado de 4](../../../../../translated_images/es/gdd-calculation-corn.64a58b7a7afcd0df.webp)
 
 El maíz recibió 4 GDD ese día. Suponiendo una variedad de maíz que necesita 800 GDD para madurar, necesitará otros 796 GDD para alcanzar la madurez.
 
@@ -233,7 +233,7 @@ Los pasos para hacerlo manualmente son:
 
 Por ejemplo, si la temperatura más alta del día es 25°C y la más baja es 12°C:
 
-![GDD = 25 + 12 dividido por 2, luego resta 10 del resultado dando 8.5](../../../../../translated_images/es/gdd-calculation-strawberries.59f57db94b22adb8ff6efb951ace33af104a1c6ccca3ffb0f8169c14cb160c90.png)
+![GDD = 25 + 12 dividido por 2, luego resta 10 del resultado dando 8.5](../../../../../translated_images/es/gdd-calculation-strawberries.59f57db94b22adb8.webp)
 
 * 25 + 12 = 37
 * 37 / 2 = 18.5

@@ -1,6 +1,6 @@
 # Mantén tu planta segura
 
-![Un resumen visual de esta lección](../../../../../translated_images/es/lesson-10.829c86b80b9403bb770929ee553a1d293afe50dc23121aaf9be144673ae012cc.jpg)
+![Un resumen visual de esta lección](../../../../../translated_images/es/lesson-10.829c86b80b9403bb.webp)
 
 > Dibujo por [Nitya Narasimhan](https://github.com/nitya). Haz clic en la imagen para verla en mayor tamaño.
 
@@ -52,11 +52,11 @@ Estos son escenarios del mundo real y ocurren todo el tiempo. Algunos ejemplos s
 
 Cuando un dispositivo se conecta a un servicio IoT, utiliza un ID para identificarse. El problema es que este ID puede ser clonado: un hacker podría configurar un dispositivo malicioso que use el mismo ID que un dispositivo real pero que envíe datos falsos.
 
-![Tanto dispositivos válidos como maliciosos podrían usar el mismo ID para enviar telemetría](../../../../../translated_images/es/iot-device-and-hacked-device-connecting.e0671675df74d6d99eb1dedb5a670e606f698efa6202b1ad4c8ae548db299cc6.png)
+![Tanto dispositivos válidos como maliciosos podrían usar el mismo ID para enviar telemetría](../../../../../translated_images/es/iot-device-and-hacked-device-connecting.e0671675df74d6d9.webp)
 
 La solución a esto es convertir los datos enviados en un formato codificado, utilizando un valor conocido solo por el dispositivo y la nube para codificar los datos. Este proceso se llama *encriptación*, y el valor utilizado para encriptar los datos se llama *clave de encriptación*.
 
-![Si se usa encriptación, solo se aceptarán mensajes encriptados; los demás serán rechazados](../../../../../translated_images/es/iot-device-and-hacked-device-connecting-encryption.5941aff601fc978f979e46f2849b573564eeb4a4dc5b52f669f62745397492fb.png)
+![Si se usa encriptación, solo se aceptarán mensajes encriptados; los demás serán rechazados](../../../../../translated_images/es/iot-device-and-hacked-device-connecting-encryption.5941aff601fc978f.webp)
 
 El servicio en la nube puede luego convertir los datos a un formato legible, utilizando un proceso llamado *desencriptación*, ya sea con la misma clave de encriptación o con una *clave de desencriptación*. Si el mensaje encriptado no puede ser desencriptado con la clave, el dispositivo ha sido hackeado y el mensaje es rechazado.
 

@@ -18,7 +18,7 @@ The Grove temperature sensor can be connected to the Wio Terminal's digital port
 
 Connect the temperature sensor.
 
-![A grove temperature sensor](../../../../../translated_images/en/grove-dht11.07f8eafceee170043efbb53e1d15722bd4e00fbaa9ff74290b57e9f66eb82c17.png)
+![A grove temperature sensor](../../../../../translated_images/en/grove-dht11.07f8eafceee17004.webp)
 
 1. Insert one end of a Grove cable into the socket on the humidity and temperature sensor. It will only fit in one way.
 
