@@ -1,6 +1,6 @@
 ## Növényi növekedés előrejelzése IoT segítségével
 
-![A lecke áttekintése sketchnote formában](../../../../../translated_images/hu/lesson-5.42b234299279d263143148b88ab4583861a32ddb03110c6c1120e41bb88b2592.jpg)
+![A lecke áttekintése sketchnote formában](../../../../../translated_images/hu/lesson-5.42b234299279d263.webp)
 
 > Sketchnote készítette: [Nitya Narasimhan](https://github.com/nitya). Kattints a képre a nagyobb verzióért.
 
@@ -102,7 +102,7 @@ A lépések ehhez manuálisan:
 
 Például, ha a napi legmagasabb hőmérséklet 25°C, a legalacsonyabb pedig 12°C:
 
-![GDD = 25 + 12 osztva 2-vel, majd az eredményből kivonva 10, ami 8.5](../../../../../translated_images/hu/gdd-calculation-strawberries.59f57db94b22adb8ff6efb951ace33af104a1c6ccca3ffb0f8169c14cb160c90.png)
+![GDD = 25 + 12 osztva 2-vel, majd az eredményből kivonva 10, ami 8.5](../../../../../translated_images/hu/gdd-calculation-strawberries.59f57db94b22adb8.webp)
 
 * 25 + 12 = 37
 * 37 / 2 = 18.5

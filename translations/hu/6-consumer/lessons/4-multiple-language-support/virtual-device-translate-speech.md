@@ -37,7 +37,7 @@ A beszédfelismerő szolgáltatás nemcsak a beszédet tudja szöveggé alakíta
     >
     > Például, ha angolul tanítod be a LUIS-t, de franciát szeretnél használni felhasználói nyelvként, lefordíthatod az olyan mondatokat, mint például "set a 2 minute and 27 second timer" angolról franciára a Bing Translate segítségével, majd a **Listen translation** gombbal mondhatod el a fordítást a mikrofonodba.
     >
-    > ![A Bing Translate hallgatási fordítás gombja](../../../../../translated_images/hu/bing-translate.348aa796d6efe2a92f41ea74a5cf42bb4c63d6faaa08e7f46924e072a35daa48.png)
+    > ![A Bing Translate hallgatási fordítás gombja](../../../../../translated_images/hu/bing-translate.348aa796d6efe2a9.webp)
 
 1. Cseréld le a `recognizer_config` és `recognizer` deklarációkat a következőre:
 

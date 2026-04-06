@@ -1,6 +1,6 @@
 # Állíts be egy időzítőt és adj szóbeli visszajelzést
 
-![A leckéről készült sketchnote áttekintése](../../../../../translated_images/hu/lesson-23.f38483e1d4df4828990d3f02d60e46c978b075d384ae7cb4f7bab738e107c850.jpg)
+![A leckéről készült sketchnote áttekintése](../../../../../translated_images/hu/lesson-23.f38483e1d4df4828.webp)
 
 > Sketchnote készítette: [Nitya Narasimhan](https://github.com/nitya). Kattints a képre a nagyobb verzióért.
 

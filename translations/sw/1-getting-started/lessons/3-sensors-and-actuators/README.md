@@ -1,6 +1,6 @@
 # Kuingiliana na Ulimwengu wa Kifaa kwa Vihisi na Vichochezi
 
-![Muhtasari wa somo hili kwa sketchnote](../../../../../translated_images/sw/lesson-3.cc3b7b4cd646de598698cce043c0393fd62ef42bac2eaf60e61272cd844250f4.jpg)
+![Muhtasari wa somo hili kwa sketchnote](../../../../../translated_images/sw/lesson-3.cc3b7b4cd646de59.webp)
 
 > Sketchnote na [Nitya Narasimhan](https://github.com/nitya). Bofya picha kwa toleo kubwa zaidi.
 
@@ -92,7 +92,7 @@ Vihisi vya dijitali, kama vile vya analogi, hutambua ulimwengu wa kifaa kwa kutu
 
 Kihisi rahisi zaidi cha dijitali ni kitufe au swichi. Hiki ni kihisi chenye hali mbili, kuwashwa au kuzimwa.
 
-![Kitufe kinatumwa volts 5. Wakati hakijabonyezwa kinarejesha volts 0, wakati kimebonyezwa kinarejesha volts 5](../../../../../translated_images/sw/button.eadb560b77ac45e56f523d9d8876e40444f63b419e33eb820082d461fa79490b.png)
+![Kitufe kinatumwa volts 5. Wakati hakijabonyezwa kinarejesha volts 0, wakati kimebonyezwa kinarejesha volts 5](../../../../../translated_images/sw/button.eadb560b77ac45e5.webp)
 
 Pini kwenye vifaa vya IoT kama pini za GPIO zinaweza kupima ishara hii moja kwa moja kama 0 au 1. Ikiwa voltage iliyotumwa ni sawa na voltage iliyorejeshwa, thamani inayosomwa ni 1, vinginevyo thamani inayosomwa ni 0. Hakuna haja ya kubadilisha ishara, inaweza kuwa 1 au 0 tu.
 
@@ -125,7 +125,7 @@ Baadhi ya vichochezi vya kawaida ni:
 
 Fuata mwongozo husika hapa chini ili kuongeza kichochezi kwenye kifaa chako cha IoT, kinachodhibitiwa na kihisi, ili kujenga taa ya usiku ya IoT. Itakusanya viwango vya mwanga kutoka kwa kihisi cha mwanga, na kutumia kichochezi kwa njia ya LED kutoa mwanga wakati kiwango cha mwanga kilichotambuliwa ni kidogo sana.
 
-![Chati ya mtiririko wa kazi ikionyesha viwango vya mwanga vikisomwa na kukaguliwa, na LED ikidhibitiwa](../../../../../translated_images/sw/assignment-1-flow.7552a51acb1a5ec858dca6e855cdbb44206434006df8ba3799a25afcdab1665d.png)
+![Chati ya mtiririko wa kazi ikionyesha viwango vya mwanga vikisomwa na kukaguliwa, na LED ikidhibitiwa](../../../../../translated_images/sw/assignment-1-flow.7552a51acb1a5ec8.webp)
 
 * [Arduino - Wio Terminal](wio-terminal-actuator.md)
 * [Kompyuta ya bodi moja - Raspberry Pi](pi-actuator.md)
@@ -140,7 +140,7 @@ Kama vihisi, vichochezi ni vya analogi au dijitali.
 Vichochezi vya analogi huchukua ishara ya analogi na kuibadilisha kuwa aina fulani ya mwingiliano, ambapo mwingiliano hubadilika kulingana na voltage inayotolewa.
 
 Mfano mmoja ni taa inayoweza kupunguzwa mwanga, kama zile unazoweza kuwa nazo nyumbani kwako. Kiasi cha voltage kinachotolewa kwa taa huamua jinsi inavyong'aa.
-![Taa inayozimika kwa voltage ya chini na kung'aa kwa voltage ya juu](../../../../../translated_images/sw/dimmable-light.9ceffeb195dec1a849da718b2d71b32c35171ff7dfea9c07bbf82646a67acf6b.png)
+![Taa inayozimika kwa voltage ya chini na kung'aa kwa voltage ya juu](../../../../../translated_images/sw/dimmable-light.9ceffeb195dec1a8.webp)
 
 Kama ilivyo kwa sensa, kifaa halisi cha IoT hufanya kazi kwa ishara za kidijitali, si za analogi. Hii inamaanisha ili kutuma ishara ya analogi, kifaa cha IoT kinahitaji kigeuzi cha kidijitali kwenda analogi (DAC), aidha moja kwa moja kwenye kifaa cha IoT, au kwenye bodi ya kiunganishi. Hii itabadilisha 0s na 1s kutoka kwa kifaa cha IoT kuwa voltage ya analogi ambayo actuator inaweza kutumia.
 
@@ -187,7 +187,7 @@ Actuators za kidijitali, kama sensa za kidijitali, huwa na hali mbili zinazodhib
 
 Actuator moja rahisi ya kidijitali ni LED. Wakati kifaa kinatuma ishara ya kidijitali ya 1, voltage ya juu inatumwa ambayo huwasha LED. Wakati ishara ya kidijitali ya 0 inatumwa, voltage hushuka hadi 0V na LED huzimika.
 
-![LED imezimwa kwa 0 volts na imewashwa kwa 5V](../../../../../translated_images/sw/led.ec6d94f66676a174ad06d9fa9ea49c2ee89beb18b312d5c6476467c66375b07f.png)
+![LED imezimwa kwa 0 volts na imewashwa kwa 5V](../../../../../translated_images/sw/led.ec6d94f66676a174.webp)
 
 ✅ Ni actuators gani nyingine rahisi zenye hali mbili unaweza kufikiria? Mfano mmoja ni solenoid, ambayo ni sumaku ya umeme inayoweza kuanzishwa kufanya mambo kama kusogeza bolt ya mlango kufunga/kufungua mlango.
 

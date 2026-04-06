@@ -1,6 +1,6 @@
 # Elewa Lugha
 
-![Muhtasari wa somo hili kwa sketchnote](../../../../../translated_images/sw/lesson-22.6148ea28500d9e00c396aaa2649935fb6641362c8f03d8e5e90a676977ab01dd.jpg)
+![Muhtasari wa somo hili kwa sketchnote](../../../../../translated_images/sw/lesson-22.6148ea28500d9e00.webp)
 
 > Sketchnote na [Nitya Narasimhan](https://github.com/nitya). Bofya picha kwa toleo kubwa zaidi.
 
@@ -46,7 +46,7 @@ Mifano ya uelewa wa lugha ni mifano ya AI inayofundishwa kutoa maelezo fulani ku
 
 ## Kuunda mfano wa uelewa wa lugha
 
-![Nembo ya LUIS](../../../../../translated_images/sw/luis-logo.5cb4f3e88c020ee6df4f614e8831f4a4b6809a7247bf52085fb48d629ef9be52.png)
+![Nembo ya LUIS](../../../../../translated_images/sw/luis-logo.5cb4f3e88c020ee6.webp)
 
 Unaweza kuunda mifano ya uelewa wa lugha kwa kutumia LUIS, huduma ya uelewa wa lugha kutoka Microsoft ambayo ni sehemu ya Huduma za Utambuzi.
 
@@ -169,7 +169,7 @@ Unaweza kupata maagizo ya kutumia lango la LUIS katika [Mwongozo wa Haraka: Jeng
 
 1. Unapoongeza kila mfano, LUIS itaanza kugundua vyombo, na itaweka mstari chini na kuweka lebo yoyote inayopatikana.
 
-    ![Mifano na namba na vitengo vya muda vikiwa vimewekwa mstari chini na LUIS](../../../../../translated_images/sw/luis-intent-examples.25716580b2d2723cf1bafdf277d015c7f046d8cfa20f27bddf3a0873ec45fab7.png)
+    ![Mifano na namba na vitengo vya muda vikiwa vimewekwa mstari chini na LUIS](../../../../../translated_images/sw/luis-intent-examples.25716580b2d2723c.webp)
 
 ### Kazi - kufundisha na kujaribu mfano
 

@@ -1,6 +1,6 @@
 # Nastavte časovač a poskytněte hlasovou zpětnou vazbu
 
-![Přehled této lekce ve formě sketchnote](../../../../../translated_images/cs/lesson-23.f38483e1d4df4828990d3f02d60e46c978b075d384ae7cb4f7bab738e107c850.jpg)
+![Přehled této lekce ve formě sketchnote](../../../../../translated_images/cs/lesson-23.f38483e1d4df4828.webp)
 
 > Sketchnote od [Nitya Narasimhan](https://github.com/nitya). Klikněte na obrázek pro větší verzi.
 

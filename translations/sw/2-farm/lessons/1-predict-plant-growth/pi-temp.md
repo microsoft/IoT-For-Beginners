@@ -16,7 +16,7 @@ Kihisi cha joto cha Grove kinaweza kuunganishwa na Raspberry Pi.
 
 Unganisha kihisi cha joto
 
-![Kihisi cha joto cha Grove](../../../../../translated_images/sw/grove-dht11.07f8eafceee170043efbb53e1d15722bd4e00fbaa9ff74290b57e9f66eb82c17.png)
+![Kihisi cha joto cha Grove](../../../../../translated_images/sw/grove-dht11.07f8eafceee17004.webp)
 
 1. Ingiza mwisho mmoja wa kebo ya Grove kwenye soketi ya kihisi cha unyevunyevu na joto. Itaingia kwa njia moja tu.
 

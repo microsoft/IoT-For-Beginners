@@ -95,7 +95,7 @@ Kód, který jste použili pro klasifikaci obrázků, je velmi podobný kódu pr
 
     Budete moci vidět obrázek, který byl pořízen, a tyto hodnoty na kartě **Predictions** v Custom Vision.
 
-    ![4 plechovky rajčatového protlaku na polici s predikcemi pro 4 detekce: 35,8 %, 33,5 %, 25,7 % a 16,6 %](../../../../../translated_images/cs/custom-vision-stock-prediction.942266ab1bcca3410ecdf23643b9f5f570cfab2345235074e24c51f285777613.png)
+    ![4 plechovky rajčatového protlaku na polici s predikcemi pro 4 detekce: 35,8 %, 33,5 %, 25,7 % a 16,6 %](../../../../../translated_images/cs/custom-vision-stock-prediction.942266ab1bcca341.webp)
 
 > 💁 Tento kód najdete ve složce [code-detect/wio-terminal](../../../../../5-retail/lessons/2-check-stock-device/code-detect/wio-terminal).
 

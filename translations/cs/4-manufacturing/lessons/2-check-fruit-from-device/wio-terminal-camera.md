@@ -16,7 +16,7 @@ ArduCam nemá Grove konektor, místo toho se připojuje k SPI a I2C sběrnicím 
 
 Připojte kameru.
 
-![Senzor ArduCam](../../../../../translated_images/cs/arducam.20e4e4cbb268296570b5914e20d6c349fc42ddac9ed4e1b9deba2188204eebae.png)
+![Senzor ArduCam](../../../../../translated_images/cs/arducam.20e4e4cbb2682965.webp)
 
 1. Piny na spodní straně ArduCam musí být připojeny k GPIO pinům na Wio Terminalu. Aby bylo snazší najít správné piny, připevněte kolem pinů nálepku GPIO pinů, která je součástí Wio Terminalu:
 
@@ -35,7 +35,7 @@ Připojte kameru.
     | SDA         | 3 (I2C1_SDA)     | I2C Serial Data                         |
     | SCL         | 5 (I2C1_SCL)     | I2C Serial Clock                        |
 
-    ![Wio Terminal připojený k ArduCam pomocí propojovacích vodičů](../../../../../translated_images/cs/arducam-wio-terminal-connections.a4d5a4049bdb5ab800a2877389fc6ecf5e4ff307e6451ff56c517e6786467d0a.png)
+    ![Wio Terminal připojený k ArduCam pomocí propojovacích vodičů](../../../../../translated_images/cs/arducam-wio-terminal-connections.a4d5a4049bdb5ab8.webp)
 
     Připojení GND a VCC poskytuje napájení 5V pro ArduCam. Kamera běží na 5V, na rozdíl od Grove senzorů, které běží na 3V. Toto napájení pochází přímo z USB-C připojení, které napájí zařízení.
 
@@ -456,7 +456,7 @@ Wio Terminal podporuje pouze microSD karty o velikosti až 16GB. Pokud máte vě
 
 1. Vypněte microSD kartu a vysuňte ji mírným zatlačením a uvolněním, a karta vyskočí. Možná budete potřebovat tenký nástroj, abyste to udělali. Připojte microSD kartu k vašemu počítači, abyste si mohli prohlédnout obrázky.
 
-    ![Obrázek banánu zachycený pomocí ArduCam](../../../../../translated_images/cs/banana-arducam.be1b32d4267a8194b0fd042362e56faa431da9cd4af172051b37243ea9be0256.jpg)
+    ![Obrázek banánu zachycený pomocí ArduCam](../../../../../translated_images/cs/banana-arducam.be1b32d4267a8194.webp)
 💁 Může trvat několik snímků, než se vyvážení bílé kamery samo upraví. Všimnete si toho podle barvy zachycených snímků, první několik může vypadat barevně nesprávně. Vždy to můžete obejít změnou kódu tak, aby zachytil několik snímků, které jsou ignorovány ve funkci `setup`.
 
 

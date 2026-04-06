@@ -1,6 +1,6 @@
 # Hlubší pohled na IoT
 
-![Přehled lekce ve formě sketchnotu](../../../../../translated_images/cs/lesson-2.324b0580d620c25e0a24fb7fddfc0b29a846dd4b82c08e7a9466d580ee78ce51.jpg)
+![Přehled lekce ve formě sketchnotu](../../../../../translated_images/cs/lesson-2.324b0580d620c25e.webp)
 
 > Sketchnote od [Nitya Narasimhan](https://github.com/nitya). Klikněte na obrázek pro větší verzi.
 
@@ -38,7 +38,7 @@ IoT aplikace se skládá ze dvou hlavních částí: *Internetu* a *zařízení*
 
 Tato zařízení interagují s fyzickým světem buď pomocí senzorů, které sbírají data z okolí, nebo pomocí výstupů či akčních členů, které provádějí fyzické změny. Typickým příkladem je chytrý termostat – zařízení, které má teplotní senzor, prostředek pro nastavení požadované teploty, jako je otočný knoflík nebo dotyková obrazovka, a připojení k topnému nebo chladicímu systému, který lze zapnout, když je detekovaná teplota mimo požadovaný rozsah. Teplotní senzor zjistí, že je v místnosti příliš chladno, a akční člen zapne topení.
 
-![Schéma ukazující teplotu a otočný knoflík jako vstupy do IoT zařízení a ovládání topení jako výstup](../../../../../translated_images/cs/basic-thermostat.a923217fd1f37e5a6f3390396a65c22a387419ea2dd17e518ec24315ba6ae9a8.png)
+![Schéma ukazující teplotu a otočný knoflík jako vstupy do IoT zařízení a ovládání topení jako výstup](../../../../../translated_images/cs/basic-thermostat.a923217fd1f37e5a.webp)
 
 Existuje obrovská škála různých zařízení, která mohou fungovat jako IoT zařízení, od specializovaného hardwaru, který snímá jednu věc, až po univerzální zařízení, dokonce i váš chytrý telefon! Chytrý telefon může pomocí senzorů detekovat okolní svět a pomocí akčních členů s ním interagovat – například pomocí GPS senzoru zjistit vaši polohu a pomocí reproduktoru vám poskytnout navigační pokyny k cíli.
 
@@ -54,7 +54,7 @@ Zařízení se také nemusí vždy připojovat přímo k internetu přes WiFi ne
 
 V případě chytrého termostatu by se termostat připojil k domácí WiFi a následně ke cloudové službě. Odesílal by data o teplotě do této služby, kde by byla uložena do databáze, což by umožnilo majiteli domu kontrolovat aktuální a historické teploty pomocí aplikace na telefonu. Jiná služba v cloudu by věděla, jakou teplotu majitel domu požaduje, a posílala by zprávy zpět do IoT zařízení přes cloudovou službu, aby řídila topný systém.
 
-![Schéma ukazující teplotu a otočný knoflík jako vstupy do IoT zařízení, obousměrnou komunikaci mezi IoT zařízením a cloudem, který dále komunikuje s telefonem, a ovládání topení jako výstup z IoT zařízení](../../../../../translated_images/cs/mobile-controlled-thermostat.4a994010473d8d6a52ba68c67e5f02dc8928c717e93ca4b9bc55525aa75bbb60.png)
+![Schéma ukazující teplotu a otočný knoflík jako vstupy do IoT zařízení, obousměrnou komunikaci mezi IoT zařízením a cloudem, který dále komunikuje s telefonem, a ovládání topení jako výstup z IoT zařízení](../../../../../translated_images/cs/mobile-controlled-thermostat.4a994010473d8d6a.webp)
 
 Ještě chytřejší verze by mohla využívat AI v cloudu s daty z dalších senzorů připojených k jiným IoT zařízením, jako jsou senzory obsazenosti, které detekují, které místnosti jsou využívány, stejně jako data o počasí nebo váš kalendář, aby inteligentně nastavovala teplotu. Například by mohla vypnout topení, pokud zjistí z vašeho kalendáře, že jste na dovolené, nebo vypnout topení v jednotlivých místnostech podle toho, které místnosti používáte, a postupně se učit z dat, aby byla stále přesnější.
 
@@ -94,7 +94,7 @@ Rychlost hodin je měřena v [Hertzích (Hz)](https://wikipedia.org/wiki/Hertz),
 
 > 💁 CPU vykonávají programy pomocí [cyklu načtení-dekódování-vykonání](https://wikipedia.org/wiki/Instruction_cycle). Každý tik hodin CPU načte další instrukci z paměti, dekóduje ji a poté ji vykoná, například pomocí aritmeticko-logické jednotky (ALU) k sečtení dvou čísel. Některé instrukce trvají více tiků, takže další cyklus začne po dokončení předchozí instrukce.
 
-![Cyklus načtení-dekódování-vykonání ukazující načtení instrukce z programu uloženého v RAM, její dekódování a vykonání na CPU](../../../../../translated_images/cs/fetch-decode-execute.2fd6f150f6280392807f4475382319abd0cee0b90058e1735444d6baa6f2078c.png)
+![Cyklus načtení-dekódování-vykonání ukazující načtení instrukce z programu uloženého v RAM, její dekódování a vykonání na CPU](../../../../../translated_images/cs/fetch-decode-execute.2fd6f150f6280392.webp)
 
 Mikrokontroléry mají mnohem nižší rychlosti hodin než stolní nebo přenosné počítače, nebo dokonce většina chytrých telefonů. Například Wio Terminal má CPU, který běží na 120 MHz, tedy 120 000 000 cyklů za sekundu.
 
@@ -182,7 +182,7 @@ Desky Arduino se programují v jazycích C nebo C++. Použití C/C++ umožňuje,
 
 Do funkce `setup` byste napsali svůj inicializační kód, například připojení k WiFi a cloudovým službám nebo inicializaci pinů pro vstup a výstup. Do funkce `loop` byste pak napsali zpracovatelský kód, například čtení ze senzoru a odesílání hodnoty do cloudu. Obvykle byste do každé smyčky přidali zpoždění, například pokud chcete, aby se data ze senzoru odesílala každých 10 sekund, přidali byste na konci smyčky zpoždění 10 sekund, aby mikrokontrolér mohl spát, šetřit energii, a poté spustit smyčku znovu, když je potřeba.
 
-![Sketch Arduino spouštějící nejprve setup, poté opakovaně loop](../../../../../translated_images/cs/arduino-sketch.79590cb837ff7a7c6a68d1afda6cab83fd53d3bb1bd9a8bf2eaf8d693a4d3ea6.png)
+![Sketch Arduino spouštějící nejprve setup, poté opakovaně loop](../../../../../translated_images/cs/arduino-sketch.79590cb837ff7a7c.webp)
 
 ✅ Tato architektura programu je známá jako *event loop* nebo *message loop*. Mnoho aplikací ji používá na pozadí a je standardem pro většinu desktopových aplikací, které běží na OS jako Windows, macOS nebo Linux. Funkce `loop` naslouchá zprávám z komponent uživatelského rozhraní, jako jsou tlačítka, nebo zařízení, jako je klávesnice, a na ně reaguje. Více si můžete přečíst v tomto [článku o event loop](https://wikipedia.org/wiki/Event_loop).
 

@@ -1,6 +1,6 @@
 # Hamishia mantiki ya programu yako kwenye wingu
 
-![Muhtasari wa somo hili kwa sketchnote](../../../../../translated_images/sw/lesson-9.dfe99c8e891f48e179724520da9f5794392cf9a625079281ccdcbf09bd85e1b6.jpg)
+![Muhtasari wa somo hili kwa sketchnote](../../../../../translated_images/sw/lesson-9.dfe99c8e891f48e1.webp)
 
 > Sketchnote na [Nitya Narasimhan](https://github.com/nitya). Bofya picha kwa toleo kubwa.
 
@@ -28,7 +28,7 @@ Katika somo hili tutashughulikia:
 
 Serverless, au kompyuta isiyo na seva, inahusisha kuunda vizuizi vidogo vya msimbo vinavyoendeshwa kwenye wingu kwa kujibu aina tofauti za matukio. Tukio linapotokea, msimbo wako unaendeshwa, na unapokea data kuhusu tukio hilo. Matukio haya yanaweza kutoka kwa vitu vingi tofauti, ikiwa ni pamoja na maombi ya wavuti, ujumbe uliowekwa kwenye foleni, mabadiliko ya data kwenye hifadhidata, au ujumbe uliotumwa kwa huduma ya IoT na vifaa vya IoT.
 
-![Matukio yanayotumwa kutoka kwa huduma ya IoT kwenda kwa huduma isiyo na seva, yote yakichakatwa kwa wakati mmoja na kazi nyingi zinazotendeka](../../../../../translated_images/sw/iot-messages-to-serverless.0194da1cc0732bb7d0f823aed3fce54735c6b1ad3bf36089804d8aaefc0a774f.png)
+![Matukio yanayotumwa kutoka kwa huduma ya IoT kwenda kwa huduma isiyo na seva, yote yakichakatwa kwa wakati mmoja na kazi nyingi zinazotendeka](../../../../../translated_images/sw/iot-messages-to-serverless.0194da1cc0732bb7.webp)
 
 > 💁 Ikiwa umewahi kutumia vichocheo vya hifadhidata, unaweza kufikiria hili kama kitu sawa, msimbo unaochochewa na tukio kama kuingiza safu.
 
@@ -54,7 +54,7 @@ Kama msanidi programu wa IoT, mfano wa serverless ni bora. Unaweza kuandika kazi
 
 Huduma ya kompyuta isiyo na seva kutoka Microsoft inaitwa Azure Functions.
 
-![Nembo ya Azure Functions](../../../../../translated_images/sw/azure-functions-logo.1cfc8e3204c9c44aaf80fcf406fc8544d80d7f00f8d3e8ed6fed764563e17564.png)
+![Nembo ya Azure Functions](../../../../../translated_images/sw/azure-functions-logo.1cfc8e3204c9c44a.webp)
 
 Video fupi hapa chini ina muhtasari wa Azure Functions.
 

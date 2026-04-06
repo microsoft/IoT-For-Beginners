@@ -34,11 +34,11 @@ Přidejte kameru do aplikace CounterFit.
 
     1. Vyberte tlačítko **Add** pro vytvoření kamery.
 
-    ![Nastavení kamery](../../../../../translated_images/cs/counterfit-create-camera.a5de97f59c0bd3cbe0416d7e89a3cfe86d19fbae05c641c53a91286412af0a34.png)
+    ![Nastavení kamery](../../../../../translated_images/cs/counterfit-create-camera.a5de97f59c0bd3cb.webp)
 
     Kamera bude vytvořena a objeví se v seznamu senzorů.
 
-    ![Vytvořená kamera](../../../../../translated_images/cs/counterfit-camera.001ec52194c8ee5d3f617173da2c79e1df903d10882adc625cbfc493525125d4.png)
+    ![Vytvořená kamera](../../../../../translated_images/cs/counterfit-camera.001ec52194c8ee5d.webp)
 
 ## Programování kamery
 
@@ -103,7 +103,7 @@ Naprogramujte zařízení.
 
 1. Nakonfigurujte obrázek, který kamera v CounterFit zachytí. Můžete buď nastavit *Source* na *File*, poté nahrát obrázkový soubor, nebo nastavit *Source* na *WebCam*, a obrázky budou zachyceny z vaší webové kamery. Ujistěte se, že po výběru obrázku nebo webové kamery stisknete tlačítko **Set**.
 
-    ![CounterFit s nastaveným souborem jako zdrojem obrázku a webovou kamerou zobrazující osobu držící banán v náhledu webové kamery](../../../../../translated_images/cs/counterfit-camera-options.eb3bd5150a8e7dffbf24bc5bcaba0cf2cdef95fbe6bbe393695d173817d6b8df.png)
+    ![CounterFit s nastaveným souborem jako zdrojem obrázku a webovou kamerou zobrazující osobu držící banán v náhledu webové kamery](../../../../../translated_images/cs/counterfit-camera-options.eb3bd5150a8e7dff.webp)
 
 1. Obrázek bude zachycen a uložen jako `image.jpg` v aktuální složce. Tento soubor uvidíte v průzkumníku VS Code. Vyberte soubor pro zobrazení obrázku. Pokud je potřeba rotace, upravte řádek `camera.rotation = 0` podle potřeby a pořiďte další snímek.
 

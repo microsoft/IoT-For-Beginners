@@ -1,6 +1,6 @@
 # Többnyelvű támogatás
 
-![A leckéről készült vázlatrajz](../../../../../translated_images/hu/lesson-24.4246968ed058510ab275052e87ef9aa89c7b2f938915d103c605c04dc6cd5bb7.jpg)
+![A leckéről készült vázlatrajz](../../../../../translated_images/hu/lesson-24.4246968ed058510a.webp)
 
 > Vázlatrajz: [Nitya Narasimhan](https://github.com/nitya). Kattints a képre a nagyobb verzióért.
 
@@ -74,7 +74,7 @@ Számos MI szolgáltatás érhető el, amelyeket alkalmazásaidból használhats
 
 ### Cognitive Services Beszédszolgáltatás
 
-![A beszédszolgáltatás logója](../../../../../translated_images/hu/azure-speech-logo.a1f08c4befb0159f2cb5d692d3baf5b599e7b44759d316da907bda1508f46a4a.png)
+![A beszédszolgáltatás logója](../../../../../translated_images/hu/azure-speech-logo.a1f08c4befb0159f.webp)
 
 Az elmúlt néhány leckében használt beszédszolgáltatás fordítási képességekkel is rendelkezik a beszédfelismeréshez. Amikor beszédet ismersz fel, nemcsak az adott nyelvű szöveget kérheted, hanem más nyelveken is.
 
@@ -82,7 +82,7 @@ Az elmúlt néhány leckében használt beszédszolgáltatás fordítási képes
 
 ### Cognitive Services Fordító szolgáltatás
 
-![A fordító szolgáltatás logója](../../../../../translated_images/hu/azure-translator-logo.c6ed3a4a433edfd2f11577eca105412c50b8396b194cbbd730723dd1d0793bcd.png)
+![A fordító szolgáltatás logója](../../../../../translated_images/hu/azure-translator-logo.c6ed3a4a433edfd2.webp)
 
 A Fordító szolgáltatás egy dedikált fordítási szolgáltatás, amely szöveget tud fordítani egyik nyelvről egy vagy több célnyelvre. A fordításon kívül számos extra funkciót is támogat, például a trágárság maszkolását. Lehetővé teszi továbbá, hogy egy adott szó vagy mondat számára konkrét fordítást adj meg, hogy olyan kifejezésekkel dolgozz, amelyeket nem akarsz lefordítani, vagy amelyeknek van egy jól ismert fordítása.
 

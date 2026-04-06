@@ -26,7 +26,7 @@ Grove LED je dodávána jako modul s výběrem LED diod, což vám umožňuje zv
 
 Připojte LED.
 
-![Grove LED](../../../../../translated_images/cs/grove-led.6c853be93f473cf2c439cfc74bb1064732b22251a83cedf66e62f783f9cc1a79.png)
+![Grove LED](../../../../../translated_images/cs/grove-led.6c853be93f473cf2.webp)
 
 1. Vyberte svou oblíbenou LED diodu a vložte její nožičky do dvou otvorů na modulu LED.
 
@@ -40,7 +40,7 @@ Připojte LED.
 
 1. S vypnutým Raspberry Pi připojte druhý konec Grove kabelu k digitální zásuvce označené **D5** na Grove Base hat připojeném k Pi. Tato zásuvka je druhá zleva v řadě zásuvek vedle GPIO pinů.
 
-![Grove LED připojená k zásuvce D5](../../../../../translated_images/cs/pi-led.97f1d474981dc35d1c7996c7b17de355d3d0a6bc9606d79fa5f89df933415122.png)
+![Grove LED připojená k zásuvce D5](../../../../../translated_images/cs/pi-led.97f1d474981dc35d.webp)
 
 ## Naprogramujte noční světlo
 

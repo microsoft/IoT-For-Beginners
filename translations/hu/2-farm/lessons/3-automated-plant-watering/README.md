@@ -1,6 +1,6 @@
 # Automatikus növényöntözés
 
-![A lecke vázlatos áttekintése](../../../../../translated_images/hu/lesson-7.30b5f577d3cb8e031238751475cb519c7d6dbaea261b5df4643d086ffb2a03bb.jpg)
+![A lecke vázlatos áttekintése](../../../../../translated_images/hu/lesson-7.30b5f577d3cb8e03.webp)
 
 > Vázlatrajz: [Nitya Narasimhan](https://github.com/nitya). Kattints a képre a nagyobb verzióért.
 
@@ -32,7 +32,7 @@ Az IoT eszközök alacsony feszültséget használnak. Ez elegendő az érzékel
 
 A megoldás az, hogy a pumpát egy külső áramforráshoz csatlakoztatjuk, és egy aktuátort használunk a pumpa bekapcsolására, hasonlóan ahhoz, ahogy egy lámpát kapcsolnánk fel. Csak egy kis energia (például a tested energiája) szükséges ahhoz, hogy az ujjaddal felkapcsolj egy kapcsolót, amely összeköti a lámpát a 110V/240V-os hálózati árammal.
 
-![Egy villanykapcsoló bekapcsolja a lámpát](../../../../../translated_images/hu/light-switch.760317ad6ab8bd6d611da5352dfe9c73a94a0822ccec7df3c8bae35da18e1658.png)
+![Egy villanykapcsoló bekapcsolja a lámpát](../../../../../translated_images/hu/light-switch.760317ad6ab8bd6d.webp)
 
 > 🎓 A [hálózati áram](https://wikipedia.org/wiki/Mains_electricity) az otthonokba és vállalkozásokba nemzeti infrastruktúrán keresztül szállított elektromosságot jelenti a világ számos részén.
 
@@ -72,7 +72,7 @@ Amikor a kar mozog, általában hallhatod, ahogy az elektromágnessel érintkezi
 
 Az elektromágnesnek nincs szüksége sok energiára ahhoz, hogy aktiválódjon és meghúzza a kart, vezérelhető a 3,3V vagy 5V kimenettel egy IoT fejlesztői készletről. A kimeneti áramkör sokkal nagyobb teljesítményt képes szállítani, a relétől függően, beleértve a hálózati feszültséget vagy akár ipari használatra szánt magasabb teljesítményszinteket is. Így egy IoT fejlesztői készlet vezérelhet egy öntözőrendszert, egyetlen növényhez használt kis pumpától kezdve egészen egy teljes kereskedelmi farm ipari rendszeréig.
 
-![Egy Grove relé a vezérlő áramkörrel, kimeneti áramkörrel és relével megjelölve](../../../../../translated_images/hu/grove-relay-labelled.293e068f5c3c2a199bd7892f2661fdc9e10c920b535cfed317fbd6d1d4ae1168.png)
+![Egy Grove relé a vezérlő áramkörrel, kimeneti áramkörrel és relével megjelölve](../../../../../translated_images/hu/grove-relay-labelled.293e068f5c3c2a19.webp)
 
 A fenti képen egy Grove relé látható. A vezérlő áramkör egy IoT eszközhöz csatlakozik, és 3,3V vagy 5V segítségével kapcsolja be vagy ki a relét. A kimeneti áramkör két terminállal rendelkezik, bármelyik lehet áramforrás vagy földelés. A kimeneti áramkör akár 250V-ot és 10A-t is képes kezelni, ami elegendő számos hálózati árammal működő eszközhöz. Léteznek még nagyobb teljesítményű relék is.
 

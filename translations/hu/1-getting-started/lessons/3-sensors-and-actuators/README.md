@@ -1,6 +1,6 @@
 # Érzékelők és működtetők használata a fizikai világban
 
-![A lecke vázlatos áttekintése](../../../../../translated_images/hu/lesson-3.cc3b7b4cd646de598698cce043c0393fd62ef42bac2eaf60e61272cd844250f4.jpg)
+![A lecke vázlatos áttekintése](../../../../../translated_images/hu/lesson-3.cc3b7b4cd646de59.webp)
 
 > Vázlatrajz: [Nitya Narasimhan](https://github.com/nitya). Kattints a képre a nagyobb verzióért.
 
@@ -92,7 +92,7 @@ A digitális érzékelők, az analóg érzékelőkhöz hasonlóan, az elektromos
 
 A legegyszerűbb digitális érzékelő egy gomb vagy kapcsoló. Ez egy olyan érzékelő, amelynek két állapota van: be vagy ki.
 
-![Egy gomb 5 voltot kap. Ha nincs lenyomva, 0 voltot ad vissza, ha lenyomva van, 5 voltot ad vissza](../../../../../translated_images/hu/button.eadb560b77ac45e56f523d9d8876e40444f63b419e33eb820082d461fa79490b.png)
+![Egy gomb 5 voltot kap. Ha nincs lenyomva, 0 voltot ad vissza, ha lenyomva van, 5 voltot ad vissza](../../../../../translated_images/hu/button.eadb560b77ac45e5.webp)
 
 Az IoT eszközök, például a GPIO tüskék, közvetlenül mérhetik ezt a jelet 0-ként vagy 1-ként. Ha a küldött feszültség megegyezik a visszaküldött feszültséggel, az olvasott érték 1, különben az olvasott érték 0. Nincs szükség a jel átalakítására, az csak 1 vagy 0 lehet.
 
@@ -122,7 +122,7 @@ Néhány gyakori működtető:
 ✅ Kutass egy kicsit! Milyen működtetők vannak a telefonodban?
 
 ## Működt
-![Egy fény alacsony feszültségen halványan, magasabb feszültségen pedig fényesen világít](../../../../../translated_images/hu/dimmable-light.9ceffeb195dec1a849da718b2d71b32c35171ff7dfea9c07bbf82646a67acf6b.png)
+![Egy fény alacsony feszültségen halványan, magasabb feszültségen pedig fényesen világít](../../../../../translated_images/hu/dimmable-light.9ceffeb195dec1a8.webp)
 
 Akárcsak az érzékelők esetében, a tényleges IoT eszköz digitális jelekkel működik, nem analóg jelekkel. Ez azt jelenti, hogy analóg jel küldéséhez az IoT eszköznek szüksége van egy digitális-analóg átalakítóra (DAC), amely lehet közvetlenül az IoT eszközön vagy egy csatlakozópanelen. Ez átalakítja az IoT eszköz 0 és 1 értékeit olyan analóg feszültséggé, amelyet az aktuátor használni tud.
 
@@ -169,7 +169,7 @@ A digitális aktuátorok, akárcsak a digitális érzékelők, vagy két állapo
 
 Egy egyszerű digitális aktuátor például egy LED. Amikor az eszköz digitális 1 jelet küld, magas feszültséget küld, amely bekapcsolja a LED-et. Amikor digitális 0 jelet küld, a feszültség 0V-ra csökken, és a LED kikapcsol.
 
-![Egy LED 0 voltnál kikapcsolva, 5V-nál bekapcsolva](../../../../../translated_images/hu/led.ec6d94f66676a174ad06d9fa9ea49c2ee89beb18b312d5c6476467c66375b07f.png)
+![Egy LED 0 voltnál kikapcsolva, 5V-nál bekapcsolva](../../../../../translated_images/hu/led.ec6d94f66676a174.webp)
 
 ✅ Milyen más egyszerű, kétállapotú aktuátorokat tudsz elképzelni? Egy példa lehet egy szolenoid, amely egy elektromágnes, amely aktiválható például egy ajtózár reteszének mozgatására, az ajtó nyitására/zárására.
 

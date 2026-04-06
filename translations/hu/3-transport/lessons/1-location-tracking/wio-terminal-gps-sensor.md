@@ -18,7 +18,7 @@ A Grove GPS-érzékelő csatlakoztatható a Wio Terminalhoz.
 
 Csatlakoztassa a GPS-érzékelőt.
 
-![Egy Grove GPS-érzékelő](../../../../../translated_images/hu/grove-gps-sensor.247943bf69b03f0d1820ef6ed10c587f9b650e8db55b936851c92412180bd3e2.png)
+![Egy Grove GPS-érzékelő](../../../../../translated_images/hu/grove-gps-sensor.247943bf69b03f0d.webp)
 
 1. Helyezze be a Grove kábel egyik végét a GPS-érzékelő aljzatába. Csak egyféleképpen illeszkedik.
 

@@ -26,7 +26,7 @@ A Grove LED egy modul formájában érkezik, amely több LED-et tartalmaz, így 
 
 Csatlakoztasd a LED-et.
 
-![Egy Grove LED](../../../../../translated_images/hu/grove-led.6c853be93f473cf2c439cfc74bb1064732b22251a83cedf66e62f783f9cc1a79.png)
+![Egy Grove LED](../../../../../translated_images/hu/grove-led.6c853be93f473cf2.webp)
 
 1. Válaszd ki a kedvenc LED-edet, és helyezd be a lábait a LED modul két lyukába.
 

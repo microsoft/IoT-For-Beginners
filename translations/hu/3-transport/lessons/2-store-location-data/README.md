@@ -1,6 +1,6 @@
 # Tárolja a helyadatokat
 
-![A leckéről készült vázlatrajz](../../../../../translated_images/hu/lesson-12.ca7f53039712a3ec14ad6474d8445361c84adab643edc53fa6269b77895606bb.jpg)
+![A leckéről készült vázlatrajz](../../../../../translated_images/hu/lesson-12.ca7f53039712a3ec.webp)
 
 > Vázlatrajz: [Nitya Narasimhan](https://github.com/nitya). Kattintson a képre a nagyobb verzióért.
 
@@ -75,7 +75,7 @@ A NoSQL adatbázisokat azért nevezik NoSQL-nek, mert nem rendelkeznek az SQL ad
 
 > 💁 A nevük ellenére néhány NoSQL adatbázis lehetővé teszi az SQL használatát az adatok lekérdezésére.
 
-![Dokumentumok mappákban egy NoSQL adatbázisban](../../../../../translated_images/hu/noqsl-database.62d24ccf5b73f60d35c245a8533f1c7147c0928e955b82cb290b2e184bb434df.png)
+![Dokumentumok mappákban egy NoSQL adatbázisban](../../../../../translated_images/hu/noqsl-database.62d24ccf5b73f60d.webp)
 
 A NoSQL adatbázisoknak nincs előre definiált sémája, amely korlátozná az adatok tárolását, ehelyett bármilyen strukturálatlan adatot beilleszthet, általában JSON dokumentumok formájában. Ezek a dokumentumok mappákba szervezhetők, hasonlóan a számítógépen lévő fájlokhoz. Minden dokumentum különböző mezőkkel rendelkezhet, mint más dokumentumok - például, ha a farmjárművekből származó IoT-adatokat tárolná, néhány dokumentum tartalmazhat gyorsulásmérő és sebességadatokat, mások pedig a pótkocsi hőmérsékletét. Ha új teherautótípust adna hozzá, például olyat, amely beépített mérlegekkel rendelkezik a szállított termékek súlyának nyomon követésére, akkor az IoT-eszköz hozzáadhatná ezt az új mezőt, és azt tárolhatná anélkül, hogy változtatásokat kellene végezni az adatbázison.
 
@@ -89,7 +89,7 @@ Ebben a leckében NoSQL tárolást fog használni IoT-adatok tárolására.
 
 Az előző leckében GPS-adatokat rögzített egy IoT-eszközhöz csatlakoztatott GPS-érzékelőből. Ahhoz, hogy ezeket az IoT-adatokat a felhőben tárolhassa, el kell küldenie őket egy IoT-szolgáltatásba. Ismét az Azure IoT Hubot fogja használni, ugyanazt az IoT-felhőszolgáltatást, amelyet az előző projektben használt.
 
-![GPS telemetria küldése egy IoT-eszközről az IoT Hubba](../../../../../translated_images/hu/gps-telemetry-iot-hub.8115335d51cd2c1285d20e9d1b18cf685e59a8e093e7797291ef173445af6f3d.png)
+![GPS telemetria küldése egy IoT-eszközről az IoT Hubba](../../../../../translated_images/hu/gps-telemetry-iot-hub.8115335d51cd2c12.webp)
 
 ### Feladat - GPS-adatok küldése egy IoT Hubba
 
@@ -183,7 +183,7 @@ A hideg útvonal adatok adatközpontokban kerülnek tárolásra - olyan adatbáz
 
 ## Azure Storage-fiókok
 
-![Az Azure Storage logója](../../../../../translated_images/hu/azure-storage-logo.605c0f602c640d482a80f1b35a2629a32d595711b7ab1d7ceea843250615ff32.png)
+![Az Azure Storage logója](../../../../../translated_images/hu/azure-storage-logo.605c0f602c640d48.webp)
 
 Az Azure Storage-fiókok egy általános célú tárolási szolgáltatás, amely különböző módokon képes adatokat tárolni. Tárolhatsz adatokat blobokként, sorokban, táblákban vagy fájlokként, akár egyszerre is.
 

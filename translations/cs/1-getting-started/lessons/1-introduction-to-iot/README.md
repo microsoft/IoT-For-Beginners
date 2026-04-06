@@ -1,6 +1,6 @@
 # Úvod do IoT
 
-![Přehled této lekce ve formě sketchnote](../../../../../translated_images/cs/lesson-1.2606670fa61ee904687da5d6fa4e726639d524d064c895117da1b95b9ff6251d.jpg)
+![Přehled této lekce ve formě sketchnote](../../../../../translated_images/cs/lesson-1.2606670fa61ee904.webp)
 
 > Sketchnote vytvořil [Nitya Narasimhan](https://github.com/nitya). Klikněte na obrázek pro větší verzi.
 

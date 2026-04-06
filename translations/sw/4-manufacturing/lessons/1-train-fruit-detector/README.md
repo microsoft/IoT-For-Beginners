@@ -1,6 +1,6 @@
 # Kufundisha Kifaa cha Kugundua Ubora wa Matunda
 
-![Muhtasari wa somo hili kwa sketchnote](../../../../../translated_images/sw/lesson-15.843d21afdc6fb2bba70cd9db7b7d2f91598859fafda2078b0bdc44954194b6c0.jpg)
+![Muhtasari wa somo hili kwa sketchnote](../../../../../translated_images/sw/lesson-15.843d21afdc6fb2bb.webp)
 
 > Sketchnote na [Nitya Narasimhan](https://github.com/nitya). Bofya picha kwa toleo kubwa zaidi.
 
@@ -38,7 +38,7 @@ Sio mazao yote yanayokomaa kwa wakati mmoja. Kwa mfano, nyanya zinaweza kuwa na 
 
 Kuongezeka kwa uvunaji wa kiotomatiki kulihamisha kazi ya kuchagua mazao kutoka shambani hadi kiwandani. Chakula kingesafirishwa kwenye mikanda mirefu ya kusafirisha na timu za watu wakichagua mazao na kuondoa yale ambayo hayakufikia viwango vya ubora vinavyohitajika. Kuvuna kulikuwa nafuu kutokana na mashine, lakini bado kulikuwa na gharama ya kuchagua chakula kwa mikono.
 
-![Ikiwa nyanya nyekundu inatambuliwa, inaendelea na safari yake bila kusumbuliwa. Ikiwa nyanya ya kijani inatambuliwa, inasukumwa kwenye pipa la taka kwa kutumia lever](../../../../../translated_images/sw/optical-tomato-sorting.61aa134bdda4e5b1bfb16a212c1e35a6ef0c426cbb8b1c975f79d7bfbf48d068.png)
+![Ikiwa nyanya nyekundu inatambuliwa, inaendelea na safari yake bila kusumbuliwa. Ikiwa nyanya ya kijani inatambuliwa, inasukumwa kwenye pipa la taka kwa kutumia lever](../../../../../translated_images/sw/optical-tomato-sorting.61aa134bdda4e5b1.webp)
 
 Mageuzi yaliyofuata yalikuwa kutumia mashine kuchagua, ama ndani ya mashine ya kuvuna, au kwenye viwanda vya usindikaji. Kizazi cha kwanza cha mashine hizi kilitumia sensa za macho kutambua rangi, zikidhibiti vifaa vya kusukuma nyanya za kijani kwenye pipa la taka kwa kutumia lever au pigo la hewa, na kuacha nyanya nyekundu zikiendelea kwenye mtandao wa mikanda ya kusafirisha.
 
@@ -62,7 +62,7 @@ Kwa mfano, unaweza kumpa mfano mamilioni ya picha za ndizi ambazo hazijakomaa ka
 
 > 🎓 Matokeo ya miundo ya ML huitwa *utabiri*
 
-![Ndizi 2, moja iliyokomaa na utabiri wa 99.7% imekomaa, 0.3% haijakomaa, na moja haijakomaa na utabiri wa 1.4% imekomaa, 98.6% haijakomaa](../../../../../translated_images/sw/bananas-ripe-vs-unripe-predictions.8d0e2034014aa50ece4e4589e724b142da0681f35470fe3db3f7d51240f69c85.png)
+![Ndizi 2, moja iliyokomaa na utabiri wa 99.7% imekomaa, 0.3% haijakomaa, na moja haijakomaa na utabiri wa 1.4% imekomaa, 98.6% haijakomaa](../../../../../translated_images/sw/bananas-ripe-vs-unripe-predictions.8d0e2034014aa50e.webp)
 
 Miundo ya ML haitoi jibu la moja kwa moja, badala yake inatoa uwezekano. Kwa mfano, mfano unaweza kupewa picha ya ndizi na kutabiri `imekomaa` kwa 99.7% na `haijakomaa` kwa 0.3%. Kisha msimbo wako utachagua utabiri bora na kuamua kuwa ndizi imekomaa.
 
@@ -90,7 +90,7 @@ Kuna zana mbalimbali zinazoweza kukusaidia kufanya hivi, ikiwa ni pamoja na hudu
 
 Custom Vision ni zana ya wingu kwa ajili ya kufundisha vifaa vya uainishaji wa picha. Inakuruhusu kufundisha kifaa cha uainishaji kwa kutumia idadi ndogo ya picha. Unaweza kupakia picha kupitia portal ya wavuti, API ya wavuti au SDK, ukitoa kila picha *lebo* inayowakilisha uainishaji wa picha hiyo. Kisha unafundisha mfano, na kuujaribu kuona jinsi unavyofanya kazi. Mara unapokuwa na uhakika na mfano huo, unaweza kuchapisha matoleo yake ambayo yanaweza kufikiwa kupitia API ya wavuti au SDK.
 
-![Nembo ya Azure Custom Vision](../../../../../translated_images/sw/custom-vision-logo.d3d4e7c8a87ec9daf825e72e210576c3cbf60312577be7a139e22dd97ab7f1e6.png)
+![Nembo ya Azure Custom Vision](../../../../../translated_images/sw/custom-vision-logo.d3d4e7c8a87ec9da.webp)
 
 > 💁 Unaweza kufundisha mfano wa Custom Vision kwa picha 5 tu kwa kila uainishaji, lakini zaidi ni bora. Unaweza kupata matokeo bora zaidi ukiwa na angalau picha 30.
 
@@ -146,7 +146,7 @@ Ili kutumia Custom Vision, unahitaji kwanza kuunda rasilimali mbili za cognitive
 
     Unapounda mradi wako, hakikisha unatumia rasilimali ya `fruit-quality-detector-training` uliyounda awali. Tumia aina ya mradi wa *Classification*, aina ya uainishaji wa *Multiclass*, na kikoa cha *Food*.
 
-    ![Mipangilio ya mradi wa Custom Vision ikiwa na jina limewekwa kuwa fruit-quality-detector, hakuna maelezo, rasilimali imewekwa kuwa fruit-quality-detector-training, aina ya mradi imewekwa kuwa classification, aina za uainishaji zimewekwa kuwa multi class na kikoa kimewekwa kuwa food](../../../../../translated_images/sw/custom-vision-create-project.cf46325b92d8b131089f6647cf5e07b664cb77850e106d66e3c057b6b69756c6.png)
+    ![Mipangilio ya mradi wa Custom Vision ikiwa na jina limewekwa kuwa fruit-quality-detector, hakuna maelezo, rasilimali imewekwa kuwa fruit-quality-detector-training, aina ya mradi imewekwa kuwa classification, aina za uainishaji zimewekwa kuwa multi class na kikoa kimewekwa kuwa food](../../../../../translated_images/sw/custom-vision-create-project.cf46325b92d8b131.webp)
 
 ✅ Chukua muda kuchunguza UI ya Custom Vision kwa kifaa chako cha uainishaji wa picha.
 
@@ -164,7 +164,7 @@ Watambuzi wa picha hufanya kazi kwa azimio la chini sana. Kwa mfano, Custom Visi
 
     * Ukitumia ndizi 2 zilizoiva, piga picha za kila moja kutoka pembe tofauti, ukipiga angalau picha 7 (5 za mafunzo, 2 za majaribio), lakini bora zaidi ikiwa nyingi.
 
-        ![Picha za ndizi 2 tofauti](../../../../../translated_images/sw/banana-training-images.530eb203346d73bc23b8b990fb4609470bf4ff7c942ccc13d4cfffeed9be1ad4.png)
+        ![Picha za ndizi 2 tofauti](../../../../../translated_images/sw/banana-training-images.530eb203346d73bc.webp)
 
     * Rudia mchakato huo huo ukitumia ndizi 2 ambazo hazijaiva.
 
@@ -174,7 +174,7 @@ Watambuzi wa picha hufanya kazi kwa azimio la chini sana. Kwa mfano, Custom Visi
 
 1. Fuata [sehemu ya kupakia na kuweka lebo picha ya kuunda mtambuzi haraka kwenye Microsoft docs](https://docs.microsoft.com/azure/cognitive-services/custom-vision-service/getting-started-build-a-classifier?WT.mc_id=academic-17441-jabenn#upload-and-tag-images) ili kupakia picha zako za mafunzo. Weka lebo ya matunda yaliyoiva kama `ripe`, na matunda yasiyoiva kama `unripe`.
 
-    ![Dialogi za kupakia zinazoonyesha kupakia picha za ndizi zilizoiva na ambazo hazijaiva](../../../../../translated_images/sw/image-upload-bananas.0751639f3815e0ec42bdbc6254d1e4357a185834d1ae10c9948a0e7d6d336695.png)
+    ![Dialogi za kupakia zinazoonyesha kupakia picha za ndizi zilizoiva na ambazo hazijaiva](../../../../../translated_images/sw/image-upload-bananas.0751639f3815e0ec.webp)
 
 1. Fuata [sehemu ya kufundisha mtambuzi ya kuunda mtambuzi haraka kwenye Microsoft docs](https://docs.microsoft.com/azure/cognitive-services/custom-vision-service/getting-started-build-a-classifier?WT.mc_id=academic-17441-jabenn#train-the-classifier) ili kufundisha mtambuzi wa picha kwa kutumia picha zako zilizopakiwa.
 
@@ -192,7 +192,7 @@ Baada ya mtambuzi wako kufundishwa, unaweza kuujaribu kwa kumpa picha mpya ili k
 
 1. Fuata [maelezo ya kujaribu modeli yako kwenye Microsoft docs](https://docs.microsoft.com/azure/cognitive-services/custom-vision-service/test-your-model?WT.mc_id=academic-17441-jabenn#test-your-model) ili kujaribu mtambuzi wako wa picha. Tumia picha za majaribio ulizotengeneza awali, si picha zozote ulizotumia kwa mafunzo.
 
-    ![Ndizi ambayo haijaiva imetabiriwa kuwa haijaiva kwa uwezekano wa 98.9%, na kuwa imeiva kwa uwezekano wa 1.1%](../../../../../translated_images/sw/banana-unripe-quick-test-prediction.dae9b5e1c4ef7c64886422438850ea14f0be6ac918c217ea3b255c685abfabe7.png)
+    ![Ndizi ambayo haijaiva imetabiriwa kuwa haijaiva kwa uwezekano wa 98.9%, na kuwa imeiva kwa uwezekano wa 1.1%](../../../../../translated_images/sw/banana-unripe-quick-test-prediction.dae9b5e1c4ef7c64.webp)
 
 1. Jaribu picha zote za majaribio ulizonazo na angalia uwezekano.
 

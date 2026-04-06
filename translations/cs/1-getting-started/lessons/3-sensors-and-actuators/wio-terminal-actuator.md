@@ -26,7 +26,7 @@ Grove LED je dodávána jako modul s výběrem LED diod, což vám umožňuje zv
 
 Připojte LED.
 
-![Grove LED](../../../../../translated_images/cs/grove-led.6c853be93f473cf2c439cfc74bb1064732b22251a83cedf66e62f783f9cc1a79.png)
+![Grove LED](../../../../../translated_images/cs/grove-led.6c853be93f473cf2.webp)
 
 1. Vyberte si svou oblíbenou LED a vložte její nožičky do dvou otvorů na modulu LED.
 

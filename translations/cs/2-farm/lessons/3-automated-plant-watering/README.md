@@ -1,6 +1,6 @@
 # Automatické zavlažování rostlin
 
-![Přehled této lekce ve formě sketchnote](../../../../../translated_images/cs/lesson-7.30b5f577d3cb8e031238751475cb519c7d6dbaea261b5df4643d086ffb2a03bb.jpg)
+![Přehled této lekce ve formě sketchnote](../../../../../translated_images/cs/lesson-7.30b5f577d3cb8e03.webp)
 
 > Sketchnote od [Nitya Narasimhan](https://github.com/nitya). Klikněte na obrázek pro větší verzi.
 
@@ -32,7 +32,7 @@ IoT zařízení používají nízké napětí. Zatímco to stačí pro senzory a
 
 Řešením je mít čerpadlo připojené k externímu zdroji napájení a použít aktuátor k zapnutí čerpadla, podobně jako byste zapnuli světlo. K zapnutí vypínače stačí malá množství energie (ve formě energie vašeho těla), což připojí světlo k síťovému napájení běžícímu na 110V/240V.
 
-![Vypínač zapíná napájení světla](../../../../../translated_images/cs/light-switch.760317ad6ab8bd6d611da5352dfe9c73a94a0822ccec7df3c8bae35da18e1658.png)
+![Vypínač zapíná napájení světla](../../../../../translated_images/cs/light-switch.760317ad6ab8bd6d.webp)
 
 > 🎓 [Síťová elektřina](https://wikipedia.org/wiki/Mains_electricity) označuje elektřinu dodávanou do domácností a podniků prostřednictvím národní infrastruktury v mnoha částech světa.
 
@@ -72,7 +72,7 @@ Když se páka pohybuje, obvykle slyšíte, jak se dotkne elektromagnetu s dobř
 
 Elektromagnet nepotřebuje mnoho energie k aktivaci a přitažení páky, může být ovládán pomocí 3,3V nebo 5V výstupu z IoT vývojové desky. Výstupní obvod může přenášet mnohem více energie, v závislosti na relé, včetně síťového napětí nebo dokonce vyšších úrovní výkonu pro průmyslové použití. Tímto způsobem může IoT vývojová deska ovládat zavlažovací systém, od malého čerpadla pro jednu rostlinu až po masivní průmyslový systém pro celé komerční farmy.
 
-![Relé Grove s označeným ovládacím obvodem, výstupním obvodem a relé](../../../../../translated_images/cs/grove-relay-labelled.293e068f5c3c2a199bd7892f2661fdc9e10c920b535cfed317fbd6d1d4ae1168.png)
+![Relé Grove s označeným ovládacím obvodem, výstupním obvodem a relé](../../../../../translated_images/cs/grove-relay-labelled.293e068f5c3c2a19.webp)
 
 Obrázek výše ukazuje relé Grove. Ovládací obvod se připojuje k IoT zařízení a zapíná nebo vypíná relé pomocí 3,3V nebo 5V. Výstupní obvod má dva terminály, jeden může být napájení nebo uzemnění. Výstupní obvod může zvládnout až 250V při 10A, což je dost pro řadu zařízení napájených ze sítě. Můžete získat relé, která zvládnou ještě vyšší úrovně výkonu.
 

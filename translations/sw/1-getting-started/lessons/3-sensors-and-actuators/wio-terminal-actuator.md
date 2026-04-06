@@ -26,7 +26,7 @@ LED ya Grove inakuja kama moduli yenye chaguo la LEDs, ikikuruhusu kuchagua rang
 
 Unganisha LED.
 
-![LED ya Grove](../../../../../translated_images/sw/grove-led.6c853be93f473cf2c439cfc74bb1064732b22251a83cedf66e62f783f9cc1a79.png)
+![LED ya Grove](../../../../../translated_images/sw/grove-led.6c853be93f473cf2.webp)
 
 1. Chagua LED unayopenda na ingiza miguu yake kwenye mashimo mawili kwenye moduli ya LED.
 

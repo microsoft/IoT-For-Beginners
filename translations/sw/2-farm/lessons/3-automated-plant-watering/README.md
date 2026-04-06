@@ -1,6 +1,6 @@
 # Kumwagilia mimea kiotomatiki
 
-![Muhtasari wa somo hili kwa sketchnote](../../../../../translated_images/sw/lesson-7.30b5f577d3cb8e031238751475cb519c7d6dbaea261b5df4643d086ffb2a03bb.jpg)
+![Muhtasari wa somo hili kwa sketchnote](../../../../../translated_images/sw/lesson-7.30b5f577d3cb8e03.webp)
 
 > Sketchnote na [Nitya Narasimhan](https://github.com/nitya). Bofya picha kwa toleo kubwa zaidi.
 
@@ -32,7 +32,7 @@ Vifaa vya IoT hutumia voltage ndogo. Ingawa hii inatosha kwa sensa na actuators 
 
 Suluhisho la hili ni kuwa na pampu iliyounganishwa na chanzo cha umeme wa nje, na kutumia actuator kuwasha pampu, sawa na jinsi unavyowasha taa. Inachukua kiasi kidogo cha nguvu (kwa njia ya nishati mwilini mwako) kwa kidole chako kubonyeza swichi, na hii inaunganisha taa na umeme wa nyumbani unaoendesha kwa 110v/240v.
 
-![Swichi ya taa inawasha taa](../../../../../translated_images/sw/light-switch.760317ad6ab8bd6d611da5352dfe9c73a94a0822ccec7df3c8bae35da18e1658.png)
+![Swichi ya taa inawasha taa](../../../../../translated_images/sw/light-switch.760317ad6ab8bd6d.webp)
 
 > 🎓 [Umeme wa nyumbani](https://wikipedia.org/wiki/Mains_electricity) unarejelea umeme unaosambazwa kwa nyumba na biashara kupitia miundombinu ya kitaifa katika sehemu nyingi za dunia.
 
@@ -72,7 +72,7 @@ Lever inaposogea, mara nyingi unaweza kuisikia ikigusa sumaku ya umeme kwa sauti
 
 Sumaku ya umeme haitaji nguvu nyingi kuamsha na kuvuta lever, inaweza kudhibitiwa kwa kutumia 3.3V au 5V kutoka kwa kifaa cha IoT. Mzunguko wa nje unaweza kubeba nguvu zaidi, kulingana na relay, ikiwa ni pamoja na voltage ya nyumbani au hata viwango vya juu vya nguvu kwa matumizi ya viwandani. Kwa njia hii kifaa cha IoT kinaweza kudhibiti mfumo wa umwagiliaji, kutoka pampu ndogo kwa mmea mmoja, hadi mfumo mkubwa wa viwandani kwa shamba zima la kibiashara.
 
-![Relay ya Grove ikiwa na mzunguko wa kudhibiti, mzunguko wa nje na relay vimewekwa alama](../../../../../translated_images/sw/grove-relay-labelled.293e068f5c3c2a199bd7892f2661fdc9e10c920b535cfed317fbd6d1d4ae1168.png)
+![Relay ya Grove ikiwa na mzunguko wa kudhibiti, mzunguko wa nje na relay vimewekwa alama](../../../../../translated_images/sw/grove-relay-labelled.293e068f5c3c2a19.webp)
 
 Picha hapo juu inaonyesha relay ya Grove. Mzunguko wa kudhibiti unaunganisha na kifaa cha IoT na kuwasha au kuzima relay kwa kutumia 3.3V au 5V. Mzunguko wa nje una vituo viwili, chochote kinaweza kuwa umeme au ardhi. Mzunguko wa nje unaweza kushughulikia hadi 250V kwa 10A, ya kutosha kwa vifaa mbalimbali vinavyotumia umeme wa nyumbani. Unaweza kupata relay zinazoweza kushughulikia hata viwango vya juu vya nguvu.
 

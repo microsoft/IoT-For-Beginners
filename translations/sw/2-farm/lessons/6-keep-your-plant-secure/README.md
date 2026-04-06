@@ -1,6 +1,6 @@
 # Linda mmea wako dhidi ya hatari
 
-![Muhtasari wa somo hili kwa njia ya sketchnote](../../../../../translated_images/sw/lesson-10.829c86b80b9403bb770929ee553a1d293afe50dc23121aaf9be144673ae012cc.jpg)
+![Muhtasari wa somo hili kwa njia ya sketchnote](../../../../../translated_images/sw/lesson-10.829c86b80b9403bb.webp)
 
 > Sketchnote na [Nitya Narasimhan](https://github.com/nitya). Bofya picha kwa toleo kubwa zaidi.
 
@@ -52,11 +52,11 @@ Hizi ni hali halisi za ulimwengu, na hutokea mara kwa mara. Baadhi ya mifano ili
 
 Wakati kifaa kinaunganishwa na huduma ya IoT, kinatumia kitambulisho kutambua chenyewe. Tatizo ni kwamba kitambulisho hiki kinaweza kuigwa - mdukuzi anaweza kuunda kifaa cha uharibifu kinachotumia kitambulisho sawa na kifaa halisi lakini kinatuma data ya uongo.
 
-![Vifaa halali na vya uharibifu vinaweza kutumia kitambulisho sawa kutuma data](../../../../../translated_images/sw/iot-device-and-hacked-device-connecting.e0671675df74d6d99eb1dedb5a670e606f698efa6202b1ad4c8ae548db299cc6.png)
+![Vifaa halali na vya uharibifu vinaweza kutumia kitambulisho sawa kutuma data](../../../../../translated_images/sw/iot-device-and-hacked-device-connecting.e0671675df74d6d9.webp)
 
 Njia ya kuzuia hili ni kubadilisha data inayotumwa kuwa muundo usiosomeka, kwa kutumia thamani fulani inayojulikana tu na kifaa na wingu. Mchakato huu unaitwa *usimbaji fiche*, na thamani inayotumika kusimba data inaitwa *ufunguo wa usimbaji fiche*.
 
-![Ikiwa usimbaji fiche unatumika, basi ujumbe uliofichwa pekee ndio utakubaliwa, wengine watakataliwa](../../../../../translated_images/sw/iot-device-and-hacked-device-connecting-encryption.5941aff601fc978f979e46f2849b573564eeb4a4dc5b52f669f62745397492fb.png)
+![Ikiwa usimbaji fiche unatumika, basi ujumbe uliofichwa pekee ndio utakubaliwa, wengine watakataliwa](../../../../../translated_images/sw/iot-device-and-hacked-device-connecting-encryption.5941aff601fc978f.webp)
 
 Huduma ya wingu inaweza kubadilisha data kuwa muundo unaosomeka tena, kwa kutumia mchakato unaoitwa *ufutaji fiche*, kwa kutumia ufunguo wa usimbaji fiche sawa, au *ufunguo wa ufutaji fiche*. Ikiwa ujumbe uliofichwa hauwezi kufutwa fiche na ufunguo, kifaa kimevamiwa na ujumbe unakataliwa.
 

@@ -16,7 +16,7 @@ Az ArduCam nem rendelkezik Grove csatlakozóval, helyette az SPI és I2C buszokh
 
 Csatlakoztasd a kamerát.
 
-![Egy ArduCam érzékelő](../../../../../translated_images/hu/arducam.20e4e4cbb268296570b5914e20d6c349fc42ddac9ed4e1b9deba2188204eebae.png)
+![Egy ArduCam érzékelő](../../../../../translated_images/hu/arducam.20e4e4cbb2682965.webp)
 
 1. Az ArduCam alján található tüskéket a Wio Terminal GPIO tüskéihez kell csatlakoztatni. Hogy könnyebben megtaláld a megfelelő tüskéket, helyezd fel a Wio Terminalhoz mellékelt GPIO tüske matricát a tüskék köré:
 
@@ -35,7 +35,7 @@ Csatlakoztasd a kamerát.
     | SDA           | 3 (I2C1_SDA)       | I2C Soros adat                          |
     | SCL           | 5 (I2C1_SCL)       | I2C Soros órajel                        |
 
-    ![A Wio Terminal jumper kábelekkel csatlakoztatva az ArduCamhoz](../../../../../translated_images/hu/arducam-wio-terminal-connections.a4d5a4049bdb5ab800a2877389fc6ecf5e4ff307e6451ff56c517e6786467d0a.png)
+    ![A Wio Terminal jumper kábelekkel csatlakoztatva az ArduCamhoz](../../../../../translated_images/hu/arducam-wio-terminal-connections.a4d5a4049bdb5ab8.webp)
 
     A GND és VCC csatlakozások 5V tápfeszültséget biztosítanak az ArduCam számára. Ez 5V-on működik, ellentétben a Grove érzékelőkkel, amelyek 3V-on működnek. Ez az energia közvetlenül az USB-C csatlakozóról érkezik, amely a készüléket táplálja.
 
@@ -456,7 +456,7 @@ A Wio Terminal csak legfeljebb 16GB méretű microSD kártyákat támogat. Ha na
 
 1. Kapcsold ki a microSD kártyát, és távolítsd el úgy, hogy kissé benyomod, majd elengeded, és ki fog ugrani. Ehhez lehet, hogy egy vékony eszközt kell használnod. Csatlakoztasd a microSD kártyát a számítógépedhez, hogy megnézd a képeket.
 
-    ![Egy banánról készült kép az ArduCam segítségével](../../../../../translated_images/hu/banana-arducam.be1b32d4267a8194b0fd042362e56faa431da9cd4af172051b37243ea9be0256.jpg)
+    ![Egy banánról készült kép az ArduCam segítségével](../../../../../translated_images/hu/banana-arducam.be1b32d4267a8194.webp)
 💁 Előfordulhat, hogy néhány kép szükséges ahhoz, hogy a kamera fehéregyensúlya beálljon. Ezt az elkészített képek színe alapján fogja észrevenni, az első néhány kép színe eltérő lehet. Ezt mindig megkerülheti úgy, hogy módosítja a kódot, hogy a `setup` függvényben néhány képet készítsen, amelyeket figyelmen kívül hagy.
 
 

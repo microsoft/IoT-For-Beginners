@@ -1,6 +1,6 @@
 # Helyadatok vizualizálása
 
-![A leckéről készült sketchnote áttekintése](../../../../../translated_images/hu/lesson-13.a259db1485021be7d7c72e90842fbe0ab977529e8684c179b5fb1ea75e92b3ef.jpg)
+![A leckéről készült sketchnote áttekintése](../../../../../translated_images/hu/lesson-13.a259db1485021be7.webp)
 
 > Sketchnote készítette: [Nitya Narasimhan](https://github.com/nitya). Kattints a képre a nagyobb verzióért.
 
@@ -64,11 +64,11 @@ Egy egyszerű példát véve - a farm projektnél talajnedvesség adatokat gyűj
 
 Emberként ennek az adatnak a megértése nehéz lehet. Ez egy számokból álló fal, amelynek nincs jelentése. Az adatok vizualizálásának első lépéseként egy vonaldiagramon ábrázolhatjuk őket:
 
-![A fenti adatok vonaldiagramja](../../../../../translated_images/hu/chart-soil-moisture.fd6d9d0cdc0b5f75e78038ecb8945dfc84b38851359de99d84b16e3336d6d7c2.png)
+![A fenti adatok vonaldiagramja](../../../../../translated_images/hu/chart-soil-moisture.fd6d9d0cdc0b5f75.webp)
 
 Ez tovább javítható egy vonal hozzáadásával, amely jelzi, hogy az automatikus öntözőrendszer bekapcsolt, amikor a talajnedvesség értéke elérte a 450-et:
 
-![Talajnedvesség vonaldiagramja egy 450-es vonallal](../../../../../translated_images/hu/chart-soil-moisture-relay.fbb391236d34a64d0abf1df396e9197e0a24df14150620b9cc820a64a55c9326.png)
+![Talajnedvesség vonaldiagramja egy 450-es vonallal](../../../../../translated_images/hu/chart-soil-moisture-relay.fbb391236d34a64d.webp)
 
 Ez a diagram gyorsan megmutatja nemcsak a talajnedvesség szintjeit, hanem azokat a pontokat is, ahol az öntözőrendszer bekapcsolt.
 
@@ -84,7 +84,7 @@ GPS adatokkal dolgozva a legérthetőbb vizualizáció az lehet, ha az adatokat 
 
 A térképekkel való munka érdekes feladat, és sokféle térképszolgáltatás közül választhatsz, például Bing Maps, Leaflet, Open Street Maps és Google Maps. Ebben a leckében az [Azure Maps](https://azure.microsoft.com/services/azure-maps/?WT.mc_id=academic-17441-jabenn) szolgáltatást fogod megismerni, és megtanulod, hogyan jelenítheted meg GPS adataidat.
 
-![Az Azure Maps logója](../../../../../translated_images/hu/azure-maps-logo.35d01dcfbd81fe6140e94257aaa1538f785a58c91576d14e0ebe7a2f6c694b99.png)
+![Az Azure Maps logója](../../../../../translated_images/hu/azure-maps-logo.35d01dcfbd81fe61.webp)
 
 Az Azure Maps "egy gyűjteménye geospaciális szolgáltatásoknak és SDK-knak, amelyek friss térképadatokat használnak, hogy földrajzi kontextust biztosítsanak webes és mobilalkalmazások számára." A fejlesztők eszközöket kapnak gyönyörű, interaktív térképek létrehozásához, amelyek például ajánlott útvonalakat, forgalmi eseményekről szóló információkat, beltéri navigációt, keresési lehetőségeket, magassági adatokat, időjárási szolgáltatásokat és még sok mást kínálnak.
 
@@ -185,7 +185,7 @@ Most megteheted a következő lépést, amely egy térkép megjelenítése egy w
 
     Ha megnyitod az `index.html` fájlt egy webböngészőben, egy térképet kell látnod, amely a Seattle környékére van fókuszálva.
 
-    ![Egy térkép, amely Seattle-t, egy várost Washington államban, USA-ban mutat](../../../../../translated_images/hu/map-image.8fb2c53eb23ef39c1c0a4410a5282e879b3b452b707eb066ff04c5488d3d72b7.png)
+    ![Egy térkép, amely Seattle-t, egy várost Washington államban, USA-ban mutat](../../../../../translated_images/hu/map-image.8fb2c53eb23ef39c.webp)
 
     ✅ Kísérletezz a zoom és középpont paraméterekkel, hogy megváltoztasd a térkép megjelenítését. Hozzáadhatsz különböző koordinátákat, amelyek megfelelnek az adataid szélességi és hosszúsági értékeinek, hogy újraközéppontozd a térképet.
 
@@ -317,7 +317,7 @@ Ha hívást indítasz a tárhelyedre az adatok lekéréséhez, meglepődve tapas
 
 1. Töltsd be a HTML oldalt a böngésződbe. A térkép betöltődik, majd a GPS-adatok a tárhelyről betöltődnek, és megjelennek a térképen.
 
-    ![A Saint Edward State Park térképe Seattle közelében, körökkel az útvonal mentén a park szélén](../../../../../translated_images/hu/map-path.896832e72dc696ffe20650e4051027d4855442d955f93fdbb80bb417ca8a406f.png)
+    ![A Saint Edward State Park térképe Seattle közelében, körökkel az útvonal mentén a park szélén](../../../../../translated_images/hu/map-path.896832e72dc696ff.webp)
 
 > 💁 Ezt a kódot megtalálod a [code](../../../../../3-transport/lessons/3-visualize-location-data/code) mappában.
 

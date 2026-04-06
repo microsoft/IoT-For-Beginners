@@ -1,6 +1,6 @@
 # Csatlakoztassa eszközét az internethez
 
-![A lecke vázlatos áttekintése](../../../../../translated_images/hu/lesson-4.7344e074ea68fa545fd320b12dce36d72dd62d28c3b4596cb26cf315f434b98f.jpg)
+![A lecke vázlatos áttekintése](../../../../../translated_images/hu/lesson-4.7344e074ea68fa54.webp)
 
 > Vázlatrajz: [Nitya Narasimhan](https://github.com/nitya). Kattintson a képre a nagyobb verzióért.
 
@@ -47,7 +47,7 @@ Az [MQTT](http://mqtt.org) egy könnyű, nyílt szabványú üzenetküldési pro
 
 Az MQTT egyetlen közvetítőt és több klienst használ. Minden kliens csatlakozik a közvetítőhöz, amely az üzeneteket a megfelelő kliensekhez irányítja. Az üzeneteket elnevezett témák segítségével irányítják, nem pedig közvetlenül egy adott klienshez küldik. Egy kliens publikálhat egy témára, és bármelyik kliens, amely feliratkozott erre a témára, megkapja az üzenetet.
 
-![Az IoT-eszköz telemetriát publikál a /telemetry témára, és a felhőszolgáltatás feliratkozik erre a témára](../../../../../translated_images/hu/mqtt.cbf7f21d9adc3e17548b359444cc11bb4bf2010543e32ece9a47becf54438c23.png)
+![Az IoT-eszköz telemetriát publikál a /telemetry témára, és a felhőszolgáltatás feliratkozik erre a témára](../../../../../translated_images/hu/mqtt.cbf7f21d9adc3e17.webp)
 
 ✅ Kutasson egy kicsit! Ha sok IoT-eszköze van, hogyan biztosíthatja, hogy az MQTT közvetítője képes legyen kezelni az összes üzenetet?
 
@@ -69,7 +69,7 @@ Ahelyett, hogy az MQTT közvetítő beállításának bonyolultságával foglalk
 
 > 💁 Ez a teszt közvetítő nyilvános és nem biztonságos. Bárki hallgathatja, amit publikál, ezért nem szabad olyan adatokkal használni, amelyeket titokban kell tartani.
 
-![A feladat folyamatábrája, amely a fényerősség leolvasását és ellenőrzését, valamint az LED vezérlését mutatja](../../../../../translated_images/hu/assignment-1-internet-flow.3256feab5f052fd273bf4e331157c574c2c3fa42e479836fc9c3586f41db35a5.png)
+![A feladat folyamatábrája, amely a fényerősség leolvasását és ellenőrzését, valamint az LED vezérlését mutatja](../../../../../translated_images/hu/assignment-1-internet-flow.3256feab5f052fd2.webp)
 
 Kövesse az alábbi lépéseket, hogy csatlakoztassa eszközét az MQTT közvetítőhöz:
 
@@ -336,7 +336,7 @@ Gépek esetében érdemes lehet megtartani az adatokat, különösen, ha azokat 
 
 Az IoT eszköz tervezőinek azt is figyelembe kell venniük, hogy az eszköz használható-e internetkimaradás vagy helyszíni jelvesztés esetén. Egy okos termosztátnak képesnek kell lennie arra, hogy korlátozott döntéseket hozzon a fűtés vezérlésére, ha nem tud telemetriát küldeni a felhőbe egy kimaradás miatt.
 
-[![Ez a Ferrari használhatatlanná vált, mert valaki föld alatt próbálta frissíteni, ahol nincs mobiljel](../../../../../translated_images/hu/bricked-car.dc38f8efadc6c59d76211f981a521efb300939283dee468f79503aae3ec67615.png)](https://twitter.com/internetofshit/status/1315736960082808832)
+[![Ez a Ferrari használhatatlanná vált, mert valaki föld alatt próbálta frissíteni, ahol nincs mobiljel](../../../../../translated_images/hu/bricked-car.dc38f8efadc6c59d.webp)](https://twitter.com/internetofshit/status/1315736960082808832)
 
 Az MQTT kezeléséhez kapcsolatvesztés esetén az eszköz- és szerverkódnak felelősséget kell vállalnia az üzenetek kézbesítésének biztosításáért, ha szükséges, például azáltal, hogy megköveteli, hogy minden elküldött üzenetre válasz érkezzen egy válasz témán, és ha nem, akkor manuálisan sorba állítják őket későbbi újrajátszásra.
 
@@ -344,7 +344,7 @@ Az MQTT kezeléséhez kapcsolatvesztés esetén az eszköz- és szerverkódnak f
 
 A parancsok olyan üzenetek, amelyeket a felhő küld egy eszköznek, hogy utasítsa valamilyen művelet végrehajtására. Ez legtöbbször valamilyen kimenet generálását jelenti egy aktuátor segítségével, de lehet az eszközre vonatkozó utasítás is, például újraindítás vagy további telemetria gyűjtése és válaszként való visszaküldése.
 
-![Egy internetkapcsolattal rendelkező termosztát, amely parancsot kap a fűtés bekapcsolására](../../../../../translated_images/hu/commands.d6c06bbbb3a02cce95f2831a1c331daf6dedd4e470c4aa2b0ae54f332016e504.png)
+![Egy internetkapcsolattal rendelkező termosztát, amely parancsot kap a fűtés bekapcsolására](../../../../../translated_images/hu/commands.d6c06bbbb3a02cce.webp)
 
 Egy termosztát például parancsot kaphat a felhőtől a fűtés bekapcsolására. Az összes érzékelő telemetriai adatai alapján a felhőszolgáltatás úgy döntött, hogy a fűtésnek be kell kapcsolnia, ezért elküldi a megfelelő parancsot.
 
