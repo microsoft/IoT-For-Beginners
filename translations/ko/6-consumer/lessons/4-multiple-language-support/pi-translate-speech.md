@@ -25,7 +25,7 @@
     >
     > 예를 들어, LUIS를 영어로 훈련시키고 사용자 언어로 프랑스어를 사용하고 싶다면, Bing Translate을 사용하여 "2분 27초 타이머 설정"과 같은 문장을 영어에서 프랑스어로 번역한 다음, **번역 듣기** 버튼을 사용하여 번역된 내용을 마이크에 말할 수 있습니다.
     >
-    > ![Bing Translate의 번역 듣기 버튼](../../../../../translated_images/ko/bing-translate.348aa796d6efe2a92f41ea74a5cf42bb4c63d6faaa08e7f46924e072a35daa48.png)
+    > ![Bing Translate의 번역 듣기 버튼](../../../../../translated_images/ko/bing-translate.348aa796d6efe2a9.webp)
 
 1. `speech_api_key` 아래에 번역 API 키를 추가하세요:
 

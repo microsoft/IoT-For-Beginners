@@ -18,7 +18,7 @@ Grove温度センサーは、Wio Terminalのデジタルポートに接続でき
 
 温度センサーを接続してください。
 
-![Grove温度センサー](../../../../../translated_images/ja/grove-dht11.07f8eafceee170043efbb53e1d15722bd4e00fbaa9ff74290b57e9f66eb82c17.png)
+![Grove温度センサー](../../../../../translated_images/ja/grove-dht11.07f8eafceee17004.webp)
 
 1. Groveケーブルの片方の端を湿度・温度センサーのソケットに差し込みます。このケーブルは一方向にしか差し込めません。
 

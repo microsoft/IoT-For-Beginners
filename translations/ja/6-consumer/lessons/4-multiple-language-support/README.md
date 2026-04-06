@@ -1,6 +1,6 @@
 # 複数言語のサポート
 
-![このレッスンの概要を示すスケッチノート](../../../../../translated_images/ja/lesson-24.4246968ed058510ab275052e87ef9aa89c7b2f938915d103c605c04dc6cd5bb7.jpg)
+![このレッスンの概要を示すスケッチノート](../../../../../translated_images/ja/lesson-24.4246968ed058510a.webp)
 
 > スケッチノート作成者: [Nitya Narasimhan](https://github.com/nitya)。画像をクリックすると拡大表示されます。
 
@@ -74,7 +74,7 @@
 
 ### Cognitive Services 音声サービス
 
-![音声サービスのロゴ](../../../../../translated_images/ja/azure-speech-logo.a1f08c4befb0159f2cb5d692d3baf5b599e7b44759d316da907bda1508f46a4a.png)
+![音声サービスのロゴ](../../../../../translated_images/ja/azure-speech-logo.a1f08c4befb0159f.webp)
 
 これまでのレッスンで使用してきた音声サービスには、音声認識の翻訳機能があります。音声を認識する際に、同じ言語でのテキストだけでなく、他の言語でのテキストも取得することができます。
 
@@ -82,7 +82,7 @@
 
 ### Cognitive Services 翻訳サービス
 
-![翻訳サービスのロゴ](../../../../../translated_images/ja/azure-translator-logo.c6ed3a4a433edfd2f11577eca105412c50b8396b194cbbd730723dd1d0793bcd.png)
+![翻訳サービスのロゴ](../../../../../translated_images/ja/azure-translator-logo.c6ed3a4a433edfd2.webp)
 
 翻訳サービスは、特定の翻訳機能を提供する専用のサービスで、1つの言語から1つ以上のターゲット言語にテキストを翻訳することができます。翻訳だけでなく、不適切な表現をマスクする機能や、特定の単語や文の翻訳を指定する機能もサポートしています。これにより、翻訳したくない用語や、特定のよく知られた翻訳を使用することができます。
 

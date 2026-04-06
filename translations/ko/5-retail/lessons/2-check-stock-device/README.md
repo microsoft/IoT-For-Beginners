@@ -1,6 +1,6 @@
 # IoT 기기를 사용한 재고 확인
 
-![이 강의의 스케치노트 개요](../../../../../translated_images/ko/lesson-20.0211df9551a8abb300fc8fcf7dc2789468dea2eabe9202273ac077b0ba37f15e.jpg)
+![이 강의의 스케치노트 개요](../../../../../translated_images/ko/lesson-20.0211df9551a8abb3.webp)
 
 > 스케치노트: [Nitya Narasimhan](https://github.com/nitya). 이미지를 클릭하면 더 큰 버전을 볼 수 있습니다.
 
@@ -62,7 +62,7 @@ Custom Vision 포털에서 반복 버전을 게시합니다.
 
 1. 반복 버전의 **Publish** 버튼을 선택합니다.
 
-    ![게시 버튼](../../../../../translated_images/ko/custom-vision-object-detector-publish-button.34ee379fc650ccb9856c3868d0003f413b9529f102fc73c37168c98d721cc293.png)
+    ![게시 버튼](../../../../../translated_images/ko/custom-vision-object-detector-publish-button.34ee379fc650ccb9.webp)
 
 1. *Publish Model* 대화 상자에서 *Prediction resource*를 이전 강의에서 생성한 `stock-detector-prediction` 리소스로 설정합니다. 이름은 `Iteration2`로 유지하고 **Publish** 버튼을 선택합니다.
 
@@ -76,7 +76,7 @@ Custom Vision 포털에서 반복 버전을 게시합니다.
 
     또한 *Prediction-Key* 값을 복사하세요. 이는 모델을 호출할 때 전달해야 하는 보안 키입니다. 이 키를 전달하는 애플리케이션만 모델을 사용할 수 있으며, 다른 애플리케이션은 거부됩니다.
 
-    ![예측 API 대화 상자에 표시된 URL과 키](../../../../../translated_images/ko/custom-vision-prediction-key-endpoint.30c569ffd0338864f319911f052d5e9b8c5066cb0800a26dd6f7ff5713130ad8.png)
+    ![예측 API 대화 상자에 표시된 URL과 키](../../../../../translated_images/ko/custom-vision-prediction-key-endpoint.30c569ffd0338864.webp)
 
 ✅ 새로운 반복 버전이 게시되면 이름이 달라집니다. IoT 기기가 사용하는 반복 버전을 변경하려면 어떻게 해야 할까요?
 
@@ -95,7 +95,7 @@ Custom Vision 포털에서 반복 버전을 게시합니다.
 
 Custom Vision의 **Predictions** 탭에서 예측 결과는 예측을 위해 전송된 이미지에 바운딩 박스가 그려져 있습니다.
 
-![선반 위에 있는 4개의 토마토 페이스트 캔과 35.8%, 33.5%, 25.7%, 16.6%로 감지된 예측 결과](../../../../../translated_images/ko/custom-vision-stock-prediction.942266ab1bcca3410ecdf23643b9f5f570cfab2345235074e24c51f285777613.png)
+![선반 위에 있는 4개의 토마토 페이스트 캔과 35.8%, 33.5%, 25.7%, 16.6%로 감지된 예측 결과](../../../../../translated_images/ko/custom-vision-stock-prediction.942266ab1bcca341.webp)
 
 위 이미지에서 4개의 토마토 페이스트 캔이 감지되었습니다. 결과에는 감지된 각 객체에 대해 빨간색 사각형이 이미지에 오버레이되어 바운딩 박스를 나타냅니다.
 
@@ -103,7 +103,7 @@ Custom Vision의 **Predictions** 탭에서 예측 결과는 예측을 위해 전
 
 바운딩 박스는 4개의 값으로 정의됩니다 - top, left, height, width. 이 값들은 0-1의 비율로 표현되며, 이미지 크기의 백분율로 위치를 나타냅니다. 원점(0,0 위치)은 이미지의 왼쪽 상단이므로 top 값은 상단에서의 거리, 바운딩 박스의 하단은 top 값에 height를 더한 값입니다.
 
-![토마토 페이스트 캔 주위의 바운딩 박스](../../../../../translated_images/ko/bounding-box.1420a7ea0d3d15f71e1ffb5cf4b2271d184fac051f990abc541975168d163684.png)
+![토마토 페이스트 캔 주위의 바운딩 박스](../../../../../translated_images/ko/bounding-box.1420a7ea0d3d15f7.webp)
 
 위 이미지는 너비가 600픽셀, 높이가 800픽셀입니다. 바운딩 박스는 320픽셀 아래에서 시작하며, top 좌표는 0.4입니다(800 x 0.4 = 320). 왼쪽에서 바운딩 박스는 240픽셀에서 시작하며, left 좌표는 0.4입니다(600 x 0.4 = 240). 바운딩 박스의 높이는 240픽셀로, height 값은 0.3입니다(800 x 0.3 = 240). 바운딩 박스의 너비는 120픽셀로, width 값은 0.2입니다(600 x 0.2 = 120).
 
@@ -118,7 +118,7 @@ Custom Vision의 **Predictions** 탭에서 예측 결과는 예측을 위해 전
 
 바운딩 박스와 확률을 결합하여 감지의 정확성을 평가할 수 있습니다. 예를 들어, 객체 감지기가 겹치는 여러 객체를 감지할 수 있습니다. 예를 들어 하나의 캔이 다른 캔 안에 있는 것으로 감지될 수 있습니다. 코드는 바운딩 박스를 확인하고, 이것이 불가능하다는 것을 이해하여 다른 객체와 크게 겹치는 객체를 무시할 수 있습니다.
 
-![토마토 페이스트 캔을 겹쳐 감지한 두 개의 바운딩 박스](../../../../../translated_images/ko/overlap-object-detection.d431e03cae75072a2760430eca7f2c5fdd43045bfd72dadcbf12711f7cd6c2ae.png)
+![토마토 페이스트 캔을 겹쳐 감지한 두 개의 바운딩 박스](../../../../../translated_images/ko/overlap-object-detection.d431e03cae75072a.webp)
 
 위 예에서 하나의 바운딩 박스는 78.3% 확률로 토마토 페이스트 캔을 예측했습니다. 두 번째 바운딩 박스는 약간 작으며 첫 번째 바운딩 박스 내부에 있으며 확률은 64.3%입니다. 코드는 바운딩 박스를 확인하고, 두 바운딩 박스가 완전히 겹친다는 것을 확인하여 낮은 확률을 무시할 수 있습니다. 캔이 다른 캔 안에 있을 수는 없기 때문입니다.
 

@@ -1,6 +1,6 @@
 # IoT 기기로 음성 인식하기
 
-![이 강의의 스케치노트 개요](../../../../../translated_images/ko/lesson-21.e34de51354d6606fb5ee08d8c89d0222eea0a2a7aaf744a8805ae847c4f69dc4.jpg)
+![이 강의의 스케치노트 개요](../../../../../translated_images/ko/lesson-21.e34de51354d6606f.webp)
 
 > 스케치노트: [Nitya Narasimhan](https://github.com/nitya). 이미지를 클릭하면 더 큰 버전을 볼 수 있습니다.
 
@@ -51,7 +51,7 @@
 
     다이내믹 마이크는 작동하기 위해 전원이 필요하지 않습니다. 전기 신호는 마이크 자체에서 생성됩니다.
 
-    ![Patti Smith가 Shure SM58 (다이내믹 카디오이드 타입) 마이크에 노래를 부르는 모습](../../../../../translated_images/ko/dynamic-mic.8babac890a2d80dfb0874b5bf37d4b851fe2aeb9da6fd72945746176978bf3bb.jpg)
+    ![Patti Smith가 Shure SM58 (다이내믹 카디오이드 타입) 마이크에 노래를 부르는 모습](../../../../../translated_images/ko/dynamic-mic.8babac890a2d80df.webp)
 
 * 리본 - 리본 마이크는 다이내믹 마이크와 유사하지만, 다이어프램 대신 금속 리본을 사용합니다. 이 리본은 자기장 안에서 움직이며 전류를 생성합니다. 다이내믹 마이크와 마찬가지로 리본 마이크도 작동하기 위해 전원이 필요하지 않습니다.
 
@@ -59,11 +59,11 @@
 
 * 콘덴서 - 콘덴서 마이크는 얇은 금속 다이어프램과 고정된 금속 백플레이트를 가지고 있습니다. 두 구성 요소에 전기가 공급되며, 다이어프램이 진동할 때 두 판 사이의 정전하가 변화하여 신호를 생성합니다. 콘덴서 마이크는 작동하기 위해 전원이 필요하며, 이를 *팬텀 전원*이라고 합니다.
 
-    ![AKG Acoustics의 C451B 소형 다이어프램 콘덴서 마이크](../../../../../translated_images/ko/condenser-mic.6f6ed5b76ca19e0ec3fd0c544601542d4479a6cb7565db336de49fbbf69f623e.jpg)
+    ![AKG Acoustics의 C451B 소형 다이어프램 콘덴서 마이크](../../../../../translated_images/ko/condenser-mic.6f6ed5b76ca19e0e.webp)
 
 * MEMS - 마이크로전자기계 시스템 마이크, 또는 MEMS는 칩 위에 있는 마이크입니다. 실리콘 칩에 압력에 민감한 다이어프램이 새겨져 있으며, 콘덴서 마이크와 유사하게 작동합니다. 이 마이크는 매우 작으며 회로에 통합될 수 있습니다.
 
-    ![회로 기판 위의 MEMS 마이크](../../../../../translated_images/ko/mems-microphone.80574019e1f5e4d9ee72fed720ecd25a39fc2969c91355d17ebb24ba4159e4c4.png)
+    ![회로 기판 위의 MEMS 마이크](../../../../../translated_images/ko/mems-microphone.80574019e1f5e4d9.webp)
 
     위 이미지에서 **LEFT**로 표시된 칩은 MEMS 마이크로, 다이어프램의 크기가 1밀리미터도 되지 않습니다.
 
@@ -159,7 +159,7 @@ ML 모델은 항상 동일한 크기의 데이터를 처리해야 합니다. 이
 
 ## 음성을 텍스트로 변환하기
 
-![Speech services logo](../../../../../translated_images/ko/azure-speech-logo.a1f08c4befb0159f2cb5d692d3baf5b599e7b44759d316da907bda1508f46a4a.png)
+![Speech services logo](../../../../../translated_images/ko/azure-speech-logo.a1f08c4befb0159f.webp)
 
 이전 프로젝트에서 이미지 분류를 했던 것처럼, 음성을 오디오 파일로 받아 텍스트로 변환할 수 있는 사전 구축된 AI 서비스가 있습니다. 그 중 하나가 Cognitive Services의 일부인 Speech Service로, 앱에서 사용할 수 있는 사전 구축된 AI 서비스입니다.
 

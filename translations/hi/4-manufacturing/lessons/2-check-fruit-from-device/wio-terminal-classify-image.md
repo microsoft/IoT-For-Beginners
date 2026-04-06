@@ -208,7 +208,7 @@ Custom Vision सेवा में एक REST API है जिसे आप 
 
     आप वह छवि देख पाएंगे जो ली गई थी, और ये मान Custom Vision के **Predictions** टैब में देख पाएंगे।
 
-    ![Custom Vision में एक केला, 56.8% पर पका हुआ और 43.1% पर कच्चा भविष्यवाणी की गई](../../../../../translated_images/hi/custom-vision-banana-prediction.30cdff4e1d72db5d9a0be0193790a47c2b387da034e12dc1314dd57ca2131b59.png)
+    ![Custom Vision में एक केला, 56.8% पर पका हुआ और 43.1% पर कच्चा भविष्यवाणी की गई](../../../../../translated_images/hi/custom-vision-banana-prediction.30cdff4e1d72db5d.webp)
 
 > 💁 आप इस कोड को [code-classify/wio-terminal](../../../../../4-manufacturing/lessons/2-check-fruit-from-device/code-classify/wio-terminal) फोल्डर में पा सकते हैं।
 

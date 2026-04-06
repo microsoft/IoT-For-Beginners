@@ -18,7 +18,7 @@ Grove तापमान सेंसर को Wio Terminal के डिजि
 
 तापमान सेंसर को कनेक्ट करें।
 
-![एक Grove तापमान सेंसर](../../../../../translated_images/hi/grove-dht11.07f8eafceee170043efbb53e1d15722bd4e00fbaa9ff74290b57e9f66eb82c17.png)
+![एक Grove तापमान सेंसर](../../../../../translated_images/hi/grove-dht11.07f8eafceee17004.webp)
 
 1. Grove केबल के एक सिरे को ह्यूमिडिटी और तापमान सेंसर के सॉकेट में डालें। यह केवल एक ही दिशा में जाएगा।
 

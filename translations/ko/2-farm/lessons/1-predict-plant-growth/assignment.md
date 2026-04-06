@@ -33,7 +33,7 @@
 
     Jupyter가 시작되며 브라우저에서 노트북이 열립니다. 노트북의 지침을 따라 측정된 온도를 시각화하고 생장도일(GDD)을 계산하세요.
 
-    ![Jupyter Notebook](../../../../../translated_images/ko/gdd-jupyter-notebook.c5b52cf21094f158a61f47f455490fd95f1729777ff90861a4521820bf354cdc.png)
+    ![Jupyter Notebook](../../../../../translated_images/ko/gdd-jupyter-notebook.c5b52cf21094f158.webp)
 
 ## 평가 기준
 

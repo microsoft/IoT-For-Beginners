@@ -67,7 +67,7 @@
 
     आप ली गई इमेज और इन मानों को Custom Vision के **Predictions** टैब में देख पाएंगे।
 
-    ![शेल्फ पर रखे टमाटर पेस्ट के 4 कैन, जिनके लिए 4 डिटेक्शन्स के प्रेडिक्शन्स 35.8%, 33.5%, 25.7% और 16.6% हैं](../../../../../translated_images/hi/custom-vision-stock-prediction.942266ab1bcca3410ecdf23643b9f5f570cfab2345235074e24c51f285777613.png)
+    ![शेल्फ पर रखे टमाटर पेस्ट के 4 कैन, जिनके लिए 4 डिटेक्शन्स के प्रेडिक्शन्स 35.8%, 33.5%, 25.7% और 16.6% हैं](../../../../../translated_images/hi/custom-vision-stock-prediction.942266ab1bcca341.webp)
 
 > 💁 आप इस कोड को [code-detect/pi](../../../../../5-retail/lessons/2-check-stock-device/code-detect/pi) या [code-detect/virtual-iot-device](../../../../../5-retail/lessons/2-check-stock-device/code-detect/virtual-iot-device) फ़ोल्डर में पा सकते हैं।
 

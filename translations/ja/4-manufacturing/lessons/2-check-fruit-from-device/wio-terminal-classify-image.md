@@ -208,7 +208,7 @@ HTTPSエンドポイントとやり取りする際、クライアントコード
 
     撮影された画像とこれらの値をCustom Visionの**Predictions**タブで確認できます。
 
-    ![Custom Visionで予測されたバナナ。熟している確率56.8%、未熟な確率43.1%](../../../../../translated_images/ja/custom-vision-banana-prediction.30cdff4e1d72db5d9a0be0193790a47c2b387da034e12dc1314dd57ca2131b59.png)
+    ![Custom Visionで予測されたバナナ。熟している確率56.8%、未熟な確率43.1%](../../../../../translated_images/ja/custom-vision-banana-prediction.30cdff4e1d72db5d.webp)
 
 > 💁 このコードは[code-classify/wio-terminal](../../../../../4-manufacturing/lessons/2-check-fruit-from-device/code-classify/wio-terminal)フォルダーにあります。
 

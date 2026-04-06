@@ -18,13 +18,13 @@ Grove 土壌水分センサーを Raspberry Pi に接続できます。
 
 土壌水分センサーを接続します。
 
-![Grove 土壌水分センサー](../../../../../translated_images/ja/grove-capacitive-soil-moisture-sensor.e7f0776cce30e78be5cc5a07839385fd6718857f31b5bf5ad3d0c73c83b2f0ef.png)
+![Grove 土壌水分センサー](../../../../../translated_images/ja/grove-capacitive-soil-moisture-sensor.e7f0776cce30e78b.webp)
 
 1. Grove ケーブルの片方の端を土壌水分センサーのソケットに差し込みます。このケーブルは一方向にしか差し込めません。
 
 1. Raspberry Pi の電源を切った状態で、Grove ケーブルのもう一方の端を Pi に取り付けられた Grove Base Hat のアナログソケット **A0** に接続します。このソケットは、GPIO ピンの隣のソケット列の右から2番目にあります。
 
-![A0 ソケットに接続された Grove 土壌水分センサー](../../../../../translated_images/ja/pi-soil-moisture-sensor.fdd7eb2393792cf6739cacf1985d9f55beda16d372f30d0b5a51d586f978a870.png)
+![A0 ソケットに接続された Grove 土壌水分センサー](../../../../../translated_images/ja/pi-soil-moisture-sensor.fdd7eb2393792cf6.webp)
 
 1. 土壌水分センサーを土に挿します。センサーには「最高挿入ライン」があり、白い線で示されています。このラインまで（ラインを超えないように）センサーを挿入します。
 

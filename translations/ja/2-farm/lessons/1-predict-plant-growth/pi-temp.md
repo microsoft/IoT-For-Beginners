@@ -16,13 +16,13 @@ Grove 温度センサーを Raspberry Pi に接続できます。
 
 温度センサーを接続する
 
-![Grove 温度センサー](../../../../../translated_images/ja/grove-dht11.07f8eafceee170043efbb53e1d15722bd4e00fbaa9ff74290b57e9f66eb82c17.png)
+![Grove 温度センサー](../../../../../translated_images/ja/grove-dht11.07f8eafceee17004.webp)
 
 1. Grove ケーブルの片方の端を湿度・温度センサーのソケットに差し込みます。ケーブルは一方向にしか差し込めません。
 
 1. Raspberry Pi の電源を切った状態で、Grove ケーブルのもう一方の端を Pi に接続された Grove Base Hat のデジタルソケット **D5** に接続します。このソケットは GPIO ピンの隣のソケット列の左から 2 番目にあります。
 
-![ソケット A0 に接続された Grove 温度センサー](../../../../../translated_images/ja/pi-temperature-sensor.3ff82fff672c8e565ef25a39d26d111de006b825a7e0867227ef4e7fbff8553c.png)
+![ソケット A0 に接続された Grove 温度センサー](../../../../../translated_images/ja/pi-temperature-sensor.3ff82fff672c8e56.webp)
 
 ## 温度センサーをプログラムする
 

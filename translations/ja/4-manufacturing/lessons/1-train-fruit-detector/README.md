@@ -1,6 +1,6 @@
 # 果物の品質検出器を訓練する
 
-![このレッスンの概要を示すスケッチノート](../../../../../translated_images/ja/lesson-15.843d21afdc6fb2bba70cd9db7b7d2f91598859fafda2078b0bdc44954194b6c0.jpg)
+![このレッスンの概要を示すスケッチノート](../../../../../translated_images/ja/lesson-15.843d21afdc6fb2bb.webp)
 
 > スケッチノート作成者：[Nitya Narasimhan](https://github.com/nitya)。画像をクリックすると拡大版が表示されます。
 
@@ -38,7 +38,7 @@
 
 自動収穫の普及により、農産物の仕分けは収穫から工場へと移行しました。食品は長いコンベアベルトで運ばれ、チームが品質基準を満たさないものを取り除く作業を行います。機械による収穫でコストは削減されましたが、食品を手作業で仕分けるコストは依然として存在しました。
 
-![赤いトマトが検出されるとそのまま進み、緑のトマトが検出されるとレバーで廃棄箱に弾かれる](../../../../../translated_images/ja/optical-tomato-sorting.61aa134bdda4e5b1bfb16a212c1e35a6ef0c426cbb8b1c975f79d7bfbf48d068.png)
+![赤いトマトが検出されるとそのまま進み、緑のトマトが検出されるとレバーで廃棄箱に弾かれる](../../../../../translated_images/ja/optical-tomato-sorting.61aa134bdda4e5b1.webp)
 
 次の進化は、収穫機や加工工場に組み込まれた機械を使用して仕分けを行うことでした。これらの機械の第一世代は、光学センサーを使用して色を検出し、アクチュエーターを制御して緑のトマトをレバーや空気の噴射で廃棄箱に押し込み、赤いトマトをコンベアベルトのネットワークにそのまま流す仕組みでした。
 
@@ -62,7 +62,7 @@
 
 > 🎓 MLモデルの結果は*予測*と呼ばれます。
 
-![2本のバナナ。熟したバナナは99.7%熟している、0.3%未熟という予測。未熟なバナナは1.4%熟している、98.6%未熟という予測](../../../../../translated_images/ja/bananas-ripe-vs-unripe-predictions.8d0e2034014aa50ece4e4589e724b142da0681f35470fe3db3f7d51240f69c85.png)
+![2本のバナナ。熟したバナナは99.7%熟している、0.3%未熟という予測。未熟なバナナは1.4%熟している、98.6%未熟という予測](../../../../../translated_images/ja/bananas-ripe-vs-unripe-predictions.8d0e2034014aa50e.webp)
 
 MLモデルは二択の答えを出すのではなく、確率を提供します。例えば、モデルがバナナの写真を与えられた場合、`熟している`が99.7%、`未熟`が0.3%と予測するかもしれません。コードは最も高い予測を選び、そのバナナが熟していると判断します。
 
@@ -90,7 +90,7 @@ MLモデルは二択の答えを出すのではなく、確率を提供します
 
 Custom Visionは、画像分類器を訓練するためのクラウドベースのツールです。少量の画像を使用して分類器を訓練することができます。画像をWebポータル、Web API、またはSDKを通じてアップロードし、各画像にその分類を示す*タグ*を付けます。その後、モデルを訓練し、どれだけうまく機能するかをテストします。モデルに満足したら、Web APIやSDKを通じてアクセス可能なバージョンを公開できます。
 
-![Azure Custom Visionのロゴ](../../../../../translated_images/ja/custom-vision-logo.d3d4e7c8a87ec9daf825e72e210576c3cbf60312577be7a139e22dd97ab7f1e6.png)
+![Azure Custom Visionのロゴ](../../../../../translated_images/ja/custom-vision-logo.d3d4e7c8a87ec9da.webp)
 
 > 💁 Custom Visionモデルは、分類ごとに最低5枚の画像で訓練できますが、多い方が良いです。少なくとも30枚の画像があると、より良い結果が得られます。
 
@@ -146,7 +146,7 @@ Custom Visionを使用するには、Azure CLIを使用してAzureに2つのCogn
 
     プロジェクトを作成する際、先ほど作成した`fruit-quality-detector-training`リソースを使用してください。*分類*プロジェクトタイプ、*マルチクラス*分類タイプ、*食品*ドメインを選択します。
 
-    ![Custom Visionプロジェクトの設定。名前はfruit-quality-detector、説明なし、リソースはfruit-quality-detector-training、プロジェクトタイプは分類、分類タイプはマルチクラス、ドメインは食品](../../../../../translated_images/ja/custom-vision-create-project.cf46325b92d8b131089f6647cf5e07b664cb77850e106d66e3c057b6b69756c6.png)
+    ![Custom Visionプロジェクトの設定。名前はfruit-quality-detector、説明なし、リソースはfruit-quality-detector-training、プロジェクトタイプは分類、分類タイプはマルチクラス、ドメインは食品](../../../../../translated_images/ja/custom-vision-create-project.cf46325b92d8b131.webp)
 
 ✅ 画像分類器のCustom Vision UIを探索する時間を取ってみてください。
 
@@ -164,7 +164,7 @@ Custom Visionを使用するには、Azure CLIを使用してAzureに2つのCogn
 
     * 熟したバナナ2本を使用し、それぞれを異なる角度から撮影して少なくとも7枚の写真を撮ります（5枚はトレーニング用、2枚はテスト用）。理想的にはもっと多く撮影してください。
 
-        ![異なるバナナ2本の写真](../../../../../translated_images/ja/banana-training-images.530eb203346d73bc23b8b990fb4609470bf4ff7c942ccc13d4cfffeed9be1ad4.png)
+        ![異なるバナナ2本の写真](../../../../../translated_images/ja/banana-training-images.530eb203346d73bc.webp)
 
     * 同じプロセスを未熟なバナナ2本でも繰り返します。
 
@@ -174,7 +174,7 @@ Custom Visionを使用するには、Azure CLIを使用してAzureに2つのCogn
 
 1. [Microsoft Docsの分類器クイックスタートの画像アップロードとタグ付けセクション](https://docs.microsoft.com/azure/cognitive-services/custom-vision-service/getting-started-build-a-classifier?WT.mc_id=academic-17441-jabenn#upload-and-tag-images)に従い、トレーニング画像をアップロードします。熟した果物には`ripe`、未熟な果物には`unripe`というタグを付けます。
 
-    ![熟したバナナと未熟なバナナの写真をアップロードするダイアログ](../../../../../translated_images/ja/image-upload-bananas.0751639f3815e0ec42bdbc6254d1e4357a185834d1ae10c9948a0e7d6d336695.png)
+    ![熟したバナナと未熟なバナナの写真をアップロードするダイアログ](../../../../../translated_images/ja/image-upload-bananas.0751639f3815e0ec.webp)
 
 1. [Microsoft Docsの分類器クイックスタートの分類器をトレーニングするセクション](https://docs.microsoft.com/azure/cognitive-services/custom-vision-service/getting-started-build-a-classifier?WT.mc_id=academic-17441-jabenn#train-the-classifier)に従い、アップロードした画像で画像分類器をトレーニングします。
 
@@ -192,7 +192,7 @@ Custom Visionを使用するには、Azure CLIを使用してAzureに2つのCogn
 
 1. [Microsoft Docsのモデルをテストするドキュメント](https://docs.microsoft.com/azure/cognitive-services/custom-vision-service/test-your-model?WT.mc_id=academic-17441-jabenn#test-your-model)に従い、画像分類器をテストします。以前に作成したテスト画像を使用し、トレーニングに使用した画像は使用しないでください。
 
-    ![未熟なバナナが98.9%の確率で未熟、1.1%の確率で熟していると予測された結果](../../../../../translated_images/ja/banana-unripe-quick-test-prediction.dae9b5e1c4ef7c64886422438850ea14f0be6ac918c217ea3b255c685abfabe7.png)
+    ![未熟なバナナが98.9%の確率で未熟、1.1%の確率で熟していると予測された結果](../../../../../translated_images/ja/banana-unripe-quick-test-prediction.dae9b5e1c4ef7c64.webp)
 
 1. 利用可能なすべてのテスト画像を試し、確率を観察してください。
 

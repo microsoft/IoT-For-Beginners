@@ -16,7 +16,7 @@ ArduCam은 Grove 소켓이 없으며, 대신 Wio Terminal의 GPIO 핀을 통해 
 
 카메라를 연결하세요.
 
-![ArduCam 센서](../../../../../translated_images/ko/arducam.20e4e4cbb268296570b5914e20d6c349fc42ddac9ed4e1b9deba2188204eebae.png)
+![ArduCam 센서](../../../../../translated_images/ko/arducam.20e4e4cbb2682965.webp)
 
 1. ArduCam의 하단 핀을 Wio Terminal의 GPIO 핀에 연결해야 합니다. 올바른 핀을 쉽게 찾을 수 있도록 Wio Terminal에 제공된 GPIO 핀 스티커를 핀 주변에 붙이세요:
 
@@ -35,7 +35,7 @@ ArduCam은 Grove 소켓이 없으며, 대신 Wio Terminal의 GPIO 핀을 통해 
     | SDA         | 3 (I2C1_SDA)     | I2C 직렬 데이터                        |
     | SCL         | 5 (I2C1_SCL)     | I2C 직렬 클럭                          |
 
-    ![점퍼 와이어로 ArduCam과 Wio Terminal을 연결한 모습](../../../../../translated_images/ko/arducam-wio-terminal-connections.a4d5a4049bdb5ab800a2877389fc6ecf5e4ff307e6451ff56c517e6786467d0a.png)
+    ![점퍼 와이어로 ArduCam과 Wio Terminal을 연결한 모습](../../../../../translated_images/ko/arducam-wio-terminal-connections.a4d5a4049bdb5ab8.webp)
 
     GND와 VCC 연결은 ArduCam에 5V 전원을 공급합니다. 이 카메라는 Grove 센서와 달리 3V가 아닌 5V로 작동합니다. 이 전원은 장치를 구동하는 USB-C 연결에서 직접 공급됩니다.
 
@@ -456,7 +456,7 @@ Wio Terminal은 최대 16GB 크기의 microSD 카드만 지원합니다. 더 큰
 
 1. microSD 카드를 꺼내려면 전원을 끄고 약간 눌렀다가 놓으면 튀어나옵니다. 얇은 도구를 사용해야 할 수도 있습니다. microSD 카드를 컴퓨터에 연결하여 이미지를 확인하세요.
 
-    ![ArduCam으로 캡처한 바나나 사진](../../../../../translated_images/ko/banana-arducam.be1b32d4267a8194b0fd042362e56faa431da9cd4af172051b37243ea9be0256.jpg)
+    ![ArduCam으로 캡처한 바나나 사진](../../../../../translated_images/ko/banana-arducam.be1b32d4267a8194.webp)
 💁 카메라의 화이트 밸런스가 조정되는 데 몇 장의 이미지가 필요할 수 있습니다. 캡처된 이미지의 색상을 기준으로 이를 알 수 있으며, 처음 몇 장은 색상이 이상해 보일 수 있습니다. `setup` 함수에서 무시되는 몇 장의 이미지를 캡처하도록 코드를 변경하여 이를 해결할 수 있습니다.
 
 

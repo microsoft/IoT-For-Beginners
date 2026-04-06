@@ -1,6 +1,6 @@
 # タイマーを設定して音声フィードバックを提供する
 
-![このレッスンの概要を示すスケッチノート](../../../../../translated_images/ja/lesson-23.f38483e1d4df4828990d3f02d60e46c978b075d384ae7cb4f7bab738e107c850.jpg)
+![このレッスンの概要を示すスケッチノート](../../../../../translated_images/ja/lesson-23.f38483e1d4df4828.webp)
 
 > スケッチノート作成者：[Nitya Narasimhan](https://github.com/nitya)。画像をクリックすると拡大表示されます。
 
