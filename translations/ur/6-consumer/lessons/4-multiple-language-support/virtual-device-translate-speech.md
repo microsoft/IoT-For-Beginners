@@ -37,7 +37,7 @@
     >
     > مثال کے طور پر، اگر آپ نے LUIS کو انگریزی میں تربیت دی ہے لیکن صارف کی زبان کے طور پر فرانسیسی استعمال کرنا چاہتے ہیں، تو آپ جملے جیسے "set a 2 minute and 27 second timer" کو Bing Translate کے ذریعے انگریزی سے فرانسیسی میں ترجمہ کر سکتے ہیں، پھر **Listen translation** بٹن استعمال کر کے ترجمہ کو اپنے مائیکروفون میں بول سکتے ہیں۔
     >
-    > ![Bing Translate پر Listen translation بٹن](../../../../../translated_images/ur/bing-translate.348aa796d6efe2a92f41ea74a5cf42bb4c63d6faaa08e7f46924e072a35daa48.png)
+    > ![Bing Translate پر Listen translation بٹن](../../../../../translated_images/ur/bing-translate.348aa796d6efe2a9.webp)
 
 1. `recognizer_config` اور `recognizer` کے اعلانات کو درج ذیل سے تبدیل کریں:
 

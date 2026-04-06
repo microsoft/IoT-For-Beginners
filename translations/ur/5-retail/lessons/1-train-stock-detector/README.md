@@ -1,6 +1,6 @@
 # اسٹاک ڈیٹیکٹر کی تربیت کریں
 
-![اس سبق کا خاکہ](../../../../../translated_images/ur/lesson-19.cf6973cecadf080c4b526310620dc4d6f5994c80fb0139c6f378cc9ca2d435cd.jpg)
+![اس سبق کا خاکہ](../../../../../translated_images/ur/lesson-19.cf6973cecadf080c.webp)
 
 > خاکہ [نیتیا نرسمہن](https://github.com/nitya) کی طرف سے۔ بڑی تصویر دیکھنے کے لیے تصویر پر کلک کریں۔
 
@@ -36,7 +36,7 @@
 
 امیج کلاسیفیکیشن تصویر کو مجموعی طور پر کلاسیفائی کرنے کے بارے میں ہے - تصویر کے ہر ٹیگ سے مطابقت رکھنے کے امکانات کیا ہیں۔ آپ کو ماڈل کو تربیت دینے کے لیے استعمال کیے گئے ہر ٹیگ کے امکانات واپس ملتے ہیں۔
 
-![کاجو اور ٹماٹر پیسٹ کی امیج کلاسیفیکیشن](../../../../../translated_images/ur/image-classifier-cashews-tomato.bc2e16ab8f05cf9ac0f59f73e32efc4227f9a5b601b90b2c60f436694547a965.png)
+![کاجو اور ٹماٹر پیسٹ کی امیج کلاسیفیکیشن](../../../../../translated_images/ur/image-classifier-cashews-tomato.bc2e16ab8f05cf9a.webp)
 
 اوپر دی گئی مثال میں، دو تصاویر کو ایک ماڈل کے ذریعے کلاسیفائی کیا گیا ہے جو کاجو کے ڈبے یا ٹماٹر پیسٹ کے کین کو کلاسیفائی کرنے کے لیے تربیت یافتہ ہے۔ پہلی تصویر کاجو کے ڈبے کی ہے، اور امیج کلاسیفائر کے دو نتائج ہیں:
 
@@ -60,7 +60,7 @@
 
 > 🎓 *باؤنڈنگ باکسز* وہ باکسز ہیں جو کسی شے کے ارد گرد ہوتے ہیں۔
 
-![کاجو اور ٹماٹر پیسٹ کی آبجیکٹ ڈیٹیکشن](../../../../../translated_images/ur/object-detector-cashews-tomato.1af7c26686b4db0e709754aeb196f4e73271f54e2085db3bcccb70d4a0d84d97.png)
+![کاجو اور ٹماٹر پیسٹ کی آبجیکٹ ڈیٹیکشن](../../../../../translated_images/ur/object-detector-cashews-tomato.1af7c26686b4db0e.webp)
 
 اوپر دی گئی تصویر میں کاجو کے ڈبے اور ٹماٹر پیسٹ کے تین کین موجود ہیں۔ آبجیکٹ ڈیٹیکٹر نے کاجو کو پہچان لیا، اور باؤنڈنگ باکس واپس کیا جس میں کاجو کے ڈبے کے ہونے کا امکان 97.6% ہے۔ آبجیکٹ ڈیٹیکٹر نے ٹماٹر پیسٹ کے تین کین بھی پہچان لیے ہیں، اور تین الگ الگ باؤنڈنگ باکسز فراہم کیے ہیں، ہر ایک پتہ لگائے گئے کین کے لیے، اور ہر ایک کے پاس امکان ہے کہ باؤنڈنگ باکس میں ٹماٹر پیسٹ کا کین موجود ہے۔
 
@@ -111,7 +111,7 @@
 
     جب آپ اپنا پروجیکٹ بنائیں، تو اس بات کو یقینی بنائیں کہ آپ نے پہلے بنایا گیا `stock-detector-training` ریسورس استعمال کیا ہے۔ *Object Detection* پروجیکٹ ٹائپ اور *Products on Shelves* ڈومین استعمال کریں۔
 
-    ![Custom Vision پروجیکٹ کے لیے ترتیبات](../../../../../translated_images/ur/custom-vision-create-object-detector-project.32d4fb9aa8e7e7375f8a799bfce517aca970f2cb65e42d4245c5e635c734ab29.png)
+    ![Custom Vision پروجیکٹ کے لیے ترتیبات](../../../../../translated_images/ur/custom-vision-create-object-detector-project.32d4fb9aa8e7e737.webp)
 
     ✅ *Products on Shelves* ڈومین خاص طور پر اسٹور شیلف پر اسٹاک کا پتہ لگانے کے لیے بنایا گیا ہے۔ Microsoft Docs پر [Select a domain documentation](https://docs.microsoft.com/azure/cognitive-services/custom-vision-service/select-domain?WT.mc_id=academic-17441-jabenn#object-detection) میں مختلف ڈومینز کے بارے میں مزید پڑھیں۔
 
@@ -133,11 +133,11 @@
 
 1. Microsoft Docs پر [Build an object detector quickstart کے Upload and tag images سیکشن](https://docs.microsoft.com/azure/cognitive-services/custom-vision-service/get-started-build-detector?WT.mc_id=academic-17441-jabenn#upload-and-tag-images) کی پیروی کریں تاکہ اپنی تربیت کی تصاویر اپ لوڈ کی جا سکیں۔ ان اشیاء کی اقسام کے مطابق متعلقہ ٹیگز بنائیں جنہیں آپ پہچاننا چاہتے ہیں۔
 
-    ![پکی اور کچی کیلے کی تصاویر اپ لوڈ کرنے کے ڈائیلاگ](../../../../../translated_images/ur/image-upload-object-detector.77c7892c3093cb59b79018edecd678749a75d71a099bc8a2d2f2f76320f88a5b.png)
+    ![پکی اور کچی کیلے کی تصاویر اپ لوڈ کرنے کے ڈائیلاگ](../../../../../translated_images/ur/image-upload-object-detector.77c7892c3093cb59.webp)
 
     جب آپ اشیاء کے لیے باؤنڈنگ باکسز بنائیں، تو انہیں شے کے ارد گرد سخت رکھیں۔ تمام تصاویر کو آؤٹ لائن کرنے میں وقت لگ سکتا ہے، لیکن ٹول ان باؤنڈنگ باکسز کا پتہ لگائے گا جو اسے لگتا ہے، جس سے یہ تیز تر ہو جائے گا۔
 
-    ![ٹماٹر پیسٹ کو ٹیگ کرنا](../../../../../translated_images/ur/object-detector-tag-tomato-paste.f47c362fb0f0eb582f3bc68cf3855fb43a805106395358d41896a269c210b7b4.png)
+    ![ٹماٹر پیسٹ کو ٹیگ کرنا](../../../../../translated_images/ur/object-detector-tag-tomato-paste.f47c362fb0f0eb58.webp)
 
     > 💁 اگر آپ کے پاس ہر شے کے لیے 15 سے زیادہ تصاویر ہیں، تو آپ 15 کے بعد تربیت دے سکتے ہیں اور **Suggested tags** فیچر استعمال کر سکتے ہیں۔ یہ تربیت یافتہ ماڈل کو بغیر ٹیگ والی تصویر میں اشیاء کا پتہ لگانے کے لیے استعمال کرے گا۔ آپ پھر پتہ لگائی گئی اشیاء کی تصدیق کر سکتے ہیں، یا مسترد کر کے باؤنڈنگ باکسز کو دوبارہ بنا سکتے ہیں۔ یہ *بہت* وقت بچا سکتا ہے۔
 
@@ -155,7 +155,7 @@
 
 1. **Quick Test** بٹن کا استعمال کرتے ہوئے ٹیسٹنگ تصاویر اپ لوڈ کریں اور تصدیق کریں کہ اشیاء کا پتہ لگایا گیا ہے۔ وہ ٹیسٹنگ تصاویر استعمال کریں جو آپ نے پہلے بنائی تھیں، تربیت کے لیے استعمال کی گئی تصاویر نہیں۔
 
-    ![ٹماٹر پیسٹ کے 3 کین کا پتہ لگایا گیا، امکانات 38%, 35.5% اور 34.6%](../../../../../translated_images/ur/object-detector-detected-tomato-paste.52656fe87af4c37b4ee540526d63e73ed075da2e54a9a060aa528e0c562fb1b6.png)
+    ![ٹماٹر پیسٹ کے 3 کین کا پتہ لگایا گیا، امکانات 38%, 35.5% اور 34.6%](../../../../../translated_images/ur/object-detector-detected-tomato-paste.52656fe87af4c37b.webp)
 
 1. آپ کے پاس موجود تمام ٹیسٹنگ تصاویر آزمائیں اور امکانات کا مشاہدہ کریں۔
 

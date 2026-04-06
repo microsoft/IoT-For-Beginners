@@ -18,13 +18,13 @@
 
 حسگر رطوبت خاک را وصل کنید.
 
-![یک حسگر رطوبت خاک Grove](../../../../../translated_images/fa/grove-capacitive-soil-moisture-sensor.e7f0776cce30e78be5cc5a07839385fd6718857f31b5bf5ad3d0c73c83b2f0ef.png)
+![یک حسگر رطوبت خاک Grove](../../../../../translated_images/fa/grove-capacitive-soil-moisture-sensor.e7f0776cce30e78b.webp)
 
 1. یک سر کابل Grove را به سوکت روی حسگر رطوبت خاک وارد کنید. این کابل فقط به یک شکل وارد می‌شود.
 
 1. با خاموش بودن رزبری پای، سر دیگر کابل Grove را به سوکت آنالوگ با علامت **A0** روی Grove Base Hat متصل به رزبری پای وصل کنید. این سوکت دومین سوکت از سمت راست در ردیف سوکت‌های کنار پین‌های GPIO است.
 
-![حسگر رطوبت خاک Grove متصل به سوکت A0](../../../../../translated_images/fa/pi-soil-moisture-sensor.fdd7eb2393792cf6739cacf1985d9f55beda16d372f30d0b5a51d586f978a870.png)
+![حسگر رطوبت خاک Grove متصل به سوکت A0](../../../../../translated_images/fa/pi-soil-moisture-sensor.fdd7eb2393792cf6.webp)
 
 1. حسگر رطوبت خاک را در خاک قرار دهید. این حسگر دارای یک "خط بالاترین موقعیت" است - یک خط سفید روی حسگر. حسگر را تا این خط وارد کنید اما از آن عبور نکنید.
 

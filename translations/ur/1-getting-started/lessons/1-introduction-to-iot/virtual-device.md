@@ -203,7 +203,7 @@ Python ورچوئل ماحول کو کنفیگر کریں اور CounterFit کے
 
     ایپ چلنا شروع ہو جائے گی اور آپ کے ویب براؤزر میں کھل جائے گی:
 
-    ![Counter Fit ایپ براؤزر میں چل رہی ہے](../../../../../translated_images/ur/counterfit-first-run.433326358b669b31d0e99c3513cb01bfbb13724d162c99cdcc8f51ecf5f9c779.png)
+    ![Counter Fit ایپ براؤزر میں چل رہی ہے](../../../../../translated_images/ur/counterfit-first-run.433326358b669b31.webp)
 
     یہ *Disconnected* کے طور پر نشان زد ہوگی، اور اوپر دائیں کونے میں ایل ای ڈی بند ہوگی۔
 
@@ -224,7 +224,7 @@ Python ورچوئل ماحول کو کنفیگر کریں اور CounterFit کے
 
 1. اس نئے ٹرمینل میں، پہلے کی طرح `app.py` فائل چلائیں۔ CounterFit کی اسٹیٹس **Connected** میں تبدیل ہو جائے گی اور ایل ای ڈی روشن ہو جائے گی۔
 
-    ![Counter Fit کنیکٹڈ دکھا رہا ہے](../../../../../translated_images/ur/counterfit-connected.ed30b46d8f79b0921f3fc70be10366e596a89dca3f80c2224a9d9fc98fccf884.png)
+    ![Counter Fit کنیکٹڈ دکھا رہا ہے](../../../../../translated_images/ur/counterfit-connected.ed30b46d8f79b092.webp)
 
 > 💁 آپ اس کوڈ کو [code/virtual-device](../../../../../1-getting-started/lessons/1-introduction-to-iot/code/virtual-device) فولڈر میں تلاش کر سکتے ہیں۔
 

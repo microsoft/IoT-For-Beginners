@@ -18,13 +18,13 @@ Grove GPS 传感器可以连接到树莓派。
 
 连接 GPS 传感器。
 
-![一个 Grove GPS 传感器](../../../../../translated_images/zh-CN/grove-gps-sensor.247943bf69b03f0d1820ef6ed10c587f9b650e8db55b936851c92412180bd3e2.png)
+![一个 Grove GPS 传感器](../../../../../translated_images/zh-CN/grove-gps-sensor.247943bf69b03f0d.webp)
 
 1. 将 Grove 电缆的一端插入 GPS 传感器上的插座。它只能以一种方式插入。
 
 1. 在树莓派断电的情况下，将 Grove 电缆的另一端连接到树莓派上 Grove Base Hat 的 **UART** 插座。该插座位于中间一排，靠近 SD 卡插槽的一侧，与 USB 端口和以太网插座相对。
 
-    ![Grove GPS 传感器连接到 UART 插座](../../../../../translated_images/zh-CN/pi-gps-sensor.1f99ee2b2f6528915047ec78967bd362e0e4ee0ed594368a3837b9cf9cdaca64.png)
+    ![Grove GPS 传感器连接到 UART 插座](../../../../../translated_images/zh-CN/pi-gps-sensor.1f99ee2b2f652891.webp)
 
 1. 将 GPS 传感器放置好，使连接的天线能够看到天空——理想情况下靠近窗户或在室外。天线周围没有障碍物时，信号会更清晰。
 

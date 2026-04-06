@@ -95,7 +95,7 @@
 
     شما قادر خواهید بود تصویری که گرفته شده و این مقادیر را در تب **Predictions** در Custom Vision مشاهده کنید.
 
-    ![4 قوطی رب گوجه‌فرنگی روی یک قفسه با پیش‌بینی‌هایی برای 4 آشکارسازی با درصدهای 35.8%، 33.5%، 25.7% و 16.6%](../../../../../translated_images/fa/custom-vision-stock-prediction.942266ab1bcca3410ecdf23643b9f5f570cfab2345235074e24c51f285777613.png)
+    ![4 قوطی رب گوجه‌فرنگی روی یک قفسه با پیش‌بینی‌هایی برای 4 آشکارسازی با درصدهای 35.8%، 33.5%، 25.7% و 16.6%](../../../../../translated_images/fa/custom-vision-stock-prediction.942266ab1bcca341.webp)
 
 > 💁 می‌توانید این کد را در پوشه [code-detect/wio-terminal](../../../../../5-retail/lessons/2-check-stock-device/code-detect/wio-terminal) پیدا کنید.
 

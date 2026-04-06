@@ -18,7 +18,7 @@ Grove soil moisture sensor کو Wio Terminal کے قابل ترتیب اینال
 
 مٹی کی نمی کے سینسر کو جوڑیں۔
 
-![ایک grove soil moisture sensor](../../../../../translated_images/ur/grove-capacitive-soil-moisture-sensor.e7f0776cce30e78be5cc5a07839385fd6718857f31b5bf5ad3d0c73c83b2f0ef.png)
+![ایک grove soil moisture sensor](../../../../../translated_images/ur/grove-capacitive-soil-moisture-sensor.e7f0776cce30e78b.webp)
 
 1. Grove کیبل کے ایک سرے کو مٹی کی نمی کے سینسر کے ساکٹ میں ڈالیں۔ یہ صرف ایک ہی سمت میں جائے گا۔
 

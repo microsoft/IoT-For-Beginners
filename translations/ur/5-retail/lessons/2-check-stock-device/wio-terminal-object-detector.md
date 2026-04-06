@@ -95,7 +95,7 @@
 
     آپ وہ تصویر دیکھ سکیں گے جو لی گئی تھی، اور یہ ویلیوز **Predictions** ٹیب میں Custom Vision میں نظر آئیں گی۔
 
-    ![شیلف پر رکھے ٹماٹر پیسٹ کے 4 کینز کے ساتھ 4 ڈیٹیکشنز کی پیشگوئیاں: 35.8%, 33.5%, 25.7% اور 16.6%](../../../../../translated_images/ur/custom-vision-stock-prediction.942266ab1bcca3410ecdf23643b9f5f570cfab2345235074e24c51f285777613.png)
+    ![شیلف پر رکھے ٹماٹر پیسٹ کے 4 کینز کے ساتھ 4 ڈیٹیکشنز کی پیشگوئیاں: 35.8%, 33.5%, 25.7% اور 16.6%](../../../../../translated_images/ur/custom-vision-stock-prediction.942266ab1bcca341.webp)
 
 > 💁 آپ یہ کوڈ [code-detect/wio-terminal](../../../../../5-retail/lessons/2-check-stock-device/code-detect/wio-terminal) فولڈر میں تلاش کر سکتے ہیں۔
 

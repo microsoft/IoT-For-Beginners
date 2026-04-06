@@ -1,6 +1,6 @@
 # پودوں کی افزائش کی پیشن گوئی IoT کے ذریعے
 
-![اس سبق کا ایک خاکہ](../../../../../translated_images/ur/lesson-5.42b234299279d263143148b88ab4583861a32ddb03110c6c1120e41bb88b2592.jpg)
+![اس سبق کا ایک خاکہ](../../../../../translated_images/ur/lesson-5.42b234299279d263.webp)
 
 > خاکہ [نیتیا نرسمہن](https://github.com/nitya) کی طرف سے۔ بڑی تصویر کے لیے تصویر پر کلک کریں۔
 
@@ -102,7 +102,7 @@
 
 مثال کے طور پر، اگر دن کے لیے سب سے زیادہ درجہ حرارت 25°C ہے، اور سب سے کم 12°C:
 
-![GDD = 25 + 12 تقسیم 2، پھر نتیجے سے 10 کو منفی کریں، نتیجہ 8.5 ہوگا](../../../../../translated_images/ur/gdd-calculation-strawberries.59f57db94b22adb8ff6efb951ace33af104a1c6ccca3ffb0f8169c14cb160c90.png)
+![GDD = 25 + 12 تقسیم 2، پھر نتیجے سے 10 کو منفی کریں، نتیجہ 8.5 ہوگا](../../../../../translated_images/ur/gdd-calculation-strawberries.59f57db94b22adb8.webp)
 
 * 25 + 12 = 37
 * 37 / 2 = 18.5

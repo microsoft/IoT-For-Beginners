@@ -26,7 +26,7 @@ Grove LED 是一个模块，包含多种颜色的 LED，您可以选择自己喜
 
 连接 LED。
 
-![一个 Grove LED](../../../../../translated_images/zh-CN/grove-led.6c853be93f473cf2c439cfc74bb1064732b22251a83cedf66e62f783f9cc1a79.png)
+![一个 Grove LED](../../../../../translated_images/zh-CN/grove-led.6c853be93f473cf2.webp)
 
 1. 选择您喜欢的 LED，将其引脚插入 LED 模块上的两个孔中。
 

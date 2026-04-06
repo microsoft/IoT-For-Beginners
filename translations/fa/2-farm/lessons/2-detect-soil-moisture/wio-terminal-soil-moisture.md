@@ -18,7 +18,7 @@
 
 حسگر رطوبت خاک را متصل کنید.
 
-![یک حسگر رطوبت خاک Grove](../../../../../translated_images/fa/grove-capacitive-soil-moisture-sensor.e7f0776cce30e78be5cc5a07839385fd6718857f31b5bf5ad3d0c73c83b2f0ef.png)
+![یک حسگر رطوبت خاک Grove](../../../../../translated_images/fa/grove-capacitive-soil-moisture-sensor.e7f0776cce30e78b.webp)
 
 1. یک سر کابل Grove را به سوکت روی حسگر رطوبت خاک وارد کنید. کابل فقط از یک جهت وارد می‌شود.
 

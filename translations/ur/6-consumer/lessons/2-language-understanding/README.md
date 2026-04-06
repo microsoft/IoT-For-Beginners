@@ -1,6 +1,6 @@
 # زبان کو سمجھنا
 
-![اس سبق کا خاکہ](../../../../../translated_images/ur/lesson-22.6148ea28500d9e00c396aaa2649935fb6641362c8f03d8e5e90a676977ab01dd.jpg)
+![اس سبق کا خاکہ](../../../../../translated_images/ur/lesson-22.6148ea28500d9e00.webp)
 
 > خاکہ [نیتیا نرسمہن](https://github.com/nitya) کی طرف سے۔ بڑی تصویر دیکھنے کے لیے تصویر پر کلک کریں۔
 
@@ -46,7 +46,7 @@
 
 ## زبان کو سمجھنے والا ماڈل بنائیں
 
-![LUIS کا لوگو](../../../../../translated_images/ur/luis-logo.5cb4f3e88c020ee6df4f614e8831f4a4b6809a7247bf52085fb48d629ef9be52.png)
+![LUIS کا لوگو](../../../../../translated_images/ur/luis-logo.5cb4f3e88c020ee6.webp)
 
 آپ LUIS کا استعمال کرتے ہوئے زبان کو سمجھنے والے ماڈلز بنا سکتے ہیں، جو Microsoft کی Cognitive Services کا حصہ ہے۔
 
@@ -169,7 +169,7 @@ LUIS پورٹل استعمال کرنے کے لیے ہدایات Microsoft Docs 
 
 1. جب آپ ہر مثال درج کریں، تو LUIS اداروں کا پتہ لگانا شروع کرے گا، اور کسی بھی ادارے کو انڈر لائن اور لیبل کرے گا۔
 
-    ![LUIS کے ذریعے مثالوں میں نمبر اور وقت کی اکائیوں کو انڈر لائن کیا گیا](../../../../../translated_images/ur/luis-intent-examples.25716580b2d2723cf1bafdf277d015c7f046d8cfa20f27bddf3a0873ec45fab7.png)
+    ![LUIS کے ذریعے مثالوں میں نمبر اور وقت کی اکائیوں کو انڈر لائن کیا گیا](../../../../../translated_images/ur/luis-intent-examples.25716580b2d2723c.webp)
 
 ### کام - ماڈل کو تربیت دیں اور جانچ کریں
 

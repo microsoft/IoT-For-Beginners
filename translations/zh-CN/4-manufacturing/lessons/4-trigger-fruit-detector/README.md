@@ -1,6 +1,6 @@
 # 从传感器触发水果质量检测
 
-![本课的手绘笔记概览](../../../../../translated_images/zh-CN/lesson-18.92c32ed1d354caa5a54baa4032cf0b172d4655e8e326ad5d46c558a0def15365.jpg)
+![本课的手绘笔记概览](../../../../../translated_images/zh-CN/lesson-18.92c32ed1d354caa5.webp)
 
 > 手绘笔记由 [Nitya Narasimhan](https://github.com/nitya) 提供。点击图片查看更大版本。
 
@@ -39,7 +39,7 @@
 
 ### 参考物联网架构
 
-![参考物联网架构](../../../../../translated_images/zh-CN/iot-reference-architecture.2278b98b55c6d4e89bde18eada3688d893861d43507641804dd2f9d3079cfaa0.png)
+![参考物联网架构](../../../../../translated_images/zh-CN/iot-reference-architecture.2278b98b55c6d4e8.webp)
 
 上图展示了一个参考物联网架构。
 
@@ -49,7 +49,7 @@
 * **洞察** 来自无服务器应用程序，或存储数据上的分析。
 * **行动** 可以是发送给设备的命令，或数据的可视化以帮助人类做出决策。
 
-![参考物联网架构](../../../../../translated_images/zh-CN/iot-reference-architecture-azure.0b8d2161af924cb18ae48a8558a19541cca47f27264851b5b7e56d7b8bb372ac.png)
+![参考物联网架构](../../../../../translated_images/zh-CN/iot-reference-architecture-azure.0b8d2161af924cb1.webp)
 
 上图展示了这些课程中涉及的一些组件和服务，以及它们如何在参考物联网架构中链接在一起。
 
@@ -89,7 +89,7 @@
 
 ### 应用原型设计
 
-![水果质量检测的参考物联网架构](../../../../../translated_images/zh-CN/iot-reference-architecture-fruit-quality.cc705f121c3b6fa71c800d9630935ac34bc08223a04601e35f41d5e9b5dd5207.png)
+![水果质量检测的参考物联网架构](../../../../../translated_images/zh-CN/iot-reference-architecture-fruit-quality.cc705f121c3b6fa7.webp)
 
 上图展示了该原型应用的参考架构。
 
@@ -124,7 +124,7 @@
 
 原型水果检测器有多个组件相互通信。
 
-![组件之间的通信](../../../../../translated_images/zh-CN/fruit-quality-detector-message-flow.adf2a65da8fd8741ac7af11361574de89adc126785d67606bb4d2ec00467e380.png)
+![组件之间的通信](../../../../../translated_images/zh-CN/fruit-quality-detector-message-flow.adf2a65da8fd8741.webp)
 
 * 接近传感器测量到水果的距离并将数据发送到 IoT Hub
 * 控制摄像头的命令从 IoT Hub 发送到摄像头设备

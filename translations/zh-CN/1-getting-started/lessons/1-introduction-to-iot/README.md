@@ -1,6 +1,6 @@
 # 物联网简介
 
-![本课程的手绘笔记概览](../../../../../translated_images/zh-CN/lesson-1.2606670fa61ee904687da5d6fa4e726639d524d064c895117da1b95b9ff6251d.jpg)
+![本课程的手绘笔记概览](../../../../../translated_images/zh-CN/lesson-1.2606670fa61ee904.webp)
 
 > 手绘笔记由 [Nitya Narasimhan](https://github.com/nitya) 提供。点击图片查看大图。
 

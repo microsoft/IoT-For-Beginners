@@ -18,7 +18,7 @@ Grove GPS 传感器可以连接到 Wio Terminal。
 
 连接 GPS 传感器。
 
-![Grove GPS 传感器](../../../../../translated_images/zh-CN/grove-gps-sensor.247943bf69b03f0d1820ef6ed10c587f9b650e8db55b936851c92412180bd3e2.png)
+![Grove GPS 传感器](../../../../../translated_images/zh-CN/grove-gps-sensor.247943bf69b03f0d.webp)
 
 1. 将 Grove 电缆的一端插入 GPS 传感器上的插座。电缆只能以一种方向插入。
 

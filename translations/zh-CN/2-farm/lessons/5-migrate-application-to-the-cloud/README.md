@@ -1,6 +1,6 @@
 # 将应用程序逻辑迁移到云端
 
-![本课的手绘笔记概览](../../../../../translated_images/zh-CN/lesson-9.dfe99c8e891f48e179724520da9f5794392cf9a625079281ccdcbf09bd85e1b6.jpg)
+![本课的手绘笔记概览](../../../../../translated_images/zh-CN/lesson-9.dfe99c8e891f48e1.webp)
 
 > 手绘笔记由 [Nitya Narasimhan](https://github.com/nitya) 提供。点击图片查看更大版本。
 
@@ -28,7 +28,7 @@
 
 无服务器（或无服务器计算）是指创建在云端运行的小型代码块，这些代码块会根据不同类型的事件触发运行。当事件发生时，您的代码会运行，并接收有关事件的数据。这些事件可以来自许多不同的来源，包括网络请求、队列中的消息、数据库中的数据变化，或 IoT 设备发送到 IoT 服务的消息。
 
-![事件从 IoT 服务发送到无服务器服务，同时由多个函数处理](../../../../../translated_images/zh-CN/iot-messages-to-serverless.0194da1cc0732bb7d0f823aed3fce54735c6b1ad3bf36089804d8aaefc0a774f.png)
+![事件从 IoT 服务发送到无服务器服务，同时由多个函数处理](../../../../../translated_images/zh-CN/iot-messages-to-serverless.0194da1cc0732bb7.webp)
 
 > 💁 如果您之前使用过数据库触发器，可以将其类比为代码因事件（如插入一行数据）而触发。
 
@@ -54,7 +54,7 @@
 
 Microsoft 的无服务器计算服务称为 Azure Functions。
 
-![Azure Functions 标志](../../../../../translated_images/zh-CN/azure-functions-logo.1cfc8e3204c9c44aaf80fcf406fc8544d80d7f00f8d3e8ed6fed764563e17564.png)
+![Azure Functions 标志](../../../../../translated_images/zh-CN/azure-functions-logo.1cfc8e3204c9c44a.webp)
 
 以下短视频概述了 Azure Functions：
 

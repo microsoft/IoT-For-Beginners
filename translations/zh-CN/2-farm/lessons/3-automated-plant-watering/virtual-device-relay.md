@@ -28,11 +28,11 @@
 
     1. 点击 **Add** 按钮，在 Pin 5 上创建继电器。
 
-    ![继电器设置](../../../../../translated_images/zh-CN/counterfit-create-relay.fa7c40fd0f2f6afc33b35ea94fcb235085be4861e14e3fe6b9b7bcfc82d1c888.png)
+    ![继电器设置](../../../../../translated_images/zh-CN/counterfit-create-relay.fa7c40fd0f2f6afc.webp)
 
     继电器将被创建并显示在执行器列表中。
 
-    ![创建的继电器](../../../../../translated_images/zh-CN/counterfit-relay.bbf74c1dbdc8b9acd983367fcbd06703a402aefef6af54ddb28e11307ba8a12c.png)
+    ![创建的继电器](../../../../../translated_images/zh-CN/counterfit-relay.bbf74c1dbdc8b9ac.webp)
 
 ## 编程继电器
 

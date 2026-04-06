@@ -20,7 +20,7 @@ Grove 飞行时间传感器可以连接到 Wio Terminal。
 
 连接飞行时间传感器。
 
-![一个 Grove 飞行时间传感器](../../../../../translated_images/zh-CN/grove-time-of-flight-sensor.d82ff2165bfded9f485de54d8d07195a6270a602696825fca19f629ddfe94e86.png)
+![一个 Grove 飞行时间传感器](../../../../../translated_images/zh-CN/grove-time-of-flight-sensor.d82ff2165bfded9f.webp)
 
 1. 将 Grove 电缆的一端插入飞行时间传感器上的插座。它只能以一种方式插入。
 

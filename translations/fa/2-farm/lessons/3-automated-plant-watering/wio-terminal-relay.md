@@ -18,7 +18,7 @@ Wio Terminal به یک رله نیاز دارد.
 
 رله را متصل کنید.
 
-![یک رله Grove](../../../../../translated_images/fa/grove-relay.d426958ca210fbd0fb7983d7edc069d46c73a8b0a099d94797bd756f7b6bb6be.png)
+![یک رله Grove](../../../../../translated_images/fa/grove-relay.d426958ca210fbd0.webp)
 
 1. یک سر کابل Grove را به سوکت روی رله وارد کنید. این کابل فقط از یک جهت وارد می‌شود.
 

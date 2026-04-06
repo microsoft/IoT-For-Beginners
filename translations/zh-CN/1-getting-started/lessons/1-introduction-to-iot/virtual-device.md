@@ -203,7 +203,7 @@ Python 的一个强大功能是能够安装 [Pip 包](https://pypi.org)——这
 
     应用程序将开始运行并在您的浏览器中打开：
 
-    ![在浏览器中运行的 Counter Fit 应用程序](../../../../../translated_images/zh-CN/counterfit-first-run.433326358b669b31d0e99c3513cb01bfbb13724d162c99cdcc8f51ecf5f9c779.png)
+    ![在浏览器中运行的 Counter Fit 应用程序](../../../../../translated_images/zh-CN/counterfit-first-run.433326358b669b31.webp)
 
     它将显示为 *Disconnected*，右上角的 LED 将关闭。
 
@@ -224,7 +224,7 @@ Python 的一个强大功能是能够安装 [Pip 包](https://pypi.org)——这
 
 1. 在这个新终端中，像之前一样运行 `app.py` 文件。CounterFit 的状态将变为 **Connected**，LED 将亮起。
 
-    ![Counter Fit 显示为已连接](../../../../../translated_images/zh-CN/counterfit-connected.ed30b46d8f79b0921f3fc70be10366e596a89dca3f80c2224a9d9fc98fccf884.png)
+    ![Counter Fit 显示为已连接](../../../../../translated_images/zh-CN/counterfit-connected.ed30b46d8f79b092.webp)
 
 > 💁 您可以在 [code/virtual-device](../../../../../1-getting-started/lessons/1-introduction-to-iot/code/virtual-device) 文件夹中找到此代码。
 

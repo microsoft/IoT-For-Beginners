@@ -28,11 +28,11 @@
 
     1. دکمه **Add** را انتخاب کنید تا حسگر نور روی پین 0 ایجاد شود.
 
-    ![تنظیمات حسگر نور](../../../../../translated_images/fa/counterfit-create-light-sensor.9f36a5e0d4458d8d554d54b34d2c806d56093d6e49fddcda2d20f6fef7f5cce1.png)
+    ![تنظیمات حسگر نور](../../../../../translated_images/fa/counterfit-create-light-sensor.9f36a5e0d4458d8d.webp)
 
     حسگر نور ایجاد خواهد شد و در لیست حسگرها ظاهر می‌شود.
 
-    ![حسگر نور ایجاد شده](../../../../../translated_images/fa/counterfit-light-sensor.5d0f5584df56b90f6b2561910d9cb20dfbd73eeff2177c238d38f4de54aefae1.png)
+    ![حسگر نور ایجاد شده](../../../../../translated_images/fa/counterfit-light-sensor.5d0f5584df56b90f.webp)
 
 ## برنامه‌نویسی حسگر نور
 

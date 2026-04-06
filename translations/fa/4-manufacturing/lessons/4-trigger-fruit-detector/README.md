@@ -1,6 +1,6 @@
 # تشخیص کیفیت میوه با استفاده از حسگر
 
-![نمای کلی درس به صورت اسکچ‌نوت](../../../../../translated_images/fa/lesson-18.92c32ed1d354caa5a54baa4032cf0b172d4655e8e326ad5d46c558a0def15365.jpg)
+![نمای کلی درس به صورت اسکچ‌نوت](../../../../../translated_images/fa/lesson-18.92c32ed1d354caa5.webp)
 
 > اسکچ‌نوت توسط [نیتیا ناراسیمهان](https://github.com/nitya). برای مشاهده نسخه بزرگ‌تر روی تصویر کلیک کنید.
 
@@ -39,7 +39,7 @@
 
 ### معماری مرجع IoT
 
-![یک معماری مرجع IoT](../../../../../translated_images/fa/iot-reference-architecture.2278b98b55c6d4e89bde18eada3688d893861d43507641804dd2f9d3079cfaa0.png)
+![یک معماری مرجع IoT](../../../../../translated_images/fa/iot-reference-architecture.2278b98b55c6d4e8.webp)
 
 نمودار بالا یک معماری مرجع IoT را نشان می‌دهد.
 
@@ -49,7 +49,7 @@
 * **بینش‌ها** از برنامه‌های بدون سرور یا تحلیل‌هایی که روی داده‌های ذخیره‌شده اجرا می‌شوند به دست می‌آیند.
 * **اقدامات** می‌توانند دستورات ارسال‌شده به دستگاه‌ها یا نمایش داده‌ها برای تصمیم‌گیری انسان باشند.
 
-![یک معماری مرجع IoT](../../../../../translated_images/fa/iot-reference-architecture-azure.0b8d2161af924cb18ae48a8558a19541cca47f27264851b5b7e56d7b8bb372ac.png)
+![یک معماری مرجع IoT](../../../../../translated_images/fa/iot-reference-architecture-azure.0b8d2161af924cb1.webp)
 
 نمودار بالا برخی از اجزا و خدماتی که تاکنون در این درس‌ها پوشش داده شده‌اند و نحوه ارتباط آن‌ها در یک معماری مرجع IoT را نشان می‌دهد.
 
@@ -89,7 +89,7 @@
 
 ### نمونه‌سازی برنامه شما
 
-![یک معماری مرجع IoT برای بررسی کیفیت میوه](../../../../../translated_images/fa/iot-reference-architecture-fruit-quality.cc705f121c3b6fa71c800d9630935ac34bc08223a04601e35f41d5e9b5dd5207.png)
+![یک معماری مرجع IoT برای بررسی کیفیت میوه](../../../../../translated_images/fa/iot-reference-architecture-fruit-quality.cc705f121c3b6fa7.webp)
 
 نمودار بالا یک معماری مرجع برای این برنامه نمونه اولیه را نشان می‌دهد.
 
@@ -124,7 +124,7 @@
 
 نمونه اولیه تشخیص میوه شامل چندین مؤلفه است که با یکدیگر ارتباط برقرار می‌کنند.
 
-![مؤلفه‌هایی که با یکدیگر ارتباط برقرار می‌کنند](../../../../../translated_images/fa/fruit-quality-detector-message-flow.adf2a65da8fd8741ac7af11361574de89adc126785d67606bb4d2ec00467e380.png)
+![مؤلفه‌هایی که با یکدیگر ارتباط برقرار می‌کنند](../../../../../translated_images/fa/fruit-quality-detector-message-flow.adf2a65da8fd8741.webp)
 
 * یک حسگر مجاورت که فاصله تا یک میوه را اندازه‌گیری کرده و آن را به IoT Hub ارسال می‌کند
 * فرمان کنترل دوربین که از IoT Hub به دستگاه دوربین ارسال می‌شود

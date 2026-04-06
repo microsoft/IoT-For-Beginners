@@ -1,6 +1,6 @@
 # 保持植物安全
 
-![本课的概述手绘图](../../../../../translated_images/zh-CN/lesson-10.829c86b80b9403bb770929ee553a1d293afe50dc23121aaf9be144673ae012cc.jpg)
+![本课的概述手绘图](../../../../../translated_images/zh-CN/lesson-10.829c86b80b9403bb.webp)
 
 > 手绘图由 [Nitya Narasimhan](https://github.com/nitya) 提供。点击图片查看更大版本。
 
@@ -52,11 +52,11 @@
 
 当设备连接到物联网服务时，它会使用一个ID来标识自己。问题是这个ID可能会被克隆——黑客可以设置一个恶意设备，使用与真实设备相同的ID，但发送虚假数据。
 
-![有效设备和恶意设备可能使用相同的ID发送遥测数据](../../../../../translated_images/zh-CN/iot-device-and-hacked-device-connecting.e0671675df74d6d99eb1dedb5a670e606f698efa6202b1ad4c8ae548db299cc6.png)
+![有效设备和恶意设备可能使用相同的ID发送遥测数据](../../../../../translated_images/zh-CN/iot-device-and-hacked-device-connecting.e0671675df74d6d9.webp)
 
 解决方法是将发送的数据转换为一种加密格式，使用设备和云端都知道的某种值来加密数据。这一过程称为*加密*，用于加密数据的值称为*加密密钥*。
 
-![如果使用加密，则只有加密消息会被接受，其他消息会被拒绝](../../../../../translated_images/zh-CN/iot-device-and-hacked-device-connecting-encryption.5941aff601fc978f979e46f2849b573564eeb4a4dc5b52f669f62745397492fb.png)
+![如果使用加密，则只有加密消息会被接受，其他消息会被拒绝](../../../../../translated_images/zh-CN/iot-device-and-hacked-device-connecting-encryption.5941aff601fc978f.webp)
 
 云服务可以使用一个称为*解密*的过程将数据转换回可读格式，使用相同的加密密钥或一个*解密密钥*。如果加密消息无法通过密钥解密，则说明设备已被黑客攻击，消息会被拒绝。
 
