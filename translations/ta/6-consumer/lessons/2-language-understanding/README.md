@@ -1,6 +1,6 @@
 # மொழியைப் புரிந்துகொள்
 
-![இந்த பாடத்தின் சுருக்கமான சித்திரக்குறிப்பு](../../../../../translated_images/ta/lesson-22.6148ea28500d9e00c396aaa2649935fb6641362c8f03d8e5e90a676977ab01dd.jpg)
+![இந்த பாடத்தின் சுருக்கமான சித்திரக்குறிப்பு](../../../../../translated_images/ta/lesson-22.6148ea28500d9e00.webp)
 
 > சித்திரக்குறிப்பு: [நித்யா நரசிம்மன்](https://github.com/nitya). படத்தை கிளிக் செய்து பெரிய பதிப்பைப் பாருங்கள்.
 
@@ -46,7 +46,7 @@
 
 ## மொழி புரிதல் மாதிரியை உருவாக்கவும்
 
-![LUIS லோகோ](../../../../../translated_images/ta/luis-logo.5cb4f3e88c020ee6df4f614e8831f4a4b6809a7247bf52085fb48d629ef9be52.png)
+![LUIS லோகோ](../../../../../translated_images/ta/luis-logo.5cb4f3e88c020ee6.webp)
 
 Microsoft இன் Cognitive Services இன் ஒரு பகுதியாக இருக்கும் LUIS (Language Understanding Intelligent Service) மூலம் மொழி புரிதல் மாதிரிகளை உருவாக்கலாம்.
 
@@ -169,7 +169,7 @@ Microsoft Docs இல் உள்ள [Quickstart: Build your app in LUIS portal
 
 1. ஒவ்வொரு உதாரணத்தை உள்ளிடும் போது, LUIS பொருட்களை கண்டறியத் தொடங்கும், மற்றும் கண்டறிந்தவற்றை அடிக்கோடிட்டு லேபிள் செய்யும்.
 
-    ![LUIS உதாரணங்களில் எண்கள் மற்றும் நேர யூனிட்கள் அடிக்கோடிடப்பட்டுள்ளன](../../../../../translated_images/ta/luis-intent-examples.25716580b2d2723cf1bafdf277d015c7f046d8cfa20f27bddf3a0873ec45fab7.png)
+    ![LUIS உதாரணங்களில் எண்கள் மற்றும் நேர யூனிட்கள் அடிக்கோடிடப்பட்டுள்ளன](../../../../../translated_images/ta/luis-intent-examples.25716580b2d2723c.webp)
 
 ### பணிகள் - மாதிரியைப் பயிற்சி அளிக்கவும் மற்றும் சோதிக்கவும்
 

@@ -1,6 +1,6 @@
 # Viige oma taim pilve
 
-![Selle õppetunni visuaalne ülevaade](../../../../../translated_images/et/lesson-8.3f21f3c11159e6a0a376351973ea5724d5de68fa23b4288853a174bed9ac48c3.jpg)
+![Selle õppetunni visuaalne ülevaade](../../../../../translated_images/et/lesson-8.3f21f3c11159e6a0.webp)
 
 > Visuaal autorilt [Nitya Narasimhan](https://github.com/nitya). Klõpsake pildil, et näha suuremat versiooni.
 
@@ -46,8 +46,8 @@ See võis olla väga kallis, nõuda laia valikut oskustega töötajaid ja olla a
 
 Pilve nimetatakse tihti naljatades "kellegi teise arvutiks". Algne idee oli lihtne - arvutite ostmise asemel rentida kellegi teise arvutit. Keegi teine, pilveteenuse pakkuja, haldaks suuri andmekeskusi. Nad vastutaksid riistvara ostmise ja paigaldamise, elektri ja jahutuse, võrgunduse, hoone turvalisuse, riist- ja tarkvarauuenduste eest, kõige eest. Kliendina rendiksite vajalikke arvuteid, rentides rohkem, kui nõudlus kasvab, ja vähendades renditud arvuteid, kui nõudlus langeb. Need pilve andmekeskused asuvad üle kogu maailma.
 
-![Microsofti pilve andmekeskus](../../../../../translated_images/et/azure-region-existing.73f704604f2aa6cb9b5a49ed40e93d4fd81ae3f4e6af4a8ca504023902832f56.png)
-![Microsofti pilve andmekeskuse plaanitud laienemine](../../../../../translated_images/et/azure-region-planned-expansion.a5074a1e8af74f156a73552d502429e5b126ea5019274d767ecb4b9afdad442b.png)
+![Microsofti pilve andmekeskus](../../../../../translated_images/et/azure-region-existing.73f704604f2aa6cb.webp)
+![Microsofti pilve andmekeskuse plaanitud laienemine](../../../../../translated_images/et/azure-region-planned-expansion.a5074a1e8af74f15.webp)
 
 Need andmekeskused võivad olla mitme ruutkilomeetri suurused. Ülaltoodud pildid on tehtud mõned aastad tagasi Microsofti pilve andmekeskuses ja näitavad algset suurust koos plaanitud laienemisega. Laienemiseks puhastatud ala on üle 5 ruutkilomeetri.
 
@@ -108,11 +108,11 @@ Pilve IoT-teenused lahendavad need probleemid. Neid haldavad suured pilveteenuse
 
 IoT-seadmed ühenduvad pilveteenusega kas seadme SDK (teek, mis pakub koodi teenuse funktsioonidega töötamiseks) või otse suhtlusprotokolli, näiteks MQTT või HTTP kaudu. Seadme SDK on tavaliselt lihtsaim tee, kuna see haldab kõike teie eest, näiteks teab, milliseid teemasid avaldada või tellida ja kuidas turvalisust hallata.
 
-![Seadmed ühenduvad teenusega seadme SDK kaudu. Serveri kood ühendub teenusega samuti SDK kaudu](../../../../../translated_images/et/iot-service-connectivity.7e873847921a5d6fd60d0ba3a943210194518cee0d4e362476624316443275c3.png)
+![Seadmed ühenduvad teenusega seadme SDK kaudu. Serveri kood ühendub teenusega samuti SDK kaudu](../../../../../translated_images/et/iot-service-connectivity.7e873847921a5d6f.webp)
 
 Teie seade suhtleb seejärel teie rakenduse teiste osadega selle teenuse kaudu - sarnaselt sellele, kuidas te saatsite telemeetriat ja saite käske MQTT kaudu. Tavaliselt kasutatakse selleks teenuse SDK-d või sarnast teeki. Sõnumid tulevad teie seadmest teenusesse, kus rakenduse muud komponendid saavad neid lugeda, ja sõnumeid saab saata tagasi teie seadmesse.
 
-![Seadmed, millel pole kehtivat salajast võtit, ei saa IoT-teenusega ühenduda](../../../../../translated_images/et/iot-service-allowed-denied-connection.818b0063ac213fb84204a7229303764d9b467ca430fb822b4ac2fca267d56726.png)
+![Seadmed, millel pole kehtivat salajast võtit, ei saa IoT-teenusega ühenduda](../../../../../translated_images/et/iot-service-allowed-denied-connection.818b0063ac213fb8.webp)
 
 Need teenused rakendavad turvalisust, teades kõiki seadmeid, mis saavad ühenduda ja andmeid saata, kas seadmete eelregistreerimise kaudu teenuses või andes seadmetele salajased võtmed või sertifikaadid, mida nad saavad kasutada teenusega registreerimiseks esmakordsel ühendamisel. Tundmatud seadmed ei saa ühenduda; kui nad proovivad, teenus lükkab ühenduse tagasi ja ignoreerib nende saadetud sõnumeid.
 
@@ -126,7 +126,7 @@ Teie rakenduse muud komponendid saavad ühenduda IoT-teenusega ja saada teavet k
 
 Nüüd, kui teil on Azure'i tellimus, saate registreeruda IoT-teenuse jaoks. Microsofti IoT-teenus on nimega Azure IoT Hub.
 
-![Azure IoT Hubi logo](../../../../../translated_images/et/azure-iot-hub-logo.28a19de76d0a1932464d858f7558712bcdace3e5ec69c434d482ed7ce41c3a26.png)
+![Azure IoT Hubi logo](../../../../../translated_images/et/azure-iot-hub-logo.28a19de76d0a1932.webp)
 
 Allolev video annab lühikese ülevaate Azure IoT Hubist:
 

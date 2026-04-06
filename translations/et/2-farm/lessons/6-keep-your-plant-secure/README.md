@@ -1,6 +1,6 @@
 # Hoia oma taim turvalisena
 
-![Selle õppetunni visuaalne ülevaade](../../../../../translated_images/et/lesson-10.829c86b80b9403bb770929ee553a1d293afe50dc23121aaf9be144673ae012cc.jpg)
+![Selle õppetunni visuaalne ülevaade](../../../../../translated_images/et/lesson-10.829c86b80b9403bb.webp)
 
 > Visuaalne märkmik: [Nitya Narasimhan](https://github.com/nitya). Klõpsa pildil, et näha suuremat versiooni.
 
@@ -52,11 +52,11 @@ Need on reaalsed olukorrad, mis juhtuvad pidevalt. Mõned näited toodi varasema
 
 Kui seade ühendub IoT-teenusega, kasutab see ID-d enda tuvastamiseks. Probleem on selles, et seda ID-d saab kloonida - häkker võib seadistada pahatahtliku seadme, mis kasutab sama ID-d kui päris seade, kuid saadab valeandmeid.
 
-![Nii kehtivad kui pahatahtlikud seadmed võivad kasutada sama ID-d telemeetria saatmiseks](../../../../../translated_images/et/iot-device-and-hacked-device-connecting.e0671675df74d6d99eb1dedb5a670e606f698efa6202b1ad4c8ae548db299cc6.png)
+![Nii kehtivad kui pahatahtlikud seadmed võivad kasutada sama ID-d telemeetria saatmiseks](../../../../../translated_images/et/iot-device-and-hacked-device-connecting.e0671675df74d6d9.webp)
 
 Lahendus sellele probleemile on andmete muutmine krüpteeritud vormingusse, kasutades mingit väärtust, mida teavad ainult seade ja pilv. Seda protsessi nimetatakse *krüpteerimiseks*, ja väärtust, mida kasutatakse andmete krüpteerimiseks, nimetatakse *krüpteerimisvõtmeks*.
 
-![Kui kasutatakse krüpteerimist, siis aktsepteeritakse ainult krüpteeritud sõnumeid, teised lükatakse tagasi](../../../../../translated_images/et/iot-device-and-hacked-device-connecting-encryption.5941aff601fc978f979e46f2849b573564eeb4a4dc5b52f669f62745397492fb.png)
+![Kui kasutatakse krüpteerimist, siis aktsepteeritakse ainult krüpteeritud sõnumeid, teised lükatakse tagasi](../../../../../translated_images/et/iot-device-and-hacked-device-connecting-encryption.5941aff601fc978f.webp)
 
 Pilveteenus saab seejärel andmed tagasi loetavasse vormingusse muuta, kasutades protsessi, mida nimetatakse *dekrüpteerimiseks*, kas sama krüpteerimisvõtme või *dekrüpteerimisvõtme* abil. Kui krüpteeritud sõnumit ei saa võtmega dekrüpteerida, on seade häkitud ja sõnum lükatakse tagasi.
 

@@ -16,7 +16,7 @@ ArduCam-க்கு Grove socket இல்லை, அதனால் இது 
 
 கேமராவை இணைக்கவும்.
 
-![ArduCam சென்சார்](../../../../../translated_images/ta/arducam.20e4e4cbb268296570b5914e20d6c349fc42ddac9ed4e1b9deba2188204eebae.png)
+![ArduCam சென்சார்](../../../../../translated_images/ta/arducam.20e4e4cbb2682965.webp)
 
 1. ArduCam அடிப்பகுதியில் உள்ள பின்கள் Wio Terminal-ல் உள்ள GPIO பின்களுடன் இணைக்கப்பட வேண்டும். சரியான பின்களை எளிதாக கண்டறிய, Wio Terminal-க்கு வரும் GPIO பின் ஸ்டிக்கரை பின்களுக்குச் சுற்றி ஒட்டவும்:
 
@@ -35,7 +35,7 @@ ArduCam-க்கு Grove socket இல்லை, அதனால் இது 
     | SDA          | 3 (I2C1_SDA)      | I<sup>2</sup>C Serial Data              |
     | SCL          | 5 (I2C1_SCL)      | I<sup>2</sup>C Serial Clock             |
 
-    ![ஜம்பர் வயர்களுடன் ArduCam இணைக்கப்பட்ட Wio Terminal](../../../../../translated_images/ta/arducam-wio-terminal-connections.a4d5a4049bdb5ab800a2877389fc6ecf5e4ff307e6451ff56c517e6786467d0a.png)
+    ![ஜம்பர் வயர்களுடன் ArduCam இணைக்கப்பட்ட Wio Terminal](../../../../../translated_images/ta/arducam-wio-terminal-connections.a4d5a4049bdb5ab8.webp)
 
     GND மற்றும் VCC இணைப்புகள் ArduCam-க்கு 5V மின்சாரம் வழங்குகின்றன. இது 5V-ல் இயங்குகிறது, ஆனால் Grove சென்சார்கள் 3V-ல் இயங்குகின்றன. இந்த மின்சாரம் சாதனத்தை இயக்கும் USB-C இணைப்பிலிருந்து நேரடியாக வருகிறது.
 
@@ -456,7 +456,7 @@ Wio Terminal 16GB வரை உள்ள microSD கார்டுகளை ம
 
 1. microSD கார்டை அணைத்து, அதை சற்று அழுத்தி வெளியேற்றவும், அது வெளியே வரும். இதைச் செய்ய மெல்லிய கருவியைப் பயன்படுத்த வேண்டியிருக்கும். microSD கார்டை உங்கள் கணினியில் செருகி படங்களைப் பார்வையிடவும்.
 
-    ![ArduCam மூலம் பிடிக்கப்பட்ட வாழைப்பழத்தின் படம்](../../../../../translated_images/ta/banana-arducam.be1b32d4267a8194b0fd042362e56faa431da9cd4af172051b37243ea9be0256.jpg)
+    ![ArduCam மூலம் பிடிக்கப்பட்ட வாழைப்பழத்தின் படம்](../../../../../translated_images/ta/banana-arducam.be1b32d4267a8194.webp)
 
     > 💁 கேமராவின் வெள்ளை சமநிலை சரிசெய்ய சில படங்கள் பிடிக்க நேரிடலாம். நீங்கள் பிடித்த படங்களின் நிறத்தை அடிப்படையாகக் கொண்டு இதை கவனிக்கலாம், முதல் சில படங்கள் நிறம் தவறாக இருக்கலாம். `setup` செயல்பாட்டில் புறக்கணிக்கப்படும் சில படங்களைப் பிடிக்க கோடுகளை மாற்றுவதன் மூலம் இதை எப்போதும் சரிசெய்யலாம்.
 

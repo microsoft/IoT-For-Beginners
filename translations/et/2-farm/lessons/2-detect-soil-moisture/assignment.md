@@ -20,14 +20,14 @@ Selleks tuleb samme mitu korda korrata, iga kord erineva mulla niiskustasemega.
 
 Gravimeetriline mulla niiskus arvutatakse järgmiselt:
 
-![mulla niiskus % on märja kaalu miinus kuiva kaalu, jagatud kuiva kaaluga, korrutatud 100-ga](../../../../../translated_images/et/gsm-calculation.6da38c6201eec14e7573bb2647aa18892883193553d23c9d77e5dc681522dfb2.png)
+![mulla niiskus % on märja kaalu miinus kuiva kaalu, jagatud kuiva kaaluga, korrutatud 100-ga](../../../../../translated_images/et/gsm-calculation.6da38c6201eec14e.webp)
 
 * W<sub>märg</sub> - märja mulla kaal
 * W<sub>kuiv</sub> - kuiva mulla kaal
 
 Näiteks, oletame, et sul on mullaproov, mis kaalub märjana 212g ja kuivana 197g.
 
-![Täidetud arvutus](../../../../../translated_images/et/gsm-calculation-example.99f9803b4f29e97668e7c15412136c0c399ab12dbba0b89596fdae9d8aedb6fb.png)
+![Täidetud arvutus](../../../../../translated_images/et/gsm-calculation-example.99f9803b4f29e976.webp)
 
 * W<sub>märg</sub> = 212g
 * W<sub>kuiv</sub> = 197g

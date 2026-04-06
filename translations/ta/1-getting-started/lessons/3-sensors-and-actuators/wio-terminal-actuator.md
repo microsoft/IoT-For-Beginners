@@ -26,7 +26,7 @@ Grove LED பல வண்ண LEDகளுடன் ஒரு மாட்யூ
 
 LED-ஐ இணைக்கவும்.
 
-![ஒரு Grove LED](../../../../../translated_images/ta/grove-led.6c853be93f473cf2c439cfc74bb1064732b22251a83cedf66e62f783f9cc1a79.png)
+![ஒரு Grove LED](../../../../../translated_images/ta/grove-led.6c853be93f473cf2.webp)
 
 1. உங்களுக்கு பிடித்த LED-ஐ தேர்ந்தெடுத்து, அதன் கால்களை LED மாட்யூலின் இரண்டு துளைகளில் செருகவும்.
 

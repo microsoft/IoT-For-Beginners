@@ -84,7 +84,7 @@ Custom Vision teenusel on Python SDK, mida saab kasutada piltide klassifitseerim
 
     Saad näha tehtud pilti ja neid väärtusi **Predictions** vahekaardil Custom Vision teenuses.
 
-    ![Banaan Custom Vision teenuses, ennustatud küps 56.8% ja toore 43.1%](../../../../../translated_images/et/custom-vision-banana-prediction.30cdff4e1d72db5d9a0be0193790a47c2b387da034e12dc1314dd57ca2131b59.png)
+    ![Banaan Custom Vision teenuses, ennustatud küps 56.8% ja toore 43.1%](../../../../../translated_images/et/custom-vision-banana-prediction.30cdff4e1d72db5d.webp)
 
 > 💁 Selle koodi leiad [code-classify/pi](../../../../../4-manufacturing/lessons/2-check-fruit-from-device/code-classify/pi) või [code-classify/virtual-iot-device](../../../../../4-manufacturing/lessons/2-check-fruit-from-device/code-classify/virtual-iot-device) kaustast.
 

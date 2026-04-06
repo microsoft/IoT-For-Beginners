@@ -18,7 +18,7 @@ Grove mulla niiskuse sensorit saab ühendada Wio Terminali konfigureeritava anal
 
 Ühenda mulla niiskuse sensor.
 
-![Grove mulla niiskuse sensor](../../../../../translated_images/et/grove-capacitive-soil-moisture-sensor.e7f0776cce30e78be5cc5a07839385fd6718857f31b5bf5ad3d0c73c83b2f0ef.png)
+![Grove mulla niiskuse sensor](../../../../../translated_images/et/grove-capacitive-soil-moisture-sensor.e7f0776cce30e78b.webp)
 
 1. Sisesta Grove-kaabli üks ots mulla niiskuse sensori pistikusse. Kaabel läheb sisse ainult ühes suunas.
 

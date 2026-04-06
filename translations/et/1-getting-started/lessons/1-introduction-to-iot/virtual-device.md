@@ -203,7 +203,7 @@ Teise "Tere maailm" sammuna käivitate CounterFiti rakenduse ja ühendate oma ko
 
     Rakendus hakkab tööle ja avaneb teie veebibrauseris:
 
-    ![CounterFit rakendus töötab brauseris](../../../../../translated_images/et/counterfit-first-run.433326358b669b31d0e99c3513cb01bfbb13724d162c99cdcc8f51ecf5f9c779.png)
+    ![CounterFit rakendus töötab brauseris](../../../../../translated_images/et/counterfit-first-run.433326358b669b31.webp)
 
     See on märgitud kui *Disconnected* ja paremas ülanurgas olev LED on välja lülitatud.
 
@@ -224,7 +224,7 @@ Teise "Tere maailm" sammuna käivitate CounterFiti rakenduse ja ühendate oma ko
 
 1. Käivitage selles uues terminalis `app.py` fail nagu varem. CounterFiti olek muutub **Connected** ja LED süttib.
 
-    ![CounterFit näitab ühendatud olekut](../../../../../translated_images/et/counterfit-connected.ed30b46d8f79b0921f3fc70be10366e596a89dca3f80c2224a9d9fc98fccf884.png)
+    ![CounterFit näitab ühendatud olekut](../../../../../translated_images/et/counterfit-connected.ed30b46d8f79b092.webp)
 
 > 💁 Selle koodi leiate kaustast [code/virtual-device](../../../../../1-getting-started/lessons/1-introduction-to-iot/code/virtual-device).
 

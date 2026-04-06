@@ -1,6 +1,6 @@
 # Sea taimer ja anna kõne tagasisidet
 
-![Selle õppetunni visuaalne ülevaade](../../../../../translated_images/et/lesson-23.f38483e1d4df4828990d3f02d60e46c978b075d384ae7cb4f7bab738e107c850.jpg)
+![Selle õppetunni visuaalne ülevaade](../../../../../translated_images/et/lesson-23.f38483e1d4df4828.webp)
 
 > Visuaal autorilt [Nitya Narasimhan](https://github.com/nitya). Klõpsa pildil, et näha suuremat versiooni.
 

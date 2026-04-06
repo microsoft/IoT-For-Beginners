@@ -1,6 +1,6 @@
 # Käivita puuviljade kvaliteedi tuvastamine sensori abil
 
-![Selle õppetunni visuaalne ülevaade](../../../../../translated_images/et/lesson-18.92c32ed1d354caa5a54baa4032cf0b172d4655e8e326ad5d46c558a0def15365.jpg)
+![Selle õppetunni visuaalne ülevaade](../../../../../translated_images/et/lesson-18.92c32ed1d354caa5.webp)
 
 > Visuaalne ülevaade: [Nitya Narasimhan](https://github.com/nitya). Klõpsa pildil, et näha suuremat versiooni.
 
@@ -39,7 +39,7 @@ IoT-rakendusi saab kirjeldada kui *asju* (seadmeid), mis saadavad andmeid, mis g
 
 ### IoT arhitektuuri näidis
 
-![IoT arhitektuuri näidis](../../../../../translated_images/et/iot-reference-architecture.2278b98b55c6d4e89bde18eada3688d893861d43507641804dd2f9d3079cfaa0.png)
+![IoT arhitektuuri näidis](../../../../../translated_images/et/iot-reference-architecture.2278b98b55c6d4e8.webp)
 
 Ülaltoodud diagramm näitab IoT arhitektuuri näidist.
 
@@ -49,7 +49,7 @@ IoT-rakendusi saab kirjeldada kui *asju* (seadmeid), mis saadavad andmeid, mis g
 * **Teadmised** pärinevad serverivabadest rakendustest või analüüsidest, mis tehakse salvestatud andmetel.
 * **Tegevused** võivad olla käsklused, mis saadetakse seadmetele, või andmete visualiseerimine, mis võimaldab inimestel otsuseid teha.
 
-![IoT arhitektuuri näidis Azure'i jaoks](../../../../../translated_images/et/iot-reference-architecture-azure.0b8d2161af924cb18ae48a8558a19541cca47f27264851b5b7e56d7b8bb372ac.png)
+![IoT arhitektuuri näidis Azure'i jaoks](../../../../../translated_images/et/iot-reference-architecture-azure.0b8d2161af924cb1.webp)
 
 Ülaltoodud diagramm näitab mõningaid komponente ja teenuseid, mida on seni õppetundides käsitletud, ja kuidas need IoT arhitektuuri näidises omavahel seotud on.
 
@@ -89,7 +89,7 @@ Te peate ehitama süsteemi, kus puuviljad tuvastatakse nende saabumisel konveier
 
 ### Rakenduse prototüüpimine
 
-![IoT arhitektuuri näidis puuviljade kvaliteedi kontrollimiseks](../../../../../translated_images/et/iot-reference-architecture-fruit-quality.cc705f121c3b6fa71c800d9630935ac34bc08223a04601e35f41d5e9b5dd5207.png)
+![IoT arhitektuuri näidis puuviljade kvaliteedi kontrollimiseks](../../../../../translated_images/et/iot-reference-architecture-fruit-quality.cc705f121c3b6fa7.webp)
 
 Ülaltoodud diagramm näitab selle prototüübi rakenduse arhitektuuri näidist.
 
@@ -124,7 +124,7 @@ Töötage läbi vastav juhend, et kasutada lähedussensorit objekti tuvastamisek
 
 Puuviljade tuvastamise prototüüp sisaldab mitmeid komponente, mis suhtlevad omavahel.
 
-![Komponendid, mis suhtlevad omavahel](../../../../../translated_images/et/fruit-quality-detector-message-flow.adf2a65da8fd8741ac7af11361574de89adc126785d67606bb4d2ec00467e380.png)
+![Komponendid, mis suhtlevad omavahel](../../../../../translated_images/et/fruit-quality-detector-message-flow.adf2a65da8fd8741.webp)
 
 * Lähedussensor, mis mõõdab puuvilja kaugust ja saadab selle IoT Hubi
 * Käsklused kaamera juhtimiseks, mis tulevad IoT Hubist kaameraseadmesse

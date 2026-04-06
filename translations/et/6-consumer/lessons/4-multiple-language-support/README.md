@@ -1,6 +1,6 @@
 # Toeta mitut keelt
 
-![Selle õppetunni visandmärkmete ülevaade](../../../../../translated_images/et/lesson-24.4246968ed058510ab275052e87ef9aa89c7b2f938915d103c605c04dc6cd5bb7.jpg)
+![Selle õppetunni visandmärkmete ülevaade](../../../../../translated_images/et/lesson-24.4246968ed058510a.webp)
 
 > Visandmärkmed: [Nitya Narasimhan](https://github.com/nitya). Klõpsa pildil, et näha suuremat versiooni.
 
@@ -74,7 +74,7 @@ On mitmeid AI-teenuseid, mida saab kasutada rakendustes kõne ja teksti tõlkimi
 
 ### Cognitive services kõneteenus
 
-![Kõneteenuse logo](../../../../../translated_images/et/azure-speech-logo.a1f08c4befb0159f2cb5d692d3baf5b599e7b44759d316da907bda1508f46a4a.png)
+![Kõneteenuse logo](../../../../../translated_images/et/azure-speech-logo.a1f08c4befb0159f.webp)
 
 Kõneteenus, mida olete kasutanud viimastes õppetundides, sisaldab tõlkimisvõimalusi kõnetuvastuseks. Kui tuvastate kõnet, saate taotleda mitte ainult kõne teksti samas keeles, vaid ka teistes keeltes.
 
@@ -82,7 +82,7 @@ Kõneteenus, mida olete kasutanud viimastes õppetundides, sisaldab tõlkimisvõ
 
 ### Cognitive services Translator teenus
 
-![Tõlketeenuse logo](../../../../../translated_images/et/azure-translator-logo.c6ed3a4a433edfd2f11577eca105412c50b8396b194cbbd730723dd1d0793bcd.png)
+![Tõlketeenuse logo](../../../../../translated_images/et/azure-translator-logo.c6ed3a4a433edfd2.webp)
 
 Translator teenus on spetsiaalne tõlketeenus, mis suudab tõlkida teksti ühest keelest ühte või mitmesse sihtkeelde. Lisaks tõlkimisele toetab see laia valikut lisafunktsioone, sealhulgas roppuste maskeerimist. Samuti võimaldab see pakkuda konkreetset tõlget teatud sõna või lause jaoks, et töötada terminitega, mida ei soovita tõlkida, või millel on konkreetne tuntud tõlge.
 
