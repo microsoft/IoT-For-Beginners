@@ -18,7 +18,7 @@ Grove senzor za merjenje vlažnosti zemlje se lahko poveže na konfigurabilni an
 
 Povežite senzor za merjenje vlažnosti zemlje.
 
-![Grove senzor za merjenje vlažnosti zemlje](../../../../../translated_images/sl/grove-capacitive-soil-moisture-sensor.e7f0776cce30e78be5cc5a07839385fd6718857f31b5bf5ad3d0c73c83b2f0ef.png)
+![Grove senzor za merjenje vlažnosti zemlje](../../../../../translated_images/sl/grove-capacitive-soil-moisture-sensor.e7f0776cce30e78b.webp)
 
 1. En konec Grove kabla vstavite v vtičnico na senzorju za merjenje vlažnosti zemlje. Kabel gre v vtičnico samo v eni smeri.
 

@@ -1,6 +1,6 @@
 # Premjestite svoju biljku u oblak
 
-![Sketchnote pregled ove lekcije](../../../../../translated_images/hr/lesson-8.3f21f3c11159e6a0a376351973ea5724d5de68fa23b4288853a174bed9ac48c3.jpg)
+![Sketchnote pregled ove lekcije](../../../../../translated_images/hr/lesson-8.3f21f3c11159e6a0.webp)
 
 > Sketchnote autorice [Nitya Narasimhan](https://github.com/nitya). Kliknite na sliku za veću verziju.
 
@@ -46,8 +46,8 @@ Ovo je moglo biti vrlo skupo, zahtijevati širok spektar stručnih zaposlenika i
 
 Oblak se često u šali naziva "računalom nekog drugog". Početna ideja bila je jednostavna - umjesto kupnje računala, unajmite računalo nekog drugog. Netko drugi, pružatelj usluga računalstva u oblaku, upravljao bi ogromnim podatkovnim centrima. Oni bi bili odgovorni za kupnju i instalaciju hardvera, upravljanje napajanjem i hlađenjem, umrežavanje, sigurnost zgrade, ažuriranja hardvera i softvera, sve. Kao korisnik, unajmljujete računala koja su vam potrebna, unajmljujete više kada potražnja raste, a smanjujete broj kada potražnja opada. Ovi podatkovni centri nalaze se diljem svijeta.
 
-![Microsoftov podatkovni centar u oblaku](../../../../../translated_images/hr/azure-region-existing.73f704604f2aa6cb9b5a49ed40e93d4fd81ae3f4e6af4a8ca504023902832f56.png)
-![Planirano proširenje Microsoftovog podatkovnog centra u oblaku](../../../../../translated_images/hr/azure-region-planned-expansion.a5074a1e8af74f156a73552d502429e5b126ea5019274d767ecb4b9afdad442b.png)
+![Microsoftov podatkovni centar u oblaku](../../../../../translated_images/hr/azure-region-existing.73f704604f2aa6cb.webp)
+![Planirano proširenje Microsoftovog podatkovnog centra u oblaku](../../../../../translated_images/hr/azure-region-planned-expansion.a5074a1e8af74f15.webp)
 
 Ovi podatkovni centri mogu biti veličine nekoliko četvornih kilometara. Gornje slike snimljene su prije nekoliko godina u Microsoftovom podatkovnom centru u oblaku i prikazuju početnu veličinu, zajedno s planiranim proširenjem. Površina očišćena za proširenje veća je od 5 četvornih kilometara.
 
@@ -108,11 +108,11 @@ IoT usluge u oblaku rješavaju ove probleme. Njima upravljaju veliki pružatelji
 
 IoT uređaji povezuju se s uslugom u oblaku ili pomoću SDK-a za uređaje (biblioteke koja pruža kod za rad s značajkama usluge) ili izravno putem komunikacijskog protokola poput MQTT-a ili HTTP-a. SDK za uređaje obično je najlakši put jer automatski upravlja svime, poput znanja o tome koje teme objaviti ili pretplatiti se, te kako upravljati sigurnošću.
 
-![Uređaji se povezuju s uslugom pomoću SDK-a za uređaje. Serverski kod također se povezuje s uslugom putem SDK-a](../../../../../translated_images/hr/iot-service-connectivity.7e873847921a5d6fd60d0ba3a943210194518cee0d4e362476624316443275c3.png)
+![Uređaji se povezuju s uslugom pomoću SDK-a za uređaje. Serverski kod također se povezuje s uslugom putem SDK-a](../../../../../translated_images/hr/iot-service-connectivity.7e873847921a5d6f.webp)
 
 Vaš uređaj tada komunicira s drugim dijelovima vaše aplikacije putem ove usluge - slično kao što ste slali telemetriju i primali naredbe putem MQTT-a. To se obično radi pomoću SDK-a za usluge ili slične biblioteke. Poruke dolaze s vašeg uređaja na uslugu gdje ih drugi dijelovi vaše aplikacije mogu pročitati, a poruke se mogu poslati natrag na vaš uređaj.
 
-![Uređaji bez valjanog tajnog ključa ne mogu se povezati s IoT uslugom](../../../../../translated_images/hr/iot-service-allowed-denied-connection.818b0063ac213fb84204a7229303764d9b467ca430fb822b4ac2fca267d56726.png)
+![Uređaji bez valjanog tajnog ključa ne mogu se povezati s IoT uslugom](../../../../../translated_images/hr/iot-service-allowed-denied-connection.818b0063ac213fb8.webp)
 
 Ove usluge implementiraju sigurnost tako što znaju za sve uređaje koji se mogu povezati i slati podatke, bilo da su uređaji unaprijed registrirani s uslugom ili im se daju tajni ključevi ili certifikati koje mogu koristiti za registraciju pri prvom povezivanju. Nepoznati uređaji ne mogu se povezati; ako pokušaju, usluga odbija vezu i ignorira poruke koje šalju.
 
@@ -124,7 +124,7 @@ Ostali dijelovi vaše aplikacije mogu se povezati s IoT uslugom i saznati sve o 
 
 Sada kada imate Azure pretplatu, možete se prijaviti za IoT uslugu. IoT usluga od Microsofta zove se Azure IoT Hub.
 
-![Logotip Azure IoT Hub](../../../../../translated_images/hr/azure-iot-hub-logo.28a19de76d0a1932464d858f7558712bcdace3e5ec69c434d482ed7ce41c3a26.png)
+![Logotip Azure IoT Hub](../../../../../translated_images/hr/azure-iot-hub-logo.28a19de76d0a1932.webp)
 
 Video ispod daje kratak pregled Azure IoT Hub-a:
 

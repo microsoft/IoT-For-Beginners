@@ -1,6 +1,6 @@
 # Premjestite logiku svoje aplikacije u oblak
 
-![Sketchnote pregled ove lekcije](../../../../../translated_images/hr/lesson-9.dfe99c8e891f48e179724520da9f5794392cf9a625079281ccdcbf09bd85e1b6.jpg)
+![Sketchnote pregled ove lekcije](../../../../../translated_images/hr/lesson-9.dfe99c8e891f48e1.webp)
 
 > Sketchnote autorice [Nitya Narasimhan](https://github.com/nitya). Kliknite na sliku za veću verziju.
 
@@ -28,7 +28,7 @@ U ovoj lekciji obradit ćemo:
 
 Serverless, ili serverless računarstvo, uključuje kreiranje malih blokova koda koji se izvršavaju u oblaku kao odgovor na različite vrste događaja. Kada se dogodi događaj, vaš kod se pokreće i dobiva podatke o tom događaju. Ti događaji mogu dolaziti iz različitih izvora, uključujući web zahtjeve, poruke stavljene u red, promjene podataka u bazi podataka ili poruke koje IoT uređaji šalju IoT usluzi.
 
-![Događaji koji se šalju iz IoT usluge u serverless uslugu, svi se obrađuju istovremeno pomoću više funkcija koje se pokreću](../../../../../translated_images/hr/iot-messages-to-serverless.0194da1cc0732bb7d0f823aed3fce54735c6b1ad3bf36089804d8aaefc0a774f.png)
+![Događaji koji se šalju iz IoT usluge u serverless uslugu, svi se obrađuju istovremeno pomoću više funkcija koje se pokreću](../../../../../translated_images/hr/iot-messages-to-serverless.0194da1cc0732bb7.webp)
 
 > 💁 Ako ste prije koristili okidače u bazama podataka, ovo možete zamisliti kao sličan koncept - kod koji se pokreće događajem, poput umetanja retka.
 
@@ -54,7 +54,7 @@ Kao IoT programer, serverless model je idealan. Možete napisati funkciju koja s
 
 Microsoftova usluga za serverless računarstvo zove se Azure Functions.
 
-![Logo Azure Functions](../../../../../translated_images/hr/azure-functions-logo.1cfc8e3204c9c44aaf80fcf406fc8544d80d7f00f8d3e8ed6fed764563e17564.png)
+![Logo Azure Functions](../../../../../translated_images/hr/azure-functions-logo.1cfc8e3204c9c44a.webp)
 
 Kratki video ispod daje pregled Azure Functions.
 

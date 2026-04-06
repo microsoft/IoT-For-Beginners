@@ -1,6 +1,6 @@
 # Postavite mjerač vremena i pružite povratne informacije putem govora
 
-![Sketchnote pregled ove lekcije](../../../../../translated_images/hr/lesson-23.f38483e1d4df4828990d3f02d60e46c978b075d384ae7cb4f7bab738e107c850.jpg)
+![Sketchnote pregled ove lekcije](../../../../../translated_images/hr/lesson-23.f38483e1d4df4828.webp)
 
 > Sketchnote autor [Nitya Narasimhan](https://github.com/nitya). Kliknite na sliku za veću verziju.
 

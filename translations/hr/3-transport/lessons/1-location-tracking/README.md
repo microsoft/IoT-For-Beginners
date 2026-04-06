@@ -1,6 +1,6 @@
 # Praćenje lokacije
 
-![Sketchnote pregled ove lekcije](../../../../../translated_images/hr/lesson-11.9fddbac4b664c6d50ab7ac9bb32f1fc3f945f03760e72f7f43938073762fb017.jpg)
+![Sketchnote pregled ove lekcije](../../../../../translated_images/hr/lesson-11.9fddbac4b664c6d5.webp)
 
 > Sketchnote autorice [Nitya Narasimhan](https://github.com/nitya). Kliknite na sliku za veću verziju.
 
@@ -63,13 +63,13 @@ Zemlja je sfera - trodimenzionalni krug. Zbog toga se točke definiraju dijeljen
 
 > 💁 Nitko zapravo ne zna izvorni razlog zašto su krugovi podijeljeni na 360 stupnjeva. [Stranica o stupnjevima (kut) na Wikipediji](https://wikipedia.org/wiki/Degree_(angle)) pokriva neke od mogućih razloga.
 
-![Linije geografske širine od 90° na Sjevernom polu, 45° na pola puta između Sjevernog pola i ekvatora, 0° na ekvatoru, -45° na pola puta između ekvatora i Južnog pola, i -90° na Južnom polu](../../../../../translated_images/hr/latitude-lines.11d8d91dfb2014a57437272d7db7fd6607243098e8685f06e0c5f1ec984cb7eb.png)
+![Linije geografske širine od 90° na Sjevernom polu, 45° na pola puta između Sjevernog pola i ekvatora, 0° na ekvatoru, -45° na pola puta između ekvatora i Južnog pola, i -90° na Južnom polu](../../../../../translated_images/hr/latitude-lines.11d8d91dfb2014a5.webp)
 
 Geografska širina mjeri se pomoću linija koje kruže Zemljom i paralelne su s ekvatorom, dijeleći sjevernu i južnu hemisferu na po 90°. Ekvator je na 0°, Sjeverni pol na 90°, također poznat kao 90° sjeverno, a Južni pol na -90°, ili 90° južno.
 
 Geografska dužina mjeri se kao broj stupnjeva prema istoku i zapadu. Početna točka od 0° geografske dužine naziva se *Glavni meridijan* i definirana je 1884. godine kao linija od Sjevernog do Južnog pola koja prolazi kroz [Kraljevski opservatorij u Greenwichu, Engleska](https://wikipedia.org/wiki/Royal_Observatory,_Greenwich).
 
-![Linije geografske dužine koje idu od -180° zapadno od Glavnog meridijana, do 0° na Glavnom meridijanu, do 180° istočno od Glavnog meridijana](../../../../../translated_images/hr/longitude-meridians.ab4ef1c91c064586b0185a3c8d39e585903696c6a7d28c098a93a629cddb5d20.png)
+![Linije geografske dužine koje idu od -180° zapadno od Glavnog meridijana, do 0° na Glavnom meridijanu, do 180° istočno od Glavnog meridijana](../../../../../translated_images/hr/longitude-meridians.ab4ef1c91c064586.webp)
 
 > 🎓 Meridijan je zamišljena ravna linija koja ide od Sjevernog do Južnog pola, tvoreći polukrug.
 
@@ -100,7 +100,7 @@ Koordinate za točku uvijek se daju kao `geografska širina, geografska dužina`
 * Geografsku širinu od 47.6423109 (47.6423109 stupnjeva sjeverno od ekvatora)
 * Geografsku dužinu od -122.1390293 (122.1390293 stupnjeva zapadno od Glavnog meridijana).
 
-![Microsoftov kampus na 47.6423109,-122.117198](../../../../../translated_images/hr/microsoft-gps-location-world.a321d481b010f6adfcca139b2ba0adc53b79f58a540495b8e2ce7f779ea64bfe.png)
+![Microsoftov kampus na 47.6423109,-122.117198](../../../../../translated_images/hr/microsoft-gps-location-world.a321d481b010f6ad.webp)
 
 ## Globalni pozicijski sustavi (GPS)
 
@@ -112,7 +112,7 @@ GPS sustavi rade tako što imaju niz satelita koji šalju signal s trenutnom poz
 
 > 💁 GPS senzori trebaju antene za detekciju radio valova. Antene ugrađene u kamione i automobile s ugrađenim GPS-om postavljene su tako da imaju dobar signal, obično na vjetrobranskom staklu ili krovu. Ako koristite zaseban GPS sustav, poput pametnog telefona ili IoT uređaja, trebate osigurati da antena ugrađena u GPS sustav ili telefon ima jasan pogled na nebo, poput postavljanja na vjetrobransko staklo.
 
-![Pozicija se može izračunati znajući udaljenost od senzora do više satelita](../../../../../translated_images/hr/gps-satellites.04acf1148fe25fbf1586bc2e8ba698e8d79b79a50c36824b38417dd13372b90f.png)
+![Pozicija se može izračunati znajući udaljenost od senzora do više satelita](../../../../../translated_images/hr/gps-satellites.04acf1148fe25fbf.webp)
 
 GPS sateliti kruže oko Zemlje, nisu na fiksnoj točki iznad senzora, pa podaci o lokaciji uključuju nadmorsku visinu iznad razine mora, kao i geografsku širinu i dužinu.
 

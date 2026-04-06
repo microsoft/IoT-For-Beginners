@@ -95,7 +95,7 @@
 
     Моћи ћете да видите слику која је снимљена, као и ове вредности у **Predictions** картици у Custom Vision.
 
-    ![4 конзерве парадајз пасте на полици са предвиђањима за 4 детекције од 35.8%, 33.5%, 25.7% и 16.6%](../../../../../translated_images/sr/custom-vision-stock-prediction.942266ab1bcca3410ecdf23643b9f5f570cfab2345235074e24c51f285777613.png)
+    ![4 конзерве парадајз пасте на полици са предвиђањима за 4 детекције од 35.8%, 33.5%, 25.7% и 16.6%](../../../../../translated_images/sr/custom-vision-stock-prediction.942266ab1bcca341.webp)
 
 > 💁 Овај код можете пронаћи у [code-detect/wio-terminal](../../../../../5-retail/lessons/2-check-stock-device/code-detect/wio-terminal) фасцикли.
 

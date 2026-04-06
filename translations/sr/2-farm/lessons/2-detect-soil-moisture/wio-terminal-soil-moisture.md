@@ -18,7 +18,7 @@ Grove сензор влаге у земљишту може се повезати
 
 Повежите сензор влаге у земљишту.
 
-![Grove сензор влаге у земљишту](../../../../../translated_images/sr/grove-capacitive-soil-moisture-sensor.e7f0776cce30e78be5cc5a07839385fd6718857f31b5bf5ad3d0c73c83b2f0ef.png)
+![Grove сензор влаге у земљишту](../../../../../translated_images/sr/grove-capacitive-soil-moisture-sensor.e7f0776cce30e78b.webp)
 
 1. Уметните један крај Grove кабла у утичницу на сензору влаге у земљишту. Кабл ће ући само у једном смеру.
 

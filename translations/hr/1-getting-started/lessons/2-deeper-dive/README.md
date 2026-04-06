@@ -1,6 +1,6 @@
 # Dublje istraživanje IoT-a
 
-![Sketchnote pregled ove lekcije](../../../../../translated_images/hr/lesson-2.324b0580d620c25e0a24fb7fddfc0b29a846dd4b82c08e7a9466d580ee78ce51.jpg)
+![Sketchnote pregled ove lekcije](../../../../../translated_images/hr/lesson-2.324b0580d620c25e.webp)
 
 > Sketchnote autorice [Nitya Narasimhan](https://github.com/nitya). Kliknite na sliku za veću verziju.
 
@@ -38,7 +38,7 @@ Dvije glavne komponente IoT aplikacije su *Internet* i *stvar*. Pogledajmo ove d
 
 Ovi uređaji komuniciraju s fizičkim svijetom, bilo pomoću senzora za prikupljanje podataka iz okoline ili kontroliranjem izlaza ili aktuatora za fizičke promjene. Tipičan primjer je pametni termostat - uređaj koji ima senzor temperature, način za postavljanje željene temperature poput kotačića ili zaslona osjetljivog na dodir, i vezu s grijanjem ili hlađenjem koje se može uključiti kada je detektirana temperatura izvan željenog raspona. Senzor temperature detektira da je prostorija prehladna, a aktuator uključuje grijanje.
 
-![Dijagram koji prikazuje temperaturu i kotačić kao ulaze u IoT uređaj, te kontrolu grijalice kao izlaz](../../../../../translated_images/hr/basic-thermostat.a923217fd1f37e5a6f3390396a65c22a387419ea2dd17e518ec24315ba6ae9a8.png)
+![Dijagram koji prikazuje temperaturu i kotačić kao ulaze u IoT uređaj, te kontrolu grijalice kao izlaz](../../../../../translated_images/hr/basic-thermostat.a923217fd1f37e5a.webp)
 
 Postoji ogroman raspon različitih stvari koje mogu djelovati kao IoT uređaji, od specijaliziranog hardvera koji detektira jednu stvar, do uređaja opće namjene, pa čak i vašeg pametnog telefona! Pametni telefon može koristiti senzore za detekciju svijeta oko sebe i aktuatora za interakciju sa svijetom - na primjer, koristeći GPS senzor za detekciju vaše lokacije i zvučnik za davanje uputa za navigaciju do odredišta.
 
@@ -54,7 +54,7 @@ Uređaji također ne moraju uvijek izravno povezivati na Internet putem WiFi-a i
 
 U primjeru pametnog termostata, termostat bi se povezao putem kućnog WiFi-a na cloud servis. Poslao bi podatke o temperaturi ovom cloud servisu, a odatle bi se ti podaci zapisali u neku vrstu baze podataka, omogućujući vlasniku kuće da provjeri trenutne i prošle temperature putem aplikacije na telefonu. Drugi servis u oblaku znao bi željenu temperaturu vlasnika kuće i slao poruke natrag IoT uređaju putem cloud servisa kako bi rekao sustavu grijanja da se uključi ili isključi.
 
-![Dijagram koji prikazuje temperaturu i kotačić kao ulaze u IoT uređaj, IoT uređaj s dvosmjernom komunikacijom s oblakom, koji zauzvrat ima dvosmjernu komunikaciju s telefonom, te kontrolu grijalice kao izlaz iz IoT uređaja](../../../../../translated_images/hr/mobile-controlled-thermostat.4a994010473d8d6a52ba68c67e5f02dc8928c717e93ca4b9bc55525aa75bbb60.png)
+![Dijagram koji prikazuje temperaturu i kotačić kao ulaze u IoT uređaj, IoT uređaj s dvosmjernom komunikacijom s oblakom, koji zauzvrat ima dvosmjernu komunikaciju s telefonom, te kontrolu grijalice kao izlaz iz IoT uređaja](../../../../../translated_images/hr/mobile-controlled-thermostat.4a994010473d8d6a.webp)
 
 Još pametnija verzija mogla bi koristiti AI u oblaku s podacima iz drugih senzora povezanih s drugim IoT uređajima, poput senzora prisutnosti koji detektiraju koje su prostorije u upotrebi, kao i podatke poput vremenske prognoze ili čak vašeg kalendara, za donošenje odluka o tome kako pametno postaviti temperaturu. Na primjer, mogla bi isključiti grijanje ako iz vašeg kalendara pročita da ste na odmoru, ili isključiti grijanje po sobama ovisno o tome koje prostorije koristite, učeći iz podataka kako bi s vremenom postajala sve preciznija.
 
@@ -94,7 +94,7 @@ CPU-ovi se oslanjaju na sat koji otkucava milijune ili milijarde puta u sekundi.
 
 > 💁 CPU-ovi izvršavaju programe koristeći [ciklus dohvaćanja-dekodiranja-izvršavanja](https://wikipedia.org/wiki/Instruction_cycle). Za svaki otkucaj sata, CPU će dohvatiti sljedeću instrukciju iz memorije, dekodirati je, a zatim je izvršiti, poput korištenja aritmetičko-logičke jedinice (ALU) za zbrajanje 2 broja. Neka izvršenja će trajati više otkucaja, pa će sljedeći ciklus započeti nakon što se instrukcija dovrši.
 
-![Ciklus dohvaćanja-dekodiranja-izvršavanja koji prikazuje dohvaćanje instrukcije iz programa pohranjenog u RAM-u, zatim dekodiranje i izvršavanje na CPU-u](../../../../../translated_images/hr/fetch-decode-execute.2fd6f150f6280392807f4475382319abd0cee0b90058e1735444d6baa6f2078c.png)
+![Ciklus dohvaćanja-dekodiranja-izvršavanja koji prikazuje dohvaćanje instrukcije iz programa pohranjenog u RAM-u, zatim dekodiranje i izvršavanje na CPU-u](../../../../../translated_images/hr/fetch-decode-execute.2fd6f150f6280392.webp)
 
 Mikrokontroleri imaju mnogo niže brzine sata od stolnih ili prijenosnih računala, pa čak i većine pametnih telefona. Na primjer, Wio Terminal ima CPU koji radi na 120MHz ili 120.000.000 ciklusa u sekundi.
 
@@ -182,7 +182,7 @@ Arduino ploče programiraju se u C ili C++. Korištenje C/C++ omogućuje da vaš
 
 U funkciji `setup` napisali biste kod za inicijalizaciju, poput povezivanja na WiFi i cloud usluge ili inicijalizacije pinova za ulaz i izlaz. Vaš kod u funkciji `loop` sadržavao bi obradu, poput čitanja sa senzora i slanja vrijednosti u oblak. Obično biste uključili odgodu u svaku petlju, na primjer, ako želite da se podaci senzora šalju svakih 10 sekundi, dodali biste odgodu od 10 sekundi na kraju petlje kako bi mikrokontroler mogao spavati, štedeći energiju, a zatim ponovno pokrenuti petlju kada je potrebno.
 
-![Arduino skica koja prvo pokreće setup, a zatim kontinuirano pokreće loop](../../../../../translated_images/hr/arduino-sketch.79590cb837ff7a7c6a68d1afda6cab83fd53d3bb1bd9a8bf2eaf8d693a4d3ea6.png)
+![Arduino skica koja prvo pokreće setup, a zatim kontinuirano pokreće loop](../../../../../translated_images/hr/arduino-sketch.79590cb837ff7a7c.webp)
 
 ✅ Ova arhitektura programa poznata je kao *petlja događaja* ili *petlja poruka*. Mnoge aplikacije koriste ovo u pozadini i to je standard za većinu desktop aplikacija koje rade na OS-ima poput Windowsa, macOS-a ili Linuxa. `Loop` osluškuje poruke od korisničkih sučelja poput tipki ili uređaja poput tipkovnice i reagira na njih. Više možete pročitati u ovom [članku o petlji događaja](https://wikipedia.org/wiki/Event_loop).
 

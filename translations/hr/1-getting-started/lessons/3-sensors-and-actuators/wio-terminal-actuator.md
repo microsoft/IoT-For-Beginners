@@ -26,7 +26,7 @@ Grove LED dolazi kao modul s izborom LED-ova, omogućujući vam da odaberete boj
 
 Spojite LED.
 
-![Grove LED](../../../../../translated_images/hr/grove-led.6c853be93f473cf2c439cfc74bb1064732b22251a83cedf66e62f783f9cc1a79.png)
+![Grove LED](../../../../../translated_images/hr/grove-led.6c853be93f473cf2.webp)
 
 1. Odaberite svoj omiljeni LED i umetnite njegove nožice u dvije rupe na LED modulu.
 

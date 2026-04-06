@@ -203,7 +203,7 @@ Kot drugi korak 'Hello World' boste zagnali aplikacijo CounterFit in jo povezali
 
     Aplikacija se bo začela izvajati in odprla v vašem spletnem brskalniku:
 
-    ![Aplikacija CounterFit, ki se izvaja v brskalniku](../../../../../translated_images/sl/counterfit-first-run.433326358b669b31d0e99c3513cb01bfbb13724d162c99cdcc8f51ecf5f9c779.png)
+    ![Aplikacija CounterFit, ki se izvaja v brskalniku](../../../../../translated_images/sl/counterfit-first-run.433326358b669b31.webp)
 
     Označena bo kot *Disconnected*, z LED lučko v zgornjem desnem kotu, ki bo ugasnjena.
 
@@ -224,7 +224,7 @@ Kot drugi korak 'Hello World' boste zagnali aplikacijo CounterFit in jo povezali
 
 1. V tem novem terminalu zaženite datoteko `app.py` kot prej. Status CounterFit se bo spremenil v **Connected**, LED lučka pa se bo prižgala.
 
-    ![CounterFit prikazuje status Connected](../../../../../translated_images/sl/counterfit-connected.ed30b46d8f79b0921f3fc70be10366e596a89dca3f80c2224a9d9fc98fccf884.png)
+    ![CounterFit prikazuje status Connected](../../../../../translated_images/sl/counterfit-connected.ed30b46d8f79b092.webp)
 
 > 💁 To kodo lahko najdete v mapi [code/virtual-device](../../../../../1-getting-started/lessons/1-introduction-to-iot/code/virtual-device).
 

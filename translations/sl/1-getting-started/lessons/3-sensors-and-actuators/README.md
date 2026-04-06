@@ -1,6 +1,6 @@
 # Interakcija s fizičnim svetom s senzorji in aktuatorji
 
-![Sketchnote pregled te lekcije](../../../../../translated_images/sl/lesson-3.cc3b7b4cd646de598698cce043c0393fd62ef42bac2eaf60e61272cd844250f4.jpg)
+![Sketchnote pregled te lekcije](../../../../../translated_images/sl/lesson-3.cc3b7b4cd646de59.webp)
 
 > Sketchnote avtorja [Nitya Narasimhan](https://github.com/nitya). Kliknite na sliko za večjo različico.
 
@@ -92,7 +92,7 @@ Digitalni senzorji, podobno kot analogni senzorji, zaznavajo svet okoli sebe z u
 
 Najenostavnejši digitalni senzor je gumb ali stikalo. To je senzor z dvema stanjem, vklopljen ali izklopljen.
 
-![Gumb prejme 5 voltov. Ko ni pritisnjen, vrača 0 voltov, ko je pritisnjen, vrača 5 voltov](../../../../../translated_images/sl/button.eadb560b77ac45e56f523d9d8876e40444f63b419e33eb820082d461fa79490b.png)
+![Gumb prejme 5 voltov. Ko ni pritisnjen, vrača 0 voltov, ko je pritisnjen, vrača 5 voltov](../../../../../translated_images/sl/button.eadb560b77ac45e5.webp)
 
 Pini na IoT napravah, kot so GPIO pini, lahko neposredno merijo ta signal kot 0 ali 1. Če je poslana napetost enaka vrnjeni napetosti, je prebrana vrednost 1, sicer je prebrana vrednost 0. Pretvorba signala ni potrebna, saj je lahko le 1 ali 0.
 
@@ -125,7 +125,7 @@ Nekateri pogosti aktuatorji vključujejo:
 
 Sledite ustreznemu vodniku spodaj, da dodate aktuator svoji IoT napravi, ki ga bo nadzoroval senzor, in zgradite IoT nočno lučko. Ta bo zbirala ravni svetlobe iz svetlobnega senzorja in uporabljala aktuator v obliki LED, da oddaja svetlobo, ko je zaznana raven svetlobe prenizka.
 
-![Diagram poteka naloge, ki prikazuje branje in preverjanje ravni svetlobe ter nadzor LED](../../../../../translated_images/sl/assignment-1-flow.7552a51acb1a5ec858dca6e855cdbb44206434006df8ba3799a25afcdab1665d.png)
+![Diagram poteka naloge, ki prikazuje branje in preverjanje ravni svetlobe ter nadzor LED](../../../../../translated_images/sl/assignment-1-flow.7552a51acb1a5ec8.webp)
 
 * [Arduino - Wio Terminal](wio-terminal-actuator.md)
 * [Enokartični računalnik - Raspberry Pi](pi-actuator.md)
@@ -140,7 +140,7 @@ Tako kot senzorji so tudi aktuatorji lahko analogni ali digitalni.
 Analogni aktuatorji sprejmejo analogni signal in ga pretvorijo v neko vrsto interakcije, kjer se interakcija spreminja glede na dobavljeno napetost.
 
 Eden od primerov je zatemnilna luč, kot so tiste, ki jih imate morda doma. Količina napetosti, ki jo prejme luč, določa, kako svetla je.
-![Svetloba zatemnjena pri nizki napetosti in svetlejša pri višji napetosti](../../../../../translated_images/sl/dimmable-light.9ceffeb195dec1a849da718b2d71b32c35171ff7dfea9c07bbf82646a67acf6b.png)
+![Svetloba zatemnjena pri nizki napetosti in svetlejša pri višji napetosti](../../../../../translated_images/sl/dimmable-light.9ceffeb195dec1a8.webp)
 
 Tako kot pri senzorjih, IoT naprava deluje na digitalnih signalih, ne analognih. To pomeni, da za pošiljanje analognega signala IoT naprava potrebuje pretvornik iz digitalnega v analogni signal (DAC), bodisi neposredno na IoT napravi ali na priključni plošči. Ta pretvornik spremeni 0 in 1 iz IoT naprave v analogno napetost, ki jo lahko uporabi aktuator.
 
@@ -187,7 +187,7 @@ Digitalni aktuatorji, podobno kot digitalni senzorji, imajo bodisi dve stanji, k
 
 Enostaven digitalni aktuator je LED. Ko naprava pošlje digitalni signal 1, se pošlje visoka napetost, ki prižge LED. Ko se pošlje digitalni signal 0, napetost pade na 0V in LED ugasne.
 
-![LED je ugasnjen pri 0 voltih in prižgan pri 5V](../../../../../translated_images/sl/led.ec6d94f66676a174ad06d9fa9ea49c2ee89beb18b312d5c6476467c66375b07f.png)
+![LED je ugasnjen pri 0 voltih in prižgan pri 5V](../../../../../translated_images/sl/led.ec6d94f66676a174.webp)
 
 ✅ Katere druge enostavne aktuatorje z dvema stanjem si lahko zamislite? En primer je solenoid, ki je elektromagnet, ki ga je mogoče aktivirati za premikanje zapaha vrat pri zaklepanju/odklepanju vrat.
 

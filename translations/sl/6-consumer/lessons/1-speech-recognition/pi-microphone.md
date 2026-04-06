@@ -34,7 +34,7 @@ Mikrofon in zvočnike je treba povezati in konfigurirati.
 
 1. Če uporabljate ReSpeaker 2-Mics Pi HAT, lahko odstranite Grove osnovni hat in nato namestite ReSpeaker hat na njegovo mesto.
 
-    ![Raspberry Pi z ReSpeaker hat](../../../../../translated_images/sl/pi-respeaker-hat.f00fabe7dd039a93e2e0aa0fc946c9af0c6a9eb17c32fa1ca097fb4e384f69f0.png)
+    ![Raspberry Pi z ReSpeaker hat](../../../../../translated_images/sl/pi-respeaker-hat.f00fabe7dd039a93.webp)
 
     Kasneje v tej lekciji boste potrebovali gumb Grove, vendar je eden že vgrajen v ta hat, zato Grove osnovni hat ni potreben.
 

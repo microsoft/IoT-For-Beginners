@@ -36,11 +36,11 @@ Dodajte senzor razdalje v aplikacijo CounterFit.
 
     1. Izberite gumb **Add**, da ustvarite senzor razdalje.
 
-    ![Nastavitve senzorja razdalje](../../../../../translated_images/sl/counterfit-create-distance-sensor.967c9fb98f27888d95920c9784d004c972490eb71f70397fe13bd70a79a879a3.png)
+    ![Nastavitve senzorja razdalje](../../../../../translated_images/sl/counterfit-create-distance-sensor.967c9fb98f27888d.webp)
 
     Senzor razdalje bo ustvarjen in se bo pojavil na seznamu senzorjev.
 
-    ![Ustvarjen senzor razdalje](../../../../../translated_images/sl/counterfit-distance-sensor.079eefeeea0b68afc36431ce8fcbe2f09a7e4916ed1cd5cb30e696db53bc18fa.png)
+    ![Ustvarjen senzor razdalje](../../../../../translated_images/sl/counterfit-distance-sensor.079eefeeea0b68af.webp)
 
 ## Programiranje senzorja razdalje
 

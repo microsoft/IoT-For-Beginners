@@ -37,7 +37,7 @@
     >
     > На пример, ако тренирате LUIS на енглеском, али желите да користите француски као језик корисника, можете превести реченице као што је "подеси тајмер на 2 минута и 27 секунди" са енглеског на француски користећи Bing Translate, а затим користити дугме **Listen translation** да изговорите превод у ваш микрофон.
     >
-    > ![Дугме за слушање превода на Bing Translate](../../../../../translated_images/sr/bing-translate.348aa796d6efe2a92f41ea74a5cf42bb4c63d6faaa08e7f46924e072a35daa48.png)
+    > ![Дугме за слушање превода на Bing Translate](../../../../../translated_images/sr/bing-translate.348aa796d6efe2a9.webp)
 
 1. Замените декларације `recognizer_config` и `recognizer` следећим:
 

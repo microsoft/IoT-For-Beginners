@@ -1,6 +1,6 @@
 # Ohranite svojo rastlino varno
 
-![Sketchnote pregled te lekcije](../../../../../translated_images/sl/lesson-10.829c86b80b9403bb770929ee553a1d293afe50dc23121aaf9be144673ae012cc.jpg)
+![Sketchnote pregled te lekcije](../../../../../translated_images/sl/lesson-10.829c86b80b9403bb.webp)
 
 > Sketchnote avtorja [Nitya Narasimhan](https://github.com/nitya). Kliknite sliko za večjo različico.
 
@@ -52,11 +52,11 @@ To so resnični scenariji, ki se dogajajo ves čas. Nekaj primerov je bilo preds
 
 Ko se naprava poveže z IoT storitvijo, uporablja ID za identifikacijo. Težava je v tem, da je ta ID mogoče klonirati - heker bi lahko nastavil zlonamerno napravo, ki uporablja isti ID kot prava naprava, vendar pošilja lažne podatke.
 
-![Tako veljavne kot zlonamerne naprave lahko uporabljajo isti ID za pošiljanje telemetrije](../../../../../translated_images/sl/iot-device-and-hacked-device-connecting.e0671675df74d6d99eb1dedb5a670e606f698efa6202b1ad4c8ae548db299cc6.png)
+![Tako veljavne kot zlonamerne naprave lahko uporabljajo isti ID za pošiljanje telemetrije](../../../../../translated_images/sl/iot-device-and-hacked-device-connecting.e0671675df74d6d9.webp)
 
 Rešitev tega problema je pretvorba podatkov, ki se pošiljajo, v zakodirano obliko, pri čemer se uporabi vrednost, ki jo poznata le naprava in oblak. Ta postopek se imenuje *šifriranje*, vrednost, uporabljena za šifriranje podatkov, pa se imenuje *ključ za šifriranje*.
 
-![Če se uporablja šifriranje, bodo sprejeta le šifrirana sporočila, druga bodo zavrnjena](../../../../../translated_images/sl/iot-device-and-hacked-device-connecting-encryption.5941aff601fc978f979e46f2849b573564eeb4a4dc5b52f669f62745397492fb.png)
+![Če se uporablja šifriranje, bodo sprejeta le šifrirana sporočila, druga bodo zavrnjena](../../../../../translated_images/sl/iot-device-and-hacked-device-connecting-encryption.5941aff601fc978f.webp)
 
 Oblačna storitev lahko nato podatke pretvori nazaj v berljivo obliko s postopkom, imenovanim *dešifriranje*, pri čemer uporabi isti ključ za šifriranje ali *ključ za dešifriranje*. Če šifriranega sporočila ni mogoče dešifrirati s ključem, je bila naprava vdrta in sporočilo zavrnjeno.
 

@@ -1,6 +1,6 @@
 # Migrirajte logiko svoje aplikacije v oblak
 
-![Sketchnote pregled te lekcije](../../../../../translated_images/sl/lesson-9.dfe99c8e891f48e179724520da9f5794392cf9a625079281ccdcbf09bd85e1b6.jpg)
+![Sketchnote pregled te lekcije](../../../../../translated_images/sl/lesson-9.dfe99c8e891f48e1.webp)
 
 > Sketchnote avtorja [Nitya Narasimhan](https://github.com/nitya). Kliknite na sliko za večjo različico.
 
@@ -28,7 +28,7 @@ V tej lekciji bomo obravnavali:
 
 Strežniško, ali strežniško računalništvo, vključuje ustvarjanje majhnih blokov kode, ki se izvajajo v oblaku kot odziv na različne vrste dogodkov. Ko se dogodek zgodi, se vaša koda zažene in prejme podatke o dogodku. Ti dogodki lahko izhajajo iz različnih virov, vključno s spletnimi zahtevami, sporočili v vrsti, spremembami podatkov v bazi podatkov ali sporočili, ki jih IoT naprave pošljejo IoT storitvi.
 
-![Dogodki, ki se pošiljajo iz IoT storitve v strežniško storitev, vsi obdelani hkrati z več funkcijami](../../../../../translated_images/sl/iot-messages-to-serverless.0194da1cc0732bb7d0f823aed3fce54735c6b1ad3bf36089804d8aaefc0a774f.png)
+![Dogodki, ki se pošiljajo iz IoT storitve v strežniško storitev, vsi obdelani hkrati z več funkcijami](../../../../../translated_images/sl/iot-messages-to-serverless.0194da1cc0732bb7.webp)
 
 > 💁 Če ste že uporabljali sprožilce v bazi podatkov, si to lahko predstavljate kot nekaj podobnega - koda, ki se sproži ob dogodku, kot je vstavljanje vrstice.
 
@@ -54,7 +54,7 @@ Kot IoT razvijalec je strežniški model idealen. Lahko napišete funkcijo, ki s
 
 Strežniška računalniška storitev Microsofta se imenuje Azure Functions.
 
-![Logotip Azure Functions](../../../../../translated_images/sl/azure-functions-logo.1cfc8e3204c9c44aaf80fcf406fc8544d80d7f00f8d3e8ed6fed764563e17564.png)
+![Logotip Azure Functions](../../../../../translated_images/sl/azure-functions-logo.1cfc8e3204c9c44a.webp)
 
 Kratek video spodaj ponuja pregled Azure Functions.
 

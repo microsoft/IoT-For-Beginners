@@ -26,7 +26,7 @@ Grove LED je na voljo kot modul z izbiro LED diod, kar vam omogoča izbiro barve
 
 Povežite LED.
 
-![Grove LED](../../../../../translated_images/sl/grove-led.6c853be93f473cf2c439cfc74bb1064732b22251a83cedf66e62f783f9cc1a79.png)
+![Grove LED](../../../../../translated_images/sl/grove-led.6c853be93f473cf2.webp)
 
 1. Izberite svojo najljubšo LED in vstavite nogice v dve luknji na LED modulu.
 

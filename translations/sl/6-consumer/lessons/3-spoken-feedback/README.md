@@ -1,6 +1,6 @@
 # Nastavite časovnik in podajte zvočne povratne informacije
 
-![Sketchnote pregled te lekcije](../../../../../translated_images/sl/lesson-23.f38483e1d4df4828990d3f02d60e46c978b075d384ae7cb4f7bab738e107c850.jpg)
+![Sketchnote pregled te lekcije](../../../../../translated_images/sl/lesson-23.f38483e1d4df4828.webp)
 
 > Sketchnote avtorja [Nitya Narasimhan](https://github.com/nitya). Kliknite na sliko za večjo različico.
 

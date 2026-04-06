@@ -203,7 +203,7 @@ Hello World апликација за виртуелни IoT хардвер ће
 
     Апликација ће почети са радом и отворити се у вашем веб прегледачу:
 
-    ![CounterFit апликација покренута у прегледачу](../../../../../translated_images/sr/counterfit-first-run.433326358b669b31d0e99c3513cb01bfbb13724d162c99cdcc8f51ecf5f9c779.png)
+    ![CounterFit апликација покренута у прегледачу](../../../../../translated_images/sr/counterfit-first-run.433326358b669b31.webp)
 
     Биће означена као *Disconnected*, са искљученим LED-ом у горњем десном углу.
 
@@ -224,7 +224,7 @@ Hello World апликација за виртуелни IoT хардвер ће
 
 1. У овом новом терминалу, покрените `app.py` датотеку као и раније. Статус CounterFit-а ће се променити у **Connected** и LED ће се упалити.
 
-    ![CounterFit приказује статус као повезан](../../../../../translated_images/sr/counterfit-connected.ed30b46d8f79b0921f3fc70be10366e596a89dca3f80c2224a9d9fc98fccf884.png)
+    ![CounterFit приказује статус као повезан](../../../../../translated_images/sr/counterfit-connected.ed30b46d8f79b092.webp)
 
 > 💁 Овај код можете пронаћи у [code/virtual-device](../../../../../1-getting-started/lessons/1-introduction-to-iot/code/virtual-device) фасцикли.
 

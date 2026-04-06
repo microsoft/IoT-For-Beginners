@@ -1,6 +1,6 @@
 # Samodejno zalivanje rastlin
 
-![Sketchnote pregled te lekcije](../../../../../translated_images/sl/lesson-7.30b5f577d3cb8e031238751475cb519c7d6dbaea261b5df4643d086ffb2a03bb.jpg)
+![Sketchnote pregled te lekcije](../../../../../translated_images/sl/lesson-7.30b5f577d3cb8e03.webp)
 
 > Sketchnote avtorja [Nitya Narasimhan](https://github.com/nitya). Kliknite na sliko za večjo različico.
 
@@ -32,7 +32,7 @@ IoT naprave uporabljajo nizko napetost. Čeprav je to dovolj za senzorje in aktu
 
 Rešitev za to je, da črpalko povežete z zunanjim napajalnikom in uporabite aktuator za vklop črpalke, podobno kot bi prižgali luč. Za premik stikala je potrebna majhna količina energije (v obliki energije v vašem telesu), kar poveže luč z električnim omrežjem, ki deluje pri 110V/240V.
 
-![Stikalo za luč vklopi napajanje luči](../../../../../translated_images/sl/light-switch.760317ad6ab8bd6d611da5352dfe9c73a94a0822ccec7df3c8bae35da18e1658.png)
+![Stikalo za luč vklopi napajanje luči](../../../../../translated_images/sl/light-switch.760317ad6ab8bd6d.webp)
 
 > 🎓 [Električno omrežje](https://wikipedia.org/wiki/Mains_electricity) se nanaša na elektriko, ki se dostavlja domovom in podjetjem prek nacionalne infrastrukture v mnogih delih sveta.
 
@@ -72,7 +72,7 @@ Ko se ročica premakne, običajno slišite, kako se poveže z elektromagnetom z 
 
 Elektromagnet ne potrebuje veliko energije za aktivacijo in premik ročice, lahko ga upravljate z izhodom 3.3V ali 5V iz IoT razvojnega kompleta. Izhodno vezje lahko prenese veliko več energije, odvisno od releja, vključno z napetostjo električnega omrežja ali celo višjimi nivoji moči za industrijsko uporabo. Na ta način lahko IoT razvojni komplet upravlja namakalni sistem, od majhne črpalke za eno rastlino do velikega industrijskega sistema za celotno komercialno kmetijo.
 
-![Grove rele z označenim kontrolnim vezjem, izhodnim vezjem in relejem](../../../../../translated_images/sl/grove-relay-labelled.293e068f5c3c2a199bd7892f2661fdc9e10c920b535cfed317fbd6d1d4ae1168.png)
+![Grove rele z označenim kontrolnim vezjem, izhodnim vezjem in relejem](../../../../../translated_images/sl/grove-relay-labelled.293e068f5c3c2a19.webp)
 
 Zgornja slika prikazuje Grove rele. Kontrolno vezje se poveže z IoT napravo in vklopi ali izklopi rele z uporabo 3.3V ali 5V. Izhodno vezje ima dva terminala, od katerih je lahko eden napajanje ali ozemljitev. Izhodno vezje lahko prenese do 250V pri 10A, kar je dovolj za vrsto naprav, ki jih napaja električno omrežje. Na voljo so releji, ki lahko prenesejo še višje nivoje moči.
 

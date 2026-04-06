@@ -18,7 +18,7 @@ Grove GPS senzor lahko povežete z Wio Terminalom.
 
 Povežite GPS senzor.
 
-![Grove GPS senzor](../../../../../translated_images/sl/grove-gps-sensor.247943bf69b03f0d1820ef6ed10c587f9b650e8db55b936851c92412180bd3e2.png)
+![Grove GPS senzor](../../../../../translated_images/sl/grove-gps-sensor.247943bf69b03f0d.webp)
 
 1. Vstavite en konec Grove kabla v vtičnico na GPS senzorju. Kabel bo šel v vtičnico samo v eni smeri.
 

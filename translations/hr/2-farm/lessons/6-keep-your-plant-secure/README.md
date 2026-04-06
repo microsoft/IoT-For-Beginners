@@ -1,6 +1,6 @@
 # Osigurajte svoju biljku
 
-![Pregled lekcije u obliku sketchnotea](../../../../../translated_images/hr/lesson-10.829c86b80b9403bb770929ee553a1d293afe50dc23121aaf9be144673ae012cc.jpg)
+![Pregled lekcije u obliku sketchnotea](../../../../../translated_images/hr/lesson-10.829c86b80b9403bb.webp)
 
 > Sketchnote autor [Nitya Narasimhan](https://github.com/nitya). Kliknite na sliku za veću verziju.
 
@@ -52,11 +52,11 @@ Ovo su scenariji iz stvarnog svijeta i događaju se stalno. Neki primjeri su nav
 
 Kada se uređaj povezuje s IoT uslugom, koristi ID za identifikaciju. Problem je što se taj ID može klonirati - haker bi mogao postaviti zlonamjerni uređaj koji koristi isti ID kao pravi uređaj, ali šalje lažne podatke.
 
-![I pravi i zlonamjerni uređaji mogli bi koristiti isti ID za slanje telemetrije](../../../../../translated_images/hr/iot-device-and-hacked-device-connecting.e0671675df74d6d99eb1dedb5a670e606f698efa6202b1ad4c8ae548db299cc6.png)
+![I pravi i zlonamjerni uređaji mogli bi koristiti isti ID za slanje telemetrije](../../../../../translated_images/hr/iot-device-and-hacked-device-connecting.e0671675df74d6d9.webp)
 
 Rješenje za ovo je pretvaranje podataka koji se šalju u šifrirani format, koristeći neku vrijednost poznatu samo uređaju i oblaku. Ovaj proces se naziva *šifriranje*, a vrijednost koja se koristi za šifriranje podataka naziva se *ključ za šifriranje*.
 
-![Ako se koristi šifriranje, tada će biti prihvaćene samo šifrirane poruke, ostale će biti odbijene](../../../../../translated_images/hr/iot-device-and-hacked-device-connecting-encryption.5941aff601fc978f979e46f2849b573564eeb4a4dc5b52f669f62745397492fb.png)
+![Ako se koristi šifriranje, tada će biti prihvaćene samo šifrirane poruke, ostale će biti odbijene](../../../../../translated_images/hr/iot-device-and-hacked-device-connecting-encryption.5941aff601fc978f.webp)
 
 Usluga u oblaku tada može pretvoriti podatke natrag u čitljiv format, koristeći proces nazvan *dešifriranje*, koristeći ili isti ključ za šifriranje ili *ključ za dešifriranje*. Ako se šifrirana poruka ne može dešifrirati pomoću ključa, uređaj je hakiran i poruka se odbija.
 

@@ -1,6 +1,6 @@
 # Automatsko zalijevanje biljaka
 
-![Sketchnote pregled ove lekcije](../../../../../translated_images/hr/lesson-7.30b5f577d3cb8e031238751475cb519c7d6dbaea261b5df4643d086ffb2a03bb.jpg)
+![Sketchnote pregled ove lekcije](../../../../../translated_images/hr/lesson-7.30b5f577d3cb8e03.webp)
 
 > Sketchnote autorice [Nitya Narasimhan](https://github.com/nitya). Kliknite na sliku za veću verziju.
 
@@ -32,7 +32,7 @@ IoT uređaji koriste napon niske razine. Iako je to dovoljno za senzore i aktuat
 
 Rješenje za ovo je povezivanje pumpe na vanjski izvor napajanja i korištenje aktuatora za uključivanje pumpe, slično kao što biste uključili svjetlo. Potrebna je mala količina energije (u obliku energije vašeg tijela) da prstom pritisnete prekidač, čime se svjetlo povezuje s mrežnim napajanjem od 110V/240V.
 
-![Prekidač uključuje napajanje za svjetlo](../../../../../translated_images/hr/light-switch.760317ad6ab8bd6d611da5352dfe9c73a94a0822ccec7df3c8bae35da18e1658.png)
+![Prekidač uključuje napajanje za svjetlo](../../../../../translated_images/hr/light-switch.760317ad6ab8bd6d.webp)
 
 > 🎓 [Mrežna struja](https://wikipedia.org/wiki/Mains_electricity) odnosi se na električnu energiju koja se isporučuje kućama i poslovnim prostorima putem nacionalne infrastrukture u mnogim dijelovima svijeta.
 
@@ -72,7 +72,7 @@ Kada se poluga pomiče, obično možete čuti kako stvara kontakt s elektromagne
 
 Elektromagnetu nije potrebno puno energije za aktivaciju i povlačenje poluge, može se kontrolirati pomoću 3.3V ili 5V izlaza s IoT razvojnog kompleta. Izlazni krug može nositi puno više energije, ovisno o releju, uključujući mrežni napon ili čak veće razine snage za industrijsku upotrebu. Na taj način IoT razvojni komplet može kontrolirati sustav za navodnjavanje, od male pumpe za jednu biljku do masivnog industrijskog sustava za cijelu komercijalnu farmu.
 
-![Grove relej s označenim kontrolnim krugom, izlaznim krugom i relejem](../../../../../translated_images/hr/grove-relay-labelled.293e068f5c3c2a199bd7892f2661fdc9e10c920b535cfed317fbd6d1d4ae1168.png)
+![Grove relej s označenim kontrolnim krugom, izlaznim krugom i relejem](../../../../../translated_images/hr/grove-relay-labelled.293e068f5c3c2a19.webp)
 
 Slika iznad prikazuje Grove relej. Kontrolni krug povezuje se s IoT uređajem i uključuje ili isključuje relej koristeći 3.3V ili 5V. Izlazni krug ima dva terminala, bilo koji može biti napajanje ili uzemljenje. Izlazni krug može podnijeti do 250V pri 10A, što je dovoljno za niz uređaja na mrežno napajanje. Možete nabaviti releje koji mogu podnijeti još veće razine snage.
 

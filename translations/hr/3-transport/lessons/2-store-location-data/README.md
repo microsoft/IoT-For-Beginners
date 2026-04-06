@@ -1,6 +1,6 @@
 # Podaci o lokaciji trgovine
 
-![Sketchnote pregled ove lekcije](../../../../../translated_images/hr/lesson-12.ca7f53039712a3ec14ad6474d8445361c84adab643edc53fa6269b77895606bb.jpg)
+![Sketchnote pregled ove lekcije](../../../../../translated_images/hr/lesson-12.ca7f53039712a3ec.webp)
 
 > Sketchnote od [Nitya Narasimhan](https://github.com/nitya). Kliknite na sliku za veću verziju.
 
@@ -75,7 +75,7 @@ NoSQL baze podataka nazivaju se NoSQL jer nemaju istu krutu strukturu kao SQL ba
 
 > 💁 Unatoč njihovom nazivu, neke NoSQL baze podataka omogućuju korištenje SQL-a za upite podataka.
 
-![Dokumenti u mapama u NoSQL bazi podataka](../../../../../translated_images/hr/noqsl-database.62d24ccf5b73f60d35c245a8533f1c7147c0928e955b82cb290b2e184bb434df.png)
+![Dokumenti u mapama u NoSQL bazi podataka](../../../../../translated_images/hr/noqsl-database.62d24ccf5b73f60d.webp)
 
 NoSQL baze podataka nemaju unaprijed definiranu shemu koja ograničava način pohrane podataka, umjesto toga možete umetnuti bilo koje nestrukturirane podatke, obično koristeći JSON dokumente. Ovi dokumenti mogu se organizirati u mape, slično datotekama na vašem računalu. Svaki dokument može imati različita polja od drugih dokumenata - na primjer, ako pohranjujete IoT podatke s vaših poljoprivrednih vozila, neki mogu imati polja za podatke akcelerometra i brzine, drugi mogu imati polja za temperaturu u prikolici. Ako biste dodali novu vrstu kamiona, poput onog s ugrađenim vagama za praćenje težine prevezenih proizvoda, vaš IoT uređaj mogao bi dodati ovo novo polje i ono bi se moglo pohraniti bez ikakvih promjena u bazi podataka.
 
@@ -89,7 +89,7 @@ U ovoj lekciji koristit ćete NoSQL pohranu za pohranu IoT podataka.
 
 U prethodnoj lekciji ste prikupili GPS podatke s GPS senzora povezanog s vašim IoT uređajem. Da biste pohranili ove IoT podatke u oblaku, morate ih poslati IoT usluzi. Ponovno ćete koristiti Azure IoT Hub, istu IoT uslugu u oblaku koju ste koristili u prethodnom projektu.
 
-![Slanje GPS telemetrije s IoT uređaja u IoT Hub](../../../../../translated_images/hr/gps-telemetry-iot-hub.8115335d51cd2c1285d20e9d1b18cf685e59a8e093e7797291ef173445af6f3d.png)
+![Slanje GPS telemetrije s IoT uređaja u IoT Hub](../../../../../translated_images/hr/gps-telemetry-iot-hub.8115335d51cd2c12.webp)
 
 ### Zadatak - slanje GPS podataka u IoT Hub
 
@@ -171,7 +171,7 @@ Podaci hladnog puta pohranjuju se u skladištima podataka - bazama podataka diza
 
 Kada podaci teku u vaš IoT Hub, možete napisati serverless kod za slušanje događaja objavljenih na Event-Hub kompatibilnom endpointu. Ovo je topli put - ovi podaci će se pohraniti i koristiti u sljedećoj lekciji za izvještavanje o putovanju.
 
-![Slanje GPS telemetrije s IoT uređaja u IoT Hub, zatim u Azure Functions putem okidača event hub-a](../../../../../translated_images/hr/gps-telemetry-iot-hub-functions.24d3fa5592455e9f4e2fe73856b40c3915a292b90263c31d652acfd976cfedd8.png)
+![Slanje GPS telemetrije s IoT uređaja u IoT Hub, zatim u Azure Functions putem okidača event hub-a](../../../../../translated_images/hr/gps-telemetry-iot-hub-functions.24d3fa5592455e9f.webp)
 
 ### Zadatak - obrada GPS događaja pomoću serverless koda
 
@@ -193,7 +193,7 @@ Kada podaci teku u vaš IoT Hub, možete napisati serverless kod za slušanje do
 
 ## Azure Storage računi
 
-![Logo Azure Storage-a](../../../../../translated_images/hr/azure-storage-logo.605c0f602c640d482a80f1b35a2629a32d595711b7ab1d7ceea843250615ff32.png)
+![Logo Azure Storage-a](../../../../../translated_images/hr/azure-storage-logo.605c0f602c640d48.webp)
 
 Azure Storage računi su univerzalna usluga za pohranu koja može pohranjivati podatke na različite načine. Možete pohranjivati podatke kao blobove, u redovima, u tablicama ili kao datoteke, i sve to istovremeno.
 

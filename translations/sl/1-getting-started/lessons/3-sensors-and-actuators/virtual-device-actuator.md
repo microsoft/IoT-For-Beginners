@@ -36,11 +36,11 @@ Dodajte LED v aplikacijo CounterFit.
 
     1. Izberite gumb **Add**, da ustvarite LED na pinu 5.
 
-    ![Nastavitve LED](../../../../../translated_images/sl/counterfit-create-led.ba9db1c9b8c622a635d6dfae5cdc4e70c2b250635bd4f0601c6cf0bd22b7ba46.png)
+    ![Nastavitve LED](../../../../../translated_images/sl/counterfit-create-led.ba9db1c9b8c622a6.webp)
 
     LED bo ustvarjen in se bo pojavil na seznamu aktuatorjev.
 
-    ![Ustvarjen LED](../../../../../translated_images/sl/counterfit-led.c0ab02de6d256ad84d9bad4d67a7faa709f0ea83e410cfe9b5561ef0cef30b1c.png)
+    ![Ustvarjen LED](../../../../../translated_images/sl/counterfit-led.c0ab02de6d256ad8.webp)
 
     Ko je LED ustvarjen, lahko spremenite barvo z izbiro *Color* pickerja. Izberite gumb **Set**, da spremenite barvo po izbiri.
 

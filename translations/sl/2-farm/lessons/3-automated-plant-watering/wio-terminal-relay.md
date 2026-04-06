@@ -18,7 +18,7 @@ Grove rele lahko povežete na digitalni priključek Wio Terminala.
 
 Povežite rele.
 
-![Grove rele](../../../../../translated_images/sl/grove-relay.d426958ca210fbd0fb7983d7edc069d46c73a8b0a099d94797bd756f7b6bb6be.png)
+![Grove rele](../../../../../translated_images/sl/grove-relay.d426958ca210fbd0.webp)
 
 1. Vstavite en konec Grove kabla v vtičnico na releju. Kabel bo šel noter samo v eno smer.
 
