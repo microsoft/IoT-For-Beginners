@@ -1,6 +1,6 @@
 # Unterstützung mehrerer Sprachen
 
-![Eine Sketchnote-Übersicht dieser Lektion](../../../../../translated_images/de/lesson-24.4246968ed058510ab275052e87ef9aa89c7b2f938915d103c605c04dc6cd5bb7.jpg)
+![Eine Sketchnote-Übersicht dieser Lektion](../../../../../translated_images/de/lesson-24.4246968ed058510a.webp)
 
 > Sketchnote von [Nitya Narasimhan](https://github.com/nitya). Klicken Sie auf das Bild für eine größere Version.
 
@@ -74,7 +74,7 @@ Es gibt eine Reihe von KI-Diensten, die von Ihren Anwendungen genutzt werden kö
 
 ### Cognitive Services Sprachdienst
 
-![Das Logo des Sprachdienstes](../../../../../translated_images/de/azure-speech-logo.a1f08c4befb0159f2cb5d692d3baf5b599e7b44759d316da907bda1508f46a4a.png)
+![Das Logo des Sprachdienstes](../../../../../translated_images/de/azure-speech-logo.a1f08c4befb0159f.webp)
 
 Der Sprachdienst, den Sie in den letzten Lektionen verwendet haben, verfügt über Übersetzungsfunktionen für die Spracherkennung. Wenn Sie Sprache erkennen, können Sie nicht nur den Text der Sprache in derselben Sprache anfordern, sondern auch in anderen Sprachen.
 
@@ -82,7 +82,7 @@ Der Sprachdienst, den Sie in den letzten Lektionen verwendet haben, verfügt üb
 
 ### Cognitive Services Übersetzungsdienst
 
-![Das Logo des Übersetzungsdienstes](../../../../../translated_images/de/azure-translator-logo.c6ed3a4a433edfd2f11577eca105412c50b8396b194cbbd730723dd1d0793bcd.png)
+![Das Logo des Übersetzungsdienstes](../../../../../translated_images/de/azure-translator-logo.c6ed3a4a433edfd2.webp)
 
 Der Übersetzungsdienst ist ein dedizierter Übersetzungsdienst, der Text von einer Sprache in eine oder mehrere Zielsprachen übersetzen kann. Neben der Übersetzung unterstützt er eine Vielzahl zusätzlicher Funktionen, einschließlich der Maskierung von Obszönitäten. Er ermöglicht es Ihnen auch, eine spezifische Übersetzung für ein bestimmtes Wort oder einen bestimmten Satz bereitzustellen, um mit Begriffen zu arbeiten, die Sie nicht übersetzen möchten, oder eine spezifische, bekannte Übersetzung zu verwenden.
 

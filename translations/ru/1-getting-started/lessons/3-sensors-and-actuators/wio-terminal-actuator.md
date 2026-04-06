@@ -26,7 +26,7 @@ Otherwise
 
 Подключите светодиод.
 
-![Светодиод Grove](../../../../../translated_images/ru/grove-led.6c853be93f473cf2c439cfc74bb1064732b22251a83cedf66e62f783f9cc1a79.png)
+![Светодиод Grove](../../../../../translated_images/ru/grove-led.6c853be93f473cf2.webp)
 
 1. Выберите понравившийся светодиод и вставьте ножки в два отверстия на модуле светодиода.
 

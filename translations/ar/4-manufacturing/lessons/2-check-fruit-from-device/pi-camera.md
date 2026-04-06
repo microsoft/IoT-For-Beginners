@@ -16,7 +16,7 @@
 
 ### المهمة - توصيل الكاميرا
 
-![كاميرا Raspberry Pi](../../../../../translated_images/ar/pi-camera-module.4278753c31bd6e757aa2b858be97d72049f71616278cefe4fb5abb485b40a078.png)
+![كاميرا Raspberry Pi](../../../../../translated_images/ar/pi-camera-module.4278753c31bd6e75.webp)
 
 1. قم بإيقاف تشغيل Raspberry Pi.
 
@@ -24,17 +24,17 @@
 
     يمكنك العثور على رسم متحرك يوضح كيفية فتح المشبك وإدخال الكابل في [وثائق Raspberry Pi للبدء باستخدام وحدة الكاميرا](https://projects.raspberrypi.org/en/projects/getting-started-with-picamera/2).
 
-    ![الكابل الشريطي مُدخل في وحدة الكاميرا](../../../../../translated_images/ar/pi-camera-ribbon-cable.0bf82acd251611c21ac616f082849413e2b322a261d0e4f8fec344248083b07e.png)
+    ![الكابل الشريطي مُدخل في وحدة الكاميرا](../../../../../translated_images/ar/pi-camera-ribbon-cable.0bf82acd251611c2.webp)
 
 1. قم بإزالة قبعة Grove Base Hat من Raspberry Pi.
 
 1. مرر الكابل الشريطي عبر فتحة الكاميرا في قبعة Grove Base Hat. تأكد من أن الجانب الأزرق من الكابل يواجه المنافذ التناظرية المسمّاة **A0**، **A1** وما إلى ذلك.
 
-    ![الكابل الشريطي يمر عبر قبعة Grove Base Hat](../../../../../translated_images/ar/grove-base-hat-ribbon-cable.501fed202fcf73b11b2b68f6d246189f7d15d3e4423c572ddee79d77b4632b47.png)
+    ![الكابل الشريطي يمر عبر قبعة Grove Base Hat](../../../../../translated_images/ar/grove-base-hat-ribbon-cable.501fed202fcf73b1.webp)
 
 1. أدخل الكابل الشريطي في منفذ الكاميرا على Raspberry Pi. مرة أخرى، اسحب المشبك البلاستيكي الأسود لأعلى، أدخل الكابل، ثم ادفع المشبك إلى مكانه. يجب أن يكون الجانب الأزرق من الكابل مواجهًا لمنافذ USB والإيثرنت.
 
-    ![الكابل الشريطي متصل بمنفذ الكاميرا على Raspberry Pi](../../../../../translated_images/ar/pi-camera-socket-ribbon-cable.a18309920b11800911082ed7aa6fb28e6d9be3a022e4079ff990016cae3fca10.png)
+    ![الكابل الشريطي متصل بمنفذ الكاميرا على Raspberry Pi](../../../../../translated_images/ar/pi-camera-socket-ribbon-cable.a18309920b118009.webp)
 
 1. أعد تركيب قبعة Grove Base Hat.
 
@@ -101,7 +101,7 @@
 
     السطر `camera.rotation = 0` يضبط دوران الصورة. يدخل الكابل الشريطي في الجزء السفلي من الكاميرا، ولكن إذا تم تدوير الكاميرا لتسهيل توجيهها نحو العنصر الذي تريد تصنيفه، يمكنك تغيير هذا السطر إلى عدد درجات الدوران.
 
-    ![الكاميرا معلقة فوق علبة مشروب](../../../../../translated_images/ar/pi-camera-upside-down.5376961ba31459883362124152ad6b823d5ac5fc14e85f317e22903bd681c2b6.png)
+    ![الكاميرا معلقة فوق علبة مشروب](../../../../../translated_images/ar/pi-camera-upside-down.5376961ba3145988.webp)
 
     على سبيل المثال، إذا علقت الكابل الشريطي فوق شيء بحيث يكون في الجزء العلوي من الكاميرا، قم بضبط الدوران ليكون 180:
 

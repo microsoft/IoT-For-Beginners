@@ -67,7 +67,7 @@ Der Code, den Sie zur Klassifizierung von Bildern verwendet haben, ist dem Code 
 
     Sie können das aufgenommene Bild und diese Werte im **Predictions**-Tab in Custom Vision sehen.
 
-    ![4 Dosen Tomatenmark auf einem Regal mit Vorhersagen für die 4 Erkennungen von 35,8 %, 33,5 %, 25,7 % und 16,6 %](../../../../../translated_images/de/custom-vision-stock-prediction.942266ab1bcca3410ecdf23643b9f5f570cfab2345235074e24c51f285777613.png)
+    ![4 Dosen Tomatenmark auf einem Regal mit Vorhersagen für die 4 Erkennungen von 35,8 %, 33,5 %, 25,7 % und 16,6 %](../../../../../translated_images/de/custom-vision-stock-prediction.942266ab1bcca341.webp)
 
 > 💁 Sie finden diesen Code im Ordner [code-detect/pi](../../../../../5-retail/lessons/2-check-stock-device/code-detect/pi) oder [code-detect/virtual-iot-device](../../../../../5-retail/lessons/2-check-stock-device/code-detect/virtual-iot-device).
 

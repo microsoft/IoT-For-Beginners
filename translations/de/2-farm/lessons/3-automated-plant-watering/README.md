@@ -1,6 +1,6 @@
 # Automatische Pflanzenbewässerung
 
-![Eine Sketchnote-Übersicht dieser Lektion](../../../../../translated_images/de/lesson-7.30b5f577d3cb8e031238751475cb519c7d6dbaea261b5df4643d086ffb2a03bb.jpg)
+![Eine Sketchnote-Übersicht dieser Lektion](../../../../../translated_images/de/lesson-7.30b5f577d3cb8e03.webp)
 
 > Sketchnote von [Nitya Narasimhan](https://github.com/nitya). Klicken Sie auf das Bild für eine größere Version.
 
@@ -32,7 +32,7 @@ IoT-Geräte verwenden eine niedrige Spannung. Während dies für Sensoren und Ni
 
 Die Lösung besteht darin, eine Pumpe an eine externe Stromversorgung anzuschließen und einen Aktor zu verwenden, um die Pumpe einzuschalten, ähnlich wie Sie ein Licht einschalten würden. Es braucht nur eine winzige Menge Energie (in Form der Energie in Ihrem Körper), um mit Ihrem Finger einen Schalter umzulegen, und dieser verbindet das Licht mit dem Stromnetz, das mit 110V/240V läuft.
 
-![Ein Lichtschalter schaltet den Strom für ein Licht ein](../../../../../translated_images/de/light-switch.760317ad6ab8bd6d611da5352dfe9c73a94a0822ccec7df3c8bae35da18e1658.png)
+![Ein Lichtschalter schaltet den Strom für ein Licht ein](../../../../../translated_images/de/light-switch.760317ad6ab8bd6d.webp)
 
 > 🎓 [Netzstrom](https://wikipedia.org/wiki/Mains_electricity) bezeichnet die Elektrizität, die in vielen Teilen der Welt über nationale Infrastrukturen an Haushalte und Unternehmen geliefert wird.
 
@@ -72,7 +72,7 @@ Wenn sich der Hebel bewegt, können Sie normalerweise hören, wie er mit einem g
 
 Der Elektromagnet benötigt nicht viel Strom, um aktiviert zu werden und den Hebel zu ziehen. Er kann mit der 3,3V- oder 5V-Ausgabe eines IoT-Entwicklungskits gesteuert werden. Der Ausgangskreis kann jedoch viel mehr Strom führen, je nach Relais, einschließlich Netzspannung oder sogar höherer Leistungsstufen für industrielle Anwendungen. So kann ein IoT-Entwicklungskit ein Bewässerungssystem steuern, von einer kleinen Pumpe für eine einzelne Pflanze bis hin zu einem riesigen industriellen System für eine ganze kommerzielle Farm.
 
-![Ein Grove-Relais mit beschriftetem Steuerkreis, Ausgangskreis und Relais](../../../../../translated_images/de/grove-relay-labelled.293e068f5c3c2a199bd7892f2661fdc9e10c920b535cfed317fbd6d1d4ae1168.png)
+![Ein Grove-Relais mit beschriftetem Steuerkreis, Ausgangskreis und Relais](../../../../../translated_images/de/grove-relay-labelled.293e068f5c3c2a19.webp)
 
 Das obige Bild zeigt ein Grove-Relais. Der Steuerkreis wird an ein IoT-Gerät angeschlossen und schaltet das Relais mit 3,3V oder 5V ein oder aus. Der Ausgangskreis hat zwei Anschlüsse, von denen einer Strom oder Masse sein kann. Der Ausgangskreis kann bis zu 250V bei 10A handhaben, genug für eine Reihe von netzbetriebenen Geräten. Es gibt Relais, die noch höhere Leistungsstufen bewältigen können.
 

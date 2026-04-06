@@ -18,7 +18,7 @@
 
 Подключите GPS-датчик.
 
-![Датчик Grove GPS](../../../../../translated_images/ru/grove-gps-sensor.247943bf69b03f0d1820ef6ed10c587f9b650e8db55b936851c92412180bd3e2.png)
+![Датчик Grove GPS](../../../../../translated_images/ru/grove-gps-sensor.247943bf69b03f0d.webp)
 
 1. Вставьте один конец кабеля Grove в разъем на GPS-датчике. Он вставляется только в одном направлении.
 

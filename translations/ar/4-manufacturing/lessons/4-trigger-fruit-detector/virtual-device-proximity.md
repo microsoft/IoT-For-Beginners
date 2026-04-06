@@ -36,11 +36,11 @@
 
     1. اختر زر **Add** لإنشاء مستشعر المسافة.
 
-    ![إعدادات مستشعر المسافة](../../../../../translated_images/ar/counterfit-create-distance-sensor.967c9fb98f27888d95920c9784d004c972490eb71f70397fe13bd70a79a879a3.png)
+    ![إعدادات مستشعر المسافة](../../../../../translated_images/ar/counterfit-create-distance-sensor.967c9fb98f27888d.webp)
 
     سيتم إنشاء مستشعر المسافة وسيظهر في قائمة المستشعرات.
 
-    ![تم إنشاء مستشعر المسافة](../../../../../translated_images/ar/counterfit-distance-sensor.079eefeeea0b68afc36431ce8fcbe2f09a7e4916ed1cd5cb30e696db53bc18fa.png)
+    ![تم إنشاء مستشعر المسافة](../../../../../translated_images/ar/counterfit-distance-sensor.079eefeeea0b68af.webp)
 
 ## برمجة مستشعر المسافة
 

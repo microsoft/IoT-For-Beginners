@@ -13,7 +13,7 @@ I²C hat einen Bus, der aus 2 Hauptleitungen sowie 2 Stromleitungen besteht:
 | VCC | Versorgungsspannung | Die Stromversorgung für die Geräte. Diese ist mit den SDA- und SCL-Leitungen verbunden, um deren Stromversorgung über einen Pull-up-Widerstand bereitzustellen, der das Signal ausschaltet, wenn kein Gerät der Controller ist. |
 | GND | Masse | Dies stellt eine gemeinsame Masse für den Stromkreis bereit. |
 
-![I2C-Bus mit 3 Geräten, die an die SDA- und SCL-Leitungen angeschlossen sind und eine gemeinsame Masseleitung teilen](../../../../../translated_images/de/i2c.83da845dde02256bdd462dbe0d5145461416b74930571b89d1ae142841eeb584.png)
+![I2C-Bus mit 3 Geräten, die an die SDA- und SCL-Leitungen angeschlossen sind und eine gemeinsame Masseleitung teilen](../../../../../translated_images/de/i2c.83da845dde02256b.webp)
 
 Um Daten zu senden, gibt ein Gerät eine Startbedingung aus, um anzuzeigen, dass es bereit ist, Daten zu senden. Es wird dann zum Controller. Der Controller sendet anschließend die Adresse des Geräts, mit dem er kommunizieren möchte, sowie die Information, ob er Daten lesen oder schreiben möchte. Nachdem die Daten übertragen wurden, sendet der Controller eine Stoppbedingung, um anzuzeigen, dass er fertig ist. Danach kann ein anderes Gerät zum Controller werden und Daten senden oder empfangen.
 

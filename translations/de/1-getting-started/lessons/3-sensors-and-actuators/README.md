@@ -1,6 +1,6 @@
 # Interaktion mit der physischen Welt durch Sensoren und Aktoren
 
-![Eine Sketchnote-Übersicht dieser Lektion](../../../../../translated_images/de/lesson-3.cc3b7b4cd646de598698cce043c0393fd62ef42bac2eaf60e61272cd844250f4.jpg)
+![Eine Sketchnote-Übersicht dieser Lektion](../../../../../translated_images/de/lesson-3.cc3b7b4cd646de59.webp)
 
 > Sketchnote von [Nitya Narasimhan](https://github.com/nitya). Klicken Sie auf das Bild für eine größere Version.
 
@@ -92,7 +92,7 @@ Digitale Sensoren erfassen wie analoge Sensoren die Welt um sie herum durch Änd
 
 Der einfachste digitale Sensor ist ein Knopf oder Schalter. Dies ist ein Sensor mit zwei Zuständen, ein oder aus.
 
-![Ein Knopf erhält 5 Volt. Wenn er nicht gedrückt wird, gibt er 0 Volt zurück, wenn er gedrückt wird, gibt er 5 Volt zurück](../../../../../translated_images/de/button.eadb560b77ac45e56f523d9d8876e40444f63b419e33eb820082d461fa79490b.png)
+![Ein Knopf erhält 5 Volt. Wenn er nicht gedrückt wird, gibt er 0 Volt zurück, wenn er gedrückt wird, gibt er 5 Volt zurück](../../../../../translated_images/de/button.eadb560b77ac45e5.webp)
 
 Pins an IoT-Geräten wie GPIO-Pins können dieses Signal direkt als 0 oder 1 messen. Wenn die gesendete Spannung mit der zurückgegebenen Spannung übereinstimmt, wird der Wert 1 gelesen, andernfalls wird der Wert 0 gelesen. Es ist keine Umwandlung des Signals erforderlich, es kann nur 1 oder 0 sein.
 
@@ -125,7 +125,7 @@ Einige gängige Aktoren sind:
 
 Folgen Sie der entsprechenden Anleitung unten, um einen Aktor zu Ihrem IoT-Gerät hinzuzufügen, der durch den Sensor gesteuert wird, um ein IoT-Nachtlicht zu bauen. Es wird Lichtpegel vom Lichtsensor erfassen und einen Aktor in Form einer LED verwenden, um Licht abzugeben, wenn der erkannte Lichtpegel zu niedrig ist.
 
-![Ein Flussdiagramm der Aufgabe, das zeigt, wie Lichtpegel gelesen und überprüft werden und die LED gesteuert wird](../../../../../translated_images/de/assignment-1-flow.7552a51acb1a5ec858dca6e855cdbb44206434006df8ba3799a25afcdab1665d.png)
+![Ein Flussdiagramm der Aufgabe, das zeigt, wie Lichtpegel gelesen und überprüft werden und die LED gesteuert wird](../../../../../translated_images/de/assignment-1-flow.7552a51acb1a5ec8.webp)
 
 * [Arduino - Wio Terminal](wio-terminal-actuator.md)
 * [Einplatinencomputer - Raspberry Pi](pi-actuator.md)
@@ -140,7 +140,7 @@ Wie Sensoren sind Aktoren entweder analog oder digital.
 Analoge Aktoren nehmen ein analoges Signal und wandeln es in eine Art Interaktion um, wobei sich die Interaktion je nach angelegter Spannung ändert.
 
 Ein Beispiel ist ein dimmbares Licht, wie Sie es vielleicht in Ihrem Haus haben. Die Menge der angelegten Spannung bestimmt, wie hell es leuchtet.
-![Eine Lampe, die bei niedriger Spannung gedimmt und bei höherer Spannung heller ist](../../../../../translated_images/de/dimmable-light.9ceffeb195dec1a849da718b2d71b32c35171ff7dfea9c07bbf82646a67acf6b.png)
+![Eine Lampe, die bei niedriger Spannung gedimmt und bei höherer Spannung heller ist](../../../../../translated_images/de/dimmable-light.9ceffeb195dec1a8.webp)
 
 Wie bei Sensoren arbeiten IoT-Geräte mit digitalen Signalen, nicht mit analogen. Das bedeutet, dass ein IoT-Gerät einen Digital-zu-Analog-Wandler (DAC) benötigt, entweder direkt im Gerät oder auf einer Anschlussplatine, um ein analoges Signal zu senden. Dieser Wandler konvertiert die 0en und 1en des IoT-Geräts in eine analoge Spannung, die der Aktuator verwenden kann.
 
@@ -187,7 +187,7 @@ Digitale Aktuatoren, wie digitale Sensoren, haben entweder zwei Zustände, die d
 
 Ein einfacher digitaler Aktuator ist eine LED. Wenn ein Gerät ein digitales Signal von 1 sendet, wird eine hohe Spannung gesendet, die die LED zum Leuchten bringt. Wenn ein digitales Signal von 0 gesendet wird, fällt die Spannung auf 0V und die LED erlischt.
 
-![Eine LED ist bei 0 Volt aus und bei 5V an](../../../../../translated_images/de/led.ec6d94f66676a174ad06d9fa9ea49c2ee89beb18b312d5c6476467c66375b07f.png)
+![Eine LED ist bei 0 Volt aus und bei 5V an](../../../../../translated_images/de/led.ec6d94f66676a174.webp)
 
 ✅ Welche anderen einfachen 2-Zustands-Aktuatoren fallen dir ein? Ein Beispiel ist ein Solenoid, ein Elektromagnet, der aktiviert werden kann, um Dinge wie das Bewegen eines Türbolzens zum Verriegeln/Entriegeln einer Tür zu erledigen.
 

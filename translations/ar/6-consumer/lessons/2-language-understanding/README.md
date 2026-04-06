@@ -1,6 +1,6 @@
 # فهم اللغة
 
-![نظرة عامة على هذا الدرس](../../../../../translated_images/ar/lesson-22.6148ea28500d9e00c396aaa2649935fb6641362c8f03d8e5e90a676977ab01dd.jpg)
+![نظرة عامة على هذا الدرس](../../../../../translated_images/ar/lesson-22.6148ea28500d9e00.webp)
 
 > رسم توضيحي بواسطة [نيتيا ناراسيمهان](https://github.com/nitya). اضغط على الصورة لنسخة أكبر.
 
@@ -46,7 +46,7 @@
 
 ## إنشاء نموذج لفهم اللغة
 
-![شعار LUIS](../../../../../translated_images/ar/luis-logo.5cb4f3e88c020ee6df4f614e8831f4a4b6809a7247bf52085fb48d629ef9be52.png)
+![شعار LUIS](../../../../../translated_images/ar/luis-logo.5cb4f3e88c020ee6.webp)
 
 يمكنك إنشاء نماذج لفهم اللغة باستخدام LUIS، وهي خدمة لفهم اللغة مقدمة من مايكروسوفت كجزء من خدمات Cognitive Services.
 
@@ -169,7 +169,7 @@
 
 1. أثناء إدخال كل مثال، سيبدأ LUIS في اكتشاف الكيانات، وسيقوم بتسطيرها ووضع تسميات عليها.
 
-    ![الأمثلة مع الأرقام ووحدات الوقت مسطرة بواسطة LUIS](../../../../../translated_images/ar/luis-intent-examples.25716580b2d2723cf1bafdf277d015c7f046d8cfa20f27bddf3a0873ec45fab7.png)
+    ![الأمثلة مع الأرقام ووحدات الوقت مسطرة بواسطة LUIS](../../../../../translated_images/ar/luis-intent-examples.25716580b2d2723c.webp)
 
 ### المهمة - تدريب واختبار النموذج
 

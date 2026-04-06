@@ -203,7 +203,7 @@
 
     سيبدأ التطبيق في التشغيل ويفتح في متصفح الويب الخاص بك:
 
-    ![The Counter Fit app running in a browser](../../../../../translated_images/ar/counterfit-first-run.433326358b669b31d0e99c3513cb01bfbb13724d162c99cdcc8f51ecf5f9c779.png)
+    ![The Counter Fit app running in a browser](../../../../../translated_images/ar/counterfit-first-run.433326358b669b31.webp)
 
     سيتم تصنيفه كـ *Disconnected*، مع إطفاء LED في الزاوية العلوية اليمنى.
 
@@ -224,7 +224,7 @@
 
 1. في هذه الطرفية الجديدة، قم بتشغيل ملف `app.py` كما كان من قبل. ستتغير حالة CounterFit إلى **Connected** وسيضيء LED.
 
-    ![Counter Fit showing as connected](../../../../../translated_images/ar/counterfit-connected.ed30b46d8f79b0921f3fc70be10366e596a89dca3f80c2224a9d9fc98fccf884.png)
+    ![Counter Fit showing as connected](../../../../../translated_images/ar/counterfit-connected.ed30b46d8f79b092.webp)
 
 > 💁 يمكنك العثور على هذا الكود في مجلد [code/virtual-device](../../../../../1-getting-started/lessons/1-introduction-to-iot/code/virtual-device).
 

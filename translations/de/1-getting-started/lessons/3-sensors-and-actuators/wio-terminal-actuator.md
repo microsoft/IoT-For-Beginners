@@ -26,7 +26,7 @@ Die Grove-LED wird als Modul mit einer Auswahl an LEDs geliefert, sodass du die 
 
 Verbinde die LED.
 
-![Eine Grove-LED](../../../../../translated_images/de/grove-led.6c853be93f473cf2c439cfc74bb1064732b22251a83cedf66e62f783f9cc1a79.png)
+![Eine Grove-LED](../../../../../translated_images/de/grove-led.6c853be93f473cf2.webp)
 
 1. Wähle deine Lieblings-LED aus und stecke die Beine in die beiden Löcher des LED-Moduls.
 

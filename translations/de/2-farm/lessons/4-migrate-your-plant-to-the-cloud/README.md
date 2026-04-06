@@ -1,6 +1,6 @@
 # Migrieren Sie Ihre Pflanze in die Cloud
 
-![Eine Sketchnote-Übersicht dieser Lektion](../../../../../translated_images/de/lesson-8.3f21f3c11159e6a0a376351973ea5724d5de68fa23b4288853a174bed9ac48c3.jpg)
+![Eine Sketchnote-Übersicht dieser Lektion](../../../../../translated_images/de/lesson-8.3f21f3c11159e6a0.webp)
 
 > Sketchnote von [Nitya Narasimhan](https://github.com/nitya). Klicken Sie auf das Bild für eine größere Version.
 
@@ -46,8 +46,8 @@ Das konnte sehr teuer sein, eine breite Palette von qualifizierten Mitarbeitern 
 
 Die Cloud wird oft scherzhaft als "der Computer von jemand anderem" bezeichnet. Die ursprüngliche Idee war einfach – anstatt Computer zu kaufen, mietet man die Computer von jemand anderem. Jemand anderes, ein Cloud-Computing-Anbieter, würde riesige Rechenzentren verwalten. Sie wären verantwortlich für den Kauf und die Installation der Hardware, die Verwaltung von Strom und Kühlung, Netzwerken, Gebäudesicherheit, Hardware- und Software-Updates, alles. Als Kunde mietet man die benötigten Computer, mietet mehr, wenn die Nachfrage steigt, und reduziert die Anzahl, wenn die Nachfrage sinkt. Diese Cloud-Rechenzentren befinden sich weltweit.
 
-![Ein Microsoft Cloud-Rechenzentrum](../../../../../translated_images/de/azure-region-existing.73f704604f2aa6cb9b5a49ed40e93d4fd81ae3f4e6af4a8ca504023902832f56.png)
-![Geplante Erweiterung eines Microsoft Cloud-Rechenzentrums](../../../../../translated_images/de/azure-region-planned-expansion.a5074a1e8af74f156a73552d502429e5b126ea5019274d767ecb4b9afdad442b.png)
+![Ein Microsoft Cloud-Rechenzentrum](../../../../../translated_images/de/azure-region-existing.73f704604f2aa6cb.webp)
+![Geplante Erweiterung eines Microsoft Cloud-Rechenzentrums](../../../../../translated_images/de/azure-region-planned-expansion.a5074a1e8af74f15.webp)
 
 Diese Rechenzentren können mehrere Quadratkilometer groß sein. Die obigen Bilder wurden vor einigen Jahren in einem Microsoft Cloud-Rechenzentrum aufgenommen und zeigen die ursprüngliche Größe sowie eine geplante Erweiterung. Das für die Erweiterung geräumte Gebiet umfasst über 5 Quadratkilometer.
 
@@ -108,11 +108,11 @@ IoT-Dienste in der Cloud lösen diese Probleme. Sie werden von großen Cloud-Anb
 
 IoT-Geräte verbinden sich entweder über ein Geräte-SDK (eine Bibliothek, die Code für die Funktionen des Dienstes bereitstellt) oder direkt über ein Kommunikationsprotokoll wie MQTT oder HTTP mit einem Cloud-Dienst. Das Geräte-SDK ist normalerweise der einfachste Weg, da es alles für Sie erledigt, wie z. B. die Themen, die veröffentlicht oder abonniert werden sollen, und die Handhabung der Sicherheit.
 
-![Geräte verbinden sich mit einem Dienst über ein Geräte-SDK. Servercode verbindet sich ebenfalls über ein SDK](../../../../../translated_images/de/iot-service-connectivity.7e873847921a5d6fd60d0ba3a943210194518cee0d4e362476624316443275c3.png)
+![Geräte verbinden sich mit einem Dienst über ein Geräte-SDK. Servercode verbindet sich ebenfalls über ein SDK](../../../../../translated_images/de/iot-service-connectivity.7e873847921a5d6f.webp)
 
 Ihr Gerät kommuniziert dann mit anderen Teilen Ihrer Anwendung über diesen Dienst – ähnlich wie Sie Telemetrie gesendet und Befehle über MQTT empfangen haben. Dies geschieht normalerweise über ein Service-SDK oder eine ähnliche Bibliothek. Nachrichten kommen von Ihrem Gerät zum Dienst, wo andere Komponenten Ihrer Anwendung sie lesen können, und Nachrichten können dann zurück an Ihr Gerät gesendet werden.
 
-![Geräte ohne gültigen geheimen Schlüssel können sich nicht mit dem IoT-Dienst verbinden](../../../../../translated_images/de/iot-service-allowed-denied-connection.818b0063ac213fb84204a7229303764d9b467ca430fb822b4ac2fca267d56726.png)
+![Geräte ohne gültigen geheimen Schlüssel können sich nicht mit dem IoT-Dienst verbinden](../../../../../translated_images/de/iot-service-allowed-denied-connection.818b0063ac213fb8.webp)
 
 Diese Dienste implementieren Sicherheit, indem sie alle Geräte kennen, die sich verbinden und Daten senden können, entweder indem die Geräte vorab beim Dienst registriert werden oder indem den Geräten geheime Schlüssel oder Zertifikate gegeben werden, die sie verwenden können, um sich beim ersten Verbindungsaufbau selbst zu registrieren. Unbekannte Geräte können sich nicht verbinden; wenn sie es versuchen, lehnt der Dienst die Verbindung ab und ignoriert die von ihnen gesendeten Nachrichten.
 
@@ -124,7 +124,7 @@ Andere Komponenten Ihrer Anwendung können sich mit dem IoT-Dienst verbinden und
 
 Jetzt, da Sie ein Azure-Abonnement haben, können Sie sich für einen IoT-Dienst anmelden. Der IoT-Dienst von Microsoft heißt Azure IoT Hub.
 
-![Das Azure IoT Hub Logo](../../../../../translated_images/de/azure-iot-hub-logo.28a19de76d0a1932464d858f7558712bcdace3e5ec69c434d482ed7ce41c3a26.png)
+![Das Azure IoT Hub Logo](../../../../../translated_images/de/azure-iot-hub-logo.28a19de76d0a1932.webp)
 
 Das folgende Video gibt einen kurzen Überblick über Azure IoT Hub:
 

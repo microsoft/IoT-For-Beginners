@@ -84,7 +84,7 @@
 
     Вы сможете увидеть сделанное изображение, а также эти значения на вкладке **Predictions** в Custom Vision.
 
-    ![Банан в Custom Vision, предсказано: спелый - 56.8%, неспелый - 43.1%](../../../../../translated_images/ru/custom-vision-banana-prediction.30cdff4e1d72db5d9a0be0193790a47c2b387da034e12dc1314dd57ca2131b59.png)
+    ![Банан в Custom Vision, предсказано: спелый - 56.8%, неспелый - 43.1%](../../../../../translated_images/ru/custom-vision-banana-prediction.30cdff4e1d72db5d.webp)
 
 > 💁 Этот код можно найти в папке [code-classify/pi](../../../../../4-manufacturing/lessons/2-check-fruit-from-device/code-classify/pi) или [code-classify/virtual-iot-device](../../../../../4-manufacturing/lessons/2-check-fruit-from-device/code-classify/virtual-iot-device).
 

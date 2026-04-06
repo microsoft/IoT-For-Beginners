@@ -1,6 +1,6 @@
 # Spracherkennung mit einem IoT-Gerät
 
-![Eine Sketchnote-Übersicht dieser Lektion](../../../../../translated_images/de/lesson-21.e34de51354d6606fb5ee08d8c89d0222eea0a2a7aaf744a8805ae847c4f69dc4.jpg)
+![Eine Sketchnote-Übersicht dieser Lektion](../../../../../translated_images/de/lesson-21.e34de51354d6606f.webp)
 
 > Sketchnote von [Nitya Narasimhan](https://github.com/nitya). Klicken Sie auf das Bild für eine größere Version.
 
@@ -51,7 +51,7 @@ Mikrofone gibt es in verschiedenen Typen:
 
     Dynamische Mikrofone benötigen keine Stromversorgung, das elektrische Signal wird vollständig vom Mikrofon erzeugt.
 
-    ![Patti Smith singt in ein Shure SM58 (dynamisches Kardioid-Mikrofon)](../../../../../translated_images/de/dynamic-mic.8babac890a2d80dfb0874b5bf37d4b851fe2aeb9da6fd72945746176978bf3bb.jpg)
+    ![Patti Smith singt in ein Shure SM58 (dynamisches Kardioid-Mikrofon)](../../../../../translated_images/de/dynamic-mic.8babac890a2d80df.webp)
 
 * Bändchen – Bändchenmikrofone ähneln dynamischen Mikrofonen, haben jedoch ein Metallbändchen anstelle einer Membran. Dieses Bändchen bewegt sich in einem Magnetfeld und erzeugt einen elektrischen Strom. Wie dynamische Mikrofone benötigen auch Bändchenmikrofone keine Stromversorgung.
 
@@ -59,11 +59,11 @@ Mikrofone gibt es in verschiedenen Typen:
 
 * Kondensator – Kondensatormikrofone haben eine dünne Metallmembran und eine feste Metallrückplatte. Elektrizität wird auf beide angewendet, und wenn die Membran vibriert, ändert sich die statische Ladung zwischen den Platten und erzeugt ein Signal. Kondensatormikrofone benötigen Strom, um zu funktionieren – genannt *Phantomspannung*.
 
-    ![C451B Kleinmembran-Kondensatormikrofon von AKG Acoustics](../../../../../translated_images/de/condenser-mic.6f6ed5b76ca19e0ec3fd0c544601542d4479a6cb7565db336de49fbbf69f623e.jpg)
+    ![C451B Kleinmembran-Kondensatormikrofon von AKG Acoustics](../../../../../translated_images/de/condenser-mic.6f6ed5b76ca19e0e.webp)
 
 * MEMS – Mikroelektromechanische Systeme (MEMS) sind Mikrofone auf einem Chip. Sie haben eine druckempfindliche Membran, die auf einen Siliziumchip geätzt ist, und funktionieren ähnlich wie ein Kondensatormikrofon. Diese Mikrofone können winzig sein und in Schaltungen integriert werden.
 
-    ![Ein MEMS-Mikrofon auf einer Leiterplatte](../../../../../translated_images/de/mems-microphone.80574019e1f5e4d9ee72fed720ecd25a39fc2969c91355d17ebb24ba4159e4c4.png)
+    ![Ein MEMS-Mikrofon auf einer Leiterplatte](../../../../../translated_images/de/mems-microphone.80574019e1f5e4d9.webp)
 
     Im obigen Bild ist der Chip mit der Aufschrift **LEFT** ein MEMS-Mikrofon mit einer winzigen Membran, die weniger als einen Millimeter breit ist.
 
@@ -159,7 +159,7 @@ Um die Komplexität des Trainings und der Nutzung eines Aktivierungswort-Modells
 
 ## Sprache in Text umwandeln
 
-![Logo der Sprachdienste](../../../../../translated_images/de/azure-speech-logo.a1f08c4befb0159f2cb5d692d3baf5b599e7b44759d316da907bda1508f46a4a.png)
+![Logo der Sprachdienste](../../../../../translated_images/de/azure-speech-logo.a1f08c4befb0159f.webp)
 
 Ähnlich wie bei der Bildklassifikation in einem früheren Projekt gibt es vorgefertigte KI-Dienste, die Sprache als Audiodatei aufnehmen und in Text umwandeln können. Einer dieser Dienste ist der Speech Service, Teil der Cognitive Services, vorgefertigte KI-Dienste, die Sie in Ihren Apps verwenden können.
 

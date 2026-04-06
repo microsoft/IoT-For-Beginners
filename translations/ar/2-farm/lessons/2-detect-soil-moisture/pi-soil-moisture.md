@@ -18,13 +18,13 @@
 
 قم بتوصيل مستشعر رطوبة التربة.
 
-![مستشعر رطوبة التربة من نوع Grove](../../../../../translated_images/ar/grove-capacitive-soil-moisture-sensor.e7f0776cce30e78be5cc5a07839385fd6718857f31b5bf5ad3d0c73c83b2f0ef.png)
+![مستشعر رطوبة التربة من نوع Grove](../../../../../translated_images/ar/grove-capacitive-soil-moisture-sensor.e7f0776cce30e78b.webp)
 
 1. أدخل أحد طرفي كابل Grove في المقبس الموجود على مستشعر رطوبة التربة. لن يدخل إلا في اتجاه واحد.
 
 1. مع إيقاف تشغيل Raspberry Pi، قم بتوصيل الطرف الآخر من كابل Grove بالمقبس التناظري المسمى **A0** على قبعة Grove Base المثبتة على Raspberry Pi. هذا المقبس هو الثاني من اليمين، في صف المقابس بجانب دبابيس GPIO.
 
-![مستشعر رطوبة التربة متصل بالمقبس A0](../../../../../translated_images/ar/pi-soil-moisture-sensor.fdd7eb2393792cf6739cacf1985d9f55beda16d372f30d0b5a51d586f978a870.png)
+![مستشعر رطوبة التربة متصل بالمقبس A0](../../../../../translated_images/ar/pi-soil-moisture-sensor.fdd7eb2393792cf6.webp)
 
 1. أدخل مستشعر رطوبة التربة في التربة. يحتوي المستشعر على "خط أعلى موضع" - وهو خط أبيض عبر المستشعر. أدخل المستشعر حتى هذا الخط ولكن لا تتجاوزه.
 

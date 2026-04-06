@@ -33,7 +33,7 @@
 
     Jupyter запустится и откроет ноутбук в вашем браузере. Следуйте инструкциям в ноутбуке, чтобы визуализировать измеренные температуры и рассчитать дни накопления тепла (GDD).
 
-    ![Jupyter Notebook](../../../../../translated_images/ru/gdd-jupyter-notebook.c5b52cf21094f158a61f47f455490fd95f1729777ff90861a4521820bf354cdc.png)
+    ![Jupyter Notebook](../../../../../translated_images/ru/gdd-jupyter-notebook.c5b52cf21094f158.webp)
 
 ## Критерии оценки
 

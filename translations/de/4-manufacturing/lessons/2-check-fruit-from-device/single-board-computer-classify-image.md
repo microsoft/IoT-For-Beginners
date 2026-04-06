@@ -84,7 +84,7 @@ Der Custom Vision-Dienst verfügt über ein Python-SDK, das Sie zur Klassifizier
 
     Sie können das aufgenommene Bild sehen und diese Werte im **Predictions**-Tab in Custom Vision einsehen.
 
-    ![Eine Banane in Custom Vision, vorhergesagt als reif mit 56,8% und unreif mit 43,1%](../../../../../translated_images/de/custom-vision-banana-prediction.30cdff4e1d72db5d9a0be0193790a47c2b387da034e12dc1314dd57ca2131b59.png)
+    ![Eine Banane in Custom Vision, vorhergesagt als reif mit 56,8% und unreif mit 43,1%](../../../../../translated_images/de/custom-vision-banana-prediction.30cdff4e1d72db5d.webp)
 
 > 💁 Sie finden diesen Code im Ordner [code-classify/pi](../../../../../4-manufacturing/lessons/2-check-fruit-from-device/code-classify/pi) oder [code-classify/virtual-iot-device](../../../../../4-manufacturing/lessons/2-check-fruit-from-device/code-classify/virtual-iot-device).
 

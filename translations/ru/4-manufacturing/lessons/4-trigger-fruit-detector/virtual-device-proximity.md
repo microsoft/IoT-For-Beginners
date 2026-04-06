@@ -36,11 +36,11 @@
 
     1. Нажмите кнопку **Add**, чтобы создать датчик расстояния.
 
-    ![Настройки датчика расстояния](../../../../../translated_images/ru/counterfit-create-distance-sensor.967c9fb98f27888d95920c9784d004c972490eb71f70397fe13bd70a79a879a3.png)
+    ![Настройки датчика расстояния](../../../../../translated_images/ru/counterfit-create-distance-sensor.967c9fb98f27888d.webp)
 
     Датчик расстояния будет создан и появится в списке датчиков.
 
-    ![Созданный датчик расстояния](../../../../../translated_images/ru/counterfit-distance-sensor.079eefeeea0b68afc36431ce8fcbe2f09a7e4916ed1cd5cb30e696db53bc18fa.png)
+    ![Созданный датчик расстояния](../../../../../translated_images/ru/counterfit-distance-sensor.079eefeeea0b68af.webp)
 
 ## Программирование датчика расстояния
 

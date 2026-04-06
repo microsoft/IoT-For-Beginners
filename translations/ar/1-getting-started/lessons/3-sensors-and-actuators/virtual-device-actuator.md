@@ -36,11 +36,11 @@ Otherwise
 
     1. اختر زر **إضافة** لإنشاء مصباح LED على Pin 5.
 
-    ![إعدادات مصباح LED](../../../../../translated_images/ar/counterfit-create-led.ba9db1c9b8c622a635d6dfae5cdc4e70c2b250635bd4f0601c6cf0bd22b7ba46.png)
+    ![إعدادات مصباح LED](../../../../../translated_images/ar/counterfit-create-led.ba9db1c9b8c622a6.webp)
 
     سيتم إنشاء مصباح LED وسيظهر في قائمة المشغلات.
 
-    ![مصباح LED تم إنشاؤه](../../../../../translated_images/ar/counterfit-led.c0ab02de6d256ad84d9bad4d67a7faa709f0ea83e410cfe9b5561ef0cef30b1c.png)
+    ![مصباح LED تم إنشاؤه](../../../../../translated_images/ar/counterfit-led.c0ab02de6d256ad8.webp)
 
     بمجرد إنشاء مصباح LED، يمكنك تغيير اللون باستخدام منتقي *اللون*. اختر زر **تعيين** لتغيير اللون بعد تحديده.
 

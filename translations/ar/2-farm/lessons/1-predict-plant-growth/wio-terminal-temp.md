@@ -18,7 +18,7 @@
 
 قم بتوصيل مستشعر درجة الحرارة.
 
-![مستشعر درجة الحرارة Grove](../../../../../translated_images/ar/grove-dht11.07f8eafceee170043efbb53e1d15722bd4e00fbaa9ff74290b57e9f66eb82c17.png)
+![مستشعر درجة الحرارة Grove](../../../../../translated_images/ar/grove-dht11.07f8eafceee17004.webp)
 
 1. أدخل أحد طرفي كابل Grove في المقبس الموجود على مستشعر الرطوبة ودرجة الحرارة. لن يدخل إلا في اتجاه واحد.
 

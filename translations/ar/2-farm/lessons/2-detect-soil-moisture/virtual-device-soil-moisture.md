@@ -34,11 +34,11 @@
 
     1. اختر زر **إضافة** لإنشاء مستشعر *رطوبة التربة* على الدبوس 0.
 
-    ![إعدادات مستشعر رطوبة التربة](../../../../../translated_images/ar/counterfit-create-soil-moisture-sensor.35266135a5e0ae68b29a684d7db0d2933a8098b2307d197f7c71577b724603aa.png)
+    ![إعدادات مستشعر رطوبة التربة](../../../../../translated_images/ar/counterfit-create-soil-moisture-sensor.35266135a5e0ae68.webp)
 
     سيتم إنشاء مستشعر رطوبة التربة وسيظهر في قائمة المستشعرات.
 
-    ![تم إنشاء مستشعر رطوبة التربة](../../../../../translated_images/ar/counterfit-soil-moisture-sensor.81742b2de0e9de60a3b3b9a2ff8ecc686d428eb6d71820f27a693be26e5aceee.png)
+    ![تم إنشاء مستشعر رطوبة التربة](../../../../../translated_images/ar/counterfit-soil-moisture-sensor.81742b2de0e9de60.webp)
 
 ## برمجة تطبيق مستشعر رطوبة التربة
 

@@ -16,7 +16,7 @@ Die ArduCam hat keinen Grove-Anschluss, sondern wird über die GPIO-Pins des Wio
 
 Schließen Sie die Kamera an.
 
-![Ein ArduCam-Sensor](../../../../../translated_images/de/arducam.20e4e4cbb268296570b5914e20d6c349fc42ddac9ed4e1b9deba2188204eebae.png)
+![Ein ArduCam-Sensor](../../../../../translated_images/de/arducam.20e4e4cbb2682965.webp)
 
 1. Die Pins an der Unterseite der ArduCam müssen mit den GPIO-Pins des Wio Terminals verbunden werden. Um die richtigen Pins leichter zu finden, befestigen Sie den GPIO-Pin-Aufkleber, der mit dem Wio Terminal geliefert wird, um die Pins:
 
@@ -35,7 +35,7 @@ Schließen Sie die Kamera an.
     | SDA         | 3 (I2C1_SDA)     | I2C Serial Data                         |
     | SCL         | 5 (I2C1_SCL)     | I2C Serial Clock                        |
 
-    ![Das Wio Terminal mit der ArduCam verbunden durch Jumperkabel](../../../../../translated_images/de/arducam-wio-terminal-connections.a4d5a4049bdb5ab800a2877389fc6ecf5e4ff307e6451ff56c517e6786467d0a.png)
+    ![Das Wio Terminal mit der ArduCam verbunden durch Jumperkabel](../../../../../translated_images/de/arducam-wio-terminal-connections.a4d5a4049bdb5ab8.webp)
 
     Die GND- und VCC-Verbindungen liefern eine 5V-Stromversorgung an die ArduCam. Sie läuft mit 5V, im Gegensatz zu Grove-Sensoren, die mit 3V betrieben werden. Diese Stromversorgung kommt direkt von der USB-C-Verbindung, die das Gerät mit Strom versorgt.
 
@@ -456,7 +456,7 @@ Das Wio Terminal unterstützt nur microSD-Karten mit einer Größe von bis zu 16
 
 1. Schalten Sie das Gerät aus und entfernen Sie die microSD-Karte, indem Sie sie leicht hineindrücken und loslassen. Sie wird herausspringen. Möglicherweise müssen Sie ein dünnes Werkzeug verwenden, um dies zu tun. Stecken Sie die microSD-Karte in Ihren Computer, um die Bilder anzusehen.
 
-    ![Ein Bild einer Banane, aufgenommen mit der ArduCam](../../../../../translated_images/de/banana-arducam.be1b32d4267a8194b0fd042362e56faa431da9cd4af172051b37243ea9be0256.jpg)
+    ![Ein Bild einer Banane, aufgenommen mit der ArduCam](../../../../../translated_images/de/banana-arducam.be1b32d4267a8194.webp)
 💁 Es kann einige Bilder dauern, bis sich der Weißabgleich der Kamera selbst eingestellt hat. Dies werden Sie anhand der Farbe der aufgenommenen Bilder bemerken, die ersten paar könnten farblich abweichen. Sie können dies umgehen, indem Sie den Code so ändern, dass einige Bilder aufgenommen werden, die in der `setup`-Funktion ignoriert werden.
 
 

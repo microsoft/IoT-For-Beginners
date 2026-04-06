@@ -16,13 +16,13 @@
 
 #### المهمة - توصيل الزر
 
-![زر Grove](../../../../../translated_images/ar/grove-button.a70cfbb809a8563681003250cf5b06d68cdcc68624f9e2f493d5a534ae2da1e5.png)
+![زر Grove](../../../../../translated_images/ar/grove-button.a70cfbb809a85636.webp)
 
 1. أدخل أحد طرفي كابل Grove في المقبس الموجود على وحدة الزر. لن يدخل إلا في اتجاه واحد.
 
 1. مع إيقاف تشغيل Raspberry Pi، قم بتوصيل الطرف الآخر من كابل Grove بالمقبس الرقمي المسمى **D5** على قاعدة Grove Base Hat المثبتة على Pi. هذا المقبس هو الثاني من اليسار في صف المقابس بجانب دبابيس GPIO.
 
-![زر Grove متصل بالمقبس D5](../../../../../translated_images/ar/pi-button.c7a1a4f55943341ce1baf1057658e9a205804d4131d258e820c93f951df0abf3.png)
+![زر Grove متصل بالمقبس D5](../../../../../translated_images/ar/pi-button.c7a1a4f55943341c.webp)
 
 ## التقاط الصوت
 

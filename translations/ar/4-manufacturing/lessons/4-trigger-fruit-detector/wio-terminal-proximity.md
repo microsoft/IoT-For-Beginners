@@ -20,7 +20,7 @@
 
 قم بتوصيل مستشعر Time of Flight.
 
-![مستشعر Grove Time of Flight](../../../../../translated_images/ar/grove-time-of-flight-sensor.d82ff2165bfded9f485de54d8d07195a6270a602696825fca19f629ddfe94e86.png)
+![مستشعر Grove Time of Flight](../../../../../translated_images/ar/grove-time-of-flight-sensor.d82ff2165bfded9f.webp)
 
 1. أدخل أحد طرفي كابل Grove في المقبس الموجود على مستشعر Time of Flight. لن يدخل إلا بطريقة واحدة.
 

@@ -18,13 +18,13 @@ Der Grove-Bodenfeuchtigkeitssensor kann an den Raspberry Pi angeschlossen werden
 
 Schließen Sie den Bodenfeuchtigkeitssensor an.
 
-![Ein Grove-Bodenfeuchtigkeitssensor](../../../../../translated_images/de/grove-capacitive-soil-moisture-sensor.e7f0776cce30e78be5cc5a07839385fd6718857f31b5bf5ad3d0c73c83b2f0ef.png)
+![Ein Grove-Bodenfeuchtigkeitssensor](../../../../../translated_images/de/grove-capacitive-soil-moisture-sensor.e7f0776cce30e78b.webp)
 
 1. Stecken Sie ein Ende eines Grove-Kabels in die Buchse des Bodenfeuchtigkeitssensors. Es passt nur in einer Richtung.
 
 1. Schalten Sie den Raspberry Pi aus und verbinden Sie das andere Ende des Grove-Kabels mit der analogen Buchse, die mit **A0** auf dem Grove Base Hat des Raspberry Pi markiert ist. Diese Buchse befindet sich in der zweiten Position von rechts in der Reihe der Buchsen neben den GPIO-Pins.
 
-![Der Grove-Bodenfeuchtigkeitssensor, angeschlossen an die A0-Buchse](../../../../../translated_images/de/pi-soil-moisture-sensor.fdd7eb2393792cf6739cacf1985d9f55beda16d372f30d0b5a51d586f978a870.png)
+![Der Grove-Bodenfeuchtigkeitssensor, angeschlossen an die A0-Buchse](../../../../../translated_images/de/pi-soil-moisture-sensor.fdd7eb2393792cf6.webp)
 
 1. Stecken Sie den Bodenfeuchtigkeitssensor in die Erde. Der Sensor hat eine Markierung für die maximale Einstecktiefe – eine weiße Linie quer über den Sensor. Stecken Sie den Sensor bis zu dieser Linie, aber nicht darüber hinaus, in die Erde.
 

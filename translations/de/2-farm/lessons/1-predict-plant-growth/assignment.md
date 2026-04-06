@@ -33,7 +33,7 @@ Sobald du Temperaturdaten hast, kannst du das Jupyter Notebook in diesem Reposit
 
     Jupyter wird gestartet und öffnet das Notebook in deinem Browser. Arbeite die Anweisungen im Notebook durch, um die gemessenen Temperaturen zu visualisieren und die Growing Degree Days zu berechnen.
 
-    ![Das Jupyter Notebook](../../../../../translated_images/de/gdd-jupyter-notebook.c5b52cf21094f158a61f47f455490fd95f1729777ff90861a4521820bf354cdc.png)
+    ![Das Jupyter Notebook](../../../../../translated_images/de/gdd-jupyter-notebook.c5b52cf21094f158.webp)
 
 ## Bewertungskriterien
 

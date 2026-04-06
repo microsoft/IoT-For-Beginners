@@ -203,7 +203,7 @@
 
     Приложение начнет работать и откроется в вашем веб-браузере:
 
-    ![Приложение Counter Fit запущено в браузере](../../../../../translated_images/ru/counterfit-first-run.433326358b669b31d0e99c3513cb01bfbb13724d162c99cdcc8f51ecf5f9c779.png)
+    ![Приложение Counter Fit запущено в браузере](../../../../../translated_images/ru/counterfit-first-run.433326358b669b31.webp)
 
     Оно будет отмечено как *Disconnected*, а светодиод в правом верхнем углу будет выключен.
 
@@ -224,7 +224,7 @@
 
 1. В новом терминале выполните файл `app.py`, как и раньше. Статус CounterFit изменится на **Connected**, и светодиод загорится.
 
-    ![Counter Fit показывает статус Connected](../../../../../translated_images/ru/counterfit-connected.ed30b46d8f79b0921f3fc70be10366e596a89dca3f80c2224a9d9fc98fccf884.png)
+    ![Counter Fit показывает статус Connected](../../../../../translated_images/ru/counterfit-connected.ed30b46d8f79b092.webp)
 
 > 💁 Вы можете найти этот код в папке [code/virtual-device](../../../../../1-getting-started/lessons/1-introduction-to-iot/code/virtual-device).
 

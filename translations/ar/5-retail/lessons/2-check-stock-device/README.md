@@ -1,6 +1,6 @@
 # التحقق من المخزون باستخدام جهاز إنترنت الأشياء
 
-![رسم توضيحي لهذا الدرس](../../../../../translated_images/ar/lesson-20.0211df9551a8abb300fc8fcf7dc2789468dea2eabe9202273ac077b0ba37f15e.jpg)
+![رسم توضيحي لهذا الدرس](../../../../../translated_images/ar/lesson-20.0211df9551a8abb3.webp)
 
 > رسم توضيحي بواسطة [نيتيا ناراسيمهان](https://github.com/nitya). اضغط على الصورة للحصول على نسخة أكبر.
 
@@ -62,7 +62,7 @@
 
 1. اضغط على زر **Publish** للنسخة.
 
-    ![زر النشر](../../../../../translated_images/ar/custom-vision-object-detector-publish-button.34ee379fc650ccb9856c3868d0003f413b9529f102fc73c37168c98d721cc293.png)
+    ![زر النشر](../../../../../translated_images/ar/custom-vision-object-detector-publish-button.34ee379fc650ccb9.webp)
 
 1. في مربع الحوار *Publish Model*، قم بتعيين *Prediction resource* إلى المورد `stock-detector-prediction` الذي أنشأته في الدرس السابق. اترك الاسم كما هو `Iteration2`، واضغط على زر **Publish**.
 
@@ -76,7 +76,7 @@
 
     قم أيضًا بنسخ قيمة *Prediction-Key*. هذه مفتاح آمن يجب تمريره عند استدعاء النموذج. فقط التطبيقات التي تمرر هذا المفتاح يُسمح لها باستخدام النموذج، وأي تطبيقات أخرى يتم رفضها.
 
-    ![مربع الحوار الخاص بواجهة برمجة التطبيقات للتنبؤ يظهر الرابط والمفتاح](../../../../../translated_images/ar/custom-vision-prediction-key-endpoint.30c569ffd0338864f319911f052d5e9b8c5066cb0800a26dd6f7ff5713130ad8.png)
+    ![مربع الحوار الخاص بواجهة برمجة التطبيقات للتنبؤ يظهر الرابط والمفتاح](../../../../../translated_images/ar/custom-vision-prediction-key-endpoint.30c569ffd0338864.webp)
 
 ✅ عندما يتم نشر نسخة جديدة، سيكون لها اسم مختلف. كيف تعتقد أنه يمكنك تغيير النسخة التي يستخدمها جهاز إنترنت الأشياء؟
 
