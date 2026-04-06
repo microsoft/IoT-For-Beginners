@@ -1,6 +1,6 @@
 # Kouluta varastontunnistin
 
-![Tämän oppitunnin yleiskatsaus sketchnotena](../../../../../translated_images/fi/lesson-19.cf6973cecadf080c4b526310620dc4d6f5994c80fb0139c6f378cc9ca2d435cd.jpg)
+![Tämän oppitunnin yleiskatsaus sketchnotena](../../../../../translated_images/fi/lesson-19.cf6973cecadf080c.webp)
 
 > Sketchnote: [Nitya Narasimhan](https://github.com/nitya). Klikkaa kuvaa nähdäksesi suuremman version.
 
@@ -36,7 +36,7 @@ Objektintunnistus tarkoittaa esineiden havaitsemista kuvista tekoälyn avulla. T
 
 Kuvien luokittelu keskittyy koko kuvan luokitteluun - mitkä ovat todennäköisyydet, että koko kuva vastaa kutakin tunnistetta. Saat takaisin todennäköisyydet kaikille mallin koulutuksessa käytetyille tunnisteille.
 
-![Kuvien luokittelu cashewpähkinöistä ja tomaattipyreestä](../../../../../translated_images/fi/image-classifier-cashews-tomato.bc2e16ab8f05cf9ac0f59f73e32efc4227f9a5b601b90b2c60f436694547a965.png)
+![Kuvien luokittelu cashewpähkinöistä ja tomaattipyreestä](../../../../../translated_images/fi/image-classifier-cashews-tomato.bc2e16ab8f05cf9a.webp)
 
 Yllä olevassa esimerkissä kaksi kuvaa luokitellaan mallilla, joka on koulutettu luokittelemaan cashewpähkinöiden purkkeja tai tomaattipyreen tölkkejä. Ensimmäinen kuva on cashewpähkinöiden purkki, ja kuvien luokittelija antaa seuraavat tulokset:
 
@@ -60,7 +60,7 @@ Kun käytät mallia ennustamiseen, et saa takaisin tunnisteiden ja prosenttien l
 
 > 🎓 *Rajauslaatikot* ovat laatikoita esineen ympärillä.
 
-![Objektintunnistus cashewpähkinöistä ja tomaattipyreestä](../../../../../translated_images/fi/object-detector-cashews-tomato.1af7c26686b4db0e709754aeb196f4e73271f54e2085db3bcccb70d4a0d84d97.png)
+![Objektintunnistus cashewpähkinöistä ja tomaattipyreestä](../../../../../translated_images/fi/object-detector-cashews-tomato.1af7c26686b4db0e.webp)
 
 Yllä olevassa kuvassa on sekä cashewpähkinöiden purkki että kolme tomaattipyreen tölkkiä. Objektintunnistin havaitsi cashewpähkinät ja palautti rajauslaatikon, joka sisältää cashewpähkinät, sekä todennäköisyyden, että rajauslaatikko sisältää esineen, tässä tapauksessa 97.6%. Objektintunnistin havaitsi myös kolme tomaattipyreen tölkkiä ja antoi kolme erillistä rajauslaatikkoa, yhden jokaiselle havaitulle tölkille, ja jokaiselle prosentuaalisen todennäköisyyden, että rajauslaatikko sisältää tomaattipyreen tölkin.
 
@@ -111,7 +111,7 @@ Voit kouluttaa objektintunnistimen Custom Vision -palvelussa samalla tavalla kui
 
     Kun luot projektisi, varmista, että käytät aiemmin luomaasi `stock-detector-training`-resurssia. Valitse *Object Detection* -projektityyppi ja *Products on Shelves* -toimialue.
 
-    ![Custom Vision -projektin asetukset, joissa nimi on asetettu "fruit-quality-detector", ei kuvausta, resurssi on "fruit-quality-detector-training", projektityyppi on "classification", luokittelutyypit ovat "multi class" ja toimialue on "food"](../../../../../translated_images/fi/custom-vision-create-object-detector-project.32d4fb9aa8e7e7375f8a799bfce517aca970f2cb65e42d4245c5e635c734ab29.png)
+    ![Custom Vision -projektin asetukset, joissa nimi on asetettu "fruit-quality-detector", ei kuvausta, resurssi on "fruit-quality-detector-training", projektityyppi on "classification", luokittelutyypit ovat "multi class" ja toimialue on "food"](../../../../../translated_images/fi/custom-vision-create-object-detector-project.32d4fb9aa8e7e737.webp)
 
     ✅ *Products on Shelves* -toimialue on erityisesti suunniteltu hyllyillä olevien tuotteiden tunnistamiseen. Lue lisää eri toimialueista [Microsoft-dokumentaation toimialueen valinta -osiosta](https://docs.microsoft.com/azure/cognitive-services/custom-vision-service/select-domain?WT.mc_id=academic-17441-jabenn#object-detection).
 
@@ -133,11 +133,11 @@ Kouluttaaksesi mallisi tarvitset joukon kuvia, jotka sisältävät tunnistettavi
 
 1. Seuraa [Microsoft-dokumentaation objektintunnistimen luomisen pikaohjeen Lataa ja merkitse kuvat -osaa](https://docs.microsoft.com/azure/cognitive-services/custom-vision-service/get-started-build-detector?WT.mc_id=academic-17441-jabenn#upload-and-tag-images) ladataksesi koulutuskuvasi. Luo asiaankuuluvat tunnisteet esineiden tyypin mukaan, joita haluat tunnistaa.
 
-    ![Latausikkunat, joissa ladataan kypsien ja raakojen banaanien kuvia](../../../../../translated_images/fi/image-upload-object-detector.77c7892c3093cb59b79018edecd678749a75d71a099bc8a2d2f2f76320f88a5b.png)
+    ![Latausikkunat, joissa ladataan kypsien ja raakojen banaanien kuvia](../../../../../translated_images/fi/image-upload-object-detector.77c7892c3093cb59.webp)
 
     Kun piirrät rajauslaatikoita esineille, pidä ne tiukasti esineen ympärillä. Kuvien merkitseminen voi viedä aikaa, mutta työkalu tunnistaa, mitä se uskoo olevan rajauslaatikot, mikä nopeuttaa prosessia.
 
-    ![Tomaattipyreen merkitseminen](../../../../../translated_images/fi/object-detector-tag-tomato-paste.f47c362fb0f0eb582f3bc68cf3855fb43a805106395358d41896a269c210b7b4.png)
+    ![Tomaattipyreen merkitseminen](../../../../../translated_images/fi/object-detector-tag-tomato-paste.f47c362fb0f0eb58.webp)
 
     > 💁 Jos sinulla on yli 15 kuvaa kutakin esinettä varten, voit kouluttaa mallin 15 kuvan jälkeen ja käyttää **Ehdotetut tunnisteet** -ominaisuutta. Tämä käyttää koulutettua mallia tunnistamaan esineet merkitsemättömistä kuvista. Voit sitten vahvistaa havaitut esineet tai hylätä ja piirtää rajauslaatikot uudelleen. Tämä voi säästää *paljon* aikaa.
 
@@ -155,7 +155,7 @@ Kun objektintunnistin on koulutettu, voit testata sitä antamalla sille uusia ku
 
 1. Käytä **Pikatesti**-painiketta ladataksesi testikuvia ja varmistaaksesi, että esineet tunnistetaan. Käytä aiemmin luomiasi testikuvia, älä mitään koulutuksessa käytettyjä kuvia.
 
-    ![3 tomaattipyreen tölkkiä havaittu todennäköisyyksillä 38%, 35.5% ja 34.6%](../../../../../translated_images/fi/object-detector-detected-tomato-paste.52656fe87af4c37b4ee540526d63e73ed075da2e54a9a060aa528e0c562fb1b6.png)
+    ![3 tomaattipyreen tölkkiä havaittu todennäköisyyksillä 38%, 35.5% ja 34.6%](../../../../../translated_images/fi/object-detector-detected-tomato-paste.52656fe87af4c37b.webp)
 
 1. Kokeile kaikkia käytettävissäsi olevia testikuvia ja tarkkaile todennäköisyyksiä.
 

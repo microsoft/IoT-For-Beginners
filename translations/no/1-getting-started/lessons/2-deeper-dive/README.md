@@ -1,6 +1,6 @@
 # En dypere titt på IoT
 
-![En sketchnote-oversikt over denne leksjonen](../../../../../translated_images/no/lesson-2.324b0580d620c25e0a24fb7fddfc0b29a846dd4b82c08e7a9466d580ee78ce51.jpg)
+![En sketchnote-oversikt over denne leksjonen](../../../../../translated_images/no/lesson-2.324b0580d620c25e.webp)
 
 > Sketchnote av [Nitya Narasimhan](https://github.com/nitya). Klikk på bildet for en større versjon.
 
@@ -38,7 +38,7 @@ De to hovedkomponentene i en IoT-applikasjon er *Internett* og *tingen*. La oss 
 
 Disse enhetene samhandler med den fysiske verden enten ved å bruke sensorer for å samle inn data fra omgivelsene eller ved å kontrollere utganger eller aktuatorer for å gjøre fysiske endringer. Et typisk eksempel på dette er en smart termostat - en enhet som har en temperatursensor, en måte å sette ønsket temperatur på, som en dreieknapp eller berøringsskjerm, og en tilkobling til et varme- eller kjølesystem som kan slås på når temperaturen som oppdages er utenfor ønsket område. Temperatursensoren oppdager at rommet er for kaldt, og en aktuator slår på varmen.
 
-![Et diagram som viser temperatur og en dreieknapp som innganger til en IoT-enhet, og kontroll av en varmeovn som en utgang](../../../../../translated_images/no/basic-thermostat.a923217fd1f37e5a6f3390396a65c22a387419ea2dd17e518ec24315ba6ae9a8.png)
+![Et diagram som viser temperatur og en dreieknapp som innganger til en IoT-enhet, og kontroll av en varmeovn som en utgang](../../../../../translated_images/no/basic-thermostat.a923217fd1f37e5a.webp)
 
 Det finnes et enormt utvalg av forskjellige ting som kan fungere som IoT-enheter, fra dedikert maskinvare som måler én ting, til generelle enheter, til og med smarttelefonen din! En smarttelefon kan bruke sensorer for å oppdage verden rundt seg og aktuatorer for å samhandle med verden - for eksempel ved å bruke en GPS-sensor for å oppdage posisjonen din og en høyttaler for å gi deg navigasjonsinstruksjoner til en destinasjon.
 
@@ -54,7 +54,7 @@ Enheter kobler seg heller ikke alltid direkte til Internett via WiFi eller kable
 
 I eksempelet med en smart termostat vil termostaten koble seg til hjemmets WiFi og en skytjeneste. Den vil sende temperaturdata til denne skytjenesten, og derfra vil dataene bli skrevet til en database som lar huseieren sjekke nåværende og tidligere temperaturer via en telefonapp. En annen tjeneste i skyen vil vite hvilken temperatur huseieren ønsker, og sende meldinger tilbake til IoT-enheten via skytjenesten for å fortelle varmesystemet om det skal slås på eller av.
 
-![Et diagram som viser temperatur og en dreieknapp som innganger til en IoT-enhet, IoT-enheten med toveis kommunikasjon til skyen, som igjen har toveis kommunikasjon til en telefon, og kontroll av en varmeovn som en utgang fra IoT-enheten](../../../../../translated_images/no/mobile-controlled-thermostat.4a994010473d8d6a52ba68c67e5f02dc8928c717e93ca4b9bc55525aa75bbb60.png)
+![Et diagram som viser temperatur og en dreieknapp som innganger til en IoT-enhet, IoT-enheten med toveis kommunikasjon til skyen, som igjen har toveis kommunikasjon til en telefon, og kontroll av en varmeovn som en utgang fra IoT-enheten](../../../../../translated_images/no/mobile-controlled-thermostat.4a994010473d8d6a.webp)
 
 En enda smartere versjon kan bruke AI i skyen med data fra andre sensorer koblet til andre IoT-enheter, som bevegelsessensorer som oppdager hvilke rom som er i bruk, samt data som vær og til og med kalenderen din, for å ta beslutninger om hvordan temperaturen skal settes på en smart måte. For eksempel kan den slå av varmen hvis den leser fra kalenderen din at du er på ferie, eller slå av varmen rom for rom avhengig av hvilke rom du bruker, og lære fra dataene for å bli mer og mer nøyaktig over tid.
 
@@ -94,7 +94,7 @@ Jo raskere klokkesyklusen er, desto flere instruksjoner kan behandles hvert seku
 
 > 💁 CPU-er utfører programmer ved hjelp av [hent-dekoder-utfør-syklusen](https://wikipedia.org/wiki/Instruction_cycle). For hvert klokketikk vil CPU-en hente neste instruksjon fra minnet, dekode den, og deretter utføre den, for eksempel ved å bruke en aritmetisk logikkenhet (ALU) til å legge sammen to tall. Noen utførelser vil ta flere tikk å kjøre, så neste syklus vil kjøre ved neste tikk etter at instruksjonen er fullført.
 
-![Hent-dekoder-utfør-syklusen som viser henting av en instruksjon fra programmet lagret i RAM, deretter dekoding og utføring på en CPU](../../../../../translated_images/no/fetch-decode-execute.2fd6f150f6280392807f4475382319abd0cee0b90058e1735444d6baa6f2078c.png)
+![Hent-dekoder-utfør-syklusen som viser henting av en instruksjon fra programmet lagret i RAM, deretter dekoding og utføring på en CPU](../../../../../translated_images/no/fetch-decode-execute.2fd6f150f6280392.webp)
 
 Mikrokontrollere har mye lavere klokkehastigheter enn stasjonære eller bærbare datamaskiner, eller til og med de fleste smarttelefoner. Wio Terminal, for eksempel, har en CPU som kjører på 120MHz eller 120 000 000 sykluser per sekund.
 
@@ -182,7 +182,7 @@ Arduino-kort programmeres i C eller C++. Bruk av C/C++ gjør at koden din kan ko
 
 Du vil skrive oppstartskoden din i `setup`-funksjonen, for eksempel for å koble til WiFi og skytjenester eller initialisere pinner for inngang og utgang. Koden i `loop`-funksjonen vil deretter inneholde prosesseringskoden, for eksempel å lese fra en sensor og sende verdien til skyen. Du vil vanligvis inkludere en forsinkelse i hver loop, for eksempel hvis du bare vil sende sensordata hvert 10. sekund, legger du til en forsinkelse på 10 sekunder på slutten av loopen slik at mikrokontrolleren kan sove og spare strøm, og deretter kjøre loopen igjen når det trengs 10 sekunder senere.
 
-![En Arduino-sketch som kjører setup først, deretter kjører loop gjentatte ganger](../../../../../translated_images/no/arduino-sketch.79590cb837ff7a7c6a68d1afda6cab83fd53d3bb1bd9a8bf2eaf8d693a4d3ea6.png)
+![En Arduino-sketch som kjører setup først, deretter kjører loop gjentatte ganger](../../../../../translated_images/no/arduino-sketch.79590cb837ff7a7c.webp)
 
 ✅ Denne programarkitekturen er kjent som en *event loop* eller *message loop*. Mange applikasjoner bruker dette i bakgrunnen og det er standarden for de fleste skrivebordsapplikasjoner som kjører på OS-er som Windows, macOS eller Linux. `loop` lytter etter meldinger fra brukergrensesnittkomponenter som knapper, eller enheter som tastaturet, og reagerer på dem. Du kan lese mer i denne [artikkelen om event loops](https://wikipedia.org/wiki/Event_loop).
 

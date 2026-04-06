@@ -1,6 +1,6 @@
 # Vuorovaikutus fyysisen maailman kanssa antureiden ja toimilaitteiden avulla
 
-![Tämän oppitunnin sketchnote-yhteenveto](../../../../../translated_images/fi/lesson-3.cc3b7b4cd646de598698cce043c0393fd62ef42bac2eaf60e61272cd844250f4.jpg)
+![Tämän oppitunnin sketchnote-yhteenveto](../../../../../translated_images/fi/lesson-3.cc3b7b4cd646de59.webp)
 
 > Sketchnote: [Nitya Narasimhan](https://github.com/nitya). Klikkaa kuvaa nähdäksesi suuremman version.
 
@@ -92,7 +92,7 @@ Digitaaliset anturit, kuten analogiset anturit, havaitsevat ympäröivän maailm
 
 Yksinkertaisin digitaalinen anturi on painike tai kytkin. Tämä on anturi, jolla on kaksi tilaa: päällä tai pois päältä.
 
-![Painike vastaanottaa 5 volttia. Kun sitä ei paineta, se palauttaa 0 volttia, kun sitä painetaan, se palauttaa 5 volttia](../../../../../translated_images/fi/button.eadb560b77ac45e56f523d9d8876e40444f63b419e33eb820082d461fa79490b.png)
+![Painike vastaanottaa 5 volttia. Kun sitä ei paineta, se palauttaa 0 volttia, kun sitä painetaan, se palauttaa 5 volttia](../../../../../translated_images/fi/button.eadb560b77ac45e5.webp)
 
 IoT-laitteiden pinnit, kuten GPIO-pinnit, voivat mitata tämän signaalin suoraan 0:na tai 1:nä. Jos lähetetty jännite on sama kuin palautettu jännite, luettu arvo on 1, muuten luettu arvo on 0. Signaalia ei tarvitse muuntaa, sillä se voi olla vain 1 tai 0.
 
@@ -125,7 +125,7 @@ Joidenkin yleisten toimilaitteiden esimerkkejä:
 
 Seuraa alla olevia ohjeita lisätäksesi toimilaitteen IoT-laitteeseesi, jota ohjataan anturilla, rakentaaksesi IoT-yövalon. Se kerää valon määrän valoanturista ja käyttää toimilaitetta, kuten LED-valoa, tuottamaan valoa, kun havaittu valon määrä on liian alhainen.
 
-![Tehtävän vuokaavio, joka näyttää valon määrän lukemisen ja tarkistamisen sekä LED-valon ohjaamisen](../../../../../translated_images/fi/assignment-1-flow.7552a51acb1a5ec858dca6e855cdbb44206434006df8ba3799a25afcdab1665d.png)
+![Tehtävän vuokaavio, joka näyttää valon määrän lukemisen ja tarkistamisen sekä LED-valon ohjaamisen](../../../../../translated_images/fi/assignment-1-flow.7552a51acb1a5ec8.webp)
 
 * [Arduino - Wio Terminal](wio-terminal-actuator.md)
 * [Yksikorttitietokone - Raspberry Pi](pi-actuator.md)
@@ -140,7 +140,7 @@ Kuten anturit, toimilaitteet ovat joko analogisia tai digitaalisia.
 Analogiset toimilaitteet ottavat analogisen signaalin ja muuntavat sen jonkinlaiseksi vuorovaikutukseksi, jossa vuorovaikutus muuttuu syötetyn jännitteen mukaan.
 
 Yksi esimerkki on himmennettävä valo, kuten ne, joita saatat käyttää kotonasi. Valon kirkkaus määräytyy syötetyn jännitteen mukaan.
-![Valo himmennetty matalalla jännitteellä ja kirkkaampi korkeammalla jännitteellä](../../../../../translated_images/fi/dimmable-light.9ceffeb195dec1a849da718b2d71b32c35171ff7dfea9c07bbf82646a67acf6b.png)
+![Valo himmennetty matalalla jännitteellä ja kirkkaampi korkeammalla jännitteellä](../../../../../translated_images/fi/dimmable-light.9ceffeb195dec1a8.webp)
 
 Kuten antureiden kanssa, varsinainen IoT-laite toimii digitaalisilla signaaleilla, ei analogisilla. Tämä tarkoittaa, että analogisen signaalin lähettämiseksi IoT-laitteessa täytyy olla digitaalista analogiseksi muuntava laite (DAC), joko suoraan IoT-laitteessa tai liitäntälevyssä. Tämä muuntaa IoT-laitteen 0:t ja 1:t analogiseksi jännitteeksi, jota toimilaite voi käyttää.
 
@@ -187,7 +187,7 @@ Digitaaliset toimilaitteet, kuten digitaaliset anturit, ovat joko kahdessa tilas
 
 Yksi yksinkertainen digitaalinen toimilaite on LED. Kun laite lähettää digitaalisen signaalin 1, lähetetään korkea jännite, joka sytyttää LEDin. Kun lähetetään digitaalinen signaali 0, jännite laskee 0V:iin ja LED sammuu.
 
-![LED on pois päältä 0 voltilla ja päällä 5V:lla](../../../../../translated_images/fi/led.ec6d94f66676a174ad06d9fa9ea49c2ee89beb18b312d5c6476467c66375b07f.png)
+![LED on pois päältä 0 voltilla ja päällä 5V:lla](../../../../../translated_images/fi/led.ec6d94f66676a174.webp)
 
 ✅ Mitä muita yksinkertaisia kaksitilaisia toimilaitteita keksit? Yksi esimerkki on solenoidi, joka on sähkömagneetti, jota voidaan aktivoida tekemään asioita, kuten siirtämään oven salpaa lukitsemalla/avaamalla oven.
 

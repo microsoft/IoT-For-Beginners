@@ -1,6 +1,6 @@
 # Genkend tale med en IoT-enhed
 
-![En sketchnote-oversigt over denne lektion](../../../../../translated_images/da/lesson-21.e34de51354d6606fb5ee08d8c89d0222eea0a2a7aaf744a8805ae847c4f69dc4.jpg)
+![En sketchnote-oversigt over denne lektion](../../../../../translated_images/da/lesson-21.e34de51354d6606f.webp)
 
 > Sketchnote af [Nitya Narasimhan](https://github.com/nitya). Klik på billedet for en større version.
 
@@ -51,7 +51,7 @@ Mikrofoner findes i forskellige typer:
 
     Dynamiske mikrofoner behøver ikke strøm for at fungere; det elektriske signal skabes udelukkende af mikrofonen.
 
-    ![Patti Smith synger i en Shure SM58 (dynamisk cardioid-type) mikrofon](../../../../../translated_images/da/dynamic-mic.8babac890a2d80dfb0874b5bf37d4b851fe2aeb9da6fd72945746176978bf3bb.jpg)
+    ![Patti Smith synger i en Shure SM58 (dynamisk cardioid-type) mikrofon](../../../../../translated_images/da/dynamic-mic.8babac890a2d80df.webp)
 
 * Bånd - Båndmikrofoner ligner dynamiske mikrofoner, men de har et metalbånd i stedet for en membran. Dette bånd bevæger sig i et magnetfelt og genererer en elektrisk strøm. Ligesom dynamiske mikrofoner behøver båndmikrofoner ikke strøm for at fungere.
 
@@ -59,11 +59,11 @@ Mikrofoner findes i forskellige typer:
 
 * Kondensator - Kondensatormikrofoner har en tynd metalmembran og en fast metalbagplade. Elektricitet påføres begge dele, og når membranen vibrerer, ændres den statiske ladning mellem pladerne og genererer et signal. Kondensatormikrofoner kræver strøm for at fungere - kaldet *Phantom power*.
 
-    ![C451B små-membran kondensatormikrofon fra AKG Acoustics](../../../../../translated_images/da/condenser-mic.6f6ed5b76ca19e0ec3fd0c544601542d4479a6cb7565db336de49fbbf69f623e.jpg)
+    ![C451B små-membran kondensatormikrofon fra AKG Acoustics](../../../../../translated_images/da/condenser-mic.6f6ed5b76ca19e0e.webp)
 
 * MEMS - Mikroelektromekaniske systemmikrofoner, eller MEMS, er mikrofoner på en chip. De har en trykfølsom membran ætset på en siliciumchip og fungerer på samme måde som en kondensatormikrofon. Disse mikrofoner kan være meget små og integreret i kredsløb.
 
-    ![En MEMS-mikrofon på et kredsløb](../../../../../translated_images/da/mems-microphone.80574019e1f5e4d9ee72fed720ecd25a39fc2969c91355d17ebb24ba4159e4c4.png)
+    ![En MEMS-mikrofon på et kredsløb](../../../../../translated_images/da/mems-microphone.80574019e1f5e4d9.webp)
 
     På billedet ovenfor er chippen mærket **LEFT** en MEMS-mikrofon med en lille membran mindre end en millimeter bred.
 
@@ -159,7 +159,7 @@ For at undgå kompleksiteten ved at træne og bruge en vågningsordsmodel vil de
 
 ## Konverter tale til tekst
 
-![Logo for taletjenester](../../../../../translated_images/da/azure-speech-logo.a1f08c4befb0159f2cb5d692d3baf5b599e7b44759d316da907bda1508f46a4a.png)
+![Logo for taletjenester](../../../../../translated_images/da/azure-speech-logo.a1f08c4befb0159f.webp)
 
 Ligesom med billedklassifikation i et tidligere projekt findes der forudbyggede AI-tjenester, der kan tage tale som en lydfil og konvertere det til tekst. En sådan tjeneste er Speech Service, en del af Cognitive Services, forudbyggede AI-tjenester, du kan bruge i dine apps.
 

@@ -67,7 +67,7 @@ Koodi, jota käytit kuvien luokitteluun, on hyvin samanlainen kuin koodi objekti
 
     Näet otetun kuvan ja nämä arvot **Predictions**-välilehdellä Custom Visionissa.
 
-    ![4 tölkkiä tomaattipyrettä hyllyllä, jossa ennusteet 35,8 %, 33,5 %, 25,7 % ja 16,6 % neljälle tunnistukselle](../../../../../translated_images/fi/custom-vision-stock-prediction.942266ab1bcca3410ecdf23643b9f5f570cfab2345235074e24c51f285777613.png)
+    ![4 tölkkiä tomaattipyrettä hyllyllä, jossa ennusteet 35,8 %, 33,5 %, 25,7 % ja 16,6 % neljälle tunnistukselle](../../../../../translated_images/fi/custom-vision-stock-prediction.942266ab1bcca341.webp)
 
 > 💁 Löydät tämän koodin [code-detect/pi](../../../../../5-retail/lessons/2-check-stock-device/code-detect/pi) tai [code-detect/virtual-iot-device](../../../../../5-retail/lessons/2-check-stock-device/code-detect/virtual-iot-device) -kansiosta.
 

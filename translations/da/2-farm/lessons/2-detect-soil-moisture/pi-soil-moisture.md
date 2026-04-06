@@ -18,13 +18,13 @@ Grove jordfugtighedssensoren kan tilsluttes Raspberry Pi'en.
 
 Tilslut jordfugtighedssensoren.
 
-![En Grove jordfugtighedssensor](../../../../../translated_images/da/grove-capacitive-soil-moisture-sensor.e7f0776cce30e78be5cc5a07839385fd6718857f31b5bf5ad3d0c73c83b2f0ef.png)
+![En Grove jordfugtighedssensor](../../../../../translated_images/da/grove-capacitive-soil-moisture-sensor.e7f0776cce30e78b.webp)
 
 1. Sæt den ene ende af et Grove-kabel i stikket på jordfugtighedssensoren. Det kan kun sættes i på én måde.
 
 1. Med Raspberry Pi'en slukket, tilslut den anden ende af Grove-kablet til det analoge stik mærket **A0** på Grove Base Hat, der er tilsluttet Pi'en. Dette stik er det næstsidste til højre i rækken af stik ved siden af GPIO-pins.
 
-![Grove jordfugtighedssensor tilsluttet A0-stikket](../../../../../translated_images/da/pi-soil-moisture-sensor.fdd7eb2393792cf6739cacf1985d9f55beda16d372f30d0b5a51d586f978a870.png)
+![Grove jordfugtighedssensor tilsluttet A0-stikket](../../../../../translated_images/da/pi-soil-moisture-sensor.fdd7eb2393792cf6.webp)
 
 1. Sæt jordfugtighedssensoren i jorden. Den har en 'højeste positionslinje' - en hvid linje på tværs af sensoren. Sæt sensoren i jorden op til, men ikke over, denne linje.
 

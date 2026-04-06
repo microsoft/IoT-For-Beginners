@@ -1,6 +1,6 @@
 # Johdanto IoT:hen
 
-![Tämän oppitunnin sketchnote-yhteenveto](../../../../../translated_images/fi/lesson-1.2606670fa61ee904687da5d6fa4e726639d524d064c895117da1b95b9ff6251d.jpg)
+![Tämän oppitunnin sketchnote-yhteenveto](../../../../../translated_images/fi/lesson-1.2606670fa61ee904.webp)
 
 > Sketchnoten on tehnyt [Nitya Narasimhan](https://github.com/nitya). Klikkaa kuvaa nähdäksesi suuremman version.
 

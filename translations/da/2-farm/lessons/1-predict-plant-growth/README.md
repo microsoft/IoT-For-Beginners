@@ -1,6 +1,6 @@
 # Forudsig plantevækst med IoT
 
-![En sketchnote-oversigt over denne lektion](../../../../../translated_images/da/lesson-5.42b234299279d263143148b88ab4583861a32ddb03110c6c1120e41bb88b2592.jpg)
+![En sketchnote-oversigt over denne lektion](../../../../../translated_images/da/lesson-5.42b234299279d263.webp)
 
 > Sketchnote af [Nitya Narasimhan](https://github.com/nitya). Klik på billedet for en større version.
 
@@ -90,7 +90,7 @@ Vækstgradedage, eller GDD, beregnes pr. dag som den gennemsnitlige temperatur i
 
 Den fulde formel for GDD er lidt kompliceret, men der findes en forenklet ligning, der ofte bruges som en god tilnærmelse:
 
-![GDD = T max + T min divideret med 2, alt minus T base](../../../../../translated_images/da/gdd-calculation.79b3660f9c5757aa92dc2dd2cdde75344e2d2c1565c4b3151640f7887edc0275.png)
+![GDD = T max + T min divideret med 2, alt minus T base](../../../../../translated_images/da/gdd-calculation.79b3660f9c5757aa.webp)
 
 * **GDD** - dette er antallet af vækstgradedage
 * **T max** - dette er den daglige maksimumtemperatur i grader Celsius
@@ -118,7 +118,7 @@ Ved at indsætte disse tal i vores beregning:
 
 Dette giver en beregning på:
 
-![GDD = 16 + 12 divideret med 2, alt minus 10, hvilket giver et svar på 4](../../../../../translated_images/da/gdd-calculation-corn.64a58b7a7afcd0dfd46ff733996d939f17f4f3feac9f0d1c632be3523e51ebd9.png)
+![GDD = 16 + 12 divideret med 2, alt minus 10, hvilket giver et svar på 4](../../../../../translated_images/da/gdd-calculation-corn.64a58b7a7afcd0df.webp)
 
 Majsen modtog 4 GDD den dag. Hvis vi antager en majsvariant, der har brug for 800 GDD for at modne, vil den have brug for yderligere 796 GDD for at nå modenhed.
 
@@ -239,7 +239,7 @@ Trinene til at gøre dette manuelt er:
 
 For eksempel, hvis dagens højeste temperatur er 25°C, og den laveste er 12°C:
 
-![GDD = 25 + 12 divideret med 2, derefter træk 10 fra resultatet, hvilket giver 8.5](../../../../../translated_images/da/gdd-calculation-strawberries.59f57db94b22adb8ff6efb951ace33af104a1c6ccca3ffb0f8169c14cb160c90.png)
+![GDD = 25 + 12 divideret med 2, derefter træk 10 fra resultatet, hvilket giver 8.5](../../../../../translated_images/da/gdd-calculation-strawberries.59f57db94b22adb8.webp)
 
 * 25 + 12 = 37
 * 37 / 2 = 18.5

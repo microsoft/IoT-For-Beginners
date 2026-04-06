@@ -1,6 +1,6 @@
 ## Ennusta kasvien kasvua IoT:n avulla
 
-![Yleiskuva tämän oppitunnin sisällöstä](../../../../../translated_images/fi/lesson-5.42b234299279d263143148b88ab4583861a32ddb03110c6c1120e41bb88b2592.jpg)
+![Yleiskuva tämän oppitunnin sisällöstä](../../../../../translated_images/fi/lesson-5.42b234299279d263.webp)
 
 > Sketchnote: [Nitya Narasimhan](https://github.com/nitya). Klikkaa kuvaa nähdäksesi suuremman version.
 
@@ -90,7 +90,7 @@ Kasvupäivien asteet, eli GDD, lasketaan päivittäin päivän keskilämpötilan
 
 Täydellinen GDD-kaava on hieman monimutkainen, mutta yksinkertaistettu yhtälö on usein hyvä arvio:
 
-![GDD = T max + T min jaettuna kahdella, kaikki miinus T base](../../../../../translated_images/fi/gdd-calculation.79b3660f9c5757aa92dc2dd2cdde75344e2d2c1565c4b3151640f7887edc0275.png)
+![GDD = T max + T min jaettuna kahdella, kaikki miinus T base](../../../../../translated_images/fi/gdd-calculation.79b3660f9c5757aa.webp)
 
 * **GDD** - tämä on kasvupäivien asteiden määrä
 * **T max** - tämä on päivän maksimilämpötila Celsius-asteina
@@ -118,7 +118,7 @@ Kun nämä luvut syötetään laskentaan:
 
 Tämä antaa laskennan:
 
-![GDD = 16 + 12 jaettuna kahdella, kaikki miinus 10, tuloksena 4](../../../../../translated_images/fi/gdd-calculation-corn.64a58b7a7afcd0dfd46ff733996d939f17f4f3feac9f0d1c632be3523e51ebd9.png)
+![GDD = 16 + 12 jaettuna kahdella, kaikki miinus 10, tuloksena 4](../../../../../translated_images/fi/gdd-calculation-corn.64a58b7a7afcd0df.webp)
 
 Maissi sai 4 GDD:tä sinä päivänä. Oletetaan, että maissilajike tarvitsee kypsyäkseen 800 GDD:tä, jolloin se tarvitsee vielä 796 GDD:tä saavuttaakseen kypsyyden.
 
@@ -239,7 +239,7 @@ Manuaaliset vaiheet tähän ovat:
 
 Esimerkiksi, jos päivän korkein lämpötila on 25°C ja matalin 12°C:
 
-![GDD = 25 + 12 jaettuna kahdella, vähennä tuloksesta 10, jolloin saadaan 8.5](../../../../../translated_images/fi/gdd-calculation-strawberries.59f57db94b22adb8ff6efb951ace33af104a1c6ccca3ffb0f8169c14cb160c90.png)
+![GDD = 25 + 12 jaettuna kahdella, vähennä tuloksesta 10, jolloin saadaan 8.5](../../../../../translated_images/fi/gdd-calculation-strawberries.59f57db94b22adb8.webp)
 
 * 25 + 12 = 37
 * 37 / 2 = 18.5

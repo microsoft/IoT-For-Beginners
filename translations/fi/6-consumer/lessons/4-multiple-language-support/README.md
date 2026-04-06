@@ -1,6 +1,6 @@
 # Tuen lisääminen useille kielille
 
-![Tämän oppitunnin sketchnote-yhteenveto](../../../../../translated_images/fi/lesson-24.4246968ed058510ab275052e87ef9aa89c7b2f938915d103c605c04dc6cd5bb7.jpg)
+![Tämän oppitunnin sketchnote-yhteenveto](../../../../../translated_images/fi/lesson-24.4246968ed058510a.webp)
 
 > Sketchnote: [Nitya Narasimhan](https://github.com/nitya). Klikkaa kuvaa nähdäksesi suuremman version.
 
@@ -74,7 +74,7 @@ On olemassa useita tekoälypalveluita, joita voit käyttää sovelluksissasi puh
 
 ### Cognitive Services -puhepalvelu
 
-![Puhepalvelun logo](../../../../../translated_images/fi/azure-speech-logo.a1f08c4befb0159f2cb5d692d3baf5b599e7b44759d316da907bda1508f46a4a.png)
+![Puhepalvelun logo](../../../../../translated_images/fi/azure-speech-logo.a1f08c4befb0159f.webp)
 
 Puhepalvelu, jota olet käyttänyt viimeisissä oppitunneissa, sisältää käännöstoimintoja puheen tunnistamiseen. Kun tunnistat puhetta, voit pyytää puheen tekstiversion paitsi samalla kielellä myös muilla kielillä.
 
@@ -82,7 +82,7 @@ Puhepalvelu, jota olet käyttänyt viimeisissä oppitunneissa, sisältää kää
 
 ### Cognitive Services -kääntäjäpalvelu
 
-![Kääntäjäpalvelun logo](../../../../../translated_images/fi/azure-translator-logo.c6ed3a4a433edfd2f11577eca105412c50b8396b194cbbd730723dd1d0793bcd.png)
+![Kääntäjäpalvelun logo](../../../../../translated_images/fi/azure-translator-logo.c6ed3a4a433edfd2.webp)
 
 Kääntäjäpalvelu on omistettu käännöspalvelu, joka voi kääntää tekstiä yhdeltä kieleltä yhdelle tai useammalle kohdekielelle. Kääntämisen lisäksi se tukee monia lisäominaisuuksia, kuten kirosanojen peittämistä. Se mahdollistaa myös tietyn käännöksen määrittämisen tietylle sanalle tai lauseelle, jotta voit hallita termejä, joita ei haluta kääntää, tai käyttää tiettyä tunnettua käännöstä.
 

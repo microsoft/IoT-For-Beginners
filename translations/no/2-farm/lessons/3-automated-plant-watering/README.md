@@ -1,6 +1,6 @@
 # Automatisk plantevanning
 
-![En sketchnote-oversikt over denne leksjonen](../../../../../translated_images/no/lesson-7.30b5f577d3cb8e031238751475cb519c7d6dbaea261b5df4643d086ffb2a03bb.jpg)
+![En sketchnote-oversikt over denne leksjonen](../../../../../translated_images/no/lesson-7.30b5f577d3cb8e03.webp)
 
 > Sketchnote av [Nitya Narasimhan](https://github.com/nitya). Klikk på bildet for en større versjon.
 
@@ -32,7 +32,7 @@ IoT-enheter bruker lav spenning. Selv om dette er nok for sensorer og lavstrøms
 
 Løsningen på dette er å ha en pumpe koblet til en ekstern strømkilde og bruke en aktuator til å slå på pumpen, på samme måte som du ville slått på et lys. Det krever en liten mengde energi (i form av energi i kroppen din) for fingeren din å trykke på en bryter, og dette kobler lyset til strømnettet som kjører på 110v/240v.
 
-![En lysbryter slår på strømmen til et lys](../../../../../translated_images/no/light-switch.760317ad6ab8bd6d611da5352dfe9c73a94a0822ccec7df3c8bae35da18e1658.png)
+![En lysbryter slår på strømmen til et lys](../../../../../translated_images/no/light-switch.760317ad6ab8bd6d.webp)
 
 > 🎓 [Strømnett](https://wikipedia.org/wiki/Mains_electricity) refererer til elektrisiteten som leveres til hjem og bedrifter gjennom nasjonal infrastruktur i mange deler av verden.
 
@@ -72,7 +72,7 @@ Når spaken beveger seg, kan du vanligvis høre den lage kontakt med elektromagn
 
 Elektromagneten trenger ikke mye strøm for å aktivere og trekke spaken, den kan kontrolleres med 3,3V eller 5V utgang fra et IoT-utviklingskort. Utgangskretsen kan bære mye mer strøm, avhengig av reléet, inkludert strømnettspenning eller enda høyere strømnivåer for industriell bruk. På denne måten kan et IoT-utviklingskort kontrollere et vanningssystem, fra en liten pumpe for en enkelt plante, til et massivt industrielt system for en hel kommersiell gård.
 
-![Et Grove-relé med kontrollkrets, utgangskrets og relé merket](../../../../../translated_images/no/grove-relay-labelled.293e068f5c3c2a199bd7892f2661fdc9e10c920b535cfed317fbd6d1d4ae1168.png)
+![Et Grove-relé med kontrollkrets, utgangskrets og relé merket](../../../../../translated_images/no/grove-relay-labelled.293e068f5c3c2a19.webp)
 
 Bildet ovenfor viser et Grove-relé. Kontrollkretsen kobles til en IoT-enhet og slår reléet av eller på med 3,3V eller 5V. Utgangskretsen har to terminaler, hvorav en kan være strøm eller jord. Utgangskretsen kan håndtere opptil 250V ved 10A, nok for en rekke enheter som drives av strømnettet. Du kan få reléer som kan håndtere enda høyere strømnivåer.
 

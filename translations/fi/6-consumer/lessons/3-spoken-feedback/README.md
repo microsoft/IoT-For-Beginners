@@ -1,6 +1,6 @@
 # Aseta ajastin ja anna puhepalautetta
 
-![Tämän oppitunnin luonnoskuva](../../../../../translated_images/fi/lesson-23.f38483e1d4df4828990d3f02d60e46c978b075d384ae7cb4f7bab738e107c850.jpg)
+![Tämän oppitunnin luonnoskuva](../../../../../translated_images/fi/lesson-23.f38483e1d4df4828.webp)
 
 > Luonnoskuva: [Nitya Narasimhan](https://github.com/nitya). Klikkaa kuvaa nähdäksesi suuremman version.
 

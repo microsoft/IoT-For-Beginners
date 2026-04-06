@@ -1,6 +1,6 @@
 # Pidä kasvisi turvassa
 
-![Tämän oppitunnin luonnoskuva](../../../../../translated_images/fi/lesson-10.829c86b80b9403bb770929ee553a1d293afe50dc23121aaf9be144673ae012cc.jpg)
+![Tämän oppitunnin luonnoskuva](../../../../../translated_images/fi/lesson-10.829c86b80b9403bb.webp)
 
 > Luonnoskuva: [Nitya Narasimhan](https://github.com/nitya). Klikkaa kuvaa nähdäksesi suuremman version.
 
@@ -52,11 +52,11 @@ Nämä ovat todellisia tilanteita, joita tapahtuu jatkuvasti. Joitakin esimerkke
 
 Kun laite yhdistää IoT-palveluun, se käyttää tunnistetta itsensä tunnistamiseen. Ongelma on, että tämä tunniste voidaan kopioida – hakkeri voisi asettaa haitallisen laitteen käyttämään samaa tunnistetta kuin oikea laite, mutta lähettämään vääriä tietoja.
 
-![Sekä oikea että haitallinen laite voivat käyttää samaa tunnistetta telemetrian lähettämiseen](../../../../../translated_images/fi/iot-device-and-hacked-device-connecting.e0671675df74d6d99eb1dedb5a670e606f698efa6202b1ad4c8ae548db299cc6.png)
+![Sekä oikea että haitallinen laite voivat käyttää samaa tunnistetta telemetrian lähettämiseen](../../../../../translated_images/fi/iot-device-and-hacked-device-connecting.e0671675df74d6d9.webp)
 
 Ratkaisu tähän on muuntaa lähetettävät tiedot salattuun muotoon käyttämällä arvoa, joka tunnetaan vain laitteelle ja pilvelle. Tätä prosessia kutsutaan *salaamiseksi*, ja arvoa, jota käytetään tietojen salaamiseen, kutsutaan *salausavaimeksi*.
 
-![Jos salaus on käytössä, vain salatut viestit hyväksytään, muut hylätään](../../../../../translated_images/fi/iot-device-and-hacked-device-connecting-encryption.5941aff601fc978f979e46f2849b573564eeb4a4dc5b52f669f62745397492fb.png)
+![Jos salaus on käytössä, vain salatut viestit hyväksytään, muut hylätään](../../../../../translated_images/fi/iot-device-and-hacked-device-connecting-encryption.5941aff601fc978f.webp)
 
 Pilvipalvelu voi sitten muuntaa tiedot takaisin luettavaan muotoon prosessilla, jota kutsutaan *purkamiseksi*, käyttäen joko samaa salausavainta tai *purkuavainta*. Jos salattua viestiä ei voida purkaa avaimella, laite on hakkeroitu ja viesti hylätään.
 

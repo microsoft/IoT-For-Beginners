@@ -1,6 +1,6 @@
 # Sett en timer og gi muntlig tilbakemelding
 
-![En sketchnote-oversikt over denne leksjonen](../../../../../translated_images/no/lesson-23.f38483e1d4df4828990d3f02d60e46c978b075d384ae7cb4f7bab738e107c850.jpg)
+![En sketchnote-oversikt over denne leksjonen](../../../../../translated_images/no/lesson-23.f38483e1d4df4828.webp)
 
 > Sketchnote av [Nitya Narasimhan](https://github.com/nitya). Klikk på bildet for en større versjon.
 

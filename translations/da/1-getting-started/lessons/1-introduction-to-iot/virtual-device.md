@@ -203,7 +203,7 @@ Som et andet 'Hello World'-trin vil du køre CounterFit-appen og forbinde din ko
 
     Appen vil begynde at køre og åbne i din webbrowser:
 
-    ![CounterFit-appen kører i en browser](../../../../../translated_images/da/counterfit-first-run.433326358b669b31d0e99c3513cb01bfbb13724d162c99cdcc8f51ecf5f9c779.png)
+    ![CounterFit-appen kører i en browser](../../../../../translated_images/da/counterfit-first-run.433326358b669b31.webp)
 
     Den vil være markeret som *Disconnected*, med LED'en i øverste højre hjørne slukket.
 
@@ -224,7 +224,7 @@ Som et andet 'Hello World'-trin vil du køre CounterFit-appen og forbinde din ko
 
 1. I denne nye terminal skal du køre `app.py`-filen som før. Status for CounterFit vil ændre sig til **Connected**, og LED'en vil lyse op.
 
-    ![CounterFit viser som connected](../../../../../translated_images/da/counterfit-connected.ed30b46d8f79b0921f3fc70be10366e596a89dca3f80c2224a9d9fc98fccf884.png)
+    ![CounterFit viser som connected](../../../../../translated_images/da/counterfit-connected.ed30b46d8f79b092.webp)
 
 > 💁 Du kan finde denne kode i [code/virtual-device](../../../../../1-getting-started/lessons/1-introduction-to-iot/code/virtual-device)-mappen.
 

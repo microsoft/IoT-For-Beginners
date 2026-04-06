@@ -1,6 +1,6 @@
 # Sporing av lokasjon
 
-![En sketchnote-oversikt over denne leksjonen](../../../../../translated_images/no/lesson-11.9fddbac4b664c6d50ab7ac9bb32f1fc3f945f03760e72f7f43938073762fb017.jpg)
+![En sketchnote-oversikt over denne leksjonen](../../../../../translated_images/no/lesson-11.9fddbac4b664c6d5.webp)
 
 > Sketchnote av [Nitya Narasimhan](https://github.com/nitya). Klikk på bildet for en større versjon.
 
@@ -63,13 +63,13 @@ Jorden er en kule – en tredimensjonal sirkel. På grunn av dette defineres pun
 
 > 💁 Ingen vet egentlig den opprinnelige grunnen til at sirkler er delt inn i 360 grader. [Gradsiden på Wikipedia](https://wikipedia.org/wiki/Degree_(angle)) dekker noen av de mulige årsakene.
 
-![Breddegradslinjer fra 90° ved Nordpolen, 45° halvveis mellom Nordpolen og ekvator, 0° ved ekvator, -45° halvveis mellom ekvator og Sydpolen, og -90° ved Sydpolen](../../../../../translated_images/no/latitude-lines.11d8d91dfb2014a57437272d7db7fd6607243098e8685f06e0c5f1ec984cb7eb.png)
+![Breddegradslinjer fra 90° ved Nordpolen, 45° halvveis mellom Nordpolen og ekvator, 0° ved ekvator, -45° halvveis mellom ekvator og Sydpolen, og -90° ved Sydpolen](../../../../../translated_images/no/latitude-lines.11d8d91dfb2014a5.webp)
 
 Breddegrad måles ved hjelp av linjer som sirkler jorden og går parallelt med ekvator, og deler den nordlige og sørlige halvkule inn i 90° hver. Ekvator er på 0°, Nordpolen er 90°, også kjent som 90° Nord, og Sydpolen er på -90°, eller 90° Sør.
 
 Lengdegrad måles som antall grader målt øst og vest. 0°-opprinnelsen til lengdegrad kalles *Prime Meridian*, og ble definert i 1884 som en linje fra Nordpolen til Sydpolen som går gjennom [British Royal Observatory i Greenwich, England](https://wikipedia.org/wiki/Royal_Observatory,_Greenwich).
 
-![Lengdegradslinjer som går fra -180° vest for Prime Meridian, til 0° på Prime Meridian, til 180° øst for Prime Meridian](../../../../../translated_images/no/longitude-meridians.ab4ef1c91c064586b0185a3c8d39e585903696c6a7d28c098a93a629cddb5d20.png)
+![Lengdegradslinjer som går fra -180° vest for Prime Meridian, til 0° på Prime Meridian, til 180° øst for Prime Meridian](../../../../../translated_images/no/longitude-meridians.ab4ef1c91c064586.webp)
 
 > 🎓 En meridian er en imaginær rett linje som går fra Nordpolen til Sydpolen og danner en halvsirkel.
 
@@ -100,7 +100,7 @@ Koordinater for et punkt gis alltid som `breddegrad, lengdegrad`, så eksempelet
 * En breddegrad på 47.6423109 (47.6423109 grader nord for ekvator)
 * En lengdegrad på -122.1390293 (122.1390293 grader vest for Prime Meridian).
 
-![Microsoft Campus på 47.6423109,-122.117198](../../../../../translated_images/no/microsoft-gps-location-world.a321d481b010f6adfcca139b2ba0adc53b79f58a540495b8e2ce7f779ea64bfe.png)
+![Microsoft Campus på 47.6423109,-122.117198](../../../../../translated_images/no/microsoft-gps-location-world.a321d481b010f6ad.webp)
 
 ## Global Positioning Systems (GPS)
 
@@ -112,7 +112,7 @@ GPS-systemer fungerer ved å ha et antall satellitter som sender et signal med h
 
 > 💁 GPS-sensorer trenger antenner for å oppdage radiobølger. Antennene som er innebygd i lastebiler og biler med innebygd GPS er plassert for å få et godt signal, vanligvis på frontruten eller taket. Hvis du bruker et separat GPS-system, som en smarttelefon eller en IoT-enhet, må du sørge for at antennen innebygd i GPS-systemet eller telefonen har fri sikt til himmelen, for eksempel ved å være montert på frontruten.
 
-![Ved å vite avstanden fra sensoren til flere satellitter, kan lokasjonen beregnes](../../../../../translated_images/no/gps-satellites.04acf1148fe25fbf1586bc2e8ba698e8d79b79a50c36824b38417dd13372b90f.png)
+![Ved å vite avstanden fra sensoren til flere satellitter, kan lokasjonen beregnes](../../../../../translated_images/no/gps-satellites.04acf1148fe25fbf.webp)
 
 GPS-satellitter sirkler jorden, ikke på et fast punkt over sensoren, så lokasjonsdata inkluderer høyde over havnivå i tillegg til breddegrad og lengdegrad.
 

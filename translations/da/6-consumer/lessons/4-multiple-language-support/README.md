@@ -1,6 +1,6 @@
 # Understøt flere sprog
 
-![En sketchnote oversigt over denne lektion](../../../../../translated_images/da/lesson-24.4246968ed058510ab275052e87ef9aa89c7b2f938915d103c605c04dc6cd5bb7.jpg)
+![En sketchnote oversigt over denne lektion](../../../../../translated_images/da/lesson-24.4246968ed058510a.webp)
 
 > Sketchnote af [Nitya Narasimhan](https://github.com/nitya). Klik på billedet for en større version.
 
@@ -74,7 +74,7 @@ Der findes en række AI-tjenester, som du kan bruge fra dine applikationer til a
 
 ### Cognitive Services Speech Service
 
-![Logoet for tale-tjenesten](../../../../../translated_images/da/azure-speech-logo.a1f08c4befb0159f2cb5d692d3baf5b599e7b44759d316da907bda1508f46a4a.png)
+![Logoet for tale-tjenesten](../../../../../translated_images/da/azure-speech-logo.a1f08c4befb0159f.webp)
 
 Tale-tjenesten, som du har brugt i de sidste par lektioner, har oversættelsesmuligheder for talegenkendelse. Når du genkender tale, kan du anmode om ikke kun teksten af talen på samme sprog, men også på andre sprog.
 
@@ -82,7 +82,7 @@ Tale-tjenesten, som du har brugt i de sidste par lektioner, har oversættelsesmu
 
 ### Cognitive Services Translator Service
 
-![Logoet for oversætter-tjenesten](../../../../../translated_images/da/azure-translator-logo.c6ed3a4a433edfd2f11577eca105412c50b8396b194cbbd730723dd1d0793bcd.png)
+![Logoet for oversætter-tjenesten](../../../../../translated_images/da/azure-translator-logo.c6ed3a4a433edfd2.webp)
 
 Translator-tjenesten er en dedikeret oversættelsestjeneste, der kan oversætte tekst fra ét sprog til ét eller flere målsprog. Ud over at oversætte understøtter den en bred vifte af ekstra funktioner, herunder maskering af bandeord. Den giver dig også mulighed for at angive en specifik oversættelse for et bestemt ord eller en sætning, så du kan arbejde med termer, du ikke ønsker oversat, eller have en specifik velkendt oversættelse.
 

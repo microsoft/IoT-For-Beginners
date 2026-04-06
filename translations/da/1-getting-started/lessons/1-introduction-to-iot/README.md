@@ -1,6 +1,6 @@
 # Introduktion til IoT
 
-![En sketchnote oversigt over denne lektion](../../../../../translated_images/da/lesson-1.2606670fa61ee904687da5d6fa4e726639d524d064c895117da1b95b9ff6251d.jpg)
+![En sketchnote oversigt over denne lektion](../../../../../translated_images/da/lesson-1.2606670fa61ee904.webp)
 
 > Sketchnote af [Nitya Narasimhan](https://github.com/nitya). Klik på billedet for en større version.
 

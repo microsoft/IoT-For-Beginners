@@ -1,6 +1,6 @@
 # Hold planten din trygg
 
-![En sketchnote-oversikt over denne leksjonen](../../../../../translated_images/no/lesson-10.829c86b80b9403bb770929ee553a1d293afe50dc23121aaf9be144673ae012cc.jpg)
+![En sketchnote-oversikt over denne leksjonen](../../../../../translated_images/no/lesson-10.829c86b80b9403bb.webp)
 
 > Sketchnote av [Nitya Narasimhan](https://github.com/nitya). Klikk på bildet for en større versjon.
 
@@ -52,11 +52,11 @@ Dette er reelle scenarier som skjer hele tiden. Noen eksempler ble gitt i tidlig
 
 Når en enhet kobler seg til en IoT-tjeneste, bruker den en ID for å identifisere seg selv. Problemet er at denne ID-en kan klones – en hacker kan sette opp en ondsinnet enhet som bruker samme ID som en ekte enhet, men sender falske data.
 
-![Både gyldige og ondsinnede enheter kan bruke samme ID for å sende telemetri](../../../../../translated_images/no/iot-device-and-hacked-device-connecting.e0671675df74d6d99eb1dedb5a670e606f698efa6202b1ad4c8ae548db299cc6.png)
+![Både gyldige og ondsinnede enheter kan bruke samme ID for å sende telemetri](../../../../../translated_images/no/iot-device-and-hacked-device-connecting.e0671675df74d6d9.webp)
 
 Løsningen på dette er å konvertere dataene som sendes til et kryptert format, ved å bruke en verdi som kun er kjent av enheten og skyen. Denne prosessen kalles *kryptering*, og verdien som brukes til å kryptere dataene kalles en *krypteringsnøkkel*.
 
-![Hvis kryptering brukes, vil kun krypterte meldinger bli akseptert, andre vil bli avvist](../../../../../translated_images/no/iot-device-and-hacked-device-connecting-encryption.5941aff601fc978f979e46f2849b573564eeb4a4dc5b52f669f62745397492fb.png)
+![Hvis kryptering brukes, vil kun krypterte meldinger bli akseptert, andre vil bli avvist](../../../../../translated_images/no/iot-device-and-hacked-device-connecting-encryption.5941aff601fc978f.webp)
 
 Skytjenesten kan deretter konvertere dataene tilbake til et lesbart format ved hjelp av en prosess som kalles *dekryptering*, ved å bruke enten samme krypteringsnøkkel eller en *dekrypteringsnøkkel*. Hvis den krypterte meldingen ikke kan dekrypteres med nøkkelen, har enheten blitt hacket, og meldingen blir avvist.
 

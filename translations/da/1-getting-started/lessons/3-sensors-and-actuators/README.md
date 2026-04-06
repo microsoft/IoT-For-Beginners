@@ -1,6 +1,6 @@
 # Interager med den fysiske verden med sensorer og aktuatorer
 
-![En sketchnote oversigt over denne lektion](../../../../../translated_images/da/lesson-3.cc3b7b4cd646de598698cce043c0393fd62ef42bac2eaf60e61272cd844250f4.jpg)
+![En sketchnote oversigt over denne lektion](../../../../../translated_images/da/lesson-3.cc3b7b4cd646de59.webp)
 
 > Sketchnote af [Nitya Narasimhan](https://github.com/nitya). Klik på billedet for en større version.
 
@@ -92,7 +92,7 @@ Digitale sensorer, ligesom analoge sensorer, registrerer verden omkring dem ved 
 
 Den enkleste digitale sensor er en knap eller kontakt. Dette er en sensor med to tilstande, tændt eller slukket.
 
-![En knap modtager 5 volt. Når den ikke er trykket, returnerer den 0 volt, når den er trykket, returnerer den 5 volt](../../../../../translated_images/da/button.eadb560b77ac45e56f523d9d8876e40444f63b419e33eb820082d461fa79490b.png)
+![En knap modtager 5 volt. Når den ikke er trykket, returnerer den 0 volt, når den er trykket, returnerer den 5 volt](../../../../../translated_images/da/button.eadb560b77ac45e5.webp)
 
 Pins på IoT-enheder, såsom GPIO-pins, kan måle dette signal direkte som en 0 eller 1. Hvis den sendte spænding er den samme som den returnerede spænding, læses værdien som 1, ellers læses værdien som 0. Der er ingen grund til at konvertere signalet, det kan kun være 1 eller 0.
 
@@ -125,7 +125,7 @@ Nogle almindelige aktuatorer inkluderer:
 
 Følg den relevante vejledning nedenfor for at tilføje en aktuator til din IoT-enhed, styret af sensoren, for at bygge en IoT-natlampe. Den vil indsamle lysniveauer fra lyssensoren og bruge en aktuator i form af en LED til at udsende lys, når det registrerede lysniveau er for lavt.
 
-![Et flowdiagram over opgaven, der viser lysniveauer, der bliver læst og kontrolleret, og LED'en bliver styret](../../../../../translated_images/da/assignment-1-flow.7552a51acb1a5ec858dca6e855cdbb44206434006df8ba3799a25afcdab1665d.png)
+![Et flowdiagram over opgaven, der viser lysniveauer, der bliver læst og kontrolleret, og LED'en bliver styret](../../../../../translated_images/da/assignment-1-flow.7552a51acb1a5ec8.webp)
 
 * [Arduino - Wio Terminal](wio-terminal-actuator.md)
 * [Single-board computer - Raspberry Pi](pi-actuator.md)
@@ -140,7 +140,7 @@ Ligesom sensorer er aktuatorer enten analoge eller digitale.
 Analoge aktuatorer tager et analogt signal og konverterer det til en form for interaktion, hvor interaktionen ændrer sig baseret på den leverede spænding.
 
 Et eksempel er en dæmpbar lampe, såsom dem du måske har i dit hjem. Mængden af spænding, der leveres til lampen, bestemmer, hvor lys den er.
-![En lysdæmper ved lav spænding og lysere ved højere spænding](../../../../../translated_images/da/dimmable-light.9ceffeb195dec1a849da718b2d71b32c35171ff7dfea9c07bbf82646a67acf6b.png)
+![En lysdæmper ved lav spænding og lysere ved højere spænding](../../../../../translated_images/da/dimmable-light.9ceffeb195dec1a8.webp)
 
 Ligesom med sensorer fungerer den faktiske IoT-enhed med digitale signaler, ikke analoge. Det betyder, at for at sende et analogt signal skal IoT-enheden have en digital-til-analog-konverter (DAC), enten direkte på IoT-enheden eller på et tilslutningskort. Dette konverterer 0'erne og 1'erne fra IoT-enheden til en analog spænding, som aktuatoren kan bruge.
 
@@ -187,7 +187,7 @@ Digitale aktuatorer, ligesom digitale sensorer, har enten to tilstande, der styr
 
 En simpel digital aktuator er en LED. Når en enhed sender et digitalt signal på 1, sendes en høj spænding, der tænder LED'en. Når et digitalt signal på 0 sendes, falder spændingen til 0V, og LED'en slukkes.
 
-![En LED er slukket ved 0 volt og tændt ved 5V](../../../../../translated_images/da/led.ec6d94f66676a174ad06d9fa9ea49c2ee89beb18b312d5c6476467c66375b07f.png)
+![En LED er slukket ved 0 volt og tændt ved 5V](../../../../../translated_images/da/led.ec6d94f66676a174.webp)
 
 ✅ Hvilke andre simple 2-tilstands aktuatorer kan du komme i tanke om? Et eksempel er en solenoid, som er en elektromagnet, der kan aktiveres til at gøre ting som at flytte en dørlås, der låser/oplåser en dør.
 

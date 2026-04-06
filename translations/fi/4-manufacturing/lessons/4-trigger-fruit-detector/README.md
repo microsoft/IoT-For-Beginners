@@ -1,6 +1,6 @@
 # Käynnistä hedelmien laadunvalvonta sensorista
 
-![Tämän oppitunnin yleiskuvaus sketchnotena](../../../../../translated_images/fi/lesson-18.92c32ed1d354caa5a54baa4032cf0b172d4655e8e326ad5d46c558a0def15365.jpg)
+![Tämän oppitunnin yleiskuvaus sketchnotena](../../../../../translated_images/fi/lesson-18.92c32ed1d354caa5.webp)
 
 > Sketchnote: [Nitya Narasimhan](https://github.com/nitya). Klikkaa kuvaa nähdäksesi suuremman version.
 
@@ -39,7 +39,7 @@ IoT-sovelluksia voidaan kuvata *asioina* (laitteet), jotka lähettävät dataa, 
 
 ### Viitearkkitehtuuri IoT-sovelluksille
 
-![Viitearkkitehtuuri IoT-sovelluksille](../../../../../translated_images/fi/iot-reference-architecture.2278b98b55c6d4e89bde18eada3688d893861d43507641804dd2f9d3079cfaa0.png)
+![Viitearkkitehtuuri IoT-sovelluksille](../../../../../translated_images/fi/iot-reference-architecture.2278b98b55c6d4e8.webp)
 
 Yllä oleva kaavio esittää viitearkkitehtuurin IoT-sovelluksille.
 
@@ -49,7 +49,7 @@ Yllä oleva kaavio esittää viitearkkitehtuurin IoT-sovelluksille.
 * **Oivallukset** syntyvät palveluttomista sovelluksista tai analytiikasta, joka suoritetaan tallennetulle datalle.
 * **Toimet** voivat olla komentoja, jotka lähetetään laitteille, tai datan visualisointia, joka mahdollistaa päätöksenteon ihmisille.
 
-![Viitearkkitehtuuri Azure IoT:lle](../../../../../translated_images/fi/iot-reference-architecture-azure.0b8d2161af924cb18ae48a8558a19541cca47f27264851b5b7e56d7b8bb372ac.png)
+![Viitearkkitehtuuri Azure IoT:lle](../../../../../translated_images/fi/iot-reference-architecture-azure.0b8d2161af924cb1.webp)
 
 Yllä oleva kaavio näyttää joitakin näissä oppitunneissa käsiteltyjä komponentteja ja palveluita sekä niiden yhteydet viitearkkitehtuurissa.
 
@@ -89,7 +89,7 @@ Sinun täytyy rakentaa järjestelmä, jossa hedelmä havaitaan sen saapuessa kul
 
 ### Sovelluksen prototyyppi
 
-![Viitearkkitehtuuri hedelmälaadun tarkistukseen](../../../../../translated_images/fi/iot-reference-architecture-fruit-quality.cc705f121c3b6fa71c800d9630935ac34bc08223a04601e35f41d5e9b5dd5207.png)
+![Viitearkkitehtuuri hedelmälaadun tarkistukseen](../../../../../translated_images/fi/iot-reference-architecture-fruit-quality.cc705f121c3b6fa7.webp)
 
 Yllä oleva kaavio esittää viitearkkitehtuurin tälle prototyyppisovellukselle.
 
@@ -124,7 +124,7 @@ Käy läpi asiaankuuluva opas läheisyysanturin käyttämiseksi IoT-laitteellasi
 
 Prototyyppinen hedelmälaadun tarkistin sisältää useita toisiinsa kommunikoivia komponentteja.
 
-![Komponentit kommunikoivat keskenään](../../../../../translated_images/fi/fruit-quality-detector-message-flow.adf2a65da8fd8741ac7af11361574de89adc126785d67606bb4d2ec00467e380.png)
+![Komponentit kommunikoivat keskenään](../../../../../translated_images/fi/fruit-quality-detector-message-flow.adf2a65da8fd8741.webp)
 
 * Läheisyysanturi mittaa etäisyyttä hedelmään ja lähettää tämän IoT Hubiin.
 * Kameraa ohjaava komento lähetetään IoT Hubista kameralle.

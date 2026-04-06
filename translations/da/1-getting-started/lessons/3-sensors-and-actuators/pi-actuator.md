@@ -26,7 +26,7 @@ Grove LED'en leveres som en modul med et udvalg af LED'er, så du kan vælge far
 
 Tilslut LED'en.
 
-![En Grove LED](../../../../../translated_images/da/grove-led.6c853be93f473cf2c439cfc74bb1064732b22251a83cedf66e62f783f9cc1a79.png)
+![En Grove LED](../../../../../translated_images/da/grove-led.6c853be93f473cf2.webp)
 
 1. Vælg din foretrukne LED, og indsæt benene i de to huller på LED-modulet.
 
@@ -40,7 +40,7 @@ Tilslut LED'en.
 
 1. Med Raspberry Pi slukket skal du tilslutte den anden ende af Grove-kablet til det digitale stik mærket **D5** på Grove Base-hatten, der er tilsluttet Pi'en. Dette stik er det andet fra venstre i rækken af stik ved siden af GPIO-pindene.
 
-![Grove LED tilsluttet stik D5](../../../../../translated_images/da/pi-led.97f1d474981dc35d1c7996c7b17de355d3d0a6bc9606d79fa5f89df933415122.png)
+![Grove LED tilsluttet stik D5](../../../../../translated_images/da/pi-led.97f1d474981dc35d.webp)
 
 ## Programmer natlampen
 

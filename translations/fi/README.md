@@ -8,167 +8,179 @@
 [![GitHub forks](https://img.shields.io/github/forks/microsoft/IoT-For-Beginners.svg?style=social&label=Fork)](https://GitHub.com/microsoft/IoT-For-Beginners/network/)
 [![GitHub stars](https://img.shields.io/github/stars/microsoft/IoT-For-Beginners.svg?style=social&label=Star)](https://GitHub.com/microsoft/IoT-For-Beginners/stargazers/)
 
-### Liity Azure AI Foundry -yhteisöön
+### Liity Azure AI Foundry -yhteisöön 
 
-Jos jumitut tai sinulla on kysyttävää tekoälysovellusten rakentamisesta. Liity muiden oppijoiden ja kokeneiden kehittäjien keskusteluihin MCP:stä. Se on kannustava yhteisö, jossa kysymykset ovat tervetulleita ja tieto jaetaan vapaasti.
+Jos jumitut paikoillesi tai sinulla on kysyttävää tekoälysovellusten rakentamisesta. Liity muiden oppijoiden ja kokeneiden kehittäjien keskusteluihin MCP:stä. Se on kannustava yhteisö, jossa kysymykset ovat tervetulleita ja tieto jaetaan vapaasti.
 
 [![Microsoft Foundry Discord](https://dcbadge.limes.pink/api/server/nTYy5BXMWG)](https://discord.gg/nTYy5BXMWG)
 
-Jos sinulla on tuotepalautetta tai virheitä rakentamisen aikana, käy:
+Jos sinulla on palautetta tuotteesta tai virheitä rakentaessasi, käy:
 
 [![Microsoft Foundry Developer Forum](https://img.shields.io/badge/GitHub-Microsoft_Foundry_Developer_Forum-blue?style=for-the-badge&logo=github&color=000000&logoColor=fff)](https://aka.ms/foundry/forum)
 
-Seuraa näitä ohjeita päästäksesi alkuun käyttämällä näitä resursseja:
-1. **Forkkaa arkisto**: Klikkaa [![GitHub forks](https://img.shields.io/github/forks/microsoft/IoT-For-Beginners.svg?style=social&label=Fork)](https://GitHub.com/microsoft/IoT-For-Beginners/fork)
-2. **Kloonaa arkisto**: `git clone https://github.com/microsoft/IoT-For-Beginners.git`
+Seuraa näitä ohjeita aloittaaksesi näiden resurssien käytön:
+1. **Tee repositoriosta haarukka**: Klikkaa [![GitHub forks](https://img.shields.io/github/forks/microsoft/IoT-For-Beginners.svg?style=social&label=Fork)](https://GitHub.com/microsoft/IoT-For-Beginners/fork)
+2. **Kloonaa repositorio**:   `git clone https://github.com/microsoft/IoT-For-Beginners.git`
 3. [**Liity Microsoft Foundry Discordiin ja tapaa asiantuntijoita ja muita kehittäjiä**](https://discord.com/invite/ByRwuEEgH4)
 
 
 ### 🌐 Monikielinen tuki
 
-#### Tuettu GitHub Actionin kautta (automaattinen & aina ajan tasalla)
+#### Tuettu GitHub Actionin kautta (Automaattinen ja aina ajan tasalla)
 
 <!-- CO-OP TRANSLATOR LANGUAGES TABLE START -->
-[Arabic](../ar/README.md) | [Bengali](../bn/README.md) | [Bulgarian](../bg/README.md) | [Burmese (Myanmar)](../my/README.md) | [Chinese (Simplified)](../zh-CN/README.md) | [Chinese (Traditional, Hong Kong)](../zh-HK/README.md) | [Chinese (Traditional, Macau)](../zh-MO/README.md) | [Chinese (Traditional, Taiwan)](../zh-TW/README.md) | [Croatian](../hr/README.md) | [Czech](../cs/README.md) | [Danish](../da/README.md) | [Dutch](../nl/README.md) | [Estonian](../et/README.md) | [Finnish](./README.md) | [French](../fr/README.md) | [German](../de/README.md) | [Greek](../el/README.md) | [Hebrew](../he/README.md) | [Hindi](../hi/README.md) | [Hungarian](../hu/README.md) | [Indonesian](../id/README.md) | [Italian](../it/README.md) | [Japanese](../ja/README.md) | [Kannada](../kn/README.md) | [Korean](../ko/README.md) | [Lithuanian](../lt/README.md) | [Malay](../ms/README.md) | [Malayalam](../ml/README.md) | [Marathi](../mr/README.md) | [Nepali](../ne/README.md) | [Nigerian Pidgin](../pcm/README.md) | [Norwegian](../no/README.md) | [Persian (Farsi)](../fa/README.md) | [Polish](../pl/README.md) | [Portuguese (Brazil)](../pt-BR/README.md) | [Portuguese (Portugal)](../pt-PT/README.md) | [Punjabi (Gurmukhi)](../pa/README.md) | [Romanian](../ro/README.md) | [Russian](../ru/README.md) | [Serbian (Cyrillic)](../sr/README.md) | [Slovak](../sk/README.md) | [Slovenian](../sl/README.md) | [Spanish](../es/README.md) | [Swahili](../sw/README.md) | [Swedish](../sv/README.md) | [Tagalog (Filipino)](../tl/README.md) | [Tamil](../ta/README.md) | [Telugu](../te/README.md) | [Thai](../th/README.md) | [Turkish](../tr/README.md) | [Ukrainian](../uk/README.md) | [Urdu](../ur/README.md) | [Vietnamese](../vi/README.md)
+[Arabia](../ar/README.md) | [Bengali](../bn/README.md) | [Bulgaria](../bg/README.md) | [Burma (Myanmar)](../my/README.md) | [Kiinan yksinkertaistettu](../zh-CN/README.md) | [Kiinan perinteinen, Hong Kong](../zh-HK/README.md) | [Kiinan perinteinen, Macao](../zh-MO/README.md) | [Kiinan perinteinen, Taiwan](../zh-TW/README.md) | [Kroatia](../hr/README.md) | [Tšekki](../cs/README.md) | [Tanska](../da/README.md) | [Hollanti](../nl/README.md) | [Viro](../et/README.md) | [Suomi](./README.md) | [Ranska](../fr/README.md) | [Saksa](../de/README.md) | [Kreikka](../el/README.md) | [Heprea](../he/README.md) | [Hindi](../hi/README.md) | [Unkari](../hu/README.md) | [Indonesia](../id/README.md) | [Italia](../it/README.md) | [Japani](../ja/README.md) | [Kannada](../kn/README.md) | [Khmer](../km/README.md) | [Korea](../ko/README.md) | [Liettua](../lt/README.md) | [Malesia](../ms/README.md) | [Malayalam](../ml/README.md) | [Marathi](../mr/README.md) | [Nepali](../ne/README.md) | [Nigerian pidgin](../pcm/README.md) | [Norja](../no/README.md) | [Persia (Farsi)](../fa/README.md) | [Puola](../pl/README.md) | [Portugali (Brasilia)](../pt-BR/README.md) | [Portugali (Portugali)](../pt-PT/README.md) | [Pendžabi (Gurmukhi)](../pa/README.md) | [Romania](../ro/README.md) | [Venäjä](../ru/README.md) | [Serbia (kyrillinen)](../sr/README.md) | [Slovakki](../sk/README.md) | [Sloveeni](../sl/README.md) | [Espanja](../es/README.md) | [Swahili](../sw/README.md) | [Ruotsi](../sv/README.md) | [Tagalog (Filipino)](../tl/README.md) | [Tamili](../ta/README.md) | [Telugu](../te/README.md) | [Thai](../th/README.md) | [Turkki](../tr/README.md) | [Ukraina](../uk/README.md) | [Urdu](../ur/README.md) | [Vietnam](../vi/README.md)
 
 > **Haluatko mieluummin kloonata paikallisesti?**
-
-> Tämä arkisto sisältää yli 50 käännöstä, mikä kasvattaa huomattavasti latauskokoa. Kloonaa ilman käännöksiä käyttämällä sparse checkoutia:
+>
+> Tämä repositorio sisältää yli 50 kielen käännöksiä, mikä kasvattavat merkittävästi latauskokoa. Jos haluat kloonata ilman käännöksiä, käytä sparse checkout -toimintoa:
+>
+> **Bash / macOS / Linux:**
 > ```bash
 > git clone --filter=blob:none --sparse https://github.com/microsoft/IoT-For-Beginners.git
 > cd IoT-For-Beginners
 > git sparse-checkout set --no-cone '/*' '!translations' '!translated_images'
 > ```
-> Tämä antaa sinulle kaiken tarvittavan kurssin suorittamiseen huomattavasti nopeammalla latauksella.
+>
+> **CMD (Windows):**
+> ```cmd
+> git clone --filter=blob:none --sparse https://github.com/microsoft/IoT-For-Beginners.git
+> cd IoT-For-Beginners
+> git sparse-checkout set --no-cone "/*" "!translations" "!translated_images"
+> ```
+>
+> Tämä antaa sinulle kaiken tarvittavan kurssin suorittamiseen nopeammalla latauksella.
 <!-- CO-OP TRANSLATOR LANGUAGES TABLE END -->
 
-# IoT aloittelijoille – Oppimateriaali
+# IoT aloittelijoille - Opetussuunnitelma
 
-Microsoftin Azure Cloud Advocates tarjoaa 12 viikon, 24 oppitunnin oppimateriaalin, joka käsittelee IoT:n perusteita. Jokainen oppitunti sisältää ennakko- ja jälkitestit, kirjalliset ohjeet oppitunnin suorittamiseen, ratkaisun, tehtävän ja muuta. Projektipohjainen opetusmenetelmämme mahdollistaa oppimisen samalla, kun rakennat, mikä on todistettu tapa saada uudet taidot pysymään.
+Microsoftin Azure Cloud Advocates tarjoaa 12 viikon, 24 oppitunnin opetussuunnitelman, joka käsittelee IoT:n perusteita. Jokainen oppitunti sisältää ennen ja jälkeen pidettävät tietokilpailut, kirjalliset ohjeet oppitunnin suorittamiseen, ratkaisun, tehtävän ja muuta. Projektipohjainen opetustapamme mahdollistaa oppimisen käytännössä, mikä on todistettu tapa uuden taidon omaksumiseen.
 
-Projektit kattavat ruoan matkan pellolta pöytään. Tämä sisältää maatalouden, logistiikan, valmistuksen, vähittäiskaupan ja kuluttajan – kaikki suosittuja IoT-laitteiden käyttöalueita.
+Projektit kattavat ruoan matkan tilalta pöytään. Tämä sisältää maanviljelyn, logistiikan, valmistuksen, vähittäiskaupan ja kuluttajan vaiheet - kaikki suosittuja IoT-laitteiden teollisuudenaloja.
 
-![Kurssin tiekartta, jossa on 24 oppituntia johdannosta, maataloudesta, kuljetuksesta, prosessoinnista, vähittäiskaupasta ja ruoanlaitosta](../../translated_images/fi/Roadmap.bb1dec285dda0eda.webp)
+![Kurssin tiekartta, joka näyttää 24 oppituntia sisältäen johdannon, viljelyn, kuljetuksen, jalostuksen, vähittäiskaupan ja ruoanlaiton](../../translated_images/fi/Roadmap.bb1dec285dda0eda.webp)
 
-> Sketchnote [Nitya Narasimhanilta](https://github.com/nitya). Klikkaa kuvaa nähdäksesi isomman version.
+> Kuvapiirros [Nitya Narasimhanilta](https://github.com/nitya). Klikkaa kuvaa saadaksesi isomman version.
 
-**Lämmin kiitos kirjoittajillemme [Jen Fox](https://github.com/jenfoxbot), [Jen Looper](https://github.com/jlooper), [Jim Bennett](https://github.com/jimbobbennett) sekä sketchnote-taiteilijallemme [Nitya Narasimhan](https://github.com/nitya).**
+**Lämpimät kiitokset kirjoittajillemme [Jen Fox](https://github.com/jenfoxbot), [Jen Looper](https://github.com/jlooper), [Jim Bennett](https://github.com/jimbobbennett) ja kuvapiirtäjällemme [Nitya Narasimhan](https://github.com/nitya).**
 
-**Kiitokset myös tiimillemme [Microsoft Learn Student Ambassadors](https://studentambassadors.microsoft.com?WT.mc_id=academic-17441-jabenn), jotka ovat tarkistaneet ja kääntäneet tämän oppimateriaalin – [Aditya Garg](https://github.com/AdityaGarg00), [Anurag Sharma](https://github.com/Anurag-0-1-A), [Arpita Das](https://github.com/Arpiiitaaa), [Aryan Jain](https://www.linkedin.com/in/aryan-jain-47a4a1145/), [Bhavesh Suneja](https://github.com/EliteWarrior315), [Faith Hunja](https://faithhunja.github.io/), [Lateefah Bello](https://www.linkedin.com/in/lateefah-bello/), [Manvi Jha](https://github.com/Severus-Matthew), [Mireille Tan](https://www.linkedin.com/in/mireille-tan-a4834819a/), [Mohammad Iftekher (Iftu) Ebne Jalal](https://github.com/Iftu119), [Mohammad Zulfikar](https://github.com/mohzulfikar), [Priyanshu Srivastav](https://www.linkedin.com/in/priyanshu-srivastav-b067241ba), [Thanmai Gowducheruvu](https://github.com/innovation-platform) ja [Zina Kamel](https://www.linkedin.com/in/zina-kamel/).**
+**Kiitokset myös tiimillemme [Microsoft Learn Student Ambassadors](https://studentambassadors.microsoft.com?WT.mc_id=academic-17441-jabenn), jotka ovat tarkistaneet ja kääntäneet tätä opetussuunnitelmaa — [Aditya Garg](https://github.com/AdityaGarg00), [Anurag Sharma](https://github.com/Anurag-0-1-A), [Arpita Das](https://github.com/Arpiiitaaa), [Aryan Jain](https://www.linkedin.com/in/aryan-jain-47a4a1145/), [Bhavesh Suneja](https://github.com/EliteWarrior315), [Faith Hunja](https://faithhunja.github.io/), [Lateefah Bello](https://www.linkedin.com/in/lateefah-bello/), [Manvi Jha](https://github.com/Severus-Matthew), [Mireille Tan](https://www.linkedin.com/in/mireille-tan-a4834819a/), [Mohammad Iftekher (Iftu) Ebne Jalal](https://github.com/Iftu119), [Mohammad Zulfikar](https://github.com/mohzulfikar), [Priyanshu Srivastav](https://www.linkedin.com/in/priyanshu-srivastav-b067241ba), [Thanmai Gowducheruvu](https://github.com/innovation-platform) ja [Zina Kamel](https://www.linkedin.com/in/zina-kamel/).**
 
-Tapahtukaa tiimi!
+Tavataan tiimi!
 
-[![Mainosvideo](../../images/IOT.gif)](https://youtu.be/-wippUJRi5k)
+[![Promo video](../../images/IOT.gif)](https://youtu.be/-wippUJRi5k)
 
-**Gif tekijä** [Mohit Jaisal](https://linkedin.com/in/mohitjaisal)
+**Gif:** [Mohit Jaisal](https://linkedin.com/in/mohitjaisal)
 
-> 🎥 Klikkaa yllä olevaa kuvaa nähdäksesi projektista videon!
+> 🎥 Klikkaa yllä olevaa kuvaa nähdäksesi videon projektista!
 
-> **Opettajat**, olemme [sisällyttäneet ehdotuksia](for-teachers.md) tämän oppimateriaalin käyttöön. Jos haluat luoda omia oppituntejasi, olemme myös lisänneet [oppituntipohjan](lesson-template/README.md).
+> **Opettajat**, olemme [sisällyttäneet joitakin ehdotuksia](for-teachers.md) siitä, miten käyttää tätä opetussuunnitelmaa. Jos haluat luoda omia oppitunteja, olemme myös lisänneet [oppituntipohjan](lesson-template/README.md).
 
-> **Opiskelijat** (https://aka.ms/student-page), käyttääkseen tätä oppimateriaalia itsenäisesti, tee koko arkistosta fork ja suorita tehtävät itsenäisesti, aloittaen ennakkotestillä, lukemalla luento ja suorittamalla loput aktiviteeteista. Pyri luomaan projektit ymmärtämällä oppitunnit sen sijaan, että kopioisit ratkaisukoodin; kuitenkin koodi on saatavilla kunkin projektisuuntautuneen oppitunnin /solutions-kansiossa. Toinen idea voisi olla muodostaa opiskeluryhmä ystävien kanssa ja käydä sisältö yhdessä läpi. Lisäopiskelua varten suosittelemme [Microsoft Learnia](https://docs.microsoft.com/users/jimbobbennett/collections/ke2ehd351jopwr?WT.mc_id=academic-17441-jabenn).
+> **[Opiskelijat](https://aka.ms/student-page)**, käyttääksesi tätä opetussuunnitelmaa itsenäisesti, haarukoi koko repositorio ja tee harjoitukset itse, aloittaen ennen luentoa pidettävällä tietokilpailulla, sitten lukemalla luento ja tekemällä loput tehtävistä. Yritä luoda projektit ymmärtämällä oppitunnit sen sijaan, että kopioisit ratkaisukoodin; kyseinen koodi on kuitenkin saatavilla /solutions-kansioissa jokaisessa projektilähtöisessä oppitunnissa. Toinen idea olisi muodostaa opiskeluryhmä ystävien kanssa ja käydä sisältö läpi yhdessä. Lisäopiskelua varten suosittelemme [Microsoft Learnia](https://docs.microsoft.com/users/jimbobbennett/collections/ke2ehd351jopwr?WT.mc_id=academic-17441-jabenn).
 
-Katso tämän kurssin videoesittely:
+Katso tämä video saadaksesi yleiskatsauksen kurssiin:
 
-[![Mainosvideo](https://img.youtube.com/vi/bccEMm8gRuc/0.jpg)](https://youtube.com/watch?v=bccEMm8gRuc "Mainosvideo")
+[![Promo video](https://img.youtube.com/vi/bccEMm8gRuc/0.jpg)](https://youtube.com/watch?v=bccEMm8gRuc "Promo video")
 
-> 🎥 Klikkaa yllä olevaa kuvaa nähdäksesi projektista videon!
+> 🎥 Klikkaa yllä olevaa kuvaa nähdäksesi videon projektista!
 
-## Opetusperiaatteet
+## Pedagogiikka
 
-Olemme valinneet kaksi pedagogista periaatetta rakennettaessa tätä oppimateriaalia: varmistaa että se on projektipohjainen ja että siinä on usein testejä. Sarjan lopussa opiskelijat ovat rakentaneet kasvien seuranta- ja kastelujärjestelmän, ajoneuvoseurannan, älytehdas-asetuksen ruoan tarkkailua ja tarkistusta varten sekä ääniohjatun ruoanlaittoajastimen. He oppivat myös esineiden internetin perusteet, mukaan lukien laitekoodin kirjoittamisen, pilveen yhdistämisen, telemetrian analysoinnin ja tekoälyn ajamisen reunassa.
+Olemme valinneet kaksi pedagogista periaatetta tämän opetussuunnitelman rakentamisessa: varmistaa, että se on projektipohjainen ja että siinä on usein tietokilpailuja. Sarjan lopussa opiskelijat ovat rakentaneet kasvien seuranta- ja kastelujärjestelmän, ajoneuvon seurannan, älytehtaan elintarvikkeiden seurantaan ja tarkastukseen sekä ääniohjatun ruoanlaittoaikakellon, ja he ovat oppineet esineiden internetin perusteet, mukaan lukien laitteen koodin kirjoittamisen, pilvipalveluun yhdistämisen, telemetrian analysoinnin ja tekoälyn suorittamisen reunalaitteilla.
 
-Varmistamalla että sisältö vastaa projekteja, prosessi tehdään opiskelijoille kiinnostavammaksi ja käsitteiden omaksuminen tehostuu.
+Sisällön sovittaminen projekteihin tekee prosessista opiskelijoille kiinnostavamman ja parantaa käsitteiden muistamista.
 
-Lisäksi vähäriskinen koe ennen oppituntia asettaa opiskelijan aikeen oppia aiheesta, ja toinen koe oppitunnin jälkeen varmistaa edistyneemmän omaksumisen. Tämä oppimateriaali on suunniteltu olemaan joustava ja hauska ja sen voi suorittaa kokonaan tai osittain. Projektit alkavat pieninä ja kasvavat monimutkaisuudeltaan loppua kohden 12 viikon aikana.
+Lisäksi kevyt tietokilpailu ennen tuntia ohjaa opiskelijan käyttämään aikomuksensa uuden aiheen oppimiseen, ja toinen tietokilpailu tunnin jälkeen varmistaa asian paremman muistamisen. Tämä opetussuunnitelma on suunniteltu joustavaksi ja hauskaksi, sen voi suorittaa kokonaan tai osittain. Projektit alkavat pieninä ja monimutkaistuvat vähitellen 12 viikon jakson lopussa.
 
-Jokainen projekti perustuu opiskelijoiden ja harrastajien käytettävissä olevaan todelliseen laitteistoon. Jokainen projekti käsittelee omaa projektialueensa, tarjoten siihen liittyvää taustatietoa. Onnistuneeksi kehittäjäksi tuleminen auttaa ymmärtämään sitä toimintaympäristöä, jossa ongelmia ratkotaan; tämä taustatieto antaa opiskelijoille mahdollisuuden pohtia IoT-ratkaisujaan ja oppimisiaan siinä kontekstissa, jossa heitä saatetaan pyytää ratkaisemaan aitoja ongelmia IoT-kehittäjinä. Opiskelijat oppivat ratkaisujensa 'miksi'-syyt ja saavat arvostusta loppukäyttäjää kohtaan.
+Jokainen projekti perustuu opiskelijoiden ja harrastajien saatavilla olevaan todelliseen laitteistoon. Kukin projekti tutkii tiettyä projektialuetta, tarjoten asiaankuuluvaa taustatietoa. Onnistuneeksi kehittäjäksi auttaa ymmärtää ongelmanratkaisun ala, ja taustatiedon tarjoaminen antaa opiskelijoille mahdollisuuden ajatella IoT-ratkaisujaan ja oppimiaan asioita siinä kontekstissa, millaisia todellisia ongelmia he voisivat saada ratkaistavaksi IoT-kehittäjänä. Opiskelijat oppivat ratkaisujen 'miksi' ja saavat arvostusta loppukäyttäjää kohtaan.
 
 ## Laitteisto
+Meillä on kaksi IoT-laitteistovaihtoehtoa projektien käyttöön henkilökohtaisen mieltymyksen, ohjelmointikielen tuntemuksen tai preferenssien, oppimistavoitteiden ja saatavuuden mukaan. Tarjoamme myös "virtuaalisen laitteiston" version niille, joilla ei ole fyysistä laitteistoa käytettävissä tai jotka haluavat oppia lisää ennen ostopäätöstä. Voit lukea lisää ja löytää "ostoslistan" [laitteistosivulta](./hardware.md), mukaan lukien linkkejä ostaa valmiita sarjoja ystäviltämme Seeed Studiolta.
 
-Meillä on kaksi vaihtoehtoa IoT-laitteistolle projekteihin henkilökohtaisten mieltymysten, ohjelmointikielitaitojen, oppimistavoitteiden ja saatavuuden mukaan. Olemme myös tarjonneet 'virtuaalilaitteiston' versiota niille, joilla ei ole pääsyä laitteisiin tai jotka haluavat oppia lisää ennen ostosta. Voit lukea lisää ja löytää 'ostoskannan' [laitteistosivulta](./hardware.md), mukaan lukien linkit ostaa täydelliset sarjat ystäviltämme Seeed Studiossa.
-> 💁 Löydät säännöstömme [Code of Conduct](CODE_OF_CONDUCT.md), [Contributing](CONTRIBUTING.md) ja [Translation](TRANSLATIONS.md) ohjeistot. Otamme mielellämme vastaan rakentavaa palautettasi!
+> 💁 Löydät [käyttäytymissääntömme](CODE_OF_CONDUCT.md), [osallistumisohjeet](CONTRIBUTING.md) ja [käännös-ohjeet](TRANSLATIONS.md). Otamme mielellämme vastaan rakentavaa palautettasi!
 >
-> 🔧 Onko sinulla ongelmia? Katso [Vianmääritysohjeemme](TROUBLESHOOTING.md) yleisten ongelmien ratkaisuja varten.
+> 🔧 Ongelmatilanteissa tutustu [vianmääritysohjeeseemme](TROUBLESHOOTING.md) yleisimpiin ongelmiin ja niiden ratkaisuihin.
 
 ## Jokainen oppitunti sisältää:
 
-- muistiinpanokuvauksen
+- luonnosmuistiinpanon
 - valinnaisen lisävideon
-- lämmittelykyselyn ennen oppituntia
+- esilämmittelykyselyn ennen oppituntia
 - kirjallisen oppitunnin
-- projektilähtöisissä oppitunneissa vaiheittaiset ohjeet projektin rakentamiseen
-- tietotarkistuksia
+- projektipohjaisissa oppitunneissa vaiheittaiset ohjeet projektin rakentamiseen
+- tiedon tarkistuksia
 - haasteen
 - lisälukemista
 - tehtävän
 - [oppitunnin jälkeisen kyselyn](https://ff-quizzes.netlify.app/en/)
 
-> **Huomautus kyselyistä**: Kaikki kyselyt löytyvät quiz-app-kansiosta, yhteensä 48 kyselyä joissa jokaisessa on kolme kysymystä. Ne ovat linkitettyinä oppitunneissa, mutta kyselysovellusta voi ajaa paikallisesti tai ottaa käyttöön Azureen; noudata quiz-app-kansion ohjeita. Kyselyitä ollaan vähitellen lokalisoimassa.
+> **Huomautus kyselyistä**: Kaikki kyselyt löytyvät quiz-app-kansiosta, yhteensä 48 kyselyä, joissa kussakin on kolme kysymystä. Ne on linkitetty oppitunneista, mutta kyselysovellusta voi ajaa paikallisesti tai ottaa käyttöön Azuren kautta; katso ohjeet `quiz-app`-kansiosta. Ne ovat asteittain paikallistettavina.
 
 ## Oppitunnit
 
-|       |              Projektin nimi               |                       Opitut käsitteet                        | Oppimistavoitteet                                                                                                                                                   |                                                        Linkitetty oppitunti                                                          |
-| :---: | :---------------------------------------: | :------------------------------------------------------------: | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- | :----------------------------------------------------------------------------------------------------------------------------: |
-|  01   | [Aloittaminen](./1-getting-started/README.md)           |                     Johdatus IoT:hen                          | Opit IoT:n perusperiaatteet ja IoT-ratkaisujen peruselementit kuten anturit ja pilvipalvelut, kun asennat ensimmäisen IoT-laitteesi                                |                      [Johdatus IoT:hen](./1-getting-started/lessons/1-introduction-to-iot/README.md)                          |
-|  02   | [Aloittaminen](./1-getting-started/README.md)           |                   Syvällisempi katsaus IoT:hen                | Opit lisää IoT-järjestelmän osista, mikro-ohjaimista ja yksittäisistä korteista                                                                                   |                        [Syvällisempi katsaus IoT:hen](./1-getting-started/lessons/2-deeper-dive/README.md)                     |
-|  03   | [Aloittaminen](./1-getting-started/README.md)           | Vuorovaikutus fyysisen maailman kanssa antureilla ja toimilaitteilla | Opit antureista keräämään tietoa fyysisestä maailmasta ja toimilaitteista palautteen lähettämiseen, samalla rakentaen yöllisvalo                                | [Vuorovaikutus fyysisen maailman kanssa antureilla ja toimilaitteilla](./1-getting-started/lessons/3-sensors-and-actuators/README.md) |
-|  04   | [Aloittaminen](./1-getting-started/README.md)           |                Yhdistä laitteesi internetiin                  | Opit yhdistämään IoT-laitteen internetiin viestien lähettämiseksi ja vastaanottamiseksi liittämällä yöllisvalosi MQTT-välittäjään                                  |               [Yhdistä laitteesi internetiin](./1-getting-started/lessons/4-connect-internet/README.md)                      |
-|  05   |            [Farmi](./2-farm/README.md)                 |                    Ennusta kasvin kasvu                       | Opit ennustamaan kasvin kasvua IoT-laitteen keräämien lämpötilatietojen perusteella                                                                               |                          [Ennusta kasvin kasvu](./2-farm/lessons/1-predict-plant-growth/README.md)                           |
-|  06   |            [Farmi](./2-farm/README.md)                 |                    Maan kosteuden havaitseminen               | Opit havaitsemaan maan kosteuden ja kalibroimaan maankosteusanturin                                                                                              |                          [Maan kosteuden havaitseminen](./2-farm/lessons/2-detect-soil-moisture/README.md)                   |
-|  07   |            [Farmi](./2-farm/README.md)                 |                  Kasvien automaattinen kastelu                | Opit automatisoimaan ja ajoittamaan kastelun releen ja MQTT:n avulla                                                                                             |                      [Kasvien automaattinen kastelu](./2-farm/lessons/3-automated-plant-watering/README.md)                  |
-|  08   |            [Farmi](./2-farm/README.md)                 |               Siirrä kasvisi pilveen                          | Opit pilvestä ja pilvipalveluissa isännöidyistä IoT-palveluista sekä miten yhdistät kasvisi niihin julkisen MQTT-välittäjän sijaan                               |               [Siirrä kasvisi pilveen](./2-farm/lessons/4-migrate-your-plant-to-the-cloud/README.md)                          |
-|  09   |            [Farmi](./2-farm/README.md)                 |             Siirrä sovelluslogiikka pilveen                  | Opit kirjoittamaan sovelluslogiikkaa pilveen, joka reagoi IoT-viesteihin                                                                                        |         [Siirrä sovelluslogiikka pilveen](./2-farm/lessons/5-migrate-application-to-the-cloud/README.md)                     |
-|  10   |            [Farmi](./2-farm/README.md)                 |                    Pidä kasvisi turvassa                      | Opit tietoturvasta IoT:ssa ja miten pidät kasvisi turvassa avainten ja sertifikaattien avulla                                                                    |                        [Pidä kasvisi turvassa](./2-farm/lessons/6-keep-your-plant-secure/README.md)                          |
-|  11   |       [Liikenne](./3-transport/README.md)              |                      Paikannusseuranta                       | Opit GPS-paikannuksesta IoT-laitteille                                                                                                                          |                           [Paikannusseuranta](./3-transport/lessons/1-location-tracking/README.md)                           |
-|  12   |       [Liikenne](./3-transport/README.md)              |                     Paikkatietojen tallennus                  | Opit tallentamaan IoT-dataa myöhempää visualisointia tai analysointia varten                                                                                      |                         [Paikkatietojen tallennus](./3-transport/lessons/2-store-location-data/README.md)                   |
-|  13   |       [Liikenne](./3-transport/README.md)              |                   Paikkatietojen visualisointi                | Opit visualisoimaan paikkatietoja kartalla ja miten kartat esittävät todellisen 3D-maailman kahdessa ulottuvuudessa                                              |                     [Paikkatietojen visualisointi](./3-transport/lessons/3-visualize-location-data/README.md)                |
-|  14   |       [Liikenne](./3-transport/README.md)              |                          Geoaidat                            | Opit geoaidoista ja miten niitä voidaan käyttää ilmoittamaan, kun toimitusketjun ajoneuvot ovat lähellä määränpäätään                                           |                                   [Geoaidat](./3-transport/lessons/4-geofences/README.md)                                   |
-|  15   |   [Valmistus](./4-manufacturing/README.md)             |               Kouluta hedelmien laatutunnistin               | Opit kouluttamaan kuvantunnistinta pilvessä hedelmien laadun tunnistamiseen                                                                                       |                 [Kouluta hedelmien laatutunnistin](./4-manufacturing/lessons/1-train-fruit-detector/README.md)                |
-|  16   |   [Valmistus](./4-manufacturing/README.md)             |           Tarkasta hedelmien laatu IoT-laitteella             | Opit käyttämään hedelmätunnistinta IoT-laitteesta                                                                                                               |             [Tarkasta hedelmien laatu IoT-laitteella](./4-manufacturing/lessons/2-check-fruit-from-device/README.md)          |
-|  17   |   [Valmistus](./4-manufacturing/README.md)             |             Aja hedelmätunnistin reunalaitteella              | Opit ajamaan hedelmätunnistinta IoT-laitteella reunassa                                                                                                          |               [Aja hedelmätunnistin reunalaitteella](./4-manufacturing/lessons/3-run-fruit-detector-edge/README.md)           |
-|  18   |   [Valmistus](./4-manufacturing/README.md)             |        Käynnistä hedelmien laatutunnistus anturista          | Opit käynnistämään hedelmien laatutunnistuksen anturin avulla                                                                                                   |           [Käynnistä hedelmien laatutunnistus anturista](./4-manufacturing/lessons/4-trigger-fruit-detector/README.md)        |
-|  19   |          [Vähittäiskauppa](./5-retail/README.md)       |                   Kouluta varaston tunnistin                  | Opit käyttämään objektintunnistusta varaston tunnistimen kouluttamiseen kaupalle                                                                                  |                        [Kouluta varaston tunnistin](./5-retail/lessons/1-train-stock-detector/README.md)                      |
-|  20   |          [Vähittäiskauppa](./5-retail/README.md)       |               Tarkasta varasto IoT-laitteella                 | Opit tarkistamaan varaston IoT-laitteella käyttämällä objektintunnistusmallia                                                                                   |                       [Tarkasta varasto IoT-laitteella](./5-retail/lessons/2-check-stock-device/README.md)                    |
-|  21   |        [Kuluttaja](./6-consumer/README.md)             |             Tunnista puhe IoT-laitteella                      | Opit tunnistamaan puheen IoT-laitteesta älykkään ajastimen rakentamiseen                                                                                         |                    [Tunnista puhe IoT-laitteella](./6-consumer/lessons/1-speech-recognition/README.md)                      |
-|  22   |        [Kuluttaja](./6-consumer/README.md)             |                     Ymmärrä kieltä                            | Opit ymmärtämään IoT-laitteelle puhuttuja lauseita                                                                                                              |                         [Ymmärrä kieltä](./6-consumer/lessons/2-language-understanding/README.md)                            |
-|  23   |        [Kuluttaja](./6-consumer/README.md)             |           Aseta ajastin ja anna puhuttu palaute               | Opit asettamaan ajastimen IoT-laitteelle ja antamaan puhutun palautteen ajastuksen asettamisesta ja päättymisestä                                                  |              [Aseta ajastin ja anna puhuttu palaute](./6-consumer/lessons/3-spoken-feedback/README.md)                      |
-|  24   |        [Kuluttaja](./6-consumer/README.md)             |                 Tue useita kieliä                             | Opit tukemaan useita kieliä, sekä puheessa että älykkäältä ajastimelta saatavassa palautteessa                                                                   |                   [Tue useita kieliä](./6-consumer/lessons/4-multiple-language-support/README.md)                           |
+|       |              Projektin nimi              |                       Opetettavat käsitteet                       | Oppimistavoitteet                                                                                                                                                 |                                                        Linkitetty oppitunti                                                         |
+| :---: | :------------------------------------: | :---------------------------------------------------------: | ------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :--------------------------------------------------------------------------------------------------------------------------: |
+|  01   | [Aloitus](./1-getting-started/README.md) |                     Johdatus IoT:hen                     | Opiskele IoT:n perusperiaatteita ja perustavanlaatuisia IoT-ratkaisuja, kuten antureita ja pilvipalveluita, samalla kun asennat ensimmäisen IoT-laitteesi |                      [Johdatus IoT:hen](./1-getting-started/lessons/1-introduction-to-iot/README.md)                      |
+|  02   | [Aloitus](./1-getting-started/README.md) |                   Syvällisempi katsaus IoT:hen                    | Opiskele lisää IoT-järjestelmän osista sekä mikrokontrollereista ja yksikorttitietokoneista                                                            |                        [Syvällisempi katsaus IoT:hen](./1-getting-started/lessons/2-deeper-dive/README.md)                         |
+|  03   | [Aloitus](./1-getting-started/README.md) | Vuorovaikutus fyysisen maailman kanssa antureilla ja toimilaitteilla | Opiskele antureista tietojen keräämiseksi fyysisestä maailmasta ja toimilaitteista palautteen lähettämiseen samalla, kun rakennat yövalon                                           | [Vuorovaikutus fyysisen maailman kanssa antureilla ja toimilaitteilla](./1-getting-started/lessons/3-sensors-and-actuators/README.md) |
+|  04   | [Aloitus](./1-getting-started/README.md) |             Liitä laitteesi Internetiin             | Opiskele, miten IoT-laite liitetään Internetiin lähettämään ja vastaanottamaan viestejä liittämällä yövalo MQTT-välittäjään                               |               [Liitä laitteesi Internetiin](./1-getting-started/lessons/4-connect-internet/README.md)                |
+|  05   |            [Maatila](./2-farm/README.md)            |                    Ennusta kasvien kasvu                     | Opiskele kasvien kasvun ennustamista IoT-laitteen keräämän lämpötilatiedon avulla                                                                                  |                          [Ennusta kasvien kasvu](./2-farm/lessons/1-predict-plant-growth/README.md)                           |
+|  06   |            [Maatila](./2-farm/README.md)            |                    Havaitse maaperän kosteus                     | Opiskele maaperän kosteuden havaitsemista ja maaperän kosteusanturin kalibrointia                                                                                              |                          [Havaitse maaperän kosteus](./2-farm/lessons/2-detect-soil-moisture/README.md)                           |
+|  07   |            [Maatila](./2-farm/README.md)            |                  Automaattinen kasvien kastelu                   | Opiskele kastelun automatisointia ja ajastamista releen ja MQTT:n avulla                                                                                                      |                      [Automaattinen kasvien kastelu](./2-farm/lessons/3-automated-plant-watering/README.md)                       |
+|  08   |            [Maatila](./2-farm/README.md)            |               Siirrä kasvisi pilveen               | Opiskele pilvestä ja pilvipohjaisista IoT-palveluista sekä kuinka liittää kasvisi johonkin näistä julkisen MQTT-välittäjän sijaan                                   |               [Siirrä kasvisi pilveen](./2-farm/lessons/4-migrate-your-plant-to-the-cloud/README.md)                |
+|  09   |            [Maatila](./2-farm/README.md)            |         Siirrä sovelluslogiikkasi pilveen         | Opiskele, miten voit kirjoittaa pilveen sovelluslogiikkaa, joka reagoi IoT-viesteihin                                                                          |         [Siirrä sovelluslogiikkasi pilveen](./2-farm/lessons/5-migrate-application-to-the-cloud/README.md)         |
+|  10   |            [Maatila](./2-farm/README.md)            |                   Pidä kasvisi turvassa                    | Opiskele IoT:n turvallisuutta ja kuinka suojata kasvisi avaimilla ja sertifikaateilla                                                                          |                        [Pidä kasvisi turvassa](./2-farm/lessons/6-keep-your-plant-secure/README.md)                         |
+|  11   |       [Liikenne](./3-transport/README.md)       |                      Paikannusseuranta                      | Opiskele GPS-paikannusseurantaa IoT-laitteille                                                                                                                   |                           [Paikannusseuranta](./3-transport/lessons/1-location-tracking/README.md)                           |
+|  12   |       [Liikenne](./3-transport/README.md)       |                     Tallenna sijaintitiedot                     | Opiskele kuinka tallentaa IoT-dataa myöhempää visualisointia tai analysointia varten                                                                                                      |                         [Tallenna sijaintitiedot](./3-transport/lessons/2-store-location-data/README.md)                         |
+|  13   |       [Liikenne](./3-transport/README.md)       |                   Visualisoi sijaintitiedot                   | Opiskele sijaintitietojen visualisointia kartalla ja kuinka kartat esittävät todellisen 3D-maailman 2D-muodossa                                                            |                     [Visualisoi sijaintitiedot](./3-transport/lessons/3-visualize-location-data/README.md)                     |
+|  14   |       [Liikenne](./3-transport/README.md)       |                          Geofence-alueet                          | Opiskele geofence-alueita ja kuinka niitä voidaan käyttää varoittamaan, kun toimitusketjun ajoneuvot lähestyvät määränpäätään                                           |                                   [Geofence-alueet](./3-transport/lessons/4-geofences/README.md)                                   |
+|  15   |   [Valmistus](./4-manufacturing/README.md)   |               Kouluta hedelmien laatu tunnistava                    | Opiskele pilvipohjaisen kuvien luokittelijan kouluttamista hedelmien laadun tunnistamiseen                                                                                       |                 [Kouluta hedelmien laatu tunnistava](./4-manufacturing/lessons/1-train-fruit-detector/README.md)                 |
+|  16   |   [Valmistus](./4-manufacturing/README.md)   |           Tarkista hedelmien laatu IoT-laitteella            | Opiskele hedelmien laadun tarkistamista IoT-laitteella käyttäen hedelmänlaadun tunnistusmallia                                                                                                    |           [Tarkista hedelmien laatu IoT-laitteella](./4-manufacturing/lessons/2-check-fruit-from-device/README.md)            |
+|  17   |   [Valmistus](./4-manufacturing/README.md)   |             Suorita hedelmätunnistus reunalaitteella             | Opiskele hedelmänsuojaussuoritusta IoT-laitteella reunalaitteessa                                                                                                |             [Suorita hedelmätunnistus reunalaitteella](./4-manufacturing/lessons/3-run-fruit-detector-edge/README.md)             |
+|  18   |   [Valmistus](./4-manufacturing/README.md)   |        Laukaise hedelmien laadun tunnistus anturista        | Opiskele kuinka laukaista hedelmien laadun tunnistus anturista                                                                                                        |        [Laukaise hedelmien laadun tunnistus anturista](./4-manufacturing/lessons/4-trigger-fruit-detector/README.md)         |
+|  19   |          [Vähittäiskauppa](./5-retail/README.md)          |                   Kouluta varaston tunnistin                    | Opiskele esineentunnistusta ja kuinka kouluttaa varaston tunnistaja varaston laskemiseen kaupassa                                                                                |                        [Kouluta varaston tunnistin](./5-retail/lessons/1-train-stock-detector/README.md)                         |
+|  20   |          [Vähittäiskauppa](./5-retail/README.md)          |               Tarkista varasto IoT-laitteella                | Opiskele kuinka tarkistaa varasto IoT-laitteella esineentunnistusmallia käyttäen                                                                                         |                     [Tarkista varasto IoT-laitteella](./5-retail/lessons/2-check-stock-device/README.md)                      |
+|  21   |        [Kuluttaja](./6-consumer/README.md)        |             Tunnista puhe IoT-laitteella             | Opiskele puheen tunnistamista IoT-laitteella älyajastimen rakentamiseksi                                                                                             |                  [Tunnista puhe IoT-laitteella](./6-consumer/lessons/1-speech-recognition/README.md)                  |
+|  22   |        [Kuluttaja](./6-consumer/README.md)        |                     Ymmärrä kieltä                     | Opiskele lauseiden ymmärtämistä IoT-laitteelle puhuttuna                                                                                                           |                        [Ymmärrä kieltä](./6-consumer/lessons/2-language-understanding/README.md)                        |
+|  23   |        [Kuluttaja](./6-consumer/README.md)        |           Aseta ajastin ja anna suullista palautetta           | Opiskele, kuinka asettaa ajastin IoT-laitteella ja antaa suullista palautetta ajastimen asetuksesta ja päättymisestä                                                    |                 [Aseta ajastin ja anna suullista palautetta](./6-consumer/lessons/3-spoken-feedback/README.md)                  |
+|  24   |        [Kuluttaja](./6-consumer/README.md)        |                 Tue useita kieliä                  | Opiskele kuinka tukea useita kieliä, sekä puheen vastaanotossa että älyajastimen vastauksissa                                                               |                   [Tue useita kieliä](./6-consumer/lessons/4-multiple-language-support/README.md)                   |
 
 ## Offline-käyttö
 
-Voit ajaa tämän dokumentaation offline-tilassa käyttämällä [Docsify](https://docsify.js.org/#/). Haaroita tämä repo, [asenna Docsify](https://docsify.js.org/#/quickstart) paikalliselle koneellesi ja kirjoita tämän repositorion juurikansiossa `docsify serve`. Verkkosivusto palvellaan portissa 3000 paikallisessa koneessasi: `localhost:3000`.
+Voit käyttää tätä dokumentaatiota offline-tilassa käyttämällä [Docsifytä](https://docsify.js.org/#/). Forkkaa tämä repo, [asenna Docsify](https://docsify.js.org/#/quickstart) paikalliselle koneellesi, ja sitten tämän repokansion juuressa kirjoita `docsify serve`. Verkkosivusto palvellaan portissa 3000 paikallisessa ympäristössäsi: `localhost:3000`.
 
 ## Kysely
 
-Kiitos yhteisölle interaktiivisen kyselyn tarjoamisesta, joka testaa tietojasi jokaisesta luvusta. Testaa tietosi [täältä](https://ff-quizzes.netlify.app/en/) 
+Kiitos yhteisölle vuorovaikutteisen kyselyn tarjoamisesta, joka testaa tietämystäsi jokaisesta luvusta. Voit testata tietosi [tässä](https://ff-quizzes.netlify.app/en/).
 
 ### PDF
 
-Voit luoda PDF-version tästä sisällöstä offline-käyttöä varten tarvittaessa. Varmista, että sinulla on [npm asennettuna](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) ja aja seuraavat komennot tämän repositorion juurikansiossa:
+Voit luoda PDF-version tästä sisällöstä offline-käyttöä varten tarvittaessa. Varmista, että sinulla on [npm asennettuna](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) ja suorita seuraavat komennot tämän repokansion juuressa:
 
 ```sh
 npm i
 npm run convert
 ```
 
-### Dian esitykset
+### Esitykset
 
-Osasta oppitunteja löytyy diakansio [slides](../../slides) kansiosta.
+Joitakin oppitunteja varten on esitysdioja [slides](../../slides) kansiossa.
 
-## Muut opetussuunnitelmat
 
-Tiimimme tuottaa muitakin opetussuunnitelmia! Katso:
+## Muut oppimateriaalit
+
+Tiimimme tuottaa myös muita oppimateriaaleja! Tutustu:
 
 <!-- CO-OP TRANSLATOR OTHER COURSES START -->
 ### LangChain
 [![LangChain4j for Beginners](https://img.shields.io/badge/LangChain4j%20for%20Beginners-22C55E?style=for-the-badge&&labelColor=E5E7EB&color=0553D6)](https://aka.ms/langchain4j-for-beginners)
 [![LangChain.js for Beginners](https://img.shields.io/badge/LangChain.js%20for%20Beginners-22C55E?style=for-the-badge&labelColor=E5E7EB&color=0553D6)](https://aka.ms/langchainjs-for-beginners?WT.mc_id=m365-94501-dwahlin)
-
+[![LangChain for Beginners](https://img.shields.io/badge/LangChain%20for%20Beginners-22C55E?style=for-the-badge&labelColor=E5E7EB&color=0553D6)](https://github.com/microsoft/langchain-for-beginners?WT.mc_id=m365-94501-dwahlin)
 ---
 
 ### Azure / Edge / MCP / Agents
 [![AZD for Beginners](https://img.shields.io/badge/AZD%20for%20Beginners-0078D4?style=for-the-badge&labelColor=E5E7EB&color=0078D4)](https://github.com/microsoft/AZD-for-beginners?WT.mc_id=academic-105485-koreyst)
+
 [![Edge AI for Beginners](https://img.shields.io/badge/Edge%20AI%20for%20Beginners-00B8E4?style=for-the-badge&labelColor=E5E7EB&color=00B8E4)](https://github.com/microsoft/edgeai-for-beginners?WT.mc_id=academic-105485-koreyst)
 [![MCP for Beginners](https://img.shields.io/badge/MCP%20for%20Beginners-009688?style=for-the-badge&labelColor=E5E7EB&color=009688)](https://github.com/microsoft/mcp-for-beginners?WT.mc_id=academic-105485-koreyst)
 [![AI Agents for Beginners](https://img.shields.io/badge/AI%20Agents%20for%20Beginners-00C49A?style=for-the-badge&labelColor=E5E7EB&color=00C49A)](https://github.com/microsoft/ai-agents-for-beginners?WT.mc_id=academic-105485-koreyst)
@@ -183,7 +195,7 @@ Tiimimme tuottaa muitakin opetussuunnitelmia! Katso:
 
 ---
  
-### Ydinopiskelu
+### Ydinohjelmointi
 [![ML for Beginners](https://img.shields.io/badge/ML%20for%20Beginners-22C55E?style=for-the-badge&labelColor=E5E7EB&color=22C55E)](https://aka.ms/ml-beginners?WT.mc_id=academic-105485-koreyst)
 [![Data Science for Beginners](https://img.shields.io/badge/Data%20Science%20for%20Beginners-84CC16?style=for-the-badge&labelColor=E5E7EB&color=84CC16)](https://aka.ms/datascience-beginners?WT.mc_id=academic-105485-koreyst)
 [![AI for Beginners](https://img.shields.io/badge/AI%20for%20Beginners-A3E635?style=for-the-badge&labelColor=E5E7EB&color=A3E635)](https://aka.ms/ai-beginners?WT.mc_id=academic-105485-koreyst)
@@ -202,11 +214,11 @@ Tiimimme tuottaa muitakin opetussuunnitelmia! Katso:
 
 ## Kuvien lähdeviitteet
 
-Löydät kaikki tässä opetussuunnitelmassa käytettyjen kuvien lähdeviitteet tarvittaessa tiedostosta [Attributions](./attributions.md).
+Löydät kaikki tämän opetussuunnitelman kuvien lähdeviitteet tarvittaessa tiedostosta [Attributions](./attributions.md).
 
 ---
 
 <!-- CO-OP TRANSLATOR DISCLAIMER START -->
 **Vastuuvapauslauseke**:  
-Tämä asiakirja on käännetty käyttämällä tekoälypohjaista käännöspalvelua [Co-op Translator](https://github.com/Azure/co-op-translator). Vaikka pyrimme tarkkuuteen, otathan huomioon, että automaattikäännöksissä saattaa esiintyä virheitä tai epätarkkuuksia. Alkuperäistä asiakirjaa sen omalla kielellä tulee pitää virallisena lähteenä. Tärkeiden tietojen osalta suositellaan ammattimaista ihmiskäännöstä. Emme ole vastuussa tämän käännöksen käytöstä johtuvista väärinymmärryksistä tai virhetulkintojen seurauksista.
+Tämä asiakirja on käännetty käyttämällä tekoälypohjaista käännöspalvelua [Co-op Translator](https://github.com/Azure/co-op-translator). Vaikka pyrimme täsmällisyyteen, automaattikäännöksissä saattaa esiintyä virheitä tai epätarkkuuksia. Alkuperäistä asiakirjaa sen alkuperäiskielellä tulee pitää virallisena lähteenä. Tärkeissä asioissa suosittelemme ammattilaisen tekemää ihmiskäännöstä. Emme ole vastuussa tämän käännöksen käytöstä johtuvista väärinkäsityksistä tai virhetulkinnoista.
 <!-- CO-OP TRANSLATOR DISCLAIMER END -->

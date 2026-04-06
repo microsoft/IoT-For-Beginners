@@ -13,7 +13,7 @@ I²C har en buss som består av 2 hovedledninger, sammen med 2 strømledninger:
 | VCC | Voltage common collector | Strømforsyningen for enhetene. Denne er koblet til SDA- og SCL-ledningene for å gi strøm via en pull-up-motstand som slår av signalet når ingen enhet er kontroller. |
 | GND | Ground | Gir en felles jord for den elektriske kretsen. |
 
-![I2C-buss med 3 enheter koblet til SDA- og SCL-ledningene, som deler en felles jordledning](../../../../../translated_images/no/i2c.83da845dde02256bdd462dbe0d5145461416b74930571b89d1ae142841eeb584.png)
+![I2C-buss med 3 enheter koblet til SDA- og SCL-ledningene, som deler en felles jordledning](../../../../../translated_images/no/i2c.83da845dde02256b.webp)
 
 For å sende data vil én enhet utstede en startbetingelse for å vise at den er klar til å sende data. Den vil deretter bli kontrolleren. Kontrolleren sender deretter adressen til enheten den ønsker å kommunisere med, sammen med informasjon om den ønsker å lese eller skrive data. Etter at dataene er overført, sender kontrolleren en stoppbetingelse for å indikere at den er ferdig. Etter dette kan en annen enhet bli kontroller og sende eller motta data.
 

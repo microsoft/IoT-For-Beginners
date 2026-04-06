@@ -38,11 +38,11 @@ Legg til GPS-sensoren i CounterFit-appen.
 
     1. Velg **Add**-knappen for å opprette GPS-sensoren på porten `/dev/ttyAMA0`.
 
-    ![GPS-sensorinnstillingene](../../../../../translated_images/no/counterfit-create-gps-sensor.6385dc9357d85ad1d47b4abb2525e7651fd498917d25eefc5a72feab09eedc70.png)
+    ![GPS-sensorinnstillingene](../../../../../translated_images/no/counterfit-create-gps-sensor.6385dc9357d85ad1.webp)
 
     GPS-sensoren vil bli opprettet og vises i sensorlisten.
 
-    ![GPS-sensoren opprettet](../../../../../translated_images/no/counterfit-gps-sensor.3fbb15af0a5367566f2f11324ef5a6f30861cdf2b497071a5e002b7aa473550e.png)
+    ![GPS-sensoren opprettet](../../../../../translated_images/no/counterfit-gps-sensor.3fbb15af0a536756.webp)
 
 ## Programmer GPS-sensoren
 
@@ -102,17 +102,17 @@ Programmer GPS-sensor-appen.
 
     * Sett **Source** til `Lat/Lon`, og angi en spesifikk breddegrad, lengdegrad og antall satellitter brukt for å få GPS-fiksen. Denne verdien vil bare bli sendt én gang, så merk av i **Repeat**-boksen for å få dataene til å gjentas hvert sekund.
 
-      ![GPS-sensoren med lat lon valgt](../../../../../translated_images/no/counterfit-gps-sensor-latlon.008c867d75464fbe7f84107cc57040df565ac07cb57d2f21db37d087d470197d.png)
+      ![GPS-sensoren med lat lon valgt](../../../../../translated_images/no/counterfit-gps-sensor-latlon.008c867d75464fbe.webp)
 
     * Sett **Source** til `NMEA` og legg til noen NMEA-setninger i tekstboksen. Alle disse verdiene vil bli sendt, med en forsinkelse på 1 sekund før hver ny GGA (posisjonsfiks)-setning kan leses.
 
-      ![GPS-sensoren med NMEA-setninger satt](../../../../../translated_images/no/counterfit-gps-sensor-nmea.c62eea442171e17e19528b051b104cfcecdc9cd18db7bc72920f29821ae63f73.png)
+      ![GPS-sensoren med NMEA-setninger satt](../../../../../translated_images/no/counterfit-gps-sensor-nmea.c62eea442171e17e.webp)
 
       Du kan bruke et verktøy som [nmeagen.org](https://www.nmeagen.org) for å generere disse setningene ved å tegne på et kart. Disse verdiene vil bare bli sendt én gang, så merk av i **Repeat**-boksen for å få dataene til å gjentas ett sekund etter at alt er sendt.
 
     * Sett **Source** til GPX-fil, og last opp en GPX-fil med sporingslokasjoner. Du kan laste ned GPX-filer fra en rekke populære kart- og tur-nettsteder, som [AllTrails](https://www.alltrails.com/). Disse filene inneholder flere GPS-lokasjoner som en rute, og GPS-sensoren vil returnere hver nye lokasjon med 1 sekunds intervall.
 
-      ![GPS-sensoren med en GPX-fil satt](../../../../../translated_images/no/counterfit-gps-sensor-gpxfile.8310b063ce8a425ccc8ebeec8306aeac5e8e55207f007d52c6e1194432a70cd9.png)
+      ![GPS-sensoren med en GPX-fil satt](../../../../../translated_images/no/counterfit-gps-sensor-gpxfile.8310b063ce8a425c.webp)
 
       Disse verdiene vil bare bli sendt én gang, så merk av i **Repeat**-boksen for å få dataene til å gjentas ett sekund etter at alt er sendt.
 

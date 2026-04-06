@@ -1,6 +1,6 @@
 # Geoaidat
 
-![Tämän oppitunnin yleiskatsaus sketchnotena](../../../../../translated_images/fi/lesson-14.63980c5150ae3c153e770fb71d044c1845dce79248d86bed9fc525adf3ede73c.jpg)
+![Tämän oppitunnin yleiskatsaus sketchnotena](../../../../../translated_images/fi/lesson-14.63980c5150ae3c15.webp)
 
 > Sketchnote: [Nitya Narasimhan](https://github.com/nitya). Klikkaa kuvaa nähdäksesi suuremman version.
 
@@ -35,7 +35,7 @@ Tässä oppitunnissa käsitellään:
 
 Geoaidat ovat virtuaalisia rajoja todellisille maantieteellisille alueille. Geoaidat voivat olla ympyröitä, jotka määritellään pisteenä ja säteenä (esimerkiksi 100 m leveä ympyrä rakennuksen ympärillä), tai monikulmioita, jotka kattavat alueen, kuten koulun alueen, kaupungin rajat tai yliopiston tai toimiston kampuksen.
 
-![Esimerkkejä geoaidoista: ympyrä Microsoftin yrityskaupan ympärillä ja monikulmio Microsoftin länsikampuksen ympärillä](../../../../../translated_images/fi/geofence-examples.172fbc534665769f6e1a1ddcf75e3b25183cd10354c80cc603ba44b635390e1a.png)
+![Esimerkkejä geoaidoista: ympyrä Microsoftin yrityskaupan ympärillä ja monikulmio Microsoftin länsikampuksen ympärillä](../../../../../translated_images/fi/geofence-examples.172fbc534665769f.webp)
 
 > 💁 Olet ehkä jo käyttänyt geoaidoja tietämättäsi. Jos olet asettanut muistutuksen iOS-muistutussovelluksessa tai Google Keepissä sijainnin perusteella, olet käyttänyt geoaitaa. Nämä sovellukset luovat geoaidan annetun sijainnin perusteella ja ilmoittavat sinulle, kun puhelimesi saapuu geoaidan sisälle.
 
@@ -212,7 +212,7 @@ On tärkeää tietää etäisyys geoaidan reunaan ja yhdistää tämä tieto mui
 
 Esimerkiksi, kuvittele GPS-lukemia, jotka osoittavat ajoneuvon ajavan tietä pitkin, joka kulkee geoaidan vieressä. Jos yksi GPS-arvo on epätarkka ja sijoittaa ajoneuvon geoaidan sisälle, vaikka sinne ei ole ajoneuvoyhteyttä, se voidaan jättää huomiotta.
 
-![GPS-jälki, joka näyttää ajoneuvon kulkevan Microsoftin kampuksen ohi 520-tietä pitkin, GPS-lukemat tien varrella paitsi yksi kampuksella, geoaidan sisällä](../../../../../translated_images/fi/geofence-crossing-inaccurate-gps.6a3ed911202ad9cabb66d3964888cec03a42c61d5b8f536ad5bdc99716b370f5.png)
+![GPS-jälki, joka näyttää ajoneuvon kulkevan Microsoftin kampuksen ohi 520-tietä pitkin, GPS-lukemat tien varrella paitsi yksi kampuksella, geoaidan sisällä](../../../../../translated_images/fi/geofence-crossing-inaccurate-gps.6a3ed911202ad9ca.webp)
 Yllä olevassa kuvassa on geofence Microsoftin kampuksen osan päällä. Punainen viiva näyttää rekan ajavan pitkin 520-tietä, ja ympyrät osoittavat GPS-lukemat. Suurin osa näistä lukemista on tarkkoja ja sijaitsee 520-tien varrella, mutta yksi epätarkka lukema on geofencen sisällä. Tämä lukema ei voi olla oikea – ei ole teitä, joiden kautta rekka voisi yhtäkkiä poiketa 520-tieltä kampukselle ja palata sitten takaisin 520-tielle. Geofencen tarkistava koodi tarvitsee ottaa huomioon aiemmat lukemat ennen kuin se toimii geofencen testitulosten perusteella.
 
 ✅ Mitä lisätietoja tarvitsisit tarkistaaksesi, voiko GPS-lukema olla oikea?
@@ -284,7 +284,7 @@ Kuten muistat aiemmista oppitunneista, IoT Hub mahdollistaa tapahtumien uudellee
 
 Vastaus on, että se ei tiedä! Sen sijaan voit määritellä useita erillisiä yhteyksiä tapahtumien lukemiseen, ja jokainen niistä voi hallita lukemattomien viestien uudelleen toistoa. Näitä kutsutaan *kuluttajaryhmiksi*. Kun yhdistät päätepisteeseen, voit määrittää, mihin kuluttajaryhmään haluat yhdistää. Sovelluksesi jokainen komponentti yhdistyy eri kuluttajaryhmään.
 
-![Yksi IoT Hub, jossa 3 kuluttajaryhmää jakaa samat viestit 3 eri Functions-sovellukseen](../../../../../translated_images/fi/consumer-groups.a3262e26fc27ba2092863678ad57af15c7223416e388a23f330c058cf4358630.png)
+![Yksi IoT Hub, jossa 3 kuluttajaryhmää jakaa samat viestit 3 eri Functions-sovellukseen](../../../../../translated_images/fi/consumer-groups.a3262e26fc27ba20.webp)
 
 Teoriassa jopa 5 sovellusta voi yhdistyä jokaiseen kuluttajaryhmään, ja ne kaikki vastaanottavat viestejä niiden saapuessa. Paras käytäntö on, että vain yksi sovellus käyttää kutakin kuluttajaryhmää välttääkseen viestien kaksoiskäsittelyn ja varmistaakseen, että kaikki jonossa olevat viestit käsitellään oikein uudelleenkäynnistyksen yhteydessä. Esimerkiksi, jos käynnistäisit Functions-sovelluksesi paikallisesti sekä pilvessä, ne molemmat käsittelisivät viestejä, mikä johtaisi kaksoiskopioihin tallennustilin blob-tallennuksessa.
 

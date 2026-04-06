@@ -18,13 +18,13 @@ Grove-rele voidaan liittää Raspberry Pi:hin.
 
 Liitä rele.
 
-![Grove-rele](../../../../../translated_images/fi/grove-relay.d426958ca210fbd0fb7983d7edc069d46c73a8b0a099d94797bd756f7b6bb6be.png)
+![Grove-rele](../../../../../translated_images/fi/grove-relay.d426958ca210fbd0.webp)
 
 1. Työnnä Grove-kaapelin toinen pää releen liittimeen. Se menee sisään vain yhdellä tavalla.
 
 1. Kun Raspberry Pi on sammutettu, liitä Grove-kaapelin toinen pää Grove Base Hatin digitaaliseen liittimeen, joka on merkitty **D5**. Tämä liitin on toinen vasemmalta GPIO-pinnien vieressä olevassa liitinrivissä. Jätä maankosteusanturi liitetyksi **A0**-liittimeen.
 
-![Grove-rele liitettynä D5-liittimeen ja maankosteusanturi liitettynä A0-liittimeen](../../../../../translated_images/fi/pi-relay-and-soil-moisture-sensor.02f3198975b8c53e69ec716cd2719ce117700bd1fc933eaf93476c103c57939b.png)
+![Grove-rele liitettynä D5-liittimeen ja maankosteusanturi liitettynä A0-liittimeen](../../../../../translated_images/fi/pi-relay-and-soil-moisture-sensor.02f3198975b8c53e.webp)
 
 1. Työnnä maankosteusanturi maahan, jos se ei ole jo siellä edellisen oppitunnin jäljiltä.
 

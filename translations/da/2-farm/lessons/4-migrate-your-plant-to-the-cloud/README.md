@@ -1,6 +1,6 @@
 # Migrér din plante til skyen
 
-![En sketchnote-oversigt over denne lektion](../../../../../translated_images/da/lesson-8.3f21f3c11159e6a0a376351973ea5724d5de68fa23b4288853a174bed9ac48c3.jpg)
+![En sketchnote-oversigt over denne lektion](../../../../../translated_images/da/lesson-8.3f21f3c11159e6a0.webp)
 
 > Sketchnote af [Nitya Narasimhan](https://github.com/nitya). Klik på billedet for en større version.
 
@@ -46,8 +46,8 @@ Dette kunne være meget dyrt, kræve en bred vifte af dygtige medarbejdere og v�
 
 Skyen omtales ofte spøgende som 'en andens computer'. Den oprindelige idé var simpel - i stedet for at købe computere, lejer du en andens computer. En anden, en cloud-udbyder, ville administrere enorme datacentre. De ville være ansvarlige for at købe og installere hardware, håndtere strøm og køling, netværk, bygningssikkerhed, hardware- og softwareopdateringer, alt. Som kunde ville du leje de computere, du har brug for, leje flere, når efterspørgslen stiger, og reducere antallet, når efterspørgslen falder. Disse cloud-datacentre findes over hele verden.
 
-![Et Microsoft cloud-datacenter](../../../../../translated_images/da/azure-region-existing.73f704604f2aa6cb9b5a49ed40e93d4fd81ae3f4e6af4a8ca504023902832f56.png)
-![Planlagt udvidelse af et Microsoft cloud-datacenter](../../../../../translated_images/da/azure-region-planned-expansion.a5074a1e8af74f156a73552d502429e5b126ea5019274d767ecb4b9afdad442b.png)
+![Et Microsoft cloud-datacenter](../../../../../translated_images/da/azure-region-existing.73f704604f2aa6cb.webp)
+![Planlagt udvidelse af et Microsoft cloud-datacenter](../../../../../translated_images/da/azure-region-planned-expansion.a5074a1e8af74f15.webp)
 
 Disse datacentre kan være flere kvadratkilometer store. Billederne ovenfor blev taget for nogle år siden i et Microsoft cloud-datacenter og viser den oprindelige størrelse sammen med en planlagt udvidelse. Området, der er ryddet til udvidelsen, er over 5 kvadratkilometer.
 
@@ -108,11 +108,11 @@ IoT-tjenester i skyen løser disse problemer. De vedligeholdes af store cloud-ud
 
 IoT-enheder forbinder til en cloud-tjeneste enten ved hjælp af en enheds-SDK (et bibliotek, der leverer kode til at arbejde med tjenestens funktioner) eller direkte via en kommunikationsprotokol som MQTT eller HTTP. Enheds-SDK'en er normalt den nemmeste vej at tage, da den håndterer alt for dig, såsom at vide, hvilke emner der skal publiceres eller abonneres på, og hvordan man håndterer sikkerhed.
 
-![Enheder forbinder til en tjeneste ved hjælp af en enheds-SDK. Serverkode forbinder også til tjenesten via en SDK](../../../../../translated_images/da/iot-service-connectivity.7e873847921a5d6fd60d0ba3a943210194518cee0d4e362476624316443275c3.png)
+![Enheder forbinder til en tjeneste ved hjælp af en enheds-SDK. Serverkode forbinder også til tjenesten via en SDK](../../../../../translated_images/da/iot-service-connectivity.7e873847921a5d6f.webp)
 
 Din enhed kommunikerer derefter med andre dele af din applikation via denne tjeneste - ligesom du sendte telemetri og modtog kommandoer via MQTT. Dette sker normalt ved hjælp af en service-SDK eller et lignende bibliotek. Beskeder kommer fra din enhed til tjenesten, hvor andre komponenter i din applikation derefter kan læse dem, og beskeder kan derefter sendes tilbage til din enhed.
 
-![Enheder uden en gyldig hemmelig nøgle kan ikke forbinde til IoT-tjenesten](../../../../../translated_images/da/iot-service-allowed-denied-connection.818b0063ac213fb84204a7229303764d9b467ca430fb822b4ac2fca267d56726.png)
+![Enheder uden en gyldig hemmelig nøgle kan ikke forbinde til IoT-tjenesten](../../../../../translated_images/da/iot-service-allowed-denied-connection.818b0063ac213fb8.webp)
 
 Disse tjenester implementerer sikkerhed ved at kende til alle de enheder, der kan forbinde og sende data, enten ved at have enhederne forudregistreret hos tjenesten eller ved at give enhederne hemmelige nøgler eller certifikater, som de kan bruge til at registrere sig selv hos tjenesten første gang, de forbinder. Ukendte enheder kan ikke forbinde; hvis de prøver, afviser tjenesten forbindelsen og ignorerer beskeder sendt af dem.
 
@@ -124,7 +124,7 @@ Andre komponenter i din applikation kan forbinde til IoT-tjenesten og lære om a
 
 Nu hvor du har et Azure-abonnement, kan du tilmelde dig en IoT-tjeneste. IoT-tjenesten fra Microsoft hedder Azure IoT Hub.
 
-![Azure IoT Hub-logoet](../../../../../translated_images/da/azure-iot-hub-logo.28a19de76d0a1932464d858f7558712bcdace3e5ec69c434d482ed7ce41c3a26.png)
+![Azure IoT Hub-logoet](../../../../../translated_images/da/azure-iot-hub-logo.28a19de76d0a1932.webp)
 
 Videoen nedenfor giver en kort oversigt over Azure IoT Hub:
 

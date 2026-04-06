@@ -1,6 +1,6 @@
 # Migrer din applikationslogik til skyen
 
-![En sketchnote-oversigt over denne lektion](../../../../../translated_images/da/lesson-9.dfe99c8e891f48e179724520da9f5794392cf9a625079281ccdcbf09bd85e1b6.jpg)
+![En sketchnote-oversigt over denne lektion](../../../../../translated_images/da/lesson-9.dfe99c8e891f48e1.webp)
 
 > Sketchnote af [Nitya Narasimhan](https://github.com/nitya). Klik på billedet for en større version.
 
@@ -28,7 +28,7 @@ I denne lektion dækker vi:
 
 Serverløs, eller serverløs computing, indebærer at oprette små kodeblokke, der køres i skyen som svar på forskellige typer hændelser. Når hændelsen opstår, køres din kode, og den får data om hændelsen. Disse hændelser kan komme fra mange forskellige kilder, herunder webanmodninger, beskeder i en kø, ændringer i en database eller beskeder sendt til en IoT-tjeneste af IoT-enheder.
 
-![Hændelser, der sendes fra en IoT-tjeneste til en serverløs tjeneste, og behandles samtidig af flere funktioner](../../../../../translated_images/da/iot-messages-to-serverless.0194da1cc0732bb7d0f823aed3fce54735c6b1ad3bf36089804d8aaefc0a774f.png)
+![Hændelser, der sendes fra en IoT-tjeneste til en serverløs tjeneste, og behandles samtidig af flere funktioner](../../../../../translated_images/da/iot-messages-to-serverless.0194da1cc0732bb7.webp)
 
 > 💁 Hvis du tidligere har brugt database-triggere, kan du tænke på dette som noget lignende: kode, der udløses af en hændelse som f.eks. indsættelse af en række.
 
@@ -54,7 +54,7 @@ Som IoT-udvikler er den serverløse model ideel. Du kan skrive en funktion, der 
 
 Den serverløse computing-tjeneste fra Microsoft kaldes Azure Functions.
 
-![Azure Functions-logoet](../../../../../translated_images/da/azure-functions-logo.1cfc8e3204c9c44aaf80fcf406fc8544d80d7f00f8d3e8ed6fed764563e17564.png)
+![Azure Functions-logoet](../../../../../translated_images/da/azure-functions-logo.1cfc8e3204c9c44a.webp)
 
 Den korte video nedenfor giver et overblik over Azure Functions.
 

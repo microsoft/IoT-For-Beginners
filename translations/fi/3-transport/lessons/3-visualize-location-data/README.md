@@ -1,6 +1,6 @@
 # Visualisoi sijaintitiedot
 
-![Tämän oppitunnin yleiskuvaus sketchnotena](../../../../../translated_images/fi/lesson-13.a259db1485021be7d7c72e90842fbe0ab977529e8684c179b5fb1ea75e92b3ef.jpg)
+![Tämän oppitunnin yleiskuvaus sketchnotena](../../../../../translated_images/fi/lesson-13.a259db1485021be7.webp)
 
 > Sketchnote: [Nitya Narasimhan](https://github.com/nitya). Klikkaa kuvaa nähdäksesi suuremman version.
 
@@ -64,11 +64,11 @@ Yksinkertainen esimerkki: maatilaprojektissa tallensit maaperän kosteustietoja.
 
 Ihmisen on vaikea ymmärtää tällaista dataa. Se on pelkkä numeroseinä ilman merkitystä. Ensimmäinen askel datan visualisoinnissa voisi olla sen piirtäminen viivakaavioon:
 
-![Viivakaavio yllä olevasta datasta](../../../../../translated_images/fi/chart-soil-moisture.fd6d9d0cdc0b5f75e78038ecb8945dfc84b38851359de99d84b16e3336d6d7c2.png)
+![Viivakaavio yllä olevasta datasta](../../../../../translated_images/fi/chart-soil-moisture.fd6d9d0cdc0b5f75.webp)
 
 Tätä voidaan parantaa lisäämällä viiva, joka osoittaa, milloin automaattinen kastelujärjestelmä käynnistyi kosteusarvolla 450:
 
-![Viivakaavio maaperän kosteudesta ja viiva arvolla 450](../../../../../translated_images/fi/chart-soil-moisture-relay.fbb391236d34a64d0abf1df396e9197e0a24df14150620b9cc820a64a55c9326.png)
+![Viivakaavio maaperän kosteudesta ja viiva arvolla 450](../../../../../translated_images/fi/chart-soil-moisture-relay.fbb391236d34a64d.webp)
 
 Tämä kaavio näyttää nopeasti paitsi maaperän kosteustasot myös kohdat, joissa kastelujärjestelmä käynnistyi.
 
@@ -84,7 +84,7 @@ Kun työskentelet GPS-datan kanssa, selkein tapa visualisoida dataa on piirtää
 
 Karttojen kanssa työskentely on mielenkiintoista, ja valittavana on monia vaihtoehtoja, kuten Bing Maps, Leaflet, Open Street Maps ja Google Maps. Tässä oppitunnissa opit [Azure Maps](https://azure.microsoft.com/services/azure-maps/?WT.mc_id=academic-17441-jabenn) -palvelusta ja siitä, kuinka se voi näyttää GPS-datasi.
 
-![Azure Maps -logo](../../../../../translated_images/fi/azure-maps-logo.35d01dcfbd81fe6140e94257aaa1538f785a58c91576d14e0ebe7a2f6c694b99.png)
+![Azure Maps -logo](../../../../../translated_images/fi/azure-maps-logo.35d01dcfbd81fe61.webp)
 
 Azure Maps on "kokoelma paikkatietopalveluita ja SDK:ita, jotka käyttävät ajankohtaista karttatietoa tarjotakseen maantieteellistä kontekstia verkkosovelluksille ja mobiilisovelluksille." Kehittäjille tarjotaan työkaluja luoda kauniita, interaktiivisia karttoja, jotka voivat esimerkiksi tarjota suositeltuja liikennereittejä, tietoa liikenneonnettomuuksista, sisätilanavigointia, hakutoimintoja, korkeustietoja, säätietopalveluita ja paljon muuta.
 
@@ -185,7 +185,7 @@ Seuraava askel on näyttää kartta verkkosivulla. Käytämme vain yhtä `html`-
 
     Jos avaat `index.html`-sivusi verkkoselaimessa, sinun pitäisi nähdä kartta, joka on keskitetty Seattlen alueelle.
 
-    ![Kartta, joka näyttää Seattlen, kaupungin Washingtonin osavaltiossa, USA:ssa](../../../../../translated_images/fi/map-image.8fb2c53eb23ef39c1c0a4410a5282e879b3b452b707eb066ff04c5488d3d72b7.png)
+    ![Kartta, joka näyttää Seattlen, kaupungin Washingtonin osavaltiossa, USA:ssa](../../../../../translated_images/fi/map-image.8fb2c53eb23ef39c.webp)
 
     ✅ Kokeile zoomaus- ja keskitysparametreja muuttaaksesi kartan näkymää. Voit lisätä eri koordinaatit, jotka vastaavat datasi leveys- ja pituusasteita, keskittääksesi kartan uudelleen.
 
@@ -318,7 +318,7 @@ Kun teet kutsun tallennustilaasi hakeaksesi dataa, saatat yllättyä, jos selaim
 
 1. Lataa HTML-sivu selaimeesi. Se lataa kartan, hakee kaikki GPS-datat tallennustilasta ja piirtää ne kartalle.
 
-    ![Kartta Saint Edward State Parkista Seattlen lähellä, jossa ympyrät näyttävät reitin puiston reunalla](../../../../../translated_images/fi/map-path.896832e72dc696ffe20650e4051027d4855442d955f93fdbb80bb417ca8a406f.png)
+    ![Kartta Saint Edward State Parkista Seattlen lähellä, jossa ympyrät näyttävät reitin puiston reunalla](../../../../../translated_images/fi/map-path.896832e72dc696ff.webp)
 
 > 💁 Löydät tämän koodin [code](../../../../../3-transport/lessons/3-visualize-location-data/code)-kansiosta.
 

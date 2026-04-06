@@ -1,6 +1,6 @@
 # Støtte for flere språk
 
-![En sketchnote-oversikt over denne leksjonen](../../../../../translated_images/no/lesson-24.4246968ed058510ab275052e87ef9aa89c7b2f938915d103c605c04dc6cd5bb7.jpg)
+![En sketchnote-oversikt over denne leksjonen](../../../../../translated_images/no/lesson-24.4246968ed058510a.webp)
 
 > Sketchnote av [Nitya Narasimhan](https://github.com/nitya). Klikk på bildet for en større versjon.
 
@@ -74,7 +74,7 @@ Det finnes en rekke AI-tjenester som kan brukes fra applikasjonene dine for å o
 
 ### Cognitive Services Speech Service
 
-![Logoen til tale-tjenesten](../../../../../translated_images/no/azure-speech-logo.a1f08c4befb0159f2cb5d692d3baf5b599e7b44759d316da907bda1508f46a4a.png)
+![Logoen til tale-tjenesten](../../../../../translated_images/no/azure-speech-logo.a1f08c4befb0159f.webp)
 
 Tale-tjenesten du har brukt i de siste leksjonene, har oversettelsesmuligheter for talegjenkjenning. Når du gjenkjenner tale, kan du be om ikke bare teksten til talen på samme språk, men også på andre språk.
 
@@ -82,7 +82,7 @@ Tale-tjenesten du har brukt i de siste leksjonene, har oversettelsesmuligheter f
 
 ### Cognitive Services Translator Service
 
-![Logoen til oversettertjenesten](../../../../../translated_images/no/azure-translator-logo.c6ed3a4a433edfd2f11577eca105412c50b8396b194cbbd730723dd1d0793bcd.png)
+![Logoen til oversettertjenesten](../../../../../translated_images/no/azure-translator-logo.c6ed3a4a433edfd2.webp)
 
 Oversettertjenesten er en dedikert oversettelsestjeneste som kan oversette tekst fra ett språk til ett eller flere målspråk. I tillegg til å oversette, støtter den et bredt spekter av ekstra funksjoner, inkludert maskering av banning. Den lar deg også spesifisere en bestemt oversettelse for et bestemt ord eller en setning, for å håndtere termer du ikke vil oversette, eller som har en spesifikk, velkjent oversettelse.
 

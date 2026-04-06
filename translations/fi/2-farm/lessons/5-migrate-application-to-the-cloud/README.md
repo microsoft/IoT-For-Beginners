@@ -1,6 +1,6 @@
 # Siirrä sovelluslogiikkasi pilveen
 
-![Tämän oppitunnin luonnoskuva](../../../../../translated_images/fi/lesson-9.dfe99c8e891f48e179724520da9f5794392cf9a625079281ccdcbf09bd85e1b6.jpg)
+![Tämän oppitunnin luonnoskuva](../../../../../translated_images/fi/lesson-9.dfe99c8e891f48e1.webp)
 
 > Luonnoskuva: [Nitya Narasimhan](https://github.com/nitya). Klikkaa kuvaa nähdäksesi suuremman version.
 
@@ -28,7 +28,7 @@ Tässä oppitunnissa käsitellään:
 
 Serveritön, tai serveritön laskenta, tarkoittaa pienten koodilohkojen luomista, jotka suoritetaan pilvessä vastauksena erilaisiin tapahtumiin. Kun tapahtuma tapahtuu, koodisi suoritetaan ja sille välitetään tietoja tapahtumasta. Näitä tapahtumia voi tulla monista eri lähteistä, kuten verkkopyynnöistä, jonoon lisätyistä viesteistä, tietokannan muutoksista tai IoT-laitteiden lähettämistä viesteistä IoT-palveluun.
 
-![Tapahtumia lähetetään IoT-palvelusta serverittömään palveluun, ja niitä käsitellään samanaikaisesti useilla funktioilla](../../../../../translated_images/fi/iot-messages-to-serverless.0194da1cc0732bb7d0f823aed3fce54735c6b1ad3bf36089804d8aaefc0a774f.png)
+![Tapahtumia lähetetään IoT-palvelusta serverittömään palveluun, ja niitä käsitellään samanaikaisesti useilla funktioilla](../../../../../translated_images/fi/iot-messages-to-serverless.0194da1cc0732bb7.webp)
 
 > 💁 Jos olet käyttänyt tietokantatriggereitä aiemmin, voit ajatella tätä samalla tavalla: koodi käynnistyy tapahtumasta, kuten rivin lisäämisestä.
 
@@ -54,7 +54,7 @@ IoT-kehittäjänä serveritön malli on ihanteellinen. Voit kirjoittaa funktion,
 
 Microsoftin serveritön laskentapalvelu tunnetaan nimellä Azure Functions.
 
-![Azure Functions -logo](../../../../../translated_images/fi/azure-functions-logo.1cfc8e3204c9c44aaf80fcf406fc8544d80d7f00f8d3e8ed6fed764563e17564.png)
+![Azure Functions -logo](../../../../../translated_images/fi/azure-functions-logo.1cfc8e3204c9c44a.webp)
 
 Alla oleva lyhyt video tarjoaa yleiskatsauksen Azure Functionsista.
 

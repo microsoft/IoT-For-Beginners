@@ -67,7 +67,7 @@ Koden du brukte for å kategorisere bilder er veldig lik koden for å detektere 
 
     Du vil kunne se bildet som ble tatt, og disse verdiene i **Predictions**-fanen i Custom Vision.
 
-    ![4 bokser med tomatpuré på en hylle med prediksjoner for de 4 deteksjonene på 35.8%, 33.5%, 25.7% og 16.6%](../../../../../translated_images/no/custom-vision-stock-prediction.942266ab1bcca3410ecdf23643b9f5f570cfab2345235074e24c51f285777613.png)
+    ![4 bokser med tomatpuré på en hylle med prediksjoner for de 4 deteksjonene på 35.8%, 33.5%, 25.7% og 16.6%](../../../../../translated_images/no/custom-vision-stock-prediction.942266ab1bcca341.webp)
 
 > 💁 Du finner denne koden i [code-detect/pi](../../../../../5-retail/lessons/2-check-stock-device/code-detect/pi) eller [code-detect/virtual-iot-device](../../../../../5-retail/lessons/2-check-stock-device/code-detect/virtual-iot-device)-mappen.
 

@@ -18,7 +18,7 @@ Grove-lämpötila-anturi voidaan liittää Wio Terminalin digitaaliseen porttiin
 
 Yhdistä lämpötila-anturi.
 
-![Grove-lämpötila-anturi](../../../../../translated_images/fi/grove-dht11.07f8eafceee170043efbb53e1d15722bd4e00fbaa9ff74290b57e9f66eb82c17.png)
+![Grove-lämpötila-anturi](../../../../../translated_images/fi/grove-dht11.07f8eafceee17004.webp)
 
 1. Työnnä Grove-kaapelin toinen pää kosteus- ja lämpötila-anturin liittimeen. Se menee sisään vain yhdellä tavalla.
 

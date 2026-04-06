@@ -1,6 +1,6 @@
 # Automatisk plantevanding
 
-![En sketchnote oversigt over denne lektion](../../../../../translated_images/da/lesson-7.30b5f577d3cb8e031238751475cb519c7d6dbaea261b5df4643d086ffb2a03bb.jpg)
+![En sketchnote oversigt over denne lektion](../../../../../translated_images/da/lesson-7.30b5f577d3cb8e03.webp)
 
 > Sketchnote af [Nitya Narasimhan](https://github.com/nitya). Klik på billedet for en større version.
 
@@ -32,7 +32,7 @@ IoT-enheder bruger lav spænding. Selvom dette er nok til sensorer og lavstrøms
 
 Løsningen på dette er at have en pumpe tilsluttet en ekstern strømforsyning og bruge en aktuator til at tænde pumpen, ligesom du ville tænde en lampe. Det kræver en lille mængde energi (i form af energi i din krop) for din finger at trykke på en kontakt, og dette forbinder lampen til elnettet, der kører på 110v/240v.
 
-![En lyskontakt tænder strømmen til en lampe](../../../../../translated_images/da/light-switch.760317ad6ab8bd6d611da5352dfe9c73a94a0822ccec7df3c8bae35da18e1658.png)
+![En lyskontakt tænder strømmen til en lampe](../../../../../translated_images/da/light-switch.760317ad6ab8bd6d.webp)
 
 > 🎓 [Elnet](https://wikipedia.org/wiki/Mains_electricity) refererer til den elektricitet, der leveres til hjem og virksomheder gennem national infrastruktur i mange dele af verden.
 
@@ -72,7 +72,7 @@ Når armen bevæger sig, kan du normalt høre den lave kontakt med elektromagnet
 
 Elektromagneten behøver ikke meget strøm for at aktivere og trække armen; den kan styres med 3,3V eller 5V output fra en IoT-udviklingskit. Udgangskredsløbet kan bære meget mere strøm, afhængigt af relæet, inklusive elnetspænding eller endda højere strømniveauer til industriel brug. På denne måde kan en IoT-udviklingskit styre et vandingssystem, fra en lille pumpe til en enkelt plante, op til et massivt industrielt system til en hel kommerciel gård.
 
-![Et Grove-relæ med kontrolkredsløb, udgangskredsløb og relæ mærket](../../../../../translated_images/da/grove-relay-labelled.293e068f5c3c2a199bd7892f2661fdc9e10c920b535cfed317fbd6d1d4ae1168.png)
+![Et Grove-relæ med kontrolkredsløb, udgangskredsløb og relæ mærket](../../../../../translated_images/da/grove-relay-labelled.293e068f5c3c2a19.webp)
 
 Billedet ovenfor viser et Grove-relæ. Kontrolkredsløbet forbinder til en IoT-enhed og tænder eller slukker relæet ved hjælp af 3,3V eller 5V. Udgangskredsløbet har to terminaler, hvoraf en kan være strøm eller jord. Udgangskredsløbet kan håndtere op til 250V ved 10A, nok til en række enheder, der drives af elnettet. Du kan få relæer, der kan håndtere endnu højere strømniveauer.
 

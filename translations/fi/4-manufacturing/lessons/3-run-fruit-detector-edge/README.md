@@ -1,6 +1,6 @@
 # Suorita hedelmätunnistin reunalaitteella
 
-![Tämän oppitunnin yleiskuvaus sketchnotena](../../../../../translated_images/fi/lesson-17.bc333c3c35ba8e42cce666cfffa82b915f787f455bd94e006aea2b6f2722421a.jpg)
+![Tämän oppitunnin yleiskuvaus sketchnotena](../../../../../translated_images/fi/lesson-17.bc333c3c35ba8e42.webp)
 
 > Sketchnote: [Nitya Narasimhan](https://github.com/nitya). Klikkaa kuvaa nähdäksesi suuremman version.
 
@@ -33,11 +33,11 @@ Tässä oppitunnissa käsitellään:
 
 Reunalaskenta tarkoittaa IoT-datan käsittelyä mahdollisimman lähellä sen syntypaikkaa. Sen sijaan, että käsittely tapahtuisi pilvessä, se siirretään pilven reunalle – sisäiseen verkkoosi.
 
-![Arkkitehtuurikaavio, jossa internetpalvelut pilvessä ja IoT-laitteet paikallisessa verkossa](../../../../../translated_images/fi/cloud-without-edge.b4da641f6022c95ed6b91fde8b5323abd2f94e0d52073ad54172ae8f5dac90e9.png)
+![Arkkitehtuurikaavio, jossa internetpalvelut pilvessä ja IoT-laitteet paikallisessa verkossa](../../../../../translated_images/fi/cloud-without-edge.b4da641f6022c95e.webp)
 
 Tähän mennessä oppitunneilla laitteet ovat keränneet dataa ja lähettäneet sen pilveen analysoitavaksi, suorittaen pilvessä serverittömiä toimintoja tai AI-malleja.
 
-![Arkkitehtuurikaavio, jossa IoT-laitteet paikallisessa verkossa yhdistyvät reunalaitteisiin, ja nämä reunalaitteet yhdistyvät pilveen](../../../../../translated_images/fi/cloud-with-edge.1e26462c62c126fe150bd15a5714ddf0be599f09bacbad08b85be02b76ea1ae1.png)
+![Arkkitehtuurikaavio, jossa IoT-laitteet paikallisessa verkossa yhdistyvät reunalaitteisiin, ja nämä reunalaitteet yhdistyvät pilveen](../../../../../translated_images/fi/cloud-with-edge.1e26462c62c126fe.webp)
 
 Reunalaskenta siirtää osan pilvipalveluista pois pilvestä ja tietokoneille, jotka toimivat samalla verkolla kuin IoT-laitteet, kommunikoiden pilven kanssa vain tarvittaessa. Esimerkiksi AI-malleja voidaan suorittaa reunalaitteilla hedelmien kypsyyden analysoimiseksi, ja pilveen lähetetään vain analytiikkaa, kuten kypsien ja raakojen hedelmien lukumäärä.
 
@@ -85,7 +85,7 @@ IoT-järjestelmissä haluat usein yhdistää pilvi- ja reunalaskennan, hyödynt�
 
 ## Azure IoT Edge
 
-![Azure IoT Edge -logo](../../../../../translated_images/fi/azure-iot-edge-logo.c1c076749b5cba2e8755262fadc2f19ca1146b948d76990b1229199ac2292d79.png)
+![Azure IoT Edge -logo](../../../../../translated_images/fi/azure-iot-edge-logo.c1c076749b5cba2e.webp)
 
 Azure IoT Edge on palvelu, joka voi auttaa siirtämään työkuormia pois pilvestä reunalle. Voit määrittää laitteen reunalaitteeksi ja pilvestä käsin ottaa käyttöön koodia kyseiselle reunalaitteelle. Tämä mahdollistaa pilven ja reunan kyvykkyyksien yhdistämisen.
 
@@ -99,7 +99,7 @@ IoT Edge on sisäänrakennettu IoT Hubiin, joten voit hallita reunalaitteita sam
 
 IoT Edge suorittaa koodia *konteista* – itsenäisistä sovelluksista, jotka toimivat erillään muista tietokoneesi sovelluksista. Kun suoritat kontin, se toimii kuin erillinen tietokone tietokoneesi sisällä, omilla ohjelmistoillaan, palveluillaan ja sovelluksillaan. Useimmiten kontit eivät pääse käsiksi mihinkään tietokoneellasi, ellei valitse jakaa esimerkiksi kansiota kontin kanssa. Kontti sitten tarjoaa palveluita avoimen portin kautta, johon voit yhdistää tai altistaa verkollesi.
 
-![Verkkopyyntö ohjataan konttiin](../../../../../translated_images/fi/container-web-browser.4ee81dd4f0d8838ce622b2a0d600b6a4322b5d4fe43159facd87b7b34f84d66a.png)
+![Verkkopyyntö ohjataan konttiin](../../../../../translated_images/fi/container-web-browser.4ee81dd4f0d8838c.webp)
 
 Esimerkiksi voit olla kontti, jossa verkkosivusto toimii portissa 80, oletus HTTP-portissa, ja voit sitten altistaa sen tietokoneeltasi myös portissa 80.
 
@@ -195,11 +195,11 @@ Kun malli on koulutettu, se täytyy viedä konttina.
 
 ## Valmistele kontti käyttöönottoa varten
 
-![Kontit rakennetaan, työnnetään konttirekisteriin ja otetaan käyttöön reunalaitteella IoT Edgen avulla](../../../../../translated_images/fi/container-edge-flow.c246050dd60ceefdb6ace026a4ce5c6aa4112bb5898ae23fbb2ab4be29ae3e1b.png)
+![Kontit rakennetaan, työnnetään konttirekisteriin ja otetaan käyttöön reunalaitteella IoT Edgen avulla](../../../../../translated_images/fi/container-edge-flow.c246050dd60ceefd.webp)
 
 Kun olet ladannut mallisi, se täytyy rakentaa kontiksi ja työntää konttirekisteriin - verkossa olevaan sijaintiin, jossa voit säilyttää kontteja. IoT Edge voi sitten ladata kontin rekisteristä ja siirtää sen laitteellesi.
 
-![Azure Container Registry -logo](../../../../../translated_images/fi/azure-container-registry-logo.09494206991d4b295025ebff7d4e2900325e527a59184ffbc8464b6ab59654be.png)
+![Azure Container Registry -logo](../../../../../translated_images/fi/azure-container-registry-logo.09494206991d4b29.webp)
 
 Tässä oppitunnissa käytettävä konttirekisteri on Azure Container Registry. Tämä ei ole ilmainen palvelu, joten säästääksesi rahaa varmista, että [siivoat projektisi](../../../clean-up.md) kun olet valmis.
 

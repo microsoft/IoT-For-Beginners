@@ -1,6 +1,6 @@
 # Koble enheten din til Internett
 
-![En sketchnote-oversikt over denne leksjonen](../../../../../translated_images/no/lesson-4.7344e074ea68fa545fd320b12dce36d72dd62d28c3b4596cb26cf315f434b98f.jpg)
+![En sketchnote-oversikt over denne leksjonen](../../../../../translated_images/no/lesson-4.7344e074ea68fa54.webp)
 
 > Sketchnote av [Nitya Narasimhan](https://github.com/nitya). Klikk på bildet for en større versjon.
 
@@ -47,7 +47,7 @@ MQTT er den mest populære kommunikasjonsprotokollen for IoT-enheter og dekkes i
 
 MQTT har én megler og flere klienter. Alle klienter kobler seg til megleren, og megleren ruter meldinger til relevante klienter. Meldinger rutes ved hjelp av navngitte emner, i stedet for å bli sendt direkte til en individuell klient. En klient kan publisere til et emne, og alle klienter som abonnerer på det emnet vil motta meldingen.
 
-![IoT-enhet publiserer telemetri på /telemetry-emnet, og sky-tjenesten abonnerer på det emnet](../../../../../translated_images/no/mqtt.cbf7f21d9adc3e17548b359444cc11bb4bf2010543e32ece9a47becf54438c23.png)
+![IoT-enhet publiserer telemetri på /telemetry-emnet, og sky-tjenesten abonnerer på det emnet](../../../../../translated_images/no/mqtt.cbf7f21d9adc3e17.webp)
 
 ✅ Gjør litt research. Hvis du har mange IoT-enheter, hvordan kan du sikre at MQTT-megleren din kan håndtere alle meldingene?
 
@@ -69,7 +69,7 @@ I stedet for å håndtere kompleksiteten ved å sette opp en MQTT-megler som en 
 
 > 💁 Denne testmegleren er offentlig og ikke sikker. Alle kan lytte til det du publiserer, så den bør ikke brukes med data som må holdes privat.
 
-![Et flytskjema for oppgaven som viser lysnivåer som leses og sjekkes, og LED-en som kontrolleres](../../../../../translated_images/no/assignment-1-internet-flow.3256feab5f052fd273bf4e331157c574c2c3fa42e479836fc9c3586f41db35a5.png)
+![Et flytskjema for oppgaven som viser lysnivåer som leses og sjekkes, og LED-en som kontrolleres](../../../../../translated_images/no/assignment-1-internet-flow.3256feab5f052fd2.webp)
 
 Følg relevant steg nedenfor for å koble enheten din til MQTT-megleren:
 
@@ -350,7 +350,7 @@ For maskiner kan du kanskje ønske å beholde dataene, spesielt hvis de brukes t
 
 IoT-enhetsdesignere bør også vurdere om IoT-enheten kan brukes under et Internett-avbrudd eller tap av signal forårsaket av plassering. En smart termostat bør kunne ta noen begrensede beslutninger for å kontrollere oppvarming hvis den ikke kan sende telemetri til skyen på grunn av et avbrudd.
 
-[![Denne Ferrari-en ble ubrukelig fordi noen prøvde å oppgradere den under bakken der det ikke er mobildekning](../../../../../translated_images/no/bricked-car.dc38f8efadc6c59d76211f981a521efb300939283dee468f79503aae3ec67615.png)](https://twitter.com/internetofshit/status/1315736960082808832)
+[![Denne Ferrari-en ble ubrukelig fordi noen prøvde å oppgradere den under bakken der det ikke er mobildekning](../../../../../translated_images/no/bricked-car.dc38f8efadc6c59d.webp)](https://twitter.com/internetofshit/status/1315736960082808832)
 
 For MQTT å håndtere tap av tilkobling, må enheten og serverkoden være ansvarlig for å sikre meldingsoverføring hvis det er nødvendig, for eksempel ved å kreve at alle meldinger som sendes, besvares med tilleggsmeldinger på et svar-emne, og hvis ikke, blir de manuelt køet for å bli sendt på nytt senere.
 
@@ -358,7 +358,7 @@ For MQTT å håndtere tap av tilkobling, må enheten og serverkoden være ansvar
 
 Kommandoer er meldinger sendt fra skyen til en enhet, som instruerer den til å gjøre noe. Ofte innebærer dette å gi en slags utgang via en aktuator, men det kan være en instruksjon for selve enheten, som å starte på nytt eller samle inn ekstra telemetri og returnere det som svar på kommandoen.
 
-![En Internett-tilkoblet termostat som mottar en kommando om å slå på oppvarmingen](../../../../../translated_images/no/commands.d6c06bbbb3a02cce95f2831a1c331daf6dedd4e470c4aa2b0ae54f332016e504.png)
+![En Internett-tilkoblet termostat som mottar en kommando om å slå på oppvarmingen](../../../../../translated_images/no/commands.d6c06bbbb3a02cce.webp)
 
 En termostat kan motta en kommando fra skyen om å slå på oppvarmingen. Basert på telemetridataene fra alle sensorene, hvis skytjenesten har bestemt at oppvarmingen skal være på, sender den den relevante kommandoen.
 

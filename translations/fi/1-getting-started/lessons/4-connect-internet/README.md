@@ -1,6 +1,6 @@
 # Yhdistä laitteesi Internetiin
 
-![Tämän oppitunnin sketchnote-yhteenveto](../../../../../translated_images/fi/lesson-4.7344e074ea68fa545fd320b12dce36d72dd62d28c3b4596cb26cf315f434b98f.jpg)
+![Tämän oppitunnin sketchnote-yhteenveto](../../../../../translated_images/fi/lesson-4.7344e074ea68fa54.webp)
 
 > Sketchnote: [Nitya Narasimhan](https://github.com/nitya). Klikkaa kuvaa nähdäksesi suuremman version.
 
@@ -47,7 +47,7 @@ MQTT on suosituin viestintäprotokolla IoT-laitteille, ja se käsitellään täs
 
 MQTT:ssä on yksi välittäjä ja useita asiakkaita. Kaikki asiakkaat yhdistyvät välittäjään, ja välittäjä ohjaa viestit oikeille asiakkaille. Viestit ohjataan nimettyjen aiheiden avulla, eikä niitä lähetetä suoraan yksittäiselle asiakkaalle. Asiakas voi julkaista aiheeseen, ja kaikki asiakkaat, jotka tilaavat kyseisen aiheen, saavat viestin.
 
-![IoT-laite julkaisee telemetriaa /telemetry-aiheessa, ja pilvipalvelu tilaa kyseisen aiheen](../../../../../translated_images/fi/mqtt.cbf7f21d9adc3e17548b359444cc11bb4bf2010543e32ece9a47becf54438c23.png)
+![IoT-laite julkaisee telemetriaa /telemetry-aiheessa, ja pilvipalvelu tilaa kyseisen aiheen](../../../../../translated_images/fi/mqtt.cbf7f21d9adc3e17.webp)
 
 ✅ Tee tutkimusta. Jos sinulla on paljon IoT-laitteita, miten voit varmistaa, että MQTT-välittäjäsi pystyy käsittelemään kaikki viestit?
 
@@ -69,7 +69,7 @@ Sen sijaan, että käsittelisit MQTT-välittäjän asettamisen monimutkaisuuksia
 
 > 💁 Tämä testivälittäjä on julkinen ja ei-suojattu. Kuka tahansa voi kuunnella, mitä julkaiset, joten sitä ei pitäisi käyttää yksityistä dataa sisältävien viestien kanssa.
 
-![Tehtävän vuokaavio, jossa valotasoja luetaan ja tarkistetaan, ja LEDiä ohjataan](../../../../../translated_images/fi/assignment-1-internet-flow.3256feab5f052fd273bf4e331157c574c2c3fa42e479836fc9c3586f41db35a5.png)
+![Tehtävän vuokaavio, jossa valotasoja luetaan ja tarkistetaan, ja LEDiä ohjataan](../../../../../translated_images/fi/assignment-1-internet-flow.3256feab5f052fd2.webp)
 
 Seuraa alla olevaa ohjetta yhdistääksesi laitteesi MQTT-välittäjään:
 
@@ -350,7 +350,7 @@ Koneille data kannattaa ehkä säilyttää, erityisesti jos sitä käytetään t
 
 IoT-laitteiden suunnittelijoiden tulisi myös harkita, voiko IoT-laite toimia Internet-katkoksen tai sijainnin aiheuttaman signaalin menetyksen aikana. Älykäs termostaatti pitäisi pystyä tekemään joitakin rajoitettuja päätöksiä lämmityksen ohjaamiseksi, jos se ei voi lähettää telemetriaa pilveen katkoksen vuoksi.
 
-[![Tämä Ferrari meni käyttökelvottomaksi, koska joku yritti päivittää sitä maan alla, missä ei ole matkapuhelinverkkoa](../../../../../translated_images/fi/bricked-car.dc38f8efadc6c59d76211f981a521efb300939283dee468f79503aae3ec67615.png)](https://twitter.com/internetofshit/status/1315736960082808832)
+[![Tämä Ferrari meni käyttökelvottomaksi, koska joku yritti päivittää sitä maan alla, missä ei ole matkapuhelinverkkoa](../../../../../translated_images/fi/bricked-car.dc38f8efadc6c59d.webp)](https://twitter.com/internetofshit/status/1315736960082808832)
 
 MQTT:n käsitelläkseen yhteyden katkeamista laitteen ja palvelinkoodin täytyy huolehtia viestien toimituksesta, jos se on tarpeen, esimerkiksi vaatimalla, että kaikki lähetetyt viestit saavat vastauksen lisäviesteillä vastausaiheessa, ja jos eivät, ne jonotetaan manuaalisesti toistettavaksi myöhemmin.
 
@@ -358,7 +358,7 @@ MQTT:n käsitelläkseen yhteyden katkeamista laitteen ja palvelinkoodin täytyy 
 
 Komennot ovat viestejä, jotka pilvi lähettää laitteelle, ohjeistaen sitä tekemään jotain. Useimmiten tämä tarkoittaa jonkinlaista ulostuloa aktuaattorin kautta, mutta se voi olla ohje laitteelle itselleen, kuten uudelleenkäynnistys tai lisätelemetrian kerääminen ja palauttaminen vastauksena komentoon.
 
-![Internet-yhteydessä oleva termostaatti vastaanottaa komennon lämmityksen kytkemiseksi päälle](../../../../../translated_images/fi/commands.d6c06bbbb3a02cce95f2831a1c331daf6dedd4e470c4aa2b0ae54f332016e504.png)
+![Internet-yhteydessä oleva termostaatti vastaanottaa komennon lämmityksen kytkemiseksi päälle](../../../../../translated_images/fi/commands.d6c06bbbb3a02cce.webp)
 
 Termostaatti voisi vastaanottaa pilvestä komennon kytkeä lämmitys päälle. Kaikkien antureiden telemetriatietojen perusteella pilvipalvelu on päättänyt, että lämmitys pitäisi olla päällä, joten se lähettää asiaankuuluvan komennon.
 

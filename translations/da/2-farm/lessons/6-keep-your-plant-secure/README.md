@@ -1,6 +1,6 @@
 # Hold din plante sikker
 
-![En sketchnote-oversigt over denne lektion](../../../../../translated_images/da/lesson-10.829c86b80b9403bb770929ee553a1d293afe50dc23121aaf9be144673ae012cc.jpg)
+![En sketchnote-oversigt over denne lektion](../../../../../translated_images/da/lesson-10.829c86b80b9403bb.webp)
 
 > Sketchnote af [Nitya Narasimhan](https://github.com/nitya). Klik på billedet for en større version.
 
@@ -52,11 +52,11 @@ Dette er scenarier fra den virkelige verden og sker hele tiden. Nogle eksempler 
 
 Når en enhed opretter forbindelse til en IoT-tjeneste, bruger den en ID til at identificere sig selv. Problemet er, at denne ID kan klones - en hacker kunne opsætte en ondsindet enhed, der bruger den samme ID som en rigtig enhed, men sender falske data.
 
-![Både gyldige og ondsindede enheder kunne bruge den samme ID til at sende telemetri](../../../../../translated_images/da/iot-device-and-hacked-device-connecting.e0671675df74d6d99eb1dedb5a670e606f698efa6202b1ad4c8ae548db299cc6.png)
+![Både gyldige og ondsindede enheder kunne bruge den samme ID til at sende telemetri](../../../../../translated_images/da/iot-device-and-hacked-device-connecting.e0671675df74d6d9.webp)
 
 Løsningen på dette er at konvertere de data, der sendes, til et krypteret format ved hjælp af en værdi, der kun er kendt af enheden og skyen. Denne proces kaldes *kryptering*, og værdien, der bruges til at kryptere dataene, kaldes en *krypteringsnøgle*.
 
-![Hvis kryptering bruges, accepteres kun krypterede meddelelser, andre afvises](../../../../../translated_images/da/iot-device-and-hacked-device-connecting-encryption.5941aff601fc978f979e46f2849b573564eeb4a4dc5b52f669f62745397492fb.png)
+![Hvis kryptering bruges, accepteres kun krypterede meddelelser, andre afvises](../../../../../translated_images/da/iot-device-and-hacked-device-connecting-encryption.5941aff601fc978f.webp)
 
 Skytjenesten kan derefter konvertere dataene tilbage til et læsbart format ved hjælp af en proces kaldet *dekryptering*, enten ved hjælp af den samme krypteringsnøgle eller en *dekrypteringsnøgle*. Hvis den krypterede meddelelse ikke kan dekrypteres med nøglen, er enheden blevet hacket, og meddelelsen afvises.
 

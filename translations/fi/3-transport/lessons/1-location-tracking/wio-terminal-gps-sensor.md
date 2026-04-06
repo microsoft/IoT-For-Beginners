@@ -18,7 +18,7 @@ Grove GPS -anturi voidaan liittää Wio Terminal -laitteeseen.
 
 Yhdistä GPS-anturi.
 
-![Grove GPS -anturi](../../../../../translated_images/fi/grove-gps-sensor.247943bf69b03f0d1820ef6ed10c587f9b650e8db55b936851c92412180bd3e2.png)
+![Grove GPS -anturi](../../../../../translated_images/fi/grove-gps-sensor.247943bf69b03f0d.webp)
 
 1. Työnnä Grove-kaapelin toinen pää GPS-anturin liittimeen. Se menee sisään vain yhdellä tavalla.
 

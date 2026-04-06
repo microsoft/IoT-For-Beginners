@@ -203,7 +203,7 @@ Toisena 'Hello World' -vaiheena käynnistät CounterFit-sovelluksen ja yhdistät
 
     Sovellus käynnistyy ja avautuu verkkoselaimessasi:
 
-    ![CounterFit-sovellus käynnissä selaimessa](../../../../../translated_images/fi/counterfit-first-run.433326358b669b31d0e99c3513cb01bfbb13724d162c99cdcc8f51ecf5f9c779.png)
+    ![CounterFit-sovellus käynnissä selaimessa](../../../../../translated_images/fi/counterfit-first-run.433326358b669b31.webp)
 
     Sovellus on merkitty *Disconnected*-tilaan, ja oikean yläkulman LED on sammutettu.
 
@@ -224,7 +224,7 @@ Toisena 'Hello World' -vaiheena käynnistät CounterFit-sovelluksen ja yhdistät
 
 1. Aja `app.py`-tiedosto uudessa terminaalissa kuten aiemmin. CounterFitin tila muuttuu **Connected**-tilaan ja LED syttyy.
 
-    ![CounterFit näyttää Connected-tilan](../../../../../translated_images/fi/counterfit-connected.ed30b46d8f79b0921f3fc70be10366e596a89dca3f80c2224a9d9fc98fccf884.png)
+    ![CounterFit näyttää Connected-tilan](../../../../../translated_images/fi/counterfit-connected.ed30b46d8f79b092.webp)
 
 > 💁 Löydät tämän koodin [code/virtual-device](../../../../../1-getting-started/lessons/1-introduction-to-iot/code/virtual-device) -kansiosta.
 
