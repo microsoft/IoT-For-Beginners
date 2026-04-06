@@ -1,6 +1,6 @@
 # Interagera med den fysiska världen med sensorer och aktuatorer
 
-![En sketchnote-översikt av denna lektion](../../../../../translated_images/sv/lesson-3.cc3b7b4cd646de598698cce043c0393fd62ef42bac2eaf60e61272cd844250f4.jpg)
+![En sketchnote-översikt av denna lektion](../../../../../translated_images/sv/lesson-3.cc3b7b4cd646de59.webp)
 
 > Sketchnote av [Nitya Narasimhan](https://github.com/nitya). Klicka på bilden för en större version.
 
@@ -92,7 +92,7 @@ Digitala sensorer, precis som analoga sensorer, upptäcker världen omkring dem 
 
 Den enklaste digitala sensorn är en knapp eller brytare. Detta är en sensor med två tillstånd, på eller av.
 
-![En knapp skickas 5 volt. När den inte är tryckt returnerar den 0 volt, när den är tryckt returnerar den 5 volt](../../../../../translated_images/sv/button.eadb560b77ac45e56f523d9d8876e40444f63b419e33eb820082d461fa79490b.png)
+![En knapp skickas 5 volt. När den inte är tryckt returnerar den 0 volt, när den är tryckt returnerar den 5 volt](../../../../../translated_images/sv/button.eadb560b77ac45e5.webp)
 
 Pinnar på IoT-enheter, såsom GPIO-pinnar, kan mäta denna signal direkt som en 0 eller 1. Om spänningen som skickas är densamma som spänningen som returneras, läses värdet som 1, annars läses värdet som 0. Det finns inget behov av att konvertera signalen, den kan bara vara 1 eller 0.
 
@@ -125,7 +125,7 @@ Några vanliga aktuatorer inkluderar:
 
 Följ den relevanta guiden nedan för att lägga till en aktuator till din IoT-enhet, styrd av sensorn, för att bygga en IoT-nattlampa. Den kommer att samla ljusnivåer från ljussensorn och använda en aktuator i form av en LED för att avge ljus när den upptäckta ljusnivån är för låg.
 
-![Ett flödesschema för uppgiften som visar ljusnivåer som läses och kontrolleras, och LED som styrs](../../../../../translated_images/sv/assignment-1-flow.7552a51acb1a5ec858dca6e855cdbb44206434006df8ba3799a25afcdab1665d.png)
+![Ett flödesschema för uppgiften som visar ljusnivåer som läses och kontrolleras, och LED som styrs](../../../../../translated_images/sv/assignment-1-flow.7552a51acb1a5ec8.webp)
 
 * [Arduino - Wio Terminal](wio-terminal-actuator.md)
 * [Enkortsdator - Raspberry Pi](pi-actuator.md)
@@ -140,7 +140,7 @@ Precis som sensorer är aktuatorer antingen analoga eller digitala.
 Analoga aktuatorer tar en analog signal och omvandlar den till någon form av interaktion, där interaktionen ändras baserat på den tillförda spänningen.
 
 Ett exempel är en dimbar lampa, såsom de du kanske har i ditt hem. Mängden spänning som tillförs lampan avgör hur starkt den lyser.
-![En lampa som är dimmad vid låg spänning och ljusare vid högre spänning](../../../../../translated_images/sv/dimmable-light.9ceffeb195dec1a849da718b2d71b32c35171ff7dfea9c07bbf82646a67acf6b.png)
+![En lampa som är dimmad vid låg spänning och ljusare vid högre spänning](../../../../../translated_images/sv/dimmable-light.9ceffeb195dec1a8.webp)
 
 Precis som med sensorer arbetar den faktiska IoT-enheten med digitala signaler, inte analoga. Detta innebär att för att skicka en analog signal behöver IoT-enheten en digital-till-analog-omvandlare (DAC), antingen direkt på IoT-enheten eller på en anslutningskort. Denna omvandlare konverterar 0:or och 1:or från IoT-enheten till en analog spänning som aktuatorn kan använda.
 
@@ -187,7 +187,7 @@ Digitala aktuatorer, precis som digitala sensorer, har antingen två tillstånd 
 
 En enkel digital aktuator är en LED. När en enhet skickar en digital signal med värdet 1 skickas en hög spänning som tänder LED-lampan. När en digital signal med värdet 0 skickas sjunker spänningen till 0V och LED-lampan släcks.
 
-![En LED är släckt vid 0 volt och tänd vid 5V](../../../../../translated_images/sv/led.ec6d94f66676a174ad06d9fa9ea49c2ee89beb18b312d5c6476467c66375b07f.png)
+![En LED är släckt vid 0 volt och tänd vid 5V](../../../../../translated_images/sv/led.ec6d94f66676a174.webp)
 
 ✅ Vilka andra enkla tvåtillståndsaktuatorer kan du komma på? Ett exempel är en solenoid, som är en elektromagnet som kan aktiveras för att göra saker som att flytta en dörrregel för att låsa/öppna en dörr.
 

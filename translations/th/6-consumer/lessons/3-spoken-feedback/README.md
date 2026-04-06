@@ -1,6 +1,6 @@
 # ตั้งเวลาและให้คำตอบด้วยเสียง
 
-![ภาพสเก็ตโน้ตสรุปบทเรียนนี้](../../../../../translated_images/th/lesson-23.f38483e1d4df4828990d3f02d60e46c978b075d384ae7cb4f7bab738e107c850.jpg)
+![ภาพสเก็ตโน้ตสรุปบทเรียนนี้](../../../../../translated_images/th/lesson-23.f38483e1d4df4828.webp)
 
 > สเก็ตโน้ตโดย [Nitya Narasimhan](https://github.com/nitya) คลิกที่ภาพเพื่อดูเวอร์ชันขนาดใหญ่
 

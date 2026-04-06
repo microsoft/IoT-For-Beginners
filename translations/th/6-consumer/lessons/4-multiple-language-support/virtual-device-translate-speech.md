@@ -37,7 +37,7 @@
     >
     > ตัวอย่างเช่น หากคุณฝึก LUIS เป็นภาษาอังกฤษ แต่ต้องการใช้ภาษาฝรั่งเศสเป็นภาษาผู้ใช้ คุณสามารถแปลประโยคเช่น "set a 2 minute and 27 second timer" จากภาษาอังกฤษเป็นภาษาฝรั่งเศสโดยใช้ Bing Translate จากนั้นใช้ปุ่ม **Listen translation** เพื่อพูดการแปลลงในไมโครโฟนของคุณ
     >
-    > ![ปุ่ม Listen translation บน Bing Translate](../../../../../translated_images/th/bing-translate.348aa796d6efe2a92f41ea74a5cf42bb4c63d6faaa08e7f46924e072a35daa48.png)
+    > ![ปุ่ม Listen translation บน Bing Translate](../../../../../translated_images/th/bing-translate.348aa796d6efe2a9.webp)
 
 1. แทนที่การประกาศ `recognizer_config` และ `recognizer` ด้วยโค้ดต่อไปนี้:
 

@@ -1,6 +1,6 @@
 # Migrera din växt till molnet
 
-![En sketchnote-översikt av denna lektion](../../../../../translated_images/sv/lesson-8.3f21f3c11159e6a0a376351973ea5724d5de68fa23b4288853a174bed9ac48c3.jpg)
+![En sketchnote-översikt av denna lektion](../../../../../translated_images/sv/lesson-8.3f21f3c11159e6a0.webp)
 
 > Sketchnote av [Nitya Narasimhan](https://github.com/nitya). Klicka på bilden för en större version.
 
@@ -46,8 +46,8 @@ Detta kunde vara mycket dyrt, kräva en bred kompetens hos anställda och vara m
 
 Molnet kallas ofta skämtsamt för "någon annans dator". Den ursprungliga idén var enkel - istället för att köpa datorer, hyr du någon annans dator. Någon annan, en molnleverantör, skulle hantera enorma datacenter. De skulle ansvara för att köpa och installera hårdvaran, hantera ström och kylning, nätverk, byggnadssäkerhet, hårdvaru- och mjukvaruuppdateringar, allt. Som kund hyr du de datorer du behöver, hyr fler när efterfrågan ökar och minskar antalet du hyr när efterfrågan sjunker. Dessa molndatacenter finns över hela världen.
 
-![Ett Microsoft-molndatacenter](../../../../../translated_images/sv/azure-region-existing.73f704604f2aa6cb9b5a49ed40e93d4fd81ae3f4e6af4a8ca504023902832f56.png)
-![Planerad expansion av ett Microsoft-molndatacenter](../../../../../translated_images/sv/azure-region-planned-expansion.a5074a1e8af74f156a73552d502429e5b126ea5019274d767ecb4b9afdad442b.png)
+![Ett Microsoft-molndatacenter](../../../../../translated_images/sv/azure-region-existing.73f704604f2aa6cb.webp)
+![Planerad expansion av ett Microsoft-molndatacenter](../../../../../translated_images/sv/azure-region-planned-expansion.a5074a1e8af74f15.webp)
 
 Dessa datacenter kan vara flera kvadratkilometer stora. Bilderna ovan togs för några år sedan vid ett Microsoft-molndatacenter och visar den ursprungliga storleken, tillsammans med en planerad expansion. Det område som röjts för expansionen är över 5 kvadratkilometer.
 
@@ -108,11 +108,11 @@ IoT-tjänster i molnet löser dessa problem. De underhålls av stora molnleveran
 
 IoT-enheter ansluter till en molntjänst antingen med hjälp av ett enhets-SDK (ett bibliotek som tillhandahåller kod för att arbeta med tjänstens funktioner) eller direkt via ett kommunikationsprotokoll som MQTT eller HTTP. Enhets-SDK är vanligtvis den enklaste vägen att ta eftersom det hanterar allt åt dig, såsom att veta vilka ämnen som ska publiceras eller prenumereras på och hur man hanterar säkerhet.
 
-![Enheter ansluter till en tjänst med hjälp av ett enhets-SDK. Serverkod ansluter också till tjänsten via ett SDK](../../../../../translated_images/sv/iot-service-connectivity.7e873847921a5d6fd60d0ba3a943210194518cee0d4e362476624316443275c3.png)
+![Enheter ansluter till en tjänst med hjälp av ett enhets-SDK. Serverkod ansluter också till tjänsten via ett SDK](../../../../../translated_images/sv/iot-service-connectivity.7e873847921a5d6f.webp)
 
 Din enhet kommunicerar sedan med andra delar av din applikation via denna tjänst - liknande hur du skickade telemetri och tog emot kommandon via MQTT. Detta görs vanligtvis med hjälp av ett tjänst-SDK eller ett liknande bibliotek. Meddelanden kommer från din enhet till tjänsten där andra komponenter i din applikation kan läsa dem, och meddelanden kan sedan skickas tillbaka till din enhet.
 
-![Enheter utan en giltig hemlig nyckel kan inte ansluta till IoT-tjänsten](../../../../../translated_images/sv/iot-service-allowed-denied-connection.818b0063ac213fb84204a7229303764d9b467ca430fb822b4ac2fca267d56726.png)
+![Enheter utan en giltig hemlig nyckel kan inte ansluta till IoT-tjänsten](../../../../../translated_images/sv/iot-service-allowed-denied-connection.818b0063ac213fb8.webp)
 
 Dessa tjänster implementerar säkerhet genom att känna till alla enheter som kan ansluta och skicka data, antingen genom att ha enheterna förregistrerade med tjänsten eller genom att ge enheterna hemliga nycklar eller certifikat som de kan använda för att registrera sig själva med tjänsten första gången de ansluter. Okända enheter kan inte ansluta; om de försöker avvisar tjänsten anslutningen och ignorerar meddelanden som skickas av dem.
 
@@ -124,7 +124,7 @@ Andra komponenter i din applikation kan ansluta till IoT-tjänsten och få infor
 
 Nu när du har en Azure-prenumeration kan du registrera dig för en IoT-tjänst. IoT-tjänsten från Microsoft kallas Azure IoT Hub.
 
-![Azure IoT Hub-logotypen](../../../../../translated_images/sv/azure-iot-hub-logo.28a19de76d0a1932464d858f7558712bcdace3e5ec69c434d482ed7ce41c3a26.png)
+![Azure IoT Hub-logotypen](../../../../../translated_images/sv/azure-iot-hub-logo.28a19de76d0a1932.webp)
 
 Videon nedan ger en kort översikt av Azure IoT Hub:
 

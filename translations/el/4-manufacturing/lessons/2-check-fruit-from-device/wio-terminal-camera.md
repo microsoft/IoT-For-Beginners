@@ -16,7 +16,7 @@
 
 Συνδέστε την κάμερα.
 
-![Ένας αισθητήρας ArduCam](../../../../../translated_images/el/arducam.20e4e4cbb268296570b5914e20d6c349fc42ddac9ed4e1b9deba2188204eebae.png)
+![Ένας αισθητήρας ArduCam](../../../../../translated_images/el/arducam.20e4e4cbb2682965.webp)
 
 1. Οι ακίδες στη βάση της ArduCam πρέπει να συνδεθούν στις ακίδες GPIO του Wio Terminal. Για να διευκολυνθεί η εύρεση των σωστών ακίδων, τοποθετήστε το αυτοκόλλητο ακίδων GPIO που συνοδεύει το Wio Terminal γύρω από τις ακίδες:
 
@@ -35,7 +35,7 @@
     | SDA           | 3 (I2C1_SDA)       | Σειριακά Δεδομένα I2C                    |
     | SCL           | 5 (I2C1_SCL)       | Σειριακό Ρολόι I2C                       |
 
-    ![Το Wio Terminal συνδεδεμένο με την ArduCam με καλώδια jumper](../../../../../translated_images/el/arducam-wio-terminal-connections.a4d5a4049bdb5ab800a2877389fc6ecf5e4ff307e6451ff56c517e6786467d0a.png)
+    ![Το Wio Terminal συνδεδεμένο με την ArduCam με καλώδια jumper](../../../../../translated_images/el/arducam-wio-terminal-connections.a4d5a4049bdb5ab8.webp)
 
     Οι συνδέσεις GND και VCC παρέχουν τροφοδοσία 5V στην ArduCam. Λειτουργεί στα 5V, σε αντίθεση με τους αισθητήρες Grove που λειτουργούν στα 3V. Αυτή η τροφοδοσία προέρχεται απευθείας από τη σύνδεση USB-C που τροφοδοτεί τη συσκευή.
 

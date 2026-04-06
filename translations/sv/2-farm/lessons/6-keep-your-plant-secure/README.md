@@ -1,6 +1,6 @@
 # Håll din växt säker
 
-![En sketchnote-översikt av denna lektion](../../../../../translated_images/sv/lesson-10.829c86b80b9403bb770929ee553a1d293afe50dc23121aaf9be144673ae012cc.jpg)
+![En sketchnote-översikt av denna lektion](../../../../../translated_images/sv/lesson-10.829c86b80b9403bb.webp)
 
 > Sketchnote av [Nitya Narasimhan](https://github.com/nitya). Klicka på bilden för en större version.
 
@@ -52,11 +52,11 @@ Dessa är verkliga scenarier och händer hela tiden. Några exempel gavs i tidig
 
 När en enhet ansluter till en IoT-tjänst använder den en ID för att identifiera sig. Problemet är att detta ID kan klonas – en hackare kan sätta upp en skadlig enhet som använder samma ID som en riktig enhet men skickar falska data.
 
-![Både giltiga och skadliga enheter kan använda samma ID för att skicka telemetri](../../../../../translated_images/sv/iot-device-and-hacked-device-connecting.e0671675df74d6d99eb1dedb5a670e606f698efa6202b1ad4c8ae548db299cc6.png)
+![Både giltiga och skadliga enheter kan använda samma ID för att skicka telemetri](../../../../../translated_images/sv/iot-device-and-hacked-device-connecting.e0671675df74d6d9.webp)
 
 Lösningen på detta är att konvertera den data som skickas till ett krypterat format, med hjälp av ett värde som endast är känt av enheten och molnet. Denna process kallas *kryptering*, och värdet som används för att kryptera data kallas en *krypteringsnyckel*.
 
-![Om kryptering används kommer endast krypterade meddelanden att accepteras, andra kommer att avvisas](../../../../../translated_images/sv/iot-device-and-hacked-device-connecting-encryption.5941aff601fc978f979e46f2849b573564eeb4a4dc5b52f669f62745397492fb.png)
+![Om kryptering används kommer endast krypterade meddelanden att accepteras, andra kommer att avvisas](../../../../../translated_images/sv/iot-device-and-hacked-device-connecting-encryption.5941aff601fc978f.webp)
 
 Molntjänsten kan sedan konvertera data tillbaka till ett läsbart format, med en process som kallas *dekryptering*, med antingen samma krypteringsnyckel eller en *dekrypteringsnyckel*. Om det krypterade meddelandet inte kan dekrypteras med nyckeln har enheten blivit hackad och meddelandet avvisas.
 

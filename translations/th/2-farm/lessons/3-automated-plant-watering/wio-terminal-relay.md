@@ -18,7 +18,7 @@ Wio Terminal ต้องการรีเลย์
 
 เชื่อมต่อรีเลย์
 
-![รีเลย์ Grove](../../../../../translated_images/th/grove-relay.d426958ca210fbd0fb7983d7edc069d46c73a8b0a099d94797bd756f7b6bb6be.png)
+![รีเลย์ Grove](../../../../../translated_images/th/grove-relay.d426958ca210fbd0.webp)
 
 1. เสียบปลายด้านหนึ่งของสาย Grove เข้ากับซ็อกเก็ตบนรีเลย์ สายจะเสียบได้เพียงด้านเดียว
 

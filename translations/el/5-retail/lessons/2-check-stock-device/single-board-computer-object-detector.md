@@ -67,7 +67,7 @@
 
     Θα μπορείτε να δείτε την εικόνα που τραβήχτηκε και αυτές τις τιμές στην καρτέλα **Predictions** στο Custom Vision.
 
-    ![4 κονσέρβες τοματοπολτού σε ένα ράφι με προβλέψεις για τις 4 ανιχνεύσεις: 35.8%, 33.5%, 25.7% και 16.6%](../../../../../translated_images/el/custom-vision-stock-prediction.942266ab1bcca3410ecdf23643b9f5f570cfab2345235074e24c51f285777613.png)
+    ![4 κονσέρβες τοματοπολτού σε ένα ράφι με προβλέψεις για τις 4 ανιχνεύσεις: 35.8%, 33.5%, 25.7% και 16.6%](../../../../../translated_images/el/custom-vision-stock-prediction.942266ab1bcca341.webp)
 
 > 💁 Μπορείτε να βρείτε αυτόν τον κώδικα στον φάκελο [code-detect/pi](../../../../../5-retail/lessons/2-check-stock-device/code-detect/pi) ή [code-detect/virtual-iot-device](../../../../../5-retail/lessons/2-check-stock-device/code-detect/virtual-iot-device).
 

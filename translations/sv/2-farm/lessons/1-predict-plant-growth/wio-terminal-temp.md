@@ -18,7 +18,7 @@ Grove-temperatursensorn kan anslutas till Wio Terminals digitala port.
 
 Anslut temperatursensorn.
 
-![En Grove-temperatursensor](../../../../../translated_images/sv/grove-dht11.07f8eafceee170043efbb53e1d15722bd4e00fbaa9ff74290b57e9f66eb82c17.png)
+![En Grove-temperatursensor](../../../../../translated_images/sv/grove-dht11.07f8eafceee17004.webp)
 
 1. Sätt ena änden av en Grove-kabel i uttaget på fukt- och temperatursensorn. Den går bara att sätta i på ett sätt.
 

@@ -1,6 +1,6 @@
 ## Προβλέψτε την ανάπτυξη φυτών με IoT
 
-![Μια σκίτσα που συνοψίζει το μάθημα](../../../../../translated_images/el/lesson-5.42b234299279d263143148b88ab4583861a32ddb03110c6c1120e41bb88b2592.jpg)
+![Μια σκίτσα που συνοψίζει το μάθημα](../../../../../translated_images/el/lesson-5.42b234299279d263.webp)
 
 > Σκίτσα από τη [Nitya Narasimhan](https://github.com/nitya). Κάντε κλικ στην εικόνα για μεγαλύτερη έκδοση.
 
@@ -90,7 +90,7 @@
 
 Η πλήρης φόρμουλα για GDD είναι λίγο περίπλοκη, αλλά υπάρχει μια απλοποιημένη εξίσωση που χρησιμοποιείται συχνά ως καλή προσέγγιση:
 
-![GDD = T max + T min divided by 2, all minus T base](../../../../../translated_images/el/gdd-calculation.79b3660f9c5757aa92dc2dd2cdde75344e2d2c1565c4b3151640f7887edc0275.png)
+![GDD = T max + T min divided by 2, all minus T base](../../../../../translated_images/el/gdd-calculation.79b3660f9c5757aa.webp)
 
 * **GDD** - αυτός είναι ο αριθμός των ημερών βαθμών ανάπτυξης
 * **T max** - αυτή είναι η μέγιστη ημερήσια θερμοκρασία σε βαθμούς Κελσίου
@@ -118,7 +118,7 @@
 
 Αυτό δίνει τον υπολογισμό:
 
-![GDD = 16 + 12 divided by 2, all minus 10, giving an answer of 4](../../../../../translated_images/el/gdd-calculation-corn.64a58b7a7afcd0dfd46ff733996d939f17f4f3feac9f0d1c632be3523e51ebd9.png)
+![GDD = 16 + 12 divided by 2, all minus 10, giving an answer of 4](../../../../../translated_images/el/gdd-calculation-corn.64a58b7a7afcd0df.webp)
 
 Το καλαμπόκι έλαβε 4 GDD εκείνη την ημέρα. Υποθέτοντας μια ποικιλία καλαμποκιού που χρειάζεται 800 GDD για να ωριμάσει, θα χρειαστεί άλλες 796 GDD για να φτάσει στην ωριμότητα.
 
@@ -176,7 +176,7 @@
 
 Για παράδειγμα, αν η υψηλότερη θερμοκρασία της ημέρας είναι 25°C και η χαμηλότερη είναι 12°C:
 
-![GDD = 25 + 12 διαιρούμενο με το 2, και μετά αφαιρούμε 10 από το αποτέλεσμα, δίνοντας 8.5](../../../../../translated_images/el/gdd-calculation-strawberries.59f57db94b22adb8ff6efb951ace33af104a1c6ccca3ffb0f8169c14cb160c90.png)
+![GDD = 25 + 12 διαιρούμενο με το 2, και μετά αφαιρούμε 10 από το αποτέλεσμα, δίνοντας 8.5](../../../../../translated_images/el/gdd-calculation-strawberries.59f57db94b22adb8.webp)
 
 * 25 + 12 = 37
 * 37 / 2 = 18.5

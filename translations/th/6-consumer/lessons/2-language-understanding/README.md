@@ -1,6 +1,6 @@
 # เข้าใจภาษา
 
-![ภาพรวมของบทเรียนนี้ในรูปแบบ Sketchnote](../../../../../translated_images/th/lesson-22.6148ea28500d9e00c396aaa2649935fb6641362c8f03d8e5e90a676977ab01dd.jpg)
+![ภาพรวมของบทเรียนนี้ในรูปแบบ Sketchnote](../../../../../translated_images/th/lesson-22.6148ea28500d9e00.webp)
 
 > Sketchnote โดย [Nitya Narasimhan](https://github.com/nitya) คลิกที่ภาพเพื่อดูเวอร์ชันขนาดใหญ่ขึ้น
 
@@ -46,7 +46,7 @@
 
 ## สร้างโมเดลการเข้าใจภาษา
 
-![โลโก้ LUIS](../../../../../translated_images/th/luis-logo.5cb4f3e88c020ee6df4f614e8831f4a4b6809a7247bf52085fb48d629ef9be52.png)
+![โลโก้ LUIS](../../../../../translated_images/th/luis-logo.5cb4f3e88c020ee6.webp)
 
 คุณสามารถสร้างโมเดลการเข้าใจภาษาโดยใช้ LUIS ซึ่งเป็นบริการการเข้าใจภาษาจาก Microsoft ที่เป็นส่วนหนึ่งของ Cognitive Services
 
@@ -169,7 +169,7 @@
 
 1. เมื่อคุณป้อนตัวอย่างแต่ละตัวอย่าง LUIS จะเริ่มตรวจจับเอนทิตี และจะขีดเส้นใต้และติดป้ายกำกับที่พบ
 
-    ![ตัวอย่างที่มีตัวเลขและหน่วยเวลาถูกขีดเส้นใต้โดย LUIS](../../../../../translated_images/th/luis-intent-examples.25716580b2d2723cf1bafdf277d015c7f046d8cfa20f27bddf3a0873ec45fab7.png)
+    ![ตัวอย่างที่มีตัวเลขและหน่วยเวลาถูกขีดเส้นใต้โดย LUIS](../../../../../translated_images/th/luis-intent-examples.25716580b2d2723c.webp)
 
 ### งาน - ฝึกฝนและทดสอบโมเดล
 

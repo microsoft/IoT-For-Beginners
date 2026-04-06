@@ -1,6 +1,6 @@
 # Stöd för flera språk
 
-![En sketchnote-översikt av denna lektion](../../../../../translated_images/sv/lesson-24.4246968ed058510ab275052e87ef9aa89c7b2f938915d103c605c04dc6cd5bb7.jpg)
+![En sketchnote-översikt av denna lektion](../../../../../translated_images/sv/lesson-24.4246968ed058510a.webp)
 
 > Sketchnote av [Nitya Narasimhan](https://github.com/nitya). Klicka på bilden för en större version.
 
@@ -74,7 +74,7 @@ Det finns ett antal AI-tjänster som kan användas från dina applikationer för
 
 ### Cognitive services Speech service
 
-![Logotypen för tal-tjänsten](../../../../../translated_images/sv/azure-speech-logo.a1f08c4befb0159f2cb5d692d3baf5b599e7b44759d316da907bda1508f46a4a.png)
+![Logotypen för tal-tjänsten](../../../../../translated_images/sv/azure-speech-logo.a1f08c4befb0159f.webp)
 
 Tal-tjänsten som du har använt under de senaste lektionerna har översättningsmöjligheter för taligenkänning. När du känner igen tal kan du begära inte bara texten av talet på samma språk, utan också på andra språk.
 
@@ -82,7 +82,7 @@ Tal-tjänsten som du har använt under de senaste lektionerna har översättning
 
 ### Cognitive services Translator service
 
-![Logotypen för översättningstjänsten](../../../../../translated_images/sv/azure-translator-logo.c6ed3a4a433edfd2f11577eca105412c50b8396b194cbbd730723dd1d0793bcd.png)
+![Logotypen för översättningstjänsten](../../../../../translated_images/sv/azure-translator-logo.c6ed3a4a433edfd2.webp)
 
 Översättningstjänsten är en dedikerad översättningstjänst som kan översätta text från ett språk till ett eller flera målspråk. Förutom att översätta stöder den ett brett utbud av extra funktioner, inklusive att maskera svordomar. Den låter dig också ange en specifik översättning för ett visst ord eller en mening, för att hantera termer du inte vill översätta eller har en specifik välkänd översättning.
 

@@ -26,7 +26,7 @@ Otherwise
 
 Συνδέστε το LED.
 
-![Ένα Grove LED](../../../../../translated_images/el/grove-led.6c853be93f473cf2c439cfc74bb1064732b22251a83cedf66e62f783f9cc1a79.png)
+![Ένα Grove LED](../../../../../translated_images/el/grove-led.6c853be93f473cf2.webp)
 
 1. Επιλέξτε το αγαπημένο σας LED και εισάγετε τα ποδαράκια του στις δύο τρύπες της μονάδας LED.
 

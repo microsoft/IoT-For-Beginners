@@ -1,6 +1,6 @@
 # Visualisera platsdata
 
-![En sketchnote-översikt av denna lektion](../../../../../translated_images/sv/lesson-13.a259db1485021be7d7c72e90842fbe0ab977529e8684c179b5fb1ea75e92b3ef.jpg)
+![En sketchnote-översikt av denna lektion](../../../../../translated_images/sv/lesson-13.a259db1485021be7.webp)
 
 > Sketchnote av [Nitya Narasimhan](https://github.com/nitya). Klicka på bilden för en större version.
 
@@ -64,11 +64,11 @@ Ta ett enkelt exempel – i gårdsprojektet samlade du in data om jordfuktighet.
 
 Som människa kan det vara svårt att förstå denna data. Det är en vägg av siffror utan någon tydlig mening. Som ett första steg för att visualisera denna data kan den plottas i ett linjediagram:
 
-![Ett linjediagram av ovanstående data](../../../../../translated_images/sv/chart-soil-moisture.fd6d9d0cdc0b5f75e78038ecb8945dfc84b38851359de99d84b16e3336d6d7c2.png)
+![Ett linjediagram av ovanstående data](../../../../../translated_images/sv/chart-soil-moisture.fd6d9d0cdc0b5f75.webp)
 
 Detta kan förbättras ytterligare genom att lägga till en linje som visar när det automatiska bevattningssystemet aktiverades vid en jordfuktighetsavläsning på 450:
 
-![Ett linjediagram av jordfuktighet med en linje vid 450](../../../../../translated_images/sv/chart-soil-moisture-relay.fbb391236d34a64d0abf1df396e9197e0a24df14150620b9cc820a64a55c9326.png)
+![Ett linjediagram av jordfuktighet med en linje vid 450](../../../../../translated_images/sv/chart-soil-moisture-relay.fbb391236d34a64d.webp)
 
 Detta diagram visar snabbt inte bara vad jordfuktighetsnivåerna var, utan också de punkter där bevattningssystemet aktiverades.
 
@@ -84,7 +84,7 @@ När du arbetar med GPS-data kan den tydligaste visualiseringen vara att plotta 
 
 Att arbeta med kartor är en intressant övning, och det finns många att välja mellan, såsom Bing Maps, Leaflet, Open Street Maps och Google Maps. I denna lektion kommer du att lära dig om [Azure Maps](https://azure.microsoft.com/services/azure-maps/?WT.mc_id=academic-17441-jabenn) och hur de kan visa din GPS-data.
 
-![Azure Maps-logotypen](../../../../../translated_images/sv/azure-maps-logo.35d01dcfbd81fe6140e94257aaa1538f785a58c91576d14e0ebe7a2f6c694b99.png)
+![Azure Maps-logotypen](../../../../../translated_images/sv/azure-maps-logo.35d01dcfbd81fe61.webp)
 
 Azure Maps är "en samling geospatiala tjänster och SDK:er som använder färska kartdata för att ge geografisk kontext till webb- och mobilapplikationer." Utvecklare får verktyg för att skapa vackra, interaktiva kartor som kan göra saker som att ge rekommenderade trafikvägar, ge information om trafikincidenter, inomhusnavigering, sökfunktioner, höjdinformation, vädertjänster och mer.
 
@@ -185,7 +185,7 @@ Nu kan du ta nästa steg, vilket är att visa din karta på en webbsida. Vi komm
 
     Om du öppnar din `index.html`-sida i en webbläsare bör du se en karta laddad och fokuserad på Seattle-området.
 
-    ![En karta som visar Seattle, en stad i delstaten Washington, USA](../../../../../translated_images/sv/map-image.8fb2c53eb23ef39c1c0a4410a5282e879b3b452b707eb066ff04c5488d3d72b7.png)
+    ![En karta som visar Seattle, en stad i delstaten Washington, USA](../../../../../translated_images/sv/map-image.8fb2c53eb23ef39c.webp)
 
     ✅ Experimentera med zoom- och centerparametrarna för att ändra kartans visning. Du kan lägga till olika koordinater som motsvarar din datas latitud och longitud för att centrera om kartan.
 
@@ -319,7 +319,7 @@ Om du gör ett anrop till din lagring för att hämta data kan du bli förvånad
 
 1. Ladda HTML-sidan i din webbläsare. Den kommer att ladda kartan, sedan ladda all GPS-data från lagringen och plotta den på kartan.
 
-    ![En karta över Saint Edward State Park nära Seattle, med cirklar som visar en väg runt parkens kant](../../../../../translated_images/sv/map-path.896832e72dc696ffe20650e4051027d4855442d955f93fdbb80bb417ca8a406f.png)
+    ![En karta över Saint Edward State Park nära Seattle, med cirklar som visar en väg runt parkens kant](../../../../../translated_images/sv/map-path.896832e72dc696ff.webp)
 
 > 💁 Du kan hitta denna kod i [code](../../../../../3-transport/lessons/3-visualize-location-data/code)-mappen.
 

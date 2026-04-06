@@ -1,6 +1,6 @@
 # Platsspårning
 
-![En sketchnote-översikt av denna lektion](../../../../../translated_images/sv/lesson-11.9fddbac4b664c6d50ab7ac9bb32f1fc3f945f03760e72f7f43938073762fb017.jpg)
+![En sketchnote-översikt av denna lektion](../../../../../translated_images/sv/lesson-11.9fddbac4b664c6d5.webp)
 
 > Sketchnote av [Nitya Narasimhan](https://github.com/nitya). Klicka på bilden för en större version.
 
@@ -63,13 +63,13 @@ Jorden är en sfär – en tredimensionell cirkel. På grund av detta definieras
 
 > 💁 Ingen vet riktigt varför cirklar delas in i 360 grader. [Wikipedia-sidan om grader (vinkel)](https://wikipedia.org/wiki/Degree_(angle)) täcker några av de möjliga anledningarna.
 
-![Latitudlinjer från 90° vid Nordpolen, 45° halvvägs mellan Nordpolen och ekvatorn, 0° vid ekvatorn, -45° halvvägs mellan ekvatorn och Sydpolen och -90° vid Sydpolen](../../../../../translated_images/sv/latitude-lines.11d8d91dfb2014a57437272d7db7fd6607243098e8685f06e0c5f1ec984cb7eb.png)
+![Latitudlinjer från 90° vid Nordpolen, 45° halvvägs mellan Nordpolen och ekvatorn, 0° vid ekvatorn, -45° halvvägs mellan ekvatorn och Sydpolen och -90° vid Sydpolen](../../../../../translated_images/sv/latitude-lines.11d8d91dfb2014a5.webp)
 
 Latitud mäts med linjer som cirklar jorden och löper parallellt med ekvatorn, vilket delar norra och södra halvkloten i 90° vardera. Ekvatorn är vid 0°, Nordpolen är vid 90°, även känd som 90° nordlig, och Sydpolen är vid -90°, eller 90° sydlig.
 
 Longitud mäts som antalet grader öster och väster. 0°-ursprunget för longitud kallas *nollmeridianen* och definierades 1884 som en linje från Nordpolen till Sydpolen som går genom [British Royal Observatory i Greenwich, England](https://wikipedia.org/wiki/Royal_Observatory,_Greenwich).
 
-![Longitudlinjer som går från -180° väster om nollmeridianen, till 0° på nollmeridianen, till 180° öster om nollmeridianen](../../../../../translated_images/sv/longitude-meridians.ab4ef1c91c064586b0185a3c8d39e585903696c6a7d28c098a93a629cddb5d20.png)
+![Longitudlinjer som går från -180° väster om nollmeridianen, till 0° på nollmeridianen, till 180° öster om nollmeridianen](../../../../../translated_images/sv/longitude-meridians.ab4ef1c91c064586.webp)
 
 > 🎓 En meridian är en tänkt rak linje som går från Nordpolen till Sydpolen och bildar en halvcirkel.
 
@@ -100,7 +100,7 @@ Koordinater för en punkt anges alltid som `latitud, longitud`, så exemplet tid
 * En latitud på 47.6423109 (47.6423109 grader norr om ekvatorn)
 * En longitud på -122.1390293 (122.1390293 grader väster om nollmeridianen).
 
-![Microsofts campus på 47.6423109,-122.117198](../../../../../translated_images/sv/microsoft-gps-location-world.a321d481b010f6adfcca139b2ba0adc53b79f58a540495b8e2ce7f779ea64bfe.png)
+![Microsofts campus på 47.6423109,-122.117198](../../../../../translated_images/sv/microsoft-gps-location-world.a321d481b010f6ad.webp)
 
 ## Global Positioning Systems (GPS)
 
@@ -112,7 +112,7 @@ GPS-system fungerar genom att ha ett antal satelliter som skickar en signal med 
 
 > 💁 GPS-sensorer behöver antenner för att upptäcka radiovågor. Antennerna som är inbyggda i lastbilar och bilar med inbyggd GPS är placerade för att få en bra signal, vanligtvis på vindrutan eller taket. Om du använder ett separat GPS-system, som en smartphone eller en IoT-enhet, måste du se till att antennen som är inbyggd i GPS-systemet eller telefonen har fri sikt mot himlen, till exempel genom att monteras på vindrutan.
 
-![Genom att veta avståndet från sensorn till flera satelliter kan platsen beräknas](../../../../../translated_images/sv/gps-satellites.04acf1148fe25fbf1586bc2e8ba698e8d79b79a50c36824b38417dd13372b90f.png)
+![Genom att veta avståndet från sensorn till flera satelliter kan platsen beräknas](../../../../../translated_images/sv/gps-satellites.04acf1148fe25fbf.webp)
 
 GPS-satelliter kretsar runt jorden och är inte på en fast punkt ovanför sensorn, så platsdata inkluderar höjd över havet samt latitud och longitud.
 

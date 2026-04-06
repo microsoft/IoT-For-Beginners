@@ -20,7 +20,7 @@
 
 Συνδέστε τον αισθητήρα Time of Flight.
 
-![Ένας αισθητήρας Grove Time of Flight](../../../../../translated_images/el/grove-time-of-flight-sensor.d82ff2165bfded9f485de54d8d07195a6270a602696825fca19f629ddfe94e86.png)
+![Ένας αισθητήρας Grove Time of Flight](../../../../../translated_images/el/grove-time-of-flight-sensor.d82ff2165bfded9f.webp)
 
 1. Εισάγετε το ένα άκρο ενός καλωδίου Grove στην υποδοχή του αισθητήρα Time of Flight. Θα μπει μόνο με έναν συγκεκριμένο τρόπο.
 

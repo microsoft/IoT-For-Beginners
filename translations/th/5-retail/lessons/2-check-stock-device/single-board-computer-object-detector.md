@@ -67,7 +67,7 @@
 
     คุณจะสามารถเห็นภาพที่ถูกจับ และค่าต่าง ๆ เหล่านี้ในแท็บ **Predictions** ใน Custom Vision
 
-    ![กระป๋องซอสมะเขือเทศ 4 กระป๋องบนชั้นวาง พร้อมการคาดการณ์สำหรับการตรวจจับ 4 รายการที่ 35.8%, 33.5%, 25.7% และ 16.6%](../../../../../translated_images/th/custom-vision-stock-prediction.942266ab1bcca3410ecdf23643b9f5f570cfab2345235074e24c51f285777613.png)
+    ![กระป๋องซอสมะเขือเทศ 4 กระป๋องบนชั้นวาง พร้อมการคาดการณ์สำหรับการตรวจจับ 4 รายการที่ 35.8%, 33.5%, 25.7% และ 16.6%](../../../../../translated_images/th/custom-vision-stock-prediction.942266ab1bcca341.webp)
 
 > 💁 คุณสามารถค้นหาโค้ดนี้ได้ในโฟลเดอร์ [code-detect/pi](../../../../../5-retail/lessons/2-check-stock-device/code-detect/pi) หรือ [code-detect/virtual-iot-device](../../../../../5-retail/lessons/2-check-stock-device/code-detect/virtual-iot-device)
 

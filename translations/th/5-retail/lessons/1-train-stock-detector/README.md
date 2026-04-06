@@ -1,6 +1,6 @@
 # ฝึกสร้างตัวตรวจจับสินค้าในสต็อก
 
-![ภาพรวมของบทเรียนนี้ในรูปแบบสเก็ตโน้ต](../../../../../translated_images/th/lesson-19.cf6973cecadf080c4b526310620dc4d6f5994c80fb0139c6f378cc9ca2d435cd.jpg)
+![ภาพรวมของบทเรียนนี้ในรูปแบบสเก็ตโน้ต](../../../../../translated_images/th/lesson-19.cf6973cecadf080c.webp)
 
 > สเก็ตโน้ตโดย [Nitya Narasimhan](https://github.com/nitya) คลิกที่ภาพเพื่อดูเวอร์ชันขนาดใหญ่
 
@@ -36,7 +36,7 @@
 
 การจำแนกภาพเกี่ยวกับการจำแนกภาพทั้งหมด - ความน่าจะเป็นที่ภาพทั้งหมดจะตรงกับแต่ละแท็ก คุณจะได้รับค่าความน่าจะเป็นสำหรับทุกแท็กที่ใช้ฝึกโมเดล
 
-![การจำแนกภาพของเม็ดมะม่วงหิมพานต์และมะเขือเทศบด](../../../../../translated_images/th/image-classifier-cashews-tomato.bc2e16ab8f05cf9ac0f59f73e32efc4227f9a5b601b90b2c60f436694547a965.png)
+![การจำแนกภาพของเม็ดมะม่วงหิมพานต์และมะเขือเทศบด](../../../../../translated_images/th/image-classifier-cashews-tomato.bc2e16ab8f05cf9a.webp)
 
 ในตัวอย่างด้านบน มีการจำแนกภาพสองภาพโดยใช้โมเดลที่ฝึกเพื่อจำแนกกระปุกเม็ดมะม่วงหิมพานต์หรือกระป๋องมะเขือเทศบด ภาพแรกเป็นกระปุกเม็ดมะม่วงหิมพานต์ และมีผลลัพธ์ดังนี้:
 
@@ -60,7 +60,7 @@
 
 > 🎓 *กรอบสี่เหลี่ยม* คือกรอบรอบวัตถุ
 
-![การตรวจจับวัตถุของเม็ดมะม่วงหิมพานต์และมะเขือเทศบด](../../../../../translated_images/th/object-detector-cashews-tomato.1af7c26686b4db0e709754aeb196f4e73271f54e2085db3bcccb70d4a0d84d97.png)
+![การตรวจจับวัตถุของเม็ดมะม่วงหิมพานต์และมะเขือเทศบด](../../../../../translated_images/th/object-detector-cashews-tomato.1af7c26686b4db0e.webp)
 
 ภาพด้านบนมีทั้งกระปุกเม็ดมะม่วงหิมพานต์และกระป๋องมะเขือเทศบดสามกระป๋อง ตัวตรวจจับวัตถุตรวจจับเม็ดมะม่วงหิมพานต์ โดยคืนกรอบสี่เหลี่ยมที่มีเม็ดมะม่วงหิมพานต์พร้อมเปอร์เซ็นต์ความน่าจะเป็นที่กรอบสี่เหลี่ยมมีวัตถุ ในกรณีนี้คือ 97.6% ตัวตรวจจับวัตถุยังตรวจจับกระป๋องมะเขือเทศบดสามกระป๋อง และให้กรอบสี่เหลี่ยมแยกกันสามกรอบสำหรับแต่ละกระป๋องที่ตรวจจับได้ และแต่ละกรอบมีเปอร์เซ็นต์ความน่าจะเป็นที่กรอบสี่เหลี่ยมมีกระป๋องมะเขือเทศบด
 
@@ -111,7 +111,7 @@
 
     เมื่อคุณสร้างโปรเจกต์ของคุณ ตรวจสอบให้แน่ใจว่าได้ใช้ทรัพยากร `stock-detector-training` ที่คุณสร้างไว้ก่อนหน้านี้ ใช้ประเภทโปรเจกต์ *Object Detection* และโดเมน *Products on Shelves*
 
-    ![การตั้งค่าของโปรเจกต์ Custom Vision โดยตั้งชื่อเป็น fruit-quality-detector ไม่มีคำอธิบาย ทรัพยากรตั้งเป็น fruit-quality-detector-training ประเภทโปรเจกต์ตั้งเป็น classification ประเภทการจำแนกตั้งเป็น multi class และโดเมนตั้งเป็น food](../../../../../translated_images/th/custom-vision-create-object-detector-project.32d4fb9aa8e7e7375f8a799bfce517aca970f2cb65e42d4245c5e635c734ab29.png)
+    ![การตั้งค่าของโปรเจกต์ Custom Vision โดยตั้งชื่อเป็น fruit-quality-detector ไม่มีคำอธิบาย ทรัพยากรตั้งเป็น fruit-quality-detector-training ประเภทโปรเจกต์ตั้งเป็น classification ประเภทการจำแนกตั้งเป็น multi class และโดเมนตั้งเป็น food](../../../../../translated_images/th/custom-vision-create-object-detector-project.32d4fb9aa8e7e737.webp)
 
     ✅ โดเมน Products on Shelves ถูกออกแบบมาโดยเฉพาะสำหรับการตรวจจับสินค้าบนชั้นวาง อ่านเพิ่มเติมเกี่ยวกับโดเมนต่าง ๆ ใน [เอกสาร Select a domain บน Microsoft Docs](https://docs.microsoft.com/azure/cognitive-services/custom-vision-service/select-domain?WT.mc_id=academic-17441-jabenn#object-detection)
 
@@ -133,11 +133,11 @@
 
 1. ทำตาม [ส่วน Upload and tag images ในเอกสาร Build an object detector quickstart บน Microsoft Docs](https://docs.microsoft.com/azure/cognitive-services/custom-vision-service/get-started-build-detector?WT.mc_id=academic-17441-jabenn#upload-and-tag-images) เพื่ออัปโหลดภาพการฝึกของคุณ สร้างแท็กที่เกี่ยวข้องตามประเภทของวัตถุที่คุณต้องการตรวจจับ
 
-    ![หน้าต่างอัปโหลดแสดงการอัปโหลดภาพกล้วยสุกและกล้วยดิบ](../../../../../translated_images/th/image-upload-object-detector.77c7892c3093cb59b79018edecd678749a75d71a099bc8a2d2f2f76320f88a5b.png)
+    ![หน้าต่างอัปโหลดแสดงการอัปโหลดภาพกล้วยสุกและกล้วยดิบ](../../../../../translated_images/th/image-upload-object-detector.77c7892c3093cb59.webp)
 
     เมื่อคุณวาดกรอบสี่เหลี่ยมรอบวัตถุ ให้วาดให้แน่นรอบวัตถุ การวาดกรอบสี่เหลี่ยมทั้งหมดอาจใช้เวลานาน แต่เครื่องมือจะตรวจจับสิ่งที่คิดว่าเป็นกรอบสี่เหลี่ยม ทำให้เร็วขึ้น
 
-    ![การแท็กมะเขือเทศบด](../../../../../translated_images/th/object-detector-tag-tomato-paste.f47c362fb0f0eb582f3bc68cf3855fb43a805106395358d41896a269c210b7b4.png)
+    ![การแท็กมะเขือเทศบด](../../../../../translated_images/th/object-detector-tag-tomato-paste.f47c362fb0f0eb58.webp)
 
     > 💁 หากคุณมีภาพมากกว่า 15 ภาพสำหรับวัตถุแต่ละชนิด คุณสามารถฝึกหลังจาก 15 ภาพแล้วใช้ฟีเจอร์ **Suggested tags** ฟีเจอร์นี้จะใช้โมเดลที่ฝึกแล้วเพื่อตรวจจับวัตถุในภาพที่ยังไม่ได้แท็ก คุณสามารถยืนยันวัตถุที่ตรวจจับได้ หรือปฏิเสธและวาดกรอบสี่เหลี่ยมใหม่ สิ่งนี้สามารถช่วยประหยัดเวลาได้มาก
 
@@ -155,7 +155,7 @@
 
 1. ใช้ปุ่ม **Quick Test** เพื่ออัปโหลดภาพทดสอบและตรวจสอบว่าวัตถุถูกตรวจจับ ใช้ภาพทดสอบที่คุณสร้างไว้ก่อนหน้านี้ ไม่ใช่ภาพที่คุณใช้สำหรับการฝึก
 
-    ![กระป๋องมะเขือเทศบด 3 กระป๋องที่ตรวจจับได้พร้อมความน่าจะเป็น 38%, 35.5% และ 34.6%](../../../../../translated_images/th/object-detector-detected-tomato-paste.52656fe87af4c37b4ee540526d63e73ed075da2e54a9a060aa528e0c562fb1b6.png)
+    ![กระป๋องมะเขือเทศบด 3 กระป๋องที่ตรวจจับได้พร้อมความน่าจะเป็น 38%, 35.5% และ 34.6%](../../../../../translated_images/th/object-detector-detected-tomato-paste.52656fe87af4c37b.webp)
 
 1. ลองใช้ภาพทดสอบทั้งหมดที่คุณมีและสังเกตค่าความน่าจะเป็น
 

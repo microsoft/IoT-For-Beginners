@@ -33,7 +33,7 @@
 
     Το Jupyter θα ξεκινήσει και θα ανοίξει το notebook στον browser σας. Ακολουθήστε τις οδηγίες στο notebook για να οπτικοποιήσετε τις μετρηθείσες θερμοκρασίες και να υπολογίσετε τις ημέρες ανάπτυξης (GDD).
 
-    ![Το jupyter notebook](../../../../../translated_images/el/gdd-jupyter-notebook.c5b52cf21094f158a61f47f455490fd95f1729777ff90861a4521820bf354cdc.png)
+    ![Το jupyter notebook](../../../../../translated_images/el/gdd-jupyter-notebook.c5b52cf21094f158.webp)
 
 ## Κριτήρια Αξιολόγησης
 

@@ -18,7 +18,7 @@
 
 Συνδέστε τον αισθητήρα GPS.
 
-![Ένας αισθητήρας Grove GPS](../../../../../translated_images/el/grove-gps-sensor.247943bf69b03f0d1820ef6ed10c587f9b650e8db55b936851c92412180bd3e2.png)
+![Ένας αισθητήρας Grove GPS](../../../../../translated_images/el/grove-gps-sensor.247943bf69b03f0d.webp)
 
 1. Εισάγετε το ένα άκρο ενός καλωδίου Grove στην υποδοχή του αισθητήρα GPS. Θα μπει μόνο με έναν συγκεκριμένο τρόπο.
 
