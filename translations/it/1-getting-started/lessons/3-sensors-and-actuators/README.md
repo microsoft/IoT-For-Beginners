@@ -1,6 +1,6 @@
 # Interagire con il mondo fisico con sensori e attuatori
 
-![Una panoramica illustrata di questa lezione](../../../../../translated_images/it/lesson-3.cc3b7b4cd646de598698cce043c0393fd62ef42bac2eaf60e61272cd844250f4.jpg)
+![Una panoramica illustrata di questa lezione](../../../../../translated_images/it/lesson-3.cc3b7b4cd646de59.webp)
 
 > Illustrazione di [Nitya Narasimhan](https://github.com/nitya). Clicca sull'immagine per una versione più grande.
 
@@ -92,7 +92,7 @@ I sensori digitali, come quelli analogici, rilevano il mondo circostante utilizz
 
 Il sensore digitale più semplice è un pulsante o un interruttore. Questo è un sensore con due stati: acceso o spento.
 
-![Un pulsante riceve 5 volt. Quando non è premuto restituisce 0 volt, quando è premuto restituisce 5 volt](../../../../../translated_images/it/button.eadb560b77ac45e56f523d9d8876e40444f63b419e33eb820082d461fa79490b.png)
+![Un pulsante riceve 5 volt. Quando non è premuto restituisce 0 volt, quando è premuto restituisce 5 volt](../../../../../translated_images/it/button.eadb560b77ac45e5.webp)
 
 I pin sui dispositivi IoT, come i pin GPIO, possono misurare direttamente questo segnale come 0 o 1. Se la tensione inviata è uguale a quella restituita, il valore letto è 1, altrimenti il valore letto è 0. Non c'è bisogno di convertire il segnale, può essere solo 1 o 0.
 
@@ -125,7 +125,7 @@ Alcuni attuatori comuni includono:
 
 Segui la guida pertinente qui sotto per aggiungere un attuatore al tuo dispositivo IoT, controllato dal sensore, per costruire una luce notturna IoT. Raccoglierà i livelli di luce dal sensore di luce e utilizzerà un attuatore sotto forma di LED per emettere luce quando il livello di luce rilevato è troppo basso.
 
-![Un diagramma di flusso dell'assegnazione che mostra i livelli di luce letti e controllati, e il LED controllato](../../../../../translated_images/it/assignment-1-flow.7552a51acb1a5ec858dca6e855cdbb44206434006df8ba3799a25afcdab1665d.png)
+![Un diagramma di flusso dell'assegnazione che mostra i livelli di luce letti e controllati, e il LED controllato](../../../../../translated_images/it/assignment-1-flow.7552a51acb1a5ec8.webp)
 
 * [Arduino - Wio Terminal](wio-terminal-actuator.md)
 * [Computer a scheda singola - Raspberry Pi](pi-actuator.md)
@@ -140,7 +140,7 @@ Come i sensori, gli attuatori possono essere analogici o digitali.
 Gli attuatori analogici prendono un segnale analogico e lo convertono in un'interazione, dove l'interazione cambia in base alla tensione fornita.
 
 Un esempio è una luce dimmerabile, come quelle che potresti avere in casa. La quantità di tensione fornita alla luce determina quanto è luminosa.
-![Una luce attenuata a bassa tensione e più luminosa ad alta tensione](../../../../../translated_images/it/dimmable-light.9ceffeb195dec1a849da718b2d71b32c35171ff7dfea9c07bbf82646a67acf6b.png)
+![Una luce attenuata a bassa tensione e più luminosa ad alta tensione](../../../../../translated_images/it/dimmable-light.9ceffeb195dec1a8.webp)
 
 Come per i sensori, il dispositivo IoT effettivo funziona con segnali digitali, non analogici. Ciò significa che per inviare un segnale analogico, il dispositivo IoT necessita di un convertitore digitale-analogico (DAC), integrato direttamente nel dispositivo IoT o su una scheda di connessione. Questo converte gli 0 e 1 del dispositivo IoT in una tensione analogica che l'attuatore può utilizzare.
 
@@ -187,7 +187,7 @@ Gli attuatori digitali, come i sensori digitali, hanno due stati controllati da 
 
 Un semplice attuatore digitale è un LED. Quando un dispositivo invia un segnale digitale di 1, viene inviata una tensione alta che accende il LED. Quando viene inviato un segnale digitale di 0, la tensione scende a 0V e il LED si spegne.
 
-![Un LED è spento a 0 volt e acceso a 5V](../../../../../translated_images/it/led.ec6d94f66676a174ad06d9fa9ea49c2ee89beb18b312d5c6476467c66375b07f.png)
+![Un LED è spento a 0 volt e acceso a 5V](../../../../../translated_images/it/led.ec6d94f66676a174.webp)
 
 ✅ Quali altri semplici attuatori a 2 stati ti vengono in mente? Un esempio è un solenoide, che è un elettromagnete che può essere attivato per fare cose come spostare un chiavistello di una porta per bloccarla/sbloccarla.
 

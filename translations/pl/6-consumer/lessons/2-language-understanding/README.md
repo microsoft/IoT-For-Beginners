@@ -1,6 +1,6 @@
 # Zrozumienie języka
 
-![Szkicowy przegląd tej lekcji](../../../../../translated_images/pl/lesson-22.6148ea28500d9e00c396aaa2649935fb6641362c8f03d8e5e90a676977ab01dd.jpg)
+![Szkicowy przegląd tej lekcji](../../../../../translated_images/pl/lesson-22.6148ea28500d9e00.webp)
 
 > Szkic autorstwa [Nitya Narasimhan](https://github.com/nitya). Kliknij obrazek, aby zobaczyć większą wersję.
 
@@ -46,7 +46,7 @@ Modele zrozumienia języka to modele AI, które są trenowane do wyodrębniania 
 
 ## Tworzenie modelu zrozumienia języka
 
-![Logo LUIS](../../../../../translated_images/pl/luis-logo.5cb4f3e88c020ee6df4f614e8831f4a4b6809a7247bf52085fb48d629ef9be52.png)
+![Logo LUIS](../../../../../translated_images/pl/luis-logo.5cb4f3e88c020ee6.webp)
 
 Możesz tworzyć modele zrozumienia języka za pomocą LUIS, usługi zrozumienia języka od Microsoftu, która jest częścią Cognitive Services.
 
@@ -169,7 +169,7 @@ Instrukcje dotyczące korzystania z portalu LUIS znajdziesz w [Quickstart: Build
 
 1. Podczas wpisywania każdego przykładu LUIS zacznie wykrywać jednostki i podkreślać oraz oznaczać te, które znajdzie.
 
-    ![Przykłady z podkreślonymi liczbami i jednostkami czasu przez LUIS](../../../../../translated_images/pl/luis-intent-examples.25716580b2d2723cf1bafdf277d015c7f046d8cfa20f27bddf3a0873ec45fab7.png)
+    ![Przykłady z podkreślonymi liczbami i jednostkami czasu przez LUIS](../../../../../translated_images/pl/luis-intent-examples.25716580b2d2723c.webp)
 
 ### Zadanie - wytrenuj i przetestuj model
 

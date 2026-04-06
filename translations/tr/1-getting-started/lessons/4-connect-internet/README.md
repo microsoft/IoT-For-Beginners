@@ -1,6 +1,6 @@
 # Cihazınızı İnternete Bağlayın
 
-![Bu dersin bir sketchnote özeti](../../../../../translated_images/tr/lesson-4.7344e074ea68fa545fd320b12dce36d72dd62d28c3b4596cb26cf315f434b98f.jpg)
+![Bu dersin bir sketchnote özeti](../../../../../translated_images/tr/lesson-4.7344e074ea68fa54.webp)
 
 > Sketchnote: [Nitya Narasimhan](https://github.com/nitya). Daha büyük bir versiyon için görsele tıklayın.
 
@@ -47,7 +47,7 @@ MQTT, IoT cihazları için en popüler iletişim protokolüdür ve bu derste ele
 
 MQTT, tek bir aracı ve birden fazla istemciye sahiptir. Tüm istemciler aracıya bağlanır ve aracı, mesajları ilgili istemcilere yönlendirir. Mesajlar, bireysel bir istemciye doğrudan gönderilmek yerine adlandırılmış konular kullanılarak yönlendirilir. Bir istemci bir konuya yayın yapabilir ve o konuya abone olan tüm istemciler mesajı alır.
 
-![IoT cihazı, /telemetry konusunda telemetri yayınlıyor ve bulut hizmeti bu konuya abone oluyor](../../../../../translated_images/tr/mqtt.cbf7f21d9adc3e17548b359444cc11bb4bf2010543e32ece9a47becf54438c23.png)
+![IoT cihazı, /telemetry konusunda telemetri yayınlıyor ve bulut hizmeti bu konuya abone oluyor](../../../../../translated_images/tr/mqtt.cbf7f21d9adc3e17.webp)
 
 ✅ Araştırma yapın. Çok sayıda IoT cihazınız varsa, MQTT aracınızın tüm mesajları işleyebilmesini nasıl sağlayabilirsiniz?
 
@@ -69,7 +69,7 @@ Bu ödevin bir parçası olarak bir MQTT aracı kurmanın karmaşıklıklarıyla
 
 > 💁 Bu test aracı herkese açıktır ve güvenli değildir. Yayınladığınız şeyleri başkaları dinleyebilir, bu nedenle özel tutulması gereken verilerle kullanılmamalıdır.
 
-![Görev akış şeması: ışık seviyeleri okunur ve kontrol edilir, LED kontrol edilir](../../../../../translated_images/tr/assignment-1-internet-flow.3256feab5f052fd273bf4e331157c574c2c3fa42e479836fc9c3586f41db35a5.png)
+![Görev akış şeması: ışık seviyeleri okunur ve kontrol edilir, LED kontrol edilir](../../../../../translated_images/tr/assignment-1-internet-flow.3256feab5f052fd2.webp)
 
 Cihazınızı MQTT aracısına bağlamak için aşağıdaki ilgili adımı izleyin:
 
@@ -350,7 +350,7 @@ Bir makine için verileri saklamak isteyebilirsiniz, özellikle de eğilimleri i
 
 IoT cihaz tasarımcıları ayrıca, IoT cihazının bir internet kesintisi veya konum nedeniyle sinyal kaybı sırasında kullanılabilir olup olmadığını da düşünmelidir. Akıllı bir termostat, bir kesinti nedeniyle telemetriyi buluta gönderemiyorsa, ısıtmayı kontrol etmek için bazı sınırlı kararlar alabilmelidir.
 
-[![Bu Ferrari, yeraltında hücresel sinyal olmadığı bir yerde güncellenmeye çalışıldığı için kullanılamaz hale geldi](../../../../../translated_images/tr/bricked-car.dc38f8efadc6c59d76211f981a521efb300939283dee468f79503aae3ec67615.png)](https://twitter.com/internetofshit/status/1315736960082808832)
+[![Bu Ferrari, yeraltında hücresel sinyal olmadığı bir yerde güncellenmeye çalışıldığı için kullanılamaz hale geldi](../../../../../translated_images/tr/bricked-car.dc38f8efadc6c59d.webp)](https://twitter.com/internetofshit/status/1315736960082808832)
 
 MQTT'nin bağlantı kaybını ele alabilmesi için, cihaz ve sunucu kodu, mesaj tesliminin gerektiğinde sağlanmasından sorumlu olmalıdır. Örneğin, gönderilen tüm mesajların bir yanıt konusu üzerinde ek mesajlarla yanıtlanmasını gerektirerek ve yanıtlanmazsa, bunları manuel olarak sıraya alarak daha sonra yeniden oynatılmasını sağlayabilir.
 
@@ -358,7 +358,7 @@ MQTT'nin bağlantı kaybını ele alabilmesi için, cihaz ve sunucu kodu, mesaj 
 
 Komutlar, buluttan bir cihaza gönderilen ve bir şey yapmasını talep eden mesajlardır. Çoğu zaman bu, bir aktüatör aracılığıyla bir tür çıktı vermeyi içerir, ancak cihazın kendisi için bir talimat da olabilir, örneğin yeniden başlatmak veya ek telemetri toplamak ve bunu komuta yanıt olarak geri göndermek.
 
-![Bir internet bağlantılı termostatın ısıtmayı açma komutunu alması](../../../../../translated_images/tr/commands.d6c06bbbb3a02cce95f2831a1c331daf6dedd4e470c4aa2b0ae54f332016e504.png)
+![Bir internet bağlantılı termostatın ısıtmayı açma komutunu alması](../../../../../translated_images/tr/commands.d6c06bbbb3a02cce.webp)
 
 Bir termostat, buluttan ısıtmayı açma komutunu alabilir. Tüm sensörlerden gelen telemetri verilerine dayanarak, bulut hizmeti ısıtmanın açık olması gerektiğine karar verdiyse, ilgili komutu gönderir.
 

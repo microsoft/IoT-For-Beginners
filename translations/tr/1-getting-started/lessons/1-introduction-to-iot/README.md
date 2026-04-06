@@ -1,6 +1,6 @@
 # IoT'ye Giriş
 
-![Bu dersin genel bir sketchnote özeti](../../../../../translated_images/tr/lesson-1.2606670fa61ee904687da5d6fa4e726639d524d064c895117da1b95b9ff6251d.jpg)
+![Bu dersin genel bir sketchnote özeti](../../../../../translated_images/tr/lesson-1.2606670fa61ee904.webp)
 
 > Sketchnote: [Nitya Narasimhan](https://github.com/nitya). Daha büyük bir versiyon için görsele tıklayın.
 

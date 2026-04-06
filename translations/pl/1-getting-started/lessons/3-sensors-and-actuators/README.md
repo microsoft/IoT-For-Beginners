@@ -1,6 +1,6 @@
 # Interakcja ze światem fizycznym za pomocą czujników i siłowników
 
-![Szkicowy przegląd tej lekcji](../../../../../translated_images/pl/lesson-3.cc3b7b4cd646de598698cce043c0393fd62ef42bac2eaf60e61272cd844250f4.jpg)
+![Szkicowy przegląd tej lekcji](../../../../../translated_images/pl/lesson-3.cc3b7b4cd646de59.webp)
 
 > Szkic autorstwa [Nitya Narasimhan](https://github.com/nitya). Kliknij obraz, aby zobaczyć większą wersję.
 
@@ -92,7 +92,7 @@ Cyfrowe czujniki, podobnie jak analogowe, wykrywają świat wokół siebie za po
 
 Najprostszym cyfrowym czujnikiem jest przycisk lub przełącznik. Jest to czujnik z dwoma stanami: włączony lub wyłączony.
 
-![Przycisk otrzymuje 5 woltów. Gdy nie jest wciśnięty, zwraca 0 woltów, gdy jest wciśnięty, zwraca 5 woltów](../../../../../translated_images/pl/button.eadb560b77ac45e56f523d9d8876e40444f63b419e33eb820082d461fa79490b.png)
+![Przycisk otrzymuje 5 woltów. Gdy nie jest wciśnięty, zwraca 0 woltów, gdy jest wciśnięty, zwraca 5 woltów](../../../../../translated_images/pl/button.eadb560b77ac45e5.webp)
 
 Piny w urządzeniach IoT, takie jak piny GPIO, mogą bezpośrednio mierzyć ten sygnał jako 0 lub 1. Jeśli napięcie wysłane jest takie samo jak napięcie zwrócone, odczytana wartość to 1, w przeciwnym razie wartość to 0. Nie ma potrzeby konwersji sygnału, może on być tylko 1 lub 0.
 
@@ -125,7 +125,7 @@ Niektóre popularne siłowniki to:
 
 Skorzystaj z odpowiedniego przewodnika, aby dodać siłownik do swojego urządzenia IoT, sterowany przez czujnik, aby zbudować lampkę nocną IoT. Będzie ona zbierać poziomy światła z czujnika światła i używać siłownika w postaci diody LED do emitowania światła, gdy wykryty poziom światła będzie zbyt niski.
 
-![Schemat przepływu zadania pokazujący odczyt i sprawdzanie poziomów światła oraz sterowanie diodą LED](../../../../../translated_images/pl/assignment-1-flow.7552a51acb1a5ec858dca6e855cdbb44206434006df8ba3799a25afcdab1665d.png)
+![Schemat przepływu zadania pokazujący odczyt i sprawdzanie poziomów światła oraz sterowanie diodą LED](../../../../../translated_images/pl/assignment-1-flow.7552a51acb1a5ec8.webp)
 
 * [Arduino - Wio Terminal](wio-terminal-actuator.md)
 * [Komputer jednopłytkowy - Raspberry Pi](pi-actuator.md)
@@ -140,7 +140,7 @@ Podobnie jak czujniki, siłowniki mogą być analogowe lub cyfrowe.
 Analogowe siłowniki przyjmują sygnał analogowy i przekształcają go w jakąś interakcję, gdzie interakcja zmienia się w zależności od dostarczonego napięcia.
 
 Przykładem jest ściemnialne światło, takie jak te, które możesz mieć w domu. Ilość dostarczonego napięcia decyduje o jasności światła.
-![Światło przyciemnione przy niskim napięciu i jaśniejsze przy wyższym napięciu](../../../../../translated_images/pl/dimmable-light.9ceffeb195dec1a849da718b2d71b32c35171ff7dfea9c07bbf82646a67acf6b.png)
+![Światło przyciemnione przy niskim napięciu i jaśniejsze przy wyższym napięciu](../../../../../translated_images/pl/dimmable-light.9ceffeb195dec1a8.webp)
 
 Podobnie jak w przypadku czujników, rzeczywiste urządzenie IoT działa na sygnałach cyfrowych, a nie analogowych. Oznacza to, że aby wysłać sygnał analogowy, urządzenie IoT potrzebuje przetwornika cyfrowo-analogowego (DAC), który może być wbudowany bezpośrednio w urządzenie IoT lub znajdować się na płytce połączeniowej. Przetwornik ten zamienia 0 i 1 z urządzenia IoT na napięcie analogowe, które może być używane przez siłownik.
 
@@ -187,7 +187,7 @@ Siłowniki cyfrowe, podobnie jak czujniki cyfrowe, mają dwa stany kontrolowane 
 
 Prostym siłownikiem cyfrowym jest dioda LED. Gdy urządzenie wysyła sygnał cyfrowy 1, wysyłane jest wysokie napięcie, które zapala diodę LED. Gdy wysyłany jest sygnał cyfrowy 0, napięcie spada do 0V i dioda LED gaśnie.
 
-![Dioda LED wyłączona przy 0V i włączona przy 5V](../../../../../translated_images/pl/led.ec6d94f66676a174ad06d9fa9ea49c2ee89beb18b312d5c6476467c66375b07f.png)
+![Dioda LED wyłączona przy 0V i włączona przy 5V](../../../../../translated_images/pl/led.ec6d94f66676a174.webp)
 
 ✅ Jakie inne proste siłowniki dwustanowe przychodzą Ci do głowy? Jednym z przykładów jest elektromagnes (solenoid), który można aktywować, aby np. przesunąć rygiel drzwi, blokując/odblokowując drzwi.
 

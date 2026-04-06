@@ -20,7 +20,7 @@ Grove Time of Flight sensörü, Wio Terminal'e bağlanabilir.
 
 Time of Flight sensörünü bağlayın.
 
-![Bir Grove Time of Flight sensörü](../../../../../translated_images/tr/grove-time-of-flight-sensor.d82ff2165bfded9f485de54d8d07195a6270a602696825fca19f629ddfe94e86.png)
+![Bir Grove Time of Flight sensörü](../../../../../translated_images/tr/grove-time-of-flight-sensor.d82ff2165bfded9f.webp)
 
 1. Grove kablosunun bir ucunu Time of Flight sensöründeki sokete takın. Kablo yalnızca tek bir yönde takılabilir.
 

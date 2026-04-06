@@ -1,6 +1,6 @@
 # Imposta un timer e fornisci feedback vocale
 
-![Una panoramica illustrata di questa lezione](../../../../../translated_images/it/lesson-23.f38483e1d4df4828990d3f02d60e46c978b075d384ae7cb4f7bab738e107c850.jpg)
+![Una panoramica illustrata di questa lezione](../../../../../translated_images/it/lesson-23.f38483e1d4df4828.webp)
 
 > Illustrazione di [Nitya Narasimhan](https://github.com/nitya). Clicca sull'immagine per una versione più grande.
 

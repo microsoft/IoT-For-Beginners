@@ -18,13 +18,13 @@ Grove toprak nem sensörü Raspberry Pi'ye bağlanabilir.
 
 Toprak nem sensörünü bağlayın.
 
-![Bir Grove toprak nem sensörü](../../../../../translated_images/tr/grove-capacitive-soil-moisture-sensor.e7f0776cce30e78be5cc5a07839385fd6718857f31b5bf5ad3d0c73c83b2f0ef.png)
+![Bir Grove toprak nem sensörü](../../../../../translated_images/tr/grove-capacitive-soil-moisture-sensor.e7f0776cce30e78b.webp)
 
 1. Grove kablosunun bir ucunu toprak nem sensöründeki sokete takın. Kablo yalnızca tek bir yönde takılabilir.
 
 1. Raspberry Pi kapalıyken, Grove kablosunun diğer ucunu Pi'ye bağlı Grove Base Hat üzerindeki **A0** olarak işaretlenmiş analog sokete bağlayın. Bu soket, GPIO pinlerinin yanındaki soket sırasının sağdan ikinci soketidir.
 
-![Grove toprak nem sensörü A0 soketine bağlı](../../../../../translated_images/tr/pi-soil-moisture-sensor.fdd7eb2393792cf6739cacf1985d9f55beda16d372f30d0b5a51d586f978a870.png)
+![Grove toprak nem sensörü A0 soketine bağlı](../../../../../translated_images/tr/pi-soil-moisture-sensor.fdd7eb2393792cf6.webp)
 
 1. Toprak nem sensörünü toprağa yerleştirin. Sensör üzerinde bir 'en yüksek pozisyon çizgisi' - beyaz bir çizgi bulunur. Sensörü bu çizgiye kadar, ancak çizgiyi geçmeyecek şekilde yerleştirin.
 

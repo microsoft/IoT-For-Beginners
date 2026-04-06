@@ -1,6 +1,6 @@
 # Obsługa wielu języków
 
-![Szkicowy przegląd tej lekcji](../../../../../translated_images/pl/lesson-24.4246968ed058510ab275052e87ef9aa89c7b2f938915d103c605c04dc6cd5bb7.jpg)
+![Szkicowy przegląd tej lekcji](../../../../../translated_images/pl/lesson-24.4246968ed058510a.webp)
 
 > Szkic autorstwa [Nitya Narasimhan](https://github.com/nitya). Kliknij obraz, aby zobaczyć większą wersję.
 
@@ -74,7 +74,7 @@ Istnieje wiele usług AI, które można wykorzystać w aplikacjach do tłumaczen
 
 ### Cognitive Services Speech Service
 
-![Logo usługi mowy](../../../../../translated_images/pl/azure-speech-logo.a1f08c4befb0159f2cb5d692d3baf5b599e7b44759d316da907bda1508f46a4a.png)
+![Logo usługi mowy](../../../../../translated_images/pl/azure-speech-logo.a1f08c4befb0159f.webp)
 
 Usługa mowy, z której korzystałeś w ostatnich lekcjach, ma możliwości tłumaczenia w rozpoznawaniu mowy. Podczas rozpoznawania mowy możesz zażądać nie tylko tekstu mowy w tym samym języku, ale także w innych językach.
 
@@ -82,7 +82,7 @@ Usługa mowy, z której korzystałeś w ostatnich lekcjach, ma możliwości tłu
 
 ### Cognitive Services Translator Service
 
-![Logo usługi tłumacza](../../../../../translated_images/pl/azure-translator-logo.c6ed3a4a433edfd2f11577eca105412c50b8396b194cbbd730723dd1d0793bcd.png)
+![Logo usługi tłumacza](../../../../../translated_images/pl/azure-translator-logo.c6ed3a4a433edfd2.webp)
 
 Usługa Translator to dedykowana usługa tłumaczeniowa, która może tłumaczyć tekst z jednego języka na jeden lub więcej języków docelowych. Oprócz tłumaczenia obsługuje szeroki zakres dodatkowych funkcji, takich jak maskowanie wulgaryzmów. Pozwala także na dostarczenie konkretnego tłumaczenia dla danego słowa lub zdania, aby pracować z terminami, których nie chcesz tłumaczyć, lub które mają określone, dobrze znane tłumaczenie.
 

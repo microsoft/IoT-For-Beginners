@@ -1,6 +1,6 @@
 # Bitkinizi Buluta Taşıyın
 
-![Bu dersin bir skeç notu özeti](../../../../../translated_images/tr/lesson-8.3f21f3c11159e6a0a376351973ea5724d5de68fa23b4288853a174bed9ac48c3.jpg)
+![Bu dersin bir skeç notu özeti](../../../../../translated_images/tr/lesson-8.3f21f3c11159e6a0.webp)
 
 > Skeç notu: [Nitya Narasimhan](https://github.com/nitya). Daha büyük bir versiyon için görsele tıklayın.
 
@@ -46,8 +46,8 @@ Bu oldukça pahalı olabilir, geniş bir yetenek yelpazesine sahip çalışanlar
 
 Bulut genellikle şaka yollu olarak 'başkasının bilgisayarı' olarak adlandırılır. İlk fikir basitti - bilgisayar satın almak yerine, başkasının bilgisayarını kiralarsınız. Başkası, bir bulut bilişim sağlayıcısı, devasa veri merkezlerini yönetirdi. Donanımı satın almak ve kurmak, güç ve soğutmayı yönetmek, ağ bağlantısını sağlamak, bina güvenliğini sağlamak, donanım ve yazılım güncellemelerini yapmak gibi her şeyden sorumlu olurlardı. Müşteri olarak, ihtiyacınız olan bilgisayarları kiralar, talep arttığında daha fazlasını kiralar, talep düştüğünde ise kiraladığınız miktarı azaltırdınız. Bu bulut veri merkezleri dünyanın dört bir yanına yayılmıştır.
 
-![Bir Microsoft bulut veri merkezi](../../../../../translated_images/tr/azure-region-existing.73f704604f2aa6cb9b5a49ed40e93d4fd81ae3f4e6af4a8ca504023902832f56.png)
-![Bir Microsoft bulut veri merkezi planlanan genişleme](../../../../../translated_images/tr/azure-region-planned-expansion.a5074a1e8af74f156a73552d502429e5b126ea5019274d767ecb4b9afdad442b.png)
+![Bir Microsoft bulut veri merkezi](../../../../../translated_images/tr/azure-region-existing.73f704604f2aa6cb.webp)
+![Bir Microsoft bulut veri merkezi planlanan genişleme](../../../../../translated_images/tr/azure-region-planned-expansion.a5074a1e8af74f15.webp)
 
 Bu veri merkezleri birkaç kilometrekare büyüklüğünde olabilir. Yukarıdaki görseller birkaç yıl önce bir Microsoft bulut veri merkezinde çekilmiş olup, başlangıç boyutunu ve planlanan genişlemeyi göstermektedir. Genişleme için temizlenen alan 5 kilometrekareden fazladır.
 
@@ -108,11 +108,11 @@ Buluttaki IoT hizmetleri bu sorunları çözer. Büyük bulut sağlayıcıları 
 
 IoT cihazları, bir cihaz SDK'sı (hizmetin özellikleriyle çalışmak için kod sağlayan bir kütüphane) veya MQTT ya da HTTP gibi bir iletişim protokolü aracılığıyla doğrudan bir bulut hizmetine bağlanır. Cihaz SDK'sı genellikle en kolay yoldur çünkü her şeyi sizin için halleder, örneğin hangi konulara yayın yapacağınızı veya abone olacağınızı ve güvenliği nasıl yöneteceğinizi bilir.
 
-![Cihazlar bir cihaz SDK'sı kullanarak bir hizmete bağlanır. Sunucu kodu da bir SDK aracılığıyla hizmete bağlanır](../../../../../translated_images/tr/iot-service-connectivity.7e873847921a5d6fd60d0ba3a943210194518cee0d4e362476624316443275c3.png)
+![Cihazlar bir cihaz SDK'sı kullanarak bir hizmete bağlanır. Sunucu kodu da bir SDK aracılığıyla hizmete bağlanır](../../../../../translated_images/tr/iot-service-connectivity.7e873847921a5d6f.webp)
 
 Cihazınız daha sonra uygulamanızın diğer bölümleriyle bu hizmet üzerinden iletişim kurar - tıpkı MQTT üzerinden telemetri gönderip komutlar aldığınız gibi. Bu genellikle bir hizmet SDK'sı veya benzer bir kütüphane kullanılarak yapılır. Mesajlar cihazınızdan hizmete gelir, burada uygulamanızın diğer bileşenleri tarafından okunabilir ve mesajlar cihazınıza geri gönderilebilir.
 
-![Geçerli bir gizli anahtarı olmayan cihazlar IoT hizmetine bağlanamaz](../../../../../translated_images/tr/iot-service-allowed-denied-connection.818b0063ac213fb84204a7229303764d9b467ca430fb822b4ac2fca267d56726.png)
+![Geçerli bir gizli anahtarı olmayan cihazlar IoT hizmetine bağlanamaz](../../../../../translated_images/tr/iot-service-allowed-denied-connection.818b0063ac213fb8.webp)
 
 Bu hizmetler, bağlanıp veri gönderebilecek tüm cihazları bilerek güvenlik sağlar, ya cihazların hizmetle önceden kaydedilmesiyle ya da cihazlara hizmete ilk kez bağlandıklarında kendilerini kaydetmek için kullanabilecekleri gizli anahtarlar veya sertifikalar verilmesiyle. Bilinmeyen cihazlar bağlanamaz, bağlanmaya çalışırlarsa hizmet bağlantıyı reddeder ve gönderdikleri mesajları görmezden gelir.
 
@@ -124,7 +124,7 @@ Uygulamanızın diğer bileşenleri IoT hizmetine bağlanabilir ve bağlı veya 
 
 Artık bir Azure aboneliğiniz olduğuna göre, bir IoT hizmetine kaydolabilirsiniz. Microsoft'un IoT hizmeti Azure IoT Hub olarak adlandırılır.
 
-![Azure IoT Hub logosu](../../../../../translated_images/tr/azure-iot-hub-logo.28a19de76d0a1932464d858f7558712bcdace3e5ec69c434d482ed7ce41c3a26.png)
+![Azure IoT Hub logosu](../../../../../translated_images/tr/azure-iot-hub-logo.28a19de76d0a1932.webp)
 
 Aşağıdaki video, Azure IoT Hub hakkında kısa bir genel bakış sunar:
 

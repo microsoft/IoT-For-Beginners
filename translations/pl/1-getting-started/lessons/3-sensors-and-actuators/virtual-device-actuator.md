@@ -36,11 +36,11 @@ Dodaj diodę LED do aplikacji CounterFit.
 
     1. Wybierz przycisk **Add**, aby utworzyć diodę LED na pinie 5.
 
-    ![Ustawienia diody LED](../../../../../translated_images/pl/counterfit-create-led.ba9db1c9b8c622a635d6dfae5cdc4e70c2b250635bd4f0601c6cf0bd22b7ba46.png)
+    ![Ustawienia diody LED](../../../../../translated_images/pl/counterfit-create-led.ba9db1c9b8c622a6.webp)
 
     Dioda LED zostanie utworzona i pojawi się na liście aktuatorów.
 
-    ![Utworzona dioda LED](../../../../../translated_images/pl/counterfit-led.c0ab02de6d256ad84d9bad4d67a7faa709f0ea83e410cfe9b5561ef0cef30b1c.png)
+    ![Utworzona dioda LED](../../../../../translated_images/pl/counterfit-led.c0ab02de6d256ad8.webp)
 
     Po utworzeniu diody LED możesz zmienić jej kolor za pomocą selektora *Color*. Wybierz przycisk **Set**, aby zmienić kolor po jego wybraniu.
 

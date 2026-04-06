@@ -1,6 +1,6 @@
 # Ustaw timer i udziel odpowiedzi głosowej
 
-![Szkicowy przegląd tej lekcji](../../../../../translated_images/pl/lesson-23.f38483e1d4df4828990d3f02d60e46c978b075d384ae7cb4f7bab738e107c850.jpg)
+![Szkicowy przegląd tej lekcji](../../../../../translated_images/pl/lesson-23.f38483e1d4df4828.webp)
 
 > Szkic autorstwa [Nitya Narasimhan](https://github.com/nitya). Kliknij obrazek, aby zobaczyć większą wersję.
 

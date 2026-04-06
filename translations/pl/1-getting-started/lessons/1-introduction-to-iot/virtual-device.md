@@ -203,7 +203,7 @@ Jako drugi krok 'Hello World', uruchomisz aplikację CounterFit i połączysz z 
 
     Aplikacja zacznie działać i otworzy się w przeglądarce internetowej:
 
-    ![Aplikacja CounterFit uruchomiona w przeglądarce](../../../../../translated_images/pl/counterfit-first-run.433326358b669b31d0e99c3513cb01bfbb13724d162c99cdcc8f51ecf5f9c779.png)
+    ![Aplikacja CounterFit uruchomiona w przeglądarce](../../../../../translated_images/pl/counterfit-first-run.433326358b669b31.webp)
 
     Będzie oznaczona jako *Disconnected*, a dioda LED w prawym górnym rogu będzie wyłączona.
 
@@ -224,7 +224,7 @@ Jako drugi krok 'Hello World', uruchomisz aplikację CounterFit i połączysz z 
 
 1. W nowym terminalu uruchom plik `app.py` tak jak wcześniej. Status CounterFit zmieni się na **Connected**, a dioda LED zaświeci się.
 
-    ![CounterFit pokazujący status Connected](../../../../../translated_images/pl/counterfit-connected.ed30b46d8f79b0921f3fc70be10366e596a89dca3f80c2224a9d9fc98fccf884.png)
+    ![CounterFit pokazujący status Connected](../../../../../translated_images/pl/counterfit-connected.ed30b46d8f79b092.webp)
 
 > 💁 Kod ten znajdziesz w folderze [code/virtual-device](../../../../../1-getting-started/lessons/1-introduction-to-iot/code/virtual-device).
 

@@ -13,7 +13,7 @@ I²C ma magistralę składającą się z 2 głównych przewodów, wraz z 2 przew
 | VCC | Voltage common collector (Wspólny kolektor napięcia) | Zasilanie dla urządzeń. Jest podłączone do przewodów SDA i SCL, aby dostarczać im zasilanie za pośrednictwem rezystora podciągającego, który wyłącza sygnał, gdy żadne urządzenie nie jest kontrolerem. |
 | GND | Ground (Masa) | Zapewnia wspólną masę dla obwodu elektrycznego. |
 
-![Magistrala I2C z 3 urządzeniami podłączonymi do przewodów SDA i SCL, współdzieląca wspólny przewód masy](../../../../../translated_images/pl/i2c.83da845dde02256bdd462dbe0d5145461416b74930571b89d1ae142841eeb584.png)
+![Magistrala I2C z 3 urządzeniami podłączonymi do przewodów SDA i SCL, współdzieląca wspólny przewód masy](../../../../../translated_images/pl/i2c.83da845dde02256b.webp)
 
 Aby przesłać dane, jedno urządzenie wydaje warunek startu, aby pokazać, że jest gotowe do przesyłania danych. Następnie staje się kontrolerem. Kontroler wysyła adres urządzenia, z którym chce się komunikować, wraz z informacją, czy chce odczytać, czy zapisać dane. Po przesłaniu danych kontroler wysyła warunek stopu, aby wskazać, że zakończył. Po tym inne urządzenie może stać się kontrolerem i przesyłać lub odbierać dane.
 

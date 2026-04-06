@@ -18,7 +18,7 @@ Grove GPS sensörü, Wio Terminal'e bağlanabilir.
 
 GPS sensörünü bağlayın.
 
-![Bir Grove GPS sensörü](../../../../../translated_images/tr/grove-gps-sensor.247943bf69b03f0d1820ef6ed10c587f9b650e8db55b936851c92412180bd3e2.png)
+![Bir Grove GPS sensörü](../../../../../translated_images/tr/grove-gps-sensor.247943bf69b03f0d.webp)
 
 1. Grove kablosunun bir ucunu GPS sensöründeki sokete takın. Kablo yalnızca tek bir yönde takılabilir.
 

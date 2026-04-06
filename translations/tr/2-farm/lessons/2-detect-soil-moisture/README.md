@@ -13,7 +13,7 @@ I²C, 2 ana tel ve 2 güç teli olmak üzere toplam 4 telden oluşan bir veri yo
 | VCC | Ortak Gerilim Toplayıcı | Cihazlar için güç kaynağıdır. Bu tel, SDA ve SCL tellerine bağlanarak bir pull-up direnç üzerinden güç sağlar ve hiçbir cihaz denetleyici olmadığında sinyali kapatır. |
 | GND | Toprak | Elektrik devresi için ortak bir toprak sağlar. |
 
-![I2C veri yolu, SDA ve SCL tellerine bağlı 3 cihaz ile ortak bir toprak teli paylaşır](../../../../../translated_images/tr/i2c.83da845dde02256bdd462dbe0d5145461416b74930571b89d1ae142841eeb584.png)
+![I2C veri yolu, SDA ve SCL tellerine bağlı 3 cihaz ile ortak bir toprak teli paylaşır](../../../../../translated_images/tr/i2c.83da845dde02256b.webp)
 
 Veri göndermek için bir cihaz, veri göndermeye hazır olduğunu göstermek için bir başlangıç durumu oluşturur. Bu cihaz daha sonra denetleyici olur. Denetleyici, iletişim kurmak istediği cihazın adresini ve veri okumak mı yoksa yazmak mı istediğini gönderir. Veri iletimi tamamlandıktan sonra, denetleyici bir bitiş durumu göndererek işlemin bittiğini belirtir. Bundan sonra başka bir cihaz denetleyici olabilir ve veri gönderip alabilir.
 

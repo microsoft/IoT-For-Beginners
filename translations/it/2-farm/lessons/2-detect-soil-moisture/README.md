@@ -13,7 +13,7 @@ I²C ha un bus composto da 2 fili principali, insieme a 2 fili di alimentazione:
 | VCC | Voltage common collector | L'alimentazione per i dispositivi. Questo è collegato ai fili SDA e SCL per fornire loro energia tramite una resistenza pull-up che spegne il segnale quando nessun dispositivo è il controller. |
 | GND | Ground | Fornisce una massa comune per il circuito elettrico. |
 
-![Bus I2C con 3 dispositivi collegati ai fili SDA e SCL, condividendo un filo di massa comune](../../../../../translated_images/it/i2c.83da845dde02256bdd462dbe0d5145461416b74930571b89d1ae142841eeb584.png)
+![Bus I2C con 3 dispositivi collegati ai fili SDA e SCL, condividendo un filo di massa comune](../../../../../translated_images/it/i2c.83da845dde02256b.webp)
 
 Per inviare dati, un dispositivo emette una condizione di avvio per indicare che è pronto a inviare dati. Diventerà quindi il controller. Il controller invia l'indirizzo del dispositivo con cui vuole comunicare, insieme all'indicazione se vuole leggere o scrivere dati. Dopo che i dati sono stati trasmessi, il controller invia una condizione di stop per indicare che ha terminato. Dopo di ciò, un altro dispositivo può diventare il controller e inviare o ricevere dati.
 

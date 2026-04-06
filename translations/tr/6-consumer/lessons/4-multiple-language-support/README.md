@@ -1,6 +1,6 @@
 # Birden Fazla Dili Destekleme
 
-![Bu dersin genel bir sketchnote özeti](../../../../../translated_images/tr/lesson-24.4246968ed058510ab275052e87ef9aa89c7b2f938915d103c605c04dc6cd5bb7.jpg)
+![Bu dersin genel bir sketchnote özeti](../../../../../translated_images/tr/lesson-24.4246968ed058510a.webp)
 
 > Sketchnote: [Nitya Narasimhan](https://github.com/nitya). Daha büyük bir versiyon için görsele tıklayın.
 
@@ -74,7 +74,7 @@ Uygulamalarınızdan konuşma ve metin çevirisi yapmak için kullanabileceğini
 
 ### Bilişsel Hizmetler Konuşma Hizmeti
 
-![Konuşma hizmeti logosu](../../../../../translated_images/tr/azure-speech-logo.a1f08c4befb0159f2cb5d692d3baf5b599e7b44759d316da907bda1508f46a4a.png)
+![Konuşma hizmeti logosu](../../../../../translated_images/tr/azure-speech-logo.a1f08c4befb0159f.webp)
 
 Son birkaç derste kullandığınız konuşma hizmeti, konuşma tanıma için çeviri yeteneklerine sahiptir. Konuşmayı tanıdığınızda, yalnızca aynı dildeki konuşmanın metnini değil, aynı zamanda diğer dillerdeki metni de talep edebilirsiniz.
 
@@ -82,7 +82,7 @@ Son birkaç derste kullandığınız konuşma hizmeti, konuşma tanıma için ç
 
 ### Bilişsel Hizmetler Çevirmen Hizmeti
 
-![Çevirmen hizmeti logosu](../../../../../translated_images/tr/azure-translator-logo.c6ed3a4a433edfd2f11577eca105412c50b8396b194cbbd730723dd1d0793bcd.png)
+![Çevirmen hizmeti logosu](../../../../../translated_images/tr/azure-translator-logo.c6ed3a4a433edfd2.webp)
 
 Çevirmen hizmeti, bir dilden bir veya daha fazla hedef dile metin çevirebilen özel bir çeviri hizmetidir. Çeviri yapmanın yanı sıra, küfürleri maskeleme gibi çok çeşitli ek özellikleri destekler. Ayrıca, belirli bir kelime veya cümle için belirli bir çeviri sağlamanıza, çevrilmesini istemediğiniz terimlerle çalışmanıza veya belirli bir iyi bilinen çeviriyi kullanmanıza olanak tanır.
 

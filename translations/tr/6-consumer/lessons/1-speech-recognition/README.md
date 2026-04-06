@@ -1,6 +1,6 @@
 # IoT Cihazıyla Konuşmayı Tanıma
 
-![Bu dersin genel bir sketchnote özeti](../../../../../translated_images/tr/lesson-21.e34de51354d6606fb5ee08d8c89d0222eea0a2a7aaf744a8805ae847c4f69dc4.jpg)
+![Bu dersin genel bir sketchnote özeti](../../../../../translated_images/tr/lesson-21.e34de51354d6606f.webp)
 
 > Sketchnote: [Nitya Narasimhan](https://github.com/nitya). Daha büyük bir versiyon için görsele tıklayın.
 
@@ -51,7 +51,7 @@ Mikrofonlar çeşitli türlerde gelir:
 
     Dinamik mikrofonların çalışması için güce ihtiyaç yoktur, elektrik sinyali tamamen mikrofon tarafından üretilir.
 
-    ![Patti Smith, bir Shure SM58 (dinamik kardioid türü) mikrofona şarkı söylüyor](../../../../../translated_images/tr/dynamic-mic.8babac890a2d80dfb0874b5bf37d4b851fe2aeb9da6fd72945746176978bf3bb.jpg)
+    ![Patti Smith, bir Shure SM58 (dinamik kardioid türü) mikrofona şarkı söylüyor](../../../../../translated_images/tr/dynamic-mic.8babac890a2d80df.webp)
 
 * Şerit - Şerit mikrofonlar, dinamik mikrofonlara benzer, ancak bir diyafram yerine metal bir şerit kullanır. Bu şerit, bir manyetik alan içinde hareket ederek bir elektrik akımı üretir. Dinamik mikrofonlar gibi, şerit mikrofonların çalışması için güce ihtiyaç yoktur.
 
@@ -59,11 +59,11 @@ Mikrofonlar çeşitli türlerde gelir:
 
 * Kondansatör - Kondansatör mikrofonlarda ince bir metal diyafram ve sabit bir metal arka plaka bulunur. Her ikisine de elektrik uygulanır ve diyafram titreştikçe plakalar arasındaki statik yük değişerek bir sinyal oluşturur. Kondansatör mikrofonların çalışması için güce ihtiyaç vardır - buna *Phantom power* denir.
 
-    ![AKG Acoustics tarafından üretilen C451B küçük diyaframlı kondansatör mikrofon](../../../../../translated_images/tr/condenser-mic.6f6ed5b76ca19e0ec3fd0c544601542d4479a6cb7565db336de49fbbf69f623e.jpg)
+    ![AKG Acoustics tarafından üretilen C451B küçük diyaframlı kondansatör mikrofon](../../../../../translated_images/tr/condenser-mic.6f6ed5b76ca19e0e.webp)
 
 * MEMS - Mikroelektromekanik sistem mikrofonları veya MEMS, bir çip üzerindeki mikrofonlardır. Silikon bir çip üzerine kazınmış bir basınca duyarlı diyaframa sahiptirler ve bir kondansatör mikrofonuna benzer şekilde çalışırlar. Bu mikrofonlar çok küçük olabilir ve devrelere entegre edilebilir.
 
-    ![Bir devre kartı üzerinde bir MEMS mikrofon](../../../../../translated_images/tr/mems-microphone.80574019e1f5e4d9ee72fed720ecd25a39fc2969c91355d17ebb24ba4159e4c4.png)
+    ![Bir devre kartı üzerinde bir MEMS mikrofon](../../../../../translated_images/tr/mems-microphone.80574019e1f5e4d9.webp)
 
     Yukarıdaki görselde, **LEFT** olarak etiketlenmiş çip bir MEMS mikrofondur ve bir milimetreden daha küçük bir diyaframa sahiptir.
 
@@ -159,7 +159,7 @@ Bir uyandırma kelimesi modeli eğitme ve kullanma karmaşıklığından kaçın
 
 ## Konuşmayı Metne Dönüştürme
 
-![Konuşma hizmetleri logosu](../../../../../translated_images/tr/azure-speech-logo.a1f08c4befb0159f2cb5d692d3baf5b599e7b44759d316da907bda1508f46a4a.png)
+![Konuşma hizmetleri logosu](../../../../../translated_images/tr/azure-speech-logo.a1f08c4befb0159f.webp)
 
 Daha önceki bir projede görüntü sınıflandırmada olduğu gibi, konuşmayı bir ses dosyası olarak alıp metne dönüştürebilen önceden oluşturulmuş AI hizmetleri vardır. Bu hizmetlerden biri, uygulamalarınızda kullanabileceğiniz önceden oluşturulmuş AI hizmetleri olan Cognitive Services'ın bir parçası olan Konuşma Hizmeti'dir.
 

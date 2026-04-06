@@ -1,6 +1,6 @@
 # IoT ile Bitki Büyümesini Tahmin Et
 
-![Bu dersin genel bir sketchnote'u](../../../../../translated_images/tr/lesson-5.42b234299279d263143148b88ab4583861a32ddb03110c6c1120e41bb88b2592.jpg)
+![Bu dersin genel bir sketchnote'u](../../../../../translated_images/tr/lesson-5.42b234299279d263.webp)
 
 > Sketchnote [Nitya Narasimhan](https://github.com/nitya) tarafından hazırlanmıştır. Daha büyük bir versiyon için görsele tıklayın.
 
@@ -102,7 +102,7 @@ Bunu manuel olarak yapmak için adımlar:
 
 Örneğin, günün en yüksek sıcaklığı 25°C ve en düşük sıcaklığı 12°C ise:
 
-![GDD = 25 + 12 bölü 2, ardından sonuçtan 10 çıkarılarak 8.5 elde edilir](../../../../../translated_images/tr/gdd-calculation-strawberries.59f57db94b22adb8ff6efb951ace33af104a1c6ccca3ffb0f8169c14cb160c90.png)
+![GDD = 25 + 12 bölü 2, ardından sonuçtan 10 çıkarılarak 8.5 elde edilir](../../../../../translated_images/tr/gdd-calculation-strawberries.59f57db94b22adb8.webp)
 
 * 25 + 12 = 37
 * 37 / 2 = 18.5

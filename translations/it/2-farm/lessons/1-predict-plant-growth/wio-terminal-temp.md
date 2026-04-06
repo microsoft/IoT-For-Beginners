@@ -18,7 +18,7 @@ Il sensore di temperatura Grove può essere collegato alla porta digitale del Wi
 
 Collega il sensore di temperatura.
 
-![Un sensore di temperatura Grove](../../../../../translated_images/it/grove-dht11.07f8eafceee170043efbb53e1d15722bd4e00fbaa9ff74290b57e9f66eb82c17.png)
+![Un sensore di temperatura Grove](../../../../../translated_images/it/grove-dht11.07f8eafceee17004.webp)
 
 1. Inserisci un'estremità di un cavo Grove nella presa del sensore di umidità e temperatura. Può essere inserito solo in un verso.
 

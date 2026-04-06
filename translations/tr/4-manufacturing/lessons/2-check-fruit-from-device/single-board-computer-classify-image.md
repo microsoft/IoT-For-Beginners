@@ -84,7 +84,7 @@ Custom Vision hizmeti, görüntüleri sınıflandırmak için kullanabileceğini
 
     Alınan görüntüyü ve bu değerleri Custom Vision'daki **Predictions** sekmesinde görebileceksiniz.
 
-    ![Custom Vision'da olgun bir muz %56.8 olgun ve %43.1 olgun değil olarak tahmin edildi](../../../../../translated_images/tr/custom-vision-banana-prediction.30cdff4e1d72db5d9a0be0193790a47c2b387da034e12dc1314dd57ca2131b59.png)
+    ![Custom Vision'da olgun bir muz %56.8 olgun ve %43.1 olgun değil olarak tahmin edildi](../../../../../translated_images/tr/custom-vision-banana-prediction.30cdff4e1d72db5d.webp)
 
 > 💁 Bu kodu [code-classify/pi](../../../../../4-manufacturing/lessons/2-check-fruit-from-device/code-classify/pi) veya [code-classify/virtual-iot-device](../../../../../4-manufacturing/lessons/2-check-fruit-from-device/code-classify/virtual-iot-device) klasöründe bulabilirsiniz.
 

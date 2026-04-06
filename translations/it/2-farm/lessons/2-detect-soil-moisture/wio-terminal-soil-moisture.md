@@ -18,7 +18,7 @@ Il sensore Grove di umidità del suolo può essere collegato alla porta analogic
 
 Collega il sensore di umidità del suolo.
 
-![Un sensore Grove di umidità del suolo](../../../../../translated_images/it/grove-capacitive-soil-moisture-sensor.e7f0776cce30e78be5cc5a07839385fd6718857f31b5bf5ad3d0c73c83b2f0ef.png)
+![Un sensore Grove di umidità del suolo](../../../../../translated_images/it/grove-capacitive-soil-moisture-sensor.e7f0776cce30e78b.webp)
 
 1. Inserisci un'estremità di un cavo Grove nella presa del sensore di umidità del suolo. Può essere inserito solo in un verso.
 

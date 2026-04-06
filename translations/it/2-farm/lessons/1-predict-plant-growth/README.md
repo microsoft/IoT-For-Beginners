@@ -1,6 +1,6 @@
 # Prevedere la crescita delle piante con IoT
 
-![Una panoramica illustrata di questa lezione](../../../../../translated_images/it/lesson-5.42b234299279d263143148b88ab4583861a32ddb03110c6c1120e41bb88b2592.jpg)
+![Una panoramica illustrata di questa lezione](../../../../../translated_images/it/lesson-5.42b234299279d263.webp)
 
 > Illustrazione di [Nitya Narasimhan](https://github.com/nitya). Clicca sull'immagine per una versione più grande.
 
@@ -102,7 +102,7 @@ I passaggi per farlo manualmente sono:
 
 Ad esempio, se la temperatura massima della giornata è 25°C e la minima è 12°C:
 
-![GDD = 25 + 12 diviso per 2, poi sottrai 10 dal risultato ottenendo 8.5](../../../../../translated_images/it/gdd-calculation-strawberries.59f57db94b22adb8ff6efb951ace33af104a1c6ccca3ffb0f8169c14cb160c90.png)
+![GDD = 25 + 12 diviso per 2, poi sottrai 10 dal risultato ottenendo 8.5](../../../../../translated_images/it/gdd-calculation-strawberries.59f57db94b22adb8.webp)
 
 * 25 + 12 = 37
 * 37 / 2 = 18.5

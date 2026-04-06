@@ -203,7 +203,7 @@ Konsola `"Merhaba Dünya"` yazdıran bir Python uygulaması oluşturun.
 
     Uygulama çalışmaya başlayacak ve web tarayıcınızda açılacaktır:
 
-    ![Counter Fit uygulaması bir tarayıcıda çalışıyor](../../../../../translated_images/tr/counterfit-first-run.433326358b669b31d0e99c3513cb01bfbb13724d162c99cdcc8f51ecf5f9c779.png)
+    ![Counter Fit uygulaması bir tarayıcıda çalışıyor](../../../../../translated_images/tr/counterfit-first-run.433326358b669b31.webp)
 
     *Bağlantısız* olarak işaretlenecek ve sağ üst köşedeki LED kapalı olacaktır.
 
@@ -224,7 +224,7 @@ Konsola `"Merhaba Dünya"` yazdıran bir Python uygulaması oluşturun.
 
 1. Bu yeni terminalde, daha önce olduğu gibi `app.py` dosyasını çalıştırın. CounterFit'in durumu **Bağlı** olarak değişecek ve LED yanacaktır.
 
-    ![Counter Fit bağlı olarak gösteriliyor](../../../../../translated_images/tr/counterfit-connected.ed30b46d8f79b0921f3fc70be10366e596a89dca3f80c2224a9d9fc98fccf884.png)
+    ![Counter Fit bağlı olarak gösteriliyor](../../../../../translated_images/tr/counterfit-connected.ed30b46d8f79b092.webp)
 
 > 💁 Bu kodu [code/virtual-device](../../../../../1-getting-started/lessons/1-introduction-to-iot/code/virtual-device) klasöründe bulabilirsiniz.
 

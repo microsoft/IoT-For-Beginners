@@ -1,6 +1,6 @@
 # Georecinzioni
 
-![Una panoramica illustrata di questa lezione](../../../../../translated_images/it/lesson-14.63980c5150ae3c153e770fb71d044c1845dce79248d86bed9fc525adf3ede73c.jpg)
+![Una panoramica illustrata di questa lezione](../../../../../translated_images/it/lesson-14.63980c5150ae3c15.webp)
 
 > Illustrazione di [Nitya Narasimhan](https://github.com/nitya). Clicca sull'immagine per una versione più grande.
 
@@ -35,7 +35,7 @@ In questa lezione tratteremo:
 
 Una georecinzione è un perimetro virtuale per una regione geografica reale. Le georecinzioni possono essere cerchi definiti come un punto e un raggio (ad esempio un cerchio di 100m intorno a un edificio) o poligoni che coprono un'area come una zona scolastica, i confini di una città o un campus universitario o aziendale.
 
-![Alcuni esempi di georecinzioni che mostrano una georecinzione circolare intorno al negozio aziendale Microsoft e una georecinzione poligonale intorno al campus ovest di Microsoft](../../../../../translated_images/it/geofence-examples.172fbc534665769f6e1a1ddcf75e3b25183cd10354c80cc603ba44b635390e1a.png)
+![Alcuni esempi di georecinzioni che mostrano una georecinzione circolare intorno al negozio aziendale Microsoft e una georecinzione poligonale intorno al campus ovest di Microsoft](../../../../../translated_images/it/geofence-examples.172fbc534665769f.webp)
 
 > 💁 Potresti aver già utilizzato le georecinzioni senza saperlo. Se hai impostato un promemoria utilizzando l'app Promemoria di iOS o Google Keep basato su una posizione, hai utilizzato una georecinzione. Queste app configurano una georecinzione basata sulla posizione fornita e ti avvisano quando il tuo telefono entra nella georecinzione.
 
@@ -212,7 +212,7 @@ Nell'immagine sopra, la georecinzione ha un search buffer di 50m.
 
 Ad esempio, immagina letture GPS che mostrano un veicolo che percorre una strada che finisce per correre accanto a una georecinzione. Se un singolo valore GPS è impreciso e colloca il veicolo all'interno della georecinzione, nonostante non ci sia accesso veicolare, allora può essere ignorato.
 
-![Un percorso GPS che mostra un veicolo che passa accanto al campus Microsoft sulla 520, con letture GPS lungo la strada tranne una sul campus, all'interno di una georecinzione](../../../../../translated_images/it/geofence-crossing-inaccurate-gps.6a3ed911202ad9cabb66d3964888cec03a42c61d5b8f536ad5bdc99716b370f5.png)
+![Un percorso GPS che mostra un veicolo che passa accanto al campus Microsoft sulla 520, con letture GPS lungo la strada tranne una sul campus, all'interno di una georecinzione](../../../../../translated_images/it/geofence-crossing-inaccurate-gps.6a3ed911202ad9ca.webp)
 Nell'immagine sopra, c'è una geofence che copre una parte del campus di Microsoft. La linea rossa mostra un camion che percorre la 520, con cerchi che rappresentano le letture GPS. La maggior parte di queste letture sono accurate e si trovano lungo la 520, ma c'è una lettura imprecisa all'interno della geofence. Non è possibile che questa lettura sia corretta: non ci sono strade che permettano al camion di deviare improvvisamente dalla 520 verso il campus e poi tornare sulla 520. Il codice che verifica questa geofence dovrà considerare le letture precedenti prima di agire sui risultati del test della geofence.
 
 ✅ Quali dati aggiuntivi ti servirebbero per verificare se una lettura GPS può essere considerata corretta?
@@ -284,7 +284,7 @@ Come ricorderai dalle lezioni precedenti, l'IoT Hub ti consente di riprodurre ev
 
 La risposta è che non può! Invece, puoi definire più connessioni separate per leggere gli eventi, e ciascuna può gestire la riproduzione dei messaggi non letti. Questi sono chiamati *gruppi di consumatori*. Quando ti connetti all'endpoint, puoi specificare a quale gruppo di consumatori vuoi connetterti. Ogni componente della tua applicazione si connetterà a un gruppo di consumatori diverso.
 
-![Un IoT Hub con 3 gruppi di consumatori che distribuiscono gli stessi messaggi a 3 diverse app Functions](../../../../../translated_images/it/consumer-groups.a3262e26fc27ba2092863678ad57af15c7223416e388a23f330c058cf4358630.png)
+![Un IoT Hub con 3 gruppi di consumatori che distribuiscono gli stessi messaggi a 3 diverse app Functions](../../../../../translated_images/it/consumer-groups.a3262e26fc27ba20.webp)
 
 In teoria, fino a 5 applicazioni possono connettersi a ciascun gruppo di consumatori, e tutte riceveranno i messaggi quando arrivano. È una buona pratica avere una sola applicazione che accede a ciascun gruppo di consumatori per evitare l'elaborazione duplicata dei messaggi e garantire che, al riavvio, tutti i messaggi in coda vengano elaborati correttamente. Ad esempio, se lanciassi la tua app Functions localmente e la stessi eseguendo anche nel cloud, entrambe elaborerebbero i messaggi, portando a blob duplicati archiviati nell'account di archiviazione.
 

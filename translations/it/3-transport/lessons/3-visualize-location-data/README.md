@@ -1,6 +1,6 @@
 # Visualizzare i dati di localizzazione
 
-![Una panoramica illustrata di questa lezione](../../../../../translated_images/it/lesson-13.a259db1485021be7d7c72e90842fbe0ab977529e8684c179b5fb1ea75e92b3ef.jpg)
+![Una panoramica illustrata di questa lezione](../../../../../translated_images/it/lesson-13.a259db1485021be7.webp)
 
 > Illustrazione di [Nitya Narasimhan](https://github.com/nitya). Clicca sull'immagine per una versione più grande.
 
@@ -64,11 +64,11 @@ Prendendo un esempio semplice: nel progetto agricolo hai catturato le letture di
 
 Per un essere umano, comprendere questi dati può essere difficile. È una parete di numeri senza significato. Come primo passo per visualizzare questi dati, possono essere tracciati su un grafico a linee:
 
-![Un grafico a linee dei dati sopra](../../../../../translated_images/it/chart-soil-moisture.fd6d9d0cdc0b5f75e78038ecb8945dfc84b38851359de99d84b16e3336d6d7c2.png)
+![Un grafico a linee dei dati sopra](../../../../../translated_images/it/chart-soil-moisture.fd6d9d0cdc0b5f75.webp)
 
 Questo può essere ulteriormente migliorato aggiungendo una linea per indicare quando il sistema di irrigazione automatizzato è stato attivato a una lettura di umidità del suolo di 450:
 
-![Un grafico a linee dell'umidità del suolo con una linea a 450](../../../../../translated_images/it/chart-soil-moisture-relay.fbb391236d34a64d0abf1df396e9197e0a24df14150620b9cc820a64a55c9326.png)
+![Un grafico a linee dell'umidità del suolo con una linea a 450](../../../../../translated_images/it/chart-soil-moisture-relay.fbb391236d34a64d.webp)
 
 Questo grafico mostra molto rapidamente non solo quali erano i livelli di umidità del suolo, ma anche i punti in cui il sistema di irrigazione è stato attivato.
 
@@ -84,7 +84,7 @@ Quando si lavora con dati GPS, la visualizzazione più chiara può essere quella
 
 Lavorare con le mappe è un esercizio interessante, e ce ne sono molte tra cui scegliere, come Bing Maps, Leaflet, Open Street Maps e Google Maps. In questa lezione, imparerai a conoscere [Azure Maps](https://azure.microsoft.com/services/azure-maps/?WT.mc_id=academic-17441-jabenn) e come possono visualizzare i tuoi dati GPS.
 
-![Il logo di Azure Maps](../../../../../translated_images/it/azure-maps-logo.35d01dcfbd81fe6140e94257aaa1538f785a58c91576d14e0ebe7a2f6c694b99.png)
+![Il logo di Azure Maps](../../../../../translated_images/it/azure-maps-logo.35d01dcfbd81fe61.webp)
 
 Azure Maps è "una raccolta di servizi geospaziali e SDK che utilizzano dati di mappatura aggiornati per fornire contesto geografico alle applicazioni web e mobili." Ai sviluppatori vengono forniti strumenti per creare mappe belle e interattive che possono fare cose come fornire percorsi di traffico consigliati, informazioni sugli incidenti stradali, navigazione interna, capacità di ricerca, informazioni sull'elevazione, servizi meteorologici e altro.
 
@@ -185,7 +185,7 @@ Ora puoi fare il passo successivo, ovvero visualizzare la tua mappa su una pagin
 
     Se apri la tua pagina `index.html` in un browser web, dovresti vedere una mappa caricata, focalizzata sull'area di Seattle.
 
-    ![Una mappa che mostra Seattle, una città nello stato di Washington, USA](../../../../../translated_images/it/map-image.8fb2c53eb23ef39c1c0a4410a5282e879b3b452b707eb066ff04c5488d3d72b7.png)
+    ![Una mappa che mostra Seattle, una città nello stato di Washington, USA](../../../../../translated_images/it/map-image.8fb2c53eb23ef39c.webp)
 
     ✅ Sperimenta con i parametri di zoom e centro per modificare la visualizzazione della tua mappa. Puoi aggiungere diverse coordinate corrispondenti alla latitudine e longitudine dei tuoi dati per ricentrare la mappa.
 
@@ -319,7 +319,7 @@ Se effettui una chiamata al tuo storage per recuperare i dati, potresti essere s
 
 1. Carica la pagina HTML nel tuo browser. Verrà caricata la mappa, quindi tutti i dati GPS dallo storage saranno caricati e tracciati sulla mappa.
 
-    ![Una mappa del Saint Edward State Park vicino a Seattle, con cerchi che mostrano un percorso attorno al bordo del parco](../../../../../translated_images/it/map-path.896832e72dc696ffe20650e4051027d4855442d955f93fdbb80bb417ca8a406f.png)
+    ![Una mappa del Saint Edward State Park vicino a Seattle, con cerchi che mostrano un percorso attorno al bordo del parco](../../../../../translated_images/it/map-path.896832e72dc696ff.webp)
 
 > 💁 Puoi trovare questo codice nella [cartella del codice](../../../../../3-transport/lessons/3-visualize-location-data/code).
 

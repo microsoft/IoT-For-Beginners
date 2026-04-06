@@ -1,6 +1,6 @@
 # Automatyczne podlewanie roślin
 
-![Szkicowy przegląd tej lekcji](../../../../../translated_images/pl/lesson-7.30b5f577d3cb8e031238751475cb519c7d6dbaea261b5df4643d086ffb2a03bb.jpg)
+![Szkicowy przegląd tej lekcji](../../../../../translated_images/pl/lesson-7.30b5f577d3cb8e03.webp)
 
 > Szkic autorstwa [Nitya Narasimhan](https://github.com/nitya). Kliknij obraz, aby zobaczyć większą wersję.
 
@@ -32,7 +32,7 @@ Urządzenia IoT korzystają z niskiego napięcia. Chociaż jest ono wystarczają
 
 Rozwiązaniem tego problemu jest podłączenie pompy do zewnętrznego źródła zasilania i użycie siłownika do włączania pompy, podobnie jak włączasz światło. Wymaga to niewielkiej ilości energii (w postaci energii z twojego ciała), aby palcem przełączyć włącznik, co łączy światło z siecią elektryczną o napięciu 110V/240V.
 
-![Włącznik światła włącza zasilanie do lampy](../../../../../translated_images/pl/light-switch.760317ad6ab8bd6d611da5352dfe9c73a94a0822ccec7df3c8bae35da18e1658.png)
+![Włącznik światła włącza zasilanie do lampy](../../../../../translated_images/pl/light-switch.760317ad6ab8bd6d.webp)
 
 > 🎓 [Prąd sieciowy](https://wikipedia.org/wiki/Mains_electricity) odnosi się do elektryczności dostarczanej do domów i firm przez infrastrukturę krajową w wielu częściach świata.
 
@@ -72,7 +72,7 @@ Gdy dźwignia się porusza, zwykle można usłyszeć charakterystyczny klik, gdy
 
 Elektromagnes nie potrzebuje dużo mocy, aby się aktywować i przyciągnąć dźwignię, można go sterować za pomocą 3,3V lub 5V z urządzenia IoT. Obwód wyjściowy może przenosić znacznie większą moc, w zależności od przekaźnika, w tym napięcie sieciowe lub nawet wyższe poziomy mocy dla zastosowań przemysłowych. Dzięki temu zestaw IoT może sterować systemem nawadniania, od małej pompy dla pojedynczej rośliny, po ogromny system przemysłowy dla całej farmy komercyjnej.
 
-![Przekaźnik Grove z oznaczonym obwodem sterującym, obwodem wyjściowym i przekaźnikiem](../../../../../translated_images/pl/grove-relay-labelled.293e068f5c3c2a199bd7892f2661fdc9e10c920b535cfed317fbd6d1d4ae1168.png)
+![Przekaźnik Grove z oznaczonym obwodem sterującym, obwodem wyjściowym i przekaźnikiem](../../../../../translated_images/pl/grove-relay-labelled.293e068f5c3c2a19.webp)
 
 Na powyższym obrazie pokazano przekaźnik Grove. Obwód sterujący łączy się z urządzeniem IoT i włącza lub wyłącza przekaźnik za pomocą 3,3V lub 5V. Obwód wyjściowy ma dwa terminale, z których każdy może być zasilaniem lub masą. Obwód wyjściowy może obsługiwać do 250V przy 10A, co wystarcza dla szeregu urządzeń zasilanych z sieci. Można również znaleźć przekaźniki obsługujące jeszcze wyższe poziomy mocy.
 

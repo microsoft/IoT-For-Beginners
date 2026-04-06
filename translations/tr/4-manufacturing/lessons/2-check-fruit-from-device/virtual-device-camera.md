@@ -34,11 +34,11 @@ Kamerayı CounterFit uygulamasına ekleyin.
 
     1. Kamerayı oluşturmak için **Add** düğmesini seçin.
 
-    ![Kamera ayarları](../../../../../translated_images/tr/counterfit-create-camera.a5de97f59c0bd3cbe0416d7e89a3cfe86d19fbae05c641c53a91286412af0a34.png)
+    ![Kamera ayarları](../../../../../translated_images/tr/counterfit-create-camera.a5de97f59c0bd3cb.webp)
 
     Kamera oluşturulacak ve sensörler listesinde görünecektir.
 
-    ![Oluşturulan kamera](../../../../../translated_images/tr/counterfit-camera.001ec52194c8ee5d3f617173da2c79e1df903d10882adc625cbfc493525125d4.png)
+    ![Oluşturulan kamera](../../../../../translated_images/tr/counterfit-camera.001ec52194c8ee5d.webp)
 
 ## Kamerayı Programlama
 
@@ -103,7 +103,7 @@ Cihazı programlayın.
 
 1. CounterFit'teki kameranın yakalayacağı görüntüyü yapılandırın. *Source* seçeneğini *File* olarak ayarlayabilir ve bir görüntü dosyası yükleyebilir veya *Source* seçeneğini *WebCam* olarak ayarlayarak görüntülerin web kameranızdan yakalanmasını sağlayabilirsiniz. Bir resim seçtikten veya web kameranızı seçtikten sonra **Set** düğmesini seçtiğinizden emin olun.
 
-    ![CounterFit'te bir dosyanın görüntü kaynağı olarak ayarlandığı ve bir kişinin muz tuttuğu bir web kamerası önizlemesi](../../../../../translated_images/tr/counterfit-camera-options.eb3bd5150a8e7dffbf24bc5bcaba0cf2cdef95fbe6bbe393695d173817d6b8df.png)
+    ![CounterFit'te bir dosyanın görüntü kaynağı olarak ayarlandığı ve bir kişinin muz tuttuğu bir web kamerası önizlemesi](../../../../../translated_images/tr/counterfit-camera-options.eb3bd5150a8e7dff.webp)
 
 1. Bir görüntü yakalanacak ve mevcut klasörde `image.jpg` olarak kaydedilecektir. Bu dosyayı VS Code gezgininde göreceksiniz. Dosyayı seçerek görüntüyü görüntüleyin. Döndürme gerekiyorsa, `camera.rotation = 0` satırını uygun şekilde güncelleyin ve başka bir fotoğraf çekin.
 
