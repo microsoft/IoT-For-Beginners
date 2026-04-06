@@ -18,13 +18,13 @@ De Grove bodemvochtsensor kan worden aangesloten op de Raspberry Pi.
 
 Verbind de bodemvochtsensor.
 
-![Een grove bodemvochtsensor](../../../../../translated_images/nl/grove-capacitive-soil-moisture-sensor.e7f0776cce30e78be5cc5a07839385fd6718857f31b5bf5ad3d0c73c83b2f0ef.png)
+![Een grove bodemvochtsensor](../../../../../translated_images/nl/grove-capacitive-soil-moisture-sensor.e7f0776cce30e78b.webp)
 
 1. Steek één uiteinde van een Grove-kabel in de aansluiting op de bodemvochtsensor. Hij past maar op één manier.
 
 1. Met de Raspberry Pi uitgeschakeld, verbind je het andere uiteinde van de Grove-kabel met de analoge aansluiting gemarkeerd **A0** op de Grove Base Hat die op de Pi is bevestigd. Deze aansluiting is de tweede van rechts, op de rij aansluitingen naast de GPIO-pinnen.
 
-![De grove bodemvochtsensor aangesloten op de A0-aansluiting](../../../../../translated_images/nl/pi-soil-moisture-sensor.fdd7eb2393792cf6739cacf1985d9f55beda16d372f30d0b5a51d586f978a870.png)
+![De grove bodemvochtsensor aangesloten op de A0-aansluiting](../../../../../translated_images/nl/pi-soil-moisture-sensor.fdd7eb2393792cf6.webp)
 
 1. Steek de bodemvochtsensor in de grond. Hij heeft een 'hoogste positie lijn' - een witte lijn over de sensor. Steek de sensor tot aan, maar niet voorbij deze lijn.
 

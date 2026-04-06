@@ -20,7 +20,7 @@ De Grove Time of Flight-sensor kan worden aangesloten op de Raspberry Pi.
 
 Verbind de Time of Flight-sensor.
 
-![Een Grove Time of Flight-sensor](../../../../../translated_images/nl/grove-time-of-flight-sensor.d82ff2165bfded9f485de54d8d07195a6270a602696825fca19f629ddfe94e86.png)
+![Een Grove Time of Flight-sensor](../../../../../translated_images/nl/grove-time-of-flight-sensor.d82ff2165bfded9f.webp)
 
 1. Steek één uiteinde van een Grove-kabel in de aansluiting op de Time of Flight-sensor. De kabel past maar op één manier.
 

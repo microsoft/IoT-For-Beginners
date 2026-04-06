@@ -20,7 +20,7 @@
 
 חבר את חיישן ה-Time of Flight.
 
-![חיישן Time of Flight מסוג Grove](../../../../../translated_images/he/grove-time-of-flight-sensor.d82ff2165bfded9f485de54d8d07195a6270a602696825fca19f629ddfe94e86.png)
+![חיישן Time of Flight מסוג Grove](../../../../../translated_images/he/grove-time-of-flight-sensor.d82ff2165bfded9f.webp)
 
 1. הכנס קצה אחד של כבל Grove לשקע בחיישן ה-Time of Flight. הוא ייכנס רק בכיוון אחד.
 

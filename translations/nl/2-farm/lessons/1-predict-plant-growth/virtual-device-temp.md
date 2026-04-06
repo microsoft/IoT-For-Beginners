@@ -38,11 +38,11 @@ Voeg de vochtigheids- en temperatuursensoren toe aan de CounterFit-app.
 
     1. Selecteer de knop **Add** om de vochtigheidssensor op Pin 5 aan te maken.
 
-    ![De instellingen van de vochtigheidssensor](../../../../../translated_images/nl/counterfit-create-humidity-sensor.2750e27b6f30e09cf4e22101defd5252710717620816ab41ba688f91f757c49a.png)
+    ![De instellingen van de vochtigheidssensor](../../../../../translated_images/nl/counterfit-create-humidity-sensor.2750e27b6f30e09c.webp)
 
     De vochtigheidssensor wordt aangemaakt en verschijnt in de sensorenlijst.
 
-    ![De aangemaakte vochtigheidssensor](../../../../../translated_images/nl/counterfit-humidity-sensor.7b12f7f339e430cb26c8211d2dba4ef75261b353a01da0932698b5bebd693f27.png)
+    ![De aangemaakte vochtigheidssensor](../../../../../translated_images/nl/counterfit-humidity-sensor.7b12f7f339e430cb.webp)
 
 1. Maak een temperatuursensor aan:
 
@@ -54,11 +54,11 @@ Voeg de vochtigheids- en temperatuursensoren toe aan de CounterFit-app.
 
     1. Selecteer de knop **Add** om de temperatuursensor op Pin 6 aan te maken.
 
-    ![De instellingen van de temperatuursensor](../../../../../translated_images/nl/counterfit-create-temperature-sensor.199350ed34f7343d79dccbe95eaf6c11d2121f03d1c35ab9613b330c23f39b29.png)
+    ![De instellingen van de temperatuursensor](../../../../../translated_images/nl/counterfit-create-temperature-sensor.199350ed34f7343d.webp)
 
     De temperatuursensor wordt aangemaakt en verschijnt in de sensorenlijst.
 
-    ![De aangemaakte temperatuursensor](../../../../../translated_images/nl/counterfit-temperature-sensor.f0560236c96a9016bafce7f6f792476fe3367bc6941a1f7d5811d144d4bcbfff.png)
+    ![De aangemaakte temperatuursensor](../../../../../translated_images/nl/counterfit-temperature-sensor.f0560236c96a9016.webp)
 
 ## Programmeer de temperatuursensor-app
 

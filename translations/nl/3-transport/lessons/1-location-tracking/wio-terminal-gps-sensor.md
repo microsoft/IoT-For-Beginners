@@ -18,7 +18,7 @@ De Grove GPS-sensor kan worden aangesloten op de Wio Terminal.
 
 Verbind de GPS-sensor.
 
-![Een Grove GPS-sensor](../../../../../translated_images/nl/grove-gps-sensor.247943bf69b03f0d1820ef6ed10c587f9b650e8db55b936851c92412180bd3e2.png)
+![Een Grove GPS-sensor](../../../../../translated_images/nl/grove-gps-sensor.247943bf69b03f0d.webp)
 
 1. Steek één uiteinde van een Grove-kabel in de aansluiting op de GPS-sensor. De kabel past maar op één manier.
 

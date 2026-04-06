@@ -18,7 +18,7 @@
 
 חבר את חיישן ה-GPS.
 
-![חיישן GPS מסוג Grove](../../../../../translated_images/he/grove-gps-sensor.247943bf69b03f0d1820ef6ed10c587f9b650e8db55b936851c92412180bd3e2.png)
+![חיישן GPS מסוג Grove](../../../../../translated_images/he/grove-gps-sensor.247943bf69b03f0d.webp)
 
 1. הכנס קצה אחד של כבל Grove לשקע שבחיישן ה-GPS. הכבל ייכנס רק בכיוון אחד.
 

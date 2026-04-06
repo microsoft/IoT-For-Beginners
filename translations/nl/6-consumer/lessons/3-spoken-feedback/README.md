@@ -1,6 +1,6 @@
 # Stel een timer in en geef gesproken feedback
 
-![Een schetsmatige samenvatting van deze les](../../../../../translated_images/nl/lesson-23.f38483e1d4df4828990d3f02d60e46c978b075d384ae7cb4f7bab738e107c850.jpg)
+![Een schetsmatige samenvatting van deze les](../../../../../translated_images/nl/lesson-23.f38483e1d4df4828.webp)
 
 > Sketchnote door [Nitya Narasimhan](https://github.com/nitya). Klik op de afbeelding voor een grotere versie.
 

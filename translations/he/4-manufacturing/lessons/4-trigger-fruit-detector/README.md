@@ -1,6 +1,6 @@
 # הפעלת זיהוי איכות פירות באמצעות חיישן
 
-![סקיצה של השיעור](../../../../../translated_images/he/lesson-18.92c32ed1d354caa5a54baa4032cf0b172d4655e8e326ad5d46c558a0def15365.jpg)
+![סקיצה של השיעור](../../../../../translated_images/he/lesson-18.92c32ed1d354caa5.webp)
 
 > סקיצה מאת [ניטיה נאראסימן](https://github.com/nitya). לחצו על התמונה לגרסה גדולה יותר.
 
@@ -39,7 +39,7 @@
 
 ### ארכיטקטורת IoT לדוגמה
 
-![ארכיטקטורת IoT לדוגמה](../../../../../translated_images/he/iot-reference-architecture.2278b98b55c6d4e89bde18eada3688d893861d43507641804dd2f9d3079cfaa0.png)
+![ארכיטקטורת IoT לדוגמה](../../../../../translated_images/he/iot-reference-architecture.2278b98b55c6d4e8.webp)
 
 התרשים לעיל מציג ארכיטקטורת IoT לדוגמה.
 
@@ -49,7 +49,7 @@
 * **תובנות** מגיעות מיישומים ללא שרת או מניתוחים על נתונים מאוחסנים.
 * **פעולות** יכולות להיות פקודות שנשלחות למכשירים או ויזואליזציה של נתונים שמאפשרת לבני אדם לקבל החלטות.
 
-![ארכיטקטורת IoT לדוגמה](../../../../../translated_images/he/iot-reference-architecture-azure.0b8d2161af924cb18ae48a8558a19541cca47f27264851b5b7e56d7b8bb372ac.png)
+![ארכיטקטורת IoT לדוגמה](../../../../../translated_images/he/iot-reference-architecture-azure.0b8d2161af924cb1.webp)
 
 התרשים לעיל מציג כמה מהרכיבים והשירותים שנלמדו בשיעורים אלו וכיצד הם מתחברים יחד בארכיטקטורת IoT לדוגמה.
 
@@ -89,7 +89,7 @@
 
 ### יצירת אב-טיפוס לאפליקציה שלכם
 
-![ארכיטקטורת IoT לדוגמה לבדיקת איכות פירות](../../../../../translated_images/he/iot-reference-architecture-fruit-quality.cc705f121c3b6fa71c800d9630935ac34bc08223a04601e35f41d5e9b5dd5207.png)
+![ארכיטקטורת IoT לדוגמה לבדיקת איכות פירות](../../../../../translated_images/he/iot-reference-architecture-fruit-quality.cc705f121c3b6fa7.webp)
 
 התרשים לעיל מציג ארכיטקטורה לדוגמה לאפליקציה זו.
 
@@ -124,7 +124,7 @@
 
 לגלאי הפירות באב-טיפוס יש רכיבים מרובים שמתקשרים זה עם זה.
 
-![הרכיבים מתקשרים זה עם זה](../../../../../translated_images/he/fruit-quality-detector-message-flow.adf2a65da8fd8741ac7af11361574de89adc126785d67606bb4d2ec00467e380.png)
+![הרכיבים מתקשרים זה עם זה](../../../../../translated_images/he/fruit-quality-detector-message-flow.adf2a65da8fd8741.webp)
 
 * חיישן קרבה שמודד את המרחק לפירות ושולח זאת ל-IoT Hub
 * הפקודה לשלוט במצלמה שמגיעה מ-IoT Hub למכשיר המצלמה

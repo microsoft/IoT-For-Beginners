@@ -18,7 +18,7 @@ Het Grove relais kan worden aangesloten op de digitale poort van de Wio Terminal
 
 Verbind het relais.
 
-![Een Grove relais](../../../../../translated_images/nl/grove-relay.d426958ca210fbd0fb7983d7edc069d46c73a8b0a099d94797bd756f7b6bb6be.png)
+![Een Grove relais](../../../../../translated_images/nl/grove-relay.d426958ca210fbd0.webp)
 
 1. Steek één uiteinde van een Grove-kabel in de aansluiting op het relais. Het past maar op één manier.
 

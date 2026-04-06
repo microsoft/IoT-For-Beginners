@@ -1,6 +1,6 @@
 # מבוא ל-IoT
 
-![סקיצה של השיעור](../../../../../translated_images/he/lesson-1.2606670fa61ee904687da5d6fa4e726639d524d064c895117da1b95b9ff6251d.jpg)
+![סקיצה של השיעור](../../../../../translated_images/he/lesson-1.2606670fa61ee904.webp)
 
 > סקיצה מאת [ניטיה נאראסימן](https://github.com/nitya). לחצו על התמונה לגרסה גדולה יותר.
 

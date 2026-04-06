@@ -1,6 +1,6 @@
 # Geofences
 
-![Een schetsnotitie-overzicht van deze les](../../../../../translated_images/nl/lesson-14.63980c5150ae3c153e770fb71d044c1845dce79248d86bed9fc525adf3ede73c.jpg)
+![Een schetsnotitie-overzicht van deze les](../../../../../translated_images/nl/lesson-14.63980c5150ae3c15.webp)
 
 > Schetsnotitie door [Nitya Narasimhan](https://github.com/nitya). Klik op de afbeelding voor een grotere versie.
 
@@ -35,7 +35,7 @@ In deze les behandelen we:
 
 Een geofence is een virtuele omtrek voor een geografisch gebied in de echte wereld. Geofences kunnen cirkels zijn, gedefinieerd als een punt en een straal (bijvoorbeeld een cirkel van 100 meter rond een gebouw), of een veelhoek die een gebied beslaat, zoals een schoolzone, stadsgrenzen of een universiteits- of kantoorcampus.
 
-![Enkele voorbeelden van geofences met een cirkelvormige geofence rond de Microsoft-bedrijfswinkel en een veelhoekige geofence rond de Microsoft west-campus](../../../../../translated_images/nl/geofence-examples.172fbc534665769f6e1a1ddcf75e3b25183cd10354c80cc603ba44b635390e1a.png)
+![Enkele voorbeelden van geofences met een cirkelvormige geofence rond de Microsoft-bedrijfswinkel en een veelhoekige geofence rond de Microsoft west-campus](../../../../../translated_images/nl/geofence-examples.172fbc534665769f.webp)
 
 > 💁 Misschien heb je al eerder geofences gebruikt zonder het te weten. Als je een herinnering hebt ingesteld met de iOS-herinneringen-app of Google Keep op basis van een locatie, heb je een geofence gebruikt. Deze apps stellen een geofence in op basis van de opgegeven locatie en waarschuwen je wanneer je telefoon de geofence binnenkomt.
 
@@ -212,7 +212,7 @@ Het is belangrijk om de afstand tot de rand van de geofence te kennen en dit te 
 
 Stel je bijvoorbeeld voor dat GPS-metingen laten zien dat een voertuig langs een weg rijdt die naast een geofence loopt. Als een enkele GPS-waarde onnauwkeurig is en het voertuig binnen de geofence plaatst, ondanks dat er geen toegang voor voertuigen is, kan dit worden genegeerd.
 
-![Een GPS-spoor dat een voertuig toont dat langs de Microsoft-campus op de 520 rijdt, met GPS-metingen langs de weg behalve één op de campus, binnen een geofence](../../../../../translated_images/nl/geofence-crossing-inaccurate-gps.6a3ed911202ad9cabb66d3964888cec03a42c61d5b8f536ad5bdc99716b370f5.png)
+![Een GPS-spoor dat een voertuig toont dat langs de Microsoft-campus op de 520 rijdt, met GPS-metingen langs de weg behalve één op de campus, binnen een geofence](../../../../../translated_images/nl/geofence-crossing-inaccurate-gps.6a3ed911202ad9ca.webp)
 In de bovenstaande afbeelding is er een geofence over een deel van de Microsoft-campus. De rode lijn toont een vrachtwagen die langs de 520 rijdt, met cirkels die de GPS-metingen aangeven. De meeste hiervan zijn nauwkeurig en bevinden zich langs de 520, met één onnauwkeurige meting binnen de geofence. Het is onmogelijk dat die meting correct is - er zijn geen wegen waar de vrachtwagen plotseling van de 520 naar de campus kan afwijken en vervolgens weer terug naar de 520. De code die deze geofence controleert, moet rekening houden met de eerdere metingen voordat er actie wordt ondernomen op basis van de resultaten van de geofence-test.
 
 ✅ Welke aanvullende gegevens zou je nodig hebben om te controleren of een GPS-meting als correct kan worden beschouwd?
@@ -284,7 +284,7 @@ Zoals je je herinnert uit eerdere lessen, stelt de IoT Hub je in staat om gebeur
 
 Het antwoord is dat het dat niet kan! In plaats daarvan kun je meerdere afzonderlijke verbindingen definiëren om gebeurtenissen te lezen, en elk kan het opnieuw afspelen van ongelezen berichten beheren. Dit worden *consumer groups* genoemd. Wanneer je verbinding maakt met het eindpunt, kun je specificeren met welke consumer group je verbinding wilt maken. Elk onderdeel van je applicatie zal verbinding maken met een andere consumer group.
 
-![Eén IoT Hub met 3 consumer groups die dezelfde berichten distribueren naar 3 verschillende Functions-apps](../../../../../translated_images/nl/consumer-groups.a3262e26fc27ba2092863678ad57af15c7223416e388a23f330c058cf4358630.png)
+![Eén IoT Hub met 3 consumer groups die dezelfde berichten distribueren naar 3 verschillende Functions-apps](../../../../../translated_images/nl/consumer-groups.a3262e26fc27ba20.webp)
 
 In theorie kunnen maximaal 5 applicaties verbinding maken met elke consumer group, en ze zullen allemaal berichten ontvangen wanneer deze binnenkomen. Het is best practice om slechts één applicatie toegang te geven tot elke consumer group om dubbele berichtverwerking te voorkomen en ervoor te zorgen dat bij het opnieuw starten alle wachtrijberichten correct worden verwerkt. Bijvoorbeeld, als je je Functions-app lokaal lanceert terwijl deze ook in de cloud draait, zouden beide berichten verwerken, wat leidt tot dubbele blobs die in het opslagaccount worden opgeslagen.
 

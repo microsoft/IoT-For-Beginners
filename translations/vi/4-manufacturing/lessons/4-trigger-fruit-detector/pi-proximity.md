@@ -20,7 +20,7 @@ Cảm biến Time of Flight Grove có thể được kết nối với Raspberry
 
 Kết nối cảm biến Time of Flight.
 
-![Một cảm biến Time of Flight Grove](../../../../../translated_images/vi/grove-time-of-flight-sensor.d82ff2165bfded9f485de54d8d07195a6270a602696825fca19f629ddfe94e86.png)
+![Một cảm biến Time of Flight Grove](../../../../../translated_images/vi/grove-time-of-flight-sensor.d82ff2165bfded9f.webp)
 
 1. Cắm một đầu của cáp Grove vào ổ cắm trên cảm biến Time of Flight. Cáp chỉ có thể cắm theo một chiều.
 

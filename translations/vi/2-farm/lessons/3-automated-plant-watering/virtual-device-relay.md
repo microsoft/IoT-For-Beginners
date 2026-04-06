@@ -28,11 +28,11 @@ Thêm relay vào ứng dụng CounterFit.
 
     1. Nhấn nút **Add** để tạo relay trên Pin 5.
 
-    ![Cài đặt relay](../../../../../translated_images/vi/counterfit-create-relay.fa7c40fd0f2f6afc33b35ea94fcb235085be4861e14e3fe6b9b7bcfc82d1c888.png)
+    ![Cài đặt relay](../../../../../translated_images/vi/counterfit-create-relay.fa7c40fd0f2f6afc.webp)
 
     Relay sẽ được tạo và xuất hiện trong danh sách actuators.
 
-    ![Relay đã được tạo](../../../../../translated_images/vi/counterfit-relay.bbf74c1dbdc8b9acd983367fcbd06703a402aefef6af54ddb28e11307ba8a12c.png)
+    ![Relay đã được tạo](../../../../../translated_images/vi/counterfit-relay.bbf74c1dbdc8b9ac.webp)
 
 ## Lập trình relay
 

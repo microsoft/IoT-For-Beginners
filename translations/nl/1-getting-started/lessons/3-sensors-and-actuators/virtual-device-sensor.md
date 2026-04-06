@@ -28,11 +28,11 @@ Voeg de lichtsensor toe aan de CounterFit-app.
 
     1. Selecteer de knop **Add** om de lichtsensor aan te maken op Pin 0.
 
-    ![De instellingen van de lichtsensor](../../../../../translated_images/nl/counterfit-create-light-sensor.9f36a5e0d4458d8d554d54b34d2c806d56093d6e49fddcda2d20f6fef7f5cce1.png)
+    ![De instellingen van de lichtsensor](../../../../../translated_images/nl/counterfit-create-light-sensor.9f36a5e0d4458d8d.webp)
 
     De lichtsensor wordt aangemaakt en verschijnt in de sensorenlijst.
 
-    ![De aangemaakte lichtsensor](../../../../../translated_images/nl/counterfit-light-sensor.5d0f5584df56b90f6b2561910d9cb20dfbd73eeff2177c238d38f4de54aefae1.png)
+    ![De aangemaakte lichtsensor](../../../../../translated_images/nl/counterfit-light-sensor.5d0f5584df56b90f.webp)
 
 ## Programmeer de lichtsensor
 

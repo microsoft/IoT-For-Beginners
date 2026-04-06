@@ -16,7 +16,7 @@
 
 חבר את המצלמה.
 
-![חיישן ArduCam](../../../../../translated_images/he/arducam.20e4e4cbb268296570b5914e20d6c349fc42ddac9ed4e1b9deba2188204eebae.png)
+![חיישן ArduCam](../../../../../translated_images/he/arducam.20e4e4cbb2682965.webp)
 
 1. הפינים בבסיס ה-ArduCam צריכים להיות מחוברים לפיני GPIO ב-Wio Terminal. כדי להקל על מציאת הפינים הנכונים, הצמד את מדבקת פיני GPIO שמגיעה עם ה-Wio Terminal סביב הפינים:
 
@@ -35,7 +35,7 @@
     | SDA         | 3 (I2C1_SDA)     | נתונים סדרתיים I2C                     |
     | SCL         | 5 (I2C1_SCL)     | שעון סדרתי I2C                          |
 
-    ![ה-Wio Terminal מחובר ל-ArduCam עם חוטי ג'אמפר](../../../../../translated_images/he/arducam-wio-terminal-connections.a4d5a4049bdb5ab800a2877389fc6ecf5e4ff307e6451ff56c517e6786467d0a.png)
+    ![ה-Wio Terminal מחובר ל-ArduCam עם חוטי ג'אמפר](../../../../../translated_images/he/arducam-wio-terminal-connections.a4d5a4049bdb5ab8.webp)
 
     חיבורי GND ו-VCC מספקים ספק כוח של 5V ל-ArduCam. הוא פועל ב-5V, בניגוד לחיישני Grove שפועלים ב-3V. כוח זה מגיע ישירות מחיבור ה-USB-C שמספק כוח למכשיר.
 
@@ -456,7 +456,7 @@
 
 1. כבה את כרטיס ה-microSD והוצא אותו על ידי לחיצה קלה ושחרור, והוא יקפוץ החוצה. ייתכן שתצטרך להשתמש בכלי דק כדי לעשות זאת. חבר את כרטיס ה-microSD למחשב שלך כדי לצפות בתמונות.
 
-    ![תמונה של בננה שצולמה באמצעות ArduCam](../../../../../translated_images/he/banana-arducam.be1b32d4267a8194b0fd042362e56faa431da9cd4af172051b37243ea9be0256.jpg)
+    ![תמונה של בננה שצולמה באמצעות ArduCam](../../../../../translated_images/he/banana-arducam.be1b32d4267a8194.webp)
 💁 ייתכן שייקח כמה תמונות עד שהאיזון הלבן של המצלמה יתאים את עצמו. תבחינו בכך על סמך הצבע של התמונות שצולמו, הראשונות עשויות להיראות בצבע שגוי. תמיד תוכלו לעקוף זאת על ידי שינוי הקוד כך שיצלם כמה תמונות שמתעלמים מהן בפונקציית `setup`.
 
 

@@ -16,13 +16,13 @@
 
 חברו את חיישן הטמפרטורה
 
-![חיישן טמפרטורה Grove](../../../../../translated_images/he/grove-dht11.07f8eafceee170043efbb53e1d15722bd4e00fbaa9ff74290b57e9f66eb82c17.png)
+![חיישן טמפרטורה Grove](../../../../../translated_images/he/grove-dht11.07f8eafceee17004.webp)
 
 1. הכניסו קצה אחד של כבל Grove לשקע שעל חיישן הלחות והטמפרטורה. הכבל ייכנס רק בכיוון אחד.
 
 1. כאשר ה-Raspberry Pi כבוי, חברו את הקצה השני של כבל ה-Grove לשקע הדיגיטלי המסומן **D5** על כובע הבסיס של Grove המחובר ל-Pi. שקע זה הוא השני משמאל, בשורת השקעים הסמוכה לפינים של GPIO.
 
-![חיישן הטמפרטורה Grove מחובר לשקע A0](../../../../../translated_images/he/pi-temperature-sensor.3ff82fff672c8e565ef25a39d26d111de006b825a7e0867227ef4e7fbff8553c.png)
+![חיישן הטמפרטורה Grove מחובר לשקע A0](../../../../../translated_images/he/pi-temperature-sensor.3ff82fff672c8e56.webp)
 
 ## תכנות חיישן הטמפרטורה
 

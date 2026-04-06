@@ -1,6 +1,6 @@
 # Giới thiệu về IoT
 
-![Tóm tắt bài học bằng sketchnote](../../../../../translated_images/vi/lesson-1.2606670fa61ee904687da5d6fa4e726639d524d064c895117da1b95b9ff6251d.jpg)
+![Tóm tắt bài học bằng sketchnote](../../../../../translated_images/vi/lesson-1.2606670fa61ee904.webp)
 
 > Sketchnote bởi [Nitya Narasimhan](https://github.com/nitya). Nhấn vào hình ảnh để xem phiên bản lớn hơn.
 

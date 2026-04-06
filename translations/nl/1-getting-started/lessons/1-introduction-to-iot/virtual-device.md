@@ -203,7 +203,7 @@ Als een tweede 'Hello World'-stap ga je de CounterFit-app uitvoeren en je code e
 
     De app zal starten en openen in je webbrowser:
 
-    ![De CounterFit-app draait in een browser](../../../../../translated_images/nl/counterfit-first-run.433326358b669b31d0e99c3513cb01bfbb13724d162c99cdcc8f51ecf5f9c779.png)
+    ![De CounterFit-app draait in een browser](../../../../../translated_images/nl/counterfit-first-run.433326358b669b31.webp)
 
     Het zal worden gemarkeerd als *Disconnected*, met de LED in de rechterbovenhoek uitgeschakeld.
 
@@ -224,7 +224,7 @@ Als een tweede 'Hello World'-stap ga je de CounterFit-app uitvoeren en je code e
 
 1. Voer in deze nieuwe terminal het bestand `app.py` uit zoals eerder. De status van CounterFit zal veranderen naar **Connected** en de LED zal oplichten.
 
-    ![CounterFit toont als verbonden](../../../../../translated_images/nl/counterfit-connected.ed30b46d8f79b0921f3fc70be10366e596a89dca3f80c2224a9d9fc98fccf884.png)
+    ![CounterFit toont als verbonden](../../../../../translated_images/nl/counterfit-connected.ed30b46d8f79b092.webp)
 
 > 💁 Je kunt deze code vinden in de [code/virtual-device](../../../../../1-getting-started/lessons/1-introduction-to-iot/code/virtual-device)-map.
 

@@ -1,6 +1,6 @@
 # Di chuyển logic ứng dụng của bạn lên đám mây
 
-![Tóm tắt bài học bằng hình vẽ](../../../../../translated_images/vi/lesson-9.dfe99c8e891f48e179724520da9f5794392cf9a625079281ccdcbf09bd85e1b6.jpg)
+![Tóm tắt bài học bằng hình vẽ](../../../../../translated_images/vi/lesson-9.dfe99c8e891f48e1.webp)
 
 > Hình vẽ minh họa bởi [Nitya Narasimhan](https://github.com/nitya). Nhấp vào hình để xem phiên bản lớn hơn.
 
@@ -28,7 +28,7 @@ Trong bài học này, chúng ta sẽ đề cập đến:
 
 Serverless, hay điện toán không máy chủ, liên quan đến việc tạo các khối mã nhỏ được chạy trên đám mây để phản hồi các loại sự kiện khác nhau. Khi sự kiện xảy ra, mã của bạn sẽ được chạy và nhận dữ liệu về sự kiện đó. Các sự kiện này có thể đến từ nhiều nguồn khác nhau, bao gồm yêu cầu web, tin nhắn được đặt trong hàng đợi, thay đổi dữ liệu trong cơ sở dữ liệu, hoặc tin nhắn được gửi đến một dịch vụ IoT bởi các thiết bị IoT.
 
-![Các sự kiện được gửi từ một dịch vụ IoT đến một dịch vụ serverless, tất cả được xử lý đồng thời bởi nhiều hàm đang chạy](../../../../../translated_images/vi/iot-messages-to-serverless.0194da1cc0732bb7d0f823aed3fce54735c6b1ad3bf36089804d8aaefc0a774f.png)
+![Các sự kiện được gửi từ một dịch vụ IoT đến một dịch vụ serverless, tất cả được xử lý đồng thời bởi nhiều hàm đang chạy](../../../../../translated_images/vi/iot-messages-to-serverless.0194da1cc0732bb7.webp)
 
 > 💁 Nếu bạn đã từng sử dụng trigger cơ sở dữ liệu trước đây, bạn có thể nghĩ điều này tương tự như vậy, mã được kích hoạt bởi một sự kiện như chèn một hàng.
 
@@ -54,7 +54,7 @@ Là một nhà phát triển IoT, mô hình serverless là lý tưởng. Bạn c
 
 Dịch vụ điện toán serverless từ Microsoft được gọi là Azure Functions.
 
-![Logo Azure Functions](../../../../../translated_images/vi/azure-functions-logo.1cfc8e3204c9c44aaf80fcf406fc8544d80d7f00f8d3e8ed6fed764563e17564.png)
+![Logo Azure Functions](../../../../../translated_images/vi/azure-functions-logo.1cfc8e3204c9c44a.webp)
 
 Video ngắn dưới đây cung cấp tổng quan về Azure Functions:
 

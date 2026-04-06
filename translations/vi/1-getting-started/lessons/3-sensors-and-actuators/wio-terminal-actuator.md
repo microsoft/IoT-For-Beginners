@@ -26,7 +26,7 @@ Otherwise
 
 Kết nối đèn LED.
 
-![Một đèn LED Grove](../../../../../translated_images/vi/grove-led.6c853be93f473cf2c439cfc74bb1064732b22251a83cedf66e62f783f9cc1a79.png)
+![Một đèn LED Grove](../../../../../translated_images/vi/grove-led.6c853be93f473cf2.webp)
 
 1. Chọn đèn LED yêu thích của bạn và cắm các chân vào hai lỗ trên module LED.
 

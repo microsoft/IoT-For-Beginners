@@ -84,7 +84,7 @@
 
     תוכלו לראות את התמונה שצולמה, ואת הערכים הללו בלשונית **Predictions** ב-Custom Vision.
 
-    ![בננה ב-Custom Vision שסווגה כבשלה ב-56.8% ולא בשלה ב-43.1%](../../../../../translated_images/he/custom-vision-banana-prediction.30cdff4e1d72db5d9a0be0193790a47c2b387da034e12dc1314dd57ca2131b59.png)
+    ![בננה ב-Custom Vision שסווגה כבשלה ב-56.8% ולא בשלה ב-43.1%](../../../../../translated_images/he/custom-vision-banana-prediction.30cdff4e1d72db5d.webp)
 
 > 💁 תוכלו למצוא את הקוד הזה בתיקיית [code-classify/pi](../../../../../4-manufacturing/lessons/2-check-fruit-from-device/code-classify/pi) או [code-classify/virtual-iot-device](../../../../../4-manufacturing/lessons/2-check-fruit-from-device/code-classify/virtual-iot-device).
 

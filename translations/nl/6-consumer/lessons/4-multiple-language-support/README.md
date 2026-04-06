@@ -1,6 +1,6 @@
 # Ondersteuning voor meerdere talen
 
-![Een schetsnotitie-overzicht van deze les](../../../../../translated_images/nl/lesson-24.4246968ed058510ab275052e87ef9aa89c7b2f938915d103c605c04dc6cd5bb7.jpg)
+![Een schetsnotitie-overzicht van deze les](../../../../../translated_images/nl/lesson-24.4246968ed058510a.webp)
 
 > Schetsnotitie door [Nitya Narasimhan](https://github.com/nitya). Klik op de afbeelding voor een grotere versie.
 
@@ -74,7 +74,7 @@ Er zijn een aantal AI-diensten die vanuit je applicaties kunnen worden gebruikt 
 
 ### Cognitive Services Spraakservice
 
-![Het logo van de spraakservice](../../../../../translated_images/nl/azure-speech-logo.a1f08c4befb0159f2cb5d692d3baf5b599e7b44759d316da907bda1508f46a4a.png)
+![Het logo van de spraakservice](../../../../../translated_images/nl/azure-speech-logo.a1f08c4befb0159f.webp)
 
 De spraakservice die je in de afgelopen lessen hebt gebruikt, heeft vertaalmogelijkheden voor spraakherkenning. Wanneer je spraak herkent, kun je niet alleen de tekst van de spraak in dezelfde taal opvragen, maar ook in andere talen.
 
@@ -82,7 +82,7 @@ De spraakservice die je in de afgelopen lessen hebt gebruikt, heeft vertaalmogel
 
 ### Cognitive Services Vertaler-service
 
-![Het logo van de vertaler-service](../../../../../translated_images/nl/azure-translator-logo.c6ed3a4a433edfd2f11577eca105412c50b8396b194cbbd730723dd1d0793bcd.png)
+![Het logo van de vertaler-service](../../../../../translated_images/nl/azure-translator-logo.c6ed3a4a433edfd2.webp)
 
 De Vertaler-service is een speciale vertaaldienst die tekst van de ene taal naar een of meer doeltalen kan vertalen. Naast vertalen ondersteunt het een breed scala aan extra functies, waaronder het maskeren van ongepaste taal. Het stelt je ook in staat om een specifieke vertaling voor een bepaald woord of een bepaalde zin te leveren, om te werken met termen die je niet wilt vertalen, of om een specifieke, bekende vertaling te gebruiken.
 

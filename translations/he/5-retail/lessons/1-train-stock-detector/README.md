@@ -1,6 +1,6 @@
 # לאמן גלאי מלאי
 
-![סקיצה של השיעור](../../../../../translated_images/he/lesson-19.cf6973cecadf080c4b526310620dc4d6f5994c80fb0139c6f378cc9ca2d435cd.jpg)
+![סקיצה של השיעור](../../../../../translated_images/he/lesson-19.cf6973cecadf080c.webp)
 
 > סקיצה מאת [ניטיה נאראסימן](https://github.com/nitya). לחצו על התמונה לגרסה גדולה יותר.
 
@@ -36,7 +36,7 @@
 
 סיווג תמונות עוסק בסיווג תמונה כולה - מה ההסתברויות שהתמונה כולה תואמת כל תגית. אתם מקבלים חזרה הסתברויות לכל תגית ששימשה לאימון המודל.
 
-![סיווג תמונות של אגוזי קשיו ורסק עגבניות](../../../../../translated_images/he/image-classifier-cashews-tomato.bc2e16ab8f05cf9ac0f59f73e32efc4227f9a5b601b90b2c60f436694547a965.png)
+![סיווג תמונות של אגוזי קשיו ורסק עגבניות](../../../../../translated_images/he/image-classifier-cashews-tomato.bc2e16ab8f05cf9a.webp)
 
 בדוגמה למעלה, שתי תמונות סווגו באמצעות מודל שאומן לסווג קופסאות אגוזי קשיו או פחיות רסק עגבניות. התמונה הראשונה היא קופסה של אגוזי קשיו, ויש לה שני תוצאות ממסווג התמונות:
 
@@ -60,7 +60,7 @@
 
 > 🎓 *תיבות גבול* הן התיבות סביב אובייקט.
 
-![זיהוי אובייקטים של אגוזי קשיו ורסק עגבניות](../../../../../translated_images/he/object-detector-cashews-tomato.1af7c26686b4db0e709754aeb196f4e73271f54e2085db3bcccb70d4a0d84d97.png)
+![זיהוי אובייקטים של אגוזי קשיו ורסק עגבניות](../../../../../translated_images/he/object-detector-cashews-tomato.1af7c26686b4db0e.webp)
 
 התמונה למעלה מכילה גם קופסה של אגוזי קשיו וגם שלוש פחיות של רסק עגבניות. גלאי האובייקטים זיהה את אגוזי הקשיו, והחזיר את תיבת הגבול שמכילה את אגוזי הקשיו עם אחוז ההסתברות שהתיבה מכילה את האובייקט, במקרה הזה 97.6%. גלאי האובייקטים גם זיהה שלוש פחיות של רסק עגבניות, ומספק שלוש תיבות גבול נפרדות, אחת לכל פחית מזוהה, וכל אחת עם אחוז הסתברות שהתיבה מכילה פחית של רסק עגבניות.
 
@@ -111,7 +111,7 @@
 
     כשאתם יוצרים את הפרויקט, ודאו שאתם משתמשים במשאב `stock-detector-training` שיצרתם קודם. השתמשו בסוג הפרויקט *Object Detection* ובתחום *Products on Shelves*.
 
-    ![הגדרות הפרויקט של Custom Vision עם השם fruit-quality-detector, ללא תיאור, המשאב מוגדר ל-fruit-quality-detector-training, סוג הפרויקט מוגדר לסיווג, סוגי הסיווג מוגדרים ל-multi class והתחומים מוגדרים ל-food](../../../../../translated_images/he/custom-vision-create-object-detector-project.32d4fb9aa8e7e7375f8a799bfce517aca970f2cb65e42d4245c5e635c734ab29.png)
+    ![הגדרות הפרויקט של Custom Vision עם השם fruit-quality-detector, ללא תיאור, המשאב מוגדר ל-fruit-quality-detector-training, סוג הפרויקט מוגדר לסיווג, סוגי הסיווג מוגדרים ל-multi class והתחומים מוגדרים ל-food](../../../../../translated_images/he/custom-vision-create-object-detector-project.32d4fb9aa8e7e737.webp)
 
     ✅ תחום המוצרים על המדפים מותאם במיוחד לזיהוי מלאי על מדפי חנויות. קראו עוד על התחומים השונים בתיעוד [בחירת תחום בתיעוד של Microsoft](https://docs.microsoft.com/azure/cognitive-services/custom-vision-service/select-domain?WT.mc_id=academic-17441-jabenn#object-detection)
 
@@ -133,11 +133,11 @@
 
 1. עקבו אחרי [החלק של העלאת תמונות ותיוגן במדריך המהיר לבניית גלאי אובייקטים בתיעוד של Microsoft](https://docs.microsoft.com/azure/cognitive-services/custom-vision-service/get-started-build-detector?WT.mc_id=academic-17441-jabenn#upload-and-tag-images) כדי להעלות את תמונות האימון שלכם. צרו תגיות רלוונטיות בהתאם לסוגי האובייקטים שברצונכם לזהות.
 
-    ![דיאלוגי העלאה שמראים העלאת תמונות של בננות בשלות ולא בשלות](../../../../../translated_images/he/image-upload-object-detector.77c7892c3093cb59b79018edecd678749a75d71a099bc8a2d2f2f76320f88a5b.png)
+    ![דיאלוגי העלאה שמראים העלאת תמונות של בננות בשלות ולא בשלות](../../../../../translated_images/he/image-upload-object-detector.77c7892c3093cb59.webp)
 
     כשאתם מציירים תיבות גבול עבור אובייקטים, שמרו אותן צמודות לאובייקט. זה יכול לקחת זמן לסמן את כל התמונות, אבל הכלי יזהה מה הוא חושב כתיבות גבול, מה שיכול להאיץ את התהליך.
 
-    ![תיוג רסק עגבניות](../../../../../translated_images/he/object-detector-tag-tomato-paste.f47c362fb0f0eb582f3bc68cf3855fb43a805106395358d41896a269c210b7b4.png)
+    ![תיוג רסק עגבניות](../../../../../translated_images/he/object-detector-tag-tomato-paste.f47c362fb0f0eb58.webp)
 
     > 💁 אם יש לכם יותר מ-15 תמונות עבור כל אובייקט, תוכלו לאמן אחרי 15 ואז להשתמש בתכונת **Suggested tags**. זה ישתמש במודל המאומן כדי לזהות את האובייקטים בתמונה הלא מתויגת. תוכלו אז לאשר את האובייקטים המזוהים או לדחות ולצייר מחדש את תיבות הגבול. זה יכול לחסוך *הרבה* זמן.
 
@@ -155,7 +155,7 @@
 
 1. השתמשו בכפתור **Quick Test** כדי להעלות תמונות בדיקה ולאמת שהאובייקטים מזוהים. השתמשו בתמונות הבדיקה שיצרתם קודם, לא באף אחת מהתמונות ששימשו לאימון.
 
-    ![3 פחיות של רסק עגבניות מזוהות עם הסתברויות של 38%, 35.5% ו-34.6%](../../../../../translated_images/he/object-detector-detected-tomato-paste.52656fe87af4c37b4ee540526d63e73ed075da2e54a9a060aa528e0c562fb1b6.png)
+    ![3 פחיות של רסק עגבניות מזוהות עם הסתברויות של 38%, 35.5% ו-34.6%](../../../../../translated_images/he/object-detector-detected-tomato-paste.52656fe87af4c37b.webp)
 
 1. נסו את כל תמונות הבדיקה שיש לכם וצפו בהסתברויות.
 

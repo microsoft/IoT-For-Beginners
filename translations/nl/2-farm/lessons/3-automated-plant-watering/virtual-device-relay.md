@@ -28,11 +28,11 @@ Voeg het relais toe aan de CounterFit-app.
 
     1. Selecteer de knop **Add** om het relais op Pin 5 aan te maken.
 
-    ![De relaisinstellingen](../../../../../translated_images/nl/counterfit-create-relay.fa7c40fd0f2f6afc33b35ea94fcb235085be4861e14e3fe6b9b7bcfc82d1c888.png)
+    ![De relaisinstellingen](../../../../../translated_images/nl/counterfit-create-relay.fa7c40fd0f2f6afc.webp)
 
     Het relais wordt aangemaakt en verschijnt in de lijst met actuatoren.
 
-    ![Het aangemaakte relais](../../../../../translated_images/nl/counterfit-relay.bbf74c1dbdc8b9acd983367fcbd06703a402aefef6af54ddb28e11307ba8a12c.png)
+    ![Het aangemaakte relais](../../../../../translated_images/nl/counterfit-relay.bbf74c1dbdc8b9ac.webp)
 
 ## Programmeer het relais
 

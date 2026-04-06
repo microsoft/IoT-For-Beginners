@@ -34,7 +34,7 @@
 
 1. אם אתה משתמש ב-ReSpeaker 2-Mics Pi HAT, תוכל להסיר את ה-Grove base hat, ואז להתקין את ה-ReSpeaker hat במקומו.
 
-    ![Raspberry Pi עם ReSpeaker hat](../../../../../translated_images/he/pi-respeaker-hat.f00fabe7dd039a93e2e0aa0fc946c9af0c6a9eb17c32fa1ca097fb4e384f69f0.png)
+    ![Raspberry Pi עם ReSpeaker hat](../../../../../translated_images/he/pi-respeaker-hat.f00fabe7dd039a93.webp)
 
     תצטרך כפתור Grove מאוחר יותר בשיעור זה, אך כפתור כזה מובנה ב-hat הזה, ולכן ה-Grove base hat אינו נחוץ.
 

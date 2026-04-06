@@ -1,6 +1,6 @@
 # Een diepere duik in IoT
 
-![Een schetsmatige samenvatting van deze les](../../../../../translated_images/nl/lesson-2.324b0580d620c25e0a24fb7fddfc0b29a846dd4b82c08e7a9466d580ee78ce51.jpg)
+![Een schetsmatige samenvatting van deze les](../../../../../translated_images/nl/lesson-2.324b0580d620c25e.webp)
 
 > Sketchnote door [Nitya Narasimhan](https://github.com/nitya). Klik op de afbeelding voor een grotere versie.
 
@@ -38,7 +38,7 @@ Het **Ding**-gedeelte van IoT verwijst naar een apparaat dat kan communiceren me
 
 Deze apparaten communiceren met de fysieke wereld, hetzij door sensoren te gebruiken om gegevens uit hun omgeving te verzamelen, hetzij door outputs of actuatoren te bedienen om fysieke veranderingen te veroorzaken. Een typisch voorbeeld hiervan is een slimme thermostaat - een apparaat met een temperatuursensor, een manier om een gewenste temperatuur in te stellen, zoals een draaiknop of touchscreen, en een verbinding met een verwarmings- of koelsysteem dat kan worden ingeschakeld wanneer de gedetecteerde temperatuur buiten het gewenste bereik ligt. De temperatuursensor detecteert dat de kamer te koud is en een actuator schakelt de verwarming in.
 
-![Een diagram dat temperatuur en een draaiknop toont als inputs voor een IoT-apparaat, en de bediening van een verwarming als output](../../../../../translated_images/nl/basic-thermostat.a923217fd1f37e5a6f3390396a65c22a387419ea2dd17e518ec24315ba6ae9a8.png)
+![Een diagram dat temperatuur en een draaiknop toont als inputs voor een IoT-apparaat, en de bediening van een verwarming als output](../../../../../translated_images/nl/basic-thermostat.a923217fd1f37e5a.webp)
 
 Er zijn een enorme hoeveelheid verschillende dingen die als IoT-apparaten kunnen fungeren, van speciale hardware die één ding detecteert tot algemene apparaten, zelfs je smartphone! Een smartphone kan sensoren gebruiken om de wereld om zich heen te detecteren en actuatoren om met de wereld te communiceren - bijvoorbeeld door een GPS-sensor te gebruiken om je locatie te bepalen en een luidspreker om je navigatie-instructies naar een bestemming te geven.
 
@@ -54,7 +54,7 @@ Apparaten maken ook niet altijd rechtstreeks verbinding met het internet via WiF
 
 In het voorbeeld van een slimme thermostaat zou de thermostaat verbinding maken via thuis-WiFi met een cloudservice die in de cloud draait. Het zou de temperatuurgegevens naar deze cloudservice sturen, en van daaruit worden ze geschreven naar een soort database, zodat de huiseigenaar de huidige en eerdere temperaturen kan controleren via een telefoon-app. Een andere service in de cloud zou weten welke temperatuur de huiseigenaar wil en berichten terugsturen naar het IoT-apparaat via de cloudservice om het verwarmingssysteem aan of uit te zetten.
 
-![Een diagram dat temperatuur en een draaiknop toont als inputs voor een IoT-apparaat, het IoT-apparaat met tweerichtingscommunicatie naar de cloud, die op zijn beurt tweerichtingscommunicatie heeft met een telefoon, en de bediening van een verwarming als output van het IoT-apparaat](../../../../../translated_images/nl/mobile-controlled-thermostat.4a994010473d8d6a52ba68c67e5f02dc8928c717e93ca4b9bc55525aa75bbb60.png)
+![Een diagram dat temperatuur en een draaiknop toont als inputs voor een IoT-apparaat, het IoT-apparaat met tweerichtingscommunicatie naar de cloud, die op zijn beurt tweerichtingscommunicatie heeft met een telefoon, en de bediening van een verwarming als output van het IoT-apparaat](../../../../../translated_images/nl/mobile-controlled-thermostat.4a994010473d8d6a.webp)
 
 Een nog slimmer versie zou AI in de cloud kunnen gebruiken met gegevens van andere sensoren die zijn verbonden met andere IoT-apparaten, zoals bezettingssensoren die detecteren welke kamers in gebruik zijn, evenals gegevens zoals het weer en zelfs je agenda, om beslissingen te nemen over hoe de temperatuur op een slimme manier in te stellen. Bijvoorbeeld, het zou je verwarming kunnen uitschakelen als het uit je agenda leest dat je op vakantie bent, of de verwarming kamer per kamer uitschakelen afhankelijk van welke kamers je gebruikt, waarbij het leert van de gegevens om steeds nauwkeuriger te worden.
 
@@ -94,7 +94,7 @@ Hoe sneller de klokcyclus, hoe meer instructies per seconde kunnen worden verwer
 
 > 💁 CPU's voeren programma's uit met behulp van de [fetch-decode-execute cyclus](https://wikipedia.org/wiki/Instruction_cycle). Voor elke kloktik haalt de CPU de volgende instructie uit het geheugen, decodeert deze en voert deze uit, zoals het gebruik van een rekenkundige logische eenheid (ALU) om 2 getallen op te tellen. Sommige uitvoeringen nemen meerdere tikken in beslag, dus de volgende cyclus wordt uitgevoerd bij de volgende tik nadat de instructie is voltooid.
 
-![De fetch-decode-execute cyclus toont het ophalen van een instructie uit het programma dat is opgeslagen in RAM, vervolgens het decoderen en uitvoeren ervan op een CPU](../../../../../translated_images/nl/fetch-decode-execute.2fd6f150f6280392807f4475382319abd0cee0b90058e1735444d6baa6f2078c.png)
+![De fetch-decode-execute cyclus toont het ophalen van een instructie uit het programma dat is opgeslagen in RAM, vervolgens het decoderen en uitvoeren ervan op een CPU](../../../../../translated_images/nl/fetch-decode-execute.2fd6f150f6280392.webp)
 
 Microcontrollers hebben veel lagere kloksnelheden dan desktop- of laptopcomputers, of zelfs de meeste smartphones. De Wio Terminal heeft bijvoorbeeld een CPU die draait op 120MHz of 120.000.000 cycli per seconde.
 
@@ -182,7 +182,7 @@ Arduino-boards worden gecodeerd in C of C++. Het gebruik van C/C++ zorgt ervoor 
 
 Je zou je setup-code in de `setup`-functie schrijven, zoals verbinding maken met WiFi en clouddiensten of pinnen initialiseren voor input en output. Je loop-code zou vervolgens verwerkingscode bevatten, zoals het lezen van een sensor en het verzenden van de waarde naar de cloud. Je zou normaal gesproken een vertraging toevoegen aan elke loop, bijvoorbeeld als je alleen sensorgegevens wilt verzenden om de 10 seconden, zou je een vertraging van 10 seconden toevoegen aan het einde van de loop zodat de microcontroller kan slapen, energie bespaart, en vervolgens de loop opnieuw uitvoert wanneer nodig 10 seconden later.
 
-![Een Arduino-sketch die eerst setup uitvoert, en vervolgens loop herhaaldelijk](../../../../../translated_images/nl/arduino-sketch.79590cb837ff7a7c6a68d1afda6cab83fd53d3bb1bd9a8bf2eaf8d693a4d3ea6.png)
+![Een Arduino-sketch die eerst setup uitvoert, en vervolgens loop herhaaldelijk](../../../../../translated_images/nl/arduino-sketch.79590cb837ff7a7c.webp)
 
 ✅ Deze programmastructuur staat bekend als een *event loop* of *message loop*. Veel applicaties gebruiken dit onder de motorkap en het is de standaard voor de meeste desktopapplicaties die draaien op besturingssystemen zoals Windows, macOS of Linux. De `loop` luistert naar berichten van gebruikersinterfacecomponenten zoals knoppen, of apparaten zoals het toetsenbord, en reageert daarop. Je kunt meer lezen in dit [artikel over de event loop](https://wikipedia.org/wiki/Event_loop).
 

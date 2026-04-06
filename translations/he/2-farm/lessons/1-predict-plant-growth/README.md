@@ -1,6 +1,6 @@
 ## נבא את צמיחת הצמחים עם IoT
 
-![סקיצה של סקירה כללית של השיעור](../../../../../translated_images/he/lesson-5.42b234299279d263143148b88ab4583861a32ddb03110c6c1120e41bb88b2592.jpg)
+![סקיצה של סקירה כללית של השיעור](../../../../../translated_images/he/lesson-5.42b234299279d263.webp)
 
 > סקיצה מאת [ניטיה נאראסימן](https://github.com/nitya). לחצו על התמונה לגרסה גדולה יותר.
 
@@ -90,7 +90,7 @@
 
 הנוסחה המלאה ל-GDD מעט מורכבת, אבל יש משוואה פשוטה שמשמשת לעיתים קרובות כהערכה טובה:
 
-![GDD = T max + T min divided by 2, all minus T base](../../../../../translated_images/he/gdd-calculation.79b3660f9c5757aa92dc2dd2cdde75344e2d2c1565c4b3151640f7887edc0275.png)
+![GDD = T max + T min divided by 2, all minus T base](../../../../../translated_images/he/gdd-calculation.79b3660f9c5757aa.webp)
 
 * **GDD** - זהו מספר ימי דרגת הצמיחה
 * **T max** - זו הטמפרטורה היומית המקסימלית בצלזיוס
@@ -118,7 +118,7 @@
 
 זה נותן חישוב של:
 
-![GDD = 16 + 12 divided by 2, all minus 10, giving an answer of 4](../../../../../translated_images/he/gdd-calculation-corn.64a58b7a7afcd0dfd46ff733996d939f17f4f3feac9f0d1c632be3523e51ebd9.png)
+![GDD = 16 + 12 divided by 2, all minus 10, giving an answer of 4](../../../../../translated_images/he/gdd-calculation-corn.64a58b7a7afcd0df.webp)
 
 התירס קיבל 4 GDD באותו יום. בהנחה של זן תירס שזקוק ל-800 GDD כדי להבשיל, הוא יזדקק לעוד 796 GDD כדי להגיע לבגרות.
 
@@ -239,7 +239,7 @@
 
 לדוגמה, אם הטמפרטורה הגבוהה ביותר של היום היא 25°C, והנמוכה ביותר היא 12°C:
 
-![GDD = 25 + 12 חלקי 2, ואז מחסירים 10 מהתוצאה ומקבלים 8.5](../../../../../translated_images/he/gdd-calculation-strawberries.59f57db94b22adb8ff6efb951ace33af104a1c6ccca3ffb0f8169c14cb160c90.png)
+![GDD = 25 + 12 חלקי 2, ואז מחסירים 10 מהתוצאה ומקבלים 8.5](../../../../../translated_images/he/gdd-calculation-strawberries.59f57db94b22adb8.webp)
 
 * 25 + 12 = 37  
 * 37 / 2 = 18.5  

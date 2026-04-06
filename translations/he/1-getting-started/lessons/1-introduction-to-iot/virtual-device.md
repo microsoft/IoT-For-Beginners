@@ -203,7 +203,7 @@
 
     האפליקציה תתחיל לפעול ותיפתח בדפדפן האינטרנט שלך:
 
-    ![The Counter Fit app running in a browser](../../../../../translated_images/he/counterfit-first-run.433326358b669b31d0e99c3513cb01bfbb13724d162c99cdcc8f51ecf5f9c779.png)
+    ![The Counter Fit app running in a browser](../../../../../translated_images/he/counterfit-first-run.433326358b669b31.webp)
 
     היא תסומן כ-*Disconnected*, עם הנורית בפינה הימנית העליונה כבויה.
 
@@ -224,7 +224,7 @@
 
 1. בטרמינל החדש, הרץ את הקובץ `app.py` כפי שעשית קודם. הסטטוס של CounterFit ישתנה ל-**Connected** והנורית תידלק.
 
-    ![Counter Fit showing as connected](../../../../../translated_images/he/counterfit-connected.ed30b46d8f79b0921f3fc70be10366e596a89dca3f80c2224a9d9fc98fccf884.png)
+    ![Counter Fit showing as connected](../../../../../translated_images/he/counterfit-connected.ed30b46d8f79b092.webp)
 
 > 💁 תוכל למצוא את הקוד הזה בתיקייה [code/virtual-device](../../../../../1-getting-started/lessons/1-introduction-to-iot/code/virtual-device).
 
