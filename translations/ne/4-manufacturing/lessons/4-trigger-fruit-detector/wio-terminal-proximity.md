@@ -20,7 +20,7 @@ Grove टाइम अफ फ्लाइट सेन्सरलाई Wio Ter
 
 टाइम अफ फ्लाइट सेन्सर जडान गर्नुहोस्।
 
-![एक Grove टाइम अफ फ्लाइट सेन्सर](../../../../../translated_images/ne/grove-time-of-flight-sensor.d82ff2165bfded9f485de54d8d07195a6270a602696825fca19f629ddfe94e86.png)
+![एक Grove टाइम अफ फ्लाइट सेन्सर](../../../../../translated_images/ne/grove-time-of-flight-sensor.d82ff2165bfded9f.webp)
 
 1. Grove केबलको एक छेउ टाइम अफ फ्लाइट सेन्सरको सॉकेटमा हाल्नुहोस्। यो केवल एक तरिकामा मात्र जडान हुन्छ।
 

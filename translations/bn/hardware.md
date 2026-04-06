@@ -26,7 +26,7 @@ Seeed Studios খুবই সদয়ভাবে সমস্ত হার্
 
 **[Seeed এবং Microsoft-এর সাথে IoT শিক্ষার্থীদের জন্য - Raspberry Pi 4 স্টার্টার কিট](https://www.seeedstudio.com/IoT-for-beginners-with-Seeed-and-Microsoft-Raspberry-Pi-Starter-Kit-p-5004.html)**
 
-[![Raspberry Pi টার্মিনাল হার্ডওয়্যার কিট](../../translated_images/bn/pi-hardware-kit.26dbadaedb7dd44c73b0131d5d68ea29472ed0a9744f90d5866c6d82f2d16380.png)](https://www.seeedstudio.com/IoT-for-beginners-with-Seeed-and-Microsoft-Raspberry-Pi-Starter-Kit-p-5004.html)
+[![Raspberry Pi টার্মিনাল হার্ডওয়্যার কিট](../../translated_images/bn/pi-hardware-kit.26dbadaedb7dd44c.webp)](https://www.seeedstudio.com/IoT-for-beginners-with-Seeed-and-Microsoft-Raspberry-Pi-Starter-Kit-p-5004.html)
 
 ## Arduino
 

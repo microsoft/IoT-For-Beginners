@@ -18,7 +18,7 @@ Grove GPS सेन्सरलाई Wio Terminal मा जडान गर्
 
 GPS सेन्सर जडान गर्नुहोस्।
 
-![एक Grove GPS सेन्सर](../../../../../translated_images/ne/grove-gps-sensor.247943bf69b03f0d1820ef6ed10c587f9b650e8db55b936851c92412180bd3e2.png)
+![एक Grove GPS सेन्सर](../../../../../translated_images/ne/grove-gps-sensor.247943bf69b03f0d.webp)
 
 1. Grove केबलको एक छेउ GPS सेन्सरको सॉकेटमा राख्नुहोस्। यो केवल एक तरिकामा मात्र जडान हुन्छ।
 

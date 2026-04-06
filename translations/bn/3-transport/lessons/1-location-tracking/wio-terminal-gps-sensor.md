@@ -18,7 +18,7 @@ Grove GPS সেন্সরটি Wio Terminal-এর সাথে সংযু
 
 GPS সেন্সর সংযুক্ত করুন।
 
-![একটি Grove GPS সেন্সর](../../../../../translated_images/bn/grove-gps-sensor.247943bf69b03f0d1820ef6ed10c587f9b650e8db55b936851c92412180bd3e2.png)
+![একটি Grove GPS সেন্সর](../../../../../translated_images/bn/grove-gps-sensor.247943bf69b03f0d.webp)
 
 1. Grove কেবলের এক প্রান্ত GPS সেন্সরের সকেটে প্রবেশ করান। এটি শুধুমাত্র একটি নির্দিষ্ট দিকেই প্রবেশ করবে।
 

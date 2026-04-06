@@ -26,7 +26,7 @@ Grove LED একটি মডিউল হিসেবে আসে যেখা
 
 LED সংযুক্ত করুন।
 
-![একটি Grove LED](../../../../../translated_images/bn/grove-led.6c853be93f473cf2c439cfc74bb1064732b22251a83cedf66e62f783f9cc1a79.png)
+![একটি Grove LED](../../../../../translated_images/bn/grove-led.6c853be93f473cf2.webp)
 
 1. আপনার পছন্দের LED বেছে নিন এবং LED মডিউলের দুটি গর্তে পা ঢোকান।
 

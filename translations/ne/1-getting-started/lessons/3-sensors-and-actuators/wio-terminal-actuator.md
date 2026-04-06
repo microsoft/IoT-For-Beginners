@@ -26,7 +26,7 @@ Grove LED एउटा मोड्युलको रूपमा आउँछ 
 
 LED जडान गर्नुहोस्।
 
-![एक Grove LED](../../../../../translated_images/ne/grove-led.6c853be93f473cf2c439cfc74bb1064732b22251a83cedf66e62f783f9cc1a79.png)
+![एक Grove LED](../../../../../translated_images/ne/grove-led.6c853be93f473cf2.webp)
 
 1. आफ्नो मनपर्ने LED छान्नुहोस् र LED मोड्युलको दुई प्वालहरूमा खुट्टा हाल्नुहोस्।
 

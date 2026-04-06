@@ -203,7 +203,7 @@ Python भर्चुअल वातावरण तयार भएपछि,
 
     एप्लिकेसन चल्न सुरु गर्नेछ र तपाईंको वेब ब्राउजरमा खुल्नेछ:
 
-    ![Counter Fit एप्लिकेसन ब्राउजरमा चलिरहेको देखाउँदै](../../../../../translated_images/ne/counterfit-first-run.433326358b669b31d0e99c3513cb01bfbb13724d162c99cdcc8f51ecf5f9c779.png)
+    ![Counter Fit एप्लिकेसन ब्राउजरमा चलिरहेको देखाउँदै](../../../../../translated_images/ne/counterfit-first-run.433326358b669b31.webp)
 
     यो *Disconnected* को रूपमा चिन्हित हुनेछ, र माथिल्लो-दायाँ कुनामा रहेको LED बन्द हुनेछ।
 
@@ -224,7 +224,7 @@ Python भर्चुअल वातावरण तयार भएपछि,
 
 1. यस नयाँ टर्मिनलमा, पहिलेको जस्तै `app.py` फाइल चलाउनुहोस्। CounterFit को स्थिति **Connected** मा परिवर्तन हुनेछ र LED बत्ती बल्नेछ।
 
-    ![Counter Fit जडान भएको देखाउँदै](../../../../../translated_images/ne/counterfit-connected.ed30b46d8f79b0921f3fc70be10366e596a89dca3f80c2224a9d9fc98fccf884.png)
+    ![Counter Fit जडान भएको देखाउँदै](../../../../../translated_images/ne/counterfit-connected.ed30b46d8f79b092.webp)
 
 > 💁 तपाईं यो कोड [code/virtual-device](../../../../../1-getting-started/lessons/1-introduction-to-iot/code/virtual-device) फोल्डरमा पाउन सक्नुहुन्छ।
 

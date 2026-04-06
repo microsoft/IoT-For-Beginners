@@ -28,11 +28,11 @@ CounterFit অ্যাপে রিলে যোগ করুন।
 
     1. **Add** বোতামটি নির্বাচন করুন যাতে পিন 5-এ রিলে তৈরি হয়।
 
-    ![রিলের সেটিংস](../../../../../translated_images/bn/counterfit-create-relay.fa7c40fd0f2f6afc33b35ea94fcb235085be4861e14e3fe6b9b7bcfc82d1c888.png)
+    ![রিলের সেটিংস](../../../../../translated_images/bn/counterfit-create-relay.fa7c40fd0f2f6afc.webp)
 
     রিলে তৈরি হবে এবং অ্যাকচুয়েটর তালিকায় প্রদর্শিত হবে।
 
-    ![তৈরি করা রিলে](../../../../../translated_images/bn/counterfit-relay.bbf74c1dbdc8b9acd983367fcbd06703a402aefef6af54ddb28e11307ba8a12c.png)
+    ![তৈরি করা রিলে](../../../../../translated_images/bn/counterfit-relay.bbf74c1dbdc8b9ac.webp)
 
 ## রিলে প্রোগ্রাম করুন
 

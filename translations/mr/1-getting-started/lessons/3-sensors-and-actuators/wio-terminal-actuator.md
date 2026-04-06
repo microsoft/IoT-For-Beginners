@@ -26,7 +26,7 @@ Grove LED एक मॉड्यूल म्हणून येतो ज्य
 
 LED जोडा.
 
-![एक Grove LED](../../../../../translated_images/mr/grove-led.6c853be93f473cf2c439cfc74bb1064732b22251a83cedf66e62f783f9cc1a79.png)
+![एक Grove LED](../../../../../translated_images/mr/grove-led.6c853be93f473cf2.webp)
 
 1. तुमचा आवडता LED निवडा आणि LED मॉड्यूलवरील दोन छिद्रांमध्ये त्याचे पाय घाला.
 

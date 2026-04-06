@@ -208,7 +208,7 @@ HTTPS endpoints शी संवाद साधताना, क्लायं
 
     तुम्ही घेतलेली प्रतिमा आणि Custom Vision मधील **Predictions** टॅबमध्ये ही मूल्ये पाहू शकता.
 
-    ![Custom Vision मध्ये एक केळी, 56.8% पक्की आणि 43.1% कच्ची म्हणून वर्गीकृत](../../../../../translated_images/mr/custom-vision-banana-prediction.30cdff4e1d72db5d9a0be0193790a47c2b387da034e12dc1314dd57ca2131b59.png)
+    ![Custom Vision मध्ये एक केळी, 56.8% पक्की आणि 43.1% कच्ची म्हणून वर्गीकृत](../../../../../translated_images/mr/custom-vision-banana-prediction.30cdff4e1d72db5d.webp)
 
 > 💁 तुम्ही हा कोड [code-classify/wio-terminal](../../../../../4-manufacturing/lessons/2-check-fruit-from-device/code-classify/wio-terminal) फोल्डरमध्ये शोधू शकता.
 

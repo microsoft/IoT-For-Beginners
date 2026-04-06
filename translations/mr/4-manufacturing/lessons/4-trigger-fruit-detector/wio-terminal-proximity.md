@@ -20,7 +20,7 @@ Grove टाइम ऑफ फ्लाइट सेन्सर Wio Terminal श
 
 टाइम ऑफ फ्लाइट सेन्सर कनेक्ट करा.
 
-![Grove टाइम ऑफ फ्लाइट सेन्सर](../../../../../translated_images/mr/grove-time-of-flight-sensor.d82ff2165bfded9f485de54d8d07195a6270a602696825fca19f629ddfe94e86.png)
+![Grove टाइम ऑफ फ्लाइट सेन्सर](../../../../../translated_images/mr/grove-time-of-flight-sensor.d82ff2165bfded9f.webp)
 
 1. Grove केबलचा एक टोक टाइम ऑफ फ्लाइट सेन्सरच्या सॉकेटमध्ये घाला. ती केवळ एका बाजूनेच जाईल.
 
