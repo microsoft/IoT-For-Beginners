@@ -1,6 +1,6 @@
 # 使用感應器和致動器與物理世界互動
 
-![本課程的手繪筆記概述](../../../../../translated_images/zh-HK/lesson-3.cc3b7b4cd646de598698cce043c0393fd62ef42bac2eaf60e61272cd844250f4.jpg)
+![本課程的手繪筆記概述](../../../../../translated_images/zh-HK/lesson-3.cc3b7b4cd646de59.webp)
 
 > 手繪筆記由 [Nitya Narasimhan](https://github.com/nitya) 提供。點擊圖片查看更大版本。
 
@@ -92,7 +92,7 @@ IoT 設備是數字化的——它們無法處理模擬值，只能處理 0 和 
 
 最簡單的數字感應器是一個按鈕或開關。這是一個只有兩種狀態的感應器，開或關。
 
-![一個按鈕接收 5 伏特。未按下時返回 0 伏特，按下時返回 5 伏特](../../../../../translated_images/zh-HK/button.eadb560b77ac45e56f523d9d8876e40444f63b419e33eb820082d461fa79490b.png)
+![一個按鈕接收 5 伏特。未按下時返回 0 伏特，按下時返回 5 伏特](../../../../../translated_images/zh-HK/button.eadb560b77ac45e5.webp)
 
 IoT 設備上的引腳（例如 GPIO 引腳）可以直接測量此信號作為 0 或 1。如果發送的電壓與返回的電壓相同，則讀取的值為 1，否則讀取的值為 0。無需轉換信號，它只能是 1 或 0。
 
@@ -125,7 +125,7 @@ IoT 設備上的引腳（例如 GPIO 引腳）可以直接測量此信號作為 
 
 按照以下相關指南，為您的 IoT 設備添加致動器，並由感應器控制，以構建 IoT 夜燈。它將從光感應器收集光線強度，並使用 LED 作為致動器，在檢測到的光線強度過低時發出光。
 
-![任務的流程圖，顯示光線強度的讀取和檢查，以及 LED 的控制](../../../../../translated_images/zh-HK/assignment-1-flow.7552a51acb1a5ec858dca6e855cdbb44206434006df8ba3799a25afcdab1665d.png)
+![任務的流程圖，顯示光線強度的讀取和檢查，以及 LED 的控制](../../../../../translated_images/zh-HK/assignment-1-flow.7552a51acb1a5ec8.webp)
 
 * [Arduino - Wio Terminal](wio-terminal-actuator.md)
 * [單板電腦 - Raspberry Pi](pi-actuator.md)
@@ -140,7 +140,7 @@ IoT 設備上的引腳（例如 GPIO 引腳）可以直接測量此信號作為 
 模擬致動器接收模擬信號並將其轉換為某種交互，交互根據提供的電壓而改變。
 
 一個例子是可調光燈，例如您家中的燈。提供給燈的電壓量決定了它的亮度。
-![在低電壓下光線較暗，在高電壓下光線較亮](../../../../../translated_images/zh-HK/dimmable-light.9ceffeb195dec1a849da718b2d71b32c35171ff7dfea9c07bbf82646a67acf6b.png)
+![在低電壓下光線較暗，在高電壓下光線較亮](../../../../../translated_images/zh-HK/dimmable-light.9ceffeb195dec1a8.webp)
 
 就像感應器一樣，實際的物聯網裝置是基於數碼信號運作的，而不是模擬信號。這意味著，若要傳送模擬信號，物聯網裝置需要一個數碼轉模擬轉換器（DAC），這個轉換器可以直接內建於物聯網裝置中，或者安裝在連接板上。這樣可以將物聯網裝置的0和1轉換成致動器可以使用的模擬電壓。
 
@@ -187,7 +187,7 @@ IoT 設備上的引腳（例如 GPIO 引腳）可以直接測量此信號作為 
 
 一個簡單的數碼致動器是LED。當裝置傳送數碼信號1時，會傳送高電壓以點亮LED。當傳送數碼信號0時，電壓降至0V，LED熄滅。
 
-![LED在0伏特時熄滅，在5伏特時點亮](../../../../../translated_images/zh-HK/led.ec6d94f66676a174ad06d9fa9ea49c2ee89beb18b312d5c6476467c66375b07f.png)
+![LED在0伏特時熄滅，在5伏特時點亮](../../../../../translated_images/zh-HK/led.ec6d94f66676a174.webp)
 
 ✅ 你能想到其他簡單的兩狀態致動器嗎？一個例子是電磁閥，它是一種電磁鐵，可以被激活來執行例如移動門閂以鎖定/解鎖門的操作。
 

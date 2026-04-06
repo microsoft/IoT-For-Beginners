@@ -38,11 +38,11 @@
 
     1. 選擇 **Add** 按鈕以在 Pin 5 上建立濕度感測器。
 
-    ![濕度感測器設置](../../../../../translated_images/zh-TW/counterfit-create-humidity-sensor.2750e27b6f30e09cf4e22101defd5252710717620816ab41ba688f91f757c49a.png)
+    ![濕度感測器設置](../../../../../translated_images/zh-TW/counterfit-create-humidity-sensor.2750e27b6f30e09c.webp)
 
     濕度感測器將被建立並顯示在感測器列表中。
 
-    ![濕度感測器已建立](../../../../../translated_images/zh-TW/counterfit-humidity-sensor.7b12f7f339e430cb26c8211d2dba4ef75261b353a01da0932698b5bebd693f27.png)
+    ![濕度感測器已建立](../../../../../translated_images/zh-TW/counterfit-humidity-sensor.7b12f7f339e430cb.webp)
 
 1. 建立溫度感測器：
 
@@ -54,11 +54,11 @@
 
     1. 選擇 **Add** 按鈕以在 Pin 6 上建立溫度感測器。
 
-    ![溫度感測器設置](../../../../../translated_images/zh-TW/counterfit-create-temperature-sensor.199350ed34f7343d79dccbe95eaf6c11d2121f03d1c35ab9613b330c23f39b29.png)
+    ![溫度感測器設置](../../../../../translated_images/zh-TW/counterfit-create-temperature-sensor.199350ed34f7343d.webp)
 
     溫度感測器將被建立並顯示在感測器列表中。
 
-    ![溫度感測器已建立](../../../../../translated_images/zh-TW/counterfit-temperature-sensor.f0560236c96a9016bafce7f6f792476fe3367bc6941a1f7d5811d144d4bcbfff.png)
+    ![溫度感測器已建立](../../../../../translated_images/zh-TW/counterfit-temperature-sensor.f0560236c96a9016.webp)
 
 ## 編寫溫度感測器應用程式
 

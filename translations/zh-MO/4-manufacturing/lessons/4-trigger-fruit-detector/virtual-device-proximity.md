@@ -36,11 +36,11 @@
 
     1. 選擇 **Add** 按鈕以創建距離感測器。
 
-    ![距離感測器設置](../../../../../translated_images/zh-MO/counterfit-create-distance-sensor.967c9fb98f27888d95920c9784d004c972490eb71f70397fe13bd70a79a879a3.png)
+    ![距離感測器設置](../../../../../translated_images/zh-MO/counterfit-create-distance-sensor.967c9fb98f27888d.webp)
 
     距離感測器將被創建並顯示在感測器列表中。
 
-    ![已創建的距離感測器](../../../../../translated_images/zh-MO/counterfit-distance-sensor.079eefeeea0b68afc36431ce8fcbe2f09a7e4916ed1cd5cb30e696db53bc18fa.png)
+    ![已創建的距離感測器](../../../../../translated_images/zh-MO/counterfit-distance-sensor.079eefeeea0b68af.webp)
 
 ## 程式化距離感測器
 

@@ -18,7 +18,7 @@ Grove 繼電器可以連接到 Wio Terminal 的數字端口。
 
 連接繼電器。
 
-![Grove 繼電器](../../../../../translated_images/zh-HK/grove-relay.d426958ca210fbd0fb7983d7edc069d46c73a8b0a099d94797bd756f7b6bb6be.png)
+![Grove 繼電器](../../../../../translated_images/zh-HK/grove-relay.d426958ca210fbd0.webp)
 
 1. 將 Grove 電纜的一端插入繼電器上的插座。它只能以一種方式插入。
 

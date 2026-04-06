@@ -33,7 +33,7 @@
 
     Jupyter 將啟動並在您的瀏覽器中打開 Notebook。按照 Notebook 中的說明操作，視覺化測量的溫度並計算生長度日。
 
-    ![Jupyter Notebook](../../../../../translated_images/zh-TW/gdd-jupyter-notebook.c5b52cf21094f158a61f47f455490fd95f1729777ff90861a4521820bf354cdc.png)
+    ![Jupyter Notebook](../../../../../translated_images/zh-TW/gdd-jupyter-notebook.c5b52cf21094f158.webp)
 
 ## 評分標準
 

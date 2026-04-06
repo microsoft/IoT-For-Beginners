@@ -1,6 +1,6 @@
 # 將植物遷移到雲端
 
-![本課程的手繪筆記概述](../../../../../translated_images/zh-MO/lesson-8.3f21f3c11159e6a0a376351973ea5724d5de68fa23b4288853a174bed9ac48c3.jpg)
+![本課程的手繪筆記概述](../../../../../translated_images/zh-MO/lesson-8.3f21f3c11159e6a0.webp)
 
 > 手繪筆記由 [Nitya Narasimhan](https://github.com/nitya) 提供。點擊圖片查看更大版本。
 
@@ -46,8 +46,8 @@ IoT 設備通過公共 MQTT broker 進行通信，這是一種演示原理的方
 
 雲端常被戲稱為「別人的計算機」。最初的想法很簡單——與其購買計算機，不如租用別人的計算機。雲計算提供商會管理巨大的數據中心。他們負責購買和安裝硬件、管理電力和冷卻、網絡、建築安全、硬件和軟件更新等所有事情。作為客戶，你只需租用所需的計算機，需求增加時租用更多，需求減少時減少租用。這些雲端數據中心分布在世界各地。
 
-![Microsoft 雲端數據中心](../../../../../translated_images/zh-MO/azure-region-existing.73f704604f2aa6cb9b5a49ed40e93d4fd81ae3f4e6af4a8ca504023902832f56.png)
-![Microsoft 雲端數據中心擴展計劃](../../../../../translated_images/zh-MO/azure-region-planned-expansion.a5074a1e8af74f156a73552d502429e5b126ea5019274d767ecb4b9afdad442b.png)
+![Microsoft 雲端數據中心](../../../../../translated_images/zh-MO/azure-region-existing.73f704604f2aa6cb.webp)
+![Microsoft 雲端數據中心擴展計劃](../../../../../translated_images/zh-MO/azure-region-planned-expansion.a5074a1e8af74f15.webp)
 
 這些數據中心的面積可以達到數平方公里。上面的圖片拍攝於幾年前的 Microsoft 雲端數據中心，展示了初始規模以及擴展計劃。擴展清理出的區域超過 5 平方公里。
 
@@ -108,11 +108,11 @@ Azure 是 Microsoft 的開發者雲端，也是你在這些課程中將使用的
 
 IoT 設備可以通過設備 SDK（提供與服務功能交互的代碼庫）或直接通過通信協議（如 MQTT 或 HTTP）連接到雲端服務。設備 SDK 通常是最簡單的路徑，因為它處理所有事情，例如知道要發布或訂閱哪些主題，以及如何處理安全性。
 
-![設備通過設備 SDK 連接到服務。伺服器代碼也通過 SDK 連接到服務](../../../../../translated_images/zh-MO/iot-service-connectivity.7e873847921a5d6fd60d0ba3a943210194518cee0d4e362476624316443275c3.png)
+![設備通過設備 SDK 連接到服務。伺服器代碼也通過 SDK 連接到服務](../../../../../translated_images/zh-MO/iot-service-connectivity.7e873847921a5d6f.webp)
 
 你的設備然後通過該服務與應用程序的其他部分通信——類似於你通過 MQTT 發送遙測數據和接收命令。這通常使用服務 SDK 或類似的庫。消息從設備發送到服務，應用程序的其他部分可以讀取這些消息，並將消息發送回設備。
 
-![沒有有效密鑰的設備無法連接到 IoT 服務](../../../../../translated_images/zh-MO/iot-service-allowed-denied-connection.818b0063ac213fb84204a7229303764d9b467ca430fb822b4ac2fca267d56726.png)
+![沒有有效密鑰的設備無法連接到 IoT 服務](../../../../../translated_images/zh-MO/iot-service-allowed-denied-connection.818b0063ac213fb8.webp)
 
 這些服務通過了解所有可以連接並發送數據的設備來實現安全性，這可以通過預先註冊設備或提供設備密鑰或證書來完成，設備可以在首次連接時使用這些密鑰或證書向服務註冊。未知設備無法連接，如果嘗試，服務會拒絕連接並忽略它們發送的消息。
 
@@ -124,7 +124,7 @@ IoT 設備可以通過設備 SDK（提供與服務功能交互的代碼庫）或
 
 現在您已擁有 Azure 訂閱，您可以註冊一個 IoT 服務。Microsoft 的 IoT 服務稱為 Azure IoT Hub。
 
-![Azure IoT Hub 標誌](../../../../../translated_images/zh-MO/azure-iot-hub-logo.28a19de76d0a1932464d858f7558712bcdace3e5ec69c434d482ed7ce41c3a26.png)
+![Azure IoT Hub 標誌](../../../../../translated_images/zh-MO/azure-iot-hub-logo.28a19de76d0a1932.webp)
 
 以下影片提供了 Azure IoT Hub 的簡短概述：
 

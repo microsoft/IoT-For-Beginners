@@ -18,7 +18,7 @@ Grove GPS 感測器可以連接到 Wio Terminal。
 
 連接 GPS 感測器。
 
-![Grove GPS 感測器](../../../../../translated_images/zh-MO/grove-gps-sensor.247943bf69b03f0d1820ef6ed10c587f9b650e8db55b936851c92412180bd3e2.png)
+![Grove GPS 感測器](../../../../../translated_images/zh-MO/grove-gps-sensor.247943bf69b03f0d.webp)
 
 1. 將 Grove 線纜的一端插入 GPS 感測器上的插槽。它只能以一種方式插入。
 

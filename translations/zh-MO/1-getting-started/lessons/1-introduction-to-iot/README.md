@@ -1,6 +1,6 @@
 # 物聯網簡介
 
-![本課程的手繪筆記概覽](../../../../../translated_images/zh-MO/lesson-1.2606670fa61ee904687da5d6fa4e726639d524d064c895117da1b95b9ff6251d.jpg)
+![本課程的手繪筆記概覽](../../../../../translated_images/zh-MO/lesson-1.2606670fa61ee904.webp)
 
 > 手繪筆記由 [Nitya Narasimhan](https://github.com/nitya) 提供。點擊圖片查看更大版本。
 

@@ -26,7 +26,7 @@ Grove LED 是一個模組，包含多種 LED，允許你選擇顏色。
 
 連接 LED。
 
-![一個 Grove LED](../../../../../translated_images/zh-MO/grove-led.6c853be93f473cf2c439cfc74bb1064732b22251a83cedf66e62f783f9cc1a79.png)
+![一個 Grove LED](../../../../../translated_images/zh-MO/grove-led.6c853be93f473cf2.webp)
 
 1. 選擇你喜歡的 LED，並將 LED 的腳插入 LED 模組上的兩個孔中。
 

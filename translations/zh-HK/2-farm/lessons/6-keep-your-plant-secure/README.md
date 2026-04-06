@@ -1,6 +1,6 @@
 # 保護你的植物安全
 
-![本課程的手繪筆記概述](../../../../../translated_images/zh-HK/lesson-10.829c86b80b9403bb770929ee553a1d293afe50dc23121aaf9be144673ae012cc.jpg)
+![本課程的手繪筆記概述](../../../../../translated_images/zh-HK/lesson-10.829c86b80b9403bb.webp)
 
 > 手繪筆記由 [Nitya Narasimhan](https://github.com/nitya) 提供。點擊圖片查看更大的版本。
 
@@ -52,11 +52,11 @@
 
 當設備連接到物聯網服務時，它會使用一個ID來識別自己。問題是這個ID可能會被克隆——黑客可以設置一個惡意設備，使用與真實設備相同的ID，但發送虛假數據。
 
-![有效設備和惡意設備可能使用相同的ID發送遙測數據](../../../../../translated_images/zh-HK/iot-device-and-hacked-device-connecting.e0671675df74d6d99eb1dedb5a670e606f698efa6202b1ad4c8ae548db299cc6.png)
+![有效設備和惡意設備可能使用相同的ID發送遙測數據](../../../../../translated_images/zh-HK/iot-device-and-hacked-device-connecting.e0671675df74d6d9.webp)
 
 解決方法是將發送的數據轉換為一種加密格式，使用設備和雲端都知道的一個值來加密數據。這個過程稱為*加密*，用於加密數據的值稱為*加密密鑰*。
 
-![如果使用加密，則只有加密的消息會被接受，其他消息會被拒絕](../../../../../translated_images/zh-HK/iot-device-and-hacked-device-connecting-encryption.5941aff601fc978f979e46f2849b573564eeb4a4dc5b52f669f62745397492fb.png)
+![如果使用加密，則只有加密的消息會被接受，其他消息會被拒絕](../../../../../translated_images/zh-HK/iot-device-and-hacked-device-connecting-encryption.5941aff601fc978f.webp)
 
 雲端服務可以使用一個過程將數據轉換回可讀格式，這個過程稱為*解密*，使用相同的加密密鑰或一個*解密密鑰*。如果加密的消息無法通過密鑰解密，則表明設備已被攻擊，消息會被拒絕。
 

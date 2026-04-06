@@ -1,6 +1,6 @@
 # 設定計時器並提供語音回饋
 
-![本課程的手繪筆記概覽](../../../../../translated_images/zh-MO/lesson-23.f38483e1d4df4828990d3f02d60e46c978b075d384ae7cb4f7bab738e107c850.jpg)
+![本課程的手繪筆記概覽](../../../../../translated_images/zh-MO/lesson-23.f38483e1d4df4828.webp)
 
 > 手繪筆記由 [Nitya Narasimhan](https://github.com/nitya) 提供。點擊圖片以查看更大版本。
 

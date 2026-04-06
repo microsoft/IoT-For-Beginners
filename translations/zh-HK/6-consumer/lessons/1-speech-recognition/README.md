@@ -1,6 +1,6 @@
 # 使用物聯網設備進行語音識別
 
-![本課程概述的手繪筆記](../../../../../translated_images/zh-HK/lesson-21.e34de51354d6606fb5ee08d8c89d0222eea0a2a7aaf744a8805ae847c4f69dc4.jpg)
+![本課程概述的手繪筆記](../../../../../translated_images/zh-HK/lesson-21.e34de51354d6606f.webp)
 
 > 手繪筆記由 [Nitya Narasimhan](https://github.com/nitya) 提供。點擊圖片查看更大版本。
 
@@ -51,7 +51,7 @@
 
     動圈式麥克風不需要電源，電信號完全由麥克風產生。
 
-    ![Patti Smith 使用 Shure SM58（動圈心型）麥克風演唱](../../../../../translated_images/zh-HK/dynamic-mic.8babac890a2d80dfb0874b5bf37d4b851fe2aeb9da6fd72945746176978bf3bb.jpg)
+    ![Patti Smith 使用 Shure SM58（動圈心型）麥克風演唱](../../../../../translated_images/zh-HK/dynamic-mic.8babac890a2d80df.webp)
 
 * 緞帶式 - 緞帶式麥克風與動圈式麥克風類似，但它使用金屬緞帶代替振膜。該緞帶在磁場中移動時會產生電流。與動圈式麥克風一樣，緞帶式麥克風不需要電源。
 
@@ -59,11 +59,11 @@
 
 * 電容式 - 電容式麥克風有一個薄金屬振膜和一個固定的金屬背板。電流被施加到這兩者上，當振膜振動時，板之間的靜電荷發生變化，產生信號。電容式麥克風需要電源才能工作，稱為 *幻象電源*。
 
-    ![AKG Acoustics 的 C451B 小振膜電容式麥克風](../../../../../translated_images/zh-HK/condenser-mic.6f6ed5b76ca19e0ec3fd0c544601542d4479a6cb7565db336de49fbbf69f623e.jpg)
+    ![AKG Acoustics 的 C451B 小振膜電容式麥克風](../../../../../translated_images/zh-HK/condenser-mic.6f6ed5b76ca19e0e.webp)
 
 * MEMS - 微機電系統麥克風，或 MEMS，是芯片上的麥克風。它們在硅芯片上刻有壓力敏感振膜，工作原理類似於電容式麥克風。這些麥克風可以非常小，並集成到電路中。
 
-    ![電路板上的 MEMS 麥克風](../../../../../translated_images/zh-HK/mems-microphone.80574019e1f5e4d9ee72fed720ecd25a39fc2969c91355d17ebb24ba4159e4c4.png)
+    ![電路板上的 MEMS 麥克風](../../../../../translated_images/zh-HK/mems-microphone.80574019e1f5e4d9.webp)
 
     在上圖中，標記為 **LEFT** 的芯片是一個 MEMS 麥克風，其振膜寬度不到一毫米。
 
@@ -159,7 +159,7 @@
 
 ## 語音轉文字
 
-![語音服務標誌](../../../../../translated_images/zh-HK/azure-speech-logo.a1f08c4befb0159f2cb5d692d3baf5b599e7b44759d316da907bda1508f46a4a.png)
+![語音服務標誌](../../../../../translated_images/zh-HK/azure-speech-logo.a1f08c4befb0159f.webp)
 
 就像之前項目中的圖像分類一樣，有一些預建的人工智能服務可以將音頻文件中的語音轉換為文字。其中一項服務是語音服務，它是認知服務的一部分，這些預建的人工智能服務可以在你的應用中使用。
 

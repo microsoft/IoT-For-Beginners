@@ -67,7 +67,7 @@
 
     你將能夠在 Custom Vision 的 **Predictions**（預測）標籤中看到拍攝的影像和這些值。
 
-    ![架子上有 4 罐番茄醬，預測結果分別為 35.8%、33.5%、25.7% 和 16.6%](../../../../../translated_images/zh-HK/custom-vision-stock-prediction.942266ab1bcca3410ecdf23643b9f5f570cfab2345235074e24c51f285777613.png)
+    ![架子上有 4 罐番茄醬，預測結果分別為 35.8%、33.5%、25.7% 和 16.6%](../../../../../translated_images/zh-HK/custom-vision-stock-prediction.942266ab1bcca341.webp)
 
 > 💁 你可以在 [code-detect/pi](../../../../../5-retail/lessons/2-check-stock-device/code-detect/pi) 或 [code-detect/virtual-iot-device](../../../../../5-retail/lessons/2-check-stock-device/code-detect/virtual-iot-device) 資料夾中找到此代碼。
 
