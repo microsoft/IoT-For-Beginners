@@ -1,6 +1,6 @@
 # Atur Timer dan Berikan Umpan Balik Lisan
 
-![Sketchnote ringkasan pelajaran ini](../../../../../translated_images/id/lesson-23.f38483e1d4df4828990d3f02d60e46c978b075d384ae7cb4f7bab738e107c850.jpg)
+![Sketchnote ringkasan pelajaran ini](../../../../../translated_images/id/lesson-23.f38483e1d4df4828.webp)
 
 > Sketchnote oleh [Nitya Narasimhan](https://github.com/nitya). Klik gambar untuk versi yang lebih besar.
 

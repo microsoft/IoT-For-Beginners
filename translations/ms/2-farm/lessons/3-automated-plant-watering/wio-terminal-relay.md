@@ -18,7 +18,7 @@ Relay Grove boleh disambungkan ke port digital Wio Terminal.
 
 Sambungkan relay.
 
-![Relay Grove](../../../../../translated_images/ms/grove-relay.d426958ca210fbd0fb7983d7edc069d46c73a8b0a099d94797bd756f7b6bb6be.png)
+![Relay Grove](../../../../../translated_images/ms/grove-relay.d426958ca210fbd0.webp)
 
 1. Masukkan satu hujung kabel Grove ke soket pada relay. Ia hanya boleh dimasukkan dalam satu arah sahaja.
 

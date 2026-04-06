@@ -1,6 +1,6 @@
 # Panatilihing Ligtas ang Iyong Halaman
 
-![Isang sketchnote overview ng araling ito](../../../../../translated_images/tl/lesson-10.829c86b80b9403bb770929ee553a1d293afe50dc23121aaf9be144673ae012cc.jpg)
+![Isang sketchnote overview ng araling ito](../../../../../translated_images/tl/lesson-10.829c86b80b9403bb.webp)
 
 > Sketchnote ni [Nitya Narasimhan](https://github.com/nitya). I-click ang imahe para sa mas malaking bersyon.
 
@@ -52,11 +52,11 @@ Ito ay mga totoong sitwasyon at nangyayari sa lahat ng oras. Ang ilang mga halim
 
 Kapag kumonekta ang isang device sa isang IoT service, gumagamit ito ng ID upang kilalanin ang sarili nito. Ang problema ay ang ID na ito ay maaaring kopyahin - maaaring mag-set up ang isang hacker ng malisyosong device na gumagamit ng parehong ID ng isang tunay na device ngunit nagpapadala ng maling data.
 
-![Parehong valid at malisyosong device ay maaaring gumamit ng parehong ID upang magpadala ng telemetry](../../../../../translated_images/tl/iot-device-and-hacked-device-connecting.e0671675df74d6d99eb1dedb5a670e606f698efa6202b1ad4c8ae548db299cc6.png)
+![Parehong valid at malisyosong device ay maaaring gumamit ng parehong ID upang magpadala ng telemetry](../../../../../translated_images/tl/iot-device-and-hacked-device-connecting.e0671675df74d6d9.webp)
 
 Ang solusyon dito ay ang pag-convert ng data na ipinapadala sa isang scrambled na format, gamit ang isang halaga na kilala lamang ng device at ng cloud. Ang prosesong ito ay tinatawag na *encryption*, at ang halaga na ginamit upang i-encrypt ang data ay tinatawag na *encryption key*.
 
-![Kung gagamit ng encryption, tanging mga encrypted na mensahe lamang ang tatanggapin, ang iba ay tatanggihan](../../../../../translated_images/tl/iot-device-and-hacked-device-connecting-encryption.5941aff601fc978f979e46f2849b573564eeb4a4dc5b52f669f62745397492fb.png)
+![Kung gagamit ng encryption, tanging mga encrypted na mensahe lamang ang tatanggapin, ang iba ay tatanggihan](../../../../../translated_images/tl/iot-device-and-hacked-device-connecting-encryption.5941aff601fc978f.webp)
 
 Ang cloud service ay maaaring i-convert ang data pabalik sa nababasang format, gamit ang isang proseso na tinatawag na *decryption*, gamit ang parehong encryption key, o isang *decryption key*. Kung ang encrypted na mensahe ay hindi ma-decrypt ng key, ang device ay na-hack at ang mensahe ay tatanggihan.
 

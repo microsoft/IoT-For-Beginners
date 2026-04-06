@@ -1,6 +1,6 @@
 # Makipag-ugnayan sa pisikal na mundo gamit ang mga sensor at actuator
 
-![Isang sketchnote overview ng araling ito](../../../../../translated_images/tl/lesson-3.cc3b7b4cd646de598698cce043c0393fd62ef42bac2eaf60e61272cd844250f4.jpg)
+![Isang sketchnote overview ng araling ito](../../../../../translated_images/tl/lesson-3.cc3b7b4cd646de59.webp)
 
 > Sketchnote ni [Nitya Narasimhan](https://github.com/nitya). I-click ang imahe para sa mas malaking bersyon.
 
@@ -92,7 +92,7 @@ Ang mga digital sensor, tulad ng analog sensor, ay nakakakita sa mundo sa paligi
 
 Ang pinakasimpleng digital sensor ay isang button o switch. Ito ay isang sensor na may dalawang estado, on o off.
 
-![Isang button na pinapadalhan ng 5 volts. Kapag hindi pinindot, nagbabalik ito ng 0 volts, kapag pinindot, nagbabalik ito ng 5 volts](../../../../../translated_images/tl/button.eadb560b77ac45e56f523d9d8876e40444f63b419e33eb820082d461fa79490b.png)
+![Isang button na pinapadalhan ng 5 volts. Kapag hindi pinindot, nagbabalik ito ng 0 volts, kapag pinindot, nagbabalik ito ng 5 volts](../../../../../translated_images/tl/button.eadb560b77ac45e5.webp)
 
 Ang mga pin sa IoT device tulad ng GPIO pins ay maaaring direktang sukatin ang signal na ito bilang 0 o 1. Kung ang boltahe na ipinadala ay pareho sa boltahe na ibinalik, ang halaga na nabasa ay 1, kung hindi, ang halaga na nabasa ay 0. Walang pangangailangan na i-convert ang signal, maaari lamang itong maging 1 o 0.
 
@@ -125,7 +125,7 @@ Ilan sa mga karaniwang actuator ay:
 
 Sundin ang kaukulang gabay sa ibaba upang magdagdag ng actuator sa iyong IoT device, na kontrolado ng sensor, upang bumuo ng IoT nightlight. Kukunin nito ang light levels mula sa light sensor, at gagamit ng actuator sa anyo ng LED upang maglabas ng liwanag kapag masyadong mababa ang natukoy na light level.
 
-![Isang flow chart ng assignment na nagpapakita ng light levels na binabasa at sinusuri, at ang LED na kinokontrol](../../../../../translated_images/tl/assignment-1-flow.7552a51acb1a5ec858dca6e855cdbb44206434006df8ba3799a25afcdab1665d.png)
+![Isang flow chart ng assignment na nagpapakita ng light levels na binabasa at sinusuri, at ang LED na kinokontrol](../../../../../translated_images/tl/assignment-1-flow.7552a51acb1a5ec8.webp)
 
 * [Arduino - Wio Terminal](wio-terminal-actuator.md)
 * [Single-board computer - Raspberry Pi](pi-actuator.md)
@@ -140,7 +140,7 @@ Tulad ng mga sensor, ang mga actuator ay maaaring analog o digital.
 Ang mga analog actuator ay tumatanggap ng analog signal at kino-convert ito sa isang uri ng interaksyon, kung saan ang interaksyon ay nagbabago batay sa boltahe na ibinibigay.
 
 Isang halimbawa ay ang dimmable light, tulad ng mga ilaw na maaaring mayroon ka sa iyong bahay. Ang dami ng boltahe na ibinibigay sa ilaw ang nagtatakda kung gaano ito kaliwanag.
-![Isang ilaw na dimmed sa mababang boltahe at mas maliwanag sa mas mataas na boltahe](../../../../../translated_images/tl/dimmable-light.9ceffeb195dec1a849da718b2d71b32c35171ff7dfea9c07bbf82646a67acf6b.png)
+![Isang ilaw na dimmed sa mababang boltahe at mas maliwanag sa mas mataas na boltahe](../../../../../translated_images/tl/dimmable-light.9ceffeb195dec1a8.webp)
 
 Tulad ng mga sensor, ang aktwal na IoT device ay gumagana gamit ang digital na signal, hindi analog. Ibig sabihin, upang magpadala ng analog na signal, kailangan ng IoT device ng digital to analog converter (DAC), alinman direkta sa IoT device o sa isang connector board. Ito ang magko-convert ng mga 0s at 1s mula sa IoT device patungo sa analog na boltahe na magagamit ng actuator.
 
@@ -187,7 +187,7 @@ Ang mga digital na actuator, tulad ng mga digital na sensor, ay may dalawang est
 
 Isang simpleng digital na actuator ay isang LED. Kapag ang isang device ay nagpadala ng digital na signal na 1, isang mataas na boltahe ang ipinapadala na nagpapailaw sa LED. Kapag ang isang digital na signal na 0 ay ipinadala, ang boltahe ay bumababa sa 0V at ang LED ay namamatay.
 
-![Isang LED na naka-off sa 0 volts at naka-on sa 5V](../../../../../translated_images/tl/led.ec6d94f66676a174ad06d9fa9ea49c2ee89beb18b312d5c6476467c66375b07f.png)
+![Isang LED na naka-off sa 0 volts at naka-on sa 5V](../../../../../translated_images/tl/led.ec6d94f66676a174.webp)
 
 ✅ Ano pang ibang simpleng 2-state actuator ang naiisip mo? Isang halimbawa ay isang solenoid, na isang electromagnet na maaaring i-activate upang gumawa ng mga bagay tulad ng paggalaw ng bolt ng pinto para sa pag-lock/pag-unlock ng pinto.
 

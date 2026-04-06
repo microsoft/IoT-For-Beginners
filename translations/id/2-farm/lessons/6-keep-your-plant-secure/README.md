@@ -1,6 +1,6 @@
 # Jaga Keamanan Tanaman Anda
 
-![Gambaran sketchnote dari pelajaran ini](../../../../../translated_images/id/lesson-10.829c86b80b9403bb770929ee553a1d293afe50dc23121aaf9be144673ae012cc.jpg)
+![Gambaran sketchnote dari pelajaran ini](../../../../../translated_images/id/lesson-10.829c86b80b9403bb.webp)
 
 > Sketchnote oleh [Nitya Narasimhan](https://github.com/nitya). Klik gambar untuk versi yang lebih besar.
 
@@ -52,11 +52,11 @@ Ini adalah skenario dunia nyata yang sering terjadi. Beberapa contoh telah diber
 
 Ketika sebuah perangkat terhubung ke layanan IoT, ia menggunakan ID untuk mengidentifikasi dirinya. Masalahnya adalah ID ini dapat disalin - seorang peretas dapat mengatur perangkat jahat yang menggunakan ID yang sama dengan perangkat asli tetapi mengirimkan data palsu.
 
-![Baik perangkat valid maupun perangkat jahat dapat menggunakan ID yang sama untuk mengirim telemetri](../../../../../translated_images/id/iot-device-and-hacked-device-connecting.e0671675df74d6d99eb1dedb5a670e606f698efa6202b1ad4c8ae548db299cc6.png)
+![Baik perangkat valid maupun perangkat jahat dapat menggunakan ID yang sama untuk mengirim telemetri](../../../../../translated_images/id/iot-device-and-hacked-device-connecting.e0671675df74d6d9.webp)
 
 Cara untuk mengatasi ini adalah dengan mengubah data yang dikirim menjadi format yang diacak, menggunakan nilai tertentu yang hanya diketahui oleh perangkat dan cloud. Proses ini disebut *enkripsi*, dan nilai yang digunakan untuk mengenkripsi data disebut *kunci enkripsi*.
 
-![Jika enkripsi digunakan, maka hanya pesan terenkripsi yang akan diterima, lainnya akan ditolak](../../../../../translated_images/id/iot-device-and-hacked-device-connecting-encryption.5941aff601fc978f979e46f2849b573564eeb4a4dc5b52f669f62745397492fb.png)
+![Jika enkripsi digunakan, maka hanya pesan terenkripsi yang akan diterima, lainnya akan ditolak](../../../../../translated_images/id/iot-device-and-hacked-device-connecting-encryption.5941aff601fc978f.webp)
 
 Layanan cloud kemudian dapat mengubah data kembali ke format yang dapat dibaca, menggunakan proses yang disebut *dekripsi*, dengan menggunakan kunci enkripsi yang sama, atau *kunci dekripsi*. Jika pesan terenkripsi tidak dapat didekripsi oleh kunci tersebut, perangkat telah diretas dan pesan ditolak.
 

@@ -34,11 +34,11 @@ Tambah kamera ke aplikasi CounterFit.
 
     1. Pilih butang **Add** untuk mencipta kamera.
 
-    ![Tetapan kamera](../../../../../translated_images/ms/counterfit-create-camera.a5de97f59c0bd3cbe0416d7e89a3cfe86d19fbae05c641c53a91286412af0a34.png)
+    ![Tetapan kamera](../../../../../translated_images/ms/counterfit-create-camera.a5de97f59c0bd3cb.webp)
 
     Kamera akan dicipta dan muncul dalam senarai sensor.
 
-    ![Kamera telah dicipta](../../../../../translated_images/ms/counterfit-camera.001ec52194c8ee5d3f617173da2c79e1df903d10882adc625cbfc493525125d4.png)
+    ![Kamera telah dicipta](../../../../../translated_images/ms/counterfit-camera.001ec52194c8ee5d.webp)
 
 ## Programkan kamera
 
@@ -103,7 +103,7 @@ Programkan peranti.
 
 1. Konfigurasikan imej yang akan ditangkap oleh kamera dalam CounterFit. Anda boleh menetapkan *Source* kepada *File*, kemudian muat naik fail imej, atau menetapkan *Source* kepada *WebCam*, dan imej akan ditangkap daripada kamera web anda. Pastikan anda memilih butang **Set** selepas memilih gambar atau kamera web anda.
 
-    ![CounterFit dengan fail ditetapkan sebagai sumber imej, dan kamera web menunjukkan seseorang memegang pisang dalam pratonton kamera web](../../../../../translated_images/ms/counterfit-camera-options.eb3bd5150a8e7dffbf24bc5bcaba0cf2cdef95fbe6bbe393695d173817d6b8df.png)
+    ![CounterFit dengan fail ditetapkan sebagai sumber imej, dan kamera web menunjukkan seseorang memegang pisang dalam pratonton kamera web](../../../../../translated_images/ms/counterfit-camera-options.eb3bd5150a8e7dff.webp)
 
 1. Imej akan ditangkap dan disimpan sebagai `image.jpg` dalam folder semasa. Anda akan melihat fail ini dalam penjelajah VS Code. Pilih fail untuk melihat imej. Jika ia memerlukan putaran, kemas kini baris `camera.rotation = 0` mengikut keperluan dan ambil gambar lain.
 

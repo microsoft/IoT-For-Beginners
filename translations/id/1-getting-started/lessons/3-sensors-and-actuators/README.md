@@ -1,6 +1,6 @@
 # Berinteraksi dengan Dunia Fisik Menggunakan Sensor dan Aktuator
 
-![Gambaran sketchnote dari pelajaran ini](../../../../../translated_images/id/lesson-3.cc3b7b4cd646de598698cce043c0393fd62ef42bac2eaf60e61272cd844250f4.jpg)
+![Gambaran sketchnote dari pelajaran ini](../../../../../translated_images/id/lesson-3.cc3b7b4cd646de59.webp)
 
 > Sketchnote oleh [Nitya Narasimhan](https://github.com/nitya). Klik gambar untuk versi yang lebih besar.
 
@@ -92,7 +92,7 @@ Sensor digital, seperti sensor analog, mendeteksi dunia di sekitar mereka menggu
 
 Sensor digital paling sederhana adalah tombol atau saklar. Ini adalah sensor dengan dua keadaan, hidup atau mati.
 
-![Tombol menerima 5 volt. Saat tidak ditekan, mengembalikan 0 volt; saat ditekan, mengembalikan 5 volt](../../../../../translated_images/id/button.eadb560b77ac45e56f523d9d8876e40444f63b419e33eb820082d461fa79490b.png)
+![Tombol menerima 5 volt. Saat tidak ditekan, mengembalikan 0 volt; saat ditekan, mengembalikan 5 volt](../../../../../translated_images/id/button.eadb560b77ac45e5.webp)
 
 Pin pada perangkat IoT seperti pin GPIO dapat mengukur sinyal ini secara langsung sebagai 0 atau 1. Jika tegangan yang dikirim sama dengan tegangan yang dikembalikan, nilai yang dibaca adalah 1, jika tidak nilai yang dibaca adalah 0. Tidak perlu mengonversi sinyal, sinyal hanya bisa berupa 1 atau 0.
 
@@ -125,7 +125,7 @@ Beberapa aktuator umum meliputi:
 
 Ikuti panduan yang relevan di bawah ini untuk menambahkan aktuator ke perangkat IoT Anda, yang dikendalikan oleh sensor, untuk membangun lampu malam IoT. Lampu ini akan mengumpulkan tingkat cahaya dari sensor cahaya, dan menggunakan aktuator berupa LED untuk memancarkan cahaya saat tingkat cahaya yang terdeteksi terlalu rendah.
 
-![Diagram alur tugas menunjukkan tingkat cahaya yang dibaca dan diperiksa, serta LED yang dikendalikan](../../../../../translated_images/id/assignment-1-flow.7552a51acb1a5ec858dca6e855cdbb44206434006df8ba3799a25afcdab1665d.png)
+![Diagram alur tugas menunjukkan tingkat cahaya yang dibaca dan diperiksa, serta LED yang dikendalikan](../../../../../translated_images/id/assignment-1-flow.7552a51acb1a5ec8.webp)
 
 * [Arduino - Wio Terminal](wio-terminal-actuator.md)
 * [Komputer papan tunggal - Raspberry Pi](pi-actuator.md)
@@ -140,7 +140,7 @@ Seperti sensor, aktuator dapat berupa analog atau digital.
 Aktuator analog menerima sinyal analog dan mengubahnya menjadi semacam interaksi, di mana interaksi tersebut berubah berdasarkan tegangan yang diberikan.
 
 Salah satu contohnya adalah lampu yang dapat diredupkan, seperti yang mungkin Anda miliki di rumah Anda. Jumlah tegangan yang diberikan ke lampu menentukan seberapa terang lampu tersebut.
-![Cahaya redup pada tegangan rendah dan lebih terang pada tegangan tinggi](../../../../../translated_images/id/dimmable-light.9ceffeb195dec1a849da718b2d71b32c35171ff7dfea9c07bbf82646a67acf6b.png)
+![Cahaya redup pada tegangan rendah dan lebih terang pada tegangan tinggi](../../../../../translated_images/id/dimmable-light.9ceffeb195dec1a8.webp)
 
 Seperti halnya sensor, perangkat IoT sebenarnya bekerja dengan sinyal digital, bukan analog. Ini berarti untuk mengirimkan sinyal analog, perangkat IoT memerlukan konverter digital ke analog (DAC), baik langsung pada perangkat IoT atau pada papan konektor. Konverter ini akan mengubah 0 dan 1 dari perangkat IoT menjadi tegangan analog yang dapat digunakan oleh aktuator.
 
@@ -187,7 +187,7 @@ Aktuator digital, seperti sensor digital, memiliki dua keadaan yang dikontrol ol
 
 Salah satu aktuator digital sederhana adalah LED. Ketika perangkat mengirimkan sinyal digital 1, tegangan tinggi dikirimkan yang menyalakan LED. Ketika sinyal digital 0 dikirimkan, tegangan turun menjadi 0V dan LED mati.
 
-![LED mati pada 0 volt dan menyala pada 5V](../../../../../translated_images/id/led.ec6d94f66676a174ad06d9fa9ea49c2ee89beb18b312d5c6476467c66375b07f.png)
+![LED mati pada 0 volt dan menyala pada 5V](../../../../../translated_images/id/led.ec6d94f66676a174.webp)
 
 ✅ Aktuator 2-keadaan sederhana apa lagi yang bisa kamu pikirkan? Salah satu contohnya adalah solenoid, yang merupakan elektromagnet yang dapat diaktifkan untuk melakukan hal-hal seperti menggerakkan baut pintu untuk mengunci/membuka kunci pintu.
 

@@ -26,7 +26,7 @@ Grove LED hadir sebagai modul dengan beberapa pilihan LED, memungkinkan Anda mem
 
 Hubungkan LED.
 
-![Sebuah Grove LED](../../../../../translated_images/id/grove-led.6c853be93f473cf2c439cfc74bb1064732b22251a83cedf66e62f783f9cc1a79.png)
+![Sebuah Grove LED](../../../../../translated_images/id/grove-led.6c853be93f473cf2.webp)
 
 1. Pilih LED favorit Anda dan masukkan kaki-kakinya ke dalam dua lubang pada modul LED.
 

@@ -26,7 +26,7 @@ Grove LED datang sebagai modul dengan pilihan LED, membolehkan anda memilih warn
 
 Sambungkan LED.
 
-![LED Grove](../../../../../translated_images/ms/grove-led.6c853be93f473cf2c439cfc74bb1064732b22251a83cedf66e62f783f9cc1a79.png)
+![LED Grove](../../../../../translated_images/ms/grove-led.6c853be93f473cf2.webp)
 
 1. Pilih LED kegemaran anda dan masukkan kaki-kaki LED ke dalam dua lubang pada modul LED.
 

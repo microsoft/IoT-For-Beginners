@@ -1,6 +1,6 @@
 # Penyiraman tanaman otomatis
 
-![Gambaran sketchnote dari pelajaran ini](../../../../../translated_images/id/lesson-7.30b5f577d3cb8e031238751475cb519c7d6dbaea261b5df4643d086ffb2a03bb.jpg)
+![Gambaran sketchnote dari pelajaran ini](../../../../../translated_images/id/lesson-7.30b5f577d3cb8e03.webp)
 
 > Sketchnote oleh [Nitya Narasimhan](https://github.com/nitya). Klik gambar untuk versi yang lebih besar.
 
@@ -32,7 +32,7 @@ Perangkat IoT menggunakan tegangan rendah. Meskipun ini cukup untuk sensor dan a
 
 Solusinya adalah menghubungkan pompa ke sumber daya eksternal, dan menggunakan aktuator untuk menyalakan pompa, mirip dengan cara Anda menyalakan lampu. Dibutuhkan sedikit daya (dalam bentuk energi dari tubuh Anda) untuk jari Anda membalikkan saklar, dan ini menghubungkan lampu ke listrik utama yang berjalan pada 110v/240v.
 
-![Saklar lampu menyalakan daya ke lampu](../../../../../translated_images/id/light-switch.760317ad6ab8bd6d611da5352dfe9c73a94a0822ccec7df3c8bae35da18e1658.png)
+![Saklar lampu menyalakan daya ke lampu](../../../../../translated_images/id/light-switch.760317ad6ab8bd6d.webp)
 
 > 🎓 [Listrik utama](https://wikipedia.org/wiki/Mains_electricity) mengacu pada listrik yang disalurkan ke rumah dan bisnis melalui infrastruktur nasional di banyak bagian dunia.
 
@@ -72,7 +72,7 @@ Saat tuas bergerak, Anda biasanya dapat mendengar suara klik yang jelas saat tua
 
 Elektromagnet tidak membutuhkan banyak daya untuk mengaktifkan dan menarik tuas, ia dapat dikontrol menggunakan keluaran 3.3V atau 5V dari kit pengembangan IoT. Sirkuit keluaran dapat membawa daya yang jauh lebih besar, tergantung pada relay, termasuk tegangan utama atau bahkan tingkat daya yang lebih tinggi untuk penggunaan industri. Dengan cara ini, kit pengembangan IoT dapat mengontrol sistem irigasi, dari pompa kecil untuk satu tanaman, hingga sistem industri besar untuk seluruh pertanian komersial.
 
-![Relay Grove dengan sirkuit kontrol, sirkuit keluaran, dan relay diberi label](../../../../../translated_images/id/grove-relay-labelled.293e068f5c3c2a199bd7892f2661fdc9e10c920b535cfed317fbd6d1d4ae1168.png)
+![Relay Grove dengan sirkuit kontrol, sirkuit keluaran, dan relay diberi label](../../../../../translated_images/id/grove-relay-labelled.293e068f5c3c2a19.webp)
 
 Gambar di atas menunjukkan relay Grove. Sirkuit kontrol terhubung ke perangkat IoT dan menyalakan atau mematikan relay menggunakan 3.3V atau 5V. Sirkuit keluaran memiliki dua terminal, salah satunya dapat menjadi daya atau ground. Sirkuit keluaran dapat menangani hingga 250V pada 10A, cukup untuk berbagai perangkat yang menggunakan daya utama. Anda dapat menemukan relay yang dapat menangani tingkat daya yang lebih tinggi.
 

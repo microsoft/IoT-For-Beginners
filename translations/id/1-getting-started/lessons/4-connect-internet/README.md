@@ -1,6 +1,6 @@
 # Hubungkan perangkat Anda ke Internet
 
-![Gambaran sketchnote dari pelajaran ini](../../../../../translated_images/id/lesson-4.7344e074ea68fa545fd320b12dce36d72dd62d28c3b4596cb26cf315f434b98f.jpg)
+![Gambaran sketchnote dari pelajaran ini](../../../../../translated_images/id/lesson-4.7344e074ea68fa54.webp)
 
 > Sketchnote oleh [Nitya Narasimhan](https://github.com/nitya). Klik gambar untuk versi yang lebih besar.
 
@@ -47,7 +47,7 @@ MQTT adalah protokol komunikasi paling populer untuk perangkat IoT dan akan diba
 
 MQTT memiliki satu broker dan beberapa klien. Semua klien terhubung ke broker, dan broker merutekan pesan ke klien yang relevan. Pesan dirutekan menggunakan topik bernama, bukan dikirim langsung ke klien individu. Klien dapat mempublikasikan ke topik, dan klien mana pun yang berlangganan topik tersebut akan menerima pesan.
 
-![Perangkat IoT mempublikasikan telemetri pada topik /telemetry, dan layanan cloud berlangganan topik tersebut](../../../../../translated_images/id/mqtt.cbf7f21d9adc3e17548b359444cc11bb4bf2010543e32ece9a47becf54438c23.png)
+![Perangkat IoT mempublikasikan telemetri pada topik /telemetry, dan layanan cloud berlangganan topik tersebut](../../../../../translated_images/id/mqtt.cbf7f21d9adc3e17.webp)
 
 ✅ Lakukan riset. Jika Anda memiliki banyak perangkat IoT, bagaimana Anda dapat memastikan broker MQTT Anda dapat menangani semua pesan?
 
@@ -69,7 +69,7 @@ Daripada menangani kompleksitas pengaturan broker MQTT sebagai bagian dari tugas
 
 > 💁 Broker uji ini bersifat publik dan tidak aman. Siapa pun dapat mendengarkan apa yang Anda publikasikan, jadi tidak boleh digunakan dengan data apa pun yang perlu dirahasiakan.
 
-![Diagram alur tugas menunjukkan tingkat cahaya yang dibaca dan diperiksa, serta LED yang dikontrol](../../../../../translated_images/id/assignment-1-internet-flow.3256feab5f052fd273bf4e331157c574c2c3fa42e479836fc9c3586f41db35a5.png)
+![Diagram alur tugas menunjukkan tingkat cahaya yang dibaca dan diperiksa, serta LED yang dikontrol](../../../../../translated_images/id/assignment-1-internet-flow.3256feab5f052fd2.webp)
 
 Ikuti langkah yang relevan di bawah ini untuk menghubungkan perangkat Anda ke broker MQTT:
 
@@ -350,7 +350,7 @@ Untuk mesin, Anda mungkin ingin menyimpan data, terutama jika data tersebut digu
 
 Desainer perangkat IoT juga harus mempertimbangkan apakah perangkat IoT dapat digunakan selama gangguan Internet atau kehilangan sinyal yang disebabkan oleh lokasi. Sebuah termostat pintar harus dapat membuat beberapa keputusan terbatas untuk mengontrol pemanasan jika tidak dapat mengirim telemetri ke cloud karena gangguan.
 
-[![Ferrari ini rusak karena seseorang mencoba memperbaruinya di bawah tanah di mana tidak ada sinyal seluler](../../../../../translated_images/id/bricked-car.dc38f8efadc6c59d76211f981a521efb300939283dee468f79503aae3ec67615.png)](https://twitter.com/internetofshit/status/1315736960082808832)
+[![Ferrari ini rusak karena seseorang mencoba memperbaruinya di bawah tanah di mana tidak ada sinyal seluler](../../../../../translated_images/id/bricked-car.dc38f8efadc6c59d.webp)](https://twitter.com/internetofshit/status/1315736960082808832)
 
 Untuk MQTT menangani kehilangan konektivitas, kode perangkat dan server harus bertanggung jawab untuk memastikan pengiriman pesan jika diperlukan, misalnya dengan mewajibkan semua pesan yang dikirim dijawab oleh pesan tambahan pada topik balasan, dan jika tidak, pesan tersebut diantrekan secara manual untuk diputar ulang nanti.
 
@@ -358,7 +358,7 @@ Untuk MQTT menangani kehilangan konektivitas, kode perangkat dan server harus be
 
 Perintah adalah pesan yang dikirim oleh cloud ke perangkat, menginstruksikannya untuk melakukan sesuatu. Sebagian besar waktu ini melibatkan memberikan beberapa jenis output melalui aktuator, tetapi bisa juga berupa instruksi untuk perangkat itu sendiri, seperti untuk reboot, atau mengumpulkan telemetri tambahan dan mengembalikannya sebagai respons terhadap perintah.
 
-![Termostat yang terhubung ke Internet menerima perintah untuk menyalakan pemanas](../../../../../translated_images/id/commands.d6c06bbbb3a02cce95f2831a1c331daf6dedd4e470c4aa2b0ae54f332016e504.png)
+![Termostat yang terhubung ke Internet menerima perintah untuk menyalakan pemanas](../../../../../translated_images/id/commands.d6c06bbbb3a02cce.webp)
 
 Sebuah termostat dapat menerima perintah dari cloud untuk menyalakan pemanas. Berdasarkan data telemetri dari semua sensor, jika layanan cloud memutuskan bahwa pemanas harus menyala, maka ia mengirimkan perintah yang relevan.
 

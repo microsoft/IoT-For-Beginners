@@ -1,6 +1,6 @@
 # Data Lokasi Kedai
 
-![Gambaran sketchnote untuk pelajaran ini](../../../../../translated_images/ms/lesson-12.ca7f53039712a3ec14ad6474d8445361c84adab643edc53fa6269b77895606bb.jpg)
+![Gambaran sketchnote untuk pelajaran ini](../../../../../translated_images/ms/lesson-12.ca7f53039712a3ec.webp)
 
 > Sketchnote oleh [Nitya Narasimhan](https://github.com/nitya). Klik imej untuk versi yang lebih besar.
 
@@ -75,7 +75,7 @@ Pangkalan data NoSQL dinamakan NoSQL kerana ia tidak mempunyai struktur tegar ya
 
 > 💁 Walaupun namanya, beberapa pangkalan data NoSQL membolehkan anda menggunakan SQL untuk menyoal data.
 
-![Dokumen dalam folder dalam pangkalan data NoSQL](../../../../../translated_images/ms/noqsl-database.62d24ccf5b73f60d35c245a8533f1c7147c0928e955b82cb290b2e184bb434df.png)
+![Dokumen dalam folder dalam pangkalan data NoSQL](../../../../../translated_images/ms/noqsl-database.62d24ccf5b73f60d.webp)
 
 Pangkalan data NoSQL tidak mempunyai skema yang telah ditetapkan yang mengehadkan cara data disimpan, sebaliknya anda boleh memasukkan sebarang data tidak berstruktur, biasanya menggunakan dokumen JSON. Dokumen ini boleh diatur dalam folder, serupa dengan fail pada komputer anda. Setiap dokumen boleh mempunyai medan yang berbeza daripada dokumen lain - contohnya jika anda menyimpan data IoT daripada kenderaan ladang anda, sesetengahnya mungkin mempunyai medan untuk data pecutan dan kelajuan, yang lain mungkin mempunyai medan untuk suhu dalam treler. Jika anda ingin menambah jenis trak baru, seperti yang mempunyai skala terbina dalam untuk menjejaki berat hasil yang dibawa, maka peranti IoT anda boleh menambah medan baru ini dan ia boleh disimpan tanpa sebarang perubahan pada pangkalan data.
 
@@ -89,7 +89,7 @@ Dalam pelajaran ini, anda akan menggunakan penyimpanan NoSQL untuk menyimpan dat
 
 Dalam pelajaran sebelumnya, anda telah menangkap data GPS daripada sensor GPS yang disambungkan ke peranti IoT anda. Untuk menyimpan data IoT ini di awan, anda perlu menghantarnya ke perkhidmatan IoT. Sekali lagi, anda akan menggunakan Azure IoT Hub, perkhidmatan awan IoT yang sama yang anda gunakan dalam projek sebelumnya.
 
-![Menghantar telemetri GPS daripada peranti IoT ke IoT Hub](../../../../../translated_images/ms/gps-telemetry-iot-hub.8115335d51cd2c1285d20e9d1b18cf685e59a8e093e7797291ef173445af6f3d.png)
+![Menghantar telemetri GPS daripada peranti IoT ke IoT Hub](../../../../../translated_images/ms/gps-telemetry-iot-hub.8115335d51cd2c12.webp)
 
 ### Tugas - Hantar Data GPS ke IoT Hub
 
@@ -171,7 +171,7 @@ Data laluan sejuk disimpan dalam gudang data - pangkalan data yang direka untuk 
 
 Setelah data mengalir ke IoT Hub anda, anda boleh menulis kod tanpa pelayan untuk mendengar acara yang diterbitkan ke titik akhir yang serasi dengan Event-Hub. Ini adalah laluan suam - data ini akan disimpan dan digunakan dalam pelajaran seterusnya untuk pelaporan perjalanan.
 
-![Menghantar telemetri GPS daripada peranti IoT ke IoT Hub, kemudian ke Azure Functions melalui pencetus event hub](../../../../../translated_images/ms/gps-telemetry-iot-hub-functions.24d3fa5592455e9f4e2fe73856b40c3915a292b90263c31d652acfd976cfedd8.png)
+![Menghantar telemetri GPS daripada peranti IoT ke IoT Hub, kemudian ke Azure Functions melalui pencetus event hub](../../../../../translated_images/ms/gps-telemetry-iot-hub-functions.24d3fa5592455e9f.webp)
 
 ### Tugas - Kendalikan Acara GPS Menggunakan Kod Tanpa Pelayan
 
@@ -193,7 +193,7 @@ Setelah data mengalir ke IoT Hub anda, anda boleh menulis kod tanpa pelayan untu
 
 ## Akaun Storan Azure
 
-![Logo Storan Azure](../../../../../translated_images/ms/azure-storage-logo.605c0f602c640d482a80f1b35a2629a32d595711b7ab1d7ceea843250615ff32.png)
+![Logo Storan Azure](../../../../../translated_images/ms/azure-storage-logo.605c0f602c640d48.webp)
 
 Akaun Storan Azure adalah perkhidmatan storan serba guna yang boleh menyimpan data dalam pelbagai cara. Anda boleh menyimpan data sebagai blob, dalam barisan, dalam jadual, atau sebagai fail, dan semuanya pada masa yang sama.
 

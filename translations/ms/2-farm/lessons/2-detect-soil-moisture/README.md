@@ -13,7 +13,7 @@ I²C mempunyai bas yang terdiri daripada 2 wayar utama, bersama dengan 2 wayar k
 | VCC | Voltage common collector | Bekalan kuasa untuk peranti. Ini disambungkan ke wayar SDA dan SCL untuk menyediakan kuasa mereka melalui perintang pull-up yang mematikan isyarat apabila tiada peranti menjadi pengawal. |
 | GND | Ground | Memberikan tanah biasa untuk litar elektrik. |
 
-![Bas I2C dengan 3 peranti disambungkan ke wayar SDA dan SCL, berkongsi wayar tanah biasa](../../../../../translated_images/ms/i2c.83da845dde02256bdd462dbe0d5145461416b74930571b89d1ae142841eeb584.png)
+![Bas I2C dengan 3 peranti disambungkan ke wayar SDA dan SCL, berkongsi wayar tanah biasa](../../../../../translated_images/ms/i2c.83da845dde02256b.webp)
 
 Untuk menghantar data, satu peranti akan mengeluarkan keadaan mula untuk menunjukkan ia bersedia menghantar data. Ia kemudian akan menjadi pengawal. Pengawal kemudian menghantar alamat peranti yang ingin dikomunikasikan, bersama-sama dengan sama ada ia ingin membaca atau menulis data. Selepas data dihantar, pengawal menghantar keadaan berhenti untuk menunjukkan bahawa ia telah selesai. Selepas ini, peranti lain boleh menjadi pengawal dan menghantar atau menerima data.
 

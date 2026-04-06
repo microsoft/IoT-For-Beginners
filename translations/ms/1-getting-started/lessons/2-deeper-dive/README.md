@@ -1,6 +1,6 @@
 # Penyelaman Mendalam ke dalam IoT
 
-![Gambaran sketchnote untuk pelajaran ini](../../../../../translated_images/ms/lesson-2.324b0580d620c25e0a24fb7fddfc0b29a846dd4b82c08e7a9466d580ee78ce51.jpg)
+![Gambaran sketchnote untuk pelajaran ini](../../../../../translated_images/ms/lesson-2.324b0580d620c25e.webp)
 
 > Sketchnote oleh [Nitya Narasimhan](https://github.com/nitya). Klik imej untuk versi yang lebih besar.
 
@@ -38,7 +38,7 @@ Bahagian **Peranti** dalam IoT merujuk kepada peranti yang boleh berinteraksi de
 
 Peranti ini berinteraksi dengan dunia fizikal, sama ada dengan menggunakan sensor untuk mengumpul data dari persekitaran mereka atau dengan mengawal output atau aktuator untuk membuat perubahan fizikal. Contoh biasa adalah termostat pintar - peranti yang mempunyai sensor suhu, cara untuk menetapkan suhu yang diingini seperti dail atau skrin sentuh, dan sambungan kepada sistem pemanasan atau penyejukan yang boleh dihidupkan apabila suhu yang dikesan berada di luar julat yang diingini. Sensor suhu mengesan bahawa bilik terlalu sejuk dan aktuator menghidupkan pemanasan.
 
-![Rajah menunjukkan suhu dan dail sebagai input kepada peranti IoT, dan kawalan pemanas sebagai output](../../../../../translated_images/ms/basic-thermostat.a923217fd1f37e5a6f3390396a65c22a387419ea2dd17e518ec24315ba6ae9a8.png)
+![Rajah menunjukkan suhu dan dail sebagai input kepada peranti IoT, dan kawalan pemanas sebagai output](../../../../../translated_images/ms/basic-thermostat.a923217fd1f37e5a.webp)
 
 Terdapat pelbagai jenis peranti yang boleh bertindak sebagai peranti IoT, daripada perkakasan khusus yang mengesan satu perkara, kepada peranti tujuan umum, malah telefon pintar anda! Telefon pintar boleh menggunakan sensor untuk mengesan dunia di sekelilingnya, dan aktuator untuk berinteraksi dengan dunia - contohnya menggunakan sensor GPS untuk mengesan lokasi anda dan pembesar suara untuk memberikan arahan navigasi ke destinasi.
 
@@ -54,7 +54,7 @@ Peranti juga tidak selalu bersambung terus ke Internet melalui WiFi atau sambung
 
 Sebagai contoh termostat pintar, termostat akan bersambung menggunakan WiFi rumah kepada perkhidmatan awan yang berjalan di awan. Ia akan menghantar data suhu kepada perkhidmatan awan ini, dan dari situ ia akan ditulis ke pangkalan data yang membolehkan pemilik rumah memeriksa suhu semasa dan suhu lalu menggunakan aplikasi telefon. Perkhidmatan lain di awan akan mengetahui suhu yang diingini oleh pemilik rumah, dan menghantar mesej kembali kepada peranti IoT melalui perkhidmatan awan untuk memberitahu sistem pemanasan untuk dihidupkan atau dimatikan.
 
-![Rajah menunjukkan suhu dan dail sebagai input kepada peranti IoT, peranti IoT dengan komunikasi dua hala ke awan, yang seterusnya mempunyai komunikasi dua hala ke telefon, dan kawalan pemanas sebagai output daripada peranti IoT](../../../../../translated_images/ms/mobile-controlled-thermostat.4a994010473d8d6a52ba68c67e5f02dc8928c717e93ca4b9bc55525aa75bbb60.png)
+![Rajah menunjukkan suhu dan dail sebagai input kepada peranti IoT, peranti IoT dengan komunikasi dua hala ke awan, yang seterusnya mempunyai komunikasi dua hala ke telefon, dan kawalan pemanas sebagai output daripada peranti IoT](../../../../../translated_images/ms/mobile-controlled-thermostat.4a994010473d8d6a.webp)
 
 Versi yang lebih pintar boleh menggunakan AI di awan dengan data daripada sensor lain yang bersambung kepada peranti IoT lain seperti sensor kehadiran yang mengesan bilik mana yang digunakan, serta data seperti cuaca dan juga kalendar anda, untuk membuat keputusan tentang cara menetapkan suhu dengan cara yang pintar. Contohnya, ia boleh mematikan pemanasan jika ia membaca daripada kalendar anda bahawa anda sedang bercuti, atau mematikan pemanasan berdasarkan bilik demi bilik bergantung pada bilik mana yang anda gunakan, belajar daripada data untuk menjadi lebih tepat dari semasa ke semasa.
 
@@ -94,7 +94,7 @@ Semakin pantas kitaran jam, semakin banyak arahan yang boleh diproses setiap saa
 
 > 💁 CPU melaksanakan program menggunakan [kitaran fetch-decode-execute](https://wikipedia.org/wiki/Instruction_cycle). Untuk setiap detik jam, CPU akan mengambil arahan seterusnya daripada memori, menyahkodnya, kemudian melaksanakannya seperti menggunakan unit logik aritmetik (ALU) untuk menambah 2 nombor. Sesetengah pelaksanaan akan mengambil masa beberapa detik untuk dijalankan, jadi kitaran seterusnya akan berjalan pada detik seterusnya selepas arahan selesai.
 
-![Kitaran fetch decode execute menunjukkan fetch mengambil arahan daripada program yang disimpan dalam RAM, kemudian menyahkod dan melaksanakannya pada CPU](../../../../../translated_images/ms/fetch-decode-execute.2fd6f150f6280392807f4475382319abd0cee0b90058e1735444d6baa6f2078c.png)
+![Kitaran fetch decode execute menunjukkan fetch mengambil arahan daripada program yang disimpan dalam RAM, kemudian menyahkod dan melaksanakannya pada CPU](../../../../../translated_images/ms/fetch-decode-execute.2fd6f150f6280392.webp)
 
 Mikropengawal mempunyai kelajuan jam yang jauh lebih rendah daripada komputer meja atau komputer riba, atau bahkan kebanyakan telefon pintar. Contohnya, Wio Terminal mempunyai CPU yang berjalan pada 120MHz atau 120,000,000 kitaran sesaat.
 
@@ -182,7 +182,7 @@ Papan Arduino dikodkan dalam C atau C++. Menggunakan C/C++ membolehkan kod anda 
 
 Anda akan menulis kod persediaan anda dalam fungsi `setup`, seperti menyambung ke WiFi dan perkhidmatan awan atau memulakan pin untuk input dan output. Kod gelung anda kemudian akan mengandungi kod pemprosesan, seperti membaca dari sensor dan menghantar nilai ke awan. Anda biasanya akan memasukkan kelewatan dalam setiap gelung, contohnya, jika anda hanya mahu data sensor dihantar setiap 10 saat, anda akan menambah kelewatan 10 saat pada akhir gelung supaya mikrokontroler dapat tidur, menjimatkan kuasa, kemudian menjalankan gelung semula apabila diperlukan 10 saat kemudian.
 
-![Sketch Arduino menjalankan setup terlebih dahulu, kemudian menjalankan loop berulang kali](../../../../../translated_images/ms/arduino-sketch.79590cb837ff7a7c6a68d1afda6cab83fd53d3bb1bd9a8bf2eaf8d693a4d3ea6.png)
+![Sketch Arduino menjalankan setup terlebih dahulu, kemudian menjalankan loop berulang kali](../../../../../translated_images/ms/arduino-sketch.79590cb837ff7a7c.webp)
 
 ✅ Seni bina program ini dikenali sebagai *event loop* atau *message loop*. Banyak aplikasi menggunakan ini di belakang tabir dan ia adalah standard untuk kebanyakan aplikasi desktop yang berjalan pada OS seperti Windows, macOS atau Linux. `loop` mendengar mesej daripada komponen antara muka pengguna seperti butang, atau peranti seperti papan kekunci, dan bertindak balas terhadapnya. Anda boleh membaca lebih lanjut dalam [artikel tentang event loop](https://wikipedia.org/wiki/Event_loop).
 

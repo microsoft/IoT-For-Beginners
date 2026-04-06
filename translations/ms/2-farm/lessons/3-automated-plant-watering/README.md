@@ -1,6 +1,6 @@
 # Penyiraman tumbuhan automatik
 
-![Gambaran sketchnote untuk pelajaran ini](../../../../../translated_images/ms/lesson-7.30b5f577d3cb8e031238751475cb519c7d6dbaea261b5df4643d086ffb2a03bb.jpg)
+![Gambaran sketchnote untuk pelajaran ini](../../../../../translated_images/ms/lesson-7.30b5f577d3cb8e03.webp)
 
 > Sketchnote oleh [Nitya Narasimhan](https://github.com/nitya). Klik gambar untuk versi yang lebih besar.
 
@@ -32,7 +32,7 @@ Peranti IoT menggunakan voltan rendah. Walaupun ini mencukupi untuk sensor dan a
 
 Penyelesaiannya adalah dengan menyambungkan pam kepada bekalan kuasa luaran, dan menggunakan aktuator untuk menghidupkan pam, sama seperti anda menghidupkan lampu. Ia hanya memerlukan sedikit kuasa (dalam bentuk tenaga dari badan anda) untuk jari anda menekan suis, dan ini menyambungkan lampu kepada elektrik utama yang berjalan pada 110v/240v.
 
-![Suis lampu menghidupkan kuasa kepada lampu](../../../../../translated_images/ms/light-switch.760317ad6ab8bd6d611da5352dfe9c73a94a0822ccec7df3c8bae35da18e1658.png)
+![Suis lampu menghidupkan kuasa kepada lampu](../../../../../translated_images/ms/light-switch.760317ad6ab8bd6d.webp)
 
 > 🎓 [Elektrik utama](https://wikipedia.org/wiki/Mains_electricity) merujuk kepada elektrik yang dihantar ke rumah dan perniagaan melalui infrastruktur nasional di banyak bahagian dunia.
 
@@ -72,7 +72,7 @@ Apabila tuil bergerak, anda biasanya boleh mendengar ia membuat sentuhan dengan 
 
 Elektromagnet tidak memerlukan banyak kuasa untuk diaktifkan dan menarik tuil, ia boleh dikawal menggunakan output 3.3V atau 5V dari kit pembangunan IoT. Litar output boleh membawa kuasa yang jauh lebih tinggi, bergantung pada relay, termasuk voltan utama atau tahap kuasa yang lebih tinggi untuk kegunaan industri. Dengan cara ini, kit pembangunan IoT boleh mengawal sistem pengairan, dari pam kecil untuk satu tumbuhan, hingga sistem industri besar untuk seluruh ladang komersial.
 
-![Relay Grove dengan litar kawalan, litar output dan relay dilabelkan](../../../../../translated_images/ms/grove-relay-labelled.293e068f5c3c2a199bd7892f2661fdc9e10c920b535cfed317fbd6d1d4ae1168.png)
+![Relay Grove dengan litar kawalan, litar output dan relay dilabelkan](../../../../../translated_images/ms/grove-relay-labelled.293e068f5c3c2a19.webp)
 
 Gambar di atas menunjukkan relay Grove. Litar kawalan disambungkan kepada peranti IoT dan menghidupkan atau mematikan relay menggunakan 3.3V atau 5V. Litar output mempunyai dua terminal, salah satu daripadanya boleh menjadi kuasa atau tanah. Litar output boleh mengendalikan sehingga 250V pada 10A, mencukupi untuk pelbagai peranti berkuasa utama. Anda boleh mendapatkan relay yang boleh mengendalikan tahap kuasa yang lebih tinggi.
 

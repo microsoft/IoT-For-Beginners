@@ -1,6 +1,6 @@
 # Memicu Deteksi Kualitas Buah dari Sensor
 
-![Gambaran sketchnote dari pelajaran ini](../../../../../translated_images/id/lesson-18.92c32ed1d354caa5a54baa4032cf0b172d4655e8e326ad5d46c558a0def15365.jpg)
+![Gambaran sketchnote dari pelajaran ini](../../../../../translated_images/id/lesson-18.92c32ed1d354caa5.webp)
 
 > Sketchnote oleh [Nitya Narasimhan](https://github.com/nitya). Klik gambar untuk versi yang lebih besar.
 
@@ -39,7 +39,7 @@ Aplikasi IoT dapat digambarkan sebagai *things* (perangkat) yang mengirimkan dat
 
 ### Arsitektur Referensi IoT
 
-![Arsitektur referensi IoT](../../../../../translated_images/id/iot-reference-architecture.2278b98b55c6d4e89bde18eada3688d893861d43507641804dd2f9d3079cfaa0.png)
+![Arsitektur referensi IoT](../../../../../translated_images/id/iot-reference-architecture.2278b98b55c6d4e8.webp)
 
 Diagram di atas menunjukkan arsitektur referensi IoT.
 
@@ -49,7 +49,7 @@ Diagram di atas menunjukkan arsitektur referensi IoT.
 * **Insights** berasal dari aplikasi tanpa server, atau dari analisis yang dijalankan pada data yang disimpan.
 * **Actions** dapat berupa perintah yang dikirim ke perangkat, atau visualisasi data yang memungkinkan manusia membuat keputusan.
 
-![Arsitektur referensi IoT di Azure](../../../../../translated_images/id/iot-reference-architecture-azure.0b8d2161af924cb18ae48a8558a19541cca47f27264851b5b7e56d7b8bb372ac.png)
+![Arsitektur referensi IoT di Azure](../../../../../translated_images/id/iot-reference-architecture-azure.0b8d2161af924cb1.webp)
 
 Diagram di atas menunjukkan beberapa komponen dan layanan yang telah dibahas sejauh ini dalam pelajaran ini dan bagaimana mereka terhubung dalam arsitektur referensi IoT.
 
@@ -89,7 +89,7 @@ Anda perlu membangun sistem di mana buah terdeteksi saat tiba di ban berjalan, k
 
 ### Membuat Prototipe Aplikasi Anda
 
-![Arsitektur referensi IoT untuk pemeriksaan kualitas buah](../../../../../translated_images/id/iot-reference-architecture-fruit-quality.cc705f121c3b6fa71c800d9630935ac34bc08223a04601e35f41d5e9b5dd5207.png)
+![Arsitektur referensi IoT untuk pemeriksaan kualitas buah](../../../../../translated_images/id/iot-reference-architecture-fruit-quality.cc705f121c3b6fa7.webp)
 
 Diagram di atas menunjukkan arsitektur referensi untuk aplikasi prototipe ini.
 
@@ -124,7 +124,7 @@ Ikuti panduan yang relevan untuk menggunakan sensor jarak untuk mendeteksi objek
 
 Prototipe detektor buah memiliki beberapa komponen yang saling berkomunikasi.
 
-![Komponen yang saling berkomunikasi](../../../../../translated_images/id/fruit-quality-detector-message-flow.adf2a65da8fd8741ac7af11361574de89adc126785d67606bb4d2ec00467e380.png)
+![Komponen yang saling berkomunikasi](../../../../../translated_images/id/fruit-quality-detector-message-flow.adf2a65da8fd8741.webp)
 
 * Sensor jarak mengukur jarak ke buah dan mengirimkannya ke IoT Hub
 * Perintah untuk mengontrol kamera berasal dari IoT Hub ke perangkat kamera

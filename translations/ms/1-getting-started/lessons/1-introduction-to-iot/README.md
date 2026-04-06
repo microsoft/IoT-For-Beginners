@@ -1,6 +1,6 @@
 # Pengenalan kepada IoT
 
-![Gambaran sketchnote untuk pelajaran ini](../../../../../translated_images/ms/lesson-1.2606670fa61ee904687da5d6fa4e726639d524d064c895117da1b95b9ff6251d.jpg)
+![Gambaran sketchnote untuk pelajaran ini](../../../../../translated_images/ms/lesson-1.2606670fa61ee904.webp)
 
 > Sketchnote oleh [Nitya Narasimhan](https://github.com/nitya). Klik imej untuk versi yang lebih besar.
 

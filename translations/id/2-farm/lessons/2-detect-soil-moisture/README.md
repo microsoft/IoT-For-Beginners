@@ -13,7 +13,7 @@ I²C memiliki bus yang terdiri dari 2 kabel utama, bersama dengan 2 kabel daya:
 | VCC | Voltage common collector | Sumber daya untuk perangkat. Kabel ini terhubung ke kabel SDA dan SCL untuk menyediakan daya mereka melalui resistor pull-up yang mematikan sinyal saat tidak ada perangkat yang menjadi kontroler. |
 | GND | Ground | Memberikan ground umum untuk rangkaian listrik. |
 
-![Bus I2C dengan 3 perangkat yang terhubung ke kabel SDA dan SCL, berbagi kabel ground yang sama](../../../../../translated_images/id/i2c.83da845dde02256bdd462dbe0d5145461416b74930571b89d1ae142841eeb584.png)
+![Bus I2C dengan 3 perangkat yang terhubung ke kabel SDA dan SCL, berbagi kabel ground yang sama](../../../../../translated_images/id/i2c.83da845dde02256b.webp)
 
 Untuk mengirim data, satu perangkat akan mengeluarkan kondisi mulai (start condition) untuk menunjukkan bahwa ia siap mengirim data. Perangkat tersebut kemudian menjadi kontroler. Kontroler kemudian mengirimkan alamat perangkat yang ingin dikomunikasikan, bersama dengan informasi apakah ia ingin membaca atau menulis data. Setelah data ditransmisikan, kontroler mengirimkan kondisi berhenti (stop condition) untuk menunjukkan bahwa ia telah selesai. Setelah itu, perangkat lain dapat menjadi kontroler dan mengirim atau menerima data.
 

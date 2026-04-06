@@ -38,11 +38,11 @@ Idagdag ang mga sensor ng halumigmig at temperatura sa CounterFit app.
 
     1. Piliin ang **Add** button upang gumawa ng sensor ng halumigmig sa Pin 5.
 
-    ![Ang mga setting ng sensor ng halumigmig](../../../../../translated_images/tl/counterfit-create-humidity-sensor.2750e27b6f30e09cf4e22101defd5252710717620816ab41ba688f91f757c49a.png)
+    ![Ang mga setting ng sensor ng halumigmig](../../../../../translated_images/tl/counterfit-create-humidity-sensor.2750e27b6f30e09c.webp)
 
     Ang sensor ng halumigmig ay malilikha at lilitaw sa listahan ng mga sensor.
 
-    ![Ang sensor ng halumigmig na nalikha](../../../../../translated_images/tl/counterfit-humidity-sensor.7b12f7f339e430cb26c8211d2dba4ef75261b353a01da0932698b5bebd693f27.png)
+    ![Ang sensor ng halumigmig na nalikha](../../../../../translated_images/tl/counterfit-humidity-sensor.7b12f7f339e430cb.webp)
 
 1. Gumawa ng sensor ng temperatura:
 
@@ -54,11 +54,11 @@ Idagdag ang mga sensor ng halumigmig at temperatura sa CounterFit app.
 
     1. Piliin ang **Add** button upang gumawa ng sensor ng temperatura sa Pin 6.
 
-    ![Ang mga setting ng sensor ng temperatura](../../../../../translated_images/tl/counterfit-create-temperature-sensor.199350ed34f7343d79dccbe95eaf6c11d2121f03d1c35ab9613b330c23f39b29.png)
+    ![Ang mga setting ng sensor ng temperatura](../../../../../translated_images/tl/counterfit-create-temperature-sensor.199350ed34f7343d.webp)
 
     Ang sensor ng temperatura ay malilikha at lilitaw sa listahan ng mga sensor.
 
-    ![Ang sensor ng temperatura na nalikha](../../../../../translated_images/tl/counterfit-temperature-sensor.f0560236c96a9016bafce7f6f792476fe3367bc6941a1f7d5811d144d4bcbfff.png)
+    ![Ang sensor ng temperatura na nalikha](../../../../../translated_images/tl/counterfit-temperature-sensor.f0560236c96a9016.webp)
 
 ## I-program ang temperature sensor app
 

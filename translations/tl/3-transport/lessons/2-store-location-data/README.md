@@ -1,6 +1,6 @@
 # Lokasyon ng Tindahan ng Data
 
-![Isang sketchnote overview ng araling ito](../../../../../translated_images/tl/lesson-12.ca7f53039712a3ec14ad6474d8445361c84adab643edc53fa6269b77895606bb.jpg)
+![Isang sketchnote overview ng araling ito](../../../../../translated_images/tl/lesson-12.ca7f53039712a3ec.webp)
 
 > Sketchnote ni [Nitya Narasimhan](https://github.com/nitya). I-click ang imahe para sa mas malaking bersyon.
 
@@ -75,7 +75,7 @@ Ang NoSQL databases ay tinatawag na NoSQL dahil wala silang parehong matibay na 
 
 > 💁 Sa kabila ng kanilang pangalan, ang ilang NoSQL databases ay nagbibigay-daan sa iyo na gumamit ng SQL upang mag-query ng data.
 
-![Mga dokumento sa mga folder sa isang NoSQL database](../../../../../translated_images/tl/noqsl-database.62d24ccf5b73f60d35c245a8533f1c7147c0928e955b82cb290b2e184bb434df.png)
+![Mga dokumento sa mga folder sa isang NoSQL database](../../../../../translated_images/tl/noqsl-database.62d24ccf5b73f60d.webp)
 
 Ang NoSQL databases ay walang pre-defined na schema na naglilimita kung paano iniimbak ang data, sa halip maaari kang magpasok ng anumang unstructured na data, karaniwang gamit ang JSON documents. Ang mga dokumentong ito ay maaaring ayusin sa mga folder, katulad ng mga file sa iyong computer. Ang bawat dokumento ay maaaring magkaroon ng iba't ibang mga field mula sa ibang mga dokumento - halimbawa kung iniimbak mo ang IoT data mula sa iyong mga sasakyang pang-sakahan, ang ilan ay maaaring magkaroon ng mga field para sa accelerometer at speed data, ang iba ay maaaring magkaroon ng mga field para sa temperatura sa trailer. Kung magdadagdag ka ng bagong uri ng trak, tulad ng isa na may built-in na timbangan upang subaybayan ang timbang ng kargamento, ang iyong IoT device ay maaaring magdagdag ng bagong field na ito at maaari itong maimbak nang walang anumang pagbabago sa database.
 
@@ -89,7 +89,7 @@ Sa araling ito, gagamit ka ng NoSQL storage upang mag-imbak ng IoT data.
 
 Sa nakaraang aralin, nakakuha ka ng GPS data mula sa isang GPS sensor na nakakonekta sa iyong IoT device. Upang maimbak ang IoT data na ito sa cloud, kailangan mo itong ipadala sa isang IoT service. Muli, gagamitin mo ang Azure IoT Hub, ang parehong IoT cloud service na ginamit mo sa nakaraang proyekto.
 
-![Pagpapadala ng GPS telemetry mula sa isang IoT device patungo sa IoT Hub](../../../../../translated_images/tl/gps-telemetry-iot-hub.8115335d51cd2c1285d20e9d1b18cf685e59a8e093e7797291ef173445af6f3d.png)
+![Pagpapadala ng GPS telemetry mula sa isang IoT device patungo sa IoT Hub](../../../../../translated_images/tl/gps-telemetry-iot-hub.8115335d51cd2c12.webp)
 
 ### Gawain - Magpadala ng GPS Data sa isang IoT Hub
 
@@ -171,7 +171,7 @@ Ang cold path data ay iniimbak sa mga data warehouses - mga database na idinisen
 
 Kapag ang data ay dumadaloy na sa iyong IoT Hub, maaari kang magsulat ng serverless code upang makinig sa mga event na inilathala sa Event-Hub compatible endpoint. Ito ang warm path - ang data na ito ay maiimbak at gagamitin sa susunod na aralin para sa pag-uulat sa paglalakbay.
 
-![Pagpapadala ng GPS telemetry mula sa isang IoT device patungo sa IoT Hub, pagkatapos sa Azure Functions sa pamamagitan ng event hub trigger](../../../../../translated_images/tl/gps-telemetry-iot-hub-functions.24d3fa5592455e9f4e2fe73856b40c3915a292b90263c31d652acfd976cfedd8.png)
+![Pagpapadala ng GPS telemetry mula sa isang IoT device patungo sa IoT Hub, pagkatapos sa Azure Functions sa pamamagitan ng event hub trigger](../../../../../translated_images/tl/gps-telemetry-iot-hub-functions.24d3fa5592455e9f.webp)
 
 ### Gawain - I-handle ang GPS Events Gamit ang Serverless Code
 
@@ -193,7 +193,7 @@ Kapag ang data ay dumadaloy na sa iyong IoT Hub, maaari kang magsulat ng serverl
 
 ## Azure Storage Accounts
 
-![Ang logo ng Azure Storage](../../../../../translated_images/tl/azure-storage-logo.605c0f602c640d482a80f1b35a2629a32d595711b7ab1d7ceea843250615ff32.png)
+![Ang logo ng Azure Storage](../../../../../translated_images/tl/azure-storage-logo.605c0f602c640d48.webp)
 
 Ang Azure Storage Accounts ay isang pangkalahatang serbisyo sa imbakan na maaaring mag-imbak ng data sa iba't ibang paraan. Maaari kang mag-imbak ng data bilang blobs, sa queues, sa tables, o bilang mga files, at lahat ng ito ay sabay-sabay.
 

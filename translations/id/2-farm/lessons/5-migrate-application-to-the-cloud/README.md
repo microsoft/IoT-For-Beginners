@@ -1,6 +1,6 @@
 # Migrasikan Logika Aplikasi Anda ke Cloud
 
-![Gambaran sketchnote dari pelajaran ini](../../../../../translated_images/id/lesson-9.dfe99c8e891f48e179724520da9f5794392cf9a625079281ccdcbf09bd85e1b6.jpg)
+![Gambaran sketchnote dari pelajaran ini](../../../../../translated_images/id/lesson-9.dfe99c8e891f48e1.webp)
 
 > Sketchnote oleh [Nitya Narasimhan](https://github.com/nitya). Klik gambar untuk versi yang lebih besar.
 
@@ -28,7 +28,7 @@ Dalam pelajaran ini kita akan membahas:
 
 Tanpa server, atau komputasi tanpa server, melibatkan pembuatan blok kode kecil yang dijalankan di cloud sebagai respons terhadap berbagai jenis acara. Ketika acara terjadi, kode Anda dijalankan dan diberikan data tentang acara tersebut. Acara ini dapat berasal dari berbagai hal, termasuk permintaan web, pesan yang dimasukkan ke dalam antrean, perubahan data dalam database, atau pesan yang dikirim ke layanan IoT oleh perangkat IoT.
 
-![Acara yang dikirim dari layanan IoT ke layanan tanpa server, semuanya diproses secara bersamaan oleh beberapa fungsi yang dijalankan](../../../../../translated_images/id/iot-messages-to-serverless.0194da1cc0732bb7d0f823aed3fce54735c6b1ad3bf36089804d8aaefc0a774f.png)
+![Acara yang dikirim dari layanan IoT ke layanan tanpa server, semuanya diproses secara bersamaan oleh beberapa fungsi yang dijalankan](../../../../../translated_images/id/iot-messages-to-serverless.0194da1cc0732bb7.webp)
 
 > 💁 Jika Anda pernah menggunakan pemicu database sebelumnya, Anda dapat menganggap ini sebagai hal yang sama, yaitu kode yang dipicu oleh acara seperti memasukkan baris.
 
@@ -54,7 +54,7 @@ Sebagai pengembang IoT, model tanpa server sangat ideal. Anda dapat menulis fung
 
 Layanan komputasi tanpa server dari Microsoft disebut Azure Functions.
 
-![Logo Azure Functions](../../../../../translated_images/id/azure-functions-logo.1cfc8e3204c9c44aaf80fcf406fc8544d80d7f00f8d3e8ed6fed764563e17564.png)
+![Logo Azure Functions](../../../../../translated_images/id/azure-functions-logo.1cfc8e3204c9c44a.webp)
 
 Video pendek di bawah ini memberikan gambaran tentang Azure Functions.
 

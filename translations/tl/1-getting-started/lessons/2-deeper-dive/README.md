@@ -1,6 +1,6 @@
 # Mas Malalim na Pagsisid sa IoT
 
-![Isang sketchnote na buod ng araling ito](../../../../../translated_images/tl/lesson-2.324b0580d620c25e0a24fb7fddfc0b29a846dd4b82c08e7a9466d580ee78ce51.jpg)
+![Isang sketchnote na buod ng araling ito](../../../../../translated_images/tl/lesson-2.324b0580d620c25e.webp)
 
 > Sketchnote ni [Nitya Narasimhan](https://github.com/nitya). I-click ang imahe para sa mas malaking bersyon.
 
@@ -38,7 +38,7 @@ Ang **Bagay** sa IoT ay tumutukoy sa isang device na maaaring makipag-ugnayan sa
 
 Ang mga device na ito ay nakikipag-ugnayan sa pisikal na mundo, alinman sa pamamagitan ng paggamit ng mga sensor upang mangolekta ng data mula sa kanilang paligid o sa pamamagitan ng pagkontrol sa mga output o actuators upang gumawa ng mga pisikal na pagbabago. Ang karaniwang halimbawa nito ay isang smart thermostat - isang device na may temperature sensor, isang paraan upang itakda ang nais na temperatura tulad ng dial o touchscreen, at isang koneksyon sa heating o cooling system na maaaring i-on kapag ang natukoy na temperatura ay wala sa nais na saklaw. Ang temperature sensor ay natutukoy na masyadong malamig ang silid at ang actuator ay nagbubukas ng heating.
 
-![Isang diagram na nagpapakita ng temperatura at isang dial bilang mga input sa isang IoT device, at kontrol ng isang heater bilang output](../../../../../translated_images/tl/basic-thermostat.a923217fd1f37e5a6f3390396a65c22a387419ea2dd17e518ec24315ba6ae9a8.png)
+![Isang diagram na nagpapakita ng temperatura at isang dial bilang mga input sa isang IoT device, at kontrol ng isang heater bilang output](../../../../../translated_images/tl/basic-thermostat.a923217fd1f37e5a.webp)
 
 Mayroong napakaraming iba't ibang bagay na maaaring kumilos bilang IoT devices, mula sa dedikadong hardware na nakakaramdam ng isang bagay, hanggang sa mga general-purpose na device, kahit ang iyong smartphone! Ang isang smartphone ay maaaring gumamit ng mga sensor upang matukoy ang mundo sa paligid nito, at mga actuators upang makipag-ugnayan sa mundo - halimbawa, gamit ang GPS sensor upang matukoy ang iyong lokasyon at isang speaker upang magbigay ng mga direksyon sa isang destinasyon.
 
@@ -54,7 +54,7 @@ Ang mga device ay hindi rin palaging direktang kumokonekta sa Internet sa pamama
 
 Sa halimbawa ng isang smart thermostat, ang thermostat ay kokonekta gamit ang home WiFi sa isang cloud service na tumatakbo sa ulap. Ipapaabot nito ang temperature data sa cloud service na ito, at mula doon ay isusulat ito sa isang database na nagbibigay-daan sa may-ari ng bahay na suriin ang kasalukuyan at nakaraang temperatura gamit ang isang phone app. Ang isa pang serbisyo sa ulap ay malalaman kung anong temperatura ang nais ng may-ari ng bahay, at magpapadala ng mga mensahe pabalik sa IoT device sa pamamagitan ng cloud service upang sabihan ang heating system na mag-on o mag-off.
 
-![Isang diagram na nagpapakita ng temperatura at isang dial bilang mga input sa isang IoT device, ang IoT device na may 2-way na komunikasyon sa ulap, na may 2-way na komunikasyon din sa isang telepono, at kontrol ng isang heater bilang output mula sa IoT device](../../../../../translated_images/tl/mobile-controlled-thermostat.4a994010473d8d6a52ba68c67e5f02dc8928c717e93ca4b9bc55525aa75bbb60.png)
+![Isang diagram na nagpapakita ng temperatura at isang dial bilang mga input sa isang IoT device, ang IoT device na may 2-way na komunikasyon sa ulap, na may 2-way na komunikasyon din sa isang telepono, at kontrol ng isang heater bilang output mula sa IoT device](../../../../../translated_images/tl/mobile-controlled-thermostat.4a994010473d8d6a.webp)
 
 Ang mas matalinong bersyon nito ay maaaring gumamit ng AI sa ulap gamit ang data mula sa iba pang mga sensor na konektado sa iba pang IoT devices tulad ng occupancy sensors na natutukoy kung aling mga silid ang ginagamit, pati na rin ang data tulad ng panahon at kahit ang iyong kalendaryo, upang gumawa ng mga desisyon kung paano itatakda ang temperatura sa isang matalinong paraan. Halimbawa, maaari nitong patayin ang heating kung mababasa mula sa iyong kalendaryo na ikaw ay nasa bakasyon, o patayin ang heating sa bawat silid depende sa kung aling mga silid ang ginagamit mo, natututo mula sa data upang maging mas tumpak sa paglipas ng panahon.
 
@@ -94,7 +94,7 @@ Ang mas mabilis na clock cycle, mas maraming utos ang maaaring iproseso bawat se
 
 > 💁 Ang mga CPU ay nagpapatupad ng mga programa gamit ang [fetch-decode-execute cycle](https://wikipedia.org/wiki/Instruction_cycle). Sa bawat clock tick, kukunin ng CPU ang susunod na utos mula sa memorya, ide-decode ito, pagkatapos ay ipapatupad ito tulad ng paggamit ng arithmetic logic unit (ALU) upang magdagdag ng 2 numero. Ang ilang mga pagpapatupad ay nangangailangan ng maraming tiktik upang tumakbo, kaya ang susunod na cycle ay tatakbo sa susunod na tiktik pagkatapos makumpleto ang utos.
 
-![Ang fetch decode execute cycle na nagpapakita ng pagkuha ng isang utos mula sa program na nakaimbak sa RAM, pagkatapos ay ide-decode at ipapatupad ito sa isang CPU](../../../../../translated_images/tl/fetch-decode-execute.2fd6f150f6280392807f4475382319abd0cee0b90058e1735444d6baa6f2078c.png)
+![Ang fetch decode execute cycle na nagpapakita ng pagkuha ng isang utos mula sa program na nakaimbak sa RAM, pagkatapos ay ide-decode at ipapatupad ito sa isang CPU](../../../../../translated_images/tl/fetch-decode-execute.2fd6f150f6280392.webp)
 
 Ang mga microcontroller ay may mas mababang clock speed kaysa sa mga desktop o laptop computer, o kahit sa karamihan ng mga smartphone. Halimbawa, ang Wio Terminal ay may CPU na tumatakbo sa 120MHz o 120,000,000 cycles bawat segundo.
 
@@ -182,7 +182,7 @@ Ang mga Arduino board ay kino-code gamit ang C o C++. Ang paggamit ng C/C++ ay n
 
 Ang iyong setup code ay isusulat sa `setup` function, tulad ng pagkonekta sa WiFi at cloud services o pag-initialize ng mga pin para sa input at output. Ang iyong loop code naman ay maglalaman ng processing code, tulad ng pagbabasa mula sa isang sensor at pagpapadala ng halaga sa cloud. Karaniwan kang maglalagay ng delay sa bawat loop, halimbawa, kung gusto mo lamang magpadala ng sensor data tuwing 10 segundo, magdadagdag ka ng delay na 10 segundo sa dulo ng loop upang makatulog ang microcontroller, makatipid ng kuryente, at muling patakbuhin ang loop kapag kailangan.
 
-![Isang Arduino sketch na tumatakbo sa setup muna, pagkatapos ay paulit-ulit na tumatakbo sa loop](../../../../../translated_images/tl/arduino-sketch.79590cb837ff7a7c6a68d1afda6cab83fd53d3bb1bd9a8bf2eaf8d693a4d3ea6.png)
+![Isang Arduino sketch na tumatakbo sa setup muna, pagkatapos ay paulit-ulit na tumatakbo sa loop](../../../../../translated_images/tl/arduino-sketch.79590cb837ff7a7c.webp)
 
 ✅ Ang program architecture na ito ay kilala bilang isang *event loop* o *message loop*. Maraming mga application ang gumagamit nito sa ilalim ng hood at ito ang standard para sa karamihan ng desktop applications na tumatakbo sa OSes tulad ng Windows, macOS, o Linux. Ang `loop` ay nakikinig para sa mga mensahe mula sa mga user interface components tulad ng mga button, o mga device tulad ng keyboard, at tumutugon sa mga ito. Maaari kang magbasa pa sa [artikulo tungkol sa event loop](https://wikipedia.org/wiki/Event_loop).
 

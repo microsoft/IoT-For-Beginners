@@ -28,11 +28,11 @@ Tambahkan sensor cahaya ke aplikasi CounterFit.
 
     1. Pilih tombol **Add** untuk membuat sensor cahaya pada Pin 0.
 
-    ![Pengaturan sensor cahaya](../../../../../translated_images/id/counterfit-create-light-sensor.9f36a5e0d4458d8d554d54b34d2c806d56093d6e49fddcda2d20f6fef7f5cce1.png)
+    ![Pengaturan sensor cahaya](../../../../../translated_images/id/counterfit-create-light-sensor.9f36a5e0d4458d8d.webp)
 
     Sensor cahaya akan dibuat dan muncul di daftar sensor.
 
-    ![Sensor cahaya dibuat](../../../../../translated_images/id/counterfit-light-sensor.5d0f5584df56b90f6b2561910d9cb20dfbd73eeff2177c238d38f4de54aefae1.png)
+    ![Sensor cahaya dibuat](../../../../../translated_images/id/counterfit-light-sensor.5d0f5584df56b90f.webp)
 
 ## Memprogram Sensor Cahaya
 

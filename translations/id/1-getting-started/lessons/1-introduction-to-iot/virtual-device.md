@@ -203,7 +203,7 @@ Sebagai langkah kedua 'Hello World', Anda akan menjalankan aplikasi CounterFit d
 
     Aplikasi akan mulai berjalan dan terbuka di browser web Anda:
 
-    ![Aplikasi Counter Fit berjalan di browser](../../../../../translated_images/id/counterfit-first-run.433326358b669b31d0e99c3513cb01bfbb13724d162c99cdcc8f51ecf5f9c779.png)
+    ![Aplikasi Counter Fit berjalan di browser](../../../../../translated_images/id/counterfit-first-run.433326358b669b31.webp)
 
     Aplikasi akan ditandai sebagai *Disconnected*, dengan LED di sudut kanan atas mati.
 
@@ -224,7 +224,7 @@ Sebagai langkah kedua 'Hello World', Anda akan menjalankan aplikasi CounterFit d
 
 1. Di terminal baru ini, jalankan file `app.py` seperti sebelumnya. Status CounterFit akan berubah menjadi **Connected** dan LED akan menyala.
 
-    ![Counter Fit menunjukkan status terhubung](../../../../../translated_images/id/counterfit-connected.ed30b46d8f79b0921f3fc70be10366e596a89dca3f80c2224a9d9fc98fccf884.png)
+    ![Counter Fit menunjukkan status terhubung](../../../../../translated_images/id/counterfit-connected.ed30b46d8f79b092.webp)
 
 > 💁 Anda dapat menemukan kode ini di folder [code/virtual-device](../../../../../1-getting-started/lessons/1-introduction-to-iot/code/virtual-device).
 

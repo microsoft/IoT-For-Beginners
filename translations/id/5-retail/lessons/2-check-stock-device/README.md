@@ -1,6 +1,6 @@
 # Periksa Stok dari Perangkat IoT
 
-![Gambaran sketchnote dari pelajaran ini](../../../../../translated_images/id/lesson-20.0211df9551a8abb300fc8fcf7dc2789468dea2eabe9202273ac077b0ba37f15e.jpg)
+![Gambaran sketchnote dari pelajaran ini](../../../../../translated_images/id/lesson-20.0211df9551a8abb3.webp)
 
 > Sketchnote oleh [Nitya Narasimhan](https://github.com/nitya). Klik gambar untuk versi yang lebih besar.
 
@@ -62,7 +62,7 @@ Iterasi diterbitkan dari portal Custom Vision.
 
 1. Pilih tombol **Publish** untuk iterasi tersebut.
 
-    ![Tombol publish](../../../../../translated_images/id/custom-vision-object-detector-publish-button.34ee379fc650ccb9856c3868d0003f413b9529f102fc73c37168c98d721cc293.png)
+    ![Tombol publish](../../../../../translated_images/id/custom-vision-object-detector-publish-button.34ee379fc650ccb9.webp)
 
 1. Dalam dialog *Publish Model*, atur *Prediction resource* ke sumber daya `stock-detector-prediction` yang Anda buat pada pelajaran sebelumnya. Biarkan nama sebagai `Iteration2`, dan pilih tombol **Publish**.
 
@@ -76,7 +76,7 @@ Iterasi diterbitkan dari portal Custom Vision.
 
     Juga salin nilai *Prediction-Key*. Ini adalah kunci aman yang harus Anda sertakan saat memanggil model. Hanya aplikasi yang menyertakan kunci ini yang diizinkan menggunakan model, aplikasi lain akan ditolak.
 
-    ![Dialog API prediksi yang menunjukkan URL dan kunci](../../../../../translated_images/id/custom-vision-prediction-key-endpoint.30c569ffd0338864f319911f052d5e9b8c5066cb0800a26dd6f7ff5713130ad8.png)
+    ![Dialog API prediksi yang menunjukkan URL dan kunci](../../../../../translated_images/id/custom-vision-prediction-key-endpoint.30c569ffd0338864.webp)
 
 ✅ Ketika iterasi baru diterbitkan, iterasi tersebut akan memiliki nama yang berbeda. Bagaimana menurut Anda cara mengubah iterasi yang digunakan perangkat IoT?
 
@@ -95,7 +95,7 @@ Saat Anda menggunakan detektor objek, Anda tidak hanya mendapatkan kembali objek
 
 Hasil prediksi di tab **Predictions** di Custom Vision memiliki kotak pembatas yang digambar pada gambar yang dikirim untuk prediksi.
 
-![4 kaleng pasta tomat di rak dengan prediksi untuk 4 deteksi masing-masing 35.8%, 33.5%, 25.7%, dan 16.6%](../../../../../translated_images/id/custom-vision-stock-prediction.942266ab1bcca3410ecdf23643b9f5f570cfab2345235074e24c51f285777613.png)
+![4 kaleng pasta tomat di rak dengan prediksi untuk 4 deteksi masing-masing 35.8%, 33.5%, 25.7%, dan 16.6%](../../../../../translated_images/id/custom-vision-stock-prediction.942266ab1bcca341.webp)
 
 Pada gambar di atas, 4 kaleng pasta tomat terdeteksi. Dalam hasilnya, kotak merah ditampilkan untuk setiap objek yang terdeteksi dalam gambar, menunjukkan kotak pembatas untuk gambar tersebut.
 
@@ -103,7 +103,7 @@ Pada gambar di atas, 4 kaleng pasta tomat terdeteksi. Dalam hasilnya, kotak mera
 
 Kotak pembatas didefinisikan dengan 4 nilai - atas, kiri, tinggi, dan lebar. Nilai-nilai ini berada dalam skala 0-1, mewakili posisi sebagai persentase dari ukuran gambar. Titik asal (posisi 0,0) adalah sudut kiri atas gambar, sehingga nilai atas adalah jarak dari atas, dan bagian bawah kotak pembatas adalah nilai atas ditambah tinggi.
 
-![Kotak pembatas di sekitar kaleng pasta tomat](../../../../../translated_images/id/bounding-box.1420a7ea0d3d15f71e1ffb5cf4b2271d184fac051f990abc541975168d163684.png)
+![Kotak pembatas di sekitar kaleng pasta tomat](../../../../../translated_images/id/bounding-box.1420a7ea0d3d15f7.webp)
 
 Gambar di atas memiliki lebar 600 piksel dan tinggi 800 piksel. Kotak pembatas dimulai pada 320 piksel ke bawah, memberikan koordinat atas 0.4 (800 x 0.4 = 320). Dari kiri, kotak pembatas dimulai pada 240 piksel ke samping, memberikan koordinat kiri 0.4 (600 x 0.4 = 240). Tinggi kotak pembatas adalah 240 piksel, memberikan nilai tinggi 0.3 (800 x 0.3 = 240). Lebar kotak pembatas adalah 120 piksel, memberikan nilai lebar 0.2 (600 x 0.2 = 120).
 
@@ -118,7 +118,7 @@ Menggunakan nilai persentase dari 0-1 berarti tidak peduli seberapa besar gambar
 
 Anda dapat menggunakan kotak pembatas yang dikombinasikan dengan probabilitas untuk mengevaluasi seberapa akurat suatu deteksi. Sebagai contoh, detektor objek dapat mendeteksi beberapa objek yang saling tumpang tindih, misalnya mendeteksi satu kaleng di dalam kaleng lainnya. Kode Anda dapat memeriksa kotak pembatas, memahami bahwa ini tidak mungkin, dan mengabaikan objek apa pun yang memiliki tumpang tindih signifikan dengan objek lain.
 
-![Dua kotak pembatas tumpang tindih pada kaleng pasta tomat](../../../../../translated_images/id/overlap-object-detection.d431e03cae75072a2760430eca7f2c5fdd43045bfd72dadcbf12711f7cd6c2ae.png)
+![Dua kotak pembatas tumpang tindih pada kaleng pasta tomat](../../../../../translated_images/id/overlap-object-detection.d431e03cae75072a.webp)
 
 Dalam contoh di atas, satu kotak pembatas menunjukkan prediksi kaleng pasta tomat dengan probabilitas 78.3%. Kotak pembatas kedua sedikit lebih kecil, dan berada di dalam kotak pembatas pertama dengan probabilitas 64.3%. Kode Anda dapat memeriksa kotak pembatas, melihat bahwa mereka sepenuhnya tumpang tindih, dan mengabaikan probabilitas yang lebih rendah karena tidak mungkin satu kaleng berada di dalam kaleng lainnya.
 

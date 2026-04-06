@@ -20,7 +20,7 @@ Sensor Grove time of flight boleh disambungkan ke Wio Terminal.
 
 Sambungkan sensor time of flight.
 
-![Sensor Grove time of flight](../../../../../translated_images/ms/grove-time-of-flight-sensor.d82ff2165bfded9f485de54d8d07195a6270a602696825fca19f629ddfe94e86.png)
+![Sensor Grove time of flight](../../../../../translated_images/ms/grove-time-of-flight-sensor.d82ff2165bfded9f.webp)
 
 1. Masukkan satu hujung kabel Grove ke dalam soket pada sensor time of flight. Ia hanya boleh dimasukkan dalam satu arah sahaja.
 

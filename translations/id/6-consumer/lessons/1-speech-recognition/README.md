@@ -1,6 +1,6 @@
 # Mengenali Ucapan dengan Perangkat IoT
 
-![Gambaran sketchnote dari pelajaran ini](../../../../../translated_images/id/lesson-21.e34de51354d6606fb5ee08d8c89d0222eea0a2a7aaf744a8805ae847c4f69dc4.jpg)
+![Gambaran sketchnote dari pelajaran ini](../../../../../translated_images/id/lesson-21.e34de51354d6606f.webp)
 
 > Sketchnote oleh [Nitya Narasimhan](https://github.com/nitya). Klik gambar untuk versi yang lebih besar.
 
@@ -51,7 +51,7 @@ Mikrofon tersedia dalam berbagai jenis:
 
     Mikrofon dinamis tidak memerlukan daya untuk bekerja, sinyal listrik sepenuhnya dihasilkan dari mikrofon.
 
-    ![Patti Smith bernyanyi ke mikrofon Shure SM58 (jenis cardioid dinamis)](../../../../../translated_images/id/dynamic-mic.8babac890a2d80dfb0874b5bf37d4b851fe2aeb9da6fd72945746176978bf3bb.jpg)
+    ![Patti Smith bernyanyi ke mikrofon Shure SM58 (jenis cardioid dinamis)](../../../../../translated_images/id/dynamic-mic.8babac890a2d80df.webp)
 
 * Pita - Mikrofon pita mirip dengan mikrofon dinamis, kecuali mereka memiliki pita logam alih-alih diafragma. Pita ini bergerak dalam medan magnet, menghasilkan arus listrik. Seperti mikrofon dinamis, mikrofon pita tidak memerlukan daya untuk bekerja.
 
@@ -59,11 +59,11 @@ Mikrofon tersedia dalam berbagai jenis:
 
 * Kondensor - Mikrofon kondensor memiliki diafragma logam tipis dan pelat belakang logam tetap. Listrik diterapkan pada keduanya, dan saat diafragma bergetar, muatan statis antara pelat berubah, menghasilkan sinyal. Mikrofon kondensor memerlukan daya untuk bekerja - disebut *Phantom power*.
 
-    ![Mikrofon kondensor diafragma kecil C451B oleh AKG Acoustics](../../../../../translated_images/id/condenser-mic.6f6ed5b76ca19e0ec3fd0c544601542d4479a6cb7565db336de49fbbf69f623e.jpg)
+    ![Mikrofon kondensor diafragma kecil C451B oleh AKG Acoustics](../../../../../translated_images/id/condenser-mic.6f6ed5b76ca19e0e.webp)
 
 * MEMS - Mikrofon sistem mikroelektromekanis, atau MEMS, adalah mikrofon pada chip. Mereka memiliki diafragma sensitif tekanan yang diukir pada chip silikon, dan bekerja mirip dengan mikrofon kondensor. Mikrofon ini bisa sangat kecil dan terintegrasi ke dalam sirkuit.
 
-    ![Mikrofon MEMS pada papan sirkuit](../../../../../translated_images/id/mems-microphone.80574019e1f5e4d9ee72fed720ecd25a39fc2969c91355d17ebb24ba4159e4c4.png)
+    ![Mikrofon MEMS pada papan sirkuit](../../../../../translated_images/id/mems-microphone.80574019e1f5e4d9.webp)
 
     Pada gambar di atas, chip berlabel **LEFT** adalah mikrofon MEMS, dengan diafragma kecil kurang dari satu milimeter lebar.
 
@@ -159,7 +159,7 @@ Untuk menghindari kompleksitas pelatihan dan penggunaan model wake word, timer p
 
 ## Mengubah suara menjadi teks
 
-![Logo layanan suara](../../../../../translated_images/id/azure-speech-logo.a1f08c4befb0159f2cb5d692d3baf5b599e7b44759d316da907bda1508f46a4a.png)
+![Logo layanan suara](../../../../../translated_images/id/azure-speech-logo.a1f08c4befb0159f.webp)
 
 Sama seperti klasifikasi gambar dalam proyek sebelumnya, ada layanan AI yang sudah dibuat yang dapat mengambil suara sebagai file audio dan mengubahnya menjadi teks. Salah satu layanan tersebut adalah Speech Service, bagian dari Cognitive Services, layanan AI yang sudah dibuat yang dapat Anda gunakan dalam aplikasi Anda.
 

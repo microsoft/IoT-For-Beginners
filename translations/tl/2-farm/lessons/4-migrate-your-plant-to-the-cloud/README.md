@@ -1,6 +1,6 @@
 # Ilipat ang iyong halaman sa cloud
 
-![Isang sketchnote na buod ng araling ito](../../../../../translated_images/tl/lesson-8.3f21f3c11159e6a0a376351973ea5724d5de68fa23b4288853a174bed9ac48c3.jpg)
+![Isang sketchnote na buod ng araling ito](../../../../../translated_images/tl/lesson-8.3f21f3c11159e6a0.webp)
 
 > Sketchnote ni [Nitya Narasimhan](https://github.com/nitya). I-click ang larawan para sa mas malaking bersyon.
 
@@ -46,8 +46,8 @@ Napakamahal nito, nangangailangan ng malawak na hanay ng mga bihasang empleyado,
 
 Ang cloud ay madalas na tinutukoy nang pabiro bilang 'computer ng iba'. Ang pangunahing ideya ay simple - sa halip na bumili ng mga computer, magrenta ka ng computer ng iba. Ang ibang tao, isang cloud computing provider, ang magpapatakbo ng malalaking data center. Sila ang bahala sa pagbili at pag-install ng hardware, pamamahala ng kuryente at pagpapalamig, networking, seguridad ng gusali, mga update sa hardware at software, lahat. Bilang isang customer, magrerenta ka ng mga computer na kailangan mo, magrerenta ng mas marami kapag tumaas ang demand, at babawasan ang bilang na nirenta kapag bumaba ang demand. Ang mga cloud data center na ito ay matatagpuan sa buong mundo.
 
-![Isang Microsoft cloud data center](../../../../../translated_images/tl/azure-region-existing.73f704604f2aa6cb9b5a49ed40e93d4fd81ae3f4e6af4a8ca504023902832f56.png)
-![Isang planong pagpapalawak ng Microsoft cloud data center](../../../../../translated_images/tl/azure-region-planned-expansion.a5074a1e8af74f156a73552d502429e5b126ea5019274d767ecb4b9afdad442b.png)
+![Isang Microsoft cloud data center](../../../../../translated_images/tl/azure-region-existing.73f704604f2aa6cb.webp)
+![Isang planong pagpapalawak ng Microsoft cloud data center](../../../../../translated_images/tl/azure-region-planned-expansion.a5074a1e8af74f15.webp)
 
 Ang mga data center na ito ay maaaring umabot ng ilang kilometro kuwadrado ang laki. Ang mga larawan sa itaas ay kuha ilang taon na ang nakalipas sa isang Microsoft cloud data center, at ipinapakita ang orihinal na laki, kasama ang planong pagpapalawak. Ang lugar na nilinis para sa pagpapalawak ay higit sa 5 kilometro kuwadrado.
 
@@ -108,11 +108,11 @@ Ang mga IoT services sa cloud ay nilulutas ang mga problemang ito. Pinapanatili 
 
 Ang mga IoT device ay kumokonekta sa isang cloud service alinman sa pamamagitan ng isang device SDK (isang library na nagbibigay ng code upang gumana sa mga tampok ng serbisyo), o direkta sa pamamagitan ng isang communication protocol tulad ng MQTT o HTTP. Ang device SDK ay karaniwang pinakamadaling ruta dahil ito ang bahala sa lahat, tulad ng pag-alam kung anong mga topic ang ipo-publish o susubaybayan, at kung paano hahawakan ang seguridad.
 
-![Ang mga device ay kumokonekta sa isang serbisyo gamit ang isang device SDK. Ang server code ay kumokonekta rin sa serbisyo sa pamamagitan ng isang SDK](../../../../../translated_images/tl/iot-service-connectivity.7e873847921a5d6fd60d0ba3a943210194518cee0d4e362476624316443275c3.png)
+![Ang mga device ay kumokonekta sa isang serbisyo gamit ang isang device SDK. Ang server code ay kumokonekta rin sa serbisyo sa pamamagitan ng isang SDK](../../../../../translated_images/tl/iot-service-connectivity.7e873847921a5d6f.webp)
 
 Ang iyong device ay nakikipag-ugnayan sa iba pang bahagi ng iyong application sa pamamagitan ng serbisyong ito - katulad ng kung paano ka nagpadala ng telemetry at tumanggap ng mga utos sa pamamagitan ng MQTT. Karaniwan itong ginagawa gamit ang isang service SDK o isang katulad na library. Ang mga mensahe ay nagmumula sa iyong device patungo sa serbisyo kung saan mababasa ito ng iba pang bahagi ng iyong application, at ang mga mensahe ay maaaring ipadala pabalik sa iyong device.
 
-![Ang mga device na walang wastong secret key ay hindi makakonekta sa IoT service](../../../../../translated_images/tl/iot-service-allowed-denied-connection.818b0063ac213fb84204a7229303764d9b467ca430fb822b4ac2fca267d56726.png)
+![Ang mga device na walang wastong secret key ay hindi makakonekta sa IoT service](../../../../../translated_images/tl/iot-service-allowed-denied-connection.818b0063ac213fb8.webp)
 
 Ang mga serbisyong ito ay nagpapatupad ng seguridad sa pamamagitan ng pag-alam sa lahat ng mga device na maaaring kumonekta at magpadala ng data, alinman sa pamamagitan ng pre-registration ng mga device sa serbisyo, o sa pamamagitan ng pagbibigay sa mga device ng mga secret key o certificate na maaari nilang gamitin upang irehistro ang kanilang sarili sa serbisyo sa unang pagkakataon na sila ay kumonekta. Ang mga hindi kilalang device ay hindi makakonekta; kung susubukan nila, tatanggihan ng serbisyo ang koneksyon at babalewalain ang mga mensaheng ipinadala nila.
 
@@ -124,7 +124,7 @@ Ang iba pang bahagi ng iyong application ay maaaring kumonekta sa IoT service at
 
 Ngayon na mayroon ka nang Azure subscription, maaari kang mag-sign up para sa isang IoT service. Ang IoT service mula sa Microsoft ay tinatawag na Azure IoT Hub.
 
-![Ang logo ng Azure IoT Hub](../../../../../translated_images/tl/azure-iot-hub-logo.28a19de76d0a1932464d858f7558712bcdace3e5ec69c434d482ed7ce41c3a26.png)
+![Ang logo ng Azure IoT Hub](../../../../../translated_images/tl/azure-iot-hub-logo.28a19de76d0a1932.webp)
 
 Ang video sa ibaba ay nagbibigay ng maikling overview ng Azure IoT Hub:
 

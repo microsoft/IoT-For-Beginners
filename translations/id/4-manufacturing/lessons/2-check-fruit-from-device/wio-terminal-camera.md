@@ -16,7 +16,7 @@ ArduCam tidak memiliki soket Grove, melainkan terhubung ke bus SPI dan I2C melal
 
 Sambungkan kamera.
 
-![Sensor ArduCam](../../../../../translated_images/id/arducam.20e4e4cbb268296570b5914e20d6c349fc42ddac9ed4e1b9deba2188204eebae.png)
+![Sensor ArduCam](../../../../../translated_images/id/arducam.20e4e4cbb2682965.webp)
 
 1. Pin di bagian bawah ArduCam perlu dihubungkan ke pin GPIO pada Wio Terminal. Untuk mempermudah menemukan pin yang tepat, pasang stiker pin GPIO yang disertakan dengan Wio Terminal di sekitar pin:
 
@@ -35,7 +35,7 @@ Sambungkan kamera.
     | SDA         | 3 (I2C1_SDA)     | I2C Serial Data                         |
     | SCL         | 5 (I2C1_SCL)     | I2C Serial Clock                        |
 
-    ![Wio Terminal terhubung ke ArduCam dengan kabel jumper](../../../../../translated_images/id/arducam-wio-terminal-connections.a4d5a4049bdb5ab800a2877389fc6ecf5e4ff307e6451ff56c517e6786467d0a.png)
+    ![Wio Terminal terhubung ke ArduCam dengan kabel jumper](../../../../../translated_images/id/arducam-wio-terminal-connections.a4d5a4049bdb5ab8.webp)
 
     Koneksi GND dan VCC menyediakan catu daya 5V ke ArduCam. Kamera ini berjalan pada 5V, berbeda dengan sensor Grove yang berjalan pada 3V. Daya ini berasal langsung dari koneksi USB-C yang memberi daya pada perangkat.
 
@@ -456,7 +456,7 @@ Wio Terminal hanya mendukung kartu microSD hingga ukuran 16GB. Jika Anda memilik
 
 1. Matikan daya pada kartu microSD dan keluarkan dengan mendorongnya sedikit dan melepaskannya, dan kartu akan keluar. Anda mungkin perlu menggunakan alat tipis untuk melakukannya. Sambungkan kartu microSD ke komputer Anda untuk melihat gambar.
 
-    ![Gambar pisang yang ditangkap menggunakan ArduCam](../../../../../translated_images/id/banana-arducam.be1b32d4267a8194b0fd042362e56faa431da9cd4af172051b37243ea9be0256.jpg)
+    ![Gambar pisang yang ditangkap menggunakan ArduCam](../../../../../translated_images/id/banana-arducam.be1b32d4267a8194.webp)
 💁 Mungkin diperlukan beberapa gambar agar keseimbangan putih kamera dapat menyesuaikan dirinya. Anda akan melihat ini berdasarkan warna gambar yang diambil, beberapa gambar pertama mungkin terlihat tidak sesuai warna. Anda selalu dapat mengatasi hal ini dengan mengubah kode untuk mengambil beberapa gambar yang diabaikan dalam fungsi `setup`.
 
 

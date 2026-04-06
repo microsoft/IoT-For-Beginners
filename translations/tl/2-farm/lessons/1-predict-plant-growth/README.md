@@ -1,6 +1,6 @@
 ## Hulaan ang paglago ng halaman gamit ang IoT
 
-![Isang sketchnote overview ng aralin na ito](../../../../../translated_images/tl/lesson-5.42b234299279d263143148b88ab4583861a32ddb03110c6c1120e41bb88b2592.jpg)
+![Isang sketchnote overview ng aralin na ito](../../../../../translated_images/tl/lesson-5.42b234299279d263.webp)
 
 > Sketchnote ni [Nitya Narasimhan](https://github.com/nitya). I-click ang imahe para sa mas malaking bersyon.
 
@@ -102,7 +102,7 @@ Ang mga hakbang upang gawin ito nang manu-mano ay:
 
 Halimbawa, kung ang pinakamataas na temperatura para sa araw ay 25°C, at ang pinakamababa ay 12°C:
 
-![GDD = 25 + 12 divided by 2, pagkatapos ay ibawas ang 10 mula sa resulta na nagbibigay ng 8.5](../../../../../translated_images/tl/gdd-calculation-strawberries.59f57db94b22adb8ff6efb951ace33af104a1c6ccca3ffb0f8169c14cb160c90.png)
+![GDD = 25 + 12 divided by 2, pagkatapos ay ibawas ang 10 mula sa resulta na nagbibigay ng 8.5](../../../../../translated_images/tl/gdd-calculation-strawberries.59f57db94b22adb8.webp)
 
 * 25 + 12 = 37
 * 37 / 2 = 18.5

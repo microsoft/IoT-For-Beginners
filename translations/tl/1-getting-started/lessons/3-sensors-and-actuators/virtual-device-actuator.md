@@ -36,11 +36,11 @@ Idagdag ang LED sa CounterFit app.
 
     1. Piliin ang **Add** na button upang lumikha ng LED sa Pin 5.
 
-    ![Ang mga setting ng LED](../../../../../translated_images/tl/counterfit-create-led.ba9db1c9b8c622a635d6dfae5cdc4e70c2b250635bd4f0601c6cf0bd22b7ba46.png)
+    ![Ang mga setting ng LED](../../../../../translated_images/tl/counterfit-create-led.ba9db1c9b8c622a6.webp)
 
     Ang LED ay malilikha at lilitaw sa listahan ng mga actuator.
 
-    ![Ang nalikhang LED](../../../../../translated_images/tl/counterfit-led.c0ab02de6d256ad84d9bad4d67a7faa709f0ea83e410cfe9b5561ef0cef30b1c.png)
+    ![Ang nalikhang LED](../../../../../translated_images/tl/counterfit-led.c0ab02de6d256ad8.webp)
 
     Kapag nalikha na ang LED, maaari mong baguhin ang kulay nito gamit ang *Color* picker. Piliin ang **Set** na button upang baguhin ang kulay pagkatapos mong pumili.
 

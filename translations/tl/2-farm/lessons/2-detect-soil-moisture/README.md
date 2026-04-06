@@ -13,7 +13,7 @@ Ang I²C ay may bus na binubuo ng 2 pangunahing mga wire, kasama ang 2 power wir
 | VCC | Voltage common collector | Ang power supply para sa mga device. Ito ay nakakonekta sa SDA at SCL wires upang magbigay ng kanilang power sa pamamagitan ng pull-up resistor na nag-o-off ng signal kapag walang device ang controller. |
 | GND | Ground | Nagbibigay ito ng karaniwang ground para sa electrical circuit. |
 
-![I2C bus na may 3 device na nakakonekta sa SDA at SCL wires, na may parehong ground wire](../../../../../translated_images/tl/i2c.83da845dde02256bdd462dbe0d5145461416b74930571b89d1ae142841eeb584.png)
+![I2C bus na may 3 device na nakakonekta sa SDA at SCL wires, na may parehong ground wire](../../../../../translated_images/tl/i2c.83da845dde02256b.webp)
 
 Upang magpadala ng data, ang isang device ay maglalabas ng start condition upang ipakita na ito ay handa nang magpadala ng data. Ito ay magiging controller. Ang controller ay magpapadala ng address ng device na nais nitong makipag-ugnayan, kasama kung nais nitong magbasa o magsulat ng data. Pagkatapos maipadala ang data, ang controller ay magpapadala ng stop condition upang ipahiwatig na ito ay tapos na. Pagkatapos nito, ang ibang device ay maaaring maging controller at magpadala o tumanggap ng data.
 

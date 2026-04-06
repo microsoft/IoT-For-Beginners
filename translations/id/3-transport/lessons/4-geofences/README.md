@@ -1,6 +1,6 @@
 # Geofences
 
-![Gambaran sketchnote dari pelajaran ini](../../../../../translated_images/id/lesson-14.63980c5150ae3c153e770fb71d044c1845dce79248d86bed9fc525adf3ede73c.jpg)
+![Gambaran sketchnote dari pelajaran ini](../../../../../translated_images/id/lesson-14.63980c5150ae3c15.webp)
 
 > Sketchnote oleh [Nitya Narasimhan](https://github.com/nitya). Klik gambar untuk versi yang lebih besar.
 
@@ -35,7 +35,7 @@ Dalam pelajaran ini kita akan membahas:
 
 Geofence adalah perimeter virtual untuk wilayah geografis dunia nyata. Geofences dapat berupa lingkaran yang didefinisikan sebagai titik dan radius (misalnya lingkaran dengan lebar 100m di sekitar sebuah bangunan), atau poligon yang mencakup area seperti zona sekolah, batas kota, atau kampus universitas atau kantor.
 
-![Beberapa contoh geofence yang menunjukkan geofence melingkar di sekitar toko perusahaan Microsoft, dan geofence poligon di sekitar kampus barat Microsoft](../../../../../translated_images/id/geofence-examples.172fbc534665769f6e1a1ddcf75e3b25183cd10354c80cc603ba44b635390e1a.png)
+![Beberapa contoh geofence yang menunjukkan geofence melingkar di sekitar toko perusahaan Microsoft, dan geofence poligon di sekitar kampus barat Microsoft](../../../../../translated_images/id/geofence-examples.172fbc534665769f.webp)
 
 > 💁 Anda mungkin sudah menggunakan geofences tanpa menyadarinya. Jika Anda pernah mengatur pengingat menggunakan aplikasi pengingat iOS atau Google Keep berdasarkan lokasi, Anda telah menggunakan geofence. Aplikasi ini akan mengatur geofence berdasarkan lokasi yang diberikan dan memberi tahu Anda saat ponsel Anda memasuki geofence.
 
@@ -212,7 +212,7 @@ Penting untuk mengetahui jarak ke tepi geofence, dan menggabungkannya dengan inf
 
 Misalnya, bayangkan pembacaan GPS menunjukkan kendaraan sedang berkendara di sepanjang jalan yang akhirnya berada di sebelah geofence. Jika satu nilai GPS tidak akurat dan menempatkan kendaraan di dalam geofence, meskipun tidak ada akses kendaraan, maka nilai tersebut dapat diabaikan.
 
-![Jejak GPS menunjukkan kendaraan melewati kampus Microsoft di 520, dengan pembacaan GPS di sepanjang jalan kecuali satu di kampus, di dalam geofence](../../../../../translated_images/id/geofence-crossing-inaccurate-gps.6a3ed911202ad9cabb66d3964888cec03a42c61d5b8f536ad5bdc99716b370f5.png)
+![Jejak GPS menunjukkan kendaraan melewati kampus Microsoft di 520, dengan pembacaan GPS di sepanjang jalan kecuali satu di kampus, di dalam geofence](../../../../../translated_images/id/geofence-crossing-inaccurate-gps.6a3ed911202ad9ca.webp)
 Dalam gambar di atas, terdapat geofence yang mencakup sebagian dari kampus Microsoft. Garis merah menunjukkan sebuah truk yang melaju di sepanjang jalan 520, dengan lingkaran-lingkaran yang menunjukkan pembacaan GPS. Sebagian besar pembacaan ini akurat dan berada di sepanjang jalan 520, tetapi ada satu pembacaan yang tidak akurat di dalam geofence. Tidak mungkin pembacaan tersebut benar - tidak ada jalan yang memungkinkan truk tiba-tiba berbelok dari jalan 520 ke dalam kampus, lalu kembali ke jalan 520. Kode yang memeriksa geofence ini perlu mempertimbangkan pembacaan sebelumnya sebelum mengambil tindakan berdasarkan hasil pengujian geofence.
 
 ✅ Data tambahan apa yang Anda perlukan untuk memeriksa apakah pembacaan GPS dapat dianggap benar?
@@ -284,7 +284,7 @@ Seperti yang Anda ingat dari pelajaran sebelumnya, IoT Hub memungkinkan Anda mem
 
 Jawabannya adalah tidak bisa! Sebagai gantinya, Anda dapat mendefinisikan beberapa koneksi terpisah untuk membaca peristiwa, dan masing-masing dapat mengelola pemutaran ulang pesan yang belum dibaca. Ini disebut *grup konsumen*. Saat Anda terhubung ke endpoint, Anda dapat menentukan grup konsumen mana yang ingin Anda hubungkan. Setiap komponen aplikasi Anda akan terhubung ke grup konsumen yang berbeda.
 
-![Satu IoT Hub dengan 3 grup konsumen yang mendistribusikan pesan yang sama ke 3 aplikasi fungsi yang berbeda](../../../../../translated_images/id/consumer-groups.a3262e26fc27ba2092863678ad57af15c7223416e388a23f330c058cf4358630.png)
+![Satu IoT Hub dengan 3 grup konsumen yang mendistribusikan pesan yang sama ke 3 aplikasi fungsi yang berbeda](../../../../../translated_images/id/consumer-groups.a3262e26fc27ba20.webp)
 
 Secara teori, hingga 5 aplikasi dapat terhubung ke setiap grup konsumen, dan semuanya akan menerima pesan saat pesan tiba. Praktik terbaiknya adalah hanya satu aplikasi yang mengakses setiap grup konsumen untuk menghindari pemrosesan pesan duplikat, dan memastikan saat memulai ulang semua pesan yang tertunda diproses dengan benar. Sebagai contoh, jika Anda menjalankan aplikasi Functions Anda secara lokal serta menjalankannya di cloud, keduanya akan memproses pesan, yang mengakibatkan blob duplikat disimpan di akun penyimpanan.
 

@@ -1,6 +1,6 @@
 # Migrasikan logik aplikasi anda ke awan
 
-![Gambaran sketchnote untuk pelajaran ini](../../../../../translated_images/ms/lesson-9.dfe99c8e891f48e179724520da9f5794392cf9a625079281ccdcbf09bd85e1b6.jpg)
+![Gambaran sketchnote untuk pelajaran ini](../../../../../translated_images/ms/lesson-9.dfe99c8e891f48e1.webp)
 
 > Sketchnote oleh [Nitya Narasimhan](https://github.com/nitya). Klik imej untuk versi yang lebih besar.
 
@@ -28,7 +28,7 @@ Dalam pelajaran ini, kita akan membincangkan:
 
 Tanpa pelayan, atau pengkomputeran tanpa pelayan, melibatkan penciptaan blok kecil kod yang dijalankan di awan sebagai tindak balas kepada pelbagai jenis acara. Apabila acara berlaku, kod anda dijalankan dan menerima data tentang acara tersebut. Acara ini boleh datang daripada pelbagai sumber, termasuk permintaan web, mesej yang diletakkan dalam barisan, perubahan data dalam pangkalan data, atau mesej yang dihantar ke perkhidmatan IoT oleh peranti IoT.
 
-![Acara dihantar dari perkhidmatan IoT ke perkhidmatan tanpa pelayan, semuanya diproses serentak oleh pelbagai fungsi yang dijalankan](../../../../../translated_images/ms/iot-messages-to-serverless.0194da1cc0732bb7d0f823aed3fce54735c6b1ad3bf36089804d8aaefc0a774f.png)
+![Acara dihantar dari perkhidmatan IoT ke perkhidmatan tanpa pelayan, semuanya diproses serentak oleh pelbagai fungsi yang dijalankan](../../../../../translated_images/ms/iot-messages-to-serverless.0194da1cc0732bb7.webp)
 
 > 💁 Jika anda pernah menggunakan pencetus pangkalan data sebelum ini, anda boleh menganggap ini sebagai perkara yang sama, iaitu kod yang dicetuskan oleh acara seperti memasukkan baris.
 
@@ -54,7 +54,7 @@ Sebagai pembangun IoT, model tanpa pelayan sangat ideal. Anda boleh menulis fung
 
 Perkhidmatan pengkomputeran tanpa pelayan daripada Microsoft dikenali sebagai Azure Functions.
 
-![Logo Azure Functions](../../../../../translated_images/ms/azure-functions-logo.1cfc8e3204c9c44aaf80fcf406fc8544d80d7f00f8d3e8ed6fed764563e17564.png)
+![Logo Azure Functions](../../../../../translated_images/ms/azure-functions-logo.1cfc8e3204c9c44a.webp)
 
 Video pendek di bawah memberikan gambaran keseluruhan tentang Azure Functions.
 
