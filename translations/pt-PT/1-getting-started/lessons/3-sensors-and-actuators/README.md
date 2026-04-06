@@ -1,6 +1,6 @@
 # Interagir com o mundo físico com sensores e atuadores
 
-![Uma visão geral ilustrada desta lição](../../../../../translated_images/pt-PT/lesson-3.cc3b7b4cd646de598698cce043c0393fd62ef42bac2eaf60e61272cd844250f4.jpg)
+![Uma visão geral ilustrada desta lição](../../../../../translated_images/pt-PT/lesson-3.cc3b7b4cd646de59.webp)
 
 > Ilustração por [Nitya Narasimhan](https://github.com/nitya). Clique na imagem para uma versão maior.
 
@@ -92,7 +92,7 @@ Sensores digitais, como sensores analógicos, detectam o mundo ao seu redor usan
 
 O sensor digital mais simples é um botão ou interruptor. Este é um sensor com dois estados, ligado ou desligado.
 
-![Um botão é enviado 5 volts. Quando não pressionado, retorna 0 volts; quando pressionado, retorna 5 volts](../../../../../translated_images/pt-PT/button.eadb560b77ac45e56f523d9d8876e40444f63b419e33eb820082d461fa79490b.png)
+![Um botão é enviado 5 volts. Quando não pressionado, retorna 0 volts; quando pressionado, retorna 5 volts](../../../../../translated_images/pt-PT/button.eadb560b77ac45e5.webp)
 
 Pinos em dispositivos IoT, como pinos GPIO, podem medir este sinal diretamente como 0 ou 1. Se a tensão enviada for igual à tensão retornada, o valor lido é 1; caso contrário, o valor lido é 0. Não há necessidade de converter o sinal, ele só pode ser 1 ou 0.
 
@@ -125,7 +125,7 @@ Alguns atuadores comuns incluem:
 
 Siga o guia relevante abaixo para adicionar um atuador ao seu dispositivo IoT, controlado pelo sensor, para construir uma luz noturna IoT. Ele reunirá os níveis de luz do sensor de luz e usará um atuador na forma de um LED para emitir luz quando o nível de luz detectado for muito baixo.
 
-![Um diagrama de fluxo da tarefa mostrando os níveis de luz sendo lidos e verificados, e o LED sendo controlado](../../../../../translated_images/pt-PT/assignment-1-flow.7552a51acb1a5ec858dca6e855cdbb44206434006df8ba3799a25afcdab1665d.png)
+![Um diagrama de fluxo da tarefa mostrando os níveis de luz sendo lidos e verificados, e o LED sendo controlado](../../../../../translated_images/pt-PT/assignment-1-flow.7552a51acb1a5ec8.webp)
 
 * [Arduino - Wio Terminal](wio-terminal-actuator.md)
 * [Computador de placa única - Raspberry Pi](pi-actuator.md)
@@ -140,7 +140,7 @@ Assim como os sensores, os atuadores podem ser analógicos ou digitais.
 Atuadores analógicos recebem um sinal analógico e o convertem em algum tipo de interação, onde a interação muda com base na tensão fornecida.
 
 Um exemplo é uma luz regulável, como as que você pode ter em sua casa. A quantidade de tensão fornecida à luz determina o quão brilhante ela será.
-![Uma luz regulada com baixa voltagem e mais brilhante com alta voltagem](../../../../../translated_images/pt-PT/dimmable-light.9ceffeb195dec1a849da718b2d71b32c35171ff7dfea9c07bbf82646a67acf6b.png)
+![Uma luz regulada com baixa voltagem e mais brilhante com alta voltagem](../../../../../translated_images/pt-PT/dimmable-light.9ceffeb195dec1a8.webp)
 
 Tal como acontece com os sensores, o dispositivo IoT funciona com sinais digitais, não analógicos. Isso significa que, para enviar um sinal analógico, o dispositivo IoT precisa de um conversor digital para analógico (DAC), seja diretamente no dispositivo IoT ou numa placa de conexão. Este conversor transforma os 0s e 1s do dispositivo IoT numa voltagem analógica que o atuador pode utilizar.
 
@@ -187,7 +187,7 @@ Atuadores digitais, tal como sensores digitais, têm dois estados controlados po
 
 Um atuador digital simples é um LED. Quando um dispositivo envia um sinal digital de 1, uma voltagem alta é enviada, acendendo o LED. Quando um sinal digital de 0 é enviado, a voltagem cai para 0V e o LED apaga-se.
 
-![Um LED está apagado a 0 volts e aceso a 5V](../../../../../translated_images/pt-PT/led.ec6d94f66676a174ad06d9fa9ea49c2ee89beb18b312d5c6476467c66375b07f.png)
+![Um LED está apagado a 0 volts e aceso a 5V](../../../../../translated_images/pt-PT/led.ec6d94f66676a174.webp)
 
 ✅ Que outros atuadores simples de 2 estados consegues imaginar? Um exemplo é um solenóide, que é um eletroímã que pode ser ativado para realizar ações como mover um trinco de porta, trancando ou destrancando-a.
 

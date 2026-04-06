@@ -1,6 +1,6 @@
 # Treine um detector de estoque
 
-![Uma visão geral ilustrada desta lição](../../../../../translated_images/pt-BR/lesson-19.cf6973cecadf080c4b526310620dc4d6f5994c80fb0139c6f378cc9ca2d435cd.jpg)
+![Uma visão geral ilustrada desta lição](../../../../../translated_images/pt-BR/lesson-19.cf6973cecadf080c.webp)
 
 > Ilustração por [Nitya Narasimhan](https://github.com/nitya). Clique na imagem para uma versão maior.
 
@@ -36,7 +36,7 @@ A detecção de objetos envolve identificar objetos em imagens usando IA. Difere
 
 A classificação de imagens consiste em classificar uma imagem como um todo - quais são as probabilidades de que a imagem inteira corresponda a cada tag. Você recebe de volta as probabilidades para cada tag usada para treinar o modelo.
 
-![Classificação de imagens de castanhas de caju e extrato de tomate](../../../../../translated_images/pt-BR/image-classifier-cashews-tomato.bc2e16ab8f05cf9ac0f59f73e32efc4227f9a5b601b90b2c60f436694547a965.png)
+![Classificação de imagens de castanhas de caju e extrato de tomate](../../../../../translated_images/pt-BR/image-classifier-cashews-tomato.bc2e16ab8f05cf9a.webp)
 
 No exemplo acima, duas imagens são classificadas usando um modelo treinado para classificar potes de castanhas de caju ou latas de extrato de tomate. A primeira imagem é um pote de castanhas de caju e apresenta dois resultados do classificador de imagens:
 
@@ -60,7 +60,7 @@ Quando você o utiliza para prever imagens, em vez de receber uma lista de tags 
 
 > 🎓 *Caixas delimitadoras* são as caixas ao redor de um objeto.
 
-![Detecção de objetos de castanhas de caju e extrato de tomate](../../../../../translated_images/pt-BR/object-detector-cashews-tomato.1af7c26686b4db0e709754aeb196f4e73271f54e2085db3bcccb70d4a0d84d97.png)
+![Detecção de objetos de castanhas de caju e extrato de tomate](../../../../../translated_images/pt-BR/object-detector-cashews-tomato.1af7c26686b4db0e.webp)
 
 A imagem acima contém tanto um pote de castanhas de caju quanto três latas de extrato de tomate. O detector de objetos detectou as castanhas de caju, retornando a caixa delimitadora que contém as castanhas com a probabilidade de 97,6%. O detector de objetos também detectou três latas de extrato de tomate, fornecendo três caixas delimitadoras separadas, uma para cada lata detectada, e cada uma com uma probabilidade de que a caixa delimitadora contenha uma lata de extrato de tomate.
 
@@ -111,7 +111,7 @@ Você pode treinar um detector de objetos usando o Custom Vision, de forma semel
 
     Ao criar seu projeto, certifique-se de usar o recurso `stock-detector-training` que você criou anteriormente. Use o tipo de projeto *Detecção de Objetos* e o domínio *Produtos em Prateleiras*.
 
-    ![As configurações do projeto no Custom Vision com o nome definido como fruit-quality-detector, sem descrição, o recurso definido como fruit-quality-detector-training, o tipo de projeto definido como classificação, os tipos de classificação definidos como multi-classe e os domínios definidos como alimentos](../../../../../translated_images/pt-BR/custom-vision-create-object-detector-project.32d4fb9aa8e7e7375f8a799bfce517aca970f2cb65e42d4245c5e635c734ab29.png)
+    ![As configurações do projeto no Custom Vision com o nome definido como fruit-quality-detector, sem descrição, o recurso definido como fruit-quality-detector-training, o tipo de projeto definido como classificação, os tipos de classificação definidos como multi-classe e os domínios definidos como alimentos](../../../../../translated_images/pt-BR/custom-vision-create-object-detector-project.32d4fb9aa8e7e737.webp)
 
     ✅ O domínio de produtos em prateleiras é especificamente direcionado para detectar estoque em prateleiras de lojas. Leia mais sobre os diferentes domínios na [documentação Selecionar um domínio na Microsoft Docs](https://docs.microsoft.com/azure/cognitive-services/custom-vision-service/select-domain?WT.mc_id=academic-17441-jabenn#object-detection).
 
@@ -133,11 +133,11 @@ Para treinar seu modelo, você precisará de um conjunto de imagens contendo os 
 
 1. Siga a [seção Fazer upload e marcar imagens do guia rápido de construção de um detector de objetos na documentação da Microsoft](https://docs.microsoft.com/azure/cognitive-services/custom-vision-service/get-started-build-detector?WT.mc_id=academic-17441-jabenn#upload-and-tag-images) para fazer upload de suas imagens de treinamento. Crie tags relevantes dependendo dos tipos de objetos que deseja detectar.
 
-    ![Os diálogos de upload mostrando o upload de imagens de bananas maduras e não maduras](../../../../../translated_images/pt-BR/image-upload-object-detector.77c7892c3093cb59b79018edecd678749a75d71a099bc8a2d2f2f76320f88a5b.png)
+    ![Os diálogos de upload mostrando o upload de imagens de bananas maduras e não maduras](../../../../../translated_images/pt-BR/image-upload-object-detector.77c7892c3093cb59.webp)
 
     Ao desenhar caixas delimitadoras para os objetos, mantenha-as bem ajustadas ao redor do objeto. Pode levar algum tempo para marcar todas as imagens, mas a ferramenta detectará o que acredita serem as caixas delimitadoras, tornando o processo mais rápido.
 
-    ![Marcando um extrato de tomate](../../../../../translated_images/pt-BR/object-detector-tag-tomato-paste.f47c362fb0f0eb582f3bc68cf3855fb43a805106395358d41896a269c210b7b4.png)
+    ![Marcando um extrato de tomate](../../../../../translated_images/pt-BR/object-detector-tag-tomato-paste.f47c362fb0f0eb58.webp)
 
     > 💁 Se você tiver mais de 15 imagens para cada objeto, pode treinar após 15 e usar o recurso **Tags sugeridas**. Isso usará o modelo treinado para detectar os objetos na imagem não marcada. Você pode então confirmar os objetos detectados ou rejeitar e redesenhar as caixas delimitadoras. Isso pode economizar *muito* tempo.
 
@@ -155,7 +155,7 @@ Depois que seu detector de objetos for treinado, você poderá testá-lo fornece
 
 1. Use o botão **Teste Rápido** para fazer upload de imagens de teste e verificar se os objetos são detectados. Use as imagens de teste que você criou anteriormente, não as imagens usadas para treinamento.
 
-    ![3 latas de extrato de tomate detectadas com probabilidades de 38%, 35,5% e 34,6%](../../../../../translated_images/pt-BR/object-detector-detected-tomato-paste.52656fe87af4c37b4ee540526d63e73ed075da2e54a9a060aa528e0c562fb1b6.png)
+    ![3 latas de extrato de tomate detectadas com probabilidades de 38%, 35,5% e 34,6%](../../../../../translated_images/pt-BR/object-detector-detected-tomato-paste.52656fe87af4c37b.webp)
 
 1. Teste todas as imagens de teste que você tiver e observe as probabilidades.
 

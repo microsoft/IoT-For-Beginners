@@ -1,6 +1,6 @@
 # Dados de localização da loja
 
-![Uma visão geral ilustrada desta lição](../../../../../translated_images/pt-PT/lesson-12.ca7f53039712a3ec14ad6474d8445361c84adab643edc53fa6269b77895606bb.jpg)
+![Uma visão geral ilustrada desta lição](../../../../../translated_images/pt-PT/lesson-12.ca7f53039712a3ec.webp)
 
 > Ilustração por [Nitya Narasimhan](https://github.com/nitya). Clique na imagem para uma versão maior.
 
@@ -75,7 +75,7 @@ Bases de dados NoSQL são chamadas NoSQL porque não têm a mesma estrutura ríg
 
 > 💁 Apesar do nome, algumas bases de dados NoSQL permitem usar SQL para consultar os dados.
 
-![Documentos em pastas numa base de dados NoSQL](../../../../../translated_images/pt-PT/noqsl-database.62d24ccf5b73f60d35c245a8533f1c7147c0928e955b82cb290b2e184bb434df.png)
+![Documentos em pastas numa base de dados NoSQL](../../../../../translated_images/pt-PT/noqsl-database.62d24ccf5b73f60d.webp)
 
 Bases de dados NoSQL não têm um esquema pré-definido que limite como os dados são armazenados; em vez disso, podes inserir qualquer dado não estruturado, geralmente usando documentos JSON. Esses documentos podem ser organizados em pastas, semelhante a ficheiros no teu computador. Cada documento pode ter campos diferentes de outros documentos - por exemplo, se estivesses a armazenar dados IoT dos teus veículos agrícolas, alguns poderiam ter campos para dados de acelerómetro e velocidade, outros poderiam ter campos para a temperatura no reboque. Se adicionasses um novo tipo de camião, como um com balanças integradas para rastrear o peso dos produtos transportados, o teu dispositivo IoT poderia adicionar este novo campo e ele poderia ser armazenado sem alterações na base de dados.
 
@@ -89,7 +89,7 @@ Nesta lição, vais usar armazenamento NoSQL para armazenar dados IoT.
 
 Na última lição, capturaste dados GPS de um sensor GPS conectado ao teu dispositivo IoT. Para armazenar esses dados IoT na nuvem, precisas enviá-los para um serviço IoT. Mais uma vez, vais usar o Azure IoT Hub, o mesmo serviço IoT na nuvem que usaste no projeto anterior.
 
-![Enviar telemetria GPS de um dispositivo IoT para o IoT Hub](../../../../../translated_images/pt-PT/gps-telemetry-iot-hub.8115335d51cd2c1285d20e9d1b18cf685e59a8e093e7797291ef173445af6f3d.png)
+![Enviar telemetria GPS de um dispositivo IoT para o IoT Hub](../../../../../translated_images/pt-PT/gps-telemetry-iot-hub.8115335d51cd2c12.webp)
 
 ### Tarefa - enviar dados GPS para um IoT Hub
 
@@ -171,7 +171,7 @@ Os dados do caminho frio são armazenados em armazéns de dados - bases de dados
 
 Assim que os dados estiverem a fluir para o teu IoT Hub, podes escrever algum código sem servidor para ouvir eventos publicados no endpoint compatível com Event-Hub. Este é o caminho morno - esses dados serão armazenados e usados na próxima lição para relatórios sobre a jornada.
 
-![Enviar telemetria GPS de um dispositivo IoT para o IoT Hub, depois para Azure Functions via um gatilho de event hub](../../../../../translated_images/pt-PT/gps-telemetry-iot-hub-functions.24d3fa5592455e9f4e2fe73856b40c3915a292b90263c31d652acfd976cfedd8.png)
+![Enviar telemetria GPS de um dispositivo IoT para o IoT Hub, depois para Azure Functions via um gatilho de event hub](../../../../../translated_images/pt-PT/gps-telemetry-iot-hub-functions.24d3fa5592455e9f.webp)
 
 ### Tarefa - lidar com eventos GPS usando código sem servidor
 
@@ -193,7 +193,7 @@ Assim que os dados estiverem a fluir para o teu IoT Hub, podes escrever algum c�
 
 ## Contas de Armazenamento Azure
 
-![O logótipo do Azure Storage](../../../../../translated_images/pt-PT/azure-storage-logo.605c0f602c640d482a80f1b35a2629a32d595711b7ab1d7ceea843250615ff32.png)
+![O logótipo do Azure Storage](../../../../../translated_images/pt-PT/azure-storage-logo.605c0f602c640d48.webp)
 
 As Contas de Armazenamento Azure são um serviço de armazenamento de propósito geral que pode armazenar dados de várias formas diferentes. Pode armazenar dados como blobs, em filas, em tabelas ou como ficheiros, tudo ao mesmo tempo.
 

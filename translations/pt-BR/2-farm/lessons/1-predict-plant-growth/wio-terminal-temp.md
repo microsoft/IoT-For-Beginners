@@ -18,7 +18,7 @@ O sensor de temperatura Grove pode ser conectado à porta digital do Wio Termina
 
 Conecte o sensor de temperatura.
 
-![Um sensor de temperatura Grove](../../../../../translated_images/pt-BR/grove-dht11.07f8eafceee170043efbb53e1d15722bd4e00fbaa9ff74290b57e9f66eb82c17.png)
+![Um sensor de temperatura Grove](../../../../../translated_images/pt-BR/grove-dht11.07f8eafceee17004.webp)
 
 1. Insira uma extremidade de um cabo Grove no conector do sensor de umidade e temperatura. Ele só se encaixará de uma maneira.
 

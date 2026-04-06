@@ -1,6 +1,6 @@
 # Dados de localização da loja
 
-![Uma visão geral ilustrada desta lição](../../../../../translated_images/pt-BR/lesson-12.ca7f53039712a3ec14ad6474d8445361c84adab643edc53fa6269b77895606bb.jpg)
+![Uma visão geral ilustrada desta lição](../../../../../translated_images/pt-BR/lesson-12.ca7f53039712a3ec.webp)
 
 > Ilustração por [Nitya Narasimhan](https://github.com/nitya). Clique na imagem para uma versão maior.
 
@@ -75,7 +75,7 @@ Bancos de dados NoSQL são chamados assim porque não possuem a mesma estrutura 
 
 > 💁 Apesar do nome, alguns bancos de dados NoSQL permitem usar SQL para consultar os dados.
 
-![Documentos em pastas em um banco de dados NoSQL](../../../../../translated_images/pt-BR/noqsl-database.62d24ccf5b73f60d35c245a8533f1c7147c0928e955b82cb290b2e184bb434df.png)
+![Documentos em pastas em um banco de dados NoSQL](../../../../../translated_images/pt-BR/noqsl-database.62d24ccf5b73f60d.webp)
 
 Bancos de dados NoSQL não possuem um esquema pré-definido que limite como os dados são armazenados; em vez disso, você pode inserir qualquer dado não estruturado, geralmente usando documentos JSON. Esses documentos podem ser organizados em pastas, semelhante a arquivos no seu computador. Cada documento pode ter campos diferentes de outros documentos - por exemplo, se você estivesse armazenando dados de IoT de seus veículos agrícolas, alguns poderiam ter campos para dados de acelerômetro e velocidade, enquanto outros poderiam ter campos para a temperatura no trailer. Se você adicionasse um novo tipo de caminhão, como um com balanças integradas para rastrear o peso dos produtos transportados, então seu dispositivo IoT poderia adicionar esse novo campo e ele poderia ser armazenado sem alterações no banco de dados.
 
@@ -89,7 +89,7 @@ Nesta lição, você usará armazenamento NoSQL para armazenar dados de IoT.
 
 Na última lição, você capturou dados de GPS de um sensor GPS conectado ao seu dispositivo IoT. Para armazenar esses dados de IoT na nuvem, você precisa enviá-los para um serviço de IoT. Mais uma vez, você usará o Azure IoT Hub, o mesmo serviço de IoT na nuvem que utilizou no projeto anterior.
 
-![Enviando telemetria de GPS de um dispositivo IoT para o IoT Hub](../../../../../translated_images/pt-BR/gps-telemetry-iot-hub.8115335d51cd2c1285d20e9d1b18cf685e59a8e093e7797291ef173445af6f3d.png)
+![Enviando telemetria de GPS de um dispositivo IoT para o IoT Hub](../../../../../translated_images/pt-BR/gps-telemetry-iot-hub.8115335d51cd2c12.webp)
 
 ### Tarefa - enviar dados de GPS para um IoT Hub
 
@@ -171,7 +171,7 @@ Os dados do caminho frio são armazenados em data warehouses - bancos de dados p
 
 Uma vez que os dados estão fluindo para o seu IoT Hub, você pode escrever algum código serverless para escutar eventos publicados no endpoint compatível com Event-Hub. Este é o caminho morno - esses dados serão armazenados e usados na próxima lição para relatórios sobre a jornada.
 
-![Enviando telemetria de GPS de um dispositivo IoT para o IoT Hub, depois para Azure Functions via um gatilho de Event Hub](../../../../../translated_images/pt-BR/gps-telemetry-iot-hub-functions.24d3fa5592455e9f4e2fe73856b40c3915a292b90263c31d652acfd976cfedd8.png)
+![Enviando telemetria de GPS de um dispositivo IoT para o IoT Hub, depois para Azure Functions via um gatilho de Event Hub](../../../../../translated_images/pt-BR/gps-telemetry-iot-hub-functions.24d3fa5592455e9f.webp)
 
 ### Tarefa - lidar com eventos de GPS usando código serverless
 
@@ -193,7 +193,7 @@ Uma vez que os dados estão fluindo para o seu IoT Hub, você pode escrever algu
 
 ## Contas de Armazenamento do Azure
 
-![O logotipo do Azure Storage](../../../../../translated_images/pt-BR/azure-storage-logo.605c0f602c640d482a80f1b35a2629a32d595711b7ab1d7ceea843250615ff32.png)
+![O logotipo do Azure Storage](../../../../../translated_images/pt-BR/azure-storage-logo.605c0f602c640d48.webp)
 
 As Contas de Armazenamento do Azure são um serviço de armazenamento de propósito geral que pode armazenar dados de várias formas diferentes. Você pode armazenar dados como blobs, em filas, em tabelas ou como arquivos, tudo ao mesmo tempo.
 

@@ -18,7 +18,7 @@ O relé Grove pode ser ligado à porta digital do Wio Terminal.
 
 Liga o relé.
 
-![Um relé Grove](../../../../../translated_images/pt-PT/grove-relay.d426958ca210fbd0fb7983d7edc069d46c73a8b0a099d94797bd756f7b6bb6be.png)
+![Um relé Grove](../../../../../translated_images/pt-PT/grove-relay.d426958ca210fbd0.webp)
 
 1. Insere uma extremidade de um cabo Grove na entrada do relé. Só encaixará de uma forma.
 

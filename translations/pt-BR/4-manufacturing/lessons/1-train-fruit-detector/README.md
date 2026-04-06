@@ -1,6 +1,6 @@
 # Treine um detector de qualidade de frutas
 
-![Uma visão geral ilustrada desta lição](../../../../../translated_images/pt-BR/lesson-15.843d21afdc6fb2bba70cd9db7b7d2f91598859fafda2078b0bdc44954194b6c0.jpg)
+![Uma visão geral ilustrada desta lição](../../../../../translated_images/pt-BR/lesson-15.843d21afdc6fb2bb.webp)
 
 > Ilustração por [Nitya Narasimhan](https://github.com/nitya). Clique na imagem para uma versão maior.
 
@@ -38,7 +38,7 @@ Nem todas as culturas amadurecem de forma uniforme. Tomates, por exemplo, podem 
 
 O surgimento da colheita automatizada transferiu a classificação dos produtos da colheita para a fábrica. Os alimentos viajavam em longas esteiras transportadoras com equipes de pessoas selecionando os produtos e removendo qualquer coisa que não atendesse ao padrão de qualidade exigido. A colheita ficou mais barata graças às máquinas, mas ainda havia um custo para classificar os alimentos manualmente.
 
-![Se um tomate vermelho é detectado, ele continua seu caminho sem interrupções. Se um tomate verde é detectado, ele é jogado em uma lixeira por uma alavanca](../../../../../translated_images/pt-BR/optical-tomato-sorting.61aa134bdda4e5b1bfb16a212c1e35a6ef0c426cbb8b1c975f79d7bfbf48d068.png)
+![Se um tomate vermelho é detectado, ele continua seu caminho sem interrupções. Se um tomate verde é detectado, ele é jogado em uma lixeira por uma alavanca](../../../../../translated_images/pt-BR/optical-tomato-sorting.61aa134bdda4e5b1.webp)
 
 A próxima evolução foi o uso de máquinas para classificar, seja integradas à colheitadeira ou nas plantas de processamento. A primeira geração dessas máquinas usava sensores ópticos para detectar cores, controlando atuadores para empurrar tomates verdes para uma lixeira usando alavancas ou jatos de ar, deixando os tomates vermelhos continuarem em uma rede de esteiras transportadoras.
 
@@ -62,7 +62,7 @@ Por exemplo, você poderia fornecer a um modelo milhões de fotos de bananas ver
 
 > 🎓 Os resultados dos modelos de ML são chamados de *previsões*.
 
-![2 bananas, uma madura com uma previsão de 99,7% madura, 0,3% verde, e uma verde com uma previsão de 1,4% madura, 98,6% verde](../../../../../translated_images/pt-BR/bananas-ripe-vs-unripe-predictions.8d0e2034014aa50ece4e4589e724b142da0681f35470fe3db3f7d51240f69c85.png)
+![2 bananas, uma madura com uma previsão de 99,7% madura, 0,3% verde, e uma verde com uma previsão de 1,4% madura, 98,6% verde](../../../../../translated_images/pt-BR/bananas-ripe-vs-unripe-predictions.8d0e2034014aa50e.webp)
 
 Os modelos de ML não fornecem uma resposta binária; em vez disso, eles fornecem probabilidades. Por exemplo, um modelo pode receber uma foto de uma banana e prever `madura` com 99,7% e `verde` com 0,3%. Seu código então escolheria a melhor previsão e decidiria que a banana está madura.
 
@@ -90,7 +90,7 @@ Existem várias ferramentas que podem ajudá-lo a fazer isso, incluindo serviço
 
 O Custom Vision é uma ferramenta baseada na nuvem para treinar classificadores de imagens. Ele permite treinar um classificador usando apenas um pequeno número de imagens. Você pode fazer upload de imagens por meio de um portal web, API ou SDK, atribuindo a cada imagem uma *tag* que classifica essa imagem. Depois, você treina o modelo e o testa para ver como ele se sai. Quando estiver satisfeito com o modelo, pode publicar versões dele que podem ser acessadas por meio de uma API web ou SDK.
 
-![O logotipo do Azure Custom Vision](../../../../../translated_images/pt-BR/custom-vision-logo.d3d4e7c8a87ec9daf825e72e210576c3cbf60312577be7a139e22dd97ab7f1e6.png)
+![O logotipo do Azure Custom Vision](../../../../../translated_images/pt-BR/custom-vision-logo.d3d4e7c8a87ec9da.webp)
 
 > 💁 Você pode treinar um modelo Custom Vision com apenas 5 imagens por classificação, mas mais imagens geram melhores resultados. Resultados mais precisos podem ser obtidos com pelo menos 30 imagens.
 
@@ -146,7 +146,7 @@ Para usar o Custom Vision, primeiro você precisa criar dois recursos de serviç
 
     Ao criar seu projeto, certifique-se de usar o recurso `fruit-quality-detector-training` criado anteriormente. Use o tipo de projeto *Classificação*, o tipo de classificação *Multiclasse* e o domínio *Alimentos*.
 
-    ![As configurações do projeto Custom Vision com o nome definido como fruit-quality-detector, sem descrição, o recurso definido como fruit-quality-detector-training, o tipo de projeto definido como classificação, o tipo de classificação definido como multiclasse e o domínio definido como alimentos](../../../../../translated_images/pt-BR/custom-vision-create-project.cf46325b92d8b131089f6647cf5e07b664cb77850e106d66e3c057b6b69756c6.png)
+    ![As configurações do projeto Custom Vision com o nome definido como fruit-quality-detector, sem descrição, o recurso definido como fruit-quality-detector-training, o tipo de projeto definido como classificação, o tipo de classificação definido como multiclasse e o domínio definido como alimentos](../../../../../translated_images/pt-BR/custom-vision-create-project.cf46325b92d8b131.webp)
 
 ✅ Reserve um tempo para explorar a interface do Custom Vision para seu classificador de imagens.
 
@@ -164,7 +164,7 @@ Classificadores de imagem operam em resoluções muito baixas. Por exemplo, o Cu
 
     * Usando 2 bananas maduras, tire algumas fotos de cada uma de diferentes ângulos, tirando pelo menos 7 fotos (5 para treinar, 2 para testar), mas idealmente mais.
 
-        ![Fotos de 2 bananas diferentes](../../../../../translated_images/pt-BR/banana-training-images.530eb203346d73bc23b8b990fb4609470bf4ff7c942ccc13d4cfffeed9be1ad4.png)
+        ![Fotos de 2 bananas diferentes](../../../../../translated_images/pt-BR/banana-training-images.530eb203346d73bc.webp)
 
     * Repita o mesmo processo usando 2 bananas verdes.
 
@@ -174,7 +174,7 @@ Classificadores de imagem operam em resoluções muito baixas. Por exemplo, o Cu
 
 1. Siga a seção [fazer upload e marcar imagens do guia rápido para criar um classificador nos documentos da Microsoft](https://docs.microsoft.com/azure/cognitive-services/custom-vision-service/getting-started-build-a-classifier?WT.mc_id=academic-17441-jabenn#upload-and-tag-images) para fazer upload das suas imagens de treinamento. Marque as frutas maduras como `ripe` e as frutas verdes como `unripe`.
 
-    ![Os diálogos de upload mostrando o envio de fotos de bananas maduras e verdes](../../../../../translated_images/pt-BR/image-upload-bananas.0751639f3815e0ec42bdbc6254d1e4357a185834d1ae10c9948a0e7d6d336695.png)
+    ![Os diálogos de upload mostrando o envio de fotos de bananas maduras e verdes](../../../../../translated_images/pt-BR/image-upload-bananas.0751639f3815e0ec.webp)
 
 1. Siga a seção [treinar o classificador do guia rápido para criar um classificador nos documentos da Microsoft](https://docs.microsoft.com/azure/cognitive-services/custom-vision-service/getting-started-build-a-classifier?WT.mc_id=academic-17441-jabenn#train-the-classifier) para treinar o classificador de imagens com suas imagens enviadas.
 
@@ -192,7 +192,7 @@ Depois que o classificador estiver treinado, você pode testá-lo fornecendo uma
 
 1. Siga a seção [testar seu modelo nos documentos da Microsoft](https://docs.microsoft.com/azure/cognitive-services/custom-vision-service/test-your-model?WT.mc_id=academic-17441-jabenn#test-your-model) para testar seu classificador de imagens. Use as imagens de teste que você criou anteriormente, e não as imagens usadas para treinamento.
 
-    ![Uma banana verde prevista como verde com 98,9% de probabilidade, madura com 1,1% de probabilidade](../../../../../translated_images/pt-BR/banana-unripe-quick-test-prediction.dae9b5e1c4ef7c64886422438850ea14f0be6ac918c217ea3b255c685abfabe7.png)
+    ![Uma banana verde prevista como verde com 98,9% de probabilidade, madura com 1,1% de probabilidade](../../../../../translated_images/pt-BR/banana-unripe-quick-test-prediction.dae9b5e1c4ef7c64.webp)
 
 1. Teste todas as imagens de teste que você tiver e observe as probabilidades.
 

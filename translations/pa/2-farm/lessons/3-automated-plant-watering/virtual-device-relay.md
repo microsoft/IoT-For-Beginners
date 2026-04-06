@@ -28,11 +28,11 @@
 
     1. **Add** ਬਟਨ ਨੂੰ ਚੁਣੋ ਤਾਂ ਜੋ ਪਿਨ 5 'ਤੇ ਰੀਲੇ ਬਣਾਇਆ ਜਾ ਸਕੇ।
 
-    ![ਰੀਲੇ ਸੈਟਿੰਗ](../../../../../translated_images/pa/counterfit-create-relay.fa7c40fd0f2f6afc33b35ea94fcb235085be4861e14e3fe6b9b7bcfc82d1c888.png)
+    ![ਰੀਲੇ ਸੈਟਿੰਗ](../../../../../translated_images/pa/counterfit-create-relay.fa7c40fd0f2f6afc.webp)
 
     ਰੀਲੇ ਬਣਾਇਆ ਜਾਵੇਗਾ ਅਤੇ ਇਹ ਐਕਚੁਏਟਰਸ ਦੀ ਸੂਚੀ ਵਿੱਚ ਦਿਖਾਈ ਦੇਵੇਗਾ।
 
-    ![ਬਣਾਇਆ ਗਿਆ ਰੀਲੇ](../../../../../translated_images/pa/counterfit-relay.bbf74c1dbdc8b9acd983367fcbd06703a402aefef6af54ddb28e11307ba8a12c.png)
+    ![ਬਣਾਇਆ ਗਿਆ ਰੀਲੇ](../../../../../translated_images/pa/counterfit-relay.bbf74c1dbdc8b9ac.webp)
 
 ## ਰੀਲੇ ਨੂੰ ਪ੍ਰੋਗਰਾਮ ਕਰੋ
 

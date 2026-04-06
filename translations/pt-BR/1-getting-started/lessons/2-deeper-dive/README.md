@@ -1,6 +1,6 @@
 # Um mergulho mais profundo no IoT
 
-![Uma visão geral ilustrada desta lição](../../../../../translated_images/pt-BR/lesson-2.324b0580d620c25e0a24fb7fddfc0b29a846dd4b82c08e7a9466d580ee78ce51.jpg)
+![Uma visão geral ilustrada desta lição](../../../../../translated_images/pt-BR/lesson-2.324b0580d620c25e.webp)
 
 > Ilustração por [Nitya Narasimhan](https://github.com/nitya). Clique na imagem para uma versão maior.
 
@@ -38,7 +38,7 @@ A parte do **Dispositivo** no IoT refere-se a um equipamento que pode interagir 
 
 Esses dispositivos interagem com o mundo físico, seja usando sensores para coletar dados do ambiente ou controlando saídas ou atuadores para realizar mudanças físicas. Um exemplo típico é um termostato inteligente - um dispositivo que possui um sensor de temperatura, um meio de definir a temperatura desejada, como um botão ou tela sensível ao toque, e uma conexão com um sistema de aquecimento ou resfriamento que pode ser ativado quando a temperatura detectada estiver fora da faixa desejada. O sensor de temperatura detecta que o ambiente está muito frio e um atuador liga o aquecimento.
 
-![Um diagrama mostrando a temperatura e um botão como entradas para um dispositivo IoT, e o controle de um aquecedor como saída](../../../../../translated_images/pt-BR/basic-thermostat.a923217fd1f37e5a6f3390396a65c22a387419ea2dd17e518ec24315ba6ae9a8.png)
+![Um diagrama mostrando a temperatura e um botão como entradas para um dispositivo IoT, e o controle de um aquecedor como saída](../../../../../translated_images/pt-BR/basic-thermostat.a923217fd1f37e5a.webp)
 
 Há uma enorme variedade de dispositivos que podem atuar como dispositivos IoT, desde hardware dedicado que detecta uma única coisa até dispositivos de uso geral, como seu smartphone! Um smartphone pode usar sensores para detectar o ambiente ao seu redor e atuadores para interagir com o mundo - por exemplo, usando um sensor GPS para detectar sua localização e um alto-falante para fornecer instruções de navegação até um destino.
 
@@ -54,7 +54,7 @@ Os dispositivos nem sempre se conectam diretamente à Internet via Wi-Fi ou cone
 
 No exemplo de um termostato inteligente, o termostato se conectaria à rede Wi-Fi doméstica e a um serviço em nuvem. Ele enviaria os dados de temperatura para esse serviço em nuvem, que os armazenaria em um banco de dados, permitindo que o proprietário verificasse as temperaturas atuais e passadas por meio de um aplicativo no celular. Outro serviço na nuvem saberia qual temperatura o proprietário deseja e enviaria mensagens de volta ao dispositivo IoT, por meio do serviço em nuvem, para informar ao sistema de aquecimento quando ligar ou desligar.
 
-![Um diagrama mostrando a temperatura e um botão como entradas para um dispositivo IoT, o dispositivo IoT com comunicação bidirecional com a nuvem, que por sua vez tem comunicação bidirecional com um telefone, e o controle de um aquecedor como saída do dispositivo IoT](../../../../../translated_images/pt-BR/mobile-controlled-thermostat.4a994010473d8d6a52ba68c67e5f02dc8928c717e93ca4b9bc55525aa75bbb60.png)
+![Um diagrama mostrando a temperatura e um botão como entradas para um dispositivo IoT, o dispositivo IoT com comunicação bidirecional com a nuvem, que por sua vez tem comunicação bidirecional com um telefone, e o controle de um aquecedor como saída do dispositivo IoT](../../../../../translated_images/pt-BR/mobile-controlled-thermostat.4a994010473d8d6a.webp)
 
 Uma versão ainda mais inteligente poderia usar IA na nuvem com dados de outros sensores conectados a outros dispositivos IoT, como sensores de ocupação que detectam quais cômodos estão em uso, além de dados como condições climáticas e até mesmo seu calendário, para tomar decisões sobre como ajustar a temperatura de forma inteligente. Por exemplo, poderia desligar o aquecimento se ler no seu calendário que você está de férias, ou ajustar o aquecimento de acordo com os cômodos que você utiliza, aprendendo com os dados para ser cada vez mais preciso ao longo do tempo.
 
@@ -94,7 +94,7 @@ Quanto mais rápido o ciclo do relógio, mais instruções podem ser processadas
 
 > 💁 As CPUs executam programas usando o [ciclo buscar-decodificar-executar](https://wikipedia.org/wiki/Instruction_cycle). A cada tique do relógio, a CPU buscará a próxima instrução na memória, decodificará e a executará, como usar uma unidade lógica aritmética (ALU) para somar dois números. Algumas execuções podem levar vários tiques para serem concluídas, então o próximo ciclo será executado no próximo tique após a conclusão da instrução.
 
-![Os ciclos buscar-decodificar-executar mostrando a busca de uma instrução do programa armazenado na RAM, depois decodificando e executando na CPU](../../../../../translated_images/pt-BR/fetch-decode-execute.2fd6f150f6280392807f4475382319abd0cee0b90058e1735444d6baa6f2078c.png)
+![Os ciclos buscar-decodificar-executar mostrando a busca de uma instrução do programa armazenado na RAM, depois decodificando e executando na CPU](../../../../../translated_images/pt-BR/fetch-decode-execute.2fd6f150f6280392.webp)
 
 Microcontroladores têm velocidades de relógio muito mais baixas do que computadores desktop ou laptops, ou mesmo a maioria dos smartphones. O Wio Terminal, por exemplo, possui uma CPU que opera a 120MHz ou 120.000.000 ciclos por segundo.
 
@@ -182,7 +182,7 @@ As placas Arduino são programadas em C ou C++. Usar C/C++ permite que seu códi
 
 Você escreveria seu código de configuração na função `setup`, como conectar-se ao WiFi e serviços na nuvem ou inicializar pinos para entrada e saída. Seu código de processamento ficaria na função `loop`, como ler de um sensor e enviar o valor para a nuvem. Normalmente, você incluiria um atraso em cada loop; por exemplo, se quiser que os dados do sensor sejam enviados a cada 10 segundos, adicionaria um atraso de 10 segundos no final do loop para que o microcontrolador possa dormir, economizando energia, e então executar o loop novamente quando necessário, 10 segundos depois.
 
-![Um sketch Arduino executando setup primeiro, depois executando loop repetidamente](../../../../../translated_images/pt-BR/arduino-sketch.79590cb837ff7a7c6a68d1afda6cab83fd53d3bb1bd9a8bf2eaf8d693a4d3ea6.png)
+![Um sketch Arduino executando setup primeiro, depois executando loop repetidamente](../../../../../translated_images/pt-BR/arduino-sketch.79590cb837ff7a7c.webp)
 
 ✅ Essa arquitetura de programa é conhecida como *event loop* ou *message loop*. Muitas aplicações usam isso nos bastidores e é o padrão para a maioria das aplicações desktop que rodam em SOs como Windows, macOS ou Linux. O `loop` escuta mensagens de componentes da interface do usuário, como botões, ou dispositivos como o teclado, e responde a elas. Você pode ler mais neste [artigo sobre event loop](https://wikipedia.org/wiki/Event_loop).
 

@@ -84,7 +84,7 @@ O serviço Custom Vision tem um SDK em Python que pode ser usado para classifica
 
     Poderá ver a imagem que foi capturada e estes valores no separador **Predictions** no Custom Vision.
 
-    ![Uma banana no Custom Vision prevista como madura a 56.8% e não madura a 43.1%](../../../../../translated_images/pt-PT/custom-vision-banana-prediction.30cdff4e1d72db5d9a0be0193790a47c2b387da034e12dc1314dd57ca2131b59.png)
+    ![Uma banana no Custom Vision prevista como madura a 56.8% e não madura a 43.1%](../../../../../translated_images/pt-PT/custom-vision-banana-prediction.30cdff4e1d72db5d.webp)
 
 > 💁 Pode encontrar este código na pasta [code-classify/pi](../../../../../4-manufacturing/lessons/2-check-fruit-from-device/code-classify/pi) ou [code-classify/virtual-iot-device](../../../../../4-manufacturing/lessons/2-check-fruit-from-device/code-classify/virtual-iot-device).
 

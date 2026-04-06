@@ -18,7 +18,7 @@ Grove ਤਾਪਮਾਨ ਸੈਂਸਰ ਨੂੰ Wio ਟਰਮੀਨਲ ਦੇ
 
 ਤਾਪਮਾਨ ਸੈਂਸਰ ਨੂੰ ਜੋੜੋ।
 
-![ਇੱਕ Grove ਤਾਪਮਾਨ ਸੈਂਸਰ](../../../../../translated_images/pa/grove-dht11.07f8eafceee170043efbb53e1d15722bd4e00fbaa9ff74290b57e9f66eb82c17.png)
+![ਇੱਕ Grove ਤਾਪਮਾਨ ਸੈਂਸਰ](../../../../../translated_images/pa/grove-dht11.07f8eafceee17004.webp)
 
 1. ਇੱਕ Grove ਕੇਬਲ ਦੇ ਇੱਕ ਸਿਰੇ ਨੂੰ ਹਿਉਮਿਡਿਟੀ ਅਤੇ ਤਾਪਮਾਨ ਸੈਂਸਰ ਦੇ ਸਾਕਟ ਵਿੱਚ ਪਾਓ। ਇਹ ਸਿਰਫ਼ ਇੱਕ ਹੀ ਦਿਸ਼ਾ ਵਿੱਚ ਜਾਵੇਗਾ।
 

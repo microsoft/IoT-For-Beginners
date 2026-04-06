@@ -1,6 +1,6 @@
 # Rega automática de plantas
 
-![Uma visão geral ilustrada desta lição](../../../../../translated_images/pt-PT/lesson-7.30b5f577d3cb8e031238751475cb519c7d6dbaea261b5df4643d086ffb2a03bb.jpg)
+![Uma visão geral ilustrada desta lição](../../../../../translated_images/pt-PT/lesson-7.30b5f577d3cb8e03.webp)
 
 > Ilustração por [Nitya Narasimhan](https://github.com/nitya). Clique na imagem para uma versão maior.
 
@@ -32,7 +32,7 @@ Os dispositivos IoT utilizam uma baixa voltagem. Embora isso seja suficiente par
 
 A solução para isto é ligar a bomba a uma fonte de alimentação externa e usar um atuador para ligar a bomba, de forma semelhante a como ligarias uma luz. É necessário apenas uma pequena quantidade de energia (na forma de energia do teu corpo) para o teu dedo acionar um interruptor, conectando a luz à eletricidade da rede elétrica, que opera a 110V/240V.
 
-![Um interruptor liga a energia a uma luz](../../../../../translated_images/pt-PT/light-switch.760317ad6ab8bd6d611da5352dfe9c73a94a0822ccec7df3c8bae35da18e1658.png)
+![Um interruptor liga a energia a uma luz](../../../../../translated_images/pt-PT/light-switch.760317ad6ab8bd6d.webp)
 
 > 🎓 [Eletricidade da rede](https://wikipedia.org/wiki/Mains_electricity) refere-se à eletricidade fornecida a casas e empresas através da infraestrutura nacional em muitas partes do mundo.
 
@@ -72,7 +72,7 @@ Quando a alavanca se move, geralmente podes ouvi-la fazer contacto com o eletro�
 
 O eletroíman não precisa de muita energia para ativar e puxar a alavanca; ele pode ser controlado usando a saída de 3,3V ou 5V de um kit de desenvolvimento IoT. O circuito de saída pode transportar muito mais energia, dependendo do relé, incluindo voltagem da rede elétrica ou até níveis de potência mais altos para uso industrial. Desta forma, um kit de desenvolvimento IoT pode controlar um sistema de irrigação, desde uma pequena bomba para uma única planta até um sistema industrial massivo para uma exploração agrícola comercial.
 
-![Um relé Grove com o circuito de controlo, circuito de saída e relé identificados](../../../../../translated_images/pt-PT/grove-relay-labelled.293e068f5c3c2a199bd7892f2661fdc9e10c920b535cfed317fbd6d1d4ae1168.png)
+![Um relé Grove com o circuito de controlo, circuito de saída e relé identificados](../../../../../translated_images/pt-PT/grove-relay-labelled.293e068f5c3c2a19.webp)
 
 A imagem acima mostra um relé Grove. O circuito de controlo conecta-se a um dispositivo IoT e liga ou desliga o relé usando 3,3V ou 5V. O circuito de saída tem dois terminais, qualquer um pode ser energia ou terra. O circuito de saída pode lidar com até 250V a 10A, suficiente para uma variedade de dispositivos alimentados pela rede elétrica. Existem relés que podem lidar com níveis de potência ainda mais altos.
 

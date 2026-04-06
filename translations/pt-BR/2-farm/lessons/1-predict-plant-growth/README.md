@@ -1,6 +1,6 @@
 # Prever o crescimento de plantas com IoT
 
-![Uma visão geral ilustrada desta lição](../../../../../translated_images/pt-BR/lesson-5.42b234299279d263143148b88ab4583861a32ddb03110c6c1120e41bb88b2592.jpg)
+![Uma visão geral ilustrada desta lição](../../../../../translated_images/pt-BR/lesson-5.42b234299279d263.webp)
 
 > Ilustração por [Nitya Narasimhan](https://github.com/nitya). Clique na imagem para uma versão maior.
 
@@ -90,7 +90,7 @@ Os graus-dia de crescimento, ou GDD, são calculados por dia como a temperatura 
 
 A fórmula completa para GDD é um pouco complicada, mas existe uma equação simplificada que é frequentemente usada como uma boa aproximação:
 
-![GDD = T max + T min dividido por 2, tudo menos T base](../../../../../translated_images/pt-BR/gdd-calculation.79b3660f9c5757aa92dc2dd2cdde75344e2d2c1565c4b3151640f7887edc0275.png)
+![GDD = T max + T min dividido por 2, tudo menos T base](../../../../../translated_images/pt-BR/gdd-calculation.79b3660f9c5757aa.webp)
 
 * **GDD** - este é o número de graus-dia de crescimento
 * **T max** - esta é a temperatura máxima diária em graus Celsius
@@ -118,7 +118,7 @@ Substituindo esses números na nossa fórmula:
 
 Isso resulta no cálculo:
 
-![GDD = 16 + 12 dividido por 2, tudo menos 10, resultando em 4](../../../../../translated_images/pt-BR/gdd-calculation-corn.64a58b7a7afcd0dfd46ff733996d939f17f4f3feac9f0d1c632be3523e51ebd9.png)
+![GDD = 16 + 12 dividido por 2, tudo menos 10, resultando em 4](../../../../../translated_images/pt-BR/gdd-calculation-corn.64a58b7a7afcd0df.webp)
 
 O milho recebeu 4 GDD nesse dia. Supondo uma variedade de milho que precisa de 800 GDD para amadurecer, ainda serão necessários mais 796 GDD para atingir a maturidade.
 
@@ -239,7 +239,7 @@ Os passos para fazer isso manualmente são:
 
 Por exemplo, se a temperatura mais alta do dia for 25°C e a mais baixa for 12°C:
 
-![GDD = 25 + 12 dividido por 2, depois subtraia 10 do resultado, obtendo 8.5](../../../../../translated_images/pt-BR/gdd-calculation-strawberries.59f57db94b22adb8ff6efb951ace33af104a1c6ccca3ffb0f8169c14cb160c90.png)
+![GDD = 25 + 12 dividido por 2, depois subtraia 10 do resultado, obtendo 8.5](../../../../../translated_images/pt-BR/gdd-calculation-strawberries.59f57db94b22adb8.webp)
 
 * 25 + 12 = 37
 * 37 / 2 = 18.5

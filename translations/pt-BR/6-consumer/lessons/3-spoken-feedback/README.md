@@ -1,6 +1,6 @@
 # Configure um temporizador e forneça feedback falado
 
-![Uma visão geral em sketchnote desta lição](../../../../../translated_images/pt-BR/lesson-23.f38483e1d4df4828990d3f02d60e46c978b075d384ae7cb4f7bab738e107c850.jpg)
+![Uma visão geral em sketchnote desta lição](../../../../../translated_images/pt-BR/lesson-23.f38483e1d4df4828.webp)
 
 > Sketchnote por [Nitya Narasimhan](https://github.com/nitya). Clique na imagem para uma versão maior.
 

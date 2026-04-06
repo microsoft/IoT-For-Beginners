@@ -18,13 +18,13 @@ O sensor de umidade do solo Grove pode ser conectado ao Raspberry Pi.
 
 Conecte o sensor de umidade do solo.
 
-![Um sensor de umidade do solo Grove](../../../../../translated_images/pt-BR/grove-capacitive-soil-moisture-sensor.e7f0776cce30e78be5cc5a07839385fd6718857f31b5bf5ad3d0c73c83b2f0ef.png)
+![Um sensor de umidade do solo Grove](../../../../../translated_images/pt-BR/grove-capacitive-soil-moisture-sensor.e7f0776cce30e78b.webp)
 
 1. Insira uma extremidade de um cabo Grove no conector do sensor de umidade do solo. Ele só encaixará de uma maneira.
 
 1. Com o Raspberry Pi desligado, conecte a outra extremidade do cabo Grove ao conector analógico marcado como **A0** no Grove Base Hat conectado ao Raspberry Pi. Este conector é o segundo da direita, na fileira de conectores ao lado dos pinos GPIO.
 
-![O sensor de umidade do solo Grove conectado ao conector A0](../../../../../translated_images/pt-BR/pi-soil-moisture-sensor.fdd7eb2393792cf6739cacf1985d9f55beda16d372f30d0b5a51d586f978a870.png)
+![O sensor de umidade do solo Grove conectado ao conector A0](../../../../../translated_images/pt-BR/pi-soil-moisture-sensor.fdd7eb2393792cf6.webp)
 
 1. Insira o sensor de umidade do solo no solo. Ele possui uma "linha de posição máxima" - uma linha branca atravessando o sensor. Insira o sensor até essa linha, mas não ultrapasse.
 

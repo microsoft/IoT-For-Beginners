@@ -1,6 +1,6 @@
 # Verificar estoque com um dispositivo IoT
 
-![Uma visão geral ilustrada desta lição](../../../../../translated_images/pt-BR/lesson-20.0211df9551a8abb300fc8fcf7dc2789468dea2eabe9202273ac077b0ba37f15e.jpg)
+![Uma visão geral ilustrada desta lição](../../../../../translated_images/pt-BR/lesson-20.0211df9551a8abb3.webp)
 
 > Ilustração por [Nitya Narasimhan](https://github.com/nitya). Clique na imagem para uma versão maior.
 
@@ -62,7 +62,7 @@ As iterações são publicadas no portal Custom Vision.
 
 1. Clique no botão **Publish** para a iteração.
 
-    ![O botão de publicação](../../../../../translated_images/pt-BR/custom-vision-object-detector-publish-button.34ee379fc650ccb9856c3868d0003f413b9529f102fc73c37168c98d721cc293.png)
+    ![O botão de publicação](../../../../../translated_images/pt-BR/custom-vision-object-detector-publish-button.34ee379fc650ccb9.webp)
 
 1. No diálogo *Publish Model*, configure o *Prediction resource* para o recurso `stock-detector-prediction` que você criou na última lição. Mantenha o nome como `Iteration2` e clique no botão **Publish**.
 
@@ -76,7 +76,7 @@ As iterações são publicadas no portal Custom Vision.
 
     Também copie o valor de *Prediction-Key*. Esta é uma chave segura que você deve passar ao chamar o modelo. Apenas aplicativos que fornecem essa chave podem usar o modelo; qualquer outro será rejeitado.
 
-    ![O diálogo da API de previsão mostrando o URL e a chave](../../../../../translated_images/pt-BR/custom-vision-prediction-key-endpoint.30c569ffd0338864f319911f052d5e9b8c5066cb0800a26dd6f7ff5713130ad8.png)
+    ![O diálogo da API de previsão mostrando o URL e a chave](../../../../../translated_images/pt-BR/custom-vision-prediction-key-endpoint.30c569ffd0338864.webp)
 
 ✅ Quando uma nova iteração é publicada, ela terá um nome diferente. Como você acha que poderia alterar a iteração que um dispositivo IoT está usando?
 
@@ -95,7 +95,7 @@ Ao usar o detector de objetos, você não apenas recebe os objetos detectados co
 
 Os resultados de uma previsão na aba **Predictions** do Custom Vision têm as caixas delimitadoras desenhadas na imagem enviada para previsão.
 
-![4 latas de extrato de tomate em uma prateleira com previsões para as 4 detecções de 35.8%, 33.5%, 25.7% e 16.6%](../../../../../translated_images/pt-BR/custom-vision-stock-prediction.942266ab1bcca3410ecdf23643b9f5f570cfab2345235074e24c51f285777613.png)
+![4 latas de extrato de tomate em uma prateleira com previsões para as 4 detecções de 35.8%, 33.5%, 25.7% e 16.6%](../../../../../translated_images/pt-BR/custom-vision-stock-prediction.942266ab1bcca341.webp)
 
 Na imagem acima, 4 latas de extrato de tomate foram detectadas. Nos resultados, um quadrado vermelho é sobreposto para cada objeto detectado na imagem, indicando a caixa delimitadora.
 
@@ -103,7 +103,7 @@ Na imagem acima, 4 latas de extrato de tomate foram detectadas. Nos resultados, 
 
 As caixas delimitadoras são definidas com 4 valores - topo, esquerda, altura e largura. Esses valores estão em uma escala de 0-1, representando as posições como uma porcentagem do tamanho da imagem. A origem (posição 0,0) é o canto superior esquerdo da imagem, então o valor de topo é a distância do topo, e o fundo da caixa delimitadora é o topo mais a altura.
 
-![Uma caixa delimitadora ao redor de uma lata de extrato de tomate](../../../../../translated_images/pt-BR/bounding-box.1420a7ea0d3d15f71e1ffb5cf4b2271d184fac051f990abc541975168d163684.png)
+![Uma caixa delimitadora ao redor de uma lata de extrato de tomate](../../../../../translated_images/pt-BR/bounding-box.1420a7ea0d3d15f7.webp)
 
 A imagem acima tem 600 pixels de largura e 800 pixels de altura. A caixa delimitadora começa a 320 pixels abaixo, dando um valor de topo de 0.4 (800 x 0.4 = 320). Da esquerda, a caixa começa a 240 pixels, dando um valor de esquerda de 0.4 (600 x 0.4 = 240). A altura da caixa é de 240 pixels, dando um valor de altura de 0.3 (800 x 0.3 = 240). A largura da caixa é de 120 pixels, dando um valor de largura de 0.2 (600 x 0.2 = 120).
 
@@ -118,7 +118,7 @@ Usar valores percentuais de 0-1 significa que, independentemente do tamanho da i
 
 Você pode usar caixas delimitadoras combinadas com probabilidades para avaliar a precisão de uma detecção. Por exemplo, um detector de objetos pode identificar múltiplos objetos que se sobrepõem, como detectar uma lata dentro de outra. Seu código pode analisar as caixas delimitadoras, entender que isso é impossível e ignorar quaisquer objetos que tenham uma sobreposição significativa com outros.
 
-![Duas caixas delimitadoras sobrepondo uma lata de extrato de tomate](../../../../../translated_images/pt-BR/overlap-object-detection.d431e03cae75072a2760430eca7f2c5fdd43045bfd72dadcbf12711f7cd6c2ae.png)
+![Duas caixas delimitadoras sobrepondo uma lata de extrato de tomate](../../../../../translated_images/pt-BR/overlap-object-detection.d431e03cae75072a.webp)
 
 No exemplo acima, uma caixa delimitadora indicou uma lata de extrato de tomate com 78.3% de probabilidade. Uma segunda caixa delimitadora é ligeiramente menor e está dentro da primeira, com uma probabilidade de 64.3%. Seu código pode verificar as caixas delimitadoras, ver que elas se sobrepõem completamente e ignorar a probabilidade menor, já que não há como uma lata estar dentro de outra.
 

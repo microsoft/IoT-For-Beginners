@@ -18,7 +18,7 @@ Grove ਮਿੱਟੀ ਨਮੀ ਸੈਂਸਰ ਨੂੰ Wio ਟਰਮੀਨਲ
 
 ਮਿੱਟੀ ਨਮੀ ਸੈਂਸਰ ਨੂੰ ਜੁੜੋ।
 
-![Grove ਮਿੱਟੀ ਨਮੀ ਸੈਂਸਰ](../../../../../translated_images/pa/grove-capacitive-soil-moisture-sensor.e7f0776cce30e78be5cc5a07839385fd6718857f31b5bf5ad3d0c73c83b2f0ef.png)
+![Grove ਮਿੱਟੀ ਨਮੀ ਸੈਂਸਰ](../../../../../translated_images/pa/grove-capacitive-soil-moisture-sensor.e7f0776cce30e78b.webp)
 
 1. Grove ਕੇਬਲ ਦੇ ਇੱਕ ਸਿਰੇ ਨੂੰ ਮਿੱਟੀ ਨਮੀ ਸੈਂਸਰ ਦੇ ਸਾਕਟ ਵਿੱਚ ਪਾਓ। ਇਹ ਸਿਰਫ ਇੱਕ ਹੀ ਦਿਸ਼ਾ ਵਿੱਚ ਜਾਵੇਗਾ।
 

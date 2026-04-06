@@ -20,7 +20,7 @@ Será necessário repetir esses passos várias vezes para obter as leituras nece
 
 A umidade gravimétrica do solo é calculada como:
 
-![umidade do solo % é o peso úmido menos o peso seco, dividido pelo peso seco, vezes 100](../../../../../translated_images/pt-BR/gsm-calculation.6da38c6201eec14e7573bb2647aa18892883193553d23c9d77e5dc681522dfb2.png)
+![umidade do solo % é o peso úmido menos o peso seco, dividido pelo peso seco, vezes 100](../../../../../translated_images/pt-BR/gsm-calculation.6da38c6201eec14e.webp)
 
 * W  
 - o peso do solo úmido  
@@ -29,7 +29,7 @@ A umidade gravimétrica do solo é calculada como:
 
 Por exemplo, suponha que você tenha uma amostra de solo que pesa 212g úmida e 197g seca.
 
-![O cálculo preenchido](../../../../../translated_images/pt-BR/gsm-calculation-example.99f9803b4f29e97668e7c15412136c0c399ab12dbba0b89596fdae9d8aedb6fb.png)
+![O cálculo preenchido](../../../../../translated_images/pt-BR/gsm-calculation-example.99f9803b4f29e976.webp)
 
 * W = 212g  
 * W = 197g  

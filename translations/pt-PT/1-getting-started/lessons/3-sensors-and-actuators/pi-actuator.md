@@ -26,7 +26,7 @@ O LED Grove vem como um módulo com uma seleção de LEDs, permitindo-te escolhe
 
 Liga o LED.
 
-![Um LED Grove](../../../../../translated_images/pt-PT/grove-led.6c853be93f473cf2c439cfc74bb1064732b22251a83cedf66e62f783f9cc1a79.png)
+![Um LED Grove](../../../../../translated_images/pt-PT/grove-led.6c853be93f473cf2.webp)
 
 1. Escolhe o teu LED favorito e insere as pernas nos dois orifícios do módulo LED.
 
@@ -40,7 +40,7 @@ Liga o LED.
 
 1. Com o Raspberry Pi desligado, liga a outra extremidade do cabo Grove à tomada digital marcada como **D5** no Grove Base hat ligado ao Pi. Esta tomada é a segunda a contar da esquerda, na fila de tomadas ao lado dos pinos GPIO.
 
-![O LED Grove ligado à tomada D5](../../../../../translated_images/pt-PT/pi-led.97f1d474981dc35d1c7996c7b17de355d3d0a6bc9606d79fa5f89df933415122.png)
+![O LED Grove ligado à tomada D5](../../../../../translated_images/pt-PT/pi-led.97f1d474981dc35d.webp)
 
 ## Programar a luz de presença
 

@@ -1,6 +1,6 @@
 # Mantenha sua planta segura
 
-![Uma visão geral ilustrada desta lição](../../../../../translated_images/pt-BR/lesson-10.829c86b80b9403bb770929ee553a1d293afe50dc23121aaf9be144673ae012cc.jpg)
+![Uma visão geral ilustrada desta lição](../../../../../translated_images/pt-BR/lesson-10.829c86b80b9403bb.webp)
 
 > Ilustração por [Nitya Narasimhan](https://github.com/nitya). Clique na imagem para uma versão maior.
 
@@ -52,11 +52,11 @@ Esses são cenários do mundo real e acontecem o tempo todo. Alguns exemplos for
 
 Quando um dispositivo se conecta a um serviço IoT, ele usa um ID para se identificar. O problema é que esse ID pode ser clonado - um hacker poderia configurar um dispositivo malicioso que usa o mesmo ID de um dispositivo real, mas envia dados falsos.
 
-![Tanto dispositivos válidos quanto maliciosos poderiam usar o mesmo ID para enviar telemetria](../../../../../translated_images/pt-BR/iot-device-and-hacked-device-connecting.e0671675df74d6d99eb1dedb5a670e606f698efa6202b1ad4c8ae548db299cc6.png)
+![Tanto dispositivos válidos quanto maliciosos poderiam usar o mesmo ID para enviar telemetria](../../../../../translated_images/pt-BR/iot-device-and-hacked-device-connecting.e0671675df74d6d9.webp)
 
 A solução para isso é converter os dados enviados em um formato embaralhado, usando algum valor conhecido apenas pelo dispositivo e pela nuvem. Esse processo é chamado de *criptografia*, e o valor usado para criptografar os dados é chamado de *chave de criptografia*.
 
-![Se a criptografia for usada, apenas mensagens criptografadas serão aceitas, outras serão rejeitadas](../../../../../translated_images/pt-BR/iot-device-and-hacked-device-connecting-encryption.5941aff601fc978f979e46f2849b573564eeb4a4dc5b52f669f62745397492fb.png)
+![Se a criptografia for usada, apenas mensagens criptografadas serão aceitas, outras serão rejeitadas](../../../../../translated_images/pt-BR/iot-device-and-hacked-device-connecting-encryption.5941aff601fc978f.webp)
 
 O serviço na nuvem pode então converter os dados de volta para um formato legível, usando um processo chamado *descriptografia*, utilizando a mesma chave de criptografia ou uma *chave de descriptografia*. Se a mensagem criptografada não puder ser descriptografada pela chave, o dispositivo foi comprometido e a mensagem é rejeitada.
 

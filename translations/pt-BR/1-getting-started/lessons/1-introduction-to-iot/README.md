@@ -1,6 +1,6 @@
 # Introdução ao IoT
 
-![Resumo visual desta lição](../../../../../translated_images/pt-BR/lesson-1.2606670fa61ee904687da5d6fa4e726639d524d064c895117da1b95b9ff6251d.jpg)
+![Resumo visual desta lição](../../../../../translated_images/pt-BR/lesson-1.2606670fa61ee904.webp)
 
 > Resumo visual por [Nitya Narasimhan](https://github.com/nitya). Clique na imagem para uma versão maior.
 
