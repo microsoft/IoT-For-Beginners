@@ -1,6 +1,6 @@
 # Saugokite savo augalą
 
-![Šios pamokos eskizų užrašų apžvalga](../../../../../translated_images/lt/lesson-10.829c86b80b9403bb770929ee553a1d293afe50dc23121aaf9be144673ae012cc.jpg)
+![Šios pamokos eskizų užrašų apžvalga](../../../../../translated_images/lt/lesson-10.829c86b80b9403bb.webp)
 
 > Eskizų užrašai: [Nitya Narasimhan](https://github.com/nitya). Spustelėkite paveikslėlį, kad pamatytumėte didesnę versiją.
 
@@ -52,11 +52,11 @@ Tai yra realūs scenarijai, kurie vyksta nuolat. Kai kurie pavyzdžiai buvo pate
 
 Kai įrenginys jungiasi prie IoT paslaugos, jis naudoja ID, kad save identifikuotų. Problema ta, kad šį ID galima nukopijuoti – įsilaužėlis galėtų nustatyti kenkėjišką įrenginį, kuris naudoja tą patį ID kaip ir tikras įrenginys, bet siunčia neteisingus duomenis.
 
-![Tiek tikri, tiek kenkėjiški įrenginiai gali naudoti tą patį ID, kad siųstų telemetriją](../../../../../translated_images/lt/iot-device-and-hacked-device-connecting.e0671675df74d6d99eb1dedb5a670e606f698efa6202b1ad4c8ae548db299cc6.png)
+![Tiek tikri, tiek kenkėjiški įrenginiai gali naudoti tą patį ID, kad siųstų telemetriją](../../../../../translated_images/lt/iot-device-and-hacked-device-connecting.e0671675df74d6d9.webp)
 
 Sprendimas yra paversti siunčiamus duomenis užkoduotu formatu, naudojant tam tikrą vertę, žinomą tik įrenginiui ir debesijai. Šis procesas vadinamas *šifravimu*, o vertė, naudojama duomenims užšifruoti, vadinama *šifravimo raktu*.
 
-![Jei naudojamas šifravimas, priimami tik užšifruoti pranešimai, kiti atmetami](../../../../../translated_images/lt/iot-device-and-hacked-device-connecting-encryption.5941aff601fc978f979e46f2849b573564eeb4a4dc5b52f669f62745397492fb.png)
+![Jei naudojamas šifravimas, priimami tik užšifruoti pranešimai, kiti atmetami](../../../../../translated_images/lt/iot-device-and-hacked-device-connecting-encryption.5941aff601fc978f.webp)
 
 Debesijos paslauga gali tada konvertuoti duomenis atgal į skaitomą formatą, naudodama procesą, vadinamą *iššifravimu*, naudodama tą patį šifravimo raktą arba *iššifravimo raktą*. Jei užšifruoto pranešimo negalima iššifruoti naudojant raktą, įrenginys buvo nulaužtas, ir pranešimas atmetamas.
 

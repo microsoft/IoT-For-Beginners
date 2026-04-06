@@ -34,7 +34,7 @@ Mikrofonas ir garsiakalbiai turi būti prijungti ir sukonfigūruoti.
 
 1. Jei naudojate ReSpeaker 2-Mics Pi HAT, galite nuimti Grove bazinę plokštę ir uždėti ReSpeaker plokštę jos vietoje.
 
-    ![Raspberry Pi su ReSpeaker plokšte](../../../../../translated_images/lt/pi-respeaker-hat.f00fabe7dd039a93e2e0aa0fc946c9af0c6a9eb17c32fa1ca097fb4e384f69f0.png)
+    ![Raspberry Pi su ReSpeaker plokšte](../../../../../translated_images/lt/pi-respeaker-hat.f00fabe7dd039a93.webp)
 
     Vėliau šioje pamokoje jums reikės Grove mygtuko, tačiau vienas jau yra integruotas šioje plokštėje, todėl Grove bazinė plokštė nereikalinga.
 

@@ -1,6 +1,6 @@
 # Вступ до IoT
 
-![Скетчноут з оглядом цього уроку](../../../../../translated_images/uk/lesson-1.2606670fa61ee904687da5d6fa4e726639d524d064c895117da1b95b9ff6251d.jpg)
+![Скетчноут з оглядом цього уроку](../../../../../translated_images/uk/lesson-1.2606670fa61ee904.webp)
 
 > Скетчноут від [Nitya Narasimhan](https://github.com/nitya). Натисніть на зображення, щоб побачити його у більшому розмірі.
 

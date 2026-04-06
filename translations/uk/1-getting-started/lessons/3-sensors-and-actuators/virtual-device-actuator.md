@@ -36,11 +36,11 @@ Otherwise
 
     1. Натисніть кнопку **Add**, щоб створити світлодіод на контакті 5.
 
-    ![Налаштування світлодіода](../../../../../translated_images/uk/counterfit-create-led.ba9db1c9b8c622a635d6dfae5cdc4e70c2b250635bd4f0601c6cf0bd22b7ba46.png)
+    ![Налаштування світлодіода](../../../../../translated_images/uk/counterfit-create-led.ba9db1c9b8c622a6.webp)
 
     Світлодіод буде створено і з’явиться у списку виконавчих пристроїв.
 
-    ![Створений світлодіод](../../../../../translated_images/uk/counterfit-led.c0ab02de6d256ad84d9bad4d67a7faa709f0ea83e410cfe9b5561ef0cef30b1c.png)
+    ![Створений світлодіод](../../../../../translated_images/uk/counterfit-led.c0ab02de6d256ad8.webp)
 
     Після створення світлодіода ви можете змінити його колір за допомогою вибору кольору (*Color picker*). Натисніть кнопку **Set**, щоб змінити колір після вибору.
 

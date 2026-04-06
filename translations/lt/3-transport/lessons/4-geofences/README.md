@@ -1,6 +1,6 @@
 # Geotvoros
 
-![Šios pamokos apžvalga piešiniu](../../../../../translated_images/lt/lesson-14.63980c5150ae3c153e770fb71d044c1845dce79248d86bed9fc525adf3ede73c.jpg)
+![Šios pamokos apžvalga piešiniu](../../../../../translated_images/lt/lesson-14.63980c5150ae3c15.webp)
 
 > Piešinys sukurtas [Nitya Narasimhan](https://github.com/nitya). Spustelėkite paveikslėlį, kad pamatytumėte didesnę versiją.
 
@@ -35,7 +35,7 @@ Per paskutines tris pamokas naudojote IoT technologijas, kad nustatytumėte sunk
 
 Geotvora yra virtuali realaus pasaulio geografinio regiono perimetro riba. Geotvoros gali būti apskritimai, apibrėžti kaip taškas ir spindulys (pavyzdžiui, 100 m pločio apskritimas aplink pastatą), arba daugiakampiai, apimantys tokias zonas kaip mokyklos teritorija, miesto ribos ar universiteto ar biuro kompleksas.
 
-![Geotvorų pavyzdžiai, rodantys apskritiminę geotvorą aplink Microsoft parduotuvę ir daugiakampę geotvorą aplink Microsoft vakarų kampusą](../../../../../translated_images/lt/geofence-examples.172fbc534665769f6e1a1ddcf75e3b25183cd10354c80cc603ba44b635390e1a.png)
+![Geotvorų pavyzdžiai, rodantys apskritiminę geotvorą aplink Microsoft parduotuvę ir daugiakampę geotvorą aplink Microsoft vakarų kampusą](../../../../../translated_images/lt/geofence-examples.172fbc534665769f.webp)
 
 > 💁 Galbūt jau naudojote geotvoras, to nežinodami. Jei naudojote iOS priminimų programėlę ar Google Keep, kad nustatytumėte priminimą pagal vietą, jūs naudojote geotvorą. Šios programėlės nustato geotvorą pagal nurodytą vietą ir praneša, kai jūsų telefonas patenka į geotvorą.
 
@@ -284,7 +284,7 @@ Kaip prisimenate iš ankstesnių pamokų, IoT Hub leidžia atkurti įvykius, kur
 
 Atsakymas – jis negali! Vietoj to galite apibrėžti kelis atskirus ryšius, kad skaitytumėte įvykius, ir kiekvienas iš jų gali valdyti neperskaitytų pranešimų atkūrimą. Tai vadinama *vartotojų grupėmis*. Kai prisijungiate prie galinio taško, galite nurodyti, prie kurios vartotojų grupės norite prisijungti. Kiekvienas jūsų programos komponentas prisijungs prie skirtingos vartotojų grupės.
 
-![Vienas IoT Hub su 3 vartotojų grupėmis, paskirstančiomis tuos pačius pranešimus 3 skirtingoms funkcijų programoms](../../../../../translated_images/lt/consumer-groups.a3262e26fc27ba2092863678ad57af15c7223416e388a23f330c058cf4358630.png)
+![Vienas IoT Hub su 3 vartotojų grupėmis, paskirstančiomis tuos pačius pranešimus 3 skirtingoms funkcijų programoms](../../../../../translated_images/lt/consumer-groups.a3262e26fc27ba20.webp)
 
 Teoriškai prie kiekvienos vartotojų grupės gali prisijungti iki 5 programų, ir jos visos gaus pranešimus, kai jie atvyks. Geriausia praktika yra leisti tik vienai programai pasiekti kiekvieną vartotojų grupę, kad būtų išvengta pranešimų dubliavimo ir užtikrinta, kad paleidus iš naujo visi eilėje esantys pranešimai būtų tinkamai apdoroti. Pavyzdžiui, jei paleistumėte savo „Functions“ programą vietoje ir debesyje vienu metu, abi apdorotų pranešimus, todėl saugykloje būtų saugomi dubliuoti blobai.
 

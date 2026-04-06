@@ -95,7 +95,7 @@ Kodas, kurį naudojote vaizdams klasifikuoti, yra labai panašus į kodą, skirt
 
     Galėsite pamatyti užfiksuotą vaizdą ir šias reikšmes **Predictions** skirtuke Custom Vision.
 
-    ![4 pomidorų pastos skardinės lentynoje su prognozėmis: 35.8%, 33.5%, 25.7% ir 16.6%](../../../../../translated_images/lt/custom-vision-stock-prediction.942266ab1bcca3410ecdf23643b9f5f570cfab2345235074e24c51f285777613.png)
+    ![4 pomidorų pastos skardinės lentynoje su prognozėmis: 35.8%, 33.5%, 25.7% ir 16.6%](../../../../../translated_images/lt/custom-vision-stock-prediction.942266ab1bcca341.webp)
 
 > 💁 Šį kodą galite rasti [code-detect/wio-terminal](../../../../../5-retail/lessons/2-check-stock-device/code-detect/wio-terminal) aplanke.
 

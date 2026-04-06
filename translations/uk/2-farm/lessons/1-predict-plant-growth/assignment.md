@@ -33,7 +33,7 @@
 
     Jupyter запуститься і відкриє ноутбук у вашому браузері. Виконайте інструкції в ноутбуці, щоб візуалізувати виміряні температури та розрахувати дні зростання (GDD).
 
-    ![Jupyter Notebook](../../../../../translated_images/uk/gdd-jupyter-notebook.c5b52cf21094f158a61f47f455490fd95f1729777ff90861a4521820bf354cdc.png)
+    ![Jupyter Notebook](../../../../../translated_images/uk/gdd-jupyter-notebook.c5b52cf21094f158.webp)
 
 ## Критерії оцінювання
 

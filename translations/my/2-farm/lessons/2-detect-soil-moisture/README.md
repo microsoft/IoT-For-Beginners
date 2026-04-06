@@ -13,7 +13,7 @@ I²C တွင် 2 ခုသော main wires နှင့် 2 ခုသော
 | VCC | Voltage common collector | Devices များအတွက် power supply ဖြစ်သည်။ ဒါသည် SDA နှင့် SCL wires များကို pull-up resistor ဖြင့် power ပေးသည်။ controller မရှိသောအခါ signal ကို off ပြုလုပ်သည်။ |
 | GND | Ground | Electrical circuit အတွက် common ground ဖြစ်သည်။ |
 
-![I2C bus တွင် SDA နှင့် SCL wires တွင် 3 ခုသော devices ချိတ်ဆက်ထားပြီး၊ common ground wire ကိုမျှဝေထားသည်](../../../../../translated_images/my/i2c.83da845dde02256bdd462dbe0d5145461416b74930571b89d1ae142841eeb584.png)
+![I2C bus တွင် SDA နှင့် SCL wires တွင် 3 ခုသော devices ချိတ်ဆက်ထားပြီး၊ common ground wire ကိုမျှဝေထားသည်](../../../../../translated_images/my/i2c.83da845dde02256b.webp)
 
 Data ပေးပို့ရန်အတွက်၊ device တစ်ခုသည် start condition ကို issue ပြုလုပ်ပြီး၊ data ပေးပို့ရန်အဆင်သင့်ဖြစ်ကြောင်းပြသသည်။ ထိုအခါ၌ controller အဖြစ်လုပ်ဆောင်မည်။ controller သည် ဆက်သွယ်လိုသည့် device ၏ address နှင့် data ကို read သို့မဟုတ် write ပြုလုပ်လိုကြောင်းပေးပို့မည်။ Data ပေးပို့ပြီးပါက၊ controller သည် stop condition ကိုပေးပို့ပြီး၊ data ပေးပို့မှုပြီးဆုံးကြောင်းပြသသည်။ ထို့နောက်၊ အခြား device တစ်ခုသည် controller အဖြစ်လုပ်ဆောင်ပြီး data ပေးပို့ သို့မဟုတ် လက်ခံနိုင်သည်။
 

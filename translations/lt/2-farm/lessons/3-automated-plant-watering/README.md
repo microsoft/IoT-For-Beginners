@@ -1,6 +1,6 @@
 # Automatinis augalų laistymas
 
-![Pamokos apžvalga sketchnote formatu](../../../../../translated_images/lt/lesson-7.30b5f577d3cb8e031238751475cb519c7d6dbaea261b5df4643d086ffb2a03bb.jpg)
+![Pamokos apžvalga sketchnote formatu](../../../../../translated_images/lt/lesson-7.30b5f577d3cb8e03.webp)
 
 > Sketchnote sukūrė [Nitya Narasimhan](https://github.com/nitya). Spustelėkite paveikslėlį, kad pamatytumėte didesnę versiją.
 
@@ -32,7 +32,7 @@ IoT įrenginiai naudoja mažą įtampą. Nors to pakanka jutikliams ir mažos ga
 
 Sprendimas yra prijungti siurblį prie išorinio maitinimo šaltinio ir naudoti aktuatorių, kad įjungtumėte siurblį, panašiai kaip įjungtumėte šviesą. Jūsų pirštui reikia labai mažai energijos (kūno energijos forma), kad perjungtumėte jungiklį, ir tai sujungia šviesą su elektros tinklu, veikiančiu 110V/240V.
 
-![Šviesos jungiklis įjungia šviesą](../../../../../translated_images/lt/light-switch.760317ad6ab8bd6d611da5352dfe9c73a94a0822ccec7df3c8bae35da18e1658.png)
+![Šviesos jungiklis įjungia šviesą](../../../../../translated_images/lt/light-switch.760317ad6ab8bd6d.webp)
 
 > 🎓 [Elektros tinklas](https://wikipedia.org/wiki/Mains_electricity) reiškia elektrą, tiekiamą namams ir verslui per nacionalinę infrastruktūrą daugelyje pasaulio vietų.
 
@@ -72,7 +72,7 @@ Kai svirtis juda, paprastai galite girdėti, kaip ji kontaktuoja su elektromagne
 
 Elektromagnetui nereikia daug energijos, kad aktyvuotų ir trauktų svirtį, jis gali būti valdomas naudojant 3.3V arba 5V iš IoT kūrimo rinkinio. Išvesties grandinė gali perduoti daug daugiau energijos, priklausomai nuo relės, įskaitant elektros tinklo įtampą ar net didesnės galios lygius pramoniniam naudojimui. Tokiu būdu IoT kūrimo rinkinys gali valdyti drėkinimo sistemą – nuo mažo siurblio vienam augalui iki didžiulės pramoninės sistemos visam komerciniam ūkiui.
 
-![Grove relė su pažymėtomis valdymo grandine, išvesties grandine ir rele](../../../../../translated_images/lt/grove-relay-labelled.293e068f5c3c2a199bd7892f2661fdc9e10c920b535cfed317fbd6d1d4ae1168.png)
+![Grove relė su pažymėtomis valdymo grandine, išvesties grandine ir rele](../../../../../translated_images/lt/grove-relay-labelled.293e068f5c3c2a19.webp)
 
 Paveikslėlyje aukščiau parodyta Grove relė. Valdymo grandinė jungiasi prie IoT įrenginio ir įjungia arba išjungia relę naudojant 3.3V arba 5V. Išvesties grandinė turi du terminalus, bet kuris iš jų gali būti maitinimas arba žemė. Išvesties grandinė gali valdyti iki 250V ir 10A, pakankamai įvairiems elektros tinklo įrenginiams. Galite gauti relės, kurios gali valdyti dar didesnės galios lygius.
 

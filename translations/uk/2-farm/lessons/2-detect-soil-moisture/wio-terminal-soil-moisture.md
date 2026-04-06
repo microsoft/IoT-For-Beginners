@@ -18,7 +18,7 @@
 
 Підключіть датчик вологості ґрунту.
 
-![Датчик вологості ґрунту Grove](../../../../../translated_images/uk/grove-capacitive-soil-moisture-sensor.e7f0776cce30e78be5cc5a07839385fd6718857f31b5bf5ad3d0c73c83b2f0ef.png)
+![Датчик вологості ґрунту Grove](../../../../../translated_images/uk/grove-capacitive-soil-moisture-sensor.e7f0776cce30e78b.webp)
 
 1. Вставте один кінець кабелю Grove у роз'єм на датчику вологості ґрунту. Він вставляється лише в одному напрямку.
 

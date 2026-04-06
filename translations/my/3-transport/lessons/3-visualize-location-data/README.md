@@ -1,6 +1,6 @@
 # တည်နေရာဒေတာကိုမြင်သာစေခြင်း
 
-![ဒီသင်ခန်းစာအတွက် Sketchnote အကျဉ်းချုပ်](../../../../../translated_images/my/lesson-13.a259db1485021be7d7c72e90842fbe0ab977529e8684c179b5fb1ea75e92b3ef.jpg)
+![ဒီသင်ခန်းစာအတွက် Sketchnote အကျဉ်းချုပ်](../../../../../translated_images/my/lesson-13.a259db1485021be7.webp)
 
 > Sketchnote by [Nitya Narasimhan](https://github.com/nitya)။ ပုံကိုနှိပ်ပြီး အကြီးစားဗားရှင်းကိုကြည့်ပါ။
 
@@ -64,11 +64,11 @@
 
 ဒီလိုဒေတာကို လူသားအနေနှင့် နားလည်ဖတ်ရှုရခက်နိုင်သည်။ ဒေတာကို ပထမဦးဆုံးမြင်သာစေခြင်းအနေနှင့် line chart တစ်ခုအဖြစ် plot လုပ်နိုင်သည် -
 
-![အထက်ပါဒေတာ၏ line chart](../../../../../translated_images/my/chart-soil-moisture.fd6d9d0cdc0b5f75e78038ecb8945dfc84b38851359de99d84b16e3336d6d7c2.png)
+![အထက်ပါဒေတာ၏ line chart](../../../../../translated_images/my/chart-soil-moisture.fd6d9d0cdc0b5f75.webp)
 
 ထို့နောက်၊ မြေစိုထိုင်းဆ reading 450 တွင် ရေချိန်စနစ်ကို ဖွင့်ထားသောအချိန်ကိုပြသသည့် လိုင်းတစ်ခုထည့်ခြင်းဖြင့် ပိုမိုမြင်သာစေနိုင်သည် -
 
-![မြေစိုထိုင်းဆ reading 450 တွင် relay ဖွင့်ထားသော chart](../../../../../translated_images/my/chart-soil-moisture-relay.fbb391236d34a64d0abf1df396e9197e0a24df14150620b9cc820a64a55c9326.png)
+![မြေစိုထိုင်းဆ reading 450 တွင် relay ဖွင့်ထားသော chart](../../../../../translated_images/my/chart-soil-moisture-relay.fbb391236d34a64d.webp)
 
 ဒီ chart က မြေစိုထိုင်းဆအဆင့်များနှင့် ရေချိန်စနစ်ဖွင့်ထားသောအချိန်များကို အလွယ်တကူမြင်နိုင်စေသည်။
 
@@ -84,7 +84,7 @@ GPS ဒေတာနှင့်ဆက်စပ်သောအခါ၊ အကေ
 
 Map များနှင့်အလုပ်လုပ်ခြင်းသည် စိတ်ဝင်စားဖွယ်ရာဖြစ်ပြီး၊ Bing Maps, Leaflet, Open Street Maps, Google Maps စသည်ဖြင့် ရွေးချယ်စရာများစွာရှိသည်။ ဒီသင်ခန်းစာတွင် သင်သည် [Azure Maps](https://azure.microsoft.com/services/azure-maps/?WT.mc_id=academic-17441-jabenn) နှင့် GPS ဒေတာကိုပြသပုံကို လေ့လာမည်ဖြစ်သည်။
 
-![Azure Maps အမှတ်တံဆိပ်](../../../../../translated_images/my/azure-maps-logo.35d01dcfbd81fe6140e94257aaa1538f785a58c91576d14e0ebe7a2f6c694b99.png)
+![Azure Maps အမှတ်တံဆိပ်](../../../../../translated_images/my/azure-maps-logo.35d01dcfbd81fe61.webp)
 
 Azure Maps သည် "geospatial ဝန်ဆောင်မှုများနှင့် SDK များစုစည်းမှုဖြစ်ပြီး၊ နောက်ဆုံးပေါ် map ဒေတာများကို အသုံးပြု၍ web နှင့် mobile application များအတွက် ပထဝီဝင်အကြောင်းအရာများပေးစွမ်းသည်။" Developer များအတွက် လှပပြီး interactive ဖြစ်သော map များဖန်တီးရန် လိုအပ်သောကိရိယာများကိုပေးသည်။ 
 
@@ -185,7 +185,7 @@ Azure Maps account တစ်ခုဖန်တီးရန် ပထမဦးဆ
 
     သင့် `index.html` ဖိုင်ကို web browser တွင်ဖွင့်ပါက၊ Seattle မြို့ကိုအခြေခံထားသော map တစ်ခုကိုမြင်ရမည်ဖြစ်သည်။
 
-    ![Washington State, USA တွင်ရှိသော Seattle မြို့ကိုပြသသည့် map](../../../../../translated_images/my/map-image.8fb2c53eb23ef39c1c0a4410a5282e879b3b452b707eb066ff04c5488d3d72b7.png)
+    ![Washington State, USA တွင်ရှိသော Seattle မြို့ကိုပြသသည့် map](../../../../../translated_images/my/map-image.8fb2c53eb23ef39c.webp)
 
     ✅ zoom နှင့် center parameters ကိုစမ်းသပ်ပြီး map display ကိုပြောင်းလဲကြည့်ပါ။ သင့်ဒေတာ၏ latitude နှင့် longitude ကိုအညွှန်းပြု၍ center ကိုပြောင်းလဲနိုင်သည်။
 
@@ -293,7 +293,7 @@ Azure Maps account တစ်ခုဖန်တီးရန် ပထမဦးဆ
 
 1. HTML page ကို သင်၏ browser တွင် load လုပ်ပါ။ map ကို load လုပ်ပြီး storage မှ GPS ဒေတာအားလုံးကို load လုပ်ပြီး မြေပုံပေါ်တွင် plot လုပ်ပါမည်။
 
-    ![Seattle အနီးရှိ Saint Edward State Park ၏ မြေပုံ၊ ပန်းခြံ၏ အနားကို လမ်းကြောင်းအဖြစ် ဖော်ပြထားသော စက်ဝိုင်းများ](../../../../../translated_images/my/map-path.896832e72dc696ffe20650e4051027d4855442d955f93fdbb80bb417ca8a406f.png)
+    ![Seattle အနီးရှိ Saint Edward State Park ၏ မြေပုံ၊ ပန်းခြံ၏ အနားကို လမ်းကြောင်းအဖြစ် ဖော်ပြထားသော စက်ဝိုင်းများ](../../../../../translated_images/my/map-path.896832e72dc696ff.webp)
 
 > 💁 ဤ code ကို [code](../../../../../3-transport/lessons/3-visualize-location-data/code) folder တွင် ရှာဖွေနိုင်ပါသည်။
 

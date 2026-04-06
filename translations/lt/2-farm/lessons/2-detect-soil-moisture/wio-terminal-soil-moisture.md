@@ -18,7 +18,7 @@ Grove dirvožemio drėgmės jutiklis gali būti prijungtas prie Wio Terminal kon
 
 Prijunkite dirvožemio drėgmės jutiklį.
 
-![Grove dirvožemio drėgmės jutiklis](../../../../../translated_images/lt/grove-capacitive-soil-moisture-sensor.e7f0776cce30e78be5cc5a07839385fd6718857f31b5bf5ad3d0c73c83b2f0ef.png)
+![Grove dirvožemio drėgmės jutiklis](../../../../../translated_images/lt/grove-capacitive-soil-moisture-sensor.e7f0776cce30e78b.webp)
 
 1. Įstatykite vieną Grove kabelio galą į dirvožemio drėgmės jutiklio lizdą. Jis įsistatys tik viena kryptimi.
 

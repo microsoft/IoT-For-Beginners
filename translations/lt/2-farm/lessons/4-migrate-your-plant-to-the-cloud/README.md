@@ -1,6 +1,6 @@
 # Perkelkite savo augalą į debesį
 
-![Šios pamokos apžvalga piešiniu](../../../../../translated_images/lt/lesson-8.3f21f3c11159e6a0a376351973ea5724d5de68fa23b4288853a174bed9ac48c3.jpg)
+![Šios pamokos apžvalga piešiniu](../../../../../translated_images/lt/lesson-8.3f21f3c11159e6a0.webp)
 
 > Piešinys sukurtas [Nitya Narasimhan](https://github.com/nitya). Spustelėkite paveikslėlį, kad pamatytumėte didesnę versiją.
 
@@ -46,8 +46,8 @@ Tai galėjo būti labai brangu, reikalauti įvairių kvalifikuotų darbuotojų i
 
 Debesis dažnai juokais vadinamas „kito žmogaus kompiuteriu“. Pradinė idėja buvo paprasta – vietoj kompiuterių pirkimo, jūs nuomojate kito žmogaus kompiuterį. Kitas žmogus, debesų kompiuterijos teikėjas, valdytų didžiulius duomenų centrus. Jie būtų atsakingi už aparatinės įrangos pirkimą ir diegimą, energijos ir aušinimo valdymą, tinklų kūrimą, pastato saugumą, aparatinės ir programinės įrangos atnaujinimus – viską. Kaip klientas, jūs nuomotumėte kompiuterius, kurių jums reikia, nuomodami daugiau, kai paklausa didėja, ir mažindami nuomą, kai paklausa mažėja. Šie debesų duomenų centrai yra visame pasaulyje.
 
-![Microsoft debesų duomenų centras](../../../../../translated_images/lt/azure-region-existing.73f704604f2aa6cb9b5a49ed40e93d4fd81ae3f4e6af4a8ca504023902832f56.png)
-![Microsoft debesų duomenų centro planuojama plėtra](../../../../../translated_images/lt/azure-region-planned-expansion.a5074a1e8af74f156a73552d502429e5b126ea5019274d767ecb4b9afdad442b.png)
+![Microsoft debesų duomenų centras](../../../../../translated_images/lt/azure-region-existing.73f704604f2aa6cb.webp)
+![Microsoft debesų duomenų centro planuojama plėtra](../../../../../translated_images/lt/azure-region-planned-expansion.a5074a1e8af74f15.webp)
 
 Šie duomenų centrai gali būti kelių kvadratinių kilometrų dydžio. Aukščiau pateiktos nuotraukos buvo padarytos prieš keletą metų Microsoft debesų duomenų centre ir rodo pradinį dydį bei planuojamą plėtrą. Plėtrai išvalyta teritorija yra daugiau nei 5 kvadratinių kilometrų.
 
@@ -108,11 +108,11 @@ IoT paslaugos debesyje išsprendžia šias problemas. Jas prižiūri dideli debe
 
 IoT įrenginiai prisijungia prie debesų paslaugos naudodami įrenginio SDK (biblioteką, kuri teikia kodą darbui su paslaugos funkcijomis) arba tiesiogiai per komunikacijos protokolą, pvz., MQTT arba HTTP. Įrenginio SDK paprastai yra lengviausias kelias, nes jis viską tvarko už jus, pvz., žino, kokias temas publikuoti ar prenumeruoti, ir kaip tvarkyti saugumą.
 
-![Įrenginiai prisijungia prie paslaugos naudodami įrenginio SDK. Serverio kodas taip pat prisijungia prie paslaugos per SDK](../../../../../translated_images/lt/iot-service-connectivity.7e873847921a5d6fd60d0ba3a943210194518cee0d4e362476624316443275c3.png)
+![Įrenginiai prisijungia prie paslaugos naudodami įrenginio SDK. Serverio kodas taip pat prisijungia prie paslaugos per SDK](../../../../../translated_images/lt/iot-service-connectivity.7e873847921a5d6f.webp)
 
 Jūsų įrenginys tada bendrauja su kitomis jūsų programos dalimis per šią paslaugą – panašiai kaip jūs siuntėte telemetriją ir gavote komandas per MQTT. Tai paprastai vyksta naudojant paslaugos SDK arba panašią biblioteką. Pranešimai ateina iš jūsų įrenginio į paslaugą, kur kiti jūsų programos komponentai gali juos perskaityti, o pranešimai gali būti siunčiami atgal į jūsų įrenginį.
 
-![Įrenginiai be galiojančio slapto rakto negali prisijungti prie IoT paslaugos](../../../../../translated_images/lt/iot-service-allowed-denied-connection.818b0063ac213fb84204a7229303764d9b467ca430fb822b4ac2fca267d56726.png)
+![Įrenginiai be galiojančio slapto rakto negali prisijungti prie IoT paslaugos](../../../../../translated_images/lt/iot-service-allowed-denied-connection.818b0063ac213fb8.webp)
 
 Šios paslaugos įgyvendina saugumą, žinodamos apie visus įrenginius, kurie gali prisijungti ir siųsti duomenis, arba turėdamos iš anksto registruotus įrenginius, arba suteikdamos įrenginiams slaptus raktus ar sertifikatus, kuriuos jie gali naudoti registruodamiesi paslaugoje pirmą kartą prisijungdami. Nežinomi įrenginiai negali prisijungti – jei jie bando, paslauga atmeta prisijungimą ir ignoruoja jų siunčiamus pranešimus.
 
@@ -124,7 +124,7 @@ Kiti jūsų programos komponentai gali prisijungti prie IoT paslaugos ir sužino
 
 Dabar, kai turite „Azure“ prenumeratą, galite užsiregistruoti IoT paslaugai. „Microsoft“ IoT paslauga vadinama „Azure IoT Hub“.
 
-![Azure IoT Hub logotipas](../../../../../translated_images/lt/azure-iot-hub-logo.28a19de76d0a1932464d858f7558712bcdace3e5ec69c434d482ed7ce41c3a26.png)
+![Azure IoT Hub logotipas](../../../../../translated_images/lt/azure-iot-hub-logo.28a19de76d0a1932.webp)
 
 Žemiau pateiktame vaizdo įraše rasite trumpą „Azure IoT Hub“ apžvalgą:
 

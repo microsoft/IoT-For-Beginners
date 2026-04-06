@@ -1,6 +1,6 @@
 # Paleidžiame vaisių kokybės aptikimą iš jutiklio
 
-![Šios pamokos apžvalga sketchnote formatu](../../../../../translated_images/lt/lesson-18.92c32ed1d354caa5a54baa4032cf0b172d4655e8e326ad5d46c558a0def15365.jpg)
+![Šios pamokos apžvalga sketchnote formatu](../../../../../translated_images/lt/lesson-18.92c32ed1d354caa5.webp)
 
 > Sketchnote sukūrė [Nitya Narasimhan](https://github.com/nitya). Spustelėkite paveikslėlį, kad pamatytumėte didesnę versiją.
 
@@ -39,7 +39,7 @@ IoT aplikacijas galima apibūdinti kaip *daiktus* (įrenginius), kurie siunčia 
 
 ### IoT architektūros pavyzdys
 
-![IoT architektūros pavyzdys](../../../../../translated_images/lt/iot-reference-architecture.2278b98b55c6d4e89bde18eada3688d893861d43507641804dd2f9d3079cfaa0.png)
+![IoT architektūros pavyzdys](../../../../../translated_images/lt/iot-reference-architecture.2278b98b55c6d4e8.webp)
 
 Aukščiau pateiktame paveikslėlyje parodyta IoT architektūros pavyzdys.
 
@@ -49,7 +49,7 @@ Aukščiau pateiktame paveikslėlyje parodyta IoT architektūros pavyzdys.
 * **Įžvalgos** gaunamos iš serverless aplikacijų arba analizuojant saugomus duomenis.
 * **Veiksmai** gali būti komandos, siunčiamos į įrenginius, arba duomenų vizualizavimas, leidžiantis žmonėms priimti sprendimus.
 
-![IoT architektūros pavyzdys su Azure](../../../../../translated_images/lt/iot-reference-architecture-azure.0b8d2161af924cb18ae48a8558a19541cca47f27264851b5b7e56d7b8bb372ac.png)
+![IoT architektūros pavyzdys su Azure](../../../../../translated_images/lt/iot-reference-architecture-azure.0b8d2161af924cb1.webp)
 
 Aukščiau pateiktame paveikslėlyje parodyti kai kurie komponentai ir paslaugos, aptarti šiose pamokose, ir kaip jie susiję IoT architektūros pavyzdyje.
 
@@ -89,7 +89,7 @@ Jums reikia sukurti sistemą, kurioje vaisiai būtų aptikti, kai jie atvyksta a
 
 ### Jūsų aplikacijos prototipas
 
-![IoT architektūros pavyzdys vaisių kokybės tikrinimui](../../../../../translated_images/lt/iot-reference-architecture-fruit-quality.cc705f121c3b6fa71c800d9630935ac34bc08223a04601e35f41d5e9b5dd5207.png)
+![IoT architektūros pavyzdys vaisių kokybės tikrinimui](../../../../../translated_images/lt/iot-reference-architecture-fruit-quality.cc705f121c3b6fa7.webp)
 
 Aukščiau pateiktame paveikslėlyje parodyta šios prototipinės aplikacijos architektūra.
 
@@ -124,7 +124,7 @@ Atlikite atitinkamą vadovą, kad naudotumėte artumo jutiklį objekto aptikimui
 
 Prototipinis vaisių detektorius turi kelis komponentus, kurie tarpusavyje komunikuoja.
 
-![Komponentai, kurie tarpusavyje komunikuoja](../../../../../translated_images/lt/fruit-quality-detector-message-flow.adf2a65da8fd8741ac7af11361574de89adc126785d67606bb4d2ec00467e380.png)
+![Komponentai, kurie tarpusavyje komunikuoja](../../../../../translated_images/lt/fruit-quality-detector-message-flow.adf2a65da8fd8741.webp)
 
 * Artumo jutiklis, matuojantis atstumą iki vaisiaus ir siunčiantis tai į IoT Hub
 * Komanda, valdanti kamerą, siunčiama iš IoT Hub į kamerą turintį įrenginį

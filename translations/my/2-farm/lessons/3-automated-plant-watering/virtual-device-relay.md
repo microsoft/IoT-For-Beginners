@@ -28,11 +28,11 @@ CounterFit app တွင် relay ထည့်သွင်းပါ။
 
     1. **Add** ခလုတ်ကို နှိပ်ပြီး Pin 5 တွင် relay ကို ဖန်တီးပါ။
 
-    ![Relay settings](../../../../../translated_images/my/counterfit-create-relay.fa7c40fd0f2f6afc33b35ea94fcb235085be4861e14e3fe6b9b7bcfc82d1c888.png)
+    ![Relay settings](../../../../../translated_images/my/counterfit-create-relay.fa7c40fd0f2f6afc.webp)
 
     relay ကို ဖန်တီးပြီး actuators list တွင် ပြသပါမည်။
 
-    ![Relay created](../../../../../translated_images/my/counterfit-relay.bbf74c1dbdc8b9acd983367fcbd06703a402aefef6af54ddb28e11307ba8a12c.png)
+    ![Relay created](../../../../../translated_images/my/counterfit-relay.bbf74c1dbdc8b9ac.webp)
 
 ## Relay ကို Programming လုပ်ခြင်း
 

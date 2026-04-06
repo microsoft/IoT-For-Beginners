@@ -38,11 +38,11 @@
 
     1. Натисніть кнопку **Add**, щоб створити GPS сенсор на порту `/dev/ttyAMA0`.
 
-    ![Налаштування GPS сенсора](../../../../../translated_images/uk/counterfit-create-gps-sensor.6385dc9357d85ad1d47b4abb2525e7651fd498917d25eefc5a72feab09eedc70.png)
+    ![Налаштування GPS сенсора](../../../../../translated_images/uk/counterfit-create-gps-sensor.6385dc9357d85ad1.webp)
 
     GPS сенсор буде створений і з'явиться у списку сенсорів.
 
-    ![Створений GPS сенсор](../../../../../translated_images/uk/counterfit-gps-sensor.3fbb15af0a5367566f2f11324ef5a6f30861cdf2b497071a5e002b7aa473550e.png)
+    ![Створений GPS сенсор](../../../../../translated_images/uk/counterfit-gps-sensor.3fbb15af0a536756.webp)
 
 ## Програмування GPS сенсора
 
@@ -102,17 +102,17 @@
 
     * Встановіть **Source** на `Lat/Lon` і задайте явну широту, довготу та кількість супутників, використаних для отримання GPS фіксації. Це значення буде надіслано лише один раз, тому поставте галочку **Repeat**, щоб дані повторювалися кожну секунду.
 
-      ![GPS сенсор з вибраним lat lon](../../../../../translated_images/uk/counterfit-gps-sensor-latlon.008c867d75464fbe7f84107cc57040df565ac07cb57d2f21db37d087d470197d.png)
+      ![GPS сенсор з вибраним lat lon](../../../../../translated_images/uk/counterfit-gps-sensor-latlon.008c867d75464fbe.webp)
 
     * Встановіть **Source** на `NMEA` і додайте кілька NMEA речень у текстове поле. Усі ці значення будуть надіслані, з затримкою в 1 секунду перед кожним новим реченням GGA (фіксація позиції).
 
-      ![GPS сенсор з встановленими NMEA реченнями](../../../../../translated_images/uk/counterfit-gps-sensor-nmea.c62eea442171e17e19528b051b104cfcecdc9cd18db7bc72920f29821ae63f73.png)
+      ![GPS сенсор з встановленими NMEA реченнями](../../../../../translated_images/uk/counterfit-gps-sensor-nmea.c62eea442171e17e.webp)
 
       Ви можете використовувати інструмент, наприклад [nmeagen.org](https://www.nmeagen.org), щоб генерувати ці речення, малюючи на карті. Ці значення будуть надіслані лише один раз, тому поставте галочку **Repeat**, щоб дані повторювалися через одну секунду після того, як усі вони були надіслані.
 
     * Встановіть **Source** на GPX файл і завантажте GPX файл із трек-локаціями. Ви можете завантажити GPX файли з багатьох популярних сайтів для картографування та походів, таких як [AllTrails](https://www.alltrails.com/). Ці файли містять кілька GPS локацій як маршрут, і GPS сенсор повертатиме кожну нову локацію з інтервалом в 1 секунду.
 
-      ![GPS сенсор з встановленим GPX файлом](../../../../../translated_images/uk/counterfit-gps-sensor-gpxfile.8310b063ce8a425ccc8ebeec8306aeac5e8e55207f007d52c6e1194432a70cd9.png)
+      ![GPS сенсор з встановленим GPX файлом](../../../../../translated_images/uk/counterfit-gps-sensor-gpxfile.8310b063ce8a425c.webp)
 
       Ці значення будуть надіслані лише один раз, тому поставте галочку **Repeat**, щоб дані повторювалися через одну секунду після того, як усі вони були надіслані.
 

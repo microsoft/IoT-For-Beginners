@@ -1,6 +1,6 @@
 # Prijunkite savo įrenginį prie interneto
 
-![Pamokos apžvalga piešinyje](../../../../../translated_images/lt/lesson-4.7344e074ea68fa545fd320b12dce36d72dd62d28c3b4596cb26cf315f434b98f.jpg)
+![Pamokos apžvalga piešinyje](../../../../../translated_images/lt/lesson-4.7344e074ea68fa54.webp)
 
 > Piešinys sukurtas [Nitya Narasimhan](https://github.com/nitya). Spustelėkite paveikslėlį, kad pamatytumėte didesnę versiją.
 
@@ -47,7 +47,7 @@ MQTT yra populiariausias ryšio protokolas IoT įrenginiams ir yra aptariamas š
 
 MQTT turi vieną brokerį ir kelis klientus. Visi klientai jungiasi prie brokerio, o brokeris nukreipia pranešimus atitinkamiems klientams. Pranešimai nukreipiami naudojant pavadintas temas, o ne siunčiami tiesiogiai konkrečiam klientui. Klientas gali publikuoti temą, o visi klientai, prenumeruojantys tą temą, gaus pranešimą.
 
-![IoT įrenginys publikuoja telemetriją temoje /telemetry, o debesų paslauga prenumeruoja tą temą](../../../../../translated_images/lt/mqtt.cbf7f21d9adc3e17548b359444cc11bb4bf2010543e32ece9a47becf54438c23.png)
+![IoT įrenginys publikuoja telemetriją temoje /telemetry, o debesų paslauga prenumeruoja tą temą](../../../../../translated_images/lt/mqtt.cbf7f21d9adc3e17.webp)
 
 ✅ Atlikite tyrimą. Jei turite daug IoT įrenginių, kaip galite užtikrinti, kad jūsų MQTT brokeris galėtų apdoroti visus pranešimus?
 
@@ -69,7 +69,7 @@ Užuot sprendę MQTT brokerio nustatymo sudėtingumą kaip šios užduoties dal�
 
 > 💁 Šis testavimo brokeris yra viešas ir nesaugus. Bet kas galėtų klausytis, ką publikuojate, todėl jis neturėtų būti naudojamas su duomenimis, kuriuos reikia laikyti privačiais.
 
-![Užduoties srauto diagrama, rodanti šviesos lygių skaitymą ir tikrinimą bei LED valdymą](../../../../../translated_images/lt/assignment-1-internet-flow.3256feab5f052fd273bf4e331157c574c2c3fa42e479836fc9c3586f41db35a5.png)
+![Užduoties srauto diagrama, rodanti šviesos lygių skaitymą ir tikrinimą bei LED valdymą](../../../../../translated_images/lt/assignment-1-internet-flow.3256feab5f052fd2.webp)
 
 Sekite atitinkamą žingsnį žemiau, kad prijungtumėte savo įrenginį prie MQTT brokerio:
 
@@ -350,7 +350,7 @@ Gamyklos įrenginiams galbūt norėsite išsaugoti duomenis, ypač jei jie naudo
 
 IoT įrenginių kūrėjai taip pat turėtų apsvarstyti, ar IoT įrenginys gali būti naudojamas interneto nutrūkimo ar signalo praradimo dėl vietos sąlygų metu. Išmanusis termostatas turėtų galėti priimti ribotus sprendimus dėl šildymo valdymo, jei jis negali siųsti telemetrijos į debesį dėl nutrūkimo.
 
-[![Šis Ferrari tapo neveiksnus, nes kažkas bandė jį atnaujinti po žeme, kur nėra mobiliojo ryšio](../../../../../translated_images/lt/bricked-car.dc38f8efadc6c59d76211f981a521efb300939283dee468f79503aae3ec67615.png)](https://twitter.com/internetofshit/status/1315736960082808832)
+[![Šis Ferrari tapo neveiksnus, nes kažkas bandė jį atnaujinti po žeme, kur nėra mobiliojo ryšio](../../../../../translated_images/lt/bricked-car.dc38f8efadc6c59d.webp)](https://twitter.com/internetofshit/status/1315736960082808832)
 
 Kad MQTT galėtų susidoroti su ryšio praradimu, įrenginio ir serverio kodas turės būti atsakingas už pranešimų pristatymo užtikrinimą, jei to reikia, pavyzdžiui, reikalaujant, kad visi išsiųsti pranešimai būtų atsakyti papildomais pranešimais atsakymo temoje, o jei ne, jie būtų rankiniu būdu eilėje, kad būtų pakartoti vėliau.
 
@@ -358,7 +358,7 @@ Kad MQTT galėtų susidoroti su ryšio praradimu, įrenginio ir serverio kodas t
 
 Komandos yra pranešimai, siunčiami iš debesies į įrenginį, nurodantys jam atlikti tam tikrą veiksmą. Dažniausiai tai apima tam tikrą išvestį per pavarą, tačiau tai gali būti ir nurodymas pačiam įrenginiui, pavyzdžiui, paleisti iš naujo arba surinkti papildomą telemetriją ir grąžinti ją kaip atsakymą į komandą.
 
-![Interneto prijungtas termostatas, gaunantis komandą įjungti šildymą](../../../../../translated_images/lt/commands.d6c06bbbb3a02cce95f2831a1c331daf6dedd4e470c4aa2b0ae54f332016e504.png)
+![Interneto prijungtas termostatas, gaunantis komandą įjungti šildymą](../../../../../translated_images/lt/commands.d6c06bbbb3a02cce.webp)
 
 Termostatas galėtų gauti komandą iš debesies įjungti šildymą. Remiantis visų jutiklių telemetrijos duomenimis, debesų paslauga nusprendė, kad šildymas turėtų būti įjungtas, todėl siunčia atitinkamą komandą.
 

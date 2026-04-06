@@ -20,7 +20,7 @@ Grove Time of Flight jutiklis gali būti prijungtas prie Raspberry Pi.
 
 Prijunkite Time of Flight jutiklį.
 
-![Grove Time of Flight jutiklis](../../../../../translated_images/lt/grove-time-of-flight-sensor.d82ff2165bfded9f485de54d8d07195a6270a602696825fca19f629ddfe94e86.png)
+![Grove Time of Flight jutiklis](../../../../../translated_images/lt/grove-time-of-flight-sensor.d82ff2165bfded9f.webp)
 
 1. Įstatykite vieną Grove kabelio galą į Time of Flight jutiklio jungtį. Jis įsistatys tik viena kryptimi.
 

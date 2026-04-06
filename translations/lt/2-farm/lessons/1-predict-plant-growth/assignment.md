@@ -33,7 +33,7 @@ Kai turėsite temperatūros duomenis, galite naudoti Jupyter Notebook iš šio r
 
     Jupyter paleis ir atidarys užrašų knygelę jūsų naršyklėje. Vykdykite užrašų knygelės instrukcijas, kad vizualizuotumėte išmatuotas temperatūras ir apskaičiuotumėte augimo laipsnių dienas.
 
-    ![Jupyter užrašų knygelė](../../../../../translated_images/lt/gdd-jupyter-notebook.c5b52cf21094f158a61f47f455490fd95f1729777ff90861a4521820bf354cdc.png)
+    ![Jupyter užrašų knygelė](../../../../../translated_images/lt/gdd-jupyter-notebook.c5b52cf21094f158.webp)
 
 ## Vertinimo kriterijai
 

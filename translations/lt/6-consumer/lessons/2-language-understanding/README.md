@@ -1,6 +1,6 @@
 # Supraskite kalbą
 
-![Šios pamokos apžvalga piešinyje](../../../../../translated_images/lt/lesson-22.6148ea28500d9e00c396aaa2649935fb6641362c8f03d8e5e90a676977ab01dd.jpg)
+![Šios pamokos apžvalga piešinyje](../../../../../translated_images/lt/lesson-22.6148ea28500d9e00.webp)
 
 > Piešinys sukurtas [Nitya Narasimhan](https://github.com/nitya). Spustelėkite paveikslėlį, kad pamatytumėte didesnę versiją.
 
@@ -46,7 +46,7 @@ Kalbos supratimo modeliai yra dirbtinio intelekto modeliai, kurie yra apmokomi i
 
 ## Kalbos supratimo modelio kūrimas
 
-![LUIS logotipas](../../../../../translated_images/lt/luis-logo.5cb4f3e88c020ee6df4f614e8831f4a4b6809a7247bf52085fb48d629ef9be52.png)
+![LUIS logotipas](../../../../../translated_images/lt/luis-logo.5cb4f3e88c020ee6.webp)
 
 Galite kurti kalbos supratimo modelius naudodami LUIS – „Microsoft“ kalbos supratimo paslaugą, kuri yra „Cognitive Services“ dalis.
 
@@ -169,7 +169,7 @@ Instrukcijas, kaip naudoti LUIS portalą, galite rasti [Quickstart: Build your a
 
 1. Kai įvesite kiekvieną pavyzdį, LUIS pradės aptikti esybes ir pabrauks bei pažymės bet kurias rastas.
 
-    ![Pavyzdžiai su pabrauktais skaičiais ir laiko vienetais, kuriuos aptiko LUIS](../../../../../translated_images/lt/luis-intent-examples.25716580b2d2723cf1bafdf277d015c7f046d8cfa20f27bddf3a0873ec45fab7.png)
+    ![Pavyzdžiai su pabrauktais skaičiais ir laiko vienetais, kuriuos aptiko LUIS](../../../../../translated_images/lt/luis-intent-examples.25716580b2d2723c.webp)
 
 ### Užduotis – apmokyti ir išbandyti modelį
 

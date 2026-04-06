@@ -26,7 +26,7 @@ Grove LED pateikiamas kaip modulis su įvairių spalvų LED, leidžiančių pasi
 
 Prijunkite LED.
 
-![Grove LED](../../../../../translated_images/lt/grove-led.6c853be93f473cf2c439cfc74bb1064732b22251a83cedf66e62f783f9cc1a79.png)
+![Grove LED](../../../../../translated_images/lt/grove-led.6c853be93f473cf2.webp)
 
 1. Pasirinkite mėgstamą LED ir įkiškite jo kojeles į dvi skyles LED modulyje.
 
@@ -40,7 +40,7 @@ Prijunkite LED.
 
 1. Išjungę Raspberry Pi, prijunkite kitą Grove kabelio galą prie skaitmeninio lizdo, pažymėto **D5**, esančio ant Grove Base hat, prijungto prie Pi. Šis lizdas yra antras iš kairės, eilėje šalia GPIO kontaktų.
 
-![Grove LED prijungtas prie lizdo D5](../../../../../translated_images/lt/pi-led.97f1d474981dc35d1c7996c7b17de355d3d0a6bc9606d79fa5f89df933415122.png)
+![Grove LED prijungtas prie lizdo D5](../../../../../translated_images/lt/pi-led.97f1d474981dc35d.webp)
 
 ## Užprogramuokite naktinę lemputę
 

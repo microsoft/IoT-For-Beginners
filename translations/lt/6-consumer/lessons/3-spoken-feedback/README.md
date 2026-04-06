@@ -1,6 +1,6 @@
 # Nustatykite laikmatį ir pateikite garsinį atsakymą
 
-![Pamokos apžvalga piešinyje](../../../../../translated_images/lt/lesson-23.f38483e1d4df4828990d3f02d60e46c978b075d384ae7cb4f7bab738e107c850.jpg)
+![Pamokos apžvalga piešinyje](../../../../../translated_images/lt/lesson-23.f38483e1d4df4828.webp)
 
 > Piešinys sukurtas [Nitya Narasimhan](https://github.com/nitya). Spustelėkite paveikslėlį, kad pamatytumėte didesnę versiją.
 

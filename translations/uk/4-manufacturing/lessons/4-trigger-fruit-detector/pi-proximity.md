@@ -20,7 +20,7 @@
 
 Підключіть датчик Time of Flight.
 
-![Датчик Grove Time of Flight](../../../../../translated_images/uk/grove-time-of-flight-sensor.d82ff2165bfded9f485de54d8d07195a6270a602696825fca19f629ddfe94e86.png)
+![Датчик Grove Time of Flight](../../../../../translated_images/uk/grove-time-of-flight-sensor.d82ff2165bfded9f.webp)
 
 1. Вставте один кінець кабелю Grove у роз'єм на датчику Time of Flight. Він вставляється лише в одному напрямку.
 

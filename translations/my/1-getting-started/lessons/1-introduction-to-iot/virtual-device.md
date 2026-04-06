@@ -203,7 +203,7 @@ Console တွင် `"Hello World"` ကို print လုပ်သော Pytho
 
     App သည် run လုပ်ပြီး သင်၏ web browser တွင် open လုပ်ပါမည်:
 
-    ![The Counter Fit app running in a browser](../../../../../translated_images/my/counterfit-first-run.433326358b669b31d0e99c3513cb01bfbb13724d162c99cdcc8f51ecf5f9c779.png)
+    ![The Counter Fit app running in a browser](../../../../../translated_images/my/counterfit-first-run.433326358b669b31.webp)
 
     App သည် *Disconnected* ဟုပြထားပြီး LED သည် အပိတ်ထားသည်။
 
@@ -224,7 +224,7 @@ Console တွင် `"Hello World"` ကို print လုပ်သော Pytho
 
 1. Terminal အသစ်တွင် `app.py` file ကို အရင်ကအတိုင်း run လုပ်ပါ။ CounterFit ၏ status သည် **Connected** ဟုပြောင်းပြီး LED သည် အလင်းပေးပါမည်။
 
-    ![Counter Fit showing as connected](../../../../../translated_images/my/counterfit-connected.ed30b46d8f79b0921f3fc70be10366e596a89dca3f80c2224a9d9fc98fccf884.png)
+    ![Counter Fit showing as connected](../../../../../translated_images/my/counterfit-connected.ed30b46d8f79b092.webp)
 
 > 💁 ဒီ code ကို [code/virtual-device](../../../../../1-getting-started/lessons/1-introduction-to-iot/code/virtual-device) folder တွင် ရှာနိုင်ပါသည်။
 

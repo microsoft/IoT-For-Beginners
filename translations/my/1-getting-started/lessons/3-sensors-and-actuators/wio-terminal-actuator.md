@@ -26,7 +26,7 @@ Grove LED က module အနေနဲ့ ရရှိပြီး၊ အရော
 
 LED ကိုချိတ်ဆက်ပါ။
 
-![A grove LED](../../../../../translated_images/my/grove-led.6c853be93f473cf2c439cfc74bb1064732b22251a83cedf66e62f783f9cc1a79.png)
+![A grove LED](../../../../../translated_images/my/grove-led.6c853be93f473cf2.webp)
 
 1. သင်နှစ်သက်ရာ LED ကိုရွေးပြီး၊ LED module ရဲ့ အပေါက် ၂ ခုထဲကို ခြေထောက်တွေထည့်ပါ။
 

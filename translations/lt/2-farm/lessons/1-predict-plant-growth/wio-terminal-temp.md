@@ -18,7 +18,7 @@ Grove temperatūros jutiklis gali būti prijungtas prie Wio Terminal skaitmenini
 
 Prijunkite temperatūros jutiklį.
 
-![Grove temperatūros jutiklis](../../../../../translated_images/lt/grove-dht11.07f8eafceee170043efbb53e1d15722bd4e00fbaa9ff74290b57e9f66eb82c17.png)
+![Grove temperatūros jutiklis](../../../../../translated_images/lt/grove-dht11.07f8eafceee17004.webp)
 
 1. Įstatykite vieną Grove kabelio galą į lizdą ant drėgmės ir temperatūros jutiklio. Kabelis įsistatys tik viena kryptimi.
 

@@ -203,7 +203,7 @@ Kaip antrą „Sveikas pasauli!“ žingsnį, paleisite CounterFit programą ir 
 
     Programa pradės veikti ir atsidarys jūsų interneto naršyklėje:
 
-    ![Counter Fit programa veikia naršyklėje](../../../../../translated_images/lt/counterfit-first-run.433326358b669b31d0e99c3513cb01bfbb13724d162c99cdcc8f51ecf5f9c779.png)
+    ![Counter Fit programa veikia naršyklėje](../../../../../translated_images/lt/counterfit-first-run.433326358b669b31.webp)
 
     Ji bus pažymėta kaip *Disconnected*, o LED viršutiniame dešiniajame kampe bus išjungtas.
 
@@ -224,7 +224,7 @@ Kaip antrą „Sveikas pasauli!“ žingsnį, paleisite CounterFit programą ir 
 
 1. Šiame naujame terminale paleiskite `app.py` failą kaip anksčiau. CounterFit būsena pasikeis į **Connected**, o LED užsidegs.
 
-    ![Counter Fit rodo kaip prijungtą](../../../../../translated_images/lt/counterfit-connected.ed30b46d8f79b0921f3fc70be10366e596a89dca3f80c2224a9d9fc98fccf884.png)
+    ![Counter Fit rodo kaip prijungtą](../../../../../translated_images/lt/counterfit-connected.ed30b46d8f79b092.webp)
 
 > 💁 Šį kodą galite rasti [code/virtual-device](../../../../../1-getting-started/lessons/1-introduction-to-iot/code/virtual-device) aplanke.
 

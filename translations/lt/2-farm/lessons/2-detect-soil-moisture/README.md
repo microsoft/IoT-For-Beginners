@@ -13,7 +13,7 @@ I²C magistralė turi 2 pagrindinius laidus, kartu su 2 maitinimo laidais:
 | VCC | Bendras įtampos kolektorius | Maitinimo šaltinis įrenginiams. Jis prijungtas prie SDA ir SCL laidų, kad suteiktų jų maitinimą per traukimo rezistorių, kuris išjungia signalą, kai nė vienas įrenginys nėra valdiklis. |
 | GND | Įžeminimas | Užtikrina bendrą įžeminimą elektrinei grandinei. |
 
-![I2C magistralė su 3 įrenginiais, prijungtais prie SDA ir SCL laidų, dalijantis bendru įžeminimo laidu](../../../../../translated_images/lt/i2c.83da845dde02256bdd462dbe0d5145461416b74930571b89d1ae142841eeb584.png)
+![I2C magistralė su 3 įrenginiais, prijungtais prie SDA ir SCL laidų, dalijantis bendru įžeminimo laidu](../../../../../translated_images/lt/i2c.83da845dde02256b.webp)
 
 Norint siųsti duomenis, vienas įrenginys išduoda pradžios sąlygą, nurodydamas, kad yra pasiruošęs siųsti duomenis. Tada jis tampa valdikliu. Valdiklis siunčia įrenginio adresą, su kuriuo nori bendrauti, kartu su informacija, ar jis nori skaityti, ar rašyti duomenis. Po duomenų perdavimo valdiklis siunčia pabaigos sąlygą, nurodydamas, kad baigė. Po to kitas įrenginys gali tapti valdikliu ir siųsti arba gauti duomenis.
 

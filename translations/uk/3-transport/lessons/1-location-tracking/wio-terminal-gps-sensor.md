@@ -18,7 +18,7 @@
 
 Підключіть GPS-сенсор.
 
-![Сенсор Grove GPS](../../../../../translated_images/uk/grove-gps-sensor.247943bf69b03f0d1820ef6ed10c587f9b650e8db55b936851c92412180bd3e2.png)
+![Сенсор Grove GPS](../../../../../translated_images/uk/grove-gps-sensor.247943bf69b03f0d.webp)
 
 1. Вставте один кінець кабелю Grove у роз'єм на GPS-сенсорі. Він вставляється лише в одному напрямку.
 

@@ -1,6 +1,6 @@
 # IoT စက်ပစ္စည်းများနှင့် အသံအသိအမှတ်ပြုခြင်း
 
-![ဒီသင်ခန်းစာ၏ အကျဉ်းချုပ်ကို ဖော်ပြထားသော ပုံ](../../../../../translated_images/my/lesson-21.e34de51354d6606fb5ee08d8c89d0222eea0a2a7aaf744a8805ae847c4f69dc4.jpg)
+![ဒီသင်ခန်းစာ၏ အကျဉ်းချုပ်ကို ဖော်ပြထားသော ပုံ](../../../../../translated_images/my/lesson-21.e34de51354d6606f.webp)
 
 > ပုံရေးဆွဲသူ [Nitya Narasimhan](https://github.com/nitya)။ ပုံကို နှိပ်ပြီး ပိုကြီးမားသော ဗားရှင်းကို ကြည့်ပါ။
 
@@ -49,7 +49,7 @@
 
 * **Dynamic** - Dynamic မိုက်ခရိုဖုန်းတွေမှာ လှုပ်ရှားနေတဲ့ diaphragm နဲ့ သံလိုက်တစ်ခုရှိပြီး၊ သံလိုက်ဟာ ကြိုးကွိုင်ထဲမှာ လှုပ်ရှားပြီး လျှပ်စစ်သံစဉ်ကို ဖန်တီးပါတယ်။ Dynamic မိုက်ခရိုဖုန်းတွေကို လျှပ်စစ်ဓာတ်အားမလိုအပ်ပါဘူး။
 
-    ![Patti Smith သီချင်းဆိုနေစဉ် Dynamic မိုက်ခရိုဖုန်းကို အသုံးပြုနေသော ပုံ](../../../../../translated_images/my/dynamic-mic.8babac890a2d80dfb0874b5bf37d4b851fe2aeb9da6fd72945746176978bf3bb.jpg)
+    ![Patti Smith သီချင်းဆိုနေစဉ် Dynamic မိုက်ခရိုဖုန်းကို အသုံးပြုနေသော ပုံ](../../../../../translated_images/my/dynamic-mic.8babac890a2d80df.webp)
 
 * **Ribbon** - Ribbon မိုက်ခရိုဖုန်းတွေက Dynamic မိုက်ခရိုဖုန်းတွေနဲ့ ဆင်တူပြီး၊ diaphragm အစား သတ္တုရစ်ဘွန်ကို အသုံးပြုပါတယ်။
 
@@ -57,11 +57,11 @@
 
 * **Condenser** - Condenser မိုက်ခရိုဖုန်းတွေမှာ သေးငယ်တဲ့ သတ္တု diaphragm နဲ့ သံလိုက်ပြားတစ်ခုပါဝင်ပါတယ်။ ဒီ diaphragm လှုပ်ရှားမှုကြောင့် လျှပ်စစ်သံစဉ်ကို ဖန်တီးပါတယ်။ Condenser မိုက်ခရိုဖုန်းတွေကို လျှပ်စစ်ဓာတ်အားလိုအပ်ပါတယ်။
 
-    ![C451B Condenser မိုက်ခရိုဖုန်း](../../../../../translated_images/my/condenser-mic.6f6ed5b76ca19e0ec3fd0c544601542d4479a6cb7565db336de49fbbf69f623e.jpg)
+    ![C451B Condenser မိုက်ခရိုဖုန်း](../../../../../translated_images/my/condenser-mic.6f6ed5b76ca19e0e.webp)
 
 * **MEMS** - MEMS မိုက်ခရိုဖုန်းတွေက chip ပေါ်မှာ တည်ဆောက်ထားတဲ့ မိုက်ခရိုဖုန်းတွေဖြစ်ပြီး၊ အလွန်သေးငယ်တဲ့ diaphragm ပါဝင်ပါတယ်။
 
-    ![MEMS မိုက်ခရိုဖုန်း](../../../../../translated_images/my/mems-microphone.80574019e1f5e4d9ee72fed720ecd25a39fc2969c91355d17ebb24ba4159e4c4.png)
+    ![MEMS မိုက်ခရိုဖုန်း](../../../../../translated_images/my/mems-microphone.80574019e1f5e4d9.webp)
 
     အထက်ပါပုံမှာ **LEFT** လို့ရေးထားတဲ့ chip က MEMS မိုက်ခရိုဖုန်းဖြစ်ပြီး၊ diaphragm က ၁ မီလီမီတာထက် သေးငယ်ပါတယ်။
 
@@ -155,7 +155,7 @@ Wake word detection သည် TinyML ဟုခေါ်သော နည်းလ
 
 ## အသံမှ စာသားသို့ ပြောင်းလဲခြင်း
 
-![Speech services logo](../../../../../translated_images/my/azure-speech-logo.a1f08c4befb0159f2cb5d692d3baf5b599e7b44759d316da907bda1508f46a4a.png)
+![Speech services logo](../../../../../translated_images/my/azure-speech-logo.a1f08c4befb0159f.webp)
 
 ယခင်ပရောဂျက်တွင် ရုပ်ပုံခွဲခြားမှုနှင့် တူသလို၊ အသံဖိုင်ကို စာသားအဖြစ် ပြောင်းလဲနိုင်သော အဆင့်သတ်မှတ်ပြီးသား AI ဝန်ဆောင်မှုများလည်း ရှိပါသည်။ ဒီဝန်ဆောင်မှုများထဲမှ တစ်ခုမှာ Speech Service ဖြစ်ပြီး၊ Cognitive Services ၏ အစိတ်အပိုင်းတစ်ခုဖြစ်သည်။ ၎င်းကို သင့်အက်ပ်များတွင် အသုံးပြုနိုင်ပါသည်။
 

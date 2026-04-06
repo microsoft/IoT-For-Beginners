@@ -18,7 +18,7 @@ Grove relay ကို Wio Terminal ရဲ့ digital port မှာ ချိတ
 
 Relay ကိုချိတ်ဆက်ပါ။
 
-![A grove relay](../../../../../translated_images/my/grove-relay.d426958ca210fbd0fb7983d7edc069d46c73a8b0a099d94797bd756f7b6bb6be.png)
+![A grove relay](../../../../../translated_images/my/grove-relay.d426958ca210fbd0.webp)
 
 1. Grove cable ရဲ့ တစ်ဖက်အဆုံးကို relay ရဲ့ socket မှာ ထည့်ပါ။ ဒီ cable ကို တစ်ဖက်ဘက်သာ ထည့်နိုင်ပါတယ်။
 

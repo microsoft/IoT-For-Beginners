@@ -1,6 +1,6 @@
 # သင့်အက်ပလီကေးရှင်း Logic ကို Cloud သို့ ပြောင်းရွှေ့ပါ
 
-![ဒီသင်ခန်းစာ၏ အကျဉ်းချုပ်ကို Sketchnote](../../../../../translated_images/my/lesson-9.dfe99c8e891f48e179724520da9f5794392cf9a625079281ccdcbf09bd85e1b6.jpg)
+![ဒီသင်ခန်းစာ၏ အကျဉ်းချုပ်ကို Sketchnote](../../../../../translated_images/my/lesson-9.dfe99c8e891f48e1.webp)
 
 > Sketchnote ကို [Nitya Narasimhan](https://github.com/nitya) မှရေးသားထားသည်။ ပုံကို နှိပ်ပြီး ပိုမိုကြီးမားသော ဗားရှင်းကို ကြည့်ပါ။
 
@@ -28,7 +28,7 @@
 
 Serverless, သို့မဟုတ် serverless computing ဆိုသည်မှာ အမျိုးမျိုးသော အဖြစ်အပျက်များကို တုံ့ပြန်ရန် cloud တွင် အလုပ်လုပ်သော code အပိုင်းငယ်များကို ဖန်တီးခြင်းဖြစ်သည်။ အဖြစ်အပျက်တစ်ခုဖြစ်ပေါ်သောအခါ သင့် code ကို run လုပ်ပြီး အဖြစ်အပျက်နှင့်ပတ်သက်သော data ကို ပေးပို့သည်။ ဒီအဖြစ်အပျက်များသည် web requests, queue တွင် message ထည့်ခြင်း, database တွင် data ပြောင်းလဲခြင်း, သို့မဟုတ် IoT devices မှ IoT service သို့ message ပို့ခြင်းတို့အပါအဝင် အမျိုးမျိုးသောအရာများဖြစ်နိုင်သည်။
 
-![IoT service မှ serverless service သို့ message ပို့ခြင်း၊ function များစွာကို တစ်ချိန်တည်းတွင် run လုပ်ခြင်း](../../../../../translated_images/my/iot-messages-to-serverless.0194da1cc0732bb7d0f823aed3fce54735c6b1ad3bf36089804d8aaefc0a774f.png)
+![IoT service မှ serverless service သို့ message ပို့ခြင်း၊ function များစွာကို တစ်ချိန်တည်းတွင် run လုပ်ခြင်း](../../../../../translated_images/my/iot-messages-to-serverless.0194da1cc0732bb7.webp)
 
 > 💁 Database triggers ကို အသုံးပြုဖူးလျှင်၊ အဖြစ်အပျက်တစ်ခုဖြစ်ပေါ်သောအခါ code ကို run လုပ်ခြင်းအနေနှင့် ယင်းကို တူညီသည်ဟု ထင်နိုင်သည်။
 
@@ -54,7 +54,7 @@ IoT developer အနေနှင့် serverless မော်ဒယ်သည်
 
 Microsoft မှ serverless computing service ကို Azure Functions ဟုခေါ်သည်။
 
-![Azure Functions logo](../../../../../translated_images/my/azure-functions-logo.1cfc8e3204c9c44aaf80fcf406fc8544d80d7f00f8d3e8ed6fed764563e17564.png)
+![Azure Functions logo](../../../../../translated_images/my/azure-functions-logo.1cfc8e3204c9c44a.webp)
 
 အောက်ပါ short video တွင် Azure Functions အကြောင်းအရာကို အကျဉ်းချုပ်ထားသည်။
 
