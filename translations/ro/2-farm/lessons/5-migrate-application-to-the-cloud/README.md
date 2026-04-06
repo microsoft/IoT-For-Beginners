@@ -1,6 +1,6 @@
 # Migrarea logicii aplicației tale în cloud
 
-![O prezentare grafică a lecției](../../../../../translated_images/ro/lesson-9.dfe99c8e891f48e179724520da9f5794392cf9a625079281ccdcbf09bd85e1b6.jpg)
+![O prezentare grafică a lecției](../../../../../translated_images/ro/lesson-9.dfe99c8e891f48e1.webp)
 
 > Schiță realizată de [Nitya Narasimhan](https://github.com/nitya). Click pe imagine pentru o versiune mai mare.
 
@@ -28,7 +28,7 @@ Această lecție a fost predată ca parte a [Proiectului IoT pentru Începători
 
 Serverless, sau calculul fără server, implică crearea unor blocuri mici de cod care sunt rulate în cloud ca răspuns la diferite tipuri de evenimente. Când evenimentul are loc, codul tău este rulat și primește date despre eveniment. Aceste evenimente pot proveni din diverse surse, inclusiv cereri web, mesaje puse într-o coadă, modificări ale datelor dintr-o bază de date sau mesaje trimise către un serviciu IoT de către dispozitive IoT.
 
-![Evenimente trimise de la un serviciu IoT către un serviciu serverless, toate procesate simultan de funcții multiple](../../../../../translated_images/ro/iot-messages-to-serverless.0194da1cc0732bb7d0f823aed3fce54735c6b1ad3bf36089804d8aaefc0a774f.png)
+![Evenimente trimise de la un serviciu IoT către un serviciu serverless, toate procesate simultan de funcții multiple](../../../../../translated_images/ro/iot-messages-to-serverless.0194da1cc0732bb7.webp)
 
 > 💁 Dacă ai folosit declanșatoare de baze de date înainte, poți considera acest lucru similar: codul este declanșat de un eveniment, cum ar fi inserarea unui rând.
 
@@ -54,7 +54,7 @@ Ca dezvoltator IoT, modelul serverless este ideal. Poți scrie o funcție care e
 
 Serviciul de calcul serverless de la Microsoft se numește Azure Functions.
 
-![Logo-ul Azure Functions](../../../../../translated_images/ro/azure-functions-logo.1cfc8e3204c9c44aaf80fcf406fc8544d80d7f00f8d3e8ed6fed764563e17564.png)
+![Logo-ul Azure Functions](../../../../../translated_images/ro/azure-functions-logo.1cfc8e3204c9c44a.webp)
 
 Videoclipul scurt de mai jos oferă o prezentare generală a Azure Functions.
 

@@ -18,13 +18,13 @@ Grove senzor vlhkosti pôdy je možné pripojiť k Raspberry Pi.
 
 Pripojte senzor vlhkosti pôdy.
 
-![Grove senzor vlhkosti pôdy](../../../../../translated_images/sk/grove-capacitive-soil-moisture-sensor.e7f0776cce30e78be5cc5a07839385fd6718857f31b5bf5ad3d0c73c83b2f0ef.png)
+![Grove senzor vlhkosti pôdy](../../../../../translated_images/sk/grove-capacitive-soil-moisture-sensor.e7f0776cce30e78b.webp)
 
 1. Zasuňte jeden koniec Grove kábla do konektora na senzore vlhkosti pôdy. Kábel sa dá zasunúť iba jedným spôsobom.
 
 1. Pri vypnutom Raspberry Pi pripojte druhý koniec Grove kábla do analógového konektora označeného **A0** na Grove Base Hat pripojenom k Pi. Tento konektor je druhý sprava v rade konektorov vedľa GPIO pinov.
 
-![Grove senzor vlhkosti pôdy pripojený do konektora A0](../../../../../translated_images/sk/pi-soil-moisture-sensor.fdd7eb2393792cf6739cacf1985d9f55beda16d372f30d0b5a51d586f978a870.png)
+![Grove senzor vlhkosti pôdy pripojený do konektora A0](../../../../../translated_images/sk/pi-soil-moisture-sensor.fdd7eb2393792cf6.webp)
 
 1. Zasuňte senzor vlhkosti pôdy do pôdy. Na senzore je biela čiara označujúca „najvyššiu polohu“. Zasuňte senzor až po túto čiaru, ale nie hlbšie.
 

@@ -28,11 +28,11 @@ Pridajte svetelný senzor do aplikácie CounterFit.
 
     1. Kliknite na tlačidlo **Add**, aby ste vytvorili svetelný senzor na pine 0.
 
-    ![Nastavenia svetelného senzora](../../../../../translated_images/sk/counterfit-create-light-sensor.9f36a5e0d4458d8d554d54b34d2c806d56093d6e49fddcda2d20f6fef7f5cce1.png)
+    ![Nastavenia svetelného senzora](../../../../../translated_images/sk/counterfit-create-light-sensor.9f36a5e0d4458d8d.webp)
 
     Svetelný senzor bude vytvorený a zobrazí sa v zozname senzorov.
 
-    ![Vytvorený svetelný senzor](../../../../../translated_images/sk/counterfit-light-sensor.5d0f5584df56b90f6b2561910d9cb20dfbd73eeff2177c238d38f4de54aefae1.png)
+    ![Vytvorený svetelný senzor](../../../../../translated_images/sk/counterfit-light-sensor.5d0f5584df56b90f.webp)
 
 ## Naprogramujte svetelný senzor
 

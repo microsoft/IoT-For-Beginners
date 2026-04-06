@@ -20,7 +20,7 @@ Grove Time of Flight сензорът може да бъде свързан къ
 
 Свържете сензора за разстояние.
 
-![Grove Time of Flight сензор](../../../../../translated_images/bg/grove-time-of-flight-sensor.d82ff2165bfded9f485de54d8d07195a6270a602696825fca19f629ddfe94e86.png)
+![Grove Time of Flight сензор](../../../../../translated_images/bg/grove-time-of-flight-sensor.d82ff2165bfded9f.webp)
 
 1. Поставете единия край на Grove кабела в конектора на сензора за разстояние. Кабелът може да бъде поставен само в една посока.
 

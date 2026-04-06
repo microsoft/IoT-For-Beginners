@@ -1,6 +1,6 @@
 ## Predpovedajte rast rastlín pomocou IoT
 
-![Prehľad tejto lekcie v sketchnote](../../../../../translated_images/sk/lesson-5.42b234299279d263143148b88ab4583861a32ddb03110c6c1120e41bb88b2592.jpg)
+![Prehľad tejto lekcie v sketchnote](../../../../../translated_images/sk/lesson-5.42b234299279d263.webp)
 
 > Sketchnote od [Nitya Narasimhan](https://github.com/nitya). Kliknite na obrázok pre väčšiu verziu.
 
@@ -102,7 +102,7 @@ Kroky na manuálny výpočet sú:
 
 Napríklad, ak je najvyššia teplota za deň 25°C a najnižšia 12°C:
 
-![GDD = 25 + 12 delené 2, potom od výsledku odčítajte 10, čo dáva 8.5](../../../../../translated_images/sk/gdd-calculation-strawberries.59f57db94b22adb8ff6efb951ace33af104a1c6ccca3ffb0f8169c14cb160c90.png)
+![GDD = 25 + 12 delené 2, potom od výsledku odčítajte 10, čo dáva 8.5](../../../../../translated_images/sk/gdd-calculation-strawberries.59f57db94b22adb8.webp)
 
 * 25 + 12 = 37
 * 37 / 2 = 18.5

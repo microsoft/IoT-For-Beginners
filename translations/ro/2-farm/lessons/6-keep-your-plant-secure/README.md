@@ -1,6 +1,6 @@
 # Păstrează-ți planta în siguranță
 
-![O prezentare grafică a lecției](../../../../../translated_images/ro/lesson-10.829c86b80b9403bb770929ee553a1d293afe50dc23121aaf9be144673ae012cc.jpg)
+![O prezentare grafică a lecției](../../../../../translated_images/ro/lesson-10.829c86b80b9403bb.webp)
 
 > Ilustrație de [Nitya Narasimhan](https://github.com/nitya). Click pe imagine pentru o versiune mai mare.
 
@@ -52,11 +52,11 @@ Acestea sunt scenarii reale și se întâmplă frecvent. Unele exemple au fost p
 
 Când un dispozitiv se conectează la un serviciu IoT, folosește un ID pentru a se identifica. Problema este că acest ID poate fi clonat - un hacker ar putea configura un dispozitiv malițios care folosește același ID ca un dispozitiv real, dar trimite date false.
 
-![Atât dispozitivele valide, cât și cele malițioase ar putea folosi același ID pentru a trimite telemetrie](../../../../../translated_images/ro/iot-device-and-hacked-device-connecting.e0671675df74d6d99eb1dedb5a670e606f698efa6202b1ad4c8ae548db299cc6.png)
+![Atât dispozitivele valide, cât și cele malițioase ar putea folosi același ID pentru a trimite telemetrie](../../../../../translated_images/ro/iot-device-and-hacked-device-connecting.e0671675df74d6d9.webp)
 
 Soluția este să transformi datele trimise într-un format criptat, folosind o valoare cunoscută doar de dispozitiv și de cloud. Acest proces se numește *criptare*, iar valoarea utilizată pentru criptarea datelor se numește *cheie de criptare*.
 
-![Dacă se folosește criptarea, doar mesajele criptate vor fi acceptate, celelalte vor fi respinse](../../../../../translated_images/ro/iot-device-and-hacked-device-connecting-encryption.5941aff601fc978f979e46f2849b573564eeb4a4dc5b52f669f62745397492fb.png)
+![Dacă se folosește criptarea, doar mesajele criptate vor fi acceptate, celelalte vor fi respinse](../../../../../translated_images/ro/iot-device-and-hacked-device-connecting-encryption.5941aff601fc978f.webp)
 
 Serviciul cloud poate apoi să convertească datele înapoi într-un format lizibil, folosind un proces numit *decriptare*, utilizând fie aceeași cheie de criptare, fie o *cheie de decriptare*. Dacă mesajul criptat nu poate fi decriptat cu cheia, dispozitivul a fost compromis, iar mesajul este respins.
 

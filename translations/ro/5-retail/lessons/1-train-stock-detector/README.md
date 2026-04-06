@@ -1,6 +1,6 @@
 # Antrenează un detector de stocuri
 
-![O prezentare grafică a lecției](../../../../../translated_images/ro/lesson-19.cf6973cecadf080c4b526310620dc4d6f5994c80fb0139c6f378cc9ca2d435cd.jpg)
+![O prezentare grafică a lecției](../../../../../translated_images/ro/lesson-19.cf6973cecadf080c.webp)
 
 > Prezentare grafică de [Nitya Narasimhan](https://github.com/nitya). Click pe imagine pentru o versiune mai mare.
 
@@ -36,7 +36,7 @@ Detectarea obiectelor implică identificarea obiectelor din imagini folosind AI.
 
 Clasificarea imaginilor se referă la clasificarea unei imagini în ansamblu - care sunt probabilitățile ca întreaga imagine să corespundă fiecărei etichete. Primești înapoi probabilități pentru fiecare etichetă utilizată pentru a antrena modelul.
 
-![Clasificarea imaginilor pentru nuci caju și pastă de tomate](../../../../../translated_images/ro/image-classifier-cashews-tomato.bc2e16ab8f05cf9ac0f59f73e32efc4227f9a5b601b90b2c60f436694547a965.png)
+![Clasificarea imaginilor pentru nuci caju și pastă de tomate](../../../../../translated_images/ro/image-classifier-cashews-tomato.bc2e16ab8f05cf9a.webp)
 
 În exemplul de mai sus, două imagini sunt clasificate folosind un model antrenat să clasifice cutii de nuci caju sau conserve de pastă de tomate. Prima imagine este o cutie de nuci caju și are două rezultate de la clasificatorul de imagini:
 
@@ -60,7 +60,7 @@ Când îl folosești pentru a prezice imagini, în loc să primești o listă de
 
 > 🎓 *Casetele de delimitare* sunt casetele din jurul unui obiect.
 
-![Detectarea obiectelor pentru nuci caju și pastă de tomate](../../../../../translated_images/ro/object-detector-cashews-tomato.1af7c26686b4db0e709754aeb196f4e73271f54e2085db3bcccb70d4a0d84d97.png)
+![Detectarea obiectelor pentru nuci caju și pastă de tomate](../../../../../translated_images/ro/object-detector-cashews-tomato.1af7c26686b4db0e.webp)
 
 Imaginea de mai sus conține atât o cutie de nuci caju, cât și trei conserve de pastă de tomate. Detectorul de obiecte a detectat nucile caju, returnând caseta de delimitare care conține nucile caju cu procentul de probabilitate că această casetă conține obiectul, în acest caz 97.6%. Detectorul de obiecte a detectat, de asemenea, trei conserve de pastă de tomate și oferă trei casete de delimitare separate, câte una pentru fiecare conservă detectată, fiecare având o probabilitate procentuală că această casetă conține o conservă de pastă de tomate.
 
@@ -111,7 +111,7 @@ Poți antrena un detector de obiecte folosind Custom Vision, într-un mod simila
 
     Când creezi proiectul, asigură-te că folosești resursa `stock-detector-training` pe care ai creat-o anterior. Utilizează tipul de proiect *Object Detection* și domeniul *Products on Shelves*.
 
-    ![Setările pentru proiectul Custom Vision cu numele setat la fruit-quality-detector, fără descriere, resursa setată la fruit-quality-detector-training, tipul proiectului setat la classification, tipurile de clasificare setate la multi class și domeniile setate la food](../../../../../translated_images/ro/custom-vision-create-object-detector-project.32d4fb9aa8e7e7375f8a799bfce517aca970f2cb65e42d4245c5e635c734ab29.png)
+    ![Setările pentru proiectul Custom Vision cu numele setat la fruit-quality-detector, fără descriere, resursa setată la fruit-quality-detector-training, tipul proiectului setat la classification, tipurile de clasificare setate la multi class și domeniile setate la food](../../../../../translated_images/ro/custom-vision-create-object-detector-project.32d4fb9aa8e7e737.webp)
 
     ✅ Domeniul *Products on Shelves* este special conceput pentru detectarea stocurilor pe rafturile magazinelor. Citește mai multe despre diferitele domenii în [documentația Select a domain pe Microsoft Docs](https://docs.microsoft.com/azure/cognitive-services/custom-vision-service/select-domain?WT.mc_id=academic-17441-jabenn#object-detection).
 
@@ -133,11 +133,11 @@ Pentru a-ți antrena modelul, vei avea nevoie de un set de imagini care conțin 
 
 1. Urmează secțiunea [Încărcarea și etichetarea imaginilor din ghidul rapid pentru construirea unui detector de obiecte pe documentația Microsoft](https://docs.microsoft.com/azure/cognitive-services/custom-vision-service/get-started-build-detector?WT.mc_id=academic-17441-jabenn#upload-and-tag-images) pentru a încărca imaginile de antrenament. Creează etichete relevante în funcție de tipurile de obiecte pe care dorești să le detectezi.
 
-    ![Dialogurile de încărcare care arată încărcarea imaginilor cu banane coapte și necoapte](../../../../../translated_images/ro/image-upload-object-detector.77c7892c3093cb59b79018edecd678749a75d71a099bc8a2d2f2f76320f88a5b.png)
+    ![Dialogurile de încărcare care arată încărcarea imaginilor cu banane coapte și necoapte](../../../../../translated_images/ro/image-upload-object-detector.77c7892c3093cb59.webp)
 
     Când desenezi casetele de delimitare pentru obiecte, păstrează-le bine strânse în jurul obiectului. Poate dura ceva timp să conturezi toate imaginile, dar instrumentul va detecta ceea ce crede că sunt casetele de delimitare, făcând procesul mai rapid.
 
-    ![Etichetarea pastei de tomate](../../../../../translated_images/ro/object-detector-tag-tomato-paste.f47c362fb0f0eb582f3bc68cf3855fb43a805106395358d41896a269c210b7b4.png)
+    ![Etichetarea pastei de tomate](../../../../../translated_images/ro/object-detector-tag-tomato-paste.f47c362fb0f0eb58.webp)
 
     > 💁 Dacă ai mai mult de 15 imagini pentru fiecare obiect, poți antrena după 15 imagini, apoi folosi funcția **Suggested tags**. Aceasta va folosi modelul antrenat pentru a detecta obiectele în imaginile netaguite. Poți apoi confirma obiectele detectate sau respinge și redesena casetele de delimitare. Acest lucru poate economisi *mult* timp.
 
@@ -155,7 +155,7 @@ Odată ce detectorul tău de obiecte este antrenat, îl poți testa oferindu-i i
 
 1. Folosește butonul **Quick Test** pentru a încărca imagini de testare și a verifica dacă obiectele sunt detectate. Folosește imaginile de testare pe care le-ai creat anterior, nu pe cele utilizate pentru antrenament.
 
-    ![3 conserve de pastă de tomate detectate cu probabilități de 38%, 35.5% și 34.6%](../../../../../translated_images/ro/object-detector-detected-tomato-paste.52656fe87af4c37b4ee540526d63e73ed075da2e54a9a060aa528e0c562fb1b6.png)
+    ![3 conserve de pastă de tomate detectate cu probabilități de 38%, 35.5% și 34.6%](../../../../../translated_images/ro/object-detector-detected-tomato-paste.52656fe87af4c37b.webp)
 
 1. Încearcă toate imaginile de testare pe care le ai și observă probabilitățile.
 

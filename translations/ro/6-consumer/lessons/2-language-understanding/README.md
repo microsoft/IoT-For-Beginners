@@ -1,6 +1,6 @@
 # Înțelegerea limbajului
 
-![O prezentare generală a lecției sub formă de schiță](../../../../../translated_images/ro/lesson-22.6148ea28500d9e00c396aaa2649935fb6641362c8f03d8e5e90a676977ab01dd.jpg)
+![O prezentare generală a lecției sub formă de schiță](../../../../../translated_images/ro/lesson-22.6148ea28500d9e00.webp)
 
 > Schiță realizată de [Nitya Narasimhan](https://github.com/nitya). Faceți clic pe imagine pentru o versiune mai mare.
 
@@ -46,7 +46,7 @@ Modelele de înțelegere a limbajului sunt modele AI care sunt antrenate să ext
 
 ## Crearea unui model de înțelegere a limbajului
 
-![Logo-ul LUIS](../../../../../translated_images/ro/luis-logo.5cb4f3e88c020ee6df4f614e8831f4a4b6809a7247bf52085fb48d629ef9be52.png)
+![Logo-ul LUIS](../../../../../translated_images/ro/luis-logo.5cb4f3e88c020ee6.webp)
 
 Puteți crea modele de înțelegere a limbajului folosind LUIS, un serviciu de înțelegere a limbajului de la Microsoft, care face parte din Cognitive Services.
 
@@ -169,7 +169,7 @@ Puteți găsi instrucțiuni pentru utilizarea portalului LUIS în documentația 
 
 1. Pe măsură ce introduceți fiecare exemplu, LUIS va începe să detecteze entități și va sublinia și eticheta orice găsește.
 
-    ![Exemplele cu numerele și unitățile de timp subliniate de LUIS](../../../../../translated_images/ro/luis-intent-examples.25716580b2d2723cf1bafdf277d015c7f046d8cfa20f27bddf3a0873ec45fab7.png)
+    ![Exemplele cu numerele și unitățile de timp subliniate de LUIS](../../../../../translated_images/ro/luis-intent-examples.25716580b2d2723c.webp)
 
 ### Sarcină - antrenați și testați modelul
 

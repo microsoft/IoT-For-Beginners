@@ -67,7 +67,7 @@ Codul pe care l-ai folosit pentru a clasifica imagini este foarte similar cu cel
 
     Vei putea vedea imaginea capturată și aceste valori în fila **Predictions** din Custom Vision.
 
-    ![4 conserve de pastă de roșii pe un raft cu predicții pentru cele 4 detecții de 35.8%, 33.5%, 25.7% și 16.6%](../../../../../translated_images/ro/custom-vision-stock-prediction.942266ab1bcca3410ecdf23643b9f5f570cfab2345235074e24c51f285777613.png)
+    ![4 conserve de pastă de roșii pe un raft cu predicții pentru cele 4 detecții de 35.8%, 33.5%, 25.7% și 16.6%](../../../../../translated_images/ro/custom-vision-stock-prediction.942266ab1bcca341.webp)
 
 > 💁 Poți găsi acest cod în folderul [code-detect/pi](../../../../../5-retail/lessons/2-check-stock-device/code-detect/pi) sau [code-detect/virtual-iot-device](../../../../../5-retail/lessons/2-check-stock-device/code-detect/virtual-iot-device).
 

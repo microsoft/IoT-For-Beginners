@@ -1,6 +1,6 @@
 # Разбиране на езика
 
-![Скица на урока](../../../../../translated_images/bg/lesson-22.6148ea28500d9e00c396aaa2649935fb6641362c8f03d8e5e90a676977ab01dd.jpg)
+![Скица на урока](../../../../../translated_images/bg/lesson-22.6148ea28500d9e00.webp)
 
 > Скица от [Nitya Narasimhan](https://github.com/nitya). Кликнете върху изображението за по-голяма версия.
 
@@ -46,7 +46,7 @@
 
 ## Създаване на модел за разбиране на езика
 
-![Логото на LUIS](../../../../../translated_images/bg/luis-logo.5cb4f3e88c020ee6df4f614e8831f4a4b6809a7247bf52085fb48d629ef9be52.png)
+![Логото на LUIS](../../../../../translated_images/bg/luis-logo.5cb4f3e88c020ee6.webp)
 
 Можете да създавате модели за разбиране на езика, използвайки LUIS, услуга за разбиране на езика от Microsoft, която е част от Cognitive Services.
 
@@ -169,7 +169,7 @@
 
 1. Докато въвеждате всеки пример, LUIS ще започне да разпознава обекти и ще ги подчертава и етикетира.
 
-    ![Примерите с подчертани числа и единици време от LUIS](../../../../../translated_images/bg/luis-intent-examples.25716580b2d2723cf1bafdf277d015c7f046d8cfa20f27bddf3a0873ec45fab7.png)
+    ![Примерите с подчертани числа и единици време от LUIS](../../../../../translated_images/bg/luis-intent-examples.25716580b2d2723c.webp)
 
 ### Задача - обучение и тестване на модела
 

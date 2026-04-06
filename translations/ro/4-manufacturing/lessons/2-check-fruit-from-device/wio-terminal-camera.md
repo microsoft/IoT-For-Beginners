@@ -16,7 +16,7 @@ ArduCam nu are un socket Grove, ci se conectează la magistralele SPI și I2C pr
 
 Conectează camera.
 
-![Un senzor ArduCam](../../../../../translated_images/ro/arducam.20e4e4cbb268296570b5914e20d6c349fc42ddac9ed4e1b9deba2188204eebae.png)
+![Un senzor ArduCam](../../../../../translated_images/ro/arducam.20e4e4cbb2682965.webp)
 
 1. Pinii de la baza ArduCam trebuie conectați la pinii GPIO de pe Wio Terminal. Pentru a găsi mai ușor pinii corecți, atașează autocolantul pentru pini GPIO care vine cu Wio Terminal în jurul pinilor:
 
@@ -35,7 +35,7 @@ Conectează camera.
     | SDA         | 3 (I2C1_SDA)     | Date serial I2C                          |
     | SCL         | 5 (I2C1_SCL)     | Ceas serial I2C                          |
 
-    ![Wio Terminal conectat la ArduCam cu fire jumper](../../../../../translated_images/ro/arducam-wio-terminal-connections.a4d5a4049bdb5ab800a2877389fc6ecf5e4ff307e6451ff56c517e6786467d0a.png)
+    ![Wio Terminal conectat la ArduCam cu fire jumper](../../../../../translated_images/ro/arducam-wio-terminal-connections.a4d5a4049bdb5ab8.webp)
 
     Conexiunile GND și VCC furnizează o alimentare de 5V pentru ArduCam. Aceasta funcționează la 5V, spre deosebire de senzorii Grove care funcționează la 3V. Această alimentare provine direct de la conexiunea USB-C care alimentează dispozitivul.
 
@@ -456,7 +456,7 @@ Wio Terminal suportă doar carduri microSD de până la 16GB. Dacă ai un card S
 
 1. Oprește alimentarea cardului microSD și scoate-l împingându-l ușor și eliberându-l, iar acesta va ieși. Poate fi necesar să folosești un instrument subțire pentru a face acest lucru. Conectează cardul microSD la computerul tău pentru a vizualiza imaginile.
 
-    ![O imagine a unei banane capturată folosind ArduCam](../../../../../translated_images/ro/banana-arducam.be1b32d4267a8194b0fd042362e56faa431da9cd4af172051b37243ea9be0256.jpg)
+    ![O imagine a unei banane capturată folosind ArduCam](../../../../../translated_images/ro/banana-arducam.be1b32d4267a8194.webp)
 💁 Poate fi nevoie de câteva imagini pentru ca balansul de alb al camerei să se ajusteze. Vei observa acest lucru pe baza culorii imaginilor capturate, primele câteva pot părea cu o culoare nepotrivită. Poți rezolva întotdeauna acest lucru modificând codul pentru a captura câteva imagini care sunt ignorate în funcția `setup`.
 
 

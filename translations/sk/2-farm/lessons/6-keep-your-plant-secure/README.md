@@ -1,6 +1,6 @@
 # Udržujte svoju rastlinu v bezpečí
 
-![Prehľad tejto lekcie v sketchnote](../../../../../translated_images/sk/lesson-10.829c86b80b9403bb770929ee553a1d293afe50dc23121aaf9be144673ae012cc.jpg)
+![Prehľad tejto lekcie v sketchnote](../../../../../translated_images/sk/lesson-10.829c86b80b9403bb.webp)
 
 > Sketchnote od [Nitya Narasimhan](https://github.com/nitya). Kliknite na obrázok pre väčšiu verziu.
 
@@ -52,11 +52,11 @@ Toto sú scenáre z reálneho sveta, ktoré sa dejú neustále. Niektoré príkl
 
 Keď sa zariadenie pripojí k IoT službe, používa ID na identifikáciu. Problém je, že toto ID môže byť skopírované - hacker by mohol nastaviť škodlivé zariadenie, ktoré používa rovnaké ID ako skutočné zariadenie, ale posiela falošné údaje.
 
-![Platné aj škodlivé zariadenia môžu používať rovnaké ID na posielanie telemetrie](../../../../../translated_images/sk/iot-device-and-hacked-device-connecting.e0671675df74d6d99eb1dedb5a670e606f698efa6202b1ad4c8ae548db299cc6.png)
+![Platné aj škodlivé zariadenia môžu používať rovnaké ID na posielanie telemetrie](../../../../../translated_images/sk/iot-device-and-hacked-device-connecting.e0671675df74d6d9.webp)
 
 Riešením je konvertovať posielané údaje do zašifrovanej podoby pomocou hodnoty, ktorá je známa iba zariadeniu a cloudu. Tento proces sa nazýva *šifrovanie* a hodnota použitá na šifrovanie údajov sa nazýva *šifrovací kľúč*.
 
-![Ak sa použije šifrovanie, budú akceptované iba zašifrované správy, ostatné budú odmietnuté](../../../../../translated_images/sk/iot-device-and-hacked-device-connecting-encryption.5941aff601fc978f979e46f2849b573564eeb4a4dc5b52f669f62745397492fb.png)
+![Ak sa použije šifrovanie, budú akceptované iba zašifrované správy, ostatné budú odmietnuté](../../../../../translated_images/sk/iot-device-and-hacked-device-connecting-encryption.5941aff601fc978f.webp)
 
 Cloudová služba potom môže údaje konvertovať späť do čitateľnej podoby pomocou procesu nazývaného *dešifrovanie*, buď pomocou rovnakého šifrovacieho kľúča, alebo *dešifrovacieho kľúča*. Ak zašifrovanú správu nie je možné dešifrovať pomocou kľúča, zariadenie bolo hacknuté a správa je odmietnutá.
 

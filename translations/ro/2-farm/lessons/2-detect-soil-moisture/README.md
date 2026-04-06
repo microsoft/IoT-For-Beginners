@@ -13,7 +13,7 @@ I²C are o magistrală formată din 2 fire principale, împreună cu 2 fire de a
 | VCC | Colector comun de tensiune | Alimentarea dispozitivelor. Acesta este conectat la firele SDA și SCL pentru a le furniza energie printr-un rezistor pull-up care oprește semnalul atunci când niciun dispozitiv nu este controler. |
 | GND | Masă | Oferă o masă comună pentru circuitul electric. |
 
-![Magistrala I2C cu 3 dispozitive conectate la firele SDA și SCL, împărțind un fir comun de masă](../../../../../translated_images/ro/i2c.83da845dde02256bdd462dbe0d5145461416b74930571b89d1ae142841eeb584.png)
+![Magistrala I2C cu 3 dispozitive conectate la firele SDA și SCL, împărțind un fir comun de masă](../../../../../translated_images/ro/i2c.83da845dde02256b.webp)
 
 Pentru a trimite date, un dispozitiv va emite o condiție de start pentru a arăta că este pregătit să trimită date. Acesta va deveni apoi controlerul. Controlerul trimite adresa dispozitivului cu care dorește să comunice, împreună cu informația dacă dorește să citească sau să scrie date. După ce datele au fost transmise, controlerul trimite o condiție de stop pentru a indica faptul că a terminat. După aceasta, un alt dispozitiv poate deveni controler și poate trimite sau primi date.
 

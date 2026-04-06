@@ -1,6 +1,6 @@
 # Umiestnenie údajov o polohe
 
-![Prehľad tejto lekcie v sketchnote](../../../../../translated_images/sk/lesson-12.ca7f53039712a3ec14ad6474d8445361c84adab643edc53fa6269b77895606bb.jpg)
+![Prehľad tejto lekcie v sketchnote](../../../../../translated_images/sk/lesson-12.ca7f53039712a3ec.webp)
 
 > Sketchnote od [Nitya Narasimhan](https://github.com/nitya). Kliknite na obrázok pre väčšiu verziu.
 
@@ -75,7 +75,7 @@ NoSQL databázy sa nazývajú NoSQL, pretože nemajú rovnakú pevnú štruktúr
 
 > 💁 Napriek svojmu názvu niektoré NoSQL databázy umožňujú používať SQL na vyhľadávanie údajov.
 
-![Dokumenty v priečinkoch v NoSQL databáze](../../../../../translated_images/sk/noqsl-database.62d24ccf5b73f60d35c245a8533f1c7147c0928e955b82cb290b2e184bb434df.png)
+![Dokumenty v priečinkoch v NoSQL databáze](../../../../../translated_images/sk/noqsl-database.62d24ccf5b73f60d.webp)
 
 NoSQL databázy nemajú preddefinovanú schému, ktorá obmedzuje spôsob ukladania údajov, namiesto toho môžete vložiť akékoľvek neštruktúrované údaje, zvyčajne pomocou JSON dokumentov. Tieto dokumenty môžu byť organizované do priečinkov, podobne ako súbory vo vašom počítači. Každý dokument môže mať rôzne polia od iných dokumentov - napríklad, ak by ste ukladali IoT údaje z farmárskych vozidiel, niektoré môžu mať polia pre údaje z akcelerometra a rýchlosti, iné môžu mať polia pre teplotu v prívesu. Ak by ste pridali nový typ nákladného auta, napríklad s integrovanými váhami na sledovanie hmotnosti prepravovaného tovaru, vaše IoT zariadenie by mohlo pridať toto nové pole a mohlo by byť uložené bez akýchkoľvek zmien v databáze.
 
@@ -89,7 +89,7 @@ V tejto lekcii budete používať NoSQL úložisko na ukladanie IoT údajov.
 
 V predchádzajúcej lekcii ste zachytili GPS údaje zo senzora pripojeného k vášmu IoT zariadeniu. Aby ste mohli tieto IoT údaje uložiť v cloude, musíte ich odoslať do IoT služby. Opäť budete používať Azure IoT Hub, tú istú IoT cloudovú službu, ktorú ste použili v predchádzajúcom projekte.
 
-![Odosielanie GPS telemetrie z IoT zariadenia do IoT Hubu](../../../../../translated_images/sk/gps-telemetry-iot-hub.8115335d51cd2c1285d20e9d1b18cf685e59a8e093e7797291ef173445af6f3d.png)
+![Odosielanie GPS telemetrie z IoT zariadenia do IoT Hubu](../../../../../translated_images/sk/gps-telemetry-iot-hub.8115335d51cd2c12.webp)
 
 ### Úloha - odoslanie GPS údajov do IoT Hubu
 
@@ -171,7 +171,7 @@ Studené údaje sa ukladajú do dátových skladov - databáz navrhnutých na uk
 
 Keď údaje prúdia do vášho IoT Hubu, môžete napísať serverless kód na počúvanie udalostí publikovaných na Event-Hub kompatibilnom koncovom bode. Toto je teplá cesta - tieto údaje budú uložené a použité v ďalšej lekcii na vytváranie správ o ceste.
 
-![Odosielanie GPS telemetrie z IoT zariadenia do IoT Hubu, potom do Azure Functions cez trigger Event Hubu](../../../../../translated_images/sk/gps-telemetry-iot-hub-functions.24d3fa5592455e9f4e2fe73856b40c3915a292b90263c31d652acfd976cfedd8.png)
+![Odosielanie GPS telemetrie z IoT zariadenia do IoT Hubu, potom do Azure Functions cez trigger Event Hubu](../../../../../translated_images/sk/gps-telemetry-iot-hub-functions.24d3fa5592455e9f.webp)
 
 ### Úloha - spracovanie GPS udalostí pomocou serverless kódu
 
@@ -193,7 +193,7 @@ Keď údaje prúdia do vášho IoT Hubu, môžete napísať serverless kód na p
 
 ## Azure Storage Accounts
 
-![Logo Azure Storage](../../../../../translated_images/sk/azure-storage-logo.605c0f602c640d482a80f1b35a2629a32d595711b7ab1d7ceea843250615ff32.png)
+![Logo Azure Storage](../../../../../translated_images/sk/azure-storage-logo.605c0f602c640d48.webp)
 
 Azure Storage Accounts je univerzálna služba úložiska, ktorá dokáže ukladať údaje rôznymi spôsobmi. Údaje môžete ukladať ako blob, do frontov, do tabuliek alebo ako súbory, a to všetko naraz.
 

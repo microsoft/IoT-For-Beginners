@@ -18,7 +18,7 @@ Senzorul Grove de umiditate a solului poate fi conectat la portul analogic/digit
 
 Conectează senzorul de umiditate a solului.
 
-![Un senzor Grove de umiditate a solului](../../../../../translated_images/ro/grove-capacitive-soil-moisture-sensor.e7f0776cce30e78be5cc5a07839385fd6718857f31b5bf5ad3d0c73c83b2f0ef.png)
+![Un senzor Grove de umiditate a solului](../../../../../translated_images/ro/grove-capacitive-soil-moisture-sensor.e7f0776cce30e78b.webp)
 
 1. Introdu un capăt al cablului Grove în soclul senzorului de umiditate a solului. Acesta va intra doar într-un singur mod.
 

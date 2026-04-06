@@ -20,7 +20,7 @@ Raspberry Pi се нуждае от сензор за близост.
 
 Свържете сензора за измерване на разстояние.
 
-![Сензор Grove Time of Flight](../../../../../translated_images/bg/grove-time-of-flight-sensor.d82ff2165bfded9f485de54d8d07195a6270a602696825fca19f629ddfe94e86.png)
+![Сензор Grove Time of Flight](../../../../../translated_images/bg/grove-time-of-flight-sensor.d82ff2165bfded9f.webp)
 
 1. Поставете единия край на Grove кабела в конектора на сензора за измерване на разстояние. Той ще влезе само в една посока.
 

@@ -1,6 +1,6 @@
 # Stocarea datelor de locație
 
-![O prezentare grafică a lecției](../../../../../translated_images/ro/lesson-12.ca7f53039712a3ec14ad6474d8445361c84adab643edc53fa6269b77895606bb.jpg)
+![O prezentare grafică a lecției](../../../../../translated_images/ro/lesson-12.ca7f53039712a3ec.webp)
 
 > Prezentare grafică realizată de [Nitya Narasimhan](https://github.com/nitya). Click pe imagine pentru o versiune mai mare.
 
@@ -75,7 +75,7 @@ Baze de date NoSQL sunt numite NoSQL deoarece nu au aceeași structură rigidă 
 
 > 💁 În ciuda numelui lor, unele baze de date NoSQL îți permit să folosești SQL pentru a interoga datele.
 
-![Documente în foldere într-o bază de date NoSQL](../../../../../translated_images/ro/noqsl-database.62d24ccf5b73f60d35c245a8533f1c7147c0928e955b82cb290b2e184bb434df.png)
+![Documente în foldere într-o bază de date NoSQL](../../../../../translated_images/ro/noqsl-database.62d24ccf5b73f60d.webp)
 
 Baze de date NoSQL nu au o schemă predefinită care limitează modul în care sunt stocate datele, în schimb poți insera orice date nestructurate, de obicei folosind documente JSON. Aceste documente pot fi organizate în foldere, similar cu fișierele de pe computerul tău. Fiecare document poate avea câmpuri diferite față de alte documente - de exemplu, dacă stocai date IoT de la vehiculele tale agricole, unele ar putea avea câmpuri pentru datele accelerometrului și vitezei, altele ar putea avea câmpuri pentru temperatura din remorcă. Dacă ai adăuga un nou tip de camion, cum ar fi unul cu cântare integrate pentru a urmări greutatea produselor transportate, atunci dispozitivul tău IoT ar putea adăuga acest nou câmp și ar putea fi stocat fără modificări ale bazei de date.
 
@@ -89,7 +89,7 @@ Unele baze de date NoSQL cunoscute includ Azure CosmosDB, MongoDB și CouchDB.
 
 În lecția anterioară, ai capturat date GPS de la un senzor GPS conectat la dispozitivul tău IoT. Pentru a stoca aceste date IoT în cloud, trebuie să le trimiți către un serviciu IoT. Din nou, vei folosi Azure IoT Hub, același serviciu IoT în cloud pe care l-ai utilizat în proiectul anterior.
 
-![Trimiterea telemetriei GPS de la un dispozitiv IoT către IoT Hub](../../../../../translated_images/ro/gps-telemetry-iot-hub.8115335d51cd2c1285d20e9d1b18cf685e59a8e093e7797291ef173445af6f3d.png)
+![Trimiterea telemetriei GPS de la un dispozitiv IoT către IoT Hub](../../../../../translated_images/ro/gps-telemetry-iot-hub.8115335d51cd2c12.webp)
 
 ### Sarcină - trimite date GPS către un IoT Hub
 
@@ -171,7 +171,7 @@ Datele din calea rece sunt stocate în depozite de date - baze de date concepute
 
 Odată ce datele ajung în IoT Hub, poți scrie cod serverless pentru a asculta evenimentele publicate pe endpoint-ul compatibil Event-Hub. Aceasta este calea caldă - aceste date vor fi stocate și utilizate în lecția următoare pentru raportarea traseului.
 
-![Trimiterea telemetriei GPS de la un dispozitiv IoT către IoT Hub, apoi către Azure Functions printr-un trigger Event Hub](../../../../../translated_images/ro/gps-telemetry-iot-hub-functions.24d3fa5592455e9f4e2fe73856b40c3915a292b90263c31d652acfd976cfedd8.png)
+![Trimiterea telemetriei GPS de la un dispozitiv IoT către IoT Hub, apoi către Azure Functions printr-un trigger Event Hub](../../../../../translated_images/ro/gps-telemetry-iot-hub-functions.24d3fa5592455e9f.webp)
 
 ### Sarcină - gestionează evenimentele GPS folosind cod serverless
 
@@ -193,7 +193,7 @@ Odată ce datele ajung în IoT Hub, poți scrie cod serverless pentru a asculta 
 
 ## Conturi de stocare Azure
 
-![Logo-ul Azure Storage](../../../../../translated_images/ro/azure-storage-logo.605c0f602c640d482a80f1b35a2629a32d595711b7ab1d7ceea843250615ff32.png)
+![Logo-ul Azure Storage](../../../../../translated_images/ro/azure-storage-logo.605c0f602c640d48.webp)
 
 Conturile de stocare Azure reprezintă un serviciu de stocare generală care poate stoca date în diverse moduri. Poți stoca date sub formă de blob-uri, în cozi, în tabele sau ca fișiere, toate în același timp.
 

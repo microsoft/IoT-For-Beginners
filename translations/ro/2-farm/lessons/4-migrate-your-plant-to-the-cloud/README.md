@@ -1,6 +1,6 @@
 # Migrarea plantei tale în cloud
 
-![O prezentare grafică a lecției](../../../../../translated_images/ro/lesson-8.3f21f3c11159e6a0a376351973ea5724d5de68fa23b4288853a174bed9ac48c3.jpg)
+![O prezentare grafică a lecției](../../../../../translated_images/ro/lesson-8.3f21f3c11159e6a0.webp)
 
 > Prezentare grafică realizată de [Nitya Narasimhan](https://github.com/nitya). Click pe imagine pentru o versiune mai mare.
 
@@ -46,8 +46,8 @@ Acest lucru putea fi foarte costisitor, necesita o gamă largă de angajați cal
 
 Cloud-ul este adesea numit în glumă „computerul altcuiva”. Ideea inițială era simplă - în loc să cumperi computere, închiriezi computerele altcuiva. Altcineva, un furnizor de servicii cloud, ar gestiona centre de date uriașe. Ei ar fi responsabili de achiziționarea și instalarea hardware-ului, gestionarea alimentării și răcirii, rețelistică, securitatea clădirii, actualizările hardware și software, totul. Ca client, ai închiria computerele de care ai nevoie, închiriind mai multe pe măsură ce cererea crește, apoi reducând numărul închiriat dacă cererea scade. Aceste centre de date cloud sunt răspândite în întreaga lume.
 
-![Un centru de date cloud Microsoft](../../../../../translated_images/ro/azure-region-existing.73f704604f2aa6cb9b5a49ed40e93d4fd81ae3f4e6af4a8ca504023902832f56.png)
-![O extindere planificată a unui centru de date cloud Microsoft](../../../../../translated_images/ro/azure-region-planned-expansion.a5074a1e8af74f156a73552d502429e5b126ea5019274d767ecb4b9afdad442b.png)
+![Un centru de date cloud Microsoft](../../../../../translated_images/ro/azure-region-existing.73f704604f2aa6cb.webp)
+![O extindere planificată a unui centru de date cloud Microsoft](../../../../../translated_images/ro/azure-region-planned-expansion.a5074a1e8af74f15.webp)
 
 Aceste centre de date pot avea dimensiuni de câțiva kilometri pătrați. Imaginile de mai sus au fost realizate acum câțiva ani la un centru de date cloud Microsoft și arată dimensiunea inițială, împreună cu o extindere planificată. Zona curățată pentru extindere are peste 5 kilometri pătrați.
 
@@ -108,11 +108,11 @@ Serviciile IoT în cloud rezolvă aceste probleme. Ele sunt întreținute de fur
 
 Dispozitivele IoT se conectează la un serviciu cloud fie utilizând un SDK pentru dispozitive (o bibliotecă care oferă cod pentru a lucra cu funcțiile serviciului), fie direct printr-un protocol de comunicare precum MQTT sau HTTP. SDK-ul pentru dispozitive este de obicei cea mai ușoară cale, deoarece gestionează totul pentru tine, cum ar fi cunoașterea subiectelor de publicare sau abonare și modul de gestionare a securității.
 
-![Dispozitivele se conectează la un serviciu folosind un SDK pentru dispozitive. Codul serverului se conectează de asemenea la serviciu printr-un SDK](../../../../../translated_images/ro/iot-service-connectivity.7e873847921a5d6fd60d0ba3a943210194518cee0d4e362476624316443275c3.png)
+![Dispozitivele se conectează la un serviciu folosind un SDK pentru dispozitive. Codul serverului se conectează de asemenea la serviciu printr-un SDK](../../../../../translated_images/ro/iot-service-connectivity.7e873847921a5d6f.webp)
 
 Dispozitivul tău comunică apoi cu alte părți ale aplicației tale prin acest serviciu - similar cu modul în care ai trimis telemetria și ai primit comenzi prin MQTT. Acest lucru se face de obicei folosind un SDK pentru serviciu sau o bibliotecă similară. Mesajele vin de la dispozitivul tău către serviciu, unde alte componente ale aplicației tale le pot citi, iar mesajele pot fi trimise înapoi către dispozitivul tău.
 
-![Dispozitivele fără o cheie secretă validă nu se pot conecta la serviciul IoT](../../../../../translated_images/ro/iot-service-allowed-denied-connection.818b0063ac213fb84204a7229303764d9b467ca430fb822b4ac2fca267d56726.png)
+![Dispozitivele fără o cheie secretă validă nu se pot conecta la serviciul IoT](../../../../../translated_images/ro/iot-service-allowed-denied-connection.818b0063ac213fb8.webp)
 
 Aceste servicii implementează securitatea prin cunoașterea tuturor dispozitivelor care pot fi conectate și pot trimite date, fie prin înregistrarea prealabilă a dispozitivelor în serviciu, fie prin oferirea dispozitivelor de chei secrete sau certificate pe care le pot folosi pentru a se înregistra singure în serviciu prima dată când se conectează. Dispozitivele necunoscute nu pot să se conecteze; dacă încearcă, serviciul respinge conexiunea și ignoră mesajele trimise de acestea.
 
@@ -124,7 +124,7 @@ Alte componente ale aplicației tale pot să se conecteze la serviciul IoT și s
 
 Acum că ai un abonament Azure, te poți înscrie pentru un serviciu IoT. Serviciul IoT de la Microsoft se numește Azure IoT Hub.
 
-![Logo-ul Azure IoT Hub](../../../../../translated_images/ro/azure-iot-hub-logo.28a19de76d0a1932464d858f7558712bcdace3e5ec69c434d482ed7ce41c3a26.png)
+![Logo-ul Azure IoT Hub](../../../../../translated_images/ro/azure-iot-hub-logo.28a19de76d0a1932.webp)
 
 Videoclipul de mai jos oferă o scurtă prezentare generală a Azure IoT Hub:
 

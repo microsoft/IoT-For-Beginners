@@ -208,7 +208,7 @@ Tieto certifikáty obsahujú verejné kľúče a nemusia byť uchovávané v bez
 
     Budete môcť vidieť obrázok, ktorý bol zachytený, a tieto hodnoty na karte **Predictions** v službe Custom Vision.
 
-    ![Banán v službe Custom Vision predikovaný ako zrelý na 56.8% a nezrelý na 43.1%](../../../../../translated_images/sk/custom-vision-banana-prediction.30cdff4e1d72db5d9a0be0193790a47c2b387da034e12dc1314dd57ca2131b59.png)
+    ![Banán v službe Custom Vision predikovaný ako zrelý na 56.8% a nezrelý na 43.1%](../../../../../translated_images/sk/custom-vision-banana-prediction.30cdff4e1d72db5d.webp)
 
 > 💁 Tento kód nájdete v priečinku [code-classify/wio-terminal](../../../../../4-manufacturing/lessons/2-check-fruit-from-device/code-classify/wio-terminal).
 

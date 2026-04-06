@@ -1,6 +1,6 @@
 # Conectează dispozitivul tău la Internet
 
-![O prezentare grafică a lecției](../../../../../translated_images/ro/lesson-4.7344e074ea68fa545fd320b12dce36d72dd62d28c3b4596cb26cf315f434b98f.jpg)
+![O prezentare grafică a lecției](../../../../../translated_images/ro/lesson-4.7344e074ea68fa54.webp)
 
 > Schiță realizată de [Nitya Narasimhan](https://github.com/nitya). Click pe imagine pentru o versiune mai mare.
 
@@ -47,7 +47,7 @@ MQTT este cel mai popular protocol de comunicare pentru dispozitivele IoT și es
 
 MQTT are un singur broker și mai mulți clienți. Toți clienții se conectează la broker, iar brokerul direcționează mesajele către clienții relevanți. Mesajele sunt direcționate folosind subiecte denumite, mai degrabă decât să fie trimise direct unui client individual. Un client poate publica pe un subiect, iar orice client care se abonează la acel subiect va primi mesajul.
 
-![Dispozitiv IoT care publică telemetrie pe subiectul /telemetry, iar serviciul cloud se abonează la acel subiect](../../../../../translated_images/ro/mqtt.cbf7f21d9adc3e17548b359444cc11bb4bf2010543e32ece9a47becf54438c23.png)
+![Dispozitiv IoT care publică telemetrie pe subiectul /telemetry, iar serviciul cloud se abonează la acel subiect](../../../../../translated_images/ro/mqtt.cbf7f21d9adc3e17.webp)
 
 ✅ Fă niște cercetări. Dacă ai multe dispozitive IoT, cum poți asigura că brokerul MQTT poate gestiona toate mesajele?
 
@@ -69,7 +69,7 @@ Un caz de utilizare real pentru o astfel de configurație ar putea fi colectarea
 
 > 💁 Acest broker de test este public și nesecurizat. Oricine ar putea asculta ceea ce publici, așa că nu ar trebui utilizat cu date care trebuie păstrate private.
 
-![Un diagramă de flux a exercițiului care arată nivelurile de lumină fiind citite și verificate, și LED-ul fiind controlat](../../../../../translated_images/ro/assignment-1-internet-flow.3256feab5f052fd273bf4e331157c574c2c3fa42e479836fc9c3586f41db35a5.png)
+![Un diagramă de flux a exercițiului care arată nivelurile de lumină fiind citite și verificate, și LED-ul fiind controlat](../../../../../translated_images/ro/assignment-1-internet-flow.3256feab5f052fd2.webp)
 
 Urmează pasul relevant de mai jos pentru a conecta dispozitivul tău la brokerul MQTT:
 
@@ -350,7 +350,7 @@ Pentru mașinării, s-ar putea să vrei să păstrezi datele, mai ales dacă sun
 
 Designerii dispozitivelor IoT ar trebui să ia în considerare, de asemenea, dacă dispozitivul IoT poate fi utilizat în timpul unei întreruperi a Internetului sau a pierderii semnalului cauzate de locație. Un termostat inteligent ar trebui să poată lua unele decizii limitate pentru a controla încălzirea dacă nu poate trimite telemetrie în cloud din cauza unei întreruperi.
 
-[![Această mașină Ferrari a fost blocată pentru că cineva a încercat să o actualizeze sub pământ, unde nu există semnal](../../../../../translated_images/ro/bricked-car.dc38f8efadc6c59d76211f981a521efb300939283dee468f79503aae3ec67615.png)](https://twitter.com/internetofshit/status/1315736960082808832)
+[![Această mașină Ferrari a fost blocată pentru că cineva a încercat să o actualizeze sub pământ, unde nu există semnal](../../../../../translated_images/ro/bricked-car.dc38f8efadc6c59d.webp)](https://twitter.com/internetofshit/status/1315736960082808832)
 
 Pentru ca MQTT să gestioneze o pierdere de conectivitate, codul dispozitivului și al serverului va trebui să fie responsabil pentru asigurarea livrării mesajelor, dacă este necesar, de exemplu prin cerința ca toate mesajele trimise să fie răspunse prin mesaje suplimentare pe un topic de răspuns, iar dacă nu, acestea să fie puse în coadă manual pentru a fi retrimise mai târziu.
 
@@ -358,7 +358,7 @@ Pentru ca MQTT să gestioneze o pierdere de conectivitate, codul dispozitivului 
 
 Comenzile sunt mesaje trimise de cloud către un dispozitiv, instruindu-l să facă ceva. De cele mai multe ori, acest lucru implică oferirea unui fel de ieșire printr-un actuator, dar poate fi și o instrucțiune pentru dispozitivul în sine, cum ar fi să se repornească sau să colecteze telemetrie suplimentară și să o returneze ca răspuns la comandă.
 
-![Un termostat conectat la Internet care primește o comandă pentru a porni încălzirea](../../../../../translated_images/ro/commands.d6c06bbbb3a02cce95f2831a1c331daf6dedd4e470c4aa2b0ae54f332016e504.png)
+![Un termostat conectat la Internet care primește o comandă pentru a porni încălzirea](../../../../../translated_images/ro/commands.d6c06bbbb3a02cce.webp)
 
 Un termostat ar putea primi o comandă din cloud pentru a porni încălzirea. Pe baza datelor de telemetrie de la toți senzorii, dacă serviciul cloud a decis că încălzirea ar trebui să fie pornită, trimite comanda relevantă.
 

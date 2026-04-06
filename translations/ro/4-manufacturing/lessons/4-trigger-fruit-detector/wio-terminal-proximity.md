@@ -20,7 +20,7 @@ Senzorul Grove Time of Flight poate fi conectat la Wio Terminal.
 
 Conectează senzorul Time of Flight.
 
-![Un senzor Grove Time of Flight](../../../../../translated_images/ro/grove-time-of-flight-sensor.d82ff2165bfded9f485de54d8d07195a6270a602696825fca19f629ddfe94e86.png)
+![Un senzor Grove Time of Flight](../../../../../translated_images/ro/grove-time-of-flight-sensor.d82ff2165bfded9f.webp)
 
 1. Introdu un capăt al cablului Grove în conectorul de pe senzorul Time of Flight. Acesta va intra doar într-un singur mod.
 

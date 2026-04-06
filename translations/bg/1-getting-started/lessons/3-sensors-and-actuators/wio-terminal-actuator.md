@@ -26,7 +26,7 @@ Grove LED идва като модул с избор от светодиоди, 
 
 Свържете LED-а.
 
-![Grove LED](../../../../../translated_images/bg/grove-led.6c853be93f473cf2c439cfc74bb1064732b22251a83cedf66e62f783f9cc1a79.png)
+![Grove LED](../../../../../translated_images/bg/grove-led.6c853be93f473cf2.webp)
 
 1. Изберете любимия си LED и поставете крачетата му в двете дупки на LED модула.
 

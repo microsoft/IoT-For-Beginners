@@ -1,6 +1,6 @@
 # Declanșarea detectării calității fructelor de la un senzor
 
-![O prezentare grafică a lecției](../../../../../translated_images/ro/lesson-18.92c32ed1d354caa5a54baa4032cf0b172d4655e8e326ad5d46c558a0def15365.jpg)
+![O prezentare grafică a lecției](../../../../../translated_images/ro/lesson-18.92c32ed1d354caa5.webp)
 
 > Prezentare grafică realizată de [Nitya Narasimhan](https://github.com/nitya). Faceți clic pe imagine pentru o versiune mai mare.
 
@@ -39,7 +39,7 @@ Aplicațiile IoT pot fi descrise ca *dispozitive* care trimit date ce generează
 
 ### Arhitectura de referință IoT
 
-![O arhitectură de referință IoT](../../../../../translated_images/ro/iot-reference-architecture.2278b98b55c6d4e89bde18eada3688d893861d43507641804dd2f9d3079cfaa0.png)
+![O arhitectură de referință IoT](../../../../../translated_images/ro/iot-reference-architecture.2278b98b55c6d4e8.webp)
 
 Diagrama de mai sus prezintă o arhitectură de referință IoT.
 
@@ -49,7 +49,7 @@ Diagrama de mai sus prezintă o arhitectură de referință IoT.
 * **Informațiile** provin din aplicații serverless sau din analize efectuate pe datele stocate.
 * **Acțiunile** pot fi comenzi trimise către dispozitive sau vizualizarea datelor pentru a permite oamenilor să ia decizii.
 
-![O arhitectură de referință IoT pe Azure](../../../../../translated_images/ro/iot-reference-architecture-azure.0b8d2161af924cb18ae48a8558a19541cca47f27264851b5b7e56d7b8bb372ac.png)
+![O arhitectură de referință IoT pe Azure](../../../../../translated_images/ro/iot-reference-architecture-azure.0b8d2161af924cb1.webp)
 
 Diagrama de mai sus prezintă câteva dintre componentele și serviciile acoperite până acum în aceste lecții și modul în care acestea se leagă într-o arhitectură de referință IoT.
 
@@ -89,7 +89,7 @@ Trebuie să construiți un sistem în care fructele sunt detectate pe măsură c
 
 ### Prototiparea aplicației
 
-![O arhitectură de referință IoT pentru verificarea calității fructelor](../../../../../translated_images/ro/iot-reference-architecture-fruit-quality.cc705f121c3b6fa71c800d9630935ac34bc08223a04601e35f41d5e9b5dd5207.png)
+![O arhitectură de referință IoT pentru verificarea calității fructelor](../../../../../translated_images/ro/iot-reference-architecture-fruit-quality.cc705f121c3b6fa7.webp)
 
 Diagrama de mai sus prezintă o arhitectură de referință pentru această aplicație prototip.
 
@@ -124,7 +124,7 @@ Parcurgeți ghidul relevant pentru a utiliza un senzor de proximitate pentru a d
 
 Prototipul detectorului de fructe are mai multe componente care comunică între ele.
 
-![Componentele care comunică între ele](../../../../../translated_images/ro/fruit-quality-detector-message-flow.adf2a65da8fd8741ac7af11361574de89adc126785d67606bb4d2ec00467e380.png)
+![Componentele care comunică între ele](../../../../../translated_images/ro/fruit-quality-detector-message-flow.adf2a65da8fd8741.webp)
 
 * Un senzor de proximitate care măsoară distanța până la un fruct și trimite aceste date către IoT Hub
 * Comanda pentru controlul camerei venind de la IoT Hub către dispozitivul cu camera

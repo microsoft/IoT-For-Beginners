@@ -1,6 +1,6 @@
 # Interakcia s fyzickým svetom pomocou senzorov a akčných členov
 
-![Prehľad tejto lekcie vo forme sketchnote](../../../../../translated_images/sk/lesson-3.cc3b7b4cd646de598698cce043c0393fd62ef42bac2eaf60e61272cd844250f4.jpg)
+![Prehľad tejto lekcie vo forme sketchnote](../../../../../translated_images/sk/lesson-3.cc3b7b4cd646de59.webp)
 
 > Sketchnote od [Nitya Narasimhan](https://github.com/nitya). Kliknite na obrázok pre väčšiu verziu.
 
@@ -92,7 +92,7 @@ Digitálne senzory, podobne ako analógové senzory, zisťujú svet okolo seba p
 
 Najjednoduchším digitálnym senzorom je tlačidlo alebo spínač. Ide o senzor s dvoma stavmi, zapnutý alebo vypnutý.
 
-![Tlačidlo prijíma 5 voltov. Keď nie je stlačené, vracia 0 voltov, keď je stlačené, vracia 5 voltov](../../../../../translated_images/sk/button.eadb560b77ac45e56f523d9d8876e40444f63b419e33eb820082d461fa79490b.png)
+![Tlačidlo prijíma 5 voltov. Keď nie je stlačené, vracia 0 voltov, keď je stlačené, vracia 5 voltov](../../../../../translated_images/sk/button.eadb560b77ac45e5.webp)
 
 Piny na IoT zariadeniach, ako sú GPIO piny, môžu tento signál priamo merať ako 0 alebo 1. Ak je napätie poslané rovnaké ako napätie vrátené, hodnota je 1, inak je hodnota 0. Nie je potrebné konvertovať signál, môže byť iba 1 alebo 0.
 
@@ -125,7 +125,7 @@ Niektoré bežné akčné členy zahŕňajú:
 
 Postupujte podľa príslušného návodu nižšie na pridanie akčného člena do vášho IoT zariadenia, ktorý bude ovládaný senzorom, na vytvorenie IoT nočného svetla. Bude zhromažďovať úrovne svetla zo svetelného senzora a používať akčný člen vo forme LED diódy na vyžarovanie svetla, keď je detegovaná úroveň svetla príliš nízka.
 
-![Diagram úlohy zobrazujúci čítanie a kontrolu úrovní svetla a ovládanie LED diódy](../../../../../translated_images/sk/assignment-1-flow.7552a51acb1a5ec858dca6e855cdbb44206434006df8ba3799a25afcdab1665d.png)
+![Diagram úlohy zobrazujúci čítanie a kontrolu úrovní svetla a ovládanie LED diódy](../../../../../translated_images/sk/assignment-1-flow.7552a51acb1a5ec8.webp)
 
 * [Arduino - Wio Terminal](wio-terminal-actuator.md)
 * [Jednodoskový počítač - Raspberry Pi](pi-actuator.md)
@@ -140,7 +140,7 @@ Rovnako ako senzory, aj akčné členy môžu byť analógové alebo digitálne.
 Analógové akčné členy prijímajú analógový signál a prevádzajú ho na určitý druh interakcie, kde sa interakcia mení na základe dodaného napätia.
 
 Jedným príkladom je stmievateľné svetlo, ako tie, ktoré môžete mať doma. Množstvo dodaného napätia určuje, aké jasné svetlo bude.
-![Svetlo stlmené pri nízkom napätí a jasnejšie pri vyššom napätí](../../../../../translated_images/sk/dimmable-light.9ceffeb195dec1a849da718b2d71b32c35171ff7dfea9c07bbf82646a67acf6b.png)
+![Svetlo stlmené pri nízkom napätí a jasnejšie pri vyššom napätí](../../../../../translated_images/sk/dimmable-light.9ceffeb195dec1a8.webp)
 
 Rovnako ako pri senzoroch, skutočné IoT zariadenie pracuje s digitálnymi signálmi, nie analógovými. To znamená, že na odoslanie analógového signálu potrebuje IoT zariadenie prevodník z digitálneho na analógový signál (DAC), buď priamo na IoT zariadení, alebo na pripojovacej doske. Tento prevodník konvertuje 0 a 1 z IoT zariadenia na analógové napätie, ktoré môže použiť akčný člen.
 
@@ -187,7 +187,7 @@ Digitálne akčné členy, podobne ako digitálne senzory, majú buď dva stavy 
 
 Jednoduchým digitálnym akčným členom je LED dióda. Keď zariadenie odošle digitálny signál 1, odošle sa vysoké napätie, ktoré rozsvieti LED diódu. Keď sa odošle digitálny signál 0, napätie klesne na 0V a LED dióda sa vypne.
 
-![LED dióda je vypnutá pri 0 voltoch a zapnutá pri 5V](../../../../../translated_images/sk/led.ec6d94f66676a174ad06d9fa9ea49c2ee89beb18b312d5c6476467c66375b07f.png)
+![LED dióda je vypnutá pri 0 voltoch a zapnutá pri 5V](../../../../../translated_images/sk/led.ec6d94f66676a174.webp)
 
 ✅ Aké ďalšie jednoduché dvojstavové akčné členy vás napadajú? Jedným príkladom je solenoid, čo je elektromagnet, ktorý sa dá aktivovať na vykonanie úkonov, ako je pohyb zámku dverí na ich zamknutie/odomknutie.
 

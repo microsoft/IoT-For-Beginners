@@ -28,11 +28,11 @@ Pridajte relé do aplikácie CounterFit.
 
     1. Kliknite na tlačidlo **Add**, aby ste vytvorili relé na pine 5.
 
-    ![Nastavenia relé](../../../../../translated_images/sk/counterfit-create-relay.fa7c40fd0f2f6afc33b35ea94fcb235085be4861e14e3fe6b9b7bcfc82d1c888.png)
+    ![Nastavenia relé](../../../../../translated_images/sk/counterfit-create-relay.fa7c40fd0f2f6afc.webp)
 
     Relé bude vytvorené a zobrazí sa v zozname aktuátorov.
 
-    ![Vytvorené relé](../../../../../translated_images/sk/counterfit-relay.bbf74c1dbdc8b9acd983367fcbd06703a402aefef6af54ddb28e11307ba8a12c.png)
+    ![Vytvorené relé](../../../../../translated_images/sk/counterfit-relay.bbf74c1dbdc8b9ac.webp)
 
 ## Programovanie relé
 

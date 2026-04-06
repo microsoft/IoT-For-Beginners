@@ -20,7 +20,7 @@ Grove Time of Flight senzor je možné pripojiť k Wio Terminalu.
 
 Pripojte senzor Time of Flight.
 
-![Grove Time of Flight senzor](../../../../../translated_images/sk/grove-time-of-flight-sensor.d82ff2165bfded9f485de54d8d07195a6270a602696825fca19f629ddfe94e86.png)
+![Grove Time of Flight senzor](../../../../../translated_images/sk/grove-time-of-flight-sensor.d82ff2165bfded9f.webp)
 
 1. Zasuňte jeden koniec Grove kábla do konektora na senzore Time of Flight. Kábel sa dá zasunúť iba jedným spôsobom.
 

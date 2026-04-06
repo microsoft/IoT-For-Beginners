@@ -1,6 +1,6 @@
 # Rozpoznávanie reči pomocou IoT zariadenia
 
-![Prehľad tejto lekcie vo forme sketchnote](../../../../../translated_images/sk/lesson-21.e34de51354d6606fb5ee08d8c89d0222eea0a2a7aaf744a8805ae847c4f69dc4.jpg)
+![Prehľad tejto lekcie vo forme sketchnote](../../../../../translated_images/sk/lesson-21.e34de51354d6606f.webp)
 
 > Sketchnote od [Nitya Narasimhan](https://github.com/nitya). Kliknite na obrázok pre väčšiu verziu.
 
@@ -51,7 +51,7 @@ Mikrofóny existujú v rôznych typoch:
 
     Dynamické mikrofóny nepotrebujú na svoju činnosť napájanie, elektrický signál sa vytvára výlučne z mikrofónu.
 
-    ![Patti Smith spieva do mikrofónu Shure SM58 (dynamický typ kardioid)](../../../../../translated_images/sk/dynamic-mic.8babac890a2d80dfb0874b5bf37d4b851fe2aeb9da6fd72945746176978bf3bb.jpg)
+    ![Patti Smith spieva do mikrofónu Shure SM58 (dynamický typ kardioid)](../../../../../translated_images/sk/dynamic-mic.8babac890a2d80df.webp)
 
 * Páskové - Páskové mikrofóny sú podobné dynamickým mikrofónom, ale namiesto membrány majú kovovú pásku. Táto páska sa pohybuje v magnetickom poli a generuje elektrický prúd. Rovnako ako dynamické mikrofóny, páskové mikrofóny nepotrebujú napájanie na svoju činnosť.
 
@@ -59,11 +59,11 @@ Mikrofóny existujú v rôznych typoch:
 
 * Kondenzátorové - Kondenzátorové mikrofóny majú tenkú kovovú membránu a pevný kovový zadný plát. Elektrina sa aplikuje na obe tieto časti a keď membrána vibruje, statický náboj medzi platňami sa mení a generuje signál. Kondenzátorové mikrofóny potrebujú na svoju činnosť napájanie - nazývané *Phantom power*.
 
-    ![C451B malý membránový kondenzátorový mikrofón od AKG Acoustics](../../../../../translated_images/sk/condenser-mic.6f6ed5b76ca19e0ec3fd0c544601542d4479a6cb7565db336de49fbbf69f623e.jpg)
+    ![C451B malý membránový kondenzátorový mikrofón od AKG Acoustics](../../../../../translated_images/sk/condenser-mic.6f6ed5b76ca19e0e.webp)
 
 * MEMS - Mikrofóny na báze mikroelektromechanických systémov (MEMS) sú mikrofóny na čipe. Majú tlakovo citlivú membránu vyrytú na kremíkovom čipe a fungujú podobne ako kondenzátorové mikrofóny. Tieto mikrofóny môžu byť veľmi malé a integrované do obvodov.
 
-    ![MEMS mikrofón na obvodovej doske](../../../../../translated_images/sk/mems-microphone.80574019e1f5e4d9ee72fed720ecd25a39fc2969c91355d17ebb24ba4159e4c4.png)
+    ![MEMS mikrofón na obvodovej doske](../../../../../translated_images/sk/mems-microphone.80574019e1f5e4d9.webp)
 
     Na obrázku vyššie je čip označený **LEFT** MEMS mikrofón s malou membránou menšou ako milimeter.
 
@@ -159,7 +159,7 @@ Aby ste sa vyhli zložitosti trénovania a používania modelu na detekciu aktiv
 
 ## Prevod reči na text
 
-![Logo služieb reči](../../../../../translated_images/sk/azure-speech-logo.a1f08c4befb0159f2cb5d692d3baf5b599e7b44759d316da907bda1508f46a4a.png)
+![Logo služieb reči](../../../../../translated_images/sk/azure-speech-logo.a1f08c4befb0159f.webp)
 
 Rovnako ako pri klasifikácii obrázkov v predchádzajúcom projekte, existujú predpripravené AI služby, ktoré dokážu previesť reč ako zvukový súbor na text. Jednou z takýchto služieb je Speech Service, ktorá je súčasťou Cognitive Services, predpripravených AI služieb, ktoré môžete použiť vo svojich aplikáciách.
 

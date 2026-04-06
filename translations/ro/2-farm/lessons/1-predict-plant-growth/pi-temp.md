@@ -16,7 +16,7 @@ Senzorul de temperatură Grove poate fi conectat la Raspberry Pi.
 
 Conectează senzorul de temperatură
 
-![Un senzor de temperatură Grove](../../../../../translated_images/ro/grove-dht11.07f8eafceee170043efbb53e1d15722bd4e00fbaa9ff74290b57e9f66eb82c17.png)
+![Un senzor de temperatură Grove](../../../../../translated_images/ro/grove-dht11.07f8eafceee17004.webp)
 
 1. Introdu un capăt al unui cablu Grove în mufa senzorului de umiditate și temperatură. Acesta va intra doar într-un singur sens.
 

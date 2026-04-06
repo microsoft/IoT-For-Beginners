@@ -1,6 +1,6 @@
 # Setează un cronometru și oferă feedback vocal
 
-![O prezentare grafică a lecției](../../../../../translated_images/ro/lesson-23.f38483e1d4df4828990d3f02d60e46c978b075d384ae7cb4f7bab738e107c850.jpg)
+![O prezentare grafică a lecției](../../../../../translated_images/ro/lesson-23.f38483e1d4df4828.webp)
 
 > Prezentare grafică realizată de [Nitya Narasimhan](https://github.com/nitya). Click pe imagine pentru o versiune mai mare.
 

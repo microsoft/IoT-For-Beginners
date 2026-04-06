@@ -1,6 +1,6 @@
 # Trénovanie detektora kvality ovocia
 
-![Prehľad tejto lekcie v sketchnote](../../../../../translated_images/sk/lesson-15.843d21afdc6fb2bba70cd9db7b7d2f91598859fafda2078b0bdc44954194b6c0.jpg)
+![Prehľad tejto lekcie v sketchnote](../../../../../translated_images/sk/lesson-15.843d21afdc6fb2bb.webp)
 
 > Sketchnote od [Nitya Narasimhan](https://github.com/nitya). Kliknite na obrázok pre väčšiu verziu.
 
@@ -38,7 +38,7 @@ Nie všetky plodiny dozrievajú rovnomerne. Napríklad paradajky môžu mať na 
 
 Vzostup automatizovaného zberu presunul triedenie plodín zo zberu do továrne. Potraviny by cestovali na dlhých dopravníkoch s tímami ľudí, ktorí by preberali plodiny a odstraňovali všetko, čo nespĺňalo požadované kvalitatívne štandardy. Zber bol lacnejší vďaka strojom, ale stále existovali náklady na manuálne triedenie potravín.
 
-![Ak je detekovaná červená paradajka, pokračuje vo svojej ceste bez prerušenia. Ak je detekovaná zelená paradajka, páka ju odhodí do odpadového koša.](../../../../../translated_images/sk/optical-tomato-sorting.61aa134bdda4e5b1bfb16a212c1e35a6ef0c426cbb8b1c975f79d7bfbf48d068.png)
+![Ak je detekovaná červená paradajka, pokračuje vo svojej ceste bez prerušenia. Ak je detekovaná zelená paradajka, páka ju odhodí do odpadového koša.](../../../../../translated_images/sk/optical-tomato-sorting.61aa134bdda4e5b1.webp)
 
 Ďalšou evolúciou bolo použitie strojov na triedenie, buď zabudovaných do zberača, alebo v spracovateľských závodoch. Prvá generácia týchto strojov používala optické senzory na detekciu farieb, ovládajúc akčné členy na odhadzovanie zelených paradajok do odpadového koša pomocou pák alebo vzduchových prúdov, pričom červené paradajky pokračovali na sieti dopravníkov.
 
@@ -62,7 +62,7 @@ Napríklad, môžete dať modelu milióny obrázkov nezrelých banánov ako vstu
 
 > 🎓 Výsledky modelov ML sa nazývajú *predikcie*.
 
-![2 banány, jeden zrelý s predikciou 99,7% zrelý, 0,3% nezrelý, a jeden nezrelý s predikciou 1,4% zrelý, 98,6% nezrelý.](../../../../../translated_images/sk/bananas-ripe-vs-unripe-predictions.8d0e2034014aa50ece4e4589e724b142da0681f35470fe3db3f7d51240f69c85.png)
+![2 banány, jeden zrelý s predikciou 99,7% zrelý, 0,3% nezrelý, a jeden nezrelý s predikciou 1,4% zrelý, 98,6% nezrelý.](../../../../../translated_images/sk/bananas-ripe-vs-unripe-predictions.8d0e2034014aa50e.webp)
 
 Modely ML neposkytujú binárnu odpoveď, namiesto toho poskytujú pravdepodobnosti. Napríklad, model môže dostať obrázok banánu a predpovedať `zrelý` na 99,7% a `nezrelý` na 0,3%. Váš kód by potom vybral najlepšiu predikciu a rozhodol, že banán je zrelý.
 
@@ -90,7 +90,7 @@ Existuje široká škála nástrojov, ktoré vám s tým môžu pomôcť, vráta
 
 Custom Vision je cloudový nástroj na trénovanie klasifikátorov obrázkov. Umožňuje vám trénovať klasifikátor pomocou iba malej sady obrázkov. Obrázky môžete nahrať cez webový portál, webové API alebo SDK, pričom každému obrázku priradíte *tag*, ktorý predstavuje klasifikáciu daného obrázka. Potom model natrénujete a otestujete, ako dobre funguje. Keď ste s modelom spokojní, môžete publikovať jeho verzie, ktoré môžu byť prístupné prostredníctvom webového API alebo SDK.
 
-![Logo Azure Custom Vision](../../../../../translated_images/sk/custom-vision-logo.d3d4e7c8a87ec9daf825e72e210576c3cbf60312577be7a139e22dd97ab7f1e6.png)
+![Logo Azure Custom Vision](../../../../../translated_images/sk/custom-vision-logo.d3d4e7c8a87ec9da.webp)
 
 > 💁 Na trénovanie modelu Custom Vision stačí už 5 obrázkov na klasifikáciu, ale viac je lepšie. Lepšie výsledky dosiahnete s aspoň 30 obrázkami.
 
@@ -146,7 +146,7 @@ Na použitie Custom Vision musíte najprv vytvoriť dva zdroje kognitívnych slu
 
     Pri vytváraní projektu sa uistite, že používate zdroj `fruit-quality-detector-training`, ktorý ste vytvorili skôr. Použite typ projektu *Classification*, typ klasifikácie *Multiclass* a doménu *Food*.
 
-    ![Nastavenia projektu Custom Vision s názvom nastaveným na fruit-quality-detector, bez popisu, zdroj nastavený na fruit-quality-detector-training, typ projektu nastavený na classification, typ klasifikácie nastavený na multi class a doména nastavená na food.](../../../../../translated_images/sk/custom-vision-create-project.cf46325b92d8b131089f6647cf5e07b664cb77850e106d66e3c057b6b69756c6.png)
+    ![Nastavenia projektu Custom Vision s názvom nastaveným na fruit-quality-detector, bez popisu, zdroj nastavený na fruit-quality-detector-training, typ projektu nastavený na classification, typ klasifikácie nastavený na multi class a doména nastavená na food.](../../../../../translated_images/sk/custom-vision-create-project.cf46325b92d8b131.webp)
 
 ✅ Venujte nejaký čas preskúmaniu používateľského rozhrania Custom Vision pre váš klasifikátor obrázkov.
 
@@ -164,7 +164,7 @@ Klasifikátory obrázkov pracujú s veľmi nízkym rozlíšením. Napríklad Cus
 
     * Použite 2 zrelé banány, odfoťte každý z nich z niekoľkých rôznych uhlov, pričom urobte aspoň 7 fotografií (5 na tréning, 2 na testovanie), ale ideálne viac.
 
-        ![Fotografie 2 rôznych banánov](../../../../../translated_images/sk/banana-training-images.530eb203346d73bc23b8b990fb4609470bf4ff7c942ccc13d4cfffeed9be1ad4.png)
+        ![Fotografie 2 rôznych banánov](../../../../../translated_images/sk/banana-training-images.530eb203346d73bc.webp)
 
     * Rovnaký postup zopakujte s 2 nezrelými banánmi.
 
@@ -174,7 +174,7 @@ Klasifikátory obrázkov pracujú s veľmi nízkym rozlíšením. Napríklad Cus
 
 1. Postupujte podľa [časti o nahrávaní a označovaní obrázkov v rýchlom návode na vytvorenie klasifikátora na Microsoft Docs](https://docs.microsoft.com/azure/cognitive-services/custom-vision-service/getting-started-build-a-classifier?WT.mc_id=academic-17441-jabenn#upload-and-tag-images), aby ste nahrali svoje tréningové obrázky. Označte zrelé ovocie ako `ripe` a nezrelé ovocie ako `unripe`.
 
-    ![Dialógy na nahrávanie zobrazujúce nahrávanie obrázkov zrelých a nezrelých banánov](../../../../../translated_images/sk/image-upload-bananas.0751639f3815e0ec42bdbc6254d1e4357a185834d1ae10c9948a0e7d6d336695.png)
+    ![Dialógy na nahrávanie zobrazujúce nahrávanie obrázkov zrelých a nezrelých banánov](../../../../../translated_images/sk/image-upload-bananas.0751639f3815e0ec.webp)
 
 1. Postupujte podľa [časti o tréningu klasifikátora v rýchlom návode na vytvorenie klasifikátora na Microsoft Docs](https://docs.microsoft.com/azure/cognitive-services/custom-vision-service/getting-started-build-a-classifier?WT.mc_id=academic-17441-jabenn#train-the-classifier), aby ste natrénovali klasifikátor obrázkov na nahraných obrázkoch.
 
@@ -192,7 +192,7 @@ Keď je váš klasifikátor natrénovaný, môžete ho otestovať pomocou novéh
 
 1. Postupujte podľa [dokumentácie na testovanie modelu na Microsoft Docs](https://docs.microsoft.com/azure/cognitive-services/custom-vision-service/test-your-model?WT.mc_id=academic-17441-jabenn#test-your-model), aby ste otestovali svoj klasifikátor obrázkov. Použite testovacie obrázky, ktoré ste vytvorili skôr, nie obrázky použité na tréning.
 
-    ![Nezrelý banán predpovedaný ako nezrelý s pravdepodobnosťou 98,9 %, zrelý s pravdepodobnosťou 1,1 %](../../../../../translated_images/sk/banana-unripe-quick-test-prediction.dae9b5e1c4ef7c64886422438850ea14f0be6ac918c217ea3b255c685abfabe7.png)
+    ![Nezrelý banán predpovedaný ako nezrelý s pravdepodobnosťou 98,9 %, zrelý s pravdepodobnosťou 1,1 %](../../../../../translated_images/sk/banana-unripe-quick-test-prediction.dae9b5e1c4ef7c64.webp)
 
 1. Vyskúšajte všetky testovacie obrázky, ktoré máte k dispozícii, a sledujte pravdepodobnosti.
 

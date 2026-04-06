@@ -1,6 +1,6 @@
 # Udare automată a plantelor
 
-![O prezentare vizuală a lecției](../../../../../translated_images/ro/lesson-7.30b5f577d3cb8e031238751475cb519c7d6dbaea261b5df4643d086ffb2a03bb.jpg)
+![O prezentare vizuală a lecției](../../../../../translated_images/ro/lesson-7.30b5f577d3cb8e03.webp)
 
 > Schiță realizată de [Nitya Narasimhan](https://github.com/nitya). Faceți clic pe imagine pentru o versiune mai mare.
 
@@ -32,7 +32,7 @@ Dispozitivele IoT folosesc o tensiune joasă. Deși aceasta este suficientă pen
 
 Soluția este să conectați pompa la o sursă de alimentare externă și să folosiți un actuator pentru a porni pompa, similar cu modul în care aprindeți o lumină. Este nevoie de o cantitate mică de energie (sub formă de energie din corpul dumneavoastră) pentru ca degetul să apese pe un întrerupător, iar acest lucru conectează lumina la rețeaua electrică de 110V/240V.
 
-![Un întrerupător de lumină pornește alimentarea unei lămpi](../../../../../translated_images/ro/light-switch.760317ad6ab8bd6d611da5352dfe9c73a94a0822ccec7df3c8bae35da18e1658.png)
+![Un întrerupător de lumină pornește alimentarea unei lămpi](../../../../../translated_images/ro/light-switch.760317ad6ab8bd6d.webp)
 
 > 🎓 [Electricitatea de rețea](https://wikipedia.org/wiki/Mains_electricity) se referă la electricitatea livrată în case și afaceri prin infrastructura națională în multe părți ale lumii.
 
@@ -72,7 +72,7 @@ Când pârghia se mișcă, de obicei puteți auzi cum face contact cu electromag
 
 Electromagnetul nu are nevoie de multă putere pentru a se activa și a trage pârghia, acesta poate fi controlat folosind ieșirea de 3.3V sau 5V de la un kit de dezvoltare IoT. Circuitul de ieșire poate transporta mult mai multă putere, în funcție de releu, inclusiv tensiune de rețea sau chiar niveluri mai mari de putere pentru utilizare industrială. Astfel, un kit de dezvoltare IoT poate controla un sistem de irigații, de la o pompă mică pentru o singură plantă, până la un sistem industrial masiv pentru o fermă comercială întreagă.
 
-![Un releu Grove cu circuitul de control, circuitul de ieșire și releul etichetate](../../../../../translated_images/ro/grove-relay-labelled.293e068f5c3c2a199bd7892f2661fdc9e10c920b535cfed317fbd6d1d4ae1168.png)
+![Un releu Grove cu circuitul de control, circuitul de ieșire și releul etichetate](../../../../../translated_images/ro/grove-relay-labelled.293e068f5c3c2a19.webp)
 
 Imaginea de mai sus arată un releu Grove. Circuitul de control se conectează la un dispozitiv IoT și pornește sau oprește releul folosind 3.3V sau 5V. Circuitul de ieșire are două terminale, oricare dintre ele poate fi alimentare sau masă. Circuitul de ieșire poate gestiona până la 250V la 10A, suficient pentru o gamă de dispozitive alimentate de la rețea. Puteți găsi relee care pot gestiona chiar și niveluri mai mari de putere.
 
